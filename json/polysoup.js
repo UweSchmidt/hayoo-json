@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "polysoup"
+        "phrase": "polysoup",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides some common XML tree parsing combinators.\n There are two main groups of combinators: XPath-like combinators\n and tag/forest combinators.  Use combinators from the first group\n if possible, since they are generally easier too use and generate\n results in a lazy manner.\n\u003c/p\u003e\u003cp\u003eThe second class contains more powerful combinators which can be used\n to parse the contents of an XML node in a generic way.  Note, that\n combinators from the two groups can be interleaved -- you can use\n a forest parser to construct a tree predicate, but you can also use\n a tree predicate as an elementary forest parser (see the\n \u003ca\u003eText.XML.PolySoup.Parser\u003c/a\u003e module).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Combine",
           "name": "Combine",
           "package": "polysoup",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The module provides some common XML tree parsing combinators There are two main groups of combinators XPath-like combinators and tag forest combinators Use combinators from the first group if possible since they are generally easier too use and generate results in lazy manner The second class contains more powerful combinators which can be used to parse the contents of an XML node in generic way Note that combinators from the two groups can be interleaved you can use forest parser to construct tree predicate but you can also use tree predicate as an elementary forest parser see the Text.XML.PolySoup.Parser module",
           "hierarchy": "Text XML PolySoup Combine",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Combine",
           "name": "Combine",
           "package": "polysoup",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003e/\u003e\u003c/a\u003e\u003c/code\u003e combinator but runs the XML parser for all\n descendant XML elements, not only for its children.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(//\u003e)",
           "package": "polysoup",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Similar to combinator but runs the XML parser for all descendant XML elements not only for its children",
           "hierarchy": "Text XML PolySoup Combine",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(//\u003e) //\u003e",
           "normalized": "Q(Tag a)b-\u003eQ(XmlTree a)c-\u003eQ(XmlTree a)[c]",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine the tag parser with the XML parser.  The XML parser will\n be called multiple times for tag children elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(/\u003e)",
           "package": "polysoup",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Combine the tag parser with the XML parser The XML parser will be called multiple times for tag children elements",
           "hierarchy": "Text XML PolySoup Combine",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(/\u003e) /\u003e",
           "normalized": "Q(Tag a)b-\u003eQ(XmlTree a)c-\u003eQ(XmlTree a)[c]",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine the tag parser with the XML parser.  The XML parser will\n be called multiple times for tag children elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(\u003c/\u003e)",
           "package": "polysoup",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Combine the tag parser with the XML parser The XML parser will be called multiple times for tag children elements",
           "hierarchy": "Text XML PolySoup Combine",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "Q(Tag a)b-\u003eQ(XmlTree a)c-\u003eQ(XmlTree a)(b,[c])",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix version of the joinL combinators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(\u003c^)",
           "package": "polysoup",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Infix version of the joinL combinators",
           "hierarchy": "Text XML PolySoup Combine",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(\u003c^) \u003c^",
           "normalized": "Q(Tag a)b-\u003eP(XmlTree a)c-\u003eQ(XmlTree a)b",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix version of the joinP combinators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(\u003c^\u003e)",
           "package": "polysoup",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Infix version of the joinP combinators",
           "hierarchy": "Text XML PolySoup Combine",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(\u003c^\u003e) \u003c^\u003e",
           "normalized": "Q(Tag a)b-\u003eP(XmlTree a)c-\u003eQ(XmlTree a)(b,c)",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine a tag predicate with an XML predicate.  The XML predicate can\n depend on the value of tag parser and will be called multiple times for\n tag children elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(\u003e/\u003e)",
           "package": "polysoup",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Combine tag predicate with an XML predicate The XML predicate can depend on the value of tag parser and will be called multiple times for tag children elements",
           "hierarchy": "Text XML PolySoup Combine",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(\u003e/\u003e) \u003e/\u003e",
           "normalized": "Q(Tag a)b-\u003e(b-\u003eQ(XmlTree a)c)-\u003eQ(XmlTree a)[c]",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix version of the join combinators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(\u003e^\u003e)",
           "package": "polysoup",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Infix version of the join combinators",
           "hierarchy": "Text XML PolySoup Combine",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(\u003e^\u003e) \u003e^\u003e",
           "normalized": "Q(Tag a)b-\u003e(b-\u003eP(XmlTree a)c)-\u003eQ(XmlTree a)c",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix version of the joinR combinators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(^\u003e)",
           "package": "polysoup",
@@ -227,6 +244,7 @@
         "index": {
           "description": "Infix version of the joinR combinators",
           "hierarchy": "Text XML PolySoup Combine",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Combine",
           "name": "(^\u003e) ^\u003e",
           "normalized": "Q(Tag a)b-\u003eP(XmlTree a)c-\u003eQ(XmlTree a)c",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine the tag predicate with the forest parser which will be used\n to parse contents of the tag element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Combine",
           "name": "join",
           "package": "polysoup",
@@ -252,6 +271,7 @@
         "index": {
           "description": "Combine the tag predicate with the forest parser which will be used to parse contents of the tag element",
           "hierarchy": "Text XML PolySoup Combine",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Combine",
           "name": "join",
           "normalized": "Q(Tag a)b-\u003e(b-\u003eP(XmlTree a)c)-\u003eQ(XmlTree a)c",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine the tag predicate with the orest parser which will be used\n to parse contents of the tag element.  Only results of the tag predicate\n will be returned (the contents have to be successfully parsed, though).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Combine",
           "name": "joinL",
           "package": "polysoup",
@@ -277,6 +298,7 @@
         "index": {
           "description": "Combine the tag predicate with the orest parser which will be used to parse contents of the tag element Only results of the tag predicate will be returned the contents have to be successfully parsed though",
           "hierarchy": "Text XML PolySoup Combine",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Combine",
           "name": "joinL",
           "normalized": "Q(Tag a)b-\u003eP(XmlTree a)c-\u003eQ(XmlTree a)b",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine the tag predicate with the forest parser which will be used\n to parse contents of the tag element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Combine",
           "name": "joinP",
           "package": "polysoup",
@@ -302,6 +325,7 @@
         "index": {
           "description": "Combine the tag predicate with the forest parser which will be used to parse contents of the tag element",
           "hierarchy": "Text XML PolySoup Combine",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Combine",
           "name": "joinP",
           "normalized": "Q(Tag a)b-\u003eP(XmlTree a)c-\u003eQ(XmlTree a)(b,c)",
@@ -317,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine the tag predicate with the orest parser which will be used\n to parse contents of the tag element.  Only results of the forest parser\n will be returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Combine",
           "name": "joinR",
           "package": "polysoup",
@@ -327,6 +352,7 @@
         "index": {
           "description": "Combine the tag predicate with the orest parser which will be used to parse contents of the tag element Only results of the forest parser will be returned",
           "hierarchy": "Text XML PolySoup Combine",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Combine",
           "name": "joinR",
           "normalized": "Q(Tag a)b-\u003eP(XmlTree a)c-\u003eQ(XmlTree a)c",
@@ -342,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a tree-level predicate from a tag-level predicate.\n Note, that in most cases you won't need this function, you\n can make use of the \u003ccode\u003eQuery\u003c/code\u003e typeclass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Combine",
           "name": "node",
           "package": "polysoup",
@@ -352,6 +379,7 @@
         "index": {
           "description": "Make tree-level predicate from tag-level predicate Note that in most cases you won need this function you can make use of the Query typeclass",
           "hierarchy": "Text XML PolySoup Combine",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Combine",
           "name": "node",
           "normalized": "Q(Tag a)b-\u003eQ(XmlTree a)b",
@@ -367,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module defines a generic parser which can be used, in particular,\n to parse XML forests.  The main characteristic of the parser is that it\n can be used in a sequential (sub-trees are processed in order) and a\n selective (subtrees are process regardless of their position) way.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Parser",
           "name": "Parser",
           "package": "polysoup",
@@ -376,6 +405,7 @@
         "index": {
           "description": "The module defines generic parser which can be used in particular to parse XML forests The main characteristic of the parser is that it can be used in sequential sub-trees are processed in order and selective subtrees are process regardless of their position way",
           "hierarchy": "Text XML PolySoup Parser",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Parser",
           "name": "Parser",
           "package": "polysoup",
@@ -390,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XML forest parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Parser",
           "name": "P",
           "package": "polysoup",
@@ -399,6 +430,7 @@
         "index": {
           "description": "An XML forest parser",
           "hierarchy": "Text XML PolySoup Parser",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Parser",
           "name": "P",
           "package": "polysoup",
@@ -411,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Parser",
           "name": "P",
           "package": "polysoup",
@@ -420,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Text XML PolySoup Parser",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Parser",
           "name": "P",
           "package": "polysoup",
@@ -433,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate parser on the given XML forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Parser",
           "name": "evalP",
           "package": "polysoup",
@@ -443,6 +478,7 @@
         "index": {
           "description": "Evaluate parser on the given XML forest",
           "hierarchy": "Text XML PolySoup Parser",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Parser",
           "name": "evalP",
           "normalized": "P a b-\u003e[a]-\u003eMaybe b",
@@ -458,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect every tree satisfying the given predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Parser",
           "name": "every",
           "package": "polysoup",
@@ -468,6 +505,7 @@
         "index": {
           "description": "Select every tree satisfying the given predicate",
           "hierarchy": "Text XML PolySoup Parser",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Parser",
           "name": "every",
           "normalized": "Q a b-\u003eP a[b]",
@@ -483,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synonym to \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Parser",
           "name": "find",
           "package": "polysoup",
@@ -493,6 +532,7 @@
         "index": {
           "description": "synonym to first",
           "hierarchy": "Text XML PolySoup Parser",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Parser",
           "name": "find",
           "normalized": "Q a b-\u003eP a b",
@@ -508,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the first tree satisfying the given predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Parser",
           "name": "first",
           "package": "polysoup",
@@ -518,6 +559,7 @@
         "index": {
           "description": "Find the first tree satisfying the given predicate",
           "hierarchy": "Text XML PolySoup Parser",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Parser",
           "name": "first",
           "normalized": "Q a b-\u003eP a b",
@@ -533,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck, if the first tree satisfies the given predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Parser",
           "name": "pop",
           "package": "polysoup",
@@ -543,6 +586,7 @@
         "index": {
           "description": "Check if the first tree satisfies the given predicate",
           "hierarchy": "Text XML PolySoup Parser",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Parser",
           "name": "pop",
           "normalized": "Q a b-\u003eP a b",
@@ -557,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Parser",
           "name": "runP",
           "package": "polysoup",
@@ -566,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Text XML PolySoup Parser",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Parser",
           "name": "runP",
           "normalized": "[a]-\u003eMaybe(b,[a])",
@@ -581,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA generic extracting predicate.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Predicate",
           "name": "Predicate",
           "package": "polysoup",
@@ -590,6 +637,7 @@
         "index": {
           "description": "generic extracting predicate",
           "hierarchy": "Text XML PolySoup Predicate",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Predicate",
           "name": "Predicate",
           "package": "polysoup",
@@ -604,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate checks if the given element satisfies some properties\n and extracts its attribute values.  You can compose predicates using\n Functor, Applicative and Alternative operators: \u003ccode\u003e\u003ca\u003e*\u003e\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e\u003c*\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e etc.\n Note, that it doesn't really have sense to use function like \u003ccode\u003e\u003ca\u003emany\u003c/a\u003e\u003c/code\u003e\n or \u003ccode\u003e\u003ca\u003esome\u003c/a\u003e\u003c/code\u003e, since the extracting predicate doesn't consume any input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Predicate",
           "name": "Q",
           "package": "polysoup",
@@ -613,6 +662,7 @@
         "index": {
           "description": "predicate checks if the given element satisfies some properties and extracts its attribute values You can compose predicates using Functor Applicative and Alternative operators etc Note that it doesn really have sense to use function like many or some since the extracting predicate doesn consume any input",
           "hierarchy": "Text XML PolySoup Predicate",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Predicate",
           "name": "Q",
           "package": "polysoup",
@@ -625,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Predicate",
           "name": "Q",
           "package": "polysoup",
@@ -634,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Text XML PolySoup Predicate",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Predicate",
           "name": "Q",
           "package": "polysoup",
@@ -646,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Predicate",
           "name": "runQ",
           "package": "polysoup",
@@ -655,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Text XML PolySoup Predicate",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Predicate",
           "name": "runQ",
           "normalized": "a-\u003eMaybe b",
@@ -670,6 +724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the given predicate is satisfied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Predicate",
           "name": "satisfy",
           "package": "polysoup",
@@ -680,6 +735,7 @@
         "index": {
           "description": "Check if the given predicate is satisfied",
           "hierarchy": "Text XML PolySoup Predicate",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Predicate",
           "name": "satisfy",
           "normalized": "(a-\u003eBool)-\u003eQ a a",
@@ -695,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate which is always satisfied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Predicate",
           "name": "true",
           "package": "polysoup",
@@ -705,6 +762,7 @@
         "index": {
           "description": "Predicate which is always satisfied",
           "hierarchy": "Text XML PolySoup Predicate",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Predicate",
           "name": "true",
           "package": "polysoup",
@@ -718,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides tag-level predicates.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "Tag",
           "package": "polysoup",
@@ -727,6 +786,7 @@
         "index": {
           "description": "The module provides tag-level predicates",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "Tag",
           "package": "polysoup",
@@ -741,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the attribute value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "attr",
           "package": "polysoup",
@@ -751,6 +812,7 @@
         "index": {
           "description": "Extract the attribute value",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "attr",
           "normalized": "a-\u003eQ(Tag a)a",
@@ -766,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the attribute value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "atts",
           "package": "polysoup",
@@ -776,6 +839,7 @@
         "index": {
           "description": "Extract the attribute value",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "atts",
           "normalized": "Q(Tag a)[(a,a)]",
@@ -791,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comment node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "commentTag",
           "package": "polysoup",
@@ -801,6 +866,7 @@
         "index": {
           "description": "comment node",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "commentTag",
           "package": "polysoup",
@@ -815,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet value of the attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "getAttr",
           "package": "polysoup",
@@ -825,6 +892,7 @@
         "index": {
           "description": "Get value of the attribute",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "getAttr",
           "normalized": "a-\u003eTag a-\u003eMaybe a",
@@ -841,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet name of the tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "getAtts",
           "package": "polysoup",
@@ -851,6 +920,7 @@
         "index": {
           "description": "Get name of the tag",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "getAtts",
           "normalized": "Tag a-\u003eMaybe[(a,a)]",
@@ -867,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet name of the tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "getName",
           "package": "polysoup",
@@ -877,6 +948,7 @@
         "index": {
           "description": "Get name of the tag",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "getName",
           "normalized": "Tag a-\u003eMaybe a",
@@ -893,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet contents of the text node.\n A synonym for \u003ccode\u003e\u003ca\u003emaybeTagText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "getText",
           "package": "polysoup",
@@ -903,6 +976,7 @@
         "index": {
           "description": "Get contents of the text node synonym for maybeTagText",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "getText",
           "normalized": "Tag a-\u003eMaybe a",
@@ -919,6 +993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes it have a given attribute?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "hasAttr",
           "package": "polysoup",
@@ -929,6 +1004,7 @@
         "index": {
           "description": "Does it have given attribute",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "hasAttr",
           "normalized": "a-\u003eQ(Tag a)(Tag a)",
@@ -945,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes it have a given attribute with a given value?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "hasAttrVal",
           "package": "polysoup",
@@ -955,6 +1032,7 @@
         "index": {
           "description": "Does it have given attribute with given value",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "hasAttrVal",
           "normalized": "a-\u003ea-\u003eQ(Tag a)(Tag a)",
@@ -971,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal node (i.e., an opening tag).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "innerTag",
           "package": "polysoup",
@@ -981,6 +1060,7 @@
         "index": {
           "description": "Internal node i.e an opening tag",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "innerTag",
           "package": "polysoup",
@@ -995,6 +1075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeaf node (everything but an opening tag).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "leafTag",
           "package": "polysoup",
@@ -1005,6 +1086,7 @@
         "index": {
           "description": "Leaf node everything but an opening tag",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "leafTag",
           "package": "polysoup",
@@ -1019,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the tag name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "name",
           "package": "polysoup",
@@ -1029,6 +1112,7 @@
         "index": {
           "description": "Extract the tag name",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "name",
           "package": "polysoup",
@@ -1042,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes it have a given name?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "named",
           "package": "polysoup",
@@ -1052,6 +1137,7 @@
         "index": {
           "description": "Does it have given name",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "named",
           "normalized": "a-\u003eQ(Tag a)(Tag a)",
@@ -1067,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA position node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "positionTag",
           "package": "polysoup",
@@ -1077,6 +1164,7 @@
         "index": {
           "description": "position node",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "positionTag",
           "package": "polysoup",
@@ -1091,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract textual contents of the text node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "text",
           "package": "polysoup",
@@ -1101,6 +1190,7 @@
         "index": {
           "description": "Extract textual contents of the text node",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "text",
           "package": "polysoup",
@@ -1114,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA text node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "textTag",
           "package": "polysoup",
@@ -1124,6 +1215,7 @@
         "index": {
           "description": "text node",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "textTag",
           "package": "polysoup",
@@ -1138,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA warning node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.Tag",
           "name": "warningTag",
           "package": "polysoup",
@@ -1148,6 +1241,7 @@
         "index": {
           "description": "warning node",
           "hierarchy": "Text XML PolySoup Tag",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.Tag",
           "name": "warningTag",
           "package": "polysoup",
@@ -1162,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eXML as a tree of XML tags. \n\u003c/p\u003e\u003cp\u003eThe module provides an \u003ccode\u003e\u003ca\u003eXmlTree\u003c/a\u003e\u003c/code\u003e data type, which can be used to represent\n a parsed XML file.  The \u003ccode\u003e\u003ca\u003eXmlTree\u003c/a\u003e\u003c/code\u003e structure can be generated lazily by using\n the \u003ccode\u003e\u003ca\u003eparseTree\u003c/a\u003e\u003c/code\u003e (or \u003ccode\u003e\u003ca\u003eparseForest\u003c/a\u003e\u003c/code\u003e) function on any string-like input\n supported by the tagsoup library.\n\u003c/p\u003e\u003cp\u003eNote, that the parsing functions do not validate correctness of the input\n XML data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.XmlTree",
           "name": "XmlTree",
           "package": "polysoup",
@@ -1171,6 +1266,7 @@
         "index": {
           "description": "XML as tree of XML tags The module provides an XmlTree data type which can be used to represent parsed XML file The XmlTree structure can be generated lazily by using the parseTree or parseForest function on any string-like input supported by the tagsoup library Note that the parsing functions do not validate correctness of the input XML data",
           "hierarchy": "Text XML PolySoup XmlTree",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.XmlTree",
           "name": "XmlTree",
           "package": "polysoup",
@@ -1185,6 +1281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parsed XML forest.  Closing tags are not preserved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.XmlTree",
           "name": "XmlForest",
           "package": "polysoup",
@@ -1194,6 +1291,7 @@
         "index": {
           "description": "parsed XML forest Closing tags are not preserved",
           "hierarchy": "Text XML PolySoup XmlTree",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.XmlTree",
           "name": "XmlForest",
           "package": "polysoup",
@@ -1208,6 +1306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parsed XML tree.  Closing tags are not preserved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.XmlTree",
           "name": "XmlTree",
           "package": "polysoup",
@@ -1217,6 +1316,7 @@
         "index": {
           "description": "parsed XML tree Closing tags are not preserved",
           "hierarchy": "Text XML PolySoup XmlTree",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.XmlTree",
           "name": "XmlTree",
           "package": "polysoup",
@@ -1231,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse XML forest from a list of tags.  Note, that if the XML file\n has additional headers, the \u003ccode\u003e\u003ca\u003eparseForest\u003c/a\u003e\u003c/code\u003e function has to be used to\n parse it correctly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.XmlTree",
           "name": "parseForest",
           "package": "polysoup",
@@ -1241,6 +1342,7 @@
         "index": {
           "description": "Parse XML forest from list of tags Note that if the XML file has additional headers the parseForest function has to be used to parse it correctly",
           "hierarchy": "Text XML PolySoup XmlTree",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.XmlTree",
           "name": "parseForest",
           "normalized": "[Tag a]-\u003eXmlForest a",
@@ -1257,6 +1359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse XML tree from a list of tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.XmlTree",
           "name": "parseTree",
           "package": "polysoup",
@@ -1267,6 +1370,7 @@
         "index": {
           "description": "Parse XML tree from list of tags",
           "hierarchy": "Text XML PolySoup XmlTree",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.XmlTree",
           "name": "parseTree",
           "normalized": "[Tag a]-\u003eXmlTree a",
@@ -1283,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender XML forest tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.XmlTree",
           "name": "renderForest",
           "package": "polysoup",
@@ -1293,6 +1398,7 @@
         "index": {
           "description": "Render XML forest tags",
           "hierarchy": "Text XML PolySoup XmlTree",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.XmlTree",
           "name": "renderForest",
           "normalized": "XmlForest a-\u003e[Tag a]",
@@ -1309,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender XML tree tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup.XmlTree",
           "name": "renderTree",
           "package": "polysoup",
@@ -1319,6 +1426,7 @@
         "index": {
           "description": "Render XML tree tags",
           "hierarchy": "Text XML PolySoup XmlTree",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup.XmlTree",
           "name": "renderTree",
           "normalized": "XmlTree a-\u003e[Tag a]",
@@ -1335,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module re-exports individual submodules of the library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:17 UTC 2014",
           "module": "Text.XML.PolySoup",
           "name": "PolySoup",
           "package": "polysoup",
@@ -1344,6 +1453,7 @@
         "index": {
           "description": "The module re-exports individual submodules of the library",
           "hierarchy": "Text XML PolySoup",
+          "indexed": "2014-03-11T19:41:17",
           "module": "Text.XML.PolySoup",
           "name": "PolySoup",
           "package": "polysoup",

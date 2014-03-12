@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "numeric-extras"
+        "phrase": "numeric-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:33 UTC 2014",
           "module": "Numeric.Extras",
           "name": "Extras",
           "package": "numeric-extras",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric Extras",
+          "indexed": "2014-03-11T19:30:33",
           "module": "Numeric.Extras",
           "name": "Extras",
           "package": "numeric-extras",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:33 UTC 2014",
           "module": "Numeric.Extras",
           "name": "RealExtras",
           "package": "numeric-extras",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Numeric Extras",
+          "indexed": "2014-03-11T19:30:33",
           "module": "Numeric.Extras",
           "name": "RealExtras",
           "package": "numeric-extras",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:33 UTC 2014",
           "module": "Numeric.Extras",
           "name": "cbrt",
           "package": "numeric-extras",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Numeric Extras",
+          "indexed": "2014-03-11T19:30:33",
           "module": "Numeric.Extras",
           "name": "cbrt",
           "normalized": "a-\u003ea",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:33 UTC 2014",
           "module": "Numeric.Extras",
           "name": "erf",
           "package": "numeric-extras",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Numeric Extras",
+          "indexed": "2014-03-11T19:30:33",
           "module": "Numeric.Extras",
           "name": "erf",
           "normalized": "a-\u003ea",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:33 UTC 2014",
           "module": "Numeric.Extras",
           "name": "expm1",
           "package": "numeric-extras",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Numeric Extras",
+          "indexed": "2014-03-11T19:30:33",
           "module": "Numeric.Extras",
           "name": "expm1",
           "normalized": "a-\u003ea",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:33 UTC 2014",
           "module": "Numeric.Extras",
           "name": "fmod",
           "package": "numeric-extras",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Numeric Extras",
+          "indexed": "2014-03-11T19:30:33",
           "module": "Numeric.Extras",
           "name": "fmod",
           "normalized": "a-\u003ea-\u003ea",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:33 UTC 2014",
           "module": "Numeric.Extras",
           "name": "hypot",
           "package": "numeric-extras",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Numeric Extras",
+          "indexed": "2014-03-11T19:30:33",
           "module": "Numeric.Extras",
           "name": "hypot",
           "normalized": "a-\u003ea-\u003ea",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:33 UTC 2014",
           "module": "Numeric.Extras",
           "name": "log1p",
           "package": "numeric-extras",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Numeric Extras",
+          "indexed": "2014-03-11T19:30:33",
           "module": "Numeric.Extras",
           "name": "log1p",
           "normalized": "a-\u003ea",

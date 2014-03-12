@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hspresent"
+        "phrase": "hspresent",
+        "type": "phrase"
       },
       "type": "context"
     }

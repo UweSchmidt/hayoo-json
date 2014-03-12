@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fay-jquery"
+        "phrase": "fay-jquery",
+        "type": "phrase"
       },
       "type": "context"
     }

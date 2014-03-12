@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "text-locale-encoding"
+        "phrase": "text-locale-encoding",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions to encode and decode \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to/from\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003eTextEncoding\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eFor performance, Text's native encoding functions are used if the conditions\n are right (LF NewlineMode and UTF encoding).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.Encoding.Locale",
           "name": "Locale",
           "package": "text-locale-encoding",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides functions to encode and decode Text to from ByteString using TextEncoding For performance Text native encoding functions are used if the conditions are right LF NewlineMode and UTF encoding",
           "hierarchy": "Data Text Encoding Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.Encoding.Locale",
           "name": "Locale",
           "package": "text-locale-encoding",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003es \u003ccode\u003e\u003ca\u003eTextEncoding\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNewlineMode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.Encoding.Locale",
           "name": "decodeFromHandle",
           "package": "text-locale-encoding",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Decode ByteString to Text using Handle TextEncoding and NewlineMode",
           "hierarchy": "Data Text Encoding Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.Encoding.Locale",
           "name": "decodeFromHandle",
           "normalized": "Handle-\u003eByteString-\u003eIO Text",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e using current locale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.Encoding.Locale",
           "name": "decodeLocale",
           "package": "text-locale-encoding",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Decode ByteString to Text using current locale",
           "hierarchy": "Data Text Encoding Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.Encoding.Locale",
           "name": "decodeLocale",
           "normalized": "ByteString-\u003eIO Text",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e using supplied \u003ccode\u003e\u003ca\u003eTextEncoding\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNewlineMode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.Encoding.Locale",
           "name": "decodeLocale'",
           "package": "text-locale-encoding",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Decode ByteString to Text using supplied TextEncoding and NewlineMode",
           "hierarchy": "Data Text Encoding Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.Encoding.Locale",
           "name": "decodeLocale'",
           "normalized": "TextEncoding-\u003eNewlineMode-\u003eByteString-\u003eIO Text",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003es \u003ccode\u003e\u003ca\u003eTextEncoding\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNewlineMode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.Encoding.Locale",
           "name": "encodeFromHandle",
           "package": "text-locale-encoding",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Encode Text to ByteString using Handle TextEncoding and NewlineMode",
           "hierarchy": "Data Text Encoding Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.Encoding.Locale",
           "name": "encodeFromHandle",
           "normalized": "Handle-\u003eText-\u003eIO ByteString",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e using current locale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.Encoding.Locale",
           "name": "encodeLocale",
           "package": "text-locale-encoding",
@@ -156,6 +167,7 @@
         "index": {
           "description": "Encode Text to ByteString using current locale",
           "hierarchy": "Data Text Encoding Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.Encoding.Locale",
           "name": "encodeLocale",
           "normalized": "Text-\u003eIO ByteString",
@@ -172,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e using supplied \u003ccode\u003e\u003ca\u003eTextEncoding\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNewlineMode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.Encoding.Locale",
           "name": "encodeLocale'",
           "package": "text-locale-encoding",
@@ -182,6 +195,7 @@
         "index": {
           "description": "Encode Text to ByteString using supplied TextEncoding and NewlineMode",
           "hierarchy": "Data Text Encoding Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.Encoding.Locale",
           "name": "encodeLocale'",
           "normalized": "TextEncoding-\u003eNewlineMode-\u003eText-\u003eIO ByteString",
@@ -198,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module offers much faster locale-aware I/O than \u003ca\u003eData.Text.IO\u003c/a\u003e due to\n the usage of \u003ccode\u003e\u003ca\u003ehPutBuf\u003c/a\u003e\u003c/code\u003e to write the resulting \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n all at once, while \u003ca\u003eData.Text.IO\u003c/a\u003e writes characters one at a time, taking the\n \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e lock each time. Since functions in this module take the lock just\n once, they can safely be used from multiple threads without fear of messed up\n output.\n\u003c/p\u003e\u003cp\u003eFunctions in this module require at least twice as much memory as the\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e they operate on to output it. For strings more than a half\n of available RAM in size, this may result in memory exhaustion.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported \u003ccode\u003equalified\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.IO.Locale",
           "name": "Locale",
           "package": "text-locale-encoding",
@@ -207,6 +222,7 @@
         "index": {
           "description": "This module offers much faster locale-aware than Data.Text.IO due to the usage of hPutBuf to write the resulting ByteString all at once while Data.Text.IO writes characters one at time taking the Handle lock each time Since functions in this module take the lock just once they can safely be used from multiple threads without fear of messed up output Functions in this module require at least twice as much memory as the Text they operate on to output it For strings more than half of available RAM in size this may result in memory exhaustion This module is intended to be imported qualified",
           "hierarchy": "Data Text IO Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.IO.Locale",
           "name": "Locale",
           "package": "text-locale-encoding",
@@ -221,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eappendFile\u003c/a\u003e\u003c/code\u003e, but writes the \u003ccode\u003eText\u003c/code\u003e all at once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.IO.Locale",
           "name": "appendFile",
           "package": "text-locale-encoding",
@@ -231,6 +248,7 @@
         "index": {
           "description": "Like appendFile but writes the Text all at once",
           "hierarchy": "Data Text IO Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.IO.Locale",
           "name": "appendFile",
           "normalized": "FilePath-\u003eText-\u003eIO()",
@@ -247,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ehPutStr\u003c/a\u003e\u003c/code\u003e, but writes the \u003ccode\u003eText\u003c/code\u003e all at once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.IO.Locale",
           "name": "hPutStr",
           "package": "text-locale-encoding",
@@ -257,6 +276,7 @@
         "index": {
           "description": "Like hPutStr but writes the Text all at once",
           "hierarchy": "Data Text IO Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.IO.Locale",
           "name": "hPutStr",
           "normalized": "Handle-\u003eText-\u003eIO()",
@@ -273,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ehPutStrLn\u003c/a\u003e\u003c/code\u003e, but writes the \u003ccode\u003eText\u003c/code\u003e all at once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.IO.Locale",
           "name": "hPutStrLn",
           "package": "text-locale-encoding",
@@ -283,6 +304,7 @@
         "index": {
           "description": "Like hPutStrLn but writes the Text all at once",
           "hierarchy": "Data Text IO Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.IO.Locale",
           "name": "hPutStrLn",
           "normalized": "Handle-\u003eText-\u003eIO()",
@@ -299,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eputStr\u003c/a\u003e\u003c/code\u003e, but writes the \u003ccode\u003eText\u003c/code\u003e all at once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.IO.Locale",
           "name": "putStr",
           "package": "text-locale-encoding",
@@ -309,6 +332,7 @@
         "index": {
           "description": "Like putStr but writes the Text all at once",
           "hierarchy": "Data Text IO Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.IO.Locale",
           "name": "putStr",
           "normalized": "Text-\u003eIO()",
@@ -325,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eputStrLn\u003c/a\u003e\u003c/code\u003e, but writes the \u003ccode\u003eText\u003c/code\u003e all at once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.IO.Locale",
           "name": "putStrLn",
           "package": "text-locale-encoding",
@@ -335,6 +360,7 @@
         "index": {
           "description": "Like putStrLn but writes the Text all at once",
           "hierarchy": "Data Text IO Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.IO.Locale",
           "name": "putStrLn",
           "normalized": "Text-\u003eIO()",
@@ -351,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewriteFile\u003c/a\u003e\u003c/code\u003e, but writes the \u003ccode\u003eText\u003c/code\u003e all at once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.IO.Locale",
           "name": "writeFile",
           "package": "text-locale-encoding",
@@ -361,6 +388,7 @@
         "index": {
           "description": "Like writeFile but writes the Text all at once",
           "hierarchy": "Data Text IO Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.IO.Locale",
           "name": "writeFile",
           "normalized": "FilePath-\u003eText-\u003eIO()",
@@ -377,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions to encode and decode \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n to/from \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003eTextEncoding\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eFor performance, Text's native encoding functions are used if the conditions\n are right (LF NewlineMode and UTF encoding).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.Lazy.Encoding.Locale",
           "name": "Locale",
           "package": "text-locale-encoding",
@@ -386,6 +415,7 @@
         "index": {
           "description": "This module provides functions to encode and decode Text to from ByteString using TextEncoding For performance Text native encoding functions are used if the conditions are right LF NewlineMode and UTF encoding",
           "hierarchy": "Data Text Lazy Encoding Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.Lazy.Encoding.Locale",
           "name": "Locale",
           "package": "text-locale-encoding",
@@ -400,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003es \u003ccode\u003e\u003ca\u003eTextEncoding\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNewlineMode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.Lazy.Encoding.Locale",
           "name": "decodeFromHandle",
           "package": "text-locale-encoding",
@@ -410,6 +441,7 @@
         "index": {
           "description": "Decode ByteString to Text using Handle TextEncoding and NewlineMode",
           "hierarchy": "Data Text Lazy Encoding Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.Lazy.Encoding.Locale",
           "name": "decodeFromHandle",
           "normalized": "Handle-\u003eByteString-\u003eIO Text",
@@ -426,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e using current locale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.Lazy.Encoding.Locale",
           "name": "decodeLocale",
           "package": "text-locale-encoding",
@@ -436,6 +469,7 @@
         "index": {
           "description": "Decode ByteString to Text using current locale",
           "hierarchy": "Data Text Lazy Encoding Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.Lazy.Encoding.Locale",
           "name": "decodeLocale",
           "normalized": "ByteString-\u003eIO Text",
@@ -452,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e using supplied \u003ccode\u003e\u003ca\u003eTextEncoding\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNewlineMode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.Lazy.Encoding.Locale",
           "name": "decodeLocale'",
           "package": "text-locale-encoding",
@@ -462,6 +497,7 @@
         "index": {
           "description": "Decode ByteString to Text using supplied TextEncoding and NewlineMode",
           "hierarchy": "Data Text Lazy Encoding Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.Lazy.Encoding.Locale",
           "name": "decodeLocale'",
           "normalized": "TextEncoding-\u003eNewlineMode-\u003eByteString-\u003eIO Text",
@@ -478,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003es \u003ccode\u003e\u003ca\u003eTextEncoding\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNewlineMode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.Lazy.Encoding.Locale",
           "name": "encodeFromHandle",
           "package": "text-locale-encoding",
@@ -488,6 +525,7 @@
         "index": {
           "description": "Encode Text to ByteString using Handle TextEncoding and NewlineMode",
           "hierarchy": "Data Text Lazy Encoding Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.Lazy.Encoding.Locale",
           "name": "encodeFromHandle",
           "normalized": "Handle-\u003eText-\u003eIO ByteString",
@@ -504,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e using current locale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.Lazy.Encoding.Locale",
           "name": "encodeLocale",
           "package": "text-locale-encoding",
@@ -514,6 +553,7 @@
         "index": {
           "description": "Encode Text to ByteString using current locale",
           "hierarchy": "Data Text Lazy Encoding Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.Lazy.Encoding.Locale",
           "name": "encodeLocale",
           "normalized": "Text-\u003eIO ByteString",
@@ -530,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e using supplied \u003ccode\u003e\u003ca\u003eTextEncoding\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNewlineMode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:26 UTC 2014",
           "module": "Data.Text.Lazy.Encoding.Locale",
           "name": "encodeLocale'",
           "package": "text-locale-encoding",
@@ -540,6 +581,7 @@
         "index": {
           "description": "Encode Text to ByteString using supplied TextEncoding and NewlineMode",
           "hierarchy": "Data Text Lazy Encoding Locale",
+          "indexed": "2014-03-11T20:20:26",
           "module": "Data.Text.Lazy.Encoding.Locale",
           "name": "encodeLocale'",
           "normalized": "TextEncoding-\u003eNewlineMode-\u003eText-\u003eIO ByteString",

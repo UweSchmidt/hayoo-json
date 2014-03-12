@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lord"
+        "phrase": "lord",
+        "type": "phrase"
       },
       "type": "context"
     }

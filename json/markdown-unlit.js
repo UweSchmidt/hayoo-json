@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "markdown-unlit"
+        "phrase": "markdown-unlit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": "Unlit",
           "package": "markdown-unlit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": "Unlit",
           "package": "markdown-unlit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": "CodeBlock",
           "package": "markdown-unlit",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": "CodeBlock",
           "package": "markdown-unlit",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": "Selector",
           "package": "markdown-unlit",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": "Selector",
           "package": "markdown-unlit",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": ":|:",
           "package": "markdown-unlit",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": ":|:",
           "package": "markdown-unlit",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": ":&:",
           "package": "markdown-unlit",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": ":&:",
           "package": "markdown-unlit",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": "Class",
           "package": "markdown-unlit",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": "Class",
           "package": "markdown-unlit",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": "CodeBlock",
           "package": "markdown-unlit",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": "CodeBlock",
           "package": "markdown-unlit",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": "Not",
           "package": "markdown-unlit",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": "Not",
           "package": "markdown-unlit",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": "codeBlockClasses",
           "package": "markdown-unlit",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": "codeBlockClasses",
           "normalized": "[String]",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": "codeBlockContent",
           "package": "markdown-unlit",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": "codeBlockContent",
           "normalized": "[String]",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": "codeBlockStartLine",
           "package": "markdown-unlit",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": "codeBlockStartLine",
           "package": "markdown-unlit",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": "parse",
           "package": "markdown-unlit",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": "parse",
           "normalized": "String-\u003e[CodeBlock]",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": "parseSelector",
           "package": "markdown-unlit",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": "parseSelector",
           "normalized": "String-\u003eMaybe Selector",
@@ -307,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgram entry point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": "run",
           "package": "markdown-unlit",
@@ -317,6 +344,7 @@
         "index": {
           "description": "Program entry point",
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": "run",
           "normalized": "[String]-\u003eIO()",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:14:48 UTC 2014",
           "module": "Text.Markdown.Unlit",
           "name": "unlit",
           "package": "markdown-unlit",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Text Markdown Unlit",
+          "indexed": "2014-03-11T19:14:48",
           "module": "Text.Markdown.Unlit",
           "name": "unlit",
           "normalized": "FilePath-\u003eSelector-\u003eString-\u003eString",

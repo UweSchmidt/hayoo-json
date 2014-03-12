@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mtlparse"
+        "phrase": "mtlparse",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "MTLParse",
           "package": "mtlparse",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "MTLParse",
           "package": "mtlparse",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "MonadParse",
           "package": "mtlparse",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "MonadParse",
           "package": "mtlparse",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parse monad where \u003cem\u003ea\u003c/em\u003e is the type of the token to parse\n and \u003cem\u003eb\u003c/em\u003e is the type of the \u003cem\u003ereturn value\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "Parse",
           "package": "mtlparse",
@@ -70,6 +75,7 @@
         "index": {
           "description": "parse monad where is the type of the token to parse and is the type of the return value",
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "Parse",
           "package": "mtlparse",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parse monad for encaplulating an inner monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "ParseT",
           "package": "mtlparse",
@@ -93,6 +100,7 @@
         "index": {
           "description": "parse monad for encaplulating an inner monad",
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "ParseT",
           "package": "mtlparse",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "(\u003e++\u003e)",
           "package": "mtlparse",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "(\u003e++\u003e) \u003e++\u003e",
           "normalized": "a[b]-\u003ea[b]-\u003ea[b]",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "(\u003e:\u003e)",
           "package": "mtlparse",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "(\u003e:\u003e) \u003e:\u003e",
           "normalized": "a b-\u003ea[b]-\u003ea[b]",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "Parse",
           "package": "mtlparse",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "Parse",
           "package": "mtlparse",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "ParseT",
           "package": "mtlparse",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "ParseT",
           "package": "mtlparse",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "apply2M",
           "package": "mtlparse",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "apply2M",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "beginningOfInput",
           "package": "mtlparse",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "beginningOfInput",
           "normalized": "a-\u003eb a",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "build",
           "package": "mtlparse",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "build",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "endOfInput",
           "package": "mtlparse",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "endOfInput",
           "normalized": "a-\u003eb a",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "evalParse",
           "package": "mtlparse",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "evalParse",
           "normalized": "Parse a b-\u003e([a],[a])-\u003e[b]",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "evalParseT",
           "package": "mtlparse",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "evalParseT",
           "normalized": "ParseT a b c-\u003e([a],[a])-\u003eb[c]",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "execParse",
           "package": "mtlparse",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "execParse",
           "normalized": "Parse a b-\u003e([a],[a])-\u003e[([a],[a])]",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "execParseT",
           "package": "mtlparse",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "execParseT",
           "normalized": "ParseT a b c-\u003e([a],[a])-\u003eb[([a],[a])]",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "getBack",
           "package": "mtlparse",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "getBack",
           "normalized": "a[b]",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "getForward",
           "package": "mtlparse",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "getForward",
           "normalized": "a[b]",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "getHere",
           "package": "mtlparse",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "getHere",
           "normalized": "a([b],[b])",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "getsBack",
           "package": "mtlparse",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "getsBack",
           "normalized": "([a]-\u003e[a])-\u003eb[a]",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "getsForward",
           "package": "mtlparse",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "getsForward",
           "normalized": "([a]-\u003e[a])-\u003eb[a]",
@@ -506,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "getsHere",
           "package": "mtlparse",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "getsHere",
           "normalized": "(([a],[a])-\u003eb)-\u003ec b",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "greedyList",
           "package": "mtlparse",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "greedyList",
           "normalized": "a b-\u003ea[b]",
@@ -554,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "greedyNeList",
           "package": "mtlparse",
@@ -563,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "greedyNeList",
           "normalized": "a b-\u003ea[b]",
@@ -578,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "greedyOptional",
           "package": "mtlparse",
@@ -587,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "greedyOptional",
           "normalized": "a b-\u003ea[b]",
@@ -602,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "greedyRepeatParse",
           "package": "mtlparse",
@@ -611,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "greedyRepeatParse",
           "normalized": "Int-\u003eMaybe Int-\u003ea b-\u003ea[b]",
@@ -626,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "list",
           "package": "mtlparse",
@@ -635,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "list",
           "normalized": "a b-\u003ea[b]",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "mapParse",
           "package": "mtlparse",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "mapParse",
           "normalized": "((a,([b],[b]))-\u003e(c,([b],[b])))-\u003eParse b a-\u003eParse b c",
@@ -673,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "mapParseT",
           "package": "mtlparse",
@@ -682,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "mapParseT",
           "normalized": "(a[(b,([c],[c]))]-\u003ed[(e,([c],[c]))])-\u003eParseT c a b-\u003eParseT c d e",
@@ -697,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "modifyBack",
           "package": "mtlparse",
@@ -706,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "modifyBack",
           "normalized": "([a]-\u003e[a])-\u003eb()",
@@ -721,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "modifyForward",
           "package": "mtlparse",
@@ -730,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "modifyForward",
           "normalized": "([a]-\u003e[a])-\u003eb()",
@@ -745,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "modifyHere",
           "package": "mtlparse",
@@ -754,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "modifyHere",
           "normalized": "(([a],[a])-\u003e([a],[a]))-\u003eb()",
@@ -769,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "neList",
           "package": "mtlparse",
@@ -778,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "neList",
           "normalized": "a b-\u003ea[b]",
@@ -793,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "noBacktrack",
           "package": "mtlparse",
@@ -802,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "noBacktrack",
           "normalized": "a b-\u003ea b",
@@ -817,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "optional",
           "package": "mtlparse",
@@ -826,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "optional",
           "normalized": "a b-\u003ea[b]",
@@ -840,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "parseNot",
           "package": "mtlparse",
@@ -849,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "parseNot",
           "normalized": "a-\u003eb c-\u003eb a",
@@ -864,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "putBack",
           "package": "mtlparse",
@@ -873,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "putBack",
           "normalized": "[a]-\u003eb()",
@@ -888,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "putForward",
           "package": "mtlparse",
@@ -897,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "putForward",
           "normalized": "[a]-\u003eb()",
@@ -912,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "putHere",
           "package": "mtlparse",
@@ -921,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "putHere",
           "normalized": "([a],[a])-\u003eb()",
@@ -936,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "repeatParse",
           "package": "mtlparse",
@@ -945,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "repeatParse",
           "normalized": "Int-\u003eMaybe Int-\u003ea b-\u003ea[b]",
@@ -960,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "runParse",
           "package": "mtlparse",
@@ -969,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "runParse",
           "normalized": "([a],[a])-\u003e[(b,([a],[a]))]",
@@ -984,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "runParseT",
           "package": "mtlparse",
@@ -993,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "runParseT",
           "normalized": "([a],[a])-\u003eb[(c,([a],[a]))]",
@@ -1008,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "spot",
           "package": "mtlparse",
@@ -1017,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "spot",
           "normalized": "(a-\u003eBool)-\u003eb a",
@@ -1031,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "spotBack",
           "package": "mtlparse",
@@ -1040,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "spotBack",
           "normalized": "(a-\u003eBool)-\u003eb a",
@@ -1055,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "still",
           "package": "mtlparse",
@@ -1064,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "still",
           "normalized": "a b-\u003ea b",
@@ -1078,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "token",
           "package": "mtlparse",
@@ -1087,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "token",
           "normalized": "a-\u003eb a",
@@ -1101,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "tokenBack",
           "package": "mtlparse",
@@ -1110,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "tokenBack",
           "normalized": "a-\u003eb a",
@@ -1125,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "tokens",
           "package": "mtlparse",
@@ -1134,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "tokens",
           "normalized": "[a]-\u003eb[a]",
@@ -1148,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "tokensBack",
           "package": "mtlparse",
@@ -1157,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "tokensBack",
           "normalized": "[a]-\u003eb[a]",
@@ -1172,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "withParse",
           "package": "mtlparse",
@@ -1181,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "withParse",
           "normalized": "(([a],[a])-\u003e([a],[a]))-\u003eParse a b-\u003eParse a b",
@@ -1196,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:26 UTC 2014",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "withParseT",
           "package": "mtlparse",
@@ -1205,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators MTLParse",
+          "indexed": "2014-03-11T19:23:26",
           "module": "Text.ParserCombinators.MTLParse",
           "name": "withParseT",
           "normalized": "(([a],[a])-\u003e([a],[a]))-\u003eParseT a b c-\u003eParseT a b c",

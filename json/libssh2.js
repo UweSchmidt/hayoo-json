@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libssh2"
+        "phrase": "libssh2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "Errors",
           "package": "libssh2",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "Errors",
           "package": "libssh2",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError codes returned by libssh2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "ErrorCode",
           "package": "libssh2",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Error codes returned by libssh2",
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "ErrorCode",
           "package": "libssh2",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "IntResult",
           "package": "libssh2",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "IntResult",
           "package": "libssh2",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException to throw when null pointer received\n from libssh2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "NULL_POINTER",
           "package": "libssh2",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Exception to throw when null pointer received from libssh2",
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "NULL_POINTER",
           "package": "libssh2",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "AGENT_PROTOCOL",
           "package": "libssh2",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "AGENT_PROTOCOL",
           "package": "libssh2",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "ALLOC",
           "package": "libssh2",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "ALLOC",
           "package": "libssh2",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "AUTHENTICATION_FAILED",
           "package": "libssh2",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "AUTHENTICATION_FAILED",
           "package": "libssh2",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "BAD_SOCKET",
           "package": "libssh2",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "BAD_SOCKET",
           "package": "libssh2",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "BAD_USE",
           "package": "libssh2",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "BAD_USE",
           "package": "libssh2",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "BANNER_RECV",
           "package": "libssh2",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "BANNER_RECV",
           "package": "libssh2",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "BANNER_SEND",
           "package": "libssh2",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "BANNER_SEND",
           "package": "libssh2",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "BUFFER_TOO_SMALL",
           "package": "libssh2",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "BUFFER_TOO_SMALL",
           "package": "libssh2",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_CLOSED",
           "package": "libssh2",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_CLOSED",
           "package": "libssh2",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_EOF_SENT",
           "package": "libssh2",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_EOF_SENT",
           "package": "libssh2",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_FAILURE",
           "package": "libssh2",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_FAILURE",
           "package": "libssh2",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_OUTOFORDER",
           "package": "libssh2",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_OUTOFORDER",
           "package": "libssh2",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_PACKET_EXCEEDED",
           "package": "libssh2",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_PACKET_EXCEEDED",
           "package": "libssh2",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_REQUEST_DENIED",
           "package": "libssh2",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_REQUEST_DENIED",
           "package": "libssh2",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_UNKNOWN",
           "package": "libssh2",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_UNKNOWN",
           "package": "libssh2",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_WINDOW_EXCEEDED",
           "package": "libssh2",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "CHANNEL_WINDOW_EXCEEDED",
           "package": "libssh2",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "COMPRESS",
           "package": "libssh2",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "COMPRESS",
           "package": "libssh2",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "DECRYPT",
           "package": "libssh2",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "DECRYPT",
           "package": "libssh2",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "EAGAIN",
           "package": "libssh2",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "EAGAIN",
           "package": "libssh2",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "ENCRYPT",
           "package": "libssh2",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "ENCRYPT",
           "package": "libssh2",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "FILE",
           "package": "libssh2",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "FILE",
           "package": "libssh2",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "HOSTKEY_INIT",
           "package": "libssh2",
@@ -577,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "HOSTKEY_INIT",
           "package": "libssh2",
@@ -590,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "HOSTKEY_SIGN",
           "package": "libssh2",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "HOSTKEY_SIGN",
           "package": "libssh2",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "INVAL",
           "package": "libssh2",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "INVAL",
           "package": "libssh2",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "INVALID_MAC",
           "package": "libssh2",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "INVALID_MAC",
           "package": "libssh2",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "INVALID_POLL_TYPE",
           "package": "libssh2",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "INVALID_POLL_TYPE",
           "package": "libssh2",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "KEX_FALIURE",
           "package": "libssh2",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "KEX_FALIURE",
           "package": "libssh2",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "KEY_EXCHANGE_FAILURE",
           "package": "libssh2",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "KEY_EXCHANGE_FAILURE",
           "package": "libssh2",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "METHOD_NONE",
           "package": "libssh2",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "METHOD_NONE",
           "package": "libssh2",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "METHOD_NOT_SUPPORTED",
           "package": "libssh2",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "METHOD_NOT_SUPPORTED",
           "package": "libssh2",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "NONE",
           "package": "libssh2",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "NONE",
           "package": "libssh2",
@@ -788,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "OUT_OF_BOUNDARY",
           "package": "libssh2",
@@ -797,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "OUT_OF_BOUNDARY",
           "package": "libssh2",
@@ -810,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "PASSWORD_EXPIRED",
           "package": "libssh2",
@@ -819,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "PASSWORD_EXPIRED",
           "package": "libssh2",
@@ -832,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "PROTO",
           "package": "libssh2",
@@ -841,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "PROTO",
           "package": "libssh2",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "PUBLICKEY_PROTOCOL",
           "package": "libssh2",
@@ -863,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "PUBLICKEY_PROTOCOL",
           "package": "libssh2",
@@ -876,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "PUBLICKEY_UNVERIFIED",
           "package": "libssh2",
@@ -885,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "PUBLICKEY_UNVERIFIED",
           "package": "libssh2",
@@ -898,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "REQUEST_DENIED",
           "package": "libssh2",
@@ -907,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "REQUEST_DENIED",
           "package": "libssh2",
@@ -920,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "SCP_PROTOCOL",
           "package": "libssh2",
@@ -929,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "SCP_PROTOCOL",
           "package": "libssh2",
@@ -942,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "SFTP_PROTOCOL",
           "package": "libssh2",
@@ -951,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "SFTP_PROTOCOL",
           "package": "libssh2",
@@ -964,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "SOCKET_DISCONNECT",
           "package": "libssh2",
@@ -973,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "SOCKET_DISCONNECT",
           "package": "libssh2",
@@ -986,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "SOCKET_NONE",
           "package": "libssh2",
@@ -995,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "SOCKET_NONE",
           "package": "libssh2",
@@ -1008,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "SOCKET_RECV",
           "package": "libssh2",
@@ -1017,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "SOCKET_RECV",
           "package": "libssh2",
@@ -1030,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "SOCKET_SEND",
           "package": "libssh2",
@@ -1039,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "SOCKET_SEND",
           "package": "libssh2",
@@ -1052,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "SOCKET_TIMEOUT",
           "package": "libssh2",
@@ -1061,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "SOCKET_TIMEOUT",
           "package": "libssh2",
@@ -1074,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "TIMEOUT",
           "package": "libssh2",
@@ -1083,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "TIMEOUT",
           "package": "libssh2",
@@ -1096,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "ZLIB",
           "package": "libssh2",
@@ -1105,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "ZLIB",
           "package": "libssh2",
@@ -1119,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet currently blocked directions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "blockedDirections",
           "package": "libssh2",
@@ -1129,6 +1230,7 @@
         "index": {
           "description": "Get currently blocked directions",
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "blockedDirections",
           "normalized": "Session-\u003eIO[Direction]",
@@ -1144,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "error2int",
           "package": "libssh2",
@@ -1153,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "error2int",
           "normalized": "ErrorCode-\u003ea",
@@ -1168,6 +1272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet last error information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "getLastError",
           "package": "libssh2",
@@ -1178,6 +1283,7 @@
         "index": {
           "description": "Get last error information",
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "getLastError",
           "normalized": "Session-\u003eIO(Int,String)",
@@ -1193,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "handleBool",
           "package": "libssh2",
@@ -1202,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "handleBool",
           "normalized": "CInt-\u003eIO Bool",
@@ -1218,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an exception if negative value passed,\n or return unchanged value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "handleInt",
           "package": "libssh2",
@@ -1228,6 +1337,7 @@
         "index": {
           "description": "Throw an exception if negative value passed or return unchanged value",
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "handleInt",
           "normalized": "Maybe Session-\u003eIO a-\u003eIO a",
@@ -1244,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an exception if null pointer passed,\n or return it casted to right type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "handleNullPtr",
           "package": "libssh2",
@@ -1254,6 +1365,7 @@
         "index": {
           "description": "Throw an exception if null pointer passed or return it casted to right type",
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "handleNullPtr",
           "normalized": "Maybe Session-\u003e(Ptr()-\u003eIO a)-\u003eIO(Ptr())-\u003eIO a",
@@ -1269,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "int2error",
           "package": "libssh2",
@@ -1278,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "int2error",
           "normalized": "a-\u003eErrorCode",
@@ -1292,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "intResult",
           "package": "libssh2",
@@ -1301,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "intResult",
           "normalized": "a-\u003eInt",
@@ -1316,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "threadWaitSession",
           "package": "libssh2",
@@ -1325,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Errors",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Errors",
           "name": "threadWaitSession",
           "normalized": "Maybe Session-\u003eIO()",
@@ -1340,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "Foreign",
           "package": "libssh2",
@@ -1348,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "Foreign",
           "package": "libssh2",
@@ -1361,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KnownHost",
           "package": "libssh2",
@@ -1369,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KnownHost",
           "package": "libssh2",
@@ -1382,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KnownHostResult",
           "package": "libssh2",
@@ -1390,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KnownHostResult",
           "package": "libssh2",
@@ -1403,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KnownHostType",
           "package": "libssh2",
@@ -1411,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KnownHostType",
           "package": "libssh2",
@@ -1424,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KnownHosts",
           "package": "libssh2",
@@ -1432,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KnownHosts",
           "package": "libssh2",
@@ -1445,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "TraceFlag",
           "package": "libssh2",
@@ -1453,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "TraceFlag",
           "package": "libssh2",
@@ -1466,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "FAILURE",
           "package": "libssh2",
@@ -1475,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "FAILURE",
           "package": "libssh2",
@@ -1488,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEYENC_BASE64",
           "package": "libssh2",
@@ -1497,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEYENC_BASE64",
           "package": "libssh2",
@@ -1510,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEYENC_MASK",
           "package": "libssh2",
@@ -1519,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEYENC_MASK",
           "package": "libssh2",
@@ -1532,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEYENC_RAW",
           "package": "libssh2",
@@ -1541,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEYENC_RAW",
           "package": "libssh2",
@@ -1554,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEY_MASK",
           "package": "libssh2",
@@ -1563,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEY_MASK",
           "package": "libssh2",
@@ -1576,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEY_RSA1",
           "package": "libssh2",
@@ -1585,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEY_RSA1",
           "package": "libssh2",
@@ -1598,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEY_SHIFT",
           "package": "libssh2",
@@ -1607,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEY_SHIFT",
           "package": "libssh2",
@@ -1620,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEY_SSHDSS",
           "package": "libssh2",
@@ -1629,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEY_SSHDSS",
           "package": "libssh2",
@@ -1642,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEY_SSHRSA",
           "package": "libssh2",
@@ -1651,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KEY_SSHRSA",
           "package": "libssh2",
@@ -1664,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KnownHost",
           "package": "libssh2",
@@ -1673,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "KnownHost",
           "package": "libssh2",
@@ -1686,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "MATCH",
           "package": "libssh2",
@@ -1695,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "MATCH",
           "package": "libssh2",
@@ -1708,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "MISMATCH",
           "package": "libssh2",
@@ -1717,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "MISMATCH",
           "package": "libssh2",
@@ -1730,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "NOTFOUND",
           "package": "libssh2",
@@ -1739,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "NOTFOUND",
           "package": "libssh2",
@@ -1752,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "TYPE_CUSTOM",
           "package": "libssh2",
@@ -1761,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "TYPE_CUSTOM",
           "package": "libssh2",
@@ -1774,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "TYPE_MASK",
           "package": "libssh2",
@@ -1783,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "TYPE_MASK",
           "package": "libssh2",
@@ -1796,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "TYPE_PLAIN",
           "package": "libssh2",
@@ -1805,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "TYPE_PLAIN",
           "package": "libssh2",
@@ -1818,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "TYPE_SHA1",
           "package": "libssh2",
@@ -1827,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "TYPE_SHA1",
           "package": "libssh2",
@@ -1840,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_AUTH",
           "package": "libssh2",
@@ -1849,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_AUTH",
           "package": "libssh2",
@@ -1862,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_CONN",
           "package": "libssh2",
@@ -1871,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_CONN",
           "package": "libssh2",
@@ -1884,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_ERROR",
           "package": "libssh2",
@@ -1893,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_ERROR",
           "package": "libssh2",
@@ -1906,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_KEX",
           "package": "libssh2",
@@ -1915,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_KEX",
           "package": "libssh2",
@@ -1928,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_PUBLICKEY",
           "package": "libssh2",
@@ -1937,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_PUBLICKEY",
           "package": "libssh2",
@@ -1950,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_SCP",
           "package": "libssh2",
@@ -1959,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_SCP",
           "package": "libssh2",
@@ -1972,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_SFTP",
           "package": "libssh2",
@@ -1981,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_SFTP",
           "package": "libssh2",
@@ -1994,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_SOCKET",
           "package": "libssh2",
@@ -2003,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_SOCKET",
           "package": "libssh2",
@@ -2016,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_TRANS",
           "package": "libssh2",
@@ -2025,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "T_TRANS",
           "package": "libssh2",
@@ -2039,6 +2221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelExecute",
           "package": "libssh2",
@@ -2049,6 +2232,7 @@
         "index": {
           "description": "Execute command",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelExecute",
           "normalized": "Channel-\u003eString-\u003eIO()",
@@ -2065,6 +2249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet channel exit signal. Returns:\n (possibly error code, exit signal name, possibly error message, possibly language code).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelExitSignal",
           "package": "libssh2",
@@ -2075,6 +2260,7 @@
         "index": {
           "description": "Get channel exit signal Returns possibly error code exit signal name possibly error message possibly language code",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelExitSignal",
           "normalized": "Channel-\u003eIO(Int,String,Maybe String,Maybe String)",
@@ -2091,6 +2277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet channel exit status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelExitStatus",
           "package": "libssh2",
@@ -2101,6 +2288,7 @@
         "index": {
           "description": "Get channel exit status",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelExitStatus",
           "normalized": "Channel-\u003eIO Int",
@@ -2116,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelIsEOF",
           "package": "libssh2",
@@ -2125,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelIsEOF",
           "normalized": "Channel-\u003eIO Bool",
@@ -2140,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelProcess",
           "package": "libssh2",
@@ -2149,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelProcess",
           "normalized": "Channel-\u003eString-\u003eString-\u003eIO()",
@@ -2164,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelSendEOF",
           "package": "libssh2",
@@ -2173,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelSendEOF",
           "normalized": "Channel-\u003eIO()",
@@ -2189,6 +2383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute shell command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelShell",
           "package": "libssh2",
@@ -2199,6 +2394,7 @@
         "index": {
           "description": "Execute shell command",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelShell",
           "normalized": "Channel-\u003eIO()",
@@ -2214,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelWaitEOF",
           "package": "libssh2",
@@ -2223,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "channelWaitEOF",
           "normalized": "Channel-\u003eIO()",
@@ -2239,6 +2437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck host data against known hosts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "checkKnownHost",
           "package": "libssh2",
@@ -2248,6 +2447,7 @@
         "index": {
           "description": "Check host data against known hosts",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "checkKnownHost",
           "normalized": "KnownHosts-\u003eString-\u003eInt-\u003eString-\u003e[KnownHostType]-\u003eIO KnownHostResult",
@@ -2264,6 +2464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose channel (but do not free memory)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "closeChannel",
           "package": "libssh2",
@@ -2274,6 +2475,7 @@
         "index": {
           "description": "Close channel but do not free memory",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "closeChannel",
           "normalized": "Channel-\u003eIO()",
@@ -2290,6 +2492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisconnect session (but do not free memory)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "disconnectSession",
           "package": "libssh2",
@@ -2299,6 +2502,7 @@
         "index": {
           "description": "Disconnect session but do not free memory",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "disconnectSession",
           "normalized": "Session-\u003eString-\u003eIO()",
@@ -2315,6 +2519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeinitialize libssh2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "exit",
           "package": "libssh2",
@@ -2325,6 +2530,7 @@
         "index": {
           "description": "Deinitialize libssh2",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "exit",
           "normalized": "IO()",
@@ -2340,6 +2546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree channel object's memory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "freeChannel",
           "package": "libssh2",
@@ -2350,6 +2557,7 @@
         "index": {
           "description": "Free channel object memory",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "freeChannel",
           "normalized": "Channel-\u003eIO()",
@@ -2366,6 +2574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree KnownHosts object's memory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "freeKnownHosts",
           "package": "libssh2",
@@ -2376,6 +2585,7 @@
         "index": {
           "description": "Free KnownHosts object memory",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "freeKnownHosts",
           "normalized": "KnownHosts-\u003eIO()",
@@ -2392,6 +2602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree Session object's memory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "freeSession",
           "package": "libssh2",
@@ -2402,6 +2613,7 @@
         "index": {
           "description": "Free Session object memory",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "freeSession",
           "normalized": "Session-\u003eIO()",
@@ -2418,6 +2630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet remote host public key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "getHostKey",
           "package": "libssh2",
@@ -2428,6 +2641,7 @@
         "index": {
           "description": "Get remote host public key",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "getHostKey",
           "normalized": "Session-\u003eIO(String,Size,CInt)",
@@ -2444,6 +2658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun SSH handshake on network socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "handshake",
           "package": "libssh2",
@@ -2454,6 +2669,7 @@
         "index": {
           "description": "Run SSH handshake on network socket",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "handshake",
           "normalized": "Session-\u003eSocket-\u003eIO()",
@@ -2469,6 +2685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate KnownHosts object for given session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "initKnownHosts",
           "package": "libssh2",
@@ -2479,6 +2696,7 @@
         "index": {
           "description": "Create KnownHosts object for given session",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "initKnownHosts",
           "normalized": "Session-\u003eIO KnownHosts",
@@ -2495,6 +2713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate Session object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "initSession",
           "package": "libssh2",
@@ -2505,6 +2724,7 @@
         "index": {
           "description": "Create Session object",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "initSession",
           "package": "libssh2",
@@ -2519,6 +2739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize libssh2. Pass True to enable encryption\n or False to disable it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "initialize",
           "package": "libssh2",
@@ -2529,6 +2750,7 @@
         "index": {
           "description": "Initialize libssh2 Pass True to enable encryption or False to disable it",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "initialize",
           "normalized": "Bool-\u003eIO()",
@@ -2543,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "khKey",
           "package": "libssh2",
@@ -2552,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "khKey",
           "package": "libssh2",
@@ -2565,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "khMagic",
           "package": "libssh2",
@@ -2574,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "khMagic",
           "package": "libssh2",
@@ -2587,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "khName",
           "package": "libssh2",
@@ -2596,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "khName",
           "package": "libssh2",
@@ -2609,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "khNode",
           "package": "libssh2",
@@ -2618,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "khNode",
           "normalized": "Ptr()",
@@ -2633,6 +2863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "khTypeMask",
           "package": "libssh2",
@@ -2642,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "khTypeMask",
           "normalized": "[KnownHostType]",
@@ -2658,6 +2890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead known hosts from file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "knownHostsReadFile",
           "package": "libssh2",
@@ -2667,6 +2900,7 @@
         "index": {
           "description": "Read known hosts from file",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "knownHostsReadFile",
           "normalized": "KnownHosts-\u003eFilePath-\u003eIO Int",
@@ -2683,6 +2917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a channel for session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "openChannelSession",
           "package": "libssh2",
@@ -2693,6 +2928,7 @@
         "index": {
           "description": "Open channel for session",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "openChannelSession",
           "normalized": "Session-\u003eIO Channel",
@@ -2709,6 +2945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform public key authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "publicKeyAuthFile",
           "package": "libssh2",
@@ -2718,6 +2955,7 @@
         "index": {
           "description": "Perform public key authentication",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "publicKeyAuthFile",
           "normalized": "Session-\u003eString-\u003eString-\u003eString-\u003eString-\u003eIO()",
@@ -2734,6 +2972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead data from channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "readChannel",
           "package": "libssh2",
@@ -2743,6 +2982,7 @@
         "index": {
           "description": "Read data from channel",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "readChannel",
           "normalized": "Channel-\u003eSize-\u003eIO ByteString",
@@ -2759,6 +2999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead all data from channel to handle.\n Returns amount of transferred data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "readChannelToHandle",
           "package": "libssh2",
@@ -2769,6 +3010,7 @@
         "index": {
           "description": "Read all data from channel to handle Returns amount of transferred data",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "readChannelToHandle",
           "normalized": "Channel-\u003eHandle-\u003eOffset-\u003eIO Integer",
@@ -2784,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "requestPTY",
           "package": "libssh2",
@@ -2793,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "requestPTY",
           "normalized": "Channel-\u003eString-\u003eIO()",
@@ -2808,6 +3052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "requestPTYEx",
           "package": "libssh2",
@@ -2817,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "requestPTYEx",
           "normalized": "Channel-\u003eString-\u003eString-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eIO Int",
@@ -2833,6 +3079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate SCP file receive channel.\n TODO: receive struct stat also.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "scpReceiveChannel",
           "package": "libssh2",
@@ -2843,6 +3090,7 @@
         "index": {
           "description": "Create SCP file receive channel TODO receive struct stat also",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "scpReceiveChannel",
           "normalized": "Session-\u003eFilePath-\u003eIO(Channel,Offset)",
@@ -2859,6 +3107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate SCP file send channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "scpSendChannel",
           "package": "libssh2",
@@ -2869,6 +3118,7 @@
         "index": {
           "description": "Create SCP file send channel",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "scpSendChannel",
           "normalized": "Session-\u003eString-\u003eInt-\u003eInt-\u003ePOSIXTime-\u003ePOSIXTime-\u003eIO Channel",
@@ -2884,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "setBlocking",
           "package": "libssh2",
@@ -2893,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "setBlocking",
           "normalized": "Session-\u003eBool-\u003eIO()",
@@ -2908,6 +3160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "setTraceMode",
           "package": "libssh2",
@@ -2917,6 +3170,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "setTraceMode",
           "normalized": "Session-\u003e[TraceFlag]-\u003eIO()",
@@ -2933,6 +3187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite data to channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "writeChannel",
           "package": "libssh2",
@@ -2943,6 +3198,7 @@
         "index": {
           "description": "Write data to channel",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "writeChannel",
           "normalized": "Channel-\u003eByteString-\u003eIO()",
@@ -2959,6 +3215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite all data to channel from handle.\n Returns amount of transferred data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "writeChannelFromHandle",
           "package": "libssh2",
@@ -2969,6 +3226,7 @@
         "index": {
           "description": "Write all data to channel from handle Returns amount of transferred data",
           "hierarchy": "Network SSH Client LibSSH2 Foreign",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Foreign",
           "name": "writeChannelFromHandle",
           "normalized": "Channel-\u003eHandle-\u003eIO Integer",
@@ -2984,6 +3242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "Types",
           "package": "libssh2",
@@ -2992,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "Types",
           "package": "libssh2",
@@ -3005,6 +3265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "CStringCLen",
           "package": "libssh2",
@@ -3013,6 +3274,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "CStringCLen",
           "package": "libssh2",
@@ -3026,6 +3288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "Channel",
           "package": "libssh2",
@@ -3034,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "Channel",
           "package": "libssh2",
@@ -3048,6 +3312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession directions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "Direction",
           "package": "libssh2",
@@ -3057,6 +3322,7 @@
         "index": {
           "description": "Session directions",
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "Direction",
           "package": "libssh2",
@@ -3070,6 +3336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "KnownHosts",
           "package": "libssh2",
@@ -3078,6 +3345,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "KnownHosts",
           "package": "libssh2",
@@ -3091,6 +3359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "SSize",
           "package": "libssh2",
@@ -3099,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "SSize",
           "package": "libssh2",
@@ -3112,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "Session",
           "package": "libssh2",
@@ -3120,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "Session",
           "package": "libssh2",
@@ -3133,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "Size",
           "package": "libssh2",
@@ -3141,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "Size",
           "package": "libssh2",
@@ -3154,6 +3428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "ToPointer",
           "package": "libssh2",
@@ -3162,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "ToPointer",
           "package": "libssh2",
@@ -3175,6 +3451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "INBOUND",
           "package": "libssh2",
@@ -3184,6 +3461,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "INBOUND",
           "package": "libssh2",
@@ -3197,6 +3475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "OUTBOUND",
           "package": "libssh2",
@@ -3206,6 +3485,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "OUTBOUND",
           "package": "libssh2",
@@ -3219,6 +3499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "channelFromPointer",
           "package": "libssh2",
@@ -3228,6 +3509,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "channelFromPointer",
           "normalized": "Session-\u003ePtr()-\u003eIO Channel",
@@ -3243,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "channelSession",
           "package": "libssh2",
@@ -3252,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "channelSession",
           "normalized": "Channel-\u003eSession",
@@ -3267,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "int2dir",
           "package": "libssh2",
@@ -3276,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "int2dir",
           "normalized": "a-\u003e[Direction]",
@@ -3290,6 +3576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "knownHostsFromPointer",
           "package": "libssh2",
@@ -3299,6 +3586,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "knownHostsFromPointer",
           "normalized": "Ptr()-\u003eIO KnownHosts",
@@ -3314,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "peekCStringPtr",
           "package": "libssh2",
@@ -3323,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "peekCStringPtr",
           "normalized": "Ptr CString-\u003eIO String",
@@ -3338,6 +3628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "peekMaybeCStringPtr",
           "package": "libssh2",
@@ -3347,6 +3638,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "peekMaybeCStringPtr",
           "normalized": "Ptr CString-\u003eIO(Maybe String)",
@@ -3362,6 +3654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "sessionFromPointer",
           "package": "libssh2",
@@ -3371,6 +3664,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "sessionFromPointer",
           "normalized": "Ptr()-\u003eIO Session",
@@ -3386,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "sessionGetSocket",
           "package": "libssh2",
@@ -3395,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "sessionGetSocket",
           "normalized": "Session-\u003eIO(Maybe Socket)",
@@ -3410,6 +3706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "sessionSetSocket",
           "package": "libssh2",
@@ -3419,6 +3716,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "sessionSetSocket",
           "normalized": "Session-\u003eMaybe Socket-\u003eIO()",
@@ -3434,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "toPointer",
           "package": "libssh2",
@@ -3443,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "toPointer",
           "normalized": "a-\u003ePtr()",
@@ -3458,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "withCStringLenIntConv",
           "package": "libssh2",
@@ -3467,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 Types",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.Types",
           "name": "withCStringLenIntConv",
           "normalized": "String-\u003e(CStringCLen a-\u003eIO b)-\u003eIO b",
@@ -3483,6 +3785,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBlock until a read or write operation on a socket would succeed\n\u003c/p\u003e\u003cp\u003eOn most platforms this uses \u003ccode\u003e\u003ca\u003ethreadWaitRead\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003ethreadWaitWrite\u003c/a\u003e\u003c/code\u003e, but on Windows we need to do\n something different. \n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://hackage.haskell.org/trac/ghc/ticket/5797\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.WaitSocket",
           "name": "WaitSocket",
           "package": "libssh2",
@@ -3492,6 +3795,7 @@
         "index": {
           "description": "Block until read or write operation on socket would succeed On most platforms this uses threadWaitRead or threadWaitWrite but on Windows we need to do something different See http hackage.haskell.org trac ghc ticket",
           "hierarchy": "Network SSH Client LibSSH2 WaitSocket",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.WaitSocket",
           "name": "WaitSocket",
           "package": "libssh2",
@@ -3505,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.WaitSocket",
           "name": "threadWaitRead",
           "package": "libssh2",
@@ -3514,6 +3819,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 WaitSocket",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.WaitSocket",
           "name": "threadWaitRead",
           "normalized": "Socket-\u003eIO()",
@@ -3529,6 +3835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2.WaitSocket",
           "name": "threadWaitWrite",
           "package": "libssh2",
@@ -3538,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2 WaitSocket",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2.WaitSocket",
           "name": "threadWaitWrite",
           "normalized": "Socket-\u003eIO()",
@@ -3553,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "LibSSH2",
           "package": "libssh2",
@@ -3561,6 +3870,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "LibSSH2",
           "package": "libssh2",
@@ -3574,6 +3884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "Channel",
           "package": "libssh2",
@@ -3582,6 +3893,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "Channel",
           "package": "libssh2",
@@ -3595,6 +3907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "KnownHosts",
           "package": "libssh2",
@@ -3603,6 +3916,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "KnownHosts",
           "package": "libssh2",
@@ -3616,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "Session",
           "package": "libssh2",
@@ -3624,6 +3939,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "Session",
           "package": "libssh2",
@@ -3637,6 +3953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "checkHost",
           "package": "libssh2",
@@ -3645,6 +3962,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "checkHost",
           "normalized": "Session-\u003eString-\u003eInt-\u003eFilePath-\u003eIO KnownHostResult",
@@ -3660,6 +3978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "execCommands",
           "package": "libssh2",
@@ -3669,6 +3988,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "execCommands",
           "normalized": "Session-\u003e[String]-\u003eIO(Int,[ByteString])",
@@ -3685,6 +4005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead all data from the channel \n\u003c/p\u003e\u003cp\u003eAlthough this function returns a lazy bytestring, the data is \u003cem\u003enot\u003c/em\u003e read\n lazily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "readAllChannel",
           "package": "libssh2",
@@ -3695,6 +4016,7 @@
         "index": {
           "description": "Read all data from the channel Although this function returns lazy bytestring the data is not read lazily",
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "readAllChannel",
           "normalized": "Channel-\u003eIO ByteString",
@@ -3710,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "runShellCommands",
           "package": "libssh2",
@@ -3719,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "runShellCommands",
           "normalized": "Session-\u003e[String]-\u003eIO(Int,[ByteString])",
@@ -3735,6 +4059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive file from remote host via SCP.\n Returns size of received data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "scpReceiveFile",
           "package": "libssh2",
@@ -3744,6 +4069,7 @@
         "index": {
           "description": "Receive file from remote host via SCP Returns size of received data",
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "scpReceiveFile",
           "normalized": "Session-\u003eFilePath-\u003eFilePath-\u003eIO Integer",
@@ -3760,6 +4086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a file to remote host via SCP.\n Returns size of sent data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "scpSendFile",
           "package": "libssh2",
@@ -3769,6 +4096,7 @@
         "index": {
           "description": "Send file to remote host via SCP Returns size of sent data",
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "scpSendFile",
           "normalized": "Session-\u003eInt-\u003eFilePath-\u003eFilePath-\u003eIO Integer",
@@ -3785,6 +4113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to Network.connectTo, but does not socketToHandle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "socketConnect",
           "package": "libssh2",
@@ -3795,6 +4124,7 @@
         "index": {
           "description": "Similar to Network.connectTo but does not socketToHandle",
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "socketConnect",
           "normalized": "String-\u003eInt-\u003eIO Socket",
@@ -3811,6 +4141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute some actions withing SSH2 channel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "withChannel",
           "package": "libssh2",
@@ -3821,6 +4152,7 @@
         "index": {
           "description": "Execute some actions withing SSH2 channel",
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "withChannel",
           "normalized": "Session-\u003e(Channel-\u003eIO a)-\u003eIO(Int,a)",
@@ -3837,6 +4169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralization of \u003ccode\u003e\u003ca\u003ewithChannel\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "withChannelBy",
           "package": "libssh2",
@@ -3846,6 +4179,7 @@
         "index": {
           "description": "Generalization of withChannel",
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "withChannelBy",
           "normalized": "IO a-\u003e(a-\u003eChannel)-\u003e(a-\u003eIO b)-\u003eIO(Int,b)",
@@ -3862,6 +4196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute some actions within SSH2 connection.\n Uses public key authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "withSSH2",
           "package": "libssh2",
@@ -3871,6 +4206,7 @@
         "index": {
           "description": "Execute some actions within SSH2 connection Uses public key authentication",
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "withSSH2",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath-\u003eString-\u003eString-\u003eString-\u003eInt-\u003e(Session-\u003eIO a)-\u003eIO a",
@@ -3887,6 +4223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute some actions within SSH2 session\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "withSession",
           "package": "libssh2",
@@ -3896,6 +4233,7 @@
         "index": {
           "description": "Execute some actions within SSH2 session",
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "withSession",
           "normalized": "String-\u003eInt-\u003e(Session-\u003eIO a)-\u003eIO a",
@@ -3912,6 +4250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a lazy bytestring to the channel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:55 UTC 2014",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "writeAllChannel",
           "package": "libssh2",
@@ -3922,6 +4261,7 @@
         "index": {
           "description": "Write lazy bytestring to the channel",
           "hierarchy": "Network SSH Client LibSSH2",
+          "indexed": "2014-03-11T19:08:55",
           "module": "Network.SSH.Client.LibSSH2",
           "name": "writeAllChannel",
           "normalized": "Channel-\u003eByteString-\u003eIO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskore-supercollider"
+        "phrase": "haskore-supercollider",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn instance of \u003ccode\u003eHaskore.Interface.SuperCollider.Channel.T\u003c/code\u003e\nusing environment variables.\nSince we need writing of variables,\nwe need \u003ca\u003eSystem.Posix.Env\u003c/a\u003e module\nrather than the generic \u003ca\u003eSystem.Environment\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel.Env",
           "name": "Env",
           "package": "haskore-supercollider",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An instance of Haskore.Interface.SuperCollider.Channel.T using environment variables Since we need writing of variables we need System.Posix.Env module rather than the generic System.Environment",
           "hierarchy": "Haskore Interface SuperCollider Channel Env",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel.Env",
           "name": "Env",
           "package": "haskore-supercollider",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel.Env",
           "name": "envName",
           "package": "haskore-supercollider",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel Env",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel.Env",
           "name": "envName",
           "package": "haskore-supercollider",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel.Env",
           "name": "manager",
           "package": "haskore-supercollider",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel Env",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel.Env",
           "name": "manager",
           "package": "haskore-supercollider",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel.Env",
           "name": "next",
           "package": "haskore-supercollider",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel Env",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel.Env",
           "name": "next",
           "normalized": "NumberChannels-\u003eIO Channel",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel.Env",
           "name": "reset",
           "package": "haskore-supercollider",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel Env",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel.Env",
           "name": "reset",
           "normalized": "IO()",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn instance of \u003ccode\u003eHaskore.Interface.SuperCollider.Channel.T\u003c/code\u003e\nusing a temporary file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel.File",
           "name": "File",
           "package": "haskore-supercollider",
@@ -140,6 +151,7 @@
         "index": {
           "description": "An instance of Haskore.Interface.SuperCollider.Channel.T using temporary file",
           "hierarchy": "Haskore Interface SuperCollider Channel File",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel.File",
           "name": "File",
           "package": "haskore-supercollider",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel.File",
           "name": "fileName",
           "package": "haskore-supercollider",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel File",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel.File",
           "name": "fileName",
           "package": "haskore-supercollider",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel.File",
           "name": "manager",
           "package": "haskore-supercollider",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel File",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel.File",
           "name": "manager",
           "package": "haskore-supercollider",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel.File",
           "name": "next",
           "package": "haskore-supercollider",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel File",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel.File",
           "name": "next",
           "normalized": "NumberChannels-\u003eIO Channel",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel.File",
           "name": "reset",
           "package": "haskore-supercollider",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel File",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel.File",
           "name": "reset",
           "normalized": "IO()",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn instance of \u003ccode\u003eHaskore.Interface.SuperCollider.Channel.T\u003c/code\u003e\nusing a \u003ccode\u003e\u003ca\u003eStateT\u003c/a\u003e\u003c/code\u003e monad transformer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel.State",
           "name": "State",
           "package": "haskore-supercollider",
@@ -252,6 +273,7 @@
         "index": {
           "description": "An instance of Haskore.Interface.SuperCollider.Channel.T using StateT monad transformer",
           "hierarchy": "Haskore Interface SuperCollider Channel State",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel.State",
           "name": "State",
           "package": "haskore-supercollider",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel.State",
           "name": "manager",
           "package": "haskore-supercollider",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel State",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel.State",
           "name": "manager",
           "package": "haskore-supercollider",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel.State",
           "name": "next",
           "package": "haskore-supercollider",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel State",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel.State",
           "name": "next",
           "normalized": "NumberChannels-\u003eStateT Channel a Channel",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel.State",
           "name": "reset",
           "package": "haskore-supercollider",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel State",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel.State",
           "name": "reset",
           "normalized": "StateT Channel a()",
@@ -333,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBookkeeping of SuperCollider channels\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "Channel",
           "package": "haskore-supercollider",
@@ -342,6 +371,7 @@
         "index": {
           "description": "Bookkeeping of SuperCollider channels",
           "hierarchy": "Haskore Interface SuperCollider Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "Channel",
           "package": "haskore-supercollider",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "Channel",
           "package": "haskore-supercollider",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "Channel",
           "package": "haskore-supercollider",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "NumberChannels",
           "package": "haskore-supercollider",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "NumberChannels",
           "package": "haskore-supercollider",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "T",
           "package": "haskore-supercollider",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "T",
           "package": "haskore-supercollider",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "Cons",
           "package": "haskore-supercollider",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "Cons",
           "package": "haskore-supercollider",
@@ -440,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe reserve the first two channels for the stereo output.\nWe must not use them for instruments.\nThis is too unflexible and will certainly change in the future.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "least",
           "package": "haskore-supercollider",
@@ -450,6 +489,7 @@
         "index": {
           "description": "We reserve the first two channels for the stereo output We must not use them for instruments This is too unflexible and will certainly change in the future",
           "hierarchy": "Haskore Interface SuperCollider Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "least",
           "package": "haskore-supercollider",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "next",
           "package": "haskore-supercollider",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "next",
           "normalized": "NumberChannels-\u003ea Channel",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "readUGen",
           "package": "haskore-supercollider",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "readUGen",
           "normalized": "NumberChannels-\u003eChannel-\u003eUGen",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "reset",
           "package": "haskore-supercollider",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "reset",
           "normalized": "a()",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "writeUGen",
           "package": "haskore-supercollider",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Channel",
           "name": "writeUGen",
           "normalized": "Channel-\u003eUGen-\u003eUGen",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "Example",
           "package": "haskore-supercollider",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "Example",
           "package": "haskore-supercollider",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "Drum",
           "package": "haskore-supercollider",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "Drum",
           "package": "haskore-supercollider",
@@ -598,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "Instrument",
           "package": "haskore-supercollider",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "Instrument",
           "package": "haskore-supercollider",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "InstrumentTriplet",
           "package": "haskore-supercollider",
@@ -627,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "InstrumentTriplet",
           "package": "haskore-supercollider",
@@ -640,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "Song",
           "package": "haskore-supercollider",
@@ -648,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "Song",
           "package": "haskore-supercollider",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "BassDrum",
           "package": "haskore-supercollider",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "BassDrum",
           "package": "haskore-supercollider",
@@ -683,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "DynPerc",
           "package": "haskore-supercollider",
@@ -692,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "DynPerc",
           "package": "haskore-supercollider",
@@ -705,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "Hihat",
           "package": "haskore-supercollider",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "Hihat",
           "package": "haskore-supercollider",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "Pad",
           "package": "haskore-supercollider",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "Pad",
           "package": "haskore-supercollider",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "SawPerc",
           "package": "haskore-supercollider",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "SawPerc",
           "package": "haskore-supercollider",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "SynthBass",
           "package": "haskore-supercollider",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "SynthBass",
           "package": "haskore-supercollider",
@@ -793,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bass",
           "package": "haskore-supercollider",
@@ -802,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bass",
           "package": "haskore-supercollider",
@@ -814,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bassFinite",
           "package": "haskore-supercollider",
@@ -823,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bassFinite",
           "package": "haskore-supercollider",
@@ -836,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bassMusic",
           "package": "haskore-supercollider",
@@ -845,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bassMusic",
           "package": "haskore-supercollider",
@@ -858,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bassdrum",
           "package": "haskore-supercollider",
@@ -867,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bassdrum",
           "package": "haskore-supercollider",
@@ -879,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bassdrumNoisy",
           "package": "haskore-supercollider",
@@ -888,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bassdrumNoisy",
           "package": "haskore-supercollider",
@@ -901,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bassdrumOnk",
           "package": "haskore-supercollider",
@@ -910,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bassdrumOnk",
           "package": "haskore-supercollider",
@@ -923,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bassdrumPM",
           "package": "haskore-supercollider",
@@ -932,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bassdrumPM",
           "package": "haskore-supercollider",
@@ -945,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "brass",
           "package": "haskore-supercollider",
@@ -954,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "brass",
           "package": "haskore-supercollider",
@@ -966,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bridge",
           "package": "haskore-supercollider",
@@ -975,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "bridge",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003e[UGen]",
@@ -989,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "childSong",
           "package": "haskore-supercollider",
@@ -998,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "childSong",
           "package": "haskore-supercollider",
@@ -1011,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "chillOut",
           "package": "haskore-supercollider",
@@ -1020,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "chillOut",
           "package": "haskore-supercollider",
@@ -1033,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "chillOutFinite",
           "package": "haskore-supercollider",
@@ -1042,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "chillOutFinite",
           "package": "haskore-supercollider",
@@ -1055,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "chillOutMusic",
           "package": "haskore-supercollider",
@@ -1064,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "chillOutMusic",
           "package": "haskore-supercollider",
@@ -1078,6 +1174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003edust\u003c/code\u003e UGen as provided by SuperCollider has a problem:\nThe higher the sample rate, the more narrow are the impulses,\nthe less volume you obtain.\nWe work-around this by choosing a larger impulse.\n(We could also use a fixed width for the impulses.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "colorDust",
           "package": "haskore-supercollider",
@@ -1088,6 +1185,7 @@
         "index": {
           "description": "The dust UGen as provided by SuperCollider has problem The higher the sample rate the more narrow are the impulses the less volume you obtain We work-around this by choosing larger impulse We could also use fixed width for the impulses",
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "colorDust",
           "normalized": "Double-\u003eInstrument",
@@ -1103,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "cubicPhaserSaw",
           "package": "haskore-supercollider",
@@ -1112,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "cubicPhaserSaw",
           "normalized": "UGen-\u003eUGen",
@@ -1127,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "cubicSine",
           "package": "haskore-supercollider",
@@ -1136,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "cubicSine",
           "normalized": "UGen-\u003eUGen",
@@ -1151,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "drumMap",
           "package": "haskore-supercollider",
@@ -1160,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "drumMap",
           "package": "haskore-supercollider",
@@ -1173,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "dynPerc",
           "package": "haskore-supercollider",
@@ -1182,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "dynPerc",
           "normalized": "UGen-\u003eInstrument",
@@ -1197,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "dynPercAssign",
           "package": "haskore-supercollider",
@@ -1206,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "dynPercAssign",
           "package": "haskore-supercollider",
@@ -1219,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "dynPercUGen",
           "package": "haskore-supercollider",
@@ -1228,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "dynPercUGen",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -1243,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "filterStrings",
           "package": "haskore-supercollider",
@@ -1252,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "filterStrings",
           "package": "haskore-supercollider",
@@ -1265,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "flangerSquare",
           "package": "haskore-supercollider",
@@ -1274,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "flangerSquare",
           "normalized": "UGen-\u003eUGen",
@@ -1289,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "fmBass",
           "package": "haskore-supercollider",
@@ -1298,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "fmBass",
           "normalized": "UGen-\u003eInstrument",
@@ -1313,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "fmGuitar",
           "package": "haskore-supercollider",
@@ -1322,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "fmGuitar",
           "normalized": "UGen-\u003eInstrument",
@@ -1337,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "glissando",
           "package": "haskore-supercollider",
@@ -1346,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "glissando",
           "package": "haskore-supercollider",
@@ -1358,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "glissandoStringsUGen",
           "package": "haskore-supercollider",
@@ -1367,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "glissandoStringsUGen",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -1382,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "harpsichord",
           "package": "haskore-supercollider",
@@ -1391,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "harpsichord",
           "package": "haskore-supercollider",
@@ -1403,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "hihat",
           "package": "haskore-supercollider",
@@ -1412,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "hihat",
           "package": "haskore-supercollider",
@@ -1424,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "instrMap",
           "package": "haskore-supercollider",
@@ -1433,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "instrMap",
           "package": "haskore-supercollider",
@@ -1446,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "kantate147",
           "package": "haskore-supercollider",
@@ -1455,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "kantate147",
           "package": "haskore-supercollider",
@@ -1467,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "latency",
           "package": "haskore-supercollider",
@@ -1476,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "latency",
           "package": "haskore-supercollider",
@@ -1488,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "midiInstrMap",
           "package": "haskore-supercollider",
@@ -1497,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "midiInstrMap",
           "package": "haskore-supercollider",
@@ -1510,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "modulatedStrings",
           "package": "haskore-supercollider",
@@ -1519,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "modulatedStrings",
           "package": "haskore-supercollider",
@@ -1533,6 +1669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enormalize a list of numbers, such that they have a specific average\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "normalizeLevel",
           "package": "haskore-supercollider",
@@ -1543,6 +1680,7 @@
         "index": {
           "description": "normalize list of numbers such that they have specific average",
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "normalizeLevel",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -1558,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "pad",
           "package": "haskore-supercollider",
@@ -1567,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "pad",
           "normalized": "UGen-\u003eInstrument",
@@ -1581,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "padAttrsToInstr",
           "package": "haskore-supercollider",
@@ -1590,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "padAttrsToInstr",
           "normalized": "Double-\u003e(Rational,Instrument)",
@@ -1605,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "padMelody",
           "package": "haskore-supercollider",
@@ -1614,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "padMelody",
           "package": "haskore-supercollider",
@@ -1628,6 +1772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOscillator with the waveform of a parabola.\n\u003c/p\u003e\u003cp\u003eThe parabola is created by moving a saw up or down, and squaring it.\nThat is we repeat the function \u003ccode\u003ex -\u003e (x+s)^2\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe crux is the subsequent normalization to zero DC offset.\nThis boils down to a parabola plus a saw.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "parabolaOsci",
           "package": "haskore-supercollider",
@@ -1637,6 +1782,7 @@
         "index": {
           "description": "Oscillator with the waveform of parabola The parabola is created by moving saw up or down and squaring it That is we repeat the function The crux is the subsequent normalization to zero DC offset This boils down to parabola plus saw",
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "parabolaOsci",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -1652,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "play",
           "package": "haskore-supercollider",
@@ -1661,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "play",
           "normalized": "Song-\u003eIO()",
@@ -1675,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "render",
           "package": "haskore-supercollider",
@@ -1684,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "render",
           "normalized": "Song-\u003eIO()",
@@ -1698,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "reverb",
           "package": "haskore-supercollider",
@@ -1707,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "reverb",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -1721,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "rhythm",
           "package": "haskore-supercollider",
@@ -1730,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "rhythm",
           "package": "haskore-supercollider",
@@ -1742,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "sawPerc",
           "package": "haskore-supercollider",
@@ -1751,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "sawPerc",
           "package": "haskore-supercollider",
@@ -1764,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "sawPercAssign",
           "package": "haskore-supercollider",
@@ -1773,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "sawPercAssign",
           "package": "haskore-supercollider",
@@ -1786,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "sawPercUGen",
           "package": "haskore-supercollider",
@@ -1795,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "sawPercUGen",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -1810,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "seed",
           "package": "haskore-supercollider",
@@ -1819,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "seed",
           "package": "haskore-supercollider",
@@ -1831,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "strings",
           "package": "haskore-supercollider",
@@ -1840,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "strings",
           "package": "haskore-supercollider",
@@ -1852,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "synthBassAttrsToInstr",
           "package": "haskore-supercollider",
@@ -1861,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "synthBassAttrsToInstr",
           "normalized": "(Rational,Double)-\u003e(Rational,Instrument)",
@@ -1876,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "synthBassMelody",
           "package": "haskore-supercollider",
@@ -1885,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "synthBassMelody",
           "normalized": "T(Rational,Double)",
@@ -1900,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "triplets",
           "package": "haskore-supercollider",
@@ -1909,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "triplets",
           "package": "haskore-supercollider",
@@ -1921,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "tripletsMusic",
           "package": "haskore-supercollider",
@@ -1930,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "tripletsMusic",
           "package": "haskore-supercollider",
@@ -1943,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "xylophone",
           "package": "haskore-supercollider",
@@ -1952,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Example",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Example",
           "name": "xylophone",
           "package": "haskore-supercollider",
@@ -1964,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "Note",
           "package": "haskore-supercollider",
@@ -1972,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Note",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "Note",
           "package": "haskore-supercollider",
@@ -1985,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "FromNote",
           "package": "haskore-supercollider",
@@ -1993,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Note",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "FromNote",
           "package": "haskore-supercollider",
@@ -2006,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "T",
           "package": "haskore-supercollider",
@@ -2014,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Note",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "T",
           "package": "haskore-supercollider",
@@ -2026,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "Cons",
           "package": "haskore-supercollider",
@@ -2035,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Note",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "Cons",
           "package": "haskore-supercollider",
@@ -2048,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "fromGMNote",
           "package": "haskore-supercollider",
@@ -2057,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Note",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "fromGMNote",
           "package": "haskore-supercollider",
@@ -2070,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "fromRhythmicNote",
           "package": "haskore-supercollider",
@@ -2079,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Note",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "fromRhythmicNote",
           "normalized": "(a-\u003eString)-\u003e(b-\u003eString)-\u003eFromNote c(Note a b)",
@@ -2094,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "fromRhythmicNoteWithAttributes",
           "package": "haskore-supercollider",
@@ -2103,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Note",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "fromRhythmicNoteWithAttributes",
           "normalized": "ToSound a-\u003eToSound b-\u003eFromNote c(Note a b)",
@@ -2118,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "fromStdNote",
           "package": "haskore-supercollider",
@@ -2127,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Note",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "fromStdNote",
           "package": "haskore-supercollider",
@@ -2140,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "instrument",
           "package": "haskore-supercollider",
@@ -2149,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Note",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "instrument",
           "package": "haskore-supercollider",
@@ -2161,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "parameters",
           "package": "haskore-supercollider",
@@ -2170,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Note",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "parameters",
           "normalized": "[Attribute]",
@@ -2184,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "pitch",
           "package": "haskore-supercollider",
@@ -2193,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Note",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "pitch",
           "package": "haskore-supercollider",
@@ -2205,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "pitchFromStd",
           "package": "haskore-supercollider",
@@ -2214,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Note",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "pitchFromStd",
           "normalized": "Relative-\u003eT-\u003eDouble",
@@ -2229,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "velocity",
           "package": "haskore-supercollider",
@@ -2238,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Note",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "velocity",
           "package": "haskore-supercollider",
@@ -2250,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "velocityFromStd",
           "package": "haskore-supercollider",
@@ -2259,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Note",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Note",
           "name": "velocityFromStd",
           "normalized": "a-\u003eRational-\u003eDouble",
@@ -2274,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "Performance",
           "package": "haskore-supercollider",
@@ -2282,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "Performance",
           "package": "haskore-supercollider",
@@ -2295,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "NodeId",
           "package": "haskore-supercollider",
@@ -2303,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "NodeId",
           "package": "haskore-supercollider",
@@ -2316,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "NodeIdGen",
           "package": "haskore-supercollider",
@@ -2324,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "NodeIdGen",
           "package": "haskore-supercollider",
@@ -2337,6 +2545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "T",
           "package": "haskore-supercollider",
@@ -2345,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "T",
           "package": "haskore-supercollider",
@@ -2357,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "eventsFromNotes",
           "package": "haskore-supercollider",
@@ -2366,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "eventsFromNotes",
           "normalized": "Padded a T-\u003eNodeIdGen(T a)",
@@ -2381,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "eventsFromNotesEither",
           "package": "haskore-supercollider",
@@ -2390,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "eventsFromNotesEither",
           "normalized": "Padded a T-\u003eNodeIdGen(T a)",
@@ -2405,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "eventsFromNotesEitherAux",
           "package": "haskore-supercollider",
@@ -2414,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "eventsFromNotesEitherAux",
           "normalized": "T a(Either NodeId(Event a T))-\u003eNodeIdGen(T a)",
@@ -2429,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "eventsFromNotesQueue",
           "package": "haskore-supercollider",
@@ -2438,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "eventsFromNotesQueue",
           "normalized": "Padded a T-\u003eNodeIdGen(T a)",
@@ -2454,6 +2672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis variant does not need a list of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003es,\ninstead it uses two separate lists for start and stop events.\nWe would like to use a standard datatype for priority queues,\nhowever it must be efficient to remove the first element\nwhich means that the time stamp of all following elements must be decreased.\nSince we have no such data structure, we simply use a TimeList.\nBut then again, without the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e list,\nwe have to merge the queue of stop events and the list of start events manually.\nThis makes the implementation less beautiful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "eventsFromNotesQueueAux",
           "package": "haskore-supercollider",
@@ -2464,6 +2683,7 @@
         "index": {
           "description": "This variant does not need list of Either instead it uses two separate lists for start and stop events We would like to use standard datatype for priority queues however it must be efficient to remove the first element which means that the time stamp of all following elements must be decreased Since we have no such data structure we simply use TimeList But then again without the Either list we have to merge the queue of stop events and the list of start events manually This makes the implementation less beautiful",
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "eventsFromNotesQueueAux",
           "normalized": "T a NodeId-\u003ePadded a T-\u003eNodeIdGen(T a)",
@@ -2479,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "fancyPaddedPerformanceFromMusic",
           "package": "haskore-supercollider",
@@ -2488,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "fancyPaddedPerformanceFromMusic",
           "normalized": "T a-\u003ePadded b Double a",
@@ -2503,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "fixNodeIds",
           "package": "haskore-supercollider",
@@ -2512,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "fixNodeIds",
           "normalized": "NodeIdGen a-\u003ea",
@@ -2527,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "fromMelody",
           "package": "haskore-supercollider",
@@ -2536,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "fromMelody",
           "normalized": "T()-\u003ePadded a T",
@@ -2551,6 +2777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "fromMusic",
           "package": "haskore-supercollider",
@@ -2560,6 +2787,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "fromMusic",
           "normalized": "FromNote a b-\u003eT b-\u003eNodeIdGen(T a)",
@@ -2575,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "fromRhythmicMusicWithAttributes",
           "package": "haskore-supercollider",
@@ -2584,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "fromRhythmicMusicWithAttributes",
           "normalized": "ToSound a-\u003eToSound b-\u003eT a b-\u003eNodeIdGen(T c)",
@@ -2599,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "instrStartNodeId",
           "package": "haskore-supercollider",
@@ -2608,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Performance",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Performance",
           "name": "instrStartNodeId",
           "package": "haskore-supercollider",
@@ -2622,6 +2854,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a variant of the \u003ca\u003eHaskore.Interface.SuperCollider.Play.Install\u003c/a\u003e module.\nIt assigns output channels to instruments\nsuch that instrument specific global effects can be applied to them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "Channel",
           "package": "haskore-supercollider",
@@ -2631,6 +2864,7 @@
         "index": {
           "description": "This is variant of the Haskore.Interface.SuperCollider.Play.Install module It assigns output channels to instruments such that instrument specific global effects can be applied to them",
           "hierarchy": "Haskore Interface SuperCollider Play Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "Channel",
           "package": "haskore-supercollider",
@@ -2644,6 +2878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "Environment",
           "package": "haskore-supercollider",
@@ -2652,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "Environment",
           "package": "haskore-supercollider",
@@ -2665,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "example",
           "package": "haskore-supercollider",
@@ -2674,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "example",
           "normalized": "IO()",
@@ -2688,6 +2926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "installSound",
           "package": "haskore-supercollider",
@@ -2697,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "installSound",
           "normalized": "(a-\u003eAttributeList,b-\u003eSound c)-\u003eString-\u003eb-\u003eEnvironment d(Sound c a)",
@@ -2712,6 +2952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "installUGen",
           "package": "haskore-supercollider",
@@ -2721,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "installUGen",
           "normalized": "String-\u003eUGen-\u003eEnvironment a(Channel,NumberChannels)",
@@ -2736,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "playMusic",
           "package": "haskore-supercollider",
@@ -2745,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "playMusic",
           "normalized": "UGen-\u003eT DrumAttributes InstrumentAttributes-\u003eEnvironment a()",
@@ -2760,6 +3004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "reset",
           "package": "haskore-supercollider",
@@ -2769,6 +3014,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "reset",
           "normalized": "Environment a()",
@@ -2783,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "run",
           "package": "haskore-supercollider",
@@ -2792,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "run",
           "normalized": "Environment UDP a-\u003eIO a",
@@ -2806,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "writeScript",
           "package": "haskore-supercollider",
@@ -2815,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Channel",
           "name": "writeScript",
           "normalized": "FilePath-\u003eEnvironment T a-\u003eIO a",
@@ -2831,6 +3081,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a variant of the \u003ca\u003eHaskore.Interface.SuperCollider.Play\u003c/a\u003e module.\nInstead of an abstract \u003ccode\u003eInstrument\u003c/code\u003e type\nand a \u003ca\u003eHaskore.Interface.SuperCollider.SoundMap\u003c/a\u003e,\nwe attach SuperCollider instrument information to each note.\n\u003c/p\u003e\u003cp\u003eThis module can be used as basis for life performances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Install",
           "name": "Install",
           "package": "haskore-supercollider",
@@ -2840,6 +3091,7 @@
         "index": {
           "description": "This is variant of the Haskore.Interface.SuperCollider.Play module Instead of an abstract Instrument type and Haskore.Interface.SuperCollider.SoundMap we attach SuperCollider instrument information to each note This module can be used as basis for life performances",
           "hierarchy": "Haskore Interface SuperCollider Play Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Install",
           "name": "Install",
           "package": "haskore-supercollider",
@@ -2853,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Install",
           "name": "example",
           "package": "haskore-supercollider",
@@ -2862,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Install",
           "name": "example",
           "normalized": "IO()",
@@ -2876,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Install",
           "name": "installSound",
           "package": "haskore-supercollider",
@@ -2885,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Install",
           "name": "installSound",
           "normalized": "(a-\u003eAttributeList,b-\u003eSound c)-\u003eString-\u003eb-\u003ed(Sound c a)",
@@ -2900,6 +3156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Install",
           "name": "installSound0",
           "package": "haskore-supercollider",
@@ -2909,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Install",
           "name": "installSound0",
           "normalized": "String-\u003eSound a-\u003eb(Sound a())",
@@ -2924,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Install",
           "name": "installSound1",
           "package": "haskore-supercollider",
@@ -2933,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Install",
           "name": "installSound1",
           "normalized": "String-\u003e(UGen-\u003eSound a)-\u003eb(Sound a Double)",
@@ -2948,6 +3208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Install",
           "name": "installSound2",
           "package": "haskore-supercollider",
@@ -2957,6 +3218,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Install",
           "name": "installSound2",
           "normalized": "String-\u003e(UGen-\u003eUGen-\u003eSound a)-\u003eb(Sound a(Double,Double))",
@@ -2972,6 +3234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Install",
           "name": "playMusic",
           "package": "haskore-supercollider",
@@ -2981,6 +3244,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Install",
           "name": "playMusic",
           "normalized": "T DrumAttributes InstrumentAttributes-\u003ea()",
@@ -2996,6 +3260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Life",
           "name": "Life",
           "package": "haskore-supercollider",
@@ -3004,6 +3269,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Life",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Life",
           "name": "Life",
           "package": "haskore-supercollider",
@@ -3018,6 +3284,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a module specialised to life performances.\n\u003c/p\u003e\u003cp\u003eYou can create and install instruments in SuperCollider,\nobtain a handle and use that in your song.\n\u003c/p\u003e\u003cp\u003eThe alternative way would be to upload an instrument\nwhenever one tone shall be played.\nThis is less efficient but simpler and certainly more flexible.\n\u003c/p\u003e\u003cp\u003eIt is certainly not sensible to import that module.\nMaybe I should provide it as Extra-Source-File or\nas Main module of a dummy executable in order to ship it via Cabal.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "Live",
           "package": "haskore-supercollider",
@@ -3027,6 +3294,7 @@
         "index": {
           "description": "This is module specialised to life performances You can create and install instruments in SuperCollider obtain handle and use that in your song The alternative way would be to upload an instrument whenever one tone shall be played This is less efficient but simpler and certainly more flexible It is certainly not sensible to import that module Maybe should provide it as Extra-Source-File or as Main module of dummy executable in order to ship it via Cabal",
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "Live",
           "package": "haskore-supercollider",
@@ -3040,6 +3308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "DrumUGen",
           "package": "haskore-supercollider",
@@ -3048,6 +3317,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "DrumUGen",
           "package": "haskore-supercollider",
@@ -3061,6 +3331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "InstrumentUGen",
           "package": "haskore-supercollider",
@@ -3069,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "InstrumentUGen",
           "package": "haskore-supercollider",
@@ -3082,6 +3354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "example",
           "package": "haskore-supercollider",
@@ -3091,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "example",
           "normalized": "IO()",
@@ -3105,6 +3379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "exampleEffect",
           "package": "haskore-supercollider",
@@ -3114,6 +3389,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "exampleEffect",
           "normalized": "IO()",
@@ -3129,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "germanLatin1Keyboard",
           "package": "haskore-supercollider",
@@ -3138,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "germanLatin1Keyboard",
           "normalized": "[Char]",
@@ -3153,6 +3431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installDrum",
           "package": "haskore-supercollider",
@@ -3162,6 +3441,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installDrum",
           "normalized": "(a-\u003eAttributeList,b-\u003eDrumUGen)-\u003eString-\u003eb-\u003eIO(Drum a)",
@@ -3177,6 +3457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installDrumChan",
           "package": "haskore-supercollider",
@@ -3186,6 +3467,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installDrumChan",
           "normalized": "(a-\u003eAttributeList,b-\u003eDrumUGen)-\u003eString-\u003eb-\u003eIO(Drum a)",
@@ -3201,6 +3483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installInstr",
           "package": "haskore-supercollider",
@@ -3210,6 +3493,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installInstr",
           "normalized": "(a-\u003eAttributeList,b-\u003eInstrumentUGen)-\u003eString-\u003eb-\u003eIO(Instrument a)",
@@ -3225,6 +3509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installInstr0",
           "package": "haskore-supercollider",
@@ -3234,6 +3519,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installInstr0",
           "normalized": "String-\u003eInstrumentUGen-\u003eIO(Instrument())",
@@ -3249,6 +3535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installInstr1",
           "package": "haskore-supercollider",
@@ -3258,6 +3545,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installInstr1",
           "normalized": "String-\u003e(UGen-\u003eInstrumentUGen)-\u003eIO(Instrument Double)",
@@ -3273,6 +3561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installInstr2",
           "package": "haskore-supercollider",
@@ -3282,6 +3571,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installInstr2",
           "normalized": "String-\u003e(UGen-\u003eUGen-\u003eInstrumentUGen)-\u003eIO(Instrument(Double,Double))",
@@ -3297,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installInstrChan",
           "package": "haskore-supercollider",
@@ -3306,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installInstrChan",
           "normalized": "(a-\u003eAttributeList,b-\u003eInstrumentUGen)-\u003eString-\u003eb-\u003eIO(Instrument a)",
@@ -3321,6 +3613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installSoundChan",
           "package": "haskore-supercollider",
@@ -3330,6 +3623,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "installSoundChan",
           "normalized": "String-\u003eSound a-\u003eIO(Channel,NumberChannels)",
@@ -3345,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "playKey",
           "package": "haskore-supercollider",
@@ -3354,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "playKey",
           "normalized": "Instrument()-\u003eChar-\u003eIO()",
@@ -3370,6 +3666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterprets the keyboard as piano and play according tones,\nwhen keys are hit.\n\u003c/p\u003e\u003cp\u003eIs it more convenient to have a UGen parameter and install the instrument automatically?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "playKeyboard",
           "package": "haskore-supercollider",
@@ -3380,6 +3677,7 @@
         "index": {
           "description": "Interprets the keyboard as piano and play according tones when keys are hit Is it more convenient to have UGen parameter and install the instrument automatically",
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "playKeyboard",
           "normalized": "Instrument()-\u003eIO()",
@@ -3395,6 +3693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "playMusic",
           "package": "haskore-supercollider",
@@ -3404,6 +3703,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "playMusic",
           "normalized": "T DrumAttributes InstrumentAttributes-\u003eIO()",
@@ -3419,6 +3719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "playMusicEffect",
           "package": "haskore-supercollider",
@@ -3428,6 +3729,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "playMusicEffect",
           "normalized": "UGen-\u003eT DrumAttributes InstrumentAttributes-\u003eIO()",
@@ -3443,6 +3745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "playSound",
           "package": "haskore-supercollider",
@@ -3452,6 +3755,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "playSound",
           "normalized": "UGen-\u003eIO()",
@@ -3467,6 +3771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "reset",
           "package": "haskore-supercollider",
@@ -3476,6 +3781,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play Live",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play.Live",
           "name": "reset",
           "normalized": "IO()",
@@ -3490,6 +3796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "Play",
           "package": "haskore-supercollider",
@@ -3498,6 +3805,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "Play",
           "package": "haskore-supercollider",
@@ -3512,6 +3820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value for latency used in \u003ca\u003eHaskore.Interface.SuperCollider.Play.Live\u003c/a\u003e\nand connected modules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "defaultLatency",
           "package": "haskore-supercollider",
@@ -3522,6 +3831,7 @@
         "index": {
           "description": "Default value for latency used in Haskore.Interface.SuperCollider.Play.Live and connected modules",
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "defaultLatency",
           "package": "haskore-supercollider",
@@ -3535,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "installSound",
           "package": "haskore-supercollider",
@@ -3544,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "installSound",
           "normalized": "String-\u003eSound a-\u003eb()",
@@ -3559,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "melody",
           "package": "haskore-supercollider",
@@ -3568,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "melody",
           "normalized": "Time-\u003eInstrument-\u003eT()-\u003eIO()",
@@ -3583,6 +3897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses \u003ccode\u003ethreadDelay\u003c/code\u003e and \u003ccode\u003egetClockTime\u003c/code\u003e for a long-time stable,\nbut not very accurate timing.\nUse time stamped messages for SuperCollider in order\nto achieve exact scheduling.\nYou have to specify the latency,\nthat is, the maximal expected delay of creating and sending messages\nto the SuperCollider server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "messagesGrouped",
           "package": "haskore-supercollider",
@@ -3593,6 +3908,7 @@
         "index": {
           "description": "Uses threadDelay and getClockTime for long-time stable but not very accurate timing Use time stamped messages for SuperCollider in order to achieve exact scheduling You have to specify the latency that is the maximal expected delay of creating and sending messages to the SuperCollider server",
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "messagesGrouped",
           "normalized": "T a-\u003eTime-\u003eT Time OSC-\u003ea()",
@@ -3608,6 +3924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "messagesGroupedManual",
           "package": "haskore-supercollider",
@@ -3617,6 +3934,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "messagesGroupedManual",
           "normalized": "T a-\u003eTime-\u003eT Time OSC-\u003ea()",
@@ -3632,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "messagesSimple",
           "package": "haskore-supercollider",
@@ -3641,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "messagesSimple",
           "normalized": "T a-\u003eT Time OSC-\u003ea()",
@@ -3656,6 +3976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "messagesSingly",
           "package": "haskore-supercollider",
@@ -3665,6 +3986,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "messagesSingly",
           "normalized": "T a-\u003eTime-\u003eT Time OSC-\u003ea()",
@@ -3680,6 +4002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "music",
           "package": "haskore-supercollider",
@@ -3689,6 +4012,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "music",
           "normalized": "Time-\u003eSoundHandler a-\u003eT a-\u003eIO()",
@@ -3703,6 +4027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "performance",
           "package": "haskore-supercollider",
@@ -3712,6 +4037,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "performance",
           "normalized": "Time-\u003e[OSC]-\u003eT Time-\u003eIO()",
@@ -3726,6 +4052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "performanceTrans",
           "package": "haskore-supercollider",
@@ -3735,6 +4062,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "performanceTrans",
           "normalized": "Time-\u003e[OSC]-\u003eT Time-\u003ea()",
@@ -3750,6 +4078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "playAtom",
           "package": "haskore-supercollider",
@@ -3759,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "playAtom",
           "normalized": "NodeId-\u003eString-\u003e[(String,Double)]-\u003ea()",
@@ -3774,6 +4104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "schedule",
           "package": "haskore-supercollider",
@@ -3783,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "schedule",
           "normalized": "Time-\u003eT-\u003eIO()",
@@ -3797,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "scheduleWithPlayer",
           "package": "haskore-supercollider",
@@ -3806,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "scheduleWithPlayer",
           "normalized": "(T Time OSC-\u003ea())-\u003eT-\u003ea()",
@@ -3821,6 +4155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "shutUp",
           "package": "haskore-supercollider",
@@ -3830,6 +4165,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "shutUp",
           "normalized": "IO()",
@@ -3845,6 +4181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "timeStamp",
           "package": "haskore-supercollider",
@@ -3854,6 +4191,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Play",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Play",
           "name": "timeStamp",
           "normalized": "Time-\u003eTime-\u003e[OSC]-\u003eOSC",
@@ -3869,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "Render",
           "package": "haskore-supercollider",
@@ -3877,6 +4216,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "Render",
           "package": "haskore-supercollider",
@@ -3890,6 +4230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "HeaderFormat",
           "package": "haskore-supercollider",
@@ -3898,6 +4239,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "HeaderFormat",
           "package": "haskore-supercollider",
@@ -3911,6 +4253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "SampleFormat",
           "package": "haskore-supercollider",
@@ -3919,6 +4262,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "SampleFormat",
           "package": "haskore-supercollider",
@@ -3932,6 +4276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "AIFF",
           "package": "haskore-supercollider",
@@ -3941,6 +4286,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "AIFF",
           "package": "haskore-supercollider",
@@ -3954,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "Double",
           "package": "haskore-supercollider",
@@ -3963,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "Double",
           "package": "haskore-supercollider",
@@ -3976,6 +4324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "Float",
           "package": "haskore-supercollider",
@@ -3985,6 +4334,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "Float",
           "package": "haskore-supercollider",
@@ -3998,6 +4348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "Int16",
           "package": "haskore-supercollider",
@@ -4007,6 +4358,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "Int16",
           "package": "haskore-supercollider",
@@ -4020,6 +4372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "Int24",
           "package": "haskore-supercollider",
@@ -4029,6 +4382,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "Int24",
           "package": "haskore-supercollider",
@@ -4042,6 +4396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "Int32",
           "package": "haskore-supercollider",
@@ -4051,6 +4406,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "Int32",
           "package": "haskore-supercollider",
@@ -4064,6 +4420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "NeXT",
           "package": "haskore-supercollider",
@@ -4073,6 +4430,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "NeXT",
           "package": "haskore-supercollider",
@@ -4086,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "Wave",
           "package": "haskore-supercollider",
@@ -4095,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "Wave",
           "package": "haskore-supercollider",
@@ -4108,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "byteStringFromSchedule",
           "package": "haskore-supercollider",
@@ -4117,6 +4478,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "byteStringFromSchedule",
           "normalized": "T-\u003eByteString",
@@ -4132,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "fileFromMelody",
           "package": "haskore-supercollider",
@@ -4141,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "fileFromMelody",
           "normalized": "FilePath-\u003eInstrument-\u003eT()-\u003eIO()",
@@ -4156,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "fileFromMelodyMonad",
           "package": "haskore-supercollider",
@@ -4165,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "fileFromMelodyMonad",
           "normalized": "FilePath-\u003eInstrument-\u003eT()-\u003eIO()",
@@ -4180,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "runSCSynth",
           "package": "haskore-supercollider",
@@ -4188,6 +4555,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Render",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Render",
           "name": "runSCSynth",
           "normalized": "[String]-\u003eInt-\u003eHeaderFormat-\u003eSampleFormat-\u003eInt-\u003eFilePath-\u003eIO ExitCode",
@@ -4204,6 +4572,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a variant of the \u003ca\u003eHaskore.Interface.SuperCollider.Schedule.Install\u003c/a\u003e module.\nIt assigns output channels to instruments\nsuch that instrument specific global effects can be applied to them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "Channel",
           "package": "haskore-supercollider",
@@ -4213,6 +4582,7 @@
         "index": {
           "description": "This is variant of the Haskore.Interface.SuperCollider.Schedule.Install module It assigns output channels to instruments such that instrument specific global effects can be applied to them",
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "Channel",
           "package": "haskore-supercollider",
@@ -4226,6 +4596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "Drum",
           "package": "haskore-supercollider",
@@ -4234,6 +4605,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "Drum",
           "package": "haskore-supercollider",
@@ -4247,6 +4619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "DrumAttributes",
           "package": "haskore-supercollider",
@@ -4255,6 +4628,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "DrumAttributes",
           "package": "haskore-supercollider",
@@ -4268,6 +4642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "Environment",
           "package": "haskore-supercollider",
@@ -4276,6 +4651,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "Environment",
           "package": "haskore-supercollider",
@@ -4289,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "Instrument",
           "package": "haskore-supercollider",
@@ -4297,6 +4674,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "Instrument",
           "package": "haskore-supercollider",
@@ -4310,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "InstrumentAttributes",
           "package": "haskore-supercollider",
@@ -4318,6 +4697,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "InstrumentAttributes",
           "package": "haskore-supercollider",
@@ -4331,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "Sound",
           "package": "haskore-supercollider",
@@ -4339,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "Sound",
           "package": "haskore-supercollider",
@@ -4353,6 +4735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese types are identically defined to those from\n\u003ca\u003eHaskore.Interface.SuperCollider.Schedule.Install\u003c/a\u003e\nbut they shall be distinct.\nInstruments that are installed for use of global effects\ncannot be used with the simple \u003ccode\u003eplayMusic\u003c/code\u003e routine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "SoundAttributes",
           "package": "haskore-supercollider",
@@ -4362,6 +4745,7 @@
         "index": {
           "description": "These types are identically defined to those from Haskore.Interface.SuperCollider.Schedule.Install but they shall be distinct Instruments that are installed for use of global effects cannot be used with the simple playMusic routine",
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "SoundAttributes",
           "package": "haskore-supercollider",
@@ -4375,6 +4759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "Environment",
           "package": "haskore-supercollider",
@@ -4384,6 +4769,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "Environment",
           "package": "haskore-supercollider",
@@ -4397,6 +4783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "Sound",
           "package": "haskore-supercollider",
@@ -4406,6 +4793,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "Sound",
           "normalized": "Sound String(Channel,NumberChannels)(a-\u003eAttributeList)",
@@ -4421,6 +4809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "SoundAttributes",
           "package": "haskore-supercollider",
@@ -4430,6 +4819,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "SoundAttributes",
           "package": "haskore-supercollider",
@@ -4443,6 +4833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "example",
           "package": "haskore-supercollider",
@@ -4452,6 +4843,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "example",
           "normalized": "IO()",
@@ -4466,6 +4858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "fromRhythmicMusic",
           "package": "haskore-supercollider",
@@ -4475,6 +4868,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "fromRhythmicMusic",
           "normalized": "Environment(UGen,T DrumAttributes InstrumentAttributes)-\u003eT",
@@ -4490,6 +4884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "installSound",
           "package": "haskore-supercollider",
@@ -4499,6 +4894,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "installSound",
           "normalized": "(a-\u003eAttributeList,b-\u003eSound c)-\u003eString-\u003eb-\u003eEnvironment(Sound c a)",
@@ -4514,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "installUGen",
           "package": "haskore-supercollider",
@@ -4523,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "installUGen",
           "normalized": "String-\u003eUGen-\u003eEnvironment(Channel,NumberChannels)",
@@ -4538,6 +4936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "nextChannel",
           "package": "haskore-supercollider",
@@ -4547,6 +4946,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "nextChannel",
           "normalized": "NumberChannels-\u003eEnvironment Channel",
@@ -4562,6 +4962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "rhythmicMusicFromDrum",
           "package": "haskore-supercollider",
@@ -4571,6 +4972,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "rhythmicMusicFromDrum",
           "normalized": "Drum()-\u003eDur-\u003eT DrumAttributes InstrumentAttributes",
@@ -4586,6 +4988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "rhythmicMusicFromDynamicMelody",
           "package": "haskore-supercollider",
@@ -4595,6 +4998,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "rhythmicMusicFromDynamicMelody",
           "normalized": "Instrument a-\u003eT(Rational,a)-\u003eT DrumAttributes InstrumentAttributes",
@@ -4610,6 +5014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "rhythmicMusicFromMelody",
           "package": "haskore-supercollider",
@@ -4619,6 +5024,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "rhythmicMusicFromMelody",
           "normalized": "Instrument a-\u003eT a-\u003eT DrumAttributes InstrumentAttributes",
@@ -4634,6 +5040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "rhythmicMusicFromRhythm",
           "package": "haskore-supercollider",
@@ -4643,6 +5050,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "rhythmicMusicFromRhythm",
           "normalized": "Drum()-\u003eDur-\u003eString-\u003eT DrumAttributes InstrumentAttributes",
@@ -4658,6 +5066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "ugenFromSound",
           "package": "haskore-supercollider",
@@ -4667,6 +5076,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "ugenFromSound",
           "normalized": "Sound a b-\u003eUGen",
@@ -4682,6 +5092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "unwrapEnvironment",
           "package": "haskore-supercollider",
@@ -4691,6 +5102,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "unwrapEnvironment",
           "normalized": "StateT(Channel,NumberChannels)(Writer[OSC])a",
@@ -4706,6 +5118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "writeOSC",
           "package": "haskore-supercollider",
@@ -4715,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Channel",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Channel",
           "name": "writeOSC",
           "normalized": "[OSC]-\u003eEnvironment()",
@@ -4731,6 +5145,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a variant of the \u003ca\u003eHaskore.Interface.SuperCollider.Schedule\u003c/a\u003e module.\nInstead of an abstract \u003ccode\u003eInstrument\u003c/code\u003e type\nand a \u003ca\u003eHaskore.Interface.SuperCollider.SoundMap\u003c/a\u003e,\nwe attach SuperCollider instrument information to each note.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "Install",
           "package": "haskore-supercollider",
@@ -4740,6 +5155,7 @@
         "index": {
           "description": "This is variant of the Haskore.Interface.SuperCollider.Schedule module Instead of an abstract Instrument type and Haskore.Interface.SuperCollider.SoundMap we attach SuperCollider instrument information to each note",
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "Install",
           "package": "haskore-supercollider",
@@ -4753,6 +5169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "Drum",
           "package": "haskore-supercollider",
@@ -4761,6 +5178,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "Drum",
           "package": "haskore-supercollider",
@@ -4774,6 +5192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "DrumAttributes",
           "package": "haskore-supercollider",
@@ -4782,6 +5201,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "DrumAttributes",
           "package": "haskore-supercollider",
@@ -4796,6 +5216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e[OSC]\u003c/code\u003e state is used for messages for installing the instruments.\nWe cannot use a Writer monad for this purpose\nbecause we have to read the generated messages for \u003ccode\u003eplayMusic\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "Environment",
           "package": "haskore-supercollider",
@@ -4805,6 +5226,7 @@
         "index": {
           "description": "The OSC state is used for messages for installing the instruments We cannot use Writer monad for this purpose because we have to read the generated messages for playMusic",
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "Environment",
           "package": "haskore-supercollider",
@@ -4818,6 +5240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "Instrument",
           "package": "haskore-supercollider",
@@ -4826,6 +5249,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "Instrument",
           "package": "haskore-supercollider",
@@ -4839,6 +5263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "InstrumentAttributes",
           "package": "haskore-supercollider",
@@ -4847,6 +5272,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "InstrumentAttributes",
           "package": "haskore-supercollider",
@@ -4860,6 +5286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "Sound",
           "package": "haskore-supercollider",
@@ -4868,6 +5295,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "Sound",
           "package": "haskore-supercollider",
@@ -4881,6 +5309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "SoundAttributes",
           "package": "haskore-supercollider",
@@ -4889,6 +5318,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "SoundAttributes",
           "package": "haskore-supercollider",
@@ -4902,6 +5332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "Environment",
           "package": "haskore-supercollider",
@@ -4911,6 +5342,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "Environment",
           "package": "haskore-supercollider",
@@ -4924,6 +5356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "Sound",
           "package": "haskore-supercollider",
@@ -4933,6 +5366,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "Sound",
           "package": "haskore-supercollider",
@@ -4946,6 +5380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "SoundAttributes",
           "package": "haskore-supercollider",
@@ -4955,6 +5390,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "SoundAttributes",
           "package": "haskore-supercollider",
@@ -4968,6 +5404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "example",
           "package": "haskore-supercollider",
@@ -4977,6 +5414,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "example",
           "normalized": "IO()",
@@ -4991,6 +5429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "flattenAttrFromSound",
           "package": "haskore-supercollider",
@@ -5000,6 +5439,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "flattenAttrFromSound",
           "normalized": "a-\u003eAttributeList",
@@ -5015,6 +5455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "fromRhythmicMusic",
           "package": "haskore-supercollider",
@@ -5024,6 +5465,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "fromRhythmicMusic",
           "normalized": "Environment(T DrumAttributes InstrumentAttributes)-\u003eT",
@@ -5039,6 +5481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "installSound",
           "package": "haskore-supercollider",
@@ -5048,6 +5491,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "installSound",
           "normalized": "(a-\u003eAttributeList,b-\u003eSound c)-\u003eString-\u003eb-\u003eEnvironment(Sound c a)",
@@ -5063,6 +5507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "installSound0",
           "package": "haskore-supercollider",
@@ -5072,6 +5517,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "installSound0",
           "normalized": "String-\u003eSound a-\u003eEnvironment(Sound a())",
@@ -5087,6 +5533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "installSound1",
           "package": "haskore-supercollider",
@@ -5096,6 +5543,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "installSound1",
           "normalized": "String-\u003e(UGen-\u003eSound a)-\u003eEnvironment(Sound a Double)",
@@ -5111,6 +5559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "installSound2",
           "package": "haskore-supercollider",
@@ -5120,6 +5569,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "installSound2",
           "normalized": "String-\u003e(UGen-\u003eUGen-\u003eSound a)-\u003eEnvironment(Sound a(Double,Double))",
@@ -5135,6 +5585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "nameFromSound",
           "package": "haskore-supercollider",
@@ -5144,6 +5595,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "nameFromSound",
           "package": "haskore-supercollider",
@@ -5157,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "rhythmicMusicFromDrum",
           "package": "haskore-supercollider",
@@ -5166,6 +5619,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "rhythmicMusicFromDrum",
           "normalized": "Drum()-\u003eDur-\u003eT DrumAttributes InstrumentAttributes",
@@ -5181,6 +5635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "rhythmicMusicFromDynamicMelody",
           "package": "haskore-supercollider",
@@ -5190,6 +5645,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "rhythmicMusicFromDynamicMelody",
           "normalized": "Instrument a-\u003eT(Rational,a)-\u003eT DrumAttributes InstrumentAttributes",
@@ -5205,6 +5661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "rhythmicMusicFromMelody",
           "package": "haskore-supercollider",
@@ -5214,6 +5671,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "rhythmicMusicFromMelody",
           "normalized": "Instrument a-\u003eT a-\u003eT DrumAttributes InstrumentAttributes",
@@ -5229,6 +5687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "rhythmicMusicFromRhythm",
           "package": "haskore-supercollider",
@@ -5238,6 +5697,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "rhythmicMusicFromRhythm",
           "normalized": "Drum()-\u003eDur-\u003eString-\u003eT DrumAttributes InstrumentAttributes",
@@ -5253,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "unwrapEnvironment",
           "package": "haskore-supercollider",
@@ -5262,6 +5723,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "unwrapEnvironment",
           "normalized": "Writer[OSC]a",
@@ -5277,6 +5739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "writeOSC",
           "package": "haskore-supercollider",
@@ -5286,6 +5749,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule Install",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule.Install",
           "name": "writeOSC",
           "normalized": "[OSC]-\u003eEnvironment()",
@@ -5301,6 +5765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "Schedule",
           "package": "haskore-supercollider",
@@ -5309,6 +5774,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "Schedule",
           "package": "haskore-supercollider",
@@ -5322,6 +5788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "SoundHandler",
           "package": "haskore-supercollider",
@@ -5330,6 +5797,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "SoundHandler",
           "package": "haskore-supercollider",
@@ -5343,6 +5811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "T",
           "package": "haskore-supercollider",
@@ -5351,6 +5820,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "T",
           "package": "haskore-supercollider",
@@ -5363,6 +5833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "Time",
           "package": "haskore-supercollider",
@@ -5371,6 +5842,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "Time",
           "package": "haskore-supercollider",
@@ -5384,6 +5856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "Cons",
           "package": "haskore-supercollider",
@@ -5393,6 +5866,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "Cons",
           "package": "haskore-supercollider",
@@ -5406,6 +5880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "atomPlayMsg",
           "package": "haskore-supercollider",
@@ -5415,6 +5890,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "atomPlayMsg",
           "normalized": "NodeId-\u003eString-\u003e[(String,Double)]-\u003eOSC",
@@ -5430,6 +5906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "body",
           "package": "haskore-supercollider",
@@ -5439,6 +5916,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "body",
           "package": "haskore-supercollider",
@@ -5451,6 +5929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "defaultChannel",
           "package": "haskore-supercollider",
@@ -5460,6 +5939,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "defaultChannel",
           "package": "haskore-supercollider",
@@ -5473,6 +5953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "eventToMark",
           "package": "haskore-supercollider",
@@ -5482,6 +5963,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "eventToMark",
           "normalized": "(NodeId,Maybe T)-\u003e(NodeId,Bool)",
@@ -5497,6 +5979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "fromMelody",
           "package": "haskore-supercollider",
@@ -5506,6 +5989,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "fromMelody",
           "normalized": "Instrument-\u003eT()-\u003eT",
@@ -5521,6 +6005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "fromMusic",
           "package": "haskore-supercollider",
@@ -5530,6 +6015,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "fromMusic",
           "normalized": "SoundHandler a-\u003eT a-\u003eT",
@@ -5545,6 +6031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "fromMusicGlobalEffect",
           "package": "haskore-supercollider",
@@ -5554,6 +6041,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "fromMusicGlobalEffect",
           "normalized": "SoundHandler a-\u003e(UGen-\u003eUGen,NumberChannels)-\u003eT a-\u003eT",
@@ -5569,6 +6057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "fromMusicMsgs",
           "package": "haskore-supercollider",
@@ -5578,6 +6067,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "fromMusicMsgs",
           "normalized": "(FromNote Double a,[OSC])-\u003eT a-\u003eT",
@@ -5593,6 +6083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "fromPerformance",
           "package": "haskore-supercollider",
@@ -5602,6 +6093,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "fromPerformance",
           "normalized": "[OSC]-\u003e[OSC]-\u003eT Time-\u003eT",
@@ -5617,6 +6109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "fromRhythmicMusicSoundEffects",
           "package": "haskore-supercollider",
@@ -5626,6 +6119,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "fromRhythmicMusicSoundEffects",
           "normalized": "ChannelMap a b-\u003eNumberChannels-\u003eT a b-\u003eT",
@@ -5642,6 +6136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll of these messages must be synchronous!\n               Otherwise the player might wait forever. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "initial",
           "package": "haskore-supercollider",
@@ -5652,6 +6147,7 @@
         "index": {
           "description": "All of these messages must be synchronous Otherwise the player might wait forever",
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "initial",
           "normalized": "[OSC]",
@@ -5666,6 +6162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "installSoundMsg",
           "package": "haskore-supercollider",
@@ -5675,6 +6172,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "installSoundMsg",
           "normalized": "String-\u003eChannel-\u003eSound a-\u003eOSC",
@@ -5690,6 +6188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "installUGenMsg",
           "package": "haskore-supercollider",
@@ -5699,6 +6198,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "installUGenMsg",
           "normalized": "String-\u003eChannel-\u003eUGen-\u003eOSC",
@@ -5714,6 +6214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "rhythmicMusic",
           "package": "haskore-supercollider",
@@ -5723,6 +6224,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "rhythmicMusic",
           "normalized": "DrumTable a-\u003eInstrumentTable b-\u003eSoundHandler(Note a b)",
@@ -5738,6 +6240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "rhythmicMusicWithAttributes",
           "package": "haskore-supercollider",
@@ -5747,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider Schedule",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.Schedule",
           "name": "rhythmicMusicWithAttributes",
           "normalized": "DrumTableWithAttributes a-\u003eInstrumentTableWithAttributes b-\u003eSoundHandler(Note a b)",
@@ -5763,6 +6267,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is quite specific to \u003ca\u003eHaskore.Music.Rhythmic\u003c/a\u003e.\nMaybe the module name should reflect this?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "SoundMap",
           "package": "haskore-supercollider",
@@ -5772,6 +6277,7 @@
         "index": {
           "description": "This module is quite specific to Haskore.Music.Rhythmic Maybe the module name should reflect this",
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "SoundMap",
           "package": "haskore-supercollider",
@@ -5785,6 +6291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Assign",
           "package": "haskore-supercollider",
@@ -5793,6 +6300,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Assign",
           "package": "haskore-supercollider",
@@ -5807,6 +6315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e means an optional information for a note.\nCompare with \u003ccode\u003e\u003ca\u003eInstrumentParameters\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Attribute",
           "package": "haskore-supercollider",
@@ -5816,6 +6325,7 @@
         "index": {
           "description": "Attribute means an optional information for note Compare with InstrumentParameters",
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Attribute",
           "package": "haskore-supercollider",
@@ -5829,6 +6339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "AttributeList",
           "package": "haskore-supercollider",
@@ -5837,6 +6348,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "AttributeList",
           "package": "haskore-supercollider",
@@ -5851,6 +6363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike a State+Writer monad with the binding operation\nbaked into \u003ccode\u003e\u003ca\u003eregisterInstrument\u003c/a\u003e\u003c/code\u003e.\nThis way we can suppress ignoring of results of \u003ccode\u003e\u003ca\u003eregisterInstrument\u003c/a\u003e\u003c/code\u003e,\nwhich is easily possible with 'do' notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "ChannelMap",
           "package": "haskore-supercollider",
@@ -5860,6 +6373,7 @@
         "index": {
           "description": "Like State Writer monad with the binding operation baked into registerInstrument This way we can suppress ignoring of results of registerInstrument which is easily possible with do notation",
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "ChannelMap",
           "package": "haskore-supercollider",
@@ -5873,6 +6387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Drum",
           "package": "haskore-supercollider",
@@ -5881,6 +6396,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Drum",
           "package": "haskore-supercollider",
@@ -5894,6 +6410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "DrumAssign",
           "package": "haskore-supercollider",
@@ -5902,6 +6419,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "DrumAssign",
           "package": "haskore-supercollider",
@@ -5915,6 +6433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "DrumParameters",
           "package": "haskore-supercollider",
@@ -5923,6 +6442,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "DrumParameters",
           "package": "haskore-supercollider",
@@ -5936,6 +6456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "DrumTable",
           "package": "haskore-supercollider",
@@ -5944,6 +6465,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "DrumTable",
           "package": "haskore-supercollider",
@@ -5957,6 +6479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "DrumTableWithAttributes",
           "package": "haskore-supercollider",
@@ -5965,6 +6488,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "DrumTableWithAttributes",
           "package": "haskore-supercollider",
@@ -5978,6 +6502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "DrumTableWithChannels",
           "package": "haskore-supercollider",
@@ -5986,6 +6511,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "DrumTableWithChannels",
           "package": "haskore-supercollider",
@@ -5999,6 +6525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Instrument",
           "package": "haskore-supercollider",
@@ -6007,6 +6534,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Instrument",
           "package": "haskore-supercollider",
@@ -6020,6 +6548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "InstrumentAssign",
           "package": "haskore-supercollider",
@@ -6028,6 +6557,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "InstrumentAssign",
           "package": "haskore-supercollider",
@@ -6042,6 +6572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eParameter\u003c/code\u003e means an obligatory information for a note,\nlike \u003ccode\u003efrequency\u003c/code\u003e, \u003ccode\u003evelocity\u003c/code\u003e, \u003ccode\u003eduration\u003c/code\u003e.\nCompare with \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "InstrumentParameters",
           "package": "haskore-supercollider",
@@ -6051,6 +6582,7 @@
         "index": {
           "description": "Parameter means an obligatory information for note like frequency velocity duration Compare with Attribute",
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "InstrumentParameters",
           "package": "haskore-supercollider",
@@ -6064,6 +6596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "InstrumentTable",
           "package": "haskore-supercollider",
@@ -6072,6 +6605,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "InstrumentTable",
           "package": "haskore-supercollider",
@@ -6085,6 +6619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "InstrumentTableWithAttributes",
           "package": "haskore-supercollider",
@@ -6093,6 +6628,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "InstrumentTableWithAttributes",
           "package": "haskore-supercollider",
@@ -6106,6 +6642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "InstrumentTableWithChannels",
           "package": "haskore-supercollider",
@@ -6114,6 +6651,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "InstrumentTableWithChannels",
           "package": "haskore-supercollider",
@@ -6127,6 +6665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Name",
           "package": "haskore-supercollider",
@@ -6135,6 +6674,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Name",
           "package": "haskore-supercollider",
@@ -6148,6 +6688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Sound",
           "package": "haskore-supercollider",
@@ -6156,6 +6697,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Sound",
           "package": "haskore-supercollider",
@@ -6169,6 +6711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "SoundParameters",
           "package": "haskore-supercollider",
@@ -6177,6 +6720,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "SoundParameters",
           "package": "haskore-supercollider",
@@ -6190,6 +6734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Table",
           "package": "haskore-supercollider",
@@ -6198,6 +6743,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Table",
           "package": "haskore-supercollider",
@@ -6211,6 +6757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "TableWithAttributes",
           "package": "haskore-supercollider",
@@ -6219,6 +6766,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "TableWithAttributes",
           "package": "haskore-supercollider",
@@ -6232,6 +6780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "TableWithChannels",
           "package": "haskore-supercollider",
@@ -6240,6 +6789,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "TableWithChannels",
           "package": "haskore-supercollider",
@@ -6253,6 +6803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "ToSound",
           "package": "haskore-supercollider",
@@ -6261,6 +6812,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "ToSound",
           "package": "haskore-supercollider",
@@ -6274,6 +6826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Assign",
           "package": "haskore-supercollider",
@@ -6283,6 +6836,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "Assign",
           "normalized": "Assign Name(a-\u003eMaybe AttributeList)(Sound b)",
@@ -6298,6 +6852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "ChannelMap",
           "package": "haskore-supercollider",
@@ -6307,6 +6862,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "ChannelMap",
           "package": "haskore-supercollider",
@@ -6320,6 +6876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "DrumParameters",
           "package": "haskore-supercollider",
@@ -6329,6 +6886,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "DrumParameters",
           "package": "haskore-supercollider",
@@ -6342,6 +6900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "InstrumentParameters",
           "package": "haskore-supercollider",
@@ -6351,6 +6910,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "InstrumentParameters",
           "package": "haskore-supercollider",
@@ -6364,6 +6924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "assign",
           "package": "haskore-supercollider",
@@ -6373,6 +6934,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "assign",
           "normalized": "Name-\u003e(a-\u003eMaybe())-\u003eSound b-\u003eAssign b a",
@@ -6387,6 +6949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "assign1",
           "package": "haskore-supercollider",
@@ -6396,6 +6959,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "assign1",
           "normalized": "Name-\u003e(a-\u003eMaybe Attribute)-\u003e(UGen-\u003eSound b)-\u003eAssign b a",
@@ -6410,6 +6974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "assign2",
           "package": "haskore-supercollider",
@@ -6419,6 +6984,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "assign2",
           "normalized": "Name-\u003e(a-\u003eMaybe(Attribute,Attribute))-\u003e(UGen-\u003eUGen-\u003eSound b)-\u003eAssign b a",
@@ -6433,6 +6999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "assign3",
           "package": "haskore-supercollider",
@@ -6442,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "assign3",
           "normalized": "Name-\u003e(a-\u003eMaybe(Attribute,Attribute,Attribute))-\u003e(UGen-\u003eUGen-\u003eUGen-\u003eSound b)-\u003eAssign b a",
@@ -6456,6 +7024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "assign4",
           "package": "haskore-supercollider",
@@ -6465,6 +7034,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "assign4",
           "normalized": "Name-\u003e(a-\u003eMaybe(Attribute,Attribute,Attribute,Attribute))-\u003e(UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eSound b)-\u003eAssign b a",
@@ -6479,6 +7049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "assignEq",
           "package": "haskore-supercollider",
@@ -6488,6 +7059,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "assignEq",
           "normalized": "Name-\u003ea-\u003eSound b-\u003eAssign b a",
@@ -6503,6 +7075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "assignGeneric",
           "package": "haskore-supercollider",
@@ -6512,6 +7085,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "assignGeneric",
           "normalized": "(a-\u003eAttributeList,b-\u003eSound c)-\u003eName-\u003e(d-\u003eMaybe a)-\u003eb-\u003eAssign c d",
@@ -6527,6 +7101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "attributeControl",
           "package": "haskore-supercollider",
@@ -6536,6 +7111,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "attributeControl",
           "normalized": "Int-\u003eUGen",
@@ -6551,6 +7127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "attributeName",
           "package": "haskore-supercollider",
@@ -6560,6 +7137,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "attributeName",
           "normalized": "Int-\u003eString",
@@ -6575,6 +7153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "attributeNames",
           "package": "haskore-supercollider",
@@ -6584,6 +7163,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "attributeNames",
           "normalized": "[String]",
@@ -6599,6 +7179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "control",
           "package": "haskore-supercollider",
@@ -6608,6 +7189,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "control",
           "normalized": "String-\u003eUGen",
@@ -6622,6 +7204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "drumDuration",
           "package": "haskore-supercollider",
@@ -6631,6 +7214,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "drumDuration",
           "package": "haskore-supercollider",
@@ -6644,6 +7228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "drumFromUGen",
           "package": "haskore-supercollider",
@@ -6653,6 +7238,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "drumFromUGen",
           "normalized": "(UGen-\u003eUGen)-\u003eDrum",
@@ -6668,6 +7254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "drumParameters",
           "package": "haskore-supercollider",
@@ -6677,6 +7264,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "drumParameters",
           "package": "haskore-supercollider",
@@ -6690,6 +7278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "drumVelocity",
           "package": "haskore-supercollider",
@@ -6699,6 +7288,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "drumVelocity",
           "package": "haskore-supercollider",
@@ -6712,6 +7302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "durationName",
           "package": "haskore-supercollider",
@@ -6721,6 +7312,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "durationName",
           "package": "haskore-supercollider",
@@ -6734,6 +7326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "instrumentDuration",
           "package": "haskore-supercollider",
@@ -6743,6 +7336,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "instrumentDuration",
           "package": "haskore-supercollider",
@@ -6756,6 +7350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "instrumentFrequency",
           "package": "haskore-supercollider",
@@ -6765,6 +7360,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "instrumentFrequency",
           "package": "haskore-supercollider",
@@ -6778,6 +7374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "instrumentFromUGen",
           "package": "haskore-supercollider",
@@ -6787,6 +7384,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "instrumentFromUGen",
           "normalized": "(UGen-\u003eUGen-\u003eUGen)-\u003eInstrument",
@@ -6802,6 +7400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "instrumentParameters",
           "package": "haskore-supercollider",
@@ -6811,6 +7410,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "instrumentParameters",
           "package": "haskore-supercollider",
@@ -6824,6 +7424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "instrumentVelocity",
           "package": "haskore-supercollider",
@@ -6833,6 +7434,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "instrumentVelocity",
           "package": "haskore-supercollider",
@@ -6846,6 +7448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "lookup",
           "package": "haskore-supercollider",
@@ -6855,6 +7458,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "lookup",
           "normalized": "TableWithAttributes a b-\u003eToSound b",
@@ -6869,6 +7473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "pitchName",
           "package": "haskore-supercollider",
@@ -6878,6 +7483,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "pitchName",
           "package": "haskore-supercollider",
@@ -6891,6 +7497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "registerDrum",
           "package": "haskore-supercollider",
@@ -6900,6 +7507,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "registerDrum",
           "normalized": "DrumAssign a-\u003e(UGen-\u003eChannelMap a b)-\u003eChannelMap a b",
@@ -6915,6 +7523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "registerInstrument",
           "package": "haskore-supercollider",
@@ -6924,6 +7533,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "registerInstrument",
           "normalized": "InstrumentAssign a-\u003e(UGen-\u003eChannelMap b a)-\u003eChannelMap b a",
@@ -6939,6 +7549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "registerSound",
           "package": "haskore-supercollider",
@@ -6948,6 +7559,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "registerSound",
           "normalized": "a-\u003e((Channel,Assign a b)-\u003e(DrumTableWithChannels c,InstrumentTableWithChannels d)-\u003e(DrumTableWithChannels c,InstrumentTableWithChannels d))-\u003eAssign a b-\u003e(UGen-\u003eChannelMap c d)-\u003eChannelMap c d",
@@ -6963,6 +7575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "runChannelMap",
           "package": "haskore-supercollider",
@@ -6972,6 +7585,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "runChannelMap",
           "normalized": "Channel-\u003e(UGen,(DrumTableWithChannels a,InstrumentTableWithChannels b))",
@@ -6987,6 +7601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "soundEffect",
           "package": "haskore-supercollider",
@@ -6996,6 +7611,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "soundEffect",
           "normalized": "UGen-\u003eChannelMap a b",
@@ -7011,6 +7627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "soundParameters",
           "package": "haskore-supercollider",
@@ -7020,6 +7637,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "soundParameters",
           "package": "haskore-supercollider",
@@ -7033,6 +7651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "ugenFromSound",
           "package": "haskore-supercollider",
@@ -7042,6 +7661,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "ugenFromSound",
           "normalized": "Sound a-\u003eUGen",
@@ -7057,6 +7677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "velocityName",
           "package": "haskore-supercollider",
@@ -7066,6 +7687,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "velocityName",
           "package": "haskore-supercollider",
@@ -7079,6 +7701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "with0Attributes",
           "package": "haskore-supercollider",
@@ -7088,6 +7711,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "with0Attributes",
           "normalized": "(()-\u003eAttributeList,a-\u003ea)",
@@ -7103,6 +7727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "with1Attribute",
           "package": "haskore-supercollider",
@@ -7112,6 +7737,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "with1Attribute",
           "normalized": "(Attribute-\u003eAttributeList,(UGen-\u003ea)-\u003ea)",
@@ -7127,6 +7753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "with2Attributes",
           "package": "haskore-supercollider",
@@ -7136,6 +7763,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "with2Attributes",
           "normalized": "((Attribute,Attribute)-\u003eAttributeList,(UGen-\u003eUGen-\u003ea)-\u003ea)",
@@ -7151,6 +7779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "with3Attributes",
           "package": "haskore-supercollider",
@@ -7160,6 +7789,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "with3Attributes",
           "normalized": "((Attribute,Attribute,Attribute)-\u003eAttributeList,(UGen-\u003eUGen-\u003eUGen-\u003ea)-\u003ea)",
@@ -7175,6 +7805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "with4Attributes",
           "package": "haskore-supercollider",
@@ -7184,6 +7815,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "with4Attributes",
           "normalized": "((Attribute,Attribute,Attribute,Attribute)-\u003eAttributeList,(UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003ea)-\u003ea)",
@@ -7199,6 +7831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:50 UTC 2014",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "withDuration",
           "package": "haskore-supercollider",
@@ -7208,6 +7841,7 @@
         },
         "index": {
           "hierarchy": "Haskore Interface SuperCollider SoundMap",
+          "indexed": "2014-03-11T18:33:50",
           "module": "Haskore.Interface.SuperCollider.SoundMap",
           "name": "withDuration",
           "normalized": "(UGen-\u003eSound a)-\u003eSound a",

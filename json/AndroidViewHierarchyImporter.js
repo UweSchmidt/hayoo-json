@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AndroidViewHierarchyImporter"
+        "phrase": "AndroidViewHierarchyImporter",
+        "type": "phrase"
       },
       "type": "context"
     }

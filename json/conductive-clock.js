@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "conductive-clock"
+        "phrase": "conductive-clock",
+        "type": "phrase"
       },
       "type": "context"
     }

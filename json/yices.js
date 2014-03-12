@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yices"
+        "phrase": "yices",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser for the yices syntax.  Yet incomplete since it does not include\n   bit vectors, and not heavily tested at all.\n   See \u003ca\u003ehttp://yices.csl.sri.com/language.shtml\u003c/a\u003e for details.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Parser",
           "name": "Parser",
           "package": "yices",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parser for the yices syntax Yet incomplete since it does not include bit vectors and not heavily tested at all See http yices.csl.sri.com language.shtml for details",
           "hierarchy": "Math SMT Yices Parser",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Parser",
           "name": "Parser",
           "package": "yices",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparsec parser for yices command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Parser",
           "name": "cmdY",
           "package": "yices",
@@ -52,6 +55,7 @@
         "index": {
           "description": "parsec parser for yices command",
           "hierarchy": "Math SMT Yices Parser",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Parser",
           "name": "cmdY",
           "package": "yices",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparsec parser for yices expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Parser",
           "name": "expY",
           "package": "yices",
@@ -75,6 +80,7 @@
         "index": {
           "description": "parsec parser for yices expressions",
           "hierarchy": "Math SMT Yices Parser",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Parser",
           "name": "expY",
           "package": "yices",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a string of yices command format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Parser",
           "name": "parseCmdY",
           "package": "yices",
@@ -98,6 +105,7 @@
         "index": {
           "description": "parse string of yices command format",
           "hierarchy": "Math SMT Yices Parser",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Parser",
           "name": "parseCmdY",
           "normalized": "String-\u003eCmdY",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a string of yices expression format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Parser",
           "name": "parseExpY",
           "package": "yices",
@@ -124,6 +133,7 @@
         "index": {
           "description": "parse string of yices expression format",
           "hierarchy": "Math SMT Yices Parser",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Parser",
           "name": "parseExpY",
           "normalized": "String-\u003eExpY",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a string of many yices expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Parser",
           "name": "parseExpYs",
           "package": "yices",
@@ -150,6 +161,7 @@
         "index": {
           "description": "parse string of many yices expressions",
           "hierarchy": "Math SMT Yices Parser",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Parser",
           "name": "parseExpYs",
           "normalized": "String-\u003e[ExpY]",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a string of yices type format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Parser",
           "name": "parseTypY",
           "package": "yices",
@@ -176,6 +189,7 @@
         "index": {
           "description": "parse string of yices type format",
           "hierarchy": "Math SMT Yices Parser",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Parser",
           "name": "parseTypY",
           "normalized": "String-\u003eTypY",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparsec parser for yices types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Parser",
           "name": "typY",
           "package": "yices",
@@ -202,6 +217,7 @@
         "index": {
           "description": "parsec parser for yices types",
           "hierarchy": "Math SMT Yices Parser",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Parser",
           "name": "typY",
           "package": "yices",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInter-process communication to Yices through pipe.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "Pipe",
           "package": "yices",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Inter-process communication to Yices through pipe",
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "Pipe",
           "package": "yices",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo read in the result of the (check) command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "ResY",
           "package": "yices",
@@ -247,6 +266,7 @@
         "index": {
           "description": "To read in the result of the check command",
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "ResY",
           "package": "yices",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype abbrevation for IPC handle quadruple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "YicesIPC",
           "package": "yices",
@@ -270,6 +291,7 @@
         "index": {
           "description": "type abbrevation for IPC handle quadruple",
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "YicesIPC",
           "package": "yices",
@@ -283,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "InCon",
           "package": "yices",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "InCon",
           "normalized": "InCon[String]",
@@ -307,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "Sat",
           "package": "yices",
@@ -316,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "Sat",
           "normalized": "Sat[ExpY]",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "UnSat",
           "package": "yices",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "UnSat",
           "normalized": "UnSat[Integer]",
@@ -355,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "Unknown",
           "package": "yices",
@@ -364,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "Unknown",
           "normalized": "Unknown[ExpY]",
@@ -380,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esend check command and reads the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "checkY",
           "package": "yices",
@@ -390,6 +421,7 @@
         "index": {
           "description": "send check command and reads the result",
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "checkY",
           "normalized": "YicesIPC-\u003eIO ResY",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart yices on a given path with given options.\n The first argumnet yPath is the path binary file of yices\n (e.g. \u003cem\u003ehome\u003c/em\u003ekyagrd\u003cem\u003eyices-1.0.21\u003c/em\u003ebin/yices).\n By default -i and -e options are already present, and\n yOpts argument appens more options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "createYicesPipe",
           "package": "yices",
@@ -415,6 +448,7 @@
         "index": {
           "description": "Start yices on given path with given options The first argumnet yPath is the path binary file of yices e.g home kyagrd yices-1.0.21 bin yices By default and options are already present and yOpts argument appens more options",
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "createYicesPipe",
           "normalized": "FilePath-\u003e[String]-\u003eIO YicesIPC",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esend exit command and flush\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "exitY",
           "package": "yices",
@@ -441,6 +476,7 @@
         "index": {
           "description": "send exit command and flush",
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "exitY",
           "normalized": "YicesIPC-\u003eIO()",
@@ -456,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflush the input pipe to yices (needed after actions like runCmdsY')\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "flushY",
           "package": "yices",
@@ -466,6 +503,7 @@
         "index": {
           "description": "flush the input pipe to yices needed after actions like runCmdsY",
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "flushY",
           "normalized": "YicesIPC-\u003eIO()",
@@ -481,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esends a bunch of commands followed by a check command and reads the resulting model.\n   This function should be the preferred option when large expressions are involved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "quickCheckY",
           "package": "yices",
@@ -491,6 +530,7 @@
         "index": {
           "description": "sends bunch of commands followed by check command and reads the resulting model This function should be the preferred option when large expressions are involved",
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "quickCheckY",
           "normalized": "String-\u003e[String]-\u003e[CmdY]-\u003eIO ResY",
@@ -507,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esends a bunch of commands and reads the result.\n   This function is similar to \u003ccode\u003e\u003ca\u003equickCheckY\u003c/a\u003e\u003c/code\u003e but does not append a check command.\n   It can be useful if you intend to \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "quickCheckY'",
           "package": "yices",
@@ -517,6 +558,7 @@
         "index": {
           "description": "sends bunch of commands and reads the result This function is similar to quickCheckY but does not append check command It can be useful if you intend to",
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "quickCheckY'",
           "normalized": "String-\u003e[String]-\u003e[CmdY]-\u003eIO ResY",
@@ -533,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esend yices commands and flush\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "runCmdsY",
           "package": "yices",
@@ -543,6 +586,7 @@
         "index": {
           "description": "send yices commands and flush",
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "runCmdsY",
           "normalized": "YicesIPC-\u003e[CmdY]-\u003eIO()",
@@ -559,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esend yices commands without flushing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Pipe",
           "name": "runCmdsY'",
           "package": "yices",
@@ -569,6 +614,7 @@
         "index": {
           "description": "send yices commands without flushing",
           "hierarchy": "Math SMT Yices Pipe",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Pipe",
           "name": "runCmdsY'",
           "normalized": "YicesIPC-\u003e[CmdY]-\u003eIO()",
@@ -585,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell data type definition for the yices syntax.  Yet incomplete since\n   it does not include bit vectors.\n   See \u003ca\u003ehttp://yices.csl.sri.com/language.shtml\u003c/a\u003e for details.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "Syntax",
           "package": "yices",
@@ -594,6 +641,7 @@
         "index": {
           "description": "Haskell data type definition for the yices syntax Yet incomplete since it does not include bit vectors See http yices.csl.sri.com language.shtml for details",
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "Syntax",
           "package": "yices",
@@ -608,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eyices declarations and commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "CmdY",
           "package": "yices",
@@ -617,6 +666,7 @@
         "index": {
           "description": "yices declarations and commands",
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "CmdY",
           "package": "yices",
@@ -631,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eyices expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "ExpY",
           "package": "yices",
@@ -640,6 +691,7 @@
         "index": {
           "description": "yices expressions",
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "ExpY",
           "package": "yices",
@@ -654,6 +706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eyices types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "TypY",
           "package": "yices",
@@ -663,6 +716,7 @@
         "index": {
           "description": "yices types",
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "TypY",
           "package": "yices",
@@ -676,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":*:",
           "package": "yices",
@@ -685,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":*:",
           "package": "yices",
@@ -697,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":+:",
           "package": "yices",
@@ -706,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":+:",
           "package": "yices",
@@ -718,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":-:",
           "package": "yices",
@@ -727,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":-:",
           "package": "yices",
@@ -739,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":/=",
           "package": "yices",
@@ -748,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":/=",
           "package": "yices",
@@ -760,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":/:",
           "package": "yices",
@@ -769,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":/:",
           "package": "yices",
@@ -781,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":\u003c",
           "package": "yices",
@@ -790,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":\u003c",
           "package": "yices",
@@ -802,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":\u003c=",
           "package": "yices",
@@ -811,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":\u003c=",
           "package": "yices",
@@ -823,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":=",
           "package": "yices",
@@ -832,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":=",
           "package": "yices",
@@ -844,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":=\u003e",
           "package": "yices",
@@ -853,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":=\u003e",
           "package": "yices",
@@ -865,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":\u003e",
           "package": "yices",
@@ -874,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":\u003e",
           "package": "yices",
@@ -886,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":\u003e=",
           "package": "yices",
@@ -895,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": ":\u003e=",
           "package": "yices",
@@ -907,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "AND",
           "package": "yices",
@@ -916,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "AND",
           "normalized": "AND[ExpY]",
@@ -931,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "APP",
           "package": "yices",
@@ -940,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "APP",
           "normalized": "APP ExpY[ExpY]",
@@ -955,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "ARR",
           "package": "yices",
@@ -964,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "ARR",
           "normalized": "ARR[TypY]",
@@ -979,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "ASSERT",
           "package": "yices",
@@ -988,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "ASSERT",
           "package": "yices",
@@ -1001,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "ASSERT_P",
           "package": "yices",
@@ -1010,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "ASSERT_P",
           "package": "yices",
@@ -1023,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "CHECK",
           "package": "yices",
@@ -1032,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "CHECK",
           "package": "yices",
@@ -1045,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "DATATYPE",
           "package": "yices",
@@ -1054,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "DATATYPE",
           "normalized": "DATATYPE[(String,[(String,TypY)])]",
@@ -1069,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "DEFINE",
           "package": "yices",
@@ -1078,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "DEFINE",
           "normalized": "DEFINE(String,TypY)(Maybe ExpY)",
@@ -1093,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "DEFTYP",
           "package": "yices",
@@ -1102,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "DEFTYP",
           "package": "yices",
@@ -1115,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "DEP",
           "package": "yices",
@@ -1124,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "DEP",
           "normalized": "DEP(String,TypY)",
@@ -1139,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "DIV",
           "package": "yices",
@@ -1148,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "DIV",
           "package": "yices",
@@ -1161,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "DUMP",
           "package": "yices",
@@ -1170,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "DUMP",
           "package": "yices",
@@ -1183,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "ECHO",
           "package": "yices",
@@ -1192,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "ECHO",
           "package": "yices",
@@ -1205,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "EXISTS",
           "package": "yices",
@@ -1214,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "EXISTS",
           "normalized": "EXISTS[(String,TypY)]ExpY",
@@ -1229,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "EXIT",
           "package": "yices",
@@ -1238,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "EXIT",
           "package": "yices",
@@ -1251,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "FORALL",
           "package": "yices",
@@ -1260,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "FORALL",
           "normalized": "FORALL[(String,TypY)]ExpY",
@@ -1275,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "IF",
           "package": "yices",
@@ -1284,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "IF",
           "package": "yices",
@@ -1297,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "INCLUDE",
           "package": "yices",
@@ -1306,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "INCLUDE",
           "package": "yices",
@@ -1319,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "ITE",
           "package": "yices",
@@ -1328,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "ITE",
           "package": "yices",
@@ -1341,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "LAMBDA",
           "package": "yices",
@@ -1350,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "LAMBDA",
           "normalized": "LAMBDA[(String,TypY)]ExpY",
@@ -1365,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "LET",
           "package": "yices",
@@ -1374,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "LET",
           "normalized": "LET[((String,Maybe TypY),ExpY)]ExpY",
@@ -1389,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "LitB",
           "package": "yices",
@@ -1398,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "LitB",
           "package": "yices",
@@ -1411,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "LitI",
           "package": "yices",
@@ -1420,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "LitI",
           "package": "yices",
@@ -1433,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "LitR",
           "package": "yices",
@@ -1442,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "LitR",
           "package": "yices",
@@ -1455,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "MAXSAT",
           "package": "yices",
@@ -1464,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "MAXSAT",
           "package": "yices",
@@ -1477,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "MKREC",
           "package": "yices",
@@ -1486,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "MKREC",
           "normalized": "MKREC[(String,ExpY)]",
@@ -1501,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "MKTUP",
           "package": "yices",
@@ -1510,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "MKTUP",
           "normalized": "MKTUP[ExpY]",
@@ -1525,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "MOD",
           "package": "yices",
@@ -1534,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "MOD",
           "package": "yices",
@@ -1547,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "NOT",
           "package": "yices",
@@ -1556,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "NOT",
           "package": "yices",
@@ -1569,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "OR",
           "package": "yices",
@@ -1578,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "OR",
           "normalized": "OR[ExpY]",
@@ -1593,6 +1729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "POP",
           "package": "yices",
@@ -1602,6 +1739,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "POP",
           "package": "yices",
@@ -1615,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "PUSH",
           "package": "yices",
@@ -1624,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "PUSH",
           "package": "yices",
@@ -1637,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "REC",
           "package": "yices",
@@ -1646,6 +1787,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "REC",
           "normalized": "REC[(String,TypY)]",
@@ -1661,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "RESET",
           "package": "yices",
@@ -1670,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "RESET",
           "package": "yices",
@@ -1683,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "RETRACT",
           "package": "yices",
@@ -1692,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "RETRACT",
           "package": "yices",
@@ -1705,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SCALAR",
           "package": "yices",
@@ -1714,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SCALAR",
           "normalized": "SCALAR[String]",
@@ -1729,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SELECT_R",
           "package": "yices",
@@ -1738,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SELECT_R",
           "package": "yices",
@@ -1751,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SELECT_T",
           "package": "yices",
@@ -1760,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SELECT_T",
           "package": "yices",
@@ -1773,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SETAO",
           "package": "yices",
@@ -1782,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SETAO",
           "package": "yices",
@@ -1795,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SETE",
           "package": "yices",
@@ -1804,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SETE",
           "package": "yices",
@@ -1817,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SETV",
           "package": "yices",
@@ -1826,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SETV",
           "package": "yices",
@@ -1839,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "STATUS",
           "package": "yices",
@@ -1848,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "STATUS",
           "package": "yices",
@@ -1861,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SUBRANGE",
           "package": "yices",
@@ -1870,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SUBRANGE",
           "package": "yices",
@@ -1883,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SUBTYPE",
           "package": "yices",
@@ -1892,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "SUBTYPE",
           "normalized": "SUBTYPE(String,TypY)ExpY",
@@ -1907,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "TUP",
           "package": "yices",
@@ -1916,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "TUP",
           "normalized": "TUP[TypY]",
@@ -1931,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "UPDATE_F",
           "package": "yices",
@@ -1940,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "UPDATE_F",
           "normalized": "UPDATE_F ExpY[ExpY]ExpY",
@@ -1955,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "UPDATE_R",
           "package": "yices",
@@ -1964,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "UPDATE_R",
           "package": "yices",
@@ -1977,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "UPDATE_T",
           "package": "yices",
@@ -1986,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "UPDATE_T",
           "package": "yices",
@@ -1999,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "VarE",
           "package": "yices",
@@ -2008,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "VarE",
           "package": "yices",
@@ -2021,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:11 UTC 2014",
           "module": "Math.SMT.Yices.Syntax",
           "name": "VarT",
           "package": "yices",
@@ -2030,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Math SMT Yices Syntax",
+          "indexed": "2014-03-11T20:47:11",
           "module": "Math.SMT.Yices.Syntax",
           "name": "VarT",
           "package": "yices",

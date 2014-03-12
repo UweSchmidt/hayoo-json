@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rfc3339"
+        "phrase": "rfc3339",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:21 UTC 2014",
           "module": "Data.Time.RFC3339",
           "name": "RFC3339",
           "package": "rfc3339",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Time RFC3339",
+          "indexed": "2014-03-11T19:54:21",
           "module": "Data.Time.RFC3339",
           "name": "RFC3339",
           "package": "rfc3339",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is here to allow future support for other data types \n like Data.Text or Data.ByteString if that becomes necessary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:21 UTC 2014",
           "module": "Data.Time.RFC3339",
           "name": "RFC3339",
           "package": "rfc3339",
@@ -49,6 +52,7 @@
         "index": {
           "description": "This class is here to allow future support for other data types like Data.Text or Data.ByteString if that becomes necessary",
           "hierarchy": "Data Time RFC3339",
+          "indexed": "2014-03-11T19:54:21",
           "module": "Data.Time.RFC3339",
           "name": "RFC3339",
           "package": "rfc3339",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:21 UTC 2014",
           "module": "Data.Time.RFC3339",
           "name": "readRFC3339",
           "package": "rfc3339",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Time RFC3339",
+          "indexed": "2014-03-11T19:54:21",
           "module": "Data.Time.RFC3339",
           "name": "readRFC3339",
           "normalized": "a-\u003eMaybe ZonedTime",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:21 UTC 2014",
           "module": "Data.Time.RFC3339",
           "name": "showRFC3339",
           "package": "rfc3339",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Time RFC3339",
+          "indexed": "2014-03-11T19:54:21",
           "module": "Data.Time.RFC3339",
           "name": "showRFC3339",
           "normalized": "ZonedTime-\u003ea",

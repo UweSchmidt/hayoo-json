@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SDL-ttf"
+        "phrase": "SDL-ttf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "Attributes",
           "package": "SDL-ttf",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "Attributes",
           "package": "SDL-ttf",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "FontStyle",
           "package": "SDL-ttf",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "FontStyle",
           "package": "SDL-ttf",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "StyleBold",
           "package": "SDL-ttf",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "StyleBold",
           "package": "SDL-ttf",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "StyleItalic",
           "package": "SDL-ttf",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "StyleItalic",
           "package": "SDL-ttf",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "StyleUnderline",
           "package": "SDL-ttf",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "StyleUnderline",
           "package": "SDL-ttf",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontAscent",
           "package": "SDL-ttf",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontAscent",
           "normalized": "Font-\u003eIO Int",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontDescent",
           "package": "SDL-ttf",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontDescent",
           "normalized": "Font-\u003eIO Int",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontFaceFamilyName",
           "package": "SDL-ttf",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontFaceFamilyName",
           "normalized": "Font-\u003eIO String",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontFaceIsFixedWidth",
           "package": "SDL-ttf",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontFaceIsFixedWidth",
           "normalized": "Font-\u003eIO Int",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontFaceStyleName",
           "package": "SDL-ttf",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontFaceStyleName",
           "normalized": "Font-\u003eIO String",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontFaces",
           "package": "SDL-ttf",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontFaces",
           "normalized": "Font-\u003eIO Int",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontHeight",
           "package": "SDL-ttf",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontHeight",
           "normalized": "Font-\u003eIO Int",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontLineSkip",
           "package": "SDL-ttf",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "fontLineSkip",
           "normalized": "Font-\u003eIO Int",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "getFontStyle",
           "package": "SDL-ttf",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "getFontStyle",
           "normalized": "Font-\u003eIO[FontStyle]",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "setFontStyle",
           "package": "SDL-ttf",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "setFontStyle",
           "normalized": "Font-\u003e[FontStyle]-\u003eIO()",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "textSize",
           "package": "SDL-ttf",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "textSize",
           "normalized": "Font-\u003eString-\u003eIO(Int,Int)",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "tryTextSize",
           "package": "SDL-ttf",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "tryTextSize",
           "normalized": "Font-\u003eString-\u003eIO(Maybe(Int,Int))",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "tryUTF8Size",
           "package": "SDL-ttf",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "tryUTF8Size",
           "normalized": "Font-\u003eString-\u003eIO(Maybe(Int,Int))",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "utf8Size",
           "package": "SDL-ttf",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Attributes",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Attributes",
           "name": "utf8Size",
           "normalized": "Font-\u003eString-\u003eIO(Int,Int)",
@@ -462,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.General",
           "name": "General",
           "package": "SDL-ttf",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF General",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.General",
           "name": "General",
           "package": "SDL-ttf",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.General",
           "name": "init",
           "package": "SDL-ttf",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF General",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.General",
           "name": "init",
           "package": "SDL-ttf",
@@ -504,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.General",
           "name": "quit",
           "package": "SDL-ttf",
@@ -513,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF General",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.General",
           "name": "quit",
           "normalized": "IO()",
@@ -527,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.General",
           "name": "wasInit",
           "package": "SDL-ttf",
@@ -536,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF General",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.General",
           "name": "wasInit",
           "package": "SDL-ttf",
@@ -549,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "Management",
           "package": "SDL-ttf",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Management",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "Management",
           "package": "SDL-ttf",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "closeFont",
           "package": "SDL-ttf",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Management",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "closeFont",
           "normalized": "Font-\u003eIO()",
@@ -594,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "openFont",
           "package": "SDL-ttf",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Management",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "openFont",
           "normalized": "String-\u003eInt-\u003eIO Font",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "openFontIndex",
           "package": "SDL-ttf",
@@ -627,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Management",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "openFontIndex",
           "normalized": "String-\u003eInt-\u003eInt-\u003eIO Font",
@@ -642,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "openFontRW",
           "package": "SDL-ttf",
@@ -651,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Management",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "openFontRW",
           "normalized": "RWops-\u003eBool-\u003eInt-\u003eIO Font",
@@ -666,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "tryOpenFont",
           "package": "SDL-ttf",
@@ -675,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Management",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "tryOpenFont",
           "normalized": "String-\u003eInt-\u003eIO(Maybe Font)",
@@ -690,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "tryOpenFontIndex",
           "package": "SDL-ttf",
@@ -699,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Management",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "tryOpenFontIndex",
           "normalized": "String-\u003eInt-\u003eInt-\u003eIO(Maybe Font)",
@@ -714,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "tryOpenFontRW",
           "package": "SDL-ttf",
@@ -723,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Management",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Management",
           "name": "tryOpenFontRW",
           "normalized": "RWops-\u003eBool-\u003eInt-\u003eIO(Maybe Font)",
@@ -738,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "Render",
           "package": "SDL-ttf",
@@ -746,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "Render",
           "package": "SDL-ttf",
@@ -759,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderGlyphBlended",
           "package": "SDL-ttf",
@@ -768,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderGlyphBlended",
           "normalized": "Ptr FontStruct-\u003eWord-\u003ePtr Color-\u003eIO(Ptr SurfaceStruct)",
@@ -783,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderGlyphShaded",
           "package": "SDL-ttf",
@@ -792,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderGlyphShaded",
           "normalized": "Ptr FontStruct-\u003eWord-\u003ePtr Color-\u003ePtr Color-\u003eIO(Ptr SurfaceStruct)",
@@ -807,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderGlyphSolid",
           "package": "SDL-ttf",
@@ -816,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderGlyphSolid",
           "normalized": "Ptr FontStruct-\u003eWord-\u003ePtr Color-\u003eIO(Ptr SurfaceStruct)",
@@ -831,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderTextBlended",
           "package": "SDL-ttf",
@@ -840,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderTextBlended",
           "normalized": "Font-\u003eString-\u003eColor-\u003eIO Surface",
@@ -855,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderTextShaded",
           "package": "SDL-ttf",
@@ -864,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderTextShaded",
           "normalized": "Font-\u003eString-\u003eColor-\u003eColor-\u003eIO Surface",
@@ -879,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderTextSolid",
           "package": "SDL-ttf",
@@ -888,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderTextSolid",
           "normalized": "Font-\u003eString-\u003eColor-\u003eIO Surface",
@@ -903,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderUTF8Blended",
           "package": "SDL-ttf",
@@ -912,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderUTF8Blended",
           "normalized": "Font-\u003eString-\u003eColor-\u003eIO Surface",
@@ -927,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderUTF8Shaded",
           "package": "SDL-ttf",
@@ -936,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderUTF8Shaded",
           "normalized": "Font-\u003eString-\u003eColor-\u003eColor-\u003eIO Surface",
@@ -951,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderUTF8Solid",
           "package": "SDL-ttf",
@@ -960,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "renderUTF8Solid",
           "normalized": "Font-\u003eString-\u003eColor-\u003eIO Surface",
@@ -975,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderGlyphBlended",
           "package": "SDL-ttf",
@@ -984,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderGlyphBlended",
           "normalized": "Font-\u003eChar-\u003eColor-\u003eIO(Maybe Surface)",
@@ -999,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderGlyphShaded",
           "package": "SDL-ttf",
@@ -1008,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderGlyphShaded",
           "normalized": "Font-\u003eChar-\u003eColor-\u003eColor-\u003eIO(Maybe Surface)",
@@ -1023,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderGlyphSolid",
           "package": "SDL-ttf",
@@ -1032,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderGlyphSolid",
           "normalized": "Font-\u003eChar-\u003eColor-\u003eIO(Maybe Surface)",
@@ -1047,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderTextBlended",
           "package": "SDL-ttf",
@@ -1056,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderTextBlended",
           "normalized": "Font-\u003eString-\u003eColor-\u003eIO(Maybe Surface)",
@@ -1071,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderTextShaded",
           "package": "SDL-ttf",
@@ -1080,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderTextShaded",
           "normalized": "Font-\u003eString-\u003eColor-\u003eColor-\u003eIO(Maybe Surface)",
@@ -1095,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderTextSolid",
           "package": "SDL-ttf",
@@ -1104,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderTextSolid",
           "normalized": "Font-\u003eString-\u003eColor-\u003eIO(Maybe Surface)",
@@ -1119,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderUTF8Blended",
           "package": "SDL-ttf",
@@ -1128,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderUTF8Blended",
           "normalized": "Font-\u003eString-\u003eColor-\u003eIO(Maybe Surface)",
@@ -1143,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderUTF8Shaded",
           "package": "SDL-ttf",
@@ -1152,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderUTF8Shaded",
           "normalized": "Font-\u003eString-\u003eColor-\u003eColor-\u003eIO(Maybe Surface)",
@@ -1167,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderUTF8Solid",
           "package": "SDL-ttf",
@@ -1176,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Render",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Render",
           "name": "tryRenderUTF8Solid",
           "normalized": "Font-\u003eString-\u003eColor-\u003eIO(Maybe Surface)",
@@ -1191,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Types",
           "name": "Types",
           "package": "SDL-ttf",
@@ -1199,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Types",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Types",
           "name": "Types",
           "package": "SDL-ttf",
@@ -1212,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Types",
           "name": "Font",
           "package": "SDL-ttf",
@@ -1220,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Types",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Types",
           "name": "Font",
           "package": "SDL-ttf",
@@ -1233,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Types",
           "name": "FontStruct",
           "package": "SDL-ttf",
@@ -1241,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Types",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Types",
           "name": "FontStruct",
           "package": "SDL-ttf",
@@ -1254,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Version",
           "name": "Version",
           "package": "SDL-ttf",
@@ -1262,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Version",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Version",
           "name": "Version",
           "package": "SDL-ttf",
@@ -1275,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Version",
           "name": "compiledFor",
           "package": "SDL-ttf",
@@ -1284,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Version",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Version",
           "name": "compiledFor",
           "package": "SDL-ttf",
@@ -1297,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF.Version",
           "name": "linkedWith",
           "package": "SDL-ttf",
@@ -1306,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF Version",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF.Version",
           "name": "linkedWith",
           "package": "SDL-ttf",
@@ -1319,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:19 UTC 2014",
           "module": "Graphics.UI.SDL.TTF",
           "name": "TTF",
           "package": "SDL-ttf",
@@ -1327,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL TTF",
+          "indexed": "2014-03-11T16:59:19",
           "module": "Graphics.UI.SDL.TTF",
           "name": "TTF",
           "package": "SDL-ttf",

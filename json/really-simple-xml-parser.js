@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "really-simple-xml-parser"
+        "phrase": "really-simple-xml-parser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:52 UTC 2014",
           "module": "RSXP",
           "name": "RSXP",
           "package": "really-simple-xml-parser",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "RSXP",
+          "indexed": "2014-03-11T19:49:52",
           "module": "RSXP",
           "name": "RSXP",
           "package": "really-simple-xml-parser",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:52 UTC 2014",
           "module": "RSXP",
           "name": "XMLAST",
           "package": "really-simple-xml-parser",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "RSXP",
+          "indexed": "2014-03-11T19:49:52",
           "module": "RSXP",
           "name": "XMLAST",
           "package": "really-simple-xml-parser",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:52 UTC 2014",
           "module": "RSXP",
           "name": "Body",
           "package": "really-simple-xml-parser",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "RSXP",
+          "indexed": "2014-03-11T19:49:52",
           "module": "RSXP",
           "name": "Body",
           "package": "really-simple-xml-parser",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:52 UTC 2014",
           "module": "RSXP",
           "name": "Comment",
           "package": "really-simple-xml-parser",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "RSXP",
+          "indexed": "2014-03-11T19:49:52",
           "module": "RSXP",
           "name": "Comment",
           "package": "really-simple-xml-parser",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:52 UTC 2014",
           "module": "RSXP",
           "name": "Element",
           "package": "really-simple-xml-parser",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "RSXP",
+          "indexed": "2014-03-11T19:49:52",
           "module": "RSXP",
           "name": "Element",
           "normalized": "Element Name[Attribute][XMLAST]",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:52 UTC 2014",
           "module": "RSXP",
           "name": "getAllBodies",
           "package": "really-simple-xml-parser",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "RSXP",
+          "indexed": "2014-03-11T19:49:52",
           "module": "RSXP",
           "name": "getAllBodies",
           "normalized": "XMLAST-\u003e[(String,String)]",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:52 UTC 2014",
           "module": "RSXP",
           "name": "getAllElements",
           "package": "really-simple-xml-parser",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "RSXP",
+          "indexed": "2014-03-11T19:49:52",
           "module": "RSXP",
           "name": "getAllElements",
           "normalized": "XMLAST-\u003e[(XMLAST,String,XMLAST)]",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:52 UTC 2014",
           "module": "RSXP",
           "name": "getBodiesByName",
           "package": "really-simple-xml-parser",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "RSXP",
+          "indexed": "2014-03-11T19:49:52",
           "module": "RSXP",
           "name": "getBodiesByName",
           "normalized": "String-\u003eXMLAST-\u003e[String]",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:52 UTC 2014",
           "module": "RSXP",
           "name": "getElementsByName",
           "package": "really-simple-xml-parser",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "RSXP",
+          "indexed": "2014-03-11T19:49:52",
           "module": "RSXP",
           "name": "getElementsByName",
           "normalized": "String-\u003eXMLAST-\u003e[(XMLAST,String,XMLAST)]",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:52 UTC 2014",
           "module": "RSXP",
           "name": "getElementsByPath",
           "package": "really-simple-xml-parser",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "RSXP",
+          "indexed": "2014-03-11T19:49:52",
           "module": "RSXP",
           "name": "getElementsByPath",
           "normalized": "String-\u003eXMLAST-\u003e[(XMLAST,String,XMLAST)]",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:52 UTC 2014",
           "module": "RSXP",
           "name": "parseXML",
           "package": "really-simple-xml-parser",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "RSXP",
+          "indexed": "2014-03-11T19:49:52",
           "module": "RSXP",
           "name": "parseXML",
           "normalized": "String-\u003eXMLAST",

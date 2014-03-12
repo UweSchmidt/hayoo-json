@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lazysmallcheck"
+        "phrase": "lazysmallcheck",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFor documentation, see the paper \u003ca\u003eSmallCheck and Lazy SmallCheck:\n automatic exhaustive testing for small values\u003c/a\u003e available at\n \u003ca\u003ehttp://www.cs.york.ac.uk/fp/smallcheck/\u003c/a\u003e.  Several examples are\n also included in the package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "LazySmallCheck",
           "package": "lazysmallcheck",
@@ -28,6 +29,7 @@
         "index": {
           "description": "For documentation see the paper SmallCheck and Lazy SmallCheck automatic exhaustive testing for small values available at http www.cs.york.ac.uk fp smallcheck Several examples are also included in the package",
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "LazySmallCheck",
           "package": "lazysmallcheck",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "Cons",
           "package": "lazysmallcheck",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "Cons",
           "package": "lazysmallcheck",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "Property",
           "package": "lazysmallcheck",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "Property",
           "package": "lazysmallcheck",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "Serial",
           "package": "lazysmallcheck",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "Serial",
           "package": "lazysmallcheck",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "Series",
           "package": "lazysmallcheck",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "Series",
           "package": "lazysmallcheck",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "Testable",
           "package": "lazysmallcheck",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "Testable",
           "package": "lazysmallcheck",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "(*|*)",
           "package": "lazysmallcheck",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "(*|*) *|*",
           "normalized": "Property-\u003eProperty-\u003eProperty",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "(*&*)",
           "package": "lazysmallcheck",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "(*&*) *&*",
           "normalized": "Property-\u003eProperty-\u003eProperty",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "(*=*)",
           "package": "lazysmallcheck",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "(*=*) *=*",
           "normalized": "Property-\u003eProperty-\u003eProperty",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "(*=\u003e*)",
           "package": "lazysmallcheck",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "(*=\u003e*) *=\u003e*",
           "normalized": "Property-\u003eProperty-\u003eProperty",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "(==\u003e)",
           "package": "lazysmallcheck",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "(==\u003e) ==\u003e",
           "normalized": "Bool-\u003eBool-\u003eBool",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "(\u003e\u003c)",
           "package": "lazysmallcheck",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "Series(a-\u003eb)-\u003eSeries a-\u003eSeries b",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "(\\/)",
           "package": "lazysmallcheck",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "(\\/) \\/",
           "normalized": "Series a-\u003eSeries a-\u003eSeries a",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "cons",
           "package": "lazysmallcheck",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "cons",
           "normalized": "a-\u003eSeries a",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "cons0",
           "package": "lazysmallcheck",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "cons0",
           "normalized": "a-\u003eSeries a",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "cons1",
           "package": "lazysmallcheck",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "cons1",
           "normalized": "(a-\u003eb)-\u003eSeries b",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "cons2",
           "package": "lazysmallcheck",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "cons2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eSeries c",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "cons3",
           "package": "lazysmallcheck",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "cons3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eSeries d",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "cons4",
           "package": "lazysmallcheck",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "cons4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eSeries e",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "cons5",
           "package": "lazysmallcheck",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "cons5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eSeries f",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "depthCheck",
           "package": "lazysmallcheck",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "depthCheck",
           "normalized": "Int-\u003ea-\u003eIO()",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "drawnFrom",
           "package": "lazysmallcheck",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "drawnFrom",
           "normalized": "[a]-\u003eCons a",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "empty",
           "package": "lazysmallcheck",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "empty",
           "package": "lazysmallcheck",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "lift",
           "package": "lazysmallcheck",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "lift",
           "normalized": "Bool-\u003eProperty",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "neg",
           "package": "lazysmallcheck",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "neg",
           "normalized": "Property-\u003eProperty",
@@ -583,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "series",
           "package": "lazysmallcheck",
@@ -592,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "series",
           "package": "lazysmallcheck",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "smallCheck",
           "package": "lazysmallcheck",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "smallCheck",
           "normalized": "Int-\u003ea-\u003eIO()",
@@ -628,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:51 UTC 2014",
           "module": "Test.LazySmallCheck",
           "name": "test",
           "package": "lazysmallcheck",
@@ -637,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Test LazySmallCheck",
+          "indexed": "2014-03-11T19:06:51",
           "module": "Test.LazySmallCheck",
           "name": "test",
           "normalized": "a-\u003eIO()",

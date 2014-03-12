@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xtest"
+        "phrase": "xtest",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:04 UTC 2014",
           "module": "Graphics.X11.XTest",
           "name": "XTest",
           "package": "xtest",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XTest",
+          "indexed": "2014-03-11T20:44:04",
           "module": "Graphics.X11.XTest",
           "name": "XTest",
           "package": "xtest",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate fake mouse button click event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:04 UTC 2014",
           "module": "Graphics.X11.XTest",
           "name": "fakeButtonPress",
           "package": "xtest",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Create fake mouse button click event",
           "hierarchy": "Graphics X11 XTest",
+          "indexed": "2014-03-11T20:44:04",
           "module": "Graphics.X11.XTest",
           "name": "fakeButtonPress",
           "normalized": "Display-\u003eButton-\u003eIO()",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate fake pointer motion event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:04 UTC 2014",
           "module": "Graphics.X11.XTest",
           "name": "fakeMotion",
           "package": "xtest",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Create fake pointer motion event",
           "hierarchy": "Graphics X11 XTest",
+          "indexed": "2014-03-11T20:44:04",
           "module": "Graphics.X11.XTest",
           "name": "fakeMotion",
           "normalized": "Display-\u003eScreenNumber-\u003eInt-\u003eInt-\u003eIO()",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove mouse pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:04 UTC 2014",
           "module": "Graphics.X11.XTest",
           "name": "movePointer",
           "package": "xtest",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Move mouse pointer",
           "hierarchy": "Graphics X11 XTest",
+          "indexed": "2014-03-11T20:44:04",
           "module": "Graphics.X11.XTest",
           "name": "movePointer",
           "normalized": "Display-\u003eScreenNumber-\u003eXID-\u003eInt-\u003eInt-\u003eIO()",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk the X server if XTest extension is supported.\n Returns Nothing, if extension is not supported.\n Otherwise, it returns:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Event number for the first event for this extension (undefined for current version of XTest).\n\u003c/li\u003e\u003cli\u003e Error number for the first error for this extension (undefined for current version of XTest).\n\u003c/li\u003e\u003cli\u003e Major and\n\u003c/li\u003e\u003cli\u003e minor versions of the extension.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:44:04 UTC 2014",
           "module": "Graphics.X11.XTest",
           "name": "queryXTestSupport",
           "package": "xtest",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Ask the server if XTest extension is supported Returns Nothing if extension is not supported Otherwise it returns Event number for the first event for this extension undefined for current version of XTest Error number for the first error for this extension undefined for current version of XTest Major and minor versions of the extension",
           "hierarchy": "Graphics X11 XTest",
+          "indexed": "2014-03-11T20:44:04",
           "module": "Graphics.X11.XTest",
           "name": "queryXTestSupport",
           "normalized": "Display-\u003eIO(Maybe(Int,Int,Int,Int))",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend fake key press\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:04 UTC 2014",
           "module": "Graphics.X11.XTest",
           "name": "sendKey",
           "package": "xtest",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Send fake key press",
           "hierarchy": "Graphics X11 XTest",
+          "indexed": "2014-03-11T20:44:04",
           "module": "Graphics.X11.XTest",
           "name": "sendKey",
           "normalized": "Display-\u003e[KeySym]-\u003eKeySym-\u003eIO()",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform some IO actions while control grabbed by XTest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:04 UTC 2014",
           "module": "Graphics.X11.XTest",
           "name": "withGrabbedControl",
           "package": "xtest",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Perform some IO actions while control grabbed by XTest",
           "hierarchy": "Graphics X11 XTest",
+          "indexed": "2014-03-11T20:44:04",
           "module": "Graphics.X11.XTest",
           "name": "withGrabbedControl",
           "normalized": "Display-\u003eIO a-\u003eIO a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "suffixarray"
+        "phrase": "suffixarray",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.CountingSort",
           "name": "CountingSort",
           "package": "suffixarray",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data CountingSort",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.CountingSort",
           "name": "CountingSort",
           "package": "suffixarray",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.CountingSort",
           "name": "countOccurences",
           "package": "suffixarray",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data CountingSort",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.CountingSort",
           "name": "countOccurences",
           "normalized": "Vector a-\u003eVector Int",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.CountingSort",
           "name": "countingSort",
           "package": "suffixarray",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data CountingSort",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.CountingSort",
           "name": "countingSort",
           "normalized": "Vector a-\u003eVector Int-\u003eVector Int",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.CountingSort",
           "name": "iforeachr",
           "package": "suffixarray",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data CountingSort",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.CountingSort",
           "name": "iforeachr",
           "normalized": "Vector a-\u003e(Int-\u003ea-\u003eIO())-\u003eIO()",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.CountingSort",
           "name": "partialSums",
           "package": "suffixarray",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data CountingSort",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.CountingSort",
           "name": "partialSums",
           "normalized": "Vector Int-\u003eVector Int",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConstruction of suffix arrays (arrays ordered by suffix). Given an\n array \u003cem\u003ed\u003c/em\u003e elements, the suffix array is a sorted array of the sub-arrays\n in \u003cem\u003ed\u003c/em\u003e. For instance, the suffix array of \u003cem\u003ebanana apple pear apple\u003c/em\u003e is:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e apple\n\u003c/li\u003e\u003cli\u003e apple pear apple\n\u003c/li\u003e\u003cli\u003e banana apple pear apple\n\u003c/li\u003e\u003cli\u003e pear apple\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.SuffixArray",
           "name": "SuffixArray",
           "package": "suffixarray",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Construction of suffix arrays arrays ordered by suffix Given an array elements the suffix array is sorted array of the sub-arrays in For instance the suffix array of banana apple pear apple is apple apple pear apple banana apple pear apple pear apple",
           "hierarchy": "Data SuffixArray",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.SuffixArray",
           "name": "SuffixArray",
           "package": "suffixarray",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.SuffixArray",
           "name": "SuffixArray",
           "package": "suffixarray",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data SuffixArray",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.SuffixArray",
           "name": "SuffixArray",
           "package": "suffixarray",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.SuffixArray",
           "name": "SuffixArray",
           "package": "suffixarray",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Data SuffixArray",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.SuffixArray",
           "name": "SuffixArray",
           "package": "suffixarray",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Build composition of two lists. First argument is source list.\n - Second argument is vector of indexes. Elements of first list should\n - be reordered accordingly to indexes in the second argument.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.SuffixArray",
           "name": "composeLists",
           "package": "suffixarray",
@@ -211,6 +228,7 @@
         "index": {
           "description": "Build composition of two lists First argument is source list Second argument is vector of indexes Elements of first list should be reordered accordingly to indexes in the second argument",
           "hierarchy": "Data SuffixArray",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.SuffixArray",
           "name": "composeLists",
           "normalized": "Vector Int-\u003eVector Int-\u003eVector Int",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eelems\u003c/a\u003e\u003c/code\u003e provides a vector of each element in the suffix array. One element\n of the suffix array contains the full data array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.SuffixArray",
           "name": "elems",
           "package": "suffixarray",
@@ -237,6 +256,7 @@
         "index": {
           "description": "elems provides vector of each element in the suffix array One element of the suffix array contains the full data array",
           "hierarchy": "Data SuffixArray",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.SuffixArray",
           "name": "elems",
           "normalized": "SuffixArray a-\u003eVector(Vector a)",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.SuffixArray",
           "name": "fancyEquator",
           "package": "suffixarray",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Data SuffixArray",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.SuffixArray",
           "name": "fancyEquator",
           "normalized": "Vector a-\u003eVector Int-\u003eInt-\u003eInt-\u003eEquator",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e constructs a suffix array from a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.SuffixArray",
           "name": "fromList",
           "package": "suffixarray",
@@ -286,6 +309,7 @@
         "index": {
           "description": "fromList constructs suffix array from list of elements",
           "hierarchy": "Data SuffixArray",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.SuffixArray",
           "name": "fromList",
           "normalized": "[a]-\u003eSuffixArray a",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.SuffixArray",
           "name": "populateClassesBy",
           "package": "suffixarray",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Data SuffixArray",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.SuffixArray",
           "name": "populateClassesBy",
           "normalized": "Equator-\u003eVector Int-\u003eVector Int",
@@ -325,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.SuffixArray",
           "name": "shiftList",
           "package": "suffixarray",
@@ -334,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Data SuffixArray",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.SuffixArray",
           "name": "shiftList",
           "normalized": "Int-\u003eInt-\u003eVector Int-\u003eVector Int",
@@ -349,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.SuffixArray",
           "name": "simpleEquator",
           "package": "suffixarray",
@@ -358,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Data SuffixArray",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.SuffixArray",
           "name": "simpleEquator",
           "normalized": "Vector a-\u003eVector Int-\u003eEquator",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a suffix array as list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.SuffixArray",
           "name": "suffixArray",
           "package": "suffixarray",
@@ -384,6 +415,7 @@
         "index": {
           "description": "Generate suffix array as list",
           "hierarchy": "Data SuffixArray",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.SuffixArray",
           "name": "suffixArray",
           "normalized": "Vector a-\u003eSuffixArray a",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etoList\u003c/a\u003e\u003c/code\u003e constructs a list from a suffix array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:34 UTC 2014",
           "module": "Data.SuffixArray",
           "name": "toList",
           "package": "suffixarray",
@@ -410,6 +443,7 @@
         "index": {
           "description": "toList constructs list from suffix array",
           "hierarchy": "Data SuffixArray",
+          "indexed": "2014-03-11T20:13:34",
           "module": "Data.SuffixArray",
           "name": "toList",
           "normalized": "SuffixArray a-\u003e[[a]]",

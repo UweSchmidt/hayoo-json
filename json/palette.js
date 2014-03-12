@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "palette"
+        "phrase": "palette",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSets of between 3 and 12 colors.\n This product includes color specifications and designs developed by\n Cynthia Brewer (http:\u003cem/\u003ecolorbrewer.org/).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "BrewerSet",
           "package": "palette",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Sets of between and colors This product includes color specifications and designs developed by Cynthia Brewer http colorbrewer.org",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "BrewerSet",
           "package": "palette",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCategories of color sets. Each category has several lists of colors.\n   Each one containing the number of colors in the range specfied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "ColorCat",
           "package": "palette",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Categories of color sets Each category has several lists of colors Each one containing the number of colors in the range specfied",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "ColorCat",
           "package": "palette",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Kolor",
           "package": "palette",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Kolor",
           "package": "palette",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_accent.svg#diagram=accent&width=100\"/\u003e 3 - 8,  qualitative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Accent",
           "package": "palette",
@@ -96,6 +103,7 @@
         "index": {
           "description": "qualitative",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Accent",
           "package": "palette",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_blues.svg#diagram=blues&width=100\"/\u003e 3 - 9,  sequential single hue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Blues",
           "package": "palette",
@@ -120,6 +129,7 @@
         "index": {
           "description": "sequential single hue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Blues",
           "package": "palette",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_brbg.svg#diagram=brbg&width=100\"/\u003e 3 - 11, diverging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "BrBG",
           "package": "palette",
@@ -144,6 +155,7 @@
         "index": {
           "description": "diverging",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "BrBG",
           "package": "palette",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_bugn.svg#diagram=bugn&width=100\"/\u003e 3 - 9,  sequential multihue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "BuGn",
           "package": "palette",
@@ -168,6 +181,7 @@
         "index": {
           "description": "sequential multihue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "BuGn",
           "package": "palette",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_bupu.svg#diagram=bupu&width=100\"/\u003e 3 - 9,  sequential multihue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "BuPu",
           "package": "palette",
@@ -192,6 +207,7 @@
         "index": {
           "description": "sequential multihue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "BuPu",
           "package": "palette",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_dark2.svg#diagram=dark2&width=100\"/\u003e 3 - 8,  qualitative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Dark2",
           "package": "palette",
@@ -216,6 +233,7 @@
         "index": {
           "description": "qualitative",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Dark2",
           "package": "palette",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_gnbu.svg#diagram=gnbu&width=100\"/\u003e 3 - 9,  sequential multihue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "GnBu",
           "package": "palette",
@@ -240,6 +259,7 @@
         "index": {
           "description": "sequential multihue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "GnBu",
           "package": "palette",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_greens.svg#diagram=greens&width=100\"/\u003e 3 - 9,  sequential single hue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Greens",
           "package": "palette",
@@ -264,6 +285,7 @@
         "index": {
           "description": "sequential single hue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Greens",
           "package": "palette",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_greys.svg#diagram=greys&width=100\"/\u003e 3 - 9,  sequential single hue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Greys",
           "package": "palette",
@@ -288,6 +311,7 @@
         "index": {
           "description": "sequential single hue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Greys",
           "package": "palette",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_orrd.svg#diagram=orrd&width=100\"/\u003e 3 - 9,  sequential multihue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "OrRd",
           "package": "palette",
@@ -312,6 +337,7 @@
         "index": {
           "description": "sequential multihue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "OrRd",
           "package": "palette",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_oranges.svg#diagram=oranges&width=100\"/\u003e 3 - 9,  sequential single hue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Oranges",
           "package": "palette",
@@ -336,6 +363,7 @@
         "index": {
           "description": "sequential single hue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Oranges",
           "package": "palette",
@@ -350,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_prgn.svg#diagram=prgn&width=100\"/\u003e 3 - 11, diverging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "PRGn",
           "package": "palette",
@@ -360,6 +389,7 @@
         "index": {
           "description": "diverging",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "PRGn",
           "package": "palette",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_paired.svg#diagram=paired&width=100\"/\u003e 3 - 12, qualitative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Paired",
           "package": "palette",
@@ -384,6 +415,7 @@
         "index": {
           "description": "qualitative",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Paired",
           "package": "palette",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_pastel1.svg#diagram=pastel1&width=100\"/\u003e 3 - 9,  qualitative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Pastel1",
           "package": "palette",
@@ -408,6 +441,7 @@
         "index": {
           "description": "qualitative",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Pastel1",
           "package": "palette",
@@ -422,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_pastel2.svg#diagram=pastel2&width=100\"/\u003e 3 - 8,  qualitative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Pastel2",
           "package": "palette",
@@ -432,6 +467,7 @@
         "index": {
           "description": "qualitative",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Pastel2",
           "package": "palette",
@@ -446,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_piyg.svg#diagram=piyg&width=100\"/\u003e 3 - 11, diverging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "PiYG",
           "package": "palette",
@@ -456,6 +493,7 @@
         "index": {
           "description": "diverging",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "PiYG",
           "package": "palette",
@@ -470,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_pubu.svg#diagram=pubu&width=100\"/\u003e 3 - 9,  sequential multihue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "PuBu",
           "package": "palette",
@@ -480,6 +519,7 @@
         "index": {
           "description": "sequential multihue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "PuBu",
           "package": "palette",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_pubugn.svg#diagram=pubugn&width=100\"/\u003e 3 - 9,  sequential multihue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "PuBuGn",
           "package": "palette",
@@ -504,6 +545,7 @@
         "index": {
           "description": "sequential multihue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "PuBuGn",
           "package": "palette",
@@ -518,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_puor.svg#diagram=puor&width=100\"/\u003e 3 - 11, diverging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "PuOr",
           "package": "palette",
@@ -528,6 +571,7 @@
         "index": {
           "description": "diverging",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "PuOr",
           "package": "palette",
@@ -542,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_pudr.svg#diagram=pudr&width=100\"/\u003e 3 - 9,  sequential multihue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "PuRd",
           "package": "palette",
@@ -552,6 +597,7 @@
         "index": {
           "description": "sequential multihue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "PuRd",
           "package": "palette",
@@ -566,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_purples.svg#diagram=purples&width=100\"/\u003e 3 - 9,  sequential single hue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Purples",
           "package": "palette",
@@ -576,6 +623,7 @@
         "index": {
           "description": "sequential single hue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Purples",
           "package": "palette",
@@ -590,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_rdbu.svg#diagram=rdbu&width=100\"/\u003e 3 - 11, diverging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "RdBu",
           "package": "palette",
@@ -600,6 +649,7 @@
         "index": {
           "description": "diverging",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "RdBu",
           "package": "palette",
@@ -614,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_rdgy.svg#diagram=rdgy&width=100\"/\u003e 3 - 11, diverging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "RdGy",
           "package": "palette",
@@ -624,6 +675,7 @@
         "index": {
           "description": "diverging",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "RdGy",
           "package": "palette",
@@ -638,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_rdpu.svg#diagram=rdpu&width=100\"/\u003e 3 - 9,  sequential multihue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "RdPu",
           "package": "palette",
@@ -648,6 +701,7 @@
         "index": {
           "description": "sequential multihue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "RdPu",
           "package": "palette",
@@ -662,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_rdylbu.svg#diagram=rdylbu&width=100\"/\u003e 3 - 11, diverging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "RdYlBu",
           "package": "palette",
@@ -672,6 +727,7 @@
         "index": {
           "description": "diverging",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "RdYlBu",
           "package": "palette",
@@ -686,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_rdylgn.svg#diagram=rdylgn&width=100\"/\u003e 3 - 11, diverging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "RdYlGn",
           "package": "palette",
@@ -696,6 +753,7 @@
         "index": {
           "description": "diverging",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "RdYlGn",
           "package": "palette",
@@ -710,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_reds.svg#diagram=reds&width=100\"/\u003e 3 - 9,  sequential single hue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Reds",
           "package": "palette",
@@ -720,6 +779,7 @@
         "index": {
           "description": "sequential single hue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Reds",
           "package": "palette",
@@ -734,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_set1.svg#diagram=set1&width=100\"/\u003e 3 - 9,  qualitative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Set1",
           "package": "palette",
@@ -744,6 +805,7 @@
         "index": {
           "description": "qualitative",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Set1",
           "package": "palette",
@@ -758,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_set2.svg#diagram=set2&width=100\"/\u003e 3 - 8,  qualitative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Set2",
           "package": "palette",
@@ -768,6 +831,7 @@
         "index": {
           "description": "qualitative",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Set2",
           "package": "palette",
@@ -782,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_set3.svg#diagram=set3&width=100\"/\u003e 3 - 12, qualitative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Set3",
           "package": "palette",
@@ -792,6 +857,7 @@
         "index": {
           "description": "qualitative",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Set3",
           "package": "palette",
@@ -806,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_spectral.svg#diagram=spectral&width=100\"/\u003e 3 - 11, diverging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Spectral",
           "package": "palette",
@@ -816,6 +883,7 @@
         "index": {
           "description": "diverging",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "Spectral",
           "package": "palette",
@@ -830,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_ylgn.svg#diagram=ylgn&width=100\"/\u003e 3 - 9,  sequential multihue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "YlGn",
           "package": "palette",
@@ -840,6 +909,7 @@
         "index": {
           "description": "sequential multihue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "YlGn",
           "package": "palette",
@@ -854,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_ylgnbu.svg#diagram=ylgnbu&width=100\"/\u003e 3 - 9,  sequential multihue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "YlGnBu",
           "package": "palette",
@@ -864,6 +935,7 @@
         "index": {
           "description": "sequential multihue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "YlGnBu",
           "package": "palette",
@@ -878,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_ylorbr.svg#diagram=ylorbr&width=100\"/\u003e 3 - 9,  sequential multihue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "YlOrBr",
           "package": "palette",
@@ -888,6 +961,7 @@
         "index": {
           "description": "sequential multihue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "YlOrBr",
           "package": "palette",
@@ -902,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_BrewerSet_ylorrd.svg#diagram=ylorrd&width=100\"/\u003e 3 - 9,  sequential multihue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "YlOrRd",
           "package": "palette",
@@ -912,6 +987,7 @@
         "index": {
           "description": "sequential multihue",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "YlOrRd",
           "package": "palette",
@@ -926,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain a list of colors for the color scheme designated by category and\n   number \u003ccode\u003en\u003c/code\u003e of colors in the theme. If the category and/or number does not\n   exist then returns a list \u003ccode\u003e\u003ca\u003eblack\u003c/a\u003e\u003c/code\u003e repeated \u003ccode\u003en\u003c/code\u003e times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "brewerSet",
           "package": "palette",
@@ -936,6 +1013,7 @@
         "index": {
           "description": "Obtain list of colors for the color scheme designated by category and number of colors in the theme If the category and or number does not exist then returns list black repeated times",
           "hierarchy": "Data Colour Palette BrewerSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.BrewerSet",
           "name": "brewerSet",
           "normalized": "ColorCat-\u003eInt-\u003e[Kolor]",
@@ -952,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePredefined sets of colors. Including the common html/css colors, The\n colors from d3.js and the standard color wheel.\n d3 Colors from https://github.com/mbostock/d3/wiki/Ordinal-Scales.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "ColorSet",
           "package": "palette",
@@ -961,6 +1040,7 @@
         "index": {
           "description": "Predefined sets of colors Including the common html css colors The colors from d3.js and the standard color wheel d3 Colors from https github.com mbostock d3 wiki Ordinal-Scales",
           "hierarchy": "Data Colour Palette ColorSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "ColorSet",
           "package": "palette",
@@ -975,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFour levels of brightness for functions that take a \u003ccode\u003eBrightness\u003c/code\u003e parameter.\n   For functions with only two levels of \u003ccode\u003eBrightness\u003c/code\u003e we set \u003ccode\u003edarkest == dark\u003c/code\u003e\n   and \u003ccode\u003elightest == light\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "Brightness",
           "package": "palette",
@@ -984,6 +1065,7 @@
         "index": {
           "description": "Four levels of brightness for functions that take Brightness parameter For functions with only two levels of Brightness we set darkest dark and lightest light",
           "hierarchy": "Data Colour Palette ColorSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "Brightness",
           "package": "palette",
@@ -997,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "Kolor",
           "package": "palette",
@@ -1005,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Palette ColorSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "Kolor",
           "package": "palette",
@@ -1018,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "Dark",
           "package": "palette",
@@ -1027,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Palette ColorSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "Dark",
           "package": "palette",
@@ -1040,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "Darkest",
           "package": "palette",
@@ -1049,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Palette ColorSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "Darkest",
           "package": "palette",
@@ -1062,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "Light",
           "package": "palette",
@@ -1071,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Palette ColorSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "Light",
           "package": "palette",
@@ -1084,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "Lightest",
           "package": "palette",
@@ -1093,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Palette ColorSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "Lightest",
           "package": "palette",
@@ -1107,6 +1199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose from one of 10 contrasting colors (0-9) borrowed from mbostock's d3.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_ColorSet_singles.svg#diagram=singles&width=300\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "d3Colors1",
           "package": "palette",
@@ -1117,6 +1210,7 @@
         "index": {
           "description": "Choose from one of contrasting colors borrowed from mbostock d3",
           "hierarchy": "Data Colour Palette ColorSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "d3Colors1",
           "normalized": "Int-\u003eKolor",
@@ -1133,6 +1227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose 0 for dark and 1 for light for each pair of 10 sets of contrasting\n   colors (0-9) from d3.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_ColorSet_pairs.svg#diagram=pairs&width=300\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "d3Colors2",
           "package": "palette",
@@ -1143,6 +1238,7 @@
         "index": {
           "description": "Choose for dark and for light for each pair of sets of contrasting colors from d3",
           "hierarchy": "Data Colour Palette ColorSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "d3Colors2",
           "normalized": "Brightness-\u003eInt-\u003eKolor",
@@ -1159,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose from 4 levels of darkness - 0 for darkest, 3 - for lightest. From\n   10 quadruples of contrasting colors (0-9) from d3.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_ColorSet_quads.svg#diagram=quads&width=300\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "d3Colors4",
           "package": "palette",
@@ -1169,6 +1266,7 @@
         "index": {
           "description": "Choose from levels of darkness for darkest for lightest From quadruples of contrasting colors from d3",
           "hierarchy": "Data Colour Palette ColorSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "d3Colors4",
           "normalized": "Brightness-\u003eInt-\u003eKolor",
@@ -1185,6 +1283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose the \u003ccode\u003en\u003c/code\u003eth color in an array \u003ccode\u003ea\u003c/code\u003e skipping \u003ccode\u003eskip\u003c/code\u003e colors\n   every time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "getWebColor",
           "package": "palette",
@@ -1195,6 +1294,7 @@
         "index": {
           "description": "Choose the th color in an array skipping skip colors every time",
           "hierarchy": "Data Colour Palette ColorSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "getWebColor",
           "normalized": "Array Int Kolor-\u003eInt-\u003eInt-\u003eKolor",
@@ -1211,6 +1311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA List of webColors ordered as above, cycling infinitely many times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "infiniteWebColors",
           "package": "palette",
@@ -1221,6 +1322,7 @@
         "index": {
           "description": "List of webColors ordered as above cycling infinitely many times",
           "hierarchy": "Data Colour Palette ColorSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "infiniteWebColors",
           "normalized": "[Kolor]",
@@ -1237,6 +1339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 24 colors from the artist's RYB color wheel. 0 == red.\n \u003cimg src=\"diagrams/src_Data_Colour_Palette_ColorSet_rybWheel.svg#diagram=rybWheel&width=300\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "rybColor",
           "package": "palette",
@@ -1247,6 +1350,7 @@
         "index": {
           "description": "The colors from the artist RYB color wheel red",
           "hierarchy": "Data Colour Palette ColorSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "rybColor",
           "normalized": "Int-\u003eKolor",
@@ -1263,6 +1367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a color from webColorL arranged as to provide nice contrast\n   between near by colors.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"diagrams/src_Data_Colour_Palette_ColorSet_webcolors.svg#diagram=webcolors&width=300\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "webColors",
           "package": "palette",
@@ -1273,6 +1378,7 @@
         "index": {
           "description": "Return color from webColorL arranged as to provide nice contrast between near by colors",
           "hierarchy": "Data Colour Palette ColorSet",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.ColorSet",
           "name": "webColors",
           "normalized": "Int-\u003eKolor",
@@ -1289,6 +1395,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions to creating color schemes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Harmony",
           "name": "Harmony",
           "package": "palette",
@@ -1298,6 +1405,7 @@
         "index": {
           "description": "Utility functions to creating color schemes",
           "hierarchy": "Data Colour Palette Harmony",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Harmony",
           "name": "Harmony",
           "package": "palette",
@@ -1311,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Harmony",
           "name": "Kolor",
           "package": "palette",
@@ -1319,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Palette Harmony",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Harmony",
           "name": "Kolor",
           "package": "palette",
@@ -1333,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogic chord plus the color opposite to the base color.\n \u003cimg src=\"diagrams/src_Data_Colour_Palette_Harmony_acce.svg#diagram=acce&width=200\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Harmony",
           "name": "accentAnalogic",
           "package": "palette",
@@ -1343,6 +1454,7 @@
         "index": {
           "description": "Analogic chord plus the color opposite to the base color",
           "hierarchy": "Data Colour Palette Harmony",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Harmony",
           "name": "accentAnalogic",
           "normalized": "Kolor-\u003e[Kolor]",
@@ -1359,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChord base on three adjacent colors on the artists color wheel.\n \u003cimg src=\"diagrams/src_Data_Colour_Palette_Harmony_anal.svg#diagram=anal&width=200\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Harmony",
           "name": "analogic",
           "package": "palette",
@@ -1369,6 +1482,7 @@
         "index": {
           "description": "Chord base on three adjacent colors on the artists color wheel",
           "hierarchy": "Data Colour Palette Harmony",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Harmony",
           "name": "analogic",
           "normalized": "Kolor-\u003e[Kolor]",
@@ -1384,6 +1498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlack, white and gray with a touch of the base color added.\n \u003cimg src=\"diagrams/src_Data_Colour_Palette_Harmony_bw.svg#diagram=bw&width=200\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Harmony",
           "name": "bwg",
           "package": "palette",
@@ -1394,6 +1509,7 @@
         "index": {
           "description": "Black white and gray with touch of the base color added",
           "hierarchy": "Data Colour Palette Harmony",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Harmony",
           "name": "bwg",
           "normalized": "Kolor-\u003e[Kolor]",
@@ -1409,6 +1525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color harmony using the base color and its opposite.\n \u003cimg src=\"diagrams/src_Data_Colour_Palette_Harmony_comp.svg#diagram=comp&width=200\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Harmony",
           "name": "complement",
           "package": "palette",
@@ -1419,6 +1536,7 @@
         "index": {
           "description": "color harmony using the base color and its opposite",
           "hierarchy": "Data Colour Palette Harmony",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Harmony",
           "name": "complement",
           "normalized": "Kolor-\u003e[Kolor]",
@@ -1434,6 +1552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a monochromatic set of 5 colors based in the input color.\n \u003cimg src=\"diagrams/src_Data_Colour_Palette_Harmony_mono.svg#diagram=mono&width=200\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Harmony",
           "name": "monochrome",
           "package": "palette",
@@ -1444,6 +1563,7 @@
         "index": {
           "description": "Create monochromatic set of colors based in the input color",
           "hierarchy": "Data Colour Palette Harmony",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Harmony",
           "name": "monochrome",
           "normalized": "Kolor-\u003e[Kolor]",
@@ -1459,6 +1579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate a color on the RYB color wheel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Harmony",
           "name": "rotateColor",
           "package": "palette",
@@ -1469,6 +1590,7 @@
         "index": {
           "description": "Rotate color on the RYB color wheel",
           "hierarchy": "Data Colour Palette Harmony",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Harmony",
           "name": "rotateColor",
           "normalized": "Double-\u003eKolor-\u003eKolor",
@@ -1485,6 +1607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShades a color by adding blending s * black + (1 - t) color.\n   t should be between 0 and 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Harmony",
           "name": "shade",
           "package": "palette",
@@ -1495,6 +1618,7 @@
         "index": {
           "description": "Shades color by adding blending black color should be between and",
           "hierarchy": "Data Colour Palette Harmony",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Harmony",
           "name": "shade",
           "normalized": "Double-\u003eKolor-\u003eKolor",
@@ -1510,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate a color and apply one function to its saturation and another to its value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Harmony",
           "name": "sliders",
           "package": "palette",
@@ -1520,6 +1645,7 @@
         "index": {
           "description": "Rotate color and apply one function to its saturation and another to its value",
           "hierarchy": "Data Colour Palette Harmony",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Harmony",
           "name": "sliders",
           "normalized": "Kolor-\u003eDouble-\u003e(Double-\u003eDouble)-\u003e(Double-\u003eDouble)-\u003eKolor",
@@ -1535,6 +1661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScheme based on 4 colors on a rectangle incscribed in the RYB color\n   wheel.\n \u003cimg src=\"diagrams/src_Data_Colour_Palette_Harmony_tetr.svg#diagram=tetr&width=200\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Harmony",
           "name": "tetrad",
           "package": "palette",
@@ -1545,6 +1672,7 @@
         "index": {
           "description": "Scheme based on colors on rectangle incscribed in the RYB color wheel",
           "hierarchy": "Data Colour Palette Harmony",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Harmony",
           "name": "tetrad",
           "normalized": "Kolor-\u003e[Kolor]",
@@ -1560,6 +1688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTints a color by adding blending t * white + (1 - t) color.\n   t should be between 0 and 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Harmony",
           "name": "tint",
           "package": "palette",
@@ -1570,6 +1699,7 @@
         "index": {
           "description": "Tints color by adding blending white color should be between and",
           "hierarchy": "Data Colour Palette Harmony",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Harmony",
           "name": "tint",
           "normalized": "Double-\u003eKolor-\u003eKolor",
@@ -1585,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlter the tone of a color by adding blending t * gray + (1 - t) color.\n   t should be between 0 and 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Harmony",
           "name": "tone",
           "package": "palette",
@@ -1595,6 +1726,7 @@
         "index": {
           "description": "Alter the tone of color by adding blending gray color should be between and",
           "hierarchy": "Data Colour Palette Harmony",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Harmony",
           "name": "tone",
           "normalized": "Double-\u003eKolor-\u003eKolor",
@@ -1610,6 +1742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color chord based on three equally spaced hues.\n \u003cimg src=\"diagrams/src_Data_Colour_Palette_Harmony_tria.svg#diagram=tria&width=200\"/\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Harmony",
           "name": "triad",
           "package": "palette",
@@ -1620,6 +1753,7 @@
         "index": {
           "description": "color chord based on three equally spaced hues",
           "hierarchy": "Data Colour Palette Harmony",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Harmony",
           "name": "triad",
           "normalized": "Kolor-\u003e[Kolor]",
@@ -1635,6 +1769,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes used in Palette modules\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Types",
           "name": "Types",
           "package": "palette",
@@ -1644,6 +1779,7 @@
         "index": {
           "description": "Types used in Palette modules",
           "hierarchy": "Data Colour Palette Types",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Types",
           "name": "Types",
           "package": "palette",
@@ -1657,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:40 UTC 2014",
           "module": "Data.Colour.Palette.Types",
           "name": "Kolor",
           "package": "palette",
@@ -1665,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Palette Types",
+          "indexed": "2014-03-11T19:33:40",
           "module": "Data.Colour.Palette.Types",
           "name": "Kolor",
           "package": "palette",

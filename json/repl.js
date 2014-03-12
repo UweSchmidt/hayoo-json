@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "repl"
+        "phrase": "repl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Repl",
           "package": "repl",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Repl",
           "package": "repl",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Input",
           "package": "repl",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Input",
           "package": "repl",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Output",
           "package": "repl",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Output",
           "package": "repl",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Repl",
           "package": "repl",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Repl",
           "package": "repl",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "ReplOutput",
           "package": "repl",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "ReplOutput",
           "package": "repl",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Clear",
           "package": "repl",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Clear",
           "package": "repl",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Decl",
           "package": "repl",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Decl",
           "package": "repl",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Errors",
           "package": "repl",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Errors",
           "normalized": "Errors[String]",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Exception",
           "package": "repl",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Exception",
           "normalized": "Exception[String]String",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Expr",
           "package": "repl",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Expr",
           "package": "repl",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "GhcError",
           "package": "repl",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "GhcError",
           "package": "repl",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Info",
           "package": "repl",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Info",
           "package": "repl",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Kind",
           "package": "repl",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Kind",
           "package": "repl",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "OK",
           "package": "repl",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "OK",
           "normalized": "OK[String]",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Output",
           "package": "repl",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Output",
           "normalized": "Output[String]",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Partial",
           "package": "repl",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Partial",
           "normalized": "Partial[String]",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "ReplError",
           "package": "repl",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "ReplError",
           "package": "repl",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Result",
           "package": "repl",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Result",
           "package": "repl",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Stmt",
           "package": "repl",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Stmt",
           "package": "repl",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Timeout",
           "package": "repl",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Timeout",
           "normalized": "Timeout[String]",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Type",
           "package": "repl",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Type",
           "package": "repl",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "Undefine",
           "package": "repl",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "Undefine",
           "package": "repl",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "defaultBuildExpr",
           "package": "repl",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "defaultBuildExpr",
           "normalized": "String-\u003eString",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "defaultFlags",
           "package": "repl",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "defaultFlags",
           "normalized": "[String]",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "defaultImports",
           "package": "repl",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "defaultImports",
           "normalized": "[String]",
@@ -582,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefaultLineLength = 512\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "defaultLineLength",
           "package": "repl",
@@ -592,6 +643,7 @@
         "index": {
           "description": "defaultLineLength",
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "defaultLineLength",
           "package": "repl",
@@ -606,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefaultPatience = 5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "defaultPatience",
           "package": "repl",
@@ -616,6 +669,7 @@
         "index": {
           "description": "defaultPatience",
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "defaultPatience",
           "package": "repl",
@@ -629,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "defaultProcessOutput",
           "package": "repl",
@@ -638,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "defaultProcessOutput",
           "normalized": "Dynamic-\u003eIO[String]",
@@ -654,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault GHCi-like \u003ccode\u003e\u003ca\u003eRepl\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "newRepl",
           "package": "repl",
@@ -664,6 +721,7 @@
         "index": {
           "description": "Default GHCi-like Repl",
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "newRepl",
           "normalized": "IO(Repl[String])",
@@ -680,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003eprompt\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "parseInput",
           "package": "repl",
@@ -690,6 +749,7 @@
         "index": {
           "description": "Used by prompt",
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "parseInput",
           "package": "repl",
@@ -704,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003eprompt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "prettyOutput",
           "package": "repl",
@@ -714,6 +775,7 @@
         "index": {
           "description": "Used by prompt",
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "prettyOutput",
           "normalized": "Repl a-\u003eOutput-\u003e[String]",
@@ -730,6 +792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eprompt_\u003c/a\u003e\u003c/code\u003e, except it parses the input, and pretty prints the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "prompt",
           "package": "repl",
@@ -740,6 +803,7 @@
         "index": {
           "description": "Same as prompt except it parses the input and pretty prints the results",
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "prompt",
           "normalized": "Repl[String]-\u003eString-\u003eIO[String]",
@@ -755,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnter commands and an expression to a \u003ccode\u003e\u003ca\u003eRepl\u003c/a\u003e\u003c/code\u003e, and immediately consume results.\n However, truncate input to the given length, and stop the computation after the\n given amount of time in seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "prompt_",
           "package": "repl",
@@ -765,6 +830,7 @@
         "index": {
           "description": "Enter commands and an expression to Repl and immediately consume results However truncate input to the given length and stop the computation after the given amount of time in seconds",
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "prompt_",
           "normalized": "Repl[String]-\u003eInput-\u003eIO Output",
@@ -780,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRepl\u003c/a\u003e\u003c/code\u003e smart constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "repl'",
           "package": "repl",
@@ -789,6 +856,7 @@
         "index": {
           "description": "Repl smart constructor",
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "repl'",
           "normalized": "Chan Input-\u003eChan(ReplOutput a)-\u003e[String]-\u003e[String]-\u003e(String-\u003eString)-\u003e(Dynamic-\u003eIO a)-\u003eDouble-\u003eInt-\u003eIO(Repl a)",
@@ -804,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNaiively get the next set of results. This \u003cem\u003edoes not\u003c/em\u003e take into account\n \u003ccode\u003epatiences\u003c/code\u003e, \u003ccode\u003epatienceForErrors\u003c/code\u003e, or \u003ccode\u003elineLength\u003c/code\u003e. However, due\n to laziness, this may not matter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "result",
           "package": "repl",
@@ -814,6 +883,7 @@
         "index": {
           "description": "Naiively get the next set of results This does not take into account patiences patienceForErrors or lineLength However due to laziness this may not matter",
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "result",
           "normalized": "Repl a-\u003eIO(ReplOutput a)",
@@ -829,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "send",
           "package": "repl",
@@ -839,6 +910,7 @@
         "index": {
           "description": "Send input",
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "send",
           "normalized": "Repl a-\u003eInput-\u003eIO()",
@@ -853,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:19 UTC 2014",
           "module": "Language.Haskell.Repl",
           "name": "stopRepl",
           "package": "repl",
@@ -862,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Repl",
+          "indexed": "2014-03-11T19:53:19",
           "module": "Language.Haskell.Repl",
           "name": "stopRepl",
           "normalized": "Repl a-\u003eIO()",

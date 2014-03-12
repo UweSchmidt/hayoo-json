@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vhd"
+        "phrase": "vhd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd.Lowlevel",
           "name": "Lowlevel",
           "package": "vhd",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd Lowlevel",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd.Lowlevel",
           "name": "Lowlevel",
           "package": "vhd",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread footer directly from a vhd file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd.Lowlevel",
           "name": "readFooter",
           "package": "vhd",
@@ -50,6 +53,7 @@
         "index": {
           "description": "read footer directly from vhd file",
           "hierarchy": "Data Vhd Lowlevel",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd.Lowlevel",
           "name": "readFooter",
           "normalized": "FilePath-\u003eIO(Either String Footer)",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread header directly from a vhd file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd.Lowlevel",
           "name": "readHeader",
           "package": "vhd",
@@ -76,6 +81,7 @@
         "index": {
           "description": "read header directly from vhd file",
           "hierarchy": "Data Vhd Lowlevel",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd.Lowlevel",
           "name": "readHeader",
           "normalized": "FilePath-\u003eIO(Either String Header)",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ere-write both footer in a VHD file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd.Lowlevel",
           "name": "writeFooter",
           "package": "vhd",
@@ -102,6 +109,7 @@
         "index": {
           "description": "re-write both footer in VHD file",
           "hierarchy": "Data Vhd Lowlevel",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd.Lowlevel",
           "name": "writeFooter",
           "normalized": "FilePath-\u003eFooter-\u003eIO()",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ere-write an header in a VHD file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd.Lowlevel",
           "name": "writeHeader",
           "package": "vhd",
@@ -128,6 +137,7 @@
         "index": {
           "description": "re-write an header in VHD file",
           "hierarchy": "Data Vhd Lowlevel",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd.Lowlevel",
           "name": "writeHeader",
           "normalized": "FilePath-\u003eHeader-\u003eIO()",
@@ -143,6 +153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd.Time",
           "name": "Time",
           "package": "vhd",
@@ -151,6 +162,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd Time",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd.Time",
           "name": "Time",
           "package": "vhd",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent number of seconds since VHD epoch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd.Time",
           "name": "VhdDiffTime",
           "package": "vhd",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Represent number of seconds since VHD epoch",
           "hierarchy": "Data Vhd Time",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd.Time",
           "name": "VhdDiffTime",
           "package": "vhd",
@@ -187,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd.Time",
           "name": "VhdDiffTime",
           "package": "vhd",
@@ -196,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd Time",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd.Time",
           "name": "VhdDiffTime",
           "package": "vhd",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the current time in vhd epoch time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd.Time",
           "name": "getVHDTime",
           "package": "vhd",
@@ -220,6 +237,7 @@
         "index": {
           "description": "return the current time in vhd epoch time",
           "hierarchy": "Data Vhd Time",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd.Time",
           "name": "getVHDTime",
           "package": "vhd",
@@ -233,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd.Time",
           "name": "toPosixSeconds",
           "package": "vhd",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd Time",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd.Time",
           "name": "toPosixSeconds",
           "normalized": "VhdDiffTime-\u003ePOSIXTime",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd.Time",
           "name": "toUTCTime",
           "package": "vhd",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd Time",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd.Time",
           "name": "toUTCTime",
           "normalized": "VhdDiffTime-\u003eUTCTime",
@@ -281,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "Vhd",
           "package": "vhd",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "Vhd",
           "package": "vhd",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe offset from the beginning of a block in bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "BlockByteAddress",
           "package": "vhd",
@@ -312,6 +337,7 @@
         "index": {
           "description": "The offset from the beginning of block in bytes",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "BlockByteAddress",
           "package": "vhd",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe offset from the beginning of a block in sectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "BlockSectorAddress",
           "package": "vhd",
@@ -335,6 +362,7 @@
         "index": {
           "description": "The offset from the beginning of block in sectors",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "BlockSectorAddress",
           "package": "vhd",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "BlockSize",
           "package": "vhd",
@@ -358,6 +387,7 @@
         "index": {
           "description": "block size",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "BlockSize",
           "package": "vhd",
@@ -371,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "CheckSumable",
           "package": "vhd",
@@ -379,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "CheckSumable",
           "package": "vhd",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "Checksum",
           "package": "vhd",
@@ -400,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "Checksum",
           "package": "vhd",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "Cookie",
           "package": "vhd",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "Cookie",
           "package": "vhd",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "CreateParameters",
           "package": "vhd",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "CreateParameters",
           "package": "vhd",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "CreatorApplication",
           "package": "vhd",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "CreatorApplication",
           "package": "vhd",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "CreatorHostOs",
           "package": "vhd",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "CreatorHostOs",
           "package": "vhd",
@@ -497,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "DiskGeometry",
           "package": "vhd",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "DiskGeometry",
           "package": "vhd",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "DiskGeometryCylinders",
           "package": "vhd",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "DiskGeometryCylinders",
           "package": "vhd",
@@ -539,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "DiskGeometryHeads",
           "package": "vhd",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "DiskGeometryHeads",
           "package": "vhd",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "DiskGeometrySectorsPerTrack",
           "package": "vhd",
@@ -568,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "DiskGeometrySectorsPerTrack",
           "package": "vhd",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "DiskType",
           "package": "vhd",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "DiskType",
           "package": "vhd",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "Footer",
           "package": "vhd",
@@ -610,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "Footer",
           "package": "vhd",
@@ -623,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "Header",
           "package": "vhd",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "Header",
           "package": "vhd",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "ParentLocatorEntries",
           "package": "vhd",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "ParentLocatorEntries",
           "package": "vhd",
@@ -665,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "ParentLocatorEntry",
           "package": "vhd",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "ParentLocatorEntry",
           "package": "vhd",
@@ -686,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "ParentUnicodeName",
           "package": "vhd",
@@ -694,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "ParentUnicodeName",
           "package": "vhd",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "PhysicalByteAddress",
           "package": "vhd",
@@ -715,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "PhysicalByteAddress",
           "package": "vhd",
@@ -728,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "PhysicalByteCount",
           "package": "vhd",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "PhysicalByteCount",
           "package": "vhd",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "PhysicalSectorAddress",
           "package": "vhd",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "PhysicalSectorAddress",
           "package": "vhd",
@@ -770,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "PhysicalSectorCount",
           "package": "vhd",
@@ -778,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "PhysicalSectorCount",
           "package": "vhd",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "Sized",
           "package": "vhd",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "Sized",
           "package": "vhd",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "UniqueId",
           "package": "vhd",
@@ -820,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "UniqueId",
           "package": "vhd",
@@ -833,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "Version",
           "package": "vhd",
@@ -841,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "Version",
           "package": "vhd",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "VersionMajor",
           "package": "vhd",
@@ -862,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "VersionMajor",
           "package": "vhd",
@@ -875,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "VersionMinor",
           "package": "vhd",
@@ -883,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "VersionMinor",
           "package": "vhd",
@@ -897,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe absolute number of the block\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "VirtualBlockAddress",
           "package": "vhd",
@@ -906,6 +987,7 @@
         "index": {
           "description": "The absolute number of the block",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "VirtualBlockAddress",
           "package": "vhd",
@@ -919,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "VirtualBlockCount",
           "package": "vhd",
@@ -927,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "VirtualBlockCount",
           "package": "vhd",
@@ -941,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn absolute address in byte in the vhd content space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "VirtualByteAddress",
           "package": "vhd",
@@ -950,6 +1035,7 @@
         "index": {
           "description": "An absolute address in byte in the vhd content space",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "VirtualByteAddress",
           "package": "vhd",
@@ -963,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "VirtualByteCount",
           "package": "vhd",
@@ -971,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "VirtualByteCount",
           "package": "vhd",
@@ -984,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "VirtualSectorAddress",
           "package": "vhd",
@@ -992,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "VirtualSectorAddress",
           "package": "vhd",
@@ -1005,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "VirtualSectorCount",
           "package": "vhd",
@@ -1013,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "VirtualSectorCount",
           "package": "vhd",
@@ -1026,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "BlockByteAddress",
           "package": "vhd",
@@ -1035,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "BlockByteAddress",
           "package": "vhd",
@@ -1048,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "BlockSectorAddress",
           "package": "vhd",
@@ -1057,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "BlockSectorAddress",
           "package": "vhd",
@@ -1070,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "BlockSize",
           "package": "vhd",
@@ -1079,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "BlockSize",
           "package": "vhd",
@@ -1092,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "Checksum",
           "package": "vhd",
@@ -1101,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "Checksum",
           "package": "vhd",
@@ -1114,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "Cookie",
           "package": "vhd",
@@ -1123,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "Cookie",
           "package": "vhd",
@@ -1136,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "CreateParameters",
           "package": "vhd",
@@ -1145,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "CreateParameters",
           "package": "vhd",
@@ -1158,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "CreatorApplication",
           "package": "vhd",
@@ -1167,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "CreatorApplication",
           "package": "vhd",
@@ -1180,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "CreatorHostOsMacintosh",
           "package": "vhd",
@@ -1189,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "CreatorHostOsMacintosh",
           "package": "vhd",
@@ -1202,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "CreatorHostOsUnknown",
           "package": "vhd",
@@ -1211,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "CreatorHostOsUnknown",
           "package": "vhd",
@@ -1224,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "CreatorHostOsWindows",
           "package": "vhd",
@@ -1233,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "CreatorHostOsWindows",
           "package": "vhd",
@@ -1246,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "DiskGeometry",
           "package": "vhd",
@@ -1255,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "DiskGeometry",
           "package": "vhd",
@@ -1268,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "DiskTypeDifferencing",
           "package": "vhd",
@@ -1277,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "DiskTypeDifferencing",
           "package": "vhd",
@@ -1290,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "DiskTypeDynamic",
           "package": "vhd",
@@ -1299,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "DiskTypeDynamic",
           "package": "vhd",
@@ -1312,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "DiskTypeFixed",
           "package": "vhd",
@@ -1321,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "DiskTypeFixed",
           "package": "vhd",
@@ -1334,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "Footer",
           "package": "vhd",
@@ -1343,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "Footer",
           "package": "vhd",
@@ -1356,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "Header",
           "package": "vhd",
@@ -1365,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "Header",
           "package": "vhd",
@@ -1378,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "ParentLocatorEntries",
           "package": "vhd",
@@ -1387,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "ParentLocatorEntries",
           "normalized": "ParentLocatorEntries[ParentLocatorEntry]",
@@ -1402,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "ParentLocatorEntry",
           "package": "vhd",
@@ -1411,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "ParentLocatorEntry",
           "package": "vhd",
@@ -1424,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "ParentUnicodeName",
           "package": "vhd",
@@ -1433,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "ParentUnicodeName",
           "package": "vhd",
@@ -1446,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "Version",
           "package": "vhd",
@@ -1455,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "Version",
           "package": "vhd",
@@ -1468,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "VirtualBlockAddress",
           "package": "vhd",
@@ -1477,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "VirtualBlockAddress",
           "package": "vhd",
@@ -1490,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "VirtualByteAddress",
           "package": "vhd",
@@ -1499,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "VirtualByteAddress",
           "package": "vhd",
@@ -1512,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "addrToSector",
           "package": "vhd",
@@ -1521,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "addrToSector",
           "normalized": "Word-\u003ePhysicalSectorAddress",
@@ -1536,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "adjustChecksum",
           "package": "vhd",
@@ -1545,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "adjustChecksum",
           "normalized": "a-\u003ea",
@@ -1560,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "calculateChecksum",
           "package": "vhd",
@@ -1569,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "calculateChecksum",
           "normalized": "a-\u003eChecksum",
@@ -1584,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "checksumCalculate",
           "package": "vhd",
@@ -1593,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "checksumCalculate",
           "normalized": "ByteString-\u003eChecksum",
@@ -1609,6 +1753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmart constructor for Cookie\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "cookie",
           "package": "vhd",
@@ -1619,6 +1764,7 @@
         "index": {
           "description": "smart constructor for Cookie",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "cookie",
           "normalized": "ByteString-\u003eCookie",
@@ -1634,6 +1780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an empty VHD file with the specified parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "create",
           "package": "vhd",
@@ -1644,6 +1791,7 @@
         "index": {
           "description": "Creates an empty VHD file with the specified parameters",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "create",
           "normalized": "FilePath-\u003eCreateParameters-\u003eIO()",
@@ -1658,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "createBlockSize",
           "package": "vhd",
@@ -1667,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "createBlockSize",
           "package": "vhd",
@@ -1680,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "createDiskType",
           "package": "vhd",
@@ -1689,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "createDiskType",
           "package": "vhd",
@@ -1702,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "createParentTimeStamp",
           "package": "vhd",
@@ -1711,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "createParentTimeStamp",
           "package": "vhd",
@@ -1724,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "createParentUnicodeName",
           "package": "vhd",
@@ -1733,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "createParentUnicodeName",
           "package": "vhd",
@@ -1746,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "createParentUniqueId",
           "package": "vhd",
@@ -1755,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "createParentUniqueId",
           "package": "vhd",
@@ -1768,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "createTimeStamp",
           "package": "vhd",
@@ -1777,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "createTimeStamp",
           "package": "vhd",
@@ -1790,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "createUseBatmap",
           "package": "vhd",
@@ -1799,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "createUseBatmap",
           "package": "vhd",
@@ -1812,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "createUuid",
           "package": "vhd",
@@ -1821,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "createUuid",
           "package": "vhd",
@@ -1834,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "createVirtualSize",
           "package": "vhd",
@@ -1843,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "createVirtualSize",
           "package": "vhd",
@@ -1857,6 +2023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmart constructor for CreatorApplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "creatorApplication",
           "package": "vhd",
@@ -1867,6 +2034,7 @@
         "index": {
           "description": "smart constructor for CreatorApplication",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "creatorApplication",
           "normalized": "ByteString-\u003eCreatorApplication",
@@ -1882,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "defaultCreateParameters",
           "package": "vhd",
@@ -1891,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "defaultCreateParameters",
           "package": "vhd",
@@ -1904,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerChecksum",
           "package": "vhd",
@@ -1913,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerChecksum",
           "package": "vhd",
@@ -1926,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerCookie",
           "package": "vhd",
@@ -1935,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerCookie",
           "package": "vhd",
@@ -1948,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerCreatorApplication",
           "package": "vhd",
@@ -1957,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerCreatorApplication",
           "package": "vhd",
@@ -1970,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerCreatorHostOs",
           "package": "vhd",
@@ -1979,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerCreatorHostOs",
           "package": "vhd",
@@ -1992,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerCreatorVersion",
           "package": "vhd",
@@ -2001,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerCreatorVersion",
           "package": "vhd",
@@ -2014,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerCurrentSize",
           "package": "vhd",
@@ -2023,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerCurrentSize",
           "package": "vhd",
@@ -2036,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerDataOffset",
           "package": "vhd",
@@ -2045,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerDataOffset",
           "package": "vhd",
@@ -2058,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerDiskGeometry",
           "package": "vhd",
@@ -2067,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerDiskGeometry",
           "package": "vhd",
@@ -2080,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerDiskType",
           "package": "vhd",
@@ -2089,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerDiskType",
           "package": "vhd",
@@ -2102,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerFormatVersion",
           "package": "vhd",
@@ -2111,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerFormatVersion",
           "package": "vhd",
@@ -2124,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerIsSavedState",
           "package": "vhd",
@@ -2133,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerIsSavedState",
           "package": "vhd",
@@ -2146,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerIsTemporaryDisk",
           "package": "vhd",
@@ -2155,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerIsTemporaryDisk",
           "package": "vhd",
@@ -2168,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerOriginalSize",
           "package": "vhd",
@@ -2177,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerOriginalSize",
           "package": "vhd",
@@ -2190,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerTimeStamp",
           "package": "vhd",
@@ -2199,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerTimeStamp",
           "package": "vhd",
@@ -2212,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "footerUniqueId",
           "package": "vhd",
@@ -2221,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "footerUniqueId",
           "package": "vhd",
@@ -2234,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "getChecksum",
           "package": "vhd",
@@ -2243,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "getChecksum",
           "normalized": "a-\u003eChecksum",
@@ -2259,6 +2461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the header and footer from a VHD file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "getInfo",
           "package": "vhd",
@@ -2269,6 +2472,7 @@
         "index": {
           "description": "Retrieves the header and footer from VHD file",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "getInfo",
           "normalized": "FilePath-\u003eIO(Either String(Header,Footer))",
@@ -2284,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "headerBlockSize",
           "package": "vhd",
@@ -2293,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "headerBlockSize",
           "package": "vhd",
@@ -2306,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "headerChecksum",
           "package": "vhd",
@@ -2315,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "headerChecksum",
           "package": "vhd",
@@ -2328,6 +2536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "headerCookie",
           "package": "vhd",
@@ -2337,6 +2546,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "headerCookie",
           "package": "vhd",
@@ -2350,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "headerDataOffset",
           "package": "vhd",
@@ -2359,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "headerDataOffset",
           "package": "vhd",
@@ -2372,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "headerMaxTableEntries",
           "package": "vhd",
@@ -2381,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "headerMaxTableEntries",
           "package": "vhd",
@@ -2394,6 +2608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "headerParentLocatorEntries",
           "package": "vhd",
@@ -2403,6 +2618,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "headerParentLocatorEntries",
           "package": "vhd",
@@ -2416,6 +2632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "headerParentTimeStamp",
           "package": "vhd",
@@ -2425,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "headerParentTimeStamp",
           "package": "vhd",
@@ -2438,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "headerParentUnicodeName",
           "package": "vhd",
@@ -2447,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "headerParentUnicodeName",
           "package": "vhd",
@@ -2460,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "headerParentUniqueId",
           "package": "vhd",
@@ -2469,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "headerParentUniqueId",
           "package": "vhd",
@@ -2482,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "headerReserved1",
           "package": "vhd",
@@ -2491,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "headerReserved1",
           "package": "vhd",
@@ -2504,6 +2728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "headerTableOffset",
           "package": "vhd",
@@ -2513,6 +2738,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "headerTableOffset",
           "package": "vhd",
@@ -2526,6 +2752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "headerVersion",
           "package": "vhd",
@@ -2535,6 +2762,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "headerVersion",
           "package": "vhd",
@@ -2548,6 +2776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "locatorCode",
           "package": "vhd",
@@ -2557,6 +2786,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "locatorCode",
           "package": "vhd",
@@ -2570,6 +2800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "locatorDataLength",
           "package": "vhd",
@@ -2579,6 +2810,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "locatorDataLength",
           "package": "vhd",
@@ -2592,6 +2824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "locatorDataOffset",
           "package": "vhd",
@@ -2601,6 +2834,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "locatorDataOffset",
           "package": "vhd",
@@ -2614,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "locatorDataSpace",
           "package": "vhd",
@@ -2623,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "locatorDataSpace",
           "package": "vhd",
@@ -2636,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "nullParentLocatorEntry",
           "package": "vhd",
@@ -2645,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "nullParentLocatorEntry",
           "package": "vhd",
@@ -2659,6 +2897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmart constructor for ParentLocatorEntries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "parentLocatorEntries",
           "package": "vhd",
@@ -2669,6 +2908,7 @@
         "index": {
           "description": "smart constructor for ParentLocatorEntries",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "parentLocatorEntries",
           "normalized": "[ParentLocatorEntry]-\u003eParentLocatorEntries",
@@ -2684,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "parentUnicodeName",
           "package": "vhd",
@@ -2693,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "parentUnicodeName",
           "normalized": "[Char]-\u003eParentUnicodeName",
@@ -2708,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "randomUniqueId",
           "package": "vhd",
@@ -2717,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "randomUniqueId",
           "package": "vhd",
@@ -2731,6 +2975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads data from the whole virtual address space of the given VHD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "readData",
           "package": "vhd",
@@ -2741,6 +2986,7 @@
         "index": {
           "description": "Reads data from the whole virtual address space of the given VHD",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "readData",
           "normalized": "Vhd-\u003eIO ByteString",
@@ -2757,6 +3003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads data from the given virtual address range of the given VHD.\n\u003c/p\u003e\u003cp\u003eTODO: modify this function to read sub-blocks where appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "readDataRange",
           "package": "vhd",
@@ -2766,6 +3013,7 @@
         "index": {
           "description": "Reads data from the given virtual address range of the given VHD TODO modify this function to read sub-blocks where appropriate",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "readDataRange",
           "normalized": "Vhd-\u003eWord-\u003eWord-\u003eIO ByteString",
@@ -2781,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "setChecksum",
           "package": "vhd",
@@ -2790,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "setChecksum",
           "normalized": "Checksum-\u003ea-\u003ea",
@@ -2805,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "sized",
           "package": "vhd",
@@ -2814,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "sized",
           "normalized": "a-\u003eb",
@@ -2828,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "snapshot",
           "package": "vhd",
@@ -2837,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "snapshot",
           "normalized": "Vhd-\u003eFilePath-\u003eIO()",
@@ -2852,6 +3106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmart constructor for uniqueId\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "uniqueId",
           "package": "vhd",
@@ -2862,6 +3117,7 @@
         "index": {
           "description": "smart constructor for uniqueId",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "uniqueId",
           "normalized": "ByteString-\u003eUniqueId",
@@ -2878,6 +3134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eincrement the virtual address to align to the next block\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "vaddrNextBlock",
           "package": "vhd",
@@ -2888,6 +3145,7 @@
         "index": {
           "description": "increment the virtual address to align to the next block",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "vaddrNextBlock",
           "normalized": "VirtualByteAddress-\u003eBlockSize-\u003eVirtualByteAddress",
@@ -2903,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "vaddrPlus",
           "package": "vhd",
@@ -2912,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "vaddrPlus",
           "normalized": "VirtualByteAddress-\u003eWord-\u003eVirtualByteAddress",
@@ -2927,6 +3187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "vaddrToBlock",
           "package": "vhd",
@@ -2936,6 +3197,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "vaddrToBlock",
           "normalized": "VirtualByteAddress-\u003eBlockSize-\u003e(VirtualBlockAddress,BlockByteAddress,Word)",
@@ -2951,6 +3213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "verifyChecksum",
           "package": "vhd",
@@ -2960,6 +3223,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "verifyChecksum",
           "normalized": "a-\u003eBool",
@@ -2975,6 +3239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "withVhd",
           "package": "vhd",
@@ -2984,6 +3249,7 @@
         },
         "index": {
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "withVhd",
           "normalized": "FilePath-\u003e(Vhd-\u003eIO a)-\u003eIO a",
@@ -3000,6 +3266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites data to the given virtual address of the given VHD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:00 UTC 2014",
           "module": "Data.Vhd",
           "name": "writeDataRange",
           "package": "vhd",
@@ -3009,6 +3276,7 @@
         "index": {
           "description": "Writes data to the given virtual address of the given VHD",
           "hierarchy": "Data Vhd",
+          "indexed": "2014-03-11T20:35:00",
           "module": "Data.Vhd",
           "name": "writeDataRange",
           "normalized": "Vhd-\u003eWord-\u003eByteString-\u003eIO()",

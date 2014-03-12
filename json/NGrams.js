@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "NGrams"
+        "phrase": "NGrams",
+        "type": "phrase"
       },
       "type": "context"
     }

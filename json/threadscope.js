@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "threadscope"
+        "phrase": "threadscope",
+        "type": "phrase"
       },
       "type": "context"
     }

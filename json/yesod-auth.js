@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-auth"
+        "phrase": "yesod-auth",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.BrowserId",
           "name": "BrowserId",
           "package": "yesod-auth",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth BrowserId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.BrowserId",
           "name": "BrowserId",
           "package": "yesod-auth",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA settings type for various configuration options relevant to BrowserID.\n\u003c/p\u003e\u003cp\u003eSee: \u003ca\u003ehttp://www.yesodweb.com/book/settings-types\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.BrowserId",
           "name": "BrowserIdSettings",
           "package": "yesod-auth",
@@ -49,6 +52,7 @@
         "index": {
           "description": "settings type for various configuration options relevant to BrowserID See http www.yesodweb.com book settings-types Since",
           "hierarchy": "Yesod Auth BrowserId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.BrowserId",
           "name": "BrowserIdSettings",
           "package": "yesod-auth",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.BrowserId",
           "name": "authBrowserId",
           "package": "yesod-auth",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth BrowserId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.BrowserId",
           "name": "authBrowserId",
           "normalized": "BrowserIdSettings-\u003eAuthPlugin a",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrowserID audience value. If \u003ccode\u003eNothing\u003c/code\u003e, will be extracted based on the\n approot.\n\u003c/p\u003e\u003cp\u003eDefault: \u003ccode\u003eNothing\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.BrowserId",
           "name": "bisAudience",
           "package": "yesod-auth",
@@ -97,6 +104,7 @@
         "index": {
           "description": "BrowserID audience value If Nothing will be extracted based on the approot Default Nothing Since",
           "hierarchy": "Yesod Auth BrowserId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.BrowserId",
           "name": "bisAudience",
           "normalized": "BrowserIdSettings-\u003eMaybe Text",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse asynchronous Javascript loading for the BrowserID JS file.\n\u003c/p\u003e\u003cp\u003eDefault: \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.BrowserId",
           "name": "bisLazyLoad",
           "package": "yesod-auth",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Use asynchronous Javascript loading for the BrowserID JS file Default True Since",
           "hierarchy": "Yesod Auth BrowserId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.BrowserId",
           "name": "bisLazyLoad",
           "normalized": "BrowserIdSettings-\u003eBool",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a function to handle on-click events, and returns that function\n name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.BrowserId",
           "name": "createOnClick",
           "package": "yesod-auth",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Generates function to handle on-click events and returns that function name",
           "hierarchy": "Yesod Auth BrowserId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.BrowserId",
           "name": "createOnClick",
           "normalized": "BrowserIdSettings-\u003e(Route Auth-\u003eRoute a)-\u003eWidgetT a IO Text",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.BrowserId",
           "name": "def",
           "package": "yesod-auth",
@@ -174,6 +187,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Yesod Auth BrowserId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.BrowserId",
           "name": "def",
           "package": "yesod-auth",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a dummy authentication module that simply lets a user specify\n his/her identifier. This is not intended for real world use, just for\n testing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Dummy",
           "name": "Dummy",
           "package": "yesod-auth",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Provides dummy authentication module that simply lets user specify his her identifier This is not intended for real world use just for testing",
           "hierarchy": "Yesod Auth Dummy",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Dummy",
           "name": "Dummy",
           "package": "yesod-auth",
@@ -209,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Dummy",
           "name": "authDummy",
           "package": "yesod-auth",
@@ -218,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Dummy",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Dummy",
           "name": "authDummy",
           "package": "yesod-auth",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "Email",
           "package": "yesod-auth",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "Email",
           "package": "yesod-auth",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "Email",
           "package": "yesod-auth",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "Email",
           "package": "yesod-auth",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData stored in a database for each e-mail address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "EmailCreds",
           "package": "yesod-auth",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Data stored in database for each e-mail address",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "EmailCreds",
           "package": "yesod-auth",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Identifier generalizes an email address to allow users to log in with\n some other form of credentials (e.g., username).\n\u003c/p\u003e\u003cp\u003eNote that any of these other identifiers must not be valid email addresses.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "Identifier",
           "package": "yesod-auth",
@@ -306,6 +331,7 @@
         "index": {
           "description": "An Identifier generalizes an email address to allow users to log in with some other form of credentials e.g username Note that any of these other identifiers must not be valid email addresses Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "Identifier",
           "package": "yesod-auth",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "SaltedPass",
           "package": "yesod-auth",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "SaltedPass",
           "package": "yesod-auth",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "VerKey",
           "package": "yesod-auth",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "VerKey",
           "package": "yesod-auth",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "VerStatus",
           "package": "yesod-auth",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "VerStatus",
           "package": "yesod-auth",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "VerUrl",
           "package": "yesod-auth",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "VerUrl",
           "package": "yesod-auth",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "YesodAuthEmail",
           "package": "yesod-auth",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "YesodAuthEmail",
           "package": "yesod-auth",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "EmailCreds",
           "package": "yesod-auth",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "EmailCreds",
           "package": "yesod-auth",
@@ -447,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new email address to the database, but indicate that the address\n has not yet been verified.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "addUnverified",
           "package": "yesod-auth",
@@ -457,6 +496,7 @@
         "index": {
           "description": "Add new email address to the database but indicate that the address has not yet been verified Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "addUnverified",
           "normalized": "Email-\u003eVerKey-\u003eHandlerT a IO(AuthEmailId a)",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoute to send user to after password has been set correctly.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "afterPasswordRoute",
           "package": "yesod-auth",
@@ -483,6 +524,7 @@
         "index": {
           "description": "Route to send user to after password has been set correctly Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "afterPasswordRoute",
           "normalized": "a-\u003eRoute a",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "authEmail",
           "package": "yesod-auth",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "authEmail",
           "package": "yesod-auth",
@@ -521,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that the given plain-text password meets minimum security standards.\n\u003c/p\u003e\u003cp\u003eDefault: password is at least three characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "checkPasswordSecurity",
           "package": "yesod-auth",
@@ -531,6 +576,7 @@
         "index": {
           "description": "Check that the given plain-text password meets minimum security standards Default password is at least three characters",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "checkPasswordSecurity",
           "normalized": "AuthId a-\u003eText-\u003eHandlerT a IO(Either Text())",
@@ -547,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse after sending a confirmation email.\n\u003c/p\u003e\u003cp\u003eSince 1.2.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "confirmationEmailSentResponse",
           "package": "yesod-auth",
@@ -557,6 +604,7 @@
         "index": {
           "description": "Response after sending confirmation email Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "confirmationEmailSentResponse",
           "normalized": "Text-\u003eHandlerT a IO Html",
@@ -573,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault implementation of \u003ccode\u003e\u003ca\u003eforgotPasswordHandler\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 1.2.6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "defaultForgotPasswordHandler",
           "package": "yesod-auth",
@@ -583,6 +632,7 @@
         "index": {
           "description": "Default implementation of forgotPasswordHandler Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "defaultForgotPasswordHandler",
           "package": "yesod-auth",
@@ -597,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault implementation of \u003ccode\u003e\u003ca\u003eregisterHandler\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 1.2.6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "defaultRegisterHandler",
           "package": "yesod-auth",
@@ -607,6 +658,7 @@
         "index": {
           "description": "Default implementation of registerHandler Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "defaultRegisterHandler",
           "package": "yesod-auth",
@@ -621,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault implementation of \u003ccode\u003e\u003ca\u003esetPasswordHandler\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 1.2.6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "defaultSetPasswordHandler",
           "package": "yesod-auth",
@@ -631,6 +684,7 @@
         "index": {
           "description": "Default implementation of setPasswordHandler Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "defaultSetPasswordHandler",
           "normalized": "Bool-\u003eAuthHandler a Html",
@@ -646,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "emailCredsAuthId",
           "package": "yesod-auth",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "emailCredsAuthId",
           "package": "yesod-auth",
@@ -668,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "emailCredsEmail",
           "package": "yesod-auth",
@@ -677,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "emailCredsEmail",
           "package": "yesod-auth",
@@ -690,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "emailCredsId",
           "package": "yesod-auth",
@@ -699,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "emailCredsId",
           "package": "yesod-auth",
@@ -712,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "emailCredsStatus",
           "package": "yesod-auth",
@@ -721,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "emailCredsStatus",
           "package": "yesod-auth",
@@ -734,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "emailCredsVerkey",
           "package": "yesod-auth",
@@ -743,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "emailCredsVerkey",
           "package": "yesod-auth",
@@ -757,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandler called to render the \"forgot password\" page.\n The default works fine, but you may want to override it in\n order to have a different DOM.\n\u003c/p\u003e\u003cp\u003eDefault: \u003ccode\u003e\u003ca\u003edefaultForgotPasswordHandler\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 1.2.6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "forgotPasswordHandler",
           "package": "yesod-auth",
@@ -767,6 +832,7 @@
         "index": {
           "description": "Handler called to render the forgot password page The default works fine but you may want to override it in order to have different DOM Default defaultForgotPasswordHandler Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "forgotPasswordHandler",
           "package": "yesod-auth",
@@ -780,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "forgotPasswordR",
           "package": "yesod-auth",
@@ -789,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "forgotPasswordR",
           "package": "yesod-auth",
@@ -803,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the email address for the given email ID.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "getEmail",
           "package": "yesod-auth",
@@ -813,6 +882,7 @@
         "index": {
           "description": "Get the email address for the given email ID Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "getEmail",
           "normalized": "AuthEmailId a-\u003eHandlerT a IO(Maybe Email)",
@@ -829,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the credentials for the given \u003ccode\u003eIdentifier\u003c/code\u003e, which may be either an\n email address or some other identification (e.g., username).\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "getEmailCreds",
           "package": "yesod-auth",
@@ -839,6 +910,7 @@
         "index": {
           "description": "Get the credentials for the given Identifier which may be either an email address or some other identification e.g username Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "getEmailCreds",
           "normalized": "Identifier-\u003eHandlerT a IO(Maybe(EmailCreds a))",
@@ -855,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the salted password for the given account.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "getPassword",
           "package": "yesod-auth",
@@ -865,6 +938,7 @@
         "index": {
           "description": "Get the salted password for the given account Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "getPassword",
           "normalized": "AuthId a-\u003eHandlerT a IO(Maybe SaltedPass)",
@@ -881,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the verification key for the given email ID.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "getVerifyKey",
           "package": "yesod-auth",
@@ -891,6 +966,7 @@
         "index": {
           "description": "Get the verification key for the given email ID Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "getVerifyKey",
           "normalized": "AuthEmailId a-\u003eHandlerT a IO(Maybe VerKey)",
@@ -906,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "isValidPass",
           "package": "yesod-auth",
@@ -914,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "isValidPass",
           "normalized": "Text-\u003eSaltedPass-\u003eBool",
@@ -930,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession variable set when user logged in via a login link. See\n \u003ccode\u003e\u003ca\u003eneedOldPassword\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.2.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "loginLinkKey",
           "package": "yesod-auth",
@@ -940,6 +1019,7 @@
         "index": {
           "description": "Session variable set when user logged in via login link See needOldPassword Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "loginLinkKey",
           "package": "yesod-auth",
@@ -953,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "loginR",
           "package": "yesod-auth",
@@ -962,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "loginR",
           "package": "yesod-auth",
@@ -975,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes the user need to provide the current password in order to set a\n new password?\n\u003c/p\u003e\u003cp\u003eDefault: if the user logged in via an email link do not require a password.\n\u003c/p\u003e\u003cp\u003eSince 1.2.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "needOldPassword",
           "package": "yesod-auth",
@@ -985,6 +1068,7 @@
         "index": {
           "description": "Does the user need to provide the current password in order to set new password Default if the user logged in via an email link do not require password Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "needOldPassword",
           "normalized": "AuthId a-\u003eHandlerT a IO Bool",
@@ -1001,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional normalization of email addresses, besides standard canonicalization.\n\u003c/p\u003e\u003cp\u003eDefault: Lower case the email address.\n\u003c/p\u003e\u003cp\u003eSince 1.2.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "normalizeEmailAddress",
           "package": "yesod-auth",
@@ -1011,6 +1096,7 @@
         "index": {
           "description": "Additional normalization of email addresses besides standard canonicalization Default Lower case the email address Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "normalizeEmailAddress",
           "normalized": "a-\u003eText-\u003eText",
@@ -1027,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a random alphanumeric string.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "randomKey",
           "package": "yesod-auth",
@@ -1037,6 +1124,7 @@
         "index": {
           "description": "Generate random alphanumeric string Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "randomKey",
           "normalized": "a-\u003eIO Text",
@@ -1053,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandler called to render the registration page.  The\n default works fine, but you may want to override it in\n order to have a different DOM.\n\u003c/p\u003e\u003cp\u003eDefault: \u003ccode\u003e\u003ca\u003edefaultRegisterHandler\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 1.2.6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "registerHandler",
           "package": "yesod-auth",
@@ -1063,6 +1152,7 @@
         "index": {
           "description": "Handler called to render the registration page The default works fine but you may want to override it in order to have different DOM Default defaultRegisterHandler Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "registerHandler",
           "package": "yesod-auth",
@@ -1076,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "registerR",
           "package": "yesod-auth",
@@ -1085,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "registerR",
           "package": "yesod-auth",
@@ -1098,6 +1190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSalt a password with a randomly generated salt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "saltPass",
           "package": "yesod-auth",
@@ -1108,6 +1201,7 @@
         "index": {
           "description": "Salt password with randomly generated salt",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "saltPass",
           "normalized": "Text-\u003eIO Text",
@@ -1124,6 +1218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend an email to the given address to verify ownership.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "sendVerifyEmail",
           "package": "yesod-auth",
@@ -1134,6 +1229,7 @@
         "index": {
           "description": "Send an email to the given address to verify ownership Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "sendVerifyEmail",
           "normalized": "Email-\u003eVerKey-\u003eVerUrl-\u003eHandlerT a IO()",
@@ -1150,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet \u003ccode\u003e\u003ca\u003eloginLinkKey\u003c/a\u003e\u003c/code\u003e to the current time.\n\u003c/p\u003e\u003cp\u003eSince 1.2.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "setLoginLinkKey",
           "package": "yesod-auth",
@@ -1160,6 +1257,7 @@
         "index": {
           "description": "Set loginLinkKey to the current time Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "setLoginLinkKey",
           "normalized": "AuthId a-\u003eb()",
@@ -1176,6 +1274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the salted password for the given account.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "setPassword",
           "package": "yesod-auth",
@@ -1186,6 +1285,7 @@
         "index": {
           "description": "Set the salted password for the given account Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "setPassword",
           "normalized": "AuthId a-\u003eSaltedPass-\u003eHandlerT a IO()",
@@ -1202,6 +1302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandler called to render the \"set password\" page.  The\n default works fine, but you may want to override it in\n order to have a different DOM.\n\u003c/p\u003e\u003cp\u003eDefault: \u003ccode\u003e\u003ca\u003edefaultSetPasswordHandler\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 1.2.6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "setPasswordHandler",
           "package": "yesod-auth",
@@ -1212,6 +1313,7 @@
         "index": {
           "description": "Handler called to render the set password page The default works fine but you may want to override it in order to have different DOM Default defaultSetPasswordHandler Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "setPasswordHandler",
           "package": "yesod-auth",
@@ -1226,6 +1328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the verification key for the given email ID.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "setVerifyKey",
           "package": "yesod-auth",
@@ -1236,6 +1339,7 @@
         "index": {
           "description": "Set the verification key for the given email ID Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "setVerifyKey",
           "normalized": "AuthEmailId a-\u003eVerKey-\u003eHandlerT a IO()",
@@ -1251,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "setpassR",
           "package": "yesod-auth",
@@ -1260,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "setpassR",
           "package": "yesod-auth",
@@ -1273,6 +1379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify the email address on the given account.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Email",
           "name": "verifyAccount",
           "package": "yesod-auth",
@@ -1283,6 +1390,7 @@
         "index": {
           "description": "Verify the email address on the given account Since",
           "hierarchy": "Yesod Auth Email",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Email",
           "name": "verifyAccount",
           "normalized": "AuthEmailId a-\u003eHandlerT a IO(Maybe(AuthId a))",
@@ -1299,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUse an email address as an identifier via Google's OpenID login system.\n\u003c/p\u003e\u003cp\u003eThis backend will not use the OpenID identifier at all. It only uses OpenID\n as a login system. By using this plugin, you are trusting Google to validate\n an email address, and requiring users to have a Google account. On the plus\n side, you get to use email addresses as the identifier, many users have\n existing Google accounts, the login system has been long tested (as opposed\n to BrowserID), and it requires no credential managing or setup (as opposed\n to Email).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.GoogleEmail",
           "name": "GoogleEmail",
           "package": "yesod-auth",
@@ -1308,6 +1417,7 @@
         "index": {
           "description": "Use an email address as an identifier via Google OpenID login system This backend will not use the OpenID identifier at all It only uses OpenID as login system By using this plugin you are trusting Google to validate an email address and requiring users to have Google account On the plus side you get to use email addresses as the identifier many users have existing Google accounts the login system has been long tested as opposed to BrowserID and it requires no credential managing or setup as opposed to Email",
           "hierarchy": "Yesod Auth GoogleEmail",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.GoogleEmail",
           "name": "GoogleEmail",
           "package": "yesod-auth",
@@ -1321,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.GoogleEmail",
           "name": "authGoogleEmail",
           "package": "yesod-auth",
@@ -1330,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth GoogleEmail",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.GoogleEmail",
           "name": "authGoogleEmail",
           "package": "yesod-auth",
@@ -1343,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.GoogleEmail",
           "name": "forwardUrl",
           "package": "yesod-auth",
@@ -1352,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth GoogleEmail",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.GoogleEmail",
           "name": "forwardUrl",
           "package": "yesod-auth",
@@ -1366,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWARNING\u003c/em\u003e: This module was \u003cem\u003enot\u003c/em\u003e designed with security in mind, and is not\n suitable for production sites. In the near future, it will likely be either\n deprecated or rewritten to have a more secure implementation. For more\n information, see: \u003ca\u003ehttps://github.com/yesodweb/yesod/issues/668\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eA yesod-auth AuthPlugin designed to look users up in Persist where\n their user id's and a salted SHA1 hash of their password is stored.\n\u003c/p\u003e\u003cp\u003eExample usage:\n\u003c/p\u003e\u003cpre\u003e -- import the function\n import Auth.HashDB\n\n -- make sure you have an auth route\n mkYesodData \"MyApp\" [$parseRoutes|\n / RootR GET\n /auth AuthR Auth getAuth\n |]\n\n\n -- make your app an instance of YesodAuth using this plugin\n instance YesodAuth MyApp where\n    type AuthId MyApp = UserId\n\n    loginDest _  = RootR\n    logoutDest _ = RootR\n    getAuthId    = getAuthIdHashDB AuthR (Just . UniqueUser)\n    authPlugins  = [authHashDB (Just . UniqueUser)]\n\n\n -- include the migration function in site startup\n withServer :: (Application -\u003e IO a) -\u003e IO a\n withServer f = withConnectionPool $ \\p -\u003e do\n     runSqlPool (runMigration migrateUsers) p\n     let h = DevSite p\n\u003c/pre\u003e\u003cp\u003eNote that function which converts username to unique identifier must be same.\n\u003c/p\u003e\u003cp\u003eYour app must be an instance of YesodPersist. and the username,\n salt and hashed-passwords should be added to the database.\n\u003c/p\u003e\u003cpre\u003e echo -n 'MySaltMyPassword' | sha1sum\n\u003c/pre\u003e\u003cp\u003ecan be used to get the hash from the commandline.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "HashDB",
           "package": "yesod-auth",
@@ -1375,6 +1490,7 @@
         "index": {
           "description": "WARNING This module was not designed with security in mind and is not suitable for production sites In the near future it will likely be either deprecated or rewritten to have more secure implementation For more information see https github.com yesodweb yesod issues yesod-auth AuthPlugin designed to look users up in Persist where their user id and salted SHA1 hash of their password is stored Example usage import the function import Auth.HashDB make sure you have an auth route mkYesodData MyApp parseRoutes RootR GET auth AuthR Auth getAuth make your app an instance of YesodAuth using this plugin instance YesodAuth MyApp where type AuthId MyApp UserId loginDest RootR logoutDest RootR getAuthId getAuthIdHashDB AuthR Just UniqueUser authPlugins authHashDB Just UniqueUser include the migration function in site startup withServer Application IO IO withServer withConnectionPool do runSqlPool runMigration migrateUsers let DevSite Note that function which converts username to unique identifier must be same Your app must be an instance of YesodPersist and the username salt and hashed-passwords should be added to the database echo MySaltMyPassword sha1sum can be used to get the hash from the commandline",
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "HashDB",
           "package": "yesod-auth",
@@ -1389,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eEntityField\u003c/a\u003e\u003c/code\u003e is parameterised by the Haskell record it belongs to\n and the additional type of that field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "EntityField",
           "package": "yesod-auth",
@@ -1398,6 +1515,7 @@
         "index": {
           "description": "An EntityField is parameterised by the Haskell record it belongs to and the additional type of that field",
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "EntityField",
           "package": "yesod-auth",
@@ -1412,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface for data type which holds user info. It's just a\n   collection of getters and setters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "HashDBUser",
           "package": "yesod-auth",
@@ -1421,6 +1540,7 @@
         "index": {
           "description": "Interface for data type which holds user info It just collection of getters and setters",
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "HashDBUser",
           "package": "yesod-auth",
@@ -1435,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique keys besided the Key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "Unique",
           "package": "yesod-auth",
@@ -1444,6 +1565,7 @@
         "index": {
           "description": "Unique keys besided the Key",
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "Unique",
           "package": "yesod-auth",
@@ -1457,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "User",
           "package": "yesod-auth",
@@ -1465,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "User",
           "package": "yesod-auth",
@@ -1479,6 +1603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate data base instances for a valid user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "UserGeneric",
           "package": "yesod-auth",
@@ -1488,6 +1613,7 @@
         "index": {
           "description": "Generate data base instances for valid user",
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "UserGeneric",
           "package": "yesod-auth",
@@ -1501,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "UserId",
           "package": "yesod-auth",
@@ -1509,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "UserId",
           "package": "yesod-auth",
@@ -1522,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "User",
           "package": "yesod-auth",
@@ -1531,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "User",
           "package": "yesod-auth",
@@ -1545,6 +1675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrompt for username and password, validate that against a database\n   which holds the username and a hash of the password\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "authHashDB",
           "package": "yesod-auth",
@@ -1555,6 +1686,7 @@
         "index": {
           "description": "Prompt for username and password validate that against database which holds the username and hash of the password",
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "authHashDB",
           "normalized": "(Text-\u003eMaybe(Unique a))-\u003eAuthPlugin b",
@@ -1571,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA drop in for the getAuthId method of your YesodAuth instance which\n   can be used if authHashDB is the only plugin in use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "getAuthIdHashDB",
           "package": "yesod-auth",
@@ -1580,6 +1713,7 @@
         "index": {
           "description": "drop in for the getAuthId method of your YesodAuth instance which can be used if authHashDB is the only plugin in use",
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "getAuthIdHashDB",
           "normalized": "(AuthRoute-\u003eRoute a)-\u003e(Text-\u003eMaybe(Unique b))-\u003eCreds a-\u003eHandlerT a IO(Maybe(AuthId a))",
@@ -1595,6 +1729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "migrateUsers",
           "package": "yesod-auth",
@@ -1604,6 +1739,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "migrateUsers",
           "package": "yesod-auth",
@@ -1618,6 +1754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet password for user. This function should be used for setting\n   passwords. It generates random salt and calculates proper hashes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "setPassword",
           "package": "yesod-auth",
@@ -1628,6 +1765,7 @@
         "index": {
           "description": "Set password for user This function should be used for setting passwords It generates random salt and calculates proper hashes",
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "setPassword",
           "normalized": "Text-\u003ea-\u003eb a",
@@ -1644,6 +1782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea callback for setPassword\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "setSaltAndPasswordHash",
           "package": "yesod-auth",
@@ -1654,6 +1793,7 @@
         "index": {
           "description": "callback for setPassword",
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "setSaltAndPasswordHash",
           "package": "yesod-auth",
@@ -1668,6 +1808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeprecated for the better named setSaltAndPasswordHash \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "setUserHashAndSalt",
           "package": "yesod-auth",
@@ -1678,6 +1819,7 @@
         "index": {
           "description": "Deprecated for the better named setSaltAndPasswordHash",
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "setUserHashAndSalt",
           "package": "yesod-auth",
@@ -1691,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "userPassword",
           "package": "yesod-auth",
@@ -1700,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "userPassword",
           "package": "yesod-auth",
@@ -1714,6 +1858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve password hash from user data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "userPasswordHash",
           "package": "yesod-auth",
@@ -1724,6 +1869,7 @@
         "index": {
           "description": "Retrieve password hash from user data",
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "userPasswordHash",
           "normalized": "a-\u003eMaybe Text",
@@ -1740,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve salt for password\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "userPasswordSalt",
           "package": "yesod-auth",
@@ -1750,6 +1897,7 @@
         "index": {
           "description": "Retrieve salt for password",
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "userPasswordSalt",
           "normalized": "a-\u003eMaybe Text",
@@ -1765,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "userSalt",
           "package": "yesod-auth",
@@ -1774,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "userSalt",
           "package": "yesod-auth",
@@ -1787,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "userUsername",
           "package": "yesod-auth",
@@ -1796,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "userUsername",
           "package": "yesod-auth",
@@ -1810,6 +1962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a user ID and password in plaintext, validate them against\n   the database values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.HashDB",
           "name": "validateUser",
           "package": "yesod-auth",
@@ -1819,6 +1972,7 @@
         "index": {
           "description": "Given user ID and password in plaintext validate them against the database values",
           "hierarchy": "Yesod Auth HashDB",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.HashDB",
           "name": "validateUser",
           "normalized": "Unique a-\u003eText-\u003eHandlerT b IO Bool",
@@ -1834,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "Message",
           "package": "yesod-auth",
@@ -1842,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "Message",
           "package": "yesod-auth",
@@ -1855,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "AuthMessage",
           "package": "yesod-auth",
@@ -1863,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "AuthMessage",
           "package": "yesod-auth",
@@ -1876,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "AddressVerified",
           "package": "yesod-auth",
@@ -1885,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "AddressVerified",
           "package": "yesod-auth",
@@ -1898,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "BadSetPass",
           "package": "yesod-auth",
@@ -1907,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "BadSetPass",
           "package": "yesod-auth",
@@ -1920,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "ConfirmPass",
           "package": "yesod-auth",
@@ -1929,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "ConfirmPass",
           "package": "yesod-auth",
@@ -1942,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "ConfirmationEmailSent",
           "package": "yesod-auth",
@@ -1951,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "ConfirmationEmailSent",
           "package": "yesod-auth",
@@ -1964,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "ConfirmationEmailSentTitle",
           "package": "yesod-auth",
@@ -1973,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "ConfirmationEmailSentTitle",
           "package": "yesod-auth",
@@ -1986,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "Email",
           "package": "yesod-auth",
@@ -1995,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "Email",
           "package": "yesod-auth",
@@ -2008,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "EnterEmail",
           "package": "yesod-auth",
@@ -2017,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "EnterEmail",
           "package": "yesod-auth",
@@ -2030,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "Facebook",
           "package": "yesod-auth",
@@ -2039,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "Facebook",
           "package": "yesod-auth",
@@ -2052,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "IdentifierNotFound",
           "package": "yesod-auth",
@@ -2061,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "IdentifierNotFound",
           "package": "yesod-auth",
@@ -2074,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "InvalidEmailAddress",
           "package": "yesod-auth",
@@ -2083,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "InvalidEmailAddress",
           "package": "yesod-auth",
@@ -2096,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "InvalidEmailPass",
           "package": "yesod-auth",
@@ -2105,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "InvalidEmailPass",
           "package": "yesod-auth",
@@ -2118,6 +2298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "InvalidKey",
           "package": "yesod-auth",
@@ -2127,6 +2308,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "InvalidKey",
           "package": "yesod-auth",
@@ -2140,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "InvalidKeyTitle",
           "package": "yesod-auth",
@@ -2149,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "InvalidKeyTitle",
           "package": "yesod-auth",
@@ -2162,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "InvalidLogin",
           "package": "yesod-auth",
@@ -2171,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "InvalidLogin",
           "package": "yesod-auth",
@@ -2184,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "InvalidUsernamePass",
           "package": "yesod-auth",
@@ -2193,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "InvalidUsernamePass",
           "package": "yesod-auth",
@@ -2206,6 +2394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "LoginGoogle",
           "package": "yesod-auth",
@@ -2215,6 +2404,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "LoginGoogle",
           "package": "yesod-auth",
@@ -2228,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "LoginOpenID",
           "package": "yesod-auth",
@@ -2237,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "LoginOpenID",
           "package": "yesod-auth",
@@ -2250,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "LoginTitle",
           "package": "yesod-auth",
@@ -2259,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "LoginTitle",
           "package": "yesod-auth",
@@ -2272,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "LoginViaEmail",
           "package": "yesod-auth",
@@ -2281,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "LoginViaEmail",
           "package": "yesod-auth",
@@ -2294,6 +2490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "LoginYahoo",
           "package": "yesod-auth",
@@ -2303,6 +2500,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "LoginYahoo",
           "package": "yesod-auth",
@@ -2316,6 +2514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "NewPass",
           "package": "yesod-auth",
@@ -2325,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "NewPass",
           "package": "yesod-auth",
@@ -2338,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "NoIdentifierProvided",
           "package": "yesod-auth",
@@ -2347,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "NoIdentifierProvided",
           "package": "yesod-auth",
@@ -2360,6 +2562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "NoOpenID",
           "package": "yesod-auth",
@@ -2369,6 +2572,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "NoOpenID",
           "package": "yesod-auth",
@@ -2382,6 +2586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "NowLoggedIn",
           "package": "yesod-auth",
@@ -2391,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "NowLoggedIn",
           "package": "yesod-auth",
@@ -2404,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "PassMismatch",
           "package": "yesod-auth",
@@ -2413,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "PassMismatch",
           "package": "yesod-auth",
@@ -2426,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "PassUpdated",
           "package": "yesod-auth",
@@ -2435,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "PassUpdated",
           "package": "yesod-auth",
@@ -2448,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "Password",
           "package": "yesod-auth",
@@ -2457,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "Password",
           "package": "yesod-auth",
@@ -2470,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "PasswordResetPrompt",
           "package": "yesod-auth",
@@ -2479,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "PasswordResetPrompt",
           "package": "yesod-auth",
@@ -2492,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "PasswordResetTitle",
           "package": "yesod-auth",
@@ -2501,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "PasswordResetTitle",
           "package": "yesod-auth",
@@ -2514,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "PleaseProvidePassword",
           "package": "yesod-auth",
@@ -2523,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "PleaseProvidePassword",
           "package": "yesod-auth",
@@ -2536,6 +2754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "PleaseProvideUsername",
           "package": "yesod-auth",
@@ -2545,6 +2764,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "PleaseProvideUsername",
           "package": "yesod-auth",
@@ -2558,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "ProvideIdentifier",
           "package": "yesod-auth",
@@ -2567,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "ProvideIdentifier",
           "package": "yesod-auth",
@@ -2580,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "Register",
           "package": "yesod-auth",
@@ -2589,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "Register",
           "package": "yesod-auth",
@@ -2602,6 +2826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "RegisterLong",
           "package": "yesod-auth",
@@ -2611,6 +2836,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "RegisterLong",
           "package": "yesod-auth",
@@ -2624,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "SendPasswordResetEmail",
           "package": "yesod-auth",
@@ -2633,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "SendPasswordResetEmail",
           "package": "yesod-auth",
@@ -2646,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "SetPass",
           "package": "yesod-auth",
@@ -2655,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "SetPass",
           "package": "yesod-auth",
@@ -2668,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "SetPassTitle",
           "package": "yesod-auth",
@@ -2677,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "SetPassTitle",
           "package": "yesod-auth",
@@ -2690,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "chineseMessage",
           "package": "yesod-auth",
@@ -2699,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "chineseMessage",
           "normalized": "AuthMessage-\u003eText",
@@ -2714,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "czechMessage",
           "package": "yesod-auth",
@@ -2723,6 +2958,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "czechMessage",
           "normalized": "AuthMessage-\u003eText",
@@ -2739,6 +2975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to \u003ccode\u003e\u003ca\u003eenglishMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "defaultMessage",
           "package": "yesod-auth",
@@ -2749,6 +2986,7 @@
         "index": {
           "description": "Defaults to englishMessage",
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "defaultMessage",
           "normalized": "AuthMessage-\u003eText",
@@ -2764,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "englishMessage",
           "package": "yesod-auth",
@@ -2773,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "englishMessage",
           "normalized": "AuthMessage-\u003eText",
@@ -2788,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "finnishMessage",
           "package": "yesod-auth",
@@ -2797,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "finnishMessage",
           "normalized": "AuthMessage-\u003eText",
@@ -2812,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "frenchMessage",
           "package": "yesod-auth",
@@ -2821,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "frenchMessage",
           "normalized": "AuthMessage-\u003eText",
@@ -2836,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "germanMessage",
           "package": "yesod-auth",
@@ -2845,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "germanMessage",
           "normalized": "AuthMessage-\u003eText",
@@ -2860,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "japaneseMessage",
           "package": "yesod-auth",
@@ -2869,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "japaneseMessage",
           "normalized": "AuthMessage-\u003eText",
@@ -2884,6 +3132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "norwegianBokmålMessage",
           "package": "yesod-auth",
@@ -2893,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "norwegianBokmålMessage",
           "normalized": "AuthMessage-\u003eText",
@@ -2908,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "portugueseMessage",
           "package": "yesod-auth",
@@ -2917,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "portugueseMessage",
           "normalized": "AuthMessage-\u003eText",
@@ -2932,6 +3184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "spanishMessage",
           "package": "yesod-auth",
@@ -2941,6 +3194,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "spanishMessage",
           "normalized": "AuthMessage-\u003eText",
@@ -2956,6 +3210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Message",
           "name": "swedishMessage",
           "package": "yesod-auth",
@@ -2965,6 +3220,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Message",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Message",
           "name": "swedishMessage",
           "normalized": "AuthMessage-\u003eText",
@@ -2980,6 +3236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.OpenId",
           "name": "OpenId",
           "package": "yesod-auth",
@@ -2988,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth OpenId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.OpenId",
           "name": "OpenId",
           "package": "yesod-auth",
@@ -3001,6 +3259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.OpenId",
           "name": "IdentifierType",
           "package": "yesod-auth",
@@ -3009,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth OpenId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.OpenId",
           "name": "IdentifierType",
           "package": "yesod-auth",
@@ -3022,6 +3282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.OpenId",
           "name": "Claimed",
           "package": "yesod-auth",
@@ -3031,6 +3292,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth OpenId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.OpenId",
           "name": "Claimed",
           "package": "yesod-auth",
@@ -3044,6 +3306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.OpenId",
           "name": "OPLocal",
           "package": "yesod-auth",
@@ -3053,6 +3316,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth OpenId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.OpenId",
           "name": "OPLocal",
           "package": "yesod-auth",
@@ -3066,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.OpenId",
           "name": "authOpenId",
           "package": "yesod-auth",
@@ -3074,6 +3339,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth OpenId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.OpenId",
           "name": "authOpenId",
           "normalized": "IdentifierType-\u003e[(Text,Text)]-\u003eAuthPlugin a",
@@ -3090,6 +3356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main identifier provided by the OpenID authentication plugin is the\n \"OP-local identifier\". There is also sometimes a \"claimed\" identifier\n available.\n\u003c/p\u003e\u003cp\u003eIn the \u003ccode\u003e\u003ca\u003ecredsExtra\u003c/a\u003e\u003c/code\u003e field of the \u003ccode\u003e\u003ca\u003eCreds\u003c/a\u003e\u003c/code\u003e datatype, you can lookup this key\n to find the claimed identifier, if available.\n\u003c/p\u003e\u003cpre\u003e let finalID = fromMaybe (credsIdent creds)\n             $ lookup claimedKey (credsExtra creds)\n\u003c/pre\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.OpenId",
           "name": "claimedKey",
           "package": "yesod-auth",
@@ -3100,6 +3367,7 @@
         "index": {
           "description": "The main identifier provided by the OpenID authentication plugin is the OP-local identifier There is also sometimes claimed identifier available In the credsExtra field of the Creds datatype you can lookup this key to find the claimed identifier if available let finalID fromMaybe credsIdent creds lookup claimedKey credsExtra creds Since",
           "hierarchy": "Yesod Auth OpenId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.OpenId",
           "name": "claimedKey",
           "package": "yesod-auth",
@@ -3114,6 +3382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA helper function which will get the claimed identifier, if available, falling back to the OP local identifier.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eclaimedKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.OpenId",
           "name": "credsIdentClaimed",
           "package": "yesod-auth",
@@ -3124,6 +3393,7 @@
         "index": {
           "description": "helper function which will get the claimed identifier if available falling back to the OP local identifier See claimedKey Since",
           "hierarchy": "Yesod Auth OpenId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.OpenId",
           "name": "credsIdentClaimed",
           "normalized": "Creds a-\u003eText",
@@ -3139,6 +3409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.OpenId",
           "name": "forwardUrl",
           "package": "yesod-auth",
@@ -3148,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth OpenId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.OpenId",
           "name": "forwardUrl",
           "package": "yesod-auth",
@@ -3161,6 +3433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.OpenId",
           "name": "opLocalKey",
           "package": "yesod-auth",
@@ -3170,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth OpenId",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.OpenId",
           "name": "opLocalKey",
           "package": "yesod-auth",
@@ -3183,6 +3457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Rpxnow",
           "name": "Rpxnow",
           "package": "yesod-auth",
@@ -3191,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Rpxnow",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Rpxnow",
           "name": "Rpxnow",
           "package": "yesod-auth",
@@ -3204,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth.Rpxnow",
           "name": "authRpxnow",
           "package": "yesod-auth",
@@ -3212,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth Rpxnow",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth.Rpxnow",
           "name": "authRpxnow",
           "normalized": "String-\u003eString-\u003eAuthPlugin a",
@@ -3227,6 +3505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "Auth",
           "package": "yesod-auth",
@@ -3235,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "Auth",
           "package": "yesod-auth",
@@ -3248,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "Auth",
           "package": "yesod-auth",
@@ -3256,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "Auth",
           "package": "yesod-auth",
@@ -3270,6 +3552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the \u003ccode\u003eAuthId\u003c/code\u003e for a given site is a persistent ID, this will give the\n value for that entity. E.g.:\n\u003c/p\u003e\u003cpre\u003e type AuthId MySite = UserId\n AuthEntity MySite ~ User\n\u003c/pre\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "AuthEntity",
           "package": "yesod-auth",
@@ -3279,6 +3562,7 @@
         "index": {
           "description": "If the AuthId for given site is persistent ID this will give the value for that entity E.g type AuthId MySite UserId AuthEntity MySite User Since",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "AuthEntity",
           "package": "yesod-auth",
@@ -3292,6 +3576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "AuthException",
           "package": "yesod-auth",
@@ -3300,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "AuthException",
           "package": "yesod-auth",
@@ -3313,6 +3599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "AuthHandler",
           "package": "yesod-auth",
@@ -3321,6 +3608,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "AuthHandler",
           "package": "yesod-auth",
@@ -3334,6 +3622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "AuthPlugin",
           "package": "yesod-auth",
@@ -3342,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "AuthPlugin",
           "package": "yesod-auth",
@@ -3355,6 +3645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "AuthRoute",
           "package": "yesod-auth",
@@ -3363,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "AuthRoute",
           "package": "yesod-auth",
@@ -3377,6 +3669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser credentials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "Creds",
           "package": "yesod-auth",
@@ -3386,6 +3679,7 @@
         "index": {
           "description": "User credentials",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "Creds",
           "package": "yesod-auth",
@@ -3400,6 +3694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type-safe URLs associated with a site argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "Route",
           "package": "yesod-auth",
@@ -3409,6 +3704,7 @@
         "index": {
           "description": "The type-safe URLs associated with site argument",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "Route",
           "package": "yesod-auth",
@@ -3422,6 +3718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "YesodAuth",
           "package": "yesod-auth",
@@ -3430,6 +3727,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "YesodAuth",
           "package": "yesod-auth",
@@ -3444,6 +3742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstraint which states that the given site is an instance of \u003ccode\u003eYesodAuth\u003c/code\u003e\n and that its \u003ccode\u003eAuthId\u003c/code\u003e is in fact a persistent \u003ccode\u003eKey\u003c/code\u003e for the given value.\n This is the common case in Yesod, and means that you can easily look up the\n full informatin on a given user.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "YesodAuthPersist",
           "package": "yesod-auth",
@@ -3453,6 +3752,7 @@
         "index": {
           "description": "Constraint which states that the given site is an instance of YesodAuth and that its AuthId is in fact persistent Key for the given value This is the common case in Yesod and means that you can easily look up the full informatin on given user Since",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "YesodAuthPersist",
           "package": "yesod-auth",
@@ -3466,6 +3766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "AuthPlugin",
           "package": "yesod-auth",
@@ -3475,6 +3776,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "AuthPlugin",
           "package": "yesod-auth",
@@ -3488,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "Creds",
           "package": "yesod-auth",
@@ -3497,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "Creds",
           "package": "yesod-auth",
@@ -3510,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "InvalidFacebookResponse",
           "package": "yesod-auth",
@@ -3519,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "InvalidFacebookResponse",
           "package": "yesod-auth",
@@ -3532,6 +3838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "apDispatch",
           "package": "yesod-auth",
@@ -3541,6 +3848,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "apDispatch",
           "normalized": "Method-\u003e[Piece]-\u003eAuthHandler a()",
@@ -3556,6 +3864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "apLogin",
           "package": "yesod-auth",
@@ -3565,6 +3874,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "apLogin",
           "normalized": "(Route Auth-\u003eRoute a)-\u003eWidgetT a IO()",
@@ -3580,6 +3890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "apName",
           "package": "yesod-auth",
@@ -3589,6 +3900,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "apName",
           "package": "yesod-auth",
@@ -3603,6 +3915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an HTTP connection manager that is stored in the foundation\n type. This allows backends to reuse persistent connections. If none of\n the backends you're using use HTTP connections, you can safely return\n \u003ccode\u003eerror \"authHttpManager\"\u003c/code\u003e here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "authHttpManager",
           "package": "yesod-auth",
@@ -3613,6 +3926,7 @@
         "index": {
           "description": "Return an HTTP connection manager that is stored in the foundation type This allows backends to reuse persistent connections If none of the backends you re using use HTTP connections you can safely return error authHttpManager here",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "authHttpManager",
           "normalized": "a-\u003eManager",
@@ -3629,6 +3943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003especify the layout. Uses defaultLayout by default\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "authLayout",
           "package": "yesod-auth",
@@ -3639,6 +3954,7 @@
         "index": {
           "description": "specify the layout Uses defaultLayout by default",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "authLayout",
           "normalized": "WidgetT a IO()-\u003eHandlerT a IO Html",
@@ -3655,6 +3971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich authentication backends to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "authPlugins",
           "package": "yesod-auth",
@@ -3665,6 +3982,7 @@
         "index": {
           "description": "Which authentication backends to use",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "authPlugins",
           "normalized": "a-\u003e[AuthPlugin a]",
@@ -3681,6 +3999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClears current user credentials for the session.\n\u003c/p\u003e\u003cp\u003eSince 1.1.7\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "clearCreds",
           "package": "yesod-auth",
@@ -3690,6 +4009,7 @@
         "index": {
           "description": "Clears current user credentials for the session Since",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "clearCreds",
           "normalized": "Bool-\u003eHandlerT a IO()",
@@ -3705,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "credsExtra",
           "package": "yesod-auth",
@@ -3714,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "credsExtra",
           "normalized": "[(Text,Text)]",
@@ -3730,6 +4052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifier. Exact meaning depends on plugin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "credsIdent",
           "package": "yesod-auth",
@@ -3740,6 +4063,7 @@
         "index": {
           "description": "Identifier Exact meaning depends on plugin",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "credsIdent",
           "package": "yesod-auth",
@@ -3754,6 +4078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal session key used to hold the authentication information.\n\u003c/p\u003e\u003cp\u003eSince 1.2.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "credsKey",
           "package": "yesod-auth",
@@ -3764,6 +4089,7 @@
         "index": {
           "description": "Internal session key used to hold the authentication information Since",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "credsKey",
           "package": "yesod-auth",
@@ -3778,6 +4104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow the user was authenticated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "credsPlugin",
           "package": "yesod-auth",
@@ -3788,6 +4115,7 @@
         "index": {
           "description": "How the user was authenticated",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "credsPlugin",
           "package": "yesod-auth",
@@ -3802,6 +4130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves user credentials from the session, if user is authenticated.\n\u003c/p\u003e\u003cp\u003eThis function does \u003cem\u003enot\u003c/em\u003e confirm that the credentials are valid, see\n \u003ccode\u003emaybeAuthIdRaw\u003c/code\u003e for more information.\n\u003c/p\u003e\u003cp\u003eSince 1.1.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "defaultMaybeAuthId",
           "package": "yesod-auth",
@@ -3812,6 +4141,7 @@
         "index": {
           "description": "Retrieves user credentials from the session if user is authenticated This function does not confirm that the credentials are valid see maybeAuthIdRaw for more information Since",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "defaultMaybeAuthId",
           "package": "yesod-auth",
@@ -3825,6 +4155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "getAuth",
           "package": "yesod-auth",
@@ -3834,6 +4165,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "getAuth",
           "normalized": "a-\u003eAuth",
@@ -3850,6 +4182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the ID associated with the set of credentials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "getAuthId",
           "package": "yesod-auth",
@@ -3860,6 +4193,7 @@
         "index": {
           "description": "Determine the ID associated with the set of credentials",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "getAuthId",
           "normalized": "Creds a-\u003eHandlerT a IO(Maybe(AuthId a))",
@@ -3876,6 +4210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault destination on successful login, if no other\n destination exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "loginDest",
           "package": "yesod-auth",
@@ -3886,6 +4221,7 @@
         "index": {
           "description": "Default destination on successful login if no other destination exists",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "loginDest",
           "normalized": "a-\u003eRoute a",
@@ -3902,6 +4238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor HTML, set the message and redirect to the route.\n For JSON, send the message and a 401 status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "loginErrorMessage",
           "package": "yesod-auth",
@@ -3912,6 +4249,7 @@
         "index": {
           "description": "For HTML set the message and redirect to the route For JSON send the message and status",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "loginErrorMessage",
           "normalized": "Route a-\u003eText-\u003eHandlerT a b c",
@@ -3927,6 +4265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "loginErrorMessageI",
           "package": "yesod-auth",
@@ -3936,6 +4275,7 @@
         },
         "index": {
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "loginErrorMessageI",
           "normalized": "Route a-\u003eAuthMessage-\u003eHandlerT a(HandlerT b c)d",
@@ -3952,6 +4292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to show on the login page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "loginHandler",
           "package": "yesod-auth",
@@ -3962,6 +4303,7 @@
         "index": {
           "description": "What to show on the login page",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "loginHandler",
           "package": "yesod-auth",
@@ -3976,6 +4318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault destination on successful logout, if no other\n destination exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "logoutDest",
           "package": "yesod-auth",
@@ -3986,6 +4329,7 @@
         "index": {
           "description": "Default destination on successful logout if no other destination exists",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "logoutDest",
           "normalized": "a-\u003eRoute a",
@@ -4002,6 +4346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003emaybeAuthId\u003c/a\u003e\u003c/code\u003e, but additionally look up the value associated\n with the user's database identifier to get the value in the database. This\n assumes that you are using a Persistent database.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "maybeAuth",
           "package": "yesod-auth",
@@ -4012,6 +4357,7 @@
         "index": {
           "description": "Similar to maybeAuthId but additionally look up the value associated with the user database identifier to get the value in the database This assumes that you are using Persistent database Since",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "maybeAuth",
           "package": "yesod-auth",
@@ -4026,6 +4372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves user credentials, if user is authenticated.\n\u003c/p\u003e\u003cp\u003eBy default, this calls \u003ccode\u003e\u003ca\u003edefaultMaybeAuthId\u003c/a\u003e\u003c/code\u003e to get the user ID from the\n session. This can be overridden to allow authentication via other means,\n such as checking for a special token in a request header. This is\n especially useful for creating an API to be accessed via some means\n other than a browser.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "maybeAuthId",
           "package": "yesod-auth",
@@ -4036,6 +4383,7 @@
         "index": {
           "description": "Retrieves user credentials if user is authenticated By default this calls defaultMaybeAuthId to get the user ID from the session This can be overridden to allow authentication via other means such as checking for special token in request header This is especially useful for creating an API to be accessed via some means other than browser Since",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "maybeAuthId",
           "package": "yesod-auth",
@@ -4050,6 +4398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled on login error for HTTP requests. By default, calls\n \u003ccode\u003esetMessage\u003c/code\u003e and redirects to \u003ccode\u003edest\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "onErrorHtml",
           "package": "yesod-auth",
@@ -4060,6 +4409,7 @@
         "index": {
           "description": "Called on login error for HTTP requests By default calls setMessage and redirects to dest",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "onErrorHtml",
           "normalized": "Route a-\u003eText-\u003eHandlerT a b Html",
@@ -4076,6 +4426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled on a successful login. By default, calls\n \u003ccode\u003esetMessageI NowLoggedIn\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "onLogin",
           "package": "yesod-auth",
@@ -4086,6 +4437,7 @@
         "index": {
           "description": "Called on successful login By default calls setMessageI NowLoggedIn",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "onLogin",
           "normalized": "HandlerT a IO()",
@@ -4102,6 +4454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled on logout. By default, does nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "onLogout",
           "package": "yesod-auth",
@@ -4112,6 +4465,7 @@
         "index": {
           "description": "Called on logout By default does nothing",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "onLogout",
           "normalized": "HandlerT a IO()",
@@ -4128,6 +4482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAfter login and logout, redirect to the referring page, instead of\n \u003ccode\u003e\u003ca\u003eloginDest\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elogoutDest\u003c/a\u003e\u003c/code\u003e. Default is \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "redirectToReferer",
           "package": "yesod-auth",
@@ -4138,6 +4493,7 @@
         "index": {
           "description": "After login and logout redirect to the referring page instead of loginDest and logoutDest Default is False",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "redirectToReferer",
           "normalized": "a-\u003eBool",
@@ -4154,6 +4510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for i18n of messages provided by this package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "renderAuthMessage",
           "package": "yesod-auth",
@@ -4164,6 +4521,7 @@
         "index": {
           "description": "Used for i18n of messages provided by this package",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "renderAuthMessage",
           "package": "yesod-auth",
@@ -4178,6 +4536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003emaybeAuth\u003c/a\u003e\u003c/code\u003e, but redirects to a login page if user is not\n authenticated.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "requireAuth",
           "package": "yesod-auth",
@@ -4188,6 +4547,7 @@
         "index": {
           "description": "Similar to maybeAuth but redirects to login page if user is not authenticated Since",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "requireAuth",
           "package": "yesod-auth",
@@ -4202,6 +4562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003emaybeAuthId\u003c/a\u003e\u003c/code\u003e, but redirects to a login page if user is not\n authenticated.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "requireAuthId",
           "package": "yesod-auth",
@@ -4212,6 +4573,7 @@
         "index": {
           "description": "Similar to maybeAuthId but redirects to login page if user is not authenticated Since",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "requireAuthId",
           "package": "yesod-auth",
@@ -4226,6 +4588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets user credentials for the session after checking them with authentication backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:01 UTC 2014",
           "module": "Yesod.Auth",
           "name": "setCreds",
           "package": "yesod-auth",
@@ -4235,6 +4598,7 @@
         "index": {
           "description": "Sets user credentials for the session after checking them with authentication backends",
           "hierarchy": "Yesod Auth",
+          "indexed": "2014-03-11T20:45:01",
           "module": "Yesod.Auth",
           "name": "setCreds",
           "normalized": "Bool-\u003eCreds a-\u003eHandlerT a IO()",

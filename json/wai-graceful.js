@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-graceful"
+        "phrase": "wai-graceful",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cpre\u003e app req = do\n     liftIO $ somethingImportant -- like threadDelay 100000000\n     LBSResponse status200 [(\"Content-Type\", \"text/plain\")] \"Finished!\"\n\n main = do\n     gs \u003c- initGraceful\n\n     forkIO $ run 8000 (graceful gs app)\n\n     waitForTermination \u003e\u003e gracefulShutdown 15 gs\n     putStrLn \"Bye!\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:36:04 UTC 2014",
           "module": "Network.Wai.Graceful",
           "name": "Graceful",
           "package": "wai-graceful",
@@ -28,6 +29,7 @@
         "index": {
           "description": "app req do liftIO somethingImportant like threadDelay LBSResponse status200 Content-Type text plain Finished main do gs initGraceful forkIO run graceful gs app waitForTermination gracefulShutdown gs putStrLn Bye",
           "hierarchy": "Network Wai Graceful",
+          "indexed": "2014-03-11T20:36:04",
           "module": "Network.Wai.Graceful",
           "name": "Graceful",
           "package": "wai-graceful",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:04 UTC 2014",
           "module": "Network.Wai.Graceful",
           "name": "Graceful",
           "package": "wai-graceful",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Graceful",
+          "indexed": "2014-03-11T20:36:04",
           "module": "Network.Wai.Graceful",
           "name": "Graceful",
           "package": "wai-graceful",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:04 UTC 2014",
           "module": "Network.Wai.Graceful",
           "name": "Graceful",
           "package": "wai-graceful",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Graceful",
+          "indexed": "2014-03-11T20:36:04",
           "module": "Network.Wai.Graceful",
           "name": "Graceful",
           "package": "wai-graceful",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:04 UTC 2014",
           "module": "Network.Wai.Graceful",
           "name": "activeConnections",
           "package": "wai-graceful",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Graceful",
+          "indexed": "2014-03-11T20:36:04",
           "module": "Network.Wai.Graceful",
           "name": "activeConnections",
           "package": "wai-graceful",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWAI Middleware that keeps track of active connections\n   and blocks further requests with HTTP503.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:04 UTC 2014",
           "module": "Network.Wai.Graceful",
           "name": "graceful",
           "package": "wai-graceful",
@@ -117,6 +126,7 @@
         "index": {
           "description": "WAI Middleware that keeps track of active connections and blocks further requests with HTTP503",
           "hierarchy": "Network Wai Graceful",
+          "indexed": "2014-03-11T20:36:04",
           "module": "Network.Wai.Graceful",
           "name": "graceful",
           "normalized": "Graceful-\u003eApplication-\u003eApplication",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrigger shutdown and monitor progress.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:04 UTC 2014",
           "module": "Network.Wai.Graceful",
           "name": "gracefulShutdown",
           "package": "wai-graceful",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Trigger shutdown and monitor progress",
           "hierarchy": "Network Wai Graceful",
+          "indexed": "2014-03-11T20:36:04",
           "module": "Network.Wai.Graceful",
           "name": "gracefulShutdown",
           "normalized": "Int-\u003eGraceful-\u003eIO()",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:04 UTC 2014",
           "module": "Network.Wai.Graceful",
           "name": "initGraceful",
           "package": "wai-graceful",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Graceful",
+          "indexed": "2014-03-11T20:36:04",
           "module": "Network.Wai.Graceful",
           "name": "initGraceful",
           "package": "wai-graceful",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:04 UTC 2014",
           "module": "Network.Wai.Graceful",
           "name": "shutdownTrigger",
           "package": "wai-graceful",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Graceful",
+          "indexed": "2014-03-11T20:36:04",
           "module": "Network.Wai.Graceful",
           "name": "shutdownTrigger",
           "package": "wai-graceful",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for TERM signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:04 UTC 2014",
           "module": "Network.Wai.Graceful",
           "name": "waitForTermination",
           "package": "wai-graceful",
@@ -211,6 +228,7 @@
         "index": {
           "description": "Wait for TERM signal",
           "hierarchy": "Network Wai Graceful",
+          "indexed": "2014-03-11T20:36:04",
           "module": "Network.Wai.Graceful",
           "name": "waitForTermination",
           "normalized": "IO()",

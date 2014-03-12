@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "texts"
+        "phrase": "texts",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEnglish-focused text operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.English",
           "name": "English",
           "package": "texts",
@@ -28,6 +29,7 @@
         "index": {
           "description": "English-focused text operations",
           "hierarchy": "Texts English",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.English",
           "name": "English",
           "package": "texts",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an integral number, give it a vague English description\n which makes it seem better than it is. Examples: \u003c3 -\u003e a couple,\n \u003c1000 -\u003e hundreds, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.English",
           "name": "bigUp",
           "package": "texts",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Given an integral number give it vague English description which makes it seem better than it is Examples couple hundreds etc",
           "hierarchy": "Texts English",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.English",
           "name": "bigUp",
           "normalized": "a-\u003eSText",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimit the length of the string and ellipsize it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.English",
           "name": "ellipsize",
           "package": "texts",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Limit the length of the string and ellipsize it",
           "hierarchy": "Texts English",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.English",
           "name": "ellipsize",
           "normalized": "Int-\u003eSText-\u003eSText",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe indefinite article to be used before a word, e.g. \"An\"\n elephant, \"a\" car, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.English",
           "name": "indefinite",
           "package": "texts",
@@ -103,6 +110,7 @@
         "index": {
           "description": "The indefinite article to be used before word e.g An elephant car etc",
           "hierarchy": "Texts English",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.English",
           "name": "indefinite",
           "normalized": "SText-\u003eSText",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a character a consonant?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.English",
           "name": "isConsonant",
           "package": "texts",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Is character consonant",
           "hierarchy": "Texts English",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.English",
           "name": "isConsonant",
           "normalized": "Char-\u003eBool",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a character a vowel?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.English",
           "name": "isVowel",
           "package": "texts",
@@ -154,6 +165,7 @@
         "index": {
           "description": "Is character vowel",
           "hierarchy": "Texts English",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.English",
           "name": "isVowel",
           "normalized": "Char-\u003eBool",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a suffix to an integral, e.g. 1st, 2nd, 3rd, 21st.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.English",
           "name": "ordSuffix",
           "package": "texts",
@@ -180,6 +193,7 @@
         "index": {
           "description": "Add suffix to an integral e.g st nd rd st",
           "hierarchy": "Texts English",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.English",
           "name": "ordSuffix",
           "normalized": "a-\u003eSText",
@@ -196,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a time span as one time relative to another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.English",
           "name": "relativeTimes",
           "package": "texts",
@@ -205,6 +220,7 @@
         "index": {
           "description": "Display time span as one time relative to another",
           "hierarchy": "Texts English",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.English",
           "name": "relativeTimes",
           "normalized": "UTCTime-\u003eUTCTime-\u003eBool-\u003eSText",
@@ -221,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHandy data types for strict and lazy texts, with conversion\n functions to/from each.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.Types",
           "name": "Types",
           "package": "texts",
@@ -230,6 +247,7 @@
         "index": {
           "description": "Handy data types for strict and lazy texts with conversion functions to from each",
           "hierarchy": "Texts Types",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.Types",
           "name": "Types",
           "package": "texts",
@@ -244,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for converting from Text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.Types",
           "name": "FromText",
           "package": "texts",
@@ -253,6 +272,7 @@
         "index": {
           "description": "class for converting from Text",
           "hierarchy": "Texts Types",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.Types",
           "name": "FromText",
           "package": "texts",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazy text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.Types",
           "name": "LText",
           "package": "texts",
@@ -276,6 +297,7 @@
         "index": {
           "description": "Lazy text",
           "hierarchy": "Texts Types",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.Types",
           "name": "LText",
           "package": "texts",
@@ -290,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.Types",
           "name": "SText",
           "package": "texts",
@@ -299,6 +322,7 @@
         "index": {
           "description": "Strict text",
           "hierarchy": "Texts Types",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.Types",
           "name": "SText",
           "package": "texts",
@@ -313,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for converting to Text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.Types",
           "name": "ToText",
           "package": "texts",
@@ -322,6 +347,7 @@
         "index": {
           "description": "class for converting to Text",
           "hierarchy": "Texts Types",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.Types",
           "name": "ToText",
           "package": "texts",
@@ -335,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.Types",
           "name": "fromLazyText",
           "package": "texts",
@@ -344,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Texts Types",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.Types",
           "name": "fromLazyText",
           "normalized": "LText-\u003eMaybe a",
@@ -359,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.Types",
           "name": "fromText",
           "package": "texts",
@@ -368,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Texts Types",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.Types",
           "name": "fromText",
           "normalized": "SText-\u003eMaybe a",
@@ -383,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.Types",
           "name": "toLazyText",
           "package": "texts",
@@ -392,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Texts Types",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.Types",
           "name": "toLazyText",
           "normalized": "a-\u003eLText",
@@ -407,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.Types",
           "name": "toText",
           "package": "texts",
@@ -416,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Texts Types",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.Types",
           "name": "toText",
           "normalized": "a-\u003eSText",
@@ -432,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eText operations for web programming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.Web",
           "name": "Web",
           "package": "texts",
@@ -441,6 +476,7 @@
         "index": {
           "description": "Text operations for web programming",
           "hierarchy": "Texts Web",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.Web",
           "name": "Web",
           "package": "texts",
@@ -455,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplode a text into its constituent links.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts.Web",
           "name": "explodeLinks",
           "package": "texts",
@@ -465,6 +502,7 @@
         "index": {
           "description": "Explode text into its constituent links",
           "hierarchy": "Texts Web",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts.Web",
           "name": "explodeLinks",
           "normalized": "SText-\u003e[Either URI SText]",
@@ -481,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRe-exports operations for dealing with texts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:42 UTC 2014",
           "module": "Texts",
           "name": "Texts",
           "package": "texts",
@@ -490,6 +529,7 @@
         "index": {
           "description": "Re-exports operations for dealing with texts",
           "hierarchy": "Texts",
+          "indexed": "2014-03-11T20:20:42",
           "module": "Texts",
           "name": "Texts",
           "package": "texts",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mute-unmute"
+        "phrase": "mute-unmute",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "split"
+        "phrase": "split",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation module for \u003ca\u003eData.List.Split\u003c/a\u003e, a combinator library\n for splitting lists.  See the \u003ca\u003eData.List.Split\u003c/a\u003e documentation for\n more description and examples.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "Internals",
           "package": "split",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implementation module for Data.List.Split combinator library for splitting lists See the Data.List.Split documentation for more description and examples",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "Internals",
           "package": "split",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag chunks as delimiters or text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "Chunk",
           "package": "split",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Tag chunks as delimiters or text",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "Chunk",
           "package": "split",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to do with multiple consecutive delimiters?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "CondensePolicy",
           "package": "split",
@@ -74,6 +79,7 @@
         "index": {
           "description": "What to do with multiple consecutive delimiters",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "CondensePolicy",
           "package": "split",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to do with delimiters?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "DelimPolicy",
           "package": "split",
@@ -97,6 +104,7 @@
         "index": {
           "description": "What to do with delimiters",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "DelimPolicy",
           "package": "split",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA delimiter is a list of predicates on elements, matched by some\n   contiguous subsequence of a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "Delimiter",
           "package": "split",
@@ -120,6 +129,7 @@
         "index": {
           "description": "delimiter is list of predicates on elements matched by some contiguous subsequence of list",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "Delimiter",
           "package": "split",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to do with a blank chunk at either end of the list\n   (\u003cem\u003ei.e.\u003c/em\u003e when the list begins or ends with a delimiter).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "EndPolicy",
           "package": "split",
@@ -143,6 +154,7 @@
         "index": {
           "description": "What to do with blank chunk at either end of the list i.e when the list begins or ends with delimiter",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "EndPolicy",
           "package": "split",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal representation of a split list that tracks which pieces\n   are delimiters and which aren't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "SplitList",
           "package": "split",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Internal representation of split list that tracks which pieces are delimiters and which aren",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "SplitList",
           "package": "split",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA splitting strategy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "Splitter",
           "package": "split",
@@ -189,6 +204,7 @@
         "index": {
           "description": "splitting strategy",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "Splitter",
           "package": "split",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCondense into a single delimiter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "Condense",
           "package": "split",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Condense into single delimiter",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "Condense",
           "package": "split",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "Delim",
           "package": "split",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "Delim",
           "normalized": "Delim[a]",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "Delimiter",
           "package": "split",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "Delimiter",
           "normalized": "Delimiter[a-\u003eBool]",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop delimiters from the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "Drop",
           "package": "split",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Drop delimiters from the output",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "Drop",
           "package": "split",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "DropBlank",
           "package": "split",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "DropBlank",
           "package": "split",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep consecutive\n   delimiters separate, but\n   don't insert blank chunks in\n   between them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "DropBlankFields",
           "package": "split",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Keep consecutive delimiters separate but don insert blank chunks in between them",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "DropBlankFields",
           "package": "split",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep delimiters as separate chunks\n   of the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "Keep",
           "package": "split",
@@ -355,6 +384,7 @@
         "index": {
           "description": "Keep delimiters as separate chunks of the output",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "Keep",
           "package": "split",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "KeepBlank",
           "package": "split",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "KeepBlank",
           "package": "split",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert blank chunks\n   between consecutive\n   delimiters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "KeepBlankFields",
           "package": "split",
@@ -401,6 +434,7 @@
         "index": {
           "description": "Insert blank chunks between consecutive delimiters",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "KeepBlankFields",
           "package": "split",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep delimiters in the output,\n   prepending them to the following\n   chunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "KeepLeft",
           "package": "split",
@@ -425,6 +460,7 @@
         "index": {
           "description": "Keep delimiters in the output prepending them to the following chunk",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "KeepLeft",
           "package": "split",
@@ -439,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep delimiters in the output,\n   appending them to the previous chunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "KeepRight",
           "package": "split",
@@ -449,6 +486,7 @@
         "index": {
           "description": "Keep delimiters in the output appending them to the previous chunk",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "KeepRight",
           "package": "split",
@@ -462,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "Splitter",
           "package": "split",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "Splitter",
           "package": "split",
@@ -484,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "Text",
           "package": "split",
@@ -493,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "Text",
           "normalized": "Text[a]",
@@ -509,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard build function, specialized to building lists.\n\u003c/p\u003e\u003cp\u003eUsually build is given the rank-2 type\n\u003c/p\u003e\u003cpre\u003e build :: (forall b. (a -\u003e b -\u003e b) -\u003e b -\u003e b) -\u003e [a]\n\u003c/pre\u003e\u003cp\u003ebut since we only use it when \u003ccode\u003e(b ~ [a])\u003c/code\u003e, we give it the more\n   restricted type signature in order to avoid needing a\n   non-Haskell2010 extension.\n\u003c/p\u003e\u003cp\u003eNote that the 0.1.4.3 release of this package did away with a\n   custom \u003ccode\u003ebuild\u003c/code\u003e implementation in favor of importing one from\n   \u003ca\u003eGHC.Exts\u003c/a\u003e, which was (reportedly) faster for some applications.\n   However, in the interest of simplicity and complete Haskell2010\n   compliance as \u003ccode\u003esplit\u003c/code\u003e is being included in the Haskel Platform,\n   version 0.2.1.0 has gone back to defining \u003ccode\u003ebuild\u003c/code\u003e manually.  This\n   is in line with \u003ccode\u003esplit\u003c/code\u003e's design philosophy of having efficiency\n   as a non-goal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "build",
           "package": "split",
@@ -519,6 +562,7 @@
         "index": {
           "description": "Standard build function specialized to building lists Usually build is given the rank-2 type build forall but since we only use it when we give it the more restricted type signature in order to avoid needing non-Haskell2010 extension Note that the release of this package did away with custom build implementation in favor of importing one from GHC.Exts which was reportedly faster for some applications However in the interest of simplicity and complete Haskell2010 compliance as split is being included in the Haskel Platform version has gone back to defining build manually This is in line with split design philosophy of having efficiency as non-goal",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "build",
           "normalized": "((a-\u003e[a]-\u003e[a])-\u003e[a]-\u003e[a])-\u003e[a]",
@@ -613,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to do with multiple\n   consecutive delimiters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "condensePolicy",
           "package": "split",
@@ -623,6 +668,7 @@
         "index": {
           "description": "What to do with multiple consecutive delimiters",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "condensePolicy",
           "package": "split",
@@ -662,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to do with delimiters (drop\n   from output, keep as separate\n   elements in output, or merge with\n   previous or following chunks)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "delimPolicy",
           "package": "split",
@@ -672,6 +719,7 @@
         "index": {
           "description": "What to do with delimiters drop from output keep as separate elements in output or merge with previous or following chunks",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "delimPolicy",
           "package": "split",
@@ -686,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat delimiter to split on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "delimiter",
           "package": "split",
@@ -696,6 +745,7 @@
         "index": {
           "description": "What delimiter to split on",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "delimiter",
           "package": "split",
@@ -709,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCondense multiple consecutive delimiters into one if the\n   \u003ccode\u003e\u003ca\u003eCondensePolicy\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eCondense\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "doCondense",
           "package": "split",
@@ -719,6 +770,7 @@
         "index": {
           "description": "Condense multiple consecutive delimiters into one if the CondensePolicy is Condense",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "doCondense",
           "normalized": "CondensePolicy-\u003eSplitList a-\u003eSplitList a",
@@ -735,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop delimiters if the \u003ccode\u003e\u003ca\u003eDelimPolicy\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eDrop\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "doDrop",
           "package": "split",
@@ -745,6 +798,7 @@
         "index": {
           "description": "Drop delimiters if the DelimPolicy is Drop",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "doDrop",
           "normalized": "DelimPolicy-\u003eSplitList a-\u003eSplitList a",
@@ -761,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge delimiters into adjacent chunks according to the \u003ccode\u003e\u003ca\u003eDelimPolicy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "doMerge",
           "package": "split",
@@ -771,6 +826,7 @@
         "index": {
           "description": "Merge delimiters into adjacent chunks according to the DelimPolicy",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "doMerge",
           "normalized": "DelimPolicy-\u003eSplitList a-\u003eSplitList a",
@@ -841,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop a final blank chunk according to the given \u003ccode\u003e\u003ca\u003eEndPolicy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "dropFinal",
           "package": "split",
@@ -851,6 +908,7 @@
         "index": {
           "description": "Drop final blank chunk according to the given EndPolicy",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "dropFinal",
           "normalized": "EndPolicy-\u003eSplitList a-\u003eSplitList a",
@@ -921,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop an initial blank chunk according to the given \u003ccode\u003e\u003ca\u003eEndPolicy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "dropInitial",
           "package": "split",
@@ -931,6 +990,7 @@
         "index": {
           "description": "Drop an initial blank chunk according to the given EndPolicy",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "dropInitial",
           "normalized": "EndPolicy-\u003eSplitList a-\u003eSplitList a",
@@ -1082,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop a final blank?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "finalBlankPolicy",
           "package": "split",
@@ -1092,6 +1153,7 @@
         "index": {
           "description": "Drop final blank",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "finalBlankPolicy",
           "package": "split",
@@ -1106,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUntag a \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "fromElem",
           "package": "split",
@@ -1116,6 +1179,7 @@
         "index": {
           "description": "Untag Chunk",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "fromElem",
           "normalized": "Chunk a-\u003e[a]",
@@ -1132,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop an initial blank?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "initBlankPolicy",
           "package": "split",
@@ -1142,6 +1207,7 @@
         "index": {
           "description": "Drop an initial blank",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "initBlankPolicy",
           "package": "split",
@@ -1156,6 +1222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert blank chunks between any remaining consecutive delimiters\n   (unless the condense policy is \u003ccode\u003e\u003ca\u003eDropBlankFields\u003c/a\u003e\u003c/code\u003e), and at the\n   beginning or end if the first or last element is a delimiter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "insertBlanks",
           "package": "split",
@@ -1166,6 +1233,7 @@
         "index": {
           "description": "Insert blank chunks between any remaining consecutive delimiters unless the condense policy is DropBlankFields and at the beginning or end if the first or last element is delimiter",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "insertBlanks",
           "normalized": "CondensePolicy-\u003eSplitList a-\u003eSplitList a",
@@ -1182,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert blank chunks between consecutive delimiters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "insertBlanks'",
           "package": "split",
@@ -1192,6 +1261,7 @@
         "index": {
           "description": "Insert blank chunks between consecutive delimiters",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "insertBlanks'",
           "normalized": "CondensePolicy-\u003eSplitList a-\u003eSplitList a",
@@ -1208,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e is a delimiter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "isDelim",
           "package": "split",
@@ -1218,6 +1289,7 @@
         "index": {
           "description": "Test whether Chunk is delimiter",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "isDelim",
           "normalized": "Chunk a-\u003eBool",
@@ -1234,6 +1306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e is text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "isText",
           "package": "split",
@@ -1244,6 +1317,7 @@
         "index": {
           "description": "Test whether Chunk is text",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "isText",
           "normalized": "Chunk a-\u003eBool",
@@ -1341,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to match a delimiter at the start of a list, either failing\n   or decomposing the list into the portion which matched the delimiter\n   and the remainder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "matchDelim",
           "package": "split",
@@ -1351,6 +1426,7 @@
         "index": {
           "description": "Try to match delimiter at the start of list either failing or decomposing the list into the portion which matched the delimiter and the remainder",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "matchDelim",
           "normalized": "Delimiter a-\u003e[a]-\u003eMaybe([a],[a])",
@@ -1367,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge delimiters with adjacent chunks to the right (yes, that's\n   not a typo: the delimiters should end up on the left of the\n   chunks, so they are merged with chunks to their right).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "mergeLeft",
           "package": "split",
@@ -1377,6 +1454,7 @@
         "index": {
           "description": "Merge delimiters with adjacent chunks to the right yes that not typo the delimiters should end up on the left of the chunks so they are merged with chunks to their right",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "mergeLeft",
           "normalized": "SplitList a-\u003eSplitList a",
@@ -1393,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge delimiters with adjacent chunks to the left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "mergeRight",
           "package": "split",
@@ -1403,6 +1482,7 @@
         "index": {
           "description": "Merge delimiters with adjacent chunks to the left",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "mergeRight",
           "normalized": "SplitList a-\u003eSplitList a",
@@ -1473,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a split list in the internal tagged representation, produce\n   a new internal tagged representation corresponding to the final\n   output, according to the strategy defined by the given\n   \u003ccode\u003e\u003ca\u003eSplitter\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "postProcess",
           "package": "split",
@@ -1483,6 +1564,7 @@
         "index": {
           "description": "Given split list in the internal tagged representation produce new internal tagged representation corresponding to the final output according to the strategy defined by the given Splitter",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "postProcess",
           "normalized": "Splitter a-\u003eSplitList a-\u003eSplitList a",
@@ -1525,6 +1607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a delimiter to use, split a list into an internal\n   representation with chunks tagged as delimiters or text.  This\n   transformation is lossless; in particular,\n\u003c/p\u003e\u003cpre\u003e\n   \u003ccode\u003e\u003ca\u003econcatMap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efromElem\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003esplitInternal\u003c/a\u003e\u003c/code\u003e d l) == l.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split.Internals",
           "name": "splitInternal",
           "package": "split",
@@ -1535,6 +1618,7 @@
         "index": {
           "description": "Given delimiter to use split list into an internal representation with chunks tagged as delimiters or text This transformation is lossless in particular concatMap fromElem splitInternal",
           "hierarchy": "Data List Split Internals",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split.Internals",
           "name": "splitInternal",
           "normalized": "Delimiter a-\u003e[a]-\u003eSplitList a",
@@ -1794,6 +1878,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ca\u003eData.List.Split\u003c/a\u003e module contains a wide range of strategies\n for splitting lists with respect to some sort of delimiter, mostly\n implemented through a unified combinator interface.  The goal is to\n be flexible yet simple.  See below for usage, examples, and\n detailed documentation of all exported functions.  If you want to\n learn about the implementation, see \u003ca\u003eData.List.Split.Internals\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eA darcs repository containing the source (including a module with\n over 40 QuickCheck properties) can be found at\n \u003ca\u003ehttp://hub.darcs.net/byorgey/split\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split",
           "name": "Split",
           "package": "split",
@@ -1803,6 +1888,7 @@
         "index": {
           "description": "The Data.List.Split module contains wide range of strategies for splitting lists with respect to some sort of delimiter mostly implemented through unified combinator interface The goal is to be flexible yet simple See below for usage examples and detailed documentation of all exported functions If you want to learn about the implementation see Data.List.Split.Internals darcs repository containing the source including module with over QuickCheck properties can be found at http hub.darcs.net byorgey split",
           "hierarchy": "Data List Split",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split",
           "name": "Split",
           "package": "split",
@@ -1817,6 +1903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA splitting strategy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:34 UTC 2014",
           "module": "Data.List.Split",
           "name": "Splitter",
           "package": "split",
@@ -1826,6 +1913,7 @@
         "index": {
           "description": "splitting strategy",
           "hierarchy": "Data List Split",
+          "indexed": "2014-03-11T20:08:34",
           "module": "Data.List.Split",
           "name": "Splitter",
           "package": "split",

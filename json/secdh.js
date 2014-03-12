@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "secdh"
+        "phrase": "secdh",
+        "type": "phrase"
       },
       "type": "context"
     }

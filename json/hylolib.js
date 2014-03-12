@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hylolib"
+        "phrase": "hylolib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumMap",
           "name": "EnumMap",
           "package": "hylolib",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumMap",
           "name": "EnumMap",
           "package": "hylolib",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumMap",
           "name": "EnumMap",
           "package": "hylolib",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumMap",
           "name": "EnumMap",
           "package": "hylolib",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumMap",
           "name": "(!)",
           "package": "hylolib",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumMap",
           "name": "(!) !",
           "normalized": "EnumMap a b-\u003ea-\u003eb",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumMap",
           "name": "delete",
           "package": "hylolib",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumMap",
           "name": "delete",
           "normalized": "a-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumMap",
           "name": "elems",
           "package": "hylolib",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumMap",
           "name": "elems",
           "normalized": "EnumMap a b-\u003e[b]",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumMap",
           "name": "empty",
           "package": "hylolib",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumMap",
           "name": "empty",
           "package": "hylolib",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumMap",
           "name": "insert",
           "package": "hylolib",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumMap",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumMap",
           "name": "insertLookupWithKey",
           "package": "hylolib",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumMap",
           "name": "insertLookupWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003ea-\u003eb-\u003eEnumMap a b-\u003e(Maybe b,EnumMap a b)",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumMap",
           "name": "insertWith",
           "package": "hylolib",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumMap",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb-\u003ea-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumMap",
           "name": "lookup",
           "package": "hylolib",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumMap",
           "name": "lookup",
           "normalized": "a-\u003eEnumMap a b-\u003eMaybe b",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumMap",
           "name": "member",
           "package": "hylolib",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumMap",
           "name": "member",
           "normalized": "a-\u003eEnumMap a b-\u003eBool",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumMap",
           "name": "null",
           "package": "hylolib",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumMap",
           "name": "null",
           "normalized": "EnumMap a b-\u003eBool",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumMap",
           "name": "size",
           "package": "hylolib",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumMap",
           "name": "size",
           "normalized": "EnumMap a b-\u003eInt",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumMap",
           "name": "update",
           "package": "hylolib",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMap",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumMap",
           "name": "update",
           "normalized": "(a-\u003eMaybe a)-\u003eb-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumSet",
           "name": "EnumSet",
           "package": "hylolib",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumSet",
           "name": "EnumSet",
           "package": "hylolib",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumSet",
           "name": "EnumSet",
           "package": "hylolib",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumSet",
           "name": "EnumSet",
           "package": "hylolib",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumSet",
           "name": "delete",
           "package": "hylolib",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumSet",
           "name": "delete",
           "normalized": "a-\u003eEnumSet a-\u003eEnumSet a",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumSet",
           "name": "empty",
           "package": "hylolib",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumSet",
           "name": "empty",
           "package": "hylolib",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumSet",
           "name": "insert",
           "package": "hylolib",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumSet",
           "name": "insert",
           "normalized": "a-\u003eEnumSet a-\u003eEnumSet a",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumSet",
           "name": "intersection",
           "package": "hylolib",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumSet",
           "name": "intersection",
           "normalized": "EnumSet a-\u003eEnumSet a-\u003eEnumSet a",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumSet",
           "name": "null",
           "package": "hylolib",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumSet",
           "name": "null",
           "normalized": "EnumSet a-\u003eBool",
@@ -491,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumSet",
           "name": "singleton",
           "package": "hylolib",
@@ -500,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumSet",
           "name": "singleton",
           "normalized": "a-\u003eEnumSet a",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumSet",
           "name": "size",
           "package": "hylolib",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumSet",
           "name": "size",
           "normalized": "EnumSet a-\u003eInt",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumSet",
           "name": "toList",
           "package": "hylolib",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumSet",
           "name": "toList",
           "normalized": "EnumSet a-\u003e[a]",
@@ -561,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.EnumSet",
           "name": "union",
           "package": "hylolib",
@@ -570,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.EnumSet",
           "name": "union",
           "normalized": "EnumSet a-\u003eEnumSet a-\u003eEnumSet a",
@@ -584,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.Map.Arbitrary",
           "name": "Arbitrary",
           "package": "hylolib",
@@ -592,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Data Map Arbitrary",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.Map.Arbitrary",
           "name": "Arbitrary",
           "package": "hylolib",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "Data.Set.Arbitrary",
           "name": "Arbitrary",
           "package": "hylolib",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Data Set Arbitrary",
+          "indexed": "2014-03-11T18:55:09",
           "module": "Data.Set.Arbitrary",
           "name": "Arbitrary",
           "package": "hylolib",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula.Rewrite",
           "name": "Rewrite",
           "package": "hylolib",
@@ -634,6 +689,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula Rewrite",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula.Rewrite",
           "name": "Rewrite",
           "package": "hylolib",
@@ -647,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula.Rewrite",
           "name": "Rewr",
           "package": "hylolib",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula Rewrite",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula.Rewrite",
           "name": "Rewr",
           "package": "hylolib",
@@ -668,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula.Rewrite",
           "name": "Orig",
           "package": "hylolib",
@@ -677,6 +736,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula Rewrite",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula.Rewrite",
           "name": "Orig",
           "package": "hylolib",
@@ -690,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula.Rewrite",
           "name": "Rewr",
           "package": "hylolib",
@@ -699,6 +760,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula Rewrite",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula.Rewrite",
           "name": "Rewr",
           "package": "hylolib",
@@ -712,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula.Rewrite",
           "name": "pnf",
           "package": "hylolib",
@@ -721,6 +784,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula Rewrite",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula.Rewrite",
           "name": "pnf",
           "normalized": "[Formula a b c]-\u003e[Formula a(Rewr b)c]",
@@ -735,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula.Rewrite",
           "name": "simplify",
           "package": "hylolib",
@@ -744,6 +809,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula Rewrite",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula.Rewrite",
           "name": "simplify",
           "normalized": "Formula a b c-\u003eFormula a b c",
@@ -758,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula.Rewrite",
           "name": "unit_tests",
           "package": "hylolib",
@@ -767,6 +834,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula Rewrite",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula.Rewrite",
           "name": "unit_tests",
           "package": "hylolib",
@@ -779,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "Formula",
           "package": "hylolib",
@@ -787,6 +856,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "Formula",
           "package": "hylolib",
@@ -800,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "CountOp",
           "package": "hylolib",
@@ -808,6 +879,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "CountOp",
           "package": "hylolib",
@@ -821,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "Formula",
           "package": "hylolib",
@@ -829,6 +902,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "Formula",
           "package": "hylolib",
@@ -842,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "TestFormula",
           "package": "hylolib",
@@ -850,6 +925,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "TestFormula",
           "package": "hylolib",
@@ -863,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "Where",
           "package": "hylolib",
@@ -871,6 +948,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "Where",
           "package": "hylolib",
@@ -884,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": ":|:",
           "package": "hylolib",
@@ -893,6 +972,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": ":|:",
           "package": "hylolib",
@@ -905,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": ":&:",
           "package": "hylolib",
@@ -914,6 +995,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": ":&:",
           "package": "hylolib",
@@ -926,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": ":--\u003e:",
           "package": "hylolib",
@@ -935,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": ":--\u003e:",
           "normalized": "(Formula a b c)-\u003e(Formula a b c)",
@@ -949,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": ":/=:",
           "package": "hylolib",
@@ -958,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": ":/=:",
           "package": "hylolib",
@@ -970,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": ":\u003c--\u003e:",
           "package": "hylolib",
@@ -979,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": ":\u003c--\u003e:",
           "normalized": "(Formula a b c)-\u003e(Formula a b c)",
@@ -993,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": ":\u003c=:",
           "package": "hylolib",
@@ -1002,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": ":\u003c=:",
           "package": "hylolib",
@@ -1014,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": ":\u003c:",
           "package": "hylolib",
@@ -1023,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": ":\u003c:",
           "package": "hylolib",
@@ -1035,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": ":=:",
           "package": "hylolib",
@@ -1044,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": ":=:",
           "package": "hylolib",
@@ -1056,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": ":\u003e=:",
           "package": "hylolib",
@@ -1065,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": ":\u003e=:",
           "package": "hylolib",
@@ -1077,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": ":\u003e:",
           "package": "hylolib",
@@ -1086,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": ":\u003e:",
           "package": "hylolib",
@@ -1098,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "A",
           "package": "hylolib",
@@ -1107,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "A",
           "package": "hylolib",
@@ -1119,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "At",
           "package": "hylolib",
@@ -1128,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "At",
           "package": "hylolib",
@@ -1141,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "B",
           "package": "hylolib",
@@ -1150,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "B",
           "package": "hylolib",
@@ -1162,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "Bot",
           "package": "hylolib",
@@ -1171,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "Bot",
           "package": "hylolib",
@@ -1184,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "Box",
           "package": "hylolib",
@@ -1193,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "Box",
           "package": "hylolib",
@@ -1206,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "Count",
           "package": "hylolib",
@@ -1215,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "Count",
           "package": "hylolib",
@@ -1228,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "D",
           "package": "hylolib",
@@ -1237,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "D",
           "package": "hylolib",
@@ -1249,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "Diam",
           "package": "hylolib",
@@ -1258,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "Diam",
           "package": "hylolib",
@@ -1271,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "Down",
           "package": "hylolib",
@@ -1280,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "Down",
           "package": "hylolib",
@@ -1293,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "E",
           "package": "hylolib",
@@ -1302,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "E",
           "package": "hylolib",
@@ -1314,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "Global",
           "package": "hylolib",
@@ -1323,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "Global",
           "package": "hylolib",
@@ -1336,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "IBox",
           "package": "hylolib",
@@ -1345,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "IBox",
           "package": "hylolib",
@@ -1358,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "IDiam",
           "package": "hylolib",
@@ -1367,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "IDiam",
           "package": "hylolib",
@@ -1380,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "Local",
           "package": "hylolib",
@@ -1389,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "Local",
           "package": "hylolib",
@@ -1402,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "Neg",
           "package": "hylolib",
@@ -1411,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "Neg",
           "package": "hylolib",
@@ -1424,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "Nom",
           "package": "hylolib",
@@ -1433,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "Nom",
           "package": "hylolib",
@@ -1446,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "Prop",
           "package": "hylolib",
@@ -1455,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "Prop",
           "package": "hylolib",
@@ -1468,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "Top",
           "package": "hylolib",
@@ -1477,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "Top",
           "package": "hylolib",
@@ -1490,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "boundVars",
           "package": "hylolib",
@@ -1499,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "boundVars",
           "normalized": "Formula a b c-\u003e[a]",
@@ -1514,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "cmpListLen",
           "package": "hylolib",
@@ -1523,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "cmpListLen",
           "normalized": "CountOp-\u003e[a]-\u003eInt-\u003eBool",
@@ -1538,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "compareWith",
           "package": "hylolib",
@@ -1547,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "compareWith",
           "normalized": "CountOp-\u003eInt-\u003eInt-\u003eBool",
@@ -1562,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "composeFold",
           "package": "hylolib",
@@ -1571,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "composeFold",
           "normalized": "a-\u003e(a-\u003ea-\u003ea)-\u003e(Formula b c d-\u003ea)-\u003eFormula b c d-\u003ea",
@@ -1586,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "composeFoldM",
           "package": "hylolib",
@@ -1595,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "composeFoldM",
           "normalized": "a b-\u003e(b-\u003eb-\u003ea b)-\u003e(Formula c d e-\u003ea b)-\u003eFormula c d e-\u003ea b",
@@ -1610,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "composeMap",
           "package": "hylolib",
@@ -1619,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "composeMap",
           "normalized": "(Formula a b c-\u003eFormula a b c)-\u003e(Formula a b c-\u003eFormula a b c)-\u003eFormula a b c-\u003eFormula a b c",
@@ -1634,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "composeMapM",
           "package": "hylolib",
@@ -1643,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "composeMapM",
           "normalized": "(Formula a b c-\u003ed(Formula a b c))-\u003e(Formula a b c-\u003ed(Formula a b c))-\u003eFormula a b c-\u003ed(Formula a b c)",
@@ -1658,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "freeVars",
           "package": "hylolib",
@@ -1667,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "freeVars",
           "normalized": "Formula a b c-\u003e[a]",
@@ -1682,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "mapSig",
           "package": "hylolib",
@@ -1691,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "mapSig",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003e(e-\u003ef)-\u003eFormula a c e-\u003eFormula b d f",
@@ -1706,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "metap_read_Formula",
           "package": "hylolib",
@@ -1715,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "metap_read_Formula",
           "normalized": "Formula a b c-\u003eBool",
@@ -1730,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "negCount",
           "package": "hylolib",
@@ -1739,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "negCount",
           "normalized": "CountOp-\u003eCountOp",
@@ -1754,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "nnf",
           "package": "hylolib",
@@ -1763,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "nnf",
           "normalized": "Formula a b c-\u003eFormula a b c",
@@ -1777,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "onShape",
           "package": "hylolib",
@@ -1786,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "onShape",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003e(e-\u003ef)-\u003e(Formula a c e-\u003eFormula b d f)-\u003eFormula a c e-\u003eFormula b d f",
@@ -1801,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Formula",
           "name": "unit_tests",
           "package": "hylolib",
@@ -1810,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "HyLo Formula",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Formula",
           "name": "unit_tests",
           "package": "hylolib",
@@ -1822,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "Lexer",
           "package": "hylolib",
@@ -1830,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "Lexer",
           "package": "hylolib",
@@ -1843,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "FilePos",
           "package": "hylolib",
@@ -1851,6 +2016,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "FilePos",
           "package": "hylolib",
@@ -1864,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "Token",
           "package": "hylolib",
@@ -1872,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "Token",
           "package": "hylolib",
@@ -1885,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenAnd",
           "package": "hylolib",
@@ -1894,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenAnd",
           "package": "hylolib",
@@ -1907,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenAutomatic",
           "package": "hylolib",
@@ -1916,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenAutomatic",
           "package": "hylolib",
@@ -1929,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenBegin",
           "package": "hylolib",
@@ -1938,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenBegin",
           "package": "hylolib",
@@ -1951,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenBox",
           "package": "hylolib",
@@ -1960,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenBox",
           "package": "hylolib",
@@ -1973,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenCB",
           "package": "hylolib",
@@ -1982,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenCB",
           "package": "hylolib",
@@ -1995,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenCBox",
           "package": "hylolib",
@@ -2004,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenCBox",
           "package": "hylolib",
@@ -2017,6 +2197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenCC",
           "package": "hylolib",
@@ -2026,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenCC",
           "package": "hylolib",
@@ -2039,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenCDia",
           "package": "hylolib",
@@ -2048,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenCDia",
           "package": "hylolib",
@@ -2061,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenColon",
           "package": "hylolib",
@@ -2070,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenColon",
           "package": "hylolib",
@@ -2083,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenComma",
           "package": "hylolib",
@@ -2092,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenComma",
           "package": "hylolib",
@@ -2105,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenCount",
           "package": "hylolib",
@@ -2114,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenCount",
           "package": "hylolib",
@@ -2127,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenDBox",
           "package": "hylolib",
@@ -2136,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenDBox",
           "package": "hylolib",
@@ -2149,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenDDia",
           "package": "hylolib",
@@ -2158,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenDDia",
           "package": "hylolib",
@@ -2171,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenDia",
           "package": "hylolib",
@@ -2180,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenDia",
           "package": "hylolib",
@@ -2193,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenDifference",
           "package": "hylolib",
@@ -2202,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenDifference",
           "package": "hylolib",
@@ -2215,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenDimp",
           "package": "hylolib",
@@ -2224,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenDimp",
           "package": "hylolib",
@@ -2237,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenDot",
           "package": "hylolib",
@@ -2246,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenDot",
           "package": "hylolib",
@@ -2259,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenDown",
           "package": "hylolib",
@@ -2268,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenDown",
           "package": "hylolib",
@@ -2281,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenE",
           "package": "hylolib",
@@ -2290,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenE",
           "package": "hylolib",
@@ -2303,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenEnd",
           "package": "hylolib",
@@ -2312,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenEnd",
           "package": "hylolib",
@@ -2325,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenEqual",
           "package": "hylolib",
@@ -2334,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenEqual",
           "package": "hylolib",
@@ -2347,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenEquals",
           "package": "hylolib",
@@ -2356,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenEquals",
           "package": "hylolib",
@@ -2369,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenFalse",
           "package": "hylolib",
@@ -2378,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenFalse",
           "package": "hylolib",
@@ -2391,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenFile",
           "package": "hylolib",
@@ -2400,6 +2615,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenFile",
           "package": "hylolib",
@@ -2413,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenFunctional",
           "package": "hylolib",
@@ -2422,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenFunctional",
           "package": "hylolib",
@@ -2435,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenG",
           "package": "hylolib",
@@ -2444,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenG",
           "package": "hylolib",
@@ -2457,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenGE",
           "package": "hylolib",
@@ -2466,6 +2687,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenGE",
           "package": "hylolib",
@@ -2479,6 +2701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenIBox",
           "package": "hylolib",
@@ -2488,6 +2711,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenIBox",
           "package": "hylolib",
@@ -2501,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenIDia",
           "package": "hylolib",
@@ -2510,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenIDia",
           "package": "hylolib",
@@ -2523,6 +2749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenImp",
           "package": "hylolib",
@@ -2532,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenImp",
           "package": "hylolib",
@@ -2545,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenInjective",
           "package": "hylolib",
@@ -2554,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenInjective",
           "package": "hylolib",
@@ -2567,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenInteger",
           "package": "hylolib",
@@ -2576,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenInteger",
           "package": "hylolib",
@@ -2589,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenInverseOf",
           "package": "hylolib",
@@ -2598,6 +2831,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenInverseOf",
           "package": "hylolib",
@@ -2611,6 +2845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenL",
           "package": "hylolib",
@@ -2620,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenL",
           "package": "hylolib",
@@ -2633,6 +2869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenLE",
           "package": "hylolib",
@@ -2642,6 +2879,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenLE",
           "package": "hylolib",
@@ -2655,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenLabel",
           "package": "hylolib",
@@ -2664,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenLabel",
           "package": "hylolib",
@@ -2677,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenNE",
           "package": "hylolib",
@@ -2686,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenNE",
           "package": "hylolib",
@@ -2699,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenNeg",
           "package": "hylolib",
@@ -2708,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenNeg",
           "package": "hylolib",
@@ -2721,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenNom",
           "package": "hylolib",
@@ -2730,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenNom",
           "package": "hylolib",
@@ -2743,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenNominals",
           "package": "hylolib",
@@ -2752,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenNominals",
           "package": "hylolib",
@@ -2765,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenOB",
           "package": "hylolib",
@@ -2774,6 +3023,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenOB",
           "package": "hylolib",
@@ -2787,6 +3037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenOBox",
           "package": "hylolib",
@@ -2796,6 +3047,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenOBox",
           "package": "hylolib",
@@ -2809,6 +3061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenOC",
           "package": "hylolib",
@@ -2818,6 +3071,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenOC",
           "package": "hylolib",
@@ -2831,6 +3085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenODia",
           "package": "hylolib",
@@ -2840,6 +3095,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenODia",
           "package": "hylolib",
@@ -2853,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenOr",
           "package": "hylolib",
@@ -2862,6 +3119,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenOr",
           "package": "hylolib",
@@ -2875,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenProp",
           "package": "hylolib",
@@ -2884,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenProp",
           "package": "hylolib",
@@ -2897,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenPropositions",
           "package": "hylolib",
@@ -2906,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenPropositions",
           "package": "hylolib",
@@ -2919,6 +3181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenProver",
           "package": "hylolib",
@@ -2928,6 +3191,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenProver",
           "package": "hylolib",
@@ -2941,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenProverParameters",
           "package": "hylolib",
@@ -2950,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenProverParameters",
           "package": "hylolib",
@@ -2963,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenQuery",
           "package": "hylolib",
@@ -2972,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenQuery",
           "package": "hylolib",
@@ -2985,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenReflexive",
           "package": "hylolib",
@@ -2994,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenReflexive",
           "package": "hylolib",
@@ -3007,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenRelations",
           "package": "hylolib",
@@ -3016,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenRelations",
           "package": "hylolib",
@@ -3029,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenRetrieve",
           "package": "hylolib",
@@ -3038,6 +3311,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenRetrieve",
           "package": "hylolib",
@@ -3051,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenSC",
           "package": "hylolib",
@@ -3060,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenSC",
           "package": "hylolib",
@@ -3073,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenSatisfiable",
           "package": "hylolib",
@@ -3082,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenSatisfiable",
           "package": "hylolib",
@@ -3095,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenSignature",
           "package": "hylolib",
@@ -3104,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenSignature",
           "package": "hylolib",
@@ -3117,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenSubsetOf",
           "package": "hylolib",
@@ -3126,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenSubsetOf",
           "package": "hylolib",
@@ -3139,6 +3421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenSymmetric",
           "package": "hylolib",
@@ -3148,6 +3431,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenSymmetric",
           "package": "hylolib",
@@ -3161,6 +3445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenTClosureOf",
           "package": "hylolib",
@@ -3170,6 +3455,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenTClosureOf",
           "package": "hylolib",
@@ -3183,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenTRClosureOf",
           "package": "hylolib",
@@ -3192,6 +3479,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenTRClosureOf",
           "package": "hylolib",
@@ -3205,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenTheory",
           "package": "hylolib",
@@ -3214,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenTheory",
           "package": "hylolib",
@@ -3227,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenTransitive",
           "package": "hylolib",
@@ -3236,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenTransitive",
           "package": "hylolib",
@@ -3249,6 +3541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenTrue",
           "package": "hylolib",
@@ -3258,6 +3551,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenTrue",
           "package": "hylolib",
@@ -3271,6 +3565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenUBox",
           "package": "hylolib",
@@ -3280,6 +3575,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenUBox",
           "package": "hylolib",
@@ -3293,6 +3589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenUDia",
           "package": "hylolib",
@@ -3302,6 +3599,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenUDia",
           "package": "hylolib",
@@ -3315,6 +3613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenUniversal",
           "package": "hylolib",
@@ -3324,6 +3623,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenUniversal",
           "package": "hylolib",
@@ -3337,6 +3637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenValid",
           "package": "hylolib",
@@ -3346,6 +3647,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenValid",
           "package": "hylolib",
@@ -3359,6 +3661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenVariable",
           "package": "hylolib",
@@ -3368,6 +3671,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "TokenVariable",
           "package": "hylolib",
@@ -3381,6 +3685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "alexScanTokens",
           "package": "hylolib",
@@ -3390,6 +3695,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "alexScanTokens",
           "normalized": "String-\u003e[(Token,FilePos)]",
@@ -3405,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "col",
           "package": "hylolib",
@@ -3414,6 +3721,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "col",
           "normalized": "FilePos-\u003eInt",
@@ -3428,6 +3736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Lexer",
           "name": "line",
           "package": "hylolib",
@@ -3437,6 +3746,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Lexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Lexer",
           "name": "line",
           "normalized": "FilePos-\u003eInt",
@@ -3451,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "OldLexer",
           "package": "hylolib",
@@ -3459,6 +3770,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "OldLexer",
           "package": "hylolib",
@@ -3472,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "FilePos",
           "package": "hylolib",
@@ -3480,6 +3793,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "FilePos",
           "package": "hylolib",
@@ -3493,6 +3807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "Token",
           "package": "hylolib",
@@ -3501,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "Token",
           "package": "hylolib",
@@ -3514,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenAnd",
           "package": "hylolib",
@@ -3523,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenAnd",
           "package": "hylolib",
@@ -3536,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenAt",
           "package": "hylolib",
@@ -3545,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenAt",
           "package": "hylolib",
@@ -3558,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenAt2",
           "package": "hylolib",
@@ -3567,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenAt2",
           "package": "hylolib",
@@ -3580,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenBegin",
           "package": "hylolib",
@@ -3589,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenBegin",
           "package": "hylolib",
@@ -3602,6 +3926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenBox",
           "package": "hylolib",
@@ -3611,6 +3936,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenBox",
           "package": "hylolib",
@@ -3624,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenCB",
           "package": "hylolib",
@@ -3633,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenCB",
           "package": "hylolib",
@@ -3646,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenDBox",
           "package": "hylolib",
@@ -3655,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenDBox",
           "package": "hylolib",
@@ -3668,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenDDia",
           "package": "hylolib",
@@ -3677,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenDDia",
           "package": "hylolib",
@@ -3690,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenDia",
           "package": "hylolib",
@@ -3699,6 +4032,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenDia",
           "package": "hylolib",
@@ -3712,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenDimp",
           "package": "hylolib",
@@ -3721,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenDimp",
           "package": "hylolib",
@@ -3734,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenDot",
           "package": "hylolib",
@@ -3743,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenDot",
           "package": "hylolib",
@@ -3756,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenDown",
           "package": "hylolib",
@@ -3765,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenDown",
           "package": "hylolib",
@@ -3778,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenEnd",
           "package": "hylolib",
@@ -3787,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenEnd",
           "package": "hylolib",
@@ -3800,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenFalse",
           "package": "hylolib",
@@ -3809,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenFalse",
           "package": "hylolib",
@@ -3822,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenIBox",
           "package": "hylolib",
@@ -3831,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenIBox",
           "package": "hylolib",
@@ -3844,6 +4190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenIDia",
           "package": "hylolib",
@@ -3853,6 +4200,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenIDia",
           "package": "hylolib",
@@ -3866,6 +4214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenImp",
           "package": "hylolib",
@@ -3875,6 +4224,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenImp",
           "package": "hylolib",
@@ -3888,6 +4238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenNeg",
           "package": "hylolib",
@@ -3897,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenNeg",
           "package": "hylolib",
@@ -3910,6 +4262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenNom",
           "package": "hylolib",
@@ -3919,6 +4272,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenNom",
           "package": "hylolib",
@@ -3932,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenOB",
           "package": "hylolib",
@@ -3941,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenOB",
           "package": "hylolib",
@@ -3954,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenOr",
           "package": "hylolib",
@@ -3963,6 +4320,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenOr",
           "package": "hylolib",
@@ -3976,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenProp",
           "package": "hylolib",
@@ -3985,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenProp",
           "package": "hylolib",
@@ -3998,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenSC",
           "package": "hylolib",
@@ -4007,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenSC",
           "package": "hylolib",
@@ -4020,6 +4382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenTrue",
           "package": "hylolib",
@@ -4029,6 +4392,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenTrue",
           "package": "hylolib",
@@ -4042,6 +4406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenUBox",
           "package": "hylolib",
@@ -4051,6 +4416,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenUBox",
           "package": "hylolib",
@@ -4064,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenUDia",
           "package": "hylolib",
@@ -4073,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenUDia",
           "package": "hylolib",
@@ -4086,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenVar",
           "package": "hylolib",
@@ -4095,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "TokenVar",
           "package": "hylolib",
@@ -4108,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "alexScanTokens",
           "package": "hylolib",
@@ -4117,6 +4488,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "alexScanTokens",
           "normalized": "String-\u003e[(Token,FilePos)]",
@@ -4132,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "col",
           "package": "hylolib",
@@ -4141,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "col",
           "normalized": "FilePos-\u003eInt",
@@ -4155,6 +4529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldLexer",
           "name": "line",
           "package": "hylolib",
@@ -4164,6 +4539,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldLexer",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldLexer",
           "name": "line",
           "normalized": "FilePos-\u003eInt",
@@ -4178,6 +4554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldParser",
           "name": "OldParser",
           "package": "hylolib",
@@ -4186,6 +4563,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldParser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldParser",
           "name": "OldParser",
           "package": "hylolib",
@@ -4199,6 +4577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.OldParser",
           "name": "parse",
           "package": "hylolib",
@@ -4208,6 +4587,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile OldParser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.OldParser",
           "name": "parse",
           "normalized": "[(Token,FilePos)]-\u003e[Formula NomSymbol PropSymbol RelSymbol]",
@@ -4222,6 +4602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "Parser",
           "package": "hylolib",
@@ -4230,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "Parser",
           "package": "hylolib",
@@ -4243,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "InferenceTask",
           "package": "hylolib",
@@ -4251,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "InferenceTask",
           "package": "hylolib",
@@ -4264,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "ParseOutput",
           "package": "hylolib",
@@ -4272,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "ParseOutput",
           "package": "hylolib",
@@ -4285,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "ParseState",
           "package": "hylolib",
@@ -4293,6 +4680,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "ParseState",
           "package": "hylolib",
@@ -4306,6 +4694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "ProverInfo",
           "package": "hylolib",
@@ -4314,6 +4703,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "ProverInfo",
           "package": "hylolib",
@@ -4327,6 +4717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "QueryType",
           "package": "hylolib",
@@ -4335,6 +4726,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "QueryType",
           "package": "hylolib",
@@ -4348,6 +4740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "RelInfo",
           "package": "hylolib",
@@ -4356,6 +4749,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "RelInfo",
           "package": "hylolib",
@@ -4369,6 +4763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "RelProperty",
           "package": "hylolib",
@@ -4377,6 +4772,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "RelProperty",
           "package": "hylolib",
@@ -4390,6 +4786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "Counting",
           "package": "hylolib",
@@ -4399,6 +4796,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "Counting",
           "package": "hylolib",
@@ -4412,6 +4810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "Difference",
           "package": "hylolib",
@@ -4421,6 +4820,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "Difference",
           "package": "hylolib",
@@ -4434,6 +4834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "Equals",
           "package": "hylolib",
@@ -4443,6 +4844,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "Equals",
           "normalized": "Equals[String]",
@@ -4458,6 +4860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "Functional",
           "package": "hylolib",
@@ -4467,6 +4870,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "Functional",
           "package": "hylolib",
@@ -4480,6 +4884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "Injective",
           "package": "hylolib",
@@ -4489,6 +4894,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "Injective",
           "package": "hylolib",
@@ -4502,6 +4908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "InverseOf",
           "package": "hylolib",
@@ -4511,6 +4918,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "InverseOf",
           "package": "hylolib",
@@ -4524,6 +4932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "PO",
           "package": "hylolib",
@@ -4533,6 +4942,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "PO",
           "package": "hylolib",
@@ -4546,6 +4956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "Reflexive",
           "package": "hylolib",
@@ -4555,6 +4966,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "Reflexive",
           "package": "hylolib",
@@ -4568,6 +4980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "Retrieve",
           "package": "hylolib",
@@ -4577,6 +4990,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "Retrieve",
           "package": "hylolib",
@@ -4590,6 +5004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "Satisfiable",
           "package": "hylolib",
@@ -4599,6 +5014,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "Satisfiable",
           "package": "hylolib",
@@ -4612,6 +5028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "SubsetOf",
           "package": "hylolib",
@@ -4621,6 +5038,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "SubsetOf",
           "normalized": "SubsetOf[String]",
@@ -4636,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "Symmetric",
           "package": "hylolib",
@@ -4645,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "Symmetric",
           "package": "hylolib",
@@ -4658,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "TClosureOf",
           "package": "hylolib",
@@ -4667,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "TClosureOf",
           "package": "hylolib",
@@ -4680,6 +5102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "TRClosureOf",
           "package": "hylolib",
@@ -4689,6 +5112,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "TRClosureOf",
           "package": "hylolib",
@@ -4702,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "Transitive",
           "package": "hylolib",
@@ -4711,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "Transitive",
           "package": "hylolib",
@@ -4724,6 +5150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "Universal",
           "package": "hylolib",
@@ -4733,6 +5160,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "Universal",
           "package": "hylolib",
@@ -4746,6 +5174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "Valid",
           "package": "hylolib",
@@ -4755,6 +5184,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "Valid",
           "package": "hylolib",
@@ -4768,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "initParseState",
           "package": "hylolib",
@@ -4777,6 +5208,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "initParseState",
           "normalized": "(Signature a b c,SignatureType)",
@@ -4792,6 +5224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "parse",
           "package": "hylolib",
@@ -4801,6 +5234,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "parse",
           "normalized": "[(Token,FilePos)]-\u003eState ParseState ParseOutput",
@@ -4815,6 +5249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "provers",
           "package": "hylolib",
@@ -4824,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "provers",
           "normalized": "[ProverInfo]",
@@ -4838,6 +5274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "relations",
           "package": "hylolib",
@@ -4847,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "relations",
           "normalized": "[RelInfo]",
@@ -4861,6 +5299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "tasks",
           "package": "hylolib",
@@ -4870,6 +5309,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "tasks",
           "normalized": "[InferenceTask]",
@@ -4884,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile.Parser",
           "name": "theory",
           "package": "hylolib",
@@ -4893,6 +5334,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile Parser",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile.Parser",
           "name": "theory",
           "normalized": "[Formula NomSymbol PropSymbol RelSymbol]",
@@ -4907,6 +5349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile",
           "name": "InputFile",
           "package": "hylolib",
@@ -4915,6 +5358,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile",
           "name": "InputFile",
           "package": "hylolib",
@@ -4928,6 +5372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile",
           "name": "InputFile",
           "package": "hylolib",
@@ -4936,6 +5381,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile",
           "name": "InputFile",
           "package": "hylolib",
@@ -4949,6 +5395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile",
           "name": "OldInputFile",
           "package": "hylolib",
@@ -4957,6 +5404,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile",
           "name": "OldInputFile",
           "package": "hylolib",
@@ -4970,6 +5418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile",
           "name": "myparse",
           "package": "hylolib",
@@ -4979,6 +5428,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile",
           "name": "myparse",
           "normalized": "String-\u003eParseOutput",
@@ -4993,6 +5443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile",
           "name": "parse",
           "package": "hylolib",
@@ -5002,6 +5453,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile",
           "name": "parse",
           "normalized": "String-\u003eInputFile",
@@ -5016,6 +5468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile",
           "name": "parseOldFormat",
           "package": "hylolib",
@@ -5025,6 +5478,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile",
           "name": "parseOldFormat",
           "normalized": "String-\u003eOldInputFile",
@@ -5040,6 +5494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.InputFile",
           "name": "write",
           "package": "hylolib",
@@ -5049,6 +5504,7 @@
         },
         "index": {
           "hierarchy": "HyLo InputFile",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.InputFile",
           "name": "write",
           "normalized": "[Formula a b c]-\u003eString",
@@ -5063,6 +5519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model.Herbrand",
           "name": "Herbrand",
           "package": "hylolib",
@@ -5071,6 +5528,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model Herbrand",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model.Herbrand",
           "name": "Herbrand",
           "package": "hylolib",
@@ -5084,6 +5542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model.Herbrand",
           "name": "HerbrandModel",
           "package": "hylolib",
@@ -5092,6 +5551,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model Herbrand",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model.Herbrand",
           "name": "HerbrandModel",
           "package": "hylolib",
@@ -5105,6 +5565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model.Herbrand",
           "name": "expand",
           "package": "hylolib",
@@ -5114,6 +5575,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model Herbrand",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model.Herbrand",
           "name": "expand",
           "normalized": "Signature a b c-\u003eHerbrandModel a b c-\u003eHerbrandModel a b c",
@@ -5128,6 +5590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model.Herbrand",
           "name": "herbrand",
           "package": "hylolib",
@@ -5137,6 +5600,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model Herbrand",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model.Herbrand",
           "name": "herbrand",
           "normalized": "Set(a,a)-\u003eSet(a,b)-\u003eSet(a,c,a)-\u003eHerbrandModel a b c",
@@ -5151,6 +5615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model.Herbrand",
           "name": "inducedModel",
           "package": "hylolib",
@@ -5160,6 +5625,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model Herbrand",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model.Herbrand",
           "name": "inducedModel",
           "normalized": "HerbrandModel a b c-\u003eModel a a b c",
@@ -5175,6 +5641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model.Herbrand",
           "name": "removeWorld",
           "package": "hylolib",
@@ -5184,6 +5651,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model Herbrand",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model.Herbrand",
           "name": "removeWorld",
           "normalized": "a-\u003eHerbrandModel a b c-\u003eHerbrandModel a b c",
@@ -5199,6 +5667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model.Herbrand",
           "name": "unit_tests",
           "package": "hylolib",
@@ -5208,6 +5677,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model Herbrand",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model.Herbrand",
           "name": "unit_tests",
           "package": "hylolib",
@@ -5220,6 +5690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model.PrettyPrint",
           "name": "PrettyPrint",
           "package": "hylolib",
@@ -5228,6 +5699,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model PrettyPrint",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model.PrettyPrint",
           "name": "PrettyPrint",
           "package": "hylolib",
@@ -5241,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model.PrettyPrint",
           "name": "toDot",
           "package": "hylolib",
@@ -5250,6 +5723,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model PrettyPrint",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model.PrettyPrint",
           "name": "toDot",
           "normalized": "Model a b c d-\u003eString",
@@ -5265,6 +5739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model.PrettyPrint",
           "name": "toDotFrame",
           "package": "hylolib",
@@ -5274,6 +5749,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model PrettyPrint",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model.PrettyPrint",
           "name": "toDotFrame",
           "normalized": "Model a b c d-\u003eString",
@@ -5289,6 +5765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model.PrettyPrint",
           "name": "toDotStr",
           "package": "hylolib",
@@ -5298,6 +5775,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model PrettyPrint",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model.PrettyPrint",
           "name": "toDotStr",
           "normalized": "Model NomSymbol NomSymbol PropSymbol RelSymbol-\u003eString",
@@ -5313,6 +5791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "Model",
           "package": "hylolib",
@@ -5321,6 +5800,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "Model",
           "package": "hylolib",
@@ -5334,6 +5814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "Model",
           "package": "hylolib",
@@ -5342,6 +5823,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "Model",
           "package": "hylolib",
@@ -5355,6 +5837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "ModelsRel",
           "package": "hylolib",
@@ -5363,6 +5846,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "ModelsRel",
           "package": "hylolib",
@@ -5376,6 +5860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "(|/=)",
           "package": "hylolib",
@@ -5385,6 +5870,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "(|/=) |/=",
           "normalized": "a-\u003eb-\u003eBool",
@@ -5399,6 +5885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "(|=)",
           "package": "hylolib",
@@ -5408,6 +5895,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "(|=) |=",
           "normalized": "a-\u003eb-\u003eBool",
@@ -5422,6 +5910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "(??)",
           "package": "hylolib",
@@ -5431,6 +5920,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "(??) ??",
           "normalized": "Model a b c d-\u003e(b,a)-\u003eModel a b c d",
@@ -5445,6 +5935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "countInModel",
           "package": "hylolib",
@@ -5454,6 +5945,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "countInModel",
           "normalized": "Formula a b c-\u003eModel d a b c-\u003eInt",
@@ -5469,6 +5961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "equiv",
           "package": "hylolib",
@@ -5478,6 +5971,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "equiv",
           "normalized": "Model a b c d-\u003eModel a b c d-\u003eBool",
@@ -5492,6 +5986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "expand",
           "package": "hylolib",
@@ -5501,6 +5996,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "expand",
           "normalized": "Signature a b c-\u003eModel d a b c-\u003eModel d a b c",
@@ -5515,6 +6011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "iff",
           "package": "hylolib",
@@ -5524,6 +6021,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "iff",
           "normalized": "Bool-\u003eBool-\u003eBool",
@@ -5538,6 +6036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "model",
           "package": "hylolib",
@@ -5547,6 +6046,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "model",
           "normalized": "Set a-\u003eb-\u003ec-\u003ed-\u003eSignature e f g-\u003eModel a e f g",
@@ -5561,6 +6061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "modelFor",
           "package": "hylolib",
@@ -5570,6 +6071,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "modelFor",
           "normalized": "a-\u003eGen(Model Int(NomsOf a)(PropsOf a)(RelsOf a))",
@@ -5585,6 +6087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "namesOf",
           "package": "hylolib",
@@ -5594,6 +6097,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "namesOf",
           "normalized": "a-\u003eModel a b c d-\u003e[b]",
@@ -5609,6 +6113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "propsOf",
           "package": "hylolib",
@@ -5618,6 +6123,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "propsOf",
           "normalized": "a-\u003eModel a b c d-\u003e[c]",
@@ -5633,6 +6139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "removeWorld",
           "package": "hylolib",
@@ -5642,6 +6149,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "removeWorld",
           "normalized": "a-\u003eModel a b c d-\u003eModel a b c d",
@@ -5657,6 +6165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "removeWorlds",
           "package": "hylolib",
@@ -5666,6 +6175,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "removeWorlds",
           "normalized": "Set a-\u003eModel a b c d-\u003eModel a b c d",
@@ -5681,6 +6191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "setSignature",
           "package": "hylolib",
@@ -5690,6 +6201,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "setSignature",
           "normalized": "Signature a b c-\u003eModel d a b c-\u003eModel d a b c",
@@ -5705,6 +6217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "succs",
           "package": "hylolib",
@@ -5714,6 +6227,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "succs",
           "normalized": "Model a b c d-\u003ed-\u003ea-\u003eSet a",
@@ -5728,6 +6242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "unit_tests",
           "package": "hylolib",
@@ -5737,6 +6252,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "unit_tests",
           "package": "hylolib",
@@ -5749,6 +6265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "valN",
           "package": "hylolib",
@@ -5758,6 +6275,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "valN",
           "normalized": "Model a b c d-\u003eb-\u003ea",
@@ -5772,6 +6290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "valP",
           "package": "hylolib",
@@ -5781,6 +6300,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "valP",
           "normalized": "Model a b c d-\u003ec-\u003eSet a",
@@ -5795,6 +6315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "worldOf",
           "package": "hylolib",
@@ -5804,6 +6325,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "worldOf",
           "normalized": "Model a b c d-\u003eGen a",
@@ -5819,6 +6341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Model",
           "name": "worlds",
           "package": "hylolib",
@@ -5828,6 +6351,7 @@
         },
         "index": {
           "hierarchy": "HyLo Model",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Model",
           "name": "worlds",
           "normalized": "Model a b c d-\u003eSet a",
@@ -5842,6 +6366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.Simple",
           "name": "Simple",
           "package": "hylolib",
@@ -5850,6 +6375,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature Simple",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.Simple",
           "name": "Simple",
           "package": "hylolib",
@@ -5863,6 +6389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.Simple",
           "name": "NomSymbol",
           "package": "hylolib",
@@ -5871,6 +6398,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature Simple",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.Simple",
           "name": "NomSymbol",
           "package": "hylolib",
@@ -5884,6 +6412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.Simple",
           "name": "PropSymbol",
           "package": "hylolib",
@@ -5892,6 +6421,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature Simple",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.Simple",
           "name": "PropSymbol",
           "package": "hylolib",
@@ -5905,6 +6435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.Simple",
           "name": "RelSymbol",
           "package": "hylolib",
@@ -5913,6 +6444,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature Simple",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.Simple",
           "name": "RelSymbol",
           "package": "hylolib",
@@ -5926,6 +6458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.Simple",
           "name": "SimpleSignature",
           "package": "hylolib",
@@ -5934,6 +6467,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature Simple",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.Simple",
           "name": "SimpleSignature",
           "package": "hylolib",
@@ -5947,6 +6481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.Simple",
           "name": "N",
           "package": "hylolib",
@@ -5956,6 +6491,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature Simple",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.Simple",
           "name": "N",
           "package": "hylolib",
@@ -5968,6 +6504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.Simple",
           "name": "PropSymbol",
           "package": "hylolib",
@@ -5977,6 +6514,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature Simple",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.Simple",
           "name": "PropSymbol",
           "package": "hylolib",
@@ -5990,6 +6528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.Simple",
           "name": "RelSymbol",
           "package": "hylolib",
@@ -5999,6 +6538,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature Simple",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.Simple",
           "name": "RelSymbol",
           "package": "hylolib",
@@ -6012,6 +6552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.Simple",
           "name": "X",
           "package": "hylolib",
@@ -6021,6 +6562,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature Simple",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.Simple",
           "name": "X",
           "package": "hylolib",
@@ -6033,6 +6575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.Simple",
           "name": "unit_tests",
           "package": "hylolib",
@@ -6042,6 +6585,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature Simple",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.Simple",
           "name": "unit_tests",
           "package": "hylolib",
@@ -6054,6 +6598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.String",
           "name": "String",
           "package": "hylolib",
@@ -6062,6 +6607,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature String",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.String",
           "name": "String",
           "package": "hylolib",
@@ -6075,6 +6621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.String",
           "name": "NomSymbol",
           "package": "hylolib",
@@ -6083,6 +6630,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature String",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.String",
           "name": "NomSymbol",
           "package": "hylolib",
@@ -6096,6 +6644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.String",
           "name": "PropSymbol",
           "package": "hylolib",
@@ -6104,6 +6653,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature String",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.String",
           "name": "PropSymbol",
           "package": "hylolib",
@@ -6117,6 +6667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.String",
           "name": "RelSymbol",
           "package": "hylolib",
@@ -6125,6 +6676,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature String",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.String",
           "name": "RelSymbol",
           "package": "hylolib",
@@ -6138,6 +6690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.String",
           "name": "StringSignature",
           "package": "hylolib",
@@ -6146,6 +6699,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature String",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.String",
           "name": "StringSignature",
           "package": "hylolib",
@@ -6159,6 +6713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.String",
           "name": "NomSymbol",
           "package": "hylolib",
@@ -6168,6 +6723,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature String",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.String",
           "name": "NomSymbol",
           "package": "hylolib",
@@ -6181,6 +6737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.String",
           "name": "PropSymbol",
           "package": "hylolib",
@@ -6190,6 +6747,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature String",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.String",
           "name": "PropSymbol",
           "package": "hylolib",
@@ -6203,6 +6761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature.String",
           "name": "RelSymbol",
           "package": "hylolib",
@@ -6212,6 +6771,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature String",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature.String",
           "name": "RelSymbol",
           "package": "hylolib",
@@ -6225,6 +6785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "Signature",
           "package": "hylolib",
@@ -6233,6 +6794,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "Signature",
           "package": "hylolib",
@@ -6246,6 +6808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "HasSignature",
           "package": "hylolib",
@@ -6254,6 +6817,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "HasSignature",
           "package": "hylolib",
@@ -6267,6 +6831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "Signature",
           "package": "hylolib",
@@ -6275,6 +6840,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "Signature",
           "package": "hylolib",
@@ -6288,6 +6854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "addNomToSig",
           "package": "hylolib",
@@ -6297,6 +6864,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "addNomToSig",
           "normalized": "a-\u003eSignature a b c-\u003eSignature a b c",
@@ -6312,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "addPropToSig",
           "package": "hylolib",
@@ -6321,6 +6890,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "addPropToSig",
           "normalized": "a-\u003eSignature b a c-\u003eSignature b a c",
@@ -6336,6 +6906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "addRelToSig",
           "package": "hylolib",
@@ -6345,6 +6916,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "addRelToSig",
           "normalized": "a-\u003eSignature b c a-\u003eSignature b c a",
@@ -6360,6 +6932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "buildSignature",
           "package": "hylolib",
@@ -6369,6 +6942,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "buildSignature",
           "normalized": "Set a-\u003eSet b-\u003eSet c-\u003eSignature a b c",
@@ -6384,6 +6958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "commonSig",
           "package": "hylolib",
@@ -6393,6 +6968,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "commonSig",
           "normalized": "Signature a b c-\u003eSignature a b c-\u003eSignature a b c",
@@ -6408,6 +6984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "delNomFromSig",
           "package": "hylolib",
@@ -6417,6 +6994,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "delNomFromSig",
           "normalized": "a-\u003eSignature a b c-\u003eSignature a b c",
@@ -6432,6 +7010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "delPropFromSig",
           "package": "hylolib",
@@ -6441,6 +7020,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "delPropFromSig",
           "normalized": "a-\u003eSignature b a c-\u003eSignature b a c",
@@ -6456,6 +7036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "delRelFromSig",
           "package": "hylolib",
@@ -6465,6 +7046,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "delRelFromSig",
           "normalized": "a-\u003eSignature b c a-\u003eSignature b c a",
@@ -6480,6 +7062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "emptySignature",
           "package": "hylolib",
@@ -6489,6 +7072,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "emptySignature",
           "package": "hylolib",
@@ -6502,6 +7086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "getSignature",
           "package": "hylolib",
@@ -6511,6 +7096,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "getSignature",
           "normalized": "a-\u003eSignature(NomsOf a)(PropsOf a)(RelsOf a)",
@@ -6526,6 +7112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "isNomInSig",
           "package": "hylolib",
@@ -6535,6 +7122,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "isNomInSig",
           "normalized": "a-\u003eSignature a b c-\u003eBool",
@@ -6550,6 +7138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "isPropInSig",
           "package": "hylolib",
@@ -6559,6 +7148,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "isPropInSig",
           "normalized": "a-\u003eSignature b a c-\u003eBool",
@@ -6574,6 +7164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "isRelInSig",
           "package": "hylolib",
@@ -6583,6 +7174,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "isRelInSig",
           "normalized": "a-\u003eSignature b c a-\u003eBool",
@@ -6598,6 +7190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "isSubsignatureOf",
           "package": "hylolib",
@@ -6607,6 +7200,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "isSubsignatureOf",
           "normalized": "Signature a b c-\u003eSignature a b c-\u003eBool",
@@ -6622,6 +7216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "merge",
           "package": "hylolib",
@@ -6631,6 +7226,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "merge",
           "normalized": "Signature a b c-\u003eSignature a b c-\u003eSignature a b c",
@@ -6645,6 +7241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "nomSymbols",
           "package": "hylolib",
@@ -6654,6 +7251,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "nomSymbols",
           "normalized": "Signature a b c-\u003eSet a",
@@ -6669,6 +7267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "propSymbols",
           "package": "hylolib",
@@ -6678,6 +7277,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "propSymbols",
           "normalized": "Signature a b c-\u003eSet b",
@@ -6693,6 +7293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "relSymbols",
           "package": "hylolib",
@@ -6702,6 +7303,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "relSymbols",
           "normalized": "Signature a b c-\u003eSet c",
@@ -6717,6 +7319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Signature",
           "name": "unit_tests",
           "package": "hylolib",
@@ -6726,6 +7329,7 @@
         },
         "index": {
           "hierarchy": "HyLo Signature",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Signature",
           "name": "unit_tests",
           "package": "hylolib",
@@ -6738,6 +7342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "Test",
           "package": "hylolib",
@@ -6746,6 +7351,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "Test",
           "package": "hylolib",
@@ -6759,6 +7365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "Config",
           "package": "hylolib",
@@ -6766,6 +7373,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "Config",
           "package": "hylolib",
@@ -6779,6 +7387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "ModuleName",
           "package": "hylolib",
@@ -6787,6 +7396,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "ModuleName",
           "package": "hylolib",
@@ -6800,6 +7410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "TestCase",
           "package": "hylolib",
@@ -6808,6 +7419,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "TestCase",
           "package": "hylolib",
@@ -6821,6 +7433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "TestName",
           "package": "hylolib",
@@ -6829,6 +7442,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "TestName",
           "package": "hylolib",
@@ -6842,6 +7456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "TestResult",
           "package": "hylolib",
@@ -6850,6 +7465,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "TestResult",
           "package": "hylolib",
@@ -6863,6 +7479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "UnitTest",
           "package": "hylolib",
@@ -6871,6 +7488,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "UnitTest",
           "package": "hylolib",
@@ -6884,6 +7502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "Config",
           "package": "hylolib",
@@ -6892,6 +7511,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "Config",
           "package": "hylolib",
@@ -6905,6 +7525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "EXHAUSTED",
           "package": "hylolib",
@@ -6914,6 +7535,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "EXHAUSTED",
           "package": "hylolib",
@@ -6927,6 +7549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "FAILED",
           "package": "hylolib",
@@ -6936,6 +7559,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "FAILED",
           "package": "hylolib",
@@ -6949,6 +7573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "OK",
           "package": "hylolib",
@@ -6958,6 +7583,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "OK",
           "package": "hylolib",
@@ -6971,6 +7597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "configEvery",
           "package": "hylolib",
@@ -6979,6 +7606,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "configEvery",
           "normalized": "Int-\u003e[String]-\u003eString",
@@ -6994,6 +7622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "configMaxFail",
           "package": "hylolib",
@@ -7002,6 +7631,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "configMaxFail",
           "package": "hylolib",
@@ -7015,6 +7645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "configMaxTest",
           "package": "hylolib",
@@ -7023,6 +7654,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "configMaxTest",
           "package": "hylolib",
@@ -7036,6 +7668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "configSize",
           "package": "hylolib",
@@ -7044,6 +7677,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "configSize",
           "normalized": "Int-\u003eInt",
@@ -7059,6 +7693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "defaultConfig",
           "package": "hylolib",
@@ -7067,6 +7702,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "defaultConfig",
           "package": "hylolib",
@@ -7080,6 +7716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "runCompletely",
           "package": "hylolib",
@@ -7089,6 +7726,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "runCompletely",
           "normalized": "([a]-\u003e[IO TestResult])-\u003e[a]-\u003eIO[TestResult]",
@@ -7104,6 +7742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "runTest",
           "package": "hylolib",
@@ -7113,6 +7752,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "runTest",
           "normalized": "a-\u003eTestCase",
@@ -7128,6 +7768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "runTestWith",
           "package": "hylolib",
@@ -7137,6 +7778,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "runTestWith",
           "normalized": "Config-\u003ea-\u003eTestCase",
@@ -7152,6 +7794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "stopOnError",
           "package": "hylolib",
@@ -7161,6 +7804,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "stopOnError",
           "normalized": "([a]-\u003e[IO TestResult])-\u003e[a]-\u003eIO[TestResult]",
@@ -7176,6 +7820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "testModule",
           "package": "hylolib",
@@ -7185,6 +7830,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "testModule",
           "normalized": "UnitTest-\u003e[IO TestResult]",
@@ -7200,6 +7846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Test",
           "name": "testSuite",
           "package": "hylolib",
@@ -7209,6 +7856,7 @@
         },
         "index": {
           "hierarchy": "HyLo Test",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Test",
           "name": "testSuite",
           "normalized": "[(ModuleName,UnitTest)]-\u003e[IO TestResult]",
@@ -7224,6 +7872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Util",
           "name": "Util",
           "package": "hylolib",
@@ -7232,6 +7881,7 @@
         },
         "index": {
           "hierarchy": "HyLo Util",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Util",
           "name": "Util",
           "package": "hylolib",
@@ -7245,6 +7895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:09 UTC 2014",
           "module": "HyLo.Util",
           "name": "sequenceUntil",
           "package": "hylolib",
@@ -7254,6 +7905,7 @@
         },
         "index": {
           "hierarchy": "HyLo Util",
+          "indexed": "2014-03-11T18:55:09",
           "module": "HyLo.Util",
           "name": "sequenceUntil",
           "normalized": "(a-\u003eBool)-\u003e[b a]-\u003eb[a]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "soap"
+        "phrase": "soap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Exception",
           "name": "Exception",
           "package": "soap",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network SOAP Exception",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Exception",
           "name": "Exception",
           "package": "soap",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException to be thrown when transport encounters an exception that is\n   acutally a SOAP Fault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Exception",
           "name": "SOAPFault",
           "package": "soap",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Exception to be thrown when transport encounters an exception that is acutally SOAP Fault",
           "hierarchy": "Network SOAP Exception",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Exception",
           "name": "SOAPFault",
           "package": "soap",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Exception",
           "name": "SOAPParsingError",
           "package": "soap",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network SOAP Exception",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Exception",
           "name": "SOAPParsingError",
           "package": "soap",
@@ -130,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to find a SOAP Fault in a document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Exception",
           "name": "extractSoapFault",
           "package": "soap",
@@ -140,6 +147,7 @@
         "index": {
           "description": "Try to find SOAP Fault in document",
           "hierarchy": "Network SOAP Exception",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Exception",
           "name": "extractSoapFault",
           "normalized": "Document-\u003eMaybe SOAPFault",
@@ -225,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome helpers to parse documents with Text.XML.Cursor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Cursor",
           "name": "Cursor",
           "package": "soap",
@@ -234,6 +243,7 @@
         "index": {
           "description": "Some helpers to parse documents with Text.XML.Cursor",
           "hierarchy": "Network SOAP Parsing Cursor",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Cursor",
           "name": "Cursor",
           "package": "soap",
@@ -248,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVery generic type to catch server reply when you don't care about types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Cursor",
           "name": "Dict",
           "package": "soap",
@@ -257,6 +268,7 @@
         "index": {
           "description": "Very generic type to catch server reply when you don care about types",
           "hierarchy": "Network SOAP Parsing Cursor",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Cursor",
           "name": "Dict",
           "package": "soap",
@@ -271,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple parser to grab a flat response by an element name.\n\u003c/p\u003e\u003cpre\u003e result \u003c- invokeWS &#8230; (dictBy \"BigDataResult\")\n case HM.lookup \"SuccessError\" result of &#8230;\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Cursor",
           "name": "dictBy",
           "package": "soap",
@@ -281,6 +294,7 @@
         "index": {
           "description": "Simple parser to grab flat response by an element name result invokeWS dictBy BigDataResult case HM.lookup SuccessError result of",
           "hierarchy": "Network SOAP Parsing Cursor",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Cursor",
           "name": "dictBy",
           "normalized": "Text-\u003eResponseParser Dict",
@@ -297,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a read-able type from a content of a node with given name.\n\u003c/p\u003e\u003cpre\u003e age = readC \"age\" :: Cursor -\u003e Integer\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Cursor",
           "name": "readC",
           "package": "soap",
@@ -307,6 +322,7 @@
         "index": {
           "description": "Extract read-able type from content of node with given name age readC age Cursor Integer",
           "hierarchy": "Network SOAP Parsing Cursor",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Cursor",
           "name": "readC",
           "normalized": "Text-\u003eCursor-\u003ea",
@@ -322,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an axis and extract a key-value from child elements.\n\u003c/p\u003e\u003cpre\u003e invokeWS &#8230; (CursorParser . readDict $ laxElement \"WebScaleResponse\" &/ laxElement \"BigDataResult\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Cursor",
           "name": "readDict",
           "package": "soap",
@@ -332,6 +349,7 @@
         "index": {
           "description": "Apply an axis and extract key-value from child elements invokeWS CursorParser readDict laxElement WebScaleResponse laxElement BigDataResult",
           "hierarchy": "Network SOAP Parsing Cursor",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Cursor",
           "name": "readDict",
           "normalized": "Axis-\u003eCursor-\u003eDict",
@@ -348,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrab node content by element name.\n\u003c/p\u003e\u003cpre\u003e pair cur = (readT \"fst\" cur, readT \"snd\" cur)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Cursor",
           "name": "readT",
           "package": "soap",
@@ -358,6 +377,7 @@
         "index": {
           "description": "Grab node content by element name pair cur readT fst cur readT snd cur",
           "hierarchy": "Network SOAP Parsing Cursor",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Cursor",
           "name": "readT",
           "normalized": "Text-\u003eCursor-\u003eText",
@@ -373,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCollection of helpers to use with Text.XML.Stream.Parse parsers.\n\u003c/p\u003e\u003cpre\u003e let sink = flaxTag \"MethodNameResponse\"\n          $ flaxTag \"MethodNameResult\" $ do\n              info \u003c- flaxTag \"Info\" $ do\n                          q \u003c- readTag \"quantity\"\n                          b \u003c- readTag \"balance\"\n                          return $ Info q b\n              rc \u003c- readTag \"ResponseCode\"\n              return (rc, info)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "Stream",
           "package": "soap",
@@ -382,6 +403,7 @@
         "index": {
           "description": "Collection of helpers to use with Text.XML.Stream.Parse parsers let sink flaxTag MethodNameResponse flaxTag MethodNameResult do info flaxTag Info do readTag quantity readTag balance return Info rc readTag ResponseCode return rc info",
           "hierarchy": "Network SOAP Parsing Stream",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "Stream",
           "package": "soap",
@@ -396,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome XML processing tools are incremental, and work in terms of events\n rather than node trees. The \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e type allows a document to be fully\n specified as a sequence of events.\n\u003c/p\u003e\u003cp\u003eEvent-based XML libraries include:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://hackage.haskell.org/package/xml-enumerator\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://hackage.haskell.org/package/libxml-enumerator\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://hackage.haskell.org/package/expat-enumerator\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "Event",
           "package": "soap",
@@ -404,6 +427,7 @@
         "index": {
           "description": "Some XML processing tools are incremental and work in terms of events rather than node trees The Event type allows document to be fully specified as sequence of events Event-based XML libraries include http hackage.haskell.org package xml-enumerator http hackage.haskell.org package libxml-enumerator http hackage.haskell.org package expat-enumerator",
           "hierarchy": "Network SOAP Parsing Stream",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "Event",
           "package": "soap",
@@ -418,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsumes a stream of input values and produces a final result, without\n producing any output.\n\u003c/p\u003e\u003cpre\u003e type Sink i m r = ConduitM i Void m r\n\u003c/pre\u003e\u003cp\u003eSince 0.5.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "Sink",
           "package": "soap",
@@ -426,6 +451,7 @@
         "index": {
           "description": "Consumes stream of input values and produces final result without producing any output type Sink ConduitM Void Since",
           "hierarchy": "Network SOAP Parsing Stream",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "Sink",
           "package": "soap",
@@ -439,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "flaxContent",
           "package": "soap",
@@ -448,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Network SOAP Parsing Stream",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "flaxContent",
           "normalized": "Text-\u003eSink Event a Text",
@@ -464,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-maybe version of laxTag/tagNoAttr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "flaxTag",
           "package": "soap",
@@ -474,6 +503,7 @@
         "index": {
           "description": "Non-maybe version of laxTag tagNoAttr",
           "hierarchy": "Network SOAP Parsing Stream",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "flaxTag",
           "normalized": "Text-\u003eSink Event a b-\u003eSink Event a b",
@@ -489,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "laxContent",
           "package": "soap",
@@ -498,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Network SOAP Parsing Stream",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "laxContent",
           "normalized": "Text-\u003eSink Event a(Maybe Text)",
@@ -514,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamespace- and attribute- ignorant tagNoAttr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "laxTag",
           "package": "soap",
@@ -524,6 +557,7 @@
         "index": {
           "description": "Namespace and attribute ignorant tagNoAttr",
           "hierarchy": "Network SOAP Parsing Stream",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "laxTag",
           "normalized": "Text-\u003eSink Event a b-\u003eSink Event a(Maybe b)",
@@ -540,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack and read a current tag content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "readContent",
           "package": "soap",
@@ -550,6 +585,7 @@
         "index": {
           "description": "Unpack and read current tag content",
           "hierarchy": "Network SOAP Parsing Stream",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "readContent",
           "package": "soap",
@@ -564,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack and read tag content by local name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "readTag",
           "package": "soap",
@@ -574,6 +611,7 @@
         "index": {
           "description": "Unpack and read tag content by local name",
           "hierarchy": "Network SOAP Parsing Stream",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Parsing.Stream",
           "name": "readTag",
           "normalized": "Text-\u003eSink Event a b",
@@ -589,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "HTTP",
           "package": "soap",
@@ -597,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Network SOAP Transport HTTP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "HTTP",
           "package": "soap",
@@ -611,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess response body to make it a nice UTF8-encoded XML document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "BodyP",
           "package": "soap",
@@ -620,6 +661,7 @@
         "index": {
           "description": "Process response body to make it nice UTF8-encoded XML document",
           "hierarchy": "Network SOAP Transport HTTP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "BodyP",
           "package": "soap",
@@ -634,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeb service URL. Configured at initialization, but you can tweak it\n   dynamically with a request processor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "EndpointURL",
           "package": "soap",
@@ -643,6 +686,7 @@
         "index": {
           "description": "Web service URL Configured at initialization but you can tweak it dynamically with request processor",
           "hierarchy": "Network SOAP Transport HTTP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "EndpointURL",
           "package": "soap",
@@ -657,6 +701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate request record after defaults and method-specific fields are set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "RequestP",
           "package": "soap",
@@ -666,6 +711,7 @@
         "index": {
           "description": "Update request record after defaults and method-specific fields are set",
           "hierarchy": "Network SOAP Transport HTTP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "RequestP",
           "package": "soap",
@@ -680,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad common transport parameters from a configurator file.\n\u003c/p\u003e\u003cpre\u003e soap {\n   url = \"https://vendor.tld/service/\"\n   trace = true\n   timeout = 15\n }\n\u003c/pre\u003e\u003cp\u003eOnly url field is required.\n\u003c/p\u003e\u003cpre\u003e import Data.Configurator (load, Worth(Required))\n main = do\n     transport \u003c- confTransport \"soap\" =\u003c\u003c load [Required \"etc/example.conf\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "confTransport",
           "package": "soap",
@@ -690,6 +737,7 @@
         "index": {
           "description": "Load common transport parameters from configurator file soap url https vendor.tld service trace true timeout Only url field is required import Data.Configurator load Worth Required main do transport confTransport soap load Required etc example.conf",
           "hierarchy": "Network SOAP Transport HTTP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "confTransport",
           "normalized": "Text-\u003eConfig-\u003eIO Transport",
@@ -706,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA more extensible transport parameter loader.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "confTransportWith",
           "package": "soap",
@@ -716,6 +765,7 @@
         "index": {
           "description": "more extensible transport parameter loader",
           "hierarchy": "Network SOAP Transport HTTP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "confTransportWith",
           "normalized": "ManagerSettings-\u003eText-\u003eConfig-\u003eRequestP-\u003eBodyP-\u003eIO Transport",
@@ -732,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an IConv-based processor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "iconv",
           "package": "soap",
@@ -742,6 +793,7 @@
         "index": {
           "description": "Create an IConv-based processor",
           "hierarchy": "Network SOAP Transport HTTP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "iconv",
           "normalized": "EncodingName-\u003eBodyP",
@@ -757,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a http-client transport. Use identity transformers if you\n   don't need any special treatment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "initTransport",
           "package": "soap",
@@ -767,6 +820,7 @@
         "index": {
           "description": "Create http-client transport Use identity transformers if you don need any special treatment",
           "hierarchy": "Network SOAP Transport HTTP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "initTransport",
           "normalized": "EndpointURL-\u003eRequestP-\u003eBodyP-\u003eIO Transport",
@@ -783,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a http-client transport using manager settings (for plugging tls etc.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "initTransportWith",
           "package": "soap",
@@ -793,6 +848,7 @@
         "index": {
           "description": "Create http-client transport using manager settings for plugging tls etc",
           "hierarchy": "Network SOAP Transport HTTP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "initTransportWith",
           "normalized": "ManagerSettings-\u003eEndpointURL-\u003eRequestP-\u003eBodyP-\u003eIO Transport",
@@ -809,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a transport without any request and body processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "initTransport_",
           "package": "soap",
@@ -819,6 +876,7 @@
         "index": {
           "description": "Create transport without any request and body processing",
           "hierarchy": "Network SOAP Transport HTTP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "initTransport_",
           "normalized": "EndpointURL-\u003eIO Transport",
@@ -835,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender document, submit it as a POST request and retrieve a body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "runQuery",
           "package": "soap",
@@ -845,6 +904,7 @@
         "index": {
           "description": "Render document submit it as POST request and retrieve body",
           "hierarchy": "Network SOAP Transport HTTP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "runQuery",
           "normalized": "Manager-\u003eEndpointURL-\u003eRequestP-\u003eBodyP-\u003eTransport",
@@ -861,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a debug dump of a response body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "traceBody",
           "package": "soap",
@@ -871,6 +932,7 @@
         "index": {
           "description": "Show debug dump of response body",
           "hierarchy": "Network SOAP Transport HTTP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "traceBody",
           "package": "soap",
@@ -885,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a debug dump of a request body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "traceRequest",
           "package": "soap",
@@ -895,6 +958,7 @@
         "index": {
           "description": "Show debug dump of request body",
           "hierarchy": "Network SOAP Transport HTTP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.HTTP",
           "name": "traceRequest",
           "package": "soap",
@@ -909,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDebug transport to train your parsers without bugging real services.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.Mock",
           "name": "Mock",
           "package": "soap",
@@ -918,6 +983,7 @@
         "index": {
           "description": "Debug transport to train your parsers without bugging real services",
           "hierarchy": "Network SOAP Transport Mock",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.Mock",
           "name": "Mock",
           "package": "soap",
@@ -931,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.Mock",
           "name": "Handler",
           "package": "soap",
@@ -939,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Network SOAP Transport Mock",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.Mock",
           "name": "Handler",
           "package": "soap",
@@ -952,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.Mock",
           "name": "Handlers",
           "package": "soap",
@@ -960,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Network SOAP Transport Mock",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.Mock",
           "name": "Handlers",
           "package": "soap",
@@ -974,6 +1044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmulate a SOAP fault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.Mock",
           "name": "fault",
           "package": "soap",
@@ -983,6 +1054,7 @@
         "index": {
           "description": "Emulate SOAP fault",
           "hierarchy": "Network SOAP Transport Mock",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.Mock",
           "name": "fault",
           "normalized": "Text-\u003eText-\u003eText-\u003eHandler",
@@ -998,6 +1070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a Document and wrap result in a SOAP Envelope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.Mock",
           "name": "handler",
           "package": "soap",
@@ -1008,6 +1081,7 @@
         "index": {
           "description": "Process Document and wrap result in SOAP Envelope",
           "hierarchy": "Network SOAP Transport Mock",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.Mock",
           "name": "handler",
           "normalized": "(Document-\u003eIO a)-\u003eHandler",
@@ -1023,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a collection of handlers into a transport.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.Mock",
           "name": "initTransport",
           "package": "soap",
@@ -1033,6 +1108,7 @@
         "index": {
           "description": "Wrap collection of handlers into transport",
           "hierarchy": "Network SOAP Transport Mock",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.Mock",
           "name": "initTransport",
           "normalized": "Handlers-\u003eIO Transport",
@@ -1049,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose and apply a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport.Mock",
           "name": "runQuery",
           "package": "soap",
@@ -1059,6 +1136,7 @@
         "index": {
           "description": "Choose and apply handler",
           "hierarchy": "Network SOAP Transport Mock",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport.Mock",
           "name": "runQuery",
           "normalized": "[(String,Handler)]-\u003eTransport",
@@ -1075,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package comes with a single transport, but the your vendor's\n SOAP implementation can behave very differently, so invokeWS can be\n rigged to use anything that follows a simple interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport",
           "name": "Transport",
           "package": "soap",
@@ -1084,6 +1163,7 @@
         "index": {
           "description": "This package comes with single transport but the your vendor SOAP implementation can behave very differently so invokeWS can be rigged to use anything that follows simple interface",
           "hierarchy": "Network SOAP Transport",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport",
           "name": "Transport",
           "package": "soap",
@@ -1098,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommon transport type. Get a request and deliver it to an endpoint\n   specified during initialization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP.Transport",
           "name": "Transport",
           "package": "soap",
@@ -1107,6 +1188,7 @@
         "index": {
           "description": "Common transport type Get request and deliver it to an endpoint specified during initialization",
           "hierarchy": "Network SOAP Transport",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP.Transport",
           "name": "Transport",
           "package": "soap",
@@ -1121,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA heart of the package, \u003ccode\u003e\u003ca\u003einvokeWS\u003c/a\u003e\u003c/code\u003e assembles and executes requests.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP",
           "name": "SOAP",
           "package": "soap",
@@ -1130,6 +1213,7 @@
         "index": {
           "description": "heart of the package invokeWS assembles and executes requests",
           "hierarchy": "Network SOAP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP",
           "name": "SOAP",
           "package": "soap",
@@ -1144,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream parser from Text.XML.Stream.Parse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP",
           "name": "Parser",
           "package": "soap",
@@ -1153,6 +1238,7 @@
         "index": {
           "description": "Stream parser from Text.XML.Stream.Parse",
           "hierarchy": "Network SOAP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP",
           "name": "Parser",
           "package": "soap",
@@ -1167,6 +1253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferent parsing modes available to extract reply contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP",
           "name": "ResponseParser",
           "package": "soap",
@@ -1176,6 +1263,7 @@
         "index": {
           "description": "Different parsing modes available to extract reply contents",
           "hierarchy": "Network SOAP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP",
           "name": "ResponseParser",
           "package": "soap",
@@ -1190,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException to be thrown when transport encounters an exception that is\n   acutally a SOAP Fault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP",
           "name": "SOAPFault",
           "package": "soap",
@@ -1199,6 +1288,7 @@
         "index": {
           "description": "Exception to be thrown when transport encounters an exception that is acutally SOAP Fault",
           "hierarchy": "Network SOAP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP",
           "name": "SOAPFault",
           "package": "soap",
@@ -1212,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP",
           "name": "SOAPParsingError",
           "package": "soap",
@@ -1220,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Network SOAP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP",
           "name": "SOAPParsingError",
           "package": "soap",
@@ -1234,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommon transport type. Get a request and deliver it to an endpoint\n   specified during initialization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP",
           "name": "Transport",
           "package": "soap",
@@ -1243,6 +1336,7 @@
         "index": {
           "description": "Common transport type Get request and deliver it to an endpoint specified during initialization",
           "hierarchy": "Network SOAP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP",
           "name": "Transport",
           "package": "soap",
@@ -1257,6 +1351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXPath-like parser from Text.XML.Cursor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP",
           "name": "CursorParser",
           "package": "soap",
@@ -1267,6 +1362,7 @@
         "index": {
           "description": "XPath-like parser from Text.XML.Cursor",
           "hierarchy": "Network SOAP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP",
           "name": "CursorParser",
           "normalized": "CursorParser(Cursor-\u003ea)",
@@ -1283,6 +1379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse raw XML document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP",
           "name": "DocumentParser",
           "package": "soap",
@@ -1293,6 +1390,7 @@
         "index": {
           "description": "Parse raw XML document",
           "hierarchy": "Network SOAP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP",
           "name": "DocumentParser",
           "normalized": "DocumentParser(Document-\u003ea)",
@@ -1309,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWork with a raw bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP",
           "name": "RawParser",
           "package": "soap",
@@ -1319,6 +1418,7 @@
         "index": {
           "description": "Work with raw bytestring",
           "hierarchy": "Network SOAP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP",
           "name": "RawParser",
           "normalized": "RawParser(ByteString-\u003ea)",
@@ -1335,6 +1435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStreaming parser from Text.XML.Stream.Parse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP",
           "name": "StreamParser",
           "package": "soap",
@@ -1345,6 +1446,7 @@
         "index": {
           "description": "Streaming parser from Text.XML.Stream.Parse",
           "hierarchy": "Network SOAP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP",
           "name": "StreamParser",
           "package": "soap",
@@ -1359,6 +1461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare data, assemble request and apply a parser to a response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:51 UTC 2014",
           "module": "Network.SOAP",
           "name": "invokeWS",
           "package": "soap",
@@ -1368,6 +1471,7 @@
         "index": {
           "description": "Prepare data assemble request and apply parser to response",
           "hierarchy": "Network SOAP",
+          "indexed": "2014-03-11T20:06:51",
           "module": "Network.SOAP",
           "name": "invokeWS",
           "normalized": "Transport-\u003eString-\u003ea-\u003eb-\u003eResponseParser c-\u003eIO c",

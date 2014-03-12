@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hledger-vty"
+        "phrase": "hledger-vty",
+        "type": "phrase"
       },
       "type": "context"
     }

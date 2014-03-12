@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sssp"
+        "phrase": "sssp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.App",
           "name": "App",
           "package": "sssp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP App",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.App",
           "name": "App",
           "package": "sssp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.App",
           "name": "app",
           "package": "sssp",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP App",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.App",
           "name": "app",
           "normalized": "IO()",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.App",
           "name": "args",
           "package": "sssp",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP App",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.App",
           "name": "args",
           "normalized": "[String]-\u003eIO()",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.App",
           "name": "argumentError",
           "package": "sssp",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP App",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.App",
           "name": "argumentError",
           "normalized": "[String]-\u003eIO a",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.App",
           "name": "err",
           "package": "sssp",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP App",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.App",
           "name": "err",
           "normalized": "ByteString-\u003eIO a",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.App",
           "name": "msg",
           "package": "sssp",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP App",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.App",
           "name": "msg",
           "normalized": "ByteString-\u003eIO()",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.App",
           "name": "web",
           "package": "sssp",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP App",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.App",
           "name": "web",
           "normalized": "IO()",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for determining the server configuration from environment\n   variables and file input.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.Configuration",
           "name": "Configuration",
           "package": "sssp",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Utilities for determining the server configuration from environment variables and file input",
           "hierarchy": "Aws SSSP Configuration",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.Configuration",
           "name": "Configuration",
           "package": "sssp",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.Configuration",
           "name": "conf",
           "package": "sssp",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP Configuration",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.Configuration",
           "name": "conf",
           "normalized": "IO(Either(Map ByteString ByteString)(Ctx,Settings))",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.Configuration",
           "name": "createCtx",
           "package": "sssp",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP Configuration",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.Configuration",
           "name": "createCtx",
           "normalized": "Map ByteString ByteString-\u003eIO(Maybe Ctx)",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.Configuration",
           "name": "createSettings",
           "package": "sssp",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP Configuration",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.Configuration",
           "name": "createSettings",
           "normalized": "Map ByteString ByteString-\u003eMaybe Settings",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret a region name, like \u003ccode\u003eus-west-1\u003c/code\u003e, in accord with the Amazon's\n   documentation for endpoint lcoations.\n   \u003ca\u003ehttp://docs.amazonwebservices.com/general/latest/gr/rande.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.Configuration",
           "name": "endpoint",
           "package": "sssp",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Interpret region name like us-west-1 in accord with the Amazon documentation for endpoint lcoations http docs.amazonwebservices.com general latest gr rande.html",
           "hierarchy": "Aws SSSP Configuration",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.Configuration",
           "name": "endpoint",
           "normalized": "ByteString-\u003eMaybe ByteString",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.Configuration",
           "name": "fromBytes",
           "package": "sssp",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP Configuration",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.Configuration",
           "name": "fromBytes",
           "normalized": "ByteString-\u003eMap ByteString ByteString",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.Configuration",
           "name": "fromEnv",
           "package": "sssp",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP Configuration",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.Configuration",
           "name": "fromEnv",
           "package": "sssp",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.Configuration",
           "name": "fromEnvAndSTDIN",
           "package": "sssp",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP Configuration",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.Configuration",
           "name": "fromEnvAndSTDIN",
           "package": "sssp",
@@ -366,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecognizes a parseable \u003ccode\u003ek = v\u003c/code\u003e or \u003ccode\u003ek: v\u003c/code\u003e style line. It's relatively\n   flexible on input but rejects lines that might have shell interpolations\n   in them -- lines containing one of \u003ccode\u003e$`{}\u003c/code\u003e -- as well as lines with shell\n   quotes (\u003ccode\u003e'\"\u003c/code\u003e). This allows the file input parser to skip over such values\n   when a raw rc file is loaded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.Configuration",
           "name": "line",
           "package": "sssp",
@@ -376,6 +407,7 @@
         "index": {
           "description": "Recognizes parseable or style line It relatively flexible on input but rejects lines that might have shell interpolations in them lines containing one of as well as lines with shell quotes This allows the file input parser to skip over such values when raw rc file is loaded",
           "hierarchy": "Aws SSSP Configuration",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.Configuration",
           "name": "line",
           "normalized": "Parser(ByteString,ByteString)",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.Configuration",
           "name": "maybeGetEnv",
           "package": "sssp",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP Configuration",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.Configuration",
           "name": "maybeGetEnv",
           "normalized": "ByteString-\u003eIO(Maybe ByteString)",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.Configuration",
           "name": "prune",
           "package": "sssp",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP Configuration",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.Configuration",
           "name": "prune",
           "normalized": "Map ByteString ByteString-\u003eMap ByteString ByteString",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.Configuration",
           "name": "render",
           "package": "sssp",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP Configuration",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.Configuration",
           "name": "render",
           "normalized": "Map ByteString ByteString-\u003eByteString",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.Configuration",
           "name": "validate",
           "package": "sssp",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP Configuration",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.Configuration",
           "name": "validate",
           "normalized": "ByteString-\u003eByteString-\u003eMaybe ByteString",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.Configuration",
           "name": "variables",
           "package": "sssp",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP Configuration",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.Configuration",
           "name": "variables",
           "normalized": "[ByteString]",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHelper functions for writing the web server.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.WWW",
           "name": "WWW",
           "package": "sssp",
@@ -516,6 +559,7 @@
         "index": {
           "description": "Helper functions for writing the web server",
           "hierarchy": "Aws SSSP WWW",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.WWW",
           "name": "WWW",
           "package": "sssp",
@@ -529,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.WWW",
           "name": "addHeaders",
           "package": "sssp",
@@ -538,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP WWW",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.WWW",
           "name": "addHeaders",
           "normalized": "PutObject-\u003eRequestHeaders-\u003ePutObject",
@@ -553,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.WWW",
           "name": "b2b",
           "package": "sssp",
@@ -562,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP WWW",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.WWW",
           "name": "b2b",
           "package": "sssp",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.WWW",
           "name": "proxied",
           "package": "sssp",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP WWW",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.WWW",
           "name": "proxied",
           "normalized": "Manager-\u003eString-\u003eResourceT IO Response",
@@ -597,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP.WWW",
           "name": "reSource",
           "package": "sssp",
@@ -606,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP WWW",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP.WWW",
           "name": "reSource",
           "normalized": "ResumableSource a b-\u003ea(Source a b)",
@@ -621,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "SSSP",
           "package": "sssp",
@@ -629,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "SSSP",
           "package": "sssp",
@@ -642,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Ctx",
           "package": "sssp",
@@ -650,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Ctx",
           "package": "sssp",
@@ -663,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Order",
           "package": "sssp",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Order",
           "package": "sssp",
@@ -685,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResources are either singular or plural in character. URLs ending ending\n   in \u003ccode\u003e/\u003c/code\u003e or containing set wildcards specify plural resources; all other\n   URLs indicate singular resources. A singular resource results in a\n   redirect while a plural resource results in a newline-separated list of\n   URLs (themselves singular in character).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Resource",
           "package": "sssp",
@@ -694,6 +753,7 @@
         "index": {
           "description": "Resources are either singular or plural in character URLs ending ending in or containing set wildcards specify plural resources all other URLs indicate singular resources singular resource results in redirect while plural resource results in newline-separated list of URLs themselves singular in character",
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Resource",
           "package": "sssp",
@@ -707,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "SetWildcard",
           "package": "sssp",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "SetWildcard",
           "package": "sssp",
@@ -728,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Task",
           "package": "sssp",
@@ -736,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Task",
           "package": "sssp",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Wildcard",
           "package": "sssp",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Wildcard",
           "package": "sssp",
@@ -770,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "(-/-)",
           "package": "sssp",
@@ -779,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "(-/-) -/-",
           "normalized": "Text-\u003eText-\u003eText",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "ASCII",
           "package": "sssp",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "ASCII",
           "package": "sssp",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Ctx",
           "package": "sssp",
@@ -824,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Ctx",
           "package": "sssp",
@@ -837,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Exclude",
           "package": "sssp",
@@ -846,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Exclude",
           "package": "sssp",
@@ -859,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Hi",
           "package": "sssp",
@@ -868,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Hi",
           "package": "sssp",
@@ -881,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Include",
           "package": "sssp",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Include",
           "package": "sssp",
@@ -903,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Listing",
           "package": "sssp",
@@ -912,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Listing",
           "normalized": "Listing[Text]",
@@ -927,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Lo",
           "package": "sssp",
@@ -936,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Lo",
           "package": "sssp",
@@ -949,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Plural",
           "package": "sssp",
@@ -958,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Plural",
           "normalized": "Plural[Either(Either Text Wildcard)SetWildcard]",
@@ -973,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Remove",
           "package": "sssp",
@@ -982,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Remove",
           "normalized": "Remove[Text]",
@@ -997,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Retrieve",
           "package": "sssp",
@@ -1006,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Retrieve",
           "package": "sssp",
@@ -1019,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "SemVer",
           "package": "sssp",
@@ -1028,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "SemVer",
           "package": "sssp",
@@ -1041,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Singular",
           "package": "sssp",
@@ -1050,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Singular",
           "normalized": "Singular[Either Text Wildcard]",
@@ -1065,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "Write",
           "package": "sssp",
@@ -1074,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "Write",
           "package": "sssp",
@@ -1087,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "aws",
           "package": "sssp",
@@ -1096,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "aws",
           "package": "sssp",
@@ -1108,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "bucket",
           "package": "sssp",
@@ -1117,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "bucket",
           "package": "sssp",
@@ -1130,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a single path component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "component",
           "package": "sssp",
@@ -1140,6 +1239,7 @@
         "index": {
           "description": "Parse single path component",
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "component",
           "normalized": "Char-\u003eParser(Either(Either Text Wildcard)SetWildcard)",
@@ -1154,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "expand",
           "package": "sssp",
@@ -1163,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "expand",
           "normalized": "SetWildcard-\u003e[Text]-\u003e[Text]",
@@ -1177,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "listing",
           "package": "sssp",
@@ -1186,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "listing",
           "normalized": "Ctx-\u003eText-\u003eResourceT IO(Attempt([Text],[Text]))",
@@ -1200,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "manager",
           "package": "sssp",
@@ -1209,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "manager",
           "package": "sssp",
@@ -1221,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "order",
           "package": "sssp",
@@ -1230,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "order",
           "normalized": "Order-\u003e[Text]-\u003e[Text]",
@@ -1245,6 +1353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a plain string, shrinking leading runs of the metacharacter by one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "plain",
           "package": "sssp",
@@ -1255,6 +1364,7 @@
         "index": {
           "description": "Parse plain string shrinking leading runs of the metacharacter by one",
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "plain",
           "normalized": "Char-\u003eParser Text",
@@ -1269,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "plusNL",
           "package": "sssp",
@@ -1278,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "plusNL",
           "normalized": "Builder-\u003eBuilder",
@@ -1294,6 +1406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a resource in to a listing of objects. While intermediate S3\n   prefixes (directories) are traversed, the final match is always on keys\n   for objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "resolve",
           "package": "sssp",
@@ -1304,6 +1417,7 @@
         "index": {
           "description": "Translate resource in to listing of objects While intermediate S3 prefixes directories are traversed the final match is always on keys for objects",
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "resolve",
           "normalized": "Ctx-\u003eResource-\u003eResourceT IO(Attempt[Text])",
@@ -1319,6 +1433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret a request URL as a resource, expanding wildcards as needed. By\n   default, wildcards are expanded with \u003ccode\u003e@\u003c/code\u003e as the meta-character (\u003ccode\u003e@hi\u003c/code\u003e,\n   \u003ccode\u003e@lo.semver5\u003c/code\u003e) but the meta-character can be changed with a query\n   parameter so we pass the whole request here.\n\u003c/p\u003e\u003cp\u003eThe meta-character is in leading position in wildcard path components and\n   escapes itself in leading position, in a simple way: leading runs are\n   shortened by one character. Some examples of path components and their\n   interpretation are helpful:\n\u003c/p\u003e\u003cpre\u003e  hi      -\u003e The string \"hi\".\n  @hi     -\u003e The hi.semver wildcard.\n  @@hi    -\u003e The string \"@hi\".\n  @@@hi   -\u003e The string \"@@hi\".\n  ...and so on...\n\u003c/pre\u003e\u003cp\u003eSending \u003ccode\u003emeta=_\u003c/code\u003e as a query parameter changes the meta-character to an\n   underscore. The meta-character may be any single character; empty or\n   overlong \u003ccode\u003emeta\u003c/code\u003e parameters are ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "resource",
           "package": "sssp",
@@ -1329,6 +1444,7 @@
         "index": {
           "description": "Interpret request URL as resource expanding wildcards as needed By default wildcards are expanded with as the meta-character hi lo.semver5 but the meta-character can be changed with query parameter so we pass the whole request here The meta-character is in leading position in wildcard path components and escapes itself in leading position in simple way leading runs are shortened by one character Some examples of path components and their interpretation are helpful hi The string hi hi The hi.semver wildcard hi The string hi hi The string hi and so on Sending meta as query parameter changes the meta-character to an underscore The meta-character may be any single character empty or overlong meta parameters are ignored",
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "resource",
           "normalized": "Request-\u003eResource",
@@ -1343,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "s3",
           "package": "sssp",
@@ -1352,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "s3",
           "package": "sssp",
@@ -1365,6 +1483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an S3 path to a URL, splitting on slashes but preserving slash\n   runs as appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "s3Encode",
           "package": "sssp",
@@ -1375,6 +1494,7 @@
         "index": {
           "description": "Encode an S3 path to URL splitting on slashes but preserving slash runs as appropriate",
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "s3Encode",
           "normalized": "Text-\u003eBuilder",
@@ -1391,6 +1511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a URL into components, placing the balance of slashes in a slash\n   run to the left of the last slash. This is what all the Amazon APIs --\n   including the HTTP interface -- seem to expect, based on experiment.\n   This function exists so that we can split a URL retrieved from S3, by way\n   of list bucket, for example, into pieces for later escaping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "s3Pieces",
           "package": "sssp",
@@ -1401,6 +1522,7 @@
         "index": {
           "description": "Split URL into components placing the balance of slashes in slash run to the left of the last slash This is what all the Amazon APIs including the HTTP interface seem to expect based on experiment This function exists so that we can split URL retrieved from S3 by way of list bucket for example into pieces for later escaping",
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "s3Pieces",
           "normalized": "Text-\u003e[Text]",
@@ -1417,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a wildcard set, ending with a count (if it is inclusive) or an\n   optional count and a final tilde (if it is exclusive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "setWildcard",
           "package": "sssp",
@@ -1427,6 +1550,7 @@
         "index": {
           "description": "Match wildcard set ending with count if it is inclusive or an optional count and final tilde if it is exclusive",
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "setWildcard",
           "normalized": "Char-\u003eParser SetWildcard",
@@ -1442,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "star",
           "package": "sssp",
@@ -1451,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "star",
           "normalized": "Char-\u003eParser SetWildcard",
@@ -1465,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "task",
           "package": "sssp",
@@ -1474,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "task",
           "normalized": "Ctx-\u003eMethod-\u003eResource-\u003eResourceT IO(Maybe Task)",
@@ -1488,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "textSemVer",
           "package": "sssp",
@@ -1497,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "textSemVer",
           "normalized": "Text-\u003e[Integer]",
@@ -1512,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "url",
           "package": "sssp",
@@ -1521,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "url",
           "normalized": "Char-\u003e[Text]-\u003eResource",
@@ -1535,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "wai",
           "package": "sssp",
@@ -1544,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "wai",
           "normalized": "Ctx-\u003eApplication",
@@ -1559,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a simple, singular wildcard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "wildcard",
           "package": "sssp",
@@ -1569,6 +1704,7 @@
         "index": {
           "description": "Match simple singular wildcard",
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "wildcard",
           "normalized": "Char-\u003eParser Wildcard",
@@ -1584,6 +1720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWildcards and their textual representations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:23 UTC 2014",
           "module": "Aws.SSSP",
           "name": "wildcards",
           "package": "sssp",
@@ -1594,6 +1731,7 @@
         "index": {
           "description": "Wildcards and their textual representations",
           "hierarchy": "Aws SSSP",
+          "indexed": "2014-03-11T20:09:23",
           "module": "Aws.SSSP",
           "name": "wildcards",
           "normalized": "[(Text,Wildcard)]",

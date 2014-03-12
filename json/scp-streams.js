@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scp-streams"
+        "phrase": "scp-streams",
+        "type": "phrase"
       },
       "type": "context"
     }

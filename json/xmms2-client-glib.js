@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xmms2-client-glib"
+        "phrase": "xmms2-client-glib",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "practice-room"
+        "phrase": "practice-room",
+        "type": "phrase"
       },
       "type": "context"
     }

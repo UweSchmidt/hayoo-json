@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "certificate"
+        "phrase": "certificate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead/Write Private Key\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.KeyDSA",
           "name": "KeyDSA",
           "package": "certificate",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Read Write Private Key",
           "hierarchy": "Data Certificate KeyDSA",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.KeyDSA",
           "name": "KeyDSA",
           "package": "certificate",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.KeyDSA",
           "name": "decodePrivate",
           "package": "certificate",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate KeyDSA",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.KeyDSA",
           "name": "decodePrivate",
           "normalized": "ByteString-\u003eEither String(PublicKey,PrivateKey)",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.KeyDSA",
           "name": "encodePrivate",
           "package": "certificate",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate KeyDSA",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.KeyDSA",
           "name": "encodePrivate",
           "normalized": "(PublicKey,PrivateKey)-\u003eByteString",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead/Write Private/Public RSA Key\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.KeyRSA",
           "name": "KeyRSA",
           "package": "certificate",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Read Write Private Public RSA Key",
           "hierarchy": "Data Certificate KeyRSA",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.KeyRSA",
           "name": "KeyRSA",
           "package": "certificate",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.KeyRSA",
           "name": "decodePrivate",
           "package": "certificate",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate KeyRSA",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.KeyRSA",
           "name": "decodePrivate",
           "normalized": "ByteString-\u003eEither String(PublicKey,PrivateKey)",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.KeyRSA",
           "name": "decodePublic",
           "package": "certificate",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate KeyRSA",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.KeyRSA",
           "name": "decodePublic",
           "normalized": "ByteString-\u003eEither String PublicKey",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.KeyRSA",
           "name": "encodePrivate",
           "package": "certificate",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate KeyRSA",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.KeyRSA",
           "name": "encodePrivate",
           "normalized": "(PublicKey,PrivateKey)-\u003eByteString",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.KeyRSA",
           "name": "encodePublic",
           "package": "certificate",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate KeyRSA",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.KeyRSA",
           "name": "encodePublic",
           "normalized": "PublicKey-\u003eByteString",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a RSA pubkeys from ASN1 encoded bits.\n - return RSA.PublicKey (len-modulus, modulus, e) if successful \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.KeyRSA",
           "name": "parse_RSA",
           "package": "certificate",
@@ -219,6 +236,7 @@
         "index": {
           "description": "parse RSA pubkeys from ASN1 encoded bits return RSA.PublicKey len-modulus modulus if successful",
           "hierarchy": "Data Certificate KeyRSA",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.KeyRSA",
           "name": "parse_RSA",
           "normalized": "ByteString-\u003eEither String PublicKey",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "Cert",
           "package": "certificate",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "Cert",
           "package": "certificate",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "ASN1String",
           "package": "certificate",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "ASN1String",
           "package": "certificate",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "ASN1StringType",
           "package": "certificate",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "ASN1StringType",
           "package": "certificate",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "Certificate",
           "package": "certificate",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "Certificate",
           "package": "certificate",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "DistinguishedName",
           "package": "certificate",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "DistinguishedName",
           "package": "certificate",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "ECDSA_Hash",
           "package": "certificate",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "ECDSA_Hash",
           "package": "certificate",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "HashALG",
           "package": "certificate",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "HashALG",
           "package": "certificate",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "OID",
           "package": "certificate",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "OID",
           "package": "certificate",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "PubKey",
           "package": "certificate",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "PubKey",
           "package": "certificate",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "PubKeyALG",
           "package": "certificate",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "PubKeyALG",
           "package": "certificate",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "SignatureALG",
           "package": "certificate",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "SignatureALG",
           "package": "certificate",
@@ -534,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "ECDSA_Hash_SHA384",
           "package": "certificate",
@@ -543,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "ECDSA_Hash_SHA384",
           "package": "certificate",
@@ -1325,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "encodeDN",
           "package": "certificate",
@@ -1334,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "encodeDN",
           "normalized": "DistinguishedName-\u003e[ASN]",
@@ -1349,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "encodeDNinner",
           "package": "certificate",
@@ -1358,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "encodeDNinner",
           "normalized": "(ASN String-\u003eASN String)-\u003eDistinguishedName-\u003e[ASN]",
@@ -1398,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "oidCommonName",
           "package": "certificate",
@@ -1407,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "oidCommonName",
           "package": "certificate",
@@ -1420,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "oidCountry",
           "package": "certificate",
@@ -1429,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "oidCountry",
           "package": "certificate",
@@ -1442,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "oidOrganization",
           "package": "certificate",
@@ -1451,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "oidOrganization",
           "package": "certificate",
@@ -1464,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "oidOrganizationUnit",
           "package": "certificate",
@@ -1473,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "oidOrganizationUnit",
           "package": "certificate",
@@ -1486,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "oidSig",
           "package": "certificate",
@@ -1495,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "oidSig",
           "normalized": "OID-\u003eSignatureALG",
@@ -1510,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "parseDN",
           "package": "certificate",
@@ -1519,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "parseDN",
           "package": "certificate",
@@ -1532,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Cert",
           "name": "sigOID",
           "package": "certificate",
@@ -1541,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Cert",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Cert",
           "name": "sigOID",
           "normalized": "SignatureALG-\u003eOID",
@@ -1557,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eextension processing module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "Ext",
           "package": "certificate",
@@ -1566,6 +1627,7 @@
         "index": {
           "description": "extension processing module",
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "Ext",
           "package": "certificate",
@@ -1579,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtAuthorityKeyId",
           "package": "certificate",
@@ -1587,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtAuthorityKeyId",
           "package": "certificate",
@@ -1600,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtBasicConstraints",
           "package": "certificate",
@@ -1608,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtBasicConstraints",
           "package": "certificate",
@@ -1621,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtKeyUsage",
           "package": "certificate",
@@ -1629,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtKeyUsage",
           "package": "certificate",
@@ -1643,6 +1711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ekey usage flag that is found in the key usage extension field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtKeyUsageFlag",
           "package": "certificate",
@@ -1652,6 +1721,7 @@
         "index": {
           "description": "key usage flag that is found in the key usage extension field",
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtKeyUsageFlag",
           "package": "certificate",
@@ -1665,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtSubjectAltName",
           "package": "certificate",
@@ -1673,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtSubjectAltName",
           "package": "certificate",
@@ -1686,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtSubjectKeyId",
           "package": "certificate",
@@ -1694,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtSubjectKeyId",
           "package": "certificate",
@@ -1707,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "Extension",
           "package": "certificate",
@@ -1715,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "Extension",
           "package": "certificate",
@@ -1728,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtensionRaw",
           "package": "certificate",
@@ -1736,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtensionRaw",
           "package": "certificate",
@@ -1749,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtAuthorityKeyId",
           "package": "certificate",
@@ -1758,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtAuthorityKeyId",
           "package": "certificate",
@@ -1771,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtBasicConstraints",
           "package": "certificate",
@@ -1780,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtBasicConstraints",
           "package": "certificate",
@@ -1793,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtKeyUsage",
           "package": "certificate",
@@ -1802,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtKeyUsage",
           "normalized": "ExtKeyUsage[ExtKeyUsageFlag]",
@@ -1817,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtSubjectAltName",
           "package": "certificate",
@@ -1826,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtSubjectAltName",
           "normalized": "ExtSubjectAltName[String]",
@@ -1841,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtSubjectKeyId",
           "package": "certificate",
@@ -1850,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "ExtSubjectKeyId",
           "package": "certificate",
@@ -1863,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_cRLSign",
           "package": "certificate",
@@ -1872,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_cRLSign",
           "package": "certificate",
@@ -1885,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_dataEncipherment",
           "package": "certificate",
@@ -1894,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_dataEncipherment",
           "package": "certificate",
@@ -1907,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_decipherOnly",
           "package": "certificate",
@@ -1916,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_decipherOnly",
           "package": "certificate",
@@ -1929,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_digitalSignature",
           "package": "certificate",
@@ -1938,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_digitalSignature",
           "package": "certificate",
@@ -1951,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_encipherOnly",
           "package": "certificate",
@@ -1960,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_encipherOnly",
           "package": "certificate",
@@ -1973,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_keyAgreement",
           "package": "certificate",
@@ -1982,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_keyAgreement",
           "package": "certificate",
@@ -1995,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_keyCertSign",
           "package": "certificate",
@@ -2004,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_keyCertSign",
           "package": "certificate",
@@ -2017,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_keyEncipherment",
           "package": "certificate",
@@ -2026,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_keyEncipherment",
           "package": "certificate",
@@ -2039,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_nonRepudiation",
           "package": "certificate",
@@ -2048,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "KeyUsage_nonRepudiation",
           "package": "certificate",
@@ -2061,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "extDecode",
           "package": "certificate",
@@ -2070,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "extDecode",
           "normalized": "[ASN]-\u003eEither String a",
@@ -2085,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "extEncode",
           "package": "certificate",
@@ -2094,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "extEncode",
           "normalized": "a-\u003e[ASN]",
@@ -2109,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "extOID",
           "package": "certificate",
@@ -2118,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "extOID",
           "normalized": "a-\u003eOID",
@@ -2133,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509.Ext",
           "name": "extensionGet",
           "package": "certificate",
@@ -2142,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509 Ext",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509.Ext",
           "name": "extensionGet",
           "normalized": "[ExtensionRaw]-\u003eMaybe a",
@@ -2158,6 +2272,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead/Write X509 certificate\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "X509",
           "package": "certificate",
@@ -2167,6 +2282,7 @@
         "index": {
           "description": "Read Write X509 certificate",
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "X509",
           "package": "certificate",
@@ -2179,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "ASN1String",
           "package": "certificate",
@@ -2187,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "ASN1String",
           "package": "certificate",
@@ -2200,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "ASN1StringType",
           "package": "certificate",
@@ -2208,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "ASN1StringType",
           "package": "certificate",
@@ -2221,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "Certificate",
           "package": "certificate",
@@ -2229,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "Certificate",
           "package": "certificate",
@@ -2242,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "DistinguishedName",
           "package": "certificate",
@@ -2250,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "DistinguishedName",
           "package": "certificate",
@@ -2263,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "HashALG",
           "package": "certificate",
@@ -2271,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "HashALG",
           "package": "certificate",
@@ -2284,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "OID",
           "package": "certificate",
@@ -2292,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "OID",
           "package": "certificate",
@@ -2305,6 +2433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "PubKey",
           "package": "certificate",
@@ -2313,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "PubKey",
           "package": "certificate",
@@ -2326,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "PubKeyALG",
           "package": "certificate",
@@ -2334,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "PubKeyALG",
           "package": "certificate",
@@ -2347,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "SignatureALG",
           "package": "certificate",
@@ -2355,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "SignatureALG",
           "package": "certificate",
@@ -2368,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "X509",
           "package": "certificate",
@@ -2376,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "X509",
           "package": "certificate",
@@ -2388,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "X509",
           "package": "certificate",
@@ -2397,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "X509",
           "package": "certificate",
@@ -2410,6 +2548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edecode an X509 from a bytestring\n - the structure is the following:\n -   Certificate\n -   Certificate Signature Algorithm\n -   Certificate Signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "decodeCertificate",
           "package": "certificate",
@@ -2420,6 +2559,7 @@
         "index": {
           "description": "decode an X509 from bytestring the structure is the following Certificate Certificate Signature Algorithm Certificate Signature",
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "decodeCertificate",
           "normalized": "ByteString-\u003eEither String X",
@@ -2435,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "decodeDN",
           "package": "certificate",
@@ -2444,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "decodeDN",
           "normalized": "ByteString-\u003eEither String DistinguishedName",
@@ -2460,6 +2602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eencode a X509 certificate to a bytestring \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "encodeCertificate",
           "package": "certificate",
@@ -2470,6 +2613,7 @@
         "index": {
           "description": "encode X509 certificate to bytestring",
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "encodeCertificate",
           "normalized": "X-\u003eByteString",
@@ -2485,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "encodeDN",
           "package": "certificate",
@@ -2494,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "encodeDN",
           "normalized": "DistinguishedName-\u003eByteString",
@@ -2510,6 +2656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget signing data related to a X509 message,\n - which is either the cached data or the encoded certificate \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "getSigningData",
           "package": "certificate",
@@ -2520,6 +2667,7 @@
         "index": {
           "description": "get signing data related to X509 message which is either the cached data or the encoded certificate",
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "getSigningData",
           "normalized": "X-\u003eByteString",
@@ -2536,6 +2684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an openssl style hash of distinguished name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "hashDN",
           "package": "certificate",
@@ -2546,6 +2695,7 @@
         "index": {
           "description": "Make an openssl style hash of distinguished name",
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "hashDN",
           "normalized": "DistinguishedName-\u003eByteString",
@@ -2562,6 +2712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an openssl style old hash of distinguished name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "hashDN_old",
           "package": "certificate",
@@ -2572,6 +2723,7 @@
         "index": {
           "description": "Create an openssl style old hash of distinguished name",
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "hashDN_old",
           "normalized": "DistinguishedName-\u003eByteString",
@@ -2588,6 +2740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea cache of the raw representation of the whole x509.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "x509CachedData",
           "package": "certificate",
@@ -2598,6 +2751,7 @@
         "index": {
           "description": "cache of the raw representation of the whole x509",
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "x509CachedData",
           "package": "certificate",
@@ -2612,6 +2766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea cache of the raw representation of the x509 part for signing\n since encoding+decoding might not result in the same data being signed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "x509CachedSigningData",
           "package": "certificate",
@@ -2622,6 +2777,7 @@
         "index": {
           "description": "cache of the raw representation of the x509 part for signing since encoding decoding might not result in the same data being signed",
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "x509CachedSigningData",
           "package": "certificate",
@@ -2636,6 +2792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe certificate part of a X509 structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "x509Cert",
           "package": "certificate",
@@ -2646,6 +2803,7 @@
         "index": {
           "description": "the certificate part of X509 structure",
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "x509Cert",
           "package": "certificate",
@@ -2660,6 +2818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "x509Signature",
           "package": "certificate",
@@ -2670,6 +2829,7 @@
         "index": {
           "description": "the signature",
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "x509Signature",
           "normalized": "[Word]",
@@ -2686,6 +2846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe signature algorithm used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.Certificate.X509",
           "name": "x509SignatureALG",
           "package": "certificate",
@@ -2696,6 +2857,7 @@
         "index": {
           "description": "the signature algorithm used",
           "hierarchy": "Data Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.Certificate.X509",
           "name": "x509SignatureALG",
           "package": "certificate",
@@ -2709,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.CertificateStore",
           "name": "CertificateStore",
           "package": "certificate",
@@ -2717,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Data CertificateStore",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.CertificateStore",
           "name": "CertificateStore",
           "package": "certificate",
@@ -2731,6 +2895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Collection of certificate or store of certificates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.CertificateStore",
           "name": "CertificateStore",
           "package": "certificate",
@@ -2740,6 +2905,7 @@
         "index": {
           "description": "Collection of certificate or store of certificates",
           "hierarchy": "Data CertificateStore",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.CertificateStore",
           "name": "CertificateStore",
           "package": "certificate",
@@ -2754,6 +2920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a certificate using the subject distinguished name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.CertificateStore",
           "name": "findCertificate",
           "package": "certificate",
@@ -2764,6 +2931,7 @@
         "index": {
           "description": "Find certificate using the subject distinguished name",
           "hierarchy": "Data CertificateStore",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.CertificateStore",
           "name": "findCertificate",
           "normalized": "DistinguishedName-\u003eCertificateStore-\u003eMaybe X",
@@ -2780,6 +2948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all certificates in a store\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.CertificateStore",
           "name": "listCertificates",
           "package": "certificate",
@@ -2790,6 +2959,7 @@
         "index": {
           "description": "List all certificates in store",
           "hierarchy": "Data CertificateStore",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.CertificateStore",
           "name": "listCertificates",
           "normalized": "CertificateStore-\u003e[X]",
@@ -2806,6 +2976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a certificate store out of a list of X509 certificate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "Data.CertificateStore",
           "name": "makeCertificateStore",
           "package": "certificate",
@@ -2816,6 +2987,7 @@
         "index": {
           "description": "Create certificate store out of list of X509 certificate",
           "hierarchy": "Data CertificateStore",
+          "indexed": "2014-03-11T17:31:10",
           "module": "Data.CertificateStore",
           "name": "makeCertificateStore",
           "normalized": "[X]-\u003eCertificateStore",
@@ -2831,6 +3003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "System.Certificate.X509.MacOS",
           "name": "MacOS",
           "package": "certificate",
@@ -2839,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "System Certificate X509 MacOS",
+          "indexed": "2014-03-11T17:31:10",
           "module": "System.Certificate.X509.MacOS",
           "name": "MacOS",
           "package": "certificate",
@@ -2852,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "System.Certificate.X509.MacOS",
           "name": "getSystemCertificateStore",
           "package": "certificate",
@@ -2861,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "System Certificate X509 MacOS",
+          "indexed": "2014-03-11T17:31:10",
           "module": "System.Certificate.X509.MacOS",
           "name": "getSystemCertificateStore",
           "package": "certificate",
@@ -2875,6 +3051,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ethis module is portable to unix system where there is usually\n a \u003cem\u003eetc\u003c/em\u003essl/certs with system X509 certificates.\n\u003c/p\u003e\u003cp\u003ethe path can be dynamically override using the environment variable\n defined by envPathOverride in the module, which by\n default is SYSTEM_CERTIFICATE_PATH\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "System.Certificate.X509.Unix",
           "name": "Unix",
           "package": "certificate",
@@ -2884,6 +3061,7 @@
         "index": {
           "description": "this module is portable to unix system where there is usually etc ssl certs with system X509 certificates the path can be dynamically override using the environment variable defined by envPathOverride in the module which by default is SYSTEM CERTIFICATE PATH",
           "hierarchy": "System Certificate X509 Unix",
+          "indexed": "2014-03-11T17:31:10",
           "module": "System.Certificate.X509.Unix",
           "name": "Unix",
           "package": "certificate",
@@ -2920,6 +3098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:10 UTC 2014",
           "module": "System.Certificate.X509",
           "name": "X509",
           "package": "certificate",
@@ -2928,6 +3107,7 @@
         },
         "index": {
           "hierarchy": "System Certificate X509",
+          "indexed": "2014-03-11T17:31:10",
           "module": "System.Certificate.X509",
           "name": "X509",
           "package": "certificate",

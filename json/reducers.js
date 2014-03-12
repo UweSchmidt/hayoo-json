@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reducers"
+        "phrase": "reducers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for working with Monoids that conflict with names from the \u003ca\u003ePrelude\u003c/a\u003e,\n \u003ca\u003eData.Foldable\u003c/a\u003e, \u003ca\u003eControl.Monad\u003c/a\u003e or elsewhere. Intended to be imported qualified.\n\u003c/p\u003e\u003cpre\u003e import Data.Generator.Combinators as Generator\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "Combinators",
           "package": "reducers",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Utilities for working with Monoids that conflict with names from the Prelude Data.Foldable Control.Monad or elsewhere Intended to be imported qualified import Data.Generator.Combinators as Generator",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "Combinators",
           "package": "reducers",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e any \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e checking to see if all of its values match the supplied predicate\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003emapReduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetAll\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "all",
           "package": "reducers",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Efficiently mapReduce any Generator checking to see if all of its values match the supplied predicate mapReduceWith getAll",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "all",
           "normalized": "(Elem a-\u003eBool)-\u003ea-\u003eBool",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003ereduce\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e that contains values of type \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003ereduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetAll\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "and",
           "package": "reducers",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Efficiently reduce Generator that contains values of type Bool reduceWith getAll",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "and",
           "normalized": "a-\u003eBool",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e any \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e checking to see if any of its values match the supplied predicate\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003emapReduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetAny\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "any",
           "package": "reducers",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Efficiently mapReduce any Generator checking to see if any of its values match the supplied predicate mapReduceWith getAny",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "any",
           "normalized": "(Elem a-\u003eBool)-\u003ea-\u003eBool",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sum of a collection of actions, generalizing \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n    \u003ccode\u003e\u003ca\u003ereduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003egetAlt\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "asum",
           "package": "reducers",
@@ -127,6 +136,7 @@
         "index": {
           "description": "The sum of collection of actions generalizing concat reduceWith getAlt",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "asum",
           "normalized": "a-\u003eb c",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialization of \u003ca\u003efoldMap\u003c/a\u003e above\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "concatMap",
           "package": "reducers",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Type specialization of foldMap above",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "concatMap",
           "normalized": "(Elem a-\u003e[b])-\u003ea-\u003e[b]",
@@ -168,6 +180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck to see if \u003ccode\u003e\u003ca\u003eany\u003c/a\u003e\u003c/code\u003e member of the \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e matches the supplied value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "elem",
           "package": "reducers",
@@ -178,6 +191,7 @@
         "index": {
           "description": "Check to see if any member of the Generator matches the supplied value",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "elem",
           "normalized": "Elem a-\u003ea-\u003eBool",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e a subset of the elements in a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "filter",
           "package": "reducers",
@@ -203,6 +218,7 @@
         "index": {
           "description": "Efficiently mapReduce subset of the elements in Generator",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "filter",
           "normalized": "(Elem a-\u003eBool)-\u003ea-\u003eb",
@@ -218,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows idiomatic specialization of filter by proving a function that will be used to transform the output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "filterWith",
           "package": "reducers",
@@ -228,6 +245,7 @@
         "index": {
           "description": "Allows idiomatic specialization of filter by proving function that will be used to transform the output",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "filterWith",
           "normalized": "(a-\u003eb)-\u003e(Elem c-\u003eBool)-\u003ec-\u003eb",
@@ -244,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003ereduce\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e using the \u003ccode\u003e\u003ca\u003eWrappedMonoid\u003c/a\u003e\u003c/code\u003e monoid. A specialized version of its namesake from \u003ca\u003eData.Foldable\u003c/a\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003ereduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eunwrapMonoid\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "fold",
           "package": "reducers",
@@ -254,6 +273,7 @@
         "index": {
           "description": "Efficiently reduce Generator using the WrappedMonoid monoid specialized version of its namesake from Data.Foldable reduceWith unwrapMonoid",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "fold",
           "normalized": "a-\u003eb",
@@ -269,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e using the \u003ccode\u003e\u003ca\u003eWrappedMonoid\u003c/a\u003e\u003c/code\u003e monoid. A specialized version of its namesake from \u003ca\u003eData.Foldable\u003c/a\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003emapReduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eunwrapMonoid\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "foldMap",
           "package": "reducers",
@@ -279,6 +300,7 @@
         "index": {
           "description": "Efficiently mapReduce Generator using the WrappedMonoid monoid specialized version of its namesake from Data.Foldable mapReduceWith unwrapMonoid",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "foldMap",
           "normalized": "(Elem a-\u003eb)-\u003ea-\u003eb",
@@ -295,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function as found in \u003ca\u003eData.Foldable\u003c/a\u003e and \u003ca\u003eControl.Monad\u003c/a\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003emapM_\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "forM_",
           "package": "reducers",
@@ -305,6 +328,7 @@
         "index": {
           "description": "Convenience function as found in Data.Foldable and Control.Monad flip mapM",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "forM_",
           "normalized": "a-\u003e(Elem a-\u003eb c)-\u003eb()",
@@ -320,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function as found in \u003ca\u003eData.Foldable\u003c/a\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003etraverse_\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "for_",
           "package": "reducers",
@@ -330,6 +355,7 @@
         "index": {
           "description": "Convenience function as found in Data.Foldable flip traverse",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "for_",
           "normalized": "a-\u003e(Elem a-\u003eb c)-\u003eb()",
@@ -345,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e using the \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e monoid. A specialized version of its namesake from \u003ca\u003eData.Foldable\u003c/a\u003e and \u003ca\u003eControl.Monad\u003c/a\u003e\n\u003c/p\u003e\u003cpre\u003e\n    \u003ccode\u003e\u003ca\u003emapReduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetAction\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "mapM_",
           "package": "reducers",
@@ -355,6 +382,7 @@
         "index": {
           "description": "Efficiently mapReduce Generator using the Action monoid specialized version of its namesake from Data.Foldable and Control.Monad mapReduceWith getAction",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "mapM_",
           "normalized": "(Elem a-\u003eb c)-\u003ea-\u003eb()",
@@ -370,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sum of a collection of actions, generalizing \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003ereduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetMonadSum\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "msum",
           "package": "reducers",
@@ -380,6 +409,7 @@
         "index": {
           "description": "The sum of collection of actions generalizing concat reduceWith getMonadSum",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "msum",
           "normalized": "a-\u003eb c",
@@ -395,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck to make sure that the supplied value is not a member of the \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "notElem",
           "package": "reducers",
@@ -405,6 +436,7 @@
         "index": {
           "description": "Check to make sure that the supplied value is not member of the Generator",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "notElem",
           "normalized": "Elem a-\u003ea-\u003eBool",
@@ -421,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003ereduce\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e that contains values of type \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003ereduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetAny\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "or",
           "package": "reducers",
@@ -431,6 +464,7 @@
         "index": {
           "description": "Efficiently reduce Generator that contains values of type Bool reduceWith getAny",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "or",
           "normalized": "a-\u003eBool",
@@ -446,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently take the product of every member of a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003ereduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetProduct\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "product",
           "package": "reducers",
@@ -456,6 +491,7 @@
         "index": {
           "description": "Efficiently take the product of every member of Generator reduceWith getProduct",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "product",
           "normalized": "a-\u003eElem a",
@@ -471,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently sum over the members of any \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003ereduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetSum\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "sum",
           "package": "reducers",
@@ -481,6 +518,7 @@
         "index": {
           "description": "Efficiently sum over the members of any Generator reduceWith getSum",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "sum",
           "normalized": "a-\u003eElem a",
@@ -496,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert any \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e to a list of its contents. Specialization of \u003ccode\u003e\u003ca\u003ereduce\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "toList",
           "package": "reducers",
@@ -506,6 +545,7 @@
         "index": {
           "description": "Convert any Generator to list of its contents Specialization of reduce",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "toList",
           "normalized": "a-\u003e[Elem a]",
@@ -522,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e using the \u003ccode\u003e\u003ca\u003eTraversal\u003c/a\u003e\u003c/code\u003e monoid. A specialized version of its namesake from \u003ca\u003eData.Foldable\u003c/a\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetTraversal\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "traverse_",
           "package": "reducers",
@@ -532,6 +573,7 @@
         "index": {
           "description": "Efficiently mapReduce Generator using the Traversal monoid specialized version of its namesake from Data.Foldable mapReduce getTraversal",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator.Combinators",
           "name": "traverse_",
           "normalized": "(Elem a-\u003eb c)-\u003ea-\u003eb()",
@@ -547,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec\u003c/code\u003e is a possibly-specialized container, which contains values of\n type \u003ccode\u003e\u003ca\u003eElem\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec\u003c/code\u003e, and which knows how to efficiently apply a \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e to extract\n an answer.\n\u003c/p\u003e\u003cp\u003eSince a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e is not polymorphic in its contents, it is more specialized\n than \u003ca\u003eData.Foldable.Foldable\u003c/a\u003e, and a \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e may supply efficient left-to-right\n and right-to-left reduction strategies that a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e may avail itself of.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "Generator",
           "package": "reducers",
@@ -556,6 +599,7 @@
         "index": {
           "description": "Generator is possibly-specialized container which contains values of type Elem and which knows how to efficiently apply Reducer to extract an answer Since Generator is not polymorphic in its contents it is more specialized than Data.Foldable.Foldable and Reducer may supply efficient left-to-right and right-to-left reduction strategies that Generator may avail itself of",
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "Generator",
           "package": "reducers",
@@ -570,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e transformer that treats \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e\n This lets you use a \u003ccode\u003eByteString\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e source without going through a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e transformer like \u003ccode\u003eUTF8\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "Char8",
           "package": "reducers",
@@ -579,6 +624,7 @@
         "index": {
           "description": "Generator transformer that treats Word8 as Char This lets you use ByteString as Char source without going through Monoid transformer like UTF8",
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "Char8",
           "package": "reducers",
@@ -593,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eminimal definition \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emapTo\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "Generator",
           "package": "reducers",
@@ -602,6 +649,7 @@
         "index": {
           "description": "minimal definition mapReduce or mapTo",
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "Generator",
           "package": "reducers",
@@ -616,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e transformer that asks only for the keys of an indexed container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "Keys",
           "package": "reducers",
@@ -625,6 +674,7 @@
         "index": {
           "description": "Generator transformer that asks only for the keys of an indexed container",
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "Keys",
           "package": "reducers",
@@ -639,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e transformer that asks only for the values contained in an indexed container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "Values",
           "package": "reducers",
@@ -648,6 +699,7 @@
         "index": {
           "description": "Generator transformer that asks only for the values contained in an indexed container",
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "Values",
           "package": "reducers",
@@ -661,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "Char8",
           "package": "reducers",
@@ -670,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "Char8",
           "package": "reducers",
@@ -683,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "Keys",
           "package": "reducers",
@@ -692,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "Keys",
           "package": "reducers",
@@ -705,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "Values",
           "package": "reducers",
@@ -714,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "Values",
           "package": "reducers",
@@ -727,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "getChar8",
           "package": "reducers",
@@ -736,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "getChar8",
           "package": "reducers",
@@ -749,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "getKeys",
           "package": "reducers",
@@ -758,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "getKeys",
           "package": "reducers",
@@ -771,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "getValues",
           "package": "reducers",
@@ -780,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "getValues",
           "package": "reducers",
@@ -793,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "mapFrom",
           "package": "reducers",
@@ -802,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "mapFrom",
           "normalized": "(Elem a-\u003eb)-\u003ea-\u003ec-\u003ec",
@@ -817,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "mapReduce",
           "package": "reducers",
@@ -826,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "mapReduce",
           "normalized": "(Elem a-\u003eb)-\u003ea-\u003ec",
@@ -841,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "mapReduceWith",
           "package": "reducers",
@@ -850,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "mapReduceWith",
           "normalized": "(a-\u003eb)-\u003e(Elem c-\u003ed)-\u003ec-\u003eb",
@@ -865,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "mapTo",
           "package": "reducers",
@@ -874,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "mapTo",
           "normalized": "(Elem a-\u003eb)-\u003ec-\u003ea-\u003ec",
@@ -890,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e directly to the elements of a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "reduce",
           "package": "reducers",
@@ -900,6 +973,7 @@
         "index": {
           "description": "Apply Reducer directly to the elements of Generator",
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "reduce",
           "normalized": "a-\u003eb",
@@ -914,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Generator",
           "name": "reduceWith",
           "package": "reducers",
@@ -923,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Generator",
           "name": "reduceWith",
           "normalized": "(a-\u003eb)-\u003ec-\u003eb",
@@ -939,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA semigroup for working \u003ccode\u003e\u003ca\u003eAlt\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ePlus\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Alt",
           "name": "Alt",
           "package": "reducers",
@@ -948,6 +1025,7 @@
         "index": {
           "description": "semigroup for working Alt or Plus",
           "hierarchy": "Data Semigroup Alt",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Alt",
           "name": "Alt",
           "package": "reducers",
@@ -962,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eAlter\u003c/a\u003e\u003c/code\u003e turns any \u003ccode\u003e\u003ca\u003eAlt\u003c/a\u003e\u003c/code\u003e instance into a \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Alt",
           "name": "Alter",
           "package": "reducers",
@@ -971,6 +1050,7 @@
         "index": {
           "description": "Alter turns any Alt instance into Semigroup",
           "hierarchy": "Data Semigroup Alt",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Alt",
           "name": "Alter",
           "package": "reducers",
@@ -984,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Alt",
           "name": "Alter",
           "package": "reducers",
@@ -993,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Alt",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Alt",
           "name": "Alter",
           "package": "reducers",
@@ -1006,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Alt",
           "name": "getAlter",
           "package": "reducers",
@@ -1015,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Alt",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Alt",
           "name": "getAlter",
           "package": "reducers",
@@ -1029,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA semigroup for working with \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Alternative",
           "name": "Alternative",
           "package": "reducers",
@@ -1038,6 +1123,7 @@
         "index": {
           "description": "semigroup for working with Alternative Functor",
           "hierarchy": "Data Semigroup Alternative",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Alternative",
           "name": "Alternative",
           "package": "reducers",
@@ -1052,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eAlternate\u003c/a\u003e\u003c/code\u003e turns any \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instance into a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Alternative",
           "name": "Alternate",
           "package": "reducers",
@@ -1061,6 +1148,7 @@
         "index": {
           "description": "Alternate turns any Alternative instance into Monoid",
           "hierarchy": "Data Semigroup Alternative",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Alternative",
           "name": "Alternate",
           "package": "reducers",
@@ -1074,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Alternative",
           "name": "Alternate",
           "package": "reducers",
@@ -1083,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Alternative",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Alternative",
           "name": "Alternate",
           "package": "reducers",
@@ -1096,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Alternative",
           "name": "getAlternate",
           "package": "reducers",
@@ -1105,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Alternative",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Alternative",
           "name": "getAlternate",
           "package": "reducers",
@@ -1119,6 +1211,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSemigroups for working with \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Applicative",
           "name": "Applicative",
           "package": "reducers",
@@ -1128,6 +1221,7 @@
         "index": {
           "description": "Semigroups for working with Applicative Functor",
           "hierarchy": "Data Semigroup Applicative",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Applicative",
           "name": "Applicative",
           "package": "reducers",
@@ -1141,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Applicative",
           "name": "Ap",
           "package": "reducers",
@@ -1149,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Applicative",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Applicative",
           "name": "Ap",
           "package": "reducers",
@@ -1163,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTraversal\u003c/a\u003e\u003c/code\u003e uses an glues together \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e actions with (*\u003e)\n   in the manner of \u003ccode\u003etraverse_\u003c/code\u003e from \u003ca\u003eData.Foldable\u003c/a\u003e. Any values returned by\n   reduced actions are discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Applicative",
           "name": "Traversal",
           "package": "reducers",
@@ -1172,6 +1269,7 @@
         "index": {
           "description": "Traversal uses an glues together Applicative actions with in the manner of traverse from Data.Foldable Any values returned by reduced actions are discarded",
           "hierarchy": "Data Semigroup Applicative",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Applicative",
           "name": "Traversal",
           "package": "reducers",
@@ -1185,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Applicative",
           "name": "Ap",
           "package": "reducers",
@@ -1194,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Applicative",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Applicative",
           "name": "Ap",
           "package": "reducers",
@@ -1207,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Applicative",
           "name": "Traversal",
           "package": "reducers",
@@ -1216,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Applicative",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Applicative",
           "name": "Traversal",
           "package": "reducers",
@@ -1229,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Applicative",
           "name": "getApp",
           "package": "reducers",
@@ -1238,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Applicative",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Applicative",
           "name": "getApp",
           "package": "reducers",
@@ -1251,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Applicative",
           "name": "getTraversal",
           "package": "reducers",
@@ -1260,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Applicative",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Applicative",
           "name": "getTraversal",
           "normalized": "a()",
@@ -1276,6 +1382,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSemigroups for working with \u003ccode\u003e\u003ca\u003eApply\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Apply",
           "name": "Apply",
           "package": "reducers",
@@ -1285,6 +1392,7 @@
         "index": {
           "description": "Semigroups for working with Apply",
           "hierarchy": "Data Semigroup Apply",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Apply",
           "name": "Apply",
           "package": "reducers",
@@ -1299,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eApp\u003c/a\u003e\u003c/code\u003e turns any \u003ccode\u003e\u003ca\u003eApply\u003c/a\u003e\u003c/code\u003e wrapped around a \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Apply",
           "name": "App",
           "package": "reducers",
@@ -1308,6 +1417,7 @@
         "index": {
           "description": "App turns any Apply wrapped around Semigroup into Semigroup",
           "hierarchy": "Data Semigroup Apply",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Apply",
           "name": "App",
           "package": "reducers",
@@ -1322,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTrav\u003c/a\u003e\u003c/code\u003e uses an glues together \u003ccode\u003eApplicative\u003c/code\u003e actions with (*\u003e)\n   in the manner of \u003ccode\u003etraverse_\u003c/code\u003e from \u003ca\u003eData.Foldable\u003c/a\u003e. Any values returned by\n   reduced actions are discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Apply",
           "name": "Trav",
           "package": "reducers",
@@ -1331,6 +1442,7 @@
         "index": {
           "description": "Trav uses an glues together Applicative actions with in the manner of traverse from Data.Foldable Any values returned by reduced actions are discarded",
           "hierarchy": "Data Semigroup Apply",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Apply",
           "name": "Trav",
           "package": "reducers",
@@ -1344,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Apply",
           "name": "App",
           "package": "reducers",
@@ -1353,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Apply",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Apply",
           "name": "App",
           "package": "reducers",
@@ -1366,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Apply",
           "name": "Trav",
           "package": "reducers",
@@ -1375,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Apply",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Apply",
           "name": "Trav",
           "package": "reducers",
@@ -1388,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Apply",
           "name": "getApp",
           "package": "reducers",
@@ -1397,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Apply",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Apply",
           "name": "getApp",
           "package": "reducers",
@@ -1410,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Apply",
           "name": "getTrav",
           "package": "reducers",
@@ -1419,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Apply",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Apply",
           "name": "getTrav",
           "normalized": "a()",
@@ -1435,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eGenerator1\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec\u003c/code\u003e is a possibly-specialized container, which contains values of\n type \u003ccode\u003e\u003ca\u003eElem\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec\u003c/code\u003e, and which knows how to efficiently apply a \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e to extract\n an answer.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eGenerator1\u003c/a\u003e\u003c/code\u003e is to \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003e\u003ca\u003eFoldable1\u003c/a\u003e\u003c/code\u003e is to \u003ccode\u003eFoldable\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Generator",
           "name": "Generator",
           "package": "reducers",
@@ -1444,6 +1565,7 @@
         "index": {
           "description": "Generator1 is possibly-specialized container which contains values of type Elem and which knows how to efficiently apply Reducer to extract an answer Generator1 is to Generator as Foldable1 is to Foldable",
           "hierarchy": "Data Semigroup Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Generator",
           "name": "Generator",
           "package": "reducers",
@@ -1458,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eminimal definition \u003ccode\u003e\u003ca\u003emapReduce1\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emapTo1\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Generator",
           "name": "Generator1",
           "package": "reducers",
@@ -1467,6 +1590,7 @@
         "index": {
           "description": "minimal definition mapReduce1 or mapTo1",
           "hierarchy": "Data Semigroup Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Generator",
           "name": "Generator1",
           "package": "reducers",
@@ -1480,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Generator",
           "name": "mapFrom1",
           "package": "reducers",
@@ -1489,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Generator",
           "name": "mapFrom1",
           "normalized": "(Elem a-\u003eb)-\u003ea-\u003ec-\u003ec",
@@ -1504,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Generator",
           "name": "mapReduce1",
           "package": "reducers",
@@ -1513,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Generator",
           "name": "mapReduce1",
           "normalized": "(Elem a-\u003eb)-\u003ea-\u003ec",
@@ -1528,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Generator",
           "name": "mapReduceWith1",
           "package": "reducers",
@@ -1537,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Generator",
           "name": "mapReduceWith1",
           "normalized": "(a-\u003eb)-\u003e(Elem c-\u003ed)-\u003ec-\u003eb",
@@ -1552,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Generator",
           "name": "mapTo1",
           "package": "reducers",
@@ -1561,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Generator",
           "name": "mapTo1",
           "normalized": "(Elem a-\u003eb)-\u003ec-\u003ea-\u003ec",
@@ -1577,6 +1709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e directly to the elements of a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Generator",
           "name": "reduce1",
           "package": "reducers",
@@ -1587,6 +1720,7 @@
         "index": {
           "description": "Apply Reducer directly to the elements of Generator",
           "hierarchy": "Data Semigroup Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Generator",
           "name": "reduce1",
           "normalized": "a-\u003eb",
@@ -1601,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Generator",
           "name": "reduceWith1",
           "package": "reducers",
@@ -1610,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Generator",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Generator",
           "name": "reduceWith1",
           "normalized": "(a-\u003eb)-\u003ec-\u003eb",
@@ -1625,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Instances",
           "name": "Instances",
           "package": "reducers",
@@ -1633,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Instances",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Instances",
           "name": "Instances",
           "package": "reducers",
@@ -1647,6 +1785,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSemigroups for working with \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Monad",
           "name": "Monad",
           "package": "reducers",
@@ -1656,6 +1795,7 @@
         "index": {
           "description": "Semigroups for working with Monad",
           "hierarchy": "Data Semigroup Monad",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Monad",
           "name": "Monad",
           "package": "reducers",
@@ -1670,6 +1810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e uses an glues together monadic actions with (\u003e\u003e)\n   in the manner of \u003ccode\u003e\u003ca\u003emapM_\u003c/a\u003e\u003c/code\u003e from \u003ca\u003eData.Foldable\u003c/a\u003e. Any values returned by\n   reduced actions are discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Monad",
           "name": "Action",
           "package": "reducers",
@@ -1679,6 +1820,7 @@
         "index": {
           "description": "Action uses an glues together monadic actions with in the manner of mapM from Data.Foldable Any values returned by reduced actions are discarded",
           "hierarchy": "Data Semigroup Monad",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Monad",
           "name": "Action",
           "package": "reducers",
@@ -1692,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Monad",
           "name": "Mon",
           "package": "reducers",
@@ -1700,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Monad",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Monad",
           "name": "Mon",
           "package": "reducers",
@@ -1713,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Monad",
           "name": "Action",
           "package": "reducers",
@@ -1722,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Monad",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Monad",
           "name": "Action",
           "package": "reducers",
@@ -1735,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Monad",
           "name": "Mon",
           "package": "reducers",
@@ -1744,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Monad",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Monad",
           "name": "Mon",
           "package": "reducers",
@@ -1757,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Monad",
           "name": "getAction",
           "package": "reducers",
@@ -1766,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Monad",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Monad",
           "name": "getAction",
           "normalized": "a()",
@@ -1781,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Monad",
           "name": "getMon",
           "package": "reducers",
@@ -1790,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Monad",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Monad",
           "name": "getMon",
           "package": "reducers",
@@ -1804,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA semigroup for working with instances of \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.MonadPlus",
           "name": "MonadPlus",
           "package": "reducers",
@@ -1813,6 +1966,7 @@
         "index": {
           "description": "semigroup for working with instances of MonadPlus",
           "hierarchy": "Data Semigroup MonadPlus",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.MonadPlus",
           "name": "MonadPlus",
           "package": "reducers",
@@ -1827,6 +1981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMonadSum\u003c/a\u003e\u003c/code\u003e turns any \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e instance into a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.MonadPlus",
           "name": "MonadSum",
           "package": "reducers",
@@ -1836,6 +1991,7 @@
         "index": {
           "description": "MonadSum turns any MonadPlus instance into Monoid",
           "hierarchy": "Data Semigroup MonadPlus",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.MonadPlus",
           "name": "MonadSum",
           "package": "reducers",
@@ -1849,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.MonadPlus",
           "name": "MonadSum",
           "package": "reducers",
@@ -1858,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup MonadPlus",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.MonadPlus",
           "name": "MonadSum",
           "package": "reducers",
@@ -1871,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.MonadPlus",
           "name": "getMonadSum",
           "package": "reducers",
@@ -1880,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup MonadPlus",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.MonadPlus",
           "name": "getMonadSum",
           "package": "reducers",
@@ -1893,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer.With",
           "name": "With",
           "package": "reducers",
@@ -1901,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Reducer With",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer.With",
           "name": "With",
           "package": "reducers",
@@ -1915,6 +2077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003em\u003c/code\u003e is a \u003ccode\u003ec\u003c/code\u003e-\u003ca\u003eReducer\u003c/a\u003e, then m is \u003ccode\u003e(c \u003ccode\u003e\u003ca\u003eWithReducer\u003c/a\u003e\u003c/code\u003e m)\u003c/code\u003e-\u003ca\u003eReducer\u003c/a\u003e\n   This can be used to quickly select a \u003ca\u003eReducer\u003c/a\u003e for use as a \u003ccode\u003e\u003ca\u003eFingerTree\u003c/a\u003e\u003c/code\u003e\n   \u003ccode\u003e\u003ca\u003emeasure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer.With",
           "name": "WithReducer",
           "package": "reducers",
@@ -1924,6 +2087,7 @@
         "index": {
           "description": "If is Reducer then is WithReducer Reducer This can be used to quickly select Reducer for use as FingerTree measure",
           "hierarchy": "Data Semigroup Reducer With",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer.With",
           "name": "WithReducer",
           "package": "reducers",
@@ -1937,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer.With",
           "name": "WithReducer",
           "package": "reducers",
@@ -1946,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Reducer With",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer.With",
           "name": "WithReducer",
           "package": "reducers",
@@ -1959,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer.With",
           "name": "withoutReducer",
           "package": "reducers",
@@ -1968,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Reducer With",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer.With",
           "name": "withoutReducer",
           "package": "reducers",
@@ -1982,6 +2150,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ccode\u003ec\u003c/code\u003e-\u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e with a canonical mapping from \u003ccode\u003ec\u003c/code\u003e to the Semigroup.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer",
           "name": "Reducer",
           "package": "reducers",
@@ -1991,6 +2160,7 @@
         "index": {
           "description": "Reducer is Semigroup with canonical mapping from to the Semigroup",
           "hierarchy": "Data Semigroup Reducer",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer",
           "name": "Reducer",
           "package": "reducers",
@@ -2004,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer",
           "name": "Count",
           "package": "reducers",
@@ -2012,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Reducer",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer",
           "name": "Count",
           "package": "reducers",
@@ -2026,6 +2198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type may be best read infix. A \u003ccode\u003ec \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e \u003ccode\u003em\u003c/code\u003e that maps\n values of type \u003ccode\u003ec\u003c/code\u003e through \u003ccode\u003eunit\u003c/code\u003e to values of type \u003ccode\u003em\u003c/code\u003e. A \u003ccode\u003ec\u003c/code\u003e-\u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e may also\n supply operations which tack-on another \u003ccode\u003ec\u003c/code\u003e to an existing \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003em\u003c/code\u003e on the left\n or right. These specialized reductions may be more efficient in some scenarios\n and are used when appropriate by a \u003ccode\u003eGenerator\u003c/code\u003e. The names \u003ccode\u003e\u003ca\u003econs\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esnoc\u003c/a\u003e\u003c/code\u003e work\n by analogy to the synonymous operations in the list monoid.\n\u003c/p\u003e\u003cp\u003eThis class deliberately avoids functional-dependencies, so that () can be a \u003ccode\u003ec\u003c/code\u003e-Reducer\n for all \u003ccode\u003ec\u003c/code\u003e, and so many common reducers can work over multiple types, for instance,\n First and Last may reduce both \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e. Since a \u003ccode\u003eGenerator\u003c/code\u003e has a fixed element\n type, the input to the reducer is generally known and extracting from the monoid usually\n is sufficient to fix the result type. Combinators are available for most scenarios where\n this is not the case, and the few remaining cases can be handled by using an explicit\n type annotation.\n\u003c/p\u003e\u003cp\u003eMinimal definition: \u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer",
           "name": "Reducer",
           "package": "reducers",
@@ -2035,6 +2208,7 @@
         "index": {
           "description": "This type may be best read infix Reducer is Semigroup that maps values of type through unit to values of type Reducer may also supply operations which tack-on another to an existing Monoid on the left or right These specialized reductions may be more efficient in some scenarios and are used when appropriate by Generator The names cons and snoc work by analogy to the synonymous operations in the list monoid This class deliberately avoids functional-dependencies so that can be Reducer for all and so many common reducers can work over multiple types for instance First and Last may reduce both and Maybe Since Generator has fixed element type the input to the reducer is generally known and extracting from the monoid usually is sufficient to fix the result type Combinators are available for most scenarios where this is not the case and the few remaining cases can be handled by using an explicit type annotation Minimal definition unit",
           "hierarchy": "Data Semigroup Reducer",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer",
           "name": "Reducer",
           "package": "reducers",
@@ -2048,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer",
           "name": "Count",
           "package": "reducers",
@@ -2057,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Reducer",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer",
           "name": "Count",
           "package": "reducers",
@@ -2071,6 +2247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepend a value onto a \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e for use during right-to-left reduction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer",
           "name": "cons",
           "package": "reducers",
@@ -2081,6 +2258,7 @@
         "index": {
           "description": "Prepend value onto Semigroup for use during right-to-left reduction",
           "hierarchy": "Data Semigroup Reducer",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer",
           "name": "cons",
           "normalized": "a-\u003eb-\u003eb",
@@ -2096,6 +2274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e container, after mapping the contents into a suitable form for reduction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer",
           "name": "foldMapReduce",
           "package": "reducers",
@@ -2106,6 +2285,7 @@
         "index": {
           "description": "Apply Reducer to Foldable container after mapping the contents into suitable form for reduction",
           "hierarchy": "Data Semigroup Reducer",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer",
           "name": "foldMapReduce",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ed",
@@ -2121,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer",
           "name": "foldMapReduce1",
           "package": "reducers",
@@ -2130,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Reducer",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer",
           "name": "foldMapReduce1",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ed",
@@ -2146,6 +2328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e mapping each element through \u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer",
           "name": "foldReduce",
           "package": "reducers",
@@ -2156,6 +2339,7 @@
         "index": {
           "description": "Apply Reducer to Foldable mapping each element through unit",
           "hierarchy": "Data Semigroup Reducer",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer",
           "name": "foldReduce",
           "normalized": "a b-\u003ec",
@@ -2172,6 +2356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eFoldable1\u003c/a\u003e\u003c/code\u003e mapping each element through \u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer",
           "name": "foldReduce1",
           "package": "reducers",
@@ -2182,6 +2367,7 @@
         "index": {
           "description": "Apply Reducer to Foldable1 mapping each element through unit",
           "hierarchy": "Data Semigroup Reducer",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer",
           "name": "foldReduce1",
           "normalized": "a b-\u003ec",
@@ -2197,6 +2383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer",
           "name": "getCount",
           "package": "reducers",
@@ -2206,6 +2393,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Reducer",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer",
           "name": "getCount",
           "package": "reducers",
@@ -2219,6 +2407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer",
           "name": "pureUnit",
           "package": "reducers",
@@ -2228,6 +2417,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Reducer",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer",
           "name": "pureUnit",
           "normalized": "a-\u003eb c",
@@ -2243,6 +2433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer",
           "name": "returnUnit",
           "package": "reducers",
@@ -2252,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Reducer",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer",
           "name": "returnUnit",
           "normalized": "a-\u003eb c",
@@ -2268,6 +2460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend a value to a \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e for use in left-to-right reduction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer",
           "name": "snoc",
           "package": "reducers",
@@ -2278,6 +2471,7 @@
         "index": {
           "description": "Append value to Semigroup for use in left-to-right reduction",
           "hierarchy": "Data Semigroup Reducer",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer",
           "name": "snoc",
           "normalized": "a-\u003eb-\u003ea",
@@ -2293,6 +2487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value into a \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Reducer",
           "name": "unit",
           "package": "reducers",
@@ -2303,6 +2498,7 @@
         "index": {
           "description": "Convert value into Semigroup",
           "hierarchy": "Data Semigroup Reducer",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Reducer",
           "name": "unit",
           "normalized": "a-\u003eb",
@@ -2318,6 +2514,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e transformer that takes a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e m and produces a new \u003ccode\u003em\u003c/code\u003e-Reducer named \u003ccode\u003e\u003ca\u003eSelf\u003c/a\u003e\u003c/code\u003e \u003ccode\u003em\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThis is useful when you have a generator that already contains monoidal values or someone supplies\n the map to the monoid in the form of a function rather than as a \u003ca\u003eReducer\u003c/a\u003e instance. You can just\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003egetSelf\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003ereduce\u003c/code\u003e\u003c/code\u003e or \u003ccode\u003e\u003ccode\u003e\u003ca\u003egetSelf\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003emapReduce\u003c/code\u003e f\u003c/code\u003e in those scenarios. These behaviors are encapsulated\n into the \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efoldMap\u003c/a\u003e\u003c/code\u003e combinators in \u003ca\u003eData.Monoid.Combinators\u003c/a\u003e respectively.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Self",
           "name": "Self",
           "package": "reducers",
@@ -2327,6 +2524,7 @@
         "index": {
           "description": "simple Monoid transformer that takes Monoid and produces new Reducer named Self This is useful when you have generator that already contains monoidal values or someone supplies the map to the monoid in the form of function rather than as Reducer instance You can just getSelf reduce or getSelf mapReduce in those scenarios These behaviors are encapsulated into the fold and foldMap combinators in Data.Monoid.Combinators respectively",
           "hierarchy": "Data Semigroup Self",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Self",
           "name": "Self",
           "package": "reducers",
@@ -2340,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Self",
           "name": "Self",
           "package": "reducers",
@@ -2348,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Self",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Self",
           "name": "Self",
           "package": "reducers",
@@ -2361,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Self",
           "name": "Self",
           "package": "reducers",
@@ -2370,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Self",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Self",
           "name": "Self",
           "package": "reducers",
@@ -2383,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Self",
           "name": "getSelf",
           "package": "reducers",
@@ -2392,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Self",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Self",
           "name": "getSelf",
           "package": "reducers",
@@ -2405,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "Union",
           "package": "reducers",
@@ -2413,6 +2618,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "Union",
           "package": "reducers",
@@ -2427,6 +2633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Container suitable for the \u003ccode\u003e\u003ca\u003eUnion\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "HasUnion",
           "package": "reducers",
@@ -2436,6 +2643,7 @@
         "index": {
           "description": "Container suitable for the Union Monoid",
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "HasUnion",
           "package": "reducers",
@@ -2449,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "HasUnion0",
           "package": "reducers",
@@ -2457,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "HasUnion0",
           "package": "reducers",
@@ -2471,6 +2681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolymorphic containers that we can supply an operation to handle unions with\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "HasUnionWith",
           "package": "reducers",
@@ -2480,6 +2691,7 @@
         "index": {
           "description": "Polymorphic containers that we can supply an operation to handle unions with",
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "HasUnionWith",
           "package": "reducers",
@@ -2493,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "HasUnionWith0",
           "package": "reducers",
@@ -2501,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "HasUnionWith0",
           "package": "reducers",
@@ -2515,6 +2729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "Union",
           "package": "reducers",
@@ -2524,6 +2739,7 @@
         "index": {
           "description": "The Monoid union empty",
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "Union",
           "package": "reducers",
@@ -2538,6 +2754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e('unionWith mappend',\u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e for containers full of monoids.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "UnionWith",
           "package": "reducers",
@@ -2547,6 +2764,7 @@
         "index": {
           "description": "The Monoid unionWith mappend empty for containers full of monoids",
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "UnionWith",
           "package": "reducers",
@@ -2560,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "Union",
           "package": "reducers",
@@ -2569,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "Union",
           "package": "reducers",
@@ -2582,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "UnionWith",
           "package": "reducers",
@@ -2591,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "UnionWith",
           "package": "reducers",
@@ -2604,6 +2826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "empty",
           "package": "reducers",
@@ -2613,6 +2836,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "empty",
           "package": "reducers",
@@ -2625,6 +2849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "emptyWith",
           "package": "reducers",
@@ -2634,6 +2859,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "emptyWith",
           "package": "reducers",
@@ -2647,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "getUnion",
           "package": "reducers",
@@ -2656,6 +2883,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "getUnion",
           "package": "reducers",
@@ -2669,6 +2897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "getUnionWith",
           "package": "reducers",
@@ -2678,6 +2907,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "getUnionWith",
           "package": "reducers",
@@ -2691,6 +2921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "union",
           "package": "reducers",
@@ -2700,6 +2931,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "union",
           "normalized": "a-\u003ea-\u003ea",
@@ -2714,6 +2946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:18 UTC 2014",
           "module": "Data.Semigroup.Union",
           "name": "unionWith",
           "package": "reducers",
@@ -2723,6 +2956,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Union",
+          "indexed": "2014-03-11T19:50:18",
           "module": "Data.Semigroup.Union",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003eb a-\u003eb a",

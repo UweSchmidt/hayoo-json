@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Workflow"
+        "phrase": "Workflow",
+        "type": "phrase"
       },
       "type": "context"
     }

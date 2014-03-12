@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "siphash"
+        "phrase": "siphash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eprovide the SipHash algorithm.\n reference: \u003ca\u003ehttp://131002.net/siphash/siphash.pdf\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:53 UTC 2014",
           "module": "Crypto.MAC.SipHash",
           "name": "SipHash",
           "package": "siphash",
@@ -28,6 +29,7 @@
         "index": {
           "description": "provide the SipHash algorithm reference http net siphash siphash.pdf",
           "hierarchy": "Crypto MAC SipHash",
+          "indexed": "2014-03-11T20:03:53",
           "module": "Crypto.MAC.SipHash",
           "name": "SipHash",
           "package": "siphash",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSiphash tag value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:53 UTC 2014",
           "module": "Crypto.MAC.SipHash",
           "name": "SipHash",
           "package": "siphash",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Siphash tag value",
           "hierarchy": "Crypto MAC SipHash",
+          "indexed": "2014-03-11T20:03:53",
           "module": "Crypto.MAC.SipHash",
           "name": "SipHash",
           "package": "siphash",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigHash Key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:53 UTC 2014",
           "module": "Crypto.MAC.SipHash",
           "name": "SipKey",
           "package": "siphash",
@@ -74,6 +79,7 @@
         "index": {
           "description": "SigHash Key",
           "hierarchy": "Crypto MAC SipHash",
+          "indexed": "2014-03-11T20:03:53",
           "module": "Crypto.MAC.SipHash",
           "name": "SipKey",
           "package": "siphash",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:53 UTC 2014",
           "module": "Crypto.MAC.SipHash",
           "name": "SipHash",
           "package": "siphash",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC SipHash",
+          "indexed": "2014-03-11T20:03:53",
           "module": "Crypto.MAC.SipHash",
           "name": "SipHash",
           "package": "siphash",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:53 UTC 2014",
           "module": "Crypto.MAC.SipHash",
           "name": "SipKey",
           "package": "siphash",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Crypto MAC SipHash",
+          "indexed": "2014-03-11T20:03:53",
           "module": "Crypto.MAC.SipHash",
           "name": "SipKey",
           "package": "siphash",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eproduce a siphash with a key and a bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:53 UTC 2014",
           "module": "Crypto.MAC.SipHash",
           "name": "hash",
           "package": "siphash",
@@ -142,6 +153,7 @@
         "index": {
           "description": "produce siphash with key and bytestring",
           "hierarchy": "Crypto MAC SipHash",
+          "indexed": "2014-03-11T20:03:53",
           "module": "Crypto.MAC.SipHash",
           "name": "hash",
           "normalized": "SipKey-\u003eByteString-\u003eSipHash",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esame as \u003ccode\u003e\u003ca\u003ehash\u003c/a\u003e\u003c/code\u003e, except also specifies the number of sipround iterations for compression and digest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:53 UTC 2014",
           "module": "Crypto.MAC.SipHash",
           "name": "hashWith",
           "package": "siphash",
@@ -167,6 +180,7 @@
         "index": {
           "description": "same as hash except also specifies the number of sipround iterations for compression and digest",
           "hierarchy": "Crypto MAC SipHash",
+          "indexed": "2014-03-11T20:03:53",
           "module": "Crypto.MAC.SipHash",
           "name": "hashWith",
           "normalized": "Int-\u003eInt-\u003eSipKey-\u003eByteString-\u003eSipHash",

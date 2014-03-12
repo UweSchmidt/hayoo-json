@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "PArrows"
+        "phrase": "PArrows",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "Char",
           "package": "PArrows",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow Char",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "Char",
           "package": "PArrows",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a letter or a digit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "alnum",
           "package": "PArrows",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Match letter or digit",
           "hierarchy": "Text ParserCombinators PArrow Char",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "alnum",
           "package": "PArrows",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "anyChar",
           "package": "PArrows",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Match character",
           "hierarchy": "Text ParserCombinators PArrow Char",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "anyChar",
           "package": "PArrows",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any character in the given list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "anyOf",
           "package": "PArrows",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Match any character in the given list",
           "hierarchy": "Text ParserCombinators PArrow Char",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "anyOf",
           "normalized": "[Char]-\u003eMD a Char",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a single given character and return it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "char",
           "package": "PArrows",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Match single given character and return it",
           "hierarchy": "Text ParserCombinators PArrow Char",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "char",
           "normalized": "Char-\u003eMD a Char",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a digit (0..9)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "digit",
           "package": "PArrows",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Match digit",
           "hierarchy": "Text ParserCombinators PArrow Char",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "digit",
           "package": "PArrows",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a letter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "letter",
           "package": "PArrows",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Match letter",
           "hierarchy": "Text ParserCombinators PArrow Char",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "letter",
           "package": "PArrows",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a sequence of whitespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "spaces",
           "package": "PArrows",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Match sequence of whitespace",
           "hierarchy": "Text ParserCombinators PArrow Char",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "spaces",
           "package": "PArrows",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a constant string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "string",
           "package": "PArrows",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Match constant string",
           "hierarchy": "Text ParserCombinators PArrow Char",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "string",
           "normalized": "String-\u003eMD a String",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a single whitespace character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "white",
           "package": "PArrows",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Match single whitespace character",
           "hierarchy": "Text ParserCombinators PArrow Char",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "white",
           "package": "PArrows",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a word consisting of wordChars.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "word",
           "package": "PArrows",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Match word consisting of wordChars",
           "hierarchy": "Text ParserCombinators PArrow Char",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "word",
           "package": "PArrows",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a \u003ccode\u003e\u003ca\u003eword\u003c/a\u003e\u003c/code\u003e character - (alnum or '_')\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "wordChar",
           "package": "PArrows",
@@ -288,6 +311,7 @@
         "index": {
           "description": "Match word character alnum or",
           "hierarchy": "Text ParserCombinators PArrow Char",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Char",
           "name": "wordChar",
           "package": "PArrows",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "Combinator",
           "package": "PArrows",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow Combinator",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "Combinator",
           "package": "PArrows",
@@ -323,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence two parsers and return the result of the first one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "(\u003e\u003e!)",
           "package": "PArrows",
@@ -333,6 +360,7 @@
         "index": {
           "description": "Sequence two parsers and return the result of the first one",
           "hierarchy": "Text ParserCombinators PArrow Combinator",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "(\u003e\u003e!) \u003e\u003e!",
           "normalized": "a b c-\u003ea b d-\u003ea b c",
@@ -348,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the first, middle and last argument, returning the value from the middle one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "between",
           "package": "PArrows",
@@ -358,6 +387,7 @@
         "index": {
           "description": "Match the first middle and last argument returning the value from the middle one",
           "hierarchy": "Text ParserCombinators PArrow Combinator",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "between",
           "normalized": "MD a b-\u003eMD b c-\u003eMD b d-\u003eMD a d",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the given parser n times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "count",
           "package": "PArrows",
@@ -383,6 +414,7 @@
         "index": {
           "description": "Match the given parser times",
           "hierarchy": "Text ParserCombinators PArrow Combinator",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "count",
           "normalized": "Int-\u003eMD a b-\u003eMD a[b]",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "empty",
           "package": "PArrows",
@@ -408,6 +441,7 @@
         "index": {
           "description": "Match the empty string",
           "hierarchy": "Text ParserCombinators PArrow Combinator",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "empty",
           "package": "PArrows",
@@ -421,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch zero or more occurences of the given parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "many",
           "package": "PArrows",
@@ -431,6 +466,7 @@
         "index": {
           "description": "Match zero or more occurences of the given parser",
           "hierarchy": "Text ParserCombinators PArrow Combinator",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "many",
           "normalized": "MD a b-\u003eMD a[b]",
@@ -446,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch one or more occurences of the given parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "many1",
           "package": "PArrows",
@@ -456,6 +493,7 @@
         "index": {
           "description": "Match one or more occurences of the given parser",
           "hierarchy": "Text ParserCombinators PArrow Combinator",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "many1",
           "normalized": "MD a b-\u003eMD a[b]",
@@ -471,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch if the given parser does not match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "notFollowedBy",
           "package": "PArrows",
@@ -481,6 +520,7 @@
         "index": {
           "description": "Match if the given parser does not match",
           "hierarchy": "Text ParserCombinators PArrow Combinator",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "notFollowedBy",
           "normalized": "MD a b-\u003eMD a b",
@@ -497,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch optionally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "optional",
           "package": "PArrows",
@@ -507,6 +548,7 @@
         "index": {
           "description": "Match optionally",
           "hierarchy": "Text ParserCombinators PArrow Combinator",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "optional",
           "normalized": "MD a b-\u003eMD a(Maybe b)",
@@ -522,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch one or more occurences of the given parser separated by the sepator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "sepBy1",
           "package": "PArrows",
@@ -532,6 +575,7 @@
         "index": {
           "description": "Match one or more occurences of the given parser separated by the sepator",
           "hierarchy": "Text ParserCombinators PArrow Combinator",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Combinator",
           "name": "sepBy1",
           "normalized": "MD a b-\u003eMD a c-\u003eMD a[b]",
@@ -547,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MD",
           "package": "PArrows",
@@ -555,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow MD",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MD",
           "package": "PArrows",
@@ -568,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MD",
           "package": "PArrows",
@@ -576,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow MD",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MD",
           "package": "PArrows",
@@ -589,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MCSet",
           "package": "PArrows",
@@ -598,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow MD",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MCSet",
           "normalized": "CharSet-\u003eMD a Char",
@@ -613,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MChoice",
           "package": "PArrows",
@@ -622,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow MD",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MChoice",
           "normalized": "[MD a b]-\u003eMD a b",
@@ -637,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MEmpty",
           "package": "PArrows",
@@ -646,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow MD",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MEmpty",
           "package": "PArrows",
@@ -659,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MEqual",
           "package": "PArrows",
@@ -668,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow MD",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MEqual",
           "normalized": "Char-\u003eMD a Char",
@@ -683,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MJoin",
           "package": "PArrows",
@@ -692,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow MD",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MJoin",
           "normalized": "MD a b-\u003eMD a b-\u003eMD a(b,b)",
@@ -707,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MNot",
           "package": "PArrows",
@@ -716,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow MD",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MNot",
           "normalized": "MD a b-\u003eMD a b",
@@ -731,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MParWire",
           "package": "PArrows",
@@ -740,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow MD",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MParWire",
           "normalized": "MD a b-\u003eMD a b-\u003eMD(a,a)(b,b)",
@@ -755,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MPure",
           "package": "PArrows",
@@ -764,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow MD",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MPure",
           "normalized": "String-\u003e(a-\u003eb)-\u003eMD a b",
@@ -779,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MSeq",
           "package": "PArrows",
@@ -788,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow MD",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MSeq",
           "normalized": "MD a b-\u003eMD b c-\u003eMD a c",
@@ -803,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MStar",
           "package": "PArrows",
@@ -812,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow MD",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.MD",
           "name": "MStar",
           "normalized": "MD a b-\u003eMD a[b]",
@@ -827,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Prim",
           "name": "Prim",
           "package": "PArrows",
@@ -835,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow Prim",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Prim",
           "name": "Prim",
           "package": "PArrows",
@@ -849,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a parser producing either a list of error messages or output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.Prim",
           "name": "runParser",
           "package": "PArrows",
@@ -859,6 +930,7 @@
         "index": {
           "description": "Run parser producing either list of error messages or output",
           "hierarchy": "Text ParserCombinators PArrow Prim",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.Prim",
           "name": "runParser",
           "normalized": "MD a b-\u003eString-\u003eEither[String]b",
@@ -874,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.ToJavaScript",
           "name": "ToJavaScript",
           "package": "PArrows",
@@ -882,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow ToJavaScript",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.ToJavaScript",
           "name": "ToJavaScript",
           "package": "PArrows",
@@ -896,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSCompiler encapsulates the state of the JavaScript compiler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.ToJavaScript",
           "name": "JSCompiler",
           "package": "PArrows",
@@ -905,6 +980,7 @@
         "index": {
           "description": "JSCompiler encapsulates the state of the JavaScript compiler",
           "hierarchy": "Text ParserCombinators PArrow ToJavaScript",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.ToJavaScript",
           "name": "JSCompiler",
           "package": "PArrows",
@@ -919,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSFun encapsulates a reference to a JavaScript function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.ToJavaScript",
           "name": "JSFun",
           "package": "PArrows",
@@ -928,6 +1005,7 @@
         "index": {
           "description": "JSFun encapsulates reference to JavaScript function",
           "hierarchy": "Text ParserCombinators PArrow ToJavaScript",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.ToJavaScript",
           "name": "JSFun",
           "package": "PArrows",
@@ -942,6 +1020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a parser into JavaScript. Returns a reference to the top-level\n Parsing function. The generated javascript function expects a String and\n a starting index for parsing. The result will be either the index of the\n rightmost character matched or -1 if the parser failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.ToJavaScript",
           "name": "compileJS",
           "package": "PArrows",
@@ -952,6 +1031,7 @@
         "index": {
           "description": "Compile parser into JavaScript Returns reference to the top-level Parsing function The generated javascript function expects String and starting index for parsing The result will be either the index of the rightmost character matched or if the parser failed",
           "hierarchy": "Text ParserCombinators PArrow ToJavaScript",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.ToJavaScript",
           "name": "compileJS",
           "normalized": "JSCompiler-\u003eMD a b-\u003eIO JSFun",
@@ -968,6 +1048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump all bodies of generated JavaScript functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.ToJavaScript",
           "name": "dumpBodies",
           "package": "PArrows",
@@ -978,6 +1059,7 @@
         "index": {
           "description": "Dump all bodies of generated JavaScript functions",
           "hierarchy": "Text ParserCombinators PArrow ToJavaScript",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.ToJavaScript",
           "name": "dumpBodies",
           "normalized": "JSCompiler-\u003eIO[(JSFun,String)]",
@@ -994,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new JavaScript compiler using the suplied string as prefix.\n Returns the compiler and a function for showing function references.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow.ToJavaScript",
           "name": "newJSCompiler",
           "package": "PArrows",
@@ -1004,6 +1087,7 @@
         "index": {
           "description": "Create new JavaScript compiler using the suplied string as prefix Returns the compiler and function for showing function references",
           "hierarchy": "Text ParserCombinators PArrow ToJavaScript",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow.ToJavaScript",
           "name": "newJSCompiler",
           "normalized": "String-\u003eIO(JSCompiler,JSFun-\u003eString)",
@@ -1019,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:13 UTC 2014",
           "module": "Text.ParserCombinators.PArrow",
           "name": "PArrow",
           "package": "PArrows",
@@ -1027,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators PArrow",
+          "indexed": "2014-03-11T16:56:13",
           "module": "Text.ParserCombinators.PArrow",
           "name": "PArrow",
           "package": "PArrows",

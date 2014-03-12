@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DnaProteinAlignment"
+        "phrase": "DnaProteinAlignment",
+        "type": "phrase"
       },
       "type": "context"
     }

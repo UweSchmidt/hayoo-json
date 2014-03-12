@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsXenCtrl"
+        "phrase": "hsXenCtrl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "CBindings",
           "package": "hsXenCtrl",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "CBindings",
           "package": "hsXenCtrl",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDomId identifies the Xen VM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "DomId",
           "package": "hsXenCtrl",
@@ -49,6 +52,7 @@
         "index": {
           "description": "DomId identifies the Xen VM",
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "DomId",
           "package": "hsXenCtrl",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "DomId_t",
           "package": "hsXenCtrl",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "DomId_t",
           "package": "hsXenCtrl",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "Dumpcore_rtn_t",
           "package": "hsXenCtrl",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "Dumpcore_rtn_t",
           "package": "hsXenCtrl",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "EventChanPortOrError",
           "package": "hsXenCtrl",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "EventChanPortOrError",
           "package": "hsXenCtrl",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "EventChannelPort",
           "package": "hsXenCtrl",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "EventChannelPort",
           "package": "hsXenCtrl",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "GTHandle",
           "package": "hsXenCtrl",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "GTHandle",
           "package": "hsXenCtrl",
@@ -168,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user of MMUExtOp must perform their own marshaling operations, note the lack of a Storable instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "MMUExtOp",
           "package": "hsXenCtrl",
@@ -177,6 +192,7 @@
         "index": {
           "description": "The user of MMUExtOp must perform their own marshaling operations note the lack of Storable instance",
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "MMUExtOp",
           "package": "hsXenCtrl",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "MemoryProtectionFlags",
           "package": "hsXenCtrl",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "MemoryProtectionFlags",
           "package": "hsXenCtrl",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "PerfcOp",
           "package": "hsXenCtrl",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "PerfcOp",
           "package": "hsXenCtrl",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "VCPUInfo",
           "package": "hsXenCtrl",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "VCPUInfo",
           "package": "hsXenCtrl",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCCPUInfo",
           "package": "hsXenCtrl",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCCPUInfo",
           "package": "hsXenCtrl",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCDomInfo",
           "package": "hsXenCtrl",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCDomInfo",
           "package": "hsXenCtrl",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCEHandle",
           "package": "hsXenCtrl",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCEHandle",
           "package": "hsXenCtrl",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCError",
           "package": "hsXenCtrl",
@@ -324,6 +353,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCError",
           "package": "hsXenCtrl",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCErrorCode",
           "package": "hsXenCtrl",
@@ -345,6 +376,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCErrorCode",
           "package": "hsXenCtrl",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCErrorHandler",
           "package": "hsXenCtrl",
@@ -366,6 +399,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCErrorHandler",
           "package": "hsXenCtrl",
@@ -380,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXen Control Handle identifies the IO channel through which must functions will pass their messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCHandle",
           "package": "hsXenCtrl",
@@ -389,6 +424,7 @@
         "index": {
           "description": "Xen Control Handle identifies the IO channel through which must functions will pass their messages",
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCHandle",
           "package": "hsXenCtrl",
@@ -402,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCPhysInfo",
           "package": "hsXenCtrl",
@@ -410,6 +447,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCPhysInfo",
           "package": "hsXenCtrl",
@@ -424,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHUTDOWN constants matching those found in \u003ca\u003exen/sched.h\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCShutdown",
           "package": "hsXenCtrl",
@@ -433,6 +472,7 @@
         "index": {
           "description": "SHUTDOWN constants matching those found in xen sched.h",
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCShutdown",
           "package": "hsXenCtrl",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCperfcDesc",
           "package": "hsXenCtrl",
@@ -454,6 +495,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCperfcDesc",
           "package": "hsXenCtrl",
@@ -467,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCperfcVal",
           "package": "hsXenCtrl",
@@ -475,6 +518,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCperfcVal",
           "package": "hsXenCtrl",
@@ -488,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XenDomainHandleT",
           "package": "hsXenCtrl",
@@ -496,6 +541,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XenDomainHandleT",
           "package": "hsXenCtrl",
@@ -509,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XenPFN",
           "package": "hsXenCtrl",
@@ -517,6 +564,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XenPFN",
           "package": "hsXenCtrl",
@@ -530,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XenVersion",
           "package": "hsXenCtrl",
@@ -538,6 +587,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XenVersion",
           "package": "hsXenCtrl",
@@ -574,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "ECPort",
           "package": "hsXenCtrl",
@@ -583,6 +634,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "ECPort",
           "package": "hsXenCtrl",
@@ -596,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "GTHandle",
           "package": "hsXenCtrl",
@@ -605,6 +658,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "GTHandle",
           "package": "hsXenCtrl",
@@ -618,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "MMUExtOp",
           "package": "hsXenCtrl",
@@ -627,6 +682,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "MMUExtOp",
           "package": "hsXenCtrl",
@@ -640,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "SHUTDOWN_crash",
           "package": "hsXenCtrl",
@@ -649,6 +706,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "SHUTDOWN_crash",
           "package": "hsXenCtrl",
@@ -662,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "SHUTDOWN_poweroff",
           "package": "hsXenCtrl",
@@ -671,6 +730,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "SHUTDOWN_poweroff",
           "package": "hsXenCtrl",
@@ -684,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "SHUTDOWN_reboot",
           "package": "hsXenCtrl",
@@ -693,6 +754,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "SHUTDOWN_reboot",
           "package": "hsXenCtrl",
@@ -706,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "SHUTDOWN_suspend",
           "package": "hsXenCtrl",
@@ -715,6 +778,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "SHUTDOWN_suspend",
           "package": "hsXenCtrl",
@@ -728,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "VCPUInfo",
           "package": "hsXenCtrl",
@@ -737,6 +802,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "VCPUInfo",
           "package": "hsXenCtrl",
@@ -750,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCCPUInfo",
           "package": "hsXenCtrl",
@@ -759,6 +826,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCCPUInfo",
           "package": "hsXenCtrl",
@@ -772,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCEHandle",
           "package": "hsXenCtrl",
@@ -781,6 +850,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCEHandle",
           "package": "hsXenCtrl",
@@ -794,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCError",
           "package": "hsXenCtrl",
@@ -803,6 +874,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCError",
           "package": "hsXenCtrl",
@@ -816,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCErrorNone",
           "package": "hsXenCtrl",
@@ -825,6 +898,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCErrorNone",
           "package": "hsXenCtrl",
@@ -838,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCHdl",
           "package": "hsXenCtrl",
@@ -847,6 +922,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCHdl",
           "package": "hsXenCtrl",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCInternalError",
           "package": "hsXenCtrl",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCInternalError",
           "package": "hsXenCtrl",
@@ -882,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCInvalidKernel",
           "package": "hsXenCtrl",
@@ -891,6 +970,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCInvalidKernel",
           "package": "hsXenCtrl",
@@ -904,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCInvalidParam",
           "package": "hsXenCtrl",
@@ -913,6 +994,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCInvalidParam",
           "package": "hsXenCtrl",
@@ -926,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCOutOfMemory",
           "package": "hsXenCtrl",
@@ -935,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCOutOfMemory",
           "package": "hsXenCtrl",
@@ -948,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCPhysInfo",
           "package": "hsXenCtrl",
@@ -957,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCPhysInfo",
           "package": "hsXenCtrl",
@@ -970,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "XCperfcDesc",
           "package": "hsXenCtrl",
@@ -979,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "XCperfcDesc",
           "package": "hsXenCtrl",
@@ -992,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "ciIdleTime",
           "package": "hsXenCtrl",
@@ -1001,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "ciIdleTime",
           "package": "hsXenCtrl",
@@ -1014,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "opArg1",
           "package": "hsXenCtrl",
@@ -1023,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "opArg1",
           "package": "hsXenCtrl",
@@ -1036,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "opArg2",
           "package": "hsXenCtrl",
@@ -1045,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "opArg2",
           "normalized": "Either CUInt(Ptr())",
@@ -1060,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "opCmd",
           "package": "hsXenCtrl",
@@ -1069,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "opCmd",
           "package": "hsXenCtrl",
@@ -1082,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "perfcOpQuery",
           "package": "hsXenCtrl",
@@ -1091,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "perfcOpQuery",
           "package": "hsXenCtrl",
@@ -1104,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "perfcOpReset",
           "package": "hsXenCtrl",
@@ -1113,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "perfcOpReset",
           "package": "hsXenCtrl",
@@ -1126,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "piCPUkhz",
           "package": "hsXenCtrl",
@@ -1135,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "piCPUkhz",
           "package": "hsXenCtrl",
@@ -1148,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "piCoresPerSocket",
           "package": "hsXenCtrl",
@@ -1157,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "piCoresPerSocket",
           "package": "hsXenCtrl",
@@ -1170,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "piFreePages",
           "package": "hsXenCtrl",
@@ -1179,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "piFreePages",
           "package": "hsXenCtrl",
@@ -1192,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "piHWCap",
           "package": "hsXenCtrl",
@@ -1201,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "piHWCap",
           "normalized": "[Word]",
@@ -1217,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of nodes (Xen \u003ca\u003e= 3.4) or the max node ID (Xen \u003c/a\u003e= 4.0)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "piMaxNodeId",
           "package": "hsXenCtrl",
@@ -1227,6 +1336,7 @@
         "index": {
           "description": "Number of nodes Xen or the max node ID Xen",
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "piMaxNodeId",
           "package": "hsXenCtrl",
@@ -1241,6 +1351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSockets per node (Xen \u003ca\u003e 3, I think) or the number of CPUs (Xen \u003c/a\u003e= 3, I think)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "piNrCPUs",
           "package": "hsXenCtrl",
@@ -1251,6 +1362,7 @@
         "index": {
           "description": "Sockets per node Xen think or the number of CPUs Xen think",
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "piNrCPUs",
           "package": "hsXenCtrl",
@@ -1264,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "piScrubPages",
           "package": "hsXenCtrl",
@@ -1273,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "piScrubPages",
           "package": "hsXenCtrl",
@@ -1286,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "piThreadsPerCore",
           "package": "hsXenCtrl",
@@ -1295,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "piThreadsPerCore",
           "package": "hsXenCtrl",
@@ -1308,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "piTotalPages",
           "package": "hsXenCtrl",
@@ -1317,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "piTotalPages",
           "package": "hsXenCtrl",
@@ -1330,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "viBlocked",
           "package": "hsXenCtrl",
@@ -1339,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "viBlocked",
           "package": "hsXenCtrl",
@@ -1352,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "viCPU",
           "package": "hsXenCtrl",
@@ -1361,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "viCPU",
           "package": "hsXenCtrl",
@@ -1374,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "viCPUTime",
           "package": "hsXenCtrl",
@@ -1383,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "viCPUTime",
           "package": "hsXenCtrl",
@@ -1396,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "viOnline",
           "package": "hsXenCtrl",
@@ -1405,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "viOnline",
           "package": "hsXenCtrl",
@@ -1418,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "viRunning",
           "package": "hsXenCtrl",
@@ -1427,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "viRunning",
           "package": "hsXenCtrl",
@@ -1440,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "viVCPU",
           "package": "hsXenCtrl",
@@ -1449,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "viVCPU",
           "package": "hsXenCtrl",
@@ -1462,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xENVER_capabilities",
           "package": "hsXenCtrl",
@@ -1471,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xENVER_capabilities",
           "package": "hsXenCtrl",
@@ -1484,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xENVER_changeset",
           "package": "hsXenCtrl",
@@ -1493,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xENVER_changeset",
           "package": "hsXenCtrl",
@@ -1506,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xENVER_compile_info",
           "package": "hsXenCtrl",
@@ -1515,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xENVER_compile_info",
           "package": "hsXenCtrl",
@@ -1528,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xENVER_extraversion",
           "package": "hsXenCtrl",
@@ -1537,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xENVER_extraversion",
           "package": "hsXenCtrl",
@@ -1550,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xENVER_get_features",
           "package": "hsXenCtrl",
@@ -1559,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xENVER_get_features",
           "package": "hsXenCtrl",
@@ -1572,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xENVER_guest_handle",
           "package": "hsXenCtrl",
@@ -1581,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xENVER_guest_handle",
           "package": "hsXenCtrl",
@@ -1594,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xENVER_pagesize",
           "package": "hsXenCtrl",
@@ -1603,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xENVER_pagesize",
           "package": "hsXenCtrl",
@@ -1616,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xENVER_platform_parameters",
           "package": "hsXenCtrl",
@@ -1625,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xENVER_platform_parameters",
           "package": "hsXenCtrl",
@@ -1638,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xENVER_version",
           "package": "hsXenCtrl",
@@ -1647,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xENVER_version",
           "package": "hsXenCtrl",
@@ -1660,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xcMaxErrorMsgLen",
           "package": "hsXenCtrl",
@@ -1669,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xcMaxErrorMsgLen",
           "package": "hsXenCtrl",
@@ -1682,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_CORE_MAGIC",
           "package": "hsXenCtrl",
@@ -1691,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_CORE_MAGIC",
           "package": "hsXenCtrl",
@@ -1704,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_CORE_MAGIC_HVM",
           "package": "hsXenCtrl",
@@ -1713,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_CORE_MAGIC_HVM",
           "package": "hsXenCtrl",
@@ -1726,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_acm_op",
           "package": "hsXenCtrl",
@@ -1735,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_acm_op",
           "normalized": "XCHandle-\u003eCInt-\u003ePtr()-\u003eCULong-\u003eIO CInt",
@@ -1749,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_clear_domain_page",
           "package": "hsXenCtrl",
@@ -1758,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_clear_domain_page",
           "normalized": "XCHandle-\u003eDomId-\u003eCULong-\u003eIO CInt",
@@ -1772,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_clear_last_error",
           "package": "hsXenCtrl",
@@ -1781,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_clear_last_error",
           "normalized": "IO()",
@@ -1795,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_copy_to_domain_page",
           "package": "hsXenCtrl",
@@ -1804,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_copy_to_domain_page",
           "normalized": "XCHandle-\u003eDomId-\u003eCULong-\u003eCString-\u003eIO CInt",
@@ -1818,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_default_error_handler",
           "package": "hsXenCtrl",
@@ -1827,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_default_error_handler",
           "normalized": "Ptr XCErrorHandler-\u003eIO()",
@@ -1841,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_create",
           "package": "hsXenCtrl",
@@ -1850,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_create",
           "normalized": "XCHandle-\u003eWord-\u003eXenDomainHandleT-\u003eWord-\u003ePtr Word-\u003eIO CInt",
@@ -1864,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_destroy",
           "package": "hsXenCtrl",
@@ -1873,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_destroy",
           "normalized": "XCHandle-\u003eDomId-\u003eIO CInt",
@@ -1887,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_dumpcore",
           "package": "hsXenCtrl",
@@ -1896,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_dumpcore",
           "normalized": "XCHandle-\u003eDomId-\u003eCString-\u003eIO CInt",
@@ -1910,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_dumpcore_via_callback",
           "package": "hsXenCtrl",
@@ -1919,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_dumpcore_via_callback",
           "normalized": "XCHandle-\u003eDomId-\u003ePtr Word-\u003eFunPtr Dumpcore_rtn_t-\u003eIO CInt",
@@ -1933,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_get_cpu_usage",
           "package": "hsXenCtrl",
@@ -1942,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_get_cpu_usage",
           "normalized": "XCHandle-\u003eDomId-\u003eCInt-\u003eIO CLLong",
@@ -1956,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_getinfo",
           "package": "hsXenCtrl",
@@ -1965,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_getinfo",
           "normalized": "XCHandle-\u003eDomId-\u003eCUInt-\u003ePtr XCDomInfo-\u003eIO CInt",
@@ -1979,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_getinfolist",
           "package": "hsXenCtrl",
@@ -1988,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_getinfolist",
           "normalized": "XCHandle-\u003eDomId-\u003eCUInt-\u003ePtr XCDomInfo-\u003eCInt",
@@ -2002,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_hvm_getcontext",
           "package": "hsXenCtrl",
@@ -2011,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_hvm_getcontext",
           "normalized": "XCHandle-\u003eDomId-\u003ePtr Word-\u003eWord-\u003eIO CInt",
@@ -2025,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_hvm_setcontext",
           "package": "hsXenCtrl",
@@ -2034,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_hvm_setcontext",
           "normalized": "XCHandle-\u003eDomId-\u003ePtr Word-\u003eWord-\u003eIO CInt",
@@ -2048,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_ioport_permission",
           "package": "hsXenCtrl",
@@ -2057,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_ioport_permission",
           "normalized": "XCHandle-\u003eDomId-\u003eWord-\u003eWord-\u003eWord-\u003eIO CInt",
@@ -2071,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_irq_permission",
           "package": "hsXenCtrl",
@@ -2080,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_irq_permission",
           "normalized": "XCHandle-\u003eDomId-\u003eWord-\u003eWord-\u003eIO CInt",
@@ -2094,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_max_vcpus",
           "package": "hsXenCtrl",
@@ -2103,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_max_vcpus",
           "normalized": "XCHandle-\u003eDomId-\u003eCUInt-\u003eIO CInt",
@@ -2117,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_memory_decrease_reservation",
           "package": "hsXenCtrl",
@@ -2126,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_memory_decrease_reservation",
           "normalized": "XCHandle-\u003eDomId-\u003eCULong-\u003eCUInt-\u003ePtr XenPFN-\u003eIO CInt",
@@ -2140,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_memory_increase_reservation",
           "package": "hsXenCtrl",
@@ -2149,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_memory_increase_reservation",
           "normalized": "XCHandle-\u003eDomId-\u003eCULong-\u003eCUInt-\u003eCUInt-\u003ePtr XenPFN-\u003eIO CInt",
@@ -2163,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_memory_populate_physmap",
           "package": "hsXenCtrl",
@@ -2172,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_memory_populate_physmap",
           "normalized": "XCHandle-\u003eDomId-\u003eCULong-\u003eCUInt-\u003eCUInt-\u003ePtr XenPFN-\u003eIO CInt",
@@ -2186,6 +2380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_pause",
           "package": "hsXenCtrl",
@@ -2195,6 +2390,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_pause",
           "normalized": "XCHandle-\u003eDomId-\u003eIO CInt",
@@ -2209,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_resume",
           "package": "hsXenCtrl",
@@ -2218,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_resume",
           "normalized": "XCHandle-\u003eDomId-\u003eCInt-\u003eIO CInt",
@@ -2232,6 +2430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_send_trigger",
           "package": "hsXenCtrl",
@@ -2241,6 +2440,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_send_trigger",
           "normalized": "XCHandle-\u003eDomId-\u003eWord-\u003eWord-\u003eIO CInt",
@@ -2255,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_set_memmap_limit",
           "package": "hsXenCtrl",
@@ -2264,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_set_memmap_limit",
           "normalized": "XCHandle-\u003eDomId-\u003eCULong-\u003eIO CInt",
@@ -2278,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_set_time_offset",
           "package": "hsXenCtrl",
@@ -2287,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_set_time_offset",
           "normalized": "XCHandle-\u003eDomId-\u003eInt-\u003eIO CInt",
@@ -2301,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_setcpuweight",
           "package": "hsXenCtrl",
@@ -2310,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_setcpuweight",
           "normalized": "XCHandle-\u003eDomId-\u003eCFloat-\u003eIO CInt",
@@ -2324,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_sethandle",
           "package": "hsXenCtrl",
@@ -2333,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_sethandle",
           "normalized": "XCHandle-\u003eDomId-\u003eXenDomainHandleT-\u003eIO CInt",
@@ -2347,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_setmaxmem",
           "package": "hsXenCtrl",
@@ -2356,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_setmaxmem",
           "normalized": "XCHandle-\u003eDomId-\u003eCUInt-\u003eIO CInt",
@@ -2370,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_shutdown",
           "package": "hsXenCtrl",
@@ -2379,6 +2590,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_shutdown",
           "normalized": "XCHandle-\u003eDomId-\u003eCInt-\u003eIO CInt",
@@ -2393,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_unpause",
           "package": "hsXenCtrl",
@@ -2402,6 +2615,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domain_unpause",
           "normalized": "XCHandle-\u003eDomId-\u003eIO CInt",
@@ -2416,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_domctl",
           "package": "hsXenCtrl",
@@ -2425,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_domctl",
           "normalized": "XCHandle-\u003ePtr XenDomCtl-\u003eIO CInt",
@@ -2439,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_error_code_to_desc",
           "package": "hsXenCtrl",
@@ -2448,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_error_code_to_desc",
           "normalized": "XCErrorCode-\u003eIO CString",
@@ -2462,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_alloc_unbound",
           "package": "hsXenCtrl",
@@ -2471,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_alloc_unbound",
           "normalized": "XCHandle-\u003eDomId-\u003eDomId-\u003eIO EventChanPortOrError",
@@ -2485,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_bind_interdomain",
           "package": "hsXenCtrl",
@@ -2494,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_bind_interdomain",
           "normalized": "XCEHandle-\u003eDomId-\u003eEventChannelPort-\u003eIO EventChanPortOrError",
@@ -2508,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_bind_unbound_port",
           "package": "hsXenCtrl",
@@ -2517,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_bind_unbound_port",
           "normalized": "XCEHandle-\u003eDomId-\u003eIO EventChanPortOrError",
@@ -2531,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_bind_virq",
           "package": "hsXenCtrl",
@@ -2540,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_bind_virq",
           "normalized": "XCEHandle-\u003eCUInt-\u003eIO EventChanPortOrError",
@@ -2554,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_close",
           "package": "hsXenCtrl",
@@ -2563,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_close",
           "normalized": "XCEHandle-\u003eIO CInt",
@@ -2577,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_fd",
           "package": "hsXenCtrl",
@@ -2586,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_fd",
           "normalized": "CInt-\u003eIO CInt",
@@ -2600,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_notify",
           "package": "hsXenCtrl",
@@ -2609,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_notify",
           "normalized": "XCEHandle-\u003eEventChannelPort-\u003eIO CInt",
@@ -2623,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_open",
           "package": "hsXenCtrl",
@@ -2632,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_open",
           "package": "hsXenCtrl",
@@ -2644,6 +2878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_pending",
           "package": "hsXenCtrl",
@@ -2653,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_pending",
           "normalized": "XCEHandle-\u003eIO EventChanPortOrError",
@@ -2667,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_reset",
           "package": "hsXenCtrl",
@@ -2676,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_reset",
           "normalized": "XCHandle-\u003eDomId-\u003eIO CInt",
@@ -2690,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_unbind",
           "package": "hsXenCtrl",
@@ -2699,6 +2938,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_unbind",
           "normalized": "XCEHandle-\u003eEventChannelPort-\u003eIO CInt",
@@ -2713,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_unmask",
           "package": "hsXenCtrl",
@@ -2722,6 +2963,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_evtchn_unmask",
           "normalized": "XCEHandle-\u003eEventChannelPort-\u003eIO CInt",
@@ -2736,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_find_device_number",
           "package": "hsXenCtrl",
@@ -2745,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_find_device_number",
           "normalized": "CString-\u003eIO CInt",
@@ -2759,6 +3003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_get_hvm_param",
           "package": "hsXenCtrl",
@@ -2768,6 +3013,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_get_hvm_param",
           "normalized": "XCHandle-\u003eDomId_t-\u003eCInt-\u003ePtr CULong-\u003eIO CInt",
@@ -2782,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_get_last_error",
           "package": "hsXenCtrl",
@@ -2791,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_get_last_error",
           "package": "hsXenCtrl",
@@ -2803,6 +3051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_get_pfn_list",
           "package": "hsXenCtrl",
@@ -2812,6 +3061,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_get_pfn_list",
           "normalized": "XCHandle-\u003eDomId-\u003ePtr Word-\u003eCULong-\u003eIO CInt",
@@ -2826,6 +3076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_get_pfn_type_batch",
           "package": "hsXenCtrl",
@@ -2835,6 +3086,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_get_pfn_type_batch",
           "normalized": "XCHandle-\u003eDomId-\u003eCInt-\u003ePtr Word-\u003eIO CInt",
@@ -2849,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_get_tot_pages",
           "package": "hsXenCtrl",
@@ -2858,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_get_tot_pages",
           "normalized": "XCHandle-\u003eDomId-\u003eIO CLong",
@@ -2872,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_getcpuinfo",
           "package": "hsXenCtrl",
@@ -2881,6 +3136,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_getcpuinfo",
           "normalized": "XCHandle-\u003eCInt-\u003ePtr XCCPUInfo-\u003ePtr CInt-\u003eIO CInt",
@@ -2895,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_gnttab_close",
           "package": "hsXenCtrl",
@@ -2904,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_gnttab_close",
           "normalized": "GTHandle-\u003eIO CInt",
@@ -2918,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_gnttab_map_grant_ref",
           "package": "hsXenCtrl",
@@ -2927,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_gnttab_map_grant_ref",
           "normalized": "GTHandle-\u003eDomId-\u003eWord-\u003eCInt-\u003eIO(Ptr a)",
@@ -2941,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_gnttab_map_grant_refs",
           "package": "hsXenCtrl",
@@ -2950,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_gnttab_map_grant_refs",
           "normalized": "GTHandle-\u003eWord-\u003ePtr Word-\u003ePtr Word-\u003eCInt-\u003eIO(Ptr a)",
@@ -2964,6 +3226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_gnttab_munmap",
           "package": "hsXenCtrl",
@@ -2973,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_gnttab_munmap",
           "normalized": "GTHandle-\u003ePtr a-\u003eWord-\u003eIO CInt",
@@ -2987,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_gnttab_open",
           "package": "hsXenCtrl",
@@ -2996,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_gnttab_open",
           "package": "hsXenCtrl",
@@ -3008,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_hvm_set_isa_irq_level",
           "package": "hsXenCtrl",
@@ -3017,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_hvm_set_isa_irq_level",
           "normalized": "XCHandle-\u003eDomId_t-\u003eWord-\u003eCUInt-\u003eIO CInt",
@@ -3031,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_hvm_set_pci_intx_level",
           "package": "hsXenCtrl",
@@ -3040,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_hvm_set_pci_intx_level",
           "normalized": "XCHandle-\u003eDomId_t-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eCUInt-\u003eIO CInt",
@@ -3054,6 +3324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_hvm_set_pci_link_route",
           "package": "hsXenCtrl",
@@ -3063,6 +3334,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_hvm_set_pci_link_route",
           "normalized": "XCHandle-\u003eDomId_t-\u003eWord-\u003eWord-\u003eIO CInt",
@@ -3077,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_interface_close",
           "package": "hsXenCtrl",
@@ -3086,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_interface_close",
           "normalized": "XCHandle-\u003eIO CInt",
@@ -3100,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_interface_open",
           "package": "hsXenCtrl",
@@ -3109,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_interface_open",
           "package": "hsXenCtrl",
@@ -3121,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_make_page_below_4G",
           "package": "hsXenCtrl",
@@ -3130,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_make_page_below_4G",
           "normalized": "XCHandle-\u003eDomId-\u003eCULong-\u003eIO CULong",
@@ -3144,6 +3422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_map_foreign_batch",
           "package": "hsXenCtrl",
@@ -3153,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_map_foreign_batch",
           "normalized": "XCHandle-\u003eDomId-\u003eMemoryProtectionFlags-\u003ePtr XenPFN-\u003eCInt-\u003eIO()",
@@ -3167,6 +3447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_map_foreign_range",
           "package": "hsXenCtrl",
@@ -3176,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_map_foreign_range",
           "normalized": "XCHandle-\u003eDomId-\u003eCInt-\u003eMemoryProtectionFlags-\u003eCULong-\u003eIO()",
@@ -3190,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_memory_op",
           "package": "hsXenCtrl",
@@ -3199,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_memory_op",
           "normalized": "XCHandle-\u003eCInt-\u003ePtr()-\u003eIO CInt",
@@ -3213,6 +3497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_mmuext_op",
           "package": "hsXenCtrl",
@@ -3222,6 +3507,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_mmuext_op",
           "normalized": "XCHandle-\u003ePtr MMUExtOp-\u003eCUInt-\u003eDomId-\u003eIO CInt",
@@ -3237,6 +3523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMust mlock() the XCperfc data structures after poking and before calling this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_perfc_control",
           "package": "hsXenCtrl",
@@ -3247,6 +3534,7 @@
         "index": {
           "description": "Must mlock the XCperfc data structures after poking and before calling this function",
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_perfc_control",
           "normalized": "XCHandle-\u003ePerfcOp-\u003ePtr XCperfcDesc-\u003ePtr XCperfcVal-\u003ePtr CInt-\u003ePtr CInt-\u003eIO CInt",
@@ -3261,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_physdev_pci_access_modify",
           "package": "hsXenCtrl",
@@ -3270,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_physdev_pci_access_modify",
           "normalized": "XCHandle-\u003eDomId-\u003eBus-\u003eDev-\u003eFunction-\u003eEnable-\u003eIO CInt",
@@ -3284,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_physinfo",
           "package": "hsXenCtrl",
@@ -3293,6 +3584,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_physinfo",
           "normalized": "XCHandle-\u003ePtr XCPhysInfo-\u003eIO CInt",
@@ -3307,6 +3599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_readconsolering",
           "package": "hsXenCtrl",
@@ -3316,6 +3609,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_readconsolering",
           "normalized": "XCHandle-\u003ePtr CString-\u003ePtr CUInt-\u003eCInt-\u003eIO CInt",
@@ -3330,6 +3624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_sched_id",
           "package": "hsXenCtrl",
@@ -3339,6 +3634,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_sched_id",
           "normalized": "XCHandle-\u003ePtr CInt-\u003eIO CInt",
@@ -3353,6 +3649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_sedf_domain_get",
           "package": "hsXenCtrl",
@@ -3362,6 +3659,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_sedf_domain_get",
           "normalized": "XCHandle-\u003eDomId-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003eIO CInt",
@@ -3376,6 +3674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_sedf_domain_set",
           "package": "hsXenCtrl",
@@ -3385,6 +3684,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_sedf_domain_set",
           "normalized": "XCHandle-\u003eDomId-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eIO CInt",
@@ -3399,6 +3699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_send_debug_keys",
           "package": "hsXenCtrl",
@@ -3408,6 +3709,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_send_debug_keys",
           "normalized": "XCHandle-\u003eCString-\u003eIO CInt",
@@ -3422,6 +3724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_set_error_handler",
           "package": "hsXenCtrl",
@@ -3431,6 +3734,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_set_error_handler",
           "normalized": "XCErrorHandler-\u003eIO XCErrorHandler",
@@ -3445,6 +3749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_set_hvm_param",
           "package": "hsXenCtrl",
@@ -3454,6 +3759,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_set_hvm_param",
           "normalized": "XCHandle-\u003eDomId_t-\u003eCInt-\u003eCULong-\u003eIO CInt",
@@ -3468,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_sysctl",
           "package": "hsXenCtrl",
@@ -3477,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_sysctl",
           "normalized": "XCHandle-\u003ePtr XenSysCtl-\u003eIO CInt",
@@ -3491,6 +3799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_tbuf_disable",
           "package": "hsXenCtrl",
@@ -3500,6 +3809,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_tbuf_disable",
           "normalized": "XCHandle-\u003eIO CInt",
@@ -3514,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_tbuf_enable",
           "package": "hsXenCtrl",
@@ -3523,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_tbuf_enable",
           "normalized": "XCHandle-\u003eCULong-\u003ePtr CULong-\u003ePtr CULong-\u003eIO CInt",
@@ -3537,6 +3849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_tbuf_get_size",
           "package": "hsXenCtrl",
@@ -3546,6 +3859,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_tbuf_get_size",
           "normalized": "XCHandle-\u003ePtr CULong-\u003eIO CInt",
@@ -3560,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_tbuf_set_cpu_mask",
           "package": "hsXenCtrl",
@@ -3569,6 +3884,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_tbuf_set_cpu_mask",
           "normalized": "XCHandle-\u003eWord-\u003eIO CInt",
@@ -3583,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_tbuf_set_evt_mask",
           "package": "hsXenCtrl",
@@ -3592,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_tbuf_set_evt_mask",
           "normalized": "XCHandle-\u003eWord-\u003eIO CInt",
@@ -3606,6 +3924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_translate_foreign_address",
           "package": "hsXenCtrl",
@@ -3615,6 +3934,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_translate_foreign_address",
           "normalized": "XCHandle-\u003eDomId-\u003eCInt-\u003eCULLong-\u003eIO CULong",
@@ -3629,6 +3949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_vcpu_getaffinity",
           "package": "hsXenCtrl",
@@ -3638,6 +3959,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_vcpu_getaffinity",
           "normalized": "XCHandle-\u003eDomId-\u003eCInt-\u003ePtr Word-\u003eIO CInt",
@@ -3652,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_vcpu_getinfo",
           "package": "hsXenCtrl",
@@ -3661,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_vcpu_getinfo",
           "normalized": "XCHandle-\u003eDomId-\u003eWord-\u003ePtr VCPUInfo-\u003eIO CInt",
@@ -3675,6 +3999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_vcpu_setaffinity",
           "package": "hsXenCtrl",
@@ -3684,6 +4009,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_vcpu_setaffinity",
           "normalized": "XCHandle-\u003eDomId-\u003eCInt-\u003eWord-\u003eIO CInt",
@@ -3698,6 +4024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xc_version",
           "package": "hsXenCtrl",
@@ -3707,6 +4034,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xc_version",
           "normalized": "XCHandle-\u003eXenVersion-\u003ePtr()-\u003eIO CInt",
@@ -3721,6 +4049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xceCode",
           "package": "hsXenCtrl",
@@ -3730,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xceCode",
           "package": "hsXenCtrl",
@@ -3743,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen.CBindings",
           "name": "xceMsg",
           "package": "hsXenCtrl",
@@ -3752,6 +4083,7 @@
         },
         "index": {
           "hierarchy": "System Xen CBindings",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen.CBindings",
           "name": "xceMsg",
           "package": "hsXenCtrl",
@@ -3765,6 +4097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "Xen",
           "package": "hsXenCtrl",
@@ -3773,6 +4106,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "Xen",
           "package": "hsXenCtrl",
@@ -3787,6 +4121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDomId identifies the Xen VM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "DomId",
           "package": "hsXenCtrl",
@@ -3796,6 +4131,7 @@
         "index": {
           "description": "DomId identifies the Xen VM",
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "DomId",
           "package": "hsXenCtrl",
@@ -3809,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "DumpcoreCallback",
           "package": "hsXenCtrl",
@@ -3817,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "DumpcoreCallback",
           "package": "hsXenCtrl",
@@ -3830,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "EventChannelPort",
           "package": "hsXenCtrl",
@@ -3838,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "EventChannelPort",
           "package": "hsXenCtrl",
@@ -3851,6 +4191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "XCEHandle",
           "package": "hsXenCtrl",
@@ -3859,6 +4200,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "XCEHandle",
           "package": "hsXenCtrl",
@@ -3873,6 +4215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXen is a monad transformer stack consisting of ErrorT, WritterT and IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "Xen",
           "package": "hsXenCtrl",
@@ -3882,6 +4225,7 @@
         "index": {
           "description": "Xen is monad transformer stack consisting of ErrorT WritterT and IO",
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "Xen",
           "package": "hsXenCtrl",
@@ -3896,6 +4240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the Xen action, returning the result (or Left error) and a trace of messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "execXen",
           "package": "hsXenCtrl",
@@ -3906,6 +4251,7 @@
         "index": {
           "description": "Runs the Xen action returning the result or Left error and trace of messages",
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "execXen",
           "normalized": "Xen a-\u003eIO(Either XenError a,XenMessages)",
@@ -3921,6 +4267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "getXenVersion",
           "package": "hsXenCtrl",
@@ -3930,6 +4277,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "getXenVersion",
           "package": "hsXenCtrl",
@@ -3943,6 +4291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "mkCallback",
           "package": "hsXenCtrl",
@@ -3952,6 +4301,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "mkCallback",
           "normalized": "Dumpcore_rtn_t-\u003eIO(FunPtr Dumpcore_rtn_t)",
@@ -3968,6 +4318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a Xen action and a default value, will run the action returning the result on success\n or the default value on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "runXen",
           "package": "hsXenCtrl",
@@ -3978,6 +4329,7 @@
         "index": {
           "description": "Given Xen action and default value will run the action returning the result on success or the default value on failure",
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "runXen",
           "normalized": "Xen a-\u003ea-\u003eIO a",
@@ -3994,6 +4346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes the Xen action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "runXen_",
           "package": "hsXenCtrl",
@@ -4004,6 +4357,7 @@
         "index": {
           "description": "Executes the Xen action",
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "runXen_",
           "normalized": "Xen a-\u003eIO()",
@@ -4019,6 +4373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainCreate",
           "package": "hsXenCtrl",
@@ -4028,6 +4383,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainCreate",
           "normalized": "XCHandle-\u003eWord-\u003eXenDomainHandleT-\u003eWord-\u003ePtr Word-\u003eXen()",
@@ -4043,6 +4399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainDumpcore",
           "package": "hsXenCtrl",
@@ -4052,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainDumpcore",
           "normalized": "XCHandle-\u003eDomId-\u003eString-\u003eXen()",
@@ -4067,6 +4425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainDumpcoreViaCallback",
           "package": "hsXenCtrl",
@@ -4076,6 +4435,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainDumpcoreViaCallback",
           "normalized": "XCHandle-\u003eDomId-\u003eDumpcoreCallback-\u003eXen()",
@@ -4091,6 +4451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainGetCPUUsage",
           "package": "hsXenCtrl",
@@ -4100,6 +4461,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainGetCPUUsage",
           "normalized": "XCHandle-\u003eDomId-\u003eInt-\u003eXen Integer",
@@ -4115,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainGetInfo",
           "package": "hsXenCtrl",
@@ -4124,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainGetInfo",
           "normalized": "XCHandle-\u003eDomId-\u003eInt-\u003eXen XCDomInfo",
@@ -4139,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainGetInfoList",
           "package": "hsXenCtrl",
@@ -4148,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainGetInfoList",
           "normalized": "XCHandle-\u003eDomId-\u003eInt-\u003eXen XCDomInfo",
@@ -4163,6 +4529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainHVMGetContext",
           "package": "hsXenCtrl",
@@ -4172,6 +4539,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainHVMGetContext",
           "normalized": "XCHandle-\u003eDomId-\u003eXen ByteString",
@@ -4187,6 +4555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainHVMSetContext",
           "package": "hsXenCtrl",
@@ -4196,6 +4565,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainHVMSetContext",
           "normalized": "XCHandle-\u003eDomId-\u003eByteString-\u003eXen()",
@@ -4211,6 +4581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainMaxVCPUs",
           "package": "hsXenCtrl",
@@ -4220,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainMaxVCPUs",
           "normalized": "XCHandle-\u003eDomId-\u003eInt-\u003eXen()",
@@ -4235,6 +4607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainPause",
           "package": "hsXenCtrl",
@@ -4244,6 +4617,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainPause",
           "normalized": "XCHandle-\u003eDomId-\u003eXen()",
@@ -4259,6 +4633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainResume",
           "package": "hsXenCtrl",
@@ -4268,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainResume",
           "normalized": "XCHandle-\u003eDomId-\u003eBool-\u003eXen()",
@@ -4283,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainSendTrigger",
           "package": "hsXenCtrl",
@@ -4292,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainSendTrigger",
           "normalized": "XCHandle-\u003eDomId-\u003eInt-\u003eInt-\u003eXen()",
@@ -4307,6 +4685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainSetCPUWeight",
           "package": "hsXenCtrl",
@@ -4316,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainSetCPUWeight",
           "normalized": "XCHandle-\u003eDomId-\u003eFloat-\u003eXen()",
@@ -4331,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainSetHandle",
           "package": "hsXenCtrl",
@@ -4340,6 +4721,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainSetHandle",
           "normalized": "XCHandle-\u003eDomId-\u003eByteString-\u003eXen()",
@@ -4355,6 +4737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainShutdown",
           "package": "hsXenCtrl",
@@ -4364,6 +4747,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainShutdown",
           "normalized": "XCHandle-\u003eDomId-\u003eXCShutdown-\u003eXen()",
@@ -4379,6 +4763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcDomainUnpause",
           "package": "hsXenCtrl",
@@ -4388,6 +4773,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcDomainUnpause",
           "normalized": "XCHandle-\u003eDomId-\u003eXen()",
@@ -4403,6 +4789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcEvtChanAllocUnbound",
           "package": "hsXenCtrl",
@@ -4412,6 +4799,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcEvtChanAllocUnbound",
           "normalized": "XCHandle-\u003eDomId-\u003eDomId-\u003eXen XCEHandle",
@@ -4427,6 +4815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcEvtChanBindInterdomain",
           "package": "hsXenCtrl",
@@ -4436,6 +4825,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcEvtChanBindInterdomain",
           "normalized": "XCEHandle-\u003eDomId-\u003eEventChannelPort-\u003eXen EventChannelPort",
@@ -4451,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcEvtChanBindUnboundPort",
           "package": "hsXenCtrl",
@@ -4460,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcEvtChanBindUnboundPort",
           "normalized": "XCEHandle-\u003eDomId-\u003eXen EventChannelPort",
@@ -4475,6 +4867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcEvtChanBindVIRQ",
           "package": "hsXenCtrl",
@@ -4484,6 +4877,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcEvtChanBindVIRQ",
           "normalized": "XCEHandle-\u003eInt-\u003eXen EventChannelPort",
@@ -4499,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcEvtChanClose",
           "package": "hsXenCtrl",
@@ -4508,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcEvtChanClose",
           "normalized": "XCEHandle-\u003eXen()",
@@ -4523,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcEvtChanNotify",
           "package": "hsXenCtrl",
@@ -4532,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcEvtChanNotify",
           "normalized": "XCEHandle-\u003eEventChannelPort-\u003eXen()",
@@ -4547,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcEvtChanOpen",
           "package": "hsXenCtrl",
@@ -4556,6 +4955,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcEvtChanOpen",
           "package": "hsXenCtrl",
@@ -4569,6 +4969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcEvtChanPending",
           "package": "hsXenCtrl",
@@ -4578,6 +4979,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcEvtChanPending",
           "normalized": "XCEHandle-\u003eXen EventChannelPort",
@@ -4593,6 +4995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcEvtChanReset",
           "package": "hsXenCtrl",
@@ -4602,6 +5005,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcEvtChanReset",
           "normalized": "XCHandle-\u003eDomId-\u003eXen()",
@@ -4617,6 +5021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcEvtChanUnbind",
           "package": "hsXenCtrl",
@@ -4626,6 +5031,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcEvtChanUnbind",
           "normalized": "XCEHandle-\u003eEventChannelPort-\u003eXen()",
@@ -4641,6 +5047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcEvtChanUnmask",
           "package": "hsXenCtrl",
@@ -4650,6 +5057,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcEvtChanUnmask",
           "normalized": "XCEHandle-\u003eEventChannelPort-\u003eXen()",
@@ -4665,6 +5073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcFindDeviceNumber",
           "package": "hsXenCtrl",
@@ -4674,6 +5083,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcFindDeviceNumber",
           "normalized": "String-\u003eXen()",
@@ -4689,6 +5099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcInterfaceClose",
           "package": "hsXenCtrl",
@@ -4698,6 +5109,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcInterfaceClose",
           "normalized": "XCHandle-\u003eXen()",
@@ -4713,6 +5125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcInterfaceOpen",
           "package": "hsXenCtrl",
@@ -4722,6 +5135,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcInterfaceOpen",
           "package": "hsXenCtrl",
@@ -4735,6 +5149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcSedfDomainGet",
           "package": "hsXenCtrl",
@@ -4744,6 +5159,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcSedfDomainGet",
           "normalized": "XCHandle-\u003eDomId-\u003eXen(Word,Word,Word,Word,Word)",
@@ -4759,6 +5175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcSedfDomainSet",
           "package": "hsXenCtrl",
@@ -4768,6 +5185,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcSedfDomainSet",
           "normalized": "XCHandle-\u003eDomId-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eXen()",
@@ -4783,6 +5201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcVCPUGetAffinity",
           "package": "hsXenCtrl",
@@ -4792,6 +5211,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcVCPUGetAffinity",
           "normalized": "XCHandle-\u003eDomId-\u003eInt-\u003eXen[Int]",
@@ -4807,6 +5227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcVCPUGetInfo",
           "package": "hsXenCtrl",
@@ -4816,6 +5237,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcVCPUGetInfo",
           "normalized": "XCHandle-\u003eDomId-\u003eInt-\u003eXen VCPUInfo",
@@ -4831,6 +5253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcVCPUSetAffinity",
           "package": "hsXenCtrl",
@@ -4840,6 +5263,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcVCPUSetAffinity",
           "normalized": "XCHandle-\u003eDomId-\u003eInt-\u003e[Int]-\u003eXen()",
@@ -4855,6 +5279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:30 UTC 2014",
           "module": "System.Xen",
           "name": "xcVersion",
           "package": "hsXenCtrl",
@@ -4864,6 +5289,7 @@
         },
         "index": {
           "hierarchy": "System Xen",
+          "indexed": "2014-03-11T18:46:30",
           "module": "System.Xen",
           "name": "xcVersion",
           "normalized": "XCHandle-\u003eXenVersion-\u003eXen String",

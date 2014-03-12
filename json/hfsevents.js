@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hfsevents"
+        "phrase": "hfsevents",
+        "type": "phrase"
       },
       "type": "context"
     }

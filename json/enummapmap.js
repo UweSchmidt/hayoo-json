@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "enummapmap"
+        "phrase": "enummapmap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLazy \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.  Based upon \u003ca\u003eData.IntMap.Lazy\u003c/a\u003e, this version uses multi\n dimensional keys and \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e types instead of \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es.  Keys are built using\n the \u003ccode\u003e\u003ca\u003e:&\u003c/a\u003e\u003c/code\u003e operator and terminated with \u003ccode\u003e\u003ca\u003eK\u003c/a\u003e\u003c/code\u003e.  They are stored using \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es so 2\n keys that \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e to the same \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e value will overwrite each other.  The\n intension is that the \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e types will actually be \u003ccode\u003enewtype \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cpre\u003e newtype AppleID = AppleID Int\n newtype TreeID = TreeID Int\n type Orchard = EnumMapMap (TreeID :& K AppleID) Apple\n apple = lookup (TreeID 4 :& K AppleID 32) orchard\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eK\u003c/a\u003e\u003c/code\u003e type is different to that used in \u003ca\u003eData.EnumMapMap.Strict\u003c/a\u003e so only lazy\n operations can be performed on a lazy \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe functions are lazy on values, but strict on keys.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "Lazy",
           "package": "enummapmap",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Lazy EnumMapMap Based upon Data.IntMap.Lazy this version uses multi dimensional keys and Enum types instead of Int Keys are built using the operator and terminated with They are stored using Int so keys that Enum to the same Int value will overwrite each other The intension is that the Enum types will actually be newtype Int newtype AppleID AppleID Int newtype TreeID TreeID Int type Orchard EnumMapMap TreeID AppleID Apple apple lookup TreeID AppleID orchard The type is different to that used in Data.EnumMapMap.Strict so only lazy operations can be performed on lazy EnumMapMap The functions are lazy on values but strict on keys",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "Lazy",
           "package": "enummapmap",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple keys are joined by the (\u003ccode\u003e\u003ca\u003e:&\u003c/a\u003e\u003c/code\u003e) constructor.\n\u003c/p\u003e\u003cpre\u003e multiKey :: Int :& Int :& K Int\n multiKey = 5 :& 6 :& K 5\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": ":&",
           "package": "enummapmap",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Multiple keys are joined by the constructor multiKey Int Int Int multiKey",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": ":&",
           "package": "enummapmap",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "IsKey",
           "package": "enummapmap",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "IsKey",
           "package": "enummapmap",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeys are terminated with the \u003ccode\u003e\u003ca\u003eK\u003c/a\u003e\u003c/code\u003e type\n\u003c/p\u003e\u003cpre\u003e singleKey :: K Int\n singleKey = K 5\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "K",
           "package": "enummapmap",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Keys are terminated with the type singleKey Int singleKey",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "K",
           "package": "enummapmap",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "SubKey",
           "package": "enummapmap",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "SubKey",
           "package": "enummapmap",
@@ -149,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "K",
           "package": "enummapmap",
@@ -158,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "K",
           "package": "enummapmap",
@@ -171,6 +183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe expression (\u003ccode\u003e\u003ccode\u003e\u003ca\u003ealter\u003c/a\u003e\u003c/code\u003e f k emm\u003c/code\u003e) alters the value at \u003ccode\u003ek\u003c/code\u003e, or absence thereof.\n \u003ccode\u003e\u003ca\u003ealter\u003c/a\u003e\u003c/code\u003e can be used to insert, delete, or update a value in an \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "alter",
           "package": "enummapmap",
@@ -181,6 +194,7 @@
         "index": {
           "description": "The expression alter emm alters the value at or absence thereof alter can be used to insert delete or update value in an EnumMapMap",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "alter",
           "normalized": "(Maybe a-\u003eMaybe a)-\u003eb-\u003eEnumMapMap b a-\u003eEnumMapMap b a",
@@ -420,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a key and it's value from the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.  If the key is not\n present the original \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "delete",
           "package": "enummapmap",
@@ -430,6 +445,7 @@
         "index": {
           "description": "Remove key and it value from the EnumMapMap If the key is not present the original EnumMapMap is returned",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "delete",
           "normalized": "a-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -444,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "deleteFindMin",
           "package": "enummapmap",
@@ -453,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "deleteFindMin",
           "normalized": "EnumMapMap a b-\u003e((a,b),EnumMapMap a b)",
@@ -469,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference between two \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003es (based on keys).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "difference",
           "package": "enummapmap",
@@ -479,6 +498,7 @@
         "index": {
           "description": "Difference between two EnumMapMap based on keys",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "difference",
           "normalized": "EnumMapMap a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -521,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "differenceWith",
           "package": "enummapmap",
@@ -531,6 +552,7 @@
         "index": {
           "description": "Difference with combining function",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "differenceWith",
           "normalized": "(a-\u003ea-\u003eMaybe a)-\u003eEnumMapMap b a-\u003eEnumMapMap b a-\u003eEnumMapMap b a",
@@ -547,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "differenceWithKey",
           "package": "enummapmap",
@@ -557,6 +580,7 @@
         "index": {
           "description": "Difference with combining function",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "differenceWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eMaybe b)-\u003eEnumMapMap a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -573,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of elements in ascending order of keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "elems",
           "package": "enummapmap",
@@ -583,6 +608,7 @@
         "index": {
           "description": "List of elements in ascending order of keys",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "elems",
           "normalized": "EnumMapMap a b-\u003e[b]",
@@ -598,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "empty",
           "package": "enummapmap",
@@ -608,6 +635,7 @@
         "index": {
           "description": "The empty EnumMapMap",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "empty",
           "package": "enummapmap",
@@ -621,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo subtrees should be empty.  Returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if one is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "emptySubTrees",
           "package": "enummapmap",
@@ -631,6 +660,7 @@
         "index": {
           "description": "No subtrees should be empty Returns True if one is",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "emptySubTrees",
           "normalized": "EnumMapMap a b-\u003eBool",
@@ -647,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe minimal key and value of the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e findMin empty -- ERROR, no minimal key\n findMin $ fromList [(K 1, \"a\", K 3, \"b\")] == (K 1, a)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "findMin",
           "package": "enummapmap",
@@ -657,6 +688,7 @@
         "index": {
           "description": "The minimal key and value of the EnumMapMap findMin empty ERROR no minimal key findMin fromList",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "findMin",
           "normalized": "EnumMapMap a b-\u003e(a,b)",
@@ -673,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold the values in the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e using the given\n right-associative binary operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "foldr",
           "package": "enummapmap",
@@ -683,6 +716,7 @@
         "index": {
           "description": "Fold the values in the EnumMapMap using the given right-associative binary operator",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eEnumMapMap c a-\u003eb",
@@ -698,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold the keys and values in the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e using the given right-associative\n binary operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "foldrWithKey",
           "package": "enummapmap",
@@ -708,6 +743,7 @@
         "index": {
           "description": "Fold the keys and values in the EnumMapMap using the given right-associative binary operator",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "foldrWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eEnumMapMap a b-\u003ec",
@@ -724,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e from a list of key/value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "fromList",
           "package": "enummapmap",
@@ -734,6 +771,7 @@
         "index": {
           "description": "Create an EnumMapMap from list of key value pairs",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eEnumMapMap a b",
@@ -750,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e from an \u003ccode\u003eEnumMapSet\u003c/code\u003e and a function which for each\n key computes it's value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "fromSet",
           "package": "enummapmap",
@@ -760,6 +799,7 @@
         "index": {
           "description": "Build an EnumMapMap from an EnumMapSet and function which for each key computes it value",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "fromSet",
           "normalized": "(a-\u003eb)-\u003eEnumMapMap(Skey a)()-\u003eEnumMapMap a b",
@@ -776,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new key/value pair into the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.  Can also insert submaps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "insert",
           "package": "enummapmap",
@@ -786,6 +827,7 @@
         "index": {
           "description": "Insert new key value pair into the EnumMapMap Can also insert submaps",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "insert",
           "normalized": "a-\u003eResult a a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -801,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert with a combining function.  Can also insert submaps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "insertWith",
           "package": "enummapmap",
@@ -811,6 +854,7 @@
         "index": {
           "description": "Insert with combining function Can also insert submaps",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "insertWith",
           "normalized": "(Result a a b-\u003eResult a a b-\u003eResult a a b)-\u003ea-\u003eResult a a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -827,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert with a combining function.  Can also insert submaps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "insertWithKey",
           "package": "enummapmap",
@@ -837,6 +882,7 @@
         "index": {
           "description": "Insert with combining function Can also insert submaps",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "insertWithKey",
           "normalized": "(a-\u003eResult a a b-\u003eResult a a b-\u003eResult a a b)-\u003ea-\u003eResult a a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -880,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (left-biased) intersection of two \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e (based on keys).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "intersection",
           "package": "enummapmap",
@@ -890,6 +937,7 @@
         "index": {
           "description": "The left-biased intersection of two EnumMapMap based on keys",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "intersection",
           "normalized": "EnumMapMap a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -905,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe intersection with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "intersectionWith",
           "package": "enummapmap",
@@ -915,6 +964,7 @@
         "index": {
           "description": "The intersection with combining function",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "intersectionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eEnumMapMap b a-\u003eEnumMapMap b a-\u003eEnumMapMap b a",
@@ -931,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe intersection with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "intersectionWithKey",
           "package": "enummapmap",
@@ -941,6 +992,7 @@
         "index": {
           "description": "The intersection with combining function",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "intersectionWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003eEnumMapMap a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -957,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin a key so that an \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003es becomes an\n \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e newtype ID = ID Int deriving Enum\n emm :: EnumMapMap (K Int) (EnumMapMap (K ID) Bool)\n res :: EnumMapMap (Int :& K ID) Bool\n res = joinKey emm\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ejoinKey\u003c/a\u003e\u003c/code\u003e is the opposite of \u003ccode\u003e\u003ca\u003esplitKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e emm = empty :: EnumMapMap (Int :& Int :& K ID) Bool)\n emm == joinKey $ splitKey d2 emm\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "joinKey",
           "package": "enummapmap",
@@ -967,6 +1020,7 @@
         "index": {
           "description": "Join key so that an EnumMapMap of EnumMapMap becomes an EnumMapMap newtype ID ID Int deriving Enum emm EnumMapMap Int EnumMapMap ID Bool res EnumMapMap Int ID Bool res joinKey emm joinKey is the opposite of splitKey emm empty EnumMapMap Int Int ID Bool emm joinKey splitKey d2 emm",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "joinKey",
           "normalized": "EnumMapMap a(EnumMapMap a b)-\u003eEnumMapMap(Plus a a)b",
@@ -983,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "keys",
           "package": "enummapmap",
@@ -993,6 +1048,7 @@
         "index": {
           "description": "List of keys",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "keys",
           "normalized": "EnumMapMap a b-\u003e[a]",
@@ -1008,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eEnumMapSet\u003c/a\u003e\u003c/code\u003e of the keys. \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e keys can be converted into\n \u003ccode\u003e\u003ca\u003eEnumMapSet\u003c/a\u003e\u003c/code\u003e keys using \u003ccode\u003e\u003ca\u003etoS\u003c/a\u003e\u003c/code\u003e, and back again using \u003ccode\u003e\u003ca\u003etoK\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "keysSet",
           "package": "enummapmap",
@@ -1018,6 +1075,7 @@
         "index": {
           "description": "The EnumMapSet of the keys EnumMapMap keys can be converted into EnumMapSet keys using toS and back again using toK",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "keysSet",
           "normalized": "EnumMapMap a b-\u003eEnumMapMap(Skey a)()",
@@ -1034,6 +1092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup up the value at a key in the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e emm = fromList [(3 :& K 1, \"a\")]\n lookup (3 :& K 1) emm == Just \"a\"\n lookup (2 :& K 1) emm == Nothing\n\u003c/pre\u003e\u003cp\u003eIf the given key has less dimensions then the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e then a submap\n is returned.\n\u003c/p\u003e\u003cpre\u003e emm2 = fromList [(3 :& 2 :& K 1, \"a\"), (3 :& 2 :& K 4, \"a\")]\n lookup (3 :& K 2) emm2 == Just $ fromList [(K 1, \"a\"), (K 4, \"a\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "lookup",
           "package": "enummapmap",
@@ -1044,6 +1103,7 @@
         "index": {
           "description": "Lookup up the value at key in the EnumMapMap emm fromList lookup emm Just lookup emm Nothing If the given key has less dimensions then the EnumMapMap then submap is returned emm2 fromList lookup emm2 Just fromList",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "lookup",
           "normalized": "a-\u003eEnumMapMap a b-\u003eMaybe(Result a a b)",
@@ -1059,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over all values in the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "map",
           "package": "enummapmap",
@@ -1069,6 +1130,7 @@
         "index": {
           "description": "Map function over all values in the EnumMapMap",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eEnumMapMap c a-\u003eEnumMapMap c b",
@@ -1084,6 +1146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap values and collect the \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "mapMaybe",
           "package": "enummapmap",
@@ -1094,6 +1157,7 @@
         "index": {
           "description": "Map values and collect the Just results",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eEnumMapMap c a-\u003eEnumMapMap c b",
@@ -1110,6 +1174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap keys/values and collect the \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "mapMaybeWithKey",
           "package": "enummapmap",
@@ -1120,6 +1185,7 @@
         "index": {
           "description": "Map keys values and collect the Just results",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "mapMaybeWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe c)-\u003eEnumMapMap a b-\u003eEnumMapMap a c",
@@ -1136,6 +1202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over all key/value pairs in the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "mapWithKey",
           "package": "enummapmap",
@@ -1146,6 +1213,7 @@
         "index": {
           "description": "Map function over all key value pairs in the EnumMapMap",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "mapWithKey",
           "normalized": "(a-\u003eb-\u003ec)-\u003eEnumMapMap a b-\u003eEnumMapMap a c",
@@ -1162,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the key present in the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "member",
           "package": "enummapmap",
@@ -1172,6 +1241,7 @@
         "index": {
           "description": "Is the key present in the EnumMapMap",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "member",
           "normalized": "a-\u003eEnumMapMap a b-\u003eBool",
@@ -1187,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the minimal (key,value) pair of the EnumMapMap, and the\n EnumMapMap stripped of that element, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if passed an empty map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "minViewWithKey",
           "package": "enummapmap",
@@ -1197,6 +1268,7 @@
         "index": {
           "description": "Retrieves the minimal key value pair of the EnumMapMap and the EnumMapMap stripped of that element or Nothing if passed an empty map",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "minViewWithKey",
           "normalized": "EnumMapMap a b-\u003eMaybe((a,b),EnumMapMap a b)",
@@ -1213,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e empty?\n\u003c/p\u003e\u003cp\u003eSubmaps can never be empty, so the following should always hold true:\n\u003c/p\u003e\u003cpre\u003e emm :: EnumMapMap (Int :& Int :& K ID) Bool)\n null $ splitKey x emm == False\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "null",
           "package": "enummapmap",
@@ -1223,6 +1296,7 @@
         "index": {
           "description": "Is the EnumMapMap empty Submaps can never be empty so the following should always hold true emm EnumMapMap Int Int ID Bool null splitKey emm False",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "null",
           "normalized": "EnumMapMap a b-\u003eBool",
@@ -1238,6 +1312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e with one element\n\u003c/p\u003e\u003cpre\u003e singleton (5 :& K 3) \"a\" == fromList [(5 :& K 3, \"a\")]\n singleton (K 5) $ singleton (K 2) \"a\" == fromList [(5 :& K 3, \"a\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "singleton",
           "package": "enummapmap",
@@ -1248,6 +1323,7 @@
         "index": {
           "description": "An EnumMapMap with one element singleton fromList singleton singleton fromList",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "singleton",
           "normalized": "a-\u003eResult a a b-\u003eEnumMapMap a b",
@@ -1263,6 +1339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements in the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "size",
           "package": "enummapmap",
@@ -1273,6 +1350,7 @@
         "index": {
           "description": "Number of elements in the EnumMapMap",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "size",
           "normalized": "EnumMapMap a b-\u003eInt",
@@ -1341,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e to a list of key/value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "toList",
           "package": "enummapmap",
@@ -1351,6 +1430,7 @@
         "index": {
           "description": "Convert the EnumMapMap to list of key value pairs",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "toList",
           "normalized": "EnumMapMap a b-\u003e[(a,b)]",
@@ -1393,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTraverseWithKey\u003c/code\u003e behaves exactly like a regular \u003ccode\u003e\u003ca\u003etraverse\u003c/a\u003e\u003c/code\u003e except that\n the traversing function also has access to the key associated with a\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "traverseWithKey",
           "package": "enummapmap",
@@ -1403,6 +1484,7 @@
         "index": {
           "description": "TraverseWithKey behaves exactly like regular traverse except that the traversing function also has access to the key associated with value",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "traverseWithKey",
           "normalized": "(a-\u003eb-\u003ec d)-\u003eEnumMapMap a b-\u003ec(EnumMapMap a d)",
@@ -1419,6 +1501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (left-biased) union of two \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003es.\n It prefers the first \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e when duplicate keys are encountered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "union",
           "package": "enummapmap",
@@ -1429,6 +1512,7 @@
         "index": {
           "description": "The left-biased union of two EnumMapMap It prefers the first EnumMapMap when duplicate keys are encountered",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "union",
           "normalized": "EnumMapMap a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -1444,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe union with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "unionWith",
           "package": "enummapmap",
@@ -1454,6 +1539,7 @@
         "index": {
           "description": "The union with combining function",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eEnumMapMap b a-\u003eEnumMapMap b a-\u003eEnumMapMap b a",
@@ -1470,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe union with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "unionWithKey",
           "package": "enummapmap",
@@ -1480,6 +1567,7 @@
         "index": {
           "description": "The union with combining function",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "unionWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003eEnumMapMap a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -1496,6 +1584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe union of a list of maps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "unions",
           "package": "enummapmap",
@@ -1506,6 +1595,7 @@
         "index": {
           "description": "The union of list of maps",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "unions",
           "normalized": "[EnumMapMap a b]-\u003eEnumMapMap a b",
@@ -1521,6 +1611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe union of a list of maps with a combining function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "unionsWith",
           "package": "enummapmap",
@@ -1531,6 +1622,7 @@
         "index": {
           "description": "The union of list of maps with combining function",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "unionsWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[EnumMapMap b a]-\u003eEnumMapMap b a",
@@ -1547,6 +1639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin a key so that an \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003es becomes an\n \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.  The unsafe version does not check for empty subtrees, so\n it is faster.\n\u003c/p\u003e\u003cpre\u003e newtype ID = ID Int deriving Enum\n emm :: EnumMapMap (K Int) (EnumMapMap (K ID) Bool)\n res :: EnumMapMap (Int :& K ID) Bool\n res = unsafeJoinKey emm\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Lazy",
           "name": "unsafeJoinKey",
           "package": "enummapmap",
@@ -1557,6 +1650,7 @@
         "index": {
           "description": "Join key so that an EnumMapMap of EnumMapMap becomes an EnumMapMap The unsafe version does not check for empty subtrees so it is faster newtype ID ID Int deriving Enum emm EnumMapMap Int EnumMapMap ID Bool res EnumMapMap Int ID Bool res unsafeJoinKey emm",
           "hierarchy": "Data EnumMapMap Lazy",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Lazy",
           "name": "unsafeJoinKey",
           "normalized": "EnumMapMap a(EnumMapMap a b)-\u003eEnumMapMap(Plus a a)b",
@@ -1573,6 +1667,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStrict \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.  Based upon \u003ca\u003eData.IntMap.Strict\u003c/a\u003e, this version uses multi\n dimensional keys and \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e types instead of \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es.  Keys are built using\n the \u003ccode\u003e\u003ca\u003e:&\u003c/a\u003e\u003c/code\u003e operator and terminated with \u003ccode\u003e\u003ca\u003eK\u003c/a\u003e\u003c/code\u003e.  They are stored using \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es so 2\n keys that \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e to the same \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e value will overwrite each other.  The\n intension is that the \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e types will actually be \u003ccode\u003enewtype \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cpre\u003e newtype AppleID = AppleID Int\n newtype TreeID = TreeID Int\n type Orchard = EnumMapMap (TreeID :& K AppleID) Apple\n apple = lookup (TreeID 4 :& K AppleID 32) orchard\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eK\u003c/a\u003e\u003c/code\u003e type is different to that used in \u003ca\u003eData.EnumMapMap.Lazy\u003c/a\u003e so only strict\n operations can be performed on a strict \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe functions are strict on values and keys.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "Strict",
           "package": "enummapmap",
@@ -1582,6 +1677,7 @@
         "index": {
           "description": "Strict EnumMapMap Based upon Data.IntMap.Strict this version uses multi dimensional keys and Enum types instead of Int Keys are built using the operator and terminated with They are stored using Int so keys that Enum to the same Int value will overwrite each other The intension is that the Enum types will actually be newtype Int newtype AppleID AppleID Int newtype TreeID TreeID Int type Orchard EnumMapMap TreeID AppleID Apple apple lookup TreeID AppleID orchard The type is different to that used in Data.EnumMapMap.Lazy so only strict operations can be performed on strict EnumMapMap The functions are strict on values and keys",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "Strict",
           "package": "enummapmap",
@@ -1596,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple keys are joined by the (\u003ccode\u003e\u003ca\u003e:&\u003c/a\u003e\u003c/code\u003e) constructor.\n\u003c/p\u003e\u003cpre\u003e multiKey :: Int :& Int :& K Int\n multiKey = 5 :& 6 :& K 5\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": ":&",
           "package": "enummapmap",
@@ -1605,6 +1702,7 @@
         "index": {
           "description": "Multiple keys are joined by the constructor multiKey Int Int Int multiKey",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": ":&",
           "package": "enummapmap",
@@ -1617,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "IsKey",
           "package": "enummapmap",
@@ -1625,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "IsKey",
           "package": "enummapmap",
@@ -1639,6 +1739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeys are terminated with the \u003ccode\u003e\u003ca\u003eK\u003c/a\u003e\u003c/code\u003e type\n\u003c/p\u003e\u003cpre\u003e singleKey :: K Int\n singleKey = K 5\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "K",
           "package": "enummapmap",
@@ -1648,6 +1749,7 @@
         "index": {
           "description": "Keys are terminated with the type singleKey Int singleKey",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "K",
           "package": "enummapmap",
@@ -1660,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "SubKey",
           "package": "enummapmap",
@@ -1668,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "SubKey",
           "package": "enummapmap",
@@ -1681,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "K",
           "package": "enummapmap",
@@ -1690,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "K",
           "package": "enummapmap",
@@ -1703,6 +1809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe expression (\u003ccode\u003e\u003ccode\u003e\u003ca\u003ealter\u003c/a\u003e\u003c/code\u003e f k emm\u003c/code\u003e) alters the value at \u003ccode\u003ek\u003c/code\u003e, or absence thereof.\n \u003ccode\u003e\u003ca\u003ealter\u003c/a\u003e\u003c/code\u003e can be used to insert, delete, or update a value in an \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "alter",
           "package": "enummapmap",
@@ -1713,6 +1820,7 @@
         "index": {
           "description": "The expression alter emm alters the value at or absence thereof alter can be used to insert delete or update value in an EnumMapMap",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "alter",
           "normalized": "(Maybe a-\u003eMaybe a)-\u003eb-\u003eEnumMapMap b a-\u003eEnumMapMap b a",
@@ -1728,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a key and it's value from the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.  If the key is not\n present the original \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "delete",
           "package": "enummapmap",
@@ -1738,6 +1847,7 @@
         "index": {
           "description": "Remove key and it value from the EnumMapMap If the key is not present the original EnumMapMap is returned",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "delete",
           "normalized": "a-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -1752,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "deleteFindMin",
           "package": "enummapmap",
@@ -1761,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "deleteFindMin",
           "normalized": "EnumMapMap a b-\u003e((a,b),EnumMapMap a b)",
@@ -1777,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference between two \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003es (based on keys).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "difference",
           "package": "enummapmap",
@@ -1787,6 +1900,7 @@
         "index": {
           "description": "Difference between two EnumMapMap based on keys",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "difference",
           "normalized": "EnumMapMap a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -1802,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "differenceWith",
           "package": "enummapmap",
@@ -1812,6 +1927,7 @@
         "index": {
           "description": "Difference with combining function",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "differenceWith",
           "normalized": "(a-\u003ea-\u003eMaybe a)-\u003eEnumMapMap b a-\u003eEnumMapMap b a-\u003eEnumMapMap b a",
@@ -1828,6 +1944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "differenceWithKey",
           "package": "enummapmap",
@@ -1838,6 +1955,7 @@
         "index": {
           "description": "Difference with combining function",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "differenceWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eMaybe b)-\u003eEnumMapMap a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -1854,6 +1972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of elements in ascending order of keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "elems",
           "package": "enummapmap",
@@ -1864,6 +1983,7 @@
         "index": {
           "description": "List of elements in ascending order of keys",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "elems",
           "normalized": "EnumMapMap a b-\u003e[b]",
@@ -1879,6 +1999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "empty",
           "package": "enummapmap",
@@ -1889,6 +2010,7 @@
         "index": {
           "description": "The empty EnumMapMap",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "empty",
           "package": "enummapmap",
@@ -1902,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo subtrees should be empty.  Returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if one is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "emptySubTrees",
           "package": "enummapmap",
@@ -1912,6 +2035,7 @@
         "index": {
           "description": "No subtrees should be empty Returns True if one is",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "emptySubTrees",
           "normalized": "EnumMapMap a b-\u003eBool",
@@ -1928,6 +2052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe minimal key and value of the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e findMin empty -- ERROR, no minimal key\n findMin $ fromList [(K 1, \"a\", K 3, \"b\")] == (K 1, a)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "findMin",
           "package": "enummapmap",
@@ -1938,6 +2063,7 @@
         "index": {
           "description": "The minimal key and value of the EnumMapMap findMin empty ERROR no minimal key findMin fromList",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "findMin",
           "normalized": "EnumMapMap a b-\u003e(a,b)",
@@ -1954,6 +2080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold the values in the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e using the given\n right-associative binary operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "foldr",
           "package": "enummapmap",
@@ -1964,6 +2091,7 @@
         "index": {
           "description": "Fold the values in the EnumMapMap using the given right-associative binary operator",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eEnumMapMap c a-\u003eb",
@@ -1979,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold the keys and values in the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e using the given right-associative\n binary operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "foldrWithKey",
           "package": "enummapmap",
@@ -1989,6 +2118,7 @@
         "index": {
           "description": "Fold the keys and values in the EnumMapMap using the given right-associative binary operator",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "foldrWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eEnumMapMap a b-\u003ec",
@@ -2005,6 +2135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e from a list of key/value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "fromList",
           "package": "enummapmap",
@@ -2015,6 +2146,7 @@
         "index": {
           "description": "Create an EnumMapMap from list of key value pairs",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eEnumMapMap a b",
@@ -2031,6 +2163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e from an \u003ccode\u003eEnumMapSet\u003c/code\u003e and a function which for each\n key computes it's value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "fromSet",
           "package": "enummapmap",
@@ -2041,6 +2174,7 @@
         "index": {
           "description": "Build an EnumMapMap from an EnumMapSet and function which for each key computes it value",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "fromSet",
           "normalized": "(a-\u003eb)-\u003eEnumMapMap(Skey a)()-\u003eEnumMapMap a b",
@@ -2057,6 +2191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new key/value pair into the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.  Can also insert submaps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "insert",
           "package": "enummapmap",
@@ -2067,6 +2202,7 @@
         "index": {
           "description": "Insert new key value pair into the EnumMapMap Can also insert submaps",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "insert",
           "normalized": "a-\u003eResult a a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -2082,6 +2218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert with a combining function.  Can also insert submaps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "insertWith",
           "package": "enummapmap",
@@ -2092,6 +2229,7 @@
         "index": {
           "description": "Insert with combining function Can also insert submaps",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "insertWith",
           "normalized": "(Result a a b-\u003eResult a a b-\u003eResult a a b)-\u003ea-\u003eResult a a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -2108,6 +2246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert with a combining function.  Can also insert submaps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "insertWithKey",
           "package": "enummapmap",
@@ -2118,6 +2257,7 @@
         "index": {
           "description": "Insert with combining function Can also insert submaps",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "insertWithKey",
           "normalized": "(a-\u003eResult a a b-\u003eResult a a b-\u003eResult a a b)-\u003ea-\u003eResult a a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -2134,6 +2274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (left-biased) intersection of two \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e (based on keys).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "intersection",
           "package": "enummapmap",
@@ -2144,6 +2285,7 @@
         "index": {
           "description": "The left-biased intersection of two EnumMapMap based on keys",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "intersection",
           "normalized": "EnumMapMap a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -2159,6 +2301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe intersection with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "intersectionWith",
           "package": "enummapmap",
@@ -2169,6 +2312,7 @@
         "index": {
           "description": "The intersection with combining function",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "intersectionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eEnumMapMap b a-\u003eEnumMapMap b a-\u003eEnumMapMap b a",
@@ -2185,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe intersection with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "intersectionWithKey",
           "package": "enummapmap",
@@ -2195,6 +2340,7 @@
         "index": {
           "description": "The intersection with combining function",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "intersectionWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003eEnumMapMap a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -2211,6 +2357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin a key so that an \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003es becomes an\n \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e newtype ID = ID Int deriving Enum\n emm :: EnumMapMap (K Int) (EnumMapMap (K ID) Bool)\n res :: EnumMapMap (Int :& K ID) Bool\n res = joinKey emm\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ejoinKey\u003c/a\u003e\u003c/code\u003e is the opposite of \u003ccode\u003e\u003ca\u003esplitKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e emm = empty :: EnumMapMap (Int :& Int :& K ID) Bool)\n emm == joinKey $ splitKey d2 emm\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "joinKey",
           "package": "enummapmap",
@@ -2221,6 +2368,7 @@
         "index": {
           "description": "Join key so that an EnumMapMap of EnumMapMap becomes an EnumMapMap newtype ID ID Int deriving Enum emm EnumMapMap Int EnumMapMap ID Bool res EnumMapMap Int ID Bool res joinKey emm joinKey is the opposite of splitKey emm empty EnumMapMap Int Int ID Bool emm joinKey splitKey d2 emm",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "joinKey",
           "normalized": "EnumMapMap a(EnumMapMap a b)-\u003eEnumMapMap(Plus a a)b",
@@ -2237,6 +2385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "keys",
           "package": "enummapmap",
@@ -2247,6 +2396,7 @@
         "index": {
           "description": "List of keys",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "keys",
           "normalized": "EnumMapMap a b-\u003e[a]",
@@ -2262,6 +2412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eEnumMapSet\u003c/a\u003e\u003c/code\u003e of the keys. \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e keys can be converted into\n \u003ccode\u003e\u003ca\u003eEnumMapSet\u003c/a\u003e\u003c/code\u003e keys using \u003ccode\u003e\u003ca\u003etoS\u003c/a\u003e\u003c/code\u003e, and back again using \u003ccode\u003e\u003ca\u003etoK\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "keysSet",
           "package": "enummapmap",
@@ -2272,6 +2423,7 @@
         "index": {
           "description": "The EnumMapSet of the keys EnumMapMap keys can be converted into EnumMapSet keys using toS and back again using toK",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "keysSet",
           "normalized": "EnumMapMap a b-\u003eEnumMapMap(Skey a)()",
@@ -2288,6 +2440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup up the value at a key in the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e emm = fromList [(3 :& K 1, \"a\")]\n lookup (3 :& K 1) emm == Just \"a\"\n lookup (2 :& K 1) emm == Nothing\n\u003c/pre\u003e\u003cp\u003eIf the given key has less dimensions then the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e then a submap\n is returned.\n\u003c/p\u003e\u003cpre\u003e emm2 = fromList [(3 :& 2 :& K 1, \"a\"), (3 :& 2 :& K 4, \"a\")]\n lookup (3 :& K 2) emm2 == Just $ fromList [(K 1, \"a\"), (K 4, \"a\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "lookup",
           "package": "enummapmap",
@@ -2298,6 +2451,7 @@
         "index": {
           "description": "Lookup up the value at key in the EnumMapMap emm fromList lookup emm Just lookup emm Nothing If the given key has less dimensions then the EnumMapMap then submap is returned emm2 fromList lookup emm2 Just fromList",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "lookup",
           "normalized": "a-\u003eEnumMapMap a b-\u003eMaybe(Result a a b)",
@@ -2313,6 +2467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over all values in the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "map",
           "package": "enummapmap",
@@ -2323,6 +2478,7 @@
         "index": {
           "description": "Map function over all values in the EnumMapMap",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eEnumMapMap c a-\u003eEnumMapMap c b",
@@ -2338,6 +2494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap values and collect the \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "mapMaybe",
           "package": "enummapmap",
@@ -2348,6 +2505,7 @@
         "index": {
           "description": "Map values and collect the Just results",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eEnumMapMap c a-\u003eEnumMapMap c b",
@@ -2364,6 +2522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap keys/values and collect the \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "mapMaybeWithKey",
           "package": "enummapmap",
@@ -2374,6 +2533,7 @@
         "index": {
           "description": "Map keys values and collect the Just results",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "mapMaybeWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe c)-\u003eEnumMapMap a b-\u003eEnumMapMap a c",
@@ -2390,6 +2550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over all key/value pairs in the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "mapWithKey",
           "package": "enummapmap",
@@ -2400,6 +2561,7 @@
         "index": {
           "description": "Map function over all key value pairs in the EnumMapMap",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "mapWithKey",
           "normalized": "(a-\u003eb-\u003ec)-\u003eEnumMapMap a b-\u003eEnumMapMap a c",
@@ -2416,6 +2578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the key present in the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "member",
           "package": "enummapmap",
@@ -2426,6 +2589,7 @@
         "index": {
           "description": "Is the key present in the EnumMapMap",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "member",
           "normalized": "a-\u003eEnumMapMap a b-\u003eBool",
@@ -2441,6 +2605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the minimal (key,value) pair of the EnumMapMap, and the\n EnumMapMap stripped of that element, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if passed an empty map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "minViewWithKey",
           "package": "enummapmap",
@@ -2451,6 +2616,7 @@
         "index": {
           "description": "Retrieves the minimal key value pair of the EnumMapMap and the EnumMapMap stripped of that element or Nothing if passed an empty map",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "minViewWithKey",
           "normalized": "EnumMapMap a b-\u003eMaybe((a,b),EnumMapMap a b)",
@@ -2467,6 +2633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e empty?\n\u003c/p\u003e\u003cp\u003eSubmaps can never be empty, so the following should always hold true:\n\u003c/p\u003e\u003cpre\u003e emm :: EnumMapMap (Int :& Int :& K ID) Bool)\n null $ splitKey x emm == False\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "null",
           "package": "enummapmap",
@@ -2477,6 +2644,7 @@
         "index": {
           "description": "Is the EnumMapMap empty Submaps can never be empty so the following should always hold true emm EnumMapMap Int Int ID Bool null splitKey emm False",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "null",
           "normalized": "EnumMapMap a b-\u003eBool",
@@ -2492,6 +2660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e with one element\n\u003c/p\u003e\u003cpre\u003e singleton (5 :& K 3) \"a\" == fromList [(5 :& K 3, \"a\")]\n singleton (K 5) $ singleton (K 2) \"a\" == fromList [(5 :& K 3, \"a\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "singleton",
           "package": "enummapmap",
@@ -2502,6 +2671,7 @@
         "index": {
           "description": "An EnumMapMap with one element singleton fromList singleton singleton fromList",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "singleton",
           "normalized": "a-\u003eResult a a b-\u003eEnumMapMap a b",
@@ -2517,6 +2687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements in the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "size",
           "package": "enummapmap",
@@ -2527,6 +2698,7 @@
         "index": {
           "description": "Number of elements in the EnumMapMap",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "size",
           "normalized": "EnumMapMap a b-\u003eInt",
@@ -2542,6 +2714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e to a list of key/value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "toList",
           "package": "enummapmap",
@@ -2552,6 +2725,7 @@
         "index": {
           "description": "Convert the EnumMapMap to list of key value pairs",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "toList",
           "normalized": "EnumMapMap a b-\u003e[(a,b)]",
@@ -2568,6 +2742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTraverseWithKey\u003c/code\u003e behaves exactly like a regular \u003ccode\u003e\u003ca\u003etraverse\u003c/a\u003e\u003c/code\u003e except that\n the traversing function also has access to the key associated with a\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "traverseWithKey",
           "package": "enummapmap",
@@ -2578,6 +2753,7 @@
         "index": {
           "description": "TraverseWithKey behaves exactly like regular traverse except that the traversing function also has access to the key associated with value",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "traverseWithKey",
           "normalized": "(a-\u003eb-\u003ec d)-\u003eEnumMapMap a b-\u003ec(EnumMapMap a d)",
@@ -2594,6 +2770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (left-biased) union of two \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003es.\n It prefers the first \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e when duplicate keys are encountered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "union",
           "package": "enummapmap",
@@ -2604,6 +2781,7 @@
         "index": {
           "description": "The left-biased union of two EnumMapMap It prefers the first EnumMapMap when duplicate keys are encountered",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "union",
           "normalized": "EnumMapMap a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -2619,6 +2797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe union with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "unionWith",
           "package": "enummapmap",
@@ -2629,6 +2808,7 @@
         "index": {
           "description": "The union with combining function",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eEnumMapMap b a-\u003eEnumMapMap b a-\u003eEnumMapMap b a",
@@ -2645,6 +2825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe union with a combining function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "unionWithKey",
           "package": "enummapmap",
@@ -2655,6 +2836,7 @@
         "index": {
           "description": "The union with combining function",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "unionWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003eEnumMapMap a b-\u003eEnumMapMap a b-\u003eEnumMapMap a b",
@@ -2671,6 +2853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe union of a list of maps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "unions",
           "package": "enummapmap",
@@ -2681,6 +2864,7 @@
         "index": {
           "description": "The union of list of maps",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "unions",
           "normalized": "[EnumMapMap a b]-\u003eEnumMapMap a b",
@@ -2696,6 +2880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe union of a list of maps with a combining function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "unionsWith",
           "package": "enummapmap",
@@ -2706,6 +2891,7 @@
         "index": {
           "description": "The union of list of maps with combining function",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "unionsWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[EnumMapMap b a]-\u003eEnumMapMap b a",
@@ -2722,6 +2908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin a key so that an \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003es becomes an\n \u003ccode\u003e\u003ca\u003eEnumMapMap\u003c/a\u003e\u003c/code\u003e.  The unsafe version does not check for empty subtrees, so\n it is faster.\n\u003c/p\u003e\u003cpre\u003e newtype ID = ID Int deriving Enum\n emm :: EnumMapMap (K Int) (EnumMapMap (K ID) Bool)\n res :: EnumMapMap (Int :& K ID) Bool\n res = unsafeJoinKey emm\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapMap.Strict",
           "name": "unsafeJoinKey",
           "package": "enummapmap",
@@ -2732,6 +2919,7 @@
         "index": {
           "description": "Join key so that an EnumMapMap of EnumMapMap becomes an EnumMapMap The unsafe version does not check for empty subtrees so it is faster newtype ID ID Int deriving Enum emm EnumMapMap Int EnumMapMap ID Bool res EnumMapMap Int ID Bool res unsafeJoinKey emm",
           "hierarchy": "Data EnumMapMap Strict",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapMap.Strict",
           "name": "unsafeJoinKey",
           "normalized": "EnumMapMap a(EnumMapMap a b)-\u003eEnumMapMap(Plus a a)b",
@@ -2748,6 +2936,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBased on \u003ca\u003eData.IntSet\u003c/a\u003e, this module provides multi-dimensional sets of\n \u003ccode\u003eEnums\u003c/code\u003e. Keys are built using \u003ccode\u003e\u003ca\u003e:&\u003c/a\u003e\u003c/code\u003e and terminated with \u003ccode\u003e\u003ca\u003eS\u003c/a\u003e\u003c/code\u003e.  They are stored\n using \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es so 2 keys that \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e to the same \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e value will overwrite\n each other.  The intension is that the \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e types will actually be \u003ccode\u003enewtype\n \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cpre\u003e newtype AppleID = AppleID Int\n newtype TreeID = TreeID Int\n type Orchard = EnumMapSet (TreeID :& S AppleID)\n applePresent = member (TreeID 4 :& K AppleID 32) orchard\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "EnumMapSet",
           "package": "enummapmap",
@@ -2757,6 +2946,7 @@
         "index": {
           "description": "Based on Data.IntSet this module provides multi-dimensional sets of Enums Keys are built using and terminated with They are stored using Int so keys that Enum to the same Int value will overwrite each other The intension is that the Enum types will actually be newtype Int newtype AppleID AppleID Int newtype TreeID TreeID Int type Orchard EnumMapSet TreeID AppleID applePresent member TreeID AppleID orchard",
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "EnumMapSet",
           "package": "enummapmap",
@@ -2771,6 +2961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple keys are joined by the (\u003ccode\u003e\u003ca\u003e:&\u003c/a\u003e\u003c/code\u003e) constructor.\n\u003c/p\u003e\u003cpre\u003e multiKey :: Int :& Int :& K Int\n multiKey = 5 :& 6 :& K 5\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": ":&",
           "package": "enummapmap",
@@ -2780,6 +2971,7 @@
         "index": {
           "description": "Multiple keys are joined by the constructor multiKey Int Int Int multiKey",
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": ":&",
           "package": "enummapmap",
@@ -2792,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "EnumMapSet",
           "package": "enummapmap",
@@ -2800,6 +2993,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "EnumMapSet",
           "package": "enummapmap",
@@ -2813,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "IsKey",
           "package": "enummapmap",
@@ -2821,6 +3016,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "IsKey",
           "package": "enummapmap",
@@ -2835,6 +3031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeys are terminated with the \u003ccode\u003e\u003ca\u003eS\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003cpre\u003e singleKey :: S Int\n singleKey = S 5\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "S",
           "package": "enummapmap",
@@ -2844,6 +3041,7 @@
         "index": {
           "description": "Keys are terminated with the type singleKey Int singleKey",
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "S",
           "package": "enummapmap",
@@ -2856,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "SubKey",
           "package": "enummapmap",
@@ -2864,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "SubKey",
           "package": "enummapmap",
@@ -2877,6 +3077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "S",
           "package": "enummapmap",
@@ -2886,6 +3087,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "S",
           "package": "enummapmap",
@@ -2898,6 +3100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "all",
           "package": "enummapmap",
@@ -2907,6 +3110,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eEnumMapSet a-\u003eBool",
@@ -2921,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "delete",
           "package": "enummapmap",
@@ -2930,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "delete",
           "normalized": "a-\u003eEnumMapSet a-\u003eEnumMapSet a",
@@ -2944,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "deleteFindMin",
           "package": "enummapmap",
@@ -2953,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "deleteFindMin",
           "normalized": "EnumMapSet a-\u003e(a,EnumMapSet a)",
@@ -2968,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "difference",
           "package": "enummapmap",
@@ -2977,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "difference",
           "normalized": "EnumMapSet a-\u003eEnumMapSet a-\u003eEnumMapSet a",
@@ -2991,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "empty",
           "package": "enummapmap",
@@ -3000,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "empty",
           "package": "enummapmap",
@@ -3012,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "findMin",
           "package": "enummapmap",
@@ -3021,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "findMin",
           "normalized": "EnumMapSet a-\u003ea",
@@ -3036,6 +3250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "foldr",
           "package": "enummapmap",
@@ -3045,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eEnumMapSet a-\u003eb",
@@ -3059,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "fromList",
           "package": "enummapmap",
@@ -3068,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "fromList",
           "normalized": "[a]-\u003eEnumMapSet a",
@@ -3083,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "insert",
           "package": "enummapmap",
@@ -3092,6 +3311,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "insert",
           "normalized": "a-\u003eEnumMapSet a-\u003eEnumMapSet a",
@@ -3106,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "intersection",
           "package": "enummapmap",
@@ -3115,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "intersection",
           "normalized": "EnumMapSet a-\u003eEnumMapSet a-\u003eEnumMapSet a",
@@ -3129,6 +3351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "keys",
           "package": "enummapmap",
@@ -3138,6 +3361,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "keys",
           "normalized": "EnumMapSet a-\u003e[a]",
@@ -3153,6 +3377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a subtree in an \u003ccode\u003e\u003ca\u003eEnumMapSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ems = fromList [1 :& 2 :& K 3, 1 :& 2 :& K 4]\n lookup (1 :& K 2) ems == fromList [K 3, K 4]\n lookup (1 :& 2 :& K 3) -- ERROR: Use 'member' to check for a key.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "lookup",
           "package": "enummapmap",
@@ -3163,6 +3388,7 @@
         "index": {
           "description": "Lookup subtree in an EnumMapSet ems fromList lookup ems fromList lookup ERROR Use member to check for key",
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "lookup",
           "normalized": "a-\u003eEnumMapSet a-\u003eMaybe(Result a a())",
@@ -3178,6 +3404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e f s\u003c/code\u003e is the set obtained by applying \u003ccode\u003ef\u003c/code\u003e to each element of \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt's worth noting that the size of the result may be smaller if,\n for some \u003ccode\u003e(x,y)\u003c/code\u003e, \u003ccode\u003ex /= y && f x == f y\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "map",
           "package": "enummapmap",
@@ -3188,6 +3415,7 @@
         "index": {
           "description": "map is the set obtained by applying to each element of It worth noting that the size of the result may be smaller if for some",
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "map",
           "normalized": "(a-\u003ea)-\u003eEnumMapSet a-\u003eEnumMapSet a",
@@ -3202,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "member",
           "package": "enummapmap",
@@ -3211,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "member",
           "normalized": "a-\u003eEnumMapSet a-\u003eBool",
@@ -3225,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "minView",
           "package": "enummapmap",
@@ -3234,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "minView",
           "normalized": "EnumMapSet a-\u003eMaybe(a,EnumMapSet a)",
@@ -3249,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "null",
           "package": "enummapmap",
@@ -3258,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "null",
           "normalized": "EnumMapSet a-\u003eBool",
@@ -3272,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "singleton",
           "package": "enummapmap",
@@ -3281,6 +3516,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "singleton",
           "normalized": "a-\u003eEnumMapSet a",
@@ -3295,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "size",
           "package": "enummapmap",
@@ -3304,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "size",
           "normalized": "EnumMapSet a-\u003eInt",
@@ -3318,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "toList",
           "package": "enummapmap",
@@ -3327,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "toList",
           "normalized": "EnumMapSet a-\u003e[a]",
@@ -3342,6 +3582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:52 UTC 2014",
           "module": "Data.EnumMapSet",
           "name": "union",
           "package": "enummapmap",
@@ -3351,6 +3592,7 @@
         },
         "index": {
           "hierarchy": "Data EnumMapSet",
+          "indexed": "2014-03-11T18:02:52",
           "module": "Data.EnumMapSet",
           "name": "union",
           "normalized": "EnumMapSet a-\u003eEnumMapSet a-\u003eEnumMapSet a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml-basic"
+        "phrase": "xml-basic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Character",
           "name": "Character",
           "package": "xml-basic",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Character",
           "name": "Character",
           "package": "xml-basic",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Character",
           "name": "T",
           "package": "xml-basic",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Character",
           "name": "T",
           "package": "xml-basic",
@@ -129,6 +133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert unicode character to XML Char.\nIf there is a named reference, use this.\nIf it is ASCII, represent it as Char.\nOtherwise use a numeric reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Character",
           "name": "asciiFromUnicode",
           "package": "xml-basic",
@@ -139,6 +144,7 @@
         "index": {
           "description": "Convert unicode character to XML Char If there is named reference use this If it is ASCII represent it as Char Otherwise use numeric reference",
           "hierarchy": "Text HTML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Character",
           "name": "asciiFromUnicode",
           "normalized": "Char-\u003eT",
@@ -154,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Character",
           "name": "asciiFromUnicodeInternetExploder",
           "package": "xml-basic",
@@ -163,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Character",
           "name": "asciiFromUnicodeInternetExploder",
           "normalized": "Char-\u003eT",
@@ -303,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Character",
           "name": "isLower",
           "package": "xml-basic",
@@ -312,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Character",
           "name": "isLower",
           "normalized": "T-\u003eBool",
@@ -377,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Character",
           "name": "isUpper",
           "package": "xml-basic",
@@ -386,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Character",
           "name": "isUpper",
           "normalized": "T-\u003eBool",
@@ -503,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Character",
           "name": "reduceRef",
           "package": "xml-basic",
@@ -512,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Character",
           "name": "reduceRef",
           "normalized": "T-\u003eT",
@@ -600,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Character",
           "name": "toLower",
           "package": "xml-basic",
@@ -609,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Character",
           "name": "toLower",
           "normalized": "T-\u003eT",
@@ -624,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Character",
           "name": "toUnicode",
           "package": "xml-basic",
@@ -633,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Character",
           "name": "toUnicode",
           "normalized": "T-\u003eExceptional String Char",
@@ -648,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Character",
           "name": "toUnicodeOrFormat",
           "package": "xml-basic",
@@ -657,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Character",
           "name": "toUnicodeOrFormat",
           "normalized": "T-\u003eShowS",
@@ -672,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Character",
           "name": "toUpper",
           "package": "xml-basic",
@@ -681,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Character",
           "name": "toUpper",
           "normalized": "T-\u003eT",
@@ -745,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Entity",
           "name": "Entity",
           "package": "xml-basic",
@@ -753,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Entity",
           "name": "Entity",
           "package": "xml-basic",
@@ -766,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Entity",
           "name": "Name",
           "package": "xml-basic",
@@ -774,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Entity",
           "name": "Name",
           "package": "xml-basic",
@@ -788,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table mapping HTML entity names to code points.\nAlthough entity references can in principle represent more than one character,\nthe standard entities only contain one character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Entity",
           "name": "list",
           "package": "xml-basic",
@@ -798,6 +825,7 @@
         "index": {
           "description": "table mapping HTML entity names to code points Although entity references can in principle represent more than one character the standard entities only contain one character",
           "hierarchy": "Text HTML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Entity",
           "name": "list",
           "normalized": "[(Name,Char)]",
@@ -812,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Entity",
           "name": "listInternetExploder",
           "package": "xml-basic",
@@ -821,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Entity",
           "name": "listInternetExploder",
           "normalized": "[(Name,Char)]",
@@ -836,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Entity",
           "name": "mapCharToName",
           "package": "xml-basic",
@@ -845,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Entity",
           "name": "mapCharToName",
           "package": "xml-basic",
@@ -858,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Entity",
           "name": "mapCharToNameInternetExploder",
           "package": "xml-basic",
@@ -867,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Entity",
           "name": "mapCharToNameInternetExploder",
           "package": "xml-basic",
@@ -880,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Entity",
           "name": "mapNameToChar",
           "package": "xml-basic",
@@ -889,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Entity",
           "name": "mapNameToChar",
           "package": "xml-basic",
@@ -902,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Entity",
           "name": "mapNameToLower",
           "package": "xml-basic",
@@ -911,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Entity",
           "name": "mapNameToLower",
           "package": "xml-basic",
@@ -924,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Entity",
           "name": "mapNameToUpper",
           "package": "xml-basic",
@@ -933,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Entity",
           "name": "mapNameToUpper",
           "package": "xml-basic",
@@ -973,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.String",
           "name": "String",
           "package": "xml-basic",
@@ -981,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic String",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.String",
           "name": "String",
           "package": "xml-basic",
@@ -995,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshould be [Word8]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.String",
           "name": "Encoded",
           "package": "xml-basic",
@@ -1004,6 +1047,7 @@
         "index": {
           "description": "should be Word8",
           "hierarchy": "Text HTML Basic String",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.String",
           "name": "Encoded",
           "package": "xml-basic",
@@ -1018,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvalid references are silently skipped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.String",
           "name": "decode",
           "package": "xml-basic",
@@ -1028,6 +1073,7 @@
         "index": {
           "description": "Invalid references are silently skipped",
           "hierarchy": "Text HTML Basic String",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.String",
           "name": "decode",
           "normalized": "(Encoded-\u003eString)-\u003e[T]-\u003eString",
@@ -1043,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWe do not define a tag data type here,\nsince this is too much bound to the particular use\n(e.g. list or tree structure).\nHowever we define a tag name and several\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Tag",
           "name": "Tag",
           "package": "xml-basic",
@@ -1052,6 +1099,7 @@
         "index": {
           "description": "We do not define tag data type here since this is too much bound to the particular use e.g list or tree structure However we define tag name and several",
           "hierarchy": "Text HTML Basic Tag",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Tag",
           "name": "Tag",
           "package": "xml-basic",
@@ -1065,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Tag",
           "name": "Name",
           "package": "xml-basic",
@@ -1073,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Tag",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Tag",
           "name": "Name",
           "package": "xml-basic",
@@ -1179,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Tag",
           "name": "closes",
           "package": "xml-basic",
@@ -1188,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Tag",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Tag",
           "name": "closes",
           "normalized": "Name a-\u003eName a-\u003eBool",
@@ -1273,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a HTML tag is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Tag",
           "name": "isEmpty",
           "package": "xml-basic",
@@ -1283,6 +1336,7 @@
         "index": {
           "description": "Check whether HTML tag is empty",
           "hierarchy": "Text HTML Basic Tag",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Tag",
           "name": "isEmpty",
           "normalized": "Name a-\u003eBool",
@@ -1298,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Tag",
           "name": "isInnerOf",
           "package": "xml-basic",
@@ -1307,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Tag",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Tag",
           "name": "isInnerOf",
           "normalized": "Name a-\u003eName a-\u003eBool",
@@ -1323,6 +1379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome tags, namely those for text styles like FONT, B, I,\nare used quite sloppily.\nThat is, they are not terminated or not terminated in the right order.\nWe close them implicitly, if another tag closes\nand ignore non-matching closing tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Tag",
           "name": "isSloppy",
           "package": "xml-basic",
@@ -1333,6 +1390,7 @@
         "index": {
           "description": "Some tags namely those for text styles like FONT are used quite sloppily That is they are not terminated or not terminated in the right order We close them implicitly if another tag closes and ignore non-matching closing tags",
           "hierarchy": "Text HTML Basic Tag",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Tag",
           "name": "isSloppy",
           "normalized": "Name a-\u003eBool",
@@ -1349,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple routine that does not check for valid syntax\nof the Content-Type specification.\n\u003c/p\u003e\u003cp\u003eIn future we might use a distinct \u003ccode\u003eEncoding\u003c/code\u003e type instead of plain String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Tag",
           "name": "maybeMetaEncoding",
           "package": "xml-basic",
@@ -1359,6 +1418,7 @@
         "index": {
           "description": "simple routine that does not check for valid syntax of the Content-Type specification In future we might use distinct Encoding type instead of plain String",
           "hierarchy": "Text HTML Basic Tag",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Tag",
           "name": "maybeMetaEncoding",
           "normalized": "Name a-\u003e[T a String]-\u003eMaybe String",
@@ -1374,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.HTML.Basic.Tag",
           "name": "maybeMetaHTTPHeader",
           "package": "xml-basic",
@@ -1383,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Text HTML Basic Tag",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.HTML.Basic.Tag",
           "name": "maybeMetaHTTPHeader",
           "normalized": "Name a-\u003e[T a b]-\u003eMaybe(b,b)",
@@ -1420,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "Attribute",
           "package": "xml-basic",
@@ -1428,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "Attribute",
           "package": "xml-basic",
@@ -1441,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "Name",
           "package": "xml-basic",
@@ -1449,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "Name",
           "package": "xml-basic",
@@ -1463,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HTML attribute \u003ccode\u003eid=\"name\"\u003c/code\u003e generates \u003ccode\u003e(\"id\",\"name\")\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "T",
           "package": "xml-basic",
@@ -1472,6 +1539,7 @@
         "index": {
           "description": "An HTML attribute id name generates id name",
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "T",
           "package": "xml-basic",
@@ -1484,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "Cons",
           "package": "xml-basic",
@@ -1493,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "Cons",
           "package": "xml-basic",
@@ -1506,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "Name",
           "package": "xml-basic",
@@ -1515,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "Name",
           "package": "xml-basic",
@@ -1529,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess specific attributes of an attribute list.\nThe function name is inspired by Data.Map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "adjustOn",
           "package": "xml-basic",
@@ -1539,6 +1612,7 @@
         "index": {
           "description": "Process specific attributes of an attribute list The function name is inspired by Data.Map",
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "adjustOn",
           "normalized": "(Name a-\u003eBool)-\u003e(b-\u003eb)-\u003e[T a b]-\u003e[T a b]",
@@ -1554,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "adjustOnA",
           "package": "xml-basic",
@@ -1563,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "adjustOnA",
           "normalized": "(Name a-\u003eBool)-\u003e(b-\u003ec b)-\u003e[T a b]-\u003ec[T a b]",
@@ -1578,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "any",
           "package": "xml-basic",
@@ -1587,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "any",
           "normalized": "(T a b-\u003eBool)-\u003e[T a b]-\u003eBool",
@@ -1601,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "anyLit",
           "package": "xml-basic",
@@ -1610,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "anyLit",
           "normalized": "String-\u003ea-\u003e[T b a]-\u003eBool",
@@ -1625,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "anyName",
           "package": "xml-basic",
@@ -1634,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "anyName",
           "normalized": "(Name a-\u003eBool)-\u003e[T a b]-\u003eBool",
@@ -1649,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "anyNameLit",
           "package": "xml-basic",
@@ -1658,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "anyNameLit",
           "normalized": "String-\u003e[T a b]-\u003eBool",
@@ -1673,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "anyValue",
           "package": "xml-basic",
@@ -1682,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "anyValue",
           "normalized": "(a-\u003eBool)-\u003e[T b a]-\u003eBool",
@@ -1697,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "anyValueLit",
           "package": "xml-basic",
@@ -1706,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "anyValueLit",
           "normalized": "a-\u003e[T b a]-\u003eBool",
@@ -1721,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "cons",
           "package": "xml-basic",
@@ -1730,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "cons",
           "normalized": "Name a-\u003eb-\u003eT a b",
@@ -1744,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "encodingName",
           "package": "xml-basic",
@@ -1753,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "encodingName",
           "package": "xml-basic",
@@ -1766,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "encodingString",
           "package": "xml-basic",
@@ -1775,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "encodingString",
           "package": "xml-basic",
@@ -1789,6 +1883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach attribute is preceded by a space,\nthat is there is a space between adjacent attributes\nand one leading space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "formatListBlankHead",
           "package": "xml-basic",
@@ -1799,6 +1894,7 @@
         "index": {
           "description": "Each attribute is preceded by space that is there is space between adjacent attributes and one leading space",
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "formatListBlankHead",
           "normalized": "[T a b]-\u003eShowS",
@@ -1814,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "fromPair",
           "package": "xml-basic",
@@ -1823,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "fromPair",
           "normalized": "(String,a)-\u003eT b a",
@@ -1838,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "insert",
           "package": "xml-basic",
@@ -1847,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "insert",
           "normalized": "Name a-\u003eb-\u003e[T a b]-\u003e[T a b]",
@@ -1862,6 +1962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert an attribute into an attribute list.\nIf an attribute with the same name is already present,\nthen the value of this attribute is changed to \u003ccode\u003ef newValue oldValue\u003c/code\u003e.\nThe function name is analogous to Data.Map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "insertWith",
           "package": "xml-basic",
@@ -1872,6 +1973,7 @@
         "index": {
           "description": "Insert an attribute into an attribute list If an attribute with the same name is already present then the value of this attribute is changed to newValue oldValue The function name is analogous to Data.Map",
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eName b-\u003ea-\u003e[T b a]-\u003e[T b a]",
@@ -1887,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "lift",
           "package": "xml-basic",
@@ -1896,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "lift",
           "normalized": "(Name a-\u003eb-\u003e(Name a,b))-\u003eT a b-\u003eT a b",
@@ -1910,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "lookup",
           "package": "xml-basic",
@@ -1919,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "lookup",
           "normalized": "Name a-\u003e[T a b]-\u003eMaybe b",
@@ -1933,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "lookupLit",
           "package": "xml-basic",
@@ -1942,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "lookupLit",
           "normalized": "String-\u003e[T a b]-\u003eMaybe b",
@@ -1957,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "mapName",
           "package": "xml-basic",
@@ -1966,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "mapName",
           "normalized": "(Name a-\u003eName a)-\u003eT a b-\u003eT a b",
@@ -1981,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "mapValues",
           "package": "xml-basic",
@@ -1990,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "mapValues",
           "normalized": "(a-\u003ea)-\u003e[T b a]-\u003e[T b a]",
@@ -2005,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "mapValuesA",
           "package": "xml-basic",
@@ -2014,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "mapValuesA",
           "normalized": "(a-\u003eb a)-\u003e[T c a]-\u003eb[T c a]",
@@ -2029,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "match",
           "package": "xml-basic",
@@ -2038,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "match",
           "normalized": "String-\u003ea-\u003eT b a-\u003eBool",
@@ -2053,6 +2169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ematchManyValues name [value0, value1] attrs\u003c/code\u003e\nchecks whether \u003ccode\u003e(name, value0)\u003c/code\u003e or \u003ccode\u003e(name, value1)\u003c/code\u003e\nis contained in \u003ccode\u003eattrs\u003c/code\u003e.\nThe values are handled case-sensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "matchAnyValue",
           "package": "xml-basic",
@@ -2063,6 +2180,7 @@
         "index": {
           "description": "matchManyValues name value0 value1 attrs checks whether name value0 or name value1 is contained in attrs The values are handled case-sensitive",
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "matchAnyValue",
           "normalized": "String-\u003e[a]-\u003eT b a-\u003eBool",
@@ -2078,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "name",
           "package": "xml-basic",
@@ -2087,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "name",
           "package": "xml-basic",
@@ -2099,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "name_",
           "package": "xml-basic",
@@ -2108,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "name_",
           "package": "xml-basic",
@@ -2120,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "new",
           "package": "xml-basic",
@@ -2129,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "new",
           "normalized": "String-\u003ea-\u003eT b a",
@@ -2143,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "toPair",
           "package": "xml-basic",
@@ -2152,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "toPair",
           "normalized": "T a b-\u003e(String,b)",
@@ -2167,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "unname",
           "package": "xml-basic",
@@ -2176,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "unname",
           "package": "xml-basic",
@@ -2188,6 +2316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "value",
           "package": "xml-basic",
@@ -2197,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "value",
           "package": "xml-basic",
@@ -2209,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "value_",
           "package": "xml-basic",
@@ -2218,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "value_",
           "package": "xml-basic",
@@ -2230,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "versionName",
           "package": "xml-basic",
@@ -2239,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "versionName",
           "package": "xml-basic",
@@ -2252,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Attribute",
           "name": "versionString",
           "package": "xml-basic",
@@ -2261,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Attribute",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Attribute",
           "name": "versionString",
           "package": "xml-basic",
@@ -2275,6 +2411,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAll kinds of representations of a character in XML combined in one type.\nNote that an entity can in principle represent a large text,\nthus an \"XML character\" might actually be a text.\nHowever the standard entities consist of one character.\nIn contrast to our representation,\nHaXml uses Unicode substrings instead of Unicode characters,\nwhich is certainly more efficient for common XML texts\nthat contain mainly Unicode text and only few references.\nHowever our representation is unique,\nwhereas HaXmls may represent a text as \u003ccode\u003e\u003ca\u003eabc\u003c/a\u003e,\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eabcdef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Character",
           "name": "Character",
           "package": "xml-basic",
@@ -2284,6 +2421,7 @@
         "index": {
           "description": "All kinds of representations of character in XML combined in one type Note that an entity can in principle represent large text thus an XML character might actually be text However the standard entities consist of one character In contrast to our representation HaXml uses Unicode substrings instead of Unicode characters which is certainly more efficient for common XML texts that contain mainly Unicode text and only few references However our representation is unique whereas HaXmls may represent text as abc def or abcdef",
           "hierarchy": "Text XML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Character",
           "name": "Character",
           "package": "xml-basic",
@@ -2297,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Character",
           "name": "T",
           "package": "xml-basic",
@@ -2305,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Character",
           "name": "T",
           "package": "xml-basic",
@@ -2318,6 +2458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert unicode character to XML Char,\nwhere Unicode constructor is only used for ASCII characters.\nThis is achieved by the following decision:\nIf there is a entity reference, use this.\nIf it is ASCII, represent it as Char.\nOtherwise use a character reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Character",
           "name": "asciiFromUnicode",
           "package": "xml-basic",
@@ -2328,6 +2469,7 @@
         "index": {
           "description": "Convert unicode character to XML Char where Unicode constructor is only used for ASCII characters This is achieved by the following decision If there is entity reference use this If it is ASCII represent it as Char Otherwise use character reference",
           "hierarchy": "Text XML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Character",
           "name": "asciiFromUnicode",
           "normalized": "Char-\u003eT",
@@ -2343,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Character",
           "name": "asciiFromUnicodeGen",
           "package": "xml-basic",
@@ -2352,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Character",
           "name": "asciiFromUnicodeGen",
           "normalized": "Map Char String-\u003eChar-\u003eT",
@@ -2368,6 +2512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce the use of references.\nRepresent as much as possible characters as Unicode characters,\nthat is, using the Unicode constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Character",
           "name": "reduceRef",
           "package": "xml-basic",
@@ -2378,6 +2523,7 @@
         "index": {
           "description": "Reduce the use of references Represent as much as possible characters as Unicode characters that is using the Unicode constructor",
           "hierarchy": "Text XML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Character",
           "name": "reduceRef",
           "normalized": "T-\u003eT",
@@ -2394,6 +2540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etry to convert a References to equivalent Unicode characters \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Character",
           "name": "reduceRefGen",
           "package": "xml-basic",
@@ -2404,6 +2551,7 @@
         "index": {
           "description": "try to convert References to equivalent Unicode characters",
           "hierarchy": "Text XML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Character",
           "name": "reduceRefGen",
           "normalized": "Map String Char-\u003eT-\u003eT",
@@ -2420,6 +2568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a reference cannot be resolved\nthen an \u003ccode\u003eException\u003c/code\u003e constructor with an error message is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Character",
           "name": "toUnicode",
           "package": "xml-basic",
@@ -2430,6 +2579,7 @@
         "index": {
           "description": "If reference cannot be resolved then an Exception constructor with an error message is returned",
           "hierarchy": "Text XML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Character",
           "name": "toUnicode",
           "normalized": "T-\u003eExceptional String Char",
@@ -2445,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Character",
           "name": "toUnicodeGen",
           "package": "xml-basic",
@@ -2454,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Character",
           "name": "toUnicodeGen",
           "normalized": "Map String Char-\u003eT-\u003eExceptional String Char",
@@ -2470,6 +2622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a reference cannot be resolved\nthen a reference string is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Character",
           "name": "toUnicodeOrFormat",
           "package": "xml-basic",
@@ -2480,6 +2633,7 @@
         "index": {
           "description": "If reference cannot be resolved then reference string is returned",
           "hierarchy": "Text XML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Character",
           "name": "toUnicodeOrFormat",
           "normalized": "T-\u003eShowS",
@@ -2495,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Character",
           "name": "toUnicodeOrFormatGen",
           "package": "xml-basic",
@@ -2504,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Character",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Character",
           "name": "toUnicodeOrFormatGen",
           "normalized": "Map String Char-\u003eT-\u003eShowS",
@@ -2519,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Entity",
           "name": "Entity",
           "package": "xml-basic",
@@ -2527,6 +2684,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Entity",
           "name": "Entity",
           "package": "xml-basic",
@@ -2540,6 +2698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Entity",
           "name": "Name",
           "package": "xml-basic",
@@ -2548,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Entity",
           "name": "Name",
           "package": "xml-basic",
@@ -2562,6 +2722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table mapping XML entity names to code points.\nAlthough entity references can in principle represent more than one character,\nthe standard entities only contain one character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Entity",
           "name": "list",
           "package": "xml-basic",
@@ -2572,6 +2733,7 @@
         "index": {
           "description": "table mapping XML entity names to code points Although entity references can in principle represent more than one character the standard entities only contain one character",
           "hierarchy": "Text XML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Entity",
           "name": "list",
           "normalized": "[(Name,Char)]",
@@ -2587,6 +2749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis list excludes \u003ccode\u003eapos\u003c/code\u003e as Internet Explorer does not know about it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Entity",
           "name": "listInternetExploder",
           "package": "xml-basic",
@@ -2597,6 +2760,7 @@
         "index": {
           "description": "This list excludes apos as Internet Explorer does not know about it",
           "hierarchy": "Text XML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Entity",
           "name": "listInternetExploder",
           "normalized": "[(Name,Char)]",
@@ -2612,6 +2776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Entity",
           "name": "mapCharToName",
           "package": "xml-basic",
@@ -2621,6 +2786,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Entity",
           "name": "mapCharToName",
           "package": "xml-basic",
@@ -2634,6 +2800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Entity",
           "name": "mapNameToChar",
           "package": "xml-basic",
@@ -2643,6 +2810,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Entity",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Entity",
           "name": "mapNameToChar",
           "package": "xml-basic",
@@ -2656,6 +2824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "Format",
           "package": "xml-basic",
@@ -2664,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "Format",
           "package": "xml-basic",
@@ -2677,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "C",
           "package": "xml-basic",
@@ -2685,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "C",
           "package": "xml-basic",
@@ -2697,6 +2869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "amp",
           "package": "xml-basic",
@@ -2706,6 +2879,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "amp",
           "package": "xml-basic",
@@ -2718,6 +2892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "angle",
           "package": "xml-basic",
@@ -2727,6 +2902,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "angle",
           "normalized": "ShowS-\u003eShowS",
@@ -2741,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "apos",
           "package": "xml-basic",
@@ -2750,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "apos",
           "package": "xml-basic",
@@ -2762,6 +2940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "blank",
           "package": "xml-basic",
@@ -2771,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "blank",
           "package": "xml-basic",
@@ -2783,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "colon",
           "package": "xml-basic",
@@ -2792,6 +2973,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "colon",
           "package": "xml-basic",
@@ -2804,6 +2986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "eq",
           "package": "xml-basic",
@@ -2813,6 +2996,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "eq",
           "package": "xml-basic",
@@ -2825,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "exclam",
           "package": "xml-basic",
@@ -2834,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "exclam",
           "package": "xml-basic",
@@ -2846,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "gt",
           "package": "xml-basic",
@@ -2855,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "gt",
           "package": "xml-basic",
@@ -2867,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "lpar",
           "package": "xml-basic",
@@ -2876,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "lpar",
           "package": "xml-basic",
@@ -2888,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "lt",
           "package": "xml-basic",
@@ -2897,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "lt",
           "package": "xml-basic",
@@ -2909,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "many",
           "package": "xml-basic",
@@ -2918,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "many",
           "normalized": "(a-\u003eShowS)-\u003e[a]-\u003eShowS",
@@ -2932,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "name",
           "package": "xml-basic",
@@ -2941,6 +3136,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "name",
           "normalized": "a-\u003eShowS",
@@ -2955,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "nl",
           "package": "xml-basic",
@@ -2964,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "nl",
           "package": "xml-basic",
@@ -2976,6 +3174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "quest",
           "package": "xml-basic",
@@ -2985,6 +3184,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "quest",
           "package": "xml-basic",
@@ -2997,6 +3197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "quot",
           "package": "xml-basic",
@@ -3006,6 +3207,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "quot",
           "package": "xml-basic",
@@ -3018,6 +3220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "rpar",
           "package": "xml-basic",
@@ -3027,6 +3230,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "rpar",
           "package": "xml-basic",
@@ -3039,6 +3243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "run",
           "package": "xml-basic",
@@ -3048,6 +3253,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "run",
           "normalized": "a-\u003eShowS",
@@ -3062,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "semicolon",
           "package": "xml-basic",
@@ -3071,6 +3278,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "semicolon",
           "package": "xml-basic",
@@ -3083,6 +3291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "sharp",
           "package": "xml-basic",
@@ -3092,6 +3301,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "sharp",
           "package": "xml-basic",
@@ -3104,6 +3314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "slash",
           "package": "xml-basic",
@@ -3113,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "slash",
           "package": "xml-basic",
@@ -3126,6 +3338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternet Explorer does not recognize &apos;\nand thus we have to format it literally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Format",
           "name": "stringQuoted",
           "package": "xml-basic",
@@ -3136,6 +3349,7 @@
         "index": {
           "description": "Internet Explorer does not recognize apos and thus we have to format it literally",
           "hierarchy": "Text XML Basic Format",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Format",
           "name": "stringQuoted",
           "normalized": "String-\u003eShowS",
@@ -3152,6 +3366,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis name uses only lowercase characters as canonical representation,\nexcept for \u003ccode\u003eDOCTYPE\u003c/code\u003e and \u003ccode\u003eCDATA\u003c/code\u003e.\nThis is optimal for processing HTML which is case-insensitiv.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.LowerCase",
           "name": "LowerCase",
           "package": "xml-basic",
@@ -3161,6 +3376,7 @@
         "index": {
           "description": "This name uses only lowercase characters as canonical representation except for DOCTYPE and CDATA This is optimal for processing HTML which is case-insensitiv",
           "hierarchy": "Text XML Basic Name LowerCase",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.LowerCase",
           "name": "LowerCase",
           "package": "xml-basic",
@@ -3174,6 +3390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.LowerCase",
           "name": "T",
           "package": "xml-basic",
@@ -3182,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name LowerCase",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.LowerCase",
           "name": "T",
           "package": "xml-basic",
@@ -3194,6 +3412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.LowerCase",
           "name": "Cons",
           "package": "xml-basic",
@@ -3203,6 +3422,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name LowerCase",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.LowerCase",
           "name": "Cons",
           "package": "xml-basic",
@@ -3217,6 +3437,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis name type preserves the characters case of its input.\nThis is the right choice for case-sensitive names (XML)\nor if you like to preserve case of HTML tags.\nIn the latter case it is however more difficult to match tag names.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.MixedCase",
           "name": "MixedCase",
           "package": "xml-basic",
@@ -3226,6 +3447,7 @@
         "index": {
           "description": "This name type preserves the characters case of its input This is the right choice for case-sensitive names XML or if you like to preserve case of HTML tags In the latter case it is however more difficult to match tag names",
           "hierarchy": "Text XML Basic Name MixedCase",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.MixedCase",
           "name": "MixedCase",
           "package": "xml-basic",
@@ -3239,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.MixedCase",
           "name": "T",
           "package": "xml-basic",
@@ -3247,6 +3470,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name MixedCase",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.MixedCase",
           "name": "T",
           "package": "xml-basic",
@@ -3259,6 +3483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.MixedCase",
           "name": "Cons",
           "package": "xml-basic",
@@ -3268,6 +3493,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name MixedCase",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.MixedCase",
           "name": "Cons",
           "package": "xml-basic",
@@ -3282,6 +3508,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis name type preserves the characters case of its input\nand divides the names into namespace and local identifier.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "Qualified",
           "package": "xml-basic",
@@ -3291,6 +3518,7 @@
         "index": {
           "description": "This name type preserves the characters case of its input and divides the names into namespace and local identifier",
           "hierarchy": "Text XML Basic Name Qualified",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "Qualified",
           "package": "xml-basic",
@@ -3304,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "T",
           "package": "xml-basic",
@@ -3312,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name Qualified",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "T",
           "package": "xml-basic",
@@ -3324,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "Cons",
           "package": "xml-basic",
@@ -3333,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name Qualified",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "Cons",
           "package": "xml-basic",
@@ -3346,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "fromString",
           "package": "xml-basic",
@@ -3355,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name Qualified",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "fromString",
           "normalized": "String-\u003eT",
@@ -3370,6 +3604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "local",
           "package": "xml-basic",
@@ -3379,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name Qualified",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "local",
           "package": "xml-basic",
@@ -3391,6 +3627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "local_",
           "package": "xml-basic",
@@ -3400,6 +3637,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name Qualified",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "local_",
           "package": "xml-basic",
@@ -3412,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "namespace",
           "package": "xml-basic",
@@ -3421,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name Qualified",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "namespace",
           "package": "xml-basic",
@@ -3433,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "namespace_",
           "package": "xml-basic",
@@ -3442,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name Qualified",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "namespace_",
           "package": "xml-basic",
@@ -3454,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "toString",
           "package": "xml-basic",
@@ -3463,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name Qualified",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name.Qualified",
           "name": "toString",
           "normalized": "T-\u003eString",
@@ -3479,6 +3723,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWe provide a type class for tag and attribute names.\nInstances can be names that preserve case,\nnames with lowercase letters as canonical representation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name",
           "name": "Name",
           "package": "xml-basic",
@@ -3488,6 +3733,7 @@
         "index": {
           "description": "We provide type class for tag and attribute names Instances can be names that preserve case names with lowercase letters as canonical representation",
           "hierarchy": "Text XML Basic Name",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name",
           "name": "Name",
           "package": "xml-basic",
@@ -3501,6 +3747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name",
           "name": "Attribute",
           "package": "xml-basic",
@@ -3509,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name",
           "name": "Attribute",
           "package": "xml-basic",
@@ -3522,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name",
           "name": "C",
           "package": "xml-basic",
@@ -3530,6 +3779,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name",
           "name": "C",
           "package": "xml-basic",
@@ -3543,6 +3793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe need to distinguish between tag names and attribute names,\nbecause DOCTYPE as tag name must be written upper case,\nwhereas as attribute name it may be written either way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name",
           "name": "Tag",
           "package": "xml-basic",
@@ -3552,6 +3803,7 @@
         "index": {
           "description": "We need to distinguish between tag names and attribute names because DOCTYPE as tag name must be written upper case whereas as attribute name it may be written either way",
           "hierarchy": "Text XML Basic Name",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name",
           "name": "Tag",
           "package": "xml-basic",
@@ -3565,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name",
           "name": "attributeFromString",
           "package": "xml-basic",
@@ -3574,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name",
           "name": "attributeFromString",
           "normalized": "String-\u003ea",
@@ -3589,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name",
           "name": "attributeToString",
           "package": "xml-basic",
@@ -3598,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name",
           "name": "attributeToString",
           "normalized": "a-\u003eString",
@@ -3613,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name",
           "name": "fromString",
           "package": "xml-basic",
@@ -3622,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name",
           "name": "fromString",
           "normalized": "String-\u003ea",
@@ -3637,6 +3895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name",
           "name": "match",
           "package": "xml-basic",
@@ -3646,6 +3905,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name",
           "name": "match",
           "normalized": "String-\u003ea-\u003eBool",
@@ -3660,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name",
           "name": "matchAny",
           "package": "xml-basic",
@@ -3669,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name",
           "name": "matchAny",
           "normalized": "[String]-\u003ea-\u003eBool",
@@ -3684,6 +3946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name",
           "name": "tagFromString",
           "package": "xml-basic",
@@ -3693,6 +3956,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name",
           "name": "tagFromString",
           "normalized": "String-\u003ea",
@@ -3708,6 +3972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name",
           "name": "tagToString",
           "package": "xml-basic",
@@ -3717,6 +3982,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name",
           "name": "tagToString",
           "normalized": "a-\u003eString",
@@ -3732,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Name",
           "name": "toString",
           "package": "xml-basic",
@@ -3741,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Name",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Name",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -3757,6 +4025,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePosition in a file.\n\u003c/p\u003e\u003cp\u003eCf. to Text.ParserCombinators.Parsec.Pos\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Position",
           "name": "Position",
           "package": "xml-basic",
@@ -3766,6 +4035,7 @@
         "index": {
           "description": "Position in file Cf to Text.ParserCombinators.Parsec.Pos",
           "hierarchy": "Text XML Basic Position",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Position",
           "name": "Position",
           "package": "xml-basic",
@@ -3779,6 +4049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Position",
           "name": "Column",
           "package": "xml-basic",
@@ -3787,6 +4058,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Position",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Position",
           "name": "Column",
           "package": "xml-basic",
@@ -3800,6 +4072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Position",
           "name": "FileName",
           "package": "xml-basic",
@@ -3808,6 +4081,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Position",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Position",
           "name": "FileName",
           "package": "xml-basic",
@@ -3821,6 +4095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Position",
           "name": "Row",
           "package": "xml-basic",
@@ -3829,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Position",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Position",
           "name": "Row",
           "package": "xml-basic",
@@ -3843,6 +4119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition in a file consisting of file name, row and column coordinates.\nUpper left is (0,0), but show routines can display this with different offsets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Position",
           "name": "T",
           "package": "xml-basic",
@@ -3852,6 +4129,7 @@
         "index": {
           "description": "Position in file consisting of file name row and column coordinates Upper left is but show routines can display this with different offsets",
           "hierarchy": "Text XML Basic Position",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Position",
           "name": "T",
           "package": "xml-basic",
@@ -3864,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Position",
           "name": "column",
           "package": "xml-basic",
@@ -3873,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Position",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Position",
           "name": "column",
           "package": "xml-basic",
@@ -3885,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Position",
           "name": "fileName",
           "package": "xml-basic",
@@ -3894,6 +4175,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Position",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Position",
           "name": "fileName",
           "package": "xml-basic",
@@ -3907,6 +4189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Position",
           "name": "initialize",
           "package": "xml-basic",
@@ -3916,6 +4199,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Position",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Position",
           "name": "initialize",
           "normalized": "FileName-\u003eT",
@@ -3930,6 +4214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Position",
           "name": "new",
           "package": "xml-basic",
@@ -3939,6 +4224,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Position",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Position",
           "name": "new",
           "normalized": "FileName-\u003eRow-\u003eColumn-\u003eT",
@@ -3953,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Position",
           "name": "row",
           "package": "xml-basic",
@@ -3962,6 +4249,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Position",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Position",
           "name": "row",
           "package": "xml-basic",
@@ -3975,6 +4263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the file position to a format\nthat development environments can understand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Position",
           "name": "toReportText",
           "package": "xml-basic",
@@ -3985,6 +4274,7 @@
         "index": {
           "description": "Convert the file position to format that development environments can understand",
           "hierarchy": "Text XML Basic Position",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Position",
           "name": "toReportText",
           "normalized": "T-\u003eString",
@@ -4000,6 +4290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Position",
           "name": "updateOnChar",
           "package": "xml-basic",
@@ -4009,6 +4300,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Position",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Position",
           "name": "updateOnChar",
           "normalized": "Char-\u003eT-\u003eT",
@@ -4024,6 +4316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Position",
           "name": "updateOnString",
           "package": "xml-basic",
@@ -4033,6 +4326,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Position",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Position",
           "name": "updateOnString",
           "normalized": "T-\u003eString-\u003eT",
@@ -4048,6 +4342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.ProcessingInstruction",
           "name": "ProcessingInstruction",
           "package": "xml-basic",
@@ -4056,6 +4351,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic ProcessingInstruction",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.ProcessingInstruction",
           "name": "ProcessingInstruction",
           "package": "xml-basic",
@@ -4069,6 +4365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.ProcessingInstruction",
           "name": "T",
           "package": "xml-basic",
@@ -4077,6 +4374,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic ProcessingInstruction",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.ProcessingInstruction",
           "name": "T",
           "package": "xml-basic",
@@ -4089,6 +4387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.ProcessingInstruction",
           "name": "Known",
           "package": "xml-basic",
@@ -4098,6 +4397,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic ProcessingInstruction",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.ProcessingInstruction",
           "name": "Known",
           "normalized": "Known[T a b]",
@@ -4113,6 +4413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.ProcessingInstruction",
           "name": "Unknown",
           "package": "xml-basic",
@@ -4122,6 +4423,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic ProcessingInstruction",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.ProcessingInstruction",
           "name": "Unknown",
           "package": "xml-basic",
@@ -4135,6 +4437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.ProcessingInstruction",
           "name": "mapAttributes",
           "package": "xml-basic",
@@ -4144,6 +4447,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic ProcessingInstruction",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.ProcessingInstruction",
           "name": "mapAttributes",
           "normalized": "([T a b]-\u003e[T a b])-\u003eT a b-\u003eT a b",
@@ -4159,6 +4463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.ProcessingInstruction",
           "name": "mapAttributesA",
           "package": "xml-basic",
@@ -4168,6 +4473,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic ProcessingInstruction",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.ProcessingInstruction",
           "name": "mapAttributesA",
           "normalized": "([T a b]-\u003ec[T a b])-\u003eT a b-\u003ec(T a b)",
@@ -4183,6 +4489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.ProcessingInstruction",
           "name": "mapName",
           "package": "xml-basic",
@@ -4192,6 +4499,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic ProcessingInstruction",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.ProcessingInstruction",
           "name": "mapName",
           "normalized": "(Name a-\u003eName a)-\u003eT a b-\u003eT a b",
@@ -4207,6 +4515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.String",
           "name": "String",
           "package": "xml-basic",
@@ -4215,6 +4524,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic String",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.String",
           "name": "String",
           "package": "xml-basic",
@@ -4229,6 +4539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshould be [Word8]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.String",
           "name": "Encoded",
           "package": "xml-basic",
@@ -4238,6 +4549,7 @@
         "index": {
           "description": "should be Word8",
           "hierarchy": "Text XML Basic String",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.String",
           "name": "Encoded",
           "package": "xml-basic",
@@ -4252,6 +4564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode encoded characters and XML references.\nInvalid references are silently skipped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.String",
           "name": "decode",
           "package": "xml-basic",
@@ -4262,6 +4575,7 @@
         "index": {
           "description": "Decode encoded characters and XML references Invalid references are silently skipped",
           "hierarchy": "Text XML Basic String",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.String",
           "name": "decode",
           "normalized": "(Encoded-\u003eString)-\u003e[T]-\u003eString",
@@ -4276,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.String",
           "name": "decodeGen",
           "package": "xml-basic",
@@ -4285,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic String",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.String",
           "name": "decodeGen",
           "normalized": "Map Name Char-\u003e(Encoded-\u003eString)-\u003e[T]-\u003eString",
@@ -4301,6 +4617,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWe do not define a tag data type here,\nsince this is too much bound to the particular use\n(e.g. list or tree structure).\nHowever we define a tag name and some special names.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Tag",
           "name": "Tag",
           "package": "xml-basic",
@@ -4310,6 +4627,7 @@
         "index": {
           "description": "We do not define tag data type here since this is too much bound to the particular use e.g list or tree structure However we define tag name and some special names",
           "hierarchy": "Text XML Basic Tag",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Tag",
           "name": "Tag",
           "package": "xml-basic",
@@ -4323,6 +4641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Tag",
           "name": "Name",
           "package": "xml-basic",
@@ -4331,6 +4650,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Tag",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Tag",
           "name": "Name",
           "package": "xml-basic",
@@ -4344,6 +4664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Tag",
           "name": "maybeXMLEncoding",
           "package": "xml-basic",
@@ -4353,6 +4674,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Tag",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Tag",
           "name": "maybeXMLEncoding",
           "normalized": "Name a-\u003eT a b-\u003eMaybe b",
@@ -4368,6 +4690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Tag",
           "name": "xmlName",
           "package": "xml-basic",
@@ -4377,6 +4700,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Tag",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Tag",
           "name": "xmlName",
           "package": "xml-basic",
@@ -4390,6 +4714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Tag",
           "name": "xmlString",
           "package": "xml-basic",
@@ -4399,6 +4724,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Tag",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Tag",
           "name": "xmlString",
           "package": "xml-basic",
@@ -4412,6 +4738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Utility",
           "name": "Utility",
           "package": "xml-basic",
@@ -4420,6 +4747,7 @@
         },
         "index": {
           "hierarchy": "Text XML Basic Utility",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Utility",
           "name": "Utility",
           "package": "xml-basic",
@@ -4434,6 +4762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNeeds \u003ccode\u003e\u003ca\u003ebreak\u003c/a\u003e\u003c/code\u003e from utility-ht in order to be as lazy as \u003ccode\u003e\u003ca\u003eupdateAppend'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Utility",
           "name": "updateAppend",
           "package": "xml-basic",
@@ -4444,6 +4773,7 @@
         "index": {
           "description": "Needs break from utility-ht in order to be as lazy as updateAppend",
           "hierarchy": "Text XML Basic Utility",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Utility",
           "name": "updateAppend",
           "normalized": "(a-\u003eBool)-\u003ea-\u003e(a-\u003ea)-\u003e[a]-\u003e[a]",
@@ -4460,6 +4790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003ccode\u003ef\u003c/code\u003e to the first element, where \u003ccode\u003ep\u003c/code\u003e holds.\nIf no such element exists, append the default value \u003ccode\u003edeflt\u003c/code\u003e to the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:01 UTC 2014",
           "module": "Text.XML.Basic.Utility",
           "name": "updateAppend'",
           "package": "xml-basic",
@@ -4470,6 +4801,7 @@
         "index": {
           "description": "Apply to the first element where holds If no such element exists append the default value deflt to the list",
           "hierarchy": "Text XML Basic Utility",
+          "indexed": "2014-03-11T20:42:01",
           "module": "Text.XML.Basic.Utility",
           "name": "updateAppend'",
           "normalized": "(a-\u003eBool)-\u003ea-\u003e(a-\u003ea)-\u003e[a]-\u003e[a]",

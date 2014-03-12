@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rematch"
+        "phrase": "rematch",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains some utility functions for formatting descriptions\n It is probably only useful when you're writing your own matchers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch.Formatting",
           "name": "Formatting",
           "package": "rematch",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains some utility functions for formatting descriptions It is probably only useful when you re writing your own matchers",
           "hierarchy": "Control Rematch Formatting",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch.Formatting",
           "name": "Formatting",
           "package": "rematch",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch.Formatting",
           "name": "describeList",
           "package": "rematch",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Control Rematch Formatting",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch.Formatting",
           "name": "describeList",
           "normalized": "String-\u003e[String]-\u003eString",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility function for formatting a list of strings with a separator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch.Formatting",
           "name": "join",
           "package": "rematch",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Utility function for formatting list of strings with separator",
           "hierarchy": "Control Rematch Formatting",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch.Formatting",
           "name": "join",
           "normalized": "String-\u003e[String]-\u003eString",
@@ -90,6 +96,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch.Run",
           "name": "Run",
           "package": "rematch",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Control Rematch Run",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch.Run",
           "name": "Run",
           "package": "rematch",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type representing a match success or failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch.Run",
           "name": "Match",
           "package": "rematch",
@@ -121,6 +130,7 @@
         "index": {
           "description": "type representing match success or failure",
           "hierarchy": "Control Rematch Run",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch.Run",
           "name": "Match",
           "package": "rematch",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch.Run",
           "name": "MatchFailure",
           "package": "rematch",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Control Rematch Run",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch.Run",
           "name": "MatchFailure",
           "package": "rematch",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch.Run",
           "name": "MatchSuccess",
           "package": "rematch",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Control Rematch Run",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch.Run",
           "name": "MatchSuccess",
           "package": "rematch",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines an api for matchers: rules that can pass or fail,\n and describe their failure and success conditions for humans to read.\n\u003c/p\u003e\u003cp\u003eThis module also exports some useful matchers for things in the \u003ca\u003ePrelude\u003c/a\u003e,\n and some combinators that are useful for combining several matchers into one.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "Rematch",
           "package": "rematch",
@@ -188,6 +203,7 @@
         "index": {
           "description": "This module defines an api for matchers rules that can pass or fail and describe their failure and success conditions for humans to read This module also exports some useful matchers for things in the Prelude and some combinators that are useful for combining several matchers into one",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "Rematch",
           "package": "rematch",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic api for a matcher\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "Matcher",
           "package": "rematch",
@@ -211,6 +228,7 @@
         "index": {
           "description": "The basic api for matcher",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "Matcher",
           "package": "rematch",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "Matcher",
           "package": "rematch",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "Matcher",
           "package": "rematch",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches if all of a list of matchers pass\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "allOf",
           "package": "rematch",
@@ -257,6 +278,7 @@
         "index": {
           "description": "Matches if all of list of matchers pass",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "allOf",
           "normalized": "[Matcher a]-\u003eMatcher a",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches if any of a list of matchers pass\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "anyOf",
           "package": "rematch",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Matches if any of list of matchers pass",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "anyOf",
           "normalized": "[Matcher a]-\u003eMatcher a",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description to be shown if the match fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "describeMismatch",
           "package": "rematch",
@@ -309,6 +334,7 @@
         "index": {
           "description": "description to be shown if the match fails",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "describeMismatch",
           "normalized": "a-\u003eString",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of the matcher (usually of its success conditions)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "description",
           "package": "rematch",
@@ -335,6 +362,7 @@
         "index": {
           "description": "description of the matcher usually of its success conditions",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "description",
           "package": "rematch",
@@ -348,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatcher on equality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "equalTo",
           "package": "rematch",
@@ -358,6 +387,7 @@
         "index": {
           "description": "Matcher on equality",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "equalTo",
           "normalized": "a-\u003eMatcher a",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches if every item in the input list passes a matcher\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "everyItem",
           "package": "rematch",
@@ -384,6 +415,7 @@
         "index": {
           "description": "Matches if every item in the input list passes matcher",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "everyItem",
           "normalized": "Matcher a-\u003eMatcher[a]",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches if the input is greater than the required number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "greaterThan",
           "package": "rematch",
@@ -410,6 +443,7 @@
         "index": {
           "description": "Matches if the input is greater than the required number",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "greaterThan",
           "normalized": "a-\u003eMatcher a",
@@ -426,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches if the input is greater than or equal to the required number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "greaterThanOrEqual",
           "package": "rematch",
@@ -436,6 +471,7 @@
         "index": {
           "description": "Matches if the input is greater than or equal to the required number",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "greaterThanOrEqual",
           "normalized": "a-\u003eMatcher a",
@@ -452,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches if any of the items in the input list passes the provided matcher\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "hasItem",
           "package": "rematch",
@@ -462,6 +499,7 @@
         "index": {
           "description": "Matches if any of the items in the input list passes the provided matcher",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "hasItem",
           "normalized": "Matcher a-\u003eMatcher[a]",
@@ -478,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatcher combinator, turns Matcher a to Matcher (Maybe a)\n Fails if the Maybe is Nothing, otherwise tries the original\n matcher on the content of the Maybe\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "hasJust",
           "package": "rematch",
@@ -488,6 +527,7 @@
         "index": {
           "description": "Matcher combinator turns Matcher to Matcher Maybe Fails if the Maybe is Nothing otherwise tries the original matcher on the content of the Maybe",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "hasJust",
           "normalized": "Matcher a-\u003eMatcher(Maybe a)",
@@ -504,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatcher combinator: turns a Matcher a into a Matcher on the\n Left side of an Either a b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "hasLeft",
           "package": "rematch",
@@ -514,6 +555,7 @@
         "index": {
           "description": "Matcher combinator turns Matcher into Matcher on the Left side of an Either",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "hasLeft",
           "normalized": "Matcher a-\u003eMatcher(Either a b)",
@@ -530,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatcher combinator: turns a Matcher b into a Matcher on the\n Right side of an Either a b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "hasRight",
           "package": "rematch",
@@ -540,6 +583,7 @@
         "index": {
           "description": "Matcher combinator turns Matcher into Matcher on the Right side of an Either",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "hasRight",
           "normalized": "Matcher a-\u003eMatcher(Either b a)",
@@ -556,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches if the input list has the required size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "hasSize",
           "package": "rematch",
@@ -566,6 +611,7 @@
         "index": {
           "description": "Matches if the input list has the required size",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "hasSize",
           "normalized": "Int-\u003eMatcher[a]",
@@ -582,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatcher on equality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "is",
           "package": "rematch",
@@ -592,6 +639,7 @@
         "index": {
           "description": "Matcher on equality",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "is",
           "normalized": "a-\u003eMatcher a",
@@ -607,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches if the input list is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "isEmpty",
           "package": "rematch",
@@ -617,6 +666,7 @@
         "index": {
           "description": "Matches if the input list is empty",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "isEmpty",
           "normalized": "Matcher[a]",
@@ -633,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches if the input is (Just a)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "isJust",
           "package": "rematch",
@@ -643,6 +694,7 @@
         "index": {
           "description": "Matches if the input is Just",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "isJust",
           "package": "rematch",
@@ -657,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches if an Either is Left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "isLeft",
           "package": "rematch",
@@ -667,6 +720,7 @@
         "index": {
           "description": "Matches if an Either is Left",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "isLeft",
           "package": "rematch",
@@ -681,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverts a matcher, so success becomes failure, and failure\n becomes success\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "isNot",
           "package": "rematch",
@@ -691,6 +746,7 @@
         "index": {
           "description": "Inverts matcher so success becomes failure and failure becomes success",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "isNot",
           "normalized": "Matcher a-\u003eMatcher a",
@@ -707,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches if the input is Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "isNothing",
           "package": "rematch",
@@ -717,6 +774,7 @@
         "index": {
           "description": "Matches if the input is Nothing",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "isNothing",
           "package": "rematch",
@@ -731,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches if an Either is Right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "isRight",
           "package": "rematch",
@@ -741,6 +800,7 @@
         "index": {
           "description": "Matches if an Either is Right",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "isRight",
           "package": "rematch",
@@ -755,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches if the input is less than the required number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "lessThan",
           "package": "rematch",
@@ -765,6 +826,7 @@
         "index": {
           "description": "Matches if the input is less than the required number",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "lessThan",
           "normalized": "a-\u003eMatcher a",
@@ -781,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches if the input is less than or equal to the required number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "lessThanOrEqual",
           "package": "rematch",
@@ -791,6 +854,7 @@
         "index": {
           "description": "Matches if the input is less than or equal to the required number",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "lessThanOrEqual",
           "normalized": "a-\u003eMatcher a",
@@ -807,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function that returns True if the matcher should pass, False if it should fail\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "match",
           "package": "rematch",
@@ -817,6 +882,7 @@
         "index": {
           "description": "function that returns True if the matcher should pass False if it should fail",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "match",
           "normalized": "a-\u003eBool",
@@ -832,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility function for running a list of matchers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "matchList",
           "package": "rematch",
@@ -842,6 +909,7 @@
         "index": {
           "description": "Utility function for running list of matchers",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "matchList",
           "normalized": "[Matcher a]-\u003ea-\u003e[Bool]",
@@ -858,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds a Matcher a out of a name and a function from (a -\u003e a -\u003e Bool)\n Succeeds if the function returns true, fails if the function returns false\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "matcherOn",
           "package": "rematch",
@@ -868,6 +937,7 @@
         "index": {
           "description": "Builds Matcher out of name and function from Bool Succeeds if the function returns true fails if the function returns false",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "matcherOn",
           "normalized": "String-\u003e(a-\u003ea-\u003eBool)-\u003ea-\u003eMatcher a",
@@ -884,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA combinator that translates Matcher a to Matcher b using\n a function :: (a -\u003e b)\n Takes a name of the function for better error messages\n\u003c/p\u003e\u003cp\u003eUsing this as an infix operator gets you some nice syntax:\n expect ((is 1) \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003e (length, \u003ca\u003elength\u003c/a\u003e)) []\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "on",
           "package": "rematch",
@@ -894,6 +965,7 @@
         "index": {
           "description": "combinator that translates Matcher to Matcher using function Takes name of the function for better error messages Using this as an infix operator gets you some nice syntax expect is on length length",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "on",
           "normalized": "Matcher a-\u003e(b-\u003ea,String)-\u003eMatcher b",
@@ -909,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a matcher, producing a Match with a good error string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "runMatch",
           "package": "rematch",
@@ -919,6 +992,7 @@
         "index": {
           "description": "Run matcher producing Match with good error string",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "runMatch",
           "normalized": "Matcher a-\u003ea-\u003eMatch",
@@ -935,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard mismatch description on (Show a):\n standardMismatch 1 == \u003ca\u003ewas 1\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:39 UTC 2014",
           "module": "Control.Rematch",
           "name": "standardMismatch",
           "package": "rematch",
@@ -945,6 +1020,7 @@
         "index": {
           "description": "standard mismatch description on Show standardMismatch was",
           "hierarchy": "Control Rematch",
+          "indexed": "2014-03-11T19:52:39",
           "module": "Control.Rematch",
           "name": "standardMismatch",
           "normalized": "a-\u003eString",

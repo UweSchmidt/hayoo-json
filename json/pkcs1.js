@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pkcs1"
+        "phrase": "pkcs1",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements RSA encryption with PKCS1 padding.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "PKCS1",
           "package": "pkcs1",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module implements RSA encryption with PKCS1 padding",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "PKCS1",
           "package": "pkcs1",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "PrivateKey",
           "package": "pkcs1",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "PrivateKey",
           "package": "pkcs1",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis private key variant is considerably faster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "PrivateKeyComplex",
           "package": "pkcs1",
@@ -72,6 +77,7 @@
         "index": {
           "description": "This private key variant is considerably faster",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "PrivateKeyComplex",
           "package": "pkcs1",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis private key variant takes longer to decrypt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "PrivateKeySimple",
           "package": "pkcs1",
@@ -95,6 +102,7 @@
         "index": {
           "description": "This private key variant takes longer to decrypt",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "PrivateKeySimple",
           "package": "pkcs1",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe public key is contained in a certificate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "PublicKey",
           "package": "pkcs1",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The public key is contained in certificate",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "PublicKey",
           "package": "pkcs1",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "PrivateKey",
           "package": "pkcs1",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "PrivateKey",
           "package": "pkcs1",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "PrivateKeyComplex",
           "package": "pkcs1",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "PrivateKeyComplex",
           "package": "pkcs1",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "PrivateKeySimple",
           "package": "pkcs1",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "PrivateKeySimple",
           "package": "pkcs1",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "PublicKey",
           "package": "pkcs1",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "PublicKey",
           "package": "pkcs1",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrypts a ByteString using RSA with PKCS1 padding. If the ByteString\n   couldn't be decrypted, nothing is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "decrypt",
           "package": "pkcs1",
@@ -229,6 +248,7 @@
         "index": {
           "description": "Decrypts ByteString using RSA with PKCS1 padding If the ByteString couldn be decrypted nothing is returned",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "decrypt",
           "normalized": "Int-\u003ePrivateKey-\u003eByteString-\u003eMaybe ByteString",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncrypts a ByteString using RSA with PKCS1 padding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "encrypt",
           "package": "pkcs1",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Encrypts ByteString using RSA with PKCS1 padding",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "encrypt",
           "normalized": "Int-\u003ePublicKey-\u003ea-\u003eByteString-\u003eByteString",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a number into a block of bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "i2osp",
           "package": "pkcs1",
@@ -278,6 +301,7 @@
         "index": {
           "description": "Converts number into block of bytes",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "i2osp",
           "normalized": "Int-\u003ea-\u003eByteString",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a block of bytes into a number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "os2ip",
           "package": "pkcs1",
@@ -303,6 +328,7 @@
         "index": {
           "description": "Converts block of bytes into number",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "os2ip",
           "normalized": "ByteString-\u003ea",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrivate exponent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "privateD",
           "package": "pkcs1",
@@ -328,6 +355,7 @@
         "index": {
           "description": "Private exponent",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "privateD",
           "package": "pkcs1",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe private exponent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "privateD'",
           "package": "pkcs1",
@@ -351,6 +380,7 @@
         "index": {
           "description": "The private exponent",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "privateD'",
           "package": "pkcs1",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe modulus\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "privateN",
           "package": "pkcs1",
@@ -375,6 +406,7 @@
         "index": {
           "description": "The modulus",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "privateN",
           "package": "pkcs1",
@@ -388,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe modulus\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "privateN'",
           "package": "pkcs1",
@@ -398,6 +431,7 @@
         "index": {
           "description": "The modulus",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "privateN'",
           "package": "pkcs1",
@@ -412,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first prime number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "privateP",
           "package": "pkcs1",
@@ -422,6 +457,7 @@
         "index": {
           "description": "The first prime number",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "privateP",
           "package": "pkcs1",
@@ -435,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe second prime number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "privateQ",
           "package": "pkcs1",
@@ -445,6 +482,7 @@
         "index": {
           "description": "The second prime number",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "privateQ",
           "package": "pkcs1",
@@ -458,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGo read a book about it for god sake\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "privateU",
           "package": "pkcs1",
@@ -468,6 +507,7 @@
         "index": {
           "description": "Go read book about it for god sake",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "privateU",
           "package": "pkcs1",
@@ -481,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePublic exponent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "publicE",
           "package": "pkcs1",
@@ -491,6 +532,7 @@
         "index": {
           "description": "Public exponent",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "publicE",
           "package": "pkcs1",
@@ -504,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe modulus\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:50 UTC 2014",
           "module": "Codec.Encryption.PKCS1",
           "name": "publicN",
           "package": "pkcs1",
@@ -514,6 +557,7 @@
         "index": {
           "description": "The modulus",
           "hierarchy": "Codec Encryption PKCS1",
+          "indexed": "2014-03-11T19:39:50",
           "module": "Codec.Encryption.PKCS1",
           "name": "publicN",
           "package": "pkcs1",

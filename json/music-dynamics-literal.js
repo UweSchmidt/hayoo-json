@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "music-dynamics-literal"
+        "phrase": "music-dynamics-literal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides overloaded pitch literals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "Literal",
           "package": "music-dynamics-literal",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides overloaded pitch literals",
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "Literal",
           "package": "music-dynamics-literal",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;\n Dynamics literal.\n\u003c/p\u003e\u003cp\u003eFirst value is start value, second is end value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e(Just x, Nothing)\u003c/code\u003e is a constant dynamic of \u003ccode\u003ex\u003c/code\u003e\n * \u003ccode\u003e(Just x, Just y)\u003c/code\u003e is a dynamic varying from \u003ccode\u003ex\u003c/code\u003e to \u003ccode\u003ey\u003c/code\u003e\n * \u003ccode\u003e(Nothing, Just y)\u003c/code\u003e is a dynamic varying from the previous level to \u003ccode\u003ey\u003c/code\u003e\n * \u003ccode\u003e(Nothing, Nothing)\u003c/code\u003e is a dynamic varying from the previous level to the next.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor levels, we use \u003ccode\u003e-0.5\u003c/code\u003e for \u003cem\u003emp\u003c/em\u003e, \u003ccode\u003e0.5\u003c/code\u003e for \u003cem\u003emf\u003c/em\u003e and add or remove one for each level.\n \u003ccode\u003e0\u003c/code\u003e is an unspecified middle level dynamic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "DynamicsL",
           "package": "music-dynamics-literal",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Dynamics literal First value is start value second is end value Just Nothing is constant dynamic of Just Just is dynamic varying from to Nothing Just is dynamic varying from the previous level to Nothing Nothing is dynamic varying from the previous level to the next For levels we use for mp for mf and add or remove one for each level is an unspecified middle level dynamic",
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "DynamicsL",
           "package": "music-dynamics-literal",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "IsDynamics",
           "package": "music-dynamics-literal",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "IsDynamics",
           "package": "music-dynamics-literal",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "DynamicsL",
           "package": "music-dynamics-literal",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "DynamicsL",
           "package": "music-dynamics-literal",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "_f",
           "package": "music-dynamics-literal",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "_f",
           "package": "music-dynamics-literal",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "_p",
           "package": "music-dynamics-literal",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "_p",
           "package": "music-dynamics-literal",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "ff",
           "package": "music-dynamics-literal",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "ff",
           "package": "music-dynamics-literal",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "fff",
           "package": "music-dynamics-literal",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "fff",
           "package": "music-dynamics-literal",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "ffff",
           "package": "music-dynamics-literal",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "ffff",
           "package": "music-dynamics-literal",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "fffff",
           "package": "music-dynamics-literal",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "fffff",
           "package": "music-dynamics-literal",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "ffffff",
           "package": "music-dynamics-literal",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "ffffff",
           "package": "music-dynamics-literal",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "fp",
           "package": "music-dynamics-literal",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "fp",
           "package": "music-dynamics-literal",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "fromDynamics",
           "package": "music-dynamics-literal",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "fromDynamics",
           "normalized": "DynamicsL-\u003ea",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "fz",
           "package": "music-dynamics-literal",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "fz",
           "package": "music-dynamics-literal",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "getDynamicsL",
           "package": "music-dynamics-literal",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "getDynamicsL",
           "normalized": "(Maybe Double,Maybe Double)",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "mf",
           "package": "music-dynamics-literal",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "mf",
           "package": "music-dynamics-literal",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "mp",
           "package": "music-dynamics-literal",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "mp",
           "package": "music-dynamics-literal",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "pp",
           "package": "music-dynamics-literal",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "pp",
           "package": "music-dynamics-literal",
@@ -407,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "ppp",
           "package": "music-dynamics-literal",
@@ -416,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "ppp",
           "package": "music-dynamics-literal",
@@ -428,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "pppp",
           "package": "music-dynamics-literal",
@@ -437,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "pppp",
           "package": "music-dynamics-literal",
@@ -449,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "ppppp",
           "package": "music-dynamics-literal",
@@ -458,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "ppppp",
           "package": "music-dynamics-literal",
@@ -470,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "pppppp",
           "package": "music-dynamics-literal",
@@ -479,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "pppppp",
           "package": "music-dynamics-literal",
@@ -491,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "rfz",
           "package": "music-dynamics-literal",
@@ -500,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "rfz",
           "package": "music-dynamics-literal",
@@ -512,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "sffz",
           "package": "music-dynamics-literal",
@@ -521,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "sffz",
           "package": "music-dynamics-literal",
@@ -533,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:31 UTC 2014",
           "module": "Music.Dynamics.Literal",
           "name": "sfz",
           "package": "music-dynamics-literal",
@@ -542,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Music Dynamics Literal",
+          "indexed": "2014-03-11T19:24:31",
           "module": "Music.Dynamics.Literal",
           "name": "sfz",
           "package": "music-dynamics-literal",

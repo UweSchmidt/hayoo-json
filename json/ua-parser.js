@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ua-parser"
+        "phrase": "ua-parser",
+        "type": "phrase"
       },
       "type": "context"
     }

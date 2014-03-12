@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Obsidian"
+        "phrase": "Obsidian",
+        "type": "phrase"
       },
       "type": "context"
     }

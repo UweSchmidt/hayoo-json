@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "th-lift"
+        "phrase": "th-lift",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:13 UTC 2014",
           "module": "Language.Haskell.TH.Lift",
           "name": "Lift",
           "package": "th-lift",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lift",
+          "indexed": "2014-03-11T20:21:13",
           "module": "Language.Haskell.TH.Lift",
           "name": "Lift",
           "package": "th-lift",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:13 UTC 2014",
           "module": "Language.Haskell.TH.Lift",
           "name": "Lift",
           "package": "th-lift",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lift",
+          "indexed": "2014-03-11T20:21:13",
           "module": "Language.Haskell.TH.Lift",
           "name": "Lift",
           "package": "th-lift",
@@ -60,6 +64,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive Lift instances for the given datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:13 UTC 2014",
           "module": "Language.Haskell.TH.Lift",
           "name": "deriveLift",
           "package": "th-lift",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Derive Lift instances for the given datatype",
           "hierarchy": "Language Haskell TH Lift",
+          "indexed": "2014-03-11T20:21:13",
           "module": "Language.Haskell.TH.Lift",
           "name": "deriveLift",
           "normalized": "Name-\u003eQ[Dec]",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain Info values through a custom reification function. This is useful\n when generating instances for datatypes that have not yet been declared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:13 UTC 2014",
           "module": "Language.Haskell.TH.Lift",
           "name": "deriveLift'",
           "package": "th-lift",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Obtain Info values through custom reification function This is useful when generating instances for datatypes that have not yet been declared",
           "hierarchy": "Language Haskell TH Lift",
+          "indexed": "2014-03-11T20:21:13",
           "module": "Language.Haskell.TH.Lift",
           "name": "deriveLift'",
           "normalized": "Info-\u003eQ[Dec]",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive Lift instances for many datatypes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:13 UTC 2014",
           "module": "Language.Haskell.TH.Lift",
           "name": "deriveLiftMany",
           "package": "th-lift",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Derive Lift instances for many datatypes",
           "hierarchy": "Language Haskell TH Lift",
+          "indexed": "2014-03-11T20:21:13",
           "module": "Language.Haskell.TH.Lift",
           "name": "deriveLiftMany",
           "normalized": "[Name]-\u003eQ[Dec]",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:13 UTC 2014",
           "module": "Language.Haskell.TH.Lift",
           "name": "deriveLiftMany'",
           "package": "th-lift",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lift",
+          "indexed": "2014-03-11T20:21:13",
           "module": "Language.Haskell.TH.Lift",
           "name": "deriveLiftMany'",
           "normalized": "[Info]-\u003eQ[Dec]",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:13 UTC 2014",
           "module": "Language.Haskell.TH.Lift",
           "name": "lift",
           "package": "th-lift",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Lift",
+          "indexed": "2014-03-11T20:21:13",
           "module": "Language.Haskell.TH.Lift",
           "name": "lift",
           "normalized": "a-\u003eQ Exp",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "statvfs"
+        "phrase": "statvfs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "StatVFS",
           "package": "statvfs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "StatVFS",
           "package": "statvfs",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "CFSBlkCnt",
           "package": "statvfs",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "CFSBlkCnt",
           "package": "statvfs",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "CFSFilCnt",
           "package": "statvfs",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "CFSFilCnt",
           "package": "statvfs",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "CStatVFS",
           "package": "statvfs",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "CStatVFS",
           "package": "statvfs",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "StatVFS",
           "package": "statvfs",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "StatVFS",
           "package": "statvfs",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "CFSBlkCnt",
           "package": "statvfs",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "CFSBlkCnt",
           "package": "statvfs",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "CFSFilCnt",
           "package": "statvfs",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "CFSFilCnt",
           "package": "statvfs",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "StatVFS",
           "package": "statvfs",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "StatVFS",
           "package": "statvfs",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "c_fstatvfs",
           "package": "statvfs",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "c_fstatvfs",
           "normalized": "CInt-\u003ePtr CStatVFS-\u003eIO CInt",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "c_statvfs",
           "package": "statvfs",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "c_statvfs",
           "normalized": "CString-\u003ePtr CStatVFS-\u003eIO CInt",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "fStatVFS",
           "package": "statvfs",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "fStatVFS",
           "normalized": "Fd-\u003eIO StatVFS",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "statVFS",
           "package": "statvfs",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "statVFS",
           "normalized": "FilePath-\u003eIO StatVFS",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_bavail",
           "package": "statvfs",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_bavail",
           "package": "statvfs",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_bfree",
           "package": "statvfs",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_bfree",
           "package": "statvfs",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_blocks",
           "package": "statvfs",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_blocks",
           "package": "statvfs",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_bsize",
           "package": "statvfs",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_bsize",
           "package": "statvfs",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_favail",
           "package": "statvfs",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_favail",
           "package": "statvfs",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_ffree",
           "package": "statvfs",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_ffree",
           "package": "statvfs",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_files",
           "package": "statvfs",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_files",
           "package": "statvfs",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_flag",
           "package": "statvfs",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_flag",
           "package": "statvfs",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_frsize",
           "package": "statvfs",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_frsize",
           "package": "statvfs",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_fsid",
           "package": "statvfs",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_fsid",
           "package": "statvfs",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_namemax",
           "package": "statvfs",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_namemax",
           "package": "statvfs",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_st_nosuid",
           "package": "statvfs",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_st_nosuid",
           "package": "statvfs",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_st_rdonly",
           "package": "statvfs",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "statVFS_st_rdonly",
           "package": "statvfs",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:29 UTC 2014",
           "module": "System.Posix.StatVFS",
           "name": "toStatVFS",
           "package": "statvfs",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "System Posix StatVFS",
+          "indexed": "2014-03-11T20:10:29",
           "module": "System.Posix.StatVFS",
           "name": "toStatVFS",
           "normalized": "Ptr CStatVFS-\u003eIO StatVFS",

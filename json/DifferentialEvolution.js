@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DifferentialEvolution"
+        "phrase": "DifferentialEvolution",
+        "type": "phrase"
       },
       "type": "context"
     }

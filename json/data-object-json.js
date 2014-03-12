@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-object-json"
+        "phrase": "data-object-json",
+        "type": "phrase"
       },
       "type": "context"
     }

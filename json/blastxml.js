@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "blastxml"
+        "phrase": "blastxml",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a hierarchical data structure for BLAST results.\n\u003c/p\u003e\u003cp\u003eBLAST is a tool for searching in (biological) sequences for\n   similarity.  This library is tested against NCBI-blast version\n   2.2.14.  There exist several independent versions of BLAST, so expect some\n   incompatbilities if you're using a different BLAST version.\n\u003c/p\u003e\u003cp\u003eFor parsing BLAST results, the XML format (blastall -m 7) is by far the most\n   robust choice, and is implemented in the \u003ca\u003eBio.Alignment.BlastXML\u003c/a\u003e module.\n\u003c/p\u003e\u003cp\u003eThe format is straightforward (and non-recursive).\n   For more information on BLAST, check \u003ca\u003ehttp://www.ncbi.nlm.nih.gov/Education/BLASTinfo/information3.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "BlastData",
           "package": "blastxml",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module implements hierarchical data structure for BLAST results BLAST is tool for searching in biological sequences for similarity This library is tested against NCBI-blast version There exist several independent versions of BLAST so expect some incompatbilities if you re using different BLAST version For parsing BLAST results the XML format blastall is by far the most robust choice and is implemented in the Bio.Alignment.BlastXML module The format is straightforward and non-recursive For more information on BLAST check http www.ncbi.nlm.nih.gov Education BLASTinfo information3.html",
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "BlastData",
           "package": "blastxml",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Aux field in the BLAST output includes match information that depends\n   on the BLAST flavor (blastn, blastx, or blastp).  This data structure captures\n   those variations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "Aux",
           "package": "blastxml",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The Aux field in the BLAST output includes match information that depends on the BLAST flavor blastn blastx or blastp This data structure captures those variations",
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "Aux",
           "package": "blastxml",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach match between a query and a target sequence (or subject)\n   is a \u003ccode\u003e\u003ca\u003eBlastHit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "BlastHit",
           "package": "blastxml",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Each match between query and target sequence or subject is BlastHit",
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "BlastHit",
           "package": "blastxml",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBlastHit\u003c/a\u003e\u003c/code\u003e may contain multiple separate matches (typcially when\n   an indel causes a frameshift that blastx is unable to bridge).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "BlastMatch",
           "package": "blastxml",
@@ -97,6 +104,7 @@
         "index": {
           "description": "BlastHit may contain multiple separate matches typcially when an indel causes frameshift that blastx is unable to bridge",
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "BlastMatch",
           "package": "blastxml",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach query sequence generates a \u003ccode\u003e\u003ca\u003eBlastRecord\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "BlastRecord",
           "package": "blastxml",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Each query sequence generates BlastRecord",
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "BlastRecord",
           "package": "blastxml",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBlastResult\u003c/a\u003e\u003c/code\u003e is the root of the hierarchy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "BlastResult",
           "package": "blastxml",
@@ -143,6 +154,7 @@
         "index": {
           "description": "BlastResult is the root of the hierarchy",
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "BlastResult",
           "package": "blastxml",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "BlastHit",
           "package": "blastxml",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "BlastHit",
           "package": "blastxml",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "BlastMatch",
           "package": "blastxml",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "BlastMatch",
           "package": "blastxml",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "BlastRecord",
           "package": "blastxml",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "BlastRecord",
           "package": "blastxml",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "BlastResult",
           "package": "blastxml",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "BlastResult",
           "package": "blastxml",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblastx\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "Frame",
           "package": "blastxml",
@@ -255,6 +276,7 @@
         "index": {
           "description": "blastx",
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "Frame",
           "package": "blastxml",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblastn\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "Strands",
           "package": "blastxml",
@@ -279,6 +302,7 @@
         "index": {
           "description": "blastn",
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "Strands",
           "package": "blastxml",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "aux",
           "package": "blastxml",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "aux",
           "package": "blastxml",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "bits",
           "package": "blastxml",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "bits",
           "package": "blastxml",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "blastdate",
           "package": "blastxml",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "blastdate",
           "package": "blastxml",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "blastprogram",
           "package": "blastxml",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "blastprogram",
           "package": "blastxml",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "blastreferences",
           "package": "blastxml",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "blastreferences",
           "package": "blastxml",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "blastversion",
           "package": "blastxml",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "blastversion",
           "package": "blastxml",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "database",
           "package": "blastxml",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "database",
           "package": "blastxml",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "dbchars",
           "package": "blastxml",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "dbchars",
           "package": "blastxml",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "dbsequences",
           "package": "blastxml",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "dbsequences",
           "package": "blastxml",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "e_val",
           "package": "blastxml",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "e_val",
           "package": "blastxml",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "h_from",
           "package": "blastxml",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "h_from",
           "package": "blastxml",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "h_to",
           "package": "blastxml",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "h_to",
           "package": "blastxml",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "hits",
           "package": "blastxml",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "hits",
           "normalized": "[BlastHit]",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "hseq",
           "package": "blastxml",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "hseq",
           "package": "blastxml",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "identity",
           "package": "blastxml",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "identity",
           "normalized": "(Int,Int)",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "matches",
           "package": "blastxml",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "matches",
           "normalized": "[BlastMatch]",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "q_from",
           "package": "blastxml",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "q_from",
           "package": "blastxml",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "q_to",
           "package": "blastxml",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "q_to",
           "package": "blastxml",
@@ -676,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "qlength",
           "package": "blastxml",
@@ -685,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "qlength",
           "package": "blastxml",
@@ -697,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "qseq",
           "package": "blastxml",
@@ -706,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "qseq",
           "package": "blastxml",
@@ -718,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "query",
           "package": "blastxml",
@@ -727,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "query",
           "package": "blastxml",
@@ -739,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "results",
           "package": "blastxml",
@@ -748,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "results",
           "normalized": "[BlastRecord]",
@@ -762,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "slength",
           "package": "blastxml",
@@ -771,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "slength",
           "package": "blastxml",
@@ -783,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastData",
           "name": "subject",
           "package": "blastxml",
@@ -792,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastData",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastData",
           "name": "subject",
           "package": "blastxml",
@@ -805,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse blast XML output.\n\u003c/p\u003e\u003cp\u003eIf you use a recent version of NCBI BLAST and specify XML output (blastall -m 7),\n   this module should be able to parse the result into a hierarchical \u003ccode\u003e\u003ca\u003eBlastResult\u003c/a\u003e\u003c/code\u003e\n   structure.\n\u003c/p\u003e\u003cp\u003eWhile the process may consume a bit of memory, the parsing is lazy,\n   and file sizes of several gigabytes can be parsed (see e.g. the\n   xml2x tool for an example).  To parse XML, we use\n   \u003ccode\u003e\u003ca\u003eTagSoup\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastXML",
           "name": "BlastXML",
           "package": "blastxml",
@@ -814,6 +887,7 @@
         "index": {
           "description": "Parse blast XML output If you use recent version of NCBI BLAST and specify XML output blastall this module should be able to parse the result into hierarchical BlastResult structure While the process may consume bit of memory the parsing is lazy and file sizes of several gigabytes can be parsed see e.g the xml2x tool for an example To parse XML we use TagSoup",
           "hierarchy": "Bio BlastXML",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastXML",
           "name": "BlastXML",
           "package": "blastxml",
@@ -827,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastXML",
           "name": "parseXML",
           "package": "blastxml",
@@ -836,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Bio BlastXML",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastXML",
           "name": "parseXML",
           "normalized": "ByteString-\u003eIO BlastResult",
@@ -852,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse BLAST results in XML format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:39 UTC 2014",
           "module": "Bio.BlastXML",
           "name": "readXML",
           "package": "blastxml",
@@ -862,6 +939,7 @@
         "index": {
           "description": "Parse BLAST results in XML format",
           "hierarchy": "Bio BlastXML",
+          "indexed": "2014-03-11T17:23:39",
           "module": "Bio.BlastXML",
           "name": "readXML",
           "normalized": "FilePath-\u003eIO BlastResult",

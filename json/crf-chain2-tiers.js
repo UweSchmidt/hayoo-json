@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crf-chain2-tiers"
+        "phrase": "crf-chain2-tiers",
+        "type": "phrase"
       },
       "type": "context"
     }

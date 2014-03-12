@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "atto-lisp"
+        "phrase": "atto-lisp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficient parsing and serialisation of S-Expressions (as used by Lisp).\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported qualified, e.g.:\n\u003c/p\u003e\u003cpre\u003e import qualified Data.AttoLisp as L\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "AttoLisp",
           "package": "atto-lisp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Efficient parsing and serialisation of S-Expressions as used by Lisp This module is intended to be imported qualified e.g import qualified Data.AttoLisp as",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "AttoLisp",
           "package": "atto-lisp",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailure continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "Failure",
           "package": "atto-lisp",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Failure continuation",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "Failure",
           "package": "atto-lisp",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted from an S-expression, with the\n possibility of failure.\n\u003c/p\u003e\u003cp\u003eWhen writing an instance, use \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e to make a\n conversion fail, e.g. the value is of the wrong type.\n\u003c/p\u003e\u003cp\u003eAn example type and instance:\n\u003c/p\u003e\u003cpre\u003edata Coord { x :: Double, y :: Double }\n\ninstance FromLisp Coord where\n   parseLisp (\u003ccode\u003e\u003ca\u003eDotList\u003c/a\u003e\u003c/code\u003e [x] y) = pure (Coord x y) \n   -- A non-DotList value is of the wrong shape, so use mzero to fail.\n   parseLisp _          = \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eThe above instance expects that \u003ccode\u003eCoord 4 5\u003c/code\u003e is encoded as \u003ccode\u003e(4\n . 5)\u003c/code\u003e.  This makes sense for a few special types, but most of the\n time the standard encoding should be used: \u003ccode\u003e(coord 4 5)\u003c/code\u003e.  The\n \u003ccode\u003e\u003ca\u003estruct\u003c/a\u003e\u003c/code\u003e combinator provides special support for this use case:\n\u003c/p\u003e\u003cpre\u003einstance FromLisp Coord where\n   parseLisp = \u003ccode\u003e\u003ca\u003estruct\u003c/a\u003e\u003c/code\u003e \"coord\" Coord\n\u003c/pre\u003e\u003cp\u003eIt uses some special type class magic to figure out the arity of\n its second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "FromLisp",
           "package": "atto-lisp",
@@ -74,6 +79,7 @@
         "index": {
           "description": "type that can be converted from an S-expression with the possibility of failure When writing an instance use mzero or fail to make conversion fail e.g the value is of the wrong type An example type and instance data Coord Double Double instance FromLisp Coord where parseLisp DotList pure Coord non-DotList value is of the wrong shape so use mzero to fail parseLisp mzero The above instance expects that Coord is encoded as This makes sense for few special types but most of the time the standard encoding should be used coord The struct combinator provides special support for this use case instance FromLisp Coord where parseLisp struct coord Coord It uses some special type class magic to figure out the arity of its second argument",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "FromLisp",
           "package": "atto-lisp",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Lisp expression (S-expression).\n\u003c/p\u003e\u003cp\u003eSymbols are case-sensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "Lisp",
           "package": "atto-lisp",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Lisp expression S-expression Symbols are case-sensitive",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "Lisp",
           "package": "atto-lisp",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA continuation-based parser type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "Parser",
           "package": "atto-lisp",
@@ -120,6 +129,7 @@
         "index": {
           "description": "continuation-based parser type",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "Parser",
           "package": "atto-lisp",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of running a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "Result",
           "package": "atto-lisp",
@@ -143,6 +154,7 @@
         "index": {
           "description": "The result of running Parser",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "Result",
           "package": "atto-lisp",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuccess continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "Success",
           "package": "atto-lisp",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Success continuation",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "Success",
           "package": "atto-lisp",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted to an S-expression.\n\u003c/p\u003e\u003cp\u003eAn example type and instance:\n\u003c/p\u003e\u003cpre\u003edata Coord { x :: Double, y :: Double }\n\ninstance ToLisp Coord where\n   toLisp (Coord x y) = \u003ccode\u003e\u003ca\u003estruct\u003c/a\u003e\u003c/code\u003e \"coord\" [toLisp x, toLisp y]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "ToLisp",
           "package": "atto-lisp",
@@ -189,6 +204,7 @@
         "index": {
           "description": "type that can be converted to an S-expression An example type and instance data Coord Double Double instance ToLisp Coord where toLisp Coord struct coord toLisp toLisp",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "ToLisp",
           "package": "atto-lisp",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list with a non-nil tail: \u003ccode\u003e(foo x\n . 42)\u003c/code\u003e.  The list argument must be\n non-empty and the tail must be non-\u003ccode\u003e\u003ca\u003enil\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "DotList",
           "package": "atto-lisp",
@@ -213,6 +230,7 @@
         "index": {
           "description": "list with non-nil tail foo The list argument must be non-empty and the tail must be non nil",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "DotList",
           "normalized": "DotList[Lisp]Lisp",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "Error",
           "package": "atto-lisp",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "Error",
           "package": "atto-lisp",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA proper list: \u003ccode\u003e(foo x 42)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "List",
           "package": "atto-lisp",
@@ -261,6 +282,7 @@
         "index": {
           "description": "proper list foo",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "List",
           "normalized": "List[Lisp]",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "Number",
           "package": "atto-lisp",
@@ -287,6 +310,7 @@
         "index": {
           "description": "number",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "Number",
           "package": "atto-lisp",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "String",
           "package": "atto-lisp",
@@ -311,6 +336,7 @@
         "index": {
           "description": "string",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "String",
           "package": "atto-lisp",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "Success",
           "package": "atto-lisp",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "Success",
           "package": "atto-lisp",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbol (including keyword)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "Symbol",
           "package": "atto-lisp",
@@ -357,6 +386,7 @@
         "index": {
           "description": "symbol including keyword",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "Symbol",
           "package": "atto-lisp",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a symbol or a number.  Symbols are expected to be utf8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "atom",
           "package": "atto-lisp",
@@ -381,6 +412,7 @@
         "index": {
           "description": "Parse symbol or number Symbols are expected to be utf8",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "atom",
           "package": "atto-lisp",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "encode",
           "package": "atto-lisp",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "encode",
           "normalized": "a-\u003eByteString",
@@ -416,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "fromLisp",
           "package": "atto-lisp",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "fromLisp",
           "normalized": "Lisp-\u003eResult a",
@@ -440,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "fromLispExpr",
           "package": "atto-lisp",
@@ -449,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "fromLispExpr",
           "normalized": "Lisp-\u003eBuilder",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the expression is \u003ccode\u003enil\u003c/code\u003e or the empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "isNull",
           "package": "atto-lisp",
@@ -475,6 +514,7 @@
         "index": {
           "description": "Returns True if the expression is nil or the empty list",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "isNull",
           "normalized": "Lisp-\u003eBool",
@@ -491,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an arbitrary lisp expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "lisp",
           "package": "atto-lisp",
@@ -501,6 +542,7 @@
         "index": {
           "description": "Parse an arbitrary lisp expression",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "lisp",
           "package": "atto-lisp",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Lisp struct in a standardised format.\n\u003c/p\u003e\u003cp\u003eFields in a struct are accessed by position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "mkStruct",
           "package": "atto-lisp",
@@ -524,6 +567,7 @@
         "index": {
           "description": "Create Lisp struct in standardised format Fields in struct are accessed by position",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "mkStruct",
           "normalized": "Text-\u003e[Lisp]-\u003eLisp",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "nil",
           "package": "atto-lisp",
@@ -550,6 +595,7 @@
         "index": {
           "description": "The empty list",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "nil",
           "package": "atto-lisp",
@@ -563,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "parse",
           "package": "atto-lisp",
@@ -573,6 +620,7 @@
         "index": {
           "description": "Run Parser",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "parse",
           "normalized": "(a-\u003eParser b)-\u003ea-\u003eResult b",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e with an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e result type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "parseEither",
           "package": "atto-lisp",
@@ -598,6 +647,7 @@
         "index": {
           "description": "Run Parser with an Either result type",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "parseEither",
           "normalized": "(a-\u003eParser b)-\u003ea-\u003eEither String b",
@@ -613,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "parseLisp",
           "package": "atto-lisp",
@@ -622,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "parseLisp",
           "normalized": "Lisp-\u003eParser a",
@@ -638,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e result type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "parseMaybe",
           "package": "atto-lisp",
@@ -648,6 +701,7 @@
         "index": {
           "description": "Run Parser with Maybe result type",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "parseMaybe",
           "normalized": "(a-\u003eParser b)-\u003ea-\u003eMaybe b",
@@ -664,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode structure serialised with \u003ccode\u003e\u003ca\u003emkStruct\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe second argument should be a function, usually a constructor.\n The resulting parser automatically figures out the arity of the\n function.  For example:\n\u003c/p\u003e\u003cpre\u003edata Foo = Foo Int deriving (Eq, Show)\n\nparseFoo :: Lisp -\u003e \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e Foo\nparseFoo = struct \"foo\" Foo\n\ntest = \u003ccode\u003e\u003ca\u003eparseMaybe\u003c/a\u003e\u003c/code\u003e parseFoo val == Just (Foo 23)\n  where val = \u003ccode\u003e\u003ca\u003eList\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eSymbol\u003c/a\u003e\u003c/code\u003e \"foo\", \u003ccode\u003e\u003ca\u003eNumber\u003c/a\u003e\u003c/code\u003e 23]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "struct",
           "package": "atto-lisp",
@@ -674,6 +729,7 @@
         "index": {
           "description": "Decode structure serialised with mkStruct The second argument should be function usually constructor The resulting parser automatically figures out the arity of the function For example data Foo Foo Int deriving Eq Show parseFoo Lisp Parser Foo parseFoo struct foo Foo test parseMaybe parseFoo val Just Foo where val List Symbol foo Number",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "struct",
           "normalized": "Text-\u003ea-\u003eLisp-\u003eParser b",
@@ -688,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "toLisp",
           "package": "atto-lisp",
@@ -697,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "toLisp",
           "normalized": "a-\u003eLisp",
@@ -713,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFail parsing due to a type mismatch, with a descriptive message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:22 UTC 2014",
           "module": "Data.AttoLisp",
           "name": "typeMismatch",
           "package": "atto-lisp",
@@ -722,6 +781,7 @@
         "index": {
           "description": "Fail parsing due to type mismatch with descriptive message",
           "hierarchy": "Data AttoLisp",
+          "indexed": "2014-03-11T17:14:22",
           "module": "Data.AttoLisp",
           "name": "typeMismatch",
           "normalized": "String-\u003eLisp-\u003eParser a",

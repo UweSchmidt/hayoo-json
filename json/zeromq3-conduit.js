@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zeromq3-conduit"
+        "phrase": "zeromq3-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fclabels"
+        "phrase": "fclabels",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLabels for data types in the base package. The lens types are kept abstract to\nbe fully reusable in custom contexts. Build to be imported qualified.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Base",
           "name": "Base",
           "package": "fclabels",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Labels for data types in the base package The lens types are kept abstract to be fully reusable in custom contexts Build to be imported qualified",
           "hierarchy": "Data Label Base",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Base",
           "name": "Base",
           "package": "fclabels",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens pointing to the first component of a 2-tuple. (Total and polymorphic)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Base",
           "name": "fst",
           "package": "fclabels",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Lens pointing to the first component of tuple Total and polymorphic",
           "hierarchy": "Data Label Base",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Base",
           "name": "fst",
           "normalized": "Lens a((b,c)-\u003e(d,c))(b-\u003ed)",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens pointing to the first component of a 3-tuple. (Total and polymorphic)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Base",
           "name": "fst3",
           "package": "fclabels",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Lens pointing to the first component of tuple Total and polymorphic",
           "hierarchy": "Data Label Base",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Base",
           "name": "fst3",
           "normalized": "Lens a((b,c,d)-\u003e(e,c,d))(b-\u003ee)",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens pointing to the head of a list's cons cell. (Partial and monomorphic)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Base",
           "name": "head",
           "package": "fclabels",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Lens pointing to the head of list cons cell Partial and monomorphic",
           "hierarchy": "Data Label Base",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Base",
           "name": "head",
           "normalized": "Lens a[b]b",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens pointing to the value in a Maybe. (Partial and polymorphic)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Base",
           "name": "just",
           "package": "fclabels",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Lens pointing to the value in Maybe Partial and polymorphic",
           "hierarchy": "Data Label Base",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Base",
           "name": "just",
           "normalized": "Lens a(Maybe b-\u003eMaybe c)(b-\u003ec)",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens pointing to the left value in an Either. (Partial and polymorphic)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Base",
           "name": "left",
           "package": "fclabels",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Lens pointing to the left value in an Either Partial and polymorphic",
           "hierarchy": "Data Label Base",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Base",
           "name": "left",
           "normalized": "Lens a(Either b c-\u003eEither d c)(b-\u003ed)",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartial isomorphism for readable and showable values. Can easily be lifted\n into a lens by using \u003ccode\u003e\u003ca\u003eiso\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Base",
           "name": "readShow",
           "package": "fclabels",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Partial isomorphism for readable and showable values Can easily be lifted into lens by using iso",
           "hierarchy": "Data Label Base",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Base",
           "name": "readShow",
           "package": "fclabels",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens pointing to the right value in an Either. (Partial and polymorphic)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Base",
           "name": "right",
           "package": "fclabels",
@@ -201,6 +216,7 @@
         "index": {
           "description": "Lens pointing to the right value in an Either Partial and polymorphic",
           "hierarchy": "Data Label Base",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Base",
           "name": "right",
           "normalized": "Lens a(Either b c-\u003eEither b d)(c-\u003ed)",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens pointing to the second component of a 2-tuple. (Total and polymorphic)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Base",
           "name": "snd",
           "package": "fclabels",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Lens pointing to the second component of tuple Total and polymorphic",
           "hierarchy": "Data Label Base",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Base",
           "name": "snd",
           "normalized": "Lens a((b,c)-\u003e(b,d))(c-\u003ed)",
@@ -241,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens pointing to the second component of a 3-tuple. (Total and polymorphic)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Base",
           "name": "snd3",
           "package": "fclabels",
@@ -251,6 +270,7 @@
         "index": {
           "description": "Lens pointing to the second component of tuple Total and polymorphic",
           "hierarchy": "Data Label Base",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Base",
           "name": "snd3",
           "normalized": "Lens a((b,c,d)-\u003e(b,e,d))(c-\u003ee)",
@@ -266,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolymorphic lens that swaps the components of a tuple. (Total and polymorphic)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Base",
           "name": "swap",
           "package": "fclabels",
@@ -276,6 +297,7 @@
         "index": {
           "description": "Polymorphic lens that swaps the components of tuple Total and polymorphic",
           "hierarchy": "Data Label Base",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Base",
           "name": "swap",
           "normalized": "Lens a((b,c)-\u003e(d,e))((c,b)-\u003e(e,d))",
@@ -291,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens pointing to the tail of a list's cons cell. (Partial and monomorphic)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Base",
           "name": "tail",
           "package": "fclabels",
@@ -301,6 +324,7 @@
         "index": {
           "description": "Lens pointing to the tail of list cons cell Partial and monomorphic",
           "hierarchy": "Data Label Base",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Base",
           "name": "tail",
           "normalized": "Lens a[b][b]",
@@ -316,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens pointing to the third component of a 3-tuple. (Total and polymorphic)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Base",
           "name": "trd3",
           "package": "fclabels",
@@ -326,6 +351,7 @@
         "index": {
           "description": "Lens pointing to the third component of tuple Total and polymorphic",
           "hierarchy": "Data Label Base",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Base",
           "name": "trd3",
           "normalized": "Lens a((b,c,d)-\u003e(b,c,e))(d-\u003ee)",
@@ -341,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTemplate Haskell functions for automatically generating labels for algebraic\ndatatypes, newtypes and GADTs. There are two basic modes of label generation,\nthe \u003ccode\u003e\u003ca\u003emkLabels\u003c/a\u003e\u003c/code\u003e family of functions create labels (and optionally type\nsignatures) in scope as top level funtions, the \u003ccode\u003e\u003ca\u003egetLabel\u003c/a\u003e\u003c/code\u003e family of funtions\ncreate labels as expressions that can be named and typed manually.\n\u003c/p\u003e\u003cp\u003eIn the case of multi-constructor datatypes some fields might not always be\navailable and the derived labels will be partial. Partial labels are provided\nwith an additional type context that forces them to be only usable in the\n\u003ccode\u003e\u003ca\u003ePartial\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eFailing\u003c/a\u003e\u003c/code\u003e context.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Derive",
           "name": "Derive",
           "package": "fclabels",
@@ -350,6 +377,7 @@
         "index": {
           "description": "Template Haskell functions for automatically generating labels for algebraic datatypes newtypes and GADTs There are two basic modes of label generation the mkLabels family of functions create labels and optionally type signatures in scope as top level funtions the getLabel family of funtions create labels as expressions that can be named and typed manually In the case of multi-constructor datatypes some fields might not always be available and the derived labels will be partial Partial labels are provided with an additional type context that forces them to be only usable in the Partial or Failing context",
           "hierarchy": "Data Label Derive",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Derive",
           "name": "Derive",
           "package": "fclabels",
@@ -364,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault way of generating a label name from the Haskell record selector\n name. If the original selector starts with an underscore, remove it and make\n the next character lowercase. Otherwise, add \u003ccode\u003el\u003c/code\u003e, and make the next\n character uppercase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Derive",
           "name": "defaultNaming",
           "package": "fclabels",
@@ -374,6 +403,7 @@
         "index": {
           "description": "Default way of generating label name from the Haskell record selector name If the original selector starts with an underscore remove it and make the next character lowercase Otherwise add and make the next character uppercase",
           "hierarchy": "Data Label Derive",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Derive",
           "name": "defaultNaming",
           "normalized": "String-\u003eString",
@@ -443,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow level label as expression derivation function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Derive",
           "name": "getLabelWith",
           "package": "fclabels",
@@ -452,6 +483,7 @@
         "index": {
           "description": "Low level label as expression derivation function",
           "hierarchy": "Data Label Derive",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Derive",
           "name": "getLabelWith",
           "normalized": "Bool-\u003eBool-\u003eBool-\u003eName-\u003eQ Exp",
@@ -522,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emkLabels\u003c/a\u003e\u003c/code\u003e, but uses the specified function to produce custom names\n for the labels.\n\u003c/p\u003e\u003cp\u003eFor instance, \u003ccode\u003e(drop 1 . dropWhile (/='_'))\u003c/code\u003e creates a label\n \u003ccode\u003eval\u003c/code\u003e from a record \u003ccode\u003eRec { rec_val :: X }\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Derive",
           "name": "mkLabelsNamed",
           "package": "fclabels",
@@ -532,6 +565,7 @@
         "index": {
           "description": "Like mkLabels but uses the specified function to produce custom names for the labels For instance drop dropWhile creates label val from record Rec rec val",
           "hierarchy": "Data Label Derive",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Derive",
           "name": "mkLabelsNamed",
           "normalized": "(String-\u003eString)-\u003e[Name]-\u003eQ[Dec]",
@@ -548,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow level standalone label derivation function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Derive",
           "name": "mkLabelsWith",
           "package": "fclabels",
@@ -557,6 +592,7 @@
         "index": {
           "description": "Low level standalone label derivation function",
           "hierarchy": "Data Label Derive",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Derive",
           "name": "mkLabelsWith",
           "normalized": "(String-\u003eString)-\u003eBool-\u003eBool-\u003eBool-\u003eBool-\u003eName-\u003eQ[Dec]",
@@ -573,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLenses for getters and updates that can potentially fail with some error\nvalue. Like partial lenses, failing lenses are useful for creating accessor\nlabels for multi constructor data types where projection and modification of\nfields will not always succeed. The error value can be used to report what\ncaused the failure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Failing",
           "name": "Failing",
           "package": "fclabels",
@@ -582,6 +619,7 @@
         "index": {
           "description": "Lenses for getters and updates that can potentially fail with some error value Like partial lenses failing lenses are useful for creating accessor labels for multi constructor data types where projection and modification of fields will not always succeed The error value can be used to report what caused the failure",
           "hierarchy": "Data Label Failing",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Failing",
           "name": "Failing",
           "package": "fclabels",
@@ -596,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext that represents computations that might fail with some error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Failing",
           "name": "Failing",
           "package": "fclabels",
@@ -605,6 +644,7 @@
         "index": {
           "description": "Context that represents computations that might fail with some error",
           "hierarchy": "Data Label Failing",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Failing",
           "name": "Failing",
           "package": "fclabels",
@@ -619,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens type for situations in which the accessor functions can fail with\n some error information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Failing",
           "name": "Lens",
           "package": "fclabels",
@@ -628,6 +669,7 @@
         "index": {
           "description": "Lens type for situations in which the accessor functions can fail with some error information",
           "hierarchy": "Data Label Failing",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Failing",
           "name": "Lens",
           "package": "fclabels",
@@ -642,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed a total lens that points to an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e field into a lens that might\n fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Failing",
           "name": "embed",
           "package": "fclabels",
@@ -652,6 +695,7 @@
         "index": {
           "description": "Embed total lens that points to an Either field into lens that might fail",
           "hierarchy": "Data Label Failing",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Failing",
           "name": "embed",
           "normalized": "Lens(-\u003e)(a-\u003eb)(Either c d-\u003eEither c e)-\u003eLens c(a-\u003eb)(d-\u003ee)",
@@ -667,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetter for a lens that can fail. When the field to which the lens points\n is not accessible the getter returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Failing",
           "name": "get",
           "package": "fclabels",
@@ -677,6 +722,7 @@
         "index": {
           "description": "Getter for lens that can fail When the field to which the lens points is not accessible the getter returns Nothing",
           "hierarchy": "Data Label Failing",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Failing",
           "name": "get",
           "normalized": "Lens a(b-\u003ec)(d-\u003ee)-\u003eb-\u003eEither a d",
@@ -692,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a lens that can fail from a getter and a modifier that can\n themselves potentially fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Failing",
           "name": "lens",
           "package": "fclabels",
@@ -701,6 +748,7 @@
         "index": {
           "description": "Create lens that can fail from getter and modifier that can themselves potentially fail",
           "hierarchy": "Data Label Failing",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Failing",
           "name": "lens",
           "normalized": "(a-\u003eEither b c)-\u003e((c-\u003eEither b d)-\u003ea-\u003eEither b e)-\u003eLens b(a-\u003ee)(c-\u003ed)",
@@ -716,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifier for a lens that can fail. When the field to which the lens points\n is not accessible this function returns \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Failing",
           "name": "modify",
           "package": "fclabels",
@@ -726,6 +775,7 @@
         "index": {
           "description": "Modifier for lens that can fail When the field to which the lens points is not accessible this function returns Left",
           "hierarchy": "Data Label Failing",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Failing",
           "name": "modify",
           "normalized": "Lens a(b-\u003ec)(d-\u003ee)-\u003e(d-\u003ee)-\u003eb-\u003eEither a c",
@@ -741,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e but return behaves like the identity function when the field\n could not be set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Failing",
           "name": "modify'",
           "package": "fclabels",
@@ -751,6 +802,7 @@
         "index": {
           "description": "Like modify but return behaves like the identity function when the field could not be set",
           "hierarchy": "Data Label Failing",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Failing",
           "name": "modify'",
           "normalized": "Lens a(b-\u003eb)(c-\u003ec)-\u003e(c-\u003ec)-\u003eb-\u003eb",
@@ -766,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetter for a lens that can fail. When the field to which the lens points\n is not accessible this function returns \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Failing",
           "name": "set",
           "package": "fclabels",
@@ -776,6 +829,7 @@
         "index": {
           "description": "Setter for lens that can fail When the field to which the lens points is not accessible this function returns Left",
           "hierarchy": "Data Label Failing",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Failing",
           "name": "set",
           "normalized": "Lens a(b-\u003ec)(d-\u003ee)-\u003ee-\u003eb-\u003eEither a c",
@@ -791,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e but return behaves like the identity function when the field\n could not be set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Failing",
           "name": "set'",
           "package": "fclabels",
@@ -801,6 +856,7 @@
         "index": {
           "description": "Like set but return behaves like the identity function when the field could not be set",
           "hierarchy": "Data Label Failing",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Failing",
           "name": "set'",
           "normalized": "Lens a(b-\u003eb)(c-\u003ec)-\u003ec-\u003eb-\u003eb",
@@ -816,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eState and Reader operations specialized for working with total lenses. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Monadic",
           "name": "Monadic",
           "package": "fclabels",
@@ -825,6 +882,7 @@
         "index": {
           "description": "State and Reader operations specialized for working with total lenses",
           "hierarchy": "Data Label Monadic",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Monadic",
           "name": "Monadic",
           "package": "fclabels",
@@ -839,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e that reads more or less like an assignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Monadic",
           "name": "(=.)",
           "package": "fclabels",
@@ -849,6 +908,7 @@
         "index": {
           "description": "Alias for modify that reads more or less like an assignment",
           "hierarchy": "Data Label Monadic",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Monadic",
           "name": "(=.) =.",
           "normalized": "Lens(-\u003e)a b-\u003e(b-\u003eb)-\u003ec()",
@@ -864,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003eputs\u003c/a\u003e\u003c/code\u003e that reads like an assignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Monadic",
           "name": "(=:)",
           "package": "fclabels",
@@ -874,6 +935,7 @@
         "index": {
           "description": "Alias for puts that reads like an assignment",
           "hierarchy": "Data Label Monadic",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Monadic",
           "name": "(=:) =:",
           "normalized": "Lens(-\u003e)a b-\u003eb-\u003ec()",
@@ -889,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch a value pointed to by a lens out of a reader environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Monadic",
           "name": "asks",
           "package": "fclabels",
@@ -899,6 +962,7 @@
         "index": {
           "description": "Fetch value pointed to by lens out of reader environment",
           "hierarchy": "Data Label Monadic",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Monadic",
           "name": "asks",
           "normalized": "Lens(-\u003e)a b-\u003ec b",
@@ -914,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a value out of the state, pointed to by the specified lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Monadic",
           "name": "gets",
           "package": "fclabels",
@@ -924,6 +989,7 @@
         "index": {
           "description": "Get value out of the state pointed to by the specified lens",
           "hierarchy": "Data Label Monadic",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Monadic",
           "name": "gets",
           "normalized": "Lens(-\u003e)a b-\u003ec b",
@@ -939,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a computation in a modified environment. The lens is used to\n point out the part to modify.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Monadic",
           "name": "local",
           "package": "fclabels",
@@ -949,6 +1016,7 @@
         "index": {
           "description": "Execute computation in modified environment The lens is used to point out the part to modify",
           "hierarchy": "Data Label Monadic",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Monadic",
           "name": "local",
           "normalized": "Lens(-\u003e)a b-\u003e(b-\u003eb)-\u003ec d-\u003ec d",
@@ -964,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a value with a function somewhere in the state, pointed to by the\n specified lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Monadic",
           "name": "modify",
           "package": "fclabels",
@@ -974,6 +1043,7 @@
         "index": {
           "description": "Modify value with function somewhere in the state pointed to by the specified lens",
           "hierarchy": "Data Label Monadic",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Monadic",
           "name": "modify",
           "normalized": "Lens(-\u003e)a b-\u003e(b-\u003eb)-\u003ec()",
@@ -989,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a value with a function somewhere in the state, pointed to by the\n specified lens. Additionally return a separate value based on the\n modification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Monadic",
           "name": "modifyAndGet",
           "package": "fclabels",
@@ -999,6 +1070,7 @@
         "index": {
           "description": "Modify value with function somewhere in the state pointed to by the specified lens Additionally return separate value based on the modification",
           "hierarchy": "Data Label Monadic",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Monadic",
           "name": "modifyAndGet",
           "normalized": "Lens(-\u003e)a b-\u003e(b-\u003e(c,b))-\u003ed c",
@@ -1015,6 +1087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a value somewhere in the state, pointed to by the specified lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Monadic",
           "name": "puts",
           "package": "fclabels",
@@ -1025,6 +1098,7 @@
         "index": {
           "description": "Set value somewhere in the state pointed to by the specified lens",
           "hierarchy": "Data Label Monadic",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Monadic",
           "name": "puts",
           "normalized": "Lens(-\u003e)a b-\u003eb-\u003ec()",
@@ -1040,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLenses that only allow monomorphic updates. Monomorphic lenses are simply\npolymorphic lenses with the input and output type variables constraint to the\nsame type. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Mono",
           "name": "Mono",
           "package": "fclabels",
@@ -1049,6 +1124,7 @@
         "index": {
           "description": "Lenses that only allow monomorphic updates Monomorphic lenses are simply polymorphic lenses with the input and output type variables constraint to the same type",
           "hierarchy": "Data Label Mono",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Mono",
           "name": "Mono",
           "package": "fclabels",
@@ -1063,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartial monomorphic lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Mono",
           "name": ":~\u003e",
           "package": "fclabels",
@@ -1072,6 +1149,7 @@
         "index": {
           "description": "Partial monomorphic lens",
           "hierarchy": "Data Label Mono",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Mono",
           "name": ":~\u003e",
           "package": "fclabels",
@@ -1085,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal monomorphic lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Mono",
           "name": ":-\u003e",
           "package": "fclabels",
@@ -1094,6 +1173,7 @@
         "index": {
           "description": "Total monomorphic lens",
           "hierarchy": "Data Label Mono",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Mono",
           "name": ":-\u003e",
           "package": "fclabels",
@@ -1107,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract monomorphic lens datatype. The getter and setter functions work\n in some category. Categories allow for effectful lenses, for example, lenses\n that might fail or use state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Mono",
           "name": "Lens",
           "package": "fclabels",
@@ -1116,6 +1197,7 @@
         "index": {
           "description": "Abstract monomorphic lens datatype The getter and setter functions work in some category Categories allow for effectful lenses for example lenses that might fail or use state",
           "hierarchy": "Data Label Mono",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Mono",
           "name": "Lens",
           "package": "fclabels",
@@ -1130,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the getter arrow from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Mono",
           "name": "get",
           "package": "fclabels",
@@ -1140,6 +1223,7 @@
         "index": {
           "description": "Get the getter arrow from lens",
           "hierarchy": "Data Label Mono",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Mono",
           "name": "get",
           "normalized": "Lens a b c-\u003ea b c",
@@ -1181,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a lens out of a getter and setter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Mono",
           "name": "lens",
           "package": "fclabels",
@@ -1190,6 +1275,7 @@
         "index": {
           "description": "Create lens out of getter and setter",
           "hierarchy": "Data Label Mono",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Mono",
           "name": "lens",
           "normalized": "a b c-\u003ea(a c c,b)b-\u003eLens a b c",
@@ -1205,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the modifier arrow from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Mono",
           "name": "modify",
           "package": "fclabels",
@@ -1215,6 +1302,7 @@
         "index": {
           "description": "Get the modifier arrow from lens",
           "hierarchy": "Data Label Mono",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Mono",
           "name": "modify",
           "normalized": "Lens a b c-\u003ea(a c c,b)b",
@@ -1230,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate lens from a \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Mono",
           "name": "point",
           "package": "fclabels",
@@ -1240,6 +1329,7 @@
         "index": {
           "description": "Create lens from Point",
           "hierarchy": "Data Label Mono",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Mono",
           "name": "point",
           "normalized": "Point a b c b c-\u003eLens a b c",
@@ -1255,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the setter arrow from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Mono",
           "name": "set",
           "package": "fclabels",
@@ -1265,6 +1356,7 @@
         "index": {
           "description": "Get the setter arrow from lens",
           "hierarchy": "Data Label Mono",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Mono",
           "name": "set",
           "normalized": "Lens a b c-\u003ea(c,b)b",
@@ -1280,6 +1372,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonomorphic lenses where the getters and updates can potentially silently\nfail. Partial lenses are useful for creating accessor labels for multi\nconstructor data types where projection and modification of fields will not\nalways succeed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Partial",
           "name": "Partial",
           "package": "fclabels",
@@ -1289,6 +1382,7 @@
         "index": {
           "description": "Monomorphic lenses where the getters and updates can potentially silently fail Partial lenses are useful for creating accessor labels for multi constructor data types where projection and modification of fields will not always succeed",
           "hierarchy": "Data Label Partial",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Partial",
           "name": "Partial",
           "package": "fclabels",
@@ -1303,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartial lens type for situations in which the accessor functions can fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Partial",
           "name": ":~\u003e",
           "package": "fclabels",
@@ -1312,6 +1407,7 @@
         "index": {
           "description": "Partial lens type for situations in which the accessor functions can fail",
           "hierarchy": "Data Label Partial",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Partial",
           "name": ":~\u003e",
           "package": "fclabels",
@@ -1325,6 +1421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext that represents computations that might silently fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Partial",
           "name": "Partial",
           "package": "fclabels",
@@ -1334,6 +1431,7 @@
         "index": {
           "description": "Context that represents computations that might silently fail",
           "hierarchy": "Data Label Partial",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Partial",
           "name": "Partial",
           "package": "fclabels",
@@ -1348,6 +1446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed a total lens that points to a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e field into a lens that might\n fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Partial",
           "name": "embed",
           "package": "fclabels",
@@ -1358,6 +1457,7 @@
         "index": {
           "description": "Embed total lens that points to Maybe field into lens that might fail",
           "hierarchy": "Data Label Partial",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Partial",
           "name": "embed",
           "normalized": "Lens(-\u003e)(a-\u003eb)(Maybe c-\u003eMaybe d)-\u003e(a-\u003eb)(c-\u003ed)",
@@ -1373,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetter for a lens that can fail. When the field to which the lens points\n is not accessible the getter returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Partial",
           "name": "get",
           "package": "fclabels",
@@ -1383,6 +1484,7 @@
         "index": {
           "description": "Getter for lens that can fail When the field to which the lens points is not accessible the getter returns Nothing",
           "hierarchy": "Data Label Partial",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Partial",
           "name": "get",
           "normalized": "((a-\u003eb)(c-\u003ed))-\u003ea-\u003eMaybe c",
@@ -1398,6 +1500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a lens that can fail from a getter and a modifier that can\n themselves potentially fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Partial",
           "name": "lens",
           "package": "fclabels",
@@ -1407,6 +1510,7 @@
         "index": {
           "description": "Create lens that can fail from getter and modifier that can themselves potentially fail",
           "hierarchy": "Data Label Partial",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Partial",
           "name": "lens",
           "normalized": "(a-\u003eMaybe b)-\u003e((b-\u003eMaybe c)-\u003ea-\u003eMaybe d)-\u003e(a-\u003ed)(b-\u003ec)",
@@ -1422,6 +1526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifier for a lens that can fail. When the field to which the lens points\n is not accessible this function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Partial",
           "name": "modify",
           "package": "fclabels",
@@ -1432,6 +1537,7 @@
         "index": {
           "description": "Modifier for lens that can fail When the field to which the lens points is not accessible this function returns Nothing",
           "hierarchy": "Data Label Partial",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Partial",
           "name": "modify",
           "normalized": "((a-\u003eb)(c-\u003ed))-\u003e(c-\u003ed)-\u003ea-\u003eMaybe b",
@@ -1447,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e but return behaves like the identity function when the field\n could not be set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Partial",
           "name": "modify'",
           "package": "fclabels",
@@ -1457,6 +1564,7 @@
         "index": {
           "description": "Like modify but return behaves like the identity function when the field could not be set",
           "hierarchy": "Data Label Partial",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Partial",
           "name": "modify'",
           "normalized": "((a-\u003ea)(b-\u003eb))-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -1472,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetter for a lens that can fail. When the field to which the lens points\n is not accessible this function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Partial",
           "name": "set",
           "package": "fclabels",
@@ -1482,6 +1591,7 @@
         "index": {
           "description": "Setter for lens that can fail When the field to which the lens points is not accessible this function returns Nothing",
           "hierarchy": "Data Label Partial",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Partial",
           "name": "set",
           "normalized": "((a-\u003eb)(c-\u003ed))-\u003ed-\u003ea-\u003eMaybe b",
@@ -1497,6 +1607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e but return behaves like the identity function when the field\n could not be set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Partial",
           "name": "set'",
           "package": "fclabels",
@@ -1507,6 +1618,7 @@
         "index": {
           "description": "Like set but return behaves like the identity function when the field could not be set",
           "hierarchy": "Data Label Partial",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Partial",
           "name": "set'",
           "normalized": "((a-\u003ea)(b-\u003eb))-\u003eb-\u003ea-\u003ea",
@@ -1522,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e, but update allows, depending on the underlying lens, to\n remove items by modifying to \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Partial",
           "name": "update",
           "package": "fclabels",
@@ -1532,6 +1645,7 @@
         "index": {
           "description": "Like modify but update allows depending on the underlying lens to remove items by modifying to Nothing",
           "hierarchy": "Data Label Partial",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Partial",
           "name": "update",
           "normalized": "((a-\u003eb)(c-\u003ed))-\u003e(c-\u003eMaybe d)-\u003ea-\u003eMaybe b",
@@ -1547,6 +1661,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Point data type which generalizes the different lenses and forms the\nbasis for vertical composition using the \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e type class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Point",
           "name": "Point",
           "package": "fclabels",
@@ -1556,6 +1671,7 @@
         "index": {
           "description": "The Point data type which generalizes the different lenses and forms the basis for vertical composition using the Applicative type class",
           "hierarchy": "Data Label Point",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Point",
           "name": "Point",
           "package": "fclabels",
@@ -1570,6 +1686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ArrowFail class is similar to \u003ccode\u003e\u003ca\u003eArrowZero\u003c/a\u003e\u003c/code\u003e, but additionally embeds\n some error value in the computation instead of throwing it away.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Point",
           "name": "ArrowFail",
           "package": "fclabels",
@@ -1579,6 +1696,7 @@
         "index": {
           "description": "The ArrowFail class is similar to ArrowZero but additionally embeds some error value in the computation instead of throwing it away",
           "hierarchy": "Data Label Point",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Point",
           "name": "ArrowFail",
           "package": "fclabels",
@@ -1593,6 +1711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext that represents computations that might fail with some error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Point",
           "name": "Failing",
           "package": "fclabels",
@@ -1602,6 +1721,7 @@
         "index": {
           "description": "Context that represents computations that might fail with some error",
           "hierarchy": "Data Label Point",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Point",
           "name": "Failing",
           "package": "fclabels",
@@ -1616,6 +1736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn isomorphism is like a \u003ccode\u003e\u003ca\u003eCategory\u003c/a\u003e\u003c/code\u003e that works in two directions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Point",
           "name": "Iso",
           "package": "fclabels",
@@ -1625,6 +1746,7 @@
         "index": {
           "description": "An isomorphism is like Category that works in two directions",
           "hierarchy": "Data Label Point",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Point",
           "name": "Iso",
           "package": "fclabels",
@@ -1639,6 +1761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext that represents computations that might silently fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Point",
           "name": "Partial",
           "package": "fclabels",
@@ -1648,6 +1771,7 @@
         "index": {
           "description": "Context that represents computations that might silently fail",
           "hierarchy": "Data Label Point",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Point",
           "name": "Partial",
           "package": "fclabels",
@@ -1662,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract Point datatype. The getter and modifier operations work in some\n category. The type of the value pointed to might change, thereby changing\n the type of the outer structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Point",
           "name": "Point",
           "package": "fclabels",
@@ -1671,6 +1796,7 @@
         "index": {
           "description": "Abstract Point datatype The getter and modifier operations work in some category The type of the value pointed to might change thereby changing the type of the outer structure",
           "hierarchy": "Data Label Point",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Point",
           "name": "Point",
           "package": "fclabels",
@@ -1685,6 +1811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext that represents computations that always produce an output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Point",
           "name": "Total",
           "package": "fclabels",
@@ -1694,6 +1821,7 @@
         "index": {
           "description": "Context that represents computations that always produce an output",
           "hierarchy": "Data Label Point",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Point",
           "name": "Total",
           "package": "fclabels",
@@ -1730,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Point",
           "name": "Point",
           "package": "fclabels",
@@ -1739,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Data Label Point",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Point",
           "name": "Point",
           "normalized": "Point(a b c)(a(a c d,b)e)",
@@ -1777,6 +1907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint composition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Point",
           "name": "compose",
           "package": "fclabels",
@@ -1787,6 +1918,7 @@
         "index": {
           "description": "Point composition",
           "hierarchy": "Data Label Point",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Point",
           "name": "compose",
           "normalized": "Point a b c d e-\u003ePoint a f b g d-\u003ePoint a f c g e",
@@ -1801,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Point",
           "name": "failArrow",
           "package": "fclabels",
@@ -1810,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Data Label Point",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Point",
           "name": "failArrow",
           "package": "fclabels",
@@ -1846,6 +1980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the getter category from a Point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Point",
           "name": "get",
           "package": "fclabels",
@@ -1856,6 +1991,7 @@
         "index": {
           "description": "Get the getter category from Point",
           "hierarchy": "Data Label Point",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Point",
           "name": "get",
           "normalized": "Point a b c d e-\u003ea d e",
@@ -1871,6 +2007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity Point. Cannot change the type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Point",
           "name": "identity",
           "package": "fclabels",
@@ -1881,6 +2018,7 @@
         "index": {
           "description": "Identity Point Cannot change the type",
           "hierarchy": "Data Label Point",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Point",
           "name": "identity",
           "package": "fclabels",
@@ -1920,6 +2058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the modifier category from a Point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Point",
           "name": "modify",
           "package": "fclabels",
@@ -1930,6 +2069,7 @@
         "index": {
           "description": "Get the modifier category from Point",
           "hierarchy": "Data Label Point",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Point",
           "name": "modify",
           "normalized": "Point a b c d e-\u003ea(a e c,d)b",
@@ -1945,6 +2085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the setter category from a Point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Point",
           "name": "set",
           "package": "fclabels",
@@ -1955,6 +2096,7 @@
         "index": {
           "description": "Get the setter category from Point",
           "hierarchy": "Data Label Point",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Point",
           "name": "set",
           "normalized": "Point a b c d e-\u003ea(c,d)b",
@@ -1970,6 +2112,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLenses that allow polymorphic updates. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Poly",
           "name": "Poly",
           "package": "fclabels",
@@ -1979,6 +2122,7 @@
         "index": {
           "description": "Lenses that allow polymorphic updates",
           "hierarchy": "Data Label Poly",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Poly",
           "name": "Poly",
           "package": "fclabels",
@@ -1993,6 +2137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract polymorphic lens datatype. The getter and setter functions work\n in some category. Categories allow for effectful lenses, for example, lenses\n that might fail or use state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Poly",
           "name": "Lens",
           "package": "fclabels",
@@ -2002,6 +2147,7 @@
         "index": {
           "description": "Abstract polymorphic lens datatype The getter and setter functions work in some category Categories allow for effectful lenses for example lenses that might fail or use state",
           "hierarchy": "Data Label Poly",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Poly",
           "name": "Lens",
           "package": "fclabels",
@@ -2042,6 +2188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the getter arrow from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Poly",
           "name": "get",
           "package": "fclabels",
@@ -2052,6 +2199,7 @@
         "index": {
           "description": "Get the getter arrow from lens",
           "hierarchy": "Data Label Poly",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Poly",
           "name": "get",
           "normalized": "Lens a(b-\u003ec)(d-\u003ee)-\u003ea b d",
@@ -2067,6 +2215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a polymorphic isomorphism into a \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe isomorphism needs to be passed in twice to properly unify.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Poly",
           "name": "iso",
           "package": "fclabels",
@@ -2077,6 +2226,7 @@
         "index": {
           "description": "Lift polymorphic isomorphism into Lens The isomorphism needs to be passed in twice to properly unify",
           "hierarchy": "Data Label Poly",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Poly",
           "name": "iso",
           "normalized": "Iso a b c-\u003eIso a d e-\u003eLens a(b-\u003ed)(c-\u003ee)",
@@ -2092,6 +2242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a lens out of a getter and setter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Poly",
           "name": "lens",
           "package": "fclabels",
@@ -2101,6 +2252,7 @@
         "index": {
           "description": "Create lens out of getter and setter",
           "hierarchy": "Data Label Poly",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Poly",
           "name": "lens",
           "normalized": "a b c-\u003ea(a c d,b)e-\u003eLens a(b-\u003ee)(c-\u003ed)",
@@ -2116,6 +2268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the modifier arrow from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Poly",
           "name": "modify",
           "package": "fclabels",
@@ -2126,6 +2279,7 @@
         "index": {
           "description": "Get the modifier arrow from lens",
           "hierarchy": "Data Label Poly",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Poly",
           "name": "modify",
           "normalized": "Lens a(b-\u003ec)(d-\u003ee)-\u003ea(a d e,b)c",
@@ -2167,6 +2321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the setter arrow from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Poly",
           "name": "set",
           "package": "fclabels",
@@ -2177,6 +2332,7 @@
         "index": {
           "description": "Get the setter arrow from lens",
           "hierarchy": "Data Label Poly",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Poly",
           "name": "set",
           "normalized": "Lens a(b-\u003ec)(d-\u003ee)-\u003ea(e,b)c",
@@ -2192,6 +2348,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefault lenses for simple total getters and total possibly polymorphic,\nupdates. Useful for creating accessor labels for single constructor datatypes.\nAlso useful field labels that are shared between all the constructors of a\nmulti constructor datatypes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Total",
           "name": "Total",
           "package": "fclabels",
@@ -2201,6 +2358,7 @@
         "index": {
           "description": "Default lenses for simple total getters and total possibly polymorphic updates Useful for creating accessor labels for single constructor datatypes Also useful field labels that are shared between all the constructors of multi constructor datatypes",
           "hierarchy": "Data Label Total",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Total",
           "name": "Total",
           "package": "fclabels",
@@ -2215,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal lens type specialized for total accessor functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Total",
           "name": ":-\u003e",
           "package": "fclabels",
@@ -2224,6 +2383,7 @@
         "index": {
           "description": "Total lens type specialized for total accessor functions",
           "hierarchy": "Data Label Total",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Total",
           "name": ":-\u003e",
           "package": "fclabels",
@@ -2237,6 +2397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext that represents computations that always produce an output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Total",
           "name": "Total",
           "package": "fclabels",
@@ -2246,6 +2407,7 @@
         "index": {
           "description": "Context that represents computations that always produce an output",
           "hierarchy": "Data Label Total",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Total",
           "name": "Total",
           "package": "fclabels",
@@ -2260,6 +2422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the getter function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Total",
           "name": "get",
           "package": "fclabels",
@@ -2270,6 +2433,7 @@
         "index": {
           "description": "Get the getter function from lens",
           "hierarchy": "Data Label Total",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Total",
           "name": "get",
           "normalized": "((a-\u003eb)-\u003e(c-\u003ed))-\u003ea-\u003ec",
@@ -2285,6 +2449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a total lens from a getter and a modifier.\n\u003c/p\u003e\u003cp\u003eWe expect the following law to hold:\n\u003c/p\u003e\u003cpre\u003e get l (set l a f) == a\n\u003c/pre\u003e\u003cpre\u003e set l (get l f) f == f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Total",
           "name": "lens",
           "package": "fclabels",
@@ -2294,6 +2459,7 @@
         "index": {
           "description": "Create total lens from getter and modifier We expect the following law to hold get set set get",
           "hierarchy": "Data Label Total",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Total",
           "name": "lens",
           "normalized": "(a-\u003eb)-\u003e((b-\u003ec)-\u003ea-\u003ed)-\u003e(a-\u003ed)-\u003e(b-\u003ec)",
@@ -2309,6 +2475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted lens composition.\n\u003c/p\u003e\u003cp\u003eFor example, useful when specialized to lists:\n\u003c/p\u003e\u003cpre\u003e :: (f :-\u003e [o])\n -\u003e (o :-\u003e [a])\n -\u003e (f :-\u003e [a])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Total",
           "name": "lifted",
           "package": "fclabels",
@@ -2319,6 +2486,7 @@
         "index": {
           "description": "Lifted lens composition For example useful when specialized to lists",
           "hierarchy": "Data Label Total",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Total",
           "name": "lifted",
           "normalized": "((a-\u003eb)-\u003e(c d-\u003ec e))-\u003e((d-\u003ee)-\u003e(c f-\u003ec g))-\u003e(a-\u003eb)-\u003e(c f-\u003ec g)",
@@ -2334,6 +2502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the modifier function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Total",
           "name": "modify",
           "package": "fclabels",
@@ -2344,6 +2513,7 @@
         "index": {
           "description": "Get the modifier function from lens",
           "hierarchy": "Data Label Total",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Total",
           "name": "modify",
           "normalized": "((a-\u003eb)-\u003e(c-\u003ed))-\u003e(c-\u003ed)-\u003ea-\u003eb",
@@ -2359,6 +2529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the setter function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Total",
           "name": "set",
           "package": "fclabels",
@@ -2369,6 +2540,7 @@
         "index": {
           "description": "Get the setter function from lens",
           "hierarchy": "Data Label Total",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Total",
           "name": "set",
           "normalized": "((a-\u003eb)-\u003e(c-\u003ed))-\u003ed-\u003ea-\u003eb",
@@ -2384,6 +2556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify in some context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label.Total",
           "name": "traverse",
           "package": "fclabels",
@@ -2394,6 +2567,7 @@
         "index": {
           "description": "Modify in some context",
           "hierarchy": "Data Label Total",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label.Total",
           "name": "traverse",
           "normalized": "((a-\u003eb)-\u003e(c-\u003ed))-\u003e(c-\u003ee d)-\u003ea-\u003ee b",
@@ -2409,6 +2583,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package provides first class labels that can act as bidirectional record\nfields. The labels can be derived automatically using Template Haskell which\nmeans you don't have to write any boilerplate yourself. The labels are\nimplemented as lenses and are fully composable. Labels can be used to \u003cem\u003eget\u003c/em\u003e,\n\u003cem\u003eset\u003c/em\u003e and \u003cem\u003emodify\u003c/em\u003e parts of a datatype in a consistent way.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label",
           "name": "Label",
           "package": "fclabels",
@@ -2418,6 +2593,7 @@
         "index": {
           "description": "This package provides first class labels that can act as bidirectional record fields The labels can be derived automatically using Template Haskell which means you don have to write any boilerplate yourself The labels are implemented as lenses and are fully composable Labels can be used to get set and modify parts of datatype in consistent way",
           "hierarchy": "Data Label",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label",
           "name": "Label",
           "package": "fclabels",
@@ -2432,6 +2608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal monomorphic lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label",
           "name": ":-\u003e",
           "package": "fclabels",
@@ -2441,6 +2618,7 @@
         "index": {
           "description": "Total monomorphic lens",
           "hierarchy": "Data Label",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label",
           "name": ":-\u003e",
           "package": "fclabels",
@@ -2454,6 +2632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn isomorphism is like a \u003ccode\u003e\u003ca\u003eCategory\u003c/a\u003e\u003c/code\u003e that works in two directions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label",
           "name": "Iso",
           "package": "fclabels",
@@ -2463,6 +2642,7 @@
         "index": {
           "description": "An isomorphism is like Category that works in two directions",
           "hierarchy": "Data Label",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label",
           "name": "Iso",
           "package": "fclabels",
@@ -2477,6 +2657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the getter function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label",
           "name": "get",
           "package": "fclabels",
@@ -2487,6 +2668,7 @@
         "index": {
           "description": "Get the getter function from lens",
           "hierarchy": "Data Label",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label",
           "name": "get",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -2502,6 +2684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a total lens from a getter and a modifier.\n\u003c/p\u003e\u003cp\u003eWe expect the following law to hold:\n\u003c/p\u003e\u003cpre\u003e get l (modify l m f) == m (get l f)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label",
           "name": "lens",
           "package": "fclabels",
@@ -2511,6 +2694,7 @@
         "index": {
           "description": "Create total lens from getter and modifier We expect the following law to hold get modify get",
           "hierarchy": "Data Label",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label",
           "name": "lens",
           "normalized": "(a-\u003eb)-\u003e((b-\u003eb)-\u003ea-\u003ea)-\u003ea-\u003eb",
@@ -2526,6 +2710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the modifier function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label",
           "name": "modify",
           "package": "fclabels",
@@ -2536,6 +2721,7 @@
         "index": {
           "description": "Get the modifier function from lens",
           "hierarchy": "Data Label",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label",
           "name": "modify",
           "normalized": "(a-\u003eb)-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -2551,6 +2737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the setter function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:07 UTC 2014",
           "module": "Data.Label",
           "name": "set",
           "package": "fclabels",
@@ -2561,6 +2748,7 @@
         "index": {
           "description": "Get the setter function from lens",
           "hierarchy": "Data Label",
+          "indexed": "2014-03-11T18:07:07",
           "module": "Data.Label",
           "name": "set",
           "normalized": "(a-\u003eb)-\u003eb-\u003ea-\u003ea",

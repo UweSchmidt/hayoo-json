@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "urldecode"
+        "phrase": "urldecode",
+        "type": "phrase"
       },
       "type": "context"
     }

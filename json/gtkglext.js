@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtkglext"
+        "phrase": "gtkglext",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOpenGL frame buffer configuration object\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "Config",
           "package": "gtkglext",
@@ -28,6 +29,7 @@
         "index": {
           "description": "OpenGL frame buffer configuration object",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "Config",
           "package": "gtkglext",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLConfig",
           "package": "gtkglext",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLConfig",
           "package": "gtkglext",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLConfigClass",
           "package": "gtkglext",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLConfigClass",
           "package": "gtkglext",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLConfigMode",
           "package": "gtkglext",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLConfigMode",
           "package": "gtkglext",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeAccum",
           "package": "gtkglext",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeAccum",
           "package": "gtkglext",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeAlpha",
           "package": "gtkglext",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeAlpha",
           "package": "gtkglext",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeDepth",
           "package": "gtkglext",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeDepth",
           "package": "gtkglext",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeDouble",
           "package": "gtkglext",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeDouble",
           "package": "gtkglext",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeIndex",
           "package": "gtkglext",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeIndex",
           "package": "gtkglext",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeMultiSample",
           "package": "gtkglext",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeMultiSample",
           "package": "gtkglext",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeRGB",
           "package": "gtkglext",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeRGB",
           "package": "gtkglext",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeRGBA",
           "package": "gtkglext",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeRGBA",
           "package": "gtkglext",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeSingle",
           "package": "gtkglext",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeSingle",
           "package": "gtkglext",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeStencil",
           "package": "gtkglext",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeStencil",
           "package": "gtkglext",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeStereo",
           "package": "gtkglext",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "GLModeStereo",
           "package": "gtkglext",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "castToGLConfig",
           "package": "gtkglext",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "castToGLConfig",
           "normalized": "a-\u003eGLConfig",
@@ -371,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the \u003ccode\u003eColormap\u003c/code\u003e that is appropriate for the OpenGL frame buffer\n configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigGetColormap",
           "package": "gtkglext",
@@ -380,6 +413,7 @@
         "index": {
           "description": "Gets the Colormap that is appropriate for the OpenGL frame buffer configuration",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigGetColormap",
           "normalized": "GLConfig-\u003eIO Colormap",
@@ -396,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the color depth of the OpenGL-capable visual.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigGetDepth",
           "package": "gtkglext",
@@ -405,6 +440,7 @@
         "index": {
           "description": "Gets the color depth of the OpenGL-capable visual",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigGetDepth",
           "normalized": "GLConfig-\u003eIO Int",
@@ -421,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the layer plane (level) of the frame buffer. Zero is the default\n frame buffer. Positive layer planes correspond to frame buffers that overlay\n the default buffer, and negative layer planes correspond to frame buffers\n that underlie the default frame buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigGetLayerPlane",
           "package": "gtkglext",
@@ -430,6 +467,7 @@
         "index": {
           "description": "Gets the layer plane level of the frame buffer Zero is the default frame buffer Positive layer planes correspond to frame buffers that overlay the default buffer and negative layer planes correspond to frame buffers that underlie the default frame buffer",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigGetLayerPlane",
           "normalized": "GLConfig-\u003eIO Int",
@@ -446,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the number of auxiliary color buffers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigGetNAuxBuffers",
           "package": "gtkglext",
@@ -455,6 +494,7 @@
         "index": {
           "description": "Gets the number of auxiliary color buffers",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigGetNAuxBuffers",
           "normalized": "GLConfig-\u003eIO Int",
@@ -471,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the number of multisample buffers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigGetNSampleBuffers",
           "package": "gtkglext",
@@ -480,6 +521,7 @@
         "index": {
           "description": "Gets the number of multisample buffers",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigGetNSampleBuffers",
           "normalized": "GLConfig-\u003eIO Int",
@@ -496,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the \u003ccode\u003e\u003ca\u003eScreen\u003c/a\u003e\u003c/code\u003e associated with the \u003ccode\u003e\u003ca\u003eGLConfig\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigGetScreen",
           "package": "gtkglext",
@@ -505,6 +548,7 @@
         "index": {
           "description": "Gets the Screen associated with the GLConfig",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigGetScreen",
           "normalized": "GLConfig-\u003eIO Screen",
@@ -521,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the configured frame buffer has accumulation buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigHasAccumBuffer",
           "package": "gtkglext",
@@ -530,6 +575,7 @@
         "index": {
           "description": "Returns whether the configured frame buffer has accumulation buffer",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigHasAccumBuffer",
           "normalized": "GLConfig-\u003eIO Bool",
@@ -546,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the configured color buffer has alpha bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigHasAlpha",
           "package": "gtkglext",
@@ -555,6 +602,7 @@
         "index": {
           "description": "Returns whether the configured color buffer has alpha bits",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigHasAlpha",
           "normalized": "GLConfig-\u003eIO Bool",
@@ -571,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the configured frame buffer has depth buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigHasDepthBuffer",
           "package": "gtkglext",
@@ -580,6 +629,7 @@
         "index": {
           "description": "Returns whether the configured frame buffer has depth buffer",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigHasDepthBuffer",
           "normalized": "GLConfig-\u003eIO Bool",
@@ -596,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the configured frame buffer has stencil buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigHasStencilBuffer",
           "package": "gtkglext",
@@ -605,6 +656,7 @@
         "index": {
           "description": "Returns whether the configured frame buffer has stencil buffer",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigHasStencilBuffer",
           "normalized": "GLConfig-\u003eIO Bool",
@@ -621,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the configuration supports the double-buffered visual.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigIsDoubleBuffered",
           "package": "gtkglext",
@@ -630,6 +683,7 @@
         "index": {
           "description": "Returns whether the configuration supports the double-buffered visual",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigIsDoubleBuffered",
           "normalized": "GLConfig-\u003eIO Bool",
@@ -646,6 +700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the configured frame buffer is RGBA mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigIsRgba",
           "package": "gtkglext",
@@ -655,6 +710,7 @@
         "index": {
           "description": "Returns whether the configured frame buffer is RGBA mode",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigIsRgba",
           "normalized": "GLConfig-\u003eIO Bool",
@@ -671,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the configuration supports the stereo visual.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigIsStereo",
           "package": "gtkglext",
@@ -680,6 +737,7 @@
         "index": {
           "description": "Returns whether the configuration supports the stereo visual",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigIsStereo",
           "normalized": "GLConfig-\u003eIO Bool",
@@ -696,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an OpenGL frame buffer configuration that match the specified\n display mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigNew",
           "package": "gtkglext",
@@ -705,6 +764,7 @@
         "index": {
           "description": "Returns an OpenGL frame buffer configuration that match the specified display mode",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigNew",
           "normalized": "[GLConfigMode]-\u003eIO GLConfig",
@@ -721,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an OpenGL frame buffer configuration that matchs the specified\n display mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigNewForScreen",
           "package": "gtkglext",
@@ -730,6 +791,7 @@
         "index": {
           "description": "Returns an OpenGL frame buffer configuration that matchs the specified display mode",
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "glConfigNewForScreen",
           "normalized": "Screen-\u003e[GLConfigMode]-\u003eIO GLConfig",
@@ -745,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "toGLConfig",
           "package": "gtkglext",
@@ -754,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Config",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Config",
           "name": "toGLConfig",
           "normalized": "a-\u003eGLConfig",
@@ -770,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOpenGL rendering context object\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "Context",
           "package": "gtkglext",
@@ -779,6 +844,7 @@
         "index": {
           "description": "OpenGL rendering context object",
           "hierarchy": "Graphics UI Gtk OpenGL Context",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "Context",
           "package": "gtkglext",
@@ -792,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "GLContext",
           "package": "gtkglext",
@@ -800,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Context",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "GLContext",
           "package": "gtkglext",
@@ -813,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "GLContextClass",
           "package": "gtkglext",
@@ -821,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Context",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "GLContextClass",
           "package": "gtkglext",
@@ -834,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "GLRenderType",
           "package": "gtkglext",
@@ -842,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Context",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "GLRenderType",
           "package": "gtkglext",
@@ -855,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "ColorIndexType",
           "package": "gtkglext",
@@ -864,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Context",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "ColorIndexType",
           "package": "gtkglext",
@@ -877,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "RGBAType",
           "package": "gtkglext",
@@ -886,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Context",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "RGBAType",
           "package": "gtkglext",
@@ -899,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "castToGLContext",
           "package": "gtkglext",
@@ -908,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Context",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "castToGLContext",
           "normalized": "a-\u003eGLContext",
@@ -924,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the current \u003ccode\u003e\u003ca\u003eGLContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "glContextGetCurrent",
           "package": "gtkglext",
@@ -933,6 +1012,7 @@
         "index": {
           "description": "Returns the current GLContext",
           "hierarchy": "Graphics UI Gtk OpenGL Context",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "glContextGetCurrent",
           "package": "gtkglext",
@@ -947,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the \u003ccode\u003e\u003ca\u003eGLConfig\u003c/a\u003e\u003c/code\u003e with which the \u003ccode\u003e\u003ca\u003eGLContext\u003c/a\u003e\u003c/code\u003e is configured.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "glContextGetGLConfig",
           "package": "gtkglext",
@@ -957,6 +1038,7 @@
         "index": {
           "description": "Gets the GLConfig with which the GLContext is configured",
           "hierarchy": "Graphics UI Gtk OpenGL Context",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "glContextGetGLConfig",
           "normalized": "GLContext-\u003eIO GLConfig",
@@ -973,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets \u003ccode\u003e\u003ca\u003eGLDrawable\u003c/a\u003e\u003c/code\u003e to which the \u003ccode\u003e\u003ca\u003eGLContext\u003c/a\u003e\u003c/code\u003e is bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "glContextGetGLDrawable",
           "package": "gtkglext",
@@ -982,6 +1065,7 @@
         "index": {
           "description": "Gets GLDrawable to which the GLContext is bound",
           "hierarchy": "Graphics UI Gtk OpenGL Context",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "glContextGetGLDrawable",
           "normalized": "GLContext-\u003eIO GLDrawable",
@@ -998,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the \u003ccode\u003e\u003ca\u003eGLRenderType\u003c/a\u003e\u003c/code\u003e of the \u003ccode\u003e\u003ca\u003eGLContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "glContextGetRenderType",
           "package": "gtkglext",
@@ -1008,6 +1093,7 @@
         "index": {
           "description": "Gets the GLRenderType of the GLContext",
           "hierarchy": "Graphics UI Gtk OpenGL Context",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "glContextGetRenderType",
           "normalized": "GLContext-\u003eIO GLRenderType",
@@ -1024,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the other \u003ccode\u003e\u003ca\u003eGLContext\u003c/a\u003e\u003c/code\u003e with which the \u003ccode\u003e\u003ca\u003eGLContext\u003c/a\u003e\u003c/code\u003e shares the display\n lists and texture objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "glContextGetShareList",
           "package": "gtkglext",
@@ -1034,6 +1121,7 @@
         "index": {
           "description": "Gets the other GLContext with which the GLContext shares the display lists and texture objects",
           "hierarchy": "Graphics UI Gtk OpenGL Context",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "glContextGetShareList",
           "normalized": "GLContext-\u003eIO GLContext",
@@ -1050,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the \u003ccode\u003e\u003ca\u003eGLContext\u003c/a\u003e\u003c/code\u003e is a direct rendering context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "glContextIsDirect",
           "package": "gtkglext",
@@ -1060,6 +1149,7 @@
         "index": {
           "description": "Returns whether the GLContext is direct rendering context",
           "hierarchy": "Graphics UI Gtk OpenGL Context",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "glContextIsDirect",
           "normalized": "GLContext-\u003eIO Bool",
@@ -1076,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new OpenGL rendering context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "glContextNew",
           "package": "gtkglext",
@@ -1085,6 +1176,7 @@
         "index": {
           "description": "Creates new OpenGL rendering context",
           "hierarchy": "Graphics UI Gtk OpenGL Context",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Context",
           "name": "glContextNew",
           "normalized": "a-\u003eMaybe GLContext-\u003eBool-\u003eGLRenderType-\u003eIO GLContext",
@@ -1101,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOpenGL rendering surface interface\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "Drawable",
           "package": "gtkglext",
@@ -1110,6 +1203,7 @@
         "index": {
           "description": "OpenGL rendering surface interface",
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "Drawable",
           "package": "gtkglext",
@@ -1123,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "GLDrawable",
           "package": "gtkglext",
@@ -1131,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "GLDrawable",
           "package": "gtkglext",
@@ -1144,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "GLDrawableClass",
           "package": "gtkglext",
@@ -1152,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "GLDrawableClass",
           "package": "gtkglext",
@@ -1165,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "castToGLDrawable",
           "package": "gtkglext",
@@ -1174,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "castToGLDrawable",
           "normalized": "a-\u003eGLDrawable",
@@ -1190,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimits the begining of the OpenGL execution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableGLBegin",
           "package": "gtkglext",
@@ -1199,6 +1300,7 @@
         "index": {
           "description": "Delimits the begining of the OpenGL execution",
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableGLBegin",
           "normalized": "a-\u003eGLContext-\u003eIO Bool",
@@ -1215,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimits the end of the OpenGL execution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableGLEnd",
           "package": "gtkglext",
@@ -1225,6 +1328,7 @@
         "index": {
           "description": "Delimits the end of the OpenGL execution",
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableGLEnd",
           "normalized": "a-\u003eIO()",
@@ -1241,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the current \u003ccode\u003e\u003ca\u003eGLDrawable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableGetCurrent",
           "package": "gtkglext",
@@ -1250,6 +1355,7 @@
         "index": {
           "description": "Returns the current GLDrawable",
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableGetCurrent",
           "package": "gtkglext",
@@ -1264,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets \u003ccode\u003e\u003ca\u003eGLConfig\u003c/a\u003e\u003c/code\u003e with which the GL drawable is configured.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableGetGLConfig",
           "package": "gtkglext",
@@ -1274,6 +1381,7 @@
         "index": {
           "description": "Gets GLConfig with which the GL drawable is configured",
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableGetGLConfig",
           "normalized": "a-\u003eIO GLConfig",
@@ -1290,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the width and height of the GL drawable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableGetSize",
           "package": "gtkglext",
@@ -1299,6 +1408,7 @@
         "index": {
           "description": "Returns the width and height of the GL drawable",
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableGetSize",
           "normalized": "a-\u003eIO(Int,Int)",
@@ -1315,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the GL drawable supports the double-buffered visual.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableIsDoubleBuffered",
           "package": "gtkglext",
@@ -1324,6 +1435,7 @@
         "index": {
           "description": "Returns whether the GL drawable supports the double-buffered visual",
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableIsDoubleBuffered",
           "normalized": "a-\u003eIO Bool",
@@ -1340,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach an OpenGL rendering context to a GL drawable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableMakeCurrent",
           "package": "gtkglext",
@@ -1349,6 +1462,7 @@
         "index": {
           "description": "Attach an OpenGL rendering context to GL drawable",
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableMakeCurrent",
           "normalized": "a-\u003eGLContext-\u003eIO Bool",
@@ -1365,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExchange front and back buffers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableSwapBuffers",
           "package": "gtkglext",
@@ -1375,6 +1490,7 @@
         "index": {
           "description": "Exchange front and back buffers",
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableSwapBuffers",
           "normalized": "a-\u003eIO()",
@@ -1391,6 +1507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplete OpenGL execution prior to subsequent Gdk drawing calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableWaitGL",
           "package": "gtkglext",
@@ -1401,6 +1518,7 @@
         "index": {
           "description": "Complete OpenGL execution prior to subsequent Gdk drawing calls",
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableWaitGL",
           "normalized": "a-\u003eIO()",
@@ -1417,6 +1535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplete Gdk drawing execution prior to subsequent OpenGL calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableWaitGdk",
           "package": "gtkglext",
@@ -1427,6 +1546,7 @@
         "index": {
           "description": "Complete Gdk drawing execution prior to subsequent OpenGL calls",
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "glDrawableWaitGdk",
           "normalized": "a-\u003eIO()",
@@ -1442,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "toGLDrawable",
           "package": "gtkglext",
@@ -1451,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Drawable",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Drawable",
           "name": "toGLDrawable",
           "normalized": "a-\u003eGLDrawable",
@@ -1466,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.DrawingArea",
           "name": "DrawingArea",
           "package": "gtkglext",
@@ -1474,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL DrawingArea",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.DrawingArea",
           "name": "DrawingArea",
           "package": "gtkglext",
@@ -1487,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.DrawingArea",
           "name": "GLDrawingArea",
           "package": "gtkglext",
@@ -1495,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL DrawingArea",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.DrawingArea",
           "name": "GLDrawingArea",
           "package": "gtkglext",
@@ -1508,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.DrawingArea",
           "name": "glDrawingAreaGetGLConfig",
           "package": "gtkglext",
@@ -1517,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL DrawingArea",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.DrawingArea",
           "name": "glDrawingAreaGetGLConfig",
           "normalized": "GLDrawingArea-\u003eIO GLConfig",
@@ -1532,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.DrawingArea",
           "name": "glDrawingAreaGetGLContext",
           "package": "gtkglext",
@@ -1541,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL DrawingArea",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.DrawingArea",
           "name": "glDrawingAreaGetGLContext",
           "normalized": "GLDrawingArea-\u003eIO GLContext",
@@ -1556,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.DrawingArea",
           "name": "glDrawingAreaGetGLWindow",
           "package": "gtkglext",
@@ -1565,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL DrawingArea",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.DrawingArea",
           "name": "glDrawingAreaGetGLWindow",
           "normalized": "GLDrawingArea-\u003eIO GLWindow",
@@ -1580,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.DrawingArea",
           "name": "glDrawingAreaNew",
           "package": "gtkglext",
@@ -1589,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL DrawingArea",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.DrawingArea",
           "name": "glDrawingAreaNew",
           "normalized": "GLConfig-\u003eIO GLDrawingArea",
@@ -1604,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.DrawingArea",
           "name": "withGLDrawingArea",
           "package": "gtkglext",
@@ -1613,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL DrawingArea",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.DrawingArea",
           "name": "withGLDrawingArea",
           "normalized": "GLDrawingArea-\u003e(GLWindow-\u003eIO a)-\u003eIO a",
@@ -1628,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.General",
           "name": "General",
           "package": "gtkglext",
@@ -1636,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL General",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.General",
           "name": "General",
           "package": "gtkglext",
@@ -1649,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.General",
           "name": "glQueryExtension",
           "package": "gtkglext",
@@ -1658,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL General",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.General",
           "name": "glQueryExtension",
           "package": "gtkglext",
@@ -1671,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.General",
           "name": "glQueryExtensionForDisplay",
           "package": "gtkglext",
@@ -1680,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL General",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.General",
           "name": "glQueryExtensionForDisplay",
           "normalized": "Display-\u003eIO Bool",
@@ -1695,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.General",
           "name": "glQueryGLExtension",
           "package": "gtkglext",
@@ -1704,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL General",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.General",
           "name": "glQueryGLExtension",
           "normalized": "String-\u003eIO Bool",
@@ -1719,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.General",
           "name": "glQueryVersion",
           "package": "gtkglext",
@@ -1728,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL General",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.General",
           "name": "glQueryVersion",
           "normalized": "IO(Maybe(Int,Int))",
@@ -1743,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.General",
           "name": "glQueryVersionForDisplay",
           "package": "gtkglext",
@@ -1752,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL General",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.General",
           "name": "glQueryVersionForDisplay",
           "normalized": "Display-\u003eIO(Maybe(Int,Int))",
@@ -1767,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.General",
           "name": "initGL",
           "package": "gtkglext",
@@ -1776,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL General",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.General",
           "name": "initGL",
           "normalized": "IO[String]",
@@ -1792,6 +1942,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOpenGL pixmap which is maintained off-screen\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Pixmap",
           "name": "Pixmap",
           "package": "gtkglext",
@@ -1801,6 +1952,7 @@
         "index": {
           "description": "OpenGL pixmap which is maintained off-screen",
           "hierarchy": "Graphics UI Gtk OpenGL Pixmap",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Pixmap",
           "name": "Pixmap",
           "package": "gtkglext",
@@ -1814,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Pixmap",
           "name": "GLPixmap",
           "package": "gtkglext",
@@ -1822,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Pixmap",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Pixmap",
           "name": "GLPixmap",
           "package": "gtkglext",
@@ -1835,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Pixmap",
           "name": "GLPixmapClass",
           "package": "gtkglext",
@@ -1843,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Pixmap",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Pixmap",
           "name": "GLPixmapClass",
           "package": "gtkglext",
@@ -1856,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Pixmap",
           "name": "castToGLPixmap",
           "package": "gtkglext",
@@ -1865,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Pixmap",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Pixmap",
           "name": "castToGLPixmap",
           "normalized": "a-\u003eGLPixmap",
@@ -1881,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003e\u003ca\u003ePixmap\u003c/a\u003e\u003c/code\u003e associated with a \u003ccode\u003e\u003ca\u003eGLPixmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Pixmap",
           "name": "glPixmapGetPixmap",
           "package": "gtkglext",
@@ -1891,6 +2050,7 @@
         "index": {
           "description": "Returns the Pixmap associated with GLPixmap",
           "hierarchy": "Graphics UI Gtk OpenGL Pixmap",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Pixmap",
           "name": "glPixmapGetPixmap",
           "normalized": "GLPixmap-\u003eIO Pixmap",
@@ -1907,6 +2067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an off-screen rendering area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Pixmap",
           "name": "glPixmapNew",
           "package": "gtkglext",
@@ -1916,6 +2077,7 @@
         "index": {
           "description": "Creates an off-screen rendering area",
           "hierarchy": "Graphics UI Gtk OpenGL Pixmap",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Pixmap",
           "name": "glPixmapNew",
           "normalized": "GLConfig-\u003ePixmap-\u003eIO GLPixmap",
@@ -1932,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOpenGL window which is located on-screen\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Window",
           "name": "Window",
           "package": "gtkglext",
@@ -1941,6 +2104,7 @@
         "index": {
           "description": "OpenGL window which is located on-screen",
           "hierarchy": "Graphics UI Gtk OpenGL Window",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Window",
           "name": "Window",
           "package": "gtkglext",
@@ -1954,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Window",
           "name": "GLWindow",
           "package": "gtkglext",
@@ -1962,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Window",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Window",
           "name": "GLWindow",
           "package": "gtkglext",
@@ -1975,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Window",
           "name": "GLWindowClass",
           "package": "gtkglext",
@@ -1983,6 +2150,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Window",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Window",
           "name": "GLWindowClass",
           "package": "gtkglext",
@@ -1996,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Window",
           "name": "castToGLWindow",
           "package": "gtkglext",
@@ -2005,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk OpenGL Window",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Window",
           "name": "castToGLWindow",
           "normalized": "a-\u003eGLWindow",
@@ -2021,6 +2191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003e\u003ca\u003eDrawWindow\u003c/a\u003e\u003c/code\u003e associated with a \u003ccode\u003e\u003ca\u003eGLWindow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Window",
           "name": "glWindowGetWindow",
           "package": "gtkglext",
@@ -2031,6 +2202,7 @@
         "index": {
           "description": "Returns the DrawWindow associated with GLWindow",
           "hierarchy": "Graphics UI Gtk OpenGL Window",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Window",
           "name": "glWindowGetWindow",
           "normalized": "GLWindow-\u003eIO DrawWindow",
@@ -2047,6 +2219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an on-screen rendering area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL.Window",
           "name": "glWindowNew",
           "package": "gtkglext",
@@ -2056,6 +2229,7 @@
         "index": {
           "description": "Creates an on-screen rendering area",
           "hierarchy": "Graphics UI Gtk OpenGL Window",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL.Window",
           "name": "glWindowNew",
           "normalized": "GLConfig-\u003eDrawWindow-\u003eIO GLWindow",
@@ -2072,6 +2246,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOpenGL extension for Gtk+\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:23:43 UTC 2014",
           "module": "Graphics.UI.Gtk.OpenGL",
           "name": "OpenGL",
           "package": "gtkglext",
@@ -2081,6 +2256,7 @@
         "index": {
           "description": "OpenGL extension for Gtk",
           "hierarchy": "Graphics UI Gtk OpenGL",
+          "indexed": "2014-03-11T18:23:43",
           "module": "Graphics.UI.Gtk.OpenGL",
           "name": "OpenGL",
           "package": "gtkglext",

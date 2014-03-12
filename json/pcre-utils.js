@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pcre-utils"
+        "phrase": "pcre-utils",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module implementing regexp-based split and substitute.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esubstituteCompile \"(a+)\" \"lapin\" \"'\\\\1'\"\n\u003c/code\u003e\u003c/strong\u003eRight \"l'a'pin\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esplitCompile \"\\\\d\" \"a1b2c3\"\n\u003c/code\u003e\u003c/strong\u003eRight [\"a\",\"b\",\"c\"]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "Utils",
           "package": "pcre-utils",
@@ -28,6 +29,7 @@
         "index": {
           "description": "module implementing regexp-based split and substitute substituteCompile lapin Right pin splitCompile a1b2c3 Right",
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "Utils",
           "package": "pcre-utils",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "CompOption",
           "package": "pcre-utils",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "CompOption",
           "package": "pcre-utils",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "ExecOption",
           "package": "pcre-utils",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "ExecOption",
           "package": "pcre-utils",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled regular expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "Regex",
           "package": "pcre-utils",
@@ -90,6 +97,7 @@
         "index": {
           "description": "compiled regular expression",
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "Regex",
           "package": "pcre-utils",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "compBlank",
           "package": "pcre-utils",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "compBlank",
           "package": "pcre-utils",
@@ -125,6 +135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure version of \u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e, using unsafePerformIO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "compile'",
           "package": "pcre-utils",
@@ -135,6 +146,7 @@
         "index": {
           "description": "pure version of compile using unsafePerformIO",
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "compile'",
           "normalized": "CompOption-\u003eExecOption-\u003eByteString-\u003eEither(MatchOffset,String)Regex",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "execBlank",
           "package": "pcre-utils",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "execBlank",
           "package": "pcre-utils",
@@ -171,6 +185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure version of \u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e, using unsafePerformIO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "execute'",
           "package": "pcre-utils",
@@ -181,6 +196,7 @@
         "index": {
           "description": "pure version of execute using unsafePerformIO",
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "execute'",
           "normalized": "Regex-\u003eByteString-\u003eEither WrapError(Maybe(Array Int(MatchOffset,MatchLength)))",
@@ -196,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits strings, using a \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e as delimiter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "split",
           "package": "pcre-utils",
@@ -205,6 +222,7 @@
         "index": {
           "description": "Splits strings using Regex as delimiter",
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "split",
           "normalized": "Regex-\u003eByteString-\u003eIO(Either String[ByteString])",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure version of \u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003e, using unsafePerformIO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "split'",
           "package": "pcre-utils",
@@ -229,6 +248,7 @@
         "index": {
           "description": "pure version of split using unsafePerformIO",
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "split'",
           "normalized": "Regex-\u003eByteString-\u003eEither String[ByteString]",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompiles the regular expression (using default options) and \u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "splitCompile",
           "package": "pcre-utils",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Compiles the regular expression using default options and split",
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "splitCompile",
           "normalized": "ByteString-\u003eByteString-\u003eIO(Either String[ByteString])",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure version of \u003ccode\u003e\u003ca\u003esplitCompile\u003c/a\u003e\u003c/code\u003e, using unsafePerformIO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "splitCompile'",
           "package": "pcre-utils",
@@ -278,6 +301,7 @@
         "index": {
           "description": "pure version of splitCompile using unsafePerformIO",
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "splitCompile'",
           "normalized": "ByteString-\u003eByteString-\u003eEither String[ByteString]",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitutes values matched by a \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e. References can be used.\n\u003c/p\u003e\u003cp\u003eIt doesn't support anything else than global substitution for now ..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "substitute",
           "package": "pcre-utils",
@@ -303,6 +328,7 @@
         "index": {
           "description": "Substitutes values matched by Regex References can be used It doesn support anything else than global substitution for now",
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "substitute",
           "normalized": "Regex-\u003eByteString-\u003eByteString-\u003eIO(Either String ByteString)",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure version of \u003ccode\u003e\u003ca\u003esubstitute\u003c/a\u003e\u003c/code\u003e, using unsafePerformIO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "substitute'",
           "package": "pcre-utils",
@@ -327,6 +354,7 @@
         "index": {
           "description": "pure version of substitute using unsafePerformIO",
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "substitute'",
           "normalized": "Regex-\u003eByteString-\u003eByteString-\u003eEither String ByteString",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompiles the regular expression (using default options) and \u003ccode\u003e\u003ca\u003esubstitute\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "substituteCompile",
           "package": "pcre-utils",
@@ -351,6 +380,7 @@
         "index": {
           "description": "Compiles the regular expression using default options and substitute",
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "substituteCompile",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003eIO(Either String ByteString)",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure version of \u003ccode\u003e\u003ca\u003esubstituteCompile\u003c/a\u003e\u003c/code\u003e, using unsafePerformIO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:27 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "substituteCompile'",
           "package": "pcre-utils",
@@ -376,6 +407,7 @@
         "index": {
           "description": "pure version of substituteCompile using unsafePerformIO",
           "hierarchy": "Text Regex PCRE ByteString Utils",
+          "indexed": "2014-03-11T19:36:27",
           "module": "Text.Regex.PCRE.ByteString.Utils",
           "name": "substituteCompile'",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003eEither String ByteString",

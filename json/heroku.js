@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "heroku"
+        "phrase": "heroku",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:17 UTC 2014",
           "module": "Web.Heroku",
           "name": "Heroku",
           "package": "heroku",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Heroku",
+          "indexed": "2014-03-11T18:37:17",
           "module": "Web.Heroku",
           "name": "Heroku",
           "package": "heroku",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread the DATABASE_URL environment variable\n and return an alist of connection parameters with the following keys:\n user, password, host, port, dbname\n\u003c/p\u003e\u003cp\u003ewarning: just calls error if it can't parse correctly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:17 UTC 2014",
           "module": "Web.Heroku",
           "name": "dbConnParams",
           "package": "heroku",
@@ -50,6 +53,7 @@
         "index": {
           "description": "read the DATABASE URL environment variable and return an alist of connection parameters with the following keys user password host port dbname warning just calls error if it can parse correctly",
           "hierarchy": "Web Heroku",
+          "indexed": "2014-03-11T18:37:17",
           "module": "Web.Heroku",
           "name": "dbConnParams",
           "normalized": "IO[(Text,Text)]",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:17 UTC 2014",
           "module": "Web.Heroku",
           "name": "parseDatabaseUrl",
           "package": "heroku",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Web Heroku",
+          "indexed": "2014-03-11T18:37:17",
           "module": "Web.Heroku",
           "name": "parseDatabaseUrl",
           "normalized": "String-\u003e[(Text,Text)]",

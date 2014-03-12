@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rpc-framework"
+        "phrase": "rpc-framework",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Control.Concurrent.ForkableRPC",
           "name": "ForkableRPC",
           "package": "rpc-framework",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ForkableRPC",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Control.Concurrent.ForkableRPC",
           "name": "ForkableRPC",
           "package": "rpc-framework",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Control.Concurrent.ForkableRPC",
           "name": "Forkable",
           "package": "rpc-framework",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ForkableRPC",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Control.Concurrent.ForkableRPC",
           "name": "Forkable",
           "package": "rpc-framework",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Control.Concurrent.ForkableRPC",
           "name": "forkIO",
           "package": "rpc-framework",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent ForkableRPC",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Control.Concurrent.ForkableRPC",
           "name": "forkIO",
           "normalized": "a b-\u003ea ThreadId",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA server that allows for the declaration of services and for the \ncalling of services.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "MultiServer",
           "package": "rpc-framework",
@@ -94,6 +101,7 @@
         "index": {
           "description": "server that allows for the declaration of services and for the calling of services",
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "MultiServer",
           "package": "rpc-framework",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "AIO",
           "package": "rpc-framework",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "AIO",
           "package": "rpc-framework",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "Handlers",
           "package": "rpc-framework",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "Handlers",
           "package": "rpc-framework",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "Message",
           "package": "rpc-framework",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "Message",
           "package": "rpc-framework",
@@ -171,6 +185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eServable\u003c/a\u003e\u003c/code\u003e is a declaration that the given monad can be made into a \n servlet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "Servable",
           "package": "rpc-framework",
@@ -180,6 +195,7 @@
         "index": {
           "description": "Servable is declaration that the given monad can be made into servlet",
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "Servable",
           "package": "rpc-framework",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "ServiceID",
           "package": "rpc-framework",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "ServiceID",
           "package": "rpc-framework",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "State",
           "package": "rpc-framework",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "State",
           "package": "rpc-framework",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "AIO",
           "package": "rpc-framework",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "AIO",
           "package": "rpc-framework",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "Kill",
           "package": "rpc-framework",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "Kill",
           "package": "rpc-framework",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "LocName",
           "package": "rpc-framework",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "LocName",
           "package": "rpc-framework",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "LocNumber",
           "package": "rpc-framework",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "LocNumber",
           "package": "rpc-framework",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "Talk",
           "package": "rpc-framework",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "Talk",
           "package": "rpc-framework",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "addService",
           "package": "rpc-framework",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "addService",
           "normalized": "(Handle-\u003eAIO a())-\u003eAIO a ServiceID",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "addServiceByName",
           "package": "rpc-framework",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "addServiceByName",
           "normalized": "String-\u003e(Handle-\u003eAIO a())-\u003eAIO a ServiceID",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "connectToService",
           "package": "rpc-framework",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "connectToService",
           "normalized": "String-\u003eInteger-\u003eServiceID-\u003ea Handle",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "getHandlers",
           "package": "rpc-framework",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "getHandlers",
           "package": "rpc-framework",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "recv",
           "package": "rpc-framework",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "recv",
           "normalized": "Handle-\u003ea b",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "safeFind",
           "package": "rpc-framework",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "safeFind",
           "normalized": "Map a b-\u003ea-\u003eb",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "send",
           "package": "rpc-framework",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "send",
           "normalized": "Handle-\u003ea-\u003eb()",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "startServer",
           "package": "rpc-framework",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "startServer",
           "normalized": "Integer-\u003eAIO a b-\u003ea b",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "track",
           "package": "rpc-framework",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal MultiServer",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.MultiServer",
           "name": "track",
           "normalized": "(String,Integer,ServiceID)-\u003ea-\u003eAIO b a",
@@ -557,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe functions for using a function as a service and calling a remote process\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "Runtime",
           "package": "rpc-framework",
@@ -566,6 +615,7 @@
         "index": {
           "description": "The functions for using function as service and calling remote process",
           "hierarchy": "Network Remote RPC Internal Runtime",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "Runtime",
           "package": "rpc-framework",
@@ -580,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eHost\u003c/a\u003e\u003c/code\u003e World\u003c/code\u003e declares that the world is a host.  It should\n only have one constructor, and the location and port should be invariant\n of the given constructor. \n Specifically, \u003ccode\u003egetLocation\u003c/code\u003e and \u003ccode\u003egetPort\u003c/code\u003e should work even if bottom is supplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "Host",
           "package": "rpc-framework",
@@ -589,6 +640,7 @@
         "index": {
           "description": "Host World declares that the world is host It should only have one constructor and the location and port should be invariant of the given constructor Specifically getLocation and getPort should work even if bottom is supplied",
           "hierarchy": "Network Remote RPC Internal Runtime",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "Host",
           "package": "rpc-framework",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "Receivable",
           "package": "rpc-framework",
@@ -610,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal Runtime",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "Receivable",
           "package": "rpc-framework",
@@ -623,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "Ref",
           "package": "rpc-framework",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal Runtime",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "Ref",
           "package": "rpc-framework",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "Sendable",
           "package": "rpc-framework",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal Runtime",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "Sendable",
           "package": "rpc-framework",
@@ -666,6 +724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eServable\u003c/a\u003e\u003c/code\u003e is a declaration that the given monad can be made into a \n servlet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "Servable",
           "package": "rpc-framework",
@@ -675,6 +734,7 @@
         "index": {
           "description": "Servable is declaration that the given monad can be made into servlet",
           "hierarchy": "Network Remote RPC Internal Runtime",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "Servable",
           "package": "rpc-framework",
@@ -689,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eWIO\u003c/a\u003e\u003c/code\u003e w m a\u003c/code\u003e is a newtype over a server transformer that adds the phantom\n host argument \u003ccode\u003ew\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "WIO",
           "package": "rpc-framework",
@@ -698,6 +759,7 @@
         "index": {
           "description": "WIO is newtype over server transformer that adds the phantom host argument",
           "hierarchy": "Network Remote RPC Internal Runtime",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "WIO",
           "package": "rpc-framework",
@@ -711,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "getDataDefault",
           "package": "rpc-framework",
@@ -720,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal Runtime",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "getDataDefault",
           "normalized": "a-\u003e(String,Integer)",
@@ -735,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "getValue",
           "package": "rpc-framework",
@@ -744,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal Runtime",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "getValue",
           "package": "rpc-framework",
@@ -783,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "makeService",
           "package": "rpc-framework",
@@ -792,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal Runtime",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "makeService",
           "normalized": "a-\u003eString-\u003eWIO b c()",
@@ -834,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "realRemoteCall",
           "package": "rpc-framework",
@@ -843,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal Runtime",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "realRemoteCall",
           "normalized": "a-\u003eString-\u003eb",
@@ -913,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003esetHost\u003c/a\u003e\u003c/code\u003e world hostname port\u003c/code\u003e resets the default values\n for the \u003ccode\u003eworld\u003c/code\u003e be carefull to only use this at the beginning of a program.\n note that this uses unsafe state to work. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "setHost",
           "package": "rpc-framework",
@@ -923,6 +994,7 @@
         "index": {
           "description": "setHost world hostname port resets the default values for the world be carefull to only use this at the beginning of program note that this uses unsafe state to work",
           "hierarchy": "Network Remote RPC Internal Runtime",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.Runtime",
           "name": "setHost",
           "normalized": "a-\u003eString-\u003eInteger-\u003eIO()",
@@ -960,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC.Internal.Templates",
           "name": "Templates",
           "package": "rpc-framework",
@@ -968,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC Internal Templates",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC.Internal.Templates",
           "name": "Templates",
           "package": "rpc-framework",
@@ -1090,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeclaration of the frontend for RPC.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC",
           "name": "RPC",
           "package": "rpc-framework",
@@ -1099,6 +1174,7 @@
         "index": {
           "description": "Declaration of the frontend for RPC",
           "hierarchy": "Network Remote RPC",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC",
           "name": "RPC",
           "package": "rpc-framework",
@@ -1112,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC",
           "name": "Forkable",
           "package": "rpc-framework",
@@ -1120,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC",
           "name": "Forkable",
           "package": "rpc-framework",
@@ -1134,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eHost\u003c/a\u003e\u003c/code\u003e World\u003c/code\u003e declares that the world is a host.  It should\n only have one constructor, and the location and port should be invariant\n of the given constructor. \n Specifically, \u003ccode\u003egetLocation\u003c/code\u003e and \u003ccode\u003egetPort\u003c/code\u003e should work even if bottom is supplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC",
           "name": "Host",
           "package": "rpc-framework",
@@ -1143,6 +1222,7 @@
         "index": {
           "description": "Host World declares that the world is host It should only have one constructor and the location and port should be invariant of the given constructor Specifically getLocation and getPort should work even if bottom is supplied",
           "hierarchy": "Network Remote RPC",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC",
           "name": "Host",
           "package": "rpc-framework",
@@ -1157,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of monad transformers.  Instances should satisfy the\n following laws, which state that \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e is a transformer of monads:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e (m \u003e\u003e= f) = \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e m \u003e\u003e= (\u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e . f)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC",
           "name": "MonadTrans",
           "package": "rpc-framework",
@@ -1165,6 +1246,7 @@
         "index": {
           "description": "The class of monad transformers Instances should satisfy the following laws which state that lift is transformer of monads lift return return lift lift lift",
           "hierarchy": "Network Remote RPC",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC",
           "name": "MonadTrans",
           "package": "rpc-framework",
@@ -1179,6 +1261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eServable\u003c/a\u003e\u003c/code\u003e is a declaration that the given monad can be made into a \n servlet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC",
           "name": "Servable",
           "package": "rpc-framework",
@@ -1188,6 +1271,7 @@
         "index": {
           "description": "Servable is declaration that the given monad can be made into servlet",
           "hierarchy": "Network Remote RPC",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC",
           "name": "Servable",
           "package": "rpc-framework",
@@ -1202,6 +1286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eWIO\u003c/a\u003e\u003c/code\u003e w m a\u003c/code\u003e is a newtype over a server transformer that adds the phantom\n host argument \u003ccode\u003ew\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC",
           "name": "WIO",
           "package": "rpc-framework",
@@ -1211,6 +1296,7 @@
         "index": {
           "description": "WIO is newtype over server transformer that adds the phantom host argument",
           "hierarchy": "Network Remote RPC",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC",
           "name": "WIO",
           "package": "rpc-framework",
@@ -1224,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC",
           "name": "forkIO",
           "package": "rpc-framework",
@@ -1233,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC",
           "name": "forkIO",
           "normalized": "a b-\u003ea ThreadId",
@@ -1248,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC",
           "name": "getDataDefault",
           "package": "rpc-framework",
@@ -1257,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC",
           "name": "getDataDefault",
           "normalized": "a-\u003e(String,Integer)",
@@ -1272,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC",
           "name": "getValue",
           "package": "rpc-framework",
@@ -1281,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Network Remote RPC",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC",
           "name": "getValue",
           "package": "rpc-framework",
@@ -1295,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the argument monad to the constructed monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC",
           "name": "lift",
           "package": "rpc-framework",
@@ -1304,6 +1397,7 @@
         "index": {
           "description": "Lift computation from the argument monad to the constructed monad",
           "hierarchy": "Network Remote RPC",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC",
           "name": "lift",
           "normalized": "a b-\u003ec a b",
@@ -1319,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003esetHost\u003c/a\u003e\u003c/code\u003e world hostname port\u003c/code\u003e resets the default values\n for the \u003ccode\u003eworld\u003c/code\u003e be carefull to only use this at the beginning of a program.\n note that this uses unsafe state to work. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:31 UTC 2014",
           "module": "Network.Remote.RPC",
           "name": "setHost",
           "package": "rpc-framework",
@@ -1329,6 +1424,7 @@
         "index": {
           "description": "setHost world hostname port resets the default values for the world be carefull to only use this at the beginning of program note that this uses unsafe state to work",
           "hierarchy": "Network Remote RPC",
+          "indexed": "2014-03-11T19:55:31",
           "module": "Network.Remote.RPC",
           "name": "setHost",
           "normalized": "a-\u003eString-\u003eInteger-\u003eIO()",

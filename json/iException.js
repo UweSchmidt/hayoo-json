@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "iException"
+        "phrase": "iException",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Ablock",
           "package": "iException",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Ablock",
           "normalized": "a b-\u003ea b",
@@ -42,6 +44,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Abracket",
           "package": "iException",
@@ -51,6 +54,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Abracket",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003e(b-\u003ea c)-\u003ea c",
@@ -66,6 +70,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AbracketOnError",
           "package": "iException",
@@ -75,6 +80,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AbracketOnError",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003e(b-\u003ea c)-\u003ea c",
@@ -90,6 +96,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Abracket_",
           "package": "iException",
@@ -99,6 +106,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Abracket_",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea d",
@@ -114,6 +122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Acatch",
           "package": "iException",
@@ -123,6 +132,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Acatch",
           "normalized": "a b-\u003e(Exception-\u003ea b)-\u003ea b",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AcatchDyn",
           "package": "iException",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AcatchDyn",
           "normalized": "a b-\u003e(c-\u003ea b)-\u003ea b",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AcatchJust",
           "package": "iException",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AcatchJust",
           "normalized": "(Exception-\u003eMaybe a)-\u003eb c-\u003e(a-\u003eb c)-\u003eb c",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Aevaluate",
           "package": "iException",
@@ -195,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Aevaluate",
           "normalized": "a-\u003eb a",
@@ -210,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Afinally",
           "package": "iException",
@@ -219,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Afinally",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AgetUncaughtExceptionHandler",
           "package": "iException",
@@ -243,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AgetUncaughtExceptionHandler",
           "normalized": "a(Exception-\u003ea())",
@@ -258,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Ahandle",
           "package": "iException",
@@ -267,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Ahandle",
           "normalized": "(Exception-\u003ea b)-\u003ea b-\u003ea b",
@@ -282,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AhandleJust",
           "package": "iException",
@@ -291,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AhandleJust",
           "normalized": "(Exception-\u003eMaybe a)-\u003e(a-\u003eb c)-\u003eb c-\u003eb c",
@@ -306,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AioError",
           "package": "iException",
@@ -315,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AioError",
           "normalized": "IOError-\u003ea b",
@@ -330,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AsetUncaughtExceptionHandler",
           "package": "iException",
@@ -339,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AsetUncaughtExceptionHandler",
           "normalized": "(Exception-\u003ea())-\u003ea()",
@@ -354,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AthrowDynTo",
           "package": "iException",
@@ -363,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AthrowDynTo",
           "normalized": "ThreadId-\u003ea-\u003eb()",
@@ -378,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AthrowIO",
           "package": "iException",
@@ -387,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AthrowIO",
           "normalized": "Exception-\u003ea b",
@@ -402,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AthrowTo",
           "package": "iException",
@@ -411,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AthrowTo",
           "normalized": "ThreadId-\u003eException-\u003ea()",
@@ -426,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Atry",
           "package": "iException",
@@ -435,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Atry",
           "normalized": "a b-\u003ea(Either Exception b)",
@@ -450,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AtryJust",
           "package": "iException",
@@ -459,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3AtryJust",
           "normalized": "(Exception-\u003eMaybe a)-\u003eb c-\u003eb(Either a c)",
@@ -474,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:36 UTC 2014",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Aunblock",
           "package": "iException",
@@ -483,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans InterleavableIO Control Exception",
+          "indexed": "2014-03-11T18:55:36",
           "module": "Control.Monad.Trans.InterleavableIO.Control.Exception",
           "name": "3Aunblock",
           "normalized": "a b-\u003ea b",

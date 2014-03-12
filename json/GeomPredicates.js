@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GeomPredicates"
+        "phrase": "GeomPredicates",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Predicates.Rational",
           "name": "Rational",
           "package": "GeomPredicates",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Predicates Rational",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Predicates.Rational",
           "name": "Rational",
           "package": "GeomPredicates",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter-clockwise orientation test. Classifies p3 in relation to the line formed by p1 and p2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Predicates.Rational",
           "name": "ccw",
           "package": "GeomPredicates",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Counter-clockwise orientation test Classifies p3 in relation to the line formed by p1 and p2",
           "hierarchy": "Numeric Geometric Predicates Rational",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Predicates.Rational",
           "name": "ccw",
           "normalized": "Vector Rational-\u003eVector Rational-\u003eVector Rational-\u003eOrdering",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if Point is within the closed interval specified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Predicates.Rational",
           "name": "cintt",
           "package": "GeomPredicates",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Test if Point is within the closed interval specified",
           "hierarchy": "Numeric Geometric Predicates Rational",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Predicates.Rational",
           "name": "cintt",
           "normalized": "Rational-\u003eRational-\u003eRational-\u003eBool",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest the relation of a point to the circle formed by (p1..p3).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Predicates.Rational",
           "name": "incircle",
           "package": "GeomPredicates",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Test the relation of point to the circle formed by p1..p3",
           "hierarchy": "Numeric Geometric Predicates Rational",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Predicates.Rational",
           "name": "incircle",
           "normalized": "(Vector Rational,Vector Rational,Vector Rational)-\u003eVector Rational-\u003eOrdering",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the point of intersecton. Assumes the input lines are already known to be intersecting,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Predicates.Rational",
           "name": "isctp",
           "package": "GeomPredicates",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Calculate the point of intersecton Assumes the input lines are already known to be intersecting",
           "hierarchy": "Numeric Geometric Predicates Rational",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Predicates.Rational",
           "name": "isctp",
           "normalized": "LineSegment(Vector Rational)-\u003eLineSegment(Vector Rational)-\u003eVector Rational",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "Primitives",
           "package": "GeomPredicates",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "Primitives",
           "package": "GeomPredicates",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "IntersectionPair",
           "package": "GeomPredicates",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "IntersectionPair",
           "package": "GeomPredicates",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "IntersectionPoint",
           "package": "GeomPredicates",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "IntersectionPoint",
           "package": "GeomPredicates",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "LineIntersection",
           "package": "GeomPredicates",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "LineIntersection",
           "package": "GeomPredicates",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "LineSegment",
           "package": "GeomPredicates",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "LineSegment",
           "package": "GeomPredicates",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "Slope",
           "package": "GeomPredicates",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "Slope",
           "package": "GeomPredicates",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "Vector2",
           "package": "GeomPredicates",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "Vector2",
           "package": "GeomPredicates",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "Between",
           "package": "GeomPredicates",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "Between",
           "package": "GeomPredicates",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "Coincident",
           "package": "GeomPredicates",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "Coincident",
           "package": "GeomPredicates",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "Endpoint0",
           "package": "GeomPredicates",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "Endpoint0",
           "package": "GeomPredicates",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "Endpoint1",
           "package": "GeomPredicates",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "Endpoint1",
           "package": "GeomPredicates",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "Intersecting",
           "package": "GeomPredicates",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "Intersecting",
           "package": "GeomPredicates",
@@ -394,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot intersecting and not parallel \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "NINP",
           "package": "GeomPredicates",
@@ -404,6 +439,7 @@
         "index": {
           "description": "Not intersecting and not parallel",
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "NINP",
           "package": "GeomPredicates",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "NegativeSlope",
           "package": "GeomPredicates",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "NegativeSlope",
           "package": "GeomPredicates",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "Parallel",
           "package": "GeomPredicates",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "Parallel",
           "package": "GeomPredicates",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "PositiveSlope",
           "package": "GeomPredicates",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "PositiveSlope",
           "package": "GeomPredicates",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "UndefinedSlope",
           "package": "GeomPredicates",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "UndefinedSlope",
           "package": "GeomPredicates",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "ZeroSlope",
           "package": "GeomPredicates",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "ZeroSlope",
           "package": "GeomPredicates",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "flipLine",
           "package": "GeomPredicates",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "flipLine",
           "normalized": "LineSegment a-\u003eLineSegment a",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "lDestination",
           "package": "GeomPredicates",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "lDestination",
           "normalized": "LineSegment a-\u003ea",
@@ -575,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:06 UTC 2014",
           "module": "Numeric.Geometric.Primitives",
           "name": "lOrigin",
           "package": "GeomPredicates",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Numeric Geometric Primitives",
+          "indexed": "2014-03-11T16:43:06",
           "module": "Numeric.Geometric.Primitives",
           "name": "lOrigin",
           "normalized": "LineSegment a-\u003ea",

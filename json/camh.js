@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "camh"
+        "phrase": "camh",
+        "type": "phrase"
       },
       "type": "context"
     }

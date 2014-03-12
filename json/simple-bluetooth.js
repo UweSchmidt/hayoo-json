@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-bluetooth"
+        "phrase": "simple-bluetooth",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Adapter",
           "name": "Adapter",
           "package": "simple-bluetooth",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Adapter",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Adapter",
           "name": "Adapter",
           "package": "simple-bluetooth",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Adapter",
           "name": "Adapter",
           "package": "simple-bluetooth",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Adapter",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Adapter",
           "name": "Adapter",
           "package": "simple-bluetooth",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Adapter",
           "name": "BluetoothAddr",
           "package": "simple-bluetooth",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Adapter",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Adapter",
           "name": "BluetoothAddr",
           "package": "simple-bluetooth",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Adapter",
           "name": "BluetoothException",
           "package": "simple-bluetooth",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Adapter",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Adapter",
           "name": "BluetoothException",
           "package": "simple-bluetooth",
@@ -171,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Adapter",
           "name": "allAdapters",
           "package": "simple-bluetooth",
@@ -180,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Adapter",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Adapter",
           "name": "allAdapters",
           "normalized": "IO[Adapter]",
@@ -195,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Adapter",
           "name": "defaultAdapter",
           "package": "simple-bluetooth",
@@ -204,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Adapter",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Adapter",
           "name": "defaultAdapter",
           "package": "simple-bluetooth",
@@ -217,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Adapter",
           "name": "discover",
           "package": "simple-bluetooth",
@@ -226,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Adapter",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Adapter",
           "name": "discover",
           "normalized": "Adapter-\u003eIO[Device]",
@@ -264,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Device",
           "name": "Device",
           "package": "simple-bluetooth",
@@ -272,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Device",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Device",
           "name": "Device",
           "package": "simple-bluetooth",
@@ -285,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Device",
           "name": "Adapter",
           "package": "simple-bluetooth",
@@ -293,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Device",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Device",
           "name": "Adapter",
           "package": "simple-bluetooth",
@@ -306,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Device",
           "name": "BluetoothAddr",
           "package": "simple-bluetooth",
@@ -314,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Device",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Device",
           "name": "BluetoothAddr",
           "package": "simple-bluetooth",
@@ -327,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Device",
           "name": "BluetoothException",
           "package": "simple-bluetooth",
@@ -335,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Device",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Device",
           "name": "BluetoothException",
           "package": "simple-bluetooth",
@@ -348,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Device",
           "name": "Device",
           "package": "simple-bluetooth",
@@ -356,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Device",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Device",
           "name": "Device",
           "package": "simple-bluetooth",
@@ -369,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Device",
           "name": "RFCOMMSocket",
           "package": "simple-bluetooth",
@@ -377,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Device",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Device",
           "name": "RFCOMMSocket",
           "package": "simple-bluetooth",
@@ -390,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Device",
           "name": "Device",
           "package": "simple-bluetooth",
@@ -399,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Device",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Device",
           "name": "Device",
           "package": "simple-bluetooth",
@@ -412,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Device",
           "name": "closeRFCOMM",
           "package": "simple-bluetooth",
@@ -421,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Device",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Device",
           "name": "closeRFCOMM",
           "normalized": "RFCOMMSocket-\u003eIO()",
@@ -436,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Device",
           "name": "deviceName",
           "package": "simple-bluetooth",
@@ -445,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Device",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Device",
           "name": "deviceName",
           "normalized": "Device-\u003eIO ByteString",
@@ -460,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Device",
           "name": "openRFCOMM",
           "package": "simple-bluetooth",
@@ -469,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Device",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Device",
           "name": "openRFCOMM",
           "normalized": "Device-\u003eWord-\u003eIO RFCOMMSocket",
@@ -484,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Device",
           "name": "recvRFCOMM",
           "package": "simple-bluetooth",
@@ -493,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Device",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Device",
           "name": "recvRFCOMM",
           "normalized": "RFCOMMSocket-\u003eInt-\u003eIO ByteString",
@@ -508,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Device",
           "name": "sendAllRFCOMM",
           "package": "simple-bluetooth",
@@ -517,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Device",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Device",
           "name": "sendAllRFCOMM",
           "normalized": "RFCOMMSocket-\u003eByteString-\u003eIO()",
@@ -532,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth.Device",
           "name": "sendRFCOMM",
           "package": "simple-bluetooth",
@@ -541,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Network Bluetooth Device",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth.Device",
           "name": "sendRFCOMM",
           "normalized": "RFCOMMSocket-\u003eByteString-\u003eIO Int",
@@ -557,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple Bluetooth API for Windows and Linux (bluez).\n\u003c/p\u003e\u003cp\u003eYou must use \u003ccode\u003e\u003ca\u003ewithSocketsDo\u003c/a\u003e\u003c/code\u003e at the start of your program\n for Windows compatibility.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:28 UTC 2014",
           "module": "Network.Bluetooth",
           "name": "Bluetooth",
           "package": "simple-bluetooth",
@@ -566,6 +607,7 @@
         "index": {
           "description": "Simple Bluetooth API for Windows and Linux bluez You must use withSocketsDo at the start of your program for Windows compatibility",
           "hierarchy": "Network Bluetooth",
+          "indexed": "2014-03-11T20:02:28",
           "module": "Network.Bluetooth",
           "name": "Bluetooth",
           "package": "simple-bluetooth",

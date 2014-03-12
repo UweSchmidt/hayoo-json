@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HAppSHelpers"
+        "phrase": "HAppSHelpers",
+        "type": "phrase"
       },
       "type": "context"
     }

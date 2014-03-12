@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "derive-trie"
+        "phrase": "derive-trie",
+        "type": "phrase"
       },
       "type": "context"
     }

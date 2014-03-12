@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "netlines"
+        "phrase": "netlines",
+        "type": "phrase"
       },
       "type": "context"
     }

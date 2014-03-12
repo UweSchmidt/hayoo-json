@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "star-to-star"
+        "phrase": "star-to-star",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFundamental * -\u003e * types and (covariant) instances for the common classes:\n Functor, Foldable, and Traversable.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "StarToStar",
           "package": "star-to-star",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Fundamental types and covariant instances for the common classes Functor Foldable and Traversable",
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "StarToStar",
           "package": "star-to-star",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": ":*",
           "package": "star-to-star",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": ":*",
           "package": "star-to-star",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": ":+",
           "package": "star-to-star",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": ":+",
           "package": "star-to-star",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": ":-\u003e",
           "package": "star-to-star",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": ":-\u003e",
           "package": "star-to-star",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": ":\u003c-",
           "package": "star-to-star",
@@ -109,6 +118,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": ":\u003c-",
           "package": "star-to-star",
@@ -121,6 +131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": ":.",
           "package": "star-to-star",
@@ -129,6 +140,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": ":.",
           "package": "star-to-star",
@@ -141,6 +153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "C",
           "package": "star-to-star",
@@ -149,6 +162,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "C",
           "package": "star-to-star",
@@ -161,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "E",
           "package": "star-to-star",
@@ -169,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "E",
           "package": "star-to-star",
@@ -181,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "F",
           "package": "star-to-star",
@@ -189,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "F",
           "package": "star-to-star",
@@ -201,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "Fix",
           "package": "star-to-star",
@@ -209,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "Fix",
           "package": "star-to-star",
@@ -222,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "Flip",
           "package": "star-to-star",
@@ -230,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "Flip",
           "package": "star-to-star",
@@ -243,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "I",
           "package": "star-to-star",
@@ -251,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "I",
           "package": "star-to-star",
@@ -263,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "K",
           "package": "star-to-star",
@@ -271,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "K",
           "package": "star-to-star",
@@ -283,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "O",
           "package": "star-to-star",
@@ -291,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "O",
           "package": "star-to-star",
@@ -303,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "P",
           "package": "star-to-star",
@@ -311,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "P",
           "package": "star-to-star",
@@ -323,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "S",
           "package": "star-to-star",
@@ -331,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "S",
           "package": "star-to-star",
@@ -343,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "U",
           "package": "star-to-star",
@@ -351,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "U",
           "package": "star-to-star",
@@ -363,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "V",
           "package": "star-to-star",
@@ -371,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "V",
           "package": "star-to-star",
@@ -383,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "C",
           "package": "star-to-star",
@@ -392,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "C",
           "package": "star-to-star",
@@ -404,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "E",
           "package": "star-to-star",
@@ -413,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "E",
           "normalized": "E(a-\u003eb)",
@@ -427,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "F",
           "package": "star-to-star",
@@ -436,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "F",
           "normalized": "F(a b-\u003ec b)",
@@ -450,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "Flip",
           "package": "star-to-star",
@@ -459,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "Flip",
           "package": "star-to-star",
@@ -472,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "I",
           "package": "star-to-star",
@@ -481,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "I",
           "package": "star-to-star",
@@ -493,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "In",
           "package": "star-to-star",
@@ -502,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "In",
           "package": "star-to-star",
@@ -515,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "K",
           "package": "star-to-star",
@@ -524,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "K",
           "normalized": "K(a-\u003eb)",
@@ -538,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "L",
           "package": "star-to-star",
@@ -547,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "L",
           "package": "star-to-star",
@@ -559,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "O",
           "package": "star-to-star",
@@ -568,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "O",
           "package": "star-to-star",
@@ -580,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "P",
           "package": "star-to-star",
@@ -589,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "P",
           "package": "star-to-star",
@@ -601,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "R",
           "package": "star-to-star",
@@ -610,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "R",
           "package": "star-to-star",
@@ -622,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "U",
           "package": "star-to-star",
@@ -631,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "U",
           "package": "star-to-star",
@@ -643,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "fromC",
           "package": "star-to-star",
@@ -652,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "fromC",
           "normalized": "C a b-\u003ea",
@@ -666,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "fromE",
           "package": "star-to-star",
@@ -675,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "fromE",
           "normalized": "E a b-\u003ea-\u003eb",
@@ -689,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "fromF",
           "package": "star-to-star",
@@ -698,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "fromF",
           "normalized": "F a b c-\u003ea c-\u003eb c",
@@ -712,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "fromFix",
           "package": "star-to-star",
@@ -721,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "fromFix",
           "normalized": "Fix a b-\u003ea(Fix a)b",
@@ -736,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "fromFlip",
           "package": "star-to-star",
@@ -745,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "fromFlip",
           "normalized": "Flip a b c d-\u003ea c b d",
@@ -760,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "fromI",
           "package": "star-to-star",
@@ -769,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "fromI",
           "normalized": "I a-\u003ea",
@@ -783,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "fromK",
           "package": "star-to-star",
@@ -792,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "fromK",
           "normalized": "K a b-\u003eb-\u003ea",
@@ -806,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "fromO",
           "package": "star-to-star",
@@ -815,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "fromO",
           "normalized": "O a b c-\u003ea(b c)",
@@ -829,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "fromP",
           "package": "star-to-star",
@@ -838,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "fromP",
           "normalized": "P a b c-\u003e(a c,b c)",
@@ -852,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "fromS",
           "package": "star-to-star",
@@ -861,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "fromS",
           "normalized": "S a b c-\u003eEither(a c)(b c)",
@@ -875,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "onC",
           "package": "star-to-star",
@@ -884,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "onC",
           "normalized": "(a-\u003eb)-\u003eC a c-\u003eb",
@@ -898,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "onE",
           "package": "star-to-star",
@@ -907,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "onE",
           "normalized": "((a-\u003eb)-\u003ec)-\u003eE a b-\u003ec",
@@ -921,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "onF",
           "package": "star-to-star",
@@ -930,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "onF",
           "normalized": "((a b-\u003ec b)-\u003ed)-\u003eF a c b-\u003ed",
@@ -944,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "onFlip",
           "package": "star-to-star",
@@ -953,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "onFlip",
           "normalized": "(a b c d-\u003ee)-\u003eFlip a c b d-\u003ee",
@@ -968,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "onI",
           "package": "star-to-star",
@@ -977,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "onI",
           "normalized": "(a-\u003eb)-\u003eI a-\u003eb",
@@ -991,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "onK",
           "package": "star-to-star",
@@ -1000,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "onK",
           "normalized": "((a-\u003eb)-\u003ec)-\u003eK b a-\u003ec",
@@ -1014,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "onO",
           "package": "star-to-star",
@@ -1023,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "onO",
           "normalized": "(a(b c)-\u003ed)-\u003eO a b c-\u003ed",
@@ -1037,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "onP",
           "package": "star-to-star",
@@ -1046,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "onP",
           "normalized": "((a b,c b)-\u003ed)-\u003eP a c b-\u003ed",
@@ -1060,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "onS",
           "package": "star-to-star",
@@ -1069,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "onS",
           "normalized": "(Either(a b)(c b)-\u003ed)-\u003eS a c b-\u003ed",
@@ -1083,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "onS'",
           "package": "star-to-star",
@@ -1092,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "onS'",
           "normalized": "(a b-\u003ec)-\u003e(d b-\u003ec)-\u003eS a d b-\u003ec",
@@ -1107,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "toC",
           "package": "star-to-star",
@@ -1116,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "toC",
           "normalized": "a-\u003eC a b",
@@ -1130,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "toE",
           "package": "star-to-star",
@@ -1139,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "toE",
           "normalized": "(a-\u003eb)-\u003eE a b",
@@ -1153,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "toF",
           "package": "star-to-star",
@@ -1162,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "toF",
           "normalized": "(a b-\u003ec b)-\u003eF a c b",
@@ -1176,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "toFix",
           "package": "star-to-star",
@@ -1185,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "toFix",
           "normalized": "a(Fix a)b-\u003eFix a b",
@@ -1200,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "toFlip",
           "package": "star-to-star",
@@ -1209,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "toFlip",
           "normalized": "a b c d-\u003eFlip a c b d",
@@ -1224,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "toI",
           "package": "star-to-star",
@@ -1233,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "toI",
           "normalized": "a-\u003eI a",
@@ -1247,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "toK",
           "package": "star-to-star",
@@ -1256,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "toK",
           "normalized": "(a-\u003eb)-\u003eK b a",
@@ -1270,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "toO",
           "package": "star-to-star",
@@ -1279,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "toO",
           "normalized": "a(b c)-\u003eO a b c",
@@ -1293,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "toP",
           "package": "star-to-star",
@@ -1302,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "toP",
           "normalized": "(a b,c b)-\u003eP a c b",
@@ -1316,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "toS",
           "package": "star-to-star",
@@ -1325,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "toS",
           "normalized": "Either(a b)(c b)-\u003eS a c b",
@@ -1339,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "underC",
           "package": "star-to-star",
@@ -1348,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "underC",
           "normalized": "(a-\u003eb)-\u003eC a c-\u003eC b d",
@@ -1362,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "underE",
           "package": "star-to-star",
@@ -1371,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "underE",
           "normalized": "((a-\u003eb)-\u003ec-\u003ed)-\u003eE a b-\u003eE c d",
@@ -1385,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "underF",
           "package": "star-to-star",
@@ -1394,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "underF",
           "normalized": "((a b-\u003ec b)-\u003ed e-\u003ef e)-\u003eF a c b-\u003eF d f e",
@@ -1408,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "underFix",
           "package": "star-to-star",
@@ -1417,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "underFix",
           "normalized": "(a(Fix a)b-\u003ec(Fix c)d)-\u003eFix a b-\u003eFix c d",
@@ -1432,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "underFlip",
           "package": "star-to-star",
@@ -1441,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "underFlip",
           "normalized": "(a b c d-\u003ee f g h)-\u003eFlip a c b d-\u003eFlip e g f h",
@@ -1456,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "underI",
           "package": "star-to-star",
@@ -1465,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "underI",
           "normalized": "(a-\u003eb)-\u003eI a-\u003eI b",
@@ -1479,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "underK",
           "package": "star-to-star",
@@ -1488,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "underK",
           "normalized": "((a-\u003eb)-\u003ec-\u003ed)-\u003eK b a-\u003eK d c",
@@ -1502,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "underO",
           "package": "star-to-star",
@@ -1511,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "underO",
           "normalized": "(a(b c)-\u003ed(e f))-\u003eO a b c-\u003eO d e f",
@@ -1525,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "underP",
           "package": "star-to-star",
@@ -1534,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "underP",
           "normalized": "((a b,c b)-\u003e(d e,f e))-\u003eP a c b-\u003eP d f e",
@@ -1548,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:36 UTC 2014",
           "module": "Data.StarToStar",
           "name": "underS",
           "package": "star-to-star",
@@ -1557,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar",
+          "indexed": "2014-03-11T20:09:36",
           "module": "Data.StarToStar",
           "name": "underS",
           "normalized": "(Either(a b)(c b)-\u003eEither(d e)(f e))-\u003eS a c b-\u003eS d f e",

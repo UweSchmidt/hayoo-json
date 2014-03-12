@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "parse-dimacs"
+        "phrase": "parse-dimacs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple module for parsing CNF files in DIMACS format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:40 UTC 2014",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "ParseDIMACS",
           "package": "parse-dimacs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple module for parsing CNF files in DIMACS format",
           "hierarchy": "Language CNF Parse ParseDIMACS",
+          "indexed": "2014-03-11T19:34:40",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "ParseDIMACS",
           "package": "parse-dimacs",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:40 UTC 2014",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "CNF",
           "package": "parse-dimacs",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Language CNF Parse ParseDIMACS",
+          "indexed": "2014-03-11T19:34:40",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "CNF",
           "package": "parse-dimacs",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:40 UTC 2014",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "Clause",
           "package": "parse-dimacs",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Language CNF Parse ParseDIMACS",
+          "indexed": "2014-03-11T19:34:40",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "Clause",
           "package": "parse-dimacs",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:40 UTC 2014",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "CNF",
           "package": "parse-dimacs",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Language CNF Parse ParseDIMACS",
+          "indexed": "2014-03-11T19:34:40",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "CNF",
           "package": "parse-dimacs",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:40 UTC 2014",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "clauses",
           "package": "parse-dimacs",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Language CNF Parse ParseDIMACS",
+          "indexed": "2014-03-11T19:34:40",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "clauses",
           "normalized": "[Clause]",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of clauses in the problem as reported by the cnf header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:40 UTC 2014",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "numClauses",
           "package": "parse-dimacs",
@@ -139,6 +150,7 @@
         "index": {
           "description": "The number of clauses in the problem as reported by the cnf header",
           "hierarchy": "Language CNF Parse ParseDIMACS",
+          "indexed": "2014-03-11T19:34:40",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "numClauses",
           "package": "parse-dimacs",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of variables in the problem as reported by the cnf header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:40 UTC 2014",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "numVars",
           "package": "parse-dimacs",
@@ -163,6 +176,7 @@
         "index": {
           "description": "The number of variables in the problem as reported by the cnf header",
           "hierarchy": "Language CNF Parse ParseDIMACS",
+          "indexed": "2014-03-11T19:34:40",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "numVars",
           "package": "parse-dimacs",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a byte string containing DIMACS CNF data.  The source name is only\n | used in error messages and may be the empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:40 UTC 2014",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "parseByteString",
           "package": "parse-dimacs",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Parse byte string containing DIMACS CNF data The source name is only used in error messages and may be the empty string",
           "hierarchy": "Language CNF Parse ParseDIMACS",
+          "indexed": "2014-03-11T19:34:40",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "parseByteString",
           "normalized": "SourceName-\u003eByteString-\u003eEither ParseError CNF",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a file containing DIMACS CNF data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:40 UTC 2014",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "parseFile",
           "package": "parse-dimacs",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Parse file containing DIMACS CNF data",
           "hierarchy": "Language CNF Parse ParseDIMACS",
+          "indexed": "2014-03-11T19:34:40",
           "module": "Language.CNF.Parse.ParseDIMACS",
           "name": "parseFile",
           "normalized": "FilePath-\u003eIO(Either ParseError CNF)",

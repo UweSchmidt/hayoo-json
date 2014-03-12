@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "event-driven"
+        "phrase": "event-driven",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:17 UTC 2014",
           "module": "Control.EventDriven",
           "name": "EventDriven",
           "package": "event-driven",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control EventDriven",
+          "indexed": "2014-03-11T18:04:17",
           "module": "Control.EventDriven",
           "name": "EventDriven",
           "package": "event-driven",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:17 UTC 2014",
           "module": "Control.EventDriven",
           "name": "EventMonad",
           "package": "event-driven",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control EventDriven",
+          "indexed": "2014-03-11T18:04:17",
           "module": "Control.EventDriven",
           "name": "EventMonad",
           "package": "event-driven",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:17 UTC 2014",
           "module": "Control.EventDriven",
           "name": "EventState",
           "package": "event-driven",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control EventDriven",
+          "indexed": "2014-03-11T18:04:17",
           "module": "Control.EventDriven",
           "name": "EventState",
           "package": "event-driven",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:17 UTC 2014",
           "module": "Control.EventDriven",
           "name": "bind",
           "package": "event-driven",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Control EventDriven",
+          "indexed": "2014-03-11T18:04:17",
           "module": "Control.EventDriven",
           "name": "bind",
           "normalized": "(a-\u003eEventMonad a b())-\u003eEventMonad a b()",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:17 UTC 2014",
           "module": "Control.EventDriven",
           "name": "copyContainer",
           "package": "event-driven",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Control EventDriven",
+          "indexed": "2014-03-11T18:04:17",
           "module": "Control.EventDriven",
           "name": "copyContainer",
           "normalized": "EventMonad a b()",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:17 UTC 2014",
           "module": "Control.EventDriven",
           "name": "delegate",
           "package": "event-driven",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Control EventDriven",
+          "indexed": "2014-03-11T18:04:17",
           "module": "Control.EventDriven",
           "name": "delegate",
           "normalized": "EventMonad a b()",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:17 UTC 2014",
           "module": "Control.EventDriven",
           "name": "getEventValue",
           "package": "event-driven",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Control EventDriven",
+          "indexed": "2014-03-11T18:04:17",
           "module": "Control.EventDriven",
           "name": "getEventValue",
           "normalized": "EventState a b-\u003eb",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:17 UTC 2014",
           "module": "Control.EventDriven",
           "name": "initEvent",
           "package": "event-driven",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Control EventDriven",
+          "indexed": "2014-03-11T18:04:17",
           "module": "Control.EventDriven",
           "name": "initEvent",
           "normalized": "a-\u003e(b-\u003eEventMonad b a())-\u003eEventState b a",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:17 UTC 2014",
           "module": "Control.EventDriven",
           "name": "putEvent",
           "package": "event-driven",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Control EventDriven",
+          "indexed": "2014-03-11T18:04:17",
           "module": "Control.EventDriven",
           "name": "putEvent",
           "normalized": "(a-\u003eb a)-\u003eTalker c a-\u003ec-\u003eb(Maybe(Talker c a))",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:17 UTC 2014",
           "module": "Control.EventDriven",
           "name": "removeContainer",
           "package": "event-driven",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Control EventDriven",
+          "indexed": "2014-03-11T18:04:17",
           "module": "Control.EventDriven",
           "name": "removeContainer",
           "normalized": "EventMonad a b()",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:17 UTC 2014",
           "module": "Control.EventDriven",
           "name": "runEvent",
           "package": "event-driven",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Control EventDriven",
+          "indexed": "2014-03-11T18:04:17",
           "module": "Control.EventDriven",
           "name": "runEvent",
           "normalized": "a-\u003eEventMonad a b()",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:17 UTC 2014",
           "module": "Control.EventDriven",
           "name": "unbind",
           "package": "event-driven",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Control EventDriven",
+          "indexed": "2014-03-11T18:04:17",
           "module": "Control.EventDriven",
           "name": "unbind",
           "normalized": "EventMonad a b()",

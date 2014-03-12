@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FerryCore"
+        "phrase": "FerryCore",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe compiler interface\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Compiler",
           "package": "FerryCore",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The compiler interface",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Compiler",
           "package": "FerryCore",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Artefact",
           "package": "FerryCore",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Artefact",
           "package": "FerryCore",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe results of artefact generation are all collected in a reader monad\n The final result is written to disk or screen when compilation has succeeded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "ArtefactResult",
           "package": "FerryCore",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The results of artefact generation are all collected in reader monad The final result is written to disk or screen when compilation has succeeded",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "ArtefactResult",
           "package": "FerryCore",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompilationstep datatype.\n A compilation step is a record containg a description (stageName field),\n the internal mode name (stageMode field),\n the actual stage computation (stageStep field) that transforms element of type a into a PhaseResult of type b\n and stage artefact generators, a list of function generating artefacts (stageArtefacts field).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "CompilationStep",
           "package": "FerryCore",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Compilationstep datatype compilation step is record containg description stageName field the internal mode name stageMode field the actual stage computation stageStep field that transforms element of type into PhaseResult of type and stage artefact generators list of function generating artefacts stageArtefacts field",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "CompilationStep",
           "package": "FerryCore",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe config datatype is used to store program flags given by the user \n   The compiler can be put in a \u003ccode\u003e\u003ca\u003eMode\u003c/a\u003e\u003c/code\u003e that determines what sort of\n   result the compilation process will result in.\n   The \u003ccode\u003e\u003ca\u003eInput\u003c/a\u003e\u003c/code\u003e element is set to specify whether a file should be compiled or \n   input from the stdin\n   The debug component is set to switch on debugging mode, debugging mode\n   results in log information on the stdin and possibly extra compiler artifacts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Config",
           "package": "FerryCore",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The config datatype is used to store program flags given by the user The compiler can be put in Mode that determines what sort of result the compilation process will result in The Input element is set to specify whether file should be compiled or input from the stdin The debug component is set to switch on debugging mode debugging mode results in log information on the stdin and possibly extra compiler artifacts",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Config",
           "package": "FerryCore",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe FerryError datatype represents errors that occur during compilation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "FerryError",
           "package": "FerryCore",
@@ -141,6 +152,7 @@
         "index": {
           "description": "The FerryError datatype represents errors that occur during compilation",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "FerryError",
           "package": "FerryCore",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArtefact file, the first element represents the output file, in case of nothing output is given\n on stdout. The second component is the file content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "File",
           "package": "FerryCore",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Artefact file the first element represents the output file in case of nothing output is given on stdout The second component is the file content",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "File",
           "package": "FerryCore",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of an artefact file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "FileName",
           "package": "FerryCore",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Name of an artefact file",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "FileName",
           "package": "FerryCore",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe input mode determines whether the source program is given through a file or via stdin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Input",
           "package": "FerryCore",
@@ -210,6 +227,7 @@
         "index": {
           "description": "The input mode determines whether the source program is given through file or via stdin",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Input",
           "package": "FerryCore",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compilation log is just a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Log",
           "package": "FerryCore",
@@ -233,6 +252,7 @@
         "index": {
           "description": "The compilation log is just string",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Log",
           "package": "FerryCore",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe modes that are supported by the compiler.\n   run ferryc -h to see a list of all options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Mode",
           "package": "FerryCore",
@@ -256,6 +277,7 @@
         "index": {
           "description": "The modes that are supported by the compiler run ferryc to see list of all options",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Mode",
           "package": "FerryCore",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonym for a stage name type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Name",
           "package": "FerryCore",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Type synonym for stage name type",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Name",
           "package": "FerryCore",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of a compilation phase.\n The error monad is used in case something went wrong during compilation\n The first writer monad is used for logging purposes.\n The second writer monad is used to store the artefacts generated by the compiler\n And the reader monad stores the compiler configuration              \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "PhaseResult",
           "package": "FerryCore",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Result of compilation phase The error monad is used in case something went wrong during compilation The first writer monad is used for logging purposes The second writer monad is used to store the artefacts generated by the compiler And the reader monad stores the compiler configuration",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "PhaseResult",
           "package": "FerryCore",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery stage has a stage number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Stage",
           "package": "FerryCore",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Every stage has stage number",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Stage",
           "package": "FerryCore",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Algebra",
           "package": "FerryCore",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Algebra",
           "package": "FerryCore",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "AlgebraXML",
           "package": "FerryCore",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "AlgebraXML",
           "package": "FerryCore",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument mode, the program is given as input directly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Arg",
           "package": "FerryCore",
@@ -393,6 +426,7 @@
         "index": {
           "description": "Argument mode the program is given as input directly",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Arg",
           "package": "FerryCore",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Boxing",
           "package": "FerryCore",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Boxing",
           "package": "FerryCore",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "ClassAlreadyDefinedError",
           "package": "FerryCore",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "ClassAlreadyDefinedError",
           "package": "FerryCore",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "ClassNotDefined",
           "package": "FerryCore",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "ClassNotDefined",
           "package": "FerryCore",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "CompilationStep",
           "package": "FerryCore",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "CompilationStep",
           "package": "FerryCore",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Config",
           "package": "FerryCore",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Config",
           "package": "FerryCore",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "DotAST",
           "package": "FerryCore",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "DotAST",
           "package": "FerryCore",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "DotAlg",
           "package": "FerryCore",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "DotAlg",
           "package": "FerryCore",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "DotBox",
           "package": "FerryCore",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "DotBox",
           "package": "FerryCore",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "DotCore",
           "package": "FerryCore",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "DotCore",
           "package": "FerryCore",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "DotRewrite",
           "package": "FerryCore",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "DotRewrite",
           "package": "FerryCore",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "DotType",
           "package": "FerryCore",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "DotType",
           "package": "FerryCore",
@@ -649,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEcho mode prints the given input to the console\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Echo",
           "package": "FerryCore",
@@ -659,6 +716,7 @@
         "index": {
           "description": "Echo mode prints the given input to the console",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Echo",
           "package": "FerryCore",
@@ -673,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile mode, the program is read from a file \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "File",
           "package": "FerryCore",
@@ -683,6 +742,7 @@
         "index": {
           "description": "File mode the program is read from file",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "File",
           "package": "FerryCore",
@@ -696,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "NoSuchFile",
           "package": "FerryCore",
@@ -705,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "NoSuchFile",
           "package": "FerryCore",
@@ -718,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Normalise",
           "package": "FerryCore",
@@ -727,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Normalise",
           "package": "FerryCore",
@@ -740,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "NotARecordType",
           "package": "FerryCore",
@@ -749,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "NotARecordType",
           "package": "FerryCore",
@@ -762,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "OpRewrite",
           "package": "FerryCore",
@@ -771,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "OpRewrite",
           "package": "FerryCore",
@@ -785,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse mode will stop the compiler after the parsing phase\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Parse",
           "package": "FerryCore",
@@ -795,6 +864,7 @@
         "index": {
           "description": "Parse mode will stop the compiler after the parsing phase",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Parse",
           "package": "FerryCore",
@@ -808,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "ParserError",
           "package": "FerryCore",
@@ -817,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "ParserError",
           "package": "FerryCore",
@@ -831,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty mode parses the given input and pretty prints the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "PrettyAST",
           "package": "FerryCore",
@@ -841,6 +914,7 @@
         "index": {
           "description": "Pretty mode parses the given input and pretty prints the result",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "PrettyAST",
           "package": "FerryCore",
@@ -854,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "PrettyCore",
           "package": "FerryCore",
@@ -863,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "PrettyCore",
           "package": "FerryCore",
@@ -876,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "PrettyNormalAST",
           "package": "FerryCore",
@@ -885,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "PrettyNormalAST",
           "package": "FerryCore",
@@ -898,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "ProcessComplete",
           "package": "FerryCore",
@@ -907,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "ProcessComplete",
           "package": "FerryCore",
@@ -920,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Read",
           "package": "FerryCore",
@@ -929,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Read",
           "package": "FerryCore",
@@ -942,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "RecordDuplicateFields",
           "package": "FerryCore",
@@ -951,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "RecordDuplicateFields",
           "normalized": "RecordDuplicateFields(Maybe String)[(RLabel,FType)]",
@@ -966,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "RecordWithoutI",
           "package": "FerryCore",
@@ -975,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "RecordWithoutI",
           "package": "FerryCore",
@@ -988,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "SuperClassNotDefined",
           "package": "FerryCore",
@@ -997,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "SuperClassNotDefined",
           "normalized": "SuperClassNotDefined String[String]",
@@ -1012,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Transform",
           "package": "FerryCore",
@@ -1021,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Transform",
           "package": "FerryCore",
@@ -1034,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "Type",
           "package": "FerryCore",
@@ -1043,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "Type",
           "package": "FerryCore",
@@ -1056,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "TypeInfer",
           "package": "FerryCore",
@@ -1065,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "TypeInfer",
           "package": "FerryCore",
@@ -1078,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "UnificationError",
           "package": "FerryCore",
@@ -1087,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "UnificationError",
           "package": "FerryCore",
@@ -1100,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "UnificationFail",
           "package": "FerryCore",
@@ -1109,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "UnificationFail",
           "package": "FerryCore",
@@ -1122,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "UnificationOfRecordFieldsFailed",
           "package": "FerryCore",
@@ -1131,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "UnificationOfRecordFieldsFailed",
           "package": "FerryCore",
@@ -1144,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "UnificationRecError",
           "package": "FerryCore",
@@ -1153,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "UnificationRecError",
           "normalized": "UnificationRecError[(RLabel,FType)][(RLabel,FType)]",
@@ -1168,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "XML",
           "package": "FerryCore",
@@ -1177,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "XML",
           "package": "FerryCore",
@@ -1191,6 +1295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the given file with contents to the phaseresult.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "addFile",
           "package": "FerryCore",
@@ -1201,6 +1306,7 @@
         "index": {
           "description": "Add the given file with contents to the phaseresult",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "addFile",
           "normalized": "Maybe FileName-\u003eString-\u003ePhaseResult()",
@@ -1216,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "algebraPhase",
           "package": "FerryCore",
@@ -1225,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "algebraPhase",
           "normalized": "CoreExpr-\u003ePhaseResult(Qual FType,AlgPlan AlgRes)",
@@ -1240,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "allArtefacts",
           "package": "FerryCore",
@@ -1249,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "allArtefacts",
           "normalized": "[Artefact]",
@@ -1264,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "artefact",
           "package": "FerryCore",
@@ -1273,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "artefact",
           "normalized": "[Artefact]",
@@ -1288,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift the result of generating an artefact into the overall phase result type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "artefactToPhaseResult",
           "package": "FerryCore",
@@ -1298,6 +1411,7 @@
         "index": {
           "description": "Lift the result of generating an artefact into the overall phase result type",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "artefactToPhaseResult",
           "normalized": "ArtefactResult-\u003ePhaseResult String",
@@ -1314,6 +1428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compiler pipeline. The given Core AST is transformed dependent on the configuration of the Phaseresult\n   monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "backEndPipeline",
           "package": "FerryCore",
@@ -1324,6 +1439,7 @@
         "index": {
           "description": "The compiler pipeline The given Core AST is transformed dependent on the configuration of the Phaseresult monad",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "backEndPipeline",
           "normalized": "CoreExpr-\u003ePhaseResult()",
@@ -1340,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe compiler pipeline. Some tools might already provide a typed AST, is the same as the normal backEndPipeline\n without type inferencing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "backEndPipeline'",
           "package": "FerryCore",
@@ -1350,6 +1467,7 @@
         "index": {
           "description": "The compiler pipeline Some tools might already provide typed AST is the same as the normal backEndPipeline without type inferencing",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "backEndPipeline'",
           "normalized": "CoreExpr-\u003ePhaseResult()",
@@ -1365,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "boxingPhase",
           "package": "FerryCore",
@@ -1374,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "boxingPhase",
           "normalized": "CoreExpr-\u003ePhaseResult CoreExpr",
@@ -1389,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "debug",
           "package": "FerryCore",
@@ -1398,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "debug",
           "package": "FerryCore",
@@ -1411,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default configuration for the compiler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "defaultConfig",
           "package": "FerryCore",
@@ -1421,6 +1544,7 @@
         "index": {
           "description": "The default configuration for the compiler",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "defaultConfig",
           "package": "FerryCore",
@@ -1435,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinal log message when end of compilation is reached\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "endProcess",
           "package": "FerryCore",
@@ -1445,6 +1570,7 @@
         "index": {
           "description": "Final log message when end of compilation is reached",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "endProcess",
           "package": "FerryCore",
@@ -1459,6 +1585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a compilation step to an expression of type a. The result of type b is returned in a phaseresult monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "executeStep",
           "package": "FerryCore",
@@ -1469,6 +1596,7 @@
         "index": {
           "description": "Apply compilation step to an expression of type The result of type is returned in phaseresult monad",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "executeStep",
           "normalized": "CompilationStep a b-\u003ea-\u003ePhaseResult b",
@@ -1485,6 +1613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the compiler configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "getConfig",
           "package": "FerryCore",
@@ -1495,6 +1624,7 @@
         "index": {
           "description": "Get the compiler configuration",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "getConfig",
           "package": "FerryCore",
@@ -1509,6 +1639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the artefacts from the phaseresult            \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "getFiles",
           "package": "FerryCore",
@@ -1519,6 +1650,7 @@
         "index": {
           "description": "Get the artefacts from the phaseresult",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "getFiles",
           "normalized": "Config-\u003ePhaseResult a-\u003e[File]",
@@ -1535,6 +1667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current log from a phaseresult\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "getLog",
           "package": "FerryCore",
@@ -1545,6 +1678,7 @@
         "index": {
           "description": "Get the current log from phaseresult",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "getLog",
           "normalized": "Config-\u003ePhaseResult a-\u003eLog",
@@ -1561,6 +1695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint an error message    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "handleError",
           "package": "FerryCore",
@@ -1571,6 +1706,7 @@
         "index": {
           "description": "Print an error message",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "handleError",
           "normalized": "FerryError-\u003eIO()",
@@ -1586,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "input",
           "package": "FerryCore",
@@ -1595,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "input",
           "package": "FerryCore",
@@ -1608,6 +1746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeperator line for logging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "line",
           "package": "FerryCore",
@@ -1618,6 +1757,7 @@
         "index": {
           "description": "Seperator line for logging",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "line",
           "package": "FerryCore",
@@ -1630,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "logFile",
           "package": "FerryCore",
@@ -1639,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "logFile",
           "package": "FerryCore",
@@ -1653,6 +1795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog the message t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "logMsg",
           "package": "FerryCore",
@@ -1663,6 +1806,7 @@
         "index": {
           "description": "Log the message",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "logMsg",
           "normalized": "a-\u003eb()",
@@ -1678,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "mode",
           "package": "FerryCore",
@@ -1687,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "mode",
           "package": "FerryCore",
@@ -1700,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "newError",
           "package": "FerryCore",
@@ -1710,6 +1857,7 @@
         "index": {
           "description": "Throw an error",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "newError",
           "normalized": "FerryError-\u003ePhaseResult a",
@@ -1725,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "output",
           "package": "FerryCore",
@@ -1734,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "output",
           "package": "FerryCore",
@@ -1746,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "rewritePhase",
           "package": "FerryCore",
@@ -1755,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "rewritePhase",
           "normalized": "CoreExpr-\u003ePhaseResult CoreExpr",
@@ -1771,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a phaseresult under a given configuration,, resulting in triple of:\n 1.) An error or the result\n 2.) The compilation log\n 3.) The generated artefacts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "runPhase",
           "package": "FerryCore",
@@ -1781,6 +1934,7 @@
         "index": {
           "description": "Execute phaseresult under given configuration resulting in triple of An error or the result The compilation log The generated artefacts",
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "runPhase",
           "normalized": "Config-\u003ePhaseResult a-\u003e(Either FerryError a,Log,[File])",
@@ -1796,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "stageArtefacts",
           "package": "FerryCore",
@@ -1805,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "stageArtefacts",
           "normalized": "[(Artefact,String,a-\u003eArtefactResult)]",
@@ -1820,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "stageMode",
           "package": "FerryCore",
@@ -1829,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "stageMode",
           "package": "FerryCore",
@@ -1842,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "stageName",
           "package": "FerryCore",
@@ -1851,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "stageName",
           "package": "FerryCore",
@@ -1864,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "stageStep",
           "package": "FerryCore",
@@ -1873,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "stageStep",
           "normalized": "a-\u003ePhaseResult b",
@@ -1888,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "typeInferPhase",
           "package": "FerryCore",
@@ -1897,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "typeInferPhase",
           "normalized": "CoreExpr-\u003ePhaseResult CoreExpr",
@@ -1912,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "typedCoreToAlgebra",
           "package": "FerryCore",
@@ -1921,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "typedCoreToAlgebra",
           "normalized": "CoreExpr-\u003eString",
@@ -1936,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Compiler",
           "name": "xmlPhase",
           "package": "FerryCore",
@@ -1945,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Compiler",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Compiler",
           "name": "xmlPhase",
           "normalized": "(Qual FType,AlgPlan AlgRes)-\u003ePhaseResult String",
@@ -1961,6 +2129,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEverything related to untyped core \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Syntax",
           "package": "FerryCore",
@@ -1970,6 +2139,7 @@
         "index": {
           "description": "Everything related to untyped core",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Syntax",
           "package": "FerryCore",
@@ -1984,6 +2154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatabase table column\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Column",
           "package": "FerryCore",
@@ -1993,6 +2164,7 @@
         "index": {
           "description": "Database table column",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Column",
           "package": "FerryCore",
@@ -2007,6 +2179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Const",
           "package": "FerryCore",
@@ -2016,6 +2189,7 @@
         "index": {
           "description": "Constant values",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Const",
           "package": "FerryCore",
@@ -2030,6 +2204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype for building untyped core ASTs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "CoreExpr",
           "package": "FerryCore",
@@ -2039,6 +2214,7 @@
         "index": {
           "description": "Datatype for building untyped core ASTs",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "CoreExpr",
           "package": "FerryCore",
@@ -2053,6 +2229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for transforming values into either an error or a string representing a dot file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Dotify",
           "package": "FerryCore",
@@ -2062,6 +2239,7 @@
         "index": {
           "description": "Class for transforming values into either an error or string representing dot file",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Dotify",
           "package": "FerryCore",
@@ -2076,6 +2254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identifier is represented by a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Ident",
           "package": "FerryCore",
@@ -2085,6 +2264,7 @@
         "index": {
           "description": "An identifier is represented by string",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Ident",
           "package": "FerryCore",
@@ -2099,6 +2279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifiers are represented as strings    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Identifier",
           "package": "FerryCore",
@@ -2108,6 +2289,7 @@
         "index": {
           "description": "Identifiers are represented as strings",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Identifier",
           "package": "FerryCore",
@@ -2122,6 +2304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatabase table key    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Key",
           "package": "FerryCore",
@@ -2131,6 +2314,7 @@
         "index": {
           "description": "Database table key",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Key",
           "package": "FerryCore",
@@ -2145,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Op",
           "package": "FerryCore",
@@ -2154,6 +2339,7 @@
         "index": {
           "description": "Operator constructor",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Op",
           "package": "FerryCore",
@@ -2168,6 +2354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction arguments\n In future, that is when defunctionalisation is implemented function arguments should just be expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Param",
           "package": "FerryCore",
@@ -2177,6 +2364,7 @@
         "index": {
           "description": "Function arguments In future that is when defunctionalisation is implemented function arguments should just be expressions",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Param",
           "package": "FerryCore",
@@ -2191,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for pretty printing a value of a.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Pretty",
           "package": "FerryCore",
@@ -2200,6 +2389,7 @@
         "index": {
           "description": "Class for pretty printing value of",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Pretty",
           "package": "FerryCore",
@@ -2214,6 +2404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "RecElem",
           "package": "FerryCore",
@@ -2223,6 +2414,7 @@
         "index": {
           "description": "Record elements",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "RecElem",
           "package": "FerryCore",
@@ -2237,6 +2429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatabase column type    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Type",
           "package": "FerryCore",
@@ -2246,6 +2439,7 @@
         "index": {
           "description": "Database column type",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Type",
           "package": "FerryCore",
@@ -2260,6 +2454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for extracting all variables that occur in a value of type a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "VarContainer",
           "package": "FerryCore",
@@ -2269,6 +2464,7 @@
         "index": {
           "description": "Type class for extracting all variables that occur in value of type",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "VarContainer",
           "package": "FerryCore",
@@ -2282,6 +2478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "App",
           "package": "FerryCore",
@@ -2291,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "App",
           "normalized": "CoreExpr-\u003eParam-\u003eCoreExpr",
@@ -2306,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "BinOp",
           "package": "FerryCore",
@@ -2315,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "BinOp",
           "normalized": "Op-\u003eCoreExpr-\u003eCoreExpr-\u003eCoreExpr",
@@ -2445,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Column",
           "package": "FerryCore",
@@ -2454,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Column",
           "normalized": "String-\u003eType-\u003eColumn",
@@ -2469,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Cons",
           "package": "FerryCore",
@@ -2478,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Cons",
           "normalized": "CoreExpr-\u003eCoreExpr-\u003eCoreExpr",
@@ -2493,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Constant",
           "package": "FerryCore",
@@ -2502,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Constant",
           "normalized": "Const-\u003eCoreExpr",
@@ -2517,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Elem",
           "package": "FerryCore",
@@ -2526,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Elem",
           "normalized": "CoreExpr-\u003eString-\u003eCoreExpr",
@@ -2541,6 +2749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "If",
           "package": "FerryCore",
@@ -2550,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "If",
           "normalized": "CoreExpr-\u003eCoreExpr-\u003eCoreExpr-\u003eCoreExpr",
@@ -2565,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Key",
           "package": "FerryCore",
@@ -2574,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Key",
           "normalized": "[String]-\u003eKey",
@@ -2589,6 +2801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Let",
           "package": "FerryCore",
@@ -2598,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Let",
           "normalized": "String-\u003eCoreExpr-\u003eCoreExpr-\u003eCoreExpr",
@@ -2613,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Nil",
           "package": "FerryCore",
@@ -2622,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Nil",
           "package": "FerryCore",
@@ -2635,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Op",
           "package": "FerryCore",
@@ -2644,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Op",
           "normalized": "String-\u003eOp",
@@ -2659,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "ParAbstr",
           "package": "FerryCore",
@@ -2668,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "ParAbstr",
           "normalized": "[String]-\u003eCoreExpr-\u003eParam",
@@ -2683,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "ParExpr",
           "package": "FerryCore",
@@ -2692,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "ParExpr",
           "normalized": "CoreExpr-\u003eParam",
@@ -2707,6 +2929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Rec",
           "package": "FerryCore",
@@ -2716,6 +2939,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Rec",
           "normalized": "[RecElem]-\u003eCoreExpr",
@@ -2731,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "RecElem",
           "package": "FerryCore",
@@ -2740,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "RecElem",
           "normalized": "String-\u003eCoreExpr-\u003eRecElem",
@@ -2755,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "TBool",
           "package": "FerryCore",
@@ -2764,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "TBool",
           "package": "FerryCore",
@@ -2777,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "TFloat",
           "package": "FerryCore",
@@ -2786,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "TFloat",
           "package": "FerryCore",
@@ -2799,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "TInt",
           "package": "FerryCore",
@@ -2808,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "TInt",
           "package": "FerryCore",
@@ -2821,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "TString",
           "package": "FerryCore",
@@ -2830,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "TString",
           "package": "FerryCore",
@@ -2843,6 +3077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "TUnit",
           "package": "FerryCore",
@@ -2852,6 +3087,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "TUnit",
           "package": "FerryCore",
@@ -2865,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Table",
           "package": "FerryCore",
@@ -2874,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Table",
           "normalized": "String-\u003e[Column]-\u003e[Key]-\u003eCoreExpr",
@@ -2889,6 +3127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "Var",
           "package": "FerryCore",
@@ -2898,6 +3137,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "Var",
           "normalized": "String-\u003eCoreExpr",
@@ -2913,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "dot",
           "package": "FerryCore",
@@ -2922,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "dot",
           "normalized": "a-\u003eEither FerryError String",
@@ -2937,6 +3179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print the values xs then intersperse with a comma and transform it into one string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "intersperseComma",
           "package": "FerryCore",
@@ -2947,6 +3190,7 @@
         "index": {
           "description": "Pretty print the values xs then intersperse with comma and transform it into one string",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "intersperseComma",
           "normalized": "[a]-\u003eInt-\u003eString",
@@ -2963,6 +3207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaps its first argument over the third, then intersperses\n the result with the second argument, and finally concatenates everything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "mapIntersperseConcat",
           "package": "FerryCore",
@@ -2973,6 +3218,7 @@
         "index": {
           "description": "maps its first argument over the third then intersperses the result with the second argument and finally concatenates everything",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "mapIntersperseConcat",
           "normalized": "(a-\u003e[b])-\u003e[b]-\u003e[a]-\u003e[b]",
@@ -2989,6 +3235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newline followed by indenting n positions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "newLine",
           "package": "FerryCore",
@@ -2999,6 +3246,7 @@
         "index": {
           "description": "newline followed by indenting positions",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "newLine",
           "normalized": "Int-\u003eString",
@@ -3015,6 +3263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epretty function transforms a value of a into a string with identation i.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "pretty",
           "package": "FerryCore",
@@ -3025,6 +3274,7 @@
         "index": {
           "description": "pretty function transforms value of into string with identation",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "pretty",
           "normalized": "a-\u003eInt-\u003eString",
@@ -3040,6 +3290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for pretty without the identation argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "prettyPrint",
           "package": "FerryCore",
@@ -3050,6 +3301,7 @@
         "index": {
           "description": "Shorthand for pretty without the identation argument",
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "prettyPrint",
           "normalized": "a-\u003eString",
@@ -3065,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.Syntax",
           "name": "vars",
           "package": "FerryCore",
@@ -3074,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry Syntax",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.Syntax",
           "name": "vars",
           "normalized": "a-\u003e[Identifier]",
@@ -3089,6 +3343,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEverything related to typed core\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "SyntaxTyped",
           "package": "FerryCore",
@@ -3098,6 +3353,7 @@
         "index": {
           "description": "Everything related to typed core",
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "SyntaxTyped",
           "package": "FerryCore",
@@ -3111,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Column",
           "package": "FerryCore",
@@ -3119,6 +3376,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Column",
           "package": "FerryCore",
@@ -3133,6 +3391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Const",
           "package": "FerryCore",
@@ -3142,6 +3401,7 @@
         "index": {
           "description": "Constant values",
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Const",
           "package": "FerryCore",
@@ -3155,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "CoreExpr",
           "package": "FerryCore",
@@ -3163,6 +3424,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "CoreExpr",
           "package": "FerryCore",
@@ -3177,6 +3439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for transforming values into either an error or a string representing a dot file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Dotify",
           "package": "FerryCore",
@@ -3186,6 +3449,7 @@
         "index": {
           "description": "Class for transforming values into either an error or string representing dot file",
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Dotify",
           "package": "FerryCore",
@@ -3200,6 +3464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType functions \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FTFn",
           "package": "FerryCore",
@@ -3209,6 +3474,7 @@
         "index": {
           "description": "Type functions",
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FTFn",
           "package": "FerryCore",
@@ -3223,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType language \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FType",
           "package": "FerryCore",
@@ -3232,6 +3499,7 @@
         "index": {
           "description": "Type language",
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FType",
           "package": "FerryCore",
@@ -3246,6 +3514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEverything that contains a type.   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "HasType",
           "package": "FerryCore",
@@ -3255,6 +3524,7 @@
         "index": {
           "description": "Everything that contains type",
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "HasType",
           "package": "FerryCore",
@@ -3268,6 +3538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Ident",
           "package": "FerryCore",
@@ -3276,6 +3547,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Ident",
           "package": "FerryCore",
@@ -3290,6 +3562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifiers are represented as strings    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Identifier",
           "package": "FerryCore",
@@ -3299,6 +3572,7 @@
         "index": {
           "description": "Identifiers are represented as strings",
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Identifier",
           "package": "FerryCore",
@@ -3312,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Key",
           "package": "FerryCore",
@@ -3320,6 +3595,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Key",
           "package": "FerryCore",
@@ -3333,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Op",
           "package": "FerryCore",
@@ -3341,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Op",
           "package": "FerryCore",
@@ -3354,6 +3632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Param",
           "package": "FerryCore",
@@ -3362,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Param",
           "package": "FerryCore",
@@ -3376,6 +3656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicates relating to records\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Pred",
           "package": "FerryCore",
@@ -3385,6 +3666,7 @@
         "index": {
           "description": "Predicates relating to records",
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Pred",
           "package": "FerryCore",
@@ -3399,6 +3681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA qualified type is a type with some predicates ([predicates] :=\u003e type)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Qual",
           "package": "FerryCore",
@@ -3408,6 +3691,7 @@
         "index": {
           "description": "qualified type is type with some predicates predicates type",
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Qual",
           "package": "FerryCore",
@@ -3422,6 +3706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage for record labels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "RLabel",
           "package": "FerryCore",
@@ -3431,6 +3716,7 @@
         "index": {
           "description": "Language for record labels",
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "RLabel",
           "package": "FerryCore",
@@ -3444,6 +3730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "RecElem",
           "package": "FerryCore",
@@ -3452,6 +3739,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "RecElem",
           "package": "FerryCore",
@@ -3466,6 +3754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type scheme represents a quantified type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "TyScheme",
           "package": "FerryCore",
@@ -3475,6 +3764,7 @@
         "index": {
           "description": "type scheme represents quantified type",
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "TyScheme",
           "package": "FerryCore",
@@ -3488,6 +3778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "(.-\u003e)",
           "package": "FerryCore",
@@ -3497,6 +3788,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "(.-\u003e) .-\u003e",
           "normalized": "FType-\u003eFType-\u003eFType",
@@ -3511,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": ":=\u003e",
           "package": "FerryCore",
@@ -3520,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": ":=\u003e",
           "normalized": "[Pred]-\u003ea-\u003eQual a",
@@ -3534,6 +3828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "App",
           "package": "FerryCore",
@@ -3543,6 +3838,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "App",
           "normalized": "Qual FType-\u003eCoreExpr-\u003eParam-\u003eCoreExpr",
@@ -3558,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "BinOp",
           "package": "FerryCore",
@@ -3567,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "BinOp",
           "normalized": "Qual FType-\u003eOp-\u003eCoreExpr-\u003eCoreExpr-\u003eCoreExpr",
@@ -3582,6 +3880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Column",
           "package": "FerryCore",
@@ -3591,6 +3890,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Column",
           "normalized": "String-\u003eFType-\u003eColumn",
@@ -3606,6 +3906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Cons",
           "package": "FerryCore",
@@ -3615,6 +3916,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Cons",
           "normalized": "Qual FType-\u003eCoreExpr-\u003eCoreExpr-\u003eCoreExpr",
@@ -3630,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Constant",
           "package": "FerryCore",
@@ -3639,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Constant",
           "normalized": "Qual FType-\u003eConst-\u003eCoreExpr",
@@ -3654,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Elem",
           "package": "FerryCore",
@@ -3663,6 +3968,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Elem",
           "normalized": "Qual FType-\u003eCoreExpr-\u003eString-\u003eCoreExpr",
@@ -3678,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FBool",
           "package": "FerryCore",
@@ -3687,6 +3994,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FBool",
           "package": "FerryCore",
@@ -3700,6 +4008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FFloat",
           "package": "FerryCore",
@@ -3709,6 +4018,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FFloat",
           "package": "FerryCore",
@@ -3722,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FFn",
           "package": "FerryCore",
@@ -3731,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FFn",
           "normalized": "FType-\u003eFType-\u003eFType",
@@ -3746,6 +4058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FGen",
           "package": "FerryCore",
@@ -3755,6 +4068,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FGen",
           "normalized": "Int-\u003eFType",
@@ -3770,6 +4084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FInt",
           "package": "FerryCore",
@@ -3779,6 +4094,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FInt",
           "package": "FerryCore",
@@ -3792,6 +4108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FList",
           "package": "FerryCore",
@@ -3801,6 +4118,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FList",
           "normalized": "FType-\u003eFType",
@@ -3816,6 +4134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FRec",
           "package": "FerryCore",
@@ -3825,6 +4144,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FRec",
           "normalized": "[(RLabel,FType)]-\u003eFType",
@@ -3840,6 +4160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FString",
           "package": "FerryCore",
@@ -3849,6 +4170,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FString",
           "package": "FerryCore",
@@ -3862,6 +4184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FTF",
           "package": "FerryCore",
@@ -3871,6 +4194,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FTF",
           "normalized": "FTFn-\u003eFType-\u003eFType",
@@ -3886,6 +4210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FUnit",
           "package": "FerryCore",
@@ -3895,6 +4220,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FUnit",
           "package": "FerryCore",
@@ -3908,6 +4234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FVar",
           "package": "FerryCore",
@@ -3917,6 +4244,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "FVar",
           "normalized": "Ident-\u003eFType",
@@ -3932,6 +4260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Forall",
           "package": "FerryCore",
@@ -3941,6 +4270,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Forall",
           "normalized": "TyGens-\u003eRecGens-\u003eQual FType-\u003eTyScheme",
@@ -3957,6 +4287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilaar to IsIn but now with a type for the name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Has",
           "package": "FerryCore",
@@ -3967,6 +4298,7 @@
         "index": {
           "description": "Similaar to IsIn but now with type for the name",
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Has",
           "package": "FerryCore",
@@ -3980,6 +4312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "If",
           "package": "FerryCore",
@@ -3989,6 +4322,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "If",
           "normalized": "Qual FType-\u003eCoreExpr-\u003eCoreExpr-\u003eCoreExpr-\u003eCoreExpr",
@@ -4005,6 +4339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename \u003ccode\u003e\u003ca\u003eIsIn\u003c/a\u003e\u003c/code\u003e t -\u003e t is a record (or type variable) that contains at least a field name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "IsIn",
           "package": "FerryCore",
@@ -4015,6 +4350,7 @@
         "index": {
           "description": "name IsIn is record or type variable that contains at least field name",
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "IsIn",
           "package": "FerryCore",
@@ -4028,6 +4364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Key",
           "package": "FerryCore",
@@ -4037,6 +4374,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Key",
           "normalized": "[String]-\u003eKey",
@@ -4052,6 +4390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Let",
           "package": "FerryCore",
@@ -4061,6 +4400,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Let",
           "normalized": "Qual FType-\u003eString-\u003eCoreExpr-\u003eCoreExpr-\u003eCoreExpr",
@@ -4076,6 +4416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Nil",
           "package": "FerryCore",
@@ -4085,6 +4426,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Nil",
           "normalized": "Qual FType-\u003eCoreExpr",
@@ -4100,6 +4442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Op",
           "package": "FerryCore",
@@ -4109,6 +4452,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Op",
           "normalized": "String-\u003eOp",
@@ -4124,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "ParAbstr",
           "package": "FerryCore",
@@ -4133,6 +4478,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "ParAbstr",
           "normalized": "Qual FType-\u003e[String]-\u003eCoreExpr-\u003eParam",
@@ -4148,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "ParExpr",
           "package": "FerryCore",
@@ -4157,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "ParExpr",
           "normalized": "Qual FType-\u003eCoreExpr-\u003eParam",
@@ -4172,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "RGen",
           "package": "FerryCore",
@@ -4181,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "RGen",
           "normalized": "Int-\u003eRLabel",
@@ -4196,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "RLabel",
           "package": "FerryCore",
@@ -4205,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "RLabel",
           "normalized": "String-\u003eRLabel",
@@ -4220,6 +4572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "RVar",
           "package": "FerryCore",
@@ -4229,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "RVar",
           "normalized": "String-\u003eRLabel",
@@ -4244,6 +4598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Rec",
           "package": "FerryCore",
@@ -4253,6 +4608,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Rec",
           "normalized": "Qual FType-\u003e[RecElem]-\u003eCoreExpr",
@@ -4268,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "RecElem",
           "package": "FerryCore",
@@ -4277,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "RecElem",
           "normalized": "Qual FType-\u003eString-\u003eCoreExpr-\u003eRecElem",
@@ -4292,6 +4650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Table",
           "package": "FerryCore",
@@ -4301,6 +4660,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Table",
           "normalized": "Qual FType-\u003eString-\u003e[Column]-\u003e[Key]-\u003eCoreExpr",
@@ -4316,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Tr",
           "package": "FerryCore",
@@ -4325,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Tr",
           "package": "FerryCore",
@@ -4338,6 +4700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Tr'",
           "package": "FerryCore",
@@ -4347,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Tr'",
           "package": "FerryCore",
@@ -4360,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Var",
           "package": "FerryCore",
@@ -4369,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "Var",
           "normalized": "Qual FType-\u003eString-\u003eCoreExpr",
@@ -4384,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "bool",
           "package": "FerryCore",
@@ -4393,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "bool",
           "package": "FerryCore",
@@ -4405,6 +4773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "dot",
           "package": "FerryCore",
@@ -4414,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "dot",
           "normalized": "a-\u003eEither FerryError String",
@@ -4428,6 +4798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "float",
           "package": "FerryCore",
@@ -4437,6 +4808,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "float",
           "package": "FerryCore",
@@ -4449,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "fn",
           "package": "FerryCore",
@@ -4458,6 +4831,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "fn",
           "normalized": "FType-\u003eFType-\u003eFType",
@@ -4472,6 +4846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "genT",
           "package": "FerryCore",
@@ -4481,6 +4856,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "genT",
           "normalized": "Int-\u003eFType",
@@ -4495,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "int",
           "package": "FerryCore",
@@ -4504,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "int",
           "package": "FerryCore",
@@ -4516,6 +4894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "list",
           "package": "FerryCore",
@@ -4525,6 +4904,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "list",
           "normalized": "FType-\u003eFType",
@@ -4539,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "rec",
           "package": "FerryCore",
@@ -4548,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "rec",
           "normalized": "[(RLabel,FType)]-\u003eFType",
@@ -4562,6 +4944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "string",
           "package": "FerryCore",
@@ -4571,6 +4954,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "string",
           "package": "FerryCore",
@@ -4583,6 +4967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "typeOf",
           "package": "FerryCore",
@@ -4592,6 +4977,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "typeOf",
           "normalized": "a-\u003eQual FType",
@@ -4607,6 +4993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:55 UTC 2014",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "var",
           "package": "FerryCore",
@@ -4616,6 +5003,7 @@
         },
         "index": {
           "hierarchy": "Database Ferry SyntaxTyped",
+          "indexed": "2014-03-11T16:40:55",
           "module": "Database.Ferry.SyntaxTyped",
           "name": "var",
           "normalized": "Ident-\u003eFType",

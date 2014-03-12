@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "antimirov"
+        "phrase": "antimirov",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "Regex",
           "package": "antimirov",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Regex",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "Regex",
           "package": "antimirov",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "Regex",
           "package": "antimirov",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Regex",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "Regex",
           "package": "antimirov",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "Empty",
           "package": "antimirov",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Regex",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "Empty",
           "package": "antimirov",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "Literal",
           "package": "antimirov",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Regex",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "Literal",
           "package": "antimirov",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "Or",
           "package": "antimirov",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Regex",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "Or",
           "package": "antimirov",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "Star",
           "package": "antimirov",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Regex",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "Star",
           "package": "antimirov",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "Then",
           "package": "antimirov",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Regex",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "Then",
           "package": "antimirov",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "nullable",
           "package": "antimirov",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Regex",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "nullable",
           "normalized": "Regex a-\u003eBool",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "toG",
           "package": "antimirov",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Regex",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Regex",
           "name": "toG",
           "normalized": "[a]-\u003eRegex a",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Simplify",
           "name": "Simplify",
           "package": "antimirov",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Simplify",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Simplify",
           "name": "Simplify",
           "package": "antimirov",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Simplify",
           "name": "getOr",
           "package": "antimirov",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Simplify",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Simplify",
           "name": "getOr",
           "normalized": "Regex a-\u003eSet(Regex a)",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Subtyping",
           "name": "Subtyping",
           "package": "antimirov",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Subtyping",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Subtyping",
           "name": "Subtyping",
           "package": "antimirov",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Subtyping",
           "name": "RegexSubtyping",
           "package": "antimirov",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Subtyping",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Subtyping",
           "name": "RegexSubtyping",
           "package": "antimirov",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Subtyping",
           "name": "(\u003c:)",
           "package": "antimirov",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Subtyping",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Subtyping",
           "name": "(\u003c:) \u003c:",
           "normalized": "Maybe(Regex a)-\u003eMaybe(Regex a)-\u003eBool",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Subtyping",
           "name": "literalSubtype",
           "package": "antimirov",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Subtyping",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Subtyping",
           "name": "literalSubtype",
           "normalized": "a-\u003ea-\u003eBool",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.Subtyping",
           "name": "match",
           "package": "antimirov",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov Subtyping",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.Subtyping",
           "name": "match",
           "normalized": "Maybe(Regex a)-\u003e[a]-\u003eBool",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.SubtypingList",
           "name": "SubtypingList",
           "package": "antimirov",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov SubtypingList",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.SubtypingList",
           "name": "SubtypingList",
           "package": "antimirov",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.SubtypingList",
           "name": "RegexSubtyping",
           "package": "antimirov",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov SubtypingList",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.SubtypingList",
           "name": "RegexSubtyping",
           "package": "antimirov",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.SubtypingList",
           "name": "(\u003c:)",
           "package": "antimirov",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov SubtypingList",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.SubtypingList",
           "name": "(\u003c:) \u003c:",
           "normalized": "Maybe(Regex a)-\u003eMaybe(Regex a)-\u003eBool",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.SubtypingList",
           "name": "literalSubtype",
           "package": "antimirov",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov SubtypingList",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.SubtypingList",
           "name": "literalSubtype",
           "normalized": "a-\u003ea-\u003eBool",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov.SubtypingList",
           "name": "match",
           "package": "antimirov",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov SubtypingList",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov.SubtypingList",
           "name": "match",
           "normalized": "Maybe(Regex a)-\u003e[a]-\u003eBool",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:21 UTC 2014",
           "module": "Data.Regex.Antimirov",
           "name": "Antimirov",
           "package": "antimirov",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Data Regex Antimirov",
+          "indexed": "2014-03-11T17:11:21",
           "module": "Data.Regex.Antimirov",
           "name": "Antimirov",
           "package": "antimirov",

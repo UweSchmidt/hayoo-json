@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "refh"
+        "phrase": "refh",
+        "type": "phrase"
       },
       "type": "context"
     }

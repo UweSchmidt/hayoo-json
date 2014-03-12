@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hommage"
+        "phrase": "hommage",
+        "type": "phrase"
       },
       "type": "context"
     }

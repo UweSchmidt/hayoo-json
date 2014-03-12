@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uni-htk"
+        "phrase": "uni-htk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003earc\u003c/em\u003e canvas item.\n An arc object on a canvas widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Arc",
           "name": "Arc",
           "package": "uni-htk",
@@ -28,6 +29,7 @@
         "index": {
           "description": "HTk arc canvas item An arc object on canvas widget",
           "hierarchy": "HTk Canvasitems Arc",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Arc",
           "name": "Arc",
           "package": "uni-htk",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eArc\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Arc",
           "name": "Arc",
           "package": "uni-htk",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The Arc datatype",
           "hierarchy": "HTk Canvasitems Arc",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Arc",
           "name": "Arc",
           "package": "uni-htk",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new arc item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Arc",
           "name": "createArc",
           "package": "uni-htk",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Constructs new arc item",
           "hierarchy": "HTk Canvasitems Arc",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Arc",
           "name": "createArc",
           "normalized": "Canvas-\u003e[Config Arc]-\u003eIO Arc",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the length of an arc in counter-clockwise direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Arc",
           "name": "extent",
           "package": "uni-htk",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Sets the length of an arc in counter-clockwise direction",
           "hierarchy": "HTk Canvasitems Arc",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Arc",
           "name": "extent",
           "normalized": "Degree-\u003eConfig Arc",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the length of an arc in counter-clockwise direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Arc",
           "name": "getExtent",
           "package": "uni-htk",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Gets the length of an arc in counter-clockwise direction",
           "hierarchy": "HTk Canvasitems Arc",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Arc",
           "name": "getExtent",
           "normalized": "Arc-\u003eIO Degree",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the starting angle of an arc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Arc",
           "name": "getStart",
           "package": "uni-htk",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Gets the starting angle of an arc",
           "hierarchy": "HTk Canvasitems Arc",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Arc",
           "name": "getStart",
           "normalized": "Arc-\u003eIO Degree",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the starting angle of an arc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Arc",
           "name": "start",
           "package": "uni-htk",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Sets the starting angle of an arc",
           "hierarchy": "HTk Canvasitems Arc",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Arc",
           "name": "start",
           "normalized": "Degree-\u003eConfig Arc",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003ebitmap\u003c/em\u003e canvas item.\n A bitmap object on a canvas widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.BitMapItem",
           "name": "BitMapItem",
           "package": "uni-htk",
@@ -201,6 +216,7 @@
         "index": {
           "description": "HTk bitmap canvas item bitmap object on canvas widget",
           "hierarchy": "HTk Canvasitems BitMapItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.BitMapItem",
           "name": "BitMapItem",
           "package": "uni-htk",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eBitMapItem\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.BitMapItem",
           "name": "BitMapItem",
           "package": "uni-htk",
@@ -224,6 +241,7 @@
         "index": {
           "description": "The BitMapItem datatype",
           "hierarchy": "HTk Canvasitems BitMapItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.BitMapItem",
           "name": "BitMapItem",
           "package": "uni-htk",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new bitmap item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.BitMapItem",
           "name": "createBitMapItem",
           "package": "uni-htk",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Constructs new bitmap item",
           "hierarchy": "HTk Canvasitems BitMapItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.BitMapItem",
           "name": "createBitMapItem",
           "normalized": "Canvas-\u003e[Config BitMapItem]-\u003eIO BitMapItem",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003emodule CanvasItem\u003c/code\u003e exports basic classes and\n general functionality on canvas items.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "CanvasItem",
           "package": "uni-htk",
@@ -272,6 +293,7 @@
         "index": {
           "description": "The module CanvasItem exports basic classes and general functionality on canvas items",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "CanvasItem",
           "package": "uni-htk",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCanvas\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "Canvas",
           "package": "uni-htk",
@@ -295,6 +318,7 @@
         "index": {
           "description": "The Canvas datatype",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "Canvas",
           "package": "uni-htk",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny canvas item is an instance of the abstract\n \u003ccode\u003eclass CanvasItem\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "CanvasItem",
           "package": "uni-htk",
@@ -318,6 +343,7 @@
         "index": {
           "description": "Any canvas item is an instance of the abstract class CanvasItem",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "CanvasItem",
           "package": "uni-htk",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny canvas item has a filling, outline, outline width and stipple\n configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "FilledCanvasItem",
           "package": "uni-htk",
@@ -341,6 +368,7 @@
         "index": {
           "description": "Any canvas item has filling outline outline width and stipple configuration",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "FilledCanvasItem",
           "package": "uni-htk",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou can set the coords (position / size) of a canvas item on the\n parent canvas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "HasCoords",
           "package": "uni-htk",
@@ -364,6 +393,7 @@
         "index": {
           "description": "You can set the coords position size of canvas item on the parent canvas",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "HasCoords",
           "package": "uni-htk",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented canvas items have a splinesteps and smooth configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "SegmentedCanvasItem",
           "package": "uni-htk",
@@ -387,6 +418,7 @@
         "index": {
           "description": "Segmented canvas items have splinesteps and smooth configuration",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "SegmentedCanvasItem",
           "package": "uni-htk",
@@ -400,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "coord",
           "package": "uni-htk",
@@ -409,6 +442,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "coord",
           "normalized": "Coord-\u003eConfig a",
@@ -424,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve all tagnames in a complex tag expression and declare\n them global in form of a TclScript\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "declVar",
           "package": "uni-htk",
@@ -434,6 +469,7 @@
         "index": {
           "description": "Retrieve all tagnames in complex tag expression and declare them global in form of TclScript",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "declVar",
           "normalized": "CanvasTagOrID-\u003eTclScript",
@@ -450,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve all tagnames in a complex tag expression and declare\n them global in form of a TclCmd\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "declVarList",
           "package": "uni-htk",
@@ -460,6 +497,7 @@
         "index": {
           "description": "Retrieve all tagnames in complex tag expression and declare them global in form of TclCmd",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "declVarList",
           "normalized": "CanvasTagOrID-\u003eTclCmd",
@@ -475,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "filling",
           "package": "uni-htk",
@@ -484,6 +523,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "filling",
           "normalized": "a-\u003eConfig b",
@@ -498,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "getCoord",
           "package": "uni-htk",
@@ -507,6 +548,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "getCoord",
           "normalized": "a-\u003eIO Coord",
@@ -522,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "getFilling",
           "package": "uni-htk",
@@ -531,6 +574,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "getFilling",
           "normalized": "a-\u003eIO Colour",
@@ -546,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "getOutline",
           "package": "uni-htk",
@@ -555,6 +600,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "getOutline",
           "normalized": "a-\u003eIO Colour",
@@ -570,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "getOutlineWidth",
           "package": "uni-htk",
@@ -579,6 +626,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "getOutlineWidth",
           "normalized": "a-\u003eIO Distance",
@@ -594,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "getSmooth",
           "package": "uni-htk",
@@ -603,6 +652,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "getSmooth",
           "normalized": "a-\u003eIO Bool",
@@ -618,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "getSplinesteps",
           "package": "uni-htk",
@@ -627,6 +678,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "getSplinesteps",
           "normalized": "a-\u003eIO Int",
@@ -642,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "getStipple",
           "package": "uni-htk",
@@ -651,6 +704,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "getStipple",
           "normalized": "a-\u003eIO BitMapHandle",
@@ -667,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException raised by \u003ccode\u003eCanasItem.onSameCanvas\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "itemsNotOnSameCanvas",
           "package": "uni-htk",
@@ -677,6 +732,7 @@
         "index": {
           "description": "Exception raised by CanasItem.onSameCanvas",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "itemsNotOnSameCanvas",
           "package": "uni-htk",
@@ -691,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMoves an item below another item in the display list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "lowerItem",
           "package": "uni-htk",
@@ -701,6 +758,7 @@
         "index": {
           "description": "Moves an item below another item in the display list",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "lowerItem",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -717,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMoves a canvas item horizontally and vertically by the given\n distances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "moveItem",
           "package": "uni-htk",
@@ -727,6 +786,7 @@
         "index": {
           "description": "Moves canvas item horizontally and vertically by the given distances",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "moveItem",
           "normalized": "a-\u003eDistance-\u003eDistance-\u003eIO()",
@@ -742,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "outline",
           "package": "uni-htk",
@@ -751,6 +812,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "outline",
           "normalized": "a-\u003eConfig b",
@@ -765,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "outlinewidth",
           "package": "uni-htk",
@@ -774,6 +837,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "outlinewidth",
           "normalized": "Distance-\u003eConfig a",
@@ -789,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts an items at bottom of the display list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "putItemAtBottom",
           "package": "uni-htk",
@@ -799,6 +864,7 @@
         "index": {
           "description": "Puts an items at bottom of the display list",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "putItemAtBottom",
           "normalized": "a-\u003eIO()",
@@ -815,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts an item on top of the display list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "putItemOnTop",
           "package": "uni-htk",
@@ -825,6 +892,7 @@
         "index": {
           "description": "Puts an item on top of the display list",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "putItemOnTop",
           "normalized": "a-\u003eIO()",
@@ -841,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMoves an item above another item in the display list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "raiseItem",
           "package": "uni-htk",
@@ -851,6 +920,7 @@
         "index": {
           "description": "Moves an item above another item in the display list",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "raiseItem",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -867,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScales a canvas item horizontally and vertically by the given\n distances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "scaleItem",
           "package": "uni-htk",
@@ -877,6 +948,7 @@
         "index": {
           "description": "Scales canvas item horizontally and vertically by the given distances",
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "scaleItem",
           "normalized": "a-\u003eDistance-\u003eDistance-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -892,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "smooth",
           "package": "uni-htk",
@@ -901,6 +974,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "smooth",
           "normalized": "Bool-\u003eConfig a",
@@ -915,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "splinesteps",
           "package": "uni-htk",
@@ -924,6 +999,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "splinesteps",
           "normalized": "Int-\u003eConfig a",
@@ -938,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "stipple",
           "package": "uni-htk",
@@ -947,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItem",
           "name": "stipple",
           "normalized": "BitMapHandle-\u003eConfig a",
@@ -961,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "CanvasItemAux",
           "package": "uni-htk",
@@ -969,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "CanvasItemAux",
           "package": "uni-htk",
@@ -982,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "canvasitemMethods",
           "package": "uni-htk",
@@ -991,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "canvasitemMethods",
           "package": "uni-htk",
@@ -1004,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "createCanvasItem",
           "package": "uni-htk",
@@ -1013,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "createCanvasItem",
           "normalized": "Canvas-\u003eCanvasItemKind-\u003e(GUIOBJECT-\u003ea)-\u003e[Config a]-\u003eCoord-\u003eIO a",
@@ -1028,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "getGeo",
           "package": "uni-htk",
@@ -1037,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "getGeo",
           "normalized": "a-\u003eIO Geometry",
@@ -1052,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "getItemHeight",
           "package": "uni-htk",
@@ -1061,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "getItemHeight",
           "normalized": "a-\u003eIO Distance",
@@ -1076,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "getItemPosition",
           "package": "uni-htk",
@@ -1085,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "getItemPosition",
           "normalized": "a-\u003eIO(Distance,Distance)",
@@ -1100,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "getItemPositionD2",
           "package": "uni-htk",
@@ -1109,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "getItemPositionD2",
           "normalized": "a-\u003eIO(Distance,Distance)",
@@ -1124,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "getItemSize",
           "package": "uni-htk",
@@ -1133,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "getItemSize",
           "normalized": "a-\u003eIO(Distance,Distance)",
@@ -1148,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "getItemWidth",
           "package": "uni-htk",
@@ -1157,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "getItemWidth",
           "normalized": "a-\u003eIO Distance",
@@ -1172,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "itemGeo",
           "package": "uni-htk",
@@ -1181,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "itemGeo",
           "normalized": "Geometry-\u003eConfig a",
@@ -1196,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "itemHeight",
           "package": "uni-htk",
@@ -1205,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "itemHeight",
           "normalized": "Distance-\u003eConfig a",
@@ -1220,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "itemPosition",
           "package": "uni-htk",
@@ -1229,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "itemPosition",
           "normalized": "Position-\u003eConfig a",
@@ -1244,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "itemPositionD2",
           "package": "uni-htk",
@@ -1253,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "itemPositionD2",
           "normalized": "Position-\u003eConfig a",
@@ -1268,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "itemSize",
           "package": "uni-htk",
@@ -1277,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "itemSize",
           "normalized": "Size-\u003eConfig a",
@@ -1292,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "itemWidth",
           "package": "uni-htk",
@@ -1301,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "itemWidth",
           "normalized": "Distance-\u003eConfig a",
@@ -1316,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "setGeo",
           "package": "uni-htk",
@@ -1325,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasItemAux",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasItemAux",
           "name": "setGeo",
           "normalized": "a-\u003eGeometry-\u003eIO a",
@@ -1340,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "CanvasTag",
           "package": "uni-htk",
@@ -1348,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "CanvasTag",
           "package": "uni-htk",
@@ -1362,6 +1474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCanvasTag\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "CanvasTag",
           "package": "uni-htk",
@@ -1371,6 +1484,7 @@
         "index": {
           "description": "The CanvasTag datatype",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "CanvasTag",
           "package": "uni-htk",
@@ -1385,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSearchSpec\u003c/code\u003e datatype\n (see \u003ccode\u003eCanvasTag.addCanvasTag\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "SearchSpec",
           "package": "uni-htk",
@@ -1394,6 +1509,7 @@
         "index": {
           "description": "The SearchSpec datatype see CanvasTag.addCanvasTag",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "SearchSpec",
           "package": "uni-htk",
@@ -1408,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA canvas item can have several tags (handlers for a set of canvas\n items).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "TaggedCanvasItem",
           "package": "uni-htk",
@@ -1417,6 +1534,7 @@
         "index": {
           "description": "canvas item can have several tags handlers for set of canvas items",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "TaggedCanvasItem",
           "package": "uni-htk",
@@ -1431,6 +1549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForms the disjunction of two canvas tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "(|#|)",
           "package": "uni-htk",
@@ -1440,6 +1559,7 @@
         "index": {
           "description": "Forms the disjunction of two canvas tags",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "(|#|) |#|",
           "normalized": "CanvasTag-\u003eCanvasTag-\u003eIO CanvasTag",
@@ -1455,6 +1575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForms the conjunction of two canvas tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "(&#&)",
           "package": "uni-htk",
@@ -1464,6 +1585,7 @@
         "index": {
           "description": "Forms the conjunction of two canvas tags",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "(&#&) &#&",
           "normalized": "CanvasTag-\u003eCanvasTag-\u003eIO CanvasTag",
@@ -1479,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForms \u003ca\u003eeither - or\u003c/a\u003e of two canvas tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "(^#)",
           "package": "uni-htk",
@@ -1488,6 +1611,7 @@
         "index": {
           "description": "Forms either or of two canvas tags",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "(^#) ^#",
           "normalized": "CanvasTag-\u003eCanvasTag-\u003eIO CanvasTag",
@@ -1503,6 +1627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the item just above the given item in the display list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "aboveItem",
           "package": "uni-htk",
@@ -1512,6 +1637,7 @@
         "index": {
           "description": "Adds the item just above the given item in the display list",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "aboveItem",
           "normalized": "a-\u003eSearchSpec",
@@ -1528,6 +1654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the canvas items identified by the \u003ccode\u003eSearchSpec\u003c/code\u003e to\n the tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "addCanvasTag",
           "package": "uni-htk",
@@ -1537,6 +1664,7 @@
         "index": {
           "description": "Adds the canvas items identified by the SearchSpec to the tag",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "addCanvasTag",
           "normalized": "SearchSpec-\u003eCanvasTag-\u003eIO()",
@@ -1553,6 +1681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds all objects in the canvas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "allItems",
           "package": "uni-htk",
@@ -1562,6 +1691,7 @@
         "index": {
           "description": "Adds all objects in the canvas",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "allItems",
           "package": "uni-htk",
@@ -1576,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the item just below in the given item in the display list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "belowItem",
           "package": "uni-htk",
@@ -1585,6 +1716,7 @@
         "index": {
           "description": "Adds the item just below in the given item in the display list",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "belowItem",
           "normalized": "a-\u003eSearchSpec",
@@ -1601,6 +1733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the item closest to the given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "closest",
           "package": "uni-htk",
@@ -1610,6 +1743,7 @@
         "index": {
           "description": "Adds the item closest to the given position",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "closest",
           "normalized": "Position-\u003eSearchSpec",
@@ -1625,6 +1759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new canvas tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "createCanvasTag",
           "package": "uni-htk",
@@ -1634,6 +1769,7 @@
         "index": {
           "description": "Constructs new canvas tag",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "createCanvasTag",
           "normalized": "Canvas-\u003e[Config CanvasTag]-\u003eIO CanvasTag",
@@ -1650,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the items enclosed in the specified region.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "enclosed",
           "package": "uni-htk",
@@ -1659,6 +1796,7 @@
         "index": {
           "description": "Adds the items enclosed in the specified region",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "enclosed",
           "normalized": "Position-\u003ePosition-\u003eSearchSpec",
@@ -1674,6 +1812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the items overpalling the specified region.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "overlapping",
           "package": "uni-htk",
@@ -1683,6 +1822,7 @@
         "index": {
           "description": "Adds the items overpalling the specified region",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "overlapping",
           "normalized": "Position-\u003ePosition-\u003eSearchSpec",
@@ -1698,6 +1838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves a canvas item from a canvas tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "removeCanvasTag",
           "package": "uni-htk",
@@ -1707,6 +1848,7 @@
         "index": {
           "description": "Removes canvas item from canvas tag",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "removeCanvasTag",
           "normalized": "a-\u003eCanvasTag-\u003eIO()",
@@ -1722,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "tagNot",
           "package": "uni-htk",
@@ -1730,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "tagNot",
           "normalized": "CanvasTag-\u003eIO CanvasTag",
@@ -1745,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "tags",
           "package": "uni-htk",
@@ -1754,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "tags",
           "normalized": "[CanvasTag]-\u003eConfig a",
@@ -1769,6 +1915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the item(s) identified by the given handler (which can also be\n another canvas tag).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "withTag",
           "package": "uni-htk",
@@ -1778,6 +1925,7 @@
         "index": {
           "description": "Adds the item identified by the given handler which can also be another canvas tag",
           "hierarchy": "HTk Canvasitems CanvasTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.CanvasTag",
           "name": "withTag",
           "normalized": "a-\u003eSearchSpec",
@@ -1794,6 +1942,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003eembedded canvas windows\u003c/em\u003e.\n A container for widgets on a canvas widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.EmbeddedCanvasWin",
           "name": "EmbeddedCanvasWin",
           "package": "uni-htk",
@@ -1803,6 +1952,7 @@
         "index": {
           "description": "HTk embedded canvas windows container for widgets on canvas widget",
           "hierarchy": "HTk Canvasitems EmbeddedCanvasWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.EmbeddedCanvasWin",
           "name": "EmbeddedCanvasWin",
           "package": "uni-htk",
@@ -1817,6 +1967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eEmbeddedCanvasWin\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.EmbeddedCanvasWin",
           "name": "EmbeddedCanvasWin",
           "package": "uni-htk",
@@ -1826,6 +1977,7 @@
         "index": {
           "description": "The EmbeddedCanvasWin datatype",
           "hierarchy": "HTk Canvasitems EmbeddedCanvasWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.EmbeddedCanvasWin",
           "name": "EmbeddedCanvasWin",
           "package": "uni-htk",
@@ -1840,6 +1992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new embedded canvas window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.EmbeddedCanvasWin",
           "name": "createEmbeddedCanvasWin",
           "package": "uni-htk",
@@ -1849,6 +2002,7 @@
         "index": {
           "description": "Constructs new embedded canvas window",
           "hierarchy": "HTk Canvasitems EmbeddedCanvasWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.EmbeddedCanvasWin",
           "name": "createEmbeddedCanvasWin",
           "normalized": "Canvas-\u003ea-\u003e[Config EmbeddedCanvasWin]-\u003eIO EmbeddedCanvasWin",
@@ -1865,6 +2019,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003eimage\u003c/em\u003e canvas item.\n An image object on a canvas widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.ImageItem",
           "name": "ImageItem",
           "package": "uni-htk",
@@ -1874,6 +2029,7 @@
         "index": {
           "description": "HTk image canvas item An image object on canvas widget",
           "hierarchy": "HTk Canvasitems ImageItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.ImageItem",
           "name": "ImageItem",
           "package": "uni-htk",
@@ -1888,6 +2044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eImageItem\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.ImageItem",
           "name": "ImageItem",
           "package": "uni-htk",
@@ -1897,6 +2054,7 @@
         "index": {
           "description": "The ImageItem datatype",
           "hierarchy": "HTk Canvasitems ImageItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.ImageItem",
           "name": "ImageItem",
           "package": "uni-htk",
@@ -1911,6 +2069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new bitmap item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.ImageItem",
           "name": "createImageItem",
           "package": "uni-htk",
@@ -1920,6 +2079,7 @@
         "index": {
           "description": "Constructs new bitmap item",
           "hierarchy": "HTk Canvasitems ImageItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.ImageItem",
           "name": "createImageItem",
           "normalized": "Canvas-\u003e[Config ImageItem]-\u003eIO ImageItem",
@@ -1936,6 +2096,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003eline\u003c/em\u003e canvas item.\n A line object on a canvas widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "Line",
           "package": "uni-htk",
@@ -1945,6 +2106,7 @@
         "index": {
           "description": "HTk line canvas item line object on canvas widget",
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "Line",
           "package": "uni-htk",
@@ -1959,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eArrowHead\u003c/code\u003e datatype (see \u003ccode\u003eLine.arrowstyle\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "ArrowHead",
           "package": "uni-htk",
@@ -1968,6 +2131,7 @@
         "index": {
           "description": "The ArrowHead datatype see Line.arrowstyle",
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "ArrowHead",
           "package": "uni-htk",
@@ -1982,6 +2146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCapStyle\u003c/code\u003e datatype (see \u003ccode\u003eLine.capstyle\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "CapStyle",
           "package": "uni-htk",
@@ -1991,6 +2156,7 @@
         "index": {
           "description": "The CapStyle datatype see Line.capstyle",
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "CapStyle",
           "package": "uni-htk",
@@ -2005,6 +2171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eJoinStyle\u003c/code\u003e datatype (see \u003ccode\u003eLine.joinstyle\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "JoinStyle",
           "package": "uni-htk",
@@ -2014,6 +2181,7 @@
         "index": {
           "description": "The JoinStyle datatype see Line.joinstyle",
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "JoinStyle",
           "package": "uni-htk",
@@ -2028,6 +2196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eLine\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "Line",
           "package": "uni-htk",
@@ -2037,6 +2206,7 @@
         "index": {
           "description": "The Line datatype",
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "Line",
           "package": "uni-htk",
@@ -2050,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "BothEnds",
           "package": "uni-htk",
@@ -2059,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "BothEnds",
           "package": "uni-htk",
@@ -2072,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "CapButt",
           "package": "uni-htk",
@@ -2081,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "CapButt",
           "package": "uni-htk",
@@ -2094,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "CapProjecting",
           "package": "uni-htk",
@@ -2103,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "CapProjecting",
           "package": "uni-htk",
@@ -2116,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "CapRound",
           "package": "uni-htk",
@@ -2125,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "CapRound",
           "package": "uni-htk",
@@ -2138,6 +2316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "FirstEnd",
           "package": "uni-htk",
@@ -2147,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "FirstEnd",
           "package": "uni-htk",
@@ -2160,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "JoinBevel",
           "package": "uni-htk",
@@ -2169,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "JoinBevel",
           "package": "uni-htk",
@@ -2182,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "JoinMiter",
           "package": "uni-htk",
@@ -2191,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "JoinMiter",
           "package": "uni-htk",
@@ -2204,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "JoinRound",
           "package": "uni-htk",
@@ -2213,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "JoinRound",
           "package": "uni-htk",
@@ -2226,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "LastEnd",
           "package": "uni-htk",
@@ -2235,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "LastEnd",
           "package": "uni-htk",
@@ -2248,6 +2436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "NoHead",
           "package": "uni-htk",
@@ -2257,6 +2446,7 @@
         },
         "index": {
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "NoHead",
           "package": "uni-htk",
@@ -2271,6 +2461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the shape of the arrows at the ends of a line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "arrowshape",
           "package": "uni-htk",
@@ -2281,6 +2472,7 @@
         "index": {
           "description": "Sets the shape of the arrows at the ends of line",
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "arrowshape",
           "normalized": "ArrowShape-\u003eConfig Line",
@@ -2296,6 +2488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the style of the arrows at the ends of a line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "arrowstyle",
           "package": "uni-htk",
@@ -2306,6 +2499,7 @@
         "index": {
           "description": "Sets the style of the arrows at the ends of line",
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "arrowstyle",
           "normalized": "ArrowHead-\u003eConfig Line",
@@ -2321,6 +2515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the capstyle at the ends of a line (butt, projecting or round).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "capstyle",
           "package": "uni-htk",
@@ -2331,6 +2526,7 @@
         "index": {
           "description": "Sets the capstyle at the ends of line butt projecting or round",
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "capstyle",
           "normalized": "CapStyle-\u003eConfig Line",
@@ -2346,6 +2542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new line item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "createLine",
           "package": "uni-htk",
@@ -2355,6 +2552,7 @@
         "index": {
           "description": "Constructs new line item",
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "createLine",
           "normalized": "Canvas-\u003e[Config Line]-\u003eIO Line",
@@ -2371,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the shape of the arrows at the end of a line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "getArrowshape",
           "package": "uni-htk",
@@ -2381,6 +2580,7 @@
         "index": {
           "description": "Gets the shape of the arrows at the end of line",
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "getArrowshape",
           "normalized": "Line-\u003eIO ArrowShape",
@@ -2397,6 +2597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the style of the arrows at the ends of a line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "getArrowstyle",
           "package": "uni-htk",
@@ -2407,6 +2608,7 @@
         "index": {
           "description": "Gets the style of the arrows at the ends of line",
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "getArrowstyle",
           "normalized": "Line-\u003eIO ArrowHead",
@@ -2423,6 +2625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the capstyle at the ends of a line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "getCapstyle",
           "package": "uni-htk",
@@ -2433,6 +2636,7 @@
         "index": {
           "description": "Gets the capstyle at the ends of line",
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "getCapstyle",
           "normalized": "Line-\u003eIO CapStyle",
@@ -2449,6 +2653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the joinstyle between the line segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "getJoinstyle",
           "package": "uni-htk",
@@ -2459,6 +2664,7 @@
         "index": {
           "description": "Gets the joinstyle between the line segments",
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "getJoinstyle",
           "normalized": "Line-\u003eIO JoinStyle",
@@ -2475,6 +2681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the joinstyle between the line segments (bevel, miter or round).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Line",
           "name": "joinstyle",
           "package": "uni-htk",
@@ -2485,6 +2692,7 @@
         "index": {
           "description": "Sets the joinstyle between the line segments bevel miter or round",
           "hierarchy": "HTk Canvasitems Line",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Line",
           "name": "joinstyle",
           "normalized": "JoinStyle-\u003eConfig Line",
@@ -2500,6 +2708,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003eoval\u003c/em\u003e canvas item.\n An oval object on a canvas widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Oval",
           "name": "Oval",
           "package": "uni-htk",
@@ -2509,6 +2718,7 @@
         "index": {
           "description": "HTk oval canvas item An oval object on canvas widget",
           "hierarchy": "HTk Canvasitems Oval",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Oval",
           "name": "Oval",
           "package": "uni-htk",
@@ -2523,6 +2733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eOval\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Oval",
           "name": "Oval",
           "package": "uni-htk",
@@ -2532,6 +2743,7 @@
         "index": {
           "description": "The Oval datatype",
           "hierarchy": "HTk Canvasitems Oval",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Oval",
           "name": "Oval",
           "package": "uni-htk",
@@ -2546,6 +2758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new oval item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Oval",
           "name": "createOval",
           "package": "uni-htk",
@@ -2555,6 +2768,7 @@
         "index": {
           "description": "Constructs new oval item",
           "hierarchy": "HTk Canvasitems Oval",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Oval",
           "name": "createOval",
           "normalized": "Canvas-\u003e[Config Oval]-\u003eIO Oval",
@@ -2571,6 +2785,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003epolygon\u003c/em\u003e canvas item.\n A polygon object on a canvas widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Polygon",
           "name": "Polygon",
           "package": "uni-htk",
@@ -2580,6 +2795,7 @@
         "index": {
           "description": "HTk polygon canvas item polygon object on canvas widget",
           "hierarchy": "HTk Canvasitems Polygon",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Polygon",
           "name": "Polygon",
           "package": "uni-htk",
@@ -2594,6 +2810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ePolygon\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Polygon",
           "name": "Polygon",
           "package": "uni-htk",
@@ -2603,6 +2820,7 @@
         "index": {
           "description": "The Polygon datatype",
           "hierarchy": "HTk Canvasitems Polygon",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Polygon",
           "name": "Polygon",
           "package": "uni-htk",
@@ -2617,6 +2835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new polygon item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Polygon",
           "name": "createPolygon",
           "package": "uni-htk",
@@ -2626,6 +2845,7 @@
         "index": {
           "description": "Constructs new polygon item",
           "hierarchy": "HTk Canvasitems Polygon",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Polygon",
           "name": "createPolygon",
           "normalized": "Canvas-\u003e[Config Polygon]-\u003eIO Polygon",
@@ -2642,6 +2862,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003erectangle\u003c/em\u003e canvas item.\n A rectangle object on a canvas widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Rectangle",
           "name": "Rectangle",
           "package": "uni-htk",
@@ -2651,6 +2872,7 @@
         "index": {
           "description": "HTk rectangle canvas item rectangle object on canvas widget",
           "hierarchy": "HTk Canvasitems Rectangle",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Rectangle",
           "name": "Rectangle",
           "package": "uni-htk",
@@ -2665,6 +2887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eRectangle\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Rectangle",
           "name": "Rectangle",
           "package": "uni-htk",
@@ -2674,6 +2897,7 @@
         "index": {
           "description": "The Rectangle datatype",
           "hierarchy": "HTk Canvasitems Rectangle",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Rectangle",
           "name": "Rectangle",
           "package": "uni-htk",
@@ -2688,6 +2912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new rectangle item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.Rectangle",
           "name": "createRectangle",
           "package": "uni-htk",
@@ -2697,6 +2922,7 @@
         "index": {
           "description": "Constructs new rectangle item",
           "hierarchy": "HTk Canvasitems Rectangle",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.Rectangle",
           "name": "createRectangle",
           "normalized": "Canvas-\u003e[Config Rectangle]-\u003eIO Rectangle",
@@ -2713,6 +2939,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003etext\u003c/em\u003e canvas item.\n A text container on a canvas widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.TextItem",
           "name": "TextItem",
           "package": "uni-htk",
@@ -2722,6 +2949,7 @@
         "index": {
           "description": "HTk text canvas item text container on canvas widget",
           "hierarchy": "HTk Canvasitems TextItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.TextItem",
           "name": "TextItem",
           "package": "uni-htk",
@@ -2736,6 +2964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eTextItem\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.TextItem",
           "name": "TextItem",
           "package": "uni-htk",
@@ -2745,6 +2974,7 @@
         "index": {
           "description": "The TextItem datatype",
           "hierarchy": "HTk Canvasitems TextItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.TextItem",
           "name": "TextItem",
           "package": "uni-htk",
@@ -2759,6 +2989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new text item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Canvasitems.TextItem",
           "name": "createTextItem",
           "package": "uni-htk",
@@ -2768,6 +2999,7 @@
         "index": {
           "description": "Constructs new text item",
           "hierarchy": "HTk Canvasitems TextItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Canvasitems.TextItem",
           "name": "createTextItem",
           "normalized": "Canvas-\u003e[Config TextItem]-\u003eIO TextItem",
@@ -2784,6 +3016,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides access to bitmap resources.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "BitMap",
           "package": "uni-htk",
@@ -2793,6 +3026,7 @@
         "index": {
           "description": "This module provides access to bitmap resources",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "BitMap",
           "package": "uni-htk",
@@ -2807,6 +3041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eBitMap\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "BitMap",
           "package": "uni-htk",
@@ -2816,6 +3051,7 @@
         "index": {
           "description": "The BitMap datatype",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "BitMap",
           "package": "uni-htk",
@@ -2830,6 +3066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "BitMapDesignator",
           "package": "uni-htk",
@@ -2839,6 +3076,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "BitMapDesignator",
           "package": "uni-htk",
@@ -2853,6 +3091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eBitMapHandle\u003c/code\u003e datatype - a handle for a bitmap\n resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "BitMapHandle",
           "package": "uni-htk",
@@ -2862,6 +3101,7 @@
         "index": {
           "description": "The BitMapHandle datatype handle for bitmap resource",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "BitMapHandle",
           "package": "uni-htk",
@@ -2876,6 +3116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContainers for bitmaps instantiate the \u003ccode\u003eclass HasBitMap\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "HasBitMap",
           "package": "uni-htk",
@@ -2885,6 +3126,7 @@
         "index": {
           "description": "Containers for bitmaps instantiate the class HasBitMap",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "HasBitMap",
           "package": "uni-htk",
@@ -2898,6 +3140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "BitMapFile",
           "package": "uni-htk",
@@ -2907,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "BitMapFile",
           "package": "uni-htk",
@@ -2920,6 +3164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "BitMapHandle",
           "package": "uni-htk",
@@ -2929,6 +3174,7 @@
         },
         "index": {
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "BitMapHandle",
           "package": "uni-htk",
@@ -2942,6 +3188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "Predefined",
           "package": "uni-htk",
@@ -2951,6 +3198,7 @@
         },
         "index": {
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "Predefined",
           "package": "uni-htk",
@@ -2964,6 +3212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "bitmap",
           "package": "uni-htk",
@@ -2973,6 +3222,7 @@
         },
         "index": {
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "bitmap",
           "normalized": "a-\u003eConfig b",
@@ -2988,6 +3238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle for the predefined \"error\" bitmap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "errmap",
           "package": "uni-htk",
@@ -2998,6 +3249,7 @@
         "index": {
           "description": "handle for the predefined error bitmap",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "errmap",
           "package": "uni-htk",
@@ -3010,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "getBitMap",
           "package": "uni-htk",
@@ -3019,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "getBitMap",
           "normalized": "a-\u003eIO BitMapHandle",
@@ -3035,6 +3289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "getBitMapHandle",
           "package": "uni-htk",
@@ -3045,6 +3300,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "getBitMapHandle",
           "normalized": "a-\u003eConfigID-\u003eIO BitMapHandle",
@@ -3061,6 +3317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle for the predefined \"gray25\" bitmap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "gray25",
           "package": "uni-htk",
@@ -3071,6 +3328,7 @@
         "index": {
           "description": "handle for the predefined gray25 bitmap",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "gray25",
           "package": "uni-htk",
@@ -3084,6 +3342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle for the predefined \"gray50\" bitmap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "gray50",
           "package": "uni-htk",
@@ -3094,6 +3353,7 @@
         "index": {
           "description": "handle for the predefined gray50 bitmap",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "gray50",
           "package": "uni-htk",
@@ -3107,6 +3367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle for the predefined \"hourglass\" bitmap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "hourglass",
           "package": "uni-htk",
@@ -3117,6 +3378,7 @@
         "index": {
           "description": "handle for the predefined hourglass bitmap",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "hourglass",
           "package": "uni-htk",
@@ -3130,6 +3392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle for the predefined \"info\" bitmap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "info",
           "package": "uni-htk",
@@ -3140,6 +3403,7 @@
         "index": {
           "description": "handle for the predefined info bitmap",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "info",
           "package": "uni-htk",
@@ -3153,6 +3417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new bitmap object and returns a handler.\n The bitmap object can be packed like a widget, then it is implicitely\n displayed inside a label widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "newBitMap",
           "package": "uni-htk",
@@ -3162,6 +3427,7 @@
         "index": {
           "description": "Constructs new bitmap object and returns handler The bitmap object can be packed like widget then it is implicitely displayed inside label widget",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "newBitMap",
           "normalized": "[Config BitMap]-\u003eIO BitMap",
@@ -3178,6 +3444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle for the predefined \"questhead\" bitmap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "questhead",
           "package": "uni-htk",
@@ -3188,6 +3455,7 @@
         "index": {
           "description": "handle for the predefined questhead bitmap",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "questhead",
           "package": "uni-htk",
@@ -3201,6 +3469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle for the predefined \"question\" bitmap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "question",
           "package": "uni-htk",
@@ -3211,6 +3480,7 @@
         "index": {
           "description": "handle for the predefined question bitmap",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "question",
           "package": "uni-htk",
@@ -3224,6 +3494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "setBitMapHandle",
           "package": "uni-htk",
@@ -3234,6 +3505,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "setBitMapHandle",
           "normalized": "a-\u003eConfigID-\u003eBitMapHandle-\u003eBool-\u003eIO a",
@@ -3250,6 +3522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "stringToBitMapHandle",
           "package": "uni-htk",
@@ -3260,6 +3533,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "stringToBitMapHandle",
           "normalized": "String-\u003eIO BitMapHandle",
@@ -3275,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "toBitMap",
           "package": "uni-htk",
@@ -3284,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "toBitMap",
           "normalized": "a-\u003eBitMapHandle",
@@ -3300,6 +3576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle for the predefined \"warning\" bitmap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.BitMap",
           "name": "warning",
           "package": "uni-htk",
@@ -3310,6 +3587,7 @@
         "index": {
           "description": "handle for the predefined warning bitmap",
           "hierarchy": "HTk Components BitMap",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.BitMap",
           "name": "warning",
           "package": "uni-htk",
@@ -3323,6 +3601,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functionality on the current focus.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "Focus",
           "package": "uni-htk",
@@ -3332,6 +3611,7 @@
         "index": {
           "description": "This module provides functionality on the current focus",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "Focus",
           "package": "uni-htk",
@@ -3346,6 +3626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCurrentFocus\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "CurrentFocus",
           "package": "uni-htk",
@@ -3355,6 +3636,7 @@
         "index": {
           "description": "The CurrentFocus datatype",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "CurrentFocus",
           "package": "uni-htk",
@@ -3369,6 +3651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCurrentGrab\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "CurrentGrab",
           "package": "uni-htk",
@@ -3378,6 +3661,7 @@
         "index": {
           "description": "The CurrentGrab datatype",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "CurrentGrab",
           "package": "uni-htk",
@@ -3392,6 +3676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFocusModel\u003c/code\u003e datatype (focus model of a toplevel\n window).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "FocusModel",
           "package": "uni-htk",
@@ -3401,6 +3686,7 @@
         "index": {
           "description": "The FocusModel datatype focus model of toplevel window",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "FocusModel",
           "package": "uni-htk",
@@ -3415,6 +3701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eGrabStatus\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "GrabStatus",
           "package": "uni-htk",
@@ -3424,6 +3711,7 @@
         "index": {
           "description": "The GrabStatus datatype",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "GrabStatus",
           "package": "uni-htk",
@@ -3437,6 +3725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "ActiveFocus",
           "package": "uni-htk",
@@ -3446,6 +3735,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "ActiveFocus",
           "package": "uni-htk",
@@ -3459,6 +3749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "CurrentGrab",
           "package": "uni-htk",
@@ -3468,6 +3759,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "CurrentGrab",
           "package": "uni-htk",
@@ -3481,6 +3773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "Global",
           "package": "uni-htk",
@@ -3490,6 +3783,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "Global",
           "package": "uni-htk",
@@ -3503,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "Local",
           "package": "uni-htk",
@@ -3512,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "Local",
           "package": "uni-htk",
@@ -3525,6 +3821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "PassiveFocus",
           "package": "uni-htk",
@@ -3534,6 +3831,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "PassiveFocus",
           "package": "uni-htk",
@@ -3548,6 +3846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a window's focus model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "focusModel",
           "package": "uni-htk",
@@ -3558,6 +3857,7 @@
         "index": {
           "description": "Sets window focus model",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "focusModel",
           "normalized": "FocusModel-\u003eConfig a",
@@ -3574,6 +3874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForces the current focus for the containing window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "forceFocus",
           "package": "uni-htk",
@@ -3583,6 +3884,7 @@
         "index": {
           "description": "Forces the current focus for the containing window",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "forceFocus",
           "normalized": "a-\u003eIO()",
@@ -3599,6 +3901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the current grab.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "getCurrentGrab",
           "package": "uni-htk",
@@ -3608,6 +3911,7 @@
         "index": {
           "description": "Gets the current grab",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "getCurrentGrab",
           "package": "uni-htk",
@@ -3622,6 +3926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the current focus inside a window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "getFocus",
           "package": "uni-htk",
@@ -3631,6 +3936,7 @@
         "index": {
           "description": "Gets the current focus inside window",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "getFocus",
           "normalized": "a-\u003eIO(Maybe CurrentFocus)",
@@ -3647,6 +3953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a window's focus model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "getFocusModel",
           "package": "uni-htk",
@@ -3657,6 +3964,7 @@
         "index": {
           "description": "Gets window focus model",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "getFocusModel",
           "normalized": "a-\u003eIO FocusModel",
@@ -3673,6 +3981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the grab status from a widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "getGrabStatus",
           "package": "uni-htk",
@@ -3682,6 +3991,7 @@
         "index": {
           "description": "Gets the grab status from widget",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "getGrabStatus",
           "normalized": "a-\u003eIO(Maybe GrabStatus)",
@@ -3698,6 +4008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the last focused widget inside a window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "getRecentFocus",
           "package": "uni-htk",
@@ -3707,6 +4018,7 @@
         "index": {
           "description": "Gets the last focused widget inside window",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "getRecentFocus",
           "normalized": "a-\u003eIO(Maybe CurrentFocus)",
@@ -3723,6 +4035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrabs the focus global.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "grabGlobal",
           "package": "uni-htk",
@@ -3732,6 +4045,7 @@
         "index": {
           "description": "Grabs the focus global",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "grabGlobal",
           "normalized": "a-\u003eIO()",
@@ -3748,6 +4062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrabs the focus local.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "grabLocal",
           "package": "uni-htk",
@@ -3757,6 +4072,7 @@
         "index": {
           "description": "Grabs the focus local",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "grabLocal",
           "normalized": "a-\u003eIO()",
@@ -3773,6 +4089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReleases a focus grab.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "releaseGrab",
           "package": "uni-htk",
@@ -3782,6 +4099,7 @@
         "index": {
           "description": "Releases focus grab",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "releaseGrab",
           "normalized": "a-\u003eIO()",
@@ -3797,6 +4115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "returnGrab",
           "package": "uni-htk",
@@ -3806,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "returnGrab",
           "normalized": "Maybe CurrentGrab-\u003eIO()",
@@ -3822,6 +4142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the current for the containing window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Focus",
           "name": "setFocus",
           "package": "uni-htk",
@@ -3831,6 +4152,7 @@
         "index": {
           "description": "Sets the current for the containing window",
           "hierarchy": "HTk Components Focus",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Focus",
           "name": "setFocus",
           "normalized": "a-\u003eIO()",
@@ -3847,6 +4169,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types and classes concerning insertion cursors in entry and\n text fields.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.ICursor",
           "name": "ICursor",
           "package": "uni-htk",
@@ -3856,6 +4179,7 @@
         "index": {
           "description": "Basic types and classes concerning insertion cursors in entry and text fields",
           "hierarchy": "HTk Components ICursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.ICursor",
           "name": "ICursor",
           "package": "uni-htk",
@@ -3870,6 +4194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets with an insertion cursor instantiate the\n \u003ccode\u003eclass HasInsertionCursor\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.ICursor",
           "name": "HasInsertionCursor",
           "package": "uni-htk",
@@ -3879,6 +4204,7 @@
         "index": {
           "description": "Widgets with an insertion cursor instantiate the class HasInsertionCursor",
           "hierarchy": "HTk Components ICursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.ICursor",
           "name": "HasInsertionCursor",
           "package": "uni-htk",
@@ -3893,6 +4219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets from which you can get the index of the insertion cursor\n instantiate the \u003ccode\u003eclass HasInsertionCursorIndexSet\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.ICursor",
           "name": "HasInsertionCursorIndexGet",
           "package": "uni-htk",
@@ -3902,6 +4229,7 @@
         "index": {
           "description": "Widgets from which you can get the index of the insertion cursor instantiate the class HasInsertionCursorIndexSet",
           "hierarchy": "HTk Components ICursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.ICursor",
           "name": "HasInsertionCursorIndexGet",
           "package": "uni-htk",
@@ -3916,6 +4244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets with an insertion cursor that can be set to a specific index\n instantiate the \u003ccode\u003eclass HasInsertionCursorIndexSet\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.ICursor",
           "name": "HasInsertionCursorIndexSet",
           "package": "uni-htk",
@@ -3925,6 +4254,7 @@
         "index": {
           "description": "Widgets with an insertion cursor that can be set to specific index instantiate the class HasInsertionCursorIndexSet",
           "hierarchy": "HTk Components ICursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.ICursor",
           "name": "HasInsertionCursorIndexSet",
           "package": "uni-htk",
@@ -3939,6 +4269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eICursor\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.ICursor",
           "name": "ICursor",
           "package": "uni-htk",
@@ -3948,6 +4279,7 @@
         "index": {
           "description": "The ICursor datatype",
           "hierarchy": "HTk Components ICursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.ICursor",
           "name": "ICursor",
           "package": "uni-htk",
@@ -3961,6 +4293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.ICursor",
           "name": "ICursor",
           "package": "uni-htk",
@@ -3970,6 +4303,7 @@
         },
         "index": {
           "hierarchy": "HTk Components ICursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.ICursor",
           "name": "ICursor",
           "package": "uni-htk",
@@ -3984,6 +4318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the time the insertion cursor blinks off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.ICursor",
           "name": "getInsertOffTime",
           "package": "uni-htk",
@@ -3994,6 +4329,7 @@
         "index": {
           "description": "Gets the time the insertion cursor blinks off",
           "hierarchy": "HTk Components ICursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.ICursor",
           "name": "getInsertOffTime",
           "normalized": "ICursor a-\u003eIO Int",
@@ -4010,6 +4346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the time the insertion cursor blinks on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.ICursor",
           "name": "getInsertOnTime",
           "package": "uni-htk",
@@ -4020,6 +4357,7 @@
         "index": {
           "description": "Gets the time the insertion cursor blinks on",
           "hierarchy": "HTk Components ICursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.ICursor",
           "name": "getInsertOnTime",
           "normalized": "ICursor a-\u003eIO Int",
@@ -4035,6 +4373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.ICursor",
           "name": "getInsertionCursor",
           "package": "uni-htk",
@@ -4044,6 +4383,7 @@
         },
         "index": {
           "hierarchy": "HTk Components ICursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.ICursor",
           "name": "getInsertionCursor",
           "normalized": "a-\u003eIO b",
@@ -4060,6 +4400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the time the insertion cursor blinks off (in milliseconds, zero\n disables blinking).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.ICursor",
           "name": "insertOffTime",
           "package": "uni-htk",
@@ -4070,6 +4411,7 @@
         "index": {
           "description": "Sets the time the insertion cursor blinks off in milliseconds zero disables blinking",
           "hierarchy": "HTk Components ICursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.ICursor",
           "name": "insertOffTime",
           "normalized": "Int-\u003eConfig(ICursor a)",
@@ -4086,6 +4428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the time the insertion cursor blinks on (in milliseconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.ICursor",
           "name": "insertOnTime",
           "package": "uni-htk",
@@ -4096,6 +4439,7 @@
         "index": {
           "description": "Sets the time the insertion cursor blinks on in milliseconds",
           "hierarchy": "HTk Components ICursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.ICursor",
           "name": "insertOnTime",
           "normalized": "Int-\u003eConfig(ICursor a)",
@@ -4111,6 +4455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.ICursor",
           "name": "insertionCursor",
           "package": "uni-htk",
@@ -4120,6 +4465,7 @@
         },
         "index": {
           "hierarchy": "HTk Components ICursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.ICursor",
           "name": "insertionCursor",
           "normalized": "a-\u003eConfig b",
@@ -4136,6 +4482,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides access to window icons.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Icon",
           "name": "Icon",
           "package": "uni-htk",
@@ -4145,6 +4492,7 @@
         "index": {
           "description": "This module provides access to window icons",
           "hierarchy": "HTk Components Icon",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Icon",
           "name": "Icon",
           "package": "uni-htk",
@@ -4159,6 +4507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eIcon\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Icon",
           "name": "Icon",
           "package": "uni-htk",
@@ -4168,6 +4517,7 @@
         "index": {
           "description": "The Icon datatype",
           "hierarchy": "HTk Components Icon",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Icon",
           "name": "Icon",
           "package": "uni-htk",
@@ -4181,6 +4531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Icon",
           "name": "Icon",
           "package": "uni-htk",
@@ -4190,6 +4541,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Icon",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Icon",
           "name": "Icon",
           "package": "uni-htk",
@@ -4204,6 +4556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the corresponding icon mask.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Icon",
           "name": "getIconMask",
           "package": "uni-htk",
@@ -4214,6 +4567,7 @@
         "index": {
           "description": "Gets the corresponding icon mask",
           "hierarchy": "HTk Components Icon",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Icon",
           "name": "getIconMask",
           "normalized": "Icon a-\u003eIO BitMapHandle",
@@ -4230,6 +4584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the corresponding icon mask.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Icon",
           "name": "iconMask",
           "package": "uni-htk",
@@ -4240,6 +4595,7 @@
         "index": {
           "description": "Sets the corresponding icon mask",
           "hierarchy": "HTk Components Icon",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Icon",
           "name": "iconMask",
           "normalized": "a-\u003eConfig(Icon b)",
@@ -4256,6 +4612,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides access to image resources from files or base64\n encoded strings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "Image",
           "package": "uni-htk",
@@ -4265,6 +4622,7 @@
         "index": {
           "description": "This module provides access to image resources from files or base64 encoded strings",
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "Image",
           "package": "uni-htk",
@@ -4279,6 +4637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFormat\u003c/code\u003e datatype - represents the format of a base64\n encoded image (see \u003ccode\u003eImage.imgData\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "Format",
           "package": "uni-htk",
@@ -4288,6 +4647,7 @@
         "index": {
           "description": "The Format datatype represents the format of base64 encoded image see Image.imgData",
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "Format",
           "package": "uni-htk",
@@ -4302,6 +4662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage containers instantiate the \u003ccode\u003eclass HasPhoto\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "HasPhoto",
           "package": "uni-htk",
@@ -4311,6 +4672,7 @@
         "index": {
           "description": "Image containers instantiate the class HasPhoto",
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "HasPhoto",
           "package": "uni-htk",
@@ -4325,6 +4687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eImage\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "Image",
           "package": "uni-htk",
@@ -4334,6 +4697,7 @@
         "index": {
           "description": "The Image datatype",
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "Image",
           "package": "uni-htk",
@@ -4347,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "GIF",
           "package": "uni-htk",
@@ -4356,6 +4721,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "GIF",
           "package": "uni-htk",
@@ -4369,6 +4735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "PGM",
           "package": "uni-htk",
@@ -4378,6 +4745,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "PGM",
           "package": "uni-htk",
@@ -4391,6 +4759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "PPM",
           "package": "uni-htk",
@@ -4400,6 +4769,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "PPM",
           "package": "uni-htk",
@@ -4413,6 +4783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "getPhoto",
           "package": "uni-htk",
@@ -4422,6 +4793,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "getPhoto",
           "normalized": "a-\u003eIO(Maybe Image)",
@@ -4438,6 +4810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "imageToInt",
           "package": "uni-htk",
@@ -4448,6 +4821,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "imageToInt",
           "normalized": "Image-\u003eIO Int",
@@ -4464,6 +4838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the image data from a base64 encoded string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "imgData",
           "package": "uni-htk",
@@ -4474,6 +4849,7 @@
         "index": {
           "description": "Sets the image data from base64 encoded string",
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "imgData",
           "normalized": "Format-\u003eString-\u003eConfig Image",
@@ -4490,6 +4866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003egamma\u003c/code\u003e correction factor. Values less than one\n darken the image, values greater than one brighten up the image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "imgGamma",
           "package": "uni-htk",
@@ -4500,6 +4877,7 @@
         "index": {
           "description": "The gamma correction factor Values less than one darken the image values greater than one brighten up the image",
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "imgGamma",
           "normalized": "Double-\u003eConfig Image",
@@ -4515,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "imgPalette",
           "package": "uni-htk",
@@ -4524,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "imgPalette",
           "normalized": "a-\u003eConfig Image",
@@ -4540,6 +4920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "intToImage",
           "package": "uni-htk",
@@ -4550,6 +4931,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "intToImage",
           "normalized": "Int-\u003eIO(Maybe Image)",
@@ -4566,6 +4948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new image object and returns a handler.\n The image object can be packed like a widget, then it is implicitely\n displayed inside a label widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "newImage",
           "package": "uni-htk",
@@ -4575,6 +4958,7 @@
         "index": {
           "description": "Constructs new image object and returns handler The image object can be packed like widget then it is implicitely displayed inside label widget",
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "newImage",
           "normalized": "[Config Image]-\u003eIO Image",
@@ -4590,6 +4974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Image",
           "name": "photo",
           "package": "uni-htk",
@@ -4599,6 +4984,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Image",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Image",
           "name": "photo",
           "normalized": "Image-\u003eConfig a",
@@ -4614,6 +5000,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports basic types and classes on index positions, e.g.\n inside an editor or entry widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "Index",
           "package": "uni-htk",
@@ -4623,6 +5010,7 @@
         "index": {
           "description": "This module exports basic types and classes on index positions e.g inside an editor or entry widget",
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "Index",
           "package": "uni-htk",
@@ -4637,6 +5025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eBaseIndex\u003c/code\u003e datatype - an index handle specified by\n an index number, an index position (line, char) or an index text (see\n text marks).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "BaseIndex",
           "package": "uni-htk",
@@ -4646,6 +5035,7 @@
         "index": {
           "description": "The BaseIndex datatype an index handle specified by an index number an index position line char or an index text see text marks",
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "BaseIndex",
           "package": "uni-htk",
@@ -4660,6 +5050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eEndOfText\u003c/code\u003e datatype - a handle indexing the last\n position inside the concerned widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "EndOfText",
           "package": "uni-htk",
@@ -4669,6 +5060,7 @@
         "index": {
           "description": "The EndOfText datatype handle indexing the last position inside the concerned widget",
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "EndOfText",
           "package": "uni-htk",
@@ -4683,6 +5075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFirst\u003c/code\u003e datatype - a handle indexing the first entry\n e.g. inside a listbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "First",
           "package": "uni-htk",
@@ -4692,6 +5085,7 @@
         "index": {
           "description": "The First datatype handle indexing the first entry e.g inside listbox",
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "First",
           "package": "uni-htk",
@@ -4706,6 +5100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "HasIndex",
           "package": "uni-htk",
@@ -4715,6 +5110,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "HasIndex",
           "package": "uni-htk",
@@ -4729,6 +5125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eLast\u003c/code\u003e datatype - a handle indexing the last entry\n e.g. inside a listbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "Last",
           "package": "uni-htk",
@@ -4738,6 +5135,7 @@
         "index": {
           "description": "The Last datatype handle indexing the last entry e.g inside listbox",
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "Last",
           "package": "uni-htk",
@@ -4752,6 +5150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ePixels\u003c/code\u003e datatype - a handle indexing a position inside\n a widget with its coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "Pixels",
           "package": "uni-htk",
@@ -4761,6 +5160,7 @@
         "index": {
           "description": "The Pixels datatype handle indexing position inside widget with its coordinates",
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "Pixels",
           "package": "uni-htk",
@@ -4774,6 +5174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "EndOfText",
           "package": "uni-htk",
@@ -4783,6 +5184,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "EndOfText",
           "package": "uni-htk",
@@ -4796,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "First",
           "package": "uni-htk",
@@ -4805,6 +5208,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "First",
           "package": "uni-htk",
@@ -4819,6 +5223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eentries, listboxes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "IndexNo",
           "package": "uni-htk",
@@ -4829,6 +5234,7 @@
         "index": {
           "description": "entries listboxes",
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "IndexNo",
           "package": "uni-htk",
@@ -4843,6 +5249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etext widgets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "IndexPos",
           "package": "uni-htk",
@@ -4853,6 +5260,7 @@
         "index": {
           "description": "text widgets",
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "IndexPos",
           "package": "uni-htk",
@@ -4867,6 +5275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elistboxes, \u003ca\u003eend\u003c/a\u003e etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "IndexText",
           "package": "uni-htk",
@@ -4877,6 +5286,7 @@
         "index": {
           "description": "listboxes end etc",
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "IndexText",
           "package": "uni-htk",
@@ -4890,6 +5300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "Last",
           "package": "uni-htk",
@@ -4899,6 +5310,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "Last",
           "package": "uni-htk",
@@ -4912,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "Pixels",
           "package": "uni-htk",
@@ -4921,6 +5334,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "Pixels",
           "package": "uni-htk",
@@ -4934,6 +5348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Index",
           "name": "getBaseIndex",
           "package": "uni-htk",
@@ -4943,6 +5358,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Index",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Index",
           "name": "getBaseIndex",
           "normalized": "a-\u003eb-\u003eIO c",
@@ -4959,6 +5375,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides access to a widgets selection (e.g. inside a\n listbox, editor or entry widget).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "Selection",
           "package": "uni-htk",
@@ -4968,6 +5385,7 @@
         "index": {
           "description": "This module provides access to widgets selection e.g inside listbox editor or entry widget",
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "Selection",
           "package": "uni-htk",
@@ -4982,6 +5400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget with a selectable content instantiates the \u003ccode\u003eclass\n HasSelection\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "HasSelection",
           "package": "uni-htk",
@@ -4991,6 +5410,7 @@
         "index": {
           "description": "widget with selectable content instantiates the class HasSelection",
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "HasSelection",
           "package": "uni-htk",
@@ -5005,6 +5425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget with an indexable selection base instantiates the \u003ccode\u003eclass\n HasSelectionBaseIndex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "HasSelectionBaseIndex",
           "package": "uni-htk",
@@ -5014,6 +5435,7 @@
         "index": {
           "description": "widget with an indexable selection base instantiates the class HasSelectionBaseIndex",
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "HasSelectionBaseIndex",
           "package": "uni-htk",
@@ -5028,6 +5450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget with an indexable selection index range instantiates the\n \u003ccode\u003eclass HasSelectionBaseIndexRange\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "HasSelectionBaseIndexRange",
           "package": "uni-htk",
@@ -5037,6 +5460,7 @@
         "index": {
           "description": "widget with an indexable selection index range instantiates the class HasSelectionBaseIndexRange",
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "HasSelectionBaseIndexRange",
           "package": "uni-htk",
@@ -5051,6 +5475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget with a indexable selection instantiates the \u003ccode\u003eclass\n HasSelectionIndex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "HasSelectionIndex",
           "package": "uni-htk",
@@ -5060,6 +5485,7 @@
         "index": {
           "description": "widget with indexable selection instantiates the class HasSelectionIndex",
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "HasSelectionIndex",
           "package": "uni-htk",
@@ -5074,6 +5500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget with an indexable selection range instantiates the \u003ccode\u003eclass\n HasSelectionIndexRange\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "HasSelectionIndexRange",
           "package": "uni-htk",
@@ -5083,6 +5510,7 @@
         "index": {
           "description": "widget with an indexable selection range instantiates the class HasSelectionIndexRange",
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "HasSelectionIndexRange",
           "package": "uni-htk",
@@ -5097,6 +5525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSelection\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "Selection",
           "package": "uni-htk",
@@ -5106,6 +5535,7 @@
         "index": {
           "description": "The Selection datatype",
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "Selection",
           "package": "uni-htk",
@@ -5119,6 +5549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "Selection",
           "package": "uni-htk",
@@ -5128,6 +5559,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "Selection",
           "package": "uni-htk",
@@ -5141,6 +5573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "clearSelection",
           "package": "uni-htk",
@@ -5150,6 +5583,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "clearSelection",
           "normalized": "a-\u003eIO()",
@@ -5165,6 +5599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "getSelection",
           "package": "uni-htk",
@@ -5174,6 +5609,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "getSelection",
           "normalized": "a-\u003eIO(Maybe b)",
@@ -5189,6 +5625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "getSelectionEnd",
           "package": "uni-htk",
@@ -5198,6 +5635,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "getSelectionEnd",
           "normalized": "a-\u003eIO(Maybe b)",
@@ -5213,6 +5651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "getSelectionRange",
           "package": "uni-htk",
@@ -5222,6 +5661,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "getSelectionRange",
           "normalized": "a-\u003eIO(Maybe(b,b))",
@@ -5237,6 +5677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "getSelectionStart",
           "package": "uni-htk",
@@ -5246,6 +5687,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "getSelectionStart",
           "normalized": "a-\u003eIO(Maybe b)",
@@ -5261,6 +5703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "isSelected",
           "package": "uni-htk",
@@ -5270,6 +5713,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "isSelected",
           "normalized": "a-\u003eb-\u003eIO Bool",
@@ -5285,6 +5729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "selection",
           "package": "uni-htk",
@@ -5294,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "selection",
           "normalized": "a-\u003eConfig b",
@@ -5308,6 +5754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Selection",
           "name": "selectionRange",
           "package": "uni-htk",
@@ -5317,6 +5764,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Selection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Selection",
           "name": "selectionRange",
           "normalized": "a-\u003ea-\u003eConfig b",
@@ -5333,6 +5781,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003emodule Slider\u003c/code\u003e implements configuration options for\n widgets with sliders (scale widgets and scrollbars).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Slider",
           "name": "Slider",
           "package": "uni-htk",
@@ -5342,6 +5791,7 @@
         "index": {
           "description": "The module Slider implements configuration options for widgets with sliders scale widgets and scrollbars",
           "hierarchy": "HTk Components Slider",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Slider",
           "name": "Slider",
           "package": "uni-htk",
@@ -5356,6 +5806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets with sliders (scale widget, scrollbar) instantiate the\n \u003ccode\u003eclass HasSlider\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Slider",
           "name": "HasSlider",
           "package": "uni-htk",
@@ -5365,6 +5816,7 @@
         "index": {
           "description": "Widgets with sliders scale widget scrollbar instantiate the class HasSlider",
           "hierarchy": "HTk Components Slider",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Slider",
           "name": "HasSlider",
           "package": "uni-htk",
@@ -5379,6 +5831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSlider\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Slider",
           "name": "Slider",
           "package": "uni-htk",
@@ -5388,6 +5841,7 @@
         "index": {
           "description": "The Slider datatype",
           "hierarchy": "HTk Components Slider",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Slider",
           "name": "Slider",
           "package": "uni-htk",
@@ -5424,6 +5878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Slider",
           "name": "getRepeatDelay",
           "package": "uni-htk",
@@ -5433,6 +5888,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Slider",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Slider",
           "name": "getRepeatDelay",
           "normalized": "Slider a-\u003eIO Int",
@@ -5448,6 +5904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Slider",
           "name": "getRepeatInterval",
           "package": "uni-htk",
@@ -5457,6 +5914,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Slider",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Slider",
           "name": "getRepeatInterval",
           "normalized": "Slider a-\u003eIO Int",
@@ -5472,6 +5930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Slider",
           "name": "repeatDelay",
           "package": "uni-htk",
@@ -5481,6 +5940,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Slider",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Slider",
           "name": "repeatDelay",
           "normalized": "Int-\u003eConfig(Slider a)",
@@ -5496,6 +5956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Components.Slider",
           "name": "repeatInterval",
           "package": "uni-htk",
@@ -5505,6 +5966,7 @@
         },
         "index": {
           "hierarchy": "HTk Components Slider",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Components.Slider",
           "name": "repeatInterval",
           "normalized": "Int-\u003eConfig(Slider a)",
@@ -5521,6 +5983,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA container widget with a preset packing orientation (for simple\n packing).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Box",
           "name": "Box",
           "package": "uni-htk",
@@ -5530,6 +5993,7 @@
         "index": {
           "description": "container widget with preset packing orientation for simple packing",
           "hierarchy": "HTk Containers Box",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Box",
           "name": "Box",
           "package": "uni-htk",
@@ -5544,6 +6008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eBox\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Box",
           "name": "Box",
           "package": "uni-htk",
@@ -5553,6 +6018,7 @@
         "index": {
           "description": "The Box datatype",
           "hierarchy": "HTk Containers Box",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Box",
           "name": "Box",
           "package": "uni-htk",
@@ -5567,6 +6033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new box and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Box",
           "name": "newBox",
           "package": "uni-htk",
@@ -5576,6 +6043,7 @@
         "index": {
           "description": "Constructs new box and returns handler",
           "hierarchy": "HTk Containers Box",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Box",
           "name": "newBox",
           "normalized": "a-\u003eFlexibility-\u003e[Config Box]-\u003eIO Box",
@@ -5592,6 +6060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new box with horizontal packing order and rigid\n flexibility and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Box",
           "name": "newHBox",
           "package": "uni-htk",
@@ -5601,6 +6070,7 @@
         "index": {
           "description": "Constructs new box with horizontal packing order and rigid flexibility and returns handler",
           "hierarchy": "HTk Containers Box",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Box",
           "name": "newHBox",
           "normalized": "a-\u003e[Config Box]-\u003eIO Box",
@@ -5617,6 +6087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new flexible box with horizontal packing order and returns\n a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Box",
           "name": "newHFBox",
           "package": "uni-htk",
@@ -5626,6 +6097,7 @@
         "index": {
           "description": "Constructs new flexible box with horizontal packing order and returns handler",
           "hierarchy": "HTk Containers Box",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Box",
           "name": "newHFBox",
           "normalized": "a-\u003e[Config Box]-\u003eIO Box",
@@ -5642,6 +6114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new box with vertical packing order and rigid\n flexibility and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Box",
           "name": "newVBox",
           "package": "uni-htk",
@@ -5651,6 +6124,7 @@
         "index": {
           "description": "Constructs new box with vertical packing order and rigid flexibility and returns handler",
           "hierarchy": "HTk Containers Box",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Box",
           "name": "newVBox",
           "normalized": "a-\u003e[Config Box]-\u003eIO Box",
@@ -5667,6 +6141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new flexible box with vertical packing order and returns\n a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Box",
           "name": "newVFBox",
           "package": "uni-htk",
@@ -5676,6 +6151,7 @@
         "index": {
           "description": "Constructs new flexible box with vertical packing order and returns handler",
           "hierarchy": "HTk Containers Box",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Box",
           "name": "newVFBox",
           "normalized": "a-\u003e[Config Box]-\u003eIO Box",
@@ -5692,6 +6168,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003eframe\u003c/em\u003e widget.\n A frame is a simple container for widgets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Frame",
           "name": "Frame",
           "package": "uni-htk",
@@ -5701,6 +6178,7 @@
         "index": {
           "description": "HTk frame widget frame is simple container for widgets",
           "hierarchy": "HTk Containers Frame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Frame",
           "name": "Frame",
           "package": "uni-htk",
@@ -5715,6 +6193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFrame\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Frame",
           "name": "Frame",
           "package": "uni-htk",
@@ -5724,6 +6203,7 @@
         "index": {
           "description": "The Frame datatype",
           "hierarchy": "HTk Containers Frame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Frame",
           "name": "Frame",
           "package": "uni-htk",
@@ -5738,6 +6218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new frame widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Frame",
           "name": "newFrame",
           "package": "uni-htk",
@@ -5747,6 +6228,7 @@
         "index": {
           "description": "Constructs new frame widget and returns handler",
           "hierarchy": "HTk Containers Frame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Frame",
           "name": "newFrame",
           "normalized": "a-\u003e[Config Frame]-\u003eIO Frame",
@@ -5763,6 +6245,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003etoplevel\u003c/em\u003e widget.\n A toplevel widget is a toplevel container for widgets (a window).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Toplevel",
           "name": "Toplevel",
           "package": "uni-htk",
@@ -5772,6 +6255,7 @@
         "index": {
           "description": "HTk toplevel widget toplevel widget is toplevel container for widgets window",
           "hierarchy": "HTk Containers Toplevel",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Toplevel",
           "name": "Toplevel",
           "package": "uni-htk",
@@ -5786,6 +6270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eToplevel\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Toplevel",
           "name": "Toplevel",
           "package": "uni-htk",
@@ -5795,6 +6280,7 @@
         "index": {
           "description": "The Toplevel datatype",
           "hierarchy": "HTk Containers Toplevel",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Toplevel",
           "name": "Toplevel",
           "package": "uni-htk",
@@ -5808,6 +6294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Toplevel",
           "name": "Toplevel",
           "package": "uni-htk",
@@ -5817,6 +6304,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Toplevel",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Toplevel",
           "name": "Toplevel",
           "package": "uni-htk",
@@ -5831,6 +6319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new toplevel widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Toplevel",
           "name": "createToplevel",
           "package": "uni-htk",
@@ -5840,6 +6329,7 @@
         "index": {
           "description": "Constructs new toplevel widget and returns handler",
           "hierarchy": "HTk Containers Toplevel",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Toplevel",
           "name": "createToplevel",
           "normalized": "[Config Toplevel]-\u003eIO Toplevel",
@@ -5855,6 +6345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Toplevel",
           "name": "tkGetToplevelConfig",
           "package": "uni-htk",
@@ -5864,6 +6355,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Toplevel",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Toplevel",
           "name": "tkGetToplevelConfig",
           "normalized": "ObjectName-\u003eConfigID-\u003eTclScript",
@@ -5879,6 +6371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Toplevel",
           "name": "tkSetToplevelConfigs",
           "package": "uni-htk",
@@ -5888,6 +6381,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Toplevel",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Toplevel",
           "name": "tkSetToplevelConfigs",
           "normalized": "ObjectName-\u003e[ConfigOption]-\u003eTclScript",
@@ -5904,6 +6398,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types and classes concerning toplevel window resources.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "Window",
           "package": "uni-htk",
@@ -5913,6 +6408,7 @@
         "index": {
           "description": "Basic types and classes concerning toplevel window resources",
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "Window",
           "package": "uni-htk",
@@ -5927,6 +6423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eAspectRatio\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "AspectRatio",
           "package": "uni-htk",
@@ -5936,6 +6433,7 @@
         "index": {
           "description": "The AspectRatio datatype",
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "AspectRatio",
           "package": "uni-htk",
@@ -5949,6 +6447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "Display",
           "package": "uni-htk",
@@ -5957,6 +6456,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "Display",
           "package": "uni-htk",
@@ -5971,6 +6471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eWhom\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "Whom",
           "package": "uni-htk",
@@ -5980,6 +6481,7 @@
         "index": {
           "description": "The Whom datatype",
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "Whom",
           "package": "uni-htk",
@@ -5994,6 +6496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToplevel windows instantiate the \u003ccode\u003eclass Window\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "Window",
           "package": "uni-htk",
@@ -6003,6 +6506,7 @@
         "index": {
           "description": "Toplevel windows instantiate the class Window",
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "Window",
           "package": "uni-htk",
@@ -6017,6 +6521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eWindowState\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "WindowState",
           "package": "uni-htk",
@@ -6026,6 +6531,7 @@
         "index": {
           "description": "The WindowState datatype",
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "WindowState",
           "package": "uni-htk",
@@ -6039,6 +6545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "Deiconified",
           "package": "uni-htk",
@@ -6048,6 +6555,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "Deiconified",
           "package": "uni-htk",
@@ -6061,6 +6569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "Iconified",
           "package": "uni-htk",
@@ -6070,6 +6579,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "Iconified",
           "package": "uni-htk",
@@ -6083,6 +6593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "Withdrawn",
           "package": "uni-htk",
@@ -6092,6 +6603,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "Withdrawn",
           "package": "uni-htk",
@@ -6105,6 +6617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "aspectRatio",
           "package": "uni-htk",
@@ -6114,6 +6627,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "aspectRatio",
           "normalized": "AspectRatio-\u003eConfig a",
@@ -6129,6 +6643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "deiconify",
           "package": "uni-htk",
@@ -6138,6 +6653,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "deiconify",
           "normalized": "a-\u003eIO()",
@@ -6152,6 +6668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "getAspectRatio",
           "package": "uni-htk",
@@ -6161,6 +6678,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "getAspectRatio",
           "normalized": "a-\u003eIO AspectRatio",
@@ -6176,6 +6694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "getClassName",
           "package": "uni-htk",
@@ -6185,6 +6704,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "getClassName",
           "normalized": "a-\u003eIO String",
@@ -6201,6 +6721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the maximum size of the window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "getMaxSize",
           "package": "uni-htk",
@@ -6211,6 +6732,7 @@
         "index": {
           "description": "Gets the maximum size of the window",
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "getMaxSize",
           "normalized": "a-\u003eIO Size",
@@ -6227,6 +6749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the minimum size of the window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "getMinSize",
           "package": "uni-htk",
@@ -6237,6 +6760,7 @@
         "index": {
           "description": "Gets the minimum size of the window",
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "getMinSize",
           "normalized": "a-\u003eIO Size",
@@ -6252,6 +6776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "getPositionFrom",
           "package": "uni-htk",
@@ -6261,6 +6786,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "getPositionFrom",
           "normalized": "a-\u003eIO Whom",
@@ -6276,6 +6802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "getScreen",
           "package": "uni-htk",
@@ -6285,6 +6812,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "getScreen",
           "normalized": "a-\u003eIO Display",
@@ -6300,6 +6828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "getSizeFrom",
           "package": "uni-htk",
@@ -6309,6 +6838,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "getSizeFrom",
           "normalized": "a-\u003eIO Whom",
@@ -6324,6 +6854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "getWindowState",
           "package": "uni-htk",
@@ -6333,6 +6864,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "getWindowState",
           "normalized": "a-\u003eIO WindowState",
@@ -6348,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "iconify",
           "package": "uni-htk",
@@ -6357,6 +6890,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "iconify",
           "normalized": "a-\u003eIO()",
@@ -6372,6 +6906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "isWMConfig",
           "package": "uni-htk",
@@ -6382,6 +6917,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "isWMConfig",
           "normalized": "ConfigID-\u003eBool",
@@ -6398,6 +6934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts the first given window just below the second given window\n in the stacking order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "lowerWin",
           "package": "uni-htk",
@@ -6407,6 +6944,7 @@
         "index": {
           "description": "Puts the first given window just below the second given window in the stacking order",
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "lowerWin",
           "normalized": "a-\u003ea-\u003eIO()",
@@ -6423,6 +6961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstraints the maximum size of the window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "maxSize",
           "package": "uni-htk",
@@ -6433,6 +6972,7 @@
         "index": {
           "description": "Constraints the maximum size of the window",
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "maxSize",
           "normalized": "Size-\u003eConfig a",
@@ -6449,6 +6989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstraints the minimum size of the window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "minSize",
           "package": "uni-htk",
@@ -6459,6 +7000,7 @@
         "index": {
           "description": "Constraints the minimum size of the window",
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "minSize",
           "normalized": "Size-\u003eConfig a",
@@ -6474,6 +7016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "positionFrom",
           "package": "uni-htk",
@@ -6483,6 +7026,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "positionFrom",
           "normalized": "Whom-\u003eConfig a",
@@ -6498,6 +7042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "putWinAtBottom",
           "package": "uni-htk",
@@ -6507,6 +7052,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "putWinAtBottom",
           "normalized": "a-\u003eIO()",
@@ -6522,6 +7068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "putWinOnTop",
           "package": "uni-htk",
@@ -6531,6 +7078,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "putWinOnTop",
           "normalized": "a-\u003eIO()",
@@ -6547,6 +7095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts the first given window just above the second given window\n in the stacking order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "raiseWin",
           "package": "uni-htk",
@@ -6556,6 +7105,7 @@
         "index": {
           "description": "Puts the first given window just above the second given window in the stacking order",
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "raiseWin",
           "normalized": "a-\u003ea-\u003eIO()",
@@ -6571,6 +7121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "screen",
           "package": "uni-htk",
@@ -6580,6 +7131,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "screen",
           "normalized": "Display-\u003eConfig a",
@@ -6594,6 +7146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "sizeFrom",
           "package": "uni-htk",
@@ -6603,6 +7156,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "sizeFrom",
           "normalized": "Whom-\u003eConfig a",
@@ -6618,6 +7172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Containers.Window",
           "name": "withdraw",
           "package": "uni-htk",
@@ -6627,6 +7182,7 @@
         },
         "index": {
           "hierarchy": "HTk Containers Window",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Containers.Window",
           "name": "withdraw",
           "normalized": "a-\u003eIO()",
@@ -6642,6 +7198,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides access to the terminal bell.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Bell",
           "name": "Bell",
           "package": "uni-htk",
@@ -6651,6 +7208,7 @@
         "index": {
           "description": "This module provides access to the terminal bell",
           "hierarchy": "HTk Devices Bell",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Bell",
           "name": "Bell",
           "package": "uni-htk",
@@ -6665,6 +7223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRings the bell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Bell",
           "name": "bell",
           "package": "uni-htk",
@@ -6675,6 +7234,7 @@
         "index": {
           "description": "Rings the bell",
           "hierarchy": "HTk Devices Bell",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Bell",
           "name": "bell",
           "normalized": "IO()",
@@ -6690,6 +7250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRings the bell for the given window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Bell",
           "name": "ringBell",
           "package": "uni-htk",
@@ -6700,6 +7261,7 @@
         "index": {
           "description": "Rings the bell for the given window",
           "hierarchy": "HTk Devices Bell",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Bell",
           "name": "ringBell",
           "normalized": "Maybe a-\u003eIO()",
@@ -6716,6 +7278,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides funtionality for postscript export of the contents\n of canvas widgets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "Printer",
           "package": "uni-htk",
@@ -6725,6 +7288,7 @@
         "index": {
           "description": "This module provides funtionality for postscript export of the contents of canvas widgets",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "Printer",
           "package": "uni-htk",
@@ -6739,6 +7303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eColourMode\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "ColourMode",
           "package": "uni-htk",
@@ -6748,6 +7313,7 @@
         "index": {
           "description": "The ColourMode datatype",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "ColourMode",
           "package": "uni-htk",
@@ -6762,6 +7328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets that support postscript export instantiate the\n \u003ccode\u003eclass HasPostscript\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "HasPostscript",
           "package": "uni-htk",
@@ -6771,6 +7338,7 @@
         "index": {
           "description": "Widgets that support postscript export instantiate the class HasPostscript",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "HasPostscript",
           "package": "uni-htk",
@@ -6785,6 +7353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ePostScript\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "PostScript",
           "package": "uni-htk",
@@ -6794,6 +7363,7 @@
         "index": {
           "description": "The PostScript datatype",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "PostScript",
           "package": "uni-htk",
@@ -6807,6 +7377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "FullColourMode",
           "package": "uni-htk",
@@ -6816,6 +7387,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "FullColourMode",
           "package": "uni-htk",
@@ -6829,6 +7401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "GrayScaleMode",
           "package": "uni-htk",
@@ -6838,6 +7411,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "GrayScaleMode",
           "package": "uni-htk",
@@ -6851,6 +7425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "MonoChromeMode",
           "package": "uni-htk",
@@ -6860,6 +7435,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "MonoChromeMode",
           "package": "uni-htk",
@@ -6874,6 +7450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the colourmode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "colourmode",
           "package": "uni-htk",
@@ -6884,6 +7461,7 @@
         "index": {
           "description": "Sets the colourmode",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "colourmode",
           "normalized": "ColourMode-\u003eCreationConfig PostScript",
@@ -6899,6 +7477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the page anchor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "pageAnchor",
           "package": "uni-htk",
@@ -6909,6 +7488,7 @@
         "index": {
           "description": "Sets the page anchor",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "pageAnchor",
           "normalized": "Anchor-\u003eCreationConfig PostScript",
@@ -6925,6 +7505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the page height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "pageheight",
           "package": "uni-htk",
@@ -6935,6 +7516,7 @@
         "index": {
           "description": "Sets the page height",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "pageheight",
           "normalized": "Distance-\u003eCreationConfig PostScript",
@@ -6950,6 +7532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the page width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "pagewidth",
           "package": "uni-htk",
@@ -6960,6 +7543,7 @@
         "index": {
           "description": "Sets the page width",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "pagewidth",
           "normalized": "Distance-\u003eCreationConfig PostScript",
@@ -6975,6 +7559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the output x coordinate of the anchor point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "pagex",
           "package": "uni-htk",
@@ -6985,6 +7570,7 @@
         "index": {
           "description": "Sets the output coordinate of the anchor point",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "pagex",
           "normalized": "Distance-\u003eCreationConfig PostScript",
@@ -7000,6 +7586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the output y coordinate of the anchor point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "pagey",
           "package": "uni-htk",
@@ -7010,6 +7597,7 @@
         "index": {
           "description": "Sets the output coordinate of the anchor point",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "pagey",
           "normalized": "Distance-\u003eCreationConfig PostScript",
@@ -7024,6 +7612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "postscript",
           "package": "uni-htk",
@@ -7033,6 +7622,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "postscript",
           "normalized": "a-\u003e[CreationConfig PostScript]-\u003eIO()",
@@ -7048,6 +7638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the filename of the output file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "psfile",
           "package": "uni-htk",
@@ -7058,6 +7649,7 @@
         "index": {
           "description": "Sets the filename of the output file",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "psfile",
           "normalized": "String-\u003eCreationConfig PostScript",
@@ -7073,6 +7665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the height of the area to print.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "psheight",
           "package": "uni-htk",
@@ -7083,6 +7676,7 @@
         "index": {
           "description": "Sets the height of the area to print",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "psheight",
           "normalized": "Distance-\u003eCreationConfig PostScript",
@@ -7098,6 +7692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the width and height of the area to print.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "pssize",
           "package": "uni-htk",
@@ -7108,6 +7703,7 @@
         "index": {
           "description": "Sets the width and height of the area to print",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "pssize",
           "normalized": "Size-\u003eCreationConfig PostScript",
@@ -7123,6 +7719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the width of the area to print.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "pswidth",
           "package": "uni-htk",
@@ -7133,6 +7730,7 @@
         "index": {
           "description": "Sets the width of the area to print",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "pswidth",
           "normalized": "Distance-\u003eCreationConfig PostScript",
@@ -7148,6 +7746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003eTrue\u003c/code\u003e, rotate so that X axis isthe long direction of the\n page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Printer",
           "name": "rotate",
           "package": "uni-htk",
@@ -7158,6 +7757,7 @@
         "index": {
           "description": "If True rotate so that axis isthe long direction of the page",
           "hierarchy": "HTk Devices Printer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Printer",
           "name": "rotate",
           "normalized": "Bool-\u003eCreationConfig PostScript",
@@ -7173,6 +7773,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003emodule Screen\u003c/code\u003e exports general functionality on the\n screen's properties.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Screen",
           "name": "Screen",
           "package": "uni-htk",
@@ -7182,6 +7783,7 @@
         "index": {
           "description": "The module Screen exports general functionality on the screen properties",
           "hierarchy": "HTk Devices Screen",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Screen",
           "name": "Screen",
           "package": "uni-htk",
@@ -7196,6 +7798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eScreen\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Screen",
           "name": "Screen",
           "package": "uni-htk",
@@ -7205,6 +7808,7 @@
         "index": {
           "description": "The Screen datatype",
           "hierarchy": "HTk Devices Screen",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Screen",
           "name": "Screen",
           "package": "uni-htk",
@@ -7219,6 +7823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eVisualClass\u003c/code\u003e datatype (see\n \u003ccode\u003eScreen.getScreenVisual\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Screen",
           "name": "VisualClass",
           "package": "uni-htk",
@@ -7228,6 +7833,7 @@
         "index": {
           "description": "The VisualClass datatype see Screen.getScreenVisual",
           "hierarchy": "HTk Devices Screen",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Screen",
           "name": "VisualClass",
           "package": "uni-htk",
@@ -7241,6 +7847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Screen",
           "name": "DirectColour",
           "package": "uni-htk",
@@ -7250,6 +7857,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices Screen",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Screen",
           "name": "DirectColour",
           "package": "uni-htk",
@@ -7263,6 +7871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Screen",
           "name": "GrayScale",
           "package": "uni-htk",
@@ -7272,6 +7881,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices Screen",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Screen",
           "name": "GrayScale",
           "package": "uni-htk",
@@ -7285,6 +7895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Screen",
           "name": "PseudoColour",
           "package": "uni-htk",
@@ -7294,6 +7905,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices Screen",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Screen",
           "name": "PseudoColour",
           "package": "uni-htk",
@@ -7307,6 +7919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Screen",
           "name": "Screen",
           "package": "uni-htk",
@@ -7316,6 +7929,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices Screen",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Screen",
           "name": "Screen",
           "package": "uni-htk",
@@ -7329,6 +7943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Screen",
           "name": "StaticColour",
           "package": "uni-htk",
@@ -7338,6 +7953,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices Screen",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Screen",
           "name": "StaticColour",
           "package": "uni-htk",
@@ -7351,6 +7967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Screen",
           "name": "StaticGray",
           "package": "uni-htk",
@@ -7360,6 +7977,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices Screen",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Screen",
           "name": "StaticGray",
           "package": "uni-htk",
@@ -7373,6 +7991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Screen",
           "name": "TrueColour",
           "package": "uni-htk",
@@ -7382,6 +8001,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices Screen",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Screen",
           "name": "TrueColour",
           "package": "uni-htk",
@@ -7396,6 +8016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the height of the screen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Screen",
           "name": "getScreenHeight",
           "package": "uni-htk",
@@ -7405,6 +8026,7 @@
         "index": {
           "description": "Gets the height of the screen",
           "hierarchy": "HTk Devices Screen",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Screen",
           "name": "getScreenHeight",
           "normalized": "Screen a-\u003eIO Distance",
@@ -7421,6 +8043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the screen manager from a screen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Screen",
           "name": "getScreenManager",
           "package": "uni-htk",
@@ -7430,6 +8053,7 @@
         "index": {
           "description": "Gets the screen manager from screen",
           "hierarchy": "HTk Devices Screen",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Screen",
           "name": "getScreenManager",
           "normalized": "Screen a-\u003eIO String",
@@ -7446,6 +8070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the visual properties of the screen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Screen",
           "name": "getScreenVisual",
           "package": "uni-htk",
@@ -7455,6 +8080,7 @@
         "index": {
           "description": "Gets the visual properties of the screen",
           "hierarchy": "HTk Devices Screen",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Screen",
           "name": "getScreenVisual",
           "normalized": "Screen a-\u003eIO VisualClass",
@@ -7471,6 +8097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the width of the screen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.Screen",
           "name": "getScreenWidth",
           "package": "uni-htk",
@@ -7480,6 +8107,7 @@
         "index": {
           "description": "Gets the width of the screen",
           "hierarchy": "HTk Devices Screen",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.Screen",
           "name": "getScreenWidth",
           "normalized": "Screen a-\u003eIO Distance",
@@ -7496,6 +8124,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides access to the X selection.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.XSelection",
           "name": "XSelection",
           "package": "uni-htk",
@@ -7505,6 +8134,7 @@
         "index": {
           "description": "This module provides access to the selection",
           "hierarchy": "HTk Devices XSelection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.XSelection",
           "name": "XSelection",
           "package": "uni-htk",
@@ -7519,6 +8149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets that have an X selection instantiate the\n \u003ccode\u003eclass HasXSelection\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.XSelection",
           "name": "HasXSelection",
           "package": "uni-htk",
@@ -7528,6 +8159,7 @@
         "index": {
           "description": "Widgets that have an selection instantiate the class HasXSelection",
           "hierarchy": "HTk Devices XSelection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.XSelection",
           "name": "HasXSelection",
           "package": "uni-htk",
@@ -7542,6 +8174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eXSelection\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.XSelection",
           "name": "XSelection",
           "package": "uni-htk",
@@ -7551,6 +8184,7 @@
         "index": {
           "description": "The XSelection datatype",
           "hierarchy": "HTk Devices XSelection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.XSelection",
           "name": "XSelection",
           "package": "uni-htk",
@@ -7564,6 +8198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.XSelection",
           "name": "CLIPBOARD",
           "package": "uni-htk",
@@ -7573,6 +8208,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices XSelection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.XSelection",
           "name": "CLIPBOARD",
           "package": "uni-htk",
@@ -7586,6 +8222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.XSelection",
           "name": "PRIMARY",
           "package": "uni-htk",
@@ -7595,6 +8232,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices XSelection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.XSelection",
           "name": "PRIMARY",
           "package": "uni-htk",
@@ -7609,6 +8247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClears the X selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.XSelection",
           "name": "clearXSelection",
           "package": "uni-htk",
@@ -7619,6 +8258,7 @@
         "index": {
           "description": "Clears the selection",
           "hierarchy": "HTk Devices XSelection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.XSelection",
           "name": "clearXSelection",
           "normalized": "Screen a-\u003eXSelection-\u003eIO()",
@@ -7634,6 +8274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.XSelection",
           "name": "exportSelection",
           "package": "uni-htk",
@@ -7643,6 +8284,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices XSelection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.XSelection",
           "name": "exportSelection",
           "normalized": "Bool-\u003eConfig a",
@@ -7658,6 +8300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.XSelection",
           "name": "getExportSelection",
           "package": "uni-htk",
@@ -7667,6 +8310,7 @@
         },
         "index": {
           "hierarchy": "HTk Devices XSelection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.XSelection",
           "name": "getExportSelection",
           "normalized": "a-\u003eIO Bool",
@@ -7683,6 +8327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the current X selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Devices.XSelection",
           "name": "getXSelection",
           "package": "uni-htk",
@@ -7693,6 +8338,7 @@
         "index": {
           "description": "Gets the current selection",
           "hierarchy": "HTk Devices XSelection",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Devices.XSelection",
           "name": "getXSelection",
           "normalized": "Screen a-\u003eXSelection-\u003eTargetType-\u003eIO b",
@@ -7709,6 +8355,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types and classes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.BaseClasses",
           "name": "BaseClasses",
           "package": "uni-htk",
@@ -7718,6 +8365,7 @@
         "index": {
           "description": "Basic types and classes",
           "hierarchy": "HTk Kernel BaseClasses",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.BaseClasses",
           "name": "BaseClasses",
           "package": "uni-htk",
@@ -7732,6 +8380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets instantiate the \u003ccode\u003eclass Widget\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.BaseClasses",
           "name": "Widget",
           "package": "uni-htk",
@@ -7741,6 +8390,7 @@
         "index": {
           "description": "Widgets instantiate the class Widget",
           "hierarchy": "HTk Kernel BaseClasses",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.BaseClasses",
           "name": "Widget",
           "package": "uni-htk",
@@ -7754,6 +8404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.BaseClasses",
           "name": "cursor",
           "package": "uni-htk",
@@ -7763,6 +8414,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel BaseClasses",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.BaseClasses",
           "name": "cursor",
           "normalized": "a-\u003eConfig b",
@@ -7777,6 +8429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.BaseClasses",
           "name": "getCursor",
           "package": "uni-htk",
@@ -7786,6 +8439,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel BaseClasses",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.BaseClasses",
           "name": "getCursor",
           "normalized": "a-\u003eIO Cursor",
@@ -7801,6 +8455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.BaseClasses",
           "name": "getTakeFocus",
           "package": "uni-htk",
@@ -7810,6 +8465,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel BaseClasses",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.BaseClasses",
           "name": "getTakeFocus",
           "normalized": "a-\u003eIO Bool",
@@ -7825,6 +8481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.BaseClasses",
           "name": "takeFocus",
           "package": "uni-htk",
@@ -7834,6 +8491,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel BaseClasses",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.BaseClasses",
           "name": "takeFocus",
           "normalized": "Bool-\u003eConfig a",
@@ -7850,6 +8508,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides general functionality on button widgets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.ButtonWidget",
           "name": "ButtonWidget",
           "package": "uni-htk",
@@ -7859,6 +8518,7 @@
         "index": {
           "description": "This module provides general functionality on button widgets",
           "hierarchy": "HTk Kernel ButtonWidget",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.ButtonWidget",
           "name": "ButtonWidget",
           "package": "uni-htk",
@@ -7873,6 +8533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton widgets instantiate the \u003ccode\u003eclass ButtonWidget\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.ButtonWidget",
           "name": "ButtonWidget",
           "package": "uni-htk",
@@ -7882,6 +8543,7 @@
         "index": {
           "description": "Button widgets instantiate the class ButtonWidget",
           "hierarchy": "HTk Kernel ButtonWidget",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.ButtonWidget",
           "name": "ButtonWidget",
           "package": "uni-htk",
@@ -7922,6 +8584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.ButtonWidget",
           "name": "flash",
           "package": "uni-htk",
@@ -7931,6 +8594,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel ButtonWidget",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.ButtonWidget",
           "name": "flash",
           "normalized": "a-\u003eIO()",
@@ -7945,6 +8609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.ButtonWidget",
           "name": "invoke",
           "package": "uni-htk",
@@ -7954,6 +8619,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel ButtonWidget",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.ButtonWidget",
           "name": "invoke",
           "normalized": "a-\u003eIO()",
@@ -7969,6 +8635,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the bare-bones interface which actually calls the wish program.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.CallWish",
           "name": "CallWish",
           "package": "uni-htk",
@@ -7978,6 +8645,7 @@
         "index": {
           "description": "This is the bare-bones interface which actually calls the wish program",
           "hierarchy": "HTk Kernel CallWish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.CallWish",
           "name": "CallWish",
           "package": "uni-htk",
@@ -7991,6 +8659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.CallWish",
           "name": "CalledWish",
           "package": "uni-htk",
@@ -7999,6 +8668,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel CallWish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.CallWish",
           "name": "CalledWish",
           "package": "uni-htk",
@@ -8012,6 +8682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.CallWish",
           "name": "callWish",
           "package": "uni-htk",
@@ -8021,6 +8692,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel CallWish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.CallWish",
           "name": "callWish",
           "package": "uni-htk",
@@ -8034,6 +8706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.CallWish",
           "name": "destroyCalledWish",
           "package": "uni-htk",
@@ -8043,6 +8716,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel CallWish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.CallWish",
           "name": "destroyCalledWish",
           "normalized": "CalledWish-\u003eIO()",
@@ -8058,6 +8732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.CallWish",
           "name": "readCalledWish",
           "package": "uni-htk",
@@ -8067,6 +8742,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel CallWish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.CallWish",
           "name": "readCalledWish",
           "normalized": "CalledWish-\u003eIO String",
@@ -8082,6 +8758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.CallWish",
           "name": "sendCalledWish",
           "package": "uni-htk",
@@ -8091,6 +8768,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel CallWish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.CallWish",
           "name": "sendCalledWish",
           "normalized": "CalledWish-\u003eCStringLen-\u003eIO()",
@@ -8107,6 +8785,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types and classes for coloured resources.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Colour",
           "name": "Colour",
           "package": "uni-htk",
@@ -8116,6 +8795,7 @@
         "index": {
           "description": "Basic types and classes for coloured resources",
           "hierarchy": "HTk Kernel Colour",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Colour",
           "name": "Colour",
           "package": "uni-htk",
@@ -8130,6 +8810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eColour\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Colour",
           "name": "Colour",
           "package": "uni-htk",
@@ -8139,6 +8820,7 @@
         "index": {
           "description": "The Colour datatype",
           "hierarchy": "HTk Kernel Colour",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Colour",
           "name": "Colour",
           "package": "uni-htk",
@@ -8153,6 +8835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatypes that describe a colour instantiate the\n \u003ccode\u003eclass ColourDesignator\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Colour",
           "name": "ColourDesignator",
           "package": "uni-htk",
@@ -8162,6 +8845,7 @@
         "index": {
           "description": "Datatypes that describe colour instantiate the class ColourDesignator",
           "hierarchy": "HTk Kernel Colour",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Colour",
           "name": "ColourDesignator",
           "package": "uni-htk",
@@ -8175,6 +8859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Colour",
           "name": "Colour",
           "package": "uni-htk",
@@ -8184,6 +8869,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Colour",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Colour",
           "name": "Colour",
           "package": "uni-htk",
@@ -8197,6 +8883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Colour",
           "name": "toColour",
           "package": "uni-htk",
@@ -8206,6 +8893,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Colour",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Colour",
           "name": "toColour",
           "normalized": "a-\u003eColour",
@@ -8222,6 +8910,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types and classes concerning widget configuration.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "Configuration",
           "package": "uni-htk",
@@ -8231,6 +8920,7 @@
         "index": {
           "description": "Basic types and classes concerning widget configuration",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "Configuration",
           "package": "uni-htk",
@@ -8245,6 +8935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects with a configureable alignment instantiate the\n \u003ccode\u003eclass HasAlign\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasAlign",
           "package": "uni-htk",
@@ -8254,6 +8945,7 @@
         "index": {
           "description": "Objects with configureable alignment instantiate the class HasAlign",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasAlign",
           "package": "uni-htk",
@@ -8268,6 +8960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects that have an anchor position instantiate the\n \u003ccode\u003eclass HasAnchor\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasAnchor",
           "package": "uni-htk",
@@ -8277,6 +8970,7 @@
         "index": {
           "description": "Objects that have an anchor position instantiate the class HasAnchor",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasAnchor",
           "package": "uni-htk",
@@ -8291,6 +8985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects or sets of objects with a bounding box (e.g. canvas tags)\n instantiate the \u003ccode\u003eclass HasBBox\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasBBox",
           "package": "uni-htk",
@@ -8300,6 +8995,7 @@
         "index": {
           "description": "Objects or sets of objects with bounding box e.g canvas tags instantiate the class HasBBox",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasBBox",
           "package": "uni-htk",
@@ -8314,6 +9010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects with a configureable border instantiate the\n \u003ccode\u003eclass HasBorder\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasBorder",
           "package": "uni-htk",
@@ -8323,6 +9020,7 @@
         "index": {
           "description": "Objects with configureable border instantiate the class HasBorder",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasBorder",
           "package": "uni-htk",
@@ -8337,6 +9035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCanvasitems with an anchor position on the canvas instantiate the\n \u003ccode\u003eclass HasCanvAnchor\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasCanvAnchor",
           "package": "uni-htk",
@@ -8346,6 +9045,7 @@
         "index": {
           "description": "Canvasitems with an anchor position on the canvas instantiate the class HasCanvAnchor",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasCanvAnchor",
           "package": "uni-htk",
@@ -8360,6 +9060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColoured objects instantiate the \u003ccode\u003eclass HasColour\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasColour",
           "package": "uni-htk",
@@ -8369,6 +9070,7 @@
         "index": {
           "description": "Coloured objects instantiate the class HasColour",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasColour",
           "package": "uni-htk",
@@ -8383,6 +9085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStateful objects that can be enabled or disabled instantiate the\n \u003ccode\u003eclass HasEnable\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasEnable",
           "package": "uni-htk",
@@ -8392,6 +9095,7 @@
         "index": {
           "description": "Stateful objects that can be enabled or disabled instantiate the class HasEnable",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasEnable",
           "package": "uni-htk",
@@ -8406,6 +9110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects associated with a file instantiate the\n \u003ccode\u003eclass HasFile\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasFile",
           "package": "uni-htk",
@@ -8415,6 +9120,7 @@
         "index": {
           "description": "Objects associated with file instantiate the class HasFile",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasFile",
           "package": "uni-htk",
@@ -8429,6 +9135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects with a configureable font instantiate the\n \u003ccode\u003eclass HasFont\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasFont",
           "package": "uni-htk",
@@ -8438,6 +9145,7 @@
         "index": {
           "description": "Objects with configureable font instantiate the class HasFont",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasFont",
           "package": "uni-htk",
@@ -8452,6 +9160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects with a configureable size and position instantiate the\n \u003ccode\u003eclass HasGeometry\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasGeometry",
           "package": "uni-htk",
@@ -8461,6 +9170,7 @@
         "index": {
           "description": "Objects with configureable size and position instantiate the class HasGeometry",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasGeometry",
           "package": "uni-htk",
@@ -8475,6 +9185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects that support geometry gridding instantiate the\n \u003ccode\u003eclass HasGrid\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasGrid",
           "package": "uni-htk",
@@ -8484,6 +9195,7 @@
         "index": {
           "description": "Objects that support geometry gridding instantiate the class HasGrid",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasGrid",
           "package": "uni-htk",
@@ -8498,6 +9210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrementable objects (e.g. scale wigdgets) instantiate the\n \u003ccode\u003eclass HasIncrement\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasIncrement",
           "package": "uni-htk",
@@ -8507,6 +9220,7 @@
         "index": {
           "description": "Incrementable objects e.g scale wigdgets instantiate the class HasIncrement",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasIncrement",
           "package": "uni-htk",
@@ -8521,6 +9235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects that have a configureable text justification instantiate the\n \u003ccode\u003eclass HasJustify\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasJustify",
           "package": "uni-htk",
@@ -8530,6 +9245,7 @@
         "index": {
           "description": "Objects that have configureable text justification instantiate the class HasJustify",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasJustify",
           "package": "uni-htk",
@@ -8544,6 +9260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriented objects instantiate the \u003ccode\u003eclass HasOrientation\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasOrientation",
           "package": "uni-htk",
@@ -8553,6 +9270,7 @@
         "index": {
           "description": "Oriented objects instantiate the class HasOrientation",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasOrientation",
           "package": "uni-htk",
@@ -8567,6 +9285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects with a configureable positon (e.g. canvas items) instantiate\n the \u003ccode\u003eclass HasPosition\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasPosition",
           "package": "uni-htk",
@@ -8576,6 +9295,7 @@
         "index": {
           "description": "Objects with configureable positon e.g canvas items instantiate the class HasPosition",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasPosition",
           "package": "uni-htk",
@@ -8590,6 +9310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects with a configureable size instantiate the\n \u003ccode\u003eclass HasSize\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasSize",
           "package": "uni-htk",
@@ -8599,6 +9320,7 @@
         "index": {
           "description": "Objects with configureable size instantiate the class HasSize",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasSize",
           "package": "uni-htk",
@@ -8613,6 +9335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects containing text instantiate the class\n \u003ccode\u003eHasText\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasText",
           "package": "uni-htk",
@@ -8622,6 +9345,7 @@
         "index": {
           "description": "Objects containing text instantiate the class HasText",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasText",
           "package": "uni-htk",
@@ -8636,6 +9360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects that have a text underline configure option instantiate th\n \u003ccode\u003eclass HasUnderline\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasUnderline",
           "package": "uni-htk",
@@ -8645,6 +9370,7 @@
         "index": {
           "description": "Objects that have text underline configure option instantiate th class HasUnderline",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasUnderline",
           "package": "uni-htk",
@@ -8659,6 +9385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects that have a value instantiate the\n \u003ccode\u003eclass HasValue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "HasValue",
           "package": "uni-htk",
@@ -8668,6 +9395,7 @@
         "index": {
           "description": "Objects that have value instantiate the class HasValue",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "HasValue",
           "package": "uni-htk",
@@ -8682,6 +9410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the active background colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "activeBackground",
           "package": "uni-htk",
@@ -8692,6 +9421,7 @@
         "index": {
           "description": "Sets the active background colour",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "activeBackground",
           "normalized": "a-\u003eConfig b",
@@ -8708,6 +9438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the active foreground colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "activeForeground",
           "package": "uni-htk",
@@ -8718,6 +9449,7 @@
         "index": {
           "description": "Sets the active foreground colour",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "activeForeground",
           "normalized": "a-\u003eConfig b",
@@ -8733,6 +9465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "align",
           "package": "uni-htk",
@@ -8742,6 +9475,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "align",
           "normalized": "Alignment-\u003eConfig a",
@@ -8756,6 +9490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "anchor",
           "package": "uni-htk",
@@ -8765,6 +9500,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "anchor",
           "normalized": "Anchor-\u003eConfig a",
@@ -8780,6 +9516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the background colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "background",
           "package": "uni-htk",
@@ -8790,6 +9527,7 @@
         "index": {
           "description": "Sets the background colour",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "background",
           "normalized": "a-\u003eConfig b",
@@ -8804,6 +9542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "bbox",
           "package": "uni-htk",
@@ -8813,6 +9552,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "bbox",
           "normalized": "a-\u003eb-\u003eIO(Maybe(Distance,Distance,Distance,Distance))",
@@ -8828,6 +9568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the background colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "bg",
           "package": "uni-htk",
@@ -8838,6 +9579,7 @@
         "index": {
           "description": "Sets the background colour",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "bg",
           "normalized": "a-\u003eConfig b",
@@ -8852,6 +9594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "borderwidth",
           "package": "uni-htk",
@@ -8861,6 +9604,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "borderwidth",
           "normalized": "Distance-\u003eConfig a",
@@ -8875,6 +9619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "canvAnchor",
           "package": "uni-htk",
@@ -8884,6 +9629,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "canvAnchor",
           "normalized": "Anchor-\u003eConfig a",
@@ -8899,6 +9645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "disable",
           "package": "uni-htk",
@@ -8908,6 +9655,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "disable",
           "package": "uni-htk",
@@ -8921,6 +9669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the disabled foreground colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "disabledForeground",
           "package": "uni-htk",
@@ -8931,6 +9680,7 @@
         "index": {
           "description": "Sets the disabled foreground colour",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "disabledForeground",
           "normalized": "a-\u003eConfig b",
@@ -8946,6 +9696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "enable",
           "package": "uni-htk",
@@ -8955,6 +9706,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "enable",
           "package": "uni-htk",
@@ -8968,6 +9720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the foreground colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "fg",
           "package": "uni-htk",
@@ -8978,6 +9731,7 @@
         "index": {
           "description": "Sets the foreground colour",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "fg",
           "normalized": "a-\u003eConfig b",
@@ -8992,6 +9746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "filename",
           "package": "uni-htk",
@@ -9001,6 +9756,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "filename",
           "normalized": "String-\u003eConfig a",
@@ -9015,6 +9771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "font",
           "package": "uni-htk",
@@ -9024,6 +9781,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "font",
           "normalized": "a-\u003eConfig b",
@@ -9039,6 +9797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the foreground colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "foreground",
           "package": "uni-htk",
@@ -9049,6 +9808,7 @@
         "index": {
           "description": "Sets the foreground colour",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "foreground",
           "normalized": "a-\u003eConfig b",
@@ -9063,6 +9823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "geometry",
           "package": "uni-htk",
@@ -9072,6 +9833,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "geometry",
           "normalized": "Geometry-\u003eConfig a",
@@ -9087,6 +9849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the active background colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getActiveBackground",
           "package": "uni-htk",
@@ -9097,6 +9860,7 @@
         "index": {
           "description": "Gets the active background colour",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getActiveBackground",
           "normalized": "a-\u003eIO Colour",
@@ -9113,6 +9877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the active foreground colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getActiveForeground",
           "package": "uni-htk",
@@ -9123,6 +9888,7 @@
         "index": {
           "description": "Gets the active foreground colour",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getActiveForeground",
           "normalized": "a-\u003eIO Colour",
@@ -9138,6 +9904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getAlign",
           "package": "uni-htk",
@@ -9147,6 +9914,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getAlign",
           "normalized": "a-\u003eIO Alignment",
@@ -9162,6 +9930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getAnchor",
           "package": "uni-htk",
@@ -9171,6 +9940,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getAnchor",
           "normalized": "a-\u003eIO Anchor",
@@ -9187,6 +9957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the background colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getBackground",
           "package": "uni-htk",
@@ -9197,6 +9968,7 @@
         "index": {
           "description": "Gets the background colour",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getBackground",
           "normalized": "a-\u003eIO Colour",
@@ -9212,6 +9984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getBorderwidth",
           "package": "uni-htk",
@@ -9221,6 +9994,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getBorderwidth",
           "normalized": "a-\u003eIO Distance",
@@ -9236,6 +10010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getCanvAnchor",
           "package": "uni-htk",
@@ -9245,6 +10020,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getCanvAnchor",
           "normalized": "a-\u003eIO Anchor",
@@ -9260,6 +10036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getColour",
           "package": "uni-htk",
@@ -9269,6 +10046,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getColour",
           "normalized": "a-\u003eConfigID-\u003eIO Colour",
@@ -9285,6 +10063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the disabled foreground colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getDisabledForeground",
           "package": "uni-htk",
@@ -9295,6 +10074,7 @@
         "index": {
           "description": "Gets the disabled foreground colour",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getDisabledForeground",
           "normalized": "a-\u003eIO Colour",
@@ -9310,6 +10090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getFileName",
           "package": "uni-htk",
@@ -9319,6 +10100,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getFileName",
           "normalized": "a-\u003eIO String",
@@ -9334,6 +10116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getFont",
           "package": "uni-htk",
@@ -9343,6 +10126,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getFont",
           "normalized": "a-\u003eIO Font",
@@ -9359,6 +10143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the foreground colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getForeground",
           "package": "uni-htk",
@@ -9369,6 +10154,7 @@
         "index": {
           "description": "Gets the foreground colour",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getForeground",
           "normalized": "a-\u003eIO Colour",
@@ -9384,6 +10170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getGeometry",
           "package": "uni-htk",
@@ -9393,6 +10180,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getGeometry",
           "normalized": "a-\u003eIO Geometry",
@@ -9408,6 +10196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getGrid",
           "package": "uni-htk",
@@ -9417,6 +10206,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getGrid",
           "normalized": "a-\u003eIO Toggle",
@@ -9432,6 +10222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getHeight",
           "package": "uni-htk",
@@ -9441,6 +10232,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getHeight",
           "normalized": "a-\u003eIO Distance",
@@ -9456,6 +10248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getIncrement",
           "package": "uni-htk",
@@ -9465,6 +10258,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getIncrement",
           "normalized": "a-\u003eIO b",
@@ -9480,6 +10274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getJustify",
           "package": "uni-htk",
@@ -9489,6 +10284,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getJustify",
           "normalized": "a-\u003eIO Justify",
@@ -9504,6 +10300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getOrient",
           "package": "uni-htk",
@@ -9513,6 +10310,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getOrient",
           "normalized": "a-\u003eIO Orientation",
@@ -9528,6 +10326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getPosition",
           "package": "uni-htk",
@@ -9537,6 +10336,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getPosition",
           "normalized": "a-\u003eIO Position",
@@ -9552,6 +10352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getRelief",
           "package": "uni-htk",
@@ -9561,6 +10362,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getRelief",
           "normalized": "a-\u003eIO Relief",
@@ -9576,6 +10378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getSize",
           "package": "uni-htk",
@@ -9585,6 +10388,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getSize",
           "normalized": "a-\u003eIO Size",
@@ -9600,6 +10404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getState",
           "package": "uni-htk",
@@ -9609,6 +10414,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getState",
           "normalized": "a-\u003eIO State",
@@ -9624,6 +10430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getText",
           "package": "uni-htk",
@@ -9633,6 +10440,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getText",
           "normalized": "a-\u003eIO b",
@@ -9648,6 +10456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getUnderline",
           "package": "uni-htk",
@@ -9657,6 +10466,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getUnderline",
           "normalized": "a-\u003eIO Int",
@@ -9672,6 +10482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getValue",
           "package": "uni-htk",
@@ -9681,6 +10492,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getValue",
           "normalized": "a-\u003eIO b",
@@ -9696,6 +10508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getWidth",
           "package": "uni-htk",
@@ -9705,6 +10518,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getWidth",
           "normalized": "a-\u003eIO Distance",
@@ -9720,6 +10534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "getWraplength",
           "package": "uni-htk",
@@ -9729,6 +10544,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "getWraplength",
           "normalized": "a-\u003eIO Int",
@@ -9745,6 +10561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "hasBackGroundColour",
           "package": "uni-htk",
@@ -9755,6 +10572,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "hasBackGroundColour",
           "normalized": "a-\u003eConfigID-\u003eBool",
@@ -9771,6 +10589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "hasForeGroundColour",
           "package": "uni-htk",
@@ -9781,6 +10600,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "hasForeGroundColour",
           "normalized": "a-\u003eConfigID-\u003eBool",
@@ -9796,6 +10616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "height",
           "package": "uni-htk",
@@ -9805,6 +10626,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "height",
           "normalized": "Distance-\u003eConfig a",
@@ -9819,6 +10641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "increment",
           "package": "uni-htk",
@@ -9828,6 +10651,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "increment",
           "normalized": "a-\u003eConfig b",
@@ -9842,6 +10666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "isEnabled",
           "package": "uni-htk",
@@ -9851,6 +10676,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "isEnabled",
           "normalized": "a-\u003eIO Bool",
@@ -9866,6 +10692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "justify",
           "package": "uni-htk",
@@ -9875,6 +10702,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "justify",
           "normalized": "Justify-\u003eConfig a",
@@ -9889,6 +10717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "legalColourID",
           "package": "uni-htk",
@@ -9898,6 +10727,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "legalColourID",
           "normalized": "a-\u003eConfigID-\u003eBool",
@@ -9913,6 +10743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "orient",
           "package": "uni-htk",
@@ -9922,6 +10753,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "orient",
           "normalized": "Orientation-\u003eConfig a",
@@ -9936,6 +10768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "position",
           "package": "uni-htk",
@@ -9945,6 +10778,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "position",
           "normalized": "Position-\u003eConfig a",
@@ -9959,6 +10793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "relief",
           "package": "uni-htk",
@@ -9968,6 +10803,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "relief",
           "normalized": "Relief-\u003eConfig a",
@@ -9982,6 +10818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "setColour",
           "package": "uni-htk",
@@ -9991,6 +10828,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "setColour",
           "normalized": "a-\u003eConfigID-\u003eColour-\u003eIO a",
@@ -10006,6 +10844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "setgrid",
           "package": "uni-htk",
@@ -10015,6 +10854,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "setgrid",
           "normalized": "Toggle-\u003eConfig a",
@@ -10029,6 +10869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "size",
           "package": "uni-htk",
@@ -10038,6 +10879,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "size",
           "normalized": "Size-\u003eConfig a",
@@ -10052,6 +10894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "state",
           "package": "uni-htk",
@@ -10061,6 +10904,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "state",
           "normalized": "State-\u003eConfig a",
@@ -10075,6 +10919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "text",
           "package": "uni-htk",
@@ -10084,6 +10929,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "text",
           "normalized": "a-\u003eConfig b",
@@ -10098,6 +10944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "underline",
           "package": "uni-htk",
@@ -10107,6 +10954,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "underline",
           "normalized": "Int-\u003eConfig a",
@@ -10121,6 +10969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "value",
           "package": "uni-htk",
@@ -10130,6 +10979,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "value",
           "normalized": "a-\u003eConfig b",
@@ -10144,6 +10994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "width",
           "package": "uni-htk",
@@ -10153,6 +11004,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "width",
           "normalized": "Distance-\u003eConfig a",
@@ -10167,6 +11019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Configuration",
           "name": "wraplength",
           "package": "uni-htk",
@@ -10176,6 +11029,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Configuration",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Configuration",
           "name": "wraplength",
           "normalized": "Int-\u003eConfig a",
@@ -10190,6 +11044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "Core",
           "package": "uni-htk",
@@ -10198,6 +11053,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "Core",
           "package": "uni-htk",
@@ -10211,6 +11067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "BindTag",
           "package": "uni-htk",
@@ -10219,6 +11076,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "BindTag",
           "package": "uni-htk",
@@ -10232,6 +11090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "ConfigID",
           "package": "uni-htk",
@@ -10240,6 +11099,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "ConfigID",
           "package": "uni-htk",
@@ -10253,6 +11113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "ConfigOption",
           "package": "uni-htk",
@@ -10261,6 +11122,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "ConfigOption",
           "package": "uni-htk",
@@ -10274,6 +11136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "EventInfoSet",
           "package": "uni-htk",
@@ -10282,6 +11145,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "EventInfoSet",
           "package": "uni-htk",
@@ -10295,6 +11159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "GUI",
           "package": "uni-htk",
@@ -10303,6 +11168,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "GUI",
           "package": "uni-htk",
@@ -10316,6 +11182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "GUIOBJECT",
           "package": "uni-htk",
@@ -10324,6 +11191,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "GUIOBJECT",
           "package": "uni-htk",
@@ -10337,6 +11205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "GUIObject",
           "package": "uni-htk",
@@ -10345,6 +11214,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "GUIObject",
           "package": "uni-htk",
@@ -10358,6 +11228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "HasCommand",
           "package": "uni-htk",
@@ -10366,6 +11237,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "HasCommand",
           "package": "uni-htk",
@@ -10380,6 +11252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStateful objects that can be enabled or disabled instantiate the\n \u003ccode\u003eclass HasEnable\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "HasEnable",
           "package": "uni-htk",
@@ -10389,6 +11262,7 @@
         "index": {
           "description": "Stateful objects that can be enabled or disabled instantiate the class HasEnable",
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "HasEnable",
           "package": "uni-htk",
@@ -10402,6 +11276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "KeySym",
           "package": "uni-htk",
@@ -10410,6 +11285,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "KeySym",
           "package": "uni-htk",
@@ -10423,6 +11299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "Methods",
           "package": "uni-htk",
@@ -10431,6 +11308,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "Methods",
           "package": "uni-htk",
@@ -10444,6 +11322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "OST",
           "package": "uni-htk",
@@ -10452,6 +11331,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "OST",
           "package": "uni-htk",
@@ -10465,6 +11345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "Object",
           "package": "uni-htk",
@@ -10472,6 +11353,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "Object",
           "package": "uni-htk",
@@ -10485,6 +11367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "ObjectID",
           "package": "uni-htk",
@@ -10492,6 +11375,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "ObjectID",
           "package": "uni-htk",
@@ -10505,6 +11389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "TclCmd",
           "package": "uni-htk",
@@ -10513,6 +11398,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "TclCmd",
           "package": "uni-htk",
@@ -10526,6 +11412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "TclMessageType",
           "package": "uni-htk",
@@ -10534,6 +11421,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "TclMessageType",
           "package": "uni-htk",
@@ -10547,6 +11435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "TclScript",
           "package": "uni-htk",
@@ -10555,6 +11444,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "TclScript",
           "package": "uni-htk",
@@ -10568,6 +11458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "Wish",
           "package": "uni-htk",
@@ -10576,6 +11467,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "Wish",
           "package": "uni-htk",
@@ -10589,6 +11481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "WishEvent",
           "package": "uni-htk",
@@ -10597,6 +11490,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "WishEvent",
           "package": "uni-htk",
@@ -10610,6 +11504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "WishEventModifier",
           "package": "uni-htk",
@@ -10618,6 +11513,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "WishEventModifier",
           "package": "uni-htk",
@@ -10631,6 +11527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "WishEventType",
           "package": "uni-htk",
@@ -10639,6 +11536,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "WishEventType",
           "package": "uni-htk",
@@ -11204,6 +12102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "GUI",
           "package": "uni-htk",
@@ -11213,6 +12112,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "GUI",
           "package": "uni-htk",
@@ -11662,6 +12562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "ObjectID",
           "package": "uni-htk",
@@ -11670,6 +12571,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "ObjectID",
           "package": "uni-htk",
@@ -12097,6 +12999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "cget",
           "package": "uni-htk",
@@ -12106,6 +13009,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "cget",
           "normalized": "a-\u003eConfigID-\u003eIO b",
@@ -12170,6 +13074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "clicked",
           "package": "uni-htk",
@@ -12179,6 +13084,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "clicked",
           "normalized": "a-\u003eIO(Event())",
@@ -12193,6 +13099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "cname",
           "package": "uni-htk",
@@ -12202,6 +13109,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "cname",
           "normalized": "a-\u003eString",
@@ -12266,6 +13174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "createGUIObject",
           "package": "uni-htk",
@@ -12275,6 +13184,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "createGUIObject",
           "normalized": "GUIOBJECT-\u003eObjectKind-\u003eMethods-\u003eIO GUIOBJECT",
@@ -12290,6 +13200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "createHTkObject",
           "package": "uni-htk",
@@ -12299,6 +13210,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "createHTkObject",
           "normalized": "Methods-\u003eIO GUIOBJECT",
@@ -12314,6 +13226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "createWidget",
           "package": "uni-htk",
@@ -12323,6 +13236,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "createWidget",
           "normalized": "GUIOBJECT-\u003eObjectKind-\u003eIO GUIOBJECT",
@@ -12338,6 +13252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "cset",
           "package": "uni-htk",
@@ -12347,6 +13262,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "cset",
           "normalized": "a-\u003eConfigID-\u003eb-\u003eIO a",
@@ -12386,6 +13302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "defMethods",
           "package": "uni-htk",
@@ -12395,6 +13312,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "defMethods",
           "package": "uni-htk",
@@ -12458,6 +13376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "disable",
           "package": "uni-htk",
@@ -12467,6 +13386,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "disable",
           "package": "uni-htk",
@@ -12479,6 +13399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "enable",
           "package": "uni-htk",
@@ -12488,6 +13409,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "enable",
           "package": "uni-htk",
@@ -12525,6 +13447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "evalMethod",
           "package": "uni-htk",
@@ -12534,6 +13457,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "evalMethod",
           "normalized": "a-\u003e(ObjectName-\u003eTclScript)-\u003eIO b",
@@ -12622,6 +13546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "execMethod",
           "package": "uni-htk",
@@ -12631,6 +13556,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "execMethod",
           "normalized": "a-\u003e(ObjectName-\u003eTclScript)-\u003eIO()",
@@ -12671,6 +13597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "getGUI",
           "package": "uni-htk",
@@ -12680,6 +13607,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "getGUI",
           "package": "uni-htk",
@@ -12768,6 +13696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "getParentObject",
           "package": "uni-htk",
@@ -12777,6 +13706,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "getParentObject",
           "normalized": "a-\u003eIO(Maybe GUIOBJECT)",
@@ -12792,6 +13722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "getParentObjectID",
           "package": "uni-htk",
@@ -12801,6 +13732,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "getParentObjectID",
           "normalized": "GUIOBJECT-\u003eIO ObjectID",
@@ -12816,6 +13748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "getParentPathName",
           "package": "uni-htk",
@@ -12825,6 +13758,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "getParentPathName",
           "normalized": "a-\u003eIO(Maybe ObjectName)",
@@ -12840,6 +13774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "getState",
           "package": "uni-htk",
@@ -12849,6 +13784,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "getState",
           "normalized": "a-\u003eIO State",
@@ -12864,6 +13800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "getTclVariable",
           "package": "uni-htk",
@@ -12873,6 +13810,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "getTclVariable",
           "normalized": "String-\u003eIO a",
@@ -12913,6 +13851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "isEnabled",
           "package": "uni-htk",
@@ -12922,6 +13861,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "isEnabled",
           "normalized": "a-\u003eIO Bool",
@@ -12937,6 +13877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "lookupGUIObject",
           "package": "uni-htk",
@@ -12946,6 +13887,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "lookupGUIObject",
           "normalized": "ObjectID-\u003eIO GUIOBJECT",
@@ -12961,6 +13903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "lookupGUIObjectByName",
           "package": "uni-htk",
@@ -12970,6 +13913,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "lookupGUIObjectByName",
           "normalized": "WidgetName-\u003eIO(Maybe GUIOBJECT)",
@@ -13055,6 +13999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "objectID",
           "package": "uni-htk",
@@ -13063,6 +14008,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "objectID",
           "normalized": "a-\u003eObjectID",
@@ -13269,6 +14215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "setTclVariable",
           "package": "uni-htk",
@@ -13278,6 +14225,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "setTclVariable",
           "normalized": "String-\u003ea-\u003eIO()",
@@ -13293,6 +14241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "showConfig",
           "package": "uni-htk",
@@ -13302,6 +14251,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "showConfig",
           "normalized": "(ConfigID,GUIVALUE)-\u003eString",
@@ -13317,6 +14267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "showConfigs",
           "package": "uni-htk",
@@ -13326,6 +14277,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "showConfigs",
           "normalized": "[(ConfigID,GUIVALUE)]-\u003eString",
@@ -13365,6 +14317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "state",
           "package": "uni-htk",
@@ -13374,6 +14327,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "state",
           "normalized": "State-\u003eConfig a",
@@ -13388,6 +14342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "tkDeclVar",
           "package": "uni-htk",
@@ -13397,6 +14352,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "tkDeclVar",
           "normalized": "String-\u003eString-\u003eTclScript",
@@ -13412,6 +14368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "tkUndeclVar",
           "package": "uni-htk",
@@ -13421,6 +14378,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "tkUndeclVar",
           "normalized": "String-\u003eTclScript",
@@ -13436,6 +14394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "toGUIObject",
           "package": "uni-htk",
@@ -13445,6 +14404,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "toGUIObject",
           "normalized": "a-\u003eGUIOBJECT",
@@ -13485,6 +14445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Core",
           "name": "voidMethods",
           "package": "uni-htk",
@@ -13494,6 +14455,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Core",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Core",
           "name": "voidMethods",
           "package": "uni-htk",
@@ -13578,6 +14540,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types and classes associated with the mouse cursor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "Cursor",
           "package": "uni-htk",
@@ -13587,6 +14550,7 @@
         "index": {
           "description": "Basic types and classes associated with the mouse cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "Cursor",
           "package": "uni-htk",
@@ -13601,6 +14565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eBCursor\u003c/code\u003e datatype for bitmap cursors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "BCursor",
           "package": "uni-htk",
@@ -13610,6 +14575,7 @@
         "index": {
           "description": "The BCursor datatype for bitmap cursors",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "BCursor",
           "package": "uni-htk",
@@ -13624,6 +14590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe general \u003ccode\u003eCursor\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "Cursor",
           "package": "uni-htk",
@@ -13633,6 +14600,7 @@
         "index": {
           "description": "The general Cursor datatype",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "Cursor",
           "package": "uni-htk",
@@ -13647,6 +14615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatypes that describe cursors instantiate the\n \u003ccode\u003eclass CursorDesignator\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "CursorDesignator",
           "package": "uni-htk",
@@ -13656,6 +14625,7 @@
         "index": {
           "description": "Datatypes that describe cursors instantiate the class CursorDesignator",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "CursorDesignator",
           "package": "uni-htk",
@@ -13670,6 +14640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eXCursor\u003c/code\u003e dataype for predefined X cursors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "XCursor",
           "package": "uni-htk",
@@ -13679,6 +14650,7 @@
         "index": {
           "description": "The XCursor dataype for predefined cursors",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "XCursor",
           "package": "uni-htk",
@@ -13692,6 +14664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "BCursor",
           "package": "uni-htk",
@@ -13701,6 +14674,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "BCursor",
           "package": "uni-htk",
@@ -13714,6 +14688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "Cursor",
           "package": "uni-htk",
@@ -13723,6 +14698,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "Cursor",
           "package": "uni-htk",
@@ -13736,6 +14712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "XCursor",
           "package": "uni-htk",
@@ -13745,6 +14722,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "XCursor",
           "package": "uni-htk",
@@ -13759,6 +14737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "arrow",
           "package": "uni-htk",
@@ -13769,6 +14748,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "arrow",
           "package": "uni-htk",
@@ -13782,6 +14762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "circle",
           "package": "uni-htk",
@@ -13792,6 +14773,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "circle",
           "package": "uni-htk",
@@ -13805,6 +14787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "clock",
           "package": "uni-htk",
@@ -13815,6 +14798,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "clock",
           "package": "uni-htk",
@@ -13828,6 +14812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "diamondCross",
           "package": "uni-htk",
@@ -13838,6 +14823,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "diamondCross",
           "package": "uni-htk",
@@ -13852,6 +14838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "dot",
           "package": "uni-htk",
@@ -13862,6 +14849,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "dot",
           "package": "uni-htk",
@@ -13875,6 +14863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "drapedBox",
           "package": "uni-htk",
@@ -13885,6 +14874,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "drapedBox",
           "package": "uni-htk",
@@ -13899,6 +14889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "exchange",
           "package": "uni-htk",
@@ -13909,6 +14900,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "exchange",
           "package": "uni-htk",
@@ -13922,6 +14914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "fleur",
           "package": "uni-htk",
@@ -13932,6 +14925,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "fleur",
           "package": "uni-htk",
@@ -13945,6 +14939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "gobbler",
           "package": "uni-htk",
@@ -13955,6 +14950,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "gobbler",
           "package": "uni-htk",
@@ -13968,6 +14964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "gumby",
           "package": "uni-htk",
@@ -13978,6 +14975,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "gumby",
           "package": "uni-htk",
@@ -13991,6 +14989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "hand1",
           "package": "uni-htk",
@@ -14001,6 +15000,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "hand1",
           "package": "uni-htk",
@@ -14014,6 +15014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "hand2",
           "package": "uni-htk",
@@ -14024,6 +15025,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "hand2",
           "package": "uni-htk",
@@ -14037,6 +15039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "pencil",
           "package": "uni-htk",
@@ -14047,6 +15050,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "pencil",
           "package": "uni-htk",
@@ -14060,6 +15064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "plus",
           "package": "uni-htk",
@@ -14070,6 +15075,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "plus",
           "package": "uni-htk",
@@ -14083,6 +15089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "spraycan",
           "package": "uni-htk",
@@ -14093,6 +15100,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "spraycan",
           "package": "uni-htk",
@@ -14106,6 +15114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "tcross",
           "package": "uni-htk",
@@ -14116,6 +15125,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "tcross",
           "package": "uni-htk",
@@ -14128,6 +15138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "toCursor",
           "package": "uni-htk",
@@ -14137,6 +15148,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "toCursor",
           "normalized": "a-\u003eCursor",
@@ -14153,6 +15165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "watch",
           "package": "uni-htk",
@@ -14163,6 +15176,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "watch",
           "package": "uni-htk",
@@ -14176,6 +15190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard X cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Cursor",
           "name": "xterm",
           "package": "uni-htk",
@@ -14186,6 +15201,7 @@
         "index": {
           "description": "standard cursor",
           "hierarchy": "HTk Kernel Cursor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Cursor",
           "name": "xterm",
           "package": "uni-htk",
@@ -14199,6 +15215,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEncapsulation of Event parameters used in TkCommands.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "EventInfo",
           "package": "uni-htk",
@@ -14208,6 +15225,7 @@
         "index": {
           "description": "Encapsulation of Event parameters used in TkCommands",
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "EventInfo",
           "package": "uni-htk",
@@ -14221,6 +15239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "EventInfo",
           "package": "uni-htk",
@@ -14229,6 +15248,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "EventInfo",
           "package": "uni-htk",
@@ -14242,6 +15262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "EventInfoSet",
           "package": "uni-htk",
@@ -14250,6 +15271,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "EventInfoSet",
           "package": "uni-htk",
@@ -14263,6 +15285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "EventParameter",
           "package": "uni-htk",
@@ -14271,6 +15294,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "EventParameter",
           "package": "uni-htk",
@@ -14284,6 +15308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "EventInfo",
           "package": "uni-htk",
@@ -14293,6 +15318,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "EventInfo",
           "package": "uni-htk",
@@ -14306,6 +15332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "HASH",
           "package": "uni-htk",
@@ -14315,6 +15342,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "HASH",
           "package": "uni-htk",
@@ -14328,6 +15356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "PA",
           "package": "uni-htk",
@@ -14337,6 +15366,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "PA",
           "package": "uni-htk",
@@ -14350,6 +15380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "PB",
           "package": "uni-htk",
@@ -14359,6 +15390,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "PB",
           "package": "uni-htk",
@@ -14372,6 +15404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "PE",
           "package": "uni-htk",
@@ -14381,6 +15414,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "PE",
           "package": "uni-htk",
@@ -14394,6 +15428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "PK",
           "package": "uni-htk",
@@ -14403,6 +15438,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "PK",
           "package": "uni-htk",
@@ -14416,6 +15452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "PN",
           "package": "uni-htk",
@@ -14425,6 +15462,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "PN",
           "package": "uni-htk",
@@ -14438,6 +15476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "PR",
           "package": "uni-htk",
@@ -14447,6 +15486,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "PR",
           "package": "uni-htk",
@@ -14460,6 +15500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "PS",
           "package": "uni-htk",
@@ -14469,6 +15510,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "PS",
           "package": "uni-htk",
@@ -14482,6 +15524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "PT",
           "package": "uni-htk",
@@ -14491,6 +15534,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "PT",
           "package": "uni-htk",
@@ -14504,6 +15548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "PW",
           "package": "uni-htk",
@@ -14513,6 +15558,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "PW",
           "package": "uni-htk",
@@ -14526,6 +15572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "PX",
           "package": "uni-htk",
@@ -14535,6 +15582,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "PX",
           "package": "uni-htk",
@@ -14548,6 +15596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "PY",
           "package": "uni-htk",
@@ -14557,6 +15606,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "PY",
           "package": "uni-htk",
@@ -14570,6 +15620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pa",
           "package": "uni-htk",
@@ -14579,6 +15630,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pa",
           "package": "uni-htk",
@@ -14592,6 +15644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pb",
           "package": "uni-htk",
@@ -14601,6 +15654,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pb",
           "package": "uni-htk",
@@ -14614,6 +15668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pc",
           "package": "uni-htk",
@@ -14623,6 +15678,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pc",
           "package": "uni-htk",
@@ -14636,6 +15692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pd",
           "package": "uni-htk",
@@ -14645,6 +15702,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pd",
           "package": "uni-htk",
@@ -14658,6 +15716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pf",
           "package": "uni-htk",
@@ -14667,6 +15726,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pf",
           "package": "uni-htk",
@@ -14680,6 +15740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Ph",
           "package": "uni-htk",
@@ -14689,6 +15750,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Ph",
           "package": "uni-htk",
@@ -14702,6 +15764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pk",
           "package": "uni-htk",
@@ -14711,6 +15774,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pk",
           "package": "uni-htk",
@@ -14724,6 +15788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pm",
           "package": "uni-htk",
@@ -14733,6 +15798,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pm",
           "package": "uni-htk",
@@ -14746,6 +15812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Po",
           "package": "uni-htk",
@@ -14755,6 +15822,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Po",
           "package": "uni-htk",
@@ -14768,6 +15836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pp",
           "package": "uni-htk",
@@ -14777,6 +15846,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pp",
           "package": "uni-htk",
@@ -14790,6 +15860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Ps",
           "package": "uni-htk",
@@ -14799,6 +15870,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Ps",
           "package": "uni-htk",
@@ -14812,6 +15884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pt",
           "package": "uni-htk",
@@ -14821,6 +15894,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pt",
           "package": "uni-htk",
@@ -14834,6 +15908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pv",
           "package": "uni-htk",
@@ -14843,6 +15918,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pv",
           "package": "uni-htk",
@@ -14856,6 +15932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pw",
           "package": "uni-htk",
@@ -14865,6 +15942,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Pw",
           "package": "uni-htk",
@@ -14878,6 +15956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Px",
           "package": "uni-htk",
@@ -14887,6 +15966,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Px",
           "package": "uni-htk",
@@ -14900,6 +15980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "Py",
           "package": "uni-htk",
@@ -14909,6 +15990,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "Py",
           "package": "uni-htk",
@@ -14922,6 +16004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "addEventInfoSet",
           "package": "uni-htk",
@@ -14931,6 +16014,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "addEventInfoSet",
           "normalized": "EventInfoSet-\u003e[EventParameter]-\u003eEventInfoSet",
@@ -14946,6 +16030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "button",
           "package": "uni-htk",
@@ -14955,6 +16040,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "button",
           "package": "uni-htk",
@@ -14967,6 +16053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "defaultEventInfoSet",
           "package": "uni-htk",
@@ -14976,6 +16063,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "defaultEventInfoSet",
           "package": "uni-htk",
@@ -14989,6 +16077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "delEventInfoSet",
           "package": "uni-htk",
@@ -14998,6 +16087,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "delEventInfoSet",
           "normalized": "EventInfoSet-\u003e[EventParameter]-\u003eEventInfoSet",
@@ -15013,6 +16103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "emptyEventInfoSet",
           "package": "uni-htk",
@@ -15022,6 +16113,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "emptyEventInfoSet",
           "package": "uni-htk",
@@ -15035,6 +16127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "epFromChar",
           "package": "uni-htk",
@@ -15044,6 +16137,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "epFromChar",
           "normalized": "Char-\u003eEventParameter",
@@ -15059,6 +16153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "epToChar",
           "package": "uni-htk",
@@ -15068,6 +16163,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "epToChar",
           "normalized": "EventParameter-\u003eChar",
@@ -15083,6 +16179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "listEventInfoSet",
           "package": "uni-htk",
@@ -15092,6 +16189,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "listEventInfoSet",
           "normalized": "EventInfoSet-\u003e[EventParameter]",
@@ -15107,6 +16205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "mkEventInfo",
           "package": "uni-htk",
@@ -15116,6 +16215,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "mkEventInfo",
           "normalized": "[(EventParameter,String)]-\u003eEventInfo",
@@ -15131,6 +16231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "mkEventInfoSet",
           "package": "uni-htk",
@@ -15140,6 +16241,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "mkEventInfoSet",
           "normalized": "[EventParameter]-\u003eEventInfoSet",
@@ -15155,6 +16257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "x",
           "package": "uni-htk",
@@ -15164,6 +16267,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "x",
           "package": "uni-htk",
@@ -15176,6 +16280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "xRoot",
           "package": "uni-htk",
@@ -15185,6 +16290,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "xRoot",
           "package": "uni-htk",
@@ -15198,6 +16304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "y",
           "package": "uni-htk",
@@ -15207,6 +16314,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "y",
           "package": "uni-htk",
@@ -15219,6 +16327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.EventInfo",
           "name": "yRoot",
           "package": "uni-htk",
@@ -15228,6 +16337,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel EventInfo",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.EventInfo",
           "name": "yRoot",
           "package": "uni-htk",
@@ -15242,6 +16352,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003emodule Font\u003c/code\u003e export basic types and classes concerning\n font resources.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Font",
           "package": "uni-htk",
@@ -15251,6 +16362,7 @@
         "index": {
           "description": "The module Font export basic types and classes concerning font resources",
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Font",
           "package": "uni-htk",
@@ -15265,6 +16377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe general \u003ccode\u003eFont\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Font",
           "package": "uni-htk",
@@ -15274,6 +16387,7 @@
         "index": {
           "description": "The general Font datatype",
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Font",
           "package": "uni-htk",
@@ -15288,6 +16402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatypes that describe a font instantiate the\n \u003ccode\u003eclass FontDesignator\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "FontDesignator",
           "package": "uni-htk",
@@ -15297,6 +16412,7 @@
         "index": {
           "description": "Datatypes that describe font instantiate the class FontDesignator",
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "FontDesignator",
           "package": "uni-htk",
@@ -15311,6 +16427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFontFamily\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "FontFamily",
           "package": "uni-htk",
@@ -15320,6 +16437,7 @@
         "index": {
           "description": "The FontFamily datatype",
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "FontFamily",
           "package": "uni-htk",
@@ -15334,6 +16452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFontSlant\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "FontSlant",
           "package": "uni-htk",
@@ -15343,6 +16462,7 @@
         "index": {
           "description": "The FontSlant datatype",
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "FontSlant",
           "package": "uni-htk",
@@ -15357,6 +16477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFontSpacing\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "FontSpacing",
           "package": "uni-htk",
@@ -15366,6 +16487,7 @@
         "index": {
           "description": "The FontSpacing datatype",
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "FontSpacing",
           "package": "uni-htk",
@@ -15380,6 +16502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFontWeight\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "FontWeight",
           "package": "uni-htk",
@@ -15389,6 +16512,7 @@
         "index": {
           "description": "The FontWeight datatype",
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "FontWeight",
           "package": "uni-htk",
@@ -15403,6 +16527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFontWidth\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "FontWidth",
           "package": "uni-htk",
@@ -15412,6 +16537,7 @@
         "index": {
           "description": "The FontWidth datatype",
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "FontWidth",
           "package": "uni-htk",
@@ -15426,6 +16552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eXFont\u003c/code\u003e datatype - representing the elements of an\n X font string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "XFont",
           "package": "uni-htk",
@@ -15435,6 +16562,7 @@
         "index": {
           "description": "The XFont datatype representing the elements of an font string",
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "XFont",
           "package": "uni-htk",
@@ -15448,6 +16576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Bold",
           "package": "uni-htk",
@@ -15457,6 +16586,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Bold",
           "package": "uni-htk",
@@ -15470,6 +16600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Condensed",
           "package": "uni-htk",
@@ -15479,6 +16610,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Condensed",
           "package": "uni-htk",
@@ -15492,6 +16624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Courier",
           "package": "uni-htk",
@@ -15501,6 +16634,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Courier",
           "package": "uni-htk",
@@ -15514,6 +16648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Font",
           "package": "uni-htk",
@@ -15523,6 +16658,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Font",
           "package": "uni-htk",
@@ -15536,6 +16672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Helvetica",
           "package": "uni-htk",
@@ -15545,6 +16682,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Helvetica",
           "package": "uni-htk",
@@ -15558,6 +16696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Italic",
           "package": "uni-htk",
@@ -15567,6 +16706,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Italic",
           "package": "uni-htk",
@@ -15580,6 +16720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Lucida",
           "package": "uni-htk",
@@ -15589,6 +16730,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Lucida",
           "package": "uni-htk",
@@ -15602,6 +16744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Medium",
           "package": "uni-htk",
@@ -15611,6 +16754,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Medium",
           "package": "uni-htk",
@@ -15624,6 +16768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "MonoSpace",
           "package": "uni-htk",
@@ -15633,6 +16778,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "MonoSpace",
           "package": "uni-htk",
@@ -15646,6 +16792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Narrow",
           "package": "uni-htk",
@@ -15655,6 +16802,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Narrow",
           "package": "uni-htk",
@@ -15668,6 +16816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "NormalWeight",
           "package": "uni-htk",
@@ -15677,6 +16826,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "NormalWeight",
           "package": "uni-htk",
@@ -15690,6 +16840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "NormalWidth",
           "package": "uni-htk",
@@ -15699,6 +16850,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "NormalWidth",
           "package": "uni-htk",
@@ -15712,6 +16864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Oblique",
           "package": "uni-htk",
@@ -15721,6 +16874,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Oblique",
           "package": "uni-htk",
@@ -15734,6 +16888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Other",
           "package": "uni-htk",
@@ -15743,6 +16898,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Other",
           "package": "uni-htk",
@@ -15756,6 +16912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Proportional",
           "package": "uni-htk",
@@ -15765,6 +16922,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Proportional",
           "package": "uni-htk",
@@ -15778,6 +16936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Roman",
           "package": "uni-htk",
@@ -15787,6 +16946,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Roman",
           "package": "uni-htk",
@@ -15800,6 +16960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Symbol",
           "package": "uni-htk",
@@ -15809,6 +16970,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Symbol",
           "package": "uni-htk",
@@ -15822,6 +16984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "Times",
           "package": "uni-htk",
@@ -15831,6 +16994,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "Times",
           "package": "uni-htk",
@@ -15844,6 +17008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "XFont",
           "package": "uni-htk",
@@ -15853,6 +17018,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "XFont",
           "package": "uni-htk",
@@ -15866,6 +17032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "XFontAlias",
           "package": "uni-htk",
@@ -15875,6 +17042,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "XFontAlias",
           "package": "uni-htk",
@@ -15888,6 +17056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "charset",
           "package": "uni-htk",
@@ -15897,6 +17066,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "charset",
           "package": "uni-htk",
@@ -15909,6 +17079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "charwidth",
           "package": "uni-htk",
@@ -15918,6 +17089,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "charwidth",
           "package": "uni-htk",
@@ -15930,6 +17102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "family",
           "package": "uni-htk",
@@ -15939,6 +17112,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "family",
           "package": "uni-htk",
@@ -15951,6 +17125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "fontwidth",
           "package": "uni-htk",
@@ -15960,6 +17135,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "fontwidth",
           "package": "uni-htk",
@@ -15972,6 +17148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "foundry",
           "package": "uni-htk",
@@ -15981,6 +17158,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "foundry",
           "package": "uni-htk",
@@ -15993,6 +17171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "pixels",
           "package": "uni-htk",
@@ -16002,6 +17181,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "pixels",
           "package": "uni-htk",
@@ -16014,6 +17194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "points",
           "package": "uni-htk",
@@ -16023,6 +17204,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "points",
           "package": "uni-htk",
@@ -16035,6 +17217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "slant",
           "package": "uni-htk",
@@ -16044,6 +17227,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "slant",
           "package": "uni-htk",
@@ -16056,6 +17240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "spacing",
           "package": "uni-htk",
@@ -16065,6 +17250,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "spacing",
           "package": "uni-htk",
@@ -16077,6 +17263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "toFont",
           "package": "uni-htk",
@@ -16086,6 +17273,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "toFont",
           "normalized": "a-\u003eFont",
@@ -16101,6 +17289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "weight",
           "package": "uni-htk",
@@ -16110,6 +17299,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "weight",
           "package": "uni-htk",
@@ -16123,6 +17313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "xfont",
           "package": "uni-htk",
@@ -16133,6 +17324,7 @@
         "index": {
           "description": "Standard font",
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "xfont",
           "package": "uni-htk",
@@ -16145,6 +17337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "xres",
           "package": "uni-htk",
@@ -16154,6 +17347,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "xres",
           "package": "uni-htk",
@@ -16166,6 +17360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Font",
           "name": "yres",
           "package": "uni-htk",
@@ -16175,6 +17370,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Font",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Font",
           "name": "yres",
           "package": "uni-htk",
@@ -16187,6 +17383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObject",
           "name": "GUIObject",
           "package": "uni-htk",
@@ -16195,6 +17392,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObject",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObject",
           "name": "GUIObject",
           "package": "uni-htk",
@@ -16208,6 +17406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObject",
           "name": "ConfigID",
           "package": "uni-htk",
@@ -16216,6 +17415,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObject",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObject",
           "name": "ConfigID",
           "package": "uni-htk",
@@ -16229,6 +17429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObject",
           "name": "ConfigOption",
           "package": "uni-htk",
@@ -16237,6 +17438,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObject",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObject",
           "name": "ConfigOption",
           "package": "uni-htk",
@@ -16250,6 +17452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObject",
           "name": "GUIOBJECT",
           "package": "uni-htk",
@@ -16258,6 +17461,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObject",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObject",
           "name": "GUIOBJECT",
           "package": "uni-htk",
@@ -16271,6 +17475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObject",
           "name": "GUIObject",
           "package": "uni-htk",
@@ -16279,6 +17484,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObject",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObject",
           "name": "GUIObject",
           "package": "uni-htk",
@@ -16292,6 +17498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObject",
           "name": "Methods",
           "package": "uni-htk",
@@ -16300,6 +17507,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObject",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObject",
           "name": "Methods",
           "package": "uni-htk",
@@ -16313,6 +17521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObject",
           "name": "OST",
           "package": "uni-htk",
@@ -16321,6 +17530,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObject",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObject",
           "name": "OST",
           "package": "uni-htk",
@@ -16334,6 +17544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObject",
           "name": "cget",
           "package": "uni-htk",
@@ -16343,6 +17554,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObject",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObject",
           "name": "cget",
           "normalized": "a-\u003eConfigID-\u003eIO b",
@@ -16357,6 +17569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObject",
           "name": "cname",
           "package": "uni-htk",
@@ -16366,6 +17579,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObject",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObject",
           "name": "cname",
           "normalized": "a-\u003eString",
@@ -16380,6 +17594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObject",
           "name": "cset",
           "package": "uni-htk",
@@ -16389,6 +17604,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObject",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObject",
           "name": "cset",
           "normalized": "a-\u003eConfigID-\u003eb-\u003eIO a",
@@ -16403,6 +17619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObject",
           "name": "getMethods",
           "package": "uni-htk",
@@ -16412,6 +17629,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObject",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObject",
           "name": "getMethods",
           "normalized": "GUIOBJECT-\u003eIO Methods",
@@ -16427,6 +17645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObject",
           "name": "newGUIObject",
           "package": "uni-htk",
@@ -16436,6 +17655,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObject",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObject",
           "name": "newGUIObject",
           "normalized": "GUIOBJECT-\u003eObjectKind-\u003eMethods-\u003eIO GUIOBJECT",
@@ -16451,6 +17671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObject",
           "name": "toGUIObject",
           "package": "uni-htk",
@@ -16460,6 +17681,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObject",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObject",
           "name": "toGUIObject",
           "normalized": "a-\u003eGUIOBJECT",
@@ -16475,6 +17697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "GUIObjectKind",
           "package": "uni-htk",
@@ -16483,6 +17706,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "GUIObjectKind",
           "package": "uni-htk",
@@ -16496,6 +17720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "CanvasItemKind",
           "package": "uni-htk",
@@ -16504,6 +17729,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "CanvasItemKind",
           "package": "uni-htk",
@@ -16517,6 +17743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MenuItemKind",
           "package": "uni-htk",
@@ -16525,6 +17752,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MenuItemKind",
           "package": "uni-htk",
@@ -16538,6 +17766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "ObjectKind",
           "package": "uni-htk",
@@ -16546,6 +17775,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "ObjectKind",
           "package": "uni-htk",
@@ -16559,6 +17789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "ABSTRACT",
           "package": "uni-htk",
@@ -16568,6 +17799,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "ABSTRACT",
           "package": "uni-htk",
@@ -16581,6 +17813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "ARC",
           "package": "uni-htk",
@@ -16590,6 +17823,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "ARC",
           "package": "uni-htk",
@@ -16603,6 +17837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "BITMAPITEM",
           "package": "uni-htk",
@@ -16612,6 +17847,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "BITMAPITEM",
           "package": "uni-htk",
@@ -16625,6 +17861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "BOX",
           "package": "uni-htk",
@@ -16634,6 +17871,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "BOX",
           "package": "uni-htk",
@@ -16647,6 +17885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "BUTTON",
           "package": "uni-htk",
@@ -16656,6 +17895,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "BUTTON",
           "package": "uni-htk",
@@ -16669,6 +17909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "CANVAS",
           "package": "uni-htk",
@@ -16678,6 +17919,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "CANVAS",
           "package": "uni-htk",
@@ -16691,6 +17933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "CANVASITEM",
           "package": "uni-htk",
@@ -16700,6 +17943,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "CANVASITEM",
           "package": "uni-htk",
@@ -16713,6 +17957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "CANVASTAG",
           "package": "uni-htk",
@@ -16722,6 +17967,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "CANVASTAG",
           "package": "uni-htk",
@@ -16735,6 +17981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "CHECKBUTTON",
           "package": "uni-htk",
@@ -16744,6 +17991,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "CHECKBUTTON",
           "package": "uni-htk",
@@ -16757,6 +18005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "COMBOBOX",
           "package": "uni-htk",
@@ -16766,6 +18015,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "COMBOBOX",
           "package": "uni-htk",
@@ -16779,6 +18029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "EMBEDDEDCANVASWIN",
           "package": "uni-htk",
@@ -16788,6 +18039,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "EMBEDDEDCANVASWIN",
           "package": "uni-htk",
@@ -16801,6 +18053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "EMBEDDEDTEXTWIN",
           "package": "uni-htk",
@@ -16810,6 +18063,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "EMBEDDEDTEXTWIN",
           "package": "uni-htk",
@@ -16823,6 +18077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "ENTRY",
           "package": "uni-htk",
@@ -16832,6 +18087,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "ENTRY",
           "package": "uni-htk",
@@ -16845,6 +18101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "FRAME",
           "package": "uni-htk",
@@ -16854,6 +18111,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "FRAME",
           "package": "uni-htk",
@@ -16867,6 +18125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "GRAPH",
           "package": "uni-htk",
@@ -16876,6 +18135,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "GRAPH",
           "package": "uni-htk",
@@ -16889,6 +18149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "IMAGEITEM",
           "package": "uni-htk",
@@ -16898,6 +18159,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "IMAGEITEM",
           "package": "uni-htk",
@@ -16911,6 +18173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "LABEL",
           "package": "uni-htk",
@@ -16920,6 +18183,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "LABEL",
           "package": "uni-htk",
@@ -16933,6 +18197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "LABELFRAME",
           "package": "uni-htk",
@@ -16942,6 +18207,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "LABELFRAME",
           "package": "uni-htk",
@@ -16955,6 +18221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "LINE",
           "package": "uni-htk",
@@ -16964,6 +18231,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "LINE",
           "package": "uni-htk",
@@ -16977,6 +18245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "LISTBOX",
           "package": "uni-htk",
@@ -16986,6 +18255,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "LISTBOX",
           "normalized": "LISTBOX[GUIVALUE]",
@@ -17001,6 +18271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENU",
           "package": "uni-htk",
@@ -17010,6 +18281,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENU",
           "package": "uni-htk",
@@ -17023,6 +18295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENUBUTTON",
           "package": "uni-htk",
@@ -17032,6 +18305,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENUBUTTON",
           "package": "uni-htk",
@@ -17045,6 +18319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENUCASCADE",
           "package": "uni-htk",
@@ -17054,6 +18329,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENUCASCADE",
           "package": "uni-htk",
@@ -17067,6 +18343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENUCHECKBUTTON",
           "package": "uni-htk",
@@ -17076,6 +18353,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENUCHECKBUTTON",
           "package": "uni-htk",
@@ -17089,6 +18367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENUCOMMAND",
           "package": "uni-htk",
@@ -17098,6 +18377,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENUCOMMAND",
           "package": "uni-htk",
@@ -17111,6 +18391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENUITEM",
           "package": "uni-htk",
@@ -17120,6 +18401,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENUITEM",
           "package": "uni-htk",
@@ -17133,6 +18415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENURADIOBUTTON",
           "package": "uni-htk",
@@ -17142,6 +18425,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENURADIOBUTTON",
           "package": "uni-htk",
@@ -17155,6 +18439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENUSEPARATOR",
           "package": "uni-htk",
@@ -17164,6 +18449,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MENUSEPARATOR",
           "package": "uni-htk",
@@ -17177,6 +18463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MESSAGE",
           "package": "uni-htk",
@@ -17186,6 +18473,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "MESSAGE",
           "package": "uni-htk",
@@ -17199,6 +18487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "NOTEBOOK",
           "package": "uni-htk",
@@ -17208,6 +18497,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "NOTEBOOK",
           "package": "uni-htk",
@@ -17221,6 +18511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "NOTEBOOKPAGE",
           "package": "uni-htk",
@@ -17230,6 +18521,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "NOTEBOOKPAGE",
           "package": "uni-htk",
@@ -17243,6 +18535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "OPTIONMENU",
           "package": "uni-htk",
@@ -17252,6 +18545,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "OPTIONMENU",
           "normalized": "OPTIONMENU[GUIVALUE]",
@@ -17267,6 +18561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "OVAL",
           "package": "uni-htk",
@@ -17276,6 +18571,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "OVAL",
           "package": "uni-htk",
@@ -17289,6 +18585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "PANEDWINDOW",
           "package": "uni-htk",
@@ -17298,6 +18595,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "PANEDWINDOW",
           "package": "uni-htk",
@@ -17311,6 +18609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "POLYGON",
           "package": "uni-htk",
@@ -17320,6 +18619,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "POLYGON",
           "package": "uni-htk",
@@ -17333,6 +18633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "POSTSCRIPT",
           "package": "uni-htk",
@@ -17342,6 +18643,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "POSTSCRIPT",
           "package": "uni-htk",
@@ -17355,6 +18657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "RADIOBUTTON",
           "package": "uni-htk",
@@ -17364,6 +18667,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "RADIOBUTTON",
           "package": "uni-htk",
@@ -17377,6 +18681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "RECTANGLE",
           "package": "uni-htk",
@@ -17386,6 +18691,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "RECTANGLE",
           "package": "uni-htk",
@@ -17399,6 +18705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "SCALE",
           "package": "uni-htk",
@@ -17408,6 +18715,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "SCALE",
           "package": "uni-htk",
@@ -17421,6 +18729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "SCROLLBAR",
           "package": "uni-htk",
@@ -17430,6 +18739,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "SCROLLBAR",
           "package": "uni-htk",
@@ -17443,6 +18753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "SEPARATOR",
           "package": "uni-htk",
@@ -17452,6 +18763,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "SEPARATOR",
           "package": "uni-htk",
@@ -17465,6 +18777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "SESSION",
           "package": "uni-htk",
@@ -17474,6 +18787,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "SESSION",
           "package": "uni-htk",
@@ -17487,6 +18801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "SUBWIDGET",
           "package": "uni-htk",
@@ -17496,6 +18811,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "SUBWIDGET",
           "package": "uni-htk",
@@ -17509,6 +18825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "TEXT",
           "package": "uni-htk",
@@ -17518,6 +18835,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "TEXT",
           "package": "uni-htk",
@@ -17531,6 +18849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "TEXTITEM",
           "package": "uni-htk",
@@ -17540,6 +18859,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "TEXTITEM",
           "package": "uni-htk",
@@ -17553,6 +18873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "TEXTTAG",
           "package": "uni-htk",
@@ -17562,6 +18883,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "TEXTTAG",
           "normalized": "TEXTTAG[GUIVALUE]",
@@ -17577,6 +18899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "TOPLEVEL",
           "package": "uni-htk",
@@ -17586,6 +18909,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "TOPLEVEL",
           "package": "uni-htk",
@@ -17599,6 +18923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "WIDGET",
           "package": "uni-htk",
@@ -17608,6 +18933,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "WIDGET",
           "package": "uni-htk",
@@ -17621,6 +18947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "WINDOWPANE",
           "package": "uni-htk",
@@ -17630,6 +18957,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectKind",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectKind",
           "name": "WINDOWPANE",
           "package": "uni-htk",
@@ -17643,6 +18971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "GUIObjectName",
           "package": "uni-htk",
@@ -17651,6 +18980,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "GUIObjectName",
           "package": "uni-htk",
@@ -17664,6 +18994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "CanvasTagOrID",
           "package": "uni-htk",
@@ -17672,6 +19003,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "CanvasTagOrID",
           "package": "uni-htk",
@@ -17685,6 +19017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "ObjectName",
           "package": "uni-htk",
@@ -17693,6 +19026,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "ObjectName",
           "package": "uni-htk",
@@ -17706,6 +19040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "TextItemName",
           "package": "uni-htk",
@@ -17714,6 +19049,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "TextItemName",
           "package": "uni-htk",
@@ -17727,6 +19063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "WidgetName",
           "package": "uni-htk",
@@ -17735,6 +19072,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "WidgetName",
           "package": "uni-htk",
@@ -17748,6 +19086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "CanvasItemName",
           "package": "uni-htk",
@@ -17757,6 +19096,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "CanvasItemName",
           "package": "uni-htk",
@@ -17770,6 +19110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "CanvasTagAnd",
           "package": "uni-htk",
@@ -17779,6 +19120,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "CanvasTagAnd",
           "package": "uni-htk",
@@ -17792,6 +19134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "CanvasTagNot",
           "package": "uni-htk",
@@ -17801,6 +19144,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "CanvasTagNot",
           "package": "uni-htk",
@@ -17814,6 +19158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "CanvasTagOr",
           "package": "uni-htk",
@@ -17823,6 +19168,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "CanvasTagOr",
           "package": "uni-htk",
@@ -17836,6 +19182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "CanvasTagOrID",
           "package": "uni-htk",
@@ -17845,6 +19192,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "CanvasTagOrID",
           "package": "uni-htk",
@@ -17858,6 +19206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "CanvasTagXOr",
           "package": "uni-htk",
@@ -17867,6 +19216,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "CanvasTagXOr",
           "package": "uni-htk",
@@ -17880,6 +19230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "EmbeddedWindowName",
           "package": "uni-htk",
@@ -17889,6 +19240,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "EmbeddedWindowName",
           "package": "uni-htk",
@@ -17902,6 +19254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "LabelFrameName",
           "package": "uni-htk",
@@ -17911,6 +19264,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "LabelFrameName",
           "package": "uni-htk",
@@ -17924,6 +19278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "MenuItemName",
           "package": "uni-htk",
@@ -17933,6 +19288,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "MenuItemName",
           "package": "uni-htk",
@@ -17946,6 +19302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "NoteBookPageName",
           "package": "uni-htk",
@@ -17955,6 +19312,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "NoteBookPageName",
           "package": "uni-htk",
@@ -17968,6 +19326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "ObjectName",
           "package": "uni-htk",
@@ -17977,6 +19336,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "ObjectName",
           "package": "uni-htk",
@@ -17990,6 +19350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "PaneName",
           "package": "uni-htk",
@@ -17999,6 +19360,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "PaneName",
           "package": "uni-htk",
@@ -18012,6 +19374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "TextItemPosition",
           "package": "uni-htk",
@@ -18021,6 +19384,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "TextItemPosition",
           "package": "uni-htk",
@@ -18034,6 +19398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "TextPaneItemName",
           "package": "uni-htk",
@@ -18043,6 +19408,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "TextPaneItemName",
           "package": "uni-htk",
@@ -18056,6 +19422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "TextTagID",
           "package": "uni-htk",
@@ -18065,6 +19432,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "TextTagID",
           "package": "uni-htk",
@@ -18078,6 +19446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "WidgetName",
           "package": "uni-htk",
@@ -18087,6 +19456,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "WidgetName",
           "package": "uni-htk",
@@ -18100,6 +19470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "toWidgetName",
           "package": "uni-htk",
@@ -18109,6 +19480,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIObjectName",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIObjectName",
           "name": "toWidgetName",
           "normalized": "ObjectName-\u003eWidgetName",
@@ -18124,6 +19496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "GUIValue",
           "package": "uni-htk",
@@ -18132,6 +19505,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "GUIValue",
           "package": "uni-htk",
@@ -18145,6 +19519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "GUIVALUE",
           "package": "uni-htk",
@@ -18153,6 +19528,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "GUIVALUE",
           "package": "uni-htk",
@@ -18166,6 +19542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "GUIValue",
           "package": "uni-htk",
@@ -18174,6 +19551,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "GUIValue",
           "package": "uni-htk",
@@ -18187,6 +19565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "Generator",
           "package": "uni-htk",
@@ -18195,6 +19574,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "Generator",
           "package": "uni-htk",
@@ -18208,6 +19588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "RawData",
           "package": "uni-htk",
@@ -18216,6 +19597,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "RawData",
           "package": "uni-htk",
@@ -18229,6 +19611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "TkCommand",
           "package": "uni-htk",
@@ -18237,6 +19620,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "TkCommand",
           "package": "uni-htk",
@@ -18250,6 +19634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "GUIVALUE",
           "package": "uni-htk",
@@ -18259,6 +19644,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "GUIVALUE",
           "package": "uni-htk",
@@ -18272,6 +19658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "HaskellTk",
           "package": "uni-htk",
@@ -18281,6 +19668,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "HaskellTk",
           "package": "uni-htk",
@@ -18294,6 +19682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "RawData",
           "package": "uni-htk",
@@ -18303,6 +19692,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "RawData",
           "package": "uni-htk",
@@ -18316,6 +19706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "Tk",
           "package": "uni-htk",
@@ -18325,6 +19716,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "Tk",
           "package": "uni-htk",
@@ -18338,6 +19730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "TkCommand",
           "package": "uni-htk",
@@ -18347,6 +19740,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "TkCommand",
           "package": "uni-htk",
@@ -18360,6 +19754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "cdefault",
           "package": "uni-htk",
@@ -18369,6 +19764,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "cdefault",
           "package": "uni-htk",
@@ -18381,6 +19777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "creadTk",
           "package": "uni-htk",
@@ -18390,6 +19787,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "creadTk",
           "normalized": "String-\u003eIO a",
@@ -18405,6 +19803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "delimitString",
           "package": "uni-htk",
@@ -18414,6 +19813,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "delimitString",
           "normalized": "String-\u003eString",
@@ -18429,6 +19829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "escapeString",
           "package": "uni-htk",
@@ -18438,6 +19839,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "escapeString",
           "normalized": "String-\u003eString",
@@ -18453,6 +19855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "fromGUIValue",
           "package": "uni-htk",
@@ -18462,6 +19865,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "fromGUIValue",
           "normalized": "GUIVALUE-\u003ea",
@@ -18477,6 +19881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "illegalGUIValue",
           "package": "uni-htk",
@@ -18486,6 +19891,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "illegalGUIValue",
           "package": "uni-htk",
@@ -18499,6 +19905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "maybeGUIValue",
           "package": "uni-htk",
@@ -18508,6 +19915,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "maybeGUIValue",
           "normalized": "GUIVALUE-\u003eMaybe a",
@@ -18523,6 +19931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "toGUIValue",
           "package": "uni-htk",
@@ -18532,6 +19941,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "toGUIValue",
           "normalized": "a-\u003eGUIVALUE",
@@ -18547,6 +19957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GUIValue",
           "name": "toTkString",
           "package": "uni-htk",
@@ -18556,6 +19967,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GUIValue",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GUIValue",
           "name": "toTkString",
           "normalized": "String-\u003eString",
@@ -18572,6 +19984,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003emodule Geometry\u003c/code\u003e exports basic geometric types and\n functionality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Geometry",
           "name": "Geometry",
           "package": "uni-htk",
@@ -18581,6 +19994,7 @@
         "index": {
           "description": "The module Geometry exports basic geometric types and functionality",
           "hierarchy": "HTk Kernel Geometry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Geometry",
           "name": "Geometry",
           "package": "uni-htk",
@@ -18595,6 +20009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCoord\u003c/code\u003e datatype - e.g. representing the coords of\n a canvas item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Geometry",
           "name": "Coord",
           "package": "uni-htk",
@@ -18604,6 +20019,7 @@
         "index": {
           "description": "The Coord datatype e.g representing the coords of canvas item",
           "hierarchy": "HTk Kernel Geometry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Geometry",
           "name": "Coord",
           "package": "uni-htk",
@@ -18618,6 +20034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eDistance\u003c/code\u003e datatype - general representation of\n distances in HTk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Geometry",
           "name": "Distance",
           "package": "uni-htk",
@@ -18627,6 +20044,7 @@
         "index": {
           "description": "The Distance datatype general representation of distances in HTk",
           "hierarchy": "HTk Kernel Geometry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Geometry",
           "name": "Distance",
           "package": "uni-htk",
@@ -18641,6 +20059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Geometry datatype - normally representing position, width and\n height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Geometry",
           "name": "Geometry",
           "package": "uni-htk",
@@ -18650,6 +20069,7 @@
         "index": {
           "description": "The Geometry datatype normally representing position width and height",
           "hierarchy": "HTk Kernel Geometry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Geometry",
           "name": "Geometry",
           "package": "uni-htk",
@@ -18664,6 +20084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ePosition\u003c/code\u003e - a pair of two \u003ccode\u003eDistance\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Geometry",
           "name": "Position",
           "package": "uni-htk",
@@ -18673,6 +20094,7 @@
         "index": {
           "description": "The Position pair of two Distance values",
           "hierarchy": "HTk Kernel Geometry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Geometry",
           "name": "Position",
           "package": "uni-htk",
@@ -18687,6 +20109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSize\u003c/code\u003e datatype - a pair of two \u003ccode\u003eDistance\u003c/code\u003e\n values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Geometry",
           "name": "Size",
           "package": "uni-htk",
@@ -18696,6 +20119,7 @@
         "index": {
           "description": "The Size datatype pair of two Distance values",
           "hierarchy": "HTk Kernel Geometry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Geometry",
           "name": "Size",
           "package": "uni-htk",
@@ -18709,6 +20133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Geometry",
           "name": "Distance",
           "package": "uni-htk",
@@ -18718,6 +20143,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Geometry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Geometry",
           "name": "Distance",
           "package": "uni-htk",
@@ -18732,6 +20158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from cm to \u003ccode\u003eDistance\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Geometry",
           "name": "cm",
           "package": "uni-htk",
@@ -18742,6 +20169,7 @@
         "index": {
           "description": "Conversion from cm to Distance",
           "hierarchy": "HTk Kernel Geometry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Geometry",
           "name": "cm",
           "normalized": "Double-\u003eDistance",
@@ -18757,6 +20185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from inch to \u003ccode\u003eDistance\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Geometry",
           "name": "ic",
           "package": "uni-htk",
@@ -18767,6 +20196,7 @@
         "index": {
           "description": "Conversion from inch to Distance",
           "hierarchy": "HTk Kernel Geometry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Geometry",
           "name": "ic",
           "normalized": "Double-\u003eDistance",
@@ -18782,6 +20212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from mm to \u003ccode\u003eDistance\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Geometry",
           "name": "mm",
           "package": "uni-htk",
@@ -18792,6 +20223,7 @@
         "index": {
           "description": "Conversion from mm to Distance",
           "hierarchy": "HTk Kernel Geometry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Geometry",
           "name": "mm",
           "normalized": "Double-\u003eDistance",
@@ -18807,6 +20239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from points to \u003ccode\u003eDistance\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Geometry",
           "name": "pp",
           "package": "uni-htk",
@@ -18817,6 +20250,7 @@
         "index": {
           "description": "Conversion from points to Distance",
           "hierarchy": "HTk Kernel Geometry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Geometry",
           "name": "pp",
           "normalized": "Double-\u003eDistance",
@@ -18832,6 +20266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from \u003ccode\u003eDistance\u003c/code\u003e to cm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Geometry",
           "name": "tocm",
           "package": "uni-htk",
@@ -18842,6 +20277,7 @@
         "index": {
           "description": "Conversion from Distance to cm",
           "hierarchy": "HTk Kernel Geometry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Geometry",
           "name": "tocm",
           "normalized": "Distance-\u003eDouble",
@@ -18857,6 +20293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from \u003ccode\u003eDistance\u003c/code\u003e to inch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Geometry",
           "name": "toinch",
           "package": "uni-htk",
@@ -18867,6 +20304,7 @@
         "index": {
           "description": "Conversion from Distance to inch",
           "hierarchy": "HTk Kernel Geometry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Geometry",
           "name": "toinch",
           "normalized": "Distance-\u003eDouble",
@@ -18882,6 +20320,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePack options for the grid geometry manager.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "GridPackOptions",
           "package": "uni-htk",
@@ -18891,6 +20330,7 @@
         "index": {
           "description": "Pack options for the grid geometry manager",
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "GridPackOptions",
           "package": "uni-htk",
@@ -18905,6 +20345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVarious pack options of the grid geometry manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "GridPackOption",
           "package": "uni-htk",
@@ -18914,6 +20355,7 @@
         "index": {
           "description": "Various pack options of the grid geometry manager",
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "GridPackOption",
           "package": "uni-htk",
@@ -18928,6 +20370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eStickyKind\u003c/code\u003e datatype - sticky packing to the grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "StickyKind",
           "package": "uni-htk",
@@ -18937,6 +20380,7 @@
         "index": {
           "description": "The StickyKind datatype sticky packing to the grid",
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "StickyKind",
           "package": "uni-htk",
@@ -18951,6 +20395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe column to pack the widget\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "Column",
           "package": "uni-htk",
@@ -18961,6 +20406,7 @@
         "index": {
           "description": "the column to pack the widget",
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "Column",
           "package": "uni-htk",
@@ -18975,6 +20421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolumnspan like HTML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "Columnspan",
           "package": "uni-htk",
@@ -18985,6 +20432,7 @@
         "index": {
           "description": "columnspan like HTML",
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "Columnspan",
           "package": "uni-htk",
@@ -18998,6 +20446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "E",
           "package": "uni-htk",
@@ -19007,6 +20456,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "E",
           "package": "uni-htk",
@@ -19019,6 +20469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "EW",
           "package": "uni-htk",
@@ -19028,6 +20479,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "EW",
           "package": "uni-htk",
@@ -19042,6 +20494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einner horizontal pad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "GridIPadX",
           "package": "uni-htk",
@@ -19052,6 +20505,7 @@
         "index": {
           "description": "inner horizontal pad",
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "GridIPadX",
           "package": "uni-htk",
@@ -19066,6 +20520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einner vertical pad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "GridIPadY",
           "package": "uni-htk",
@@ -19076,6 +20531,7 @@
         "index": {
           "description": "inner vertical pad",
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "GridIPadY",
           "package": "uni-htk",
@@ -19090,6 +20546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehorizontal pad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "GridPadX",
           "package": "uni-htk",
@@ -19100,6 +20557,7 @@
         "index": {
           "description": "horizontal pad",
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "GridPadX",
           "package": "uni-htk",
@@ -19114,6 +20572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evertical pad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "GridPadY",
           "package": "uni-htk",
@@ -19124,6 +20583,7 @@
         "index": {
           "description": "vertical pad",
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "GridPadY",
           "package": "uni-htk",
@@ -19138,6 +20598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erow column and row to pack the widget\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "GridPos",
           "package": "uni-htk",
@@ -19148,6 +20609,7 @@
         "index": {
           "description": "row column and row to pack the widget",
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "GridPos",
           "normalized": "GridPos(Int,Int)",
@@ -19163,6 +20625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "N",
           "package": "uni-htk",
@@ -19172,6 +20635,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "N",
           "package": "uni-htk",
@@ -19184,6 +20648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "NE",
           "package": "uni-htk",
@@ -19193,6 +20658,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "NE",
           "package": "uni-htk",
@@ -19206,6 +20672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "NEW",
           "package": "uni-htk",
@@ -19215,6 +20682,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "NEW",
           "package": "uni-htk",
@@ -19228,6 +20696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "NS",
           "package": "uni-htk",
@@ -19237,6 +20706,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "NS",
           "package": "uni-htk",
@@ -19250,6 +20720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "NSE",
           "package": "uni-htk",
@@ -19259,6 +20730,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "NSE",
           "package": "uni-htk",
@@ -19272,6 +20744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "NSEW",
           "package": "uni-htk",
@@ -19281,6 +20754,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "NSEW",
           "package": "uni-htk",
@@ -19294,6 +20768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "NSW",
           "package": "uni-htk",
@@ -19303,6 +20778,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "NSW",
           "package": "uni-htk",
@@ -19316,6 +20792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "NW",
           "package": "uni-htk",
@@ -19325,6 +20802,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "NW",
           "package": "uni-htk",
@@ -19339,6 +20817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe row to pack the widget\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "Row",
           "package": "uni-htk",
@@ -19349,6 +20828,7 @@
         "index": {
           "description": "the row to pack the widget",
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "Row",
           "package": "uni-htk",
@@ -19363,6 +20843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erowspan like HTML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "Rowspan",
           "package": "uni-htk",
@@ -19373,6 +20854,7 @@
         "index": {
           "description": "rowspan like HTML",
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "Rowspan",
           "package": "uni-htk",
@@ -19386,6 +20868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "S",
           "package": "uni-htk",
@@ -19395,6 +20878,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "S",
           "package": "uni-htk",
@@ -19407,6 +20891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "SE",
           "package": "uni-htk",
@@ -19416,6 +20901,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "SE",
           "package": "uni-htk",
@@ -19429,6 +20915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "SEW",
           "package": "uni-htk",
@@ -19438,6 +20925,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "SEW",
           "package": "uni-htk",
@@ -19451,6 +20939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "SW",
           "package": "uni-htk",
@@ -19460,6 +20949,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "SW",
           "package": "uni-htk",
@@ -19474,6 +20964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epack widgets sticky to the grid (see type \u003ca\u003ecode\u003c/a\u003eStickyKind\u003ca\u003e/code\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "Sticky",
           "package": "uni-htk",
@@ -19484,6 +20975,7 @@
         "index": {
           "description": "pack widgets sticky to the grid see type code StickyKind code",
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "Sticky",
           "package": "uni-htk",
@@ -19497,6 +20989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "W",
           "package": "uni-htk",
@@ -19506,6 +20999,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "W",
           "package": "uni-htk",
@@ -19519,6 +21013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "showGridPackOptions",
           "package": "uni-htk",
@@ -19529,6 +21024,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Kernel GridPackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.GridPackOptions",
           "name": "showGridPackOptions",
           "normalized": "[GridPackOption]-\u003eString",
@@ -19545,6 +21041,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePacking options for the pack geometry manager.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "PackOptions",
           "package": "uni-htk",
@@ -19554,6 +21051,7 @@
         "index": {
           "description": "Packing options for the pack geometry manager",
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "PackOptions",
           "package": "uni-htk",
@@ -19568,6 +21066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFillSpec\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "FillSpec",
           "package": "uni-htk",
@@ -19577,6 +21076,7 @@
         "index": {
           "description": "The FillSpec datatype",
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "FillSpec",
           "package": "uni-htk",
@@ -19590,6 +21090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "PackOption",
           "package": "uni-htk",
@@ -19598,6 +21099,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "PackOption",
           "package": "uni-htk",
@@ -19612,6 +21114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSideSpec\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "SideSpec",
           "package": "uni-htk",
@@ -19621,6 +21124,7 @@
         "index": {
           "description": "The SideSpec datatype",
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "SideSpec",
           "package": "uni-htk",
@@ -19635,6 +21139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eanchor position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "Anchor",
           "package": "uni-htk",
@@ -19645,6 +21150,7 @@
         "index": {
           "description": "anchor position",
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "Anchor",
           "package": "uni-htk",
@@ -19658,6 +21164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "AtBottom",
           "package": "uni-htk",
@@ -19667,6 +21174,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "AtBottom",
           "package": "uni-htk",
@@ -19680,6 +21188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "AtLeft",
           "package": "uni-htk",
@@ -19689,6 +21198,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "AtLeft",
           "package": "uni-htk",
@@ -19702,6 +21212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "AtRight",
           "package": "uni-htk",
@@ -19711,6 +21222,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "AtRight",
           "package": "uni-htk",
@@ -19724,6 +21236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "AtTop",
           "package": "uni-htk",
@@ -19733,6 +21246,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "AtTop",
           "package": "uni-htk",
@@ -19746,6 +21260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "Both",
           "package": "uni-htk",
@@ -19755,6 +21270,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "Both",
           "package": "uni-htk",
@@ -19769,6 +21285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexpand toggle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "Expand",
           "package": "uni-htk",
@@ -19779,6 +21296,7 @@
         "index": {
           "description": "expand toggle",
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "Expand",
           "package": "uni-htk",
@@ -19793,6 +21311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eorientations to fill.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "Fill",
           "package": "uni-htk",
@@ -19803,6 +21322,7 @@
         "index": {
           "description": "orientations to fill",
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "Fill",
           "package": "uni-htk",
@@ -19817,6 +21337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einner horizontal pad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "IPadX",
           "package": "uni-htk",
@@ -19827,6 +21348,7 @@
         "index": {
           "description": "inner horizontal pad",
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "IPadX",
           "package": "uni-htk",
@@ -19841,6 +21363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einner vertical pad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "IPadY",
           "package": "uni-htk",
@@ -19851,6 +21374,7 @@
         "index": {
           "description": "inner vertical pad",
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "IPadY",
           "package": "uni-htk",
@@ -19864,6 +21388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "None",
           "package": "uni-htk",
@@ -19873,6 +21398,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "None",
           "package": "uni-htk",
@@ -19887,6 +21413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehorizontal pad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "PadX",
           "package": "uni-htk",
@@ -19897,6 +21424,7 @@
         "index": {
           "description": "horizontal pad",
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "PadX",
           "package": "uni-htk",
@@ -19911,6 +21439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evertical pad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "PadY",
           "package": "uni-htk",
@@ -19921,6 +21450,7 @@
         "index": {
           "description": "vertical pad",
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "PadY",
           "package": "uni-htk",
@@ -19935,6 +21465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eside to pack the widget\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "Side",
           "package": "uni-htk",
@@ -19945,6 +21476,7 @@
         "index": {
           "description": "side to pack the widget",
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "Side",
           "package": "uni-htk",
@@ -19958,6 +21490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "X",
           "package": "uni-htk",
@@ -19967,6 +21500,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "X",
           "package": "uni-htk",
@@ -19979,6 +21513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "Y",
           "package": "uni-htk",
@@ -19988,6 +21523,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "Y",
           "package": "uni-htk",
@@ -20001,6 +21537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.PackOptions",
           "name": "showPackOptions",
           "package": "uni-htk",
@@ -20011,6 +21548,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Kernel PackOptions",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.PackOptions",
           "name": "showPackOptions",
           "normalized": "[PackOption]-\u003eString",
@@ -20027,6 +21565,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePacking of widgets - HTk supports Tk's standard packer and grid packer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Packer",
           "name": "Packer",
           "package": "uni-htk",
@@ -20036,6 +21575,7 @@
         "index": {
           "description": "Packing of widgets HTk supports Tk standard packer and grid packer",
           "hierarchy": "HTk Kernel Packer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Packer",
           "name": "Packer",
           "package": "uni-htk",
@@ -20049,6 +21589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Packer",
           "name": "AbstractWidget",
           "package": "uni-htk",
@@ -20057,6 +21598,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Packer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Packer",
           "name": "AbstractWidget",
           "package": "uni-htk",
@@ -20071,6 +21613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContainer widgets instantiate the abstract \u003ccode\u003eclass Container\u003c/code\u003e\n to enable packing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Packer",
           "name": "Container",
           "package": "uni-htk",
@@ -20080,6 +21623,7 @@
         "index": {
           "description": "Container widgets instantiate the abstract class Container to enable packing",
           "hierarchy": "HTk Kernel Packer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Packer",
           "name": "Container",
           "package": "uni-htk",
@@ -20093,6 +21637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Packer",
           "name": "NONE",
           "package": "uni-htk",
@@ -20102,6 +21647,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Packer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Packer",
           "name": "NONE",
           "package": "uni-htk",
@@ -20116,6 +21662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePacks a widget via the grid geometry manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Packer",
           "name": "grid",
           "package": "uni-htk",
@@ -20125,6 +21672,7 @@
         "index": {
           "description": "Packs widget via the grid geometry manager",
           "hierarchy": "HTk Kernel Packer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Packer",
           "name": "grid",
           "normalized": "a-\u003e[GridPackOption]-\u003eIO()",
@@ -20140,6 +21688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePacks a widget via the pack geometry manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Packer",
           "name": "pack",
           "package": "uni-htk",
@@ -20149,6 +21698,7 @@
         "index": {
           "description": "Packs widget via the pack geometry manager",
           "hierarchy": "HTk Kernel Packer",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Packer",
           "name": "pack",
           "normalized": "a-\u003e[PackOption]-\u003eIO()",
@@ -20164,6 +21714,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic resources used with object configuration options.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Resources",
           "package": "uni-htk",
@@ -20173,6 +21724,7 @@
         "index": {
           "description": "Basic resources used with object configuration options",
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Resources",
           "package": "uni-htk",
@@ -20187,6 +21739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eAlignment\u003c/code\u003e datatype - widget alignment etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Alignment",
           "package": "uni-htk",
@@ -20196,6 +21749,7 @@
         "index": {
           "description": "The Alignment datatype widget alignment etc",
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Alignment",
           "package": "uni-htk",
@@ -20210,6 +21764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eAnchor\u003c/code\u003e datatype - used for different purposes, e.g.\n text anchors or anchor positions of canvas items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Anchor",
           "package": "uni-htk",
@@ -20219,6 +21774,7 @@
         "index": {
           "description": "The Anchor datatype used for different purposes e.g text anchors or anchor positions of canvas items",
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Anchor",
           "package": "uni-htk",
@@ -20233,6 +21789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "CreationConfig",
           "package": "uni-htk",
@@ -20242,6 +21799,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "CreationConfig",
           "package": "uni-htk",
@@ -20256,6 +21814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFlexibility\u003c/code\u003e datatype - used in the context of boxes\n (see containers).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Flexibility",
           "package": "uni-htk",
@@ -20265,6 +21824,7 @@
         "index": {
           "description": "The Flexibility datatype used in the context of boxes see containers",
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Flexibility",
           "package": "uni-htk",
@@ -20279,6 +21839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eJustify\u003c/code\u003e datatype - representing a text justification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Justify",
           "package": "uni-htk",
@@ -20288,6 +21849,7 @@
         "index": {
           "description": "The Justify datatype representing text justification",
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Justify",
           "package": "uni-htk",
@@ -20302,6 +21864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eOrientation\u003c/code\u003e datatype - used for different purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Orientation",
           "package": "uni-htk",
@@ -20311,6 +21874,7 @@
         "index": {
           "description": "The Orientation datatype used for different purposes",
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Orientation",
           "package": "uni-htk",
@@ -20325,6 +21889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eRelief\u003c/code\u003e datatype - represents the relief of certain\n widgets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Relief",
           "package": "uni-htk",
@@ -20334,6 +21899,7 @@
         "index": {
           "description": "The Relief datatype represents the relief of certain widgets",
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Relief",
           "package": "uni-htk",
@@ -20348,6 +21914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eState\u003c/code\u003e datatype - the state of certain widgets\n can be normal, disabled or active.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "State",
           "package": "uni-htk",
@@ -20357,6 +21924,7 @@
         "index": {
           "description": "The State datatype the state of certain widgets can be normal disabled or active",
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "State",
           "package": "uni-htk",
@@ -20371,6 +21939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple \u003ccode\u003eToggle\u003c/code\u003e datatype - used for different purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Toggle",
           "package": "uni-htk",
@@ -20380,6 +21949,7 @@
         "index": {
           "description": "simple Toggle datatype used for different purposes",
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Toggle",
           "package": "uni-htk",
@@ -20393,6 +21963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Active",
           "package": "uni-htk",
@@ -20402,6 +21973,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Active",
           "package": "uni-htk",
@@ -20415,6 +21987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Baseline",
           "package": "uni-htk",
@@ -20424,6 +21997,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Baseline",
           "package": "uni-htk",
@@ -20437,6 +22011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Bottom",
           "package": "uni-htk",
@@ -20446,6 +22021,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Bottom",
           "package": "uni-htk",
@@ -20459,6 +22035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Center",
           "package": "uni-htk",
@@ -20468,6 +22045,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Center",
           "package": "uni-htk",
@@ -20481,6 +22059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Disabled",
           "package": "uni-htk",
@@ -20490,6 +22069,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Disabled",
           "package": "uni-htk",
@@ -20503,6 +22083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "East",
           "package": "uni-htk",
@@ -20512,6 +22093,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "East",
           "package": "uni-htk",
@@ -20525,6 +22107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Flat",
           "package": "uni-htk",
@@ -20534,6 +22117,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Flat",
           "package": "uni-htk",
@@ -20547,6 +22131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Flexible",
           "package": "uni-htk",
@@ -20556,6 +22141,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Flexible",
           "package": "uni-htk",
@@ -20569,6 +22155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Groove",
           "package": "uni-htk",
@@ -20578,6 +22165,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Groove",
           "package": "uni-htk",
@@ -20591,6 +22179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Horizontal",
           "package": "uni-htk",
@@ -20600,6 +22189,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Horizontal",
           "package": "uni-htk",
@@ -20613,6 +22203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "InCenter",
           "package": "uni-htk",
@@ -20622,6 +22213,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "InCenter",
           "package": "uni-htk",
@@ -20635,6 +22227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "JustCenter",
           "package": "uni-htk",
@@ -20644,6 +22237,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "JustCenter",
           "package": "uni-htk",
@@ -20657,6 +22251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "JustLeft",
           "package": "uni-htk",
@@ -20666,6 +22261,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "JustLeft",
           "package": "uni-htk",
@@ -20679,6 +22275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "JustRight",
           "package": "uni-htk",
@@ -20688,6 +22285,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "JustRight",
           "package": "uni-htk",
@@ -20701,6 +22299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Normal",
           "package": "uni-htk",
@@ -20710,6 +22309,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Normal",
           "package": "uni-htk",
@@ -20723,6 +22323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "North",
           "package": "uni-htk",
@@ -20732,6 +22333,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "North",
           "package": "uni-htk",
@@ -20745,6 +22347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "NorthEast",
           "package": "uni-htk",
@@ -20754,6 +22357,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "NorthEast",
           "package": "uni-htk",
@@ -20767,6 +22371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "NorthWest",
           "package": "uni-htk",
@@ -20776,6 +22381,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "NorthWest",
           "package": "uni-htk",
@@ -20789,6 +22395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Off",
           "package": "uni-htk",
@@ -20798,6 +22405,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Off",
           "package": "uni-htk",
@@ -20811,6 +22419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "On",
           "package": "uni-htk",
@@ -20820,6 +22429,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "On",
           "package": "uni-htk",
@@ -20833,6 +22443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Raised",
           "package": "uni-htk",
@@ -20842,6 +22453,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Raised",
           "package": "uni-htk",
@@ -20855,6 +22467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Ridge",
           "package": "uni-htk",
@@ -20864,6 +22477,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Ridge",
           "package": "uni-htk",
@@ -20877,6 +22491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Rigid",
           "package": "uni-htk",
@@ -20886,6 +22501,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Rigid",
           "package": "uni-htk",
@@ -20899,6 +22515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "South",
           "package": "uni-htk",
@@ -20908,6 +22525,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "South",
           "package": "uni-htk",
@@ -20921,6 +22539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "SouthEast",
           "package": "uni-htk",
@@ -20930,6 +22549,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "SouthEast",
           "package": "uni-htk",
@@ -20943,6 +22563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "SouthWest",
           "package": "uni-htk",
@@ -20952,6 +22573,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "SouthWest",
           "package": "uni-htk",
@@ -20965,6 +22587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Sunken",
           "package": "uni-htk",
@@ -20974,6 +22597,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Sunken",
           "package": "uni-htk",
@@ -20987,6 +22611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Top",
           "package": "uni-htk",
@@ -20996,6 +22621,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Top",
           "package": "uni-htk",
@@ -21009,6 +22635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "Vertical",
           "package": "uni-htk",
@@ -21018,6 +22645,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "Vertical",
           "package": "uni-htk",
@@ -21031,6 +22659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "West",
           "package": "uni-htk",
@@ -21040,6 +22669,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "West",
           "package": "uni-htk",
@@ -21054,6 +22684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "showCreationConfigs",
           "package": "uni-htk",
@@ -21064,6 +22695,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "showCreationConfigs",
           "normalized": "[CreationConfig a]-\u003eIO String",
@@ -21079,6 +22711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Resources",
           "name": "toggle",
           "package": "uni-htk",
@@ -21088,6 +22721,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Resources",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Resources",
           "name": "toggle",
           "normalized": "Toggle-\u003eToggle",
@@ -21103,6 +22737,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cul\u003e\u003cli\u003e----------------------------------------------------------------------\n -\n - module HTk.Kernel.TkVariables\n -\n - author: ludi\n -\n - --------------------------------------------------------------------\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.TkVariables",
           "name": "TkVariables",
           "package": "uni-htk",
@@ -21112,6 +22747,7 @@
         "index": {
           "description": "module HTk.Kernel.TkVariables author ludi",
           "hierarchy": "HTk Kernel TkVariables",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.TkVariables",
           "name": "TkVariables",
           "package": "uni-htk",
@@ -21125,6 +22761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.TkVariables",
           "name": "HasVariable",
           "package": "uni-htk",
@@ -21133,6 +22770,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel TkVariables",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.TkVariables",
           "name": "HasVariable",
           "package": "uni-htk",
@@ -21146,6 +22784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.TkVariables",
           "name": "TkVariable",
           "package": "uni-htk",
@@ -21154,6 +22793,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel TkVariables",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.TkVariables",
           "name": "TkVariable",
           "package": "uni-htk",
@@ -21167,6 +22807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.TkVariables",
           "name": "TkVariable",
           "package": "uni-htk",
@@ -21176,6 +22817,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel TkVariables",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.TkVariables",
           "name": "TkVariable",
           "package": "uni-htk",
@@ -21189,6 +22831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.TkVariables",
           "name": "createTkVariable",
           "package": "uni-htk",
@@ -21198,6 +22841,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel TkVariables",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.TkVariables",
           "name": "createTkVariable",
           "normalized": "a-\u003eIO(TkVariable a)",
@@ -21213,6 +22857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.TkVariables",
           "name": "readTkVariable",
           "package": "uni-htk",
@@ -21222,6 +22867,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel TkVariables",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.TkVariables",
           "name": "readTkVariable",
           "normalized": "TkVariable a-\u003eIO a",
@@ -21237,6 +22883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.TkVariables",
           "name": "setTkVariable",
           "package": "uni-htk",
@@ -21246,6 +22893,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel TkVariables",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.TkVariables",
           "name": "setTkVariable",
           "normalized": "TkVariable a-\u003ea-\u003eIO()",
@@ -21261,6 +22909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.TkVariables",
           "name": "variable",
           "package": "uni-htk",
@@ -21270,6 +22919,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel TkVariables",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.TkVariables",
           "name": "variable",
           "normalized": "TkVariable a-\u003eConfig b",
@@ -21284,6 +22934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Tooltip",
           "name": "Tooltip",
           "package": "uni-htk",
@@ -21292,6 +22943,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Tooltip",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Tooltip",
           "name": "Tooltip",
           "package": "uni-htk",
@@ -21306,6 +22958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets can have tooltips (if you are using tixwish).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Tooltip",
           "name": "HasTooltip",
           "package": "uni-htk",
@@ -21315,6 +22968,7 @@
         "index": {
           "description": "Widgets can have tooltips if you are using tixwish",
           "hierarchy": "HTk Kernel Tooltip",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Tooltip",
           "name": "HasTooltip",
           "package": "uni-htk",
@@ -21328,6 +22982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Tooltip",
           "name": "destroyTooltip",
           "package": "uni-htk",
@@ -21337,6 +22992,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Tooltip",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Tooltip",
           "name": "destroyTooltip",
           "normalized": "a-\u003eIO()",
@@ -21352,6 +23008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Tooltip",
           "name": "tooltip",
           "package": "uni-htk",
@@ -21361,6 +23018,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Tooltip",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Tooltip",
           "name": "tooltip",
           "normalized": "String-\u003ea-\u003eIO a",
@@ -21376,6 +23034,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk - a GUI toolkit for Haskell  -  (c) Universitaet Bremen\n -----------------------------------------------------------------------\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Wish",
           "name": "Wish",
           "package": "uni-htk",
@@ -21385,6 +23044,7 @@
         "index": {
           "description": "HTk GUI toolkit for Haskell Universitaet Bremen",
           "hierarchy": "HTk Kernel Wish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Wish",
           "name": "Wish",
           "package": "uni-htk",
@@ -21398,6 +23058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Wish",
           "name": "BindTag",
           "package": "uni-htk",
@@ -21406,6 +23067,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Wish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Wish",
           "name": "BindTag",
           "package": "uni-htk",
@@ -21419,6 +23081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Wish",
           "name": "CallBackId",
           "package": "uni-htk",
@@ -21427,6 +23090,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Wish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Wish",
           "name": "CallBackId",
           "package": "uni-htk",
@@ -21440,6 +23104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Wish",
           "name": "KeySym",
           "package": "uni-htk",
@@ -21448,6 +23113,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Wish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Wish",
           "name": "KeySym",
           "package": "uni-htk",
@@ -21461,6 +23127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Wish",
           "name": "TclCmd",
           "package": "uni-htk",
@@ -21469,6 +23136,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Wish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Wish",
           "name": "TclCmd",
           "package": "uni-htk",
@@ -21482,6 +23150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Wish",
           "name": "TclMessageType",
           "package": "uni-htk",
@@ -21490,6 +23159,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Wish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Wish",
           "name": "TclMessageType",
           "package": "uni-htk",
@@ -21503,6 +23173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Wish",
           "name": "TclScript",
           "package": "uni-htk",
@@ -21511,6 +23182,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Wish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Wish",
           "name": "TclScript",
           "package": "uni-htk",
@@ -21524,6 +23196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Wish",
           "name": "Wish",
           "package": "uni-htk",
@@ -21532,6 +23205,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Wish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Wish",
           "name": "Wish",
           "package": "uni-htk",
@@ -21545,6 +23219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Wish",
           "name": "WishEvent",
           "package": "uni-htk",
@@ -21553,6 +23228,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Wish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Wish",
           "name": "WishEvent",
           "package": "uni-htk",
@@ -21566,6 +23242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Wish",
           "name": "WishEventModifier",
           "package": "uni-htk",
@@ -21574,6 +23251,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Wish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Wish",
           "name": "WishEventModifier",
           "package": "uni-htk",
@@ -21587,6 +23265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Wish",
           "name": "WishEventType",
           "package": "uni-htk",
@@ -21595,6 +23274,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Wish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Wish",
           "name": "WishEventType",
           "package": "uni-htk",
@@ -21608,6 +23288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Wish",
           "name": "CallBackId",
           "package": "uni-htk",
@@ -21617,6 +23298,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Wish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Wish",
           "name": "CallBackId",
           "package": "uni-htk",
@@ -21778,6 +23460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Kernel.Wish",
           "name": "succBindTag",
           "package": "uni-htk",
@@ -21787,6 +23470,7 @@
         },
         "index": {
           "hierarchy": "HTk Kernel Wish",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Kernel.Wish",
           "name": "succBindTag",
           "normalized": "BindTag-\u003eBindTag",
@@ -21803,6 +23487,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's menuitem \u003cem\u003eindicators\u003c/em\u003e.\n Indicators are displayed with menu checkbuttons, menu buttons and\n menu radiobuttons.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "Indicator",
           "package": "uni-htk",
@@ -21812,6 +23497,7 @@
         "index": {
           "description": "HTk menuitem indicators Indicators are displayed with menu checkbuttons menu buttons and menu radiobuttons",
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "Indicator",
           "package": "uni-htk",
@@ -21826,6 +23512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColoured objects instantiate the \u003ccode\u003eclass HasColour\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "HasColour",
           "package": "uni-htk",
@@ -21835,6 +23522,7 @@
         "index": {
           "description": "Coloured objects instantiate the class HasColour",
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "HasColour",
           "package": "uni-htk",
@@ -21849,6 +23537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMenu items that can have an indicator instantiate the\n \u003ccode\u003eclass HasIndicator\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "HasIndicator",
           "package": "uni-htk",
@@ -21858,6 +23547,7 @@
         "index": {
           "description": "Menu items that can have an indicator instantiate the class HasIndicator",
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "HasIndicator",
           "package": "uni-htk",
@@ -21872,6 +23562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage containers instantiate the \u003ccode\u003eclass HasPhoto\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "HasPhoto",
           "package": "uni-htk",
@@ -21881,6 +23572,7 @@
         "index": {
           "description": "Image containers instantiate the class HasPhoto",
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "HasPhoto",
           "package": "uni-htk",
@@ -21895,6 +23587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eIndicator\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "Indicator",
           "package": "uni-htk",
@@ -21904,6 +23597,7 @@
         "index": {
           "description": "The Indicator datatype",
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "Indicator",
           "package": "uni-htk",
@@ -21918,6 +23612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA select button can be selected or not selected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "SelectButton",
           "package": "uni-htk",
@@ -21927,6 +23622,7 @@
         "index": {
           "description": "select button can be selected or not selected",
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "SelectButton",
           "package": "uni-htk",
@@ -21940,6 +23636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "Indicator",
           "package": "uni-htk",
@@ -21949,6 +23646,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "Indicator",
           "package": "uni-htk",
@@ -21962,6 +23660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "getColour",
           "package": "uni-htk",
@@ -21971,6 +23670,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "getColour",
           "normalized": "a-\u003eConfigID-\u003eIO Colour",
@@ -21986,6 +23686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "getIndicator",
           "package": "uni-htk",
@@ -21995,6 +23696,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "getIndicator",
           "normalized": "a-\u003eIO Toggle",
@@ -22010,6 +23712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "getPhoto",
           "package": "uni-htk",
@@ -22019,6 +23722,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "getPhoto",
           "normalized": "a-\u003eIO(Maybe Image)",
@@ -22034,6 +23738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "getSelectionState",
           "package": "uni-htk",
@@ -22043,6 +23748,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "getSelectionState",
           "normalized": "a-\u003eIO Toggle",
@@ -22058,6 +23764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "indicator",
           "package": "uni-htk",
@@ -22067,6 +23774,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "indicator",
           "normalized": "Toggle-\u003eConfig a",
@@ -22081,6 +23789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "legalColourID",
           "package": "uni-htk",
@@ -22090,6 +23799,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "legalColourID",
           "normalized": "a-\u003eConfigID-\u003eBool",
@@ -22105,6 +23815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "photo",
           "package": "uni-htk",
@@ -22114,6 +23825,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "photo",
           "normalized": "Image-\u003eConfig a",
@@ -22128,6 +23840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "selectionState",
           "package": "uni-htk",
@@ -22137,6 +23850,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "selectionState",
           "normalized": "Toggle-\u003eConfig a",
@@ -22152,6 +23866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "selectionStateSet",
           "package": "uni-htk",
@@ -22161,6 +23876,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "selectionStateSet",
           "normalized": "a-\u003eEvent Toggle",
@@ -22176,6 +23892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Indicator",
           "name": "setColour",
           "package": "uni-htk",
@@ -22185,6 +23902,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems Indicator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Indicator",
           "name": "setColour",
           "normalized": "a-\u003eConfigID-\u003eColour-\u003eIO a",
@@ -22201,6 +23919,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003emenus\u003c/em\u003e.\n A \u003ccode\u003eMenu\u003c/code\u003e is a container for menu structures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Menu",
           "name": "Menu",
           "package": "uni-htk",
@@ -22210,6 +23929,7 @@
         "index": {
           "description": "HTk menus Menu is container for menu structures",
           "hierarchy": "HTk Menuitems Menu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Menu",
           "name": "Menu",
           "package": "uni-htk",
@@ -22224,6 +23944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContainers for menus (toplevel windows and menubuttons) instantiate the\n \u003ccode\u003eclass HasMenu\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Menu",
           "name": "HasMenu",
           "package": "uni-htk",
@@ -22233,6 +23954,7 @@
         "index": {
           "description": "Containers for menus toplevel windows and menubuttons instantiate the class HasMenu",
           "hierarchy": "HTk Menuitems Menu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Menu",
           "name": "HasMenu",
           "package": "uni-htk",
@@ -22247,6 +23969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eMenu\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Menu",
           "name": "Menu",
           "package": "uni-htk",
@@ -22256,6 +23979,7 @@
         "index": {
           "description": "The Menu datatype",
           "hierarchy": "HTk Menuitems Menu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Menu",
           "name": "Menu",
           "package": "uni-htk",
@@ -22269,6 +23993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Menu",
           "name": "Menu",
           "package": "uni-htk",
@@ -22278,6 +24003,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems Menu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Menu",
           "name": "Menu",
           "package": "uni-htk",
@@ -22291,6 +24017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Menu",
           "name": "createMenu",
           "package": "uni-htk",
@@ -22299,6 +24026,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems Menu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Menu",
           "name": "createMenu",
           "normalized": "a-\u003eBool-\u003e[Config Menu]-\u003eIO Menu",
@@ -22314,6 +24042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Menu",
           "name": "menu",
           "package": "uni-htk",
@@ -22323,6 +24052,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems Menu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Menu",
           "name": "menu",
           "normalized": "Menu-\u003eConfig a",
@@ -22338,6 +24068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosts a menu (e.g. in respose of a keystroke or mousebutton press).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Menu",
           "name": "popup",
           "package": "uni-htk",
@@ -22347,6 +24078,7 @@
         "index": {
           "description": "Posts menu e.g in respose of keystroke or mousebutton press",
           "hierarchy": "HTk Menuitems Menu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Menu",
           "name": "popup",
           "normalized": "Menu-\u003ePosition-\u003eMaybe a-\u003eIO()",
@@ -22362,6 +24094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays a menu at the specified position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Menu",
           "name": "post",
           "package": "uni-htk",
@@ -22371,6 +24104,7 @@
         "index": {
           "description": "Displays menu at the specified position",
           "hierarchy": "HTk Menuitems Menu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Menu",
           "name": "post",
           "normalized": "Menu-\u003ePosition-\u003eIO()",
@@ -22386,6 +24120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnmaps the menu.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.Menu",
           "name": "unpost",
           "package": "uni-htk",
@@ -22395,6 +24130,7 @@
         "index": {
           "description": "Unmaps the menu",
           "hierarchy": "HTk Menuitems Menu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.Menu",
           "name": "unpost",
           "normalized": "Menu-\u003eIO()",
@@ -22410,6 +24146,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003emenu cascade item\u003c/em\u003e.\n A containers for cascaded menus.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuCascade",
           "name": "MenuCascade",
           "package": "uni-htk",
@@ -22419,6 +24156,7 @@
         "index": {
           "description": "HTk menu cascade item containers for cascaded menus",
           "hierarchy": "HTk Menuitems MenuCascade",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuCascade",
           "name": "MenuCascade",
           "package": "uni-htk",
@@ -22433,6 +24171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eMenuCascade\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuCascade",
           "name": "MenuCascade",
           "package": "uni-htk",
@@ -22442,6 +24181,7 @@
         "index": {
           "description": "The MenuCascade datatype",
           "hierarchy": "HTk Menuitems MenuCascade",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuCascade",
           "name": "MenuCascade",
           "package": "uni-htk",
@@ -22456,6 +24196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new menu cascasde item and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuCascade",
           "name": "createMenuCascade",
           "package": "uni-htk",
@@ -22465,6 +24206,7 @@
         "index": {
           "description": "Constructs new menu cascasde item and returns handler",
           "hierarchy": "HTk Menuitems MenuCascade",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuCascade",
           "name": "createMenuCascade",
           "normalized": "Menu-\u003e[Config MenuCascade]-\u003eIO MenuCascade",
@@ -22481,6 +24223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility function: create a pulldown menu\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuCascade",
           "name": "createPulldownMenu",
           "package": "uni-htk",
@@ -22490,6 +24233,7 @@
         "index": {
           "description": "Utility function create pulldown menu",
           "hierarchy": "HTk Menuitems MenuCascade",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuCascade",
           "name": "createPulldownMenu",
           "normalized": "Menu-\u003e[Config MenuCascade]-\u003eIO Menu",
@@ -22506,6 +24250,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003emenu checkbutton\u003c/em\u003e.\n A simple checkbutton inside a menu associated with a polymorphic\n variable.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuCheckButton",
           "name": "MenuCheckButton",
           "package": "uni-htk",
@@ -22515,6 +24260,7 @@
         "index": {
           "description": "HTk menu checkbutton simple checkbutton inside menu associated with polymorphic variable",
           "hierarchy": "HTk Menuitems MenuCheckButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuCheckButton",
           "name": "MenuCheckButton",
           "package": "uni-htk",
@@ -22529,6 +24275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eMenuCheckButton\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuCheckButton",
           "name": "MenuCheckButton",
           "package": "uni-htk",
@@ -22538,6 +24285,7 @@
         "index": {
           "description": "The MenuCheckButton datatype",
           "hierarchy": "HTk Menuitems MenuCheckButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuCheckButton",
           "name": "MenuCheckButton",
           "package": "uni-htk",
@@ -22552,6 +24300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new menu checkbutton and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuCheckButton",
           "name": "createMenuCheckButton",
           "package": "uni-htk",
@@ -22561,6 +24310,7 @@
         "index": {
           "description": "Constructs new menu checkbutton and returns handler",
           "hierarchy": "HTk Menuitems MenuCheckButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuCheckButton",
           "name": "createMenuCheckButton",
           "normalized": "Menu-\u003e[Config MenuCheckButton]-\u003eIO MenuCheckButton",
@@ -22577,6 +24327,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003emenu command\u003c/em\u003e.\n A simple command inside a menu.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuCommand",
           "name": "MenuCommand",
           "package": "uni-htk",
@@ -22586,6 +24337,7 @@
         "index": {
           "description": "HTk menu command simple command inside menu",
           "hierarchy": "HTk Menuitems MenuCommand",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuCommand",
           "name": "MenuCommand",
           "package": "uni-htk",
@@ -22600,6 +24352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eMenuCommand\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuCommand",
           "name": "MenuCommand",
           "package": "uni-htk",
@@ -22609,6 +24362,7 @@
         "index": {
           "description": "The MenuCommand datatype",
           "hierarchy": "HTk Menuitems MenuCommand",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuCommand",
           "name": "MenuCommand",
           "package": "uni-htk",
@@ -22623,6 +24377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new menu command and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuCommand",
           "name": "createMenuCommand",
           "package": "uni-htk",
@@ -22632,6 +24387,7 @@
         "index": {
           "description": "Constructs new menu command and returns handler",
           "hierarchy": "HTk Menuitems MenuCommand",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuCommand",
           "name": "createMenuCommand",
           "normalized": "Menu-\u003e[Config MenuCommand]-\u003eIO MenuCommand",
@@ -22648,6 +24404,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003emodule MenuItem\u003c/code\u003e exports general resources for menu\n items.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "MenuItem",
           "package": "uni-htk",
@@ -22657,6 +24414,7 @@
         "index": {
           "description": "The module MenuItem exports general resources for menu items",
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "MenuItem",
           "package": "uni-htk",
@@ -22671,6 +24429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMenu items can have an optional text to display as a reminder\n about a keystroke binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "HasAccelerator",
           "package": "uni-htk",
@@ -22680,6 +24439,7 @@
         "index": {
           "description": "Menu items can have an optional text to display as reminder about keystroke binding",
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "HasAccelerator",
           "package": "uni-htk",
@@ -22694,6 +24454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColoured objects instantiate the \u003ccode\u003eclass HasColour\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "HasColour",
           "package": "uni-htk",
@@ -22703,6 +24464,7 @@
         "index": {
           "description": "Coloured objects instantiate the class HasColour",
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "HasColour",
           "package": "uni-htk",
@@ -22717,6 +24479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage containers instantiate the \u003ccode\u003eclass HasPhoto\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "HasPhoto",
           "package": "uni-htk",
@@ -22726,6 +24489,7 @@
         "index": {
           "description": "Image containers instantiate the class HasPhoto",
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "HasPhoto",
           "package": "uni-htk",
@@ -22740,6 +24504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMenu items instantiate the abstract \u003ccode\u003eclass MenuItem\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "MenuItem",
           "package": "uni-htk",
@@ -22749,6 +24514,7 @@
         "index": {
           "description": "Menu items instantiate the abstract class MenuItem",
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "MenuItem",
           "package": "uni-htk",
@@ -22763,6 +24529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA select button can be selected or not selected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "SelectButton",
           "package": "uni-htk",
@@ -22772,6 +24539,7 @@
         "index": {
           "description": "select button can be selected or not selected",
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "SelectButton",
           "package": "uni-htk",
@@ -22786,6 +24554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state of a \u003ccode\u003eToggleButton\u003c/code\u003e can be toggled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "ToggleButton",
           "package": "uni-htk",
@@ -22795,6 +24564,7 @@
         "index": {
           "description": "The state of ToggleButton can be toggled",
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "ToggleButton",
           "package": "uni-htk",
@@ -22808,6 +24578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "accelerator",
           "package": "uni-htk",
@@ -22817,6 +24588,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "accelerator",
           "normalized": "String-\u003eConfig a",
@@ -22832,6 +24604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "createMenuItem",
           "package": "uni-htk",
@@ -22842,6 +24615,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "createMenuItem",
           "normalized": "Menu-\u003eMenuItemKind-\u003e(GUIOBJECT-\u003ea)-\u003e[Config a]-\u003eIO a",
@@ -22857,6 +24631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "getAccelerator",
           "package": "uni-htk",
@@ -22866,6 +24641,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "getAccelerator",
           "normalized": "a-\u003eIO String",
@@ -22881,6 +24657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "getColour",
           "package": "uni-htk",
@@ -22890,6 +24667,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "getColour",
           "normalized": "a-\u003eConfigID-\u003eIO Colour",
@@ -22905,6 +24683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "getPhoto",
           "package": "uni-htk",
@@ -22914,6 +24693,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "getPhoto",
           "normalized": "a-\u003eIO(Maybe Image)",
@@ -22929,6 +24709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "getSelectionState",
           "package": "uni-htk",
@@ -22938,6 +24719,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "getSelectionState",
           "normalized": "a-\u003eIO Toggle",
@@ -22953,6 +24735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "legalColourID",
           "package": "uni-htk",
@@ -22962,6 +24745,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "legalColourID",
           "normalized": "a-\u003eConfigID-\u003eBool",
@@ -22978,6 +24762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "menuItemMethods",
           "package": "uni-htk",
@@ -22988,6 +24773,7 @@
         "index": {
           "description": "Internal",
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "menuItemMethods",
           "package": "uni-htk",
@@ -23001,6 +24787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "photo",
           "package": "uni-htk",
@@ -23010,6 +24797,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "photo",
           "normalized": "Image-\u003eConfig a",
@@ -23024,6 +24812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "selectionState",
           "package": "uni-htk",
@@ -23033,6 +24822,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "selectionState",
           "normalized": "Toggle-\u003eConfig a",
@@ -23048,6 +24838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "selectionStateSet",
           "package": "uni-htk",
@@ -23057,6 +24848,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "selectionStateSet",
           "normalized": "a-\u003eEvent Toggle",
@@ -23072,6 +24864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "setColour",
           "package": "uni-htk",
@@ -23081,6 +24874,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "setColour",
           "normalized": "a-\u003eConfigID-\u003eColour-\u003eIO a",
@@ -23096,6 +24890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuItem",
           "name": "toggleButton",
           "package": "uni-htk",
@@ -23105,6 +24900,7 @@
         },
         "index": {
           "hierarchy": "HTk Menuitems MenuItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuItem",
           "name": "toggleButton",
           "normalized": "a-\u003eIO()",
@@ -23121,6 +24917,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003emenu radiobutton\u003c/em\u003e.\n A simple radiobutton inside a menu associated with a polymorphic\n variable.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuRadioButton",
           "name": "MenuRadioButton",
           "package": "uni-htk",
@@ -23130,6 +24927,7 @@
         "index": {
           "description": "HTk menu radiobutton simple radiobutton inside menu associated with polymorphic variable",
           "hierarchy": "HTk Menuitems MenuRadioButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuRadioButton",
           "name": "MenuRadioButton",
           "package": "uni-htk",
@@ -23144,6 +24942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eMenuRadioButton\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuRadioButton",
           "name": "MenuRadioButton",
           "package": "uni-htk",
@@ -23153,6 +24952,7 @@
         "index": {
           "description": "The MenuRadioButton datatype",
           "hierarchy": "HTk Menuitems MenuRadioButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuRadioButton",
           "name": "MenuRadioButton",
           "package": "uni-htk",
@@ -23167,6 +24967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new menu radiobutton and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuRadioButton",
           "name": "createMenuRadioButton",
           "package": "uni-htk",
@@ -23176,6 +24977,7 @@
         "index": {
           "description": "Constructs new menu radiobutton and returns handler",
           "hierarchy": "HTk Menuitems MenuRadioButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuRadioButton",
           "name": "createMenuRadioButton",
           "normalized": "Menu-\u003e[Config MenuRadioButton]-\u003eIO MenuRadioButton",
@@ -23192,6 +24994,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003emenu separator\u003c/em\u003e.\n A simple separator to group menu entries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuSeparator",
           "name": "MenuSeparator",
           "package": "uni-htk",
@@ -23201,6 +25004,7 @@
         "index": {
           "description": "HTk menu separator simple separator to group menu entries",
           "hierarchy": "HTk Menuitems MenuSeparator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuSeparator",
           "name": "MenuSeparator",
           "package": "uni-htk",
@@ -23215,6 +25019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eMenuSeparator\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuSeparator",
           "name": "MenuSeparator",
           "package": "uni-htk",
@@ -23224,6 +25029,7 @@
         "index": {
           "description": "The MenuSeparator datatype",
           "hierarchy": "HTk Menuitems MenuSeparator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuSeparator",
           "name": "MenuSeparator",
           "package": "uni-htk",
@@ -23238,6 +25044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new menu separator and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Menuitems.MenuSeparator",
           "name": "createMenuSeparator",
           "package": "uni-htk",
@@ -23247,6 +25054,7 @@
         "index": {
           "description": "Constructs new menu separator and returns handler",
           "hierarchy": "HTk Menuitems MenuSeparator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Menuitems.MenuSeparator",
           "name": "createMenuSeparator",
           "normalized": "Menu-\u003e[Config MenuSeparator]-\u003eIO MenuSeparator",
@@ -23263,6 +25071,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003eembedded windows\u003c/em\u003e inside an editor widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.EmbeddedTextWin",
           "name": "EmbeddedTextWin",
           "package": "uni-htk",
@@ -23272,6 +25081,7 @@
         "index": {
           "description": "HTk embedded windows inside an editor widget",
           "hierarchy": "HTk Textitems EmbeddedTextWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.EmbeddedTextWin",
           "name": "EmbeddedTextWin",
           "package": "uni-htk",
@@ -23286,6 +25096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eEmbeddedTextWin\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.EmbeddedTextWin",
           "name": "EmbeddedTextWin",
           "package": "uni-htk",
@@ -23295,6 +25106,7 @@
         "index": {
           "description": "The EmbeddedTextWin datatype",
           "hierarchy": "HTk Textitems EmbeddedTextWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.EmbeddedTextWin",
           "name": "EmbeddedTextWin",
           "package": "uni-htk",
@@ -23309,6 +25121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new embedded window inside an editor widget and returns\n a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.EmbeddedTextWin",
           "name": "createEmbeddedTextWin",
           "package": "uni-htk",
@@ -23318,6 +25131,7 @@
         "index": {
           "description": "Constructs new embedded window inside an editor widget and returns handler",
           "hierarchy": "HTk Textitems EmbeddedTextWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.EmbeddedTextWin",
           "name": "createEmbeddedTextWin",
           "normalized": "Editor-\u003ea-\u003eb-\u003e[Config EmbeddedTextWin]-\u003eIO EmbeddedTextWin",
@@ -23334,6 +25148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the current stretch setting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.EmbeddedTextWin",
           "name": "getStretch",
           "package": "uni-htk",
@@ -23344,6 +25159,7 @@
         "index": {
           "description": "Gets the current stretch setting",
           "hierarchy": "HTk Textitems EmbeddedTextWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.EmbeddedTextWin",
           "name": "getStretch",
           "normalized": "EmbeddedTextWin-\u003eIO Toggle",
@@ -23360,6 +25176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf set the contained widget is stretched vertically to match the\n spacing of the line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.EmbeddedTextWin",
           "name": "stretch",
           "package": "uni-htk",
@@ -23370,6 +25187,7 @@
         "index": {
           "description": "If set the contained widget is stretched vertically to match the spacing of the line",
           "hierarchy": "HTk Textitems EmbeddedTextWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.EmbeddedTextWin",
           "name": "stretch",
           "normalized": "Toggle-\u003eConfig EmbeddedTextWin",
@@ -23385,6 +25203,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides access to text marks inside an editor widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.Mark",
           "name": "Mark",
           "package": "uni-htk",
@@ -23394,6 +25213,7 @@
         "index": {
           "description": "This module provides access to text marks inside an editor widget",
           "hierarchy": "HTk Textitems Mark",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.Mark",
           "name": "Mark",
           "package": "uni-htk",
@@ -23408,6 +25228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eGravity\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.Mark",
           "name": "Gravity",
           "package": "uni-htk",
@@ -23417,6 +25238,7 @@
         "index": {
           "description": "The Gravity datatype",
           "hierarchy": "HTk Textitems Mark",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.Mark",
           "name": "Gravity",
           "package": "uni-htk",
@@ -23431,6 +25253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eMark\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.Mark",
           "name": "Mark",
           "package": "uni-htk",
@@ -23440,6 +25263,7 @@
         "index": {
           "description": "The Mark datatype",
           "hierarchy": "HTk Textitems Mark",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.Mark",
           "name": "Mark",
           "package": "uni-htk",
@@ -23453,6 +25277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.Mark",
           "name": "Mark",
           "package": "uni-htk",
@@ -23462,6 +25287,7 @@
         },
         "index": {
           "hierarchy": "HTk Textitems Mark",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.Mark",
           "name": "Mark",
           "package": "uni-htk",
@@ -23475,6 +25301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.Mark",
           "name": "ToLeft",
           "package": "uni-htk",
@@ -23484,6 +25311,7 @@
         },
         "index": {
           "hierarchy": "HTk Textitems Mark",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.Mark",
           "name": "ToLeft",
           "package": "uni-htk",
@@ -23497,6 +25325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.Mark",
           "name": "ToRight",
           "package": "uni-htk",
@@ -23506,6 +25335,7 @@
         },
         "index": {
           "hierarchy": "HTk Textitems Mark",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.Mark",
           "name": "ToRight",
           "package": "uni-htk",
@@ -23520,6 +25350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a text mark inside an editor widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.Mark",
           "name": "createMark",
           "package": "uni-htk",
@@ -23529,6 +25360,7 @@
         "index": {
           "description": "Creates text mark inside an editor widget and returns handler",
           "hierarchy": "HTk Textitems Mark",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.Mark",
           "name": "createMark",
           "normalized": "Editor-\u003eString-\u003ea-\u003eIO Mark",
@@ -23545,6 +25377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the current marks from an editor widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.Mark",
           "name": "getCurrentMarks",
           "package": "uni-htk",
@@ -23554,6 +25387,7 @@
         "index": {
           "description": "Gets the current marks from an editor widget",
           "hierarchy": "HTk Textitems Mark",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.Mark",
           "name": "getCurrentMarks",
           "normalized": "Editor-\u003eIO[Mark]",
@@ -23570,6 +25404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the index position of the text mark.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.Mark",
           "name": "setMark",
           "package": "uni-htk",
@@ -23579,6 +25414,7 @@
         "index": {
           "description": "Sets the index position of the text mark",
           "hierarchy": "HTk Textitems Mark",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.Mark",
           "name": "setMark",
           "normalized": "Mark-\u003ea-\u003eIO()",
@@ -23595,6 +25431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the gravity of the given text mark.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.Mark",
           "name": "setMarkGravity",
           "package": "uni-htk",
@@ -23604,6 +25441,7 @@
         "index": {
           "description": "Sets the gravity of the given text mark",
           "hierarchy": "HTk Textitems Mark",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.Mark",
           "name": "setMarkGravity",
           "normalized": "Mark-\u003eGravity-\u003eIO()",
@@ -23620,6 +25458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsets a text mark inside an editor widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.Mark",
           "name": "unsetMark",
           "package": "uni-htk",
@@ -23629,6 +25468,7 @@
         "index": {
           "description": "Unsets text mark inside an editor widget",
           "hierarchy": "HTk Textitems Mark",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.Mark",
           "name": "unsetMark",
           "normalized": "Mark-\u003eIO()",
@@ -23645,6 +25485,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides access to text tags inside an editor widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "TextTag",
           "package": "uni-htk",
@@ -23654,6 +25495,7 @@
         "index": {
           "description": "This module provides access to text tags inside an editor widget",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "TextTag",
           "package": "uni-htk",
@@ -23668,6 +25510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eTextTag\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "TextTag",
           "package": "uni-htk",
@@ -23677,6 +25520,7 @@
         "index": {
           "description": "The TextTag datatype",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "TextTag",
           "package": "uni-htk",
@@ -23691,6 +25535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the specified text range to a text tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "addTextTag",
           "package": "uni-htk",
@@ -23700,6 +25545,7 @@
         "index": {
           "description": "Adds the specified text range to text tag",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "addTextTag",
           "normalized": "TextTag-\u003ea-\u003ea-\u003eIO()",
@@ -23716,6 +25562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a stipple pattern for the background colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "bgstipple",
           "package": "uni-htk",
@@ -23726,6 +25573,7 @@
         "index": {
           "description": "Sets stipple pattern for the background colour",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "bgstipple",
           "normalized": "BitMapHandle-\u003eConfig TextTag",
@@ -23741,6 +25589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a text tag inside an editor widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "createTextTag",
           "package": "uni-htk",
@@ -23750,6 +25599,7 @@
         "index": {
           "description": "Creates text tag inside an editor widget and returns handler",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "createTextTag",
           "normalized": "Editor-\u003ea-\u003ea-\u003e[Config TextTag]-\u003eIO TextTag",
@@ -23766,6 +25616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a stipple pattern for the foreground colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "fgstipple",
           "package": "uni-htk",
@@ -23776,6 +25627,7 @@
         "index": {
           "description": "Sets stipple pattern for the foreground colour",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "fgstipple",
           "normalized": "BitMapHandle-\u003eConfig TextTag",
@@ -23791,6 +25643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the stipple pattern for the background colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "getBgstipple",
           "package": "uni-htk",
@@ -23801,6 +25654,7 @@
         "index": {
           "description": "Gets the stipple pattern for the background colour",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "getBgstipple",
           "normalized": "TextTag-\u003eIO BitMapHandle",
@@ -23817,6 +25671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the stipple pattern for the foreground colour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "getFgstipple",
           "package": "uni-htk",
@@ -23827,6 +25682,7 @@
         "index": {
           "description": "Gets the stipple pattern for the foreground colour",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "getFgstipple",
           "normalized": "TextTag-\u003eIO BitMapHandle",
@@ -23843,6 +25699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the normal left intend for a line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "getLmargin1",
           "package": "uni-htk",
@@ -23853,6 +25710,7 @@
         "index": {
           "description": "Gets the normal left intend for line",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "getLmargin1",
           "normalized": "TextTag-\u003eIO Distance",
@@ -23869,6 +25727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the intend for a part of a line that gets wrapped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "getLmargin2",
           "package": "uni-htk",
@@ -23879,6 +25738,7 @@
         "index": {
           "description": "Gets the intend for part of line that gets wrapped",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "getLmargin2",
           "normalized": "TextTag-\u003eIO Distance",
@@ -23895,6 +25755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the baseline offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "getOffset",
           "package": "uni-htk",
@@ -23905,6 +25766,7 @@
         "index": {
           "description": "Gets the baseline offset",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "getOffset",
           "normalized": "TextTag-\u003eIO Distance",
@@ -23921,6 +25783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the current overstrike setting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "getOverstrike",
           "package": "uni-htk",
@@ -23931,6 +25794,7 @@
         "index": {
           "description": "Gets the current overstrike setting",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "getOverstrike",
           "normalized": "TextTag-\u003eIO Toggle",
@@ -23947,6 +25811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the right-hand margin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "getRmargin",
           "package": "uni-htk",
@@ -23957,6 +25822,7 @@
         "index": {
           "description": "Gets the right-hand margin",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "getRmargin",
           "normalized": "TextTag-\u003eIO Distance",
@@ -23973,6 +25839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the current underline setting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "getUnderlined",
           "package": "uni-htk",
@@ -23983,6 +25850,7 @@
         "index": {
           "description": "Gets the current underline setting",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "getUnderlined",
           "normalized": "TextTag-\u003eIO Toggle",
@@ -23999,6 +25867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the normal left intend for a line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "lmargin1",
           "package": "uni-htk",
@@ -24009,6 +25878,7 @@
         "index": {
           "description": "Sets the normal left intend for line",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "lmargin1",
           "normalized": "Distance-\u003eConfig TextTag",
@@ -24024,6 +25894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the intend for a part of a line that gets wrapped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "lmargin2",
           "package": "uni-htk",
@@ -24034,6 +25905,7 @@
         "index": {
           "description": "Sets the intend for part of line that gets wrapped",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "lmargin2",
           "normalized": "Distance-\u003eConfig TextTag",
@@ -24049,6 +25921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLowers the text tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "lowerTextTag",
           "package": "uni-htk",
@@ -24058,6 +25931,7 @@
         "index": {
           "description": "Lowers the text tag",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "lowerTextTag",
           "normalized": "TextTag-\u003eIO()",
@@ -24074,6 +25948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the baseline offset (positive for superscripts).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "offset",
           "package": "uni-htk",
@@ -24084,6 +25959,7 @@
         "index": {
           "description": "Sets the baseline offset positive for superscripts",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "offset",
           "normalized": "Distance-\u003eConfig TextTag",
@@ -24099,6 +25975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003eTrue\u003c/code\u003e, the text is drawn with a horizontal line through\n it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "overstrike",
           "package": "uni-htk",
@@ -24109,6 +25986,7 @@
         "index": {
           "description": "If True the text is drawn with horizontal line through it",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "overstrike",
           "normalized": "Toggle-\u003eConfig TextTag",
@@ -24124,6 +26002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaises the given text tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "raiseTextTag",
           "package": "uni-htk",
@@ -24133,6 +26012,7 @@
         "index": {
           "description": "Raises the given text tag",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "raiseTextTag",
           "normalized": "TextTag-\u003eIO()",
@@ -24149,6 +26029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the specified text range from a text tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "removeTextTag",
           "package": "uni-htk",
@@ -24158,6 +26039,7 @@
         "index": {
           "description": "Removes the specified text range from text tag",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "removeTextTag",
           "normalized": "TextTag-\u003ea-\u003ea-\u003eIO()",
@@ -24174,6 +26056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the right-hand margin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "rmargin",
           "package": "uni-htk",
@@ -24184,6 +26067,7 @@
         "index": {
           "description": "Sets the right-hand margin",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "rmargin",
           "normalized": "Distance-\u003eConfig TextTag",
@@ -24199,6 +26083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003eTrue\u003c/code\u003e, the text is underlined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Textitems.TextTag",
           "name": "underlined",
           "package": "uni-htk",
@@ -24209,6 +26094,7 @@
         "index": {
           "description": "If True the text is underlined",
           "hierarchy": "HTk Textitems TextTag",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Textitems.TextTag",
           "name": "underlined",
           "normalized": "Toggle-\u003eConfig TextTag",
@@ -24224,6 +26110,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003eLabelFrame\u003c/em\u003e widget.\n A labelled container for widgets. This widget is from the Tix library\n and therefore only available if Tix is installed. When Tix is not\n available, a normal frame widget will be used instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.LabelFrame",
           "name": "LabelFrame",
           "package": "uni-htk",
@@ -24233,6 +26120,7 @@
         "index": {
           "description": "HTk LabelFrame widget labelled container for widgets This widget is from the Tix library and therefore only available if Tix is installed When Tix is not available normal frame widget will be used instead",
           "hierarchy": "HTk Tix LabelFrame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.LabelFrame",
           "name": "LabelFrame",
           "package": "uni-htk",
@@ -24247,6 +26135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eLabelFrame\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.LabelFrame",
           "name": "LabelFrame",
           "package": "uni-htk",
@@ -24256,6 +26145,7 @@
         "index": {
           "description": "The LabelFrame datatype",
           "hierarchy": "HTk Tix LabelFrame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.LabelFrame",
           "name": "LabelFrame",
           "package": "uni-htk",
@@ -24270,6 +26160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eLabelSide\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.LabelFrame",
           "name": "LabelSide",
           "package": "uni-htk",
@@ -24279,6 +26170,7 @@
         "index": {
           "description": "The LabelSide datatype",
           "hierarchy": "HTk Tix LabelFrame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.LabelFrame",
           "name": "LabelSide",
           "package": "uni-htk",
@@ -24292,6 +26184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.LabelFrame",
           "name": "AcrossTopLabel",
           "package": "uni-htk",
@@ -24301,6 +26194,7 @@
         },
         "index": {
           "hierarchy": "HTk Tix LabelFrame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.LabelFrame",
           "name": "AcrossTopLabel",
           "package": "uni-htk",
@@ -24314,6 +26208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.LabelFrame",
           "name": "BottomLabel",
           "package": "uni-htk",
@@ -24323,6 +26218,7 @@
         },
         "index": {
           "hierarchy": "HTk Tix LabelFrame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.LabelFrame",
           "name": "BottomLabel",
           "package": "uni-htk",
@@ -24336,6 +26232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.LabelFrame",
           "name": "LeftLabel",
           "package": "uni-htk",
@@ -24345,6 +26242,7 @@
         },
         "index": {
           "hierarchy": "HTk Tix LabelFrame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.LabelFrame",
           "name": "LeftLabel",
           "package": "uni-htk",
@@ -24358,6 +26256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.LabelFrame",
           "name": "NoLabel",
           "package": "uni-htk",
@@ -24367,6 +26266,7 @@
         },
         "index": {
           "hierarchy": "HTk Tix LabelFrame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.LabelFrame",
           "name": "NoLabel",
           "package": "uni-htk",
@@ -24380,6 +26280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.LabelFrame",
           "name": "RightLabel",
           "package": "uni-htk",
@@ -24389,6 +26290,7 @@
         },
         "index": {
           "hierarchy": "HTk Tix LabelFrame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.LabelFrame",
           "name": "RightLabel",
           "package": "uni-htk",
@@ -24402,6 +26304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.LabelFrame",
           "name": "TopLabel",
           "package": "uni-htk",
@@ -24411,6 +26314,7 @@
         },
         "index": {
           "hierarchy": "HTk Tix LabelFrame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.LabelFrame",
           "name": "TopLabel",
           "package": "uni-htk",
@@ -24425,6 +26329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the side where the label is displayed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.LabelFrame",
           "name": "getLabelSide",
           "package": "uni-htk",
@@ -24435,6 +26340,7 @@
         "index": {
           "description": "Gets the side where the label is displayed",
           "hierarchy": "HTk Tix LabelFrame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.LabelFrame",
           "name": "getLabelSide",
           "normalized": "LabelFrame-\u003eIO LabelSide",
@@ -24451,6 +26357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou can specify the side to display the label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.LabelFrame",
           "name": "labelSide",
           "package": "uni-htk",
@@ -24461,6 +26368,7 @@
         "index": {
           "description": "You can specify the side to display the label",
           "hierarchy": "HTk Tix LabelFrame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.LabelFrame",
           "name": "labelSide",
           "normalized": "LabelSide-\u003eConfig LabelFrame",
@@ -24477,6 +26385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new label frame and returns it as a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.LabelFrame",
           "name": "newLabelFrame",
           "package": "uni-htk",
@@ -24486,6 +26395,7 @@
         "index": {
           "description": "Constructs new label frame and returns it as value",
           "hierarchy": "HTk Tix LabelFrame",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.LabelFrame",
           "name": "newLabelFrame",
           "normalized": "a-\u003e[Config LabelFrame]-\u003eIO LabelFrame",
@@ -24502,6 +26412,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003enotebook\u003c/em\u003e and\n \u003cem\u003enotebook pages\u003c/em\u003e.\n This widget is from the Tix library and therefore only available if\n you are using tixwish.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.NoteBook",
           "name": "NoteBook",
           "package": "uni-htk",
@@ -24511,6 +26422,7 @@
         "index": {
           "description": "HTk notebook and notebook pages This widget is from the Tix library and therefore only available if you are using tixwish",
           "hierarchy": "HTk Tix NoteBook",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.NoteBook",
           "name": "NoteBook",
           "package": "uni-htk",
@@ -24525,6 +26437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eNoteBook\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.NoteBook",
           "name": "NoteBook",
           "package": "uni-htk",
@@ -24534,6 +26447,7 @@
         "index": {
           "description": "The NoteBook datatype",
           "hierarchy": "HTk Tix NoteBook",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.NoteBook",
           "name": "NoteBook",
           "package": "uni-htk",
@@ -24548,6 +26462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eNoteBookPage\u003c/code\u003e datatype - a single page of a notebook.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.NoteBook",
           "name": "NoteBookPage",
           "package": "uni-htk",
@@ -24557,6 +26472,7 @@
         "index": {
           "description": "The NoteBookPage datatype single page of notebook",
           "hierarchy": "HTk Tix NoteBook",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.NoteBook",
           "name": "NoteBookPage",
           "package": "uni-htk",
@@ -24571,6 +26487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new page inside a notebook widget and returns it as a\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.NoteBook",
           "name": "createNoteBookPage",
           "package": "uni-htk",
@@ -24580,6 +26497,7 @@
         "index": {
           "description": "Constructs new page inside notebook widget and returns it as value",
           "hierarchy": "HTk Tix NoteBook",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.NoteBook",
           "name": "createNoteBookPage",
           "normalized": "NoteBook-\u003eString-\u003e[Config NoteBookPage]-\u003eIO NoteBookPage",
@@ -24596,6 +26514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new notebook widget and returns it as a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.NoteBook",
           "name": "newNoteBook",
           "package": "uni-htk",
@@ -24605,6 +26524,7 @@
         "index": {
           "description": "Constructs new notebook widget and returns it as value",
           "hierarchy": "HTk Tix NoteBook",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.NoteBook",
           "name": "newNoteBook",
           "normalized": "a-\u003e[Config NoteBook]-\u003eIO NoteBook",
@@ -24621,6 +26541,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003ePanedWindow\u003c/em\u003e.\n A paned window is a container widget, that is divided into scaleable\n horizontal or vertical panes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.PanedWindow",
           "name": "PanedWindow",
           "package": "uni-htk",
@@ -24630,6 +26551,7 @@
         "index": {
           "description": "HTk PanedWindow paned window is container widget that is divided into scaleable horizontal or vertical panes",
           "hierarchy": "HTk Tix PanedWindow",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.PanedWindow",
           "name": "PanedWindow",
           "package": "uni-htk",
@@ -24644,6 +26566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ePane\u003c/code\u003e datatype - a pane inside a paned window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.PanedWindow",
           "name": "Pane",
           "package": "uni-htk",
@@ -24653,6 +26576,7 @@
         "index": {
           "description": "The Pane datatype pane inside paned window",
           "hierarchy": "HTk Tix PanedWindow",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.PanedWindow",
           "name": "Pane",
           "package": "uni-htk",
@@ -24667,6 +26591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ePanedWindow\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.PanedWindow",
           "name": "PanedWindow",
           "package": "uni-htk",
@@ -24676,6 +26601,7 @@
         "index": {
           "description": "The PanedWindow datatype",
           "hierarchy": "HTk Tix PanedWindow",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.PanedWindow",
           "name": "PanedWindow",
           "package": "uni-htk",
@@ -24690,6 +26616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies that the new pane should be placed after pane in the list of\n panes in this PanedWindow widget\n (this is an initial configuration that cannot be changed later).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.PanedWindow",
           "name": "after",
           "package": "uni-htk",
@@ -24700,6 +26627,7 @@
         "index": {
           "description": "Specifies that the new pane should be placed after pane in the list of panes in this PanedWindow widget this is an initial configuration that cannot be changed later",
           "hierarchy": "HTk Tix PanedWindow",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.PanedWindow",
           "name": "after",
           "normalized": "Pane-\u003eCreationConfig Pane",
@@ -24715,6 +26643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the position of the new pane in the list of panes in this\n PanedWindow widget. 0 means the first position, 1 means the second,\n and so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.PanedWindow",
           "name": "at",
           "package": "uni-htk",
@@ -24725,6 +26654,7 @@
         "index": {
           "description": "Specifies the position of the new pane in the list of panes in this PanedWindow widget means the first position means the second and so on",
           "hierarchy": "HTk Tix PanedWindow",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.PanedWindow",
           "name": "at",
           "normalized": "Int-\u003eCreationConfig Pane",
@@ -24740,6 +26670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies that the new pane should be placed before pane in the list of\n panes in this PanedWindow widget\n (this is an initial configuration that cannot be changed later).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.PanedWindow",
           "name": "before",
           "package": "uni-htk",
@@ -24750,6 +26681,7 @@
         "index": {
           "description": "Specifies that the new pane should be placed before pane in the list of panes in this PanedWindow widget this is an initial configuration that cannot be changed later",
           "hierarchy": "HTk Tix PanedWindow",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.PanedWindow",
           "name": "before",
           "normalized": "Pane-\u003eCreationConfig Pane",
@@ -24765,6 +26697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new pane inside a paned window and returns it as a\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.PanedWindow",
           "name": "createPane",
           "package": "uni-htk",
@@ -24774,6 +26707,7 @@
         "index": {
           "description": "Constructs new pane inside paned window and returns it as value",
           "hierarchy": "HTk Tix PanedWindow",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.PanedWindow",
           "name": "createPane",
           "normalized": "PanedWindow-\u003e[CreationConfig Pane]-\u003e[Config Pane]-\u003eIO Pane",
@@ -24790,6 +26724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the expand/shrink factor of this pane as a non-negative\n floating point number. The default value is 0.0. The expand/shrink\n factor is used to calculate how much each pane should grow or shrink\n when the size of the PanedWindow main window is changed. When the main\n window expands/shrinks by n pixels, then pane i will grow/shrink by\n about n * factor(i) / summation(factors), where factor(i) is the\n expand/shrink factor of pane i and summation(factors) is the summation\n of the expand/shrink factors of all the panes. If summation(factors)\n is 0.0, however, only the last visible pane will be grown or shrunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.PanedWindow",
           "name": "expand",
           "package": "uni-htk",
@@ -24800,6 +26735,7 @@
         "index": {
           "description": "Specifies the expand shrink factor of this pane as non-negative floating point number The default value is The expand shrink factor is used to calculate how much each pane should grow or shrink when the size of the PanedWindow main window is changed When the main window expands shrinks by pixels then pane will grow shrink by about factor summation factors where factor is the expand shrink factor of pane and summation factors is the summation of the expand shrink factors of all the panes If summation factors is however only the last visible pane will be grown or shrunk",
           "hierarchy": "HTk Tix PanedWindow",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.PanedWindow",
           "name": "expand",
           "normalized": "Double-\u003eCreationConfig Pane",
@@ -24815,6 +26751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the size, in pixels, of the new pane; if the -size option is\n not given, the PanedWindow widget will use the natural size of the pane\n subwidget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.PanedWindow",
           "name": "initsize",
           "package": "uni-htk",
@@ -24825,6 +26762,7 @@
         "index": {
           "description": "Specifies the size in pixels of the new pane if the size option is not given the PanedWindow widget will use the natural size of the pane subwidget",
           "hierarchy": "HTk Tix PanedWindow",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.PanedWindow",
           "name": "initsize",
           "normalized": "Int-\u003eCreationConfig Pane",
@@ -24840,6 +26778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the maximum size, in pixels, of the new pane; the default is\n 10000.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.PanedWindow",
           "name": "maxsize",
           "package": "uni-htk",
@@ -24850,6 +26789,7 @@
         "index": {
           "description": "Specifies the maximum size in pixels of the new pane the default is",
           "hierarchy": "HTk Tix PanedWindow",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.PanedWindow",
           "name": "maxsize",
           "normalized": "Int-\u003eCreationConfig Pane",
@@ -24865,6 +26805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the minimum size, in pixels, of the new pane; the default\n is 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.PanedWindow",
           "name": "minsize",
           "package": "uni-htk",
@@ -24875,6 +26816,7 @@
         "index": {
           "description": "Specifies the minimum size in pixels of the new pane the default is",
           "hierarchy": "HTk Tix PanedWindow",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.PanedWindow",
           "name": "minsize",
           "normalized": "Int-\u003eCreationConfig Pane",
@@ -24890,6 +26832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new paned window and returns it as a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.PanedWindow",
           "name": "newPanedWindow",
           "package": "uni-htk",
@@ -24899,6 +26842,7 @@
         "index": {
           "description": "Constructs new paned window and returns it as value",
           "hierarchy": "HTk Tix PanedWindow",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.PanedWindow",
           "name": "newPanedWindow",
           "normalized": "a-\u003eOrientation-\u003e[Config PanedWindow]-\u003eIO PanedWindow",
@@ -24914,6 +26858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.Subwidget",
           "name": "Subwidget",
           "package": "uni-htk",
@@ -24922,6 +26867,7 @@
         },
         "index": {
           "hierarchy": "HTk Tix Subwidget",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.Subwidget",
           "name": "Subwidget",
           "package": "uni-htk",
@@ -24936,6 +26882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTix mega widgets are composed of several subwidgets.\n As it is sometimes important to access these subwidgets, there\n is a way in Htk of creating widgets as subwidgets by instanciating the\n \u003ccode\u003eclass CanBeSubwidget\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eUse createAsSubwidget instead of the normal constructor new[WidgetName].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.Subwidget",
           "name": "CanBeSubwidget",
           "package": "uni-htk",
@@ -24945,6 +26892,7 @@
         "index": {
           "description": "Tix mega widgets are composed of several subwidgets As it is sometimes important to access these subwidgets there is way in Htk of creating widgets as subwidgets by instanciating the class CanBeSubwidget Use createAsSubwidget instead of the normal constructor new WidgetName",
           "hierarchy": "HTk Tix Subwidget",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.Subwidget",
           "name": "CanBeSubwidget",
           "package": "uni-htk",
@@ -24958,6 +26906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.Subwidget",
           "name": "createAsSubwidget",
           "package": "uni-htk",
@@ -24967,6 +26916,7 @@
         },
         "index": {
           "hierarchy": "HTk Tix Subwidget",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.Subwidget",
           "name": "createAsSubwidget",
           "normalized": "GUIOBJECT-\u003eIO a",
@@ -24983,6 +26933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing the function createSubwidget, instantiating the\n \u003ccode\u003eclass CanBeSubwidget\u003c/code\u003e\n should be easy, compare as an example instantiation of the \u003ccode\u003eEntry\u003c/code\u003e widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Tix.Subwidget",
           "name": "createSubwidget",
           "package": "uni-htk",
@@ -24993,6 +26944,7 @@
         "index": {
           "description": "Using the function createSubwidget instantiating the class CanBeSubwidget should be easy compare as an example instantiation of the Entry widget",
           "hierarchy": "HTk Tix Subwidget",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Tix.Subwidget",
           "name": "createSubwidget",
           "normalized": "ObjectKind-\u003eMethods-\u003eGUIOBJECT-\u003eIO GUIOBJECT",
@@ -25009,6 +26961,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eObjects with a name and an icon (used for several purposes).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.CItem",
           "name": "CItem",
           "package": "uni-htk",
@@ -25018,6 +26971,7 @@
         "index": {
           "description": "Objects with name and an icon used for several purposes",
           "hierarchy": "HTk Toolkit CItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.CItem",
           "name": "CItem",
           "package": "uni-htk",
@@ -25032,6 +26986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects with a name and an icon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.CItem",
           "name": "CItem",
           "package": "uni-htk",
@@ -25041,6 +26996,7 @@
         "index": {
           "description": "Objects with name and an icon",
           "hierarchy": "HTk Toolkit CItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.CItem",
           "name": "CItem",
           "package": "uni-htk",
@@ -25054,6 +27010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.CItem",
           "name": "getIcon",
           "package": "uni-htk",
@@ -25063,6 +27020,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit CItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.CItem",
           "name": "getIcon",
           "normalized": "a-\u003eIO Image",
@@ -25078,6 +27036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.CItem",
           "name": "getName",
           "package": "uni-htk",
@@ -25087,6 +27046,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit CItem",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.CItem",
           "name": "getName",
           "normalized": "a-\u003eIO Name",
@@ -25103,6 +27063,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic dialog window and a couple of predefined abstractions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "DialogWin",
           "package": "uni-htk",
@@ -25112,6 +27073,7 @@
         "index": {
           "description": "Basic dialog window and couple of predefined abstractions",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "DialogWin",
           "package": "uni-htk",
@@ -25126,6 +27088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eDialog\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "Dialog",
           "package": "uni-htk",
@@ -25135,6 +27098,7 @@
         "index": {
           "description": "The Dialog datatype",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "Dialog",
           "package": "uni-htk",
@@ -25149,6 +27113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an alert window with the given text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createAlertWin",
           "package": "uni-htk",
@@ -25158,6 +27123,7 @@
         "index": {
           "description": "Constructs an alert window with the given text",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createAlertWin",
           "normalized": "String-\u003e[Config Toplevel]-\u003eIO()",
@@ -25174,6 +27140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an alert window with the given markuptext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createAlertWin'",
           "package": "uni-htk",
@@ -25183,6 +27150,7 @@
         "index": {
           "description": "Constructs an alert window with the given markuptext",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createAlertWin'",
           "normalized": "[MarkupText]-\u003e[Config Toplevel]-\u003eIO()",
@@ -25199,6 +27167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an confirm window with the given text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createConfirmWin",
           "package": "uni-htk",
@@ -25208,6 +27177,7 @@
         "index": {
           "description": "Constructs an confirm window with the given text",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createConfirmWin",
           "normalized": "String-\u003e[Config Toplevel]-\u003eIO Bool",
@@ -25224,6 +27194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an confirm window with the given markuptext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createConfirmWin'",
           "package": "uni-htk",
@@ -25233,6 +27204,7 @@
         "index": {
           "description": "Constructs an confirm window with the given markuptext",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createConfirmWin'",
           "normalized": "[MarkupText]-\u003e[Config Toplevel]-\u003eIO Bool",
@@ -25249,6 +27221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new dialogue window for plain text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createDialogWin",
           "package": "uni-htk",
@@ -25258,6 +27231,7 @@
         "index": {
           "description": "Constructs new dialogue window for plain text",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createDialogWin",
           "normalized": "[Choice a]-\u003eMaybe Int-\u003e[Config(Dialog a)]-\u003e[Config Toplevel]-\u003eIO a",
@@ -25274,6 +27248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new dialow window for markup text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createDialogWin'",
           "package": "uni-htk",
@@ -25283,6 +27258,7 @@
         "index": {
           "description": "Constructs new dialow window for markup text",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createDialogWin'",
           "normalized": "[Choice a]-\u003eMaybe Int-\u003e[Config(Dialog a)]-\u003e[Config Toplevel]-\u003eIO a",
@@ -25299,6 +27275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an error window with the given text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createErrorWin",
           "package": "uni-htk",
@@ -25308,6 +27285,7 @@
         "index": {
           "description": "Constructs an error window with the given text",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createErrorWin",
           "normalized": "String-\u003e[Config Toplevel]-\u003eIO()",
@@ -25324,6 +27302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an error window with the given markuptext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createErrorWin'",
           "package": "uni-htk",
@@ -25333,6 +27312,7 @@
         "index": {
           "description": "Constructs an error window with the given markuptext",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createErrorWin'",
           "normalized": "[MarkupText]-\u003e[Config Toplevel]-\u003eIO()",
@@ -25349,6 +27329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a message (info) window with the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createMessageWin",
           "package": "uni-htk",
@@ -25358,6 +27339,7 @@
         "index": {
           "description": "Constructs message info window with the given string",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createMessageWin",
           "normalized": "String-\u003e[Config Toplevel]-\u003eIO()",
@@ -25374,6 +27356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a message (info) window with the given markuptext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createMessageWin'",
           "package": "uni-htk",
@@ -25383,6 +27366,7 @@
         "index": {
           "description": "Constructs message info window with the given markuptext",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createMessageWin'",
           "normalized": "[MarkupText]-\u003e[Config Toplevel]-\u003eIO()",
@@ -25399,6 +27383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an warning window with the given text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createWarningWin",
           "package": "uni-htk",
@@ -25408,6 +27393,7 @@
         "index": {
           "description": "Constructs an warning window with the given text",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createWarningWin",
           "normalized": "String-\u003e[Config Toplevel]-\u003eIO()",
@@ -25424,6 +27410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an warning window with the given markuptext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createWarningWin'",
           "package": "uni-htk",
@@ -25433,6 +27420,7 @@
         "index": {
           "description": "Constructs an warning window with the given markuptext",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "createWarningWin'",
           "normalized": "[MarkupText]-\u003e[Config Toplevel]-\u003eIO()",
@@ -25449,6 +27437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new dialogue with its label, text and buttons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "dialog",
           "package": "uni-htk",
@@ -25458,6 +27447,7 @@
         "index": {
           "description": "Creates new dialogue with its label text and buttons",
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "dialog",
           "normalized": "Bool-\u003e[Choice a]-\u003eMaybe Int-\u003e[Config(Dialog a)]-\u003e[Config Toplevel]-\u003eIO(Dialog a)",
@@ -25472,6 +27462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "loadHTkImages",
           "package": "uni-htk",
@@ -25481,6 +27472,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "loadHTkImages",
           "normalized": "()",
@@ -25496,6 +27488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "questionImg",
           "package": "uni-htk",
@@ -25505,6 +27498,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "questionImg",
           "package": "uni-htk",
@@ -25518,6 +27512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.DialogWin",
           "name": "useHTk",
           "package": "uni-htk",
@@ -25527,6 +27522,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit DialogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.DialogWin",
           "name": "useHTk",
           "normalized": "IO()",
@@ -25543,6 +27539,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003efile dialog box\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.FileDialog",
           "name": "FileDialog",
           "package": "uni-htk",
@@ -25552,6 +27549,7 @@
         "index": {
           "description": "HTk file dialog box",
           "hierarchy": "HTk Toolkit FileDialog",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.FileDialog",
           "name": "FileDialog",
           "package": "uni-htk",
@@ -25566,6 +27564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a file dialog box for a file which should already exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.FileDialog",
           "name": "fileDialog",
           "package": "uni-htk",
@@ -25575,6 +27574,7 @@
         "index": {
           "description": "Opens file dialog box for file which should already exist",
           "hierarchy": "HTk Toolkit FileDialog",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.FileDialog",
           "name": "fileDialog",
           "normalized": "String-\u003eRef FilePath-\u003eIO(Event(Maybe FilePath))",
@@ -25591,6 +27591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a file dialog box for a file which should already exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.FileDialog",
           "name": "fileDialogStr",
           "package": "uni-htk",
@@ -25600,6 +27601,7 @@
         "index": {
           "description": "Opens file dialog box for file which should already exist",
           "hierarchy": "HTk Toolkit FileDialog",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.FileDialog",
           "name": "fileDialogStr",
           "normalized": "String-\u003eFilePath-\u003eIO(Event(Maybe FilePath))",
@@ -25616,6 +27618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a file dialog box for a file which is to be created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.FileDialog",
           "name": "newFileDialog",
           "package": "uni-htk",
@@ -25625,6 +27628,7 @@
         "index": {
           "description": "Opens file dialog box for file which is to be created",
           "hierarchy": "HTk Toolkit FileDialog",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.FileDialog",
           "name": "newFileDialog",
           "normalized": "String-\u003eRef FilePath-\u003eIO(Event(Maybe FilePath))",
@@ -25641,6 +27645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a file dialog box for a file which is to be created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.FileDialog",
           "name": "newFileDialogStr",
           "package": "uni-htk",
@@ -25650,6 +27655,7 @@
         "index": {
           "description": "Opens file dialog box for file which is to be created",
           "hierarchy": "HTk Toolkit FileDialog",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.FileDialog",
           "name": "newFileDialogStr",
           "normalized": "String-\u003eFilePath-\u003eIO(Event(Maybe FilePath))",
@@ -25666,6 +27672,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA generic graphical user interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "GenGUI",
           "package": "uni-htk",
@@ -25675,6 +27682,7 @@
         "index": {
           "description": "generic graphical user interface",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "GenGUI",
           "package": "uni-htk",
@@ -25689,6 +27697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects with a name and an icon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "CItem",
           "package": "uni-htk",
@@ -25698,6 +27707,7 @@
         "index": {
           "description": "Objects with name and an icon",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "CItem",
           "package": "uni-htk",
@@ -25712,6 +27722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eGenGUI\u003c/code\u003e datatye.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "GenGUI",
           "package": "uni-htk",
@@ -25721,6 +27732,7 @@
         "index": {
           "description": "The GenGUI datatye",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "GenGUI",
           "package": "uni-htk",
@@ -25735,6 +27747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eGenGUIEvent\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "GenGUIEvent",
           "package": "uni-htk",
@@ -25744,6 +27757,7 @@
         "index": {
           "description": "The GenGUIEvent datatype",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "GenGUIEvent",
           "package": "uni-htk",
@@ -25758,6 +27772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe gui's state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "GenGUIState",
           "package": "uni-htk",
@@ -25767,6 +27782,7 @@
         "index": {
           "description": "The gui state",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "GenGUIState",
           "package": "uni-htk",
@@ -25781,6 +27797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einternal object representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "Item",
           "package": "uni-htk",
@@ -25790,6 +27807,7 @@
         "index": {
           "description": "internal object representation",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "Item",
           "package": "uni-htk",
@@ -25804,6 +27822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eName\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "Name",
           "package": "uni-htk",
@@ -25813,6 +27832,7 @@
         "index": {
           "description": "The Name datatype",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "Name",
           "package": "uni-htk",
@@ -25827,6 +27847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal representation of gengui objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "NewItem",
           "package": "uni-htk",
@@ -25836,6 +27857,7 @@
         "index": {
           "description": "External representation of gengui objects",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "NewItem",
           "package": "uni-htk",
@@ -25849,6 +27871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "Addition",
           "package": "uni-htk",
@@ -25858,6 +27881,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "Addition",
           "package": "uni-htk",
@@ -25871,6 +27895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "Doubleclick",
           "package": "uni-htk",
@@ -25880,6 +27905,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "Doubleclick",
           "package": "uni-htk",
@@ -25893,6 +27919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "Dropped",
           "package": "uni-htk",
@@ -25902,6 +27929,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "Dropped",
           "normalized": "Dropped(Item a,[Item a])",
@@ -25917,6 +27945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "DroppedOnTextArea",
           "package": "uni-htk",
@@ -25926,6 +27955,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "DroppedOnTextArea",
           "normalized": "DroppedOnTextArea[Item a]",
@@ -25941,6 +27971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "FocusNotepad",
           "package": "uni-htk",
@@ -25950,6 +27981,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "FocusNotepad",
           "normalized": "FocusNotepad(Item a,Bool)",
@@ -25965,6 +27997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "FocusTreeList",
           "package": "uni-htk",
@@ -25974,6 +28007,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "FocusTreeList",
           "package": "uni-htk",
@@ -25987,6 +28021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "FolderItem",
           "package": "uni-htk",
@@ -25996,6 +28031,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "FolderItem",
           "normalized": "FolderItem a[NewItem a](Maybe(Bool,Bool))",
@@ -26011,6 +28047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "LeafItem",
           "package": "uni-htk",
@@ -26020,6 +28057,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "LeafItem",
           "normalized": "LeafItem a(Maybe(Position,Bool))",
@@ -26058,6 +28096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "Rightclick",
           "package": "uni-htk",
@@ -26067,6 +28106,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "Rightclick",
           "normalized": "Rightclick[Item a]",
@@ -26082,6 +28122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "SelectTreeList",
           "package": "uni-htk",
@@ -26091,6 +28132,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "SelectTreeList",
           "package": "uni-htk",
@@ -26105,6 +28147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a gengui object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "addItem",
           "package": "uni-htk",
@@ -26114,6 +28157,7 @@
         "index": {
           "description": "Adds gengui object",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "addItem",
           "normalized": "GenGUI a-\u003eItem a-\u003eNewItem a-\u003eIO(Item a)",
@@ -26130,6 +28174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinds a listener for gengui events to the gengui and returns\n a corresponding event and an unbind action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "bindGenGUIEv",
           "package": "uni-htk",
@@ -26139,6 +28184,7 @@
         "index": {
           "description": "Binds listener for gengui events to the gengui and returns corresponding event and an unbind action",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "bindGenGUIEv",
           "normalized": "GenGUI a-\u003eIO(Event(GenGUIEvent a),IO())",
@@ -26155,6 +28201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the children from a folder item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "children",
           "package": "uni-htk",
@@ -26165,6 +28212,7 @@
         "index": {
           "description": "Gets the children from folder item",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "children",
           "normalized": "Item a-\u003eIO[Item a]",
@@ -26180,6 +28228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClears the status label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "clearStatus",
           "package": "uni-htk",
@@ -26190,6 +28239,7 @@
         "index": {
           "description": "Clears the status label",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "clearStatus",
           "normalized": "GenGUI a-\u003eIO()",
@@ -26206,6 +28256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClears the editor pane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "clearTextArea",
           "package": "uni-htk",
@@ -26216,6 +28267,7 @@
         "index": {
           "description": "Clears the editor pane",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "clearTextArea",
           "normalized": "GenGUI a-\u003eIO()",
@@ -26232,6 +28284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003eCItem\u003c/code\u003e content of an item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "content",
           "package": "uni-htk",
@@ -26242,6 +28295,7 @@
         "index": {
           "description": "Returns the CItem content of an item",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "content",
           "normalized": "Item a-\u003ea",
@@ -26257,6 +28311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExports the gui's state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "exportGenGUIState",
           "package": "uni-htk",
@@ -26266,6 +28321,7 @@
         "index": {
           "description": "Exports the gui state",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "exportGenGUIState",
           "normalized": "GenGUI a-\u003eIO(GenGUIState a)",
@@ -26304,6 +28360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the gui's menu container.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "genGUIMainMenu",
           "package": "uni-htk",
@@ -26314,6 +28371,7 @@
         "index": {
           "description": "Gets the gui menu container",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "genGUIMainMenu",
           "normalized": "GenGUI a-\u003eMenu",
@@ -26329,6 +28387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "getIcon",
           "package": "uni-htk",
@@ -26338,6 +28397,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "getIcon",
           "normalized": "a-\u003eIO Image",
@@ -26353,6 +28413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "getName",
           "package": "uni-htk",
@@ -26362,6 +28423,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "getName",
           "normalized": "a-\u003eIO Name",
@@ -26378,6 +28440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new gui and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "newGenGUI",
           "package": "uni-htk",
@@ -26387,6 +28450,7 @@
         "index": {
           "description": "Constructs new gui and returns handler",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "newGenGUI",
           "normalized": "Maybe(GenGUIState a)-\u003eBool-\u003eIO(GenGUI a)",
@@ -26403,6 +28467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the item that is currently open (displayed on notepad).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "openedFolder",
           "package": "uni-htk",
@@ -26413,6 +28478,7 @@
         "index": {
           "description": "Gets the item that is currently open displayed on notepad",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "openedFolder",
           "normalized": "GenGUI a-\u003eIO(Maybe(Item a))",
@@ -26429,6 +28495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenGUI's root object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "root",
           "package": "uni-htk",
@@ -26439,6 +28506,7 @@
         "index": {
           "description": "GenGUI root object",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "root",
           "normalized": "GenGUI a-\u003eIO(Item a)",
@@ -26454,6 +28522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the status label's text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "setStatus",
           "package": "uni-htk",
@@ -26464,6 +28533,7 @@
         "index": {
           "description": "Sets the status label text",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "setStatus",
           "normalized": "GenGUI a-\u003eString-\u003eIO()",
@@ -26504,6 +28574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays the given markup text on the editor pane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenGUI",
           "name": "updateTextArea",
           "package": "uni-htk",
@@ -26514,6 +28585,7 @@
         "index": {
           "description": "Displays the given markup text on the editor pane",
           "hierarchy": "HTk Toolkit GenGUI",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenGUI",
           "name": "updateTextArea",
           "normalized": "GenGUI a-\u003e[MarkupText]-\u003eIO()",
@@ -26530,6 +28602,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA generic data browser.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "GenericBrowser",
           "package": "uni-htk",
@@ -26539,6 +28612,7 @@
         "index": {
           "description": "generic data browser",
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "GenericBrowser",
           "package": "uni-htk",
@@ -26553,6 +28627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrowsed data needs to instantiate the class \u003ccode\u003eCItem\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "GBObject",
           "package": "uni-htk",
@@ -26562,6 +28637,7 @@
         "index": {
           "description": "Browsed data needs to instantiate the class CItem",
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "GBObject",
           "package": "uni-htk",
@@ -26576,6 +28652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eGenericBrowser\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "GenericBrowser",
           "package": "uni-htk",
@@ -26585,6 +28662,7 @@
         "index": {
           "description": "The GenericBrowser datatype",
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "GenericBrowser",
           "package": "uni-htk",
@@ -26598,6 +28676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "GenericBrowserEvent",
           "package": "uni-htk",
@@ -26606,6 +28685,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "GenericBrowserEvent",
           "package": "uni-htk",
@@ -26619,6 +28699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "DeselectedInNotepad",
           "package": "uni-htk",
@@ -26628,6 +28709,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "DeselectedInNotepad",
           "package": "uni-htk",
@@ -26641,6 +28723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "Doubleclick",
           "package": "uni-htk",
@@ -26650,6 +28733,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "Doubleclick",
           "package": "uni-htk",
@@ -26663,6 +28747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "Dropped",
           "package": "uni-htk",
@@ -26672,6 +28757,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "Dropped",
           "normalized": "Dropped(a,[a])",
@@ -26687,6 +28773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "FocusedInTreeList",
           "package": "uni-htk",
@@ -26696,6 +28783,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "FocusedInTreeList",
           "package": "uni-htk",
@@ -26709,6 +28797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "Rightclick",
           "package": "uni-htk",
@@ -26718,6 +28807,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "Rightclick",
           "normalized": "Rightclick[a]",
@@ -26733,6 +28823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "SelectedInNotepad",
           "package": "uni-htk",
@@ -26742,6 +28833,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "SelectedInNotepad",
           "package": "uni-htk",
@@ -26755,6 +28847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "SelectedInTreeList",
           "package": "uni-htk",
@@ -26764,6 +28857,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "SelectedInTreeList",
           "package": "uni-htk",
@@ -26778,6 +28872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinds a listener for generic browser events to the tree list and\n returns a corresponding event and an unbind action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "bindGenericBrowserEv",
           "package": "uni-htk",
@@ -26787,6 +28882,7 @@
         "index": {
           "description": "Binds listener for generic browser events to the tree list and returns corresponding event and an unbind action",
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "bindGenericBrowserEv",
           "normalized": "GenericBrowser a-\u003eIO(Event(GenericBrowserEvent a),IO())",
@@ -26802,6 +28898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "getChildren",
           "package": "uni-htk",
@@ -26811,6 +28908,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "getChildren",
           "normalized": "a-\u003eIO[a]",
@@ -26826,6 +28924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "isObjectNode",
           "package": "uni-htk",
@@ -26835,6 +28934,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "isObjectNode",
           "normalized": "a-\u003eIO Bool",
@@ -26851,6 +28951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new generic browser and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "newGenericBrowser",
           "package": "uni-htk",
@@ -26860,6 +28961,7 @@
         "index": {
           "description": "Constructs new generic browser and returns handler",
           "hierarchy": "HTk Toolkit GenericBrowser",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.GenericBrowser",
           "name": "newGenericBrowser",
           "normalized": "a-\u003e[b]-\u003e[Config(GenericBrowser b)]-\u003eIO(GenericBrowser b)",
@@ -26876,6 +28978,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTkMenu is a user-friendly interface to HTk's menu operations, which\n compiles a version of MenuType.MenuPrim to an HTk menu.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.HTkMenu",
           "name": "HTkMenu",
           "package": "uni-htk",
@@ -26885,6 +28988,7 @@
         "index": {
           "description": "HTkMenu is user-friendly interface to HTk menu operations which compiles version of MenuType.MenuPrim to an HTk menu",
           "hierarchy": "HTk Toolkit HTkMenu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.HTkMenu",
           "name": "HTkMenu",
           "package": "uni-htk",
@@ -26899,6 +29003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes a menu to be compiled.\n The value identifies the buttons in the menu so the client\n can tell which was clicked.\n The String is a title which is given to menu cascades.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.HTkMenu",
           "name": "HTkMenu",
           "package": "uni-htk",
@@ -26908,6 +29013,7 @@
         "index": {
           "description": "Describes menu to be compiled The value identifies the buttons in the menu so the client can tell which was clicked The String is title which is given to menu cascades",
           "hierarchy": "HTk Toolkit HTkMenu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.HTkMenu",
           "name": "HTkMenu",
           "package": "uni-htk",
@@ -26921,6 +29027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.HTkMenu",
           "name": "HTkMenu",
           "package": "uni-htk",
@@ -26930,6 +29037,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit HTkMenu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.HTkMenu",
           "name": "HTkMenu",
           "package": "uni-htk",
@@ -26944,6 +29052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompileHTkMenu compiles a menu to a MenuButton.  It does not display it;\n the caller should pack the MenuButton in the parent with whatever options\n are desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.HTkMenu",
           "name": "compileHTkMenu",
           "package": "uni-htk",
@@ -26954,6 +29063,7 @@
         "index": {
           "description": "compileHTkMenu compiles menu to MenuButton It does not display it the caller should pack the MenuButton in the parent with whatever options are desired",
           "hierarchy": "HTk Toolkit HTkMenu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.HTkMenu",
           "name": "compileHTkMenu",
           "normalized": "a-\u003eHTkMenu b-\u003eIO(MenuButton,Event b)",
@@ -26970,6 +29080,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple \u003cem\u003eicon bar\u003c/em\u003e containing buttons and separators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.IconBar",
           "name": "IconBar",
           "package": "uni-htk",
@@ -26979,6 +29090,7 @@
         "index": {
           "description": "simple icon bar containing buttons and separators",
           "hierarchy": "HTk Toolkit IconBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.IconBar",
           "name": "IconBar",
           "package": "uni-htk",
@@ -26993,6 +29105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eButton\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.IconBar",
           "name": "Button",
           "package": "uni-htk",
@@ -27002,6 +29115,7 @@
         "index": {
           "description": "The Button datatype",
           "hierarchy": "HTk Toolkit IconBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.IconBar",
           "name": "Button",
           "package": "uni-htk",
@@ -27016,6 +29130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eIconBar\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.IconBar",
           "name": "IconBar",
           "package": "uni-htk",
@@ -27025,6 +29140,7 @@
         "index": {
           "description": "The IconBar datatype",
           "hierarchy": "HTk Toolkit IconBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.IconBar",
           "name": "IconBar",
           "package": "uni-htk",
@@ -27038,6 +29154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.IconBar",
           "name": "Separator",
           "package": "uni-htk",
@@ -27046,6 +29163,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit IconBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.IconBar",
           "name": "Separator",
           "package": "uni-htk",
@@ -27060,6 +29178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a button at the end of the icon bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.IconBar",
           "name": "addButton",
           "package": "uni-htk",
@@ -27069,6 +29188,7 @@
         "index": {
           "description": "Adds button at the end of the icon bar",
           "hierarchy": "HTk Toolkit IconBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.IconBar",
           "name": "addButton",
           "normalized": "IconBar-\u003e[Config Button]-\u003eIO Button",
@@ -27085,6 +29205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a separator at the end of the icon bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.IconBar",
           "name": "addSeparator",
           "package": "uni-htk",
@@ -27094,6 +29215,7 @@
         "index": {
           "description": "Adds separator at the end of the icon bar",
           "hierarchy": "HTk Toolkit IconBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.IconBar",
           "name": "addSeparator",
           "normalized": "IconBar-\u003eIO Separator",
@@ -27110,6 +29232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the items from an icon bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.IconBar",
           "name": "getIconBarItems",
           "package": "uni-htk",
@@ -27119,6 +29242,7 @@
         "index": {
           "description": "Gets the items from an icon bar",
           "hierarchy": "HTk Toolkit IconBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.IconBar",
           "name": "getIconBarItems",
           "normalized": "IconBar-\u003eIO[Either Frame Button]",
@@ -27135,6 +29259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the buttons from an icon bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.IconBar",
           "name": "getIconButtons",
           "package": "uni-htk",
@@ -27144,6 +29269,7 @@
         "index": {
           "description": "Gets the buttons from an icon bar",
           "hierarchy": "HTk Toolkit IconBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.IconBar",
           "name": "getIconButtons",
           "normalized": "IconBar-\u003eIO[Button]",
@@ -27160,6 +29286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new icon bar and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.IconBar",
           "name": "newIconBar",
           "package": "uni-htk",
@@ -27169,6 +29296,7 @@
         "index": {
           "description": "Creates new icon bar and returns handler",
           "hierarchy": "HTk Toolkit IconBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.IconBar",
           "name": "newIconBar",
           "normalized": "a-\u003e[Config IconBar]-\u003eIO IconBar",
@@ -27185,6 +29313,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ethe inputform\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "InputForm",
           "package": "uni-htk",
@@ -27194,6 +29323,7 @@
         "index": {
           "description": "the inputform",
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "InputForm",
           "package": "uni-htk",
@@ -27208,6 +29338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCheckboxField\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "CheckboxField",
           "package": "uni-htk",
@@ -27217,6 +29348,7 @@
         "index": {
           "description": "The CheckboxField datatype",
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "CheckboxField",
           "package": "uni-htk",
@@ -27231,6 +29363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eEntryField\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "EntryField",
           "package": "uni-htk",
@@ -27240,6 +29373,7 @@
         "index": {
           "description": "The EntryField datatype",
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "EntryField",
           "package": "uni-htk",
@@ -27254,6 +29388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eEnumField\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "EnumField",
           "package": "uni-htk",
@@ -27263,6 +29398,7 @@
         "index": {
           "description": "The EnumField datatype",
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "EnumField",
           "package": "uni-htk",
@@ -27276,6 +29412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "FormState",
           "package": "uni-htk",
@@ -27284,6 +29421,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "FormState",
           "package": "uni-htk",
@@ -27297,6 +29435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "InputField",
           "package": "uni-htk",
@@ -27305,6 +29444,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "InputField",
           "package": "uni-htk",
@@ -27319,6 +29459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eInputForm\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "InputForm",
           "package": "uni-htk",
@@ -27328,6 +29469,7 @@
         "index": {
           "description": "The InputForm datatype",
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "InputForm",
           "package": "uni-htk",
@@ -27342,6 +29484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eNumEntryField\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "NumEntryField",
           "package": "uni-htk",
@@ -27351,6 +29494,7 @@
         "index": {
           "description": "The NumEntryField datatype",
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "NumEntryField",
           "package": "uni-htk",
@@ -27364,6 +29508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "RecordField",
           "package": "uni-htk",
@@ -27372,6 +29517,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "RecordField",
           "package": "uni-htk",
@@ -27386,6 +29532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eTextField\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "TextField",
           "package": "uni-htk",
@@ -27395,6 +29542,7 @@
         "index": {
           "description": "The TextField datatype",
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "TextField",
           "package": "uni-htk",
@@ -27408,6 +29556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "InputForm",
           "package": "uni-htk",
@@ -27417,6 +29566,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "InputForm",
           "package": "uni-htk",
@@ -27430,6 +29580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "getFormValue",
           "package": "uni-htk",
@@ -27439,6 +29590,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "getFormValue",
           "normalized": "InputForm a-\u003eIO a",
@@ -27454,6 +29606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "modifier",
           "package": "uni-htk",
@@ -27463,6 +29616,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "modifier",
           "normalized": "(a-\u003eb-\u003ea)-\u003eConfig(c a b)",
@@ -27478,6 +29632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new \u003ccode\u003eCheckboxField\u003c/code\u003e to the form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "newCheckboxField",
           "package": "uni-htk",
@@ -27487,6 +29642,7 @@
         "index": {
           "description": "Add new CheckboxField to the form",
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "newCheckboxField",
           "normalized": "InputForm a-\u003eb-\u003e[Config(CheckboxField a b)]-\u003eIO(CheckboxField a b)",
@@ -27503,6 +29659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new \u003ccode\u003eEntryField\u003c/code\u003e to the form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "newEntryField",
           "package": "uni-htk",
@@ -27512,6 +29669,7 @@
         "index": {
           "description": "Add new EntryField to the form",
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "newEntryField",
           "normalized": "InputForm a-\u003e[Config(EntryField a b)]-\u003eIO(EntryField a b)",
@@ -27528,6 +29686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new \u003ccode\u003eEnumField\u003c/code\u003e to the form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "newEnumField",
           "package": "uni-htk",
@@ -27537,6 +29696,7 @@
         "index": {
           "description": "Add new EnumField to the form",
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "newEnumField",
           "normalized": "InputForm a-\u003e[b]-\u003e[Config(EnumField a b)]-\u003eIO(EnumField a b)",
@@ -27553,6 +29713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new \u003ccode\u003eInputForm\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "newInputForm",
           "package": "uni-htk",
@@ -27562,6 +29723,7 @@
         "index": {
           "description": "Creates new InputForm",
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "newInputForm",
           "normalized": "Box-\u003eMaybe a-\u003e[Config(InputForm a)]-\u003eIO(InputForm a)",
@@ -27578,6 +29740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new \u003ccode\u003eNumEntryField\u003c/code\u003e to the form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "newNumEntryField",
           "package": "uni-htk",
@@ -27587,6 +29750,7 @@
         "index": {
           "description": "Add new NumEntryField to the form",
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "newNumEntryField",
           "normalized": "InputForm a-\u003e(b,b)-\u003eb-\u003e[Config(NumEntryField a b)]-\u003eIO(NumEntryField a b)",
@@ -27602,6 +29766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "newRecordField",
           "package": "uni-htk",
@@ -27611,6 +29776,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "newRecordField",
           "normalized": "InputForm a-\u003e(Box-\u003eIO(InputForm b))-\u003e[Config(RecordField a b)]-\u003eIO(RecordField a b,InputForm b)",
@@ -27627,6 +29793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new \u003ccode\u003eTextField\u003c/code\u003e to the form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "newTextField",
           "package": "uni-htk",
@@ -27636,6 +29803,7 @@
         "index": {
           "description": "Add new TextField to the form",
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "newTextField",
           "normalized": "InputForm a-\u003e[Config(TextField a b)]-\u003eIO(TextField a b)",
@@ -27651,6 +29819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "selector",
           "package": "uni-htk",
@@ -27660,6 +29829,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "selector",
           "normalized": "(a-\u003eb)-\u003eConfig(c a b)",
@@ -27674,6 +29844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "setFormValue",
           "package": "uni-htk",
@@ -27683,6 +29854,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "setFormValue",
           "normalized": "InputForm a-\u003ea-\u003eIO()",
@@ -27698,6 +29870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputForm",
           "name": "undefinedFormValue",
           "package": "uni-htk",
@@ -27707,6 +29880,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit InputForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputForm",
           "name": "undefinedFormValue",
           "package": "uni-htk",
@@ -27721,6 +29895,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic input window for record values and their fields.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputWin",
           "name": "InputWin",
           "package": "uni-htk",
@@ -27730,6 +29905,7 @@
         "index": {
           "description": "Basic input window for record values and their fields",
           "hierarchy": "HTk Toolkit InputWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputWin",
           "name": "InputWin",
           "package": "uni-htk",
@@ -27744,6 +29920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eInputWin\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputWin",
           "name": "InputWin",
           "package": "uni-htk",
@@ -27753,6 +29930,7 @@
         "index": {
           "description": "The InputWin datatype",
           "hierarchy": "HTk Toolkit InputWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputWin",
           "name": "InputWin",
           "package": "uni-htk",
@@ -27766,6 +29944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputWin",
           "name": "createInputWin",
           "package": "uni-htk",
@@ -27774,6 +29953,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit InputWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputWin",
           "name": "createInputWin",
           "normalized": "String-\u003e(Box-\u003eIO(InputForm a))-\u003e[Config Toplevel]-\u003eIO(InputWin a,InputForm a)",
@@ -27790,6 +29970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003eInputWindow\u003c/code\u003e with a generic message box title\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputWin",
           "name": "createInputWin'",
           "package": "uni-htk",
@@ -27799,6 +29980,7 @@
         "index": {
           "description": "Create an InputWindow with generic message box title",
           "hierarchy": "HTk Toolkit InputWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputWin",
           "name": "createInputWin'",
           "normalized": "String-\u003e[Config Message]-\u003e(Box-\u003eIO(InputForm a))-\u003e[Config Toplevel]-\u003eIO(InputWin a,InputForm a)",
@@ -27815,6 +29997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for the user to end the dialog.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputWin",
           "name": "wait",
           "package": "uni-htk",
@@ -27824,6 +30007,7 @@
         "index": {
           "description": "Wait for the user to end the dialog",
           "hierarchy": "HTk Toolkit InputWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputWin",
           "name": "wait",
           "normalized": "InputWin a-\u003eBool-\u003eIO(Maybe a)",
@@ -27839,6 +30023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for the user to end the dialog, and validate the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.InputWin",
           "name": "waitValidate",
           "package": "uni-htk",
@@ -27848,6 +30033,7 @@
         "index": {
           "description": "Wait for the user to end the dialog and validate the result",
           "hierarchy": "HTk Toolkit InputWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.InputWin",
           "name": "waitValidate",
           "normalized": "InputWin a-\u003e(a-\u003eIO Bool)-\u003eBool-\u003eIO(Maybe a)",
@@ -27864,6 +30050,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple log window.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.LogWin",
           "name": "LogWin",
           "package": "uni-htk",
@@ -27873,6 +30060,7 @@
         "index": {
           "description": "simple log window",
           "hierarchy": "HTk Toolkit LogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.LogWin",
           "name": "LogWin",
           "package": "uni-htk",
@@ -27887,6 +30075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects associated with a file instantiate the\n \u003ccode\u003eclass HasFile\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.LogWin",
           "name": "HasFile",
           "package": "uni-htk",
@@ -27896,6 +30085,7 @@
         "index": {
           "description": "Objects associated with file instantiate the class HasFile",
           "hierarchy": "HTk Toolkit LogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.LogWin",
           "name": "HasFile",
           "package": "uni-htk",
@@ -27910,6 +30100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eLogWin\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.LogWin",
           "name": "LogWin",
           "package": "uni-htk",
@@ -27919,6 +30110,7 @@
         "index": {
           "description": "The LogWin datatype",
           "hierarchy": "HTk Toolkit LogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.LogWin",
           "name": "LogWin",
           "package": "uni-htk",
@@ -27932,6 +30124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.LogWin",
           "name": "LogWin",
           "package": "uni-htk",
@@ -27941,6 +30134,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit LogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.LogWin",
           "name": "LogWin",
           "normalized": "LogWin Toplevel Editor(IO())",
@@ -27957,6 +30151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new log window and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.LogWin",
           "name": "createLogWin",
           "package": "uni-htk",
@@ -27966,6 +30161,7 @@
         "index": {
           "description": "Creates new log window and returns handler",
           "hierarchy": "HTk Toolkit LogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.LogWin",
           "name": "createLogWin",
           "normalized": "[Config Toplevel]-\u003eIO LogWin",
@@ -27981,6 +30177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.LogWin",
           "name": "filename",
           "package": "uni-htk",
@@ -27990,6 +30187,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit LogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.LogWin",
           "name": "filename",
           "normalized": "String-\u003eConfig a",
@@ -28004,6 +30202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.LogWin",
           "name": "getFileName",
           "package": "uni-htk",
@@ -28013,6 +30212,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit LogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.LogWin",
           "name": "getFileName",
           "normalized": "a-\u003eIO String",
@@ -28029,6 +30229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites into the log window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.LogWin",
           "name": "writeLogWin",
           "package": "uni-htk",
@@ -28038,6 +30239,7 @@
         "index": {
           "description": "Writes into the log window",
           "hierarchy": "HTk Toolkit LogWin",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.LogWin",
           "name": "writeLogWin",
           "normalized": "LogWin-\u003eString-\u003eIO()",
@@ -28054,6 +30256,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple markup language for convenient writing into an editor widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "MarkupText",
           "package": "uni-htk",
@@ -28063,6 +30266,7 @@
         "index": {
           "description": "simple markup language for convenient writing into an editor widget",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "MarkupText",
           "package": "uni-htk",
@@ -28077,6 +30281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets that can contain markup text instantiate the\n \u003ccode\u003eclass HasMarkupText\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "HasMarkupText",
           "package": "uni-htk",
@@ -28086,6 +30291,7 @@
         "index": {
           "description": "Widgets that can contain markup text instantiate the class HasMarkupText",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "HasMarkupText",
           "package": "uni-htk",
@@ -28100,6 +30306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eMarkupText\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "MarkupText",
           "package": "uni-htk",
@@ -28109,6 +30316,7 @@
         "index": {
           "description": "The MarkupText datatype",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "MarkupText",
           "package": "uni-htk",
@@ -28123,6 +30331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "aalpha",
           "package": "uni-htk",
@@ -28133,6 +30342,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "aalpha",
           "package": "uni-htk",
@@ -28146,6 +30356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup action combinator (binds an action for mouse clicks on this\n text segment).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "action",
           "package": "uni-htk",
@@ -28156,6 +30367,7 @@
         "index": {
           "description": "The markup action combinator binds an action for mouse clicks on this text segment",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "action",
           "normalized": "IO()-\u003e[MarkupText]-\u003eMarkupText",
@@ -28171,6 +30383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "alpha",
           "package": "uni-htk",
@@ -28181,6 +30394,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "alpha",
           "package": "uni-htk",
@@ -28194,6 +30408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "and",
           "package": "uni-htk",
@@ -28204,6 +30419,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "and",
           "package": "uni-htk",
@@ -28217,6 +30433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "bbeta",
           "package": "uni-htk",
@@ -28227,6 +30444,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "bbeta",
           "package": "uni-htk",
@@ -28240,6 +30458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "beta",
           "package": "uni-htk",
@@ -28250,6 +30469,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "beta",
           "package": "uni-htk",
@@ -28263,6 +30483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup background colour combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "bgcolour",
           "package": "uni-htk",
@@ -28273,6 +30494,7 @@
         "index": {
           "description": "The markup background colour combinator",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "bgcolour",
           "normalized": "a-\u003e[MarkupText]-\u003eMarkupText",
@@ -28288,6 +30510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "bigand",
           "package": "uni-htk",
@@ -28298,6 +30521,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "bigand",
           "package": "uni-htk",
@@ -28311,6 +30535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup bold combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "bold",
           "package": "uni-htk",
@@ -28321,6 +30546,7 @@
         "index": {
           "description": "The markup bold combinator",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "bold",
           "normalized": "[MarkupText]-\u003eMarkupText",
@@ -28336,6 +30562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "bot",
           "package": "uni-htk",
@@ -28346,6 +30573,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "bot",
           "package": "uni-htk",
@@ -28359,6 +30587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "bullet",
           "package": "uni-htk",
@@ -28369,6 +30598,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "bullet",
           "package": "uni-htk",
@@ -28382,6 +30612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "cchi",
           "package": "uni-htk",
@@ -28392,6 +30623,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "cchi",
           "package": "uni-htk",
@@ -28405,6 +30637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCenter this part of the text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "centered",
           "package": "uni-htk",
@@ -28415,6 +30648,7 @@
         "index": {
           "description": "Center this part of the text",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "centered",
           "normalized": "[MarkupText]-\u003eMarkupText",
@@ -28430,6 +30664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "chi",
           "package": "uni-htk",
@@ -28440,6 +30675,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "chi",
           "package": "uni-htk",
@@ -28452,6 +30688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "clear",
           "package": "uni-htk",
@@ -28461,6 +30698,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "clear",
           "package": "uni-htk",
@@ -28474,6 +30712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup clipup combinator (clips up a text segment on a mouse\n click).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "clipup",
           "package": "uni-htk",
@@ -28484,6 +30723,7 @@
         "index": {
           "description": "The markup clipup combinator clips up text segment on mouse click",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "clipup",
           "normalized": "[MarkupText]-\u003e[MarkupText]-\u003eMarkupText",
@@ -28499,6 +30739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup foreground colour combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "colour",
           "package": "uni-htk",
@@ -28509,6 +30750,7 @@
         "index": {
           "description": "The markup foreground colour combinator",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "colour",
           "normalized": "a-\u003e[MarkupText]-\u003eMarkupText",
@@ -28524,6 +30766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "comp",
           "package": "uni-htk",
@@ -28534,6 +30777,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "comp",
           "package": "uni-htk",
@@ -28547,6 +30791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "copyright",
           "package": "uni-htk",
@@ -28557,6 +30802,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "copyright",
           "package": "uni-htk",
@@ -28570,6 +30816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ddelta",
           "package": "uni-htk",
@@ -28580,6 +30827,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ddelta",
           "package": "uni-htk",
@@ -28593,6 +30841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ddownarrow",
           "package": "uni-htk",
@@ -28603,6 +30852,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ddownarrow",
           "package": "uni-htk",
@@ -28616,6 +30866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "delta",
           "package": "uni-htk",
@@ -28626,6 +30877,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "delta",
           "package": "uni-htk",
@@ -28639,6 +30891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "dots",
           "package": "uni-htk",
@@ -28649,6 +30902,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "dots",
           "package": "uni-htk",
@@ -28662,6 +30916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "eeps",
           "package": "uni-htk",
@@ -28672,6 +30927,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "eeps",
           "package": "uni-htk",
@@ -28685,6 +30941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "eeta",
           "package": "uni-htk",
@@ -28695,6 +30952,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "eeta",
           "package": "uni-htk",
@@ -28708,6 +30966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "eexists",
           "package": "uni-htk",
@@ -28718,6 +30977,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "eexists",
           "package": "uni-htk",
@@ -28731,6 +30991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "emptyset",
           "package": "uni-htk",
@@ -28741,6 +31002,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "emptyset",
           "package": "uni-htk",
@@ -28754,6 +31016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "epsilon",
           "package": "uni-htk",
@@ -28764,6 +31027,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "epsilon",
           "package": "uni-htk",
@@ -28777,6 +31041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "equiv",
           "package": "uni-htk",
@@ -28787,6 +31052,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "equiv",
           "package": "uni-htk",
@@ -28800,6 +31066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "eta",
           "package": "uni-htk",
@@ -28810,6 +31077,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "eta",
           "package": "uni-htk",
@@ -28823,6 +31091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "exists",
           "package": "uni-htk",
@@ -28833,6 +31102,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "exists",
           "package": "uni-htk",
@@ -28846,6 +31116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "existsone",
           "package": "uni-htk",
@@ -28856,6 +31127,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "existsone",
           "package": "uni-htk",
@@ -28869,6 +31141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup flipcolour combinator (flips the colour when the mouse\n is over this text segment).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "flipcolour",
           "package": "uni-htk",
@@ -28879,6 +31152,7 @@
         "index": {
           "description": "The markup flipcolour combinator flips the colour when the mouse is over this text segment",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "flipcolour",
           "normalized": "a-\u003ea-\u003e[MarkupText]-\u003eMarkupText",
@@ -28894,6 +31168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup flipunderline combinator (underlines this text segment when\n the mouse is over this segment).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "flipunderline",
           "package": "uni-htk",
@@ -28904,6 +31179,7 @@
         "index": {
           "description": "The markup flipunderline combinator underlines this text segment when the mouse is over this segment",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "flipunderline",
           "normalized": "[MarkupText]-\u003eMarkupText",
@@ -28919,6 +31195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlush this part of the against the left margin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "flushleft",
           "package": "uni-htk",
@@ -28929,6 +31206,7 @@
         "index": {
           "description": "Flush this part of the against the left margin",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "flushleft",
           "normalized": "[MarkupText]-\u003eMarkupText",
@@ -28943,6 +31221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "flushright",
           "package": "uni-htk",
@@ -28952,6 +31231,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "flushright",
           "normalized": "[MarkupText]-\u003eMarkupText",
@@ -28967,6 +31247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup font combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "font",
           "package": "uni-htk",
@@ -28977,6 +31258,7 @@
         "index": {
           "description": "The markup font combinator",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "font",
           "normalized": "a-\u003e[MarkupText]-\u003eMarkupText",
@@ -28992,6 +31274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "forallbig",
           "package": "uni-htk",
@@ -29002,6 +31285,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "forallbig",
           "package": "uni-htk",
@@ -29015,6 +31299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "forallsmall",
           "package": "uni-htk",
@@ -29025,6 +31310,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "forallsmall",
           "package": "uni-htk",
@@ -29038,6 +31324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "gamma",
           "package": "uni-htk",
@@ -29048,6 +31335,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "gamma",
           "package": "uni-htk",
@@ -29061,6 +31349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ggamma",
           "package": "uni-htk",
@@ -29071,6 +31360,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ggamma",
           "package": "uni-htk",
@@ -29084,6 +31374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "grteq",
           "package": "uni-htk",
@@ -29094,6 +31385,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "grteq",
           "package": "uni-htk",
@@ -29107,6 +31399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "hline",
           "package": "uni-htk",
@@ -29117,6 +31410,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "hline",
           "package": "uni-htk",
@@ -29130,6 +31424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup href combinator (a link to another markup text).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "href",
           "package": "uni-htk",
@@ -29140,6 +31435,7 @@
         "index": {
           "description": "The markup href combinator link to another markup text",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "href",
           "normalized": "[MarkupText]-\u003e[MarkupText]-\u003eMarkupText",
@@ -29155,6 +31451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "iintersect",
           "package": "uni-htk",
@@ -29165,6 +31462,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "iintersect",
           "package": "uni-htk",
@@ -29178,6 +31476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "iiota",
           "package": "uni-htk",
@@ -29188,6 +31487,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "iiota",
           "package": "uni-htk",
@@ -29201,6 +31501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "inf",
           "package": "uni-htk",
@@ -29211,6 +31512,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "inf",
           "package": "uni-htk",
@@ -29223,6 +31525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "insertAt",
           "package": "uni-htk",
@@ -29232,6 +31535,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "insertAt",
           "normalized": "[MarkupText]-\u003ePosition-\u003eConfig a",
@@ -29248,6 +31552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "inset",
           "package": "uni-htk",
@@ -29258,6 +31563,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "inset",
           "package": "uni-htk",
@@ -29271,6 +31577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "intersect",
           "package": "uni-htk",
@@ -29281,6 +31588,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "intersect",
           "package": "uni-htk",
@@ -29294,6 +31602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "iota",
           "package": "uni-htk",
@@ -29304,6 +31613,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "iota",
           "package": "uni-htk",
@@ -29317,6 +31627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup italics combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "italics",
           "package": "uni-htk",
@@ -29327,6 +31638,7 @@
         "index": {
           "description": "The markup italics combinator",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "italics",
           "normalized": "[MarkupText]-\u003eMarkupText",
@@ -29342,6 +31654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "kappa",
           "package": "uni-htk",
@@ -29352,6 +31665,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "kappa",
           "package": "uni-htk",
@@ -29365,6 +31679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "kkappa",
           "package": "uni-htk",
@@ -29375,6 +31690,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "kkappa",
           "package": "uni-htk",
@@ -29388,6 +31704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "lambda",
           "package": "uni-htk",
@@ -29398,6 +31715,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "lambda",
           "package": "uni-htk",
@@ -29411,6 +31729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup left margin combinator (normal left intend for a line).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "leftmargin",
           "package": "uni-htk",
@@ -29421,6 +31740,7 @@
         "index": {
           "description": "The markup left margin combinator normal left intend for line",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "leftmargin",
           "normalized": "Int-\u003e[MarkupText]-\u003eMarkupText",
@@ -29436,6 +31756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "leftrightarrow",
           "package": "uni-htk",
@@ -29446,6 +31767,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "leftrightarrow",
           "package": "uni-htk",
@@ -29459,6 +31781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "leq",
           "package": "uni-htk",
@@ -29469,6 +31792,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "leq",
           "package": "uni-htk",
@@ -29482,6 +31806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "llambda",
           "package": "uni-htk",
@@ -29492,6 +31817,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "llambda",
           "package": "uni-htk",
@@ -29505,6 +31831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "lleftrightarrow",
           "package": "uni-htk",
@@ -29515,6 +31842,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "lleftrightarrow",
           "package": "uni-htk",
@@ -29528,6 +31856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "llongrightarrow",
           "package": "uni-htk",
@@ -29538,6 +31867,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "llongrightarrow",
           "package": "uni-htk",
@@ -29551,6 +31881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "longrightarrow",
           "package": "uni-htk",
@@ -29561,6 +31892,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "longrightarrow",
           "package": "uni-htk",
@@ -29574,6 +31906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "lsem",
           "package": "uni-htk",
@@ -29584,6 +31917,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "lsem",
           "package": "uni-htk",
@@ -29597,6 +31931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "mmu",
           "package": "uni-htk",
@@ -29607,6 +31942,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "mmu",
           "package": "uni-htk",
@@ -29620,6 +31956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "mu",
           "package": "uni-htk",
@@ -29630,6 +31967,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "mu",
           "package": "uni-htk",
@@ -29643,6 +31981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "neq",
           "package": "uni-htk",
@@ -29653,6 +31992,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "neq",
           "package": "uni-htk",
@@ -29665,6 +32005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "new",
           "package": "uni-htk",
@@ -29674,6 +32015,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "new",
           "normalized": "[MarkupText]-\u003ea-\u003eIO a",
@@ -29689,6 +32031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup newline combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "newline",
           "package": "uni-htk",
@@ -29699,6 +32042,7 @@
         "index": {
           "description": "The markup newline combinator",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "newline",
           "package": "uni-htk",
@@ -29712,6 +32056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "nnu",
           "package": "uni-htk",
@@ -29722,6 +32067,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "nnu",
           "package": "uni-htk",
@@ -29735,6 +32081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "not",
           "package": "uni-htk",
@@ -29745,6 +32092,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "not",
           "package": "uni-htk",
@@ -29758,6 +32106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "notin",
           "package": "uni-htk",
@@ -29768,6 +32117,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "notin",
           "package": "uni-htk",
@@ -29781,6 +32131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "nu",
           "package": "uni-htk",
@@ -29791,6 +32142,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "nu",
           "package": "uni-htk",
@@ -29804,6 +32156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup baseline offset combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "offset",
           "package": "uni-htk",
@@ -29814,6 +32167,7 @@
         "index": {
           "description": "The markup baseline offset combinator",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "offset",
           "normalized": "Int-\u003e[MarkupText]-\u003eMarkupText",
@@ -29829,6 +32183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "omega",
           "package": "uni-htk",
@@ -29839,6 +32194,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "omega",
           "package": "uni-htk",
@@ -29852,6 +32208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "omikron",
           "package": "uni-htk",
@@ -29862,6 +32219,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "omikron",
           "package": "uni-htk",
@@ -29875,6 +32233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "oomega",
           "package": "uni-htk",
@@ -29885,6 +32244,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "oomega",
           "package": "uni-htk",
@@ -29898,6 +32258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "oomikron",
           "package": "uni-htk",
@@ -29908,6 +32269,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "oomikron",
           "package": "uni-htk",
@@ -29921,6 +32283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "oplus",
           "package": "uni-htk",
@@ -29931,6 +32294,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "oplus",
           "package": "uni-htk",
@@ -29944,6 +32308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "or",
           "package": "uni-htk",
@@ -29954,6 +32319,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "or",
           "package": "uni-htk",
@@ -29967,6 +32333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "otimes",
           "package": "uni-htk",
@@ -29977,6 +32344,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "otimes",
           "package": "uni-htk",
@@ -29990,6 +32358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "phi",
           "package": "uni-htk",
@@ -30000,6 +32369,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "phi",
           "package": "uni-htk",
@@ -30013,6 +32383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "pi",
           "package": "uni-htk",
@@ -30023,6 +32394,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "pi",
           "package": "uni-htk",
@@ -30036,6 +32408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "powerset",
           "package": "uni-htk",
@@ -30046,6 +32419,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "powerset",
           "package": "uni-htk",
@@ -30059,6 +32433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "pphi",
           "package": "uni-htk",
@@ -30069,6 +32444,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "pphi",
           "package": "uni-htk",
@@ -30082,6 +32458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ppi",
           "package": "uni-htk",
@@ -30092,6 +32469,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ppi",
           "package": "uni-htk",
@@ -30105,6 +32483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ppsi",
           "package": "uni-htk",
@@ -30115,6 +32494,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ppsi",
           "package": "uni-htk",
@@ -30128,6 +32508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "prod",
           "package": "uni-htk",
@@ -30138,6 +32519,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "prod",
           "package": "uni-htk",
@@ -30151,6 +32533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup prose combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "prose",
           "package": "uni-htk",
@@ -30161,6 +32544,7 @@
         "index": {
           "description": "The markup prose combinator",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "prose",
           "normalized": "String-\u003eMarkupText",
@@ -30176,6 +32560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "psi",
           "package": "uni-htk",
@@ -30186,6 +32571,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "psi",
           "package": "uni-htk",
@@ -30199,6 +32585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup range action combinator (binds actions for entering and/or\n leaving this text segment with the mouse cursor).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rangeaction",
           "package": "uni-htk",
@@ -30209,6 +32596,7 @@
         "index": {
           "description": "The markup range action combinator binds actions for entering and or leaving this text segment with the mouse cursor",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rangeaction",
           "normalized": "Maybe(IO())-\u003eMaybe(IO())-\u003e[MarkupText]-\u003eMarkupText",
@@ -30224,6 +32612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rbrace1",
           "package": "uni-htk",
@@ -30234,6 +32623,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rbrace1",
           "package": "uni-htk",
@@ -30247,6 +32637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rbrace2",
           "package": "uni-htk",
@@ -30257,6 +32648,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rbrace2",
           "package": "uni-htk",
@@ -30270,6 +32662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rbrace3",
           "package": "uni-htk",
@@ -30280,6 +32673,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rbrace3",
           "package": "uni-htk",
@@ -30293,6 +32687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rho",
           "package": "uni-htk",
@@ -30303,6 +32698,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rho",
           "package": "uni-htk",
@@ -30316,6 +32712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rightarrow",
           "package": "uni-htk",
@@ -30326,6 +32723,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rightarrow",
           "package": "uni-htk",
@@ -30339,6 +32737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup right margin combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rightmargin",
           "package": "uni-htk",
@@ -30349,6 +32748,7 @@
         "index": {
           "description": "The markup right margin combinator",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rightmargin",
           "normalized": "Int-\u003e[MarkupText]-\u003eMarkupText",
@@ -30364,6 +32764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rrho",
           "package": "uni-htk",
@@ -30374,6 +32775,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rrho",
           "package": "uni-htk",
@@ -30387,6 +32789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rrightarrow",
           "package": "uni-htk",
@@ -30397,6 +32800,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rrightarrow",
           "package": "uni-htk",
@@ -30410,6 +32814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rsem",
           "package": "uni-htk",
@@ -30420,6 +32825,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "rsem",
           "package": "uni-htk",
@@ -30432,6 +32838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "scrollMarkupText",
           "package": "uni-htk",
@@ -30441,6 +32848,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "scrollMarkupText",
           "normalized": "Size-\u003e[MarkupText]-\u003eMarkupText",
@@ -30457,6 +32865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "setminus",
           "package": "uni-htk",
@@ -30467,6 +32876,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "setminus",
           "package": "uni-htk",
@@ -30480,6 +32890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "sigma",
           "package": "uni-htk",
@@ -30490,6 +32901,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "sigma",
           "package": "uni-htk",
@@ -30503,6 +32915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup space combinator (a number of space characters).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "spaces",
           "package": "uni-htk",
@@ -30513,6 +32926,7 @@
         "index": {
           "description": "The markup space combinator number of space characters",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "spaces",
           "normalized": "Int-\u003eMarkupText",
@@ -30528,6 +32942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ssigma",
           "package": "uni-htk",
@@ -30538,6 +32953,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ssigma",
           "package": "uni-htk",
@@ -30551,6 +32967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "subset",
           "package": "uni-htk",
@@ -30561,6 +32978,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "subset",
           "package": "uni-htk",
@@ -30574,6 +32992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "subseteq",
           "package": "uni-htk",
@@ -30584,6 +33003,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "subseteq",
           "package": "uni-htk",
@@ -30597,6 +33017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "sum",
           "package": "uni-htk",
@@ -30607,6 +33028,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "sum",
           "package": "uni-htk",
@@ -30620,6 +33042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "tau",
           "package": "uni-htk",
@@ -30630,6 +33053,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "tau",
           "package": "uni-htk",
@@ -30643,6 +33067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "tensor",
           "package": "uni-htk",
@@ -30653,6 +33078,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "tensor",
           "package": "uni-htk",
@@ -30666,6 +33092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "theta",
           "package": "uni-htk",
@@ -30676,6 +33103,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "theta",
           "package": "uni-htk",
@@ -30689,6 +33117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "times",
           "package": "uni-htk",
@@ -30699,6 +33128,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "times",
           "package": "uni-htk",
@@ -30712,6 +33142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ttau",
           "package": "uni-htk",
@@ -30722,6 +33153,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ttau",
           "package": "uni-htk",
@@ -30735,6 +33167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ttheta",
           "package": "uni-htk",
@@ -30745,6 +33178,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "ttheta",
           "package": "uni-htk",
@@ -30758,6 +33192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup underline combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "underline",
           "package": "uni-htk",
@@ -30768,6 +33203,7 @@
         "index": {
           "description": "The markup underline combinator",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "underline",
           "normalized": "[MarkupText]-\u003eMarkupText",
@@ -30783,6 +33219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "union",
           "package": "uni-htk",
@@ -30793,6 +33230,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "union",
           "package": "uni-htk",
@@ -30806,6 +33244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "upsilon",
           "package": "uni-htk",
@@ -30816,6 +33255,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "upsilon",
           "package": "uni-htk",
@@ -30829,6 +33269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "uunion",
           "package": "uni-htk",
@@ -30839,6 +33280,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "uunion",
           "package": "uni-htk",
@@ -30852,6 +33294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "uuparrow",
           "package": "uni-htk",
@@ -30862,6 +33305,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "uuparrow",
           "package": "uni-htk",
@@ -30875,6 +33319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "uupsilon",
           "package": "uni-htk",
@@ -30885,6 +33330,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "uupsilon",
           "package": "uni-htk",
@@ -30898,6 +33344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "varphi",
           "package": "uni-htk",
@@ -30908,6 +33355,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "varphi",
           "package": "uni-htk",
@@ -30921,6 +33369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "varpi",
           "package": "uni-htk",
@@ -30931,6 +33380,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "varpi",
           "package": "uni-htk",
@@ -30944,6 +33394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "varsigma",
           "package": "uni-htk",
@@ -30954,6 +33405,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "varsigma",
           "package": "uni-htk",
@@ -30967,6 +33419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "vartheta",
           "package": "uni-htk",
@@ -30977,6 +33430,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "vartheta",
           "package": "uni-htk",
@@ -30990,6 +33444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "vline",
           "package": "uni-htk",
@@ -31000,6 +33455,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "vline",
           "package": "uni-htk",
@@ -31012,6 +33468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "window",
           "package": "uni-htk",
@@ -31021,6 +33478,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "window",
           "normalized": "IO(a,IO())-\u003eMarkupText",
@@ -31036,6 +33494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup window combinator (a widget container inside the editor\n widget).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "window1",
           "package": "uni-htk",
@@ -31046,6 +33505,7 @@
         "index": {
           "description": "The markup window combinator widget container inside the editor widget",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "window1",
           "normalized": "(Editor-\u003eIO(a,IO()))-\u003eMarkupText",
@@ -31061,6 +33521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe markup wrap margin combinator (intend for a part of a line\n that gets wrapped).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "wrapmargin",
           "package": "uni-htk",
@@ -31071,6 +33532,7 @@
         "index": {
           "description": "The markup wrap margin combinator intend for part of line that gets wrapped",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "wrapmargin",
           "normalized": "Int-\u003e[MarkupText]-\u003eMarkupText",
@@ -31086,6 +33548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "xi",
           "package": "uni-htk",
@@ -31096,6 +33559,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "xi",
           "package": "uni-htk",
@@ -31109,6 +33573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "xxi",
           "package": "uni-htk",
@@ -31119,6 +33584,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "xxi",
           "package": "uni-htk",
@@ -31132,6 +33598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "zeta",
           "package": "uni-htk",
@@ -31142,6 +33609,7 @@
         "index": {
           "description": "Special character",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "zeta",
           "package": "uni-htk",
@@ -31155,6 +33623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character (uppercase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MarkupText",
           "name": "zzeta",
           "package": "uni-htk",
@@ -31165,6 +33634,7 @@
         "index": {
           "description": "Special character uppercase",
           "hierarchy": "HTk Toolkit MarkupText",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MarkupText",
           "name": "zzeta",
           "package": "uni-htk",
@@ -31178,6 +33648,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains \u003ccode\u003eMenuType\u003c/code\u003e - a general abstract datatype for menus -\n plus some map-like operations on it.\n\u003c/p\u003e\u003cp\u003eNBNBNB.  \u003ccode\u003eMenuType\u003c/code\u003e is also used by the graphs and daVinci stuff, which is\n supposed to be independent of HTk.  So before making HTk-specific changes\n to this datatype, please find some way of harmlessly ignoring them\n (at best) for daVinci.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MenuType",
           "name": "MenuType",
           "package": "uni-htk",
@@ -31187,6 +33658,7 @@
         "index": {
           "description": "This module contains MenuType general abstract datatype for menus plus some map-like operations on it NBNBNB MenuType is also used by the graphs and daVinci stuff which is supposed to be independent of HTk So before making HTk-specific changes to this datatype please find some way of harmlessly ignoring them at best for daVinci",
           "hierarchy": "HTk Toolkit MenuType",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MenuType",
           "name": "MenuType",
           "package": "uni-htk",
@@ -31200,6 +33672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MenuType",
           "name": "MenuPrim",
           "package": "uni-htk",
@@ -31208,6 +33681,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit MenuType",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MenuType",
           "name": "MenuPrim",
           "package": "uni-htk",
@@ -31221,6 +33695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MenuType",
           "name": "Blank",
           "package": "uni-htk",
@@ -31230,6 +33705,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit MenuType",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MenuType",
           "name": "Blank",
           "package": "uni-htk",
@@ -31243,6 +33719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MenuType",
           "name": "Button",
           "package": "uni-htk",
@@ -31252,6 +33729,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit MenuType",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MenuType",
           "name": "Button",
           "package": "uni-htk",
@@ -31265,6 +33743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MenuType",
           "name": "Menu",
           "package": "uni-htk",
@@ -31274,6 +33753,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit MenuType",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MenuType",
           "name": "Menu",
           "normalized": "Menu a[MenuPrim a b]",
@@ -31289,6 +33769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MenuType",
           "name": "mapMMenuPrim",
           "package": "uni-htk",
@@ -31298,6 +33779,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit MenuType",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MenuType",
           "name": "mapMMenuPrim",
           "normalized": "(a-\u003eb c)-\u003eMenuPrim d a-\u003eb(MenuPrim d c)",
@@ -31313,6 +33795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MenuType",
           "name": "mapMMenuPrim'",
           "package": "uni-htk",
@@ -31322,6 +33805,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit MenuType",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MenuType",
           "name": "mapMMenuPrim'",
           "normalized": "(a-\u003eb c)-\u003eMenuPrim a d-\u003eb(MenuPrim c d)",
@@ -31337,6 +33821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MenuType",
           "name": "mapMenuPrim",
           "package": "uni-htk",
@@ -31346,6 +33831,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit MenuType",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MenuType",
           "name": "mapMenuPrim",
           "normalized": "(a-\u003eb)-\u003eMenuPrim c a-\u003eMenuPrim c b",
@@ -31361,6 +33847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.MenuType",
           "name": "mapMenuPrim'",
           "package": "uni-htk",
@@ -31370,6 +33857,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit MenuType",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.MenuType",
           "name": "mapMenuPrim'",
           "normalized": "(a-\u003eb)-\u003eMenuPrim a c-\u003eMenuPrim b c",
@@ -31385,6 +33873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.ModalDialog",
           "name": "ModalDialog",
           "package": "uni-htk",
@@ -31393,6 +33882,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit ModalDialog",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.ModalDialog",
           "name": "ModalDialog",
           "package": "uni-htk",
@@ -31406,6 +33896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.ModalDialog",
           "name": "modalDialog",
           "package": "uni-htk",
@@ -31415,6 +33906,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit ModalDialog",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.ModalDialog",
           "name": "modalDialog",
           "normalized": "Toplevel-\u003eBool-\u003eEvent a-\u003eIO a",
@@ -31430,6 +33922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.ModalDialog",
           "name": "modalInteraction",
           "package": "uni-htk",
@@ -31439,6 +33932,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit ModalDialog",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.ModalDialog",
           "name": "modalInteraction",
           "normalized": "Toplevel-\u003eBool-\u003eBool-\u003eEvent a-\u003eIO a",
@@ -31455,6 +33949,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports a common interface for named objects.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Name",
           "name": "Name",
           "package": "uni-htk",
@@ -31464,6 +33959,7 @@
         "index": {
           "description": "This module exports common interface for named objects",
           "hierarchy": "HTk Toolkit Name",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Name",
           "name": "Name",
           "package": "uni-htk",
@@ -31478,6 +33974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eName\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Name",
           "name": "Name",
           "package": "uni-htk",
@@ -31487,6 +33984,7 @@
         "index": {
           "description": "The Name datatype",
           "hierarchy": "HTk Toolkit Name",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Name",
           "name": "Name",
           "package": "uni-htk",
@@ -31501,6 +33999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Name",
           "name": "createName",
           "package": "uni-htk",
@@ -31510,6 +34009,7 @@
         "index": {
           "description": "Creates new name",
           "hierarchy": "HTk Toolkit Name",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Name",
           "name": "createName",
           "normalized": "String-\u003eName",
@@ -31526,6 +34026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the full name from a \u003ccode\u003eName\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Name",
           "name": "getFullName",
           "package": "uni-htk",
@@ -31536,6 +34037,7 @@
         "index": {
           "description": "Gets the full name from Name object",
           "hierarchy": "HTk Toolkit Name",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Name",
           "name": "getFullName",
           "normalized": "Name-\u003eString",
@@ -31552,6 +34054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a short name of the given length from a \u003ccode\u003eName\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Name",
           "name": "getShortName",
           "package": "uni-htk",
@@ -31562,6 +34065,7 @@
         "index": {
           "description": "Gets short name of the given length from Name object",
           "hierarchy": "HTk Toolkit Name",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Name",
           "name": "getShortName",
           "normalized": "Name-\u003eInt-\u003eString",
@@ -31578,6 +34082,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple drag and drop field.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "Notepad",
           "package": "uni-htk",
@@ -31587,6 +34092,7 @@
         "index": {
           "description": "simple drag and drop field",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "Notepad",
           "package": "uni-htk",
@@ -31601,6 +34107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eNotepad\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "Notepad",
           "package": "uni-htk",
@@ -31610,6 +34117,7 @@
         "index": {
           "description": "The Notepad datatype",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "Notepad",
           "package": "uni-htk",
@@ -31624,6 +34132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eNotepadEvent\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "NotepadEvent",
           "package": "uni-htk",
@@ -31633,6 +34142,7 @@
         "index": {
           "description": "The NotepadEvent datatype",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "NotepadEvent",
           "package": "uni-htk",
@@ -31647,6 +34157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eNotepadExportItem\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "NotepadExportItem",
           "package": "uni-htk",
@@ -31656,6 +34167,7 @@
         "index": {
           "description": "The NotepadExportItem datatype",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "NotepadExportItem",
           "package": "uni-htk",
@@ -31670,6 +34182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eNotepadItem\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "NotepadItem",
           "package": "uni-htk",
@@ -31679,6 +34192,7 @@
         "index": {
           "description": "The NotepadItem datatype",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "NotepadItem",
           "package": "uni-htk",
@@ -31692,6 +34206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "NotepadState",
           "package": "uni-htk",
@@ -31700,6 +34215,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "NotepadState",
           "package": "uni-htk",
@@ -31714,6 +34230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eScrollType\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "ScrollType",
           "package": "uni-htk",
@@ -31723,6 +34240,7 @@
         "index": {
           "description": "The ScrollType datatype",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "ScrollType",
           "package": "uni-htk",
@@ -31737,6 +34255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeselection event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "Deselected",
           "package": "uni-htk",
@@ -31747,6 +34266,7 @@
         "index": {
           "description": "Deselection event",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "Deselected",
           "package": "uni-htk",
@@ -31761,6 +34281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoubleclick event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "Doubleclick",
           "package": "uni-htk",
@@ -31771,6 +34292,7 @@
         "index": {
           "description": "Doubleclick event",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "Doubleclick",
           "package": "uni-htk",
@@ -31785,6 +34307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "Dropped",
           "package": "uni-htk",
@@ -31795,6 +34318,7 @@
         "index": {
           "description": "Drop event",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "Dropped",
           "normalized": "Dropped(NotepadItem a,[NotepadItem a])",
@@ -31810,6 +34334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "NotScrolled",
           "package": "uni-htk",
@@ -31819,6 +34344,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "NotScrolled",
           "package": "uni-htk",
@@ -31832,6 +34358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "NotepadExportItem",
           "package": "uni-htk",
@@ -31841,6 +34368,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "NotepadExportItem",
           "package": "uni-htk",
@@ -31855,6 +34383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButtonrelease after a movement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "ReleaseMovement",
           "package": "uni-htk",
@@ -31865,6 +34394,7 @@
         "index": {
           "description": "Buttonrelease after movement",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "ReleaseMovement",
           "package": "uni-htk",
@@ -31879,6 +34409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButtonrelease after a selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "ReleaseSelection",
           "package": "uni-htk",
@@ -31889,6 +34420,7 @@
         "index": {
           "description": "Buttonrelease after selection",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "ReleaseSelection",
           "package": "uni-htk",
@@ -31903,6 +34435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRightclick event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "Rightclick",
           "package": "uni-htk",
@@ -31913,6 +34446,7 @@
         "index": {
           "description": "Rightclick event",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "Rightclick",
           "normalized": "Rightclick[NotepadItem a]",
@@ -31928,6 +34462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "Scrolled",
           "package": "uni-htk",
@@ -31937,6 +34472,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "Scrolled",
           "package": "uni-htk",
@@ -31951,6 +34487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "Selected",
           "package": "uni-htk",
@@ -31961,6 +34498,7 @@
         "index": {
           "description": "Selection event",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "Selected",
           "package": "uni-htk",
@@ -31975,6 +34513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinds a listener for notepad events to the notepad and returns\n a corresponding event and an unbind action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "bindNotepadEv",
           "package": "uni-htk",
@@ -31984,6 +34523,7 @@
         "index": {
           "description": "Binds listener for notepad events to the notepad and returns corresponding event and an unbind action",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "bindNotepadEv",
           "normalized": "Notepad a-\u003eIO(Event(NotepadEvent a),IO())",
@@ -32000,6 +34540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes all items from a notepad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "clearNotepad",
           "package": "uni-htk",
@@ -32009,6 +34550,7 @@
         "index": {
           "description": "Deletes all items from notepad",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "clearNotepad",
           "normalized": "Notepad a-\u003eIO()",
@@ -32025,6 +34567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new notepad item and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "createNotepadItem",
           "package": "uni-htk",
@@ -32034,6 +34577,7 @@
         "index": {
           "description": "Creates new notepad item and returns handler",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "createNotepadItem",
           "normalized": "a-\u003eNotepad a-\u003eBool-\u003e[Config(NotepadItem a)]-\u003eIO(NotepadItem a)",
@@ -32050,6 +34594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes an item from a notepad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "deleteItem",
           "package": "uni-htk",
@@ -32059,6 +34604,7 @@
         "index": {
           "description": "Deletes an item from notepad",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "deleteItem",
           "normalized": "Notepad a-\u003eNotepadItem a-\u003eIO()",
@@ -32075,6 +34621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeselects all items inside the notepad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "deselectAll",
           "package": "uni-htk",
@@ -32084,6 +34631,7 @@
         "index": {
           "description": "Deselects all items inside the notepad",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "deselectAll",
           "normalized": "Notepad a-\u003eIO()",
@@ -32100,6 +34648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeselects a notepad item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "deselectItem",
           "package": "uni-htk",
@@ -32109,6 +34658,7 @@
         "index": {
           "description": "Deselects notepad item",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "deselectItem",
           "normalized": "Notepad a-\u003eNotepadItem a-\u003eIO()",
@@ -32125,6 +34675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExports a notepad's state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "exportNotepadState",
           "package": "uni-htk",
@@ -32134,6 +34685,7 @@
         "index": {
           "description": "Exports notepad state",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "exportNotepadState",
           "normalized": "Notepad a-\u003eIO(NotepadState a)",
@@ -32150,6 +34702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a free item position on the notepad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "getFreeItemPosition",
           "package": "uni-htk",
@@ -32159,6 +34712,7 @@
         "index": {
           "description": "Returns free item position on the notepad",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "getFreeItemPosition",
           "normalized": "Notepad a-\u003eIO Position",
@@ -32175,6 +34729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the value from a notepad item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "getItemValue",
           "package": "uni-htk",
@@ -32185,6 +34740,7 @@
         "index": {
           "description": "Gets the value from notepad item",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "getItemValue",
           "normalized": "NotepadItem a-\u003eIO a",
@@ -32201,6 +34757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the items from a notepad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "getItems",
           "package": "uni-htk",
@@ -32210,6 +34767,7 @@
         "index": {
           "description": "Gets the items from notepad",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "getItems",
           "normalized": "Notepad a-\u003eIO[NotepadItem a]",
@@ -32226,6 +34784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the selected items from a notepad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "getSelectedItems",
           "package": "uni-htk",
@@ -32235,6 +34794,7 @@
         "index": {
           "description": "Gets the selected items from notepad",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "getSelectedItems",
           "normalized": "Notepad a-\u003eIO[NotepadItem a]",
@@ -32251,6 +34811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImports a notepad's state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "importNotepadState",
           "package": "uni-htk",
@@ -32260,6 +34821,7 @@
         "index": {
           "description": "Imports notepad state",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "importNotepadState",
           "normalized": "Notepad a-\u003eNotepadState a-\u003eIO()",
@@ -32276,6 +34838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTrue\u003c/code\u003e if the given notepad item is selected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "isNotepadItemSelected",
           "package": "uni-htk",
@@ -32285,6 +34848,7 @@
         "index": {
           "description": "True if the given notepad item is selected",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "isNotepadItemSelected",
           "normalized": "Notepad a-\u003eNotepadItem a-\u003eIO Bool",
@@ -32301,6 +34865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new notepad and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "newNotepad",
           "package": "uni-htk",
@@ -32310,6 +34875,7 @@
         "index": {
           "description": "Constructs new notepad and returns handler",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "newNotepad",
           "normalized": "a-\u003eScrollType-\u003eSize-\u003eMaybe(NotepadState b)-\u003e[Config(Notepad b)]-\u003eIO(Notepad b)",
@@ -32325,6 +34891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "pos",
           "package": "uni-htk",
@@ -32334,6 +34901,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "pos",
           "package": "uni-htk",
@@ -32347,6 +34915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects all items inside the notepad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "selectAll",
           "package": "uni-htk",
@@ -32356,6 +34925,7 @@
         "index": {
           "description": "Selects all items inside the notepad",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "selectAll",
           "normalized": "Notepad a-\u003eIO()",
@@ -32372,6 +34942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds an item to the notepad's selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "selectAnotherItem",
           "package": "uni-htk",
@@ -32381,6 +34952,7 @@
         "index": {
           "description": "Adds an item to the notepad selection",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "selectAnotherItem",
           "normalized": "Notepad a-\u003eNotepadItem a-\u003eIO()",
@@ -32397,6 +34969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects a specific notepad item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "selectItem",
           "package": "uni-htk",
@@ -32406,6 +34979,7 @@
         "index": {
           "description": "Selects specific notepad item",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "selectItem",
           "normalized": "Notepad a-\u003eNotepadItem a-\u003eIO()",
@@ -32422,6 +34996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects all items within the specified region.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "selectItemsWithin",
           "package": "uni-htk",
@@ -32431,6 +35006,7 @@
         "index": {
           "description": "Selects all items within the specified region",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "selectItemsWithin",
           "normalized": "Position-\u003ePosition-\u003eNotepad a-\u003eIO()",
@@ -32446,6 +35022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "selected",
           "package": "uni-htk",
@@ -32455,6 +35032,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "selected",
           "package": "uni-htk",
@@ -32468,6 +35046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Re-)sets the name of a notepad item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "setName",
           "package": "uni-htk",
@@ -32478,6 +35057,7 @@
         "index": {
           "description": "Re sets the name of notepad item",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "setName",
           "normalized": "NotepadItem a-\u003eName-\u003eIO()",
@@ -32494,6 +35074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal (for use with GenGUI).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "undoLastMotion",
           "package": "uni-htk",
@@ -32504,6 +35085,7 @@
         "index": {
           "description": "Internal for use with GenGUI",
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "undoLastMotion",
           "normalized": "Notepad a-\u003eIO()",
@@ -32519,6 +35101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "updNotepadScrollRegion",
           "package": "uni-htk",
@@ -32528,6 +35111,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "updNotepadScrollRegion",
           "normalized": "Notepad a-\u003eIO()",
@@ -32543,6 +35127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Notepad",
           "name": "val",
           "package": "uni-htk",
@@ -32552,6 +35137,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit Notepad",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Notepad",
           "name": "val",
           "package": "uni-htk",
@@ -32565,6 +35151,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple prompt (a labelled entry field).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Prompt",
           "name": "Prompt",
           "package": "uni-htk",
@@ -32574,6 +35161,7 @@
         "index": {
           "description": "simple prompt labelled entry field",
           "hierarchy": "HTk Toolkit Prompt",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Prompt",
           "name": "Prompt",
           "package": "uni-htk",
@@ -32588,6 +35176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ePrompt\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Prompt",
           "name": "Prompt",
           "package": "uni-htk",
@@ -32597,6 +35186,7 @@
         "index": {
           "description": "The Prompt datatype",
           "hierarchy": "HTk Toolkit Prompt",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Prompt",
           "name": "Prompt",
           "package": "uni-htk",
@@ -32611,6 +35201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the entry field of the prompt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Prompt",
           "name": "getPromptEntry",
           "package": "uni-htk",
@@ -32620,6 +35211,7 @@
         "index": {
           "description": "Gets the entry field of the prompt",
           "hierarchy": "HTk Toolkit Prompt",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Prompt",
           "name": "getPromptEntry",
           "normalized": "Prompt a-\u003eEntry a",
@@ -32636,6 +35228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new prompt and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Prompt",
           "name": "newPrompt",
           "package": "uni-htk",
@@ -32645,6 +35238,7 @@
         "index": {
           "description": "Construct new prompt and returns handler",
           "hierarchy": "HTk Toolkit Prompt",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Prompt",
           "name": "newPrompt",
           "normalized": "Box-\u003e[Config(Prompt a)]-\u003eIO(Prompt a)",
@@ -32661,6 +35255,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple scroll pane for a scrolled widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "ScrollBox",
           "package": "uni-htk",
@@ -32670,6 +35265,7 @@
         "index": {
           "description": "simple scroll pane for scrolled widget",
           "hierarchy": "HTk Toolkit ScrollBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "ScrollBox",
           "package": "uni-htk",
@@ -32684,6 +35280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eScrollBox\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "ScrollBox",
           "package": "uni-htk",
@@ -32693,6 +35290,7 @@
         "index": {
           "description": "The ScrollBox datatype",
           "hierarchy": "HTk Toolkit ScrollBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "ScrollBox",
           "package": "uni-htk",
@@ -32706,6 +35304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "ScrollBox",
           "package": "uni-htk",
@@ -32715,6 +35314,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit ScrollBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "ScrollBox",
           "package": "uni-htk",
@@ -32728,6 +35328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "fPadFrames",
           "package": "uni-htk",
@@ -32737,6 +35338,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit ScrollBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "fPadFrames",
           "normalized": "[Frame]",
@@ -32752,6 +35354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "fScrollBars",
           "package": "uni-htk",
@@ -32761,6 +35364,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit ScrollBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "fScrollBars",
           "normalized": "[ScrollBar]",
@@ -32776,6 +35380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "fScrollFrame",
           "package": "uni-htk",
@@ -32785,6 +35390,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit ScrollBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "fScrollFrame",
           "package": "uni-htk",
@@ -32798,6 +35404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "fScrolledWidget",
           "package": "uni-htk",
@@ -32807,6 +35414,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit ScrollBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "fScrolledWidget",
           "package": "uni-htk",
@@ -32821,6 +35429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the scrollbars from a scrollbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "getScrollBars",
           "package": "uni-htk",
@@ -32831,6 +35440,7 @@
         "index": {
           "description": "Gets the scrollbars from scrollbox",
           "hierarchy": "HTk Toolkit ScrollBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "getScrollBars",
           "normalized": "ScrollBox a-\u003e[ScrollBar]",
@@ -32847,6 +35457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the scrolled widget from a scrollbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "getScrolledWidget",
           "package": "uni-htk",
@@ -32857,6 +35468,7 @@
         "index": {
           "description": "Gets the scrolled widget from scrollbox",
           "hierarchy": "HTk Toolkit ScrollBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "getScrolledWidget",
           "normalized": "ScrollBox a-\u003ea",
@@ -32873,6 +35485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new scrollbox and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "newScrollBox",
           "package": "uni-htk",
@@ -32882,6 +35495,7 @@
         "index": {
           "description": "Constructs new scrollbox and returns handler",
           "hierarchy": "HTk Toolkit ScrollBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.ScrollBox",
           "name": "newScrollBox",
           "normalized": "a-\u003e(Frame-\u003eIO b)-\u003e[Config(ScrollBox b)]-\u003eIO(ScrollBox b,b)",
@@ -32898,6 +35512,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple container for a group of button widgets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SelectBox",
           "name": "SelectBox",
           "package": "uni-htk",
@@ -32907,6 +35522,7 @@
         "index": {
           "description": "simple container for group of button widgets",
           "hierarchy": "HTk Toolkit SelectBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SelectBox",
           "name": "SelectBox",
           "package": "uni-htk",
@@ -32921,6 +35537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSelectBox\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SelectBox",
           "name": "SelectBox",
           "package": "uni-htk",
@@ -32930,6 +35547,7 @@
         "index": {
           "description": "The SelectBox datatype",
           "hierarchy": "HTk Toolkit SelectBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SelectBox",
           "name": "SelectBox",
           "package": "uni-htk",
@@ -32944,6 +35562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a button widget at the end of the select box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SelectBox",
           "name": "addButton",
           "package": "uni-htk",
@@ -32953,6 +35572,7 @@
         "index": {
           "description": "Adds button widget at the end of the select box",
           "hierarchy": "HTk Toolkit SelectBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SelectBox",
           "name": "addButton",
           "normalized": "SelectBox-\u003e[Config Button]-\u003e[PackOption]-\u003eIO Button",
@@ -32969,6 +35589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a space widget at the end of the select box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SelectBox",
           "name": "addSpace",
           "package": "uni-htk",
@@ -32978,6 +35599,7 @@
         "index": {
           "description": "Adds space widget at the end of the select box",
           "hierarchy": "HTk Toolkit SelectBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SelectBox",
           "name": "addSpace",
           "normalized": "SelectBox-\u003eDistance-\u003eIO Space",
@@ -32994,6 +35616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the default button from a select box (if there is one).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SelectBox",
           "name": "getDefault",
           "package": "uni-htk",
@@ -33003,6 +35626,7 @@
         "index": {
           "description": "Gets the default button from select box if there is one",
           "hierarchy": "HTk Toolkit SelectBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SelectBox",
           "name": "getDefault",
           "normalized": "SelectBox-\u003eIO(Maybe Button)",
@@ -33019,6 +35643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new select box and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SelectBox",
           "name": "newSelectBox",
           "package": "uni-htk",
@@ -33028,6 +35653,7 @@
         "index": {
           "description": "Constructs new select box and returns handler",
           "hierarchy": "HTk Toolkit SelectBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SelectBox",
           "name": "newSelectBox",
           "normalized": "a-\u003eMaybe Int-\u003e[Config SelectBox]-\u003eIO SelectBox",
@@ -33044,6 +35670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the default button of a select box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SelectBox",
           "name": "selectDefault",
           "package": "uni-htk",
@@ -33053,6 +35680,7 @@
         "index": {
           "description": "Selects the default button of select box",
           "hierarchy": "HTk Toolkit SelectBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SelectBox",
           "name": "selectDefault",
           "normalized": "SelectBox-\u003eIO()",
@@ -33069,6 +35697,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSeparators for widgets. It is just\n a frame with a given relief and borderwidth etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Separator",
           "name": "Separator",
           "package": "uni-htk",
@@ -33078,6 +35707,7 @@
         "index": {
           "description": "Separators for widgets It is just frame with given relief and borderwidth etc",
           "hierarchy": "HTk Toolkit Separator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Separator",
           "name": "Separator",
           "package": "uni-htk",
@@ -33092,6 +35722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSeparator\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Separator",
           "name": "Separator",
           "package": "uni-htk",
@@ -33101,6 +35732,7 @@
         "index": {
           "description": "The Separator datatype",
           "hierarchy": "HTk Toolkit Separator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Separator",
           "name": "Separator",
           "package": "uni-htk",
@@ -33115,6 +35747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new horizontal separator widget and returns it as a value. (no packing needed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Separator",
           "name": "newHSeparator",
           "package": "uni-htk",
@@ -33124,6 +35757,7 @@
         "index": {
           "description": "Constructs new horizontal separator widget and returns it as value no packing needed",
           "hierarchy": "HTk Toolkit Separator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Separator",
           "name": "newHSeparator",
           "normalized": "a-\u003eIO Separator",
@@ -33140,6 +35774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new separator widget and returns it as a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Separator",
           "name": "newSeparator",
           "package": "uni-htk",
@@ -33149,6 +35784,7 @@
         "index": {
           "description": "Constructs new separator widget and returns it as value",
           "hierarchy": "HTk Toolkit Separator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Separator",
           "name": "newSeparator",
           "normalized": "a-\u003e[Config Separator]-\u003eIO Separator",
@@ -33165,6 +35801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new vertical separator widget and returns it as a value. (no packing needed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.Separator",
           "name": "newVSeparator",
           "package": "uni-htk",
@@ -33174,6 +35811,7 @@
         "index": {
           "description": "Constructs new vertical separator widget and returns it as value no packing needed",
           "hierarchy": "HTk Toolkit Separator",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.Separator",
           "name": "newVSeparator",
           "normalized": "a-\u003eIO Separator",
@@ -33190,6 +35828,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines \u003ccode\u003eSimpleForm\u003c/code\u003es, a simple interface\n to filling in forms using HTk.  (Indeed, it is simple enough that it might\n be ported to some other GUI sometime.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "SimpleForm",
           "package": "uni-htk",
@@ -33199,6 +35838,7 @@
         "index": {
           "description": "This module defines SimpleForm simple interface to filling in forms using HTk Indeed it is simple enough that it might be ported to some other GUI sometime",
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "SimpleForm",
           "package": "uni-htk",
@@ -33212,6 +35852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "EmptyLabel",
           "package": "uni-htk",
@@ -33220,6 +35861,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "EmptyLabel",
           "package": "uni-htk",
@@ -33233,6 +35875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "Form",
           "package": "uni-htk",
@@ -33241,6 +35884,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "Form",
           "package": "uni-htk",
@@ -33254,6 +35898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "FormLabel",
           "package": "uni-htk",
@@ -33262,6 +35907,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "FormLabel",
           "package": "uni-htk",
@@ -33275,6 +35921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "FormTextField",
           "package": "uni-htk",
@@ -33283,6 +35930,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "FormTextField",
           "package": "uni-htk",
@@ -33296,6 +35944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "FormTextFieldIO",
           "package": "uni-htk",
@@ -33304,6 +35953,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "FormTextFieldIO",
           "package": "uni-htk",
@@ -33317,6 +35967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "FormValue",
           "package": "uni-htk",
@@ -33325,6 +35976,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "FormValue",
           "package": "uni-htk",
@@ -33338,6 +35990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "HasConfigRadioButton",
           "package": "uni-htk",
@@ -33346,6 +35999,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "HasConfigRadioButton",
           "package": "uni-htk",
@@ -33359,6 +36013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "Password",
           "package": "uni-htk",
@@ -33367,6 +36022,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "Password",
           "package": "uni-htk",
@@ -33380,6 +36036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "Radio",
           "package": "uni-htk",
@@ -33388,6 +36045,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "Radio",
           "package": "uni-htk",
@@ -33401,6 +36059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "WrappedFormLabel",
           "package": "uni-htk",
@@ -33409,6 +36068,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "WrappedFormLabel",
           "package": "uni-htk",
@@ -33422,6 +36082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "(//)",
           "package": "uni-htk",
@@ -33431,6 +36092,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "(//) //",
           "normalized": "Form a-\u003eForm a-\u003eForm(a,a)",
@@ -33445,6 +36107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "(\\\\)",
           "package": "uni-htk",
@@ -33454,6 +36117,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "(\\\\) \\\\",
           "normalized": "Form a-\u003eForm b-\u003eForm(a,b)",
@@ -33468,6 +36132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "EmptyLabel",
           "package": "uni-htk",
@@ -33477,6 +36142,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "EmptyLabel",
           "package": "uni-htk",
@@ -33490,6 +36156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "NoRadio",
           "package": "uni-htk",
@@ -33499,6 +36166,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "NoRadio",
           "package": "uni-htk",
@@ -33512,6 +36180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "Password",
           "package": "uni-htk",
@@ -33521,6 +36190,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "Password",
           "package": "uni-htk",
@@ -33534,6 +36204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "Radio",
           "package": "uni-htk",
@@ -33543,6 +36214,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "Radio",
           "package": "uni-htk",
@@ -33556,6 +36228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "WrappedFormLabel",
           "package": "uni-htk",
@@ -33565,6 +36238,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "WrappedFormLabel",
           "package": "uni-htk",
@@ -33578,6 +36252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "column",
           "package": "uni-htk",
@@ -33587,6 +36262,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "column",
           "normalized": "[Form a]-\u003eForm[a]",
@@ -33601,6 +36277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "configRadioButton",
           "package": "uni-htk",
@@ -33610,6 +36287,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "configRadioButton",
           "normalized": "a-\u003eConfig(RadioButton Int)",
@@ -33625,6 +36303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "doForm",
           "package": "uni-htk",
@@ -33634,6 +36313,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "doForm",
           "normalized": "String-\u003eForm a-\u003eIO(Maybe a)",
@@ -33649,6 +36329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "doFormList",
           "package": "uni-htk",
@@ -33658,6 +36339,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "doFormList",
           "normalized": "String-\u003e[(Form a,String)]-\u003eIO(Event(WithError a),IO())",
@@ -33673,6 +36355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "doFormMust",
           "package": "uni-htk",
@@ -33682,6 +36365,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "doFormMust",
           "normalized": "String-\u003eForm a-\u003eIO a",
@@ -33698,6 +36382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn editable text window as a form entry\n Useful config options:\n   (value String) to set initial contents\n   (height i), (width i) to set the height and width in characters.\n   (background s) to set the background colour to s.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "editableTextForm",
           "package": "uni-htk",
@@ -33708,6 +36393,7 @@
         "index": {
           "description": "An editable text window as form entry Useful config options value String to set initial contents height width to set the height and width in characters background to set the background colour to",
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "editableTextForm",
           "normalized": "[Config Editor]-\u003eForm String",
@@ -33724,6 +36410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eeditableTextForm\u003c/a\u003e\u003c/code\u003e but no scrollbars are displayed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "editableTextForm0",
           "package": "uni-htk",
@@ -33734,6 +36421,7 @@
         "index": {
           "description": "Like editableTextForm but no scrollbars are displayed",
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "editableTextForm0",
           "normalized": "[Config Editor]-\u003eForm String",
@@ -33749,6 +36437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "emptyForm",
           "package": "uni-htk",
@@ -33758,6 +36447,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "emptyForm",
           "normalized": "Form()",
@@ -33773,6 +36463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "formLabel",
           "package": "uni-htk",
@@ -33782,6 +36473,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "formLabel",
           "normalized": "Frame-\u003ea-\u003eIO(IO())",
@@ -33797,6 +36489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "guardForm",
           "package": "uni-htk",
@@ -33806,6 +36499,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "guardForm",
           "normalized": "(a-\u003eBool)-\u003eString-\u003eForm a-\u003eForm a",
@@ -33821,6 +36515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "guardFormIO",
           "package": "uni-htk",
@@ -33830,6 +36525,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "guardFormIO",
           "normalized": "(a-\u003eIO Bool)-\u003eString-\u003eForm a-\u003eForm a",
@@ -33845,6 +36541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "guardNothing",
           "package": "uni-htk",
@@ -33854,6 +36551,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "guardNothing",
           "normalized": "String-\u003eForm(Maybe a)-\u003eForm a",
@@ -33869,6 +36567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "makeFormEntry",
           "package": "uni-htk",
@@ -33878,6 +36577,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "makeFormEntry",
           "normalized": "Frame-\u003ea-\u003eIO(EnteredForm a)",
@@ -33893,6 +36593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "makeFormString",
           "package": "uni-htk",
@@ -33902,6 +36603,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "makeFormString",
           "normalized": "a-\u003eString",
@@ -33917,6 +36619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "makeFormStringIO",
           "package": "uni-htk",
@@ -33926,6 +36629,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "makeFormStringIO",
           "normalized": "a-\u003eIO String",
@@ -33941,6 +36645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "mapForm",
           "package": "uni-htk",
@@ -33950,6 +36655,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "mapForm",
           "normalized": "(a-\u003eWithError b)-\u003eForm a-\u003eForm b",
@@ -33965,6 +36671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "mapFormIO",
           "package": "uni-htk",
@@ -33974,6 +36681,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "mapFormIO",
           "normalized": "(a-\u003eIO(WithError b))-\u003eForm a-\u003eForm b",
@@ -33989,6 +36697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "mapMakeFormEntry",
           "package": "uni-htk",
@@ -33998,6 +36707,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "mapMakeFormEntry",
           "normalized": "(a-\u003ea)-\u003e(a-\u003ea)-\u003eFrame-\u003ea-\u003eIO(EnteredForm a)",
@@ -34013,6 +36723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "newFormEntry",
           "package": "uni-htk",
@@ -34022,6 +36733,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "newFormEntry",
           "normalized": "a-\u003eb-\u003eForm b",
@@ -34037,6 +36749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "newFormMenu",
           "package": "uni-htk",
@@ -34046,6 +36759,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "newFormMenu",
           "normalized": "a-\u003eHTkMenu b-\u003eForm(Maybe b)",
@@ -34061,6 +36775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "newFormOptionMenu",
           "package": "uni-htk",
@@ -34070,6 +36785,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "newFormOptionMenu",
           "normalized": "[a]-\u003eForm a",
@@ -34085,6 +36801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "newFormOptionMenu2",
           "package": "uni-htk",
@@ -34094,6 +36811,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "newFormOptionMenu2",
           "normalized": "[(a,b)]-\u003eForm b",
@@ -34109,6 +36827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "nullForm",
           "package": "uni-htk",
@@ -34118,6 +36837,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "nullForm",
           "normalized": "a-\u003eForm()",
@@ -34133,6 +36853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "readFormString",
           "package": "uni-htk",
@@ -34142,6 +36863,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "readFormString",
           "normalized": "String-\u003eWithError a",
@@ -34157,6 +36879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "readFormStringIO",
           "package": "uni-htk",
@@ -34166,6 +36889,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "readFormStringIO",
           "normalized": "String-\u003eIO(WithError a)",
@@ -34181,6 +36905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "row",
           "package": "uni-htk",
@@ -34190,6 +36915,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleForm",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleForm",
           "name": "row",
           "normalized": "[Form a]-\u003eForm[a]",
@@ -34205,6 +36931,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a simple list box to which strings can be\n added at the end and deleted.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "SimpleListBox",
           "package": "uni-htk",
@@ -34214,6 +36941,7 @@
         "index": {
           "description": "This module implements simple list box to which strings can be added at the end and deleted",
           "hierarchy": "HTk Toolkit SimpleListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "SimpleListBox",
           "package": "uni-htk",
@@ -34227,6 +36955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "SimpleListBox",
           "package": "uni-htk",
@@ -34235,6 +36964,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "SimpleListBox",
           "package": "uni-htk",
@@ -34248,6 +36978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "SimpleListBoxItem",
           "package": "uni-htk",
@@ -34256,6 +36987,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "SimpleListBoxItem",
           "package": "uni-htk",
@@ -34269,6 +37001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "addItemAtEnd",
           "package": "uni-htk",
@@ -34278,6 +37011,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "addItemAtEnd",
           "normalized": "SimpleListBox a-\u003ea-\u003eIO(SimpleListBoxItem a)",
@@ -34293,6 +37027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "bindSelection",
           "package": "uni-htk",
@@ -34302,6 +37037,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "bindSelection",
           "normalized": "SimpleListBox a-\u003eIO(Event[SimpleListBoxItem a],IO())",
@@ -34317,6 +37053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "deleteItem",
           "package": "uni-htk",
@@ -34326,6 +37063,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "deleteItem",
           "normalized": "SimpleListBox a-\u003eSimpleListBoxItem a-\u003eIO()",
@@ -34341,6 +37079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "getItems",
           "package": "uni-htk",
@@ -34350,6 +37089,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "getItems",
           "normalized": "SimpleListBox a-\u003eIO[a]",
@@ -34365,6 +37105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "newSimpleListBox",
           "package": "uni-htk",
@@ -34374,6 +37115,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SimpleListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SimpleListBox",
           "name": "newSimpleListBox",
           "normalized": "a-\u003e(b-\u003eString)-\u003e[Config(SimpleListBox b)]-\u003eIO(SimpleListBox b)",
@@ -34390,6 +37132,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA spin button widget consisting of two button widgets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SpinButton",
           "name": "SpinButton",
           "package": "uni-htk",
@@ -34399,6 +37142,7 @@
         "index": {
           "description": "spin button widget consisting of two button widgets",
           "hierarchy": "HTk Toolkit SpinButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SpinButton",
           "name": "SpinButton",
           "package": "uni-htk",
@@ -34413,6 +37157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSpin\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SpinButton",
           "name": "Spin",
           "package": "uni-htk",
@@ -34422,6 +37167,7 @@
         "index": {
           "description": "The Spin datatype",
           "hierarchy": "HTk Toolkit SpinButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SpinButton",
           "name": "Spin",
           "package": "uni-htk",
@@ -34436,6 +37182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSpinButton\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SpinButton",
           "name": "SpinButton",
           "package": "uni-htk",
@@ -34445,6 +37192,7 @@
         "index": {
           "description": "The SpinButton datatype",
           "hierarchy": "HTk Toolkit SpinButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SpinButton",
           "name": "SpinButton",
           "package": "uni-htk",
@@ -34458,6 +37206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SpinButton",
           "name": "Down",
           "package": "uni-htk",
@@ -34467,6 +37216,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SpinButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SpinButton",
           "name": "Down",
           "package": "uni-htk",
@@ -34480,6 +37230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SpinButton",
           "name": "Up",
           "package": "uni-htk",
@@ -34489,6 +37240,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit SpinButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SpinButton",
           "name": "Up",
           "package": "uni-htk",
@@ -34503,6 +37255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new spin button and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.SpinButton",
           "name": "newSpinButton",
           "package": "uni-htk",
@@ -34512,6 +37265,7 @@
         "index": {
           "description": "Constructs new spin button and returns handler",
           "hierarchy": "HTk Toolkit SpinButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.SpinButton",
           "name": "newSpinButton",
           "normalized": "a-\u003e(Spin-\u003eIO b)-\u003e[Config SpinButton]-\u003eIO SpinButton",
@@ -34528,6 +37282,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple window to display uneditable, scrollable text (e.g. error logs)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TextDisplay",
           "name": "TextDisplay",
           "package": "uni-htk",
@@ -34537,6 +37292,7 @@
         "index": {
           "description": "simple window to display uneditable scrollable text e.g error logs",
           "hierarchy": "HTk Toolkit TextDisplay",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TextDisplay",
           "name": "TextDisplay",
           "package": "uni-htk",
@@ -34551,6 +37307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay some (longish) text in an uneditable, scrollable editor.\n Simplified version of createTextDisplayExt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TextDisplay",
           "name": "createTextDisplay",
           "package": "uni-htk",
@@ -34560,6 +37317,7 @@
         "index": {
           "description": "Display some longish text in an uneditable scrollable editor Simplified version of createTextDisplayExt",
           "hierarchy": "HTk Toolkit TextDisplay",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TextDisplay",
           "name": "createTextDisplay",
           "normalized": "String-\u003eString-\u003e[Config Editor]-\u003eIO()",
@@ -34576,6 +37334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay some (longish) text in an uneditable, scrollable editor.\n Returns immediately-- the display is forked off to separate thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TextDisplay",
           "name": "createTextDisplayExt",
           "package": "uni-htk",
@@ -34585,6 +37344,7 @@
         "index": {
           "description": "Display some longish text in an uneditable scrollable editor Returns immediately the display is forked off to separate thread",
           "hierarchy": "HTk Toolkit TextDisplay",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TextDisplay",
           "name": "createTextDisplayExt",
           "normalized": "String-\u003eString-\u003e[Config Editor]-\u003eIO()-\u003eIO(Toplevel,Editor)",
@@ -34601,6 +37361,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003eTreeList\u003c/em\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeList",
           "package": "uni-htk",
@@ -34610,6 +37371,7 @@
         "index": {
           "description": "HTk TreeList module",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeList",
           "package": "uni-htk",
@@ -34624,6 +37386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eChildrenFun\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "ChildrenFun",
           "package": "uni-htk",
@@ -34633,6 +37396,7 @@
         "index": {
           "description": "The ChildrenFun type",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "ChildrenFun",
           "package": "uni-htk",
@@ -34647,6 +37411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eTreeList\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeList",
           "package": "uni-htk",
@@ -34656,6 +37421,7 @@
         "index": {
           "description": "The TreeList datatype",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeList",
           "package": "uni-htk",
@@ -34670,6 +37436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eTreeListEvent\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeListEvent",
           "package": "uni-htk",
@@ -34679,6 +37446,7 @@
         "index": {
           "description": "The TreeListEvent datatype",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeListEvent",
           "package": "uni-htk",
@@ -34692,6 +37460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeListExportItem",
           "package": "uni-htk",
@@ -34700,6 +37469,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeListExportItem",
           "package": "uni-htk",
@@ -34714,6 +37484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eTreeListObject\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeListObject",
           "package": "uni-htk",
@@ -34723,6 +37494,7 @@
         "index": {
           "description": "The TreeListObject datatype",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeListObject",
           "package": "uni-htk",
@@ -34737,6 +37509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eTreeListObjectType\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeListObjectType",
           "package": "uni-htk",
@@ -34746,6 +37519,7 @@
         "index": {
           "description": "The TreeListObjectType datatype",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeListObjectType",
           "package": "uni-htk",
@@ -34759,6 +37533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeListState",
           "package": "uni-htk",
@@ -34767,6 +37542,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeListState",
           "package": "uni-htk",
@@ -34780,6 +37556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "Focused",
           "package": "uni-htk",
@@ -34789,6 +37566,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "Focused",
           "normalized": "Focused(Maybe(TreeListObject a),EventInfo)",
@@ -34804,6 +37582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "Leaf",
           "package": "uni-htk",
@@ -34813,6 +37592,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "Leaf",
           "package": "uni-htk",
@@ -34826,6 +37606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "Node",
           "package": "uni-htk",
@@ -34835,6 +37616,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "Node",
           "package": "uni-htk",
@@ -34848,6 +37630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "Selected",
           "package": "uni-htk",
@@ -34857,6 +37640,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "Selected",
           "package": "uni-htk",
@@ -34870,6 +37654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeListExportItem",
           "package": "uni-htk",
@@ -34879,6 +37664,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "TreeListExportItem",
           "package": "uni-htk",
@@ -34893,6 +37679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a toplevel tree list object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "addTreeListRootObject",
           "package": "uni-htk",
@@ -34902,6 +37689,7 @@
         "index": {
           "description": "Adds toplevel tree list object",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "addTreeListRootObject",
           "normalized": "TreeList a-\u003eTreeListObject a-\u003eIO()",
@@ -34918,6 +37706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a subobject to a tree list object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "addTreeListSubObject",
           "package": "uni-htk",
@@ -34927,6 +37716,7 @@
         "index": {
           "description": "Adds subobject to tree list object",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "addTreeListSubObject",
           "normalized": "TreeList a-\u003ea-\u003eTreeListObject a-\u003eIO()",
@@ -34943,6 +37733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinds a listener for tree list events to the tree list and returns\n a corresponding event and an unbind action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "bindTreeListEv",
           "package": "uni-htk",
@@ -34952,6 +37743,7 @@
         "index": {
           "description": "Binds listener for tree list events to the tree list and returns corresponding event and an unbind action",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "bindTreeListEv",
           "normalized": "TreeList a-\u003eIO(Event(TreeListEvent a),IO())",
@@ -34968,6 +37760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExports the tree list's state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "exportTreeListState",
           "package": "uni-htk",
@@ -34977,6 +37770,7 @@
         "index": {
           "description": "Exports the tree list state",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "exportTreeListState",
           "normalized": "TreeList a-\u003eIO(TreeListState a)",
@@ -34993,6 +37787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelector for the type of a tree list object (node or leaf).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "getTreeListObjectType",
           "package": "uni-htk",
@@ -35002,6 +37797,7 @@
         "index": {
           "description": "Selector for the type of tree list object node or leaf",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "getTreeListObjectType",
           "normalized": "TreeListObject a-\u003eTreeListObjectType",
@@ -35018,6 +37814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelector for the value of a tree list object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "getTreeListObjectValue",
           "package": "uni-htk",
@@ -35027,6 +37824,7 @@
         "index": {
           "description": "Selector for the value of tree list object",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "getTreeListObjectValue",
           "normalized": "TreeListObject a-\u003ea",
@@ -35043,6 +37841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImports a previously saved tree list state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "importTreeListState",
           "package": "uni-htk",
@@ -35052,6 +37851,7 @@
         "index": {
           "description": "Imports previously saved tree list state",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "importTreeListState",
           "normalized": "TreeList a-\u003eTreeListState a-\u003eIO()",
@@ -35067,6 +37867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "intend",
           "package": "uni-htk",
@@ -35076,6 +37877,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "intend",
           "package": "uni-htk",
@@ -35089,6 +37891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks for a given tree list object value if the corresponding\n object is a leaf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "isLeaf",
           "package": "uni-htk",
@@ -35098,6 +37901,7 @@
         "index": {
           "description": "Checks for given tree list object value if the corresponding object is leaf",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "isLeaf",
           "normalized": "TreeList a-\u003ea-\u003eIO(Maybe Bool)",
@@ -35114,6 +37918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks for a given tree list object value if the corresponding\n object is a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "isNode",
           "package": "uni-htk",
@@ -35123,6 +37928,7 @@
         "index": {
           "description": "Checks for given tree list object value if the corresponding object is node",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "isNode",
           "normalized": "TreeList a-\u003ea-\u003eIO(Maybe Bool)",
@@ -35139,6 +37945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue, if the object with the given value is currently opened in the\n tree list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "isTreeListObjectOpen",
           "package": "uni-htk",
@@ -35148,6 +37955,7 @@
         "index": {
           "description": "True if the object with the given value is currently opened in the tree list",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "isTreeListObjectOpen",
           "normalized": "TreeList a-\u003ea-\u003eIO Bool",
@@ -35164,6 +37972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the corresponding object to a given tree list object value\n to a leaf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "mkLeaf",
           "package": "uni-htk",
@@ -35173,6 +37982,7 @@
         "index": {
           "description": "Converts the corresponding object to given tree list object value to leaf",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "mkLeaf",
           "normalized": "TreeList a-\u003ea-\u003eIO()",
@@ -35189,6 +37999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the corresponding object to a given tree list object value\n to a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "mkNode",
           "package": "uni-htk",
@@ -35198,6 +38009,7 @@
         "index": {
           "description": "Converts the corresponding object to given tree list object value to node",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "mkNode",
           "normalized": "TreeList a-\u003ea-\u003eIO()",
@@ -35214,6 +38026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new tree list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "newTreeList",
           "package": "uni-htk",
@@ -35223,6 +38036,7 @@
         "index": {
           "description": "Constructs new tree list",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "newTreeList",
           "normalized": "a-\u003eChildrenFun b-\u003e[TreeListObject b]-\u003e[Config(TreeList b)]-\u003eIO(TreeList b)",
@@ -35239,6 +38053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new tree list object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "newTreeListObject",
           "package": "uni-htk",
@@ -35248,6 +38063,7 @@
         "index": {
           "description": "Constructs new tree list object",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "newTreeListObject",
           "normalized": "a-\u003eTreeListObjectType-\u003eTreeListObject a",
@@ -35263,6 +38079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "obj_type",
           "package": "uni-htk",
@@ -35272,6 +38089,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "obj_type",
           "package": "uni-htk",
@@ -35284,6 +38102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "obj_val",
           "package": "uni-htk",
@@ -35293,6 +38112,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "obj_val",
           "package": "uni-htk",
@@ -35305,6 +38125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "open",
           "package": "uni-htk",
@@ -35314,6 +38135,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "open",
           "package": "uni-htk",
@@ -35327,6 +38149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new tree list recovering a previously saved state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "recoverTreeList",
           "package": "uni-htk",
@@ -35336,6 +38159,7 @@
         "index": {
           "description": "Constructs new tree list recovering previously saved state",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "recoverTreeList",
           "normalized": "a-\u003eChildrenFun b-\u003eTreeListState b-\u003e[Config(TreeList b)]-\u003eIO(TreeList b)",
@@ -35352,6 +38176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the corresponding objects to a given tree list object value\n from the tree list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "removeTreeListObject",
           "package": "uni-htk",
@@ -35361,6 +38186,7 @@
         "index": {
           "description": "Removes the corresponding objects to given tree list object value from the tree list",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "removeTreeListObject",
           "normalized": "TreeList a-\u003ea-\u003eIO()",
@@ -35376,6 +38202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "selected",
           "package": "uni-htk",
@@ -35385,6 +38212,7 @@
         },
         "index": {
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "selected",
           "package": "uni-htk",
@@ -35398,6 +38226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Re-)sets the image of a tree list object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "setImage",
           "package": "uni-htk",
@@ -35407,6 +38236,7 @@
         "index": {
           "description": "Re sets the image of tree list object",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "setImage",
           "normalized": "TreeList a-\u003ea-\u003eImage-\u003eIO()",
@@ -35423,6 +38253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Re-)sets the name of a tree list object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "setTreeListObjectName",
           "package": "uni-htk",
@@ -35432,6 +38263,7 @@
         "index": {
           "description": "Re sets the name of tree list object",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "setTreeListObjectName",
           "normalized": "TreeList a-\u003ea-\u003eName-\u003eIO()",
@@ -35448,6 +38280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates the tree list by recalling the children function for all opened\n objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toolkit.TreeList",
           "name": "updateTreeList",
           "package": "uni-htk",
@@ -35457,6 +38290,7 @@
         "index": {
           "description": "Updates the tree list by recalling the children function for all opened objects",
           "hierarchy": "HTk Toolkit TreeList",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toolkit.TreeList",
           "name": "updateTreeList",
           "normalized": "TreeList a-\u003eIO()",
@@ -35472,6 +38306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "HTk",
           "package": "uni-htk",
@@ -35480,6 +38315,7 @@
         },
         "index": {
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "HTk",
           "package": "uni-htk",
@@ -35493,6 +38329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "Destroyable",
           "package": "uni-htk",
@@ -35500,6 +38337,7 @@
         },
         "index": {
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "Destroyable",
           "package": "uni-htk",
@@ -35513,6 +38351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "Destructible",
           "package": "uni-htk",
@@ -35520,6 +38359,7 @@
         },
         "index": {
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "Destructible",
           "package": "uni-htk",
@@ -35534,6 +38374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eHTk\u003c/code\u003e datatype - a handle for the wish instance and\n the main window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "HTk",
           "package": "uni-htk",
@@ -35543,6 +38384,7 @@
         "index": {
           "description": "The HTk datatype handle for the wish instance and the main window",
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "HTk",
           "package": "uni-htk",
@@ -35556,6 +38398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "HasCommand",
           "package": "uni-htk",
@@ -35564,6 +38407,7 @@
         },
         "index": {
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "HasCommand",
           "package": "uni-htk",
@@ -35577,6 +38421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "KeySym",
           "package": "uni-htk",
@@ -35585,6 +38430,7 @@
         },
         "index": {
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "KeySym",
           "package": "uni-htk",
@@ -35598,6 +38444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "WishEvent",
           "package": "uni-htk",
@@ -35606,6 +38453,7 @@
         },
         "index": {
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "WishEvent",
           "package": "uni-htk",
@@ -35619,6 +38467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "WishEventModifier",
           "package": "uni-htk",
@@ -35627,6 +38476,7 @@
         },
         "index": {
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "WishEventModifier",
           "package": "uni-htk",
@@ -35640,6 +38490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "WishEventType",
           "package": "uni-htk",
@@ -35648,6 +38499,7 @@
         },
         "index": {
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "WishEventType",
           "package": "uni-htk",
@@ -35661,6 +38513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "clicked",
           "package": "uni-htk",
@@ -35670,6 +38523,7 @@
         },
         "index": {
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "clicked",
           "normalized": "a-\u003eIO(Event())",
@@ -35685,6 +38539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestroys an object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "destroy",
           "package": "uni-htk",
@@ -35694,6 +38549,7 @@
         "index": {
           "description": "Destroys an object",
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "destroy",
           "normalized": "a-\u003eIO()",
@@ -35709,6 +38565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn event which occurs when the object is destroyed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "destroyed",
           "package": "uni-htk",
@@ -35718,6 +38575,7 @@
         "index": {
           "description": "An event which occurs when the object is destroyed",
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "destroyed",
           "normalized": "a-\u003eEvent()",
@@ -35732,6 +38590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "finishHTk",
           "package": "uni-htk",
@@ -35741,6 +38600,7 @@
         },
         "index": {
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "finishHTk",
           "normalized": "IO()",
@@ -35756,6 +38616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "getHTk",
           "package": "uni-htk",
@@ -35765,6 +38626,7 @@
         },
         "index": {
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "getHTk",
           "package": "uni-htk",
@@ -35779,6 +38641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializes HTk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "initHTk",
           "package": "uni-htk",
@@ -35788,6 +38651,7 @@
         "index": {
           "description": "Initializes HTk",
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "initHTk",
           "normalized": "[Config HTk]-\u003eIO HTk",
@@ -35803,6 +38667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "resourceFile",
           "package": "uni-htk",
@@ -35812,6 +38677,7 @@
         },
         "index": {
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "resourceFile",
           "normalized": "String-\u003eConfig HTk",
@@ -35828,6 +38694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates all tasks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "updateAllTasks",
           "package": "uni-htk",
@@ -35838,6 +38705,7 @@
         "index": {
           "description": "Updates all tasks",
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "updateAllTasks",
           "normalized": "IO()",
@@ -35854,6 +38722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates idle tasks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "updateIdleTasks",
           "package": "uni-htk",
@@ -35864,6 +38733,7 @@
         "index": {
           "description": "Updates idle tasks",
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "updateIdleTasks",
           "normalized": "IO()",
@@ -35880,6 +38750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWithdraws the main window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "withdrawMainWin",
           "package": "uni-htk",
@@ -35890,6 +38761,7 @@
         "index": {
           "description": "Withdraws the main window",
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "withdrawMainWin",
           "package": "uni-htk",
@@ -35903,6 +38775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Toplevel.HTk",
           "name": "withdrawWish",
           "package": "uni-htk",
@@ -35912,6 +38785,7 @@
         },
         "index": {
           "hierarchy": "HTk Toplevel HTk",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Toplevel.HTk",
           "name": "withdrawWish",
           "normalized": "IO()",
@@ -35928,6 +38802,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003ebutton widget\u003c/em\u003e.\n A simple click button.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Button",
           "name": "Button",
           "package": "uni-htk",
@@ -35937,6 +38812,7 @@
         "index": {
           "description": "HTk button widget simple click button",
           "hierarchy": "HTk Widgets Button",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Button",
           "name": "Button",
           "package": "uni-htk",
@@ -35951,6 +38827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eButton\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Button",
           "name": "Button",
           "package": "uni-htk",
@@ -35960,6 +38837,7 @@
         "index": {
           "description": "The Button datatype",
           "hierarchy": "HTk Widgets Button",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Button",
           "name": "Button",
           "package": "uni-htk",
@@ -35974,6 +38852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new button widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Button",
           "name": "newButton",
           "package": "uni-htk",
@@ -35983,6 +38862,7 @@
         "index": {
           "description": "Constructs new button widget and returns handler",
           "hierarchy": "HTk Widgets Button",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Button",
           "name": "newButton",
           "normalized": "a-\u003e[Config Button]-\u003eIO Button",
@@ -35999,6 +38879,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003ca\u003estrong\u003c/a\u003ecanvas widget\u003ca\u003e/strong\u003c/a\u003e.\u003ca\u003ebr\u003c/a\u003e\n A canvas is a drawing pad, that can also contain widgets in embedded\n windows.\u003ca\u003ebr\u003c/a\u003e\n A canvas widget contains \u003ca\u003estrong\u003c/a\u003ecanvas items\u003ca\u003e/strong\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Canvas",
           "name": "Canvas",
           "package": "uni-htk",
@@ -36008,6 +38889,7 @@
         "index": {
           "description": "HTk strong canvas widget strong br canvas is drawing pad that can also contain widgets in embedded windows br canvas widget contains strong canvas items strong",
           "hierarchy": "HTk Widgets Canvas",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Canvas",
           "name": "Canvas",
           "package": "uni-htk",
@@ -36022,6 +38904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCanvas\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Canvas",
           "name": "Canvas",
           "package": "uni-htk",
@@ -36031,6 +38914,7 @@
         "index": {
           "description": "The Canvas datatype",
           "hierarchy": "HTk Widgets Canvas",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Canvas",
           "name": "Canvas",
           "package": "uni-htk",
@@ -36045,6 +38929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eScrollRegion\u003c/code\u003e datatype (scrollable region of the canvas\n widget).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Canvas",
           "name": "ScrollRegion",
           "package": "uni-htk",
@@ -36054,6 +38939,7 @@
         "index": {
           "description": "The ScrollRegion datatype scrollable region of the canvas widget",
           "hierarchy": "HTk Widgets Canvas",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Canvas",
           "name": "ScrollRegion",
           "package": "uni-htk",
@@ -36068,6 +38954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the maximum distance from the mouse to an overlapped object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Canvas",
           "name": "closeEnough",
           "package": "uni-htk",
@@ -36077,6 +38964,7 @@
         "index": {
           "description": "Sets the maximum distance from the mouse to an overlapped object",
           "hierarchy": "HTk Widgets Canvas",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Canvas",
           "name": "closeEnough",
           "normalized": "Double-\u003eCanvas-\u003eIO Canvas",
@@ -36093,6 +38981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTrue\u003c/code\u003e constraints view to the scroll region.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Canvas",
           "name": "confine",
           "package": "uni-htk",
@@ -36102,6 +38991,7 @@
         "index": {
           "description": "True constraints view to the scroll region",
           "hierarchy": "HTk Widgets Canvas",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Canvas",
           "name": "confine",
           "normalized": "Bool-\u003eCanvas-\u003eIO Canvas",
@@ -36117,6 +39007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelector for the maximum distance from the mouse to an overlapped\n object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Canvas",
           "name": "getCloseEnough",
           "package": "uni-htk",
@@ -36126,6 +39017,7 @@
         "index": {
           "description": "Selector for the maximum distance from the mouse to an overlapped object",
           "hierarchy": "HTk Widgets Canvas",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Canvas",
           "name": "getCloseEnough",
           "normalized": "Canvas-\u003eIO Double",
@@ -36142,6 +39034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelector for the \u003ccode\u003econfine\u003c/code\u003e configuration, constraints view\n to the scroll region if \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Canvas",
           "name": "getConfine",
           "package": "uni-htk",
@@ -36151,6 +39044,7 @@
         "index": {
           "description": "Selector for the confine configuration constraints view to the scroll region if True",
           "hierarchy": "HTk Widgets Canvas",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Canvas",
           "name": "getConfine",
           "normalized": "Canvas-\u003eIO Bool",
@@ -36167,6 +39061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the applied scroll region from a canvas widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Canvas",
           "name": "getScrollRegion",
           "package": "uni-htk",
@@ -36176,6 +39071,7 @@
         "index": {
           "description": "Gets the applied scroll region from canvas widget",
           "hierarchy": "HTk Widgets Canvas",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Canvas",
           "name": "getScrollRegion",
           "normalized": "Canvas-\u003eIO ScrollRegion",
@@ -36192,6 +39088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new canvas widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Canvas",
           "name": "newCanvas",
           "package": "uni-htk",
@@ -36201,6 +39098,7 @@
         "index": {
           "description": "Constructs new canvas widget and returns handler",
           "hierarchy": "HTk Widgets Canvas",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Canvas",
           "name": "newCanvas",
           "normalized": "a-\u003e[Config Canvas]-\u003eIO Canvas",
@@ -36217,6 +39115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps from screen X or Y coordinates (orientation parameter) to the\n corresponding coordinates in canvas space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Canvas",
           "name": "screenToCanvasCoord",
           "package": "uni-htk",
@@ -36226,6 +39125,7 @@
         "index": {
           "description": "Maps from screen or coordinates orientation parameter to the corresponding coordinates in canvas space",
           "hierarchy": "HTk Widgets Canvas",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Canvas",
           "name": "screenToCanvasCoord",
           "normalized": "Canvas-\u003eOrientation-\u003eDistance-\u003eMaybe Distance-\u003eIO Distance",
@@ -36242,6 +39142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the distance for one scrolling unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Canvas",
           "name": "scrollIncrement",
           "package": "uni-htk",
@@ -36251,6 +39152,7 @@
         "index": {
           "description": "Sets the distance for one scrolling unit",
           "hierarchy": "HTk Widgets Canvas",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Canvas",
           "name": "scrollIncrement",
           "normalized": "Orientation-\u003eDistance-\u003eCanvas-\u003eIO Canvas",
@@ -36267,6 +39169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the scrollable region for a canvas widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Canvas",
           "name": "scrollRegion",
           "package": "uni-htk",
@@ -36276,6 +39179,7 @@
         "index": {
           "description": "Sets the scrollable region for canvas widget",
           "hierarchy": "HTk Widgets Canvas",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Canvas",
           "name": "scrollRegion",
           "normalized": "ScrollRegion-\u003eCanvas-\u003eIO Canvas",
@@ -36292,6 +39196,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003echeckbutton\u003c/em\u003e widget.\n A simple checkbutton associated with a polymorphic variable.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.CheckButton",
           "name": "CheckButton",
           "package": "uni-htk",
@@ -36301,6 +39206,7 @@
         "index": {
           "description": "HTk checkbutton widget simple checkbutton associated with polymorphic variable",
           "hierarchy": "HTk Widgets CheckButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.CheckButton",
           "name": "CheckButton",
           "package": "uni-htk",
@@ -36315,6 +39221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCheckButton\u003c/code\u003e datatpe - it is associated with a\n polymorphic \u003ccode\u003eTkVariable\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.CheckButton",
           "name": "CheckButton",
           "package": "uni-htk",
@@ -36324,6 +39231,7 @@
         "index": {
           "description": "The CheckButton datatpe it is associated with polymorphic TkVariable",
           "hierarchy": "HTk Widgets CheckButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.CheckButton",
           "name": "CheckButton",
           "package": "uni-htk",
@@ -36338,6 +39246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new checkbutton widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.CheckButton",
           "name": "newCheckButton",
           "package": "uni-htk",
@@ -36347,6 +39256,7 @@
         "index": {
           "description": "Constructs new checkbutton widget and returns handler",
           "hierarchy": "HTk Widgets CheckButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.CheckButton",
           "name": "newCheckButton",
           "normalized": "a-\u003e[Config(CheckButton b)]-\u003eIO(CheckButton b)",
@@ -36363,6 +39273,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003eComboBox\u003c/em\u003e.\n Only available when using tixwish.  However this module needs to go\n in the uni-htk-widgets package because it depends on it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ComboBox",
           "name": "ComboBox",
           "package": "uni-htk",
@@ -36372,6 +39283,7 @@
         "index": {
           "description": "HTk ComboBox Only available when using tixwish However this module needs to go in the uni-htk-widgets package because it depends on it",
           "hierarchy": "HTk Widgets ComboBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ComboBox",
           "name": "ComboBox",
           "package": "uni-htk",
@@ -36386,6 +39298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eComboBox\u003c/code\u003e datatype.\n A ComboBox is a so called mega widget composed of an entry widget\n and a list box. Both subwidgets are accessible by themselves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ComboBox",
           "name": "ComboBox",
           "package": "uni-htk",
@@ -36395,6 +39308,7 @@
         "index": {
           "description": "The ComboBox datatype ComboBox is so called mega widget composed of an entry widget and list box Both subwidgets are accessible by themselves",
           "hierarchy": "HTk Widgets ComboBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ComboBox",
           "name": "ComboBox",
           "package": "uni-htk",
@@ -36409,6 +39323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the entry subwidget of a combo box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ComboBox",
           "name": "entrySubwidget",
           "package": "uni-htk",
@@ -36419,6 +39334,7 @@
         "index": {
           "description": "Retrieve the entry subwidget of combo box",
           "hierarchy": "HTk Widgets ComboBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ComboBox",
           "name": "entrySubwidget",
           "normalized": "ComboBox a-\u003eEntry a",
@@ -36435,6 +39351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the list box subwidget of a combo box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ComboBox",
           "name": "listBoxSubwidget",
           "package": "uni-htk",
@@ -36445,6 +39362,7 @@
         "index": {
           "description": "Retrieve the list box subwidget of combo box",
           "hierarchy": "HTk Widgets ComboBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ComboBox",
           "name": "listBoxSubwidget",
           "normalized": "ComboBox a-\u003eListBox a",
@@ -36461,6 +39379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new combo box and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ComboBox",
           "name": "newComboBox",
           "package": "uni-htk",
@@ -36470,6 +39389,7 @@
         "index": {
           "description": "Constructs new combo box and returns handler",
           "hierarchy": "HTk Widgets ComboBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ComboBox",
           "name": "newComboBox",
           "normalized": "a-\u003eBool-\u003e[Config(ComboBox b)]-\u003eIO(ComboBox b)",
@@ -36486,6 +39406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the index item in the listbox to be the current value of the\n ComboBox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ComboBox",
           "name": "pick",
           "package": "uni-htk",
@@ -36496,6 +39417,7 @@
         "index": {
           "description": "Sets the index item in the listbox to be the current value of the ComboBox",
           "hierarchy": "HTk Widgets ComboBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ComboBox",
           "name": "pick",
           "normalized": "Int-\u003eConfig(ComboBox a)",
@@ -36511,6 +39433,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003eeditor widget\u003c/em\u003e.\n A text container for editing purposes. An editor widget can contain\n text tags, to which you can bind events, and also embedded windows.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "Editor",
           "package": "uni-htk",
@@ -36520,6 +39443,7 @@
         "index": {
           "description": "HTk editor widget text container for editing purposes An editor widget can contain text tags to which you can bind events and also embedded windows",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "Editor",
           "package": "uni-htk",
@@ -36534,6 +39458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eEditor\u003c/code\u003e datatpe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "Editor",
           "package": "uni-htk",
@@ -36543,6 +39468,7 @@
         "index": {
           "description": "The Editor datatpe",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "Editor",
           "package": "uni-htk",
@@ -36557,6 +39483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets with an adjustable line spacing instantiate the\n \u003ccode\u003eclass HasLineSpacing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "HasLineSpacing",
           "package": "uni-htk",
@@ -36566,6 +39493,7 @@
         "index": {
           "description": "Widgets with an adjustable line spacing instantiate the class HasLineSpacing",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "HasLineSpacing",
           "package": "uni-htk",
@@ -36580,6 +39508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets with adjustable tab stops instantiate the\n \u003ccode\u003eclass HasTabulators\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "HasTabulators",
           "package": "uni-htk",
@@ -36589,6 +39518,7 @@
         "index": {
           "description": "Widgets with adjustable tab stops instantiate the class HasTabulators",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "HasTabulators",
           "package": "uni-htk",
@@ -36603,6 +39533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eIndexModifier\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "IndexModifier",
           "package": "uni-htk",
@@ -36612,6 +39543,7 @@
         "index": {
           "description": "The IndexModifier datatype",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "IndexModifier",
           "package": "uni-htk",
@@ -36626,6 +39558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eIndexModifiers\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "IndexModifiers",
           "package": "uni-htk",
@@ -36635,6 +39568,7 @@
         "index": {
           "description": "The IndexModifiers datatype",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "IndexModifiers",
           "package": "uni-htk",
@@ -36649,6 +39583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSearchDirection\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "SearchDirection",
           "package": "uni-htk",
@@ -36658,6 +39593,7 @@
         "index": {
           "description": "The SearchDirection datatype",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "SearchDirection",
           "package": "uni-htk",
@@ -36672,6 +39608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSearchMode\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "SearchMode",
           "package": "uni-htk",
@@ -36681,6 +39618,7 @@
         "index": {
           "description": "The SearchMode datatype",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "SearchMode",
           "package": "uni-htk",
@@ -36695,6 +39633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSearchSwitch\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "SearchSwitch",
           "package": "uni-htk",
@@ -36704,6 +39643,7 @@
         "index": {
           "description": "The SearchSwitch datatype",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "SearchSwitch",
           "package": "uni-htk",
@@ -36718,6 +39658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eWrapMode\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "WrapMode",
           "package": "uni-htk",
@@ -36727,6 +39668,7 @@
         "index": {
           "description": "The WrapMode datatype",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "WrapMode",
           "package": "uni-htk",
@@ -36740,6 +39682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "Backward",
           "package": "uni-htk",
@@ -36749,6 +39692,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "Backward",
           "package": "uni-htk",
@@ -36762,6 +39706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "BackwardChars",
           "package": "uni-htk",
@@ -36771,6 +39716,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "BackwardChars",
           "package": "uni-htk",
@@ -36784,6 +39730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "BackwardLines",
           "package": "uni-htk",
@@ -36793,6 +39740,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "BackwardLines",
           "package": "uni-htk",
@@ -36806,6 +39754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "CharWrap",
           "package": "uni-htk",
@@ -36815,6 +39764,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "CharWrap",
           "package": "uni-htk",
@@ -36828,6 +39778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "Exact",
           "package": "uni-htk",
@@ -36837,6 +39788,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "Exact",
           "package": "uni-htk",
@@ -36850,6 +39802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "Forward",
           "package": "uni-htk",
@@ -36859,6 +39812,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "Forward",
           "package": "uni-htk",
@@ -36872,6 +39826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "ForwardChars",
           "package": "uni-htk",
@@ -36881,6 +39836,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "ForwardChars",
           "package": "uni-htk",
@@ -36894,6 +39850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "ForwardLines",
           "package": "uni-htk",
@@ -36903,6 +39860,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "ForwardLines",
           "package": "uni-htk",
@@ -36916,6 +39874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "IndexModifiers",
           "package": "uni-htk",
@@ -36925,6 +39884,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "IndexModifiers",
           "normalized": "IndexModifiers[IndexModifier]",
@@ -36940,6 +39900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "LineEnd",
           "package": "uni-htk",
@@ -36949,6 +39910,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "LineEnd",
           "package": "uni-htk",
@@ -36962,6 +39924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "LineStart",
           "package": "uni-htk",
@@ -36971,6 +39934,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "LineStart",
           "package": "uni-htk",
@@ -36984,6 +39948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "NoWrap",
           "package": "uni-htk",
@@ -36993,6 +39958,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "NoWrap",
           "package": "uni-htk",
@@ -37006,6 +39972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "Nocase",
           "package": "uni-htk",
@@ -37015,6 +39982,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "Nocase",
           "package": "uni-htk",
@@ -37028,6 +39996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "SearchSwitch",
           "package": "uni-htk",
@@ -37037,6 +40006,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "SearchSwitch",
           "package": "uni-htk",
@@ -37050,6 +40020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "WordEnd",
           "package": "uni-htk",
@@ -37059,6 +40030,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "WordEnd",
           "package": "uni-htk",
@@ -37072,6 +40044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "WordStart",
           "package": "uni-htk",
@@ -37081,6 +40054,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "WordStart",
           "package": "uni-htk",
@@ -37094,6 +40068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "WordWrap",
           "package": "uni-htk",
@@ -37103,6 +40078,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "WordWrap",
           "package": "uni-htk",
@@ -37117,6 +40093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjusts the view so that the character at the specified position is\n visible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "adjustViewTo",
           "package": "uni-htk",
@@ -37126,6 +40103,7 @@
         "index": {
           "description": "Adjusts the view so that the character at the specified position is visible",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "adjustViewTo",
           "normalized": "Editor-\u003ea-\u003eIO()",
@@ -37142,6 +40120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends text at the end of the editor widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "appendText",
           "package": "uni-htk",
@@ -37151,6 +40130,7 @@
         "index": {
           "description": "Appends text at the end of the editor widget",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "appendText",
           "normalized": "Editor-\u003eString-\u003eIO()",
@@ -37167,6 +40147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompares two indizes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "compareIndices",
           "package": "uni-htk",
@@ -37176,6 +40157,7 @@
         "index": {
           "description": "Compares two indizes",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "compareIndices",
           "normalized": "Editor-\u003eString-\u003ea-\u003ea-\u003eIO Bool",
@@ -37192,6 +40174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes the character at the specified index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "deleteText",
           "package": "uni-htk",
@@ -37201,6 +40184,7 @@
         "index": {
           "description": "Deletes the character at the specified index",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "deleteText",
           "normalized": "Editor-\u003ea-\u003eIO()",
@@ -37217,6 +40201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes the text in the specified range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "deleteTextRange",
           "package": "uni-htk",
@@ -37226,6 +40211,7 @@
         "index": {
           "description": "Deletes the text in the specified range",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "deleteTextRange",
           "normalized": "Editor-\u003ea-\u003ea-\u003eIO()",
@@ -37242,6 +40228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the position on the text widget for a given index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "getIndexPosition",
           "package": "uni-htk",
@@ -37251,6 +40238,7 @@
         "index": {
           "description": "Returns the position on the text widget for given index",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "getIndexPosition",
           "normalized": "Editor-\u003ea-\u003eIO Position",
@@ -37266,6 +40254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "getSpaceAbove",
           "package": "uni-htk",
@@ -37275,6 +40264,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "getSpaceAbove",
           "normalized": "a-\u003eIO Distance",
@@ -37290,6 +40280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "getSpaceBelow",
           "package": "uni-htk",
@@ -37299,6 +40290,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "getSpaceBelow",
           "normalized": "a-\u003eIO Distance",
@@ -37314,6 +40306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "getSpaceWrap",
           "package": "uni-htk",
@@ -37323,6 +40316,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "getSpaceWrap",
           "normalized": "a-\u003eIO Distance",
@@ -37338,6 +40332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "getTabs",
           "package": "uni-htk",
@@ -37347,6 +40342,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "getTabs",
           "normalized": "a-\u003eIO String",
@@ -37363,6 +40359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a text line from an editor widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "getTextLine",
           "package": "uni-htk",
@@ -37372,6 +40369,7 @@
         "index": {
           "description": "Gets text line from an editor widget",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "getTextLine",
           "normalized": "Editor-\u003ea-\u003eIO String",
@@ -37388,6 +40386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the text in the specified range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "getTextRange",
           "package": "uni-htk",
@@ -37397,6 +40396,7 @@
         "index": {
           "description": "Gets the text in the specified range",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "getTextRange",
           "normalized": "Editor-\u003ea-\u003ea-\u003eIO String",
@@ -37413,6 +40413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the editor's wrap mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "getWrapMode",
           "package": "uni-htk",
@@ -37423,6 +40424,7 @@
         "index": {
           "description": "Gets the editor wrap mode",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "getWrapMode",
           "normalized": "Editor-\u003eIO WrapMode",
@@ -37439,6 +40441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts a newline character at the end of the editor widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "insertNewline",
           "package": "uni-htk",
@@ -37448,6 +40451,7 @@
         "index": {
           "description": "Inserts newline character at the end of the editor widget",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "insertNewline",
           "normalized": "Editor-\u003eIO()",
@@ -37464,6 +40468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts the given text at the specified index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "insertText",
           "package": "uni-htk",
@@ -37473,6 +40478,7 @@
         "index": {
           "description": "Inserts the given text at the specified index",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "insertText",
           "normalized": "Editor-\u003ea-\u003eb-\u003eIO()",
@@ -37489,6 +40495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new editor widget and returns it as a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "newEditor",
           "package": "uni-htk",
@@ -37498,6 +40505,7 @@
         "index": {
           "description": "Constructs new editor widget and returns it as value",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "newEditor",
           "normalized": "a-\u003e[Config Editor]-\u003eIO Editor",
@@ -37514,6 +40522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a text from a file and inserts it into the editor pane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "readTextFromFile",
           "package": "uni-htk",
@@ -37523,6 +40532,7 @@
         "index": {
           "description": "Reads text from file and inserts it into the editor pane",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "readTextFromFile",
           "normalized": "Editor-\u003eFilePath-\u003eIO()",
@@ -37538,6 +40548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "rexexp",
           "package": "uni-htk",
@@ -37547,6 +40558,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "rexexp",
           "package": "uni-htk",
@@ -37560,6 +40572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScroll based on a new position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "scanDragTo",
           "package": "uni-htk",
@@ -37569,6 +40582,7 @@
         "index": {
           "description": "Scroll based on new position",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "scanDragTo",
           "normalized": "Editor-\u003ea-\u003eIO()",
@@ -37585,6 +40599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnchor a scrolling operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "scanMark",
           "package": "uni-htk",
@@ -37594,6 +40609,7 @@
         "index": {
           "description": "Anchor scrolling operation",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "scanMark",
           "normalized": "Editor-\u003ea-\u003eIO()",
@@ -37610,6 +40626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches for text inside an editor widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "search",
           "package": "uni-htk",
@@ -37619,6 +40636,7 @@
         "index": {
           "description": "Searches for text inside an editor widget",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "search",
           "normalized": "Editor-\u003eSearchSwitch-\u003eString-\u003ea-\u003eIO(Maybe BaseIndex)",
@@ -37633,6 +40651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "searchdirection",
           "package": "uni-htk",
@@ -37642,6 +40661,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "searchdirection",
           "package": "uni-htk",
@@ -37654,6 +40674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "searchmode",
           "package": "uni-htk",
@@ -37663,6 +40684,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "searchmode",
           "package": "uni-htk",
@@ -37675,6 +40697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "spaceAbove",
           "package": "uni-htk",
@@ -37684,6 +40707,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "spaceAbove",
           "normalized": "Distance-\u003eConfig a",
@@ -37699,6 +40723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "spaceBelow",
           "package": "uni-htk",
@@ -37708,6 +40733,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "spaceBelow",
           "normalized": "Distance-\u003eConfig a",
@@ -37723,6 +40749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "spaceWrap",
           "package": "uni-htk",
@@ -37732,6 +40759,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "spaceWrap",
           "normalized": "Distance-\u003eConfig a",
@@ -37747,6 +40775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "tabs",
           "package": "uni-htk",
@@ -37756,6 +40785,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "tabs",
           "normalized": "String-\u003eConfig a",
@@ -37771,6 +40801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the editor's wrap mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "wrap",
           "package": "uni-htk",
@@ -37781,6 +40812,7 @@
         "index": {
           "description": "Sets the editor wrap mode",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "wrap",
           "normalized": "WrapMode-\u003eConfig Editor",
@@ -37796,6 +40828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites the contained text to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Editor",
           "name": "writeTextToFile",
           "package": "uni-htk",
@@ -37805,6 +40838,7 @@
         "index": {
           "description": "Writes the contained text to file",
           "hierarchy": "HTk Widgets Editor",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Editor",
           "name": "writeTextToFile",
           "normalized": "Editor-\u003eFilePath-\u003eIO()",
@@ -37821,6 +40855,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003ca\u003estrong\u003c/a\u003eentry field\u003ca\u003e/strong\u003c/a\u003e.\u003ca\u003ebr\u003c/a\u003e\n A simple widget that displays an editable line of text.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Entry",
           "name": "Entry",
           "package": "uni-htk",
@@ -37830,6 +40865,7 @@
         "index": {
           "description": "HTk strong entry field strong br simple widget that displays an editable line of text",
           "hierarchy": "HTk Widgets Entry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Entry",
           "name": "Entry",
           "package": "uni-htk",
@@ -37844,6 +40880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eEntry\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Entry",
           "name": "Entry",
           "package": "uni-htk",
@@ -37853,6 +40890,7 @@
         "index": {
           "description": "The Entry datatype",
           "hierarchy": "HTk Widgets Entry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Entry",
           "name": "Entry",
           "package": "uni-htk",
@@ -37867,6 +40905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eXCoord\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Entry",
           "name": "XCoord",
           "package": "uni-htk",
@@ -37876,6 +40915,7 @@
         "index": {
           "description": "The XCoord datatype",
           "hierarchy": "HTk Widgets Entry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Entry",
           "name": "XCoord",
           "package": "uni-htk",
@@ -37889,6 +40929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Entry",
           "name": "XCoord",
           "package": "uni-htk",
@@ -37898,6 +40939,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Entry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Entry",
           "name": "XCoord",
           "package": "uni-htk",
@@ -37912,6 +40954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the character to show instead of contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Entry",
           "name": "getShowText",
           "package": "uni-htk",
@@ -37922,6 +40965,7 @@
         "index": {
           "description": "Gets the character to show instead of contents",
           "hierarchy": "HTk Widgets Entry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Entry",
           "name": "getShowText",
           "normalized": "Entry a-\u003eIO Char",
@@ -37938,6 +40982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new entry field and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Entry",
           "name": "newEntry",
           "package": "uni-htk",
@@ -37947,6 +40992,7 @@
         "index": {
           "description": "Constructs new entry field and returns handler",
           "hierarchy": "HTk Widgets Entry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Entry",
           "name": "newEntry",
           "normalized": "a-\u003e[Config(Entry b)]-\u003eIO(Entry b)",
@@ -37963,6 +41009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a character to display instead of contents (e.g. for password\n fields).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Entry",
           "name": "showText",
           "package": "uni-htk",
@@ -37972,6 +41019,7 @@
         "index": {
           "description": "Sets character to display instead of contents e.g for password fields",
           "hierarchy": "HTk Widgets Entry",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Entry",
           "name": "showText",
           "normalized": "Char-\u003eEntry a-\u003eIO(Entry a)",
@@ -37988,6 +41036,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003elabel\u003c/em\u003e widget.\n A label is a simple container for text or images/bitmaps.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Label",
           "name": "Label",
           "package": "uni-htk",
@@ -37997,6 +41046,7 @@
         "index": {
           "description": "HTk label widget label is simple container for text or images bitmaps",
           "hierarchy": "HTk Widgets Label",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Label",
           "name": "Label",
           "package": "uni-htk",
@@ -38011,6 +41061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eLabel\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Label",
           "name": "Label",
           "package": "uni-htk",
@@ -38020,6 +41071,7 @@
         "index": {
           "description": "The Label datatype",
           "hierarchy": "HTk Widgets Label",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Label",
           "name": "Label",
           "package": "uni-htk",
@@ -38034,6 +41086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new label widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Label",
           "name": "newLabel",
           "package": "uni-htk",
@@ -38043,6 +41096,7 @@
         "index": {
           "description": "Constructs new label widget and returns handler",
           "hierarchy": "HTk Widgets Label",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Label",
           "name": "newLabel",
           "normalized": "a-\u003e[Config Label]-\u003eIO Label",
@@ -38059,6 +41113,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003elistbox widget\u003c/em\u003e .\n A scrollable widget that displays a set of text lines with selection\n functionality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "ListBox",
           "package": "uni-htk",
@@ -38068,6 +41123,7 @@
         "index": {
           "description": "HTk listbox widget scrollable widget that displays set of text lines with selection functionality",
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "ListBox",
           "package": "uni-htk",
@@ -38082,6 +41138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eListBox\u003c/code\u003e datatype - parametrised over the type of\n the list elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "ListBox",
           "package": "uni-htk",
@@ -38091,6 +41148,7 @@
         "index": {
           "description": "The ListBox datatype parametrised over the type of the list elements",
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "ListBox",
           "package": "uni-htk",
@@ -38105,6 +41163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eListBoxElem\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "ListBoxElem",
           "package": "uni-htk",
@@ -38114,6 +41173,7 @@
         "index": {
           "description": "The ListBoxElem datatype",
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "ListBoxElem",
           "package": "uni-htk",
@@ -38127,6 +41187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "SelectMode",
           "package": "uni-htk",
@@ -38135,6 +41196,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "SelectMode",
           "package": "uni-htk",
@@ -38148,6 +41210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "Browse",
           "package": "uni-htk",
@@ -38157,6 +41220,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "Browse",
           "package": "uni-htk",
@@ -38170,6 +41234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "Extended",
           "package": "uni-htk",
@@ -38179,6 +41244,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "Extended",
           "package": "uni-htk",
@@ -38192,6 +41258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "ListBoxElem",
           "package": "uni-htk",
@@ -38201,6 +41268,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "ListBoxElem",
           "package": "uni-htk",
@@ -38214,6 +41282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "Multiple",
           "package": "uni-htk",
@@ -38223,6 +41292,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "Multiple",
           "package": "uni-htk",
@@ -38236,6 +41306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "Single",
           "package": "uni-htk",
@@ -38245,6 +41316,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "Single",
           "package": "uni-htk",
@@ -38259,6 +41331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActivates the specified line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "activateElem",
           "package": "uni-htk",
@@ -38268,6 +41341,7 @@
         "index": {
           "description": "Activates the specified line",
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "activateElem",
           "normalized": "ListBox a-\u003eb-\u003eIO()",
@@ -38283,6 +41357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "elemNotFound",
           "package": "uni-htk",
@@ -38292,6 +41367,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "elemNotFound",
           "package": "uni-htk",
@@ -38306,6 +41382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the set select mode from a listbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "getSelectMode",
           "package": "uni-htk",
@@ -38315,6 +41392,7 @@
         "index": {
           "description": "Gets the set select mode from listbox",
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "getSelectMode",
           "normalized": "ListBox a-\u003eIO SelectMode",
@@ -38331,6 +41409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new listbox widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "newListBox",
           "package": "uni-htk",
@@ -38340,6 +41419,7 @@
         "index": {
           "description": "Constructs new listbox widget and returns handler",
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "newListBox",
           "normalized": "a-\u003e[Config(ListBox b)]-\u003eIO(ListBox b)",
@@ -38356,6 +41436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the select mode of a listbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "selectMode",
           "package": "uni-htk",
@@ -38365,6 +41446,7 @@
         "index": {
           "description": "Sets the select mode of listbox",
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "selectMode",
           "normalized": "SelectMode-\u003eListBox a-\u003eIO(ListBox a)",
@@ -38381,6 +41463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnchors the selection at the specified line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ListBox",
           "name": "selectionAnchor",
           "package": "uni-htk",
@@ -38390,6 +41473,7 @@
         "index": {
           "description": "Anchors the selection at the specified line",
           "hierarchy": "HTk Widgets ListBox",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ListBox",
           "name": "selectionAnchor",
           "normalized": "ListBox a-\u003eb-\u003eIO()",
@@ -38405,6 +41489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.MenuButton",
           "name": "MenuButton",
           "package": "uni-htk",
@@ -38413,6 +41498,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets MenuButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.MenuButton",
           "name": "MenuButton",
           "package": "uni-htk",
@@ -38427,6 +41513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eMenuButton\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.MenuButton",
           "name": "MenuButton",
           "package": "uni-htk",
@@ -38436,6 +41523,7 @@
         "index": {
           "description": "The MenuButton datatype",
           "hierarchy": "HTk Widgets MenuButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.MenuButton",
           "name": "MenuButton",
           "package": "uni-htk",
@@ -38450,6 +41538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new menubutton widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.MenuButton",
           "name": "newMenuButton",
           "package": "uni-htk",
@@ -38459,6 +41548,7 @@
         "index": {
           "description": "Constructs new menubutton widget and returns handler",
           "hierarchy": "HTk Widgets MenuButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.MenuButton",
           "name": "newMenuButton",
           "normalized": "a-\u003e[Config MenuButton]-\u003eIO MenuButton",
@@ -38475,6 +41565,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003ca\u003estrong\u003c/a\u003emessage widget\u003ca\u003e/strong\u003c/a\u003e.\u003ca\u003ebr\u003c/a\u003e\n A message widget is a simple container for text.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Message",
           "name": "Message",
           "package": "uni-htk",
@@ -38484,6 +41575,7 @@
         "index": {
           "description": "HTk strong message widget strong br message widget is simple container for text",
           "hierarchy": "HTk Widgets Message",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Message",
           "name": "Message",
           "package": "uni-htk",
@@ -38498,6 +41590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eMessage\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Message",
           "name": "Message",
           "package": "uni-htk",
@@ -38507,6 +41600,7 @@
         "index": {
           "description": "The Message datatype",
           "hierarchy": "HTk Widgets Message",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Message",
           "name": "Message",
           "package": "uni-htk",
@@ -38521,6 +41615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the aspect of a message widget (100 * width / height).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Message",
           "name": "aspect",
           "package": "uni-htk",
@@ -38531,6 +41626,7 @@
         "index": {
           "description": "Sets the aspect of message widget width height",
           "hierarchy": "HTk Widgets Message",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Message",
           "name": "aspect",
           "normalized": "Int-\u003eConfig Message",
@@ -38546,6 +41642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the aspect froma message widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Message",
           "name": "getAspect",
           "package": "uni-htk",
@@ -38555,6 +41652,7 @@
         "index": {
           "description": "Gets the aspect froma message widget",
           "hierarchy": "HTk Widgets Message",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Message",
           "name": "getAspect",
           "normalized": "Message-\u003eIO Int",
@@ -38571,6 +41669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new message widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Message",
           "name": "newMessage",
           "package": "uni-htk",
@@ -38580,6 +41679,7 @@
         "index": {
           "description": "Constructs new message widget and returns handler",
           "hierarchy": "HTk Widgets Message",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Message",
           "name": "newMessage",
           "normalized": "a-\u003e[Config Message]-\u003eIO Message",
@@ -38596,6 +41696,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003eoption menu\u003c/em\u003e widget.\n A simple clip up menu displaying a set of radiobuttons.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.OptionMenu",
           "name": "OptionMenu",
           "package": "uni-htk",
@@ -38605,6 +41706,7 @@
         "index": {
           "description": "HTk option menu widget simple clip up menu displaying set of radiobuttons",
           "hierarchy": "HTk Widgets OptionMenu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.OptionMenu",
           "name": "OptionMenu",
           "package": "uni-htk",
@@ -38619,6 +41721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eOptionMenu\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.OptionMenu",
           "name": "OptionMenu",
           "package": "uni-htk",
@@ -38628,6 +41731,7 @@
         "index": {
           "description": "The OptionMenu datatype",
           "hierarchy": "HTk Widgets OptionMenu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.OptionMenu",
           "name": "OptionMenu",
           "package": "uni-htk",
@@ -38642,6 +41746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new option menu and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.OptionMenu",
           "name": "newOptionMenu",
           "package": "uni-htk",
@@ -38651,6 +41756,7 @@
         "index": {
           "description": "Constructs new option menu and returns handler",
           "hierarchy": "HTk Widgets OptionMenu",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.OptionMenu",
           "name": "newOptionMenu",
           "normalized": "a-\u003e[b]-\u003e[Config(OptionMenu b)]-\u003eIO(OptionMenu b)",
@@ -38667,6 +41773,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003eradiobutton\u003c/em\u003e widget.\n A simple radiobutton associated with a polymorphic variable.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.RadioButton",
           "name": "RadioButton",
           "package": "uni-htk",
@@ -38676,6 +41783,7 @@
         "index": {
           "description": "HTk radiobutton widget simple radiobutton associated with polymorphic variable",
           "hierarchy": "HTk Widgets RadioButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.RadioButton",
           "name": "RadioButton",
           "package": "uni-htk",
@@ -38690,6 +41798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eRadioButton\u003c/code\u003e datatpe - it is associated with a\n polymorphic \u003ccode\u003eTkVariable\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.RadioButton",
           "name": "RadioButton",
           "package": "uni-htk",
@@ -38699,6 +41808,7 @@
         "index": {
           "description": "The RadioButton datatpe it is associated with polymorphic TkVariable",
           "hierarchy": "HTk Widgets RadioButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.RadioButton",
           "name": "RadioButton",
           "package": "uni-htk",
@@ -38713,6 +41823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new radiobutton widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.RadioButton",
           "name": "newRadioButton",
           "package": "uni-htk",
@@ -38722,6 +41833,7 @@
         "index": {
           "description": "Constructs new radiobutton widget and returns handler",
           "hierarchy": "HTk Widgets RadioButton",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.RadioButton",
           "name": "newRadioButton",
           "normalized": "a-\u003e[Config(RadioButton b)]-\u003eIO(RadioButton b)",
@@ -38738,6 +41850,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003escale\u003c/em\u003e widget.\n A simple slider in a through representing a range of numeric values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "Scale",
           "package": "uni-htk",
@@ -38747,6 +41860,7 @@
         "index": {
           "description": "HTk scale widget simple slider in through representing range of numeric values",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "Scale",
           "package": "uni-htk",
@@ -38761,6 +41875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eScale\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "Scale",
           "package": "uni-htk",
@@ -38770,6 +41885,7 @@
         "index": {
           "description": "The Scale datatype",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "Scale",
           "package": "uni-htk",
@@ -38784,6 +41900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues associated with a scale instansiate the\n \u003ccode\u003eclass ScaleValue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "ScaleValue",
           "package": "uni-htk",
@@ -38793,6 +41910,7 @@
         "index": {
           "description": "Values associated with scale instansiate the class ScaleValue",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "ScaleValue",
           "package": "uni-htk",
@@ -38807,6 +41925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the coarse grain slider adjustment value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "bigIncrement",
           "package": "uni-htk",
@@ -38817,6 +41936,7 @@
         "index": {
           "description": "Sets the coarse grain slider adjustment value",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "bigIncrement",
           "normalized": "a-\u003eConfig(Slider(Scale a))",
@@ -38833,6 +41953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the number of significant values in the scale widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "digits",
           "package": "uni-htk",
@@ -38843,6 +41964,7 @@
         "index": {
           "description": "Sets the number of significant values in the scale widget",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "digits",
           "normalized": "Int-\u003eConfig(Scale a)",
@@ -38857,6 +41979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "fromDouble",
           "package": "uni-htk",
@@ -38866,6 +41989,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "fromDouble",
           "normalized": "Double-\u003ea",
@@ -38882,6 +42006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the coarse grain slider adjustment value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "getBigIncrement",
           "package": "uni-htk",
@@ -38892,6 +42017,7 @@
         "index": {
           "description": "Gets the coarse grain slider adjustment value",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "getBigIncrement",
           "normalized": "Slider(Scale a)-\u003eIO a",
@@ -38908,6 +42034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the number of significant values in the scale widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "getDigits",
           "package": "uni-htk",
@@ -38918,6 +42045,7 @@
         "index": {
           "description": "Gets the number of significant values in the scale widget",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "getDigits",
           "normalized": "Scale a-\u003eIO Int",
@@ -38934,6 +42062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the scale widgets maximum and minumum value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "getInterval",
           "package": "uni-htk",
@@ -38944,6 +42073,7 @@
         "index": {
           "description": "Gets the scale widgets maximum and minumum value",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "getInterval",
           "normalized": "Scale a-\u003eIO(a,a)",
@@ -38960,6 +42090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the minimum value of the scale widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "getIntervalFrom",
           "package": "uni-htk",
@@ -38970,6 +42101,7 @@
         "index": {
           "description": "Gets the minimum value of the scale widget",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "getIntervalFrom",
           "normalized": "Scale a-\u003eIO a",
@@ -38986,6 +42118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the maximum value of the scale widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "getIntervalTo",
           "package": "uni-htk",
@@ -38996,6 +42129,7 @@
         "index": {
           "description": "Gets the maximum value of the scale widget",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "getIntervalTo",
           "normalized": "Scale a-\u003eIO a",
@@ -39012,6 +42146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the current showvalue setting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "getShowValue",
           "package": "uni-htk",
@@ -39022,6 +42157,7 @@
         "index": {
           "description": "Gets the current showvalue setting",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "getShowValue",
           "normalized": "Slider(Scale a)-\u003eIO Toggle",
@@ -39038,6 +42174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the scale widgets maximum and minumum value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "interval",
           "package": "uni-htk",
@@ -39048,6 +42185,7 @@
         "index": {
           "description": "Sets the scale widgets maximum and minumum value",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "interval",
           "normalized": "(a,a)-\u003eConfig(Scale a)",
@@ -39063,6 +42201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the minimum value of the scale widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "intervalFrom",
           "package": "uni-htk",
@@ -39073,6 +42212,7 @@
         "index": {
           "description": "Sets the minimum value of the scale widget",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "intervalFrom",
           "normalized": "a-\u003eConfig(Scale a)",
@@ -39089,6 +42229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the maximum value of the scale widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "intervalTo",
           "package": "uni-htk",
@@ -39099,6 +42240,7 @@
         "index": {
           "description": "Sets the maximum value of the scale widget",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "intervalTo",
           "normalized": "a-\u003eConfig(Scale a)",
@@ -39115,6 +42257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new scale widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "newScale",
           "package": "uni-htk",
@@ -39124,6 +42267,7 @@
         "index": {
           "description": "Constructs new scale widget and returns handler",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "newScale",
           "normalized": "a-\u003e[Config(Scale b)]-\u003eIO(Scale b)",
@@ -39140,6 +42284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows the sliders value when set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "showValue",
           "package": "uni-htk",
@@ -39150,6 +42295,7 @@
         "index": {
           "description": "Shows the sliders value when set",
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "showValue",
           "normalized": "Toggle-\u003eConfig(Slider(Scale a))",
@@ -39165,6 +42311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Scale",
           "name": "toDouble",
           "package": "uni-htk",
@@ -39174,6 +42321,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets Scale",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Scale",
           "name": "toDouble",
           "normalized": "a-\u003eDouble",
@@ -39190,6 +42338,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003escrollbar\u003c/em\u003e widget.\n\u003c/p\u003e\u003cp\u003eA scroll bar is a widget which controls scrolling.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "ScrollBar",
           "package": "uni-htk",
@@ -39199,6 +42348,7 @@
         "index": {
           "description": "HTk scrollbar widget scroll bar is widget which controls scrolling",
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "ScrollBar",
           "package": "uni-htk",
@@ -39213,6 +42363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFractions are floating point values between 0 and 1 representing\n relative positions within the scrolled range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Fraction",
           "package": "uni-htk",
@@ -39222,6 +42373,7 @@
         "index": {
           "description": "Fractions are floating point values between and representing relative positions within the scrolled range",
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Fraction",
           "package": "uni-htk",
@@ -39236,6 +42388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScrollable widgets instantiate \u003ccode\u003eclass HasScroller\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "HasScroller",
           "package": "uni-htk",
@@ -39245,6 +42398,7 @@
         "index": {
           "description": "Scrollable widgets instantiate class HasScroller",
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "HasScroller",
           "package": "uni-htk",
@@ -39259,6 +42413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets with sliders (scale widget, scrollbar) instantiate the\n \u003ccode\u003eclass HasSlider\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "HasSlider",
           "package": "uni-htk",
@@ -39268,6 +42423,7 @@
         "index": {
           "description": "Widgets with sliders scale widget scrollbar instantiate the class HasSlider",
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "HasSlider",
           "package": "uni-htk",
@@ -39282,6 +42438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eScrollBar\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "ScrollBar",
           "package": "uni-htk",
@@ -39291,6 +42448,7 @@
         "index": {
           "description": "The ScrollBar datatype",
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "ScrollBar",
           "package": "uni-htk",
@@ -39305,6 +42463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eScrollBarElem\u003c/code\u003e datatype - representing the elements\n of the scrollbar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "ScrollBarElem",
           "package": "uni-htk",
@@ -39314,6 +42473,7 @@
         "index": {
           "description": "The ScrollBarElem datatype representing the elements of the scrollbar",
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "ScrollBarElem",
           "package": "uni-htk",
@@ -39328,6 +42488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eScrollUnit\u003c/code\u003e datatype - units for scrolling operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "ScrollUnit",
           "package": "uni-htk",
@@ -39337,6 +42498,7 @@
         "index": {
           "description": "The ScrollUnit datatype units for scrolling operations",
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "ScrollUnit",
           "package": "uni-htk",
@@ -39351,6 +42513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSlider\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Slider",
           "package": "uni-htk",
@@ -39360,6 +42523,7 @@
         "index": {
           "description": "The Slider datatype",
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Slider",
           "package": "uni-htk",
@@ -39373,6 +42537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Arrow1",
           "package": "uni-htk",
@@ -39382,6 +42547,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Arrow1",
           "package": "uni-htk",
@@ -39395,6 +42561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Arrow2",
           "package": "uni-htk",
@@ -39404,6 +42571,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Arrow2",
           "package": "uni-htk",
@@ -39417,6 +42585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Pages",
           "package": "uni-htk",
@@ -39426,6 +42595,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Pages",
           "package": "uni-htk",
@@ -39439,6 +42609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "ScrollBarSlider",
           "package": "uni-htk",
@@ -39448,6 +42619,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "ScrollBarSlider",
           "package": "uni-htk",
@@ -39461,6 +42633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Trough1",
           "package": "uni-htk",
@@ -39470,6 +42643,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Trough1",
           "package": "uni-htk",
@@ -39483,6 +42657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Trough2",
           "package": "uni-htk",
@@ -39492,6 +42667,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Trough2",
           "package": "uni-htk",
@@ -39505,6 +42681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Units",
           "package": "uni-htk",
@@ -39514,6 +42691,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "Units",
           "package": "uni-htk",
@@ -39528,6 +42706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the active element (which can be arrow1, arrow2 or slider).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "activateScrollBarElem",
           "package": "uni-htk",
@@ -39537,6 +42716,7 @@
         "index": {
           "description": "Sets the active element which can be arrow1 arrow2 or slider",
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "activateScrollBarElem",
           "normalized": "ScrollBar-\u003eScrollBarElem-\u003eIO()",
@@ -39553,6 +42733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a fraction between 0 and 1 indicating the relative location\n of the given position in the through.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "fraction",
           "package": "uni-htk",
@@ -39562,6 +42743,7 @@
         "index": {
           "description": "Returns fraction between and indicating the relative location of the given position in the through",
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "fraction",
           "normalized": "ScrollBar-\u003ePosition-\u003eIO Fraction",
@@ -39577,6 +42759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the active element (arrow1, arrow2 or slider).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "getActivatedElem",
           "package": "uni-htk",
@@ -39586,6 +42769,7 @@
         "index": {
           "description": "Gets the active element arrow1 arrow2 or slider",
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "getActivatedElem",
           "normalized": "ScrollBar-\u003eIO(Maybe ScrollBarElem)",
@@ -39601,6 +42785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "getRepeatDelay",
           "package": "uni-htk",
@@ -39610,6 +42795,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "getRepeatDelay",
           "normalized": "Slider a-\u003eIO Int",
@@ -39625,6 +42811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "getRepeatInterval",
           "package": "uni-htk",
@@ -39634,6 +42821,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "getRepeatInterval",
           "normalized": "Slider a-\u003eIO Int",
@@ -39650,6 +42838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003eScrollBarElem\u003c/code\u003e to indicate what is under\n the given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "identify",
           "package": "uni-htk",
@@ -39659,6 +42848,7 @@
         "index": {
           "description": "Returns the ScrollBarElem to indicate what is under the given position",
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "identify",
           "normalized": "ScrollBar-\u003ePosition-\u003eIO(Maybe ScrollBarElem)",
@@ -39673,6 +42863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "isWfOrientation",
           "package": "uni-htk",
@@ -39682,6 +42873,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "isWfOrientation",
           "normalized": "a-\u003eOrientation-\u003eBool",
@@ -39697,6 +42889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "moveto",
           "package": "uni-htk",
@@ -39706,6 +42899,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "moveto",
           "normalized": "Orientation-\u003ea-\u003eFraction-\u003eIO()",
@@ -39721,6 +42915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new scrollbar widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "newScrollBar",
           "package": "uni-htk",
@@ -39730,6 +42925,7 @@
         "index": {
           "description": "Constructs new scrollbar widget and returns handler",
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "newScrollBar",
           "normalized": "a-\u003e[Config ScrollBar]-\u003eIO ScrollBar",
@@ -39745,6 +42941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "repeatDelay",
           "package": "uni-htk",
@@ -39754,6 +42951,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "repeatDelay",
           "normalized": "Int-\u003eConfig(Slider a)",
@@ -39769,6 +42967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "repeatInterval",
           "package": "uni-htk",
@@ -39778,6 +42977,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "repeatInterval",
           "normalized": "Int-\u003eConfig(Slider a)",
@@ -39793,6 +42993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "scroll",
           "package": "uni-htk",
@@ -39802,6 +43003,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "scroll",
           "normalized": "Orientation-\u003ea-\u003eInt-\u003eScrollUnit-\u003eIO()",
@@ -39816,6 +43018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "scrollbar",
           "package": "uni-htk",
@@ -39825,6 +43028,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "scrollbar",
           "normalized": "Orientation-\u003eScrollBar-\u003eConfig a",
@@ -39840,6 +43044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the scrollbar parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "setView",
           "package": "uni-htk",
@@ -39849,6 +43054,7 @@
         "index": {
           "description": "Sets the scrollbar parameters",
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "setView",
           "normalized": "ScrollBar-\u003eFraction-\u003eFraction-\u003eIO()",
@@ -39864,6 +43070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.ScrollBar",
           "name": "view",
           "package": "uni-htk",
@@ -39873,6 +43080,7 @@
         },
         "index": {
           "hierarchy": "HTk Widgets ScrollBar",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.ScrollBar",
           "name": "view",
           "normalized": "Orientation-\u003ea-\u003eIO(Fraction,Fraction)",
@@ -39888,6 +43096,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTk's \u003cem\u003espace\u003c/em\u003e widget.\n A simple spacer for special packing purposes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Space",
           "name": "Space",
           "package": "uni-htk",
@@ -39897,6 +43106,7 @@
         "index": {
           "description": "HTk space widget simple spacer for special packing purposes",
           "hierarchy": "HTk Widgets Space",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Space",
           "name": "Space",
           "package": "uni-htk",
@@ -39911,6 +43121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSpace\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Space",
           "name": "Space",
           "package": "uni-htk",
@@ -39920,6 +43131,7 @@
         "index": {
           "description": "The Space datatype",
           "hierarchy": "HTk Widgets Space",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Space",
           "name": "Space",
           "package": "uni-htk",
@@ -39934,6 +43146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new space widget and returns a handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:26 UTC 2014",
           "module": "HTk.Widgets.Space",
           "name": "newSpace",
           "package": "uni-htk",
@@ -39943,6 +43156,7 @@
         "index": {
           "description": "Constructs new space widget and returns handler",
           "hierarchy": "HTk Widgets Space",
+          "indexed": "2014-03-11T20:29:26",
           "module": "HTk.Widgets.Space",
           "name": "newSpace",
           "normalized": "a-\u003eDistance-\u003e[Config Space]-\u003eIO Space",

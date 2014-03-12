@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hPDB"
+        "phrase": "hPDB",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains an enumeration of experimental methods.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.ExperimentalMethods",
           "name": "ExperimentalMethods",
           "package": "hPDB",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains an enumeration of experimental methods",
           "hierarchy": "Bio PDB EventParser ExperimentalMethods",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.ExperimentalMethods",
           "name": "ExperimentalMethods",
           "package": "hPDB",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of experimental methods occuring in the PDB archive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.ExperimentalMethods",
           "name": "ExpMethod",
           "package": "hPDB",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Enumeration of experimental methods occuring in the PDB archive",
           "hierarchy": "Bio PDB EventParser ExperimentalMethods",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.ExperimentalMethods",
           "name": "ExpMethod",
           "package": "hPDB",
@@ -272,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates an \u003ccode\u003e\u003ca\u003eExpMethod\u003c/a\u003e\u003c/code\u003e from words in PDB\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.ExperimentalMethods",
           "name": "mkExpMethod",
           "package": "hPDB",
@@ -282,6 +287,7 @@
         "index": {
           "description": "Generates an ExpMethod from words in PDB",
           "hierarchy": "Bio PDB EventParser ExperimentalMethods",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.ExperimentalMethods",
           "name": "mkExpMethod",
           "normalized": "[ByteString]-\u003eExpMethod",
@@ -298,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003e\u003ca\u003eExpMethod\u003c/a\u003e\u003c/code\u003e back into text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.ExperimentalMethods",
           "name": "showExpMethod",
           "package": "hPDB",
@@ -308,6 +315,7 @@
         "index": {
           "description": "Converts an ExpMethod back into text",
           "hierarchy": "Bio PDB EventParser ExperimentalMethods",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.ExperimentalMethods",
           "name": "showExpMethod",
           "normalized": "ExpMethod-\u003eByteString",
@@ -324,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule contains enumeration of helix types, and auxiliary functions\n for converting these into PDB CLASS codes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.HelixTypes",
           "name": "HelixTypes",
           "package": "hPDB",
@@ -333,6 +342,7 @@
         "index": {
           "description": "Module contains enumeration of helix types and auxiliary functions for converting these into PDB CLASS codes",
           "hierarchy": "Bio PDB EventParser HelixTypes",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.HelixTypes",
           "name": "HelixTypes",
           "package": "hPDB",
@@ -347,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of helix types\n\u003c/p\u003e\u003cp\u003ePDB Class number in columns 39-40 for each type of helix in HELIX record:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Right-handed alpha (default, most common)\n\u003c/li\u003e\u003cli\u003e Right-handed omega\n\u003c/li\u003e\u003cli\u003e Right-handed pi\n\u003c/li\u003e\u003cli\u003e Right-handed gamma\n\u003c/li\u003e\u003cli\u003e Right-handed 3 - 10\n\u003c/li\u003e\u003cli\u003e Left-handed alpha\n\u003c/li\u003e\u003cli\u003e Left-handed omega\n\u003c/li\u003e\u003cli\u003e Left-handed gamma\n\u003c/li\u003e\u003cli\u003e 2 - 7 ribbon/helix\n\u003c/li\u003e\u003cli\u003e Polyproline\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.HelixTypes",
           "name": "HelixT",
           "package": "hPDB",
@@ -356,6 +367,7 @@
         "index": {
           "description": "Enumeration of helix types PDB Class number in columns for each type of helix in HELIX record Right-handed alpha default most common Right-handed omega Right-handed pi Right-handed gamma Right-handed Left-handed alpha Left-handed omega Left-handed gamma ribbon helix Polyproline",
           "hierarchy": "Bio PDB EventParser HelixTypes",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.HelixTypes",
           "name": "HelixT",
           "package": "hPDB",
@@ -370,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehelix2code converts an PDB CLASS code into a \u003ccode\u003e\u003ca\u003eHelixT\u003c/a\u003e\u003c/code\u003e enumeration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.HelixTypes",
           "name": "code2helix",
           "package": "hPDB",
@@ -380,6 +393,7 @@
         "index": {
           "description": "helix2code converts an PDB CLASS code into HelixT enumeration",
           "hierarchy": "Bio PDB EventParser HelixTypes",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.HelixTypes",
           "name": "code2helix",
           "normalized": "a-\u003eHelixT",
@@ -395,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehelix2code converts a \u003ccode\u003e\u003ca\u003eHelixT\u003c/a\u003e\u003c/code\u003e enumeration into an PDB CLASS code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.HelixTypes",
           "name": "helix2code",
           "package": "hPDB",
@@ -405,6 +420,7 @@
         "index": {
           "description": "helix2code converts HelixT enumeration into an PDB CLASS code",
           "hierarchy": "Bio PDB EventParser HelixTypes",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.HelixTypes",
           "name": "helix2code",
           "normalized": "HelixT-\u003ea",
@@ -420,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow-level event-based parser interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEventParser",
           "name": "PDBEventParser",
           "package": "hPDB",
@@ -429,6 +446,7 @@
         "index": {
           "description": "Low-level event-based parser interface",
           "hierarchy": "Bio PDB EventParser PDBEventParser",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEventParser",
           "name": "PDBEventParser",
           "package": "hPDB",
@@ -443,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a strict ByteString \u003ccode\u003econtents\u003c/code\u003e named \u003ccode\u003efname\u003c/code\u003e and performs \u003ccode\u003eaction\u003c/code\u003e\n on events given by parsing chunks, returning accumulated results. Accumulator\n is primed by \u003ccode\u003eacc\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEventParser",
           "name": "parsePDBRecords",
           "package": "hPDB",
@@ -453,6 +472,7 @@
         "index": {
           "description": "Parses strict ByteString contents named fname and performs action on events given by parsing chunks returning accumulated results Accumulator is primed by acc",
           "hierarchy": "Bio PDB EventParser PDBEventParser",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEventParser",
           "name": "parsePDBRecords",
           "normalized": "a-\u003eByteString-\u003e(b-\u003ePDBEvent-\u003ec b)-\u003eb-\u003ec b",
@@ -469,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow-level output routines: printing any \u003ccode\u003e\u003ca\u003ePDBEvent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEventPrinter",
           "name": "PDBEventPrinter",
           "package": "hPDB",
@@ -478,6 +499,7 @@
         "index": {
           "description": "Low-level output routines printing any PDBEvent",
           "hierarchy": "Bio PDB EventParser PDBEventPrinter",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEventPrinter",
           "name": "PDBEventPrinter",
           "package": "hPDB",
@@ -492,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReports whether a given PDB record is already printable\n   [temporary method, they all should be.]\n   Including errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEventPrinter",
           "name": "isPrintable",
           "package": "hPDB",
@@ -502,6 +525,7 @@
         "index": {
           "description": "Reports whether given PDB record is already printable temporary method they all should be Including errors",
           "hierarchy": "Bio PDB EventParser PDBEventPrinter",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEventPrinter",
           "name": "isPrintable",
           "normalized": "PDBEvent-\u003eBool",
@@ -518,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrints a PDBEvent to a filehandle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEventPrinter",
           "name": "print",
           "package": "hPDB",
@@ -528,6 +553,7 @@
         "index": {
           "description": "Prints PDBEvent to filehandle",
           "hierarchy": "Bio PDB EventParser PDBEventPrinter",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEventPrinter",
           "name": "print",
           "normalized": "Handle-\u003ePDBEvent-\u003eIO()",
@@ -543,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains datatype declaration for PDB parsing\n events generated by \u003ccode\u003ePDBEventParser\u003c/code\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "PDBEvents",
           "package": "hPDB",
@@ -552,6 +579,7 @@
         "index": {
           "description": "This module contains datatype declaration for PDB parsing events generated by PDBEventParser module",
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "PDBEvents",
           "package": "hPDB",
@@ -566,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtom id: atom name, residue name, chain, residue id, residue insertion code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "ATID",
           "package": "hPDB",
@@ -575,6 +604,7 @@
         "index": {
           "description": "Atom id atom name residue name chain residue id residue insertion code",
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "ATID",
           "package": "hPDB",
@@ -589,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of experimental methods occuring in the PDB archive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "ExpMethod",
           "package": "hPDB",
@@ -598,6 +629,7 @@
         "index": {
           "description": "Enumeration of experimental methods occuring in the PDB archive",
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "ExpMethod",
           "package": "hPDB",
@@ -612,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of helix types\n\u003c/p\u003e\u003cp\u003ePDB Class number in columns 39-40 for each type of helix in HELIX record:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Right-handed alpha (default, most common)\n\u003c/li\u003e\u003cli\u003e Right-handed omega\n\u003c/li\u003e\u003cli\u003e Right-handed pi\n\u003c/li\u003e\u003cli\u003e Right-handed gamma\n\u003c/li\u003e\u003cli\u003e Right-handed 3 - 10\n\u003c/li\u003e\u003cli\u003e Left-handed alpha\n\u003c/li\u003e\u003cli\u003e Left-handed omega\n\u003c/li\u003e\u003cli\u003e Left-handed gamma\n\u003c/li\u003e\u003cli\u003e 2 - 7 ribbon/helix\n\u003c/li\u003e\u003cli\u003e Polyproline\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "HelixT",
           "package": "hPDB",
@@ -621,6 +654,7 @@
         "index": {
           "description": "Enumeration of helix types PDB Class number in columns for each type of helix in HELIX record Right-handed alpha default most common Right-handed omega Right-handed pi Right-handed gamma Right-handed Left-handed alpha Left-handed omega Left-handed gamma ribbon helix Polyproline",
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "HelixT",
           "package": "hPDB",
@@ -635,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype for event-based PDB parser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "PDBEvent",
           "package": "hPDB",
@@ -644,6 +679,7 @@
         "index": {
           "description": "Datatype for event-based PDB parser",
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "PDBEvent",
           "package": "hPDB",
@@ -658,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResidue id: residue name, chain, residue id, residue insertion code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "RESID",
           "package": "hPDB",
@@ -667,6 +704,7 @@
         "index": {
           "description": "Residue id residue name chain residue id residue insertion code",
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "RESID",
           "package": "hPDB",
@@ -681,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of beta-strand sense.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "StrandSenseT",
           "package": "hPDB",
@@ -690,6 +729,7 @@
         "index": {
           "description": "Enumeration of beta-strand sense",
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "StrandSenseT",
           "package": "hPDB",
@@ -704,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe use only strict \u003ccode\u003eByteString\u003c/code\u003e as strings in PDB parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "String",
           "package": "hPDB",
@@ -713,6 +754,7 @@
         "index": {
           "description": "We use only strict ByteString as strings in PDB parser",
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "String",
           "package": "hPDB",
@@ -726,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "Vector3",
           "package": "hPDB",
@@ -733,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "Vector3",
           "package": "hPDB",
@@ -746,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "ANISOU",
           "package": "hPDB",
@@ -755,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "ANISOU",
           "package": "hPDB",
@@ -768,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "ATID",
           "package": "hPDB",
@@ -777,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "ATID",
           "normalized": "ATID(String,String,Char,Int,Char)",
@@ -792,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "ATOM",
           "package": "hPDB",
@@ -801,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "ATOM",
           "package": "hPDB",
@@ -814,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "AUTHOR",
           "package": "hPDB",
@@ -823,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "AUTHOR",
           "package": "hPDB",
@@ -859,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "CAVEAT",
           "package": "hPDB",
@@ -868,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "CAVEAT",
           "package": "hPDB",
@@ -881,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "CISPEP",
           "package": "hPDB",
@@ -890,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "CISPEP",
           "package": "hPDB",
@@ -903,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "COMPND",
           "package": "hPDB",
@@ -912,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "COMPND",
           "package": "hPDB",
@@ -925,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "CONECT",
           "package": "hPDB",
@@ -934,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "CONECT",
           "package": "hPDB",
@@ -947,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "CRYST1",
           "package": "hPDB",
@@ -956,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "CRYST1",
           "package": "hPDB",
@@ -969,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "DBREF",
           "package": "hPDB",
@@ -978,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "DBREF",
           "package": "hPDB",
@@ -991,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "END",
           "package": "hPDB",
@@ -1000,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "END",
           "package": "hPDB",
@@ -1013,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "ENDMDL",
           "package": "hPDB",
@@ -1022,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "ENDMDL",
           "package": "hPDB",
@@ -1035,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "EXPDTA",
           "package": "hPDB",
@@ -1044,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "EXPDTA",
           "package": "hPDB",
@@ -1057,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "FORMUL",
           "package": "hPDB",
@@ -1066,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "FORMUL",
           "package": "hPDB",
@@ -1079,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "HEADER",
           "package": "hPDB",
@@ -1088,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "HEADER",
           "package": "hPDB",
@@ -1101,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "HELIX",
           "package": "hPDB",
@@ -1110,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "HELIX",
           "package": "hPDB",
@@ -1123,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "HET",
           "package": "hPDB",
@@ -1132,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "HET",
           "package": "hPDB",
@@ -1145,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "HETNAM",
           "package": "hPDB",
@@ -1154,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "HETNAM",
           "package": "hPDB",
@@ -1167,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "HYDBND",
           "package": "hPDB",
@@ -1176,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "HYDBND",
           "package": "hPDB",
@@ -1189,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "JRNL",
           "package": "hPDB",
@@ -1198,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "JRNL",
           "package": "hPDB",
@@ -1211,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "KEYWDS",
           "package": "hPDB",
@@ -1220,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "KEYWDS",
           "package": "hPDB",
@@ -1233,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "LINK",
           "package": "hPDB",
@@ -1242,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "LINK",
           "package": "hPDB",
@@ -1255,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "MASTER",
           "package": "hPDB",
@@ -1264,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "MASTER",
           "package": "hPDB",
@@ -1277,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "MDLTYP",
           "package": "hPDB",
@@ -1286,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "MDLTYP",
           "package": "hPDB",
@@ -1299,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "MODEL",
           "package": "hPDB",
@@ -1308,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "MODEL",
           "package": "hPDB",
@@ -1321,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "MODRES",
           "package": "hPDB",
@@ -1330,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "MODRES",
           "package": "hPDB",
@@ -1343,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "MTRIXn",
           "package": "hPDB",
@@ -1352,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "MTRIXn",
           "package": "hPDB",
@@ -1365,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "NUMMDL",
           "package": "hPDB",
@@ -1374,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "NUMMDL",
           "package": "hPDB",
@@ -1387,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "OBSLTE",
           "package": "hPDB",
@@ -1396,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "OBSLTE",
           "package": "hPDB",
@@ -1409,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "ORIGXn",
           "package": "hPDB",
@@ -1418,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "ORIGXn",
           "package": "hPDB",
@@ -1431,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "PDBIgnoredLine",
           "package": "hPDB",
@@ -1440,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "PDBIgnoredLine",
           "package": "hPDB",
@@ -1453,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "PDBParseError",
           "package": "hPDB",
@@ -1462,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "PDBParseError",
           "package": "hPDB",
@@ -1498,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "REMARK",
           "package": "hPDB",
@@ -1507,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "REMARK",
           "package": "hPDB",
@@ -1520,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "RESID",
           "package": "hPDB",
@@ -1529,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "RESID",
           "normalized": "RESID(String,Char,Int,Char)",
@@ -1544,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "REVDAT",
           "package": "hPDB",
@@ -1553,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "REVDAT",
           "package": "hPDB",
@@ -1566,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SCALEn",
           "package": "hPDB",
@@ -1575,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SCALEn",
           "package": "hPDB",
@@ -1588,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SEQADV",
           "package": "hPDB",
@@ -1597,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SEQADV",
           "package": "hPDB",
@@ -1610,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SEQRES",
           "package": "hPDB",
@@ -1619,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SEQRES",
           "package": "hPDB",
@@ -1632,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SHEET",
           "package": "hPDB",
@@ -1641,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SHEET",
           "package": "hPDB",
@@ -1654,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SIGATM",
           "package": "hPDB",
@@ -1663,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SIGATM",
           "package": "hPDB",
@@ -1676,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SIGUIJ",
           "package": "hPDB",
@@ -1685,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SIGUIJ",
           "package": "hPDB",
@@ -1698,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SITE",
           "package": "hPDB",
@@ -1707,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SITE",
           "package": "hPDB",
@@ -1720,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SLTBRG",
           "package": "hPDB",
@@ -1729,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SLTBRG",
           "package": "hPDB",
@@ -1742,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SOURCE",
           "package": "hPDB",
@@ -1751,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SOURCE",
           "package": "hPDB",
@@ -1764,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SPLIT",
           "package": "hPDB",
@@ -1773,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SPLIT",
           "package": "hPDB",
@@ -1786,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SPRSDE",
           "package": "hPDB",
@@ -1795,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SPRSDE",
           "package": "hPDB",
@@ -1808,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SSBOND",
           "package": "hPDB",
@@ -1817,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "SSBOND",
           "package": "hPDB",
@@ -1830,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "TER",
           "package": "hPDB",
@@ -1839,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "TER",
           "package": "hPDB",
@@ -1852,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "TITLE",
           "package": "hPDB",
@@ -1861,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "TITLE",
           "package": "hPDB",
@@ -1874,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "TVECT",
           "package": "hPDB",
@@ -1883,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "TVECT",
           "package": "hPDB",
@@ -1918,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "a",
           "package": "hPDB",
@@ -1927,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "a",
           "package": "hPDB",
@@ -1939,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "aList",
           "package": "hPDB",
@@ -1948,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "aList",
           "normalized": "[String]",
@@ -1963,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "accessionCode",
           "package": "hPDB",
@@ -1972,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "accessionCode",
           "package": "hPDB",
@@ -1985,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "advResidue",
           "package": "hPDB",
@@ -1994,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "advResidue",
           "package": "hPDB",
@@ -2007,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "alpha",
           "package": "hPDB",
@@ -2016,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "alpha",
           "package": "hPDB",
@@ -2028,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "altloc",
           "package": "hPDB",
@@ -2037,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "altloc",
           "package": "hPDB",
@@ -2049,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "altloc1",
           "package": "hPDB",
@@ -2058,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "altloc1",
           "package": "hPDB",
@@ -2070,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "altloc2",
           "package": "hPDB",
@@ -2079,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "altloc2",
           "package": "hPDB",
@@ -2091,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "altlocH",
           "package": "hPDB",
@@ -2100,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "altlocH",
           "package": "hPDB",
@@ -2112,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "angle",
           "package": "hPDB",
@@ -2121,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "angle",
           "package": "hPDB",
@@ -2133,6 +2297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "at1",
           "package": "hPDB",
@@ -2142,6 +2307,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "at1",
           "package": "hPDB",
@@ -2154,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "at2",
           "package": "hPDB",
@@ -2163,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "at2",
           "package": "hPDB",
@@ -2175,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "atH",
           "package": "hPDB",
@@ -2184,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "atH",
           "package": "hPDB",
@@ -2196,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "atmNum",
           "package": "hPDB",
@@ -2205,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "atmNum",
           "package": "hPDB",
@@ -2218,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "atoms",
           "package": "hPDB",
@@ -2227,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "atoms",
           "normalized": "[Int]",
@@ -2241,6 +2415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "atomtype",
           "package": "hPDB",
@@ -2250,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "atomtype",
           "package": "hPDB",
@@ -2262,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "b",
           "package": "hPDB",
@@ -2271,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "b",
           "package": "hPDB",
@@ -2283,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "beta",
           "package": "hPDB",
@@ -2292,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "beta",
           "package": "hPDB",
@@ -2304,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "bfactor",
           "package": "hPDB",
@@ -2313,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "bfactor",
           "package": "hPDB",
@@ -2325,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "bondLen",
           "package": "hPDB",
@@ -2334,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "bondLen",
           "package": "hPDB",
@@ -2347,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "c",
           "package": "hPDB",
@@ -2356,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "c",
           "package": "hPDB",
@@ -2368,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "chain",
           "package": "hPDB",
@@ -2377,6 +2564,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "chain",
           "package": "hPDB",
@@ -2389,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "charge",
           "package": "hPDB",
@@ -2398,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "charge",
           "package": "hPDB",
@@ -2410,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "classification",
           "package": "hPDB",
@@ -2419,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "classification",
           "package": "hPDB",
@@ -2431,6 +2623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "codes",
           "package": "hPDB",
@@ -2440,6 +2633,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "codes",
           "normalized": "[String]",
@@ -2454,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "comment",
           "package": "hPDB",
@@ -2463,6 +2658,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "comment",
           "package": "hPDB",
@@ -2475,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "compNum",
           "package": "hPDB",
@@ -2484,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "compNum",
           "package": "hPDB",
@@ -2497,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "cont",
           "package": "hPDB",
@@ -2506,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "cont",
           "package": "hPDB",
@@ -2518,6 +2718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "content",
           "package": "hPDB",
@@ -2527,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "content",
           "normalized": "[(String,String)]",
@@ -2541,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "continuation",
           "package": "hPDB",
@@ -2550,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "continuation",
           "package": "hPDB",
@@ -2562,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "coords",
           "package": "hPDB",
@@ -2571,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "coords",
           "package": "hPDB",
@@ -2583,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "curAt",
           "package": "hPDB",
@@ -2592,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "curAt",
           "package": "hPDB",
@@ -2605,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "database",
           "package": "hPDB",
@@ -2614,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "database",
           "package": "hPDB",
@@ -2626,6 +2836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "date",
           "package": "hPDB",
@@ -2635,6 +2846,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "date",
           "package": "hPDB",
@@ -2647,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "dbResname",
           "package": "hPDB",
@@ -2656,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "dbResname",
           "package": "hPDB",
@@ -2669,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "dbSeqNum",
           "package": "hPDB",
@@ -2678,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "dbSeqNum",
           "package": "hPDB",
@@ -2691,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "depDate",
           "package": "hPDB",
@@ -2700,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "depDate",
           "package": "hPDB",
@@ -2713,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "description",
           "package": "hPDB",
@@ -2722,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "description",
           "package": "hPDB",
@@ -2734,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "details",
           "package": "hPDB",
@@ -2743,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "details",
           "normalized": "[String]",
@@ -2757,6 +2979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "elt",
           "package": "hPDB",
@@ -2766,6 +2989,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "elt",
           "package": "hPDB",
@@ -2778,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "endInsCodeInPDBRef",
           "package": "hPDB",
@@ -2787,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "endInsCodeInPDBRef",
           "package": "hPDB",
@@ -2800,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "endInsCodePDB",
           "package": "hPDB",
@@ -2809,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "endInsCodePDB",
           "package": "hPDB",
@@ -2822,6 +3050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "endRes",
           "package": "hPDB",
@@ -2831,6 +3060,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "endRes",
           "package": "hPDB",
@@ -2844,6 +3074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "endSeqNumInDb",
           "package": "hPDB",
@@ -2853,6 +3084,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "endSeqNumInDb",
           "package": "hPDB",
@@ -2866,6 +3098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "endSeqNumPDB",
           "package": "hPDB",
@@ -2875,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "endSeqNumPDB",
           "package": "hPDB",
@@ -2888,6 +3122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "entries",
           "package": "hPDB",
@@ -2897,6 +3132,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "entries",
           "normalized": "[String]",
@@ -2911,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "expMethods",
           "package": "hPDB",
@@ -2920,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "expMethods",
           "normalized": "[ExpMethod]",
@@ -2935,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "formula",
           "package": "hPDB",
@@ -2944,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "formula",
           "normalized": "[String]",
@@ -2958,6 +3198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "gamma",
           "package": "hPDB",
@@ -2967,6 +3208,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "gamma",
           "package": "hPDB",
@@ -2979,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "helixClass",
           "package": "hPDB",
@@ -2988,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "helixClass",
           "package": "hPDB",
@@ -3001,6 +3245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "hetId",
           "package": "hPDB",
@@ -3010,6 +3255,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "hetId",
           "package": "hPDB",
@@ -3023,6 +3269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "hetatm",
           "package": "hPDB",
@@ -3032,6 +3279,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "hetatm",
           "package": "hPDB",
@@ -3044,6 +3292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "idCode",
           "package": "hPDB",
@@ -3053,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "idCode",
           "package": "hPDB",
@@ -3066,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "iniInsCodeInPDBRef",
           "package": "hPDB",
@@ -3075,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "iniInsCodeInPDBRef",
           "package": "hPDB",
@@ -3088,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "iniInsCodePDB",
           "package": "hPDB",
@@ -3097,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "iniInsCodePDB",
           "package": "hPDB",
@@ -3110,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "iniRes",
           "package": "hPDB",
@@ -3119,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "iniRes",
           "package": "hPDB",
@@ -3132,6 +3388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "iniSeqNumInDb",
           "package": "hPDB",
@@ -3141,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "iniSeqNumInDb",
           "package": "hPDB",
@@ -3154,6 +3412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "iniSeqNumPDB",
           "package": "hPDB",
@@ -3163,6 +3422,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "iniSeqNumPDB",
           "package": "hPDB",
@@ -3176,6 +3436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "insCode",
           "package": "hPDB",
@@ -3185,6 +3446,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "insCode",
           "package": "hPDB",
@@ -3198,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "isFirst",
           "package": "hPDB",
@@ -3207,6 +3470,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "isFirst",
           "package": "hPDB",
@@ -3220,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "isWater",
           "package": "hPDB",
@@ -3229,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "isWater",
           "package": "hPDB",
@@ -3242,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "len",
           "package": "hPDB",
@@ -3251,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "len",
           "package": "hPDB",
@@ -3263,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "linkdist",
           "package": "hPDB",
@@ -3272,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "linkdist",
           "package": "hPDB",
@@ -3284,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "modDat",
           "package": "hPDB",
@@ -3293,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "modDat",
           "package": "hPDB",
@@ -3306,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "modId",
           "package": "hPDB",
@@ -3315,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "modId",
           "package": "hPDB",
@@ -3328,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "modNum",
           "package": "hPDB",
@@ -3337,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "modNum",
           "package": "hPDB",
@@ -3350,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "modTyp",
           "package": "hPDB",
@@ -3359,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "modTyp",
           "package": "hPDB",
@@ -3372,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "n",
           "package": "hPDB",
@@ -3381,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "n",
           "package": "hPDB",
@@ -3393,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "name",
           "package": "hPDB",
@@ -3402,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "name",
           "package": "hPDB",
@@ -3414,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "no",
           "package": "hPDB",
@@ -3423,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "no",
           "package": "hPDB",
@@ -3435,6 +3719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "notSynonym",
           "package": "hPDB",
@@ -3444,6 +3729,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "notSynonym",
           "package": "hPDB",
@@ -3457,6 +3743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "num",
           "package": "hPDB",
@@ -3466,6 +3753,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "num",
           "package": "hPDB",
@@ -3478,6 +3766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numAts",
           "package": "hPDB",
@@ -3487,6 +3776,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numAts",
           "package": "hPDB",
@@ -3500,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numConect",
           "package": "hPDB",
@@ -3509,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numConect",
           "package": "hPDB",
@@ -3522,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numHelix",
           "package": "hPDB",
@@ -3531,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numHelix",
           "package": "hPDB",
@@ -3544,6 +3838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numHet",
           "package": "hPDB",
@@ -3553,6 +3848,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numHet",
           "package": "hPDB",
@@ -3566,6 +3862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numMaster",
           "package": "hPDB",
@@ -3575,6 +3872,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numMaster",
           "package": "hPDB",
@@ -3588,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numRemark",
           "package": "hPDB",
@@ -3597,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numRemark",
           "package": "hPDB",
@@ -3610,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numSeqres",
           "package": "hPDB",
@@ -3619,6 +3920,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numSeqres",
           "package": "hPDB",
@@ -3632,6 +3934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numSheet",
           "package": "hPDB",
@@ -3641,6 +3944,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numSheet",
           "package": "hPDB",
@@ -3654,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numSite",
           "package": "hPDB",
@@ -3663,6 +3968,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numSite",
           "package": "hPDB",
@@ -3676,6 +3982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numStrands",
           "package": "hPDB",
@@ -3685,6 +3992,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numStrands",
           "package": "hPDB",
@@ -3698,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numTurn",
           "package": "hPDB",
@@ -3707,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numTurn",
           "package": "hPDB",
@@ -3720,6 +4030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numXform",
           "package": "hPDB",
@@ -3729,6 +4040,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numXform",
           "package": "hPDB",
@@ -3742,6 +4054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numres",
           "package": "hPDB",
@@ -3751,6 +4064,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "numres",
           "package": "hPDB",
@@ -3763,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "o",
           "package": "hPDB",
@@ -3772,6 +4087,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "o",
           "normalized": "[Vector]",
@@ -3786,6 +4102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "occupancy",
           "package": "hPDB",
@@ -3795,6 +4112,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "occupancy",
           "package": "hPDB",
@@ -3807,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "pdbCode",
           "package": "hPDB",
@@ -3816,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "pdbCode",
           "package": "hPDB",
@@ -3829,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "pdbId",
           "package": "hPDB",
@@ -3838,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "pdbId",
           "package": "hPDB",
@@ -3851,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "pdbid",
           "package": "hPDB",
@@ -3860,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "pdbid",
           "package": "hPDB",
@@ -3872,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "prevAt",
           "package": "hPDB",
@@ -3881,6 +4206,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "prevAt",
           "package": "hPDB",
@@ -3894,6 +4220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "relMol",
           "package": "hPDB",
@@ -3903,6 +4230,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "relMol",
           "package": "hPDB",
@@ -3916,6 +4244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "res1",
           "package": "hPDB",
@@ -3925,6 +4254,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "res1",
           "package": "hPDB",
@@ -3937,6 +4267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "res2",
           "package": "hPDB",
@@ -3946,6 +4277,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "res2",
           "package": "hPDB",
@@ -3958,6 +4290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "resList",
           "package": "hPDB",
@@ -3967,6 +4300,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "resList",
           "normalized": "[String]",
@@ -3982,6 +4316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "resid",
           "package": "hPDB",
@@ -3991,6 +4326,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "resid",
           "package": "hPDB",
@@ -4003,6 +4339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "residue",
           "package": "hPDB",
@@ -4012,6 +4349,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "residue",
           "package": "hPDB",
@@ -4024,6 +4362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "residues",
           "package": "hPDB",
@@ -4033,6 +4372,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "residues",
           "normalized": "[RESID]",
@@ -4047,6 +4387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "resins",
           "package": "hPDB",
@@ -4056,6 +4397,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "resins",
           "package": "hPDB",
@@ -4068,6 +4410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "resname",
           "package": "hPDB",
@@ -4077,6 +4420,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "resname",
           "package": "hPDB",
@@ -4089,6 +4433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "restype",
           "package": "hPDB",
@@ -4098,6 +4443,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "restype",
           "package": "hPDB",
@@ -4110,6 +4456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "segid",
           "package": "hPDB",
@@ -4119,6 +4466,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "segid",
           "package": "hPDB",
@@ -4131,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "sense",
           "package": "hPDB",
@@ -4140,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "sense",
           "package": "hPDB",
@@ -4152,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "seqDbAccCode",
           "package": "hPDB",
@@ -4161,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "seqDbAccCode",
           "package": "hPDB",
@@ -4174,6 +4526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "seqDbIdCode",
           "package": "hPDB",
@@ -4183,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "seqDbIdCode",
           "package": "hPDB",
@@ -4196,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "seqDbName",
           "package": "hPDB",
@@ -4205,6 +4560,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "seqDbName",
           "package": "hPDB",
@@ -4218,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "seqNum",
           "package": "hPDB",
@@ -4227,6 +4584,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "seqNum",
           "package": "hPDB",
@@ -4240,6 +4598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "serial",
           "package": "hPDB",
@@ -4249,6 +4608,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "serial",
           "package": "hPDB",
@@ -4261,6 +4621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "sheetId",
           "package": "hPDB",
@@ -4270,6 +4631,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "sheetId",
           "package": "hPDB",
@@ -4283,6 +4645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "siteid",
           "package": "hPDB",
@@ -4292,6 +4655,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "siteid",
           "package": "hPDB",
@@ -4304,6 +4668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "spcGrp",
           "package": "hPDB",
@@ -4313,6 +4678,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "spcGrp",
           "package": "hPDB",
@@ -4326,6 +4692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "stdRes",
           "package": "hPDB",
@@ -4335,6 +4702,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "stdRes",
           "package": "hPDB",
@@ -4348,6 +4716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "strandId",
           "package": "hPDB",
@@ -4357,6 +4726,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "strandId",
           "package": "hPDB",
@@ -4370,6 +4740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "symOp1",
           "package": "hPDB",
@@ -4379,6 +4750,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "symOp1",
           "package": "hPDB",
@@ -4392,6 +4764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "symOp2",
           "package": "hPDB",
@@ -4401,6 +4774,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "symOp2",
           "package": "hPDB",
@@ -4414,6 +4788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "symop1",
           "package": "hPDB",
@@ -4423,6 +4798,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "symop1",
           "package": "hPDB",
@@ -4435,6 +4811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "symop2",
           "package": "hPDB",
@@ -4444,6 +4821,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "symop2",
           "package": "hPDB",
@@ -4456,6 +4834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "t",
           "package": "hPDB",
@@ -4465,6 +4844,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "t",
           "normalized": "[Double]",
@@ -4479,6 +4859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "text",
           "package": "hPDB",
@@ -4488,6 +4869,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "text",
           "normalized": "[String]",
@@ -4502,6 +4884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "this",
           "package": "hPDB",
@@ -4511,6 +4894,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "this",
           "package": "hPDB",
@@ -4523,6 +4907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "title",
           "package": "hPDB",
@@ -4532,6 +4917,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "title",
           "package": "hPDB",
@@ -4544,6 +4930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "tokens",
           "package": "hPDB",
@@ -4553,6 +4940,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "tokens",
           "normalized": "[(String,String)]",
@@ -4567,6 +4955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "u_1_1",
           "package": "hPDB",
@@ -4576,6 +4965,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "u_1_1",
           "package": "hPDB",
@@ -4588,6 +4978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "u_1_2",
           "package": "hPDB",
@@ -4597,6 +4988,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "u_1_2",
           "package": "hPDB",
@@ -4609,6 +5001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "u_1_3",
           "package": "hPDB",
@@ -4618,6 +5011,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "u_1_3",
           "package": "hPDB",
@@ -4630,6 +5024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "u_2_2",
           "package": "hPDB",
@@ -4639,6 +5034,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "u_2_2",
           "package": "hPDB",
@@ -4651,6 +5047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "u_2_3",
           "package": "hPDB",
@@ -4660,6 +5057,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "u_2_3",
           "package": "hPDB",
@@ -4672,6 +5070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "u_3_3",
           "package": "hPDB",
@@ -4681,6 +5080,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "u_3_3",
           "package": "hPDB",
@@ -4756,6 +5156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "vec",
           "package": "hPDB",
@@ -4765,6 +5166,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "vec",
           "package": "hPDB",
@@ -4777,6 +5179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "zValue",
           "package": "hPDB",
@@ -4786,6 +5189,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB EventParser PDBEvents",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.PDBEvents",
           "name": "zValue",
           "package": "hPDB",
@@ -4800,6 +5204,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule with enumeration of beta-strand senses.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.StrandSense",
           "name": "StrandSense",
           "package": "hPDB",
@@ -4809,6 +5214,7 @@
         "index": {
           "description": "Module with enumeration of beta-strand senses",
           "hierarchy": "Bio PDB EventParser StrandSense",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.StrandSense",
           "name": "StrandSense",
           "package": "hPDB",
@@ -4823,6 +5229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of beta-strand sense.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.EventParser.StrandSense",
           "name": "StrandSenseT",
           "package": "hPDB",
@@ -4832,6 +5239,7 @@
         "index": {
           "description": "Enumeration of beta-strand sense",
           "hierarchy": "Bio PDB EventParser StrandSense",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.EventParser.StrandSense",
           "name": "StrandSenseT",
           "package": "hPDB",
@@ -4846,6 +5254,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion of PDB residue codes to FASTA single-letter sequence codes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Fasta",
           "name": "Fasta",
           "package": "hPDB",
@@ -4855,6 +5264,7 @@
         "index": {
           "description": "Conversion of PDB residue codes to FASTA single-letter sequence codes",
           "hierarchy": "Bio PDB Fasta",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Fasta",
           "name": "Fasta",
           "package": "hPDB",
@@ -4869,6 +5279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne-letter aminoacid code for an unknown type of residue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Fasta",
           "name": "defaultFastaCode",
           "package": "hPDB",
@@ -4879,6 +5290,7 @@
         "index": {
           "description": "One-letter aminoacid code for an unknown type of residue",
           "hierarchy": "Bio PDB Fasta",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Fasta",
           "name": "defaultFastaCode",
           "package": "hPDB",
@@ -4893,6 +5305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThree-letter PDB code for an unknown type of residue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Fasta",
           "name": "defaultResname",
           "package": "hPDB",
@@ -4903,6 +5316,7 @@
         "index": {
           "description": "Three-letter PDB code for an unknown type of residue",
           "hierarchy": "Bio PDB Fasta",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Fasta",
           "name": "defaultResname",
           "package": "hPDB",
@@ -4917,6 +5331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e with gapped sequence of a given PDB \u003ccode\u003e\u003ca\u003eChain\u003c/a\u003e\u003c/code\u003e.\n Gaps are placed to assure consistent numbering of residues and\n indices in the output \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Fasta",
           "name": "fastaGappedRecord",
           "package": "hPDB",
@@ -4927,6 +5342,7 @@
         "index": {
           "description": "Returns String with gapped sequence of given PDB Chain Gaps are placed to assure consistent numbering of residues and indices in the output String",
           "hierarchy": "Bio PDB Fasta",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Fasta",
           "name": "fastaGappedRecord",
           "normalized": "[Char]-\u003eChain-\u003e[Char]",
@@ -4943,6 +5359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003e\u003ca\u003eIterable\u003c/a\u003e\u003c/code\u003e yielding \u003ccode\u003e\u003ca\u003eResidue\u003c/a\u003e\u003c/code\u003es into a list of aminoacid one-character codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Fasta",
           "name": "fastaGappedSequence",
           "package": "hPDB",
@@ -4953,6 +5370,7 @@
         "index": {
           "description": "Converts an Iterable yielding Residue into list of aminoacid one-character codes",
           "hierarchy": "Bio PDB Fasta",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Fasta",
           "name": "fastaGappedSequence",
           "normalized": "a-\u003e[Char]",
@@ -4969,6 +5387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e with ungapped sequence of a given PDB \u003ccode\u003e\u003ca\u003eChain\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Fasta",
           "name": "fastaRecord",
           "package": "hPDB",
@@ -4979,6 +5398,7 @@
         "index": {
           "description": "Returns String with ungapped sequence of given PDB Chain",
           "hierarchy": "Bio PDB Fasta",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Fasta",
           "name": "fastaRecord",
           "normalized": "[Char]-\u003eChain-\u003e[Char]",
@@ -4995,6 +5415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003e\u003ca\u003eIterable\u003c/a\u003e\u003c/code\u003e yielding \u003ccode\u003e\u003ca\u003eResidue\u003c/a\u003e\u003c/code\u003es into a list of aminoacid one-character codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Fasta",
           "name": "fastaSequence",
           "package": "hPDB",
@@ -5005,6 +5426,7 @@
         "index": {
           "description": "Converts an Iterable yielding Residue into list of aminoacid one-character codes",
           "hierarchy": "Bio PDB Fasta",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Fasta",
           "name": "fastaSequence",
           "normalized": "a-\u003e[Char]",
@@ -5073,6 +5495,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOpening and reading a either normal or gzipped file in an efficient way -\n either using strict \u003ccode\u003eByteString\u003c/code\u003e or mmap\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.IO.OpenAnyFile",
           "name": "OpenAnyFile",
           "package": "hPDB",
@@ -5082,6 +5505,7 @@
         "index": {
           "description": "Opening and reading either normal or gzipped file in an efficient way either using strict ByteString or mmap",
           "hierarchy": "Bio PDB IO OpenAnyFile",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.IO.OpenAnyFile",
           "name": "OpenAnyFile",
           "package": "hPDB",
@@ -5096,6 +5520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead file contents as strict \u003ccode\u003eByteString\u003c/code\u003e. Uses mmap if possible. May decompress file contents, if needed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.IO.OpenAnyFile",
           "name": "readFile",
           "package": "hPDB",
@@ -5106,6 +5531,7 @@
         "index": {
           "description": "Read file contents as strict ByteString Uses mmap if possible May decompress file contents if needed",
           "hierarchy": "Bio PDB IO OpenAnyFile",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.IO.OpenAnyFile",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO ByteString",
@@ -5122,6 +5548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite file contents as strict \u003ccode\u003eByteString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.IO.OpenAnyFile",
           "name": "writeFile",
           "package": "hPDB",
@@ -5132,6 +5559,7 @@
         "index": {
           "description": "Write file contents as strict ByteString",
           "hierarchy": "Bio PDB IO OpenAnyFile",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.IO.OpenAnyFile",
           "name": "writeFile",
           "normalized": "FilePath-\u003e(Handle-\u003eIO a)-\u003eIO()",
@@ -5148,6 +5576,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple input/output wrappers taking filenames, and handling compression.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.IO",
           "name": "IO",
           "package": "hPDB",
@@ -5157,6 +5586,7 @@
         "index": {
           "description": "Simple input output wrappers taking filenames and handling compression",
           "hierarchy": "Bio PDB IO",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.IO",
           "name": "IO",
           "package": "hPDB",
@@ -5171,6 +5601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass generating events for PDB structure fragments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.IO",
           "name": "PDBWritable",
           "package": "hPDB",
@@ -5180,6 +5611,7 @@
         "index": {
           "description": "Class generating events for PDB structure fragments",
           "hierarchy": "Bio PDB IO",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.IO",
           "name": "PDBWritable",
           "package": "hPDB",
@@ -5246,6 +5678,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIterable instances and convenience functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Iterable",
           "name": "Iterable",
           "package": "hPDB",
@@ -5255,6 +5688,7 @@
         "index": {
           "description": "Iterable instances and convenience functions",
           "hierarchy": "Bio PDB Iterable",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Iterable",
           "name": "Iterable",
           "package": "hPDB",
@@ -5269,6 +5703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for iterating all nested components \u003ccode\u003eb\u003c/code\u003e of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Iterable",
           "name": "Iterable",
           "package": "hPDB",
@@ -5277,6 +5712,7 @@
         "index": {
           "description": "Class for iterating all nested components of type",
           "hierarchy": "Bio PDB Iterable",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Iterable",
           "name": "Iterable",
           "package": "hPDB",
@@ -5317,6 +5753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Iterable",
           "name": "itfoldM",
           "package": "hPDB",
@@ -5325,6 +5762,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB Iterable",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Iterable",
           "name": "itfoldM",
           "normalized": "(a-\u003eb-\u003ec a)-\u003ea-\u003ed-\u003ec a",
@@ -5339,6 +5777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Iterable",
           "name": "itfoldl",
           "package": "hPDB",
@@ -5347,6 +5786,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB Iterable",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Iterable",
           "name": "itfoldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec-\u003ea",
@@ -5361,6 +5801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Iterable",
           "name": "itfoldl'",
           "package": "hPDB",
@@ -5369,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB Iterable",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Iterable",
           "name": "itfoldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec-\u003ea",
@@ -5383,6 +5825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Iterable",
           "name": "itfoldr",
           "package": "hPDB",
@@ -5391,6 +5834,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB Iterable",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Iterable",
           "name": "itfoldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec-\u003eb",
@@ -5405,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Iterable",
           "name": "itlength",
           "package": "hPDB",
@@ -5413,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB Iterable",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Iterable",
           "name": "itlength",
           "normalized": "a-\u003eb-\u003eInt",
@@ -5427,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Iterable",
           "name": "itmap",
           "package": "hPDB",
@@ -5435,6 +5882,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB Iterable",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Iterable",
           "name": "itmap",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -5449,6 +5897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Iterable",
           "name": "itmapM",
           "package": "hPDB",
@@ -5457,6 +5906,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB Iterable",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Iterable",
           "name": "itmapM",
           "normalized": "(a-\u003eb a)-\u003ec-\u003eb c",
@@ -5580,6 +6030,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic properties of chemical \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003es as suggested by Cambridge Structural Database.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Elements",
           "name": "Elements",
           "package": "hPDB",
@@ -5589,6 +6040,7 @@
         "index": {
           "description": "Basic properties of chemical Element as suggested by Cambridge Structural Database",
           "hierarchy": "Bio PDB Structure Elements",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Elements",
           "name": "Elements",
           "package": "hPDB",
@@ -5603,6 +6055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType alias for \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Elements",
           "name": "Element",
           "package": "hPDB",
@@ -5612,6 +6065,7 @@
         "index": {
           "description": "Type alias for Element names",
           "hierarchy": "Bio PDB Structure Elements",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Elements",
           "name": "Element",
           "package": "hPDB",
@@ -5734,6 +6188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGuessing an \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e name from PDB \u003ccode\u003e\u003ca\u003eAtom\u003c/a\u003e\u003c/code\u003e name. \n Returns empty string, if \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e can't be guessed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Elements",
           "name": "guessElement",
           "package": "hPDB",
@@ -5744,6 +6199,7 @@
         "index": {
           "description": "Guessing an Element name from PDB Atom name Returns empty string if Element can be guessed",
           "hierarchy": "Bio PDB Structure Elements",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Elements",
           "name": "guessElement",
           "normalized": "ByteString-\u003eElement",
@@ -5759,6 +6215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Elements",
           "name": "maxCovalentRadius",
           "package": "hPDB",
@@ -5768,6 +6225,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB Structure Elements",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Elements",
           "name": "maxCovalentRadius",
           "package": "hPDB",
@@ -5781,6 +6239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Elements",
           "name": "maxVanDerWaalsRadius",
           "package": "hPDB",
@@ -5790,6 +6249,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB Structure Elements",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Elements",
           "name": "maxVanDerWaalsRadius",
           "package": "hPDB",
@@ -5831,6 +6291,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCollections used within the Structure, currently aliases for the \u003ccode\u003eVector\u003c/code\u003e and \u003ccode\u003eMVector\u003c/code\u003e types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "List",
           "package": "hPDB",
@@ -5840,6 +6301,7 @@
         "index": {
           "description": "Collections used within the Structure currently aliases for the Vector and MVector types",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "List",
           "package": "hPDB",
@@ -5854,6 +6316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType alias for a immutable sequence of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "List",
           "package": "hPDB",
@@ -5863,6 +6326,7 @@
         "index": {
           "description": "Type alias for immutable sequence of elements",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "List",
           "package": "hPDB",
@@ -5877,6 +6341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType alias for a mutable sequence of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "TempList",
           "package": "hPDB",
@@ -5886,6 +6351,7 @@
         "index": {
           "description": "Type alias for mutable sequence of elements",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "TempList",
           "package": "hPDB",
@@ -5900,6 +6366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndexing of an immutable vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "(!)",
           "package": "hPDB",
@@ -5910,6 +6377,7 @@
         "index": {
           "description": "Indexing of an immutable vector",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "(!) !",
           "normalized": "Vector a-\u003eInt-\u003ea",
@@ -5925,6 +6393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenation of two immutable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "(++)",
           "package": "hPDB",
@@ -5935,6 +6404,7 @@
         "index": {
           "description": "Concatenation of two immutable",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "(++) ++",
           "normalized": "Vector a-\u003eVector a-\u003eVector a",
@@ -5950,6 +6420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends an element to a mutable vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "add",
           "package": "hPDB",
@@ -5960,6 +6431,7 @@
         "index": {
           "description": "Appends an element to mutable vector",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "add",
           "normalized": "TempList a b-\u003eb-\u003ec(ST a)()",
@@ -5975,6 +6447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault initial size of a mutable vector for chain contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "chainVectorSize",
           "package": "hPDB",
@@ -5985,6 +6458,7 @@
         "index": {
           "description": "Default initial size of mutable vector for chain contents",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "chainVectorSize",
           "package": "hPDB",
@@ -5999,6 +6473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenation of a list of immutable vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "concat",
           "package": "hPDB",
@@ -6009,6 +6484,7 @@
         "index": {
           "description": "Concatenation of list of immutable vectors",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "concat",
           "normalized": "[Vector a]-\u003eVector a",
@@ -6024,6 +6500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault initial size of a mutable vector for structure contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "defaultSize",
           "package": "hPDB",
@@ -6034,6 +6511,7 @@
         "index": {
           "description": "Default initial size of mutable vector for structure contents",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "defaultSize",
           "package": "hPDB",
@@ -6048,6 +6526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "empty",
           "package": "hPDB",
@@ -6058,6 +6537,7 @@
         "index": {
           "description": "Empty vector",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "empty",
           "package": "hPDB",
@@ -6071,6 +6551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efilter\u003c/a\u003e\u003c/code\u003e on immutable vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "filter",
           "package": "hPDB",
@@ -6081,6 +6562,7 @@
         "index": {
           "description": "filter on immutable vectors",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eVector a-\u003eVector a",
@@ -6096,6 +6578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinalizes a mutable vector, and returns immutable vector.\n   [Does it shrink allocated space?]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "finalize",
           "package": "hPDB",
@@ -6106,6 +6589,7 @@
         "index": {
           "description": "Finalizes mutable vector and returns immutable vector Does it shrink allocated space",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "finalize",
           "normalized": "TempList a b-\u003ec(ST a)(Vector b)",
@@ -6121,6 +6605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efoldM\u003c/a\u003e\u003c/code\u003e on immutable vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "foldM",
           "package": "hPDB",
@@ -6131,6 +6616,7 @@
         "index": {
           "description": "foldM on immutable vectors",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "foldM",
           "normalized": "(a-\u003eb-\u003ec a)-\u003ea-\u003eVector b-\u003ec a",
@@ -6146,6 +6632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e on immutable vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "foldl",
           "package": "hPDB",
@@ -6156,6 +6643,7 @@
         "index": {
           "description": "foldl on immutable vectors",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVector b-\u003ea",
@@ -6171,6 +6659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efoldl'\u003c/a\u003e\u003c/code\u003e on immutable vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "foldl'",
           "package": "hPDB",
@@ -6181,6 +6670,7 @@
         "index": {
           "description": "foldl on immutable vectors",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVector b-\u003ea",
@@ -6196,6 +6686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e on immutable vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "foldr",
           "package": "hPDB",
@@ -6206,6 +6697,7 @@
         "index": {
           "description": "foldr on immutable vectors",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eVector a-\u003eb",
@@ -6221,6 +6713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst element of immutable vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "head",
           "package": "hPDB",
@@ -6231,6 +6724,7 @@
         "index": {
           "description": "First element of immutable vector",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "head",
           "normalized": "Vector a-\u003ea",
@@ -6246,6 +6740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove last element of immutable vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "init",
           "package": "hPDB",
@@ -6256,6 +6751,7 @@
         "index": {
           "description": "Remove last element of immutable vectors",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "init",
           "normalized": "Vector a-\u003eVector a",
@@ -6271,6 +6767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate initial space for a new mutable vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "initialNew",
           "package": "hPDB",
@@ -6281,6 +6778,7 @@
         "index": {
           "description": "Allocate initial space for new mutable vector",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "initialNew",
           "normalized": "Int-\u003eST a(TempList a b)",
@@ -6297,6 +6795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elast\u003c/a\u003e\u003c/code\u003e on immutable vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "last",
           "package": "hPDB",
@@ -6307,6 +6806,7 @@
         "index": {
           "description": "last on immutable vectors",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "last",
           "normalized": "Vector a-\u003ea",
@@ -6322,6 +6822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e on immutable vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "length",
           "package": "hPDB",
@@ -6332,6 +6833,7 @@
         "index": {
           "description": "length on immutable vectors",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "length",
           "normalized": "Vector a-\u003eInt",
@@ -6347,6 +6849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e on immutable vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "map",
           "package": "hPDB",
@@ -6357,6 +6860,7 @@
         "index": {
           "description": "map on immutable vectors",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eVector a-\u003eVector b",
@@ -6372,6 +6876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e on immutable vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "mapM",
           "package": "hPDB",
@@ -6382,6 +6887,7 @@
         "index": {
           "description": "mapM on immutable vectors",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "mapM",
           "normalized": "(a-\u003eb c)-\u003eVector a-\u003eb(Vector c)",
@@ -6397,6 +6903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new mutable vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "new",
           "package": "hPDB",
@@ -6407,6 +6914,7 @@
         "index": {
           "description": "Create new mutable vector",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "new",
           "normalized": "Int-\u003ea(ST b)(TempList b c)",
@@ -6422,6 +6930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault initial size of a mutable vector for residue contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "residueVectorSize",
           "package": "hPDB",
@@ -6432,6 +6941,7 @@
         "index": {
           "description": "Default initial size of mutable vector for residue contents",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "residueVectorSize",
           "package": "hPDB",
@@ -6446,6 +6956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector with a single element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "singleton",
           "package": "hPDB",
@@ -6456,6 +6967,7 @@
         "index": {
           "description": "Vector with single element",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "singleton",
           "normalized": "a-\u003eVector a",
@@ -6471,6 +6983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove first element of immutable vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "tail",
           "package": "hPDB",
@@ -6481,6 +6994,7 @@
         "index": {
           "description": "Remove first element of immutable vector",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "tail",
           "normalized": "Vector a-\u003eVector a",
@@ -6496,6 +7010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of mutable vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "tempLength",
           "package": "hPDB",
@@ -6506,6 +7021,7 @@
         "index": {
           "description": "Length of mutable vector",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "tempLength",
           "normalized": "TempList a b-\u003eb(ST a)Int",
@@ -6522,6 +7038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion of an immutable vector to list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "toList",
           "package": "hPDB",
@@ -6532,6 +7049,7 @@
         "index": {
           "description": "Conversion of an immutable vector to list",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "toList",
           "normalized": "Vector a-\u003e[a]",
@@ -6548,6 +7066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e on immutable vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.List",
           "name": "vimap",
           "package": "hPDB",
@@ -6558,6 +7077,7 @@
         "index": {
           "description": "map on immutable vectors",
           "hierarchy": "Bio PDB Structure List",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.List",
           "name": "vimap",
           "normalized": "(Int-\u003ea-\u003eb)-\u003eVector a-\u003eVector b",
@@ -6573,6 +7093,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSearching for neighbouring atoms in a 3D space using \u003ccode\u003eOctree\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Neighbours",
           "name": "Neighbours",
           "package": "hPDB",
@@ -6582,6 +7103,7 @@
         "index": {
           "description": "Searching for neighbouring atoms in space using Octree",
           "hierarchy": "Bio PDB Structure Neighbours",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Neighbours",
           "name": "Neighbours",
           "package": "hPDB",
@@ -6596,6 +7118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOctree of \u003ccode\u003e\u003ca\u003eAtom\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Neighbours",
           "name": "AtomOctree",
           "package": "hPDB",
@@ -6605,6 +7128,7 @@
         "index": {
           "description": "Octree of Atom",
           "hierarchy": "Bio PDB Structure Neighbours",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Neighbours",
           "name": "AtomOctree",
           "package": "hPDB",
@@ -6619,6 +7143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all \u003ccode\u003e\u003ca\u003eAtom\u003c/a\u003e\u003c/code\u003es within a given radius from a point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Neighbours",
           "name": "findInRadius",
           "package": "hPDB",
@@ -6629,6 +7154,7 @@
         "index": {
           "description": "Find all Atom within given radius from point",
           "hierarchy": "Bio PDB Structure Neighbours",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Neighbours",
           "name": "findInRadius",
           "normalized": "AtomOctree-\u003eDouble-\u003eVector-\u003e[(Vector,Atom)]",
@@ -6645,6 +7171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind an \u003ccode\u003e\u003ca\u003eAtom\u003c/a\u003e\u003c/code\u003es closest to a point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Neighbours",
           "name": "findNearest",
           "package": "hPDB",
@@ -6655,6 +7182,7 @@
         "index": {
           "description": "Find an Atom closest to point",
           "hierarchy": "Bio PDB Structure Neighbours",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Neighbours",
           "name": "findNearest",
           "normalized": "AtomOctree-\u003eVector-\u003eMaybe(Vector,Atom)",
@@ -6671,6 +7199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an Octree of \u003ccode\u003e\u003ca\u003eAtom\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Neighbours",
           "name": "makeOctree",
           "package": "hPDB",
@@ -6681,6 +7210,7 @@
         "index": {
           "description": "Make an Octree of Atom",
           "hierarchy": "Bio PDB Structure Neighbours",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Neighbours",
           "name": "makeOctree",
           "normalized": "a-\u003eAtomOctree",
@@ -6697,6 +7227,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module wraps 3D vector operations, and adds missing ones.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Vector",
           "name": "Vector",
           "package": "hPDB",
@@ -6706,6 +7237,7 @@
         "index": {
           "description": "This module wraps vector operations and adds missing ones",
           "hierarchy": "Bio PDB Structure Vector",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Vector",
           "name": "Vector",
           "package": "hPDB",
@@ -6719,6 +7251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Vector",
           "name": "Vector3",
           "package": "hPDB",
@@ -6726,6 +7259,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB Structure Vector",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Vector",
           "name": "Vector3",
           "package": "hPDB",
@@ -6792,6 +7326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpacks an abstract 3D vector into a triple of \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Vector",
           "name": "unpackVector3",
           "package": "hPDB",
@@ -6802,6 +7337,7 @@
         "index": {
           "description": "Unpacks an abstract vector into triple of Double",
           "hierarchy": "Bio PDB Structure Vector",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Vector",
           "name": "unpackVector3",
           "normalized": "Vector-\u003e(Double,Double,Double)",
@@ -6870,6 +7406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps an operation that modifies a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e onto a 3D vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Vector",
           "name": "vmap",
           "package": "hPDB",
@@ -6880,6 +7417,7 @@
         "index": {
           "description": "Maps an operation that modifies Double onto vector",
           "hierarchy": "Bio PDB Structure Vector",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Vector",
           "name": "vmap",
           "normalized": "(Double-\u003eDouble)-\u003eVector-\u003eVector",
@@ -6921,6 +7459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalises to a unit vector in the same direction as input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Vector",
           "name": "vnormalise",
           "package": "hPDB",
@@ -6931,6 +7470,7 @@
         "index": {
           "description": "Normalises to unit vector in the same direction as input",
           "hierarchy": "Bio PDB Structure Vector",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Vector",
           "name": "vnormalise",
           "normalized": "Vector-\u003eVector",
@@ -7024,6 +7564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps an operation on a pair of \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003es onto a pair of 3D vectors\n   coordinatewise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure.Vector",
           "name": "vzip",
           "package": "hPDB",
@@ -7034,6 +7575,7 @@
         "index": {
           "description": "Maps an operation on pair of Double onto pair of vectors coordinatewise",
           "hierarchy": "Bio PDB Structure Vector",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure.Vector",
           "name": "vzip",
           "normalized": "(Double-\u003eDouble-\u003eDouble)-\u003eVector-\u003eVector-\u003eVector",
@@ -7048,6 +7590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure",
           "name": "Structure",
           "package": "hPDB",
@@ -7056,6 +7599,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB Structure",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure",
           "name": "Structure",
           "package": "hPDB",
@@ -7070,6 +7614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle atom position\n | NOTE: disordered atoms are now reported as multiplicates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure",
           "name": "Atom",
           "package": "hPDB",
@@ -7079,6 +7624,7 @@
         "index": {
           "description": "Single atom position NOTE disordered atoms are now reported as multiplicates",
           "hierarchy": "Bio PDB Structure",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure",
           "name": "Atom",
           "package": "hPDB",
@@ -7093,6 +7639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle linear polymer chain of protein, or nucleic acids\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure",
           "name": "Chain",
           "package": "hPDB",
@@ -7102,6 +7649,7 @@
         "index": {
           "description": "Single linear polymer chain of protein or nucleic acids",
           "hierarchy": "Bio PDB Structure",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure",
           "name": "Chain",
           "package": "hPDB",
@@ -7116,6 +7664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePDB entry may contain multiple models, with slight differences in coordinates etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure",
           "name": "Model",
           "package": "hPDB",
@@ -7125,6 +7674,7 @@
         "index": {
           "description": "PDB entry may contain multiple models with slight differences in coordinates etc",
           "hierarchy": "Bio PDB Structure",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure",
           "name": "Model",
           "package": "hPDB",
@@ -7139,6 +7689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResidue groups all atoms assigned to the same aminoacid or nucleic acid base within a polymer chain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure",
           "name": "Residue",
           "package": "hPDB",
@@ -7148,6 +7699,7 @@
         "index": {
           "description": "Residue groups all atoms assigned to the same aminoacid or nucleic acid base within polymer chain",
           "hierarchy": "Bio PDB Structure",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure",
           "name": "Residue",
           "package": "hPDB",
@@ -7162,6 +7714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe use only strict \u003ccode\u003eByteString\u003c/code\u003e as strings in PDB parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure",
           "name": "String",
           "package": "hPDB",
@@ -7171,6 +7724,7 @@
         "index": {
           "description": "We use only strict ByteString as strings in PDB parser",
           "hierarchy": "Bio PDB Structure",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure",
           "name": "String",
           "package": "hPDB",
@@ -7185,6 +7739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructure holds all data parsed from a single PDB entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.Structure",
           "name": "Structure",
           "package": "hPDB",
@@ -7194,6 +7749,7 @@
         "index": {
           "description": "Structure holds all data parsed from single PDB entry",
           "hierarchy": "Bio PDB Structure",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.Structure",
           "name": "Structure",
           "package": "hPDB",
@@ -7727,6 +8283,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFront-end module presenting minimal interface for serial and parallel parsing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.StructureBuilder",
           "name": "StructureBuilder",
           "package": "hPDB",
@@ -7736,6 +8293,7 @@
         "index": {
           "description": "Front-end module presenting minimal interface for serial and parallel parsing",
           "hierarchy": "Bio PDB StructureBuilder",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.StructureBuilder",
           "name": "StructureBuilder",
           "package": "hPDB",
@@ -7750,6 +8308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault parser - uses parallel capabilities, if available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.StructureBuilder",
           "name": "parse",
           "package": "hPDB",
@@ -7760,6 +8319,7 @@
         "index": {
           "description": "Default parser uses parallel capabilities if available",
           "hierarchy": "Bio PDB StructureBuilder",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.StructureBuilder",
           "name": "parse",
           "normalized": "FilePath-\u003eString-\u003e(Structure,List PDBEvent)",
@@ -7775,6 +8335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse file in parallel with as many threads as we have capabilities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.StructureBuilder",
           "name": "parseParallel",
           "package": "hPDB",
@@ -7785,6 +8346,7 @@
         "index": {
           "description": "Parse file in parallel with as many threads as we have capabilities",
           "hierarchy": "Bio PDB StructureBuilder",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.StructureBuilder",
           "name": "parseParallel",
           "normalized": "[Char]-\u003eByteString-\u003e(Structure,List PDBEvent)",
@@ -7801,6 +8363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven filename, and contents, parses a whole PDB file, returning a monadic action\n | with a tuple of (Structure, [PDBEvent]), where the list of events contains all\n | parsing or construction errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.StructureBuilder",
           "name": "parseSerial",
           "package": "hPDB",
@@ -7811,6 +8374,7 @@
         "index": {
           "description": "Given filename and contents parses whole PDB file returning monadic action with tuple of Structure PDBEvent where the list of events contains all parsing or construction errors",
           "hierarchy": "Bio PDB StructureBuilder",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.StructureBuilder",
           "name": "parseSerial",
           "normalized": "FilePath-\u003eString-\u003e(Structure,List PDBEvent)",
@@ -7827,6 +8391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse input file with N parallel threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.StructureBuilder",
           "name": "parseWithNParallel",
           "package": "hPDB",
@@ -7837,6 +8402,7 @@
         "index": {
           "description": "Parse input file with parallel threads",
           "hierarchy": "Bio PDB StructureBuilder",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.StructureBuilder",
           "name": "parseWithNParallel",
           "normalized": "a-\u003e[Char]-\u003eByteString-\u003e(Structure,List PDBEvent)",
@@ -7853,6 +8419,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHigh-level output routines for \u003ccode\u003e\u003ca\u003eStructure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.StructurePrinter",
           "name": "StructurePrinter",
           "package": "hPDB",
@@ -7862,6 +8429,7 @@
         "index": {
           "description": "High-level output routines for Structure",
           "hierarchy": "Bio PDB StructurePrinter",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.StructurePrinter",
           "name": "StructurePrinter",
           "package": "hPDB",
@@ -7876,6 +8444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass generating events for PDB structure fragments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.StructurePrinter",
           "name": "PDBWritable",
           "package": "hPDB",
@@ -7885,6 +8454,7 @@
         "index": {
           "description": "Class generating events for PDB structure fragments",
           "hierarchy": "Bio PDB StructurePrinter",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.StructurePrinter",
           "name": "PDBWritable",
           "package": "hPDB",
@@ -7899,6 +8469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites a structure or its part in a PDB format to a filehandle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB.StructurePrinter",
           "name": "write",
           "package": "hPDB",
@@ -7909,6 +8480,7 @@
         "index": {
           "description": "Writes structure or its part in PDB format to filehandle",
           "hierarchy": "Bio PDB StructurePrinter",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB.StructurePrinter",
           "name": "write",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -7923,6 +8495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "PDB",
           "package": "hPDB",
@@ -7931,6 +8504,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "PDB",
           "package": "hPDB",
@@ -7945,6 +8519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle atom position\n | NOTE: disordered atoms are now reported as multiplicates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "Atom",
           "package": "hPDB",
@@ -7954,6 +8529,7 @@
         "index": {
           "description": "Single atom position NOTE disordered atoms are now reported as multiplicates",
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "Atom",
           "package": "hPDB",
@@ -7968,6 +8544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle linear polymer chain of protein, or nucleic acids\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "Chain",
           "package": "hPDB",
@@ -7977,6 +8554,7 @@
         "index": {
           "description": "Single linear polymer chain of protein or nucleic acids",
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "Chain",
           "package": "hPDB",
@@ -7991,6 +8569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType alias for \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "Element",
           "package": "hPDB",
@@ -8000,6 +8579,7 @@
         "index": {
           "description": "Type alias for Element names",
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "Element",
           "package": "hPDB",
@@ -8014,6 +8594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for iterating all nested components \u003ccode\u003eb\u003c/code\u003e of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "Iterable",
           "package": "hPDB",
@@ -8022,6 +8603,7 @@
         "index": {
           "description": "Class for iterating all nested components of type",
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "Iterable",
           "package": "hPDB",
@@ -8036,6 +8618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePDB entry may contain multiple models, with slight differences in coordinates etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "Model",
           "package": "hPDB",
@@ -8045,6 +8628,7 @@
         "index": {
           "description": "PDB entry may contain multiple models with slight differences in coordinates etc",
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "Model",
           "package": "hPDB",
@@ -8059,6 +8643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass generating events for PDB structure fragments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "PDBWritable",
           "package": "hPDB",
@@ -8068,6 +8653,7 @@
         "index": {
           "description": "Class generating events for PDB structure fragments",
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "PDBWritable",
           "package": "hPDB",
@@ -8082,6 +8668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResidue groups all atoms assigned to the same aminoacid or nucleic acid base within a polymer chain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "Residue",
           "package": "hPDB",
@@ -8091,6 +8678,7 @@
         "index": {
           "description": "Residue groups all atoms assigned to the same aminoacid or nucleic acid base within polymer chain",
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "Residue",
           "package": "hPDB",
@@ -8105,6 +8693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructure holds all data parsed from a single PDB entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "Structure",
           "package": "hPDB",
@@ -8114,6 +8703,7 @@
         "index": {
           "description": "Structure holds all data parsed from single PDB entry",
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "Structure",
           "package": "hPDB",
@@ -8127,6 +8717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "itfoldM",
           "package": "hPDB",
@@ -8135,6 +8726,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "itfoldM",
           "normalized": "(a-\u003eb-\u003ec a)-\u003ea-\u003ed-\u003ec a",
@@ -8149,6 +8741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "itfoldl",
           "package": "hPDB",
@@ -8157,6 +8750,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "itfoldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec-\u003ea",
@@ -8171,6 +8765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "itfoldl'",
           "package": "hPDB",
@@ -8179,6 +8774,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "itfoldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec-\u003ea",
@@ -8193,6 +8789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "itfoldr",
           "package": "hPDB",
@@ -8201,6 +8798,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "itfoldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec-\u003eb",
@@ -8215,6 +8813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "itlength",
           "package": "hPDB",
@@ -8223,6 +8822,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "itlength",
           "normalized": "a-\u003eb-\u003eInt",
@@ -8237,6 +8837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "itmap",
           "package": "hPDB",
@@ -8245,6 +8846,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "itmap",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -8259,6 +8861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:32 UTC 2014",
           "module": "Bio.PDB",
           "name": "itmapM",
           "package": "hPDB",
@@ -8267,6 +8870,7 @@
         },
         "index": {
           "hierarchy": "Bio PDB",
+          "indexed": "2014-03-11T18:24:32",
           "module": "Bio.PDB",
           "name": "itmapM",
           "normalized": "(a-\u003eb a)-\u003ec-\u003eb c",

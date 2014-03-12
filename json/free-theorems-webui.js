@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "free-theorems-webui"
+        "phrase": "free-theorems-webui",
+        "type": "phrase"
       },
       "type": "context"
     }

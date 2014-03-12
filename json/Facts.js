@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Facts"
+        "phrase": "Facts",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "Decimal",
           "package": "Facts",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "Decimal",
           "package": "Facts",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "DecimalDigit",
           "package": "Facts",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "DecimalDigit",
           "package": "Facts",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "Eight",
           "package": "Facts",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "Eight",
           "package": "Facts",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "Five",
           "package": "Facts",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "Five",
           "package": "Facts",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "Four",
           "package": "Facts",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "Four",
           "package": "Facts",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "Nine",
           "package": "Facts",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "Nine",
           "package": "Facts",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "One",
           "package": "Facts",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "One",
           "package": "Facts",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "Seven",
           "package": "Facts",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "Seven",
           "package": "Facts",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "Six",
           "package": "Facts",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "Six",
           "package": "Facts",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "Three",
           "package": "Facts",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "Three",
           "package": "Facts",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "Two",
           "package": "Facts",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "Two",
           "package": "Facts",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "Zero",
           "package": "Facts",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "Zero",
           "package": "Facts",
@@ -281,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a DecimalDigit to its Integral form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "decimal_digit_to_integral",
           "package": "Facts",
@@ -291,6 +316,7 @@
         "index": {
           "description": "Takes DecimalDigit to its Integral form",
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "decimal_digit_to_integral",
           "normalized": "DecimalDigit-\u003ea",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "digits_to_integral",
           "package": "Facts",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "digits_to_integral",
           "normalized": "[DecimalDigit]-\u003ea",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "integral_to_digits",
           "package": "Facts",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "integral_to_digits",
           "normalized": "a-\u003e[DecimalDigit]",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "prop_decimal_digit_round_trip",
           "package": "Facts",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "prop_decimal_digit_round_trip",
           "normalized": "[DecimalDigit]-\u003eBool",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "prop_positive_integral_round_trip",
           "package": "Facts",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "prop_positive_integral_round_trip",
           "normalized": "a-\u003eBool",
@@ -398,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes an Integral digit to a DecimalDigit.  This function is partial\n   on a set of Integrals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Data.Numerals.Decimal",
           "name": "unsafe_integral_digit_to_decimal_digit",
           "package": "Facts",
@@ -408,6 +443,7 @@
         "index": {
           "description": "Takes an Integral digit to DecimalDigit This function is partial on set of Integrals",
           "hierarchy": "Data Numerals Decimal",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Data.Numerals.Decimal",
           "name": "unsafe_integral_digit_to_decimal_digit",
           "normalized": "a-\u003eDecimalDigit",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Continents",
           "name": "Continents",
           "package": "Facts",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Continents",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Continents",
           "name": "Continents",
           "package": "Facts",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Continents",
           "name": "Continent",
           "package": "Facts",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Continents",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Continents",
           "name": "Continent",
           "package": "Facts",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Continents",
           "name": "Africa",
           "package": "Facts",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Continents",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Continents",
           "name": "Africa",
           "package": "Facts",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Continents",
           "name": "Antarctica",
           "package": "Facts",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Continents",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Continents",
           "name": "Antarctica",
           "package": "Facts",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Continents",
           "name": "Asia",
           "package": "Facts",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Continents",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Continents",
           "name": "Asia",
           "package": "Facts",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Continents",
           "name": "Australia",
           "package": "Facts",
@@ -539,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Continents",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Continents",
           "name": "Australia",
           "package": "Facts",
@@ -552,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Continents",
           "name": "Europe",
           "package": "Facts",
@@ -561,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Continents",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Continents",
           "name": "Europe",
           "package": "Facts",
@@ -574,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Continents",
           "name": "NorthAmerica",
           "package": "Facts",
@@ -583,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Continents",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Continents",
           "name": "NorthAmerica",
           "package": "Facts",
@@ -596,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Continents",
           "name": "SouthAmerica",
           "package": "Facts",
@@ -605,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Continents",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Continents",
           "name": "SouthAmerica",
           "package": "Facts",
@@ -618,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "Address",
           "package": "Facts",
@@ -626,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates Address",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "Address",
           "package": "Facts",
@@ -639,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "Address",
           "package": "Facts",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates Address",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "Address",
           "package": "Facts",
@@ -660,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "Recipient",
           "package": "Facts",
@@ -668,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates Address",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "Recipient",
           "package": "Facts",
@@ -681,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "Address",
           "package": "Facts",
@@ -690,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates Address",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "Address",
           "package": "Facts",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "Recipient",
           "package": "Facts",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates Address",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "Recipient",
           "package": "Facts",
@@ -725,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "city",
           "package": "Facts",
@@ -734,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates Address",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "city",
           "package": "Facts",
@@ -746,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "recipient",
           "package": "Facts",
@@ -755,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates Address",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "recipient",
           "package": "Facts",
@@ -767,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "recipient_firm",
           "package": "Facts",
@@ -776,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates Address",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "recipient_firm",
           "package": "Facts",
@@ -788,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "recipient_name",
           "package": "Facts",
@@ -797,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates Address",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "recipient_name",
           "package": "Facts",
@@ -809,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "state",
           "package": "Facts",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates Address",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "state",
           "package": "Facts",
@@ -830,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "street_address",
           "package": "Facts",
@@ -839,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates Address",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "street_address",
           "package": "Facts",
@@ -851,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "street_address2",
           "package": "Facts",
@@ -860,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates Address",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "street_address2",
           "package": "Facts",
@@ -872,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "zip_code",
           "package": "Facts",
@@ -881,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates Address",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.Address",
           "name": "zip_code",
           "package": "Facts",
@@ -893,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.ZipCode",
           "name": "ZipCode",
           "package": "Facts",
@@ -901,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates ZipCode",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.ZipCode",
           "name": "ZipCode",
           "package": "Facts",
@@ -914,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.ZipCode",
           "name": "Digit",
           "package": "Facts",
@@ -922,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates ZipCode",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.ZipCode",
           "name": "Digit",
           "package": "Facts",
@@ -935,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.ZipCode",
           "name": "ZipCode",
           "package": "Facts",
@@ -943,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates ZipCode",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.ZipCode",
           "name": "ZipCode",
           "package": "Facts",
@@ -956,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.ZipCode",
           "name": "ZipCode",
           "package": "Facts",
@@ -965,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates ZipCode",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.ZipCode",
           "name": "ZipCode",
           "package": "Facts",
@@ -978,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.ZipCode",
           "name": "plus4",
           "package": "Facts",
@@ -987,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates ZipCode",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.ZipCode",
           "name": "plus4",
           "normalized": "Maybe(Digit,Digit,Digit,Digit)",
@@ -1001,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates.ZipCode",
           "name": "zip_code",
           "package": "Facts",
@@ -1010,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates ZipCode",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates.ZipCode",
           "name": "zip_code",
           "normalized": "(Digit,Digit,Digit,Digit,Digit)",
@@ -1024,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "UnitedStates",
           "package": "Facts",
@@ -1032,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "UnitedStates",
           "package": "Facts",
@@ -1046,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther US Entities, such as protectorates, districts, and others:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "OtherUSEntity",
           "package": "Facts",
@@ -1055,6 +1150,7 @@
         "index": {
           "description": "Other US Entities such as protectorates districts and others",
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "OtherUSEntity",
           "package": "Facts",
@@ -1069,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eState\u003c/a\u003e\u003c/code\u003e data type is a list of States in the United States.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "State",
           "package": "Facts",
@@ -1078,6 +1175,7 @@
         "index": {
           "description": "The State data type is list of States in the United States",
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "State",
           "package": "Facts",
@@ -1092,6 +1190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState abbreviations:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "StateAbbreviation",
           "package": "Facts",
@@ -1101,6 +1200,7 @@
         "index": {
           "description": "State abbreviations",
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "StateAbbreviation",
           "package": "Facts",
@@ -1114,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "StateCode",
           "package": "Facts",
@@ -1122,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "StateCode",
           "package": "Facts",
@@ -1135,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "AK",
           "package": "Facts",
@@ -1144,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "AK",
           "package": "Facts",
@@ -1157,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "AL",
           "package": "Facts",
@@ -1166,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "AL",
           "package": "Facts",
@@ -1179,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "AR",
           "package": "Facts",
@@ -1188,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "AR",
           "package": "Facts",
@@ -1201,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "AZ",
           "package": "Facts",
@@ -1210,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "AZ",
           "package": "Facts",
@@ -1223,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Alabama",
           "package": "Facts",
@@ -1232,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Alabama",
           "package": "Facts",
@@ -1245,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Alaska",
           "package": "Facts",
@@ -1254,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Alaska",
           "package": "Facts",
@@ -1267,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "AmericanSamoa",
           "package": "Facts",
@@ -1276,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "AmericanSamoa",
           "package": "Facts",
@@ -1289,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Arizona",
           "package": "Facts",
@@ -1298,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Arizona",
           "package": "Facts",
@@ -1311,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Arkansas",
           "package": "Facts",
@@ -1320,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Arkansas",
           "package": "Facts",
@@ -1333,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "CA",
           "package": "Facts",
@@ -1342,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "CA",
           "package": "Facts",
@@ -1355,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "CO",
           "package": "Facts",
@@ -1364,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "CO",
           "package": "Facts",
@@ -1377,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "CT",
           "package": "Facts",
@@ -1386,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "CT",
           "package": "Facts",
@@ -1399,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "California",
           "package": "Facts",
@@ -1408,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "California",
           "package": "Facts",
@@ -1421,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Colorodo",
           "package": "Facts",
@@ -1430,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Colorodo",
           "package": "Facts",
@@ -1443,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Connecticut",
           "package": "Facts",
@@ -1452,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Connecticut",
           "package": "Facts",
@@ -1465,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "DE",
           "package": "Facts",
@@ -1474,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "DE",
           "package": "Facts",
@@ -1487,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Delaware",
           "package": "Facts",
@@ -1496,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Delaware",
           "package": "Facts",
@@ -1509,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "DistrictOfColumbia",
           "package": "Facts",
@@ -1518,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "DistrictOfColumbia",
           "package": "Facts",
@@ -1531,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "FL",
           "package": "Facts",
@@ -1540,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "FL",
           "package": "Facts",
@@ -1553,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Florida",
           "package": "Facts",
@@ -1562,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Florida",
           "package": "Facts",
@@ -1575,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "GA",
           "package": "Facts",
@@ -1584,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "GA",
           "package": "Facts",
@@ -1597,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Georgia",
           "package": "Facts",
@@ -1606,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Georgia",
           "package": "Facts",
@@ -1619,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Guam",
           "package": "Facts",
@@ -1628,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Guam",
           "package": "Facts",
@@ -1641,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "HI",
           "package": "Facts",
@@ -1650,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "HI",
           "package": "Facts",
@@ -1663,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Hawaii",
           "package": "Facts",
@@ -1672,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Hawaii",
           "package": "Facts",
@@ -1685,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "IA",
           "package": "Facts",
@@ -1694,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "IA",
           "package": "Facts",
@@ -1707,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "ID",
           "package": "Facts",
@@ -1716,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "ID",
           "package": "Facts",
@@ -1729,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "IL",
           "package": "Facts",
@@ -1738,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "IL",
           "package": "Facts",
@@ -1751,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "IN",
           "package": "Facts",
@@ -1760,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "IN",
           "package": "Facts",
@@ -1773,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Idaho",
           "package": "Facts",
@@ -1782,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Idaho",
           "package": "Facts",
@@ -1795,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Illinois",
           "package": "Facts",
@@ -1804,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Illinois",
           "package": "Facts",
@@ -1817,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Indiana",
           "package": "Facts",
@@ -1826,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Indiana",
           "package": "Facts",
@@ -1839,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Iowa",
           "package": "Facts",
@@ -1848,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Iowa",
           "package": "Facts",
@@ -1861,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "KS",
           "package": "Facts",
@@ -1870,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "KS",
           "package": "Facts",
@@ -1883,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "KY",
           "package": "Facts",
@@ -1892,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "KY",
           "package": "Facts",
@@ -1905,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Kansas",
           "package": "Facts",
@@ -1914,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Kansas",
           "package": "Facts",
@@ -1927,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Kentucky",
           "package": "Facts",
@@ -1936,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Kentucky",
           "package": "Facts",
@@ -1949,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "LA",
           "package": "Facts",
@@ -1958,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "LA",
           "package": "Facts",
@@ -1971,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Louisiana",
           "package": "Facts",
@@ -1980,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Louisiana",
           "package": "Facts",
@@ -1993,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "MA",
           "package": "Facts",
@@ -2002,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "MA",
           "package": "Facts",
@@ -2015,6 +2197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "MD",
           "package": "Facts",
@@ -2024,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "MD",
           "package": "Facts",
@@ -2037,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "ME",
           "package": "Facts",
@@ -2046,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "ME",
           "package": "Facts",
@@ -2059,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "MI",
           "package": "Facts",
@@ -2068,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "MI",
           "package": "Facts",
@@ -2081,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "MN",
           "package": "Facts",
@@ -2090,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "MN",
           "package": "Facts",
@@ -2103,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "MO",
           "package": "Facts",
@@ -2112,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "MO",
           "package": "Facts",
@@ -2125,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "MS",
           "package": "Facts",
@@ -2134,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "MS",
           "package": "Facts",
@@ -2147,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "MT",
           "package": "Facts",
@@ -2156,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "MT",
           "package": "Facts",
@@ -2169,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Maine",
           "package": "Facts",
@@ -2178,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Maine",
           "package": "Facts",
@@ -2191,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Maryland",
           "package": "Facts",
@@ -2200,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Maryland",
           "package": "Facts",
@@ -2213,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Massachusetts",
           "package": "Facts",
@@ -2222,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Massachusetts",
           "package": "Facts",
@@ -2235,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Michigan",
           "package": "Facts",
@@ -2244,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Michigan",
           "package": "Facts",
@@ -2257,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Minnesota",
           "package": "Facts",
@@ -2266,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Minnesota",
           "package": "Facts",
@@ -2279,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Mississippi",
           "package": "Facts",
@@ -2288,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Mississippi",
           "package": "Facts",
@@ -2301,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Missouri",
           "package": "Facts",
@@ -2310,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Missouri",
           "package": "Facts",
@@ -2323,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Montana",
           "package": "Facts",
@@ -2332,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Montana",
           "package": "Facts",
@@ -2345,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NC",
           "package": "Facts",
@@ -2354,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NC",
           "package": "Facts",
@@ -2367,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "ND",
           "package": "Facts",
@@ -2376,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "ND",
           "package": "Facts",
@@ -2389,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NE",
           "package": "Facts",
@@ -2398,6 +2615,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NE",
           "package": "Facts",
@@ -2411,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NH",
           "package": "Facts",
@@ -2420,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NH",
           "package": "Facts",
@@ -2433,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NJ",
           "package": "Facts",
@@ -2442,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NJ",
           "package": "Facts",
@@ -2455,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NM",
           "package": "Facts",
@@ -2464,6 +2687,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NM",
           "package": "Facts",
@@ -2477,6 +2701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NV",
           "package": "Facts",
@@ -2486,6 +2711,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NV",
           "package": "Facts",
@@ -2499,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NY",
           "package": "Facts",
@@ -2508,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NY",
           "package": "Facts",
@@ -2521,6 +2749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Nebraska",
           "package": "Facts",
@@ -2530,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Nebraska",
           "package": "Facts",
@@ -2543,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Nevada",
           "package": "Facts",
@@ -2552,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Nevada",
           "package": "Facts",
@@ -2565,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NewHampshire",
           "package": "Facts",
@@ -2574,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NewHampshire",
           "package": "Facts",
@@ -2587,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NewJersey",
           "package": "Facts",
@@ -2596,6 +2831,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NewJersey",
           "package": "Facts",
@@ -2609,6 +2845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NewMexico",
           "package": "Facts",
@@ -2618,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NewMexico",
           "package": "Facts",
@@ -2631,6 +2869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NewYork",
           "package": "Facts",
@@ -2640,6 +2879,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NewYork",
           "package": "Facts",
@@ -2653,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NorthCarolina",
           "package": "Facts",
@@ -2662,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NorthCarolina",
           "package": "Facts",
@@ -2675,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NorthDakota",
           "package": "Facts",
@@ -2684,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NorthDakota",
           "package": "Facts",
@@ -2697,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NorthernMarianaIslands",
           "package": "Facts",
@@ -2706,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "NorthernMarianaIslands",
           "package": "Facts",
@@ -2719,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "OH",
           "package": "Facts",
@@ -2728,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "OH",
           "package": "Facts",
@@ -2741,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "OK",
           "package": "Facts",
@@ -2750,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "OK",
           "package": "Facts",
@@ -2763,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "OR",
           "package": "Facts",
@@ -2772,6 +3023,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "OR",
           "package": "Facts",
@@ -2785,6 +3037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Ohio",
           "package": "Facts",
@@ -2794,6 +3047,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Ohio",
           "package": "Facts",
@@ -2807,6 +3061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Oklahoma",
           "package": "Facts",
@@ -2816,6 +3071,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Oklahoma",
           "package": "Facts",
@@ -2829,6 +3085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Oregon",
           "package": "Facts",
@@ -2838,6 +3095,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Oregon",
           "package": "Facts",
@@ -2851,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "PA",
           "package": "Facts",
@@ -2860,6 +3119,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "PA",
           "package": "Facts",
@@ -2873,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Pennsylvania",
           "package": "Facts",
@@ -2882,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Pennsylvania",
           "package": "Facts",
@@ -2895,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "PuertoRico",
           "package": "Facts",
@@ -2904,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "PuertoRico",
           "package": "Facts",
@@ -2917,6 +3181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "RI",
           "package": "Facts",
@@ -2926,6 +3191,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "RI",
           "package": "Facts",
@@ -2939,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "RhodeIsland",
           "package": "Facts",
@@ -2948,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "RhodeIsland",
           "package": "Facts",
@@ -2961,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "SC",
           "package": "Facts",
@@ -2970,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "SC",
           "package": "Facts",
@@ -2983,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "SD",
           "package": "Facts",
@@ -2992,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "SD",
           "package": "Facts",
@@ -3005,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "SouthCarolina",
           "package": "Facts",
@@ -3014,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "SouthCarolina",
           "package": "Facts",
@@ -3027,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "SouthDakota",
           "package": "Facts",
@@ -3036,6 +3311,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "SouthDakota",
           "package": "Facts",
@@ -3049,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "TN",
           "package": "Facts",
@@ -3058,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "TN",
           "package": "Facts",
@@ -3071,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "TX",
           "package": "Facts",
@@ -3080,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "TX",
           "package": "Facts",
@@ -3093,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Tennessee",
           "package": "Facts",
@@ -3102,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Tennessee",
           "package": "Facts",
@@ -3115,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Texas",
           "package": "Facts",
@@ -3124,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Texas",
           "package": "Facts",
@@ -3137,6 +3421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "USVirginIslands",
           "package": "Facts",
@@ -3146,6 +3431,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "USVirginIslands",
           "package": "Facts",
@@ -3159,6 +3445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "UT",
           "package": "Facts",
@@ -3168,6 +3455,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "UT",
           "package": "Facts",
@@ -3181,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Utah",
           "package": "Facts",
@@ -3190,6 +3479,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Utah",
           "package": "Facts",
@@ -3203,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "VA",
           "package": "Facts",
@@ -3212,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "VA",
           "package": "Facts",
@@ -3225,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "VT",
           "package": "Facts",
@@ -3234,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "VT",
           "package": "Facts",
@@ -3247,6 +3541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Vermont",
           "package": "Facts",
@@ -3256,6 +3551,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Vermont",
           "package": "Facts",
@@ -3269,6 +3565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Virginia",
           "package": "Facts",
@@ -3278,6 +3575,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Virginia",
           "package": "Facts",
@@ -3291,6 +3589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "WA",
           "package": "Facts",
@@ -3300,6 +3599,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "WA",
           "package": "Facts",
@@ -3313,6 +3613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "WI",
           "package": "Facts",
@@ -3322,6 +3623,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "WI",
           "package": "Facts",
@@ -3335,6 +3637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "WV",
           "package": "Facts",
@@ -3344,6 +3647,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "WV",
           "package": "Facts",
@@ -3357,6 +3661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "WY",
           "package": "Facts",
@@ -3366,6 +3671,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "WY",
           "package": "Facts",
@@ -3379,6 +3685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Washington",
           "package": "Facts",
@@ -3388,6 +3695,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Washington",
           "package": "Facts",
@@ -3401,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "WestVirginia",
           "package": "Facts",
@@ -3410,6 +3719,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "WestVirginia",
           "package": "Facts",
@@ -3423,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Wisconsin",
           "package": "Facts",
@@ -3432,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Wisconsin",
           "package": "Facts",
@@ -3445,6 +3757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Wyoming",
           "package": "Facts",
@@ -3454,6 +3767,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "Wyoming",
           "package": "Facts",
@@ -3467,6 +3781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "state_by_state_code",
           "package": "Facts",
@@ -3476,6 +3791,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "state_by_state_code",
           "normalized": "StateAbbreviation-\u003eState",
@@ -3490,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "state_code_by_state",
           "package": "Facts",
@@ -3499,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries UnitedStates",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries.UnitedStates",
           "name": "state_code_by_state",
           "normalized": "State-\u003eStateAbbreviation",
@@ -3513,6 +3831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Countries",
           "package": "Facts",
@@ -3521,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Countries",
           "package": "Facts",
@@ -3535,6 +3855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of \"countries\" includes sovereign nations and other \"areas of geographical interest\",\n   as defined by the United Nations, whose definition was adopted by ISO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Country",
           "package": "Facts",
@@ -3544,6 +3865,7 @@
         "index": {
           "description": "The type of countries includes sovereign nations and other areas of geographical interest as defined by the United Nations whose definition was adopted by ISO",
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Country",
           "package": "Facts",
@@ -3557,6 +3879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ISOAlpha2Code",
           "package": "Facts",
@@ -3565,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ISOAlpha2Code",
           "package": "Facts",
@@ -3578,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ISOAlpha3Code",
           "package": "Facts",
@@ -3586,6 +3911,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ISOAlpha3Code",
           "package": "Facts",
@@ -3599,6 +3925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ISONumericCode",
           "package": "Facts",
@@ -3607,6 +3934,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ISONumericCode",
           "package": "Facts",
@@ -3620,6 +3948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UNFormalName",
           "package": "Facts",
@@ -3628,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UNFormalName",
           "package": "Facts",
@@ -3641,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UNShortName",
           "package": "Facts",
@@ -3649,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UNShortName",
           "package": "Facts",
@@ -3662,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ABW",
           "package": "Facts",
@@ -3671,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ABW",
           "package": "Facts",
@@ -3684,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AD",
           "package": "Facts",
@@ -3693,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AD",
           "package": "Facts",
@@ -3706,6 +4042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AE",
           "package": "Facts",
@@ -3715,6 +4052,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AE",
           "package": "Facts",
@@ -3728,6 +4066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AF",
           "package": "Facts",
@@ -3737,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AF",
           "package": "Facts",
@@ -3750,6 +4090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AFG",
           "package": "Facts",
@@ -3759,6 +4100,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AFG",
           "package": "Facts",
@@ -3772,6 +4114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AG",
           "package": "Facts",
@@ -3781,6 +4124,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AG",
           "package": "Facts",
@@ -3794,6 +4138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AGO",
           "package": "Facts",
@@ -3803,6 +4148,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AGO",
           "package": "Facts",
@@ -3816,6 +4162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AI",
           "package": "Facts",
@@ -3825,6 +4172,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AI",
           "package": "Facts",
@@ -3838,6 +4186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AIA",
           "package": "Facts",
@@ -3847,6 +4196,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AIA",
           "package": "Facts",
@@ -3860,6 +4210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AL",
           "package": "Facts",
@@ -3869,6 +4220,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AL",
           "package": "Facts",
@@ -3882,6 +4234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ALA",
           "package": "Facts",
@@ -3891,6 +4244,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ALA",
           "package": "Facts",
@@ -3904,6 +4258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ALB",
           "package": "Facts",
@@ -3913,6 +4268,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ALB",
           "package": "Facts",
@@ -3926,6 +4282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AM",
           "package": "Facts",
@@ -3935,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AM",
           "package": "Facts",
@@ -3948,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AN",
           "package": "Facts",
@@ -3957,6 +4316,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AN",
           "package": "Facts",
@@ -3970,6 +4330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AND",
           "package": "Facts",
@@ -3979,6 +4340,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AND",
           "package": "Facts",
@@ -3992,6 +4354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ANT",
           "package": "Facts",
@@ -4001,6 +4364,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ANT",
           "package": "Facts",
@@ -4014,6 +4378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AO",
           "package": "Facts",
@@ -4023,6 +4388,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AO",
           "package": "Facts",
@@ -4036,6 +4402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AQ",
           "package": "Facts",
@@ -4045,6 +4412,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AQ",
           "package": "Facts",
@@ -4058,6 +4426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AR",
           "package": "Facts",
@@ -4067,6 +4436,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AR",
           "package": "Facts",
@@ -4080,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ARE",
           "package": "Facts",
@@ -4089,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ARE",
           "package": "Facts",
@@ -4102,6 +4474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ARG",
           "package": "Facts",
@@ -4111,6 +4484,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ARG",
           "package": "Facts",
@@ -4124,6 +4498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ARM",
           "package": "Facts",
@@ -4133,6 +4508,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ARM",
           "package": "Facts",
@@ -4146,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AS",
           "package": "Facts",
@@ -4155,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AS",
           "package": "Facts",
@@ -4168,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ASM",
           "package": "Facts",
@@ -4177,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ASM",
           "package": "Facts",
@@ -4190,6 +4570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AT",
           "package": "Facts",
@@ -4199,6 +4580,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AT",
           "package": "Facts",
@@ -4212,6 +4594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ATA",
           "package": "Facts",
@@ -4221,6 +4604,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ATA",
           "package": "Facts",
@@ -4234,6 +4618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ATF",
           "package": "Facts",
@@ -4243,6 +4628,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ATF",
           "package": "Facts",
@@ -4256,6 +4642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ATG",
           "package": "Facts",
@@ -4265,6 +4652,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ATG",
           "package": "Facts",
@@ -4278,6 +4666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AU",
           "package": "Facts",
@@ -4287,6 +4676,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AU",
           "package": "Facts",
@@ -4300,6 +4690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AUS",
           "package": "Facts",
@@ -4309,6 +4700,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AUS",
           "package": "Facts",
@@ -4322,6 +4714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AUT",
           "package": "Facts",
@@ -4331,6 +4724,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AUT",
           "package": "Facts",
@@ -4344,6 +4738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AW",
           "package": "Facts",
@@ -4353,6 +4748,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AW",
           "package": "Facts",
@@ -4366,6 +4762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AX",
           "package": "Facts",
@@ -4375,6 +4772,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AX",
           "package": "Facts",
@@ -4388,6 +4786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AZ",
           "package": "Facts",
@@ -4397,6 +4796,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AZ",
           "package": "Facts",
@@ -4410,6 +4810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AZE",
           "package": "Facts",
@@ -4419,6 +4820,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AZE",
           "package": "Facts",
@@ -4432,6 +4834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Afghanistan",
           "package": "Facts",
@@ -4441,6 +4844,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Afghanistan",
           "package": "Facts",
@@ -4454,6 +4858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AlandIslands",
           "package": "Facts",
@@ -4463,6 +4868,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AlandIslands",
           "package": "Facts",
@@ -4476,6 +4882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Albania",
           "package": "Facts",
@@ -4485,6 +4892,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Albania",
           "package": "Facts",
@@ -4498,6 +4906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Algeria",
           "package": "Facts",
@@ -4507,6 +4916,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Algeria",
           "package": "Facts",
@@ -4520,6 +4930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AmericanSamoa",
           "package": "Facts",
@@ -4529,6 +4940,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AmericanSamoa",
           "package": "Facts",
@@ -4542,6 +4954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Andorra",
           "package": "Facts",
@@ -4551,6 +4964,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Andorra",
           "package": "Facts",
@@ -4564,6 +4978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Angola",
           "package": "Facts",
@@ -4573,6 +4988,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Angola",
           "package": "Facts",
@@ -4586,6 +5002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Anguilla",
           "package": "Facts",
@@ -4595,6 +5012,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Anguilla",
           "package": "Facts",
@@ -4608,6 +5026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Antarctica",
           "package": "Facts",
@@ -4617,6 +5036,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Antarctica",
           "package": "Facts",
@@ -4630,6 +5050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "AntiguaAndBarbuda",
           "package": "Facts",
@@ -4639,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "AntiguaAndBarbuda",
           "package": "Facts",
@@ -4652,6 +5074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Argentina",
           "package": "Facts",
@@ -4661,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Argentina",
           "package": "Facts",
@@ -4674,6 +5098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Armenia",
           "package": "Facts",
@@ -4683,6 +5108,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Armenia",
           "package": "Facts",
@@ -4696,6 +5122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Aruba",
           "package": "Facts",
@@ -4705,6 +5132,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Aruba",
           "package": "Facts",
@@ -4718,6 +5146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Australia",
           "package": "Facts",
@@ -4727,6 +5156,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Australia",
           "package": "Facts",
@@ -4740,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Austria",
           "package": "Facts",
@@ -4749,6 +5180,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Austria",
           "package": "Facts",
@@ -4762,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Azerbaijan",
           "package": "Facts",
@@ -4771,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Azerbaijan",
           "package": "Facts",
@@ -4784,6 +5218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BA",
           "package": "Facts",
@@ -4793,6 +5228,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BA",
           "package": "Facts",
@@ -4806,6 +5242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BB",
           "package": "Facts",
@@ -4815,6 +5252,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BB",
           "package": "Facts",
@@ -4828,6 +5266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BD",
           "package": "Facts",
@@ -4837,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BD",
           "package": "Facts",
@@ -4850,6 +5290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BDI",
           "package": "Facts",
@@ -4859,6 +5300,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BDI",
           "package": "Facts",
@@ -4872,6 +5314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BE",
           "package": "Facts",
@@ -4881,6 +5324,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BE",
           "package": "Facts",
@@ -4894,6 +5338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BEL",
           "package": "Facts",
@@ -4903,6 +5348,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BEL",
           "package": "Facts",
@@ -4916,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BEN",
           "package": "Facts",
@@ -4925,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BEN",
           "package": "Facts",
@@ -4938,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BF",
           "package": "Facts",
@@ -4947,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BF",
           "package": "Facts",
@@ -4960,6 +5410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BFA",
           "package": "Facts",
@@ -4969,6 +5420,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BFA",
           "package": "Facts",
@@ -4982,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BG",
           "package": "Facts",
@@ -4991,6 +5444,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BG",
           "package": "Facts",
@@ -5004,6 +5458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BGD",
           "package": "Facts",
@@ -5013,6 +5468,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BGD",
           "package": "Facts",
@@ -5026,6 +5482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BGR",
           "package": "Facts",
@@ -5035,6 +5492,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BGR",
           "package": "Facts",
@@ -5048,6 +5506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BH",
           "package": "Facts",
@@ -5057,6 +5516,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BH",
           "package": "Facts",
@@ -5070,6 +5530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BHR",
           "package": "Facts",
@@ -5079,6 +5540,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BHR",
           "package": "Facts",
@@ -5092,6 +5554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BHS",
           "package": "Facts",
@@ -5101,6 +5564,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BHS",
           "package": "Facts",
@@ -5114,6 +5578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BI",
           "package": "Facts",
@@ -5123,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BI",
           "package": "Facts",
@@ -5136,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BIH",
           "package": "Facts",
@@ -5145,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BIH",
           "package": "Facts",
@@ -5158,6 +5626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BJ",
           "package": "Facts",
@@ -5167,6 +5636,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BJ",
           "package": "Facts",
@@ -5180,6 +5650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BL",
           "package": "Facts",
@@ -5189,6 +5660,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BL",
           "package": "Facts",
@@ -5202,6 +5674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BLM",
           "package": "Facts",
@@ -5211,6 +5684,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BLM",
           "package": "Facts",
@@ -5224,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BLR",
           "package": "Facts",
@@ -5233,6 +5708,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BLR",
           "package": "Facts",
@@ -5246,6 +5722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BLZ",
           "package": "Facts",
@@ -5255,6 +5732,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BLZ",
           "package": "Facts",
@@ -5268,6 +5746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BM",
           "package": "Facts",
@@ -5277,6 +5756,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BM",
           "package": "Facts",
@@ -5290,6 +5770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BMU",
           "package": "Facts",
@@ -5299,6 +5780,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BMU",
           "package": "Facts",
@@ -5312,6 +5794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BN",
           "package": "Facts",
@@ -5321,6 +5804,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BN",
           "package": "Facts",
@@ -5334,6 +5818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BO",
           "package": "Facts",
@@ -5343,6 +5828,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BO",
           "package": "Facts",
@@ -5356,6 +5842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BOL",
           "package": "Facts",
@@ -5365,6 +5852,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BOL",
           "package": "Facts",
@@ -5378,6 +5866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BR",
           "package": "Facts",
@@ -5387,6 +5876,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BR",
           "package": "Facts",
@@ -5400,6 +5890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BRA",
           "package": "Facts",
@@ -5409,6 +5900,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BRA",
           "package": "Facts",
@@ -5422,6 +5914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BRB",
           "package": "Facts",
@@ -5431,6 +5924,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BRB",
           "package": "Facts",
@@ -5444,6 +5938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BRN",
           "package": "Facts",
@@ -5453,6 +5948,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BRN",
           "package": "Facts",
@@ -5466,6 +5962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BS",
           "package": "Facts",
@@ -5475,6 +5972,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BS",
           "package": "Facts",
@@ -5488,6 +5986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BT",
           "package": "Facts",
@@ -5497,6 +5996,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BT",
           "package": "Facts",
@@ -5510,6 +6010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BTN",
           "package": "Facts",
@@ -5519,6 +6020,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BTN",
           "package": "Facts",
@@ -5532,6 +6034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BV",
           "package": "Facts",
@@ -5541,6 +6044,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BV",
           "package": "Facts",
@@ -5554,6 +6058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BVT",
           "package": "Facts",
@@ -5563,6 +6068,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BVT",
           "package": "Facts",
@@ -5576,6 +6082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BW",
           "package": "Facts",
@@ -5585,6 +6092,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BW",
           "package": "Facts",
@@ -5598,6 +6106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BWA",
           "package": "Facts",
@@ -5607,6 +6116,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BWA",
           "package": "Facts",
@@ -5620,6 +6130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BY",
           "package": "Facts",
@@ -5629,6 +6140,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BY",
           "package": "Facts",
@@ -5642,6 +6154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BZ",
           "package": "Facts",
@@ -5651,6 +6164,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BZ",
           "package": "Facts",
@@ -5664,6 +6178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Bahamas",
           "package": "Facts",
@@ -5673,6 +6188,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Bahamas",
           "package": "Facts",
@@ -5686,6 +6202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Bahrain",
           "package": "Facts",
@@ -5695,6 +6212,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Bahrain",
           "package": "Facts",
@@ -5708,6 +6226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Bangladesh",
           "package": "Facts",
@@ -5717,6 +6236,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Bangladesh",
           "package": "Facts",
@@ -5730,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Barbados",
           "package": "Facts",
@@ -5739,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Barbados",
           "package": "Facts",
@@ -5752,6 +6274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Belarus",
           "package": "Facts",
@@ -5761,6 +6284,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Belarus",
           "package": "Facts",
@@ -5774,6 +6298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Belgium",
           "package": "Facts",
@@ -5783,6 +6308,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Belgium",
           "package": "Facts",
@@ -5796,6 +6322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Belize",
           "package": "Facts",
@@ -5805,6 +6332,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Belize",
           "package": "Facts",
@@ -5818,6 +6346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Benin",
           "package": "Facts",
@@ -5827,6 +6356,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Benin",
           "package": "Facts",
@@ -5840,6 +6370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Bermuda",
           "package": "Facts",
@@ -5849,6 +6380,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Bermuda",
           "package": "Facts",
@@ -5862,6 +6394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Bhutan",
           "package": "Facts",
@@ -5871,6 +6404,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Bhutan",
           "package": "Facts",
@@ -5884,6 +6418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Bolivia",
           "package": "Facts",
@@ -5893,6 +6428,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Bolivia",
           "package": "Facts",
@@ -5906,6 +6442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BosniaAndHerzegovina",
           "package": "Facts",
@@ -5915,6 +6452,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BosniaAndHerzegovina",
           "package": "Facts",
@@ -5928,6 +6466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Botswana",
           "package": "Facts",
@@ -5937,6 +6476,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Botswana",
           "package": "Facts",
@@ -5950,6 +6490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BouvetIsland",
           "package": "Facts",
@@ -5959,6 +6500,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BouvetIsland",
           "package": "Facts",
@@ -5972,6 +6514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Brazil",
           "package": "Facts",
@@ -5981,6 +6524,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Brazil",
           "package": "Facts",
@@ -5994,6 +6538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BritishIndianOceanTerritory",
           "package": "Facts",
@@ -6003,6 +6548,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BritishIndianOceanTerritory",
           "package": "Facts",
@@ -6016,6 +6562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BritishVirginIslands",
           "package": "Facts",
@@ -6025,6 +6572,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BritishVirginIslands",
           "package": "Facts",
@@ -6038,6 +6586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BruneiDarussalam",
           "package": "Facts",
@@ -6047,6 +6596,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BruneiDarussalam",
           "package": "Facts",
@@ -6060,6 +6610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Bulgaria",
           "package": "Facts",
@@ -6069,6 +6620,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Bulgaria",
           "package": "Facts",
@@ -6082,6 +6634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "BurkinaFaso",
           "package": "Facts",
@@ -6091,6 +6644,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "BurkinaFaso",
           "package": "Facts",
@@ -6104,6 +6658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Burundi",
           "package": "Facts",
@@ -6113,6 +6668,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Burundi",
           "package": "Facts",
@@ -6126,6 +6682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CA",
           "package": "Facts",
@@ -6135,6 +6692,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CA",
           "package": "Facts",
@@ -6148,6 +6706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CAF",
           "package": "Facts",
@@ -6157,6 +6716,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CAF",
           "package": "Facts",
@@ -6170,6 +6730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CAN",
           "package": "Facts",
@@ -6179,6 +6740,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CAN",
           "package": "Facts",
@@ -6192,6 +6754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CC",
           "package": "Facts",
@@ -6201,6 +6764,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CC",
           "package": "Facts",
@@ -6214,6 +6778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CCK",
           "package": "Facts",
@@ -6223,6 +6788,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CCK",
           "package": "Facts",
@@ -6236,6 +6802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CD",
           "package": "Facts",
@@ -6245,6 +6812,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CD",
           "package": "Facts",
@@ -6258,6 +6826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CF",
           "package": "Facts",
@@ -6267,6 +6836,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CF",
           "package": "Facts",
@@ -6280,6 +6850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CG",
           "package": "Facts",
@@ -6289,6 +6860,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CG",
           "package": "Facts",
@@ -6302,6 +6874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CH",
           "package": "Facts",
@@ -6311,6 +6884,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CH",
           "package": "Facts",
@@ -6324,6 +6898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CHE",
           "package": "Facts",
@@ -6333,6 +6908,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CHE",
           "package": "Facts",
@@ -6346,6 +6922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CHL",
           "package": "Facts",
@@ -6355,6 +6932,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CHL",
           "package": "Facts",
@@ -6368,6 +6946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CHN",
           "package": "Facts",
@@ -6377,6 +6956,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CHN",
           "package": "Facts",
@@ -6390,6 +6970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CI",
           "package": "Facts",
@@ -6399,6 +6980,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CI",
           "package": "Facts",
@@ -6412,6 +6994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CIV",
           "package": "Facts",
@@ -6421,6 +7004,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CIV",
           "package": "Facts",
@@ -6434,6 +7018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CK",
           "package": "Facts",
@@ -6443,6 +7028,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CK",
           "package": "Facts",
@@ -6456,6 +7042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CL",
           "package": "Facts",
@@ -6465,6 +7052,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CL",
           "package": "Facts",
@@ -6478,6 +7066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CM",
           "package": "Facts",
@@ -6487,6 +7076,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CM",
           "package": "Facts",
@@ -6500,6 +7090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CMR",
           "package": "Facts",
@@ -6509,6 +7100,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CMR",
           "package": "Facts",
@@ -6522,6 +7114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CN",
           "package": "Facts",
@@ -6531,6 +7124,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CN",
           "package": "Facts",
@@ -6544,6 +7138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CO",
           "package": "Facts",
@@ -6553,6 +7148,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CO",
           "package": "Facts",
@@ -6566,6 +7162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "COD",
           "package": "Facts",
@@ -6575,6 +7172,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "COD",
           "package": "Facts",
@@ -6588,6 +7186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "COG",
           "package": "Facts",
@@ -6597,6 +7196,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "COG",
           "package": "Facts",
@@ -6610,6 +7210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "COK",
           "package": "Facts",
@@ -6619,6 +7220,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "COK",
           "package": "Facts",
@@ -6632,6 +7234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "COL",
           "package": "Facts",
@@ -6641,6 +7244,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "COL",
           "package": "Facts",
@@ -6654,6 +7258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "COM",
           "package": "Facts",
@@ -6663,6 +7268,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "COM",
           "package": "Facts",
@@ -6676,6 +7282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CPV",
           "package": "Facts",
@@ -6685,6 +7292,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CPV",
           "package": "Facts",
@@ -6698,6 +7306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CR",
           "package": "Facts",
@@ -6707,6 +7316,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CR",
           "package": "Facts",
@@ -6720,6 +7330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CRI",
           "package": "Facts",
@@ -6729,6 +7340,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CRI",
           "package": "Facts",
@@ -6742,6 +7354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CU",
           "package": "Facts",
@@ -6751,6 +7364,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CU",
           "package": "Facts",
@@ -6764,6 +7378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CUB",
           "package": "Facts",
@@ -6773,6 +7388,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CUB",
           "package": "Facts",
@@ -6786,6 +7402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CV",
           "package": "Facts",
@@ -6795,6 +7412,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CV",
           "package": "Facts",
@@ -6808,6 +7426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CX",
           "package": "Facts",
@@ -6817,6 +7436,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CX",
           "package": "Facts",
@@ -6830,6 +7450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CXR",
           "package": "Facts",
@@ -6839,6 +7460,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CXR",
           "package": "Facts",
@@ -6852,6 +7474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CY",
           "package": "Facts",
@@ -6861,6 +7484,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CY",
           "package": "Facts",
@@ -6874,6 +7498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CYM",
           "package": "Facts",
@@ -6883,6 +7508,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CYM",
           "package": "Facts",
@@ -6896,6 +7522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CYP",
           "package": "Facts",
@@ -6905,6 +7532,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CYP",
           "package": "Facts",
@@ -6918,6 +7546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CZ",
           "package": "Facts",
@@ -6927,6 +7556,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CZ",
           "package": "Facts",
@@ -6940,6 +7570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CZE",
           "package": "Facts",
@@ -6949,6 +7580,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CZE",
           "package": "Facts",
@@ -6962,6 +7594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Cambodia",
           "package": "Facts",
@@ -6971,6 +7604,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Cambodia",
           "package": "Facts",
@@ -6984,6 +7618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Cameroon",
           "package": "Facts",
@@ -6993,6 +7628,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Cameroon",
           "package": "Facts",
@@ -7006,6 +7642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Canada",
           "package": "Facts",
@@ -7015,6 +7652,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Canada",
           "package": "Facts",
@@ -7028,6 +7666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CapeVerde",
           "package": "Facts",
@@ -7037,6 +7676,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CapeVerde",
           "package": "Facts",
@@ -7050,6 +7690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CaymanIslands",
           "package": "Facts",
@@ -7059,6 +7700,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CaymanIslands",
           "package": "Facts",
@@ -7072,6 +7714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CentralAfricanRepublic",
           "package": "Facts",
@@ -7081,6 +7724,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CentralAfricanRepublic",
           "package": "Facts",
@@ -7094,6 +7738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Chad",
           "package": "Facts",
@@ -7103,6 +7748,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Chad",
           "package": "Facts",
@@ -7116,6 +7762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Chile",
           "package": "Facts",
@@ -7125,6 +7772,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Chile",
           "package": "Facts",
@@ -7138,6 +7786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "China",
           "package": "Facts",
@@ -7147,6 +7796,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "China",
           "package": "Facts",
@@ -7160,6 +7810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ChristmasIsland",
           "package": "Facts",
@@ -7169,6 +7820,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ChristmasIsland",
           "package": "Facts",
@@ -7182,6 +7834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CocosKeelingIslands",
           "package": "Facts",
@@ -7191,6 +7844,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CocosKeelingIslands",
           "package": "Facts",
@@ -7204,6 +7858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Colombia",
           "package": "Facts",
@@ -7213,6 +7868,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Colombia",
           "package": "Facts",
@@ -7226,6 +7882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Comoros",
           "package": "Facts",
@@ -7235,6 +7892,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Comoros",
           "package": "Facts",
@@ -7248,6 +7906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Congo",
           "package": "Facts",
@@ -7257,6 +7916,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Congo",
           "package": "Facts",
@@ -7270,6 +7930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CookIslands",
           "package": "Facts",
@@ -7279,6 +7940,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CookIslands",
           "package": "Facts",
@@ -7292,6 +7954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CostaRica",
           "package": "Facts",
@@ -7301,6 +7964,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CostaRica",
           "package": "Facts",
@@ -7314,6 +7978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CoteDIvoire",
           "package": "Facts",
@@ -7323,6 +7988,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CoteDIvoire",
           "package": "Facts",
@@ -7336,6 +8002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Croatia",
           "package": "Facts",
@@ -7345,6 +8012,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Croatia",
           "package": "Facts",
@@ -7358,6 +8026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Cuba",
           "package": "Facts",
@@ -7367,6 +8036,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Cuba",
           "package": "Facts",
@@ -7380,6 +8050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Cyprus",
           "package": "Facts",
@@ -7389,6 +8060,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Cyprus",
           "package": "Facts",
@@ -7402,6 +8074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "CzechRepublic",
           "package": "Facts",
@@ -7411,6 +8084,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "CzechRepublic",
           "package": "Facts",
@@ -7424,6 +8098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "DE",
           "package": "Facts",
@@ -7433,6 +8108,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "DE",
           "package": "Facts",
@@ -7446,6 +8122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "DEU",
           "package": "Facts",
@@ -7455,6 +8132,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "DEU",
           "package": "Facts",
@@ -7468,6 +8146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "DJ",
           "package": "Facts",
@@ -7477,6 +8156,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "DJ",
           "package": "Facts",
@@ -7490,6 +8170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "DJI",
           "package": "Facts",
@@ -7499,6 +8180,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "DJI",
           "package": "Facts",
@@ -7512,6 +8194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "DK",
           "package": "Facts",
@@ -7521,6 +8204,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "DK",
           "package": "Facts",
@@ -7534,6 +8218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "DM",
           "package": "Facts",
@@ -7543,6 +8228,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "DM",
           "package": "Facts",
@@ -7556,6 +8242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "DMA",
           "package": "Facts",
@@ -7565,6 +8252,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "DMA",
           "package": "Facts",
@@ -7578,6 +8266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "DNK",
           "package": "Facts",
@@ -7587,6 +8276,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "DNK",
           "package": "Facts",
@@ -7600,6 +8290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "DO",
           "package": "Facts",
@@ -7609,6 +8300,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "DO",
           "package": "Facts",
@@ -7622,6 +8314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "DOM",
           "package": "Facts",
@@ -7631,6 +8324,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "DOM",
           "package": "Facts",
@@ -7644,6 +8338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "DZ",
           "package": "Facts",
@@ -7653,6 +8348,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "DZ",
           "package": "Facts",
@@ -7666,6 +8362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "DZA",
           "package": "Facts",
@@ -7675,6 +8372,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "DZA",
           "package": "Facts",
@@ -7688,6 +8386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "DemocraticRepublicOfCongo",
           "package": "Facts",
@@ -7697,6 +8396,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "DemocraticRepublicOfCongo",
           "package": "Facts",
@@ -7710,6 +8410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Denmark",
           "package": "Facts",
@@ -7719,6 +8420,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Denmark",
           "package": "Facts",
@@ -7732,6 +8434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Djibouti",
           "package": "Facts",
@@ -7741,6 +8444,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Djibouti",
           "package": "Facts",
@@ -7754,6 +8458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Dominica",
           "package": "Facts",
@@ -7763,6 +8468,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Dominica",
           "package": "Facts",
@@ -7776,6 +8482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "DominicanRepublic",
           "package": "Facts",
@@ -7785,6 +8492,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "DominicanRepublic",
           "package": "Facts",
@@ -7798,6 +8506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "EC",
           "package": "Facts",
@@ -7807,6 +8516,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "EC",
           "package": "Facts",
@@ -7820,6 +8530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ECU",
           "package": "Facts",
@@ -7829,6 +8540,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ECU",
           "package": "Facts",
@@ -7842,6 +8554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "EE",
           "package": "Facts",
@@ -7851,6 +8564,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "EE",
           "package": "Facts",
@@ -7864,6 +8578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "EG",
           "package": "Facts",
@@ -7873,6 +8588,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "EG",
           "package": "Facts",
@@ -7886,6 +8602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "EGY",
           "package": "Facts",
@@ -7895,6 +8612,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "EGY",
           "package": "Facts",
@@ -7908,6 +8626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "EH",
           "package": "Facts",
@@ -7917,6 +8636,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "EH",
           "package": "Facts",
@@ -7930,6 +8650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ER",
           "package": "Facts",
@@ -7939,6 +8660,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ER",
           "package": "Facts",
@@ -7952,6 +8674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ERI",
           "package": "Facts",
@@ -7961,6 +8684,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ERI",
           "package": "Facts",
@@ -7974,6 +8698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ES",
           "package": "Facts",
@@ -7983,6 +8708,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ES",
           "package": "Facts",
@@ -7996,6 +8722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ESH",
           "package": "Facts",
@@ -8005,6 +8732,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ESH",
           "package": "Facts",
@@ -8018,6 +8746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ESP",
           "package": "Facts",
@@ -8027,6 +8756,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ESP",
           "package": "Facts",
@@ -8040,6 +8770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "EST",
           "package": "Facts",
@@ -8049,6 +8780,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "EST",
           "package": "Facts",
@@ -8062,6 +8794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ET",
           "package": "Facts",
@@ -8071,6 +8804,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ET",
           "package": "Facts",
@@ -8084,6 +8818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ETH",
           "package": "Facts",
@@ -8093,6 +8828,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ETH",
           "package": "Facts",
@@ -8106,6 +8842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Ecuador",
           "package": "Facts",
@@ -8115,6 +8852,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Ecuador",
           "package": "Facts",
@@ -8128,6 +8866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Egypt",
           "package": "Facts",
@@ -8137,6 +8876,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Egypt",
           "package": "Facts",
@@ -8150,6 +8890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ElSalvador",
           "package": "Facts",
@@ -8159,6 +8900,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ElSalvador",
           "package": "Facts",
@@ -8172,6 +8914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "EquatorialGuinea",
           "package": "Facts",
@@ -8181,6 +8924,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "EquatorialGuinea",
           "package": "Facts",
@@ -8194,6 +8938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Eritrea",
           "package": "Facts",
@@ -8203,6 +8948,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Eritrea",
           "package": "Facts",
@@ -8216,6 +8962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Estonia",
           "package": "Facts",
@@ -8225,6 +8972,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Estonia",
           "package": "Facts",
@@ -8238,6 +8986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Ethiopia",
           "package": "Facts",
@@ -8247,6 +8996,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Ethiopia",
           "package": "Facts",
@@ -8260,6 +9010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FI",
           "package": "Facts",
@@ -8269,6 +9020,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FI",
           "package": "Facts",
@@ -8282,6 +9034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FIN",
           "package": "Facts",
@@ -8291,6 +9044,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FIN",
           "package": "Facts",
@@ -8304,6 +9058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FJ",
           "package": "Facts",
@@ -8313,6 +9068,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FJ",
           "package": "Facts",
@@ -8326,6 +9082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FJI",
           "package": "Facts",
@@ -8335,6 +9092,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FJI",
           "package": "Facts",
@@ -8348,6 +9106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FK",
           "package": "Facts",
@@ -8357,6 +9116,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FK",
           "package": "Facts",
@@ -8370,6 +9130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FLK",
           "package": "Facts",
@@ -8379,6 +9140,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FLK",
           "package": "Facts",
@@ -8392,6 +9154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FM",
           "package": "Facts",
@@ -8401,6 +9164,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FM",
           "package": "Facts",
@@ -8414,6 +9178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FO",
           "package": "Facts",
@@ -8423,6 +9188,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FO",
           "package": "Facts",
@@ -8436,6 +9202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FR",
           "package": "Facts",
@@ -8445,6 +9212,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FR",
           "package": "Facts",
@@ -8458,6 +9226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FRA",
           "package": "Facts",
@@ -8467,6 +9236,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FRA",
           "package": "Facts",
@@ -8480,6 +9250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FRO",
           "package": "Facts",
@@ -8489,6 +9260,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FRO",
           "package": "Facts",
@@ -8502,6 +9274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FSM",
           "package": "Facts",
@@ -8511,6 +9284,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FSM",
           "package": "Facts",
@@ -8524,6 +9298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FalklandIslands",
           "package": "Facts",
@@ -8533,6 +9308,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FalklandIslands",
           "package": "Facts",
@@ -8546,6 +9322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FaroeIslands",
           "package": "Facts",
@@ -8555,6 +9332,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FaroeIslands",
           "package": "Facts",
@@ -8568,6 +9346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Fiji",
           "package": "Facts",
@@ -8577,6 +9356,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Fiji",
           "package": "Facts",
@@ -8590,6 +9370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Finland",
           "package": "Facts",
@@ -8599,6 +9380,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Finland",
           "package": "Facts",
@@ -8612,6 +9394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "France",
           "package": "Facts",
@@ -8621,6 +9404,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "France",
           "package": "Facts",
@@ -8634,6 +9418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FrenchGuiana",
           "package": "Facts",
@@ -8643,6 +9428,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FrenchGuiana",
           "package": "Facts",
@@ -8656,6 +9442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FrenchPolynesia",
           "package": "Facts",
@@ -8665,6 +9452,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FrenchPolynesia",
           "package": "Facts",
@@ -8678,6 +9466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "FrenchSouthernTerritories",
           "package": "Facts",
@@ -8687,6 +9476,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "FrenchSouthernTerritories",
           "package": "Facts",
@@ -8700,6 +9490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GA",
           "package": "Facts",
@@ -8709,6 +9500,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GA",
           "package": "Facts",
@@ -8722,6 +9514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GAB",
           "package": "Facts",
@@ -8731,6 +9524,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GAB",
           "package": "Facts",
@@ -8744,6 +9538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GB",
           "package": "Facts",
@@ -8753,6 +9548,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GB",
           "package": "Facts",
@@ -8766,6 +9562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GBR",
           "package": "Facts",
@@ -8775,6 +9572,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GBR",
           "package": "Facts",
@@ -8788,6 +9586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GD",
           "package": "Facts",
@@ -8797,6 +9596,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GD",
           "package": "Facts",
@@ -8810,6 +9610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GE",
           "package": "Facts",
@@ -8819,6 +9620,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GE",
           "package": "Facts",
@@ -8832,6 +9634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GEO",
           "package": "Facts",
@@ -8841,6 +9644,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GEO",
           "package": "Facts",
@@ -8854,6 +9658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GF",
           "package": "Facts",
@@ -8863,6 +9668,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GF",
           "package": "Facts",
@@ -8876,6 +9682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GG",
           "package": "Facts",
@@ -8885,6 +9692,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GG",
           "package": "Facts",
@@ -8898,6 +9706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GGY",
           "package": "Facts",
@@ -8907,6 +9716,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GGY",
           "package": "Facts",
@@ -8920,6 +9730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GH",
           "package": "Facts",
@@ -8929,6 +9740,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GH",
           "package": "Facts",
@@ -8942,6 +9754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GHA",
           "package": "Facts",
@@ -8951,6 +9764,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GHA",
           "package": "Facts",
@@ -8964,6 +9778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GI",
           "package": "Facts",
@@ -8973,6 +9788,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GI",
           "package": "Facts",
@@ -8986,6 +9802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GIB",
           "package": "Facts",
@@ -8995,6 +9812,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GIB",
           "package": "Facts",
@@ -9008,6 +9826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GIN",
           "package": "Facts",
@@ -9017,6 +9836,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GIN",
           "package": "Facts",
@@ -9030,6 +9850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GL",
           "package": "Facts",
@@ -9039,6 +9860,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GL",
           "package": "Facts",
@@ -9052,6 +9874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GLP",
           "package": "Facts",
@@ -9061,6 +9884,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GLP",
           "package": "Facts",
@@ -9074,6 +9898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GM",
           "package": "Facts",
@@ -9083,6 +9908,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GM",
           "package": "Facts",
@@ -9096,6 +9922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GMB",
           "package": "Facts",
@@ -9105,6 +9932,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GMB",
           "package": "Facts",
@@ -9118,6 +9946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GN",
           "package": "Facts",
@@ -9127,6 +9956,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GN",
           "package": "Facts",
@@ -9140,6 +9970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GNB",
           "package": "Facts",
@@ -9149,6 +9980,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GNB",
           "package": "Facts",
@@ -9162,6 +9994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GNQ",
           "package": "Facts",
@@ -9171,6 +10004,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GNQ",
           "package": "Facts",
@@ -9184,6 +10018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GP",
           "package": "Facts",
@@ -9193,6 +10028,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GP",
           "package": "Facts",
@@ -9206,6 +10042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GQ",
           "package": "Facts",
@@ -9215,6 +10052,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GQ",
           "package": "Facts",
@@ -9228,6 +10066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GR",
           "package": "Facts",
@@ -9237,6 +10076,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GR",
           "package": "Facts",
@@ -9250,6 +10090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GRC",
           "package": "Facts",
@@ -9259,6 +10100,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GRC",
           "package": "Facts",
@@ -9272,6 +10114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GRD",
           "package": "Facts",
@@ -9281,6 +10124,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GRD",
           "package": "Facts",
@@ -9294,6 +10138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GRL",
           "package": "Facts",
@@ -9303,6 +10148,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GRL",
           "package": "Facts",
@@ -9316,6 +10162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GS",
           "package": "Facts",
@@ -9325,6 +10172,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GS",
           "package": "Facts",
@@ -9338,6 +10186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GT",
           "package": "Facts",
@@ -9347,6 +10196,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GT",
           "package": "Facts",
@@ -9360,6 +10210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GTM",
           "package": "Facts",
@@ -9369,6 +10220,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GTM",
           "package": "Facts",
@@ -9382,6 +10234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GU",
           "package": "Facts",
@@ -9391,6 +10244,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GU",
           "package": "Facts",
@@ -9404,6 +10258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GUF",
           "package": "Facts",
@@ -9413,6 +10268,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GUF",
           "package": "Facts",
@@ -9426,6 +10282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GUM",
           "package": "Facts",
@@ -9435,6 +10292,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GUM",
           "package": "Facts",
@@ -9448,6 +10306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GUY",
           "package": "Facts",
@@ -9457,6 +10316,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GUY",
           "package": "Facts",
@@ -9470,6 +10330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GW",
           "package": "Facts",
@@ -9479,6 +10340,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GW",
           "package": "Facts",
@@ -9492,6 +10354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GY",
           "package": "Facts",
@@ -9501,6 +10364,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GY",
           "package": "Facts",
@@ -9514,6 +10378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Gabon",
           "package": "Facts",
@@ -9523,6 +10388,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Gabon",
           "package": "Facts",
@@ -9536,6 +10402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Gambia",
           "package": "Facts",
@@ -9545,6 +10412,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Gambia",
           "package": "Facts",
@@ -9558,6 +10426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Georgia",
           "package": "Facts",
@@ -9567,6 +10436,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Georgia",
           "package": "Facts",
@@ -9580,6 +10450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Germany",
           "package": "Facts",
@@ -9589,6 +10460,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Germany",
           "package": "Facts",
@@ -9602,6 +10474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Ghana",
           "package": "Facts",
@@ -9611,6 +10484,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Ghana",
           "package": "Facts",
@@ -9624,6 +10498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Gibraltar",
           "package": "Facts",
@@ -9633,6 +10508,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Gibraltar",
           "package": "Facts",
@@ -9646,6 +10522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Greece",
           "package": "Facts",
@@ -9655,6 +10532,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Greece",
           "package": "Facts",
@@ -9668,6 +10546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Greenland",
           "package": "Facts",
@@ -9677,6 +10556,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Greenland",
           "package": "Facts",
@@ -9690,6 +10570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Grenada",
           "package": "Facts",
@@ -9699,6 +10580,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Grenada",
           "package": "Facts",
@@ -9712,6 +10594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Guadeloupe",
           "package": "Facts",
@@ -9721,6 +10604,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Guadeloupe",
           "package": "Facts",
@@ -9734,6 +10618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Guam",
           "package": "Facts",
@@ -9743,6 +10628,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Guam",
           "package": "Facts",
@@ -9756,6 +10642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Guatemala",
           "package": "Facts",
@@ -9765,6 +10652,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Guatemala",
           "package": "Facts",
@@ -9778,6 +10666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Guernsey",
           "package": "Facts",
@@ -9787,6 +10676,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Guernsey",
           "package": "Facts",
@@ -9800,6 +10690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Guinea",
           "package": "Facts",
@@ -9809,6 +10700,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Guinea",
           "package": "Facts",
@@ -9822,6 +10714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "GuineaBissau",
           "package": "Facts",
@@ -9831,6 +10724,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "GuineaBissau",
           "package": "Facts",
@@ -9844,6 +10738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Guyana",
           "package": "Facts",
@@ -9853,6 +10748,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Guyana",
           "package": "Facts",
@@ -9866,6 +10762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HK",
           "package": "Facts",
@@ -9875,6 +10772,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HK",
           "package": "Facts",
@@ -9888,6 +10786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HKG",
           "package": "Facts",
@@ -9897,6 +10796,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HKG",
           "package": "Facts",
@@ -9910,6 +10810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HM",
           "package": "Facts",
@@ -9919,6 +10820,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HM",
           "package": "Facts",
@@ -9932,6 +10834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HMD",
           "package": "Facts",
@@ -9941,6 +10844,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HMD",
           "package": "Facts",
@@ -9954,6 +10858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HN",
           "package": "Facts",
@@ -9963,6 +10868,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HN",
           "package": "Facts",
@@ -9976,6 +10882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HND",
           "package": "Facts",
@@ -9985,6 +10892,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HND",
           "package": "Facts",
@@ -9998,6 +10906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HR",
           "package": "Facts",
@@ -10007,6 +10916,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HR",
           "package": "Facts",
@@ -10020,6 +10930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HRV",
           "package": "Facts",
@@ -10029,6 +10940,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HRV",
           "package": "Facts",
@@ -10042,6 +10954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HT",
           "package": "Facts",
@@ -10051,6 +10964,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HT",
           "package": "Facts",
@@ -10064,6 +10978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HTI",
           "package": "Facts",
@@ -10073,6 +10988,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HTI",
           "package": "Facts",
@@ -10086,6 +11002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HU",
           "package": "Facts",
@@ -10095,6 +11012,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HU",
           "package": "Facts",
@@ -10108,6 +11026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HUN",
           "package": "Facts",
@@ -10117,6 +11036,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HUN",
           "package": "Facts",
@@ -10130,6 +11050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Haiti",
           "package": "Facts",
@@ -10139,6 +11060,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Haiti",
           "package": "Facts",
@@ -10152,6 +11074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HeardIslandAndMcDonaldIslands",
           "package": "Facts",
@@ -10161,6 +11084,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HeardIslandAndMcDonaldIslands",
           "package": "Facts",
@@ -10174,6 +11098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HolySee",
           "package": "Facts",
@@ -10183,6 +11108,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HolySee",
           "package": "Facts",
@@ -10196,6 +11122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Honduras",
           "package": "Facts",
@@ -10205,6 +11132,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Honduras",
           "package": "Facts",
@@ -10218,6 +11146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "HongKong",
           "package": "Facts",
@@ -10227,6 +11156,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "HongKong",
           "package": "Facts",
@@ -10240,6 +11170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Hungary",
           "package": "Facts",
@@ -10249,6 +11180,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Hungary",
           "package": "Facts",
@@ -10262,6 +11194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ID",
           "package": "Facts",
@@ -10271,6 +11204,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ID",
           "package": "Facts",
@@ -10284,6 +11218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IDN",
           "package": "Facts",
@@ -10293,6 +11228,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IDN",
           "package": "Facts",
@@ -10306,6 +11242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IE",
           "package": "Facts",
@@ -10315,6 +11252,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IE",
           "package": "Facts",
@@ -10328,6 +11266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IL",
           "package": "Facts",
@@ -10337,6 +11276,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IL",
           "package": "Facts",
@@ -10350,6 +11290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IM",
           "package": "Facts",
@@ -10359,6 +11300,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IM",
           "package": "Facts",
@@ -10372,6 +11314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IMN",
           "package": "Facts",
@@ -10381,6 +11324,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IMN",
           "package": "Facts",
@@ -10394,6 +11338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IN",
           "package": "Facts",
@@ -10403,6 +11348,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IN",
           "package": "Facts",
@@ -10416,6 +11362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IND",
           "package": "Facts",
@@ -10425,6 +11372,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IND",
           "package": "Facts",
@@ -10438,6 +11386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IO",
           "package": "Facts",
@@ -10447,6 +11396,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IO",
           "package": "Facts",
@@ -10460,6 +11410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IOT",
           "package": "Facts",
@@ -10469,6 +11420,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IOT",
           "package": "Facts",
@@ -10482,6 +11434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IQ",
           "package": "Facts",
@@ -10491,6 +11444,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IQ",
           "package": "Facts",
@@ -10504,6 +11458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IR",
           "package": "Facts",
@@ -10513,6 +11468,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IR",
           "package": "Facts",
@@ -10526,6 +11482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IRL",
           "package": "Facts",
@@ -10535,6 +11492,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IRL",
           "package": "Facts",
@@ -10548,6 +11506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IRN",
           "package": "Facts",
@@ -10557,6 +11516,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IRN",
           "package": "Facts",
@@ -10570,6 +11530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IRQ",
           "package": "Facts",
@@ -10579,6 +11540,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IRQ",
           "package": "Facts",
@@ -10592,6 +11554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IS",
           "package": "Facts",
@@ -10601,6 +11564,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IS",
           "package": "Facts",
@@ -10614,6 +11578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ISL",
           "package": "Facts",
@@ -10623,6 +11588,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ISL",
           "package": "Facts",
@@ -10636,6 +11602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ISR",
           "package": "Facts",
@@ -10645,6 +11612,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ISR",
           "package": "Facts",
@@ -10658,6 +11626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IT",
           "package": "Facts",
@@ -10667,6 +11636,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IT",
           "package": "Facts",
@@ -10680,6 +11650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ITA",
           "package": "Facts",
@@ -10689,6 +11660,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ITA",
           "package": "Facts",
@@ -10702,6 +11674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Iceland",
           "package": "Facts",
@@ -10711,6 +11684,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Iceland",
           "package": "Facts",
@@ -10724,6 +11698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "India",
           "package": "Facts",
@@ -10733,6 +11708,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "India",
           "package": "Facts",
@@ -10746,6 +11722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Indonesia",
           "package": "Facts",
@@ -10755,6 +11732,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Indonesia",
           "package": "Facts",
@@ -10768,6 +11746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Iran",
           "package": "Facts",
@@ -10777,6 +11756,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Iran",
           "package": "Facts",
@@ -10790,6 +11770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Iraq",
           "package": "Facts",
@@ -10799,6 +11780,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Iraq",
           "package": "Facts",
@@ -10812,6 +11794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Ireland",
           "package": "Facts",
@@ -10821,6 +11804,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Ireland",
           "package": "Facts",
@@ -10834,6 +11818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "IsleOfMan",
           "package": "Facts",
@@ -10843,6 +11828,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "IsleOfMan",
           "package": "Facts",
@@ -10856,6 +11842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Israel",
           "package": "Facts",
@@ -10865,6 +11852,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Israel",
           "package": "Facts",
@@ -10878,6 +11866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Italy",
           "package": "Facts",
@@ -10887,6 +11876,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Italy",
           "package": "Facts",
@@ -10900,6 +11890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "JAM",
           "package": "Facts",
@@ -10909,6 +11900,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "JAM",
           "package": "Facts",
@@ -10922,6 +11914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "JE",
           "package": "Facts",
@@ -10931,6 +11924,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "JE",
           "package": "Facts",
@@ -10944,6 +11938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "JEY",
           "package": "Facts",
@@ -10953,6 +11948,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "JEY",
           "package": "Facts",
@@ -10966,6 +11962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "JM",
           "package": "Facts",
@@ -10975,6 +11972,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "JM",
           "package": "Facts",
@@ -10988,6 +11986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "JO",
           "package": "Facts",
@@ -10997,6 +11996,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "JO",
           "package": "Facts",
@@ -11010,6 +12010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "JOR",
           "package": "Facts",
@@ -11019,6 +12020,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "JOR",
           "package": "Facts",
@@ -11032,6 +12034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "JP",
           "package": "Facts",
@@ -11041,6 +12044,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "JP",
           "package": "Facts",
@@ -11054,6 +12058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "JPN",
           "package": "Facts",
@@ -11063,6 +12068,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "JPN",
           "package": "Facts",
@@ -11076,6 +12082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Jamaica",
           "package": "Facts",
@@ -11085,6 +12092,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Jamaica",
           "package": "Facts",
@@ -11098,6 +12106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Japan",
           "package": "Facts",
@@ -11107,6 +12116,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Japan",
           "package": "Facts",
@@ -11120,6 +12130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Jersey",
           "package": "Facts",
@@ -11129,6 +12140,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Jersey",
           "package": "Facts",
@@ -11142,6 +12154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Jordan",
           "package": "Facts",
@@ -11151,6 +12164,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Jordan",
           "package": "Facts",
@@ -11164,6 +12178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KAZ",
           "package": "Facts",
@@ -11173,6 +12188,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KAZ",
           "package": "Facts",
@@ -11186,6 +12202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KE",
           "package": "Facts",
@@ -11195,6 +12212,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KE",
           "package": "Facts",
@@ -11208,6 +12226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KEN",
           "package": "Facts",
@@ -11217,6 +12236,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KEN",
           "package": "Facts",
@@ -11230,6 +12250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KG",
           "package": "Facts",
@@ -11239,6 +12260,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KG",
           "package": "Facts",
@@ -11252,6 +12274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KGZ",
           "package": "Facts",
@@ -11261,6 +12284,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KGZ",
           "package": "Facts",
@@ -11274,6 +12298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KH",
           "package": "Facts",
@@ -11283,6 +12308,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KH",
           "package": "Facts",
@@ -11296,6 +12322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KHM",
           "package": "Facts",
@@ -11305,6 +12332,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KHM",
           "package": "Facts",
@@ -11318,6 +12346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KI",
           "package": "Facts",
@@ -11327,6 +12356,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KI",
           "package": "Facts",
@@ -11340,6 +12370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KIR",
           "package": "Facts",
@@ -11349,6 +12380,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KIR",
           "package": "Facts",
@@ -11362,6 +12394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KM",
           "package": "Facts",
@@ -11371,6 +12404,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KM",
           "package": "Facts",
@@ -11384,6 +12418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KN",
           "package": "Facts",
@@ -11393,6 +12428,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KN",
           "package": "Facts",
@@ -11406,6 +12442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KNA",
           "package": "Facts",
@@ -11415,6 +12452,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KNA",
           "package": "Facts",
@@ -11428,6 +12466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KOR",
           "package": "Facts",
@@ -11437,6 +12476,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KOR",
           "package": "Facts",
@@ -11450,6 +12490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KP",
           "package": "Facts",
@@ -11459,6 +12500,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KP",
           "package": "Facts",
@@ -11472,6 +12514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KR",
           "package": "Facts",
@@ -11481,6 +12524,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KR",
           "package": "Facts",
@@ -11494,6 +12538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KW",
           "package": "Facts",
@@ -11503,6 +12548,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KW",
           "package": "Facts",
@@ -11516,6 +12562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KWT",
           "package": "Facts",
@@ -11525,6 +12572,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KWT",
           "package": "Facts",
@@ -11538,6 +12586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KY",
           "package": "Facts",
@@ -11547,6 +12596,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KY",
           "package": "Facts",
@@ -11560,6 +12610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "KZ",
           "package": "Facts",
@@ -11569,6 +12620,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "KZ",
           "package": "Facts",
@@ -11582,6 +12634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Kazakhstan",
           "package": "Facts",
@@ -11591,6 +12644,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Kazakhstan",
           "package": "Facts",
@@ -11604,6 +12658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Kenya",
           "package": "Facts",
@@ -11613,6 +12668,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Kenya",
           "package": "Facts",
@@ -11626,6 +12682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Kiribati",
           "package": "Facts",
@@ -11635,6 +12692,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Kiribati",
           "package": "Facts",
@@ -11648,6 +12706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Kuwait",
           "package": "Facts",
@@ -11657,6 +12716,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Kuwait",
           "package": "Facts",
@@ -11670,6 +12730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Kyrgyzstan",
           "package": "Facts",
@@ -11679,6 +12740,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Kyrgyzstan",
           "package": "Facts",
@@ -11692,6 +12754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LA",
           "package": "Facts",
@@ -11701,6 +12764,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LA",
           "package": "Facts",
@@ -11714,6 +12778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LAO",
           "package": "Facts",
@@ -11723,6 +12788,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LAO",
           "package": "Facts",
@@ -11736,6 +12802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LB",
           "package": "Facts",
@@ -11745,6 +12812,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LB",
           "package": "Facts",
@@ -11758,6 +12826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LBN",
           "package": "Facts",
@@ -11767,6 +12836,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LBN",
           "package": "Facts",
@@ -11780,6 +12850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LBR",
           "package": "Facts",
@@ -11789,6 +12860,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LBR",
           "package": "Facts",
@@ -11802,6 +12874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LBY",
           "package": "Facts",
@@ -11811,6 +12884,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LBY",
           "package": "Facts",
@@ -11824,6 +12898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LC",
           "package": "Facts",
@@ -11833,6 +12908,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LC",
           "package": "Facts",
@@ -11846,6 +12922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LCA",
           "package": "Facts",
@@ -11855,6 +12932,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LCA",
           "package": "Facts",
@@ -11868,6 +12946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LI",
           "package": "Facts",
@@ -11877,6 +12956,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LI",
           "package": "Facts",
@@ -11890,6 +12970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LIE",
           "package": "Facts",
@@ -11899,6 +12980,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LIE",
           "package": "Facts",
@@ -11912,6 +12994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LK",
           "package": "Facts",
@@ -11921,6 +13004,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LK",
           "package": "Facts",
@@ -11934,6 +13018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LKA",
           "package": "Facts",
@@ -11943,6 +13028,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LKA",
           "package": "Facts",
@@ -11956,6 +13042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LR",
           "package": "Facts",
@@ -11965,6 +13052,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LR",
           "package": "Facts",
@@ -11978,6 +13066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LS",
           "package": "Facts",
@@ -11987,6 +13076,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LS",
           "package": "Facts",
@@ -12000,6 +13090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LSO",
           "package": "Facts",
@@ -12009,6 +13100,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LSO",
           "package": "Facts",
@@ -12022,6 +13114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LT",
           "package": "Facts",
@@ -12031,6 +13124,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LT",
           "package": "Facts",
@@ -12044,6 +13138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LTU",
           "package": "Facts",
@@ -12053,6 +13148,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LTU",
           "package": "Facts",
@@ -12066,6 +13162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LU",
           "package": "Facts",
@@ -12075,6 +13172,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LU",
           "package": "Facts",
@@ -12088,6 +13186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LUX",
           "package": "Facts",
@@ -12097,6 +13196,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LUX",
           "package": "Facts",
@@ -12110,6 +13210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LV",
           "package": "Facts",
@@ -12119,6 +13220,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LV",
           "package": "Facts",
@@ -12132,6 +13234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LVA",
           "package": "Facts",
@@ -12141,6 +13244,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LVA",
           "package": "Facts",
@@ -12154,6 +13258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "LY",
           "package": "Facts",
@@ -12163,6 +13268,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "LY",
           "package": "Facts",
@@ -12176,6 +13282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Laos",
           "package": "Facts",
@@ -12185,6 +13292,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Laos",
           "package": "Facts",
@@ -12198,6 +13306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Latvia",
           "package": "Facts",
@@ -12207,6 +13316,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Latvia",
           "package": "Facts",
@@ -12220,6 +13330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Lebanon",
           "package": "Facts",
@@ -12229,6 +13340,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Lebanon",
           "package": "Facts",
@@ -12242,6 +13354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Lesotho",
           "package": "Facts",
@@ -12251,6 +13364,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Lesotho",
           "package": "Facts",
@@ -12264,6 +13378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Liberia",
           "package": "Facts",
@@ -12273,6 +13388,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Liberia",
           "package": "Facts",
@@ -12286,6 +13402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Libya",
           "package": "Facts",
@@ -12295,6 +13412,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Libya",
           "package": "Facts",
@@ -12308,6 +13426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Liechtenstein",
           "package": "Facts",
@@ -12317,6 +13436,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Liechtenstein",
           "package": "Facts",
@@ -12330,6 +13450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Lithuania",
           "package": "Facts",
@@ -12339,6 +13460,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Lithuania",
           "package": "Facts",
@@ -12352,6 +13474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Luxembourg",
           "package": "Facts",
@@ -12361,6 +13484,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Luxembourg",
           "package": "Facts",
@@ -12374,6 +13498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MA",
           "package": "Facts",
@@ -12383,6 +13508,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MA",
           "package": "Facts",
@@ -12396,6 +13522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MAC",
           "package": "Facts",
@@ -12405,6 +13532,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MAC",
           "package": "Facts",
@@ -12418,6 +13546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MAF",
           "package": "Facts",
@@ -12427,6 +13556,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MAF",
           "package": "Facts",
@@ -12440,6 +13570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MAR",
           "package": "Facts",
@@ -12449,6 +13580,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MAR",
           "package": "Facts",
@@ -12462,6 +13594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MC",
           "package": "Facts",
@@ -12471,6 +13604,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MC",
           "package": "Facts",
@@ -12484,6 +13618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MCO",
           "package": "Facts",
@@ -12493,6 +13628,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MCO",
           "package": "Facts",
@@ -12506,6 +13642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MD",
           "package": "Facts",
@@ -12515,6 +13652,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MD",
           "package": "Facts",
@@ -12528,6 +13666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MDA",
           "package": "Facts",
@@ -12537,6 +13676,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MDA",
           "package": "Facts",
@@ -12550,6 +13690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MDG",
           "package": "Facts",
@@ -12559,6 +13700,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MDG",
           "package": "Facts",
@@ -12572,6 +13714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MDV",
           "package": "Facts",
@@ -12581,6 +13724,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MDV",
           "package": "Facts",
@@ -12594,6 +13738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ME",
           "package": "Facts",
@@ -12603,6 +13748,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ME",
           "package": "Facts",
@@ -12616,6 +13762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MEX",
           "package": "Facts",
@@ -12625,6 +13772,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MEX",
           "package": "Facts",
@@ -12638,6 +13786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MF",
           "package": "Facts",
@@ -12647,6 +13796,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MF",
           "package": "Facts",
@@ -12660,6 +13810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MG",
           "package": "Facts",
@@ -12669,6 +13820,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MG",
           "package": "Facts",
@@ -12682,6 +13834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MH",
           "package": "Facts",
@@ -12691,6 +13844,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MH",
           "package": "Facts",
@@ -12704,6 +13858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MHL",
           "package": "Facts",
@@ -12713,6 +13868,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MHL",
           "package": "Facts",
@@ -12726,6 +13882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MK",
           "package": "Facts",
@@ -12735,6 +13892,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MK",
           "package": "Facts",
@@ -12748,6 +13906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MKD",
           "package": "Facts",
@@ -12757,6 +13916,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MKD",
           "package": "Facts",
@@ -12770,6 +13930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ML",
           "package": "Facts",
@@ -12779,6 +13940,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ML",
           "package": "Facts",
@@ -12792,6 +13954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MLI",
           "package": "Facts",
@@ -12801,6 +13964,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MLI",
           "package": "Facts",
@@ -12814,6 +13978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MLT",
           "package": "Facts",
@@ -12823,6 +13988,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MLT",
           "package": "Facts",
@@ -12836,6 +14002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MM",
           "package": "Facts",
@@ -12845,6 +14012,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MM",
           "package": "Facts",
@@ -12858,6 +14026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MMR",
           "package": "Facts",
@@ -12867,6 +14036,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MMR",
           "package": "Facts",
@@ -12880,6 +14050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MN",
           "package": "Facts",
@@ -12889,6 +14060,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MN",
           "package": "Facts",
@@ -12902,6 +14074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MNE",
           "package": "Facts",
@@ -12911,6 +14084,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MNE",
           "package": "Facts",
@@ -12924,6 +14098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MNG",
           "package": "Facts",
@@ -12933,6 +14108,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MNG",
           "package": "Facts",
@@ -12946,6 +14122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MNP",
           "package": "Facts",
@@ -12955,6 +14132,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MNP",
           "package": "Facts",
@@ -12968,6 +14146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MO",
           "package": "Facts",
@@ -12977,6 +14156,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MO",
           "package": "Facts",
@@ -12990,6 +14170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MOZ",
           "package": "Facts",
@@ -12999,6 +14180,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MOZ",
           "package": "Facts",
@@ -13012,6 +14194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MP",
           "package": "Facts",
@@ -13021,6 +14204,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MP",
           "package": "Facts",
@@ -13034,6 +14218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MQ",
           "package": "Facts",
@@ -13043,6 +14228,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MQ",
           "package": "Facts",
@@ -13056,6 +14242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MR",
           "package": "Facts",
@@ -13065,6 +14252,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MR",
           "package": "Facts",
@@ -13078,6 +14266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MRT",
           "package": "Facts",
@@ -13087,6 +14276,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MRT",
           "package": "Facts",
@@ -13100,6 +14290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MS",
           "package": "Facts",
@@ -13109,6 +14300,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MS",
           "package": "Facts",
@@ -13122,6 +14314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MSR",
           "package": "Facts",
@@ -13131,6 +14324,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MSR",
           "package": "Facts",
@@ -13144,6 +14338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MT",
           "package": "Facts",
@@ -13153,6 +14348,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MT",
           "package": "Facts",
@@ -13166,6 +14362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MTQ",
           "package": "Facts",
@@ -13175,6 +14372,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MTQ",
           "package": "Facts",
@@ -13188,6 +14386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MU",
           "package": "Facts",
@@ -13197,6 +14396,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MU",
           "package": "Facts",
@@ -13210,6 +14410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MUS",
           "package": "Facts",
@@ -13219,6 +14420,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MUS",
           "package": "Facts",
@@ -13232,6 +14434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MV",
           "package": "Facts",
@@ -13241,6 +14444,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MV",
           "package": "Facts",
@@ -13254,6 +14458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MW",
           "package": "Facts",
@@ -13263,6 +14468,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MW",
           "package": "Facts",
@@ -13276,6 +14482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MWI",
           "package": "Facts",
@@ -13285,6 +14492,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MWI",
           "package": "Facts",
@@ -13298,6 +14506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MX",
           "package": "Facts",
@@ -13307,6 +14516,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MX",
           "package": "Facts",
@@ -13320,6 +14530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MY",
           "package": "Facts",
@@ -13329,6 +14540,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MY",
           "package": "Facts",
@@ -13342,6 +14554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MYS",
           "package": "Facts",
@@ -13351,6 +14564,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MYS",
           "package": "Facts",
@@ -13364,6 +14578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MYT",
           "package": "Facts",
@@ -13373,6 +14588,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MYT",
           "package": "Facts",
@@ -13386,6 +14602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MZ",
           "package": "Facts",
@@ -13395,6 +14612,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MZ",
           "package": "Facts",
@@ -13408,6 +14626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Macao",
           "package": "Facts",
@@ -13417,6 +14636,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Macao",
           "package": "Facts",
@@ -13430,6 +14650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Macedonia",
           "package": "Facts",
@@ -13439,6 +14660,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Macedonia",
           "package": "Facts",
@@ -13452,6 +14674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Madagascar",
           "package": "Facts",
@@ -13461,6 +14684,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Madagascar",
           "package": "Facts",
@@ -13474,6 +14698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Malawi",
           "package": "Facts",
@@ -13483,6 +14708,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Malawi",
           "package": "Facts",
@@ -13496,6 +14722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Malaysia",
           "package": "Facts",
@@ -13505,6 +14732,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Malaysia",
           "package": "Facts",
@@ -13518,6 +14746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Maldives",
           "package": "Facts",
@@ -13527,6 +14756,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Maldives",
           "package": "Facts",
@@ -13540,6 +14770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Mali",
           "package": "Facts",
@@ -13549,6 +14780,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Mali",
           "package": "Facts",
@@ -13562,6 +14794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Malta",
           "package": "Facts",
@@ -13571,6 +14804,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Malta",
           "package": "Facts",
@@ -13584,6 +14818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "MarshallIslands",
           "package": "Facts",
@@ -13593,6 +14828,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "MarshallIslands",
           "package": "Facts",
@@ -13606,6 +14842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Martinique",
           "package": "Facts",
@@ -13615,6 +14852,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Martinique",
           "package": "Facts",
@@ -13628,6 +14866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Mauritania",
           "package": "Facts",
@@ -13637,6 +14876,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Mauritania",
           "package": "Facts",
@@ -13650,6 +14890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Mauritius",
           "package": "Facts",
@@ -13659,6 +14900,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Mauritius",
           "package": "Facts",
@@ -13672,6 +14914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Mayotte",
           "package": "Facts",
@@ -13681,6 +14924,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Mayotte",
           "package": "Facts",
@@ -13694,6 +14938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Mexico",
           "package": "Facts",
@@ -13703,6 +14948,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Mexico",
           "package": "Facts",
@@ -13716,6 +14962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Micronesia",
           "package": "Facts",
@@ -13725,6 +14972,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Micronesia",
           "package": "Facts",
@@ -13738,6 +14986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Moldova",
           "package": "Facts",
@@ -13747,6 +14996,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Moldova",
           "package": "Facts",
@@ -13760,6 +15010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Monaco",
           "package": "Facts",
@@ -13769,6 +15020,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Monaco",
           "package": "Facts",
@@ -13782,6 +15034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Mongolia",
           "package": "Facts",
@@ -13791,6 +15044,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Mongolia",
           "package": "Facts",
@@ -13804,6 +15058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Montenegro",
           "package": "Facts",
@@ -13813,6 +15068,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Montenegro",
           "package": "Facts",
@@ -13826,6 +15082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Montserrat",
           "package": "Facts",
@@ -13835,6 +15092,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Montserrat",
           "package": "Facts",
@@ -13848,6 +15106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Morocco",
           "package": "Facts",
@@ -13857,6 +15116,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Morocco",
           "package": "Facts",
@@ -13870,6 +15130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Mozambique",
           "package": "Facts",
@@ -13879,6 +15140,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Mozambique",
           "package": "Facts",
@@ -13892,6 +15154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Myanmar",
           "package": "Facts",
@@ -13901,6 +15164,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Myanmar",
           "package": "Facts",
@@ -13914,6 +15178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NA",
           "package": "Facts",
@@ -13923,6 +15188,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NA",
           "package": "Facts",
@@ -13936,6 +15202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NAM",
           "package": "Facts",
@@ -13945,6 +15212,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NAM",
           "package": "Facts",
@@ -13958,6 +15226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NC",
           "package": "Facts",
@@ -13967,6 +15236,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NC",
           "package": "Facts",
@@ -13980,6 +15250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NCL",
           "package": "Facts",
@@ -13989,6 +15260,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NCL",
           "package": "Facts",
@@ -14002,6 +15274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NE",
           "package": "Facts",
@@ -14011,6 +15284,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NE",
           "package": "Facts",
@@ -14024,6 +15298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NER",
           "package": "Facts",
@@ -14033,6 +15308,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NER",
           "package": "Facts",
@@ -14046,6 +15322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NF",
           "package": "Facts",
@@ -14055,6 +15332,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NF",
           "package": "Facts",
@@ -14068,6 +15346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NFK",
           "package": "Facts",
@@ -14077,6 +15356,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NFK",
           "package": "Facts",
@@ -14090,6 +15370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NG",
           "package": "Facts",
@@ -14099,6 +15380,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NG",
           "package": "Facts",
@@ -14112,6 +15394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NGA",
           "package": "Facts",
@@ -14121,6 +15404,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NGA",
           "package": "Facts",
@@ -14134,6 +15418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NI",
           "package": "Facts",
@@ -14143,6 +15428,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NI",
           "package": "Facts",
@@ -14156,6 +15442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NIC",
           "package": "Facts",
@@ -14165,6 +15452,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NIC",
           "package": "Facts",
@@ -14178,6 +15466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NIU",
           "package": "Facts",
@@ -14187,6 +15476,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NIU",
           "package": "Facts",
@@ -14200,6 +15490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NL",
           "package": "Facts",
@@ -14209,6 +15500,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NL",
           "package": "Facts",
@@ -14222,6 +15514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NLD",
           "package": "Facts",
@@ -14231,6 +15524,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NLD",
           "package": "Facts",
@@ -14244,6 +15538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NO",
           "package": "Facts",
@@ -14253,6 +15548,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NO",
           "package": "Facts",
@@ -14266,6 +15562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NOR",
           "package": "Facts",
@@ -14275,6 +15572,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NOR",
           "package": "Facts",
@@ -14288,6 +15586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NP",
           "package": "Facts",
@@ -14297,6 +15596,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NP",
           "package": "Facts",
@@ -14310,6 +15610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NPL",
           "package": "Facts",
@@ -14319,6 +15620,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NPL",
           "package": "Facts",
@@ -14332,6 +15634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NR",
           "package": "Facts",
@@ -14341,6 +15644,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NR",
           "package": "Facts",
@@ -14354,6 +15658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NRU",
           "package": "Facts",
@@ -14363,6 +15668,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NRU",
           "package": "Facts",
@@ -14376,6 +15682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NU",
           "package": "Facts",
@@ -14385,6 +15692,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NU",
           "package": "Facts",
@@ -14398,6 +15706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NZ",
           "package": "Facts",
@@ -14407,6 +15716,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NZ",
           "package": "Facts",
@@ -14420,6 +15730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NZL",
           "package": "Facts",
@@ -14429,6 +15740,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NZL",
           "package": "Facts",
@@ -14442,6 +15754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Namibia",
           "package": "Facts",
@@ -14451,6 +15764,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Namibia",
           "package": "Facts",
@@ -14464,6 +15778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Nauru",
           "package": "Facts",
@@ -14473,6 +15788,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Nauru",
           "package": "Facts",
@@ -14486,6 +15802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Nepal",
           "package": "Facts",
@@ -14495,6 +15812,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Nepal",
           "package": "Facts",
@@ -14508,6 +15826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Netherlands",
           "package": "Facts",
@@ -14517,6 +15836,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Netherlands",
           "package": "Facts",
@@ -14530,6 +15850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NetherlandsAntilles",
           "package": "Facts",
@@ -14539,6 +15860,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NetherlandsAntilles",
           "package": "Facts",
@@ -14552,6 +15874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NewCaledonia",
           "package": "Facts",
@@ -14561,6 +15884,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NewCaledonia",
           "package": "Facts",
@@ -14574,6 +15898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NewZealand",
           "package": "Facts",
@@ -14583,6 +15908,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NewZealand",
           "package": "Facts",
@@ -14596,6 +15922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Nicaragua",
           "package": "Facts",
@@ -14605,6 +15932,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Nicaragua",
           "package": "Facts",
@@ -14618,6 +15946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Niger",
           "package": "Facts",
@@ -14627,6 +15956,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Niger",
           "package": "Facts",
@@ -14640,6 +15970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Nigeria",
           "package": "Facts",
@@ -14649,6 +15980,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Nigeria",
           "package": "Facts",
@@ -14662,6 +15994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Niue",
           "package": "Facts",
@@ -14671,6 +16004,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Niue",
           "package": "Facts",
@@ -14684,6 +16018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NorfolkIsland",
           "package": "Facts",
@@ -14693,6 +16028,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NorfolkIsland",
           "package": "Facts",
@@ -14706,6 +16042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NorthKorea",
           "package": "Facts",
@@ -14715,6 +16052,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NorthKorea",
           "package": "Facts",
@@ -14728,6 +16066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "NorthernMarianaIslands",
           "package": "Facts",
@@ -14737,6 +16076,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "NorthernMarianaIslands",
           "package": "Facts",
@@ -14750,6 +16090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Norway",
           "package": "Facts",
@@ -14759,6 +16100,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Norway",
           "package": "Facts",
@@ -14772,6 +16114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "OM",
           "package": "Facts",
@@ -14781,6 +16124,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "OM",
           "package": "Facts",
@@ -14794,6 +16138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "OMN",
           "package": "Facts",
@@ -14803,6 +16148,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "OMN",
           "package": "Facts",
@@ -14816,6 +16162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Oman",
           "package": "Facts",
@@ -14825,6 +16172,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Oman",
           "package": "Facts",
@@ -14838,6 +16186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PA",
           "package": "Facts",
@@ -14847,6 +16196,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PA",
           "package": "Facts",
@@ -14860,6 +16210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PAK",
           "package": "Facts",
@@ -14869,6 +16220,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PAK",
           "package": "Facts",
@@ -14882,6 +16234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PAN",
           "package": "Facts",
@@ -14891,6 +16244,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PAN",
           "package": "Facts",
@@ -14904,6 +16258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PCN",
           "package": "Facts",
@@ -14913,6 +16268,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PCN",
           "package": "Facts",
@@ -14926,6 +16282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PE",
           "package": "Facts",
@@ -14935,6 +16292,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PE",
           "package": "Facts",
@@ -14948,6 +16306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PER",
           "package": "Facts",
@@ -14957,6 +16316,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PER",
           "package": "Facts",
@@ -14970,6 +16330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PF",
           "package": "Facts",
@@ -14979,6 +16340,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PF",
           "package": "Facts",
@@ -14992,6 +16354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PG",
           "package": "Facts",
@@ -15001,6 +16364,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PG",
           "package": "Facts",
@@ -15014,6 +16378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PH",
           "package": "Facts",
@@ -15023,6 +16388,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PH",
           "package": "Facts",
@@ -15036,6 +16402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PHL",
           "package": "Facts",
@@ -15045,6 +16412,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PHL",
           "package": "Facts",
@@ -15058,6 +16426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PK",
           "package": "Facts",
@@ -15067,6 +16436,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PK",
           "package": "Facts",
@@ -15080,6 +16450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PL",
           "package": "Facts",
@@ -15089,6 +16460,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PL",
           "package": "Facts",
@@ -15102,6 +16474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PLW",
           "package": "Facts",
@@ -15111,6 +16484,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PLW",
           "package": "Facts",
@@ -15124,6 +16498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PM",
           "package": "Facts",
@@ -15133,6 +16508,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PM",
           "package": "Facts",
@@ -15146,6 +16522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PN",
           "package": "Facts",
@@ -15155,6 +16532,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PN",
           "package": "Facts",
@@ -15168,6 +16546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PNG",
           "package": "Facts",
@@ -15177,6 +16556,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PNG",
           "package": "Facts",
@@ -15190,6 +16570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "POL",
           "package": "Facts",
@@ -15199,6 +16580,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "POL",
           "package": "Facts",
@@ -15212,6 +16594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PR",
           "package": "Facts",
@@ -15221,6 +16604,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PR",
           "package": "Facts",
@@ -15234,6 +16618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PRI",
           "package": "Facts",
@@ -15243,6 +16628,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PRI",
           "package": "Facts",
@@ -15256,6 +16642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PRK",
           "package": "Facts",
@@ -15265,6 +16652,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PRK",
           "package": "Facts",
@@ -15278,6 +16666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PRT",
           "package": "Facts",
@@ -15287,6 +16676,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PRT",
           "package": "Facts",
@@ -15300,6 +16690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PRY",
           "package": "Facts",
@@ -15309,6 +16700,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PRY",
           "package": "Facts",
@@ -15322,6 +16714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PS",
           "package": "Facts",
@@ -15331,6 +16724,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PS",
           "package": "Facts",
@@ -15344,6 +16738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PSE",
           "package": "Facts",
@@ -15353,6 +16748,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PSE",
           "package": "Facts",
@@ -15366,6 +16762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PT",
           "package": "Facts",
@@ -15375,6 +16772,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PT",
           "package": "Facts",
@@ -15388,6 +16786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PW",
           "package": "Facts",
@@ -15397,6 +16796,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PW",
           "package": "Facts",
@@ -15410,6 +16810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PY",
           "package": "Facts",
@@ -15419,6 +16820,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PY",
           "package": "Facts",
@@ -15432,6 +16834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PYF",
           "package": "Facts",
@@ -15441,6 +16844,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PYF",
           "package": "Facts",
@@ -15454,6 +16858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Pakistan",
           "package": "Facts",
@@ -15463,6 +16868,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Pakistan",
           "package": "Facts",
@@ -15476,6 +16882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Palau",
           "package": "Facts",
@@ -15485,6 +16892,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Palau",
           "package": "Facts",
@@ -15498,6 +16906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Palestinine",
           "package": "Facts",
@@ -15507,6 +16916,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Palestinine",
           "package": "Facts",
@@ -15520,6 +16930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Panama",
           "package": "Facts",
@@ -15529,6 +16940,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Panama",
           "package": "Facts",
@@ -15542,6 +16954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PapuaNewGuinea",
           "package": "Facts",
@@ -15551,6 +16964,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PapuaNewGuinea",
           "package": "Facts",
@@ -15564,6 +16978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Paraguay",
           "package": "Facts",
@@ -15573,6 +16988,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Paraguay",
           "package": "Facts",
@@ -15586,6 +17002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Peru",
           "package": "Facts",
@@ -15595,6 +17012,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Peru",
           "package": "Facts",
@@ -15608,6 +17026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Philippines",
           "package": "Facts",
@@ -15617,6 +17036,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Philippines",
           "package": "Facts",
@@ -15630,6 +17050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Pitcairn",
           "package": "Facts",
@@ -15639,6 +17060,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Pitcairn",
           "package": "Facts",
@@ -15652,6 +17074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Poland",
           "package": "Facts",
@@ -15661,6 +17084,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Poland",
           "package": "Facts",
@@ -15674,6 +17098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Portugal",
           "package": "Facts",
@@ -15683,6 +17108,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Portugal",
           "package": "Facts",
@@ -15696,6 +17122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "PuertoRico",
           "package": "Facts",
@@ -15705,6 +17132,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "PuertoRico",
           "package": "Facts",
@@ -15718,6 +17146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "QA",
           "package": "Facts",
@@ -15727,6 +17156,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "QA",
           "package": "Facts",
@@ -15740,6 +17170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "QAT",
           "package": "Facts",
@@ -15749,6 +17180,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "QAT",
           "package": "Facts",
@@ -15762,6 +17194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Qatar",
           "package": "Facts",
@@ -15771,6 +17204,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Qatar",
           "package": "Facts",
@@ -15784,6 +17218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "RE",
           "package": "Facts",
@@ -15793,6 +17228,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "RE",
           "package": "Facts",
@@ -15806,6 +17242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "REU",
           "package": "Facts",
@@ -15815,6 +17252,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "REU",
           "package": "Facts",
@@ -15828,6 +17266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "RO",
           "package": "Facts",
@@ -15837,6 +17276,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "RO",
           "package": "Facts",
@@ -15850,6 +17290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ROU",
           "package": "Facts",
@@ -15859,6 +17300,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ROU",
           "package": "Facts",
@@ -15872,6 +17314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "RS",
           "package": "Facts",
@@ -15881,6 +17324,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "RS",
           "package": "Facts",
@@ -15894,6 +17338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "RU",
           "package": "Facts",
@@ -15903,6 +17348,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "RU",
           "package": "Facts",
@@ -15916,6 +17362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "RUS",
           "package": "Facts",
@@ -15925,6 +17372,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "RUS",
           "package": "Facts",
@@ -15938,6 +17386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "RW",
           "package": "Facts",
@@ -15947,6 +17396,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "RW",
           "package": "Facts",
@@ -15960,6 +17410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "RWA",
           "package": "Facts",
@@ -15969,6 +17420,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "RWA",
           "package": "Facts",
@@ -15982,6 +17434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Reunion",
           "package": "Facts",
@@ -15991,6 +17444,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Reunion",
           "package": "Facts",
@@ -16004,6 +17458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Romania",
           "package": "Facts",
@@ -16013,6 +17468,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Romania",
           "package": "Facts",
@@ -16026,6 +17482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "RussianFederation",
           "package": "Facts",
@@ -16035,6 +17492,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "RussianFederation",
           "package": "Facts",
@@ -16048,6 +17506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Rwanda",
           "package": "Facts",
@@ -16057,6 +17516,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Rwanda",
           "package": "Facts",
@@ -16070,6 +17530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SA",
           "package": "Facts",
@@ -16079,6 +17540,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SA",
           "package": "Facts",
@@ -16092,6 +17554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SAU",
           "package": "Facts",
@@ -16101,6 +17564,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SAU",
           "package": "Facts",
@@ -16114,6 +17578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SB",
           "package": "Facts",
@@ -16123,6 +17588,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SB",
           "package": "Facts",
@@ -16136,6 +17602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SC",
           "package": "Facts",
@@ -16145,6 +17612,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SC",
           "package": "Facts",
@@ -16158,6 +17626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SD",
           "package": "Facts",
@@ -16167,6 +17636,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SD",
           "package": "Facts",
@@ -16180,6 +17650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SDN",
           "package": "Facts",
@@ -16189,6 +17660,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SDN",
           "package": "Facts",
@@ -16202,6 +17674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SE",
           "package": "Facts",
@@ -16211,6 +17684,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SE",
           "package": "Facts",
@@ -16224,6 +17698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SEN",
           "package": "Facts",
@@ -16233,6 +17708,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SEN",
           "package": "Facts",
@@ -16246,6 +17722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SG",
           "package": "Facts",
@@ -16255,6 +17732,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SG",
           "package": "Facts",
@@ -16268,6 +17746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SGP",
           "package": "Facts",
@@ -16277,6 +17756,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SGP",
           "package": "Facts",
@@ -16290,6 +17770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SGS",
           "package": "Facts",
@@ -16299,6 +17780,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SGS",
           "package": "Facts",
@@ -16312,6 +17794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SH",
           "package": "Facts",
@@ -16321,6 +17804,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SH",
           "package": "Facts",
@@ -16334,6 +17818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SHN",
           "package": "Facts",
@@ -16343,6 +17828,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SHN",
           "package": "Facts",
@@ -16356,6 +17842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SI",
           "package": "Facts",
@@ -16365,6 +17852,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SI",
           "package": "Facts",
@@ -16378,6 +17866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SJ",
           "package": "Facts",
@@ -16387,6 +17876,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SJ",
           "package": "Facts",
@@ -16400,6 +17890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SJM",
           "package": "Facts",
@@ -16409,6 +17900,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SJM",
           "package": "Facts",
@@ -16422,6 +17914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SK",
           "package": "Facts",
@@ -16431,6 +17924,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SK",
           "package": "Facts",
@@ -16444,6 +17938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SL",
           "package": "Facts",
@@ -16453,6 +17948,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SL",
           "package": "Facts",
@@ -16466,6 +17962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SLB",
           "package": "Facts",
@@ -16475,6 +17972,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SLB",
           "package": "Facts",
@@ -16488,6 +17986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SLE",
           "package": "Facts",
@@ -16497,6 +17996,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SLE",
           "package": "Facts",
@@ -16510,6 +18010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SLV",
           "package": "Facts",
@@ -16519,6 +18020,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SLV",
           "package": "Facts",
@@ -16532,6 +18034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SM",
           "package": "Facts",
@@ -16541,6 +18044,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SM",
           "package": "Facts",
@@ -16554,6 +18058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SMR",
           "package": "Facts",
@@ -16563,6 +18068,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SMR",
           "package": "Facts",
@@ -16576,6 +18082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SN",
           "package": "Facts",
@@ -16585,6 +18092,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SN",
           "package": "Facts",
@@ -16598,6 +18106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SO",
           "package": "Facts",
@@ -16607,6 +18116,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SO",
           "package": "Facts",
@@ -16620,6 +18130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SOM",
           "package": "Facts",
@@ -16629,6 +18140,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SOM",
           "package": "Facts",
@@ -16642,6 +18154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SPM",
           "package": "Facts",
@@ -16651,6 +18164,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SPM",
           "package": "Facts",
@@ -16664,6 +18178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SR",
           "package": "Facts",
@@ -16673,6 +18188,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SR",
           "package": "Facts",
@@ -16686,6 +18202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SRB",
           "package": "Facts",
@@ -16695,6 +18212,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SRB",
           "package": "Facts",
@@ -16708,6 +18226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ST",
           "package": "Facts",
@@ -16717,6 +18236,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ST",
           "package": "Facts",
@@ -16730,6 +18250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "STP",
           "package": "Facts",
@@ -16739,6 +18260,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "STP",
           "package": "Facts",
@@ -16752,6 +18274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SUR",
           "package": "Facts",
@@ -16761,6 +18284,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SUR",
           "package": "Facts",
@@ -16774,6 +18298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SV",
           "package": "Facts",
@@ -16783,6 +18308,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SV",
           "package": "Facts",
@@ -16796,6 +18322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SVK",
           "package": "Facts",
@@ -16805,6 +18332,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SVK",
           "package": "Facts",
@@ -16818,6 +18346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SVN",
           "package": "Facts",
@@ -16827,6 +18356,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SVN",
           "package": "Facts",
@@ -16840,6 +18370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SWE",
           "package": "Facts",
@@ -16849,6 +18380,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SWE",
           "package": "Facts",
@@ -16862,6 +18394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SWZ",
           "package": "Facts",
@@ -16871,6 +18404,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SWZ",
           "package": "Facts",
@@ -16884,6 +18418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SY",
           "package": "Facts",
@@ -16893,6 +18428,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SY",
           "package": "Facts",
@@ -16906,6 +18442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SYC",
           "package": "Facts",
@@ -16915,6 +18452,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SYC",
           "package": "Facts",
@@ -16928,6 +18466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SYR",
           "package": "Facts",
@@ -16937,6 +18476,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SYR",
           "package": "Facts",
@@ -16950,6 +18490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SZ",
           "package": "Facts",
@@ -16959,6 +18500,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SZ",
           "package": "Facts",
@@ -16972,6 +18514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SaintBarthelemy",
           "package": "Facts",
@@ -16981,6 +18524,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SaintBarthelemy",
           "package": "Facts",
@@ -16994,6 +18538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SaintHelenaAscensionAndTristanDaCunha",
           "package": "Facts",
@@ -17003,6 +18548,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SaintHelenaAscensionAndTristanDaCunha",
           "package": "Facts",
@@ -17016,6 +18562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SaintKittsAndNevis",
           "package": "Facts",
@@ -17025,6 +18572,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SaintKittsAndNevis",
           "package": "Facts",
@@ -17038,6 +18586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SaintLucia",
           "package": "Facts",
@@ -17047,6 +18596,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SaintLucia",
           "package": "Facts",
@@ -17060,6 +18610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SaintMartin",
           "package": "Facts",
@@ -17069,6 +18620,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SaintMartin",
           "package": "Facts",
@@ -17082,6 +18634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SaintPierreAndMiquelon",
           "package": "Facts",
@@ -17091,6 +18644,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SaintPierreAndMiquelon",
           "package": "Facts",
@@ -17104,6 +18658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SaintVincentAndTheGrenadines",
           "package": "Facts",
@@ -17113,6 +18668,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SaintVincentAndTheGrenadines",
           "package": "Facts",
@@ -17126,6 +18682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Samoa",
           "package": "Facts",
@@ -17135,6 +18692,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Samoa",
           "package": "Facts",
@@ -17148,6 +18706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SanMarino",
           "package": "Facts",
@@ -17157,6 +18716,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SanMarino",
           "package": "Facts",
@@ -17170,6 +18730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SaoTomeAndPrincipe",
           "package": "Facts",
@@ -17179,6 +18740,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SaoTomeAndPrincipe",
           "package": "Facts",
@@ -17192,6 +18754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SaudiArabia",
           "package": "Facts",
@@ -17201,6 +18764,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SaudiArabia",
           "package": "Facts",
@@ -17214,6 +18778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Senegal",
           "package": "Facts",
@@ -17223,6 +18788,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Senegal",
           "package": "Facts",
@@ -17236,6 +18802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Serbia",
           "package": "Facts",
@@ -17245,6 +18812,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Serbia",
           "package": "Facts",
@@ -17258,6 +18826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Seychelles",
           "package": "Facts",
@@ -17267,6 +18836,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Seychelles",
           "package": "Facts",
@@ -17280,6 +18850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SierraLeone",
           "package": "Facts",
@@ -17289,6 +18860,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SierraLeone",
           "package": "Facts",
@@ -17302,6 +18874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Singapore",
           "package": "Facts",
@@ -17311,6 +18884,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Singapore",
           "package": "Facts",
@@ -17324,6 +18898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Slovakia",
           "package": "Facts",
@@ -17333,6 +18908,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Slovakia",
           "package": "Facts",
@@ -17346,6 +18922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Slovenia",
           "package": "Facts",
@@ -17355,6 +18932,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Slovenia",
           "package": "Facts",
@@ -17368,6 +18946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SolomonIslands",
           "package": "Facts",
@@ -17377,6 +18956,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SolomonIslands",
           "package": "Facts",
@@ -17390,6 +18970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Somalia",
           "package": "Facts",
@@ -17399,6 +18980,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Somalia",
           "package": "Facts",
@@ -17412,6 +18994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SouthAfrica",
           "package": "Facts",
@@ -17421,6 +19004,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SouthAfrica",
           "package": "Facts",
@@ -17434,6 +19018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SouthGeorgiaAndtheSouthSandwichIslands",
           "package": "Facts",
@@ -17443,6 +19028,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SouthGeorgiaAndtheSouthSandwichIslands",
           "package": "Facts",
@@ -17456,6 +19042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SouthKorea",
           "package": "Facts",
@@ -17465,6 +19052,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SouthKorea",
           "package": "Facts",
@@ -17478,6 +19066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Spain",
           "package": "Facts",
@@ -17487,6 +19076,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Spain",
           "package": "Facts",
@@ -17500,6 +19090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SriLanka",
           "package": "Facts",
@@ -17509,6 +19100,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SriLanka",
           "package": "Facts",
@@ -17522,6 +19114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Sudan",
           "package": "Facts",
@@ -17531,6 +19124,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Sudan",
           "package": "Facts",
@@ -17544,6 +19138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Suriname",
           "package": "Facts",
@@ -17553,6 +19148,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Suriname",
           "package": "Facts",
@@ -17566,6 +19162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "SvalbardAndJanMayen",
           "package": "Facts",
@@ -17575,6 +19172,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "SvalbardAndJanMayen",
           "package": "Facts",
@@ -17588,6 +19186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Swaziland",
           "package": "Facts",
@@ -17597,6 +19196,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Swaziland",
           "package": "Facts",
@@ -17610,6 +19210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Sweden",
           "package": "Facts",
@@ -17619,6 +19220,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Sweden",
           "package": "Facts",
@@ -17632,6 +19234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Switzerland",
           "package": "Facts",
@@ -17641,6 +19244,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Switzerland",
           "package": "Facts",
@@ -17654,6 +19258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Syria",
           "package": "Facts",
@@ -17663,6 +19268,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Syria",
           "package": "Facts",
@@ -17676,6 +19282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TC",
           "package": "Facts",
@@ -17685,6 +19292,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TC",
           "package": "Facts",
@@ -17698,6 +19306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TCA",
           "package": "Facts",
@@ -17707,6 +19316,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TCA",
           "package": "Facts",
@@ -17720,6 +19330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TCD",
           "package": "Facts",
@@ -17729,6 +19340,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TCD",
           "package": "Facts",
@@ -17742,6 +19354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TD",
           "package": "Facts",
@@ -17751,6 +19364,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TD",
           "package": "Facts",
@@ -17764,6 +19378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TF",
           "package": "Facts",
@@ -17773,6 +19388,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TF",
           "package": "Facts",
@@ -17786,6 +19402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TG",
           "package": "Facts",
@@ -17795,6 +19412,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TG",
           "package": "Facts",
@@ -17808,6 +19426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TGO",
           "package": "Facts",
@@ -17817,6 +19436,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TGO",
           "package": "Facts",
@@ -17830,6 +19450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TH",
           "package": "Facts",
@@ -17839,6 +19460,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TH",
           "package": "Facts",
@@ -17852,6 +19474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "THA",
           "package": "Facts",
@@ -17861,6 +19484,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "THA",
           "package": "Facts",
@@ -17874,6 +19498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TJ",
           "package": "Facts",
@@ -17883,6 +19508,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TJ",
           "package": "Facts",
@@ -17896,6 +19522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TJK",
           "package": "Facts",
@@ -17905,6 +19532,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TJK",
           "package": "Facts",
@@ -17918,6 +19546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TK",
           "package": "Facts",
@@ -17927,6 +19556,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TK",
           "package": "Facts",
@@ -17940,6 +19570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TKL",
           "package": "Facts",
@@ -17949,6 +19580,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TKL",
           "package": "Facts",
@@ -17962,6 +19594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TKM",
           "package": "Facts",
@@ -17971,6 +19604,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TKM",
           "package": "Facts",
@@ -17984,6 +19618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TL",
           "package": "Facts",
@@ -17993,6 +19628,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TL",
           "package": "Facts",
@@ -18006,6 +19642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TLS",
           "package": "Facts",
@@ -18015,6 +19652,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TLS",
           "package": "Facts",
@@ -18028,6 +19666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TM",
           "package": "Facts",
@@ -18037,6 +19676,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TM",
           "package": "Facts",
@@ -18050,6 +19690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TN",
           "package": "Facts",
@@ -18059,6 +19700,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TN",
           "package": "Facts",
@@ -18072,6 +19714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TO",
           "package": "Facts",
@@ -18081,6 +19724,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TO",
           "package": "Facts",
@@ -18094,6 +19738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TON",
           "package": "Facts",
@@ -18103,6 +19748,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TON",
           "package": "Facts",
@@ -18116,6 +19762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TR",
           "package": "Facts",
@@ -18125,6 +19772,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TR",
           "package": "Facts",
@@ -18138,6 +19786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TT",
           "package": "Facts",
@@ -18147,6 +19796,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TT",
           "package": "Facts",
@@ -18160,6 +19810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TTO",
           "package": "Facts",
@@ -18169,6 +19820,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TTO",
           "package": "Facts",
@@ -18182,6 +19834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TUN",
           "package": "Facts",
@@ -18191,6 +19844,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TUN",
           "package": "Facts",
@@ -18204,6 +19858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TUR",
           "package": "Facts",
@@ -18213,6 +19868,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TUR",
           "package": "Facts",
@@ -18226,6 +19882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TUV",
           "package": "Facts",
@@ -18235,6 +19892,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TUV",
           "package": "Facts",
@@ -18248,6 +19906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TV",
           "package": "Facts",
@@ -18257,6 +19916,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TV",
           "package": "Facts",
@@ -18270,6 +19930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TW",
           "package": "Facts",
@@ -18279,6 +19940,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TW",
           "package": "Facts",
@@ -18292,6 +19954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TWN",
           "package": "Facts",
@@ -18301,6 +19964,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TWN",
           "package": "Facts",
@@ -18314,6 +19978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TZ",
           "package": "Facts",
@@ -18323,6 +19988,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TZ",
           "package": "Facts",
@@ -18336,6 +20002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TZA",
           "package": "Facts",
@@ -18345,6 +20012,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TZA",
           "package": "Facts",
@@ -18358,6 +20026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Taiwan",
           "package": "Facts",
@@ -18367,6 +20036,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Taiwan",
           "package": "Facts",
@@ -18380,6 +20050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Tajikistan",
           "package": "Facts",
@@ -18389,6 +20060,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Tajikistan",
           "package": "Facts",
@@ -18402,6 +20074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Tanzania",
           "package": "Facts",
@@ -18411,6 +20084,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Tanzania",
           "package": "Facts",
@@ -18424,6 +20098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Thailand",
           "package": "Facts",
@@ -18433,6 +20108,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Thailand",
           "package": "Facts",
@@ -18446,6 +20122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TimorLeste",
           "package": "Facts",
@@ -18455,6 +20132,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TimorLeste",
           "package": "Facts",
@@ -18468,6 +20146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Togo",
           "package": "Facts",
@@ -18477,6 +20156,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Togo",
           "package": "Facts",
@@ -18490,6 +20170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Tokelau",
           "package": "Facts",
@@ -18499,6 +20180,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Tokelau",
           "package": "Facts",
@@ -18512,6 +20194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Tonga",
           "package": "Facts",
@@ -18521,6 +20204,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Tonga",
           "package": "Facts",
@@ -18534,6 +20218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TrinidadAndTobago",
           "package": "Facts",
@@ -18543,6 +20228,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TrinidadAndTobago",
           "package": "Facts",
@@ -18556,6 +20242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Tunisia",
           "package": "Facts",
@@ -18565,6 +20252,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Tunisia",
           "package": "Facts",
@@ -18578,6 +20266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Turkey",
           "package": "Facts",
@@ -18587,6 +20276,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Turkey",
           "package": "Facts",
@@ -18600,6 +20290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Turkmenistan",
           "package": "Facts",
@@ -18609,6 +20300,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Turkmenistan",
           "package": "Facts",
@@ -18622,6 +20314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "TurksAndCaicosIslands",
           "package": "Facts",
@@ -18631,6 +20324,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "TurksAndCaicosIslands",
           "package": "Facts",
@@ -18644,6 +20338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Tuvalu",
           "package": "Facts",
@@ -18653,6 +20348,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Tuvalu",
           "package": "Facts",
@@ -18666,6 +20362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UA",
           "package": "Facts",
@@ -18675,6 +20372,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UA",
           "package": "Facts",
@@ -18688,6 +20386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UG",
           "package": "Facts",
@@ -18697,6 +20396,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UG",
           "package": "Facts",
@@ -18710,6 +20410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UGA",
           "package": "Facts",
@@ -18719,6 +20420,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UGA",
           "package": "Facts",
@@ -18732,6 +20434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UKR",
           "package": "Facts",
@@ -18741,6 +20444,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UKR",
           "package": "Facts",
@@ -18754,6 +20458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UM",
           "package": "Facts",
@@ -18763,6 +20468,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UM",
           "package": "Facts",
@@ -18776,6 +20482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UMI",
           "package": "Facts",
@@ -18785,6 +20492,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UMI",
           "package": "Facts",
@@ -18798,6 +20506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "URY",
           "package": "Facts",
@@ -18807,6 +20516,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "URY",
           "package": "Facts",
@@ -18820,6 +20530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "US",
           "package": "Facts",
@@ -18829,6 +20540,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "US",
           "package": "Facts",
@@ -18842,6 +20554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "USA",
           "package": "Facts",
@@ -18851,6 +20564,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "USA",
           "package": "Facts",
@@ -18864,6 +20578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "USVirginIslands",
           "package": "Facts",
@@ -18873,6 +20588,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "USVirginIslands",
           "package": "Facts",
@@ -18886,6 +20602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UY",
           "package": "Facts",
@@ -18895,6 +20612,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UY",
           "package": "Facts",
@@ -18908,6 +20626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UZ",
           "package": "Facts",
@@ -18917,6 +20636,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UZ",
           "package": "Facts",
@@ -18930,6 +20650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UZB",
           "package": "Facts",
@@ -18939,6 +20660,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UZB",
           "package": "Facts",
@@ -18952,6 +20674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Uganda",
           "package": "Facts",
@@ -18961,6 +20684,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Uganda",
           "package": "Facts",
@@ -18974,6 +20698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Ukraine",
           "package": "Facts",
@@ -18983,6 +20708,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Ukraine",
           "package": "Facts",
@@ -18996,6 +20722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UnitedArabEmirates",
           "package": "Facts",
@@ -19005,6 +20732,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UnitedArabEmirates",
           "package": "Facts",
@@ -19018,6 +20746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UnitedKingdom",
           "package": "Facts",
@@ -19027,6 +20756,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UnitedKingdom",
           "package": "Facts",
@@ -19040,6 +20770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UnitedStates",
           "package": "Facts",
@@ -19049,6 +20780,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UnitedStates",
           "package": "Facts",
@@ -19062,6 +20794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "UnitedStatesMinorOutlyingIslands",
           "package": "Facts",
@@ -19071,6 +20804,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "UnitedStatesMinorOutlyingIslands",
           "package": "Facts",
@@ -19084,6 +20818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Uruguay",
           "package": "Facts",
@@ -19093,6 +20828,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Uruguay",
           "package": "Facts",
@@ -19106,6 +20842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Uzbekistan",
           "package": "Facts",
@@ -19115,6 +20852,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Uzbekistan",
           "package": "Facts",
@@ -19128,6 +20866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VA",
           "package": "Facts",
@@ -19137,6 +20876,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VA",
           "package": "Facts",
@@ -19150,6 +20890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VAT",
           "package": "Facts",
@@ -19159,6 +20900,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VAT",
           "package": "Facts",
@@ -19172,6 +20914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VC",
           "package": "Facts",
@@ -19181,6 +20924,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VC",
           "package": "Facts",
@@ -19194,6 +20938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VCT",
           "package": "Facts",
@@ -19203,6 +20948,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VCT",
           "package": "Facts",
@@ -19216,6 +20962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VE",
           "package": "Facts",
@@ -19225,6 +20972,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VE",
           "package": "Facts",
@@ -19238,6 +20986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VEN",
           "package": "Facts",
@@ -19247,6 +20996,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VEN",
           "package": "Facts",
@@ -19260,6 +21010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VG",
           "package": "Facts",
@@ -19269,6 +21020,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VG",
           "package": "Facts",
@@ -19282,6 +21034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VGB",
           "package": "Facts",
@@ -19291,6 +21044,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VGB",
           "package": "Facts",
@@ -19304,6 +21058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VI",
           "package": "Facts",
@@ -19313,6 +21068,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VI",
           "package": "Facts",
@@ -19326,6 +21082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VIR",
           "package": "Facts",
@@ -19335,6 +21092,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VIR",
           "package": "Facts",
@@ -19348,6 +21106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VN",
           "package": "Facts",
@@ -19357,6 +21116,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VN",
           "package": "Facts",
@@ -19370,6 +21130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VNM",
           "package": "Facts",
@@ -19379,6 +21140,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VNM",
           "package": "Facts",
@@ -19392,6 +21154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VU",
           "package": "Facts",
@@ -19401,6 +21164,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VU",
           "package": "Facts",
@@ -19414,6 +21178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VUT",
           "package": "Facts",
@@ -19423,6 +21188,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VUT",
           "package": "Facts",
@@ -19436,6 +21202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Vanuatu",
           "package": "Facts",
@@ -19445,6 +21212,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Vanuatu",
           "package": "Facts",
@@ -19458,6 +21226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Venezuela",
           "package": "Facts",
@@ -19467,6 +21236,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Venezuela",
           "package": "Facts",
@@ -19480,6 +21250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "VietNam",
           "package": "Facts",
@@ -19489,6 +21260,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "VietNam",
           "package": "Facts",
@@ -19502,6 +21274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "WF",
           "package": "Facts",
@@ -19511,6 +21284,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "WF",
           "package": "Facts",
@@ -19524,6 +21298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "WLF",
           "package": "Facts",
@@ -19533,6 +21308,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "WLF",
           "package": "Facts",
@@ -19546,6 +21322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "WS",
           "package": "Facts",
@@ -19555,6 +21332,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "WS",
           "package": "Facts",
@@ -19568,6 +21346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "WSM",
           "package": "Facts",
@@ -19577,6 +21356,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "WSM",
           "package": "Facts",
@@ -19590,6 +21370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "WallisAndFutuna",
           "package": "Facts",
@@ -19599,6 +21380,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "WallisAndFutuna",
           "package": "Facts",
@@ -19612,6 +21394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "WesternSahara",
           "package": "Facts",
@@ -19621,6 +21404,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "WesternSahara",
           "package": "Facts",
@@ -19634,6 +21418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "YE",
           "package": "Facts",
@@ -19643,6 +21428,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "YE",
           "package": "Facts",
@@ -19656,6 +21442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "YEM",
           "package": "Facts",
@@ -19665,6 +21452,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "YEM",
           "package": "Facts",
@@ -19678,6 +21466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "YT",
           "package": "Facts",
@@ -19687,6 +21476,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "YT",
           "package": "Facts",
@@ -19700,6 +21490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Yemen",
           "package": "Facts",
@@ -19709,6 +21500,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Yemen",
           "package": "Facts",
@@ -19722,6 +21514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ZA",
           "package": "Facts",
@@ -19731,6 +21524,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ZA",
           "package": "Facts",
@@ -19744,6 +21538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ZAF",
           "package": "Facts",
@@ -19753,6 +21548,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ZAF",
           "package": "Facts",
@@ -19766,6 +21562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ZM",
           "package": "Facts",
@@ -19775,6 +21572,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ZM",
           "package": "Facts",
@@ -19788,6 +21586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ZMB",
           "package": "Facts",
@@ -19797,6 +21596,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ZMB",
           "package": "Facts",
@@ -19810,6 +21610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ZW",
           "package": "Facts",
@@ -19819,6 +21620,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ZW",
           "package": "Facts",
@@ -19832,6 +21634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "ZWE",
           "package": "Facts",
@@ -19841,6 +21644,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "ZWE",
           "package": "Facts",
@@ -19854,6 +21658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Zambia",
           "package": "Facts",
@@ -19863,6 +21668,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Zambia",
           "package": "Facts",
@@ -19876,6 +21682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "Zimbabwe",
           "package": "Facts",
@@ -19885,6 +21692,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "Zimbabwe",
           "package": "Facts",
@@ -19899,6 +21707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps an ISO-3166-1 2-character code to a \u003ccode\u003e\u003ca\u003eCountry\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "country_for_isoAlpha2Code",
           "package": "Facts",
@@ -19909,6 +21718,7 @@
         "index": {
           "description": "Maps an ISO-3166-1 character code to Country",
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "country_for_isoAlpha2Code",
           "normalized": "ISOAlpha Code-\u003eCountry",
@@ -19925,6 +21735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps an ISO-3166-1 3-character code to a \u003ccode\u003e\u003ca\u003eCountry\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "country_for_isoAlpha3Code",
           "package": "Facts",
@@ -19935,6 +21746,7 @@
         "index": {
           "description": "Maps an ISO-3166-1 character code to Country",
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "country_for_isoAlpha3Code",
           "normalized": "ISOAlpha Code-\u003eCountry",
@@ -19951,6 +21763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ISO Numeric Code space is not fully packed.  Many codes are \"reserved\" or otherwise\n   unused.  \u003ccode\u003e\u003ca\u003ecountry_for_isoNumericCode\u003c/a\u003e\u003c/code\u003e takes an \u003ccode\u003e\u003ca\u003eISONumericCode\u003c/a\u003e\u003c/code\u003e and possibly returns a matching\n   \u003ccode\u003e\u003ca\u003eCountry\u003c/a\u003e\u003c/code\u003e.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "country_for_isoNumericCode",
           "package": "Facts",
@@ -19961,6 +21774,7 @@
         "index": {
           "description": "The ISO Numeric Code space is not fully packed Many codes are reserved or otherwise unused country for isoNumericCode takes an ISONumericCode and possibly returns matching Country",
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "country_for_isoNumericCode",
           "normalized": "ISONumericCode-\u003eMaybe Country",
@@ -19977,6 +21791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecountry_for_valid_isoNumericCode\u003c/a\u003e\u003c/code\u003e maps a valid \u003ccode\u003e\u003ca\u003eISONumericCode\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eCountry\u003c/a\u003e\u003c/code\u003e.  Unfortunately,\n   this is a partial function.  Use \u003ccode\u003e\u003ca\u003ecountry_for_isoNumericCode\u003c/a\u003e\u003c/code\u003e instead, unless you can guarantee\n   that the \u003ccode\u003e\u003ca\u003eISONumericCode\u003c/a\u003e\u003c/code\u003e supplied to the query is valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "country_for_valid_isoNumericCode",
           "package": "Facts",
@@ -19987,6 +21802,7 @@
         "index": {
           "description": "country for valid isoNumericCode maps valid ISONumericCode to Country Unfortunately this is partial function Use country for isoNumericCode instead unless you can guarantee that the ISONumericCode supplied to the query is valid",
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "country_for_valid_isoNumericCode",
           "normalized": "ISONumericCode-\u003eCountry",
@@ -20003,6 +21819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eformalEnglishCountryName\u003c/a\u003e\u003c/code\u003e maps a Country to an ISO-3166-1 \"formal name\".  By the international\n    standard, these names are taken from the \"United Nations Terminology Bulletin Country Names\",\n    and \"Country and Region Codes for Statistical Use\" of the UN Statistics Division. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "formalEnglishCountryName",
           "package": "Facts",
@@ -20013,6 +21830,7 @@
         "index": {
           "description": "formalEnglishCountryName maps Country to an ISO-3166-1 formal name By the international standard these names are taken from the United Nations Terminology Bulletin Country Names and Country and Region Codes for Statistical Use of the UN Statistics Division",
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "formalEnglishCountryName",
           "normalized": "Country-\u003eUNFormalName",
@@ -20029,6 +21847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps a \u003ccode\u003e\u003ca\u003eCountry\u003c/a\u003e\u003c/code\u003e to its ISO-3166-1 2-character code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "isoAlpha2Code_for_country",
           "package": "Facts",
@@ -20039,6 +21858,7 @@
         "index": {
           "description": "Maps Country to its ISO-3166-1 character code",
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "isoAlpha2Code_for_country",
           "normalized": "Country-\u003eISOAlpha Code",
@@ -20055,6 +21875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps a \u003ccode\u003e\u003ca\u003eCountry\u003c/a\u003e\u003c/code\u003e to its ISO-3166-1 3-character code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "isoAlpha3Code_for_country",
           "package": "Facts",
@@ -20065,6 +21886,7 @@
         "index": {
           "description": "Maps Country to its ISO-3166-1 character code",
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "isoAlpha3Code_for_country",
           "normalized": "Country-\u003eISOAlpha Code",
@@ -20081,6 +21903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA smart constructor to turn \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003es into \u003ccode\u003e\u003ca\u003eISONumericCode\u003c/a\u003e\u003c/code\u003es.  Note that the space of ISO-3166-1\n   numeric codes has many reserved or otherwise unused codes.  This constructor does not verify that\n   its input is a valid ISO-3166-1 country code, it merely constructs a \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "isoNumericCode",
           "package": "Facts",
@@ -20091,6 +21914,7 @@
         "index": {
           "description": "smart constructor to turn Integer into ISONumericCode Note that the space of ISO-3166-1 numeric codes has many reserved or otherwise unused codes This constructor does not verify that its input is valid ISO-3166-1 country code it merely constructs",
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "isoNumericCode",
           "normalized": "Integer-\u003eISONumericCode",
@@ -20107,6 +21931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps a \u003ccode\u003e\u003ca\u003eCountry\u003c/a\u003e\u003c/code\u003e to its ISO-3166-1 numeric code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "isoNumericCode_for_country",
           "package": "Facts",
@@ -20117,6 +21942,7 @@
         "index": {
           "description": "Maps Country to its ISO-3166-1 numeric code",
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "isoNumericCode_for_country",
           "normalized": "Country-\u003eISONumericCode",
@@ -20133,6 +21959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eshortEnglishCountryName\u003c/a\u003e\u003c/code\u003e maps a Country to an ISO-3166-1 \"short name\".  By the international\n    standard, these names are taken from the \"United Nations Terminology Bulletin Country Names\",\n    and \"Country and Region Codes for Statistical Use\" of the UN Statistics Division.                               \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Countries",
           "name": "shortEnglishCountryName",
           "package": "Facts",
@@ -20143,6 +21970,7 @@
         "index": {
           "description": "shortEnglishCountryName maps Country to an ISO-3166-1 short name By the international standard these names are taken from the United Nations Terminology Bulletin Country Names and Country and Region Codes for Statistical Use of the UN Statistics Division",
           "hierarchy": "Facts Geography Countries",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Countries",
           "name": "shortEnglishCountryName",
           "normalized": "Country-\u003eUNShortName",
@@ -20158,6 +21986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "Location",
           "package": "Facts",
@@ -20166,6 +21995,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "Location",
           "package": "Facts",
@@ -20179,6 +22009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "DMS",
           "package": "Facts",
@@ -20187,6 +22018,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "DMS",
           "package": "Facts",
@@ -20200,6 +22032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "Latitude",
           "package": "Facts",
@@ -20208,6 +22041,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "Latitude",
           "package": "Facts",
@@ -20221,6 +22055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "Length",
           "package": "Facts",
@@ -20229,6 +22064,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "Length",
           "package": "Facts",
@@ -20242,6 +22078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "Location",
           "package": "Facts",
@@ -20250,6 +22087,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "Location",
           "package": "Facts",
@@ -20263,6 +22101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "Longitude",
           "package": "Facts",
@@ -20271,6 +22110,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "Longitude",
           "package": "Facts",
@@ -20284,6 +22124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "DMS",
           "package": "Facts",
@@ -20293,6 +22134,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "DMS",
           "package": "Facts",
@@ -20306,6 +22148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "Feet",
           "package": "Facts",
@@ -20315,6 +22158,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "Feet",
           "package": "Facts",
@@ -20328,6 +22172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "Latitude",
           "package": "Facts",
@@ -20337,6 +22182,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "Latitude",
           "package": "Facts",
@@ -20350,6 +22196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "Location",
           "package": "Facts",
@@ -20359,6 +22206,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "Location",
           "package": "Facts",
@@ -20372,6 +22220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "Longitude",
           "package": "Facts",
@@ -20381,6 +22230,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "Longitude",
           "package": "Facts",
@@ -20394,6 +22244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "Meters",
           "package": "Facts",
@@ -20403,6 +22254,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "Meters",
           "package": "Facts",
@@ -20416,6 +22268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "degrees",
           "package": "Facts",
@@ -20425,6 +22278,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "degrees",
           "package": "Facts",
@@ -20437,6 +22291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "elevation",
           "package": "Facts",
@@ -20446,6 +22301,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "elevation",
           "package": "Facts",
@@ -20458,6 +22314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "latitude",
           "package": "Facts",
@@ -20467,6 +22324,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "latitude",
           "package": "Facts",
@@ -20479,6 +22337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "longitude",
           "package": "Facts",
@@ -20488,6 +22347,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "longitude",
           "package": "Facts",
@@ -20500,6 +22360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "minutes",
           "package": "Facts",
@@ -20509,6 +22370,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "minutes",
           "package": "Facts",
@@ -20521,6 +22383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:45 UTC 2014",
           "module": "Facts.Geography.Location",
           "name": "seconds",
           "package": "Facts",
@@ -20530,6 +22393,7 @@
         },
         "index": {
           "hierarchy": "Facts Geography Location",
+          "indexed": "2014-03-11T16:40:45",
           "module": "Facts.Geography.Location",
           "name": "seconds",
           "package": "Facts",

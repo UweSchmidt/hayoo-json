@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scgi"
+        "phrase": "scgi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:59 UTC 2014",
           "module": "Network.SCGI",
           "name": "SCGI",
           "package": "scgi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T19:57:59",
           "module": "Network.SCGI",
           "name": "SCGI",
           "package": "scgi",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:59 UTC 2014",
           "module": "Network.SCGI",
           "name": "runOnceSCGI",
           "package": "scgi",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T19:57:59",
           "module": "Network.SCGI",
           "name": "runOnceSCGI",
           "normalized": "PortID-\u003eCGI CGIResult-\u003eIO()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:59 UTC 2014",
           "module": "Network.SCGI",
           "name": "runSCGI",
           "package": "scgi",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T19:57:59",
           "module": "Network.SCGI",
           "name": "runSCGI",
           "normalized": "PortID-\u003eCGI CGIResult-\u003eIO()",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:59 UTC 2014",
           "module": "Network.SCGI",
           "name": "runSCGIConcurrent",
           "package": "scgi",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T19:57:59",
           "module": "Network.SCGI",
           "name": "runSCGIConcurrent",
           "normalized": "Int-\u003ePortID-\u003eCGI CGIResult-\u003eIO()",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:59 UTC 2014",
           "module": "Network.SCGI",
           "name": "runSCGIConcurrent'",
           "package": "scgi",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Network SCGI",
+          "indexed": "2014-03-11T19:57:59",
           "module": "Network.SCGI",
           "name": "runSCGIConcurrent'",
           "normalized": "(IO()-\u003eIO a)-\u003eInt-\u003ePortID-\u003eCGI CGIResult-\u003eIO()",

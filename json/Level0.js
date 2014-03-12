@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Level0"
+        "phrase": "Level0",
+        "type": "phrase"
       },
       "type": "context"
     }

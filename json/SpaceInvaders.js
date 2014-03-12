@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SpaceInvaders"
+        "phrase": "SpaceInvaders",
+        "type": "phrase"
       },
       "type": "context"
     }

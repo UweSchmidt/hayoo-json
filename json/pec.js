@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pec"
+        "phrase": "pec",
+        "type": "phrase"
       },
       "type": "context"
     }

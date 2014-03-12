@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uni-events"
+        "phrase": "uni-events",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Cell is a container for a value.  It is created with the value in it.\n The only change we can make is to remove the value, and we cannot put\n it back again.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Cells",
           "name": "Cells",
           "package": "uni-events",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Cell is container for value It is created with the value in it The only change we can make is to remove the value and we cannot put it back again",
           "hierarchy": "Events Cells",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Cells",
           "name": "Cells",
           "package": "uni-events",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Cells",
           "name": "Cell",
           "package": "uni-events",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Events Cells",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Cells",
           "name": "Cell",
           "package": "uni-events",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Cells",
           "name": "emptyCell",
           "package": "uni-events",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Events Cells",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Cells",
           "name": "emptyCell",
           "normalized": "Cell a-\u003eIO()",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Cells",
           "name": "inspectCell",
           "package": "uni-events",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Events Cells",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Cells",
           "name": "inspectCell",
           "normalized": "Cell a-\u003eIO(Maybe a)",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Cells",
           "name": "newCell",
           "package": "uni-events",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Events Cells",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Cells",
           "name": "newCell",
           "normalized": "a-\u003eIO(Cell a)",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a bare-bones implementation of CML-style channels, IE no\n guards.  Why not use NullGuardChannel you might ask?  Because all the\n gunge we add to do guards makes it too inefficient.\n\u003c/p\u003e\u003cp\u003eTo avoid memory-leaks we need to clean out superannuated registrations\n occasionally, as otherwise we will gradually run out of memory if the\n user continually polls a receive channel event, but no-one is sending\n anything.  (The memory lost is potentially quite big, since it includes\n all the continuations we will never need.)\n\u003c/p\u003e\u003cp\u003eAlthough this is not expressed by the type, there are three possible states\n for the channel\n (1) we have \u003e=0 queued send events and no queued receive events.\n (2) we have \u003e=0 queued receive events and no queued send events.\n (3) we have both send and receive events queued, but they all come\n     from the same synchronisation.\n When we have a new send event, and there are queued receive events\n not from the same synchronisation, we can match.  Otherwise the\n send event must be queued.  For receive events the situation is exactly\n the same in reverse.\n\u003c/p\u003e\u003cp\u003eOur quick and dirty strategy is to maintain an integer counter for the\n channel.  This is initially 0 and on each send or receive registration\n changes as follows:\n 1) If we match an event set counter to 0.\n 2) If we try to match an event, but fail because the event was already\n    matched by someone else (Anticipated), leave counter as it is.\n 3) If finally we have to queue an event, look at counter.  If it\n    exceeds 10, clean the queue and set counter to 0, otherwise increment it.\n \"cleaning\" means removing all items from the front of the queue which\n have flipped toggles.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Channels",
           "name": "Channels",
           "package": "uni-events",
@@ -144,6 +155,7 @@
         "index": {
           "description": "This is bare-bones implementation of CML-style channels IE no guards Why not use NullGuardChannel you might ask Because all the gunge we add to do guards makes it too inefficient To avoid memory-leaks we need to clean out superannuated registrations occasionally as otherwise we will gradually run out of memory if the user continually polls receive channel event but no-one is sending anything The memory lost is potentially quite big since it includes all the continuations we will never need Although this is not expressed by the type there are three possible states for the channel we have queued send events and no queued receive events we have queued receive events and no queued send events we have both send and receive events queued but they all come from the same synchronisation When we have new send event and there are queued receive events not from the same synchronisation we can match Otherwise the send event must be queued For receive events the situation is exactly the same in reverse Our quick and dirty strategy is to maintain an integer counter for the channel This is initially and on each send or receive registration changes as follows If we match an event set counter to If we try to match an event but fail because the event was already matched by someone else Anticipated leave counter as it is If finally we have to queue an event look at counter If it exceeds clean the queue and set counter to otherwise increment it cleaning means removing all items from the front of the queue which have flipped toggles",
           "hierarchy": "Events Channels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Channels",
           "name": "Channels",
           "package": "uni-events",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synchronous channel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Channels",
           "name": "Channel",
           "package": "uni-events",
@@ -167,6 +180,7 @@
         "index": {
           "description": "synchronous channel",
           "hierarchy": "Events Channels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Channels",
           "name": "Channel",
           "package": "uni-events",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new channel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Channels",
           "name": "newChannel",
           "package": "uni-events",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Create new channel",
           "hierarchy": "Events Channels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Channels",
           "name": "newChannel",
           "package": "uni-events",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA DeleteQueue is a queue where entries can be deleted by an\n IO action.  This is a fairly specialised implementation, designed\n for event handling.\n\u003c/p\u003e\u003cp\u003eQueue entries are either active or invalid.  Once invalid,\n removeQueue will not return them, but they still take up (a little) memory.\n\u003c/p\u003e\u003cp\u003eaddQueue, removeQueue, isEmptyQueue, cleanQueue all take a delete queue\n as argument.  We assume that this argument is not used again.\n\u003c/p\u003e\u003cp\u003eEither removeQueue or isEmptyQueue or cleanQueue should be run\n occasionally, to remove invalid entries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.DeleteQueue",
           "name": "DeleteQueue",
           "package": "uni-events",
@@ -214,6 +231,7 @@
         "index": {
           "description": "DeleteQueue is queue where entries can be deleted by an IO action This is fairly specialised implementation designed for event handling Queue entries are either active or invalid Once invalid removeQueue will not return them but they still take up little memory addQueue removeQueue isEmptyQueue cleanQueue all take delete queue as argument We assume that this argument is not used again Either removeQueue or isEmptyQueue or cleanQueue should be run occasionally to remove invalid entries",
           "hierarchy": "Events DeleteQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.DeleteQueue",
           "name": "DeleteQueue",
           "package": "uni-events",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.DeleteQueue",
           "name": "DeleteQueue",
           "package": "uni-events",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Events DeleteQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.DeleteQueue",
           "name": "DeleteQueue",
           "package": "uni-events",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.DeleteQueue",
           "name": "addQueue",
           "package": "uni-events",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Events DeleteQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.DeleteQueue",
           "name": "addQueue",
           "normalized": "DeleteQueue a-\u003ea-\u003eIO(DeleteQueue a,IO())",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.DeleteQueue",
           "name": "cleanQueue",
           "package": "uni-events",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Events DeleteQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.DeleteQueue",
           "name": "cleanQueue",
           "normalized": "DeleteQueue a-\u003eIO(DeleteQueue a)",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.DeleteQueue",
           "name": "emptyQueue",
           "package": "uni-events",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Events DeleteQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.DeleteQueue",
           "name": "emptyQueue",
           "package": "uni-events",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.DeleteQueue",
           "name": "isEmptyQueue",
           "package": "uni-events",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Events DeleteQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.DeleteQueue",
           "name": "isEmptyQueue",
           "normalized": "DeleteQueue a-\u003eIO(Maybe(DeleteQueue a))",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.DeleteQueue",
           "name": "removeQueue",
           "package": "uni-events",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Events DeleteQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.DeleteQueue",
           "name": "removeQueue",
           "normalized": "DeleteQueue a-\u003eIO(Maybe(a,DeleteQueue a,DeleteQueue a))",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThings which instance Destroyable and Destructible can be destroyed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Destructible",
           "name": "Destructible",
           "package": "uni-events",
@@ -376,6 +407,7 @@
         "index": {
           "description": "Things which instance Destroyable and Destructible can be destroyed",
           "hierarchy": "Events Destructible",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Destructible",
           "name": "Destructible",
           "package": "uni-events",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Destructible",
           "name": "Destroyable",
           "package": "uni-events",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Events Destructible",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Destructible",
           "name": "Destroyable",
           "package": "uni-events",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Destructible",
           "name": "Destructible",
           "package": "uni-events",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Events Destructible",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Destructible",
           "name": "Destructible",
           "package": "uni-events",
@@ -432,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestroys an object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Destructible",
           "name": "destroy",
           "package": "uni-events",
@@ -442,6 +479,7 @@
         "index": {
           "description": "Destroys an object",
           "hierarchy": "Events Destructible",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Destructible",
           "name": "destroy",
           "normalized": "a-\u003eIO()",
@@ -457,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn event which occurs when the object is destroyed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Destructible",
           "name": "destroyed",
           "package": "uni-events",
@@ -467,6 +506,7 @@
         "index": {
           "description": "An event which occurs when the object is destroyed",
           "hierarchy": "Events Destructible",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Destructible",
           "name": "destroyed",
           "normalized": "a-\u003eEvent()",
@@ -482,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoOnce can be used to produce an action which is identical\n to its argument, except that if it's already been called, it\n does nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Destructible",
           "name": "doOnce",
           "package": "uni-events",
@@ -492,6 +533,7 @@
         "index": {
           "description": "doOnce can be used to produce an action which is identical to its argument except that if it already been called it does nothing",
           "hierarchy": "Events Destructible",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Destructible",
           "name": "doOnce",
           "normalized": "IO()-\u003eIO(IO())",
@@ -508,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHere we create a simple guarded queue which allows guarding by equality\n according to an ordered key.  Thus guards have three values,\n match anything, match nothing, and match this value.\n\u003c/p\u003e\u003cp\u003eTo simplify the implementation, we specify that an Eq match has higher\n priority than a MatchAnything match, and when we must choose between\n values for MatchAnything, do not necessarily choose the first\n (more likely the one with the lowest key value).  But we do respect\n FIFO order when only Eq guards are involved.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.EqGuard",
           "name": "EqGuard",
           "package": "uni-events",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Here we create simple guarded queue which allows guarding by equality according to an ordered key Thus guards have three values match anything match nothing and match this value To simplify the implementation we specify that an Eq match has higher priority than MatchAnything match and when we must choose between values for MatchAnything do not necessarily choose the first more likely the one with the lowest key value But we do respect FIFO order when only Eq guards are involved",
           "hierarchy": "Events EqGuard",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.EqGuard",
           "name": "EqGuard",
           "package": "uni-events",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.EqGuard",
           "name": "EqGuardedChannel",
           "package": "uni-events",
@@ -538,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Events EqGuard",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.EqGuard",
           "name": "EqGuardedChannel",
           "package": "uni-events",
@@ -551,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.EqGuard",
           "name": "EqMatch",
           "package": "uni-events",
@@ -559,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Events EqGuard",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.EqGuard",
           "name": "EqMatch",
           "package": "uni-events",
@@ -572,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.EqGuard",
           "name": "Eq",
           "package": "uni-events",
@@ -581,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Events EqGuard",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.EqGuard",
           "name": "Eq",
           "package": "uni-events",
@@ -594,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.EqGuard",
           "name": "EqMatchAny",
           "package": "uni-events",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Events EqGuard",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.EqGuard",
           "name": "EqMatchAny",
           "package": "uni-events",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.EqGuard",
           "name": "EqMatchNone",
           "package": "uni-events",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Events EqGuard",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.EqGuard",
           "name": "EqMatchNone",
           "package": "uni-events",
@@ -638,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.EqGuard",
           "name": "newEqGuardedChannel",
           "package": "uni-events",
@@ -647,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Events EqGuard",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.EqGuard",
           "name": "newEqGuardedChannel",
           "package": "uni-events",
@@ -661,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003es and combinators for them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "Events",
           "package": "uni-events",
@@ -670,6 +727,7 @@
         "index": {
           "description": "Event and combinators for them",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "Events",
           "package": "uni-events",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "Event",
           "package": "uni-events",
@@ -691,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "Event",
           "package": "uni-events",
@@ -705,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHasEvent represents those event-like things which can be converted to\n an event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "HasEvent",
           "package": "uni-events",
@@ -714,6 +775,7 @@
         "index": {
           "description": "HasEvent represents those event-like things which can be converted to an event",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "HasEvent",
           "package": "uni-events",
@@ -728,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHasReceive represents things like channels from which we can take values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "HasReceive",
           "package": "uni-events",
@@ -737,6 +800,7 @@
         "index": {
           "description": "HasReceive represents things like channels from which we can take values",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "HasReceive",
           "package": "uni-events",
@@ -751,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHasSend represents things like channels on which we can send values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "HasSend",
           "package": "uni-events",
@@ -760,6 +825,7 @@
         "index": {
           "description": "HasSend represents things like channels on which we can send values",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "HasSend",
           "package": "uni-events",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "Request",
           "package": "uni-events",
@@ -781,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "Request",
           "package": "uni-events",
@@ -794,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "Result",
           "package": "uni-events",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "Result",
           "package": "uni-events",
@@ -816,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose between two events.  The first one takes priority.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "(+\u003e)",
           "package": "uni-events",
@@ -826,6 +897,7 @@
         "index": {
           "description": "Choose between two events The first one takes priority",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "(+\u003e) +\u003e",
           "normalized": "Event a-\u003eEvent a-\u003eEvent a",
@@ -841,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach an action to be done after the event occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "(\u003e\u003e\u003e)",
           "package": "uni-events",
@@ -851,6 +924,7 @@
         "index": {
           "description": "Attach an action to be done after the event occurs",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "(\u003e\u003e\u003e) \u003e\u003e\u003e",
           "normalized": "Event a-\u003eIO b-\u003eEvent b",
@@ -866,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach an action to be done after the event occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "(\u003e\u003e\u003e=)",
           "package": "uni-events",
@@ -876,6 +951,7 @@
         "index": {
           "description": "Attach an action to be done after the event occurs",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "(\u003e\u003e\u003e=) \u003e\u003e\u003e=",
           "normalized": "Event a-\u003e(a-\u003eIO b)-\u003eEvent b",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "Awaiting",
           "package": "uni-events",
@@ -899,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "Awaiting",
           "normalized": "Awaiting(IO())",
@@ -914,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "AwaitingAlways",
           "package": "uni-events",
@@ -923,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "AwaitingAlways",
           "normalized": "AwaitingAlways(IO())",
@@ -938,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "Event",
           "package": "uni-events",
@@ -947,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "Event",
           "normalized": "Event(Toggle-\u003e(IO a-\u003eIO())-\u003eIO Result)",
@@ -962,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "Immediate",
           "package": "uni-events",
@@ -971,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "Immediate",
           "package": "uni-events",
@@ -984,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "Request",
           "package": "uni-events",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "Request",
           "normalized": "Request(a-\u003eIO(Event b,IO()))",
@@ -1009,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eallowWhile event1 event2 waits for event2, while handling event1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "allowWhile",
           "package": "uni-events",
@@ -1019,6 +1106,7 @@
         "index": {
           "description": "allowWhile event1 event2 waits for event2 while handling event1",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "allowWhile",
           "normalized": "Event()-\u003eEvent a-\u003eEvent a",
@@ -1035,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe event that always happens, immediately\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "always",
           "package": "uni-events",
@@ -1045,6 +1134,7 @@
         "index": {
           "description": "The event that always happens immediately",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "always",
           "normalized": "IO a-\u003eEvent a",
@@ -1060,6 +1150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose between a list of events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "choose",
           "package": "uni-events",
@@ -1070,6 +1161,7 @@
         "index": {
           "description": "Choose between list of events",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "choose",
           "normalized": "[Event a]-\u003eEvent a",
@@ -1085,6 +1177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new event using an action which is called at each\n synchronisation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "computeEvent",
           "package": "uni-events",
@@ -1095,6 +1188,7 @@
         "index": {
           "description": "Construct new event using an action which is called at each synchronisation",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "computeEvent",
           "normalized": "IO(Event a)-\u003eEvent a",
@@ -1110,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "doRequest",
           "package": "uni-events",
@@ -1119,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "doRequest",
           "normalized": "Request a b-\u003ea-\u003eIO(Event b,IO())",
@@ -1134,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "doneEvent",
           "package": "uni-events",
@@ -1143,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "doneEvent",
           "normalized": "a-\u003eEvent a",
@@ -1159,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all we can get from the event without waiting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "getAllQueued",
           "package": "uni-events",
@@ -1169,6 +1268,7 @@
         "index": {
           "description": "get all we can get from the event without waiting",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "getAllQueued",
           "normalized": "Event a-\u003eIO[a]",
@@ -1185,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe event that never happens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "never",
           "package": "uni-events",
@@ -1195,6 +1296,7 @@
         "index": {
           "description": "The event that never happens",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "never",
           "package": "uni-events",
@@ -1208,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns an event into one which is always satisfied at once but registers\n the value to be done later.  WARNING - only to be used with events without\n actions attached, as any actions will not get done.  noWait is typically\n used with send events, where we don't want to wait for someone to pick up\n the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "noWait",
           "package": "uni-events",
@@ -1218,6 +1321,7 @@
         "index": {
           "description": "Turns an event into one which is always satisfied at once but registers the value to be done later WARNING only to be used with events without actions attached as any actions will not get done noWait is typically used with send events where we don want to wait for someone to pick up the value",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "noWait",
           "normalized": "Event a-\u003eEvent()",
@@ -1234,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronise on an event, but return immediately with Nothing if it\n can't be satisfied at once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "poll",
           "package": "uni-events",
@@ -1244,6 +1349,7 @@
         "index": {
           "description": "Synchronise on an event but return immediately with Nothing if it can be satisfied at once",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "poll",
           "normalized": "Event a-\u003eIO(Maybe a)",
@@ -1258,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "receive",
           "package": "uni-events",
@@ -1267,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "receive",
           "normalized": "a b-\u003eEvent b",
@@ -1282,6 +1390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a value from a channel (as an IO action)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "receiveIO",
           "package": "uni-events",
@@ -1292,6 +1401,7 @@
         "index": {
           "description": "Get value from channel as an IO action",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "receiveIO",
           "normalized": "a b-\u003eIO b",
@@ -1307,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "request",
           "package": "uni-events",
@@ -1316,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "request",
           "normalized": "Request a b-\u003ea-\u003eIO b",
@@ -1330,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "send",
           "package": "uni-events",
@@ -1339,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "send",
           "normalized": "a b-\u003eb-\u003eEvent()",
@@ -1354,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a value along a channel (as an IO action)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "sendIO",
           "package": "uni-events",
@@ -1364,6 +1479,7 @@
         "index": {
           "description": "Send value along channel as an IO action",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "sendIO",
           "normalized": "a b-\u003eb-\u003eIO()",
@@ -1380,6 +1496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronise on an event in a different thread.\n The kill action it returns is unsafe since it can cause deadlocks if\n it occurs at an awkward moment.  To avoid this use spawnEvent, if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "spawnEvent",
           "package": "uni-events",
@@ -1390,6 +1507,7 @@
         "index": {
           "description": "Synchronise on an event in different thread The kill action it returns is unsafe since it can cause deadlocks if it occurs at an awkward moment To avoid this use spawnEvent if possible",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "spawnEvent",
           "normalized": "Event()-\u003eIO(IO())",
@@ -1406,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronise on an event, waiting on it until it happens, then returning\n the attached value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "sync",
           "package": "uni-events",
@@ -1416,6 +1535,7 @@
         "index": {
           "description": "Synchronise on an event waiting on it until it happens then returning the attached value",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "sync",
           "normalized": "Event a-\u003eIO a",
@@ -1431,6 +1551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister an event as synchronised but don't wait for it to complete.\n WARNING - only to be used with events without\n actions attached, as any actions will not get done.  noWait is typically\n used with send events, where we don't want to wait for someone to pick up\n the value.\n synchronise on something without waiting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "syncNoWait",
           "package": "uni-events",
@@ -1441,6 +1562,7 @@
         "index": {
           "description": "Register an event as synchronised but don wait for it to complete WARNING only to be used with events without actions attached as any actions will not get done noWait is typically used with send events where we don want to wait for someone to pick up the value synchronise on something without waiting",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "syncNoWait",
           "normalized": "Event a-\u003eIO()",
@@ -1456,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "thenEvent",
           "package": "uni-events",
@@ -1465,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "thenEvent",
           "normalized": "Event a-\u003eEvent b-\u003eEvent b",
@@ -1480,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "thenGetEvent",
           "package": "uni-events",
@@ -1489,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "thenGetEvent",
           "normalized": "Event a-\u003e(a-\u003eEvent b)-\u003eEvent b",
@@ -1504,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "toEvent",
           "package": "uni-events",
@@ -1513,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "toEvent",
           "normalized": "a b-\u003eEvent b",
@@ -1529,6 +1657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch an error if it occurs during an action attached to an event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "tryEV",
           "package": "uni-events",
@@ -1539,6 +1668,7 @@
         "index": {
           "description": "Catch an error if it occurs during an action attached to an event",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "tryEV",
           "normalized": "Event a-\u003eEvent(Either SomeException a)",
@@ -1555,6 +1685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen we synchronise on wrapAbort preAction\n preAction is evaluated to yield (event,postAction).\n Then exactly one of the following:\n (1) thr event is satisfied, and postAction is not done.\n (2) some other event in this synchronisation is satisfied\n (so this one isn't), and postAction is done.\n (3) no event is satisfied (and so we will deadlock).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Events",
           "name": "wrapAbort",
           "package": "uni-events",
@@ -1565,6 +1696,7 @@
         "index": {
           "description": "When we synchronise on wrapAbort preAction preAction is evaluated to yield event postAction Then exactly one of the following thr event is satisfied and postAction is not done some other event in this synchronisation is satisfied so this one isn and postAction is done no event is satisfied and so we will deadlock",
           "hierarchy": "Events Events",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Events",
           "name": "wrapAbort",
           "normalized": "IO(Event a,IO())-\u003eEvent a",
@@ -1581,6 +1713,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExamples is meant to contain examples of using events which\n are too small to go into their own module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Examples",
           "name": "Examples",
           "package": "uni-events",
@@ -1590,6 +1723,7 @@
         "index": {
           "description": "Examples is meant to contain examples of using events which are too small to go into their own module",
           "hierarchy": "Events Examples",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Examples",
           "name": "Examples",
           "package": "uni-events",
@@ -1603,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Examples",
           "name": "EventSet",
           "package": "uni-events",
@@ -1611,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Events Examples",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Examples",
           "name": "EventSet",
           "package": "uni-events",
@@ -1624,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Examples",
           "name": "addToEventSet",
           "package": "uni-events",
@@ -1633,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Events Examples",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Examples",
           "name": "addToEventSet",
           "normalized": "EventSet a-\u003eEvent a-\u003eEventSet a",
@@ -1648,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Examples",
           "name": "emptyEventSet",
           "package": "uni-events",
@@ -1657,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Events Examples",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Examples",
           "name": "emptyEventSet",
           "package": "uni-events",
@@ -1670,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Examples",
           "name": "fromEventSet",
           "package": "uni-events",
@@ -1679,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Events Examples",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Examples",
           "name": "fromEventSet",
           "normalized": "EventSet a-\u003eEvent(a,EventSet a)",
@@ -1694,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Examples",
           "name": "isEmptyEventSet",
           "package": "uni-events",
@@ -1703,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Events Examples",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Examples",
           "name": "isEmptyEventSet",
           "normalized": "EventSet a-\u003eBool",
@@ -1719,6 +1863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003espawnRepeatedEvent concurrently syncs on the event until the\n given action is used; it is somewhat safer than spawnEvent.\n It also never interrupts the handler event attached to\n the event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Examples",
           "name": "spawnRepeatedEvent",
           "package": "uni-events",
@@ -1729,6 +1874,7 @@
         "index": {
           "description": "spawnRepeatedEvent concurrently syncs on the event until the given action is used it is somewhat safer than spawnEvent It also never interrupts the handler event attached to the event",
           "hierarchy": "Events Examples",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Examples",
           "name": "spawnRepeatedEvent",
           "normalized": "Event()-\u003eIO(IO())",
@@ -1745,6 +1891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewatch is used for events like mouse motion events where\n if we can't find time we don't want them queued.\n The event returned waits until the original event next happens and\n returns it.  A worker thread is needed to run this; the attached action\n should be used to stop that thread when we are no longer interested.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Examples",
           "name": "watch",
           "package": "uni-events",
@@ -1755,6 +1902,7 @@
         "index": {
           "description": "watch is used for events like mouse motion events where if we can find time we don want them queued The event returned waits until the original event next happens and returns it worker thread is needed to run this the attached action should be used to stop that thread when we are no longer interested",
           "hierarchy": "Events Examples",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Examples",
           "name": "watch",
           "normalized": "Event a-\u003eIO(Event a,IO())",
@@ -1770,6 +1918,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFMQueue handles finite maps of delete queues, so that we\n can implement EqGuard.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.FMQueue",
           "name": "FMQueue",
           "package": "uni-events",
@@ -1779,6 +1928,7 @@
         "index": {
           "description": "FMQueue handles finite maps of delete queues so that we can implement EqGuard",
           "hierarchy": "Events FMQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.FMQueue",
           "name": "FMQueue",
           "package": "uni-events",
@@ -1792,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.FMQueue",
           "name": "FMQueue",
           "package": "uni-events",
@@ -1800,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Events FMQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.FMQueue",
           "name": "FMQueue",
           "package": "uni-events",
@@ -1813,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.FMQueue",
           "name": "addFMQueue",
           "package": "uni-events",
@@ -1822,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Events FMQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.FMQueue",
           "name": "addFMQueue",
           "normalized": "FMQueue a b-\u003ea-\u003eb-\u003eIO(FMQueue a b,IO())",
@@ -1837,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.FMQueue",
           "name": "emptyFMQueue",
           "package": "uni-events",
@@ -1846,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Events FMQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.FMQueue",
           "name": "emptyFMQueue",
           "package": "uni-events",
@@ -1859,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.FMQueue",
           "name": "removeFMQueue",
           "package": "uni-events",
@@ -1868,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Events FMQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.FMQueue",
           "name": "removeFMQueue",
           "normalized": "FMQueue a b-\u003ea-\u003eIO(Maybe(b,FMQueue a b),FMQueue a b)",
@@ -1883,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.FMQueue",
           "name": "removeFMQueueAny",
           "package": "uni-events",
@@ -1892,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Events FMQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.FMQueue",
           "name": "removeFMQueueAny",
           "normalized": "FMQueue a b-\u003eIO(Maybe(a,b,FMQueue a b),FMQueue a b)",
@@ -1908,6 +2068,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGuardedEvents implements guarded events for channels.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "GuardedChannels",
           "package": "uni-events",
@@ -1917,6 +2078,7 @@
         "index": {
           "description": "GuardedEvents implements guarded events for channels",
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "GuardedChannels",
           "package": "uni-events",
@@ -1930,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "CanSendX",
           "package": "uni-events",
@@ -1938,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "CanSendX",
           "package": "uni-events",
@@ -1951,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "GQ",
           "package": "uni-events",
@@ -1959,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "GQ",
           "package": "uni-events",
@@ -1972,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "GuardedChannel",
           "package": "uni-events",
@@ -1980,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "GuardedChannel",
           "package": "uni-events",
@@ -1993,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "HasAdd",
           "package": "uni-events",
@@ -2001,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "HasAdd",
           "package": "uni-events",
@@ -2014,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "HasEmpty",
           "package": "uni-events",
@@ -2022,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "HasEmpty",
           "package": "uni-events",
@@ -2035,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "HasGuardedChannel",
           "package": "uni-events",
@@ -2043,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "HasGuardedChannel",
           "package": "uni-events",
@@ -2056,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "HasRemove",
           "package": "uni-events",
@@ -2064,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "HasRemove",
           "package": "uni-events",
@@ -2077,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "VQ",
           "package": "uni-events",
@@ -2085,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "VQ",
           "package": "uni-events",
@@ -2098,6 +2276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "add",
           "package": "uni-events",
@@ -2107,6 +2286,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "add",
           "normalized": "a b-\u003ec-\u003eb-\u003eIO(a b,IO())",
@@ -2121,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "newEmpty",
           "package": "uni-events",
@@ -2130,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "newEmpty",
           "package": "uni-events",
@@ -2143,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "newGuardedChannel",
           "package": "uni-events",
@@ -2152,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "newGuardedChannel",
           "normalized": "GQ a b-\u003eVQ c-\u003eIO(GuardedChannel d b)",
@@ -2167,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "remove",
           "package": "uni-events",
@@ -2176,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "remove",
           "normalized": "a b-\u003ec-\u003eIO(Maybe(d,b,IO(a b)),a b)",
@@ -2190,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "replace",
           "package": "uni-events",
@@ -2199,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "replace",
           "normalized": "GuardedChannel a b-\u003eb-\u003eGuardedEvent a(Maybe b)",
@@ -2213,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedChannels",
           "name": "sneak",
           "package": "uni-events",
@@ -2222,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedChannels",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedChannels",
           "name": "sneak",
           "normalized": "GuardedChannel a b-\u003eGuardedEvent a(Maybe b)",
@@ -2237,6 +2427,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIn GuardedEvents we extend the notion of PrimEvents to allow Guarded\n Events, which can be guarded with the new (|\u003e) operator.  GuardedChannels\n will implement guarded events on channels, which will hopefully be the\n only guarded event we will ever need.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedEvents",
           "name": "GuardedEvents",
           "package": "uni-events",
@@ -2246,6 +2437,7 @@
         "index": {
           "description": "In GuardedEvents we extend the notion of PrimEvents to allow Guarded Events which can be guarded with the new operator GuardedChannels will implement guarded events on channels which will hopefully be the only guarded event we will ever need",
           "hierarchy": "Events GuardedEvents",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedEvents",
           "name": "GuardedEvents",
           "package": "uni-events",
@@ -2260,6 +2452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Guard represents some condition on a value which we impose on\n a channel, selecting those values we are interested in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedEvents",
           "name": "Guard",
           "package": "uni-events",
@@ -2269,6 +2462,7 @@
         "index": {
           "description": "Guard represents some condition on value which we impose on channel selecting those values we are interested in",
           "hierarchy": "Events GuardedEvents",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedEvents",
           "name": "Guard",
           "package": "uni-events",
@@ -2283,6 +2477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GuardedEvent guard a represents a source of values of type a, which\n may be selected from according to guards of type guard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedEvents",
           "name": "GuardedEvent",
           "package": "uni-events",
@@ -2292,6 +2487,7 @@
         "index": {
           "description": "GuardedEvent guard represents source of values of type which may be selected from according to guards of type guard",
           "hierarchy": "Events GuardedEvents",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedEvents",
           "name": "GuardedEvent",
           "package": "uni-events",
@@ -2305,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedEvents",
           "name": "HasGuard",
           "package": "uni-events",
@@ -2313,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedEvents",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedEvents",
           "name": "HasGuard",
           "package": "uni-events",
@@ -2327,6 +2525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of those channels which have guarded events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedEvents",
           "name": "HasListen",
           "package": "uni-events",
@@ -2336,6 +2535,7 @@
         "index": {
           "description": "Class of those channels which have guarded events",
           "hierarchy": "Events GuardedEvents",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedEvents",
           "name": "HasListen",
           "package": "uni-events",
@@ -2349,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedEvents",
           "name": "(|\u003e)",
           "package": "uni-events",
@@ -2358,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedEvents",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedEvents",
           "name": "(|\u003e) |\u003e",
           "normalized": "a b-\u003ec-\u003ea b",
@@ -2372,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedEvents",
           "name": "GuardedEvent",
           "package": "uni-events",
@@ -2381,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedEvents",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedEvents",
           "name": "GuardedEvent",
           "normalized": "GuardedEvent(a-\u003eEvent b)a",
@@ -2397,6 +2601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis should be the guard that corresponds to the conjunction\n of the two given guards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedEvents",
           "name": "andGuard",
           "package": "uni-events",
@@ -2407,6 +2612,7 @@
         "index": {
           "description": "this should be the guard that corresponds to the conjunction of the two given guards",
           "hierarchy": "Events GuardedEvents",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedEvents",
           "name": "andGuard",
           "normalized": "a-\u003ea-\u003ea",
@@ -2422,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedEvents",
           "name": "listen",
           "package": "uni-events",
@@ -2431,6 +2638,7 @@
         },
         "index": {
           "hierarchy": "Events GuardedEvents",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedEvents",
           "name": "listen",
           "normalized": "a b c-\u003eGuardedEvent b c",
@@ -2446,6 +2654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis should be the guard that always matches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.GuardedEvents",
           "name": "nullGuard",
           "package": "uni-events",
@@ -2456,6 +2665,7 @@
         "index": {
           "description": "this should be the guard that always matches",
           "hierarchy": "Events GuardedEvents",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.GuardedEvents",
           "name": "nullGuard",
           "package": "uni-events",
@@ -2470,6 +2680,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHere we implement a null guard channel that provides no guards,\n but is hopefully useful as an example.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.NullGuard",
           "name": "NullGuard",
           "package": "uni-events",
@@ -2479,6 +2690,7 @@
         "index": {
           "description": "Here we implement null guard channel that provides no guards but is hopefully useful as an example",
           "hierarchy": "Events NullGuard",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.NullGuard",
           "name": "NullGuard",
           "package": "uni-events",
@@ -2492,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.NullGuard",
           "name": "NullGuardedChannel",
           "package": "uni-events",
@@ -2500,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Events NullGuard",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.NullGuard",
           "name": "NullGuardedChannel",
           "package": "uni-events",
@@ -2513,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.NullGuard",
           "name": "newNullGuardedChannel",
           "package": "uni-events",
@@ -2522,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Events NullGuard",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.NullGuard",
           "name": "newNullGuardedChannel",
           "package": "uni-events",
@@ -2536,6 +2752,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRefQueue are standard non-functional\n queues using pointers (aka IORefs).  Events can be deleted asynchronously,\n but this is done only by nulling the cell they are contained in, otherwise\n we would need to double-link.   Other operations, IE the push and pop\n function must not occur on the same queue concurrently.\n\u003c/p\u003e\u003cp\u003eAlthough the queues are impure, we return the new queue to be used\n in future after push and search operations.\n\u003c/p\u003e\u003cp\u003eRefQueue are intended for use for queues of guarded strings,\n hence the specialised implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.RefQueue",
           "name": "RefQueue",
           "package": "uni-events",
@@ -2545,6 +2762,7 @@
         "index": {
           "description": "RefQueue are standard non-functional queues using pointers aka IORefs Events can be deleted asynchronously but this is done only by nulling the cell they are contained in otherwise we would need to double-link Other operations IE the push and pop function must not occur on the same queue concurrently Although the queues are impure we return the new queue to be used in future after push and search operations RefQueue are intended for use for queues of guarded strings hence the specialised implementation",
           "hierarchy": "Events RefQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.RefQueue",
           "name": "RefQueue",
           "package": "uni-events",
@@ -2558,6 +2776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.RefQueue",
           "name": "RefQueue",
           "package": "uni-events",
@@ -2566,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "Events RefQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.RefQueue",
           "name": "RefQueue",
           "package": "uni-events",
@@ -2579,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.RefQueue",
           "name": "newRefQueue",
           "package": "uni-events",
@@ -2588,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Events RefQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.RefQueue",
           "name": "newRefQueue",
           "package": "uni-events",
@@ -2601,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.RefQueue",
           "name": "pushRefQueue",
           "package": "uni-events",
@@ -2610,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Events RefQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.RefQueue",
           "name": "pushRefQueue",
           "normalized": "RefQueue a-\u003ea-\u003eIO(RefQueue a,IO())",
@@ -2625,6 +2849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.RefQueue",
           "name": "searchRefQueue",
           "package": "uni-events",
@@ -2634,6 +2859,7 @@
         },
         "index": {
           "hierarchy": "Events RefQueue",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.RefQueue",
           "name": "searchRefQueue",
           "normalized": "RefQueue a-\u003e(a-\u003eBool)-\u003eIO(Maybe(a,IO(RefQueue a)),RefQueue a)",
@@ -2650,6 +2876,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSpawn provides an interface to Concurrent.forkIO which is supposed\n to be implementable for both Hugs and GHC.\n\u003c/p\u003e\u003cp\u003eThis is the GHC implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Spawn",
           "name": "Spawn",
           "package": "uni-events",
@@ -2659,6 +2886,7 @@
         "index": {
           "description": "Spawn provides an interface to Concurrent.forkIO which is supposed to be implementable for both Hugs and GHC This is the GHC implementation",
           "hierarchy": "Events Spawn",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Spawn",
           "name": "Spawn",
           "package": "uni-events",
@@ -2673,6 +2901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo a fork, returning an action which may attempt to\n kill the forked thread.  (Or may not . . .)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Spawn",
           "name": "spawn",
           "package": "uni-events",
@@ -2683,6 +2912,7 @@
         "index": {
           "description": "Do fork returning an action which may attempt to kill the forked thread Or may not",
           "hierarchy": "Events Spawn",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Spawn",
           "name": "spawn",
           "normalized": "IO()-\u003eIO(IO())",
@@ -2697,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Synchronized",
           "name": "Synchronized",
           "package": "uni-events",
@@ -2705,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "Events Synchronized",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Synchronized",
           "name": "Synchronized",
           "package": "uni-events",
@@ -2718,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Synchronized",
           "name": "Synchronized",
           "package": "uni-events",
@@ -2726,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Events Synchronized",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Synchronized",
           "name": "Synchronized",
           "package": "uni-events",
@@ -2740,6 +2974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eacquire lock on a, and while we've got it do this action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Synchronized",
           "name": "synchronize",
           "package": "uni-events",
@@ -2750,6 +2985,7 @@
         "index": {
           "description": "acquire lock on and while we ve got it do this action",
           "hierarchy": "Events Synchronized",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Synchronized",
           "name": "synchronize",
           "normalized": "a-\u003eIO b-\u003eIO b",
@@ -2765,6 +3001,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA toggle is a switch initially True, which can only be made false\n (when some action is performed, say).  This module implements\n toggles, allowing atomic switching to false of 1 toggle, or\n 2 toggles together.  To avoid deadlock we use a supply of unique\n integers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Toggle",
           "name": "Toggle",
           "package": "uni-events",
@@ -2774,6 +3011,7 @@
         "index": {
           "description": "toggle is switch initially True which can only be made false when some action is performed say This module implements toggles allowing atomic switching to false of toggle or toggles together To avoid deadlock we use supply of unique integers",
           "hierarchy": "Events Toggle",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Toggle",
           "name": "Toggle",
           "package": "uni-events",
@@ -2787,6 +3025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Toggle",
           "name": "SimpleToggle",
           "package": "uni-events",
@@ -2795,6 +3034,7 @@
         },
         "index": {
           "hierarchy": "Events Toggle",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Toggle",
           "name": "SimpleToggle",
           "package": "uni-events",
@@ -2808,6 +3048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Toggle",
           "name": "Toggle",
           "package": "uni-events",
@@ -2816,6 +3057,7 @@
         },
         "index": {
           "hierarchy": "Events Toggle",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Toggle",
           "name": "Toggle",
           "package": "uni-events",
@@ -2829,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Toggle",
           "name": "ifSimpleToggle",
           "package": "uni-events",
@@ -2838,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "Events Toggle",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Toggle",
           "name": "ifSimpleToggle",
           "normalized": "SimpleToggle-\u003eIO()-\u003eIO()",
@@ -2853,6 +3097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Toggle",
           "name": "ifToggle",
           "package": "uni-events",
@@ -2862,6 +3107,7 @@
         },
         "index": {
           "hierarchy": "Events Toggle",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Toggle",
           "name": "ifToggle",
           "normalized": "Toggle-\u003eIO()-\u003eIO()",
@@ -2877,6 +3123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Toggle",
           "name": "newSimpleToggle",
           "package": "uni-events",
@@ -2886,6 +3133,7 @@
         },
         "index": {
           "hierarchy": "Events Toggle",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Toggle",
           "name": "newSimpleToggle",
           "package": "uni-events",
@@ -2899,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Toggle",
           "name": "newToggle",
           "package": "uni-events",
@@ -2908,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "Events Toggle",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Toggle",
           "name": "newToggle",
           "package": "uni-events",
@@ -2921,6 +3171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Toggle",
           "name": "peekToggle",
           "package": "uni-events",
@@ -2930,6 +3181,7 @@
         },
         "index": {
           "hierarchy": "Events Toggle",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Toggle",
           "name": "peekToggle",
           "normalized": "Toggle-\u003eIO Bool",
@@ -2945,6 +3197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Toggle",
           "name": "simpleToggle",
           "package": "uni-events",
@@ -2954,6 +3207,7 @@
         },
         "index": {
           "hierarchy": "Events Toggle",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Toggle",
           "name": "simpleToggle",
           "normalized": "SimpleToggle-\u003eIO Bool",
@@ -2969,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Toggle",
           "name": "toggle1",
           "package": "uni-events",
@@ -2978,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Events Toggle",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Toggle",
           "name": "toggle1",
           "normalized": "Toggle-\u003eIO Bool",
@@ -2992,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:17 UTC 2014",
           "module": "Events.Toggle",
           "name": "toggle2",
           "package": "uni-events",
@@ -3001,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Events Toggle",
+          "indexed": "2014-03-11T20:29:17",
           "module": "Events.Toggle",
           "name": "toggle2",
           "normalized": "Toggle-\u003eToggle-\u003eIO(Maybe(Bool,Bool))",

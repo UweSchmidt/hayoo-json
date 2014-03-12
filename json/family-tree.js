@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "family-tree"
+        "phrase": "family-tree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is for Family Trees.\n\u003c/p\u003e\u003cp\u003eIt uses lenses for the manipulation of people. For the usage of lenses, see\n\u003ca\u003eControl.Lens\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eIt is reccomended to use \u003ca\u003eData.Binary\u003c/a\u003e to do saving and loading.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "FamilyTree",
           "package": "family-tree",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module is for Family Trees It uses lenses for the manipulation of people For the usage of lenses see Control.Lens It is reccomended to use Data.Binary to do saving and loading",
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "FamilyTree",
           "package": "family-tree",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic type for a family. Which person is head1 and which is head2 is\n arbitrary, but try to use a consistent rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "Family",
           "package": "family-tree",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The basic type for family Which person is head1 and which is head2 is arbitrary but try to use consistent rule",
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "Family",
           "package": "family-tree",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe core structure of a family tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "FamilyTree",
           "package": "family-tree",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The core structure of family tree",
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "FamilyTree",
           "package": "family-tree",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "FamilyTreePart",
           "package": "family-tree",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "FamilyTreePart",
           "package": "family-tree",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Location type. Either a coordinate or a placename.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "Location",
           "package": "family-tree",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The Location type Either coordinate or placename",
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "Location",
           "package": "family-tree",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "PartialDate",
           "package": "family-tree",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "PartialDate",
           "package": "family-tree",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic type for a person. \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e meaning unknown (or otherwise \n non-existent, for intance a death date for someone still alive) is a\n convention used throughout this library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "Person",
           "package": "family-tree",
@@ -162,6 +175,7 @@
         "index": {
           "description": "The basic type for person Nothing meaning unknown or otherwise non-existent for intance death date for someone still alive is convention used throughout this library",
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "Person",
           "package": "family-tree",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Relationship type. Marriage is the default for similarity to GEDCOM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "Relationship",
           "package": "family-tree",
@@ -185,6 +200,7 @@
         "index": {
           "description": "The Relationship type Marriage is the default for similarity to GEDCOM",
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "Relationship",
           "package": "family-tree",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "Coord",
           "package": "family-tree",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "Coord",
           "package": "family-tree",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "Family",
           "package": "family-tree",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "Family",
           "package": "family-tree",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "FamilyTree",
           "package": "family-tree",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "FamilyTree",
           "package": "family-tree",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "Marriage",
           "package": "family-tree",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "Marriage",
           "package": "family-tree",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "Other",
           "package": "family-tree",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "Other",
           "package": "family-tree",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "Person",
           "package": "family-tree",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "Person",
           "package": "family-tree",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "PlaceName",
           "package": "family-tree",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "PlaceName",
           "package": "family-tree",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_attributes",
           "package": "family-tree",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_attributes",
           "package": "family-tree",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_birthdate",
           "package": "family-tree",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_birthdate",
           "package": "family-tree",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_birthplace",
           "package": "family-tree",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_birthplace",
           "package": "family-tree",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_children",
           "package": "family-tree",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_children",
           "package": "family-tree",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_deathdate",
           "package": "family-tree",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_deathdate",
           "package": "family-tree",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_deathplace",
           "package": "family-tree",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_deathplace",
           "package": "family-tree",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_families",
           "package": "family-tree",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_families",
           "package": "family-tree",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_familyId",
           "package": "family-tree",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_familyId",
           "package": "family-tree",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_head1",
           "package": "family-tree",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_head1",
           "package": "family-tree",
@@ -542,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_head2",
           "package": "family-tree",
@@ -551,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_head2",
           "package": "family-tree",
@@ -563,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_name",
           "package": "family-tree",
@@ -572,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_name",
           "package": "family-tree",
@@ -584,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_people",
           "package": "family-tree",
@@ -593,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_people",
           "package": "family-tree",
@@ -605,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_personId",
           "package": "family-tree",
@@ -614,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_personId",
           "package": "family-tree",
@@ -627,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_relationFrom",
           "package": "family-tree",
@@ -636,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_relationFrom",
           "package": "family-tree",
@@ -649,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_relationTo",
           "package": "family-tree",
@@ -658,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_relationTo",
           "package": "family-tree",
@@ -671,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_relationship",
           "package": "family-tree",
@@ -680,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_relationship",
           "package": "family-tree",
@@ -692,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "_treeName",
           "package": "family-tree",
@@ -701,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "_treeName",
           "package": "family-tree",
@@ -715,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eaccessFT\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eTraversal\u003c/a\u003e\u003c/code\u003e to the part of the family tree (either a \u003ccode\u003e\u003ca\u003ePerson\u003c/a\u003e\u003c/code\u003e or a \u003ccode\u003e\u003ca\u003eFamily\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "accessFT",
           "package": "family-tree",
@@ -725,6 +790,7 @@
         "index": {
           "description": "accessFT is Traversal to the part of the family tree either Person or Family",
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "accessFT",
           "normalized": "Int-\u003eIndexedTraversal' Int FamilyTree a",
@@ -741,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a family with minimal information, returning the updated family tree\n and the ID of the new family.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "addFamily",
           "package": "family-tree",
@@ -751,6 +818,7 @@
         "index": {
           "description": "Adds family with minimal information returning the updated family tree and the ID of the new family",
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "addFamily",
           "normalized": "FamilyTree-\u003e(Int,FamilyTree)",
@@ -767,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a person with minimal information, returning the updated family tree\n and the ID of the new person.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "addPerson",
           "package": "family-tree",
@@ -777,6 +846,7 @@
         "index": {
           "description": "Adds person with minimal information returning the updated family tree and the ID of the new person",
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "addPerson",
           "normalized": "FamilyTree-\u003e(Int,FamilyTree)",
@@ -792,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "attributes",
           "package": "family-tree",
@@ -801,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "attributes",
           "package": "family-tree",
@@ -813,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "birthdate",
           "package": "family-tree",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "birthdate",
           "package": "family-tree",
@@ -834,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "birthplace",
           "package": "family-tree",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "birthplace",
           "package": "family-tree",
@@ -855,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "children",
           "package": "family-tree",
@@ -864,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "children",
           "package": "family-tree",
@@ -876,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "deathdate",
           "package": "family-tree",
@@ -885,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "deathdate",
           "package": "family-tree",
@@ -897,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "deathplace",
           "package": "family-tree",
@@ -906,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "deathplace",
           "package": "family-tree",
@@ -919,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes a family from the family tree, removing all references to it.    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "deleteFamily",
           "package": "family-tree",
@@ -929,6 +1012,7 @@
         "index": {
           "description": "Deletes family from the family tree removing all references to it",
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "deleteFamily",
           "normalized": "Int-\u003eFamilyTree-\u003eFamilyTree",
@@ -945,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes a person from the family tree, removing all references to them.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "deletePerson",
           "package": "family-tree",
@@ -955,6 +1040,7 @@
         "index": {
           "description": "Deletes person from the family tree removing all references to them",
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "deletePerson",
           "normalized": "Int-\u003eFamilyTree-\u003eFamilyTree",
@@ -970,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "families",
           "package": "family-tree",
@@ -979,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "families",
           "package": "family-tree",
@@ -991,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "head1",
           "package": "family-tree",
@@ -1000,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "head1",
           "package": "family-tree",
@@ -1012,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "head2",
           "package": "family-tree",
@@ -1021,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "head2",
           "package": "family-tree",
@@ -1033,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "name",
           "package": "family-tree",
@@ -1042,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "name",
           "package": "family-tree",
@@ -1055,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new tree with a given name.       \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "newTree",
           "package": "family-tree",
@@ -1065,6 +1160,7 @@
         "index": {
           "description": "Creates new tree with given name",
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "newTree",
           "normalized": "Text-\u003eFamilyTree",
@@ -1080,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "partialDateFromDay",
           "package": "family-tree",
@@ -1089,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "partialDateFromDay",
           "normalized": "Integer-\u003eInt-\u003eInt-\u003ePartialDate",
@@ -1104,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "partialDateFromMonth",
           "package": "family-tree",
@@ -1113,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "partialDateFromMonth",
           "normalized": "Integer-\u003eInt-\u003ePartialDate",
@@ -1128,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "partialDateFromYear",
           "package": "family-tree",
@@ -1137,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "partialDateFromYear",
           "normalized": "Integer-\u003ePartialDate",
@@ -1152,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "people",
           "package": "family-tree",
@@ -1161,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "people",
           "package": "family-tree",
@@ -1173,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "relationFrom",
           "package": "family-tree",
@@ -1182,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "relationFrom",
           "package": "family-tree",
@@ -1195,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "relationTo",
           "package": "family-tree",
@@ -1204,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "relationTo",
           "package": "family-tree",
@@ -1217,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "relationship",
           "package": "family-tree",
@@ -1226,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "relationship",
           "package": "family-tree",
@@ -1238,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:23 UTC 2014",
           "module": "Data.FamilyTree",
           "name": "treeName",
           "package": "family-tree",
@@ -1247,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Data FamilyTree",
+          "indexed": "2014-03-11T18:06:23",
           "module": "Data.FamilyTree",
           "name": "treeName",
           "package": "family-tree",

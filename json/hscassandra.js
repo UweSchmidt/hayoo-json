@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hscassandra"
+        "phrase": "hscassandra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Monad",
           "name": "Monad",
           "package": "hscassandra",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Monad",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Monad",
           "name": "Monad",
           "package": "hscassandra",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Monad",
           "name": "Cassandra",
           "package": "hscassandra",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Monad",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Monad",
           "name": "Cassandra",
           "package": "hscassandra",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Monad",
           "name": "CassandraConfig",
           "package": "hscassandra",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Monad",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Monad",
           "name": "CassandraConfig",
           "package": "hscassandra",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Monad",
           "name": "CassandraT",
           "package": "hscassandra",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Monad",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Monad",
           "name": "CassandraT",
           "package": "hscassandra",
@@ -503,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Types",
           "package": "hscassandra",
@@ -511,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "Types",
           "package": "hscassandra",
@@ -524,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "BS",
           "package": "hscassandra",
@@ -532,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "BS",
           "package": "hscassandra",
@@ -545,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "ClusterName",
           "package": "hscassandra",
@@ -553,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "ClusterName",
           "package": "hscassandra",
@@ -566,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "ColumnFamily",
           "package": "hscassandra",
@@ -574,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "ColumnFamily",
           "package": "hscassandra",
@@ -587,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "ColumnName",
           "package": "hscassandra",
@@ -595,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "ColumnName",
           "package": "hscassandra",
@@ -608,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "ColumnValue",
           "package": "hscassandra",
@@ -616,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "ColumnValue",
           "package": "hscassandra",
@@ -629,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Hostname",
           "package": "hscassandra",
@@ -637,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "Hostname",
           "package": "hscassandra",
@@ -650,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Keyspace",
           "package": "hscassandra",
@@ -658,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "Keyspace",
           "package": "hscassandra",
@@ -671,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Partitioner",
           "package": "hscassandra",
@@ -679,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "Partitioner",
           "package": "hscassandra",
@@ -692,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Password",
           "package": "hscassandra",
@@ -700,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "Password",
           "package": "hscassandra",
@@ -713,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Port",
           "package": "hscassandra",
@@ -721,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "Port",
           "package": "hscassandra",
@@ -734,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "SchemaId",
           "package": "hscassandra",
@@ -742,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "SchemaId",
           "package": "hscassandra",
@@ -755,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Snitch",
           "package": "hscassandra",
@@ -763,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "Snitch",
           "package": "hscassandra",
@@ -776,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "ThriftApiVersion",
           "package": "hscassandra",
@@ -784,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "ThriftApiVersion",
           "package": "hscassandra",
@@ -797,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "Username",
           "package": "hscassandra",
@@ -805,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "Username",
           "package": "hscassandra",
@@ -818,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra.Types",
           "name": "bs",
           "package": "hscassandra",
@@ -827,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Types",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra.Types",
           "name": "bs",
           "normalized": "a-\u003eByteString",
@@ -841,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "Cassandra",
           "package": "hscassandra",
@@ -849,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "Cassandra",
           "package": "hscassandra",
@@ -862,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "Cassandra",
           "package": "hscassandra",
@@ -870,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "Cassandra",
           "package": "hscassandra",
@@ -883,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "CassandraConfig",
           "package": "hscassandra",
@@ -891,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "CassandraConfig",
           "package": "hscassandra",
@@ -904,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "CassandraT",
           "package": "hscassandra",
@@ -912,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "CassandraT",
           "package": "hscassandra",
@@ -925,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "Column",
           "package": "hscassandra",
@@ -933,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "Column",
           "package": "hscassandra",
@@ -946,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "Filter",
           "package": "hscassandra",
@@ -954,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "Filter",
           "package": "hscassandra",
@@ -967,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "(=|)",
           "package": "hscassandra",
@@ -976,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "(=|) =|",
           "normalized": "a-\u003e[Column]-\u003eColumn",
@@ -990,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "(=:)",
           "package": "hscassandra",
@@ -999,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "(=:) =:",
           "normalized": "a-\u003eb-\u003eColumn",
@@ -1013,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "AllColumns",
           "package": "hscassandra",
@@ -1022,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "AllColumns",
           "package": "hscassandra",
@@ -1035,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "ColNames",
           "package": "hscassandra",
@@ -1044,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "ColNames",
           "normalized": "ColNames[ByteString]",
@@ -1059,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "ColRange",
           "package": "hscassandra",
@@ -1068,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "ColRange",
           "package": "hscassandra",
@@ -1081,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "Column",
           "package": "hscassandra",
@@ -1090,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "Column",
           "package": "hscassandra",
@@ -1103,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "SupNames",
           "package": "hscassandra",
@@ -1112,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "SupNames",
           "normalized": "SupNames ByteString[ByteString]",
@@ -1127,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "Super",
           "package": "hscassandra",
@@ -1136,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "Super",
           "normalized": "Super ColumnName[Column]",
@@ -1152,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea smarter constructor for building a Columns filter \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "columns",
           "package": "hscassandra",
@@ -1162,6 +1231,7 @@
         "index": {
           "description": "smarter constructor for building Columns filter",
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "columns",
           "normalized": "[a]-\u003eFilter",
@@ -1177,6 +1247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor the given key, within the column family, retrieve all columns, unless filtered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "get",
           "package": "hscassandra",
@@ -1187,6 +1258,7 @@
         "index": {
           "description": "for the given key within the column family retrieve all columns unless filtered",
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "get",
           "normalized": "ColumnFamily-\u003ea-\u003eFilter-\u003eCassandra[Column]",
@@ -1201,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "insert",
           "package": "hscassandra",
@@ -1210,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "insert",
           "normalized": "ColumnFamily-\u003ea-\u003e[Column]-\u003eCassandra()",
@@ -1224,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "multiget",
           "package": "hscassandra",
@@ -1233,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "multiget",
           "normalized": "ColumnFamily-\u003e[a]-\u003eFilter-\u003eCassandra(Map a[Column])",
@@ -1248,6 +1324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea smarter constructor for building a Range filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "range",
           "package": "hscassandra",
@@ -1258,6 +1335,7 @@
         "index": {
           "description": "smarter constructor for building Range filter",
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "range",
           "normalized": "a-\u003ea-\u003eBool-\u003eInt-\u003eFilter",
@@ -1272,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "rangeEnd",
           "package": "hscassandra",
@@ -1281,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "rangeEnd",
           "package": "hscassandra",
@@ -1294,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "rangeLimit",
           "package": "hscassandra",
@@ -1303,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "rangeLimit",
           "package": "hscassandra",
@@ -1316,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "rangeReverse",
           "package": "hscassandra",
@@ -1325,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "rangeReverse",
           "package": "hscassandra",
@@ -1338,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "rangeStart",
           "package": "hscassandra",
@@ -1347,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "rangeStart",
           "package": "hscassandra",
@@ -1360,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:47 UTC 2014",
           "module": "Database.Cassandra",
           "name": "remove",
           "package": "hscassandra",
@@ -1369,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra",
+          "indexed": "2014-03-11T18:47:47",
           "module": "Database.Cassandra",
           "name": "remove",
           "normalized": "ColumnFamily-\u003ea-\u003eFilter-\u003eCassandra()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DAV"
+        "phrase": "DAV",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "DAV",
           "package": "DAV",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "DAV",
           "package": "DAV",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "DAVContext",
           "package": "DAV",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "DAVContext",
           "package": "DAV",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "DAVT",
           "package": "DAV",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "DAVT",
           "package": "DAV",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "Depth",
           "package": "DAV",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "Depth",
           "package": "DAV",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "DAVContext",
           "package": "DAV",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "DAVContext",
           "package": "DAV",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "DAVT",
           "package": "DAV",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "DAVT",
           "package": "DAV",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "Depth0",
           "package": "DAV",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "Depth0",
           "package": "DAV",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "Depth1",
           "package": "DAV",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "Depth1",
           "package": "DAV",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "DepthInfinity",
           "package": "DAV",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "DepthInfinity",
           "package": "DAV",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_allowedMethods",
           "package": "DAV",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_allowedMethods",
           "normalized": "[ByteString]",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_baseRequest",
           "package": "DAV",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_baseRequest",
           "package": "DAV",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_basicpassword",
           "package": "DAV",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_basicpassword",
           "package": "DAV",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_basicusername",
           "package": "DAV",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_basicusername",
           "package": "DAV",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_complianceClasses",
           "package": "DAV",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_complianceClasses",
           "normalized": "[ByteString]",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_depth",
           "package": "DAV",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_depth",
           "package": "DAV",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_httpManager",
           "package": "DAV",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_httpManager",
           "package": "DAV",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_lockToken",
           "package": "DAV",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_lockToken",
           "package": "DAV",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_userAgent",
           "package": "DAV",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "_userAgent",
           "package": "DAV",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "allowedMethods",
           "package": "DAV",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "allowedMethods",
           "normalized": "Lens' DAVContext[ByteString]",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "baseRequest",
           "package": "DAV",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "baseRequest",
           "package": "DAV",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "basicpassword",
           "package": "DAV",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "basicpassword",
           "package": "DAV",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "basicusername",
           "package": "DAV",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "basicusername",
           "package": "DAV",
@@ -500,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This function will be removed in favor of caldavReportM\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "caldavReport",
           "package": "DAV",
@@ -510,6 +555,7 @@
         "index": {
           "description": "Deprecated This function will be removed in favor of caldavReportM",
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "caldavReport",
           "normalized": "String-\u003eByteString-\u003eByteString-\u003eIO Document",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "caldavReportM",
           "package": "DAV",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "caldavReportM",
           "package": "DAV",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "complianceClasses",
           "package": "DAV",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "complianceClasses",
           "normalized": "Lens' DAVContext[ByteString]",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "delContentM",
           "package": "DAV",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "delContentM",
           "normalized": "DAVT a()",
@@ -596,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This function will be removed in favor of delContentM\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "deleteContent",
           "package": "DAV",
@@ -606,6 +659,7 @@
         "index": {
           "description": "Deprecated This function will be removed in favor of delContentM",
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "deleteContent",
           "normalized": "String-\u003eByteString-\u003eByteString-\u003eIO()",
@@ -621,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "depth",
           "package": "DAV",
@@ -630,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "depth",
           "package": "DAV",
@@ -642,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "evalDAVT",
           "package": "DAV",
@@ -651,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "evalDAVT",
           "normalized": "String-\u003eDAVT a b-\u003ea(Either String b)",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "getContentM",
           "package": "DAV",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "getContentM",
           "normalized": "DAVT a(Maybe ByteString,ByteString)",
@@ -691,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This function will be removed in favor of getPropsM\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "getProps",
           "package": "DAV",
@@ -701,6 +762,7 @@
         "index": {
           "description": "Deprecated This function will be removed in favor of getPropsM",
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "getProps",
           "normalized": "String-\u003eByteString-\u003eByteString-\u003eMaybe Depth-\u003eIO Document",
@@ -717,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This function will be removed in favor of getPropsM and getContentM\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "getPropsAndContent",
           "package": "DAV",
@@ -727,6 +790,7 @@
         "index": {
           "description": "Deprecated This function will be removed in favor of getPropsM and getContentM",
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "getPropsAndContent",
           "normalized": "String-\u003eByteString-\u003eByteString-\u003eIO(Document,(Maybe ByteString,ByteString))",
@@ -742,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "getPropsM",
           "package": "DAV",
@@ -751,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "getPropsM",
           "package": "DAV",
@@ -764,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "httpManager",
           "package": "DAV",
@@ -773,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "httpManager",
           "package": "DAV",
@@ -786,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "lockToken",
           "package": "DAV",
@@ -795,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "lockToken",
           "package": "DAV",
@@ -809,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This function will be removed in favor of mkCol\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eCreates a WebDAV collection, which is similar to a directory.\n\u003c/p\u003e\u003cp\u003eReturns False if the collection could not be made due to an intermediate\n collection not existing. (Ie, collection \u003cem\u003ea\u003c/em\u003eb\u003cem\u003ec\u003c/em\u003ed cannot be made until\n collection \u003cem\u003ea\u003c/em\u003eb/c exists.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "makeCollection",
           "package": "DAV",
@@ -819,6 +890,7 @@
         "index": {
           "description": "Deprecated This function will be removed in favor of mkCol Creates WebDAV collection which is similar to directory Returns False if the collection could not be made due to an intermediate collection not existing Ie collection cannot be made until collection exists",
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "makeCollection",
           "normalized": "String-\u003eByteString-\u003eByteString-\u003eIO Bool",
@@ -834,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "mkCol",
           "package": "DAV",
@@ -843,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "mkCol",
           "package": "DAV",
@@ -857,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This function will be removed in favor of moveContentM\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "moveContent",
           "package": "DAV",
@@ -867,6 +942,7 @@
         "index": {
           "description": "Deprecated This function will be removed in favor of moveContentM",
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "moveContent",
           "normalized": "String-\u003eByteString-\u003eByteString-\u003eByteString-\u003eIO()",
@@ -882,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "moveContentM",
           "package": "DAV",
@@ -891,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "moveContentM",
           "normalized": "ByteString-\u003eDAVT a()",
@@ -907,6 +985,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This function will be removed in favor of putContentM\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "putContent",
           "package": "DAV",
@@ -917,6 +996,7 @@
         "index": {
           "description": "Deprecated This function will be removed in favor of putContentM",
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "putContent",
           "normalized": "String-\u003eByteString-\u003eByteString-\u003e(Maybe ByteString,ByteString)-\u003eIO()",
@@ -933,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This function will be removed in favor of putContentM and putPropsM\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "putContentAndProps",
           "package": "DAV",
@@ -943,6 +1024,7 @@
         "index": {
           "description": "Deprecated This function will be removed in favor of putContentM and putPropsM",
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "putContentAndProps",
           "normalized": "String-\u003eByteString-\u003eByteString-\u003e(Document,(Maybe ByteString,ByteString))-\u003eIO()",
@@ -958,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "putContentM",
           "package": "DAV",
@@ -967,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "putContentM",
           "normalized": "(Maybe ByteString,ByteString)-\u003eDAVT a()",
@@ -982,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "putPropsM",
           "package": "DAV",
@@ -991,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "putPropsM",
           "normalized": "Document-\u003eDAVT a()",
@@ -1006,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "runDAVT",
           "package": "DAV",
@@ -1015,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "runDAVT",
           "package": "DAV",
@@ -1028,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "setCreds",
           "package": "DAV",
@@ -1037,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "setCreds",
           "normalized": "ByteString-\u003eByteString-\u003eDAVT a()",
@@ -1052,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "setDepth",
           "package": "DAV",
@@ -1061,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "setDepth",
           "normalized": "Maybe Depth-\u003eDAVT a()",
@@ -1076,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "setResponseTimeout",
           "package": "DAV",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "setResponseTimeout",
           "normalized": "Maybe Int-\u003eDAVT a()",
@@ -1100,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "setUserAgent",
           "package": "DAV",
@@ -1109,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "setUserAgent",
           "normalized": "ByteString-\u003eDAVT a()",
@@ -1124,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "userAgent",
           "package": "DAV",
@@ -1133,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "userAgent",
           "package": "DAV",
@@ -1146,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "withLockIfPossible",
           "package": "DAV",
@@ -1155,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "withLockIfPossible",
           "normalized": "Bool-\u003eDAVT a b-\u003eDAVT a b",
@@ -1170,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:54 UTC 2014",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "withLockIfPossibleForDelete",
           "package": "DAV",
@@ -1179,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol HTTP DAV",
+          "indexed": "2014-03-11T16:37:54",
           "module": "Network.Protocol.HTTP.DAV",
           "name": "withLockIfPossibleForDelete",
           "normalized": "Bool-\u003eDAVT a b-\u003eDAVT a b",

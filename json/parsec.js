@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "parsec"
+        "phrase": "parsec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMake lazy ByteStrings an instance of \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e token type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.ByteString.Lazy",
           "name": "Lazy",
           "package": "parsec",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Make lazy ByteStrings an instance of Stream with Char token type",
           "hierarchy": "Text Parsec ByteString Lazy",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.ByteString.Lazy",
           "name": "Lazy",
           "package": "parsec",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.ByteString.Lazy",
           "name": "GenParser",
           "package": "parsec",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec ByteString Lazy",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.ByteString.Lazy",
           "name": "GenParser",
           "package": "parsec",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.ByteString.Lazy",
           "name": "Parser",
           "package": "parsec",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec ByteString Lazy",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.ByteString.Lazy",
           "name": "Parser",
           "package": "parsec",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseFromFile p filePath\u003c/code\u003e runs a lazy bytestring parser \u003ccode\u003ep\u003c/code\u003e on the\n input read from \u003ccode\u003efilePath\u003c/code\u003e using \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e. Returns either a \u003ccode\u003e\u003ca\u003eParseError\u003c/a\u003e\u003c/code\u003e\n (\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e) or a value of type \u003ccode\u003ea\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cpre\u003e  main    = do{ result \u003c- parseFromFile numbers \"digits.txt\"\n              ; case result of\n                  Left err  -\u003e print err\n                  Right xs  -\u003e print (sum xs)\n              }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.ByteString.Lazy",
           "name": "parseFromFile",
           "package": "parsec",
@@ -94,6 +101,7 @@
         "index": {
           "description": "parseFromFile filePath runs lazy bytestring parser on the input read from filePath using readFile Returns either ParseError Left or value of type Right main do result parseFromFile numbers digits.txt case result of Left err print err Right xs print sum xs",
           "hierarchy": "Text Parsec ByteString Lazy",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.ByteString.Lazy",
           "name": "parseFromFile",
           "normalized": "Parser a-\u003eString-\u003eIO(Either ParseError a)",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMake strict ByteStrings an instance of \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e token type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.ByteString",
           "name": "ByteString",
           "package": "parsec",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Make strict ByteStrings an instance of Stream with Char token type",
           "hierarchy": "Text Parsec ByteString",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.ByteString",
           "name": "ByteString",
           "package": "parsec",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.ByteString",
           "name": "GenParser",
           "package": "parsec",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec ByteString",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.ByteString",
           "name": "GenParser",
           "package": "parsec",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.ByteString",
           "name": "Parser",
           "package": "parsec",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec ByteString",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.ByteString",
           "name": "Parser",
           "package": "parsec",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseFromFile p filePath\u003c/code\u003e runs a strict bytestring parser \u003ccode\u003ep\u003c/code\u003e on the\n input read from \u003ccode\u003efilePath\u003c/code\u003e using \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e. Returns either a \u003ccode\u003e\u003ca\u003eParseError\u003c/a\u003e\u003c/code\u003e\n (\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e) or a value of type \u003ccode\u003ea\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cpre\u003e  main    = do{ result \u003c- parseFromFile numbers \"digits.txt\"\n              ; case result of\n                  Left err  -\u003e print err\n                  Right xs  -\u003e print (sum xs)\n              }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.ByteString",
           "name": "parseFromFile",
           "package": "parsec",
@@ -185,6 +200,7 @@
         "index": {
           "description": "parseFromFile filePath runs strict bytestring parser on the input read from filePath using readFile Returns either ParseError Left or value of type Right main do result parseFromFile numbers digits.txt case result of Left err print err Right xs print sum xs",
           "hierarchy": "Text Parsec ByteString",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.ByteString",
           "name": "parseFromFile",
           "normalized": "Parser a-\u003eString-\u003eIO(Either ParseError a)",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommonly used character parsers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Char",
           "name": "Char",
           "package": "parsec",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Commonly used character parsers",
           "hierarchy": "Text Parsec Char",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Char",
           "name": "Char",
           "package": "parsec",
@@ -650,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommonly used generic combinators\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Combinator",
           "name": "Combinator",
           "package": "parsec",
@@ -659,6 +678,7 @@
         "index": {
           "description": "Commonly used generic combinators",
           "hierarchy": "Text Parsec Combinator",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Combinator",
           "name": "Combinator",
           "package": "parsec",
@@ -1281,6 +1301,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse errors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Error",
           "name": "Error",
           "package": "parsec",
@@ -1290,6 +1311,7 @@
         "index": {
           "description": "Parse errors",
           "hierarchy": "Text Parsec Error",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Error",
           "name": "Error",
           "package": "parsec",
@@ -1304,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis abstract data type represents parse error messages. There are\n four kinds of messages:\n\u003c/p\u003e\u003cpre\u003e  data Message = SysUnExpect String\n               | UnExpect String\n               | Expect String\n               | Message String\n\u003c/pre\u003e\u003cp\u003eThe fine distinction between different kinds of parse errors allows\n the system to generate quite good error messages for the user. It\n also allows error messages that are formatted in different\n languages. Each kind of message is generated by different combinators:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e A \u003ccode\u003e\u003ca\u003eSysUnExpect\u003c/a\u003e\u003c/code\u003e message is automatically generated by the\n       \u003ccode\u003e\u003ca\u003esatisfy\u003c/a\u003e\u003c/code\u003e combinator. The argument is the\n       unexpected input.\n\u003c/li\u003e\u003cli\u003e A \u003ccode\u003e\u003ca\u003eUnExpect\u003c/a\u003e\u003c/code\u003e message is generated by the \u003ccode\u003e\u003ca\u003eunexpected\u003c/a\u003e\u003c/code\u003e\n       combinator. The argument describes the\n       unexpected item.\n\u003c/li\u003e\u003cli\u003e A \u003ccode\u003e\u003ca\u003eExpect\u003c/a\u003e\u003c/code\u003e message is generated by the \u003ccode\u003e\u003ca\u003e\u003c?\u003e\u003c/a\u003e\u003c/code\u003e\n       combinator. The argument describes the expected item.\n\u003c/li\u003e\u003cli\u003e A \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e message is generated by the \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e\n       combinator. The argument is some general parser message. \n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Error",
           "name": "Message",
           "package": "parsec",
@@ -1313,6 +1336,7 @@
         "index": {
           "description": "This abstract data type represents parse error messages There are four kinds of messages data Message SysUnExpect String UnExpect String Expect String Message String The fine distinction between different kinds of parse errors allows the system to generate quite good error messages for the user It also allows error messages that are formatted in different languages Each kind of message is generated by different combinators SysUnExpect message is automatically generated by the satisfy combinator The argument is the unexpected input UnExpect message is generated by the unexpected combinator The argument describes the unexpected item Expect message is generated by the combinator The argument describes the expected item Message message is generated by the fail combinator The argument is some general parser message",
           "hierarchy": "Text Parsec Error",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Error",
           "name": "Message",
           "package": "parsec",
@@ -1327,6 +1351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract data type \u003ccode\u003eParseError\u003c/code\u003e represents parse errors. It\n provides the source position (\u003ccode\u003e\u003ca\u003eSourcePos\u003c/a\u003e\u003c/code\u003e) of the error\n and a list of error messages (\u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e). A \u003ccode\u003eParseError\u003c/code\u003e\n can be returned by the function \u003ccode\u003e\u003ca\u003eparse\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003eParseError\u003c/code\u003e is an\n instance of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e class. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Error",
           "name": "ParseError",
           "package": "parsec",
@@ -1336,6 +1361,7 @@
         "index": {
           "description": "The abstract data type ParseError represents parse errors It provides the source position SourcePos of the error and list of error messages Message ParseError can be returned by the function parse ParseError is an instance of the Show class",
           "hierarchy": "Text Parsec Error",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Error",
           "name": "ParseError",
           "package": "parsec",
@@ -1723,6 +1749,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA helper module to parse \"expressions\".\n Builds a parser given a table of operators and associativities.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Expr",
           "name": "Expr",
           "package": "parsec",
@@ -1732,6 +1759,7 @@
         "index": {
           "description": "helper module to parse expressions Builds parser given table of operators and associativities",
           "hierarchy": "Text Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Expr",
           "name": "Expr",
           "package": "parsec",
@@ -1746,6 +1774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type specifies the associativity of operators: left, right\n or none.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Expr",
           "name": "Assoc",
           "package": "parsec",
@@ -1755,6 +1784,7 @@
         "index": {
           "description": "This data type specifies the associativity of operators left right or none",
           "hierarchy": "Text Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Expr",
           "name": "Assoc",
           "package": "parsec",
@@ -1769,6 +1799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type specifies operators that work on values of type \u003ccode\u003ea\u003c/code\u003e.\n An operator is either binary infix or unary prefix or postfix. A\n binary operator has also an associated associativity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Expr",
           "name": "Operator",
           "package": "parsec",
@@ -1778,6 +1809,7 @@
         "index": {
           "description": "This data type specifies operators that work on values of type An operator is either binary infix or unary prefix or postfix binary operator has also an associated associativity",
           "hierarchy": "Text Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Expr",
           "name": "Operator",
           "package": "parsec",
@@ -1792,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003eOperatorTable s u m a\u003c/code\u003e is a list of \u003ccode\u003eOperator s u m a\u003c/code\u003e\n lists. The list is ordered in descending\n precedence. All operators in one list have the same precedence (but\n may have a different associativity).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Expr",
           "name": "OperatorTable",
           "package": "parsec",
@@ -1801,6 +1834,7 @@
         "index": {
           "description": "An OperatorTable is list of Operator lists The list is ordered in descending precedence All operators in one list have the same precedence but may have different associativity",
           "hierarchy": "Text Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Expr",
           "name": "OperatorTable",
           "package": "parsec",
@@ -1883,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Expr",
           "name": "Infix",
           "package": "parsec",
@@ -1892,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Expr",
           "name": "Infix",
           "normalized": "Infix(ParsecT a b c(d-\u003ed-\u003ed))Assoc",
@@ -1907,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Expr",
           "name": "Postfix",
           "package": "parsec",
@@ -1916,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Expr",
           "name": "Postfix",
           "normalized": "Postfix(ParsecT a b c(d-\u003ed))",
@@ -1931,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Expr",
           "name": "Prefix",
           "package": "parsec",
@@ -1940,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Expr",
           "name": "Prefix",
           "normalized": "Prefix(ParsecT a b c(d-\u003ed))",
@@ -1956,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebuildExpressionParser table term\u003c/code\u003e builds an expression parser for\n terms \u003ccode\u003eterm\u003c/code\u003e with operators from \u003ccode\u003etable\u003c/code\u003e, taking the associativity\n and precedence specified in \u003ccode\u003etable\u003c/code\u003e into account. Prefix and postfix\n operators of the same precedence can only occur once (i.e. \u003ccode\u003e--2\u003c/code\u003e is\n not allowed if \u003ccode\u003e-\u003c/code\u003e is prefix negate). Prefix and postfix operators\n of the same precedence associate to the left (i.e. if \u003ccode\u003e++\u003c/code\u003e is\n postfix increment, than \u003ccode\u003e-2++\u003c/code\u003e equals \u003ccode\u003e-1\u003c/code\u003e, not \u003ccode\u003e-3\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003ebuildExpressionParser\u003c/code\u003e takes care of all the complexity\n involved in building expression parser. Here is an example of an\n expression parser that handles prefix signs, postfix increment and\n basic arithmetic.\n\u003c/p\u003e\u003cpre\u003e  expr    = buildExpressionParser table term\n          \u003c?\u003e \"expression\"\n\n  term    =  parens expr \n          \u003c|\u003e natural\n          \u003c?\u003e \"simple expression\"\n\n  table   = [ [prefix \"-\" negate, prefix \"+\" id ]\n            , [postfix \"++\" (+1)]\n            , [binary \"*\" (*) AssocLeft, binary \"/\" (div) AssocLeft ]\n            , [binary \"+\" (+) AssocLeft, binary \"-\" (-)   AssocLeft ]\n            ]\n          \n  binary  name fun assoc = Infix (do{ reservedOp name; return fun }) assoc\n  prefix  name fun       = Prefix (do{ reservedOp name; return fun })\n  postfix name fun       = Postfix (do{ reservedOp name; return fun })\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Expr",
           "name": "buildExpressionParser",
           "package": "parsec",
@@ -1966,6 +2007,7 @@
         "index": {
           "description": "buildExpressionParser table term builds an expression parser for terms term with operators from table taking the associativity and precedence specified in table into account Prefix and postfix operators of the same precedence can only occur once i.e is not allowed if is prefix negate Prefix and postfix operators of the same precedence associate to the left i.e if is postfix increment than equals not The buildExpressionParser takes care of all the complexity involved in building expression parser Here is an example of an expression parser that handles prefix signs postfix increment and basic arithmetic expr buildExpressionParser table term expression term parens expr natural simple expression table prefix negate prefix id postfix binary AssocLeft binary div AssocLeft binary AssocLeft binary AssocLeft binary name fun assoc Infix do reservedOp name return fun assoc prefix name fun Prefix do reservedOp name return fun postfix name fun Postfix do reservedOp name return fun",
           "hierarchy": "Text Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Expr",
           "name": "buildExpressionParser",
           "normalized": "OperatorTable a b c d-\u003eParsecT a b c d-\u003eParsecT a b c d",
@@ -1982,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA helper module that defines some language definitions that can be used\n to instantiate a token parser (see \u003ca\u003eText.Parsec.Token\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Language",
           "name": "Language",
           "package": "parsec",
@@ -1991,6 +2034,7 @@
         "index": {
           "description": "helper module that defines some language definitions that can be used to instantiate token parser see Text.Parsec.Token",
           "hierarchy": "Text Parsec Language",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Language",
           "name": "Language",
           "package": "parsec",
@@ -2005,6 +2049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eGenLanguageDef\u003c/code\u003e type is a record that contains all parameterizable\n features of the \u003ca\u003eText.Parsec.Token\u003c/a\u003e module. The module \u003ca\u003eText.Parsec.Language\u003c/a\u003e\n contains some default definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Language",
           "name": "GenLanguageDef",
           "package": "parsec",
@@ -2014,6 +2059,7 @@
         "index": {
           "description": "The GenLanguageDef type is record that contains all parameterizable features of the Text.Parsec.Token module The module Text.Parsec.Language contains some default definitions",
           "hierarchy": "Text Parsec Language",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Language",
           "name": "GenLanguageDef",
           "package": "parsec",
@@ -2027,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Language",
           "name": "LanguageDef",
           "package": "parsec",
@@ -2035,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Language",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Language",
           "name": "LanguageDef",
           "package": "parsec",
@@ -2220,6 +2268,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements permutation parsers. The algorithm used\n is fairly complex since we push the type system to its limits :-)\n The algorithm is described in:\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eParsing Permutation Phrases,\u003c/em\u003e\n by Arthur Baars, Andres Loh and Doaitse Swierstra.\n Published as a functional pearl at the Haskell Workshop 2001.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Perm",
           "name": "Perm",
           "package": "parsec",
@@ -2229,6 +2278,7 @@
         "index": {
           "description": "This module implements permutation parsers The algorithm used is fairly complex since we push the type system to its limits The algorithm is described in Parsing Permutation Phrases by Arthur Baars Andres Loh and Doaitse Swierstra Published as functional pearl at the Haskell Workshop",
           "hierarchy": "Text Parsec Perm",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Perm",
           "name": "Perm",
           "package": "parsec",
@@ -2243,6 +2293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvided for backwards compatibility.  The tok type is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Perm",
           "name": "PermParser",
           "package": "parsec",
@@ -2252,6 +2303,7 @@
         "index": {
           "description": "Provided for backwards compatibility The tok type is ignored",
           "hierarchy": "Text Parsec Perm",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Perm",
           "name": "PermParser",
           "package": "parsec",
@@ -2266,6 +2318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type \u003ccode\u003eStreamPermParser s st a\u003c/code\u003e denotes a permutation parser that,\n when converted by the \u003ccode\u003e\u003ca\u003epermute\u003c/a\u003e\u003c/code\u003e function, parses \n \u003ccode\u003es\u003c/code\u003e streams with user state \u003ccode\u003est\u003c/code\u003e and returns a value of\n type \u003ccode\u003ea\u003c/code\u003e on success.\n\u003c/p\u003e\u003cp\u003eNormally, a permutation parser is first build with special operators\n like (\u003ccode\u003e\u003ca\u003e\u003c||\u003e\u003c/a\u003e\u003c/code\u003e) and than transformed into a normal parser\n using \u003ccode\u003e\u003ca\u003epermute\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Perm",
           "name": "StreamPermParser",
           "package": "parsec",
@@ -2275,6 +2328,7 @@
         "index": {
           "description": "The type StreamPermParser st denotes permutation parser that when converted by the permute function parses streams with user state st and returns value of type on success Normally permutation parser is first build with special operators like and than transformed into normal parser using permute",
           "hierarchy": "Text Parsec Perm",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Perm",
           "name": "StreamPermParser",
           "package": "parsec",
@@ -2419,6 +2473,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTextual source positions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Pos",
           "name": "Pos",
           "package": "parsec",
@@ -2428,6 +2483,7 @@
         "index": {
           "description": "Textual source positions",
           "hierarchy": "Text Parsec Pos",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Pos",
           "name": "Pos",
           "package": "parsec",
@@ -2441,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Pos",
           "name": "Column",
           "package": "parsec",
@@ -2449,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Pos",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Pos",
           "name": "Column",
           "package": "parsec",
@@ -2462,6 +2520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Pos",
           "name": "Line",
           "package": "parsec",
@@ -2470,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Pos",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Pos",
           "name": "Line",
           "package": "parsec",
@@ -2483,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Pos",
           "name": "SourceName",
           "package": "parsec",
@@ -2491,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Pos",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Pos",
           "name": "SourceName",
           "package": "parsec",
@@ -2505,6 +2567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract data type \u003ccode\u003eSourcePos\u003c/code\u003e represents source positions. It\n contains the name of the source (i.e. file name), a line number and\n a column number. \u003ccode\u003eSourcePos\u003c/code\u003e is an instance of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e class. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Pos",
           "name": "SourcePos",
           "package": "parsec",
@@ -2514,6 +2577,7 @@
         "index": {
           "description": "The abstract data type SourcePos represents source positions It contains the name of the source i.e file name line number and column number SourcePos is an instance of the Show Eq and Ord class",
           "hierarchy": "Text Parsec Pos",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Pos",
           "name": "SourcePos",
           "package": "parsec",
@@ -2852,6 +2916,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe primitive parser combinators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "Prim",
           "package": "parsec",
@@ -2861,6 +2926,7 @@
         "index": {
           "description": "The primitive parser combinators",
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "Prim",
           "package": "parsec",
@@ -2874,6 +2940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "Consumed",
           "package": "parsec",
@@ -2882,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "Consumed",
           "package": "parsec",
@@ -2895,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "Parsec",
           "package": "parsec",
@@ -2903,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "Parsec",
           "package": "parsec",
@@ -2917,6 +2987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParserT monad transformer and Parser type\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eParsecT s u m a\u003c/code\u003e is a parser with stream type \u003ccode\u003es\u003c/code\u003e, user state type \u003ccode\u003eu\u003c/code\u003e,\n underlying monad \u003ccode\u003em\u003c/code\u003e and return type \u003ccode\u003ea\u003c/code\u003e.  Parsec is strict in the user state.\n If this is undesirable, simply used a data type like \u003ccode\u003edata Box a = Box a\u003c/code\u003e and\n the state type \u003ccode\u003eBox YourStateType\u003c/code\u003e to add a level of indirection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "ParsecT",
           "package": "parsec",
@@ -2926,6 +2997,7 @@
         "index": {
           "description": "ParserT monad transformer and Parser type ParsecT is parser with stream type user state type underlying monad and return type Parsec is strict in the user state If this is undesirable simply used data type like data Box Box and the state type Box YourStateType to add level of indirection",
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "ParsecT",
           "package": "parsec",
@@ -2939,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "Reply",
           "package": "parsec",
@@ -2947,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "Reply",
           "package": "parsec",
@@ -2960,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "State",
           "package": "parsec",
@@ -2968,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "State",
           "package": "parsec",
@@ -2982,6 +3058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instance of \u003ccode\u003eStream\u003c/code\u003e has stream type \u003ccode\u003es\u003c/code\u003e, underlying monad \u003ccode\u003em\u003c/code\u003e and token type \u003ccode\u003et\u003c/code\u003e determined by the stream\n\u003c/p\u003e\u003cp\u003eSome rough guidelines for a \"correct\" instance of Stream:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e unfoldM uncons gives the [t] corresponding to the stream\n\u003c/li\u003e\u003cli\u003e A \u003ccode\u003eStream\u003c/code\u003e instance is responsible for maintaining the \"position within the stream\" in the stream state \u003ccode\u003es\u003c/code\u003e.  This is trivial unless you are using the monad in a non-trivial way.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "Stream",
           "package": "parsec",
@@ -2991,6 +3068,7 @@
         "index": {
           "description": "An instance of Stream has stream type underlying monad and token type determined by the stream Some rough guidelines for correct instance of Stream unfoldM uncons gives the corresponding to the stream Stream instance is responsible for maintaining the position within the stream in the stream state This is trivial unless you are using the monad in non-trivial way",
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "Stream",
           "package": "parsec",
@@ -3056,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "Consumed",
           "package": "parsec",
@@ -3065,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "Consumed",
           "package": "parsec",
@@ -3078,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "Empty",
           "package": "parsec",
@@ -3087,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "Empty",
           "package": "parsec",
@@ -3100,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "Error",
           "package": "parsec",
@@ -3109,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "Error",
           "package": "parsec",
@@ -3122,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "Ok",
           "package": "parsec",
@@ -3131,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "Ok",
           "package": "parsec",
@@ -3341,6 +3427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "manyAccum",
           "package": "parsec",
@@ -3350,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "manyAccum",
           "normalized": "(a-\u003e[a]-\u003e[a])-\u003eParsecT b c d a-\u003eParsecT b c d[a]",
@@ -3365,6 +3453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "mergeErrorReply",
           "package": "parsec",
@@ -3374,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "mergeErrorReply",
           "normalized": "ParseError-\u003eReply a b c-\u003eReply a b c",
@@ -3390,6 +3480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-level creation of the ParsecT type. You really shouldn't have to do this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "mkPT",
           "package": "parsec",
@@ -3400,6 +3491,7 @@
         "index": {
           "description": "Low-level creation of the ParsecT type You really shouldn have to do this",
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "mkPT",
           "normalized": "(State a b-\u003ec(Consumed(c(Reply a b d))))-\u003eParsecT a b c d",
@@ -3416,6 +3508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eupdateState f\u003c/code\u003e applies function \u003ccode\u003ef\u003c/code\u003e to the user state. Suppose\n that we want to count identifiers in a source, we could use the user\n state as:\n\u003c/p\u003e\u003cpre\u003e  expr  = do{ x \u003c- identifier\n            ; updateState (+1)\n            ; return (Id x)\n            }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "modifyState",
           "package": "parsec",
@@ -3426,6 +3519,7 @@
         "index": {
           "description": "updateState applies function to the user state Suppose that we want to count identifiers in source we could use the user state as expr do identifier updateState return Id",
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "modifyState",
           "normalized": "(a-\u003ea)-\u003eParsecT b a c()",
@@ -3494,6 +3588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "parsecMap",
           "package": "parsec",
@@ -3503,6 +3598,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "parsecMap",
           "normalized": "(a-\u003eb)-\u003eParsecT c d e a-\u003eParsecT c d e b",
@@ -3518,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "parserBind",
           "package": "parsec",
@@ -3527,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "parserBind",
           "normalized": "ParsecT a b c d-\u003e(d-\u003eParsecT a b c e)-\u003eParsecT a b c e",
@@ -3542,6 +3640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "parserFail",
           "package": "parsec",
@@ -3551,6 +3650,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "parserFail",
           "normalized": "String-\u003eParsecT a b c d",
@@ -3566,6 +3666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "parserPlus",
           "package": "parsec",
@@ -3575,6 +3676,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "parserPlus",
           "normalized": "ParsecT a b c d-\u003eParsecT a b c d-\u003eParsecT a b c d",
@@ -3590,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "parserReturn",
           "package": "parsec",
@@ -3599,6 +3702,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "parserReturn",
           "normalized": "a-\u003eParsecT b c d a",
@@ -3615,6 +3719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparserZero\u003c/code\u003e always fails without consuming any input. \u003ccode\u003eparserZero\u003c/code\u003e is defined\n equal to the \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e member of the \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e class and to the \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e member \n of the \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "parserZero",
           "package": "parsec",
@@ -3625,6 +3730,7 @@
         "index": {
           "description": "parserZero always fails without consuming any input parserZero is defined equal to the mzero member of the MonadPlus class and to the empty member of the Applicative class",
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "parserZero",
           "package": "parsec",
@@ -3639,6 +3745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eputState st\u003c/code\u003e set the user state to \u003ccode\u003est\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "putState",
           "package": "parsec",
@@ -3649,6 +3756,7 @@
         "index": {
           "description": "putState st set the user state to st",
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "putState",
           "normalized": "a-\u003eParsecT b a c()",
@@ -3664,6 +3772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "runP",
           "package": "parsec",
@@ -3673,6 +3782,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "runP",
           "normalized": "Parsec a b c-\u003eb-\u003eSourceName-\u003ea-\u003eEither ParseError c",
@@ -3687,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "runPT",
           "package": "parsec",
@@ -3696,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "runPT",
           "normalized": "ParsecT a b c d-\u003eb-\u003eSourceName-\u003ea-\u003ec(Either ParseError d)",
@@ -3712,6 +3824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-level unpacking of the ParsecT type. To run your parser, please look to\n runPT, runP, runParserT, runParser and other such functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "runParsecT",
           "package": "parsec",
@@ -3722,6 +3835,7 @@
         "index": {
           "description": "Low-level unpacking of the ParsecT type To run your parser please look to runPT runP runParserT runParser and other such functions",
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "runParsecT",
           "normalized": "ParsecT a b c d-\u003eState a b-\u003ec(Consumed(c(Reply a b d)))",
@@ -3738,6 +3852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most general way to run a parser over the Identity monad. \u003ccode\u003erunParser p state filePath\n input\u003c/code\u003e runs parser \u003ccode\u003ep\u003c/code\u003e on the input list of tokens \u003ccode\u003einput\u003c/code\u003e,\n obtained from source \u003ccode\u003efilePath\u003c/code\u003e with the initial user state \u003ccode\u003est\u003c/code\u003e.\n The \u003ccode\u003efilePath\u003c/code\u003e is only used in error messages and may be the empty\n string. Returns either a \u003ccode\u003e\u003ca\u003eParseError\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e) or a\n value of type \u003ccode\u003ea\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cpre\u003e  parseFromFile p fname\n    = do{ input \u003c- readFile fname\n        ; return (runParser p () fname input)\n        }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "runParser",
           "package": "parsec",
@@ -3748,6 +3863,7 @@
         "index": {
           "description": "The most general way to run parser over the Identity monad runParser state filePath input runs parser on the input list of tokens input obtained from source filePath with the initial user state st The filePath is only used in error messages and may be the empty string Returns either ParseError Left or value of type Right parseFromFile fname do input readFile fname return runParser fname input",
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "runParser",
           "normalized": "Parsec a b c-\u003eb-\u003eSourceName-\u003ea-\u003eEither ParseError c",
@@ -3764,6 +3880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most general way to run a parser. \u003ccode\u003erunParserT p state filePath\n input\u003c/code\u003e runs parser \u003ccode\u003ep\u003c/code\u003e on the input list of tokens \u003ccode\u003einput\u003c/code\u003e,\n obtained from source \u003ccode\u003efilePath\u003c/code\u003e with the initial user state \u003ccode\u003est\u003c/code\u003e.\n The \u003ccode\u003efilePath\u003c/code\u003e is only used in error messages and may be the empty\n string. Returns a computation in the underlying monad \u003ccode\u003em\u003c/code\u003e that return either a \u003ccode\u003e\u003ca\u003eParseError\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e) or a\n value of type \u003ccode\u003ea\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "runParserT",
           "package": "parsec",
@@ -3774,6 +3891,7 @@
         "index": {
           "description": "The most general way to run parser runParserT state filePath input runs parser on the input list of tokens input obtained from source filePath with the initial user state st The filePath is only used in error messages and may be the empty string Returns computation in the underlying monad that return either ParseError Left or value of type Right",
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "runParserT",
           "normalized": "ParsecT a b c d-\u003eb-\u003eSourceName-\u003ea-\u003ec(Either ParseError d)",
@@ -3993,6 +4111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "sysUnExpectError",
           "package": "parsec",
@@ -4002,6 +4121,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "sysUnExpectError",
           "normalized": "String-\u003eSourcePos-\u003eReply a b c",
@@ -4118,6 +4238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parser \u003ccode\u003etry p\u003c/code\u003e behaves like parser \u003ccode\u003ep\u003c/code\u003e, except that it\n pretends that it hasn't consumed any input when an error occurs.\n\u003c/p\u003e\u003cp\u003eThis combinator is used whenever arbitrary look ahead is needed.\n Since it pretends that it hasn't consumed any input when \u003ccode\u003ep\u003c/code\u003e fails,\n the (\u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e) combinator will try its second alternative even when the\n first parser failed while consuming input.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003etry\u003c/code\u003e combinator can for example be used to distinguish\n identifiers and reserved words. Both reserved words and identifiers\n are a sequence of letters. Whenever we expect a certain reserved\n word where we can also expect an identifier we have to use the \u003ccode\u003etry\u003c/code\u003e\n combinator. Suppose we write:\n\u003c/p\u003e\u003cpre\u003e  expr        = letExpr \u003c|\u003e identifier \u003c?\u003e \"expression\"\n\n  letExpr     = do{ string \"let\"; ... }\n  identifier  = many1 letter\n\u003c/pre\u003e\u003cp\u003eIf the user writes \"lexical\", the parser fails with: \u003ccode\u003eunexpected\n 'x', expecting 't' in \"let\"\u003c/code\u003e. Indeed, since the (\u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e) combinator\n only tries alternatives when the first alternative hasn't consumed\n input, the \u003ccode\u003eidentifier\u003c/code\u003e parser is never tried (because the prefix\n \"le\" of the \u003ccode\u003estring \"let\"\u003c/code\u003e parser is already consumed). The\n right behaviour can be obtained by adding the \u003ccode\u003etry\u003c/code\u003e combinator:\n\u003c/p\u003e\u003cpre\u003e  expr        = letExpr \u003c|\u003e identifier \u003c?\u003e \"expression\"\n\n  letExpr     = do{ try (string \"let\"); ... }\n  identifier  = many1 letter\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "try",
           "package": "parsec",
@@ -4128,6 +4249,7 @@
         "index": {
           "description": "The parser try behaves like parser except that it pretends that it hasn consumed any input when an error occurs This combinator is used whenever arbitrary look ahead is needed Since it pretends that it hasn consumed any input when fails the combinator will try its second alternative even when the first parser failed while consuming input The try combinator can for example be used to distinguish identifiers and reserved words Both reserved words and identifiers are sequence of letters Whenever we expect certain reserved word where we can also expect an identifier we have to use the try combinator Suppose we write expr letExpr identifier expression letExpr do string let identifier many1 letter If the user writes lexical the parser fails with unexpected expecting in let Indeed since the combinator only tries alternatives when the first alternative hasn consumed input the identifier parser is never tried because the prefix le of the string let parser is already consumed The right behaviour can be obtained by adding the try combinator expr letExpr identifier expression letExpr do try string let identifier many1 letter",
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "try",
           "normalized": "ParsecT a b c d-\u003eParsecT a b c d",
@@ -4142,6 +4264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "uncons",
           "package": "parsec",
@@ -4151,6 +4274,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "uncons",
           "normalized": "a-\u003eb(Maybe(c,a))",
@@ -4191,6 +4315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "unknownError",
           "package": "parsec",
@@ -4200,6 +4325,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "unknownError",
           "normalized": "State a b-\u003eParseError",
@@ -4216,6 +4342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eupdateParserState f\u003c/code\u003e applies function \u003ccode\u003ef\u003c/code\u003e to the parser state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Prim",
           "name": "updateParserState",
           "package": "parsec",
@@ -4226,6 +4353,7 @@
         "index": {
           "description": "updateParserState applies function to the parser state",
           "hierarchy": "Text Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Prim",
           "name": "updateParserState",
           "normalized": "(State a b-\u003eState a b)-\u003eParsecT a b c(State a b)",
@@ -4269,6 +4397,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMake Strings an instance of \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e token type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.String",
           "name": "String",
           "package": "parsec",
@@ -4278,6 +4407,7 @@
         "index": {
           "description": "Make Strings an instance of Stream with Char token type",
           "hierarchy": "Text Parsec String",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.String",
           "name": "String",
           "package": "parsec",
@@ -4291,6 +4421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.String",
           "name": "GenParser",
           "package": "parsec",
@@ -4299,6 +4430,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec String",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.String",
           "name": "GenParser",
           "package": "parsec",
@@ -4312,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.String",
           "name": "Parser",
           "package": "parsec",
@@ -4320,6 +4453,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec String",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.String",
           "name": "Parser",
           "package": "parsec",
@@ -4361,6 +4495,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMake Text an instance of \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e token type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Text.Lazy",
           "name": "Lazy",
           "package": "parsec",
@@ -4370,6 +4505,7 @@
         "index": {
           "description": "Make Text an instance of Stream with Char token type",
           "hierarchy": "Text Parsec Text Lazy",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Text.Lazy",
           "name": "Lazy",
           "package": "parsec",
@@ -4383,6 +4519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Text.Lazy",
           "name": "GenParser",
           "package": "parsec",
@@ -4391,6 +4528,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Text Lazy",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Text.Lazy",
           "name": "GenParser",
           "package": "parsec",
@@ -4404,6 +4542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Text.Lazy",
           "name": "Parser",
           "package": "parsec",
@@ -4412,6 +4551,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Text Lazy",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Text.Lazy",
           "name": "Parser",
           "package": "parsec",
@@ -4426,6 +4566,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMake Text an instance of \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e token type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Text",
           "name": "Text",
           "package": "parsec",
@@ -4435,6 +4576,7 @@
         "index": {
           "description": "Make Text an instance of Stream with Char token type",
           "hierarchy": "Text Parsec Text",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Text",
           "name": "Text",
           "package": "parsec",
@@ -4448,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Text",
           "name": "GenParser",
           "package": "parsec",
@@ -4456,6 +4599,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Text",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Text",
           "name": "GenParser",
           "package": "parsec",
@@ -4469,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Text",
           "name": "Parser",
           "package": "parsec",
@@ -4477,6 +4622,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Text",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Text",
           "name": "Parser",
           "package": "parsec",
@@ -4491,6 +4637,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA helper module to parse lexical elements (tokens). See \u003ccode\u003e\u003ca\u003emakeTokenParser\u003c/a\u003e\u003c/code\u003e\n for a description of how to use it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Token",
           "name": "Token",
           "package": "parsec",
@@ -4500,6 +4647,7 @@
         "index": {
           "description": "helper module to parse lexical elements tokens See makeTokenParser for description of how to use it",
           "hierarchy": "Text Parsec Token",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Token",
           "name": "Token",
           "package": "parsec",
@@ -4514,6 +4662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eGenLanguageDef\u003c/code\u003e type is a record that contains all parameterizable\n features of the \u003ca\u003eText.Parsec.Token\u003c/a\u003e module. The module \u003ca\u003eText.Parsec.Language\u003c/a\u003e\n contains some default definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Token",
           "name": "GenLanguageDef",
           "package": "parsec",
@@ -4523,6 +4672,7 @@
         "index": {
           "description": "The GenLanguageDef type is record that contains all parameterizable features of the Text.Parsec.Token module The module Text.Parsec.Language contains some default definitions",
           "hierarchy": "Text Parsec Token",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Token",
           "name": "GenLanguageDef",
           "package": "parsec",
@@ -4537,6 +4687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the record that holds lexical parsers that work on\n \u003ccode\u003es\u003c/code\u003e streams with state \u003ccode\u003eu\u003c/code\u003e over a monad \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Token",
           "name": "GenTokenParser",
           "package": "parsec",
@@ -4546,6 +4697,7 @@
         "index": {
           "description": "The type of the record that holds lexical parsers that work on streams with state over monad",
           "hierarchy": "Text Parsec Token",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Token",
           "name": "GenTokenParser",
           "package": "parsec",
@@ -4559,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Token",
           "name": "LanguageDef",
           "package": "parsec",
@@ -4567,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Token",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Token",
           "name": "LanguageDef",
           "package": "parsec",
@@ -4580,6 +4734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec.Token",
           "name": "TokenParser",
           "package": "parsec",
@@ -4588,6 +4743,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Token",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec.Token",
           "name": "TokenParser",
           "package": "parsec",
@@ -5686,6 +5842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec",
           "name": "Parsec",
           "package": "parsec",
@@ -5694,6 +5851,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec",
           "name": "Parsec",
           "package": "parsec",
@@ -5707,6 +5865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec",
           "name": "Column",
           "package": "parsec",
@@ -5715,6 +5874,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec",
           "name": "Column",
           "package": "parsec",
@@ -5728,6 +5888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec",
           "name": "Line",
           "package": "parsec",
@@ -5736,6 +5897,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec",
           "name": "Line",
           "package": "parsec",
@@ -5750,6 +5912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract data type \u003ccode\u003eParseError\u003c/code\u003e represents parse errors. It\n provides the source position (\u003ccode\u003e\u003ca\u003eSourcePos\u003c/a\u003e\u003c/code\u003e) of the error\n and a list of error messages (\u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e). A \u003ccode\u003eParseError\u003c/code\u003e\n can be returned by the function \u003ccode\u003e\u003ca\u003eparse\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003eParseError\u003c/code\u003e is an\n instance of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e class. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec",
           "name": "ParseError",
           "package": "parsec",
@@ -5759,6 +5922,7 @@
         "index": {
           "description": "The abstract data type ParseError represents parse errors It provides the source position SourcePos of the error and list of error messages Message ParseError can be returned by the function parse ParseError is an instance of the Show class",
           "hierarchy": "Text Parsec",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec",
           "name": "ParseError",
           "package": "parsec",
@@ -5772,6 +5936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec",
           "name": "SourceName",
           "package": "parsec",
@@ -5780,6 +5945,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec",
           "name": "SourceName",
           "package": "parsec",
@@ -5794,6 +5960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract data type \u003ccode\u003eSourcePos\u003c/code\u003e represents source positions. It\n contains the name of the source (i.e. file name), a line number and\n a column number. \u003ccode\u003eSourcePos\u003c/code\u003e is an instance of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e class. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.Parsec",
           "name": "SourcePos",
           "package": "parsec",
@@ -5803,6 +5970,7 @@
         "index": {
           "description": "The abstract data type SourcePos represents source positions It contains the name of the source i.e file name line number and column number SourcePos is an instance of the Show Eq and Ord class",
           "hierarchy": "Text Parsec",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.Parsec",
           "name": "SourcePos",
           "package": "parsec",
@@ -5817,6 +5985,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsec compatibility module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Char",
           "name": "Char",
           "package": "parsec",
@@ -5826,6 +5995,7 @@
         "index": {
           "description": "Parsec compatibility module",
           "hierarchy": "Text ParserCombinators Parsec Char",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Char",
           "name": "Char",
           "package": "parsec",
@@ -5839,6 +6009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Char",
           "name": "CharParser",
           "package": "parsec",
@@ -5847,6 +6018,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Char",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Char",
           "name": "CharParser",
           "package": "parsec",
@@ -5861,6 +6033,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsec compatibility module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Combinator",
           "name": "Combinator",
           "package": "parsec",
@@ -5870,6 +6043,7 @@
         "index": {
           "description": "Parsec compatibility module",
           "hierarchy": "Text ParserCombinators Parsec Combinator",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Combinator",
           "name": "Combinator",
           "package": "parsec",
@@ -5884,6 +6058,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsec compatibility module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Error",
           "name": "Error",
           "package": "parsec",
@@ -5893,6 +6068,7 @@
         "index": {
           "description": "Parsec compatibility module",
           "hierarchy": "Text ParserCombinators Parsec Error",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Error",
           "name": "Error",
           "package": "parsec",
@@ -5907,6 +6083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis abstract data type represents parse error messages. There are\n four kinds of messages:\n\u003c/p\u003e\u003cpre\u003e  data Message = SysUnExpect String\n               | UnExpect String\n               | Expect String\n               | Message String\n\u003c/pre\u003e\u003cp\u003eThe fine distinction between different kinds of parse errors allows\n the system to generate quite good error messages for the user. It\n also allows error messages that are formatted in different\n languages. Each kind of message is generated by different combinators:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e A \u003ccode\u003e\u003ca\u003eSysUnExpect\u003c/a\u003e\u003c/code\u003e message is automatically generated by the\n       \u003ccode\u003e\u003ca\u003esatisfy\u003c/a\u003e\u003c/code\u003e combinator. The argument is the\n       unexpected input.\n\u003c/li\u003e\u003cli\u003e A \u003ccode\u003e\u003ca\u003eUnExpect\u003c/a\u003e\u003c/code\u003e message is generated by the \u003ccode\u003e\u003ca\u003eunexpected\u003c/a\u003e\u003c/code\u003e\n       combinator. The argument describes the\n       unexpected item.\n\u003c/li\u003e\u003cli\u003e A \u003ccode\u003e\u003ca\u003eExpect\u003c/a\u003e\u003c/code\u003e message is generated by the \u003ccode\u003e\u003ca\u003e\u003c?\u003e\u003c/a\u003e\u003c/code\u003e\n       combinator. The argument describes the expected item.\n\u003c/li\u003e\u003cli\u003e A \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e message is generated by the \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e\n       combinator. The argument is some general parser message. \n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Error",
           "name": "Message",
           "package": "parsec",
@@ -5916,6 +6093,7 @@
         "index": {
           "description": "This abstract data type represents parse error messages There are four kinds of messages data Message SysUnExpect String UnExpect String Expect String Message String The fine distinction between different kinds of parse errors allows the system to generate quite good error messages for the user It also allows error messages that are formatted in different languages Each kind of message is generated by different combinators SysUnExpect message is automatically generated by the satisfy combinator The argument is the unexpected input UnExpect message is generated by the unexpected combinator The argument describes the unexpected item Expect message is generated by the combinator The argument describes the expected item Message message is generated by the fail combinator The argument is some general parser message",
           "hierarchy": "Text ParserCombinators Parsec Error",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Error",
           "name": "Message",
           "package": "parsec",
@@ -5930,6 +6108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract data type \u003ccode\u003eParseError\u003c/code\u003e represents parse errors. It\n provides the source position (\u003ccode\u003e\u003ca\u003eSourcePos\u003c/a\u003e\u003c/code\u003e) of the error\n and a list of error messages (\u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e). A \u003ccode\u003eParseError\u003c/code\u003e\n can be returned by the function \u003ccode\u003e\u003ca\u003eparse\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003eParseError\u003c/code\u003e is an\n instance of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e class. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Error",
           "name": "ParseError",
           "package": "parsec",
@@ -5939,6 +6118,7 @@
         "index": {
           "description": "The abstract data type ParseError represents parse errors It provides the source position SourcePos of the error and list of error messages Message ParseError can be returned by the function parse ParseError is an instance of the Show class",
           "hierarchy": "Text ParserCombinators Parsec Error",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Error",
           "name": "ParseError",
           "package": "parsec",
@@ -5952,6 +6132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Error",
           "name": "messageCompare",
           "package": "parsec",
@@ -5961,6 +6142,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Error",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Error",
           "name": "messageCompare",
           "normalized": "Message-\u003eMessage-\u003eOrdering",
@@ -5976,6 +6158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Error",
           "name": "messageEq",
           "package": "parsec",
@@ -5985,6 +6168,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Error",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Error",
           "name": "messageEq",
           "normalized": "Message-\u003eMessage-\u003eBool",
@@ -6001,6 +6185,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsec compatibility module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "Expr",
           "package": "parsec",
@@ -6010,6 +6195,7 @@
         "index": {
           "description": "Parsec compatibility module",
           "hierarchy": "Text ParserCombinators Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "Expr",
           "package": "parsec",
@@ -6024,6 +6210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type specifies the associativity of operators: left, right\n or none.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "Assoc",
           "package": "parsec",
@@ -6033,6 +6220,7 @@
         "index": {
           "description": "This data type specifies the associativity of operators left right or none",
           "hierarchy": "Text ParserCombinators Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "Assoc",
           "package": "parsec",
@@ -6046,6 +6234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "Operator",
           "package": "parsec",
@@ -6054,6 +6243,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "Operator",
           "package": "parsec",
@@ -6067,6 +6257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "OperatorTable",
           "package": "parsec",
@@ -6075,6 +6266,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "OperatorTable",
           "package": "parsec",
@@ -6088,6 +6280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "Infix",
           "package": "parsec",
@@ -6097,6 +6290,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "Infix",
           "normalized": "Infix(GenParser a b(c-\u003ec-\u003ec))Assoc",
@@ -6112,6 +6306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "Postfix",
           "package": "parsec",
@@ -6121,6 +6316,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "Postfix",
           "normalized": "Postfix(GenParser a b(c-\u003ec))",
@@ -6136,6 +6332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "Prefix",
           "package": "parsec",
@@ -6145,6 +6342,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "Prefix",
           "normalized": "Prefix(GenParser a b(c-\u003ec))",
@@ -6160,6 +6358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "buildExpressionParser",
           "package": "parsec",
@@ -6169,6 +6368,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Expr",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Expr",
           "name": "buildExpressionParser",
           "normalized": "OperatorTable a b c-\u003eGenParser a b c-\u003eGenParser a b c",
@@ -6185,6 +6385,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsec compatibility module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Language",
           "name": "Language",
           "package": "parsec",
@@ -6194,6 +6395,7 @@
         "index": {
           "description": "Parsec compatibility module",
           "hierarchy": "Text ParserCombinators Parsec Language",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Language",
           "name": "Language",
           "package": "parsec",
@@ -6208,6 +6410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eGenLanguageDef\u003c/code\u003e type is a record that contains all parameterizable\n features of the \u003ca\u003eText.Parsec.Token\u003c/a\u003e module. The module \u003ca\u003eText.Parsec.Language\u003c/a\u003e\n contains some default definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Language",
           "name": "GenLanguageDef",
           "package": "parsec",
@@ -6217,6 +6420,7 @@
         "index": {
           "description": "The GenLanguageDef type is record that contains all parameterizable features of the Text.Parsec.Token module The module Text.Parsec.Language contains some default definitions",
           "hierarchy": "Text ParserCombinators Parsec Language",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Language",
           "name": "GenLanguageDef",
           "package": "parsec",
@@ -6230,6 +6434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Language",
           "name": "LanguageDef",
           "package": "parsec",
@@ -6238,6 +6443,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Language",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Language",
           "name": "LanguageDef",
           "package": "parsec",
@@ -6252,6 +6458,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsec compatibility module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Perm",
           "name": "Perm",
           "package": "parsec",
@@ -6261,6 +6468,7 @@
         "index": {
           "description": "Parsec compatibility module",
           "hierarchy": "Text ParserCombinators Parsec Perm",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Perm",
           "name": "Perm",
           "package": "parsec",
@@ -6275,6 +6483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvided for backwards compatibility.  The tok type is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Perm",
           "name": "PermParser",
           "package": "parsec",
@@ -6284,6 +6493,7 @@
         "index": {
           "description": "Provided for backwards compatibility The tok type is ignored",
           "hierarchy": "Text ParserCombinators Parsec Perm",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Perm",
           "name": "PermParser",
           "package": "parsec",
@@ -6298,6 +6508,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsec compatibility module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Pos",
           "name": "Pos",
           "package": "parsec",
@@ -6307,6 +6518,7 @@
         "index": {
           "description": "Parsec compatibility module",
           "hierarchy": "Text ParserCombinators Parsec Pos",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Pos",
           "name": "Pos",
           "package": "parsec",
@@ -6320,6 +6532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Pos",
           "name": "Column",
           "package": "parsec",
@@ -6328,6 +6541,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Pos",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Pos",
           "name": "Column",
           "package": "parsec",
@@ -6341,6 +6555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Pos",
           "name": "Line",
           "package": "parsec",
@@ -6349,6 +6564,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Pos",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Pos",
           "name": "Line",
           "package": "parsec",
@@ -6362,6 +6578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Pos",
           "name": "SourceName",
           "package": "parsec",
@@ -6370,6 +6587,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Pos",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Pos",
           "name": "SourceName",
           "package": "parsec",
@@ -6384,6 +6602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract data type \u003ccode\u003eSourcePos\u003c/code\u003e represents source positions. It\n contains the name of the source (i.e. file name), a line number and\n a column number. \u003ccode\u003eSourcePos\u003c/code\u003e is an instance of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e class. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Pos",
           "name": "SourcePos",
           "package": "parsec",
@@ -6393,6 +6612,7 @@
         "index": {
           "description": "The abstract data type SourcePos represents source positions It contains the name of the source i.e file name line number and column number SourcePos is an instance of the Show Eq and Ord class",
           "hierarchy": "Text ParserCombinators Parsec Pos",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Pos",
           "name": "SourcePos",
           "package": "parsec",
@@ -6407,6 +6627,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsec compatibility module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Prim",
           "name": "Prim",
           "package": "parsec",
@@ -6416,6 +6637,7 @@
         "index": {
           "description": "Parsec compatibility module",
           "hierarchy": "Text ParserCombinators Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Prim",
           "name": "Prim",
           "package": "parsec",
@@ -6429,6 +6651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Prim",
           "name": "GenParser",
           "package": "parsec",
@@ -6437,6 +6660,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Prim",
           "name": "GenParser",
           "package": "parsec",
@@ -6450,6 +6674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Prim",
           "name": "Parser",
           "package": "parsec",
@@ -6458,6 +6683,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Prim",
           "name": "Parser",
           "package": "parsec",
@@ -6471,6 +6697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Prim",
           "name": "State",
           "package": "parsec",
@@ -6479,6 +6706,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Prim",
           "name": "State",
           "package": "parsec",
@@ -6492,6 +6720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Prim",
           "name": "pzero",
           "package": "parsec",
@@ -6501,6 +6730,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Prim",
           "name": "pzero",
           "package": "parsec",
@@ -6513,6 +6743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Prim",
           "name": "runParser",
           "package": "parsec",
@@ -6522,6 +6753,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Prim",
           "name": "runParser",
           "normalized": "GenParser a b c-\u003eb-\u003eSourceName-\u003e[a]-\u003eEither ParseError c",
@@ -6537,6 +6769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Prim",
           "name": "try",
           "package": "parsec",
@@ -6546,6 +6779,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Prim",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Prim",
           "name": "try",
           "normalized": "GenParser a b c-\u003eGenParser a b c",
@@ -6561,6 +6795,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsec compatibility module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Token",
           "name": "Token",
           "package": "parsec",
@@ -6570,6 +6805,7 @@
         "index": {
           "description": "Parsec compatibility module",
           "hierarchy": "Text ParserCombinators Parsec Token",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Token",
           "name": "Token",
           "package": "parsec",
@@ -6584,6 +6820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eGenLanguageDef\u003c/code\u003e type is a record that contains all parameterizable\n features of the \u003ca\u003eText.Parsec.Token\u003c/a\u003e module. The module \u003ca\u003eText.Parsec.Language\u003c/a\u003e\n contains some default definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Token",
           "name": "GenLanguageDef",
           "package": "parsec",
@@ -6593,6 +6830,7 @@
         "index": {
           "description": "The GenLanguageDef type is record that contains all parameterizable features of the Text.Parsec.Token module The module Text.Parsec.Language contains some default definitions",
           "hierarchy": "Text ParserCombinators Parsec Token",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Token",
           "name": "GenLanguageDef",
           "package": "parsec",
@@ -6607,6 +6845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the record that holds lexical parsers that work on\n \u003ccode\u003es\u003c/code\u003e streams with state \u003ccode\u003eu\u003c/code\u003e over a monad \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Token",
           "name": "GenTokenParser",
           "package": "parsec",
@@ -6616,6 +6855,7 @@
         "index": {
           "description": "The type of the record that holds lexical parsers that work on streams with state over monad",
           "hierarchy": "Text ParserCombinators Parsec Token",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Token",
           "name": "GenTokenParser",
           "package": "parsec",
@@ -6629,6 +6869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Token",
           "name": "LanguageDef",
           "package": "parsec",
@@ -6637,6 +6878,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Token",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Token",
           "name": "LanguageDef",
           "package": "parsec",
@@ -6650,6 +6892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Token",
           "name": "TokenParser",
           "package": "parsec",
@@ -6658,6 +6901,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Token",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec.Token",
           "name": "TokenParser",
           "package": "parsec",
@@ -6672,6 +6916,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsec compatibility module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec",
           "name": "Parsec",
           "package": "parsec",
@@ -6681,6 +6926,7 @@
         "index": {
           "description": "Parsec compatibility module",
           "hierarchy": "Text ParserCombinators Parsec",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec",
           "name": "Parsec",
           "package": "parsec",
@@ -6694,6 +6940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec",
           "name": "Column",
           "package": "parsec",
@@ -6702,6 +6949,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec",
           "name": "Column",
           "package": "parsec",
@@ -6715,6 +6963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec",
           "name": "Line",
           "package": "parsec",
@@ -6723,6 +6972,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec",
           "name": "Line",
           "package": "parsec",
@@ -6737,6 +6987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract data type \u003ccode\u003eParseError\u003c/code\u003e represents parse errors. It\n provides the source position (\u003ccode\u003e\u003ca\u003eSourcePos\u003c/a\u003e\u003c/code\u003e) of the error\n and a list of error messages (\u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e). A \u003ccode\u003eParseError\u003c/code\u003e\n can be returned by the function \u003ccode\u003e\u003ca\u003eparse\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003eParseError\u003c/code\u003e is an\n instance of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e class. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec",
           "name": "ParseError",
           "package": "parsec",
@@ -6746,6 +6997,7 @@
         "index": {
           "description": "The abstract data type ParseError represents parse errors It provides the source position SourcePos of the error and list of error messages Message ParseError can be returned by the function parse ParseError is an instance of the Show class",
           "hierarchy": "Text ParserCombinators Parsec",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec",
           "name": "ParseError",
           "package": "parsec",
@@ -6759,6 +7011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec",
           "name": "SourceName",
           "package": "parsec",
@@ -6767,6 +7020,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec",
           "name": "SourceName",
           "package": "parsec",
@@ -6781,6 +7035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract data type \u003ccode\u003eSourcePos\u003c/code\u003e represents source positions. It\n contains the name of the source (i.e. file name), a line number and\n a column number. \u003ccode\u003eSourcePos\u003c/code\u003e is an instance of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e class. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:48 UTC 2014",
           "module": "Text.ParserCombinators.Parsec",
           "name": "SourcePos",
           "package": "parsec",
@@ -6790,6 +7045,7 @@
         "index": {
           "description": "The abstract data type SourcePos represents source positions It contains the name of the source i.e file name line number and column number SourcePos is an instance of the Show Eq and Ord class",
           "hierarchy": "Text ParserCombinators Parsec",
+          "indexed": "2014-03-11T19:34:48",
           "module": "Text.ParserCombinators.Parsec",
           "name": "SourcePos",
           "package": "parsec",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bibtex"
+        "phrase": "bibtex",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Entry",
           "name": "Entry",
           "package": "bibtex",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Entry",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Entry",
           "name": "Entry",
           "package": "bibtex",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Entry",
           "name": "T",
           "package": "bibtex",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Entry",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Entry",
           "name": "T",
           "package": "bibtex",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Entry",
           "name": "Cons",
           "package": "bibtex",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Entry",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Entry",
           "name": "Cons",
           "package": "bibtex",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Entry",
           "name": "entryType",
           "package": "bibtex",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Entry",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Entry",
           "name": "entryType",
           "package": "bibtex",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Entry",
           "name": "fields",
           "package": "bibtex",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Entry",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Entry",
           "name": "fields",
           "normalized": "[(String,String)]",
@@ -127,6 +137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the name style \"Surname, First name\" into \"First name Surname\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Entry",
           "name": "flipName",
           "package": "bibtex",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Convert the name style Surname First name into First name Surname",
           "hierarchy": "Text BibTeX Entry",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Entry",
           "name": "flipName",
           "normalized": "String-\u003eString",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Entry",
           "name": "identifier",
           "package": "bibtex",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Entry",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Entry",
           "name": "identifier",
           "package": "bibtex",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Entry",
           "name": "lowerCaseFieldNames",
           "package": "bibtex",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Entry",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Entry",
           "name": "lowerCaseFieldNames",
           "normalized": "T-\u003eT",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Format",
           "name": "Format",
           "package": "bibtex",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Format",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Format",
           "name": "Format",
           "package": "bibtex",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Format",
           "name": "authorList",
           "package": "bibtex",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Format",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Format",
           "name": "authorList",
           "normalized": "[String]-\u003eString",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Format",
           "name": "commaSepList",
           "package": "bibtex",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Format",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Format",
           "name": "commaSepList",
           "normalized": "[String]-\u003eString",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Format",
           "name": "entry",
           "package": "bibtex",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Format",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Format",
           "name": "entry",
           "normalized": "T-\u003eString",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Format",
           "name": "enumerate",
           "package": "bibtex",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Format",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Format",
           "name": "enumerate",
           "normalized": "[String]-\u003eString",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Format",
           "name": "sepList",
           "package": "bibtex",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Format",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Format",
           "name": "sepList",
           "normalized": "Char-\u003e[String]-\u003eString",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe parsers in this module also skip trailing spaces.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "Parse",
           "package": "bibtex",
@@ -346,6 +375,7 @@
         "index": {
           "description": "The parsers in this module also skip trailing spaces",
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "Parse",
           "package": "bibtex",
@@ -360,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an assignment like\n\u003c/p\u003e\u003cpre\u003e author = {Firstname Surname}\n\u003c/pre\u003e\u003cp\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "assignment",
           "package": "bibtex",
@@ -370,6 +401,7 @@
         "index": {
           "description": "Parse an assignment like author Firstname Surname",
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "assignment",
           "normalized": "Parser(String,String)",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a name of a BibTeX entry like \u003ccode\u003eauthor2010title\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "bibIdentifier",
           "package": "bibtex",
@@ -395,6 +428,7 @@
         "index": {
           "description": "Parse name of BibTeX entry like author2010title",
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "bibIdentifier",
           "package": "bibtex",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "comment",
           "package": "bibtex",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "comment",
           "package": "bibtex",
@@ -430,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a BibTeX entry like\n\u003c/p\u003e\u003cpre\u003e @article{author2010title,\n   author = {Firstname Surname},\n   title = {Title},\n   year = 2010,\n   month = jul,\n }\n\u003c/pre\u003e\u003cp\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "entry",
           "package": "bibtex",
@@ -440,6 +477,7 @@
         "index": {
           "description": "Parse BibTeX entry like article author2010title author Firstname Surname title Title year month jul",
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "entry",
           "package": "bibtex",
@@ -453,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeware that this and all other parsers do not accept leading spaces,\ncf. \u003ccode\u003e\u003ca\u003eskippingSpace\u003c/a\u003e\u003c/code\u003e.\nThat is when encountering leading white spaces\nthe parser will just return an empty list.\nIf you want to parse a file that contains entirely of BibTeX data\nyou better call \u003ccode\u003eskippingLeadingSpace file\u003c/code\u003e instead.\nHowever, the \u003ccode\u003efile\u003c/code\u003e parser is more combinable\nand can be used for files that contain both BibTeX and other data\nor it can be used for automated filetype checking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "file",
           "package": "bibtex",
@@ -463,6 +502,7 @@
         "index": {
           "description": "Beware that this and all other parsers do not accept leading spaces cf skippingSpace That is when encountering leading white spaces the parser will just return an empty list If you want to parse file that contains entirely of BibTeX data you better call skippingLeadingSpace file instead However the file parser is more combinable and can be used for files that contain both BibTeX and other data or it can be used for automated filetype checking",
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "file",
           "normalized": "Parser[T]",
@@ -477,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "identifier",
           "package": "bibtex",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "identifier",
           "package": "bibtex",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "skippingLeadingSpace",
           "package": "bibtex",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "skippingLeadingSpace",
           "normalized": "Parser a-\u003eParser a",
@@ -523,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtends a parser, such that all trailing spaces are skipped.\nIt might be more comfortable to skip all leading spaces,\nbut parser written that way are hard to combine.\nThis is so, since if you run two parsers in parallel\nand both of them expect leading spaces,\nthen the parser combinator does not know\nwhich one of the parallel parsers to choose.\n\u003c/p\u003e\u003cp\u003eSee also: \u003ccode\u003elexeme\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "skippingSpace",
           "package": "bibtex",
@@ -533,6 +578,7 @@
         "index": {
           "description": "Extends parser such that all trailing spaces are skipped It might be more comfortable to skip all leading spaces but parser written that way are hard to combine This is so since if you run two parsers in parallel and both of them expect leading spaces then the parser combinator does not know which one of the parallel parsers to choose See also lexeme",
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "skippingSpace",
           "normalized": "Parser a-\u003eParser a",
@@ -549,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a string containing a list of authors in BibTeX notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "splitAuthorList",
           "package": "bibtex",
@@ -559,6 +606,7 @@
         "index": {
           "description": "Split string containing list of authors in BibTeX notation",
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "splitAuthorList",
           "normalized": "String-\u003e[String]",
@@ -575,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a string at the commas and remove leading spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "splitCommaSepList",
           "package": "bibtex",
@@ -585,6 +634,7 @@
         "index": {
           "description": "Split string at the commas and remove leading spaces",
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "splitCommaSepList",
           "normalized": "String-\u003e[String]",
@@ -600,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "splitSepList",
           "package": "bibtex",
@@ -609,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "splitSepList",
           "normalized": "Char-\u003eString-\u003e[String]",
@@ -625,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a single character like \u003ccode\u003ea\u003c/code\u003e,\na LaTeX macro call like \u003ccode\u003e\\alpha\u003c/code\u003e\nor a block enclosed in curly braces like \u003ccode\u003e{\\\"{a}bc}\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "texBlock",
           "package": "bibtex",
@@ -635,6 +688,7 @@
         "index": {
           "description": "Parse single character like LaTeX macro call like alpha or block enclosed in curly braces like bc",
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "texBlock",
           "normalized": "Char-\u003eParser String",
@@ -651,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a sequence of \u003ccode\u003e\u003ca\u003etexBlock\u003c/a\u003e\u003c/code\u003es until the occurrence of a closing character.\nThe closing character is not part of the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "texSequence",
           "package": "bibtex",
@@ -661,6 +716,7 @@
         "index": {
           "description": "Parse sequence of texBlock until the occurrence of closing character The closing character is not part of the result",
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "texSequence",
           "normalized": "Char-\u003eParser String",
@@ -677,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a value like\n\u003c/p\u003e\u003cpre\u003e jul\n\u003c/pre\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cpre\u003e 2010\n\u003c/pre\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cpre\u003e {Firstname Surname}\n\u003c/pre\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cpre\u003e \"Firstname Surname\"\n\u003c/pre\u003e\u003cp\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:06 UTC 2014",
           "module": "Text.BibTeX.Parse",
           "name": "value",
           "package": "bibtex",
@@ -687,6 +744,7 @@
         "index": {
           "description": "Parse value like jul or or Firstname Surname or Firstname Surname",
           "hierarchy": "Text BibTeX Parse",
+          "indexed": "2014-03-11T17:18:06",
           "module": "Text.BibTeX.Parse",
           "name": "value",
           "package": "bibtex",

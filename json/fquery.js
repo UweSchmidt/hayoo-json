@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fquery"
+        "phrase": "fquery",
+        "type": "phrase"
       },
       "type": "context"
     }

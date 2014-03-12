@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack-handler-simpleserver"
+        "phrase": "hack-handler-simpleserver",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simplistic HTTP server handler for Hack.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:25:33 UTC 2014",
           "module": "Hack.Handler.SimpleServer",
           "name": "SimpleServer",
           "package": "hack-handler-simpleserver",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simplistic HTTP server handler for Hack",
           "hierarchy": "Hack Handler SimpleServer",
+          "indexed": "2014-03-11T18:25:33",
           "module": "Hack.Handler.SimpleServer",
           "name": "SimpleServer",
           "package": "hack-handler-simpleserver",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:33 UTC 2014",
           "module": "Hack.Handler.SimpleServer",
           "name": "run",
           "package": "hack-handler-simpleserver",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler SimpleServer",
+          "indexed": "2014-03-11T18:25:33",
           "module": "Hack.Handler.SimpleServer",
           "name": "run",
           "normalized": "Port-\u003eApplication-\u003eIO()",

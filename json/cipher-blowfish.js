@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cipher-blowfish"
+        "phrase": "cipher-blowfish",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:44 UTC 2014",
           "module": "Crypto.Cipher.Blowfish",
           "name": "Blowfish",
           "package": "cipher-blowfish",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Blowfish",
+          "indexed": "2014-03-11T17:32:44",
           "module": "Crypto.Cipher.Blowfish",
           "name": "Blowfish",
           "package": "cipher-blowfish",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable keyed blowfish state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:44 UTC 2014",
           "module": "Crypto.Cipher.Blowfish",
           "name": "Blowfish",
           "package": "cipher-blowfish",
@@ -49,6 +52,7 @@
         "index": {
           "description": "variable keyed blowfish state",
           "hierarchy": "Crypto Cipher Blowfish",
+          "indexed": "2014-03-11T17:32:44",
           "module": "Crypto.Cipher.Blowfish",
           "name": "Blowfish",
           "package": "cipher-blowfish",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e128 bit keyed blowfish state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:44 UTC 2014",
           "module": "Crypto.Cipher.Blowfish",
           "name": "Blowfish128",
           "package": "cipher-blowfish",
@@ -72,6 +77,7 @@
         "index": {
           "description": "bit keyed blowfish state",
           "hierarchy": "Crypto Cipher Blowfish",
+          "indexed": "2014-03-11T17:32:44",
           "module": "Crypto.Cipher.Blowfish",
           "name": "Blowfish128",
           "package": "cipher-blowfish",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e256 bit keyed blowfish state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:44 UTC 2014",
           "module": "Crypto.Cipher.Blowfish",
           "name": "Blowfish256",
           "package": "cipher-blowfish",
@@ -95,6 +102,7 @@
         "index": {
           "description": "bit keyed blowfish state",
           "hierarchy": "Crypto Cipher Blowfish",
+          "indexed": "2014-03-11T17:32:44",
           "module": "Crypto.Cipher.Blowfish",
           "name": "Blowfish256",
           "package": "cipher-blowfish",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e448 bit keyed blowfish state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:44 UTC 2014",
           "module": "Crypto.Cipher.Blowfish",
           "name": "Blowfish448",
           "package": "cipher-blowfish",
@@ -118,6 +127,7 @@
         "index": {
           "description": "bit keyed blowfish state",
           "hierarchy": "Crypto Cipher Blowfish",
+          "indexed": "2014-03-11T17:32:44",
           "module": "Crypto.Cipher.Blowfish",
           "name": "Blowfish448",
           "package": "cipher-blowfish",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64 bit keyed blowfish state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:44 UTC 2014",
           "module": "Crypto.Cipher.Blowfish",
           "name": "Blowfish64",
           "package": "cipher-blowfish",
@@ -141,6 +152,7 @@
         "index": {
           "description": "bit keyed blowfish state",
           "hierarchy": "Crypto Cipher Blowfish",
+          "indexed": "2014-03-11T17:32:44",
           "module": "Crypto.Cipher.Blowfish",
           "name": "Blowfish64",
           "package": "cipher-blowfish",

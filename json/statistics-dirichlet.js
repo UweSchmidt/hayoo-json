@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "statistics-dirichlet"
+        "phrase": "statistics-dirichlet",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "Density",
           "package": "statistics-dirichlet",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Density",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "Density",
           "package": "statistics-dirichlet",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Dirichlet density.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "DirichletDensity",
           "package": "statistics-dirichlet",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Dirichlet density",
           "hierarchy": "Math Statistics Dirichlet Density",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "DirichletDensity",
           "package": "statistics-dirichlet",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "DD",
           "package": "statistics-dirichlet",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Density",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "DD",
           "package": "statistics-dirichlet",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCost function for deriving a Dirichlet density (equation\n 18).  This function is minimized by \u003ccode\u003e\u003ca\u003ederive\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "cost",
           "package": "statistics-dirichlet",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Cost function for deriving Dirichlet density equation This function is minimized by derive",
           "hierarchy": "Math Statistics Dirichlet Density",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "cost",
           "normalized": "TrainingVectors-\u003eDirichletDensity-\u003eDouble",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive a Dirichlet density using a maximum likelihood method\n as described by Karplus et al (equation 26).  All training\n vectors should have the same length, however this is not\n verified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "derive",
           "package": "statistics-dirichlet",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Derive Dirichlet density using maximum likelihood method as described by Karplus et al equation All training vectors should have the same length however this is not verified",
           "hierarchy": "Math Statistics Dirichlet Density",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "derive",
           "normalized": "DirichletDensity-\u003ePredicate-\u003eStepSize-\u003eTrainingVectors-\u003eResult DirichletDensity",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eempty n x\u003c/code\u003e is an \"empty\" Dirichlet density with size\n \u003ccode\u003en\u003c/code\u003e and all alphas set to \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "empty",
           "package": "statistics-dirichlet",
@@ -145,6 +156,7 @@
         "index": {
           "description": "empty is an empty Dirichlet density with size and all alphas set to",
           "hierarchy": "Math Statistics Dirichlet Density",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "empty",
           "normalized": "Int-\u003eDouble-\u003eDirichletDensity",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efromList xs\u003c/code\u003e constructs a Dirichlet density from a list of\n alpha values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "fromList",
           "package": "statistics-dirichlet",
@@ -170,6 +183,7 @@
         "index": {
           "description": "fromList xs constructs Dirichlet density from list of alpha values",
           "hierarchy": "Math Statistics Dirichlet Density",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "fromList",
           "normalized": "[Double]-\u003eDirichletDensity",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etoList d\u003c/code\u003e deconstructs a Dirichlet density to a list of\n alpha values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "toList",
           "package": "statistics-dirichlet",
@@ -196,6 +211,7 @@
         "index": {
           "description": "toList deconstructs Dirichlet density to list of alpha values",
           "hierarchy": "Math Statistics Dirichlet Density",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "toList",
           "normalized": "DirichletDensity-\u003e[Double]",
@@ -211,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "unDD",
           "package": "statistics-dirichlet",
@@ -220,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Density",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Density",
           "name": "unDD",
           "package": "statistics-dirichlet",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplement matrices using plain \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003es with data stored in\n row-major order (i.e. the first elements correspond to the\n first row).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "Matrix",
           "package": "statistics-dirichlet",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Implement matrices using plain Vector with data stored in row-major order i.e the first elements correspond to the first row",
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "Matrix",
           "package": "statistics-dirichlet",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "Matrix",
           "package": "statistics-dirichlet",
@@ -266,6 +287,7 @@
         "index": {
           "description": "matrix",
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "Matrix",
           "package": "statistics-dirichlet",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement at position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "(!)",
           "package": "statistics-dirichlet",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Element at position",
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "(!) !",
           "normalized": "Matrix-\u003e(Int,Int)-\u003eDouble",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e \u003ccode\u003em !!! i\u003c/code\u003e is the \u003ccode\u003ei\u003c/code\u003e-th row of the matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "(!!!)",
           "package": "statistics-dirichlet",
@@ -315,6 +340,7 @@
         "index": {
           "description": "is the th row of the matrix",
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "(!!!) !!!",
           "normalized": "Matrix-\u003eInt-\u003eVector Double",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "M",
           "package": "statistics-dirichlet",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "M",
           "package": "statistics-dirichlet",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(rows)\u003c/em\u003e \u003ccode\u003em \u003ccode\u003e\u003ca\u003ecol\u003c/a\u003e\u003c/code\u003e i\u003c/code\u003e is the \u003ccode\u003ei\u003c/code\u003e-th column of the matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "col",
           "package": "statistics-dirichlet",
@@ -361,6 +390,7 @@
         "index": {
           "description": "rows col is the th column of the matrix",
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "col",
           "normalized": "Matrix-\u003eInt-\u003eVector Double",
@@ -376,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(rows*cols)\u003c/em\u003e Columns of the matrix.  Each element takes\n \u003cem\u003eO(rows)\u003c/em\u003e time and storage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "cols",
           "package": "statistics-dirichlet",
@@ -386,6 +417,7 @@
         "index": {
           "description": "rows cols Columns of the matrix Each element takes rows time and storage",
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "cols",
           "normalized": "Matrix-\u003eVector(Vector Double)",
@@ -401,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a matrix from a vector of vectors.  It *is not*\n verified that the vectors have the right length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "fromVector",
           "package": "statistics-dirichlet",
@@ -411,6 +444,7 @@
         "index": {
           "description": "Creates matrix from vector of vectors It is not verified that the vectors have the right length",
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "fromVector",
           "normalized": "a(b Double)-\u003eMatrix",
@@ -427,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a matrix from a vector of vectors.  The vectors are\n transposed, so \u003ccode\u003efromVectorT\u003c/code\u003e is the same as \u003ccode\u003etranspose\n . fromVector\u003c/code\u003e. It *is* verified that the vectors have the\n right length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "fromVectorT",
           "package": "statistics-dirichlet",
@@ -437,6 +472,7 @@
         "index": {
           "description": "Creates matrix from vector of vectors The vectors are transposed so fromVectorT is the same as transpose fromVector It is verified that the vectors have the right length",
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "fromVectorT",
           "normalized": "a(b Double)-\u003eMatrix",
@@ -452,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "imap",
           "package": "statistics-dirichlet",
@@ -461,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "imap",
           "normalized": "((Int,Int)-\u003eDouble-\u003eDouble)-\u003eMatrix-\u003eMatrix",
@@ -475,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "irowmap",
           "package": "statistics-dirichlet",
@@ -484,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "irowmap",
           "normalized": "(Int-\u003eVector Double-\u003eDouble)-\u003eMatrix-\u003eVector Double",
@@ -498,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "izipWith",
           "package": "statistics-dirichlet",
@@ -507,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "izipWith",
           "normalized": "((Int,Int)-\u003eDouble-\u003eDouble-\u003eDouble)-\u003eMatrix-\u003eMatrix-\u003eMatrix",
@@ -522,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "mCols",
           "package": "statistics-dirichlet",
@@ -531,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "mCols",
           "package": "statistics-dirichlet",
@@ -544,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "mData",
           "package": "statistics-dirichlet",
@@ -553,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "mData",
           "package": "statistics-dirichlet",
@@ -566,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "mRows",
           "package": "statistics-dirichlet",
@@ -575,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "mRows",
           "package": "statistics-dirichlet",
@@ -588,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "map",
           "package": "statistics-dirichlet",
@@ -597,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "map",
           "normalized": "(Double-\u003eDouble)-\u003eMatrix-\u003eMatrix",
@@ -612,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA matrix where all elements are of the same value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "replicate",
           "package": "statistics-dirichlet",
@@ -622,6 +673,7 @@
         "index": {
           "description": "matrix where all elements are of the same value",
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "replicate",
           "normalized": "(Int,Int)-\u003eDouble-\u003eMatrix",
@@ -637,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA matrix where all rows are of the same value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "replicateRows",
           "package": "statistics-dirichlet",
@@ -647,6 +700,7 @@
         "index": {
           "description": "matrix where all rows are of the same value",
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "replicateRows",
           "normalized": "Int-\u003eVector Double-\u003eMatrix",
@@ -662,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "rowmap",
           "package": "statistics-dirichlet",
@@ -671,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "rowmap",
           "normalized": "(Vector Double-\u003eDouble)-\u003eMatrix-\u003eVector Double",
@@ -686,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(rows)\u003c/em\u003e Rows of the matrix.  Each element takes \u003cem\u003eO(1)\u003c/em\u003e time and\n storage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "rows",
           "package": "statistics-dirichlet",
@@ -696,6 +753,7 @@
         "index": {
           "description": "rows Rows of the matrix Each element takes time and storage",
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "rows",
           "normalized": "Matrix-\u003eVector(Vector Double)",
@@ -711,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erzipWith f m n\u003c/code\u003e is a matrix with the same number of rows as\n \u003ccode\u003em\u003c/code\u003e.  The \u003ccode\u003ei\u003c/code\u003e-th row is obtained by applying \u003ccode\u003ef\u003c/code\u003e to the \u003ccode\u003ei\u003c/code\u003e-th\n rows of \u003ccode\u003em\u003c/code\u003e and \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "rzipWith",
           "package": "statistics-dirichlet",
@@ -721,6 +780,7 @@
         "index": {
           "description": "rzipWith is matrix with the same number of rows as The th row is obtained by applying to the th rows of and",
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "rzipWith",
           "normalized": "(Int-\u003eVector Double-\u003eVector Double-\u003eVector Double)-\u003eMatrix-\u003eMatrix-\u003eMatrix",
@@ -737,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "size",
           "package": "statistics-dirichlet",
@@ -747,6 +808,7 @@
         "index": {
           "description": "Size of the matrix",
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "size",
           "normalized": "Matrix-\u003e(Int,Int)",
@@ -761,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "transpose",
           "package": "statistics-dirichlet",
@@ -770,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "transpose",
           "normalized": "Matrix-\u003eMatrix",
@@ -784,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "umap",
           "package": "statistics-dirichlet",
@@ -793,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "umap",
           "normalized": "(Vector Double-\u003eVector Double)-\u003eMatrix-\u003eMatrix",
@@ -807,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "uzipWith",
           "package": "statistics-dirichlet",
@@ -816,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "uzipWith",
           "normalized": "(Vector Double-\u003eVector Double-\u003eVector Double)-\u003eMatrix-\u003eMatrix-\u003eMatrix",
@@ -831,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "zipWith",
           "package": "statistics-dirichlet",
@@ -840,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Matrix",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Matrix",
           "name": "zipWith",
           "normalized": "(Double-\u003eDouble-\u003eDouble)-\u003eMatrix-\u003eMatrix-\u003eMatrix",
@@ -855,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "Mixture",
           "package": "statistics-dirichlet",
@@ -863,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Mixture",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "Mixture",
           "package": "statistics-dirichlet",
@@ -877,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list representation of a component of a Dirichlet mixture.\n Used by \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etoList\u003c/a\u003e\u003c/code\u003e only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "Component",
           "package": "statistics-dirichlet",
@@ -886,6 +959,7 @@
         "index": {
           "description": "list representation of component of Dirichlet mixture Used by fromList and toList only",
           "hierarchy": "Math Statistics Dirichlet Mixture",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "Component",
           "package": "statistics-dirichlet",
@@ -900,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Dirichlet mixture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "DirichletMixture",
           "package": "statistics-dirichlet",
@@ -909,6 +984,7 @@
         "index": {
           "description": "Dirichlet mixture",
           "hierarchy": "Math Statistics Dirichlet Mixture",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "DirichletMixture",
           "package": "statistics-dirichlet",
@@ -923,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePre-processed training vectors (see \u003ccode\u003e\u003ca\u003eprepareTraining\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "TrainingData",
           "package": "statistics-dirichlet",
@@ -932,6 +1009,7 @@
         "index": {
           "description": "Pre-processed training vectors see prepareTraining",
           "hierarchy": "Math Statistics Dirichlet Mixture",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "TrainingData",
           "package": "statistics-dirichlet",
@@ -946,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edm !!! i\u003c/code\u003e is the \u003ccode\u003ei\u003c/code\u003e-th density.  No bounding checks are\n made.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "(!!!)",
           "package": "statistics-dirichlet",
@@ -956,6 +1035,7 @@
         "index": {
           "description": "dm is the th density No bounding checks are made",
           "hierarchy": "Math Statistics Dirichlet Mixture",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "(!!!) !!!",
           "normalized": "DirichletMixture-\u003eInt-\u003eVector Double",
@@ -1020,6 +1100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerivative of the cost function with respect \u003ccode\u003ew_{i,j}\u003c/code\u003e,\n defined by Equation (22).  The result is given in the same\n size and order as the \u003ccode\u003edmDensitites\u003c/code\u003e vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "del_cost_w",
           "package": "statistics-dirichlet",
@@ -1030,6 +1111,7 @@
         "index": {
           "description": "Derivative of the cost function with respect defined by Equation The result is given in the same size and order as the dmDensitites vector",
           "hierarchy": "Math Statistics Dirichlet Mixture",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "del_cost_w",
           "normalized": "TrainingData-\u003eDirichletMixture-\u003eMatrix",
@@ -1071,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of components in a dirichlet mixture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "dmComponents",
           "package": "statistics-dirichlet",
@@ -1081,6 +1164,7 @@
         "index": {
           "description": "Number of components in dirichlet mixture",
           "hierarchy": "Math Statistics Dirichlet Mixture",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "dmComponents",
           "normalized": "DirichletMixture-\u003eInt",
@@ -1122,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparated list of densities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "dmDensitiesL",
           "package": "statistics-dirichlet",
@@ -1132,6 +1217,7 @@
         "index": {
           "description": "Separated list of densities",
           "hierarchy": "Math Statistics Dirichlet Mixture",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "dmDensitiesL",
           "normalized": "DirichletMixture-\u003e[DirichletDensity]",
@@ -1148,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of parameters each component has.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "dmParameters",
           "package": "statistics-dirichlet",
@@ -1158,6 +1245,7 @@
         "index": {
           "description": "Number of parameters each component has",
           "hierarchy": "Math Statistics Dirichlet Mixture",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "dmParameters",
           "normalized": "DirichletMixture-\u003eInt",
@@ -1225,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a Dirichlet mixture of one component from a\n Dirichlet density.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "fromDD",
           "package": "statistics-dirichlet",
@@ -1235,6 +1324,7 @@
         "index": {
           "description": "Constructs Dirichlet mixture of one component from Dirichlet density",
           "hierarchy": "Math Statistics Dirichlet Mixture",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Mixture",
           "name": "fromDD",
           "normalized": "DirichletDensity-\u003eDirichletMixture",
@@ -1331,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "Options",
           "package": "statistics-dirichlet",
@@ -1339,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Options",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "Options",
           "package": "statistics-dirichlet",
@@ -1353,6 +1445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum difference between costs to consider that the\n   process converged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "Delta",
           "package": "statistics-dirichlet",
@@ -1362,6 +1455,7 @@
         "index": {
           "description": "Maximum difference between costs to consider that the process converged",
           "hierarchy": "Math Statistics Dirichlet Options",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "Delta",
           "package": "statistics-dirichlet",
@@ -1376,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate specifying when the training should be over.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "Predicate",
           "package": "statistics-dirichlet",
@@ -1385,6 +1480,7 @@
         "index": {
           "description": "Predicate specifying when the training should be over",
           "hierarchy": "Math Statistics Dirichlet Options",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "Predicate",
           "package": "statistics-dirichlet",
@@ -1399,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReason why the derivation was over.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "Reason",
           "package": "statistics-dirichlet",
@@ -1408,6 +1505,7 @@
         "index": {
           "description": "Reason why the derivation was over",
           "hierarchy": "Math Statistics Dirichlet Options",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "Reason",
           "package": "statistics-dirichlet",
@@ -1422,6 +1520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of a deriviation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "Result",
           "package": "statistics-dirichlet",
@@ -1431,6 +1530,7 @@
         "index": {
           "description": "Result of deriviation",
           "hierarchy": "Math Statistics Dirichlet Options",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "Result",
           "package": "statistics-dirichlet",
@@ -1445,6 +1545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsually denoted by lowercase greek letter eta (&#951;), size of\n   each step in the gradient. Should be greater than zero and\n   much less than one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "StepSize",
           "package": "statistics-dirichlet",
@@ -1454,6 +1555,7 @@
         "index": {
           "description": "Usually denoted by lowercase greek letter eta size of each step in the gradient Should be greater than zero and much less than one",
           "hierarchy": "Math Statistics Dirichlet Options",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "StepSize",
           "package": "statistics-dirichlet",
@@ -1468,6 +1570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vector used for deriving the parameters of a Dirichlet\n   density or mixture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "TrainingVector",
           "package": "statistics-dirichlet",
@@ -1477,6 +1580,7 @@
         "index": {
           "description": "vector used for deriving the parameters of Dirichlet density or mixture",
           "hierarchy": "Math Statistics Dirichlet Options",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "TrainingVector",
           "package": "statistics-dirichlet",
@@ -1491,6 +1595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vector of training vectors.  This is the only vector that\n is not unboxed (for obvious reasons).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "TrainingVectors",
           "package": "statistics-dirichlet",
@@ -1500,6 +1605,7 @@
         "index": {
           "description": "vector of training vectors This is the only vector that is not unboxed for obvious reasons",
           "hierarchy": "Math Statistics Dirichlet Options",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Options",
           "name": "TrainingVectors",
           "package": "statistics-dirichlet",
@@ -1904,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Util",
           "name": "Util",
           "package": "statistics-dirichlet",
@@ -1912,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics Dirichlet Util",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Util",
           "name": "Util",
           "package": "statistics-dirichlet",
@@ -1926,6 +2034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfinity, currently defined as \u003ccode\u003e1e100\u003c/code\u003e.  Used mainly as the\n initial cost.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Util",
           "name": "infinity",
           "package": "statistics-dirichlet",
@@ -1936,6 +2045,7 @@
         "index": {
           "description": "Infinity currently defined as e100 Used mainly as the initial cost",
           "hierarchy": "Math Statistics Dirichlet Util",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Util",
           "name": "infinity",
           "package": "statistics-dirichlet",
@@ -1949,6 +2059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogarithm of the beta function applied to a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet.Util",
           "name": "logBeta",
           "package": "statistics-dirichlet",
@@ -1959,6 +2070,7 @@
         "index": {
           "description": "Logarithm of the beta function applied to vector",
           "hierarchy": "Math Statistics Dirichlet Util",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet.Util",
           "name": "logBeta",
           "normalized": "Vector Double-\u003eDouble",
@@ -1975,6 +2087,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module re-exports functions from\n \u003ca\u003eMath.Statistics.Dirichlet.Mixture\u003c/a\u003e and\n \u003ca\u003eMath.Statistics.Dirichlet.Options\u003c/a\u003e in a more digestable way.\n Since this library is under-documented, I recommend reading\n the documentation of the symbols re-exported here.\n\u003c/p\u003e\u003cp\u003eThis module does not use \u003ca\u003eMath.Statistics.Dirichlet.Density\u003c/a\u003e\n in any way.  If you don't need mixtures then you should\n probably use that module directly since it's faster and more\n reliable (less magic happens there).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet",
           "name": "Dirichlet",
           "package": "statistics-dirichlet",
@@ -1984,6 +2097,7 @@
         "index": {
           "description": "This module re-exports functions from Math.Statistics.Dirichlet.Mixture and Math.Statistics.Dirichlet.Options in more digestable way Since this library is under-documented recommend reading the documentation of the symbols re-exported here This module does not use Math.Statistics.Dirichlet.Density in any way If you don need mixtures then you should probably use that module directly since it faster and more reliable less magic happens there",
           "hierarchy": "Math Statistics Dirichlet",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet",
           "name": "Dirichlet",
           "package": "statistics-dirichlet",
@@ -1998,6 +2112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list representation of a component of a Dirichlet mixture.\n Used by \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etoList\u003c/a\u003e\u003c/code\u003e only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet",
           "name": "Component",
           "package": "statistics-dirichlet",
@@ -2007,6 +2122,7 @@
         "index": {
           "description": "list representation of component of Dirichlet mixture Used by fromList and toList only",
           "hierarchy": "Math Statistics Dirichlet",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet",
           "name": "Component",
           "package": "statistics-dirichlet",
@@ -2021,6 +2137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum difference between costs to consider that the\n   process converged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet",
           "name": "Delta",
           "package": "statistics-dirichlet",
@@ -2030,6 +2147,7 @@
         "index": {
           "description": "Maximum difference between costs to consider that the process converged",
           "hierarchy": "Math Statistics Dirichlet",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet",
           "name": "Delta",
           "package": "statistics-dirichlet",
@@ -2044,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Dirichlet mixture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet",
           "name": "DirichletMixture",
           "package": "statistics-dirichlet",
@@ -2053,6 +2172,7 @@
         "index": {
           "description": "Dirichlet mixture",
           "hierarchy": "Math Statistics Dirichlet",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet",
           "name": "DirichletMixture",
           "package": "statistics-dirichlet",
@@ -2067,6 +2187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate specifying when the training should be over.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet",
           "name": "Predicate",
           "package": "statistics-dirichlet",
@@ -2076,6 +2197,7 @@
         "index": {
           "description": "Predicate specifying when the training should be over",
           "hierarchy": "Math Statistics Dirichlet",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet",
           "name": "Predicate",
           "package": "statistics-dirichlet",
@@ -2090,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReason why the derivation was over.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet",
           "name": "Reason",
           "package": "statistics-dirichlet",
@@ -2099,6 +2222,7 @@
         "index": {
           "description": "Reason why the derivation was over",
           "hierarchy": "Math Statistics Dirichlet",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet",
           "name": "Reason",
           "package": "statistics-dirichlet",
@@ -2113,6 +2237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of a deriviation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet",
           "name": "Result",
           "package": "statistics-dirichlet",
@@ -2122,6 +2247,7 @@
         "index": {
           "description": "Result of deriviation",
           "hierarchy": "Math Statistics Dirichlet",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet",
           "name": "Result",
           "package": "statistics-dirichlet",
@@ -2136,6 +2262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsually denoted by lowercase greek letter eta (&#951;), size of\n   each step in the gradient. Should be greater than zero and\n   much less than one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet",
           "name": "StepSize",
           "package": "statistics-dirichlet",
@@ -2145,6 +2272,7 @@
         "index": {
           "description": "Usually denoted by lowercase greek letter eta size of each step in the gradient Should be greater than zero and much less than one",
           "hierarchy": "Math Statistics Dirichlet",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet",
           "name": "StepSize",
           "package": "statistics-dirichlet",
@@ -2159,6 +2287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePre-processed training vectors (see \u003ccode\u003e\u003ca\u003eprepareTraining\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet",
           "name": "TrainingData",
           "package": "statistics-dirichlet",
@@ -2168,6 +2297,7 @@
         "index": {
           "description": "Pre-processed training vectors see prepareTraining",
           "hierarchy": "Math Statistics Dirichlet",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet",
           "name": "TrainingData",
           "package": "statistics-dirichlet",
@@ -2182,6 +2312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vector used for deriving the parameters of a Dirichlet\n   density or mixture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet",
           "name": "TrainingVector",
           "package": "statistics-dirichlet",
@@ -2191,6 +2322,7 @@
         "index": {
           "description": "vector used for deriving the parameters of Dirichlet density or mixture",
           "hierarchy": "Math Statistics Dirichlet",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet",
           "name": "TrainingVector",
           "package": "statistics-dirichlet",
@@ -2205,6 +2337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vector of training vectors.  This is the only vector that\n is not unboxed (for obvious reasons).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:20 UTC 2014",
           "module": "Math.Statistics.Dirichlet",
           "name": "TrainingVectors",
           "package": "statistics-dirichlet",
@@ -2214,6 +2347,7 @@
         "index": {
           "description": "vector of training vectors This is the only vector that is not unboxed for obvious reasons",
           "hierarchy": "Math Statistics Dirichlet",
+          "indexed": "2014-03-11T20:10:20",
           "module": "Math.Statistics.Dirichlet",
           "name": "TrainingVectors",
           "package": "statistics-dirichlet",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monadiccp"
+        "phrase": "monadiccp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "ComposableTransformers",
           "package": "monadiccp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "ComposableTransformers",
           "package": "monadiccp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "Bound",
           "package": "monadiccp",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "Bound",
           "package": "monadiccp",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CBranchBoundST",
           "package": "monadiccp",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CBranchBoundST",
           "package": "monadiccp",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CDepthBoundedST",
           "package": "monadiccp",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CDepthBoundedST",
           "package": "monadiccp",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CFirstSolutionST",
           "package": "monadiccp",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CFirstSolutionST",
           "package": "monadiccp",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CIdentityCST",
           "package": "monadiccp",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CIdentityCST",
           "package": "monadiccp",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CLimitedDiscrepancyST",
           "package": "monadiccp",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CLimitedDiscrepancyST",
           "package": "monadiccp",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CNodeBoundedST",
           "package": "monadiccp",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CNodeBoundedST",
           "package": "monadiccp",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CRandomST",
           "package": "monadiccp",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CRandomST",
           "package": "monadiccp",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CSolutionBoundST",
           "package": "monadiccp",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CSolutionBoundST",
           "package": "monadiccp",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CTransformer",
           "package": "monadiccp",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CTransformer",
           "package": "monadiccp",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "Composition",
           "package": "monadiccp",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "Composition",
           "package": "monadiccp",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "NewBound",
           "package": "monadiccp",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "NewBound",
           "package": "monadiccp",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "RestartST",
           "package": "monadiccp",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "RestartST",
           "package": "monadiccp",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "SealedCST",
           "package": "monadiccp",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "SealedCST",
           "package": "monadiccp",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": ":-",
           "package": "monadiccp",
@@ -342,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": ":-",
           "normalized": "a-\u003ea-\u003eComposition(CEvalState a,CEvalState a)(CTreeState a,CTreeState a)b c",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "Bound",
           "package": "monadiccp",
@@ -365,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "Bound",
           "normalized": "Bound(a b Tree c d-\u003eTree c d)",
@@ -380,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CBBST",
           "package": "monadiccp",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CBBST",
           "package": "monadiccp",
@@ -402,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CDBST",
           "package": "monadiccp",
@@ -411,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CDBST",
           "package": "monadiccp",
@@ -424,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CFSST",
           "package": "monadiccp",
@@ -433,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CFSST",
           "package": "monadiccp",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CIST",
           "package": "monadiccp",
@@ -455,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CIST",
           "package": "monadiccp",
@@ -468,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CLDST",
           "package": "monadiccp",
@@ -477,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CLDST",
           "package": "monadiccp",
@@ -490,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CNBST",
           "package": "monadiccp",
@@ -499,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CNBST",
           "package": "monadiccp",
@@ -512,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CRST",
           "package": "monadiccp",
@@ -521,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CRST",
           "package": "monadiccp",
@@ -534,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "CSBST",
           "package": "monadiccp",
@@ -543,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "CSBST",
           "package": "monadiccp",
@@ -556,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "RestartST",
           "package": "monadiccp",
@@ -565,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "RestartST",
           "normalized": "RestartST[SealedCST a b c d](Tree c d-\u003ec(Tree c d))",
@@ -580,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "Seal",
           "package": "monadiccp",
@@ -589,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "Seal",
           "normalized": "a-\u003eSealedCST(CEvalState a)(CTreeState a)(CForSolver a)(CForResult a)",
@@ -604,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "restart",
           "package": "monadiccp",
@@ -613,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "restart",
           "normalized": "a-\u003e[b]-\u003eTree c(CForResult b)-\u003e(Int,[CForResult b])",
@@ -627,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.ComposableTransformers",
           "name": "solve",
           "package": "monadiccp",
@@ -636,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Control CP ComposableTransformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.ComposableTransformers",
           "name": "solve",
           "normalized": "a-\u003eb-\u003eTree c(CForResult b)-\u003e(Int,[CForResult b])",
@@ -650,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Debug",
           "name": "Debug",
           "package": "monadiccp",
@@ -658,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Control CP Debug",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Debug",
           "name": "Debug",
           "package": "monadiccp",
@@ -671,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Debug",
           "name": "debug",
           "package": "monadiccp",
@@ -680,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Control CP Debug",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Debug",
           "name": "debug",
           "normalized": "String-\u003ea-\u003ea",
@@ -694,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Debug",
           "name": "imdebug",
           "package": "monadiccp",
@@ -703,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Control CP Debug",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Debug",
           "name": "imdebug",
           "normalized": "String-\u003ea-\u003ea",
@@ -717,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "EnumTerm",
           "package": "monadiccp",
@@ -725,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "EnumTerm",
           "package": "monadiccp",
@@ -738,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "EnumTerm",
           "package": "monadiccp",
@@ -746,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "EnumTerm",
           "package": "monadiccp",
@@ -759,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "assignment",
           "package": "monadiccp",
@@ -768,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "assignment",
           "normalized": "a-\u003eb(TermBaseType c a)",
@@ -782,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "assignments",
           "package": "monadiccp",
@@ -791,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "assignments",
           "normalized": "[a]-\u003eb[TermBaseType c a]",
@@ -805,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "defaultOrder",
           "package": "monadiccp",
@@ -814,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "defaultOrder",
           "normalized": "[a]-\u003eb[a]",
@@ -829,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "endsOut",
           "package": "monadiccp",
@@ -838,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "endsOut",
           "normalized": "[a]-\u003eb[a]",
@@ -853,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "enumerate",
           "package": "monadiccp",
@@ -862,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "enumerate",
           "normalized": "[a]-\u003eb()",
@@ -876,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "enumerator",
           "package": "monadiccp",
@@ -885,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "enumerator",
           "normalized": "Maybe([a]-\u003eb())",
@@ -899,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "firstFail",
           "package": "monadiccp",
@@ -908,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "firstFail",
           "normalized": "[a]-\u003eb[a]",
@@ -923,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "getDomain",
           "package": "monadiccp",
@@ -932,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "getDomain",
           "normalized": "a-\u003eb[TermBaseType b a]",
@@ -947,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "getDomainSize",
           "package": "monadiccp",
@@ -956,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "getDomainSize",
           "normalized": "a-\u003eb Int",
@@ -971,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "getValue",
           "package": "monadiccp",
@@ -980,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "getValue",
           "normalized": "a-\u003eb(Maybe(TermBaseType b a))",
@@ -995,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "inOrder",
           "package": "monadiccp",
@@ -1004,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "inOrder",
           "normalized": "[a]-\u003eb[a]",
@@ -1019,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "labelling",
           "package": "monadiccp",
@@ -1028,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "labelling",
           "normalized": "([a]-\u003eb[a])-\u003e[a]-\u003ec()",
@@ -1042,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "levelList",
           "package": "monadiccp",
@@ -1051,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "levelList",
           "normalized": "[a()]-\u003ea()",
@@ -1066,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "middleOut",
           "package": "monadiccp",
@@ -1075,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "middleOut",
           "normalized": "[a]-\u003eb[a]",
@@ -1090,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "setValue",
           "package": "monadiccp",
@@ -1099,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "setValue",
           "normalized": "a-\u003eTermBaseType b a-\u003eb[Constraint b]",
@@ -1114,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "splitDomain",
           "package": "monadiccp",
@@ -1123,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "splitDomain",
           "normalized": "a-\u003eb([[Constraint b]],Bool)",
@@ -1138,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.EnumTerm",
           "name": "splitDomains",
           "package": "monadiccp",
@@ -1147,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Control CP EnumTerm",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.EnumTerm",
           "name": "splitDomains",
           "normalized": "[a]-\u003eb([[Constraint b]],[a])",
@@ -1162,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Decompose",
           "name": "Decompose",
           "package": "monadiccp",
@@ -1170,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Decompose",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Decompose",
           "name": "Decompose",
           "package": "monadiccp",
@@ -1183,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Decompose",
           "name": "DecompData",
           "package": "monadiccp",
@@ -1191,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Decompose",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Decompose",
           "name": "DecompData",
           "package": "monadiccp",
@@ -1205,6 +1311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebase instance of DecompData\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Decompose",
           "name": "baseDecompData",
           "package": "monadiccp",
@@ -1215,6 +1322,7 @@
         "index": {
           "description": "base instance of DecompData",
           "hierarchy": "Control CP FD Decompose",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Decompose",
           "name": "baseDecompData",
           "package": "monadiccp",
@@ -1228,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Decompose",
           "name": "decompBoolLookup",
           "package": "monadiccp",
@@ -1237,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Decompose",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Decompose",
           "name": "decompBoolLookup",
           "normalized": "DecompData-\u003eModelBool-\u003eMaybe EGVarId",
@@ -1252,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Decompose",
           "name": "decompColLookup",
           "package": "monadiccp",
@@ -1261,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Decompose",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Decompose",
           "name": "decompColLookup",
           "normalized": "DecompData-\u003eModelCol-\u003eMaybe EGVarId",
@@ -1276,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Decompose",
           "name": "decompIntLookup",
           "package": "monadiccp",
@@ -1285,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Decompose",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Decompose",
           "name": "decompIntLookup",
           "normalized": "DecompData-\u003eModelInt-\u003eMaybe EGVarId",
@@ -1301,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeasier version of decomposeEx that does not require or return a state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Decompose",
           "name": "decompose",
           "package": "monadiccp",
@@ -1311,6 +1426,7 @@
         "index": {
           "description": "easier version of decomposeEx that does not require or return state",
           "hierarchy": "Control CP FD Decompose",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Decompose",
           "name": "decompose",
           "normalized": "Model-\u003eEGModel",
@@ -1326,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransform an expression into a graph, taking and returning an updated state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Decompose",
           "name": "decomposeEx",
           "package": "monadiccp",
@@ -1336,6 +1453,7 @@
         "index": {
           "description": "transform an expression into graph taking and returning an updated state",
           "hierarchy": "Control CP FD Decompose",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Decompose",
           "name": "decomposeEx",
           "normalized": "DecompData-\u003eInt-\u003eModel-\u003e([ModelBool],[ModelInt],[ModelCol])-\u003eMaybe EGModel-\u003e(DecompData,EGModel,Int)",
@@ -1351,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "Example",
           "package": "monadiccp",
@@ -1359,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "Example",
           "package": "monadiccp",
@@ -1372,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "ExampleMinModel",
           "package": "monadiccp",
@@ -1380,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "ExampleMinModel",
           "package": "monadiccp",
@@ -1393,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "ExampleModel",
           "package": "monadiccp",
@@ -1401,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "ExampleModel",
           "package": "monadiccp",
@@ -1414,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "example_main",
           "package": "monadiccp",
@@ -1423,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "example_main",
           "normalized": "ExampleModel[String]-\u003eExampleModel ModelInt-\u003eExampleModel ModelCol-\u003eBool-\u003eIO()",
@@ -1437,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "example_min_main",
           "package": "monadiccp",
@@ -1446,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "example_min_main",
           "normalized": "ExampleMinModel[String]-\u003eExampleMinModel ModelInt-\u003eExampleMinModel ModelCol-\u003eIO()",
@@ -1460,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "example_min_main_coll_expr",
           "package": "monadiccp",
@@ -1469,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "example_min_main_coll_expr",
           "normalized": "ExampleMinModel ModelCol-\u003eIO()",
@@ -1483,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "example_min_main_single",
           "package": "monadiccp",
@@ -1492,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "example_min_main_single",
           "normalized": "ExampleMinModel a-\u003eIO()",
@@ -1506,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "example_min_main_single_expr",
           "package": "monadiccp",
@@ -1515,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "example_min_main_single_expr",
           "normalized": "ExampleMinModel ModelInt-\u003eIO()",
@@ -1529,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "example_min_main_void",
           "package": "monadiccp",
@@ -1538,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "example_min_main_void",
           "normalized": "ExampleMinModel()-\u003eIO()",
@@ -1552,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "example_sat_main",
           "package": "monadiccp",
@@ -1561,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "example_sat_main",
           "normalized": "ExampleModel[String]-\u003eExampleModel ModelInt-\u003eExampleModel ModelCol-\u003eIO()",
@@ -1575,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "example_sat_main_coll_expr",
           "package": "monadiccp",
@@ -1584,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "example_sat_main_coll_expr",
           "normalized": "ExampleModel ModelCol-\u003eIO()",
@@ -1598,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "example_sat_main_single",
           "package": "monadiccp",
@@ -1607,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "example_sat_main_single",
           "normalized": "ExampleModel a-\u003eIO()",
@@ -1621,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "example_sat_main_single_expr",
           "package": "monadiccp",
@@ -1630,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "example_sat_main_single_expr",
           "normalized": "ExampleModel ModelInt-\u003eIO()",
@@ -1644,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "example_sat_main_void",
           "package": "monadiccp",
@@ -1653,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "example_sat_main_void",
           "normalized": "ExampleModel()-\u003eIO()",
@@ -1667,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "labeller",
           "package": "monadiccp",
@@ -1676,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "labeller",
           "normalized": "ModelCol-\u003ea[TermBaseType b(FDIntTerm b)]",
@@ -1690,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "postMinimize",
           "package": "monadiccp",
@@ -1699,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "postMinimize",
           "normalized": "ExampleMinModel a-\u003eExampleModel a",
@@ -1714,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Example",
           "name": "runSolve",
           "package": "monadiccp",
@@ -1723,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Example",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Example",
           "name": "runSolve",
           "normalized": "Bool-\u003eTree(FDInstance a)b-\u003e(Int,[b])",
@@ -1738,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "FD",
           "package": "monadiccp",
@@ -1746,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "FD",
           "package": "monadiccp",
@@ -1760,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefinition of FDInstance, a Solver wrapper that adds power to post boolean expressions as constraints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "FDInstance",
           "package": "monadiccp",
@@ -1769,6 +1924,7 @@
         "index": {
           "description": "definition of FDInstance Solver wrapper that adds power to post boolean expressions as constraints",
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "FDInstance",
           "package": "monadiccp",
@@ -1783,6 +1939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA solver needs to be an instance of this FDSolver class in order to\n create an FDInstance around it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "FDSolver",
           "package": "monadiccp",
@@ -1792,6 +1949,7 @@
         "index": {
           "description": "solver needs to be an instance of this FDSolver class in order to create an FDInstance around it",
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "FDSolver",
           "package": "monadiccp",
@@ -1805,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "FDSpecInfo",
           "package": "monadiccp",
@@ -1813,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "FDSpecInfo",
           "package": "monadiccp",
@@ -1826,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "FDSpecInfoBool",
           "package": "monadiccp",
@@ -1834,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "FDSpecInfoBool",
           "package": "monadiccp",
@@ -1847,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "FDSpecInfoCol",
           "package": "monadiccp",
@@ -1855,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "FDSpecInfoCol",
           "package": "monadiccp",
@@ -1868,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "FDSpecInfoInt",
           "package": "monadiccp",
@@ -1876,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "FDSpecInfoInt",
           "package": "monadiccp",
@@ -1889,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "SpecFn",
           "package": "monadiccp",
@@ -1897,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "SpecFn",
           "package": "monadiccp",
@@ -1910,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "SpecFnRes",
           "package": "monadiccp",
@@ -1918,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "SpecFnRes",
           "package": "monadiccp",
@@ -1931,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "SpecResult",
           "package": "monadiccp",
@@ -1939,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "SpecResult",
           "package": "monadiccp",
@@ -1952,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "FDSpecInfoBool",
           "package": "monadiccp",
@@ -1961,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "FDSpecInfoBool",
           "package": "monadiccp",
@@ -1974,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "FDSpecInfoCol",
           "package": "monadiccp",
@@ -1983,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "FDSpecInfoCol",
           "package": "monadiccp",
@@ -1996,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "FDSpecInfoInt",
           "package": "monadiccp",
@@ -2005,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "FDSpecInfoInt",
           "package": "monadiccp",
@@ -2018,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "SpecResNone",
           "package": "monadiccp",
@@ -2027,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "SpecResNone",
           "package": "monadiccp",
@@ -2040,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "SpecResSpec",
           "package": "monadiccp",
@@ -2049,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "SpecResSpec",
           "package": "monadiccp",
@@ -2062,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "SpecResUnify",
           "package": "monadiccp",
@@ -2071,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "SpecResUnify",
           "package": "monadiccp",
@@ -2084,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "addFD",
           "package": "monadiccp",
@@ -2093,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "addFD",
           "normalized": "Constraint a-\u003eFDInstance a()",
@@ -2108,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "boundMinimize",
           "package": "monadiccp",
@@ -2117,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "boundMinimize",
           "package": "monadiccp",
@@ -2130,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdBoolSpec_const",
           "package": "monadiccp",
@@ -2139,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdBoolSpec_const",
           "normalized": "EGBoolPar-\u003e(FDBoolSpecType a,a(FDBoolSpec a))",
@@ -2154,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdBoolSpec_term",
           "package": "monadiccp",
@@ -2163,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdBoolSpec_term",
           "normalized": "FDBoolTerm a-\u003e(FDBoolSpecType a,a(FDBoolSpec a))",
@@ -2178,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdBoolVarSpec",
           "package": "monadiccp",
@@ -2187,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdBoolVarSpec",
           "normalized": "FDBoolSpec a-\u003ea(Maybe(FDBoolTerm a))",
@@ -2202,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdColInspect",
           "package": "monadiccp",
@@ -2211,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdColInspect",
           "normalized": "FDColSpec a-\u003ea[FDIntTerm a]",
@@ -2226,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdColSpec_const",
           "package": "monadiccp",
@@ -2235,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdColSpec_const",
           "normalized": "EGColPar-\u003e(FDColSpecType a,a(FDColSpec a))",
@@ -2250,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdColSpec_list",
           "package": "monadiccp",
@@ -2259,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdColSpec_list",
           "normalized": "[FDIntSpec a]-\u003e(FDColSpecType a,a(FDColSpec a))",
@@ -2274,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdColSpec_size",
           "package": "monadiccp",
@@ -2283,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdColSpec_size",
           "normalized": "EGPar-\u003e(FDColSpecType a,a(FDColSpec a))",
@@ -2298,6 +2500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdConstrainIntTerm",
           "package": "monadiccp",
@@ -2307,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdConstrainIntTerm",
           "normalized": "FDIntTerm a-\u003eInteger-\u003ea(Constraint a)",
@@ -2322,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdEqualBool",
           "package": "monadiccp",
@@ -2331,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdEqualBool",
           "normalized": "FDBoolSpec a-\u003eFDBoolSpec a-\u003eFDInstance a()",
@@ -2346,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdEqualCol",
           "package": "monadiccp",
@@ -2355,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdEqualCol",
           "normalized": "FDColSpec a-\u003eFDColSpec a-\u003eFDInstance a()",
@@ -2370,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdEqualInt",
           "package": "monadiccp",
@@ -2379,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdEqualInt",
           "normalized": "FDIntSpec a-\u003eFDIntSpec a-\u003eFDInstance a()",
@@ -2394,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdIntSpec_const",
           "package": "monadiccp",
@@ -2403,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdIntSpec_const",
           "normalized": "EGPar-\u003e(FDIntSpecType a,a(FDIntSpec a))",
@@ -2418,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdIntSpec_term",
           "package": "monadiccp",
@@ -2427,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdIntSpec_term",
           "normalized": "FDIntTerm a-\u003e(FDIntSpecType a,a(FDIntSpec a))",
@@ -2442,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdIntVarSpec",
           "package": "monadiccp",
@@ -2451,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdIntVarSpec",
           "normalized": "FDIntSpec a-\u003ea(Maybe(FDIntTerm a))",
@@ -2466,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdNewvar",
           "package": "monadiccp",
@@ -2475,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdNewvar",
           "package": "monadiccp",
@@ -2488,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdProcess",
           "package": "monadiccp",
@@ -2497,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdProcess",
           "normalized": "Mixin(EGConstraintSpec-\u003eFDSpecInfo a-\u003eFDInstance a())",
@@ -2512,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdSpecInfo_spec",
           "package": "monadiccp",
@@ -2521,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdSpecInfo_spec",
           "normalized": "([Either(FDSpecInfoBool a)(FDBoolSpecType a,FDBoolSpec a)],[Either(FDSpecInfoInt a)(FDIntSpecType a,FDIntSpec a)],[Either(FDSpecInfoCol a)(FDColSpecType a,FDColSpec a)])-\u003eFDSpecInfo a",
@@ -2536,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdSpecify",
           "package": "monadiccp",
@@ -2545,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdSpecify",
           "package": "monadiccp",
@@ -2558,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdSplitBoolDomain",
           "package": "monadiccp",
@@ -2567,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdSplitBoolDomain",
           "normalized": "FDBoolTerm a-\u003ea([Constraint a],Bool)",
@@ -2582,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdSplitIntDomain",
           "package": "monadiccp",
@@ -2591,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdSplitIntDomain",
           "normalized": "FDIntTerm a-\u003ea([Constraint a],Bool)",
@@ -2606,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdTypeReqBool",
           "package": "monadiccp",
@@ -2615,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdTypeReqBool",
           "normalized": "a(EGEdge-\u003e[(EGVarId,FDBoolSpecTypeSet a)])",
@@ -2630,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdTypeReqCol",
           "package": "monadiccp",
@@ -2639,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdTypeReqCol",
           "normalized": "a(EGEdge-\u003e[(EGVarId,FDColSpecTypeSet a)])",
@@ -2654,6 +2886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdTypeReqInt",
           "package": "monadiccp",
@@ -2663,6 +2896,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdTypeReqInt",
           "normalized": "a(EGEdge-\u003e[(EGVarId,FDIntSpecTypeSet a)])",
@@ -2678,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdTypeVarBool",
           "package": "monadiccp",
@@ -2687,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdTypeVarBool",
           "package": "monadiccp",
@@ -2700,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdTypeVarInt",
           "package": "monadiccp",
@@ -2709,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdTypeVarInt",
           "package": "monadiccp",
@@ -2722,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdspBoolSpec",
           "package": "monadiccp",
@@ -2731,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdspBoolSpec",
           "normalized": "Maybe(FDBoolSpecType a)-\u003eMaybe(FDBoolSpec a)",
@@ -2746,6 +2986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdspBoolTypes",
           "package": "monadiccp",
@@ -2755,6 +2996,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdspBoolTypes",
           "package": "monadiccp",
@@ -2768,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdspBoolVal",
           "package": "monadiccp",
@@ -2777,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdspBoolVal",
           "package": "monadiccp",
@@ -2790,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdspBoolVar",
           "package": "monadiccp",
@@ -2799,6 +3044,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdspBoolVar",
           "package": "monadiccp",
@@ -2812,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdspColSpec",
           "package": "monadiccp",
@@ -2821,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdspColSpec",
           "normalized": "Maybe(FDColSpecType a)-\u003eMaybe(FDColSpec a)",
@@ -2836,6 +3084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdspColTypes",
           "package": "monadiccp",
@@ -2845,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdspColTypes",
           "package": "monadiccp",
@@ -2858,6 +3108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdspColVal",
           "package": "monadiccp",
@@ -2867,6 +3118,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdspColVal",
           "package": "monadiccp",
@@ -2880,6 +3132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdspColVar",
           "package": "monadiccp",
@@ -2889,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdspColVar",
           "package": "monadiccp",
@@ -2902,6 +3156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdspIntSpec",
           "package": "monadiccp",
@@ -2911,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdspIntSpec",
           "normalized": "Maybe(FDIntSpecType a)-\u003eMaybe(FDIntSpec a)",
@@ -2926,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdspIntTypes",
           "package": "monadiccp",
@@ -2935,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdspIntTypes",
           "package": "monadiccp",
@@ -2948,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdspIntVal",
           "package": "monadiccp",
@@ -2957,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdspIntVal",
           "package": "monadiccp",
@@ -2970,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "fdspIntVar",
           "package": "monadiccp",
@@ -2979,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "fdspIntVar",
           "package": "monadiccp",
@@ -2992,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getBoolSpec",
           "package": "monadiccp",
@@ -3001,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getBoolSpec",
           "normalized": "EGVarId-\u003eFDInstance a(Maybe(FDBoolSpec a))",
@@ -3016,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getBoolSpec_",
           "package": "monadiccp",
@@ -3025,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getBoolSpec_",
           "normalized": "EGVarId-\u003eFDBoolSpecTypeSet a-\u003eFDInstance a(Maybe(FDBoolSpecType a,FDBoolSpec a))",
@@ -3040,6 +3306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getBoolTerm",
           "package": "monadiccp",
@@ -3049,6 +3316,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getBoolTerm",
           "normalized": "[ModelBool]-\u003eFDInstance a[FDBoolTerm a]",
@@ -3064,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getBoolVal",
           "package": "monadiccp",
@@ -3073,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getBoolVal",
           "normalized": "EGVarId-\u003eFDInstance a(Maybe EGBoolPar)",
@@ -3088,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getColItems",
           "package": "monadiccp",
@@ -3097,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getColItems",
           "normalized": "ModelCol-\u003eFDColSpecType a-\u003eFDInstance a[FDIntTerm a]",
@@ -3112,6 +3384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getColSpec",
           "package": "monadiccp",
@@ -3121,6 +3394,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getColSpec",
           "normalized": "EGVarId-\u003eFDInstance a(Maybe(FDColSpec a))",
@@ -3136,6 +3410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getColSpec_",
           "package": "monadiccp",
@@ -3145,6 +3420,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getColSpec_",
           "normalized": "EGVarId-\u003eFDColSpecTypeSet a-\u003eFDInstance a(Maybe(FDColSpecType a,FDColSpec a))",
@@ -3160,6 +3436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getColTerm",
           "package": "monadiccp",
@@ -3169,6 +3446,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getColTerm",
           "normalized": "[ModelCol]-\u003eFDColSpecType a-\u003eFDInstance a[FDColSpec a]",
@@ -3184,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getColVal",
           "package": "monadiccp",
@@ -3193,6 +3472,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getColVal",
           "normalized": "EGVarId-\u003eFDInstance a(Maybe EGColPar)",
@@ -3208,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getDefBoolSpec",
           "package": "monadiccp",
@@ -3217,6 +3498,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getDefBoolSpec",
           "normalized": "FDSpecInfoBool a-\u003eFDBoolSpec a",
@@ -3232,6 +3514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getDefColSpec",
           "package": "monadiccp",
@@ -3241,6 +3524,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getDefColSpec",
           "normalized": "FDSpecInfoCol a-\u003eFDColSpec a",
@@ -3256,6 +3540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getDefIntSpec",
           "package": "monadiccp",
@@ -3265,6 +3550,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getDefIntSpec",
           "normalized": "FDSpecInfoInt a-\u003eFDIntSpec a",
@@ -3280,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getEdge",
           "package": "monadiccp",
@@ -3289,6 +3576,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getEdge",
           "normalized": "EGEdgeId-\u003eFDInstance a(Maybe EGEdge)",
@@ -3304,6 +3592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getFullBoolSpec",
           "package": "monadiccp",
@@ -3313,6 +3602,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getFullBoolSpec",
           "normalized": "EGVarId-\u003ea(FDSpecInfoBool b)",
@@ -3328,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getFullColSpec",
           "package": "monadiccp",
@@ -3337,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getFullColSpec",
           "normalized": "EGVarId-\u003ea(FDSpecInfoCol b)",
@@ -3352,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getFullIntSpec",
           "package": "monadiccp",
@@ -3361,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getFullIntSpec",
           "normalized": "EGVarId-\u003ea(FDSpecInfoInt b)",
@@ -3376,6 +3670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getIntSpec",
           "package": "monadiccp",
@@ -3385,6 +3680,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getIntSpec",
           "normalized": "EGVarId-\u003eFDInstance a(Maybe(FDIntSpec a))",
@@ -3400,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getIntSpec_",
           "package": "monadiccp",
@@ -3409,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getIntSpec_",
           "normalized": "EGVarId-\u003eFDIntSpecTypeSet a-\u003eFDInstance a(Maybe(FDIntSpecType a,FDIntSpec a))",
@@ -3424,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getIntTerm",
           "package": "monadiccp",
@@ -3433,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getIntTerm",
           "normalized": "[ModelInt]-\u003eFDInstance a[FDIntTerm a]",
@@ -3448,6 +3748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getIntVal",
           "package": "monadiccp",
@@ -3457,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getIntVal",
           "normalized": "EGVarId-\u003eFDInstance a(Maybe EGPar)",
@@ -3472,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getLevel",
           "package": "monadiccp",
@@ -3481,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getLevel",
           "package": "monadiccp",
@@ -3494,6 +3798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getMinimizeTerm",
           "package": "monadiccp",
@@ -3503,6 +3808,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getMinimizeTerm",
           "package": "monadiccp",
@@ -3516,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getMinimizeVar",
           "package": "monadiccp",
@@ -3525,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getMinimizeVar",
           "package": "monadiccp",
@@ -3538,6 +3846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "getSingleIntTerm",
           "package": "monadiccp",
@@ -3547,6 +3856,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "getSingleIntTerm",
           "normalized": "ModelInt-\u003eFDInstance a(FDIntTerm a)",
@@ -3563,6 +3873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elift a monad action for the underlying solver to a monad action for an FDInstance around it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "liftFD",
           "package": "monadiccp",
@@ -3573,6 +3884,7 @@
         "index": {
           "description": "lift monad action for the underlying solver to monad action for an FDInstance around it",
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "liftFD",
           "normalized": "a b-\u003eFDInstance a b",
@@ -3588,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "markEdge",
           "package": "monadiccp",
@@ -3597,6 +3910,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "markEdge",
           "normalized": "EGEdgeId-\u003eFDInstance a()",
@@ -3612,6 +3926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "newBool",
           "package": "monadiccp",
@@ -3621,6 +3936,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "newBool",
           "package": "monadiccp",
@@ -3634,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "newCol",
           "package": "monadiccp",
@@ -3643,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "newCol",
           "package": "monadiccp",
@@ -3656,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "newInt",
           "package": "monadiccp",
@@ -3665,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "newInt",
           "package": "monadiccp",
@@ -3678,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "procSubModel",
           "package": "monadiccp",
@@ -3687,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "procSubModel",
           "normalized": "EGModel-\u003e(Int-\u003eFDSpecInfoBool a,Int-\u003eFDSpecInfoInt a,Int-\u003eFDSpecInfoCol a)-\u003eFDInstance a()",
@@ -3702,6 +4024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "procSubModelEx",
           "package": "monadiccp",
@@ -3711,6 +4034,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "procSubModelEx",
           "normalized": "EGModel-\u003e(Int-\u003eMaybe(FDSpecInfoBool a),Int-\u003eMaybe(FDSpecInfoInt a),Int-\u003eMaybe(FDSpecInfoCol a))-\u003eFDInstance a()",
@@ -3726,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "runFD",
           "package": "monadiccp",
@@ -3735,6 +4060,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "runFD",
           "normalized": "FDInstance a b-\u003ea b",
@@ -3750,6 +4076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "setFailed",
           "package": "monadiccp",
@@ -3759,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "setFailed",
           "normalized": "FDInstance a()",
@@ -3774,6 +4102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "setMinimizeVar",
           "package": "monadiccp",
@@ -3783,6 +4112,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "setMinimizeVar",
           "normalized": "ModelInt-\u003eFDInstance a()",
@@ -3798,6 +4128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "specInfoBoolTerm",
           "package": "monadiccp",
@@ -3807,6 +4138,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "specInfoBoolTerm",
           "normalized": "FDBoolTerm a-\u003ea(FDSpecInfoBool a)",
@@ -3822,6 +4154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "specInfoIntTerm",
           "package": "monadiccp",
@@ -3831,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "specInfoIntTerm",
           "normalized": "FDIntTerm a-\u003ea(FDSpecInfoInt a)",
@@ -3846,6 +4180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.FD",
           "name": "specSubModelEx",
           "package": "monadiccp",
@@ -3855,6 +4190,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD FD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.FD",
           "name": "specSubModelEx",
           "normalized": "EGModel-\u003e(Int-\u003eMaybe(FDSpecInfoBool a),Int-\u003eMaybe(FDSpecInfoInt a),Int-\u003eMaybe(FDSpecInfoCol a))-\u003eFDInstance a(Map EGVarId(FDSpecInfoBool a),Map EGVarId(FDSpecInfoInt a),Map EGVarId(FDSpecInfoCol a))",
@@ -3870,6 +4206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "Graph",
           "package": "monadiccp",
@@ -3878,6 +4215,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "Graph",
           "package": "monadiccp",
@@ -3891,6 +4229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGBoolPar",
           "package": "monadiccp",
@@ -3899,6 +4238,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGBoolPar",
           "package": "monadiccp",
@@ -3912,6 +4252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGColPar",
           "package": "monadiccp",
@@ -3920,6 +4261,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGColPar",
           "package": "monadiccp",
@@ -3933,6 +4275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGConsArgs",
           "package": "monadiccp",
@@ -3941,6 +4284,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGConsArgs",
           "package": "monadiccp",
@@ -3954,6 +4298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGConstraintSpec",
           "package": "monadiccp",
@@ -3962,6 +4307,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGConstraintSpec",
           "package": "monadiccp",
@@ -3975,6 +4321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGEdge",
           "package": "monadiccp",
@@ -3983,6 +4330,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGEdge",
           "package": "monadiccp",
@@ -3996,6 +4344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGEdgeId",
           "package": "monadiccp",
@@ -4004,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGEdgeId",
           "package": "monadiccp",
@@ -4017,6 +4367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGModel",
           "package": "monadiccp",
@@ -4025,6 +4376,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGModel",
           "package": "monadiccp",
@@ -4038,6 +4390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGPar",
           "package": "monadiccp",
@@ -4046,6 +4399,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGPar",
           "package": "monadiccp",
@@ -4059,6 +4413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGParBoolTerm",
           "package": "monadiccp",
@@ -4067,6 +4422,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGParBoolTerm",
           "package": "monadiccp",
@@ -4080,6 +4436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGParColTerm",
           "package": "monadiccp",
@@ -4088,6 +4445,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGParColTerm",
           "package": "monadiccp",
@@ -4101,6 +4459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGParTerm",
           "package": "monadiccp",
@@ -4109,6 +4468,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGParTerm",
           "package": "monadiccp",
@@ -4122,6 +4482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGTypeData",
           "package": "monadiccp",
@@ -4130,6 +4491,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGTypeData",
           "package": "monadiccp",
@@ -4143,6 +4505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGVarId",
           "package": "monadiccp",
@@ -4151,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGVarId",
           "package": "monadiccp",
@@ -4164,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGVarType",
           "package": "monadiccp",
@@ -4172,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGVarType",
           "package": "monadiccp",
@@ -4185,6 +4551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGAbs",
           "package": "monadiccp",
@@ -4194,6 +4561,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGAbs",
           "package": "monadiccp",
@@ -4207,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGAll",
           "package": "monadiccp",
@@ -4216,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGAll",
           "normalized": "EGAll EGModel(Int,Int,Int)Bool",
@@ -4231,6 +4601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGAllDiff",
           "package": "monadiccp",
@@ -4240,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGAllDiff",
           "package": "monadiccp",
@@ -4253,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGAnd",
           "package": "monadiccp",
@@ -4262,6 +4635,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGAnd",
           "package": "monadiccp",
@@ -4275,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGAny",
           "package": "monadiccp",
@@ -4284,6 +4659,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGAny",
           "normalized": "EGAny EGModel(Int,Int,Int)Bool",
@@ -4299,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGAt",
           "package": "monadiccp",
@@ -4308,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGAt",
           "package": "monadiccp",
@@ -4321,6 +4699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGBoolExtern",
           "package": "monadiccp",
@@ -4330,6 +4709,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGBoolExtern",
           "package": "monadiccp",
@@ -4343,6 +4723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGBoolType",
           "package": "monadiccp",
@@ -4352,6 +4733,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGBoolType",
           "package": "monadiccp",
@@ -4365,6 +4747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGBoolValue",
           "package": "monadiccp",
@@ -4374,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGBoolValue",
           "package": "monadiccp",
@@ -4387,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGCat",
           "package": "monadiccp",
@@ -4396,6 +4781,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGCat",
           "package": "monadiccp",
@@ -4409,6 +4795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGChannel",
           "package": "monadiccp",
@@ -4418,6 +4805,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGChannel",
           "package": "monadiccp",
@@ -4431,6 +4819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGColExtern",
           "package": "monadiccp",
@@ -4440,6 +4829,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGColExtern",
           "package": "monadiccp",
@@ -4453,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGColType",
           "package": "monadiccp",
@@ -4462,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGColType",
           "package": "monadiccp",
@@ -4475,6 +4867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGColValue",
           "package": "monadiccp",
@@ -4484,6 +4877,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGColValue",
           "package": "monadiccp",
@@ -4497,6 +4891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGCondEqual",
           "package": "monadiccp",
@@ -4506,6 +4901,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGCondEqual",
           "package": "monadiccp",
@@ -4519,6 +4915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGCondInt",
           "package": "monadiccp",
@@ -4528,6 +4925,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGCondInt",
           "package": "monadiccp",
@@ -4541,6 +4939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGDiff",
           "package": "monadiccp",
@@ -4550,6 +4949,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGDiff",
           "package": "monadiccp",
@@ -4563,6 +4963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGDiv",
           "package": "monadiccp",
@@ -4572,6 +4973,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGDiv",
           "package": "monadiccp",
@@ -4585,6 +4987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGDom",
           "package": "monadiccp",
@@ -4594,6 +4997,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGDom",
           "package": "monadiccp",
@@ -4607,6 +5011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGEdge",
           "package": "monadiccp",
@@ -4616,6 +5021,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGEdge",
           "package": "monadiccp",
@@ -4629,6 +5035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGEqual",
           "package": "monadiccp",
@@ -4638,6 +5045,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGEqual",
           "package": "monadiccp",
@@ -4651,6 +5059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGEquiv",
           "package": "monadiccp",
@@ -4660,6 +5069,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGEquiv",
           "package": "monadiccp",
@@ -4673,6 +5083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGFold",
           "package": "monadiccp",
@@ -4682,6 +5093,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGFold",
           "normalized": "EGFold EGModel(Int,Int,Int)",
@@ -4697,6 +5109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGIntExtern",
           "package": "monadiccp",
@@ -4706,6 +5119,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGIntExtern",
           "package": "monadiccp",
@@ -4719,6 +5133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGIntType",
           "package": "monadiccp",
@@ -4728,6 +5143,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGIntType",
           "package": "monadiccp",
@@ -4741,6 +5157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGIntValue",
           "package": "monadiccp",
@@ -4750,6 +5167,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGIntValue",
           "package": "monadiccp",
@@ -4763,6 +5181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGLess",
           "package": "monadiccp",
@@ -4772,6 +5191,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGLess",
           "package": "monadiccp",
@@ -4785,6 +5205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGList",
           "package": "monadiccp",
@@ -4794,6 +5215,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGList",
           "package": "monadiccp",
@@ -4807,6 +5229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGMap",
           "package": "monadiccp",
@@ -4816,6 +5239,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGMap",
           "normalized": "EGMap EGModel(Int,Int,Int)",
@@ -4831,6 +5255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGMinus",
           "package": "monadiccp",
@@ -4840,6 +5265,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGMinus",
           "package": "monadiccp",
@@ -4853,6 +5279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGMod",
           "package": "monadiccp",
@@ -4862,6 +5289,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGMod",
           "package": "monadiccp",
@@ -4875,6 +5303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGModel",
           "package": "monadiccp",
@@ -4884,6 +5313,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGModel",
           "package": "monadiccp",
@@ -4897,6 +5327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGMult",
           "package": "monadiccp",
@@ -4906,6 +5337,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGMult",
           "package": "monadiccp",
@@ -4919,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGNot",
           "package": "monadiccp",
@@ -4928,6 +5361,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGNot",
           "package": "monadiccp",
@@ -4941,6 +5375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGOr",
           "package": "monadiccp",
@@ -4950,6 +5385,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGOr",
           "package": "monadiccp",
@@ -4963,6 +5399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGPTBoolParam",
           "package": "monadiccp",
@@ -4972,6 +5409,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGPTBoolParam",
           "package": "monadiccp",
@@ -4985,6 +5423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGPTColParam",
           "package": "monadiccp",
@@ -4994,6 +5433,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGPTColParam",
           "package": "monadiccp",
@@ -5007,6 +5447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGPTParam",
           "package": "monadiccp",
@@ -5016,6 +5457,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGPTParam",
           "package": "monadiccp",
@@ -5029,6 +5471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGPlus",
           "package": "monadiccp",
@@ -5038,6 +5481,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGPlus",
           "package": "monadiccp",
@@ -5051,6 +5495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGRange",
           "package": "monadiccp",
@@ -5060,6 +5505,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGRange",
           "package": "monadiccp",
@@ -5073,6 +5519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGSize",
           "package": "monadiccp",
@@ -5082,6 +5529,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGSize",
           "package": "monadiccp",
@@ -5095,6 +5543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGSlice",
           "package": "monadiccp",
@@ -5104,6 +5553,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGSlice",
           "normalized": "EGSlice EGModel(Int,Int,Int)",
@@ -5119,6 +5569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGSorted",
           "package": "monadiccp",
@@ -5128,6 +5579,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGSorted",
           "package": "monadiccp",
@@ -5141,6 +5593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGTypeData",
           "package": "monadiccp",
@@ -5150,6 +5603,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGTypeData",
           "package": "monadiccp",
@@ -5163,6 +5617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "EGVarId",
           "package": "monadiccp",
@@ -5172,6 +5627,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "EGVarId",
           "package": "monadiccp",
@@ -5185,6 +5641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "addEdge",
           "package": "monadiccp",
@@ -5194,6 +5651,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "addEdge",
           "normalized": "EGConstraintSpec-\u003eEGTypeData[EGVarId]-\u003eEGModel-\u003eEGModel",
@@ -5209,6 +5667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "addNode",
           "package": "monadiccp",
@@ -5218,6 +5677,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "addNode",
           "normalized": "EGVarType-\u003eEGModel-\u003e(EGVarId,EGModel)",
@@ -5233,6 +5693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "baseGraph",
           "package": "monadiccp",
@@ -5242,6 +5703,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "baseGraph",
           "package": "monadiccp",
@@ -5255,6 +5717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "baseTypeData",
           "package": "monadiccp",
@@ -5264,6 +5727,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "baseTypeData",
           "normalized": "a-\u003eEGTypeData a",
@@ -5279,6 +5743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "boolData",
           "package": "monadiccp",
@@ -5288,6 +5753,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "boolData",
           "package": "monadiccp",
@@ -5301,6 +5767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "colData",
           "package": "monadiccp",
@@ -5310,6 +5777,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "colData",
           "package": "monadiccp",
@@ -5323,6 +5791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "delNode",
           "package": "monadiccp",
@@ -5332,6 +5801,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "delNode",
           "normalized": "EGVarType-\u003eEGVarId-\u003eEGModel-\u003eEGModel",
@@ -5347,6 +5817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "egTypeDataMap",
           "package": "monadiccp",
@@ -5356,6 +5827,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "egTypeDataMap",
           "normalized": "((a b EGTypeData c-\u003ec)-\u003ed)-\u003eEGTypeData d",
@@ -5371,6 +5843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "egTypeGet",
           "package": "monadiccp",
@@ -5380,6 +5853,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "egTypeGet",
           "normalized": "EGVarType-\u003eEGTypeData a-\u003ea",
@@ -5395,6 +5869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "egTypeMod",
           "package": "monadiccp",
@@ -5404,6 +5879,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "egTypeMod",
           "normalized": "EGVarType-\u003eEGTypeData a-\u003e(a-\u003ea)-\u003eEGTypeData a",
@@ -5419,6 +5895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "egeCons",
           "package": "monadiccp",
@@ -5428,6 +5905,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "egeCons",
           "package": "monadiccp",
@@ -5441,6 +5919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "egeLinks",
           "package": "monadiccp",
@@ -5450,6 +5929,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "egeLinks",
           "normalized": "EGTypeData[EGVarId]",
@@ -5465,6 +5945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "egmEdges",
           "package": "monadiccp",
@@ -5474,6 +5955,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "egmEdges",
           "package": "monadiccp",
@@ -5487,6 +5969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "egmLinks",
           "package": "monadiccp",
@@ -5496,6 +5979,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "egmLinks",
           "normalized": "EGTypeData(Map EGVarId[(EGEdgeId,Int)])",
@@ -5511,6 +5995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "egmNEdges",
           "package": "monadiccp",
@@ -5520,6 +6005,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "egmNEdges",
           "package": "monadiccp",
@@ -5533,6 +6019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "egmParams",
           "package": "monadiccp",
@@ -5542,6 +6029,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "egmParams",
           "package": "monadiccp",
@@ -5555,6 +6043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "egmVars",
           "package": "monadiccp",
@@ -5564,6 +6053,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "egmVars",
           "package": "monadiccp",
@@ -5577,6 +6067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "emptyModel",
           "package": "monadiccp",
@@ -5586,6 +6077,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "emptyModel",
           "normalized": "EGModel-\u003eBool",
@@ -5601,6 +6093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "externMap",
           "package": "monadiccp",
@@ -5610,6 +6103,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "externMap",
           "normalized": "EGModel-\u003eEGTypeData(Map Int EGVarId)",
@@ -5625,6 +6119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "filterModel",
           "package": "monadiccp",
@@ -5634,6 +6129,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "filterModel",
           "normalized": "EGModel-\u003e(EGEdge-\u003eMaybe a)-\u003e(EGModel,[a])",
@@ -5649,6 +6145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "findEdge",
           "package": "monadiccp",
@@ -5658,6 +6155,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "findEdge",
           "normalized": "EGModel-\u003eEGVarType-\u003eEGVarId-\u003e(Int-\u003eBool)-\u003e(EGConstraintSpec-\u003eBool)-\u003eMaybe(EGEdgeId,EGEdge)",
@@ -5673,6 +6171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "getConnectedEdges",
           "package": "monadiccp",
@@ -5682,6 +6181,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "getConnectedEdges",
           "normalized": "EGModel-\u003eEGVarType-\u003eEGVarId-\u003e[(EGEdge,Int)]",
@@ -5697,6 +6197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "intData",
           "package": "monadiccp",
@@ -5706,6 +6207,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "intData",
           "package": "monadiccp",
@@ -5719,6 +6221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "present",
           "package": "monadiccp",
@@ -5728,6 +6231,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "present",
           "normalized": "a-\u003eString",
@@ -5742,6 +6246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "pruneNodes",
           "package": "monadiccp",
@@ -5751,6 +6256,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "pruneNodes",
           "normalized": "EGModel-\u003eEGModel",
@@ -5766,6 +6272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "unVarId",
           "package": "monadiccp",
@@ -5775,6 +6282,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "unVarId",
           "package": "monadiccp",
@@ -5788,6 +6296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "unifyIds",
           "package": "monadiccp",
@@ -5797,6 +6306,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "unifyIds",
           "normalized": "EGVarId-\u003eEGVarId-\u003eEGVarId-\u003eEGVarId",
@@ -5812,6 +6322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Graph",
           "name": "unifyNodes",
           "package": "monadiccp",
@@ -5821,6 +6332,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Graph",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Graph",
           "name": "unifyNodes",
           "normalized": "EGVarType-\u003eEGVarId-\u003eEGVarId-\u003eEGModel-\u003eEGModel",
@@ -5836,6 +6348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "Interface",
           "package": "monadiccp",
@@ -5844,6 +6357,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "Interface",
           "package": "monadiccp",
@@ -5858,6 +6372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefinition of FDInstance, a Solver wrapper that adds power to post boolean expressions as constraints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "FDInstance",
           "package": "monadiccp",
@@ -5867,6 +6382,7 @@
         "index": {
           "description": "definition of FDInstance Solver wrapper that adds power to post boolean expressions as constraints",
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "FDInstance",
           "package": "monadiccp",
@@ -5881,6 +6397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA solver needs to be an instance of this FDSolver class in order to\n create an FDInstance around it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "FDSolver",
           "package": "monadiccp",
@@ -5890,6 +6407,7 @@
         "index": {
           "description": "solver needs to be an instance of this FDSolver class in order to create an FDInstance around it",
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "FDSolver",
           "package": "monadiccp",
@@ -5903,6 +6421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "ModelBool",
           "package": "monadiccp",
@@ -5911,6 +6430,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "ModelBool",
           "package": "monadiccp",
@@ -5924,6 +6444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "ModelCol",
           "package": "monadiccp",
@@ -5932,6 +6453,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "ModelCol",
           "package": "monadiccp",
@@ -5945,6 +6467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "ModelInt",
           "package": "monadiccp",
@@ -5953,6 +6476,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "ModelInt",
           "package": "monadiccp",
@@ -5992,6 +6516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "(@||)",
           "package": "monadiccp",
@@ -6001,6 +6526,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "(@||) @||",
           "normalized": "Tree DummySolver()-\u003eTree DummySolver()-\u003ea()",
@@ -6063,6 +6589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "(@&&)",
           "package": "monadiccp",
@@ -6072,6 +6599,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "(@&&) @&&",
           "normalized": "Tree DummySolver()-\u003eTree DummySolver()-\u003ea()",
@@ -6208,6 +6736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "(@/=)",
           "package": "monadiccp",
@@ -6217,6 +6746,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "(@/=) @/=",
           "normalized": "a-\u003ea-\u003eb()",
@@ -6231,6 +6761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "(@\u003c)",
           "package": "monadiccp",
@@ -6240,6 +6771,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "(@\u003c) @\u003c",
           "normalized": "ModelInt-\u003eModelInt-\u003ea()",
@@ -6254,6 +6786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "(@\u003c=)",
           "package": "monadiccp",
@@ -6263,6 +6796,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "(@\u003c=) @\u003c=",
           "normalized": "ModelInt-\u003eModelInt-\u003ea()",
@@ -6277,6 +6811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "(@=)",
           "package": "monadiccp",
@@ -6286,6 +6821,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "(@=) @=",
           "normalized": "a-\u003ea-\u003eb()",
@@ -6300,6 +6836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "(@\u003e)",
           "package": "monadiccp",
@@ -6309,6 +6846,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "(@\u003e) @\u003e",
           "normalized": "ModelInt-\u003eModelInt-\u003ea()",
@@ -6323,6 +6861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "(@\u003e=)",
           "package": "monadiccp",
@@ -6332,6 +6871,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "(@\u003e=) @\u003e=",
           "normalized": "ModelInt-\u003eModelInt-\u003ea()",
@@ -6346,6 +6886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "(@?)",
           "package": "monadiccp",
@@ -6355,6 +6896,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "(@?) @?",
           "normalized": "Tree DummySolver()-\u003e(Expr(ModelIntTerm ModelFunctions)(ModelColTerm ModelFunctions)(ModelBoolTerm ModelFunctions),Expr(ModelIntTerm ModelFunctions)(ModelColTerm ModelFunctions)(ModelBoolTerm ModelFunctions))-\u003eExpr(ModelIntTerm ModelFunctions)(ModelColTerm ModelFunctions)(ModelBoolTerm ModelFunctions)",
@@ -6369,6 +6911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "(@??)",
           "package": "monadiccp",
@@ -6378,6 +6921,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "(@??) @??",
           "normalized": "Tree DummySolver()-\u003e(Tree DummySolver(),Tree DummySolver())-\u003ea()",
@@ -6416,6 +6960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "(@:)",
           "package": "monadiccp",
@@ -6425,6 +6970,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "(@:) @:",
           "normalized": "ModelInt-\u003ea-\u003eb()",
@@ -6439,6 +6985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "allDiff",
           "package": "monadiccp",
@@ -6448,6 +6995,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "allDiff",
           "normalized": "ModelCol-\u003ea()",
@@ -6463,6 +7011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "allDiffD",
           "package": "monadiccp",
@@ -6472,6 +7021,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "allDiffD",
           "normalized": "ModelCol-\u003ea()",
@@ -6487,6 +7037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "allin",
           "package": "monadiccp",
@@ -6496,6 +7047,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "allin",
           "normalized": "ModelCol-\u003ea-\u003eb()",
@@ -6510,6 +7062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "asBool",
           "package": "monadiccp",
@@ -6519,6 +7072,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "asBool",
           "normalized": "a-\u003eb()",
@@ -6534,6 +7088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "asCol",
           "package": "monadiccp",
@@ -6543,6 +7098,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "asCol",
           "normalized": "a-\u003eModelCol",
@@ -6558,6 +7114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "asExpr",
           "package": "monadiccp",
@@ -6567,6 +7124,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "asExpr",
           "normalized": "a-\u003eModelInt",
@@ -6582,6 +7140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "channel",
           "package": "monadiccp",
@@ -6591,6 +7150,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "channel",
           "normalized": "Tree DummySolver()-\u003eModelInt",
@@ -6605,6 +7165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "colList",
           "package": "monadiccp",
@@ -6614,6 +7175,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "colList",
           "normalized": "ModelCol-\u003eInt-\u003ea[ModelInt]",
@@ -6653,6 +7215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "exists",
           "package": "monadiccp",
@@ -6662,6 +7225,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "exists",
           "normalized": "(a-\u003eb c)-\u003eb c",
@@ -6676,6 +7240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "false",
           "package": "monadiccp",
@@ -6685,6 +7250,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "false",
           "package": "monadiccp",
@@ -6697,6 +7263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "forall",
           "package": "monadiccp",
@@ -6706,6 +7273,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "forall",
           "normalized": "ModelCol-\u003e(ModelInt-\u003eTree DummySolver())-\u003ea()",
@@ -6720,6 +7288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "forany",
           "package": "monadiccp",
@@ -6729,6 +7298,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "forany",
           "normalized": "ModelCol-\u003e(ModelInt-\u003eTree DummySolver())-\u003ea()",
@@ -6743,6 +7313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "inv",
           "package": "monadiccp",
@@ -6752,6 +7323,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "inv",
           "normalized": "Tree DummySolver()-\u003ea()",
@@ -6766,6 +7338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "labelCol",
           "package": "monadiccp",
@@ -6775,6 +7348,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "labelCol",
           "normalized": "ModelCol-\u003ea[TermBaseType b(FDIntTerm b)]",
@@ -6814,6 +7388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "loopall",
           "package": "monadiccp",
@@ -6823,6 +7398,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "loopall",
           "normalized": "(ModelInt,ModelInt)-\u003e(ModelInt-\u003eTree DummySolver())-\u003ea()",
@@ -6837,6 +7413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "loopany",
           "package": "monadiccp",
@@ -6846,6 +7423,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "loopany",
           "normalized": "(ModelInt,ModelInt)-\u003e(ModelInt-\u003eTree DummySolver())-\u003ea()",
@@ -6860,6 +7438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "sSorted",
           "package": "monadiccp",
@@ -6869,6 +7448,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "sSorted",
           "normalized": "ModelCol-\u003ea()",
@@ -6932,6 +7512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "sorted",
           "package": "monadiccp",
@@ -6941,6 +7522,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "sorted",
           "normalized": "ModelCol-\u003ea()",
@@ -6979,6 +7561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Interface",
           "name": "val",
           "package": "monadiccp",
@@ -6988,6 +7571,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Interface",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Interface",
           "name": "val",
           "normalized": "Tree DummySolver()-\u003eModelInt",
@@ -7122,6 +7706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "Model",
           "package": "monadiccp",
@@ -7130,6 +7715,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "Model",
           "package": "monadiccp",
@@ -7143,6 +7729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "Model",
           "package": "monadiccp",
@@ -7151,6 +7738,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "Model",
           "package": "monadiccp",
@@ -7164,6 +7752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelBool",
           "package": "monadiccp",
@@ -7172,6 +7761,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelBool",
           "package": "monadiccp",
@@ -7185,6 +7775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelBoolArg",
           "package": "monadiccp",
@@ -7193,6 +7784,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelBoolArg",
           "package": "monadiccp",
@@ -7206,6 +7798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelBoolTerm",
           "package": "monadiccp",
@@ -7214,6 +7807,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelBoolTerm",
           "package": "monadiccp",
@@ -7227,6 +7821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelCol",
           "package": "monadiccp",
@@ -7235,6 +7830,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelCol",
           "package": "monadiccp",
@@ -7248,6 +7844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelColArg",
           "package": "monadiccp",
@@ -7256,6 +7853,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelColArg",
           "package": "monadiccp",
@@ -7269,6 +7867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelColTerm",
           "package": "monadiccp",
@@ -7277,6 +7876,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelColTerm",
           "package": "monadiccp",
@@ -7290,6 +7890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelFunctions",
           "package": "monadiccp",
@@ -7298,6 +7899,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelFunctions",
           "package": "monadiccp",
@@ -7311,6 +7913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelInt",
           "package": "monadiccp",
@@ -7319,6 +7922,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelInt",
           "package": "monadiccp",
@@ -7332,6 +7936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelIntArg",
           "package": "monadiccp",
@@ -7340,6 +7945,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelIntArg",
           "package": "monadiccp",
@@ -7353,6 +7959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelIntTerm",
           "package": "monadiccp",
@@ -7361,6 +7968,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelIntTerm",
           "package": "monadiccp",
@@ -7374,6 +7982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelTermType",
           "package": "monadiccp",
@@ -7382,6 +7991,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelTermType",
           "package": "monadiccp",
@@ -7395,6 +8005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ToModelBool",
           "package": "monadiccp",
@@ -7403,6 +8014,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ToModelBool",
           "package": "monadiccp",
@@ -7416,6 +8028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ToModelCol",
           "package": "monadiccp",
@@ -7424,6 +8037,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ToModelCol",
           "package": "monadiccp",
@@ -7437,6 +8051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ToModelInt",
           "package": "monadiccp",
@@ -7445,6 +8060,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ToModelInt",
           "package": "monadiccp",
@@ -7458,6 +8074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ForNewBool",
           "package": "monadiccp",
@@ -7467,6 +8084,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ForNewBool",
           "normalized": "ForNewBool(ModelBoolExpr ModelFunctions-\u003eModel)",
@@ -7482,6 +8100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ForNewCol",
           "package": "monadiccp",
@@ -7491,6 +8110,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ForNewCol",
           "normalized": "ForNewCol(ModelColExpr ModelFunctions-\u003eModel)",
@@ -7506,6 +8126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ForNewInt",
           "package": "monadiccp",
@@ -7515,6 +8136,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ForNewInt",
           "normalized": "ForNewInt(ModelIntExpr ModelFunctions-\u003eModel)",
@@ -7530,6 +8152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelBoolPar",
           "package": "monadiccp",
@@ -7539,6 +8162,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelBoolPar",
           "package": "monadiccp",
@@ -7552,6 +8176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelBoolVar",
           "package": "monadiccp",
@@ -7561,6 +8186,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelBoolVar",
           "package": "monadiccp",
@@ -7574,6 +8200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelColPar",
           "package": "monadiccp",
@@ -7583,6 +8210,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelColPar",
           "package": "monadiccp",
@@ -7596,6 +8224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelColVar",
           "package": "monadiccp",
@@ -7605,6 +8234,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelColVar",
           "package": "monadiccp",
@@ -7618,6 +8248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelExtra",
           "package": "monadiccp",
@@ -7627,6 +8258,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelExtra",
           "package": "monadiccp",
@@ -7640,6 +8272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelIntPar",
           "package": "monadiccp",
@@ -7649,6 +8282,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelIntPar",
           "package": "monadiccp",
@@ -7662,6 +8296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "ModelIntVar",
           "package": "monadiccp",
@@ -7671,6 +8306,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "ModelIntVar",
           "package": "monadiccp",
@@ -7684,6 +8320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "asBool",
           "package": "monadiccp",
@@ -7693,6 +8330,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "asBool",
           "normalized": "a-\u003eModelBool",
@@ -7708,6 +8346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "asCol",
           "package": "monadiccp",
@@ -7717,6 +8356,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "asCol",
           "normalized": "a-\u003eModelCol",
@@ -7732,6 +8372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "asExpr",
           "package": "monadiccp",
@@ -7741,6 +8382,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "asExpr",
           "normalized": "a-\u003eModelInt",
@@ -7756,6 +8398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "modelVariantBool",
           "package": "monadiccp",
@@ -7765,6 +8408,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "modelVariantBool",
           "normalized": "ModelBoolExpr a-\u003eBool",
@@ -7780,6 +8424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "modelVariantCol",
           "package": "monadiccp",
@@ -7789,6 +8434,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "modelVariantCol",
           "normalized": "ModelColExpr a-\u003eBool",
@@ -7804,6 +8450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "modelVariantInt",
           "package": "monadiccp",
@@ -7813,6 +8460,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "modelVariantInt",
           "normalized": "ModelIntExpr a-\u003eBool",
@@ -7828,6 +8476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "newModelTerm",
           "package": "monadiccp",
@@ -7837,6 +8486,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "newModelTerm",
           "normalized": "(a-\u003eModel)-\u003eModel",
@@ -7852,6 +8502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Model",
           "name": "showModel",
           "package": "monadiccp",
@@ -7861,6 +8512,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Model",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Model",
           "name": "showModel",
           "normalized": "Model-\u003eString",
@@ -7876,6 +8528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "Domain",
           "package": "monadiccp",
@@ -7884,6 +8537,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "Domain",
           "package": "monadiccp",
@@ -7897,6 +8551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "Domain",
           "package": "monadiccp",
@@ -7905,6 +8560,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "Domain",
           "package": "monadiccp",
@@ -7918,6 +8574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "ToDomain",
           "package": "monadiccp",
@@ -7926,6 +8583,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "ToDomain",
           "package": "monadiccp",
@@ -7939,6 +8597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "absDomain",
           "package": "monadiccp",
@@ -7948,6 +8607,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "absDomain",
           "normalized": "Domain-\u003eDomain",
@@ -7963,6 +8623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "difference",
           "package": "monadiccp",
@@ -7972,6 +8633,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "difference",
           "normalized": "Domain-\u003eDomain-\u003eDomain",
@@ -7986,6 +8648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "elems",
           "package": "monadiccp",
@@ -7995,6 +8658,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "elems",
           "normalized": "Domain-\u003e[Int]",
@@ -8009,6 +8673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "empty",
           "package": "monadiccp",
@@ -8018,6 +8683,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "empty",
           "package": "monadiccp",
@@ -8030,6 +8696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "filterGreaterThan",
           "package": "monadiccp",
@@ -8039,6 +8706,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "filterGreaterThan",
           "normalized": "Int-\u003eDomain-\u003eDomain",
@@ -8054,6 +8722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "filterLessThan",
           "package": "monadiccp",
@@ -8063,6 +8732,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "filterLessThan",
           "normalized": "Int-\u003eDomain-\u003eDomain",
@@ -8078,6 +8748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "findMax",
           "package": "monadiccp",
@@ -8087,6 +8758,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "findMax",
           "normalized": "Domain-\u003eInt",
@@ -8102,6 +8774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "findMin",
           "package": "monadiccp",
@@ -8111,6 +8784,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "findMin",
           "normalized": "Domain-\u003eInt",
@@ -8126,6 +8800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "intersection",
           "package": "monadiccp",
@@ -8135,6 +8810,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "intersection",
           "normalized": "Domain-\u003eDomain-\u003eDomain",
@@ -8149,6 +8825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "isSingleton",
           "package": "monadiccp",
@@ -8158,6 +8835,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "isSingleton",
           "normalized": "Domain-\u003eBool",
@@ -8173,6 +8851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "isSubsetOf",
           "package": "monadiccp",
@@ -8182,6 +8861,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "isSubsetOf",
           "normalized": "Domain-\u003eDomain-\u003eBool",
@@ -8197,6 +8877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "mapDomain",
           "package": "monadiccp",
@@ -8206,6 +8887,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "mapDomain",
           "normalized": "Domain-\u003e(Int-\u003e[Int])-\u003eDomain",
@@ -8221,6 +8903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "member",
           "package": "monadiccp",
@@ -8230,6 +8913,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "member",
           "normalized": "Int-\u003eDomain-\u003eBool",
@@ -8244,6 +8928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "null",
           "package": "monadiccp",
@@ -8253,6 +8938,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "null",
           "normalized": "Domain-\u003eBool",
@@ -8267,6 +8953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "shiftDomain",
           "package": "monadiccp",
@@ -8276,6 +8963,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "shiftDomain",
           "normalized": "Domain-\u003eInt-\u003eDomain",
@@ -8291,6 +8979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "singleton",
           "package": "monadiccp",
@@ -8300,6 +8989,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "singleton",
           "normalized": "Int-\u003eDomain",
@@ -8314,6 +9004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "size",
           "package": "monadiccp",
@@ -8323,6 +9014,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "size",
           "normalized": "Domain-\u003eInt",
@@ -8337,6 +9029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "toDomain",
           "package": "monadiccp",
@@ -8346,6 +9039,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "toDomain",
           "normalized": "a-\u003eDomain",
@@ -8361,6 +9055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "union",
           "package": "monadiccp",
@@ -8370,6 +9065,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Domain",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Domain",
           "name": "union",
           "normalized": "Domain-\u003eDomain-\u003eDomain",
@@ -8384,6 +9080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OvertonFD",
           "package": "monadiccp",
@@ -8392,6 +9089,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OvertonFD",
           "package": "monadiccp",
@@ -8405,6 +9103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "FDVar",
           "package": "monadiccp",
@@ -8413,6 +9112,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "FDVar",
           "package": "monadiccp",
@@ -8426,6 +9126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OConstraint",
           "package": "monadiccp",
@@ -8434,6 +9135,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OConstraint",
           "package": "monadiccp",
@@ -8447,6 +9149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OvertonFD",
           "package": "monadiccp",
@@ -8455,6 +9158,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OvertonFD",
           "package": "monadiccp",
@@ -8468,6 +9172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OAbs",
           "package": "monadiccp",
@@ -8477,6 +9182,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OAbs",
           "package": "monadiccp",
@@ -8490,6 +9196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OAdd",
           "package": "monadiccp",
@@ -8499,6 +9206,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OAdd",
           "package": "monadiccp",
@@ -8512,6 +9220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "ODiff",
           "package": "monadiccp",
@@ -8521,6 +9230,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "ODiff",
           "package": "monadiccp",
@@ -8534,6 +9244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OHasValue",
           "package": "monadiccp",
@@ -8543,6 +9254,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OHasValue",
           "package": "monadiccp",
@@ -8556,6 +9268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OLess",
           "package": "monadiccp",
@@ -8565,6 +9278,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OLess",
           "package": "monadiccp",
@@ -8578,6 +9292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OLessEq",
           "package": "monadiccp",
@@ -8587,6 +9302,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OLessEq",
           "package": "monadiccp",
@@ -8600,6 +9316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OMult",
           "package": "monadiccp",
@@ -8609,6 +9326,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OMult",
           "package": "monadiccp",
@@ -8622,6 +9340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OSame",
           "package": "monadiccp",
@@ -8631,6 +9350,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OSame",
           "package": "monadiccp",
@@ -8644,6 +9364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OSub",
           "package": "monadiccp",
@@ -8653,6 +9374,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "OSub",
           "package": "monadiccp",
@@ -8666,6 +9388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "fd_domain",
           "package": "monadiccp",
@@ -8675,6 +9398,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "fd_domain",
           "normalized": "FDVar-\u003eOvertonFD[Int]",
@@ -8689,6 +9413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "fd_objective",
           "package": "monadiccp",
@@ -8698,6 +9423,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "fd_objective",
           "package": "monadiccp",
@@ -8710,6 +9436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "lookup",
           "package": "monadiccp",
@@ -8719,6 +9446,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD OvertonFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.OvertonFD",
           "name": "lookup",
           "normalized": "FDVar-\u003eOvertonFD Domain",
@@ -8733,6 +9461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.OvertonFD.Sugar",
           "name": "Sugar",
           "package": "monadiccp",
@@ -8741,6 +9470,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD OvertonFD Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.OvertonFD.Sugar",
           "name": "Sugar",
           "package": "monadiccp",
@@ -8754,6 +9484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "Data",
           "package": "monadiccp",
@@ -8762,6 +9493,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "Data",
           "package": "monadiccp",
@@ -8775,6 +9507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "ConstraintExpr",
           "package": "monadiccp",
@@ -8783,6 +9516,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "ConstraintExpr",
           "package": "monadiccp",
@@ -8796,6 +9530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "ConstraintRefs",
           "package": "monadiccp",
@@ -8804,6 +9539,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "ConstraintRefs",
           "package": "monadiccp",
@@ -8817,6 +9553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "Labelling",
           "package": "monadiccp",
@@ -8825,6 +9562,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "Labelling",
           "package": "monadiccp",
@@ -8838,6 +9576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "OptimDirection",
           "package": "monadiccp",
@@ -8846,6 +9585,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "OptimDirection",
           "package": "monadiccp",
@@ -8859,6 +9599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "SearchSpec",
           "package": "monadiccp",
@@ -8867,6 +9608,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "SearchSpec",
           "package": "monadiccp",
@@ -8880,6 +9622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "VarExpr",
           "package": "monadiccp",
@@ -8888,6 +9631,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "VarExpr",
           "package": "monadiccp",
@@ -8901,6 +9645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "VarStat",
           "package": "monadiccp",
@@ -8909,6 +9654,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "VarStat",
           "package": "monadiccp",
@@ -8922,6 +9668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "BranchBound",
           "package": "monadiccp",
@@ -8931,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "BranchBound",
           "package": "monadiccp",
@@ -8944,6 +9692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "CombinePar",
           "package": "monadiccp",
@@ -8953,6 +9702,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "CombinePar",
           "package": "monadiccp",
@@ -8966,6 +9716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "CombineSeq",
           "package": "monadiccp",
@@ -8975,6 +9726,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "CombineSeq",
           "package": "monadiccp",
@@ -8988,6 +9740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DDegree",
           "package": "monadiccp",
@@ -8997,6 +9750,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DDegree",
           "package": "monadiccp",
@@ -9010,6 +9764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DDomSize",
           "package": "monadiccp",
@@ -9019,6 +9774,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DDomSize",
           "package": "monadiccp",
@@ -9032,6 +9788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DDummy",
           "package": "monadiccp",
@@ -9041,6 +9798,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DDummy",
           "package": "monadiccp",
@@ -9054,6 +9812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DLowerBound",
           "package": "monadiccp",
@@ -9063,6 +9822,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DLowerBound",
           "package": "monadiccp",
@@ -9076,6 +9836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DLowerRegret",
           "package": "monadiccp",
@@ -9085,6 +9846,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DLowerRegret",
           "package": "monadiccp",
@@ -9098,6 +9860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DMedian",
           "package": "monadiccp",
@@ -9107,6 +9870,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DMedian",
           "package": "monadiccp",
@@ -9120,6 +9884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DRandom",
           "package": "monadiccp",
@@ -9129,6 +9894,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DRandom",
           "package": "monadiccp",
@@ -9142,6 +9908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DUpperBound",
           "package": "monadiccp",
@@ -9151,6 +9918,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DUpperBound",
           "package": "monadiccp",
@@ -9164,6 +9932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DUpperRegret",
           "package": "monadiccp",
@@ -9173,6 +9942,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DUpperRegret",
           "package": "monadiccp",
@@ -9186,6 +9956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DWDregree",
           "package": "monadiccp",
@@ -9195,6 +9966,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "DWDregree",
           "package": "monadiccp",
@@ -9208,6 +9980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "LabelBool",
           "package": "monadiccp",
@@ -9217,6 +9990,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "LabelBool",
           "package": "monadiccp",
@@ -9230,6 +10004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "LabelCol",
           "package": "monadiccp",
@@ -9239,6 +10014,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "LabelCol",
           "normalized": "LabelCol a VarExpr OptimDirection VarExpr(ConstraintExpr-\u003eConstraintExpr-\u003eConstraintBoolExpr)",
@@ -9254,6 +10030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "LabelInt",
           "package": "monadiccp",
@@ -9263,6 +10040,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "LabelInt",
           "normalized": "LabelInt a VarExpr(ConstraintExpr-\u003eConstraintExpr-\u003eConstraintBoolExpr)",
@@ -9278,6 +10056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "Labelling",
           "package": "monadiccp",
@@ -9287,6 +10066,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "Labelling",
           "package": "monadiccp",
@@ -9300,6 +10080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "LimitDepth",
           "package": "monadiccp",
@@ -9309,6 +10090,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "LimitDepth",
           "package": "monadiccp",
@@ -9322,6 +10104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "LimitDiscrepancy",
           "package": "monadiccp",
@@ -9331,6 +10114,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "LimitDiscrepancy",
           "package": "monadiccp",
@@ -9344,6 +10128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "LimitNodeCount",
           "package": "monadiccp",
@@ -9353,6 +10138,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "LimitNodeCount",
           "package": "monadiccp",
@@ -9366,6 +10152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "LimitSolCount",
           "package": "monadiccp",
@@ -9375,6 +10162,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "LimitSolCount",
           "package": "monadiccp",
@@ -9388,6 +10176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "Maximize",
           "package": "monadiccp",
@@ -9397,6 +10186,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "Maximize",
           "package": "monadiccp",
@@ -9410,6 +10200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "Minimize",
           "package": "monadiccp",
@@ -9419,6 +10210,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "Minimize",
           "package": "monadiccp",
@@ -9432,6 +10224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "PrintSol",
           "package": "monadiccp",
@@ -9441,6 +10234,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "PrintSol",
           "normalized": "PrintSol[a][b][c](SearchSpec a b c)",
@@ -9456,6 +10250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "TryOnce",
           "package": "monadiccp",
@@ -9465,6 +10260,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "TryOnce",
           "package": "monadiccp",
@@ -9478,6 +10274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "ValRef",
           "package": "monadiccp",
@@ -9487,6 +10284,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "ValRef",
           "package": "monadiccp",
@@ -9500,6 +10298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "VarRef",
           "package": "monadiccp",
@@ -9509,6 +10308,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "VarRef",
           "package": "monadiccp",
@@ -9522,6 +10322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "mmapSearch",
           "package": "monadiccp",
@@ -9531,6 +10332,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SearchSpec Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SearchSpec.Data",
           "name": "mmapSearch",
           "normalized": "SearchSpec a b c-\u003e(a-\u003ed a)-\u003e(b-\u003ed b)-\u003e(c-\u003ed c)-\u003ed(SearchSpec a b c)",
@@ -9546,6 +10348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SimpleFD",
           "name": "SimpleFD",
           "package": "monadiccp",
@@ -9554,6 +10357,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SimpleFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SimpleFD",
           "name": "SimpleFD",
           "package": "monadiccp",
@@ -9567,6 +10371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SimpleFD",
           "name": "simple_fdProcess",
           "package": "monadiccp",
@@ -9576,6 +10381,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SimpleFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SimpleFD",
           "name": "simple_fdProcess",
           "normalized": "Mixin(EGConstraintSpec-\u003eFDSpecInfo a-\u003eFDInstance a())",
@@ -9591,6 +10397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.SimpleFD",
           "name": "simple_fdSpecify",
           "package": "monadiccp",
@@ -9600,6 +10407,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD SimpleFD",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.SimpleFD",
           "name": "simple_fdSpecify",
           "package": "monadiccp",
@@ -9613,6 +10421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Solvers",
           "name": "Solvers",
           "package": "monadiccp",
@@ -9621,6 +10430,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Solvers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Solvers",
           "name": "Solvers",
           "package": "monadiccp",
@@ -9634,6 +10444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Solvers",
           "name": "bb",
           "package": "monadiccp",
@@ -9643,6 +10454,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Solvers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Solvers",
           "name": "bb",
           "normalized": "NewBound a-\u003eCBranchBoundST a b",
@@ -9657,6 +10469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Solvers",
           "name": "bfs",
           "package": "monadiccp",
@@ -9666,6 +10479,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Solvers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Solvers",
           "name": "bfs",
           "package": "monadiccp",
@@ -9678,6 +10492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Solvers",
           "name": "db",
           "package": "monadiccp",
@@ -9687,6 +10502,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Solvers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Solvers",
           "name": "db",
           "normalized": "Int-\u003eCDepthBoundedST a b",
@@ -9701,6 +10517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Solvers",
           "name": "dfs",
           "package": "monadiccp",
@@ -9710,6 +10527,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Solvers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Solvers",
           "name": "dfs",
           "normalized": "[a]",
@@ -9724,6 +10542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Solvers",
           "name": "fs",
           "package": "monadiccp",
@@ -9733,6 +10552,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Solvers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Solvers",
           "name": "fs",
           "package": "monadiccp",
@@ -9745,6 +10565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Solvers",
           "name": "it",
           "package": "monadiccp",
@@ -9754,6 +10575,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Solvers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Solvers",
           "name": "it",
           "package": "monadiccp",
@@ -9766,6 +10588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Solvers",
           "name": "ld",
           "package": "monadiccp",
@@ -9775,6 +10598,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Solvers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Solvers",
           "name": "ld",
           "normalized": "Int-\u003eCLimitedDiscrepancyST a b",
@@ -9789,6 +10613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Solvers",
           "name": "nb",
           "package": "monadiccp",
@@ -9798,6 +10623,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Solvers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Solvers",
           "name": "nb",
           "normalized": "Int-\u003eCNodeBoundedST a b",
@@ -9812,6 +10638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Solvers",
           "name": "pfs",
           "package": "monadiccp",
@@ -9821,6 +10648,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Solvers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Solvers",
           "name": "pfs",
           "normalized": "PriorityQueue a(a,b,c)",
@@ -9835,6 +10663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Solvers",
           "name": "ra",
           "package": "monadiccp",
@@ -9844,6 +10673,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Solvers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Solvers",
           "name": "ra",
           "normalized": "Int-\u003eCRandomST a b",
@@ -9858,6 +10688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.FD.Solvers",
           "name": "sb",
           "package": "monadiccp",
@@ -9867,6 +10698,7 @@
         },
         "index": {
           "hierarchy": "Control CP FD Solvers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.FD.Solvers",
           "name": "sb",
           "normalized": "Int-\u003eCSolutionBoundST a b",
@@ -9881,6 +10713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.PriorityQueue",
           "name": "PriorityQueue",
           "package": "monadiccp",
@@ -9889,6 +10722,7 @@
         },
         "index": {
           "hierarchy": "Control CP PriorityQueue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.PriorityQueue",
           "name": "PriorityQueue",
           "package": "monadiccp",
@@ -9902,6 +10736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.PriorityQueue",
           "name": "PriorityQueue",
           "package": "monadiccp",
@@ -9910,6 +10745,7 @@
         },
         "index": {
           "hierarchy": "Control CP PriorityQueue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.PriorityQueue",
           "name": "PriorityQueue",
           "package": "monadiccp",
@@ -9923,6 +10759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.PriorityQueue",
           "name": "deleteMin",
           "package": "monadiccp",
@@ -9932,6 +10769,7 @@
         },
         "index": {
           "hierarchy": "Control CP PriorityQueue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.PriorityQueue",
           "name": "deleteMin",
           "normalized": "PriorityQueue a b-\u003e((a,b),PriorityQueue a b)",
@@ -9947,6 +10785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.PriorityQueue",
           "name": "deleteMinAndInsert",
           "package": "monadiccp",
@@ -9956,6 +10795,7 @@
         },
         "index": {
           "hierarchy": "Control CP PriorityQueue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.PriorityQueue",
           "name": "deleteMinAndInsert",
           "normalized": "a-\u003eb-\u003ePriorityQueue a b-\u003ePriorityQueue a b",
@@ -9971,6 +10811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.PriorityQueue",
           "name": "empty",
           "package": "monadiccp",
@@ -9980,6 +10821,7 @@
         },
         "index": {
           "hierarchy": "Control CP PriorityQueue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.PriorityQueue",
           "name": "empty",
           "package": "monadiccp",
@@ -9992,6 +10834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.PriorityQueue",
           "name": "insert",
           "package": "monadiccp",
@@ -10001,6 +10844,7 @@
         },
         "index": {
           "hierarchy": "Control CP PriorityQueue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.PriorityQueue",
           "name": "insert",
           "normalized": "a-\u003eb-\u003ePriorityQueue a b-\u003ePriorityQueue a b",
@@ -10015,6 +10859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.PriorityQueue",
           "name": "is_empty",
           "package": "monadiccp",
@@ -10024,6 +10869,7 @@
         },
         "index": {
           "hierarchy": "Control CP PriorityQueue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.PriorityQueue",
           "name": "is_empty",
           "normalized": "PriorityQueue a a-\u003eBool",
@@ -10038,6 +10884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.PriorityQueue",
           "name": "minKey",
           "package": "monadiccp",
@@ -10047,6 +10894,7 @@
         },
         "index": {
           "hierarchy": "Control CP PriorityQueue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.PriorityQueue",
           "name": "minKey",
           "normalized": "PriorityQueue a b-\u003ea",
@@ -10062,6 +10910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.PriorityQueue",
           "name": "minKeyValue",
           "package": "monadiccp",
@@ -10071,6 +10920,7 @@
         },
         "index": {
           "hierarchy": "Control CP PriorityQueue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.PriorityQueue",
           "name": "minKeyValue",
           "normalized": "PriorityQueue a b-\u003e(a,b)",
@@ -10086,6 +10936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Queue",
           "name": "Queue",
           "package": "monadiccp",
@@ -10094,6 +10945,7 @@
         },
         "index": {
           "hierarchy": "Control CP Queue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Queue",
           "name": "Queue",
           "package": "monadiccp",
@@ -10107,6 +10959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Queue",
           "name": "Queue",
           "package": "monadiccp",
@@ -10115,6 +10968,7 @@
         },
         "index": {
           "hierarchy": "Control CP Queue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Queue",
           "name": "Queue",
           "package": "monadiccp",
@@ -10128,6 +10982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Queue",
           "name": "emptyQ",
           "package": "monadiccp",
@@ -10137,6 +10992,7 @@
         },
         "index": {
           "hierarchy": "Control CP Queue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Queue",
           "name": "emptyQ",
           "normalized": "a-\u003ea",
@@ -10151,6 +11007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Queue",
           "name": "isEmptyQ",
           "package": "monadiccp",
@@ -10160,6 +11017,7 @@
         },
         "index": {
           "hierarchy": "Control CP Queue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Queue",
           "name": "isEmptyQ",
           "normalized": "a-\u003eBool",
@@ -10175,6 +11033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Queue",
           "name": "popQ",
           "package": "monadiccp",
@@ -10184,6 +11043,7 @@
         },
         "index": {
           "hierarchy": "Control CP Queue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Queue",
           "name": "popQ",
           "normalized": "a-\u003e(Elem a,a)",
@@ -10198,6 +11058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Queue",
           "name": "pushQ",
           "package": "monadiccp",
@@ -10207,6 +11068,7 @@
         },
         "index": {
           "hierarchy": "Control CP Queue",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Queue",
           "name": "pushQ",
           "normalized": "Elem a-\u003ea-\u003ea",
@@ -10221,6 +11083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "SearchTree",
           "package": "monadiccp",
@@ -10229,6 +11092,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "SearchTree",
           "package": "monadiccp",
@@ -10243,6 +11107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralization of the search tree data type,\n   allowing monad transformer decoration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "MonadTree",
           "package": "monadiccp",
@@ -10252,6 +11117,7 @@
         "index": {
           "description": "Generalization of the search tree data type allowing monad transformer decoration",
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "MonadTree",
           "package": "monadiccp",
@@ -10265,6 +11131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "Tree",
           "package": "monadiccp",
@@ -10273,6 +11140,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "Tree",
           "package": "monadiccp",
@@ -10286,6 +11154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "(/\\)",
           "package": "monadiccp",
@@ -10295,6 +11164,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "(/\\) /\\",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -10309,6 +11179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "(\\/)",
           "package": "monadiccp",
@@ -10318,6 +11189,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "(\\/) \\/",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -10332,6 +11204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "Add",
           "package": "monadiccp",
@@ -10341,6 +11214,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "Add",
           "normalized": "Constraint a-\u003eTree a b-\u003eTree a b",
@@ -10356,6 +11230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "Fail",
           "package": "monadiccp",
@@ -10365,6 +11240,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "Fail",
           "package": "monadiccp",
@@ -10378,6 +11254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "Label",
           "package": "monadiccp",
@@ -10387,6 +11264,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "Label",
           "normalized": "a(Tree a b)-\u003eTree a b",
@@ -10402,6 +11280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "NewVar",
           "package": "monadiccp",
@@ -10411,6 +11290,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "NewVar",
           "normalized": "(a-\u003eTree b c)-\u003eTree b c",
@@ -10426,6 +11306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "Return",
           "package": "monadiccp",
@@ -10435,6 +11316,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "Return",
           "normalized": "a-\u003eTree b a",
@@ -10450,6 +11332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "Try",
           "package": "monadiccp",
@@ -10459,6 +11342,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "Try",
           "normalized": "Tree a b-\u003eTree a b-\u003eTree a b",
@@ -10474,6 +11358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "addC",
           "package": "monadiccp",
@@ -10483,6 +11368,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "addC",
           "normalized": "Constraint(TreeSolver a)-\u003ea()",
@@ -10497,6 +11383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "addT",
           "package": "monadiccp",
@@ -10506,6 +11393,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "addT",
           "normalized": "Constraint(TreeSolver a)-\u003ea Bool",
@@ -10520,6 +11408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "addTo",
           "package": "monadiccp",
@@ -10529,6 +11418,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "addTo",
           "normalized": "Constraint(TreeSolver a)-\u003ea b-\u003ea b",
@@ -10544,6 +11434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "bindTree",
           "package": "monadiccp",
@@ -10553,6 +11444,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "bindTree",
           "normalized": "Tree a b-\u003e(b-\u003eTree a c)-\u003eTree a c",
@@ -10568,6 +11460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "conj",
           "package": "monadiccp",
@@ -10577,6 +11470,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "conj",
           "normalized": "[a()]-\u003ea()",
@@ -10591,6 +11485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "disj",
           "package": "monadiccp",
@@ -10600,6 +11495,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "disj",
           "normalized": "[a b]-\u003ea b",
@@ -10614,6 +11510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "disj2",
           "package": "monadiccp",
@@ -10623,6 +11520,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "disj2",
           "normalized": "[a b]-\u003ea b",
@@ -10637,6 +11535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "exist",
           "package": "monadiccp",
@@ -10646,6 +11545,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "exist",
           "normalized": "Int-\u003e([a]-\u003eb c)-\u003eb c",
@@ -10660,6 +11560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "exists",
           "package": "monadiccp",
@@ -10669,6 +11570,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "exists",
           "normalized": "(a-\u003eb c)-\u003eb c",
@@ -10683,6 +11585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "false",
           "package": "monadiccp",
@@ -10692,6 +11595,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "false",
           "package": "monadiccp",
@@ -10704,6 +11608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "forall",
           "package": "monadiccp",
@@ -10713,6 +11618,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "forall",
           "normalized": "[a]-\u003e(a-\u003eb())-\u003eb()",
@@ -10728,6 +11634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshow\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "indent",
           "package": "monadiccp",
@@ -10738,6 +11645,7 @@
         "index": {
           "description": "show",
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "indent",
           "normalized": "Int-\u003eString",
@@ -10752,6 +11660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "insertTree",
           "package": "monadiccp",
@@ -10761,6 +11670,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "insertTree",
           "normalized": "Tree a b-\u003eTree a()-\u003eTree a b",
@@ -10776,6 +11686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "label",
           "package": "monadiccp",
@@ -10785,6 +11696,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "label",
           "normalized": "TreeSolver a(a b)-\u003ea b",
@@ -10799,6 +11711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "mapTree",
           "package": "monadiccp",
@@ -10808,6 +11721,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "mapTree",
           "normalized": "(a b c d-\u003ec d)-\u003eTree c e-\u003ef e",
@@ -10823,6 +11737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "prim",
           "package": "monadiccp",
@@ -10832,6 +11747,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "prim",
           "normalized": "TreeSolver a b-\u003ea b",
@@ -10846,6 +11762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "showTree",
           "package": "monadiccp",
@@ -10855,6 +11772,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "showTree",
           "normalized": "Int-\u003eTree a b-\u003ea String",
@@ -10870,6 +11788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "transformTree",
           "package": "monadiccp",
@@ -10879,6 +11798,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "transformTree",
           "normalized": "Mixin(Tree a b-\u003eTree a b)",
@@ -10894,6 +11814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.SearchTree",
           "name": "untree",
           "package": "monadiccp",
@@ -10903,6 +11824,7 @@
         },
         "index": {
           "hierarchy": "Control CP SearchTree",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.SearchTree",
           "name": "untree",
           "normalized": "a-\u003eTree b a-\u003eb a",
@@ -10917,6 +11839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Solver",
           "name": "Solver",
           "package": "monadiccp",
@@ -10925,6 +11848,7 @@
         },
         "index": {
           "hierarchy": "Control CP Solver",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Solver",
           "name": "Solver",
           "package": "monadiccp",
@@ -10938,6 +11862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Solver",
           "name": "Solver",
           "package": "monadiccp",
@@ -10946,6 +11871,7 @@
         },
         "index": {
           "hierarchy": "Control CP Solver",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Solver",
           "name": "Solver",
           "package": "monadiccp",
@@ -10959,6 +11885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Solver",
           "name": "Term",
           "package": "monadiccp",
@@ -10967,6 +11894,7 @@
         },
         "index": {
           "hierarchy": "Control CP Solver",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Solver",
           "name": "Term",
           "package": "monadiccp",
@@ -10981,6 +11909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a constraint to the current state, and\n   return whether the resulting state is consistent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Solver",
           "name": "add",
           "package": "monadiccp",
@@ -10991,6 +11920,7 @@
         "index": {
           "description": "add constraint to the current state and return whether the resulting state is consistent",
           "hierarchy": "Control CP Solver",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Solver",
           "name": "add",
           "normalized": "Constraint a-\u003ea Bool",
@@ -11006,6 +11936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ego to the state with given label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Solver",
           "name": "goto",
           "package": "monadiccp",
@@ -11016,6 +11947,7 @@
         "index": {
           "description": "go to the state with given label",
           "hierarchy": "Control CP Solver",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Solver",
           "name": "goto",
           "normalized": "Label a-\u003ea()",
@@ -11030,6 +11962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Solver",
           "name": "help",
           "package": "monadiccp",
@@ -11039,6 +11972,7 @@
         },
         "index": {
           "hierarchy": "Control CP Solver",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Solver",
           "name": "help",
           "normalized": "a()-\u003eb-\u003eHelp a b",
@@ -11054,6 +11988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emark the current state, and return its label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Solver",
           "name": "mark",
           "package": "monadiccp",
@@ -11064,6 +11999,7 @@
         "index": {
           "description": "mark the current state and return its label",
           "hierarchy": "Control CP Solver",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Solver",
           "name": "mark",
           "package": "monadiccp",
@@ -11077,6 +12013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emark the current state as discontinued, yet return a label that is usable n times\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Solver",
           "name": "markn",
           "package": "monadiccp",
@@ -11087,6 +12024,7 @@
         "index": {
           "description": "mark the current state as discontinued yet return label that is usable times",
           "hierarchy": "Control CP Solver",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Solver",
           "name": "markn",
           "normalized": "Int-\u003ea(Label a)",
@@ -11102,6 +12040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eproduce a fresh constraint variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Solver",
           "name": "newvar",
           "package": "monadiccp",
@@ -11112,6 +12051,7 @@
         "index": {
           "description": "produce fresh constraint variable",
           "hierarchy": "Control CP Solver",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Solver",
           "name": "newvar",
           "package": "monadiccp",
@@ -11125,6 +12065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun a computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Solver",
           "name": "run",
           "package": "monadiccp",
@@ -11135,6 +12076,7 @@
         "index": {
           "description": "run computation",
           "hierarchy": "Control CP Solver",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Solver",
           "name": "run",
           "normalized": "a b-\u003eb",
@@ -11149,6 +12091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Transformers",
           "name": "Transformers",
           "package": "monadiccp",
@@ -11157,6 +12100,7 @@
         },
         "index": {
           "hierarchy": "Control CP Transformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Transformers",
           "name": "Transformers",
           "package": "monadiccp",
@@ -11170,6 +12114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Transformers",
           "name": "DepthBoundedST",
           "package": "monadiccp",
@@ -11178,6 +12123,7 @@
         },
         "index": {
           "hierarchy": "Control CP Transformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Transformers",
           "name": "DepthBoundedST",
           "package": "monadiccp",
@@ -11191,6 +12137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Transformers",
           "name": "NodeBoundedST",
           "package": "monadiccp",
@@ -11199,6 +12146,7 @@
         },
         "index": {
           "hierarchy": "Control CP Transformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Transformers",
           "name": "NodeBoundedST",
           "package": "monadiccp",
@@ -11212,6 +12160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Transformers",
           "name": "Transformer",
           "package": "monadiccp",
@@ -11220,6 +12169,7 @@
         },
         "index": {
           "hierarchy": "Control CP Transformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Transformers",
           "name": "Transformer",
           "package": "monadiccp",
@@ -11233,6 +12183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Transformers",
           "name": "continue",
           "package": "monadiccp",
@@ -11242,6 +12193,7 @@
         },
         "index": {
           "hierarchy": "Control CP Transformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Transformers",
           "name": "continue",
           "package": "monadiccp",
@@ -11254,6 +12206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Transformers",
           "name": "endT",
           "package": "monadiccp",
@@ -11263,6 +12216,7 @@
         },
         "index": {
           "hierarchy": "Control CP Transformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Transformers",
           "name": "endT",
           "package": "monadiccp",
@@ -11275,6 +12229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Transformers",
           "name": "eval",
           "package": "monadiccp",
@@ -11284,6 +12239,7 @@
         },
         "index": {
           "hierarchy": "Control CP Transformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Transformers",
           "name": "eval",
           "normalized": "Tree a(ForResult b)-\u003ec-\u003eb-\u003ea(Int,[ForResult b])",
@@ -11298,6 +12254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Transformers",
           "name": "eval'",
           "package": "monadiccp",
@@ -11307,6 +12264,7 @@
         },
         "index": {
           "hierarchy": "Control CP Transformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Transformers",
           "name": "eval'",
           "package": "monadiccp",
@@ -11319,6 +12277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Transformers",
           "name": "initT",
           "package": "monadiccp",
@@ -11328,6 +12287,7 @@
         },
         "index": {
           "hierarchy": "Control CP Transformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Transformers",
           "name": "initT",
           "normalized": "a-\u003eTree(ForSolver a)(ForResult a)-\u003eForSolver a(EvalState a,TreeState a)",
@@ -11342,6 +12302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Transformers",
           "name": "leftT",
           "package": "monadiccp",
@@ -11351,6 +12312,7 @@
         },
         "index": {
           "hierarchy": "Control CP Transformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Transformers",
           "name": "leftT",
           "normalized": "a-\u003eEvalState a-\u003eTreeState a-\u003eTreeState a",
@@ -11365,6 +12327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Transformers",
           "name": "nextT",
           "package": "monadiccp",
@@ -11374,6 +12337,7 @@
         },
         "index": {
           "hierarchy": "Control CP Transformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Transformers",
           "name": "nextT",
           "package": "monadiccp",
@@ -11386,6 +12350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.CP.Transformers",
           "name": "returnT",
           "package": "monadiccp",
@@ -11395,6 +12360,7 @@
         },
         "index": {
           "hierarchy": "Control CP Transformers",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.CP.Transformers",
           "name": "returnT",
           "package": "monadiccp",
@@ -11408,6 +12374,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule with basic infrastructure for function inheritance\n   based on open rercusion.\n\u003c/p\u003e\u003cp\u003eSee the work of William Cook.\n\u003c/p\u003e\u003cp\u003eWe use the following terminology.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e A \u003cem\u003eclosed\u003c/em\u003e function is an ordinary function. \n\u003c/li\u003e\u003cli\u003e A \u003cem\u003emixin\u003c/em\u003e function is an open function that can be\n       inherited from, or that extends another open function.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eWe obtain a closed function from a base mixin \u003ccode\u003ebase\u003c/code\u003e\n   and a number of mixin extensions \u003ccode\u003ee1\u003c/code\u003e,...,\u003ccode\u003een\u003c/code\u003e as follows:\n\u003c/p\u003e\u003cpre\u003e  mixin (en \u003c@\u003e ... \u003c@\u003e e1 \u003c@\u003e base)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Mixin.Mixin",
           "name": "Mixin",
           "package": "monadiccp",
@@ -11417,6 +12384,7 @@
         "index": {
           "description": "Module with basic infrastructure for function inheritance based on open rercusion See the work of William Cook We use the following terminology closed function is an ordinary function mixin function is an open function that can be inherited from or that extends another open function We obtain closed function from base mixin base and number of mixin extensions e1 en as follows mixin en e1 base",
           "hierarchy": "Control Mixin Mixin",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Mixin.Mixin",
           "name": "Mixin",
           "package": "monadiccp",
@@ -11431,6 +12399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of mixin functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Mixin.Mixin",
           "name": "Mixin",
           "package": "monadiccp",
@@ -11440,6 +12409,7 @@
         "index": {
           "description": "Type of mixin functions",
           "hierarchy": "Control Mixin Mixin",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Mixin.Mixin",
           "name": "Mixin",
           "package": "monadiccp",
@@ -11454,6 +12424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMixin composition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Mixin.Mixin",
           "name": "(\u003c@\u003e)",
           "package": "monadiccp",
@@ -11464,6 +12435,7 @@
         "index": {
           "description": "Mixin composition",
           "hierarchy": "Control Mixin Mixin",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Mixin.Mixin",
           "name": "(\u003c@\u003e) \u003c@\u003e",
           "normalized": "Mixin a-\u003eMixin a-\u003eMixin a",
@@ -11479,6 +12451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a mixin into a closed function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Mixin.Mixin",
           "name": "mixin",
           "package": "monadiccp",
@@ -11489,6 +12462,7 @@
         "index": {
           "description": "Turn mixin into closed function",
           "hierarchy": "Control Mixin Mixin",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Mixin.Mixin",
           "name": "mixin",
           "normalized": "Mixin a-\u003ea",
@@ -11504,6 +12478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMixin identity function.\n\u003c/p\u003e\u003cp\u003eIdentity for mixin composition:\n\u003c/p\u003e\u003cpre\u003e mixinId \u003c@\u003e f  ==  f\n f \u003c@\u003e mixinId  ==  f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Mixin.Mixin",
           "name": "mixinId",
           "package": "monadiccp",
@@ -11514,6 +12489,7 @@
         "index": {
           "description": "Mixin identity function Identity for mixin composition mixinId mixinId",
           "hierarchy": "Control Mixin Mixin",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Mixin.Mixin",
           "name": "mixinId",
           "package": "monadiccp",
@@ -11528,6 +12504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMixin lift function\n\u003c/p\u003e\u003cpre\u003e mixin . mixinLift = id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Mixin.Mixin",
           "name": "mixinLift",
           "package": "monadiccp",
@@ -11538,6 +12515,7 @@
         "index": {
           "description": "Mixin lift function mixin mixinLift id",
           "hierarchy": "Control Mixin Mixin",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Mixin.Mixin",
           "name": "mixinLift",
           "normalized": "(a-\u003eb)-\u003eMixin(a-\u003eb)",
@@ -11553,6 +12531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.And",
           "name": "And",
           "package": "monadiccp",
@@ -11561,6 +12540,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator And",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.And",
           "name": "And",
           "package": "monadiccp",
@@ -11574,6 +12554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.And",
           "name": "(\u003c&\u003e)",
           "package": "monadiccp",
@@ -11583,6 +12564,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator And",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.And",
           "name": "(\u003c&\u003e) \u003c&\u003e",
           "normalized": "Search-\u003eSearch-\u003eSearch",
@@ -11597,6 +12579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.And",
           "name": "andN",
           "package": "monadiccp",
@@ -11606,6 +12589,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator And",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.And",
           "name": "andN",
           "normalized": "[Search]-\u003eSearch",
@@ -11620,6 +12604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "Base",
           "package": "monadiccp",
@@ -11628,6 +12613,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "Base",
           "package": "monadiccp",
@@ -11641,6 +12627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "bfoldVarSel",
           "package": "monadiccp",
@@ -11650,6 +12637,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "bfoldVarSel",
           "normalized": "(Value-\u003eValue)-\u003e(Value-\u003eValue-\u003eValue,Value)-\u003eInfo-\u003eString-\u003eStatement-\u003eStatement-\u003eStatement",
@@ -11665,6 +12653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "bifoldVarSel",
           "package": "monadiccp",
@@ -11674,6 +12663,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "bifoldVarSel",
           "normalized": "(Value-\u003eValue)-\u003e(Value-\u003eValue-\u003eValue,Value)-\u003eInfo-\u003eString-\u003eStatement-\u003eStatement-\u003eStatement",
@@ -11689,6 +12679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "degreeV",
           "package": "monadiccp",
@@ -11698,6 +12689,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "degreeV",
           "normalized": "Value-\u003eValue",
@@ -11712,6 +12704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "domSizeDegreeV",
           "package": "monadiccp",
@@ -11721,6 +12714,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "domSizeDegreeV",
           "normalized": "Value-\u003eValue",
@@ -11736,6 +12730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "domSizeWDegreeV",
           "package": "monadiccp",
@@ -11745,6 +12740,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "domSizeWDegreeV",
           "normalized": "Value-\u003eValue",
@@ -11760,6 +12756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "domsizeV",
           "package": "monadiccp",
@@ -11769,6 +12766,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "domsizeV",
           "normalized": "Value-\u003eValue",
@@ -11783,6 +12781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "foldVarSel",
           "package": "monadiccp",
@@ -11792,6 +12791,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "foldVarSel",
           "normalized": "(Value-\u003eValue)-\u003e(Value-\u003eValue-\u003eValue,Value)-\u003eInfo-\u003eString-\u003eStatement-\u003eStatement-\u003eStatement",
@@ -11807,6 +12807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "gblabel",
           "package": "monadiccp",
@@ -11816,6 +12817,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "gblabel",
           "normalized": "String-\u003eVarSel-\u003e(Value-\u003eValue)-\u003e(Value-\u003eValue-\u003eConstraint)-\u003eSearch",
@@ -11830,6 +12832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "glabel",
           "package": "monadiccp",
@@ -11839,6 +12842,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "glabel",
           "normalized": "String-\u003eVarSel-\u003e(Value-\u003eValue)-\u003e(Value-\u003eValue-\u003eConstraint)-\u003eSearch",
@@ -11853,6 +12857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "ifoldVarSel",
           "package": "monadiccp",
@@ -11862,6 +12867,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "ifoldVarSel",
           "normalized": "(Value-\u003eValue)-\u003e(Value-\u003eValue-\u003eValue,Value)-\u003eInfo-\u003eString-\u003eStatement-\u003eStatement-\u003eStatement",
@@ -11877,6 +12883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "ilabel",
           "package": "monadiccp",
@@ -11886,6 +12893,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "ilabel",
           "normalized": "String-\u003e(Value-\u003eValue)-\u003e(Value-\u003eValue-\u003eValue,Value)-\u003e(Value-\u003eValue)-\u003e(Value-\u003eValue-\u003eConstraint)-\u003eSearch",
@@ -11900,6 +12908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "int_assign",
           "package": "monadiccp",
@@ -11909,6 +12918,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "int_assign",
           "normalized": "String-\u003eVarSel-\u003e(Value-\u003eValue)-\u003e(Value-\u003eValue-\u003eConstraint)-\u003eSearch",
@@ -11923,6 +12933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "label",
           "package": "monadiccp",
@@ -11932,6 +12943,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "label",
           "normalized": "String-\u003e(Value-\u003eValue)-\u003e(Value-\u003eValue-\u003eValue,Value)-\u003e(Value-\u003eValue)-\u003e(Value-\u003eValue-\u003eConstraint)-\u003eSearch",
@@ -11946,6 +12958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "lbRegretV",
           "package": "monadiccp",
@@ -11955,6 +12968,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "lbRegretV",
           "normalized": "Value-\u003eValue",
@@ -11970,6 +12984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "lbV",
           "package": "monadiccp",
@@ -11979,6 +12994,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "lbV",
           "normalized": "Value-\u003eValue",
@@ -11993,6 +13009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "maxD",
           "package": "monadiccp",
@@ -12002,6 +13019,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "maxD",
           "normalized": "Value-\u003eValue",
@@ -12016,6 +13034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "maxV",
           "package": "monadiccp",
@@ -12025,6 +13044,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "maxV",
           "normalized": "(Value-\u003eValue-\u003eValue,Value)",
@@ -12039,6 +13059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "meanD",
           "package": "monadiccp",
@@ -12048,6 +13069,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "meanD",
           "normalized": "Value-\u003eValue",
@@ -12062,6 +13084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "medianD",
           "package": "monadiccp",
@@ -12071,6 +13094,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "medianD",
           "normalized": "Value-\u003eValue",
@@ -12085,6 +13109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "minD",
           "package": "monadiccp",
@@ -12094,6 +13119,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "minD",
           "normalized": "Value-\u003eValue",
@@ -12108,6 +13134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "minV",
           "package": "monadiccp",
@@ -12117,6 +13144,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "minV",
           "normalized": "(Value-\u003eValue-\u003eValue,Value)",
@@ -12131,6 +13159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "randomD",
           "package": "monadiccp",
@@ -12140,6 +13169,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "randomD",
           "normalized": "Value-\u003eValue",
@@ -12154,6 +13184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "randomV",
           "package": "monadiccp",
@@ -12163,6 +13194,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "randomV",
           "normalized": "a-\u003eValue",
@@ -12177,6 +13209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "ubRegretV",
           "package": "monadiccp",
@@ -12186,6 +13219,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "ubRegretV",
           "normalized": "Value-\u003eValue",
@@ -12201,6 +13235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "ubV",
           "package": "monadiccp",
@@ -12210,6 +13245,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "ubV",
           "normalized": "Value-\u003eValue",
@@ -12224,6 +13260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "vlabel",
           "package": "monadiccp",
@@ -12233,6 +13270,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "vlabel",
           "normalized": "String-\u003e(Value-\u003eValue)-\u003e(Value-\u003eValue-\u003eConstraint)-\u003eSearch",
@@ -12247,6 +13285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Base",
           "name": "wDegreeV",
           "package": "monadiccp",
@@ -12256,6 +13295,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Base",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Base",
           "name": "wDegreeV",
           "normalized": "Value-\u003eValue",
@@ -12271,6 +13311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Failure",
           "name": "Failure",
           "package": "monadiccp",
@@ -12279,6 +13320,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Failure",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Failure",
           "name": "Failure",
           "package": "monadiccp",
@@ -12292,6 +13334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Failure",
           "name": "failure",
           "package": "monadiccp",
@@ -12301,6 +13344,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Failure",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Failure",
           "name": "failure",
           "package": "monadiccp",
@@ -12313,6 +13357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.For",
           "name": "For",
           "package": "monadiccp",
@@ -12321,6 +13366,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator For",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.For",
           "name": "For",
           "package": "monadiccp",
@@ -12334,6 +13380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.For",
           "name": "for",
           "package": "monadiccp",
@@ -12343,6 +13390,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator For",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.For",
           "name": "for",
           "normalized": "Int-\u003eSearch-\u003eSearch",
@@ -12357,6 +13405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.For",
           "name": "foreach",
           "package": "monadiccp",
@@ -12366,6 +13415,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator For",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.For",
           "name": "foreach",
           "normalized": "Int-\u003e((Info-\u003eValue)-\u003eSearch)-\u003eSearch",
@@ -12380,6 +13430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.If",
           "name": "If",
           "package": "monadiccp",
@@ -12388,6 +13439,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator If",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.If",
           "name": "If",
           "package": "monadiccp",
@@ -12401,6 +13453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.If",
           "name": "if'",
           "package": "monadiccp",
@@ -12410,6 +13463,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator If",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.If",
           "name": "if'",
           "normalized": "Stat-\u003eSearch-\u003eSearch-\u003eSearch",
@@ -12424,6 +13478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Let",
           "name": "Let",
           "package": "monadiccp",
@@ -12432,6 +13487,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Let",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Let",
           "name": "Let",
           "package": "monadiccp",
@@ -12445,6 +13501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Let",
           "name": "let'",
           "package": "monadiccp",
@@ -12454,6 +13511,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Let",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Let",
           "name": "let'",
           "normalized": "VarId-\u003eStat-\u003eSearch-\u003eSearch",
@@ -12468,6 +13526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Let",
           "name": "set'",
           "package": "monadiccp",
@@ -12477,6 +13536,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Let",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Let",
           "name": "set'",
           "normalized": "VarId-\u003eStat-\u003eSearch-\u003eSearch",
@@ -12491,6 +13551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Misc",
           "name": "Misc",
           "package": "monadiccp",
@@ -12499,6 +13560,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Misc",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Misc",
           "name": "Misc",
           "package": "monadiccp",
@@ -12512,6 +13574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Misc",
           "name": "bbmin",
           "package": "monadiccp",
@@ -12521,6 +13584,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Misc",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Misc",
           "name": "bbmin",
           "normalized": "String-\u003eSearch",
@@ -12535,6 +13599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Misc",
           "name": "dbs",
           "package": "monadiccp",
@@ -12544,6 +13609,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Misc",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Misc",
           "name": "dbs",
           "normalized": "Int-\u003eSearch",
@@ -12558,6 +13624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Misc",
           "name": "lds",
           "package": "monadiccp",
@@ -12567,6 +13634,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Misc",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Misc",
           "name": "lds",
           "normalized": "Stat-\u003eSearch",
@@ -12581,6 +13649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Once",
           "name": "Once",
           "package": "monadiccp",
@@ -12589,6 +13658,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Once",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Once",
           "name": "Once",
           "package": "monadiccp",
@@ -12602,6 +13672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Once",
           "name": "once",
           "package": "monadiccp",
@@ -12611,6 +13682,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Once",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Once",
           "name": "once",
           "package": "monadiccp",
@@ -12623,6 +13695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Once",
           "name": "onceOld",
           "package": "monadiccp",
@@ -12632,6 +13705,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Once",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Once",
           "name": "onceOld",
           "normalized": "Search-\u003eSearch",
@@ -12647,6 +13721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Or",
           "name": "Or",
           "package": "monadiccp",
@@ -12655,6 +13730,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Or",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Or",
           "name": "Or",
           "package": "monadiccp",
@@ -12668,6 +13744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Or",
           "name": "(\u003c|\u003e)",
           "package": "monadiccp",
@@ -12677,6 +13754,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Or",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Or",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "Search-\u003eSearch-\u003eSearch",
@@ -12691,6 +13769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.OrRepeat",
           "name": "OrRepeat",
           "package": "monadiccp",
@@ -12699,6 +13778,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator OrRepeat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.OrRepeat",
           "name": "OrRepeat",
           "package": "monadiccp",
@@ -12712,6 +13792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.OrRepeat",
           "name": "orRepeat",
           "package": "monadiccp",
@@ -12721,6 +13802,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator OrRepeat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.OrRepeat",
           "name": "orRepeat",
           "normalized": "Stat-\u003eSearch-\u003eSearch",
@@ -12736,6 +13818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Post",
           "name": "Post",
           "package": "monadiccp",
@@ -12744,6 +13827,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Post",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Post",
           "name": "Post",
           "package": "monadiccp",
@@ -12757,6 +13841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Post",
           "name": "post",
           "package": "monadiccp",
@@ -12766,6 +13851,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Post",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Post",
           "name": "post",
           "normalized": "ConstraintGen-\u003eSearch-\u003eSearch",
@@ -12780,6 +13866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Print",
           "name": "Print",
           "package": "monadiccp",
@@ -12788,6 +13875,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Print",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Print",
           "name": "Print",
           "package": "monadiccp",
@@ -12801,6 +13889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Print",
           "name": "dbg",
           "package": "monadiccp",
@@ -12810,6 +13899,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Print",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Print",
           "name": "dbg",
           "normalized": "String-\u003eSearch",
@@ -12824,6 +13914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Print",
           "name": "prt",
           "package": "monadiccp",
@@ -12833,6 +13924,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Print",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Print",
           "name": "prt",
           "normalized": "[String]-\u003eSearch",
@@ -12847,6 +13939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Repeat",
           "name": "Repeat",
           "package": "monadiccp",
@@ -12855,6 +13948,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Repeat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Repeat",
           "name": "Repeat",
           "package": "monadiccp",
@@ -12868,6 +13962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Repeat",
           "name": "repeat",
           "package": "monadiccp",
@@ -12877,6 +13972,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Repeat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Repeat",
           "name": "repeat",
           "normalized": "Search-\u003eSearch",
@@ -12891,6 +13987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Success",
           "name": "Success",
           "package": "monadiccp",
@@ -12899,6 +13996,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Success",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Success",
           "name": "Success",
           "package": "monadiccp",
@@ -12912,6 +14010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Success",
           "name": "dummy",
           "package": "monadiccp",
@@ -12921,6 +14020,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Success",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Success",
           "name": "dummy",
           "package": "monadiccp",
@@ -12933,6 +14033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Until",
           "name": "Until",
           "package": "monadiccp",
@@ -12941,6 +14042,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Until",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Until",
           "name": "Until",
           "package": "monadiccp",
@@ -12954,6 +14056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Until",
           "name": "glimit",
           "package": "monadiccp",
@@ -12963,6 +14066,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Until",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Until",
           "name": "glimit",
           "normalized": "Stat-\u003eSearch-\u003eSearch",
@@ -12977,6 +14081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Until",
           "name": "limit",
           "package": "monadiccp",
@@ -12986,6 +14091,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Until",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Until",
           "name": "limit",
           "normalized": "Int-\u003eStat-\u003eSearch-\u003eSearch",
@@ -13000,6 +14106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Combinator.Until",
           "name": "until",
           "package": "monadiccp",
@@ -13009,6 +14116,7 @@
         },
         "index": {
           "hierarchy": "Control Search Combinator Until",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Combinator.Until",
           "name": "until",
           "normalized": "Stat-\u003eSearch-\u003eSearch-\u003eSearch",
@@ -13023,6 +14131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "Constraints",
           "package": "monadiccp",
@@ -13031,6 +14140,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "Constraints",
           "package": "monadiccp",
@@ -13044,6 +14154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "ConstraintExpr",
           "package": "monadiccp",
@@ -13052,6 +14163,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "ConstraintExpr",
           "package": "monadiccp",
@@ -13065,6 +14177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "ConstraintGen",
           "package": "monadiccp",
@@ -13073,6 +14186,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "ConstraintGen",
           "package": "monadiccp",
@@ -13086,6 +14200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "ConstraintExpr",
           "package": "monadiccp",
@@ -13095,6 +14210,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "ConstraintExpr",
           "normalized": "a IValue)Bool[String]",
@@ -13110,6 +14226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "ConstraintGen",
           "package": "monadiccp",
@@ -13119,6 +14236,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "ConstraintGen",
           "normalized": "Info-\u003ea Constraint)[String]",
@@ -13134,6 +14252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "cbvars",
           "package": "monadiccp",
@@ -13143,6 +14262,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "cbvars",
           "normalized": "String-\u003eInteger-\u003eConstraintExpr",
@@ -13157,6 +14277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "cexprStatMax",
           "package": "monadiccp",
@@ -13166,6 +14287,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "cexprStatMax",
           "normalized": "ConstraintExpr-\u003eStat",
@@ -13181,6 +14303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "cexprStatMed",
           "package": "monadiccp",
@@ -13190,6 +14313,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "cexprStatMed",
           "normalized": "ConstraintExpr-\u003eStat",
@@ -13205,6 +14329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "cexprStatMin",
           "package": "monadiccp",
@@ -13214,6 +14339,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "cexprStatMin",
           "normalized": "ConstraintExpr-\u003eStat",
@@ -13229,6 +14355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "cexprStatVal",
           "package": "monadiccp",
@@ -13238,6 +14365,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "cexprStatVal",
           "normalized": "ConstraintExpr-\u003eStat",
@@ -13253,6 +14381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "cfalse",
           "package": "monadiccp",
@@ -13262,6 +14391,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "cfalse",
           "package": "monadiccp",
@@ -13274,6 +14404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "clvar",
           "package": "monadiccp",
@@ -13283,6 +14414,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "clvar",
           "normalized": "VarId-\u003eConstraintExpr",
@@ -13297,6 +14429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "cop",
           "package": "monadiccp",
@@ -13306,6 +14439,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "cop",
           "normalized": "ConstraintExpr-\u003e(Value-\u003eValue-\u003eConstraint)-\u003eConstraintExpr-\u003eConstraintGen",
@@ -13320,6 +14454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "ctrue",
           "package": "monadiccp",
@@ -13329,6 +14464,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "ctrue",
           "package": "monadiccp",
@@ -13341,6 +14477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "cval",
           "package": "monadiccp",
@@ -13350,6 +14487,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "cval",
           "normalized": "Integer-\u003eConstraintExpr",
@@ -13364,6 +14502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "cvar",
           "package": "monadiccp",
@@ -13373,6 +14512,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "cvar",
           "normalized": "String-\u003eConstraintExpr",
@@ -13387,6 +14527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Constraints",
           "name": "cvars",
           "package": "monadiccp",
@@ -13396,6 +14537,7 @@
         },
         "index": {
           "hierarchy": "Control Search Constraints",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Constraints",
           "name": "cvars",
           "normalized": "String-\u003eInteger-\u003eConstraintExpr",
@@ -13410,6 +14552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "Generator",
           "package": "monadiccp",
@@ -13418,6 +14561,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "Generator",
           "package": "monadiccp",
@@ -13431,6 +14575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "Eval",
           "package": "monadiccp",
@@ -13439,6 +14584,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "Eval",
           "package": "monadiccp",
@@ -13452,6 +14598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "Evalable",
           "package": "monadiccp",
@@ -13460,6 +14607,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "Evalable",
           "package": "monadiccp",
@@ -13473,6 +14621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "MkEval",
           "package": "monadiccp",
@@ -13481,6 +14630,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "MkEval",
           "package": "monadiccp",
@@ -13494,6 +14644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "Search",
           "package": "monadiccp",
@@ -13502,6 +14653,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "Search",
           "package": "monadiccp",
@@ -13515,6 +14667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "SearchCombiner",
           "package": "monadiccp",
@@ -13523,6 +14676,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "SearchCombiner",
           "package": "monadiccp",
@@ -13536,6 +14690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "SeqPos",
           "package": "monadiccp",
@@ -13544,6 +14699,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "SeqPos",
           "package": "monadiccp",
@@ -13557,6 +14713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "VarId",
           "package": "monadiccp",
@@ -13565,6 +14722,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "VarId",
           "package": "monadiccp",
@@ -13578,6 +14736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "VarInfoM",
           "package": "monadiccp",
@@ -13586,6 +14745,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "VarInfoM",
           "package": "monadiccp",
@@ -13743,6 +14903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "(\u003c@\u003e)",
           "package": "monadiccp",
@@ -13752,6 +14913,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "(\u003c@\u003e) \u003c@\u003e",
           "normalized": "Search-\u003eSearch-\u003eSearch",
@@ -13766,6 +14928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "(@$)",
           "package": "monadiccp",
@@ -13775,6 +14938,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "(@$) @$",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -13789,6 +14953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "(@++@)",
           "package": "monadiccp",
@@ -13798,6 +14963,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "(@++@) @++@",
           "normalized": "([a],[a])-\u003e([a],[a])-\u003e([a],[a])",
@@ -13836,6 +15002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "(@\u003e\u003e\u003e@)",
           "package": "monadiccp",
@@ -13845,6 +15012,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "(@\u003e\u003e\u003e@) @\u003e\u003e\u003e@",
           "normalized": "a Statement-\u003ea Statement-\u003ea Statement",
@@ -13859,6 +15027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "(@.)",
           "package": "monadiccp",
@@ -13868,6 +15037,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "(@.) @.",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -13882,6 +15052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "Eval",
           "package": "monadiccp",
@@ -13891,6 +15062,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "Eval",
           "package": "monadiccp",
@@ -13904,6 +15076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "FirstS",
           "package": "monadiccp",
@@ -13913,6 +15086,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "FirstS",
           "package": "monadiccp",
@@ -13926,6 +15100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "OutS",
           "package": "monadiccp",
@@ -13935,6 +15110,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "OutS",
           "package": "monadiccp",
@@ -13948,6 +15124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "Search",
           "package": "monadiccp",
@@ -13957,6 +15134,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "Search",
           "package": "monadiccp",
@@ -13970,6 +15148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "SearchCombiner",
           "package": "monadiccp",
@@ -13979,6 +15158,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "SearchCombiner",
           "package": "monadiccp",
@@ -13992,6 +15172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "SecondS",
           "package": "monadiccp",
@@ -14001,6 +15182,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "SecondS",
           "package": "monadiccp",
@@ -14014,6 +15196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "VarId",
           "package": "monadiccp",
@@ -14023,6 +15206,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "VarId",
           "package": "monadiccp",
@@ -14036,6 +15220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "addE",
           "package": "monadiccp",
@@ -14045,6 +15230,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "addE",
           "normalized": "Eval a-\u003eInfo-\u003ea Statement",
@@ -14059,6 +15245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "addH",
           "package": "monadiccp",
@@ -14068,6 +15255,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "addH",
           "normalized": "Info-\u003ea Statement",
@@ -14082,6 +15270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "bodyE",
           "package": "monadiccp",
@@ -14091,6 +15280,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "bodyE",
           "normalized": "Eval a-\u003eInfo-\u003ea Statement",
@@ -14105,6 +15295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "bodyH",
           "package": "monadiccp",
@@ -14114,6 +15305,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "bodyH",
           "normalized": "Info-\u003ea Statement",
@@ -14128,6 +15320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "boolArraysE",
           "package": "monadiccp",
@@ -14137,6 +15330,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "boolArraysE",
           "normalized": "[String]",
@@ -14152,6 +15346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "buildCombiner",
           "package": "monadiccp",
@@ -14161,6 +15356,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "buildCombiner",
           "normalized": "[Search]-\u003eSearchCombiner",
@@ -14176,6 +15372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "cacheStatement",
           "package": "monadiccp",
@@ -14185,6 +15382,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "cacheStatement",
           "normalized": "String-\u003eStatement-\u003eInfo-\u003ea Statement",
@@ -14200,6 +15398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "cachedAbort",
           "package": "monadiccp",
@@ -14209,6 +15408,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "cachedAbort",
           "normalized": "Info-\u003ea Statement",
@@ -14224,6 +15424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "cachedClone",
           "package": "monadiccp",
@@ -14233,6 +15434,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "cachedClone",
           "normalized": "Info-\u003eInfo-\u003ea Statement",
@@ -14248,6 +15450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "cachedCommit",
           "package": "monadiccp",
@@ -14257,6 +15460,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "cachedCommit",
           "normalized": "Info-\u003ea Statement",
@@ -14272,6 +15476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "canBranch",
           "package": "monadiccp",
@@ -14281,6 +15486,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "canBranch",
           "package": "monadiccp",
@@ -14294,6 +15500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "cloneBase",
           "package": "monadiccp",
@@ -14303,6 +15510,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "cloneBase",
           "normalized": "Info-\u003eInfo",
@@ -14318,6 +15526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "commentEval",
           "package": "monadiccp",
@@ -14327,6 +15536,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "commentEval",
           "normalized": "Eval a-\u003eEval a",
@@ -14342,6 +15552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "complete",
           "package": "monadiccp",
@@ -14351,6 +15562,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "complete",
           "normalized": "Info-\u003ea Value",
@@ -14365,6 +15577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "deleteE",
           "package": "monadiccp",
@@ -14374,6 +15587,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "deleteE",
           "normalized": "Eval a-\u003eInfo-\u003ea Statement",
@@ -14388,6 +15602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "deleteH",
           "package": "monadiccp",
@@ -14397,6 +15612,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "deleteH",
           "normalized": "Info-\u003ea Statement",
@@ -14411,6 +15627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "elems",
           "package": "monadiccp",
@@ -14420,6 +15637,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "elems",
           "normalized": "[SearchCombinerElem a a]",
@@ -14434,6 +15652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "entry",
           "package": "monadiccp",
@@ -14443,6 +15662,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "entry",
           "normalized": "(String,Type,Value-\u003eStatement)-\u003e(String,Type,Info-\u003ea Statement)",
@@ -14457,6 +15677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "evalState_",
           "package": "monadiccp",
@@ -14466,6 +15687,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "evalState_",
           "normalized": "[(String,Type,Info-\u003ea Value)]",
@@ -14481,6 +15703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "extractCombiners",
           "package": "monadiccp",
@@ -14490,6 +15713,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "extractCombiners",
           "normalized": "[SearchCombinerElem a a]-\u003eEval(b((a a)c))-\u003eState Int[Eval(b((a a)c))]",
@@ -14505,6 +15729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "failE",
           "package": "monadiccp",
@@ -14514,6 +15739,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "failE",
           "normalized": "Eval a-\u003eInfo-\u003ea Statement",
@@ -14528,6 +15754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "failH",
           "package": "monadiccp",
@@ -14537,6 +15764,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "failH",
           "normalized": "Info-\u003ea Statement",
@@ -14551,6 +15779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "initE",
           "package": "monadiccp",
@@ -14560,6 +15789,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "initE",
           "normalized": "Eval a-\u003eInfo-\u003ea Statement",
@@ -14574,6 +15804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "initH",
           "package": "monadiccp",
@@ -14583,6 +15814,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "initH",
           "normalized": "Info-\u003ea Statement",
@@ -14597,6 +15829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "inite",
           "package": "monadiccp",
@@ -14606,6 +15839,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "inite",
           "normalized": "[(String,Info-\u003ea Value)]-\u003eInfo-\u003ea Statement",
@@ -14620,6 +15854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "inits",
           "package": "monadiccp",
@@ -14629,6 +15864,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "inits",
           "normalized": "Eval a-\u003eInfo-\u003ea Statement",
@@ -14643,6 +15879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "intArraysE",
           "package": "monadiccp",
@@ -14652,6 +15889,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "intArraysE",
           "normalized": "[String]",
@@ -14667,6 +15905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "intVarsE",
           "package": "monadiccp",
@@ -14676,6 +15915,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "intVarsE",
           "normalized": "[String]",
@@ -14691,6 +15931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "lookupVarInfo",
           "package": "monadiccp",
@@ -14700,6 +15941,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "lookupVarInfo",
           "normalized": "VarId-\u003ea Info",
@@ -14715,6 +15957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "mapE",
           "package": "monadiccp",
@@ -14724,6 +15967,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "mapE",
           "normalized": "(a b c d-\u003ee d)-\u003eEval c-\u003eEval e",
@@ -14738,6 +15982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "memo",
           "package": "monadiccp",
@@ -14747,6 +15992,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "memo",
           "normalized": "String-\u003eInfo-\u003ea-\u003ea",
@@ -14761,6 +16007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "memoLoop",
           "package": "monadiccp",
@@ -14770,6 +16017,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "memoLoop",
           "normalized": "Eval a-\u003eEval a",
@@ -14785,6 +16033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "mkCopy",
           "package": "monadiccp",
@@ -14794,6 +16043,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "mkCopy",
           "normalized": "Info-\u003eString-\u003eStatement",
@@ -14809,6 +16059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "mkUpdate",
           "package": "monadiccp",
@@ -14818,6 +16069,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "mkUpdate",
           "normalized": "Info-\u003eString-\u003e(Value-\u003eValue)-\u003eStatement",
@@ -14833,6 +16085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "mkeval",
           "package": "monadiccp",
@@ -14842,6 +16095,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "mkeval",
           "package": "monadiccp",
@@ -14854,6 +16108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "mmap",
           "package": "monadiccp",
@@ -14863,6 +16118,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "mmap",
           "normalized": "(a b c d-\u003ee d)-\u003ef c g-\u003ef e g",
@@ -14877,6 +16133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "mseqs",
           "package": "monadiccp",
@@ -14886,6 +16143,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "mseqs",
           "normalized": "[a Statement]-\u003ea Statement",
@@ -14900,6 +16158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "nextDiff",
           "package": "monadiccp",
@@ -14909,6 +16168,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "nextDiff",
           "normalized": "Eval a-\u003eInfo-\u003ea Statement",
@@ -14924,6 +16184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "nextDiffH",
           "package": "monadiccp",
@@ -14933,6 +16194,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "nextDiffH",
           "normalized": "Info-\u003ea Statement",
@@ -14948,6 +16210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "nextSame",
           "package": "monadiccp",
@@ -14957,6 +16220,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "nextSame",
           "normalized": "Eval a-\u003eInfo-\u003ea Statement",
@@ -14972,6 +16236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "nextSameH",
           "package": "monadiccp",
@@ -14981,6 +16246,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "nextSameH",
           "normalized": "Info-\u003ea Statement",
@@ -14996,6 +16262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "numSwitch",
           "package": "monadiccp",
@@ -15005,6 +16272,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "numSwitch",
           "normalized": "(a-\u003eb c)-\u003eb c",
@@ -15020,6 +16288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "pushLeft",
           "package": "monadiccp",
@@ -15029,6 +16298,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "pushLeft",
           "normalized": "Eval a-\u003eInfo-\u003ea Statement",
@@ -15044,6 +16314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "pushLeftH",
           "package": "monadiccp",
@@ -15053,6 +16324,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "pushLeftH",
           "normalized": "Info-\u003ea Statement",
@@ -15068,6 +16340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "pushRight",
           "package": "monadiccp",
@@ -15077,6 +16350,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "pushRight",
           "normalized": "Eval a-\u003eInfo-\u003ea Statement",
@@ -15092,6 +16366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "pushRightH",
           "package": "monadiccp",
@@ -15101,6 +16376,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "pushRightH",
           "normalized": "Info-\u003ea Statement",
@@ -15116,6 +16392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "rReaderT",
           "package": "monadiccp",
@@ -15125,6 +16402,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "rReaderT",
           "normalized": "a-\u003eMemoReaderT a b c-\u003eb c",
@@ -15140,6 +16418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "ref_count",
           "package": "monadiccp",
@@ -15149,6 +16428,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "ref_count",
           "normalized": "Info-\u003eValue",
@@ -15163,6 +16443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "ref_count_type",
           "package": "monadiccp",
@@ -15172,6 +16453,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "ref_count_type",
           "package": "monadiccp",
@@ -15184,6 +16466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "ref_countx",
           "package": "monadiccp",
@@ -15193,6 +16476,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "ref_countx",
           "normalized": "Info-\u003e[Char]-\u003eValue",
@@ -15207,6 +16491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "returnE",
           "package": "monadiccp",
@@ -15216,6 +16501,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "returnE",
           "normalized": "Eval a-\u003eInfo-\u003ea Statement",
@@ -15230,6 +16516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "returnH",
           "package": "monadiccp",
@@ -15239,6 +16526,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "returnH",
           "normalized": "Info-\u003ea Statement",
@@ -15253,6 +16541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "rp",
           "package": "monadiccp",
@@ -15262,6 +16551,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "rp",
           "normalized": "Int-\u003ea-\u003eString",
@@ -15276,6 +16566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "runner",
           "package": "monadiccp",
@@ -15285,6 +16576,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "runner",
           "normalized": "(a a)b c-\u003eb c",
@@ -15299,6 +16591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "runsearch",
           "package": "monadiccp",
@@ -15308,6 +16601,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "runsearch",
           "normalized": "a b c-\u003eb c",
@@ -15322,6 +16616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "search",
           "package": "monadiccp",
@@ -15331,6 +16626,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "search",
           "normalized": "Search-\u003eString",
@@ -15345,6 +16641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "seqSwitch",
           "package": "monadiccp",
@@ -15354,6 +16651,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "seqSwitch",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -15369,6 +16667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "setVarInfo",
           "package": "monadiccp",
@@ -15378,6 +16677,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "setVarInfo",
           "normalized": "VarId-\u003eInfo-\u003ea()",
@@ -15393,6 +16693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "startTryE",
           "package": "monadiccp",
@@ -15402,6 +16703,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "startTryE",
           "normalized": "Eval a-\u003eInfo-\u003ea Statement",
@@ -15417,6 +16719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "startTryH",
           "package": "monadiccp",
@@ -15426,6 +16729,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "startTryH",
           "normalized": "Info-\u003ea Statement",
@@ -15441,6 +16745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "structs",
           "package": "monadiccp",
@@ -15450,6 +16755,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "structs",
           "normalized": "([Struct],[Struct])",
@@ -15464,6 +16770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "toString",
           "package": "monadiccp",
@@ -15473,6 +16780,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "toString",
           "package": "monadiccp",
@@ -15486,6 +16794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "treeState_",
           "package": "monadiccp",
@@ -15495,6 +16804,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "treeState_",
           "normalized": "[(String,Type,Info-\u003ea Statement)]",
@@ -15510,6 +16820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "tryE",
           "package": "monadiccp",
@@ -15519,6 +16830,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "tryE",
           "normalized": "Eval a-\u003eInfo-\u003ea Statement",
@@ -15533,6 +16845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "tryE_",
           "package": "monadiccp",
@@ -15542,6 +16855,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "tryE_",
           "normalized": "Eval a-\u003eInfo-\u003ea Statement",
@@ -15556,6 +16870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "tryH",
           "package": "monadiccp",
@@ -15565,6 +16880,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "tryH",
           "normalized": "Info-\u003ea Statement",
@@ -15579,6 +16895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Generator",
           "name": "tryLH",
           "package": "monadiccp",
@@ -15588,6 +16905,7 @@
         },
         "index": {
           "hierarchy": "Control Search Generator",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Generator",
           "name": "tryLH",
           "normalized": "Info-\u003ea Statement",
@@ -15603,6 +16921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "GeneratorInfo",
           "package": "monadiccp",
@@ -15611,6 +16930,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "GeneratorInfo",
           "package": "monadiccp",
@@ -15624,6 +16944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "EvalState",
           "package": "monadiccp",
@@ -15632,6 +16953,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "EvalState",
           "package": "monadiccp",
@@ -15645,6 +16967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "Field",
           "package": "monadiccp",
@@ -15653,6 +16976,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "Field",
           "package": "monadiccp",
@@ -15666,6 +16990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "Info",
           "package": "monadiccp",
@@ -15674,6 +16999,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "Info",
           "package": "monadiccp",
@@ -15687,6 +17013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "TreeState",
           "package": "monadiccp",
@@ -15695,6 +17022,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "TreeState",
           "package": "monadiccp",
@@ -15708,6 +17036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "(@@)",
           "package": "monadiccp",
@@ -15717,6 +17046,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "(@@) @@",
           "normalized": "Ordering-\u003eOrdering-\u003eOrdering",
@@ -15731,6 +17061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "Info",
           "package": "monadiccp",
@@ -15740,6 +17071,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "Info",
           "package": "monadiccp",
@@ -15753,6 +17085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "abort",
           "package": "monadiccp",
@@ -15762,6 +17095,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "abort",
           "normalized": "Info-\u003eStatement",
@@ -15776,6 +17110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "abort_",
           "package": "monadiccp",
@@ -15785,6 +17120,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "abort_",
           "normalized": "[Statement-\u003eStatement]",
@@ -15799,6 +17135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "baseTstate",
           "package": "monadiccp",
@@ -15808,6 +17145,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "baseTstate",
           "package": "monadiccp",
@@ -15821,6 +17159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "clone",
           "package": "monadiccp",
@@ -15830,6 +17169,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "clone",
           "normalized": "Info-\u003eStatement",
@@ -15844,6 +17184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "cloneIt",
           "package": "monadiccp",
@@ -15853,6 +17194,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "cloneIt",
           "normalized": "Info-\u003eInfo-\u003eStatement",
@@ -15868,6 +17210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "commit",
           "package": "monadiccp",
@@ -15877,6 +17220,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "commit",
           "normalized": "Info-\u003eStatement",
@@ -15891,6 +17235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "commit_",
           "package": "monadiccp",
@@ -15900,6 +17245,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "commit_",
           "normalized": "[Statement-\u003eStatement]",
@@ -15914,6 +17260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "estate",
           "package": "monadiccp",
@@ -15923,6 +17270,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "estate",
           "normalized": "Info-\u003eValue",
@@ -15937,6 +17285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "estate_type",
           "package": "monadiccp",
@@ -15946,6 +17295,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "estate_type",
           "normalized": "Info-\u003eType",
@@ -15960,6 +17310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "evalStateType",
           "package": "monadiccp",
@@ -15969,6 +17320,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "evalStateType",
           "package": "monadiccp",
@@ -15982,6 +17334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "field",
           "package": "monadiccp",
@@ -15991,6 +17344,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "field",
           "normalized": "String-\u003eValue",
@@ -16005,6 +17359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "info",
           "package": "monadiccp",
@@ -16014,6 +17369,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "info",
           "package": "monadiccp",
@@ -16026,6 +17382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "mkInfo",
           "package": "monadiccp",
@@ -16035,6 +17392,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "mkInfo",
           "normalized": "[Char]-\u003eInfo",
@@ -16050,6 +17408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "newinfo",
           "package": "monadiccp",
@@ -16059,6 +17418,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "newinfo",
           "normalized": "Info-\u003e[Char]-\u003eInfo",
@@ -16073,6 +17433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "old",
           "package": "monadiccp",
@@ -16082,6 +17443,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "old",
           "package": "monadiccp",
@@ -16094,6 +17456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "onAbort",
           "package": "monadiccp",
@@ -16103,6 +17466,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "onAbort",
           "normalized": "Info-\u003eStatement-\u003eInfo",
@@ -16118,6 +17482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "onCommit",
           "package": "monadiccp",
@@ -16127,6 +17492,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "onCommit",
           "normalized": "Info-\u003eStatement-\u003eInfo",
@@ -16142,6 +17508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "onCommit'",
           "package": "monadiccp",
@@ -16151,6 +17518,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "onCommit'",
           "normalized": "Info-\u003eStatement-\u003eInfo",
@@ -16166,6 +17534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "path",
           "package": "monadiccp",
@@ -16175,6 +17544,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "path",
           "normalized": "TreeState-\u003eTreeState",
@@ -16189,6 +17559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "primClone",
           "package": "monadiccp",
@@ -16198,6 +17569,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "primClone",
           "normalized": "Info-\u003eInfo-\u003eStatement",
@@ -16213,6 +17585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "resetAbort",
           "package": "monadiccp",
@@ -16222,6 +17595,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "resetAbort",
           "normalized": "Info-\u003eInfo",
@@ -16237,6 +17611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "resetClone",
           "package": "monadiccp",
@@ -16246,6 +17621,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "resetClone",
           "normalized": "Info-\u003eInfo",
@@ -16261,6 +17637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "resetCommit",
           "package": "monadiccp",
@@ -16270,6 +17647,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "resetCommit",
           "normalized": "Info-\u003eInfo",
@@ -16285,6 +17663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "resetInfo",
           "package": "monadiccp",
@@ -16294,6 +17673,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "resetInfo",
           "normalized": "Info-\u003eInfo",
@@ -16309,6 +17689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "resetPath",
           "package": "monadiccp",
@@ -16318,6 +17699,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "resetPath",
           "normalized": "Info-\u003eInfo",
@@ -16333,6 +17715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "shiftAbort",
           "package": "monadiccp",
@@ -16342,6 +17725,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "shiftAbort",
           "normalized": "Info-\u003eInfo",
@@ -16357,6 +17741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "shiftCommit",
           "package": "monadiccp",
@@ -16366,6 +17751,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "shiftCommit",
           "normalized": "Info-\u003eInfo",
@@ -16381,6 +17767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "space",
           "package": "monadiccp",
@@ -16390,6 +17777,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "space",
           "normalized": "Info-\u003eValue",
@@ -16404,6 +17792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "stackField",
           "package": "monadiccp",
@@ -16413,6 +17802,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "stackField",
           "normalized": "[(String,String)]",
@@ -16428,6 +17818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "treeStateType",
           "package": "monadiccp",
@@ -16437,6 +17828,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "treeStateType",
           "package": "monadiccp",
@@ -16450,6 +17842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "tstate",
           "package": "monadiccp",
@@ -16459,6 +17852,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "tstate",
           "normalized": "Info-\u003eTreeState",
@@ -16473,6 +17867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "tstate_type",
           "package": "monadiccp",
@@ -16482,6 +17877,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "tstate_type",
           "normalized": "Info-\u003eType",
@@ -16496,6 +17892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "withBase",
           "package": "monadiccp",
@@ -16505,6 +17902,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "withBase",
           "normalized": "Info-\u003eString-\u003eInfo",
@@ -16520,6 +17918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "withClone",
           "package": "monadiccp",
@@ -16529,6 +17928,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "withClone",
           "normalized": "Info-\u003e(Info-\u003eStatement)-\u003eInfo",
@@ -16544,6 +17944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "withCommit",
           "package": "monadiccp",
@@ -16553,6 +17954,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "withCommit",
           "normalized": "Info-\u003e(Statement-\u003eStatement)-\u003eInfo",
@@ -16568,6 +17970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "withField",
           "package": "monadiccp",
@@ -16577,6 +17980,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "withField",
           "normalized": "Info-\u003e(String,Info-\u003eValue)-\u003eInfo",
@@ -16592,6 +17996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.GeneratorInfo",
           "name": "withPath",
           "package": "monadiccp",
@@ -16601,6 +18006,7 @@
         },
         "index": {
           "hierarchy": "Control Search GeneratorInfo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.GeneratorInfo",
           "name": "withPath",
           "normalized": "Info-\u003e(TreeState-\u003eTreeState)-\u003eType-\u003eType-\u003eInfo",
@@ -16616,6 +18022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Language",
           "package": "monadiccp",
@@ -16624,6 +18031,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Language",
           "package": "monadiccp",
@@ -16637,6 +18045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Constraint",
           "package": "monadiccp",
@@ -16645,6 +18054,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Constraint",
           "package": "monadiccp",
@@ -16658,6 +18068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "GenMode",
           "package": "monadiccp",
@@ -16666,6 +18077,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "GenMode",
           "package": "monadiccp",
@@ -16679,6 +18091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Pretty",
           "package": "monadiccp",
@@ -16687,6 +18100,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Pretty",
           "package": "monadiccp",
@@ -16700,6 +18114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "PrettyFlags",
           "package": "monadiccp",
@@ -16708,6 +18123,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "PrettyFlags",
           "package": "monadiccp",
@@ -16721,6 +18137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Simplifiable",
           "package": "monadiccp",
@@ -16729,6 +18146,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Simplifiable",
           "package": "monadiccp",
@@ -16742,6 +18160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Statement",
           "package": "monadiccp",
@@ -16750,6 +18169,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Statement",
           "package": "monadiccp",
@@ -16763,6 +18183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Struct",
           "package": "monadiccp",
@@ -16771,6 +18192,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Struct",
           "package": "monadiccp",
@@ -16784,6 +18206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Type",
           "package": "monadiccp",
@@ -16792,6 +18215,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Type",
           "package": "monadiccp",
@@ -16805,6 +18229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Value",
           "package": "monadiccp",
@@ -16813,6 +18238,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Value",
           "package": "monadiccp",
@@ -16826,6 +18252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "(|||)",
           "package": "monadiccp",
@@ -16835,6 +18262,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "(|||) |||",
           "normalized": "Value-\u003eValue-\u003eValue",
@@ -16849,6 +18277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "(&&&)",
           "package": "monadiccp",
@@ -16858,6 +18287,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "(&&&) &&&",
           "normalized": "Value-\u003eValue-\u003eValue",
@@ -16872,6 +18302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "(\u003c==)",
           "package": "monadiccp",
@@ -16881,6 +18312,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "(\u003c==) \u003c==",
           "normalized": "Value-\u003eValue-\u003eStatement",
@@ -16895,6 +18327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "(\u003e\u003e\u003e)",
           "package": "monadiccp",
@@ -16904,6 +18337,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "(\u003e\u003e\u003e) \u003e\u003e\u003e",
           "normalized": "Statement-\u003eStatement-\u003eStatement",
@@ -16918,6 +18352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "(@-\u003e)",
           "package": "monadiccp",
@@ -16927,6 +18362,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "(@-\u003e) @-\u003e",
           "normalized": "Value-\u003eString-\u003eValue",
@@ -16941,6 +18377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "(@\u003c)",
           "package": "monadiccp",
@@ -16950,6 +18387,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "(@\u003c) @\u003c",
           "normalized": "Value-\u003eValue-\u003eValue",
@@ -16964,6 +18402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "(@\u003c=)",
           "package": "monadiccp",
@@ -16973,6 +18412,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "(@\u003c=) @\u003c=",
           "normalized": "Value-\u003eValue-\u003eValue",
@@ -16987,6 +18427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "(@==)",
           "package": "monadiccp",
@@ -16996,6 +18437,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "(@==) @==",
           "normalized": "Value-\u003eValue-\u003eValue",
@@ -17010,6 +18452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "(@=\u003e)",
           "package": "monadiccp",
@@ -17019,6 +18462,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "(@=\u003e) @=\u003e",
           "normalized": "Value-\u003eString-\u003eValue",
@@ -17033,6 +18477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "(@\u003e=)",
           "package": "monadiccp",
@@ -17042,6 +18487,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "(@\u003e=) @\u003e=",
           "normalized": "Value-\u003eValue-\u003eValue",
@@ -17056,6 +18502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "AVarElem",
           "package": "monadiccp",
@@ -17065,6 +18512,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "AVarElem",
           "package": "monadiccp",
@@ -17078,6 +18526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "AVarSize",
           "package": "monadiccp",
@@ -17087,6 +18536,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "AVarSize",
           "package": "monadiccp",
@@ -17100,6 +18550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Abort",
           "package": "monadiccp",
@@ -17109,6 +18560,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Abort",
           "package": "monadiccp",
@@ -17122,6 +18574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Abs",
           "package": "monadiccp",
@@ -17131,6 +18584,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Abs",
           "package": "monadiccp",
@@ -17144,6 +18598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "And",
           "package": "monadiccp",
@@ -17153,6 +18608,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "And",
           "package": "monadiccp",
@@ -17166,6 +18622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Assign",
           "package": "monadiccp",
@@ -17175,6 +18632,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Assign",
           "package": "monadiccp",
@@ -17188,6 +18646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Assigned",
           "package": "monadiccp",
@@ -17197,6 +18656,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Assigned",
           "package": "monadiccp",
@@ -17210,6 +18670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "BAVarElem",
           "package": "monadiccp",
@@ -17219,6 +18680,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "BAVarElem",
           "package": "monadiccp",
@@ -17232,6 +18694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "BAVarSize",
           "package": "monadiccp",
@@ -17241,6 +18704,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "BAVarSize",
           "package": "monadiccp",
@@ -17254,6 +18718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "BFold",
           "package": "monadiccp",
@@ -17263,6 +18728,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "BFold",
           "normalized": "BFold String Value Value Value(Value-\u003eValue)(Value-\u003eValue-\u003eValue)",
@@ -17278,6 +18744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "BIFold",
           "package": "monadiccp",
@@ -17287,6 +18754,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "BIFold",
           "normalized": "BIFold String Value Value Value(Value-\u003eValue)(Value-\u003eValue-\u003eValue)",
@@ -17302,6 +18770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "BVal",
           "package": "monadiccp",
@@ -17311,6 +18780,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "BVal",
           "package": "monadiccp",
@@ -17324,6 +18794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Base",
           "package": "monadiccp",
@@ -17333,6 +18804,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Base",
           "package": "monadiccp",
@@ -17346,6 +18818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "BaseContinue",
           "package": "monadiccp",
@@ -17355,6 +18828,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "BaseContinue",
           "package": "monadiccp",
@@ -17368,6 +18842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Block",
           "package": "monadiccp",
@@ -17377,6 +18852,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Block",
           "package": "monadiccp",
@@ -17390,6 +18866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Bool",
           "package": "monadiccp",
@@ -17399,6 +18876,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Bool",
           "package": "monadiccp",
@@ -17412,6 +18890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Clone",
           "package": "monadiccp",
@@ -17421,6 +18900,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Clone",
           "package": "monadiccp",
@@ -17434,6 +18914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Cond",
           "package": "monadiccp",
@@ -17443,6 +18924,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Cond",
           "package": "monadiccp",
@@ -17456,6 +18938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "DebugOutput",
           "package": "monadiccp",
@@ -17465,6 +18948,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "DebugOutput",
           "package": "monadiccp",
@@ -17478,6 +18962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "DebugValue",
           "package": "monadiccp",
@@ -17487,6 +18972,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "DebugValue",
           "package": "monadiccp",
@@ -17500,6 +18986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Degree",
           "package": "monadiccp",
@@ -17509,6 +18996,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Degree",
           "package": "monadiccp",
@@ -17522,6 +19010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Delete",
           "package": "monadiccp",
@@ -17531,6 +19020,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Delete",
           "package": "monadiccp",
@@ -17544,6 +19034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Deref",
           "package": "monadiccp",
@@ -17553,6 +19044,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Deref",
           "package": "monadiccp",
@@ -17566,6 +19058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Div",
           "package": "monadiccp",
@@ -17575,6 +19068,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Div",
           "package": "monadiccp",
@@ -17588,6 +19082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Dummy",
           "package": "monadiccp",
@@ -17597,6 +19092,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Dummy",
           "package": "monadiccp",
@@ -17610,6 +19106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Eq",
           "package": "monadiccp",
@@ -17619,6 +19116,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Eq",
           "package": "monadiccp",
@@ -17632,6 +19130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "EqC",
           "package": "monadiccp",
@@ -17641,6 +19140,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "EqC",
           "package": "monadiccp",
@@ -17654,6 +19154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "FalseC",
           "package": "monadiccp",
@@ -17663,6 +19164,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "FalseC",
           "package": "monadiccp",
@@ -17676,6 +19178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Field",
           "package": "monadiccp",
@@ -17685,6 +19188,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Field",
           "package": "monadiccp",
@@ -17698,6 +19202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Field'",
           "package": "monadiccp",
@@ -17707,6 +19212,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Field'",
           "package": "monadiccp",
@@ -17720,6 +19226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Fold",
           "package": "monadiccp",
@@ -17729,6 +19236,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Fold",
           "normalized": "Fold String Value Value Value(Value-\u003eValue)(Value-\u003eValue-\u003eValue)",
@@ -17744,6 +19252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Gq",
           "package": "monadiccp",
@@ -17753,6 +19262,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Gq",
           "package": "monadiccp",
@@ -17766,6 +19276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "GqC",
           "package": "monadiccp",
@@ -17775,6 +19286,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "GqC",
           "package": "monadiccp",
@@ -17788,6 +19300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Gt",
           "package": "monadiccp",
@@ -17797,6 +19310,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Gt",
           "package": "monadiccp",
@@ -17810,6 +19324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "GtC",
           "package": "monadiccp",
@@ -17819,6 +19334,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "GtC",
           "package": "monadiccp",
@@ -17832,6 +19348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "IFold",
           "package": "monadiccp",
@@ -17841,6 +19358,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "IFold",
           "normalized": "IFold String Value Value Value(Value-\u003eValue)(Value-\u003eValue-\u003eValue)",
@@ -17856,6 +19374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "IVal",
           "package": "monadiccp",
@@ -17865,6 +19384,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "IVal",
           "package": "monadiccp",
@@ -17878,6 +19398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "IVar",
           "package": "monadiccp",
@@ -17887,6 +19408,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "IVar",
           "package": "monadiccp",
@@ -17900,6 +19422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "IfThenElse",
           "package": "monadiccp",
@@ -17909,6 +19432,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "IfThenElse",
           "package": "monadiccp",
@@ -17922,6 +19446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Int",
           "package": "monadiccp",
@@ -17931,6 +19456,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Int",
           "package": "monadiccp",
@@ -17944,6 +19470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "LbRegret",
           "package": "monadiccp",
@@ -17953,6 +19480,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "LbRegret",
           "package": "monadiccp",
@@ -17966,6 +19494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "LqC",
           "package": "monadiccp",
@@ -17975,6 +19504,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "LqC",
           "package": "monadiccp",
@@ -17988,6 +19518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Lt",
           "package": "monadiccp",
@@ -17997,6 +19528,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Lt",
           "package": "monadiccp",
@@ -18010,6 +19542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "LtC",
           "package": "monadiccp",
@@ -18019,6 +19552,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "LtC",
           "package": "monadiccp",
@@ -18032,6 +19566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Max",
           "package": "monadiccp",
@@ -18041,6 +19576,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Max",
           "package": "monadiccp",
@@ -18054,6 +19590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "MaxDom",
           "package": "monadiccp",
@@ -18063,6 +19600,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "MaxDom",
           "package": "monadiccp",
@@ -18076,6 +19614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "MaxVal",
           "package": "monadiccp",
@@ -18085,6 +19624,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "MaxVal",
           "package": "monadiccp",
@@ -18098,6 +19638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Median",
           "package": "monadiccp",
@@ -18107,6 +19648,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Median",
           "package": "monadiccp",
@@ -18120,6 +19662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "MinDom",
           "package": "monadiccp",
@@ -18129,6 +19672,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "MinDom",
           "package": "monadiccp",
@@ -18142,6 +19686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "MinVal",
           "package": "monadiccp",
@@ -18151,6 +19696,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "MinVal",
           "package": "monadiccp",
@@ -18164,6 +19710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Minus",
           "package": "monadiccp",
@@ -18173,6 +19720,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Minus",
           "package": "monadiccp",
@@ -18186,6 +19734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Mod",
           "package": "monadiccp",
@@ -18195,6 +19744,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Mod",
           "package": "monadiccp",
@@ -18208,6 +19758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "ModeFZ",
           "package": "monadiccp",
@@ -18217,6 +19768,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "ModeFZ",
           "package": "monadiccp",
@@ -18230,6 +19782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "ModeGecode",
           "package": "monadiccp",
@@ -18239,6 +19792,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "ModeGecode",
           "package": "monadiccp",
@@ -18252,6 +19806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "ModeMCP",
           "package": "monadiccp",
@@ -18261,6 +19816,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "ModeMCP",
           "package": "monadiccp",
@@ -18274,6 +19830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "ModeUnk",
           "package": "monadiccp",
@@ -18283,6 +19840,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "ModeUnk",
           "package": "monadiccp",
@@ -18296,6 +19854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Mult",
           "package": "monadiccp",
@@ -18305,6 +19864,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Mult",
           "package": "monadiccp",
@@ -18318,6 +19878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "New",
           "package": "monadiccp",
@@ -18327,6 +19888,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "New",
           "package": "monadiccp",
@@ -18340,6 +19902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Not",
           "package": "monadiccp",
@@ -18349,6 +19912,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Not",
           "package": "monadiccp",
@@ -18362,6 +19926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "NqC",
           "package": "monadiccp",
@@ -18371,6 +19936,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "NqC",
           "package": "monadiccp",
@@ -18384,6 +19950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Null",
           "package": "monadiccp",
@@ -18393,6 +19960,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Null",
           "package": "monadiccp",
@@ -18406,6 +19974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Or",
           "package": "monadiccp",
@@ -18415,6 +19984,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Or",
           "package": "monadiccp",
@@ -18428,6 +19998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "PField",
           "package": "monadiccp",
@@ -18437,6 +20008,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "PField",
           "package": "monadiccp",
@@ -18450,6 +20022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Plus",
           "package": "monadiccp",
@@ -18459,6 +20032,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Plus",
           "package": "monadiccp",
@@ -18472,6 +20046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Pointer",
           "package": "monadiccp",
@@ -18481,6 +20056,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Pointer",
           "package": "monadiccp",
@@ -18494,6 +20070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Post",
           "package": "monadiccp",
@@ -18503,6 +20080,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Post",
           "package": "monadiccp",
@@ -18516,6 +20094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "PrettyFlags",
           "package": "monadiccp",
@@ -18525,6 +20104,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "PrettyFlags",
           "package": "monadiccp",
@@ -18538,6 +20118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Print",
           "package": "monadiccp",
@@ -18547,6 +20128,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Print",
           "normalized": "Print Value[String]",
@@ -18562,6 +20144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Push",
           "package": "monadiccp",
@@ -18571,6 +20154,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Push",
           "package": "monadiccp",
@@ -18584,6 +20168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Random",
           "package": "monadiccp",
@@ -18593,6 +20178,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Random",
           "package": "monadiccp",
@@ -18606,6 +20192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Ref",
           "package": "monadiccp",
@@ -18615,6 +20202,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Ref",
           "package": "monadiccp",
@@ -18628,6 +20216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "RootSpace",
           "package": "monadiccp",
@@ -18637,6 +20226,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "RootSpace",
           "package": "monadiccp",
@@ -18650,6 +20240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "SHook",
           "package": "monadiccp",
@@ -18659,6 +20250,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "SHook",
           "package": "monadiccp",
@@ -18672,6 +20264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "SType",
           "package": "monadiccp",
@@ -18681,6 +20274,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "SType",
           "package": "monadiccp",
@@ -18694,6 +20288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Seq",
           "package": "monadiccp",
@@ -18703,6 +20298,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Seq",
           "package": "monadiccp",
@@ -18716,6 +20312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Skip",
           "package": "monadiccp",
@@ -18725,6 +20322,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Skip",
           "package": "monadiccp",
@@ -18738,6 +20336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "SpaceType",
           "package": "monadiccp",
@@ -18747,6 +20346,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "SpaceType",
           "package": "monadiccp",
@@ -18760,6 +20360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Struct",
           "package": "monadiccp",
@@ -18769,6 +20370,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Struct",
           "normalized": "Struct String[(Type,String)]",
@@ -18784,6 +20386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "THook",
           "package": "monadiccp",
@@ -18793,6 +20396,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "THook",
           "package": "monadiccp",
@@ -18806,6 +20410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "TrueC",
           "package": "monadiccp",
@@ -18815,6 +20420,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "TrueC",
           "package": "monadiccp",
@@ -18828,6 +20434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "UbRegret",
           "package": "monadiccp",
@@ -18837,6 +20444,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "UbRegret",
           "package": "monadiccp",
@@ -18850,6 +20458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Union",
           "package": "monadiccp",
@@ -18859,6 +20468,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Union",
           "normalized": "Union[(Type,String)]",
@@ -18874,6 +20484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "VHook",
           "package": "monadiccp",
@@ -18883,6 +20494,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "VHook",
           "package": "monadiccp",
@@ -18896,6 +20508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "Var",
           "package": "monadiccp",
@@ -18905,6 +20518,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "Var",
           "package": "monadiccp",
@@ -18918,6 +20532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "WDegree",
           "package": "monadiccp",
@@ -18927,6 +20542,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "WDegree",
           "package": "monadiccp",
@@ -18940,6 +20556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "assign",
           "package": "monadiccp",
@@ -18949,6 +20566,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "assign",
           "normalized": "Value-\u003eValue-\u003eStatement",
@@ -18963,6 +20581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "comment",
           "package": "monadiccp",
@@ -18972,6 +20591,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "comment",
           "normalized": "[Char]-\u003eStatement",
@@ -18986,6 +20606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "dec",
           "package": "monadiccp",
@@ -18995,6 +20616,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "dec",
           "normalized": "Value-\u003eStatement",
@@ -19009,6 +20631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "divValue",
           "package": "monadiccp",
@@ -19018,6 +20641,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "divValue",
           "normalized": "Value-\u003eValue-\u003eValue",
@@ -19033,6 +20657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "false",
           "package": "monadiccp",
@@ -19042,6 +20667,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "false",
           "package": "monadiccp",
@@ -19054,6 +20680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "genMode",
           "package": "monadiccp",
@@ -19063,6 +20690,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "genMode",
           "package": "monadiccp",
@@ -19076,6 +20704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "ifthen",
           "package": "monadiccp",
@@ -19085,6 +20714,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "ifthen",
           "normalized": "Value-\u003eStatement-\u003eStatement",
@@ -19099,6 +20729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "inc",
           "package": "monadiccp",
@@ -19108,6 +20739,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "inc",
           "normalized": "Value-\u003eStatement",
@@ -19122,6 +20754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "inliner",
           "package": "monadiccp",
@@ -19131,6 +20764,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "inliner",
           "normalized": "(Statement-\u003eMaybe Statement)-\u003eStatement-\u003eStatement",
@@ -19145,6 +20779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "lex",
           "package": "monadiccp",
@@ -19154,6 +20789,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "lex",
           "normalized": "[Value-\u003eValue-\u003eValue]-\u003e[Value]-\u003e[Value]-\u003eValue",
@@ -19168,6 +20804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "neg",
           "package": "monadiccp",
@@ -19177,6 +20814,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "neg",
           "normalized": "Constraint-\u003eConstraint",
@@ -19191,6 +20829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "pretty",
           "package": "monadiccp",
@@ -19200,6 +20839,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "pretty",
           "normalized": "a-\u003eDoc",
@@ -19214,6 +20854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "prettyX",
           "package": "monadiccp",
@@ -19223,6 +20864,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "prettyX",
           "normalized": "PrettyFlags-\u003ea-\u003eDoc",
@@ -19237,6 +20879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "renderVar",
           "package": "monadiccp",
@@ -19246,6 +20889,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "renderVar",
           "normalized": "PrettyFlags-\u003eValue-\u003eDoc",
@@ -19261,6 +20905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "seqs",
           "package": "monadiccp",
@@ -19270,6 +20915,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "seqs",
           "normalized": "[Statement]-\u003eStatement",
@@ -19284,6 +20930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "simplStmt",
           "package": "monadiccp",
@@ -19293,6 +20940,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "simplStmt",
           "normalized": "Statement-\u003eStatement",
@@ -19308,6 +20956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "simplValue",
           "package": "monadiccp",
@@ -19317,6 +20966,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "simplValue",
           "normalized": "Value-\u003eValue",
@@ -19332,6 +20982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "simplify",
           "package": "monadiccp",
@@ -19341,6 +20992,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "simplify",
           "normalized": "a-\u003ea",
@@ -19355,6 +21007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "spacetype",
           "package": "monadiccp",
@@ -19364,6 +21017,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "spacetype",
           "normalized": "GenMode-\u003e[Char]",
@@ -19378,6 +21032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "true",
           "package": "monadiccp",
@@ -19387,6 +21042,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "true",
           "package": "monadiccp",
@@ -19399,6 +21055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Language",
           "name": "xsspace",
           "package": "monadiccp",
@@ -19408,6 +21065,7 @@
         },
         "index": {
           "hierarchy": "Control Search Language",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Language",
           "name": "xsspace",
           "normalized": "PrettyFlags-\u003eValue-\u003eString-\u003eDoc",
@@ -19422,6 +21080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "Memo",
           "package": "monadiccp",
@@ -19430,6 +21089,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "Memo",
           "package": "monadiccp",
@@ -19443,6 +21103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "MemoInfo",
           "package": "monadiccp",
@@ -19451,6 +21112,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "MemoInfo",
           "package": "monadiccp",
@@ -19464,6 +21126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "MemoKey",
           "package": "monadiccp",
@@ -19472,6 +21135,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "MemoKey",
           "package": "monadiccp",
@@ -19485,6 +21149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "MemoM",
           "package": "monadiccp",
@@ -19493,6 +21158,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "MemoM",
           "package": "monadiccp",
@@ -19506,6 +21172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "MemoT",
           "package": "monadiccp",
@@ -19514,6 +21181,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "MemoT",
           "package": "monadiccp",
@@ -19527,6 +21195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "MemoValue",
           "package": "monadiccp",
@@ -19535,6 +21204,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "MemoValue",
           "package": "monadiccp",
@@ -19548,6 +21218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "MemoInfo",
           "package": "monadiccp",
@@ -19557,6 +21228,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "MemoInfo",
           "package": "monadiccp",
@@ -19570,6 +21242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "MemoKey",
           "package": "monadiccp",
@@ -19579,6 +21252,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "MemoKey",
           "package": "monadiccp",
@@ -19592,6 +21266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "MemoT",
           "package": "monadiccp",
@@ -19601,6 +21276,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "MemoT",
           "package": "monadiccp",
@@ -19614,6 +21290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "MemoValue",
           "package": "monadiccp",
@@ -19623,6 +21300,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "MemoValue",
           "package": "monadiccp",
@@ -19636,6 +21314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "getMemo",
           "package": "monadiccp",
@@ -19645,6 +21324,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "getMemo",
           "package": "monadiccp",
@@ -19658,6 +21338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "initMemoInfo",
           "package": "monadiccp",
@@ -19667,6 +21348,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "initMemoInfo",
           "package": "monadiccp",
@@ -19680,6 +21362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "memoCode",
           "package": "monadiccp",
@@ -19689,6 +21372,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "memoCode",
           "package": "monadiccp",
@@ -19702,6 +21386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "memoCount",
           "package": "monadiccp",
@@ -19711,6 +21396,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "memoCount",
           "package": "monadiccp",
@@ -19724,6 +21410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "memoExtra",
           "package": "monadiccp",
@@ -19733,6 +21420,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "memoExtra",
           "package": "monadiccp",
@@ -19746,6 +21434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "memoFields",
           "package": "monadiccp",
@@ -19755,6 +21444,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "memoFields",
           "normalized": "[(String,String)]",
@@ -19770,6 +21460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "memoFn",
           "package": "monadiccp",
@@ -19779,6 +21470,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "memoFn",
           "package": "monadiccp",
@@ -19792,6 +21484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "memoId",
           "package": "monadiccp",
@@ -19801,6 +21494,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "memoId",
           "package": "monadiccp",
@@ -19814,6 +21508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "memoInfo",
           "package": "monadiccp",
@@ -19823,6 +21518,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "memoInfo",
           "package": "monadiccp",
@@ -19836,6 +21532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "memoMap",
           "package": "monadiccp",
@@ -19845,6 +21542,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "memoMap",
           "package": "monadiccp",
@@ -19858,6 +21556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "memoParams",
           "package": "monadiccp",
@@ -19867,6 +21566,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "memoParams",
           "normalized": "[String]",
@@ -19882,6 +21582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "memoRead",
           "package": "monadiccp",
@@ -19891,6 +21592,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "memoRead",
           "package": "monadiccp",
@@ -19904,6 +21606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "memoStack",
           "package": "monadiccp",
@@ -19913,6 +21616,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "memoStack",
           "package": "monadiccp",
@@ -19926,6 +21630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "memoStatement",
           "package": "monadiccp",
@@ -19935,6 +21640,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "memoStatement",
           "package": "monadiccp",
@@ -19948,6 +21654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "memoUsed",
           "package": "monadiccp",
@@ -19957,6 +21664,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "memoUsed",
           "package": "monadiccp",
@@ -19970,6 +21678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "runMemoT",
           "package": "monadiccp",
@@ -19979,6 +21688,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "runMemoT",
           "normalized": "MemoT a b-\u003ea(b,[(MemoKey,MemoValue)])",
@@ -19994,6 +21704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "setMemo",
           "package": "monadiccp",
@@ -20003,6 +21714,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "setMemo",
           "normalized": "MemoInfo-\u003ea()",
@@ -20018,6 +21730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Memo",
           "name": "unMemoT",
           "package": "monadiccp",
@@ -20027,6 +21740,7 @@
         },
         "index": {
           "hierarchy": "Control Search Memo",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Memo",
           "name": "unMemoT",
           "package": "monadiccp",
@@ -20040,6 +21754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.MemoReader",
           "name": "MemoReader",
           "package": "monadiccp",
@@ -20048,6 +21763,7 @@
         },
         "index": {
           "hierarchy": "Control Search MemoReader",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.MemoReader",
           "name": "MemoReader",
           "package": "monadiccp",
@@ -20061,6 +21777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.MemoReader",
           "name": "MemoReaderT",
           "package": "monadiccp",
@@ -20069,6 +21786,7 @@
         },
         "index": {
           "hierarchy": "Control Search MemoReader",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.MemoReader",
           "name": "MemoReaderT",
           "package": "monadiccp",
@@ -20082,6 +21800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.MemoReader",
           "name": "MemoReaderT",
           "package": "monadiccp",
@@ -20091,6 +21810,7 @@
         },
         "index": {
           "hierarchy": "Control Search MemoReader",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.MemoReader",
           "name": "MemoReaderT",
           "package": "monadiccp",
@@ -20104,6 +21824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.MemoReader",
           "name": "deMemoReaderT",
           "package": "monadiccp",
@@ -20113,6 +21834,7 @@
         },
         "index": {
           "hierarchy": "Control Search MemoReader",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.MemoReader",
           "name": "deMemoReaderT",
           "normalized": "a-\u003eInt-\u003eMemoReaderT a b c-\u003eb c",
@@ -20128,6 +21850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.MemoReader",
           "name": "memoReaderT",
           "package": "monadiccp",
@@ -20137,6 +21860,7 @@
         },
         "index": {
           "hierarchy": "Control Search MemoReader",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.MemoReader",
           "name": "memoReaderT",
           "normalized": "(a-\u003eInt-\u003eb c)-\u003eMemoReaderT a b c",
@@ -20152,6 +21876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.MemoReader",
           "name": "modelMemoReaderT",
           "package": "monadiccp",
@@ -20161,6 +21886,7 @@
         },
         "index": {
           "hierarchy": "Control Search MemoReader",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.MemoReader",
           "name": "modelMemoReaderT",
           "package": "monadiccp",
@@ -20174,6 +21900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.MemoReader",
           "name": "runMemoReaderT",
           "package": "monadiccp",
@@ -20183,6 +21910,7 @@
         },
         "index": {
           "hierarchy": "Control Search MemoReader",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.MemoReader",
           "name": "runMemoReaderT",
           "normalized": "a-\u003eMemoReaderT a b c-\u003eb c",
@@ -20198,6 +21926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.MemoReader",
           "name": "unMemoReaderT",
           "package": "monadiccp",
@@ -20207,6 +21936,7 @@
         },
         "index": {
           "hierarchy": "Control Search MemoReader",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.MemoReader",
           "name": "unMemoReaderT",
           "normalized": "Int-\u003eReaderT a b c",
@@ -20222,6 +21952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.SStateT",
           "name": "SStateT",
           "package": "monadiccp",
@@ -20230,6 +21961,7 @@
         },
         "index": {
           "hierarchy": "Control Search SStateT",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.SStateT",
           "name": "SStateT",
           "package": "monadiccp",
@@ -20243,6 +21975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.SStateT",
           "name": "SStateT",
           "package": "monadiccp",
@@ -20251,6 +21984,7 @@
         },
         "index": {
           "hierarchy": "Control Search SStateT",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.SStateT",
           "name": "SStateT",
           "package": "monadiccp",
@@ -20264,6 +21998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.SStateT",
           "name": "Tup2",
           "package": "monadiccp",
@@ -20272,6 +22007,7 @@
         },
         "index": {
           "hierarchy": "Control Search SStateT",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.SStateT",
           "name": "Tup2",
           "package": "monadiccp",
@@ -20285,6 +22021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.SStateT",
           "name": "Tup2",
           "package": "monadiccp",
@@ -20294,6 +22031,7 @@
         },
         "index": {
           "hierarchy": "Control Search SStateT",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.SStateT",
           "name": "Tup2",
           "package": "monadiccp",
@@ -20307,6 +22045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.SStateT",
           "name": "fst2",
           "package": "monadiccp",
@@ -20316,6 +22055,7 @@
         },
         "index": {
           "hierarchy": "Control Search SStateT",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.SStateT",
           "name": "fst2",
           "normalized": "Tup a a-\u003ea",
@@ -20330,6 +22070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.SStateT",
           "name": "runSStateT",
           "package": "monadiccp",
@@ -20339,6 +22080,7 @@
         },
         "index": {
           "hierarchy": "Control Search SStateT",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.SStateT",
           "name": "runSStateT",
           "normalized": "a-\u003eSStateT a b c-\u003eb(Tup c a)",
@@ -20354,6 +22096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.SStateT",
           "name": "snd2",
           "package": "monadiccp",
@@ -20363,6 +22106,7 @@
         },
         "index": {
           "hierarchy": "Control Search SStateT",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.SStateT",
           "name": "snd2",
           "normalized": "Tup a a-\u003ea",
@@ -20377,6 +22121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.SStateT",
           "name": "sstateT",
           "package": "monadiccp",
@@ -20386,6 +22131,7 @@
         },
         "index": {
           "hierarchy": "Control Search SStateT",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.SStateT",
           "name": "sstateT",
           "normalized": "(a-\u003eb(Tup c a))-\u003eSStateT a b c",
@@ -20400,6 +22146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "Stat",
           "package": "monadiccp",
@@ -20408,6 +22155,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "Stat",
           "package": "monadiccp",
@@ -20421,6 +22169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "IValue",
           "package": "monadiccp",
@@ -20429,6 +22178,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "IValue",
           "package": "monadiccp",
@@ -20442,6 +22192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "Stat",
           "package": "monadiccp",
@@ -20450,6 +22201,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "Stat",
           "package": "monadiccp",
@@ -20463,6 +22215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "(#/)",
           "package": "monadiccp",
@@ -20472,6 +22225,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "(#/) #/",
           "normalized": "Stat-\u003eStat-\u003eStat",
@@ -20486,6 +22240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "(#\u003c)",
           "package": "monadiccp",
@@ -20495,6 +22250,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "(#\u003c) #\u003c",
           "normalized": "Stat-\u003eStat-\u003eStat",
@@ -20509,6 +22265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "(#\u003c=)",
           "package": "monadiccp",
@@ -20518,6 +22275,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "(#\u003c=) #\u003c=",
           "normalized": "Stat-\u003eStat-\u003eStat",
@@ -20532,6 +22290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "(#=)",
           "package": "monadiccp",
@@ -20541,6 +22300,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "(#=) #=",
           "normalized": "Stat-\u003eStat-\u003eStat",
@@ -20555,6 +22315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "(#\u003e)",
           "package": "monadiccp",
@@ -20564,6 +22325,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "(#\u003e) #\u003e",
           "normalized": "Stat-\u003eStat-\u003eStat",
@@ -20578,6 +22340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "(#\u003e=)",
           "package": "monadiccp",
@@ -20587,6 +22350,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "(#\u003e=) #\u003e=",
           "normalized": "Stat-\u003eStat-\u003eStat",
@@ -20601,6 +22365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "Stat",
           "package": "monadiccp",
@@ -20610,6 +22375,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "Stat",
           "package": "monadiccp",
@@ -20623,6 +22389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "appStat",
           "package": "monadiccp",
@@ -20632,6 +22399,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "appStat",
           "normalized": "(Value-\u003eValue)-\u003eStat-\u003eStat",
@@ -20647,6 +22415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "constStat",
           "package": "monadiccp",
@@ -20656,6 +22425,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "constStat",
           "normalized": "IValue-\u003eStat",
@@ -20671,6 +22441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "depthStat",
           "package": "monadiccp",
@@ -20680,6 +22451,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "depthStat",
           "package": "monadiccp",
@@ -20693,6 +22465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "discrepancyStat",
           "package": "monadiccp",
@@ -20702,6 +22475,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "discrepancyStat",
           "package": "monadiccp",
@@ -20715,6 +22489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "evalStat",
           "package": "monadiccp",
@@ -20724,6 +22499,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "evalStat",
           "normalized": "Stat-\u003eEval a-\u003eEval a",
@@ -20739,6 +22515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "failsStat",
           "package": "monadiccp",
@@ -20748,6 +22525,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "failsStat",
           "package": "monadiccp",
@@ -20761,6 +22539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "nodesStat",
           "package": "monadiccp",
@@ -20770,6 +22549,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "nodesStat",
           "package": "monadiccp",
@@ -20783,6 +22563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "notStat",
           "package": "monadiccp",
@@ -20792,6 +22573,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "notStat",
           "normalized": "Stat-\u003eStat",
@@ -20807,6 +22589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "readStat",
           "package": "monadiccp",
@@ -20816,6 +22599,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "readStat",
           "normalized": "Stat-\u003ea IValue",
@@ -20831,6 +22615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "solutionsStat",
           "package": "monadiccp",
@@ -20840,6 +22625,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "solutionsStat",
           "package": "monadiccp",
@@ -20853,6 +22639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "timeStat",
           "package": "monadiccp",
@@ -20862,6 +22649,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "timeStat",
           "package": "monadiccp",
@@ -20875,6 +22663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Control.Search.Stat",
           "name": "varStat",
           "package": "monadiccp",
@@ -20884,6 +22673,7 @@
         },
         "index": {
           "hierarchy": "Control Search Stat",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Control.Search.Stat",
           "name": "varStat",
           "normalized": "VarId-\u003eStat",
@@ -20899,6 +22689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Data",
           "package": "monadiccp",
@@ -20907,6 +22698,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Data",
           "package": "monadiccp",
@@ -20920,6 +22712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "BoolExpr",
           "package": "monadiccp",
@@ -20928,6 +22721,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "BoolExpr",
           "package": "monadiccp",
@@ -20941,6 +22735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "ColExpr",
           "package": "monadiccp",
@@ -20949,6 +22744,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "ColExpr",
           "package": "monadiccp",
@@ -20963,6 +22759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData types | --\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Expr",
           "package": "monadiccp",
@@ -20972,6 +22769,7 @@
         "index": {
           "description": "Data types",
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Expr",
           "package": "monadiccp",
@@ -20985,6 +22783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "ExprRel",
           "package": "monadiccp",
@@ -20993,6 +22792,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "ExprRel",
           "package": "monadiccp",
@@ -21007,6 +22807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExprKey: Provides ordering over expressions | --\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "(\u003c\u003c\u003e\u003e)",
           "package": "monadiccp",
@@ -21017,6 +22818,7 @@
         "index": {
           "description": "ExprKey Provides ordering over expressions",
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "(\u003c\u003c\u003e\u003e) \u003c\u003c\u003e\u003e",
           "normalized": "Ordering-\u003eOrdering-\u003eOrdering",
@@ -21031,6 +22833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Abs",
           "package": "monadiccp",
@@ -21040,6 +22843,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Abs",
           "package": "monadiccp",
@@ -21053,6 +22857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "AllDiff",
           "package": "monadiccp",
@@ -21062,6 +22867,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "AllDiff",
           "package": "monadiccp",
@@ -21075,6 +22881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "At",
           "package": "monadiccp",
@@ -21084,6 +22891,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "At",
           "package": "monadiccp",
@@ -21097,6 +22905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "BoolAll",
           "package": "monadiccp",
@@ -21106,6 +22915,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "BoolAll",
           "normalized": "BoolAll(Expr a b c-\u003eBoolExpr a b c)(ColExpr a b c)",
@@ -21121,6 +22931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "BoolAnd",
           "package": "monadiccp",
@@ -21130,6 +22941,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "BoolAnd",
           "package": "monadiccp",
@@ -21143,6 +22955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "BoolAny",
           "package": "monadiccp",
@@ -21152,6 +22965,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "BoolAny",
           "normalized": "BoolAny(Expr a b c-\u003eBoolExpr a b c)(ColExpr a b c)",
@@ -21167,6 +22981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "BoolCond",
           "package": "monadiccp",
@@ -21176,6 +22991,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "BoolCond",
           "package": "monadiccp",
@@ -21189,6 +23005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "BoolConst",
           "package": "monadiccp",
@@ -21198,6 +23015,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "BoolConst",
           "package": "monadiccp",
@@ -21211,6 +23029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "BoolEqual",
           "package": "monadiccp",
@@ -21220,6 +23039,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "BoolEqual",
           "package": "monadiccp",
@@ -21233,6 +23053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "BoolNot",
           "package": "monadiccp",
@@ -21242,6 +23063,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "BoolNot",
           "package": "monadiccp",
@@ -21255,6 +23077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "BoolOr",
           "package": "monadiccp",
@@ -21264,6 +23087,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "BoolOr",
           "package": "monadiccp",
@@ -21277,6 +23101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "BoolTerm",
           "package": "monadiccp",
@@ -21286,6 +23111,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "BoolTerm",
           "package": "monadiccp",
@@ -21299,6 +23125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Channel",
           "package": "monadiccp",
@@ -21308,6 +23135,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Channel",
           "package": "monadiccp",
@@ -21321,6 +23149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "ColCat",
           "package": "monadiccp",
@@ -21330,6 +23159,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "ColCat",
           "package": "monadiccp",
@@ -21343,6 +23173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "ColEqual",
           "package": "monadiccp",
@@ -21352,6 +23183,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "ColEqual",
           "package": "monadiccp",
@@ -21365,6 +23197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "ColList",
           "package": "monadiccp",
@@ -21374,6 +23207,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "ColList",
           "normalized": "ColList[Expr a b c]",
@@ -21389,6 +23223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "ColMap",
           "package": "monadiccp",
@@ -21398,6 +23233,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "ColMap",
           "normalized": "ColMap(Expr a b c-\u003eExpr a b c)(ColExpr a b c)",
@@ -21413,6 +23249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "ColRange",
           "package": "monadiccp",
@@ -21422,6 +23259,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "ColRange",
           "package": "monadiccp",
@@ -21435,6 +23273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "ColSize",
           "package": "monadiccp",
@@ -21444,6 +23283,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "ColSize",
           "package": "monadiccp",
@@ -21457,6 +23297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "ColSlice",
           "package": "monadiccp",
@@ -21466,6 +23307,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "ColSlice",
           "normalized": "ColSlice(Expr a b c-\u003eExpr a b c)(Expr a b c)(ColExpr a b c)",
@@ -21481,6 +23323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "ColTerm",
           "package": "monadiccp",
@@ -21490,6 +23333,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "ColTerm",
           "package": "monadiccp",
@@ -21503,6 +23347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Cond",
           "package": "monadiccp",
@@ -21512,6 +23357,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Cond",
           "package": "monadiccp",
@@ -21525,6 +23371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Const",
           "package": "monadiccp",
@@ -21534,6 +23381,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Const",
           "package": "monadiccp",
@@ -21547,6 +23395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Div",
           "package": "monadiccp",
@@ -21556,6 +23405,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Div",
           "package": "monadiccp",
@@ -21569,6 +23419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Dom",
           "package": "monadiccp",
@@ -21578,6 +23429,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Dom",
           "package": "monadiccp",
@@ -21591,6 +23443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "ERDiff",
           "package": "monadiccp",
@@ -21600,6 +23453,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "ERDiff",
           "package": "monadiccp",
@@ -21613,6 +23467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "EREqual",
           "package": "monadiccp",
@@ -21622,6 +23477,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "EREqual",
           "package": "monadiccp",
@@ -21635,6 +23491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "ERLess",
           "package": "monadiccp",
@@ -21644,6 +23501,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "ERLess",
           "package": "monadiccp",
@@ -21657,6 +23515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "ExprHole",
           "package": "monadiccp",
@@ -21666,6 +23525,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "ExprHole",
           "package": "monadiccp",
@@ -21679,6 +23539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Fold",
           "package": "monadiccp",
@@ -21688,6 +23549,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Fold",
           "normalized": "Fold(Expr a b c-\u003eExpr a b c-\u003eExpr a b c)(Expr a b c)(ColExpr a b c)",
@@ -21703,6 +23565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Minus",
           "package": "monadiccp",
@@ -21712,6 +23575,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Minus",
           "package": "monadiccp",
@@ -21725,6 +23589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Mod",
           "package": "monadiccp",
@@ -21734,6 +23599,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Mod",
           "package": "monadiccp",
@@ -21747,6 +23613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Mult",
           "package": "monadiccp",
@@ -21756,6 +23623,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Mult",
           "package": "monadiccp",
@@ -21769,6 +23637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Plus",
           "package": "monadiccp",
@@ -21778,6 +23647,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Plus",
           "package": "monadiccp",
@@ -21791,6 +23661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Rel",
           "package": "monadiccp",
@@ -21800,6 +23671,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Rel",
           "package": "monadiccp",
@@ -21813,6 +23685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Sorted",
           "package": "monadiccp",
@@ -21822,6 +23695,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Sorted",
           "package": "monadiccp",
@@ -21835,6 +23709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Data",
           "name": "Term",
           "package": "monadiccp",
@@ -21844,6 +23719,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Data",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Data",
           "name": "Term",
           "package": "monadiccp",
@@ -21857,6 +23733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "Sugar",
           "package": "monadiccp",
@@ -21865,6 +23742,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "Sugar",
           "package": "monadiccp",
@@ -21878,6 +23756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "BoolExpr",
           "package": "monadiccp",
@@ -21886,6 +23765,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "BoolExpr",
           "package": "monadiccp",
@@ -21899,6 +23779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "ColExpr",
           "package": "monadiccp",
@@ -21907,6 +23788,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "ColExpr",
           "package": "monadiccp",
@@ -21921,6 +23803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData types | --\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "Expr",
           "package": "monadiccp",
@@ -21930,6 +23813,7 @@
         "index": {
           "description": "Data types",
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "Expr",
           "package": "monadiccp",
@@ -21943,6 +23827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "ExprClass",
           "package": "monadiccp",
@@ -21951,6 +23836,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "ExprClass",
           "package": "monadiccp",
@@ -21964,6 +23850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "ExprRange",
           "package": "monadiccp",
@@ -21972,6 +23859,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "ExprRange",
           "package": "monadiccp",
@@ -21985,6 +23873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "ToBoolExpr",
           "package": "monadiccp",
@@ -21993,6 +23882,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "ToBoolExpr",
           "package": "monadiccp",
@@ -22006,6 +23896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "ToColExpr",
           "package": "monadiccp",
@@ -22014,6 +23905,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "ToColExpr",
           "package": "monadiccp",
@@ -22028,6 +23920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvertion from/to expression types | --\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "ToExpr",
           "package": "monadiccp",
@@ -22037,6 +23930,7 @@
         "index": {
           "description": "convertion from to expression types",
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "ToExpr",
           "package": "monadiccp",
@@ -22050,6 +23944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "(@||)",
           "package": "monadiccp",
@@ -22059,6 +23954,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "(@||) @||",
           "normalized": "a-\u003ea-\u003eBoolExpr b c a",
@@ -22073,6 +23969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "(@&&)",
           "package": "monadiccp",
@@ -22082,6 +23979,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "(@&&) @&&",
           "normalized": "a-\u003ea-\u003eBoolExpr b c a",
@@ -22096,6 +23994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "(@/=)",
           "package": "monadiccp",
@@ -22105,6 +24004,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "(@/=) @/=",
           "normalized": "a-\u003ea-\u003eBoolExpr b c d",
@@ -22119,6 +24019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "(@\u003c)",
           "package": "monadiccp",
@@ -22128,6 +24029,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "(@\u003c) @\u003c",
           "normalized": "Expr a b c-\u003eExpr a b c-\u003eBoolExpr a b c",
@@ -22142,6 +24044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "(@\u003c=)",
           "package": "monadiccp",
@@ -22151,6 +24054,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "(@\u003c=) @\u003c=",
           "normalized": "Expr a b c-\u003eExpr a b c-\u003eBoolExpr a b c",
@@ -22165,6 +24069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "(@=)",
           "package": "monadiccp",
@@ -22174,6 +24079,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "(@=) @=",
           "normalized": "a-\u003ea-\u003eBoolExpr b c d",
@@ -22188,6 +24094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "(@\u003e)",
           "package": "monadiccp",
@@ -22197,6 +24104,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "(@\u003e) @\u003e",
           "normalized": "Expr a b c-\u003eExpr a b c-\u003eBoolExpr a b c",
@@ -22211,6 +24119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "(@\u003e=)",
           "package": "monadiccp",
@@ -22220,6 +24129,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "(@\u003e=) @\u003e=",
           "normalized": "Expr a b c-\u003eExpr a b c-\u003eBoolExpr a b c",
@@ -22234,6 +24144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "(@?)",
           "package": "monadiccp",
@@ -22243,6 +24154,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "(@?) @?",
           "normalized": "BoolExpr a b c-\u003e(Expr a b c,Expr a b c)-\u003eExpr a b c",
@@ -22257,6 +24169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "(@??)",
           "package": "monadiccp",
@@ -22266,6 +24179,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "(@??) @??",
           "normalized": "BoolExpr a b c-\u003e(BoolExpr a b c,BoolExpr a b c)-\u003eBoolExpr a b c",
@@ -22280,6 +24194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "(@:)",
           "package": "monadiccp",
@@ -22289,6 +24204,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "(@:) @:",
           "normalized": "Expr a b c-\u003ed-\u003eBoolExpr a b c",
@@ -22303,6 +24219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "allDiff",
           "package": "monadiccp",
@@ -22312,6 +24229,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "allDiff",
           "normalized": "ColExpr a b c-\u003eBoolExpr a b c",
@@ -22327,6 +24245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "allDiffD",
           "package": "monadiccp",
@@ -22336,6 +24255,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "allDiffD",
           "normalized": "ColExpr a b c-\u003eBoolExpr a b c",
@@ -22351,6 +24271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "channel",
           "package": "monadiccp",
@@ -22360,6 +24281,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "channel",
           "normalized": "BoolExpr a b c-\u003eExpr a b c",
@@ -22374,6 +24296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "forall",
           "package": "monadiccp",
@@ -22383,6 +24306,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "forall",
           "normalized": "ColExpr a b c-\u003e(Expr a b c-\u003eBoolExpr a b c)-\u003eBoolExpr a b c",
@@ -22397,6 +24321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "forany",
           "package": "monadiccp",
@@ -22406,6 +24331,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "forany",
           "normalized": "ColExpr a b c-\u003e(Expr a b c-\u003eBoolExpr a b c)-\u003eBoolExpr a b c",
@@ -22421,6 +24347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eboolean operators/functions | --\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "inv",
           "package": "monadiccp",
@@ -22431,6 +24358,7 @@
         "index": {
           "description": "boolean operators functions",
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "inv",
           "normalized": "a-\u003eBoolExpr b c d",
@@ -22445,6 +24373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "loopall",
           "package": "monadiccp",
@@ -22454,6 +24383,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "loopall",
           "normalized": "(Expr a b c,Expr a b c)-\u003e(Expr a b c-\u003eBoolExpr a b c)-\u003eBoolExpr a b c",
@@ -22468,6 +24398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "loopany",
           "package": "monadiccp",
@@ -22477,6 +24408,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "loopany",
           "normalized": "(Expr a b c,Expr a b c)-\u003e(Expr a b c-\u003eBoolExpr a b c)-\u003eBoolExpr a b c",
@@ -22491,6 +24423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "sSorted",
           "package": "monadiccp",
@@ -22500,6 +24433,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "sSorted",
           "normalized": "ColExpr a b c-\u003eBoolExpr a b c",
@@ -22515,6 +24449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "sorted",
           "package": "monadiccp",
@@ -22524,6 +24459,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "sorted",
           "normalized": "ColExpr a b c-\u003eBoolExpr a b c",
@@ -22538,6 +24474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "toBoolExpr",
           "package": "monadiccp",
@@ -22547,6 +24484,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "toBoolExpr",
           "normalized": "a-\u003eBoolExpr b c d",
@@ -22562,6 +24500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "toColExpr",
           "package": "monadiccp",
@@ -22571,6 +24510,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "toColExpr",
           "normalized": "a-\u003eColExpr b c d",
@@ -22586,6 +24526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Sugar",
           "name": "toExpr",
           "package": "monadiccp",
@@ -22595,6 +24536,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Sugar",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Sugar",
           "name": "toExpr",
           "normalized": "a-\u003eExpr b c d",
@@ -22610,6 +24552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "Util",
           "package": "monadiccp",
@@ -22618,6 +24561,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "Util",
           "package": "monadiccp",
@@ -22631,6 +24575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "BoolExpr",
           "package": "monadiccp",
@@ -22639,6 +24584,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "BoolExpr",
           "package": "monadiccp",
@@ -22652,6 +24598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "ColExpr",
           "package": "monadiccp",
@@ -22660,6 +24607,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "ColExpr",
           "package": "monadiccp",
@@ -22674,6 +24622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData types | --\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "Expr",
           "package": "monadiccp",
@@ -22683,6 +24632,7 @@
         "index": {
           "description": "Data types",
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "Expr",
           "package": "monadiccp",
@@ -22697,6 +24647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewalk through expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "WalkPhase",
           "package": "monadiccp",
@@ -22706,6 +24657,7 @@
         "index": {
           "description": "walk through expressions",
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "WalkPhase",
           "package": "monadiccp",
@@ -22719,6 +24671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "WalkResult",
           "package": "monadiccp",
@@ -22727,6 +24680,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "WalkResult",
           "package": "monadiccp",
@@ -22740,6 +24694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "WalkDescend",
           "package": "monadiccp",
@@ -22749,6 +24704,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "WalkDescend",
           "package": "monadiccp",
@@ -22762,6 +24718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "WalkPost",
           "package": "monadiccp",
@@ -22771,6 +24728,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "WalkPost",
           "package": "monadiccp",
@@ -22784,6 +24742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "WalkPre",
           "package": "monadiccp",
@@ -22793,6 +24752,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "WalkPre",
           "package": "monadiccp",
@@ -22806,6 +24766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "WalkSingle",
           "package": "monadiccp",
@@ -22815,6 +24776,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "WalkSingle",
           "package": "monadiccp",
@@ -22828,6 +24790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "WalkSkip",
           "package": "monadiccp",
@@ -22837,6 +24800,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "WalkSkip",
           "package": "monadiccp",
@@ -22850,6 +24814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "boolCollapse",
           "package": "monadiccp",
@@ -22859,6 +24824,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "boolCollapse",
           "normalized": "BoolExpr(Expr a b c)(ColExpr a b c)(BoolExpr a b c)-\u003eBoolExpr a b c",
@@ -22874,6 +24840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "boolProperty",
           "package": "monadiccp",
@@ -22883,6 +24850,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "boolProperty",
           "normalized": "(a-\u003eBool)-\u003e(b-\u003eBool)-\u003e(c-\u003eBool)-\u003eBoolExpr a b c-\u003eBool",
@@ -22898,6 +24866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "boolPropertyEx",
           "package": "monadiccp",
@@ -22907,6 +24876,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "boolPropertyEx",
           "normalized": "(Expr a b c-\u003eMaybe Bool,ColExpr a b c-\u003eMaybe Bool,BoolExpr a b c-\u003eMaybe Bool)-\u003eBoolExpr a b c-\u003eBool",
@@ -22922,6 +24892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "boolSimplify",
           "package": "monadiccp",
@@ -22931,6 +24902,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "boolSimplify",
           "normalized": "BoolExpr a b c-\u003eBoolExpr a b c",
@@ -22946,6 +24918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "boolTransform",
           "package": "monadiccp",
@@ -22955,6 +24928,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "boolTransform",
           "normalized": "(a-\u003eb,c-\u003ed,e-\u003ef,b-\u003ea,d-\u003ec,f-\u003ee)-\u003eBoolExpr a c e-\u003eBoolExpr b d f",
@@ -22970,6 +24944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "boolTransformEx",
           "package": "monadiccp",
@@ -22979,6 +24954,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "boolTransformEx",
           "normalized": "(a-\u003eExpr b c d,e-\u003eColExpr b c d,f-\u003eBoolExpr b c d,b-\u003eExpr a e f,c-\u003eColExpr a e f,d-\u003eBoolExpr a e f)-\u003eBoolExpr a e f-\u003eBoolExpr b c d",
@@ -22994,6 +24970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "boolWalk",
           "package": "monadiccp",
@@ -23003,6 +24980,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "boolWalk",
           "normalized": "BoolExpr a b c-\u003e(Expr a b c-\u003eWalkPhase-\u003ed WalkResult,ColExpr a b c-\u003eWalkPhase-\u003ed WalkResult,BoolExpr a b c-\u003eWalkPhase-\u003ed WalkResult)-\u003ed()",
@@ -23018,6 +24996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "colCollapse",
           "package": "monadiccp",
@@ -23027,6 +25006,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "colCollapse",
           "normalized": "ColExpr(Expr a b c)(ColExpr a b c)(BoolExpr a b c)-\u003eColExpr a b c",
@@ -23042,6 +25022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "colProperty",
           "package": "monadiccp",
@@ -23051,6 +25032,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "colProperty",
           "normalized": "(a-\u003eBool)-\u003e(b-\u003eBool)-\u003e(c-\u003eBool)-\u003eColExpr a b c-\u003eBool",
@@ -23066,6 +25048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "colPropertyEx",
           "package": "monadiccp",
@@ -23075,6 +25058,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "colPropertyEx",
           "normalized": "(Expr a b c-\u003eMaybe Bool,ColExpr a b c-\u003eMaybe Bool,BoolExpr a b c-\u003eMaybe Bool)-\u003eColExpr a b c-\u003eBool",
@@ -23090,6 +25074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "colSimplify",
           "package": "monadiccp",
@@ -23099,6 +25084,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "colSimplify",
           "normalized": "ColExpr a b c-\u003eColExpr a b c",
@@ -23114,6 +25100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "colTransform",
           "package": "monadiccp",
@@ -23123,6 +25110,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "colTransform",
           "normalized": "(a-\u003eb,c-\u003ed,e-\u003ef,b-\u003ea,d-\u003ec,f-\u003ee)-\u003eColExpr a c e-\u003eColExpr b d f",
@@ -23138,6 +25126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "colTransformEx",
           "package": "monadiccp",
@@ -23147,6 +25136,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "colTransformEx",
           "normalized": "(a-\u003eExpr b c d,e-\u003eColExpr b c d,f-\u003eBoolExpr b c d,b-\u003eExpr a e f,c-\u003eColExpr a e f,d-\u003eBoolExpr a e f)-\u003eColExpr a e f-\u003eColExpr b c d",
@@ -23162,6 +25152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "colWalk",
           "package": "monadiccp",
@@ -23171,6 +25162,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "colWalk",
           "normalized": "ColExpr a b c-\u003e(Expr a b c-\u003eWalkPhase-\u003ed WalkResult,ColExpr a b c-\u003eWalkPhase-\u003ed WalkResult,BoolExpr a b c-\u003eWalkPhase-\u003ed WalkResult)-\u003ed()",
@@ -23187,6 +25179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn expressions over expressions into simply expressions | --\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "collapse",
           "package": "monadiccp",
@@ -23197,6 +25190,7 @@
         "index": {
           "description": "Turn expressions over expressions into simply expressions",
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "collapse",
           "normalized": "Expr(Expr a b c)(ColExpr a b c)(BoolExpr a b c)-\u003eExpr a b c",
@@ -23211,6 +25205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "property",
           "package": "monadiccp",
@@ -23220,6 +25215,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "property",
           "normalized": "(a-\u003eBool)-\u003e(b-\u003eBool)-\u003e(c-\u003eBool)-\u003eExpr a b c-\u003eBool",
@@ -23235,6 +25231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether an expression is possibly referring to terms with a given property | --\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "propertyEx",
           "package": "monadiccp",
@@ -23245,6 +25242,7 @@
         "index": {
           "description": "Check whether an expression is possibly referring to terms with given property",
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "propertyEx",
           "normalized": "(Expr a b c-\u003eMaybe Bool,ColExpr a b c-\u003eMaybe Bool,BoolExpr a b c-\u003eMaybe Bool)-\u003eExpr a b c-\u003eBool",
@@ -23261,6 +25259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplify expressions | --\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "simplify",
           "package": "monadiccp",
@@ -23271,6 +25270,7 @@
         "index": {
           "description": "Simplify expressions",
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "simplify",
           "normalized": "Expr a b c-\u003eExpr a b c",
@@ -23286,6 +25286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform expressions over one type to expressions over another | --\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "transform",
           "package": "monadiccp",
@@ -23296,6 +25297,7 @@
         "index": {
           "description": "Transform expressions over one type to expressions over another",
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "transform",
           "normalized": "(a-\u003eb,c-\u003ed,e-\u003ef,b-\u003ea,d-\u003ec,f-\u003ee)-\u003eExpr a c e-\u003eExpr b d f",
@@ -23310,6 +25312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "transformEx",
           "package": "monadiccp",
@@ -23319,6 +25322,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "transformEx",
           "normalized": "(a-\u003eExpr b c d,e-\u003eColExpr b c d,f-\u003eBoolExpr b c d,b-\u003eExpr a e f,c-\u003eColExpr a e f,d-\u003eBoolExpr a e f)-\u003eExpr a e f-\u003eExpr b c d",
@@ -23334,6 +25338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Expr.Util",
           "name": "walk",
           "package": "monadiccp",
@@ -23343,6 +25348,7 @@
         },
         "index": {
           "hierarchy": "Data Expr Util",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Expr.Util",
           "name": "walk",
           "normalized": "Expr a b c-\u003e(Expr a b c-\u003eWalkPhase-\u003ed WalkResult,ColExpr a b c-\u003eWalkPhase-\u003ed WalkResult,BoolExpr a b c-\u003eWalkPhase-\u003ed WalkResult)-\u003ed()",
@@ -23357,6 +25363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Linear",
           "name": "Linear",
           "package": "monadiccp",
@@ -23365,6 +25372,7 @@
         },
         "index": {
           "hierarchy": "Data Linear",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Linear",
           "name": "Linear",
           "package": "monadiccp",
@@ -23378,6 +25386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Linear",
           "name": "Linear",
           "package": "monadiccp",
@@ -23386,6 +25395,7 @@
         },
         "index": {
           "hierarchy": "Data Linear",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Linear",
           "name": "Linear",
           "package": "monadiccp",
@@ -23399,6 +25409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Linear",
           "name": "constToLinear",
           "package": "monadiccp",
@@ -23408,6 +25419,7 @@
         },
         "index": {
           "hierarchy": "Data Linear",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Linear",
           "name": "constToLinear",
           "normalized": "a-\u003eLinear b a",
@@ -23423,6 +25435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Linear",
           "name": "getCoef",
           "package": "monadiccp",
@@ -23432,6 +25445,7 @@
         },
         "index": {
           "hierarchy": "Data Linear",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Linear",
           "name": "getCoef",
           "normalized": "Maybe a-\u003eLinear a b-\u003eb",
@@ -23447,6 +25461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Linear",
           "name": "integerToLinear",
           "package": "monadiccp",
@@ -23456,6 +25471,7 @@
         },
         "index": {
           "hierarchy": "Data Linear",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Linear",
           "name": "integerToLinear",
           "normalized": "Integer-\u003eLinear a b",
@@ -23471,6 +25487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Linear",
           "name": "linearMult",
           "package": "monadiccp",
@@ -23480,6 +25497,7 @@
         },
         "index": {
           "hierarchy": "Data Linear",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Linear",
           "name": "linearMult",
           "normalized": "a-\u003eLinear b a-\u003eLinear b a",
@@ -23495,6 +25513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Linear",
           "name": "linearMultiply",
           "package": "monadiccp",
@@ -23504,6 +25523,7 @@
         },
         "index": {
           "hierarchy": "Data Linear",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Linear",
           "name": "linearMultiply",
           "normalized": "Linear a b-\u003eLinear a b-\u003eMaybe(Linear a b)",
@@ -23519,6 +25539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Linear",
           "name": "linearToConst",
           "package": "monadiccp",
@@ -23528,6 +25549,7 @@
         },
         "index": {
           "hierarchy": "Data Linear",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Linear",
           "name": "linearToConst",
           "normalized": "Linear a b-\u003eMaybe b",
@@ -23543,6 +25565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Linear",
           "name": "linearToList",
           "package": "monadiccp",
@@ -23552,6 +25575,7 @@
         },
         "index": {
           "hierarchy": "Data Linear",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Linear",
           "name": "linearToList",
           "normalized": "Linear a b-\u003e[(Maybe a,b)]",
@@ -23567,6 +25591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Linear",
           "name": "linearToListEx",
           "package": "monadiccp",
@@ -23576,6 +25601,7 @@
         },
         "index": {
           "hierarchy": "Data Linear",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Linear",
           "name": "linearToListEx",
           "normalized": "Linear a b-\u003e(b,[(a,b)])",
@@ -23591,6 +25617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Linear",
           "name": "linearToTerm",
           "package": "monadiccp",
@@ -23600,6 +25627,7 @@
         },
         "index": {
           "hierarchy": "Data Linear",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Linear",
           "name": "linearToTerm",
           "normalized": "Linear a b-\u003eMaybe a",
@@ -23615,6 +25643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Data.Linear",
           "name": "termToLinear",
           "package": "monadiccp",
@@ -23624,6 +25653,7 @@
         },
         "index": {
           "hierarchy": "Data Linear",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Data.Linear",
           "name": "termToLinear",
           "normalized": "a-\u003eLinear a b",
@@ -23639,6 +25669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Pretty",
           "name": "Pretty",
           "package": "monadiccp",
@@ -23647,6 +25678,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Pretty",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Pretty",
           "name": "Pretty",
           "package": "monadiccp",
@@ -23660,6 +25692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Pretty",
           "name": "codegen",
           "package": "monadiccp",
@@ -23669,6 +25702,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Pretty",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Pretty",
           "name": "codegen",
           "normalized": "a-\u003eString",
@@ -23683,6 +25717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "AST",
           "package": "monadiccp",
@@ -23691,6 +25726,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "AST",
           "package": "monadiccp",
@@ -23704,6 +25740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssignOp",
           "package": "monadiccp",
@@ -23712,6 +25749,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssignOp",
           "package": "monadiccp",
@@ -23725,6 +25763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPBinaryOp",
           "package": "monadiccp",
@@ -23733,6 +25772,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPBinaryOp",
           "package": "monadiccp",
@@ -23746,6 +25786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPBlockItem",
           "package": "monadiccp",
@@ -23754,6 +25795,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPBlockItem",
           "package": "monadiccp",
@@ -23767,6 +25809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPClass",
           "package": "monadiccp",
@@ -23775,6 +25818,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPClass",
           "package": "monadiccp",
@@ -23788,6 +25832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConst",
           "package": "monadiccp",
@@ -23796,6 +25841,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConst",
           "package": "monadiccp",
@@ -23809,6 +25855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConstr",
           "package": "monadiccp",
@@ -23817,6 +25864,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConstr",
           "package": "monadiccp",
@@ -23830,6 +25878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPDecl",
           "package": "monadiccp",
@@ -23838,6 +25887,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPDecl",
           "package": "monadiccp",
@@ -23851,6 +25901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPDef",
           "package": "monadiccp",
@@ -23859,6 +25910,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPDef",
           "package": "monadiccp",
@@ -23872,6 +25924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPElement",
           "package": "monadiccp",
@@ -23880,6 +25933,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPElement",
           "package": "monadiccp",
@@ -23893,6 +25947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPExpr",
           "package": "monadiccp",
@@ -23901,6 +25956,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPExpr",
           "package": "monadiccp",
@@ -23914,6 +25970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPFile",
           "package": "monadiccp",
@@ -23922,6 +25979,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPFile",
           "package": "monadiccp",
@@ -23935,6 +25993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPInit",
           "package": "monadiccp",
@@ -23943,6 +26002,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPInit",
           "package": "monadiccp",
@@ -23956,6 +26016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPMacroStm",
           "package": "monadiccp",
@@ -23964,6 +26025,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPMacroStm",
           "package": "monadiccp",
@@ -23977,6 +26039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPNamespace",
           "package": "monadiccp",
@@ -23985,6 +26048,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPNamespace",
           "package": "monadiccp",
@@ -23998,6 +26062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPQual",
           "package": "monadiccp",
@@ -24006,6 +26071,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPQual",
           "package": "monadiccp",
@@ -24019,6 +26085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPStat",
           "package": "monadiccp",
@@ -24027,6 +26094,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPStat",
           "package": "monadiccp",
@@ -24040,6 +26108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPStorSpec",
           "package": "monadiccp",
@@ -24048,6 +26117,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPStorSpec",
           "package": "monadiccp",
@@ -24061,6 +26131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPType",
           "package": "monadiccp",
@@ -24069,6 +26140,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPType",
           "package": "monadiccp",
@@ -24082,6 +26154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPUnaryOp",
           "package": "monadiccp",
@@ -24090,6 +26163,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPUnaryOp",
           "package": "monadiccp",
@@ -24103,6 +26177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPVisibility",
           "package": "monadiccp",
@@ -24111,6 +26186,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPVisibility",
           "package": "monadiccp",
@@ -24124,6 +26200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPArray",
           "package": "monadiccp",
@@ -24133,6 +26210,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPArray",
           "normalized": "CPPArray[CPPQual]CPPType(Maybe CPPExpr)",
@@ -24148,6 +26226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOp",
           "package": "monadiccp",
@@ -24157,6 +26236,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOp",
           "package": "monadiccp",
@@ -24170,6 +26250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpAdd",
           "package": "monadiccp",
@@ -24179,6 +26260,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpAdd",
           "package": "monadiccp",
@@ -24192,6 +26274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpAnd",
           "package": "monadiccp",
@@ -24201,6 +26284,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpAnd",
           "package": "monadiccp",
@@ -24214,6 +26298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpDiv",
           "package": "monadiccp",
@@ -24223,6 +26308,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpDiv",
           "package": "monadiccp",
@@ -24236,6 +26322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpMul",
           "package": "monadiccp",
@@ -24245,6 +26332,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpMul",
           "package": "monadiccp",
@@ -24258,6 +26346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpOr",
           "package": "monadiccp",
@@ -24267,6 +26356,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpOr",
           "package": "monadiccp",
@@ -24280,6 +26370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpRmd",
           "package": "monadiccp",
@@ -24289,6 +26380,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpRmd",
           "package": "monadiccp",
@@ -24302,6 +26394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpShl",
           "package": "monadiccp",
@@ -24311,6 +26404,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpShl",
           "package": "monadiccp",
@@ -24324,6 +26418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpShr",
           "package": "monadiccp",
@@ -24333,6 +26428,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpShr",
           "package": "monadiccp",
@@ -24346,6 +26442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpSub",
           "package": "monadiccp",
@@ -24355,6 +26452,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpSub",
           "package": "monadiccp",
@@ -24368,6 +26466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpXor",
           "package": "monadiccp",
@@ -24377,6 +26476,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssOpXor",
           "package": "monadiccp",
@@ -24390,6 +26490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssign",
           "package": "monadiccp",
@@ -24399,6 +26500,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAssign",
           "package": "monadiccp",
@@ -24412,6 +26514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAuto",
           "package": "monadiccp",
@@ -24421,6 +26524,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPAuto",
           "package": "monadiccp",
@@ -24434,6 +26538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPBinary",
           "package": "monadiccp",
@@ -24443,6 +26548,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPBinary",
           "package": "monadiccp",
@@ -24456,6 +26562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPBlockDecl",
           "package": "monadiccp",
@@ -24465,6 +26572,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPBlockDecl",
           "package": "monadiccp",
@@ -24478,6 +26586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPBreak",
           "package": "monadiccp",
@@ -24487,6 +26596,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPBreak",
           "package": "monadiccp",
@@ -24500,6 +26610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPCall",
           "package": "monadiccp",
@@ -24509,6 +26620,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPCall",
           "normalized": "CPPCall CPPExpr[CPPExpr]",
@@ -24524,6 +26636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPCase",
           "package": "monadiccp",
@@ -24533,6 +26646,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPCase",
           "package": "monadiccp",
@@ -24546,6 +26660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPCast",
           "package": "monadiccp",
@@ -24555,6 +26670,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPCast",
           "package": "monadiccp",
@@ -24568,6 +26684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPClass",
           "package": "monadiccp",
@@ -24577,6 +26694,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPClass",
           "package": "monadiccp",
@@ -24590,6 +26708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPComma",
           "package": "monadiccp",
@@ -24599,6 +26718,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPComma",
           "normalized": "CPPComma[CPPExpr]",
@@ -24614,6 +26734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPComment",
           "package": "monadiccp",
@@ -24623,6 +26744,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPComment",
           "package": "monadiccp",
@@ -24636,6 +26758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPCompound",
           "package": "monadiccp",
@@ -24645,6 +26768,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPCompound",
           "normalized": "CPPCompound[CPPBlockItem]",
@@ -24660,6 +26784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPCond",
           "package": "monadiccp",
@@ -24669,6 +26794,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPCond",
           "package": "monadiccp",
@@ -24682,6 +26808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConst",
           "package": "monadiccp",
@@ -24691,6 +26818,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConst",
           "package": "monadiccp",
@@ -24704,6 +26832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConstChar",
           "package": "monadiccp",
@@ -24713,6 +26842,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConstChar",
           "package": "monadiccp",
@@ -24726,6 +26856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConstFloat",
           "package": "monadiccp",
@@ -24735,6 +26866,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConstFloat",
           "package": "monadiccp",
@@ -24748,6 +26880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConstInt",
           "package": "monadiccp",
@@ -24757,6 +26890,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConstInt",
           "package": "monadiccp",
@@ -24770,6 +26904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConstString",
           "package": "monadiccp",
@@ -24779,6 +26914,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConstString",
           "package": "monadiccp",
@@ -24792,6 +26928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConstr",
           "package": "monadiccp",
@@ -24801,6 +26938,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPConstr",
           "package": "monadiccp",
@@ -24814,6 +26952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPCont",
           "package": "monadiccp",
@@ -24823,6 +26962,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPCont",
           "package": "monadiccp",
@@ -24836,6 +26976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPDecl",
           "package": "monadiccp",
@@ -24845,6 +26986,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPDecl",
           "package": "monadiccp",
@@ -24858,6 +27000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPDef",
           "package": "monadiccp",
@@ -24867,6 +27010,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPDef",
           "package": "monadiccp",
@@ -24880,6 +27024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPDefault",
           "package": "monadiccp",
@@ -24889,6 +27034,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPDefault",
           "package": "monadiccp",
@@ -24902,6 +27048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPDelete",
           "package": "monadiccp",
@@ -24911,6 +27058,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPDelete",
           "package": "monadiccp",
@@ -24924,6 +27072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPElemClass",
           "package": "monadiccp",
@@ -24933,6 +27082,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPElemClass",
           "package": "monadiccp",
@@ -24946,6 +27096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPElemDecl",
           "package": "monadiccp",
@@ -24955,6 +27106,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPElemDecl",
           "package": "monadiccp",
@@ -24968,6 +27120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPElemDef",
           "package": "monadiccp",
@@ -24977,6 +27130,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPElemDef",
           "package": "monadiccp",
@@ -24990,6 +27144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPElemNamespace",
           "package": "monadiccp",
@@ -24999,6 +27154,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPElemNamespace",
           "normalized": "CPPElemNamespace(String,CPPNamespace)",
@@ -25014,6 +27170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPExtern",
           "package": "monadiccp",
@@ -25023,6 +27180,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPExtern",
           "package": "monadiccp",
@@ -25036,6 +27194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPFile",
           "package": "monadiccp",
@@ -25045,6 +27204,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPFile",
           "package": "monadiccp",
@@ -25058,6 +27218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPFor",
           "package": "monadiccp",
@@ -25067,6 +27228,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPFor",
           "package": "monadiccp",
@@ -25080,6 +27242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPGoto",
           "package": "monadiccp",
@@ -25089,6 +27252,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPGoto",
           "package": "monadiccp",
@@ -25102,6 +27266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPIf",
           "package": "monadiccp",
@@ -25111,6 +27276,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPIf",
           "package": "monadiccp",
@@ -25124,6 +27290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPIndex",
           "package": "monadiccp",
@@ -25133,6 +27300,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPIndex",
           "package": "monadiccp",
@@ -25146,6 +27314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPInitArray",
           "package": "monadiccp",
@@ -25155,6 +27324,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPInitArray",
           "normalized": "CPPInitArray[CPPExpr]",
@@ -25170,6 +27340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPInitCall",
           "package": "monadiccp",
@@ -25179,6 +27350,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPInitCall",
           "normalized": "CPPInitCall[CPPExpr]",
@@ -25194,6 +27366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPInitValue",
           "package": "monadiccp",
@@ -25203,6 +27376,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPInitValue",
           "package": "monadiccp",
@@ -25216,6 +27390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPInline",
           "package": "monadiccp",
@@ -25225,6 +27400,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPInline",
           "package": "monadiccp",
@@ -25238,6 +27414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPLabel",
           "package": "monadiccp",
@@ -25247,6 +27424,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPLabel",
           "package": "monadiccp",
@@ -25260,6 +27438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPMacroDefine",
           "package": "monadiccp",
@@ -25269,6 +27448,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPMacroDefine",
           "package": "monadiccp",
@@ -25282,6 +27462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPMacroIncludeSys",
           "package": "monadiccp",
@@ -25291,6 +27472,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPMacroIncludeSys",
           "package": "monadiccp",
@@ -25304,6 +27486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPMacroIncludeUser",
           "package": "monadiccp",
@@ -25313,6 +27496,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPMacroIncludeUser",
           "package": "monadiccp",
@@ -25326,6 +27510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPMember",
           "package": "monadiccp",
@@ -25335,6 +27520,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPMember",
           "package": "monadiccp",
@@ -25348,6 +27534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPNamespace",
           "package": "monadiccp",
@@ -25357,6 +27544,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPNamespace",
           "normalized": "CPPNamespace[CPPElement]",
@@ -25372,6 +27560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPNew",
           "package": "monadiccp",
@@ -25381,6 +27570,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPNew",
           "normalized": "CPPNew CPPType[CPPExpr]",
@@ -25396,6 +27586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpAdd",
           "package": "monadiccp",
@@ -25405,6 +27596,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpAdd",
           "package": "monadiccp",
@@ -25418,6 +27610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpAdr",
           "package": "monadiccp",
@@ -25427,6 +27620,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpAdr",
           "package": "monadiccp",
@@ -25440,6 +27634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpAnd",
           "package": "monadiccp",
@@ -25449,6 +27644,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpAnd",
           "package": "monadiccp",
@@ -25462,6 +27658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpComp",
           "package": "monadiccp",
@@ -25471,6 +27668,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpComp",
           "package": "monadiccp",
@@ -25484,6 +27682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpDiv",
           "package": "monadiccp",
@@ -25493,6 +27692,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpDiv",
           "package": "monadiccp",
@@ -25506,6 +27706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpEq",
           "package": "monadiccp",
@@ -25515,6 +27716,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpEq",
           "package": "monadiccp",
@@ -25528,6 +27730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpGeq",
           "package": "monadiccp",
@@ -25537,6 +27740,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpGeq",
           "package": "monadiccp",
@@ -25550,6 +27754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpGr",
           "package": "monadiccp",
@@ -25559,6 +27764,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpGr",
           "package": "monadiccp",
@@ -25572,6 +27778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpInd",
           "package": "monadiccp",
@@ -25581,6 +27788,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpInd",
           "package": "monadiccp",
@@ -25594,6 +27802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpLAnd",
           "package": "monadiccp",
@@ -25603,6 +27812,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpLAnd",
           "package": "monadiccp",
@@ -25616,6 +27826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpLOr",
           "package": "monadiccp",
@@ -25625,6 +27836,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpLOr",
           "package": "monadiccp",
@@ -25638,6 +27850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpLe",
           "package": "monadiccp",
@@ -25647,6 +27860,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpLe",
           "package": "monadiccp",
@@ -25660,6 +27874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpLeq",
           "package": "monadiccp",
@@ -25669,6 +27884,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpLeq",
           "package": "monadiccp",
@@ -25682,6 +27898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpMinus",
           "package": "monadiccp",
@@ -25691,6 +27908,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpMinus",
           "package": "monadiccp",
@@ -25704,6 +27922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpMul",
           "package": "monadiccp",
@@ -25713,6 +27932,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpMul",
           "package": "monadiccp",
@@ -25726,6 +27946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpNeg",
           "package": "monadiccp",
@@ -25735,6 +27956,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpNeg",
           "package": "monadiccp",
@@ -25748,6 +27970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpNeq",
           "package": "monadiccp",
@@ -25757,6 +27980,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpNeq",
           "package": "monadiccp",
@@ -25770,6 +27994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpOr",
           "package": "monadiccp",
@@ -25779,6 +28004,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpOr",
           "package": "monadiccp",
@@ -25792,6 +28018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpPlus",
           "package": "monadiccp",
@@ -25801,6 +28028,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpPlus",
           "package": "monadiccp",
@@ -25814,6 +28042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpPostDec",
           "package": "monadiccp",
@@ -25823,6 +28052,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpPostDec",
           "package": "monadiccp",
@@ -25836,6 +28066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpPostInc",
           "package": "monadiccp",
@@ -25845,6 +28076,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpPostInc",
           "package": "monadiccp",
@@ -25858,6 +28090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpPreDec",
           "package": "monadiccp",
@@ -25867,6 +28100,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpPreDec",
           "package": "monadiccp",
@@ -25880,6 +28114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpPreInc",
           "package": "monadiccp",
@@ -25889,6 +28124,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpPreInc",
           "package": "monadiccp",
@@ -25902,6 +28138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpRmd",
           "package": "monadiccp",
@@ -25911,6 +28148,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpRmd",
           "package": "monadiccp",
@@ -25924,6 +28162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpShl",
           "package": "monadiccp",
@@ -25933,6 +28172,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpShl",
           "package": "monadiccp",
@@ -25946,6 +28186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpShr",
           "package": "monadiccp",
@@ -25955,6 +28196,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpShr",
           "package": "monadiccp",
@@ -25968,6 +28210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpSub",
           "package": "monadiccp",
@@ -25977,6 +28220,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpSub",
           "package": "monadiccp",
@@ -25990,6 +28234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpXor",
           "package": "monadiccp",
@@ -25999,6 +28244,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPOpXor",
           "package": "monadiccp",
@@ -26012,6 +28258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPPrivate",
           "package": "monadiccp",
@@ -26021,6 +28268,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPPrivate",
           "package": "monadiccp",
@@ -26034,6 +28282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPProtected",
           "package": "monadiccp",
@@ -26043,6 +28292,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPProtected",
           "package": "monadiccp",
@@ -26056,6 +28306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPPtr",
           "package": "monadiccp",
@@ -26065,6 +28316,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPPtr",
           "normalized": "CPPPtr[CPPQual]CPPType",
@@ -26080,6 +28332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPPublic",
           "package": "monadiccp",
@@ -26089,6 +28342,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPPublic",
           "package": "monadiccp",
@@ -26102,6 +28356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPQualConst",
           "package": "monadiccp",
@@ -26111,6 +28366,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPQualConst",
           "package": "monadiccp",
@@ -26124,6 +28380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPQualVolatile",
           "package": "monadiccp",
@@ -26133,6 +28390,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPQualVolatile",
           "package": "monadiccp",
@@ -26146,6 +28404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPRef",
           "package": "monadiccp",
@@ -26155,6 +28414,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPRef",
           "normalized": "CPPRef[CPPQual]CPPType",
@@ -26170,6 +28430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPRegister",
           "package": "monadiccp",
@@ -26179,6 +28440,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPRegister",
           "package": "monadiccp",
@@ -26192,6 +28454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPReturn",
           "package": "monadiccp",
@@ -26201,6 +28464,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPReturn",
           "package": "monadiccp",
@@ -26214,6 +28478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPSimple",
           "package": "monadiccp",
@@ -26223,6 +28488,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPSimple",
           "package": "monadiccp",
@@ -26236,6 +28502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPSizeOfExpr",
           "package": "monadiccp",
@@ -26245,6 +28512,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPSizeOfExpr",
           "package": "monadiccp",
@@ -26258,6 +28526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPSizeOfType",
           "package": "monadiccp",
@@ -26267,6 +28536,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPSizeOfType",
           "package": "monadiccp",
@@ -26280,6 +28550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPStatement",
           "package": "monadiccp",
@@ -26289,6 +28560,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPStatement",
           "package": "monadiccp",
@@ -26302,6 +28574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPStatic",
           "package": "monadiccp",
@@ -26311,6 +28584,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPStatic",
           "package": "monadiccp",
@@ -26324,6 +28598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPSwitch",
           "package": "monadiccp",
@@ -26333,6 +28608,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPSwitch",
           "package": "monadiccp",
@@ -26346,6 +28622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPTempl",
           "package": "monadiccp",
@@ -26355,6 +28632,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPTempl",
           "normalized": "CPPTempl String[CPPType]",
@@ -26370,6 +28648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPTypePrim",
           "package": "monadiccp",
@@ -26379,6 +28658,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPTypePrim",
           "package": "monadiccp",
@@ -26392,6 +28672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPTypedef",
           "package": "monadiccp",
@@ -26401,6 +28682,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPTypedef",
           "package": "monadiccp",
@@ -26414,6 +28696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPUnary",
           "package": "monadiccp",
@@ -26423,6 +28706,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPUnary",
           "package": "monadiccp",
@@ -26436,6 +28720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPVar",
           "package": "monadiccp",
@@ -26445,6 +28730,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPVar",
           "package": "monadiccp",
@@ -26458,6 +28744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPVerbStat",
           "package": "monadiccp",
@@ -26467,6 +28754,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPVerbStat",
           "normalized": "CPPVerbStat[String]",
@@ -26482,6 +28770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPVirtual",
           "package": "monadiccp",
@@ -26491,6 +28780,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPVirtual",
           "package": "monadiccp",
@@ -26504,6 +28794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPWhile",
           "package": "monadiccp",
@@ -26513,6 +28804,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "CPPWhile",
           "package": "monadiccp",
@@ -26526,6 +28818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppClassConstrs",
           "package": "monadiccp",
@@ -26535,6 +28828,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppClassConstrs",
           "normalized": "[(CPPVisibility,CPPConstr)]",
@@ -26550,6 +28844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppClassDecls",
           "package": "monadiccp",
@@ -26559,6 +28854,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppClassDecls",
           "normalized": "[(CPPVisibility,CPPDecl)]",
@@ -26574,6 +28870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppClassDefs",
           "package": "monadiccp",
@@ -26583,6 +28880,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppClassDefs",
           "normalized": "[(CPPVisibility,CPPDef)]",
@@ -26598,6 +28896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppClassInherit",
           "package": "monadiccp",
@@ -26607,6 +28906,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppClassInherit",
           "normalized": "[(CPPVisibility,CPPType)]",
@@ -26622,6 +28922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppClassName",
           "package": "monadiccp",
@@ -26631,6 +28932,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppClassName",
           "package": "monadiccp",
@@ -26644,6 +28946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppConstrArgs",
           "package": "monadiccp",
@@ -26653,6 +28956,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppConstrArgs",
           "normalized": "[CPPDecl]",
@@ -26668,6 +28972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppConstrBody",
           "package": "monadiccp",
@@ -26677,6 +28982,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppConstrBody",
           "package": "monadiccp",
@@ -26690,6 +28996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppConstrInit",
           "package": "monadiccp",
@@ -26699,6 +29006,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppConstrInit",
           "normalized": "[(Either CPPExpr CPPType,[CPPExpr])]",
@@ -26714,6 +29022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppConstrStor",
           "package": "monadiccp",
@@ -26723,6 +29032,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppConstrStor",
           "normalized": "[CPPStorSpec]",
@@ -26738,6 +29048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDeclInit",
           "package": "monadiccp",
@@ -26747,6 +29058,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDeclInit",
           "package": "monadiccp",
@@ -26760,6 +29072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDeclName",
           "package": "monadiccp",
@@ -26769,6 +29082,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDeclName",
           "package": "monadiccp",
@@ -26782,6 +29096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDefArgs",
           "package": "monadiccp",
@@ -26791,6 +29106,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDefArgs",
           "normalized": "[CPPDecl]",
@@ -26806,6 +29122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDefBody",
           "package": "monadiccp",
@@ -26815,6 +29132,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDefBody",
           "package": "monadiccp",
@@ -26828,6 +29146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDefName",
           "package": "monadiccp",
@@ -26837,6 +29156,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDefName",
           "package": "monadiccp",
@@ -26850,6 +29170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDefQual",
           "package": "monadiccp",
@@ -26859,6 +29180,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDefQual",
           "normalized": "[CPPQual]",
@@ -26874,6 +29196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDefRetType",
           "package": "monadiccp",
@@ -26883,6 +29206,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDefRetType",
           "package": "monadiccp",
@@ -26896,6 +29220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDefStor",
           "package": "monadiccp",
@@ -26905,6 +29230,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppDefStor",
           "normalized": "[CPPStorSpec]",
@@ -26920,6 +29246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppMacroDefArgs",
           "package": "monadiccp",
@@ -26929,6 +29256,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppMacroDefArgs",
           "normalized": "Maybe[String]",
@@ -26944,6 +29272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppMacroDefExpr",
           "package": "monadiccp",
@@ -26953,6 +29282,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppMacroDefExpr",
           "package": "monadiccp",
@@ -26966,6 +29296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppMacroDefName",
           "package": "monadiccp",
@@ -26975,6 +29306,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppMacroDefName",
           "package": "monadiccp",
@@ -26988,6 +29320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppMacroStm",
           "package": "monadiccp",
@@ -26997,6 +29330,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppMacroStm",
           "normalized": "[CPPMacroStm]",
@@ -27012,6 +29346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppTranslUnit",
           "package": "monadiccp",
@@ -27021,6 +29356,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppTranslUnit",
           "package": "monadiccp",
@@ -27034,6 +29370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppType",
           "package": "monadiccp",
@@ -27043,6 +29380,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppType",
           "package": "monadiccp",
@@ -27056,6 +29394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppTypeQual",
           "package": "monadiccp",
@@ -27065,6 +29404,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppTypeQual",
           "normalized": "[CPPQual]",
@@ -27080,6 +29420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppTypeStor",
           "package": "monadiccp",
@@ -27089,6 +29430,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppTypeStor",
           "normalized": "[CPPStorSpec]",
@@ -27104,6 +29446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:26 UTC 2014",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppUsing",
           "package": "monadiccp",
@@ -27113,6 +29456,7 @@
         },
         "index": {
           "hierarchy": "Language CPP Syntax AST",
+          "indexed": "2014-03-11T19:21:26",
           "module": "Language.CPP.Syntax.AST",
           "name": "cppUsing",
           "normalized": "[String]",

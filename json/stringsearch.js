@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stringsearch"
+        "phrase": "stringsearch",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast search of lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e values. Breaking,\n splitting and replacing using a deterministic finite automaton.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Lazy.Search.DFA",
           "name": "DFA",
           "package": "stringsearch",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Fast search of lazy ByteString values Breaking splitting and replacing using deterministic finite automaton",
           "hierarchy": "Data ByteString Lazy Search DFA",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Lazy.Search.DFA",
           "name": "DFA",
           "package": "stringsearch",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ebreakAfter\u003c/a\u003e\u003c/code\u003e pattern target\u003c/code\u003e splits \u003ccode\u003etarget\u003c/code\u003e behind the first occurrence\n   of \u003ccode\u003epattern\u003c/code\u003e. An empty second component means that either the pattern\n   does not occur in the target or the first occurrence of pattern is at\n   the very end of target. If you need to discriminate between those cases,\n   use breakFindAfter.\n   If the pattern is empty, the first component is empty.\n   For a non-empty pattern, the first component is generated lazily,\n   thus the first parts of it can be available before the pattern has\n   been found or determined to be absent.\n \u003ccode\u003e\n   \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eappend\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ebreakAfter\u003c/a\u003e\u003c/code\u003e pattern = \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Lazy.Search.DFA",
           "name": "breakAfter",
           "package": "stringsearch",
@@ -51,6 +54,7 @@
         "index": {
           "description": "breakAfter pattern target splits target behind the first occurrence of pattern An empty second component means that either the pattern does not occur in the target or the first occurrence of pattern is at the very end of target If you need to discriminate between those cases use breakFindAfter If the pattern is empty the first component is empty For non-empty pattern the first component is generated lazily thus the first parts of it can be available before the pattern has been found or determined to be absent uncurry append breakAfter pattern id",
           "hierarchy": "Data ByteString Lazy Search DFA",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Lazy.Search.DFA",
           "name": "breakAfter",
           "normalized": "ByteString-\u003eByteString-\u003e(ByteString,ByteString)",
@@ -220,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003esplitKeepEnd\u003c/a\u003e\u003c/code\u003e pattern target\u003c/code\u003e splits \u003ccode\u003etarget\u003c/code\u003e after each (non-overlapping)\n   occurrence of \u003ccode\u003epattern\u003c/code\u003e. If \u003ccode\u003epattern\u003c/code\u003e is empty, the result is an\n   infinite list of empty \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es, otherwise the following\n   relations hold:\n\u003c/p\u003e\u003cpre\u003e\n   \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003esplitKeepEnd\u003c/a\u003e\u003c/code\u003e pattern = 'id,'\n\u003c/pre\u003e\u003cp\u003eall fragments in the result except possibly the last end with\n   \u003ccode\u003epattern\u003c/code\u003e, no fragment contains more than one occurrence of \u003ccode\u003epattern\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Lazy.Search.DFA",
           "name": "splitKeepEnd",
           "package": "stringsearch",
@@ -229,6 +234,7 @@
         "index": {
           "description": "splitKeepEnd pattern target splits target after each non-overlapping occurrence of pattern If pattern is empty the result is an infinite list of empty ByteString otherwise the following relations hold concat splitKeepEnd pattern id all fragments in the result except possibly the last end with pattern no fragment contains more than one occurrence of pattern",
           "hierarchy": "Data ByteString Lazy Search DFA",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Lazy.Search.DFA",
           "name": "splitKeepEnd",
           "normalized": "ByteString-\u003eByteString-\u003e[ByteString]",
@@ -271,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast search of lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e values using the\n Knuth-Morris-Pratt algorithm.\n\u003c/p\u003e\u003cp\u003eA description of the algorithm can be found at\n \u003ca\u003ehttp://en.wikipedia.org/wiki/Knuth-Morris-Pratt_algorithm\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eOriginal authors: Justin Bailey (jgbailey at gmail.com) and\n Chris Kuklewicz (haskell at list.mightyreason.com).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Lazy.Search.KMP",
           "name": "KMP",
           "package": "stringsearch",
@@ -280,6 +287,7 @@
         "index": {
           "description": "Fast search of lazy ByteString values using the Knuth-Morris-Pratt algorithm description of the algorithm can be found at http en.wikipedia.org wiki Knuth-Morris-Pratt algorithm Original authors Justin Bailey jgbailey at gmail.com and Chris Kuklewicz haskell at list.mightyreason.com",
           "hierarchy": "Data ByteString Lazy Search KMP",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Lazy.Search.KMP",
           "name": "KMP",
           "package": "stringsearch",
@@ -294,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003estrictify\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e transforms a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a strict\n   \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, to make it a suitable pattern for the searching\n   functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Lazy.Search.KMP",
           "name": "strictify",
           "package": "stringsearch",
@@ -304,6 +313,7 @@
         "index": {
           "description": "strictify transforms lazy ByteString into strict ByteString to make it suitable pattern for the searching functions",
           "hierarchy": "Data ByteString Lazy Search KMP",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Lazy.Search.KMP",
           "name": "strictify",
           "normalized": "ByteString-\u003eByteString",
@@ -319,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimultaneous search for multiple patterns in a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n using the Karp-Rabin algorithm.\n\u003c/p\u003e\u003cp\u003eA description of the algorithm for a single pattern can be found at\n \u003ca\u003ehttp://www-igm.univ-mlv.fr/~lecroq/string/node5.html#SECTION0050\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Lazy.Search.KarpRabin",
           "name": "KarpRabin",
           "package": "stringsearch",
@@ -328,6 +339,7 @@
         "index": {
           "description": "Simultaneous search for multiple patterns in lazy ByteString using the Karp-Rabin algorithm description of the algorithm for single pattern can be found at http www-igm.univ-mlv.fr lecroq string node5.html SECTION0050",
           "hierarchy": "Data ByteString Lazy Search KarpRabin",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Lazy.Search.KarpRabin",
           "name": "KarpRabin",
           "package": "stringsearch",
@@ -342,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eindicesOfAny\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e finds all occurrences of any of several non-empty strict\n   patterns in a lazy target string. If no non-empty patterns are given,\n   the result is an empty list. Otherwise the result list contains\n   the pairs of all indices where any of the (non-empty) patterns start\n   and the list of all patterns starting at that index, the patterns being\n   represented by their (zero-based) position in the pattern list.\n   Empty patterns are filtered out before processing begins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Lazy.Search.KarpRabin",
           "name": "indicesOfAny",
           "package": "stringsearch",
@@ -351,6 +364,7 @@
         "index": {
           "description": "indicesOfAny finds all occurrences of any of several non-empty strict patterns in lazy target string If no non-empty patterns are given the result is an empty list Otherwise the result list contains the pairs of all indices where any of the non-empty patterns start and the list of all patterns starting at that index the patterns being represented by their zero-based position in the pattern list Empty patterns are filtered out before processing begins",
           "hierarchy": "Data ByteString Lazy Search KarpRabin",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Lazy.Search.KarpRabin",
           "name": "indicesOfAny",
           "normalized": "[ByteString]-\u003eByteString-\u003e[(Int,[Int])]",
@@ -367,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast overlapping Boyer-Moore search of lazy\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e values. Breaking, splitting and replacing\n using the Boyer-Moore algorithm.\n\u003c/p\u003e\u003cp\u003eDescriptions of the algorithm can be found at\n \u003ca\u003ehttp://www-igm.univ-mlv.fr/~lecroq/string/node14.html#SECTION00140\u003c/a\u003e\n and\n \u003ca\u003ehttp://en.wikipedia.org/wiki/Boyer-Moore_string_search_algorithm\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eOriginal authors: Daniel Fischer (daniel.is.fischer at googlemail.com) and\n Chris Kuklewicz (haskell at list.mightyreason.com).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Lazy.Search",
           "name": "Search",
           "package": "stringsearch",
@@ -376,6 +391,7 @@
         "index": {
           "description": "Fast overlapping Boyer-Moore search of lazy ByteString values Breaking splitting and replacing using the Boyer-Moore algorithm Descriptions of the algorithm can be found at http www-igm.univ-mlv.fr lecroq string node14.html SECTION00140 and http en.wikipedia.org wiki Boyer-Moore string search algorithm Original authors Daniel Fischer daniel.is.fischer at googlemail.com and Chris Kuklewicz haskell at list.mightyreason.com",
           "hierarchy": "Data ByteString Lazy Search",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Lazy.Search",
           "name": "Search",
           "package": "stringsearch",
@@ -390,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ebreakAfter\u003c/a\u003e\u003c/code\u003e pattern target\u003c/code\u003e splits \u003ccode\u003etarget\u003c/code\u003e behind the first occurrence\n   of \u003ccode\u003epattern\u003c/code\u003e. An empty second component means that either the pattern\n   does not occur in the target or the first occurrence of pattern is at\n   the very end of target. If you need to discriminate between those cases,\n   use breakFindAfter.\n   If the pattern is empty, the first component is empty.\n   For a non-empty pattern, the first component is generated lazily,\n   thus the first parts of it can be available before the pattern has\n   been found or determined to be absent.\n\u003c/p\u003e\u003cpre\u003e\n   \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eappend\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ebreakAfter\u003c/a\u003e\u003c/code\u003e pattern = \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Lazy.Search",
           "name": "breakAfter",
           "package": "stringsearch",
@@ -399,6 +416,7 @@
         "index": {
           "description": "breakAfter pattern target splits target behind the first occurrence of pattern An empty second component means that either the pattern does not occur in the target or the first occurrence of pattern is at the very end of target If you need to discriminate between those cases use breakFindAfter If the pattern is empty the first component is empty For non-empty pattern the first component is generated lazily thus the first parts of it can be available before the pattern has been found or determined to be absent uncurry append breakAfter pattern id",
           "hierarchy": "Data ByteString Lazy Search",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Lazy.Search",
           "name": "breakAfter",
           "normalized": "ByteString-\u003eByteString-\u003e(ByteString,ByteString)",
@@ -441,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003estrictify\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e converts a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n   to make it a suitable pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Lazy.Search",
           "name": "strictify",
           "package": "stringsearch",
@@ -451,6 +470,7 @@
         "index": {
           "description": "strictify converts lazy ByteString to strict ByteString to make it suitable pattern",
           "hierarchy": "Data ByteString Lazy Search",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Lazy.Search",
           "name": "strictify",
           "normalized": "ByteString-\u003eByteString",
@@ -466,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the new interface instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eFast overlapping Boyer-Moore search of both strict and lazy\n \u003ccode\u003eByteString\u003c/code\u003e values.\n\u003c/p\u003e\u003cp\u003eDescriptions of the algorithm can be found at\n \u003ca\u003ehttp://www-igm.univ-mlv.fr/~lecroq/string/node14.html#SECTION00140\u003c/a\u003e\n and\n \u003ca\u003ehttp://en.wikipedia.org/wiki/Boyer-Moore_string_search_algorithm\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eOriginal authors: Daniel Fischer (daniel.is.fischer at googlemail.com) and\n Chris Kuklewicz (haskell at list.mightyreason.com).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.BoyerMoore",
           "name": "BoyerMoore",
           "package": "stringsearch",
@@ -475,6 +496,7 @@
         "index": {
           "description": "Deprecated Use the new interface instead Fast overlapping Boyer-Moore search of both strict and lazy ByteString values Descriptions of the algorithm can be found at http www-igm.univ-mlv.fr lecroq string node14.html SECTION00140 and http en.wikipedia.org wiki Boyer-Moore string search algorithm Original authors Daniel Fischer daniel.is.fischer at googlemail.com and Chris Kuklewicz haskell at list.mightyreason.com",
           "hierarchy": "Data ByteString Search BoyerMoore",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.BoyerMoore",
           "name": "BoyerMoore",
           "package": "stringsearch",
@@ -489,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ematchLL\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e finds the starting indices of all possibly overlapping\n   occurrences of the pattern in the target string.\n   It is a simple wrapper for \u003ccode\u003e\u003ca\u003eindices\u003c/a\u003e\u003c/code\u003e.\n   If the pattern is empty, the result is \u003ccode\u003e[0 .. \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e target]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.BoyerMoore",
           "name": "matchLL",
           "package": "stringsearch",
@@ -498,6 +521,7 @@
         "index": {
           "description": "matchLL finds the starting indices of all possibly overlapping occurrences of the pattern in the target string It is simple wrapper for indices If the pattern is empty the result is length target",
           "hierarchy": "Data ByteString Search BoyerMoore",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.BoyerMoore",
           "name": "matchLL",
           "normalized": "ByteString-\u003eByteString-\u003e[Int]",
@@ -514,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ematchLS\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e finds the starting indices of all possibly overlapping\n   occurrences of the pattern in the target string.\n   It is a simple wrapper for \u003ccode\u003e\u003ca\u003eindices\u003c/a\u003e\u003c/code\u003e.\n   If the pattern is empty, the result is \u003ccode\u003e[0 .. \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e target]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.BoyerMoore",
           "name": "matchLS",
           "package": "stringsearch",
@@ -523,6 +548,7 @@
         "index": {
           "description": "matchLS finds the starting indices of all possibly overlapping occurrences of the pattern in the target string It is simple wrapper for indices If the pattern is empty the result is length target",
           "hierarchy": "Data ByteString Search BoyerMoore",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.BoyerMoore",
           "name": "matchLS",
           "normalized": "ByteString-\u003eByteString-\u003e[Int]",
@@ -539,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ematchSL\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e finds the starting indices of all possibly overlapping\n   occurrences of the pattern in the target string.\n   It is an alias for \u003ccode\u003e\u003ca\u003eindices\u003c/a\u003e\u003c/code\u003e.\n   If the pattern is empty, the result is \u003ccode\u003e[0 .. \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e target]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.BoyerMoore",
           "name": "matchSL",
           "package": "stringsearch",
@@ -548,6 +575,7 @@
         "index": {
           "description": "matchSL finds the starting indices of all possibly overlapping occurrences of the pattern in the target string It is an alias for indices If the pattern is empty the result is length target",
           "hierarchy": "Data ByteString Search BoyerMoore",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.BoyerMoore",
           "name": "matchSL",
           "normalized": "ByteString-\u003eByteString-\u003e[Int]",
@@ -564,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ematchSS\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e finds the starting indices of all possibly overlapping\n   occurrences of the pattern in the target string.\n   It is an alias for \u003ccode\u003e\u003ca\u003eindices\u003c/a\u003e\u003c/code\u003e.\n   If the pattern is empty, the result is \u003ccode\u003e[0 .. \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e target]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.BoyerMoore",
           "name": "matchSS",
           "package": "stringsearch",
@@ -573,6 +602,7 @@
         "index": {
           "description": "matchSS finds the starting indices of all possibly overlapping occurrences of the pattern in the target string It is an alias for indices If the pattern is empty the result is length target",
           "hierarchy": "Data ByteString Search BoyerMoore",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.BoyerMoore",
           "name": "matchSS",
           "normalized": "ByteString-\u003eByteString-\u003e[Int]",
@@ -589,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast search of strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e values. Breaking, splitting and\n replacing using a deterministic finite automaton.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.DFA",
           "name": "DFA",
           "package": "stringsearch",
@@ -598,6 +629,7 @@
         "index": {
           "description": "Fast search of strict ByteString values Breaking splitting and replacing using deterministic finite automaton",
           "hierarchy": "Data ByteString Search DFA",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.DFA",
           "name": "DFA",
           "package": "stringsearch",
@@ -715,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ereplace\u003c/a\u003e\u003c/code\u003e pat sub text\u003c/code\u003e replaces all (non-overlapping) occurrences of\n   \u003ccode\u003epat\u003c/code\u003e in \u003ccode\u003etext\u003c/code\u003e with \u003ccode\u003esub\u003c/code\u003e. If occurrences of \u003ccode\u003epat\u003c/code\u003e overlap, the first\n   occurrence that does not overlap with a replaced previous occurrence\n   is substituted. Occurrences of \u003ccode\u003epat\u003c/code\u003e arising from a substitution\n   will not be substituted. For example:\n\u003c/p\u003e\u003cpre\u003e\n   \u003ccode\u003e\u003ca\u003ereplace\u003c/a\u003e\u003c/code\u003e \"ana\" \"olog\" \"banana\" = \"bologna\"\n   \u003ccode\u003e\u003ca\u003ereplace\u003c/a\u003e\u003c/code\u003e \"ana\" \"o\" \"bananana\" = \"bono\"\n   \u003ccode\u003e\u003ca\u003ereplace\u003c/a\u003e\u003c/code\u003e \"aab\" \"abaa\" \"aaabb\" = \"aabaab\"\n\u003c/pre\u003e\u003cp\u003eThe result is a \u003cem\u003elazy\u003c/em\u003e \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e,\n   which is lazily produced, without copying.\n   Equality of pattern and substitution is not checked, but\n\u003c/p\u003e\u003cpre\u003e\n   \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003etoChunks\u003c/a\u003e\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003ereplace\u003c/a\u003e\u003c/code\u003e pat pat text == text\n\u003c/pre\u003e\u003cp\u003eholds. If the pattern is empty but not the substitution, the result\n   is equivalent to (were they \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es) \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecycle\u003c/a\u003e\u003c/code\u003e sub\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor non-empty \u003ccode\u003epat\u003c/code\u003e and \u003ccode\u003esub\u003c/code\u003e a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e,\n\u003c/p\u003e\u003cpre\u003e\n   \u003ccode\u003e\u003ca\u003efromChunks\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eintersperse\u003c/a\u003e\u003c/code\u003e sub . \u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003e pat = \u003ccode\u003e\u003ca\u003ereplace\u003c/a\u003e\u003c/code\u003e pat sub\n\u003c/pre\u003e\u003cp\u003eand analogous relations hold for other types of \u003ccode\u003esub\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.DFA",
           "name": "replace",
           "package": "stringsearch",
@@ -724,6 +757,7 @@
         "index": {
           "description": "replace pat sub text replaces all non-overlapping occurrences of pat in text with sub If occurrences of pat overlap the first occurrence that does not overlap with replaced previous occurrence is substituted Occurrences of pat arising from substitution will not be substituted For example replace ana olog banana bologna replace ana bananana bono replace aab abaa aaabb aabaab The result is lazy ByteString which is lazily produced without copying Equality of pattern and substitution is not checked but concat toChunks replace pat pat text text holds If the pattern is empty but not the substitution the result is equivalent to were they String cycle sub For non-empty pat and sub strict ByteString fromChunks intersperse sub split pat replace pat sub and analogous relations hold for other types of sub",
           "hierarchy": "Data ByteString Search DFA",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.DFA",
           "name": "replace",
           "normalized": "ByteString-\u003ea-\u003eByteString-\u003eByteString",
@@ -764,6 +798,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast search of strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e values using the\n Knuth-Morris-Pratt algorithm.\n\u003c/p\u003e\u003cp\u003eA description of the algorithm can be found at\n \u003ca\u003ehttp://en.wikipedia.org/wiki/Knuth-Morris-Pratt_algorithm\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eOriginal authors: Justin Bailey (jgbailey at gmail.com) and\n Chris Kuklewicz (haskell at list.mightyreason.com).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.KMP",
           "name": "KMP",
           "package": "stringsearch",
@@ -773,6 +808,7 @@
         "index": {
           "description": "Fast search of strict ByteString values using the Knuth-Morris-Pratt algorithm description of the algorithm can be found at http en.wikipedia.org wiki Knuth-Morris-Pratt algorithm Original authors Justin Bailey jgbailey at gmail.com and Chris Kuklewicz haskell at list.mightyreason.com",
           "hierarchy": "Data ByteString Search KMP",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.KMP",
           "name": "KMP",
           "package": "stringsearch",
@@ -787,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimultaneous search for multiple patterns in a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n using the Karp-Rabin algorithm.\n\u003c/p\u003e\u003cp\u003eA description of the algorithm for a single pattern can be found at\n \u003ca\u003ehttp://www-igm.univ-mlv.fr/~lecroq/string/node5.html#SECTION0050\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.KarpRabin",
           "name": "KarpRabin",
           "package": "stringsearch",
@@ -796,6 +833,7 @@
         "index": {
           "description": "Simultaneous search for multiple patterns in strict ByteString using the Karp-Rabin algorithm description of the algorithm for single pattern can be found at http www-igm.univ-mlv.fr lecroq string node5.html SECTION0050",
           "hierarchy": "Data ByteString Search KarpRabin",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.KarpRabin",
           "name": "KarpRabin",
           "package": "stringsearch",
@@ -810,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eindicesOfAny\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e finds all occurrences of any of several non-empty patterns\n   in a strict target string. If no non-empty patterns are given,\n   the result is an empty list. Otherwise the result list contains\n   the pairs of all indices where any of the (non-empty) patterns start\n   and the list of all patterns starting at that index, the patterns being\n   represented by their (zero-based) position in the pattern list.\n   Empty patterns are filtered out before processing begins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.KarpRabin",
           "name": "indicesOfAny",
           "package": "stringsearch",
@@ -819,6 +858,7 @@
         "index": {
           "description": "indicesOfAny finds all occurrences of any of several non-empty patterns in strict target string If no non-empty patterns are given the result is an empty list Otherwise the result list contains the pairs of all indices where any of the non-empty patterns start and the list of all patterns starting at that index the patterns being represented by their zero-based position in the pattern list Empty patterns are filtered out before processing begins",
           "hierarchy": "Data ByteString Search KarpRabin",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.KarpRabin",
           "name": "indicesOfAny",
           "normalized": "[ByteString]-\u003eByteString-\u003e[(Int,[Int])]",
@@ -835,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use the new interface instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eFast non-overlapping Knuth-Morris-Pratt search of both strict and\n lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e\u003cp\u003eA description of the algorithm can be found at\n \u003ca\u003ehttp://en.wikipedia.org/wiki/Knuth-Morris-Pratt_algorithm\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eOriginal authors: Justin Bailey (jgbailey at gmail.com) and\n Chris Kuklewicz (haskell at list.mightyreason.com).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.KnuthMorrisPratt",
           "name": "KnuthMorrisPratt",
           "package": "stringsearch",
@@ -844,6 +885,7 @@
         "index": {
           "description": "Deprecated Use the new interface instead Fast non-overlapping Knuth-Morris-Pratt search of both strict and lazy ByteString values description of the algorithm can be found at http en.wikipedia.org wiki Knuth-Morris-Pratt algorithm Original authors Justin Bailey jgbailey at gmail.com and Chris Kuklewicz haskell at list.mightyreason.com",
           "hierarchy": "Data ByteString Search KnuthMorrisPratt",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.KnuthMorrisPratt",
           "name": "KnuthMorrisPratt",
           "package": "stringsearch",
@@ -858,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ematchLL\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e finds the starting indices of all \u003cem\u003enon-overlapping\u003c/em\u003e occurrences\n   of the pattern in the target string. It is a simple wrapper around\n   \u003ccode\u003e\u003ca\u003enonOverlappingIndices\u003c/a\u003e\u003c/code\u003e strictifying\n   the pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.KnuthMorrisPratt",
           "name": "matchLL",
           "package": "stringsearch",
@@ -867,6 +910,7 @@
         "index": {
           "description": "matchLL finds the starting indices of all non-overlapping occurrences of the pattern in the target string It is simple wrapper around nonOverlappingIndices strictifying the pattern",
           "hierarchy": "Data ByteString Search KnuthMorrisPratt",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.KnuthMorrisPratt",
           "name": "matchLL",
           "normalized": "ByteString-\u003eByteString-\u003e[Int]",
@@ -883,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ematchLS\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e finds the starting indices of all \u003cem\u003enon-overlapping\u003c/em\u003e occurrences\n   of the pattern in the target string. It is a simple wrapper around\n   \u003ccode\u003e\u003ca\u003enonOverlappingIndices\u003c/a\u003e\u003c/code\u003e strictifying\n   the pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.KnuthMorrisPratt",
           "name": "matchLS",
           "package": "stringsearch",
@@ -892,6 +937,7 @@
         "index": {
           "description": "matchLS finds the starting indices of all non-overlapping occurrences of the pattern in the target string It is simple wrapper around nonOverlappingIndices strictifying the pattern",
           "hierarchy": "Data ByteString Search KnuthMorrisPratt",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.KnuthMorrisPratt",
           "name": "matchLS",
           "normalized": "ByteString-\u003eByteString-\u003e[Int]",
@@ -908,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ematchSL\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e finds the starting indices of all \u003cem\u003enon-overlapping\u003c/em\u003e occurrences\n   of the pattern in the target string. It is an alias for\n   \u003ccode\u003e\u003ca\u003enonOverlappingIndices\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.KnuthMorrisPratt",
           "name": "matchSL",
           "package": "stringsearch",
@@ -917,6 +964,7 @@
         "index": {
           "description": "matchSL finds the starting indices of all non-overlapping occurrences of the pattern in the target string It is an alias for nonOverlappingIndices",
           "hierarchy": "Data ByteString Search KnuthMorrisPratt",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.KnuthMorrisPratt",
           "name": "matchSL",
           "normalized": "ByteString-\u003eByteString-\u003e[Int]",
@@ -933,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ematchSS\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e finds the starting indices of all \u003cem\u003enon-overlapping\u003c/em\u003e occurrences\n   of the pattern in the target string. It is an alias for\n   \u003ccode\u003e\u003ca\u003enonOverlappingIndices\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.KnuthMorrisPratt",
           "name": "matchSS",
           "package": "stringsearch",
@@ -942,6 +991,7 @@
         "index": {
           "description": "matchSS finds the starting indices of all non-overlapping occurrences of the pattern in the target string It is an alias for nonOverlappingIndices",
           "hierarchy": "Data ByteString Search KnuthMorrisPratt",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.KnuthMorrisPratt",
           "name": "matchSS",
           "normalized": "ByteString-\u003eByteString-\u003e[Int]",
@@ -958,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClass for values to be substituted into strict and lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es\n by the \u003ccode\u003ereplace\u003c/code\u003e functions defined in this package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.Substitution",
           "name": "Substitution",
           "package": "stringsearch",
@@ -967,6 +1018,7 @@
         "index": {
           "description": "Class for values to be substituted into strict and lazy ByteString by the replace functions defined in this package",
           "hierarchy": "Data ByteString Search Substitution",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.Substitution",
           "name": "Substitution",
           "package": "stringsearch",
@@ -981,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class of meaningful substitutions for replace functions\n   on ByteStrings. Instances for strict and lazy ByteStrings are\n   provided here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.Substitution",
           "name": "Substitution",
           "package": "stringsearch",
@@ -990,6 +1043,7 @@
         "index": {
           "description": "Type class of meaningful substitutions for replace functions on ByteStrings Instances for strict and lazy ByteStrings are provided here",
           "hierarchy": "Data ByteString Search Substitution",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.Substitution",
           "name": "Substitution",
           "package": "stringsearch",
@@ -1004,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eprependCycle\u003c/a\u003e\u003c/code\u003e sub lazyBS\u003c/code\u003e shall prepend infinitely many copies\n   of \u003ccode\u003esub\u003c/code\u003e to \u003ccode\u003elazyBS\u003c/code\u003e without entering an infinite loop in case\n   of an empty \u003ccode\u003esub\u003c/code\u003e, so e.g.\n\u003c/p\u003e\u003cpre\u003e\n   \u003ccode\u003e\u003ca\u003eprependCycle\u003c/a\u003e\u003c/code\u003e \"\" \"ab\" == \"ab\"\n\u003c/pre\u003e\u003cp\u003eshall (quickly) evaluate to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n For non-empty \u003ccode\u003esub\u003c/code\u003e, the cycle shall be constructed efficiently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.Substitution",
           "name": "prependCycle",
           "package": "stringsearch",
@@ -1014,6 +1069,7 @@
         "index": {
           "description": "prependCycle sub lazyBS shall prepend infinitely many copies of sub to lazyBS without entering an infinite loop in case of an empty sub so e.g prependCycle ab ab shall quickly evaluate to True For non-empty sub the cycle shall be constructed efficiently",
           "hierarchy": "Data ByteString Search Substitution",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.Substitution",
           "name": "prependCycle",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -1030,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003esubstitution\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e transforms a value to a substitution function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search.Substitution",
           "name": "substitution",
           "package": "stringsearch",
@@ -1040,6 +1097,7 @@
         "index": {
           "description": "substitution transforms value to substitution function",
           "hierarchy": "Data ByteString Search Substitution",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search.Substitution",
           "name": "substitution",
           "normalized": "a-\u003e[ByteString]-\u003e[ByteString]",
@@ -1055,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast overlapping Boyer-Moore search of strict\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e values. Breaking, splitting and replacing\n using the Boyer-Moore algorithm.\n\u003c/p\u003e\u003cp\u003eDescriptions of the algorithm can be found at\n \u003ca\u003ehttp://www-igm.univ-mlv.fr/~lecroq/string/node14.html#SECTION00140\u003c/a\u003e\n and\n \u003ca\u003ehttp://en.wikipedia.org/wiki/Boyer-Moore_string_search_algorithm\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eOriginal authors: Daniel Fischer (daniel.is.fischer at googlemail.com) and\n Chris Kuklewicz (haskell at list.mightyreason.com).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search",
           "name": "Search",
           "package": "stringsearch",
@@ -1064,6 +1123,7 @@
         "index": {
           "description": "Fast overlapping Boyer-Moore search of strict ByteString values Breaking splitting and replacing using the Boyer-Moore algorithm Descriptions of the algorithm can be found at http www-igm.univ-mlv.fr lecroq string node14.html SECTION00140 and http en.wikipedia.org wiki Boyer-Moore string search algorithm Original authors Daniel Fischer daniel.is.fischer at googlemail.com and Chris Kuklewicz haskell at list.mightyreason.com",
           "hierarchy": "Data ByteString Search",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search",
           "name": "Search",
           "package": "stringsearch",
@@ -1078,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eindices\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e finds the starting indices of all possibly overlapping\n   occurrences of the pattern in the target string.\n   If the pattern is empty, the result is \u003ccode\u003e[0 .. \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e target]\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIn general, \u003ccode\u003e\u003ccode\u003e\u003ca\u003enot\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003enull\u003c/a\u003e\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003eindices\u003c/a\u003e\u003c/code\u003e pat target\u003c/code\u003e is a much more\n   efficient version of \u003ccode\u003e\u003ca\u003eisInfixOf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search",
           "name": "indices",
           "package": "stringsearch",
@@ -1087,6 +1148,7 @@
         "index": {
           "description": "indices finds the starting indices of all possibly overlapping occurrences of the pattern in the target string If the pattern is empty the result is length target In general not null indices pat target is much more efficient version of isInfixOf",
           "hierarchy": "Data ByteString Search",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search",
           "name": "indices",
           "normalized": "ByteString-\u003eByteString-\u003e[Int]",
@@ -1102,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ereplace\u003c/a\u003e\u003c/code\u003e pat sub text\u003c/code\u003e replaces all (non-overlapping) occurrences of\n   \u003ccode\u003epat\u003c/code\u003e in \u003ccode\u003etext\u003c/code\u003e with \u003ccode\u003esub\u003c/code\u003e. If occurrences of \u003ccode\u003epat\u003c/code\u003e overlap, the first\n   occurrence that does not overlap with a replaced previous occurrence\n   is substituted. Occurrences of \u003ccode\u003epat\u003c/code\u003e arising from a substitution\n   will not be substituted. For example:\n\u003c/p\u003e\u003cpre\u003e\n   \u003ccode\u003e\u003ca\u003ereplace\u003c/a\u003e\u003c/code\u003e \"ana\" \"olog\" \"banana\" = \"bologna\"\n   \u003ccode\u003e\u003ca\u003ereplace\u003c/a\u003e\u003c/code\u003e \"ana\" \"o\" \"bananana\" = \"bono\"\n   \u003ccode\u003e\u003ca\u003ereplace\u003c/a\u003e\u003c/code\u003e \"aab\" \"abaa\" \"aaabb\" = \"aabaab\"\n\u003c/pre\u003e\u003cp\u003eThe result is a \u003cem\u003elazy\u003c/em\u003e \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e,\n   which is lazily produced, without copying.\n   Equality of pattern and substitution is not checked, but\n\u003c/p\u003e\u003cpre\u003e\n   (\u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003etoChunks\u003c/a\u003e\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003ereplace\u003c/a\u003e\u003c/code\u003e pat pat text) == text\n\u003c/pre\u003e\u003cp\u003eholds. If the pattern is empty but not the substitution, the result\n   is equivalent to (were they \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es) \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecycle\u003c/a\u003e\u003c/code\u003e sub\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor non-empty \u003ccode\u003epat\u003c/code\u003e and \u003ccode\u003esub\u003c/code\u003e a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e,\n\u003c/p\u003e\u003cpre\u003e\n   \u003ccode\u003e\u003ca\u003efromChunks\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eintersperse\u003c/a\u003e\u003c/code\u003e sub . \u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003e pat = \u003ccode\u003e\u003ca\u003ereplace\u003c/a\u003e\u003c/code\u003e pat sub\n\u003c/pre\u003e\u003cp\u003eand analogous relations hold for other types of \u003ccode\u003esub\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:59 UTC 2014",
           "module": "Data.ByteString.Search",
           "name": "replace",
           "package": "stringsearch",
@@ -1111,6 +1174,7 @@
         "index": {
           "description": "replace pat sub text replaces all non-overlapping occurrences of pat in text with sub If occurrences of pat overlap the first occurrence that does not overlap with replaced previous occurrence is substituted Occurrences of pat arising from substitution will not be substituted For example replace ana olog banana bologna replace ana bananana bono replace aab abaa aaabb aabaab The result is lazy ByteString which is lazily produced without copying Equality of pattern and substitution is not checked but concat toChunks replace pat pat text text holds If the pattern is empty but not the substitution the result is equivalent to were they String cycle sub For non-empty pat and sub strict ByteString fromChunks intersperse sub split pat replace pat sub and analogous relations hold for other types of sub",
           "hierarchy": "Data ByteString Search",
+          "indexed": "2014-03-11T20:12:59",
           "module": "Data.ByteString.Search",
           "name": "replace",
           "normalized": "ByteString-\u003ea-\u003eByteString-\u003eByteString",

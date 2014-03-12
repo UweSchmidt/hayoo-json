@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-test-json"
+        "phrase": "yesod-test-json",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eYesod.Test.Json provides convenience functions for working\n   with Test.Hspec and Network.Wai.Test on JSON data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:44 UTC 2014",
           "module": "Yesod.Test.Json",
           "name": "Json",
           "package": "yesod-test-json",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Yesod.Test.Json provides convenience functions for working with Test.Hspec and Network.Wai.Test on JSON data",
           "hierarchy": "Yesod Test Json",
+          "indexed": "2014-03-11T20:46:44",
           "module": "Yesod.Test.Json",
           "name": "Json",
           "package": "yesod-test-json",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA request to your server. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:44 UTC 2014",
           "module": "Yesod.Test.Json",
           "name": "APIFunction",
           "package": "yesod-test-json",
@@ -51,6 +54,7 @@
         "index": {
           "description": "request to your server",
           "hierarchy": "Yesod Test Json",
+          "indexed": "2014-03-11T20:46:44",
           "module": "Yesod.Test.Json",
           "name": "APIFunction",
           "package": "yesod-test-json",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen an assertion is evaluated, it will output a message if and only if the\n assertion fails.  \n\u003c/p\u003e\u003cp\u003eTest cases are composed of a sequence of one or more assertions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:44 UTC 2014",
           "module": "Yesod.Test.Json",
           "name": "Assertion",
           "package": "yesod-test-json",
@@ -73,6 +78,7 @@
         "index": {
           "description": "When an assertion is evaluated it will output message if and only if the assertion fails Test cases are composed of sequence of one or more assertions",
           "hierarchy": "Yesod Test Json",
+          "indexed": "2014-03-11T20:46:44",
           "module": "Yesod.Test.Json",
           "name": "Assertion",
           "package": "yesod-test-json",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:44 UTC 2014",
           "module": "Yesod.Test.Json",
           "name": "SResponse",
           "package": "yesod-test-json",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Yesod Test Json",
+          "indexed": "2014-03-11T20:46:44",
           "module": "Yesod.Test.Json",
           "name": "SResponse",
           "package": "yesod-test-json",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:44 UTC 2014",
           "module": "Yesod.Test.Json",
           "name": "Session",
           "package": "yesod-test-json",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Yesod Test Json",
+          "indexed": "2014-03-11T20:46:44",
           "module": "Yesod.Test.Json",
           "name": "Session",
           "package": "yesod-test-json",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:44 UTC 2014",
           "module": "Yesod.Test.Json",
           "name": "SResponse",
           "package": "yesod-test-json",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Yesod Test Json",
+          "indexed": "2014-03-11T20:46:44",
           "module": "Yesod.Test.Json",
           "name": "SResponse",
           "package": "yesod-test-json",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:44 UTC 2014",
           "module": "Yesod.Test.Json",
           "name": "assertBool",
           "package": "yesod-test-json",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Yesod Test Json",
+          "indexed": "2014-03-11T20:46:44",
           "module": "Yesod.Test.Json",
           "name": "assertBool",
           "normalized": "String-\u003eBool-\u003eSession()",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:44 UTC 2014",
           "module": "Yesod.Test.Json",
           "name": "assertJSON",
           "package": "yesod-test-json",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Yesod Test Json",
+          "indexed": "2014-03-11T20:46:44",
           "module": "Yesod.Test.Json",
           "name": "assertJSON",
           "normalized": "(a-\u003e(String,Bool))-\u003eSResponse-\u003eSession()",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:44 UTC 2014",
           "module": "Yesod.Test.Json",
           "name": "assertOK",
           "package": "yesod-test-json",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Yesod Test Json",
+          "indexed": "2014-03-11T20:46:44",
           "module": "Yesod.Test.Json",
           "name": "assertOK",
           "normalized": "SResponse-\u003eSession()",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:44 UTC 2014",
           "module": "Yesod.Test.Json",
           "name": "assertString",
           "package": "yesod-test-json",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Yesod Test Json",
+          "indexed": "2014-03-11T20:46:44",
           "module": "Yesod.Test.Json",
           "name": "assertString",
           "normalized": "String-\u003eSession()",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:44 UTC 2014",
           "module": "Yesod.Test.Json",
           "name": "simpleBody",
           "package": "yesod-test-json",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Yesod Test Json",
+          "indexed": "2014-03-11T20:46:44",
           "module": "Yesod.Test.Json",
           "name": "simpleBody",
           "package": "yesod-test-json",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:44 UTC 2014",
           "module": "Yesod.Test.Json",
           "name": "simpleHeaders",
           "package": "yesod-test-json",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Yesod Test Json",
+          "indexed": "2014-03-11T20:46:44",
           "module": "Yesod.Test.Json",
           "name": "simpleHeaders",
           "package": "yesod-test-json",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:44 UTC 2014",
           "module": "Yesod.Test.Json",
           "name": "simpleStatus",
           "package": "yesod-test-json",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Yesod Test Json",
+          "indexed": "2014-03-11T20:46:44",
           "module": "Yesod.Test.Json",
           "name": "simpleStatus",
           "package": "yesod-test-json",
@@ -307,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a test suite for your \u003ccode\u003e\u003ca\u003eApplication\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:44 UTC 2014",
           "module": "Yesod.Test.Json",
           "name": "testApp",
           "package": "yesod-test-json",
@@ -317,6 +344,7 @@
         "index": {
           "description": "Run test suite for your Application",
           "hierarchy": "Yesod Test Json",
+          "indexed": "2014-03-11T20:46:44",
           "module": "Yesod.Test.Json",
           "name": "testApp",
           "normalized": "Application-\u003eAppConfig a b-\u003e(((APIFunction-\u003eSession())-\u003eAssertion)-\u003eSpec)-\u003eIO()",

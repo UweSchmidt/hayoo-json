@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xcb-types"
+        "phrase": "xcb-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHandls parsing the data structures from XML files.\n\u003c/p\u003e\u003cp\u003eIn order to support copying events and errors across module\n boundaries, all modules which may have cross-module event copies and\n error copies must be parsed at once.\n\u003c/p\u003e\u003cp\u003eThere is no provision for preserving the event copy and error copy\n declarations - the copies are handled during parsing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.FromXML",
           "name": "FromXML",
           "package": "xcb-types",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Handls parsing the data structures from XML files In order to support copying events and errors across module boundaries all modules which may have cross-module event copies and error copies must be parsed at once There is no provision for preserving the event copy and error copy declarations the copies are handled during parsing",
           "hierarchy": "Data XCB FromXML",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.FromXML",
           "name": "FromXML",
           "package": "xcb-types",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess the listed XML files.\n Any files which fail to parse are silently dropped.\n Any declaration in an XML file which fail to parse are\n silently dropped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.FromXML",
           "name": "fromFiles",
           "package": "xcb-types",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Process the listed XML files Any files which fail to parse are silently dropped Any declaration in an XML file which fail to parse are silently dropped",
           "hierarchy": "Data XCB FromXML",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.FromXML",
           "name": "fromFiles",
           "normalized": "[FilePath]-\u003eIO[XHeader]",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess the strings as if they were XML files.\n Any files which fail to parse are silently dropped.\n Any declaration in an XML file which fail to parse are\n silently dropped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.FromXML",
           "name": "fromStrings",
           "package": "xcb-types",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Process the strings as if they were XML files Any files which fail to parse are silently dropped Any declaration in an XML file which fail to parse are silently dropped",
           "hierarchy": "Data XCB FromXML",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.FromXML",
           "name": "fromStrings",
           "normalized": "[String]-\u003e[XHeader]",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty-printers for the tyes declared in this package.\n This does NOT ouput XML - it produces human-readable information\n intended to aid in debugging.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Pretty",
           "name": "Pretty",
           "package": "xcb-types",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Pretty-printers for the tyes declared in this package This does NOT ouput XML it produces human-readable information intended to aid in debugging",
           "hierarchy": "Data XCB Pretty",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Pretty",
           "name": "Pretty",
           "package": "xcb-types",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal complete definition:\n\u003c/p\u003e\u003cp\u003eOne of \u003ccode\u003e\u003ca\u003epretty\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003etoDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Pretty",
           "name": "Pretty",
           "package": "xcb-types",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Minimal complete definition One of pretty or toDoc",
           "hierarchy": "Data XCB Pretty",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Pretty",
           "name": "Pretty",
           "package": "xcb-types",
@@ -139,6 +149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Pretty",
           "name": "pretty",
           "package": "xcb-types",
@@ -148,6 +159,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Pretty",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Pretty",
           "name": "pretty",
           "normalized": "a-\u003eString",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Pretty",
           "name": "toDoc",
           "package": "xcb-types",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Pretty",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Pretty",
           "name": "toDoc",
           "normalized": "a-\u003eDoc",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines types inteneded to be equivalent to the schema used by\n the XCB project in their XML protocol description.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "Types",
           "package": "xcb-types",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Defines types inteneded to be equivalent to the schema used by the XCB project in their XML protocol description",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "Types",
           "package": "xcb-types",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupported Binary operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "Binop",
           "package": "xcb-types",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Supported Binary operations",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "Binop",
           "package": "xcb-types",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "EnumElem",
           "package": "xcb-types",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "EnumElem",
           "package": "xcb-types",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "EnumVals",
           "package": "xcb-types",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "EnumVals",
           "package": "xcb-types",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclarations may contain expressions from this small language\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "Expression",
           "package": "xcb-types",
@@ -284,6 +307,7 @@
         "index": {
           "description": "Declarations may contain expressions from this small language",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "Expression",
           "package": "xcb-types",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "GenStructElem",
           "package": "xcb-types",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "GenStructElem",
           "package": "xcb-types",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different types of declarations which can be made in one of the\n XML files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "GenXDecl",
           "package": "xcb-types",
@@ -328,6 +355,7 @@
         "index": {
           "description": "The different types of declarations which can be made in one of the XML files",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "GenXDecl",
           "package": "xcb-types",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is what a single XML file maps to.  It contains some meta-data\n then declarations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "GenXHeader",
           "package": "xcb-types",
@@ -351,6 +380,7 @@
         "index": {
           "description": "This is what single XML file maps to It contains some meta-data then declarations",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "GenXHeader",
           "package": "xcb-types",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "GenXReply",
           "package": "xcb-types",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "GenXReply",
           "package": "xcb-types",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "GenXidUnionElem",
           "package": "xcb-types",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "GenXidUnionElem",
           "package": "xcb-types",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "ListName",
           "package": "xcb-types",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "ListName",
           "package": "xcb-types",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "MaskName",
           "package": "xcb-types",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "MaskName",
           "package": "xcb-types",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "MaskPadding",
           "package": "xcb-types",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "MaskPadding",
           "package": "xcb-types",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "MaskVals",
           "package": "xcb-types",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "MaskVals",
           "package": "xcb-types",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "Name",
           "package": "xcb-types",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "Name",
           "package": "xcb-types",
@@ -511,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "Ref",
           "package": "xcb-types",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "Ref",
           "package": "xcb-types",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "StructElem",
           "package": "xcb-types",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "StructElem",
           "package": "xcb-types",
@@ -554,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes may include a reference to the containing module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "Type",
           "package": "xcb-types",
@@ -563,6 +612,7 @@
         "index": {
           "description": "Types may include reference to the containing module",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "Type",
           "package": "xcb-types",
@@ -576,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XDecl",
           "package": "xcb-types",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XDecl",
           "package": "xcb-types",
@@ -597,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XHeader",
           "package": "xcb-types",
@@ -605,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XHeader",
           "package": "xcb-types",
@@ -618,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XReply",
           "package": "xcb-types",
@@ -626,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XReply",
           "package": "xcb-types",
@@ -639,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XidUnionElem",
           "package": "xcb-types",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XidUnionElem",
           "package": "xcb-types",
@@ -660,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "Add",
           "package": "xcb-types",
@@ -669,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "Add",
           "package": "xcb-types",
@@ -682,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "And",
           "package": "xcb-types",
@@ -691,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "And",
           "package": "xcb-types",
@@ -705,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA log-base-2 literal value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "Bit",
           "package": "xcb-types",
@@ -715,6 +778,7 @@
         "index": {
           "description": "log-base-2 literal value",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "Bit",
           "package": "xcb-types",
@@ -728,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "Div",
           "package": "xcb-types",
@@ -737,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "Div",
           "package": "xcb-types",
@@ -750,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "EnumElem",
           "package": "xcb-types",
@@ -759,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "EnumElem",
           "package": "xcb-types",
@@ -772,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "ExprField",
           "package": "xcb-types",
@@ -781,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "ExprField",
           "package": "xcb-types",
@@ -795,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to a field in the same declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "FieldRef",
           "package": "xcb-types",
@@ -805,6 +876,7 @@
         "index": {
           "description": "reference to field in the same declaration",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "FieldRef",
           "package": "xcb-types",
@@ -818,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "List",
           "package": "xcb-types",
@@ -827,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "List",
           "package": "xcb-types",
@@ -840,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "Mult",
           "package": "xcb-types",
@@ -849,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "Mult",
           "package": "xcb-types",
@@ -863,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binary opeation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "Op",
           "package": "xcb-types",
@@ -873,6 +950,7 @@
         "index": {
           "description": "binary opeation",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "Op",
           "package": "xcb-types",
@@ -886,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "Pad",
           "package": "xcb-types",
@@ -895,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "Pad",
           "package": "xcb-types",
@@ -908,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "QualType",
           "package": "xcb-types",
@@ -917,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "QualType",
           "package": "xcb-types",
@@ -930,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "RShift",
           "package": "xcb-types",
@@ -939,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "RShift",
           "package": "xcb-types",
@@ -952,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "SField",
           "package": "xcb-types",
@@ -961,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "SField",
           "package": "xcb-types",
@@ -974,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "Sub",
           "package": "xcb-types",
@@ -983,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "Sub",
           "package": "xcb-types",
@@ -996,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "UnQualType",
           "package": "xcb-types",
@@ -1005,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "UnQualType",
           "package": "xcb-types",
@@ -1019,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "Value",
           "package": "xcb-types",
@@ -1029,6 +1120,7 @@
         "index": {
           "description": "literal value",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "Value",
           "package": "xcb-types",
@@ -1042,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "ValueParam",
           "package": "xcb-types",
@@ -1051,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "ValueParam",
           "package": "xcb-types",
@@ -1064,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XEnum",
           "package": "xcb-types",
@@ -1073,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XEnum",
           "normalized": "XEnum Name[EnumElem]",
@@ -1088,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XError",
           "package": "xcb-types",
@@ -1097,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XError",
           "normalized": "XError Name Int[GenStructElem a]",
@@ -1113,6 +1211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe boolean indicates if the event includes a sequence number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XEvent",
           "package": "xcb-types",
@@ -1123,6 +1222,7 @@
         "index": {
           "description": "The boolean indicates if the event includes sequence number",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XEvent",
           "normalized": "XEvent Name Int[GenStructElem a](Maybe Bool)",
@@ -1138,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XHeader",
           "package": "xcb-types",
@@ -1147,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XHeader",
           "package": "xcb-types",
@@ -1160,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XImport",
           "package": "xcb-types",
@@ -1169,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XImport",
           "package": "xcb-types",
@@ -1182,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XRequest",
           "package": "xcb-types",
@@ -1191,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XRequest",
           "normalized": "XRequest Name Int[GenStructElem a](Maybe(GenXReply a))",
@@ -1206,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XStruct",
           "package": "xcb-types",
@@ -1215,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XStruct",
           "normalized": "XStruct Name[GenStructElem a]",
@@ -1230,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XTypeDef",
           "package": "xcb-types",
@@ -1239,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XTypeDef",
           "package": "xcb-types",
@@ -1252,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XUnion",
           "package": "xcb-types",
@@ -1261,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XUnion",
           "normalized": "XUnion Name[GenStructElem a]",
@@ -1276,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XidType",
           "package": "xcb-types",
@@ -1285,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XidType",
           "package": "xcb-types",
@@ -1298,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XidUnion",
           "package": "xcb-types",
@@ -1307,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XidUnion",
           "normalized": "XidUnion Name[GenXidUnionElem a]",
@@ -1322,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "XidUnionElem",
           "package": "xcb-types",
@@ -1331,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "XidUnionElem",
           "package": "xcb-types",
@@ -1345,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclarations contained in this module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "xheader_decls",
           "package": "xcb-types",
@@ -1355,6 +1474,7 @@
         "index": {
           "description": "Declarations contained in this module",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "xheader_decls",
           "normalized": "[GenXDecl a]",
@@ -1370,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of module.  Used in the other modules as a reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "xheader_header",
           "package": "xcb-types",
@@ -1380,6 +1501,7 @@
         "index": {
           "description": "Name of module Used in the other modules as reference",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "xheader_header",
           "package": "xcb-types",
@@ -1392,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "xheader_major_version",
           "package": "xcb-types",
@@ -1401,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "xheader_major_version",
           "package": "xcb-types",
@@ -1413,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "xheader_minor_version",
           "package": "xcb-types",
@@ -1422,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "xheader_minor_version",
           "package": "xcb-types",
@@ -1434,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "xheader_multiword",
           "package": "xcb-types",
@@ -1443,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "xheader_multiword",
           "package": "xcb-types",
@@ -1456,6 +1584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterCaps name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "xheader_name",
           "package": "xcb-types",
@@ -1466,6 +1595,7 @@
         "index": {
           "description": "InterCaps name",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "xheader_name",
           "package": "xcb-types",
@@ -1479,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName used to indentify extensions between the X client and server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB.Types",
           "name": "xheader_xname",
           "package": "xcb-types",
@@ -1489,6 +1620,7 @@
         "index": {
           "description": "Name used to indentify extensions between the client and server",
           "hierarchy": "Data XCB Types",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB.Types",
           "name": "xheader_xname",
           "package": "xcb-types",
@@ -1502,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eXCB\u003c/a\u003e\u003c/code\u003e module can parse the contents of the xcb-proto\n XML files into Haskell data structures.\n\u003c/p\u003e\u003cp\u003ePretty-printers are provided to aid in the debugging - they do\n not pretty-print to XML, but to a custom human-readable format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:04 UTC 2014",
           "module": "Data.XCB",
           "name": "XCB",
           "package": "xcb-types",
@@ -1511,6 +1644,7 @@
         "index": {
           "description": "The XCB module can parse the contents of the xcb-proto XML files into Haskell data structures Pretty-printers are provided to aid in the debugging they do not pretty-print to XML but to custom human-readable format",
           "hierarchy": "Data XCB",
+          "indexed": "2014-03-11T20:41:04",
           "module": "Data.XCB",
           "name": "XCB",
           "package": "xcb-types",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dtd-text"
+        "phrase": "dtd-text",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a \u003ca\u003eData.Attoparsec.Text\u003c/a\u003e parser for XML\n Document Type Declaration (DTD) documents. A higher-level interface\n that implements parameter entity resolution is also provided.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "Parse",
           "package": "dtd-text",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides Data.Attoparsec.Text parser for XML Document Type Declaration DTD documents higher-level interface that implements parameter entity resolution is also provided",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "Parse",
           "package": "dtd-text",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbol table for external parameter entity resolution.  The\n symbol table maps strict \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e names to lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e values.\n Typically, the values will have been retrieved from an external\n resource such as a file or URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "SymTable",
           "package": "dtd-text",
@@ -51,6 +54,7 @@
         "index": {
           "description": "symbol table for external parameter entity resolution The symbol table maps strict Text names to lazy Text values Typically the values will have been retrieved from an external resource such as file or URL",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "SymTable",
           "package": "dtd-text",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the three-part declaration of an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "attDecl",
           "package": "dtd-text",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Parse the three-part declaration of an attribute",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "attDecl",
           "package": "dtd-text",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a default value specification for an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "attDefault",
           "package": "dtd-text",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Parse default value specification for an attribute",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "attDefault",
           "package": "dtd-text",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a list of attribute declarations for an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "attList",
           "package": "dtd-text",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Parse list of attribute declarations for an element",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "attList",
           "package": "dtd-text",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the type of an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "attType",
           "package": "dtd-text",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Parse the type of an attribute",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "attType",
           "package": "dtd-text",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "comment",
           "package": "dtd-text",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Parse comment",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "comment",
           "package": "dtd-text",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the content that can occur in an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "contentDecl",
           "package": "dtd-text",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Parse the content that can occur in an element",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "contentDecl",
           "package": "dtd-text",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the model of structured content for an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "contentModel",
           "package": "dtd-text",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Parse the model of structured content for an element",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "contentModel",
           "package": "dtd-text",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a DTD. Parameter entity substitution is not supported by\n this parser, so parameter entities cannot appear in places where a\n valid DTD syntax production cannot be determined without resolving\n them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "dtd",
           "package": "dtd-text",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Parse DTD Parameter entity substitution is not supported by this parser so parameter entities cannot appear in places where valid DTD syntax production cannot be determined without resolving them",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "dtd",
           "package": "dtd-text",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a single component of a \u003ccode\u003e\u003ca\u003eDTD\u003c/a\u003e\u003c/code\u003e. Conditional sections are\n currently not supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "dtdComponent",
           "package": "dtd-text",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Parse single component of DTD Conditional sections are currently not supported",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "dtdComponent",
           "package": "dtd-text",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the declaration of an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "elementDecl",
           "package": "dtd-text",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Parse the declaration of an element",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "elementDecl",
           "package": "dtd-text",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an entity declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "entityDecl",
           "package": "dtd-text",
@@ -313,6 +338,7 @@
         "index": {
           "description": "Parse an entity declaration",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "entityDecl",
           "package": "dtd-text",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an entity value. An entity value is a quoted string\n possibly containing parameter entity references.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "entityValue",
           "package": "dtd-text",
@@ -337,6 +364,7 @@
         "index": {
           "description": "Parse an entity value An entity value is quoted string possibly containing parameter entity references",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "entityValue",
           "normalized": "Parser[EntityValue]",
@@ -353,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an external ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "externalID",
           "package": "dtd-text",
@@ -363,6 +392,7 @@
         "index": {
           "description": "Parse an external ID",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "externalID",
           "package": "dtd-text",
@@ -377,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a processing instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "instruction",
           "package": "dtd-text",
@@ -387,6 +418,7 @@
         "index": {
           "description": "Parse processing instruction",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "instruction",
           "package": "dtd-text",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a DTD name. We are much more liberal than the spec: we\n allow any characters that will not interfere with other DTD\n syntax. This parser subsumes both \u003ccode\u003eName\u003c/code\u003e and \u003ccode\u003eNmToken\u003c/code\u003e in the spec,\n and more.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "name",
           "package": "dtd-text",
@@ -410,6 +443,7 @@
         "index": {
           "description": "Parse DTD name We are much more liberal than the spec we allow any characters that will not interfere with other DTD syntax This parser subsumes both Name and NmToken in the spec and more",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "name",
           "package": "dtd-text",
@@ -423,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a DTD \u003ccode\u003e\u003ca\u003ename\u003c/a\u003e\u003c/code\u003e followed by optional white space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "nameSS",
           "package": "dtd-text",
@@ -433,6 +468,7 @@
         "index": {
           "description": "Parse DTD name followed by optional white space",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "nameSS",
           "package": "dtd-text",
@@ -447,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a declaration of a notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "notation",
           "package": "dtd-text",
@@ -457,6 +494,7 @@
         "index": {
           "description": "Parse declaration of notation",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "notation",
           "package": "dtd-text",
@@ -470,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a source for a notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "notationSrc",
           "package": "dtd-text",
@@ -480,6 +519,7 @@
         "index": {
           "description": "Parse source for notation",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "notationSrc",
           "package": "dtd-text",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a parameter entity reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "pERef",
           "package": "dtd-text",
@@ -504,6 +545,7 @@
         "index": {
           "description": "Parse parameter entity reference",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "pERef",
           "package": "dtd-text",
@@ -518,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a DTD from lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e while fully resolving the values\n of all parameter entities whose values are provided internally in\n the DTD. If the syntax of the DTD is invalid, all declarations up\n to the first invalid one are returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "parseDTD",
           "package": "dtd-text",
@@ -528,6 +571,7 @@
         "index": {
           "description": "Parse DTD from lazy Text while fully resolving the values of all parameter entities whose values are provided internally in the DTD If the syntax of the DTD is invalid all declarations up to the first invalid one are returned",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "parseDTD",
           "normalized": "Text-\u003eDTD",
@@ -544,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a DTD from lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e while fully resolving the values\n of parameter entities. The given table of values is used to resolve\n external parameter entities.\n\u003c/p\u003e\u003cp\u003eIf you need information from the DTD itself to look up the external\n entities, such as system and public IDs, you might be able to get\n the information by applying \u003ccode\u003e\u003ca\u003eparseDTD\u003c/a\u003e\u003c/code\u003e to the DTD or part of it for\n an initial parse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "parseDTDWithExtern",
           "package": "dtd-text",
@@ -554,6 +599,7 @@
         "index": {
           "description": "Parse DTD from lazy Text while fully resolving the values of parameter entities The given table of values is used to resolve external parameter entities If you need information from the DTD itself to look up the external entities such as system and public IDs you might be able to get the information by applying parseDTD to the DTD or part of it for an initial parse",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "parseDTDWithExtern",
           "normalized": "SymTable-\u003eText-\u003eDTD",
@@ -570,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single-quoted or double-quoted string. The quotation marks are\n dropped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "quoted",
           "package": "dtd-text",
@@ -580,6 +627,7 @@
         "index": {
           "description": "single-quoted or double-quoted string The quotation marks are dropped",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "quoted",
           "package": "dtd-text",
@@ -593,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a repetition character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "repeatChar",
           "package": "dtd-text",
@@ -603,6 +652,7 @@
         "index": {
           "description": "Parse repetition character",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "repeatChar",
           "package": "dtd-text",
@@ -617,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an \u003ccode\u003e?xml\u003c/code\u003e text declaration at the beginning of a \u003ccode\u003e\u003ca\u003eDTD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Parse",
           "name": "textDecl",
           "package": "dtd-text",
@@ -627,6 +678,7 @@
         "index": {
           "description": "Parse an xml text declaration at the beginning of DTD",
           "hierarchy": "Data XML DTD Parse",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Parse",
           "name": "textDecl",
           "package": "dtd-text",
@@ -641,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ca\u003eData.Text.Lazy.Builder\u003c/a\u003e renderer for XML Document Type\n Declaration (DTD) documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "Render",
           "package": "dtd-text",
@@ -650,6 +703,7 @@
         "index": {
           "description": "Data.Text.Lazy.Builder renderer for XML Document Type Declaration DTD documents",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "Render",
           "package": "dtd-text",
@@ -664,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eAttDecl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildAttDecl",
           "package": "dtd-text",
@@ -674,6 +729,7 @@
         "index": {
           "description": "Builder for an AttDecl",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildAttDecl",
           "normalized": "AttDecl-\u003eBuilder",
@@ -690,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eAttDefault\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildAttDefault",
           "package": "dtd-text",
@@ -700,6 +757,7 @@
         "index": {
           "description": "Builder for an AttDefault",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildAttDefault",
           "normalized": "AttDefault-\u003eBuilder",
@@ -716,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eAttList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildAttList",
           "package": "dtd-text",
@@ -726,6 +785,7 @@
         "index": {
           "description": "Builder for an AttList",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildAttList",
           "normalized": "AttList-\u003eBuilder",
@@ -742,6 +802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eAttType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildAttType",
           "package": "dtd-text",
@@ -752,6 +813,7 @@
         "index": {
           "description": "Builder for an AttType",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildAttType",
           "normalized": "AttType-\u003eBuilder",
@@ -768,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a choice expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildChoice",
           "package": "dtd-text",
@@ -778,6 +841,7 @@
         "index": {
           "description": "Build choice expression",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildChoice",
           "normalized": "(a-\u003eBuilder)-\u003e[a]-\u003eBuilder",
@@ -794,6 +858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a comment. The comment text cannot be null,\n cannot contain two consecutive \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e, and cannot end in \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildComment",
           "package": "dtd-text",
@@ -804,6 +869,7 @@
         "index": {
           "description": "Builder for comment The comment text cannot be null cannot contain two consecutive and cannot end in",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildComment",
           "normalized": "Text-\u003eBuilder",
@@ -820,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eContentDecl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildContentDecl",
           "package": "dtd-text",
@@ -830,6 +897,7 @@
         "index": {
           "description": "Builder for ContentDecl",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildContentDecl",
           "normalized": "ContentDecl-\u003eBuilder",
@@ -846,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eContentModel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildContentModel",
           "package": "dtd-text",
@@ -856,6 +925,7 @@
         "index": {
           "description": "Builder for ContentModel",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildContentModel",
           "normalized": "ContentModel-\u003eBuilder",
@@ -872,6 +942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eDTD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildDTD",
           "package": "dtd-text",
@@ -882,6 +953,7 @@
         "index": {
           "description": "Builder for DTD",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildDTD",
           "normalized": "DTD-\u003eBuilder",
@@ -898,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eDTDComponent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildDTDComponent",
           "package": "dtd-text",
@@ -908,6 +981,7 @@
         "index": {
           "description": "Builder for DTDComponent",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildDTDComponent",
           "normalized": "DTDComponent-\u003eBuilder",
@@ -924,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eDTDTextDecl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildDTDTextDecl",
           "package": "dtd-text",
@@ -934,6 +1009,7 @@
         "index": {
           "description": "Builder for DTDTextDecl",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildDTDTextDecl",
           "normalized": "DTDTextDecl-\u003eBuilder",
@@ -950,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eElementDecl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildElementDecl",
           "package": "dtd-text",
@@ -960,6 +1037,7 @@
         "index": {
           "description": "Builder for an ElementDecl",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildElementDecl",
           "normalized": "ElementDecl-\u003eBuilder",
@@ -976,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eEntityDecl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildEntityDecl",
           "package": "dtd-text",
@@ -986,6 +1065,7 @@
         "index": {
           "description": "Builder for an EntityDecl",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildEntityDecl",
           "normalized": "EntityDecl-\u003eBuilder",
@@ -1002,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an entity value, consisting of a list of\n \u003ccode\u003e\u003ca\u003eEntityValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildEntityValue",
           "package": "dtd-text",
@@ -1012,6 +1093,7 @@
         "index": {
           "description": "Builder for an entity value consisting of list of EntityValue",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildEntityValue",
           "normalized": "[EntityValue]-\u003eBuilder",
@@ -1028,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eExternalID\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildExternalID",
           "package": "dtd-text",
@@ -1038,6 +1121,7 @@
         "index": {
           "description": "Builder for an ExternalID",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildExternalID",
           "normalized": "ExternalID-\u003eBuilder",
@@ -1054,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for an \u003ccode\u003e\u003ca\u003eInstruction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildInstruction",
           "package": "dtd-text",
@@ -1064,6 +1149,7 @@
         "index": {
           "description": "Builder for an Instruction",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildInstruction",
           "normalized": "Instruction-\u003eBuilder",
@@ -1080,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a list of items\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildList",
           "package": "dtd-text",
@@ -1090,6 +1177,7 @@
         "index": {
           "description": "Build list of items",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildList",
           "normalized": "Text-\u003e(a-\u003eBuilder)-\u003e[a]-\u003eBuilder",
@@ -1106,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an optional item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildMaybe",
           "package": "dtd-text",
@@ -1116,6 +1205,7 @@
         "index": {
           "description": "Build an optional item",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildMaybe",
           "normalized": "(a-\u003eBuilder)-\u003eMaybe a-\u003eBuilder",
@@ -1132,6 +1222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eNotation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildNotation",
           "package": "dtd-text",
@@ -1142,6 +1233,7 @@
         "index": {
           "description": "Builder for Notation",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildNotation",
           "normalized": "Notation-\u003eBuilder",
@@ -1158,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eNotationSource\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildNotationSource",
           "package": "dtd-text",
@@ -1168,6 +1261,7 @@
         "index": {
           "description": "Builder for NotationSource",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildNotationSource",
           "normalized": "NotationSource-\u003eBuilder",
@@ -1184,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA builder for a \u003ccode\u003e\u003ca\u003ePERef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildPERef",
           "package": "dtd-text",
@@ -1194,6 +1289,7 @@
         "index": {
           "description": "builder for PERef",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildPERef",
           "normalized": "PERef-\u003eBuilder",
@@ -1210,6 +1306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eRepeat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "buildRepeat",
           "package": "dtd-text",
@@ -1220,6 +1317,7 @@
         "index": {
           "description": "Builder for Repeat",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "buildRepeat",
           "normalized": "Repeat-\u003eBuilder",
@@ -1236,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "newline",
           "package": "dtd-text",
@@ -1246,6 +1345,7 @@
         "index": {
           "description": "Build newline",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "newline",
           "package": "dtd-text",
@@ -1259,6 +1359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a string surround by parentheses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "parens",
           "package": "dtd-text",
@@ -1269,6 +1370,7 @@
         "index": {
           "description": "Build string surround by parentheses",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "parens",
           "normalized": "Builder-\u003eBuilder",
@@ -1284,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a string quoted by angle brackets, with an exclamation mark.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "pbracket",
           "package": "dtd-text",
@@ -1294,6 +1397,7 @@
         "index": {
           "description": "Build string quoted by angle brackets with an exclamation mark",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "pbracket",
           "normalized": "Builder-\u003eBuilder",
@@ -1309,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a quoted string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "quote",
           "package": "dtd-text",
@@ -1319,6 +1424,7 @@
         "index": {
           "description": "Build quoted string",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "quote",
           "normalized": "Builder-\u003eBuilder",
@@ -1334,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:21 UTC 2014",
           "module": "Data.XML.DTD.Render",
           "name": "space",
           "package": "dtd-text",
@@ -1344,6 +1451,7 @@
         "index": {
           "description": "Build space",
           "hierarchy": "Data XML DTD Render",
+          "indexed": "2014-03-11T17:59:21",
           "module": "Data.XML.DTD.Render",
           "name": "space",
           "package": "dtd-text",

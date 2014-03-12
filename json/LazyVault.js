@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "LazyVault"
+        "phrase": "LazyVault",
+        "type": "phrase"
       },
       "type": "context"
     }

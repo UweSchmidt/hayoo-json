@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ShowF"
+        "phrase": "ShowF",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eShowable functors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:00:35 UTC 2014",
           "module": "Text.ShowF",
           "name": "ShowF",
           "package": "ShowF",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Showable functors",
           "hierarchy": "Text ShowF",
+          "indexed": "2014-03-11T17:00:35",
           "module": "Text.ShowF",
           "name": "ShowF",
           "package": "ShowF",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:35 UTC 2014",
           "module": "Text.ShowF",
           "name": "ShowF",
           "package": "ShowF",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text ShowF",
+          "indexed": "2014-03-11T17:00:35",
           "module": "Text.ShowF",
           "name": "ShowF",
           "package": "ShowF",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:35 UTC 2014",
           "module": "Text.ShowF",
           "name": "WrapShowF",
           "package": "ShowF",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text ShowF",
+          "indexed": "2014-03-11T17:00:35",
           "module": "Text.ShowF",
           "name": "WrapShowF",
           "package": "ShowF",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:35 UTC 2014",
           "module": "Text.ShowF",
           "name": "WrapShowF",
           "package": "ShowF",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Text ShowF",
+          "indexed": "2014-03-11T17:00:35",
           "module": "Text.ShowF",
           "name": "WrapShowF",
           "package": "ShowF",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:35 UTC 2014",
           "module": "Text.ShowF",
           "name": "showF",
           "package": "ShowF",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text ShowF",
+          "indexed": "2014-03-11T17:00:35",
           "module": "Text.ShowF",
           "name": "showF",
           "normalized": "a b-\u003eString",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:35 UTC 2014",
           "module": "Text.ShowF",
           "name": "showsApp1",
           "package": "ShowF",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Text ShowF",
+          "indexed": "2014-03-11T17:00:35",
           "module": "Text.ShowF",
           "name": "showsApp1",
           "normalized": "String-\u003eInt-\u003ea-\u003eShowS",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:35 UTC 2014",
           "module": "Text.ShowF",
           "name": "showsF",
           "package": "ShowF",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Text ShowF",
+          "indexed": "2014-03-11T17:00:35",
           "module": "Text.ShowF",
           "name": "showsF",
           "normalized": "a b-\u003eShowS",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:35 UTC 2014",
           "module": "Text.ShowF",
           "name": "showsFApp1",
           "package": "ShowF",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Text ShowF",
+          "indexed": "2014-03-11T17:00:35",
           "module": "Text.ShowF",
           "name": "showsFApp1",
           "normalized": "String-\u003eInt-\u003ea b-\u003eShowS",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:35 UTC 2014",
           "module": "Text.ShowF",
           "name": "showsFComp1",
           "package": "ShowF",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Text ShowF",
+          "indexed": "2014-03-11T17:00:35",
           "module": "Text.ShowF",
           "name": "showsFComp1",
           "normalized": "String-\u003eInt-\u003ea(b c)-\u003eShowS",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:35 UTC 2014",
           "module": "Text.ShowF",
           "name": "showsPrecF",
           "package": "ShowF",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Text ShowF",
+          "indexed": "2014-03-11T17:00:35",
           "module": "Text.ShowF",
           "name": "showsPrecF",
           "normalized": "Int-\u003ea b-\u003eShowS",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:35 UTC 2014",
           "module": "Text.ShowF",
           "name": "strApp1",
           "package": "ShowF",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Text ShowF",
+          "indexed": "2014-03-11T17:00:35",
           "module": "Text.ShowF",
           "name": "strApp1",
           "normalized": "String-\u003eInt-\u003eShowS-\u003eShowS",

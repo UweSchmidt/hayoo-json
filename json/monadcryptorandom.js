@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monadcryptorandom"
+        "phrase": "monadcryptorandom",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMuch like the \u003ca\u003eMonadRandom\u003c/a\u003e package (\u003ca\u003eControl.Monad.Random\u003c/a\u003e), this module\nprovides plumbing for the CryptoRandomGen generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "CryptoRandom",
           "package": "monadcryptorandom",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Much like the MonadRandom package Control.Monad.Random this module provides plumbing for the CryptoRandomGen generators",
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "CryptoRandom",
           "package": "monadcryptorandom",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple users of generators can use CRand for\n quick and easy generation of randoms.  See\n below for a simple use of \u003ccode\u003e\u003ca\u003enewGenIO\u003c/a\u003e\u003c/code\u003e (from \u003ca\u003ecrypto-api\u003c/a\u003e),\n \u003ccode\u003e\u003ca\u003egetCRandom\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egetBytes\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003erunCRandom\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003egetRandPair = do\n   int \u003c- getCRandom\n   bytes \u003c- getBytes 100\n   return (int, bytes)\n\nfunc = do\n   g \u003c- newGenIO\n   case runCRand getRandPair g of\n       Right ((int,bytes), g') -\u003e useRandomVals (int,bytes)\n       Left x -\u003e handleGenError x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "CRand",
           "package": "monadcryptorandom",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Simple users of generators can use CRand for quick and easy generation of randoms See below for simple use of newGenIO from crypto-api getCRandom getBytes and runCRandom getRandPair do int getCRandom bytes getBytes return int bytes func do newGenIO case runCRand getRandPair of Right int bytes useRandomVals int bytes Left handleGenError",
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "CRand",
           "package": "monadcryptorandom",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCRandT is the transformer suggested for MonadCRandom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "CRandT",
           "package": "monadcryptorandom",
@@ -74,6 +79,7 @@
         "index": {
           "description": "CRandT is the transformer suggested for MonadCRandom",
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "CRandT",
           "package": "monadcryptorandom",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eCRandom a\u003c/code\u003e is much like the \u003ccode\u003eRandom\u003c/code\u003e class from the \u003ca\u003eSystem.Random\u003c/a\u003e module in the \u003ca\u003erandom\u003c/a\u003e package.\n The main difference is CRandom builds on \u003ca\u003ecrypto-api\u003c/a\u003e's \u003ccode\u003e\u003ca\u003eCryptoRandomGen\u003c/a\u003e\u003c/code\u003e, so it allows\n explicit failure.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ecrandomR (low,high) g\u003c/code\u003e as typically instantiated will generate a value between\n [low, high] inclusively, swapping the pair if high \u003c low.\n\u003c/p\u003e\u003cp\u003eProvided instances for \u003ccode\u003ecrandom g\u003c/code\u003e generates randoms between the bounds and between +/- 2^256\n for Integer.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ecrandomR\u003c/a\u003e\u003c/code\u003e function has degraded (theoretically unbounded, probabilistically decent) performance\n the closer your range size (high - low) is to 2^n (from the top).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "CRandom",
           "package": "monadcryptorandom",
@@ -97,6 +104,7 @@
         "index": {
           "description": "CRandom is much like the Random class from the System.Random module in the random package The main difference is CRandom builds on crypto-api CryptoRandomGen so it allows explicit failure crandomR low high as typically instantiated will generate value between low high inclusively swapping the pair if high low Provided instances for crandom generates randoms between the bounds and between for Integer The crandomR function has degraded theoretically unbounded probabilistically decent performance the closer your range size high low is to from the top",
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "CRandom",
           "package": "monadcryptorandom",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "CRandomR",
           "package": "monadcryptorandom",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "CRandomR",
           "package": "monadcryptorandom",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "ContainsGenError",
           "package": "monadcryptorandom",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "ContainsGenError",
           "package": "monadcryptorandom",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eMonadCRandom m\u003c/code\u003e represents a monad that can produce\n random values (or fail with a \u003ccode\u003e\u003ca\u003eGenError\u003c/a\u003e\u003c/code\u003e).  It is suggested\n you use the \u003ccode\u003e\u003ca\u003eCRandT\u003c/a\u003e\u003c/code\u003e transformer in your monad stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "MonadCRandom",
           "package": "monadcryptorandom",
@@ -162,6 +175,7 @@
         "index": {
           "description": "MonadCRandom represents monad that can produce random values or fail with GenError It is suggested you use the CRandT transformer in your monad stack",
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "MonadCRandom",
           "package": "monadcryptorandom",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "MonadCRandomR",
           "package": "monadcryptorandom",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "MonadCRandomR",
           "package": "monadcryptorandom",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "CRandT",
           "package": "monadcryptorandom",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "CRandT",
           "package": "monadcryptorandom",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "crandom",
           "package": "monadcryptorandom",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "crandom",
           "normalized": "a-\u003eEither GenError(b,a)",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "crandomR",
           "package": "monadcryptorandom",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "crandomR",
           "normalized": "(a,a)-\u003eb-\u003eEither GenError(a,b)",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "crandomRs",
           "package": "monadcryptorandom",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "crandomRs",
           "normalized": "(a,a)-\u003eb-\u003e[a]",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "crandoms",
           "package": "monadcryptorandom",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "crandoms",
           "normalized": "a-\u003e[b]",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "doReseed",
           "package": "monadcryptorandom",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "doReseed",
           "normalized": "ByteString-\u003ea()",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "evalCRand",
           "package": "monadcryptorandom",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "evalCRand",
           "normalized": "CRand a GenError b-\u003ea-\u003eEither GenError b",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "evalCRandT",
           "package": "monadcryptorandom",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "evalCRandT",
           "normalized": "CRandT a b c d-\u003ea-\u003ec(Either b d)",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "fromGenError",
           "package": "monadcryptorandom",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "fromGenError",
           "normalized": "GenError-\u003ea",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "getBytes",
           "package": "monadcryptorandom",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "getBytes",
           "normalized": "Int-\u003ea ByteString",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "getBytesWithEntropy",
           "package": "monadcryptorandom",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "getBytesWithEntropy",
           "normalized": "Int-\u003eByteString-\u003ea ByteString",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "getCRandom",
           "package": "monadcryptorandom",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "getCRandom",
           "package": "monadcryptorandom",
@@ -477,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "getCRandomR",
           "package": "monadcryptorandom",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "getCRandomR",
           "normalized": "(a,a)-\u003eb a",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "newGenCRand",
           "package": "monadcryptorandom",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "newGenCRand",
           "package": "monadcryptorandom",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "runCRand",
           "package": "monadcryptorandom",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "runCRand",
           "normalized": "CRand a b c-\u003ea-\u003eEither b(c,a)",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "runCRandT",
           "package": "monadcryptorandom",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "runCRandT",
           "normalized": "CRandT a b c d-\u003ea-\u003ec(Either b(d,a))",
@@ -571,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "toGenError",
           "package": "monadcryptorandom",
@@ -580,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "toGenError",
           "normalized": "a-\u003eMaybe GenError",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:16 UTC 2014",
           "module": "Control.Monad.CryptoRandom",
           "name": "unCRandT",
           "package": "monadcryptorandom",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CryptoRandom",
+          "indexed": "2014-03-11T19:21:16",
           "module": "Control.Monad.CryptoRandom",
           "name": "unCRandT",
           "package": "monadcryptorandom",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wl-pprint-extras"
+        "phrase": "wl-pprint-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty print module based on Daan Leijen's implementation of Philip Wadler's\n \"prettier printer\"\n\u003c/p\u003e\u003cpre\u003e\n      \"A prettier printer\"\n      Draft paper, April 1997, revised March 1998.\n      \u003ca\u003ehttp://homepages.inf.ed.ac.uk/wadler/papers/prettier/prettier.pdf\u003c/a\u003e\n\u003c/pre\u003e\u003cp\u003eThis is an implementation of the pretty printing combinators\n described by Philip Wadler (1997). In their bare essence, the\n combinators of Wadler are not expressive enough to describe some\n commonly occurring layouts. The PPrint library adds new primitives\n to describe these layouts and works well in practice.\n\u003c/p\u003e\u003cp\u003eThe library is based on a single way to concatenate documents,\n which is associative and has both a left and right unit.  This\n simple design leads to an efficient and short implementation. The\n simplicity is reflected in the predictable behaviour of the\n combinators which make them easy to use in practice.\n\u003c/p\u003e\u003cp\u003eA thorough description of the primitive combinators and their\n implementation can be found in Philip Wadler's paper\n (1997). Additions and the main differences with his original paper\n are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The nil document is called empty.\n\u003c/li\u003e\u003cli\u003e The operator \u003ccode\u003e\u003ca\u003e\u003c/\u003e\u003c/a\u003e\u003c/code\u003e is used\n for soft line breaks.\n\u003c/li\u003e\u003cli\u003e There are three new primitives: \u003ccode\u003e\u003ca\u003ealign\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efill\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003efillBreak\u003c/a\u003e\u003c/code\u003e. These are very useful in practice.\n\u003c/li\u003e\u003cli\u003e Lots of other useful combinators, like \u003ccode\u003e\u003ca\u003efillSep\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elist\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e There are two renderers, \u003ccode\u003e\u003ca\u003erenderPretty\u003c/a\u003e\u003c/code\u003e for pretty printing and\n \u003ccode\u003e\u003ca\u003erenderCompact\u003c/a\u003e\u003c/code\u003e for compact output. The pretty printing algorithm\n also uses a ribbon-width now for even prettier output.\n\u003c/li\u003e\u003cli\u003e There are two display routines, \u003ccode\u003e\u003ca\u003edisplayS\u003c/a\u003e\u003c/code\u003e for strings and \u003ccode\u003e\u003ca\u003edisplayIO\u003c/a\u003e\u003c/code\u003e\n for file based output.\n\u003c/li\u003e\u003cli\u003e There is a \u003ccode\u003e\u003ca\u003ePretty\u003c/a\u003e\u003c/code\u003e class.\n\u003c/li\u003e\u003cli\u003e The implementation uses optimised representations and strictness\n annotations.\n\u003c/li\u003e\u003cli\u003e A type argument has been added and embedded \u003ccode\u003eeffects\u003c/code\u003e can be seen in\n the SimpleDoc type.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Internal",
           "package": "wl-pprint-extras",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Pretty print module based on Daan Leijen implementation of Philip Wadler prettier printer prettier printer Draft paper April revised March http homepages.inf.ed.ac.uk wadler papers prettier prettier.pdf This is an implementation of the pretty printing combinators described by Philip Wadler In their bare essence the combinators of Wadler are not expressive enough to describe some commonly occurring layouts The PPrint library adds new primitives to describe these layouts and works well in practice The library is based on single way to concatenate documents which is associative and has both left and right unit This simple design leads to an efficient and short implementation The simplicity is reflected in the predictable behaviour of the combinators which make them easy to use in practice thorough description of the primitive combinators and their implementation can be found in Philip Wadler paper Additions and the main differences with his original paper are The nil document is called empty The operator is used for soft line breaks There are three new primitives align fill and fillBreak These are very useful in practice Lots of other useful combinators like fillSep and list There are two renderers renderPretty for pretty printing and renderCompact for compact output The pretty printing algorithm also uses ribbon-width now for even prettier output There are two display routines displayS for strings and displayIO for file based output There is Pretty class The implementation uses optimised representations and strictness annotations type argument has been added and embedded effects can be seen in the SimpleDoc type",
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Internal",
           "package": "wl-pprint-extras",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract data type \u003ccode\u003eDoc\u003c/code\u003e represents pretty documents.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eDoc\u003c/code\u003e is an instance of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e class. \u003ccode\u003e(show doc)\u003c/code\u003e pretty\n prints document \u003ccode\u003edoc\u003c/code\u003e with a page width of 100 characters and a\n ribbon width of 40 characters.\n\u003c/p\u003e\u003cpre\u003e show (text \"hello\" `above` text \"world\")\n\u003c/pre\u003e\u003cp\u003eWhich would return the string \"hello\\nworld\", i.e.\n\u003c/p\u003e\u003cpre\u003e\n hello\n world\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Doc",
           "package": "wl-pprint-extras",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The abstract data type Doc represents pretty documents Doc is an instance of the Show class show doc pretty prints document doc with page width of characters and ribbon width of characters show text hello above text world Which would return the string hello nworld i.e hello world",
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Doc",
           "package": "wl-pprint-extras",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe member \u003ccode\u003eprettyList\u003c/code\u003e is only used to define the \u003ccode\u003einstance Pretty\n a =\u003e Pretty [a]\u003c/code\u003e. In normal circumstances only the \u003ccode\u003epretty\u003c/code\u003e function\n is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Pretty",
           "package": "wl-pprint-extras",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The member prettyList is only used to define the instance Pretty Pretty In normal circumstances only the pretty function is used",
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Pretty",
           "package": "wl-pprint-extras",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data type \u003ccode\u003eSimpleDoc\u003c/code\u003e represents rendered documents and is\n used by the display functions.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eInt\u003c/code\u003e in \u003ccode\u003eSText\u003c/code\u003e contains the length of the string. The \u003ccode\u003eInt\u003c/code\u003e\n in \u003ccode\u003eSLine\u003c/code\u003e contains the indentation for that line. The library\n provides two default display functions \u003ccode\u003e\u003ca\u003edisplayS\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003edisplayIO\u003c/a\u003e\u003c/code\u003e. You can provide your own display function by writing a\n function from a \u003ccode\u003eSimpleDoc\u003c/code\u003e to your own output format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "SimpleDoc",
           "package": "wl-pprint-extras",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The data type SimpleDoc represents rendered documents and is used by the display functions The Int in SText contains the length of the string The Int in SLine contains the indentation for that line The library provides two default display functions displayS and displayIO You can provide your own display function by writing function from SimpleDoc to your own output format",
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "SimpleDoc",
           "package": "wl-pprint-extras",
@@ -211,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Cat",
           "package": "wl-pprint-extras",
@@ -220,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Cat",
           "package": "wl-pprint-extras",
@@ -233,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Char",
           "package": "wl-pprint-extras",
@@ -242,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Char",
           "package": "wl-pprint-extras",
@@ -255,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Column",
           "package": "wl-pprint-extras",
@@ -264,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Column",
           "normalized": "Column(Int-\u003eDoc a)",
@@ -279,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Columns",
           "package": "wl-pprint-extras",
@@ -288,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Columns",
           "normalized": "Columns(Int-\u003eDoc a)",
@@ -303,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Effect",
           "package": "wl-pprint-extras",
@@ -312,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Effect",
           "package": "wl-pprint-extras",
@@ -325,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Empty",
           "package": "wl-pprint-extras",
@@ -334,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Empty",
           "package": "wl-pprint-extras",
@@ -347,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Fail",
           "package": "wl-pprint-extras",
@@ -356,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Fail",
           "package": "wl-pprint-extras",
@@ -369,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "FlatAlt",
           "package": "wl-pprint-extras",
@@ -378,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "FlatAlt",
           "package": "wl-pprint-extras",
@@ -391,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Line",
           "package": "wl-pprint-extras",
@@ -400,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Line",
           "package": "wl-pprint-extras",
@@ -413,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Nest",
           "package": "wl-pprint-extras",
@@ -422,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Nest",
           "package": "wl-pprint-extras",
@@ -435,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Nesting",
           "package": "wl-pprint-extras",
@@ -444,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Nesting",
           "normalized": "Nesting(Int-\u003eDoc a)",
@@ -459,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Ribbon",
           "package": "wl-pprint-extras",
@@ -468,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Ribbon",
           "normalized": "Ribbon(Int-\u003eDoc a)",
@@ -621,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Text",
           "package": "wl-pprint-extras",
@@ -630,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Text",
           "package": "wl-pprint-extras",
@@ -643,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Union",
           "package": "wl-pprint-extras",
@@ -652,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "Union",
           "package": "wl-pprint-extras",
@@ -1806,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "pretty",
           "package": "wl-pprint-extras",
@@ -1815,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "pretty",
           "normalized": "a-\u003eDoc b",
@@ -1829,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "prettyList",
           "package": "wl-pprint-extras",
@@ -1838,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "prettyList",
           "normalized": "[a]-\u003eDoc b",
@@ -2059,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "ribbon",
           "package": "wl-pprint-extras",
@@ -2068,6 +2109,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free Internal",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free.Internal",
           "name": "ribbon",
           "normalized": "(Int-\u003eDoc a)-\u003eDoc a",
@@ -2434,6 +2476,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty print module based on Daan Leijen's implementation of Philip Wadler's\n \"prettier printer\"\n\u003c/p\u003e\u003cpre\u003e\n      \"A prettier printer\"\n      Draft paper, April 1997, revised March 1998.\n      \u003ca\u003ehttp://homepages.inf.ed.ac.uk/wadler/papers/prettier/prettier.pdf\u003c/a\u003e\n\u003c/pre\u003e\u003cp\u003eThis is an implementation of the pretty printing combinators\n described by Philip Wadler (1997). In their bare essence, the\n combinators of Wadler are not expressive enough to describe some\n commonly occurring layouts. The PPrint library adds new primitives\n to describe these layouts and works well in practice.\n\u003c/p\u003e\u003cp\u003eThe library is based on a single way to concatenate documents,\n which is associative and has both a left and right unit.  This\n simple design leads to an efficient and short implementation. The\n simplicity is reflected in the predictable behaviour of the\n combinators which make them easy to use in practice.\n\u003c/p\u003e\u003cp\u003eA thorough description of the primitive combinators and their\n implementation can be found in Philip Wadler's paper\n (1997). Additions and the main differences with his original paper\n are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The nil document is called empty.\n\u003c/li\u003e\u003cli\u003e The operator \u003ccode\u003e\u003ca\u003e\u003c/\u003e\u003c/a\u003e\u003c/code\u003e is used\n for soft line breaks.\n\u003c/li\u003e\u003cli\u003e There are three new primitives: \u003ccode\u003e\u003ca\u003ealign\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efill\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003efillBreak\u003c/a\u003e\u003c/code\u003e. These are very useful in practice.\n\u003c/li\u003e\u003cli\u003e Lots of other useful combinators, like \u003ccode\u003e\u003ca\u003efillSep\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elist\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e There are two renderers, \u003ccode\u003e\u003ca\u003erenderPretty\u003c/a\u003e\u003c/code\u003e for pretty printing and\n \u003ccode\u003e\u003ca\u003erenderCompact\u003c/a\u003e\u003c/code\u003e for compact output. The pretty printing algorithm\n also uses a ribbon-width now for even prettier output.\n\u003c/li\u003e\u003cli\u003e There are two displayers, \u003ccode\u003e\u003ca\u003edisplayS\u003c/a\u003e\u003c/code\u003e for strings and \u003ccode\u003e\u003ca\u003edisplayIO\u003c/a\u003e\u003c/code\u003e for\n file based output.\n\u003c/li\u003e\u003cli\u003e There is a \u003ccode\u003e\u003ca\u003ePretty\u003c/a\u003e\u003c/code\u003e class.\n\u003c/li\u003e\u003cli\u003e The implementation uses optimised representations and strictness\n annotations.\n\u003c/li\u003e\u003cli\u003e A type argument has been added and embedded \u003ccode\u003eeffects\u003c/code\u003e can be seen in\n the SimpleDoc type.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free",
           "name": "Free",
           "package": "wl-pprint-extras",
@@ -2443,6 +2486,7 @@
         "index": {
           "description": "Pretty print module based on Daan Leijen implementation of Philip Wadler prettier printer prettier printer Draft paper April revised March http homepages.inf.ed.ac.uk wadler papers prettier prettier.pdf This is an implementation of the pretty printing combinators described by Philip Wadler In their bare essence the combinators of Wadler are not expressive enough to describe some commonly occurring layouts The PPrint library adds new primitives to describe these layouts and works well in practice The library is based on single way to concatenate documents which is associative and has both left and right unit This simple design leads to an efficient and short implementation The simplicity is reflected in the predictable behaviour of the combinators which make them easy to use in practice thorough description of the primitive combinators and their implementation can be found in Philip Wadler paper Additions and the main differences with his original paper are The nil document is called empty The operator is used for soft line breaks There are three new primitives align fill and fillBreak These are very useful in practice Lots of other useful combinators like fillSep and list There are two renderers renderPretty for pretty printing and renderCompact for compact output The pretty printing algorithm also uses ribbon-width now for even prettier output There are two displayers displayS for strings and displayIO for file based output There is Pretty class The implementation uses optimised representations and strictness annotations type argument has been added and embedded effects can be seen in the SimpleDoc type",
           "hierarchy": "Text PrettyPrint Free",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free",
           "name": "Free",
           "package": "wl-pprint-extras",
@@ -2457,6 +2501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract data type \u003ccode\u003eDoc\u003c/code\u003e represents pretty documents.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eDoc\u003c/code\u003e is an instance of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e class. \u003ccode\u003e(show doc)\u003c/code\u003e pretty\n prints document \u003ccode\u003edoc\u003c/code\u003e with a page width of 100 characters and a\n ribbon width of 40 characters.\n\u003c/p\u003e\u003cpre\u003e show (text \"hello\" `above` text \"world\")\n\u003c/pre\u003e\u003cp\u003eWhich would return the string \"hello\\nworld\", i.e.\n\u003c/p\u003e\u003cpre\u003e\n hello\n world\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free",
           "name": "Doc",
           "package": "wl-pprint-extras",
@@ -2466,6 +2511,7 @@
         "index": {
           "description": "The abstract data type Doc represents pretty documents Doc is an instance of the Show class show doc pretty prints document doc with page width of characters and ribbon width of characters show text hello above text world Which would return the string hello nworld i.e hello world",
           "hierarchy": "Text PrettyPrint Free",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free",
           "name": "Doc",
           "package": "wl-pprint-extras",
@@ -2480,6 +2526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe member \u003ccode\u003eprettyList\u003c/code\u003e is only used to define the \u003ccode\u003einstance Pretty\n a =\u003e Pretty [a]\u003c/code\u003e. In normal circumstances only the \u003ccode\u003epretty\u003c/code\u003e function\n is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free",
           "name": "Pretty",
           "package": "wl-pprint-extras",
@@ -2489,6 +2536,7 @@
         "index": {
           "description": "The member prettyList is only used to define the instance Pretty Pretty In normal circumstances only the pretty function is used",
           "hierarchy": "Text PrettyPrint Free",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free",
           "name": "Pretty",
           "package": "wl-pprint-extras",
@@ -2503,6 +2551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data type \u003ccode\u003eSimpleDoc\u003c/code\u003e represents rendered documents and is\n used by the display functions.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eInt\u003c/code\u003e in \u003ccode\u003eSText\u003c/code\u003e contains the length of the string. The \u003ccode\u003eInt\u003c/code\u003e\n in \u003ccode\u003eSLine\u003c/code\u003e contains the indentation for that line. The library\n provides two default display functions \u003ccode\u003e\u003ca\u003edisplayS\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003edisplayIO\u003c/a\u003e\u003c/code\u003e. You can provide your own display function by writing a\n function from a \u003ccode\u003eSimpleDoc\u003c/code\u003e to your own output format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free",
           "name": "SimpleDoc",
           "package": "wl-pprint-extras",
@@ -2512,6 +2561,7 @@
         "index": {
           "description": "The data type SimpleDoc represents rendered documents and is used by the display functions The Int in SText contains the length of the string The Int in SLine contains the indentation for that line The library provides two default display functions displayS and displayIO You can provide your own display function by writing function from SimpleDoc to your own output format",
           "hierarchy": "Text PrettyPrint Free",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free",
           "name": "SimpleDoc",
           "package": "wl-pprint-extras",
@@ -2525,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free",
           "name": "pretty",
           "package": "wl-pprint-extras",
@@ -2534,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free",
           "name": "pretty",
           "normalized": "a-\u003eDoc b",
@@ -2548,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:22 UTC 2014",
           "module": "Text.PrettyPrint.Free",
           "name": "prettyList",
           "package": "wl-pprint-extras",
@@ -2557,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint Free",
+          "indexed": "2014-03-11T20:39:22",
           "module": "Text.PrettyPrint.Free",
           "name": "prettyList",
           "normalized": "[a]-\u003eDoc b",

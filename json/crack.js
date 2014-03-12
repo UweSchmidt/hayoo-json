@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crack"
+        "phrase": "crack",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eC interface to cracklib\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:35 UTC 2014",
           "module": "Text.Crack.Base",
           "name": "Base",
           "package": "crack",
@@ -28,6 +29,7 @@
         "index": {
           "description": "interface to cracklib",
           "hierarchy": "Text Crack Base",
+          "indexed": "2014-03-11T17:42:35",
           "module": "Text.Crack.Base",
           "name": "Base",
           "package": "crack",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:35 UTC 2014",
           "module": "Text.Crack.Base",
           "name": "c_fascist_check",
           "package": "crack",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Text Crack Base",
+          "indexed": "2014-03-11T17:42:35",
           "module": "Text.Crack.Base",
           "name": "c_fascist_check",
           "normalized": "CString-\u003eCString-\u003eIO CString",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell binding to cracklib\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:35 UTC 2014",
           "module": "Text.Crack",
           "name": "Crack",
           "package": "crack",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Haskell binding to cracklib",
           "hierarchy": "Text Crack",
+          "indexed": "2014-03-11T17:42:35",
           "module": "Text.Crack",
           "name": "Crack",
           "package": "crack",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck a password\n Returns Right () if the password is good, or Left String where the string\n is a message explaining the problems with the password.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:35 UTC 2014",
           "module": "Text.Crack",
           "name": "crack",
           "package": "crack",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Check password Returns Right if the password is good or Left String where the string is message explaining the problems with the password",
           "hierarchy": "Text Crack",
+          "indexed": "2014-03-11T17:42:35",
           "module": "Text.Crack",
           "name": "crack",
           "normalized": "String-\u003eString-\u003eEither String()",

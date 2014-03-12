@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hedn"
+        "phrase": "hedn",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Encode",
           "name": "Encode",
           "package": "hedn",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data EDN Encode",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Encode",
           "name": "Encode",
           "package": "hedn",
@@ -66,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a Tagged EDN value to a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Encode",
           "name": "fromTagged",
           "package": "hedn",
@@ -76,6 +79,7 @@
         "index": {
           "description": "Encode Tagged EDN value to Builder",
           "hierarchy": "Data EDN Encode",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Encode",
           "name": "fromTagged",
           "normalized": "TaggedValue-\u003eBuilder",
@@ -92,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a raw EDN value to a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Encode",
           "name": "fromValue",
           "package": "hedn",
@@ -102,6 +107,7 @@
         "index": {
           "description": "Encode raw EDN value to Builder",
           "hierarchy": "Data EDN Encode",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Encode",
           "name": "fromValue",
           "normalized": "Value-\u003eBuilder",
@@ -118,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse an UTF-8 encoded EDN string into a haskell representation of EDN objects.\n Use \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e to get actual types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Parser",
           "name": "Parser",
           "package": "hedn",
@@ -127,6 +134,7 @@
         "index": {
           "description": "Parse an UTF-8 encoded EDN string into haskell representation of EDN objects Use decode to get actual types",
           "hierarchy": "Data EDN Parser",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Parser",
           "name": "Parser",
           "package": "hedn",
@@ -141,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, but without continutations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Parser",
           "name": "parseBS",
           "package": "hedn",
@@ -151,6 +160,7 @@
         "index": {
           "description": "Parse strict ByteString but without continutations",
           "hierarchy": "Data EDN Parser",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Parser",
           "name": "parseBS",
           "normalized": "ByteString-\u003eResult TaggedValue",
@@ -167,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Parser",
           "name": "parseBSL",
           "package": "hedn",
@@ -177,6 +188,7 @@
         "index": {
           "description": "Parse lazy ByteString",
           "hierarchy": "Data EDN Parser",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Parser",
           "name": "parseBSL",
           "normalized": "ByteString-\u003eResult TaggedValue",
@@ -193,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eTaggedValue\u003c/a\u003e\u003c/code\u003e. If fails due to incomplete or invalid input, \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e is returned with the error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Parser",
           "name": "parseEither",
           "package": "hedn",
@@ -203,6 +216,7 @@
         "index": {
           "description": "Parse lazy ByteString into TaggedValue If fails due to incomplete or invalid input Left is returned with the error message",
           "hierarchy": "Data EDN Parser",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Parser",
           "name": "parseEither",
           "normalized": "ByteString-\u003eEither String TaggedValue",
@@ -246,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string AKA '[Char]'. Not really useful other than for debugging purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Parser",
           "name": "parseS",
           "package": "hedn",
@@ -256,6 +271,7 @@
         "index": {
           "description": "Parse string AKA Char Not really useful other than for debugging purposes",
           "hierarchy": "Data EDN Parser",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Parser",
           "name": "parseS",
           "normalized": "[Char]-\u003eResult TaggedValue",
@@ -271,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a strict \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Parser",
           "name": "parseT",
           "package": "hedn",
@@ -281,6 +298,7 @@
         "index": {
           "description": "Parse strict Text",
           "hierarchy": "Data EDN Parser",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Parser",
           "name": "parseT",
           "normalized": "Text-\u003eResult TaggedValue",
@@ -296,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Parser",
           "name": "parseTL",
           "package": "hedn",
@@ -306,6 +325,7 @@
         "index": {
           "description": "Parse lazy Text",
           "hierarchy": "Data EDN Parser",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Parser",
           "name": "parseTL",
           "normalized": "Text-\u003eResult TaggedValue",
@@ -322,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a probably tagged EDN value into a \u003ccode\u003e\u003ca\u003eTaggedValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Parser",
           "name": "parseTagged",
           "package": "hedn",
@@ -332,6 +353,7 @@
         "index": {
           "description": "Parse probably tagged EDN value into TaggedValue",
           "hierarchy": "Data EDN Parser",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Parser",
           "name": "parseTagged",
           "package": "hedn",
@@ -346,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \"raw\" EDN value into a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Parser",
           "name": "parseValue",
           "package": "hedn",
@@ -356,6 +379,7 @@
         "index": {
           "description": "Parse raw EDN value into Value",
           "hierarchy": "Data EDN Parser",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Parser",
           "name": "parseValue",
           "package": "hedn",
@@ -369,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "Class",
           "package": "hedn",
@@ -377,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "Class",
           "package": "hedn",
@@ -391,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted from EDN, with a possibility of failure.\n\u003c/p\u003e\u003cp\u003eWhen writing an instance, use \u003ccode\u003eempty\u003c/code\u003e, \u003ccode\u003emzero\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e to make a\n conversion fail, e.g. if an \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e is missing a required key, or\n the value is of the wrong type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "FromEDN",
           "package": "hedn",
@@ -400,6 +427,7 @@
         "index": {
           "description": "type that can be converted from EDN with possibility of failure When writing an instance use empty mzero or fail to make conversion fail e.g if an Map is missing required key or the value is of the wrong type",
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "FromEDN",
           "package": "hedn",
@@ -414,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA continuation-based parser type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "Parser",
           "package": "hedn",
@@ -423,6 +452,7 @@
         "index": {
           "description": "continuation-based parser type",
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "Parser",
           "package": "hedn",
@@ -437,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of running a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "Result",
           "package": "hedn",
@@ -446,6 +477,7 @@
         "index": {
           "description": "The result of running Parser",
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "Result",
           "package": "hedn",
@@ -460,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted to JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "ToEDN",
           "package": "hedn",
@@ -469,6 +502,7 @@
         "index": {
           "description": "type that can be converted to JSON",
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "ToEDN",
           "package": "hedn",
@@ -586,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "Error",
           "package": "hedn",
@@ -595,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "Error",
           "package": "hedn",
@@ -608,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "Success",
           "package": "hedn",
@@ -617,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "Success",
           "package": "hedn",
@@ -657,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserializes a EDN value from a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n If this fails to to incomplete or invalid input, \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e is returned\n with an error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "eitherDecode",
           "package": "hedn",
@@ -667,6 +706,7 @@
         "index": {
           "description": "Deserializes EDN value from lazy ByteString If this fails to to incomplete or invalid input Left is returned with an error message",
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "eitherDecode",
           "normalized": "ByteString-\u003eEither String a",
@@ -737,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "parse",
           "package": "hedn",
@@ -747,6 +788,7 @@
         "index": {
           "description": "Run Parser",
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "parse",
           "normalized": "(a-\u003eParser b)-\u003ea-\u003eResult b",
@@ -761,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "parseEDN",
           "package": "hedn",
@@ -770,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "parseEDN",
           "normalized": "TaggedValue-\u003eParser a",
@@ -785,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "parseEDNv",
           "package": "hedn",
@@ -794,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "parseEDNv",
           "normalized": "Value-\u003eParser a",
@@ -810,6 +856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e with an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e result type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "parseEither",
           "package": "hedn",
@@ -820,6 +867,7 @@
         "index": {
           "description": "Run Parser with an Either result type",
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "parseEither",
           "normalized": "(a-\u003eParser b)-\u003ea-\u003eEither String b",
@@ -836,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e result type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "parseMaybe",
           "package": "hedn",
@@ -846,6 +895,7 @@
         "index": {
           "description": "Run Parser with Maybe result type",
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "parseMaybe",
           "normalized": "(a-\u003eParser b)-\u003ea-\u003eMaybe b",
@@ -861,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "toEDN",
           "package": "hedn",
@@ -870,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "toEDN",
           "normalized": "a-\u003eTaggedValue",
@@ -885,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "toEDNv",
           "package": "hedn",
@@ -894,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "toEDNv",
           "normalized": "a-\u003eValue",
@@ -910,6 +964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFail parsing due to a type mismatch, with a descriptive message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types.Class",
           "name": "typeMismatch",
           "package": "hedn",
@@ -919,6 +974,7 @@
         "index": {
           "description": "Fail parsing due to type mismatch with descriptive message",
           "hierarchy": "Data EDN Types Class",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types.Class",
           "name": "typeMismatch",
           "normalized": "String-\u003eValue-\u003eParser a",
@@ -934,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types",
           "name": "Types",
           "package": "hedn",
@@ -942,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Data EDN Types",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types",
           "name": "Types",
           "package": "hedn",
@@ -955,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types",
           "name": "EDNList",
           "package": "hedn",
@@ -963,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Data EDN Types",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types",
           "name": "EDNList",
           "package": "hedn",
@@ -976,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types",
           "name": "EDNMap",
           "package": "hedn",
@@ -984,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Data EDN Types",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types",
           "name": "EDNMap",
           "package": "hedn",
@@ -997,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types",
           "name": "EDNSet",
           "package": "hedn",
@@ -1005,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Data EDN Types",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types",
           "name": "EDNSet",
           "package": "hedn",
@@ -1018,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types",
           "name": "EDNVec",
           "package": "hedn",
@@ -1026,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Data EDN Types",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types",
           "name": "EDNVec",
           "package": "hedn",
@@ -1040,6 +1106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key/value pair for a EDN Map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types",
           "name": "Pair",
           "package": "hedn",
@@ -1049,6 +1116,7 @@
         "index": {
           "description": "key value pair for EDN Map",
           "hierarchy": "Data EDN Types",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types",
           "name": "Pair",
           "package": "hedn",
@@ -1063,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract namespaced tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types",
           "name": "Tagged",
           "package": "hedn",
@@ -1072,6 +1141,7 @@
         "index": {
           "description": "Abstract namespaced tag",
           "hierarchy": "Data EDN Types",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types",
           "name": "Tagged",
           "package": "hedn",
@@ -1085,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types",
           "name": "TaggedValue",
           "package": "hedn",
@@ -1093,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Data EDN Types",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types",
           "name": "TaggedValue",
           "package": "hedn",
@@ -1107,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \"raw\" EDN value represented as a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN.Types",
           "name": "Value",
           "package": "hedn",
@@ -1116,6 +1189,7 @@
         "index": {
           "description": "raw EDN value represented as Haskell value",
           "hierarchy": "Data EDN Types",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN.Types",
           "name": "Value",
           "package": "hedn",
@@ -1973,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN",
           "name": "EDN",
           "package": "hedn",
@@ -1981,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "Data EDN",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN",
           "name": "EDN",
           "package": "hedn",
@@ -1995,6 +2071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted from EDN, with a possibility of failure.\n\u003c/p\u003e\u003cp\u003eWhen writing an instance, use \u003ccode\u003eempty\u003c/code\u003e, \u003ccode\u003emzero\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e to make a\n conversion fail, e.g. if an \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e is missing a required key, or\n the value is of the wrong type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN",
           "name": "FromEDN",
           "package": "hedn",
@@ -2004,6 +2081,7 @@
         "index": {
           "description": "type that can be converted from EDN with possibility of failure When writing an instance use empty mzero or fail to make conversion fail e.g if an Map is missing required key or the value is of the wrong type",
           "hierarchy": "Data EDN",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN",
           "name": "FromEDN",
           "package": "hedn",
@@ -2018,6 +2096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key/value pair for a EDN Map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN",
           "name": "Pair",
           "package": "hedn",
@@ -2027,6 +2106,7 @@
         "index": {
           "description": "key value pair for EDN Map",
           "hierarchy": "Data EDN",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN",
           "name": "Pair",
           "package": "hedn",
@@ -2041,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract namespaced tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN",
           "name": "Tagged",
           "package": "hedn",
@@ -2050,6 +2131,7 @@
         "index": {
           "description": "Abstract namespaced tag",
           "hierarchy": "Data EDN",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN",
           "name": "Tagged",
           "package": "hedn",
@@ -2063,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN",
           "name": "TaggedValue",
           "package": "hedn",
@@ -2071,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Data EDN",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN",
           "name": "TaggedValue",
           "package": "hedn",
@@ -2085,6 +2169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted to JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN",
           "name": "ToEDN",
           "package": "hedn",
@@ -2094,6 +2179,7 @@
         "index": {
           "description": "type that can be converted to JSON",
           "hierarchy": "Data EDN",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN",
           "name": "ToEDN",
           "package": "hedn",
@@ -2108,6 +2194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \"raw\" EDN value represented as a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN",
           "name": "Value",
           "package": "hedn",
@@ -2117,6 +2204,7 @@
         "index": {
           "description": "raw EDN value represented as Haskell value",
           "hierarchy": "Data EDN",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN",
           "name": "Value",
           "package": "hedn",
@@ -2130,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:36:24 UTC 2014",
           "module": "Data.EDN",
           "name": "toEDN",
           "package": "hedn",
@@ -2139,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Data EDN",
+          "indexed": "2014-03-11T18:36:24",
           "module": "Data.EDN",
           "name": "toEDN",
           "normalized": "a-\u003eTaggedValue",

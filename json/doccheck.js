@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "doccheck"
+        "phrase": "doccheck",
+        "type": "phrase"
       },
       "type": "context"
     }

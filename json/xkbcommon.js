@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xkbcommon"
+        "phrase": "xkbcommon",
+        "type": "phrase"
       },
       "type": "context"
     }

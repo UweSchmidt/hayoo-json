@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "prelude-generalize"
+        "phrase": "prelude-generalize",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Generalize",
           "package": "prelude-generalize",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Generalize",
           "package": "prelude-generalize",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Copeanoid",
           "package": "prelude-generalize",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Copeanoid",
           "package": "prelude-generalize",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Function",
           "package": "prelude-generalize",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Function",
           "package": "prelude-generalize",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Part1",
           "package": "prelude-generalize",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Part1",
           "package": "prelude-generalize",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Part1M",
           "package": "prelude-generalize",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Part1M",
           "package": "prelude-generalize",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Part2",
           "package": "prelude-generalize",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Part2",
           "package": "prelude-generalize",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Part2M",
           "package": "prelude-generalize",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Part2M",
           "package": "prelude-generalize",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Part3",
           "package": "prelude-generalize",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Part3",
           "package": "prelude-generalize",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Part3M",
           "package": "prelude-generalize",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Part3M",
           "package": "prelude-generalize",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Part4",
           "package": "prelude-generalize",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Part4",
           "package": "prelude-generalize",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Part4M",
           "package": "prelude-generalize",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Part4M",
           "package": "prelude-generalize",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Part5",
           "package": "prelude-generalize",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Part5",
           "package": "prelude-generalize",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Part5M",
           "package": "prelude-generalize",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Part5M",
           "package": "prelude-generalize",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Part6",
           "package": "prelude-generalize",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Part6",
           "package": "prelude-generalize",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Part6M",
           "package": "prelude-generalize",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Part6M",
           "package": "prelude-generalize",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Peano",
           "package": "prelude-generalize",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Peano",
           "package": "prelude-generalize",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Peanoid",
           "package": "prelude-generalize",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Peanoid",
           "package": "prelude-generalize",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "QuestionMarkOp",
           "package": "prelude-generalize",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "QuestionMarkOp",
           "package": "prelude-generalize",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "Swap",
           "package": "prelude-generalize",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "Swap",
           "package": "prelude-generalize",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "(!!)",
           "package": "prelude-generalize",
@@ -426,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "(!!) !!",
           "normalized": "a b-\u003ec-\u003eb",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "(!!!)",
           "package": "prelude-generalize",
@@ -449,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "(!!!) !!!",
           "normalized": "a b-\u003ec-\u003ed b",
@@ -463,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "($)",
           "package": "prelude-generalize",
@@ -472,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "($) $",
           "normalized": "a-\u003eb-\u003ec",
@@ -486,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "(++)",
           "package": "prelude-generalize",
@@ -495,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "(++) ++",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -509,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "(\u003c\u003e\u003e=)",
           "package": "prelude-generalize",
@@ -518,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "(\u003c\u003e\u003e=) \u003c\u003e\u003e=",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea b",
@@ -532,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "(\u003e\u003e=||)",
           "package": "prelude-generalize",
@@ -541,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "(\u003e\u003e=||) \u003e\u003e=||",
           "normalized": "a(b,c)-\u003e(b-\u003ec-\u003ea d)-\u003ea d",
@@ -555,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "(\u003e\u003e=|||)",
           "package": "prelude-generalize",
@@ -564,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "(\u003e\u003e=|||) \u003e\u003e=|||",
           "normalized": "a(b,c,d)-\u003e(b-\u003ec-\u003ed-\u003ea e)-\u003ea e",
@@ -578,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "(\u003e\u003e=|\\/)",
           "package": "prelude-generalize",
@@ -587,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "(\u003e\u003e=|\\/) \u003e\u003e=|\\/",
           "normalized": "a(b,c,d,e)-\u003e(b-\u003ec-\u003ed-\u003ee-\u003ea f)-\u003ea f",
@@ -601,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "(\u003e\u003e==)",
           "package": "prelude-generalize",
@@ -610,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "(\u003e\u003e==) \u003e\u003e==",
           "normalized": "a b-\u003e(b-\u003ec d)-\u003ea d",
@@ -624,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "(\u003e\u003e=\\/)",
           "package": "prelude-generalize",
@@ -633,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "(\u003e\u003e=\\/) \u003e\u003e=\\/",
           "normalized": "a(b,c,d,e,f)-\u003e(b-\u003ec-\u003ed-\u003ee-\u003ef-\u003ea g)-\u003ea g",
@@ -647,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "(?)",
           "package": "prelude-generalize",
@@ -656,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "(?) ?",
           "normalized": "a-\u003eb-\u003ec",
@@ -670,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "(\\\\)",
           "package": "prelude-generalize",
@@ -679,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "(\\\\) \\\\",
           "normalized": "a b-\u003ec b-\u003ea b",
@@ -693,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "(.:)",
           "package": "prelude-generalize",
@@ -702,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "(.:) .:",
           "normalized": "a b c-\u003ed(a e b)-\u003ed(a e c)",
@@ -716,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "(.::)",
           "package": "prelude-generalize",
@@ -725,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "(.::) .::",
           "normalized": "a b c-\u003ed(e(a f b))-\u003ed(e(a f c))",
@@ -739,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "(.:::)",
           "package": "prelude-generalize",
@@ -748,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "(.:::) .:::",
           "normalized": "a b c-\u003ed(e(f(a g b)))-\u003ed(e(f(a g c)))",
@@ -762,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "aplus",
           "package": "prelude-generalize",
@@ -771,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "aplus",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -785,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "atLeast",
           "package": "prelude-generalize",
@@ -794,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "atLeast",
           "normalized": "a-\u003ePeano-\u003eBool",
@@ -809,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "azero",
           "package": "prelude-generalize",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "azero",
           "package": "prelude-generalize",
@@ -830,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "bind2",
           "package": "prelude-generalize",
@@ -839,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "bind2",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec a-\u003ec b-\u003ec d",
@@ -853,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "bind3",
           "package": "prelude-generalize",
@@ -862,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "bind3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003ed a-\u003ed b-\u003ed c-\u003ed e",
@@ -876,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "bool",
           "package": "prelude-generalize",
@@ -885,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "bool",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -899,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "breakList",
           "package": "prelude-generalize",
@@ -908,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "breakList",
           "normalized": "([a]-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -923,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "choice",
           "package": "prelude-generalize",
@@ -932,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "choice",
           "normalized": "a(b c)-\u003eb c",
@@ -946,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "church",
           "package": "prelude-generalize",
@@ -955,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "church",
           "normalized": "a-\u003e(b-\u003eb)-\u003eb-\u003eb",
@@ -969,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "concat",
           "package": "prelude-generalize",
@@ -978,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "concat",
           "normalized": "a(b c)-\u003ea c",
@@ -992,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "consA",
           "package": "prelude-generalize",
@@ -1001,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "consA",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -1015,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "convList",
           "package": "prelude-generalize",
@@ -1024,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "convList",
           "normalized": "a b-\u003ec b",
@@ -1039,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "count",
           "package": "prelude-generalize",
@@ -1048,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "count",
           "normalized": "a-\u003eb c-\u003eb(d c)",
@@ -1062,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "cycle",
           "package": "prelude-generalize",
@@ -1071,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "cycle",
           "normalized": "a b-\u003ea b",
@@ -1085,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "delete",
           "package": "prelude-generalize",
@@ -1094,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "delete",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -1108,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "deleteF",
           "package": "prelude-generalize",
@@ -1117,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "deleteF",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eb a",
@@ -1131,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "drop",
           "package": "prelude-generalize",
@@ -1140,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "drop",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -1154,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "dropWhile",
           "package": "prelude-generalize",
@@ -1163,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eb a",
@@ -1178,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "fair",
           "package": "prelude-generalize",
@@ -1187,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "fair",
           "normalized": "a(a b)-\u003ea b",
@@ -1201,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "filter",
           "package": "prelude-generalize",
@@ -1210,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eb a",
@@ -1224,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "find",
           "package": "prelude-generalize",
@@ -1233,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "find",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003ec a",
@@ -1247,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "findIndex",
           "package": "prelude-generalize",
@@ -1256,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "findIndex",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003ec d",
@@ -1271,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "get1",
           "package": "prelude-generalize",
@@ -1280,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "get1",
           "normalized": "a-\u003ePart T a",
@@ -1294,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "get2",
           "package": "prelude-generalize",
@@ -1303,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "get2",
           "normalized": "a-\u003ePart T a",
@@ -1317,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "get3",
           "package": "prelude-generalize",
@@ -1326,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "get3",
           "normalized": "a-\u003ePart T a",
@@ -1340,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "get4",
           "package": "prelude-generalize",
@@ -1349,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "get4",
           "normalized": "a-\u003ePart T a",
@@ -1363,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "get5",
           "package": "prelude-generalize",
@@ -1372,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "get5",
           "normalized": "a-\u003ePart T a",
@@ -1386,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "get6",
           "package": "prelude-generalize",
@@ -1395,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "get6",
           "normalized": "a-\u003ePart T a",
@@ -1409,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "getBits",
           "package": "prelude-generalize",
@@ -1418,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "getBits",
           "normalized": "Int-\u003eInt-\u003ea-\u003eb",
@@ -1433,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "group",
           "package": "prelude-generalize",
@@ -1442,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "group",
           "normalized": "a b-\u003ec(d b)",
@@ -1456,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "groupBy",
           "package": "prelude-generalize",
@@ -1465,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "groupBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eb a-\u003ec(d a)",
@@ -1480,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "hGetByte",
           "package": "prelude-generalize",
@@ -1489,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "hGetByte",
           "normalized": "Handle-\u003eIO Word",
@@ -1504,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "hPutByte",
           "package": "prelude-generalize",
@@ -1513,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "hPutByte",
           "normalized": "Handle-\u003eWord-\u003eIO()",
@@ -1528,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "head",
           "package": "prelude-generalize",
@@ -1537,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "head",
           "normalized": "a b-\u003eb",
@@ -1551,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "idQMO",
           "package": "prelude-generalize",
@@ -1560,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "idQMO",
           "package": "prelude-generalize",
@@ -1574,6 +1712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e function takes an element and a list and inserts the\n element into the list at the last position where it is still less\n than or equal to the next element.  In particular, if the list\n is sorted before the call, the result will also be sorted.\n It is a special case of \u003ccode\u003e\u003ca\u003einsertBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer to\n supply their own comparison function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "insert",
           "package": "prelude-generalize",
@@ -1583,6 +1722,7 @@
         "index": {
           "description": "The insert function takes an element and list and inserts the element into the list at the last position where it is still less than or equal to the next element In particular if the list is sorted before the call the result will also be sorted It is special case of insertBy which allows the programmer to supply their own comparison function",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "insert",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -1598,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe non-overloaded version of \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "insertBy",
           "package": "prelude-generalize",
@@ -1607,6 +1748,7 @@
         "index": {
           "description": "The non-overloaded version of insert",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "insertBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003ea-\u003e[a]-\u003e[a]",
@@ -1622,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "intercalate",
           "package": "prelude-generalize",
@@ -1631,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "intercalate",
           "normalized": "a b-\u003ea(a b)-\u003ea b",
@@ -1646,6 +1790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eintersect\u003c/a\u003e\u003c/code\u003e function takes the list intersection of two lists.\n For example,\n\u003c/p\u003e\u003cpre\u003e [1,2,3,4] `intersect` [2,4,6,8] == [2,4]\n\u003c/pre\u003e\u003cp\u003eIf the first list contains duplicates, so will the result.\n\u003c/p\u003e\u003cpre\u003e [1,2,2,3,4] `intersect` [6,4,4,2] == [2,2,4]\n\u003c/pre\u003e\u003cp\u003eIt is a special case of \u003ccode\u003e\u003ca\u003eintersectBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer to\n supply their own equality test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "intersect",
           "package": "prelude-generalize",
@@ -1655,6 +1800,7 @@
         "index": {
           "description": "The intersect function takes the list intersection of two lists For example intersect If the first list contains duplicates so will the result intersect It is special case of intersectBy which allows the programmer to supply their own equality test",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "intersect",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -1670,6 +1816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eintersectBy\u003c/a\u003e\u003c/code\u003e function is the non-overloaded version of \u003ccode\u003e\u003ca\u003eintersect\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "intersectBy",
           "package": "prelude-generalize",
@@ -1679,6 +1826,7 @@
         "index": {
           "description": "The intersectBy function is the non-overloaded version of intersect",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "intersectBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -1694,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "intersperse",
           "package": "prelude-generalize",
@@ -1703,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "intersperse",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -1717,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "intersperse'",
           "package": "prelude-generalize",
@@ -1726,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "intersperse'",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -1741,6 +1893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eisInfixOf\u003c/a\u003e\u003c/code\u003e function takes two lists and returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n iff the first list is contained, wholly and intact,\n anywhere within the second.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003eisInfixOf \"Haskell\" \"I really like Haskell.\" == True\nisInfixOf \"Ial\" \"I really like Haskell.\" == False\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "isInfixOf",
           "package": "prelude-generalize",
@@ -1750,6 +1903,7 @@
         "index": {
           "description": "The isInfixOf function takes two lists and returns True iff the first list is contained wholly and intact anywhere within the second Example isInfixOf Haskell really like Haskell True isInfixOf Ial really like Haskell False",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "isInfixOf",
           "normalized": "[a]-\u003e[a]-\u003eBool",
@@ -1766,6 +1920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eisPrefixOf\u003c/a\u003e\u003c/code\u003e function takes two lists and returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n iff the first list is a prefix of the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "isPrefixOf",
           "package": "prelude-generalize",
@@ -1775,6 +1930,7 @@
         "index": {
           "description": "The isPrefixOf function takes two lists and returns True iff the first list is prefix of the second",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "isPrefixOf",
           "normalized": "[a]-\u003e[a]-\u003eBool",
@@ -1791,6 +1947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eisSuffixOf\u003c/a\u003e\u003c/code\u003e function takes two lists and returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n iff the first list is a suffix of the second.\n Both lists must be finite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "isSuffixOf",
           "package": "prelude-generalize",
@@ -1800,6 +1957,7 @@
         "index": {
           "description": "The isSuffixOf function takes two lists and returns True iff the first list is suffix of the second Both lists must be finite",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "isSuffixOf",
           "normalized": "[a]-\u003e[a]-\u003eBool",
@@ -1815,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "iterate",
           "package": "prelude-generalize",
@@ -1824,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "iterate",
           "normalized": "(a-\u003ea)-\u003ea-\u003eb a",
@@ -1838,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "lcomp",
           "package": "prelude-generalize",
@@ -1847,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "lcomp",
           "normalized": "a(b c c)-\u003eb c c",
@@ -1862,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts from a list of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e all the \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e elements\n All the \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e elements are extracted in order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "lefts",
           "package": "prelude-generalize",
@@ -1871,6 +2034,7 @@
         "index": {
           "description": "Extracts from list of Either all the Left elements All the Left elements are extracted in order",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "lefts",
           "normalized": "[Either a b]-\u003e[a]",
@@ -1885,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "length",
           "package": "prelude-generalize",
@@ -1894,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "length",
           "normalized": "a b-\u003ec",
@@ -1908,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "liftPair",
           "package": "prelude-generalize",
@@ -1917,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "liftPair",
           "normalized": "(a b,a c)-\u003ea(b,c)",
@@ -1932,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "loeb",
           "package": "prelude-generalize",
@@ -1941,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "loeb",
           "normalized": "a b-\u003ea c",
@@ -1955,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "low8bits",
           "package": "prelude-generalize",
@@ -1964,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "low8bits",
           "normalized": "a-\u003eWord",
@@ -1978,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "map1",
           "package": "prelude-generalize",
@@ -1987,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "map1",
           "normalized": "(Part T a-\u003eb)-\u003ea-\u003ePart M a b",
@@ -2001,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "map2",
           "package": "prelude-generalize",
@@ -2010,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "map2",
           "normalized": "(Part T a-\u003eb)-\u003ea-\u003ePart M a b",
@@ -2024,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "map3",
           "package": "prelude-generalize",
@@ -2033,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "map3",
           "normalized": "(Part T a-\u003eb)-\u003ea-\u003ePart M a b",
@@ -2047,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "map4",
           "package": "prelude-generalize",
@@ -2056,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "map4",
           "normalized": "(Part T a-\u003eb)-\u003ea-\u003ePart M a b",
@@ -2070,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "map5",
           "package": "prelude-generalize",
@@ -2079,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "map5",
           "normalized": "(Part T a-\u003eb)-\u003ea-\u003ePart M a b",
@@ -2093,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "map6",
           "package": "prelude-generalize",
@@ -2102,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "map6",
           "normalized": "(Part T a-\u003eb)-\u003ea-\u003ePart M a b",
@@ -2116,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "mcycle",
           "package": "prelude-generalize",
@@ -2125,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "mcycle",
           "normalized": "a-\u003ea",
@@ -2139,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "modifyBit",
           "package": "prelude-generalize",
@@ -2148,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "modifyBit",
           "normalized": "Bool-\u003ea-\u003eInt-\u003ea",
@@ -2163,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "mreplicate",
           "package": "prelude-generalize",
@@ -2172,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "mreplicate",
           "normalized": "a-\u003eb-\u003eb",
@@ -2187,6 +2377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n^2)\u003c/em\u003e. The \u003ccode\u003e\u003ca\u003enub\u003c/a\u003e\u003c/code\u003e function removes duplicate elements from a list.\n In particular, it keeps only the first occurrence of each element.\n (The name \u003ccode\u003e\u003ca\u003enub\u003c/a\u003e\u003c/code\u003e means `essence'.)\n It is a special case of \u003ccode\u003e\u003ca\u003enubBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer to supply\n their own equality test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "nub",
           "package": "prelude-generalize",
@@ -2196,6 +2387,7 @@
         "index": {
           "description": "The nub function removes duplicate elements from list In particular it keeps only the first occurrence of each element The name nub means essence It is special case of nubBy which allows the programmer to supply their own equality test",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "nub",
           "normalized": "[a]-\u003e[a]",
@@ -2211,6 +2403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003enubBy\u003c/a\u003e\u003c/code\u003e function behaves just like \u003ccode\u003e\u003ca\u003enub\u003c/a\u003e\u003c/code\u003e, except it uses a\n user-supplied equality predicate instead of the overloaded \u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "nubBy",
           "package": "prelude-generalize",
@@ -2220,6 +2413,7 @@
         "index": {
           "description": "The nubBy function behaves just like nub except it uses user-supplied equality predicate instead of the overloaded function",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "nubBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -2235,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "null",
           "package": "prelude-generalize",
@@ -2244,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "null",
           "normalized": "a b-\u003eBool",
@@ -2259,6 +2455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(*) `on` f = \\x y -\u003e f x * f y\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTypical usage: \u003ccode\u003e\u003ccode\u003e\u003ca\u003esortBy\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ecompare\u003c/a\u003e\u003c/code\u003e `on` \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAlgebraic properties:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e(*) `on` \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e = (*)\u003c/code\u003e (if \u003ccode\u003e(*) &#8713; {&#8869;, \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e &#8869;}\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e\u003cpre\u003e((*) `on` f) `on` g = (*) `on` (f . g)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e on f . \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e on g = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e on (g . f)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "on",
           "package": "prelude-generalize",
@@ -2268,6 +2465,7 @@
         "index": {
           "description": "on Typical usage sortBy compare on fst Algebraic properties on id if const on on on flip on flip on flip on",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "on",
           "normalized": "(a-\u003ea-\u003eb)-\u003e(c-\u003ea)-\u003ec-\u003ec-\u003eb",
@@ -2282,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "option",
           "package": "prelude-generalize",
@@ -2291,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "option",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -2306,6 +2506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003epartition\u003c/a\u003e\u003c/code\u003e function takes a predicate a list and returns\n the pair of lists of elements which do and do not satisfy the\n predicate, respectively; i.e.,\n\u003c/p\u003e\u003cpre\u003e partition p xs == (filter p xs, filter (not . p) xs)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "partition",
           "package": "prelude-generalize",
@@ -2315,6 +2516,7 @@
         "index": {
           "description": "The partition function takes predicate list and returns the pair of lists of elements which do and do not satisfy the predicate respectively i.e partition xs filter xs filter not xs",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -2330,6 +2532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartitions a list of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e into two lists\n All the \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e elements are extracted, in order, to the first\n component of the output.  Similarly the \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e elements are extracted\n to the second component of the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "partitionEithers",
           "package": "prelude-generalize",
@@ -2339,6 +2542,7 @@
         "index": {
           "description": "Partitions list of Either into two lists All the Left elements are extracted in order to the first component of the output Similarly the Right elements are extracted to the second component of the output",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "partitionEithers",
           "normalized": "[Either a b]-\u003e([a],[b])",
@@ -2355,6 +2559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003epermutations\u003c/a\u003e\u003c/code\u003e function returns the list of all permutations of the argument.\n\u003c/p\u003e\u003cpre\u003e permutations \"abc\" == [\"abc\",\"bac\",\"cba\",\"bca\",\"cab\",\"acb\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "permutations",
           "package": "prelude-generalize",
@@ -2364,6 +2569,7 @@
         "index": {
           "description": "The permutations function returns the list of all permutations of the argument permutations abc abc bac cba bca cab acb",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "permutations",
           "normalized": "[a]-\u003e[[a]]",
@@ -2378,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "predP",
           "package": "prelude-generalize",
@@ -2387,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "predP",
           "normalized": "a-\u003eMaybe a",
@@ -2401,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "rcomp",
           "package": "prelude-generalize",
@@ -2410,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "rcomp",
           "normalized": "a(b c c)-\u003eb c c",
@@ -2424,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "repeat",
           "package": "prelude-generalize",
@@ -2433,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "repeat",
           "normalized": "a-\u003eb a",
@@ -2447,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "replace",
           "package": "prelude-generalize",
@@ -2456,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "replace",
           "normalized": "[a]-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -2470,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "replicate",
           "package": "prelude-generalize",
@@ -2479,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "replicate",
           "normalized": "a-\u003eb-\u003ec b",
@@ -2494,6 +2710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts from a list of \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e all the \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e elements\n All the \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e elements are extracted in order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "rights",
           "package": "prelude-generalize",
@@ -2503,6 +2720,7 @@
         "index": {
           "description": "Extracts from list of Either all the Right elements All the Right elements are extracted in order",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "rights",
           "normalized": "[Either a b]-\u003e[b]",
@@ -2517,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "selectBits",
           "package": "prelude-generalize",
@@ -2526,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "selectBits",
           "normalized": "a-\u003ea-\u003ea",
@@ -2541,6 +2761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "selectItems",
           "package": "prelude-generalize",
@@ -2550,6 +2771,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "selectItems",
           "normalized": "[a]-\u003e[Bool]-\u003e[a]",
@@ -2565,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "snocA",
           "package": "prelude-generalize",
@@ -2574,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "snocA",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -2589,6 +2813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esort\u003c/a\u003e\u003c/code\u003e function implements a stable sorting algorithm.\n It is a special case of \u003ccode\u003e\u003ca\u003esortBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer to supply\n their own comparison function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "sort",
           "package": "prelude-generalize",
@@ -2598,6 +2823,7 @@
         "index": {
           "description": "The sort function implements stable sorting algorithm It is special case of sortBy which allows the programmer to supply their own comparison function",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "sort",
           "normalized": "[a]-\u003e[a]",
@@ -2613,6 +2839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esortBy\u003c/a\u003e\u003c/code\u003e function is the non-overloaded version of \u003ccode\u003e\u003ca\u003esort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "sortBy",
           "package": "prelude-generalize",
@@ -2622,6 +2849,7 @@
         "index": {
           "description": "The sortBy function is the non-overloaded version of sort",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "sortBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003e[a]",
@@ -2637,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "spanList",
           "package": "prelude-generalize",
@@ -2646,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "spanList",
           "normalized": "([a]-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -2661,6 +2891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "split",
           "package": "prelude-generalize",
@@ -2670,6 +2901,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "split",
           "normalized": "[a]-\u003e[a]-\u003eb[a]",
@@ -2685,6 +2917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003estripPrefix\u003c/a\u003e\u003c/code\u003e function drops the given prefix from a list.\n It returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the list did not start with the prefix\n given, or \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e the list after the prefix, if it does.\n\u003c/p\u003e\u003cpre\u003e stripPrefix \"foo\" \"foobar\" == Just \"bar\"\n stripPrefix \"foo\" \"foo\" == Just \"\"\n stripPrefix \"foo\" \"barfoo\" == Nothing\n stripPrefix \"foo\" \"barfoobaz\" == Nothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "stripPrefix",
           "package": "prelude-generalize",
@@ -2694,6 +2927,7 @@
         "index": {
           "description": "The stripPrefix function drops the given prefix from list It returns Nothing if the list did not start with the prefix given or Just the list after the prefix if it does stripPrefix foo foobar Just bar stripPrefix foo foo Just stripPrefix foo barfoo Nothing stripPrefix foo barfoobaz Nothing",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "stripPrefix",
           "normalized": "[a]-\u003e[a]-\u003eMaybe[a]",
@@ -2709,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "stripPrefixBy",
           "package": "prelude-generalize",
@@ -2718,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "stripPrefixBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]-\u003eMaybe[a]",
@@ -2733,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "subIndex",
           "package": "prelude-generalize",
@@ -2742,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "subIndex",
           "normalized": "[a]-\u003e[a]-\u003eb c",
@@ -2758,6 +2996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esubsequences\u003c/a\u003e\u003c/code\u003e function returns the list of all subsequences of the argument.\n\u003c/p\u003e\u003cpre\u003e subsequences \"abc\" == [\"\",\"a\",\"b\",\"ab\",\"c\",\"ac\",\"bc\",\"abc\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "subsequences",
           "package": "prelude-generalize",
@@ -2767,6 +3006,7 @@
         "index": {
           "description": "The subsequences function returns the list of all subsequences of the argument subsequences abc ab ac bc abc",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "subsequences",
           "normalized": "[a]-\u003e[[a]]",
@@ -2781,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "succP",
           "package": "prelude-generalize",
@@ -2790,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "succP",
           "normalized": "a-\u003ea",
@@ -2804,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "swap",
           "package": "prelude-generalize",
@@ -2813,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "swap",
           "normalized": "a b c-\u003ea c b",
@@ -2827,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "tail",
           "package": "prelude-generalize",
@@ -2836,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "tail",
           "normalized": "a b-\u003ea b",
@@ -2850,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "tails",
           "package": "prelude-generalize",
@@ -2859,6 +3106,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "tails",
           "normalized": "a b-\u003ea(a b)",
@@ -2873,6 +3121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "take",
           "package": "prelude-generalize",
@@ -2882,6 +3131,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "take",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -2896,6 +3146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "takeWhile",
           "package": "prelude-generalize",
@@ -2905,6 +3156,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "takeWhile",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eb a",
@@ -2920,6 +3172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "transEnum",
           "package": "prelude-generalize",
@@ -2929,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "transEnum",
           "normalized": "a-\u003eb",
@@ -2944,6 +3198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "transInt",
           "package": "prelude-generalize",
@@ -2953,6 +3208,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "transInt",
           "normalized": "a-\u003eb",
@@ -2968,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "transPeano",
           "package": "prelude-generalize",
@@ -2977,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "transPeano",
           "normalized": "a-\u003eb",
@@ -2993,6 +3251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etranspose\u003c/a\u003e\u003c/code\u003e function transposes the rows and columns of its argument.\n For example,\n\u003c/p\u003e\u003cpre\u003e transpose [[1,2,3],[4,5,6]] == [[1,4],[2,5],[3,6]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "transpose",
           "package": "prelude-generalize",
@@ -3002,6 +3261,7 @@
         "index": {
           "description": "The transpose function transposes the rows and columns of its argument For example transpose",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "transpose",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -3016,6 +3276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "unfoldr",
           "package": "prelude-generalize",
@@ -3025,6 +3286,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "unfoldr",
           "normalized": "(a-\u003eMaybe(b,a))-\u003ea-\u003ec b",
@@ -3040,6 +3302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e function returns the list union of the two lists.\n For example,\n\u003c/p\u003e\u003cpre\u003e \"dog\" `union` \"cow\" == \"dogcw\"\n\u003c/pre\u003e\u003cp\u003eDuplicates, and elements of the first list, are removed from the\n the second list, but if the first list contains duplicates, so will\n the result.\n It is a special case of \u003ccode\u003e\u003ca\u003eunionBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer to supply\n their own equality test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "union",
           "package": "prelude-generalize",
@@ -3049,6 +3312,7 @@
         "index": {
           "description": "The union function returns the list union of the two lists For example dog union cow dogcw Duplicates and elements of the first list are removed from the the second list but if the first list contains duplicates so will the result It is special case of unionBy which allows the programmer to supply their own equality test",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "union",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -3064,6 +3328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunionBy\u003c/a\u003e\u003c/code\u003e function is the non-overloaded version of \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "unionBy",
           "package": "prelude-generalize",
@@ -3073,6 +3338,7 @@
         "index": {
           "description": "The unionBy function is the non-overloaded version of union",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "unionBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -3088,6 +3354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "unnull",
           "package": "prelude-generalize",
@@ -3097,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "unnull",
           "normalized": "a b-\u003eBool",
@@ -3112,6 +3380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunzip4\u003c/a\u003e\u003c/code\u003e function takes a list of quadruples and returns four\n lists, analogous to \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "unzip4",
           "package": "prelude-generalize",
@@ -3121,6 +3390,7 @@
         "index": {
           "description": "The unzip4 function takes list of quadruples and returns four lists analogous to unzip",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "unzip4",
           "normalized": "[(a,b,c,d)]-\u003e([a],[b],[c],[d])",
@@ -3136,6 +3406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunzip5\u003c/a\u003e\u003c/code\u003e function takes a list of five-tuples and returns five\n lists, analogous to \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "unzip5",
           "package": "prelude-generalize",
@@ -3145,6 +3416,7 @@
         "index": {
           "description": "The unzip5 function takes list of five-tuples and returns five lists analogous to unzip",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "unzip5",
           "normalized": "[(a,b,c,d,e)]-\u003e([a],[b],[c],[d],[e])",
@@ -3160,6 +3432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunzip6\u003c/a\u003e\u003c/code\u003e function takes a list of six-tuples and returns six\n lists, analogous to \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "unzip6",
           "package": "prelude-generalize",
@@ -3169,6 +3442,7 @@
         "index": {
           "description": "The unzip6 function takes list of six-tuples and returns six lists analogous to unzip",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "unzip6",
           "normalized": "[(a,b,c,d,e,f)]-\u003e([a],[b],[c],[d],[e],[f])",
@@ -3184,6 +3458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunzip7\u003c/a\u003e\u003c/code\u003e function takes a list of seven-tuples and returns\n seven lists, analogous to \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "unzip7",
           "package": "prelude-generalize",
@@ -3193,6 +3468,7 @@
         "index": {
           "description": "The unzip7 function takes list of seven-tuples and returns seven lists analogous to unzip",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "unzip7",
           "normalized": "[(a,b,c,d,e,f,g)]-\u003e([a],[b],[c],[d],[e],[f],[g])",
@@ -3207,6 +3483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "zeroP",
           "package": "prelude-generalize",
@@ -3216,6 +3493,7 @@
         },
         "index": {
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "zeroP",
           "package": "prelude-generalize",
@@ -3229,6 +3507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezip4\u003c/a\u003e\u003c/code\u003e function takes four lists and returns a list of\n quadruples, analogous to \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "zip4",
           "package": "prelude-generalize",
@@ -3238,6 +3517,7 @@
         "index": {
           "description": "The zip4 function takes four lists and returns list of quadruples analogous to zip",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "zip4",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[(a,b,c,d)]",
@@ -3253,6 +3533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezip5\u003c/a\u003e\u003c/code\u003e function takes five lists and returns a list of\n five-tuples, analogous to \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "zip5",
           "package": "prelude-generalize",
@@ -3262,6 +3543,7 @@
         "index": {
           "description": "The zip5 function takes five lists and returns list of five-tuples analogous to zip",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "zip5",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[(a,b,c,d,e)]",
@@ -3277,6 +3559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezip6\u003c/a\u003e\u003c/code\u003e function takes six lists and returns a list of six-tuples,\n analogous to \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "zip6",
           "package": "prelude-generalize",
@@ -3286,6 +3569,7 @@
         "index": {
           "description": "The zip6 function takes six lists and returns list of six-tuples analogous to zip",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "zip6",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]-\u003e[(a,b,c,d,e,f)]",
@@ -3301,6 +3585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezip7\u003c/a\u003e\u003c/code\u003e function takes seven lists and returns a list of\n seven-tuples, analogous to \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "zip7",
           "package": "prelude-generalize",
@@ -3310,6 +3595,7 @@
         "index": {
           "description": "The zip7 function takes seven lists and returns list of seven-tuples analogous to zip",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "zip7",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]-\u003e[g]-\u003e[(a,b,c,d,e,f,g)]",
@@ -3325,6 +3611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezipWith4\u003c/a\u003e\u003c/code\u003e function takes a function which combines four\n elements, as well as four lists and returns a list of their point-wise\n combination, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "zipWith4",
           "package": "prelude-generalize",
@@ -3334,6 +3621,7 @@
         "index": {
           "description": "The zipWith4 function takes function which combines four elements as well as four lists and returns list of their point-wise combination analogous to zipWith",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "zipWith4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]",
@@ -3350,6 +3638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezipWith5\u003c/a\u003e\u003c/code\u003e function takes a function which combines five\n elements, as well as five lists and returns a list of their point-wise\n combination, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "zipWith5",
           "package": "prelude-generalize",
@@ -3359,6 +3648,7 @@
         "index": {
           "description": "The zipWith5 function takes function which combines five elements as well as five lists and returns list of their point-wise combination analogous to zipWith",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "zipWith5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]",
@@ -3375,6 +3665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezipWith6\u003c/a\u003e\u003c/code\u003e function takes a function which combines six\n elements, as well as six lists and returns a list of their point-wise\n combination, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "zipWith6",
           "package": "prelude-generalize",
@@ -3384,6 +3675,7 @@
         "index": {
           "description": "The zipWith6 function takes function which combines six elements as well as six lists and returns list of their point-wise combination analogous to zipWith",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "zipWith6",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]-\u003e[g]",
@@ -3400,6 +3692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezipWith7\u003c/a\u003e\u003c/code\u003e function takes a function which combines seven\n elements, as well as seven lists and returns a list of their point-wise\n combination, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:09 UTC 2014",
           "module": "Prelude.Generalize",
           "name": "zipWith7",
           "package": "prelude-generalize",
@@ -3409,6 +3702,7 @@
         "index": {
           "description": "The zipWith7 function takes function which combines seven elements as well as seven lists and returns list of their point-wise combination analogous to zipWith",
           "hierarchy": "Prelude Generalize",
+          "indexed": "2014-03-11T19:43:09",
           "module": "Prelude.Generalize",
           "name": "zipWith7",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]-\u003e[g]-\u003e[h]",

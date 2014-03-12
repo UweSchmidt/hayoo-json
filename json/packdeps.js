@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "packdeps"
+        "phrase": "packdeps",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "PackDeps",
           "package": "packdeps",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "PackDeps",
           "package": "packdeps",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether or not a package can accept all of the newest versions of its\n dependencies. If not, it returns a list of packages which are not accepted,\n and a timestamp of the most recently updated package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "CheckDepsRes",
           "package": "packdeps",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Whether or not package can accept all of the newest versions of its dependencies If not it returns list of packages which are not accepted and timestamp of the most recently updated package",
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "CheckDepsRes",
           "package": "packdeps",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on a single package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "DescInfo",
           "package": "packdeps",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Information on single package",
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "DescInfo",
           "package": "packdeps",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe newest version of every package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "Newest",
           "package": "packdeps",
@@ -95,6 +102,7 @@
         "index": {
           "description": "The newest version of every package",
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "Newest",
           "package": "packdeps",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "PackInfo",
           "package": "packdeps",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "PackInfo",
           "package": "packdeps",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "Reverses",
           "package": "packdeps",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "Reverses",
           "package": "packdeps",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "AllNewest",
           "package": "packdeps",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "AllNewest",
           "package": "packdeps",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "DescInfo",
           "package": "packdeps",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "DescInfo",
           "package": "packdeps",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "PackInfo",
           "package": "packdeps",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "PackInfo",
           "package": "packdeps",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "WontAccept",
           "package": "packdeps",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "WontAccept",
           "normalized": "WontAccept[(String,String)]UTCTime",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "checkDeps",
           "package": "packdeps",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "checkDeps",
           "normalized": "Newest-\u003eDescInfo-\u003e(PackageName,Version,CheckDepsRes)",
@@ -265,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all packages depended upon by the given list of packages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "deepDeps",
           "package": "packdeps",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Find all packages depended upon by the given list of packages",
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "deepDeps",
           "normalized": "Newest-\u003e[DescInfo]-\u003e[DescInfo]",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "diDeps",
           "package": "packdeps",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "diDeps",
           "normalized": "[Dependency]",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "diHaystack",
           "package": "packdeps",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "diHaystack",
           "package": "packdeps",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "diName",
           "package": "packdeps",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "diName",
           "normalized": "DescInfo-\u003eString",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "diPackage",
           "package": "packdeps",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "diPackage",
           "package": "packdeps",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "diSynopsis",
           "package": "packdeps",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "diSynopsis",
           "package": "packdeps",
@@ -405,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all of the packages matching a given search string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "filterPackages",
           "package": "packdeps",
@@ -415,6 +450,7 @@
         "index": {
           "description": "Find all of the packages matching given search string",
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "filterPackages",
           "normalized": "String-\u003eNewest-\u003e[DescInfo]",
@@ -431,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads up the newest version of a package from the \u003ccode\u003e\u003ca\u003eNewest\u003c/a\u003e\u003c/code\u003e list, if\n available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "getPackage",
           "package": "packdeps",
@@ -441,6 +478,7 @@
         "index": {
           "description": "Loads up the newest version of package from the Newest list if available",
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "getPackage",
           "normalized": "String-\u003eNewest-\u003eMaybe DescInfo",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "getReverses",
           "package": "packdeps",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "getReverses",
           "normalized": "Newest-\u003eReverses",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "loadNewest",
           "package": "packdeps",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "loadNewest",
           "package": "packdeps",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "loadNewestFrom",
           "package": "packdeps",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "loadNewestFrom",
           "normalized": "FilePath-\u003eIO Newest",
@@ -527,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a single package from a cabal file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "loadPackage",
           "package": "packdeps",
@@ -537,6 +582,7 @@
         "index": {
           "description": "Load single package from cabal file",
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "loadPackage",
           "normalized": "FilePath-\u003eIO(Maybe DescInfo)",
@@ -552,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "parseNewest",
           "package": "packdeps",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "parseNewest",
           "normalized": "ByteString-\u003eNewest",
@@ -577,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse information on a package from the contents of a cabal file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "parsePackage",
           "package": "packdeps",
@@ -587,6 +636,7 @@
         "index": {
           "description": "Parse information on package from the contents of cabal file",
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "parsePackage",
           "normalized": "ByteString-\u003eMaybe DescInfo",
@@ -602,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "piDesc",
           "package": "packdeps",
@@ -611,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "piDesc",
           "package": "packdeps",
@@ -624,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "piEpoch",
           "package": "packdeps",
@@ -633,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "piEpoch",
           "package": "packdeps",
@@ -646,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:24 UTC 2014",
           "module": "Distribution.PackDeps",
           "name": "piVersion",
           "package": "packdeps",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Distribution PackDeps",
+          "indexed": "2014-03-11T19:33:24",
           "module": "Distribution.PackDeps",
           "name": "piVersion",
           "package": "packdeps",

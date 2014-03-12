@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-bin"
+        "phrase": "yesod-bin",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "twitter-types"
+        "phrase": "twitter-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "Lens",
           "package": "twitter-types",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "Lens",
           "package": "twitter-types",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "AsStatus",
           "package": "twitter-types",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "AsStatus",
           "package": "twitter-types",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "AsUser",
           "package": "twitter-types",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "AsUser",
           "package": "twitter-types",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "DateString",
           "package": "twitter-types",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "DateString",
           "package": "twitter-types",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "Delete",
           "package": "twitter-types",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "Delete",
           "package": "twitter-types",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "DirectMessage",
           "package": "twitter-types",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "DirectMessage",
           "package": "twitter-types",
@@ -145,6 +157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntity handling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "Entities",
           "package": "twitter-types",
@@ -154,6 +167,7 @@
         "index": {
           "description": "Entity handling",
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "Entities",
           "package": "twitter-types",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "Entity",
           "package": "twitter-types",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "Entity",
           "package": "twitter-types",
@@ -189,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe character positions the Entity was extracted from\n\u003c/p\u003e\u003cp\u003eThis is experimental implementation.\n   This may be replaced by more definite types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "EntityIndices",
           "package": "twitter-types",
@@ -198,6 +215,7 @@
         "index": {
           "description": "The character positions the Entity was extracted from This is experimental implementation This may be replaced by more definite types",
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "EntityIndices",
           "package": "twitter-types",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "Event",
           "package": "twitter-types",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "Event",
           "package": "twitter-types",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "EventTarget",
           "package": "twitter-types",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "EventTarget",
           "package": "twitter-types",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "Friends",
           "package": "twitter-types",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "Friends",
           "package": "twitter-types",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "HashTagEntity",
           "package": "twitter-types",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "HashTagEntity",
           "package": "twitter-types",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "LanguageCode",
           "package": "twitter-types",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "LanguageCode",
           "package": "twitter-types",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "List",
           "package": "twitter-types",
@@ -324,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "List",
           "package": "twitter-types",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "MediaEntity",
           "package": "twitter-types",
@@ -345,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "MediaEntity",
           "package": "twitter-types",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "MediaSize",
           "package": "twitter-types",
@@ -366,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "MediaSize",
           "package": "twitter-types",
@@ -379,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "RetweetedStatus",
           "package": "twitter-types",
@@ -387,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "RetweetedStatus",
           "package": "twitter-types",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "SearchMetadata",
           "package": "twitter-types",
@@ -408,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "SearchMetadata",
           "package": "twitter-types",
@@ -421,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "SearchResult",
           "package": "twitter-types",
@@ -429,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "SearchResult",
           "package": "twitter-types",
@@ -442,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "SearchStatus",
           "package": "twitter-types",
@@ -450,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "SearchStatus",
           "package": "twitter-types",
@@ -463,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "Status",
           "package": "twitter-types",
@@ -471,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "Status",
           "package": "twitter-types",
@@ -484,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "StatusId",
           "package": "twitter-types",
@@ -492,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "StatusId",
           "package": "twitter-types",
@@ -505,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "StreamingAPI",
           "package": "twitter-types",
@@ -513,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "StreamingAPI",
           "package": "twitter-types",
@@ -526,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "URIString",
           "package": "twitter-types",
@@ -534,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "URIString",
           "package": "twitter-types",
@@ -547,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "URLEntity",
           "package": "twitter-types",
@@ -555,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "URLEntity",
           "package": "twitter-types",
@@ -568,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "User",
           "package": "twitter-types",
@@ -576,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "User",
           "package": "twitter-types",
@@ -589,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "UserEntity",
           "package": "twitter-types",
@@ -597,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "UserEntity",
           "package": "twitter-types",
@@ -610,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "UserId",
           "package": "twitter-types",
@@ -618,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "UserId",
           "package": "twitter-types",
@@ -631,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "UserName",
           "package": "twitter-types",
@@ -639,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "UserName",
           "package": "twitter-types",
@@ -882,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "created_at",
           "package": "twitter-types",
@@ -891,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "created_at",
           "package": "twitter-types",
@@ -903,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "delId",
           "package": "twitter-types",
@@ -912,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "delId",
           "package": "twitter-types",
@@ -925,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "delUserId",
           "package": "twitter-types",
@@ -934,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "delUserId",
           "package": "twitter-types",
@@ -947,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmCreatedAt",
           "package": "twitter-types",
@@ -956,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmCreatedAt",
           "package": "twitter-types",
@@ -969,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmId",
           "package": "twitter-types",
@@ -978,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmId",
           "package": "twitter-types",
@@ -991,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmRecipient",
           "package": "twitter-types",
@@ -1000,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmRecipient",
           "package": "twitter-types",
@@ -1013,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmRecipientId",
           "package": "twitter-types",
@@ -1022,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmRecipientId",
           "package": "twitter-types",
@@ -1035,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmRecipientScreeName",
           "package": "twitter-types",
@@ -1044,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmRecipientScreeName",
           "package": "twitter-types",
@@ -1057,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmSender",
           "package": "twitter-types",
@@ -1066,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmSender",
           "package": "twitter-types",
@@ -1079,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmSenderId",
           "package": "twitter-types",
@@ -1088,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmSenderId",
           "package": "twitter-types",
@@ -1101,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmSenderScreenName",
           "package": "twitter-types",
@@ -1110,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmSenderScreenName",
           "package": "twitter-types",
@@ -1123,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmText",
           "package": "twitter-types",
@@ -1132,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "dmText",
           "package": "twitter-types",
@@ -1145,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "enHashTags",
           "package": "twitter-types",
@@ -1154,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "enHashTags",
           "normalized": "Lens' Entities[Entity HashTagEntity]",
@@ -1169,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "enMedia",
           "package": "twitter-types",
@@ -1178,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "enMedia",
           "normalized": "Lens' Entities[Entity MediaEntity]",
@@ -1193,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "enURLs",
           "package": "twitter-types",
@@ -1202,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "enURLs",
           "normalized": "Lens' Entities[Entity URLEntity]",
@@ -1217,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "enUserMentions",
           "package": "twitter-types",
@@ -1226,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "enUserMentions",
           "normalized": "Lens' Entities[Entity UserEntity]",
@@ -1241,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "entityBody",
           "package": "twitter-types",
@@ -1250,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "entityBody",
           "package": "twitter-types",
@@ -1263,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "entityIndices",
           "package": "twitter-types",
@@ -1272,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "entityIndices",
           "package": "twitter-types",
@@ -1285,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "evCreatedAt",
           "package": "twitter-types",
@@ -1294,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "evCreatedAt",
           "package": "twitter-types",
@@ -1307,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "evEvent",
           "package": "twitter-types",
@@ -1316,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "evEvent",
           "package": "twitter-types",
@@ -1329,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "evSource",
           "package": "twitter-types",
@@ -1338,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "evSource",
           "package": "twitter-types",
@@ -1351,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "evTarget",
           "package": "twitter-types",
@@ -1360,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "evTarget",
           "package": "twitter-types",
@@ -1373,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "evTargetObject",
           "package": "twitter-types",
@@ -1382,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "evTargetObject",
           "package": "twitter-types",
@@ -1395,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "hashTagText",
           "package": "twitter-types",
@@ -1404,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "hashTagText",
           "package": "twitter-types",
@@ -1417,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "listFullName",
           "package": "twitter-types",
@@ -1426,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "listFullName",
           "package": "twitter-types",
@@ -1439,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "listId",
           "package": "twitter-types",
@@ -1448,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "listId",
           "package": "twitter-types",
@@ -1461,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "listMemberCount",
           "package": "twitter-types",
@@ -1470,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "listMemberCount",
           "package": "twitter-types",
@@ -1483,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "listMode",
           "package": "twitter-types",
@@ -1492,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "listMode",
           "package": "twitter-types",
@@ -1505,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "listName",
           "package": "twitter-types",
@@ -1514,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "listName",
           "package": "twitter-types",
@@ -1527,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "listSubscriberCount",
           "package": "twitter-types",
@@ -1536,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "listSubscriberCount",
           "package": "twitter-types",
@@ -1549,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "listUser",
           "package": "twitter-types",
@@ -1558,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "listUser",
           "package": "twitter-types",
@@ -1571,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "meId",
           "package": "twitter-types",
@@ -1580,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "meId",
           "package": "twitter-types",
@@ -1593,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "meMediaURL",
           "package": "twitter-types",
@@ -1602,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "meMediaURL",
           "package": "twitter-types",
@@ -1615,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "meMediaURLHttps",
           "package": "twitter-types",
@@ -1624,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "meMediaURLHttps",
           "package": "twitter-types",
@@ -1637,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "meSizes",
           "package": "twitter-types",
@@ -1646,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "meSizes",
           "package": "twitter-types",
@@ -1659,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "meType",
           "package": "twitter-types",
@@ -1668,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "meType",
           "package": "twitter-types",
@@ -1681,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "meURL",
           "package": "twitter-types",
@@ -1690,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "meURL",
           "package": "twitter-types",
@@ -1703,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "msHeight",
           "package": "twitter-types",
@@ -1712,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "msHeight",
           "package": "twitter-types",
@@ -1725,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "msResize",
           "package": "twitter-types",
@@ -1734,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "msResize",
           "package": "twitter-types",
@@ -1747,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "msWidth",
           "package": "twitter-types",
@@ -1756,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "msWidth",
           "package": "twitter-types",
@@ -1769,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "name",
           "package": "twitter-types",
@@ -1778,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "name",
           "package": "twitter-types",
@@ -1790,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsCreatedAt",
           "package": "twitter-types",
@@ -1799,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsCreatedAt",
           "package": "twitter-types",
@@ -1812,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsEntities",
           "package": "twitter-types",
@@ -1821,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsEntities",
           "package": "twitter-types",
@@ -1834,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsId",
           "package": "twitter-types",
@@ -1843,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsId",
           "package": "twitter-types",
@@ -1856,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsRetweetedStatus",
           "package": "twitter-types",
@@ -1865,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsRetweetedStatus",
           "package": "twitter-types",
@@ -1878,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsSource",
           "package": "twitter-types",
@@ -1887,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsSource",
           "package": "twitter-types",
@@ -1900,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsText",
           "package": "twitter-types",
@@ -1909,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsText",
           "package": "twitter-types",
@@ -1922,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsTruncated",
           "package": "twitter-types",
@@ -1931,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsTruncated",
           "package": "twitter-types",
@@ -1944,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsUser",
           "package": "twitter-types",
@@ -1953,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "rsUser",
           "package": "twitter-types",
@@ -1966,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "screen_name",
           "package": "twitter-types",
@@ -1975,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "screen_name",
           "package": "twitter-types",
@@ -1987,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataCompletedIn",
           "package": "twitter-types",
@@ -1996,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataCompletedIn",
           "package": "twitter-types",
@@ -2009,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataCount",
           "package": "twitter-types",
@@ -2018,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataCount",
           "package": "twitter-types",
@@ -2031,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataMaxId",
           "package": "twitter-types",
@@ -2040,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataMaxId",
           "package": "twitter-types",
@@ -2053,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataMaxIdStr",
           "package": "twitter-types",
@@ -2062,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataMaxIdStr",
           "package": "twitter-types",
@@ -2075,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataNextResults",
           "package": "twitter-types",
@@ -2084,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataNextResults",
           "package": "twitter-types",
@@ -2097,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataQuery",
           "package": "twitter-types",
@@ -2106,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataQuery",
           "package": "twitter-types",
@@ -2119,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataRefreshUrl",
           "package": "twitter-types",
@@ -2128,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataRefreshUrl",
           "package": "twitter-types",
@@ -2141,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataSinceId",
           "package": "twitter-types",
@@ -2150,6 +2325,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataSinceId",
           "package": "twitter-types",
@@ -2163,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataSinceIdStr",
           "package": "twitter-types",
@@ -2172,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchMetadataSinceIdStr",
           "package": "twitter-types",
@@ -2185,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchResultSearchMetadata",
           "package": "twitter-types",
@@ -2194,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchResultSearchMetadata",
           "package": "twitter-types",
@@ -2207,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchResultStatuses",
           "package": "twitter-types",
@@ -2216,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchResultStatuses",
           "package": "twitter-types",
@@ -2229,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchStatusCreatedAt",
           "package": "twitter-types",
@@ -2238,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchStatusCreatedAt",
           "package": "twitter-types",
@@ -2251,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchStatusId",
           "package": "twitter-types",
@@ -2260,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchStatusId",
           "package": "twitter-types",
@@ -2273,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchStatusSource",
           "package": "twitter-types",
@@ -2282,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchStatusSource",
           "package": "twitter-types",
@@ -2295,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchStatusText",
           "package": "twitter-types",
@@ -2304,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchStatusText",
           "package": "twitter-types",
@@ -2317,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchStatusUser",
           "package": "twitter-types",
@@ -2326,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "searchStatusUser",
           "package": "twitter-types",
@@ -2339,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusCreatedAt",
           "package": "twitter-types",
@@ -2348,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusCreatedAt",
           "package": "twitter-types",
@@ -2361,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusEntities",
           "package": "twitter-types",
@@ -2370,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusEntities",
           "package": "twitter-types",
@@ -2383,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusFavorite",
           "package": "twitter-types",
@@ -2392,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusFavorite",
           "package": "twitter-types",
@@ -2405,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusId",
           "package": "twitter-types",
@@ -2414,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusId",
           "package": "twitter-types",
@@ -2427,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusInReplyTo",
           "package": "twitter-types",
@@ -2436,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusInReplyTo",
           "package": "twitter-types",
@@ -2449,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusInReplyToUser",
           "package": "twitter-types",
@@ -2458,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusInReplyToUser",
           "package": "twitter-types",
@@ -2471,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusRetweetCount",
           "package": "twitter-types",
@@ -2480,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusRetweetCount",
           "package": "twitter-types",
@@ -2493,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusSource",
           "package": "twitter-types",
@@ -2502,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusSource",
           "package": "twitter-types",
@@ -2515,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusText",
           "package": "twitter-types",
@@ -2524,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusText",
           "package": "twitter-types",
@@ -2537,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusTruncated",
           "package": "twitter-types",
@@ -2546,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusTruncated",
           "package": "twitter-types",
@@ -2559,6 +2771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusUser",
           "package": "twitter-types",
@@ -2568,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "statusUser",
           "package": "twitter-types",
@@ -2581,6 +2795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "status_id",
           "package": "twitter-types",
@@ -2590,6 +2805,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "status_id",
           "package": "twitter-types",
@@ -2602,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "text",
           "package": "twitter-types",
@@ -2611,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "text",
           "package": "twitter-types",
@@ -2623,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "ueDisplay",
           "package": "twitter-types",
@@ -2632,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "ueDisplay",
           "package": "twitter-types",
@@ -2645,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "ueExpanded",
           "package": "twitter-types",
@@ -2654,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "ueExpanded",
           "package": "twitter-types",
@@ -2667,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "ueURL",
           "package": "twitter-types",
@@ -2676,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "ueURL",
           "package": "twitter-types",
@@ -2689,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "user",
           "package": "twitter-types",
@@ -2698,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "user",
           "package": "twitter-types",
@@ -2710,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userCreatedAt",
           "package": "twitter-types",
@@ -2719,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userCreatedAt",
           "package": "twitter-types",
@@ -2732,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userDescription",
           "package": "twitter-types",
@@ -2741,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userDescription",
           "package": "twitter-types",
@@ -2754,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userEntityUserId",
           "package": "twitter-types",
@@ -2763,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userEntityUserId",
           "package": "twitter-types",
@@ -2776,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userEntityUserName",
           "package": "twitter-types",
@@ -2785,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userEntityUserName",
           "package": "twitter-types",
@@ -2798,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userEntityUserScreenName",
           "package": "twitter-types",
@@ -2807,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userEntityUserScreenName",
           "package": "twitter-types",
@@ -2820,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userFollowers",
           "package": "twitter-types",
@@ -2829,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userFollowers",
           "package": "twitter-types",
@@ -2842,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userFriends",
           "package": "twitter-types",
@@ -2851,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userFriends",
           "package": "twitter-types",
@@ -2864,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userId",
           "package": "twitter-types",
@@ -2873,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userId",
           "package": "twitter-types",
@@ -2886,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userLangCode",
           "package": "twitter-types",
@@ -2895,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userLangCode",
           "package": "twitter-types",
@@ -2908,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userLocation",
           "package": "twitter-types",
@@ -2917,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userLocation",
           "package": "twitter-types",
@@ -2930,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userName",
           "package": "twitter-types",
@@ -2939,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userName",
           "package": "twitter-types",
@@ -2952,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userProfileImageURL",
           "package": "twitter-types",
@@ -2961,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userProfileImageURL",
           "package": "twitter-types",
@@ -2974,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userProtected",
           "package": "twitter-types",
@@ -2983,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userProtected",
           "package": "twitter-types",
@@ -2996,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userScreenName",
           "package": "twitter-types",
@@ -3005,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userScreenName",
           "package": "twitter-types",
@@ -3018,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userTweets",
           "package": "twitter-types",
@@ -3027,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userTweets",
           "package": "twitter-types",
@@ -3040,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "userURL",
           "package": "twitter-types",
@@ -3049,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "userURL",
           "package": "twitter-types",
@@ -3062,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types.Lens",
           "name": "user_id",
           "package": "twitter-types",
@@ -3071,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types Lens",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types.Lens",
           "name": "user_id",
           "package": "twitter-types",
@@ -3083,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "Types",
           "package": "twitter-types",
@@ -3091,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "Types",
           "package": "twitter-types",
@@ -3104,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "DateString",
           "package": "twitter-types",
@@ -3112,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "DateString",
           "package": "twitter-types",
@@ -3125,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "Delete",
           "package": "twitter-types",
@@ -3133,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "Delete",
           "package": "twitter-types",
@@ -3146,6 +3412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "DirectMessage",
           "package": "twitter-types",
@@ -3154,6 +3421,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "DirectMessage",
           "package": "twitter-types",
@@ -3168,6 +3436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntity handling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "Entities",
           "package": "twitter-types",
@@ -3177,6 +3446,7 @@
         "index": {
           "description": "Entity handling",
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "Entities",
           "package": "twitter-types",
@@ -3190,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "Entity",
           "package": "twitter-types",
@@ -3198,6 +3469,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "Entity",
           "package": "twitter-types",
@@ -3212,6 +3484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe character positions the Entity was extracted from\n\u003c/p\u003e\u003cp\u003eThis is experimental implementation.\n   This may be replaced by more definite types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "EntityIndices",
           "package": "twitter-types",
@@ -3221,6 +3494,7 @@
         "index": {
           "description": "The character positions the Entity was extracted from This is experimental implementation This may be replaced by more definite types",
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "EntityIndices",
           "package": "twitter-types",
@@ -3234,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "Event",
           "package": "twitter-types",
@@ -3242,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "Event",
           "package": "twitter-types",
@@ -3255,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "EventTarget",
           "package": "twitter-types",
@@ -3263,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "EventTarget",
           "package": "twitter-types",
@@ -3276,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "Friends",
           "package": "twitter-types",
@@ -3284,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "Friends",
           "package": "twitter-types",
@@ -3297,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "HashTagEntity",
           "package": "twitter-types",
@@ -3305,6 +3586,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "HashTagEntity",
           "package": "twitter-types",
@@ -3318,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "LanguageCode",
           "package": "twitter-types",
@@ -3326,6 +3609,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "LanguageCode",
           "package": "twitter-types",
@@ -3339,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "List",
           "package": "twitter-types",
@@ -3347,6 +3632,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "List",
           "package": "twitter-types",
@@ -3360,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "MediaEntity",
           "package": "twitter-types",
@@ -3368,6 +3655,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "MediaEntity",
           "package": "twitter-types",
@@ -3381,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "MediaSize",
           "package": "twitter-types",
@@ -3389,6 +3678,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "MediaSize",
           "package": "twitter-types",
@@ -3402,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "RetweetedStatus",
           "package": "twitter-types",
@@ -3410,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "RetweetedStatus",
           "package": "twitter-types",
@@ -3423,6 +3715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "SearchMetadata",
           "package": "twitter-types",
@@ -3431,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "SearchMetadata",
           "package": "twitter-types",
@@ -3444,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "SearchResult",
           "package": "twitter-types",
@@ -3452,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "SearchResult",
           "package": "twitter-types",
@@ -3465,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "SearchStatus",
           "package": "twitter-types",
@@ -3473,6 +3770,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "SearchStatus",
           "package": "twitter-types",
@@ -3486,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "Status",
           "package": "twitter-types",
@@ -3494,6 +3793,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "Status",
           "package": "twitter-types",
@@ -3507,6 +3807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "StatusId",
           "package": "twitter-types",
@@ -3515,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "StatusId",
           "package": "twitter-types",
@@ -3528,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "StreamingAPI",
           "package": "twitter-types",
@@ -3536,6 +3839,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "StreamingAPI",
           "package": "twitter-types",
@@ -3549,6 +3853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "URIString",
           "package": "twitter-types",
@@ -3557,6 +3862,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "URIString",
           "package": "twitter-types",
@@ -3570,6 +3876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "URLEntity",
           "package": "twitter-types",
@@ -3578,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "URLEntity",
           "package": "twitter-types",
@@ -3591,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "User",
           "package": "twitter-types",
@@ -3599,6 +3908,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "User",
           "package": "twitter-types",
@@ -3612,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "UserEntity",
           "package": "twitter-types",
@@ -3620,6 +3931,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "UserEntity",
           "package": "twitter-types",
@@ -3633,6 +3945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "UserId",
           "package": "twitter-types",
@@ -3641,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "UserId",
           "package": "twitter-types",
@@ -3654,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "UserName",
           "package": "twitter-types",
@@ -3662,6 +3977,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "UserName",
           "package": "twitter-types",
@@ -3675,6 +3991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "Delete",
           "package": "twitter-types",
@@ -3684,6 +4001,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "Delete",
           "package": "twitter-types",
@@ -3697,6 +4015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "DirectMessage",
           "package": "twitter-types",
@@ -3706,6 +4025,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "DirectMessage",
           "package": "twitter-types",
@@ -3719,6 +4039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "Entities",
           "package": "twitter-types",
@@ -3728,6 +4049,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "Entities",
           "package": "twitter-types",
@@ -3741,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "Entity",
           "package": "twitter-types",
@@ -3750,6 +4073,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "Entity",
           "package": "twitter-types",
@@ -3763,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "Event",
           "package": "twitter-types",
@@ -3772,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "Event",
           "package": "twitter-types",
@@ -3785,6 +4111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "HashTagEntity",
           "package": "twitter-types",
@@ -3794,6 +4121,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "HashTagEntity",
           "package": "twitter-types",
@@ -3807,6 +4135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "List",
           "package": "twitter-types",
@@ -3816,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "List",
           "package": "twitter-types",
@@ -3829,6 +4159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "MediaEntity",
           "package": "twitter-types",
@@ -3838,6 +4169,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "MediaEntity",
           "package": "twitter-types",
@@ -3851,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "MediaSize",
           "package": "twitter-types",
@@ -3860,6 +4193,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "MediaSize",
           "package": "twitter-types",
@@ -3873,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "RetweetedStatus",
           "package": "twitter-types",
@@ -3882,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "RetweetedStatus",
           "package": "twitter-types",
@@ -3895,6 +4231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "SearchMetadata",
           "package": "twitter-types",
@@ -3904,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "SearchMetadata",
           "package": "twitter-types",
@@ -3917,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "SearchResult",
           "package": "twitter-types",
@@ -3926,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "SearchResult",
           "package": "twitter-types",
@@ -3939,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "SearchStatus",
           "package": "twitter-types",
@@ -3948,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "SearchStatus",
           "package": "twitter-types",
@@ -3961,6 +4303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "Status",
           "package": "twitter-types",
@@ -3970,6 +4313,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "Status",
           "package": "twitter-types",
@@ -3983,6 +4327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "URLEntity",
           "package": "twitter-types",
@@ -3992,6 +4337,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "URLEntity",
           "package": "twitter-types",
@@ -4005,6 +4351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "User",
           "package": "twitter-types",
@@ -4014,6 +4361,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "User",
           "package": "twitter-types",
@@ -4027,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "UserEntity",
           "package": "twitter-types",
@@ -4036,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "UserEntity",
           "package": "twitter-types",
@@ -4049,6 +4399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "checkError",
           "package": "twitter-types",
@@ -4058,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "checkError",
           "normalized": "Object-\u003eParser()",
@@ -4073,6 +4425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "delId",
           "package": "twitter-types",
@@ -4082,6 +4435,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "delId",
           "package": "twitter-types",
@@ -4095,6 +4449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "delUserId",
           "package": "twitter-types",
@@ -4104,6 +4459,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "delUserId",
           "package": "twitter-types",
@@ -4117,6 +4473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "dmCreatedAt",
           "package": "twitter-types",
@@ -4126,6 +4483,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "dmCreatedAt",
           "package": "twitter-types",
@@ -4139,6 +4497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "dmId",
           "package": "twitter-types",
@@ -4148,6 +4507,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "dmId",
           "package": "twitter-types",
@@ -4161,6 +4521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "dmRecipient",
           "package": "twitter-types",
@@ -4170,6 +4531,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "dmRecipient",
           "package": "twitter-types",
@@ -4183,6 +4545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "dmRecipientId",
           "package": "twitter-types",
@@ -4192,6 +4555,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "dmRecipientId",
           "package": "twitter-types",
@@ -4205,6 +4569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "dmRecipientScreeName",
           "package": "twitter-types",
@@ -4214,6 +4579,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "dmRecipientScreeName",
           "package": "twitter-types",
@@ -4227,6 +4593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "dmSender",
           "package": "twitter-types",
@@ -4236,6 +4603,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "dmSender",
           "package": "twitter-types",
@@ -4249,6 +4617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "dmSenderId",
           "package": "twitter-types",
@@ -4258,6 +4627,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "dmSenderId",
           "package": "twitter-types",
@@ -4271,6 +4641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "dmSenderScreenName",
           "package": "twitter-types",
@@ -4280,6 +4651,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "dmSenderScreenName",
           "package": "twitter-types",
@@ -4293,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "dmText",
           "package": "twitter-types",
@@ -4302,6 +4675,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "dmText",
           "package": "twitter-types",
@@ -4315,6 +4689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "enHashTags",
           "package": "twitter-types",
@@ -4324,6 +4699,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "enHashTags",
           "normalized": "[Entity HashTagEntity]",
@@ -4339,6 +4715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "enMedia",
           "package": "twitter-types",
@@ -4348,6 +4725,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "enMedia",
           "normalized": "[Entity MediaEntity]",
@@ -4363,6 +4741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "enURLs",
           "package": "twitter-types",
@@ -4372,6 +4751,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "enURLs",
           "normalized": "[Entity URLEntity]",
@@ -4387,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "enUserMentions",
           "package": "twitter-types",
@@ -4396,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "enUserMentions",
           "normalized": "[Entity UserEntity]",
@@ -4412,6 +4794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe detail information of the specific entity types (HashTag, URL, User)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "entityBody",
           "package": "twitter-types",
@@ -4422,6 +4805,7 @@
         "index": {
           "description": "The detail information of the specific entity types HashTag URL User",
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "entityBody",
           "package": "twitter-types",
@@ -4436,6 +4820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe character positions the Entity was extracted from\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "entityIndices",
           "package": "twitter-types",
@@ -4446,6 +4831,7 @@
         "index": {
           "description": "The character positions the Entity was extracted from",
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "entityIndices",
           "package": "twitter-types",
@@ -4459,6 +4845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "evCreatedAt",
           "package": "twitter-types",
@@ -4468,6 +4855,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "evCreatedAt",
           "package": "twitter-types",
@@ -4481,6 +4869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "evEvent",
           "package": "twitter-types",
@@ -4490,6 +4879,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "evEvent",
           "package": "twitter-types",
@@ -4503,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "evSource",
           "package": "twitter-types",
@@ -4512,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "evSource",
           "package": "twitter-types",
@@ -4525,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "evTarget",
           "package": "twitter-types",
@@ -4534,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "evTarget",
           "package": "twitter-types",
@@ -4547,6 +4941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "evTargetObject",
           "package": "twitter-types",
@@ -4556,6 +4951,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "evTargetObject",
           "package": "twitter-types",
@@ -4570,6 +4966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Hashtag text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "hashTagText",
           "package": "twitter-types",
@@ -4580,6 +4977,7 @@
         "index": {
           "description": "The Hashtag text",
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "hashTagText",
           "package": "twitter-types",
@@ -4593,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "listFullName",
           "package": "twitter-types",
@@ -4602,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "listFullName",
           "package": "twitter-types",
@@ -4615,6 +5015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "listId",
           "package": "twitter-types",
@@ -4624,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "listId",
           "package": "twitter-types",
@@ -4637,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "listMemberCount",
           "package": "twitter-types",
@@ -4646,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "listMemberCount",
           "package": "twitter-types",
@@ -4659,6 +5063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "listMode",
           "package": "twitter-types",
@@ -4668,6 +5073,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "listMode",
           "package": "twitter-types",
@@ -4681,6 +5087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "listName",
           "package": "twitter-types",
@@ -4690,6 +5097,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "listName",
           "package": "twitter-types",
@@ -4703,6 +5111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "listSubscriberCount",
           "package": "twitter-types",
@@ -4712,6 +5121,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "listSubscriberCount",
           "package": "twitter-types",
@@ -4725,6 +5135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "listUser",
           "package": "twitter-types",
@@ -4734,6 +5145,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "listUser",
           "package": "twitter-types",
@@ -4747,6 +5159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "meId",
           "package": "twitter-types",
@@ -4756,6 +5169,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "meId",
           "package": "twitter-types",
@@ -4769,6 +5183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "meMediaURL",
           "package": "twitter-types",
@@ -4778,6 +5193,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "meMediaURL",
           "package": "twitter-types",
@@ -4791,6 +5207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "meMediaURLHttps",
           "package": "twitter-types",
@@ -4800,6 +5217,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "meMediaURLHttps",
           "package": "twitter-types",
@@ -4813,6 +5231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "meSizes",
           "package": "twitter-types",
@@ -4822,6 +5241,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "meSizes",
           "package": "twitter-types",
@@ -4835,6 +5255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "meType",
           "package": "twitter-types",
@@ -4844,6 +5265,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "meType",
           "package": "twitter-types",
@@ -4857,6 +5279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "meURL",
           "package": "twitter-types",
@@ -4866,6 +5289,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "meURL",
           "package": "twitter-types",
@@ -4879,6 +5303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "msHeight",
           "package": "twitter-types",
@@ -4888,6 +5313,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "msHeight",
           "package": "twitter-types",
@@ -4901,6 +5327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "msResize",
           "package": "twitter-types",
@@ -4910,6 +5337,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "msResize",
           "package": "twitter-types",
@@ -4923,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "msWidth",
           "package": "twitter-types",
@@ -4932,6 +5361,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "msWidth",
           "package": "twitter-types",
@@ -4945,6 +5375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "rsCreatedAt",
           "package": "twitter-types",
@@ -4954,6 +5385,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "rsCreatedAt",
           "package": "twitter-types",
@@ -4967,6 +5399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "rsEntities",
           "package": "twitter-types",
@@ -4976,6 +5409,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "rsEntities",
           "package": "twitter-types",
@@ -4989,6 +5423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "rsId",
           "package": "twitter-types",
@@ -4998,6 +5433,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "rsId",
           "package": "twitter-types",
@@ -5011,6 +5447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "rsRetweetedStatus",
           "package": "twitter-types",
@@ -5020,6 +5457,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "rsRetweetedStatus",
           "package": "twitter-types",
@@ -5033,6 +5471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "rsSource",
           "package": "twitter-types",
@@ -5042,6 +5481,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "rsSource",
           "package": "twitter-types",
@@ -5055,6 +5495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "rsText",
           "package": "twitter-types",
@@ -5064,6 +5505,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "rsText",
           "package": "twitter-types",
@@ -5077,6 +5519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "rsTruncated",
           "package": "twitter-types",
@@ -5086,6 +5529,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "rsTruncated",
           "package": "twitter-types",
@@ -5099,6 +5543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "rsUser",
           "package": "twitter-types",
@@ -5108,6 +5553,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "rsUser",
           "package": "twitter-types",
@@ -5121,6 +5567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataCompletedIn",
           "package": "twitter-types",
@@ -5130,6 +5577,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataCompletedIn",
           "package": "twitter-types",
@@ -5143,6 +5591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataCount",
           "package": "twitter-types",
@@ -5152,6 +5601,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataCount",
           "package": "twitter-types",
@@ -5165,6 +5615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataMaxId",
           "package": "twitter-types",
@@ -5174,6 +5625,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataMaxId",
           "package": "twitter-types",
@@ -5187,6 +5639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataMaxIdStr",
           "package": "twitter-types",
@@ -5196,6 +5649,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataMaxIdStr",
           "package": "twitter-types",
@@ -5209,6 +5663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataNextResults",
           "package": "twitter-types",
@@ -5218,6 +5673,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataNextResults",
           "package": "twitter-types",
@@ -5231,6 +5687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataQuery",
           "package": "twitter-types",
@@ -5240,6 +5697,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataQuery",
           "package": "twitter-types",
@@ -5253,6 +5711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataRefreshUrl",
           "package": "twitter-types",
@@ -5262,6 +5721,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataRefreshUrl",
           "package": "twitter-types",
@@ -5275,6 +5735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataSinceId",
           "package": "twitter-types",
@@ -5284,6 +5745,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataSinceId",
           "package": "twitter-types",
@@ -5297,6 +5759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataSinceIdStr",
           "package": "twitter-types",
@@ -5306,6 +5769,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchMetadataSinceIdStr",
           "package": "twitter-types",
@@ -5319,6 +5783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchResultSearchMetadata",
           "package": "twitter-types",
@@ -5328,6 +5793,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchResultSearchMetadata",
           "package": "twitter-types",
@@ -5341,6 +5807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchResultStatuses",
           "package": "twitter-types",
@@ -5350,6 +5817,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchResultStatuses",
           "package": "twitter-types",
@@ -5363,6 +5831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchStatusCreatedAt",
           "package": "twitter-types",
@@ -5372,6 +5841,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchStatusCreatedAt",
           "package": "twitter-types",
@@ -5385,6 +5855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchStatusId",
           "package": "twitter-types",
@@ -5394,6 +5865,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchStatusId",
           "package": "twitter-types",
@@ -5407,6 +5879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchStatusSource",
           "package": "twitter-types",
@@ -5416,6 +5889,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchStatusSource",
           "package": "twitter-types",
@@ -5429,6 +5903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchStatusText",
           "package": "twitter-types",
@@ -5438,6 +5913,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchStatusText",
           "package": "twitter-types",
@@ -5451,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "searchStatusUser",
           "package": "twitter-types",
@@ -5460,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "searchStatusUser",
           "package": "twitter-types",
@@ -5473,6 +5951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "statusCreatedAt",
           "package": "twitter-types",
@@ -5482,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "statusCreatedAt",
           "package": "twitter-types",
@@ -5495,6 +5975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "statusEntities",
           "package": "twitter-types",
@@ -5504,6 +5985,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "statusEntities",
           "package": "twitter-types",
@@ -5517,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "statusFavorite",
           "package": "twitter-types",
@@ -5526,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "statusFavorite",
           "package": "twitter-types",
@@ -5539,6 +6023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "statusId",
           "package": "twitter-types",
@@ -5548,6 +6033,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "statusId",
           "package": "twitter-types",
@@ -5561,6 +6047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "statusInReplyTo",
           "package": "twitter-types",
@@ -5570,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "statusInReplyTo",
           "package": "twitter-types",
@@ -5583,6 +6071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "statusInReplyToUser",
           "package": "twitter-types",
@@ -5592,6 +6081,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "statusInReplyToUser",
           "package": "twitter-types",
@@ -5605,6 +6095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "statusRetweetCount",
           "package": "twitter-types",
@@ -5614,6 +6105,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "statusRetweetCount",
           "package": "twitter-types",
@@ -5627,6 +6119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "statusSource",
           "package": "twitter-types",
@@ -5636,6 +6129,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "statusSource",
           "package": "twitter-types",
@@ -5649,6 +6143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "statusText",
           "package": "twitter-types",
@@ -5658,6 +6153,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "statusText",
           "package": "twitter-types",
@@ -5671,6 +6167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "statusTruncated",
           "package": "twitter-types",
@@ -5680,6 +6177,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "statusTruncated",
           "package": "twitter-types",
@@ -5693,6 +6191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "statusUser",
           "package": "twitter-types",
@@ -5702,6 +6201,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "statusUser",
           "package": "twitter-types",
@@ -5716,6 +6216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot a URL but a string to display instead of the URL (only for t.co links)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "ueDisplay",
           "package": "twitter-types",
@@ -5726,6 +6227,7 @@
         "index": {
           "description": "Not URL but string to display instead of the URL only for t.co links",
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "ueDisplay",
           "package": "twitter-types",
@@ -5740,6 +6242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fully resolved URL (only for t.co links)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "ueExpanded",
           "package": "twitter-types",
@@ -5750,6 +6253,7 @@
         "index": {
           "description": "The fully resolved URL only for t.co links",
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "ueExpanded",
           "package": "twitter-types",
@@ -5764,6 +6268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe URL that was extracted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "ueURL",
           "package": "twitter-types",
@@ -5774,6 +6279,7 @@
         "index": {
           "description": "The URL that was extracted",
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "ueURL",
           "package": "twitter-types",
@@ -5787,6 +6293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userCreatedAt",
           "package": "twitter-types",
@@ -5796,6 +6303,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userCreatedAt",
           "package": "twitter-types",
@@ -5809,6 +6317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userDescription",
           "package": "twitter-types",
@@ -5818,6 +6327,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userDescription",
           "package": "twitter-types",
@@ -5831,6 +6341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userEntityUserId",
           "package": "twitter-types",
@@ -5840,6 +6351,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userEntityUserId",
           "package": "twitter-types",
@@ -5853,6 +6365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userEntityUserName",
           "package": "twitter-types",
@@ -5862,6 +6375,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userEntityUserName",
           "package": "twitter-types",
@@ -5875,6 +6389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userEntityUserScreenName",
           "package": "twitter-types",
@@ -5884,6 +6399,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userEntityUserScreenName",
           "package": "twitter-types",
@@ -5897,6 +6413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userFollowers",
           "package": "twitter-types",
@@ -5906,6 +6423,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userFollowers",
           "package": "twitter-types",
@@ -5919,6 +6437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userFriends",
           "package": "twitter-types",
@@ -5928,6 +6447,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userFriends",
           "package": "twitter-types",
@@ -5941,6 +6461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userId",
           "package": "twitter-types",
@@ -5950,6 +6471,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userId",
           "package": "twitter-types",
@@ -5963,6 +6485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userLangCode",
           "package": "twitter-types",
@@ -5972,6 +6495,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userLangCode",
           "package": "twitter-types",
@@ -5985,6 +6509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userLocation",
           "package": "twitter-types",
@@ -5994,6 +6519,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userLocation",
           "package": "twitter-types",
@@ -6007,6 +6533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userName",
           "package": "twitter-types",
@@ -6016,6 +6543,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userName",
           "package": "twitter-types",
@@ -6029,6 +6557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userProfileImageURL",
           "package": "twitter-types",
@@ -6038,6 +6567,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userProfileImageURL",
           "package": "twitter-types",
@@ -6051,6 +6581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userProtected",
           "package": "twitter-types",
@@ -6060,6 +6591,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userProtected",
           "package": "twitter-types",
@@ -6073,6 +6605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userScreenName",
           "package": "twitter-types",
@@ -6082,6 +6615,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userScreenName",
           "package": "twitter-types",
@@ -6095,6 +6629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userTweets",
           "package": "twitter-types",
@@ -6104,6 +6639,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userTweets",
           "package": "twitter-types",
@@ -6117,6 +6653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:44 UTC 2014",
           "module": "Web.Twitter.Types",
           "name": "userURL",
           "package": "twitter-types",
@@ -6126,6 +6663,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Types",
+          "indexed": "2014-03-11T20:26:44",
           "module": "Web.Twitter.Types",
           "name": "userURL",
           "package": "twitter-types",

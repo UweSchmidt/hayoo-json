@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mysnapsession-example"
+        "phrase": "mysnapsession-example",
+        "type": "phrase"
       },
       "type": "context"
     }

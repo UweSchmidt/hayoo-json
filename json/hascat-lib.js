@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hascat-lib"
+        "phrase": "hascat-lib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "App",
           "package": "hascat-lib",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "App",
           "package": "hascat-lib",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "App",
           "package": "hascat-lib",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "App",
           "package": "hascat-lib",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "DoneHandler",
           "package": "hascat-lib",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "DoneHandler",
           "package": "hascat-lib",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "Handlers",
           "package": "hascat-lib",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "Handlers",
           "package": "hascat-lib",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "InitHandler",
           "package": "hascat-lib",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "InitHandler",
           "package": "hascat-lib",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "RespondHandler",
           "package": "hascat-lib",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "RespondHandler",
           "package": "hascat-lib",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "SystemHandler",
           "package": "hascat-lib",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "SystemHandler",
           "package": "hascat-lib",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "App",
           "package": "hascat-lib",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "App",
           "package": "hascat-lib",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "Handlers",
           "package": "hascat-lib",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "Handlers",
           "package": "hascat-lib",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "SystemHandler",
           "package": "hascat-lib",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "SystemHandler",
           "package": "hascat-lib",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "appConfig",
           "package": "hascat-lib",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "appConfig",
           "package": "hascat-lib",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "appHandlers",
           "package": "hascat-lib",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "appHandlers",
           "package": "hascat-lib",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "appModule",
           "package": "hascat-lib",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "appModule",
           "package": "hascat-lib",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "appPaused",
           "package": "hascat-lib",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "appPaused",
           "package": "hascat-lib",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "appState",
           "package": "hascat-lib",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "appState",
           "package": "hascat-lib",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "defaultDone",
           "package": "hascat-lib",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "defaultDone",
           "package": "hascat-lib",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "defaultHandlers",
           "package": "hascat-lib",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "defaultHandlers",
           "normalized": "Handlers()",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "defaultInit",
           "package": "hascat-lib",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "defaultInit",
           "normalized": "InitHandler()",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "doneHandler",
           "package": "hascat-lib",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "doneHandler",
           "package": "hascat-lib",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "initHandler",
           "package": "hascat-lib",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "initHandler",
           "package": "hascat-lib",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.App",
           "name": "respondHandler",
           "package": "hascat-lib",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Hascat App",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.App",
           "name": "respondHandler",
           "package": "hascat-lib",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Config",
           "package": "hascat-lib",
@@ -485,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Config",
           "package": "hascat-lib",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "AppConfig",
           "package": "hascat-lib",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "AppConfig",
           "package": "hascat-lib",
@@ -519,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "AppConfig_Attrs",
           "package": "hascat-lib",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "AppConfig_Attrs",
           "package": "hascat-lib",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "AppConfig_autoStart",
           "package": "hascat-lib",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "AppConfig_autoStart",
           "package": "hascat-lib",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "AppConfig_type",
           "package": "hascat-lib",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "AppConfig_type",
           "package": "hascat-lib",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "AppController",
           "package": "hascat-lib",
@@ -590,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "AppController",
           "package": "hascat-lib",
@@ -603,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Code",
           "package": "hascat-lib",
@@ -611,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Code",
           "package": "hascat-lib",
@@ -624,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Config",
           "package": "hascat-lib",
@@ -632,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Config",
           "package": "hascat-lib",
@@ -645,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Config_Attrs",
           "package": "hascat-lib",
@@ -653,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Config_Attrs",
           "package": "hascat-lib",
@@ -666,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "ContextPath",
           "package": "hascat-lib",
@@ -674,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "ContextPath",
           "package": "hascat-lib",
@@ -687,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Description",
           "package": "hascat-lib",
@@ -695,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Description",
           "package": "hascat-lib",
@@ -708,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "DoneTimeout",
           "package": "hascat-lib",
@@ -716,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "DoneTimeout",
           "package": "hascat-lib",
@@ -729,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "General",
           "package": "hascat-lib",
@@ -737,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "General",
           "package": "hascat-lib",
@@ -750,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "IncludePath",
           "package": "hascat-lib",
@@ -758,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "IncludePath",
           "package": "hascat-lib",
@@ -771,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "InitTimeout",
           "package": "hascat-lib",
@@ -779,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "InitTimeout",
           "package": "hascat-lib",
@@ -792,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Name",
           "package": "hascat-lib",
@@ -800,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Name",
           "package": "hascat-lib",
@@ -813,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "PkgConfFile",
           "package": "hascat-lib",
@@ -821,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "PkgConfFile",
           "package": "hascat-lib",
@@ -834,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "PluginLoader",
           "package": "hascat-lib",
@@ -842,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "PluginLoader",
           "package": "hascat-lib",
@@ -855,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Port",
           "package": "hascat-lib",
@@ -863,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Port",
           "package": "hascat-lib",
@@ -876,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "RespondTimeout",
           "package": "hascat-lib",
@@ -884,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "RespondTimeout",
           "package": "hascat-lib",
@@ -897,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Root",
           "package": "hascat-lib",
@@ -905,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Root",
           "package": "hascat-lib",
@@ -918,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "ServerRoot",
           "package": "hascat-lib",
@@ -926,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "ServerRoot",
           "package": "hascat-lib",
@@ -939,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "AppConfig",
           "package": "hascat-lib",
@@ -948,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "AppConfig",
           "package": "hascat-lib",
@@ -961,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "AppConfig_Attrs",
           "package": "hascat-lib",
@@ -970,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "AppConfig_Attrs",
           "package": "hascat-lib",
@@ -983,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "AppConfig_autoStart_no",
           "package": "hascat-lib",
@@ -992,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "AppConfig_autoStart_no",
           "package": "hascat-lib",
@@ -1005,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "AppConfig_autoStart_yes",
           "package": "hascat-lib",
@@ -1014,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "AppConfig_autoStart_yes",
           "package": "hascat-lib",
@@ -1027,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "AppConfig_type_normal",
           "package": "hascat-lib",
@@ -1036,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "AppConfig_type_normal",
           "package": "hascat-lib",
@@ -1049,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "AppConfig_type_system",
           "package": "hascat-lib",
@@ -1058,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "AppConfig_type_system",
           "package": "hascat-lib",
@@ -1071,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "AppController",
           "package": "hascat-lib",
@@ -1080,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "AppController",
           "normalized": "AppController[AppConfig]",
@@ -1095,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Code",
           "package": "hascat-lib",
@@ -1104,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Code",
           "package": "hascat-lib",
@@ -1117,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Config",
           "package": "hascat-lib",
@@ -1126,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Config",
           "package": "hascat-lib",
@@ -1139,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Config_Attrs",
           "package": "hascat-lib",
@@ -1148,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Config_Attrs",
           "package": "hascat-lib",
@@ -1161,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "ContextPath",
           "package": "hascat-lib",
@@ -1170,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "ContextPath",
           "package": "hascat-lib",
@@ -1183,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Description",
           "package": "hascat-lib",
@@ -1192,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Description",
           "package": "hascat-lib",
@@ -1205,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "DoneTimeout",
           "package": "hascat-lib",
@@ -1214,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "DoneTimeout",
           "package": "hascat-lib",
@@ -1227,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "General",
           "package": "hascat-lib",
@@ -1236,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "General",
           "package": "hascat-lib",
@@ -1249,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "IncludePath",
           "package": "hascat-lib",
@@ -1258,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "IncludePath",
           "package": "hascat-lib",
@@ -1271,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "InitTimeout",
           "package": "hascat-lib",
@@ -1280,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "InitTimeout",
           "package": "hascat-lib",
@@ -1293,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Name",
           "package": "hascat-lib",
@@ -1302,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Name",
           "package": "hascat-lib",
@@ -1315,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "PkgConfFile",
           "package": "hascat-lib",
@@ -1324,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "PkgConfFile",
           "package": "hascat-lib",
@@ -1337,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "PluginLoader",
           "package": "hascat-lib",
@@ -1346,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "PluginLoader",
           "normalized": "PluginLoader[IncludePath][PkgConfFile]",
@@ -1361,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Port",
           "package": "hascat-lib",
@@ -1370,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Port",
           "package": "hascat-lib",
@@ -1383,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "RespondTimeout",
           "package": "hascat-lib",
@@ -1392,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "RespondTimeout",
           "package": "hascat-lib",
@@ -1405,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "Root",
           "package": "hascat-lib",
@@ -1414,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "Root",
           "package": "hascat-lib",
@@ -1427,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "ServerRoot",
           "package": "hascat-lib",
@@ -1436,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "ServerRoot",
           "package": "hascat-lib",
@@ -1449,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "appAttr",
           "package": "hascat-lib",
@@ -1458,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "appAttr",
           "package": "hascat-lib",
@@ -1471,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "appCode",
           "package": "hascat-lib",
@@ -1480,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "appCode",
           "package": "hascat-lib",
@@ -1493,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "appConfigAutoStart",
           "package": "hascat-lib",
@@ -1502,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "appConfigAutoStart",
           "package": "hascat-lib",
@@ -1515,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "appConfigType",
           "package": "hascat-lib",
@@ -1524,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "appConfigType",
           "package": "hascat-lib",
@@ -1537,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "appContextPath",
           "package": "hascat-lib",
@@ -1546,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "appContextPath",
           "package": "hascat-lib",
@@ -1559,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "appDesc",
           "package": "hascat-lib",
@@ -1568,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "appDesc",
           "package": "hascat-lib",
@@ -1581,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "appDoneTimeOut",
           "package": "hascat-lib",
@@ -1590,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "appDoneTimeOut",
           "package": "hascat-lib",
@@ -1603,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "appInitTimeOut",
           "package": "hascat-lib",
@@ -1612,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "appInitTimeOut",
           "package": "hascat-lib",
@@ -1625,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "appName",
           "package": "hascat-lib",
@@ -1634,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "appName",
           "package": "hascat-lib",
@@ -1647,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "appResponseTimeOut",
           "package": "hascat-lib",
@@ -1656,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "appResponseTimeOut",
           "package": "hascat-lib",
@@ -1669,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "appRoot",
           "package": "hascat-lib",
@@ -1678,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "appRoot",
           "package": "hascat-lib",
@@ -1691,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "configVersion",
           "package": "hascat-lib",
@@ -1700,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "configVersion",
           "package": "hascat-lib",
@@ -1713,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "fromInt",
           "package": "hascat-lib",
@@ -1722,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "fromInt",
           "normalized": "Int-\u003eString",
@@ -1737,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getAppAutoStart",
           "package": "hascat-lib",
@@ -1746,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getAppAutoStart",
           "normalized": "AppConfig-\u003eAppConfig_autoStart",
@@ -1761,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getAppCode",
           "package": "hascat-lib",
@@ -1770,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getAppCode",
           "normalized": "AppConfig-\u003eFilePath",
@@ -1785,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getAppContextPath",
           "package": "hascat-lib",
@@ -1794,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getAppContextPath",
           "normalized": "AppConfig-\u003eContextPath",
@@ -1809,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getAppDescription",
           "package": "hascat-lib",
@@ -1818,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getAppDescription",
           "normalized": "AppConfig-\u003eString",
@@ -1833,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getAppDoneTimeout",
           "package": "hascat-lib",
@@ -1842,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getAppDoneTimeout",
           "normalized": "AppConfig-\u003eInt",
@@ -1857,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getAppInitTimeout",
           "package": "hascat-lib",
@@ -1866,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getAppInitTimeout",
           "normalized": "AppConfig-\u003eInt",
@@ -1881,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getAppName",
           "package": "hascat-lib",
@@ -1890,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getAppName",
           "normalized": "AppConfig-\u003eString",
@@ -1905,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getAppRespondTimeout",
           "package": "hascat-lib",
@@ -1914,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getAppRespondTimeout",
           "normalized": "AppConfig-\u003eInt",
@@ -1929,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getAppRoot",
           "package": "hascat-lib",
@@ -1938,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getAppRoot",
           "normalized": "AppConfig-\u003eFilePath",
@@ -1953,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getAppType",
           "package": "hascat-lib",
@@ -1962,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getAppType",
           "normalized": "AppConfig-\u003eAppConfig_type",
@@ -1977,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getIncludePaths",
           "package": "hascat-lib",
@@ -1986,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getIncludePaths",
           "normalized": "PluginLoader-\u003e[FilePath]",
@@ -2001,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getPkgConfFiles",
           "package": "hascat-lib",
@@ -2010,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getPkgConfFiles",
           "normalized": "PluginLoader-\u003e[FilePath]",
@@ -2025,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getPluginLoader",
           "package": "hascat-lib",
@@ -2034,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getPluginLoader",
           "normalized": "General-\u003ePluginLoader",
@@ -2049,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getPort",
           "package": "hascat-lib",
@@ -2058,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getPort",
           "normalized": "General-\u003eInt",
@@ -2073,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "getServerRoot",
           "package": "hascat-lib",
@@ -2082,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "getServerRoot",
           "normalized": "General-\u003eFilePath",
@@ -2097,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Config",
           "name": "toInt",
           "package": "hascat-lib",
@@ -2106,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Hascat Config",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Config",
           "name": "toInt",
           "normalized": "(Maybe String,[Content])-\u003e(Maybe Int,[Content])",
@@ -2121,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Protocol",
           "name": "Protocol",
           "package": "hascat-lib",
@@ -2129,6 +2320,7 @@
         },
         "index": {
           "hierarchy": "Hascat Protocol",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Protocol",
           "name": "Protocol",
           "package": "hascat-lib",
@@ -2143,6 +2335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value of an input parameter, and some metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Protocol",
           "name": "Input",
           "package": "hascat-lib",
@@ -2152,6 +2345,7 @@
         "index": {
           "description": "The value of an input parameter and some metadata",
           "hierarchy": "Hascat Protocol",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Protocol",
           "name": "Input",
           "package": "hascat-lib",
@@ -2165,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Protocol",
           "name": "ServletRequest",
           "package": "hascat-lib",
@@ -2173,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Hascat Protocol",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Protocol",
           "name": "ServletRequest",
           "package": "hascat-lib",
@@ -2233,6 +2429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets and decodes the input according to the request\n   method and the content-type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Protocol",
           "name": "decodeInput",
           "package": "hascat-lib",
@@ -2243,6 +2440,7 @@
         "index": {
           "description": "Gets and decodes the input according to the request method and the content-type",
           "hierarchy": "Hascat Protocol",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Protocol",
           "name": "decodeInput",
           "normalized": "Request ByteString-\u003eServletRequest",
@@ -2259,6 +2457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the name-value pairs from application/x-www-form-urlencoded data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Protocol",
           "name": "formDecode",
           "package": "hascat-lib",
@@ -2269,6 +2468,7 @@
         "index": {
           "description": "Gets the name-value pairs from application x-www-form-urlencoded data",
           "hierarchy": "Hascat Protocol",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Protocol",
           "name": "formDecode",
           "normalized": "String-\u003e[(String,String)]",
@@ -2353,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Protocol",
           "name": "maybeRead",
           "package": "hascat-lib",
@@ -2362,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "Hascat Protocol",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Protocol",
           "name": "maybeRead",
           "normalized": "String-\u003eMaybe a",
@@ -2378,6 +2580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces all instances of a value in a list by another value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Protocol",
           "name": "replace",
           "package": "hascat-lib",
@@ -2387,6 +2590,7 @@
         "index": {
           "description": "Replaces all instances of value in list by another value",
           "hierarchy": "Hascat Protocol",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Protocol",
           "name": "replace",
           "normalized": "a-\u003ea-\u003e[a]-\u003e[a]",
@@ -2523,6 +2727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the right number of bytes from the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Protocol",
           "name": "takeInput",
           "package": "hascat-lib",
@@ -2532,6 +2737,7 @@
         "index": {
           "description": "Takes the right number of bytes from the input",
           "hierarchy": "Hascat Protocol",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Protocol",
           "name": "takeInput",
           "normalized": "[Header]-\u003eByteString-\u003eByteString",
@@ -2548,6 +2754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a single value from the \n   application/x-www-form-urlencoded encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Protocol",
           "name": "urlDecode",
           "package": "hascat-lib",
@@ -2558,6 +2765,7 @@
         "index": {
           "description": "Converts single value from the application x-www-form-urlencoded encoding",
           "hierarchy": "Hascat Protocol",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Protocol",
           "name": "urlDecode",
           "normalized": "String-\u003eString",
@@ -2573,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "Toolkit",
           "package": "hascat-lib",
@@ -2581,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "Toolkit",
           "package": "hascat-lib",
@@ -2594,6 +2804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "Content",
           "package": "hascat-lib",
@@ -2602,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "Content",
           "package": "hascat-lib",
@@ -2616,6 +2828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value of an input parameter, and some metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "Input",
           "package": "hascat-lib",
@@ -2625,6 +2838,7 @@
         "index": {
           "description": "The value of an input parameter and some metadata",
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "Input",
           "package": "hascat-lib",
@@ -2639,6 +2853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor easy pattern matching, HTTP response codes \u003ccode\u003exyz\u003c/code\u003e are\n represented as \u003ccode\u003e(x,y,z)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "ResponseCode",
           "package": "hascat-lib",
@@ -2647,6 +2862,7 @@
         "index": {
           "description": "For easy pattern matching HTTP response codes xyz are represented as",
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "ResponseCode",
           "package": "hascat-lib",
@@ -2660,6 +2876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "ServletRequest",
           "package": "hascat-lib",
@@ -2668,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "ServletRequest",
           "package": "hascat-lib",
@@ -2681,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "(//)",
           "package": "hascat-lib",
@@ -2690,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "(//) //",
           "normalized": "String-\u003eString-\u003eString",
@@ -2704,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getCodeString",
           "package": "hascat-lib",
@@ -2713,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getCodeString",
           "normalized": "ResponseCode-\u003eString",
@@ -2728,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getDirectoryIndex",
           "package": "hascat-lib",
@@ -2737,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getDirectoryIndex",
           "normalized": "FilePath-\u003eBool-\u003eIO[String]",
@@ -2752,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getErrorResponse",
           "package": "hascat-lib",
@@ -2761,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getErrorResponse",
           "normalized": "ResponseCode-\u003e[Header]-\u003eHtml-\u003eResponse ByteString",
@@ -2776,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getFileOrDirectoryIndex",
           "package": "hascat-lib",
@@ -2785,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getFileOrDirectoryIndex",
           "normalized": "FilePath-\u003eBool-\u003eIO(Either(FilePath,ByteString)[String])",
@@ -2800,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getFileOrDirectoryIndexResponse",
           "package": "hascat-lib",
@@ -2809,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getFileOrDirectoryIndexResponse",
           "normalized": "String-\u003eFilePath-\u003eMaybe String-\u003eBool-\u003eIO(Response ByteString)",
@@ -2824,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getFileResponse",
           "package": "hascat-lib",
@@ -2833,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getFileResponse",
           "normalized": "String-\u003eFilePath-\u003eMaybe String-\u003eIO(Response ByteString)",
@@ -2848,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getReason",
           "package": "hascat-lib",
@@ -2857,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getReason",
           "normalized": "ResponseCode-\u003eString",
@@ -2872,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getRelativePath",
           "package": "hascat-lib",
@@ -2881,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getRelativePath",
           "normalized": "String-\u003eString-\u003eMaybe String",
@@ -2896,6 +3132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getResponse200",
           "package": "hascat-lib",
@@ -2905,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getResponse200",
           "normalized": "a-\u003eResponse ByteString",
@@ -2920,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getResponse303",
           "package": "hascat-lib",
@@ -2929,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getResponse303",
           "normalized": "String-\u003eResponse ByteString",
@@ -2944,6 +3184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getResponse400",
           "package": "hascat-lib",
@@ -2953,6 +3194,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getResponse400",
           "package": "hascat-lib",
@@ -2966,6 +3208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getResponse401",
           "package": "hascat-lib",
@@ -2975,6 +3218,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getResponse401",
           "normalized": "String-\u003eResponse ByteString",
@@ -2990,6 +3234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getResponse404",
           "package": "hascat-lib",
@@ -2999,6 +3244,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getResponse404",
           "normalized": "String-\u003eResponse ByteString",
@@ -3014,6 +3260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getResponse405",
           "package": "hascat-lib",
@@ -3023,6 +3270,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getResponse405",
           "normalized": "RequestMethod-\u003eResponse ByteString",
@@ -3038,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getResponse500",
           "package": "hascat-lib",
@@ -3047,6 +3296,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getResponse500",
           "normalized": "String-\u003eResponse ByteString",
@@ -3062,6 +3312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "getResponse503",
           "package": "hascat-lib",
@@ -3071,6 +3322,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "getResponse503",
           "normalized": "String-\u003eResponse ByteString",
@@ -3086,6 +3338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "guessContentType",
           "package": "hascat-lib",
@@ -3095,6 +3348,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "guessContentType",
           "normalized": "FilePath-\u003eString",
@@ -3110,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:44 UTC 2014",
           "module": "Hascat.Toolkit",
           "name": "toResponse",
           "package": "hascat-lib",
@@ -3119,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Hascat Toolkit",
+          "indexed": "2014-03-11T18:29:44",
           "module": "Hascat.Toolkit",
           "name": "toResponse",
           "normalized": "ResponseCode-\u003e[Header]-\u003ea-\u003eResponse ByteString",

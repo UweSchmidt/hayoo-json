@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "usb-enumerator"
+        "phrase": "usb-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIteratee enumerators for endpoints.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:31:58 UTC 2014",
           "module": "System.USB.IO.Synchronous.Enumerator",
           "name": "Enumerator",
           "package": "usb-enumerator",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Iteratee enumerators for endpoints",
           "hierarchy": "System USB IO Synchronous Enumerator",
+          "indexed": "2014-03-11T20:31:58",
           "module": "System.USB.IO.Synchronous.Enumerator",
           "name": "Enumerator",
           "package": "usb-enumerator",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:58 UTC 2014",
           "module": "System.USB.IO.Synchronous.Enumerator",
           "name": "enumReadBulk",
           "package": "usb-enumerator",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System USB IO Synchronous Enumerator",
+          "indexed": "2014-03-11T20:31:58",
           "module": "System.USB.IO.Synchronous.Enumerator",
           "name": "enumReadBulk",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eSize-\u003eTimeout-\u003eEnumerator a b c",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:58 UTC 2014",
           "module": "System.USB.IO.Synchronous.Enumerator",
           "name": "enumReadInterrupt",
           "package": "usb-enumerator",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "System USB IO Synchronous Enumerator",
+          "indexed": "2014-03-11T20:31:58",
           "module": "System.USB.IO.Synchronous.Enumerator",
           "name": "enumReadInterrupt",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eSize-\u003eTimeout-\u003eEnumerator a b c",

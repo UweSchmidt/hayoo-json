@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "abcnotation"
+        "phrase": "abcnotation",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc.Parser",
           "name": "Parser",
           "package": "abcnotation",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Music Abc Parser",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc.Parser",
           "name": "Parser",
           "package": "abcnotation",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a module description, returning an error if unsuccessful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc.Parser",
           "name": "parse",
           "package": "abcnotation",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Parse module description returning an error if unsuccessful",
           "hierarchy": "Music Abc Parser",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc.Parser",
           "name": "parse",
           "normalized": "String-\u003eEither ParseError AbcFile",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Haskell representation and parser for ABC notation. Based on the 2.1 standard. \n\u003c/p\u003e\u003cp\u003eFor more information see \u003ca\u003ehttp://abcnotation.com\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Abc",
           "package": "abcnotation",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Haskell representation and parser for ABC notation Based on the standard For more information see http abcnotation.com",
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Abc",
           "package": "abcnotation",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": ":|:",
           "package": "abcnotation",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": ":|:",
           "package": "abcnotation",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA full ABC file (2.2).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "AbcFile",
           "package": "abcnotation",
@@ -117,6 +126,7 @@
         "index": {
           "description": "full ABC file",
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "AbcFile",
           "package": "abcnotation",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "AbcTune",
           "package": "abcnotation",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "AbcTune",
           "package": "abcnotation",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Accidental",
           "package": "abcnotation",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Accidental",
           "package": "abcnotation",
@@ -173,6 +187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBarline, including special barlines and repeats.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Barline",
           "package": "abcnotation",
@@ -182,6 +197,7 @@
         "index": {
           "description": "Barline including special barlines and repeats",
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Barline",
           "package": "abcnotation",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "BeamT",
           "package": "abcnotation",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "BeamT",
           "package": "abcnotation",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Decoration",
           "package": "abcnotation",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Decoration",
           "package": "abcnotation",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "DecorationT",
           "package": "abcnotation",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "DecorationT",
           "package": "abcnotation",
@@ -259,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbc directive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Directive",
           "package": "abcnotation",
@@ -268,6 +291,7 @@
         "index": {
           "description": "Abc directive",
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Directive",
           "package": "abcnotation",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Duration",
           "package": "abcnotation",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Duration",
           "package": "abcnotation",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "DurationT",
           "package": "abcnotation",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "DurationT",
           "package": "abcnotation",
@@ -324,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither a tune, free text or typeset text (2.2.3).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Element",
           "package": "abcnotation",
@@ -333,6 +362,7 @@
         "index": {
           "description": "Either tune free text or typeset text",
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Element",
           "package": "abcnotation",
@@ -347,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile header (2.2.2).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "FileHeader",
           "package": "abcnotation",
@@ -356,6 +387,7 @@
         "index": {
           "description": "File header",
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "FileHeader",
           "package": "abcnotation",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "GraceT",
           "package": "abcnotation",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "GraceT",
           "package": "abcnotation",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Information",
           "package": "abcnotation",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Information",
           "package": "abcnotation",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "MultiRest",
           "package": "abcnotation",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "MultiRest",
           "package": "abcnotation",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Music",
           "package": "abcnotation",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Music",
           "package": "abcnotation",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Note",
           "package": "abcnotation",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Note",
           "package": "abcnotation",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Octave",
           "package": "abcnotation",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Octave",
           "package": "abcnotation",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Pitch",
           "package": "abcnotation",
@@ -503,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Pitch",
           "package": "abcnotation",
@@ -516,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "PitchClass",
           "package": "abcnotation",
@@ -524,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "PitchClass",
           "package": "abcnotation",
@@ -537,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "RestT",
           "package": "abcnotation",
@@ -545,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "RestT",
           "package": "abcnotation",
@@ -558,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "SlurT",
           "package": "abcnotation",
@@ -566,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "SlurT",
           "package": "abcnotation",
@@ -579,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "TuneBody",
           "package": "abcnotation",
@@ -587,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "TuneBody",
           "package": "abcnotation",
@@ -600,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "TuneHeader",
           "package": "abcnotation",
@@ -608,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "TuneHeader",
           "package": "abcnotation",
@@ -621,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "TupletT",
           "package": "abcnotation",
@@ -629,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "TupletT",
           "package": "abcnotation",
@@ -642,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "A",
           "package": "abcnotation",
@@ -651,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "A",
           "package": "abcnotation",
@@ -663,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "AbcFile",
           "package": "abcnotation",
@@ -672,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "AbcFile",
           "normalized": "AbcFile(Maybe String)(Maybe FileHeader)[Element]",
@@ -687,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "AbcTune",
           "package": "abcnotation",
@@ -696,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "AbcTune",
           "package": "abcnotation",
@@ -709,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Accent",
           "package": "abcnotation",
@@ -718,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Accent",
           "package": "abcnotation",
@@ -731,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Area",
           "package": "abcnotation",
@@ -740,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Area",
           "package": "abcnotation",
@@ -753,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Arpeggio",
           "package": "abcnotation",
@@ -762,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Arpeggio",
           "package": "abcnotation",
@@ -775,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "B",
           "package": "abcnotation",
@@ -784,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "B",
           "package": "abcnotation",
@@ -796,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Barline",
           "package": "abcnotation",
@@ -805,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Barline",
           "package": "abcnotation",
@@ -818,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Book",
           "package": "abcnotation",
@@ -827,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Book",
           "package": "abcnotation",
@@ -840,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Breath",
           "package": "abcnotation",
@@ -849,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Breath",
           "package": "abcnotation",
@@ -862,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "C",
           "package": "abcnotation",
@@ -871,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "C",
           "package": "abcnotation",
@@ -883,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Coda",
           "package": "abcnotation",
@@ -892,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Coda",
           "package": "abcnotation",
@@ -905,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Composer",
           "package": "abcnotation",
@@ -914,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Composer",
           "package": "abcnotation",
@@ -927,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Crescendo",
           "package": "abcnotation",
@@ -936,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Crescendo",
           "package": "abcnotation",
@@ -949,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "D",
           "package": "abcnotation",
@@ -958,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "D",
           "package": "abcnotation",
@@ -970,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "DaCapo",
           "package": "abcnotation",
@@ -979,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "DaCapo",
           "package": "abcnotation",
@@ -992,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "DaSegno",
           "package": "abcnotation",
@@ -1001,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "DaSegno",
           "package": "abcnotation",
@@ -1014,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Dacoda",
           "package": "abcnotation",
@@ -1023,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Dacoda",
           "package": "abcnotation",
@@ -1036,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Diminuendo",
           "package": "abcnotation",
@@ -1045,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Diminuendo",
           "package": "abcnotation",
@@ -1058,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Discography",
           "package": "abcnotation",
@@ -1067,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Discography",
           "package": "abcnotation",
@@ -1080,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "DottedBarline",
           "package": "abcnotation",
@@ -1089,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "DottedBarline",
           "package": "abcnotation",
@@ -1102,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "DoubleBarline",
           "package": "abcnotation",
@@ -1111,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "DoubleBarline",
           "package": "abcnotation",
@@ -1124,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "DoubleFlat",
           "package": "abcnotation",
@@ -1133,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "DoubleFlat",
           "package": "abcnotation",
@@ -1146,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "DoubleSharp",
           "package": "abcnotation",
@@ -1155,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "DoubleSharp",
           "package": "abcnotation",
@@ -1168,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Downbow",
           "package": "abcnotation",
@@ -1177,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Downbow",
           "package": "abcnotation",
@@ -1190,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Duration",
           "package": "abcnotation",
@@ -1199,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Duration",
           "package": "abcnotation",
@@ -1212,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "E",
           "package": "abcnotation",
@@ -1221,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "E",
           "package": "abcnotation",
@@ -1233,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "EndCrescendo",
           "package": "abcnotation",
@@ -1242,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "EndCrescendo",
           "package": "abcnotation",
@@ -1255,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "EndDiminuendo",
           "package": "abcnotation",
@@ -1264,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "EndDiminuendo",
           "package": "abcnotation",
@@ -1277,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "F",
           "package": "abcnotation",
@@ -1286,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "F",
           "package": "abcnotation",
@@ -1298,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Fermata",
           "package": "abcnotation",
@@ -1307,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Fermata",
           "package": "abcnotation",
@@ -1320,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "FileHeader",
           "package": "abcnotation",
@@ -1329,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "FileHeader",
           "normalized": "FileHeader[Information][Directive]",
@@ -1344,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "FileUrl",
           "package": "abcnotation",
@@ -1353,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "FileUrl",
           "package": "abcnotation",
@@ -1366,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Fine",
           "package": "abcnotation",
@@ -1375,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Fine",
           "package": "abcnotation",
@@ -1388,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Fingering",
           "package": "abcnotation",
@@ -1397,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Fingering",
           "package": "abcnotation",
@@ -1410,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Flat",
           "package": "abcnotation",
@@ -1419,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Flat",
           "package": "abcnotation",
@@ -1433,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree text (2.2.3).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "FreeText",
           "package": "abcnotation",
@@ -1443,6 +1574,7 @@
         "index": {
           "description": "Free text",
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "FreeText",
           "package": "abcnotation",
@@ -1456,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "G",
           "package": "abcnotation",
@@ -1465,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "G",
           "package": "abcnotation",
@@ -1477,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Group",
           "package": "abcnotation",
@@ -1486,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Group",
           "package": "abcnotation",
@@ -1499,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "History",
           "package": "abcnotation",
@@ -1508,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "History",
           "package": "abcnotation",
@@ -1521,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Instruction",
           "package": "abcnotation",
@@ -1530,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Instruction",
           "package": "abcnotation",
@@ -1543,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Invertedturn",
           "package": "abcnotation",
@@ -1552,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Invertedturn",
           "package": "abcnotation",
@@ -1565,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Invertedturnx",
           "package": "abcnotation",
@@ -1574,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Invertedturnx",
           "package": "abcnotation",
@@ -1587,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "InvisibleBarline",
           "package": "abcnotation",
@@ -1596,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "InvisibleBarline",
           "package": "abcnotation",
@@ -1609,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Key",
           "package": "abcnotation",
@@ -1618,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Key",
           "package": "abcnotation",
@@ -1631,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Longphrase",
           "package": "abcnotation",
@@ -1640,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Longphrase",
           "package": "abcnotation",
@@ -1653,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Lowermordent",
           "package": "abcnotation",
@@ -1662,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Lowermordent",
           "package": "abcnotation",
@@ -1675,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Mediumphrase",
           "package": "abcnotation",
@@ -1684,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Mediumphrase",
           "package": "abcnotation",
@@ -1697,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Meter",
           "package": "abcnotation",
@@ -1706,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Meter",
           "package": "abcnotation",
@@ -1719,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "MultiRest",
           "package": "abcnotation",
@@ -1728,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "MultiRest",
           "package": "abcnotation",
@@ -1741,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Music",
           "package": "abcnotation",
@@ -1750,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Music",
           "normalized": "Music[Note(MultiRest(Barline()))]",
@@ -1765,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Natural",
           "package": "abcnotation",
@@ -1774,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Natural",
           "package": "abcnotation",
@@ -1787,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Notes",
           "package": "abcnotation",
@@ -1796,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Notes",
           "package": "abcnotation",
@@ -1809,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Octave",
           "package": "abcnotation",
@@ -1818,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Octave",
           "package": "abcnotation",
@@ -1831,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Open",
           "package": "abcnotation",
@@ -1840,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Open",
           "package": "abcnotation",
@@ -1853,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Origin",
           "package": "abcnotation",
@@ -1862,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Origin",
           "package": "abcnotation",
@@ -1875,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Parts",
           "package": "abcnotation",
@@ -1884,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Parts",
           "package": "abcnotation",
@@ -1897,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Pitch",
           "package": "abcnotation",
@@ -1906,6 +2079,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Pitch",
           "package": "abcnotation",
@@ -1919,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Plus",
           "package": "abcnotation",
@@ -1928,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Plus",
           "package": "abcnotation",
@@ -1941,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "ReferenceNumber",
           "package": "abcnotation",
@@ -1950,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "ReferenceNumber",
           "package": "abcnotation",
@@ -1963,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Repeat",
           "package": "abcnotation",
@@ -1972,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Repeat",
           "package": "abcnotation",
@@ -1985,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Rhythm",
           "package": "abcnotation",
@@ -1994,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Rhythm",
           "package": "abcnotation",
@@ -2007,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Roll",
           "package": "abcnotation",
@@ -2016,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Roll",
           "package": "abcnotation",
@@ -2029,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Segno",
           "package": "abcnotation",
@@ -2038,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Segno",
           "package": "abcnotation",
@@ -2051,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Sharp",
           "package": "abcnotation",
@@ -2060,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Sharp",
           "package": "abcnotation",
@@ -2073,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Shortphrase",
           "package": "abcnotation",
@@ -2082,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Shortphrase",
           "package": "abcnotation",
@@ -2095,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Slide",
           "package": "abcnotation",
@@ -2104,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Slide",
           "package": "abcnotation",
@@ -2117,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Snap",
           "package": "abcnotation",
@@ -2126,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Snap",
           "package": "abcnotation",
@@ -2139,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Source",
           "package": "abcnotation",
@@ -2148,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Source",
           "package": "abcnotation",
@@ -2161,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "SymbolLine",
           "package": "abcnotation",
@@ -2170,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "SymbolLine",
           "package": "abcnotation",
@@ -2183,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Tempo",
           "package": "abcnotation",
@@ -2192,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Tempo",
           "package": "abcnotation",
@@ -2205,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Tenuto",
           "package": "abcnotation",
@@ -2214,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Tenuto",
           "package": "abcnotation",
@@ -2227,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Thumb",
           "package": "abcnotation",
@@ -2236,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Thumb",
           "package": "abcnotation",
@@ -2249,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Transcription",
           "package": "abcnotation",
@@ -2258,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Transcription",
           "package": "abcnotation",
@@ -2271,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Trill",
           "package": "abcnotation",
@@ -2280,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Trill",
           "package": "abcnotation",
@@ -2293,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "TrillBegin",
           "package": "abcnotation",
@@ -2302,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "TrillBegin",
           "package": "abcnotation",
@@ -2315,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "TrillEnd",
           "package": "abcnotation",
@@ -2324,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "TrillEnd",
           "package": "abcnotation",
@@ -2338,6 +2550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Abc tune.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Tune",
           "package": "abcnotation",
@@ -2348,6 +2561,7 @@
         "index": {
           "description": "An Abc tune",
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Tune",
           "package": "abcnotation",
@@ -2361,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "TuneHeader",
           "package": "abcnotation",
@@ -2370,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "TuneHeader",
           "normalized": "TuneHeader[Information]",
@@ -2385,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "TuneTitle",
           "package": "abcnotation",
@@ -2394,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "TuneTitle",
           "package": "abcnotation",
@@ -2407,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Turn",
           "package": "abcnotation",
@@ -2416,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Turn",
           "package": "abcnotation",
@@ -2429,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Turnx",
           "package": "abcnotation",
@@ -2438,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Turnx",
           "package": "abcnotation",
@@ -2452,6 +2674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeset text (2.2.3).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "TypesetText",
           "package": "abcnotation",
@@ -2462,6 +2685,7 @@
         "index": {
           "description": "Typeset text",
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "TypesetText",
           "package": "abcnotation",
@@ -2475,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "UnitNoteLength",
           "package": "abcnotation",
@@ -2484,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "UnitNoteLength",
           "package": "abcnotation",
@@ -2497,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Upbow",
           "package": "abcnotation",
@@ -2506,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Upbow",
           "package": "abcnotation",
@@ -2519,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Uppermordent",
           "package": "abcnotation",
@@ -2528,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Uppermordent",
           "package": "abcnotation",
@@ -2541,6 +2771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Voice",
           "package": "abcnotation",
@@ -2550,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Voice",
           "package": "abcnotation",
@@ -2563,6 +2795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Wedge",
           "package": "abcnotation",
@@ -2572,6 +2805,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Wedge",
           "package": "abcnotation",
@@ -2585,6 +2819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "Words",
           "package": "abcnotation",
@@ -2594,6 +2829,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "Words",
           "package": "abcnotation",
@@ -2607,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "getDuration",
           "package": "abcnotation",
@@ -2616,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "getDuration",
           "package": "abcnotation",
@@ -2629,6 +2867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "getMultiRest",
           "package": "abcnotation",
@@ -2638,6 +2877,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "getMultiRest",
           "package": "abcnotation",
@@ -2651,6 +2891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "getOctave",
           "package": "abcnotation",
@@ -2660,6 +2901,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "getOctave",
           "package": "abcnotation",
@@ -2673,6 +2915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "getPitch",
           "package": "abcnotation",
@@ -2682,6 +2925,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "getPitch",
           "normalized": "(PitchClass,Accidental,Octave)",
@@ -2697,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "readAbc",
           "package": "abcnotation",
@@ -2706,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "readAbc",
           "normalized": "String-\u003eAbcFile",
@@ -2721,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:22 UTC 2014",
           "module": "Music.Abc",
           "name": "showAbc",
           "package": "abcnotation",
@@ -2730,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "Music Abc",
+          "indexed": "2014-03-11T17:06:22",
           "module": "Music.Abc",
           "name": "showAbc",
           "normalized": "AbcFile-\u003eString",

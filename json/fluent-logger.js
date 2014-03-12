@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fluent-logger"
+        "phrase": "fluent-logger",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFluent Logger for Haskell\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "Logger",
           "package": "fluent-logger",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Fluent Logger for Haskell",
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "Logger",
           "package": "fluent-logger",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFluent logger\n\u003c/p\u003e\u003cp\u003eSince 0.1.0.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "FluentLogger",
           "package": "fluent-logger",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Fluent logger Since",
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "FluentLogger",
           "package": "fluent-logger",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFluent logger settings\n\u003c/p\u003e\u003cp\u003eSince 0.1.0.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "FluentSettings",
           "package": "fluent-logger",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Fluent logger settings Since",
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "FluentSettings",
           "package": "fluent-logger",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "FluentSettings",
           "package": "fluent-logger",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "FluentSettings",
           "package": "fluent-logger",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose logger\n\u003c/p\u003e\u003cp\u003eSince 0.1.0.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "closeFluentLogger",
           "package": "fluent-logger",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Close logger Since",
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "closeFluentLogger",
           "normalized": "FluentLogger-\u003eIO()",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault fluent logger settings\n\u003c/p\u003e\u003cp\u003eSince 0.1.0.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "defaultFluentSettings",
           "package": "fluent-logger",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Default fluent logger settings Since",
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "defaultFluentSettings",
           "package": "fluent-logger",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "fluentSettingsBufferLimit",
           "package": "fluent-logger",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "fluentSettingsBufferLimit",
           "package": "fluent-logger",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "fluentSettingsHost",
           "package": "fluent-logger",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "fluentSettingsHost",
           "package": "fluent-logger",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "fluentSettingsPort",
           "package": "fluent-logger",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "fluentSettingsPort",
           "package": "fluent-logger",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "fluentSettingsTag",
           "package": "fluent-logger",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "fluentSettingsTag",
           "package": "fluent-logger",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "fluentSettingsTimeout",
           "package": "fluent-logger",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "fluentSettingsTimeout",
           "package": "fluent-logger",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a fluent logger\n\u003c/p\u003e\u003cp\u003eSince 0.1.0.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "newFluentLogger",
           "package": "fluent-logger",
@@ -280,6 +303,7 @@
         "index": {
           "description": "Create fluent logger Since",
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "newFluentLogger",
           "normalized": "FluentSettings-\u003eIO FluentLogger",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePost a message.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "post",
           "package": "fluent-logger",
@@ -306,6 +331,7 @@
         "index": {
           "description": "Post message Since",
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "post",
           "normalized": "FluentLogger-\u003eByteString-\u003ea-\u003eIO()",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePost a message with given time.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "postWithTime",
           "package": "fluent-logger",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Post message with given time Since",
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "postWithTime",
           "normalized": "FluentLogger-\u003eByteString-\u003eInt-\u003ea-\u003eIO()",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a fluent logger and run given action.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:53 UTC 2014",
           "module": "Network.Fluent.Logger",
           "name": "withFluentLogger",
           "package": "fluent-logger",
@@ -357,6 +386,7 @@
         "index": {
           "description": "Create fluent logger and run given action Since",
           "hierarchy": "Network Fluent Logger",
+          "indexed": "2014-03-11T18:10:53",
           "module": "Network.Fluent.Logger",
           "name": "withFluentLogger",
           "normalized": "FluentSettings-\u003e(FluentLogger-\u003eIO a)-\u003eIO a",

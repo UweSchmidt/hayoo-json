@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "digestive-functors-happstack"
+        "phrase": "digestive-functors-happstack",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule providing a happstack backend for the digestive-functors library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:17 UTC 2014",
           "module": "Text.Digestive.Happstack",
           "name": "Happstack",
           "package": "digestive-functors-happstack",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module providing happstack backend for the digestive-functors library",
           "hierarchy": "Text Digestive Happstack",
+          "indexed": "2014-03-11T17:55:17",
           "module": "Text.Digestive.Happstack",
           "name": "Happstack",
           "package": "digestive-functors-happstack",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a form with the HTTP input provided by Happstack.\n\u003c/p\u003e\u003cp\u003eAutomatically picks between \u003ccode\u003e\u003ca\u003egetForm\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003epostForm\u003c/a\u003e\u003c/code\u003e based on the request\n method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:17 UTC 2014",
           "module": "Text.Digestive.Happstack",
           "name": "runForm",
           "package": "digestive-functors-happstack",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Runs form with the HTTP input provided by Happstack Automatically picks between getForm and postForm based on the request method",
           "hierarchy": "Text Digestive Happstack",
+          "indexed": "2014-03-11T17:55:17",
           "module": "Text.Digestive.Happstack",
           "name": "runForm",
           "normalized": "Text-\u003eForm a b c-\u003eb(View a,Maybe c)",

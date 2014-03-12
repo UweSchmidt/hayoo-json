@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "statgrab"
+        "phrase": "statgrab",
+        "type": "phrase"
       },
       "type": "context"
     }

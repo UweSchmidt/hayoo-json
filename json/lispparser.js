@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lispparser"
+        "phrase": "lispparser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:39 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "Lisp",
           "package": "lispparser",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Lisp",
+          "indexed": "2014-03-11T19:10:39",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "Lisp",
           "package": "lispparser",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:39 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "LispVal",
           "package": "lispparser",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Lisp",
+          "indexed": "2014-03-11T19:10:39",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "LispVal",
           "package": "lispparser",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:39 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "Atom",
           "package": "lispparser",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Lisp",
+          "indexed": "2014-03-11T19:10:39",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "Atom",
           "package": "lispparser",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:39 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "Bool",
           "package": "lispparser",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Lisp",
+          "indexed": "2014-03-11T19:10:39",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "Bool",
           "package": "lispparser",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:39 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "DottedList",
           "package": "lispparser",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Lisp",
+          "indexed": "2014-03-11T19:10:39",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "DottedList",
           "normalized": "DottedList[LispVal]LispVal",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:39 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "List",
           "package": "lispparser",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Lisp",
+          "indexed": "2014-03-11T19:10:39",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "List",
           "normalized": "List[LispVal]",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:39 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "Number",
           "package": "lispparser",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Lisp",
+          "indexed": "2014-03-11T19:10:39",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "Number",
           "package": "lispparser",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:39 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "String",
           "package": "lispparser",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Lisp",
+          "indexed": "2014-03-11T19:10:39",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "String",
           "package": "lispparser",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:39 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "parseExpr",
           "package": "lispparser",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec Lisp",
+          "indexed": "2014-03-11T19:10:39",
           "module": "Text.ParserCombinators.Parsec.Lisp",
           "name": "parseExpr",
           "package": "lispparser",

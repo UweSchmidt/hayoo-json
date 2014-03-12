@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FTPLine"
+        "phrase": "FTPLine",
+        "type": "phrase"
       },
       "type": "context"
     }

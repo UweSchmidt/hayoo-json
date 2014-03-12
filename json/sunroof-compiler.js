@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sunroof-compiler"
+        "phrase": "sunroof-compiler",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides the central type classes used by Sunroof.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "Classes",
           "package": "sunroof-compiler",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides the central type classes used by Sunroof",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "Classes",
           "package": "sunroof-compiler",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCentral type class of Sunroof. Every type that can be translated\n   into Javascript with Sunroof has to implement this type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "Sunroof",
           "package": "sunroof-compiler",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Central type class of Sunroof Every type that can be translated into Javascript with Sunroof has to implement this type class",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "Sunroof",
           "package": "sunroof-compiler",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEverything that can be used as argument to a function is Javascript/Sunroof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "SunroofArgument",
           "package": "sunroof-compiler",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Everything that can be used as argument to function is Javascript Sunroof",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "SunroofArgument",
           "package": "sunroof-compiler",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll Haskell values that have a Sunroof representation\n   implement this class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "SunroofValue",
           "package": "sunroof-compiler",
@@ -97,6 +104,7 @@
         "index": {
           "description": "All Haskell values that have Sunroof representation implement this class",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "SunroofValue",
           "package": "sunroof-compiler",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for unique number generation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "Uniq",
           "package": "sunroof-compiler",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Used for unique number generation",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "Uniq",
           "package": "sunroof-compiler",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplemented if a monad supports unique number generation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "UniqM",
           "package": "sunroof-compiler",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Implemented if monad supports unique number generation",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "UniqM",
           "package": "sunroof-compiler",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Sunroof value from a plain Javascript expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "box",
           "package": "sunroof-compiler",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Create Sunroof value from plain Javascript expression",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "box",
           "normalized": "Expr-\u003ea",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the Haskell value to its Sunroof equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "js",
           "package": "sunroof-compiler",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Convert the Haskell value to its Sunroof equivalent",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "js",
           "normalized": "a-\u003eValueOf a",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn the argument into a list of expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "jsArgs",
           "package": "sunroof-compiler",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Turn the argument into list of expressions",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "jsArgs",
           "normalized": "a-\u003e[Expr]",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a list of fresh variables for the arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "jsValue",
           "package": "sunroof-compiler",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Create list of fresh variables for the arguments",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "jsValue",
           "package": "sunroof-compiler",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unique Javascript variable of any Sunroof type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "jsVar",
           "package": "sunroof-compiler",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Create unique Javascript variable of any Sunroof type",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "jsVar",
           "package": "sunroof-compiler",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a Javascript variable of any Sunroof type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "mkVar",
           "package": "sunroof-compiler",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Creates Javascript variable of any Sunroof type",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "mkVar",
           "normalized": "Uniq-\u003ea",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the type of Javascript expression this Sunroof value\n   represents. The default implementation returns \u003ccode\u003e\u003ca\u003eBase\u003c/a\u003e\u003c/code\u003e as type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "typeOf",
           "package": "sunroof-compiler",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Returns the type of Javascript expression this Sunroof value represents The default implementation returns Base as type",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "typeOf",
           "normalized": "Proxy a-\u003eType",
@@ -333,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the type of the argument values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "typesOf",
           "package": "sunroof-compiler",
@@ -343,6 +370,7 @@
         "index": {
           "description": "Get the type of the argument values",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "typesOf",
           "normalized": "Proxy a-\u003e[Type]",
@@ -359,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReveal the plain Javascript expression that represents this Sunroof value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "unbox",
           "package": "sunroof-compiler",
@@ -369,6 +398,7 @@
         "index": {
           "description": "Reveal the plain Javascript expression that represents this Sunroof value",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "unbox",
           "normalized": "a-\u003eExpr",
@@ -384,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a unique number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Classes",
           "name": "uniqM",
           "package": "sunroof-compiler",
@@ -394,6 +425,7 @@
         "index": {
           "description": "Generate unique number",
           "hierarchy": "Language Sunroof Classes",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Classes",
           "name": "uniqM",
           "package": "sunroof-compiler",
@@ -407,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides the Sunroof to Javascript compiler.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Compiler",
           "name": "Compiler",
           "package": "sunroof-compiler",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Provides the Sunroof to Javascript compiler",
           "hierarchy": "Language Sunroof Compiler",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Compiler",
           "name": "Compiler",
           "package": "sunroof-compiler",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions to setup the compiler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Compiler",
           "name": "CompilerOpts",
           "package": "sunroof-compiler",
@@ -439,6 +474,7 @@
         "index": {
           "description": "Options to setup the compiler",
           "hierarchy": "Language Sunroof Compiler",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Compiler",
           "name": "CompilerOpts",
           "package": "sunroof-compiler",
@@ -596,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a Javascript computation (using the given continuation closer)\n   into basic Javascript statements. Also return the next fresh\n   unique. This function should only be used if you know what your doing!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Compiler",
           "name": "compileJS",
           "package": "sunroof-compiler",
@@ -606,6 +643,7 @@
         "index": {
           "description": "Compile Javascript computation using the given continuation closer into basic Javascript statements Also return the next fresh unique This function should only be used if you know what your doing",
           "hierarchy": "Language Sunroof Compiler",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Compiler",
           "name": "compileJS",
           "normalized": "CompilerOpts-\u003eUniq-\u003e(a-\u003eJS b())-\u003eJS b a-\u003eIO([Stmt],Uniq)",
@@ -676,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides common combinators for concurrency in Javascript.\n\u003c/p\u003e\u003cp\u003eThe emulated threading Javascript threading model provided by\n   Sunroof is based on cooperative multithreading\n   (since Javascript is not multithreaded).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Concurrent",
           "name": "Concurrent",
           "package": "sunroof-compiler",
@@ -685,6 +724,7 @@
         "index": {
           "description": "Provides common combinators for concurrency in Javascript The emulated threading Javascript threading model provided by Sunroof is based on cooperative multithreading since Javascript is not multithreaded",
           "hierarchy": "Language Sunroof Concurrent",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Concurrent",
           "name": "Concurrent",
           "package": "sunroof-compiler",
@@ -805,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal helper functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Internal",
           "name": "Internal",
           "package": "sunroof-compiler",
@@ -814,6 +855,7 @@
         "index": {
           "description": "Internal helper functions",
           "hierarchy": "Language Sunroof Internal",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Internal",
           "name": "Internal",
           "package": "sunroof-compiler",
@@ -828,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines wether a Javascript literal, given as a string,\n   requires parenthesis and adds them if so.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Internal",
           "name": "litparen",
           "package": "sunroof-compiler",
@@ -838,6 +881,7 @@
         "index": {
           "description": "Determines wether Javascript literal given as string requires parenthesis and adds them if so",
           "hierarchy": "Language Sunroof Internal",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Internal",
           "name": "litparen",
           "normalized": "String-\u003eString",
@@ -853,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelps to get the proxy of a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Internal",
           "name": "proxyOf",
           "package": "sunroof-compiler",
@@ -863,6 +908,7 @@
         "index": {
           "description": "Helps to get the proxy of value",
           "hierarchy": "Language Sunroof Internal",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Internal",
           "name": "proxyOf",
           "normalized": "a-\u003eProxy a",
@@ -879,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a more specific type for arrays in Javascript\n   (together with basic operations on them).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Array",
           "name": "Array",
           "package": "sunroof-compiler",
@@ -888,6 +935,7 @@
         "index": {
           "description": "Provides more specific type for arrays in Javascript together with basic operations on them",
           "hierarchy": "Language Sunroof JS Array",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Array",
           "name": "Array",
           "package": "sunroof-compiler",
@@ -902,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType if arrays in Javascript. The type parameter\n   given the entry type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Array",
           "name": "JSArray",
           "package": "sunroof-compiler",
@@ -911,6 +960,7 @@
         "index": {
           "description": "Type if arrays in Javascript The type parameter given the entry type",
           "hierarchy": "Language Sunroof JS Array",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Array",
           "name": "JSArray",
           "package": "sunroof-compiler",
@@ -1209,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBooleans in Javascript.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Bool",
           "name": "Bool",
           "package": "sunroof-compiler",
@@ -1218,6 +1269,7 @@
         "index": {
           "description": "Booleans in Javascript",
           "hierarchy": "Language Sunroof JS Bool",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Bool",
           "name": "Bool",
           "package": "sunroof-compiler",
@@ -1232,6 +1284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBooleans in Javascript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Bool",
           "name": "JSBool",
           "package": "sunroof-compiler",
@@ -1241,6 +1294,7 @@
         "index": {
           "description": "Booleans in Javascript",
           "hierarchy": "Language Sunroof JS Bool",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Bool",
           "name": "JSBool",
           "package": "sunroof-compiler",
@@ -1255,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator for \u003ccode\u003eif-then-else\u003c/code\u003e expressions. Not intended\n   for usage. Provided as a convenience for \u003ccode\u003e\u003ca\u003eIfB\u003c/a\u003e\u003c/code\u003e\n   instances. Use \u003ccode\u003e\u003ca\u003eifB\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Bool",
           "name": "jsIfB",
           "package": "sunroof-compiler",
@@ -1265,6 +1320,7 @@
         "index": {
           "description": "Combinator for if-then-else expressions Not intended for usage Provided as convenience for IfB instances Use ifB instead",
           "hierarchy": "Language Sunroof JS Bool",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Bool",
           "name": "jsIfB",
           "normalized": "JSBool-\u003ea-\u003ea-\u003ea",
@@ -1281,6 +1337,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA reflection of the standard browser Javascript API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "Browser",
           "package": "sunroof-compiler",
@@ -1290,6 +1347,7 @@
         "index": {
           "description": "reflection of the standard browser Javascript API",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "Browser",
           "package": "sunroof-compiler",
@@ -1304,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the debugging console object.\n   See:\n   \u003ca\u003ehttps://developers.google.com/chrome-developer-tools/docs/console-api\u003c/a\u003e,\n   \u003ca\u003ehttps://developer.mozilla.org/en-US/docs/DOM/console\u003c/a\u003e,\n   \u003ca\u003ehttp://msdn.microsoft.com/en-us/library/windows/apps/hh696634.aspx\u003c/a\u003e;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "JSConsole",
           "package": "sunroof-compiler",
@@ -1313,6 +1372,7 @@
         "index": {
           "description": "The type of the debugging console object See https developers.google.com chrome-developer-tools docs console-api https developer.mozilla.org en-US docs DOM console http msdn.microsoft.com en-us library windows apps hh696634.aspx",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "JSConsole",
           "package": "sunroof-compiler",
@@ -1327,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay the given text in a message box.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://www.w3schools.com/js/js_popup.asp\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "alert",
           "package": "sunroof-compiler",
@@ -1337,6 +1398,7 @@
         "index": {
           "description": "Display the given text in message box See http www.w3schools.com js js popup.asp",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "alert",
           "normalized": "JSString-\u003eJS a()",
@@ -1352,6 +1414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClears a timer set with the \u003ccode\u003e\u003ca\u003esetInterval\u003c/a\u003e\u003c/code\u003e method.\n   This is supposed to be called on the \u003ccode\u003e\u003ca\u003ewindow\u003c/a\u003e\u003c/code\u003e object.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/met_win_clearinterval.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "clearInterval",
           "package": "sunroof-compiler",
@@ -1362,6 +1425,7 @@
         "index": {
           "description": "Clears timer set with the setInterval method This is supposed to be called on the window object See http www.w3schools.com jsref met win clearinterval.asp",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "clearInterval",
           "normalized": "JSNumber-\u003eJSObject-\u003eJS a()",
@@ -1378,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the timer associated with the given handler.\n   This is supposed to be called on the \u003ccode\u003e\u003ca\u003ewindow\u003c/a\u003e\u003c/code\u003e object.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/met_win_cleartimeout.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "clearTimeout",
           "package": "sunroof-compiler",
@@ -1388,6 +1453,7 @@
         "index": {
           "description": "Removes the timer associated with the given handler This is supposed to be called on the window object See http www.w3schools.com jsref met win cleartimeout.asp",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "clearTimeout",
           "normalized": "JSNumber-\u003eJSObject-\u003eJS a()",
@@ -1404,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses the document after writing.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "close",
           "package": "sunroof-compiler",
@@ -1414,6 +1481,7 @@
         "index": {
           "description": "Closes the document after writing For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "close",
           "normalized": "JSObject-\u003eJS a()",
@@ -1429,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk the user to confirm the given massege.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://www.w3schools.com/js/js_popup.asp\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "confirm",
           "package": "sunroof-compiler",
@@ -1439,6 +1508,7 @@
         "index": {
           "description": "Ask the user to confirm the given massege See http www.w3schools.com js js popup.asp",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "confirm",
           "normalized": "JSString-\u003eJS a JSBool",
@@ -1454,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe console object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "console",
           "package": "sunroof-compiler",
@@ -1464,6 +1535,7 @@
         "index": {
           "description": "The console object",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "console",
           "package": "sunroof-compiler",
@@ -1477,6 +1549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value of the cookie.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "cookie",
           "package": "sunroof-compiler",
@@ -1487,6 +1560,7 @@
         "index": {
           "description": "Returns the value of the cookie For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "cookie",
           "package": "sunroof-compiler",
@@ -1500,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a attribute DOM node with the given name.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "createAttribute",
           "package": "sunroof-compiler",
@@ -1509,6 +1584,7 @@
         "index": {
           "description": "Create attribute DOM node with the given name For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "createAttribute",
           "normalized": "JSString-\u003eJSObject-\u003eJS a JSObject",
@@ -1525,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a element DOM node with the given tag name.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "createElement",
           "package": "sunroof-compiler",
@@ -1534,6 +1611,7 @@
         "index": {
           "description": "Create element DOM node with the given tag name For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "createElement",
           "normalized": "JSString-\u003eJSObject-\u003eJS a JSObject",
@@ -1550,6 +1628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a text DOM node with the given string as text.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "createTextNode",
           "package": "sunroof-compiler",
@@ -1559,6 +1638,7 @@
         "index": {
           "description": "Create text DOM node with the given string as text For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "createTextNode",
           "normalized": "JSString-\u003eJSObject-\u003eJS a JSObject",
@@ -1575,6 +1655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a debug level message to the console.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "debug",
           "package": "sunroof-compiler",
@@ -1585,6 +1666,7 @@
         "index": {
           "description": "Send debug level message to the console",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "debug",
           "normalized": "a-\u003eJSConsole-\u003eJS b()",
@@ -1600,6 +1682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the URI encoded in the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "decodeURI",
           "package": "sunroof-compiler",
@@ -1610,6 +1693,7 @@
         "index": {
           "description": "Decode the URI encoded in the given string",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "decodeURI",
           "normalized": "JSString-\u003eJS a JSString",
@@ -1626,6 +1710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the URI encoded string. For use with \u003ccode\u003e\u003ca\u003eencodeURIComponent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "decodeURIComponent",
           "package": "sunroof-compiler",
@@ -1636,6 +1721,7 @@
         "index": {
           "description": "Decode the URI encoded string For use with encodeURIComponent",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "decodeURIComponent",
           "normalized": "JSString-\u003eJS a JSString",
@@ -1652,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe document object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "document",
           "package": "sunroof-compiler",
@@ -1662,6 +1749,7 @@
         "index": {
           "description": "The document object",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "document",
           "package": "sunroof-compiler",
@@ -1675,6 +1763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the given string in URI encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "encodeURI",
           "package": "sunroof-compiler",
@@ -1685,6 +1774,7 @@
         "index": {
           "description": "Encode the given string in URI encoding",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "encodeURI",
           "normalized": "JSString-\u003eJS a JSString",
@@ -1701,6 +1791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the string with URI encoding. This encodes a few more\n   characters to make the string safe for direct server communication (AJAX).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "encodeURIComponent",
           "package": "sunroof-compiler",
@@ -1711,6 +1802,7 @@
         "index": {
           "description": "Encode the string with URI encoding This encodes few more characters to make the string safe for direct server communication AJAX",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "encodeURIComponent",
           "normalized": "JSString-\u003eJS a JSString",
@@ -1727,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend an error message to the console.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "error",
           "package": "sunroof-compiler",
@@ -1737,6 +1830,7 @@
         "index": {
           "description": "Send an error message to the console",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "error",
           "normalized": "a-\u003eJSConsole-\u003eJS b()",
@@ -1752,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the given JavaScript string if possible. Returns\n   the result of evaluation.\n TODO: think about this a bit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "eval",
           "package": "sunroof-compiler",
@@ -1762,6 +1857,7 @@
         "index": {
           "description": "Evaluate the given JavaScript string if possible Returns the result of evaluation TODO think about this bit",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "eval",
           "normalized": "JSString-\u003eJS a b",
@@ -1777,6 +1873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the DOM object of the element with the given id.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "getElementById",
           "package": "sunroof-compiler",
@@ -1786,6 +1883,7 @@
         "index": {
           "description": "Get the DOM object of the element with the given id For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "getElementById",
           "normalized": "JSString-\u003eJSObject-\u003eJS a JSObject",
@@ -1802,6 +1900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the DOM objects of the elements with the given name.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "getElementsByName",
           "package": "sunroof-compiler",
@@ -1811,6 +1910,7 @@
         "index": {
           "description": "Get the DOM objects of the elements with the given name For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "getElementsByName",
           "normalized": "JSString-\u003eJSObject-\u003eJS a JSObject",
@@ -1827,6 +1927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the DOM objects of the elements with the given tag.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "getElementsByTagName",
           "package": "sunroof-compiler",
@@ -1836,6 +1937,7 @@
         "index": {
           "description": "Get the DOM objects of the elements with the given tag For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "getElementsByTagName",
           "normalized": "JSString-\u003eJSObject-\u003eJS a JSObject",
@@ -1852,6 +1954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a info message to the console.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "info",
           "package": "sunroof-compiler",
@@ -1862,6 +1965,7 @@
         "index": {
           "description": "Send info message to the console",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "info",
           "normalized": "a-\u003eJSConsole-\u003eJS b()",
@@ -1877,6 +1981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a given number is within the valid JavaScript number range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "isFinite",
           "package": "sunroof-compiler",
@@ -1887,6 +1992,7 @@
         "index": {
           "description": "Check if given number is within the valid JavaScript number range",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "isFinite",
           "normalized": "JSNumber-\u003eJS a JSBool",
@@ -1903,6 +2009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a given number is NaN or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "isNaN",
           "package": "sunroof-compiler",
@@ -1913,6 +2020,7 @@
         "index": {
           "description": "Check if given number is NaN or not",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "isNaN",
           "normalized": "JSNumber-\u003eJS a JSBool",
@@ -1929,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog the given message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "log",
           "package": "sunroof-compiler",
@@ -1939,6 +2048,7 @@
         "index": {
           "description": "Log the given message",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "log",
           "normalized": "a-\u003eJSConsole-\u003eJS b()",
@@ -1954,6 +2064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens the document for writing.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "open",
           "package": "sunroof-compiler",
@@ -1964,6 +2075,7 @@
         "index": {
           "description": "Opens the document for writing For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "open",
           "normalized": "JSObject-\u003eJS a()",
@@ -1979,6 +2091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the given string to a number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "parseFloat",
           "package": "sunroof-compiler",
@@ -1989,6 +2102,7 @@
         "index": {
           "description": "Parse the given string to number",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "parseFloat",
           "normalized": "JSString-\u003eJS a JSNumber",
@@ -2005,6 +2119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the given string to a number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "parseInt",
           "package": "sunroof-compiler",
@@ -2015,6 +2130,7 @@
         "index": {
           "description": "Parse the given string to number",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "parseInt",
           "normalized": "JSString-\u003eJS a JSNumber",
@@ -2031,6 +2147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk the user to give some input. May return \u003ccode\u003enull\u003c/code\u003e\n   or a string. Don't forget to check against \u003ccode\u003enullJS\u003c/code\u003e\n   before casting to string.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://www.w3schools.com/js/js_popup.asp\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "prompt",
           "package": "sunroof-compiler",
@@ -2041,6 +2158,7 @@
         "index": {
           "description": "Ask the user to give some input May return null or string Don forget to check against nullJS before casting to string See http www.w3schools.com js js popup.asp",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "prompt",
           "normalized": "JSString-\u003eJSString-\u003eJS a JSObject",
@@ -2056,6 +2174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the referrer of the document.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "referrer",
           "package": "sunroof-compiler",
@@ -2066,6 +2185,7 @@
         "index": {
           "description": "Returns the referrer of the document For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "referrer",
           "package": "sunroof-compiler",
@@ -2079,6 +2199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe screen object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "screen",
           "package": "sunroof-compiler",
@@ -2089,6 +2210,7 @@
         "index": {
           "description": "The screen object",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "screen",
           "package": "sunroof-compiler",
@@ -2102,6 +2224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the value of the cookie.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "setCookie",
           "package": "sunroof-compiler",
@@ -2112,6 +2235,7 @@
         "index": {
           "description": "Sets the value of the cookie For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "setCookie",
           "normalized": "JSString-\u003eJSObject-\u003eJS a()",
@@ -2128,6 +2252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls a function at specified intervals in milliseconds.\n   It will continue calling the function until \u003ccode\u003e\u003ca\u003eclearInterval\u003c/a\u003e\u003c/code\u003e is called,\n   or the window is closed. The returned number is needed for \u003ccode\u003e\u003ca\u003eclearInterval\u003c/a\u003e\u003c/code\u003e.\n   This is supposed to be called on the \u003ccode\u003e\u003ca\u003ewindow\u003c/a\u003e\u003c/code\u003e object.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/met_win_setinterval.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "setInterval",
           "package": "sunroof-compiler",
@@ -2138,6 +2263,7 @@
         "index": {
           "description": "Calls function at specified intervals in milliseconds It will continue calling the function until clearInterval is called or the window is closed The returned number is needed for clearInterval This is supposed to be called on the window object See http www.w3schools.com jsref met win setinterval.asp",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "setInterval",
           "normalized": "(()-\u003eJSB())-\u003eJSNumber-\u003eJSObject-\u003eJS a JSNumber",
@@ -2154,6 +2280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the given continutation after the given amount of\n   milliseconds. Returns a handler for the set timer.\n   This is supposed to be called on the \u003ccode\u003e\u003ca\u003ewindow\u003c/a\u003e\u003c/code\u003e object.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/met_win_settimeout.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "setTimeout",
           "package": "sunroof-compiler",
@@ -2164,6 +2291,7 @@
         "index": {
           "description": "Execute the given continutation after the given amount of milliseconds Returns handler for the set timer This is supposed to be called on the window object See http www.w3schools.com jsref met win settimeout.asp",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "setTimeout",
           "normalized": "(()-\u003eJSB())-\u003eJSNumber-\u003eJSObject-\u003eJS a JSNumber",
@@ -2180,6 +2308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the title of the document.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "setTitle",
           "package": "sunroof-compiler",
@@ -2190,6 +2319,7 @@
         "index": {
           "description": "Sets the title of the document For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "setTitle",
           "normalized": "JSString-\u003eJSObject-\u003eJS a()",
@@ -2206,6 +2336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the src of a DOM image object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "src",
           "package": "sunroof-compiler",
@@ -2216,6 +2347,7 @@
         "index": {
           "description": "Returns the src of DOM image object",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "src",
           "package": "sunroof-compiler",
@@ -2229,6 +2361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the title of the document.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "title",
           "package": "sunroof-compiler",
@@ -2239,6 +2372,7 @@
         "index": {
           "description": "Returns the title of the document For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "title",
           "package": "sunroof-compiler",
@@ -2252,6 +2386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the complete URL of the document.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "url",
           "package": "sunroof-compiler",
@@ -2262,6 +2397,7 @@
         "index": {
           "description": "Returns the complete URL of the document For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "url",
           "package": "sunroof-compiler",
@@ -2275,6 +2411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a warning message to the console.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "warn",
           "package": "sunroof-compiler",
@@ -2285,6 +2422,7 @@
         "index": {
           "description": "Send warning message to the console",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "warn",
           "normalized": "a-\u003eJSConsole-\u003eJS b()",
@@ -2300,6 +2438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe window object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "window",
           "package": "sunroof-compiler",
@@ -2310,6 +2449,7 @@
         "index": {
           "description": "The window object",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "window",
           "package": "sunroof-compiler",
@@ -2323,6 +2463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites something into the document.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "write",
           "package": "sunroof-compiler",
@@ -2333,6 +2474,7 @@
         "index": {
           "description": "Writes something into the document For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "write",
           "normalized": "JSString-\u003eJSObject-\u003eJS a()",
@@ -2348,6 +2490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite something into the document and appends a new line.\n   For use with \u003ccode\u003e\u003ca\u003edocument\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Browser",
           "name": "writeln",
           "package": "sunroof-compiler",
@@ -2358,6 +2501,7 @@
         "index": {
           "description": "Write something into the document and appends new line For use with document",
           "hierarchy": "Language Sunroof JS Browser",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Browser",
           "name": "writeln",
           "normalized": "JSString-\u003eJSObject-\u003eJS a()",
@@ -2373,6 +2517,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides bindings to the Javascript API of the \n   HTML5 canvas element.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://www.w3schools.com/tags/ref_canvas.asp\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "Canvas",
           "package": "sunroof-compiler",
@@ -2382,6 +2527,7 @@
         "index": {
           "description": "Provides bindings to the Javascript API of the HTML5 canvas element See http www.w3schools.com tags ref canvas.asp",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "Canvas",
           "package": "sunroof-compiler",
@@ -2396,6 +2542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the canvas drawing context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "JSCanvas",
           "package": "sunroof-compiler",
@@ -2405,6 +2552,7 @@
         "index": {
           "description": "The type of the canvas drawing context",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "JSCanvas",
           "package": "sunroof-compiler",
@@ -2419,6 +2567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a circular arc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "arc",
           "package": "sunroof-compiler",
@@ -2428,6 +2577,7 @@
         "index": {
           "description": "Draws circular arc",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "arc",
           "normalized": "(JSNumber,JSNumber)-\u003eJSNumber-\u003e(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -2443,6 +2593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a circular arc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "arc'",
           "package": "sunroof-compiler",
@@ -2452,6 +2603,7 @@
         "index": {
           "description": "Draws circular arc",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "arc'",
           "normalized": "(JSNumber,JSNumber)-\u003eJSNumber-\u003e(JSNumber,JSNumber)-\u003eJSBool-\u003eJSCanvas-\u003eJS a()",
@@ -2467,6 +2619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an arc between two tangents on the canvas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "arcTo",
           "package": "sunroof-compiler",
@@ -2476,6 +2629,7 @@
         "index": {
           "description": "Creates an arc between two tangents on the canvas",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "arcTo",
           "normalized": "(JSNumber,JSNumber)-\u003e(JSNumber,JSNumber)-\u003eJSNumber-\u003eJSCanvas-\u003eJS a()",
@@ -2492,6 +2646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins drawing a path or resets the current path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "beginPath",
           "package": "sunroof-compiler",
@@ -2502,6 +2657,7 @@
         "index": {
           "description": "Begins drawing path or resets the current path",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "beginPath",
           "normalized": "JSCanvas-\u003eJS a()",
@@ -2518,6 +2674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a bezier curve beginning at the current position of the context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "bezierCurveTo",
           "package": "sunroof-compiler",
@@ -2527,6 +2684,7 @@
         "index": {
           "description": "Draws bezier curve beginning at the current position of the context",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "bezierCurveTo",
           "normalized": "(JSNumber,JSNumber)-\u003e(JSNumber,JSNumber)-\u003e(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -2543,6 +2701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClears the rectangle given by its location and size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "clearRect",
           "package": "sunroof-compiler",
@@ -2552,6 +2711,7 @@
         "index": {
           "description": "Clears the rectangle given by its location and size",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "clearRect",
           "normalized": "(JSNumber,JSNumber)-\u003e(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -2568,6 +2728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClips a region of any shape and size from the context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "clip",
           "package": "sunroof-compiler",
@@ -2578,6 +2739,7 @@
         "index": {
           "description": "Clips region of any shape and size from the context",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "clip",
           "normalized": "JSCanvas-\u003eJS a()",
@@ -2593,6 +2755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses the current path by drawing a straight line back to its beginning.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "closePath",
           "package": "sunroof-compiler",
@@ -2603,6 +2766,7 @@
         "index": {
           "description": "Closes the current path by drawing straight line back to its beginning",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "closePath",
           "normalized": "JSCanvas-\u003eJS a()",
@@ -2619,6 +2783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new image data object with the given size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "createImageData",
           "package": "sunroof-compiler",
@@ -2628,6 +2793,7 @@
         "index": {
           "description": "Create new image data object with the given size",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "createImageData",
           "normalized": "(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a JSObject",
@@ -2644,6 +2810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new image data object with the same dimension as the given\n   image data object. This does not copy the contents of the other object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "createImageData'",
           "package": "sunroof-compiler",
@@ -2653,6 +2820,7 @@
         "index": {
           "description": "Creates new image data object with the same dimension as the given image data object This does not copy the contents of the other object",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "createImageData'",
           "normalized": "JSObject-\u003eJSCanvas-\u003eJS a JSObject",
@@ -2669,6 +2837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the data attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "data'",
           "package": "sunroof-compiler",
@@ -2679,6 +2848,7 @@
         "index": {
           "description": "Selects the data attribute",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "data'",
           "package": "sunroof-compiler",
@@ -2692,6 +2862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws an image, video or canvas to the canvas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "drawImage",
           "package": "sunroof-compiler",
@@ -2701,6 +2872,7 @@
         "index": {
           "description": "Draws an image video or canvas to the canvas",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "drawImage",
           "normalized": "JSObject-\u003e(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -2717,6 +2889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws an image, video or canvas to the canvas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "drawImage'",
           "package": "sunroof-compiler",
@@ -2726,6 +2899,7 @@
         "index": {
           "description": "Draws an image video or canvas to the canvas",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "drawImage'",
           "normalized": "JSObject-\u003e(JSNumber,JSNumber)-\u003e(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -2742,6 +2916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws an image, video or canvas to the canvas. Clips the drawn object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "drawImageClip",
           "package": "sunroof-compiler",
@@ -2751,6 +2926,7 @@
         "index": {
           "description": "Draws an image video or canvas to the canvas Clips the drawn object",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "drawImageClip",
           "normalized": "JSObject-\u003e(JSNumber,JSNumber)-\u003e(JSNumber,JSNumber)-\u003e(JSNumber,JSNumber)-\u003e(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -2767,6 +2943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFills the current path with the current fill style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "fill",
           "package": "sunroof-compiler",
@@ -2777,6 +2954,7 @@
         "index": {
           "description": "Fills the current path with the current fill style",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "fill",
           "normalized": "JSCanvas-\u003eJS a()",
@@ -2792,6 +2970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a filled rectangle given by its top left corner and size with the\n   current fill style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "fillRect",
           "package": "sunroof-compiler",
@@ -2801,6 +2980,7 @@
         "index": {
           "description": "Draws filled rectangle given by its top left corner and size with the current fill style",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "fillRect",
           "normalized": "(JSNumber,JSNumber)-\u003e(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -2817,6 +2997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFills a text with the current fill style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "fillText",
           "package": "sunroof-compiler",
@@ -2826,6 +3007,7 @@
         "index": {
           "description": "Fills text with the current fill style",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "fillText",
           "normalized": "JSString-\u003e(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -2842,6 +3024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFills a text with the current fill style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "fillText'",
           "package": "sunroof-compiler",
@@ -2851,6 +3034,7 @@
         "index": {
           "description": "Fills text with the current fill style",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "fillText'",
           "normalized": "JSString-\u003e(JSNumber,JSNumber)-\u003eJSNumber-\u003eJSCanvas-\u003eJS a()",
@@ -2867,6 +3051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the font used by the context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "font",
           "package": "sunroof-compiler",
@@ -2877,6 +3062,7 @@
         "index": {
           "description": "Selects the font used by the context",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "font",
           "package": "sunroof-compiler",
@@ -2890,6 +3076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the canvas drawing context for the canvas element it\n   is called on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "getContext",
           "package": "sunroof-compiler",
@@ -2900,6 +3087,7 @@
         "index": {
           "description": "Returns the canvas drawing context for the canvas element it is called on",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "getContext",
           "normalized": "JSString-\u003eJSObject-\u003eJS a JSCanvas",
@@ -2916,6 +3104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the image data of the specified rectanlge of the canvas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "getImageData",
           "package": "sunroof-compiler",
@@ -2925,6 +3114,7 @@
         "index": {
           "description": "Get the image data of the specified rectanlge of the canvas",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "getImageData",
           "normalized": "(JSNumber,JSNumber)-\u003e(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a JSObject",
@@ -2941,6 +3131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the global alpha attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "globalAlpha",
           "package": "sunroof-compiler",
@@ -2951,6 +3142,7 @@
         "index": {
           "description": "Selects the global alpha attribute",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "globalAlpha",
           "package": "sunroof-compiler",
@@ -2965,6 +3157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the height attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "height",
           "package": "sunroof-compiler",
@@ -2975,6 +3168,7 @@
         "index": {
           "description": "Selects the height attribute",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "height",
           "package": "sunroof-compiler",
@@ -2988,6 +3182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the given point is in the path and false otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "isPointInPath",
           "package": "sunroof-compiler",
@@ -2997,6 +3192,7 @@
         "index": {
           "description": "Returns true if the given point is in the path and false otherwise",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "isPointInPath",
           "normalized": "(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a JSBool",
@@ -3013,6 +3209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the line cap style to use.\n   Possible values are: \u003ca\u003ebutt\u003c/a\u003e, \u003ca\u003eround\u003c/a\u003e, \u003ca\u003esquare\u003c/a\u003e;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "lineCap",
           "package": "sunroof-compiler",
@@ -3023,6 +3220,7 @@
         "index": {
           "description": "Sets the line cap style to use Possible values are butt round square",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "lineCap",
           "package": "sunroof-compiler",
@@ -3037,6 +3235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the line join style to use.\n   Possible values are: \u003ca\u003ebevel\u003c/a\u003e, \u003ca\u003eround\u003c/a\u003e, \u003ca\u003emeter\u003c/a\u003e;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "lineJoin",
           "package": "sunroof-compiler",
@@ -3047,6 +3246,7 @@
         "index": {
           "description": "Selects the line join style to use Possible values are bevel round meter",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "lineJoin",
           "package": "sunroof-compiler",
@@ -3061,6 +3261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a straight line path from the current point to the given point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "lineTo",
           "package": "sunroof-compiler",
@@ -3070,6 +3271,7 @@
         "index": {
           "description": "Create straight line path from the current point to the given point",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "lineTo",
           "normalized": "(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -3086,6 +3288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the line width used when stroking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "lineWidth",
           "package": "sunroof-compiler",
@@ -3096,6 +3299,7 @@
         "index": {
           "description": "Selects the line width used when stroking",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "lineWidth",
           "package": "sunroof-compiler",
@@ -3110,6 +3314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an object that contains the width of the specified text is pixels.\n   See \u003ccode\u003e\u003ca\u003ewidth\u003c/a\u003e\u003c/code\u003e selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "measureText",
           "package": "sunroof-compiler",
@@ -3119,6 +3324,7 @@
         "index": {
           "description": "Returns an object that contains the width of the specified text is pixels See width selector",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "measureText",
           "normalized": "JSString-\u003eJSCanvas-\u003eJS a JSObject",
@@ -3135,6 +3341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the miter limit used when drawing a miter line join.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "miterLimit",
           "package": "sunroof-compiler",
@@ -3145,6 +3352,7 @@
         "index": {
           "description": "Returns the miter limit used when drawing miter line join",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "miterLimit",
           "package": "sunroof-compiler",
@@ -3159,6 +3367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the path to the given location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "moveTo",
           "package": "sunroof-compiler",
@@ -3168,6 +3377,7 @@
         "index": {
           "description": "Move the path to the given location",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "moveTo",
           "normalized": "(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -3184,6 +3394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses the given image data to replace the rectangle of the\n   canvas at the given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "putImageData",
           "package": "sunroof-compiler",
@@ -3193,6 +3404,7 @@
         "index": {
           "description": "Uses the given image data to replace the rectangle of the canvas at the given position",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "putImageData",
           "normalized": "JSObject-\u003e(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -3209,6 +3421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a quadratic curve to extend the current path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "quadraticCurveTo",
           "package": "sunroof-compiler",
@@ -3218,6 +3431,7 @@
         "index": {
           "description": "Create quadratic curve to extend the current path",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "quadraticCurveTo",
           "normalized": "(JSNumber,JSNumber)-\u003e(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -3234,6 +3448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a rectangle in the current context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "rect",
           "package": "sunroof-compiler",
@@ -3243,6 +3458,7 @@
         "index": {
           "description": "Creates rectangle in the current context",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "rect",
           "normalized": "(JSNumber,JSNumber)-\u003e(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -3258,6 +3474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestores the last saved paths and state of the context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "restore",
           "package": "sunroof-compiler",
@@ -3268,6 +3485,7 @@
         "index": {
           "description": "Restores the last saved paths and state of the context",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "restore",
           "normalized": "JSCanvas-\u003eJS a()",
@@ -3283,6 +3501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotates the current drawing. The rotation will only affect drawings\n   made after the rotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "rotate",
           "package": "sunroof-compiler",
@@ -3292,6 +3511,7 @@
         "index": {
           "description": "Rotates the current drawing The rotation will only affect drawings made after the rotation",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "rotate",
           "normalized": "JSNumber-\u003eJSCanvas-\u003eJS a()",
@@ -3307,6 +3527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaves the state of the current context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "save",
           "package": "sunroof-compiler",
@@ -3317,6 +3538,7 @@
         "index": {
           "description": "Saves the state of the current context",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "save",
           "normalized": "JSCanvas-\u003eJS a()",
@@ -3332,6 +3554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScales the current drawing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "scale",
           "package": "sunroof-compiler",
@@ -3341,6 +3564,7 @@
         "index": {
           "description": "Scales the current drawing",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "scale",
           "normalized": "(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -3356,6 +3580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the fill style of the context. A color value of the form \u003ca/\u003e\n   is expected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setFillStyle",
           "package": "sunroof-compiler",
@@ -3366,6 +3591,7 @@
         "index": {
           "description": "Sets the fill style of the context color value of the form is expected",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setFillStyle",
           "normalized": "JSString-\u003eJSCanvas-\u003eJS a()",
@@ -3382,6 +3608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the font used by the context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setFont",
           "package": "sunroof-compiler",
@@ -3392,6 +3619,7 @@
         "index": {
           "description": "Sets the font used by the context",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setFont",
           "normalized": "JSString-\u003eJSCanvas-\u003eJS a()",
@@ -3408,6 +3636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the global alpha value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setGlobalAlpha",
           "package": "sunroof-compiler",
@@ -3418,6 +3647,7 @@
         "index": {
           "description": "Sets the global alpha value",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setGlobalAlpha",
           "normalized": "JSNumber-\u003eJSCanvas-\u003eJS a()",
@@ -3434,6 +3664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the line cap style to use.\n   Possible values are: \u003ca\u003ebutt\u003c/a\u003e, \u003ca\u003eround\u003c/a\u003e, \u003ca\u003esquare\u003c/a\u003e;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setLineCap",
           "package": "sunroof-compiler",
@@ -3444,6 +3675,7 @@
         "index": {
           "description": "Sets the line cap style to use Possible values are butt round square",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setLineCap",
           "normalized": "JSString-\u003eJSCanvas-\u003eJS a()",
@@ -3460,6 +3692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the line join style to use.\n   Possible values are: \u003ca\u003ebevel\u003c/a\u003e, \u003ca\u003eround\u003c/a\u003e, \u003ca\u003emeter\u003c/a\u003e;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setLineJoin",
           "package": "sunroof-compiler",
@@ -3470,6 +3703,7 @@
         "index": {
           "description": "Sets the line join style to use Possible values are bevel round meter",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setLineJoin",
           "normalized": "JSString-\u003eJSCanvas-\u003eJS a()",
@@ -3486,6 +3720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the line width used when stroking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setLineWidth",
           "package": "sunroof-compiler",
@@ -3495,6 +3730,7 @@
         "index": {
           "description": "Sets the line width used when stroking",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setLineWidth",
           "normalized": "JSNumber-\u003eJSCanvas-\u003eJS a()",
@@ -3511,6 +3747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the miter limit used when drawing a miter line join.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setMiterLimit",
           "package": "sunroof-compiler",
@@ -3520,6 +3757,7 @@
         "index": {
           "description": "Sets the miter limit used when drawing miter line join",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setMiterLimit",
           "normalized": "JSNumber-\u003eJSCanvas-\u003eJS a()",
@@ -3536,6 +3774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the blur level for shadows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setShadowBlur",
           "package": "sunroof-compiler",
@@ -3545,6 +3784,7 @@
         "index": {
           "description": "Sets the blur level for shadows",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setShadowBlur",
           "normalized": "JSNumber-\u003eJSCanvas-\u003eJS a()",
@@ -3561,6 +3801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the shadow color property.\n   The given string has to be a valid CSS color value or a\n   color of the form '#XXXXXX'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setShadowColor",
           "package": "sunroof-compiler",
@@ -3570,6 +3811,7 @@
         "index": {
           "description": "Sets the shadow color property The given string has to be valid CSS color value or color of the form XXXXXX",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setShadowColor",
           "normalized": "JSString-\u003eJSCanvas-\u003eJS a()",
@@ -3586,6 +3828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the x offset of a shadow from a shape.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setShadowOffsetX",
           "package": "sunroof-compiler",
@@ -3595,6 +3838,7 @@
         "index": {
           "description": "Sets the offset of shadow from shape",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setShadowOffsetX",
           "normalized": "JSNumber-\u003eJSCanvas-\u003eJS a()",
@@ -3611,6 +3855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the y offset of a shadow from a shape.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setShadowOffsetY",
           "package": "sunroof-compiler",
@@ -3620,6 +3865,7 @@
         "index": {
           "description": "Sets the offset of shadow from shape",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setShadowOffsetY",
           "normalized": "JSNumber-\u003eJSCanvas-\u003eJS a()",
@@ -3636,6 +3882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the stroke style of the context. A color value of the form \u003ca/\u003e\n   is expected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setStrokeStyle",
           "package": "sunroof-compiler",
@@ -3646,6 +3893,7 @@
         "index": {
           "description": "Sets the stroke style of the context color value of the form is expected",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setStrokeStyle",
           "normalized": "JSString-\u003eJSCanvas-\u003eJS a()",
@@ -3662,6 +3910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the text alignment to be used when drawing text.\n   Possible values are: \u003ca\u003ecenter\u003c/a\u003e, \u003ca\u003eend\u003c/a\u003e, \u003ca\u003eleft\u003c/a\u003e, \u003ca\u003eright\u003c/a\u003e, \u003ca\u003estart\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setTextAlign",
           "package": "sunroof-compiler",
@@ -3672,6 +3921,7 @@
         "index": {
           "description": "Sets the text alignment to be used when drawing text Possible values are center end left right start",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setTextAlign",
           "normalized": "JSString-\u003eJSCanvas-\u003eJS a()",
@@ -3688,6 +3938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the baseline to use when drawing text.\n   Possible values are: \u003ca\u003ealphabetic\u003c/a\u003e, \u003ca\u003etop\u003c/a\u003e, \u003ca\u003ehanging\u003c/a\u003e, \u003ca\u003emiddle\u003c/a\u003e, \u003ca\u003eideographic\u003c/a\u003e, \u003ca\u003ebottom\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setTextBaseline",
           "package": "sunroof-compiler",
@@ -3698,6 +3949,7 @@
         "index": {
           "description": "Sets the baseline to use when drawing text Possible values are alphabetic top hanging middle ideographic bottom",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setTextBaseline",
           "normalized": "JSString-\u003eJSCanvas-\u003eJS a()",
@@ -3714,6 +3966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResets the transformation matrix to identity and then applies\n   \u003ccode\u003e\u003ca\u003etransform\u003c/a\u003e\u003c/code\u003e with the given paramters to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setTransform",
           "package": "sunroof-compiler",
@@ -3723,6 +3976,7 @@
         "index": {
           "description": "Resets the transformation matrix to identity and then applies transform with the given paramters to it",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "setTransform",
           "normalized": "JSNumber-\u003eJSNumber-\u003eJSNumber-\u003eJSNumber-\u003eJSNumber-\u003eJSNumber-\u003eJSCanvas-\u003eJS a()",
@@ -3739,6 +3993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the blur level for shadows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "shadowBlur",
           "package": "sunroof-compiler",
@@ -3749,6 +4004,7 @@
         "index": {
           "description": "Selects the blur level for shadows",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "shadowBlur",
           "package": "sunroof-compiler",
@@ -3763,6 +4019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the shadow color attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "shadowColor",
           "package": "sunroof-compiler",
@@ -3773,6 +4030,7 @@
         "index": {
           "description": "Selects the shadow color attribute",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "shadowColor",
           "package": "sunroof-compiler",
@@ -3787,6 +4045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the x offset of a shadow from a shape.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "shadowOffsetX",
           "package": "sunroof-compiler",
@@ -3797,6 +4056,7 @@
         "index": {
           "description": "Selects the offset of shadow from shape",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "shadowOffsetX",
           "package": "sunroof-compiler",
@@ -3811,6 +4071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the y offset of a shadow from a shape.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "shadowOffsetY",
           "package": "sunroof-compiler",
@@ -3821,6 +4082,7 @@
         "index": {
           "description": "Selects the offset of shadow from shape",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "shadowOffsetY",
           "package": "sunroof-compiler",
@@ -3835,6 +4097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws the current path using the current stroke style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "stroke",
           "package": "sunroof-compiler",
@@ -3845,6 +4108,7 @@
         "index": {
           "description": "Draws the current path using the current stroke style",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "stroke",
           "normalized": "JSCanvas-\u003eJS a()",
@@ -3860,6 +4124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrokes a rectanlge using the current stroke style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "strokeRect",
           "package": "sunroof-compiler",
@@ -3869,6 +4134,7 @@
         "index": {
           "description": "Strokes rectanlge using the current stroke style",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "strokeRect",
           "normalized": "(JSNumber,JSNumber)-\u003e(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -3885,6 +4151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the stroke style of the context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "strokeStyle",
           "package": "sunroof-compiler",
@@ -3895,6 +4162,7 @@
         "index": {
           "description": "Selects the stroke style of the context",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "strokeStyle",
           "package": "sunroof-compiler",
@@ -3909,6 +4177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrokes a text using the current stroke style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "strokeText",
           "package": "sunroof-compiler",
@@ -3918,6 +4187,7 @@
         "index": {
           "description": "Strokes text using the current stroke style",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "strokeText",
           "normalized": "JSString-\u003e(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -3934,6 +4204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the text alignment to be used when drawing text.\n   Possible values are: \u003ca\u003ecenter\u003c/a\u003e, \u003ca\u003eend\u003c/a\u003e, \u003ca\u003eleft\u003c/a\u003e, \u003ca\u003eright\u003c/a\u003e, \u003ca\u003estart\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "textAlign",
           "package": "sunroof-compiler",
@@ -3944,6 +4215,7 @@
         "index": {
           "description": "Selects the text alignment to be used when drawing text Possible values are center end left right start",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "textAlign",
           "package": "sunroof-compiler",
@@ -3958,6 +4230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the baseline to use when drawing text.\n   Possible values are: \u003ca\u003ealphabetic\u003c/a\u003e, \u003ca\u003etop\u003c/a\u003e, \u003ca\u003ehanging\u003c/a\u003e, \u003ca\u003emiddle\u003c/a\u003e, \u003ca\u003eideographic\u003c/a\u003e, \u003ca\u003ebottom\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "textBaseline",
           "package": "sunroof-compiler",
@@ -3968,6 +4241,7 @@
         "index": {
           "description": "Selects the baseline to use when drawing text Possible values are alphabetic top hanging middle ideographic bottom",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "textBaseline",
           "package": "sunroof-compiler",
@@ -3982,6 +4256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlters the current transformation matrix. The current one is\n   multiplied with one of the form:\n \u003ccode\u003e\n   a b c\n   d e f\n   0 0 1\n \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "transform",
           "package": "sunroof-compiler",
@@ -3991,6 +4266,7 @@
         "index": {
           "description": "Alters the current transformation matrix The current one is multiplied with one of the form",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "transform",
           "normalized": "JSNumber-\u003eJSNumber-\u003eJSNumber-\u003eJSNumber-\u003eJSNumber-\u003eJSNumber-\u003eJSCanvas-\u003eJS a()",
@@ -4006,6 +4282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate the current drawing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "translate",
           "package": "sunroof-compiler",
@@ -4015,6 +4292,7 @@
         "index": {
           "description": "Translate the current drawing",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "translate",
           "normalized": "(JSNumber,JSNumber)-\u003eJSCanvas-\u003eJS a()",
@@ -4030,6 +4308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the width attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "width",
           "package": "sunroof-compiler",
@@ -4040,6 +4319,7 @@
         "index": {
           "description": "Selects the width attribute",
           "hierarchy": "Language Sunroof JS Canvas",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Canvas",
           "name": "width",
           "package": "sunroof-compiler",
@@ -4053,6 +4333,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eJSChan\u003c/a\u003e\u003c/code\u003e provides the same functionality and\n   concurrency abstraction in Javascript computations\n   as \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e in Haskell.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Chan",
           "name": "Chan",
           "package": "sunroof-compiler",
@@ -4062,6 +4343,7 @@
         "index": {
           "description": "JSChan provides the same functionality and concurrency abstraction in Javascript computations as Chan in Haskell",
           "hierarchy": "Language Sunroof JS Chan",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Chan",
           "name": "Chan",
           "package": "sunroof-compiler",
@@ -4076,6 +4358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eJSChan\u003c/a\u003e\u003c/code\u003e abstraction. The type parameter gives\n   the type of values held in the channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Chan",
           "name": "JSChan",
           "package": "sunroof-compiler",
@@ -4085,6 +4368,7 @@
         "index": {
           "description": "JSChan abstraction The type parameter gives the type of values held in the channel",
           "hierarchy": "Language Sunroof JS Chan",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Chan",
           "name": "JSChan",
           "package": "sunroof-compiler",
@@ -4178,6 +4462,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eDate\u003c/code\u003e module provides the API for the Javascript \u003ccode\u003eDate\u003c/code\u003e\n   object. The API documentation is mainly taken from \n   w3schools (\u003ca\u003ehttp://www.w3schools.com/jsref/jsref_obj_date.asp\u003c/a\u003e).\n   Deprecated methods are not supported.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "Date",
           "package": "sunroof-compiler",
@@ -4187,6 +4472,7 @@
         "index": {
           "description": "The Date module provides the API for the Javascript Date object The API documentation is mainly taken from w3schools http www.w3schools.com jsref jsref obj date.asp Deprecated methods are not supported",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "Date",
           "package": "sunroof-compiler",
@@ -4201,6 +4487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a date object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "JSDate",
           "package": "sunroof-compiler",
@@ -4210,6 +4497,7 @@
         "index": {
           "description": "The type of date object",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "JSDate",
           "package": "sunroof-compiler",
@@ -4224,6 +4512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the day of the month (from 1-31).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getdate.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getDate",
           "package": "sunroof-compiler",
@@ -4234,6 +4523,7 @@
         "index": {
           "description": "Returns the day of the month from See http www.w3schools.com jsref jsref getdate.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getDate",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4250,6 +4540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the day of the week (from 0-6).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getday.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getDay",
           "package": "sunroof-compiler",
@@ -4260,6 +4551,7 @@
         "index": {
           "description": "Returns the day of the week from See http www.w3schools.com jsref jsref getday.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getDay",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4276,6 +4568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the year (four digits).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getfullyear.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getFullYear",
           "package": "sunroof-compiler",
@@ -4286,6 +4579,7 @@
         "index": {
           "description": "Returns the year four digits See http www.w3schools.com jsref jsref getfullyear.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getFullYear",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4302,6 +4596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the hour (from 0-23).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_gethours.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getHours",
           "package": "sunroof-compiler",
@@ -4312,6 +4607,7 @@
         "index": {
           "description": "Returns the hour from See http www.w3schools.com jsref jsref gethours.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getHours",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4328,6 +4624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the milliseconds (from 0-999).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getmilliseconds.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getMilliseconds",
           "package": "sunroof-compiler",
@@ -4338,6 +4635,7 @@
         "index": {
           "description": "Returns the milliseconds from See http www.w3schools.com jsref jsref getmilliseconds.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getMilliseconds",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4354,6 +4652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the minutes (from 0-59).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getminutes.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getMinutes",
           "package": "sunroof-compiler",
@@ -4364,6 +4663,7 @@
         "index": {
           "description": "Returns the minutes from See http www.w3schools.com jsref jsref getminutes.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getMinutes",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4380,6 +4680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the month (from 0-11).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getmonth.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getMonth",
           "package": "sunroof-compiler",
@@ -4390,6 +4691,7 @@
         "index": {
           "description": "Returns the month from See http www.w3schools.com jsref jsref getmonth.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getMonth",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4406,6 +4708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the seconds (from 0-59).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getseconds.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getSeconds",
           "package": "sunroof-compiler",
@@ -4416,6 +4719,7 @@
         "index": {
           "description": "Returns the seconds from See http www.w3schools.com jsref jsref getseconds.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getSeconds",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4432,6 +4736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of milliseconds since midnight Jan 1, 1970.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_gettime.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getTime",
           "package": "sunroof-compiler",
@@ -4442,6 +4747,7 @@
         "index": {
           "description": "Returns the number of milliseconds since midnight Jan See http www.w3schools.com jsref jsref gettime.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getTime",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4458,6 +4764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the time difference between UTC time and local time, in minutes.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_gettimezoneoffset.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getTimezoneOffset",
           "package": "sunroof-compiler",
@@ -4468,6 +4775,7 @@
         "index": {
           "description": "Returns the time difference between UTC time and local time in minutes See http www.w3schools.com jsref jsref gettimezoneoffset.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getTimezoneOffset",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4484,6 +4792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the day of the month, according to universal time (from 1-31).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getutcdate.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCDate",
           "package": "sunroof-compiler",
@@ -4494,6 +4803,7 @@
         "index": {
           "description": "Returns the day of the month according to universal time from See http www.w3schools.com jsref jsref getutcdate.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCDate",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4510,6 +4820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the day of the week, according to universal time (from 0-6).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getutcday.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCDay",
           "package": "sunroof-compiler",
@@ -4520,6 +4831,7 @@
         "index": {
           "description": "Returns the day of the week according to universal time from See http www.w3schools.com jsref jsref getutcday.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCDay",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4536,6 +4848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the year, according to universal time (four digits).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getutcfullyear.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCFullYear",
           "package": "sunroof-compiler",
@@ -4546,6 +4859,7 @@
         "index": {
           "description": "Returns the year according to universal time four digits See http www.w3schools.com jsref jsref getutcfullyear.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCFullYear",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4562,6 +4876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the hour, according to universal time (from 0-23).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getutchours.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCHours",
           "package": "sunroof-compiler",
@@ -4572,6 +4887,7 @@
         "index": {
           "description": "Returns the hour according to universal time from See http www.w3schools.com jsref jsref getutchours.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCHours",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4588,6 +4904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the milliseconds, according to universal time (from 0-999).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getutcmilliseconds.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCMilliseconds",
           "package": "sunroof-compiler",
@@ -4598,6 +4915,7 @@
         "index": {
           "description": "Returns the milliseconds according to universal time from See http www.w3schools.com jsref jsref getutcmilliseconds.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCMilliseconds",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4614,6 +4932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the minutes, according to universal time (from 0-59).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getutcminutes.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCMinutes",
           "package": "sunroof-compiler",
@@ -4624,6 +4943,7 @@
         "index": {
           "description": "Returns the minutes according to universal time from See http www.w3schools.com jsref jsref getutcminutes.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCMinutes",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4640,6 +4960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the month, according to universal time (from 0-11).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getutcmonth.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCMonth",
           "package": "sunroof-compiler",
@@ -4650,6 +4971,7 @@
         "index": {
           "description": "Returns the month according to universal time from See http www.w3schools.com jsref jsref getutcmonth.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCMonth",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4666,6 +4988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the seconds, according to universal time (from 0-59).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_getutcseconds.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCSeconds",
           "package": "sunroof-compiler",
@@ -4676,6 +4999,7 @@
         "index": {
           "description": "Returns the seconds according to universal time from See http www.w3schools.com jsref jsref getutcseconds.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "getUTCSeconds",
           "normalized": "JSDate-\u003eJS a JSNumber",
@@ -4692,6 +5016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new \u003ccode\u003eDate\u003c/code\u003e object.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_obj_date.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "newDate",
           "package": "sunroof-compiler",
@@ -4702,6 +5027,7 @@
         "index": {
           "description": "Creates new Date object See http www.w3schools.com jsref jsref obj date.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "newDate",
           "normalized": "a-\u003eJS b JSDate",
@@ -4718,6 +5044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a date string and returns the number of milliseconds \n   since midnight of January 1, 1970.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_parse.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "parseDate",
           "package": "sunroof-compiler",
@@ -4728,6 +5055,7 @@
         "index": {
           "description": "Parses date string and returns the number of milliseconds since midnight of January See http www.w3schools.com jsref jsref parse.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "parseDate",
           "normalized": "JSString-\u003eJSDate-\u003eJS a JSNumber",
@@ -4744,6 +5072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the day of the month of a date object.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_setdate.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setDate",
           "package": "sunroof-compiler",
@@ -4754,6 +5083,7 @@
         "index": {
           "description": "Sets the day of the month of date object See http www.w3schools.com jsref jsref setdate.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setDate",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -4770,6 +5100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the year (four digits) of a date object.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_setfullyear.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setFullYear",
           "package": "sunroof-compiler",
@@ -4780,6 +5111,7 @@
         "index": {
           "description": "Sets the year four digits of date object See http www.w3schools.com jsref jsref setfullyear.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setFullYear",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -4796,6 +5128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the hour of a date object.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_sethours.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setHours",
           "package": "sunroof-compiler",
@@ -4806,6 +5139,7 @@
         "index": {
           "description": "Sets the hour of date object See http www.w3schools.com jsref jsref sethours.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setHours",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -4822,6 +5156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the milliseconds of a date object.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_setmilliseconds.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setMilliseconds",
           "package": "sunroof-compiler",
@@ -4832,6 +5167,7 @@
         "index": {
           "description": "Sets the milliseconds of date object See http www.w3schools.com jsref jsref setmilliseconds.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setMilliseconds",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -4848,6 +5184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the minutes of a date object.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_setminutes.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setMinutes",
           "package": "sunroof-compiler",
@@ -4858,6 +5195,7 @@
         "index": {
           "description": "Set the minutes of date object See http www.w3schools.com jsref jsref setminutes.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setMinutes",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -4874,6 +5212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the month of a date object.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_setmonth.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setMonth",
           "package": "sunroof-compiler",
@@ -4884,6 +5223,7 @@
         "index": {
           "description": "Sets the month of date object See http www.w3schools.com jsref jsref setmonth.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setMonth",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -4900,6 +5240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the seconds of a date object.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_setseconds.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setSeconds",
           "package": "sunroof-compiler",
@@ -4910,6 +5251,7 @@
         "index": {
           "description": "Sets the seconds of date object See http www.w3schools.com jsref jsref setseconds.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setSeconds",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -4926,6 +5268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a date and time by adding or subtracting a specified number \n   of milliseconds to/from midnight January 1, 1970.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_settime.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setTime",
           "package": "sunroof-compiler",
@@ -4936,6 +5279,7 @@
         "index": {
           "description": "Sets date and time by adding or subtracting specified number of milliseconds to from midnight January See http www.w3schools.com jsref jsref settime.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setTime",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -4952,6 +5296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the day of the month of a date object, according to universal time.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_setutcdate.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setUTCDate",
           "package": "sunroof-compiler",
@@ -4962,6 +5307,7 @@
         "index": {
           "description": "Sets the day of the month of date object according to universal time See http www.w3schools.com jsref jsref setutcdate.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setUTCDate",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -4978,6 +5324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the year of a date object, according to universal time (four digits).\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_setutcfullyear.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setUTCFullYear",
           "package": "sunroof-compiler",
@@ -4988,6 +5335,7 @@
         "index": {
           "description": "Sets the year of date object according to universal time four digits See http www.w3schools.com jsref jsref setutcfullyear.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setUTCFullYear",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -5004,6 +5352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the hour of a date object, according to universal time.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_setutchours.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setUTCHours",
           "package": "sunroof-compiler",
@@ -5014,6 +5363,7 @@
         "index": {
           "description": "Sets the hour of date object according to universal time See http www.w3schools.com jsref jsref setutchours.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setUTCHours",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -5030,6 +5380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the milliseconds of a date object, according to universal time.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_setutcmilliseconds.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setUTCMilliseconds",
           "package": "sunroof-compiler",
@@ -5040,6 +5391,7 @@
         "index": {
           "description": "Sets the milliseconds of date object according to universal time See http www.w3schools.com jsref jsref setutcmilliseconds.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setUTCMilliseconds",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -5056,6 +5408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the minutes of a date object, according to universal time.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_setutcminutes.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setUTCMinutes",
           "package": "sunroof-compiler",
@@ -5066,6 +5419,7 @@
         "index": {
           "description": "Set the minutes of date object according to universal time See http www.w3schools.com jsref jsref setutcminutes.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setUTCMinutes",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -5082,6 +5436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the month of a date object, according to universal time.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_setutcmonth.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setUTCMonth",
           "package": "sunroof-compiler",
@@ -5092,6 +5447,7 @@
         "index": {
           "description": "Sets the month of date object according to universal time See http www.w3schools.com jsref jsref setutcmonth.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setUTCMonth",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -5108,6 +5464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the seconds of a date object, according to universal time.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_setutcseconds.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "setUTCSeconds",
           "package": "sunroof-compiler",
@@ -5118,6 +5475,7 @@
         "index": {
           "description": "Set the seconds of date object according to universal time See http www.w3schools.com jsref jsref setutcseconds.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "setUTCSeconds",
           "normalized": "JSNumber-\u003eJSDate-\u003eJS a()",
@@ -5134,6 +5492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the date portion of a Date object into a readable string.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_todatestring.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "toDateString",
           "package": "sunroof-compiler",
@@ -5144,6 +5503,7 @@
         "index": {
           "description": "Converts the date portion of Date object into readable string See http www.w3schools.com jsref jsref todatestring.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "toDateString",
           "normalized": "JSDate-\u003eJS a JSString",
@@ -5160,6 +5520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the date as a string, using the ISO standard.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_toisostring.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "toISOString",
           "package": "sunroof-compiler",
@@ -5170,6 +5531,7 @@
         "index": {
           "description": "Returns the date as string using the ISO standard See http www.w3schools.com jsref jsref toisostring.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "toISOString",
           "normalized": "JSDate-\u003eJS a JSString",
@@ -5186,6 +5548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the date as a string, formated as a JSON date.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_tojson.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "toJSON",
           "package": "sunroof-compiler",
@@ -5196,6 +5559,7 @@
         "index": {
           "description": "Returns the date as string formated as JSON date See http www.w3schools.com jsref jsref tojson.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "toJSON",
           "normalized": "JSDate-\u003eJS a JSString",
@@ -5212,6 +5576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the date portion of a Date object as a string, \n   using locale conventions.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_tolocaledatestring.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "toLocaleDateString",
           "package": "sunroof-compiler",
@@ -5222,6 +5587,7 @@
         "index": {
           "description": "Returns the date portion of Date object as string using locale conventions See http www.w3schools.com jsref jsref tolocaledatestring.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "toLocaleDateString",
           "normalized": "JSDate-\u003eJS a JSString",
@@ -5238,6 +5604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a Date object to a string, using locale conventions.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_tolocalestring.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "toLocaleString",
           "package": "sunroof-compiler",
@@ -5248,6 +5615,7 @@
         "index": {
           "description": "Converts Date object to string using locale conventions See http www.w3schools.com jsref jsref tolocalestring.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "toLocaleString",
           "normalized": "JSDate-\u003eJS a JSString",
@@ -5264,6 +5632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the time portion of a Date object as a string, \n   using locale conventions.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_tolocaletimestring.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "toLocaleTimeString",
           "package": "sunroof-compiler",
@@ -5274,6 +5643,7 @@
         "index": {
           "description": "Returns the time portion of Date object as string using locale conventions See http www.w3schools.com jsref jsref tolocaletimestring.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "toLocaleTimeString",
           "normalized": "JSDate-\u003eJS a JSString",
@@ -5290,6 +5660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a Date object to a string.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_tostring_date.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "toString",
           "package": "sunroof-compiler",
@@ -5300,6 +5671,7 @@
         "index": {
           "description": "Converts Date object to string See http www.w3schools.com jsref jsref tostring date.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "toString",
           "normalized": "JSDate-\u003eJS a JSString",
@@ -5316,6 +5688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the time portion of a Date object to a string.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_totimestring.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "toTimeString",
           "package": "sunroof-compiler",
@@ -5326,6 +5699,7 @@
         "index": {
           "description": "Converts the time portion of Date object to string See http www.w3schools.com jsref jsref totimestring.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "toTimeString",
           "normalized": "JSDate-\u003eJS a JSString",
@@ -5342,6 +5716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a Date object to a string, according to universal time.\n   See: \u003ca\u003ehttp://www.w3schools.com/jsref/jsref_toutcstring.asp\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Date",
           "name": "toUTCString",
           "package": "sunroof-compiler",
@@ -5352,6 +5727,7 @@
         "index": {
           "description": "Converts Date object to string according to universal time See http www.w3schools.com jsref jsref toutcstring.asp",
           "hierarchy": "Language Sunroof JS Date",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Date",
           "name": "toUTCString",
           "normalized": "JSDate-\u003eJS a JSString",
@@ -5368,6 +5744,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides parts of the JQuery API (\u003ca\u003ehttp://api.jquery.com/\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "JQuery",
           "package": "sunroof-compiler",
@@ -5377,6 +5754,7 @@
         "index": {
           "description": "This module provides parts of the JQuery API http api.jquery.com",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "JQuery",
           "package": "sunroof-compiler",
@@ -5391,6 +5769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://api.jquery.com/addClass/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "addClass",
           "package": "sunroof-compiler",
@@ -5401,6 +5780,7 @@
         "index": {
           "description": "See http api.jquery.com addClass",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "addClass",
           "normalized": "JSString-\u003eJSObject-\u003eJS a()",
@@ -5417,6 +5797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://api.jquery.com/append/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "append",
           "package": "sunroof-compiler",
@@ -5427,6 +5808,7 @@
         "index": {
           "description": "See http api.jquery.com append",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "append",
           "normalized": "JSObject-\u003eJSObject-\u003eJS a()",
@@ -5442,6 +5824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e.attr(attributeName)\u003c/code\u003e at \u003ca\u003ehttp://api.jquery.com/attr/\u003c/a\u003e.\n   This binding does not have the original Javascript name,\n   because of the \u003ccode\u003e\u003ca\u003eattr\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "attr'",
           "package": "sunroof-compiler",
@@ -5452,6 +5835,7 @@
         "index": {
           "description": "See attr attributeName at http api.jquery.com attr This binding does not have the original Javascript name because of the attr function",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "attr'",
           "normalized": "JSString-\u003eJSObject-\u003eJS a JSString",
@@ -5467,6 +5851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e.attr(attributeName)\u003c/code\u003e at \u003ca\u003ehttp://api.jquery.com/attr/\u003c/a\u003e.\n   This binding does not have the original Javascript name,\n   because of the \u003ccode\u003e\u003ca\u003eattr\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "attribute",
           "package": "sunroof-compiler",
@@ -5477,6 +5862,7 @@
         "index": {
           "description": "See attr attributeName at http api.jquery.com attr This binding does not have the original Javascript name because of the attr function",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "attribute",
           "normalized": "JSString-\u003eJSObject-\u003eJS a JSString",
@@ -5492,6 +5878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e.clone()\u003c/code\u003e at \u003ca\u003ehttp://api.jquery.com/clone/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "clone",
           "package": "sunroof-compiler",
@@ -5502,6 +5889,7 @@
         "index": {
           "description": "See clone at http api.jquery.com clone",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "clone",
           "normalized": "JSObject-\u003eJS a JSObject",
@@ -5517,6 +5905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e.clone(withDataAndEvents, deepWithDataAndEvents)\u003c/code\u003e at \u003ca\u003ehttp://api.jquery.com/clone/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "clone'",
           "package": "sunroof-compiler",
@@ -5527,6 +5916,7 @@
         "index": {
           "description": "See clone withDataAndEvents deepWithDataAndEvents at http api.jquery.com clone",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "clone'",
           "normalized": "JSBool-\u003eJSBool-\u003eJSObject-\u003eJS a JSObject",
@@ -5542,6 +5932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e.css(propertyName)\u003c/code\u003e at \u003ca\u003ehttp://api.jquery.com/css/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "css",
           "package": "sunroof-compiler",
@@ -5552,6 +5943,7 @@
         "index": {
           "description": "See css propertyName at http api.jquery.com css",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "css",
           "normalized": "JSString-\u003eJSObject-\u003eJS a JSString",
@@ -5567,6 +5959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dollar function.\n   See \u003ca\u003ehttp://api.jquery.com/jQuery/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "dollar",
           "package": "sunroof-compiler",
@@ -5577,6 +5970,7 @@
         "index": {
           "description": "The dollar function See http api.jquery.com jQuery",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "dollar",
           "package": "sunroof-compiler",
@@ -5590,6 +5984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e.html()\u003c/code\u003e at \u003ca\u003ehttp://api.jquery.com/html/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "html",
           "package": "sunroof-compiler",
@@ -5600,6 +5995,7 @@
         "index": {
           "description": "See html at http api.jquery.com html",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "html",
           "normalized": "JSObject-\u003eJS a JSObject",
@@ -5615,6 +6011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://api.jquery.com/innerWidth/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "innerHeight",
           "package": "sunroof-compiler",
@@ -5625,6 +6022,7 @@
         "index": {
           "description": "See http api.jquery.com innerWidth",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "innerHeight",
           "normalized": "JSObject-\u003eJS a JSNumber",
@@ -5641,6 +6039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://api.jquery.com/innerHeight/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "innerWidth",
           "package": "sunroof-compiler",
@@ -5651,6 +6050,7 @@
         "index": {
           "description": "See http api.jquery.com innerHeight",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "innerWidth",
           "normalized": "JSObject-\u003eJS a JSNumber",
@@ -5667,6 +6067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls the JQuery dollar function.\n   See \u003ca\u003ehttp://api.jquery.com/jQuery/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "jQuery",
           "package": "sunroof-compiler",
@@ -5677,6 +6078,7 @@
         "index": {
           "description": "Calls the JQuery dollar function See http api.jquery.com jQuery",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "jQuery",
           "normalized": "JSString-\u003eJS a JSObject",
@@ -5693,6 +6095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand for \u003ccode\u003e\u003ca\u003ejQuery\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "jq",
           "package": "sunroof-compiler",
@@ -5703,6 +6106,7 @@
         "index": {
           "description": "Short-hand for jQuery",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "jq",
           "normalized": "JSString-\u003eJS a JSObject",
@@ -5718,6 +6122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://api.jquery.com/on/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "on",
           "package": "sunroof-compiler",
@@ -5728,6 +6133,7 @@
         "index": {
           "description": "See http api.jquery.com on",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "on",
           "normalized": "JSString-\u003eJSString-\u003e(a-\u003eJS B())-\u003eJSObject-\u003eJS b()",
@@ -5743,6 +6149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://api.jquery.com/outerHeight/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "outerHeight",
           "package": "sunroof-compiler",
@@ -5753,6 +6160,7 @@
         "index": {
           "description": "See http api.jquery.com outerHeight",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "outerHeight",
           "normalized": "JSObject-\u003eJS a JSNumber",
@@ -5769,6 +6177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://api.jquery.com/outerHeight/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "outerHeight'",
           "package": "sunroof-compiler",
@@ -5779,6 +6188,7 @@
         "index": {
           "description": "See http api.jquery.com outerHeight",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "outerHeight'",
           "normalized": "JSBool-\u003eJSObject-\u003eJS a JSNumber",
@@ -5795,6 +6205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://api.jquery.com/outerWidth/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "outerWidth",
           "package": "sunroof-compiler",
@@ -5805,6 +6216,7 @@
         "index": {
           "description": "See http api.jquery.com outerWidth",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "outerWidth",
           "normalized": "JSObject-\u003eJS a JSNumber",
@@ -5821,6 +6233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://api.jquery.com/outerWidth/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "outerWidth'",
           "package": "sunroof-compiler",
@@ -5831,6 +6244,7 @@
         "index": {
           "description": "See http api.jquery.com outerWidth",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "outerWidth'",
           "normalized": "JSBool-\u003eJSObject-\u003eJS a JSNumber",
@@ -5847,6 +6261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee: \u003ca\u003ehttp://api.jquery.com/removeAttr/\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "removeAttr",
           "package": "sunroof-compiler",
@@ -5857,6 +6272,7 @@
         "index": {
           "description": "See http api.jquery.com removeAttr",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "removeAttr",
           "normalized": "JSString-\u003eJSObject-\u003eJS a JSObject",
@@ -5873,6 +6289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://api.jquery.com/removeClass/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "removeClass",
           "package": "sunroof-compiler",
@@ -5883,6 +6300,7 @@
         "index": {
           "description": "See http api.jquery.com removeClass",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "removeClass",
           "normalized": "JSString-\u003eJSObject-\u003eJS a()",
@@ -5899,6 +6317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e.attr(attributeName, value)\u003c/code\u003e at \u003ca\u003ehttp://api.jquery.com/attr/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "setAttr",
           "package": "sunroof-compiler",
@@ -5909,6 +6328,7 @@
         "index": {
           "description": "See attr attributeName value at http api.jquery.com attr",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "setAttr",
           "normalized": "JSString-\u003eJSString-\u003eJSObject-\u003eJS a JSString",
@@ -5925,6 +6345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e.css(propertyName, value)\u003c/code\u003e at \u003ca\u003ehttp://api.jquery.com/css/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "setCss",
           "package": "sunroof-compiler",
@@ -5935,6 +6356,7 @@
         "index": {
           "description": "See css propertyName value at http api.jquery.com css",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "setCss",
           "normalized": "JSString-\u003eJSString-\u003eJSObject-\u003eJS a JSString",
@@ -5951,6 +6373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e.html(htmlString)\u003c/code\u003e at \u003ca\u003ehttp://api.jquery.com/html/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "setHtml",
           "package": "sunroof-compiler",
@@ -5961,6 +6384,7 @@
         "index": {
           "description": "See html htmlString at http api.jquery.com html",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "setHtml",
           "normalized": "JSString-\u003eJSObject-\u003eJS a JSObject",
@@ -5977,6 +6401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e.text(textString)\u003c/code\u003e at \u003ca\u003ehttp://api.jquery.com/text/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "setText",
           "package": "sunroof-compiler",
@@ -5987,6 +6412,7 @@
         "index": {
           "description": "See text textString at http api.jquery.com text",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "setText",
           "normalized": "JSString-\u003eJSObject-\u003eJS a JSObject",
@@ -6003,6 +6429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e.text()\u003c/code\u003e at \u003ca\u003ehttp://api.jquery.com/text/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "text",
           "package": "sunroof-compiler",
@@ -6013,6 +6440,7 @@
         "index": {
           "description": "See text at http api.jquery.com text",
           "hierarchy": "Language Sunroof JS JQuery",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.JQuery",
           "name": "text",
           "normalized": "JSObject-\u003eJS a JSObject",
@@ -6028,6 +6456,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eJSMVar\u003c/a\u003e\u003c/code\u003e provides the same functionality and\n   concurrency abstraction in Javascript computations\n   as \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e in Haskell.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.MVar",
           "name": "MVar",
           "package": "sunroof-compiler",
@@ -6037,6 +6466,7 @@
         "index": {
           "description": "JSMVar provides the same functionality and concurrency abstraction in Javascript computations as MVar in Haskell",
           "hierarchy": "Language Sunroof JS MVar",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.MVar",
           "name": "MVar",
           "package": "sunroof-compiler",
@@ -6051,6 +6481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eJSMVar\u003c/a\u003e\u003c/code\u003e abstraction. The type parameter gives\n   the type of values held in a \u003ccode\u003e\u003ca\u003eJSMVar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.MVar",
           "name": "JSMVar",
           "package": "sunroof-compiler",
@@ -6060,6 +6491,7 @@
         "index": {
           "description": "JSMVar abstraction The type parameter gives the type of values held in JSMVar",
           "hierarchy": "Language Sunroof JS MVar",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.MVar",
           "name": "JSMVar",
           "package": "sunroof-compiler",
@@ -6180,6 +6612,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eJSMap\u003c/a\u003e\u003c/code\u003e provides an abstract and more type-safe access to maps\n   in JavaScript. It is a wrapper around the dictionary each object\n   in JavaScript is.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Map",
           "name": "Map",
           "package": "sunroof-compiler",
@@ -6189,6 +6622,7 @@
         "index": {
           "description": "JSMap provides an abstract and more type-safe access to maps in JavaScript It is wrapper around the dictionary each object in JavaScript is",
           "hierarchy": "Language Sunroof JS Map",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Map",
           "name": "Map",
           "package": "sunroof-compiler",
@@ -6203,6 +6637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eJSMap\u003c/a\u003e\u003c/code\u003e abstraction. The first type parameter gives\n   the type of keys used by the name and the second gives\n   the type of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Map",
           "name": "JSMap",
           "package": "sunroof-compiler",
@@ -6212,6 +6647,7 @@
         "index": {
           "description": "JSMap abstraction The first type parameter gives the type of keys used by the name and the second gives the type of values",
           "hierarchy": "Language Sunroof JS Map",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Map",
           "name": "JSMap",
           "package": "sunroof-compiler",
@@ -6226,6 +6662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einsert k x\u003c/code\u003e inserts an element \u003ccode\u003ex\u003c/code\u003e associated with the given\n   key \u003ccode\u003ek\u003c/code\u003e into a map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Map",
           "name": "insert",
           "package": "sunroof-compiler",
@@ -6236,6 +6673,7 @@
         "index": {
           "description": "insert inserts an element associated with the given key into map",
           "hierarchy": "Language Sunroof JS Map",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Map",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eJSMap a b-\u003eJS c()",
@@ -6251,6 +6689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elookup k\u003c/code\u003e selects the value associated with the key \u003ccode\u003ek\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Map",
           "name": "lookup'",
           "package": "sunroof-compiler",
@@ -6261,6 +6700,7 @@
         "index": {
           "description": "lookup selects the value associated with the key",
           "hierarchy": "Language Sunroof JS Map",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Map",
           "name": "lookup'",
           "normalized": "a-\u003eJSMap a b-\u003eJS c b",
@@ -6276,6 +6716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new empty \u003ccode\u003e\u003ca\u003eJSMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Map",
           "name": "newMap",
           "package": "sunroof-compiler",
@@ -6286,6 +6727,7 @@
         "index": {
           "description": "Create new empty JSMap",
           "hierarchy": "Language Sunroof JS Map",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Map",
           "name": "newMap",
           "package": "sunroof-compiler",
@@ -6299,6 +6741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Map",
           "name": "size",
           "package": "sunroof-compiler",
@@ -6308,6 +6751,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof JS Map",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Map",
           "name": "size",
           "normalized": "JSMap a b-\u003eJS c JSNumber",
@@ -6323,6 +6767,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNumbers in Javascript.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Number",
           "name": "Number",
           "package": "sunroof-compiler",
@@ -6332,6 +6777,7 @@
         "index": {
           "description": "Numbers in Javascript",
           "hierarchy": "Language Sunroof JS Number",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Number",
           "name": "Number",
           "package": "sunroof-compiler",
@@ -6346,6 +6792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of numbers in Javascript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Number",
           "name": "JSNumber",
           "package": "sunroof-compiler",
@@ -6355,6 +6802,7 @@
         "index": {
           "description": "Type of numbers in Javascript",
           "hierarchy": "Language Sunroof JS Number",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Number",
           "name": "JSNumber",
           "package": "sunroof-compiler",
@@ -6395,6 +6843,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbstraction over the most general type in Javascript.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Object",
           "name": "Object",
           "package": "sunroof-compiler",
@@ -6404,6 +6853,7 @@
         "index": {
           "description": "Abstraction over the most general type in Javascript",
           "hierarchy": "Language Sunroof JS Object",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Object",
           "name": "Object",
           "package": "sunroof-compiler",
@@ -6418,6 +6868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for all Javascript objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Object",
           "name": "JSObject",
           "package": "sunroof-compiler",
@@ -6427,6 +6878,7 @@
         "index": {
           "description": "Data type for all Javascript objects",
           "hierarchy": "Language Sunroof JS Object",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Object",
           "name": "JSObject",
           "package": "sunroof-compiler",
@@ -6491,6 +6943,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the equivalent of a \u003ccode\u003eIORef\u003c/code\u003e in the Sunroof world.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Ref",
           "name": "Ref",
           "package": "sunroof-compiler",
@@ -6500,6 +6953,7 @@
         "index": {
           "description": "This module provides the equivalent of IORef in the Sunroof world",
           "hierarchy": "Language Sunroof JS Ref",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Ref",
           "name": "Ref",
           "package": "sunroof-compiler",
@@ -6514,6 +6968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the \u003ccode\u003eIORef\u003c/code\u003e of Sunroof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.Ref",
           "name": "JSRef",
           "package": "sunroof-compiler",
@@ -6523,6 +6978,7 @@
         "index": {
           "description": "This is the IORef of Sunroof",
           "hierarchy": "Language Sunroof JS Ref",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.Ref",
           "name": "JSRef",
           "package": "sunroof-compiler",
@@ -6645,6 +7101,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStrings in Javascript.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.String",
           "name": "String",
           "package": "sunroof-compiler",
@@ -6654,6 +7111,7 @@
         "index": {
           "description": "Strings in Javascript",
           "hierarchy": "Language Sunroof JS String",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.String",
           "name": "String",
           "package": "sunroof-compiler",
@@ -6668,6 +7126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJavascript string type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JS.String",
           "name": "JSString",
           "package": "sunroof-compiler",
@@ -6677,6 +7136,7 @@
         "index": {
           "description": "Javascript string type",
           "hierarchy": "Language Sunroof JS String",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JS.String",
           "name": "JSString",
           "package": "sunroof-compiler",
@@ -6717,6 +7177,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic low-level types and their combinators.\n   These are used as output of the compiler.\n   Everything here is untypes and not supposed for public use!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "JavaScript",
           "package": "sunroof-compiler",
@@ -6726,6 +7187,7 @@
         "index": {
           "description": "Basic low-level types and their combinators These are used as output of the compiler Everything here is untypes and not supposed for public use",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "JavaScript",
           "package": "sunroof-compiler",
@@ -6740,6 +7202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain expressions in Javascript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "E",
           "package": "sunroof-compiler",
@@ -6749,6 +7212,7 @@
         "index": {
           "description": "Plain expressions in Javascript",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "E",
           "package": "sunroof-compiler",
@@ -6762,6 +7226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort name for instantiated expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "Expr",
           "package": "sunroof-compiler",
@@ -6771,6 +7236,7 @@
         "index": {
           "description": "Short name for instantiated expressions",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "Expr",
           "package": "sunroof-compiler",
@@ -6785,6 +7251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstantiated expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "ExprE",
           "package": "sunroof-compiler",
@@ -6794,6 +7261,7 @@
         "index": {
           "description": "Instantiated expressions",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "ExprE",
           "package": "sunroof-compiler",
@@ -6808,6 +7276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJavascript identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "Id",
           "package": "sunroof-compiler",
@@ -6817,6 +7286,7 @@
         "index": {
           "description": "Javascript identifier",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "Id",
           "package": "sunroof-compiler",
@@ -6831,6 +7301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Right hand side of an assignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "Rhs",
           "package": "sunroof-compiler",
@@ -6840,6 +7311,7 @@
         "index": {
           "description": "Right hand side of an assignment",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "Rhs",
           "package": "sunroof-compiler",
@@ -6854,6 +7326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain Javascript statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "Stmt",
           "package": "sunroof-compiler",
@@ -6863,6 +7336,7 @@
         "index": {
           "description": "Plain Javascript statements",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "Stmt",
           "package": "sunroof-compiler",
@@ -6877,6 +7351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract types for Javascript expressions in Sunroof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "Type",
           "package": "sunroof-compiler",
@@ -6886,6 +7361,7 @@
         "index": {
           "description": "Abstract types for Javascript expressions in Sunroof",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "Type",
           "package": "sunroof-compiler",
@@ -6900,6 +7376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction application: \u003ccode\u003eexpr ( expr, ..., expr )\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "Apply",
           "package": "sunroof-compiler",
@@ -6910,6 +7387,7 @@
         "index": {
           "description": "Function application expr expr expr",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "Apply",
           "normalized": "Apply a[a]",
@@ -6926,6 +7404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestricted assignment: \u003ccode\u003eRhs = Expr;\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "AssignStmt",
           "package": "sunroof-compiler",
@@ -6936,6 +7415,7 @@
         "index": {
           "description": "Restricted assignment Rhs Expr",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "AssignStmt",
           "package": "sunroof-compiler",
@@ -6975,6 +7455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comment in the code: \u003ccode\u003e\u003cem/\u003e String\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "CommentStmt",
           "package": "sunroof-compiler",
@@ -6985,6 +7466,7 @@
         "index": {
           "description": "comment in the code String",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "CommentStmt",
           "package": "sunroof-compiler",
@@ -6999,6 +7481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete reference \u003ccode\u003edelete Rhs;\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "DeleteStmt",
           "package": "sunroof-compiler",
@@ -7009,6 +7492,7 @@
         "index": {
           "description": "Delete reference delete Rhs",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "DeleteStmt",
           "package": "sunroof-compiler",
@@ -7023,6 +7507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField/attribute access (with type information): \u003ccode\u003eexpr . expr :: Type\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "Dot",
           "package": "sunroof-compiler",
@@ -7033,6 +7518,7 @@
         "index": {
           "description": "Field attribute access with type information expr expr Type",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "Dot",
           "package": "sunroof-compiler",
@@ -7047,6 +7533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea named field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "DotRhs",
           "package": "sunroof-compiler",
@@ -7057,6 +7544,7 @@
         "index": {
           "description": "named field",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "DotRhs",
           "package": "sunroof-compiler",
@@ -7070,6 +7558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "ExprE",
           "package": "sunroof-compiler",
@@ -7079,6 +7568,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "ExprE",
           "package": "sunroof-compiler",
@@ -7093,6 +7583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression statement, for the sake of its side effects: \u003ccode\u003eExpr;\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "ExprStmt",
           "package": "sunroof-compiler",
@@ -7103,6 +7594,7 @@
         "index": {
           "description": "Expression statement for the sake of its side effects Expr",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "ExprStmt",
           "package": "sunroof-compiler",
@@ -7144,6 +7636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnonymous function with parameter names and body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "Function",
           "package": "sunroof-compiler",
@@ -7154,6 +7647,7 @@
         "index": {
           "description": "Anonymous function with parameter names and body",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "Function",
           "normalized": "Function[Id][Stmt]",
@@ -7170,6 +7664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf-Then-Else statement: \u003ccode\u003eif (Expr) { Stmts } else { Stmts }\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "IfStmt",
           "package": "sunroof-compiler",
@@ -7180,6 +7675,7 @@
         "index": {
           "description": "If-Then-Else statement if Expr Stmts else Stmts",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "IfStmt",
           "normalized": "IfStmt Expr[Stmt][Stmt]",
@@ -7196,6 +7692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA precompiled (atomic) Javascript literal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "Lit",
           "package": "sunroof-compiler",
@@ -7206,6 +7703,7 @@
         "index": {
           "description": "precompiled atomic Javascript literal",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "Lit",
           "package": "sunroof-compiler",
@@ -7220,6 +7718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn statement: \u003ccode\u003ereturn Expr;\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "ReturnStmt",
           "package": "sunroof-compiler",
@@ -7230,6 +7729,7 @@
         "index": {
           "description": "Return statement return Expr",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "ReturnStmt",
           "package": "sunroof-compiler",
@@ -7269,6 +7769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "Var",
           "package": "sunroof-compiler",
@@ -7279,6 +7780,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "Var",
           "package": "sunroof-compiler",
@@ -7293,6 +7795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "VarRhs",
           "package": "sunroof-compiler",
@@ -7303,6 +7806,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "VarRhs",
           "package": "sunroof-compiler",
@@ -7317,6 +7821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhile loop: \u003ccode\u003ewhile (Expr) { Stmts }\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "WhileStmt",
           "package": "sunroof-compiler",
@@ -7327,6 +7832,7 @@
         "index": {
           "description": "While loop while Expr Stmts",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "WhileStmt",
           "normalized": "WhileStmt Expr[Stmt]",
@@ -7343,6 +7849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand to create the applied binary operator/function.\n   See \u003ccode\u003e\u003ca\u003eoperator\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "binOp",
           "package": "sunroof-compiler",
@@ -7353,6 +7860,7 @@
         "index": {
           "description": "Short-hand to create the applied binary operator function See operator",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "binOp",
           "normalized": "String-\u003eExpr-\u003eExpr-\u003eE ExprE",
@@ -7369,6 +7877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator to create a expression containing a\n   literal in form of a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "literal",
           "package": "sunroof-compiler",
@@ -7379,6 +7888,7 @@
         "index": {
           "description": "Combinator to create expression containing literal in form of string",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "literal",
           "normalized": "String-\u003eExpr",
@@ -7394,6 +7904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator to create a operator/function applied to the given arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "operator",
           "package": "sunroof-compiler",
@@ -7404,6 +7915,7 @@
         "index": {
           "description": "Combinator to create operator function applied to the given arguments",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "operator",
           "normalized": "Id-\u003e[Expr]-\u003eExpr",
@@ -7419,6 +7931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a anonymous function to scope all effects\n   in the given block of statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "scopeForEffect",
           "package": "sunroof-compiler",
@@ -7429,6 +7942,7 @@
         "index": {
           "description": "Create anonymous function to scope all effects in the given block of statement",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "scopeForEffect",
           "normalized": "[Stmt]-\u003eExpr",
@@ -7445,6 +7959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow an expression as compiled Javascript.\n   The boolean argument says non-trivial arguments need parenthesis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "showExpr",
           "package": "sunroof-compiler",
@@ -7455,6 +7970,7 @@
         "index": {
           "description": "Show an expression as compiled Javascript The boolean argument says non-trivial arguments need parenthesis",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "showExpr",
           "normalized": "Bool-\u003eExpr-\u003eString",
@@ -7471,6 +7987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a statement into actual Javascript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "showStmt",
           "package": "sunroof-compiler",
@@ -7481,6 +7998,7 @@
         "index": {
           "description": "Translate statement into actual Javascript",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "showStmt",
           "normalized": "Stmt-\u003eString",
@@ -7497,6 +8015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand to create the applied unary operator/function.\n   See \u003ccode\u003e\u003ca\u003eoperator\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.JavaScript",
           "name": "uniOp",
           "package": "sunroof-compiler",
@@ -7507,6 +8026,7 @@
         "index": {
           "description": "Short-hand to create the applied unary operator function See operator",
           "hierarchy": "Language Sunroof JavaScript",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.JavaScript",
           "name": "uniOp",
           "normalized": "String-\u003eExpr-\u003eE ExprE",
@@ -7523,6 +8043,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eJSSelector\u003c/a\u003e\u003c/code\u003e are used to access fields of Javascript objects.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Selector",
           "name": "Selector",
           "package": "sunroof-compiler",
@@ -7532,6 +8053,7 @@
         "index": {
           "description": "JSSelector are used to access fields of Javascript objects",
           "hierarchy": "Language Sunroof Selector",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Selector",
           "name": "Selector",
           "package": "sunroof-compiler",
@@ -7546,6 +8068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eJSSelector\u003c/a\u003e\u003c/code\u003e selects a field or attribute from a Javascript object.\n   The phantom type is the type of the selected value. Note the selected \n   field or attributes may also array entries (\u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Selector",
           "name": "JSSelector",
           "package": "sunroof-compiler",
@@ -7555,6 +8078,7 @@
         "index": {
           "description": "JSSelector selects field or attribute from Javascript object The phantom type is the type of the selected value Note the selected field or attributes may also array entries index",
           "hierarchy": "Language Sunroof Selector",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Selector",
           "name": "JSSelector",
           "package": "sunroof-compiler",
@@ -7647,6 +8171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvided for internal usage by the compiler. Unwraps the \n   selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Selector",
           "name": "unboxSelector",
           "package": "sunroof-compiler",
@@ -7657,6 +8182,7 @@
         "index": {
           "description": "Provided for internal usage by the compiler Unwraps the selector",
           "hierarchy": "Language Sunroof Selector",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Selector",
           "name": "unboxSelector",
           "normalized": "JSSelector a-\u003eExpr",
@@ -7673,6 +8199,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides template Haskell code to generate instances for JavaScript\n   object wrappers (\u003ca\u003ehttps://github.com/ku-fpg/sunroof-compiler/wiki/JSObject-Wrapper-Types\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.TH",
           "name": "TH",
           "package": "sunroof-compiler",
@@ -7682,6 +8209,7 @@
         "index": {
           "description": "Provides template Haskell code to generate instances for JavaScript object wrappers https github.com ku-fpg sunroof-compiler wiki JSObject-Wrapper-Types",
           "hierarchy": "Language Sunroof TH",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.TH",
           "name": "TH",
           "package": "sunroof-compiler",
@@ -7696,6 +8224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ederive\u003c/code\u003e derives an incomplete instance for \u003ccode\u003eJSTuple\u003c/code\u003e,\n as well as completing other classes.\n\u003c/p\u003e\u003cp\u003eyou write the newtype explictly, and \u003ccode\u003ederive\u003c/code\u003e does the rest.\n\u003c/p\u003e\u003cpre\u003e newtype JSX o = JSX JSObject\n\u003c/pre\u003e\u003cp\u003eand then the start of the JSTuple instance, and the rest gets filled in\n\u003c/p\u003e\u003cpre\u003e derive [d| instance (SunroofArgument o) =\u003e JSTuple (JSX o) where\n                type Internals (JSX o) = (JSString,JSNumber)\n        |]\n\u003c/pre\u003e\u003cp\u003egenerates\n\u003c/p\u003e\u003cpre\u003e instance (SunroofArgument o) =\u003e Show (JSX o) where\n    show (JSX o) = show o\n\n instance (SunroofArgument o) =\u003e Sunroof (JSX o) where\n    unbox (JSX o) = unbox o\n    box o = JSX (box o)\n\n instance (SunroofArgument o) =\u003e IfB (JSX o) where\n    ifB = jsIfB\n\n type instance BooleanOf (JSX o) = JSBool\n\n instance (SunroofArgument o) =\u003e JSTuple (JSX o) where\n    type instance Internals (JSX o) = (JSString, JSNumber)\n    match o = (o ! attr \"f1\", o ! attr \"f2\")\n    tuple (v1,v2) = do\n        o \u003c- new \"Object\" ()\n        o # attr \"f1\" := v1\n        o # attr \"f2\" := v2\n        return (JSX o)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.TH",
           "name": "deriveJSTuple",
           "package": "sunroof-compiler",
@@ -7706,6 +8235,7 @@
         "index": {
           "description": "derive derives an incomplete instance for JSTuple as well as completing other classes you write the newtype explictly and derive does the rest newtype JSX JSX JSObject and then the start of the JSTuple instance and the rest gets filled in derive instance SunroofArgument JSTuple JSX where type Internals JSX JSString JSNumber generates instance SunroofArgument Show JSX where show JSX show instance SunroofArgument Sunroof JSX where unbox JSX unbox box JSX box instance SunroofArgument IfB JSX where ifB jsIfB type instance BooleanOf JSX JSBool instance SunroofArgument JSTuple JSX where type instance Internals JSX JSString JSNumber match attr f1 attr f2 tuple v1 v2 do new Object attr f1 v1 attr f2 v2 return JSX",
           "hierarchy": "Language Sunroof TH",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.TH",
           "name": "deriveJSTuple",
           "normalized": "Q[Dec]-\u003eQ[Dec]",
@@ -7722,6 +8252,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe basic types and combinators of Sunroof.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "Types",
           "package": "sunroof-compiler",
@@ -7731,6 +8262,7 @@
         "index": {
           "description": "The basic types and combinators of Sunroof",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "Types",
           "package": "sunroof-compiler",
@@ -7745,6 +8277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monadic type of Javascript computations.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eJS t a\u003c/code\u003e is a computation using the thread model \u003ccode\u003et\u003c/code\u003e (see \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e).\n   It returns a result of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JS",
           "package": "sunroof-compiler",
@@ -7754,6 +8287,7 @@
         "index": {
           "description": "The monadic type of Javascript computations JS is computation using the thread model see It returns result of type",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JS",
           "package": "sunroof-compiler",
@@ -7768,6 +8302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand type for atmoic Javascript computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JSA",
           "package": "sunroof-compiler",
@@ -7777,6 +8312,7 @@
         "index": {
           "description": "Short-hand type for atmoic Javascript computations",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JSA",
           "package": "sunroof-compiler",
@@ -7791,6 +8327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand type for possibly blocking Javascript computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JSB",
           "package": "sunroof-compiler",
@@ -7800,6 +8337,7 @@
         "index": {
           "description": "Short-hand type for possibly blocking Javascript computations",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JSB",
           "package": "sunroof-compiler",
@@ -7814,6 +8352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of Javascript functions.\n   The first type argument is the type of function argument.\n   This needs to be a instance of \u003ccode\u003e\u003ca\u003eSunroofArgument\u003c/a\u003e\u003c/code\u003e.\n   The second type argument of \u003ccode\u003e\u003ca\u003eJSFunction\u003c/a\u003e\u003c/code\u003e is the function return type.\n   It needs to be a instance of \u003ccode\u003e\u003ca\u003eSunroof\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JSContinuation",
           "package": "sunroof-compiler",
@@ -7823,6 +8362,7 @@
         "index": {
           "description": "Type of Javascript functions The first type argument is the type of function argument This needs to be instance of SunroofArgument The second type argument of JSFunction is the function return type It needs to be instance of Sunroof",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JSContinuation",
           "package": "sunroof-compiler",
@@ -7837,6 +8377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of Javascript functions.\n   The first type argument is the type of function argument.\n   This needs to be a instance of \u003ccode\u003e\u003ca\u003eSunroofArgument\u003c/a\u003e\u003c/code\u003e.\n   The second type argument of \u003ccode\u003e\u003ca\u003eJSFunction\u003c/a\u003e\u003c/code\u003e is the function return type.\n   It needs to be a instance of \u003ccode\u003e\u003ca\u003eSunroof\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JSFunction",
           "package": "sunroof-compiler",
@@ -7846,6 +8387,7 @@
         "index": {
           "description": "Type of Javascript functions The first type argument is the type of function argument This needs to be instance of SunroofArgument The second type argument of JSFunction is the function return type It needs to be instance of Sunroof",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JSFunction",
           "package": "sunroof-compiler",
@@ -7860,6 +8402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eJSI\u003c/a\u003e\u003c/code\u003e represents the primitive effects or instructions for\n   the JS monad.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eJS_Assign s v o\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e assigns a value \u003ccode\u003ev\u003c/code\u003e to the selected field \u003ccode\u003es\u003c/code\u003e\n       in the object \u003ccode\u003eo\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eJS_Select s o\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e returns the value of the selected field \u003ccode\u003es\u003c/code\u003e\n       in the object \u003ccode\u003eo\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eJS_Delete s o\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e delete the selected field \u003ccode\u003es\u003c/code\u003e in the object \u003ccode\u003eo\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eJS_Invoke a f\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e calls the function \u003ccode\u003ef\u003c/code\u003e with the arguments \u003ccode\u003ea\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eJS_Eval v\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e evaluates the value \u003ccode\u003ev\u003c/code\u003e. Subsequent instructions\n       use the value instead of reevaluating the expression.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eJS_Function f\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e creates a Javascript function\n       from the Haskell function \u003ccode\u003ef\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eJS_Continuation f\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e creates a Javascript continuation (function that never returns a value)\n       from the Haskell function \u003ccode\u003ef\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eJS_Branch b t f\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e creates a \u003ccode\u003eif-then-else\u003c/code\u003e statement in Javascript.\n       In that statement \u003ccode\u003eb\u003c/code\u003e is the condition, \u003ccode\u003et\u003c/code\u003e is the true branch and\n       \u003ccode\u003ef\u003c/code\u003e is the false branch.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eJS_Return v\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e translates into an actual \u003ccode\u003ereturn\u003c/code\u003e statement that\n       returns the value \u003ccode\u003ev\u003c/code\u003e in Javascript.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eJS_Assign_ v x\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e assigns the value \u003ccode\u003ex\u003c/code\u003e to the variable with name \u003ccode\u003ev\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eJS_Fix v x\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e models a fixpoint computation in \u003ccode\u003e\u003ca\u003eJS\u003c/a\u003e\u003c/code\u003e. See \u003ccode\u003ejsfix\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JSI",
           "package": "sunroof-compiler",
@@ -7869,6 +8412,7 @@
         "index": {
           "description": "JSI represents the primitive effects or instructions for the JS monad JS Assign assigns value to the selected field in the object JS Select returns the value of the selected field in the object JS Delete delete the selected field in the object JS Invoke calls the function with the arguments JS Eval evaluates the value Subsequent instructions use the value instead of reevaluating the expression JS Function creates Javascript function from the Haskell function JS Continuation creates Javascript continuation function that never returns value from the Haskell function JS Branch creates if-then-else statement in Javascript In that statement is the condition is the true branch and is the false branch JS Return translates into an actual return statement that returns the value in Javascript JS Assign assigns the value to the variable with name JS Fix models fixpoint computation in JS See jsfix",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JSI",
           "package": "sunroof-compiler",
@@ -7883,6 +8427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf something is a \u003ccode\u003e\u003ca\u003eJSTuple\u003c/a\u003e\u003c/code\u003e, it can easily be decomposed and\n   recomposed from different components. This is meant as a convenient\n   access to attributes of an object.\n TODO: revisit this\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JSTuple",
           "package": "sunroof-compiler",
@@ -7892,6 +8437,7 @@
         "index": {
           "description": "If something is JSTuple it can easily be decomposed and recomposed from different components This is meant as convenient access to attributes of an object TODO revisit this",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JSTuple",
           "package": "sunroof-compiler",
@@ -7906,6 +8452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEverything that can be used as an key in a dictionary lookup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "SunroofKey",
           "package": "sunroof-compiler",
@@ -7915,6 +8462,7 @@
         "index": {
           "description": "Everything that can be used as an key in dictionary lookup",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "SunroofKey",
           "package": "sunroof-compiler",
@@ -7929,6 +8477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen implemented the type supports determining the threading model\n   during runtime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "SunroofThread",
           "package": "sunroof-compiler",
@@ -7938,6 +8487,7 @@
         "index": {
           "description": "When implemented the type supports determining the threading model during runtime",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "SunroofThread",
           "package": "sunroof-compiler",
@@ -7952,6 +8502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible threading models for Javascript computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "T",
           "package": "sunroof-compiler",
@@ -7961,6 +8512,7 @@
         "index": {
           "description": "The possible threading models for Javascript computations",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "T",
           "package": "sunroof-compiler",
@@ -7974,6 +8526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA proxy to capture the type of threading model used.\n   See \u003ccode\u003e\u003ca\u003eSunroofThread\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "ThreadProxy",
           "package": "sunroof-compiler",
@@ -7983,6 +8536,7 @@
         "index": {
           "description": "proxy to capture the type of threading model used See SunroofThread",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "ThreadProxy",
           "package": "sunroof-compiler",
@@ -8145,6 +8699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JS_Assign",
           "package": "sunroof-compiler",
@@ -8154,6 +8709,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JS_Assign",
           "normalized": "JSSelector a-\u003ea-\u003eJSObject-\u003eJSI b()",
@@ -8169,6 +8725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JS_Assign_",
           "package": "sunroof-compiler",
@@ -8178,6 +8735,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JS_Assign_",
           "normalized": "Id-\u003ea-\u003eJSI b()",
@@ -8193,6 +8751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JS_Branch",
           "package": "sunroof-compiler",
@@ -8202,6 +8761,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JS_Branch",
           "normalized": "a-\u003eJS b c-\u003eJS b c-\u003eJSI b c",
@@ -8217,6 +8777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JS_Comment",
           "package": "sunroof-compiler",
@@ -8226,6 +8787,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JS_Comment",
           "normalized": "String-\u003eJSI a()",
@@ -8241,6 +8803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JS_Continuation",
           "package": "sunroof-compiler",
@@ -8250,6 +8813,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JS_Continuation",
           "normalized": "(a-\u003eJS B())-\u003eJSI b(JSContinuation a)",
@@ -8265,6 +8829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JS_Delete",
           "package": "sunroof-compiler",
@@ -8274,6 +8839,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JS_Delete",
           "normalized": "JSSelector a-\u003eJSObject-\u003eJSI b()",
@@ -8289,6 +8855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JS_Eval",
           "package": "sunroof-compiler",
@@ -8298,6 +8865,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JS_Eval",
           "normalized": "a-\u003eJSI b a",
@@ -8313,6 +8881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JS_Fix",
           "package": "sunroof-compiler",
@@ -8322,6 +8891,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JS_Fix",
           "normalized": "(a-\u003eJS A a)-\u003eJSI b a",
@@ -8337,6 +8907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JS_Function",
           "package": "sunroof-compiler",
@@ -8346,6 +8917,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JS_Function",
           "normalized": "(a-\u003eJS A b)-\u003eJSI c(JSFunction a b)",
@@ -8361,6 +8933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JS_Invoke",
           "package": "sunroof-compiler",
@@ -8370,6 +8943,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JS_Invoke",
           "normalized": "a-\u003eJSFunction a b-\u003eJSI c b",
@@ -8385,6 +8959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JS_Return",
           "package": "sunroof-compiler",
@@ -8394,6 +8969,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JS_Return",
           "normalized": "a-\u003eJSI b()",
@@ -8409,6 +8985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "JS_Select",
           "package": "sunroof-compiler",
@@ -8418,6 +8995,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "JS_Select",
           "normalized": "JSSelector a-\u003eJSObject-\u003eJSI b a",
@@ -8509,6 +9087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a possibly blocking computation from the given one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "blockableJS",
           "package": "sunroof-compiler",
@@ -8519,6 +9098,7 @@
         "index": {
           "description": "Create possibly blocking computation from the given one",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "blockableJS",
           "normalized": "JS a b-\u003eJS B b",
@@ -8663,6 +9243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the used threading model captured the given \u003ccode\u003e\u003ca\u003eThreadProxy\u003c/a\u003e\u003c/code\u003e\n   object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "evalStyle",
           "package": "sunroof-compiler",
@@ -8673,6 +9254,7 @@
         "index": {
           "description": "Determine the used threading model captured the given ThreadProxy object",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "evalStyle",
           "normalized": "ThreadProxy a-\u003eT",
@@ -8818,6 +9400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "jsKey",
           "package": "sunroof-compiler",
@@ -8827,6 +9410,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "jsKey",
           "normalized": "a-\u003eJSSelector b",
@@ -8843,6 +9427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ekast\u003c/code\u003e is cast to continuation. \u003ccode\u003ek\u003c/code\u003e is the letter often used to signify a continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "kast",
           "package": "sunroof-compiler",
@@ -8853,6 +9438,7 @@
         "index": {
           "description": "kast is cast to continuation is the letter often used to signify continuation",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "kast",
           "normalized": "JSFunction a()-\u003eJSContinuation a",
@@ -8894,6 +9480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "match",
           "package": "sunroof-compiler",
@@ -8903,6 +9490,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "match",
           "normalized": "a-\u003eInternals a",
@@ -8969,6 +9557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a single primitive Javascript instruction (\u003ccode\u003e\u003ca\u003eJSI\u003c/a\u003e\u003c/code\u003e) into the\n   \u003ccode\u003e\u003ca\u003eJS\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "single",
           "package": "sunroof-compiler",
@@ -8979,6 +9568,7 @@
         "index": {
           "description": "Lifts single primitive Javascript instruction JSI into the JS monad",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "single",
           "normalized": "JSI a b-\u003eJS a b",
@@ -9019,6 +9609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "tuple",
           "package": "sunroof-compiler",
@@ -9028,6 +9619,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "tuple",
           "normalized": "Internals a-\u003eJS b a",
@@ -9043,6 +9635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwraps the \u003ccode\u003e\u003ca\u003eJS\u003c/a\u003e\u003c/code\u003e monad into a continuation\n   on \u003ccode\u003e\u003ca\u003eProgram\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Types",
           "name": "unJS",
           "package": "sunroof-compiler",
@@ -9053,6 +9646,7 @@
         "index": {
           "description": "Unwraps the JS monad into continuation on Program",
           "hierarchy": "Language Sunroof Types",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Types",
           "name": "unJS",
           "normalized": "JS a b-\u003e(b-\u003eProgram(JSI a)())-\u003eProgram(JSI a)()",
@@ -9095,6 +9689,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon utilities for Sunroof.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof.Utils",
           "name": "Utils",
           "package": "sunroof-compiler",
@@ -9104,6 +9699,7 @@
         "index": {
           "description": "Common utilities for Sunroof",
           "hierarchy": "Language Sunroof Utils",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof.Utils",
           "name": "Utils",
           "package": "sunroof-compiler",
@@ -9171,6 +9767,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSunroof provides a way to express Javascript computations in\n   Haskell. The computations can be expressed using the \u003ccode\u003e\u003ca\u003eJS\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003cp\u003eThere are ready to use API bindings for frequently used\n   Javascript:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eBrowser\u003c/a\u003e\u003c/code\u003e - Bindings of the standard browser APIs.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eCanvas\u003c/a\u003e\u003c/code\u003e - Bindings of the HTML5 canvas element API.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eJQuery\u003c/a\u003e\u003c/code\u003e - Bindings of some JQuery methods.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eDate\u003c/a\u003e\u003c/code\u003e - Bindings of the standard data API.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIt also provides an abstraction over Javascripts (not existing) threading\n   model. Cooperative multithreading can be emulated using the Sunroof\n   abstractions (\u003ccode\u003e\u003ca\u003eforkJS\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eyield\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eloop\u003c/a\u003e\u003c/code\u003e). Equivalents of well-known\n   Haskell concurrency abstractions like \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e\n   or \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e are also provided on Javascript level\n   through \u003ccode\u003e\u003ca\u003eJSMVar\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eJSChan\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eDue to the threading abstraction there are two kinds of computations.\n   They are indicated by the first type parameter of \u003ccode\u003e\u003ca\u003eJS\u003c/a\u003e\u003c/code\u003e (a \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e value).\n   Normal Javascript computations that can be assumed to terminate and\n   that may deliver a result value are written in the \u003ccode\u003e\u003ca\u003eJSA\u003c/a\u003e\u003c/code\u003e monad. While\n   possibly blocking computations (those that involve threading operations)\n   are written in the \u003ccode\u003e\u003ca\u003eJSB\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003cp\u003eAs the computations are expressed in Haskell, they have a functional\n   nature. It is possible to change the attribute values of objects using\n   \u003ccode\u003e\u003ca\u003e:=\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e#\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e o # att := val\n\u003c/pre\u003e\u003cp\u003eIf a top-level mutable variable is needed, use the \u003ccode\u003e\u003ca\u003eJSRef\u003c/a\u003e\u003c/code\u003e abstraction.\n   It is comparable to \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "Sunroof",
           "package": "sunroof-compiler",
@@ -9180,6 +9777,7 @@
         "index": {
           "description": "Sunroof provides way to express Javascript computations in Haskell The computations can be expressed using the JS monad There are ready to use API bindings for frequently used Javascript Browser Bindings of the standard browser APIs Canvas Bindings of the HTML5 canvas element API JQuery Bindings of some JQuery methods Date Bindings of the standard data API It also provides an abstraction over Javascripts not existing threading model Cooperative multithreading can be emulated using the Sunroof abstractions forkJS yield loop Equivalents of well-known Haskell concurrency abstractions like MVar or Chan are also provided on Javascript level through JSMVar and JSChan Due to the threading abstraction there are two kinds of computations They are indicated by the first type parameter of JS value Normal Javascript computations that can be assumed to terminate and that may deliver result value are written in the JSA monad While possibly blocking computations those that involve threading operations are written in the JSB monad As the computations are expressed in Haskell they have functional nature It is possible to change the attribute values of objects using and att val If top-level mutable variable is needed use the JSRef abstraction It is comparable to IORef",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "Sunroof",
           "package": "sunroof-compiler",
@@ -9194,6 +9792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions to setup the compiler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "CompilerOpts",
           "package": "sunroof-compiler",
@@ -9203,6 +9802,7 @@
         "index": {
           "description": "Options to setup the compiler",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "CompilerOpts",
           "package": "sunroof-compiler",
@@ -9217,6 +9817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monadic type of Javascript computations.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eJS t a\u003c/code\u003e is a computation using the thread model \u003ccode\u003et\u003c/code\u003e (see \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e).\n   It returns a result of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JS",
           "package": "sunroof-compiler",
@@ -9226,6 +9827,7 @@
         "index": {
           "description": "The monadic type of Javascript computations JS is computation using the thread model see It returns result of type",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JS",
           "package": "sunroof-compiler",
@@ -9240,6 +9842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand type for atmoic Javascript computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JSA",
           "package": "sunroof-compiler",
@@ -9249,6 +9852,7 @@
         "index": {
           "description": "Short-hand type for atmoic Javascript computations",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JSA",
           "package": "sunroof-compiler",
@@ -9263,6 +9867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType if arrays in Javascript. The type parameter\n   given the entry type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JSArray",
           "package": "sunroof-compiler",
@@ -9272,6 +9877,7 @@
         "index": {
           "description": "Type if arrays in Javascript The type parameter given the entry type",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JSArray",
           "package": "sunroof-compiler",
@@ -9286,6 +9892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-hand type for possibly blocking Javascript computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JSB",
           "package": "sunroof-compiler",
@@ -9295,6 +9902,7 @@
         "index": {
           "description": "Short-hand type for possibly blocking Javascript computations",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JSB",
           "package": "sunroof-compiler",
@@ -9309,6 +9917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBooleans in Javascript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JSBool",
           "package": "sunroof-compiler",
@@ -9318,6 +9927,7 @@
         "index": {
           "description": "Booleans in Javascript",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JSBool",
           "package": "sunroof-compiler",
@@ -9332,6 +9942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eJSChan\u003c/a\u003e\u003c/code\u003e abstraction. The type parameter gives\n   the type of values held in the channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JSChan",
           "package": "sunroof-compiler",
@@ -9341,6 +9952,7 @@
         "index": {
           "description": "JSChan abstraction The type parameter gives the type of values held in the channel",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JSChan",
           "package": "sunroof-compiler",
@@ -9355,6 +9967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of Javascript functions.\n   The first type argument is the type of function argument.\n   This needs to be a instance of \u003ccode\u003e\u003ca\u003eSunroofArgument\u003c/a\u003e\u003c/code\u003e.\n   The second type argument of \u003ccode\u003e\u003ca\u003eJSFunction\u003c/a\u003e\u003c/code\u003e is the function return type.\n   It needs to be a instance of \u003ccode\u003e\u003ca\u003eSunroof\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JSContinuation",
           "package": "sunroof-compiler",
@@ -9364,6 +9977,7 @@
         "index": {
           "description": "Type of Javascript functions The first type argument is the type of function argument This needs to be instance of SunroofArgument The second type argument of JSFunction is the function return type It needs to be instance of Sunroof",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JSContinuation",
           "package": "sunroof-compiler",
@@ -9378,6 +9992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of Javascript functions.\n   The first type argument is the type of function argument.\n   This needs to be a instance of \u003ccode\u003e\u003ca\u003eSunroofArgument\u003c/a\u003e\u003c/code\u003e.\n   The second type argument of \u003ccode\u003e\u003ca\u003eJSFunction\u003c/a\u003e\u003c/code\u003e is the function return type.\n   It needs to be a instance of \u003ccode\u003e\u003ca\u003eSunroof\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JSFunction",
           "package": "sunroof-compiler",
@@ -9387,6 +10002,7 @@
         "index": {
           "description": "Type of Javascript functions The first type argument is the type of function argument This needs to be instance of SunroofArgument The second type argument of JSFunction is the function return type It needs to be instance of Sunroof",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JSFunction",
           "package": "sunroof-compiler",
@@ -9401,6 +10017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eJSMVar\u003c/a\u003e\u003c/code\u003e abstraction. The type parameter gives\n   the type of values held in a \u003ccode\u003e\u003ca\u003eJSMVar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JSMVar",
           "package": "sunroof-compiler",
@@ -9410,6 +10027,7 @@
         "index": {
           "description": "JSMVar abstraction The type parameter gives the type of values held in JSMVar",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JSMVar",
           "package": "sunroof-compiler",
@@ -9424,6 +10042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of numbers in Javascript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JSNumber",
           "package": "sunroof-compiler",
@@ -9433,6 +10052,7 @@
         "index": {
           "description": "Type of numbers in Javascript",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JSNumber",
           "package": "sunroof-compiler",
@@ -9447,6 +10067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for all Javascript objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JSObject",
           "package": "sunroof-compiler",
@@ -9456,6 +10077,7 @@
         "index": {
           "description": "Data type for all Javascript objects",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JSObject",
           "package": "sunroof-compiler",
@@ -9470,6 +10092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the \u003ccode\u003eIORef\u003c/code\u003e of Sunroof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JSRef",
           "package": "sunroof-compiler",
@@ -9479,6 +10102,7 @@
         "index": {
           "description": "This is the IORef of Sunroof",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JSRef",
           "package": "sunroof-compiler",
@@ -9493,6 +10117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eJSSelector\u003c/a\u003e\u003c/code\u003e selects a field or attribute from a Javascript object.\n   The phantom type is the type of the selected value. Note the selected \n   field or attributes may also array entries (\u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JSSelector",
           "package": "sunroof-compiler",
@@ -9502,6 +10127,7 @@
         "index": {
           "description": "JSSelector selects field or attribute from Javascript object The phantom type is the type of the selected value Note the selected field or attributes may also array entries index",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JSSelector",
           "package": "sunroof-compiler",
@@ -9516,6 +10142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJavascript string type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JSString",
           "package": "sunroof-compiler",
@@ -9525,6 +10152,7 @@
         "index": {
           "description": "Javascript string type",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JSString",
           "package": "sunroof-compiler",
@@ -9539,6 +10167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf something is a \u003ccode\u003e\u003ca\u003eJSTuple\u003c/a\u003e\u003c/code\u003e, it can easily be decomposed and\n   recomposed from different components. This is meant as a convenient\n   access to attributes of an object.\n TODO: revisit this\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "JSTuple",
           "package": "sunroof-compiler",
@@ -9548,6 +10177,7 @@
         "index": {
           "description": "If something is JSTuple it can easily be decomposed and recomposed from different components This is meant as convenient access to attributes of an object TODO revisit this",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "JSTuple",
           "package": "sunroof-compiler",
@@ -9562,6 +10192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCentral type class of Sunroof. Every type that can be translated\n   into Javascript with Sunroof has to implement this type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "Sunroof",
           "package": "sunroof-compiler",
@@ -9571,6 +10202,7 @@
         "index": {
           "description": "Central type class of Sunroof Every type that can be translated into Javascript with Sunroof has to implement this type class",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "Sunroof",
           "package": "sunroof-compiler",
@@ -9585,6 +10217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEverything that can be used as argument to a function is Javascript/Sunroof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "SunroofArgument",
           "package": "sunroof-compiler",
@@ -9594,6 +10227,7 @@
         "index": {
           "description": "Everything that can be used as argument to function is Javascript Sunroof",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "SunroofArgument",
           "package": "sunroof-compiler",
@@ -9608,6 +10242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEverything that can be used as an key in a dictionary lookup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "SunroofKey",
           "package": "sunroof-compiler",
@@ -9617,6 +10252,7 @@
         "index": {
           "description": "Everything that can be used as an key in dictionary lookup",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "SunroofKey",
           "package": "sunroof-compiler",
@@ -9631,6 +10267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen implemented the type supports determining the threading model\n   during runtime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "SunroofThread",
           "package": "sunroof-compiler",
@@ -9640,6 +10277,7 @@
         "index": {
           "description": "When implemented the type supports determining the threading model during runtime",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "SunroofThread",
           "package": "sunroof-compiler",
@@ -9654,6 +10292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll Haskell values that have a Sunroof representation\n   implement this class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "SunroofValue",
           "package": "sunroof-compiler",
@@ -9663,6 +10302,7 @@
         "index": {
           "description": "All Haskell values that have Sunroof representation implement this class",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "SunroofValue",
           "package": "sunroof-compiler",
@@ -9677,6 +10317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe possible threading models for Javascript computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "T",
           "package": "sunroof-compiler",
@@ -9686,6 +10327,7 @@
         "index": {
           "description": "The possible threading models for Javascript computations",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "T",
           "package": "sunroof-compiler",
@@ -9699,6 +10341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA proxy to capture the type of threading model used.\n   See \u003ccode\u003e\u003ca\u003eSunroofThread\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "ThreadProxy",
           "package": "sunroof-compiler",
@@ -9708,6 +10351,7 @@
         "index": {
           "description": "proxy to capture the type of threading model used See SunroofThread",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "ThreadProxy",
           "package": "sunroof-compiler",
@@ -9722,6 +10366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract types for Javascript expressions in Sunroof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "Type",
           "package": "sunroof-compiler",
@@ -9731,6 +10376,7 @@
         "index": {
           "description": "Abstract types for Javascript expressions in Sunroof",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "Type",
           "package": "sunroof-compiler",
@@ -9745,6 +10391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a possibly blocking computation from the given one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "blockableJS",
           "package": "sunroof-compiler",
@@ -9755,6 +10402,7 @@
         "index": {
           "description": "Create possibly blocking computation from the given one",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "blockableJS",
           "normalized": "JS a b-\u003eJS B b",
@@ -9771,6 +10419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Sunroof value from a plain Javascript expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "box",
           "package": "sunroof-compiler",
@@ -9781,6 +10430,7 @@
         "index": {
           "description": "Create Sunroof value from plain Javascript expression",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "box",
           "normalized": "Expr-\u003ea",
@@ -9796,6 +10446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the used threading model captured the given \u003ccode\u003e\u003ca\u003eThreadProxy\u003c/a\u003e\u003c/code\u003e\n   object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "evalStyle",
           "package": "sunroof-compiler",
@@ -9806,6 +10457,7 @@
         "index": {
           "description": "Determine the used threading model captured the given ThreadProxy object",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "evalStyle",
           "normalized": "ThreadProxy a-\u003eT",
@@ -9822,6 +10474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the Haskell value to its Sunroof equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "js",
           "package": "sunroof-compiler",
@@ -9832,6 +10485,7 @@
         "index": {
           "description": "Convert the Haskell value to its Sunroof equivalent",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "js",
           "normalized": "a-\u003eValueOf a",
@@ -9847,6 +10501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn the argument into a list of expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "jsArgs",
           "package": "sunroof-compiler",
@@ -9857,6 +10512,7 @@
         "index": {
           "description": "Turn the argument into list of expressions",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "jsArgs",
           "normalized": "a-\u003e[Expr]",
@@ -9872,6 +10528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "jsKey",
           "package": "sunroof-compiler",
@@ -9881,6 +10538,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "jsKey",
           "normalized": "a-\u003eJSSelector b",
@@ -9897,6 +10555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a list of fresh variables for the arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "jsValue",
           "package": "sunroof-compiler",
@@ -9907,6 +10566,7 @@
         "index": {
           "description": "Create list of fresh variables for the arguments",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "jsValue",
           "package": "sunroof-compiler",
@@ -9920,6 +10580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "match",
           "package": "sunroof-compiler",
@@ -9929,6 +10590,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "match",
           "normalized": "a-\u003eInternals a",
@@ -9943,6 +10605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "tuple",
           "package": "sunroof-compiler",
@@ -9952,6 +10615,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "tuple",
           "normalized": "Internals a-\u003eJS b a",
@@ -9967,6 +10631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the type of Javascript expression this Sunroof value\n   represents. The default implementation returns \u003ccode\u003e\u003ca\u003eBase\u003c/a\u003e\u003c/code\u003e as type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "typeOf",
           "package": "sunroof-compiler",
@@ -9977,6 +10642,7 @@
         "index": {
           "description": "Returns the type of Javascript expression this Sunroof value represents The default implementation returns Base as type",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "typeOf",
           "normalized": "Proxy a-\u003eType",
@@ -9993,6 +10659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the type of the argument values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "typesOf",
           "package": "sunroof-compiler",
@@ -10003,6 +10670,7 @@
         "index": {
           "description": "Get the type of the argument values",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "typesOf",
           "normalized": "Proxy a-\u003e[Type]",
@@ -10019,6 +10687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReveal the plain Javascript expression that represents this Sunroof value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:46 UTC 2014",
           "module": "Language.Sunroof",
           "name": "unbox",
           "package": "sunroof-compiler",
@@ -10029,6 +10698,7 @@
         "index": {
           "description": "Reveal the plain Javascript expression that represents this Sunroof value",
           "hierarchy": "Language Sunroof",
+          "indexed": "2014-03-11T20:13:46",
           "module": "Language.Sunroof",
           "name": "unbox",
           "normalized": "a-\u003eExpr",

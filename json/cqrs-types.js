@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cqrs-types"
+        "phrase": "cqrs-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAggregate type class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.Aggregate",
           "name": "Aggregate",
           "package": "cqrs-types",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Aggregate type class",
           "hierarchy": "Data CQRS Aggregate",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.Aggregate",
           "name": "Aggregate",
           "package": "cqrs-types",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for aggregates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.Aggregate",
           "name": "Aggregate",
           "package": "cqrs-types",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type class for aggregates",
           "hierarchy": "Data CQRS Aggregate",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.Aggregate",
           "name": "Aggregate",
           "package": "cqrs-types",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEvent store backend. You only need to import this\n module if you're planning on implementing a custom\n event store backend.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "Backend",
           "package": "cqrs-types",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Event store backend You only need to import this module if you re planning on implementing custom event store backend",
           "hierarchy": "Data CQRS EventStore Backend",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "Backend",
           "package": "cqrs-types",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent stores are the backend used for reading and storing all the\n information about recorded events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "EventStoreBackend",
           "package": "cqrs-types",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Event stores are the backend used for reading and storing all the information about recorded events",
           "hierarchy": "Data CQRS EventStore Backend",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "EventStoreBackend",
           "package": "cqrs-types",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw event type. The data associated with an event is not\n translated in any way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "RawEvent",
           "package": "cqrs-types",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Raw event type The data associated with an event is not translated in any way",
           "hierarchy": "Data CQRS EventStore Backend",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "RawEvent",
           "package": "cqrs-types",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw snapshot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "RawSnapshot",
           "package": "cqrs-types",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Raw snapshot",
           "hierarchy": "Data CQRS EventStore Backend",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "RawSnapshot",
           "package": "cqrs-types",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "RawSnapshot",
           "package": "cqrs-types",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "RawSnapshot",
           "package": "cqrs-types",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate all events. There is no guarantee on the ordering\n of events \u003cem\u003eexcept\u003c/em\u003e that events for any specific aggregate root\n are returned in order of version number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "esbEnumerateAllEvents",
           "package": "cqrs-types",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Enumerate all events There is no guarantee on the ordering of events except that events for any specific aggregate root are returned in order of version number",
           "hierarchy": "Data CQRS EventStore Backend",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "esbEnumerateAllEvents",
           "normalized": "a-\u003eSource(ResourceT IO)RawEvent",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet latest snapshot of an aggregate identified by GUID.\n Returns the version number of the snapshot in addition to the\n data. An event store which does not support snapshots is\n permitted to return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e in all cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "esbGetLatestSnapshot",
           "package": "cqrs-types",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Get latest snapshot of an aggregate identified by GUID Returns the version number of the snapshot in addition to the data An event store which does not support snapshots is permitted to return Nothing in all cases",
           "hierarchy": "Data CQRS EventStore Backend",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "esbGetLatestSnapshot",
           "normalized": "a-\u003eGUID-\u003eIO(Maybe RawSnapshot)",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the sequence of events associated with the aggregate\n identified by the given GUID. Only events at or after the given\n version number are retrieved. The events are returned in\n increasing order of version number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "esbRetrieveEvents",
           "package": "cqrs-types",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Retrieve the sequence of events associated with the aggregate identified by the given GUID Only events at or after the given version number are retrieved The events are returned in increasing order of version number",
           "hierarchy": "Data CQRS EventStore Backend",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "esbRetrieveEvents",
           "normalized": "a-\u003eGUID-\u003eInt-\u003eSource(ResourceT IO)RawEvent",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a sequence of events for aggregate identified by GUID\n into the event store, starting at the provided version number.\n If the version number does not match the expected value, a\n failure occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "esbStoreEvents",
           "package": "cqrs-types",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Store sequence of events for aggregate identified by GUID into the event store starting at the provided version number If the version number does not match the expected value failure occurs",
           "hierarchy": "Data CQRS EventStore Backend",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "esbStoreEvents",
           "normalized": "a-\u003eGUID-\u003eInt-\u003e[RawEvent]-\u003eIO()",
@@ -283,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun transaction against the event store. The transaction is\n expected to commit if the supplied IO action runs to completion\n (i.e. doesn't throw an exception) and to rollback otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "esbWithTransaction",
           "package": "cqrs-types",
@@ -293,6 +316,7 @@
         "index": {
           "description": "Run transaction against the event store The transaction is expected to commit if the supplied IO action runs to completion i.e doesn throw an exception and to rollback otherwise",
           "hierarchy": "Data CQRS EventStore Backend",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "esbWithTransaction",
           "normalized": "a b c-\u003eIO d-\u003eIO d",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite snapshot for aggregate identified by GUID and\n the given version number. The version number is NOT checked\n for validity. If the event store does not support snapshots\n this function may do nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "esbWriteSnapshot",
           "package": "cqrs-types",
@@ -319,6 +344,7 @@
         "index": {
           "description": "Write snapshot for aggregate identified by GUID and the given version number The version number is NOT checked for validity If the event store does not support snapshots this function may do nothing",
           "hierarchy": "Data CQRS EventStore Backend",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "esbWriteSnapshot",
           "normalized": "a-\u003eGUID-\u003eRawSnapshot-\u003eIO()",
@@ -334,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "rsSnapshotData",
           "package": "cqrs-types",
@@ -343,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "rsSnapshotData",
           "package": "cqrs-types",
@@ -356,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "rsVersion",
           "package": "cqrs-types",
@@ -365,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.EventStore.Backend",
           "name": "rsVersion",
           "package": "cqrs-types",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEventable type class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.Eventable",
           "name": "Eventable",
           "package": "cqrs-types",
@@ -388,6 +419,7 @@
         "index": {
           "description": "Eventable type class",
           "hierarchy": "Data CQRS Eventable",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.Eventable",
           "name": "Eventable",
           "package": "cqrs-types",
@@ -402,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for applying events to aggregates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.Eventable",
           "name": "Eventable",
           "package": "cqrs-types",
@@ -411,6 +444,7 @@
         "index": {
           "description": "Type class for applying events to aggregates",
           "hierarchy": "Data CQRS Eventable",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.Eventable",
           "name": "Eventable",
           "package": "cqrs-types",
@@ -425,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an event to the aggregate and return the updated aggregate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.Eventable",
           "name": "applyEvent",
           "package": "cqrs-types",
@@ -435,6 +470,7 @@
         "index": {
           "description": "Apply an event to the aggregate and return the updated aggregate",
           "hierarchy": "Data CQRS Eventable",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.Eventable",
           "name": "applyEvent",
           "normalized": "Maybe a-\u003eb-\u003eMaybe a",
@@ -451,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGlobally Unique IDentifiers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.GUID",
           "name": "GUID",
           "package": "cqrs-types",
@@ -460,6 +497,7 @@
         "index": {
           "description": "Globally Unique IDentifiers",
           "hierarchy": "Data CQRS GUID",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.GUID",
           "name": "GUID",
           "package": "cqrs-types",
@@ -474,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Globally Unique IDentifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.GUID",
           "name": "GUID",
           "package": "cqrs-types",
@@ -483,6 +522,7 @@
         "index": {
           "description": "Globally Unique IDentifier",
           "hierarchy": "Data CQRS GUID",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.GUID",
           "name": "GUID",
           "package": "cqrs-types",
@@ -497,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a GUID from base64 representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.GUID",
           "name": "base64Decode",
           "package": "cqrs-types",
@@ -507,6 +548,7 @@
         "index": {
           "description": "Decode GUID from base64 representation",
           "hierarchy": "Data CQRS GUID",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.GUID",
           "name": "base64Decode",
           "normalized": "ByteString-\u003eMaybe GUID",
@@ -523,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase64 encode a GUID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.GUID",
           "name": "base64Encode",
           "package": "cqrs-types",
@@ -533,6 +576,7 @@
         "index": {
           "description": "Base64 encode GUID",
           "hierarchy": "Data CQRS GUID",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.GUID",
           "name": "base64Encode",
           "normalized": "GUID-\u003eByteString",
@@ -549,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.GUID",
           "name": "fromByteString",
           "package": "cqrs-types",
@@ -559,6 +604,7 @@
         "index": {
           "description": "Convert from ByteString",
           "hierarchy": "Data CQRS GUID",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.GUID",
           "name": "fromByteString",
           "normalized": "ByteString-\u003eGUID",
@@ -575,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a GUID from hex representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.GUID",
           "name": "hexDecode",
           "package": "cqrs-types",
@@ -585,6 +632,7 @@
         "index": {
           "description": "Decode GUID from hex representation",
           "hierarchy": "Data CQRS GUID",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.GUID",
           "name": "hexDecode",
           "normalized": "ByteString-\u003eMaybe GUID",
@@ -601,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHex encode a GUID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.GUID",
           "name": "hexEncode",
           "package": "cqrs-types",
@@ -611,6 +660,7 @@
         "index": {
           "description": "Hex encode GUID",
           "hierarchy": "Data CQRS GUID",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.GUID",
           "name": "hexEncode",
           "normalized": "GUID-\u003eByteString",
@@ -627,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new random GUID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.GUID",
           "name": "newGUID",
           "package": "cqrs-types",
@@ -637,6 +688,7 @@
         "index": {
           "description": "Create new random GUID",
           "hierarchy": "Data CQRS GUID",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.GUID",
           "name": "newGUID",
           "package": "cqrs-types",
@@ -651,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.GUID",
           "name": "toByteString",
           "package": "cqrs-types",
@@ -661,6 +714,7 @@
         "index": {
           "description": "Convert to ByteString",
           "hierarchy": "Data CQRS GUID",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.GUID",
           "name": "toByteString",
           "normalized": "GUID-\u003eByteString",
@@ -676,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.PersistedEvent",
           "name": "PersistedEvent",
           "package": "cqrs-types",
@@ -684,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS PersistedEvent",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.PersistedEvent",
           "name": "PersistedEvent",
           "package": "cqrs-types",
@@ -698,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePersisted Event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.PersistedEvent",
           "name": "PersistedEvent",
           "package": "cqrs-types",
@@ -707,6 +764,7 @@
         "index": {
           "description": "Persisted Event",
           "hierarchy": "Data CQRS PersistedEvent",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.PersistedEvent",
           "name": "PersistedEvent",
           "package": "cqrs-types",
@@ -720,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.PersistedEvent",
           "name": "PersistedEvent",
           "package": "cqrs-types",
@@ -729,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS PersistedEvent",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.PersistedEvent",
           "name": "PersistedEvent",
           "package": "cqrs-types",
@@ -743,6 +803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGUID of the aggregate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.PersistedEvent",
           "name": "peAggregateGUID",
           "package": "cqrs-types",
@@ -753,6 +814,7 @@
         "index": {
           "description": "GUID of the aggregate",
           "hierarchy": "Data CQRS PersistedEvent",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.PersistedEvent",
           "name": "peAggregateGUID",
           "package": "cqrs-types",
@@ -767,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.PersistedEvent",
           "name": "peEvent",
           "package": "cqrs-types",
@@ -777,6 +840,7 @@
         "index": {
           "description": "Event",
           "hierarchy": "Data CQRS PersistedEvent",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.PersistedEvent",
           "name": "peEvent",
           "package": "cqrs-types",
@@ -791,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence number within the aggregate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.PersistedEvent",
           "name": "peSequenceNumber",
           "package": "cqrs-types",
@@ -801,6 +866,7 @@
         "index": {
           "description": "Sequence number within the aggregate",
           "hierarchy": "Data CQRS PersistedEvent",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.PersistedEvent",
           "name": "peSequenceNumber",
           "package": "cqrs-types",
@@ -815,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSerialization support. This is mainly used for compatibility\n with whatever serialization library you want to use.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.Serializable",
           "name": "Serializable",
           "package": "cqrs-types",
@@ -824,6 +891,7 @@
         "index": {
           "description": "Serialization support This is mainly used for compatibility with whatever serialization library you want to use",
           "hierarchy": "Data CQRS Serializable",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.Serializable",
           "name": "Serializable",
           "package": "cqrs-types",
@@ -838,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialization support for values of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.Serializable",
           "name": "Serializable",
           "package": "cqrs-types",
@@ -847,6 +916,7 @@
         "index": {
           "description": "Serialization support for values of type",
           "hierarchy": "Data CQRS Serializable",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.Serializable",
           "name": "Serializable",
           "package": "cqrs-types",
@@ -861,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDe-serialize a value from a byte string. Should return\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if decoding is not possible due to a now-invalid\n representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.Serializable",
           "name": "deserialize",
           "package": "cqrs-types",
@@ -871,6 +942,7 @@
         "index": {
           "description": "De-serialize value from byte string Should return Nothing if decoding is not possible due to now-invalid representation",
           "hierarchy": "Data CQRS Serializable",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.Serializable",
           "name": "deserialize",
           "normalized": "ByteString-\u003eMaybe a",
@@ -886,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a value. The serialized representation\n should contain some metadata (a UUID for example)\n which can be used to check reliably whether the encoded\n representation is semantically valid upon decoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:29 UTC 2014",
           "module": "Data.CQRS.Serializable",
           "name": "serialize",
           "package": "cqrs-types",
@@ -896,6 +969,7 @@
         "index": {
           "description": "Serialize value The serialized representation should contain some metadata UUID for example which can be used to check reliably whether the encoded representation is semantically valid upon decoding",
           "hierarchy": "Data CQRS Serializable",
+          "indexed": "2014-03-11T17:42:29",
           "module": "Data.CQRS.Serializable",
           "name": "serialize",
           "normalized": "a-\u003eByteString",

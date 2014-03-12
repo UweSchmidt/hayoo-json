@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "numeric-quest"
+        "phrase": "numeric-quest",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Eigensystem",
           "name": "Eigensystem",
           "package": "numeric-quest",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Eigensystem",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Eigensystem",
           "name": "Eigensystem",
           "package": "numeric-quest",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Eigensystem",
           "name": "adjoint",
           "package": "numeric-quest",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Eigensystem",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Eigensystem",
           "name": "adjoint",
           "normalized": "[Ket a]-\u003e(Ket a-\u003eKet a)-\u003eKet a-\u003eKet a",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Eigensystem",
           "name": "eigenvalues",
           "package": "numeric-quest",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Eigensystem",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Eigensystem",
           "name": "eigenvalues",
           "normalized": "Bool-\u003eInt-\u003e[Ket a]-\u003e(Ket a-\u003eKet a)-\u003e[Scalar]",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "EigensystemNum",
           "name": "EigensystemNum",
           "package": "numeric-quest",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "EigensystemNum",
+          "indexed": "2014-03-11T19:30:45",
           "module": "EigensystemNum",
           "name": "EigensystemNum",
           "package": "numeric-quest",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "EigensystemNum",
           "name": "eigenValuesApprox",
           "package": "numeric-quest",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "EigensystemNum",
+          "indexed": "2014-03-11T19:30:45",
           "module": "EigensystemNum",
           "name": "eigenValuesApprox",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "EigensystemNum",
           "name": "getGrowth",
           "package": "numeric-quest",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "EigensystemNum",
+          "indexed": "2014-03-11T19:30:45",
           "module": "EigensystemNum",
           "name": "getGrowth",
           "normalized": "([[a]],[[a]])-\u003ea",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "EigensystemNum",
           "name": "limit",
           "package": "numeric-quest",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "EigensystemNum",
+          "indexed": "2014-03-11T19:30:45",
           "module": "EigensystemNum",
           "name": "limit",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "EigensystemNum",
           "name": "matSqr",
           "package": "numeric-quest",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "EigensystemNum",
+          "indexed": "2014-03-11T19:30:45",
           "module": "EigensystemNum",
           "name": "matSqr",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "EigensystemNum",
           "name": "mult",
           "package": "numeric-quest",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "EigensystemNum",
+          "indexed": "2014-03-11T19:30:45",
           "module": "EigensystemNum",
           "name": "mult",
           "normalized": "[[a]]-\u003e[[a]]-\u003e[[a]]",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "EigensystemNum",
           "name": "normalize",
           "package": "numeric-quest",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "EigensystemNum",
+          "indexed": "2014-03-11T19:30:45",
           "module": "EigensystemNum",
           "name": "normalize",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "EigensystemNum",
           "name": "powerIter",
           "package": "numeric-quest",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "EigensystemNum",
+          "indexed": "2014-03-11T19:30:45",
           "module": "EigensystemNum",
           "name": "powerIter",
           "normalized": "[[a]]-\u003e[([[a]],[[a]])]",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "EigensystemNum",
           "name": "specRadApprox",
           "package": "numeric-quest",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "EigensystemNum",
+          "indexed": "2014-03-11T19:30:45",
           "module": "EigensystemNum",
           "name": "specRadApprox",
           "normalized": "[[a]]-\u003e[a]",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "Fraction",
           "package": "numeric-quest",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "Fraction",
           "package": "numeric-quest",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "CF",
           "package": "numeric-quest",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "CF",
           "package": "numeric-quest",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "Fraction",
           "package": "numeric-quest",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "Fraction",
           "package": "numeric-quest",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "Transcendental",
           "package": "numeric-quest",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "Transcendental",
           "package": "numeric-quest",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "(//)",
           "package": "numeric-quest",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "(//) //",
           "normalized": "Integer-\u003eInteger-\u003eFraction",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": ":-:",
           "package": "numeric-quest",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": ":-:",
           "package": "numeric-quest",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "acos'",
           "package": "numeric-quest",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "acos'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "acosh'",
           "package": "numeric-quest",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "acosh'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "approx",
           "package": "numeric-quest",
@@ -478,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "approx",
           "normalized": "Fraction-\u003eFraction-\u003eFraction",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "approxCF",
           "package": "numeric-quest",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "approxCF",
           "normalized": "Fraction-\u003eCF-\u003eFraction",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "asin'",
           "package": "numeric-quest",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "asin'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -539,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "asinh'",
           "package": "numeric-quest",
@@ -548,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "asinh'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -562,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "atan'",
           "package": "numeric-quest",
@@ -571,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "atan'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "atanh'",
           "package": "numeric-quest",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "atanh'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "cos'",
           "package": "numeric-quest",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "cos'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -631,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "cosh'",
           "package": "numeric-quest",
@@ -640,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "cosh'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -654,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "decimal",
           "package": "numeric-quest",
@@ -663,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "decimal",
           "normalized": "Integer-\u003ea-\u003eIO()",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "den",
           "package": "numeric-quest",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "den",
           "normalized": "Fraction-\u003eInteger",
@@ -700,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "exp'",
           "package": "numeric-quest",
@@ -709,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "exp'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "fac",
           "package": "numeric-quest",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "fac",
           "normalized": "Integer-\u003eInteger",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "fromCF",
           "package": "numeric-quest",
@@ -755,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "fromCF",
           "normalized": "CF-\u003eFraction",
@@ -770,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "fromFraction",
           "package": "numeric-quest",
@@ -779,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "fromFraction",
           "normalized": "Fraction-\u003eDouble",
@@ -794,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "fromTaylorToCF",
           "package": "numeric-quest",
@@ -803,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "fromTaylorToCF",
           "normalized": "[a]-\u003ea-\u003e[(a,a)]",
@@ -818,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "integerRoot2",
           "package": "numeric-quest",
@@ -827,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "integerRoot2",
           "normalized": "Integer-\u003eInteger",
@@ -842,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "log'",
           "package": "numeric-quest",
@@ -851,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "log'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -865,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "num",
           "package": "numeric-quest",
@@ -874,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "num",
           "normalized": "Fraction-\u003eInteger",
@@ -888,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "numericEnumFrom",
           "package": "numeric-quest",
@@ -897,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "numericEnumFrom",
           "normalized": "a-\u003e[a]",
@@ -912,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "numericEnumFromThen",
           "package": "numeric-quest",
@@ -921,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "numericEnumFromThen",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "numericEnumFromThenTo",
           "package": "numeric-quest",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "numericEnumFromThenTo",
           "normalized": "a-\u003ea-\u003ea-\u003e[a]",
@@ -960,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "numericEnumFromTo",
           "package": "numeric-quest",
@@ -969,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "numericEnumFromTo",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -984,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "pi'",
           "package": "numeric-quest",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "pi'",
           "normalized": "Fraction-\u003ea",
@@ -1007,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "power'",
           "package": "numeric-quest",
@@ -1016,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "power'",
           "normalized": "Fraction-\u003ea-\u003ea-\u003ea",
@@ -1030,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "reduce",
           "package": "numeric-quest",
@@ -1039,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "reduce",
           "normalized": "Fraction-\u003eFraction",
@@ -1053,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "root'",
           "package": "numeric-quest",
@@ -1062,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "root'",
           "normalized": "Fraction-\u003ea-\u003eInteger-\u003ea",
@@ -1076,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "sin'",
           "package": "numeric-quest",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "sin'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -1099,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "sinh'",
           "package": "numeric-quest",
@@ -1108,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "sinh'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -1122,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "sqrt'",
           "package": "numeric-quest",
@@ -1131,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "sqrt'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -1145,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "tan'",
           "package": "numeric-quest",
@@ -1154,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "tan'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -1168,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "tanh'",
           "package": "numeric-quest",
@@ -1177,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "tanh'",
           "normalized": "Fraction-\u003ea-\u003ea",
@@ -1191,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Fraction",
           "name": "toCF",
           "package": "numeric-quest",
@@ -1200,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Fraction",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Fraction",
           "name": "toCF",
           "normalized": "Fraction-\u003eCF",
@@ -1215,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "LinearAlgorithms",
           "name": "LinearAlgorithms",
           "package": "numeric-quest",
@@ -1223,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "LinearAlgorithms",
+          "indexed": "2014-03-11T19:30:45",
           "module": "LinearAlgorithms",
           "name": "LinearAlgorithms",
           "package": "numeric-quest",
@@ -1236,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "LinearAlgorithms",
           "name": "Scalar",
           "package": "numeric-quest",
@@ -1244,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "LinearAlgorithms",
+          "indexed": "2014-03-11T19:30:45",
           "module": "LinearAlgorithms",
           "name": "Scalar",
           "package": "numeric-quest",
@@ -1257,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "LinearAlgorithms",
           "name": "triangular",
           "package": "numeric-quest",
@@ -1266,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "LinearAlgorithms",
+          "indexed": "2014-03-11T19:30:45",
           "module": "LinearAlgorithms",
           "name": "triangular",
           "normalized": "Int-\u003e[[Scalar]]-\u003e[[Scalar]]",
@@ -1280,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "LinearAlgorithms",
           "name": "triangular2",
           "package": "numeric-quest",
@@ -1289,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "LinearAlgorithms",
+          "indexed": "2014-03-11T19:30:45",
           "module": "LinearAlgorithms",
           "name": "triangular2",
           "normalized": "Int-\u003e[[Scalar]]-\u003e([[Scalar]],[[Scalar]])",
@@ -1303,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "LinearAlgorithms",
           "name": "tridiagonal",
           "package": "numeric-quest",
@@ -1312,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "LinearAlgorithms",
+          "indexed": "2014-03-11T19:30:45",
           "module": "LinearAlgorithms",
           "name": "tridiagonal",
           "normalized": "[[Scalar]]-\u003e[[Scalar]]",
@@ -1326,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "LinearAlgorithms",
           "name": "tridiagonal2",
           "package": "numeric-quest",
@@ -1335,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "LinearAlgorithms",
+          "indexed": "2014-03-11T19:30:45",
           "module": "LinearAlgorithms",
           "name": "tridiagonal2",
           "normalized": "[[Scalar]]-\u003e([[Scalar]],[[Scalar]])",
@@ -1349,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "Orthogonals",
           "package": "numeric-quest",
@@ -1357,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "Orthogonals",
           "package": "numeric-quest",
@@ -1370,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "Scalar",
           "package": "numeric-quest",
@@ -1378,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "Scalar",
           "package": "numeric-quest",
@@ -1392,6 +1512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd corresponding numbers of two lists. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "addVec",
           "package": "numeric-quest",
@@ -1402,6 +1523,7 @@
         "index": {
           "description": "Add corresponding numbers of two lists",
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "addVec",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -1417,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "add_matrices",
           "package": "numeric-quest",
@@ -1426,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "add_matrices",
           "normalized": "a-\u003ea-\u003e[[b]]-\u003e[[b]]-\u003e[[b]]",
@@ -1440,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "add_to_diagonal",
           "package": "numeric-quest",
@@ -1449,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "add_to_diagonal",
           "normalized": "a-\u003e[[a]]-\u003e[[a]]",
@@ -1463,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "adjoint",
           "package": "numeric-quest",
@@ -1472,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "adjoint",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -1486,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "almostZero",
           "package": "numeric-quest",
@@ -1495,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "almostZero",
           "normalized": "a-\u003eBool",
@@ -1510,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "alternate",
           "package": "numeric-quest",
@@ -1519,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "alternate",
           "normalized": "[a]-\u003e[a]",
@@ -1533,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "bra_ket",
           "package": "numeric-quest",
@@ -1542,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "bra_ket",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -1556,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "bra_matrix",
           "package": "numeric-quest",
@@ -1565,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "bra_matrix",
           "normalized": "[a]-\u003e[[a]]-\u003e[a]",
@@ -1579,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "bra_matrix_ket",
           "package": "numeric-quest",
@@ -1588,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "bra_matrix_ket",
           "normalized": "[a]-\u003e[[a]]-\u003e[a]-\u003ea",
@@ -1602,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "coupled",
           "package": "numeric-quest",
@@ -1611,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "coupled",
           "normalized": "a-\u003ea",
@@ -1625,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "determinant",
           "package": "numeric-quest",
@@ -1634,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "determinant",
           "normalized": "[[a]]-\u003ea",
@@ -1648,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "determinantClow",
           "package": "numeric-quest",
@@ -1657,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "determinantClow",
           "normalized": "[[a]]-\u003ea",
@@ -1672,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "determinantNaive",
           "package": "numeric-quest",
@@ -1681,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "determinantNaive",
           "normalized": "[[a]]-\u003ea",
@@ -1696,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "diagonals",
           "package": "numeric-quest",
@@ -1705,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "diagonals",
           "normalized": "[[a]]-\u003e[a]",
@@ -1719,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "eigenket'",
           "package": "numeric-quest",
@@ -1728,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "eigenket'",
           "normalized": "[[a]]-\u003ea-\u003ea-\u003e[a]-\u003e[a]",
@@ -1742,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "eigenkets",
           "package": "numeric-quest",
@@ -1751,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "eigenkets",
           "normalized": "[[a]]-\u003e[a]-\u003e[[a]]",
@@ -1765,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "eigenvalues",
           "package": "numeric-quest",
@@ -1774,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "eigenvalues",
           "normalized": "[[a]]-\u003ea-\u003e[a]",
@@ -1788,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "extendClow",
           "package": "numeric-quest",
@@ -1797,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "extendClow",
           "normalized": "[[a]]-\u003e[[a]]-\u003e[[a]]",
@@ -1812,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "factors_QR",
           "package": "numeric-quest",
@@ -1821,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "factors_QR",
           "normalized": "[[a]]-\u003e([[a]],[[a]])",
@@ -1836,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "gram_schmidt",
           "package": "numeric-quest",
@@ -1845,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "gram_schmidt",
           "normalized": "[[a]]-\u003e[a]-\u003e[a]",
@@ -1859,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "inverse",
           "package": "numeric-quest",
@@ -1868,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "inverse",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -1882,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "iterated_eigenvalues",
           "package": "numeric-quest",
@@ -1891,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "iterated_eigenvalues",
           "normalized": "[[a]]-\u003ea-\u003e[[a]]",
@@ -1905,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "longerClow",
           "package": "numeric-quest",
@@ -1914,6 +2079,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "longerClow",
           "normalized": "[[a]]-\u003e[[a]]-\u003e[[a]]",
@@ -1929,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "many_kets_solution",
           "package": "numeric-quest",
@@ -1938,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "many_kets_solution",
           "normalized": "[[a]]-\u003e[[a]]-\u003e[[a]]",
@@ -1952,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "many_kets_triangle",
           "package": "numeric-quest",
@@ -1961,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "many_kets_triangle",
           "normalized": "[[a]]-\u003e[[a]]-\u003e[([a],[a])]",
@@ -1975,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "matnorm1",
           "package": "numeric-quest",
@@ -1984,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "matnorm1",
           "normalized": "[[a]]-\u003ea",
@@ -1998,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "matnorminf",
           "package": "numeric-quest",
@@ -2007,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "matnorminf",
           "normalized": "[[a]]-\u003ea",
@@ -2021,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "matrix_ket",
           "package": "numeric-quest",
@@ -2030,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "matrix_ket",
           "normalized": "[[a]]-\u003e[a]-\u003e[a]",
@@ -2044,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "matrix_matrix",
           "package": "numeric-quest",
@@ -2053,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "matrix_matrix",
           "normalized": "[[a]]-\u003e[[a]]-\u003e[[a]]",
@@ -2067,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "matrix_matrix'",
           "package": "numeric-quest",
@@ -2076,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "matrix_matrix'",
           "normalized": "[[a]]-\u003e[[a]]-\u003e[[a]]",
@@ -2090,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "matrix_zipWith",
           "package": "numeric-quest",
@@ -2099,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "matrix_zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003e[[a]]-\u003e[[b]]-\u003e[[c]]",
@@ -2115,6 +2297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompositional power of a function,\n       i.e. apply the function n times to a value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "nest",
           "package": "numeric-quest",
@@ -2125,6 +2308,7 @@
         "index": {
           "description": "Compositional power of function i.e apply the function times to value",
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "nest",
           "normalized": "Int-\u003e(a-\u003ea)-\u003ea-\u003ea",
@@ -2139,6 +2323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "newClow",
           "package": "numeric-quest",
@@ -2148,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "newClow",
           "normalized": "[[a]]-\u003e[[a]]-\u003e[a]",
@@ -2163,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "norm",
           "package": "numeric-quest",
@@ -2172,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "norm",
           "normalized": "[a]-\u003ea",
@@ -2186,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "norm1",
           "package": "numeric-quest",
@@ -2195,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "norm1",
           "normalized": "[a]-\u003ea",
@@ -2209,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "normalized",
           "package": "numeric-quest",
@@ -2218,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "normalized",
           "normalized": "[a]-\u003e[a]",
@@ -2232,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "norminf",
           "package": "numeric-quest",
@@ -2241,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "norminf",
           "normalized": "[a]-\u003ea",
@@ -2255,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "one_ket_solution",
           "package": "numeric-quest",
@@ -2264,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "one_ket_solution",
           "normalized": "[[a]]-\u003e[a]-\u003e[a]",
@@ -2278,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "one_ket_triangle",
           "package": "numeric-quest",
@@ -2287,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "one_ket_triangle",
           "normalized": "[[a]]-\u003e[a]-\u003e[([a],a)]",
@@ -2301,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "orthogonals",
           "package": "numeric-quest",
@@ -2310,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "orthogonals",
           "normalized": "[a]-\u003e[[a]]",
@@ -2324,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "parityFlip",
           "package": "numeric-quest",
@@ -2333,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "parityFlip",
           "normalized": "Int-\u003ea-\u003ea",
@@ -2348,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "removeEach",
           "package": "numeric-quest",
@@ -2357,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "removeEach",
           "normalized": "[a]-\u003e[[a]]",
@@ -2372,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "scalar_matrix",
           "package": "numeric-quest",
@@ -2381,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "scalar_matrix",
           "normalized": "a-\u003e[[a]]-\u003e[[a]]",
@@ -2396,6 +2602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeight a list of numbers by a scalar. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "scaleVec",
           "package": "numeric-quest",
@@ -2406,6 +2613,7 @@
         "index": {
           "description": "Weight list of numbers by scalar",
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "scaleVec",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -2421,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "scaled",
           "package": "numeric-quest",
@@ -2430,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "scaled",
           "normalized": "[a]-\u003e[a]",
@@ -2444,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "scaled'",
           "package": "numeric-quest",
@@ -2453,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "scaled'",
           "normalized": "[a]-\u003e[a]",
@@ -2467,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "similar_to",
           "package": "numeric-quest",
@@ -2476,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "similar_to",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -2491,6 +2705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd some lists. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "sumVec",
           "package": "numeric-quest",
@@ -2501,6 +2716,7 @@
         "index": {
           "description": "Add some lists",
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "sumVec",
           "normalized": "[[a]]-\u003e[a]",
@@ -2516,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "sum_product",
           "package": "numeric-quest",
@@ -2525,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "sum_product",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -2539,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "transposed",
           "package": "numeric-quest",
@@ -2548,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "transposed",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -2562,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "triangle_matrix'",
           "package": "numeric-quest",
@@ -2571,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "triangle_matrix'",
           "normalized": "[[a]]-\u003e[[a]]-\u003e[[a]]",
@@ -2585,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "unit_matrix",
           "package": "numeric-quest",
@@ -2594,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "unit_matrix",
           "normalized": "Int-\u003e[[a]]",
@@ -2608,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Orthogonals",
           "name": "unit_vector",
           "package": "numeric-quest",
@@ -2617,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Orthogonals",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Orthogonals",
           "name": "unit_vector",
           "normalized": "Int-\u003eInt-\u003e[a]",
@@ -2631,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "QuantumVector",
           "package": "numeric-quest",
@@ -2639,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "QuantumVector",
           "package": "numeric-quest",
@@ -2652,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "Bra",
           "package": "numeric-quest",
@@ -2660,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "Bra",
           "package": "numeric-quest",
@@ -2673,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "DiracVector",
           "package": "numeric-quest",
@@ -2681,6 +2912,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "DiracVector",
           "package": "numeric-quest",
@@ -2694,6 +2926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "Ket",
           "package": "numeric-quest",
@@ -2702,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "Ket",
           "package": "numeric-quest",
@@ -2715,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "Scalar",
           "package": "numeric-quest",
@@ -2723,6 +2958,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "Scalar",
           "package": "numeric-quest",
@@ -2736,6 +2972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "Tuple",
           "package": "numeric-quest",
@@ -2744,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "Tuple",
           "package": "numeric-quest",
@@ -2757,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "(|\u003e)",
           "package": "numeric-quest",
@@ -2766,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "(|\u003e) |\u003e",
           "normalized": "Scalar-\u003eKet a-\u003eKet a",
@@ -2780,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "(*\u003e)",
           "package": "numeric-quest",
@@ -2789,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "(*\u003e) *\u003e",
           "normalized": "Ket a-\u003eKet b-\u003eKet(Tuple a b)",
@@ -2803,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "(+\u003e)",
           "package": "numeric-quest",
@@ -2812,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "(+\u003e) +\u003e",
           "normalized": "Ket a-\u003eKet a-\u003eKet a",
@@ -2826,6 +3070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "(\u003c|)",
           "package": "numeric-quest",
@@ -2835,6 +3080,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "(\u003c|) \u003c|",
           "normalized": "Scalar-\u003eBra a-\u003eBra a",
@@ -2849,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "(\u003c*)",
           "package": "numeric-quest",
@@ -2858,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "(\u003c*) \u003c*",
           "normalized": "Bra a-\u003eBra b-\u003eBra(Tuple a b)",
@@ -2872,6 +3120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "(\u003c+)",
           "package": "numeric-quest",
@@ -2881,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "(\u003c+) \u003c+",
           "normalized": "Bra a-\u003eBra a-\u003eBra a",
@@ -2895,6 +3145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "(\u003c\u003e)",
           "package": "numeric-quest",
@@ -2904,6 +3155,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "Bra a-\u003eKet a-\u003eScalar",
@@ -2918,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "(\u003e\u003c)",
           "package": "numeric-quest",
@@ -2927,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -2941,6 +3195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": ":|\u003e",
           "package": "numeric-quest",
@@ -2950,6 +3205,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": ":|\u003e",
           "package": "numeric-quest",
@@ -2962,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": ":*",
           "package": "numeric-quest",
@@ -2971,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": ":*",
           "package": "numeric-quest",
@@ -2983,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": ":+\u003e",
           "package": "numeric-quest",
@@ -2992,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": ":+\u003e",
           "package": "numeric-quest",
@@ -3004,6 +3264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": ":\u003c|",
           "package": "numeric-quest",
@@ -3013,6 +3274,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": ":\u003c|",
           "package": "numeric-quest",
@@ -3025,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": ":\u003c+",
           "package": "numeric-quest",
@@ -3034,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": ":\u003c+",
           "package": "numeric-quest",
@@ -3046,6 +3310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "Bra",
           "package": "numeric-quest",
@@ -3055,6 +3320,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "Bra",
           "package": "numeric-quest",
@@ -3068,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "BraZero",
           "package": "numeric-quest",
@@ -3077,6 +3344,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "BraZero",
           "package": "numeric-quest",
@@ -3090,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "Ket",
           "package": "numeric-quest",
@@ -3099,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "Ket",
           "package": "numeric-quest",
@@ -3112,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "KetZero",
           "package": "numeric-quest",
@@ -3121,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "KetZero",
           "package": "numeric-quest",
@@ -3134,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "add",
           "package": "numeric-quest",
@@ -3143,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "add",
           "normalized": "a-\u003ea-\u003ea",
@@ -3157,6 +3431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "basis",
           "package": "numeric-quest",
@@ -3166,6 +3441,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "basis",
           "normalized": "a-\u003e[a]",
@@ -3180,6 +3456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "braBasis",
           "package": "numeric-quest",
@@ -3189,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "braBasis",
           "normalized": "Bra a-\u003e[Bra a]",
@@ -3204,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "closure",
           "package": "numeric-quest",
@@ -3213,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "closure",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -3227,6 +3507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "components",
           "package": "numeric-quest",
@@ -3236,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "components",
           "normalized": "a-\u003e[Scalar]",
@@ -3250,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "compose",
           "package": "numeric-quest",
@@ -3259,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "compose",
           "normalized": "[Scalar]-\u003e[a]-\u003ea",
@@ -3273,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "d",
           "package": "numeric-quest",
@@ -3282,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "d",
           "normalized": "a-\u003ea-\u003eScalar",
@@ -3296,6 +3582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "dimension",
           "package": "numeric-quest",
@@ -3305,6 +3592,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "dimension",
           "normalized": "a-\u003eInt",
@@ -3319,6 +3607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "ketBasis",
           "package": "numeric-quest",
@@ -3328,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "ketBasis",
           "normalized": "Ket a-\u003e[Ket a]",
@@ -3343,6 +3633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "label",
           "package": "numeric-quest",
@@ -3352,6 +3643,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "label",
           "normalized": "a-\u003eKet a-\u003eKet(a,a)",
@@ -3366,6 +3658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "label'",
           "package": "numeric-quest",
@@ -3375,6 +3668,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "label'",
           "normalized": "Ket(a,b)-\u003eKet b",
@@ -3389,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "norm",
           "package": "numeric-quest",
@@ -3398,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "norm",
           "normalized": "a-\u003eDouble",
@@ -3412,6 +3708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "normalize",
           "package": "numeric-quest",
@@ -3421,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "normalize",
           "normalized": "a-\u003ea",
@@ -3435,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "reduce",
           "package": "numeric-quest",
@@ -3444,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "reduce",
           "normalized": "a-\u003ea",
@@ -3458,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "reduceBra",
           "package": "numeric-quest",
@@ -3467,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "reduceBra",
           "normalized": "Bra a-\u003eBra a",
@@ -3482,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "reduceKet",
           "package": "numeric-quest",
@@ -3491,6 +3794,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "reduceKet",
           "normalized": "Ket a-\u003eKet a",
@@ -3506,6 +3810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "rot",
           "package": "numeric-quest",
@@ -3515,6 +3820,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "rot",
           "normalized": "Ket Int-\u003eKet(Int,Int)",
@@ -3529,6 +3835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "rot'",
           "package": "numeric-quest",
@@ -3538,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "rot'",
           "normalized": "Ket(Int,Int)-\u003eKet Int",
@@ -3552,6 +3860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "scale",
           "package": "numeric-quest",
@@ -3561,6 +3870,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "scale",
           "normalized": "Scalar-\u003ea-\u003ea",
@@ -3575,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "showsScalar",
           "package": "numeric-quest",
@@ -3584,6 +3895,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "showsScalar",
           "normalized": "Int-\u003eComplex a-\u003eString-\u003eString",
@@ -3599,6 +3911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "toBra",
           "package": "numeric-quest",
@@ -3608,6 +3921,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "toBra",
           "normalized": "Ket a-\u003eBra a",
@@ -3623,6 +3937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "QuantumVector",
           "name": "toKet",
           "package": "numeric-quest",
@@ -3632,6 +3947,7 @@
         },
         "index": {
           "hierarchy": "QuantumVector",
+          "indexed": "2014-03-11T19:30:45",
           "module": "QuantumVector",
           "name": "toKet",
           "normalized": "Bra a-\u003eKet a",
@@ -3647,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Roots",
           "name": "Roots",
           "package": "numeric-quest",
@@ -3655,6 +3972,7 @@
         },
         "index": {
           "hierarchy": "Roots",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Roots",
           "name": "Roots",
           "package": "numeric-quest",
@@ -3668,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Roots",
           "name": "laguerre",
           "package": "numeric-quest",
@@ -3677,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "Roots",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Roots",
           "name": "laguerre",
           "normalized": "a-\u003eInt-\u003e[Complex a]-\u003eComplex a-\u003eComplex a",
@@ -3691,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Roots",
           "name": "polynomial_derivative",
           "package": "numeric-quest",
@@ -3700,6 +4021,7 @@
         },
         "index": {
           "hierarchy": "Roots",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Roots",
           "name": "polynomial_derivative",
           "normalized": "[a]-\u003e[a]",
@@ -3714,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Roots",
           "name": "polynomial_value",
           "package": "numeric-quest",
@@ -3723,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Roots",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Roots",
           "name": "polynomial_value",
           "normalized": "[a]-\u003ea-\u003ea",
@@ -3737,6 +4061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Roots",
           "name": "roots",
           "package": "numeric-quest",
@@ -3746,6 +4071,7 @@
         },
         "index": {
           "hierarchy": "Roots",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Roots",
           "name": "roots",
           "normalized": "a-\u003eInt-\u003e[Complex a]-\u003e[Complex a]",
@@ -3760,6 +4086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "Tensor",
           "package": "numeric-quest",
@@ -3768,6 +4095,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "Tensor",
           "package": "numeric-quest",
@@ -3781,6 +4109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "Tensor",
           "package": "numeric-quest",
@@ -3789,6 +4118,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "Tensor",
           "package": "numeric-quest",
@@ -3802,6 +4132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "(#)",
           "package": "numeric-quest",
@@ -3811,6 +4142,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "(#) #",
           "normalized": "Tensor-\u003eInt-\u003eTensor",
@@ -3825,6 +4157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "(##)",
           "package": "numeric-quest",
@@ -3834,6 +4167,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "(##) ##",
           "normalized": "Tensor-\u003e[Int]-\u003eTensor",
@@ -3848,6 +4182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "(\u003c*\u003e)",
           "package": "numeric-quest",
@@ -3857,6 +4192,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "Tensor-\u003eTensor-\u003eTensor",
@@ -3871,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "(\u003c\u003c*\u003e\u003e)",
           "package": "numeric-quest",
@@ -3880,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "(\u003c\u003c*\u003e\u003e) \u003c\u003c*\u003e\u003e",
           "normalized": "Tensor-\u003eTensor-\u003eTensor",
@@ -3894,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "S",
           "package": "numeric-quest",
@@ -3903,6 +4242,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "S",
           "package": "numeric-quest",
@@ -3915,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "T",
           "package": "numeric-quest",
@@ -3924,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "T",
           "normalized": "T[Tensor]",
@@ -3938,6 +4280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "contract",
           "package": "numeric-quest",
@@ -3947,6 +4290,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "contract",
           "normalized": "Int-\u003eInt-\u003eTensor-\u003eTensor",
@@ -3961,6 +4305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "cross",
           "package": "numeric-quest",
@@ -3970,6 +4315,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "cross",
           "normalized": "Tensor-\u003eTensor-\u003eTensor",
@@ -3984,6 +4330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "cross'",
           "package": "numeric-quest",
@@ -3993,6 +4340,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "cross'",
           "normalized": "Tensor-\u003eTensor-\u003eInt-\u003eDouble",
@@ -4007,6 +4355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "d_simpler",
           "package": "numeric-quest",
@@ -4016,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "d_simpler",
           "package": "numeric-quest",
@@ -4028,6 +4378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "d_standard",
           "package": "numeric-quest",
@@ -4037,6 +4388,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "d_standard",
           "package": "numeric-quest",
@@ -4049,6 +4401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "delta",
           "package": "numeric-quest",
@@ -4058,6 +4411,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "delta",
           "package": "numeric-quest",
@@ -4070,6 +4424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "delta'",
           "package": "numeric-quest",
@@ -4079,6 +4434,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "delta'",
           "normalized": "Int-\u003eInt-\u003eDouble",
@@ -4093,6 +4449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "dims",
           "package": "numeric-quest",
@@ -4102,6 +4459,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "dims",
           "package": "numeric-quest",
@@ -4114,6 +4472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "dot",
           "package": "numeric-quest",
@@ -4123,6 +4482,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "dot",
           "normalized": "Tensor-\u003eTensor-\u003eTensor",
@@ -4137,6 +4497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "epsilon",
           "package": "numeric-quest",
@@ -4146,6 +4507,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "epsilon",
           "package": "numeric-quest",
@@ -4158,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "epsilon'",
           "package": "numeric-quest",
@@ -4167,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "epsilon'",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eDouble",
@@ -4181,6 +4545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "rank",
           "package": "numeric-quest",
@@ -4190,6 +4555,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "rank",
           "normalized": "Tensor-\u003eInt",
@@ -4204,6 +4570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "scalar",
           "package": "numeric-quest",
@@ -4213,6 +4580,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "scalar",
           "normalized": "Tensor-\u003eDouble",
@@ -4227,6 +4595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "showList'",
           "package": "numeric-quest",
@@ -4236,6 +4605,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "showList'",
           "normalized": "Int-\u003e[a]-\u003eString-\u003eString",
@@ -4251,6 +4621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "tensor",
           "package": "numeric-quest",
@@ -4260,6 +4631,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "tensor",
           "normalized": "[Double]-\u003eTensor",
@@ -4274,6 +4646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:45 UTC 2014",
           "module": "Tensor",
           "name": "vector",
           "package": "numeric-quest",
@@ -4283,6 +4656,7 @@
         },
         "index": {
           "hierarchy": "Tensor",
+          "indexed": "2014-03-11T19:30:45",
           "module": "Tensor",
           "name": "vector",
           "normalized": "Tensor-\u003e[Double]",

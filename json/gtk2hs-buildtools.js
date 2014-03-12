@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtk2hs-buildtools"
+        "phrase": "gtk2hs-buildtools",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-cctools"
+        "phrase": "bindings-cctools",
+        "type": "phrase"
       },
       "type": "context"
     }

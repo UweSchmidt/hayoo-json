@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "coltrane"
+        "phrase": "coltrane",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "Coltrane",
           "package": "coltrane",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "Coltrane",
           "package": "coltrane",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a header to the current ResponseState's headers\n HeaderName defined in Network.HTTP.Types.Header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "addHeader",
           "package": "coltrane",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Add header to the current ResponseState headers HeaderName defined in Network.HTTP.Types.Header",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "addHeader",
           "normalized": "HeaderName-\u003eByteString-\u003eHandlerM()",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a route to the app's state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "addroute",
           "package": "coltrane",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Add route to the app state",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "addroute",
           "normalized": "Route-\u003eColtraneApp()",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd multiple routes to the app's state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "addroutes",
           "package": "coltrane",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Add multiple routes to the app state",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "addroutes",
           "normalized": "[Route]-\u003eColtraneApp()",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handler function to handle previous errors and return to normal execution.\n    A common idiom is:\n\u003c/p\u003e\u003cpre\u003e do { action1; action2; action3 } `catchError` handler\n\u003c/pre\u003e\u003cp\u003ewhere the \u003ccode\u003eaction\u003c/code\u003e functions can call \u003ccode\u003e\u003ca\u003ethrowError\u003c/a\u003e\u003c/code\u003e.\n    Note that \u003ccode\u003ehandler\u003c/code\u003e and the do-block must have the same return type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "catchError",
           "package": "coltrane",
@@ -125,6 +134,7 @@
         "index": {
           "description": "handler function to handle previous errors and return to normal execution common idiom is do action1 action2 action3 catchError handler where the action functions can call throwError Note that handler and the do-block must have the same return type",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "catchError",
           "normalized": "a b c d-\u003e(e-\u003ec d)-\u003ec d",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the framework with the given server on the given port and application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "coltrane",
           "package": "coltrane",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Run the framework with the given server on the given port and application",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "coltrane",
           "normalized": "Server-\u003ePort-\u003eColtraneApp()-\u003eIO()",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper method for adding a DELETE route.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "delete",
           "package": "coltrane",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Helper method for adding DELETE route",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "delete",
           "normalized": "Path-\u003eHandler-\u003eColtraneApp()",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets body and content type for File.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "file",
           "package": "coltrane",
@@ -201,6 +216,7 @@
         "index": {
           "description": "Sets body and content type for File",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "file",
           "normalized": "ResponseBody-\u003eHandlerM()",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper method for adding a GET route.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "get",
           "package": "coltrane",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Helper method for adding GET route",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "get",
           "normalized": "Path-\u003eHandler-\u003eColtraneApp()",
@@ -241,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets body and content type for HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "html",
           "package": "coltrane",
@@ -251,6 +270,7 @@
         "index": {
           "description": "Sets body and content type for HTML",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "html",
           "normalized": "ResponseBody-\u003eHandlerM()",
@@ -266,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a file in as a String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "htmlFile",
           "package": "coltrane",
@@ -276,6 +297,7 @@
         "index": {
           "description": "Reads file in as String",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "htmlFile",
           "normalized": "FilePath-\u003eIO String",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets body and content type for JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "json",
           "package": "coltrane",
@@ -302,6 +325,7 @@
         "index": {
           "description": "Sets body and content type for JSON",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "json",
           "normalized": "ResponseBody-\u003eHandlerM()",
@@ -317,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a parameter parsed from the URL. if not found,\n search through the query fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "param",
           "package": "coltrane",
@@ -327,6 +352,7 @@
         "index": {
           "description": "Retrieve parameter parsed from the URL if not found search through the query fields",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "param",
           "normalized": "String-\u003eHandlerM String",
@@ -342,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper method for adding a POST route.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "post",
           "package": "coltrane",
@@ -352,6 +379,7 @@
         "index": {
           "description": "Helper method for adding POST route",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "post",
           "normalized": "Path-\u003eHandler-\u003eColtraneApp()",
@@ -367,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper method for adding a PUT route.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "put",
           "package": "coltrane",
@@ -377,6 +406,7 @@
         "index": {
           "description": "Helper method for adding PUT route",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "put",
           "normalized": "Path-\u003eHandler-\u003eColtraneApp()",
@@ -392,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the current request object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "request",
           "package": "coltrane",
@@ -402,6 +433,7 @@
         "index": {
           "description": "Retrieve the current request object",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "request",
           "package": "coltrane",
@@ -415,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current ResponseState's body, and add the\n corresponding content type header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "setBody",
           "package": "coltrane",
@@ -425,6 +458,7 @@
         "index": {
           "description": "Set the current ResponseState body and add the corresponding content type header",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "setBody",
           "normalized": "ContentType-\u003eResponseBody-\u003eHandlerM()",
@@ -441,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a header and set its value to the input string.\n if the header does not exist, adds a new header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "setHeader",
           "package": "coltrane",
@@ -451,6 +486,7 @@
         "index": {
           "description": "Lookup header and set its value to the input string if the header does not exist adds new header",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "setHeader",
           "normalized": "HeaderName-\u003eByteString-\u003eHandlerM()",
@@ -467,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current ResponseState's status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "setStatus",
           "package": "coltrane",
@@ -477,6 +514,7 @@
         "index": {
           "description": "Set the current ResponseState status",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "setStatus",
           "normalized": "Status-\u003eHandlerM()",
@@ -493,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets body and content type for Text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "text",
           "package": "coltrane",
@@ -503,6 +542,7 @@
         "index": {
           "description": "Sets body and content type for Text",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "text",
           "normalized": "ResponseBody-\u003eHandlerM()",
@@ -518,6 +558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs used within a monadic computation to begin exception processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "Coltrane",
           "name": "throwError",
           "package": "coltrane",
@@ -527,6 +568,7 @@
         "index": {
           "description": "Is used within monadic computation to begin exception processing",
           "hierarchy": "Coltrane",
+          "indexed": "2014-03-11T17:36:09",
           "module": "Coltrane",
           "name": "throwError",
           "normalized": "a b c-\u003ed e",
@@ -542,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "ColtraneTypes",
           "package": "coltrane",
@@ -550,6 +593,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "ColtraneTypes",
           "package": "coltrane",
@@ -564,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad that holds the application's registered routes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "ColtraneApp",
           "package": "coltrane",
@@ -573,6 +618,7 @@
         "index": {
           "description": "monad that holds the application registered routes",
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "ColtraneApp",
           "package": "coltrane",
@@ -587,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStores the content-type constants for the response headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "ContentType",
           "package": "coltrane",
@@ -596,6 +643,7 @@
         "index": {
           "description": "Stores the content-type constants for the response headers",
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "ContentType",
           "package": "coltrane",
@@ -610,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type alias to make routes intuitive for the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "Handler",
           "package": "coltrane",
@@ -619,6 +668,7 @@
         "index": {
           "description": "type alias to make routes intuitive for the user",
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "Handler",
           "package": "coltrane",
@@ -633,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStores the current parameters, Request, and the\n ResponseState that gets 'built up' in a Handler; the response body, \n headers, and status may be altered. The HandlerM also has \n error handling capabilities. The Handler is the third component of a Route;\n a Method and a Path are associated with a Handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "HandlerM",
           "package": "coltrane",
@@ -642,6 +693,7 @@
         "index": {
           "description": "Stores the current parameters Request and the ResponseState that gets built up in Handler the response body headers and status may be altered The HandlerM also has error handling capabilities The Handler is the third component of Route Method and Path are associated with Handler",
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "HandlerM",
           "package": "coltrane",
@@ -656,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HandlerState contains the parameters, the request object, and\n the response state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "HandlerState",
           "package": "coltrane",
@@ -665,6 +718,7 @@
         "index": {
           "description": "The HandlerState contains the parameters the request object and the response state",
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "HandlerState",
           "package": "coltrane",
@@ -678,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "ParamKey",
           "package": "coltrane",
@@ -686,6 +741,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "ParamKey",
           "package": "coltrane",
@@ -699,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "ParamValue",
           "package": "coltrane",
@@ -707,6 +764,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "ParamValue",
           "package": "coltrane",
@@ -721,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey value pairs of URL parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "Params",
           "package": "coltrane",
@@ -730,6 +789,7 @@
         "index": {
           "description": "Key value pairs of URL parameters",
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "Params",
           "package": "coltrane",
@@ -744,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA path is either a String Literal or a Regular Expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "Path",
           "package": "coltrane",
@@ -753,6 +814,7 @@
         "index": {
           "description": "path is either String Literal or Regular Expression",
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "Path",
           "package": "coltrane",
@@ -767,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ResponseBody is a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "ResponseBody",
           "package": "coltrane",
@@ -776,6 +839,7 @@
         "index": {
           "description": "ResponseBody is string",
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "ResponseBody",
           "package": "coltrane",
@@ -790,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ResponseState holds a body, headers, and a status. When used\n with MonadState, this type makes it easy to add headers and change\n the response status; WAI does not provide simple mechanisms for\n modifying the headers and status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "ResponseState",
           "package": "coltrane",
@@ -799,6 +864,7 @@
         "index": {
           "description": "ResponseState holds body headers and status When used with MonadState this type makes it easy to add headers and change the response status WAI does not provide simple mechanisms for modifying the headers and status",
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "ResponseState",
           "package": "coltrane",
@@ -813,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea Route is composed of:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e a method  (uses the StdMethod type from Network.HTTP.Types.Method)\n\u003c/li\u003e\u003cli\u003e a path    (defined below)\n\u003c/li\u003e\u003cli\u003e a handler (defined below)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "Route",
           "package": "coltrane",
@@ -822,6 +889,7 @@
         "index": {
           "description": "Route is composed of method uses the StdMethod type from Network.HTTP.Types.Method path defined below handler defined below",
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "Route",
           "package": "coltrane",
@@ -836,6 +904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer options for running the application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "Server",
           "package": "coltrane",
@@ -845,6 +914,7 @@
         "index": {
           "description": "Server options for running the application",
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "Server",
           "package": "coltrane",
@@ -858,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "C",
           "package": "coltrane",
@@ -867,6 +938,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "C",
           "package": "coltrane",
@@ -879,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "CGI",
           "package": "coltrane",
@@ -888,6 +961,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "CGI",
           "package": "coltrane",
@@ -901,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "HM",
           "package": "coltrane",
@@ -910,6 +985,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "HM",
           "package": "coltrane",
@@ -923,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "HS",
           "package": "coltrane",
@@ -932,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "HS",
           "package": "coltrane",
@@ -945,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "Literal",
           "package": "coltrane",
@@ -954,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "Literal",
           "package": "coltrane",
@@ -967,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "RS",
           "package": "coltrane",
@@ -976,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "RS",
           "package": "coltrane",
@@ -989,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "RegExp",
           "package": "coltrane",
@@ -998,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "RegExp",
           "package": "coltrane",
@@ -1011,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "Route",
           "package": "coltrane",
@@ -1020,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "Route",
           "package": "coltrane",
@@ -1033,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "Warp",
           "package": "coltrane",
@@ -1042,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "Warp",
           "package": "coltrane",
@@ -1055,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "body",
           "package": "coltrane",
@@ -1064,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "body",
           "package": "coltrane",
@@ -1077,6 +1167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts [Parse.Param] to Params.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "convertBSParams",
           "package": "coltrane",
@@ -1087,6 +1178,7 @@
         "index": {
           "description": "Converts Parse.Param to Params",
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "convertBSParams",
           "normalized": "[Param]-\u003eParams",
@@ -1102,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "ctFile",
           "package": "coltrane",
@@ -1111,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "ctFile",
           "package": "coltrane",
@@ -1124,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "ctHTML",
           "package": "coltrane",
@@ -1133,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "ctHTML",
           "package": "coltrane",
@@ -1146,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "ctJSON",
           "package": "coltrane",
@@ -1155,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "ctJSON",
           "package": "coltrane",
@@ -1168,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "ctText",
           "package": "coltrane",
@@ -1177,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "ctText",
           "package": "coltrane",
@@ -1190,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "handler",
           "package": "coltrane",
@@ -1199,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "handler",
           "package": "coltrane",
@@ -1211,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "headers",
           "package": "coltrane",
@@ -1220,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "headers",
           "normalized": "[Header]",
@@ -1234,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "method",
           "package": "coltrane",
@@ -1243,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "method",
           "package": "coltrane",
@@ -1255,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "path",
           "package": "coltrane",
@@ -1264,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "path",
           "package": "coltrane",
@@ -1276,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "pms",
           "package": "coltrane",
@@ -1285,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "pms",
           "package": "coltrane",
@@ -1297,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "req",
           "package": "coltrane",
@@ -1306,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "req",
           "package": "coltrane",
@@ -1318,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "resp",
           "package": "coltrane",
@@ -1327,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "resp",
           "package": "coltrane",
@@ -1339,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "rsPlus",
           "package": "coltrane",
@@ -1348,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "rsPlus",
           "normalized": "ResponseState-\u003eResponseState-\u003eResponseState",
@@ -1363,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "runCA",
           "package": "coltrane",
@@ -1372,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "runCA",
           "normalized": "StateT[Route]IO a",
@@ -1387,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "runHM",
           "package": "coltrane",
@@ -1396,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "runHM",
           "package": "coltrane",
@@ -1409,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:09 UTC 2014",
           "module": "ColtraneTypes",
           "name": "status",
           "package": "coltrane",
@@ -1418,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "ColtraneTypes",
+          "indexed": "2014-03-11T17:36:09",
           "module": "ColtraneTypes",
           "name": "status",
           "package": "coltrane",

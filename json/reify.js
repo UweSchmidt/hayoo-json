@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reify"
+        "phrase": "reify",
+        "type": "phrase"
       },
       "type": "context"
     }

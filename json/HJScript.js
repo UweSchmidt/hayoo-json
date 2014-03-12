@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HJScript"
+        "phrase": "HJScript",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "Ajax",
           "package": "HJScript",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "Ajax",
           "package": "HJScript",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "IsReqParams",
           "package": "HJScript",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "IsReqParams",
           "package": "HJScript",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "ReqParam",
           "package": "HJScript",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "ReqParam",
           "package": "HJScript",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "ReqParams",
           "package": "HJScript",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "ReqParams",
           "package": "HJScript",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "(\u003c&\u003e)",
           "package": "HJScript",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "(\u003c&\u003e) \u003c&\u003e",
           "normalized": "a-\u003ea-\u003eReqParams",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "(=:)",
           "package": "HJScript",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "(=:) =:",
           "normalized": "a-\u003eb-\u003eReqParams",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "addGetParams",
           "package": "HJScript",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "addGetParams",
           "normalized": "a-\u003eb-\u003eJString",
@@ -173,6 +187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllowing path selections form XMLHttpRequest objects.\ninstance HasDomSel (JsObject a XMLHttpRequest) where\n  toDomElement req = req \u003ca name=\" responseXML \"/\u003e documentElement \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "asyncGetReq",
           "package": "HJScript",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Allowing path selections form XMLHttpRequest objects instance HasDomSel JsObject XMLHttpRequest where toDomElement req req documentElement",
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "asyncGetReq",
           "normalized": "a-\u003eb-\u003e(JObject XMLHttpRequest-\u003eHJScript())-\u003eHJScript()",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePost request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "asyncPostReq",
           "package": "HJScript",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Post request",
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "asyncPostReq",
           "normalized": "a-\u003eb-\u003e(JObject XMLHttpRequest-\u003eHJScript())-\u003eHJScript()",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new XMLHttpRequest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "crtXMLHttpRequest",
           "package": "HJScript",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Creates new XMLHttpRequest",
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "crtXMLHttpRequest",
           "package": "HJScript",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "isReady",
           "package": "HJScript",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "isReady",
           "normalized": "JObject XMLHttpRequest-\u003eJBool",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "isReadySucc",
           "package": "HJScript",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "isReadySucc",
           "normalized": "JObject XMLHttpRequest-\u003eExp Bool",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "noParams",
           "package": "HJScript",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "noParams",
           "package": "HJScript",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "openAsync",
           "package": "HJScript",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "openAsync",
           "normalized": "HttpMethod-\u003ea-\u003eJObject XMLHttpRequest-\u003eHJScript()",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "openAsyncPost",
           "package": "HJScript",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "openAsyncPost",
           "normalized": "a-\u003eJObject XMLHttpRequest-\u003eHJScript()",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "sendNull",
           "package": "HJScript",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "sendNull",
           "normalized": "JObject XMLHttpRequest-\u003eHJScript()",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "sendPost",
           "package": "HJScript",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "sendPost",
           "normalized": "a-\u003eJObject XMLHttpRequest-\u003eHJScript()",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "setCallBack",
           "package": "HJScript",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "setCallBack",
           "normalized": "(JObject XMLHttpRequest-\u003eHJScript())-\u003eJObject XMLHttpRequest-\u003eXMLGenT HJScript'()",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "setPostReqHeader",
           "package": "HJScript",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "setPostReqHeader",
           "normalized": "JObject XMLHttpRequest-\u003eHJScript()",
@@ -462,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "succCallBack",
           "package": "HJScript",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "succCallBack",
           "normalized": "JObject XMLHttpRequest-\u003eJBool",
@@ -486,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Ajax",
           "name": "toReqParams",
           "package": "HJScript",
@@ -495,6 +536,7 @@
         },
         "index": {
           "hierarchy": "HJScript Ajax",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Ajax",
           "name": "toReqParams",
           "normalized": "a-\u003e[ReqParam]",
@@ -510,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.AttributeNode",
           "name": "AttributeNode",
           "package": "HJScript",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM AttributeNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.AttributeNode",
           "name": "AttributeNode",
           "package": "HJScript",
@@ -531,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.AttributeNode",
           "name": "AttributeNode",
           "package": "HJScript",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM AttributeNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.AttributeNode",
           "name": "AttributeNode",
           "package": "HJScript",
@@ -575,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.AttributeNode",
           "name": "name",
           "package": "HJScript",
@@ -584,6 +631,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM AttributeNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.AttributeNode",
           "name": "name",
           "normalized": "Exp AttributeNode-\u003eJString",
@@ -598,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.AttributeNode",
           "name": "specified",
           "package": "HJScript",
@@ -607,6 +656,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM AttributeNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.AttributeNode",
           "name": "specified",
           "normalized": "Exp AttributeNode-\u003eJBool",
@@ -621,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.AttributeNode",
           "name": "value",
           "package": "HJScript",
@@ -630,6 +681,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM AttributeNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.AttributeNode",
           "name": "value",
           "normalized": "Exp AttributeNode-\u003eVar String",
@@ -644,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "Document",
           "package": "HJScript",
@@ -652,6 +705,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "Document",
           "package": "HJScript",
@@ -665,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "Document",
           "package": "HJScript",
@@ -673,6 +728,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "Document",
           "package": "HJScript",
@@ -686,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "alinkColor",
           "package": "HJScript",
@@ -695,6 +752,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "alinkColor",
           "normalized": "Exp Document-\u003eJString",
@@ -710,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "anchors",
           "package": "HJScript",
@@ -719,6 +778,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "anchors",
           "normalized": "Exp Document-\u003eJArray Anchor",
@@ -733,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "applets",
           "package": "HJScript",
@@ -742,6 +803,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "applets",
           "normalized": "Exp Document-\u003eJArray Object",
@@ -756,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "body",
           "package": "HJScript",
@@ -765,6 +828,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "body",
           "normalized": "Exp Document-\u003eExp Body",
@@ -779,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "cookie",
           "package": "HJScript",
@@ -788,6 +853,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "cookie",
           "normalized": "Exp Document-\u003eVar String",
@@ -802,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "createAttribute",
           "package": "HJScript",
@@ -811,6 +878,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "createAttribute",
           "normalized": "JString-\u003eExp Document-\u003eExp AttributeNode",
@@ -826,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "createElement",
           "package": "HJScript",
@@ -835,6 +904,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "createElement",
           "normalized": "JString-\u003eExp Document-\u003eExp ElementNode",
@@ -850,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "createTextNode",
           "package": "HJScript",
@@ -859,6 +930,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "createTextNode",
           "normalized": "JString-\u003eExp Document-\u003eExp TextNode",
@@ -874,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "document",
           "package": "HJScript",
@@ -883,6 +956,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "document",
           "package": "HJScript",
@@ -895,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "documentElement",
           "package": "HJScript",
@@ -904,6 +979,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "documentElement",
           "normalized": "Exp Document-\u003eExp ElementNode",
@@ -919,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "domain",
           "package": "HJScript",
@@ -928,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "domain",
           "normalized": "Exp Document-\u003eJString",
@@ -942,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "embeds",
           "package": "HJScript",
@@ -951,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "embeds",
           "normalized": "Exp Document-\u003eJArray ElementNode",
@@ -965,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "forms",
           "package": "HJScript",
@@ -974,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "forms",
           "normalized": "Exp Document-\u003eJArray Form",
@@ -988,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "getElementById",
           "package": "HJScript",
@@ -997,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "getElementById",
           "normalized": "JString-\u003eExp Document-\u003eExp ElementNode",
@@ -1012,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "getElementsByTagName",
           "package": "HJScript",
@@ -1021,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "getElementsByTagName",
           "normalized": "JString-\u003eExp Document-\u003eJArray ElementNode",
@@ -1036,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "images",
           "package": "HJScript",
@@ -1045,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "images",
           "normalized": "Exp Document-\u003eJArray Image",
@@ -1059,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "lastModified",
           "package": "HJScript",
@@ -1068,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "lastModified",
           "normalized": "Exp Document-\u003eJString",
@@ -1083,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "linkColor",
           "package": "HJScript",
@@ -1092,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "linkColor",
           "normalized": "Exp Document-\u003eJString",
@@ -1107,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "links",
           "package": "HJScript",
@@ -1116,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "links",
           "normalized": "Exp Document-\u003eJArray Link",
@@ -1130,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "referrer",
           "package": "HJScript",
@@ -1139,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "referrer",
           "normalized": "Exp Document-\u003eJString",
@@ -1153,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "stylesheets",
           "package": "HJScript",
@@ -1162,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "stylesheets",
           "normalized": "Exp Document-\u003eJArray Style",
@@ -1176,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "url",
           "package": "HJScript",
@@ -1185,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "url",
           "normalized": "Exp Document-\u003eJString",
@@ -1199,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "vlinkColor",
           "package": "HJScript",
@@ -1208,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "vlinkColor",
           "normalized": "Exp Document-\u003eJString",
@@ -1223,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "write",
           "package": "HJScript",
@@ -1232,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "write",
           "normalized": "JString-\u003eExp Document-\u003eHJScript()",
@@ -1246,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Document",
           "name": "writeln",
           "package": "HJScript",
@@ -1255,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Document",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Document",
           "name": "writeln",
           "normalized": "JString-\u003eExp Document-\u003eHJScript()",
@@ -1269,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "ElementNode",
           "package": "HJScript",
@@ -1277,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "ElementNode",
           "package": "HJScript",
@@ -1290,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "ElementNode",
           "package": "HJScript",
@@ -1298,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "ElementNode",
           "package": "HJScript",
@@ -1311,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "IsElementNode",
           "package": "HJScript",
@@ -1319,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "IsElementNode",
           "package": "HJScript",
@@ -1355,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "appendChild",
           "package": "HJScript",
@@ -1364,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "appendChild",
           "normalized": "Exp a-\u003eExp b-\u003eHJScript()",
@@ -1379,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "attributes",
           "package": "HJScript",
@@ -1388,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "attributes",
           "normalized": "Exp a-\u003eExp NamedNodeMap",
@@ -1402,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "childNodes",
           "package": "HJScript",
@@ -1411,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "childNodes",
           "normalized": "Exp a-\u003eJArray Node",
@@ -1451,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "firstChild",
           "package": "HJScript",
@@ -1460,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "firstChild",
           "normalized": "Exp a-\u003eExp Node",
@@ -1475,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "getAttribute",
           "package": "HJScript",
@@ -1484,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "getAttribute",
           "normalized": "JString-\u003eExp a-\u003eJString",
@@ -1499,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "getAttributeNode",
           "package": "HJScript",
@@ -1508,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "getAttributeNode",
           "normalized": "JString-\u003eExp a-\u003eExp AttributeNode",
@@ -1523,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "hasAttribute",
           "package": "HJScript",
@@ -1532,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "hasAttribute",
           "normalized": "JString-\u003eExp a-\u003eJBool",
@@ -1547,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "hasAttributes",
           "package": "HJScript",
@@ -1556,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "hasAttributes",
           "normalized": "Exp a-\u003eJBool",
@@ -1571,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "hasChildNodes",
           "package": "HJScript",
@@ -1580,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "hasChildNodes",
           "normalized": "Exp a-\u003eJBool",
@@ -1595,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "insertBefore",
           "package": "HJScript",
@@ -1604,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "insertBefore",
           "normalized": "Exp Node-\u003eExp Node-\u003eExp a-\u003eHJScript()",
@@ -1619,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "lastChild",
           "package": "HJScript",
@@ -1628,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "lastChild",
           "normalized": "Exp a-\u003eExp Node",
@@ -1643,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "localName",
           "package": "HJScript",
@@ -1652,6 +1787,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "localName",
           "normalized": "Exp a-\u003eJString",
@@ -1667,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "nextSibling",
           "package": "HJScript",
@@ -1676,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "nextSibling",
           "normalized": "Exp a-\u003eExp Node",
@@ -1691,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "normalize",
           "package": "HJScript",
@@ -1700,6 +1839,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "normalize",
           "normalized": "Exp a-\u003eHJScript()",
@@ -1714,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "parentNode",
           "package": "HJScript",
@@ -1723,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "parentNode",
           "normalized": "Exp a-\u003eExp Node",
@@ -1738,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "previousSibling",
           "package": "HJScript",
@@ -1747,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "previousSibling",
           "normalized": "Exp a-\u003eExp Node",
@@ -1762,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "removeAttribute",
           "package": "HJScript",
@@ -1771,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "removeAttribute",
           "normalized": "JString-\u003eExp a-\u003eHJScript()",
@@ -1786,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "removeAttributeNode",
           "package": "HJScript",
@@ -1795,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "removeAttributeNode",
           "normalized": "Exp AttributeNode-\u003eExp a-\u003eHJScript()",
@@ -1810,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "removeChild",
           "package": "HJScript",
@@ -1819,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "removeChild",
           "normalized": "Exp a-\u003eExp b-\u003eHJScript()",
@@ -1834,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "replaceChild",
           "package": "HJScript",
@@ -1843,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "replaceChild",
           "normalized": "Exp a-\u003eExp b-\u003eExp c-\u003eHJScript()",
@@ -1858,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "scrollHeight",
           "package": "HJScript",
@@ -1867,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "scrollHeight",
           "normalized": "Exp a-\u003eExp JInt",
@@ -1882,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "scrollHeightVar",
           "package": "HJScript",
@@ -1891,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "scrollHeightVar",
           "normalized": "Exp a-\u003eVar JInt",
@@ -1906,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "scrollTop",
           "package": "HJScript",
@@ -1915,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "scrollTop",
           "normalized": "Exp a-\u003eExp JInt",
@@ -1930,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "scrollTopVar",
           "package": "HJScript",
@@ -1939,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "scrollTopVar",
           "normalized": "Exp a-\u003eVar JInt",
@@ -1954,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "setAttribute",
           "package": "HJScript",
@@ -1963,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "setAttribute",
           "normalized": "JString-\u003eJString-\u003eExp a-\u003eHJScript()",
@@ -1978,6 +2140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "setAttributeNode",
           "package": "HJScript",
@@ -1987,6 +2150,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "setAttributeNode",
           "normalized": "Exp AttributeNode-\u003eExp a-\u003eHJScript()",
@@ -2002,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.ElementNode",
           "name": "tagName",
           "package": "HJScript",
@@ -2011,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM ElementNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.ElementNode",
           "name": "tagName",
           "normalized": "Exp a-\u003eJString",
@@ -2026,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NamedNodeMap",
           "name": "NamedNodeMap",
           "package": "HJScript",
@@ -2034,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM NamedNodeMap",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NamedNodeMap",
           "name": "NamedNodeMap",
           "package": "HJScript",
@@ -2047,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NamedNodeMap",
           "name": "NamedNodeMap",
           "package": "HJScript",
@@ -2055,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM NamedNodeMap",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NamedNodeMap",
           "name": "NamedNodeMap",
           "package": "HJScript",
@@ -2068,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NamedNodeMap",
           "name": "NamedNodeMap",
           "package": "HJScript",
@@ -2077,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM NamedNodeMap",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NamedNodeMap",
           "name": "NamedNodeMap",
           "package": "HJScript",
@@ -2090,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NamedNodeMap",
           "name": "getNamedItem",
           "package": "HJScript",
@@ -2099,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM NamedNodeMap",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NamedNodeMap",
           "name": "getNamedItem",
           "normalized": "JString-\u003eExp NamedNodeMap-\u003eExp AttributeNode",
@@ -2114,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NamedNodeMap",
           "name": "item",
           "package": "HJScript",
@@ -2123,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM NamedNodeMap",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NamedNodeMap",
           "name": "item",
           "normalized": "JInt-\u003eExp NamedNodeMap-\u003eExp AttributeNode",
@@ -2137,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NamedNodeMap",
           "name": "length",
           "package": "HJScript",
@@ -2146,6 +2323,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM NamedNodeMap",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NamedNodeMap",
           "name": "length",
           "normalized": "Exp NamedNodeMap-\u003eJInt",
@@ -2160,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NamedNodeMap",
           "name": "removeNamedItem",
           "package": "HJScript",
@@ -2169,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM NamedNodeMap",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NamedNodeMap",
           "name": "removeNamedItem",
           "normalized": "JString-\u003eExp NamedNodeMap-\u003eExp AttributeNode",
@@ -2184,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Node",
           "name": "Node",
           "package": "HJScript",
@@ -2192,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Node",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Node",
           "name": "Node",
           "package": "HJScript",
@@ -2205,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Node",
           "name": "IsNode",
           "package": "HJScript",
@@ -2213,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Node",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Node",
           "name": "IsNode",
           "package": "HJScript",
@@ -2226,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Node",
           "name": "Node",
           "package": "HJScript",
@@ -2234,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Node",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Node",
           "name": "Node",
           "package": "HJScript",
@@ -2248,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferent node types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Node",
           "name": "NodeType",
           "package": "HJScript",
@@ -2257,6 +2444,7 @@
         "index": {
           "description": "Different node types",
           "hierarchy": "HJScript DOM Node",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Node",
           "name": "NodeType",
           "package": "HJScript",
@@ -2569,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Node",
           "name": "castFromNode",
           "package": "HJScript",
@@ -2578,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Node",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Node",
           "name": "castFromNode",
           "normalized": "JObject Node-\u003eJObject a",
@@ -2593,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Node",
           "name": "castToNode",
           "package": "HJScript",
@@ -2602,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Node",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Node",
           "name": "castToNode",
           "normalized": "JObject a-\u003eJObject Node",
@@ -2617,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Node",
           "name": "nodeName",
           "package": "HJScript",
@@ -2626,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Node",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Node",
           "name": "nodeName",
           "normalized": "Exp a-\u003eJString",
@@ -2641,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Node",
           "name": "nodeType",
           "package": "HJScript",
@@ -2650,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Node",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Node",
           "name": "nodeType",
           "normalized": "Exp a-\u003eJInt",
@@ -2690,6 +2886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Node",
           "name": "nodeValue",
           "package": "HJScript",
@@ -2699,6 +2896,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Node",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Node",
           "name": "nodeValue",
           "normalized": "Exp a-\u003eVar String",
@@ -2714,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Node",
           "name": "ownerDocument",
           "package": "HJScript",
@@ -2723,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Node",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Node",
           "name": "ownerDocument",
           "normalized": "Exp a-\u003eExp Document",
@@ -2738,6 +2938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Node",
           "name": "prefix",
           "package": "HJScript",
@@ -2747,6 +2948,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Node",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Node",
           "name": "prefix",
           "normalized": "Exp a-\u003eExp String",
@@ -2761,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NodeTypes",
           "name": "NodeTypes",
           "package": "HJScript",
@@ -2769,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM NodeTypes",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NodeTypes",
           "name": "NodeTypes",
           "package": "HJScript",
@@ -2782,6 +2986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NodeTypes",
           "name": "AttributeNode",
           "package": "HJScript",
@@ -2790,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM NodeTypes",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NodeTypes",
           "name": "AttributeNode",
           "package": "HJScript",
@@ -2803,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NodeTypes",
           "name": "Document",
           "package": "HJScript",
@@ -2811,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM NodeTypes",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NodeTypes",
           "name": "Document",
           "package": "HJScript",
@@ -2824,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NodeTypes",
           "name": "ElementNode",
           "package": "HJScript",
@@ -2832,6 +3041,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM NodeTypes",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NodeTypes",
           "name": "ElementNode",
           "package": "HJScript",
@@ -2845,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NodeTypes",
           "name": "Node",
           "package": "HJScript",
@@ -2853,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM NodeTypes",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NodeTypes",
           "name": "Node",
           "package": "HJScript",
@@ -2867,6 +3079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferent node types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NodeTypes",
           "name": "NodeType",
           "package": "HJScript",
@@ -2876,6 +3089,7 @@
         "index": {
           "description": "Different node types",
           "hierarchy": "HJScript DOM NodeTypes",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NodeTypes",
           "name": "NodeType",
           "package": "HJScript",
@@ -2889,6 +3103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NodeTypes",
           "name": "TextNode",
           "package": "HJScript",
@@ -2897,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM NodeTypes",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NodeTypes",
           "name": "TextNode",
           "package": "HJScript",
@@ -2910,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.NodeTypes",
           "name": "Document",
           "package": "HJScript",
@@ -2919,6 +3136,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM NodeTypes",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.NodeTypes",
           "name": "Document",
           "package": "HJScript",
@@ -2955,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.TextNode",
           "name": "TextNode",
           "package": "HJScript",
@@ -2963,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM TextNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.TextNode",
           "name": "TextNode",
           "package": "HJScript",
@@ -2976,6 +3196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.TextNode",
           "name": "TextNode",
           "package": "HJScript",
@@ -2984,6 +3205,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM TextNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.TextNode",
           "name": "TextNode",
           "package": "HJScript",
@@ -2997,6 +3219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.TextNode",
           "name": "appendData",
           "package": "HJScript",
@@ -3006,6 +3229,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM TextNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.TextNode",
           "name": "appendData",
           "normalized": "JString-\u003eExp TextNode-\u003eHJScript()",
@@ -3021,6 +3245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.TextNode",
           "name": "deleteData",
           "package": "HJScript",
@@ -3030,6 +3255,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM TextNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.TextNode",
           "name": "deleteData",
           "normalized": "JInt-\u003eJInt-\u003eExp TextNode-\u003eHJScript()",
@@ -3045,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.TextNode",
           "name": "insertData",
           "package": "HJScript",
@@ -3054,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM TextNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.TextNode",
           "name": "insertData",
           "normalized": "JInt-\u003eJString-\u003eExp TextNode-\u003eHJScript()",
@@ -3069,6 +3297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.TextNode",
           "name": "length",
           "package": "HJScript",
@@ -3078,6 +3307,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM TextNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.TextNode",
           "name": "length",
           "normalized": "Exp TextNode-\u003eJInt",
@@ -3092,6 +3322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.TextNode",
           "name": "replaceData",
           "package": "HJScript",
@@ -3101,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM TextNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.TextNode",
           "name": "replaceData",
           "normalized": "JInt-\u003eJInt-\u003eJString-\u003eExp TextNode-\u003eHJScript()",
@@ -3116,6 +3348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.TextNode",
           "name": "splitText",
           "package": "HJScript",
@@ -3125,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM TextNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.TextNode",
           "name": "splitText",
           "normalized": "JInt-\u003eExp TextNode-\u003eExp TextNode",
@@ -3140,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.TextNode",
           "name": "substringData",
           "package": "HJScript",
@@ -3149,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM TextNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.TextNode",
           "name": "substringData",
           "normalized": "JInt-\u003eJInt-\u003eExp TextNode-\u003eJString",
@@ -3164,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.TextNode",
           "name": "text",
           "package": "HJScript",
@@ -3173,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM TextNode",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.TextNode",
           "name": "text",
           "normalized": "Exp TextNode-\u003eVar String",
@@ -3187,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "Window",
           "package": "HJScript",
@@ -3195,6 +3434,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "Window",
           "package": "HJScript",
@@ -3208,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "Window",
           "package": "HJScript",
@@ -3216,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "Window",
           "package": "HJScript",
@@ -3229,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "alert",
           "package": "HJScript",
@@ -3238,6 +3481,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "alert",
           "normalized": "Exp a-\u003eExp Window-\u003eHJScript()",
@@ -3252,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "blur",
           "package": "HJScript",
@@ -3261,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "blur",
           "normalized": "Exp Window-\u003eHJScript()",
@@ -3275,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "close",
           "package": "HJScript",
@@ -3284,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "close",
           "normalized": "Exp Window-\u003eHJScript()",
@@ -3298,6 +3546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "closed",
           "package": "HJScript",
@@ -3307,6 +3556,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "closed",
           "normalized": "Exp Window-\u003eJBool",
@@ -3321,6 +3571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "confirm",
           "package": "HJScript",
@@ -3330,6 +3581,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "confirm",
           "normalized": "JString-\u003eExp Window-\u003eJBool",
@@ -3344,6 +3596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "createPopup",
           "package": "HJScript",
@@ -3353,6 +3606,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "createPopup",
           "normalized": "Exp Window-\u003eExp Window",
@@ -3368,6 +3622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "defaultStatus",
           "package": "HJScript",
@@ -3377,6 +3632,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "defaultStatus",
           "normalized": "Exp Window-\u003eJString",
@@ -3392,6 +3648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "focus",
           "package": "HJScript",
@@ -3401,6 +3658,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "focus",
           "normalized": "Exp Window-\u003eHJScript()",
@@ -3415,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "frames",
           "package": "HJScript",
@@ -3424,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "frames",
           "normalized": "Exp Window-\u003eJArray Frame",
@@ -3438,6 +3698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "moveBy",
           "package": "HJScript",
@@ -3447,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "moveBy",
           "normalized": "JInt-\u003eJInt-\u003eExp Window-\u003eHJScript()",
@@ -3462,6 +3724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "moveTo",
           "package": "HJScript",
@@ -3471,6 +3734,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "moveTo",
           "normalized": "JInt-\u003eJInt-\u003eExp Window-\u003eHJScript()",
@@ -3486,6 +3750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "navigate",
           "package": "HJScript",
@@ -3495,6 +3760,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "navigate",
           "normalized": "JString-\u003eExp Window-\u003eHJScript()",
@@ -3509,6 +3775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "open",
           "package": "HJScript",
@@ -3518,6 +3785,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "open",
           "normalized": "JString-\u003eJString-\u003eExp Window-\u003eHJScript()",
@@ -3532,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "opener",
           "package": "HJScript",
@@ -3541,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "opener",
           "normalized": "Exp Window-\u003eExp Window",
@@ -3555,6 +3825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "parent",
           "package": "HJScript",
@@ -3564,6 +3835,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "parent",
           "normalized": "Exp Window-\u003eExp Window",
@@ -3578,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "promt",
           "package": "HJScript",
@@ -3587,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "promt",
           "normalized": "JString-\u003eExp Window-\u003eJString",
@@ -3601,6 +3875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "resizeBy",
           "package": "HJScript",
@@ -3610,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "resizeBy",
           "normalized": "JInt-\u003eJInt-\u003eExp Window-\u003eHJScript()",
@@ -3625,6 +3901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "resizeTo",
           "package": "HJScript",
@@ -3634,6 +3911,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "resizeTo",
           "normalized": "JInt-\u003eJInt-\u003eExp Window-\u003eHJScript()",
@@ -3649,6 +3927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "scrollBy",
           "package": "HJScript",
@@ -3658,6 +3937,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "scrollBy",
           "normalized": "JInt-\u003eJInt-\u003eExp Window-\u003eHJScript()",
@@ -3673,6 +3953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "scrollTo",
           "package": "HJScript",
@@ -3682,6 +3963,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "scrollTo",
           "normalized": "JInt-\u003eJInt-\u003eExp Window-\u003eHJScript()",
@@ -3697,6 +3979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "self",
           "package": "HJScript",
@@ -3706,6 +3989,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "self",
           "normalized": "Exp Window-\u003eExp Window",
@@ -3720,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "status",
           "package": "HJScript",
@@ -3729,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "status",
           "normalized": "Exp Window-\u003eVar String",
@@ -3743,6 +4029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "top",
           "package": "HJScript",
@@ -3752,6 +4039,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "top",
           "normalized": "Exp Window-\u003eExp Window",
@@ -3766,6 +4054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "winDocument",
           "package": "HJScript",
@@ -3775,6 +4064,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "winDocument",
           "normalized": "Exp Window-\u003eExp Document",
@@ -3790,6 +4080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "winLength",
           "package": "HJScript",
@@ -3799,6 +4090,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "winLength",
           "normalized": "Exp Window-\u003eVar Int",
@@ -3814,6 +4106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "winName",
           "package": "HJScript",
@@ -3823,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "winName",
           "normalized": "Exp Window-\u003eVar String",
@@ -3838,6 +4132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.Window",
           "name": "window",
           "package": "HJScript",
@@ -3847,6 +4142,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM Window",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.Window",
           "name": "window",
           "package": "HJScript",
@@ -3859,6 +4155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "XHTML",
           "package": "HJScript",
@@ -3867,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "XHTML",
           "package": "HJScript",
@@ -3880,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Anchor",
           "package": "HJScript",
@@ -3888,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Anchor",
           "package": "HJScript",
@@ -3901,6 +4201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Area",
           "package": "HJScript",
@@ -3909,6 +4210,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Area",
           "package": "HJScript",
@@ -3922,6 +4224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Base",
           "package": "HJScript",
@@ -3930,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Base",
           "package": "HJScript",
@@ -3943,6 +4247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Body",
           "package": "HJScript",
@@ -3951,6 +4256,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Body",
           "package": "HJScript",
@@ -3964,6 +4270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Event",
           "package": "HJScript",
@@ -3972,6 +4279,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Event",
           "package": "HJScript",
@@ -3985,6 +4293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Form",
           "package": "HJScript",
@@ -3993,6 +4302,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Form",
           "package": "HJScript",
@@ -4006,6 +4316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Frame",
           "package": "HJScript",
@@ -4014,6 +4325,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Frame",
           "package": "HJScript",
@@ -4027,6 +4339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Frameset",
           "package": "HJScript",
@@ -4035,6 +4348,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Frameset",
           "package": "HJScript",
@@ -4048,6 +4362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "History",
           "package": "HJScript",
@@ -4056,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "History",
           "package": "HJScript",
@@ -4069,6 +4385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "IFrame",
           "package": "HJScript",
@@ -4077,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "IFrame",
           "package": "HJScript",
@@ -4090,6 +4408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Image",
           "package": "HJScript",
@@ -4098,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Image",
           "package": "HJScript",
@@ -4111,6 +4431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputButton",
           "package": "HJScript",
@@ -4119,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputButton",
           "package": "HJScript",
@@ -4132,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputCheckbox",
           "package": "HJScript",
@@ -4140,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputCheckbox",
           "package": "HJScript",
@@ -4153,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputFile",
           "package": "HJScript",
@@ -4161,6 +4486,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputFile",
           "package": "HJScript",
@@ -4174,6 +4500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputHidden",
           "package": "HJScript",
@@ -4182,6 +4509,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputHidden",
           "package": "HJScript",
@@ -4195,6 +4523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputPassword",
           "package": "HJScript",
@@ -4203,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputPassword",
           "package": "HJScript",
@@ -4216,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputRadio",
           "package": "HJScript",
@@ -4224,6 +4555,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputRadio",
           "package": "HJScript",
@@ -4237,6 +4569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputReset",
           "package": "HJScript",
@@ -4245,6 +4578,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputReset",
           "package": "HJScript",
@@ -4258,6 +4592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputSubmit",
           "package": "HJScript",
@@ -4266,6 +4601,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputSubmit",
           "package": "HJScript",
@@ -4279,6 +4615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputText",
           "package": "HJScript",
@@ -4287,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputText",
           "package": "HJScript",
@@ -4300,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "IsXHTMLElement",
           "package": "HJScript",
@@ -4308,6 +4647,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "IsXHTMLElement",
           "package": "HJScript",
@@ -4321,6 +4661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Link",
           "package": "HJScript",
@@ -4329,6 +4670,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Link",
           "package": "HJScript",
@@ -4342,6 +4684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Location",
           "package": "HJScript",
@@ -4350,6 +4693,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Location",
           "package": "HJScript",
@@ -4363,6 +4707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Meta",
           "package": "HJScript",
@@ -4371,6 +4716,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Meta",
           "package": "HJScript",
@@ -4384,6 +4730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Navigator",
           "package": "HJScript",
@@ -4392,6 +4739,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Navigator",
           "package": "HJScript",
@@ -4406,6 +4754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplain old Object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Object",
           "package": "HJScript",
@@ -4415,6 +4764,7 @@
         "index": {
           "description": "plain old Object",
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Object",
           "package": "HJScript",
@@ -4428,6 +4778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Option",
           "package": "HJScript",
@@ -4436,6 +4787,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Option",
           "package": "HJScript",
@@ -4449,6 +4801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Screen",
           "package": "HJScript",
@@ -4457,6 +4810,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Screen",
           "package": "HJScript",
@@ -4470,6 +4824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Select",
           "package": "HJScript",
@@ -4478,6 +4833,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Select",
           "package": "HJScript",
@@ -4491,6 +4847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Style",
           "package": "HJScript",
@@ -4499,6 +4856,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Style",
           "package": "HJScript",
@@ -4512,6 +4870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Table",
           "package": "HJScript",
@@ -4520,6 +4879,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Table",
           "package": "HJScript",
@@ -4533,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "TableData",
           "package": "HJScript",
@@ -4541,6 +4902,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "TableData",
           "package": "HJScript",
@@ -4554,6 +4916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "TableHeader",
           "package": "HJScript",
@@ -4562,6 +4925,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "TableHeader",
           "package": "HJScript",
@@ -4575,6 +4939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "TableRow",
           "package": "HJScript",
@@ -4583,6 +4948,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "TableRow",
           "package": "HJScript",
@@ -4596,6 +4962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Textarea",
           "package": "HJScript",
@@ -4604,6 +4971,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Textarea",
           "package": "HJScript",
@@ -4617,6 +4985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Anchor",
           "package": "HJScript",
@@ -4626,6 +4995,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Anchor",
           "package": "HJScript",
@@ -4639,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Area",
           "package": "HJScript",
@@ -4648,6 +5019,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Area",
           "package": "HJScript",
@@ -4661,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Base",
           "package": "HJScript",
@@ -4670,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Base",
           "package": "HJScript",
@@ -4683,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Body",
           "package": "HJScript",
@@ -4692,6 +5067,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Body",
           "package": "HJScript",
@@ -4705,6 +5081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Event",
           "package": "HJScript",
@@ -4714,6 +5091,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Event",
           "package": "HJScript",
@@ -4727,6 +5105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Form",
           "package": "HJScript",
@@ -4736,6 +5115,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Form",
           "package": "HJScript",
@@ -4749,6 +5129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Frame",
           "package": "HJScript",
@@ -4758,6 +5139,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Frame",
           "package": "HJScript",
@@ -4771,6 +5153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Frameset",
           "package": "HJScript",
@@ -4780,6 +5163,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Frameset",
           "package": "HJScript",
@@ -4793,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "History",
           "package": "HJScript",
@@ -4802,6 +5187,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "History",
           "package": "HJScript",
@@ -4815,6 +5201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "IFrame",
           "package": "HJScript",
@@ -4824,6 +5211,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "IFrame",
           "package": "HJScript",
@@ -4837,6 +5225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Image",
           "package": "HJScript",
@@ -4846,6 +5235,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Image",
           "package": "HJScript",
@@ -4859,6 +5249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputButton",
           "package": "HJScript",
@@ -4868,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputButton",
           "package": "HJScript",
@@ -4881,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputCheckbox",
           "package": "HJScript",
@@ -4890,6 +5283,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputCheckbox",
           "package": "HJScript",
@@ -4903,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputFile",
           "package": "HJScript",
@@ -4912,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputFile",
           "package": "HJScript",
@@ -4925,6 +5321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputHidden",
           "package": "HJScript",
@@ -4934,6 +5331,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputHidden",
           "package": "HJScript",
@@ -4947,6 +5345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputPassword",
           "package": "HJScript",
@@ -4956,6 +5355,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputPassword",
           "package": "HJScript",
@@ -4969,6 +5369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputRadio",
           "package": "HJScript",
@@ -4978,6 +5379,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputRadio",
           "package": "HJScript",
@@ -4991,6 +5393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputSubmit",
           "package": "HJScript",
@@ -5000,6 +5403,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputSubmit",
           "package": "HJScript",
@@ -5013,6 +5417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputText",
           "package": "HJScript",
@@ -5022,6 +5427,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputText",
           "package": "HJScript",
@@ -5035,6 +5441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "InputTextInputReset",
           "package": "HJScript",
@@ -5044,6 +5451,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "InputTextInputReset",
           "package": "HJScript",
@@ -5057,6 +5465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Link",
           "package": "HJScript",
@@ -5066,6 +5475,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Link",
           "package": "HJScript",
@@ -5079,6 +5489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Location",
           "package": "HJScript",
@@ -5088,6 +5499,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Location",
           "package": "HJScript",
@@ -5101,6 +5513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Meta",
           "package": "HJScript",
@@ -5110,6 +5523,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Meta",
           "package": "HJScript",
@@ -5123,6 +5537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Navigator",
           "package": "HJScript",
@@ -5132,6 +5547,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Navigator",
           "package": "HJScript",
@@ -5168,6 +5584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Option",
           "package": "HJScript",
@@ -5177,6 +5594,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Option",
           "package": "HJScript",
@@ -5190,6 +5608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Screen",
           "package": "HJScript",
@@ -5199,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Screen",
           "package": "HJScript",
@@ -5212,6 +5632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Select",
           "package": "HJScript",
@@ -5221,6 +5642,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Select",
           "package": "HJScript",
@@ -5234,6 +5656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Style",
           "package": "HJScript",
@@ -5243,6 +5666,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Style",
           "package": "HJScript",
@@ -5256,6 +5680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Table",
           "package": "HJScript",
@@ -5265,6 +5690,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Table",
           "package": "HJScript",
@@ -5278,6 +5704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "TableData",
           "package": "HJScript",
@@ -5287,6 +5714,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "TableData",
           "package": "HJScript",
@@ -5300,6 +5728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "TableHeader",
           "package": "HJScript",
@@ -5309,6 +5738,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "TableHeader",
           "package": "HJScript",
@@ -5322,6 +5752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "TableRow",
           "package": "HJScript",
@@ -5331,6 +5762,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "TableRow",
           "package": "HJScript",
@@ -5344,6 +5776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "Textarea",
           "package": "HJScript",
@@ -5353,6 +5786,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "Textarea",
           "package": "HJScript",
@@ -5366,6 +5800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "asXHTMLElement",
           "package": "HJScript",
@@ -5375,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "asXHTMLElement",
           "normalized": "Exp a-\u003eExp XHTMLElement",
@@ -5390,6 +5826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM.XHTML",
           "name": "className",
           "package": "HJScript",
@@ -5399,6 +5836,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM XHTML",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM.XHTML",
           "name": "className",
           "normalized": "Exp a-\u003eVar String",
@@ -5414,6 +5852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.DOM",
           "name": "DOM",
           "package": "HJScript",
@@ -5422,6 +5861,7 @@
         },
         "index": {
           "hierarchy": "HJScript DOM",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.DOM",
           "name": "DOM",
           "package": "HJScript",
@@ -5435,6 +5875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "Events",
           "package": "HJScript",
@@ -5443,6 +5884,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "Events",
           "package": "HJScript",
@@ -5457,6 +5899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "Event",
           "package": "HJScript",
@@ -5466,6 +5909,7 @@
         "index": {
           "description": "Events",
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "Event",
           "package": "HJScript",
@@ -5479,6 +5923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnAbort",
           "package": "HJScript",
@@ -5488,6 +5933,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnAbort",
           "package": "HJScript",
@@ -5501,6 +5947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnBlur",
           "package": "HJScript",
@@ -5510,6 +5957,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnBlur",
           "package": "HJScript",
@@ -5523,6 +5971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnChange",
           "package": "HJScript",
@@ -5532,6 +5981,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnChange",
           "package": "HJScript",
@@ -5545,6 +5995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnClick",
           "package": "HJScript",
@@ -5554,6 +6005,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnClick",
           "package": "HJScript",
@@ -5567,6 +6019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnDblclick",
           "package": "HJScript",
@@ -5576,6 +6029,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnDblclick",
           "package": "HJScript",
@@ -5589,6 +6043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnError",
           "package": "HJScript",
@@ -5598,6 +6053,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnError",
           "package": "HJScript",
@@ -5611,6 +6067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnFocus",
           "package": "HJScript",
@@ -5620,6 +6077,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnFocus",
           "package": "HJScript",
@@ -5633,6 +6091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnKeyDown",
           "package": "HJScript",
@@ -5642,6 +6101,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnKeyDown",
           "package": "HJScript",
@@ -5655,6 +6115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnKeyPress",
           "package": "HJScript",
@@ -5664,6 +6125,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnKeyPress",
           "package": "HJScript",
@@ -5677,6 +6139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnKeyUp",
           "package": "HJScript",
@@ -5686,6 +6149,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnKeyUp",
           "package": "HJScript",
@@ -5699,6 +6163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnLoad",
           "package": "HJScript",
@@ -5708,6 +6173,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnLoad",
           "package": "HJScript",
@@ -5721,6 +6187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnMouseDown",
           "package": "HJScript",
@@ -5730,6 +6197,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnMouseDown",
           "package": "HJScript",
@@ -5743,6 +6211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnMouseMove",
           "package": "HJScript",
@@ -5752,6 +6221,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnMouseMove",
           "package": "HJScript",
@@ -5765,6 +6235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnMouseOut",
           "package": "HJScript",
@@ -5774,6 +6245,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnMouseOut",
           "package": "HJScript",
@@ -5787,6 +6259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnMouseOver",
           "package": "HJScript",
@@ -5796,6 +6269,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnMouseOver",
           "package": "HJScript",
@@ -5809,6 +6283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnMouseUp",
           "package": "HJScript",
@@ -5818,6 +6293,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnMouseUp",
           "package": "HJScript",
@@ -5831,6 +6307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnReset",
           "package": "HJScript",
@@ -5840,6 +6317,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnReset",
           "package": "HJScript",
@@ -5853,6 +6331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnResize",
           "package": "HJScript",
@@ -5862,6 +6341,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnResize",
           "package": "HJScript",
@@ -5875,6 +6355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnSelect",
           "package": "HJScript",
@@ -5884,6 +6365,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnSelect",
           "package": "HJScript",
@@ -5897,6 +6379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnSubmit",
           "package": "HJScript",
@@ -5906,6 +6389,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnSubmit",
           "package": "HJScript",
@@ -5919,6 +6403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "OnUnload",
           "package": "HJScript",
@@ -5928,6 +6413,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "OnUnload",
           "package": "HJScript",
@@ -5941,6 +6427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Events",
           "name": "showEvent",
           "package": "HJScript",
@@ -5950,6 +6437,7 @@
         },
         "index": {
           "hierarchy": "HJScript Events",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Events",
           "name": "showEvent",
           "normalized": "Event-\u003eString",
@@ -5965,6 +6453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "Lang",
           "package": "HJScript",
@@ -5973,6 +6462,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "Lang",
           "package": "HJScript",
@@ -5986,6 +6476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "HJScript",
           "package": "HJScript",
@@ -5994,6 +6485,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "HJScript",
           "package": "HJScript",
@@ -6008,6 +6500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsHJscript class with function toHJScript for converting\n instances to HJScript ()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "IsHJScript",
           "package": "HJScript",
@@ -6017,6 +6510,7 @@
         "index": {
           "description": "IsHJscript class with function toHJScript for converting instances to HJScript",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "IsHJScript",
           "package": "HJScript",
@@ -6031,6 +6525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDereferencing operator, similar to the \u003ccode\u003edot\u003c/code\u003e operator in JavaScript.\n E.g. document.forms =\u003e document # forms, same as forms document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(#)",
           "package": "HJScript",
@@ -6041,6 +6536,7 @@
         "index": {
           "description": "Dereferencing operator similar to the dot operator in JavaScript E.g document.forms document forms same as forms document",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(#) #",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -6056,6 +6552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccessing arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(#!)",
           "package": "HJScript",
@@ -6066,6 +6563,7 @@
         "index": {
           "description": "Accessing arrays",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(#!) #!",
           "normalized": "JArray a-\u003eJInt-\u003eVar a",
@@ -6080,6 +6578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(#.)",
           "package": "HJScript",
@@ -6089,6 +6588,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(#.) #.",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ec)-\u003ea-\u003ec",
@@ -6104,6 +6604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProviding a way of writing if-else expression as in: isTrue ? doA \u003ca\u003e|\u003c/a\u003e doB\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(\u003c|\u003e)",
           "package": "HJScript",
@@ -6114,6 +6615,7 @@
         "index": {
           "description": "Providing way of writing if-else expression as in isTrue doA doB",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "a-\u003ea-\u003e(a,a)",
@@ -6129,6 +6631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative if-else syntax: isTrue ? (doA,doB)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(?)",
           "package": "HJScript",
@@ -6139,6 +6642,7 @@
         "index": {
           "description": "Alternative if-else syntax isTrue doA doB",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(?) ?",
           "normalized": "JBool-\u003e(HJScript a,HJScript a)-\u003eHJScript()",
@@ -6153,6 +6657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(.||.)",
           "package": "HJScript",
@@ -6162,6 +6667,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(.||.) .||.",
           "package": "HJScript",
@@ -6174,6 +6680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(.!=.)",
           "package": "HJScript",
@@ -6183,6 +6690,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(.!=.) .!=.",
           "package": "HJScript",
@@ -6195,6 +6703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(.&&.)",
           "package": "HJScript",
@@ -6204,6 +6713,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(.&&.) .&&.",
           "package": "HJScript",
@@ -6216,6 +6726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(.*.)",
           "package": "HJScript",
@@ -6225,6 +6736,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(.*.) .*.",
           "package": "HJScript",
@@ -6238,6 +6750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlus with\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(.+=.)",
           "package": "HJScript",
@@ -6248,6 +6761,7 @@
         "index": {
           "description": "Plus with",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(.+=.) .+=.",
           "normalized": "Var a-\u003eExp a-\u003eHJScript()",
@@ -6262,6 +6776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(.+.)",
           "package": "HJScript",
@@ -6271,6 +6786,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(.+.) .+.",
           "package": "HJScript",
@@ -6283,6 +6799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(.-.)",
           "package": "HJScript",
@@ -6292,6 +6809,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(.-.) .-.",
           "package": "HJScript",
@@ -6304,6 +6822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(./.)",
           "package": "HJScript",
@@ -6313,6 +6832,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(./.) ./.",
           "package": "HJScript",
@@ -6325,6 +6845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(.\u003c=.)",
           "package": "HJScript",
@@ -6334,6 +6855,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(.\u003c=.) .\u003c=.",
           "package": "HJScript",
@@ -6346,6 +6868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(.\u003c.)",
           "package": "HJScript",
@@ -6355,6 +6878,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(.\u003c.) .\u003c.",
           "package": "HJScript",
@@ -6367,6 +6891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(.==.)",
           "package": "HJScript",
@@ -6376,6 +6901,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(.==.) .==.",
           "package": "HJScript",
@@ -6389,6 +6915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssignment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(.=.)",
           "package": "HJScript",
@@ -6399,6 +6926,7 @@
         "index": {
           "description": "Assignment",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(.=.) .=.",
           "normalized": "Var a-\u003eExp a-\u003eHJScript()",
@@ -6413,6 +6941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(.\u003e=.)",
           "package": "HJScript",
@@ -6422,6 +6951,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(.\u003e=.) .\u003e=.",
           "package": "HJScript",
@@ -6434,6 +6964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "(.\u003e.)",
           "package": "HJScript",
@@ -6443,6 +6974,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "(.\u003e.) .\u003e.",
           "package": "HJScript",
@@ -6455,6 +6987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "bool",
           "package": "HJScript",
@@ -6464,6 +6997,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "bool",
           "normalized": "Bool-\u003eJBool",
@@ -6478,6 +7012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "break",
           "package": "HJScript",
@@ -6487,6 +7022,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "break",
           "normalized": "HJScript()",
@@ -6501,6 +7037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "callMethod",
           "package": "HJScript",
@@ -6510,6 +7047,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "callMethod",
           "normalized": "String-\u003ea-\u003eb-\u003eExp c",
@@ -6525,6 +7063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "callProc",
           "package": "HJScript",
@@ -6534,6 +7073,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "callProc",
           "normalized": "Exp(a-\u003ea)-\u003eb-\u003eHJScript()",
@@ -6549,6 +7089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "callVoidMethod",
           "package": "HJScript",
@@ -6558,6 +7099,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "callVoidMethod",
           "normalized": "String-\u003ea-\u003eb-\u003eHJScript()",
@@ -6574,6 +7116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCasting an JObject\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "castObject",
           "package": "HJScript",
@@ -6584,6 +7127,7 @@
         "index": {
           "description": "Casting an JObject",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "castObject",
           "normalized": "JObject a-\u003eJObject a",
@@ -6599,6 +7143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "continue",
           "package": "HJScript",
@@ -6608,6 +7153,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "continue",
           "normalized": "HJScript()",
@@ -6623,6 +7169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete a property\n\u003c/p\u003e\u003cp\u003eCan only delete properties/variables that are created implicitly,\n not those declared with the var statement.\n\u003c/p\u003e\u003cp\u003ereturns true if property was deleted. false if operation was not possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "delete",
           "package": "HJScript",
@@ -6633,6 +7180,7 @@
         "index": {
           "description": "delete property Can only delete properties variables that are created implicitly not those declared with the var statement returns true if property was deleted false if operation was not possible",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "delete",
           "normalized": "Var a-\u003eExp Bool",
@@ -6648,6 +7196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoElse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "doElse",
           "package": "HJScript",
@@ -6658,6 +7207,7 @@
         "index": {
           "description": "doElse",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "doElse",
           "normalized": "HJScript()-\u003eHJScript(Elses())",
@@ -6674,6 +7224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoIf\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "doIf",
           "package": "HJScript",
@@ -6684,6 +7235,7 @@
         "index": {
           "description": "doIf",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "doIf",
           "normalized": "JBool-\u003eHJScript a-\u003eHJScript(Elses())-\u003eHJScript()",
@@ -6700,6 +7252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoIfElse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "doIfElse",
           "package": "HJScript",
@@ -6710,6 +7263,7 @@
         "index": {
           "description": "doIfElse",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "doIfElse",
           "normalized": "JBool-\u003e(HJScript a,HJScript a)-\u003eHJScript()",
@@ -6726,6 +7280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly an if branch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "doIfNoElse",
           "package": "HJScript",
@@ -6736,6 +7291,7 @@
         "index": {
           "description": "Only an if branch",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "doIfNoElse",
           "normalized": "Exp Bool-\u003eHJScript()-\u003eHJScript()",
@@ -6752,6 +7308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoWhile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "doWhile",
           "package": "HJScript",
@@ -6762,6 +7319,7 @@
         "index": {
           "description": "doWhile",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "doWhile",
           "normalized": "HJScript a-\u003eJBool-\u003eHJScript()",
@@ -6804,6 +7362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "evaluateHJScript",
           "package": "HJScript",
@@ -6813,6 +7372,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "evaluateHJScript",
           "normalized": "HJScript(Exp a)-\u003eBlock a",
@@ -6828,6 +7388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "false",
           "package": "HJScript",
@@ -6837,6 +7398,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "false",
           "package": "HJScript",
@@ -6849,6 +7411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "first",
           "package": "HJScript",
@@ -6858,6 +7421,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "first",
           "normalized": "Exp(Rec a b)-\u003eExp a",
@@ -6872,6 +7436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "float",
           "package": "HJScript",
@@ -6881,6 +7446,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "float",
           "normalized": "Float-\u003eJFloat",
@@ -6896,6 +7462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "for",
           "package": "HJScript",
@@ -6906,6 +7473,7 @@
         "index": {
           "description": "for",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "for",
           "normalized": "JInt-\u003eJInt-\u003e(JInt-\u003eHJScript a)-\u003eHJScript()",
@@ -6921,6 +7489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor (var in object) { .. }\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "forIn",
           "package": "HJScript",
@@ -6931,6 +7500,7 @@
         "index": {
           "description": "for var in object",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "forIn",
           "normalized": "a-\u003e(JString-\u003eHJScript())-\u003eHJScript()",
@@ -6947,6 +7517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor (var in object) { .. }\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "forInVar",
           "package": "HJScript",
@@ -6957,6 +7528,7 @@
         "index": {
           "description": "for var in object",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "forInVar",
           "normalized": "a-\u003e(Var b-\u003eHJScript())-\u003eHJScript()",
@@ -6973,6 +7545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnonymous function, returning an expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "function",
           "package": "HJScript",
@@ -6983,6 +7556,7 @@
         "index": {
           "description": "Anonymous function returning an expression",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "function",
           "normalized": "(a-\u003eHJScript(Exp b))-\u003eHJScript(Exp(c-\u003eb))",
@@ -6998,6 +7572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "functionDecl",
           "package": "HJScript",
@@ -7008,6 +7583,7 @@
         "index": {
           "description": "Function declaration",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "functionDecl",
           "normalized": "String-\u003e(a-\u003eHJScript(Exp b))-\u003eHJScript()",
@@ -7024,6 +7600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if an object is supported by browser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "hasFeature",
           "package": "HJScript",
@@ -7034,6 +7611,7 @@
         "index": {
           "description": "Checks if an object is supported by browser",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "hasFeature",
           "normalized": "JObject a-\u003eb-\u003eJBool",
@@ -7049,6 +7627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "ifOp",
           "package": "HJScript",
@@ -7058,6 +7637,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "ifOp",
           "normalized": "JBool-\u003eExp a-\u003eExp a-\u003eExp a",
@@ -7073,6 +7653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "inVar",
           "package": "HJScript",
@@ -7082,6 +7663,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "inVar",
           "normalized": "Exp a-\u003eHJScript(Exp a)",
@@ -7097,6 +7679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "int",
           "package": "HJScript",
@@ -7106,6 +7689,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "int",
           "normalized": "Int-\u003eJInt",
@@ -7121,6 +7705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts to JString expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "jShow",
           "package": "HJScript",
@@ -7131,6 +7716,7 @@
         "index": {
           "description": "Converts to JString expression",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "jShow",
           "normalized": "Exp a-\u003eJString",
@@ -7147,6 +7733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNull value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "jnull",
           "package": "HJScript",
@@ -7157,6 +7744,7 @@
         "index": {
           "description": "Null value",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "jnull",
           "package": "HJScript",
@@ -7169,6 +7757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "new",
           "package": "HJScript",
@@ -7178,6 +7767,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "new",
           "normalized": "a-\u003eb-\u003eHJScript(Exp a)",
@@ -7193,6 +7783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo else branch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "noElse",
           "package": "HJScript",
@@ -7203,6 +7794,7 @@
         "index": {
           "description": "No else branch",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "noElse",
           "normalized": "HJScript(Elses())",
@@ -7272,6 +7864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "postdec",
           "package": "HJScript",
@@ -7281,6 +7874,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "postdec",
           "normalized": "Var a-\u003eHJScript()",
@@ -7295,6 +7889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "postinc",
           "package": "HJScript",
@@ -7304,6 +7899,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "postinc",
           "normalized": "Var a-\u003eHJScript()",
@@ -7318,6 +7914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "predec",
           "package": "HJScript",
@@ -7327,6 +7924,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "predec",
           "normalized": "Var a-\u003eHJScript()",
@@ -7342,6 +7940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrementing or decrementing numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "preinc",
           "package": "HJScript",
@@ -7352,6 +7951,7 @@
         "index": {
           "description": "Incrementing or decrementing numbers",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "preinc",
           "normalized": "Var a-\u003eHJScript()",
@@ -7367,6 +7967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnonymous void function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "procedure",
           "package": "HJScript",
@@ -7377,6 +7978,7 @@
         "index": {
           "description": "Anonymous void function",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "procedure",
           "normalized": "(a-\u003eHJScript())-\u003eHJScript(Exp(b-\u003e()))",
@@ -7392,6 +7994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcedure declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "procedureDecl",
           "package": "HJScript",
@@ -7402,6 +8005,7 @@
         "index": {
           "description": "Procedure declaration",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "procedureDecl",
           "normalized": "String-\u003e(a-\u003eHJScript())-\u003eHJScript()",
@@ -7417,6 +8021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "rec",
           "package": "HJScript",
@@ -7426,6 +8031,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "rec",
           "normalized": "Exp a-\u003eExp b-\u003eExp(Rec a b)",
@@ -7440,6 +8046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "second",
           "package": "HJScript",
@@ -7449,6 +8056,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "second",
           "normalized": "Exp(Rec a b)-\u003eExp b",
@@ -7463,6 +8071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "string",
           "package": "HJScript",
@@ -7472,6 +8081,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "string",
           "normalized": "String-\u003eJString",
@@ -7486,6 +8096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "this",
           "package": "HJScript",
@@ -7495,6 +8106,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "this",
           "package": "HJScript",
@@ -7507,6 +8119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "toHJScript",
           "package": "HJScript",
@@ -7516,6 +8129,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "toHJScript",
           "normalized": "a-\u003eHJScript()",
@@ -7531,6 +8145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "true",
           "package": "HJScript",
@@ -7540,6 +8155,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "true",
           "package": "HJScript",
@@ -7552,6 +8168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "var",
           "package": "HJScript",
@@ -7561,6 +8178,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "var",
           "package": "HJScript",
@@ -7573,6 +8191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "varWith",
           "package": "HJScript",
@@ -7582,6 +8201,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "varWith",
           "normalized": "Exp a-\u003eHJScript(Var a)",
@@ -7598,6 +8218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "while",
           "package": "HJScript",
@@ -7608,6 +8229,7 @@
         "index": {
           "description": "while",
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "while",
           "normalized": "JBool-\u003eHJScript a-\u003eHJScript()",
@@ -7622,6 +8244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "x",
           "package": "HJScript",
@@ -7631,6 +8254,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "x",
           "normalized": "Exp(Rec a b)-\u003eExp a",
@@ -7645,6 +8269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Lang",
           "name": "y",
           "package": "HJScript",
@@ -7654,6 +8279,7 @@
         },
         "index": {
           "hierarchy": "HJScript Lang",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Lang",
           "name": "y",
           "normalized": "Exp(Rec a b)-\u003eExp b",
@@ -7668,6 +8294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.ActiveXObject",
           "name": "ActiveXObject",
           "package": "HJScript",
@@ -7676,6 +8303,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects ActiveXObject",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.ActiveXObject",
           "name": "ActiveXObject",
           "package": "HJScript",
@@ -7689,6 +8317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.ActiveXObject",
           "name": "ActiveXObject",
           "package": "HJScript",
@@ -7697,6 +8326,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects ActiveXObject",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.ActiveXObject",
           "name": "ActiveXObject",
           "package": "HJScript",
@@ -7710,6 +8340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.ActiveXObject",
           "name": "ActiveXObject",
           "package": "HJScript",
@@ -7719,6 +8350,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects ActiveXObject",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.ActiveXObject",
           "name": "ActiveXObject",
           "package": "HJScript",
@@ -7732,6 +8364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.ActiveXObject",
           "name": "msXMLHttp",
           "package": "HJScript",
@@ -7741,6 +8374,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects ActiveXObject",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.ActiveXObject",
           "name": "msXMLHttp",
           "package": "HJScript",
@@ -7754,6 +8388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Array",
           "name": "Array",
           "package": "HJScript",
@@ -7762,6 +8397,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Array",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Array",
           "name": "Array",
           "package": "HJScript",
@@ -7776,6 +8412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperties for Array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Array",
           "name": "arrLength",
           "package": "HJScript",
@@ -7786,6 +8423,7 @@
         "index": {
           "description": "Properties for Array",
           "hierarchy": "HJScript Objects Array",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Array",
           "name": "arrLength",
           "normalized": "JArray a-\u003eJInt",
@@ -7802,6 +8440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect array elements with a condition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Array",
           "name": "filterArray",
           "package": "HJScript",
@@ -7812,6 +8451,7 @@
         "index": {
           "description": "Select array elements with condition",
           "hierarchy": "HJScript Objects Array",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Array",
           "name": "filterArray",
           "normalized": "(Exp a-\u003eJBool)-\u003eJArray a-\u003eHJScript(JArray a)",
@@ -7828,6 +8468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for mapArrayH_\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Array",
           "name": "foreach",
           "package": "HJScript",
@@ -7838,6 +8479,7 @@
         "index": {
           "description": "Synonym for mapArrayH",
           "hierarchy": "HJScript Objects Array",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Array",
           "name": "foreach",
           "normalized": "JArray a-\u003e(Exp a-\u003eHJScript a)-\u003eHJScript()",
@@ -7852,6 +8494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Array",
           "name": "headArr",
           "package": "HJScript",
@@ -7861,6 +8504,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Array",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Array",
           "name": "headArr",
           "normalized": "JArray a-\u003eVar a",
@@ -7877,6 +8521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Array",
           "name": "mapArray",
           "package": "HJScript",
@@ -7887,6 +8532,7 @@
         "index": {
           "description": "Map array",
           "hierarchy": "HJScript Objects Array",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Array",
           "name": "mapArray",
           "normalized": "(Exp a-\u003eExp a)-\u003eJArray a-\u003eHJScript(JArray a)",
@@ -7903,6 +8549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emapArrayH\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Array",
           "name": "mapArrayH",
           "package": "HJScript",
@@ -7913,6 +8560,7 @@
         "index": {
           "description": "mapArrayH",
           "hierarchy": "HJScript Objects Array",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Array",
           "name": "mapArrayH",
           "normalized": "(Exp a-\u003eHJScript(Exp a))-\u003eJArray a-\u003eHJScript(JArray a)",
@@ -7929,6 +8577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow away produced value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Array",
           "name": "mapArrayH_",
           "package": "HJScript",
@@ -7939,6 +8588,7 @@
         "index": {
           "description": "Throw away produced value",
           "hierarchy": "HJScript Objects Array",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Array",
           "name": "mapArrayH_",
           "normalized": "(Exp a-\u003eHJScript a)-\u003eJArray a-\u003eHJScript()",
@@ -7955,6 +8605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethods on array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Array",
           "name": "push",
           "package": "HJScript",
@@ -7965,6 +8616,7 @@
         "index": {
           "description": "Methods on array",
           "hierarchy": "HJScript Objects Array",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Array",
           "name": "push",
           "normalized": "Exp a-\u003eJArray a-\u003eHJScript()",
@@ -7979,6 +8631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Boolean",
           "name": "Boolean",
           "package": "HJScript",
@@ -7987,6 +8640,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Boolean",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Boolean",
           "name": "Boolean",
           "package": "HJScript",
@@ -8000,6 +8654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Boolean",
           "name": "Boolean",
           "package": "HJScript",
@@ -8008,6 +8663,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Boolean",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Boolean",
           "name": "Boolean",
           "package": "HJScript",
@@ -8021,6 +8677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Boolean",
           "name": "Boolean",
           "package": "HJScript",
@@ -8030,6 +8687,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Boolean",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Boolean",
           "name": "Boolean",
           "package": "HJScript",
@@ -8043,6 +8701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Boolean",
           "name": "booleanToString",
           "package": "HJScript",
@@ -8052,6 +8711,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Boolean",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Boolean",
           "name": "booleanToString",
           "normalized": "JObject Boolean-\u003eJString",
@@ -8067,6 +8727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Boolean",
           "name": "valueOf",
           "package": "HJScript",
@@ -8076,6 +8737,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Boolean",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Boolean",
           "name": "valueOf",
           "normalized": "JObject Boolean-\u003eJBool",
@@ -8091,6 +8753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "Date",
           "package": "HJScript",
@@ -8099,6 +8762,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "Date",
           "package": "HJScript",
@@ -8112,6 +8776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "Date",
           "package": "HJScript",
@@ -8120,6 +8785,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "Date",
           "package": "HJScript",
@@ -8133,6 +8799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "Date",
           "package": "HJScript",
@@ -8142,6 +8809,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "Date",
           "package": "HJScript",
@@ -8155,6 +8823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "dateToString",
           "package": "HJScript",
@@ -8164,6 +8833,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "dateToString",
           "normalized": "JObject Date-\u003eJString",
@@ -8179,6 +8849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getDate",
           "package": "HJScript",
@@ -8188,6 +8859,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getDate",
           "normalized": "JObject Date-\u003eJInt",
@@ -8203,6 +8875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getDay",
           "package": "HJScript",
@@ -8212,6 +8885,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getDay",
           "normalized": "JObject Date-\u003eJInt",
@@ -8227,6 +8901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getFullYear",
           "package": "HJScript",
@@ -8236,6 +8911,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getFullYear",
           "normalized": "JObject Date-\u003eJInt",
@@ -8251,6 +8927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getHours",
           "package": "HJScript",
@@ -8260,6 +8937,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getHours",
           "normalized": "JObject Date-\u003eJInt",
@@ -8275,6 +8953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getMilliseconds",
           "package": "HJScript",
@@ -8284,6 +8963,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getMilliseconds",
           "normalized": "JObject Date-\u003eJInt",
@@ -8299,6 +8979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getMinutes",
           "package": "HJScript",
@@ -8308,6 +8989,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getMinutes",
           "normalized": "JObject Date-\u003eJInt",
@@ -8323,6 +9005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getMonth",
           "package": "HJScript",
@@ -8332,6 +9015,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getMonth",
           "normalized": "JObject Date-\u003eJInt",
@@ -8347,6 +9031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getSeconds",
           "package": "HJScript",
@@ -8356,6 +9041,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getSeconds",
           "normalized": "JObject Date-\u003eJInt",
@@ -8371,6 +9057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getTime",
           "package": "HJScript",
@@ -8380,6 +9067,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getTime",
           "normalized": "JObject Date-\u003eJString",
@@ -8395,6 +9083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getTimezoneOffset",
           "package": "HJScript",
@@ -8404,6 +9093,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getTimezoneOffset",
           "normalized": "JObject Date-\u003eJString",
@@ -8419,6 +9109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getUTCDate",
           "package": "HJScript",
@@ -8428,6 +9119,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getUTCDate",
           "normalized": "JObject Date-\u003eJString",
@@ -8443,6 +9135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getUTCDay",
           "package": "HJScript",
@@ -8452,6 +9145,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getUTCDay",
           "normalized": "JObject Date-\u003eJString",
@@ -8467,6 +9161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getUTCFullYear",
           "package": "HJScript",
@@ -8476,6 +9171,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getUTCFullYear",
           "normalized": "JObject Date-\u003eJInt",
@@ -8491,6 +9187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getUTCHours",
           "package": "HJScript",
@@ -8500,6 +9197,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getUTCHours",
           "normalized": "JObject Date-\u003eJString",
@@ -8515,6 +9213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getUTCMilliseconds",
           "package": "HJScript",
@@ -8524,6 +9223,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getUTCMilliseconds",
           "normalized": "JObject Date-\u003eJString",
@@ -8539,6 +9239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getUTCMinutes",
           "package": "HJScript",
@@ -8548,6 +9249,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getUTCMinutes",
           "normalized": "JObject Date-\u003eJString",
@@ -8563,6 +9265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getUTCMonth",
           "package": "HJScript",
@@ -8572,6 +9275,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getUTCMonth",
           "normalized": "JObject Date-\u003eJInt",
@@ -8587,6 +9291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "getUTCSeconds",
           "package": "HJScript",
@@ -8596,6 +9301,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "getUTCSeconds",
           "normalized": "JObject Date-\u003eJString",
@@ -8611,6 +9317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setDate",
           "package": "HJScript",
@@ -8620,6 +9327,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setDate",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8635,6 +9343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setFullYear",
           "package": "HJScript",
@@ -8644,6 +9353,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setFullYear",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8659,6 +9369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setHours",
           "package": "HJScript",
@@ -8668,6 +9379,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setHours",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8683,6 +9395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setMilliseconds",
           "package": "HJScript",
@@ -8692,6 +9405,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setMilliseconds",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8707,6 +9421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setMinutes",
           "package": "HJScript",
@@ -8716,6 +9431,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setMinutes",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8731,6 +9447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setMonth",
           "package": "HJScript",
@@ -8740,6 +9457,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setMonth",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8755,6 +9473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setSeconds",
           "package": "HJScript",
@@ -8764,6 +9483,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setSeconds",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8779,6 +9499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setTime",
           "package": "HJScript",
@@ -8788,6 +9509,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setTime",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8803,6 +9525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setUTCDate",
           "package": "HJScript",
@@ -8812,6 +9535,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setUTCDate",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8827,6 +9551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setUTCFullYear",
           "package": "HJScript",
@@ -8836,6 +9561,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setUTCFullYear",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8851,6 +9577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setUTCHours",
           "package": "HJScript",
@@ -8860,6 +9587,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setUTCHours",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8875,6 +9603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setUTCMilliseconds",
           "package": "HJScript",
@@ -8884,6 +9613,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setUTCMilliseconds",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8899,6 +9629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setUTCMinutes",
           "package": "HJScript",
@@ -8908,6 +9639,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setUTCMinutes",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8923,6 +9655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setUTCMonth",
           "package": "HJScript",
@@ -8932,6 +9665,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setUTCMonth",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8947,6 +9681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setUTCSeconds",
           "package": "HJScript",
@@ -8956,6 +9691,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setUTCSeconds",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8971,6 +9707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "setYear",
           "package": "HJScript",
@@ -8980,6 +9717,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "setYear",
           "normalized": "JInt-\u003eJObject Date-\u003eHJScript()",
@@ -8995,6 +9733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "toGMTString",
           "package": "HJScript",
@@ -9004,6 +9743,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "toGMTString",
           "normalized": "JObject Date-\u003eJString",
@@ -9019,6 +9759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "toLocaleString",
           "package": "HJScript",
@@ -9028,6 +9769,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "toLocaleString",
           "normalized": "JObject Date-\u003eJString",
@@ -9043,6 +9785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Date",
           "name": "toUTCString",
           "package": "HJScript",
@@ -9052,6 +9795,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Date",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Date",
           "name": "toUTCString",
           "normalized": "JObject Date-\u003eJString",
@@ -9067,6 +9811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "JQuery",
           "package": "HJScript",
@@ -9075,6 +9820,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "JQuery",
           "package": "HJScript",
@@ -9088,6 +9834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "JQuery",
           "package": "HJScript",
@@ -9096,6 +9843,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "JQuery",
           "package": "HJScript",
@@ -9109,6 +9857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "JQuery",
           "package": "HJScript",
@@ -9118,6 +9867,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "JQuery",
           "package": "HJScript",
@@ -9131,6 +9881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "append",
           "package": "HJScript",
@@ -9140,6 +9891,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "append",
           "normalized": "Exp a-\u003eJObject JQuery-\u003eExp JQuery",
@@ -9154,6 +9906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "change",
           "package": "HJScript",
@@ -9163,6 +9916,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "change",
           "normalized": "HJScript()-\u003eJObject JQuery-\u003eHJScript()",
@@ -9177,6 +9931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "empty",
           "package": "HJScript",
@@ -9186,6 +9941,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "empty",
           "normalized": "JObject JQuery-\u003eExp JQuery",
@@ -9200,6 +9956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "get",
           "package": "HJScript",
@@ -9209,6 +9966,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "get",
           "normalized": "JInt-\u003eJObject JQuery-\u003eExp ElementNode",
@@ -9223,6 +9981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "jQuery",
           "package": "HJScript",
@@ -9232,6 +9991,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "jQuery",
           "package": "HJScript",
@@ -9245,6 +10005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "jSetText",
           "package": "HJScript",
@@ -9254,6 +10015,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "jSetText",
           "normalized": "JString-\u003eJObject JQuery-\u003eExp JQuery",
@@ -9269,6 +10031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "jSetVal",
           "package": "HJScript",
@@ -9278,6 +10041,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "jSetVal",
           "normalized": "JString-\u003eJObject JQuery-\u003eJString",
@@ -9293,6 +10057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "jSize",
           "package": "HJScript",
@@ -9302,6 +10067,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "jSize",
           "normalized": "JObject JQuery-\u003eJInt",
@@ -9317,6 +10083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "jText",
           "package": "HJScript",
@@ -9326,6 +10093,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "jText",
           "normalized": "JObject JQuery-\u003eJString",
@@ -9341,6 +10109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "jVal",
           "package": "HJScript",
@@ -9350,6 +10119,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "jVal",
           "normalized": "JObject JQuery-\u003eJString",
@@ -9365,6 +10135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "length",
           "package": "HJScript",
@@ -9374,6 +10145,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "length",
           "normalized": "JObject JQuery-\u003eJInt",
@@ -9388,6 +10160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "prepend",
           "package": "HJScript",
@@ -9397,6 +10170,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "prepend",
           "normalized": "Exp a-\u003eJObject JQuery-\u003eExp JQuery",
@@ -9411,6 +10185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "ready",
           "package": "HJScript",
@@ -9420,6 +10195,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "ready",
           "normalized": "HJScript()-\u003eHJScript()",
@@ -9434,6 +10210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "runExp",
           "package": "HJScript",
@@ -9443,6 +10220,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "runExp",
           "normalized": "Exp a-\u003eHJScript()",
@@ -9458,6 +10236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "select",
           "package": "HJScript",
@@ -9467,6 +10246,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "select",
           "normalized": "HJScript()-\u003eJObject JQuery-\u003eHJScript()",
@@ -9481,6 +10261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "selectExpr",
           "package": "HJScript",
@@ -9490,6 +10271,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "selectExpr",
           "normalized": "Exp a-\u003eJObject JQuery",
@@ -9505,6 +10287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.JQuery",
           "name": "submit",
           "package": "HJScript",
@@ -9514,6 +10297,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects JQuery",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.JQuery",
           "name": "submit",
           "normalized": "HJScript()-\u003eJObject JQuery-\u003eHJScript()",
@@ -9528,6 +10312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "Math",
           "package": "HJScript",
@@ -9536,6 +10321,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "Math",
           "package": "HJScript",
@@ -9550,6 +10336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMath Class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "Math",
           "package": "HJScript",
@@ -9559,6 +10346,7 @@
         "index": {
           "description": "Math Class",
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "Math",
           "package": "HJScript",
@@ -9572,6 +10360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "Math",
           "package": "HJScript",
@@ -9581,6 +10370,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "Math",
           "package": "HJScript",
@@ -9594,6 +10384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "abs",
           "package": "HJScript",
@@ -9603,6 +10394,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "abs",
           "normalized": "Exp a-\u003eJFloat",
@@ -9617,6 +10409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "acos",
           "package": "HJScript",
@@ -9626,6 +10419,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "acos",
           "normalized": "Exp a-\u003eJFloat",
@@ -9640,6 +10434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "asin",
           "package": "HJScript",
@@ -9649,6 +10444,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "asin",
           "normalized": "Exp a-\u003eJFloat",
@@ -9663,6 +10459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "atan",
           "package": "HJScript",
@@ -9672,6 +10469,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "atan",
           "normalized": "Exp a-\u003eJFloat",
@@ -9686,6 +10484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "cos",
           "package": "HJScript",
@@ -9695,6 +10494,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "cos",
           "normalized": "Exp a-\u003eJFloat",
@@ -9709,6 +10509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "exp",
           "package": "HJScript",
@@ -9718,6 +10519,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "exp",
           "normalized": "Exp a-\u003eJFloat",
@@ -9732,6 +10534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "floor",
           "package": "HJScript",
@@ -9741,6 +10544,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "floor",
           "normalized": "Exp a-\u003eJFloat",
@@ -9755,6 +10559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "log",
           "package": "HJScript",
@@ -9764,6 +10569,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "log",
           "normalized": "Exp a-\u003eJFloat",
@@ -9778,6 +10584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "max",
           "package": "HJScript",
@@ -9787,6 +10594,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "max",
           "normalized": "Exp a-\u003eJFloat",
@@ -9801,6 +10609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "min",
           "package": "HJScript",
@@ -9810,6 +10619,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "min",
           "normalized": "Exp a-\u003eJFloat",
@@ -9824,6 +10634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "pow",
           "package": "HJScript",
@@ -9833,6 +10644,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "pow",
           "normalized": "Exp a-\u003eJFloat",
@@ -9847,6 +10659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "random",
           "package": "HJScript",
@@ -9856,6 +10669,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "random",
           "normalized": "Exp a-\u003eJFloat",
@@ -9870,6 +10684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "round",
           "package": "HJScript",
@@ -9879,6 +10694,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "round",
           "normalized": "Exp a-\u003eJFloat",
@@ -9893,6 +10709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "sin",
           "package": "HJScript",
@@ -9902,6 +10719,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "sin",
           "normalized": "Exp a-\u003eJFloat",
@@ -9916,6 +10734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "sqrt",
           "package": "HJScript",
@@ -9925,6 +10744,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "sqrt",
           "normalized": "Exp a-\u003eJFloat",
@@ -9939,6 +10759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Math",
           "name": "tan",
           "package": "HJScript",
@@ -9948,6 +10769,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Math",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Math",
           "name": "tan",
           "normalized": "Exp a-\u003eJFloat",
@@ -9962,6 +10784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Object",
           "name": "Object",
           "package": "HJScript",
@@ -9970,6 +10793,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects Object",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Object",
           "name": "Object",
           "package": "HJScript",
@@ -9984,6 +10808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplain old Object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.Object",
           "name": "Object",
           "package": "HJScript",
@@ -9993,6 +10818,7 @@
         "index": {
           "description": "plain old Object",
           "hierarchy": "HJScript Objects Object",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.Object",
           "name": "Object",
           "package": "HJScript",
@@ -10006,6 +10832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.RegExp",
           "name": "RegExp",
           "package": "HJScript",
@@ -10014,6 +10841,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects RegExp",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.RegExp",
           "name": "RegExp",
           "package": "HJScript",
@@ -10027,6 +10855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.RegExp",
           "name": "RegExp",
           "package": "HJScript",
@@ -10035,6 +10864,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects RegExp",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.RegExp",
           "name": "RegExp",
           "package": "HJScript",
@@ -10048,6 +10878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.RegExp",
           "name": "RegExp",
           "package": "HJScript",
@@ -10057,6 +10888,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects RegExp",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.RegExp",
           "name": "RegExp",
           "package": "HJScript",
@@ -10070,6 +10902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.RegExp",
           "name": "compile",
           "package": "HJScript",
@@ -10079,6 +10912,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects RegExp",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.RegExp",
           "name": "compile",
           "normalized": "JString-\u003eJObject RegExp-\u003eHJScript()",
@@ -10093,6 +10927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.RegExp",
           "name": "exec",
           "package": "HJScript",
@@ -10102,6 +10937,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects RegExp",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.RegExp",
           "name": "exec",
           "normalized": "JString-\u003eJObject RegExp-\u003eJString",
@@ -10116,6 +10952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.RegExp",
           "name": "test",
           "package": "HJScript",
@@ -10125,6 +10962,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects RegExp",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.RegExp",
           "name": "test",
           "normalized": "JString-\u003eJObject RegExp-\u003eJBool",
@@ -10139,6 +10977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "String",
           "package": "HJScript",
@@ -10147,6 +10986,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "String",
           "package": "HJScript",
@@ -10160,6 +11000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "anchor",
           "package": "HJScript",
@@ -10169,6 +11010,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "anchor",
           "normalized": "JString-\u003eJString",
@@ -10183,6 +11025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "big",
           "package": "HJScript",
@@ -10192,6 +11035,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "big",
           "normalized": "JString-\u003eJString",
@@ -10206,6 +11050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "blink",
           "package": "HJScript",
@@ -10215,6 +11060,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "blink",
           "normalized": "JString-\u003eJString",
@@ -10229,6 +11075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "bold",
           "package": "HJScript",
@@ -10238,6 +11085,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "bold",
           "normalized": "JString-\u003eJString",
@@ -10252,6 +11100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "charAt",
           "package": "HJScript",
@@ -10261,6 +11110,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "charAt",
           "normalized": "JInt-\u003eJString-\u003eJString",
@@ -10276,6 +11126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "charCodeAt",
           "package": "HJScript",
@@ -10285,6 +11136,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "charCodeAt",
           "normalized": "JInt-\u003eJString-\u003eJInt",
@@ -10300,6 +11152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "indexOf",
           "package": "HJScript",
@@ -10309,6 +11162,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "indexOf",
           "normalized": "JString-\u003eJInt",
@@ -10324,6 +11178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "italics",
           "package": "HJScript",
@@ -10333,6 +11188,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "italics",
           "normalized": "JString-\u003eJString",
@@ -10347,6 +11203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "lastIndexOf",
           "package": "HJScript",
@@ -10356,6 +11213,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "lastIndexOf",
           "normalized": "JString-\u003eJInt",
@@ -10371,6 +11229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "link",
           "package": "HJScript",
@@ -10380,6 +11239,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "link",
           "normalized": "JString-\u003eJString",
@@ -10394,6 +11254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "replace",
           "package": "HJScript",
@@ -10403,6 +11264,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "replace",
           "normalized": "JString-\u003eJString-\u003eJString",
@@ -10417,6 +11279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "strConcat",
           "package": "HJScript",
@@ -10426,6 +11289,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "strConcat",
           "normalized": "JString-\u003eJString-\u003eJString",
@@ -10441,6 +11305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "strLength",
           "package": "HJScript",
@@ -10450,6 +11315,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "strLength",
           "normalized": "JString-\u003eJInt",
@@ -10465,6 +11331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "substr",
           "package": "HJScript",
@@ -10474,6 +11341,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "substr",
           "normalized": "JInt-\u003eJString-\u003eJString",
@@ -10488,6 +11356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "substring",
           "package": "HJScript",
@@ -10497,6 +11366,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "substring",
           "normalized": "JInt-\u003eJInt-\u003eJString-\u003eJString",
@@ -10511,6 +11381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "toLowerCase",
           "package": "HJScript",
@@ -10520,6 +11391,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "toLowerCase",
           "normalized": "JString-\u003eJString",
@@ -10535,6 +11407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.String",
           "name": "toUpperCase",
           "package": "HJScript",
@@ -10544,6 +11417,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects String",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.String",
           "name": "toUpperCase",
           "normalized": "JString-\u003eJString",
@@ -10559,6 +11433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "XMLHttpRequest",
           "package": "HJScript",
@@ -10567,6 +11442,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects XMLHttpRequest",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "XMLHttpRequest",
           "package": "HJScript",
@@ -10581,6 +11457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXMLHttpRequest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "XMLHttpRequest",
           "package": "HJScript",
@@ -10590,6 +11467,7 @@
         "index": {
           "description": "XMLHttpRequest",
           "hierarchy": "HJScript Objects XMLHttpRequest",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "XMLHttpRequest",
           "package": "HJScript",
@@ -10603,6 +11481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "XMLHttpRequest",
           "package": "HJScript",
@@ -10612,6 +11491,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects XMLHttpRequest",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "XMLHttpRequest",
           "package": "HJScript",
@@ -10625,6 +11505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "onReadyStateChange",
           "package": "HJScript",
@@ -10634,6 +11515,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects XMLHttpRequest",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "onReadyStateChange",
           "normalized": "JObject XMLHttpRequest-\u003eVar(()-\u003e())",
@@ -10649,6 +11531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "openReq",
           "package": "HJScript",
@@ -10658,6 +11541,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects XMLHttpRequest",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "openReq",
           "normalized": "JString-\u003eJString-\u003eJBool-\u003eJObject XMLHttpRequest-\u003eHJScript()",
@@ -10673,6 +11557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "readyState",
           "package": "HJScript",
@@ -10682,6 +11567,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects XMLHttpRequest",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "readyState",
           "normalized": "JObject XMLHttpRequest-\u003eJInt",
@@ -10697,6 +11583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "responseText",
           "package": "HJScript",
@@ -10706,6 +11593,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects XMLHttpRequest",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "responseText",
           "normalized": "JObject XMLHttpRequest-\u003eJString",
@@ -10721,6 +11609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "responseXML",
           "package": "HJScript",
@@ -10730,6 +11619,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects XMLHttpRequest",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "responseXML",
           "normalized": "JObject XMLHttpRequest-\u003eJObject Document",
@@ -10745,6 +11635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "sendReq",
           "package": "HJScript",
@@ -10754,6 +11645,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects XMLHttpRequest",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "sendReq",
           "normalized": "JString-\u003eJObject XMLHttpRequest-\u003eHJScript()",
@@ -10769,6 +11661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "setRequestHeader",
           "package": "HJScript",
@@ -10778,6 +11671,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects XMLHttpRequest",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "setRequestHeader",
           "normalized": "JString-\u003eJString-\u003eJObject XMLHttpRequest-\u003eHJScript()",
@@ -10793,6 +11687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "statusReq",
           "package": "HJScript",
@@ -10802,6 +11697,7 @@
         },
         "index": {
           "hierarchy": "HJScript Objects XMLHttpRequest",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Objects.XMLHttpRequest",
           "name": "statusReq",
           "normalized": "JObject XMLHttpRequest-\u003eJInt",
@@ -10817,6 +11713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "Utils",
           "package": "HJScript",
@@ -10825,6 +11722,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "Utils",
           "package": "HJScript",
@@ -10838,6 +11736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "allElems",
           "package": "HJScript",
@@ -10847,6 +11746,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "allElems",
           "package": "HJScript",
@@ -10860,6 +11760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "appendChildren",
           "package": "HJScript",
@@ -10869,6 +11770,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "appendChildren",
           "normalized": "JArray a-\u003eExp b-\u003eHJScript()",
@@ -10884,6 +11786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "dispBlock",
           "package": "HJScript",
@@ -10893,6 +11796,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "dispBlock",
           "package": "HJScript",
@@ -10906,6 +11810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "dispInline",
           "package": "HJScript",
@@ -10915,6 +11820,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "dispInline",
           "package": "HJScript",
@@ -10928,6 +11834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "dispNone",
           "package": "HJScript",
@@ -10937,6 +11844,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "dispNone",
           "package": "HJScript",
@@ -10950,6 +11858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "elemById",
           "package": "HJScript",
@@ -10959,6 +11868,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "elemById",
           "normalized": "a-\u003eExp ElementNode",
@@ -10974,6 +11884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "elemVal",
           "package": "HJScript",
@@ -10983,6 +11894,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "elemVal",
           "normalized": "Exp a-\u003eJString",
@@ -10998,6 +11910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "elemsByTag",
           "package": "HJScript",
@@ -11007,6 +11920,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "elemsByTag",
           "normalized": "a-\u003eJArray ElementNode",
@@ -11022,6 +11936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "fstElemByTag",
           "package": "HJScript",
@@ -11031,6 +11946,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "fstElemByTag",
           "normalized": "a-\u003eExp ElementNode",
@@ -11046,6 +11962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "getAllElems",
           "package": "HJScript",
@@ -11055,6 +11972,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "getAllElems",
           "package": "HJScript",
@@ -11068,6 +11986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "getElemById",
           "package": "HJScript",
@@ -11077,6 +11996,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "getElemById",
           "normalized": "a-\u003eHJScript(Exp ElementNode)",
@@ -11092,6 +12012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "getElemsByClass",
           "package": "HJScript",
@@ -11101,6 +12022,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "getElemsByClass",
           "normalized": "a-\u003eHJScript(JArray ElementNode)",
@@ -11116,6 +12038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "getElemsByTag",
           "package": "HJScript",
@@ -11125,6 +12048,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "getElemsByTag",
           "normalized": "a-\u003eHJScript(JArray ElementNode)",
@@ -11140,6 +12064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "getFstElemByClass",
           "package": "HJScript",
@@ -11149,6 +12074,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "getFstElemByClass",
           "normalized": "a-\u003eHJScript(JObject ElementNode)",
@@ -11164,6 +12090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "getFstElemByTag",
           "package": "HJScript",
@@ -11173,6 +12100,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "getFstElemByTag",
           "normalized": "a-\u003eHJScript(Exp ElementNode)",
@@ -11188,6 +12116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "getParentElem",
           "package": "HJScript",
@@ -11197,6 +12126,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "getParentElem",
           "normalized": "Exp a-\u003eHJScript(Exp ElementNode)",
@@ -11212,6 +12142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "getSiblings",
           "package": "HJScript",
@@ -11221,6 +12152,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "getSiblings",
           "normalized": "Exp a-\u003eHJScript(JArray Node)",
@@ -11236,6 +12168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "hasChild",
           "package": "HJScript",
@@ -11245,6 +12178,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "hasChild",
           "normalized": "Exp a-\u003eJBool",
@@ -11260,6 +12194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "hasClass",
           "package": "HJScript",
@@ -11269,6 +12204,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "hasClass",
           "normalized": "a-\u003eExp ElementNode-\u003eJBool",
@@ -11284,6 +12220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "hideElem",
           "package": "HJScript",
@@ -11293,6 +12230,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "hideElem",
           "normalized": "Exp a-\u003eHJScript()",
@@ -11308,6 +12246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "isInVisible",
           "package": "HJScript",
@@ -11317,6 +12256,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "isInVisible",
           "normalized": "Exp a-\u003eJBool",
@@ -11332,6 +12272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "isVisible",
           "package": "HJScript",
@@ -11341,6 +12282,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "isVisible",
           "normalized": "Exp a-\u003eJBool",
@@ -11356,6 +12298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "msg",
           "package": "HJScript",
@@ -11365,6 +12308,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "msg",
           "normalized": "a-\u003eHJScript()",
@@ -11379,6 +12323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "parentElem",
           "package": "HJScript",
@@ -11388,6 +12333,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "parentElem",
           "normalized": "Exp a-\u003eExp ElementNode",
@@ -11403,6 +12349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "remChildren",
           "package": "HJScript",
@@ -11412,6 +12359,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "remChildren",
           "normalized": "Exp a-\u003eHJScript()",
@@ -11427,6 +12375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "remElem",
           "package": "HJScript",
@@ -11436,6 +12385,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "remElem",
           "normalized": "Exp a-\u003eHJScript()",
@@ -11451,6 +12401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "remFirstChild",
           "package": "HJScript",
@@ -11460,6 +12411,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "remFirstChild",
           "normalized": "Exp a-\u003eHJScript()",
@@ -11475,6 +12427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "setChild",
           "package": "HJScript",
@@ -11484,6 +12437,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "setChild",
           "normalized": "Exp a-\u003eExp a-\u003eHJScript()",
@@ -11499,6 +12453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "setVal",
           "package": "HJScript",
@@ -11508,6 +12463,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "setVal",
           "normalized": "JString-\u003eExp a-\u003eHJScript()",
@@ -11523,6 +12479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "showBlock",
           "package": "HJScript",
@@ -11532,6 +12489,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "showBlock",
           "normalized": "Exp a-\u003eHJScript()",
@@ -11547,6 +12505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "showElem",
           "package": "HJScript",
@@ -11556,6 +12515,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "showElem",
           "normalized": "Exp a-\u003eHJScript()",
@@ -11571,6 +12531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "showInline",
           "package": "HJScript",
@@ -11580,6 +12541,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "showInline",
           "normalized": "Exp a-\u003eHJScript()",
@@ -11595,6 +12557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "thisElem",
           "package": "HJScript",
@@ -11604,6 +12567,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "thisElem",
           "package": "HJScript",
@@ -11617,6 +12581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "thisNode",
           "package": "HJScript",
@@ -11626,6 +12591,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "thisNode",
           "package": "HJScript",
@@ -11639,6 +12605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "thisXHTMLElement",
           "package": "HJScript",
@@ -11648,6 +12615,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "thisXHTMLElement",
           "package": "HJScript",
@@ -11661,6 +12629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "toggleVis",
           "package": "HJScript",
@@ -11670,6 +12639,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "toggleVis",
           "normalized": "Exp a-\u003eHJScript()",
@@ -11685,6 +12655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "toggleVisBlock",
           "package": "HJScript",
@@ -11694,6 +12665,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "toggleVisBlock",
           "normalized": "Exp a-\u003eHJScript()",
@@ -11709,6 +12681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.Utils",
           "name": "toggleVisInline",
           "package": "HJScript",
@@ -11718,6 +12691,7 @@
         },
         "index": {
           "hierarchy": "HJScript Utils",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.Utils",
           "name": "toggleVisInline",
           "normalized": "Exp a-\u003eHJScript()",
@@ -11733,6 +12707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.XMLGenerator",
           "name": "XMLGenerator",
           "package": "HJScript",
@@ -11741,6 +12716,7 @@
         },
         "index": {
           "hierarchy": "HJScript XMLGenerator",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.XMLGenerator",
           "name": "XMLGenerator",
           "package": "HJScript",
@@ -11754,6 +12730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.XMLGenerator",
           "name": "Attr",
           "package": "HJScript",
@@ -11761,6 +12738,7 @@
         },
         "index": {
           "hierarchy": "HJScript XMLGenerator",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.XMLGenerator",
           "name": "Attr",
           "package": "HJScript",
@@ -11774,6 +12752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.XMLGenerator",
           "name": "Attribute",
           "package": "HJScript",
@@ -11782,6 +12761,7 @@
         },
         "index": {
           "hierarchy": "HJScript XMLGenerator",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.XMLGenerator",
           "name": "Attribute",
           "package": "HJScript",
@@ -11795,6 +12775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.XMLGenerator",
           "name": "Child",
           "package": "HJScript",
@@ -11803,6 +12784,7 @@
         },
         "index": {
           "hierarchy": "HJScript XMLGenerator",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.XMLGenerator",
           "name": "Child",
           "package": "HJScript",
@@ -11816,6 +12798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.XMLGenerator",
           "name": "XML",
           "package": "HJScript",
@@ -11824,6 +12807,7 @@
         },
         "index": {
           "hierarchy": "HJScript XMLGenerator",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.XMLGenerator",
           "name": "XML",
           "package": "HJScript",
@@ -11837,6 +12821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.XMLGenerator",
           "name": ":=",
           "package": "HJScript",
@@ -11845,6 +12830,7 @@
         },
         "index": {
           "hierarchy": "HJScript XMLGenerator",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.XMLGenerator",
           "name": ":=",
           "package": "HJScript",
@@ -11857,6 +12843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.XMLGenerator",
           "name": "asAttr",
           "package": "HJScript",
@@ -11865,6 +12852,7 @@
         },
         "index": {
           "hierarchy": "HJScript XMLGenerator",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.XMLGenerator",
           "name": "asAttr",
           "normalized": "a-\u003eGenAttributeList b",
@@ -11880,6 +12868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.XMLGenerator",
           "name": "asChild",
           "package": "HJScript",
@@ -11888,6 +12877,7 @@
         },
         "index": {
           "hierarchy": "HJScript XMLGenerator",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.XMLGenerator",
           "name": "asChild",
           "normalized": "a-\u003eGenChildList b",
@@ -11903,6 +12893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.XMLGenerator",
           "name": "fromStringLit",
           "package": "HJScript",
@@ -11912,6 +12903,7 @@
         },
         "index": {
           "hierarchy": "HJScript XMLGenerator",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.XMLGenerator",
           "name": "fromStringLit",
           "normalized": "String-\u003eString",
@@ -11927,6 +12919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.XMLGenerator",
           "name": "genEElement",
           "package": "HJScript",
@@ -11935,6 +12928,7 @@
         },
         "index": {
           "hierarchy": "HJScript XMLGenerator",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.XMLGenerator",
           "name": "genEElement",
           "normalized": "Name(StringType a)-\u003e[XMLGenT a[AttributeType a]]-\u003eXMLGenT a(XMLType a)",
@@ -11950,6 +12944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript.XMLGenerator",
           "name": "genElement",
           "package": "HJScript",
@@ -11958,6 +12953,7 @@
         },
         "index": {
           "hierarchy": "HJScript XMLGenerator",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript.XMLGenerator",
           "name": "genElement",
           "normalized": "Name(StringType a)-\u003e[XMLGenT a[AttributeType a]]-\u003e[XMLGenT a[ChildType a]]-\u003eXMLGenT a(XMLType a)",
@@ -11973,6 +12969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript",
           "name": "HJScript",
           "package": "HJScript",
@@ -11981,6 +12978,7 @@
         },
         "index": {
           "hierarchy": "HJScript",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript",
           "name": "HJScript",
           "package": "HJScript",
@@ -11994,6 +12992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript",
           "name": "HJScript",
           "package": "HJScript",
@@ -12002,6 +13001,7 @@
         },
         "index": {
           "hierarchy": "HJScript",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript",
           "name": "HJScript",
           "package": "HJScript",
@@ -12016,6 +13016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHJScript Monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript",
           "name": "HJScript'",
           "package": "HJScript",
@@ -12025,6 +13026,7 @@
         "index": {
           "description": "HJScript Monad",
           "hierarchy": "HJScript",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript",
           "name": "HJScript'",
           "package": "HJScript",
@@ -12039,6 +13041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsHJscript class with function toHJScript for converting\n instances to HJScript ()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript",
           "name": "IsHJScript",
           "package": "HJScript",
@@ -12048,6 +13051,7 @@
         "index": {
           "description": "IsHJscript class with function toHJScript for converting instances to HJScript",
           "hierarchy": "HJScript",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript",
           "name": "IsHJScript",
           "package": "HJScript",
@@ -12062,6 +13066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns one script inside another\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript",
           "name": "hjsInside",
           "package": "HJScript",
@@ -12072,6 +13077,7 @@
         "index": {
           "description": "Runs one script inside another",
           "hierarchy": "HJScript",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript",
           "name": "hjsInside",
           "normalized": "HJScript a-\u003eHJScript(a,Block())",
@@ -12087,6 +13093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript",
           "name": "newVarName",
           "package": "HJScript",
@@ -12096,6 +13103,7 @@
         },
         "index": {
           "hierarchy": "HJScript",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript",
           "name": "newVarName",
           "package": "HJScript",
@@ -12109,6 +13117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript",
           "name": "newVarNum",
           "package": "HJScript",
@@ -12118,6 +13127,7 @@
         },
         "index": {
           "hierarchy": "HJScript",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript",
           "name": "newVarNum",
           "package": "HJScript",
@@ -12132,6 +13142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a script returning the value, the new state and\n the block of code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript",
           "name": "runHJScript",
           "package": "HJScript",
@@ -12142,6 +13153,7 @@
         "index": {
           "description": "Runs script returning the value the new state and the block of code",
           "hierarchy": "HJScript",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript",
           "name": "runHJScript",
           "normalized": "HJScript a-\u003eHJState-\u003e(a,HJState,Block())",
@@ -12157,6 +13169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:24 UTC 2014",
           "module": "HJScript",
           "name": "toHJScript",
           "package": "HJScript",
@@ -12166,6 +13179,7 @@
         },
         "index": {
           "hierarchy": "HJScript",
+          "indexed": "2014-03-11T16:45:24",
           "module": "HJScript",
           "name": "toHJScript",
           "normalized": "a-\u003eHJScript()",

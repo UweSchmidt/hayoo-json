@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rascal"
+        "phrase": "rascal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Paths_rascal",
           "name": "Paths_rascal",
           "package": "rascal",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Paths_rascal",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Paths_rascal",
           "name": "Paths_rascal",
           "package": "rascal",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Paths_rascal",
           "name": "getBinDir",
           "package": "rascal",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Paths_rascal",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Paths_rascal",
           "name": "getBinDir",
           "package": "rascal",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Paths_rascal",
           "name": "getDataDir",
           "package": "rascal",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Paths_rascal",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Paths_rascal",
           "name": "getDataDir",
           "package": "rascal",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Paths_rascal",
           "name": "getDataFileName",
           "package": "rascal",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Paths_rascal",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Paths_rascal",
           "name": "getDataFileName",
           "normalized": "FilePath-\u003eIO FilePath",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Paths_rascal",
           "name": "getLibDir",
           "package": "rascal",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Paths_rascal",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Paths_rascal",
           "name": "getLibDir",
           "package": "rascal",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Paths_rascal",
           "name": "getLibexecDir",
           "package": "rascal",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Paths_rascal",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Paths_rascal",
           "name": "getLibexecDir",
           "package": "rascal",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Paths_rascal",
           "name": "getSysconfDir",
           "package": "rascal",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Paths_rascal",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Paths_rascal",
           "name": "getSysconfDir",
           "package": "rascal",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Paths_rascal",
           "name": "version",
           "package": "rascal",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Paths_rascal",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Paths_rascal",
           "name": "version",
           "package": "rascal",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.API",
           "name": "API",
           "package": "rascal",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Rascal API",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.API",
           "name": "API",
           "package": "rascal",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erequest comments for a given article\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.API",
           "name": "getComments",
           "package": "rascal",
@@ -226,6 +245,7 @@
         "index": {
           "description": "request comments for given article",
           "hierarchy": "Rascal API",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.API",
           "name": "getComments",
           "normalized": "String-\u003eString-\u003eString-\u003eIO Comments",
@@ -242,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget posts according to selection in argument's subreddit as a listing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.API",
           "name": "getListing",
           "package": "rascal",
@@ -252,6 +273,7 @@
         "index": {
           "description": "get posts according to selection in argument subreddit as listing",
           "hierarchy": "Rascal API",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.API",
           "name": "getListing",
           "normalized": "String-\u003eString-\u003eInt-\u003eMaybe String-\u003eIO NamedListing",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget posts or comments from an apiurl, a sort order and a default in case\n of error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.API",
           "name": "getThing",
           "package": "rascal",
@@ -278,6 +301,7 @@
         "index": {
           "description": "get posts or comments from an apiurl sort order and default in case of error",
           "hierarchy": "Rascal API",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.API",
           "name": "getThing",
           "normalized": "String-\u003eString-\u003ea-\u003eIO a",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprint error message if there is a cURL exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.API",
           "name": "handleCurlAesonException",
           "package": "rascal",
@@ -304,6 +329,7 @@
         "index": {
           "description": "print error message if there is cURL exception",
           "hierarchy": "Rascal API",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.API",
           "name": "handleCurlAesonException",
           "normalized": "a-\u003eCurlAesonException-\u003eIO a",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module does the strict minimum needed parsing INI-style\n config files\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Conf",
           "name": "Conf",
           "package": "rascal",
@@ -329,6 +356,7 @@
         "index": {
           "description": "This module does the strict minimum needed parsing INI-style config files",
           "hierarchy": "Rascal Conf",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Conf",
           "name": "Conf",
           "package": "rascal",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Conf",
           "name": "Conf",
           "package": "rascal",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Rascal Conf",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Conf",
           "name": "Conf",
           "package": "rascal",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Conf",
           "name": "Key",
           "package": "rascal",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Rascal Conf",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Conf",
           "name": "Key",
           "package": "rascal",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Conf",
           "name": "Value",
           "package": "rascal",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Rascal Conf",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Conf",
           "name": "Value",
           "package": "rascal",
@@ -406,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ekeep only lines that will lead to some configuration element\n stripping out comments, empty lines, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Conf",
           "name": "configLine",
           "package": "rascal",
@@ -416,6 +451,7 @@
         "index": {
           "description": "keep only lines that will lead to some configuration element stripping out comments empty lines etc",
           "hierarchy": "Rascal Conf",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Conf",
           "name": "configLine",
           "normalized": "String-\u003eBool",
@@ -432,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns a line into a key, value pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Conf",
           "name": "getKeyValue",
           "package": "rascal",
@@ -442,6 +479,7 @@
         "index": {
           "description": "Turns line into key value pair",
           "hierarchy": "Rascal Conf",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Conf",
           "name": "getKeyValue",
           "normalized": "String-\u003e(Key,Value)",
@@ -458,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esearch for fileName in the user's home directory and combine it with\n default options to provide a Conf map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Conf",
           "name": "getUserConfig",
           "package": "rascal",
@@ -468,6 +507,7 @@
         "index": {
           "description": "search for fileName in the user home directory and combine it with default options to provide Conf map",
           "hierarchy": "Rascal Conf",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Conf",
           "name": "getUserConfig",
           "normalized": "String-\u003e[(String,String)]-\u003eIO Conf",
@@ -484,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a string into a Map String String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Conf",
           "name": "parseConfig",
           "package": "rascal",
@@ -494,6 +535,7 @@
         "index": {
           "description": "Parses string into Map String String",
           "hierarchy": "Rascal Conf",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Conf",
           "name": "parseConfig",
           "normalized": "String-\u003eConf",
@@ -510,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edrop leading and ending white space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Conf",
           "name": "stripWhite",
           "package": "rascal",
@@ -520,6 +563,7 @@
         "index": {
           "description": "drop leading and ending white space",
           "hierarchy": "Rascal Conf",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Conf",
           "name": "stripWhite",
           "normalized": "String-\u003eString",
@@ -536,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious constants for rascal\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Constants",
           "name": "Constants",
           "package": "rascal",
@@ -545,6 +590,7 @@
         "index": {
           "description": "Various constants for rascal",
           "hierarchy": "Rascal Constants",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Constants",
           "name": "Constants",
           "package": "rascal",
@@ -559,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eavailable sort options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Constants",
           "name": "availableSorts",
           "package": "rascal",
@@ -569,6 +616,7 @@
         "index": {
           "description": "available sort options",
           "hierarchy": "Rascal Constants",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Constants",
           "name": "availableSorts",
           "normalized": "[(Char,String)]",
@@ -584,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Constants",
           "name": "blue",
           "package": "rascal",
@@ -593,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Rascal Constants",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Constants",
           "name": "blue",
           "package": "rascal",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Constants",
           "name": "bold",
           "package": "rascal",
@@ -614,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Rascal Constants",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Constants",
           "name": "bold",
           "package": "rascal",
@@ -626,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Constants",
           "name": "cyan",
           "package": "rascal",
@@ -635,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Rascal Constants",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Constants",
           "name": "cyan",
           "package": "rascal",
@@ -648,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault configuration options as an association list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Constants",
           "name": "defaultConf",
           "package": "rascal",
@@ -658,6 +713,7 @@
         "index": {
           "description": "default configuration options as an association list",
           "hierarchy": "Rascal Constants",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Constants",
           "name": "defaultConf",
           "normalized": "[(String,String)]",
@@ -673,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Constants",
           "name": "green",
           "package": "rascal",
@@ -682,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Rascal Constants",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Constants",
           "name": "green",
           "package": "rascal",
@@ -694,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Constants",
           "name": "magenta",
           "package": "rascal",
@@ -703,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Rascal Constants",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Constants",
           "name": "magenta",
           "package": "rascal",
@@ -716,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolors and more\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Constants",
           "name": "red",
           "package": "rascal",
@@ -726,6 +787,7 @@
         "index": {
           "description": "colors and more",
           "hierarchy": "Rascal Constants",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Constants",
           "name": "red",
           "package": "rascal",
@@ -738,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Constants",
           "name": "reset",
           "package": "rascal",
@@ -747,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Rascal Constants",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Constants",
           "name": "reset",
           "package": "rascal",
@@ -760,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser_agent for cURL built with version string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Constants",
           "name": "userAgent",
           "package": "rascal",
@@ -770,6 +835,7 @@
         "index": {
           "description": "user agent for cURL built with version string",
           "hierarchy": "Rascal Constants",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Constants",
           "name": "userAgent",
           "package": "rascal",
@@ -783,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Constants",
           "name": "yellow",
           "package": "rascal",
@@ -792,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Rascal Constants",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Constants",
           "name": "yellow",
           "package": "rascal",
@@ -804,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "Types",
           "package": "rascal",
@@ -812,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "Types",
           "package": "rascal",
@@ -825,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "Comment",
           "package": "rascal",
@@ -833,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "Comment",
           "package": "rascal",
@@ -846,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "CommentListing",
           "package": "rascal",
@@ -854,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "CommentListing",
           "package": "rascal",
@@ -867,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "Comments",
           "package": "rascal",
@@ -875,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "Comments",
           "package": "rascal",
@@ -889,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea reddit post, called Link in reddit's API documentation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "Link",
           "package": "rascal",
@@ -898,6 +975,7 @@
         "index": {
           "description": "reddit post called Link in reddit API documentation",
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "Link",
           "package": "rascal",
@@ -911,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "Listing",
           "package": "rascal",
@@ -919,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "Listing",
           "package": "rascal",
@@ -932,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "NamedListing",
           "package": "rascal",
@@ -940,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "NamedListing",
           "package": "rascal",
@@ -953,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "RuntimeConf",
           "package": "rascal",
@@ -961,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "RuntimeConf",
           "package": "rascal",
@@ -974,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "Comment",
           "package": "rascal",
@@ -983,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "Comment",
           "package": "rascal",
@@ -996,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "CommentListing",
           "package": "rascal",
@@ -1005,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "CommentListing",
           "normalized": "CommentListing[Comment]",
@@ -1020,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "Comments",
           "package": "rascal",
@@ -1029,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "Comments",
           "normalized": "Comments[CommentListing]",
@@ -1044,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "Link",
           "package": "rascal",
@@ -1053,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "Link",
           "package": "rascal",
@@ -1066,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "Listing",
           "package": "rascal",
@@ -1075,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "Listing",
           "package": "rascal",
@@ -1088,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "NamedListing",
           "package": "rascal",
@@ -1097,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "NamedListing",
           "package": "rascal",
@@ -1110,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "OriginalArticle",
           "package": "rascal",
@@ -1119,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "OriginalArticle",
           "package": "rascal",
@@ -1132,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "RuntimeConf",
           "package": "rascal",
@@ -1141,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "RuntimeConf",
           "package": "rascal",
@@ -1154,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "__bodyHtml",
           "package": "rascal",
@@ -1163,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "__bodyHtml",
           "package": "rascal",
@@ -1176,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "_body",
           "package": "rascal",
@@ -1185,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "_body",
           "package": "rascal",
@@ -1197,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "_cauthor",
           "package": "rascal",
@@ -1206,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "_cauthor",
           "package": "rascal",
@@ -1218,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "_children",
           "package": "rascal",
@@ -1227,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "_children",
           "package": "rascal",
@@ -1239,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "_downs",
           "package": "rascal",
@@ -1248,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "_downs",
           "package": "rascal",
@@ -1260,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "_ups",
           "package": "rascal",
@@ -1269,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "_ups",
           "package": "rascal",
@@ -1281,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "after",
           "package": "rascal",
@@ -1290,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "after",
           "package": "rascal",
@@ -1302,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "author",
           "package": "rascal",
@@ -1311,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "author",
           "package": "rascal",
@@ -1323,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "commentSort",
           "package": "rascal",
@@ -1332,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "commentSort",
           "package": "rascal",
@@ -1345,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "count",
           "package": "rascal",
@@ -1354,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "count",
           "package": "rascal",
@@ -1366,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "emptyComments",
           "package": "rascal",
@@ -1375,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "emptyComments",
           "package": "rascal",
@@ -1388,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "emptyListing",
           "package": "rascal",
@@ -1397,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "emptyListing",
           "package": "rascal",
@@ -1410,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "isSelf",
           "package": "rascal",
@@ -1419,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "isSelf",
           "package": "rascal",
@@ -1432,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "link",
           "package": "rascal",
@@ -1441,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "link",
           "package": "rascal",
@@ -1453,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "linkSort",
           "package": "rascal",
@@ -1462,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "linkSort",
           "package": "rascal",
@@ -1475,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "links",
           "package": "rascal",
@@ -1484,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "links",
           "normalized": "[Link]",
@@ -1498,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "listing",
           "package": "rascal",
@@ -1507,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "listing",
           "package": "rascal",
@@ -1519,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "name",
           "package": "rascal",
@@ -1528,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "name",
           "package": "rascal",
@@ -1540,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "numComments",
           "package": "rascal",
@@ -1549,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "numComments",
           "package": "rascal",
@@ -1562,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "pageComments",
           "package": "rascal",
@@ -1571,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "pageComments",
           "package": "rascal",
@@ -1584,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "score",
           "package": "rascal",
@@ -1593,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "score",
           "package": "rascal",
@@ -1605,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "selfHtml",
           "package": "rascal",
@@ -1614,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "selfHtml",
           "package": "rascal",
@@ -1627,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "selfText",
           "package": "rascal",
@@ -1636,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "selfText",
           "package": "rascal",
@@ -1649,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "textHeight",
           "package": "rascal",
@@ -1658,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "textHeight",
           "package": "rascal",
@@ -1671,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "textWidth",
           "package": "rascal",
@@ -1680,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "textWidth",
           "package": "rascal",
@@ -1693,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "title",
           "package": "rascal",
@@ -1702,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "title",
           "package": "rascal",
@@ -1714,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Types",
           "name": "uid",
           "package": "rascal",
@@ -1723,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Rascal Types",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Types",
           "name": "uid",
           "package": "rascal",
@@ -1736,6 +1890,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious utilities for rascal\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Utils",
           "name": "Utils",
           "package": "rascal",
@@ -1745,6 +1900,7 @@
         "index": {
           "description": "Various utilities for rascal",
           "hierarchy": "Rascal Utils",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Utils",
           "name": "Utils",
           "package": "rascal",
@@ -1759,6 +1915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunescape and add newlines in order not to cut words\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Utils",
           "name": "cleanUp",
           "package": "rascal",
@@ -1769,6 +1926,7 @@
         "index": {
           "description": "unescape and add newlines in order not to cut words",
           "hierarchy": "Rascal Utils",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Utils",
           "name": "cleanUp",
           "normalized": "String-\u003eInt-\u003eString",
@@ -1785,6 +1943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget full sort name from initial\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Utils",
           "name": "getFullSort",
           "package": "rascal",
@@ -1795,6 +1954,7 @@
         "index": {
           "description": "get full sort name from initial",
           "hierarchy": "Rascal Utils",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Utils",
           "name": "getFullSort",
           "normalized": "Char-\u003eMaybe String",
@@ -1811,6 +1971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextract links from some HTML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Utils",
           "name": "hrefs",
           "package": "rascal",
@@ -1821,6 +1982,7 @@
         "index": {
           "description": "extract links from some HTML",
           "hierarchy": "Rascal Utils",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Utils",
           "name": "hrefs",
           "normalized": "String-\u003e[String]",
@@ -1836,6 +1998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a prefix (e.g. indent) on the left for a string to be printed in given\n width note, because of unlines, a n ends each line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Utils",
           "name": "indentString",
           "package": "rascal",
@@ -1846,6 +2009,7 @@
         "index": {
           "description": "add prefix e.g indent on the left for string to be printed in given width note because of unlines ends each line",
           "hierarchy": "Rascal Utils",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Utils",
           "name": "indentString",
           "normalized": "Int-\u003eString-\u003eString-\u003eString",
@@ -1862,6 +2026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd capital letter and separate by newlines at most 25 strings\n for a total of 4 chars\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Utils",
           "name": "letterizeLines",
           "package": "rascal",
@@ -1872,6 +2037,7 @@
         "index": {
           "description": "add capital letter and separate by newlines at most strings for total of chars",
           "hierarchy": "Rascal Utils",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Utils",
           "name": "letterizeLines",
           "normalized": "[String]-\u003eString",
@@ -1888,6 +2054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epretty print sort name with initial or selected letter highlighted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Utils",
           "name": "makeCmd",
           "package": "rascal",
@@ -1898,6 +2065,7 @@
         "index": {
           "description": "pretty print sort name with initial or selected letter highlighted",
           "hierarchy": "Rascal Utils",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Utils",
           "name": "makeCmd",
           "normalized": "(Char,String)-\u003eString",
@@ -1914,6 +2082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edisplay an informative message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Utils",
           "name": "message",
           "package": "rascal",
@@ -1924,6 +2093,7 @@
         "index": {
           "description": "display an informative message",
           "hierarchy": "Rascal Utils",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Utils",
           "name": "message",
           "normalized": "String-\u003eInt-\u003eIO()",
@@ -1939,6 +2109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eopen an url in a platform independent way\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Utils",
           "name": "openUrl",
           "package": "rascal",
@@ -1949,6 +2120,7 @@
         "index": {
           "description": "open an url in platform independent way",
           "hierarchy": "Rascal Utils",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Utils",
           "name": "openUrl",
           "normalized": "String-\u003eInt-\u003eIO()",
@@ -1964,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Utils",
           "name": "showRef",
           "package": "rascal",
@@ -1973,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Rascal Utils",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Utils",
           "name": "showRef",
           "normalized": "(Int,String)-\u003eString",
@@ -1989,6 +2163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esplit a string to a list of substring of length \u003c= n\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Utils",
           "name": "splitAt'",
           "package": "rascal",
@@ -1999,6 +2174,7 @@
         "index": {
           "description": "split string to list of substring of length",
           "hierarchy": "Rascal Utils",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Utils",
           "name": "splitAt'",
           "normalized": "Int-\u003eString-\u003e[String]",
@@ -2014,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Utils",
           "name": "splitAtLastSpace",
           "package": "rascal",
@@ -2023,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Rascal Utils",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Utils",
           "name": "splitAtLastSpace",
           "normalized": "String-\u003eString-\u003e(String,String)",
@@ -2039,6 +2217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoor man's HTML entities unescaping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Utils",
           "name": "unescape",
           "package": "rascal",
@@ -2049,6 +2228,7 @@
         "index": {
           "description": "Poor man HTML entities unescaping",
           "hierarchy": "Rascal Utils",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Utils",
           "name": "unescape",
           "normalized": "String-\u003eString",
@@ -2064,6 +2244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewait for a key press\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:37 UTC 2014",
           "module": "Rascal.Utils",
           "name": "waitKey",
           "package": "rascal",
@@ -2074,6 +2255,7 @@
         "index": {
           "description": "wait for key press",
           "hierarchy": "Rascal Utils",
+          "indexed": "2014-03-11T19:48:37",
           "module": "Rascal.Utils",
           "name": "waitKey",
           "normalized": "Int-\u003eIO()",

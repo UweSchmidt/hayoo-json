@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mongodb-queue"
+        "phrase": "mongodb-queue",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "Queue",
           "package": "mongodb-queue",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "Queue",
           "package": "mongodb-queue",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "EmitterOpts",
           "package": "mongodb-queue",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "EmitterOpts",
           "package": "mongodb-queue",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "WorkerOpts",
           "package": "mongodb-queue",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "WorkerOpts",
           "package": "mongodb-queue",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "EmitterOpts",
           "package": "mongodb-queue",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "EmitterOpts",
           "package": "mongodb-queue",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "WorkerOpts",
           "package": "mongodb-queue",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "WorkerOpts",
           "package": "mongodb-queue",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a QueueEmitter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "createEmitter",
           "package": "mongodb-queue",
@@ -136,6 +147,7 @@
         "index": {
           "description": "create QueueEmitter",
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "createEmitter",
           "package": "mongodb-queue",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esame as createTailBroker, but uses a polling technique instead of tailable cursors\n Use default settings and poll with a 10 ms delay\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "createPollBroker",
           "package": "mongodb-queue",
@@ -160,6 +173,7 @@
         "index": {
           "description": "same as createTailBroker but uses polling technique instead of tailable cursors Use default settings and poll with ms delay",
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "createPollBroker",
           "package": "mongodb-queue",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a TailBroker\n create a single TailBroker per process (per queue collection)\n call nextFromQueueTail with the TailBroker to get the next message\n\u003c/p\u003e\u003cp\u003eTailBroker is designed to have 1 instance per process (and 1 process per machine)\n To handle multiple messages at once immediately hand off messages from nextFromQueueTail to worker threads (this library does not help you create worker threads)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "createTailBroker",
           "package": "mongodb-queue",
@@ -184,6 +199,7 @@
         "index": {
           "description": "creates TailBroker create single TailBroker per process per queue collection call nextFromQueueTail with the TailBroker to get the next message TailBroker is designed to have instance per process and process per machine To handle multiple messages at once immediately hand off messages from nextFromQueueTail to worker threads this library does not help you create worker threads",
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "createTailBroker",
           "package": "mongodb-queue",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eemit a message for a worker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "emit",
           "package": "mongodb-queue",
@@ -208,6 +225,7 @@
         "index": {
           "description": "emit message for worker",
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "emit",
           "normalized": "QueueEmitter-\u003eDocument-\u003eAction a()",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "emitterCollection",
           "package": "mongodb-queue",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "emitterCollection",
           "package": "mongodb-queue",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "emitterMaxByteSize",
           "package": "mongodb-queue",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "emitterMaxByteSize",
           "package": "mongodb-queue",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "emitterVersion",
           "package": "mongodb-queue",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "emitterVersion",
           "package": "mongodb-queue",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate an emitter with non-default configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "mkEmitter",
           "package": "mongodb-queue",
@@ -299,6 +324,7 @@
         "index": {
           "description": "create an emitter with non-default configuration",
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "mkEmitter",
           "normalized": "EmitterOpts-\u003eAction a QueueEmitter",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate an worker with non-default configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "mkPollBroker",
           "package": "mongodb-queue",
@@ -324,6 +351,7 @@
         "index": {
           "description": "create an worker with non-default configuration",
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "mkPollBroker",
           "normalized": "WorkerOpts-\u003eInt-\u003eAction a PollBroker",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a tailable cursor worker with non-default configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "mkTailBroker",
           "package": "mongodb-queue",
@@ -350,6 +379,7 @@
         "index": {
           "description": "create tailable cursor worker with non-default configuration",
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "mkTailBroker",
           "normalized": "WorkerOpts-\u003eAction a TailBroker",
@@ -366,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next message from the queue.\n First marks the message as handled.\n\u003c/p\u003e\u003cp\u003eUses polling rather than a tailable cursor\n\u003c/p\u003e\u003cp\u003eDo not call this from multiple threads against the same PollBroker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "nextFromQueuePoll",
           "package": "mongodb-queue",
@@ -376,6 +407,7 @@
         "index": {
           "description": "Get the next message from the queue First marks the message as handled Uses polling rather than tailable cursor Do not call this from multiple threads against the same PollBroker",
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "nextFromQueuePoll",
           "normalized": "PollBroker-\u003eAction a Document",
@@ -392,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next message from the queue.\n First marks the message as handled.\n\u003c/p\u003e\u003cp\u003eUses a tailable cursor rather than polling\n\u003c/p\u003e\u003cp\u003eDo not call this from multiple threads against the same TailBroker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "nextFromQueueTail",
           "package": "mongodb-queue",
@@ -402,6 +435,7 @@
         "index": {
           "description": "Get the next message from the queue First marks the message as handled Uses tailable cursor rather than polling Do not call this from multiple threads against the same TailBroker",
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "nextFromQueueTail",
           "normalized": "TailBroker-\u003eAction a Document",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "workerCollection",
           "package": "mongodb-queue",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "workerCollection",
           "package": "mongodb-queue",
@@ -439,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:56 UTC 2014",
           "module": "Database.MongoDB.Queue",
           "name": "workerMaxByteSize",
           "package": "mongodb-queue",
@@ -448,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Queue",
+          "indexed": "2014-03-11T19:21:56",
           "module": "Database.MongoDB.Queue",
           "name": "workerMaxByteSize",
           "package": "mongodb-queue",

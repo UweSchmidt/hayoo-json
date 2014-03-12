@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "string-combinators"
+        "phrase": "string-combinators",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "Combinators",
           "package": "string-combinators",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "Combinators",
           "package": "string-combinators",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut two string-likes above eachother (separated by a \u003ccode\u003e\u003ca\u003enewline\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "($$)",
           "package": "string-combinators",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Put two string-likes above eachother separated by newline",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "($$) $$",
           "normalized": "a-\u003ea-\u003ea",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut two string-likes besides eachother separated by a \u003ccode\u003e\u003ca\u003espace\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "(\u003c+\u003e)",
           "package": "string-combinators",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Put two string-likes besides eachother separated by space",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "(\u003c\u003e)",
           "package": "string-combinators",
@@ -99,6 +106,7 @@
         "index": {
           "description": "An infix synonym for mappend",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a string-like in \u003ccode\u003e\u003c...\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "angleBrackets",
           "package": "string-combinators",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Wrap string-like in",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "angleBrackets",
           "normalized": "a-\u003ea",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebetween b c s\u003c/code\u003e wraps the string-like \u003ccode\u003es\u003c/code\u003e between \u003ccode\u003eb\u003c/code\u003e and \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "between",
           "package": "string-combinators",
@@ -150,6 +161,7 @@
         "index": {
           "description": "between wraps the string-like between and",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "between",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a string-like in \u003ccode\u003e{...}\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "braces",
           "package": "string-combinators",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Wrap string-like in",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "braces",
           "normalized": "a-\u003ea",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a string-like in \u003ccode\u003e[...]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "brackets",
           "package": "string-combinators",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Wrap string-like in",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "brackets",
           "normalized": "a-\u003ea",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a character to a string-like.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "char",
           "package": "string-combinators",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Convert character to string-like",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "char",
           "normalized": "Char-\u003ea",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e:\u003c/code\u003e character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "colon",
           "package": "string-combinators",
@@ -250,6 +269,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "colon",
           "package": "string-combinators",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ',' character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "comma",
           "package": "string-combinators",
@@ -273,6 +294,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "comma",
           "package": "string-combinators",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003eDouble\u003c/code\u003e to a string-like.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "double",
           "package": "string-combinators",
@@ -296,6 +319,7 @@
         "index": {
           "description": "Convert Double to string-like",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "double",
           "normalized": "Double-\u003ea",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a string-like in \u003ccode\u003e\"...\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "doubleQuotes",
           "package": "string-combinators",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Wrap string-like in",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "doubleQuotes",
           "normalized": "a-\u003ea",
@@ -337,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '=' character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "equals",
           "package": "string-combinators",
@@ -347,6 +374,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "equals",
           "package": "string-combinators",
@@ -360,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003eFloat\u003c/code\u003e to a string-like.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "float",
           "package": "string-combinators",
@@ -370,6 +399,7 @@
         "index": {
           "description": "Convert Float to string-like",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "float",
           "normalized": "Float-\u003ea",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003eShow\u003c/code\u003eable value to a string-like.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "fromShow",
           "package": "string-combinators",
@@ -395,6 +426,7 @@
         "index": {
           "description": "Convert Show able value to string-like",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "fromShow",
           "normalized": "a-\u003eb",
@@ -411,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that: \u003ccode\u003ehcat = \u003ccode\u003e\u003ca\u003eintercalate\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "hcat",
           "package": "string-combinators",
@@ -421,6 +454,7 @@
         "index": {
           "description": "List version of Note that hcat intercalate",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "hcat",
           "normalized": "[a]-\u003ea",
@@ -436,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003eInt\u003c/code\u003e to a string-like.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "int",
           "package": "string-combinators",
@@ -446,6 +481,7 @@
         "index": {
           "description": "Convert an Int to string-like",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "int",
           "normalized": "Int-\u003ea",
@@ -461,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003eInteger\u003c/code\u003e to a string-like.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "integer",
           "package": "string-combinators",
@@ -471,6 +508,7 @@
         "index": {
           "description": "Convert an Integer to string-like",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "integer",
           "normalized": "Integer-\u003ea",
@@ -486,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine the string-likes with a given function.\n\u003c/p\u003e\u003cpre\u003eintercalate f [s1, ... sn] = s1 `f` (s2 `f` (... (sn-1 `f` sn)))\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "intercalate",
           "package": "string-combinators",
@@ -496,6 +535,7 @@
         "index": {
           "description": "Combine the string-likes with given function intercalate s1 sn s1 s2 sn-1 sn",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "intercalate",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -511,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '\u003c' character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "labrack",
           "package": "string-combinators",
@@ -521,6 +562,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "labrack",
           "package": "string-combinators",
@@ -534,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '{' character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "lbrace",
           "package": "string-combinators",
@@ -544,6 +587,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "lbrace",
           "package": "string-combinators",
@@ -557,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '[' character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "lbrack",
           "package": "string-combinators",
@@ -567,6 +612,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "lbrack",
           "package": "string-combinators",
@@ -580,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '(' character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "lparen",
           "package": "string-combinators",
@@ -590,6 +637,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "lparen",
           "package": "string-combinators",
@@ -603,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emid m x y\u003c/code\u003e Puts \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003ey\u003c/code\u003e around \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that: \u003ccode\u003emid m x y = \u003ccode\u003e\u003ca\u003ebetween\u003c/a\u003e\u003c/code\u003e x y m\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "mid",
           "package": "string-combinators",
@@ -613,6 +662,7 @@
         "index": {
           "description": "mid Puts and around Note that mid between",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "mid",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -628,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '\\n' character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "newline",
           "package": "string-combinators",
@@ -638,6 +689,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "newline",
           "package": "string-combinators",
@@ -651,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a string-like in \u003ccode\u003e(...)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "parens",
           "package": "string-combinators",
@@ -661,6 +714,7 @@
         "index": {
           "description": "Wrap string-like in",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "parens",
           "normalized": "a-\u003ea",
@@ -676,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epunctuate p [s1, ... sn] = [s1 \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e p, s2 \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e p, ... sn-1 \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e p, sn]\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e(Idea and implementation taken from the \u003ccode\u003epretty\u003c/code\u003e package.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "punctuate",
           "package": "string-combinators",
@@ -686,6 +741,7 @@
         "index": {
           "description": "punctuate s1 sn s1 s2 sn-1 sn Idea and implementation taken from the pretty package",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "punctuate",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -701,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a string-like in \u003ccode\u003e'...'\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "quotes",
           "package": "string-combinators",
@@ -711,6 +768,7 @@
         "index": {
           "description": "Wrap string-like in",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "quotes",
           "normalized": "a-\u003ea",
@@ -726,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '\u003e' character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "rabrack",
           "package": "string-combinators",
@@ -736,6 +795,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "rabrack",
           "package": "string-combinators",
@@ -749,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003eRational\u003c/code\u003e to a string-like.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "rational",
           "package": "string-combinators",
@@ -759,6 +820,7 @@
         "index": {
           "description": "Convert Rational to string-like",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "rational",
           "normalized": "Rational-\u003ea",
@@ -774,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA '}' character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "rbrace",
           "package": "string-combinators",
@@ -784,6 +847,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "rbrace",
           "package": "string-combinators",
@@ -797,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ']' character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "rbrack",
           "package": "string-combinators",
@@ -807,6 +872,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "rbrack",
           "package": "string-combinators",
@@ -820,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ')' character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "rparen",
           "package": "string-combinators",
@@ -830,6 +897,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "rparen",
           "package": "string-combinators",
@@ -843,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ';' character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "semi",
           "package": "string-combinators",
@@ -853,6 +922,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "semi",
           "package": "string-combinators",
@@ -866,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ' ' character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "space",
           "package": "string-combinators",
@@ -876,6 +947,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "space",
           "package": "string-combinators",
@@ -889,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003eshowParen\u003c/code\u003e conditionally wraps a string-like in \u003ccode\u003e(...)\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThis function is supposed to be used infix as in:\n\u003c/p\u003e\u003cpre\u003e(precedence \u003e= 10) `thenParens` (\"fun\" \u003c+\u003e \"arg\")\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "thenParens",
           "package": "string-combinators",
@@ -899,6 +972,7 @@
         "index": {
           "description": "Like showParen conditionally wraps string-like in This function is supposed to be used infix as in precedence thenParens fun arg",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "thenParens",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -915,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that: \u003ccode\u003eunlines = foldr (\u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e) mempty\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "unlines",
           "package": "string-combinators",
@@ -925,6 +1000,7 @@
         "index": {
           "description": "List version of Note that unlines foldr mempty",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "unlines",
           "normalized": "[a]-\u003ea",
@@ -940,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList version of \u003ccode\u003e\u003ca\u003e\u003c+\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that: \u003ccode\u003eunwords = \u003ccode\u003e\u003ca\u003eintercalate\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003e\u003c+\u003e\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:35 UTC 2014",
           "module": "Data.String.Combinators",
           "name": "unwords",
           "package": "string-combinators",
@@ -950,6 +1027,7 @@
         "index": {
           "description": "List version of Note that unwords intercalate",
           "hierarchy": "Data String Combinators",
+          "indexed": "2014-03-11T20:12:35",
           "module": "Data.String.Combinators",
           "name": "unwords",
           "normalized": "[a]-\u003ea",

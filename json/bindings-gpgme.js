@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-gpgme"
+        "phrase": "bindings-gpgme",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://www.gnupg.org/gpgme.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "Gpgme",
           "package": "bindings-gpgme",
@@ -28,6 +29,7 @@
         "index": {
           "description": "http www.gnupg.org gpgme.html",
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "Gpgme",
           "package": "bindings-gpgme",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_engine_info",
           "package": "bindings-gpgme",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_engine_info",
           "package": "bindings-gpgme",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_import_status",
           "package": "bindings-gpgme",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_import_status",
           "package": "bindings-gpgme",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_invalid_key",
           "package": "bindings-gpgme",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_invalid_key",
           "package": "bindings-gpgme",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_key",
           "package": "bindings-gpgme",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_key",
           "package": "bindings-gpgme",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_key_sig",
           "package": "bindings-gpgme",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_key_sig",
           "package": "bindings-gpgme",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_new_signature",
           "package": "bindings-gpgme",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_new_signature",
           "package": "bindings-gpgme",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_decrypt_result",
           "package": "bindings-gpgme",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_decrypt_result",
           "package": "bindings-gpgme",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_encrypt_result",
           "package": "bindings-gpgme",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_encrypt_result",
           "package": "bindings-gpgme",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_genkey_result",
           "package": "bindings-gpgme",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_genkey_result",
           "package": "bindings-gpgme",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_import_result",
           "package": "bindings-gpgme",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_import_result",
           "package": "bindings-gpgme",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_keylist_result",
           "package": "bindings-gpgme",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_keylist_result",
           "package": "bindings-gpgme",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_sign_result",
           "package": "bindings-gpgme",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_sign_result",
           "package": "bindings-gpgme",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_verify_result",
           "package": "bindings-gpgme",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_verify_result",
           "package": "bindings-gpgme",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_recipient",
           "package": "bindings-gpgme",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_recipient",
           "package": "bindings-gpgme",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_sig_notation",
           "package": "bindings-gpgme",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_sig_notation",
           "package": "bindings-gpgme",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_signature",
           "package": "bindings-gpgme",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_signature",
           "package": "bindings-gpgme",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_subkey",
           "package": "bindings-gpgme",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_subkey",
           "package": "bindings-gpgme",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_trust_item",
           "package": "bindings-gpgme",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_trust_item",
           "package": "bindings-gpgme",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_user_id",
           "package": "bindings-gpgme",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_user_id",
           "package": "bindings-gpgme",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpg_err_code_t",
           "package": "bindings-gpgme",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpg_err_code_t",
           "package": "bindings-gpgme",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpg_err_source_t",
           "package": "bindings-gpgme",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpg_err_source_t",
           "package": "bindings-gpgme",
@@ -482,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpg_error_t",
           "package": "bindings-gpgme",
@@ -490,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpg_error_t",
           "package": "bindings-gpgme",
@@ -503,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_arg",
           "package": "bindings-gpgme",
@@ -511,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_arg",
           "package": "bindings-gpgme",
@@ -524,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_arg_t",
           "package": "bindings-gpgme",
@@ -532,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_arg_t",
           "package": "bindings-gpgme",
@@ -545,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_comp",
           "package": "bindings-gpgme",
@@ -553,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_comp",
           "package": "bindings-gpgme",
@@ -566,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_comp_t",
           "package": "bindings-gpgme",
@@ -574,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_comp_t",
           "package": "bindings-gpgme",
@@ -587,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_level_t",
           "package": "bindings-gpgme",
@@ -595,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_level_t",
           "package": "bindings-gpgme",
@@ -608,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_opt",
           "package": "bindings-gpgme",
@@ -616,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_opt",
           "package": "bindings-gpgme",
@@ -629,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_opt_t",
           "package": "bindings-gpgme",
@@ -637,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_opt_t",
           "package": "bindings-gpgme",
@@ -650,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_type_t",
           "package": "bindings-gpgme",
@@ -658,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_type_t",
           "package": "bindings-gpgme",
@@ -671,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_ctx_t",
           "package": "bindings-gpgme",
@@ -679,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_ctx_t",
           "package": "bindings-gpgme",
@@ -692,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_cbs",
           "package": "bindings-gpgme",
@@ -700,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_cbs",
           "package": "bindings-gpgme",
@@ -713,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_cbs_t",
           "package": "bindings-gpgme",
@@ -721,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_cbs_t",
           "package": "bindings-gpgme",
@@ -734,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_encoding_t",
           "package": "bindings-gpgme",
@@ -742,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_encoding_t",
           "package": "bindings-gpgme",
@@ -755,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_read_cb_t",
           "package": "bindings-gpgme",
@@ -763,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_read_cb_t",
           "package": "bindings-gpgme",
@@ -776,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_release_cb_t",
           "package": "bindings-gpgme",
@@ -784,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_release_cb_t",
           "package": "bindings-gpgme",
@@ -797,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_seek_cb_t",
           "package": "bindings-gpgme",
@@ -805,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_seek_cb_t",
           "package": "bindings-gpgme",
@@ -818,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_t",
           "package": "bindings-gpgme",
@@ -826,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_t",
           "package": "bindings-gpgme",
@@ -839,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_write_cb_t",
           "package": "bindings-gpgme",
@@ -847,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_write_cb_t",
           "package": "bindings-gpgme",
@@ -860,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_decrypt_result_t",
           "package": "bindings-gpgme",
@@ -868,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_decrypt_result_t",
           "package": "bindings-gpgme",
@@ -881,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_edit_cb_t",
           "package": "bindings-gpgme",
@@ -889,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_edit_cb_t",
           "package": "bindings-gpgme",
@@ -902,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_encrypt_flags_t",
           "package": "bindings-gpgme",
@@ -910,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_encrypt_flags_t",
           "package": "bindings-gpgme",
@@ -923,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_encrypt_result_t",
           "package": "bindings-gpgme",
@@ -931,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_encrypt_result_t",
           "package": "bindings-gpgme",
@@ -944,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_engine_info_t",
           "package": "bindings-gpgme",
@@ -952,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_engine_info_t",
           "package": "bindings-gpgme",
@@ -965,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_err_code_t",
           "package": "bindings-gpgme",
@@ -973,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_err_code_t",
           "package": "bindings-gpgme",
@@ -986,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_err_source_t",
           "package": "bindings-gpgme",
@@ -994,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_err_source_t",
           "package": "bindings-gpgme",
@@ -1007,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_error_t",
           "package": "bindings-gpgme",
@@ -1015,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_error_t",
           "package": "bindings-gpgme",
@@ -1028,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_event_io_cb_t",
           "package": "bindings-gpgme",
@@ -1036,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_event_io_cb_t",
           "package": "bindings-gpgme",
@@ -1049,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_event_io_t",
           "package": "bindings-gpgme",
@@ -1057,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_event_io_t",
           "package": "bindings-gpgme",
@@ -1070,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_genkey_result_t",
           "package": "bindings-gpgme",
@@ -1078,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_genkey_result_t",
           "package": "bindings-gpgme",
@@ -1091,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_hash_algo_t",
           "package": "bindings-gpgme",
@@ -1099,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_hash_algo_t",
           "package": "bindings-gpgme",
@@ -1112,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_import_result_t",
           "package": "bindings-gpgme",
@@ -1120,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_import_result_t",
           "package": "bindings-gpgme",
@@ -1133,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_import_status_t",
           "package": "bindings-gpgme",
@@ -1141,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_import_status_t",
           "package": "bindings-gpgme",
@@ -1154,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_invalid_key_t",
           "package": "bindings-gpgme",
@@ -1162,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_invalid_key_t",
           "package": "bindings-gpgme",
@@ -1175,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_io_cb_t",
           "package": "bindings-gpgme",
@@ -1183,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_io_cb_t",
           "package": "bindings-gpgme",
@@ -1196,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_io_cbs",
           "package": "bindings-gpgme",
@@ -1204,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_io_cbs",
           "package": "bindings-gpgme",
@@ -1217,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_io_cbs_t",
           "package": "bindings-gpgme",
@@ -1225,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_io_cbs_t",
           "package": "bindings-gpgme",
@@ -1238,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_key_sig_t",
           "package": "bindings-gpgme",
@@ -1246,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_key_sig_t",
           "package": "bindings-gpgme",
@@ -1259,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_key_t",
           "package": "bindings-gpgme",
@@ -1267,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_key_t",
           "package": "bindings-gpgme",
@@ -1280,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_keylist_mode_t",
           "package": "bindings-gpgme",
@@ -1288,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_keylist_mode_t",
           "package": "bindings-gpgme",
@@ -1301,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_keylist_result_t",
           "package": "bindings-gpgme",
@@ -1309,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_keylist_result_t",
           "package": "bindings-gpgme",
@@ -1322,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_new_signature_t",
           "package": "bindings-gpgme",
@@ -1330,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_new_signature_t",
           "package": "bindings-gpgme",
@@ -1343,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_passphrase_cb_t",
           "package": "bindings-gpgme",
@@ -1351,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_passphrase_cb_t",
           "package": "bindings-gpgme",
@@ -1364,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_progress_cb_t",
           "package": "bindings-gpgme",
@@ -1372,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_progress_cb_t",
           "package": "bindings-gpgme",
@@ -1385,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_protocol_t",
           "package": "bindings-gpgme",
@@ -1393,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_protocol_t",
           "package": "bindings-gpgme",
@@ -1406,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_pubkey_algo_t",
           "package": "bindings-gpgme",
@@ -1414,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_pubkey_algo_t",
           "package": "bindings-gpgme",
@@ -1427,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_recipient_t",
           "package": "bindings-gpgme",
@@ -1435,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_recipient_t",
           "package": "bindings-gpgme",
@@ -1448,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_register_io_cb_t",
           "package": "bindings-gpgme",
@@ -1456,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_register_io_cb_t",
           "package": "bindings-gpgme",
@@ -1469,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_remove_io_cb_t",
           "package": "bindings-gpgme",
@@ -1477,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_remove_io_cb_t",
           "package": "bindings-gpgme",
@@ -1490,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_sig_mode_t",
           "package": "bindings-gpgme",
@@ -1498,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_sig_mode_t",
           "package": "bindings-gpgme",
@@ -1511,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_sig_notation_flags_t",
           "package": "bindings-gpgme",
@@ -1519,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_sig_notation_flags_t",
           "package": "bindings-gpgme",
@@ -1532,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_sig_notation_t",
           "package": "bindings-gpgme",
@@ -1540,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_sig_notation_t",
           "package": "bindings-gpgme",
@@ -1553,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_sign_result_t",
           "package": "bindings-gpgme",
@@ -1561,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_sign_result_t",
           "package": "bindings-gpgme",
@@ -1574,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_signature_t",
           "package": "bindings-gpgme",
@@ -1582,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_signature_t",
           "package": "bindings-gpgme",
@@ -1595,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_sigsum_t",
           "package": "bindings-gpgme",
@@ -1603,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_sigsum_t",
           "package": "bindings-gpgme",
@@ -1616,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_status_code_t",
           "package": "bindings-gpgme",
@@ -1624,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_status_code_t",
           "package": "bindings-gpgme",
@@ -1637,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_subkey_t",
           "package": "bindings-gpgme",
@@ -1645,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_subkey_t",
           "package": "bindings-gpgme",
@@ -1658,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_trust_item_t",
           "package": "bindings-gpgme",
@@ -1666,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_trust_item_t",
           "package": "bindings-gpgme",
@@ -1679,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_user_id_t",
           "package": "bindings-gpgme",
@@ -1687,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_user_id_t",
           "package": "bindings-gpgme",
@@ -1700,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_validity_t",
           "package": "bindings-gpgme",
@@ -1708,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_validity_t",
           "package": "bindings-gpgme",
@@ -1721,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_verify_result_t",
           "package": "bindings-gpgme",
@@ -1729,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_verify_result_t",
           "package": "bindings-gpgme",
@@ -1742,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'off_t",
           "package": "bindings-gpgme",
@@ -1750,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'off_t",
           "package": "bindings-gpgme",
@@ -1763,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'ssize_t",
           "package": "bindings-gpgme",
@@ -1771,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'ssize_t",
           "package": "bindings-gpgme",
@@ -1784,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_engine_info",
           "package": "bindings-gpgme",
@@ -1793,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_engine_info",
           "package": "bindings-gpgme",
@@ -1806,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_import_status",
           "package": "bindings-gpgme",
@@ -1815,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_import_status",
           "package": "bindings-gpgme",
@@ -1828,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_invalid_key",
           "package": "bindings-gpgme",
@@ -1837,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_invalid_key",
           "package": "bindings-gpgme",
@@ -1850,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_key",
           "package": "bindings-gpgme",
@@ -1859,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_key",
           "package": "bindings-gpgme",
@@ -1872,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_key_sig",
           "package": "bindings-gpgme",
@@ -1881,6 +2058,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_key_sig",
           "package": "bindings-gpgme",
@@ -1894,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_new_signature",
           "package": "bindings-gpgme",
@@ -1903,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_new_signature",
           "package": "bindings-gpgme",
@@ -1916,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_decrypt_result",
           "package": "bindings-gpgme",
@@ -1925,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_decrypt_result",
           "package": "bindings-gpgme",
@@ -1938,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_encrypt_result",
           "package": "bindings-gpgme",
@@ -1947,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_encrypt_result",
           "package": "bindings-gpgme",
@@ -1960,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_genkey_result",
           "package": "bindings-gpgme",
@@ -1969,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_genkey_result",
           "package": "bindings-gpgme",
@@ -1982,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_import_result",
           "package": "bindings-gpgme",
@@ -1991,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_import_result",
           "package": "bindings-gpgme",
@@ -2004,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_keylist_result",
           "package": "bindings-gpgme",
@@ -2013,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_keylist_result",
           "package": "bindings-gpgme",
@@ -2026,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_sign_result",
           "package": "bindings-gpgme",
@@ -2035,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_sign_result",
           "package": "bindings-gpgme",
@@ -2048,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_verify_result",
           "package": "bindings-gpgme",
@@ -2057,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_op_verify_result",
           "package": "bindings-gpgme",
@@ -2070,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_recipient",
           "package": "bindings-gpgme",
@@ -2079,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_recipient",
           "package": "bindings-gpgme",
@@ -2092,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_sig_notation",
           "package": "bindings-gpgme",
@@ -2101,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_sig_notation",
           "package": "bindings-gpgme",
@@ -2114,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_signature",
           "package": "bindings-gpgme",
@@ -2123,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_signature",
           "package": "bindings-gpgme",
@@ -2136,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_subkey",
           "package": "bindings-gpgme",
@@ -2145,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_subkey",
           "package": "bindings-gpgme",
@@ -2158,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_trust_item",
           "package": "bindings-gpgme",
@@ -2167,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_trust_item",
           "package": "bindings-gpgme",
@@ -2180,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_user_id",
           "package": "bindings-gpgme",
@@ -2189,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'_gpgme_user_id",
           "package": "bindings-gpgme",
@@ -2202,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_arg",
           "package": "bindings-gpgme",
@@ -2211,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_arg",
           "package": "bindings-gpgme",
@@ -2224,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_comp",
           "package": "bindings-gpgme",
@@ -2233,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_comp",
           "package": "bindings-gpgme",
@@ -2246,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_opt",
           "package": "bindings-gpgme",
@@ -2255,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_conf_opt",
           "package": "bindings-gpgme",
@@ -2268,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_cbs",
           "package": "bindings-gpgme",
@@ -2277,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_data_cbs",
           "package": "bindings-gpgme",
@@ -2290,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_io_cbs",
           "package": "bindings-gpgme",
@@ -2299,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "C'gpgme_io_cbs",
           "package": "bindings-gpgme",
@@ -2312,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_AUDITLOG_HTML",
           "package": "bindings-gpgme",
@@ -2321,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_AUDITLOG_HTML",
           "package": "bindings-gpgme",
@@ -2334,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_AUDITLOG_WITH_HELP",
           "package": "bindings-gpgme",
@@ -2343,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_AUDITLOG_WITH_HELP",
           "package": "bindings-gpgme",
@@ -2356,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_ADVANCED",
           "package": "bindings-gpgme",
@@ -2365,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_ADVANCED",
           "package": "bindings-gpgme",
@@ -2378,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_ALIAS_LIST",
           "package": "bindings-gpgme",
@@ -2387,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_ALIAS_LIST",
           "package": "bindings-gpgme",
@@ -2400,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_BASIC",
           "package": "bindings-gpgme",
@@ -2409,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_BASIC",
           "package": "bindings-gpgme",
@@ -2422,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_DEFAULT",
           "package": "bindings-gpgme",
@@ -2431,6 +2658,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_DEFAULT",
           "package": "bindings-gpgme",
@@ -2444,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_DEFAULT_DESC",
           "package": "bindings-gpgme",
@@ -2453,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_DEFAULT_DESC",
           "package": "bindings-gpgme",
@@ -2466,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_EXPERT",
           "package": "bindings-gpgme",
@@ -2475,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_EXPERT",
           "package": "bindings-gpgme",
@@ -2488,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_FILENAME",
           "package": "bindings-gpgme",
@@ -2497,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_FILENAME",
           "package": "bindings-gpgme",
@@ -2510,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_GROUP",
           "package": "bindings-gpgme",
@@ -2519,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_GROUP",
           "package": "bindings-gpgme",
@@ -2532,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_INT32",
           "package": "bindings-gpgme",
@@ -2541,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_INT32",
           "package": "bindings-gpgme",
@@ -2554,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_INTERNAL",
           "package": "bindings-gpgme",
@@ -2563,6 +2802,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_INTERNAL",
           "package": "bindings-gpgme",
@@ -2576,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_INVISIBLE",
           "package": "bindings-gpgme",
@@ -2585,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_INVISIBLE",
           "package": "bindings-gpgme",
@@ -2598,6 +2840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_KEY_FPR",
           "package": "bindings-gpgme",
@@ -2607,6 +2850,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_KEY_FPR",
           "package": "bindings-gpgme",
@@ -2620,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_LDAP_SERVER",
           "package": "bindings-gpgme",
@@ -2629,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_LDAP_SERVER",
           "package": "bindings-gpgme",
@@ -2642,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_LIST",
           "package": "bindings-gpgme",
@@ -2651,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_LIST",
           "package": "bindings-gpgme",
@@ -2664,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_NONE",
           "package": "bindings-gpgme",
@@ -2673,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_NONE",
           "package": "bindings-gpgme",
@@ -2686,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_NO_ARG_DESC",
           "package": "bindings-gpgme",
@@ -2695,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_NO_ARG_DESC",
           "package": "bindings-gpgme",
@@ -2708,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_NO_CHANGE",
           "package": "bindings-gpgme",
@@ -2717,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_NO_CHANGE",
           "package": "bindings-gpgme",
@@ -2730,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_OPTIONAL",
           "package": "bindings-gpgme",
@@ -2739,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_OPTIONAL",
           "package": "bindings-gpgme",
@@ -2752,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_PUB_KEY",
           "package": "bindings-gpgme",
@@ -2761,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_PUB_KEY",
           "package": "bindings-gpgme",
@@ -2774,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_RUNTIME",
           "package": "bindings-gpgme",
@@ -2783,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_RUNTIME",
           "package": "bindings-gpgme",
@@ -2796,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_SEC_KEY",
           "package": "bindings-gpgme",
@@ -2805,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_SEC_KEY",
           "package": "bindings-gpgme",
@@ -2818,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_STRING",
           "package": "bindings-gpgme",
@@ -2827,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_STRING",
           "package": "bindings-gpgme",
@@ -2840,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_UINT32",
           "package": "bindings-gpgme",
@@ -2849,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_CONF_UINT32",
           "package": "bindings-gpgme",
@@ -2862,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_DATA_ENCODING_ARMOR",
           "package": "bindings-gpgme",
@@ -2871,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_DATA_ENCODING_ARMOR",
           "package": "bindings-gpgme",
@@ -2884,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_DATA_ENCODING_BASE64",
           "package": "bindings-gpgme",
@@ -2893,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_DATA_ENCODING_BASE64",
           "package": "bindings-gpgme",
@@ -2906,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_DATA_ENCODING_BINARY",
           "package": "bindings-gpgme",
@@ -2915,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_DATA_ENCODING_BINARY",
           "package": "bindings-gpgme",
@@ -2928,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_DATA_ENCODING_NONE",
           "package": "bindings-gpgme",
@@ -2937,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_DATA_ENCODING_NONE",
           "package": "bindings-gpgme",
@@ -2950,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_ENCRYPT_ALWAYS_TRUST",
           "package": "bindings-gpgme",
@@ -2959,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_ENCRYPT_ALWAYS_TRUST",
           "package": "bindings-gpgme",
@@ -2972,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_EVENT_DONE",
           "package": "bindings-gpgme",
@@ -2981,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_EVENT_DONE",
           "package": "bindings-gpgme",
@@ -2994,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_EVENT_NEXT_KEY",
           "package": "bindings-gpgme",
@@ -3003,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_EVENT_NEXT_KEY",
           "package": "bindings-gpgme",
@@ -3016,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_EVENT_NEXT_TRUSTITEM",
           "package": "bindings-gpgme",
@@ -3025,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_EVENT_NEXT_TRUSTITEM",
           "package": "bindings-gpgme",
@@ -3038,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_EVENT_START",
           "package": "bindings-gpgme",
@@ -3047,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_EVENT_START",
           "package": "bindings-gpgme",
@@ -3060,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_IMPORT_NEW",
           "package": "bindings-gpgme",
@@ -3069,6 +3354,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_IMPORT_NEW",
           "package": "bindings-gpgme",
@@ -3082,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_IMPORT_SECRET",
           "package": "bindings-gpgme",
@@ -3091,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_IMPORT_SECRET",
           "package": "bindings-gpgme",
@@ -3104,6 +3392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_IMPORT_SIG",
           "package": "bindings-gpgme",
@@ -3113,6 +3402,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_IMPORT_SIG",
           "package": "bindings-gpgme",
@@ -3126,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_IMPORT_SUBKEY",
           "package": "bindings-gpgme",
@@ -3135,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_IMPORT_SUBKEY",
           "package": "bindings-gpgme",
@@ -3148,6 +3440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_IMPORT_UID",
           "package": "bindings-gpgme",
@@ -3157,6 +3450,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_IMPORT_UID",
           "package": "bindings-gpgme",
@@ -3170,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_INCLUDE_CERTS_DEFAULT",
           "package": "bindings-gpgme",
@@ -3179,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_INCLUDE_CERTS_DEFAULT",
           "package": "bindings-gpgme",
@@ -3192,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_KEYLIST_MODE_EXTERN",
           "package": "bindings-gpgme",
@@ -3201,6 +3498,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_KEYLIST_MODE_EXTERN",
           "package": "bindings-gpgme",
@@ -3214,6 +3512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_KEYLIST_MODE_LOCAL",
           "package": "bindings-gpgme",
@@ -3223,6 +3522,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_KEYLIST_MODE_LOCAL",
           "package": "bindings-gpgme",
@@ -3236,6 +3536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_KEYLIST_MODE_SIGS",
           "package": "bindings-gpgme",
@@ -3245,6 +3546,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_KEYLIST_MODE_SIGS",
           "package": "bindings-gpgme",
@@ -3258,6 +3560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_KEYLIST_MODE_SIG_NOTATIONS",
           "package": "bindings-gpgme",
@@ -3267,6 +3570,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_KEYLIST_MODE_SIG_NOTATIONS",
           "package": "bindings-gpgme",
@@ -3280,6 +3584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_KEYLIST_MODE_VALIDATE",
           "package": "bindings-gpgme",
@@ -3289,6 +3594,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_KEYLIST_MODE_VALIDATE",
           "package": "bindings-gpgme",
@@ -3302,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_CRC24_RFC2440",
           "package": "bindings-gpgme",
@@ -3311,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_CRC24_RFC2440",
           "package": "bindings-gpgme",
@@ -3324,6 +3632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_CRC32",
           "package": "bindings-gpgme",
@@ -3333,6 +3642,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_CRC32",
           "package": "bindings-gpgme",
@@ -3346,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_CRC32_RFC1510",
           "package": "bindings-gpgme",
@@ -3355,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_CRC32_RFC1510",
           "package": "bindings-gpgme",
@@ -3368,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_HAVAL",
           "package": "bindings-gpgme",
@@ -3377,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_HAVAL",
           "package": "bindings-gpgme",
@@ -3390,6 +3704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_MD2",
           "package": "bindings-gpgme",
@@ -3399,6 +3714,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_MD2",
           "package": "bindings-gpgme",
@@ -3412,6 +3728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_MD4",
           "package": "bindings-gpgme",
@@ -3421,6 +3738,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_MD4",
           "package": "bindings-gpgme",
@@ -3434,6 +3752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_MD5",
           "package": "bindings-gpgme",
@@ -3443,6 +3762,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_MD5",
           "package": "bindings-gpgme",
@@ -3456,6 +3776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_NONE",
           "package": "bindings-gpgme",
@@ -3465,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_NONE",
           "package": "bindings-gpgme",
@@ -3478,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_RMD160",
           "package": "bindings-gpgme",
@@ -3487,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_RMD160",
           "package": "bindings-gpgme",
@@ -3500,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_SHA1",
           "package": "bindings-gpgme",
@@ -3509,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_SHA1",
           "package": "bindings-gpgme",
@@ -3522,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_SHA256",
           "package": "bindings-gpgme",
@@ -3531,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_SHA256",
           "package": "bindings-gpgme",
@@ -3544,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_SHA384",
           "package": "bindings-gpgme",
@@ -3553,6 +3882,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_SHA384",
           "package": "bindings-gpgme",
@@ -3566,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_SHA512",
           "package": "bindings-gpgme",
@@ -3575,6 +3906,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_SHA512",
           "package": "bindings-gpgme",
@@ -3588,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_TIGER",
           "package": "bindings-gpgme",
@@ -3597,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_MD_TIGER",
           "package": "bindings-gpgme",
@@ -3610,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PK_DSA",
           "package": "bindings-gpgme",
@@ -3619,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PK_DSA",
           "package": "bindings-gpgme",
@@ -3632,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PK_ELG",
           "package": "bindings-gpgme",
@@ -3641,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PK_ELG",
           "package": "bindings-gpgme",
@@ -3654,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PK_ELG_E",
           "package": "bindings-gpgme",
@@ -3663,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PK_ELG_E",
           "package": "bindings-gpgme",
@@ -3676,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PK_RSA",
           "package": "bindings-gpgme",
@@ -3685,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PK_RSA",
           "package": "bindings-gpgme",
@@ -3698,6 +4040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PK_RSA_E",
           "package": "bindings-gpgme",
@@ -3707,6 +4050,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PK_RSA_E",
           "package": "bindings-gpgme",
@@ -3720,6 +4064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PK_RSA_S",
           "package": "bindings-gpgme",
@@ -3729,6 +4074,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PK_RSA_S",
           "package": "bindings-gpgme",
@@ -3742,6 +4088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PROTOCOL_CMS",
           "package": "bindings-gpgme",
@@ -3751,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PROTOCOL_CMS",
           "package": "bindings-gpgme",
@@ -3764,6 +4112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PROTOCOL_GPGCONF",
           "package": "bindings-gpgme",
@@ -3773,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PROTOCOL_GPGCONF",
           "package": "bindings-gpgme",
@@ -3786,6 +4136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PROTOCOL_OpenPGP",
           "package": "bindings-gpgme",
@@ -3795,6 +4146,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PROTOCOL_OpenPGP",
           "package": "bindings-gpgme",
@@ -3808,6 +4160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PROTOCOL_UNKNOWN",
           "package": "bindings-gpgme",
@@ -3817,6 +4170,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_PROTOCOL_UNKNOWN",
           "package": "bindings-gpgme",
@@ -3830,6 +4184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_BAD_POLICY",
           "package": "bindings-gpgme",
@@ -3839,6 +4194,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_BAD_POLICY",
           "package": "bindings-gpgme",
@@ -3852,6 +4208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_CRL_MISSING",
           "package": "bindings-gpgme",
@@ -3861,6 +4218,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_CRL_MISSING",
           "package": "bindings-gpgme",
@@ -3874,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_CRL_TOO_OLD",
           "package": "bindings-gpgme",
@@ -3883,6 +4242,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_CRL_TOO_OLD",
           "package": "bindings-gpgme",
@@ -3896,6 +4256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_GREEN",
           "package": "bindings-gpgme",
@@ -3905,6 +4266,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_GREEN",
           "package": "bindings-gpgme",
@@ -3918,6 +4280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_KEY_EXPIRED",
           "package": "bindings-gpgme",
@@ -3927,6 +4290,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_KEY_EXPIRED",
           "package": "bindings-gpgme",
@@ -3940,6 +4304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_KEY_MISSING",
           "package": "bindings-gpgme",
@@ -3949,6 +4314,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_KEY_MISSING",
           "package": "bindings-gpgme",
@@ -3962,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_KEY_REVOKED",
           "package": "bindings-gpgme",
@@ -3971,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_KEY_REVOKED",
           "package": "bindings-gpgme",
@@ -3984,6 +4352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_RED",
           "package": "bindings-gpgme",
@@ -3993,6 +4362,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_RED",
           "package": "bindings-gpgme",
@@ -4006,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_SIG_EXPIRED",
           "package": "bindings-gpgme",
@@ -4015,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_SIG_EXPIRED",
           "package": "bindings-gpgme",
@@ -4028,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_SYS_ERROR",
           "package": "bindings-gpgme",
@@ -4037,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_SYS_ERROR",
           "package": "bindings-gpgme",
@@ -4050,6 +4424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_VALID",
           "package": "bindings-gpgme",
@@ -4059,6 +4434,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIGSUM_VALID",
           "package": "bindings-gpgme",
@@ -4072,6 +4448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIG_MODE_CLEAR",
           "package": "bindings-gpgme",
@@ -4081,6 +4458,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIG_MODE_CLEAR",
           "package": "bindings-gpgme",
@@ -4094,6 +4472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIG_MODE_DETACH",
           "package": "bindings-gpgme",
@@ -4103,6 +4482,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIG_MODE_DETACH",
           "package": "bindings-gpgme",
@@ -4116,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIG_MODE_NORMAL",
           "package": "bindings-gpgme",
@@ -4125,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIG_MODE_NORMAL",
           "package": "bindings-gpgme",
@@ -4138,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIG_NOTATION_CRITICAL",
           "package": "bindings-gpgme",
@@ -4147,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIG_NOTATION_CRITICAL",
           "package": "bindings-gpgme",
@@ -4160,6 +4544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIG_NOTATION_HUMAN_READABLE",
           "package": "bindings-gpgme",
@@ -4169,6 +4554,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_SIG_NOTATION_HUMAN_READABLE",
           "package": "bindings-gpgme",
@@ -4182,6 +4568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_ABORT",
           "package": "bindings-gpgme",
@@ -4191,6 +4578,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_ABORT",
           "package": "bindings-gpgme",
@@ -4204,6 +4592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_ALREADY_SIGNED",
           "package": "bindings-gpgme",
@@ -4213,6 +4602,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_ALREADY_SIGNED",
           "package": "bindings-gpgme",
@@ -4226,6 +4616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BACKUP_KEY_CREATED",
           "package": "bindings-gpgme",
@@ -4235,6 +4626,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BACKUP_KEY_CREATED",
           "package": "bindings-gpgme",
@@ -4248,6 +4640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BADARMOR",
           "package": "bindings-gpgme",
@@ -4257,6 +4650,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BADARMOR",
           "package": "bindings-gpgme",
@@ -4270,6 +4664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BADMDC",
           "package": "bindings-gpgme",
@@ -4279,6 +4674,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BADMDC",
           "package": "bindings-gpgme",
@@ -4292,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BADSIG",
           "package": "bindings-gpgme",
@@ -4301,6 +4698,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BADSIG",
           "package": "bindings-gpgme",
@@ -4314,6 +4712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BAD_PASSPHRASE",
           "package": "bindings-gpgme",
@@ -4323,6 +4722,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BAD_PASSPHRASE",
           "package": "bindings-gpgme",
@@ -4336,6 +4736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BEGIN_DECRYPTION",
           "package": "bindings-gpgme",
@@ -4345,6 +4746,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BEGIN_DECRYPTION",
           "package": "bindings-gpgme",
@@ -4358,6 +4760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BEGIN_ENCRYPTION",
           "package": "bindings-gpgme",
@@ -4367,6 +4770,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BEGIN_ENCRYPTION",
           "package": "bindings-gpgme",
@@ -4380,6 +4784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BEGIN_STREAM",
           "package": "bindings-gpgme",
@@ -4389,6 +4794,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_BEGIN_STREAM",
           "package": "bindings-gpgme",
@@ -4402,6 +4808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_CARDCTRL",
           "package": "bindings-gpgme",
@@ -4411,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_CARDCTRL",
           "package": "bindings-gpgme",
@@ -4424,6 +4832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_DECRYPTION_FAILED",
           "package": "bindings-gpgme",
@@ -4433,6 +4842,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_DECRYPTION_FAILED",
           "package": "bindings-gpgme",
@@ -4446,6 +4856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_DECRYPTION_OKAY",
           "package": "bindings-gpgme",
@@ -4455,6 +4866,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_DECRYPTION_OKAY",
           "package": "bindings-gpgme",
@@ -4468,6 +4880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_DELETE_PROBLEM",
           "package": "bindings-gpgme",
@@ -4477,6 +4890,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_DELETE_PROBLEM",
           "package": "bindings-gpgme",
@@ -4490,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_ENC_TO",
           "package": "bindings-gpgme",
@@ -4499,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_ENC_TO",
           "package": "bindings-gpgme",
@@ -4512,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_END_DECRYPTION",
           "package": "bindings-gpgme",
@@ -4521,6 +4938,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_END_DECRYPTION",
           "package": "bindings-gpgme",
@@ -4534,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_END_ENCRYPTION",
           "package": "bindings-gpgme",
@@ -4543,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_END_ENCRYPTION",
           "package": "bindings-gpgme",
@@ -4556,6 +4976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_END_STREAM",
           "package": "bindings-gpgme",
@@ -4565,6 +4986,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_END_STREAM",
           "package": "bindings-gpgme",
@@ -4578,6 +5000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_ENTER",
           "package": "bindings-gpgme",
@@ -4587,6 +5010,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_ENTER",
           "package": "bindings-gpgme",
@@ -4600,6 +5024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_EOF",
           "package": "bindings-gpgme",
@@ -4609,6 +5034,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_EOF",
           "package": "bindings-gpgme",
@@ -4622,6 +5048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_ERRMDC",
           "package": "bindings-gpgme",
@@ -4631,6 +5058,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_ERRMDC",
           "package": "bindings-gpgme",
@@ -4644,6 +5072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_ERROR",
           "package": "bindings-gpgme",
@@ -4653,6 +5082,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_ERROR",
           "package": "bindings-gpgme",
@@ -4666,6 +5096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_ERRSIG",
           "package": "bindings-gpgme",
@@ -4675,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_ERRSIG",
           "package": "bindings-gpgme",
@@ -4688,6 +5120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_EXPKEYSIG",
           "package": "bindings-gpgme",
@@ -4697,6 +5130,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_EXPKEYSIG",
           "package": "bindings-gpgme",
@@ -4710,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_EXPSIG",
           "package": "bindings-gpgme",
@@ -4719,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_EXPSIG",
           "package": "bindings-gpgme",
@@ -4732,6 +5168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_FILE_DONE",
           "package": "bindings-gpgme",
@@ -4741,6 +5178,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_FILE_DONE",
           "package": "bindings-gpgme",
@@ -4754,6 +5192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_FILE_ERROR",
           "package": "bindings-gpgme",
@@ -4763,6 +5202,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_FILE_ERROR",
           "package": "bindings-gpgme",
@@ -4776,6 +5216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_FILE_START",
           "package": "bindings-gpgme",
@@ -4785,6 +5226,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_FILE_START",
           "package": "bindings-gpgme",
@@ -4798,6 +5240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_GET_BOOL",
           "package": "bindings-gpgme",
@@ -4807,6 +5250,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_GET_BOOL",
           "package": "bindings-gpgme",
@@ -4820,6 +5264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_GET_HIDDEN",
           "package": "bindings-gpgme",
@@ -4829,6 +5274,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_GET_HIDDEN",
           "package": "bindings-gpgme",
@@ -4842,6 +5288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_GET_LINE",
           "package": "bindings-gpgme",
@@ -4851,6 +5298,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_GET_LINE",
           "package": "bindings-gpgme",
@@ -4864,6 +5312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_GOODMDC",
           "package": "bindings-gpgme",
@@ -4873,6 +5322,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_GOODMDC",
           "package": "bindings-gpgme",
@@ -4886,6 +5336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_GOODSIG",
           "package": "bindings-gpgme",
@@ -4895,6 +5346,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_GOODSIG",
           "package": "bindings-gpgme",
@@ -4908,6 +5360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_GOOD_PASSPHRASE",
           "package": "bindings-gpgme",
@@ -4917,6 +5370,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_GOOD_PASSPHRASE",
           "package": "bindings-gpgme",
@@ -4930,6 +5384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_GOT_IT",
           "package": "bindings-gpgme",
@@ -4939,6 +5394,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_GOT_IT",
           "package": "bindings-gpgme",
@@ -4952,6 +5408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_IMPORTED",
           "package": "bindings-gpgme",
@@ -4961,6 +5418,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_IMPORTED",
           "package": "bindings-gpgme",
@@ -4974,6 +5432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_IMPORT_OK",
           "package": "bindings-gpgme",
@@ -4983,6 +5442,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_IMPORT_OK",
           "package": "bindings-gpgme",
@@ -4996,6 +5456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_IMPORT_PROBLEM",
           "package": "bindings-gpgme",
@@ -5005,6 +5466,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_IMPORT_PROBLEM",
           "package": "bindings-gpgme",
@@ -5018,6 +5480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_IMPORT_RES",
           "package": "bindings-gpgme",
@@ -5027,6 +5490,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_IMPORT_RES",
           "package": "bindings-gpgme",
@@ -5040,6 +5504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_INV_RECP",
           "package": "bindings-gpgme",
@@ -5049,6 +5514,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_INV_RECP",
           "package": "bindings-gpgme",
@@ -5062,6 +5528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_KEYEXPIRED",
           "package": "bindings-gpgme",
@@ -5071,6 +5538,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_KEYEXPIRED",
           "package": "bindings-gpgme",
@@ -5084,6 +5552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_KEYREVOKED",
           "package": "bindings-gpgme",
@@ -5093,6 +5562,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_KEYREVOKED",
           "package": "bindings-gpgme",
@@ -5106,6 +5576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_KEY_CREATED",
           "package": "bindings-gpgme",
@@ -5115,6 +5586,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_KEY_CREATED",
           "package": "bindings-gpgme",
@@ -5128,6 +5600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_LEAVE",
           "package": "bindings-gpgme",
@@ -5137,6 +5610,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_LEAVE",
           "package": "bindings-gpgme",
@@ -5150,6 +5624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_MISSING_PASSPHRASE",
           "package": "bindings-gpgme",
@@ -5159,6 +5634,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_MISSING_PASSPHRASE",
           "package": "bindings-gpgme",
@@ -5172,6 +5648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NEED_PASSPHRASE",
           "package": "bindings-gpgme",
@@ -5181,6 +5658,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NEED_PASSPHRASE",
           "package": "bindings-gpgme",
@@ -5194,6 +5672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NEED_PASSPHRASE_PIN",
           "package": "bindings-gpgme",
@@ -5203,6 +5682,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NEED_PASSPHRASE_PIN",
           "package": "bindings-gpgme",
@@ -5216,6 +5696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NEED_PASSPHRASE_SYM",
           "package": "bindings-gpgme",
@@ -5225,6 +5706,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NEED_PASSPHRASE_SYM",
           "package": "bindings-gpgme",
@@ -5238,6 +5720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NEWSIG",
           "package": "bindings-gpgme",
@@ -5247,6 +5730,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NEWSIG",
           "package": "bindings-gpgme",
@@ -5260,6 +5744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NODATA",
           "package": "bindings-gpgme",
@@ -5269,6 +5754,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NODATA",
           "package": "bindings-gpgme",
@@ -5282,6 +5768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NOTATION_DATA",
           "package": "bindings-gpgme",
@@ -5291,6 +5778,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NOTATION_DATA",
           "package": "bindings-gpgme",
@@ -5304,6 +5792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NOTATION_NAME",
           "package": "bindings-gpgme",
@@ -5313,6 +5802,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NOTATION_NAME",
           "package": "bindings-gpgme",
@@ -5326,6 +5816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NO_PUBKEY",
           "package": "bindings-gpgme",
@@ -5335,6 +5826,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NO_PUBKEY",
           "package": "bindings-gpgme",
@@ -5348,6 +5840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NO_RECP",
           "package": "bindings-gpgme",
@@ -5357,6 +5850,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NO_RECP",
           "package": "bindings-gpgme",
@@ -5370,6 +5864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NO_SECKEY",
           "package": "bindings-gpgme",
@@ -5379,6 +5874,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_NO_SECKEY",
           "package": "bindings-gpgme",
@@ -5392,6 +5888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_PKA_TRUST_BAD",
           "package": "bindings-gpgme",
@@ -5401,6 +5898,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_PKA_TRUST_BAD",
           "package": "bindings-gpgme",
@@ -5414,6 +5912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_PKA_TRUST_GOOD",
           "package": "bindings-gpgme",
@@ -5423,6 +5922,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_PKA_TRUST_GOOD",
           "package": "bindings-gpgme",
@@ -5436,6 +5936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_PLAINTEXT",
           "package": "bindings-gpgme",
@@ -5445,6 +5946,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_PLAINTEXT",
           "package": "bindings-gpgme",
@@ -5458,6 +5960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_POLICY_URL",
           "package": "bindings-gpgme",
@@ -5467,6 +5970,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_POLICY_URL",
           "package": "bindings-gpgme",
@@ -5480,6 +5984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_PROGRESS",
           "package": "bindings-gpgme",
@@ -5489,6 +5994,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_PROGRESS",
           "package": "bindings-gpgme",
@@ -5502,6 +6008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_REVKEYSIG",
           "package": "bindings-gpgme",
@@ -5511,6 +6018,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_REVKEYSIG",
           "package": "bindings-gpgme",
@@ -5524,6 +6032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_RSA_OR_IDEA",
           "package": "bindings-gpgme",
@@ -5533,6 +6042,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_RSA_OR_IDEA",
           "package": "bindings-gpgme",
@@ -5546,6 +6056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SC_OP_FAILURE",
           "package": "bindings-gpgme",
@@ -5555,6 +6066,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SC_OP_FAILURE",
           "package": "bindings-gpgme",
@@ -5568,6 +6080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SC_OP_SUCCESS",
           "package": "bindings-gpgme",
@@ -5577,6 +6090,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SC_OP_SUCCESS",
           "package": "bindings-gpgme",
@@ -5590,6 +6104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SESSION_KEY",
           "package": "bindings-gpgme",
@@ -5599,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SESSION_KEY",
           "package": "bindings-gpgme",
@@ -5612,6 +6128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SHM_GET",
           "package": "bindings-gpgme",
@@ -5621,6 +6138,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SHM_GET",
           "package": "bindings-gpgme",
@@ -5634,6 +6152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SHM_GET_BOOL",
           "package": "bindings-gpgme",
@@ -5643,6 +6162,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SHM_GET_BOOL",
           "package": "bindings-gpgme",
@@ -5656,6 +6176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SHM_GET_HIDDEN",
           "package": "bindings-gpgme",
@@ -5665,6 +6186,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SHM_GET_HIDDEN",
           "package": "bindings-gpgme",
@@ -5678,6 +6200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SHM_INFO",
           "package": "bindings-gpgme",
@@ -5687,6 +6210,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SHM_INFO",
           "package": "bindings-gpgme",
@@ -5700,6 +6224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SIGEXPIRED",
           "package": "bindings-gpgme",
@@ -5709,6 +6234,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SIGEXPIRED",
           "package": "bindings-gpgme",
@@ -5722,6 +6248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SIG_CREATED",
           "package": "bindings-gpgme",
@@ -5731,6 +6258,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SIG_CREATED",
           "package": "bindings-gpgme",
@@ -5744,6 +6272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SIG_ID",
           "package": "bindings-gpgme",
@@ -5753,6 +6282,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SIG_ID",
           "package": "bindings-gpgme",
@@ -5766,6 +6296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SIG_SUBPACKET",
           "package": "bindings-gpgme",
@@ -5775,6 +6306,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_SIG_SUBPACKET",
           "package": "bindings-gpgme",
@@ -5788,6 +6320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_TRUNCATED",
           "package": "bindings-gpgme",
@@ -5797,6 +6330,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_TRUNCATED",
           "package": "bindings-gpgme",
@@ -5810,6 +6344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_TRUST_FULLY",
           "package": "bindings-gpgme",
@@ -5819,6 +6354,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_TRUST_FULLY",
           "package": "bindings-gpgme",
@@ -5832,6 +6368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_TRUST_MARGINAL",
           "package": "bindings-gpgme",
@@ -5841,6 +6378,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_TRUST_MARGINAL",
           "package": "bindings-gpgme",
@@ -5854,6 +6392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_TRUST_NEVER",
           "package": "bindings-gpgme",
@@ -5863,6 +6402,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_TRUST_NEVER",
           "package": "bindings-gpgme",
@@ -5876,6 +6416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_TRUST_ULTIMATE",
           "package": "bindings-gpgme",
@@ -5885,6 +6426,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_TRUST_ULTIMATE",
           "package": "bindings-gpgme",
@@ -5898,6 +6440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_TRUST_UNDEFINED",
           "package": "bindings-gpgme",
@@ -5907,6 +6450,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_TRUST_UNDEFINED",
           "package": "bindings-gpgme",
@@ -5920,6 +6464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_UNEXPECTED",
           "package": "bindings-gpgme",
@@ -5929,6 +6474,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_UNEXPECTED",
           "package": "bindings-gpgme",
@@ -5942,6 +6488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_USERID_HINT",
           "package": "bindings-gpgme",
@@ -5951,6 +6498,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_USERID_HINT",
           "package": "bindings-gpgme",
@@ -5964,6 +6512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_VALIDSIG",
           "package": "bindings-gpgme",
@@ -5973,6 +6522,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_STATUS_VALIDSIG",
           "package": "bindings-gpgme",
@@ -5986,6 +6536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_VALIDITY_FULL",
           "package": "bindings-gpgme",
@@ -5995,6 +6546,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_VALIDITY_FULL",
           "package": "bindings-gpgme",
@@ -6008,6 +6560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_VALIDITY_MARGINAL",
           "package": "bindings-gpgme",
@@ -6017,6 +6570,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_VALIDITY_MARGINAL",
           "package": "bindings-gpgme",
@@ -6030,6 +6584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_VALIDITY_NEVER",
           "package": "bindings-gpgme",
@@ -6039,6 +6594,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_VALIDITY_NEVER",
           "package": "bindings-gpgme",
@@ -6052,6 +6608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_VALIDITY_ULTIMATE",
           "package": "bindings-gpgme",
@@ -6061,6 +6618,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_VALIDITY_ULTIMATE",
           "package": "bindings-gpgme",
@@ -6074,6 +6632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_VALIDITY_UNDEFINED",
           "package": "bindings-gpgme",
@@ -6083,6 +6642,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_VALIDITY_UNDEFINED",
           "package": "bindings-gpgme",
@@ -6096,6 +6656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_VALIDITY_UNKNOWN",
           "package": "bindings-gpgme",
@@ -6105,6 +6666,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'GPGME_VALIDITY_UNKNOWN",
           "package": "bindings-gpgme",
@@ -6118,6 +6680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_engine_info'file_name",
           "package": "bindings-gpgme",
@@ -6127,6 +6690,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_engine_info'file_name",
           "package": "bindings-gpgme",
@@ -6139,6 +6703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_engine_info'home_dir",
           "package": "bindings-gpgme",
@@ -6148,6 +6713,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_engine_info'home_dir",
           "package": "bindings-gpgme",
@@ -6160,6 +6726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_engine_info'next",
           "package": "bindings-gpgme",
@@ -6169,6 +6736,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_engine_info'next",
           "package": "bindings-gpgme",
@@ -6181,6 +6749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_engine_info'protocol",
           "package": "bindings-gpgme",
@@ -6190,6 +6759,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_engine_info'protocol",
           "package": "bindings-gpgme",
@@ -6202,6 +6772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_engine_info'req_version",
           "package": "bindings-gpgme",
@@ -6211,6 +6782,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_engine_info'req_version",
           "package": "bindings-gpgme",
@@ -6223,6 +6795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_engine_info'version",
           "package": "bindings-gpgme",
@@ -6232,6 +6805,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_engine_info'version",
           "package": "bindings-gpgme",
@@ -6244,6 +6818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_import_status'fpr",
           "package": "bindings-gpgme",
@@ -6253,6 +6828,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_import_status'fpr",
           "package": "bindings-gpgme",
@@ -6265,6 +6841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_import_status'next",
           "package": "bindings-gpgme",
@@ -6274,6 +6851,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_import_status'next",
           "package": "bindings-gpgme",
@@ -6286,6 +6864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_import_status'result",
           "package": "bindings-gpgme",
@@ -6295,6 +6874,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_import_status'result",
           "package": "bindings-gpgme",
@@ -6307,6 +6887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_import_status'status",
           "package": "bindings-gpgme",
@@ -6316,6 +6897,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_import_status'status",
           "package": "bindings-gpgme",
@@ -6328,6 +6910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_invalid_key'fpr",
           "package": "bindings-gpgme",
@@ -6337,6 +6920,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_invalid_key'fpr",
           "package": "bindings-gpgme",
@@ -6349,6 +6933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_invalid_key'next",
           "package": "bindings-gpgme",
@@ -6358,6 +6943,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_invalid_key'next",
           "package": "bindings-gpgme",
@@ -6370,6 +6956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_invalid_key'reason",
           "package": "bindings-gpgme",
@@ -6379,6 +6966,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_invalid_key'reason",
           "package": "bindings-gpgme",
@@ -6391,6 +6979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'chain_id",
           "package": "bindings-gpgme",
@@ -6400,6 +6989,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'chain_id",
           "package": "bindings-gpgme",
@@ -6412,6 +7002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'issuer_name",
           "package": "bindings-gpgme",
@@ -6421,6 +7012,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'issuer_name",
           "package": "bindings-gpgme",
@@ -6433,6 +7025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'issuer_serial",
           "package": "bindings-gpgme",
@@ -6442,6 +7035,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'issuer_serial",
           "package": "bindings-gpgme",
@@ -6454,6 +7048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'keylist_mode",
           "package": "bindings-gpgme",
@@ -6463,6 +7058,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'keylist_mode",
           "package": "bindings-gpgme",
@@ -6475,6 +7071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'owner_trust",
           "package": "bindings-gpgme",
@@ -6484,6 +7081,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'owner_trust",
           "package": "bindings-gpgme",
@@ -6496,6 +7094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'protocol",
           "package": "bindings-gpgme",
@@ -6505,6 +7104,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'protocol",
           "package": "bindings-gpgme",
@@ -6517,6 +7117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'subkeys",
           "package": "bindings-gpgme",
@@ -6526,6 +7127,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'subkeys",
           "package": "bindings-gpgme",
@@ -6538,6 +7140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'uids",
           "package": "bindings-gpgme",
@@ -6547,6 +7150,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key'uids",
           "package": "bindings-gpgme",
@@ -6559,6 +7163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'comment",
           "package": "bindings-gpgme",
@@ -6568,6 +7173,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'comment",
           "package": "bindings-gpgme",
@@ -6580,6 +7186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'email",
           "package": "bindings-gpgme",
@@ -6589,6 +7196,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'email",
           "package": "bindings-gpgme",
@@ -6601,6 +7209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'expires",
           "package": "bindings-gpgme",
@@ -6610,6 +7219,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'expires",
           "package": "bindings-gpgme",
@@ -6622,6 +7232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'keyid",
           "package": "bindings-gpgme",
@@ -6631,6 +7242,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'keyid",
           "package": "bindings-gpgme",
@@ -6643,6 +7255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'name",
           "package": "bindings-gpgme",
@@ -6652,6 +7265,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'name",
           "package": "bindings-gpgme",
@@ -6664,6 +7278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'next",
           "package": "bindings-gpgme",
@@ -6673,6 +7288,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'next",
           "package": "bindings-gpgme",
@@ -6685,6 +7301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'notations",
           "package": "bindings-gpgme",
@@ -6694,6 +7311,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'notations",
           "package": "bindings-gpgme",
@@ -6706,6 +7324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'pubkey_algo",
           "package": "bindings-gpgme",
@@ -6715,6 +7334,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'pubkey_algo",
           "package": "bindings-gpgme",
@@ -6727,6 +7347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'sig_class",
           "package": "bindings-gpgme",
@@ -6736,6 +7357,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'sig_class",
           "package": "bindings-gpgme",
@@ -6748,6 +7370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'status",
           "package": "bindings-gpgme",
@@ -6757,6 +7380,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'status",
           "package": "bindings-gpgme",
@@ -6769,6 +7393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'timestamp",
           "package": "bindings-gpgme",
@@ -6778,6 +7403,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'timestamp",
           "package": "bindings-gpgme",
@@ -6790,6 +7416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'uid",
           "package": "bindings-gpgme",
@@ -6799,6 +7426,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_key_sig'uid",
           "package": "bindings-gpgme",
@@ -6811,6 +7439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_new_signature'fpr",
           "package": "bindings-gpgme",
@@ -6820,6 +7449,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_new_signature'fpr",
           "package": "bindings-gpgme",
@@ -6832,6 +7462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_new_signature'hash_algo",
           "package": "bindings-gpgme",
@@ -6841,6 +7472,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_new_signature'hash_algo",
           "package": "bindings-gpgme",
@@ -6853,6 +7485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_new_signature'next",
           "package": "bindings-gpgme",
@@ -6862,6 +7495,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_new_signature'next",
           "package": "bindings-gpgme",
@@ -6874,6 +7508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_new_signature'pubkey_algo",
           "package": "bindings-gpgme",
@@ -6883,6 +7518,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_new_signature'pubkey_algo",
           "package": "bindings-gpgme",
@@ -6895,6 +7531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_new_signature'sig_class",
           "package": "bindings-gpgme",
@@ -6904,6 +7541,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_new_signature'sig_class",
           "package": "bindings-gpgme",
@@ -6916,6 +7554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_new_signature'timestamp",
           "package": "bindings-gpgme",
@@ -6925,6 +7564,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_new_signature'timestamp",
           "package": "bindings-gpgme",
@@ -6937,6 +7577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_new_signature'type",
           "package": "bindings-gpgme",
@@ -6946,6 +7587,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_new_signature'type",
           "package": "bindings-gpgme",
@@ -6958,6 +7600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_decrypt_result'file_name",
           "package": "bindings-gpgme",
@@ -6967,6 +7610,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_decrypt_result'file_name",
           "package": "bindings-gpgme",
@@ -6979,6 +7623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_decrypt_result'recipients",
           "package": "bindings-gpgme",
@@ -6988,6 +7633,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_decrypt_result'recipients",
           "package": "bindings-gpgme",
@@ -7000,6 +7646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_decrypt_result'unsupported_algorithm",
           "package": "bindings-gpgme",
@@ -7009,6 +7656,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_decrypt_result'unsupported_algorithm",
           "package": "bindings-gpgme",
@@ -7021,6 +7669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_encrypt_result'invalid_recipients",
           "package": "bindings-gpgme",
@@ -7030,6 +7679,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_encrypt_result'invalid_recipients",
           "package": "bindings-gpgme",
@@ -7042,6 +7692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_genkey_result'fpr",
           "package": "bindings-gpgme",
@@ -7051,6 +7702,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_genkey_result'fpr",
           "package": "bindings-gpgme",
@@ -7063,6 +7715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'considered",
           "package": "bindings-gpgme",
@@ -7072,6 +7725,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'considered",
           "package": "bindings-gpgme",
@@ -7084,6 +7738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'imported",
           "package": "bindings-gpgme",
@@ -7093,6 +7748,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'imported",
           "package": "bindings-gpgme",
@@ -7105,6 +7761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'imported_rsa",
           "package": "bindings-gpgme",
@@ -7114,6 +7771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'imported_rsa",
           "package": "bindings-gpgme",
@@ -7126,6 +7784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'imports",
           "package": "bindings-gpgme",
@@ -7135,6 +7794,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'imports",
           "package": "bindings-gpgme",
@@ -7147,6 +7807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'new_revocations",
           "package": "bindings-gpgme",
@@ -7156,6 +7817,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'new_revocations",
           "package": "bindings-gpgme",
@@ -7168,6 +7830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'new_signatures",
           "package": "bindings-gpgme",
@@ -7177,6 +7840,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'new_signatures",
           "package": "bindings-gpgme",
@@ -7189,6 +7853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'new_sub_keys",
           "package": "bindings-gpgme",
@@ -7198,6 +7863,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'new_sub_keys",
           "package": "bindings-gpgme",
@@ -7210,6 +7876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'new_user_ids",
           "package": "bindings-gpgme",
@@ -7219,6 +7886,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'new_user_ids",
           "package": "bindings-gpgme",
@@ -7231,6 +7899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'no_user_id",
           "package": "bindings-gpgme",
@@ -7240,6 +7909,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'no_user_id",
           "package": "bindings-gpgme",
@@ -7252,6 +7922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'not_imported",
           "package": "bindings-gpgme",
@@ -7261,6 +7932,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'not_imported",
           "package": "bindings-gpgme",
@@ -7273,6 +7945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'secret_imported",
           "package": "bindings-gpgme",
@@ -7282,6 +7955,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'secret_imported",
           "package": "bindings-gpgme",
@@ -7294,6 +7968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'secret_read",
           "package": "bindings-gpgme",
@@ -7303,6 +7978,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'secret_read",
           "package": "bindings-gpgme",
@@ -7315,6 +7991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'secret_unchanged",
           "package": "bindings-gpgme",
@@ -7324,6 +8001,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'secret_unchanged",
           "package": "bindings-gpgme",
@@ -7336,6 +8014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'skipped_new_keys",
           "package": "bindings-gpgme",
@@ -7345,6 +8024,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'skipped_new_keys",
           "package": "bindings-gpgme",
@@ -7357,6 +8037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'unchanged",
           "package": "bindings-gpgme",
@@ -7366,6 +8047,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_import_result'unchanged",
           "package": "bindings-gpgme",
@@ -7378,6 +8060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_sign_result'invalid_signers",
           "package": "bindings-gpgme",
@@ -7387,6 +8070,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_sign_result'invalid_signers",
           "package": "bindings-gpgme",
@@ -7399,6 +8083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_sign_result'signatures",
           "package": "bindings-gpgme",
@@ -7408,6 +8093,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_sign_result'signatures",
           "package": "bindings-gpgme",
@@ -7420,6 +8106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_verify_result'file_name",
           "package": "bindings-gpgme",
@@ -7429,6 +8116,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_verify_result'file_name",
           "package": "bindings-gpgme",
@@ -7441,6 +8129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_verify_result'signatures",
           "package": "bindings-gpgme",
@@ -7450,6 +8139,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_op_verify_result'signatures",
           "package": "bindings-gpgme",
@@ -7462,6 +8152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_recipient'keyid",
           "package": "bindings-gpgme",
@@ -7471,6 +8162,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_recipient'keyid",
           "package": "bindings-gpgme",
@@ -7483,6 +8175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_recipient'next",
           "package": "bindings-gpgme",
@@ -7492,6 +8185,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_recipient'next",
           "package": "bindings-gpgme",
@@ -7504,6 +8198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_recipient'pubkey_algo",
           "package": "bindings-gpgme",
@@ -7513,6 +8208,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_recipient'pubkey_algo",
           "package": "bindings-gpgme",
@@ -7525,6 +8221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_recipient'status",
           "package": "bindings-gpgme",
@@ -7534,6 +8231,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_recipient'status",
           "package": "bindings-gpgme",
@@ -7546,6 +8244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_sig_notation'flags",
           "package": "bindings-gpgme",
@@ -7555,6 +8254,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_sig_notation'flags",
           "package": "bindings-gpgme",
@@ -7567,6 +8267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_sig_notation'name",
           "package": "bindings-gpgme",
@@ -7576,6 +8277,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_sig_notation'name",
           "package": "bindings-gpgme",
@@ -7588,6 +8290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_sig_notation'name_len",
           "package": "bindings-gpgme",
@@ -7597,6 +8300,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_sig_notation'name_len",
           "package": "bindings-gpgme",
@@ -7609,6 +8313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_sig_notation'next",
           "package": "bindings-gpgme",
@@ -7618,6 +8323,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_sig_notation'next",
           "package": "bindings-gpgme",
@@ -7630,6 +8336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_sig_notation'value",
           "package": "bindings-gpgme",
@@ -7639,6 +8346,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_sig_notation'value",
           "package": "bindings-gpgme",
@@ -7651,6 +8359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_sig_notation'value_len",
           "package": "bindings-gpgme",
@@ -7660,6 +8369,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_sig_notation'value_len",
           "package": "bindings-gpgme",
@@ -7672,6 +8382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'exp_timestamp",
           "package": "bindings-gpgme",
@@ -7681,6 +8392,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'exp_timestamp",
           "package": "bindings-gpgme",
@@ -7693,6 +8405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'fpr",
           "package": "bindings-gpgme",
@@ -7702,6 +8415,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'fpr",
           "package": "bindings-gpgme",
@@ -7714,6 +8428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'hash_algo",
           "package": "bindings-gpgme",
@@ -7723,6 +8438,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'hash_algo",
           "package": "bindings-gpgme",
@@ -7735,6 +8451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'next",
           "package": "bindings-gpgme",
@@ -7744,6 +8461,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'next",
           "package": "bindings-gpgme",
@@ -7756,6 +8474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'notations",
           "package": "bindings-gpgme",
@@ -7765,6 +8484,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'notations",
           "package": "bindings-gpgme",
@@ -7777,6 +8497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'pka_address",
           "package": "bindings-gpgme",
@@ -7786,6 +8507,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'pka_address",
           "package": "bindings-gpgme",
@@ -7798,6 +8520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'pubkey_algo",
           "package": "bindings-gpgme",
@@ -7807,6 +8530,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'pubkey_algo",
           "package": "bindings-gpgme",
@@ -7819,6 +8543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'status",
           "package": "bindings-gpgme",
@@ -7828,6 +8553,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'status",
           "package": "bindings-gpgme",
@@ -7840,6 +8566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'summary",
           "package": "bindings-gpgme",
@@ -7849,6 +8576,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'summary",
           "package": "bindings-gpgme",
@@ -7861,6 +8589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'timestamp",
           "package": "bindings-gpgme",
@@ -7870,6 +8599,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'timestamp",
           "package": "bindings-gpgme",
@@ -7882,6 +8612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'validity",
           "package": "bindings-gpgme",
@@ -7891,6 +8622,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'validity",
           "package": "bindings-gpgme",
@@ -7903,6 +8635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'validity_reason",
           "package": "bindings-gpgme",
@@ -7912,6 +8645,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_signature'validity_reason",
           "package": "bindings-gpgme",
@@ -7924,6 +8658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'card_number",
           "package": "bindings-gpgme",
@@ -7933,6 +8668,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'card_number",
           "package": "bindings-gpgme",
@@ -7945,6 +8681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'expires",
           "package": "bindings-gpgme",
@@ -7954,6 +8691,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'expires",
           "package": "bindings-gpgme",
@@ -7966,6 +8704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'fpr",
           "package": "bindings-gpgme",
@@ -7975,6 +8714,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'fpr",
           "package": "bindings-gpgme",
@@ -7987,6 +8727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'keyid",
           "package": "bindings-gpgme",
@@ -7996,6 +8737,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'keyid",
           "package": "bindings-gpgme",
@@ -8008,6 +8750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'length",
           "package": "bindings-gpgme",
@@ -8017,6 +8760,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'length",
           "package": "bindings-gpgme",
@@ -8029,6 +8773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'next",
           "package": "bindings-gpgme",
@@ -8038,6 +8783,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'next",
           "package": "bindings-gpgme",
@@ -8050,6 +8796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'pubkey_algo",
           "package": "bindings-gpgme",
@@ -8059,6 +8806,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'pubkey_algo",
           "package": "bindings-gpgme",
@@ -8071,6 +8819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'timestamp",
           "package": "bindings-gpgme",
@@ -8080,6 +8829,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_subkey'timestamp",
           "package": "bindings-gpgme",
@@ -8092,6 +8842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_trust_item'keyid",
           "package": "bindings-gpgme",
@@ -8101,6 +8852,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_trust_item'keyid",
           "package": "bindings-gpgme",
@@ -8113,6 +8865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_trust_item'level",
           "package": "bindings-gpgme",
@@ -8122,6 +8875,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_trust_item'level",
           "package": "bindings-gpgme",
@@ -8134,6 +8888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_trust_item'name",
           "package": "bindings-gpgme",
@@ -8143,6 +8898,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_trust_item'name",
           "package": "bindings-gpgme",
@@ -8155,6 +8911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_trust_item'owner_trust",
           "package": "bindings-gpgme",
@@ -8164,6 +8921,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_trust_item'owner_trust",
           "package": "bindings-gpgme",
@@ -8176,6 +8934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_trust_item'type",
           "package": "bindings-gpgme",
@@ -8185,6 +8944,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_trust_item'type",
           "package": "bindings-gpgme",
@@ -8197,6 +8957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_trust_item'validity",
           "package": "bindings-gpgme",
@@ -8206,6 +8967,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_trust_item'validity",
           "package": "bindings-gpgme",
@@ -8218,6 +8980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_user_id'comment",
           "package": "bindings-gpgme",
@@ -8227,6 +8990,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_user_id'comment",
           "package": "bindings-gpgme",
@@ -8239,6 +9003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_user_id'email",
           "package": "bindings-gpgme",
@@ -8248,6 +9013,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_user_id'email",
           "package": "bindings-gpgme",
@@ -8260,6 +9026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_user_id'name",
           "package": "bindings-gpgme",
@@ -8269,6 +9036,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_user_id'name",
           "package": "bindings-gpgme",
@@ -8281,6 +9049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_user_id'next",
           "package": "bindings-gpgme",
@@ -8290,6 +9059,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_user_id'next",
           "package": "bindings-gpgme",
@@ -8302,6 +9072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_user_id'signatures",
           "package": "bindings-gpgme",
@@ -8311,6 +9082,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_user_id'signatures",
           "package": "bindings-gpgme",
@@ -8323,6 +9095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_user_id'uid",
           "package": "bindings-gpgme",
@@ -8332,6 +9105,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_user_id'uid",
           "package": "bindings-gpgme",
@@ -8344,6 +9118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_user_id'validity",
           "package": "bindings-gpgme",
@@ -8353,6 +9128,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'_gpgme_user_id'validity",
           "package": "bindings-gpgme",
@@ -8365,6 +9141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_cancel",
           "package": "bindings-gpgme",
@@ -8374,6 +9151,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_cancel",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_error_t",
@@ -8388,6 +9166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_cancel_async",
           "package": "bindings-gpgme",
@@ -8397,6 +9176,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_cancel_async",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_error_t",
@@ -8411,6 +9191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_check_version",
           "package": "bindings-gpgme",
@@ -8420,6 +9201,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_check_version",
           "normalized": "CString-\u003eIO CString",
@@ -8434,6 +9216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg'next",
           "package": "bindings-gpgme",
@@ -8443,6 +9226,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg'next",
           "package": "bindings-gpgme",
@@ -8455,6 +9239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg'no_arg",
           "package": "bindings-gpgme",
@@ -8464,6 +9249,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg'no_arg",
           "package": "bindings-gpgme",
@@ -8476,6 +9262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg'value'count",
           "package": "bindings-gpgme",
@@ -8485,6 +9272,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg'value'count",
           "package": "bindings-gpgme",
@@ -8497,6 +9285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg'value'int32",
           "package": "bindings-gpgme",
@@ -8506,6 +9295,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg'value'int32",
           "package": "bindings-gpgme",
@@ -8518,6 +9308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg'value'string",
           "package": "bindings-gpgme",
@@ -8527,6 +9318,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg'value'string",
           "package": "bindings-gpgme",
@@ -8539,6 +9331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg'value'uint32",
           "package": "bindings-gpgme",
@@ -8548,6 +9341,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg'value'uint32",
           "package": "bindings-gpgme",
@@ -8560,6 +9354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg_new",
           "package": "bindings-gpgme",
@@ -8569,6 +9364,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg_new",
           "normalized": "Ptr C'gpgme_conf_arg_t-\u003eC'gpgme_conf_type_t-\u003ePtr()-\u003eIO C'gpgme_error_t",
@@ -8583,6 +9379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg_release",
           "package": "bindings-gpgme",
@@ -8592,6 +9389,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_arg_release",
           "normalized": "C'gpgme_conf_arg_t-\u003eC'gpgme_conf_type_t-\u003eIO()",
@@ -8606,6 +9404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_comp'description",
           "package": "bindings-gpgme",
@@ -8615,6 +9414,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_comp'description",
           "package": "bindings-gpgme",
@@ -8627,6 +9427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_comp'name",
           "package": "bindings-gpgme",
@@ -8636,6 +9437,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_comp'name",
           "package": "bindings-gpgme",
@@ -8648,6 +9450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_comp'next",
           "package": "bindings-gpgme",
@@ -8657,6 +9460,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_comp'next",
           "package": "bindings-gpgme",
@@ -8669,6 +9473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_comp'options",
           "package": "bindings-gpgme",
@@ -8678,6 +9483,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_comp'options",
           "package": "bindings-gpgme",
@@ -8690,6 +9496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_comp'program_name",
           "package": "bindings-gpgme",
@@ -8699,6 +9506,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_comp'program_name",
           "package": "bindings-gpgme",
@@ -8711,6 +9519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'alt_type",
           "package": "bindings-gpgme",
@@ -8720,6 +9529,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'alt_type",
           "package": "bindings-gpgme",
@@ -8732,6 +9542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'argname",
           "package": "bindings-gpgme",
@@ -8741,6 +9552,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'argname",
           "package": "bindings-gpgme",
@@ -8753,6 +9565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'change_value",
           "package": "bindings-gpgme",
@@ -8762,6 +9575,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'change_value",
           "package": "bindings-gpgme",
@@ -8774,6 +9588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'default_description",
           "package": "bindings-gpgme",
@@ -8783,6 +9598,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'default_description",
           "package": "bindings-gpgme",
@@ -8795,6 +9611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'default_value",
           "package": "bindings-gpgme",
@@ -8804,6 +9621,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'default_value",
           "package": "bindings-gpgme",
@@ -8816,6 +9634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'description",
           "package": "bindings-gpgme",
@@ -8825,6 +9644,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'description",
           "package": "bindings-gpgme",
@@ -8837,6 +9657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'flags",
           "package": "bindings-gpgme",
@@ -8846,6 +9667,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'flags",
           "package": "bindings-gpgme",
@@ -8858,6 +9680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'level",
           "package": "bindings-gpgme",
@@ -8867,6 +9690,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'level",
           "package": "bindings-gpgme",
@@ -8879,6 +9703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'name",
           "package": "bindings-gpgme",
@@ -8888,6 +9713,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'name",
           "package": "bindings-gpgme",
@@ -8900,6 +9726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'new_value",
           "package": "bindings-gpgme",
@@ -8909,6 +9736,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'new_value",
           "package": "bindings-gpgme",
@@ -8921,6 +9749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'next",
           "package": "bindings-gpgme",
@@ -8930,6 +9759,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'next",
           "package": "bindings-gpgme",
@@ -8942,6 +9772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'no_arg_description",
           "package": "bindings-gpgme",
@@ -8951,6 +9782,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'no_arg_description",
           "package": "bindings-gpgme",
@@ -8963,6 +9795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'no_arg_value",
           "package": "bindings-gpgme",
@@ -8972,6 +9805,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'no_arg_value",
           "package": "bindings-gpgme",
@@ -8984,6 +9818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'type",
           "package": "bindings-gpgme",
@@ -8993,6 +9828,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'type",
           "package": "bindings-gpgme",
@@ -9005,6 +9841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'user_data",
           "package": "bindings-gpgme",
@@ -9014,6 +9851,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'user_data",
           "normalized": "Ptr()",
@@ -9028,6 +9866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'value",
           "package": "bindings-gpgme",
@@ -9037,6 +9876,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt'value",
           "package": "bindings-gpgme",
@@ -9049,6 +9889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt_change",
           "package": "bindings-gpgme",
@@ -9058,6 +9899,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_opt_change",
           "normalized": "C'gpgme_conf_opt_t-\u003eCInt-\u003eC'gpgme_conf_arg_t-\u003eIO C'gpgme_error_t",
@@ -9072,6 +9914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_release",
           "package": "bindings-gpgme",
@@ -9081,6 +9924,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_conf_release",
           "normalized": "C'gpgme_conf_comp_t-\u003eIO()",
@@ -9095,6 +9939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_ctx_get_engine_info",
           "package": "bindings-gpgme",
@@ -9104,6 +9949,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_ctx_get_engine_info",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_engine_info_t",
@@ -9118,6 +9964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_ctx_set_engine_info",
           "package": "bindings-gpgme",
@@ -9127,6 +9974,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_ctx_set_engine_info",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_protocol_t-\u003eCString-\u003eCString-\u003eIO C'gpgme_error_t",
@@ -9141,6 +9989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_cbs'read",
           "package": "bindings-gpgme",
@@ -9150,6 +9999,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_cbs'read",
           "package": "bindings-gpgme",
@@ -9162,6 +10012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_cbs'release",
           "package": "bindings-gpgme",
@@ -9171,6 +10022,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_cbs'release",
           "package": "bindings-gpgme",
@@ -9183,6 +10035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_cbs'seek",
           "package": "bindings-gpgme",
@@ -9192,6 +10045,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_cbs'seek",
           "package": "bindings-gpgme",
@@ -9204,6 +10058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_cbs'write",
           "package": "bindings-gpgme",
@@ -9213,6 +10068,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_cbs'write",
           "package": "bindings-gpgme",
@@ -9225,6 +10081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_get_encoding",
           "package": "bindings-gpgme",
@@ -9234,6 +10091,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_get_encoding",
           "normalized": "C'gpgme_data_t-\u003eIO C'gpgme_data_encoding_t",
@@ -9248,6 +10106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_get_file_name",
           "package": "bindings-gpgme",
@@ -9257,6 +10116,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_get_file_name",
           "normalized": "C'gpgme_data_t-\u003eIO CString",
@@ -9271,6 +10131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_new",
           "package": "bindings-gpgme",
@@ -9280,6 +10141,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_new",
           "normalized": "Ptr C'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -9294,6 +10156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_new_from_cbs",
           "package": "bindings-gpgme",
@@ -9303,6 +10166,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_new_from_cbs",
           "normalized": "Ptr C'gpgme_data_t-\u003eC'gpgme_data_cbs_t-\u003ePtr()-\u003eIO C'gpgme_error_t",
@@ -9317,6 +10181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_new_from_fd",
           "package": "bindings-gpgme",
@@ -9326,6 +10191,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_new_from_fd",
           "normalized": "Ptr C'gpgme_data_t-\u003eCInt-\u003eIO C'gpgme_error_t",
@@ -9340,6 +10206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_new_from_file",
           "package": "bindings-gpgme",
@@ -9349,6 +10216,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_new_from_file",
           "normalized": "Ptr C'gpgme_data_t-\u003eCString-\u003eCInt-\u003eIO C'gpgme_error_t",
@@ -9363,6 +10231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_new_from_filepart",
           "package": "bindings-gpgme",
@@ -9372,6 +10241,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_new_from_filepart",
           "normalized": "Ptr C'gpgme_data_t-\u003eCString-\u003ePtr CFile-\u003eC'off_t-\u003eCSize-\u003eIO C'gpgme_error_t",
@@ -9386,6 +10256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_new_from_mem",
           "package": "bindings-gpgme",
@@ -9395,6 +10266,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_new_from_mem",
           "normalized": "Ptr C'gpgme_data_t-\u003eCString-\u003eCSize-\u003eCInt-\u003eIO C'gpgme_error_t",
@@ -9409,6 +10281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_new_from_stream",
           "package": "bindings-gpgme",
@@ -9418,6 +10291,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_new_from_stream",
           "normalized": "Ptr C'gpgme_data_t-\u003ePtr CFile-\u003eIO C'gpgme_error_t",
@@ -9432,6 +10306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_read",
           "package": "bindings-gpgme",
@@ -9441,6 +10316,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_read",
           "normalized": "C'gpgme_data_t-\u003ePtr()-\u003eCSize-\u003eIO C'ssize_t",
@@ -9455,6 +10331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_release",
           "package": "bindings-gpgme",
@@ -9464,6 +10341,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_release",
           "normalized": "C'gpgme_data_t-\u003eIO()",
@@ -9478,6 +10356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_release_and_get_mem",
           "package": "bindings-gpgme",
@@ -9487,6 +10366,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_release_and_get_mem",
           "normalized": "C'gpgme_data_t-\u003ePtr CSize-\u003eIO CString",
@@ -9501,6 +10381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_seek",
           "package": "bindings-gpgme",
@@ -9510,6 +10391,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_seek",
           "normalized": "C'gpgme_data_t-\u003eC'off_t-\u003eCInt-\u003eIO C'off_t",
@@ -9524,6 +10406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_set_encoding",
           "package": "bindings-gpgme",
@@ -9533,6 +10416,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_set_encoding",
           "normalized": "C'gpgme_data_t-\u003eC'gpgme_data_encoding_t-\u003eIO C'gpgme_error_t",
@@ -9547,6 +10431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_set_file_name",
           "package": "bindings-gpgme",
@@ -9556,6 +10441,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_set_file_name",
           "normalized": "C'gpgme_data_t-\u003eCString-\u003eIO C'gpgme_error_t",
@@ -9570,6 +10456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_write",
           "package": "bindings-gpgme",
@@ -9579,6 +10466,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_data_write",
           "normalized": "C'gpgme_data_t-\u003ePtr()-\u003eCSize-\u003eIO C'ssize_t",
@@ -9593,6 +10481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_engine_check_version",
           "package": "bindings-gpgme",
@@ -9602,6 +10491,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_engine_check_version",
           "normalized": "C'gpgme_protocol_t-\u003eIO C'gpgme_error_t",
@@ -9616,6 +10506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_err_code",
           "package": "bindings-gpgme",
@@ -9625,6 +10516,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_err_code",
           "normalized": "C'gpgme_error_t-\u003eIO C'gpgme_err_code_t",
@@ -9639,6 +10531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_err_code_from_errno",
           "package": "bindings-gpgme",
@@ -9648,6 +10541,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_err_code_from_errno",
           "normalized": "CInt-\u003eIO C'gpgme_err_code_t",
@@ -9662,6 +10556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_err_code_to_errno",
           "package": "bindings-gpgme",
@@ -9671,6 +10566,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_err_code_to_errno",
           "normalized": "C'gpgme_err_code_t-\u003eIO CInt",
@@ -9685,6 +10581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_err_make",
           "package": "bindings-gpgme",
@@ -9694,6 +10591,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_err_make",
           "normalized": "C'gpgme_err_source_t-\u003eC'gpgme_err_code_t-\u003eIO C'gpgme_error_t",
@@ -9708,6 +10606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_err_make_from_errno",
           "package": "bindings-gpgme",
@@ -9717,6 +10616,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_err_make_from_errno",
           "normalized": "C'gpgme_err_source_t-\u003eCInt-\u003eIO C'gpgme_error_t",
@@ -9731,6 +10631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_err_source",
           "package": "bindings-gpgme",
@@ -9740,6 +10641,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_err_source",
           "normalized": "C'gpgme_error_t-\u003eIO C'gpgme_err_source_t",
@@ -9754,6 +10656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_error",
           "package": "bindings-gpgme",
@@ -9763,6 +10666,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_error",
           "normalized": "C'gpgme_err_code_t-\u003eIO C'gpgme_error_t",
@@ -9777,6 +10681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_error_from_errno",
           "package": "bindings-gpgme",
@@ -9786,6 +10691,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_error_from_errno",
           "normalized": "CInt-\u003eIO C'gpgme_err_code_t",
@@ -9800,6 +10706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_free",
           "package": "bindings-gpgme",
@@ -9809,6 +10716,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_free",
           "normalized": "Ptr()-\u003eIO()",
@@ -9823,6 +10731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_armor",
           "package": "bindings-gpgme",
@@ -9832,6 +10741,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_armor",
           "normalized": "C'gpgme_ctx_t-\u003eIO CInt",
@@ -9846,6 +10756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_engine_info",
           "package": "bindings-gpgme",
@@ -9855,6 +10766,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_engine_info",
           "normalized": "Ptr C'gpgme_engine_info_t-\u003eIO C'gpgme_error_t",
@@ -9869,6 +10781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_include_certs",
           "package": "bindings-gpgme",
@@ -9878,6 +10791,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_include_certs",
           "normalized": "C'gpgme_ctx_t-\u003eIO CInt",
@@ -9892,6 +10806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_io_cbs",
           "package": "bindings-gpgme",
@@ -9901,6 +10816,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_io_cbs",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_io_cbs_t-\u003eIO()",
@@ -9915,6 +10831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_key",
           "package": "bindings-gpgme",
@@ -9924,6 +10841,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_key",
           "normalized": "C'gpgme_ctx_t-\u003eCString-\u003ePtr C'gpgme_key_t-\u003eCInt-\u003eIO C'gpgme_error_t",
@@ -9938,6 +10856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_keylist_mode",
           "package": "bindings-gpgme",
@@ -9947,6 +10866,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_keylist_mode",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_keylist_mode_t",
@@ -9961,6 +10881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_passphrase_cb",
           "package": "bindings-gpgme",
@@ -9970,6 +10891,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_passphrase_cb",
           "normalized": "C'gpgme_ctx_t-\u003ePtr C'gpgme_passphrase_cb_t-\u003ePtr(Ptr())-\u003eIO()",
@@ -9984,6 +10906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_progress_cb",
           "package": "bindings-gpgme",
@@ -9993,6 +10916,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_progress_cb",
           "normalized": "C'gpgme_ctx_t-\u003ePtr C'gpgme_progress_cb_t-\u003ePtr(Ptr())-\u003eIO()",
@@ -10007,6 +10931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_protocol",
           "package": "bindings-gpgme",
@@ -10016,6 +10941,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_protocol",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_protocol_t",
@@ -10030,6 +10956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_protocol_name",
           "package": "bindings-gpgme",
@@ -10039,6 +10966,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_protocol_name",
           "normalized": "C'gpgme_protocol_t-\u003eIO CString",
@@ -10053,6 +10981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_textmode",
           "package": "bindings-gpgme",
@@ -10062,6 +10991,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_get_textmode",
           "normalized": "C'gpgme_ctx_t-\u003eIO CInt",
@@ -10076,6 +11006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_hash_algo_name",
           "package": "bindings-gpgme",
@@ -10085,6 +11016,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_hash_algo_name",
           "normalized": "C'gpgme_hash_algo_t-\u003eIO CString",
@@ -10099,6 +11031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_io_cbs'add",
           "package": "bindings-gpgme",
@@ -10108,6 +11041,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_io_cbs'add",
           "package": "bindings-gpgme",
@@ -10120,6 +11054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_io_cbs'add_priv",
           "package": "bindings-gpgme",
@@ -10129,6 +11064,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_io_cbs'add_priv",
           "normalized": "Ptr()",
@@ -10143,6 +11079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_io_cbs'event",
           "package": "bindings-gpgme",
@@ -10152,6 +11089,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_io_cbs'event",
           "package": "bindings-gpgme",
@@ -10164,6 +11102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_io_cbs'event_priv",
           "package": "bindings-gpgme",
@@ -10173,6 +11112,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_io_cbs'event_priv",
           "normalized": "Ptr()",
@@ -10187,6 +11127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_io_cbs'remove",
           "package": "bindings-gpgme",
@@ -10196,6 +11137,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_io_cbs'remove",
           "package": "bindings-gpgme",
@@ -10208,6 +11150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_key_ref",
           "package": "bindings-gpgme",
@@ -10217,6 +11160,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_key_ref",
           "normalized": "C'gpgme_key_t-\u003eIO()",
@@ -10231,6 +11175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_key_release",
           "package": "bindings-gpgme",
@@ -10240,6 +11185,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_key_release",
           "normalized": "C'gpgme_key_t-\u003eIO()",
@@ -10254,6 +11200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_key_unref",
           "package": "bindings-gpgme",
@@ -10263,6 +11210,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_key_unref",
           "normalized": "C'gpgme_key_t-\u003eIO()",
@@ -10277,6 +11225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_new",
           "package": "bindings-gpgme",
@@ -10286,6 +11235,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_new",
           "normalized": "Ptr C'gpgme_ctx_t-\u003eIO C'gpgme_error_t",
@@ -10300,6 +11250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_card_edit",
           "package": "bindings-gpgme",
@@ -10309,6 +11260,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_card_edit",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_key_t-\u003eC'gpgme_edit_cb_t-\u003ePtr()-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10323,6 +11275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_card_edit_start",
           "package": "bindings-gpgme",
@@ -10332,6 +11285,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_card_edit_start",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_key_t-\u003eC'gpgme_edit_cb_t-\u003ePtr()-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10346,6 +11300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_conf_load",
           "package": "bindings-gpgme",
@@ -10355,6 +11310,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_conf_load",
           "normalized": "C'gpgme_ctx_t-\u003ePtr C'gpgme_conf_comp_t-\u003eIO C'gpgme_error_t",
@@ -10369,6 +11325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_conf_save",
           "package": "bindings-gpgme",
@@ -10378,6 +11335,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_conf_save",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_conf_comp_t-\u003eIO C'gpgme_error_t",
@@ -10392,6 +11350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_decrypt",
           "package": "bindings-gpgme",
@@ -10401,6 +11360,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_decrypt",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10415,6 +11375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_decrypt_result",
           "package": "bindings-gpgme",
@@ -10424,6 +11385,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_decrypt_result",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_decrypt_result_t",
@@ -10438,6 +11400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_decrypt_start",
           "package": "bindings-gpgme",
@@ -10447,6 +11410,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_decrypt_start",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10461,6 +11425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_decrypt_verify",
           "package": "bindings-gpgme",
@@ -10470,6 +11435,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_decrypt_verify",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10484,6 +11450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_decrypt_verify_start",
           "package": "bindings-gpgme",
@@ -10493,6 +11460,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_decrypt_verify_start",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10507,6 +11475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_delete",
           "package": "bindings-gpgme",
@@ -10516,6 +11485,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_delete",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_key_t-\u003eCInt-\u003eIO C'gpgme_error_t",
@@ -10530,6 +11500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_delete_start",
           "package": "bindings-gpgme",
@@ -10539,6 +11510,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_delete_start",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_key_t-\u003eCInt-\u003eIO C'gpgme_error_t",
@@ -10553,6 +11525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_edit",
           "package": "bindings-gpgme",
@@ -10562,6 +11535,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_edit",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_key_t-\u003eC'gpgme_edit_cb_t-\u003ePtr()-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10576,6 +11550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_edit_start",
           "package": "bindings-gpgme",
@@ -10585,6 +11560,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_edit_start",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_key_t-\u003eC'gpgme_edit_cb_t-\u003ePtr()-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10599,6 +11575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_encrypt",
           "package": "bindings-gpgme",
@@ -10608,6 +11585,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_encrypt",
           "normalized": "C'gpgme_ctx_t-\u003ePtr C'gpgme_key_t-\u003eC'gpgme_encrypt_flags_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10622,6 +11600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_encrypt_result",
           "package": "bindings-gpgme",
@@ -10631,6 +11610,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_encrypt_result",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_encrypt_result_t",
@@ -10645,6 +11625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_encrypt_sign",
           "package": "bindings-gpgme",
@@ -10654,6 +11635,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_encrypt_sign",
           "normalized": "C'gpgme_ctx_t-\u003ePtr C'gpgme_key_t-\u003eC'gpgme_encrypt_flags_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10668,6 +11650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_encrypt_sign_start",
           "package": "bindings-gpgme",
@@ -10677,6 +11660,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_encrypt_sign_start",
           "normalized": "C'gpgme_ctx_t-\u003ePtr C'gpgme_key_t-\u003eC'gpgme_encrypt_flags_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10691,6 +11675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_encrypt_start",
           "package": "bindings-gpgme",
@@ -10700,6 +11685,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_encrypt_start",
           "normalized": "C'gpgme_ctx_t-\u003ePtr C'gpgme_key_t-\u003eC'gpgme_encrypt_flags_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10714,6 +11700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_export",
           "package": "bindings-gpgme",
@@ -10723,6 +11710,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_export",
           "normalized": "C'gpgme_ctx_t-\u003eCString-\u003eCUInt-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10737,6 +11725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_export_ext",
           "package": "bindings-gpgme",
@@ -10746,6 +11735,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_export_ext",
           "normalized": "C'gpgme_ctx_t-\u003ePtr CString-\u003eCUInt-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10760,6 +11750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_export_ext_start",
           "package": "bindings-gpgme",
@@ -10769,6 +11760,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_export_ext_start",
           "normalized": "C'gpgme_ctx_t-\u003ePtr CString-\u003eCUInt-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10783,6 +11775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_export_start",
           "package": "bindings-gpgme",
@@ -10792,6 +11785,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_export_start",
           "normalized": "C'gpgme_ctx_t-\u003eCString-\u003eCUInt-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10806,6 +11800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_genkey",
           "package": "bindings-gpgme",
@@ -10815,6 +11810,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_genkey",
           "normalized": "C'gpgme_ctx_t-\u003eCString-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10829,6 +11825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_genkey_result",
           "package": "bindings-gpgme",
@@ -10838,6 +11835,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_genkey_result",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_genkey_result_t",
@@ -10852,6 +11850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_genkey_start",
           "package": "bindings-gpgme",
@@ -10861,6 +11860,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_genkey_start",
           "normalized": "C'gpgme_ctx_t-\u003eCString-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10875,6 +11875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_getauditlog",
           "package": "bindings-gpgme",
@@ -10884,6 +11885,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_getauditlog",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eCUInt-\u003eIO C'gpgme_error_t",
@@ -10898,6 +11900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_getauditlog_start",
           "package": "bindings-gpgme",
@@ -10907,6 +11910,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_getauditlog_start",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eCUInt-\u003eIO C'gpgme_error_t",
@@ -10921,6 +11925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_import",
           "package": "bindings-gpgme",
@@ -10930,6 +11935,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_import",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10944,6 +11950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_import_result",
           "package": "bindings-gpgme",
@@ -10953,6 +11960,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_import_result",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_import_result_t",
@@ -10967,6 +11975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_import_start",
           "package": "bindings-gpgme",
@@ -10976,6 +11985,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_import_start",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -10990,6 +12000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_keylist_end",
           "package": "bindings-gpgme",
@@ -10999,6 +12010,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_keylist_end",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_error_t",
@@ -11013,6 +12025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_keylist_ext_start",
           "package": "bindings-gpgme",
@@ -11022,6 +12035,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_keylist_ext_start",
           "normalized": "C'gpgme_ctx_t-\u003ePtr CString-\u003eCInt-\u003eCInt-\u003eIO C'gpgme_error_t",
@@ -11036,6 +12050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_keylist_next",
           "package": "bindings-gpgme",
@@ -11045,6 +12060,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_keylist_next",
           "normalized": "C'gpgme_ctx_t-\u003ePtr C'gpgme_key_t-\u003eIO C'gpgme_error_t",
@@ -11059,6 +12075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_keylist_result",
           "package": "bindings-gpgme",
@@ -11068,6 +12085,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_keylist_result",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_keylist_result_t",
@@ -11082,6 +12100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_keylist_start",
           "package": "bindings-gpgme",
@@ -11091,6 +12110,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_keylist_start",
           "normalized": "C'gpgme_ctx_t-\u003eCString-\u003eCInt-\u003eIO C'gpgme_error_t",
@@ -11105,6 +12125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_sign",
           "package": "bindings-gpgme",
@@ -11114,6 +12135,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_sign",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eC'gpgme_sig_mode_t-\u003eIO C'gpgme_error_t",
@@ -11128,6 +12150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_sign_result",
           "package": "bindings-gpgme",
@@ -11137,6 +12160,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_sign_result",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_sign_result_t",
@@ -11151,6 +12175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_sign_start",
           "package": "bindings-gpgme",
@@ -11160,6 +12185,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_sign_start",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eC'gpgme_sig_mode_t-\u003eIO C'gpgme_error_t",
@@ -11174,6 +12200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_trustlist_end",
           "package": "bindings-gpgme",
@@ -11183,6 +12210,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_trustlist_end",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_error_t",
@@ -11197,6 +12225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_trustlist_next",
           "package": "bindings-gpgme",
@@ -11206,6 +12235,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_trustlist_next",
           "normalized": "C'gpgme_ctx_t-\u003ePtr C'gpgme_trust_item_t-\u003eIO C'gpgme_error_t",
@@ -11220,6 +12250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_trustlist_start",
           "package": "bindings-gpgme",
@@ -11229,6 +12260,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_trustlist_start",
           "normalized": "C'gpgme_ctx_t-\u003eCString-\u003eCInt-\u003eIO C'gpgme_error_t",
@@ -11243,6 +12275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_verify",
           "package": "bindings-gpgme",
@@ -11252,6 +12285,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_verify",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -11266,6 +12300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_verify_result",
           "package": "bindings-gpgme",
@@ -11275,6 +12310,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_verify_result",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_verify_result_t",
@@ -11289,6 +12325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_verify_start",
           "package": "bindings-gpgme",
@@ -11298,6 +12335,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_op_verify_start",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t",
@@ -11312,6 +12350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_pubkey_algo_name",
           "package": "bindings-gpgme",
@@ -11321,6 +12360,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_pubkey_algo_name",
           "normalized": "C'gpgme_pubkey_algo_t-\u003eIO CString",
@@ -11335,6 +12375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_release",
           "package": "bindings-gpgme",
@@ -11344,6 +12385,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_release",
           "normalized": "C'gpgme_ctx_t-\u003eIO()",
@@ -11358,6 +12400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_armor",
           "package": "bindings-gpgme",
@@ -11367,6 +12410,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_armor",
           "normalized": "C'gpgme_ctx_t-\u003eCInt-\u003eIO()",
@@ -11381,6 +12425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_engine_info",
           "package": "bindings-gpgme",
@@ -11390,6 +12435,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_engine_info",
           "normalized": "C'gpgme_protocol_t-\u003eCString-\u003eCString-\u003eIO C'gpgme_error_t",
@@ -11404,6 +12450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_include_certs",
           "package": "bindings-gpgme",
@@ -11413,6 +12460,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_include_certs",
           "normalized": "C'gpgme_ctx_t-\u003eCInt-\u003eIO()",
@@ -11427,6 +12475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_io_cbs",
           "package": "bindings-gpgme",
@@ -11436,6 +12485,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_io_cbs",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_io_cbs_t-\u003eIO()",
@@ -11450,6 +12500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_keylist_mode",
           "package": "bindings-gpgme",
@@ -11459,6 +12510,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_keylist_mode",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_keylist_mode_t-\u003eIO C'gpgme_error_t",
@@ -11473,6 +12525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_locale",
           "package": "bindings-gpgme",
@@ -11482,6 +12535,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_locale",
           "normalized": "C'gpgme_ctx_t-\u003eCInt-\u003eCString-\u003eIO C'gpgme_error_t",
@@ -11496,6 +12550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_passphrase_cb",
           "package": "bindings-gpgme",
@@ -11505,6 +12560,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_passphrase_cb",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_passphrase_cb_t-\u003ePtr()-\u003eIO()",
@@ -11519,6 +12575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_progress_cb",
           "package": "bindings-gpgme",
@@ -11528,6 +12585,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_progress_cb",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_progress_cb_t-\u003ePtr()-\u003eIO()",
@@ -11542,6 +12600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_protocol",
           "package": "bindings-gpgme",
@@ -11551,6 +12610,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_protocol",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_protocol_t-\u003eIO C'gpgme_error_t",
@@ -11565,6 +12625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_textmode",
           "package": "bindings-gpgme",
@@ -11574,6 +12635,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_set_textmode",
           "normalized": "C'gpgme_ctx_t-\u003eCInt-\u003eIO()",
@@ -11588,6 +12650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_sig_notation_add",
           "package": "bindings-gpgme",
@@ -11597,6 +12660,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_sig_notation_add",
           "normalized": "C'gpgme_ctx_t-\u003eCString-\u003eCString-\u003eC'gpgme_sig_notation_flags_t-\u003eIO C'gpgme_error_t",
@@ -11611,6 +12675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_sig_notation_clear",
           "package": "bindings-gpgme",
@@ -11620,6 +12685,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_sig_notation_clear",
           "normalized": "C'gpgme_ctx_t-\u003eIO()",
@@ -11634,6 +12700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_sig_notation_get",
           "package": "bindings-gpgme",
@@ -11643,6 +12710,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_sig_notation_get",
           "normalized": "C'gpgme_ctx_t-\u003eIO C'gpgme_sig_notation_t",
@@ -11657,6 +12725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_signers_add",
           "package": "bindings-gpgme",
@@ -11666,6 +12735,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_signers_add",
           "normalized": "C'gpgme_ctx_t-\u003eC'gpgme_key_t-\u003eIO C'gpgme_error_t",
@@ -11680,6 +12750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_signers_clear",
           "package": "bindings-gpgme",
@@ -11689,6 +12760,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_signers_clear",
           "normalized": "C'gpgme_ctx_t-\u003eIO()",
@@ -11703,6 +12775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_signers_enum",
           "package": "bindings-gpgme",
@@ -11712,6 +12785,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_signers_enum",
           "normalized": "C'gpgme_ctx_t-\u003eCInt-\u003eIO C'gpgme_key_t",
@@ -11726,6 +12800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_strerror",
           "package": "bindings-gpgme",
@@ -11735,6 +12810,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_strerror",
           "normalized": "C'gpgme_error_t-\u003eIO CString",
@@ -11749,6 +12825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_strerror_r",
           "package": "bindings-gpgme",
@@ -11758,6 +12835,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_strerror_r",
           "normalized": "C'gpg_error_t-\u003eCString-\u003eCSize-\u003eIO CInt",
@@ -11772,6 +12850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_strsource",
           "package": "bindings-gpgme",
@@ -11781,6 +12860,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_strsource",
           "normalized": "C'gpgme_error_t-\u003eIO CString",
@@ -11795,6 +12875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_trust_item_ref",
           "package": "bindings-gpgme",
@@ -11804,6 +12885,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_trust_item_ref",
           "normalized": "C'gpgme_trust_item_t-\u003eIO()",
@@ -11818,6 +12900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_trust_item_unref",
           "package": "bindings-gpgme",
@@ -11827,6 +12910,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_trust_item_unref",
           "normalized": "C'gpgme_trust_item_t-\u003eIO()",
@@ -11841,6 +12925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_wait",
           "package": "bindings-gpgme",
@@ -11850,6 +12935,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "c'gpgme_wait",
           "normalized": "C'gpgme_ctx_t-\u003ePtr C'gpgme_error_t-\u003eCInt-\u003eIO C'gpgme_ctx_t",
@@ -11864,6 +12950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_data_read_cb_t",
           "package": "bindings-gpgme",
@@ -11873,6 +12960,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_data_read_cb_t",
           "normalized": "C'gpgme_data_read_cb_t-\u003ePtr()-\u003ePtr()-\u003eCSize-\u003eIO C'ssize_t",
@@ -11888,6 +12976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_data_release_cb_t",
           "package": "bindings-gpgme",
@@ -11897,6 +12986,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_data_release_cb_t",
           "normalized": "C'gpgme_data_release_cb_t-\u003ePtr()-\u003eIO()",
@@ -11912,6 +13002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_data_seek_cb_t",
           "package": "bindings-gpgme",
@@ -11921,6 +13012,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_data_seek_cb_t",
           "normalized": "C'gpgme_data_seek_cb_t-\u003ePtr()-\u003eC'off_t-\u003eCInt-\u003eIO C'off_t",
@@ -11936,6 +13028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_data_write_cb_t",
           "package": "bindings-gpgme",
@@ -11945,6 +13038,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_data_write_cb_t",
           "normalized": "C'gpgme_data_write_cb_t-\u003ePtr()-\u003ePtr()-\u003eCSize-\u003eIO C'ssize_t",
@@ -11960,6 +13054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_edit_cb_t",
           "package": "bindings-gpgme",
@@ -11969,6 +13064,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_edit_cb_t",
           "normalized": "C'gpgme_edit_cb_t-\u003ePtr()-\u003eC'gpgme_status_code_t-\u003eCString-\u003eCInt-\u003eIO C'gpgme_error_t",
@@ -11984,6 +13080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_event_io_cb_t",
           "package": "bindings-gpgme",
@@ -11993,6 +13090,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_event_io_cb_t",
           "normalized": "C'gpgme_event_io_cb_t-\u003ePtr()-\u003eC'gpgme_event_io_t-\u003ePtr()-\u003eIO()",
@@ -12008,6 +13106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_io_cb_t",
           "package": "bindings-gpgme",
@@ -12017,6 +13116,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_io_cb_t",
           "normalized": "C'gpgme_io_cb_t-\u003ePtr()-\u003eCInt-\u003eIO C'gpgme_error_t",
@@ -12032,6 +13132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_passphrase_cb_t",
           "package": "bindings-gpgme",
@@ -12041,6 +13142,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_passphrase_cb_t",
           "normalized": "C'gpgme_passphrase_cb_t-\u003ePtr()-\u003eCString-\u003eCString-\u003eCInt-\u003eCInt-\u003eIO C'gpgme_error_t",
@@ -12056,6 +13158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_progress_cb_t",
           "package": "bindings-gpgme",
@@ -12065,6 +13168,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_progress_cb_t",
           "normalized": "C'gpgme_progress_cb_t-\u003ePtr()-\u003eCString-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -12080,6 +13184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_register_io_cb_t",
           "package": "bindings-gpgme",
@@ -12089,6 +13194,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_register_io_cb_t",
           "normalized": "C'gpgme_register_io_cb_t-\u003ePtr()-\u003eCInt-\u003eCInt-\u003eC'gpgme_io_cb_t-\u003ePtr()-\u003ePtr(Ptr())-\u003eIO C'gpgme_error_t",
@@ -12104,6 +13210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_remove_io_cb_t",
           "package": "bindings-gpgme",
@@ -12113,6 +13220,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mK'gpgme_remove_io_cb_t",
           "normalized": "C'gpgme_remove_io_cb_t-\u003ePtr()-\u003eIO()",
@@ -12128,6 +13236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_data_read_cb_t",
           "package": "bindings-gpgme",
@@ -12137,6 +13246,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_data_read_cb_t",
           "normalized": "(Ptr()-\u003ePtr()-\u003eCSize-\u003eIO C'ssize_t)-\u003eIO C'gpgme_data_read_cb_t",
@@ -12151,6 +13261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_data_release_cb_t",
           "package": "bindings-gpgme",
@@ -12160,6 +13271,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_data_release_cb_t",
           "normalized": "(Ptr()-\u003eIO())-\u003eIO C'gpgme_data_release_cb_t",
@@ -12174,6 +13286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_data_seek_cb_t",
           "package": "bindings-gpgme",
@@ -12183,6 +13296,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_data_seek_cb_t",
           "normalized": "(Ptr()-\u003eC'off_t-\u003eCInt-\u003eIO C'off_t)-\u003eIO C'gpgme_data_seek_cb_t",
@@ -12197,6 +13311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_data_write_cb_t",
           "package": "bindings-gpgme",
@@ -12206,6 +13321,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_data_write_cb_t",
           "normalized": "(Ptr()-\u003ePtr()-\u003eCSize-\u003eIO C'ssize_t)-\u003eIO C'gpgme_data_write_cb_t",
@@ -12220,6 +13336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_edit_cb_t",
           "package": "bindings-gpgme",
@@ -12229,6 +13346,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_edit_cb_t",
           "normalized": "(Ptr()-\u003eC'gpgme_status_code_t-\u003eCString-\u003eCInt-\u003eIO C'gpgme_error_t)-\u003eIO C'gpgme_edit_cb_t",
@@ -12243,6 +13361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_event_io_cb_t",
           "package": "bindings-gpgme",
@@ -12252,6 +13371,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_event_io_cb_t",
           "normalized": "(Ptr()-\u003eC'gpgme_event_io_t-\u003ePtr()-\u003eIO())-\u003eIO C'gpgme_event_io_cb_t",
@@ -12266,6 +13386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_io_cb_t",
           "package": "bindings-gpgme",
@@ -12275,6 +13396,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_io_cb_t",
           "normalized": "(Ptr()-\u003eCInt-\u003eIO C'gpgme_error_t)-\u003eIO C'gpgme_io_cb_t",
@@ -12289,6 +13411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_passphrase_cb_t",
           "package": "bindings-gpgme",
@@ -12298,6 +13421,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_passphrase_cb_t",
           "normalized": "(Ptr()-\u003eCString-\u003eCString-\u003eCInt-\u003eCInt-\u003eIO C'gpgme_error_t)-\u003eIO C'gpgme_passphrase_cb_t",
@@ -12312,6 +13436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_progress_cb_t",
           "package": "bindings-gpgme",
@@ -12321,6 +13446,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_progress_cb_t",
           "normalized": "(Ptr()-\u003eCString-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO())-\u003eIO C'gpgme_progress_cb_t",
@@ -12335,6 +13461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_register_io_cb_t",
           "package": "bindings-gpgme",
@@ -12344,6 +13471,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_register_io_cb_t",
           "normalized": "(Ptr()-\u003eCInt-\u003eCInt-\u003eC'gpgme_io_cb_t-\u003ePtr()-\u003ePtr(Ptr())-\u003eIO C'gpgme_error_t)-\u003eIO C'gpgme_register_io_cb_t",
@@ -12358,6 +13486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_remove_io_cb_t",
           "package": "bindings-gpgme",
@@ -12367,6 +13496,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "mk'gpgme_remove_io_cb_t",
           "normalized": "(Ptr()-\u003eIO())-\u003eIO C'gpgme_remove_io_cb_t",
@@ -12381,6 +13511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_engine_info'file_name",
           "package": "bindings-gpgme",
@@ -12390,6 +13521,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_engine_info'file_name",
           "normalized": "Ptr C'_gpgme_engine_info-\u003ePtr CString",
@@ -12404,6 +13536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_engine_info'home_dir",
           "package": "bindings-gpgme",
@@ -12413,6 +13546,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_engine_info'home_dir",
           "normalized": "Ptr C'_gpgme_engine_info-\u003ePtr CString",
@@ -12427,6 +13561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_engine_info'next",
           "package": "bindings-gpgme",
@@ -12436,6 +13571,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_engine_info'next",
           "normalized": "Ptr C'_gpgme_engine_info-\u003ePtr(Ptr C'_gpgme_engine_info)",
@@ -12450,6 +13586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_engine_info'protocol",
           "package": "bindings-gpgme",
@@ -12459,6 +13596,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_engine_info'protocol",
           "normalized": "Ptr C'_gpgme_engine_info-\u003ePtr C'gpgme_protocol_t",
@@ -12473,6 +13611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_engine_info'req_version",
           "package": "bindings-gpgme",
@@ -12482,6 +13621,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_engine_info'req_version",
           "normalized": "Ptr C'_gpgme_engine_info-\u003ePtr CString",
@@ -12496,6 +13636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_engine_info'version",
           "package": "bindings-gpgme",
@@ -12505,6 +13646,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_engine_info'version",
           "normalized": "Ptr C'_gpgme_engine_info-\u003ePtr CString",
@@ -12519,6 +13661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_import_status'fpr",
           "package": "bindings-gpgme",
@@ -12528,6 +13671,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_import_status'fpr",
           "normalized": "Ptr C'_gpgme_import_status-\u003ePtr CString",
@@ -12542,6 +13686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_import_status'next",
           "package": "bindings-gpgme",
@@ -12551,6 +13696,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_import_status'next",
           "normalized": "Ptr C'_gpgme_import_status-\u003ePtr(Ptr C'_gpgme_import_status)",
@@ -12565,6 +13711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_import_status'result",
           "package": "bindings-gpgme",
@@ -12574,6 +13721,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_import_status'result",
           "normalized": "Ptr C'_gpgme_import_status-\u003ePtr C'gpgme_error_t",
@@ -12588,6 +13736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_import_status'status",
           "package": "bindings-gpgme",
@@ -12597,6 +13746,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_import_status'status",
           "normalized": "Ptr C'_gpgme_import_status-\u003ePtr CUInt",
@@ -12611,6 +13761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_invalid_key'fpr",
           "package": "bindings-gpgme",
@@ -12620,6 +13771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_invalid_key'fpr",
           "normalized": "Ptr C'_gpgme_invalid_key-\u003ePtr CString",
@@ -12634,6 +13786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_invalid_key'next",
           "package": "bindings-gpgme",
@@ -12643,6 +13796,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_invalid_key'next",
           "normalized": "Ptr C'_gpgme_invalid_key-\u003ePtr C'_gpgme_invalid_key",
@@ -12657,6 +13811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_invalid_key'reason",
           "package": "bindings-gpgme",
@@ -12666,6 +13821,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_invalid_key'reason",
           "normalized": "Ptr C'_gpgme_invalid_key-\u003ePtr C'gpgme_error_t",
@@ -12680,6 +13836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'chain_id",
           "package": "bindings-gpgme",
@@ -12689,6 +13846,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'chain_id",
           "normalized": "Ptr C'_gpgme_key-\u003ePtr CString",
@@ -12703,6 +13861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'issuer_name",
           "package": "bindings-gpgme",
@@ -12712,6 +13871,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'issuer_name",
           "normalized": "Ptr C'_gpgme_key-\u003ePtr CString",
@@ -12726,6 +13886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'issuer_serial",
           "package": "bindings-gpgme",
@@ -12735,6 +13896,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'issuer_serial",
           "normalized": "Ptr C'_gpgme_key-\u003ePtr CString",
@@ -12749,6 +13911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'keylist_mode",
           "package": "bindings-gpgme",
@@ -12758,6 +13921,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'keylist_mode",
           "normalized": "Ptr C'_gpgme_key-\u003ePtr C'gpgme_keylist_mode_t",
@@ -12772,6 +13936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'owner_trust",
           "package": "bindings-gpgme",
@@ -12781,6 +13946,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'owner_trust",
           "normalized": "Ptr C'_gpgme_key-\u003ePtr C'gpgme_validity_t",
@@ -12795,6 +13961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'protocol",
           "package": "bindings-gpgme",
@@ -12804,6 +13971,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'protocol",
           "normalized": "Ptr C'_gpgme_key-\u003ePtr C'gpgme_protocol_t",
@@ -12818,6 +13986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'subkeys",
           "package": "bindings-gpgme",
@@ -12827,6 +13996,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'subkeys",
           "normalized": "Ptr C'_gpgme_key-\u003ePtr C'gpgme_subkey_t",
@@ -12841,6 +14011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'uids",
           "package": "bindings-gpgme",
@@ -12850,6 +14021,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key'uids",
           "normalized": "Ptr C'_gpgme_key-\u003ePtr C'gpgme_user_id_t",
@@ -12864,6 +14036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'comment",
           "package": "bindings-gpgme",
@@ -12873,6 +14046,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'comment",
           "normalized": "Ptr C'_gpgme_key_sig-\u003ePtr CString",
@@ -12887,6 +14061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'email",
           "package": "bindings-gpgme",
@@ -12896,6 +14071,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'email",
           "normalized": "Ptr C'_gpgme_key_sig-\u003ePtr CString",
@@ -12910,6 +14086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'expires",
           "package": "bindings-gpgme",
@@ -12919,6 +14096,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'expires",
           "normalized": "Ptr C'_gpgme_key_sig-\u003ePtr CInt",
@@ -12933,6 +14111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'keyid",
           "package": "bindings-gpgme",
@@ -12942,6 +14121,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'keyid",
           "normalized": "Ptr C'_gpgme_key_sig-\u003ePtr CString",
@@ -12956,6 +14136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'name",
           "package": "bindings-gpgme",
@@ -12965,6 +14146,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'name",
           "normalized": "Ptr C'_gpgme_key_sig-\u003ePtr CString",
@@ -12979,6 +14161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'next",
           "package": "bindings-gpgme",
@@ -12988,6 +14171,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'next",
           "normalized": "Ptr C'_gpgme_key_sig-\u003ePtr(Ptr C'_gpgme_key_sig)",
@@ -13002,6 +14186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'notations",
           "package": "bindings-gpgme",
@@ -13011,6 +14196,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'notations",
           "normalized": "Ptr C'_gpgme_key_sig-\u003ePtr C'gpgme_sig_notation_t",
@@ -13025,6 +14211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'pubkey_algo",
           "package": "bindings-gpgme",
@@ -13034,6 +14221,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'pubkey_algo",
           "normalized": "Ptr C'_gpgme_key_sig-\u003ePtr C'gpgme_pubkey_algo_t",
@@ -13048,6 +14236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'sig_class",
           "package": "bindings-gpgme",
@@ -13057,6 +14246,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'sig_class",
           "normalized": "Ptr C'_gpgme_key_sig-\u003ePtr CUInt",
@@ -13071,6 +14261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'status",
           "package": "bindings-gpgme",
@@ -13080,6 +14271,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'status",
           "normalized": "Ptr C'_gpgme_key_sig-\u003ePtr C'gpgme_error_t",
@@ -13094,6 +14286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'timestamp",
           "package": "bindings-gpgme",
@@ -13103,6 +14296,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'timestamp",
           "normalized": "Ptr C'_gpgme_key_sig-\u003ePtr CInt",
@@ -13117,6 +14311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'uid",
           "package": "bindings-gpgme",
@@ -13126,6 +14321,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_key_sig'uid",
           "normalized": "Ptr C'_gpgme_key_sig-\u003ePtr CString",
@@ -13140,6 +14336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_new_signature'fpr",
           "package": "bindings-gpgme",
@@ -13149,6 +14346,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_new_signature'fpr",
           "normalized": "Ptr C'_gpgme_new_signature-\u003ePtr CString",
@@ -13163,6 +14361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_new_signature'hash_algo",
           "package": "bindings-gpgme",
@@ -13172,6 +14371,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_new_signature'hash_algo",
           "normalized": "Ptr C'_gpgme_new_signature-\u003ePtr C'gpgme_hash_algo_t",
@@ -13186,6 +14386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_new_signature'next",
           "package": "bindings-gpgme",
@@ -13195,6 +14396,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_new_signature'next",
           "normalized": "Ptr C'_gpgme_new_signature-\u003ePtr(Ptr C'_gpgme_new_signature)",
@@ -13209,6 +14411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_new_signature'pubkey_algo",
           "package": "bindings-gpgme",
@@ -13218,6 +14421,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_new_signature'pubkey_algo",
           "normalized": "Ptr C'_gpgme_new_signature-\u003ePtr C'gpgme_pubkey_algo_t",
@@ -13232,6 +14436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_new_signature'sig_class",
           "package": "bindings-gpgme",
@@ -13241,6 +14446,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_new_signature'sig_class",
           "normalized": "Ptr C'_gpgme_new_signature-\u003ePtr CUInt",
@@ -13255,6 +14461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_new_signature'timestamp",
           "package": "bindings-gpgme",
@@ -13264,6 +14471,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_new_signature'timestamp",
           "normalized": "Ptr C'_gpgme_new_signature-\u003ePtr CLong",
@@ -13278,6 +14486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_new_signature'type",
           "package": "bindings-gpgme",
@@ -13287,6 +14496,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_new_signature'type",
           "normalized": "Ptr C'_gpgme_new_signature-\u003ePtr C'gpgme_sig_mode_t",
@@ -13301,6 +14511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_decrypt_result'file_name",
           "package": "bindings-gpgme",
@@ -13310,6 +14521,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_decrypt_result'file_name",
           "normalized": "Ptr C'_gpgme_op_decrypt_result-\u003ePtr CString",
@@ -13324,6 +14536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_decrypt_result'recipients",
           "package": "bindings-gpgme",
@@ -13333,6 +14546,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_decrypt_result'recipients",
           "normalized": "Ptr C'_gpgme_op_decrypt_result-\u003ePtr C'gpgme_recipient_t",
@@ -13347,6 +14561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_decrypt_result'unsupported_algorithm",
           "package": "bindings-gpgme",
@@ -13356,6 +14571,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_decrypt_result'unsupported_algorithm",
           "normalized": "Ptr C'_gpgme_op_decrypt_result-\u003ePtr CString",
@@ -13370,6 +14586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_encrypt_result'invalid_recipients",
           "package": "bindings-gpgme",
@@ -13379,6 +14596,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_encrypt_result'invalid_recipients",
           "normalized": "Ptr C'_gpgme_op_encrypt_result-\u003ePtr C'gpgme_invalid_key_t",
@@ -13393,6 +14611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_genkey_result'fpr",
           "package": "bindings-gpgme",
@@ -13402,6 +14621,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_genkey_result'fpr",
           "normalized": "Ptr C'_gpgme_op_genkey_result-\u003ePtr CString",
@@ -13416,6 +14636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'considered",
           "package": "bindings-gpgme",
@@ -13425,6 +14646,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'considered",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr CInt",
@@ -13439,6 +14661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'imported",
           "package": "bindings-gpgme",
@@ -13448,6 +14671,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'imported",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr CInt",
@@ -13462,6 +14686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'imported_rsa",
           "package": "bindings-gpgme",
@@ -13471,6 +14696,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'imported_rsa",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr CInt",
@@ -13485,6 +14711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'imports",
           "package": "bindings-gpgme",
@@ -13494,6 +14721,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'imports",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr C'gpgme_import_status_t",
@@ -13508,6 +14736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'new_revocations",
           "package": "bindings-gpgme",
@@ -13517,6 +14746,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'new_revocations",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr CInt",
@@ -13531,6 +14761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'new_signatures",
           "package": "bindings-gpgme",
@@ -13540,6 +14771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'new_signatures",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr CInt",
@@ -13554,6 +14786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'new_sub_keys",
           "package": "bindings-gpgme",
@@ -13563,6 +14796,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'new_sub_keys",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr CInt",
@@ -13577,6 +14811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'new_user_ids",
           "package": "bindings-gpgme",
@@ -13586,6 +14821,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'new_user_ids",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr CInt",
@@ -13600,6 +14836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'no_user_id",
           "package": "bindings-gpgme",
@@ -13609,6 +14846,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'no_user_id",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr CInt",
@@ -13623,6 +14861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'not_imported",
           "package": "bindings-gpgme",
@@ -13632,6 +14871,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'not_imported",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr CInt",
@@ -13646,6 +14886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'secret_imported",
           "package": "bindings-gpgme",
@@ -13655,6 +14896,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'secret_imported",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr CInt",
@@ -13669,6 +14911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'secret_read",
           "package": "bindings-gpgme",
@@ -13678,6 +14921,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'secret_read",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr CInt",
@@ -13692,6 +14936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'secret_unchanged",
           "package": "bindings-gpgme",
@@ -13701,6 +14946,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'secret_unchanged",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr CInt",
@@ -13715,6 +14961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'skipped_new_keys",
           "package": "bindings-gpgme",
@@ -13724,6 +14971,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'skipped_new_keys",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr CInt",
@@ -13738,6 +14986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'unchanged",
           "package": "bindings-gpgme",
@@ -13747,6 +14996,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_import_result'unchanged",
           "normalized": "Ptr C'_gpgme_op_import_result-\u003ePtr CInt",
@@ -13761,6 +15011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_sign_result'invalid_signers",
           "package": "bindings-gpgme",
@@ -13770,6 +15021,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_sign_result'invalid_signers",
           "normalized": "Ptr C'_gpgme_op_sign_result-\u003ePtr C'gpgme_invalid_key_t",
@@ -13784,6 +15036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_sign_result'signatures",
           "package": "bindings-gpgme",
@@ -13793,6 +15046,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_sign_result'signatures",
           "normalized": "Ptr C'_gpgme_op_sign_result-\u003ePtr C'gpgme_new_signature_t",
@@ -13807,6 +15061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_verify_result'file_name",
           "package": "bindings-gpgme",
@@ -13816,6 +15071,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_verify_result'file_name",
           "normalized": "Ptr C'_gpgme_op_verify_result-\u003ePtr CString",
@@ -13830,6 +15086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_verify_result'signatures",
           "package": "bindings-gpgme",
@@ -13839,6 +15096,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_op_verify_result'signatures",
           "normalized": "Ptr C'_gpgme_op_verify_result-\u003ePtr C'gpgme_signature_t",
@@ -13853,6 +15111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_recipient'keyid",
           "package": "bindings-gpgme",
@@ -13862,6 +15121,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_recipient'keyid",
           "normalized": "Ptr C'_gpgme_recipient-\u003ePtr CString",
@@ -13876,6 +15136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_recipient'next",
           "package": "bindings-gpgme",
@@ -13885,6 +15146,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_recipient'next",
           "normalized": "Ptr C'_gpgme_recipient-\u003ePtr(Ptr C'_gpgme_recipient)",
@@ -13899,6 +15161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_recipient'pubkey_algo",
           "package": "bindings-gpgme",
@@ -13908,6 +15171,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_recipient'pubkey_algo",
           "normalized": "Ptr C'_gpgme_recipient-\u003ePtr C'gpgme_pubkey_algo_t",
@@ -13922,6 +15186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_recipient'status",
           "package": "bindings-gpgme",
@@ -13931,6 +15196,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_recipient'status",
           "normalized": "Ptr C'_gpgme_recipient-\u003ePtr C'gpgme_error_t",
@@ -13945,6 +15211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_sig_notation'flags",
           "package": "bindings-gpgme",
@@ -13954,6 +15221,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_sig_notation'flags",
           "normalized": "Ptr C'_gpgme_sig_notation-\u003ePtr C'gpgme_sig_notation_flags_t",
@@ -13968,6 +15236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_sig_notation'name",
           "package": "bindings-gpgme",
@@ -13977,6 +15246,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_sig_notation'name",
           "normalized": "Ptr C'_gpgme_sig_notation-\u003ePtr CString",
@@ -13991,6 +15261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_sig_notation'name_len",
           "package": "bindings-gpgme",
@@ -14000,6 +15271,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_sig_notation'name_len",
           "normalized": "Ptr C'_gpgme_sig_notation-\u003ePtr CInt",
@@ -14014,6 +15286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_sig_notation'next",
           "package": "bindings-gpgme",
@@ -14023,6 +15296,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_sig_notation'next",
           "normalized": "Ptr C'_gpgme_sig_notation-\u003ePtr(Ptr C'_gpgme_sig_notation)",
@@ -14037,6 +15311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_sig_notation'value",
           "package": "bindings-gpgme",
@@ -14046,6 +15321,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_sig_notation'value",
           "normalized": "Ptr C'_gpgme_sig_notation-\u003ePtr CString",
@@ -14060,6 +15336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_sig_notation'value_len",
           "package": "bindings-gpgme",
@@ -14069,6 +15346,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_sig_notation'value_len",
           "normalized": "Ptr C'_gpgme_sig_notation-\u003ePtr CInt",
@@ -14083,6 +15361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'exp_timestamp",
           "package": "bindings-gpgme",
@@ -14092,6 +15371,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'exp_timestamp",
           "normalized": "Ptr C'_gpgme_signature-\u003ePtr CULong",
@@ -14106,6 +15386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'fpr",
           "package": "bindings-gpgme",
@@ -14115,6 +15396,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'fpr",
           "normalized": "Ptr C'_gpgme_signature-\u003ePtr CString",
@@ -14129,6 +15411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'hash_algo",
           "package": "bindings-gpgme",
@@ -14138,6 +15421,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'hash_algo",
           "normalized": "Ptr C'_gpgme_signature-\u003ePtr C'gpgme_hash_algo_t",
@@ -14152,6 +15436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'next",
           "package": "bindings-gpgme",
@@ -14161,6 +15446,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'next",
           "normalized": "Ptr C'_gpgme_signature-\u003ePtr(Ptr C'_gpgme_signature)",
@@ -14175,6 +15461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'notations",
           "package": "bindings-gpgme",
@@ -14184,6 +15471,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'notations",
           "normalized": "Ptr C'_gpgme_signature-\u003ePtr C'gpgme_sig_notation_t",
@@ -14198,6 +15486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'pka_address",
           "package": "bindings-gpgme",
@@ -14207,6 +15496,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'pka_address",
           "normalized": "Ptr C'_gpgme_signature-\u003ePtr CString",
@@ -14221,6 +15511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'pubkey_algo",
           "package": "bindings-gpgme",
@@ -14230,6 +15521,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'pubkey_algo",
           "normalized": "Ptr C'_gpgme_signature-\u003ePtr C'gpgme_pubkey_algo_t",
@@ -14244,6 +15536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'status",
           "package": "bindings-gpgme",
@@ -14253,6 +15546,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'status",
           "normalized": "Ptr C'_gpgme_signature-\u003ePtr C'gpgme_error_t",
@@ -14267,6 +15561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'summary",
           "package": "bindings-gpgme",
@@ -14276,6 +15571,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'summary",
           "normalized": "Ptr C'_gpgme_signature-\u003ePtr C'gpgme_sigsum_t",
@@ -14290,6 +15586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'timestamp",
           "package": "bindings-gpgme",
@@ -14299,6 +15596,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'timestamp",
           "normalized": "Ptr C'_gpgme_signature-\u003ePtr CULong",
@@ -14313,6 +15611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'validity",
           "package": "bindings-gpgme",
@@ -14322,6 +15621,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'validity",
           "normalized": "Ptr C'_gpgme_signature-\u003ePtr C'gpgme_validity_t",
@@ -14336,6 +15636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'validity_reason",
           "package": "bindings-gpgme",
@@ -14345,6 +15646,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_signature'validity_reason",
           "normalized": "Ptr C'_gpgme_signature-\u003ePtr C'gpgme_error_t",
@@ -14359,6 +15661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'card_number",
           "package": "bindings-gpgme",
@@ -14368,6 +15671,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'card_number",
           "normalized": "Ptr C'_gpgme_subkey-\u003ePtr CString",
@@ -14382,6 +15686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'expires",
           "package": "bindings-gpgme",
@@ -14391,6 +15696,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'expires",
           "normalized": "Ptr C'_gpgme_subkey-\u003ePtr CLong",
@@ -14405,6 +15711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'fpr",
           "package": "bindings-gpgme",
@@ -14414,6 +15721,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'fpr",
           "normalized": "Ptr C'_gpgme_subkey-\u003ePtr CString",
@@ -14428,6 +15736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'keyid",
           "package": "bindings-gpgme",
@@ -14437,6 +15746,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'keyid",
           "normalized": "Ptr C'_gpgme_subkey-\u003ePtr CString",
@@ -14451,6 +15761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'length",
           "package": "bindings-gpgme",
@@ -14460,6 +15771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'length",
           "normalized": "Ptr C'_gpgme_subkey-\u003ePtr CUInt",
@@ -14474,6 +15786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'next",
           "package": "bindings-gpgme",
@@ -14483,6 +15796,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'next",
           "normalized": "Ptr C'_gpgme_subkey-\u003ePtr(Ptr C'_gpgme_subkey)",
@@ -14497,6 +15811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'pubkey_algo",
           "package": "bindings-gpgme",
@@ -14506,6 +15821,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'pubkey_algo",
           "normalized": "Ptr C'_gpgme_subkey-\u003ePtr C'gpgme_pubkey_algo_t",
@@ -14520,6 +15836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'timestamp",
           "package": "bindings-gpgme",
@@ -14529,6 +15846,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_subkey'timestamp",
           "normalized": "Ptr C'_gpgme_subkey-\u003ePtr CLong",
@@ -14543,6 +15861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_trust_item'keyid",
           "package": "bindings-gpgme",
@@ -14552,6 +15871,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_trust_item'keyid",
           "normalized": "Ptr C'_gpgme_trust_item-\u003ePtr CString",
@@ -14566,6 +15886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_trust_item'level",
           "package": "bindings-gpgme",
@@ -14575,6 +15896,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_trust_item'level",
           "normalized": "Ptr C'_gpgme_trust_item-\u003ePtr CInt",
@@ -14589,6 +15911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_trust_item'name",
           "package": "bindings-gpgme",
@@ -14598,6 +15921,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_trust_item'name",
           "normalized": "Ptr C'_gpgme_trust_item-\u003ePtr CString",
@@ -14612,6 +15936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_trust_item'owner_trust",
           "package": "bindings-gpgme",
@@ -14621,6 +15946,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_trust_item'owner_trust",
           "normalized": "Ptr C'_gpgme_trust_item-\u003ePtr CString",
@@ -14635,6 +15961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_trust_item'type",
           "package": "bindings-gpgme",
@@ -14644,6 +15971,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_trust_item'type",
           "normalized": "Ptr C'_gpgme_trust_item-\u003ePtr CInt",
@@ -14658,6 +15986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_trust_item'validity",
           "package": "bindings-gpgme",
@@ -14667,6 +15996,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_trust_item'validity",
           "normalized": "Ptr C'_gpgme_trust_item-\u003ePtr CString",
@@ -14681,6 +16011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_user_id'comment",
           "package": "bindings-gpgme",
@@ -14690,6 +16021,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_user_id'comment",
           "normalized": "Ptr C'_gpgme_user_id-\u003ePtr CString",
@@ -14704,6 +16036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_user_id'email",
           "package": "bindings-gpgme",
@@ -14713,6 +16046,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_user_id'email",
           "normalized": "Ptr C'_gpgme_user_id-\u003ePtr CString",
@@ -14727,6 +16061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_user_id'name",
           "package": "bindings-gpgme",
@@ -14736,6 +16071,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_user_id'name",
           "normalized": "Ptr C'_gpgme_user_id-\u003ePtr CString",
@@ -14750,6 +16086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_user_id'next",
           "package": "bindings-gpgme",
@@ -14759,6 +16096,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_user_id'next",
           "normalized": "Ptr C'_gpgme_user_id-\u003ePtr(Ptr C'_gpgme_user_id)",
@@ -14773,6 +16111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_user_id'signatures",
           "package": "bindings-gpgme",
@@ -14782,6 +16121,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_user_id'signatures",
           "normalized": "Ptr C'_gpgme_user_id-\u003ePtr C'gpgme_key_sig_t",
@@ -14796,6 +16136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_user_id'uid",
           "package": "bindings-gpgme",
@@ -14805,6 +16146,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_user_id'uid",
           "normalized": "Ptr C'_gpgme_user_id-\u003ePtr CString",
@@ -14819,6 +16161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_user_id'validity",
           "package": "bindings-gpgme",
@@ -14828,6 +16171,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'_gpgme_user_id'validity",
           "normalized": "Ptr C'_gpgme_user_id-\u003ePtr C'gpgme_validity_t",
@@ -14842,6 +16186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_cancel",
           "package": "bindings-gpgme",
@@ -14851,6 +16196,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_cancel",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_error_t)",
@@ -14865,6 +16211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_cancel_async",
           "package": "bindings-gpgme",
@@ -14874,6 +16221,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_cancel_async",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_error_t)",
@@ -14888,6 +16236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_check_version",
           "package": "bindings-gpgme",
@@ -14897,6 +16246,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_check_version",
           "normalized": "FunPtr(CString-\u003eIO CString)",
@@ -14911,6 +16261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg'next",
           "package": "bindings-gpgme",
@@ -14920,6 +16271,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg'next",
           "normalized": "Ptr C'gpgme_conf_arg-\u003ePtr(Ptr C'gpgme_conf_arg)",
@@ -14934,6 +16286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg'no_arg",
           "package": "bindings-gpgme",
@@ -14943,6 +16296,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg'no_arg",
           "normalized": "Ptr C'gpgme_conf_arg-\u003ePtr CUInt",
@@ -14957,6 +16311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg'value'count",
           "package": "bindings-gpgme",
@@ -14966,6 +16321,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg'value'count",
           "normalized": "Ptr C'gpgme_conf_arg-\u003ePtr CUInt",
@@ -14980,6 +16336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg'value'int32",
           "package": "bindings-gpgme",
@@ -14989,6 +16346,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg'value'int32",
           "normalized": "Ptr C'gpgme_conf_arg-\u003ePtr CInt",
@@ -15003,6 +16361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg'value'string",
           "package": "bindings-gpgme",
@@ -15012,6 +16371,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg'value'string",
           "normalized": "Ptr C'gpgme_conf_arg-\u003ePtr CString",
@@ -15026,6 +16386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg'value'uint32",
           "package": "bindings-gpgme",
@@ -15035,6 +16396,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg'value'uint32",
           "normalized": "Ptr C'gpgme_conf_arg-\u003ePtr CUInt",
@@ -15049,6 +16411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg_new",
           "package": "bindings-gpgme",
@@ -15058,6 +16421,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg_new",
           "normalized": "FunPtr(Ptr C'gpgme_conf_arg_t-\u003eC'gpgme_conf_type_t-\u003ePtr()-\u003eIO C'gpgme_error_t)",
@@ -15072,6 +16436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg_release",
           "package": "bindings-gpgme",
@@ -15081,6 +16446,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_arg_release",
           "normalized": "FunPtr(C'gpgme_conf_arg_t-\u003eC'gpgme_conf_type_t-\u003eIO())",
@@ -15095,6 +16461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_comp'description",
           "package": "bindings-gpgme",
@@ -15104,6 +16471,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_comp'description",
           "normalized": "Ptr C'gpgme_conf_comp-\u003ePtr CString",
@@ -15118,6 +16486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_comp'name",
           "package": "bindings-gpgme",
@@ -15127,6 +16496,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_comp'name",
           "normalized": "Ptr C'gpgme_conf_comp-\u003ePtr CString",
@@ -15141,6 +16511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_comp'next",
           "package": "bindings-gpgme",
@@ -15150,6 +16521,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_comp'next",
           "normalized": "Ptr C'gpgme_conf_comp-\u003ePtr(Ptr C'gpgme_conf_comp)",
@@ -15164,6 +16536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_comp'options",
           "package": "bindings-gpgme",
@@ -15173,6 +16546,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_comp'options",
           "normalized": "Ptr C'gpgme_conf_comp-\u003ePtr(Ptr C'gpgme_conf_opt)",
@@ -15187,6 +16561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_comp'program_name",
           "package": "bindings-gpgme",
@@ -15196,6 +16571,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_comp'program_name",
           "normalized": "Ptr C'gpgme_conf_comp-\u003ePtr CString",
@@ -15210,6 +16586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'alt_type",
           "package": "bindings-gpgme",
@@ -15219,6 +16596,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'alt_type",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr C'gpgme_conf_type_t",
@@ -15233,6 +16611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'argname",
           "package": "bindings-gpgme",
@@ -15242,6 +16621,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'argname",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr CString",
@@ -15256,6 +16636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'change_value",
           "package": "bindings-gpgme",
@@ -15265,6 +16646,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'change_value",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr CInt",
@@ -15279,6 +16661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'default_description",
           "package": "bindings-gpgme",
@@ -15288,6 +16671,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'default_description",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr CString",
@@ -15302,6 +16686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'default_value",
           "package": "bindings-gpgme",
@@ -15311,6 +16696,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'default_value",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr C'gpgme_conf_arg_t",
@@ -15325,6 +16711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'description",
           "package": "bindings-gpgme",
@@ -15334,6 +16721,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'description",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr CString",
@@ -15348,6 +16736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'flags",
           "package": "bindings-gpgme",
@@ -15357,6 +16746,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'flags",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr CUInt",
@@ -15371,6 +16761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'level",
           "package": "bindings-gpgme",
@@ -15380,6 +16771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'level",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr C'gpgme_conf_level_t",
@@ -15394,6 +16786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'name",
           "package": "bindings-gpgme",
@@ -15403,6 +16796,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'name",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr CString",
@@ -15417,6 +16811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'new_value",
           "package": "bindings-gpgme",
@@ -15426,6 +16821,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'new_value",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr C'gpgme_conf_arg_t",
@@ -15440,6 +16836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'next",
           "package": "bindings-gpgme",
@@ -15449,6 +16846,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'next",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr(Ptr C'gpgme_conf_opt)",
@@ -15463,6 +16861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'no_arg_description",
           "package": "bindings-gpgme",
@@ -15472,6 +16871,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'no_arg_description",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr CString",
@@ -15486,6 +16886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'no_arg_value",
           "package": "bindings-gpgme",
@@ -15495,6 +16896,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'no_arg_value",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr C'gpgme_conf_arg_t",
@@ -15509,6 +16911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'type",
           "package": "bindings-gpgme",
@@ -15518,6 +16921,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'type",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr C'gpgme_conf_type_t",
@@ -15532,6 +16936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'user_data",
           "package": "bindings-gpgme",
@@ -15541,6 +16946,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'user_data",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr(Ptr())",
@@ -15555,6 +16961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'value",
           "package": "bindings-gpgme",
@@ -15564,6 +16971,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt'value",
           "normalized": "Ptr C'gpgme_conf_opt-\u003ePtr C'gpgme_conf_arg_t",
@@ -15578,6 +16986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt_change",
           "package": "bindings-gpgme",
@@ -15587,6 +16996,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_opt_change",
           "normalized": "FunPtr(C'gpgme_conf_opt_t-\u003eCInt-\u003eC'gpgme_conf_arg_t-\u003eIO C'gpgme_error_t)",
@@ -15601,6 +17011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_release",
           "package": "bindings-gpgme",
@@ -15610,6 +17021,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_conf_release",
           "normalized": "FunPtr(C'gpgme_conf_comp_t-\u003eIO())",
@@ -15624,6 +17036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_ctx_get_engine_info",
           "package": "bindings-gpgme",
@@ -15633,6 +17046,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_ctx_get_engine_info",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_engine_info_t)",
@@ -15647,6 +17061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_ctx_set_engine_info",
           "package": "bindings-gpgme",
@@ -15656,6 +17071,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_ctx_set_engine_info",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_protocol_t-\u003eCString-\u003eCString-\u003eIO C'gpgme_error_t)",
@@ -15670,6 +17086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_cbs'read",
           "package": "bindings-gpgme",
@@ -15679,6 +17096,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_cbs'read",
           "normalized": "Ptr C'gpgme_data_cbs-\u003ePtr C'gpgme_data_read_cb_t",
@@ -15693,6 +17111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_cbs'release",
           "package": "bindings-gpgme",
@@ -15702,6 +17121,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_cbs'release",
           "normalized": "Ptr C'gpgme_data_cbs-\u003ePtr C'gpgme_data_release_cb_t",
@@ -15716,6 +17136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_cbs'seek",
           "package": "bindings-gpgme",
@@ -15725,6 +17146,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_cbs'seek",
           "normalized": "Ptr C'gpgme_data_cbs-\u003ePtr C'gpgme_data_seek_cb_t",
@@ -15739,6 +17161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_cbs'write",
           "package": "bindings-gpgme",
@@ -15748,6 +17171,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_cbs'write",
           "normalized": "Ptr C'gpgme_data_cbs-\u003ePtr C'gpgme_data_write_cb_t",
@@ -15762,6 +17186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_get_encoding",
           "package": "bindings-gpgme",
@@ -15771,6 +17196,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_get_encoding",
           "normalized": "FunPtr(C'gpgme_data_t-\u003eIO C'gpgme_data_encoding_t)",
@@ -15785,6 +17211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_get_file_name",
           "package": "bindings-gpgme",
@@ -15794,6 +17221,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_get_file_name",
           "normalized": "FunPtr(C'gpgme_data_t-\u003eIO CString)",
@@ -15808,6 +17236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_new",
           "package": "bindings-gpgme",
@@ -15817,6 +17246,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_new",
           "normalized": "FunPtr(Ptr C'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -15831,6 +17261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_new_from_cbs",
           "package": "bindings-gpgme",
@@ -15840,6 +17271,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_new_from_cbs",
           "normalized": "FunPtr(Ptr C'gpgme_data_t-\u003eC'gpgme_data_cbs_t-\u003ePtr()-\u003eIO C'gpgme_error_t)",
@@ -15854,6 +17286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_new_from_fd",
           "package": "bindings-gpgme",
@@ -15863,6 +17296,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_new_from_fd",
           "normalized": "FunPtr(Ptr C'gpgme_data_t-\u003eCInt-\u003eIO C'gpgme_error_t)",
@@ -15877,6 +17311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_new_from_file",
           "package": "bindings-gpgme",
@@ -15886,6 +17321,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_new_from_file",
           "normalized": "FunPtr(Ptr C'gpgme_data_t-\u003eCString-\u003eCInt-\u003eIO C'gpgme_error_t)",
@@ -15900,6 +17336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_new_from_filepart",
           "package": "bindings-gpgme",
@@ -15909,6 +17346,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_new_from_filepart",
           "normalized": "FunPtr(Ptr C'gpgme_data_t-\u003eCString-\u003ePtr CFile-\u003eC'off_t-\u003eCSize-\u003eIO C'gpgme_error_t)",
@@ -15923,6 +17361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_new_from_mem",
           "package": "bindings-gpgme",
@@ -15932,6 +17371,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_new_from_mem",
           "normalized": "FunPtr(Ptr C'gpgme_data_t-\u003eCString-\u003eCSize-\u003eCInt-\u003eIO C'gpgme_error_t)",
@@ -15946,6 +17386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_new_from_stream",
           "package": "bindings-gpgme",
@@ -15955,6 +17396,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_new_from_stream",
           "normalized": "FunPtr(Ptr C'gpgme_data_t-\u003ePtr CFile-\u003eIO C'gpgme_error_t)",
@@ -15969,6 +17411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_read",
           "package": "bindings-gpgme",
@@ -15978,6 +17421,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_read",
           "normalized": "FunPtr(C'gpgme_data_t-\u003ePtr()-\u003eCSize-\u003eIO C'ssize_t)",
@@ -15992,6 +17436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_release",
           "package": "bindings-gpgme",
@@ -16001,6 +17446,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_release",
           "normalized": "FunPtr(C'gpgme_data_t-\u003eIO())",
@@ -16015,6 +17461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_release_and_get_mem",
           "package": "bindings-gpgme",
@@ -16024,6 +17471,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_release_and_get_mem",
           "normalized": "FunPtr(C'gpgme_data_t-\u003ePtr CSize-\u003eIO CString)",
@@ -16038,6 +17486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_seek",
           "package": "bindings-gpgme",
@@ -16047,6 +17496,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_seek",
           "normalized": "FunPtr(C'gpgme_data_t-\u003eC'off_t-\u003eCInt-\u003eIO C'off_t)",
@@ -16061,6 +17511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_set_encoding",
           "package": "bindings-gpgme",
@@ -16070,6 +17521,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_set_encoding",
           "normalized": "FunPtr(C'gpgme_data_t-\u003eC'gpgme_data_encoding_t-\u003eIO C'gpgme_error_t)",
@@ -16084,6 +17536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_set_file_name",
           "package": "bindings-gpgme",
@@ -16093,6 +17546,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_set_file_name",
           "normalized": "FunPtr(C'gpgme_data_t-\u003eCString-\u003eIO C'gpgme_error_t)",
@@ -16107,6 +17561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_write",
           "package": "bindings-gpgme",
@@ -16116,6 +17571,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_data_write",
           "normalized": "FunPtr(C'gpgme_data_t-\u003ePtr()-\u003eCSize-\u003eIO C'ssize_t)",
@@ -16130,6 +17586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_engine_check_version",
           "package": "bindings-gpgme",
@@ -16139,6 +17596,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_engine_check_version",
           "normalized": "FunPtr(C'gpgme_protocol_t-\u003eIO C'gpgme_error_t)",
@@ -16153,6 +17611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_err_code_from_errno",
           "package": "bindings-gpgme",
@@ -16162,6 +17621,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_err_code_from_errno",
           "normalized": "FunPtr(CInt-\u003eIO C'gpgme_err_code_t)",
@@ -16176,6 +17636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_err_code_to_errno",
           "package": "bindings-gpgme",
@@ -16185,6 +17646,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_err_code_to_errno",
           "normalized": "FunPtr(C'gpgme_err_code_t-\u003eIO CInt)",
@@ -16199,6 +17661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_err_make_from_errno",
           "package": "bindings-gpgme",
@@ -16208,6 +17671,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_err_make_from_errno",
           "normalized": "FunPtr(C'gpgme_err_source_t-\u003eCInt-\u003eIO C'gpgme_error_t)",
@@ -16222,6 +17686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_error_from_errno",
           "package": "bindings-gpgme",
@@ -16231,6 +17696,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_error_from_errno",
           "normalized": "FunPtr(CInt-\u003eIO C'gpgme_err_code_t)",
@@ -16245,6 +17711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_free",
           "package": "bindings-gpgme",
@@ -16254,6 +17721,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_free",
           "normalized": "FunPtr(Ptr()-\u003eIO())",
@@ -16268,6 +17736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_armor",
           "package": "bindings-gpgme",
@@ -16277,6 +17746,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_armor",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO CInt)",
@@ -16291,6 +17761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_engine_info",
           "package": "bindings-gpgme",
@@ -16300,6 +17771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_engine_info",
           "normalized": "FunPtr(Ptr C'gpgme_engine_info_t-\u003eIO C'gpgme_error_t)",
@@ -16314,6 +17786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_include_certs",
           "package": "bindings-gpgme",
@@ -16323,6 +17796,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_include_certs",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO CInt)",
@@ -16337,6 +17811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_io_cbs",
           "package": "bindings-gpgme",
@@ -16346,6 +17821,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_io_cbs",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_io_cbs_t-\u003eIO())",
@@ -16360,6 +17836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_key",
           "package": "bindings-gpgme",
@@ -16369,6 +17846,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_key",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eCString-\u003ePtr C'gpgme_key_t-\u003eCInt-\u003eIO C'gpgme_error_t)",
@@ -16383,6 +17861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_keylist_mode",
           "package": "bindings-gpgme",
@@ -16392,6 +17871,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_keylist_mode",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_keylist_mode_t)",
@@ -16406,6 +17886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_passphrase_cb",
           "package": "bindings-gpgme",
@@ -16415,6 +17896,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_passphrase_cb",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003ePtr C'gpgme_passphrase_cb_t-\u003ePtr(Ptr())-\u003eIO())",
@@ -16429,6 +17911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_progress_cb",
           "package": "bindings-gpgme",
@@ -16438,6 +17921,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_progress_cb",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003ePtr C'gpgme_progress_cb_t-\u003ePtr(Ptr())-\u003eIO())",
@@ -16452,6 +17936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_protocol",
           "package": "bindings-gpgme",
@@ -16461,6 +17946,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_protocol",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_protocol_t)",
@@ -16475,6 +17961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_protocol_name",
           "package": "bindings-gpgme",
@@ -16484,6 +17971,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_protocol_name",
           "normalized": "FunPtr(C'gpgme_protocol_t-\u003eIO CString)",
@@ -16498,6 +17986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_textmode",
           "package": "bindings-gpgme",
@@ -16507,6 +17996,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_get_textmode",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO CInt)",
@@ -16521,6 +18011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_hash_algo_name",
           "package": "bindings-gpgme",
@@ -16530,6 +18021,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_hash_algo_name",
           "normalized": "FunPtr(C'gpgme_hash_algo_t-\u003eIO CString)",
@@ -16544,6 +18036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_io_cbs'add",
           "package": "bindings-gpgme",
@@ -16553,6 +18046,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_io_cbs'add",
           "normalized": "Ptr C'gpgme_io_cbs-\u003ePtr C'gpgme_register_io_cb_t",
@@ -16567,6 +18061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_io_cbs'add_priv",
           "package": "bindings-gpgme",
@@ -16576,6 +18071,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_io_cbs'add_priv",
           "normalized": "Ptr C'gpgme_io_cbs-\u003ePtr(Ptr())",
@@ -16590,6 +18086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_io_cbs'event",
           "package": "bindings-gpgme",
@@ -16599,6 +18096,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_io_cbs'event",
           "normalized": "Ptr C'gpgme_io_cbs-\u003ePtr C'gpgme_event_io_cb_t",
@@ -16613,6 +18111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_io_cbs'event_priv",
           "package": "bindings-gpgme",
@@ -16622,6 +18121,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_io_cbs'event_priv",
           "normalized": "Ptr C'gpgme_io_cbs-\u003ePtr(Ptr())",
@@ -16636,6 +18136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_io_cbs'remove",
           "package": "bindings-gpgme",
@@ -16645,6 +18146,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_io_cbs'remove",
           "normalized": "Ptr C'gpgme_io_cbs-\u003ePtr C'gpgme_remove_io_cb_t",
@@ -16659,6 +18161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_key_ref",
           "package": "bindings-gpgme",
@@ -16668,6 +18171,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_key_ref",
           "normalized": "FunPtr(C'gpgme_key_t-\u003eIO())",
@@ -16682,6 +18186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_key_release",
           "package": "bindings-gpgme",
@@ -16691,6 +18196,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_key_release",
           "normalized": "FunPtr(C'gpgme_key_t-\u003eIO())",
@@ -16705,6 +18211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_key_unref",
           "package": "bindings-gpgme",
@@ -16714,6 +18221,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_key_unref",
           "normalized": "FunPtr(C'gpgme_key_t-\u003eIO())",
@@ -16728,6 +18236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_new",
           "package": "bindings-gpgme",
@@ -16737,6 +18246,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_new",
           "normalized": "FunPtr(Ptr C'gpgme_ctx_t-\u003eIO C'gpgme_error_t)",
@@ -16751,6 +18261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_card_edit",
           "package": "bindings-gpgme",
@@ -16760,6 +18271,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_card_edit",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_key_t-\u003eC'gpgme_edit_cb_t-\u003ePtr()-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -16774,6 +18286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_card_edit_start",
           "package": "bindings-gpgme",
@@ -16783,6 +18296,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_card_edit_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_key_t-\u003eC'gpgme_edit_cb_t-\u003ePtr()-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -16797,6 +18311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_conf_load",
           "package": "bindings-gpgme",
@@ -16806,6 +18321,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_conf_load",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003ePtr C'gpgme_conf_comp_t-\u003eIO C'gpgme_error_t)",
@@ -16820,6 +18336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_conf_save",
           "package": "bindings-gpgme",
@@ -16829,6 +18346,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_conf_save",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_conf_comp_t-\u003eIO C'gpgme_error_t)",
@@ -16843,6 +18361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_decrypt",
           "package": "bindings-gpgme",
@@ -16852,6 +18371,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_decrypt",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -16866,6 +18386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_decrypt_result",
           "package": "bindings-gpgme",
@@ -16875,6 +18396,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_decrypt_result",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_decrypt_result_t)",
@@ -16889,6 +18411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_decrypt_start",
           "package": "bindings-gpgme",
@@ -16898,6 +18421,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_decrypt_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -16912,6 +18436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_decrypt_verify",
           "package": "bindings-gpgme",
@@ -16921,6 +18446,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_decrypt_verify",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -16935,6 +18461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_decrypt_verify_start",
           "package": "bindings-gpgme",
@@ -16944,6 +18471,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_decrypt_verify_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -16958,6 +18486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_delete",
           "package": "bindings-gpgme",
@@ -16967,6 +18496,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_delete",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_key_t-\u003eCInt-\u003eIO C'gpgme_error_t)",
@@ -16981,6 +18511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_delete_start",
           "package": "bindings-gpgme",
@@ -16990,6 +18521,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_delete_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_key_t-\u003eCInt-\u003eIO C'gpgme_error_t)",
@@ -17004,6 +18536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_edit",
           "package": "bindings-gpgme",
@@ -17013,6 +18546,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_edit",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_key_t-\u003eC'gpgme_edit_cb_t-\u003ePtr()-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17027,6 +18561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_edit_start",
           "package": "bindings-gpgme",
@@ -17036,6 +18571,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_edit_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_key_t-\u003eC'gpgme_edit_cb_t-\u003ePtr()-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17050,6 +18586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_encrypt",
           "package": "bindings-gpgme",
@@ -17059,6 +18596,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_encrypt",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003ePtr C'gpgme_key_t-\u003eC'gpgme_encrypt_flags_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17073,6 +18611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_encrypt_result",
           "package": "bindings-gpgme",
@@ -17082,6 +18621,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_encrypt_result",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_encrypt_result_t)",
@@ -17096,6 +18636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_encrypt_sign",
           "package": "bindings-gpgme",
@@ -17105,6 +18646,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_encrypt_sign",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003ePtr C'gpgme_key_t-\u003eC'gpgme_encrypt_flags_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17119,6 +18661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_encrypt_sign_start",
           "package": "bindings-gpgme",
@@ -17128,6 +18671,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_encrypt_sign_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003ePtr C'gpgme_key_t-\u003eC'gpgme_encrypt_flags_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17142,6 +18686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_encrypt_start",
           "package": "bindings-gpgme",
@@ -17151,6 +18696,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_encrypt_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003ePtr C'gpgme_key_t-\u003eC'gpgme_encrypt_flags_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17165,6 +18711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_export",
           "package": "bindings-gpgme",
@@ -17174,6 +18721,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_export",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eCString-\u003eCUInt-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17188,6 +18736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_export_ext",
           "package": "bindings-gpgme",
@@ -17197,6 +18746,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_export_ext",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003ePtr CString-\u003eCUInt-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17211,6 +18761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_export_ext_start",
           "package": "bindings-gpgme",
@@ -17220,6 +18771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_export_ext_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003ePtr CString-\u003eCUInt-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17234,6 +18786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_export_start",
           "package": "bindings-gpgme",
@@ -17243,6 +18796,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_export_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eCString-\u003eCUInt-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17257,6 +18811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_genkey",
           "package": "bindings-gpgme",
@@ -17266,6 +18821,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_genkey",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eCString-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17280,6 +18836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_genkey_result",
           "package": "bindings-gpgme",
@@ -17289,6 +18846,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_genkey_result",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_genkey_result_t)",
@@ -17303,6 +18861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_genkey_start",
           "package": "bindings-gpgme",
@@ -17312,6 +18871,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_genkey_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eCString-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17326,6 +18886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_getauditlog",
           "package": "bindings-gpgme",
@@ -17335,6 +18896,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_getauditlog",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eCUInt-\u003eIO C'gpgme_error_t)",
@@ -17349,6 +18911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_getauditlog_start",
           "package": "bindings-gpgme",
@@ -17358,6 +18921,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_getauditlog_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eCUInt-\u003eIO C'gpgme_error_t)",
@@ -17372,6 +18936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_import",
           "package": "bindings-gpgme",
@@ -17381,6 +18946,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_import",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17395,6 +18961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_import_result",
           "package": "bindings-gpgme",
@@ -17404,6 +18971,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_import_result",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_import_result_t)",
@@ -17418,6 +18986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_import_start",
           "package": "bindings-gpgme",
@@ -17427,6 +18996,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_import_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17441,6 +19011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_keylist_end",
           "package": "bindings-gpgme",
@@ -17450,6 +19021,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_keylist_end",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_error_t)",
@@ -17464,6 +19036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_keylist_ext_start",
           "package": "bindings-gpgme",
@@ -17473,6 +19046,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_keylist_ext_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003ePtr CString-\u003eCInt-\u003eCInt-\u003eIO C'gpgme_error_t)",
@@ -17487,6 +19061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_keylist_next",
           "package": "bindings-gpgme",
@@ -17496,6 +19071,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_keylist_next",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003ePtr C'gpgme_key_t-\u003eIO C'gpgme_error_t)",
@@ -17510,6 +19086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_keylist_result",
           "package": "bindings-gpgme",
@@ -17519,6 +19096,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_keylist_result",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_keylist_result_t)",
@@ -17533,6 +19111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_keylist_start",
           "package": "bindings-gpgme",
@@ -17542,6 +19121,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_keylist_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eCString-\u003eCInt-\u003eIO C'gpgme_error_t)",
@@ -17556,6 +19136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_sign",
           "package": "bindings-gpgme",
@@ -17565,6 +19146,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_sign",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eC'gpgme_sig_mode_t-\u003eIO C'gpgme_error_t)",
@@ -17579,6 +19161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_sign_result",
           "package": "bindings-gpgme",
@@ -17588,6 +19171,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_sign_result",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_sign_result_t)",
@@ -17602,6 +19186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_sign_start",
           "package": "bindings-gpgme",
@@ -17611,6 +19196,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_sign_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eC'gpgme_sig_mode_t-\u003eIO C'gpgme_error_t)",
@@ -17625,6 +19211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_trustlist_end",
           "package": "bindings-gpgme",
@@ -17634,6 +19221,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_trustlist_end",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_error_t)",
@@ -17648,6 +19236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_trustlist_next",
           "package": "bindings-gpgme",
@@ -17657,6 +19246,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_trustlist_next",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003ePtr C'gpgme_trust_item_t-\u003eIO C'gpgme_error_t)",
@@ -17671,6 +19261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_trustlist_start",
           "package": "bindings-gpgme",
@@ -17680,6 +19271,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_trustlist_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eCString-\u003eCInt-\u003eIO C'gpgme_error_t)",
@@ -17694,6 +19286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_verify",
           "package": "bindings-gpgme",
@@ -17703,6 +19296,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_verify",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17717,6 +19311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_verify_result",
           "package": "bindings-gpgme",
@@ -17726,6 +19321,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_verify_result",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_verify_result_t)",
@@ -17740,6 +19336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_verify_start",
           "package": "bindings-gpgme",
@@ -17749,6 +19346,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_op_verify_start",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eC'gpgme_data_t-\u003eIO C'gpgme_error_t)",
@@ -17763,6 +19361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_pubkey_algo_name",
           "package": "bindings-gpgme",
@@ -17772,6 +19371,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_pubkey_algo_name",
           "normalized": "FunPtr(C'gpgme_pubkey_algo_t-\u003eIO CString)",
@@ -17786,6 +19386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_release",
           "package": "bindings-gpgme",
@@ -17795,6 +19396,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_release",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO())",
@@ -17809,6 +19411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_armor",
           "package": "bindings-gpgme",
@@ -17818,6 +19421,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_armor",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eCInt-\u003eIO())",
@@ -17832,6 +19436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_engine_info",
           "package": "bindings-gpgme",
@@ -17841,6 +19446,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_engine_info",
           "normalized": "FunPtr(C'gpgme_protocol_t-\u003eCString-\u003eCString-\u003eIO C'gpgme_error_t)",
@@ -17855,6 +19461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_include_certs",
           "package": "bindings-gpgme",
@@ -17864,6 +19471,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_include_certs",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eCInt-\u003eIO())",
@@ -17878,6 +19486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_io_cbs",
           "package": "bindings-gpgme",
@@ -17887,6 +19496,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_io_cbs",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_io_cbs_t-\u003eIO())",
@@ -17901,6 +19511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_keylist_mode",
           "package": "bindings-gpgme",
@@ -17910,6 +19521,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_keylist_mode",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_keylist_mode_t-\u003eIO C'gpgme_error_t)",
@@ -17924,6 +19536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_locale",
           "package": "bindings-gpgme",
@@ -17933,6 +19546,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_locale",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eCInt-\u003eCString-\u003eIO C'gpgme_error_t)",
@@ -17947,6 +19561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_passphrase_cb",
           "package": "bindings-gpgme",
@@ -17956,6 +19571,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_passphrase_cb",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_passphrase_cb_t-\u003ePtr()-\u003eIO())",
@@ -17970,6 +19586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_progress_cb",
           "package": "bindings-gpgme",
@@ -17979,6 +19596,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_progress_cb",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_progress_cb_t-\u003ePtr()-\u003eIO())",
@@ -17993,6 +19611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_protocol",
           "package": "bindings-gpgme",
@@ -18002,6 +19621,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_protocol",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_protocol_t-\u003eIO C'gpgme_error_t)",
@@ -18016,6 +19636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_textmode",
           "package": "bindings-gpgme",
@@ -18025,6 +19646,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_set_textmode",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eCInt-\u003eIO())",
@@ -18039,6 +19661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_sig_notation_add",
           "package": "bindings-gpgme",
@@ -18048,6 +19671,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_sig_notation_add",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eCString-\u003eCString-\u003eC'gpgme_sig_notation_flags_t-\u003eIO C'gpgme_error_t)",
@@ -18062,6 +19686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_sig_notation_clear",
           "package": "bindings-gpgme",
@@ -18071,6 +19696,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_sig_notation_clear",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO())",
@@ -18085,6 +19711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_sig_notation_get",
           "package": "bindings-gpgme",
@@ -18094,6 +19721,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_sig_notation_get",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO C'gpgme_sig_notation_t)",
@@ -18108,6 +19736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_signers_add",
           "package": "bindings-gpgme",
@@ -18117,6 +19746,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_signers_add",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eC'gpgme_key_t-\u003eIO C'gpgme_error_t)",
@@ -18131,6 +19761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_signers_clear",
           "package": "bindings-gpgme",
@@ -18140,6 +19771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_signers_clear",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eIO())",
@@ -18154,6 +19786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_signers_enum",
           "package": "bindings-gpgme",
@@ -18163,6 +19796,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_signers_enum",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003eCInt-\u003eIO C'gpgme_key_t)",
@@ -18177,6 +19811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_strerror",
           "package": "bindings-gpgme",
@@ -18186,6 +19821,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_strerror",
           "normalized": "FunPtr(C'gpgme_error_t-\u003eIO CString)",
@@ -18200,6 +19836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_strerror_r",
           "package": "bindings-gpgme",
@@ -18209,6 +19846,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_strerror_r",
           "normalized": "FunPtr(C'gpg_error_t-\u003eCString-\u003eCSize-\u003eIO CInt)",
@@ -18223,6 +19861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_strsource",
           "package": "bindings-gpgme",
@@ -18232,6 +19871,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_strsource",
           "normalized": "FunPtr(C'gpgme_error_t-\u003eIO CString)",
@@ -18246,6 +19886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_trust_item_ref",
           "package": "bindings-gpgme",
@@ -18255,6 +19896,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_trust_item_ref",
           "normalized": "FunPtr(C'gpgme_trust_item_t-\u003eIO())",
@@ -18269,6 +19911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_trust_item_unref",
           "package": "bindings-gpgme",
@@ -18278,6 +19921,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_trust_item_unref",
           "normalized": "FunPtr(C'gpgme_trust_item_t-\u003eIO())",
@@ -18292,6 +19936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:25 UTC 2014",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_wait",
           "package": "bindings-gpgme",
@@ -18301,6 +19946,7 @@
         },
         "index": {
           "hierarchy": "Bindings Gpgme",
+          "indexed": "2014-03-11T17:20:25",
           "module": "Bindings.Gpgme",
           "name": "p'gpgme_wait",
           "normalized": "FunPtr(C'gpgme_ctx_t-\u003ePtr C'gpgme_error_t-\u003eCInt-\u003eIO C'gpgme_ctx_t)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "flamethrower"
+        "phrase": "flamethrower",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "Compiler",
           "package": "flamethrower",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "Compiler",
           "package": "flamethrower",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "CodeTree",
           "package": "flamethrower",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "CodeTree",
           "package": "flamethrower",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "Compiled",
           "package": "flamethrower",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "Compiled",
           "package": "flamethrower",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "Compiled",
           "package": "flamethrower",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "Compiled",
           "package": "flamethrower",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "Expression",
           "package": "flamethrower",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "Expression",
           "package": "flamethrower",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "For",
           "package": "flamethrower",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "For",
           "normalized": "For Name Exp[CodeTree]",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "If",
           "package": "flamethrower",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "If",
           "normalized": "If Exp[CodeTree][CodeTree]",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "Text",
           "package": "flamethrower",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "Text",
           "package": "flamethrower",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "attributes",
           "package": "flamethrower",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "attributes",
           "normalized": "[CodeTree]",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "classes",
           "package": "flamethrower",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "classes",
           "normalized": "[CodeTree]",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "compile",
           "package": "flamethrower",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "compile",
           "normalized": "[Node]-\u003e[CodeTree]",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "compileNode",
           "package": "flamethrower",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "compileNode",
           "normalized": "Node-\u003eCompiled",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "content",
           "package": "flamethrower",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "content",
           "normalized": "[CodeTree]",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "contentOnly",
           "package": "flamethrower",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "contentOnly",
           "normalized": "Compiled-\u003e[CodeTree]",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "fromAttributes",
           "package": "flamethrower",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "fromAttributes",
           "normalized": "[CodeTree]-\u003eCompiled",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "fromClasses",
           "package": "flamethrower",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "fromClasses",
           "normalized": "[CodeTree]-\u003eCompiled",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "fromContent",
           "package": "flamethrower",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "fromContent",
           "normalized": "[CodeTree]-\u003eCompiled",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "isVoid",
           "package": "flamethrower",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "isVoid",
           "normalized": "String-\u003eBool",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "optimized",
           "package": "flamethrower",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "optimized",
           "normalized": "[CodeTree]-\u003e[CodeTree]",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "stringPartToCode",
           "package": "flamethrower",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "stringPartToCode",
           "normalized": "Escaper-\u003eStringPart-\u003eCodeTree",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "stringPartsToCode",
           "package": "flamethrower",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "stringPartsToCode",
           "normalized": "Escaper-\u003e[StringPart]-\u003e[CodeTree]",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Compiler",
           "name": "voidTags",
           "package": "flamethrower",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Compiler",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Compiler",
           "name": "voidTags",
           "normalized": "[String]",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Escape",
           "name": "Escape",
           "package": "flamethrower",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Escape",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Escape",
           "name": "Escape",
           "package": "flamethrower",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Escape",
           "name": "Escaper",
           "package": "flamethrower",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Escape",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Escape",
           "name": "Escaper",
           "package": "flamethrower",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Escape",
           "name": "Attribute",
           "package": "flamethrower",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Escape",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Escape",
           "name": "Attribute",
           "package": "flamethrower",
@@ -590,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Escape",
           "name": "Content",
           "package": "flamethrower",
@@ -599,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Escape",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Escape",
           "name": "Content",
           "package": "flamethrower",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Escape",
           "name": "None",
           "package": "flamethrower",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Escape",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Escape",
           "name": "None",
           "package": "flamethrower",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Escape",
           "name": "escape",
           "package": "flamethrower",
@@ -643,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Escape",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Escape",
           "name": "escape",
           "normalized": "Escaper-\u003eText-\u003eText",
@@ -657,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Escape",
           "name": "escapeAttributeCharacter",
           "package": "flamethrower",
@@ -666,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Escape",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Escape",
           "name": "escapeAttributeCharacter",
           "normalized": "Char-\u003eString",
@@ -681,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Escape",
           "name": "escapeAttributeValue",
           "package": "flamethrower",
@@ -690,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Escape",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Escape",
           "name": "escapeAttributeValue",
           "normalized": "Text-\u003eText",
@@ -705,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Escape",
           "name": "escapeCharacter",
           "package": "flamethrower",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Escape",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Escape",
           "name": "escapeCharacter",
           "normalized": "Escaper-\u003eChar-\u003eString",
@@ -729,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Escape",
           "name": "escapeContent",
           "package": "flamethrower",
@@ -738,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Escape",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Escape",
           "name": "escapeContent",
           "normalized": "Text-\u003eText",
@@ -753,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Escape",
           "name": "escapeContentCharacter",
           "package": "flamethrower",
@@ -762,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Escape",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Escape",
           "name": "escapeContentCharacter",
           "normalized": "Char-\u003eString",
@@ -777,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Lexer",
           "package": "flamethrower",
@@ -785,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Lexer",
           "package": "flamethrower",
@@ -798,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Context",
           "package": "flamethrower",
@@ -806,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Context",
           "package": "flamethrower",
@@ -819,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Indent",
           "package": "flamethrower",
@@ -827,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Indent",
           "package": "flamethrower",
@@ -840,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "StringPart",
           "package": "flamethrower",
@@ -848,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "StringPart",
           "package": "flamethrower",
@@ -861,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Token",
           "package": "flamethrower",
@@ -869,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Token",
           "package": "flamethrower",
@@ -882,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Attribute",
           "package": "flamethrower",
@@ -891,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Attribute",
           "package": "flamethrower",
@@ -904,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Character",
           "package": "flamethrower",
@@ -913,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Character",
           "package": "flamethrower",
@@ -926,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Class",
           "package": "flamethrower",
@@ -935,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Class",
           "package": "flamethrower",
@@ -948,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Context",
           "package": "flamethrower",
@@ -957,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Context",
           "package": "flamethrower",
@@ -970,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Doctype",
           "package": "flamethrower",
@@ -979,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Doctype",
           "package": "flamethrower",
@@ -992,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Element",
           "package": "flamethrower",
@@ -1001,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Element",
           "package": "flamethrower",
@@ -1014,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Else",
           "package": "flamethrower",
@@ -1023,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Else",
           "package": "flamethrower",
@@ -1036,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "For",
           "package": "flamethrower",
@@ -1045,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "For",
           "package": "flamethrower",
@@ -1058,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "If",
           "package": "flamethrower",
@@ -1067,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "If",
           "package": "flamethrower",
@@ -1080,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Indent",
           "package": "flamethrower",
@@ -1089,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Indent",
           "package": "flamethrower",
@@ -1102,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Interpolation",
           "package": "flamethrower",
@@ -1111,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Interpolation",
           "package": "flamethrower",
@@ -1124,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Newline",
           "package": "flamethrower",
@@ -1133,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Newline",
           "package": "flamethrower",
@@ -1146,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Raw",
           "package": "flamethrower",
@@ -1155,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Raw",
           "package": "flamethrower",
@@ -1168,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Spaces",
           "package": "flamethrower",
@@ -1177,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Spaces",
           "package": "flamethrower",
@@ -1190,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "String",
           "package": "flamethrower",
@@ -1199,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "String",
           "normalized": "String[StringPart]",
@@ -1214,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "Tab",
           "package": "flamethrower",
@@ -1223,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "Tab",
           "package": "flamethrower",
@@ -1236,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "indentType",
           "package": "flamethrower",
@@ -1245,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "indentType",
           "package": "flamethrower",
@@ -1258,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "isHaskellVarIdCharacter",
           "package": "flamethrower",
@@ -1267,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "isHaskellVarIdCharacter",
           "normalized": "Char-\u003eBool",
@@ -1282,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "isIdentifierCharacter",
           "package": "flamethrower",
@@ -1291,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "isIdentifierCharacter",
           "normalized": "Char-\u003eBool",
@@ -1306,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "lex",
           "package": "flamethrower",
@@ -1315,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "lex",
           "normalized": "String-\u003e[Token]",
@@ -1329,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "lexClass",
           "package": "flamethrower",
@@ -1338,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "lexClass",
           "normalized": "Context-\u003eString-\u003e[Token]",
@@ -1353,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "lexComment",
           "package": "flamethrower",
@@ -1362,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "lexComment",
           "normalized": "Context-\u003eString-\u003e[Token]",
@@ -1377,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "lexContent",
           "package": "flamethrower",
@@ -1386,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "lexContent",
           "normalized": "Context-\u003eString-\u003e[Token]",
@@ -1401,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "lexFor",
           "package": "flamethrower",
@@ -1410,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "lexFor",
           "normalized": "Context-\u003eString-\u003e[Token]",
@@ -1425,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "lexIdentifier",
           "package": "flamethrower",
@@ -1434,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "lexIdentifier",
           "normalized": "Context-\u003eString-\u003e[Token]",
@@ -1449,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "lexIf",
           "package": "flamethrower",
@@ -1458,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "lexIf",
           "normalized": "Context-\u003eString-\u003e[Token]",
@@ -1473,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "lexIndent",
           "package": "flamethrower",
@@ -1482,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "lexIndent",
           "normalized": "Context-\u003eString-\u003e[Token]",
@@ -1497,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "lexString",
           "package": "flamethrower",
@@ -1506,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "lexString",
           "normalized": "Context-\u003eString-\u003e[Token]",
@@ -1521,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "readEscape",
           "package": "flamethrower",
@@ -1530,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "readEscape",
           "normalized": "String-\u003e([StringPart],String)",
@@ -1545,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "readHaskellVarId",
           "package": "flamethrower",
@@ -1554,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "readHaskellVarId",
           "normalized": "String-\u003e(String,String)",
@@ -1569,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "readIdentifier",
           "package": "flamethrower",
@@ -1578,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "readIdentifier",
           "normalized": "String-\u003e(String,String)",
@@ -1593,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "readInterpolation",
           "package": "flamethrower",
@@ -1602,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "readInterpolation",
           "normalized": "String-\u003e([StringPart],String)",
@@ -1617,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "readLine",
           "package": "flamethrower",
@@ -1626,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "readLine",
           "normalized": "String-\u003e(String,String)",
@@ -1641,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Lexer",
           "name": "readString",
           "package": "flamethrower",
@@ -1650,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Lexer",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Lexer",
           "name": "readString",
           "normalized": "String-\u003e([StringPart],String)",
@@ -1665,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "Parser",
           "package": "flamethrower",
@@ -1673,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "Parser",
           "package": "flamethrower",
@@ -1686,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "Node",
           "package": "flamethrower",
@@ -1694,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "Node",
           "package": "flamethrower",
@@ -1707,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "StringNode",
           "package": "flamethrower",
@@ -1715,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "StringNode",
           "package": "flamethrower",
@@ -1728,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "AttributeNode",
           "package": "flamethrower",
@@ -1737,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "AttributeNode",
           "package": "flamethrower",
@@ -1750,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "ClassNode",
           "package": "flamethrower",
@@ -1759,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "ClassNode",
           "package": "flamethrower",
@@ -1772,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "DoctypeNode",
           "package": "flamethrower",
@@ -1781,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "DoctypeNode",
           "package": "flamethrower",
@@ -1794,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "ElementNode",
           "package": "flamethrower",
@@ -1803,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "ElementNode",
           "normalized": "ElementNode String[Node]",
@@ -1818,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "ForNode",
           "package": "flamethrower",
@@ -1827,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "ForNode",
           "normalized": "ForNode String String[Node]",
@@ -1842,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "IfNode",
           "package": "flamethrower",
@@ -1851,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "IfNode",
           "normalized": "IfNode String[Node][Node]",
@@ -1866,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "Raw",
           "package": "flamethrower",
@@ -1875,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "Raw",
           "normalized": "Raw[StringPart]",
@@ -1890,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "String",
           "package": "flamethrower",
@@ -1899,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "String",
           "normalized": "String[StringPart]",
@@ -1914,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "StringNode",
           "package": "flamethrower",
@@ -1923,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "StringNode",
           "package": "flamethrower",
@@ -1936,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "isIndent",
           "package": "flamethrower",
@@ -1945,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "isIndent",
           "normalized": "Token-\u003eBool",
@@ -1960,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "parse",
           "package": "flamethrower",
@@ -1969,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "parse",
           "normalized": "[Token]-\u003e[Node]",
@@ -1983,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "parseContent",
           "package": "flamethrower",
@@ -1992,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "parseContent",
           "normalized": "Int-\u003e[Token]-\u003e([Node],[Token])",
@@ -2007,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "parseInside",
           "package": "flamethrower",
@@ -2016,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "parseInside",
           "normalized": "Int-\u003e[Token]-\u003e([Node],[Token])",
@@ -2031,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower.Parser",
           "name": "parseRoot",
           "package": "flamethrower",
@@ -2040,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower Parser",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower.Parser",
           "name": "parseRoot",
           "normalized": "[Token]-\u003e([Node],[Token])",
@@ -2055,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower",
           "name": "Flamethrower",
           "package": "flamethrower",
@@ -2063,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower",
           "name": "Flamethrower",
           "package": "flamethrower",
@@ -2076,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower",
           "name": "FunctionMap",
           "package": "flamethrower",
@@ -2084,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower",
           "name": "FunctionMap",
           "package": "flamethrower",
@@ -2097,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower",
           "name": "FunctionMap",
           "package": "flamethrower",
@@ -2106,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower",
           "name": "FunctionMap",
           "package": "flamethrower",
@@ -2119,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower",
           "name": "codeTreeToExpression",
           "package": "flamethrower",
@@ -2128,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower",
           "name": "codeTreeToExpression",
           "normalized": "FunctionMap-\u003eCodeTree-\u003eExp",
@@ -2143,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower",
           "name": "compileTemplate",
           "package": "flamethrower",
@@ -2152,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower",
           "name": "compileTemplate",
           "normalized": "FunctionMap-\u003eString-\u003e[Exp]",
@@ -2167,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower",
           "name": "escapeAttributeValueName",
           "package": "flamethrower",
@@ -2176,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower",
           "name": "escapeAttributeValueName",
           "package": "flamethrower",
@@ -2189,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower",
           "name": "escapeContentName",
           "package": "flamethrower",
@@ -2198,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower",
           "name": "escapeContentName",
           "package": "flamethrower",
@@ -2211,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower",
           "name": "flamef",
           "package": "flamethrower",
@@ -2220,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower",
           "name": "flamef",
           "package": "flamethrower",
@@ -2232,6 +2426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower",
           "name": "flamethrower",
           "package": "flamethrower",
@@ -2241,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower",
           "name": "flamethrower",
           "package": "flamethrower",
@@ -2253,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower",
           "name": "flamethrower'",
           "package": "flamethrower",
@@ -2262,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower",
           "name": "flamethrower'",
           "normalized": "String-\u003eQ Exp",
@@ -2276,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower",
           "name": "listConcatName",
           "package": "flamethrower",
@@ -2285,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower",
           "name": "listConcatName",
           "package": "flamethrower",
@@ -2298,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:16 UTC 2014",
           "module": "Flamethrower",
           "name": "textConcatName",
           "package": "flamethrower",
@@ -2307,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Flamethrower",
+          "indexed": "2014-03-11T18:10:16",
           "module": "Flamethrower",
           "name": "textConcatName",
           "package": "flamethrower",

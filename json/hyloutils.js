@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hyloutils"
+        "phrase": "hyloutils",
+        "type": "phrase"
       },
       "type": "context"
     }

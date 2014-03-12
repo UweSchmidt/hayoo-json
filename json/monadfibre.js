@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monadfibre"
+        "phrase": "monadfibre",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package defines Monadic functions which provide Choice and Parallelism - (&lt;||&rt;) and (&lt;&&&rt;) - that work on Monads that provide a (MonadBi m IO) instance.\n\u003c/p\u003e\u003cp\u003eDepends on the \u003ccode\u003emonadbi\u003c/code\u003e library for extracting the IO actions from m. Also provides a good example of how to use the library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:19 UTC 2014",
           "module": "Control.Monad.Fibre",
           "name": "Fibre",
           "package": "monadfibre",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This package defines Monadic functions which provide Choice and Parallelism lt rt and lt rt that work on Monads that provide MonadBi IO instance Depends on the monadbi library for extracting the IO actions from Also provides good example of how to use the library",
           "hierarchy": "Control Monad Fibre",
+          "indexed": "2014-03-11T19:21:19",
           "module": "Control.Monad.Fibre",
           "name": "Fibre",
           "package": "monadfibre",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:19 UTC 2014",
           "module": "Control.Monad.Fibre",
           "name": "(\u003c||\u003e)",
           "package": "monadfibre",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Fibre",
+          "indexed": "2014-03-11T19:21:19",
           "module": "Control.Monad.Fibre",
           "name": "(\u003c||\u003e) \u003c||\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:19 UTC 2014",
           "module": "Control.Monad.Fibre",
           "name": "(\u003c&&\u003e)",
           "package": "monadfibre",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Fibre",
+          "indexed": "2014-03-11T19:21:19",
           "module": "Control.Monad.Fibre",
           "name": "(\u003c&&\u003e) \u003c&&\u003e",
           "normalized": "a b-\u003ea b-\u003ea(b,b)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cmathml3"
+        "phrase": "cmathml3",
+        "type": "phrase"
       },
       "type": "context"
     }

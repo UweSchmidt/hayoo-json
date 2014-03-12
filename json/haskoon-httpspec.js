@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskoon-httpspec"
+        "phrase": "haskoon-httpspec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SendRecv",
           "name": "SendRecv",
           "package": "haskoon-httpspec",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SendRecv",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SendRecv",
           "name": "SendRecv",
           "package": "haskoon-httpspec",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SendRecv",
           "name": "forwardReq",
           "package": "haskoon-httpspec",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SendRecv",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SendRecv",
           "name": "forwardReq",
           "normalized": "(ReqIn-\u003ea ReqOut)-\u003e(ResIn-\u003ea ResOut)-\u003ea(WebRes a)",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SendRecv",
           "name": "getReqIn",
           "package": "haskoon-httpspec",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SendRecv",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SendRecv",
           "name": "getReqIn",
           "package": "haskoon-httpspec",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SendRecv",
           "name": "sendReqOut",
           "package": "haskoon-httpspec",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SendRecv",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SendRecv",
           "name": "sendReqOut",
           "normalized": "ReqOut-\u003ea(Either String ResIn)",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SendRecv",
           "name": "sendResOut",
           "package": "haskoon-httpspec",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SendRecv",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SendRecv",
           "name": "sendResOut",
           "normalized": "ResOut-\u003ea(WebRes a)",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "SpecHandler",
           "package": "haskoon-httpspec",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SpecHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "SpecHandler",
           "package": "haskoon-httpspec",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "matchByReqSpec",
           "package": "haskoon-httpspec",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SpecHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "matchByReqSpec",
           "normalized": "(a-\u003eb ResOut)-\u003eReqIn-\u003eb ResOut",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "matchBySpec",
           "package": "haskoon-httpspec",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SpecHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "matchBySpec",
           "normalized": "(a-\u003eb c)-\u003eReqIn-\u003eb ResOut",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "rawSendBySpec",
           "package": "haskoon-httpspec",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SpecHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "rawSendBySpec",
           "normalized": "HttpUrl-\u003ea-\u003eb ResIn",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "rawSendToUrl",
           "package": "haskoon-httpspec",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SpecHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "rawSendToUrl",
           "normalized": "String-\u003ea-\u003eb ResIn",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "rhGenReqOut",
           "package": "haskoon-httpspec",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SpecHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "rhGenReqOut",
           "normalized": "HttpUrl-\u003eReqSpec a-\u003ea-\u003eb ReqOut",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "rhParseResIn",
           "package": "haskoon-httpspec",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SpecHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "rhParseResIn",
           "normalized": "ResSpec a-\u003eResIn-\u003eb a",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "rhParseUrl",
           "package": "haskoon-httpspec",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SpecHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "rhParseUrl",
           "normalized": "String-\u003ea HttpUrl",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "rhSendReq",
           "package": "haskoon-httpspec",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SpecHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "rhSendReq",
           "normalized": "ReqOut-\u003ea ResIn",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "sendBySpec",
           "package": "haskoon-httpspec",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SpecHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "sendBySpec",
           "normalized": "HttpUrl-\u003ea-\u003eb c",
@@ -370,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "sendToUrl",
           "package": "haskoon-httpspec",
@@ -379,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec SpecHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.SpecHandler",
           "name": "sendToUrl",
           "normalized": "String-\u003ea-\u003eb c",
@@ -394,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "WebHandler",
           "package": "haskoon-httpspec",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec WebHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "WebHandler",
           "package": "haskoon-httpspec",
@@ -415,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "ReqHandler",
           "package": "haskoon-httpspec",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec WebHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "ReqHandler",
           "package": "haskoon-httpspec",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "ReqHandlerState",
           "package": "haskoon-httpspec",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec WebHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "ReqHandlerState",
           "package": "haskoon-httpspec",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "ReqHandlerT",
           "package": "haskoon-httpspec",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec WebHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "ReqHandlerT",
           "package": "haskoon-httpspec",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "ReqHandlerState",
           "package": "haskoon-httpspec",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec WebHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "ReqHandlerState",
           "package": "haskoon-httpspec",
@@ -500,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "ReqHandlerT",
           "package": "haskoon-httpspec",
@@ -509,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec WebHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "ReqHandlerT",
           "package": "haskoon-httpspec",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "match",
           "package": "haskoon-httpspec",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec WebHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "match",
           "normalized": "[ReqIn-\u003ea ResOut]-\u003eReqIn-\u003ea ResOut",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "rhst_sendReqOut",
           "package": "haskoon-httpspec",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec WebHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "rhst_sendReqOut",
           "normalized": "ReqOut-\u003ea(Either String ResIn)",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "runIOReqHandlerT",
           "package": "haskoon-httpspec",
@@ -578,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec WebHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "runIOReqHandlerT",
           "normalized": "ReqHandlerT a b-\u003ea(Either WebExc b)",
@@ -593,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "runReqHandlerT",
           "package": "haskoon-httpspec",
@@ -602,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec WebHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "runReqHandlerT",
           "normalized": "ReqHandlerT a b-\u003eReqHandlerState a-\u003ea(Either WebExc b)",
@@ -617,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "runWebReq",
           "package": "haskoon-httpspec",
@@ -626,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec WebHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "runWebReq",
           "normalized": "(ReqIn-\u003eReqHandlerT a ResOut)-\u003ea(WebRes a)",
@@ -641,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "runWebReqHandlerT",
           "package": "haskoon-httpspec",
@@ -650,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec WebHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "runWebReqHandlerT",
           "normalized": "ReqHandlerT a b-\u003ea(Either WebExc b)",
@@ -665,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "sendReq",
           "package": "haskoon-httpspec",
@@ -674,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec WebHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "sendReq",
           "normalized": "ReqOut-\u003ea ResIn",
@@ -689,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:35 UTC 2014",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "unReqHandlerT",
           "package": "haskoon-httpspec",
@@ -698,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Factis Haskoon HttpSpec WebHandler",
+          "indexed": "2014-03-11T18:33:35",
           "module": "Factis.Haskoon.HttpSpec.WebHandler",
           "name": "unReqHandlerT",
           "package": "haskoon-httpspec",

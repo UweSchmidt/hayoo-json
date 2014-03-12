@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Combinatorrent"
+        "phrase": "Combinatorrent",
+        "type": "phrase"
       },
       "type": "context"
     }

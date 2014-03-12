@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "soyuz"
+        "phrase": "soyuz",
+        "type": "phrase"
       },
       "type": "context"
     }

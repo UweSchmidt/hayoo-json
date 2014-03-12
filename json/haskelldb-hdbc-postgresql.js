@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskelldb-hdbc-postgresql"
+        "phrase": "haskelldb-hdbc-postgresql",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:39 UTC 2014",
           "module": "Database.HaskellDB.HDBC.PostgreSQL",
           "name": "PostgreSQL",
           "package": "haskelldb-hdbc-postgresql",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC PostgreSQL",
+          "indexed": "2014-03-11T18:32:39",
           "module": "Database.HaskellDB.HDBC.PostgreSQL",
           "name": "PostgreSQL",
           "package": "haskelldb-hdbc-postgresql",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface which drivers should implement.\n   The \u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e function takes some driver specific name, value pairs\n   use to setup the database connection, and a database action to run.\n   \u003ccode\u003e\u003ca\u003erequiredOptions\u003c/a\u003e\u003c/code\u003e lists all required options with a short description,\n   that is printed as help in the DBDirect program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:39 UTC 2014",
           "module": "Database.HaskellDB.HDBC.PostgreSQL",
           "name": "DriverInterface",
           "package": "haskelldb-hdbc-postgresql",
@@ -48,6 +51,7 @@
         "index": {
           "description": "Interface which drivers should implement The connect function takes some driver specific name value pairs use to setup the database connection and database action to run requiredOptions lists all required options with short description that is printed as help in the DBDirect program",
           "hierarchy": "Database HaskellDB HDBC PostgreSQL",
+          "indexed": "2014-03-11T18:32:39",
           "module": "Database.HaskellDB.HDBC.PostgreSQL",
           "name": "DriverInterface",
           "package": "haskelldb-hdbc-postgresql",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:39 UTC 2014",
           "module": "Database.HaskellDB.HDBC.PostgreSQL",
           "name": "DriverInterface",
           "package": "haskelldb-hdbc-postgresql",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC PostgreSQL",
+          "indexed": "2014-03-11T18:32:39",
           "module": "Database.HaskellDB.HDBC.PostgreSQL",
           "name": "DriverInterface",
           "package": "haskelldb-hdbc-postgresql",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:39 UTC 2014",
           "module": "Database.HaskellDB.HDBC.PostgreSQL",
           "name": "connect",
           "package": "haskelldb-hdbc-postgresql",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC PostgreSQL",
+          "indexed": "2014-03-11T18:32:39",
           "module": "Database.HaskellDB.HDBC.PostgreSQL",
           "name": "connect",
           "normalized": "[(String,String)]-\u003e(Database-\u003ea b)-\u003ea b",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis driver passes its options through to HDBC.\n HDBC refers to\n \u003ca\u003ehttp://www.postgresql.org/docs/8.1/static/libpq.html#LIBPQ-CONNECT\u003c/a\u003e\n for the meaning of the options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:39 UTC 2014",
           "module": "Database.HaskellDB.HDBC.PostgreSQL",
           "name": "driver",
           "package": "haskelldb-hdbc-postgresql",
@@ -115,6 +124,7 @@
         "index": {
           "description": "This driver passes its options through to HDBC HDBC refers to http www.postgresql.org docs static libpq.html LIBPQ-CONNECT for the meaning of the options",
           "hierarchy": "Database HaskellDB HDBC PostgreSQL",
+          "indexed": "2014-03-11T18:32:39",
           "module": "Database.HaskellDB.HDBC.PostgreSQL",
           "name": "driver",
           "package": "haskelldb-hdbc-postgresql",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:39 UTC 2014",
           "module": "Database.HaskellDB.HDBC.PostgreSQL",
           "name": "postgresqlConnect",
           "package": "haskelldb-hdbc-postgresql",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC PostgreSQL",
+          "indexed": "2014-03-11T18:32:39",
           "module": "Database.HaskellDB.HDBC.PostgreSQL",
           "name": "postgresqlConnect",
           "normalized": "[(String,String)]-\u003e(Database-\u003ea b)-\u003ea b",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:39 UTC 2014",
           "module": "Database.HaskellDB.HDBC.PostgreSQL",
           "name": "requiredOptions",
           "package": "haskelldb-hdbc-postgresql",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC PostgreSQL",
+          "indexed": "2014-03-11T18:32:39",
           "module": "Database.HaskellDB.HDBC.PostgreSQL",
           "name": "requiredOptions",
           "normalized": "[(String,String)]",

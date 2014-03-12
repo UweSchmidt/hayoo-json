@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snap-predicates"
+        "phrase": "snap-predicates",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate.Env",
           "name": "Env",
           "package": "snap-predicates",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Predicate Env",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate.Env",
           "name": "Env",
           "package": "snap-predicates",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn environment for predicates, consisting of\n mappings form \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es to \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate.Env",
           "name": "Env",
           "package": "snap-predicates",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An environment for predicates consisting of mappings form ByteString to Dynamic values",
           "hierarchy": "Data Predicate Env",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate.Env",
           "name": "Env",
           "package": "snap-predicates",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate.Env",
           "name": "empty",
           "package": "snap-predicates",
@@ -73,6 +78,7 @@
         "index": {
           "description": "An empty environment",
           "hierarchy": "Data Predicate Env",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate.Env",
           "name": "empty",
           "package": "snap-predicates",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a binding from key to value to \u003ccode\u003e\u003ca\u003eEnv\u003c/a\u003e\u003c/code\u003e, overriding\n previous bindings if existing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate.Env",
           "name": "insert",
           "package": "snap-predicates",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Add binding from key to value to Env overriding previous bindings if existing",
           "hierarchy": "Data Predicate Env",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate.Env",
           "name": "insert",
           "normalized": "ByteString-\u003ea-\u003eb()",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to get the associated value for the given key.\n Only successful iff, (i) \u003ccode\u003e\u003ca\u003eEnv\u003c/a\u003e\u003c/code\u003e contains a binding for \u003ccode\u003ek\u003c/code\u003e\n and (ii) the type of value and target match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate.Env",
           "name": "lookup",
           "package": "snap-predicates",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Try to get the associated value for the given key Only successful iff Env contains binding for and ii the type of value and target match",
           "hierarchy": "Data Predicate Env",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate.Env",
           "name": "lookup",
           "normalized": "ByteString-\u003ea(Maybe b)",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": "Predicate",
           "package": "snap-predicates",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": "Predicate",
           "package": "snap-predicates",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e instance corresponding to the logical\n OR connective of two \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003es. The meta-data of\n each \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003erue branch can be of different types.\n\u003c/p\u003e\u003cp\u003eIf both arguments evaluate to \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e the one with the\n smaller \u003ccode\u003e\u003ca\u003eDelta\u003c/a\u003e\u003c/code\u003e will be preferred, or--if equal--the\n left-hand argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": ":||:",
           "package": "snap-predicates",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Predicate instance corresponding to the logical OR connective of two Predicate The meta-data of each rue branch can be of different types If both arguments evaluate to the one with the smaller Delta will be preferred or--if equal--the left-hand argument",
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": ":||:",
           "package": "snap-predicates",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e instance corresponding to the logical\n OR connective of two \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003es. It requires the\n meta-data of each \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003erue branch to be of the same type.\n\u003c/p\u003e\u003cp\u003eIf both arguments evaluate to \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e the one with the\n smaller \u003ccode\u003e\u003ca\u003eDelta\u003c/a\u003e\u003c/code\u003e will be preferred, or--if equal--the\n left-hand argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": ":|:",
           "package": "snap-predicates",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Predicate instance corresponding to the logical OR connective of two Predicate It requires the meta-data of each rue branch to be of the same type If both arguments evaluate to the one with the smaller Delta will be preferred or--if equal--the left-hand argument",
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": ":|:",
           "package": "snap-predicates",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e instance corresponding to the logical\n AND connective of two \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": ":&:",
           "package": "snap-predicates",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Predicate instance corresponding to the logical AND connective of two Predicate",
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": ":&:",
           "package": "snap-predicates",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData-type used for tupling-up the results of \u003ccode\u003e\u003ca\u003e:&:\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": ":*:",
           "package": "snap-predicates",
@@ -232,6 +251,7 @@
         "index": {
           "description": "Data-type used for tupling-up the results of",
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": ":*:",
           "package": "snap-predicates",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": ":+:",
           "package": "snap-predicates",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": ":+:",
           "package": "snap-predicates",
@@ -265,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e-like type where each branch \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003erue or \u003ccode\u003e\u003ca\u003eF\u003c/a\u003e\u003c/code\u003ealse carries\n some meta-data which is threaded through \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": "Boolean",
           "package": "snap-predicates",
@@ -274,6 +297,7 @@
         "index": {
           "description": "Bool like type where each branch rue or alse carries some meta-data which is threaded through Predicate evaluation",
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": "Boolean",
           "package": "snap-predicates",
@@ -288,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e instance which always returns \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e with\n the given value as T's meta-data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": "Const",
           "package": "snap-predicates",
@@ -297,6 +322,7 @@
         "index": {
           "description": "Predicate instance which always returns with the given value as meta-data",
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": "Const",
           "package": "snap-predicates",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDelta\u003c/a\u003e\u003c/code\u003e is a measure of distance. It is (optionally)\n used in predicates that evaluate to \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e but not uniquely so, i.e.\n different evaluations of \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e are possible and they may have a different\n \"fitness\".\n\u003c/p\u003e\u003cp\u003eAn example is content-negotiation. A HTTP request may specify\n a preference list of various media-types. A predicate matching one\n specific media-type evaluates to \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e, but other media-types may match\n even better. To represent this ambivalence, the predicate will include\n a delta value which can be used to decide which of the matching\n predicates should be preferred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": "Delta",
           "package": "snap-predicates",
@@ -320,6 +347,7 @@
         "index": {
           "description": "Delta is measure of distance It is optionally used in predicates that evaluate to but not uniquely so i.e different evaluations of are possible and they may have different fitness An example is content-negotiation HTTP request may specify preference list of various media-types predicate matching one specific media-type evaluates to but other media-types may match even better To represent this ambivalence the predicate will include delta value which can be used to decide which of the matching predicates should be preferred",
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": "Delta",
           "package": "snap-predicates",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e instance which always returns \u003ccode\u003e\u003ca\u003eF\u003c/a\u003e\u003c/code\u003e with\n the given value as F's meta-data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": "Fail",
           "package": "snap-predicates",
@@ -343,6 +372,7 @@
         "index": {
           "description": "Predicate instance which always returns with the given value as meta-data",
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": "Fail",
           "package": "snap-predicates",
@@ -357,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e class declares the function \u003ccode\u003e\u003ca\u003eapply\u003c/a\u003e\u003c/code\u003e which\n evaluates the predicate against some value, returning a value\n of type \u003ccode\u003e\u003ca\u003eBoolean\u003c/a\u003e\u003c/code\u003e.\n Besides being parameterised over predicate type and predicate\n parameter, the class is also parameterised over the actual types\n of T's and F's meta-data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": "Predicate",
           "package": "snap-predicates",
@@ -366,6 +397,7 @@
         "index": {
           "description": "The Predicate class declares the function apply which evaluates the predicate against some value returning value of type Boolean Besides being parameterised over predicate type and predicate parameter the class is also parameterised over the actual types of and meta-data",
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": "Predicate",
           "package": "snap-predicates",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": ":||:",
           "package": "snap-predicates",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": ":||:",
           "package": "snap-predicates",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": ":|:",
           "package": "snap-predicates",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": ":|:",
           "package": "snap-predicates",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": ":&:",
           "package": "snap-predicates",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": ":&:",
           "package": "snap-predicates",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": ":*:",
           "package": "snap-predicates",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": ":*:",
           "package": "snap-predicates",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": "Const",
           "package": "snap-predicates",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": "Const",
           "normalized": "a-\u003eConst b a",
@@ -488,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elogical False with some meta-data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": "F",
           "package": "snap-predicates",
@@ -498,6 +541,7 @@
         "index": {
           "description": "logical False with some meta-data",
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": "F",
           "package": "snap-predicates",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": "Fail",
           "package": "snap-predicates",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": "Fail",
           "normalized": "a-\u003eFail a b",
@@ -535,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elogical True with some meta-data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": "T",
           "package": "snap-predicates",
@@ -545,6 +592,7 @@
         "index": {
           "description": "logical True with some meta-data",
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": "T",
           "package": "snap-predicates",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": "apply",
           "package": "snap-predicates",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": "apply",
           "normalized": "a-\u003eb-\u003eState Env(Boolean(FVal a)(TVal a))",
@@ -581,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the given predicate \u003ccode\u003ep\u003c/code\u003e against the given value \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": "eval",
           "package": "snap-predicates",
@@ -591,6 +642,7 @@
         "index": {
           "description": "Evaluate the given predicate against the given value",
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": "eval",
           "normalized": "a-\u003eb-\u003eBoolean(FVal a)(TVal a)",
@@ -606,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e function will invoke the given function only if the predicate \u003ccode\u003ep\u003c/code\u003e\n applied to the test value \u003ccode\u003ea\u003c/code\u003e evaluates to \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Data.Predicate",
           "name": "with",
           "package": "snap-predicates",
@@ -616,6 +669,7 @@
         "index": {
           "description": "The with function will invoke the given function only if the predicate applied to the test value evaluates to",
           "hierarchy": "Data Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Data.Predicate",
           "name": "with",
           "normalized": "a-\u003eb-\u003e(TVal a-\u003ec())-\u003ec()",
@@ -630,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Accept",
           "name": "Accept",
           "package": "snap-predicates",
@@ -638,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Accept",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Accept",
           "name": "Accept",
           "package": "snap-predicates",
@@ -652,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e against the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003es \"Accept\" header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Accept",
           "name": "Accept",
           "package": "snap-predicates",
@@ -661,6 +718,7 @@
         "index": {
           "description": "Predicate against the Request Accept header",
           "hierarchy": "Snap Predicate Accept",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Accept",
           "name": "Accept",
           "package": "snap-predicates",
@@ -674,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Accept",
           "name": "Accept",
           "package": "snap-predicates",
@@ -683,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Accept",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Accept",
           "name": "Accept",
           "package": "snap-predicates",
@@ -696,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Content",
           "name": "Content",
           "package": "snap-predicates",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Content",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Content",
           "name": "Content",
           "package": "snap-predicates",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Content",
           "name": "Content",
           "package": "snap-predicates",
@@ -725,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Content",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Content",
           "name": "Content",
           "package": "snap-predicates",
@@ -739,6 +803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e against the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003es \"Content-Type\" header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Content",
           "name": "ContentType",
           "package": "snap-predicates",
@@ -748,6 +813,7 @@
         "index": {
           "description": "Predicate against the Request Content-Type header",
           "hierarchy": "Snap Predicate Content",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Content",
           "name": "ContentType",
           "package": "snap-predicates",
@@ -761,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Content",
           "name": "ContentType",
           "package": "snap-predicates",
@@ -770,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Content",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Content",
           "name": "ContentType",
           "package": "snap-predicates",
@@ -783,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Error",
           "name": "Error",
           "package": "snap-predicates",
@@ -791,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Error",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Error",
           "name": "Error",
           "package": "snap-predicates",
@@ -805,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe error type used as \u003ccode\u003eF\u003c/code\u003e meta-data in all snap predicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Error",
           "name": "Error",
           "package": "snap-predicates",
@@ -814,6 +885,7 @@
         "index": {
           "description": "The error type used as meta-data in all snap predicates",
           "hierarchy": "Snap Predicate Error",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Error",
           "name": "Error",
           "package": "snap-predicates",
@@ -827,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Error",
           "name": "Error",
           "package": "snap-predicates",
@@ -836,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Error",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Error",
           "name": "Error",
           "package": "snap-predicates",
@@ -850,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptional status message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Error",
           "name": "_message",
           "package": "snap-predicates",
@@ -860,6 +935,7 @@
         "index": {
           "description": "optional status message",
           "hierarchy": "Snap Predicate Error",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Error",
           "name": "_message",
           "package": "snap-predicates",
@@ -873,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(HTTP) status code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Error",
           "name": "_status",
           "package": "snap-predicates",
@@ -883,6 +960,7 @@
         "index": {
           "description": "HTTP status code",
           "hierarchy": "Snap Predicate Error",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Error",
           "name": "_status",
           "package": "snap-predicates",
@@ -896,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function to construct \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e values from\n status code and status message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Error",
           "name": "err",
           "package": "snap-predicates",
@@ -906,6 +985,7 @@
         "index": {
           "description": "Convenience function to construct Error values from status code and status message",
           "hierarchy": "Snap Predicate Error",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Error",
           "name": "err",
           "normalized": "Word-\u003eByteString-\u003eError",
@@ -920,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Header",
           "name": "Header",
           "package": "snap-predicates",
@@ -928,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Header",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Header",
           "name": "Header",
           "package": "snap-predicates",
@@ -942,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate which is true if the request has a header with the\n given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Header",
           "name": "HasHdr",
           "package": "snap-predicates",
@@ -951,6 +1034,7 @@
         "index": {
           "description": "Predicate which is true if the request has header with the given name",
           "hierarchy": "Snap Predicate Header",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Header",
           "name": "HasHdr",
           "package": "snap-predicates",
@@ -965,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e which returns the first request\n header value which could be converted to the target type.\n Relies on \u003ccode\u003e\u003ca\u003eReadable\u003c/a\u003e\u003c/code\u003e type-class for the actual conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Header",
           "name": "Hdr",
           "package": "snap-predicates",
@@ -974,6 +1059,7 @@
         "index": {
           "description": "Specialisation of Header which returns the first request header value which could be converted to the target type Relies on Readable type-class for the actual conversion",
           "hierarchy": "Snap Predicate Header",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Header",
           "name": "Hdr",
           "package": "snap-predicates",
@@ -988,6 +1074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e which returns the first request\n header value which could be converted to the target type.\n If the header is not present, the provided default will be used.\n Relies on \u003ccode\u003e\u003ca\u003eReadable\u003c/a\u003e\u003c/code\u003e type-class for the actual conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Header",
           "name": "HdrDef",
           "package": "snap-predicates",
@@ -997,6 +1084,7 @@
         "index": {
           "description": "Specialisation of Header which returns the first request header value which could be converted to the target type If the header is not present the provided default will be used Relies on Readable type-class for the actual conversion",
           "hierarchy": "Snap Predicate Header",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Header",
           "name": "HdrDef",
           "package": "snap-predicates",
@@ -1011,6 +1099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate which returns the first request header which could be\n converted to the target type wrapped in a Maybe.\n If the header is not present, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e will be returned.\n Relies on \u003ccode\u003e\u003ca\u003eReadable\u003c/a\u003e\u003c/code\u003e type-class for the actual conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Header",
           "name": "HdrOpt",
           "package": "snap-predicates",
@@ -1020,6 +1109,7 @@
         "index": {
           "description": "Predicate which returns the first request header which could be converted to the target type wrapped in Maybe If the header is not present Nothing will be returned Relies on Readable type-class for the actual conversion",
           "hierarchy": "Snap Predicate Header",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Header",
           "name": "HdrOpt",
           "package": "snap-predicates",
@@ -1034,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most generic request header predicate provided.\n It will get all request header values of \u003ccode\u003e_name\u003c/code\u003e and pass them on to\n the conversion function \u003ccode\u003e_read\u003c/code\u003e, which might either yield an error\n message or a value. If the header is not present, an optional default may be\n returned instead, if nothing is provided, the error message will be used\n when construction the 400 status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Header",
           "name": "Header",
           "package": "snap-predicates",
@@ -1043,6 +1134,7 @@
         "index": {
           "description": "The most generic request header predicate provided It will get all request header values of name and pass them on to the conversion function read which might either yield an error message or value If the header is not present an optional default may be returned instead if nothing is provided the error message will be used when construction the status",
           "hierarchy": "Snap Predicate Header",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Header",
           "name": "Header",
           "package": "snap-predicates",
@@ -1056,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Header",
           "name": "HasHdr",
           "package": "snap-predicates",
@@ -1065,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Header",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Header",
           "name": "HasHdr",
           "package": "snap-predicates",
@@ -1078,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Header",
           "name": "Hdr",
           "package": "snap-predicates",
@@ -1087,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Header",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Header",
           "name": "Hdr",
           "package": "snap-predicates",
@@ -1100,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Header",
           "name": "HdrDef",
           "package": "snap-predicates",
@@ -1109,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Header",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Header",
           "name": "HdrDef",
           "package": "snap-predicates",
@@ -1122,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Header",
           "name": "HdrOpt",
           "package": "snap-predicates",
@@ -1131,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Header",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Header",
           "name": "HdrOpt",
           "package": "snap-predicates",
@@ -1144,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Header",
           "name": "Header",
           "package": "snap-predicates",
@@ -1153,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Header",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Header",
           "name": "Header",
           "package": "snap-predicates",
@@ -1167,6 +1269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(optional) default value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Header",
           "name": "_hdrDefault",
           "package": "snap-predicates",
@@ -1177,6 +1280,7 @@
         "index": {
           "description": "optional default value",
           "hierarchy": "Snap Predicate Header",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Header",
           "name": "_hdrDefault",
           "package": "snap-predicates",
@@ -1191,6 +1295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erequest header name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Header",
           "name": "_hdrName",
           "package": "snap-predicates",
@@ -1201,6 +1306,7 @@
         "index": {
           "description": "request header name",
           "hierarchy": "Snap Predicate Header",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Header",
           "name": "_hdrName",
           "package": "snap-predicates",
@@ -1215,6 +1321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econversion function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Header",
           "name": "_hdrRead",
           "package": "snap-predicates",
@@ -1225,6 +1332,7 @@
         "index": {
           "description": "conversion function",
           "hierarchy": "Snap Predicate Header",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Header",
           "name": "_hdrRead",
           "normalized": "[ByteString]-\u003eEither ByteString a",
@@ -1240,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "MediaType",
           "package": "snap-predicates",
@@ -1248,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "MediaType",
           "package": "snap-predicates",
@@ -1262,6 +1372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emedia-type and sub-type \"*\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "All",
           "package": "snap-predicates",
@@ -1271,6 +1382,7 @@
         "index": {
           "description": "media-type and sub-type",
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "All",
           "package": "snap-predicates",
@@ -1284,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Application",
           "package": "snap-predicates",
@@ -1292,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Application",
           "package": "snap-predicates",
@@ -1305,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "AtomXml",
           "package": "snap-predicates",
@@ -1313,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "AtomXml",
           "package": "snap-predicates",
@@ -1326,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Audio",
           "package": "snap-predicates",
@@ -1334,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Audio",
           "package": "snap-predicates",
@@ -1347,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Css",
           "package": "snap-predicates",
@@ -1355,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Css",
           "package": "snap-predicates",
@@ -1368,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Csv",
           "package": "snap-predicates",
@@ -1376,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Csv",
           "package": "snap-predicates",
@@ -1389,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Encrypted",
           "package": "snap-predicates",
@@ -1397,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Encrypted",
           "package": "snap-predicates",
@@ -1410,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "FormData",
           "package": "snap-predicates",
@@ -1418,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "FormData",
           "package": "snap-predicates",
@@ -1431,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "FormUrlEncoded",
           "package": "snap-predicates",
@@ -1439,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "FormUrlEncoded",
           "package": "snap-predicates",
@@ -1452,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Gif",
           "package": "snap-predicates",
@@ -1460,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Gif",
           "package": "snap-predicates",
@@ -1473,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Gzip",
           "package": "snap-predicates",
@@ -1481,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Gzip",
           "package": "snap-predicates",
@@ -1494,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Image",
           "package": "snap-predicates",
@@ -1502,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Image",
           "package": "snap-predicates",
@@ -1515,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Javascript",
           "package": "snap-predicates",
@@ -1523,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Javascript",
           "package": "snap-predicates",
@@ -1536,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Jpeg",
           "package": "snap-predicates",
@@ -1544,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Jpeg",
           "package": "snap-predicates",
@@ -1557,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Json",
           "package": "snap-predicates",
@@ -1565,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Json",
           "package": "snap-predicates",
@@ -1579,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-class for converting a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to a media-subtype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "MSubType",
           "package": "snap-predicates",
@@ -1588,6 +1729,7 @@
         "index": {
           "description": "Type-class for converting ByteString to media-subtype",
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "MSubType",
           "package": "snap-predicates",
@@ -1602,6 +1744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-class for converting a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to a media-type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "MType",
           "package": "snap-predicates",
@@ -1611,6 +1754,7 @@
         "index": {
           "description": "Type-class for converting ByteString to media-type",
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "MType",
           "package": "snap-predicates",
@@ -1625,6 +1769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Media-type representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "MediaType",
           "package": "snap-predicates",
@@ -1634,6 +1779,7 @@
         "index": {
           "description": "The Media-type representation",
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "MediaType",
           "package": "snap-predicates",
@@ -1647,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Message",
           "package": "snap-predicates",
@@ -1655,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Message",
           "package": "snap-predicates",
@@ -1668,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Mixed",
           "package": "snap-predicates",
@@ -1676,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Mixed",
           "package": "snap-predicates",
@@ -1689,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Mp4",
           "package": "snap-predicates",
@@ -1697,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Mp4",
           "package": "snap-predicates",
@@ -1710,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Mpeg",
           "package": "snap-predicates",
@@ -1718,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Mpeg",
           "package": "snap-predicates",
@@ -1731,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Multipart",
           "package": "snap-predicates",
@@ -1739,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Multipart",
           "package": "snap-predicates",
@@ -1752,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "OctetStream",
           "package": "snap-predicates",
@@ -1760,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "OctetStream",
           "package": "snap-predicates",
@@ -1773,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Ogg",
           "package": "snap-predicates",
@@ -1781,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Ogg",
           "package": "snap-predicates",
@@ -1794,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Partial",
           "package": "snap-predicates",
@@ -1802,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Partial",
           "package": "snap-predicates",
@@ -1815,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs12",
           "package": "snap-predicates",
@@ -1823,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs12",
           "package": "snap-predicates",
@@ -1836,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7Cert",
           "package": "snap-predicates",
@@ -1844,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7Cert",
           "package": "snap-predicates",
@@ -1857,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7CertRqRs",
           "package": "snap-predicates",
@@ -1865,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7CertRqRs",
           "package": "snap-predicates",
@@ -1878,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7Mime",
           "package": "snap-predicates",
@@ -1886,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7Mime",
           "package": "snap-predicates",
@@ -1899,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7Sig",
           "package": "snap-predicates",
@@ -1907,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7Sig",
           "package": "snap-predicates",
@@ -1920,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Plain",
           "package": "snap-predicates",
@@ -1928,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Plain",
           "package": "snap-predicates",
@@ -1941,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Png",
           "package": "snap-predicates",
@@ -1949,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Png",
           "package": "snap-predicates",
@@ -1962,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Postscript",
           "package": "snap-predicates",
@@ -1970,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Postscript",
           "package": "snap-predicates",
@@ -1983,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Protobuf",
           "package": "snap-predicates",
@@ -1991,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Protobuf",
           "package": "snap-predicates",
@@ -2004,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "RdfXml",
           "package": "snap-predicates",
@@ -2012,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "RdfXml",
           "package": "snap-predicates",
@@ -2025,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "RssXml",
           "package": "snap-predicates",
@@ -2033,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "RssXml",
           "package": "snap-predicates",
@@ -2047,6 +2231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric media-subtype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "SubType",
           "package": "snap-predicates",
@@ -2056,6 +2241,7 @@
         "index": {
           "description": "Generic media-subtype",
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "SubType",
           "package": "snap-predicates",
@@ -2069,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Tar",
           "package": "snap-predicates",
@@ -2077,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Tar",
           "package": "snap-predicates",
@@ -2090,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Text",
           "package": "snap-predicates",
@@ -2098,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Text",
           "package": "snap-predicates",
@@ -2111,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Thrift",
           "package": "snap-predicates",
@@ -2119,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Thrift",
           "package": "snap-predicates",
@@ -2132,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Tiff",
           "package": "snap-predicates",
@@ -2140,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Tiff",
           "package": "snap-predicates",
@@ -2154,6 +2348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric media-type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Type",
           "package": "snap-predicates",
@@ -2163,6 +2358,7 @@
         "index": {
           "description": "Generic media-type",
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Type",
           "package": "snap-predicates",
@@ -2176,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Video",
           "package": "snap-predicates",
@@ -2184,6 +2381,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Video",
           "package": "snap-predicates",
@@ -2197,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Vorbis",
           "package": "snap-predicates",
@@ -2205,6 +2404,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Vorbis",
           "package": "snap-predicates",
@@ -2218,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Webm",
           "package": "snap-predicates",
@@ -2226,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Webm",
           "package": "snap-predicates",
@@ -2239,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "XhtmlXml",
           "package": "snap-predicates",
@@ -2247,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "XhtmlXml",
           "package": "snap-predicates",
@@ -2260,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Xml",
           "package": "snap-predicates",
@@ -2268,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Xml",
           "package": "snap-predicates",
@@ -2281,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "All",
           "package": "snap-predicates",
@@ -2290,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "All",
           "package": "snap-predicates",
@@ -2303,6 +2511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Application",
           "package": "snap-predicates",
@@ -2312,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Application",
           "package": "snap-predicates",
@@ -2325,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "AtomXml",
           "package": "snap-predicates",
@@ -2334,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "AtomXml",
           "package": "snap-predicates",
@@ -2347,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Audio",
           "package": "snap-predicates",
@@ -2356,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Audio",
           "package": "snap-predicates",
@@ -2369,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Css",
           "package": "snap-predicates",
@@ -2378,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Css",
           "package": "snap-predicates",
@@ -2391,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Csv",
           "package": "snap-predicates",
@@ -2400,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Csv",
           "package": "snap-predicates",
@@ -2413,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Encrypted",
           "package": "snap-predicates",
@@ -2422,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Encrypted",
           "package": "snap-predicates",
@@ -2435,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "FormData",
           "package": "snap-predicates",
@@ -2444,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "FormData",
           "package": "snap-predicates",
@@ -2457,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "FormUrlEncoded",
           "package": "snap-predicates",
@@ -2466,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "FormUrlEncoded",
           "package": "snap-predicates",
@@ -2479,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Gif",
           "package": "snap-predicates",
@@ -2488,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Gif",
           "package": "snap-predicates",
@@ -2501,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Gzip",
           "package": "snap-predicates",
@@ -2510,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Gzip",
           "package": "snap-predicates",
@@ -2523,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Image",
           "package": "snap-predicates",
@@ -2532,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Image",
           "package": "snap-predicates",
@@ -2545,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Javascript",
           "package": "snap-predicates",
@@ -2554,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Javascript",
           "package": "snap-predicates",
@@ -2567,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Jpeg",
           "package": "snap-predicates",
@@ -2576,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Jpeg",
           "package": "snap-predicates",
@@ -2589,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Json",
           "package": "snap-predicates",
@@ -2598,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Json",
           "package": "snap-predicates",
@@ -2611,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "MediaType",
           "package": "snap-predicates",
@@ -2620,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "MediaType",
           "package": "snap-predicates",
@@ -2633,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Message",
           "package": "snap-predicates",
@@ -2642,6 +2881,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Message",
           "package": "snap-predicates",
@@ -2655,6 +2895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Mixed",
           "package": "snap-predicates",
@@ -2664,6 +2905,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Mixed",
           "package": "snap-predicates",
@@ -2677,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Mp4",
           "package": "snap-predicates",
@@ -2686,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Mp4",
           "package": "snap-predicates",
@@ -2699,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Mpeg",
           "package": "snap-predicates",
@@ -2708,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Mpeg",
           "package": "snap-predicates",
@@ -2721,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Multipart",
           "package": "snap-predicates",
@@ -2730,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Multipart",
           "package": "snap-predicates",
@@ -2743,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "OctetStream",
           "package": "snap-predicates",
@@ -2752,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "OctetStream",
           "package": "snap-predicates",
@@ -2765,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Ogg",
           "package": "snap-predicates",
@@ -2774,6 +3025,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Ogg",
           "package": "snap-predicates",
@@ -2787,6 +3039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Partial",
           "package": "snap-predicates",
@@ -2796,6 +3049,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Partial",
           "package": "snap-predicates",
@@ -2809,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs12",
           "package": "snap-predicates",
@@ -2818,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs12",
           "package": "snap-predicates",
@@ -2831,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7Cert",
           "package": "snap-predicates",
@@ -2840,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7Cert",
           "package": "snap-predicates",
@@ -2853,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7CertRqRs",
           "package": "snap-predicates",
@@ -2862,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7CertRqRs",
           "package": "snap-predicates",
@@ -2875,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7Mime",
           "package": "snap-predicates",
@@ -2884,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7Mime",
           "package": "snap-predicates",
@@ -2897,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7Sig",
           "package": "snap-predicates",
@@ -2906,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Pkcs7Sig",
           "package": "snap-predicates",
@@ -2919,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Plain",
           "package": "snap-predicates",
@@ -2928,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Plain",
           "package": "snap-predicates",
@@ -2941,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Png",
           "package": "snap-predicates",
@@ -2950,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Png",
           "package": "snap-predicates",
@@ -2963,6 +3231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Postscript",
           "package": "snap-predicates",
@@ -2972,6 +3241,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Postscript",
           "package": "snap-predicates",
@@ -2985,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Protobuf",
           "package": "snap-predicates",
@@ -2994,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Protobuf",
           "package": "snap-predicates",
@@ -3007,6 +3279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "RdfXml",
           "package": "snap-predicates",
@@ -3016,6 +3289,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "RdfXml",
           "package": "snap-predicates",
@@ -3029,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "RssXml",
           "package": "snap-predicates",
@@ -3038,6 +3313,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "RssXml",
           "package": "snap-predicates",
@@ -3051,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "SubType",
           "package": "snap-predicates",
@@ -3060,6 +3337,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "SubType",
           "package": "snap-predicates",
@@ -3073,6 +3351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Tar",
           "package": "snap-predicates",
@@ -3082,6 +3361,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Tar",
           "package": "snap-predicates",
@@ -3095,6 +3375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Text",
           "package": "snap-predicates",
@@ -3104,6 +3385,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Text",
           "package": "snap-predicates",
@@ -3117,6 +3399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Thrift",
           "package": "snap-predicates",
@@ -3126,6 +3409,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Thrift",
           "package": "snap-predicates",
@@ -3139,6 +3423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Tiff",
           "package": "snap-predicates",
@@ -3148,6 +3433,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Tiff",
           "package": "snap-predicates",
@@ -3161,6 +3447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Type",
           "package": "snap-predicates",
@@ -3170,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Type",
           "package": "snap-predicates",
@@ -3183,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Video",
           "package": "snap-predicates",
@@ -3192,6 +3481,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Video",
           "package": "snap-predicates",
@@ -3205,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Vorbis",
           "package": "snap-predicates",
@@ -3214,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Vorbis",
           "package": "snap-predicates",
@@ -3227,6 +3519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Webm",
           "package": "snap-predicates",
@@ -3236,6 +3529,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Webm",
           "package": "snap-predicates",
@@ -3249,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "XhtmlXml",
           "package": "snap-predicates",
@@ -3258,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "XhtmlXml",
           "package": "snap-predicates",
@@ -3271,6 +3567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "Xml",
           "package": "snap-predicates",
@@ -3280,6 +3577,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "Xml",
           "package": "snap-predicates",
@@ -3293,6 +3591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "_params",
           "package": "snap-predicates",
@@ -3302,6 +3601,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "_params",
           "normalized": "[(ByteString,ByteString)]",
@@ -3316,6 +3616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "_quality",
           "package": "snap-predicates",
@@ -3325,6 +3626,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "_quality",
           "package": "snap-predicates",
@@ -3337,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "_subtype",
           "package": "snap-predicates",
@@ -3346,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "_subtype",
           "package": "snap-predicates",
@@ -3358,6 +3662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "_type",
           "package": "snap-predicates",
@@ -3367,6 +3672,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "_type",
           "package": "snap-predicates",
@@ -3379,6 +3685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "toSubType",
           "package": "snap-predicates",
@@ -3388,6 +3695,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "toSubType",
           "normalized": "a-\u003eByteString-\u003eMaybe a",
@@ -3403,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.MediaType",
           "name": "toType",
           "package": "snap-predicates",
@@ -3412,6 +3721,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate MediaType",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.MediaType",
           "name": "toType",
           "normalized": "a-\u003eByteString-\u003eMaybe a",
@@ -3427,6 +3737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Param",
           "name": "Param",
           "package": "snap-predicates",
@@ -3435,6 +3746,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Param",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Param",
           "name": "Param",
           "package": "snap-predicates",
@@ -3449,6 +3761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate which is true if the request has a parameter with the\n given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Param",
           "name": "HasParam",
           "package": "snap-predicates",
@@ -3458,6 +3771,7 @@
         "index": {
           "description": "Predicate which is true if the request has parameter with the given name",
           "hierarchy": "Snap Predicate Param",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Param",
           "name": "HasParam",
           "package": "snap-predicates",
@@ -3472,6 +3786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eParameter\u003c/a\u003e\u003c/code\u003e which returns the first request\n parameter which could be converted to the target type.\n Relies on \u003ccode\u003e\u003ca\u003eReadable\u003c/a\u003e\u003c/code\u003e type-class for the actual conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Param",
           "name": "Param",
           "package": "snap-predicates",
@@ -3481,6 +3796,7 @@
         "index": {
           "description": "Specialisation of Parameter which returns the first request parameter which could be converted to the target type Relies on Readable type-class for the actual conversion",
           "hierarchy": "Snap Predicate Param",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Param",
           "name": "Param",
           "package": "snap-predicates",
@@ -3495,6 +3811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eParameter\u003c/a\u003e\u003c/code\u003e which returns the first request\n parameter which could be converted to the target type.\n If the parameter is not present, the provided default will be used.\n Relies on \u003ccode\u003e\u003ca\u003eReadable\u003c/a\u003e\u003c/code\u003e type-class for the actual conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Param",
           "name": "ParamDef",
           "package": "snap-predicates",
@@ -3504,6 +3821,7 @@
         "index": {
           "description": "Specialisation of Parameter which returns the first request parameter which could be converted to the target type If the parameter is not present the provided default will be used Relies on Readable type-class for the actual conversion",
           "hierarchy": "Snap Predicate Param",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Param",
           "name": "ParamDef",
           "package": "snap-predicates",
@@ -3518,6 +3836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate which returns the first request parameter which could be\n converted to the target type wrapped in a Maybe.\n If the parameter is not present, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e will be returned.\n Relies on \u003ccode\u003e\u003ca\u003eReadable\u003c/a\u003e\u003c/code\u003e type-class for the actual conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Param",
           "name": "ParamOpt",
           "package": "snap-predicates",
@@ -3527,6 +3846,7 @@
         "index": {
           "description": "Predicate which returns the first request parameter which could be converted to the target type wrapped in Maybe If the parameter is not present Nothing will be returned Relies on Readable type-class for the actual conversion",
           "hierarchy": "Snap Predicate Param",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Param",
           "name": "ParamOpt",
           "package": "snap-predicates",
@@ -3541,6 +3861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most generic request parameter predicate provided.\n It will get all request parameter values of \u003ccode\u003e_name\u003c/code\u003e and pass them on to\n the conversion function \u003ccode\u003e_read\u003c/code\u003e, which might either yield an error\n message or a value. If the parameter is not present, an optional default may be\n returned instead, if nothing is provided, the error message will be used\n when construction the 400 status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Param",
           "name": "Parameter",
           "package": "snap-predicates",
@@ -3550,6 +3871,7 @@
         "index": {
           "description": "The most generic request parameter predicate provided It will get all request parameter values of name and pass them on to the conversion function read which might either yield an error message or value If the parameter is not present an optional default may be returned instead if nothing is provided the error message will be used when construction the status",
           "hierarchy": "Snap Predicate Param",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Param",
           "name": "Parameter",
           "package": "snap-predicates",
@@ -3563,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Param",
           "name": "HasParam",
           "package": "snap-predicates",
@@ -3572,6 +3895,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Param",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Param",
           "name": "HasParam",
           "package": "snap-predicates",
@@ -3585,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Param",
           "name": "Param",
           "package": "snap-predicates",
@@ -3594,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Param",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Param",
           "name": "Param",
           "package": "snap-predicates",
@@ -3607,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Param",
           "name": "ParamDef",
           "package": "snap-predicates",
@@ -3616,6 +3943,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Param",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Param",
           "name": "ParamDef",
           "package": "snap-predicates",
@@ -3629,6 +3957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Param",
           "name": "ParamOpt",
           "package": "snap-predicates",
@@ -3638,6 +3967,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Param",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Param",
           "name": "ParamOpt",
           "package": "snap-predicates",
@@ -3651,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Param",
           "name": "Parameter",
           "package": "snap-predicates",
@@ -3660,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Param",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Param",
           "name": "Parameter",
           "package": "snap-predicates",
@@ -3674,6 +4006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(optional) default value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Param",
           "name": "_pDefault",
           "package": "snap-predicates",
@@ -3684,6 +4017,7 @@
         "index": {
           "description": "optional default value",
           "hierarchy": "Snap Predicate Param",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Param",
           "name": "_pDefault",
           "package": "snap-predicates",
@@ -3698,6 +4032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erequest parameter name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Param",
           "name": "_pName",
           "package": "snap-predicates",
@@ -3708,6 +4043,7 @@
         "index": {
           "description": "request parameter name",
           "hierarchy": "Snap Predicate Param",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Param",
           "name": "_pName",
           "package": "snap-predicates",
@@ -3722,6 +4058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econversion function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Param",
           "name": "_pRead",
           "package": "snap-predicates",
@@ -3732,6 +4069,7 @@
         "index": {
           "description": "conversion function",
           "hierarchy": "Snap Predicate Param",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Param",
           "name": "_pRead",
           "normalized": "[ByteString]-\u003eEither ByteString a",
@@ -3747,6 +4085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Tutorial",
           "name": "Tutorial",
           "package": "snap-predicates",
@@ -3755,6 +4094,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Tutorial",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Tutorial",
           "name": "Tutorial",
           "package": "snap-predicates",
@@ -3768,6 +4108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Types",
           "name": "Types",
           "package": "snap-predicates",
@@ -3776,6 +4117,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Types",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Types",
           "name": "Types",
           "package": "snap-predicates",
@@ -3789,6 +4131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Types",
           "name": "CSV",
           "package": "snap-predicates",
@@ -3797,6 +4140,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Types",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Types",
           "name": "CSV",
           "package": "snap-predicates",
@@ -3810,6 +4154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate.Types",
           "name": "list",
           "package": "snap-predicates",
@@ -3819,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate Types",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate.Types",
           "name": "list",
           "normalized": "CSV a-\u003e[a]",
@@ -3833,6 +4179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Predicate",
           "name": "Predicate",
           "package": "snap-predicates",
@@ -3841,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "Snap Predicate",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Predicate",
           "name": "Predicate",
           "package": "snap-predicates",
@@ -3854,6 +4202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "Route",
           "package": "snap-predicates",
@@ -3862,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "Route",
           "package": "snap-predicates",
@@ -3876,6 +4226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Routes monad is used to add routing declarations via \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e or\n one of \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epost\u003c/a\u003e\u003c/code\u003e, etc.\n Routing declarations can then be turned into the ordinary snap format,\n i.e. \u003ccode\u003eMonadSnap m =\u003e [(ByteString, m a)]\u003c/code\u003e or into strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "Routes",
           "package": "snap-predicates",
@@ -3885,6 +4236,7 @@
         "index": {
           "description": "The Routes monad is used to add routing declarations via addRoute or one of get post etc Routing declarations can then be turned into the ordinary snap format i.e MonadSnap ByteString or into strings",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "Routes",
           "package": "snap-predicates",
@@ -3899,6 +4251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a route for some \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e and path (potentially with variable\n captures), and constrained the some \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "addRoute",
           "package": "snap-predicates",
@@ -3908,6 +4261,7 @@
         "index": {
           "description": "Add route for some Method and path potentially with variable captures and constrained the some Predicate",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "addRoute",
           "normalized": "Method-\u003eByteString-\u003e(TVal a-\u003eb())-\u003ea-\u003eRoutes b()",
@@ -3924,6 +4278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "connect",
           "package": "snap-predicates",
@@ -3933,6 +4288,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "connect",
           "normalized": "ByteString-\u003e(TVal a-\u003eb())-\u003ea-\u003eRoutes b()",
@@ -3948,6 +4304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e taking\n no \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e into consideration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "connect_",
           "package": "snap-predicates",
@@ -3957,6 +4314,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method taking no Predicate into consideration",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "connect_",
           "normalized": "ByteString-\u003e(()-\u003ea())-\u003eRoutes a()",
@@ -3972,6 +4330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "delete",
           "package": "snap-predicates",
@@ -3981,6 +4340,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "delete",
           "normalized": "ByteString-\u003e(TVal a-\u003eb())-\u003ea-\u003eRoutes b()",
@@ -3996,6 +4356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e taking\n no \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e into consideration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "delete_",
           "package": "snap-predicates",
@@ -4005,6 +4366,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method taking no Predicate into consideration",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "delete_",
           "normalized": "ByteString-\u003e(()-\u003ea())-\u003eRoutes a()",
@@ -4020,6 +4382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn route definitions into \"snapable\" format, i.e.\n Routes are grouped per path and selection evaluates routes\n against the given Snap \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "expandRoutes",
           "package": "snap-predicates",
@@ -4030,6 +4393,7 @@
         "index": {
           "description": "Turn route definitions into snapable format i.e Routes are grouped per path and selection evaluates routes against the given Snap Request",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "expandRoutes",
           "normalized": "Routes a()-\u003e[(ByteString,a())]",
@@ -4046,6 +4410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "get",
           "package": "snap-predicates",
@@ -4055,6 +4420,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "get",
           "normalized": "ByteString-\u003e(TVal a-\u003eb())-\u003ea-\u003eRoutes b()",
@@ -4070,6 +4436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e taking\n no \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e into consideration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "get_",
           "package": "snap-predicates",
@@ -4079,6 +4446,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method taking no Predicate into consideration",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "get_",
           "normalized": "ByteString-\u003e(()-\u003ea())-\u003eRoutes a()",
@@ -4094,6 +4462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "head",
           "package": "snap-predicates",
@@ -4103,6 +4472,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "head",
           "normalized": "ByteString-\u003e(TVal a-\u003eb())-\u003ea-\u003eRoutes b()",
@@ -4118,6 +4488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e taking\n no \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e into consideration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "head_",
           "package": "snap-predicates",
@@ -4127,6 +4498,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method taking no Predicate into consideration",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "head_",
           "normalized": "ByteString-\u003e(()-\u003ea())-\u003eRoutes a()",
@@ -4142,6 +4514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "options",
           "package": "snap-predicates",
@@ -4151,6 +4524,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "options",
           "normalized": "ByteString-\u003e(TVal a-\u003eb())-\u003ea-\u003eRoutes b()",
@@ -4166,6 +4540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e taking\n no \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e into consideration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "options_",
           "package": "snap-predicates",
@@ -4175,6 +4550,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method taking no Predicate into consideration",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "options_",
           "normalized": "ByteString-\u003e(()-\u003ea())-\u003eRoutes a()",
@@ -4190,6 +4566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "post",
           "package": "snap-predicates",
@@ -4199,6 +4576,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "post",
           "normalized": "ByteString-\u003e(TVal a-\u003eb())-\u003ea-\u003eRoutes b()",
@@ -4214,6 +4592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e taking\n no \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e into consideration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "post_",
           "package": "snap-predicates",
@@ -4223,6 +4602,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method taking no Predicate into consideration",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "post_",
           "normalized": "ByteString-\u003e(()-\u003ea())-\u003eRoutes a()",
@@ -4238,6 +4618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "put",
           "package": "snap-predicates",
@@ -4247,6 +4628,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "put",
           "normalized": "ByteString-\u003e(TVal a-\u003eb())-\u003ea-\u003eRoutes b()",
@@ -4262,6 +4644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e taking\n no \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e into consideration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "put_",
           "package": "snap-predicates",
@@ -4271,6 +4654,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method taking no Predicate into consideration",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "put_",
           "normalized": "ByteString-\u003e(()-\u003ea())-\u003eRoutes a()",
@@ -4285,6 +4669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "renderErrorWith",
           "package": "snap-predicates",
@@ -4294,6 +4679,7 @@
         },
         "index": {
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "renderErrorWith",
           "normalized": "Renderer-\u003eRoutes a()",
@@ -4310,6 +4696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn route definitions into a list of \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "showRoutes",
           "package": "snap-predicates",
@@ -4320,6 +4707,7 @@
         "index": {
           "description": "Turn route definitions into list of String",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "showRoutes",
           "normalized": "Routes a()-\u003e[String]",
@@ -4336,6 +4724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "trace",
           "package": "snap-predicates",
@@ -4345,6 +4734,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "trace",
           "normalized": "ByteString-\u003e(TVal a-\u003eb())-\u003ea-\u003eRoutes b()",
@@ -4360,6 +4750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialisation of \u003ccode\u003e\u003ca\u003eaddRoute\u003c/a\u003e\u003c/code\u003e for a specific HTTP \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e taking\n no \u003ccode\u003e\u003ca\u003ePredicate\u003c/a\u003e\u003c/code\u003e into consideration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:19 UTC 2014",
           "module": "Snap.Route",
           "name": "trace_",
           "package": "snap-predicates",
@@ -4369,6 +4760,7 @@
         "index": {
           "description": "Specialisation of addRoute for specific HTTP Method taking no Predicate into consideration",
           "hierarchy": "Snap Route",
+          "indexed": "2014-03-11T20:05:19",
           "module": "Snap.Route",
           "name": "trace_",
           "normalized": "ByteString-\u003e(()-\u003ea())-\u003eRoutes a()",

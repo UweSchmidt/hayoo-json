@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mighttpd2"
+        "phrase": "mighttpd2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.ByteString",
           "name": "ByteString",
           "package": "mighttpd2",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty ByteString",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.ByteString",
           "name": "ByteString",
           "package": "mighttpd2",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppending two \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.ByteString",
           "name": "(+++)",
           "package": "mighttpd2",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Appending two ByteString",
           "hierarchy": "Program Mighty ByteString",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.ByteString",
           "name": "(+++) +++",
           "normalized": "ByteString-\u003eByteString-\u003eByteString",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting showalbe data to \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.ByteString",
           "name": "bshow",
           "package": "mighttpd2",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Converting showalbe data to ByteString",
           "hierarchy": "Program Mighty ByteString",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.ByteString",
           "name": "bshow",
           "normalized": "a-\u003eByteString",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "Config",
           "package": "mighttpd2",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "Config",
           "package": "mighttpd2",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "Option",
           "package": "mighttpd2",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "Option",
           "package": "mighttpd2",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "Option",
           "package": "mighttpd2",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "Option",
           "package": "mighttpd2",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting a default \u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "defaultOption",
           "package": "mighttpd2",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Getting default Option",
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "defaultOption",
           "normalized": "String-\u003eOption",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_connection_timeout",
           "package": "mighttpd2",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_connection_timeout",
           "package": "mighttpd2",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_debug_mode",
           "package": "mighttpd2",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_debug_mode",
           "package": "mighttpd2",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_fd_cache_duration",
           "package": "mighttpd2",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_fd_cache_duration",
           "package": "mighttpd2",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_group",
           "package": "mighttpd2",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_group",
           "package": "mighttpd2",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_index_cgi",
           "package": "mighttpd2",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_index_cgi",
           "package": "mighttpd2",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_index_file",
           "package": "mighttpd2",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_index_file",
           "package": "mighttpd2",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_log_backup_number",
           "package": "mighttpd2",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_log_backup_number",
           "package": "mighttpd2",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_log_file",
           "package": "mighttpd2",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_log_file",
           "package": "mighttpd2",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_log_file_size",
           "package": "mighttpd2",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_log_file_size",
           "package": "mighttpd2",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_logging",
           "package": "mighttpd2",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_logging",
           "package": "mighttpd2",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_pid_file",
           "package": "mighttpd2",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_pid_file",
           "package": "mighttpd2",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_port",
           "package": "mighttpd2",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_port",
           "package": "mighttpd2",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_proxy_timeout",
           "package": "mighttpd2",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_proxy_timeout",
           "package": "mighttpd2",
@@ -451,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_report_file",
           "package": "mighttpd2",
@@ -460,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_report_file",
           "package": "mighttpd2",
@@ -472,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_routing_file",
           "package": "mighttpd2",
@@ -481,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_routing_file",
           "package": "mighttpd2",
@@ -493,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_server_name",
           "package": "mighttpd2",
@@ -502,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_server_name",
           "package": "mighttpd2",
@@ -514,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_service",
           "package": "mighttpd2",
@@ -523,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_service",
           "package": "mighttpd2",
@@ -535,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_status_file_dir",
           "package": "mighttpd2",
@@ -544,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_status_file_dir",
           "package": "mighttpd2",
@@ -556,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_tls_cert_file",
           "package": "mighttpd2",
@@ -565,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_tls_cert_file",
           "package": "mighttpd2",
@@ -577,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_tls_key_file",
           "package": "mighttpd2",
@@ -586,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_tls_key_file",
           "package": "mighttpd2",
@@ -598,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_tls_port",
           "package": "mighttpd2",
@@ -607,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_tls_port",
           "package": "mighttpd2",
@@ -619,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "opt_user",
           "package": "mighttpd2",
@@ -628,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "opt_user",
           "package": "mighttpd2",
@@ -641,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing a configuration file to get an \u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Config",
           "name": "parseOption",
           "package": "mighttpd2",
@@ -651,6 +710,7 @@
         "index": {
           "description": "Parsing configuration file to get an Option",
           "hierarchy": "Program Mighty Config",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Config",
           "name": "parseOption",
           "normalized": "FilePath-\u003eString-\u003eIO Option",
@@ -666,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.FileCache",
           "name": "FileCache",
           "package": "mighttpd2",
@@ -674,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty FileCache",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.FileCache",
           "name": "FileCache",
           "package": "mighttpd2",
@@ -687,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.FileCache",
           "name": "GetInfo",
           "package": "mighttpd2",
@@ -695,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty FileCache",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.FileCache",
           "name": "GetInfo",
           "package": "mighttpd2",
@@ -708,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.FileCache",
           "name": "RemoveInfo",
           "package": "mighttpd2",
@@ -716,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty FileCache",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.FileCache",
           "name": "RemoveInfo",
           "package": "mighttpd2",
@@ -729,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.FileCache",
           "name": "fileCacheInit",
           "package": "mighttpd2",
@@ -738,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty FileCache",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.FileCache",
           "name": "fileCacheInit",
           "normalized": "IO(GetInfo,RemoveInfo)",
@@ -753,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.IORef",
           "name": "IORef",
           "package": "mighttpd2",
@@ -761,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty IORef",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.IORef",
           "name": "IORef",
           "package": "mighttpd2",
@@ -775,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003e\u003ca\u003eatomicModifyIORef\u003c/a\u003e\u003c/code\u003e.\n   When modifying the IORef, calculation is delayed.\n   So, modification is quick and CAS would success.\n   After modification, calculation is forced.\n   So, no space leak.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.IORef",
           "name": "strictAtomicModifyIORef",
           "package": "mighttpd2",
@@ -785,6 +856,7 @@
         "index": {
           "description": "Strict version of atomicModifyIORef When modifying the IORef calculation is delayed So modification is quick and CAS would success After modification calculation is forced So no space leak",
           "hierarchy": "Program Mighty IORef",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.IORef",
           "name": "strictAtomicModifyIORef",
           "normalized": "IORef a-\u003e(a-\u003ea)-\u003eIO()",
@@ -800,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Network",
           "name": "Network",
           "package": "mighttpd2",
@@ -808,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Network",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Network",
           "name": "Network",
           "package": "mighttpd2",
@@ -822,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a program detaching its terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Network",
           "name": "daemonize",
           "package": "mighttpd2",
@@ -832,6 +907,7 @@
         "index": {
           "description": "Run program detaching its terminal",
           "hierarchy": "Program Mighty Network",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Network",
           "name": "daemonize",
           "normalized": "IO()-\u003eIO()",
@@ -847,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen an \u003ccode\u003e\u003ca\u003eSocket\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eReuseAddr\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNoDelay\u003c/a\u003e\u003c/code\u003e set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Network",
           "name": "listenSocket",
           "package": "mighttpd2",
@@ -856,6 +933,7 @@
         "index": {
           "description": "Open an Socket with ReuseAddr and NoDelay set",
           "hierarchy": "Program Mighty Network",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Network",
           "name": "listenSocket",
           "normalized": "String-\u003eInt-\u003eIO Socket",
@@ -872,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsers for Mighty\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Parser",
           "name": "Parser",
           "package": "mighttpd2",
@@ -881,6 +960,7 @@
         "index": {
           "description": "Parsers for Mighty",
           "hierarchy": "Program Mighty Parser",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Parser",
           "name": "Parser",
           "package": "mighttpd2",
@@ -895,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e to consume a trailing comment\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparse comment \"\" \"# comments\"\n\u003c/code\u003e\u003c/strong\u003eRight ()\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eisLeft $ parse comment \"\" \"foo\"\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Parser",
           "name": "comment",
           "package": "mighttpd2",
@@ -905,6 +986,7 @@
         "index": {
           "description": "Parser to consume trailing comment parse comment comments Right isLeft parse comment foo True",
           "hierarchy": "Program Mighty Parser",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Parser",
           "name": "comment",
           "normalized": "Parser()",
@@ -920,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e to consume one or more comment lines\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparse commentLines \"\" \"# comments\\n# comments\\n# comments\\n\"\n\u003c/code\u003e\u003c/strong\u003eRight ()\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Parser",
           "name": "commentLines",
           "package": "mighttpd2",
@@ -930,6 +1013,7 @@
         "index": {
           "description": "Parser to consume one or more comment lines parse commentLines comments comments comments Right",
           "hierarchy": "Program Mighty Parser",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Parser",
           "name": "commentLines",
           "normalized": "Parser()",
@@ -946,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing a file.\n   If parsing fails, an \u003ccode\u003e\u003ca\u003eIOException\u003c/a\u003e\u003c/code\u003e is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Parser",
           "name": "parseFile",
           "package": "mighttpd2",
@@ -956,6 +1041,7 @@
         "index": {
           "description": "Parsing file If parsing fails an IOException is thrown",
           "hierarchy": "Program Mighty Parser",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Parser",
           "name": "parseFile",
           "normalized": "Parser a-\u003eFilePath-\u003eIO a",
@@ -972,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e to consume exactly one white space\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparse spc \"\" \" \"\n\u003c/code\u003e\u003c/strong\u003eRight ' '\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eisLeft $ parse spc \"\" \"\"\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Parser",
           "name": "spc",
           "package": "mighttpd2",
@@ -982,6 +1069,7 @@
         "index": {
           "description": "Parser to consume exactly one white space parse spc Right isLeft parse spc True",
           "hierarchy": "Program Mighty Parser",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Parser",
           "name": "spc",
           "package": "mighttpd2",
@@ -995,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e to consume zero or more white spaces\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparse spcs \"\" \"    \"\n\u003c/code\u003e\u003c/strong\u003eRight ()\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparse spcs \"\" \"\"\n\u003c/code\u003e\u003c/strong\u003eRight ()\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Parser",
           "name": "spcs",
           "package": "mighttpd2",
@@ -1005,6 +1094,7 @@
         "index": {
           "description": "Parser to consume zero or more white spaces parse spcs Right parse spcs Right",
           "hierarchy": "Program Mighty Parser",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Parser",
           "name": "spcs",
           "normalized": "Parser()",
@@ -1020,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e to consume one or more white spaces\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparse spcs1 \"\" \"    \"\n\u003c/code\u003e\u003c/strong\u003eRight ()\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparse spcs1 \"\" \" \"\n\u003c/code\u003e\u003c/strong\u003eRight ()\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eisLeft $ parse spcs1 \"\" \"\"\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Parser",
           "name": "spcs1",
           "package": "mighttpd2",
@@ -1030,6 +1121,7 @@
         "index": {
           "description": "Parser to consume one or more white spaces parse spcs1 Right parse spcs1 Right isLeft parse spcs1 True",
           "hierarchy": "Program Mighty Parser",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Parser",
           "name": "spcs1",
           "normalized": "Parser()",
@@ -1045,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e to consume a trailing comment\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparse trailing \"\" \"# comments\\n\"\n\u003c/code\u003e\u003c/strong\u003eRight ()\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eisLeft $ parse trailing \"\" \"X# comments\\n\"\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Parser",
           "name": "trailing",
           "package": "mighttpd2",
@@ -1055,6 +1148,7 @@
         "index": {
           "description": "Parser to consume trailing comment parse trailing comments Right isLeft parse trailing comments True",
           "hierarchy": "Program Mighty Parser",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Parser",
           "name": "trailing",
           "normalized": "Parser()",
@@ -1069,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Process",
           "name": "Process",
           "package": "mighttpd2",
@@ -1077,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Process",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Process",
           "name": "Process",
           "package": "mighttpd2",
@@ -1091,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting the process id of a running Mighty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Process",
           "name": "getMightyPid",
           "package": "mighttpd2",
@@ -1101,6 +1198,7 @@
         "index": {
           "description": "Getting the process id of running Mighty",
           "hierarchy": "Program Mighty Process",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Process",
           "name": "getMightyPid",
           "normalized": "IO[ProcessID]",
@@ -1116,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Report",
           "name": "Report",
           "package": "mighttpd2",
@@ -1124,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Report",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Report",
           "name": "Report",
           "package": "mighttpd2",
@@ -1137,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Report",
           "name": "Reporter",
           "package": "mighttpd2",
@@ -1145,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Report",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Report",
           "name": "Reporter",
           "package": "mighttpd2",
@@ -1158,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Report",
           "name": "finReporter",
           "package": "mighttpd2",
@@ -1167,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Report",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Report",
           "name": "finReporter",
           "normalized": "Reporter-\u003eIO()",
@@ -1182,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Report",
           "name": "initReporter",
           "package": "mighttpd2",
@@ -1191,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Report",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Report",
           "name": "initReporter",
           "normalized": "Bool-\u003eFilePath-\u003eIO(Either SomeException Reporter)",
@@ -1206,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Report",
           "name": "printStdout",
           "package": "mighttpd2",
@@ -1215,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Report",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Report",
           "name": "printStdout",
           "normalized": "Maybe Request-\u003eSomeException-\u003eIO()",
@@ -1230,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Report",
           "name": "report",
           "package": "mighttpd2",
@@ -1239,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Report",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Report",
           "name": "report",
           "normalized": "Reporter-\u003eByteString-\u003eIO()",
@@ -1253,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Report",
           "name": "reportDo",
           "package": "mighttpd2",
@@ -1262,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Report",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Report",
           "name": "reportDo",
           "normalized": "Reporter-\u003eIO()-\u003eIO()",
@@ -1277,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Report",
           "name": "warpHandler",
           "package": "mighttpd2",
@@ -1286,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Report",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Report",
           "name": "warpHandler",
           "normalized": "Reporter-\u003eMaybe Request-\u003eSomeException-\u003eIO()",
@@ -1301,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Resource",
           "name": "Resource",
           "package": "mighttpd2",
@@ -1309,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Resource",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Resource",
           "name": "Resource",
           "package": "mighttpd2",
@@ -1323,6 +1439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecking if this process has the root privilege.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Resource",
           "name": "amIrootUser",
           "package": "mighttpd2",
@@ -1333,6 +1450,7 @@
         "index": {
           "description": "Checking if this process has the root privilege",
           "hierarchy": "Program Mighty Resource",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Resource",
           "name": "amIrootUser",
           "package": "mighttpd2",
@@ -1347,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting user and group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Resource",
           "name": "setGroupUser",
           "package": "mighttpd2",
@@ -1356,6 +1475,7 @@
         "index": {
           "description": "Setting user and group",
           "hierarchy": "Program Mighty Resource",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Resource",
           "name": "setGroupUser",
           "normalized": "String-\u003eString-\u003eIO()",
@@ -1372,6 +1492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the limit of open files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Resource",
           "name": "unlimit",
           "package": "mighttpd2",
@@ -1382,6 +1503,7 @@
         "index": {
           "description": "Set the limit of open files",
           "hierarchy": "Program Mighty Resource",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Resource",
           "name": "unlimit",
           "normalized": "Integer-\u003eIO()",
@@ -1396,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Route",
           "name": "Route",
           "package": "mighttpd2",
@@ -1404,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Route",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Route",
           "name": "Route",
           "package": "mighttpd2",
@@ -1417,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Route",
           "name": "Block",
           "package": "mighttpd2",
@@ -1425,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Route",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Route",
           "name": "Block",
           "package": "mighttpd2",
@@ -1438,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Route",
           "name": "Domain",
           "package": "mighttpd2",
@@ -1446,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Route",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Route",
           "name": "Domain",
           "package": "mighttpd2",
@@ -1460,6 +1588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA physical path in a file system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Route",
           "name": "Dst",
           "package": "mighttpd2",
@@ -1469,6 +1598,7 @@
         "index": {
           "description": "physical path in file system",
           "hierarchy": "Program Mighty Route",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Route",
           "name": "Dst",
           "package": "mighttpd2",
@@ -1482,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Route",
           "name": "Port",
           "package": "mighttpd2",
@@ -1490,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Route",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Route",
           "name": "Port",
           "package": "mighttpd2",
@@ -1503,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Route",
           "name": "Route",
           "package": "mighttpd2",
@@ -1511,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Route",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Route",
           "name": "Route",
           "package": "mighttpd2",
@@ -1524,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Route",
           "name": "RouteDB",
           "package": "mighttpd2",
@@ -1532,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Route",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Route",
           "name": "RouteDB",
           "package": "mighttpd2",
@@ -1546,6 +1682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA logical path specified in URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Route",
           "name": "Src",
           "package": "mighttpd2",
@@ -1555,6 +1692,7 @@
         "index": {
           "description": "logical path specified in URL",
           "hierarchy": "Program Mighty Route",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Route",
           "name": "Src",
           "package": "mighttpd2",
@@ -1568,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Route",
           "name": "Block",
           "package": "mighttpd2",
@@ -1577,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Route",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Route",
           "name": "Block",
           "normalized": "Block[Domain][Route]",
@@ -1592,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Route",
           "name": "RouteCGI",
           "package": "mighttpd2",
@@ -1601,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Route",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Route",
           "name": "RouteCGI",
           "package": "mighttpd2",
@@ -1614,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Route",
           "name": "RouteFile",
           "package": "mighttpd2",
@@ -1623,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Route",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Route",
           "name": "RouteFile",
           "package": "mighttpd2",
@@ -1636,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Route",
           "name": "RouteRedirect",
           "package": "mighttpd2",
@@ -1645,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Route",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Route",
           "name": "RouteRedirect",
           "package": "mighttpd2",
@@ -1658,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Route",
           "name": "RouteRevProxy",
           "package": "mighttpd2",
@@ -1667,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Route",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Route",
           "name": "RouteRevProxy",
           "package": "mighttpd2",
@@ -1681,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing a route file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Route",
           "name": "parseRoute",
           "package": "mighttpd2",
@@ -1690,6 +1839,7 @@
         "index": {
           "description": "Parsing route file",
           "hierarchy": "Program Mighty Route",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Route",
           "name": "parseRoute",
           "normalized": "FilePath-\u003eDomain-\u003ePort-\u003eIO RouteDB",
@@ -1705,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Signal",
           "name": "Signal",
           "package": "mighttpd2",
@@ -1713,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty Signal",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Signal",
           "name": "Signal",
           "package": "mighttpd2",
@@ -1727,6 +1879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting \u003ccode\u003e\u003ca\u003eHandler\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eSignal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Signal",
           "name": "setHandler",
           "package": "mighttpd2",
@@ -1737,6 +1890,7 @@
         "index": {
           "description": "Setting Handler for Signal",
           "hierarchy": "Program Mighty Signal",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Signal",
           "name": "setHandler",
           "normalized": "Signal-\u003eHandler-\u003eIO()",
@@ -1753,6 +1907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signal to get information from Mighty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Signal",
           "name": "sigInfo",
           "package": "mighttpd2",
@@ -1763,6 +1918,7 @@
         "index": {
           "description": "The signal to get information from Mighty",
           "hierarchy": "Program Mighty Signal",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Signal",
           "name": "sigInfo",
           "package": "mighttpd2",
@@ -1777,6 +1933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signal to reload a configration file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Signal",
           "name": "sigReload",
           "package": "mighttpd2",
@@ -1787,6 +1944,7 @@
         "index": {
           "description": "The signal to reload configration file",
           "hierarchy": "Program Mighty Signal",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Signal",
           "name": "sigReload",
           "package": "mighttpd2",
@@ -1801,6 +1959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signal to top accepting new connections and to finish current connections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Signal",
           "name": "sigRetire",
           "package": "mighttpd2",
@@ -1811,6 +1970,7 @@
         "index": {
           "description": "The signal to top accepting new connections and to finish current connections",
           "hierarchy": "Program Mighty Signal",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Signal",
           "name": "sigRetire",
           "package": "mighttpd2",
@@ -1825,6 +1985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signal to stop Mighty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.Signal",
           "name": "sigStop",
           "package": "mighttpd2",
@@ -1835,6 +1996,7 @@
         "index": {
           "description": "The signal to stop Mighty",
           "hierarchy": "Program Mighty Signal",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.Signal",
           "name": "sigStop",
           "package": "mighttpd2",
@@ -1848,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "State",
           "package": "mighttpd2",
@@ -1856,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "State",
           "package": "mighttpd2",
@@ -1870,6 +2034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference to a server state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "Stater",
           "package": "mighttpd2",
@@ -1879,6 +2044,7 @@
         "index": {
           "description": "Reference to server state",
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "Stater",
           "package": "mighttpd2",
@@ -1893,6 +2059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "Status",
           "package": "mighttpd2",
@@ -1902,6 +2069,7 @@
         "index": {
           "description": "Server status",
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "Status",
           "package": "mighttpd2",
@@ -1915,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "Retiring",
           "package": "mighttpd2",
@@ -1924,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "Retiring",
           "package": "mighttpd2",
@@ -1937,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "Serving",
           "package": "mighttpd2",
@@ -1946,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "Serving",
           "package": "mighttpd2",
@@ -1959,6 +2131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "addAnotherWarpThreadId",
           "package": "mighttpd2",
@@ -1968,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "addAnotherWarpThreadId",
           "normalized": "Stater-\u003eThreadId-\u003eIO()",
@@ -1983,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "decrement",
           "package": "mighttpd2",
@@ -1992,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "decrement",
           "normalized": "Stater-\u003eIO()",
@@ -2006,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "getConnectionCounter",
           "package": "mighttpd2",
@@ -2015,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "getConnectionCounter",
           "normalized": "Stater-\u003eIO Int",
@@ -2030,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "getServerStatus",
           "package": "mighttpd2",
@@ -2039,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "getServerStatus",
           "normalized": "Stater-\u003eIO Status",
@@ -2055,6 +2235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting status to \u003ccode\u003e\u003ca\u003eRetiring\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "goRetiring",
           "package": "mighttpd2",
@@ -2065,6 +2246,7 @@
         "index": {
           "description": "Setting status to Retiring",
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "goRetiring",
           "normalized": "Stater-\u003eIO()",
@@ -2081,6 +2263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf Warp threads are active, first terminate them and\n   run new \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "ifWarpThreadsAreActive",
           "package": "mighttpd2",
@@ -2091,6 +2274,7 @@
         "index": {
           "description": "If Warp threads are active first terminate them and run new IO",
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "ifWarpThreadsAreActive",
           "normalized": "Stater-\u003eIO()-\u003eIO()",
@@ -2106,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "increment",
           "package": "mighttpd2",
@@ -2115,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "increment",
           "normalized": "Stater-\u003eIO()",
@@ -2130,6 +2316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating a new \u003ccode\u003e\u003ca\u003eStater\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "initStater",
           "package": "mighttpd2",
@@ -2140,6 +2327,7 @@
         "index": {
           "description": "Creating new Stater",
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "initStater",
           "package": "mighttpd2",
@@ -2153,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "isRetiring",
           "package": "mighttpd2",
@@ -2162,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "isRetiring",
           "normalized": "Stater-\u003eIO Bool",
@@ -2177,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty.State",
           "name": "setMyWarpThreadId",
           "package": "mighttpd2",
@@ -2186,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "Program Mighty State",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty.State",
           "name": "setMyWarpThreadId",
           "normalized": "Stater-\u003eIO()",
@@ -2202,6 +2394,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSpecial library for Mighty.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:40 UTC 2014",
           "module": "Program.Mighty",
           "name": "Mighty",
           "package": "mighttpd2",
@@ -2211,6 +2404,7 @@
         "index": {
           "description": "Special library for Mighty",
           "hierarchy": "Program Mighty",
+          "indexed": "2014-03-11T19:17:40",
           "module": "Program.Mighty",
           "name": "Mighty",
           "package": "mighttpd2",

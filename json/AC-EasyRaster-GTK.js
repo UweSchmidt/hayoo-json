@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AC-EasyRaster-GTK"
+        "phrase": "AC-EasyRaster-GTK",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides exactly the same interface as\n  \u003ca\u003eGraphics.EasyRaster.GTK\u003c/a\u003e, but with run-time sanity\n  checks. This results in greater safety and reduced\n  performance. Typically you will use this module while\n  developing and debugging your application, and then\n  change your import statement when you're happy that\n  any bugs have been corrected.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "Paranoid",
           "package": "AC-EasyRaster-GTK",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides exactly the same interface as Graphics.EasyRaster.GTK but with run-time sanity checks This results in greater safety and reduced performance Typically you will use this module while developing and debugging your application and then change your import statement when you re happy that any bugs have been corrected",
           "hierarchy": "Graphics EasyRaster GTK Paranoid",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "Paranoid",
           "package": "AC-EasyRaster-GTK",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of pixel channels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "Channel",
           "package": "AC-EasyRaster-GTK",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The type of pixel channels",
           "hierarchy": "Graphics EasyRaster GTK Paranoid",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "Channel",
           "package": "AC-EasyRaster-GTK",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of pixel coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "Coord",
           "package": "AC-EasyRaster-GTK",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The type of pixel coordinates",
           "hierarchy": "Graphics EasyRaster GTK Paranoid",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "Coord",
           "package": "AC-EasyRaster-GTK",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003eImageBuffer\u003c/code\u003e is a space-efficient grid of 24-bit\n  RGB pixels (i.e., 8 bits per channel) that the GTK\n  library can also access. (The latter gives us the\n  ability to load/save/display the graphics, rather\n  than just manipulate it in memory.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "ImageBuffer",
           "package": "AC-EasyRaster-GTK",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An ImageBuffer is space-efficient grid of bit RGB pixels i.e bits per channel that the GTK library can also access The latter gives us the ability to load save display the graphics rather than just manipulate it in memory",
           "hierarchy": "Graphics EasyRaster GTK Paranoid",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "ImageBuffer",
           "package": "AC-EasyRaster-GTK",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to indicate image file type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "ImageFileType",
           "package": "AC-EasyRaster-GTK",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Used to indicate image file type",
           "hierarchy": "Graphics EasyRaster GTK Paranoid",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "ImageFileType",
           "package": "AC-EasyRaster-GTK",
@@ -366,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the (R, G, B) colour of the specified pixel.\n\u003c/p\u003e\u003cp\u003eIf the pixel coordinates are out of range, the \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e\n  function is called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "ib_read_pixel",
           "package": "AC-EasyRaster-GTK",
@@ -376,6 +387,7 @@
         "index": {
           "description": "Read the colour of the specified pixel If the pixel coordinates are out of range the error function is called",
           "hierarchy": "Graphics EasyRaster GTK Paranoid",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "ib_read_pixel",
           "normalized": "ImageBuffer-\u003e(Coord,Coord)-\u003eIO(Channel,Channel,Channel)",
@@ -469,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverwrite the specified pixel with the (R, G, B) colour.\n\u003c/p\u003e\u003cp\u003eIf the pixel coordinates are out of range, the \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e\n  function is called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "ib_write_pixel",
           "package": "AC-EasyRaster-GTK",
@@ -479,6 +492,7 @@
         "index": {
           "description": "Overwrite the specified pixel with the colour If the pixel coordinates are out of range the error function is called",
           "hierarchy": "Graphics EasyRaster GTK Paranoid",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "ib_write_pixel",
           "normalized": "ImageBuffer-\u003e(Coord,Coord)-\u003e(Channel,Channel,Channel)-\u003eIO()",
@@ -494,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialise the GTK runtime system. This function \u003cem\u003emust\u003c/em\u003e\n  be called before any other functions in this module.\n  (If not, your program will likely summarily crash with\n  an obscure error to \u003ccode\u003estderr\u003c/code\u003e.)\n\u003c/p\u003e\u003cp\u003eNote that Gtk2hs will crash with a warning message if\n  the program is compiled with the threaded RTS. (Use\n  the non-paranoid version of \u003ccode\u003einit_system\u003c/code\u003e to turn this\n  warning off.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "init_system",
           "package": "AC-EasyRaster-GTK",
@@ -504,6 +519,7 @@
         "index": {
           "description": "Initialise the GTK runtime system This function must be called before any other functions in this module If not your program will likely summarily crash with an obscure error to stderr Note that Gtk2hs will crash with warning message if the program is compiled with the threaded RTS Use the non-paranoid version of init system to turn this warning off",
           "hierarchy": "Graphics EasyRaster GTK Paranoid",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK.Paranoid",
           "name": "init_system",
           "normalized": "IO()",
@@ -623,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides pixel-oriented graphics operations.\n  It defines an \u003ccode\u003e\u003ca\u003eImageBuffer\u003c/a\u003e\u003c/code\u003e type, which is a thin layer\n  over a GTK+ \u003ccode\u003e\u003ca\u003ePixbuf\u003c/a\u003e\u003c/code\u003e. It then provides functions for\n  doing pixel-oriented graphics on this without having to\n  do a lot of bit-twiddling math by hand. It also\n  provides for quickly and easily loading and saving\n  images, and displaying them on the screen.\n\u003c/p\u003e\u003cp\u003eIn the simplest case, you can import this module alone\n  and never need to touch the actual GTK modules;\n  however, this module provides access to the underlying\n  GTK resources as well, in case you want to use it as\n  part of a larger GTK program.\n\u003c/p\u003e\u003cp\u003eNote that \u003cem\u003edisplaying\u003c/em\u003e an image on screen requires\n  you to run the GTK event loop. If you only want to\n  load, save and process image files, you can completely\n  ignore the GTK event loop. (You do still need to call\n  \u003ccode\u003e\u003ca\u003einit_system\u003c/a\u003e\u003c/code\u003e, however.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK",
           "name": "GTK",
           "package": "AC-EasyRaster-GTK",
@@ -632,6 +649,7 @@
         "index": {
           "description": "This module provides pixel-oriented graphics operations It defines an ImageBuffer type which is thin layer over GTK Pixbuf It then provides functions for doing pixel-oriented graphics on this without having to do lot of bit-twiddling math by hand It also provides for quickly and easily loading and saving images and displaying them on the screen In the simplest case you can import this module alone and never need to touch the actual GTK modules however this module provides access to the underlying GTK resources as well in case you want to use it as part of larger GTK program Note that displaying an image on screen requires you to run the GTK event loop If you only want to load save and process image files you can completely ignore the GTK event loop You do still need to call init system however",
           "hierarchy": "Graphics EasyRaster GTK",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK",
           "name": "GTK",
           "package": "AC-EasyRaster-GTK",
@@ -646,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of pixel channels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK",
           "name": "Channel",
           "package": "AC-EasyRaster-GTK",
@@ -655,6 +674,7 @@
         "index": {
           "description": "The type of pixel channels",
           "hierarchy": "Graphics EasyRaster GTK",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK",
           "name": "Channel",
           "package": "AC-EasyRaster-GTK",
@@ -669,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of pixel coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK",
           "name": "Coord",
           "package": "AC-EasyRaster-GTK",
@@ -678,6 +699,7 @@
         "index": {
           "description": "The type of pixel coordinates",
           "hierarchy": "Graphics EasyRaster GTK",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK",
           "name": "Coord",
           "package": "AC-EasyRaster-GTK",
@@ -692,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003eImageBuffer\u003c/code\u003e is a space-efficient grid of 24-bit\n  RGB pixels (i.e., 8 bits per channel) that the GTK\n  library can also access. (The latter gives us the\n  ability to load/save/display the graphics, rather\n  than just manipulate it in memory.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK",
           "name": "ImageBuffer",
           "package": "AC-EasyRaster-GTK",
@@ -701,6 +724,7 @@
         "index": {
           "description": "An ImageBuffer is space-efficient grid of bit RGB pixels i.e bits per channel that the GTK library can also access The latter gives us the ability to load save display the graphics rather than just manipulate it in memory",
           "hierarchy": "Graphics EasyRaster GTK",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK",
           "name": "ImageBuffer",
           "package": "AC-EasyRaster-GTK",
@@ -715,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to indicate image file type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK",
           "name": "ImageFileType",
           "package": "AC-EasyRaster-GTK",
@@ -724,6 +749,7 @@
         "index": {
           "description": "Used to indicate image file type",
           "hierarchy": "Graphics EasyRaster GTK",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK",
           "name": "ImageFileType",
           "package": "AC-EasyRaster-GTK",
@@ -738,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the current (R, G, B) colour valid of the specified pixel.\n\u003c/p\u003e\u003cp\u003eNote that pixel coordinates are \u003cem\u003enot\u003c/em\u003e checked, for efficiency reasons.\n  However, supplying invalid pixel coordinates will at best result in\n  gibberish being returned, and at worst a segmentation fault. See\n  \u003ca\u003eGraphics.EasyRaster.Paranoid\u003c/a\u003e for a version of this function with\n  bounds checking turned on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK",
           "name": "ib_read_pixel",
           "package": "AC-EasyRaster-GTK",
@@ -748,6 +775,7 @@
         "index": {
           "description": "Read the current colour valid of the specified pixel Note that pixel coordinates are not checked for efficiency reasons However supplying invalid pixel coordinates will at best result in gibberish being returned and at worst segmentation fault See Graphics.EasyRaster.Paranoid for version of this function with bounds checking turned on",
           "hierarchy": "Graphics EasyRaster GTK",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK",
           "name": "ib_read_pixel",
           "normalized": "ImageBuffer-\u003e(Coord,Coord)-\u003eIO(Channel,Channel,Channel)",
@@ -763,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverwrite the specified pixel with the specified colour (R, G, B).\n\u003c/p\u003e\u003cp\u003eNote that pixel coordinates are \u003cem\u003enot\u003c/em\u003e checked, for efficiency reasons.\n  However, supplying invalid pixel coordinates may result in behaviour ranging\n  from corrupted graphical output to random program crashes. See\n  \u003ca\u003eGraphics.EasyRaster.GTK.Paranoid\u003c/a\u003e for a version of this function with\n  bounds checking turned on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK",
           "name": "ib_write_pixel",
           "package": "AC-EasyRaster-GTK",
@@ -773,6 +802,7 @@
         "index": {
           "description": "Overwrite the specified pixel with the specified colour Note that pixel coordinates are not checked for efficiency reasons However supplying invalid pixel coordinates may result in behaviour ranging from corrupted graphical output to random program crashes See Graphics.EasyRaster.GTK.Paranoid for version of this function with bounds checking turned on",
           "hierarchy": "Graphics EasyRaster GTK",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK",
           "name": "ib_write_pixel",
           "normalized": "ImageBuffer-\u003e(Coord,Coord)-\u003e(Channel,Channel,Channel)-\u003eIO()",
@@ -788,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialise the GTK runtime system. This function \u003cem\u003emust\u003c/em\u003e\n  be called before any other functions in this module.\n  (If not, your program will likely summarily crash with\n  an obscure error to \u003ccode\u003estderr\u003c/code\u003e.)\n\u003c/p\u003e\u003cp\u003eNote that Gtk2hs by default will crash with a warning\n  message if the program is compiled with the threaded\n  RTS; this module disables that warning. However, be\n  warned: You must \u003cem\u003eonly\u003c/em\u003e call the GTK-based functions\n  from thread 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:42 UTC 2014",
           "module": "Graphics.EasyRaster.GTK",
           "name": "init_system",
           "package": "AC-EasyRaster-GTK",
@@ -798,6 +829,7 @@
         "index": {
           "description": "Initialise the GTK runtime system This function must be called before any other functions in this module If not your program will likely summarily crash with an obscure error to stderr Note that Gtk2hs by default will crash with warning message if the program is compiled with the threaded RTS this module disables that warning However be warned You must only call the GTK-based functions from thread",
           "hierarchy": "Graphics EasyRaster GTK",
+          "indexed": "2014-03-11T16:31:42",
           "module": "Graphics.EasyRaster.GTK",
           "name": "init_system",
           "normalized": "IO()",

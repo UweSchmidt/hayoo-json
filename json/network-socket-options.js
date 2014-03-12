@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-socket-options"
+        "phrase": "network-socket-options",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDocumentation is currently lacking.  For now, see \u003ccode\u003eman 7 socket\u003c/code\u003e and\n \u003ccode\u003eman 7 tcp\u003c/code\u003e of the Linux man-pages, or look up setsockopt in MSDN.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "Options",
           "package": "network-socket-options",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Documentation is currently lacking For now see man socket and man tcp of the Linux man-pages or look up setsockopt in MSDN",
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "Options",
           "package": "network-socket-options",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe getters and setters in this module can be used not only on \u003ccode\u003e\u003ca\u003eSocket\u003c/a\u003e\u003c/code\u003es,\n but on raw \u003ccode\u003e\u003ca\u003eFd\u003c/a\u003e\u003c/code\u003es (file descriptors) as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "HasSocket",
           "package": "network-socket-options",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The getters and setters in this module can be used not only on Socket but on raw Fd file descriptors as well",
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "HasSocket",
           "package": "network-socket-options",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "Microseconds",
           "package": "network-socket-options",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "Microseconds",
           "package": "network-socket-options",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "Seconds",
           "package": "network-socket-options",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "Seconds",
           "package": "network-socket-options",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis option is get-only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getAcceptConn",
           "package": "network-socket-options",
@@ -117,6 +126,7 @@
         "index": {
           "description": "This option is get-only",
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getAcceptConn",
           "normalized": "a-\u003eIO Bool",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getBroadcast",
           "package": "network-socket-options",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getBroadcast",
           "normalized": "a-\u003eIO Bool",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getDebug",
           "package": "network-socket-options",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getDebug",
           "normalized": "a-\u003eIO Bool",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getDontRoute",
           "package": "network-socket-options",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getDontRoute",
           "normalized": "a-\u003eIO Bool",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis option is get-only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getError",
           "package": "network-socket-options",
@@ -215,6 +232,7 @@
         "index": {
           "description": "This option is get-only",
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getError",
           "normalized": "a-\u003eIO Int",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getKeepAlive",
           "package": "network-socket-options",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getKeepAlive",
           "normalized": "a-\u003eIO Bool",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getLinger",
           "package": "network-socket-options",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getLinger",
           "normalized": "a-\u003eIO(Maybe Seconds)",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getOOBInline",
           "package": "network-socket-options",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getOOBInline",
           "normalized": "a-\u003eIO Bool",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getRecvBuf",
           "package": "network-socket-options",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getRecvBuf",
           "normalized": "a-\u003eIO Int",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getRecvTimeout",
           "package": "network-socket-options",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getRecvTimeout",
           "normalized": "a-\u003eIO Microseconds",
@@ -350,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getReuseAddr",
           "package": "network-socket-options",
@@ -359,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getReuseAddr",
           "normalized": "a-\u003eIO Bool",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getSendBuf",
           "package": "network-socket-options",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getSendBuf",
           "normalized": "a-\u003eIO Int",
@@ -398,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getSendTimeout",
           "package": "network-socket-options",
@@ -407,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getSendTimeout",
           "normalized": "a-\u003eIO Microseconds",
@@ -422,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getSocket",
           "package": "network-socket-options",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getSocket",
           "normalized": "a-\u003eCInt",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getTcpNoDelay",
           "package": "network-socket-options",
@@ -455,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getTcpNoDelay",
           "normalized": "a-\u003eIO Bool",
@@ -471,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis option is get-only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "getType",
           "package": "network-socket-options",
@@ -481,6 +520,7 @@
         "index": {
           "description": "This option is get-only",
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "getType",
           "normalized": "a-\u003eIO SocketType",
@@ -496,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "setBroadcast",
           "package": "network-socket-options",
@@ -505,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "setBroadcast",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -520,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "setDebug",
           "package": "network-socket-options",
@@ -529,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "setDebug",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -544,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "setDontRoute",
           "package": "network-socket-options",
@@ -553,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "setDontRoute",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -569,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOn Windows, set timeouts for a socket that has already been wrapped in a\n \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e by \u003ccode\u003e\u003ca\u003econnectTo\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eaccept\u003c/a\u003e\u003c/code\u003e.  On other platforms, do\n nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "setHandleTimeouts",
           "package": "network-socket-options",
@@ -578,6 +625,7 @@
         "index": {
           "description": "On Windows set timeouts for socket that has already been wrapped in Handle by connectTo or accept On other platforms do nothing",
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "setHandleTimeouts",
           "normalized": "Handle-\u003eMicroseconds-\u003eMicroseconds-\u003eIO()",
@@ -593,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "setKeepAlive",
           "package": "network-socket-options",
@@ -602,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "setKeepAlive",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -618,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOn Windows, the \u003ccode\u003e\u003ca\u003eSeconds\u003c/a\u003e\u003c/code\u003e value is truncated to 16 bits.  This means if a\n linger time of more than 65535 seconds (about 18.2 hours) is given, it will\n wrap around.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "setLinger",
           "package": "network-socket-options",
@@ -628,6 +679,7 @@
         "index": {
           "description": "On Windows the Seconds value is truncated to bits This means if linger time of more than seconds about hours is given it will wrap around",
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "setLinger",
           "normalized": "a-\u003eMaybe Seconds-\u003eIO()",
@@ -643,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "setOOBInline",
           "package": "network-socket-options",
@@ -652,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "setOOBInline",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -667,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "setRecvBuf",
           "package": "network-socket-options",
@@ -676,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "setRecvBuf",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -692,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote the following about timeout values:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e A value of 0 or less means the operation will never time out\n\u003c/li\u003e\u003cli\u003e On Windows, the timeout is truncated to milliseconds, 32-bit.  However,\n    if the number of microseconds is from 1 to 999, it will be rounded up to\n    one millisecond, to prevent it from being treated as \"never time out\".\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "setRecvTimeout",
           "package": "network-socket-options",
@@ -702,6 +759,7 @@
         "index": {
           "description": "Note the following about timeout values value of or less means the operation will never time out On Windows the timeout is truncated to milliseconds bit However if the number of microseconds is from to it will be rounded up to one millisecond to prevent it from being treated as never time out",
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "setRecvTimeout",
           "normalized": "a-\u003eMicroseconds-\u003eIO()",
@@ -717,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "setReuseAddr",
           "package": "network-socket-options",
@@ -726,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "setReuseAddr",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -741,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "setSendBuf",
           "package": "network-socket-options",
@@ -750,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "setSendBuf",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -765,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "setSendTimeout",
           "package": "network-socket-options",
@@ -774,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "setSendTimeout",
           "normalized": "a-\u003eMicroseconds-\u003eIO()",
@@ -790,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOn Windows, set the socket's \u003ccode\u003eSO_RCVTIMEO\u003c/code\u003e and \u003ccode\u003eSO_SNDTIMEO\u003c/code\u003e values to the\n ones given.  On other platforms, do nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "setSocketTimeouts",
           "package": "network-socket-options",
@@ -799,6 +864,7 @@
         "index": {
           "description": "On Windows set the socket SO RCVTIMEO and SO SNDTIMEO values to the ones given On other platforms do nothing",
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "setSocketTimeouts",
           "normalized": "a-\u003eMicroseconds-\u003eMicroseconds-\u003eIO()",
@@ -814,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:32 UTC 2014",
           "module": "Network.Socket.Options",
           "name": "setTcpNoDelay",
           "package": "network-socket-options",
@@ -823,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Network Socket Options",
+          "indexed": "2014-03-11T19:28:32",
           "module": "Network.Socket.Options",
           "name": "setTcpNoDelay",
           "normalized": "a-\u003eBool-\u003eIO()",

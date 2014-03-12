@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "binary-shared"
+        "phrase": "binary-shared",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBinary serializing with sharing\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:19:06 UTC 2014",
           "module": "Data.Binary.Shared",
           "name": "Shared",
           "package": "binary-shared",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Binary serializing with sharing",
           "hierarchy": "Data Binary Shared",
+          "indexed": "2014-03-11T17:19:06",
           "module": "Data.Binary.Shared",
           "name": "Shared",
           "package": "binary-shared",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for storing Binary instances with shared nodes.\n Cycles are not supported, cause put and get is a one path process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:06 UTC 2014",
           "module": "Data.Binary.Shared",
           "name": "BinaryShared",
           "package": "binary-shared",
@@ -51,6 +54,7 @@
         "index": {
           "description": "class for storing Binary instances with shared nodes Cycles are not supported cause put and get is one path process",
           "hierarchy": "Data Binary Shared",
+          "indexed": "2014-03-11T17:19:06",
           "module": "Data.Binary.Shared",
           "name": "BinaryShared",
           "package": "binary-shared",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:06 UTC 2014",
           "module": "Data.Binary.Shared",
           "name": "decodeSer",
           "package": "binary-shared",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Shared",
+          "indexed": "2014-03-11T17:19:06",
           "module": "Data.Binary.Shared",
           "name": "decodeSer",
           "normalized": "ByteString-\u003ea",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:06 UTC 2014",
           "module": "Data.Binary.Shared",
           "name": "encodeFileSer",
           "package": "binary-shared",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Shared",
+          "indexed": "2014-03-11T17:19:06",
           "module": "Data.Binary.Shared",
           "name": "encodeFileSer",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:06 UTC 2014",
           "module": "Data.Binary.Shared",
           "name": "encodeSer",
           "package": "binary-shared",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Shared",
+          "indexed": "2014-03-11T17:19:06",
           "module": "Data.Binary.Shared",
           "name": "encodeSer",
           "normalized": "a-\u003eByteString",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a value in the Get monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:06 UTC 2014",
           "module": "Data.Binary.Shared",
           "name": "get",
           "package": "binary-shared",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Decode value in the Get monad",
           "hierarchy": "Data Binary Shared",
+          "indexed": "2014-03-11T17:19:06",
           "module": "Data.Binary.Shared",
           "name": "get",
           "package": "binary-shared",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:06 UTC 2014",
           "module": "Data.Binary.Shared",
           "name": "getShared",
           "package": "binary-shared",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Shared",
+          "indexed": "2014-03-11T17:19:06",
           "module": "Data.Binary.Shared",
           "name": "getShared",
           "normalized": "GetShared a-\u003eGetShared a",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a value in the Put monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:06 UTC 2014",
           "module": "Data.Binary.Shared",
           "name": "put",
           "package": "binary-shared",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Encode value in the Put monad",
           "hierarchy": "Data Binary Shared",
+          "indexed": "2014-03-11T17:19:06",
           "module": "Data.Binary.Shared",
           "name": "put",
           "normalized": "a-\u003ePutShared",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:06 UTC 2014",
           "module": "Data.Binary.Shared",
           "name": "putShared",
           "package": "binary-shared",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Shared",
+          "indexed": "2014-03-11T17:19:06",
           "module": "Data.Binary.Shared",
           "name": "putShared",
           "normalized": "(a-\u003ePutShared)-\u003ea-\u003ePutShared",

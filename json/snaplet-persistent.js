@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-persistent"
+        "phrase": "snaplet-persistent",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "Persistent",
           "package": "snaplet-persistent",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "Persistent",
           "package": "snaplet-persistent",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "PersistAuthManager",
           "package": "snaplet-persistent",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "PersistAuthManager",
           "package": "snaplet-persistent",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "SnapAuthUser",
           "package": "snaplet-persistent",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "SnapAuthUser",
           "package": "snaplet-persistent",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "SnapAuthUserGeneric",
           "package": "snaplet-persistent",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "SnapAuthUserGeneric",
           "package": "snaplet-persistent",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "SnapAuthUserId",
           "package": "snaplet-persistent",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "SnapAuthUserId",
           "package": "snaplet-persistent",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "SnapAuthUser",
           "package": "snaplet-persistent",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "SnapAuthUser",
           "package": "snaplet-persistent",
@@ -146,6 +158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of entity definitions this snaplet exposes. You need\n them so that you can append to your application's list of\n entity definitions and perform the migration in one block.\n\u003c/p\u003e\u003cp\u003eSee how this example combined an app's own entity definitions and\n the auth snaplet's in one migration block:\n\u003c/p\u003e\u003cpre\u003e share [mkMigrate \"migrateAll\"] $\n    authEntityDefs ++\n    $(persistFileWith lowerCaseSettings \"schema.txt\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "authEntityDefs",
           "package": "snaplet-persistent",
@@ -156,6 +169,7 @@
         "index": {
           "description": "The list of entity definitions this snaplet exposes You need them so that you can append to your application list of entity definitions and perform the migration in one block See how this example combined an app own entity definitions and the auth snaplet in one migration block share mkMigrate migrateAll authEntityDefs persistFileWith lowerCaseSettings schema.txt",
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "authEntityDefs",
           "normalized": "[EntityDef SqlType]",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to convert a \u003ccode\u003e\u003ca\u003eSnapAuthUser\u003c/a\u003e\u003c/code\u003e entity into the auth snaplet's\n \u003ccode\u003e\u003ca\u003eAuthUser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "db2au",
           "package": "snaplet-persistent",
@@ -182,6 +197,7 @@
         "index": {
           "description": "Function to convert SnapAuthUser entity into the auth snaplet AuthUser",
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "db2au",
           "normalized": "Entity SnapAuthUser-\u003eAuthUser",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplices for \u003ccode\u003e\u003ca\u003eSnapAuthUser\u003c/a\u003e\u003c/code\u003e that are equivalent to the ones for\n \u003ccode\u003e\u003ca\u003eAuthUser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "dbUserSplices",
           "package": "snaplet-persistent",
@@ -207,6 +224,7 @@
         "index": {
           "description": "Splices for SnapAuthUser that are equivalent to the ones for AuthUser",
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "dbUserSplices",
           "normalized": "[(Text,Promise(Entity SnapAuthUser)-\u003eSplice a)]",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializer that gets AuthSettings from a config file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "initPersistAuthManager",
           "package": "snaplet-persistent",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Initializer that gets AuthSettings from config file",
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "initPersistAuthManager",
           "normalized": "SnapletLens a SessionManager-\u003eConnectionPool-\u003eSnapletInit a(AuthManager a)",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializer that lets you specify AuthSettings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "initPersistAuthManager'",
           "package": "snaplet-persistent",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Initializer that lets you specify AuthSettings",
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "initPersistAuthManager'",
           "normalized": "AuthSettings-\u003eSnapletLens a SessionManager-\u003eConnectionPool-\u003eSnapletInit a(AuthManager a)",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "migrateAuth",
           "package": "snaplet-persistent",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "migrateAuth",
           "package": "snaplet-persistent",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserActivatedAt",
           "package": "snaplet-persistent",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserActivatedAt",
           "package": "snaplet-persistent",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserCreatedAt",
           "package": "snaplet-persistent",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserCreatedAt",
           "package": "snaplet-persistent",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserCurrentIp",
           "package": "snaplet-persistent",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserCurrentIp",
           "package": "snaplet-persistent",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserCurrentLoginAt",
           "package": "snaplet-persistent",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserCurrentLoginAt",
           "package": "snaplet-persistent",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserEmail",
           "package": "snaplet-persistent",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserEmail",
           "package": "snaplet-persistent",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserFailedLoginCount",
           "package": "snaplet-persistent",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserFailedLoginCount",
           "package": "snaplet-persistent",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserLastIp",
           "package": "snaplet-persistent",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserLastIp",
           "package": "snaplet-persistent",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserLastLoginAt",
           "package": "snaplet-persistent",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserLastLoginAt",
           "package": "snaplet-persistent",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserLockedOutUntil",
           "package": "snaplet-persistent",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserLockedOutUntil",
           "package": "snaplet-persistent",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserLogin",
           "package": "snaplet-persistent",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserLogin",
           "package": "snaplet-persistent",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserLoginCount",
           "package": "snaplet-persistent",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserLoginCount",
           "package": "snaplet-persistent",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserMeta",
           "package": "snaplet-persistent",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserMeta",
           "package": "snaplet-persistent",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserPassword",
           "package": "snaplet-persistent",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserPassword",
           "package": "snaplet-persistent",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserRememberToken",
           "package": "snaplet-persistent",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserRememberToken",
           "package": "snaplet-persistent",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserResetRequestedAt",
           "package": "snaplet-persistent",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserResetRequestedAt",
           "package": "snaplet-persistent",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserResetToken",
           "package": "snaplet-persistent",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserResetToken",
           "package": "snaplet-persistent",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserRoles",
           "package": "snaplet-persistent",
@@ -657,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserRoles",
           "package": "snaplet-persistent",
@@ -670,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserSuspendedAt",
           "package": "snaplet-persistent",
@@ -679,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserSuspendedAt",
           "package": "snaplet-persistent",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserUpdatedAt",
           "package": "snaplet-persistent",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "snapAuthUserUpdatedAt",
           "package": "snaplet-persistent",
@@ -714,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "textPassword",
           "package": "snaplet-persistent",
@@ -723,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "textPassword",
           "normalized": "Password-\u003eText",
@@ -739,6 +803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the db key from an \u003ccode\u003e\u003ca\u003eAuthUser\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "userDBKey",
           "package": "snaplet-persistent",
@@ -749,6 +814,7 @@
         "index": {
           "description": "Get the db key from an AuthUser",
           "hierarchy": "Snap Snaplet Auth Backends Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Auth.Backends.Persistent",
           "name": "userDBKey",
           "normalized": "AuthUser-\u003eMaybe SnapAuthUserId",
@@ -764,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "Persistent",
           "package": "snaplet-persistent",
@@ -772,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "Persistent",
           "package": "snaplet-persistent",
@@ -786,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplement this type class to have any monad work with snaplet-persistent.\n A default instance is provided for (Handler b PersistState).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "HasPersistPool",
           "package": "snaplet-persistent",
@@ -795,6 +864,7 @@
         "index": {
           "description": "Implement this type class to have any monad work with snaplet-persistent default instance is provided for Handler PersistState",
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "HasPersistPool",
           "package": "snaplet-persistent",
@@ -808,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "PersistState",
           "package": "snaplet-persistent",
@@ -816,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "PersistState",
           "package": "snaplet-persistent",
@@ -829,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "PersistState",
           "package": "snaplet-persistent",
@@ -838,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "PersistState",
           "package": "snaplet-persistent",
@@ -852,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFollows a foreign key field in one entity and retrieves the corresponding\n entity from the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "followForeignKey",
           "package": "snaplet-persistent",
@@ -862,6 +937,7 @@
         "index": {
           "description": "Follows foreign key field in one entity and retrieves the corresponding entity from the database",
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "followForeignKey",
           "normalized": "(a-\u003eKey b)-\u003eEntity a-\u003ec(Maybe(Entity b))",
@@ -877,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "fromPersistValue'",
           "package": "snaplet-persistent",
@@ -886,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "fromPersistValue'",
           "normalized": "PersistValue-\u003ea",
@@ -901,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "getPersistPool",
           "package": "snaplet-persistent",
@@ -910,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "getPersistPool",
           "package": "snaplet-persistent",
@@ -924,6 +1004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize Persistent with an initial SQL function called right\n after the connection pool has been created. This is most useful for\n calling migrations upfront right after initialization.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e initPersist (runMigrationUnsafe migrateAll)\n\u003c/pre\u003e\u003cp\u003ewhere migrateAll is the migration function that was auto-generated\n by the QQ statement in your persistent schema definition in the\n call to \u003ccode\u003emkMigrate\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "initPersist",
           "package": "snaplet-persistent",
@@ -934,6 +1015,7 @@
         "index": {
           "description": "Initialize Persistent with an initial SQL function called right after the connection pool has been created This is most useful for calling migrations upfront right after initialization Example initPersist runMigrationUnsafe migrateAll where migrateAll is the migration function that was auto-generated by the QQ statement in your persistent schema definition in the call to mkMigrate",
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "initPersist",
           "normalized": "SqlPersistT(NoLoggingT IO)a-\u003eSnapletInit b PersistState",
@@ -950,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a Key to Int.  Fails with error if the conversion fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "mkInt",
           "package": "snaplet-persistent",
@@ -960,6 +1043,7 @@
         "index": {
           "description": "Converts Key to Int Fails with error if the conversion fails",
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "mkInt",
           "normalized": "Key a-\u003eInt",
@@ -976,6 +1060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a Key from an Int.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "mkKey",
           "package": "snaplet-persistent",
@@ -986,6 +1071,7 @@
         "index": {
           "description": "Make Key from an Int",
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "mkKey",
           "normalized": "Int-\u003eKey a",
@@ -1002,6 +1088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a Key from a ByteString.  Calls error on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "mkKeyBS",
           "package": "snaplet-persistent",
@@ -1012,6 +1099,7 @@
         "index": {
           "description": "Makes Key from ByteString Calls error on failure",
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "mkKeyBS",
           "normalized": "ByteString-\u003eKey a",
@@ -1028,6 +1116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a Key from Text.  Calls error on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "mkKeyT",
           "package": "snaplet-persistent",
@@ -1038,6 +1127,7 @@
         "index": {
           "description": "Makes Key from Text Calls error on failure",
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "mkKeyT",
           "normalized": "Text-\u003eKey a",
@@ -1054,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a connection pool from Config.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "mkPgPool",
           "package": "snaplet-persistent",
@@ -1064,6 +1155,7 @@
         "index": {
           "description": "Constructs connection pool from Config",
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "mkPgPool",
           "normalized": "Config-\u003ea ConnectionPool",
@@ -1080,6 +1172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConscruts a connection pool in a snaplet context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "mkSnapletPgPool",
           "package": "snaplet-persistent",
@@ -1090,6 +1183,7 @@
         "index": {
           "description": "Conscruts connection pool in snaplet context",
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "mkSnapletPgPool",
           "package": "snaplet-persistent",
@@ -1104,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a Key to Word64.  Fails with error if the conversion fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "mkWord64",
           "package": "snaplet-persistent",
@@ -1114,6 +1209,7 @@
         "index": {
           "description": "Converts Key to Word64 Fails with error if the conversion fails",
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "mkWord64",
           "normalized": "Key a-\u003eWord",
@@ -1129,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "persistPool",
           "package": "snaplet-persistent",
@@ -1138,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "persistPool",
           "package": "snaplet-persistent",
@@ -1152,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a SqlPersist action in any monad with a HasPersistPool instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "runPersist",
           "package": "snaplet-persistent",
@@ -1161,6 +1260,7 @@
         "index": {
           "description": "Runs SqlPersist action in any monad with HasPersistPool instance",
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "runPersist",
           "normalized": "SqlPersistT(ResourceT(NoLoggingT IO))a-\u003eb a",
@@ -1177,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a Text representation of a Key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "showKey",
           "package": "snaplet-persistent",
@@ -1187,6 +1288,7 @@
         "index": {
           "description": "Makes Text representation of Key",
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "showKey",
           "normalized": "Key a-\u003eText",
@@ -1203,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a ByteString representation of a Key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "showKeyBS",
           "package": "snaplet-persistent",
@@ -1213,6 +1316,7 @@
         "index": {
           "description": "Makes ByteString representation of Key",
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "showKeyBS",
           "normalized": "Key a-\u003eByteString",
@@ -1229,6 +1333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a database action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:57 UTC 2014",
           "module": "Snap.Snaplet.Persistent",
           "name": "withPool",
           "package": "snaplet-persistent",
@@ -1239,6 +1344,7 @@
         "index": {
           "description": "Run database action",
           "hierarchy": "Snap Snaplet Persistent",
+          "indexed": "2014-03-11T20:05:57",
           "module": "Snap.Snaplet.Persistent",
           "name": "withPool",
           "normalized": "ConnectionPool-\u003eSqlPersist(ResourceT(NoLoggingT IO))a-\u003eb a",

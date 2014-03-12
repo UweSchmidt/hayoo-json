@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crf-chain1"
+        "phrase": "crf-chain1",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "Codec",
           "package": "crf-chain1",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "Codec",
           "package": "crf-chain1",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA codec.  The first component is used to encode observations\n of type a, the second one is used to encode labels of type b.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "Codec",
           "package": "crf-chain1",
@@ -49,6 +52,7 @@
         "index": {
           "description": "codec The first component is used to encode observations of type the second one is used to encode labels of type",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "Codec",
           "package": "crf-chain1",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonym for the codec monad.  It is important to notice that by a\n codec we denote here a structure of two \u003ccode\u003e\u003ca\u003eAtomCodec\u003c/a\u003e\u003c/code\u003es while in the\n monad-codec package it denotes a monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "CodecM",
           "package": "crf-chain1",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Type synonym for the codec monad It is important to notice that by codec we denote here structure of two AtomCodec while in the monad-codec package it denotes monad",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "CodecM",
           "package": "crf-chain1",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "decodeLabel",
           "package": "crf-chain1",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Decode the label",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "decodeLabel",
           "normalized": "Codec a b-\u003eLb-\u003eb",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the sequence of labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "decodeLabels",
           "package": "crf-chain1",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Decode the sequence of labels",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "decodeLabels",
           "normalized": "Codec a b-\u003e[Lb]-\u003e[b]",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the dataset with the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeData",
           "package": "crf-chain1",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Encode the dataset with the codec",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeData",
           "normalized": "Codec a b-\u003e[Sent a]-\u003e[Xs]",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled dataset using the codec.  Substitute the default\n label for any label not present in the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeDataL",
           "package": "crf-chain1",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Encode the labeled dataset using the codec Substitute the default label for any label not present in the codec",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeDataL",
           "normalized": "a-\u003eCodec b a-\u003e[SentL b a]-\u003e[(Xs,Ys)]",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the sentence using the given codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeSent",
           "package": "crf-chain1",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Encode the sentence using the given codec",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeSent",
           "normalized": "Codec a b-\u003eSent a-\u003eXs",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the sentence and do *not* update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeSent'Cn",
           "package": "crf-chain1",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Encode the sentence and do not update the codec",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeSent'Cn",
           "normalized": "Sent a-\u003eCodecM a b Xs",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the sentence and update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeSent'Cu",
           "package": "crf-chain1",
@@ -252,6 +271,7 @@
         "index": {
           "description": "Encode the sentence and update the codec",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeSent'Cu",
           "normalized": "Sent a-\u003eCodecM a b Xs",
@@ -268,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled sentence with the given codec.  Substitute the\n default label for any label not present in the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeSentL",
           "package": "crf-chain1",
@@ -278,6 +299,7 @@
         "index": {
           "description": "Encode the labeled sentence with the given codec Substitute the default label for any label not present in the codec",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeSentL",
           "normalized": "a-\u003eCodec b a-\u003eSentL b a-\u003e(Xs,Ys)",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled sentence and do *not* update the codec.\n Substitute the default label for any label not present in the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeSentL'Cn",
           "package": "crf-chain1",
@@ -304,6 +327,7 @@
         "index": {
           "description": "Encode the labeled sentence and do not update the codec Substitute the default label for any label not present in the codec",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeSentL'Cn",
           "normalized": "a-\u003eSentL b a-\u003eCodecM b a(Xs,Ys)",
@@ -320,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled sentence and update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeSentL'Cu",
           "package": "crf-chain1",
@@ -330,6 +355,7 @@
         "index": {
           "description": "Encode the labeled sentence and update the codec",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeSentL'Cu",
           "normalized": "SentL a b-\u003eCodecM a b(Xs,Ys)",
@@ -346,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the word and do *not* update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeWord'Cn",
           "package": "crf-chain1",
@@ -356,6 +383,7 @@
         "index": {
           "description": "Encode the word and do not update the codec",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeWord'Cn",
           "normalized": "Word a-\u003eCodecM a b X",
@@ -372,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the word and update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeWord'Cu",
           "package": "crf-chain1",
@@ -382,6 +411,7 @@
         "index": {
           "description": "Encode the word and update the codec",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeWord'Cu",
           "normalized": "Word a-\u003eCodecM a b X",
@@ -398,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodec the labeled word and do *not* update the codec.\n If the label is not in the codec, use the default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeWordL'Cn",
           "package": "crf-chain1",
@@ -408,6 +439,7 @@
         "index": {
           "description": "Encodec the labeled word and do not update the codec If the label is not in the codec use the default value",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeWordL'Cn",
           "normalized": "Int-\u003eWordL a b-\u003eCodecM a b(X,Y)",
@@ -424,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the labeled word and update the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeWordL'Cu",
           "package": "crf-chain1",
@@ -434,6 +467,7 @@
         "index": {
           "description": "Encode the labeled word and update the codec",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "encodeWordL'Cu",
           "normalized": "WordL a b-\u003eCodecM a b(X,Y)",
@@ -450,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the codec on the basis of the labeled dataset, return the\n resultant codec and the encoded dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "mkCodec",
           "package": "crf-chain1",
@@ -460,6 +495,7 @@
         "index": {
           "description": "Create the codec on the basis of the labeled dataset return the resultant codec and the encoded dataset",
           "hierarchy": "Data CRF Chain1 Dataset Codec",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Codec",
           "name": "mkCodec",
           "normalized": "[SentL a b]-\u003e(Codec a b,[(Xs,Ys)])",
@@ -475,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.External",
           "name": "External",
           "package": "crf-chain1",
@@ -483,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Dataset External",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.External",
           "name": "External",
           "package": "crf-chain1",
@@ -497,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA probability distribution defined over elements of type a.\n All elements not included in the map have probability equal\n to 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.External",
           "name": "Dist",
           "package": "crf-chain1",
@@ -506,6 +545,7 @@
         "index": {
           "description": "probability distribution defined over elements of type All elements not included in the map have probability equal to",
           "hierarchy": "Data CRF Chain1 Dataset External",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.External",
           "name": "Dist",
           "package": "crf-chain1",
@@ -520,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sentence of words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.External",
           "name": "Sent",
           "package": "crf-chain1",
@@ -529,6 +570,7 @@
         "index": {
           "description": "sentence of words",
           "hierarchy": "Data CRF Chain1 Dataset External",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.External",
           "name": "Sent",
           "package": "crf-chain1",
@@ -543,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sentence of labeled words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.External",
           "name": "SentL",
           "package": "crf-chain1",
@@ -552,6 +595,7 @@
         "index": {
           "description": "sentence of labeled words",
           "hierarchy": "Data CRF Chain1 Dataset External",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.External",
           "name": "SentL",
           "package": "crf-chain1",
@@ -566,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Word is represented by a set of observations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.External",
           "name": "Word",
           "package": "crf-chain1",
@@ -575,6 +620,7 @@
         "index": {
           "description": "Word is represented by set of observations",
           "hierarchy": "Data CRF Chain1 Dataset External",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.External",
           "name": "Word",
           "package": "crf-chain1",
@@ -589,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA WordL is a labeled word, i.e. a word with probability distribution\n defined over labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.External",
           "name": "WordL",
           "package": "crf-chain1",
@@ -598,6 +645,7 @@
         "index": {
           "description": "WordL is labeled word i.e word with probability distribution defined over labels",
           "hierarchy": "Data CRF Chain1 Dataset External",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.External",
           "name": "WordL",
           "package": "crf-chain1",
@@ -664,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Internal",
           "package": "crf-chain1",
@@ -672,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Internal",
           "package": "crf-chain1",
@@ -686,6 +736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Lb",
           "package": "crf-chain1",
@@ -695,6 +746,7 @@
         "index": {
           "description": "label",
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Lb",
           "package": "crf-chain1",
@@ -709,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn observation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Ob",
           "package": "crf-chain1",
@@ -718,6 +771,7 @@
         "index": {
           "description": "An observation",
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Ob",
           "package": "crf-chain1",
@@ -732,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple word represented by a list of its observations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "X",
           "package": "crf-chain1",
@@ -741,6 +796,7 @@
         "index": {
           "description": "Simple word represented by list of its observations",
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "X",
           "package": "crf-chain1",
@@ -754,6 +810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSentence of words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Xs",
           "package": "crf-chain1",
@@ -763,6 +820,7 @@
         "index": {
           "description": "Sentence of words",
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Xs",
           "package": "crf-chain1",
@@ -777,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProbability distribution over labels. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Y",
           "package": "crf-chain1",
@@ -786,6 +845,7 @@
         "index": {
           "description": "Probability distribution over labels",
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Y",
           "package": "crf-chain1",
@@ -799,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSentence of Y (label choices).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Ys",
           "package": "crf-chain1",
@@ -808,6 +869,7 @@
         "index": {
           "description": "Sentence of label choices",
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Ys",
           "package": "crf-chain1",
@@ -821,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Lb",
           "package": "crf-chain1",
@@ -830,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Lb",
           "package": "crf-chain1",
@@ -843,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Ob",
           "package": "crf-chain1",
@@ -852,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Ob",
           "package": "crf-chain1",
@@ -865,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "X",
           "package": "crf-chain1",
@@ -874,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "X",
           "package": "crf-chain1",
@@ -886,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Y",
           "package": "crf-chain1",
@@ -895,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "Y",
           "package": "crf-chain1",
@@ -907,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "_unX",
           "package": "crf-chain1",
@@ -916,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "_unX",
           "package": "crf-chain1",
@@ -928,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "_unY",
           "package": "crf-chain1",
@@ -937,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "_unY",
           "normalized": "Vector(Lb,Double)",
@@ -952,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eX constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "mkX",
           "package": "crf-chain1",
@@ -962,6 +1037,7 @@
         "index": {
           "description": "constructor",
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "mkX",
           "normalized": "[Ob]-\u003eX",
@@ -977,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eY constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "mkY",
           "package": "crf-chain1",
@@ -987,6 +1064,7 @@
         "index": {
           "description": "constructor",
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "mkY",
           "normalized": "[(Lb,Double)]-\u003eY",
@@ -1001,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "unLb",
           "package": "crf-chain1",
@@ -1010,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "unLb",
           "package": "crf-chain1",
@@ -1023,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "unOb",
           "package": "crf-chain1",
@@ -1032,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "unOb",
           "package": "crf-chain1",
@@ -1046,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eX deconstructor symetric to mkX.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "unX",
           "package": "crf-chain1",
@@ -1056,6 +1139,7 @@
         "index": {
           "description": "deconstructor symetric to mkX",
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "unX",
           "normalized": "X-\u003e[Ob]",
@@ -1071,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eY deconstructor symetric to mkY.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "unY",
           "package": "crf-chain1",
@@ -1081,6 +1166,7 @@
         "index": {
           "description": "deconstructor symetric to mkY",
           "hierarchy": "Data CRF Chain1 Dataset Internal",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Dataset.Internal",
           "name": "unY",
           "normalized": "Y-\u003e[(Lb,Double)]",
@@ -1096,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides feature selection functions which extract\n hidden features, i.e. all features which can be constructed \n (by means of cartesian product) on the basis of the set of\n observations and the set of labels.\n For example, the list of hidden observation features can\n be defined as \u003ccode\u003e\u003ca\u003eOFeature\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003c$\u003e\u003c/code\u003e os \u003ccode\u003e\u003c*\u003e\u003c/code\u003e xs, where os is a\n list of all observations and xs is a list of all labels.\n\u003c/p\u003e\u003cp\u003eYou can mix functions defined here with the selection functions\n from the \u003ca\u003eData.CRF.Chain1.Feature.Present\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature.Hidden",
           "name": "Hidden",
           "package": "crf-chain1",
@@ -1105,6 +1192,7 @@
         "index": {
           "description": "The module provides feature selection functions which extract hidden features i.e all features which can be constructed by means of cartesian product on the basis of the set of observations and the set of labels For example the list of hidden observation features can be defined as OFeature os xs where os is list of all observations and xs is list of all labels You can mix functions defined here with the selection functions from the Data.CRF.Chain1.Feature.Present module",
           "hierarchy": "Data CRF Chain1 Feature Hidden",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature.Hidden",
           "name": "Hidden",
           "package": "crf-chain1",
@@ -1146,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHidden \u003ccode\u003e\u003ca\u003eOFeature\u003c/a\u003e\u003c/code\u003es which can be constructed based on the dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature.Hidden",
           "name": "hiddenOFeats",
           "package": "crf-chain1",
@@ -1156,6 +1245,7 @@
         "index": {
           "description": "Hidden OFeature which can be constructed based on the dataset",
           "hierarchy": "Data CRF Chain1 Feature Hidden",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature.Hidden",
           "name": "hiddenOFeats",
           "normalized": "[(Xs,Ys)]-\u003e[Feature]",
@@ -1172,6 +1262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHidden \u003ccode\u003e\u003ca\u003eSFeature\u003c/a\u003e\u003c/code\u003es which can be constructed based on the dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature.Hidden",
           "name": "hiddenSFeats",
           "package": "crf-chain1",
@@ -1182,6 +1273,7 @@
         "index": {
           "description": "Hidden SFeature which can be constructed based on the dataset",
           "hierarchy": "Data CRF Chain1 Feature Hidden",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature.Hidden",
           "name": "hiddenSFeats",
           "normalized": "[(Xs,Ys)]-\u003e[Feature]",
@@ -1198,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHidden \u003ccode\u003e\u003ca\u003eTFeature\u003c/a\u003e\u003c/code\u003es which can be constructed based on the dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature.Hidden",
           "name": "hiddenTFeats",
           "package": "crf-chain1",
@@ -1208,6 +1301,7 @@
         "index": {
           "description": "Hidden TFeature which can be constructed based on the dataset",
           "hierarchy": "Data CRF Chain1 Feature Hidden",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature.Hidden",
           "name": "hiddenTFeats",
           "normalized": "[(Xs,Ys)]-\u003e[Feature]",
@@ -1224,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides feature selection functions which extract\n features present in the dataset, i.e. features which directly occure\n the dataset.\n\u003c/p\u003e\u003cp\u003eYou can mix functions defined here with the selection functions\n from the \u003ca\u003eData.CRF.Chain1.Feature.Hidden\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature.Present",
           "name": "Present",
           "package": "crf-chain1",
@@ -1233,6 +1328,7 @@
         "index": {
           "description": "The module provides feature selection functions which extract features present in the dataset i.e features which directly occure the dataset You can mix functions defined here with the selection functions from the Data.CRF.Chain1.Feature.Hidden module",
           "hierarchy": "Data CRF Chain1 Feature Present",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature.Present",
           "name": "Present",
           "package": "crf-chain1",
@@ -1274,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eOFeature\u003c/a\u003e\u003c/code\u003es which occur in the dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature.Present",
           "name": "presentOFeats",
           "package": "crf-chain1",
@@ -1284,6 +1381,7 @@
         "index": {
           "description": "OFeature which occur in the dataset",
           "hierarchy": "Data CRF Chain1 Feature Present",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature.Present",
           "name": "presentOFeats",
           "normalized": "[(Xs,Ys)]-\u003e[Feature]",
@@ -1300,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSFeature\u003c/a\u003e\u003c/code\u003es which occur in the dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature.Present",
           "name": "presentSFeats",
           "package": "crf-chain1",
@@ -1310,6 +1409,7 @@
         "index": {
           "description": "SFeature which occur in the dataset",
           "hierarchy": "Data CRF Chain1 Feature Present",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature.Present",
           "name": "presentSFeats",
           "normalized": "[(a,Ys)]-\u003e[Feature]",
@@ -1326,6 +1426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTFeature\u003c/a\u003e\u003c/code\u003es which occur in the dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature.Present",
           "name": "presentTFeats",
           "package": "crf-chain1",
@@ -1336,6 +1437,7 @@
         "index": {
           "description": "TFeature which occur in the dataset",
           "hierarchy": "Data CRF Chain1 Feature Present",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature.Present",
           "name": "presentTFeats",
           "normalized": "[(a,Ys)]-\u003e[Feature]",
@@ -1351,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature",
           "name": "Feature",
           "package": "crf-chain1",
@@ -1359,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Feature",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature",
           "name": "Feature",
           "package": "crf-chain1",
@@ -1373,6 +1477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Feature is either an observation feature OFeature o x, which\n models relation between observation o and label x assigned to\n the same word, or a transition feature TFeature x y (SFeature x\n for the first position in the sentence), which models relation\n between two subsequent labels, x (on i-th position) and y\n (on (i-1)-th positoin).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature",
           "name": "Feature",
           "package": "crf-chain1",
@@ -1382,6 +1487,7 @@
         "index": {
           "description": "Feature is either an observation feature OFeature which models relation between observation and label assigned to the same word or transition feature TFeature SFeature for the first position in the sentence which models relation between two subsequent labels on i-th position and on i-1 th positoin",
           "hierarchy": "Data CRF Chain1 Feature",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature",
           "name": "Feature",
           "package": "crf-chain1",
@@ -1395,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature",
           "name": "OFeature",
           "package": "crf-chain1",
@@ -1404,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Feature",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature",
           "name": "OFeature",
           "package": "crf-chain1",
@@ -1417,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature",
           "name": "SFeature",
           "package": "crf-chain1",
@@ -1426,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Feature",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature",
           "name": "SFeature",
           "package": "crf-chain1",
@@ -1439,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature",
           "name": "TFeature",
           "package": "crf-chain1",
@@ -1448,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Feature",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature",
           "name": "TFeature",
           "package": "crf-chain1",
@@ -1462,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll features with assigned probabilities in given labeled sentence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature",
           "name": "featuresIn",
           "package": "crf-chain1",
@@ -1472,6 +1585,7 @@
         "index": {
           "description": "All features with assigned probabilities in given labeled sentence",
           "hierarchy": "Data CRF Chain1 Feature",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature",
           "name": "featuresIn",
           "normalized": "Xs-\u003eYs-\u003e[(Feature,LogFloat)]",
@@ -1488,6 +1602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs it an \u003ccode\u003e\u003ca\u003eOFeature\u003c/a\u003e\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature",
           "name": "isOFeat",
           "package": "crf-chain1",
@@ -1498,6 +1613,7 @@
         "index": {
           "description": "Is it an OFeature",
           "hierarchy": "Data CRF Chain1 Feature",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature",
           "name": "isOFeat",
           "normalized": "Feature-\u003eBool",
@@ -1514,6 +1630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs it a \u003ccode\u003e\u003ca\u003eSFeature\u003c/a\u003e\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature",
           "name": "isSFeat",
           "package": "crf-chain1",
@@ -1524,6 +1641,7 @@
         "index": {
           "description": "Is it SFeature",
           "hierarchy": "Data CRF Chain1 Feature",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature",
           "name": "isSFeat",
           "normalized": "Feature-\u003eBool",
@@ -1540,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs it a \u003ccode\u003e\u003ca\u003eTFeature\u003c/a\u003e\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Feature",
           "name": "isTFeat",
           "package": "crf-chain1",
@@ -1550,6 +1669,7 @@
         "index": {
           "description": "Is it TFeature",
           "hierarchy": "Data CRF Chain1 Feature",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Feature",
           "name": "isTFeat",
           "normalized": "Feature-\u003eBool",
@@ -1565,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Inference",
           "name": "Inference",
           "package": "crf-chain1",
@@ -1573,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Inference",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Inference",
           "name": "Inference",
           "package": "crf-chain1",
@@ -1587,6 +1709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the accuracy of the model with respect to the labeled dataset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Inference",
           "name": "accuracy",
           "package": "crf-chain1",
@@ -1597,6 +1720,7 @@
         "index": {
           "description": "Compute the accuracy of the model with respect to the labeled dataset",
           "hierarchy": "Data CRF Chain1 Inference",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Inference",
           "name": "accuracy",
           "normalized": "Model-\u003e[(Xs,Ys)]-\u003eDouble",
@@ -1612,6 +1736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of features (represented by feature indices) defined within\n the context of the sentence accompanied by expected probabilities\n determined on the basis of the model. \n\u003c/p\u003e\u003cp\u003eOne feature can occur multiple times in the output list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Inference",
           "name": "expectedFeaturesIn",
           "package": "crf-chain1",
@@ -1622,6 +1747,7 @@
         "index": {
           "description": "list of features represented by feature indices defined within the context of the sentence accompanied by expected probabilities determined on the basis of the model One feature can occur multiple times in the output list",
           "hierarchy": "Data CRF Chain1 Inference",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Inference",
           "name": "expectedFeaturesIn",
           "normalized": "Model-\u003eXs-\u003e[(FeatIx,LogFloat)]",
@@ -1638,6 +1764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag probabilities with respect to marginal distributions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Inference",
           "name": "marginals",
           "package": "crf-chain1",
@@ -1648,6 +1775,7 @@
         "index": {
           "description": "Tag probabilities with respect to marginal distributions",
           "hierarchy": "Data CRF Chain1 Inference",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Inference",
           "name": "marginals",
           "normalized": "Model-\u003eXs-\u003e[[(Lb,LogFloat)]]",
@@ -1663,6 +1791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the most probable label sequence given the context of the\n CRF model and the sentence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Inference",
           "name": "tag",
           "package": "crf-chain1",
@@ -1673,6 +1802,7 @@
         "index": {
           "description": "Determine the most probable label sequence given the context of the CRF model and the sentence",
           "hierarchy": "Data CRF Chain1 Inference",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Inference",
           "name": "tag",
           "normalized": "Model-\u003eXs-\u003e[Lb]",
@@ -1688,6 +1818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalization factor computed for the \u003ccode\u003e\u003ca\u003eXs\u003c/a\u003e\u003c/code\u003e sentence using the\n backward computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Inference",
           "name": "zx",
           "package": "crf-chain1",
@@ -1698,6 +1829,7 @@
         "index": {
           "description": "Normalization factor computed for the Xs sentence using the backward computation",
           "hierarchy": "Data CRF Chain1 Inference",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Inference",
           "name": "zx",
           "normalized": "Model-\u003eXs-\u003eLogFloat",
@@ -1713,6 +1845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalization factor computed for the \u003ccode\u003e\u003ca\u003eXs\u003c/a\u003e\u003c/code\u003e sentence using the\n forward computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Inference",
           "name": "zx'",
           "package": "crf-chain1",
@@ -1723,6 +1856,7 @@
         "index": {
           "description": "Normalization factor computed for the Xs sentence using the forward computation",
           "hierarchy": "Data CRF Chain1 Inference",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Inference",
           "name": "zx'",
           "normalized": "Model-\u003eXs-\u003eLogFloat",
@@ -1738,6 +1872,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal implementation of the CRF model.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "Model",
           "package": "crf-chain1",
@@ -1747,6 +1882,7 @@
         "index": {
           "description": "Internal implementation of the CRF model",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "Model",
           "package": "crf-chain1",
@@ -1761,6 +1897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA feature index.  To every model feature a unique index is assigned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "FeatIx",
           "package": "crf-chain1",
@@ -1770,6 +1907,7 @@
         "index": {
           "description": "feature index To every model feature unique index is assigned",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "FeatIx",
           "package": "crf-chain1",
@@ -1784,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe model is realy a map from features to potentials, but for the sake\n of efficiency the internal representation is more complex.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "Model",
           "package": "crf-chain1",
@@ -1793,6 +1932,7 @@
         "index": {
           "description": "The model is realy map from features to potentials but for the sake of efficiency the internal representation is more complex",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "Model",
           "package": "crf-chain1",
@@ -1806,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "FeatIx",
           "package": "crf-chain1",
@@ -1815,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "FeatIx",
           "package": "crf-chain1",
@@ -1828,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "Model",
           "package": "crf-chain1",
@@ -1837,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "Model",
           "package": "crf-chain1",
@@ -1851,6 +1995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003efeatToIx\u003c/a\u003e\u003c/code\u003e but immediately unwrap the feature index to\n integer value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "featToInt",
           "package": "crf-chain1",
@@ -1861,6 +2006,7 @@
         "index": {
           "description": "Same as featToIx but immediately unwrap the feature index to integer value",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "featToInt",
           "normalized": "Model-\u003eFeature-\u003eInt",
@@ -1877,6 +2023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the index for the given feature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "featToIx",
           "package": "crf-chain1",
@@ -1887,6 +2034,7 @@
         "index": {
           "description": "Determine the index for the given feature",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "featToIx",
           "normalized": "Model-\u003eFeature-\u003eFeatIx",
@@ -1903,6 +2051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from features to feature indices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "ixMap",
           "package": "crf-chain1",
@@ -1913,6 +2062,7 @@
         "index": {
           "description": "map from features to feature indices",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "ixMap",
           "package": "crf-chain1",
@@ -1927,6 +2077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of labels. The label set is of the {0, 1, .., lbNum - 1}\n form, which is guaranteed by the codec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "lbNum",
           "package": "crf-chain1",
@@ -1937,6 +2088,7 @@
         "index": {
           "description": "Number of labels The label set is of the lbNum form which is guaranteed by the codec",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "lbNum",
           "package": "crf-chain1",
@@ -1951,6 +2103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of labels [0 .. \u003ccode\u003e\u003ca\u003elbNum\u003c/a\u003e\u003c/code\u003e - 1].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "lbSet",
           "package": "crf-chain1",
@@ -1961,6 +2114,7 @@
         "index": {
           "description": "List of labels lbNum",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "lbSet",
           "normalized": "Model-\u003e[Lb]",
@@ -1977,6 +2131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the model from the list of features.  All parameters will be\n set to 0.  There may be repetitions in the input list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "mkModel",
           "package": "crf-chain1",
@@ -1987,6 +2142,7 @@
         "index": {
           "description": "Construct the model from the list of features All parameters will be set to There may be repetitions in the input list",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "mkModel",
           "normalized": "[Feature]-\u003eModel",
@@ -2003,6 +2159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of ,,next'' labels which constitute a valid feature in combination\n with the ,,current'' label accompanied by feature indices determined by\n ,,next'' labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "nextIxs",
           "package": "crf-chain1",
@@ -2013,6 +2170,7 @@
         "index": {
           "description": "List of next labels which constitute valid feature in combination with the current label accompanied by feature indices determined by next labels",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "nextIxs",
           "normalized": "Model-\u003eLb-\u003e[LbIx]",
@@ -2029,6 +2187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of ,,next'' labels for the value of the ,,current'' label.\n Both labels constitute a transition feature present in the the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "nextIxsV",
           "package": "crf-chain1",
@@ -2039,6 +2198,7 @@
         "index": {
           "description": "Set of next labels for the value of the current label Both labels constitute transition feature present in the the model",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "nextIxsV",
           "package": "crf-chain1",
@@ -2053,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of labels which constitute a valid feature in combination with\n the given observation accompanied by feature indices determined by\n these labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "obIxs",
           "package": "crf-chain1",
@@ -2063,6 +2224,7 @@
         "index": {
           "description": "List of labels which constitute valid feature in combination with the given observation accompanied by feature indices determined by these labels",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "obIxs",
           "normalized": "Model-\u003eOb-\u003e[LbIx]",
@@ -2079,6 +2241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of labels for the given observation which, together with the\n observation, constitute an observation feature of the model. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "obIxsV",
           "package": "crf-chain1",
@@ -2089,6 +2252,7 @@
         "index": {
           "description": "Set of labels for the given observation which together with the observation constitute an observation feature of the model",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "obIxsV",
           "package": "crf-chain1",
@@ -2103,6 +2267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of ,,previous'' labels which constitute a valid feature in\n combination with the ,,current'' label accompanied by feature indices\n determined by ,,previous'' labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "prevIxs",
           "package": "crf-chain1",
@@ -2113,6 +2278,7 @@
         "index": {
           "description": "List of previous labels which constitute valid feature in combination with the current label accompanied by feature indices determined by previous labels",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "prevIxs",
           "normalized": "Model-\u003eLb-\u003e[LbIx]",
@@ -2129,6 +2295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of ,,previous'' labels for the value of the ,,current'' label.\n Both labels constitute a transition feature present in the the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "prevIxsV",
           "package": "crf-chain1",
@@ -2139,6 +2306,7 @@
         "index": {
           "description": "Set of previous labels for the value of the current label Both labels constitute transition feature present in the the model",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "prevIxsV",
           "package": "crf-chain1",
@@ -2153,6 +2321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of labels which can be located on the first position of\n a sentence together with feature indices determined by them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "sgIxs",
           "package": "crf-chain1",
@@ -2163,6 +2332,7 @@
         "index": {
           "description": "List of labels which can be located on the first position of sentence together with feature indices determined by them",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "sgIxs",
           "normalized": "Model-\u003e[LbIx]",
@@ -2179,6 +2349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingular feature index for the given label.  Index is equall to -1\n if feature is not present in the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "sgIxsV",
           "package": "crf-chain1",
@@ -2189,6 +2360,7 @@
         "index": {
           "description": "Singular feature index for the given label Index is equall to if feature is not present in the model",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "sgIxsV",
           "package": "crf-chain1",
@@ -2203,6 +2375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePotential value (in log domain) of the singular feature with the\n given label.  The value defaults to 0 when the feature is not a\n member of the model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "sgValue",
           "package": "crf-chain1",
@@ -2213,6 +2386,7 @@
         "index": {
           "description": "Potential value in log domain of the singular feature with the given label The value defaults to when the feature is not member of the model",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "sgValue",
           "normalized": "Model-\u003eLb-\u003eLogFloat",
@@ -2228,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "unFeatIx",
           "package": "crf-chain1",
@@ -2237,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "unFeatIx",
           "package": "crf-chain1",
@@ -2251,6 +2427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModel potential defined for the given feature interpreted as a\n number in logarithmic domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "valueL",
           "package": "crf-chain1",
@@ -2261,6 +2438,7 @@
         "index": {
           "description": "Model potential defined for the given feature interpreted as number in logarithmic domain",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "valueL",
           "normalized": "Model-\u003eFeatIx-\u003eLogFloat",
@@ -2276,6 +2454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue (potential) of the model for feature index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Model",
           "name": "values",
           "package": "crf-chain1",
@@ -2286,6 +2465,7 @@
         "index": {
           "description": "Value potential of the model for feature index",
           "hierarchy": "Data CRF Chain1 Model",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Model",
           "name": "values",
           "package": "crf-chain1",
@@ -2298,6 +2478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Train",
           "name": "Train",
           "package": "crf-chain1",
@@ -2306,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Data CRF Chain1 Train",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Train",
           "name": "Train",
           "package": "crf-chain1",
@@ -2320,6 +2502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA conditional random field model with additional codec used for\n data encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1.Train",
           "name": "CRF",
           "package": "crf-chain1",
@@ -2329,6 +2512,7 @@
         "index": {
           "description": "conditional random field model with additional codec used for data encoding",
           "hierarchy": "Data CRF Chain1 Train",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1.Train",
           "name": "CRF",
           "package": "crf-chain1",
@@ -2439,6 +2623,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides first-order, linear-chain conditional random fields\n (CRFs).\n\u003c/p\u003e\u003cp\u003eImportant feature of the implemented flavour of CRFs is that transition\n features which are not included in the CRF model are considered to have\n probability of 0. \n It is particularly useful when the training material determines the set\n of possible label transitions (e.g. when using the IOB encoding method).\n Furthermore, this design decision makes the implementation much faster\n for sparse datasets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1",
           "name": "Chain1",
           "package": "crf-chain1",
@@ -2448,6 +2633,7 @@
         "index": {
           "description": "The module provides first-order linear-chain conditional random fields CRFs Important feature of the implemented flavour of CRFs is that transition features which are not included in the CRF model are considered to have probability of It is particularly useful when the training material determines the set of possible label transitions e.g when using the IOB encoding method Furthermore this design decision makes the implementation much faster for sparse datasets",
           "hierarchy": "Data CRF Chain1",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1",
           "name": "Chain1",
           "package": "crf-chain1",
@@ -2462,6 +2648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA conditional random field model with additional codec used for\n data encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1",
           "name": "CRF",
           "package": "crf-chain1",
@@ -2471,6 +2658,7 @@
         "index": {
           "description": "conditional random field model with additional codec used for data encoding",
           "hierarchy": "Data CRF Chain1",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1",
           "name": "CRF",
           "package": "crf-chain1",
@@ -2485,6 +2673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA probability distribution defined over elements of type a.\n All elements not included in the map have probability equal\n to 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1",
           "name": "Dist",
           "package": "crf-chain1",
@@ -2494,6 +2683,7 @@
         "index": {
           "description": "probability distribution defined over elements of type All elements not included in the map have probability equal to",
           "hierarchy": "Data CRF Chain1",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1",
           "name": "Dist",
           "package": "crf-chain1",
@@ -2508,6 +2698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sentence of words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1",
           "name": "Sent",
           "package": "crf-chain1",
@@ -2517,6 +2708,7 @@
         "index": {
           "description": "sentence of words",
           "hierarchy": "Data CRF Chain1",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1",
           "name": "Sent",
           "package": "crf-chain1",
@@ -2531,6 +2723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sentence of labeled words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1",
           "name": "SentL",
           "package": "crf-chain1",
@@ -2540,6 +2733,7 @@
         "index": {
           "description": "sentence of labeled words",
           "hierarchy": "Data CRF Chain1",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1",
           "name": "SentL",
           "package": "crf-chain1",
@@ -2554,6 +2748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Word is represented by a set of observations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1",
           "name": "Word",
           "package": "crf-chain1",
@@ -2563,6 +2758,7 @@
         "index": {
           "description": "Word is represented by set of observations",
           "hierarchy": "Data CRF Chain1",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1",
           "name": "Word",
           "package": "crf-chain1",
@@ -2577,6 +2773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA WordL is a labeled word, i.e. a word with probability distribution\n defined over labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1",
           "name": "WordL",
           "package": "crf-chain1",
@@ -2586,6 +2783,7 @@
         "index": {
           "description": "WordL is labeled word i.e word with probability distribution defined over labels",
           "hierarchy": "Data CRF Chain1",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1",
           "name": "WordL",
           "package": "crf-chain1",
@@ -2600,6 +2798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the most probable label sequence within the context of the\n given sentence using the model provided by the \u003ccode\u003e\u003ca\u003eCRF\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:55 UTC 2014",
           "module": "Data.CRF.Chain1",
           "name": "tag",
           "package": "crf-chain1",
@@ -2610,6 +2809,7 @@
         "index": {
           "description": "Determine the most probable label sequence within the context of the given sentence using the model provided by the CRF",
           "hierarchy": "Data CRF Chain1",
+          "indexed": "2014-03-11T17:42:55",
           "module": "Data.CRF.Chain1",
           "name": "tag",
           "normalized": "CRF a b-\u003eSent a-\u003e[b]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shpider"
+        "phrase": "shpider",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Code",
           "name": "Code",
           "package": "shpider",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Code",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Code",
           "name": "Code",
           "package": "shpider",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShpiderCode describes the various contingencies which may occur during a shpider transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Code",
           "name": "ShpiderCode",
           "package": "shpider",
@@ -49,6 +52,7 @@
         "index": {
           "description": "ShpiderCode describes the various contingencies which may occur during shpider transaction",
           "hierarchy": "Network Shpider Code",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Code",
           "name": "ShpiderCode",
           "package": "shpider",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Code",
           "name": "HttpError",
           "package": "shpider",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Code",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Code",
           "name": "HttpError",
           "package": "shpider",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Code",
           "name": "InvalidURL",
           "package": "shpider",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Code",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Code",
           "name": "InvalidURL",
           "package": "shpider",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Code",
           "name": "NoHost",
           "package": "shpider",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Code",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Code",
           "name": "NoHost",
           "package": "shpider",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Code",
           "name": "OffSite",
           "package": "shpider",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Code",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Code",
           "name": "OffSite",
           "package": "shpider",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Code",
           "name": "Ok",
           "package": "shpider",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Code",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Code",
           "name": "Ok",
           "package": "shpider",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Code",
           "name": "TimeOut",
           "package": "shpider",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Code",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Code",
           "name": "TimeOut",
           "package": "shpider",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Code",
           "name": "UnsupportedCurlStatus",
           "package": "shpider",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Code",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Code",
           "name": "UnsupportedCurlStatus",
           "package": "shpider",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Code",
           "name": "UnsupportedProtocol",
           "package": "shpider",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Code",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Code",
           "name": "UnsupportedProtocol",
           "package": "shpider",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Code",
           "name": "WrongData",
           "package": "shpider",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Code",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Code",
           "name": "WrongData",
           "package": "shpider",
@@ -261,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003eCurlCode\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eShpiderCode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Code",
           "name": "ccToSh",
           "package": "shpider",
@@ -271,6 +294,7 @@
         "index": {
           "description": "Converts CurlCode to ShpiderCode",
           "hierarchy": "Network Shpider Code",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Code",
           "name": "ccToSh",
           "normalized": "CurlCode-\u003eShpiderCode",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Forms",
           "name": "Forms",
           "package": "shpider",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Forms",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Forms",
           "name": "Forms",
           "package": "shpider",
@@ -308,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain old form: Method, action and inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Forms",
           "name": "Form",
           "package": "shpider",
@@ -317,6 +344,7 @@
         "index": {
           "description": "Plain old form Method action and inputs",
           "hierarchy": "Network Shpider Forms",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Forms",
           "name": "Form",
           "package": "shpider",
@@ -331,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither GET or POST.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Forms",
           "name": "Method",
           "package": "shpider",
@@ -340,6 +369,7 @@
         "index": {
           "description": "Either GET or POST",
           "hierarchy": "Network Shpider Forms",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Forms",
           "name": "Method",
           "package": "shpider",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Forms",
           "name": "Form",
           "package": "shpider",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Forms",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Forms",
           "name": "Form",
           "package": "shpider",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Forms",
           "name": "GET",
           "package": "shpider",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Forms",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Forms",
           "name": "GET",
           "package": "shpider",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Forms",
           "name": "POST",
           "package": "shpider",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Forms",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Forms",
           "name": "POST",
           "package": "shpider",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Forms",
           "name": "action",
           "package": "shpider",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Forms",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Forms",
           "name": "action",
           "package": "shpider",
@@ -441,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eTagParser\u003c/a\u003e\u003c/code\u003e which parses all forms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Forms",
           "name": "allForms",
           "package": "shpider",
@@ -451,6 +490,7 @@
         "index": {
           "description": "The TagParser which parses all forms",
           "hierarchy": "Network Shpider Forms",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Forms",
           "name": "allForms",
           "normalized": "TagParser String[Form]",
@@ -467,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a form and fills out the inputs with the given [ ( String , String ) ].\n It is convienent to use the \u003ccode\u003e\u003ca\u003epairs\u003c/a\u003e\u003c/code\u003e syntax here.\n\u003c/p\u003e\u003cpre\u003e\n f : _ \u003c- \u003ccode\u003egetFormsByAction\u003c/code\u003e \"http://whatever.com\"\n \u003ccode\u003esendForm\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003efillOutForm\u003c/a\u003e\u003c/code\u003e f $ \u003ccode\u003e\u003ca\u003epairs\u003c/a\u003e\u003c/code\u003e $ do\n    \"author\" =: \"Johnny\"\n    \"message\" =: \"Nice syntax dewd.\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Forms",
           "name": "fillOutForm",
           "package": "shpider",
@@ -477,6 +518,7 @@
         "index": {
           "description": "Takes form and fills out the inputs with the given String String It is convienent to use the pairs syntax here getFormsByAction http whatever.com sendForm fillOutForm pairs do author Johnny message Nice syntax dewd",
           "hierarchy": "Network Shpider Forms",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Forms",
           "name": "fillOutForm",
           "normalized": "Form-\u003e[(String,String)]-\u003eForm",
@@ -493,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all forms from a list of tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Forms",
           "name": "gatherForms",
           "package": "shpider",
@@ -503,6 +546,7 @@
         "index": {
           "description": "Gets all forms from list of tags",
           "hierarchy": "Network Shpider Forms",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Forms",
           "name": "gatherForms",
           "normalized": "[Tag String]-\u003e[Form]",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Forms",
           "name": "inputs",
           "package": "shpider",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Forms",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Forms",
           "name": "inputs",
           "package": "shpider",
@@ -539,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Forms",
           "name": "method",
           "package": "shpider",
@@ -548,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Forms",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Forms",
           "name": "method",
           "package": "shpider",
@@ -561,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first argument is the action attribute of the form, the second is the method attribute, and the third are the inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Forms",
           "name": "mkForm",
           "package": "shpider",
@@ -571,6 +620,7 @@
         "index": {
           "description": "The first argument is the action attribute of the form the second is the method attribute and the third are the inputs",
           "hierarchy": "Network Shpider Forms",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Forms",
           "name": "mkForm",
           "normalized": "String-\u003eMethod-\u003e[(String,String)]-\u003eForm",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Forms",
           "name": "toForm",
           "package": "shpider",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Forms",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Forms",
           "name": "toForm",
           "normalized": "WholeTag String-\u003eMaybe Form",
@@ -610,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Links",
           "name": "Links",
           "package": "shpider",
@@ -618,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Links",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Links",
           "name": "Links",
           "package": "shpider",
@@ -632,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinks have an address, corresponding to the href attribute, and some inner tex.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Links",
           "name": "Link",
           "package": "shpider",
@@ -641,6 +696,7 @@
         "index": {
           "description": "Links have an address corresponding to the href attribute and some inner tex",
           "hierarchy": "Network Shpider Links",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Links",
           "name": "Link",
           "package": "shpider",
@@ -654,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Links",
           "name": "Link",
           "package": "shpider",
@@ -663,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Links",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Links",
           "name": "Link",
           "package": "shpider",
@@ -677,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parser responsible for getting all the links.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Links",
           "name": "allLinks",
           "package": "shpider",
@@ -687,6 +746,7 @@
         "index": {
           "description": "The parser responsible for getting all the links",
           "hierarchy": "Network Shpider Links",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Links",
           "name": "allLinks",
           "normalized": "TagParser String[Link]",
@@ -703,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse all links from a list of tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Links",
           "name": "gatherLinks",
           "package": "shpider",
@@ -713,6 +774,7 @@
         "index": {
           "description": "Parse all links from list of tags",
           "hierarchy": "Network Shpider Links",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Links",
           "name": "gatherLinks",
           "normalized": "[Tag String]-\u003e[Link]",
@@ -728,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Links",
           "name": "linkAddress",
           "package": "shpider",
@@ -737,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Links",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Links",
           "name": "linkAddress",
           "package": "shpider",
@@ -750,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Links",
           "name": "linkText",
           "package": "shpider",
@@ -759,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider Links",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Links",
           "name": "linkText",
           "package": "shpider",
@@ -773,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides all the settable options in shpider.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Options",
           "name": "Options",
           "package": "shpider",
@@ -782,6 +849,7 @@
         "index": {
           "description": "This module provides all the settable options in shpider",
           "hierarchy": "Network Shpider Options",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Options",
           "name": "Options",
           "package": "shpider",
@@ -796,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd CURL options to Shpider\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Options",
           "name": "addCurlOpts",
           "package": "shpider",
@@ -806,6 +875,7 @@
         "index": {
           "description": "Add CURL options to Shpider",
           "hierarchy": "Network Shpider Options",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Options",
           "name": "addCurlOpts",
           "normalized": "[CurlOption]-\u003eShpider()",
@@ -822,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the current page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Options",
           "name": "getCurrentPage",
           "package": "shpider",
@@ -832,6 +903,7 @@
         "index": {
           "description": "Return the current page",
           "hierarchy": "Network Shpider Options",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Options",
           "name": "getCurrentPage",
           "package": "shpider",
@@ -846,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the starting URL, as set by \u003ccode\u003e\u003ca\u003esetStartPage\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Options",
           "name": "getStartPage",
           "package": "shpider",
@@ -856,6 +929,7 @@
         "index": {
           "description": "Return the starting URL as set by setStartPage",
           "hierarchy": "Network Shpider Options",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Options",
           "name": "getStartPage",
           "package": "shpider",
@@ -870,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen keepTrack is set, shpider will remember the pages which have been \u003ccode\u003e\u003ca\u003evisited\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Options",
           "name": "keepTrack",
           "package": "shpider",
@@ -880,6 +955,7 @@
         "index": {
           "description": "When keepTrack is set shpider will remember the pages which have been visited",
           "hierarchy": "Network Shpider Options",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Options",
           "name": "keepTrack",
           "normalized": "Shpider()",
@@ -896,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf onlyDownloadHtml is True, then during \u003ccode\u003edownload\u003c/code\u003e, shpider will make a HEAD request to see if the content type is text/html or application/xhtml+xml, and only if it is, then it will make a GET request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Options",
           "name": "onlyDownloadHtml",
           "package": "shpider",
@@ -906,6 +983,7 @@
         "index": {
           "description": "If onlyDownloadHtml is True then during download shpider will make HEAD request to see if the content type is text html or application xhtml xml and only if it is then it will make GET request",
           "hierarchy": "Network Shpider Options",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Options",
           "name": "onlyDownloadHtml",
           "normalized": "Bool-\u003eShpider()",
@@ -922,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet Shpider's CURL options from scratch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Options",
           "name": "setCurlOpts",
           "package": "shpider",
@@ -932,6 +1011,7 @@
         "index": {
           "description": "Set Shpider CURL options from scratch",
           "hierarchy": "Network Shpider Options",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Options",
           "name": "setCurlOpts",
           "normalized": "[CurlOption]-\u003eShpider()",
@@ -948,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the given page as the \u003ccode\u003e\u003ca\u003ecurrentPage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Options",
           "name": "setCurrentPage",
           "package": "shpider",
@@ -958,6 +1039,7 @@
         "index": {
           "description": "Set the given page as the currentPage",
           "hierarchy": "Network Shpider Options",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Options",
           "name": "setCurrentPage",
           "normalized": "Page-\u003eShpider()",
@@ -974,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the start page of your shpidering antics.\n The start page must be an absolute URL, if not, this will raise an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Options",
           "name": "setStartPage",
           "package": "shpider",
@@ -984,6 +1067,7 @@
         "index": {
           "description": "Set the start page of your shpidering antics The start page must be an absolute URL if not this will raise an error",
           "hierarchy": "Network Shpider Options",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Options",
           "name": "setStartPage",
           "normalized": "String-\u003eShpider()",
@@ -1000,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet download throttling, so that subsequent calls to \u003ccode\u003edownload\u003c/code\u003e\n or \u003ccode\u003esendForm\u003c/code\u003e block, making sure at least N micro-seconds pass.\n Passing a \u003ca\u003eNothing\u003c/a\u003e would disable any throttling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Options",
           "name": "setThrottle",
           "package": "shpider",
@@ -1010,6 +1095,7 @@
         "index": {
           "description": "Set download throttling so that subsequent calls to download or sendForm block making sure at least micro-seconds pass Passing Nothing would disable any throttling",
           "hierarchy": "Network Shpider Options",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Options",
           "name": "setThrottle",
           "normalized": "Maybe Int-\u003eShpider()",
@@ -1026,6 +1112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the CurlTimeout option.  Requests will TimeOut after this number of seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Options",
           "name": "setTimeOut",
           "package": "shpider",
@@ -1036,6 +1123,7 @@
         "index": {
           "description": "Set the CurlTimeout option Requests will TimeOut after this number of seconds",
           "hierarchy": "Network Shpider Options",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Options",
           "name": "setTimeOut",
           "normalized": "Long-\u003eShpider()",
@@ -1052,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetting this to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e will forbid you to \u003ccode\u003edownload\u003c/code\u003e and \u003ccode\u003esendForm\u003c/code\u003e to any site which isn't on the domain shared by the url given in \u003ccode\u003e\u003ca\u003esetStartPage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Options",
           "name": "stayOnDomain",
           "package": "shpider",
@@ -1062,6 +1151,7 @@
         "index": {
           "description": "Setting this to True will forbid you to download and sendForm to any site which isn on the domain shared by the url given in setStartPage",
           "hierarchy": "Network Shpider Options",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Options",
           "name": "stayOnDomain",
           "normalized": "Bool-\u003eShpider()",
@@ -1078,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a nice syntax for defining a list of pairs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Pairs",
           "name": "Pairs",
           "package": "shpider",
@@ -1087,6 +1178,7 @@
         "index": {
           "description": "This module provides nice syntax for defining list of pairs",
           "hierarchy": "Network Shpider Pairs",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Pairs",
           "name": "Pairs",
           "package": "shpider",
@@ -1101,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract type describing the monadic state of a list of pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Pairs",
           "name": "PairsWriter",
           "package": "shpider",
@@ -1110,6 +1203,7 @@
         "index": {
           "description": "The abstract type describing the monadic state of list of pairs",
           "hierarchy": "Network Shpider Pairs",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Pairs",
           "name": "PairsWriter",
           "package": "shpider",
@@ -1124,6 +1218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a list of pairs of pairs like\n\u003c/p\u003e\u003cpre\u003e\n    pairs $ do $ 3 =: ( \" is my favourite number or \" , 5 )\n                 10 =: ( \" pints have I drunk or was it \" , 11 )\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Pairs",
           "name": "(=:)",
           "package": "shpider",
@@ -1134,6 +1229,7 @@
         "index": {
           "description": "Make list of pairs of pairs like pairs do is my favourite number or pints have drunk or was it",
           "hierarchy": "Network Shpider Pairs",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Pairs",
           "name": "(=:) =:",
           "normalized": "a b c b-\u003ed-\u003ePairsWriter b d()",
@@ -1149,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a monadic PairsWriter and return a list of pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.Pairs",
           "name": "pairs",
           "package": "shpider",
@@ -1159,6 +1256,7 @@
         "index": {
           "description": "Take monadic PairsWriter and return list of pairs",
           "hierarchy": "Network Shpider Pairs",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.Pairs",
           "name": "pairs",
           "normalized": "a b c d PairsWriter b c e-\u003e[(b,c)]",
@@ -1174,6 +1272,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module describes the state of shpider computations, and provides a monad transformer over it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "State",
           "package": "shpider",
@@ -1183,6 +1282,7 @@
         "index": {
           "description": "This module describes the state of shpider computations and provides monad transformer over it",
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "State",
           "package": "shpider",
@@ -1197,6 +1297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Page datatype.  Holds \u003ccode\u003e\u003ca\u003eLink\u003c/a\u003e\u003c/code\u003es, \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003es, the parsed [ \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e ], the page source, and the page's absolute URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "Page",
           "package": "shpider",
@@ -1206,6 +1307,7 @@
         "index": {
           "description": "The Page datatype Holds Link Form the parsed Tag the page source and the page absolute URL",
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "Page",
           "package": "shpider",
@@ -1220,6 +1322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of Shpider computations.  A state transformer over \u003ccode\u003e\u003ca\u003eShpiderState\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "Shpider",
           "package": "shpider",
@@ -1229,6 +1332,7 @@
         "index": {
           "description": "The type of Shpider computations state transformer over ShpiderState and IO",
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "Shpider",
           "package": "shpider",
@@ -1243,6 +1347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe shpider state holds all the options for shpider transactions, the current page and all the \u003ccode\u003e\u003ca\u003eCurlOption\u003c/a\u003e\u003c/code\u003es used when calling curl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "ShpiderState",
           "package": "shpider",
@@ -1252,6 +1357,7 @@
         "index": {
           "description": "The shpider state holds all the options for shpider transactions the current page and all the CurlOption used when calling curl",
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "ShpiderState",
           "package": "shpider",
@@ -1265,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "Page",
           "package": "shpider",
@@ -1274,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "Page",
           "package": "shpider",
@@ -1287,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "SS",
           "package": "shpider",
@@ -1296,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "SS",
           "package": "shpider",
@@ -1309,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "addr",
           "package": "shpider",
@@ -1318,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "addr",
           "package": "shpider",
@@ -1330,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "curlOpts",
           "package": "shpider",
@@ -1339,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "curlOpts",
           "normalized": "[CurlOption]",
@@ -1354,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "currentPage",
           "package": "shpider",
@@ -1363,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "currentPage",
           "package": "shpider",
@@ -1376,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "dontLeaveDomain",
           "package": "shpider",
@@ -1385,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "dontLeaveDomain",
           "package": "shpider",
@@ -1399,6 +1517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to wait at least N micro-seconds between downloads\n or form submissions. Defaults to \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "downloadThrottle",
           "package": "shpider",
@@ -1409,6 +1528,7 @@
         "index": {
           "description": "Whether to wait at least micro-seconds between downloads or form submissions Defaults to Nothing",
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "downloadThrottle",
           "package": "shpider",
@@ -1423,6 +1543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty page, containing no information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "emptyPage",
           "package": "shpider",
@@ -1433,6 +1554,7 @@
         "index": {
           "description": "An empty page containing no information",
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "emptyPage",
           "package": "shpider",
@@ -1446,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "forms",
           "package": "shpider",
@@ -1455,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "forms",
           "normalized": "[Form]",
@@ -1469,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "htmlOnlyDownloads",
           "package": "shpider",
@@ -1478,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "htmlOnlyDownloads",
           "package": "shpider",
@@ -1491,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "lastDownloadTime",
           "package": "shpider",
@@ -1500,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "lastDownloadTime",
           "package": "shpider",
@@ -1513,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "links",
           "package": "shpider",
@@ -1522,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "links",
           "normalized": "[Link]",
@@ -1537,6 +1667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a Shpider computation, returning the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "runShpider",
           "package": "shpider",
@@ -1547,6 +1678,7 @@
         "index": {
           "description": "Run Shpider computation returning the result",
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "runShpider",
           "normalized": "Shpider a-\u003eIO a",
@@ -1563,6 +1695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a Shpider computation, returning the result with the state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "runShpiderSt",
           "package": "shpider",
@@ -1573,6 +1706,7 @@
         "index": {
           "description": "Run Shpider computation returning the result with the state",
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "runShpiderSt",
           "normalized": "Shpider a-\u003eIO(a,ShpiderState)",
@@ -1588,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "source",
           "package": "shpider",
@@ -1597,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "source",
           "package": "shpider",
@@ -1609,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "startPage",
           "package": "shpider",
@@ -1618,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "startPage",
           "package": "shpider",
@@ -1631,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "tags",
           "package": "shpider",
@@ -1640,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "tags",
           "normalized": "[Tag String]",
@@ -1654,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.State",
           "name": "visited",
           "package": "shpider",
@@ -1663,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider State",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.State",
           "name": "visited",
           "normalized": "Maybe[String]",
@@ -1677,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.URL",
           "name": "URL",
           "package": "shpider",
@@ -1685,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider URL",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.URL",
           "name": "URL",
           "package": "shpider",
@@ -1699,6 +1843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the protocol and domain from a URL eg\n\u003c/p\u003e\u003cpre\u003e\n    getDomain \"widdle://owqueer.co.uk/strangeanticsofsailors/jimmy\"\n    -- \"widdle://owqueer.co.uk\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.URL",
           "name": "getDomain",
           "package": "shpider",
@@ -1709,6 +1854,7 @@
         "index": {
           "description": "Get the protocol and domain from URL eg getDomain widdle owqueer.co.uk strangeanticsofsailors jimmy widdle owqueer.co.uk",
           "hierarchy": "Network Shpider URL",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.URL",
           "name": "getDomain",
           "normalized": "String-\u003eString",
@@ -1725,6 +1871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the whole url up to and including the current folder of the present document.\n\u003c/p\u003e\u003cpre\u003e  \n    getFolder \"widdle://owqueer.co.uk/strangeanticsofsailors/jimmy\"\n    -- \"widdle://owqueer.co.uk/strangeanticsofsailors/\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.URL",
           "name": "getFolder",
           "package": "shpider",
@@ -1735,6 +1882,7 @@
         "index": {
           "description": "Get the whole url up to and including the current folder of the present document getFolder widdle owqueer.co.uk strangeanticsofsailors jimmy widdle owqueer.co.uk strangeanticsofsailors",
           "hierarchy": "Network Shpider URL",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.URL",
           "name": "getFolder",
           "normalized": "String-\u003eString",
@@ -1751,6 +1899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the url is absolute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.URL",
           "name": "isAbsoluteUrl",
           "package": "shpider",
@@ -1761,6 +1910,7 @@
         "index": {
           "description": "True if the url is absolute",
           "hierarchy": "Network Shpider URL",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.URL",
           "name": "isAbsoluteUrl",
           "normalized": "String-\u003eBool",
@@ -1777,6 +1927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the url a http url?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.URL",
           "name": "isHttp",
           "package": "shpider",
@@ -1787,6 +1938,7 @@
         "index": {
           "description": "is the url http url",
           "hierarchy": "Network Shpider URL",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.URL",
           "name": "isHttp",
           "normalized": "String-\u003eBool",
@@ -1803,6 +1955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the given string of form \"mailto:person.com\"?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.URL",
           "name": "isMailto",
           "package": "shpider",
@@ -1813,6 +1966,7 @@
         "index": {
           "description": "is the given string of form mailto person.com",
           "hierarchy": "Network Shpider URL",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.URL",
           "name": "isMailto",
           "normalized": "String-\u003eBool",
@@ -1829,6 +1983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the second url on the same domain as the first? Note: this will return False if either URL is invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.URL",
           "name": "isSameDomain",
           "package": "shpider",
@@ -1839,6 +1994,7 @@
         "index": {
           "description": "is the second url on the same domain as the first Note this will return False if either URL is invalid",
           "hierarchy": "Network Shpider URL",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.URL",
           "name": "isSameDomain",
           "normalized": "String-\u003eString-\u003eBool",
@@ -1855,6 +2011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssumes the given URL is relative to \u003ccode\u003e\u003ca\u003ecurrentPage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider.URL",
           "name": "mkAbsoluteUrl",
           "package": "shpider",
@@ -1865,6 +2022,7 @@
         "index": {
           "description": "Assumes the given URL is relative to currentPage",
           "hierarchy": "Network Shpider URL",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider.URL",
           "name": "mkAbsoluteUrl",
           "normalized": "String-\u003eShpider(Maybe String)",
@@ -1881,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exposes the main functionality of shpider\n It allows you to quickly write crawlers, and for simple cases even without reading the page source eg.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003erunShpider\u003c/a\u003e\u003c/code\u003e $ do\n    \u003ccode\u003e\u003ca\u003edownload\u003c/a\u003e\u003c/code\u003e \"http://hackage.haskell.org/packages/archive/pkg-list.html\"\n    l : _ \u003c- \u003ccode\u003e\u003ca\u003egetLinksByText\u003c/a\u003e\u003c/code\u003e \"shpider\"\n    \u003ccode\u003e\u003ca\u003edownload\u003c/a\u003e\u003c/code\u003e $ linkAddress l\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider",
           "name": "Shpider",
           "package": "shpider",
@@ -1890,6 +2049,7 @@
         "index": {
           "description": "This module exposes the main functionality of shpider It allows you to quickly write crawlers and for simple cases even without reading the page source eg runShpider do download http hackage.haskell.org packages archive pkg-list.html getLinksByText shpider download linkAddress",
           "hierarchy": "Network Shpider",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider",
           "name": "Shpider",
           "package": "shpider",
@@ -1904,6 +2064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the forms on the current page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider",
           "name": "currentForms",
           "package": "shpider",
@@ -1914,6 +2075,7 @@
         "index": {
           "description": "Return the forms on the current page",
           "hierarchy": "Network Shpider",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider",
           "name": "currentForms",
           "normalized": "Shpider[Form]",
@@ -1930,6 +2092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the links on the current page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider",
           "name": "currentLinks",
           "package": "shpider",
@@ -1940,6 +2103,7 @@
         "index": {
           "description": "Return the links on the current page",
           "hierarchy": "Network Shpider",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider",
           "name": "currentLinks",
           "normalized": "Shpider[Link]",
@@ -1956,6 +2120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch whatever is at this address, and attempt to parse the content into a Page. \n Return the status code with the parsed content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider",
           "name": "download",
           "package": "shpider",
@@ -1966,6 +2131,7 @@
         "index": {
           "description": "Fetch whatever is at this address and attempt to parse the content into Page Return the status code with the parsed content",
           "hierarchy": "Network Shpider",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider",
           "name": "download",
           "normalized": "String-\u003eShpider(ShpiderCode,Page)",
@@ -1981,6 +2147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all forms whose action matches the given action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider",
           "name": "getFormsByAction",
           "package": "shpider",
@@ -1991,6 +2158,7 @@
         "index": {
           "description": "Get all forms whose action matches the given action",
           "hierarchy": "Network Shpider",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider",
           "name": "getFormsByAction",
           "normalized": "String-\u003eShpider[Form]",
@@ -2006,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider",
           "name": "getFormsHasAction",
           "package": "shpider",
@@ -2015,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Network Shpider",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider",
           "name": "getFormsHasAction",
           "normalized": "(String-\u003eBool)-\u003eShpider[Form]",
@@ -2031,6 +2201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all links whose address matches this regex.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider",
           "name": "getLinksByAddressRegex",
           "package": "shpider",
@@ -2041,6 +2212,7 @@
         "index": {
           "description": "Get all links whose address matches this regex",
           "hierarchy": "Network Shpider",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider",
           "name": "getLinksByAddressRegex",
           "normalized": "String-\u003eShpider[Link]",
@@ -2057,6 +2229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all links which match this text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider",
           "name": "getLinksByText",
           "package": "shpider",
@@ -2067,6 +2240,7 @@
         "index": {
           "description": "Get all links which match this text",
           "hierarchy": "Network Shpider",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider",
           "name": "getLinksByText",
           "normalized": "String-\u003eShpider[Link]",
@@ -2083,6 +2257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all links whose text matches this regex.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider",
           "name": "getLinksByTextRegex",
           "package": "shpider",
@@ -2093,6 +2268,7 @@
         "index": {
           "description": "Get all links whose text matches this regex",
           "hierarchy": "Network Shpider",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider",
           "name": "getLinksByTextRegex",
           "normalized": "String-\u003eShpider[Link]",
@@ -2109,6 +2285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif \u003ccode\u003e\u003ca\u003ekeepTrack\u003c/a\u003e\u003c/code\u003e has been set, then haveVisited will return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the given URL has been visited.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider",
           "name": "haveVisited",
           "package": "shpider",
@@ -2119,6 +2296,7 @@
         "index": {
           "description": "if keepTrack has been set then haveVisited will return True if the given URL has been visited",
           "hierarchy": "Network Shpider",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider",
           "name": "haveVisited",
           "normalized": "String-\u003eShpider Bool",
@@ -2135,6 +2313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003estayOnDomain\u003c/a\u003e\u003c/code\u003e has been set to true, then isAuthorizedDomain returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the given URL is on the domain and false otherwise.  If \u003ccode\u003e\u003ca\u003estayOnDomain\u003c/a\u003e\u003c/code\u003e has not been set to True, then it returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider",
           "name": "isAuthorizedDomain",
           "package": "shpider",
@@ -2145,6 +2324,7 @@
         "index": {
           "description": "If stayOnDomain has been set to true then isAuthorizedDomain returns True if the given URL is on the domain and false otherwise If stayOnDomain has not been set to True then it returns True",
           "hierarchy": "Network Shpider",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider",
           "name": "isAuthorizedDomain",
           "normalized": "String-\u003eShpider Bool",
@@ -2161,6 +2341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a given URL and source html into the \u003ccode\u003e\u003ca\u003ePage\u003c/a\u003e\u003c/code\u003e datatype.\n This will set the current page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider",
           "name": "parsePage",
           "package": "shpider",
@@ -2171,6 +2352,7 @@
         "index": {
           "description": "Parse given URL and source html into the Page datatype This will set the current page",
           "hierarchy": "Network Shpider",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider",
           "name": "parsePage",
           "normalized": "String-\u003eString-\u003eShpider Page",
@@ -2187,6 +2369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a form to the URL specified in its action attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider",
           "name": "sendForm",
           "package": "shpider",
@@ -2197,6 +2380,7 @@
         "index": {
           "description": "Send form to the URL specified in its action attribute",
           "hierarchy": "Network Shpider",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider",
           "name": "sendForm",
           "normalized": "Form-\u003eShpider(ShpiderCode,Page)",
@@ -2213,6 +2397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewithAuthorizedDomain will execute the function if the url given is an authorized domain.\n See \u003ccode\u003e\u003ca\u003eisAuthorizedDomain\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:56 UTC 2014",
           "module": "Network.Shpider",
           "name": "withAuthorizedDomain",
           "package": "shpider",
@@ -2223,6 +2408,7 @@
         "index": {
           "description": "withAuthorizedDomain will execute the function if the url given is an authorized domain See isAuthorizedDomain",
           "hierarchy": "Network Shpider",
+          "indexed": "2014-03-11T20:01:56",
           "module": "Network.Shpider",
           "name": "withAuthorizedDomain",
           "normalized": "String-\u003eShpider(ShpiderCode,Page)-\u003eShpider(ShpiderCode,Page)",

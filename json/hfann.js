@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hfann"
+        "phrase": "hfann",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Fast Artificial Neural Network Library (FANN) is a free open source\n neural network library written in C with support for both fully connected\n and sparsely connected networks (\u003ca\u003ehttp://leenissen.dk/fann/\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eHFANN is a Haskell interface to this library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Base",
           "name": "Base",
           "package": "hfann",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The Fast Artificial Neural Network Library FANN is free open source neural network library written in with support for both fully connected and sparsely connected networks http leenissen.dk fann HFANN is Haskell interface to this library",
           "hierarchy": "HFANN Base",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Base",
           "name": "Base",
           "package": "hfann",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the total number of connections of the Neural Network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Base",
           "name": "getConnectionsCount",
           "package": "hfann",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Return the total number of connections of the Neural Network",
           "hierarchy": "HFANN Base",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Base",
           "name": "getConnectionsCount",
           "normalized": "FannPtr-\u003eIO Int",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of input nodes of the Neural Network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Base",
           "name": "getInputNodesCount",
           "package": "hfann",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Return the number of input nodes of the Neural Network",
           "hierarchy": "HFANN Base",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Base",
           "name": "getInputNodesCount",
           "normalized": "FannPtr-\u003eIO Int",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of output nodes of the Neural Network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Base",
           "name": "getOutputNodesCount",
           "package": "hfann",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Return the number of output nodes of the Neural Network",
           "hierarchy": "HFANN Base",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Base",
           "name": "getOutputNodesCount",
           "normalized": "FannPtr-\u003eIO Int",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the total number of nodes of the Neural Network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Base",
           "name": "getTotalNodesCount",
           "package": "hfann",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Return the total number of nodes of the Neural Network",
           "hierarchy": "HFANN Base",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Base",
           "name": "getTotalNodesCount",
           "normalized": "FannPtr-\u003eIO Int",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the weights using Widrow + Nguyen&#8217;s algorithm.\n\u003c/p\u003e\u003cp\u003eThis function behaves similarly to fann_randomize_weights.  It will use the\n algorithm developed by Derrick Nguyen and Bernard Widrow to set the weights\n in such a way as to speed up training.  This technique is not always\n successful, and in some cases can be less efficient than a purely random\n initialization.\n\u003c/p\u003e\u003cp\u003eThe algorithm requires access to the range of the input data (ie, largest\n and smallest input), and therefore accepts a second argument, data, which\n is the training data that will be used to train the network.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Base",
           "name": "initWeights",
           "package": "hfann",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Initialize the weights using Widrow Nguyen algorithm This function behaves similarly to fann randomize weights It will use the algorithm developed by Derrick Nguyen and Bernard Widrow to set the weights in such way as to speed up training This technique is not always successful and in some cases can be less efficient than purely random initialization The algorithm requires access to the range of the input data ie largest and smallest input and therefore accepts second argument data which is the training data that will be used to train the network",
           "hierarchy": "HFANN Base",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Base",
           "name": "initWeights",
           "normalized": "FannPtr-\u003eTrainDataPtr-\u003eIO()",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the ANN connections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Base",
           "name": "printConnections",
           "package": "hfann",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Print the ANN connections",
           "hierarchy": "HFANN Base",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Base",
           "name": "printConnections",
           "normalized": "FannPtr-\u003eIO()",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the ANN parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Base",
           "name": "printParameters",
           "package": "hfann",
@@ -203,6 +218,7 @@
         "index": {
           "description": "Print the ANN parameters",
           "hierarchy": "HFANN Base",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Base",
           "name": "printParameters",
           "normalized": "FannPtr-\u003eIO()",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomize weights to values in the given range\n\u003c/p\u003e\u003cp\u003eWeights in a newly created ANN are already initialized to random values.\n You can use this function if you want to customize the random weights\n upper and lower bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Base",
           "name": "randomizeWeights",
           "package": "hfann",
@@ -228,6 +245,7 @@
         "index": {
           "description": "Randomize weights to values in the given range Weights in newly created ANN are already initialized to random values You can use this function if you want to customize the random weights upper and lower bounds",
           "hierarchy": "HFANN Base",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Base",
           "name": "randomizeWeights",
           "normalized": "FannPtr-\u003e(FannType,FannType)-\u003eIO()",
@@ -244,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the trained Neural Network on provided input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Base",
           "name": "runFann",
           "package": "hfann",
@@ -253,6 +272,7 @@
         "index": {
           "description": "Run the trained Neural Network on provided input",
           "hierarchy": "HFANN Base",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Base",
           "name": "runFann",
           "normalized": "FannPtr-\u003e[FannType]-\u003eIO[FannType]",
@@ -269,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new sparse not fully connected Neural Network with shortcut\n   connections between layers and call the given function with the ANN\n   as argument. When finished destroy the Neural Network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Base",
           "name": "withShortcutFann",
           "package": "hfann",
@@ -278,6 +299,7 @@
         "index": {
           "description": "Create new sparse not fully connected Neural Network with shortcut connections between layers and call the given function with the ANN as argument When finished destroy the Neural Network",
           "hierarchy": "HFANN Base",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Base",
           "name": "withShortcutFann",
           "normalized": "[Int]-\u003e(FannPtr-\u003eIO a)-\u003eIO a",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new sparse not fully connected Neural Network and call the\n   given function with the ANN as argument. When finished destroy the ANN.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Base",
           "name": "withSparseFann",
           "package": "hfann",
@@ -303,6 +326,7 @@
         "index": {
           "description": "Create new sparse not fully connected Neural Network and call the given function with the ANN as argument When finished destroy the ANN",
           "hierarchy": "HFANN Base",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Base",
           "name": "withSparseFann",
           "normalized": "Float-\u003e[Int]-\u003e(FannPtr-\u003eIO a)-\u003eIO a",
@@ -319,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new standard fully connected Neural Network and call the\n   given function with the ANN as argument.\n   When finished destroy the Neural Network.\n\u003c/p\u003e\u003cp\u003eThe structure of the ANN is given by the first parameter. It's an\n   Int list giving the number of nodes per layer from input layer to\n   output layer.\n\u003c/p\u003e\u003cp\u003eExample: \u003ccode\u003e[2,3,1]\u003c/code\u003e would describe an ANN with 2 nodes in the input layer,\n   one hidden layer of 3 nodes and 1 node in the output layer.\n\u003c/p\u003e\u003cp\u003eThe function provided as second argument will be called with the created\n   ANN as parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Base",
           "name": "withStandardFann",
           "package": "hfann",
@@ -328,6 +353,7 @@
         "index": {
           "description": "Create new standard fully connected Neural Network and call the given function with the ANN as argument When finished destroy the Neural Network The structure of the ANN is given by the first parameter It an Int list giving the number of nodes per layer from input layer to output layer Example would describe an ANN with nodes in the input layer one hidden layer of nodes and node in the output layer The function provided as second argument will be called with the created ANN as parameter",
           "hierarchy": "HFANN Base",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Base",
           "name": "withStandardFann",
           "normalized": "[Int]-\u003e(FannPtr-\u003eIO a)-\u003eIO a",
@@ -344,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Fast Artificial Neural Network Library (FANN) is a free open source\n neural network library written in C with support for both fully connected\n and sparsely connected networks (\u003ca\u003ehttp://leenissen.dk/fann/\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eHFANN is a Haskell interface to this library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "Data",
           "package": "hfann",
@@ -353,6 +380,7 @@
         "index": {
           "description": "The Fast Artificial Neural Network Library FANN is free open source neural network library written in with support for both fully connected and sparsely connected networks http leenissen.dk fann HFANN is Haskell interface to this library",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "Data",
           "package": "hfann",
@@ -367,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the \u003ccode\u003eActivation Function\u003c/code\u003e enumeration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "ActivationFunction",
           "package": "hfann",
@@ -376,6 +405,7 @@
         "index": {
           "description": "The type of the Activation Function enumeration",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "ActivationFunction",
           "package": "hfann",
@@ -390,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe C callback function type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "CCallbackType",
           "package": "hfann",
@@ -399,6 +430,7 @@
         "index": {
           "description": "The callback function type",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "CCallbackType",
           "package": "hfann",
@@ -413,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe C input/output type\n\u003c/p\u003e\u003cp\u003eThis is the data type used in the C library to represent the input/output\n data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "CFannType",
           "package": "hfann",
@@ -422,6 +455,7 @@
         "index": {
           "description": "The input output type This is the data type used in the library to represent the input output data",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "CFannType",
           "package": "hfann",
@@ -436,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pointer to the C input/output type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "CFannTypePtr",
           "package": "hfann",
@@ -445,6 +480,7 @@
         "index": {
           "description": "pointer to the input output type",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "CFannTypePtr",
           "package": "hfann",
@@ -459,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Haskell Callback function type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "CallbackType",
           "package": "hfann",
@@ -468,6 +505,7 @@
         "index": {
           "description": "The Haskell Callback function type",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "CallbackType",
           "package": "hfann",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError function used during training.\n\u003c/p\u003e\u003cp\u003eerrorFunctionLinear - Standard linear error function.\n errorFunctionTanH - Tanh error function, usually better but can require a\n lower learning rate. This error function agressively target outputs that\n differ much from the desired, while not targetting output that only differ\n a little that much.\n\u003c/p\u003e\u003cp\u003eThe tanh function is not recommended for cascade training and incremental\n training.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "ErrorFunction",
           "package": "hfann",
@@ -491,6 +530,7 @@
         "index": {
           "description": "Error function used during training errorFunctionLinear Standard linear error function errorFunctionTanH Tanh error function usually better but can require lower learning rate This error function agressively target outputs that differ much from the desired while not targetting output that only differ little that much The tanh function is not recommended for cascade training and incremental training",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "ErrorFunction",
           "package": "hfann",
@@ -505,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ANN structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "Fann",
           "package": "hfann",
@@ -514,6 +555,7 @@
         "index": {
           "description": "The ANN structure",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "Fann",
           "package": "hfann",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pointer to an ANN structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "FannPtr",
           "package": "hfann",
@@ -537,6 +580,7 @@
         "index": {
           "description": "pointer to an ANN structure",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "FannPtr",
           "package": "hfann",
@@ -551,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Haskell input/output type\n\u003c/p\u003e\u003cp\u003eThis is the data type used in Haskell to represent the input/output data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "FannType",
           "package": "hfann",
@@ -560,6 +605,7 @@
         "index": {
           "description": "The Haskell input output type This is the data type used in Haskell to represent the input output data",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "FannType",
           "package": "hfann",
@@ -574,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop function used during training\n\u003c/p\u003e\u003cp\u003estopFunctionMSE - stop criteria is Mean Square Error value.\n stopFunctionBit - stop criteria is number of bits that fail\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003egetBitFailLimit\u003c/code\u003e, \u003ccode\u003esetBitFailLimit\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe bits are counted in all of the training data, so this number can be\n higher than the number of training data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "StopFunction",
           "package": "hfann",
@@ -583,6 +630,7 @@
         "index": {
           "description": "Stop function used during training stopFunctionMSE stop criteria is Mean Square Error value stopFunctionBit stop criteria is number of bits that fail See getBitFailLimit setBitFailLimit The bits are counted in all of the training data so this number can be higher than the number of training data",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "StopFunction",
           "package": "hfann",
@@ -597,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the \u003ccode\u003eTraining Algorithm\u003c/code\u003e enumeration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "TrainAlgorithm",
           "package": "hfann",
@@ -606,6 +655,7 @@
         "index": {
           "description": "The type of the Training Algorithm enumeration",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "TrainAlgorithm",
           "package": "hfann",
@@ -620,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type of the training data structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "TrainData",
           "package": "hfann",
@@ -629,6 +680,7 @@
         "index": {
           "description": "Data type of the training data structure",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "TrainData",
           "package": "hfann",
@@ -643,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pointer to the training data structure type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "TrainDataPtr",
           "package": "hfann",
@@ -652,6 +705,7 @@
         "index": {
           "description": "pointer to the training data structure type",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "TrainDataPtr",
           "package": "hfann",
@@ -665,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "Fann",
           "package": "hfann",
@@ -674,6 +729,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "Fann",
           "package": "hfann",
@@ -687,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "TrainData",
           "package": "hfann",
@@ -696,6 +753,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "TrainData",
           "package": "hfann",
@@ -709,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "activationElliot",
           "package": "hfann",
@@ -718,6 +777,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "activationElliot",
           "package": "hfann",
@@ -731,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "activationElliotSymmetric",
           "package": "hfann",
@@ -740,6 +801,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "activationElliotSymmetric",
           "package": "hfann",
@@ -753,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "activationGaussian",
           "package": "hfann",
@@ -762,6 +825,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "activationGaussian",
           "package": "hfann",
@@ -776,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a callback function to be used during training for reporting and\n to stop the training\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "activationGaussianStepwise",
           "package": "hfann",
@@ -786,6 +851,7 @@
         "index": {
           "description": "Create callback function to be used during training for reporting and to stop the training",
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "activationGaussianStepwise",
           "package": "hfann",
@@ -799,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "activationGaussianSymmetric",
           "package": "hfann",
@@ -808,6 +875,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "activationGaussianSymmetric",
           "package": "hfann",
@@ -821,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "activationLinear",
           "package": "hfann",
@@ -830,6 +899,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "activationLinear",
           "package": "hfann",
@@ -843,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "activationLinearPiece",
           "package": "hfann",
@@ -852,6 +923,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "activationLinearPiece",
           "package": "hfann",
@@ -865,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "activationLinearPieceSymmetric",
           "package": "hfann",
@@ -874,6 +947,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "activationLinearPieceSymmetric",
           "package": "hfann",
@@ -887,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "activationSigmoid",
           "package": "hfann",
@@ -896,6 +971,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "activationSigmoid",
           "package": "hfann",
@@ -909,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "activationSigmoidStepwise",
           "package": "hfann",
@@ -918,6 +995,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "activationSigmoidStepwise",
           "package": "hfann",
@@ -931,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "activationSigmoidSymmetric",
           "package": "hfann",
@@ -940,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "activationSigmoidSymmetric",
           "package": "hfann",
@@ -953,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "activationSigmoidSymmetricStepwise",
           "package": "hfann",
@@ -962,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "activationSigmoidSymmetricStepwise",
           "package": "hfann",
@@ -975,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "activationThreshold",
           "package": "hfann",
@@ -984,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "activationThreshold",
           "package": "hfann",
@@ -997,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "activationThresholdSymmetric",
           "package": "hfann",
@@ -1006,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "activationThresholdSymmetric",
           "package": "hfann",
@@ -1019,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "errorFunctionLinear",
           "package": "hfann",
@@ -1028,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "errorFunctionLinear",
           "package": "hfann",
@@ -1041,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "errorFunctionTanH",
           "package": "hfann",
@@ -1050,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "errorFunctionTanH",
           "package": "hfann",
@@ -1063,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "fannCallback",
           "package": "hfann",
@@ -1072,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "fannCallback",
           "normalized": "CallbackType-\u003eIO(FunPtr CCallbackType)",
@@ -1087,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "stopFunctionBit",
           "package": "hfann",
@@ -1096,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "stopFunctionBit",
           "package": "hfann",
@@ -1109,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "stopFunctionMSE",
           "package": "hfann",
@@ -1118,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "stopFunctionMSE",
           "package": "hfann",
@@ -1131,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "trainBatch",
           "package": "hfann",
@@ -1140,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "trainBatch",
           "package": "hfann",
@@ -1153,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "trainIncremental",
           "package": "hfann",
@@ -1162,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "trainIncremental",
           "package": "hfann",
@@ -1175,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "trainQuickProp",
           "package": "hfann",
@@ -1184,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "trainQuickProp",
           "package": "hfann",
@@ -1197,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Data",
           "name": "trainRPROP",
           "package": "hfann",
@@ -1206,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "HFANN Data",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Data",
           "name": "trainRPROP",
           "package": "hfann",
@@ -1220,6 +1324,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Fast Artificial Neural Network Library (FANN) is a free open source\n neural network library written in C with support for both fully connected\n and sparsely connected networks (\u003ca\u003ehttp://leenissen.dk/fann/\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eHFANN is a Haskell interface to this library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.IO",
           "name": "IO",
           "package": "hfann",
@@ -1229,6 +1334,7 @@
         "index": {
           "description": "The Fast Artificial Neural Network Library FANN is free open source neural network library written in with support for both fully connected and sparsely connected networks http leenissen.dk fann HFANN is Haskell interface to this library",
           "hierarchy": "HFANN IO",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.IO",
           "name": "IO",
           "package": "hfann",
@@ -1243,6 +1349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave an Artificial Neural Network (ANN) to a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.IO",
           "name": "saveFann",
           "package": "hfann",
@@ -1252,6 +1359,7 @@
         "index": {
           "description": "Save an Artificial Neural Network ANN to file",
           "hierarchy": "HFANN IO",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.IO",
           "name": "saveFann",
           "normalized": "FannPtr-\u003eString-\u003eIO()",
@@ -1268,6 +1376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad an ANN and call the given function with the ANN as argument. Once\n   finished, destroy the ANN.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.IO",
           "name": "withSavedFann",
           "package": "hfann",
@@ -1277,6 +1386,7 @@
         "index": {
           "description": "Load an ANN and call the given function with the ANN as argument Once finished destroy the ANN",
           "hierarchy": "HFANN IO",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.IO",
           "name": "withSavedFann",
           "normalized": "String-\u003e(FannPtr-\u003eIO a)-\u003eIO a",
@@ -1293,6 +1403,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Fast Artificial Neural Network Library (FANN) is a free open source\n neural network library written in C with support for both fully connected\n and sparsely connected networks (\u003ca\u003ehttp://leenissen.dk/fann/\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eHFANN is a Haskell interface to this library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "Train",
           "package": "hfann",
@@ -1302,6 +1413,7 @@
         "index": {
           "description": "The Fast Artificial Neural Network Library FANN is free open source neural network library written in with support for both fully connected and sparsely connected networks http leenissen.dk fann HFANN is Haskell interface to this library",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "Train",
           "package": "hfann",
@@ -1316,6 +1428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestroy training data\n\u003c/p\u003e\u003cp\u003eDestroy training data and properly deallocates the memory.\n\u003c/p\u003e\u003cp\u003eBe sure to use this function after finished using the training data unless\n the training data is part of a \u003ccode\u003e\u003ca\u003ewithTrainData\u003c/a\u003e\u003c/code\u003e call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "destroyTrainData",
           "package": "hfann",
@@ -1325,6 +1438,7 @@
         "index": {
           "description": "Destroy training data Destroy training data and properly deallocates the memory Be sure to use this function after finished using the training data unless the training data is part of withTrainData call",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "destroyTrainData",
           "normalized": "TrainDataPtr-\u003eIO()",
@@ -1341,6 +1455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an exact copy of a training data set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "duplicateTrainData",
           "package": "hfann",
@@ -1350,6 +1465,7 @@
         "index": {
           "description": "Returns an exact copy of training data set",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "duplicateTrainData",
           "normalized": "TrainDataPtr-\u003eIO TrainDataPtr",
@@ -1366,6 +1482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of fail bits\n\u003c/p\u003e\u003cp\u003eThe number of fail bits means the number of output neurons which differ more\n than the bit fail limit (see \u003ccode\u003e\u003ca\u003egetBitFailLimit\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetBitFailLimit\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eThis value is reset by \u003ccode\u003e\u003ca\u003eresetMSE\u003c/a\u003e\u003c/code\u003e and updated by the same functions which\n also updates the MSE value \u003ccode\u003e\u003ca\u003etestData\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003etrainEpoch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getBitFail",
           "package": "hfann",
@@ -1375,6 +1492,7 @@
         "index": {
           "description": "Get the number of fail bits The number of fail bits means the number of output neurons which differ more than the bit fail limit see getBitFailLimit setBitFailLimit This value is reset by resetMSE and updated by the same functions which also updates the MSE value testData trainEpoch",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getBitFail",
           "normalized": "FannPtr-\u003eIO Int",
@@ -1391,6 +1509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the bit fail limit used during training.\n\u003c/p\u003e\u003cp\u003eThe bit fail limit is used during training where the \u003ccode\u003e\u003ca\u003eStopFunction\u003c/a\u003e\u003c/code\u003e is set\n \u003ccode\u003estopFunctionBit\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe limit is the maximum accepted difference between the desired output\n and the actual output during training. Each output that diverges more than\n this is counted as an error bit.\n\u003c/p\u003e\u003cp\u003eThis difference is divided by two when dealing with symmetric activation\n functions, so that symmetric and not symmetric activation functions can use\n the same limit.\n\u003c/p\u003e\u003cp\u003eThe default bit fail limit is 0.35.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetBitFailLimit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getBitFailLimit",
           "package": "hfann",
@@ -1401,6 +1520,7 @@
         "index": {
           "description": "Returns the bit fail limit used during training The bit fail limit is used during training where the StopFunction is set stopFunctionBit The limit is the maximum accepted difference between the desired output and the actual output during training Each output that diverges more than this is counted as an error bit This difference is divided by two when dealing with symmetric activation functions so that symmetric and not symmetric activation functions can use the same limit The default bit fail limit is See also setBitFailLimit",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getBitFailLimit",
           "normalized": "FannPtr-\u003eIO FannType",
@@ -1417,6 +1537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the learning momentum.\n\u003c/p\u003e\u003cp\u003eThe learning momentum can be used to speed up the \u003ccode\u003efannTrainIncremental\u003c/code\u003e\n training algorithm.\n\u003c/p\u003e\u003cp\u003eA too high momentum will however not benefit training. Setting momentum to\n 0 will be the same as not using the momentum parameter. The recommended\n value for this parameter is between 0.0 and 1.0.\n\u003c/p\u003e\u003cp\u003eThe default momentum is 0.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetLearningMomentum\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetTrainingAlgorithm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getLearningMomentum",
           "package": "hfann",
@@ -1427,6 +1548,7 @@
         "index": {
           "description": "Return the learning momentum The learning momentum can be used to speed up the fannTrainIncremental training algorithm too high momentum will however not benefit training Setting momentum to will be the same as not using the momentum parameter The recommended value for this parameter is between and The default momentum is See also setLearningMomentum setTrainingAlgorithm",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getLearningMomentum",
           "normalized": "FannPtr-\u003eIO Float",
@@ -1443,6 +1565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the learning rate.\n\u003c/p\u003e\u003cp\u003eThe learning rate is used to determine how aggressive the training should be\n for some of the training algorithms (\u003ccode\u003efannTrainIncremental\u003c/code\u003e,\n \u003ccode\u003efannTrainBatch\u003c/code\u003e, \u003ccode\u003efannTrainQuickProp\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eNote that it is not used in \u003ccode\u003efannTrainRPROP\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe default learning rate is 0.7.\n\u003c/p\u003e\u003cp\u003eSee also:\n  \u003ccode\u003e\u003ca\u003esetLearningRate\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetTrainingAlgorithm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getLearningRate",
           "package": "hfann",
@@ -1453,6 +1576,7 @@
         "index": {
           "description": "Return the learning rate The learning rate is used to determine how aggressive the training should be for some of the training algorithms fannTrainIncremental fannTrainBatch fannTrainQuickProp Note that it is not used in fannTrainRPROP The default learning rate is See also setLearningRate setTrainingAlgorithm",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getLearningRate",
           "normalized": "FannPtr-\u003eIO Float",
@@ -1469,6 +1593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the mean square error from the ANN\n\u003c/p\u003e\u003cp\u003eThis value is calculated during training or testing, and can therefore\n sometimes be a bit off if the weights have been changed since the last\n calculation of the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getMSE",
           "package": "hfann",
@@ -1478,6 +1603,7 @@
         "index": {
           "description": "Get the mean square error from the ANN This value is calculated during training or testing and can therefore sometimes be bit off if the weights have been changed since the last calculation of the value",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getMSE",
           "normalized": "FannPtr-\u003eIO Float",
@@ -1494,6 +1620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the quickprop decay\n\u003c/p\u003e\u003cp\u003eThe decay is a small negative valued number which is the factor that the\n weights should become smaller in each iteration during quickprop training.\n\u003c/p\u003e\u003cp\u003eThis is used to make sure that the weights do not become too high during\n training.\n\u003c/p\u003e\u003cp\u003eThe default decay is -0.0001\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetQuickPropDecay\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getQuickPropDecay",
           "package": "hfann",
@@ -1504,6 +1631,7 @@
         "index": {
           "description": "Returns the quickprop decay The decay is small negative valued number which is the factor that the weights should become smaller in each iteration during quickprop training This is used to make sure that the weights do not become too high during training The default decay is See also setQuickPropDecay",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getQuickPropDecay",
           "normalized": "FannPtr-\u003eIO Float",
@@ -1520,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the quickprop mu factor\n\u003c/p\u003e\u003cp\u003eThe mu factor is used to increase and decrease the step-size during quickprop\n training.\n The mu factor should always be above 1, since it would otherwise decrease the\n step-size when it was supposed to increase it.\n\u003c/p\u003e\u003cp\u003eThe default mu factor is 1.75\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetQuickPropMu\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getQuickPropMu",
           "package": "hfann",
@@ -1530,6 +1659,7 @@
         "index": {
           "description": "Returns the quickprop mu factor The mu factor is used to increase and decrease the step-size during quickprop training The mu factor should always be above since it would otherwise decrease the step-size when it was supposed to increase it The default mu factor is See also setQuickPropMu",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getQuickPropMu",
           "normalized": "FannPtr-\u003eIO Float",
@@ -1546,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the RPROP decrease factor\n\u003c/p\u003e\u003cp\u003eThe RPROP decrease factor is a value larger than 1, which is used to\n decrease the step-size during RPROP training.\n\u003c/p\u003e\u003cp\u003eThe default decrease factor is 0.5\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetRPROPDecreaseFactor\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getRPROPDecreaseFactor",
           "package": "hfann",
@@ -1556,6 +1687,7 @@
         "index": {
           "description": "Returns the RPROP decrease factor The RPROP decrease factor is value larger than which is used to decrease the step-size during RPROP training The default decrease factor is See also setRPROPDecreaseFactor",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getRPROPDecreaseFactor",
           "normalized": "FannPtr-\u003eIO Float",
@@ -1572,6 +1704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the RPROP delta max factor\n\u003c/p\u003e\u003cp\u003eThe delta max factor is a positive number determining how large the\n maximum step-size may be.\n\u003c/p\u003e\u003cp\u003eThe default value delta max is 50.0\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetRPROPDeltaMax\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getRPROPDeltaMax",
           "package": "hfann",
@@ -1582,6 +1715,7 @@
         "index": {
           "description": "Returns the RPROP delta max factor The delta max factor is positive number determining how large the maximum step-size may be The default value delta max is See also setRPROPDeltaMax",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getRPROPDeltaMax",
           "normalized": "FannPtr-\u003eIO Float",
@@ -1598,6 +1732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the RPROP delta min factor\n\u003c/p\u003e\u003cp\u003eThe delta min factor is a small positive number determining how small the\n minimum step-size may be.\n\u003c/p\u003e\u003cp\u003eThe default value delta min is 0.0\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetRPROPDeltaMin\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getRPROPDeltaMin",
           "package": "hfann",
@@ -1608,6 +1743,7 @@
         "index": {
           "description": "Returns the RPROP delta min factor The delta min factor is small positive number determining how small the minimum step-size may be The default value delta min is See also setRPROPDeltaMin",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getRPROPDeltaMin",
           "normalized": "FannPtr-\u003eIO Float",
@@ -1624,6 +1760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the RPROP increase factor\n\u003c/p\u003e\u003cp\u003eThe RPROP increase factor is a value larger than 1, which is used to\n increase the step-size during RPROP training.\n\u003c/p\u003e\u003cp\u003eThe default increase factor is 1.2\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetRPROPIncreaseFactor\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getRPROPIncreaseFactor",
           "package": "hfann",
@@ -1634,6 +1771,7 @@
         "index": {
           "description": "Returns the RPROP increase factor The RPROP increase factor is value larger than which is used to increase the step-size during RPROP training The default increase factor is See also setRPROPIncreaseFactor",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getRPROPIncreaseFactor",
           "normalized": "FannPtr-\u003eIO Float",
@@ -1650,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of input nodes in the training data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getTrainDataInputNodesCount",
           "package": "hfann",
@@ -1660,6 +1799,7 @@
         "index": {
           "description": "Returns the number of input nodes in the training data",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getTrainDataInputNodesCount",
           "normalized": "TrainDataPtr-\u003eIO Int",
@@ -1676,6 +1816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of output nodes in the training data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getTrainDataOutputNodesCount",
           "package": "hfann",
@@ -1686,6 +1827,7 @@
         "index": {
           "description": "Returns the number of output nodes in the training data",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getTrainDataOutputNodesCount",
           "normalized": "TrainDataPtr-\u003eIO Int",
@@ -1702,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the error function used during training.\n\u003c/p\u003e\u003cp\u003eThe error function is described in \u003ccode\u003e\u003ca\u003eErrorFunction\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe default error function is \u003ccode\u003eerrorFunctionTanH\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetTrainErrorFunction\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getTrainErrorFunction",
           "package": "hfann",
@@ -1711,6 +1854,7 @@
         "index": {
           "description": "Return the error function used during training The error function is described in ErrorFunction The default error function is errorFunctionTanH See also setTrainErrorFunction",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getTrainErrorFunction",
           "normalized": "FannPtr-\u003eIO ErrorFunction",
@@ -1727,6 +1871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the stop function used during training.\n\u003c/p\u003e\u003cp\u003eThe stop function is described in \u003ccode\u003e\u003ca\u003eStopFunction\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe default stop function is \u003ccode\u003estopFunctionMSE\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetTrainStopFunction\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetBitFailLimit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getTrainStopFunction",
           "package": "hfann",
@@ -1737,6 +1882,7 @@
         "index": {
           "description": "Returns the stop function used during training The stop function is described in StopFunction The default stop function is stopFunctionMSE See also setTrainStopFunction setBitFailLimit",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getTrainStopFunction",
           "normalized": "FannPtr-\u003eIO StopFunction",
@@ -1753,6 +1899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the training algorithm. This training algorithm is used by\n \u003ccode\u003e\u003ca\u003etrainOnData\u003c/a\u003e\u003c/code\u003e and associated functions.\n\u003c/p\u003e\u003cp\u003eNote that this algorithm is also used during \u003ccode\u003ecascadeTrainOnData\u003c/code\u003e although\n only fannTrainRPROP and fannTrainQuickProp is allowed during cascade\n training.\n\u003c/p\u003e\u003cp\u003eSee also:\n  \u003ccode\u003e\u003ca\u003esetTrainingAlgorithm\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTrainAlgorithm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "getTrainingAlgorithm",
           "package": "hfann",
@@ -1762,6 +1909,7 @@
         "index": {
           "description": "Return the training algorithm This training algorithm is used by trainOnData and associated functions Note that this algorithm is also used during cascadeTrainOnData although only fannTrainRPROP and fannTrainQuickProp is allowed during cascade training See also setTrainingAlgorithm TrainAlgorithm",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "getTrainingAlgorithm",
           "normalized": "FannPtr-\u003eIO TrainAlgorithm",
@@ -1778,6 +1926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads training data from a file.\n\u003c/p\u003e\u003cp\u003eThe file must be formatted like:\n\u003c/p\u003e\u003cpre\u003e num_records num_input num_output\n inputdata separated by space\n outputdata separated by space\n\n ...\n ...\n\n inputdata separated by space\n outputdata separated by space\n\u003c/pre\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003etrainOnData\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003edestroyTrain\u003c/code\u003e, \u003ccode\u003esaveTrain\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "loadTrainData",
           "package": "hfann",
@@ -1787,6 +1936,7 @@
         "index": {
           "description": "Reads training data from file The file must be formatted like num records num input num output inputdata separated by space outputdata separated by space inputdata separated by space outputdata separated by space See also trainOnData destroyTrain saveTrain",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "loadTrainData",
           "normalized": "String-\u003eIO TrainDataPtr",
@@ -1803,6 +1953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges two training data sets into a new one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "mergeTrainData",
           "package": "hfann",
@@ -1812,6 +1963,7 @@
         "index": {
           "description": "Merges two training data sets into new one",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "mergeTrainData",
           "normalized": "TrainDataPtr-\u003eTrainDataPtr-\u003eIO TrainDataPtr",
@@ -1828,6 +1980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the mean square error from the network.\n\u003c/p\u003e\u003cp\u003eThis function also resets the number of bits that fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "resetMSE",
           "package": "hfann",
@@ -1838,6 +1991,7 @@
         "index": {
           "description": "Reset the mean square error from the network This function also resets the number of bits that fail",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "resetMSE",
           "normalized": "FannPtr-\u003eIO()",
@@ -1854,6 +2008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave the training structure to a file with the format as specified in\n \u003ccode\u003e\u003ca\u003eloadTrainData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSee also\n   \u003ccode\u003e\u003ca\u003eloadTrainData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "saveTrainData",
           "package": "hfann",
@@ -1864,6 +2019,7 @@
         "index": {
           "description": "Save the training structure to file with the format as specified in loadTrainData See also loadTrainData",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "saveTrainData",
           "normalized": "TrainDataPtr-\u003eString-\u003eIO()",
@@ -1880,6 +2036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScales the inputs in the training data to the specified range.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003escaleOutputData\u003c/code\u003e, \u003ccode\u003e\u003ca\u003escaleTrainData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "scaleInputTrainData",
           "package": "hfann",
@@ -1889,6 +2046,7 @@
         "index": {
           "description": "Scales the inputs in the training data to the specified range See also scaleOutputData scaleTrainData",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "scaleInputTrainData",
           "normalized": "TrainDataPtr-\u003eFannType-\u003eFannType-\u003eIO()",
@@ -1905,6 +2063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScales the output in the training data to the specified range.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003escaleInputData\u003c/code\u003e, \u003ccode\u003e\u003ca\u003escaleTrainData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "scaleOutputTrainData",
           "package": "hfann",
@@ -1914,6 +2073,7 @@
         "index": {
           "description": "Scales the output in the training data to the specified range See also scaleInputData scaleTrainData",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "scaleOutputTrainData",
           "normalized": "TrainDataPtr-\u003eFannType-\u003eFannType-\u003eIO()",
@@ -1930,6 +2090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScales the inputs and outputs in the training data to the specified range.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003escaleOutputData\u003c/code\u003e, \u003ccode\u003escaleInputData\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "scaleTrainData",
           "package": "hfann",
@@ -1939,6 +2100,7 @@
         "index": {
           "description": "Scales the inputs and outputs in the training data to the specified range See also scaleOutputData scaleInputData",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "scaleTrainData",
           "normalized": "TrainDataPtr-\u003eFannType-\u003eFannType-\u003eIO()",
@@ -1955,6 +2117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the activation function for the neuron specified in layer specified,\n counting the input layer as layer 0.\n\u003c/p\u003e\u003cp\u003eIt is not possible to set activation functions for the neurons in the input\n layer.\n\u003c/p\u003e\u003cp\u003eWhen choosing an activation function it is important to note that the\n activation function have different range. In \u003ccode\u003efannSigmoid\u003c/code\u003e is in the 0 .. 1\n range while fannSigmoidSymmetric is in the -1 .. 1 range and fannLinear is\n unbound.\n\u003c/p\u003e\u003cp\u003eThe default activation function is fannSigmoidStepwise.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetActivationFunctionLayer\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetActivationFunctionHidden\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003esetActivationFunctionOutput\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetActivationSteepness\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setActivationFunction",
           "package": "hfann",
@@ -1964,6 +2127,7 @@
         "index": {
           "description": "Set the activation function for the neuron specified in layer specified counting the input layer as layer It is not possible to set activation functions for the neurons in the input layer When choosing an activation function it is important to note that the activation function have different range In fannSigmoid is in the range while fannSigmoidSymmetric is in the range and fannLinear is unbound The default activation function is fannSigmoidStepwise See also setActivationFunctionLayer setActivationFunctionHidden setActivationFunctionOutput setActivationSteepness",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setActivationFunction",
           "normalized": "FannPtr-\u003eActivationFunction-\u003eInt-\u003eInt-\u003eIO()",
@@ -1980,6 +2144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the activation function for all the hidden layers.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetActivationFunction\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetActivationFunctionLayer\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003esetActivationFunctionOutput\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setActivationFunctionHidden",
           "package": "hfann",
@@ -1989,6 +2154,7 @@
         "index": {
           "description": "Set the activation function for all the hidden layers See also setActivationFunction setActivationFunctionLayer setActivationFunctionOutput",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setActivationFunctionHidden",
           "normalized": "FannPtr-\u003eActivationFunction-\u003eIO()",
@@ -2005,6 +2171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the activation function for all neurons of a given layer, counting\n the input layer as layer 0.\n\u003c/p\u003e\u003cp\u003eIt is not possible to set an activation function for the neurons in the\n input layer.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetActivationFunction\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetActivationFunctionHidden\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003esetActivationFunctionOutput\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetActivationSteepnessLayer\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setActivationFunctionLayer",
           "package": "hfann",
@@ -2014,6 +2181,7 @@
         "index": {
           "description": "Set the activation function for all neurons of given layer counting the input layer as layer It is not possible to set an activation function for the neurons in the input layer See also setActivationFunction setActivationFunctionHidden setActivationFunctionOutput setActivationSteepnessLayer",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setActivationFunctionLayer",
           "normalized": "FannPtr-\u003eActivationFunction-\u003eInt-\u003eIO()",
@@ -2030,6 +2198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the activation function for the output layer.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetActivationFunction\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetActivationFunctionLayer\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003esetActivationFunctionHidden\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setActivationFunctionOutput",
           "package": "hfann",
@@ -2039,6 +2208,7 @@
         "index": {
           "description": "Set the activation function for the output layer See also setActivationFunction setActivationFunctionLayer setActivationFunctionHidden",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setActivationFunctionOutput",
           "normalized": "FannPtr-\u003eActivationFunction-\u003eIO()",
@@ -2055,6 +2225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the activation steepness of the specified neuron in the specified\n layer, counting the input layer as 0.\n\u003c/p\u003e\u003cp\u003eIt is not possible to set activation steepness for the neurons in the input\n layer.\n\u003c/p\u003e\u003cp\u003eThe steepness of an activation function says something about how fast the\n activation function goes from the minimum to the maximum. A high value\n for the activation function will also give a more agressive training.\n\u003c/p\u003e\u003cp\u003eWhen training networks where the output values should be at the extremes\n (usually 0 and 1, depending on the activation function), a steep activation\n can be used (e.g. 1.0).\n\u003c/p\u003e\u003cp\u003eThe default activation steepness is 0.5\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetActivationSteepnessLayer\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetActivationSteepnessHidden\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003esetActivationSteepnessOutput\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetActivationFunction\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setActivationSteepness",
           "package": "hfann",
@@ -2064,6 +2235,7 @@
         "index": {
           "description": "Set the activation steepness of the specified neuron in the specified layer counting the input layer as It is not possible to set activation steepness for the neurons in the input layer The steepness of an activation function says something about how fast the activation function goes from the minimum to the maximum high value for the activation function will also give more agressive training When training networks where the output values should be at the extremes usually and depending on the activation function steep activation can be used e.g The default activation steepness is See also setActivationSteepnessLayer setActivationSteepnessHidden setActivationSteepnessOutput setActivationFunction",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setActivationSteepness",
           "normalized": "FannPtr-\u003eFannType-\u003eInt-\u003eInt-\u003eIO()",
@@ -2080,6 +2252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the activation steepness of all the nodes in all hidden layers.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetActivationSteepness\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetActivationSteepnessLayer\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003esetActivationSteepnessOutput\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetActivationFunction\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setActivationSteepnessHidden",
           "package": "hfann",
@@ -2089,6 +2262,7 @@
         "index": {
           "description": "Set the activation steepness of all the nodes in all hidden layers See also setActivationSteepness setActivationSteepnessLayer setActivationSteepnessOutput setActivationFunction",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setActivationSteepnessHidden",
           "normalized": "FannPtr-\u003eFannType-\u003eIO()",
@@ -2105,6 +2279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the activation steepness for all of the neurons in the given layer,\n counting the input layer as layer 0.\n\u003c/p\u003e\u003cp\u003eIt is not possible to set the activation steepness for the neurons in the\n input layer.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetActivationSteepness\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetActivationSteepnessHidden\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003esetActivationSteepnessOutput\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetActivationFunction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setActivationSteepnessLayer",
           "package": "hfann",
@@ -2114,6 +2289,7 @@
         "index": {
           "description": "Set the activation steepness for all of the neurons in the given layer counting the input layer as layer It is not possible to set the activation steepness for the neurons in the input layer See also setActivationSteepness setActivationSteepnessHidden setActivationSteepnessOutput setActivationFunction",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setActivationSteepnessLayer",
           "normalized": "FannPtr-\u003eFannType-\u003eInt-\u003eIO()",
@@ -2130,6 +2306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the activation steepness of all the nodes in all output layer.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003esetActivationSteepness\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetActivationSteepnessLayer\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003esetActivationSteepnessHidden\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetActivationFunction\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setActivationSteepnessOutput",
           "package": "hfann",
@@ -2139,6 +2316,7 @@
         "index": {
           "description": "Set the activation steepness of all the nodes in all output layer See also setActivationSteepness setActivationSteepnessLayer setActivationSteepnessHidden setActivationFunction",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setActivationSteepnessOutput",
           "normalized": "FannPtr-\u003eFannType-\u003eIO()",
@@ -2155,6 +2333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the bit fail limit used during training.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003egetBitFailLimit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setBitFailLimit",
           "package": "hfann",
@@ -2165,6 +2344,7 @@
         "index": {
           "description": "Set the bit fail limit used during training See also getBitFailLimit",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setBitFailLimit",
           "normalized": "FannPtr-\u003eFannType-\u003eIO()",
@@ -2181,6 +2361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the callback function to be used for reporting and to stop training\n\u003c/p\u003e\u003cp\u003eThe callback function will be called based on the \"Epoch between reports\"\n defined frequency.\n\u003c/p\u003e\u003cp\u003eThe type of the callback function is:\n\u003c/p\u003e\u003cpre\u003e callback :: FannPtr      -- The ANN being trained\n          -\u003e TrainDataPtr -- The training data in use\n          -\u003e Int          -- Max number of epochs\n          -\u003e Int          -- Number of epochs between reports\n          -\u003e Float        -- Desired error\n          -\u003e Int          -- Current epoch\n          -\u003e Bool         -- True to terminate training, False to continue\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setCallback",
           "package": "hfann",
@@ -2191,6 +2372,7 @@
         "index": {
           "description": "Set the callback function to be used for reporting and to stop training The callback function will be called based on the Epoch between reports defined frequency The type of the callback function is callback FannPtr The ANN being trained TrainDataPtr The training data in use Int Max number of epochs Int Number of epochs between reports Float Desired error Int Current epoch Bool True to terminate training False to continue",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setCallback",
           "normalized": "FannPtr-\u003eCallbackType-\u003eIO()",
@@ -2207,6 +2389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the learning momentum.\n\u003c/p\u003e\u003cp\u003eMore info available in \u003ccode\u003e\u003ca\u003egetLearningMomentum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setLearningMomentum",
           "package": "hfann",
@@ -2217,6 +2400,7 @@
         "index": {
           "description": "Set the learning momentum More info available in getLearningMomentum",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setLearningMomentum",
           "normalized": "FannPtr-\u003eFloat-\u003eIO()",
@@ -2233,6 +2417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the learning rate.\n\u003c/p\u003e\u003cp\u003eSee getLearningRate for more information about the learning rate.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003egetLearingRate\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setLearningRate",
           "package": "hfann",
@@ -2243,6 +2428,7 @@
         "index": {
           "description": "Set the learning rate See getLearningRate for more information about the learning rate See also getLearingRate",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setLearningRate",
           "normalized": "FannPtr-\u003eFloat-\u003eIO()",
@@ -2259,6 +2445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the quickprop decay factor\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003egetQuickPropDecay\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setQuickPropDecay",
           "package": "hfann",
@@ -2269,6 +2456,7 @@
         "index": {
           "description": "Sets the quickprop decay factor See also getQuickPropDecay",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setQuickPropDecay",
           "normalized": "FannPtr-\u003eFloat-\u003eIO()",
@@ -2285,6 +2473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the quickprop mu factor\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003egetQuickPropMu\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setQuickPropMu",
           "package": "hfann",
@@ -2295,6 +2484,7 @@
         "index": {
           "description": "Sets the quickprop mu factor See also getQuickPropMu",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setQuickPropMu",
           "normalized": "FannPtr-\u003eFloat-\u003eIO()",
@@ -2311,6 +2501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the RPROP decrease factor\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003egetRPROPDecreaseFactor\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setRPROPDecreaseFactor",
           "package": "hfann",
@@ -2321,6 +2512,7 @@
         "index": {
           "description": "Sets the RPROP decrease factor See also getRPROPDecreaseFactor",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setRPROPDecreaseFactor",
           "normalized": "FannPtr-\u003eFloat-\u003eIO()",
@@ -2337,6 +2529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the RPROP delta max\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003egetRPROPDeltaMax\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setRPROPDeltaMax",
           "package": "hfann",
@@ -2347,6 +2540,7 @@
         "index": {
           "description": "Sets the RPROP delta max See also getRPROPDeltaMax",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setRPROPDeltaMax",
           "normalized": "FannPtr-\u003eFloat-\u003eIO()",
@@ -2363,6 +2557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the RPROP delta min\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003egetRPROPDeltaMin\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setRPROPDeltaMin",
           "package": "hfann",
@@ -2373,6 +2568,7 @@
         "index": {
           "description": "Sets the RPROP delta min See also getRPROPDeltaMin",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setRPROPDeltaMin",
           "normalized": "FannPtr-\u003eFloat-\u003eIO()",
@@ -2389,6 +2585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the RPROP increase factor\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003egetRPROPIncreaseFactor\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setRPROPIncreaseFactor",
           "package": "hfann",
@@ -2399,6 +2596,7 @@
         "index": {
           "description": "Sets the RPROP increase factor See also getRPROPIncreaseFactor",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setRPROPIncreaseFactor",
           "normalized": "FannPtr-\u003eFloat-\u003eIO()",
@@ -2415,6 +2613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the error function used during training.\n\u003c/p\u003e\u003cp\u003eThe error function is described in \u003ccode\u003e\u003ca\u003eErrorFunction\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003egetTrainErrorFunction\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setTrainErrorFunction",
           "package": "hfann",
@@ -2424,6 +2623,7 @@
         "index": {
           "description": "Set the error function used during training The error function is described in ErrorFunction See also getTrainErrorFunction",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setTrainErrorFunction",
           "normalized": "FannPtr-\u003eErrorFunction-\u003eIO()",
@@ -2440,6 +2640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the stop function used during training.\n\u003c/p\u003e\u003cp\u003eThe stop function is described in \u003ccode\u003e\u003ca\u003eStopFunction\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe default stop function is \u003ccode\u003estopFunctionMSE\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003egetTrainStopFunction\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egetBitFailLimit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setTrainStopFunction",
           "package": "hfann",
@@ -2450,6 +2651,7 @@
         "index": {
           "description": "Set the stop function used during training The stop function is described in StopFunction The default stop function is stopFunctionMSE See also getTrainStopFunction getBitFailLimit",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setTrainStopFunction",
           "normalized": "FannPtr-\u003eStopFunction-\u003eIO()",
@@ -2466,6 +2668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the training algorithm.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003egetTrainingAlgorithm\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eTrainingAlgorithm\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "setTrainingAlgorithm",
           "package": "hfann",
@@ -2475,6 +2678,7 @@
         "index": {
           "description": "Set the training algorithm See also getTrainingAlgorithm TrainingAlgorithm",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "setTrainingAlgorithm",
           "normalized": "FannPtr-\u003eTrainAlgorithm-\u003eIO()",
@@ -2491,6 +2695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShuffles training data, randomizing the order.\n\u003c/p\u003e\u003cp\u003eThis is recomended for incremental training, while it has no influence\n during batch training\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "shuffleTrainData",
           "package": "hfann",
@@ -2500,6 +2705,7 @@
         "index": {
           "description": "Shuffles training data randomizing the order This is recomended for incremental training while it has no influence during batch training",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "shuffleTrainData",
           "normalized": "TrainDataPtr-\u003eIO()",
@@ -2516,6 +2722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a copy of a subset of the training data, starting at the given\n offset and taking the given count of elements.\n\u003c/p\u003e\u003cpre\u003e len \u003c- trainDataLength tdata\n newtdata \u003c- subsetTrainData tdata 0 len\n\u003c/pre\u003e\u003cp\u003eWill do the same as \u003ccode\u003e\u003ca\u003eduplicateTrainData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003etrainDataLength\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "subsetTrainData",
           "package": "hfann",
@@ -2526,6 +2733,7 @@
         "index": {
           "description": "Returns copy of subset of the training data starting at the given offset and taking the given count of elements len trainDataLength tdata newtdata subsetTrainData tdata len Will do the same as duplicateTrainData See also trainDataLength",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "subsetTrainData",
           "normalized": "TrainDataPtr-\u003eInt-\u003eInt-\u003eIO TrainDataPtr",
@@ -2542,6 +2750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest the Neural Network on the given input and output values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "test",
           "package": "hfann",
@@ -2551,6 +2760,7 @@
         "index": {
           "description": "Test the Neural Network on the given input and output values",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "test",
           "normalized": "FannPtr-\u003e[FannType]-\u003e[FannType]-\u003eIO[FannType]",
@@ -2566,6 +2776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest ANN on training data\n\u003c/p\u003e\u003cp\u003eThis function will run the ANN on the training data and return the error\n value. It can be used to validate the check the quality of the ANN on some\n test data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "testData",
           "package": "hfann",
@@ -2575,6 +2786,7 @@
         "index": {
           "description": "Test ANN on training data This function will run the ANN on the training data and return the error value It can be used to validate the check the quality of the ANN on some test data",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "testData",
           "normalized": "FannPtr-\u003eTrainDataPtr-\u003eIO CFloat",
@@ -2591,6 +2803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrain the Neural Network on the given input and output values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "train",
           "package": "hfann",
@@ -2600,6 +2813,7 @@
         "index": {
           "description": "Train the Neural Network on the given input and output values",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "train",
           "normalized": "FannPtr-\u003e[FannType]-\u003e[FannType]-\u003eIO()",
@@ -2615,6 +2829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of training patterns in the training data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "trainDataLength",
           "package": "hfann",
@@ -2625,6 +2840,7 @@
         "index": {
           "description": "Returns the number of training patterns in the training data",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "trainDataLength",
           "normalized": "TrainDataPtr-\u003eIO Int",
@@ -2641,6 +2857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrain one epoch with a set of training data\n\u003c/p\u003e\u003cp\u003eTrain one epoch with the given training data. One epoch is where all the\n training data is considered exactly once.\n\u003c/p\u003e\u003cp\u003eThe function returns the MSE error as it is calculated either before or\n during the actual training. This is not the actual MSE after the training\n epoch but since calculating this will require to go through the entire\n training set once more it is more adequate to use this value during\n training.\n\u003c/p\u003e\u003cp\u003eThe training algorithm used by this function is chosen by the\n \u003ccode\u003e\u003ca\u003esetTrainingAlgorithm\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e\u003cp\u003eSee also:\n   \u003ccode\u003e\u003ca\u003etrainOnData\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003etestData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "trainEpoch",
           "package": "hfann",
@@ -2651,6 +2868,7 @@
         "index": {
           "description": "Train one epoch with set of training data Train one epoch with the given training data One epoch is where all the training data is considered exactly once The function returns the MSE error as it is calculated either before or during the actual training This is not the actual MSE after the training epoch but since calculating this will require to go through the entire training set once more it is more adequate to use this value during training The training algorithm used by this function is chosen by the setTrainingAlgorithm function See also trainOnData testData",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "trainEpoch",
           "normalized": "FannPtr-\u003eTrainDataPtr-\u003eIO Float",
@@ -2667,6 +2885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrain the Neural Network on a training dataset.\n\u003c/p\u003e\u003cp\u003eInstead of printing out reports every \"epochs between reports\", a callback\n function can be called (see \u003ccode\u003e\u003ca\u003esetCallback\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eA value of zero in the \u003ca\u003eepochs between reports\u003c/a\u003e means no reports should be\n printed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "trainOnData",
           "package": "hfann",
@@ -2676,6 +2895,7 @@
         "index": {
           "description": "Train the Neural Network on training dataset Instead of printing out reports every epochs between reports callback function can be called see setCallback value of zero in the epochs between reports means no reports should be printed",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "trainOnData",
           "normalized": "FannPtr-\u003eTrainDataPtr-\u003eInt-\u003eInt-\u003eDouble-\u003eIO()",
@@ -2692,6 +2912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrain the Neural Network on the given data file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "trainOnFile",
           "package": "hfann",
@@ -2701,6 +2922,7 @@
         "index": {
           "description": "Train the Neural Network on the given data file",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "trainOnFile",
           "normalized": "FannPtr-\u003eString-\u003eInt-\u003eInt-\u003eDouble-\u003eIO()",
@@ -2717,6 +2939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead training data from file and run the given function on that data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN.Train",
           "name": "withTrainData",
           "package": "hfann",
@@ -2726,6 +2949,7 @@
         "index": {
           "description": "Read training data from file and run the given function on that data",
           "hierarchy": "HFANN Train",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN.Train",
           "name": "withTrainData",
           "normalized": "String-\u003e(TrainDataPtr-\u003eIO a)-\u003eIO a",
@@ -2742,6 +2966,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Fast Artificial Neural Network Library (FANN) is a free open source\n neural network library written in C with support for both fully connected\n and sparsely connected networks (\u003ca\u003ehttp://leenissen.dk/fann/\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eHFANN is a Haskell interface to this library.\n\u003c/p\u003e\u003cp\u003eSee below for examples.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:37:57 UTC 2014",
           "module": "HFANN",
           "name": "HFANN",
           "package": "hfann",
@@ -2751,6 +2976,7 @@
         "index": {
           "description": "The Fast Artificial Neural Network Library FANN is free open source neural network library written in with support for both fully connected and sparsely connected networks http leenissen.dk fann HFANN is Haskell interface to this library See below for examples",
           "hierarchy": "HFANN",
+          "indexed": "2014-03-11T18:37:57",
           "module": "HFANN",
           "name": "HFANN",
           "package": "hfann",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uuagc-bootstrap"
+        "phrase": "uuagc-bootstrap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:33 UTC 2014",
           "module": "UU.UUAGC.Bootstrap",
           "name": "Bootstrap",
           "package": "uuagc-bootstrap",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC Bootstrap",
+          "indexed": "2014-03-11T20:32:33",
           "module": "UU.UUAGC.Bootstrap",
           "name": "Bootstrap",
           "package": "uuagc-bootstrap",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:33 UTC 2014",
           "module": "UU.UUAGC.Bootstrap",
           "name": "uuagcBootstrap",
           "package": "uuagc-bootstrap",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC Bootstrap",
+          "indexed": "2014-03-11T20:32:33",
           "module": "UU.UUAGC.Bootstrap",
           "name": "uuagcBootstrap",
           "normalized": "[String]-\u003eFilePath-\u003eIO(ExitCode,[FilePath])",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:33 UTC 2014",
           "module": "UU.UUAGC.Bootstrap",
           "name": "uuagcBootstrapMain",
           "package": "uuagc-bootstrap",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC Bootstrap",
+          "indexed": "2014-03-11T20:32:33",
           "module": "UU.UUAGC.Bootstrap",
           "name": "uuagcBootstrapMain",
           "normalized": "IO()",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule is only supposed to be included for the bootstrap version of UUAGC.\n   It imports a module that is only present while building that version.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:32:33 UTC 2014",
           "module": "UU.UUAGC.BootstrapVersion",
           "name": "BootstrapVersion",
           "package": "uuagc-bootstrap",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Module is only supposed to be included for the bootstrap version of UUAGC It imports module that is only present while building that version",
           "hierarchy": "UU UUAGC BootstrapVersion",
+          "indexed": "2014-03-11T20:32:33",
           "module": "UU.UUAGC.BootstrapVersion",
           "name": "BootstrapVersion",
           "package": "uuagc-bootstrap",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:33 UTC 2014",
           "module": "UU.UUAGC.BootstrapVersion",
           "name": "version",
           "package": "uuagc-bootstrap",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC BootstrapVersion",
+          "indexed": "2014-03-11T20:32:33",
           "module": "UU.UUAGC.BootstrapVersion",
           "name": "version",
           "package": "uuagc-bootstrap",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snap-app"
+        "phrase": "snap-app",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbstraction of environment functions (could be state, could be\n   reader, whatever). Intended to ease migration from Reader/State.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Control.Monad.Env",
           "name": "Env",
           "package": "snap-app",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Abstraction of environment functions could be state could be reader whatever Intended to ease migration from Reader State",
           "hierarchy": "Control Monad Env",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Control.Monad.Env",
           "name": "Env",
           "package": "snap-app",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Control.Monad.Env",
           "name": "env",
           "package": "snap-app",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Env",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Control.Monad.Env",
           "name": "env",
           "normalized": "(a-\u003eb)-\u003ec b",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUseful operator (++) = mappend.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Data.Monoid.Operator",
           "name": "Operator",
           "package": "snap-app",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Useful operator mappend",
           "hierarchy": "Data Monoid Operator",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Data.Monoid.Operator",
           "name": "Operator",
           "package": "snap-app",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Data.Monoid.Operator",
           "name": "(++)",
           "package": "snap-app",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Operator",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Data.Monoid.Operator",
           "name": "(++) ++",
           "normalized": "a-\u003ea-\u003ea",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData pagination.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Data.Pagination",
           "name": "Pagination",
           "package": "snap-app",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Data pagination",
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Data.Pagination",
           "name": "Pagination",
           "package": "snap-app",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pagination object, holds information about the name, total, per\n   page, current page, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Data.Pagination",
           "name": "Pagination",
           "package": "snap-app",
@@ -143,6 +154,7 @@
         "index": {
           "description": "pagination object holds information about the name total per page current page etc",
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Data.Pagination",
           "name": "Pagination",
           "package": "snap-app",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Data.Pagination",
           "name": "Pagination",
           "package": "snap-app",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Data.Pagination",
           "name": "Pagination",
           "package": "snap-app",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the current page of the pagination from the current URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Data.Pagination",
           "name": "addCurrentPNData",
           "package": "snap-app",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Add the current page of the pagination from the current URI",
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Data.Pagination",
           "name": "addCurrentPNData",
           "normalized": "URI-\u003ePagination-\u003ePagination",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Data.Pagination",
           "name": "pnCurrentPage",
           "package": "snap-app",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Data.Pagination",
           "name": "pnCurrentPage",
           "package": "snap-app",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Data.Pagination",
           "name": "pnName",
           "package": "snap-app",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Data.Pagination",
           "name": "pnName",
           "package": "snap-app",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the page count of the pagination results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Data.Pagination",
           "name": "pnPageCount",
           "package": "snap-app",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Get the page count of the pagination results",
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Data.Pagination",
           "name": "pnPageCount",
           "normalized": "Pagination-\u003eInteger",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Data.Pagination",
           "name": "pnPerPage",
           "package": "snap-app",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Data.Pagination",
           "name": "pnPerPage",
           "package": "snap-app",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Data.Pagination",
           "name": "pnShowDesc",
           "package": "snap-app",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Data.Pagination",
           "name": "pnShowDesc",
           "package": "snap-app",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Data.Pagination",
           "name": "pnTotal",
           "package": "snap-app",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Data.Pagination",
           "name": "pnTotal",
           "package": "snap-app",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Network.URI.Params",
           "name": "Params",
           "package": "snap-app",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Network URI Params",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Network.URI.Params",
           "name": "Params",
           "package": "snap-app",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Network.URI.Params",
           "name": "clearUrlQueries",
           "package": "snap-app",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Network URI Params",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Network.URI.Params",
           "name": "clearUrlQueries",
           "normalized": "URI-\u003eURI",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Network.URI.Params",
           "name": "deleteQueryKey",
           "package": "snap-app",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Network URI Params",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Network.URI.Params",
           "name": "deleteQueryKey",
           "normalized": "String-\u003eURI-\u003eURI",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Network.URI.Params",
           "name": "editQuery",
           "package": "snap-app",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Network URI Params",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Network.URI.Params",
           "name": "editQuery",
           "normalized": "([(String,String)]-\u003e[(String,String)])-\u003eString-\u003eString",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Network.URI.Params",
           "name": "formEncodeUrl",
           "package": "snap-app",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Network URI Params",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Network.URI.Params",
           "name": "formEncodeUrl",
           "normalized": "[(String,String)]-\u003e[Char]",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Network.URI.Params",
           "name": "updateUrlParam",
           "package": "snap-app",
@@ -466,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Network URI Params",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Network.URI.Params",
           "name": "updateUrlParam",
           "normalized": "String-\u003eString-\u003eURI-\u003eURI",
@@ -481,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Network.URI.Params",
           "name": "updateUrlParams",
           "package": "snap-app",
@@ -490,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Network URI Params",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Network.URI.Params",
           "name": "updateUrlParams",
           "normalized": "[(String,String)]-\u003eURI-\u003eURI",
@@ -505,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Network.URI.Params",
           "name": "uriParams",
           "package": "snap-app",
@@ -514,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Network URI Params",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Network.URI.Params",
           "name": "uriParams",
           "normalized": "URI-\u003e[(String,String)]",
@@ -530,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCaching of Blaze HTML pages caching.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Cache",
           "name": "Cache",
           "package": "snap-app",
@@ -539,6 +584,7 @@
         "index": {
           "description": "Caching of Blaze HTML pages caching",
           "hierarchy": "Snap App Cache",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Cache",
           "name": "Cache",
           "package": "snap-app",
@@ -553,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA config that can return a cache directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Cache",
           "name": "CacheDir",
           "package": "snap-app",
@@ -562,6 +609,7 @@
         "index": {
           "description": "config that can return cache directory",
           "hierarchy": "Snap App Cache",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Cache",
           "name": "CacheDir",
           "package": "snap-app",
@@ -576,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key for the cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Cache",
           "name": "Key",
           "package": "snap-app",
@@ -585,6 +634,7 @@
         "index": {
           "description": "key for the cache",
           "hierarchy": "Snap App Cache",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Cache",
           "name": "Key",
           "package": "snap-app",
@@ -599,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate and save into the cache, or retrieve existing from the\n | cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Cache",
           "name": "cache",
           "package": "snap-app",
@@ -609,6 +660,7 @@
         "index": {
           "description": "Generate and save into the cache or retrieve existing from the cache",
           "hierarchy": "Snap App Cache",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Cache",
           "name": "cache",
           "normalized": "a-\u003eController b c(Maybe Markup)-\u003eController b c(Maybe Text)",
@@ -624,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCache conditionally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Cache",
           "name": "cacheIf",
           "package": "snap-app",
@@ -634,6 +687,7 @@
         "index": {
           "description": "Cache conditionally",
           "hierarchy": "Snap App Cache",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Cache",
           "name": "cacheIf",
           "normalized": "Bool-\u003ea-\u003eController b c(Maybe Markup)-\u003eController b c(Maybe Text)",
@@ -650,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear the whole cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Cache",
           "name": "clearCache",
           "package": "snap-app",
@@ -660,6 +715,7 @@
         "index": {
           "description": "Clear the whole cache",
           "hierarchy": "Snap App Cache",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Cache",
           "name": "clearCache",
           "normalized": "a-\u003eIO()",
@@ -675,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Cache",
           "name": "getCacheDir",
           "package": "snap-app",
@@ -684,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Snap App Cache",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Cache",
           "name": "getCacheDir",
           "normalized": "a-\u003eFilePath",
@@ -699,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Cache",
           "name": "keyToString",
           "package": "snap-app",
@@ -708,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Snap App Cache",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Cache",
           "name": "keyToString",
           "normalized": "a-\u003eFilePath",
@@ -724,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset an item in the cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Cache",
           "name": "resetCache",
           "package": "snap-app",
@@ -734,6 +795,7 @@
         "index": {
           "description": "Reset an item in the cache",
           "hierarchy": "Snap App Cache",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Cache",
           "name": "resetCache",
           "normalized": "a-\u003eController b c()",
@@ -750,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset an item in the cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Cache",
           "name": "resetCacheModel",
           "package": "snap-app",
@@ -760,6 +823,7 @@
         "index": {
           "description": "Reset an item in the cache",
           "hierarchy": "Snap App Cache",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Cache",
           "name": "resetCacheModel",
           "normalized": "a-\u003eModel b c()",
@@ -776,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView some HTML generator cached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Cache",
           "name": "viewCached",
           "package": "snap-app",
@@ -786,6 +851,7 @@
         "index": {
           "description": "View some HTML generator cached",
           "hierarchy": "Snap App Cache",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Cache",
           "name": "viewCached",
           "normalized": "a-\u003eController b c Markup-\u003eController b c()",
@@ -802,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eController routing/handling.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Controller",
           "name": "Controller",
           "package": "snap-app",
@@ -811,6 +878,7 @@
         "index": {
           "description": "Controller routing handling",
           "hierarchy": "Snap App Controller",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Controller",
           "name": "Controller",
           "package": "snap-app",
@@ -825,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet integer parmater.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Controller",
           "name": "getInteger",
           "package": "snap-app",
@@ -835,6 +904,7 @@
         "index": {
           "description": "Get integer parmater",
           "hierarchy": "Snap App Controller",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Controller",
           "name": "getInteger",
           "normalized": "ByteString-\u003eInteger-\u003eController a b Integer",
@@ -850,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Controller",
           "name": "getMyURI",
           "package": "snap-app",
@@ -859,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Snap App Controller",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Controller",
           "name": "getMyURI",
           "package": "snap-app",
@@ -873,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet pagination data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Controller",
           "name": "getPagination",
           "package": "snap-app",
@@ -883,6 +956,7 @@
         "index": {
           "description": "Get pagination data",
           "hierarchy": "Snap App Controller",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Controller",
           "name": "getPagination",
           "normalized": "String-\u003eController a b PN",
@@ -899,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Controller",
           "name": "getString",
           "package": "snap-app",
@@ -909,6 +984,7 @@
         "index": {
           "description": "Get string",
           "hierarchy": "Snap App Controller",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Controller",
           "name": "getString",
           "normalized": "ByteString-\u003eString-\u003eController a b String",
@@ -925,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet string (maybe).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Controller",
           "name": "getStringMaybe",
           "package": "snap-app",
@@ -935,6 +1012,7 @@
         "index": {
           "description": "Get string maybe",
           "hierarchy": "Snap App Controller",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Controller",
           "name": "getStringMaybe",
           "normalized": "ByteString-\u003eController a b(Maybe String)",
@@ -951,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric redirect to home page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Controller",
           "name": "goHome",
           "package": "snap-app",
@@ -961,6 +1040,7 @@
         "index": {
           "description": "Generic redirect to home page",
           "hierarchy": "Snap App Controller",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Controller",
           "name": "goHome",
           "normalized": "Controller a b()",
@@ -977,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a Just value or go home.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Controller",
           "name": "justOrGoHome",
           "package": "snap-app",
@@ -987,6 +1068,7 @@
         "index": {
           "description": "Extract Just value or go home",
           "hierarchy": "Snap App Controller",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Controller",
           "name": "justOrGoHome",
           "normalized": "Maybe a-\u003e(a-\u003eController b c())-\u003eController b c()",
@@ -1003,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrictly renders HTML to Text before outputting it via Snap.\n   This ensures that any lazy exceptions are caught by the Snap\n   handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Controller",
           "name": "output",
           "package": "snap-app",
@@ -1013,6 +1096,7 @@
         "index": {
           "description": "Strictly renders HTML to Text before outputting it via Snap This ensures that any lazy exceptions are caught by the Snap handler",
           "hierarchy": "Snap App Controller",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Controller",
           "name": "output",
           "normalized": "Markup-\u003eController a b()",
@@ -1028,6 +1112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrictly renders text before outputting it via Snap.\n   This ensures that any lazy exceptions are caught by the Snap\n   handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Controller",
           "name": "outputText",
           "package": "snap-app",
@@ -1038,6 +1123,7 @@
         "index": {
           "description": "Strictly renders text before outputting it via Snap This ensures that any lazy exceptions are caught by the Snap handler",
           "hierarchy": "Snap App Controller",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Controller",
           "name": "outputText",
           "normalized": "Text-\u003eController a b()",
@@ -1054,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a controller handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Controller",
           "name": "runHandler",
           "package": "snap-app",
@@ -1064,6 +1151,7 @@
         "index": {
           "description": "Run controller handler",
           "hierarchy": "Snap App Controller",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Controller",
           "name": "runHandler",
           "normalized": "a-\u003eb-\u003ePool-\u003eController b a()-\u003eSnap()",
@@ -1080,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMigration library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Migrate",
           "name": "Migrate",
           "package": "snap-app",
@@ -1089,6 +1178,7 @@
         "index": {
           "description": "Migration library",
           "hierarchy": "Snap App Migrate",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Migrate",
           "name": "Migrate",
           "package": "snap-app",
@@ -1103,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the version number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Migrate",
           "name": "createVersion",
           "package": "snap-app",
@@ -1113,6 +1204,7 @@
         "index": {
           "description": "Create the version number",
           "hierarchy": "Snap App Migrate",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Migrate",
           "name": "createVersion",
           "normalized": "Model a b()",
@@ -1129,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust print to stdout for now.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Migrate",
           "name": "echo",
           "package": "snap-app",
@@ -1139,6 +1232,7 @@
         "index": {
           "description": "Just print to stdout for now",
           "hierarchy": "Snap App Migrate",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Migrate",
           "name": "echo",
           "normalized": "String-\u003eModel a b()",
@@ -1154,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure the version table exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Migrate",
           "name": "ensureExists",
           "package": "snap-app",
@@ -1164,6 +1259,7 @@
         "index": {
           "description": "Ensure the version table exists",
           "hierarchy": "Snap App Migrate",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Migrate",
           "name": "ensureExists",
           "normalized": "Model a b()",
@@ -1180,6 +1276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMigrate the DB to the latest version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Migrate",
           "name": "migrate",
           "package": "snap-app",
@@ -1190,6 +1287,7 @@
         "index": {
           "description": "Migrate the DB to the latest version",
           "hierarchy": "Snap App Migrate",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Migrate",
           "name": "migrate",
           "normalized": "Bool-\u003e[(Int,Model a b Int)]-\u003eModel a b()",
@@ -1205,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current database version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Migrate",
           "name": "setVersion",
           "package": "snap-app",
@@ -1215,6 +1314,7 @@
         "index": {
           "description": "Set the current database version",
           "hierarchy": "Snap App Migrate",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Migrate",
           "name": "setVersion",
           "normalized": "Int-\u003eModel a b()",
@@ -1231,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModel running.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Model",
           "name": "Model",
           "package": "snap-app",
@@ -1240,6 +1341,7 @@
         "index": {
           "description": "Model running",
           "hierarchy": "Snap App Model",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Model",
           "name": "Model",
           "package": "snap-app",
@@ -1254,6 +1356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single-value \"collection\".\n\u003c/p\u003e\u003cp\u003eThis is useful if you need to supply a single parameter to a SQL\n query, or extract a single column from a SQL result.\n\u003c/p\u003e\u003cp\u003eParameter example:\n\u003c/p\u003e\u003cpre\u003equery c \"select x from scores where x \u003e ?\" (\u003ccode\u003e\u003ca\u003eOnly\u003c/a\u003e\u003c/code\u003e (42::Int))\u003c/pre\u003e\u003cp\u003eResult example:\n\u003c/p\u003e\u003cpre\u003exs \u003c- query_ c \"select id from users\"\nforM_ xs $ \\(\u003ccode\u003e\u003ca\u003eOnly\u003c/a\u003e\u003c/code\u003e id) -\u003e {- ... -}\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Model",
           "name": "Only",
           "package": "snap-app",
@@ -1262,6 +1365,7 @@
         "index": {
           "description": "single-value collection This is useful if you need to supply single parameter to SQL query or extract single column from SQL result Parameter example query select from scores where Only Int Result example xs query select id from users forM xs Only id",
           "hierarchy": "Snap App Model",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Model",
           "name": "Only",
           "package": "snap-app",
@@ -1275,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Model",
           "name": "Pool",
           "package": "snap-app",
@@ -1283,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Snap App Model",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Model",
           "name": "Pool",
           "package": "snap-app",
@@ -1296,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Model",
           "name": "Only",
           "package": "snap-app",
@@ -1304,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Snap App Model",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Model",
           "name": "Only",
           "package": "snap-app",
@@ -1318,6 +1426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute some SQL returning the rows affected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Model",
           "name": "exec",
           "package": "snap-app",
@@ -1328,6 +1437,7 @@
         "index": {
           "description": "Execute some SQL returning the rows affected",
           "hierarchy": "Snap App Model",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Model",
           "name": "exec",
           "normalized": "[String]-\u003ea-\u003eModel b c Int",
@@ -1342,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Model",
           "name": "fromOnly",
           "package": "snap-app",
@@ -1350,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Snap App Model",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Model",
           "name": "fromOnly",
           "package": "snap-app",
@@ -1364,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a model action from within a controller.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Model",
           "name": "model",
           "package": "snap-app",
@@ -1374,6 +1487,7 @@
         "index": {
           "description": "Run model action from within controller",
           "hierarchy": "Snap App Model",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Model",
           "name": "model",
           "normalized": "Model a b c-\u003eController a b c",
@@ -1389,6 +1503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new connection pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Model",
           "name": "newPool",
           "package": "snap-app",
@@ -1398,6 +1513,7 @@
         "index": {
           "description": "Create new connection pool",
           "hierarchy": "Snap App Model",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Model",
           "name": "newPool",
           "normalized": "ConnectInfo-\u003ea Pool",
@@ -1414,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery with some parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Model",
           "name": "query",
           "package": "snap-app",
@@ -1424,6 +1541,7 @@
         "index": {
           "description": "Query with some parameters",
           "hierarchy": "Snap App Model",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Model",
           "name": "query",
           "normalized": "[String]-\u003ea-\u003eModel b c[d]",
@@ -1439,6 +1557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery with no parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Model",
           "name": "queryNoParams",
           "package": "snap-app",
@@ -1449,6 +1568,7 @@
         "index": {
           "description": "Query with no parameters",
           "hierarchy": "Snap App Model",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Model",
           "name": "queryNoParams",
           "normalized": "[String]-\u003eModel a b[c]",
@@ -1465,6 +1585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a model action at the top-level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Model",
           "name": "runDB",
           "package": "snap-app",
@@ -1475,6 +1596,7 @@
         "index": {
           "description": "Run model action at the top-level",
           "hierarchy": "Snap App Model",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Model",
           "name": "runDB",
           "normalized": "a-\u003eb-\u003ePool-\u003eModel b a()-\u003eIO()",
@@ -1491,6 +1613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery a single field from a single result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Model",
           "name": "single",
           "package": "snap-app",
@@ -1501,6 +1624,7 @@
         "index": {
           "description": "Query single field from single result",
           "hierarchy": "Snap App Model",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Model",
           "name": "single",
           "normalized": "[String]-\u003ea-\u003eModel b c(Maybe d)",
@@ -1516,6 +1640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery a single field from a single result (no params).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Model",
           "name": "singleNoParams",
           "package": "snap-app",
@@ -1526,6 +1651,7 @@
         "index": {
           "description": "Query single field from single result no params",
           "hierarchy": "Snap App Model",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Model",
           "name": "singleNoParams",
           "normalized": "[String]-\u003eModel a b(Maybe c)",
@@ -1542,6 +1668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the connection pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Model",
           "name": "withPoolConnection",
           "package": "snap-app",
@@ -1552,6 +1679,7 @@
         "index": {
           "description": "Use the connection pool",
           "hierarchy": "Snap App Model",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Model",
           "name": "withPoolConnection",
           "normalized": "Pool-\u003e(Connection-\u003ea b)-\u003ea()",
@@ -1567,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.RSS",
           "name": "RSS",
           "package": "snap-app",
@@ -1575,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Snap App RSS",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.RSS",
           "name": "RSS",
           "package": "snap-app",
@@ -1589,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a simple RSS feed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.RSS",
           "name": "makeFeed",
           "package": "snap-app",
@@ -1599,6 +1730,7 @@
         "index": {
           "description": "Make simple RSS feed",
           "hierarchy": "Snap App RSS",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.RSS",
           "name": "makeFeed",
           "normalized": "String-\u003eString-\u003e[(UTCTime,Text,Text,Text)]-\u003eElement",
@@ -1615,6 +1747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the given XML element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.RSS",
           "name": "outputRSS",
           "package": "snap-app",
@@ -1625,6 +1758,7 @@
         "index": {
           "description": "Output the given XML element",
           "hierarchy": "Snap App RSS",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.RSS",
           "name": "outputRSS",
           "normalized": "String-\u003eString-\u003e[(UTCTime,Text,Text,Text)]-\u003eController a b()",
@@ -1641,6 +1775,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModel-view-controller app types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "Types",
           "package": "snap-app",
@@ -1650,6 +1785,7 @@
         "index": {
           "description": "Model-view-controller app types",
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "Types",
           "package": "snap-app",
@@ -1663,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "AppConfig",
           "package": "snap-app",
@@ -1671,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "AppConfig",
           "package": "snap-app",
@@ -1684,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "AppLiftModel",
           "package": "snap-app",
@@ -1692,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "AppLiftModel",
           "package": "snap-app",
@@ -1706,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe controller monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "Controller",
           "package": "snap-app",
@@ -1715,6 +1856,7 @@
         "index": {
           "description": "The controller monad",
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "Controller",
           "package": "snap-app",
@@ -1729,6 +1871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state accessible to the controller (DB/session stuff).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "ControllerState",
           "package": "snap-app",
@@ -1738,6 +1881,7 @@
         "index": {
           "description": "The state accessible to the controller DB session stuff",
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "ControllerState",
           "package": "snap-app",
@@ -1752,6 +1896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe model monad (limited access to IO, only DB access).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "Model",
           "package": "snap-app",
@@ -1761,6 +1906,7 @@
         "index": {
           "description": "The model monad limited access to IO only DB access",
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "Model",
           "package": "snap-app",
@@ -1775,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state accessible to the model (just DB connection).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "ModelState",
           "package": "snap-app",
@@ -1784,6 +1931,7 @@
         "index": {
           "description": "The state accessible to the model just DB connection",
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "ModelState",
           "package": "snap-app",
@@ -1797,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "Controller",
           "package": "snap-app",
@@ -1806,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "Controller",
           "package": "snap-app",
@@ -1819,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "ControllerState",
           "package": "snap-app",
@@ -1828,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "ControllerState",
           "package": "snap-app",
@@ -1841,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "Model",
           "package": "snap-app",
@@ -1850,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "Model",
           "package": "snap-app",
@@ -1863,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "ModelState",
           "package": "snap-app",
@@ -1872,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "ModelState",
           "package": "snap-app",
@@ -1885,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "controllerState",
           "package": "snap-app",
@@ -1894,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "controllerState",
           "package": "snap-app",
@@ -1907,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "controllerStateConfig",
           "package": "snap-app",
@@ -1916,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "controllerStateConfig",
           "package": "snap-app",
@@ -1929,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "controllerStateConn",
           "package": "snap-app",
@@ -1938,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "controllerStateConn",
           "package": "snap-app",
@@ -1951,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "getConfigDomain",
           "package": "snap-app",
@@ -1960,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "getConfigDomain",
           "normalized": "a-\u003eString",
@@ -1975,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "liftModel",
           "package": "snap-app",
@@ -1984,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "liftModel",
           "normalized": "Model a b c-\u003eController a b c",
@@ -1999,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "modelStateAnns",
           "package": "snap-app",
@@ -2008,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "modelStateAnns",
           "package": "snap-app",
@@ -2021,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "modelStateConfig",
           "package": "snap-app",
@@ -2030,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "modelStateConfig",
           "package": "snap-app",
@@ -2043,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "modelStateConn",
           "package": "snap-app",
@@ -2052,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "modelStateConn",
           "package": "snap-app",
@@ -2065,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "runController",
           "package": "snap-app",
@@ -2074,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "runController",
           "package": "snap-app",
@@ -2087,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.Types",
           "name": "runModel",
           "package": "snap-app",
@@ -2096,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "Snap App Types",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.Types",
           "name": "runModel",
           "package": "snap-app",
@@ -2109,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.XML",
           "name": "XML",
           "package": "snap-app",
@@ -2117,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "Snap App XML",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.XML",
           "name": "XML",
           "package": "snap-app",
@@ -2131,6 +2309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the given XML element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App.XML",
           "name": "outputXML",
           "package": "snap-app",
@@ -2141,6 +2320,7 @@
         "index": {
           "description": "Output the given XML element",
           "hierarchy": "Snap App XML",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App.XML",
           "name": "outputXML",
           "normalized": "Element-\u003eController a b()",
@@ -2156,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Snap.App",
           "name": "App",
           "package": "snap-app",
@@ -2164,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "Snap App",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Snap.App",
           "name": "App",
           "package": "snap-app",
@@ -2177,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "Extra",
           "package": "snap-app",
@@ -2185,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Extra",
           "name": "Extra",
           "package": "snap-app",
@@ -2198,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "(!#)",
           "package": "snap-app",
@@ -2207,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Extra",
           "name": "(!#) !#",
           "normalized": "a-\u003eAttributeValue-\u003ea",
@@ -2221,6 +2407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "(!.)",
           "package": "snap-app",
@@ -2230,6 +2417,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Extra",
           "name": "(!.) !.",
           "normalized": "a-\u003eAttributeValue-\u003ea",
@@ -2244,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "hrefAssoc",
           "package": "snap-app",
@@ -2253,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Extra",
           "name": "hrefAssoc",
           "normalized": "String-\u003e[(String,String)]-\u003eAttribute",
@@ -2268,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "hrefSet",
           "package": "snap-app",
@@ -2277,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Extra",
           "name": "hrefSet",
           "normalized": "URI-\u003eString-\u003eString-\u003eAttribute",
@@ -2292,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "hrefURI",
           "package": "snap-app",
@@ -2301,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Extra",
           "name": "hrefURI",
           "normalized": "URI-\u003eAttribute",
@@ -2316,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "hrefURIWithHash",
           "package": "snap-app",
@@ -2325,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Extra",
           "name": "hrefURIWithHash",
           "normalized": "URI-\u003eString-\u003eAttribute",
@@ -2340,6 +2536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "htmlCommas",
           "package": "snap-app",
@@ -2349,6 +2546,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Extra",
           "name": "htmlCommas",
           "normalized": "[Html]-\u003eHtml",
@@ -2364,6 +2562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "htmlCommasAnd",
           "package": "snap-app",
@@ -2373,6 +2572,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Extra",
           "name": "htmlCommasAnd",
           "normalized": "[Html]-\u003eHtml",
@@ -2388,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "htmlIntercalate",
           "package": "snap-app",
@@ -2397,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Extra",
           "name": "htmlIntercalate",
           "normalized": "Html-\u003e[Html]-\u003eHtml",
@@ -2412,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "linesToHtml",
           "package": "snap-app",
@@ -2421,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Extra",
           "name": "linesToHtml",
           "normalized": "String-\u003eHtml",
@@ -2437,6 +2641,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple pagination support for blaze.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Pagination",
           "name": "Pagination",
           "package": "snap-app",
@@ -2446,6 +2651,7 @@
         "index": {
           "description": "Simple pagination support for blaze",
           "hierarchy": "Text Blaze Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Pagination",
           "name": "Pagination",
           "package": "snap-app",
@@ -2459,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Pagination",
           "name": "PN",
           "package": "snap-app",
@@ -2467,6 +2674,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Pagination",
           "name": "PN",
           "package": "snap-app",
@@ -2480,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Pagination",
           "name": "PN",
           "package": "snap-app",
@@ -2489,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Pagination",
           "name": "PN",
           "package": "snap-app",
@@ -2503,6 +2713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender pagination as html.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Pagination",
           "name": "pagination",
           "package": "snap-app",
@@ -2513,6 +2724,7 @@
         "index": {
           "description": "Render pagination as html",
           "hierarchy": "Text Blaze Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Pagination",
           "name": "pagination",
           "normalized": "PN-\u003eHtml",
@@ -2527,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Pagination",
           "name": "pnPn",
           "package": "snap-app",
@@ -2536,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Pagination",
           "name": "pnPn",
           "package": "snap-app",
@@ -2549,6 +2763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Pagination",
           "name": "pnResultsPerPage",
           "package": "snap-app",
@@ -2558,6 +2773,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Pagination",
           "name": "pnResultsPerPage",
           "normalized": "Maybe[Integer]",
@@ -2573,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:53 UTC 2014",
           "module": "Text.Blaze.Pagination",
           "name": "pnURI",
           "package": "snap-app",
@@ -2582,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Pagination",
+          "indexed": "2014-03-11T20:04:53",
           "module": "Text.Blaze.Pagination",
           "name": "pnURI",
           "package": "snap-app",

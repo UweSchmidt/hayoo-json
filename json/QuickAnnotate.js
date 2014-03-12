@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "QuickAnnotate"
+        "phrase": "QuickAnnotate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuickAnnotate Module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:55 UTC 2014",
           "module": "QuickAnnotate",
           "name": "QuickAnnotate",
           "package": "QuickAnnotate",
@@ -28,6 +29,7 @@
         "index": {
           "description": "QuickAnnotate Module",
           "hierarchy": "QuickAnnotate",
+          "indexed": "2014-03-11T16:57:55",
           "module": "QuickAnnotate",
           "name": "QuickAnnotate",
           "package": "QuickAnnotate",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAnnotatable\u003c/a\u003e\u003c/code\u003e is used for overloading the annotate function added by the preprocessor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:55 UTC 2014",
           "module": "QuickAnnotate",
           "name": "Annotatable",
           "package": "QuickAnnotate",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Annotatable is used for overloading the annotate function added by the preprocessor",
           "hierarchy": "QuickAnnotate",
+          "indexed": "2014-03-11T16:57:55",
           "module": "QuickAnnotate",
           "name": "Annotatable",
           "package": "QuickAnnotate",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of source location data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:55 UTC 2014",
           "module": "QuickAnnotate",
           "name": "Loc",
           "package": "QuickAnnotate",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Type of source location data",
           "hierarchy": "QuickAnnotate",
+          "indexed": "2014-03-11T16:57:55",
           "module": "QuickAnnotate",
           "name": "Loc",
           "package": "QuickAnnotate",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:55 UTC 2014",
           "module": "QuickAnnotate",
           "name": "annotate",
           "package": "QuickAnnotate",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "QuickAnnotate",
+          "indexed": "2014-03-11T16:57:55",
           "module": "QuickAnnotate",
           "name": "annotate",
           "normalized": "Loc-\u003ea-\u003ea",

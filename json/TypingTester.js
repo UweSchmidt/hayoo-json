@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "TypingTester"
+        "phrase": "TypingTester",
+        "type": "phrase"
       },
       "type": "context"
     }

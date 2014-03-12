@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "transactional-events"
+        "phrase": "transactional-events",
+        "type": "phrase"
       },
       "type": "context"
     }

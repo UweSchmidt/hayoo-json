@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "erf"
+        "phrase": "erf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:42 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "Erf",
           "package": "erf",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:42",
           "module": "Data.Number.Erf",
           "name": "Erf",
           "package": "erf",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError function related functions.\n\u003c/p\u003e\u003cp\u003eThe derivative of \u003ccode\u003e\u003ca\u003eerf\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e x -\u003e 2 / sqrt pi * exp (x^2)\u003c/code\u003e,\n and this uniquely determines \u003ccode\u003e\u003ca\u003eerf\u003c/a\u003e\u003c/code\u003e by \u003ccode\u003eerf 0 = 0\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition is \u003ccode\u003e\u003ca\u003eerfc\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003enormcdf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:42 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "Erf",
           "package": "erf",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Error function related functions The derivative of erf is sqrt pi exp and this uniquely determines erf by erf Minimal complete definition is erfc or normcdf",
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:42",
           "module": "Data.Number.Erf",
           "name": "Erf",
           "package": "erf",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse error functions, e.g., \u003ccode\u003einverf . erf = id\u003c/code\u003e and \u003ccode\u003eerf . inverf = id\u003c/code\u003e assuming\n the appropriate codomain for \u003ccode\u003e\u003ca\u003einverf\u003c/a\u003e\u003c/code\u003e.\n Note that the accuracy may drop radically for extreme arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:42 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "InvErf",
           "package": "erf",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Inverse error functions e.g inverf erf id and erf inverf id assuming the appropriate codomain for inverf Note that the accuracy may drop radically for extreme arguments",
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:42",
           "module": "Data.Number.Erf",
           "name": "InvErf",
           "package": "erf",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:42 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "erf",
           "package": "erf",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:42",
           "module": "Data.Number.Erf",
           "name": "erf",
           "normalized": "a-\u003ea",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:42 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "erfc",
           "package": "erf",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:42",
           "module": "Data.Number.Erf",
           "name": "erfc",
           "package": "erf",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:42 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "erfcx",
           "package": "erf",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:42",
           "module": "Data.Number.Erf",
           "name": "erfcx",
           "package": "erf",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:42 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "inverf",
           "package": "erf",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:42",
           "module": "Data.Number.Erf",
           "name": "inverf",
           "normalized": "a-\u003ea",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:42 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "inverfc",
           "package": "erf",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:42",
           "module": "Data.Number.Erf",
           "name": "inverfc",
           "normalized": "a-\u003ea",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:42 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "invnormcdf",
           "package": "erf",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:42",
           "module": "Data.Number.Erf",
           "name": "invnormcdf",
           "normalized": "a-\u003ea",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:42 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "normcdf",
           "package": "erf",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:42",
           "module": "Data.Number.Erf",
           "name": "normcdf",
           "package": "erf",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hoodle-types"
+        "phrase": "hoodle-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "BBox",
           "package": "hoodle-types",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "BBox",
           "package": "hoodle-types",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebounding box type \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "BBox",
           "package": "hoodle-types",
@@ -49,6 +52,7 @@
         "index": {
           "description": "bounding box type",
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "BBox",
           "package": "hoodle-types",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "BBoxed",
           "package": "hoodle-types",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "BBoxed",
           "package": "hoodle-types",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "GetBBoxable",
           "package": "hoodle-types",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "GetBBoxable",
           "package": "hoodle-types",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "IntersectBBox",
           "package": "hoodle-types",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "IntersectBBox",
           "package": "hoodle-types",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "MakeBBoxedable",
           "package": "hoodle-types",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "MakeBBoxedable",
           "package": "hoodle-types",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "Maybeable",
           "package": "hoodle-types",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "Maybeable",
           "package": "hoodle-types",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "ULMaybe",
           "package": "hoodle-types",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "ULMaybe",
           "package": "hoodle-types",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "UnionBBox",
           "package": "hoodle-types",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "UnionBBox",
           "package": "hoodle-types",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "BBox",
           "package": "hoodle-types",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "BBox",
           "package": "hoodle-types",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "BBoxed",
           "package": "hoodle-types",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "BBoxed",
           "package": "hoodle-types",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "Bottom",
           "package": "hoodle-types",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "Bottom",
           "package": "hoodle-types",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "Intersect",
           "package": "hoodle-types",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "Intersect",
           "package": "hoodle-types",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "Middle",
           "package": "hoodle-types",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "Middle",
           "package": "hoodle-types",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "Top",
           "package": "hoodle-types",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "Top",
           "package": "hoodle-types",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "Union",
           "package": "hoodle-types",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "Union",
           "package": "hoodle-types",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "bbox4All",
           "package": "hoodle-types",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "bbox4All",
           "normalized": "a b-\u003eULMaybe BBox",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "bboxFromImage",
           "package": "hoodle-types",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "bboxFromImage",
           "normalized": "Image-\u003eBBox",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "bboxFromSVG",
           "package": "hoodle-types",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "bboxFromSVG",
           "normalized": "SVG-\u003eBBox",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "bboxFromStroke",
           "package": "hoodle-types",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "bboxFromStroke",
           "normalized": "Stroke-\u003eBBox",
@@ -460,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "bboxToDim",
           "package": "hoodle-types",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "bboxToDim",
           "normalized": "BBox-\u003eDimension",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "bbox_lowerright",
           "package": "hoodle-types",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "bbox_lowerright",
           "normalized": "(Double,Double)",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "bbox_upperleft",
           "package": "hoodle-types",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "bbox_upperleft",
           "normalized": "(Double,Double)",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "bbxed_bbx",
           "package": "hoodle-types",
@@ -539,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "bbxed_bbx",
           "package": "hoodle-types",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "bbxed_content",
           "package": "hoodle-types",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "bbxed_content",
           "package": "hoodle-types",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "dimToBBox",
           "package": "hoodle-types",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "dimToBBox",
           "normalized": "Dimension-\u003eBBox",
@@ -596,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "fromMaybe",
           "package": "hoodle-types",
@@ -605,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "fromMaybe",
           "normalized": "Maybe(ElemType a)-\u003ea",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "getBBox",
           "package": "hoodle-types",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "getBBox",
           "normalized": "a-\u003eBBox",
@@ -645,6 +701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einflate bbox by amount r \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "inflate",
           "package": "hoodle-types",
@@ -655,6 +712,7 @@
         "index": {
           "description": "inflate bbox by amount",
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "inflate",
           "normalized": "BBox-\u003eDouble-\u003eBBox",
@@ -669,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "intersectBBox",
           "package": "hoodle-types",
@@ -678,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "intersectBBox",
           "normalized": "BBox-\u003eBBox-\u003eMaybe BBox",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "makeBBoxed",
           "package": "hoodle-types",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "makeBBoxed",
           "normalized": "a-\u003eb(BBoxed a)",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "mkbbox",
           "package": "hoodle-types",
@@ -726,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "mkbbox",
           "normalized": "[Pair Double Double]-\u003eBBox",
@@ -740,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "mkbboxF",
           "package": "hoodle-types",
@@ -749,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "mkbboxF",
           "normalized": "a(Double,Double)-\u003eBBox",
@@ -763,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "moveBBoxByOffset",
           "package": "hoodle-types",
@@ -772,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "moveBBoxByOffset",
           "normalized": "(Double,Double)-\u003eBBox-\u003eBBox",
@@ -787,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "moveBBoxToOrigin",
           "package": "hoodle-types",
@@ -796,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "moveBBoxToOrigin",
           "normalized": "BBox-\u003eBBox",
@@ -811,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "moveBBoxULCornerTo",
           "package": "hoodle-types",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "moveBBoxULCornerTo",
           "normalized": "(Double,Double)-\u003eBBox-\u003eBBox",
@@ -835,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "toMaybe",
           "package": "hoodle-types",
@@ -844,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "toMaybe",
           "normalized": "a-\u003eMaybe(ElemType a)",
@@ -859,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "unIntersect",
           "package": "hoodle-types",
@@ -868,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "unIntersect",
           "package": "hoodle-types",
@@ -881,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "unUnion",
           "package": "hoodle-types",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "unUnion",
           "package": "hoodle-types",
@@ -903,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "unionBBox",
           "package": "hoodle-types",
@@ -912,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "unionBBox",
           "normalized": "BBox-\u003eBBox-\u003eBBox",
@@ -928,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneral transform BBox         \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.BBox",
           "name": "xformBBox",
           "package": "hoodle-types",
@@ -938,6 +1019,7 @@
         "index": {
           "description": "general transform BBox",
           "hierarchy": "Data Hoodle BBox",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.BBox",
           "name": "xformBBox",
           "normalized": "((Double,Double)-\u003e(Double,Double))-\u003eBBox-\u003eBBox",
@@ -954,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple Hoodle Type in Generic parameterized type\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "Simple",
           "package": "hoodle-types",
@@ -963,6 +1046,7 @@
         "index": {
           "description": "Simple Hoodle Type in Generic parameterized type",
           "hierarchy": "Data Hoodle Generic Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "Simple",
           "package": "hoodle-types",
@@ -976,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "SHoodle",
           "package": "hoodle-types",
@@ -984,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "SHoodle",
           "package": "hoodle-types",
@@ -997,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "SLayer",
           "package": "hoodle-types",
@@ -1005,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "SLayer",
           "package": "hoodle-types",
@@ -1018,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "SPage",
           "package": "hoodle-types",
@@ -1026,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "SPage",
           "package": "hoodle-types",
@@ -1040,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmart constructor for SHoodle \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "mkSHoodle",
           "package": "hoodle-types",
@@ -1050,6 +1141,7 @@
         "index": {
           "description": "smart constructor for SHoodle",
           "hierarchy": "Data Hoodle Generic Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "mkSHoodle",
           "normalized": "Hoodle-\u003eSHoodle",
@@ -1066,6 +1158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmart constructor for SLayer \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "mkSLayer",
           "package": "hoodle-types",
@@ -1076,6 +1169,7 @@
         "index": {
           "description": "smart constructor for SLayer",
           "hierarchy": "Data Hoodle Generic Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "mkSLayer",
           "normalized": "Layer-\u003eSLayer",
@@ -1092,6 +1186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmart constructor for SPage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "mkSPage",
           "package": "hoodle-types",
@@ -1102,6 +1197,7 @@
         "index": {
           "description": "smart constructor for SPage",
           "hierarchy": "Data Hoodle Generic Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "mkSPage",
           "normalized": "Page-\u003eSPage",
@@ -1117,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "shoodle2Hoodle",
           "package": "hoodle-types",
@@ -1126,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "shoodle2Hoodle",
           "normalized": "SHoodle-\u003eHoodle",
@@ -1141,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "slayer2Layer",
           "package": "hoodle-types",
@@ -1150,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "slayer2Layer",
           "normalized": "SLayer-\u003eLayer",
@@ -1165,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "spage2Page",
           "package": "hoodle-types",
@@ -1174,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic.Simple",
           "name": "spage2Page",
           "normalized": "SPage-\u003ePage",
@@ -1189,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "Generic",
           "package": "hoodle-types",
@@ -1197,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "Generic",
           "package": "hoodle-types",
@@ -1211,6 +1315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric Hoodle data having generic pages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "GHoodle",
           "package": "hoodle-types",
@@ -1220,6 +1325,7 @@
         "index": {
           "description": "Generic Hoodle data having generic pages",
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "GHoodle",
           "package": "hoodle-types",
@@ -1234,6 +1340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric buffered layer having generic items\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "GLayer",
           "package": "hoodle-types",
@@ -1243,6 +1350,7 @@
         "index": {
           "description": "Generic buffered layer having generic items",
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "GLayer",
           "package": "hoodle-types",
@@ -1257,6 +1365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric page data having dimension, generic background\n   and generic layers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "GPage",
           "package": "hoodle-types",
@@ -1266,6 +1375,7 @@
         "index": {
           "description": "Generic page data having dimension generic background and generic layers",
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "GPage",
           "package": "hoodle-types",
@@ -1279,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "Listable",
           "package": "hoodle-types",
@@ -1287,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "Listable",
           "package": "hoodle-types",
@@ -1300,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "GHoodle",
           "package": "hoodle-types",
@@ -1309,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "GHoodle",
           "package": "hoodle-types",
@@ -1322,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "GLayer",
           "package": "hoodle-types",
@@ -1331,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "GLayer",
           "package": "hoodle-types",
@@ -1344,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "GPage",
           "package": "hoodle-types",
@@ -1353,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "GPage",
           "package": "hoodle-types",
@@ -1366,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "emptyGHoodle",
           "package": "hoodle-types",
@@ -1375,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "emptyGHoodle",
           "package": "hoodle-types",
@@ -1388,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "emptyGPage",
           "package": "hoodle-types",
@@ -1397,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "emptyGPage",
           "normalized": "Dimension-\u003ea-\u003eGPage a b c",
@@ -1412,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "fromList",
           "package": "hoodle-types",
@@ -1421,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "fromList",
           "normalized": "[a]-\u003eb a",
@@ -1436,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "gbackground",
           "package": "hoodle-types",
@@ -1445,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "gbackground",
           "package": "hoodle-types",
@@ -1457,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "gbuffer",
           "package": "hoodle-types",
@@ -1466,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "gbuffer",
           "package": "hoodle-types",
@@ -1478,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "gdimension",
           "package": "hoodle-types",
@@ -1487,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "gdimension",
           "package": "hoodle-types",
@@ -1499,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "gembeddedpdf",
           "package": "hoodle-types",
@@ -1508,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "gembeddedpdf",
           "package": "hoodle-types",
@@ -1520,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "ghoodleID",
           "package": "hoodle-types",
@@ -1529,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "ghoodleID",
           "package": "hoodle-types",
@@ -1542,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "ghoodle_embeddedpdf",
           "package": "hoodle-types",
@@ -1551,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "ghoodle_embeddedpdf",
           "package": "hoodle-types",
@@ -1563,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "ghoodle_id",
           "package": "hoodle-types",
@@ -1572,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "ghoodle_id",
           "package": "hoodle-types",
@@ -1584,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "ghoodle_pgs",
           "package": "hoodle-types",
@@ -1593,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "ghoodle_pgs",
           "package": "hoodle-types",
@@ -1605,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "ghoodle_revisions",
           "package": "hoodle-types",
@@ -1614,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "ghoodle_revisions",
           "normalized": "[Revision]",
@@ -1628,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "ghoodle_ttl",
           "package": "hoodle-types",
@@ -1637,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "ghoodle_ttl",
           "package": "hoodle-types",
@@ -1649,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "gitems",
           "package": "hoodle-types",
@@ -1658,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "gitems",
           "package": "hoodle-types",
@@ -1670,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "glayer_buf",
           "package": "hoodle-types",
@@ -1679,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "glayer_buf",
           "package": "hoodle-types",
@@ -1691,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "glayer_itms",
           "package": "hoodle-types",
@@ -1700,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "glayer_itms",
           "package": "hoodle-types",
@@ -1712,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "glayers",
           "package": "hoodle-types",
@@ -1721,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "glayers",
           "package": "hoodle-types",
@@ -1733,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "gpage_bkg",
           "package": "hoodle-types",
@@ -1742,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "gpage_bkg",
           "package": "hoodle-types",
@@ -1754,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "gpage_dim",
           "package": "hoodle-types",
@@ -1763,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "gpage_dim",
           "package": "hoodle-types",
@@ -1775,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "gpage_lyrs",
           "package": "hoodle-types",
@@ -1784,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "gpage_lyrs",
           "package": "hoodle-types",
@@ -1796,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "gpages",
           "package": "hoodle-types",
@@ -1805,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "gpages",
           "package": "hoodle-types",
@@ -1817,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "grevisions",
           "package": "hoodle-types",
@@ -1826,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "grevisions",
           "normalized": "Simple Lens(GHoodle a b)[Revision]",
@@ -1840,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Generic",
           "name": "gtitle",
           "package": "hoodle-types",
@@ -1849,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Generic",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Generic",
           "name": "gtitle",
           "package": "hoodle-types",
@@ -1861,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "Predefined",
           "package": "hoodle-types",
@@ -1869,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "Predefined",
           "package": "hoodle-types",
@@ -1883,6 +2049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eneed to be refined. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "getPenColor",
           "package": "hoodle-types",
@@ -1893,6 +2060,7 @@
         "index": {
           "description": "need to be refined",
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "getPenColor",
           "normalized": "ByteString-\u003eMaybe(Double,Double,Double,Double)",
@@ -1908,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "hexToRGBA",
           "package": "hoodle-types",
@@ -1917,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "hexToRGBA",
           "normalized": "Integer-\u003e(Double,Double,Double,Double)",
@@ -1932,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefinedPenShapeAspectXY",
           "package": "hoodle-types",
@@ -1941,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefinedPenShapeAspectXY",
           "normalized": "(Double,Double)",
@@ -1956,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_BOTTOMMARGIN",
           "package": "hoodle-types",
@@ -1965,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_BOTTOMMARGIN",
           "package": "hoodle-types",
@@ -1978,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_COLOR",
           "package": "hoodle-types",
@@ -1987,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_COLOR",
           "normalized": "(Double,Double,Double,Double)",
@@ -2002,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_GRAPHSPACING",
           "package": "hoodle-types",
@@ -2011,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_GRAPHSPACING",
           "package": "hoodle-types",
@@ -2024,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_LEFTMARGIN",
           "package": "hoodle-types",
@@ -2033,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_LEFTMARGIN",
           "package": "hoodle-types",
@@ -2046,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_MARGIN_COLOR",
           "package": "hoodle-types",
@@ -2055,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_MARGIN_COLOR",
           "normalized": "(Double,Double,Double,Double)",
@@ -2070,6 +2252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_SPACING",
           "package": "hoodle-types",
@@ -2079,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_SPACING",
           "package": "hoodle-types",
@@ -2092,6 +2276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_THICKNESS",
           "package": "hoodle-types",
@@ -2101,6 +2286,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_THICKNESS",
           "package": "hoodle-types",
@@ -2114,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_TOPMARGIN",
           "package": "hoodle-types",
@@ -2123,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_RULING_TOPMARGIN",
           "package": "hoodle-types",
@@ -2136,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_bkgcolor",
           "package": "hoodle-types",
@@ -2145,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_bkgcolor",
           "normalized": "Map ByteString(Double,Double,Double,Double)",
@@ -2159,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_eraser_fine",
           "package": "hoodle-types",
@@ -2168,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_eraser_fine",
           "package": "hoodle-types",
@@ -2180,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_eraser_medium",
           "package": "hoodle-types",
@@ -2189,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_eraser_medium",
           "package": "hoodle-types",
@@ -2201,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_eraser_thick",
           "package": "hoodle-types",
@@ -2210,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_eraser_thick",
           "package": "hoodle-types",
@@ -2222,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_eraser_ultrathick",
           "package": "hoodle-types",
@@ -2231,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_eraser_ultrathick",
           "package": "hoodle-types",
@@ -2243,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_eraser_veryfine",
           "package": "hoodle-types",
@@ -2252,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_eraser_veryfine",
           "package": "hoodle-types",
@@ -2264,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_eraser_verythick",
           "package": "hoodle-types",
@@ -2273,6 +2474,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_eraser_verythick",
           "package": "hoodle-types",
@@ -2285,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_fine",
           "package": "hoodle-types",
@@ -2294,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_fine",
           "package": "hoodle-types",
@@ -2306,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_highlighter_fine",
           "package": "hoodle-types",
@@ -2315,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_highlighter_fine",
           "package": "hoodle-types",
@@ -2327,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_highlighter_medium",
           "package": "hoodle-types",
@@ -2336,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_highlighter_medium",
           "package": "hoodle-types",
@@ -2348,6 +2556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_highlighter_opacity",
           "package": "hoodle-types",
@@ -2357,6 +2566,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_highlighter_opacity",
           "package": "hoodle-types",
@@ -2369,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_highlighter_thick",
           "package": "hoodle-types",
@@ -2378,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_highlighter_thick",
           "package": "hoodle-types",
@@ -2390,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_highlighter_ultrathick",
           "package": "hoodle-types",
@@ -2399,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_highlighter_ultrathick",
           "package": "hoodle-types",
@@ -2411,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_highlighter_veryfine",
           "package": "hoodle-types",
@@ -2420,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_highlighter_veryfine",
           "package": "hoodle-types",
@@ -2432,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_highlighter_verythick",
           "package": "hoodle-types",
@@ -2441,6 +2658,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_highlighter_verythick",
           "package": "hoodle-types",
@@ -2453,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_medium",
           "package": "hoodle-types",
@@ -2462,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_medium",
           "package": "hoodle-types",
@@ -2474,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_pencolor",
           "package": "hoodle-types",
@@ -2483,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_pencolor",
           "normalized": "Map ByteString(Double,Double,Double,Double)",
@@ -2497,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_thick",
           "package": "hoodle-types",
@@ -2506,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_thick",
           "package": "hoodle-types",
@@ -2518,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_ultrathick",
           "package": "hoodle-types",
@@ -2527,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_ultrathick",
           "package": "hoodle-types",
@@ -2539,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_veryfine",
           "package": "hoodle-types",
@@ -2548,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_veryfine",
           "package": "hoodle-types",
@@ -2560,6 +2788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_verythick",
           "package": "hoodle-types",
@@ -2569,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "predefined_verythick",
           "package": "hoodle-types",
@@ -2581,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Predefined",
           "name": "rgbaToHEX",
           "package": "hoodle-types",
@@ -2590,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Predefined",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Predefined",
           "name": "rgbaToHEX",
           "normalized": "(Double,Double,Double,Double)-\u003eString",
@@ -2606,6 +2838,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eprimitive types for hoodle\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Primitive",
           "name": "Primitive",
           "package": "hoodle-types",
@@ -2615,6 +2848,7 @@
         "index": {
           "description": "primitive types for hoodle",
           "hierarchy": "Data Hoodle Primitive",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Primitive",
           "name": "Primitive",
           "package": "hoodle-types",
@@ -2628,6 +2862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "Select",
           "package": "hoodle-types",
@@ -2636,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "Select",
           "package": "hoodle-types",
@@ -2649,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "GSelect",
           "package": "hoodle-types",
@@ -2657,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "GSelect",
           "package": "hoodle-types",
@@ -2670,6 +2908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "GSelect",
           "package": "hoodle-types",
@@ -2679,6 +2918,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "GSelect",
           "package": "hoodle-types",
@@ -2692,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "gHoodle2GSelect",
           "package": "hoodle-types",
@@ -2701,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "gHoodle2GSelect",
           "normalized": "GHoodle a b-\u003eGSelect(a b)(Maybe c)",
@@ -2716,6 +2958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "gSelect2GHoodle",
           "package": "hoodle-types",
@@ -2725,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "gSelect2GHoodle",
           "normalized": "GSelect(a b)c-\u003eGHoodle a b",
@@ -2740,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "gselAll",
           "package": "hoodle-types",
@@ -2749,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "gselAll",
           "package": "hoodle-types",
@@ -2762,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "gselEmbeddedPdf",
           "package": "hoodle-types",
@@ -2771,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "gselEmbeddedPdf",
           "package": "hoodle-types",
@@ -2784,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "gselHoodleID",
           "package": "hoodle-types",
@@ -2793,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "gselHoodleID",
           "package": "hoodle-types",
@@ -2806,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "gselRevisions",
           "package": "hoodle-types",
@@ -2815,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "gselRevisions",
           "normalized": "Simple Lens(GSelect a b)[Revision]",
@@ -2830,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "gselSelected",
           "package": "hoodle-types",
@@ -2839,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "gselSelected",
           "package": "hoodle-types",
@@ -2852,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "gselTitle",
           "package": "hoodle-types",
@@ -2861,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "gselTitle",
           "package": "hoodle-types",
@@ -2874,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "gselect_all",
           "package": "hoodle-types",
@@ -2883,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "gselect_all",
           "package": "hoodle-types",
@@ -2895,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "gselect_embeddedpdf",
           "package": "hoodle-types",
@@ -2904,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "gselect_embeddedpdf",
           "package": "hoodle-types",
@@ -2916,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "gselect_id",
           "package": "hoodle-types",
@@ -2925,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "gselect_id",
           "package": "hoodle-types",
@@ -2937,6 +3199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "gselect_revisions",
           "package": "hoodle-types",
@@ -2946,6 +3209,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "gselect_revisions",
           "normalized": "[Revision]",
@@ -2960,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "gselect_selected",
           "package": "hoodle-types",
@@ -2969,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "gselect_selected",
           "package": "hoodle-types",
@@ -2981,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Select",
           "name": "gselect_ttl",
           "package": "hoodle-types",
@@ -2990,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Select",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Select",
           "name": "gselect_ttl",
           "package": "hoodle-types",
@@ -3003,6 +3271,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHoodle version 0.1.1 format \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "V0_1_1",
           "package": "hoodle-types",
@@ -3012,6 +3281,7 @@
         "index": {
           "description": "Hoodle version format",
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "V0_1_1",
           "package": "hoodle-types",
@@ -3024,6 +3294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Background",
           "package": "hoodle-types",
@@ -3032,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Background",
           "package": "hoodle-types",
@@ -3045,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Dimension",
           "package": "hoodle-types",
@@ -3053,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Dimension",
           "package": "hoodle-types",
@@ -3066,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Hoodle",
           "package": "hoodle-types",
@@ -3074,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Hoodle",
           "package": "hoodle-types",
@@ -3088,6 +3364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage item \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Image",
           "package": "hoodle-types",
@@ -3097,6 +3374,7 @@
         "index": {
           "description": "Image item",
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Image",
           "package": "hoodle-types",
@@ -3111,6 +3389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrapper of object embeddable in Layer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Item",
           "package": "hoodle-types",
@@ -3120,6 +3399,7 @@
         "index": {
           "description": "wrapper of object embeddable in Layer",
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Item",
           "package": "hoodle-types",
@@ -3133,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Layer",
           "package": "hoodle-types",
@@ -3141,6 +3422,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Layer",
           "package": "hoodle-types",
@@ -3154,6 +3436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Page",
           "package": "hoodle-types",
@@ -3162,6 +3445,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Page",
           "package": "hoodle-types",
@@ -3175,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "SVG",
           "package": "hoodle-types",
@@ -3183,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "SVG",
           "package": "hoodle-types",
@@ -3197,6 +3483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePen stroke item \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Stroke",
           "package": "hoodle-types",
@@ -3206,6 +3493,7 @@
         "index": {
           "description": "Pen stroke item",
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Stroke",
           "package": "hoodle-types",
@@ -3219,6 +3507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Title",
           "package": "hoodle-types",
@@ -3227,6 +3516,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Title",
           "package": "hoodle-types",
@@ -3240,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Background",
           "package": "hoodle-types",
@@ -3249,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Background",
           "package": "hoodle-types",
@@ -3262,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "BackgroundPdf",
           "package": "hoodle-types",
@@ -3271,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "BackgroundPdf",
           "package": "hoodle-types",
@@ -3284,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Dim",
           "package": "hoodle-types",
@@ -3293,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Dim",
           "package": "hoodle-types",
@@ -3306,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Hoodle",
           "package": "hoodle-types",
@@ -3315,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Hoodle",
           "package": "hoodle-types",
@@ -3328,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Image",
           "package": "hoodle-types",
@@ -3337,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Image",
           "package": "hoodle-types",
@@ -3350,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "ItemImage",
           "package": "hoodle-types",
@@ -3359,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "ItemImage",
           "package": "hoodle-types",
@@ -3372,6 +3674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "ItemSVG",
           "package": "hoodle-types",
@@ -3381,6 +3684,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "ItemSVG",
           "package": "hoodle-types",
@@ -3394,6 +3698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "ItemStroke",
           "package": "hoodle-types",
@@ -3403,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "ItemStroke",
           "package": "hoodle-types",
@@ -3416,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Layer",
           "package": "hoodle-types",
@@ -3425,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Layer",
           "package": "hoodle-types",
@@ -3438,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Page",
           "package": "hoodle-types",
@@ -3447,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Page",
           "package": "hoodle-types",
@@ -3460,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "SVG",
           "package": "hoodle-types",
@@ -3469,6 +3780,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "SVG",
           "package": "hoodle-types",
@@ -3482,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Stroke",
           "package": "hoodle-types",
@@ -3491,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "Stroke",
           "package": "hoodle-types",
@@ -3504,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "VWStroke",
           "package": "hoodle-types",
@@ -3513,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "VWStroke",
           "package": "hoodle-types",
@@ -3526,6 +3842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "background",
           "package": "hoodle-types",
@@ -3535,6 +3852,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "background",
           "package": "hoodle-types",
@@ -3547,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "bkg_color",
           "package": "hoodle-types",
@@ -3556,6 +3875,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "bkg_color",
           "package": "hoodle-types",
@@ -3568,6 +3888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "bkg_domain",
           "package": "hoodle-types",
@@ -3577,6 +3898,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "bkg_domain",
           "package": "hoodle-types",
@@ -3589,6 +3911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "bkg_filename",
           "package": "hoodle-types",
@@ -3598,6 +3921,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "bkg_filename",
           "package": "hoodle-types",
@@ -3610,6 +3934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "bkg_pageno",
           "package": "hoodle-types",
@@ -3619,6 +3944,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "bkg_pageno",
           "package": "hoodle-types",
@@ -3631,6 +3957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "bkg_style",
           "package": "hoodle-types",
@@ -3640,6 +3967,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "bkg_style",
           "package": "hoodle-types",
@@ -3652,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "bkg_type",
           "package": "hoodle-types",
@@ -3661,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "bkg_type",
           "package": "hoodle-types",
@@ -3673,6 +4003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "color",
           "package": "hoodle-types",
@@ -3682,6 +4013,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "color",
           "package": "hoodle-types",
@@ -3694,6 +4026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "defaultBackground",
           "package": "hoodle-types",
@@ -3703,6 +4036,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "defaultBackground",
           "package": "hoodle-types",
@@ -3716,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "defaultHoodle",
           "package": "hoodle-types",
@@ -3725,6 +4060,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "defaultHoodle",
           "package": "hoodle-types",
@@ -3738,6 +4074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "defaultPage",
           "package": "hoodle-types",
@@ -3747,6 +4084,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "defaultPage",
           "package": "hoodle-types",
@@ -3760,6 +4098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "dim_height",
           "package": "hoodle-types",
@@ -3769,6 +4108,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "dim_height",
           "package": "hoodle-types",
@@ -3781,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "dim_width",
           "package": "hoodle-types",
@@ -3790,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "dim_width",
           "package": "hoodle-types",
@@ -3802,6 +4144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "dimension",
           "package": "hoodle-types",
@@ -3811,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "dimension",
           "package": "hoodle-types",
@@ -3823,6 +4167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "emptyHoodle",
           "package": "hoodle-types",
@@ -3832,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "emptyHoodle",
           "package": "hoodle-types",
@@ -3845,6 +4191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "emptyLayer",
           "package": "hoodle-types",
@@ -3854,6 +4201,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "emptyLayer",
           "package": "hoodle-types",
@@ -3867,6 +4215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "emptyStroke",
           "package": "hoodle-types",
@@ -3876,6 +4225,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "emptyStroke",
           "package": "hoodle-types",
@@ -3889,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "getXYtuples",
           "package": "hoodle-types",
@@ -3898,6 +4249,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "getXYtuples",
           "normalized": "Stroke-\u003e[(Double,Double)]",
@@ -3913,6 +4265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "hoodle_pages",
           "package": "hoodle-types",
@@ -3922,6 +4275,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "hoodle_pages",
           "normalized": "[Page]",
@@ -3936,6 +4290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "hoodle_title",
           "package": "hoodle-types",
@@ -3945,6 +4300,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "hoodle_title",
           "package": "hoodle-types",
@@ -3957,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "img_dim",
           "package": "hoodle-types",
@@ -3966,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "img_dim",
           "package": "hoodle-types",
@@ -3978,6 +4336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "img_pos",
           "package": "hoodle-types",
@@ -3987,6 +4346,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "img_pos",
           "normalized": "(Double,Double)",
@@ -4001,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "img_src",
           "package": "hoodle-types",
@@ -4010,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "img_src",
           "package": "hoodle-types",
@@ -4022,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "items",
           "package": "hoodle-types",
@@ -4031,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "items",
           "normalized": "Simple Lens Layer[Item]",
@@ -4045,6 +4409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "layer_items",
           "package": "hoodle-types",
@@ -4054,6 +4419,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "layer_items",
           "normalized": "[Item]",
@@ -4068,6 +4434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "layers",
           "package": "hoodle-types",
@@ -4077,6 +4444,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "layers",
           "normalized": "Simple Lens Page[Layer]",
@@ -4091,6 +4459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "newPageFromOld",
           "package": "hoodle-types",
@@ -4100,6 +4469,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "newPageFromOld",
           "normalized": "Page-\u003ePage",
@@ -4115,6 +4485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "page_bkg",
           "package": "hoodle-types",
@@ -4124,6 +4495,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "page_bkg",
           "package": "hoodle-types",
@@ -4136,6 +4508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "page_dim",
           "package": "hoodle-types",
@@ -4145,6 +4518,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "page_dim",
           "package": "hoodle-types",
@@ -4157,6 +4531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "page_layers",
           "package": "hoodle-types",
@@ -4166,6 +4541,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "page_layers",
           "normalized": "[Layer]",
@@ -4180,6 +4556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "pages",
           "package": "hoodle-types",
@@ -4189,6 +4566,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "pages",
           "normalized": "Simple Lens Hoodle[Page]",
@@ -4203,6 +4581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "stroke_color",
           "package": "hoodle-types",
@@ -4212,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "stroke_color",
           "package": "hoodle-types",
@@ -4224,6 +4604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "stroke_data",
           "package": "hoodle-types",
@@ -4233,6 +4614,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "stroke_data",
           "normalized": "[Pair Double Double]",
@@ -4247,6 +4629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "stroke_tool",
           "package": "hoodle-types",
@@ -4256,6 +4639,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "stroke_tool",
           "package": "hoodle-types",
@@ -4268,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "stroke_vwdata",
           "package": "hoodle-types",
@@ -4277,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "stroke_vwdata",
           "normalized": "[(Double,Double,Double)]",
@@ -4291,6 +4677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "stroke_width",
           "package": "hoodle-types",
@@ -4300,6 +4687,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "stroke_width",
           "package": "hoodle-types",
@@ -4312,6 +4700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "svg_command",
           "package": "hoodle-types",
@@ -4321,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "svg_command",
           "package": "hoodle-types",
@@ -4333,6 +4723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "svg_dim",
           "package": "hoodle-types",
@@ -4342,6 +4733,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "svg_dim",
           "package": "hoodle-types",
@@ -4354,6 +4746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "svg_pos",
           "package": "hoodle-types",
@@ -4363,6 +4756,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "svg_pos",
           "normalized": "(Double,Double)",
@@ -4377,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "svg_render",
           "package": "hoodle-types",
@@ -4386,6 +4781,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "svg_render",
           "package": "hoodle-types",
@@ -4398,6 +4794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "svg_text",
           "package": "hoodle-types",
@@ -4407,6 +4804,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "svg_text",
           "package": "hoodle-types",
@@ -4419,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "title",
           "package": "hoodle-types",
@@ -4428,6 +4827,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "title",
           "package": "hoodle-types",
@@ -4440,6 +4840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "tool",
           "package": "hoodle-types",
@@ -4449,6 +4850,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple V0_1_1",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple.V0_1_1",
           "name": "tool",
           "package": "hoodle-types",
@@ -4461,6 +4863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Simple",
           "package": "hoodle-types",
@@ -4469,6 +4872,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Simple",
           "package": "hoodle-types",
@@ -4482,6 +4886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Background",
           "package": "hoodle-types",
@@ -4490,6 +4895,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Background",
           "package": "hoodle-types",
@@ -4503,6 +4909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Dimension",
           "package": "hoodle-types",
@@ -4511,6 +4918,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Dimension",
           "package": "hoodle-types",
@@ -4524,6 +4932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Hoodle",
           "package": "hoodle-types",
@@ -4532,6 +4941,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Hoodle",
           "package": "hoodle-types",
@@ -4546,6 +4956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage item \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Image",
           "package": "hoodle-types",
@@ -4555,6 +4966,7 @@
         "index": {
           "description": "Image item",
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Image",
           "package": "hoodle-types",
@@ -4569,6 +4981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrapper of object embeddable in Layer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Item",
           "package": "hoodle-types",
@@ -4578,6 +4991,7 @@
         "index": {
           "description": "wrapper of object embeddable in Layer",
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Item",
           "package": "hoodle-types",
@@ -4591,6 +5005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Layer",
           "package": "hoodle-types",
@@ -4599,6 +5014,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Layer",
           "package": "hoodle-types",
@@ -4612,6 +5028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Link",
           "package": "hoodle-types",
@@ -4620,6 +5037,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Link",
           "package": "hoodle-types",
@@ -4633,6 +5051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Page",
           "package": "hoodle-types",
@@ -4641,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Page",
           "package": "hoodle-types",
@@ -4654,6 +5074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Revision",
           "package": "hoodle-types",
@@ -4662,6 +5083,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Revision",
           "package": "hoodle-types",
@@ -4675,6 +5097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "SVG",
           "package": "hoodle-types",
@@ -4683,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "SVG",
           "package": "hoodle-types",
@@ -4697,6 +5121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePen stroke item \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Stroke",
           "package": "hoodle-types",
@@ -4706,6 +5131,7 @@
         "index": {
           "description": "Pen stroke item",
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Stroke",
           "package": "hoodle-types",
@@ -4719,6 +5145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Title",
           "package": "hoodle-types",
@@ -4727,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Title",
           "package": "hoodle-types",
@@ -4740,6 +5168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Background",
           "package": "hoodle-types",
@@ -4749,6 +5178,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Background",
           "package": "hoodle-types",
@@ -4762,6 +5192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "BackgroundEmbedPdf",
           "package": "hoodle-types",
@@ -4771,6 +5202,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "BackgroundEmbedPdf",
           "package": "hoodle-types",
@@ -4784,6 +5216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "BackgroundPdf",
           "package": "hoodle-types",
@@ -4793,6 +5226,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "BackgroundPdf",
           "package": "hoodle-types",
@@ -4806,6 +5240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Dim",
           "package": "hoodle-types",
@@ -4815,6 +5250,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Dim",
           "package": "hoodle-types",
@@ -4828,6 +5264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Hoodle",
           "package": "hoodle-types",
@@ -4837,6 +5274,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Hoodle",
           "package": "hoodle-types",
@@ -4850,6 +5288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Image",
           "package": "hoodle-types",
@@ -4859,6 +5298,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Image",
           "package": "hoodle-types",
@@ -4872,6 +5312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "ItemImage",
           "package": "hoodle-types",
@@ -4881,6 +5322,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "ItemImage",
           "package": "hoodle-types",
@@ -4894,6 +5336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "ItemLink",
           "package": "hoodle-types",
@@ -4903,6 +5346,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "ItemLink",
           "package": "hoodle-types",
@@ -4916,6 +5360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "ItemSVG",
           "package": "hoodle-types",
@@ -4925,6 +5370,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "ItemSVG",
           "package": "hoodle-types",
@@ -4938,6 +5384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "ItemStroke",
           "package": "hoodle-types",
@@ -4947,6 +5394,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "ItemStroke",
           "package": "hoodle-types",
@@ -4960,6 +5408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Layer",
           "package": "hoodle-types",
@@ -4969,6 +5418,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Layer",
           "package": "hoodle-types",
@@ -4982,6 +5432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Link",
           "package": "hoodle-types",
@@ -4991,6 +5442,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Link",
           "package": "hoodle-types",
@@ -5004,6 +5456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "LinkDocID",
           "package": "hoodle-types",
@@ -5013,6 +5466,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "LinkDocID",
           "package": "hoodle-types",
@@ -5026,6 +5480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Page",
           "package": "hoodle-types",
@@ -5035,6 +5490,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Page",
           "package": "hoodle-types",
@@ -5048,6 +5504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Revision",
           "package": "hoodle-types",
@@ -5057,6 +5514,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Revision",
           "package": "hoodle-types",
@@ -5070,6 +5528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "RevisionInk",
           "package": "hoodle-types",
@@ -5079,6 +5538,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "RevisionInk",
           "package": "hoodle-types",
@@ -5092,6 +5552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "SVG",
           "package": "hoodle-types",
@@ -5101,6 +5562,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "SVG",
           "package": "hoodle-types",
@@ -5114,6 +5576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "Stroke",
           "package": "hoodle-types",
@@ -5123,6 +5586,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "Stroke",
           "package": "hoodle-types",
@@ -5136,6 +5600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "VWStroke",
           "package": "hoodle-types",
@@ -5145,6 +5610,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "VWStroke",
           "package": "hoodle-types",
@@ -5158,6 +5624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "_revink",
           "package": "hoodle-types",
@@ -5167,6 +5634,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "_revink",
           "normalized": "[Stroke]",
@@ -5181,6 +5649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "_revmd5",
           "package": "hoodle-types",
@@ -5190,6 +5659,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "_revmd5",
           "package": "hoodle-types",
@@ -5202,6 +5672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "_revtxt",
           "package": "hoodle-types",
@@ -5211,6 +5682,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "_revtxt",
           "package": "hoodle-types",
@@ -5223,6 +5695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "background",
           "package": "hoodle-types",
@@ -5232,6 +5705,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "background",
           "package": "hoodle-types",
@@ -5244,6 +5718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "bkg_color",
           "package": "hoodle-types",
@@ -5253,6 +5728,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "bkg_color",
           "package": "hoodle-types",
@@ -5265,6 +5741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "bkg_domain",
           "package": "hoodle-types",
@@ -5274,6 +5751,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "bkg_domain",
           "package": "hoodle-types",
@@ -5286,6 +5764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "bkg_filename",
           "package": "hoodle-types",
@@ -5295,6 +5774,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "bkg_filename",
           "package": "hoodle-types",
@@ -5307,6 +5787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "bkg_pageno",
           "package": "hoodle-types",
@@ -5316,6 +5797,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "bkg_pageno",
           "package": "hoodle-types",
@@ -5328,6 +5810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "bkg_style",
           "package": "hoodle-types",
@@ -5337,6 +5820,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "bkg_style",
           "package": "hoodle-types",
@@ -5349,6 +5833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "bkg_type",
           "package": "hoodle-types",
@@ -5358,6 +5843,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "bkg_type",
           "package": "hoodle-types",
@@ -5370,6 +5856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "color",
           "package": "hoodle-types",
@@ -5379,6 +5866,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "color",
           "package": "hoodle-types",
@@ -5391,6 +5879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "defaultBackground",
           "package": "hoodle-types",
@@ -5400,6 +5889,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "defaultBackground",
           "package": "hoodle-types",
@@ -5413,6 +5903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "defaultHoodle",
           "package": "hoodle-types",
@@ -5422,6 +5913,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "defaultHoodle",
           "package": "hoodle-types",
@@ -5435,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "defaultPage",
           "package": "hoodle-types",
@@ -5444,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "defaultPage",
           "package": "hoodle-types",
@@ -5457,6 +5951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "dim_height",
           "package": "hoodle-types",
@@ -5466,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "dim_height",
           "package": "hoodle-types",
@@ -5478,6 +5974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "dim_width",
           "package": "hoodle-types",
@@ -5487,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "dim_width",
           "package": "hoodle-types",
@@ -5499,6 +5997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "dimension",
           "package": "hoodle-types",
@@ -5508,6 +6007,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "dimension",
           "package": "hoodle-types",
@@ -5520,6 +6020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "embeddedPdf",
           "package": "hoodle-types",
@@ -5529,6 +6030,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "embeddedPdf",
           "package": "hoodle-types",
@@ -5542,6 +6044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "emptyHoodle",
           "package": "hoodle-types",
@@ -5551,6 +6054,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "emptyHoodle",
           "package": "hoodle-types",
@@ -5564,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "emptyLayer",
           "package": "hoodle-types",
@@ -5573,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "emptyLayer",
           "package": "hoodle-types",
@@ -5586,6 +6092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "emptyStroke",
           "package": "hoodle-types",
@@ -5595,6 +6102,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "emptyStroke",
           "package": "hoodle-types",
@@ -5608,6 +6116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "getXYtuples",
           "package": "hoodle-types",
@@ -5617,6 +6126,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "getXYtuples",
           "normalized": "Stroke-\u003e[(Double,Double)]",
@@ -5632,6 +6142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "hoodleID",
           "package": "hoodle-types",
@@ -5641,6 +6152,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "hoodleID",
           "package": "hoodle-types",
@@ -5654,6 +6166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "hoodle_embeddedpdf",
           "package": "hoodle-types",
@@ -5663,6 +6176,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "hoodle_embeddedpdf",
           "package": "hoodle-types",
@@ -5675,6 +6189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "hoodle_id",
           "package": "hoodle-types",
@@ -5684,6 +6199,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "hoodle_id",
           "package": "hoodle-types",
@@ -5696,6 +6212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "hoodle_pages",
           "package": "hoodle-types",
@@ -5705,6 +6222,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "hoodle_pages",
           "normalized": "[Page]",
@@ -5719,6 +6237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "hoodle_revisions",
           "package": "hoodle-types",
@@ -5728,6 +6247,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "hoodle_revisions",
           "normalized": "[Revision]",
@@ -5742,6 +6262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "hoodle_title",
           "package": "hoodle-types",
@@ -5751,6 +6272,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "hoodle_title",
           "package": "hoodle-types",
@@ -5763,6 +6285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "img_dim",
           "package": "hoodle-types",
@@ -5772,6 +6295,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "img_dim",
           "package": "hoodle-types",
@@ -5784,6 +6308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "img_pos",
           "package": "hoodle-types",
@@ -5793,6 +6318,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "img_pos",
           "normalized": "(Double,Double)",
@@ -5807,6 +6333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "img_src",
           "package": "hoodle-types",
@@ -5816,6 +6343,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "img_src",
           "package": "hoodle-types",
@@ -5828,6 +6356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "items",
           "package": "hoodle-types",
@@ -5837,6 +6366,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "items",
           "normalized": "Simple Lens Layer[Item]",
@@ -5851,6 +6381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "layer_items",
           "package": "hoodle-types",
@@ -5860,6 +6391,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "layer_items",
           "normalized": "[Item]",
@@ -5874,6 +6406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "layers",
           "package": "hoodle-types",
@@ -5883,6 +6416,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "layers",
           "normalized": "Simple Lens Page[Layer]",
@@ -5897,6 +6431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "link_command",
           "package": "hoodle-types",
@@ -5906,6 +6441,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "link_command",
           "package": "hoodle-types",
@@ -5918,6 +6454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "link_dim",
           "package": "hoodle-types",
@@ -5927,6 +6464,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "link_dim",
           "package": "hoodle-types",
@@ -5939,6 +6477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "link_id",
           "package": "hoodle-types",
@@ -5948,6 +6487,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "link_id",
           "package": "hoodle-types",
@@ -5960,6 +6500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "link_linkeddocid",
           "package": "hoodle-types",
@@ -5969,6 +6510,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "link_linkeddocid",
           "package": "hoodle-types",
@@ -5981,6 +6523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "link_location",
           "package": "hoodle-types",
@@ -5990,6 +6533,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "link_location",
           "package": "hoodle-types",
@@ -6002,6 +6546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "link_pos",
           "package": "hoodle-types",
@@ -6011,6 +6556,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "link_pos",
           "normalized": "(Double,Double)",
@@ -6025,6 +6571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "link_render",
           "package": "hoodle-types",
@@ -6034,6 +6581,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "link_render",
           "package": "hoodle-types",
@@ -6046,6 +6594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "link_text",
           "package": "hoodle-types",
@@ -6055,6 +6604,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "link_text",
           "package": "hoodle-types",
@@ -6067,6 +6617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "link_type",
           "package": "hoodle-types",
@@ -6076,6 +6627,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "link_type",
           "package": "hoodle-types",
@@ -6088,6 +6640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "newPageFromOld",
           "package": "hoodle-types",
@@ -6097,6 +6650,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "newPageFromOld",
           "normalized": "Page-\u003ePage",
@@ -6112,6 +6666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "page_bkg",
           "package": "hoodle-types",
@@ -6121,6 +6676,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "page_bkg",
           "package": "hoodle-types",
@@ -6133,6 +6689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "page_dim",
           "package": "hoodle-types",
@@ -6142,6 +6699,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "page_dim",
           "package": "hoodle-types",
@@ -6154,6 +6712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "page_layers",
           "package": "hoodle-types",
@@ -6163,6 +6722,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "page_layers",
           "normalized": "[Layer]",
@@ -6177,6 +6737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "pages",
           "package": "hoodle-types",
@@ -6186,6 +6747,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "pages",
           "normalized": "Simple Lens Hoodle[Page]",
@@ -6200,6 +6762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "revisions",
           "package": "hoodle-types",
@@ -6209,6 +6772,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "revisions",
           "normalized": "Simple Lens Hoodle[Revision]",
@@ -6223,6 +6787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "revmd5",
           "package": "hoodle-types",
@@ -6232,6 +6797,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "revmd5",
           "package": "hoodle-types",
@@ -6244,6 +6810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "stroke_color",
           "package": "hoodle-types",
@@ -6253,6 +6820,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "stroke_color",
           "package": "hoodle-types",
@@ -6265,6 +6833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "stroke_data",
           "package": "hoodle-types",
@@ -6274,6 +6843,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "stroke_data",
           "normalized": "[Pair Double Double]",
@@ -6288,6 +6858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "stroke_tool",
           "package": "hoodle-types",
@@ -6297,6 +6868,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "stroke_tool",
           "package": "hoodle-types",
@@ -6309,6 +6881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "stroke_vwdata",
           "package": "hoodle-types",
@@ -6318,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "stroke_vwdata",
           "normalized": "[(Double,Double,Double)]",
@@ -6332,6 +6906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "stroke_width",
           "package": "hoodle-types",
@@ -6341,6 +6916,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "stroke_width",
           "package": "hoodle-types",
@@ -6353,6 +6929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "svg_command",
           "package": "hoodle-types",
@@ -6362,6 +6939,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "svg_command",
           "package": "hoodle-types",
@@ -6374,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "svg_dim",
           "package": "hoodle-types",
@@ -6383,6 +6962,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "svg_dim",
           "package": "hoodle-types",
@@ -6395,6 +6975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "svg_pos",
           "package": "hoodle-types",
@@ -6404,6 +6985,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "svg_pos",
           "normalized": "(Double,Double)",
@@ -6418,6 +7000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "svg_render",
           "package": "hoodle-types",
@@ -6427,6 +7010,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "svg_render",
           "package": "hoodle-types",
@@ -6439,6 +7023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "svg_text",
           "package": "hoodle-types",
@@ -6448,6 +7033,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "svg_text",
           "package": "hoodle-types",
@@ -6460,6 +7046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "title",
           "package": "hoodle-types",
@@ -6469,6 +7056,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "title",
           "package": "hoodle-types",
@@ -6481,6 +7069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Simple",
           "name": "tool",
           "package": "hoodle-types",
@@ -6490,6 +7079,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Simple",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Simple",
           "name": "tool",
           "package": "hoodle-types",
@@ -6502,6 +7092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Util",
           "name": "Util",
           "package": "hoodle-types",
@@ -6510,6 +7101,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Util",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Util",
           "name": "Util",
           "package": "hoodle-types",
@@ -6523,6 +7115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Util",
           "name": "fst3",
           "package": "hoodle-types",
@@ -6532,6 +7125,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Util",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Util",
           "name": "fst3",
           "normalized": "(a,b,c)-\u003ea",
@@ -6546,6 +7140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Util",
           "name": "snd3",
           "package": "hoodle-types",
@@ -6555,6 +7150,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Util",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Util",
           "name": "snd3",
           "normalized": "(a,b,c)-\u003eb",
@@ -6569,6 +7165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Util",
           "name": "trd3",
           "package": "hoodle-types",
@@ -6578,6 +7175,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Util",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Util",
           "name": "trd3",
           "normalized": "(a,b,c)-\u003ec",
@@ -6593,6 +7191,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003erepresenting selection of hoodle type \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "Zipper",
           "package": "hoodle-types",
@@ -6602,6 +7201,7 @@
         "index": {
           "description": "representing selection of hoodle type",
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "Zipper",
           "package": "hoodle-types",
@@ -6615,6 +7215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "NonEmptyList",
           "package": "hoodle-types",
@@ -6623,6 +7224,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "NonEmptyList",
           "package": "hoodle-types",
@@ -6636,6 +7238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "SeqZipper",
           "package": "hoodle-types",
@@ -6644,6 +7247,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "SeqZipper",
           "package": "hoodle-types",
@@ -6657,6 +7261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "ZipperSelect",
           "package": "hoodle-types",
@@ -6665,6 +7270,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "ZipperSelect",
           "package": "hoodle-types",
@@ -6678,6 +7284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "SZ",
           "package": "hoodle-types",
@@ -6687,6 +7294,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "SZ",
           "package": "hoodle-types",
@@ -6700,6 +7308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "appendGoLast",
           "package": "hoodle-types",
@@ -6709,6 +7318,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "appendGoLast",
           "normalized": "SeqZipper a-\u003ea-\u003eSeqZipper a",
@@ -6724,6 +7334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "chopFirst",
           "package": "hoodle-types",
@@ -6733,6 +7344,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "chopFirst",
           "normalized": "SeqZipper a-\u003eMaybe(SeqZipper a)",
@@ -6748,6 +7360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "currIndex",
           "package": "hoodle-types",
@@ -6757,6 +7370,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "currIndex",
           "normalized": "SeqZipper a-\u003eInt",
@@ -6772,6 +7386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "current",
           "package": "hoodle-types",
@@ -6781,6 +7396,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "current",
           "normalized": "SeqZipper a-\u003ea",
@@ -6795,6 +7411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "deleteCurrent",
           "package": "hoodle-types",
@@ -6804,6 +7421,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "deleteCurrent",
           "normalized": "SeqZipper a-\u003eMaybe(SeqZipper a)",
@@ -6819,6 +7437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "fromNonEmptyList",
           "package": "hoodle-types",
@@ -6828,6 +7447,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "fromNonEmptyList",
           "normalized": "NonEmptyList a-\u003eSeqZipper a",
@@ -6843,6 +7463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "goFirst",
           "package": "hoodle-types",
@@ -6852,6 +7473,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "goFirst",
           "normalized": "SeqZipper a-\u003eSeqZipper a",
@@ -6867,6 +7489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "goLast",
           "package": "hoodle-types",
@@ -6876,6 +7499,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "goLast",
           "normalized": "SeqZipper a-\u003eSeqZipper a",
@@ -6891,6 +7515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "lengthSZ",
           "package": "hoodle-types",
@@ -6900,6 +7525,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "lengthSZ",
           "normalized": "SeqZipper a-\u003eInt",
@@ -6915,6 +7541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "moveLeft",
           "package": "hoodle-types",
@@ -6924,6 +7551,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "moveLeft",
           "normalized": "SeqZipper a-\u003eMaybe(SeqZipper a)",
@@ -6939,6 +7567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "moveRight",
           "package": "hoodle-types",
@@ -6948,6 +7577,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "moveRight",
           "normalized": "SeqZipper a-\u003eMaybe(SeqZipper a)",
@@ -6963,6 +7593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "moveTo",
           "package": "hoodle-types",
@@ -6972,6 +7603,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "moveTo",
           "normalized": "Int-\u003eSeqZipper a-\u003eMaybe(SeqZipper a)",
@@ -6987,6 +7619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "next",
           "package": "hoodle-types",
@@ -6996,6 +7629,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "next",
           "normalized": "SeqZipper a-\u003eMaybe a",
@@ -7010,6 +7644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "prev",
           "package": "hoodle-types",
@@ -7019,6 +7654,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "prev",
           "normalized": "SeqZipper a-\u003eMaybe a",
@@ -7033,6 +7669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "replace",
           "package": "hoodle-types",
@@ -7042,6 +7679,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "replace",
           "normalized": "a-\u003eSeqZipper a-\u003eSeqZipper a",
@@ -7056,6 +7694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "selectFirst",
           "package": "hoodle-types",
@@ -7065,6 +7704,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "selectFirst",
           "normalized": "ZipperSelect a-\u003eZipperSelect a",
@@ -7080,6 +7720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "singletonSZ",
           "package": "hoodle-types",
@@ -7089,6 +7730,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "singletonSZ",
           "normalized": "a-\u003eSeqZipper a",
@@ -7104,6 +7746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "toSeq",
           "package": "hoodle-types",
@@ -7113,6 +7756,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "toSeq",
           "normalized": "SeqZipper a-\u003eSeq a",
@@ -7128,6 +7772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:50 UTC 2014",
           "module": "Data.Hoodle.Zipper",
           "name": "unSZ",
           "package": "hoodle-types",
@@ -7137,6 +7782,7 @@
         },
         "index": {
           "hierarchy": "Data Hoodle Zipper",
+          "indexed": "2014-03-11T18:43:50",
           "module": "Data.Hoodle.Zipper",
           "name": "unSZ",
           "normalized": "(a,(Seq a,Seq a))",

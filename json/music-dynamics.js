@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "music-dynamics"
+        "phrase": "music-dynamics",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides overloaded pitch literals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:28 UTC 2014",
           "module": "Music.Dynamics.Absolute",
           "name": "Absolute",
           "package": "music-dynamics",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides overloaded pitch literals",
           "hierarchy": "Music Dynamics Absolute",
+          "indexed": "2014-03-11T19:24:28",
           "module": "Music.Dynamics.Absolute",
           "name": "Absolute",
           "package": "music-dynamics",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides overloaded pitch literals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:28 UTC 2014",
           "module": "Music.Dynamics.Balance",
           "name": "Balance",
           "package": "music-dynamics",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Provides overloaded pitch literals",
           "hierarchy": "Music Dynamics Balance",
+          "indexed": "2014-03-11T19:24:28",
           "module": "Music.Dynamics.Balance",
           "name": "Balance",
           "package": "music-dynamics",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides overloaded pitch literals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:28 UTC 2014",
           "module": "Music.Dynamics.Relative",
           "name": "Relative",
           "package": "music-dynamics",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Provides overloaded pitch literals",
           "hierarchy": "Music Dynamics Relative",
+          "indexed": "2014-03-11T19:24:28",
           "module": "Music.Dynamics.Relative",
           "name": "Relative",
           "package": "music-dynamics",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides overloaded pitch literals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:28 UTC 2014",
           "module": "Music.Dynamics",
           "name": "Dynamics",
           "package": "music-dynamics",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Provides overloaded pitch literals",
           "hierarchy": "Music Dynamics",
+          "indexed": "2014-03-11T19:24:28",
           "module": "Music.Dynamics",
           "name": "Dynamics",
           "package": "music-dynamics",

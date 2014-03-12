@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cinvoke"
+        "phrase": "cinvoke",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SDL-image"
+        "phrase": "SDL-image",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image.Version",
           "name": "Version",
           "package": "SDL-image",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image Version",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image.Version",
           "name": "Version",
           "package": "SDL-image",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image.Version",
           "name": "compiledFor",
           "package": "SDL-image",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image Version",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image.Version",
           "name": "compiledFor",
           "package": "SDL-image",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image.Version",
           "name": "linkedWith",
           "package": "SDL-image",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image Version",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image.Version",
           "name": "linkedWith",
           "package": "SDL-image",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "Image",
           "package": "SDL-image",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "Image",
           "package": "SDL-image",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "ImageType",
           "package": "SDL-image",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "ImageType",
           "package": "SDL-image",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "BMP",
           "package": "SDL-image",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "BMP",
           "package": "SDL-image",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "GIF",
           "package": "SDL-image",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "GIF",
           "package": "SDL-image",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "JPG",
           "package": "SDL-image",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "JPG",
           "package": "SDL-image",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "LBM",
           "package": "SDL-image",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "LBM",
           "package": "SDL-image",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "Other",
           "package": "SDL-image",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "Other",
           "package": "SDL-image",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "PCX",
           "package": "SDL-image",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "PCX",
           "package": "SDL-image",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "PNG",
           "package": "SDL-image",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "PNG",
           "package": "SDL-image",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "PNM",
           "package": "SDL-image",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "PNM",
           "package": "SDL-image",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "TGA",
           "package": "SDL-image",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "TGA",
           "package": "SDL-image",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "TIF",
           "package": "SDL-image",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "TIF",
           "package": "SDL-image",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "XCF",
           "package": "SDL-image",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "XCF",
           "package": "SDL-image",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "XPM",
           "package": "SDL-image",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "XPM",
           "package": "SDL-image",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isBMP",
           "package": "SDL-image",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isBMP",
           "normalized": "FilePath-\u003eIO Bool",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isBMPRW",
           "package": "SDL-image",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isBMPRW",
           "normalized": "RWops-\u003eIO Bool",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isGIF",
           "package": "SDL-image",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isGIF",
           "normalized": "FilePath-\u003eIO Bool",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isGIFRW",
           "package": "SDL-image",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isGIFRW",
           "normalized": "RWops-\u003eIO Bool",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isJPG",
           "package": "SDL-image",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isJPG",
           "normalized": "FilePath-\u003eIO Bool",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isJPGRW",
           "package": "SDL-image",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isJPGRW",
           "normalized": "RWops-\u003eIO Bool",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isLBM",
           "package": "SDL-image",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isLBM",
           "normalized": "FilePath-\u003eIO Bool",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isLBMRW",
           "package": "SDL-image",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isLBMRW",
           "normalized": "RWops-\u003eIO Bool",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isPCX",
           "package": "SDL-image",
@@ -590,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isPCX",
           "normalized": "FilePath-\u003eIO Bool",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isPCXRW",
           "package": "SDL-image",
@@ -614,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isPCXRW",
           "normalized": "RWops-\u003eIO Bool",
@@ -629,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isPNG",
           "package": "SDL-image",
@@ -638,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isPNG",
           "normalized": "FilePath-\u003eIO Bool",
@@ -653,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isPNGRW",
           "package": "SDL-image",
@@ -662,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isPNGRW",
           "normalized": "RWops-\u003eIO Bool",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isPNM",
           "package": "SDL-image",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isPNM",
           "normalized": "FilePath-\u003eIO Bool",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isPNMRW",
           "package": "SDL-image",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isPNMRW",
           "normalized": "RWops-\u003eIO Bool",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isTIF",
           "package": "SDL-image",
@@ -734,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isTIF",
           "normalized": "FilePath-\u003eIO Bool",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isTIFRW",
           "package": "SDL-image",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isTIFRW",
           "normalized": "RWops-\u003eIO Bool",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isTyped",
           "package": "SDL-image",
@@ -782,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isTyped",
           "normalized": "ImageType-\u003eFilePath-\u003eIO Bool",
@@ -797,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isTypedRW",
           "package": "SDL-image",
@@ -806,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isTypedRW",
           "normalized": "ImageType-\u003eRWops-\u003eIO Bool",
@@ -821,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isXCF",
           "package": "SDL-image",
@@ -830,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isXCF",
           "normalized": "FilePath-\u003eIO Bool",
@@ -845,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isXCFRW",
           "package": "SDL-image",
@@ -854,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isXCFRW",
           "normalized": "RWops-\u003eIO Bool",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isXPM",
           "package": "SDL-image",
@@ -878,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isXPM",
           "normalized": "FilePath-\u003eIO Bool",
@@ -893,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "isXPMRW",
           "package": "SDL-image",
@@ -902,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "isXPMRW",
           "normalized": "RWops-\u003eIO Bool",
@@ -917,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "load",
           "package": "SDL-image",
@@ -926,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "load",
           "normalized": "FilePath-\u003eIO Surface",
@@ -940,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "loadRW",
           "package": "SDL-image",
@@ -949,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "loadRW",
           "normalized": "RWops-\u003eBool-\u003eIO Surface",
@@ -964,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "loadTyped",
           "package": "SDL-image",
@@ -973,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "loadTyped",
           "normalized": "FilePath-\u003eImageType-\u003eIO Surface",
@@ -988,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:12 UTC 2014",
           "module": "Graphics.UI.SDL.Image",
           "name": "loadTypedRW",
           "package": "SDL-image",
@@ -997,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Image",
+          "indexed": "2014-03-11T16:59:12",
           "module": "Graphics.UI.SDL.Image",
           "name": "loadTypedRW",
           "normalized": "RWops-\u003eBool-\u003eImageType-\u003eIO Surface",

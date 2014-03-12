@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lazy-csv"
+        "phrase": "lazy-csv",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe CSV (comma-separated value) format is defined by RFC 4180,\n   \"Common Format and MIME Type for Comma-Separated Values (CSV) Files\",\n   \u003ca\u003ehttp://www.rfc-editor.org/rfc/rfc4180.txt\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThis lazy parser can report all CSV formatting errors, whilst also\n   returning all the valid data, so the user can choose whether to\n   continue, to show warnings, or to halt on error.\n\u003c/p\u003e\u003cp\u003eValid fields retain information about their original location in the\n   input, so a secondary parser from textual fields to typed values\n   can give intelligent error messages.\n\u003c/p\u003e\u003cp\u003eIn a valid CSV file, all rows must have the same number of columns.\n   This parser will flag a row with the wrong number of columns as a error.\n   (But the error type contains the actual data, so the user can recover\n   it if desired.)  Completely blank lines are also treated as errors,\n   and again the user is free either to filter these out or convert them\n   to a row of actual null fields.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "ByteString",
           "package": "lazy-csv",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The CSV comma-separated value format is defined by RFC Common Format and MIME Type for Comma-Separated Values CSV Files http www.rfc-editor.org rfc rfc4180.txt This lazy parser can report all CSV formatting errors whilst also returning all the valid data so the user can choose whether to continue to show warnings or to halt on error Valid fields retain information about their original location in the input so secondary parser from textual fields to typed values can give intelligent error messages In valid CSV file all rows must have the same number of columns This parser will flag row with the wrong number of columns as error But the error type contains the actual data so the user can recover it if desired Completely blank lines are also treated as errors and again the user is free either to filter these out or convert them to row of actual null fields",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "ByteString",
           "package": "lazy-csv",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structured error type for CSV formatting mistakes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "CSVError",
           "package": "lazy-csv",
@@ -51,6 +54,7 @@
         "index": {
           "description": "structured error type for CSV formatting mistakes",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "CSVError",
           "package": "lazy-csv",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CSV field's content is stored with its logical row and column number,\n   as well as its textual extent.  This information is necessary if you\n   want to generate good error messages in a secondary parsing stage,\n   should you choose to convert the textual fields to typed data values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "CSVField",
           "package": "lazy-csv",
@@ -74,6 +79,7 @@
         "index": {
           "description": "CSV field content is stored with its logical row and column number as well as its textual extent This information is necessary if you want to generate good error messages in secondary parsing stage should you choose to convert the textual fields to typed data values",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "CSVField",
           "package": "lazy-csv",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of parsing a CSV input is a mixed collection of errors\n   and valid rows.  This way of representing things is crucial to the\n   ability to parse lazily whilst still catching format errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "CSVResult",
           "package": "lazy-csv",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The result of parsing CSV input is mixed collection of errors and valid rows This way of representing things is crucial to the ability to parse lazily whilst still catching format errors",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "CSVResult",
           "package": "lazy-csv",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CSV row is just a sequence of fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "CSVRow",
           "package": "lazy-csv",
@@ -120,6 +129,7 @@
         "index": {
           "description": "CSV row is just sequence of fields",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "CSVRow",
           "package": "lazy-csv",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CSV table is a sequence of rows.  All rows have the same number\n   of fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "CSVTable",
           "package": "lazy-csv",
@@ -143,6 +154,7 @@
         "index": {
           "description": "CSV table is sequence of rows All rows have the same number of fields",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "CSVTable",
           "package": "lazy-csv",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "BlankLine",
           "package": "lazy-csv",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "BlankLine",
           "package": "lazy-csv",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "CSVField",
           "package": "lazy-csv",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "CSVField",
           "package": "lazy-csv",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "CSVFieldError",
           "package": "lazy-csv",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "CSVFieldError",
           "package": "lazy-csv",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "DuplicateHeader",
           "package": "lazy-csv",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "DuplicateHeader",
           "package": "lazy-csv",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "FieldError",
           "package": "lazy-csv",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "FieldError",
           "package": "lazy-csv",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "IncorrectRow",
           "package": "lazy-csv",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "IncorrectRow",
           "package": "lazy-csv",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "NoData",
           "package": "lazy-csv",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "NoData",
           "package": "lazy-csv",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvColNum",
           "package": "lazy-csv",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvColNum",
           "package": "lazy-csv",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvColsActual",
           "package": "lazy-csv",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvColsActual",
           "package": "lazy-csv",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvColsExpected",
           "package": "lazy-csv",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvColsExpected",
           "package": "lazy-csv",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvDuplicate",
           "package": "lazy-csv",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvDuplicate",
           "package": "lazy-csv",
@@ -399,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract just the errors from a CSV parse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvErrors",
           "package": "lazy-csv",
@@ -409,6 +444,7 @@
         "index": {
           "description": "Extract just the errors from CSV parse",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvErrors",
           "normalized": "CSVResult-\u003e[CSVError]",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvField",
           "package": "lazy-csv",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvField",
           "package": "lazy-csv",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvFieldContent",
           "package": "lazy-csv",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvFieldContent",
           "package": "lazy-csv",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvFieldError",
           "package": "lazy-csv",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvFieldError",
           "package": "lazy-csv",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvFieldQuoted",
           "package": "lazy-csv",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvFieldQuoted",
           "package": "lazy-csv",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvFields",
           "package": "lazy-csv",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvFields",
           "normalized": "[CSVField]",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvHeaderSerial",
           "package": "lazy-csv",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvHeaderSerial",
           "package": "lazy-csv",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvRow",
           "package": "lazy-csv",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvRow",
           "package": "lazy-csv",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvRowNum",
           "package": "lazy-csv",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvRowNum",
           "package": "lazy-csv",
@@ -603,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract just the valid portions of a CSV parse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvTable",
           "package": "lazy-csv",
@@ -613,6 +666,7 @@
         "index": {
           "description": "Extract just the valid portions of CSV parse",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvTable",
           "normalized": "CSVResult-\u003eCSVTable",
@@ -629,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the full table, including invalid rows, with padding, and\n   de-duplicated headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvTableFull",
           "package": "lazy-csv",
@@ -639,6 +694,7 @@
         "index": {
           "description": "Extract the full table including invalid rows with padding and de-duplicated headers",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvTableFull",
           "normalized": "CSVResult-\u003eCSVTable",
@@ -655,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe header row of the CSV table, assuming it is non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvTableHeader",
           "package": "lazy-csv",
@@ -665,6 +722,7 @@
         "index": {
           "description": "The header row of the CSV table assuming it is non-empty",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvTableHeader",
           "normalized": "CSVResult-\u003e[String]",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvTextEnd",
           "package": "lazy-csv",
@@ -689,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvTextEnd",
           "normalized": "(Int,Int)",
@@ -704,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvTextStart",
           "package": "lazy-csv",
@@ -713,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "csvTextStart",
           "normalized": "(Int,Int)",
@@ -729,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidate that the columns of a table have exactly the names and\n   ordering given in the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "expectFields",
           "package": "lazy-csv",
@@ -739,6 +802,7 @@
         "index": {
           "description": "Validate that the columns of table have exactly the names and ordering given in the argument",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "expectFields",
           "normalized": "[String]-\u003eCSVTable-\u003eEither[String]CSVTable",
@@ -755,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a CSV table to a simpler representation, by dropping all\n   the original location information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "fromCSVTable",
           "package": "lazy-csv",
@@ -765,6 +830,7 @@
         "index": {
           "description": "Convert CSV table to simpler representation by dropping all the original location information",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "fromCSVTable",
           "normalized": "CSVTable-\u003e[[ByteString]]",
@@ -781,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA join operator, adds the columns of two tables together.\n   Precondition: the tables have the same number of rows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "joinCSV",
           "package": "lazy-csv",
@@ -791,6 +858,7 @@
         "index": {
           "description": "join operator adds the columns of two tables together Precondition the tables have the same number of rows",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "joinCSV",
           "normalized": "CSVTable-\u003eCSVTable-\u003eCSVTable",
@@ -807,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a fresh field with the given textual content.\n   The quoting flag is set automatically based on the text.\n   Textual extents are not particularly useful, since there was no original\n   input to refer to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "mkCSVField",
           "package": "lazy-csv",
@@ -817,6 +886,7 @@
         "index": {
           "description": "Generate fresh field with the given textual content The quoting flag is set automatically based on the text Textual extents are not particularly useful since there was no original input to refer to",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "mkCSVField",
           "normalized": "Int-\u003eInt-\u003eByteString-\u003eCSVField",
@@ -833,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generator for a new CSV column, of arbitrary length.\n   The result can be joined to an existing table if desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "mkEmptyColumn",
           "package": "lazy-csv",
@@ -843,6 +914,7 @@
         "index": {
           "description": "generator for new CSV column of arbitrary length The result can be joined to an existing table if desired",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "mkEmptyColumn",
           "normalized": "String-\u003eCSVTable",
@@ -859,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA first-stage parser for CSV (comma-separated values) data.\n   The individual fields remain as text, but errors in CSV formatting\n   are reported.  Errors (containing unrecognisable rows/fields) are\n   interspersed with the valid rows/fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "parseCSV",
           "package": "lazy-csv",
@@ -869,6 +942,7 @@
         "index": {
           "description": "first-stage parser for CSV comma-separated values data The individual fields remain as text but errors in CSV formatting are reported Errors containing unrecognisable rows fields are interspersed with the valid rows fields",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "parseCSV",
           "normalized": "ByteString-\u003eCSVResult",
@@ -885,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSometimes CSV is not comma-separated, but delimiter-separated\n   values (DSV).  The choice of delimiter is arbitrary, but semi-colon\n   is common in locales where comma is used as a decimal point, and tab\n   is also common.  The Boolean argument is\n   whether newlines should be accepted within quoted fields.  The CSV RFC\n   says newlines can occur in quotes, but other DSV formats might say\n   otherwise.  You can often get better error messages if newlines are\n   disallowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "parseDSV",
           "package": "lazy-csv",
@@ -895,6 +970,7 @@
         "index": {
           "description": "Sometimes CSV is not comma-separated but delimiter-separated values DSV The choice of delimiter is arbitrary but semi-colon is common in locales where comma is used as decimal point and tab is also common The Boolean argument is whether newlines should be accepted within quoted fields The CSV RFC says newlines can occur in quotes but other DSV formats might say otherwise You can often get better error messages if newlines are disallowed",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "parseDSV",
           "normalized": "Bool-\u003eChar-\u003eByteString-\u003eCSVResult",
@@ -910,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "ppCSVError",
           "package": "lazy-csv",
@@ -919,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "ppCSVError",
           "normalized": "CSVError-\u003eString",
@@ -935,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printing for CSV fields, shows positional information in addition\n   to the textual content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "ppCSVField",
           "package": "lazy-csv",
@@ -945,6 +1024,7 @@
         "index": {
           "description": "Pretty-printing for CSV fields shows positional information in addition to the textual content",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "ppCSVField",
           "normalized": "CSVField-\u003eString",
@@ -961,6 +1041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a table back to a lazily-constructed string.  There are lots of\n   possible design decisions one could take, e.g. to re-arrange columns\n   back into something resembling their original order, but here we just\n   take the given table without looking at Row and Field numbers etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "ppCSVTable",
           "package": "lazy-csv",
@@ -971,6 +1052,7 @@
         "index": {
           "description": "Output table back to lazily-constructed string There are lots of possible design decisions one could take e.g to re-arrange columns back into something resembling their original order but here we just take the given table without looking at Row and Field numbers etc",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "ppCSVTable",
           "normalized": "CSVTable-\u003eByteString",
@@ -987,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput a table back to a lazily-constructed bytestring, using the given\n   delimiter char.  The Boolean argument is to repair fields containing\n   newlines, by replacing the nl with a space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "ppDSVTable",
           "package": "lazy-csv",
@@ -997,6 +1080,7 @@
         "index": {
           "description": "Output table back to lazily-constructed bytestring using the given delimiter char The Boolean argument is to repair fields containing newlines by replacing the nl with space",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "ppDSVTable",
           "normalized": "Bool-\u003eChar-\u003eCSVTable-\u003eByteString",
@@ -1013,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect and/or re-arrange columns from a CSV table, based on names in the\n   header row of the table.  The original header row is re-arranged too.\n   The result is either a list of column names that were not present, or\n   the (possibly re-arranged) sub-table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "selectFields",
           "package": "lazy-csv",
@@ -1023,6 +1108,7 @@
         "index": {
           "description": "Select and or re-arrange columns from CSV table based on names in the header row of the table The original header row is re-arranged too The result is either list of column names that were not present or the possibly re-arranged sub-table",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "selectFields",
           "normalized": "[String]-\u003eCSVTable-\u003eEither[String]CSVTable",
@@ -1039,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a simple list of lists into a CSVTable by the addition of\n   logical locations.  (Textual locations are not so useful.)\n   Rows of varying lengths generate errors.  Fields that need\n   quotation marks are automatically marked as such.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "toCSVTable",
           "package": "lazy-csv",
@@ -1049,6 +1136,7 @@
         "index": {
           "description": "Convert simple list of lists into CSVTable by the addition of logical locations Textual locations are not so useful Rows of varying lengths generate errors Fields that need quotation marks are automatically marked as such",
           "hierarchy": "Text CSV Lazy ByteString",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.ByteString",
           "name": "toCSVTable",
           "normalized": "[[ByteString]]-\u003e([CSVError],CSVTable)",
@@ -1065,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe CSV (comma-separated value) format is defined by RFC 4180,\n   \"Common Format and MIME Type for Comma-Separated Values (CSV) Files\",\n   \u003ca\u003ehttp://www.rfc-editor.org/rfc/rfc4180.txt\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThis lazy parser can report all CSV formatting errors, whilst also\n   returning all the valid data, so the user can choose whether to\n   continue, to show warnings, or to halt on error.\n\u003c/p\u003e\u003cp\u003eValid fields retain information about their original location in the\n   input, so a secondary parser from textual fields to typed values\n   can give intelligent error messages.\n\u003c/p\u003e\u003cp\u003eIn a valid CSV file, all rows must have the same number of columns.\n   This parser will flag a row with the wrong number of columns as a error.\n   (But the error type contains the actual data, so the user can recover\n   it if desired.)  Completely blank lines are also treated as errors,\n   and again the user is free either to filter these out or convert them\n   to a row of actual null fields.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "String",
           "package": "lazy-csv",
@@ -1074,6 +1163,7 @@
         "index": {
           "description": "The CSV comma-separated value format is defined by RFC Common Format and MIME Type for Comma-Separated Values CSV Files http www.rfc-editor.org rfc rfc4180.txt This lazy parser can report all CSV formatting errors whilst also returning all the valid data so the user can choose whether to continue to show warnings or to halt on error Valid fields retain information about their original location in the input so secondary parser from textual fields to typed values can give intelligent error messages In valid CSV file all rows must have the same number of columns This parser will flag row with the wrong number of columns as error But the error type contains the actual data so the user can recover it if desired Completely blank lines are also treated as errors and again the user is free either to filter these out or convert them to row of actual null fields",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "String",
           "package": "lazy-csv",
@@ -1088,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structured error type for CSV formatting mistakes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "CSVError",
           "package": "lazy-csv",
@@ -1097,6 +1188,7 @@
         "index": {
           "description": "structured error type for CSV formatting mistakes",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "CSVError",
           "package": "lazy-csv",
@@ -1111,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CSV field's content is stored with its logical row and column number,\n   as well as its textual extent.  This information is necessary if you\n   want to generate good error messages in a secondary parsing stage,\n   should you choose to convert the textual fields to typed data values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "CSVField",
           "package": "lazy-csv",
@@ -1120,6 +1213,7 @@
         "index": {
           "description": "CSV field content is stored with its logical row and column number as well as its textual extent This information is necessary if you want to generate good error messages in secondary parsing stage should you choose to convert the textual fields to typed data values",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "CSVField",
           "package": "lazy-csv",
@@ -1134,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of parsing a CSV input is a mixed collection of errors\n   and valid rows.  This way of representing things is crucial to the\n   ability to parse lazily whilst still catching format errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "CSVResult",
           "package": "lazy-csv",
@@ -1143,6 +1238,7 @@
         "index": {
           "description": "The result of parsing CSV input is mixed collection of errors and valid rows This way of representing things is crucial to the ability to parse lazily whilst still catching format errors",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "CSVResult",
           "package": "lazy-csv",
@@ -1157,6 +1253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CSV row is just a sequence of fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "CSVRow",
           "package": "lazy-csv",
@@ -1166,6 +1263,7 @@
         "index": {
           "description": "CSV row is just sequence of fields",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "CSVRow",
           "package": "lazy-csv",
@@ -1180,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CSV table is a sequence of rows.  All rows have the same number\n   of fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "CSVTable",
           "package": "lazy-csv",
@@ -1189,6 +1288,7 @@
         "index": {
           "description": "CSV table is sequence of rows All rows have the same number of fields",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "CSVTable",
           "package": "lazy-csv",
@@ -1202,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "BlankLine",
           "package": "lazy-csv",
@@ -1211,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "BlankLine",
           "package": "lazy-csv",
@@ -1224,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "CSVField",
           "package": "lazy-csv",
@@ -1233,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "CSVField",
           "package": "lazy-csv",
@@ -1246,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "CSVFieldError",
           "package": "lazy-csv",
@@ -1255,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "CSVFieldError",
           "package": "lazy-csv",
@@ -1268,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "DuplicateHeader",
           "package": "lazy-csv",
@@ -1277,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "DuplicateHeader",
           "package": "lazy-csv",
@@ -1290,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "FieldError",
           "package": "lazy-csv",
@@ -1299,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "FieldError",
           "package": "lazy-csv",
@@ -1312,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "IncorrectRow",
           "package": "lazy-csv",
@@ -1321,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "IncorrectRow",
           "package": "lazy-csv",
@@ -1334,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "NoData",
           "package": "lazy-csv",
@@ -1343,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "NoData",
           "package": "lazy-csv",
@@ -1356,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvColNum",
           "package": "lazy-csv",
@@ -1365,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvColNum",
           "package": "lazy-csv",
@@ -1378,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvColsActual",
           "package": "lazy-csv",
@@ -1387,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvColsActual",
           "package": "lazy-csv",
@@ -1400,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvColsExpected",
           "package": "lazy-csv",
@@ -1409,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvColsExpected",
           "package": "lazy-csv",
@@ -1422,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvDuplicate",
           "package": "lazy-csv",
@@ -1431,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvDuplicate",
           "package": "lazy-csv",
@@ -1445,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract just the errors from a CSV parse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvErrors",
           "package": "lazy-csv",
@@ -1455,6 +1578,7 @@
         "index": {
           "description": "Extract just the errors from CSV parse",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvErrors",
           "normalized": "CSVResult-\u003e[CSVError]",
@@ -1470,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvField",
           "package": "lazy-csv",
@@ -1479,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvField",
           "package": "lazy-csv",
@@ -1492,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvFieldContent",
           "package": "lazy-csv",
@@ -1501,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvFieldContent",
           "package": "lazy-csv",
@@ -1514,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvFieldError",
           "package": "lazy-csv",
@@ -1523,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvFieldError",
           "package": "lazy-csv",
@@ -1536,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvFieldQuoted",
           "package": "lazy-csv",
@@ -1545,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvFieldQuoted",
           "package": "lazy-csv",
@@ -1558,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvFields",
           "package": "lazy-csv",
@@ -1567,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvFields",
           "normalized": "[CSVField]",
@@ -1582,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvHeaderSerial",
           "package": "lazy-csv",
@@ -1591,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvHeaderSerial",
           "package": "lazy-csv",
@@ -1604,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvRow",
           "package": "lazy-csv",
@@ -1613,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvRow",
           "package": "lazy-csv",
@@ -1626,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvRowNum",
           "package": "lazy-csv",
@@ -1635,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvRowNum",
           "package": "lazy-csv",
@@ -1649,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract just the valid portions of a CSV parse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvTable",
           "package": "lazy-csv",
@@ -1659,6 +1800,7 @@
         "index": {
           "description": "Extract just the valid portions of CSV parse",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvTable",
           "normalized": "CSVResult-\u003eCSVTable",
@@ -1675,6 +1817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the full table, including invalid rows, repaired with padding.\n   and de-duplicated headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvTableFull",
           "package": "lazy-csv",
@@ -1685,6 +1828,7 @@
         "index": {
           "description": "Extract the full table including invalid rows repaired with padding and de-duplicated headers",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvTableFull",
           "normalized": "CSVResult-\u003eCSVTable",
@@ -1701,6 +1845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe header row of the CSV table, assuming it is non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvTableHeader",
           "package": "lazy-csv",
@@ -1711,6 +1856,7 @@
         "index": {
           "description": "The header row of the CSV table assuming it is non-empty",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvTableHeader",
           "normalized": "CSVResult-\u003e[String]",
@@ -1726,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvTextEnd",
           "package": "lazy-csv",
@@ -1735,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvTextEnd",
           "normalized": "(Int,Int)",
@@ -1750,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "csvTextStart",
           "package": "lazy-csv",
@@ -1759,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "csvTextStart",
           "normalized": "(Int,Int)",
@@ -1775,6 +1925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidate that the named columns of a table have exactly the names and\n   ordering given in the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "expectFields",
           "package": "lazy-csv",
@@ -1785,6 +1936,7 @@
         "index": {
           "description": "Validate that the named columns of table have exactly the names and ordering given in the argument",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "expectFields",
           "normalized": "[String]-\u003eCSVTable-\u003eEither[String]CSVTable",
@@ -1801,6 +1953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a CSV table to a simpler representation, by dropping all\n   the original location information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "fromCSVTable",
           "package": "lazy-csv",
@@ -1811,6 +1964,7 @@
         "index": {
           "description": "Convert CSV table to simpler representation by dropping all the original location information",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "fromCSVTable",
           "normalized": "CSVTable-\u003e[[String]]",
@@ -1827,6 +1981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA join operator, adds the columns of two tables together.\n   Precondition: the tables have the same number of rows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "joinCSV",
           "package": "lazy-csv",
@@ -1837,6 +1992,7 @@
         "index": {
           "description": "join operator adds the columns of two tables together Precondition the tables have the same number of rows",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "joinCSV",
           "normalized": "CSVTable-\u003eCSVTable-\u003eCSVTable",
@@ -1853,6 +2009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a fresh field with the given textual content.\n   The quoting flag is set automatically based on the text.\n   Textual extents are not particularly useful, since there was no original\n   input to refer to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "mkCSVField",
           "package": "lazy-csv",
@@ -1863,6 +2020,7 @@
         "index": {
           "description": "Generate fresh field with the given textual content The quoting flag is set automatically based on the text Textual extents are not particularly useful since there was no original input to refer to",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "mkCSVField",
           "normalized": "Int-\u003eInt-\u003eString-\u003eCSVField",
@@ -1879,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generator for a new CSV column, of arbitrary length.\n   The result can be joined to an existing table if desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "mkEmptyColumn",
           "package": "lazy-csv",
@@ -1889,6 +2048,7 @@
         "index": {
           "description": "generator for new CSV column of arbitrary length The result can be joined to an existing table if desired",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "mkEmptyColumn",
           "normalized": "String-\u003eCSVTable",
@@ -1905,6 +2065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA first-stage parser for CSV (comma-separated values) data.\n   The individual fields remain as text, but errors in CSV formatting\n   are reported.  Errors (containing unrecognisable rows/fields) are\n   interspersed with the valid rows/fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "parseCSV",
           "package": "lazy-csv",
@@ -1915,6 +2076,7 @@
         "index": {
           "description": "first-stage parser for CSV comma-separated values data The individual fields remain as text but errors in CSV formatting are reported Errors containing unrecognisable rows fields are interspersed with the valid rows fields",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "parseCSV",
           "normalized": "String-\u003eCSVResult",
@@ -1931,6 +2093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSometimes CSV is not comma-separated, but delimiter-separated\n   values (DSV).  The choice of delimiter is arbitrary, but semi-colon\n   is common in locales where comma is used as a decimal point, and tab\n   is also common.  The Boolean argument is\n   whether newlines should be accepted within quoted fields.  The CSV RFC\n   says newlines can occur in quotes, but other DSV formats might say\n   otherwise.  You can often get better error messages if newlines are\n   disallowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "parseDSV",
           "package": "lazy-csv",
@@ -1941,6 +2104,7 @@
         "index": {
           "description": "Sometimes CSV is not comma-separated but delimiter-separated values DSV The choice of delimiter is arbitrary but semi-colon is common in locales where comma is used as decimal point and tab is also common The Boolean argument is whether newlines should be accepted within quoted fields The CSV RFC says newlines can occur in quotes but other DSV formats might say otherwise You can often get better error messages if newlines are disallowed",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "parseDSV",
           "normalized": "Bool-\u003eChar-\u003eString-\u003eCSVResult",
@@ -1957,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome pretty-printing for structured CSV errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "ppCSVError",
           "package": "lazy-csv",
@@ -1967,6 +2132,7 @@
         "index": {
           "description": "Some pretty-printing for structured CSV errors",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "ppCSVError",
           "normalized": "CSVError-\u003eString",
@@ -1983,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printing for CSV fields, shows positional information in addition\n   to the textual content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "ppCSVField",
           "package": "lazy-csv",
@@ -1993,6 +2160,7 @@
         "index": {
           "description": "Pretty-printing for CSV fields shows positional information in addition to the textual content",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "ppCSVField",
           "normalized": "CSVField-\u003eString",
@@ -2009,6 +2177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a full CSV table back into text, as much like the original\n   input as possible,  e.g. preserving quoted/unquoted format of fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "ppCSVTable",
           "package": "lazy-csv",
@@ -2019,6 +2188,7 @@
         "index": {
           "description": "Turn full CSV table back into text as much like the original input as possible e.g preserving quoted unquoted format of fields",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "ppCSVTable",
           "normalized": "CSVTable-\u003eString",
@@ -2035,6 +2205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a full CSV table back into text, using the given delimiter\n   character.  Quoted/unquoted formatting of the original is preserved.\n   The Boolean argument is to repair fields containing newlines, by\n   replacing the nl with a space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "ppDSVTable",
           "package": "lazy-csv",
@@ -2045,6 +2216,7 @@
         "index": {
           "description": "Turn full CSV table back into text using the given delimiter character Quoted unquoted formatting of the original is preserved The Boolean argument is to repair fields containing newlines by replacing the nl with space",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "ppDSVTable",
           "normalized": "Bool-\u003eChar-\u003eCSVTable-\u003eString",
@@ -2061,6 +2233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect and/or re-arrange columns from a CSV table, based on names in the\n   header row of the table.  The original header row is re-arranged too.\n   The result is either a list of column names that were not present, or\n   the (possibly re-arranged) sub-table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "selectFields",
           "package": "lazy-csv",
@@ -2071,6 +2244,7 @@
         "index": {
           "description": "Select and or re-arrange columns from CSV table based on names in the header row of the table The original header row is re-arranged too The result is either list of column names that were not present or the possibly re-arranged sub-table",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "selectFields",
           "normalized": "[String]-\u003eCSVTable-\u003eEither[String]CSVTable",
@@ -2087,6 +2261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a simple list of lists into a CSVTable by the addition of\n   logical locations.  (Textual locations are not so useful.)\n   Rows of varying lengths generate errors.  Fields that need\n   quotation marks are automatically marked as such.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:42 UTC 2014",
           "module": "Text.CSV.Lazy.String",
           "name": "toCSVTable",
           "package": "lazy-csv",
@@ -2097,6 +2272,7 @@
         "index": {
           "description": "Convert simple list of lists into CSVTable by the addition of logical locations Textual locations are not so useful Rows of varying lengths generate errors Fields that need quotation marks are automatically marked as such",
           "hierarchy": "Text CSV Lazy String",
+          "indexed": "2014-03-11T19:06:42",
           "module": "Text.CSV.Lazy.String",
           "name": "toCSVTable",
           "normalized": "[[String]]-\u003e([CSVError],CSVTable)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "graph-rewriting-lambdascope"
+        "phrase": "graph-rewriting-lambdascope",
+        "type": "phrase"
       },
       "type": "context"
     }

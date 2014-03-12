@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Control-Monad-ST2"
+        "phrase": "Control-Monad-ST2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eST2\u003c/a\u003e\u003c/code\u003e monad is like the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad, but with\n  finer-grained control over access to mutable state. The phantom type\n  parameters \u003ccode\u003er\u003c/code\u003e and \u003ccode\u003ew\u003c/code\u003e are used to track the read and write\n  dependencies of the computation. If a computation of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eST2\u003c/a\u003e\u003c/code\u003e r w\n  a\u003c/code\u003e is polymorphic in w then it does not write any external state. If\n  it is also polymorphic in \u003ccode\u003er\u003c/code\u003e then it does not read any external\n  state.  Operations which modify state, such as \u003ccode\u003e\u003ca\u003ewriteST2Ref\u003c/a\u003e\u003c/code\u003e, are\n  considered to read external state as well as write it, so it is\n  impossible for a computation of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eST2\u003c/a\u003e\u003c/code\u003e r w a\u003c/code\u003e to be polymorphic\n  in \u003ccode\u003er\u003c/code\u003e but not in \u003ccode\u003ew\u003c/code\u003e. This means that the \u003ccode\u003er\u003c/code\u003e type parameter\n  behaves exactly like the \u003ccode\u003es\u003c/code\u003e type parameter on the\n  \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad, but the \u003ccode\u003ew\u003c/code\u003e type parameter provides\n  extra information which is not available in the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e\n  monad.\n\u003c/p\u003e\u003cp\u003eLike the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad, the \u003ccode\u003e\u003ca\u003eST2\u003c/a\u003e\u003c/code\u003e monad allows mutable\n  references and arrays to be created, read, and written within a\n  computation.  Provided that the mutable state does not escape, it\n  does not affect the type signature of the top-level computation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "ST2",
           "package": "Control-Monad-ST2",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The ST2 monad is like the ST monad but with finer-grained control over access to mutable state The phantom type parameters and are used to track the read and write dependencies of the computation If computation of type ST2 is polymorphic in then it does not write any external state If it is also polymorphic in then it does not read any external state Operations which modify state such as writeST2Ref are considered to read external state as well as write it so it is impossible for computation of type ST2 to be polymorphic in but not in This means that the type parameter behaves exactly like the type parameter on the ST monad but the type parameter provides extra information which is not available in the ST monad Like the ST monad the ST2 monad allows mutable references and arrays to be created read and written within computation Provided that the mutable state does not escape it does not affect the type signature of the top-level computation",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "ST2",
           "package": "Control-Monad-ST2",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erunPureST2\u003c/a\u003e\u003c/code\u003e is semantically equivalent to pureST2, but uses a\n newtype to package the \u003ccode\u003eforall\u003c/code\u003e. Sometimes this packaging is\n convenient when passing a value of type \u003ccode\u003e\u003ca\u003ePureST2\u003c/a\u003e\u003c/code\u003e as an argument\n because it avoids the need for a nested \u003ccode\u003eforall\u003c/code\u003e in the type\n signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "PureST2",
           "package": "Control-Monad-ST2",
@@ -51,6 +54,7 @@
         "index": {
           "description": "runPureST2 is semantically equivalent to pureST2 but uses newtype to package the forall Sometimes this packaging is convenient when passing value of type PureST2 as an argument because it avoids the need for nested forall in the type signature",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "PureST2",
           "package": "Control-Monad-ST2",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erunReadOnlyST2\u003c/a\u003e\u003c/code\u003e is semantically equivalent to readOnlyST2, but\n uses a newtype to package the \u003ccode\u003eforall\u003c/code\u003e. Sometimes this packaging is\n convenient when passing a value of type \u003ccode\u003e\u003ca\u003eReadOnlyST2\u003c/a\u003e\u003c/code\u003e as an\n argument because it avoids the need for a nested \u003ccode\u003eforall\u003c/code\u003e in the\n type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "ReadOnlyST2",
           "package": "Control-Monad-ST2",
@@ -74,6 +79,7 @@
         "index": {
           "description": "runReadOnlyST2 is semantically equivalent to readOnlyST2 but uses newtype to package the forall Sometimes this packaging is convenient when passing value of type ReadOnlyST2 as an argument because it avoids the need for nested forall in the type signature",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "ReadOnlyST2",
           "package": "Control-Monad-ST2",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eST2\u003c/a\u003e\u003c/code\u003e monad is a newtype of \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e. The type parameters \u003ccode\u003er\u003c/code\u003e and\n \u003ccode\u003ew\u003c/code\u003e are phantom type parameters which are used to track the read\n and write dependencies of the computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "ST2",
           "package": "Control-Monad-ST2",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The ST2 monad is newtype of IO The type parameters and are phantom type parameters which are used to track the read and write dependencies of the computation",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "ST2",
           "package": "Control-Monad-ST2",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable array. \u003ccode\u003e\u003ca\u003eST2Array\u003c/a\u003e\u003c/code\u003e is actually just a newtype of an\n \u003ccode\u003e\u003ca\u003eIOArray\u003c/a\u003e\u003c/code\u003e, but the \u003ccode\u003er\u003c/code\u003e and \u003ccode\u003ew\u003c/code\u003e type parameters allow the read and\n write dependencies to be tracked by the type system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "ST2Array",
           "package": "Control-Monad-ST2",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Mutable array ST2Array is actually just newtype of an IOArray but the and type parameters allow the read and write dependencies to be tracked by the type system",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "ST2Array",
           "package": "Control-Monad-ST2",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead-only array. Existential quantification is used to hide the\n \u003ccode\u003ew\u003c/code\u003e type parameter. This means that it can escape a \u003ccode\u003e\u003ca\u003eReadOnlyST2\u003c/a\u003e\u003c/code\u003e\n context, and can be read in the enclosing context. However, it is\n impossible for anyone to write to the array outside of the\n \u003ccode\u003e\u003ca\u003eReadOnlyST2\u003c/a\u003e\u003c/code\u003e context in which the array was created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "ST2RArray",
           "package": "Control-Monad-ST2",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Read-only array Existential quantification is used to hide the type parameter This means that it can escape ReadOnlyST2 context and can be read in the enclosing context However it is impossible for anyone to write to the array outside of the ReadOnlyST2 context in which the array was created",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "ST2RArray",
           "package": "Control-Monad-ST2",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable reference. \u003ccode\u003e\u003ca\u003eST2Ref\u003c/a\u003e\u003c/code\u003e is actually just a newtype of an\n \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e, but the \u003ccode\u003er\u003c/code\u003e and \u003ccode\u003ew\u003c/code\u003e type parameters allow the read and\n write dependencies to be tracked by the type system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "ST2Ref",
           "package": "Control-Monad-ST2",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Mutable reference ST2Ref is actually just newtype of an IORef but the and type parameters allow the read and write dependencies to be tracked by the type system",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "ST2Ref",
           "package": "Control-Monad-ST2",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "PureST2",
           "package": "Control-Monad-ST2",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "PureST2",
           "package": "Control-Monad-ST2",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "ReadOnlyST2",
           "package": "Control-Monad-ST2",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "ReadOnlyST2",
           "package": "Control-Monad-ST2",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the size of the array. Neither type parameter is unified with\n the \u003ccode\u003e\u003ca\u003eST2\u003c/a\u003e\u003c/code\u003e monad because the array itself is not accessed.\n (Conceptually, an \u003ccode\u003e\u003ca\u003eST2Array\u003c/a\u003e\u003c/code\u003e is a pair, consisting of the size\n information and the array. This function only accesses the size\n information, which is immutable.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "boundsST2Array",
           "package": "Control-Monad-ST2",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Read the size of the array Neither type parameter is unified with the ST2 monad because the array itself is not accessed Conceptually an ST2Array is pair consisting of the size information and the array This function only accesses the size information which is immutable",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "boundsST2Array",
           "normalized": "ST Array a b c d-\u003eST e f(c,c)",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an ST2Array to an IOArray.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "exportST2Array",
           "package": "Control-Monad-ST2",
@@ -260,6 +281,7 @@
         "index": {
           "description": "Convert an ST2Array to an IOArray",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "exportST2Array",
           "normalized": "ST Array()()a b-\u003eIOArray a b",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an ST2Ref to an IORef.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "exportST2Ref",
           "package": "Control-Monad-ST2",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Convert an ST2Ref to an IORef",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "exportST2Ref",
           "normalized": "ST Ref()()a-\u003eIORef a",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an IOArray to an ST2Array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "importST2Array",
           "package": "Control-Monad-ST2",
@@ -312,6 +337,7 @@
         "index": {
           "description": "Convert an IOArray to an ST2Array",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "importST2Array",
           "normalized": "IOArray a b-\u003eST Array()()a b",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an IORef to an ST2Ref.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "importST2Ref",
           "package": "Control-Monad-ST2",
@@ -338,6 +365,7 @@
         "index": {
           "description": "Convert an IORef to an ST2Ref",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "importST2Ref",
           "normalized": "IORef a-\u003eST Ref()()a",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computations can be converted to \u003ccode\u003e\u003ca\u003eST2\u003c/a\u003e\u003c/code\u003e computations, but\n only with a monomorphic type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "ioToST2",
           "package": "Control-Monad-ST2",
@@ -364,6 +393,7 @@
         "index": {
           "description": "IO computations can be converted to ST2 computations but only with monomorphic type signature",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "ioToST2",
           "normalized": "IO a-\u003eST()()a",
@@ -380,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a read-only array. It is important to note that this\n function does not make the original \u003ccode\u003e\u003ca\u003eST2Array\u003c/a\u003e\u003c/code\u003e immutable. It merely\n creates a read-only reference to the original array. However, the\n \u003ccode\u003e\u003ca\u003eST2RArray\u003c/a\u003e\u003c/code\u003e can be returned through a \u003ccode\u003e\u003ca\u003ereadOnlyST2\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eReadOnlyST2\u003c/a\u003e\u003c/code\u003e context and the typing rules ensure that the original\n \u003ccode\u003e\u003ca\u003eST2Array\u003c/a\u003e\u003c/code\u003e cannot be modified outside of the \u003ccode\u003e\u003ca\u003eReadOnlyST2\u003c/a\u003e\u003c/code\u003e context\n in which it was created. In other words, the original \u003ccode\u003e\u003ca\u003eST2Array\u003c/a\u003e\u003c/code\u003e\n can continue to be modified after the \u003ccode\u003e\u003ca\u003eST2RArray\u003c/a\u003e\u003c/code\u003e is created, but\n only until the \u003ccode\u003e\u003ca\u003eST2RArray\u003c/a\u003e\u003c/code\u003e is returned through a \u003ccode\u003e\u003ca\u003eReadOnlyST2\u003c/a\u003e\u003c/code\u003e\n context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "mkST2RArray",
           "package": "Control-Monad-ST2",
@@ -390,6 +421,7 @@
         "index": {
           "description": "Create read-only array It is important to note that this function does not make the original ST2Array immutable It merely creates read-only reference to the original array However the ST2RArray can be returned through readOnlyST2 or ReadOnlyST2 context and the typing rules ensure that the original ST2Array cannot be modified outside of the ReadOnlyST2 context in which it was created In other words the original ST2Array can continue to be modified after the ST2RArray is created but only until the ST2RArray is returned through ReadOnlyST2 context",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "mkST2RArray",
           "normalized": "ST Array a b c d-\u003eST RArray a c d",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "modifyST2Ref",
           "package": "Control-Monad-ST2",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Modify reference",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "modifyST2Ref",
           "normalized": "ST Ref a b c-\u003e(c-\u003ec)-\u003eST a b()",
@@ -432,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an array with an initial value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "newST2Array",
           "package": "Control-Monad-ST2",
@@ -442,6 +477,7 @@
         "index": {
           "description": "Create an array with an initial value",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "newST2Array",
           "normalized": "(a,a)-\u003eb-\u003eST c d(ST Array c d a b)",
@@ -458,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an uninitialised array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "newST2Array_",
           "package": "Control-Monad-ST2",
@@ -468,6 +505,7 @@
         "index": {
           "description": "Create an uninitialised array",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "newST2Array_",
           "normalized": "(a,a)-\u003eST b c(ST Array b c a d)",
@@ -484,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new reference. The \u003ccode\u003er\u003c/code\u003e and \u003ccode\u003ew\u003c/code\u003e type parameters of the\n reference are unified with the \u003ccode\u003e\u003ca\u003eST2\u003c/a\u003e\u003c/code\u003e monad to indicate that new\n state is created in the enclosing context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "newST2Ref",
           "package": "Control-Monad-ST2",
@@ -494,6 +533,7 @@
         "index": {
           "description": "Create new reference The and type parameters of the reference are unified with the ST2 monad to indicate that new state is created in the enclosing context",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "newST2Ref",
           "normalized": "a-\u003eST b c(ST Ref b c a)",
@@ -510,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpawn one thread for each index in the range and wait for all the\n threads to finish. Each thread is parameterised by its index, which\n is an element of the range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "parallelST2",
           "package": "Control-Monad-ST2",
@@ -520,6 +561,7 @@
         "index": {
           "description": "Spawn one thread for each index in the range and wait for all the threads to finish Each thread is parameterised by its index which is an element of the range",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "parallelST2",
           "normalized": "(a,a)-\u003e(a-\u003eST b c())-\u003eST b c()",
@@ -536,6 +578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function checks that the sub-computation is polymorphic in\n both type parameters. This means that the sub-computation does not\n read or write any state from the enclosing context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "pureST2",
           "package": "Control-Monad-ST2",
@@ -546,6 +589,7 @@
         "index": {
           "description": "This function checks that the sub-computation is polymorphic in both type parameters This means that the sub-computation does not read or write any state from the enclosing context",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "pureST2",
           "normalized": "(a b c ST b d e)-\u003eST f g e",
@@ -562,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function checks that the sub-computation is polymorphic in\n the \u003ccode\u003ew\u003c/code\u003e type parameter. This means that the sub-computation does\n not write any state from the enclosing context (but read-only\n operations are permitted).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "readOnlyST2",
           "package": "Control-Monad-ST2",
@@ -572,6 +617,7 @@
         "index": {
           "description": "This function checks that the sub-computation is polymorphic in the type parameter This means that the sub-computation does not write any state from the enclosing context but read-only operations are permitted",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "readOnlyST2",
           "normalized": "(a b ST c d e)-\u003eST c f e",
@@ -588,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an index of the array. The \u003ccode\u003ew\u003c/code\u003e type parameter of the\n reference is not unified with the \u003ccode\u003e\u003ca\u003eST2\u003c/a\u003e\u003c/code\u003e monad to indicate that this\n access is read-only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "readST2Array",
           "package": "Control-Monad-ST2",
@@ -598,6 +645,7 @@
         "index": {
           "description": "Read an index of the array The type parameter of the reference is not unified with the ST2 monad to indicate that this access is read-only",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "readST2Array",
           "normalized": "ST Array a b c d-\u003ec-\u003eST a e d",
@@ -614,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an index of the read-only array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "readST2RArray",
           "package": "Control-Monad-ST2",
@@ -624,6 +673,7 @@
         "index": {
           "description": "Read an index of the read-only array",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "readST2RArray",
           "normalized": "ST RArray a b c-\u003eb-\u003eST a d c",
@@ -640,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a reference. The \u003ccode\u003ew\u003c/code\u003e type parameter of the reference is not\n unified with the \u003ccode\u003e\u003ca\u003eST2\u003c/a\u003e\u003c/code\u003e monad to indicate that this access is\n read-only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "readST2Ref",
           "package": "Control-Monad-ST2",
@@ -650,6 +701,7 @@
         "index": {
           "description": "Read reference The type parameter of the reference is not unified with the ST2 monad to indicate that this access is read-only",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "readST2Ref",
           "normalized": "ST Ref a b c-\u003eST a d c",
@@ -665,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "runPureST2",
           "package": "Control-Monad-ST2",
@@ -674,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "runPureST2",
           "package": "Control-Monad-ST2",
@@ -687,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "runReadOnlyST2",
           "package": "Control-Monad-ST2",
@@ -696,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "runReadOnlyST2",
           "package": "Control-Monad-ST2",
@@ -710,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eST2\u003c/a\u003e\u003c/code\u003e computations can be converted to \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computations, but\n only with a monomorphic type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "st2ToIO",
           "package": "Control-Monad-ST2",
@@ -720,6 +777,7 @@
         "index": {
           "description": "ST2 computations can be converted to IO computations but only with monomorphic type signature",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "st2ToIO",
           "normalized": "ST()()a-\u003eIO a",
@@ -736,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an index of the array. The \u003ccode\u003ew\u003c/code\u003e type parameter of the array\n is unified with the \u003ccode\u003e\u003ca\u003eST2\u003c/a\u003e\u003c/code\u003e monad to indicate that state is written\n in the enclosing context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "writeST2Array",
           "package": "Control-Monad-ST2",
@@ -746,6 +805,7 @@
         "index": {
           "description": "Write an index of the array The type parameter of the array is unified with the ST2 monad to indicate that state is written in the enclosing context",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "writeST2Array",
           "normalized": "ST Array a b c d-\u003ec-\u003ed-\u003eST a b()",
@@ -762,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to a reference. The \u003ccode\u003ew\u003c/code\u003e type parameter of the reference is\n unified with the \u003ccode\u003e\u003ca\u003eST2\u003c/a\u003e\u003c/code\u003e monad to indicate that state is written in\n the enclosing context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:34 UTC 2014",
           "module": "Control.Monad.ST2",
           "name": "writeST2Ref",
           "package": "Control-Monad-ST2",
@@ -772,6 +833,7 @@
         "index": {
           "description": "Write to reference The type parameter of the reference is unified with the ST2 monad to indicate that state is written in the enclosing context",
           "hierarchy": "Control Monad ST2",
+          "indexed": "2014-03-11T16:37:34",
           "module": "Control.Monad.ST2",
           "name": "writeST2Ref",
           "normalized": "ST Ref a b c-\u003ec-\u003eST a b()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "PDBtools"
+        "phrase": "PDBtools",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "Base",
           "package": "PDBtools",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "Base",
           "package": "PDBtools",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "atmAngle",
           "package": "PDBtools",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "atmAngle",
           "normalized": "Atom-\u003eAtom-\u003eAtom-\u003eDouble",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "atomname",
           "package": "PDBtools",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "atomname",
           "normalized": "String-\u003e[Atom]-\u003e[Atom]",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "atomnames",
           "package": "PDBtools",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "atomnames",
           "normalized": "[String]-\u003e[Atom]-\u003e[Atom]",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "atomtype",
           "package": "PDBtools",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "atomtype",
           "normalized": "String-\u003e[Atom]-\u003e[Atom]",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "backbone",
           "package": "PDBtools",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "backbone",
           "normalized": "Protein-\u003e[Atom]",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "center",
           "package": "PDBtools",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "center",
           "normalized": "Atom-\u003e[Atom]-\u003e[Atom]",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "convert",
           "package": "PDBtools",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "convert",
           "normalized": "ByteString-\u003eString",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "dihedral",
           "package": "PDBtools",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "dihedral",
           "normalized": "Atom-\u003e[Atom]-\u003e(Double,Double)",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "dihedrals",
           "package": "PDBtools",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "dihedrals",
           "normalized": "Protein-\u003e[(Double,Double)]",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "distance",
           "package": "PDBtools",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "distance",
           "normalized": "Atom-\u003eAtom-\u003eDouble",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "getAdjacent",
           "package": "PDBtools",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "getAdjacent",
           "normalized": "Int-\u003eAtom-\u003eString-\u003e[Atom]-\u003e[Atom]",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "homology",
           "package": "PDBtools",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "homology",
           "normalized": "Protein-\u003eProtein-\u003eDouble",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "kth",
           "package": "PDBtools",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "kth",
           "normalized": "Int-\u003eAtom-\u003eString-\u003e[Atom]-\u003e[Double]",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "protein2fasta",
           "package": "PDBtools",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "protein2fasta",
           "normalized": "Protein-\u003eByteString",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "rama",
           "package": "PDBtools",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "rama",
           "normalized": "Protein-\u003eIO()",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "resSeq",
           "package": "PDBtools",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "resSeq",
           "normalized": "Protein-\u003e[(ByteString,Int)]",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "restype",
           "package": "PDBtools",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "restype",
           "normalized": "String-\u003e[Atom]-\u003e[Atom]",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "rmsd",
           "package": "PDBtools",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "rmsd",
           "normalized": "[Atom]-\u003e[Atom]-\u003eDouble",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "shift",
           "package": "PDBtools",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "shift",
           "normalized": "Atom-\u003e[Double]-\u003e[Atom]-\u003e[Atom]",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "translateBy",
           "package": "PDBtools",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "translateBy",
           "normalized": "[Double]-\u003e[Atom]-\u003e[Atom]",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "within",
           "package": "PDBtools",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "within",
           "normalized": "Double-\u003eAtom-\u003e[Atom]-\u003e[Atom]",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Base",
           "name": "withinClusive",
           "package": "PDBtools",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Base",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Base",
           "name": "withinClusive",
           "normalized": "Double-\u003eAtom-\u003e[Atom]-\u003e[Atom]",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "PDBparse",
           "package": "PDBtools",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "PDBparse",
           "package": "PDBtools",
@@ -571,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "Atom",
           "package": "PDBtools",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "Atom",
           "package": "PDBtools",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "Protein",
           "package": "PDBtools",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "Protein",
           "package": "PDBtools",
@@ -613,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "Atom",
           "package": "PDBtools",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "Atom",
           "package": "PDBtools",
@@ -635,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "Protein",
           "package": "PDBtools",
@@ -644,6 +699,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "Protein",
           "package": "PDBtools",
@@ -657,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "aField",
           "package": "PDBtools",
@@ -666,6 +723,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "aField",
           "package": "PDBtools",
@@ -679,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "atid",
           "package": "PDBtools",
@@ -688,6 +747,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "atid",
           "package": "PDBtools",
@@ -700,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "atoms",
           "package": "PDBtools",
@@ -709,6 +770,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "atoms",
           "normalized": "[Atom]",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "atype",
           "package": "PDBtools",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "atype",
           "package": "PDBtools",
@@ -744,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "bField",
           "package": "PDBtools",
@@ -753,6 +818,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "bField",
           "package": "PDBtools",
@@ -766,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "chain",
           "package": "PDBtools",
@@ -775,6 +842,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "chain",
           "package": "PDBtools",
@@ -787,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "coords",
           "package": "PDBtools",
@@ -796,6 +865,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "coords",
           "normalized": "[Double]",
@@ -810,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "isAtom",
           "package": "PDBtools",
@@ -819,6 +890,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "isAtom",
           "normalized": "ByteString-\u003eBool",
@@ -834,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "isHETATM",
           "package": "PDBtools",
@@ -843,6 +916,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "isHETATM",
           "normalized": "ByteString-\u003eBool",
@@ -858,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "name",
           "package": "PDBtools",
@@ -867,6 +942,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "name",
           "package": "PDBtools",
@@ -879,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "parse",
           "package": "PDBtools",
@@ -888,6 +965,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "parse",
           "normalized": "FilePath-\u003eIO([Protein],[Atom])",
@@ -902,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "parseAtom",
           "package": "PDBtools",
@@ -911,6 +990,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "parseAtom",
           "normalized": "ByteString-\u003eAtom",
@@ -926,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "parseCofactorOnly",
           "package": "PDBtools",
@@ -935,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "parseCofactorOnly",
           "normalized": "FilePath-\u003eIO[Atom]",
@@ -950,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "parseProteinOnly",
           "package": "PDBtools",
@@ -959,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "parseProteinOnly",
           "normalized": "FilePath-\u003eIO[Protein]",
@@ -974,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "resid",
           "package": "PDBtools",
@@ -983,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "resid",
           "package": "PDBtools",
@@ -995,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "resname",
           "package": "PDBtools",
@@ -1004,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "resname",
           "package": "PDBtools",
@@ -1016,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "splitChains",
           "package": "PDBtools",
@@ -1025,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil PDBparse",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.PDBparse",
           "name": "splitChains",
           "normalized": "[Atom]-\u003e[Protein]",
@@ -1040,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.Vectors",
           "name": "Vectors",
           "package": "PDBtools",
@@ -1048,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil Vectors",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.Vectors",
           "name": "Vectors",
           "package": "PDBtools",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.Vectors",
           "name": "angle",
           "package": "PDBtools",
@@ -1070,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil Vectors",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.Vectors",
           "name": "angle",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -1084,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.Vectors",
           "name": "cross",
           "package": "PDBtools",
@@ -1093,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil Vectors",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.Vectors",
           "name": "cross",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -1107,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.Vectors",
           "name": "dot",
           "package": "PDBtools",
@@ -1116,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil Vectors",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.Vectors",
           "name": "dot",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -1130,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.Vectors",
           "name": "magnitude",
           "package": "PDBtools",
@@ -1139,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil Vectors",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.Vectors",
           "name": "magnitude",
           "normalized": "[a]-\u003ea",
@@ -1153,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.Vectors",
           "name": "norm",
           "package": "PDBtools",
@@ -1162,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil Vectors",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.Vectors",
           "name": "norm",
           "normalized": "[a]-\u003ea",
@@ -1176,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.Vectors",
           "name": "rotateAboutx",
           "package": "PDBtools",
@@ -1185,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil Vectors",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.Vectors",
           "name": "rotateAboutx",
           "normalized": "[a]-\u003ea-\u003e[a]",
@@ -1200,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.Vectors",
           "name": "rotateAboutz",
           "package": "PDBtools",
@@ -1209,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil Vectors",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.Vectors",
           "name": "rotateAboutz",
           "normalized": "[a]-\u003ea-\u003e[a]",
@@ -1224,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.Vectors",
           "name": "unit",
           "package": "PDBtools",
@@ -1233,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil Vectors",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.Vectors",
           "name": "unit",
           "normalized": "[a]-\u003e[a]",
@@ -1247,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.Vectors",
           "name": "vAdd",
           "package": "PDBtools",
@@ -1256,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil Vectors",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.Vectors",
           "name": "vAdd",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -1271,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.PDButil.Vectors",
           "name": "vSub",
           "package": "PDBtools",
@@ -1280,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "PDBtools PDButil Vectors",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.PDButil.Vectors",
           "name": "vSub",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -1295,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Residues",
           "name": "Residues",
           "package": "PDBtools",
@@ -1303,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Residues",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Residues",
           "name": "Residues",
           "package": "PDBtools",
@@ -1316,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Residues",
           "name": "charged",
           "package": "PDBtools",
@@ -1325,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Residues",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Residues",
           "name": "charged",
           "normalized": "[Atom]-\u003e[Atom]",
@@ -1339,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Residues",
           "name": "hydrophillic",
           "package": "PDBtools",
@@ -1348,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Residues",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Residues",
           "name": "hydrophillic",
           "normalized": "[Atom]-\u003e[Atom]",
@@ -1362,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Residues",
           "name": "hydrophobic",
           "package": "PDBtools",
@@ -1371,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Residues",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Residues",
           "name": "hydrophobic",
           "normalized": "[Atom]-\u003e[Atom]",
@@ -1385,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Residues",
           "name": "nonpolar",
           "package": "PDBtools",
@@ -1394,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Residues",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Residues",
           "name": "nonpolar",
           "normalized": "[Atom]-\u003e[Atom]",
@@ -1408,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Residues",
           "name": "polar",
           "package": "PDBtools",
@@ -1417,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Residues",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Residues",
           "name": "polar",
           "normalized": "[Atom]-\u003e[Atom]",
@@ -1431,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:23 UTC 2014",
           "module": "PDBtools.Residues",
           "name": "uncharged",
           "package": "PDBtools",
@@ -1440,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "PDBtools Residues",
+          "indexed": "2014-03-11T16:56:23",
           "module": "PDBtools.Residues",
           "name": "uncharged",
           "normalized": "[Atom]-\u003e[Atom]",

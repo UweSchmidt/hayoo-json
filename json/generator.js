@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "generator"
+        "phrase": "generator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monad transformer for the creation of Lists.\n Similar to Python's generators.\n\u003c/p\u003e\u003cpre\u003e import Control.Monad.Identity (Identity(..))\n import Data.List.Class (toList)\n\n hanoi 0 _ _ _ = return ()\n hanoi n from to other = do\n   hanoi (n-1) from other to\n   yield (from, to)\n   hanoi (n-1) other to from\n\n \u003e runIdentity . toList . generate $ hanoi 3 'A' 'B' 'C' :: [(Char, Char)]\n [('A','B'),('A','C'),('B','C'),('A','B'),('C','A'),('C','B'),('A','B')]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:14:45 UTC 2014",
           "module": "Control.Monad.Generator",
           "name": "Generator",
           "package": "generator",
@@ -28,6 +29,7 @@
         "index": {
           "description": "monad transformer for the creation of Lists Similar to Python generators import Control.Monad.Identity Identity import Data.List.Class toList hanoi return hanoi from to other do hanoi n-1 from other to yield from to hanoi n-1 other to from runIdentity toList generate hanoi Char Char",
           "hierarchy": "Control Monad Generator",
+          "indexed": "2014-03-11T18:14:45",
           "module": "Control.Monad.Generator",
           "name": "Generator",
           "package": "generator",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad transformer to create \u003ccode\u003eList\u003c/code\u003es.\n \u003ccode\u003e\u003ca\u003egenerate\u003c/a\u003e\u003c/code\u003e transforms a \u003ca\u003eGeneratorT v m a\u003c/a\u003e to a \u003ca\u003eListT m a\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:45 UTC 2014",
           "module": "Control.Monad.Generator",
           "name": "GeneratorT",
           "package": "generator",
@@ -51,6 +54,7 @@
         "index": {
           "description": "monad transformer to create List generate transforms GeneratorT to ListT",
           "hierarchy": "Control Monad Generator",
+          "indexed": "2014-03-11T18:14:45",
           "module": "Control.Monad.Generator",
           "name": "GeneratorT",
           "package": "generator",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:45 UTC 2014",
           "module": "Control.Monad.Generator",
           "name": "GeneratorT",
           "package": "generator",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Generator",
+          "indexed": "2014-03-11T18:14:45",
           "module": "Control.Monad.Generator",
           "name": "GeneratorT",
           "package": "generator",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:45 UTC 2014",
           "module": "Control.Monad.Generator",
           "name": "breakGenerator",
           "package": "generator",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Generator",
+          "indexed": "2014-03-11T18:14:45",
           "module": "Control.Monad.Generator",
           "name": "breakGenerator",
           "package": "generator",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:45 UTC 2014",
           "module": "Control.Monad.Generator",
           "name": "generate",
           "package": "generator",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Generator",
+          "indexed": "2014-03-11T18:14:45",
           "module": "Control.Monad.Generator",
           "name": "generate",
           "normalized": "GeneratorT a b()-\u003eListT b a",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:45 UTC 2014",
           "module": "Control.Monad.Generator",
           "name": "runGeneratorT",
           "package": "generator",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Generator",
+          "indexed": "2014-03-11T18:14:45",
           "module": "Control.Monad.Generator",
           "name": "runGeneratorT",
           "package": "generator",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:45 UTC 2014",
           "module": "Control.Monad.Generator",
           "name": "yield",
           "package": "generator",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Generator",
+          "indexed": "2014-03-11T18:14:45",
           "module": "Control.Monad.Generator",
           "name": "yield",
           "normalized": "a-\u003eGeneratorT a b()",

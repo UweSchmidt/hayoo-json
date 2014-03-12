@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmatrix-gsl-stats"
+        "phrase": "hmatrix-gsl-stats",
+        "type": "phrase"
       },
       "type": "context"
     }

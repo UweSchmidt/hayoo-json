@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cmonad"
+        "phrase": "cmonad",
+        "type": "phrase"
       },
       "type": "context"
     }

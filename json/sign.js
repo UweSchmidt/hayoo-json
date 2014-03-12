@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sign"
+        "phrase": "sign",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides arithmetic over signs (i.e. {-, 0, +}) and set of signs.\n\u003c/p\u003e\u003cp\u003eFor the purpose of abstract interpretation, it might be convenient to use\n \u003ccode\u003e\u003ca\u003eLattice\u003c/a\u003e\u003c/code\u003e instance. See also lattices package\n (\u003ca\u003ehttp://hackage.haskell.org/package/lattices\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:12 UTC 2014",
           "module": "Data.Sign",
           "name": "Sign",
           "package": "sign",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides arithmetic over signs i.e and set of signs For the purpose of abstract interpretation it might be convenient to use Lattice instance See also lattices package http hackage.haskell.org package lattices",
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:02:12",
           "module": "Data.Sign",
           "name": "Sign",
           "package": "sign",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigns of real numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:12 UTC 2014",
           "module": "Data.Sign",
           "name": "Sign",
           "package": "sign",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Signs of real numbers",
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:02:12",
           "module": "Data.Sign",
           "name": "Sign",
           "package": "sign",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enegative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:12 UTC 2014",
           "module": "Data.Sign",
           "name": "Neg",
           "package": "sign",
@@ -75,6 +80,7 @@
         "index": {
           "description": "negative",
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:02:12",
           "module": "Data.Sign",
           "name": "Neg",
           "package": "sign",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epositive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:12 UTC 2014",
           "module": "Data.Sign",
           "name": "Pos",
           "package": "sign",
@@ -99,6 +106,7 @@
         "index": {
           "description": "positive",
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:02:12",
           "module": "Data.Sign",
           "name": "Pos",
           "package": "sign",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ezero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:12 UTC 2014",
           "module": "Data.Sign",
           "name": "Zero",
           "package": "sign",
@@ -123,6 +132,7 @@
         "index": {
           "description": "zero",
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:02:12",
           "module": "Data.Sign",
           "name": "Zero",
           "package": "sign",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolute value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:12 UTC 2014",
           "module": "Data.Sign",
           "name": "abs",
           "package": "sign",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Absolute value",
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:02:12",
           "module": "Data.Sign",
           "name": "abs",
           "normalized": "Sign-\u003eSign",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFractional division.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:12 UTC 2014",
           "module": "Data.Sign",
           "name": "div",
           "package": "sign",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Fractional division",
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:02:12",
           "module": "Data.Sign",
           "name": "div",
           "normalized": "Sign-\u003eSign-\u003eSign",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:12 UTC 2014",
           "module": "Data.Sign",
           "name": "mult",
           "package": "sign",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Multiplication",
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:02:12",
           "module": "Data.Sign",
           "name": "mult",
           "normalized": "Sign-\u003eSign-\u003eSign",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary negation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:12 UTC 2014",
           "module": "Data.Sign",
           "name": "negate",
           "package": "sign",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Unary negation",
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:02:12",
           "module": "Data.Sign",
           "name": "negate",
           "normalized": "Sign-\u003eSign",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFractional division.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:12 UTC 2014",
           "module": "Data.Sign",
           "name": "pow",
           "package": "sign",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Fractional division",
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:02:12",
           "module": "Data.Sign",
           "name": "pow",
           "normalized": "Sign-\u003ea-\u003eSign",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReciprocal fraction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:12 UTC 2014",
           "module": "Data.Sign",
           "name": "recip",
           "package": "sign",
@@ -272,6 +293,7 @@
         "index": {
           "description": "Reciprocal fraction",
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:02:12",
           "module": "Data.Sign",
           "name": "recip",
           "normalized": "Sign-\u003eSign",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign of a number. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:12 UTC 2014",
           "module": "Data.Sign",
           "name": "signOf",
           "package": "sign",
@@ -297,6 +320,7 @@
         "index": {
           "description": "Sign of number",
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:02:12",
           "module": "Data.Sign",
           "name": "signOf",
           "normalized": "a-\u003eSign",
@@ -313,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMnemonic symbol of a number.\n\u003c/p\u003e\u003cp\u003eThis function returns \u003ccode\u003e\"-\"\u003c/code\u003e, \u003ccode\u003e\"0\"\u003c/code\u003e, \u003ccode\u003e\"+\"\u003c/code\u003e respectively for \u003ccode\u003e\u003ca\u003eNeg\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eZero\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ePos\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:12 UTC 2014",
           "module": "Data.Sign",
           "name": "symbol",
           "package": "sign",
@@ -323,6 +348,7 @@
         "index": {
           "description": "Mnemonic symbol of number This function returns respectively for Neg Zero Pos",
           "hierarchy": "Data Sign",
+          "indexed": "2014-03-11T20:02:12",
           "module": "Data.Sign",
           "name": "symbol",
           "normalized": "Sign-\u003eString",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "safe-failure"
+        "phrase": "safe-failure",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library for safe functions, based on standard functions that may crash.\n\u003c/p\u003e\u003cp\u003eThis module reexports versions which produce exceptions in an arbitrary \u003ccode\u003e\u003ca\u003eFailure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "Failure",
           "package": "safe-failure",
@@ -28,6 +29,7 @@
         "index": {
           "description": "library for safe functions based on standard functions that may crash This module reexports versions which produce exceptions in an arbitrary Failure",
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "Failure",
           "package": "safe-failure",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "Foldl1Failure",
           "package": "safe-failure",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "Foldl1Failure",
           "package": "safe-failure",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "Foldr1Failure",
           "package": "safe-failure",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "Foldr1Failure",
           "package": "safe-failure",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "FromJustFailure",
           "package": "safe-failure",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "FromJustFailure",
           "package": "safe-failure",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "HeadFailure",
           "package": "safe-failure",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "HeadFailure",
           "package": "safe-failure",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "IndexFailure",
           "package": "safe-failure",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "IndexFailure",
           "package": "safe-failure",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "InitFailure",
           "package": "safe-failure",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "InitFailure",
           "package": "safe-failure",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "LastFailure",
           "package": "safe-failure",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "LastFailure",
           "package": "safe-failure",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "LookupFailure",
           "package": "safe-failure",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "LookupFailure",
           "package": "safe-failure",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "MaximumFailure",
           "package": "safe-failure",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "MaximumFailure",
           "package": "safe-failure",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "MinimumFailure",
           "package": "safe-failure",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "MinimumFailure",
           "package": "safe-failure",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "ReadFailure",
           "package": "safe-failure",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "ReadFailure",
           "package": "safe-failure",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "SafeException",
           "package": "safe-failure",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "SafeException",
           "package": "safe-failure",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "TailFailure",
           "package": "safe-failure",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "TailFailure",
           "package": "safe-failure",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "Foldl1Failure",
           "package": "safe-failure",
@@ -323,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "Foldl1Failure",
           "package": "safe-failure",
@@ -336,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "Foldr1Failure",
           "package": "safe-failure",
@@ -345,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "Foldr1Failure",
           "package": "safe-failure",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "FromJustFailure",
           "package": "safe-failure",
@@ -367,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "FromJustFailure",
           "package": "safe-failure",
@@ -380,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "HeadFailure",
           "package": "safe-failure",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "HeadFailure",
           "package": "safe-failure",
@@ -402,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "IndexFailure",
           "package": "safe-failure",
@@ -411,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "IndexFailure",
           "package": "safe-failure",
@@ -424,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "InitFailure",
           "package": "safe-failure",
@@ -433,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "InitFailure",
           "package": "safe-failure",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "LastFailure",
           "package": "safe-failure",
@@ -455,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "LastFailure",
           "package": "safe-failure",
@@ -468,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "LookupFailure",
           "package": "safe-failure",
@@ -477,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "LookupFailure",
           "package": "safe-failure",
@@ -490,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "MaximumFailure",
           "package": "safe-failure",
@@ -499,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "MaximumFailure",
           "package": "safe-failure",
@@ -512,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "MinimumFailure",
           "package": "safe-failure",
@@ -521,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "MinimumFailure",
           "package": "safe-failure",
@@ -534,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "ReadFailure",
           "package": "safe-failure",
@@ -543,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "ReadFailure",
           "package": "safe-failure",
@@ -556,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "SafeException",
           "package": "safe-failure",
@@ -565,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "SafeException",
           "package": "safe-failure",
@@ -578,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "TailFailure",
           "package": "safe-failure",
@@ -587,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "TailFailure",
           "package": "safe-failure",
@@ -601,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert a value to be true. If true, returns the first value as a succss.\n Otherwise, returns the second value as a failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "assert",
           "package": "safe-failure",
@@ -611,6 +666,7 @@
         "index": {
           "description": "Assert value to be true If true returns the first value as succss Otherwise returns the second value as failure",
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "assert",
           "normalized": "Bool-\u003ea-\u003eb-\u003ec a",
@@ -625,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "at",
           "package": "safe-failure",
@@ -634,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "at",
           "normalized": "[a]-\u003eInt-\u003eb a",
@@ -649,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edef\u003c/code\u003e, use it to return a default value in the event of an error.\n\u003c/p\u003e\u003cp\u003eE.g. you can define a version of \u003ccode\u003etail\u003c/code\u003e which returns a default\n   value when the list is empty\n\u003c/p\u003e\u003cpre\u003e  tailDef defaultValue = def defaultValue . tail\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "def",
           "package": "safe-failure",
@@ -659,6 +718,7 @@
         "index": {
           "description": "def use it to return default value in the event of an error E.g you can define version of tail which returns default value when the list is empty tailDef defaultValue def defaultValue tail",
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "def",
           "normalized": "a-\u003eMaybe a-\u003ea",
@@ -673,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "foldl1",
           "package": "safe-failure",
@@ -682,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "foldl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003eb a",
@@ -696,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "foldr1",
           "package": "safe-failure",
@@ -705,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "foldr1",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003eb a",
@@ -719,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "fromJust",
           "package": "safe-failure",
@@ -728,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "fromJust",
           "normalized": "Maybe a-\u003eb a",
@@ -743,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "head",
           "package": "safe-failure",
@@ -752,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "head",
           "normalized": "[a]-\u003eb a",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "init",
           "package": "safe-failure",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "init",
           "normalized": "[a]-\u003eb[a]",
@@ -789,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "last",
           "package": "safe-failure",
@@ -798,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "last",
           "normalized": "[a]-\u003eb a",
@@ -813,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e lookupJust key = fromJust . lookup key\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "lookup",
           "package": "safe-failure",
@@ -823,6 +896,7 @@
         "index": {
           "description": "lookupJust key fromJust lookup key",
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "lookup",
           "normalized": "a-\u003e[(a,b)]-\u003ec b",
@@ -837,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "maximum",
           "package": "safe-failure",
@@ -846,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "maximum",
           "normalized": "[a]-\u003eb a",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "minimum",
           "package": "safe-failure",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "minimum",
           "normalized": "[a]-\u003eb a",
@@ -884,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enote\u003c/code\u003e, use it to fail with an annotated runtime error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "note",
           "package": "safe-failure",
@@ -894,6 +973,7 @@
         "index": {
           "description": "note use it to fail with an annotated runtime error",
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "note",
           "normalized": "String-\u003eEither a b-\u003eb",
@@ -908,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "read",
           "package": "safe-failure",
@@ -917,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "read",
           "normalized": "String-\u003ea b",
@@ -931,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:14 UTC 2014",
           "module": "Safe.Failure",
           "name": "tail",
           "package": "safe-failure",
@@ -940,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Safe Failure",
+          "indexed": "2014-03-11T19:56:14",
           "module": "Safe.Failure",
           "name": "tail",
           "normalized": "[a]-\u003eb[a]",

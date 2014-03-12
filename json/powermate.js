@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "powermate"
+        "phrase": "powermate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "MPD",
           "name": "MPD",
           "package": "powermate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "MPD",
+          "indexed": "2014-03-11T19:42:40",
           "module": "MPD",
           "name": "MPD",
           "package": "powermate",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "MPD",
           "name": "Connection",
           "package": "powermate",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "MPD",
+          "indexed": "2014-03-11T19:42:40",
           "module": "MPD",
           "name": "Connection",
           "package": "powermate",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "MPD",
           "name": "ReconnectableConnection",
           "package": "powermate",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "MPD",
+          "indexed": "2014-03-11T19:42:40",
           "module": "MPD",
           "name": "ReconnectableConnection",
           "package": "powermate",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "MPD",
           "name": "connect",
           "package": "powermate",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "MPD",
+          "indexed": "2014-03-11T19:42:40",
           "module": "MPD",
           "name": "connect",
           "normalized": "(String,Int)-\u003eIO Connection",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "MPD",
           "name": "getVolume",
           "package": "powermate",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "MPD",
+          "indexed": "2014-03-11T19:42:40",
           "module": "MPD",
           "name": "getVolume",
           "normalized": "Connection-\u003eIO Int",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "MPD",
           "name": "rcConnect",
           "package": "powermate",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "MPD",
+          "indexed": "2014-03-11T19:42:40",
           "module": "MPD",
           "name": "rcConnect",
           "normalized": "(String,Int)-\u003eIO ReconnectableConnection",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "MPD",
           "name": "rcConnection",
           "package": "powermate",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "MPD",
+          "indexed": "2014-03-11T19:42:40",
           "module": "MPD",
           "name": "rcConnection",
           "normalized": "ReconnectableConnection-\u003eIO Connection",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "MPD",
           "name": "rcDo",
           "package": "powermate",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "MPD",
+          "indexed": "2014-03-11T19:42:40",
           "module": "MPD",
           "name": "rcDo",
           "normalized": "ReconnectableConnection-\u003e(Connection-\u003eIO a)-\u003eIO a",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "MPD",
           "name": "runCommand",
           "package": "powermate",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "MPD",
+          "indexed": "2014-03-11T19:42:40",
           "module": "MPD",
           "name": "runCommand",
           "normalized": "Handle-\u003eString-\u003eIO[String]",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "MPD",
           "name": "runCommand_",
           "package": "powermate",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "MPD",
+          "indexed": "2014-03-11T19:42:40",
           "module": "MPD",
           "name": "runCommand_",
           "normalized": "Handle-\u003eString-\u003eIO()",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "MPD",
           "name": "setVolume",
           "package": "powermate",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "MPD",
+          "indexed": "2014-03-11T19:42:40",
           "module": "MPD",
           "name": "setVolume",
           "normalized": "Connection-\u003eInt-\u003eIO()",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "PowerMate",
           "package": "powermate",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "PowerMate",
           "package": "powermate",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "Event",
           "package": "powermate",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "Event",
           "package": "powermate",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "Status",
           "package": "powermate",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "Status",
           "package": "powermate",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "Button",
           "package": "powermate",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "Button",
           "package": "powermate",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "Rotate",
           "package": "powermate",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "Rotate",
           "package": "powermate",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "Status",
           "package": "powermate",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "Status",
           "package": "powermate",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "StatusChange",
           "package": "powermate",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "StatusChange",
           "package": "powermate",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "brightness",
           "package": "powermate",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "brightness",
           "package": "powermate",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "getUSBName",
           "package": "powermate",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "getUSBName",
           "normalized": "FilePath-\u003eIO String",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "openDevice",
           "package": "powermate",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "openDevice",
           "normalized": "FilePath-\u003eIO Handle",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "pulse_asleep",
           "package": "powermate",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "pulse_asleep",
           "package": "powermate",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "pulse_awake",
           "package": "powermate",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "pulse_awake",
           "package": "powermate",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "pulse_mode",
           "package": "powermate",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "pulse_mode",
           "package": "powermate",
@@ -555,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "pulse_speed",
           "package": "powermate",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "pulse_speed",
           "package": "powermate",
@@ -576,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "readEvent",
           "package": "powermate",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "readEvent",
           "normalized": "Handle-\u003eIO(Maybe Event)",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "readEventWithSkip",
           "package": "powermate",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "readEventWithSkip",
           "normalized": "Handle-\u003eMaybe Event-\u003eIO(Maybe Event)",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "searchForDevice",
           "package": "powermate",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "searchForDevice",
           "package": "powermate",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "statusInit",
           "package": "powermate",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "statusInit",
           "package": "powermate",
@@ -668,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:40 UTC 2014",
           "module": "PowerMate",
           "name": "writeStatus",
           "package": "powermate",
@@ -677,6 +736,7 @@
         },
         "index": {
           "hierarchy": "PowerMate",
+          "indexed": "2014-03-11T19:42:40",
           "module": "PowerMate",
           "name": "writeStatus",
           "normalized": "Handle-\u003eStatus-\u003eIO()",

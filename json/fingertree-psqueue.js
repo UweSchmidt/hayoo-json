@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fingertree-psqueue"
+        "phrase": "fingertree-psqueue",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "PSQueue",
           "package": "fingertree-psqueue",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "PSQueue",
           "package": "fingertree-psqueue",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "Binding",
           "package": "fingertree-psqueue",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "Binding",
           "package": "fingertree-psqueue",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "PSQ",
           "package": "fingertree-psqueue",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "PSQ",
           "package": "fingertree-psqueue",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": ":-\u003e",
           "package": "fingertree-psqueue",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": ":-\u003e",
           "normalized": "a-\u003eb",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(log n). Adjust the priority of a key in the queue, provided that key exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "adjust",
           "package": "fingertree-psqueue",
@@ -115,6 +124,7 @@
         "index": {
           "description": "log Adjust the priority of key in the queue provided that key exists",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eb-\u003ePSQ b a-\u003ePSQ b a",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(log n). Adjust the priority of a key in the queue, provided that key exists, according to a function which additionally takes\n the key as a parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "adjustWithKey",
           "package": "fingertree-psqueue",
@@ -140,6 +151,7 @@
         "index": {
           "description": "log Adjust the priority of key in the queue provided that key exists according to function which additionally takes the key as parameter",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "adjustWithKey",
           "normalized": "(a-\u003eb-\u003eb)-\u003ea-\u003ePSQ a b-\u003ePSQ a b",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(log n). Alters a priority search queue such that \u003ccode\u003elookup k (alter f k q) = f (lookup k q)\u003c/code\u003e. This can be used to insert, delete,\n or update a priority in a queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "alter",
           "package": "fingertree-psqueue",
@@ -166,6 +179,7 @@
         "index": {
           "description": "log Alters priority search queue such that lookup alter lookup This can be used to insert delete or update priority in queue",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "alter",
           "normalized": "(Maybe a-\u003eMaybe a)-\u003eb-\u003ePSQ b a-\u003ePSQ b a",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(r (log n)). Finds all the bindings in a queue whose priority is less than the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "atMost",
           "package": "fingertree-psqueue",
@@ -191,6 +206,7 @@
         "index": {
           "description": "log Finds all the bindings in queue whose priority is less than the given value",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "atMost",
           "normalized": "a-\u003ePSQ b a-\u003e[Binding b a]",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(log n). Delete a key from a queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "delete",
           "package": "fingertree-psqueue",
@@ -217,6 +234,7 @@
         "index": {
           "description": "log Delete key from queue",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "delete",
           "normalized": "a-\u003ePSQ a b-\u003ePSQ a b",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(log n). Delete the key with minimum priority from a queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "deleteMin",
           "package": "fingertree-psqueue",
@@ -242,6 +261,7 @@
         "index": {
           "description": "log Delete the key with minimum priority from queue",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "deleteMin",
           "normalized": "PSQ a b-\u003ePSQ a b",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). The empty queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "empty",
           "package": "fingertree-psqueue",
@@ -268,6 +289,7 @@
         "index": {
           "description": "The empty queue",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "empty",
           "package": "fingertree-psqueue",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Find the binding with minimum priority in a queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "findMin",
           "package": "fingertree-psqueue",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Find the binding with minimum priority in queue",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "findMin",
           "normalized": "PSQ a b-\u003eMaybe(Binding a b)",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft fold over the list of bindings in a queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "foldl",
           "package": "fingertree-psqueue",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Left fold over the list of bindings in queue",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "foldl",
           "normalized": "(a-\u003eBinding b c-\u003ea)-\u003ea-\u003ePSQ b c-\u003ea",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight fold over the list of bindings in a queue. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "foldr",
           "package": "fingertree-psqueue",
@@ -342,6 +369,7 @@
         "index": {
           "description": "Right fold over the list of bindings in queue",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "foldr",
           "normalized": "(Binding a b-\u003ec-\u003ec)-\u003ec-\u003ePSQ a b-\u003ec",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n log n). Contstruct a queue from an already ascending list of bindings. Does not check that the list is sorted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "fromAscList",
           "package": "fingertree-psqueue",
@@ -367,6 +396,7 @@
         "index": {
           "description": "log Contstruct queue from an already ascending list of bindings Does not check that the list is sorted",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "fromAscList",
           "normalized": "[Binding a b]-\u003ePSQ a b",
@@ -383,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n log n). Construct a queue from a list of bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "fromList",
           "package": "fingertree-psqueue",
@@ -393,6 +424,7 @@
         "index": {
           "description": "log Construct queue from list of bindings",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "fromList",
           "normalized": "[Binding a b]-\u003ePSQ a b",
@@ -409,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Extract the list of keys of a queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "keys",
           "package": "fingertree-psqueue",
@@ -419,6 +452,7 @@
         "index": {
           "description": "Extract the list of keys of queue",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "keys",
           "normalized": "PSQ a b-\u003e[a]",
@@ -434,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(log n). Determine if a key is in the queue, and its priority.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "lookup",
           "package": "fingertree-psqueue",
@@ -444,6 +479,7 @@
         "index": {
           "description": "log Determine if key is in the queue and its priority",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "lookup",
           "normalized": "a-\u003ePSQ a b-\u003eMaybe b",
@@ -459,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(log n). Split a queue into the element with minimum priority, and the remainder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "minView",
           "package": "fingertree-psqueue",
@@ -469,6 +506,7 @@
         "index": {
           "description": "log Split queue into the element with minimum priority and the remainder",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "minView",
           "normalized": "PSQ a b-\u003eMaybe(Binding a b,PSQ a b)",
@@ -485,6 +523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Test if a queue is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "null",
           "package": "fingertree-psqueue",
@@ -495,6 +534,7 @@
         "index": {
           "description": "Test if queue is empty",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "null",
           "normalized": "PSQ a b-\u003eBool",
@@ -510,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(log n). The expression \u003ccode\u003erange (l,u) q\u003c/code\u003e selects the keys k from q where \u003ccode\u003el \u003c= k\u003c/code\u003e and \u003ccode\u003ek \u003c= u\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "range",
           "package": "fingertree-psqueue",
@@ -520,6 +561,7 @@
         "index": {
           "description": "log The expression range selects the keys from where and",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "range",
           "normalized": "(a,a)-\u003ePSQ a b-\u003ePSQ a b",
@@ -535,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Construct a queue with a single key/priority binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "singleton",
           "package": "fingertree-psqueue",
@@ -545,6 +588,7 @@
         "index": {
           "description": "Construct queue with single key priority binding",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003ePSQ a b",
@@ -560,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). The number of bindings in a queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "size",
           "package": "fingertree-psqueue",
@@ -570,6 +615,7 @@
         "index": {
           "description": "The number of bindings in queue",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "size",
           "normalized": "PSQ a b-\u003eInt",
@@ -585,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Flatten a queue into a list of bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "toList",
           "package": "fingertree-psqueue",
@@ -595,6 +642,7 @@
         "index": {
           "description": "Flatten queue into list of bindings",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "toList",
           "normalized": "PSQ a b-\u003e[Binding a b]",
@@ -611,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(log n). Update or delete a priority in the queue, provided that key exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "update",
           "package": "fingertree-psqueue",
@@ -621,6 +670,7 @@
         "index": {
           "description": "log Update or delete priority in the queue provided that key exists",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "update",
           "normalized": "(a-\u003eMaybe a)-\u003eb-\u003ePSQ b a-\u003ePSQ b a",
@@ -636,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(log n). Update or delete a priority in the queue, provided that key exists, according to a function which additionally takes\n the key as a parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:20 UTC 2014",
           "module": "Data.FingerTree.PSQueue",
           "name": "updateWithKey",
           "package": "fingertree-psqueue",
@@ -646,6 +697,7 @@
         "index": {
           "description": "log Update or delete priority in the queue provided that key exists according to function which additionally takes the key as parameter",
           "hierarchy": "Data FingerTree PSQueue",
+          "indexed": "2014-03-11T18:09:20",
           "module": "Data.FingerTree.PSQueue",
           "name": "updateWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe b)-\u003ea-\u003ePSQ a b-\u003ePSQ a b",

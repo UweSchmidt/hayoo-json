@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wtk"
+        "phrase": "wtk",
+        "type": "phrase"
       },
       "type": "context"
     }

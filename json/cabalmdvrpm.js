@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabalmdvrpm"
+        "phrase": "cabalmdvrpm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:00 UTC 2014",
           "module": "Distribution.MDV.Rpm",
           "name": "3ASpecOpts",
           "package": "cabalmdvrpm",
@@ -25,6 +26,7 @@
         },
         "index": {
           "hierarchy": "Distribution MDV Rpm",
+          "indexed": "2014-03-11T17:29:00",
           "module": "Distribution.MDV.Rpm",
           "name": "3ASpecOpts",
           "package": "cabalmdvrpm",
@@ -38,6 +40,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:00 UTC 2014",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpec",
           "package": "cabalmdvrpm",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "Distribution MDV Rpm",
+          "indexed": "2014-03-11T17:29:00",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpec",
           "normalized": "SpecOpts-\u003ePackageDescription-\u003eString",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:00 UTC 2014",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpecBuild",
           "package": "cabalmdvrpm",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Distribution MDV Rpm",
+          "indexed": "2014-03-11T17:29:00",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpecBuild",
           "normalized": "SpecOpts-\u003ePackageDescription-\u003eString",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:00 UTC 2014",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpecCheck",
           "package": "cabalmdvrpm",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Distribution MDV Rpm",
+          "indexed": "2014-03-11T17:29:00",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpecCheck",
           "normalized": "SpecOpts-\u003ePackageDescription-\u003eString",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:00 UTC 2014",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpecClean",
           "package": "cabalmdvrpm",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Distribution MDV Rpm",
+          "indexed": "2014-03-11T17:29:00",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpecClean",
           "normalized": "SpecOpts-\u003ePackageDescription-\u003eString",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:00 UTC 2014",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpecFiles",
           "package": "cabalmdvrpm",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Distribution MDV Rpm",
+          "indexed": "2014-03-11T17:29:00",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpecFiles",
           "normalized": "SpecOpts-\u003ePackageDescription-\u003eString",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:00 UTC 2014",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpecHeader",
           "package": "cabalmdvrpm",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Distribution MDV Rpm",
+          "indexed": "2014-03-11T17:29:00",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpecHeader",
           "normalized": "SpecOpts-\u003ePackageDescription-\u003eString",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:00 UTC 2014",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpecInstall",
           "package": "cabalmdvrpm",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Distribution MDV Rpm",
+          "indexed": "2014-03-11T17:29:00",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpecInstall",
           "normalized": "SpecOpts-\u003ePackageDescription-\u003eString",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:00 UTC 2014",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpecPrep",
           "package": "cabalmdvrpm",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Distribution MDV Rpm",
+          "indexed": "2014-03-11T17:29:00",
           "module": "Distribution.MDV.Rpm",
           "name": "3AbuildSpecPrep",
           "normalized": "SpecOpts-\u003ePackageDescription-\u003eString",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:00 UTC 2014",
           "module": "Distribution.MDV.Rpm",
           "name": "3AdefaultsSpecOptions",
           "package": "cabalmdvrpm",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Distribution MDV Rpm",
+          "indexed": "2014-03-11T17:29:00",
           "module": "Distribution.MDV.Rpm",
           "name": "3AdefaultsSpecOptions",
           "package": "cabalmdvrpm",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:00 UTC 2014",
           "module": "Distribution.MDV.Rpm",
           "name": "3ArpmpkgName",
           "package": "cabalmdvrpm",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Distribution MDV Rpm",
+          "indexed": "2014-03-11T17:29:00",
           "module": "Distribution.MDV.Rpm",
           "name": "3ArpmpkgName",
           "normalized": "SpecOpts-\u003ePackageDescription-\u003eString",

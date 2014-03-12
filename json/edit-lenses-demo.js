@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "edit-lenses-demo"
+        "phrase": "edit-lenses-demo",
+        "type": "phrase"
       },
       "type": "context"
     }

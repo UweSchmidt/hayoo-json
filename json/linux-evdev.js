@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "linux-evdev"
+        "phrase": "linux-evdev",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "Constants",
           "package": "linux-evdev",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "Constants",
           "package": "linux-evdev",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "AbsAxis",
           "package": "linux-evdev",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "AbsAxis",
           "package": "linux-evdev",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "Key",
           "package": "linux-evdev",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "Key",
           "package": "linux-evdev",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "RelAxis",
           "package": "linux-evdev",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "RelAxis",
           "package": "linux-evdev",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "SyncType",
           "package": "linux-evdev",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "SyncType",
           "package": "linux-evdev",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "AbsAxis",
           "package": "linux-evdev",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "AbsAxis",
           "package": "linux-evdev",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "Key",
           "package": "linux-evdev",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "Key",
           "package": "linux-evdev",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "RelAxis",
           "package": "linux-evdev",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "RelAxis",
           "package": "linux-evdev",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "SyncType",
           "package": "linux-evdev",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "SyncType",
           "package": "linux-evdev",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "abs_rx",
           "package": "linux-evdev",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "abs_rx",
           "package": "linux-evdev",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "abs_ry",
           "package": "linux-evdev",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "abs_ry",
           "package": "linux-evdev",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "abs_rz",
           "package": "linux-evdev",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "abs_rz",
           "package": "linux-evdev",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "abs_x",
           "package": "linux-evdev",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "abs_x",
           "package": "linux-evdev",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "abs_y",
           "package": "linux-evdev",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "abs_y",
           "package": "linux-evdev",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "abs_z",
           "package": "linux-evdev",
@@ -325,6 +354,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "abs_z",
           "package": "linux-evdev",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "key_esc",
           "package": "linux-evdev",
@@ -346,6 +377,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "key_esc",
           "package": "linux-evdev",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "key_reserved",
           "package": "linux-evdev",
@@ -367,6 +400,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "key_reserved",
           "package": "linux-evdev",
@@ -379,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_dial",
           "package": "linux-evdev",
@@ -388,6 +423,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_dial",
           "package": "linux-evdev",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_hWheel",
           "package": "linux-evdev",
@@ -409,6 +446,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_hWheel",
           "package": "linux-evdev",
@@ -422,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_misc",
           "package": "linux-evdev",
@@ -431,6 +470,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_misc",
           "package": "linux-evdev",
@@ -443,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_rx",
           "package": "linux-evdev",
@@ -452,6 +493,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_rx",
           "package": "linux-evdev",
@@ -464,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_ry",
           "package": "linux-evdev",
@@ -473,6 +516,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_ry",
           "package": "linux-evdev",
@@ -485,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_rz",
           "package": "linux-evdev",
@@ -494,6 +539,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_rz",
           "package": "linux-evdev",
@@ -506,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_wheel",
           "package": "linux-evdev",
@@ -515,6 +562,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_wheel",
           "package": "linux-evdev",
@@ -527,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_x",
           "package": "linux-evdev",
@@ -536,6 +585,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_x",
           "package": "linux-evdev",
@@ -548,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_y",
           "package": "linux-evdev",
@@ -557,6 +608,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_y",
           "package": "linux-evdev",
@@ -569,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_z",
           "package": "linux-evdev",
@@ -578,6 +631,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "rel_z",
           "package": "linux-evdev",
@@ -590,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "sync_config",
           "package": "linux-evdev",
@@ -599,6 +654,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "sync_config",
           "package": "linux-evdev",
@@ -611,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "sync_dropped",
           "package": "linux-evdev",
@@ -620,6 +677,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "sync_dropped",
           "package": "linux-evdev",
@@ -632,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "sync_mt_report",
           "package": "linux-evdev",
@@ -641,6 +700,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "sync_mt_report",
           "package": "linux-evdev",
@@ -653,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event.Constants",
           "name": "sync_report",
           "package": "linux-evdev",
@@ -662,6 +723,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event Constants",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event.Constants",
           "name": "sync_report",
           "package": "linux-evdev",
@@ -674,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "Event",
           "package": "linux-evdev",
@@ -682,6 +745,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "Event",
           "package": "linux-evdev",
@@ -696,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "Event",
           "package": "linux-evdev",
@@ -705,6 +770,7 @@
         "index": {
           "description": "An Event",
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "Event",
           "package": "linux-evdev",
@@ -718,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "AbsEvent",
           "package": "linux-evdev",
@@ -727,6 +794,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "AbsEvent",
           "package": "linux-evdev",
@@ -740,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "FfEvent",
           "package": "linux-evdev",
@@ -749,6 +818,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "FfEvent",
           "package": "linux-evdev",
@@ -762,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "FfStatusEvent",
           "package": "linux-evdev",
@@ -771,6 +842,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "FfStatusEvent",
           "package": "linux-evdev",
@@ -784,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "KeyEvent",
           "package": "linux-evdev",
@@ -793,6 +866,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "KeyEvent",
           "package": "linux-evdev",
@@ -806,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "LedEvent",
           "package": "linux-evdev",
@@ -815,6 +890,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "LedEvent",
           "package": "linux-evdev",
@@ -828,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "MscEvent",
           "package": "linux-evdev",
@@ -837,6 +914,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "MscEvent",
           "package": "linux-evdev",
@@ -850,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "RelEvent",
           "package": "linux-evdev",
@@ -859,6 +938,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "RelEvent",
           "package": "linux-evdev",
@@ -872,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "RepEvent",
           "package": "linux-evdev",
@@ -881,6 +962,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "RepEvent",
           "package": "linux-evdev",
@@ -894,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "SndEvent",
           "package": "linux-evdev",
@@ -903,6 +986,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "SndEvent",
           "package": "linux-evdev",
@@ -916,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "SwEvent",
           "package": "linux-evdev",
@@ -925,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "SwEvent",
           "package": "linux-evdev",
@@ -938,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "SyncEvent",
           "package": "linux-evdev",
@@ -947,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "SyncEvent",
           "package": "linux-evdev",
@@ -960,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "evAbsAxis",
           "package": "linux-evdev",
@@ -969,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "evAbsAxis",
           "package": "linux-evdev",
@@ -982,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "evKeyCode",
           "package": "linux-evdev",
@@ -991,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "evKeyCode",
           "package": "linux-evdev",
@@ -1004,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "evRelAxis",
           "package": "linux-evdev",
@@ -1013,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "evRelAxis",
           "package": "linux-evdev",
@@ -1026,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "evSyncCode",
           "package": "linux-evdev",
@@ -1035,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "evSyncCode",
           "package": "linux-evdev",
@@ -1048,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "evTimestamp",
           "package": "linux-evdev",
@@ -1057,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "evTimestamp",
           "package": "linux-evdev",
@@ -1070,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "evValue",
           "package": "linux-evdev",
@@ -1079,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "evValue",
           "package": "linux-evdev",
@@ -1093,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:09 UTC 2014",
           "module": "System.Linux.Input.Event",
           "name": "hReadEvent",
           "package": "linux-evdev",
@@ -1103,6 +1204,7 @@
         "index": {
           "description": "Read an event",
           "hierarchy": "System Linux Input Event",
+          "indexed": "2014-03-11T19:10:09",
           "module": "System.Linux.Input.Event",
           "name": "hReadEvent",
           "normalized": "Handle-\u003eIO(Maybe Event)",

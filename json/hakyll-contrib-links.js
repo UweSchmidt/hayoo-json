@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hakyll-contrib-links"
+        "phrase": "hakyll-contrib-links",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unpack-funcs"
+        "phrase": "unpack-funcs",
+        "type": "phrase"
       },
       "type": "context"
     }

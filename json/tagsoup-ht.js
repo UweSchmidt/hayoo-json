@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tagsoup-ht"
+        "phrase": "tagsoup-ht",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "All tags that are defined being self-closing by the HTML standard\nare formatted only as open tag.\nE.g. \u003ctt\u003e\u003ca\u003ebr\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Format",
           "name": "html",
           "package": "tagsoup-ht",
@@ -29,6 +30,7 @@
         "index": {
           "description": "All tags that are defined being self-closing by the HTML standard are formatted only as open tag E.g br",
           "hierarchy": "Text HTML TagSoup HT Format",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Format",
           "name": "html",
           "normalized": "[T a b]-\u003eShowS",
@@ -44,6 +46,7 @@
       "document": {
         "description": {
           "description": "If the first tag is \u003ctt\u003e\u003ca\u003e?xml ...?\u003c/a\u003e\u003c/tt\u003e then format in XHTML style,\nelse in HTML style.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Format",
           "name": "htmlOrXhtml",
           "package": "tagsoup-ht",
@@ -54,6 +57,7 @@
         "index": {
           "description": "If the first tag is xml then format in XHTML style else in HTML style",
           "hierarchy": "Text HTML TagSoup HT Format",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Format",
           "name": "htmlOrXhtml",
           "normalized": "[T a b]-\u003eShowS",
@@ -70,6 +74,7 @@
       "document": {
         "description": {
           "description": "All tags that are defined being self-closing by the XHTML standard\nare formatted as self-closing open tag.\nE.g. \u003ctt\u003e\u003ca\u003ebr/\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Format",
           "name": "xhtml",
           "package": "tagsoup-ht",
@@ -80,6 +85,7 @@
         "index": {
           "description": "All tags that are defined being self-closing by the XHTML standard are formatted as self-closing open tag E.g br",
           "hierarchy": "Text HTML TagSoup HT Format",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Format",
           "name": "xhtml",
           "normalized": "[T a b]-\u003eShowS",
@@ -95,6 +101,7 @@
       "document": {
         "description": {
           "description": "All tags are formatted as they are.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Format",
           "name": "xml",
           "package": "tagsoup-ht",
@@ -105,6 +112,7 @@
         "index": {
           "description": "All tags are formatted as they are",
           "hierarchy": "Text HTML TagSoup HT Format",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Format",
           "name": "xml",
           "normalized": "[T a b]-\u003eShowS",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "Adjacent corresponding open and close tags are merged to a self-closing tag.\nE.g. \u003ctt\u003e\u003ca\u003ea\u003e\u003c/a\u003e@ becomes @\u003ca/\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Format",
           "name": "xmlCondensed",
           "package": "tagsoup-ht",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Adjacent corresponding open and close tags are merged to self-closing tag E.g becomes",
           "hierarchy": "Text HTML TagSoup HT Format",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Format",
           "name": "xmlCondensed",
           "normalized": "[T a b]-\u003eShowS",
@@ -145,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Parser",
           "name": "CharType",
           "package": "tagsoup-ht",
@@ -153,6 +164,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Parser",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Parser",
           "name": "CharType",
           "package": "tagsoup-ht",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "Parse the inner of a single tag.\nThat is, \u003ctt\u003erunTag \"\u003cbla\u003e\"\u003c/tt\u003e is the same as \u003ctt\u003erunInnerOfTag \"\u003cbla\u003e\"\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Parser",
           "name": "runInnerOfTag",
           "package": "tagsoup-ht",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Parse the inner of single tag That is runTag bla is the same as runInnerOfTag bla",
           "hierarchy": "Text HTML TagSoup HT Parser",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Parser",
           "name": "runInnerOfTag",
           "normalized": "String-\u003eT a b",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "Like \u003ctt\u003e\u003ca\u003erunSoupWithPositions\u003c/a\u003e\u003c/tt\u003e but hides source file positions.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Parser",
           "name": "runSoup",
           "package": "tagsoup-ht",
@@ -203,6 +218,7 @@
         "index": {
           "description": "Like runSoupWithPositions but hides source file positions",
           "hierarchy": "Text HTML TagSoup HT Parser",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Parser",
           "name": "runSoup",
           "normalized": "a-\u003e[T b c]",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "Parse an HTML document to a list of \u003ctt\u003e\u003ca\u003eT\u003c/a\u003e\u003c/tt\u003e.\n Automatically expands out escape characters.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Parser",
           "name": "runSoupWithPositions",
           "package": "tagsoup-ht",
@@ -229,6 +246,7 @@
         "index": {
           "description": "Parse an HTML document to list of Automatically expands out escape characters",
           "hierarchy": "Text HTML TagSoup HT Parser",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Parser",
           "name": "runSoupWithPositions",
           "normalized": "a-\u003e[T b c]",
@@ -244,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Parser",
           "name": "runSoupWithPositionsName",
           "package": "tagsoup-ht",
@@ -253,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Parser",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Parser",
           "name": "runSoupWithPositionsName",
           "normalized": "FilePath-\u003ea-\u003e[T b c]",
@@ -269,6 +289,7 @@
       "document": {
         "description": {
           "description": "Parse a single tag, throws an error if there is a syntax error.\nThis is useful for parsing a match pattern.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Parser",
           "name": "runTag",
           "package": "tagsoup-ht",
@@ -279,6 +300,7 @@
         "index": {
           "description": "Parse single tag throws an error if there is syntax error This is useful for parsing match pattern",
           "hierarchy": "Text HTML TagSoup HT Parser",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Parser",
           "name": "runTag",
           "normalized": "a-\u003eT b c",
@@ -294,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.ParserNM",
           "name": "runSoup",
           "package": "tagsoup-ht",
@@ -303,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT ParserNM",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.ParserNM",
           "name": "runSoup",
           "normalized": "String-\u003e[Tag]",
@@ -318,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.PositionTag",
           "name": "T",
           "package": "tagsoup-ht",
@@ -326,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT PositionTag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.PositionTag",
           "name": "T",
           "package": "tagsoup-ht",
@@ -339,6 +365,7 @@
       "document": {
         "description": {
           "description": "Merge adjacent Text sections.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.PositionTag",
           "name": "concatTexts",
           "package": "tagsoup-ht",
@@ -349,6 +376,7 @@
         "index": {
           "description": "Merge adjacent Text sections",
           "hierarchy": "Text HTML TagSoup HT PositionTag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.PositionTag",
           "name": "concatTexts",
           "normalized": "[T a b]-\u003e[T a b]",
@@ -364,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.PositionTag",
           "name": "cons",
           "package": "tagsoup-ht",
@@ -373,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT PositionTag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.PositionTag",
           "name": "cons",
           "normalized": "T-\u003eT a b-\u003eT a b",
@@ -387,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.PositionTag",
           "name": "lift",
           "package": "tagsoup-ht",
@@ -396,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT PositionTag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.PositionTag",
           "name": "lift",
           "normalized": "(T a b-\u003eT a b)-\u003eT a b-\u003eT a b",
@@ -410,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.PositionTag",
           "name": "position",
           "package": "tagsoup-ht",
@@ -419,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT PositionTag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.PositionTag",
           "name": "position",
           "package": "tagsoup-ht",
@@ -431,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.PositionTag",
           "name": "tag",
           "package": "tagsoup-ht",
@@ -440,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT PositionTag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.PositionTag",
           "name": "tag",
           "package": "tagsoup-ht",
@@ -452,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.PositionTag",
           "name": "textFromCData",
           "package": "tagsoup-ht",
@@ -461,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT PositionTag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.PositionTag",
           "name": "textFromCData",
           "normalized": "T a String-\u003eT a String",
@@ -476,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Process",
           "name": "findMetaEncoding",
           "package": "tagsoup-ht",
@@ -485,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Process",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Process",
           "name": "findMetaEncoding",
           "normalized": "[T a String]-\u003eMaybe String",
@@ -500,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Process",
           "name": "getHeadTags",
           "package": "tagsoup-ht",
@@ -509,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Process",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Process",
           "name": "getHeadTags",
           "normalized": "[T a b]-\u003e[T a b]",
@@ -525,6 +567,7 @@
       "document": {
         "description": {
           "description": "Extract META tags which contain HTTP-EQUIV attribute\nand present these values like HTTP headers.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Process",
           "name": "getMetaHTTPHeaders",
           "package": "tagsoup-ht",
@@ -535,6 +578,7 @@
         "index": {
           "description": "Extract META tags which contain HTTP-EQUIV attribute and present these values like HTTP headers",
           "hierarchy": "Text HTML TagSoup HT Process",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Process",
           "name": "getMetaHTTPHeaders",
           "normalized": "[T a b]-\u003e[(b,b)]",
@@ -551,6 +595,7 @@
       "document": {
         "description": {
           "description": "Modify attributes and tags of certain parts.\nFor limitations, see \u003ctt\u003e\u003ca\u003eparts\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Process",
           "name": "partAttrs",
           "package": "tagsoup-ht",
@@ -561,6 +606,7 @@
         "index": {
           "description": "Modify attributes and tags of certain parts For limitations see parts",
           "hierarchy": "Text HTML TagSoup HT Process",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Process",
           "name": "partAttrs",
           "normalized": "(Name a-\u003eBool)-\u003e(([T a b],[T a b])-\u003e([T a b],[T a b]))-\u003e[T a b]-\u003e[T a b]",
@@ -577,6 +623,7 @@
       "document": {
         "description": {
           "description": "Extract parts from the tag soup\nthat are enclosed in corresponding open and close tags.\nIf a close tag is missing, the soup end is considered as end of the part.\nHowever nested tags are not supported,\ne.g. in \u003ctt\u003e\u003ca\u003ea\u003e\u003ca\u003e\u003c/a\u003e\u003c/a\u003e@ the second @\u003ca\u003c/a\u003e\u003c/tt\u003e is considered\nto be enclosed in the first \u003ctt\u003e\u003ca\u003ea\u003e@ and the first @\u003c/a\u003c/a\u003e\u003c/tt\u003e\nand the second \u003ctt\u003e\u003ca\u003e/a\u003c/a\u003e\u003c/tt\u003e is ignored.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Process",
           "name": "parts",
           "package": "tagsoup-ht",
@@ -587,6 +634,7 @@
         "index": {
           "description": "Extract parts from the tag soup that are enclosed in corresponding open and close tags If close tag is missing the soup end is considered as end of the part However nested tags are not supported e.g in the second is considered to be enclosed in the first and the first and the second is ignored",
           "hierarchy": "Text HTML TagSoup HT Process",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Process",
           "name": "parts",
           "normalized": "(Name a-\u003eBool)-\u003e[T a b]-\u003e[Either((Name a,[T a b]),[T a b])[T a b]]",
@@ -602,6 +650,7 @@
       "document": {
         "description": {
           "description": "match an closing tag\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "close",
           "package": "tagsoup-ht",
@@ -612,6 +661,7 @@
         "index": {
           "description": "match an closing tag",
           "hierarchy": "Text HTML TagSoup HT Tag Match",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "close",
           "normalized": "(Name a-\u003eBool)-\u003eT a b-\u003eBool",
@@ -627,6 +677,7 @@
       "document": {
         "description": {
           "description": "match a closing tag's name literally\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "closeLit",
           "package": "tagsoup-ht",
@@ -637,6 +688,7 @@
         "index": {
           "description": "match closing tag name literally",
           "hierarchy": "Text HTML TagSoup HT Tag Match",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "closeLit",
           "normalized": "String-\u003eT a b-\u003eBool",
@@ -653,6 +705,7 @@
       "document": {
         "description": {
           "description": "Check if the \u003ctt\u003e\u003ca\u003eT\u003c/a\u003e\u003c/tt\u003e is \u003ctt\u003e\u003ca\u003eClose\u003c/a\u003e\u003c/tt\u003e and matches the given name\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "closeNameLit",
           "package": "tagsoup-ht",
@@ -663,6 +716,7 @@
         "index": {
           "description": "Check if the is Close and matches the given name",
           "hierarchy": "Text HTML TagSoup HT Tag Match",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "closeNameLit",
           "normalized": "String-\u003eT a b-\u003eBool",
@@ -678,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "comment",
           "package": "tagsoup-ht",
@@ -687,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag Match",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "comment",
           "normalized": "(String-\u003eBool)-\u003eT a b-\u003eBool",
@@ -701,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "ignore",
           "package": "tagsoup-ht",
@@ -710,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag Match",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "ignore",
           "normalized": "a-\u003eBool",
@@ -725,6 +783,7 @@
       "document": {
         "description": {
           "description": "match an opening tag\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "open",
           "package": "tagsoup-ht",
@@ -735,6 +794,7 @@
         "index": {
           "description": "match an opening tag",
           "hierarchy": "Text HTML TagSoup HT Tag Match",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "open",
           "normalized": "(Name a-\u003eBool)-\u003e([T a b]-\u003eBool)-\u003eT a b-\u003eBool",
@@ -749,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "openAttrLit",
           "package": "tagsoup-ht",
@@ -758,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag Match",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "openAttrLit",
           "normalized": "String-\u003eString-\u003ea-\u003eT b a-\u003eBool",
@@ -774,6 +836,7 @@
       "document": {
         "description": {
           "description": "Match a tag with given name, that contains an attribute\nwith given name, that satisfies a predicate.\nIf an attribute occurs multiple times,\nall occurrences are checked.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "openAttrNameLit",
           "package": "tagsoup-ht",
@@ -784,6 +847,7 @@
         "index": {
           "description": "Match tag with given name that contains an attribute with given name that satisfies predicate If an attribute occurs multiple times all occurrences are checked",
           "hierarchy": "Text HTML TagSoup HT Tag Match",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "openAttrNameLit",
           "normalized": "String-\u003eString-\u003e(a-\u003eBool)-\u003eT b a-\u003eBool",
@@ -800,6 +864,7 @@
       "document": {
         "description": {
           "description": "match a opening tag's name literally\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "openLit",
           "package": "tagsoup-ht",
@@ -810,6 +875,7 @@
         "index": {
           "description": "match opening tag name literally",
           "hierarchy": "Text HTML TagSoup HT Tag Match",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "openLit",
           "normalized": "String-\u003e([T a b]-\u003eBool)-\u003eT a b-\u003eBool",
@@ -826,6 +892,7 @@
       "document": {
         "description": {
           "description": "Check if the \u003ctt\u003e\u003ca\u003eT\u003c/a\u003e\u003c/tt\u003e is \u003ctt\u003e\u003ca\u003eOpen\u003c/a\u003e\u003c/tt\u003e and matches the given name\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "openNameLit",
           "package": "tagsoup-ht",
@@ -836,6 +903,7 @@
         "index": {
           "description": "Check if the is Open and matches the given name",
           "hierarchy": "Text HTML TagSoup HT Tag Match",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "openNameLit",
           "normalized": "String-\u003eT a b-\u003eBool",
@@ -851,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "special",
           "package": "tagsoup-ht",
@@ -860,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag Match",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "special",
           "normalized": "(Name a-\u003eBool)-\u003e(String-\u003eBool)-\u003eT a b-\u003eBool",
@@ -875,6 +945,7 @@
       "document": {
         "description": {
           "description": "match a text\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "text",
           "package": "tagsoup-ht",
@@ -885,6 +956,7 @@
         "index": {
           "description": "match text",
           "hierarchy": "Text HTML TagSoup HT Tag Match",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag.Match",
           "name": "text",
           "normalized": "(a-\u003eBool)-\u003eT b a-\u003eBool",
@@ -899,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "Name",
           "package": "tagsoup-ht",
@@ -907,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "Name",
           "package": "tagsoup-ht",
@@ -920,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "T",
           "package": "tagsoup-ht",
@@ -928,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "T",
           "package": "tagsoup-ht",
@@ -941,6 +1017,7 @@
       "document": {
         "description": {
           "description": "Merge adjacent Text sections.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "concatTexts",
           "package": "tagsoup-ht",
@@ -951,6 +1028,7 @@
         "index": {
           "description": "Merge adjacent Text sections",
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "concatTexts",
           "normalized": "[T a b]-\u003e[T a b]",
@@ -966,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "formatClose",
           "package": "tagsoup-ht",
@@ -975,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "formatClose",
           "normalized": "Name a-\u003eShowS",
@@ -990,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "formatOpen",
           "package": "tagsoup-ht",
@@ -999,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "formatOpen",
           "normalized": "Bool-\u003eName a-\u003e[T a b]-\u003eShowS",
@@ -1015,6 +1097,7 @@
       "document": {
         "description": {
           "description": "Extract all text content from tags (similar to Verbatim found in HaXml)\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "innerText",
           "package": "tagsoup-ht",
@@ -1025,6 +1108,7 @@
         "index": {
           "description": "Extract all text content from tags similar to Verbatim found in HaXml",
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "innerText",
           "normalized": "[T a b]-\u003eb",
@@ -1040,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isCData",
           "package": "tagsoup-ht",
@@ -1049,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isCData",
           "normalized": "T a b-\u003eBool",
@@ -1065,6 +1151,7 @@
       "document": {
         "description": {
           "description": "Test if a \u003ctt\u003e\u003ca\u003eT\u003c/a\u003e\u003c/tt\u003e is a \u003ctt\u003e\u003ca\u003eClose\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isClose",
           "package": "tagsoup-ht",
@@ -1075,6 +1162,7 @@
         "index": {
           "description": "Test if is Close",
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isClose",
           "normalized": "T a b-\u003eBool",
@@ -1090,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isComment",
           "package": "tagsoup-ht",
@@ -1099,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isComment",
           "normalized": "T a b-\u003eBool",
@@ -1115,6 +1205,7 @@
       "document": {
         "description": {
           "description": "Test if a \u003ctt\u003e\u003ca\u003eT\u003c/a\u003e\u003c/tt\u003e is a \u003ctt\u003e\u003ca\u003eOpen\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isOpen",
           "package": "tagsoup-ht",
@@ -1125,6 +1216,7 @@
         "index": {
           "description": "Test if is Open",
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isOpen",
           "normalized": "T a b-\u003eBool",
@@ -1140,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isProcessing",
           "package": "tagsoup-ht",
@@ -1149,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isProcessing",
           "normalized": "T a b-\u003eBool",
@@ -1164,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isSpecial",
           "package": "tagsoup-ht",
@@ -1173,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isSpecial",
           "normalized": "T a b-\u003eBool",
@@ -1189,6 +1285,7 @@
       "document": {
         "description": {
           "description": "Test if a \u003ctt\u003e\u003ca\u003eT\u003c/a\u003e\u003c/tt\u003e is a \u003ctt\u003e\u003ca\u003eText\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isText",
           "package": "tagsoup-ht",
@@ -1199,6 +1296,7 @@
         "index": {
           "description": "Test if is Text",
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isText",
           "normalized": "T a b-\u003eBool",
@@ -1214,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isWarning",
           "package": "tagsoup-ht",
@@ -1223,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "isWarning",
           "normalized": "T a b-\u003eBool",
@@ -1238,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "mapName",
           "package": "tagsoup-ht",
@@ -1247,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "mapName",
           "normalized": "(a-\u003ea)-\u003eT a b-\u003eT a b",
@@ -1263,6 +1365,7 @@
       "document": {
         "description": {
           "description": "Modify content of a Text or a CDATA part.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "mapText",
           "package": "tagsoup-ht",
@@ -1273,6 +1376,7 @@
         "index": {
           "description": "Modify content of Text or CDATA part",
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "mapText",
           "normalized": "(String-\u003eString)-\u003eT a String-\u003eT a String",
@@ -1288,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "mapTextA",
           "package": "tagsoup-ht",
@@ -1297,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "mapTextA",
           "normalized": "(String-\u003ea String)-\u003eT b String-\u003ea(T b String)",
@@ -1312,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeCData",
           "package": "tagsoup-ht",
@@ -1321,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeCData",
           "normalized": "T a b-\u003eMaybe String",
@@ -1336,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeClose",
           "package": "tagsoup-ht",
@@ -1345,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeClose",
           "normalized": "T a b-\u003eMaybe(Name a)",
@@ -1360,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeComment",
           "package": "tagsoup-ht",
@@ -1369,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeComment",
           "normalized": "T a b-\u003eMaybe String",
@@ -1384,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeOpen",
           "package": "tagsoup-ht",
@@ -1393,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeOpen",
           "normalized": "T a b-\u003eMaybe(Name a,[T a b])",
@@ -1408,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeProcessing",
           "package": "tagsoup-ht",
@@ -1417,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeProcessing",
           "normalized": "T a b-\u003eMaybe(Name a,T a b)",
@@ -1432,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeSpecial",
           "package": "tagsoup-ht",
@@ -1441,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeSpecial",
           "normalized": "T a b-\u003eMaybe(Name a,String)",
@@ -1457,6 +1575,7 @@
       "document": {
         "description": {
           "description": "Extract the string from within \u003ctt\u003e\u003ca\u003eText\u003c/a\u003e\u003c/tt\u003e, otherwise \u003ctt\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeText",
           "package": "tagsoup-ht",
@@ -1467,6 +1586,7 @@
         "index": {
           "description": "Extract the string from within Text otherwise Nothing",
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeText",
           "normalized": "T a b-\u003eMaybe b",
@@ -1482,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeWarning",
           "package": "tagsoup-ht",
@@ -1491,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "maybeWarning",
           "normalized": "T a b-\u003eMaybe String",
@@ -1507,6 +1629,7 @@
       "document": {
         "description": {
           "description": "Replace CDATA sections by plain text.\n",
+          "indexed": "Tue Mar 11 20:16:51 UTC 2014",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "textFromCData",
           "package": "tagsoup-ht",
@@ -1517,6 +1640,7 @@
         "index": {
           "description": "Replace CDATA sections by plain text",
           "hierarchy": "Text HTML TagSoup HT Tag",
+          "indexed": "2014-03-11T20:16:51",
           "module": "Text.HTML.TagSoup.HT.Tag",
           "name": "textFromCData",
           "normalized": "T a String-\u003eT a String",

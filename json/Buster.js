@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Buster"
+        "phrase": "Buster",
+        "type": "phrase"
       },
       "type": "context"
     }

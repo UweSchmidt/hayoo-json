@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmp3"
+        "phrase": "hmp3",
+        "type": "phrase"
       },
       "type": "context"
     }

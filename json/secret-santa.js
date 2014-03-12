@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "secret-santa"
+        "phrase": "secret-santa",
+        "type": "phrase"
       },
       "type": "context"
     }

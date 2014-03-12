@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "diagrams"
+        "phrase": "diagrams",
+        "type": "phrase"
       },
       "type": "context"
     }

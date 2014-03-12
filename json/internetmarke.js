@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "internetmarke"
+        "phrase": "internetmarke",
+        "type": "phrase"
       },
       "type": "context"
     }

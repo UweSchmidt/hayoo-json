@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MeanShift"
+        "phrase": "MeanShift",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:33 UTC 2014",
           "module": "Math.Meanshift",
           "name": "Meanshift",
           "package": "MeanShift",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Math Meanshift",
+          "indexed": "2014-03-11T16:52:33",
           "module": "Math.Meanshift",
           "name": "Meanshift",
           "package": "MeanShift",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:33 UTC 2014",
           "module": "Math.Meanshift",
           "name": "Support",
           "package": "MeanShift",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Math Meanshift",
+          "indexed": "2014-03-11T16:52:33",
           "module": "Math.Meanshift",
           "name": "Support",
           "package": "MeanShift",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:33 UTC 2014",
           "module": "Math.Meanshift",
           "name": "Window",
           "package": "MeanShift",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Math Meanshift",
+          "indexed": "2014-03-11T16:52:33",
           "module": "Math.Meanshift",
           "name": "Window",
           "package": "MeanShift",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a path to the fixed point of a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:33 UTC 2014",
           "module": "Math.Meanshift",
           "name": "fixedPoint",
           "package": "MeanShift",
@@ -92,6 +99,7 @@
         "index": {
           "description": "Find path to the fixed point of function",
           "hierarchy": "Math Meanshift",
+          "indexed": "2014-03-11T16:52:33",
           "module": "Math.Meanshift",
           "name": "fixedPoint",
           "normalized": "(a-\u003ea)-\u003ea-\u003e[a]",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:33 UTC 2014",
           "module": "Math.Meanshift",
           "name": "fixedPointE",
           "package": "MeanShift",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Math Meanshift",
+          "indexed": "2014-03-11T16:52:33",
           "module": "Math.Meanshift",
           "name": "fixedPointE",
           "normalized": "Double-\u003e(Vector-\u003eVector)-\u003eVector-\u003e[Vector]",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKernel density estimate of given points. Uses a normal kernel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:33 UTC 2014",
           "module": "Math.Meanshift",
           "name": "kde",
           "package": "MeanShift",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Kernel density estimate of given points Uses normal kernel",
           "hierarchy": "Math Meanshift",
+          "indexed": "2014-03-11T16:52:33",
           "module": "Math.Meanshift",
           "name": "kde",
           "normalized": "Double-\u003e[Vector]-\u003eVector-\u003eDouble",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the Mean shift for a point in a dataset. This is\n efficient only when we cannot make an a priori estimate on which\n points contribute to the mean shift at given location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:33 UTC 2014",
           "module": "Math.Meanshift",
           "name": "meanShift",
           "package": "MeanShift",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Calculate the Mean shift for point in dataset This is efficient only when we cannot make an priori estimate on which points contribute to the mean shift at given location",
           "hierarchy": "Math Meanshift",
+          "indexed": "2014-03-11T16:52:33",
           "module": "Math.Meanshift",
           "name": "meanShift",
           "normalized": "Double-\u003e[Vector]-\u003eVector-\u003eVector",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMean shift with a windowing function. Performing mean shift is more\n   efficient if we can index and calculate only those points that are in\n   the support of our kernel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:33 UTC 2014",
           "module": "Math.Meanshift",
           "name": "meanShiftWindow",
           "package": "MeanShift",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Mean shift with windowing function Performing mean shift is more efficient if we can index and calculate only those points that are in the support of our kernel",
           "hierarchy": "Math Meanshift",
+          "indexed": "2014-03-11T16:52:33",
           "module": "Math.Meanshift",
           "name": "meanShiftWindow",
           "normalized": "Int-\u003eWindow-\u003eDouble-\u003eVector-\u003eVector",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "OddWord"
+        "phrase": "OddWord",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Odd",
           "package": "OddWord",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Odd",
           "package": "OddWord",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOddWord wraps the integer type specified in the first type parameter and\n exposes a subset of the available bits as an unsigned word. The number of\n bits to expose is encoded into the second type parameter.\n\u003c/p\u003e\u003cp\u003eThe predefined word types provided by this module give some examples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "OddWord",
           "package": "OddWord",
@@ -49,6 +52,7 @@
         "index": {
           "description": "OddWord wraps the integer type specified in the first type parameter and exposes subset of the available bits as an unsigned word The number of bits to expose is encoded into the second type parameter The predefined word types provided by this module give some examples",
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "OddWord",
           "package": "OddWord",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a type-level number with a leading one bit followed by the\n string of digits specified by a.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "One",
           "package": "OddWord",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Represents type-level number with leading one bit followed by the string of digits specified by",
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "One",
           "package": "OddWord",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntances of \u003ccode\u003e\u003ca\u003eTypeNum\u003c/a\u003e\u003c/code\u003e represent type-level numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "TypeNum",
           "package": "OddWord",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Intances of TypeNum represent type-level numbers",
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "TypeNum",
           "package": "OddWord",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word1",
           "package": "OddWord",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word1",
           "package": "OddWord",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word10",
           "package": "OddWord",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word10",
           "package": "OddWord",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word11",
           "package": "OddWord",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word11",
           "package": "OddWord",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word12",
           "package": "OddWord",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word12",
           "package": "OddWord",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word13",
           "package": "OddWord",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word13",
           "package": "OddWord",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word14",
           "package": "OddWord",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word14",
           "package": "OddWord",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word15",
           "package": "OddWord",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word15",
           "package": "OddWord",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word17",
           "package": "OddWord",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word17",
           "package": "OddWord",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word18",
           "package": "OddWord",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word18",
           "package": "OddWord",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word19",
           "package": "OddWord",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word19",
           "package": "OddWord",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word2",
           "package": "OddWord",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word2",
           "package": "OddWord",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word20",
           "package": "OddWord",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word20",
           "package": "OddWord",
@@ -360,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word21",
           "package": "OddWord",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word21",
           "package": "OddWord",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word22",
           "package": "OddWord",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word22",
           "package": "OddWord",
@@ -402,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word23",
           "package": "OddWord",
@@ -410,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word23",
           "package": "OddWord",
@@ -423,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word24",
           "package": "OddWord",
@@ -431,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word24",
           "package": "OddWord",
@@ -444,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word25",
           "package": "OddWord",
@@ -452,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word25",
           "package": "OddWord",
@@ -465,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word26",
           "package": "OddWord",
@@ -473,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word26",
           "package": "OddWord",
@@ -486,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word27",
           "package": "OddWord",
@@ -494,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word27",
           "package": "OddWord",
@@ -507,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word28",
           "package": "OddWord",
@@ -515,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word28",
           "package": "OddWord",
@@ -528,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word29",
           "package": "OddWord",
@@ -536,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word29",
           "package": "OddWord",
@@ -549,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word3",
           "package": "OddWord",
@@ -557,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word3",
           "package": "OddWord",
@@ -570,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word30",
           "package": "OddWord",
@@ -578,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word30",
           "package": "OddWord",
@@ -591,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word31",
           "package": "OddWord",
@@ -599,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word31",
           "package": "OddWord",
@@ -612,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word33",
           "package": "OddWord",
@@ -620,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word33",
           "package": "OddWord",
@@ -633,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word34",
           "package": "OddWord",
@@ -641,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word34",
           "package": "OddWord",
@@ -654,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word35",
           "package": "OddWord",
@@ -662,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word35",
           "package": "OddWord",
@@ -675,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word36",
           "package": "OddWord",
@@ -683,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word36",
           "package": "OddWord",
@@ -696,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word37",
           "package": "OddWord",
@@ -704,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word37",
           "package": "OddWord",
@@ -717,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word38",
           "package": "OddWord",
@@ -725,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word38",
           "package": "OddWord",
@@ -738,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word39",
           "package": "OddWord",
@@ -746,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word39",
           "package": "OddWord",
@@ -759,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word4",
           "package": "OddWord",
@@ -767,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word4",
           "package": "OddWord",
@@ -780,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word40",
           "package": "OddWord",
@@ -788,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word40",
           "package": "OddWord",
@@ -801,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word41",
           "package": "OddWord",
@@ -809,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word41",
           "package": "OddWord",
@@ -822,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word42",
           "package": "OddWord",
@@ -830,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word42",
           "package": "OddWord",
@@ -843,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word43",
           "package": "OddWord",
@@ -851,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word43",
           "package": "OddWord",
@@ -864,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word44",
           "package": "OddWord",
@@ -872,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word44",
           "package": "OddWord",
@@ -885,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word45",
           "package": "OddWord",
@@ -893,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word45",
           "package": "OddWord",
@@ -906,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word46",
           "package": "OddWord",
@@ -914,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word46",
           "package": "OddWord",
@@ -927,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word47",
           "package": "OddWord",
@@ -935,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word47",
           "package": "OddWord",
@@ -948,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word48",
           "package": "OddWord",
@@ -956,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word48",
           "package": "OddWord",
@@ -969,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word49",
           "package": "OddWord",
@@ -977,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word49",
           "package": "OddWord",
@@ -990,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word5",
           "package": "OddWord",
@@ -998,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word5",
           "package": "OddWord",
@@ -1011,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word50",
           "package": "OddWord",
@@ -1019,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word50",
           "package": "OddWord",
@@ -1032,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word51",
           "package": "OddWord",
@@ -1040,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word51",
           "package": "OddWord",
@@ -1053,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word52",
           "package": "OddWord",
@@ -1061,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word52",
           "package": "OddWord",
@@ -1074,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word53",
           "package": "OddWord",
@@ -1082,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word53",
           "package": "OddWord",
@@ -1095,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word54",
           "package": "OddWord",
@@ -1103,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word54",
           "package": "OddWord",
@@ -1116,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word55",
           "package": "OddWord",
@@ -1124,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word55",
           "package": "OddWord",
@@ -1137,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word56",
           "package": "OddWord",
@@ -1145,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word56",
           "package": "OddWord",
@@ -1158,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word57",
           "package": "OddWord",
@@ -1166,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word57",
           "package": "OddWord",
@@ -1179,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word58",
           "package": "OddWord",
@@ -1187,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word58",
           "package": "OddWord",
@@ -1200,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word59",
           "package": "OddWord",
@@ -1208,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word59",
           "package": "OddWord",
@@ -1221,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word6",
           "package": "OddWord",
@@ -1229,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word6",
           "package": "OddWord",
@@ -1242,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word60",
           "package": "OddWord",
@@ -1250,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word60",
           "package": "OddWord",
@@ -1263,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word61",
           "package": "OddWord",
@@ -1271,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word61",
           "package": "OddWord",
@@ -1284,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word62",
           "package": "OddWord",
@@ -1292,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word62",
           "package": "OddWord",
@@ -1305,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word63",
           "package": "OddWord",
@@ -1313,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word63",
           "package": "OddWord",
@@ -1326,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word7",
           "package": "OddWord",
@@ -1334,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word7",
           "package": "OddWord",
@@ -1347,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Word9",
           "package": "OddWord",
@@ -1355,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Word9",
           "package": "OddWord",
@@ -1369,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a type-level number with a placeholder zero bit followed by the\n string of digits specified by a.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:08 UTC 2014",
           "module": "Data.Word.Odd",
           "name": "Zero",
           "package": "OddWord",
@@ -1378,6 +1507,7 @@
         "index": {
           "description": "Represents type-level number with placeholder zero bit followed by the string of digits specified by",
           "hierarchy": "Data Word Odd",
+          "indexed": "2014-03-11T16:55:08",
           "module": "Data.Word.Odd",
           "name": "Zero",
           "package": "OddWord",

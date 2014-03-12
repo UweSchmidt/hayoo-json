@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lambdacube"
+        "phrase": "lambdacube",
+        "type": "phrase"
       },
       "type": "context"
     }

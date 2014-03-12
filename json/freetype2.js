@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "freetype2"
+        "phrase": "freetype2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BBox",
           "name": "BBox",
           "package": "freetype2",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BBox",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BBox",
           "name": "BBox",
           "package": "freetype2",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BBox",
           "name": "FT_BBox",
           "package": "freetype2",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BBox",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BBox",
           "name": "FT_BBox",
           "package": "freetype2",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BBox",
           "name": "FT_BBox",
           "package": "freetype2",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BBox",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BBox",
           "name": "FT_BBox",
           "package": "freetype2",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BBox",
           "name": "xMax",
           "package": "freetype2",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BBox",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BBox",
           "name": "xMax",
           "package": "freetype2",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BBox",
           "name": "xMin",
           "package": "freetype2",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BBox",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BBox",
           "name": "xMin",
           "package": "freetype2",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BBox",
           "name": "yMax",
           "package": "freetype2",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BBox",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BBox",
           "name": "yMax",
           "package": "freetype2",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BBox",
           "name": "yMin",
           "package": "freetype2",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BBox",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BBox",
           "name": "yMin",
           "package": "freetype2",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "Bitmap",
           "package": "freetype2",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Bitmap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "Bitmap",
           "package": "freetype2",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "FT_Bitmap",
           "package": "freetype2",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Bitmap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "FT_Bitmap",
           "package": "freetype2",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "FT_Bitmap",
           "package": "freetype2",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Bitmap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "FT_Bitmap",
           "package": "freetype2",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "buffer",
           "package": "freetype2",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Bitmap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "buffer",
           "package": "freetype2",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "num_grays",
           "package": "freetype2",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Bitmap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "num_grays",
           "package": "freetype2",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "palette",
           "package": "freetype2",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Bitmap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "palette",
           "normalized": "Ptr()",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "palette_mode",
           "package": "freetype2",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Bitmap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "palette_mode",
           "package": "freetype2",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "pitch",
           "package": "freetype2",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Bitmap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "pitch",
           "package": "freetype2",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "pixel_mode",
           "package": "freetype2",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Bitmap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "pixel_mode",
           "package": "freetype2",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "rows",
           "package": "freetype2",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Bitmap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "rows",
           "package": "freetype2",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "width",
           "package": "freetype2",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Bitmap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Bitmap",
           "name": "width",
           "package": "freetype2",
@@ -404,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapGlyph",
           "name": "BitmapGlyph",
           "package": "freetype2",
@@ -412,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapGlyph",
           "name": "BitmapGlyph",
           "package": "freetype2",
@@ -425,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapGlyph",
           "name": "FT_BitmapGlyph",
           "package": "freetype2",
@@ -433,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapGlyph",
           "name": "FT_BitmapGlyph",
           "package": "freetype2",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapGlyph",
           "name": "bitmap",
           "package": "freetype2",
@@ -455,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapGlyph",
           "name": "bitmap",
           "normalized": "FT_BitmapGlyph-\u003ePtr FT_Bitmap",
@@ -469,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapGlyph",
           "name": "cast",
           "package": "freetype2",
@@ -478,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapGlyph",
           "name": "cast",
           "normalized": "FT_Glyph-\u003eFT_BitmapGlyph",
@@ -492,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapGlyph",
           "name": "left",
           "package": "freetype2",
@@ -501,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapGlyph",
           "name": "left",
           "normalized": "FT_BitmapGlyph-\u003ePtr FT_Int",
@@ -515,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapGlyph",
           "name": "root",
           "package": "freetype2",
@@ -524,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapGlyph",
           "name": "root",
           "normalized": "FT_BitmapGlyph-\u003eFT_Glyph",
@@ -538,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapGlyph",
           "name": "top",
           "package": "freetype2",
@@ -547,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapGlyph",
           "name": "top",
           "normalized": "FT_BitmapGlyph-\u003ePtr FT_Int",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "BitmapSize",
           "package": "freetype2",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapSize",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "BitmapSize",
           "package": "freetype2",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "FT_Bitmap_Size",
           "package": "freetype2",
@@ -590,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapSize",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "FT_Bitmap_Size",
           "package": "freetype2",
@@ -603,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "FT_Bitmap_Size",
           "package": "freetype2",
@@ -612,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapSize",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "FT_Bitmap_Size",
           "package": "freetype2",
@@ -625,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "height",
           "package": "freetype2",
@@ -634,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapSize",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "height",
           "package": "freetype2",
@@ -646,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "size",
           "package": "freetype2",
@@ -655,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapSize",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "size",
           "package": "freetype2",
@@ -667,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "width",
           "package": "freetype2",
@@ -676,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapSize",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "width",
           "package": "freetype2",
@@ -688,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "x_ppem",
           "package": "freetype2",
@@ -697,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapSize",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "x_ppem",
           "package": "freetype2",
@@ -709,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "y_ppem",
           "package": "freetype2",
@@ -718,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal BitmapSize",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.BitmapSize",
           "name": "y_ppem",
           "package": "freetype2",
@@ -730,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.CharMap",
           "name": "CharMap",
           "package": "freetype2",
@@ -738,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal CharMap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.CharMap",
           "name": "CharMap",
           "package": "freetype2",
@@ -751,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.CharMap",
           "name": "FT_CharMap",
           "package": "freetype2",
@@ -759,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal CharMap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.CharMap",
           "name": "FT_CharMap",
           "package": "freetype2",
@@ -772,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.CharMap",
           "name": "FT_CharMapRec",
           "package": "freetype2",
@@ -780,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal CharMap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.CharMap",
           "name": "FT_CharMapRec",
           "package": "freetype2",
@@ -793,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.CharMap",
           "name": "encoding",
           "package": "freetype2",
@@ -802,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal CharMap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.CharMap",
           "name": "encoding",
           "normalized": "FT_CharMap-\u003ePtr FT_Encoding",
@@ -816,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.CharMap",
           "name": "encoding_id",
           "package": "freetype2",
@@ -825,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal CharMap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.CharMap",
           "name": "encoding_id",
           "normalized": "FT_CharMap-\u003ePtr FT_UShort",
@@ -839,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.CharMap",
           "name": "face",
           "package": "freetype2",
@@ -848,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal CharMap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.CharMap",
           "name": "face",
           "normalized": "FT_CharMap-\u003ePtr FT_Face",
@@ -862,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.CharMap",
           "name": "platform_id",
           "package": "freetype2",
@@ -871,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal CharMap",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.CharMap",
           "name": "platform_id",
           "normalized": "FT_CharMap-\u003ePtr FT_UShort",
@@ -885,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Driver",
           "name": "Driver",
           "package": "freetype2",
@@ -893,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Driver",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Driver",
           "name": "Driver",
           "package": "freetype2",
@@ -906,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Driver",
           "name": "FT_Driver",
           "package": "freetype2",
@@ -914,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Driver",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Driver",
           "name": "FT_Driver",
           "package": "freetype2",
@@ -927,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Driver",
           "name": "FT_DriverRec_",
           "package": "freetype2",
@@ -935,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Driver",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Driver",
           "name": "FT_DriverRec_",
           "package": "freetype2",
@@ -948,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "Face",
           "package": "freetype2",
@@ -956,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "Face",
           "package": "freetype2",
@@ -969,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "FT_Face",
           "package": "freetype2",
@@ -977,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "FT_Face",
           "package": "freetype2",
@@ -990,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "FT_FaceRec_",
           "package": "freetype2",
@@ -998,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "FT_FaceRec_",
           "package": "freetype2",
@@ -1011,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ascender",
           "package": "freetype2",
@@ -1020,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ascender",
           "normalized": "FT_Face-\u003ePtr FT_Short",
@@ -1034,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "available_sizes",
           "package": "freetype2",
@@ -1043,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "available_sizes",
           "normalized": "FT_Face-\u003ePtr(Ptr FT_Bitmap_Size)",
@@ -1057,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "bbox",
           "package": "freetype2",
@@ -1066,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "bbox",
           "normalized": "FT_Face-\u003ePtr FT_BBox",
@@ -1080,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "charmap",
           "package": "freetype2",
@@ -1089,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "charmap",
           "normalized": "FT_Face-\u003ePtr FT_CharMap",
@@ -1103,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "charmaps",
           "package": "freetype2",
@@ -1112,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "charmaps",
           "normalized": "FT_Face-\u003ePtr(Ptr FT_CharMap)",
@@ -1126,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "descender",
           "package": "freetype2",
@@ -1135,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "descender",
           "normalized": "FT_Face-\u003ePtr FT_Short",
@@ -1149,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "face_flags",
           "package": "freetype2",
@@ -1158,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "face_flags",
           "normalized": "FT_Face-\u003ePtr FT_Long",
@@ -1172,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "face_index",
           "package": "freetype2",
@@ -1181,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "face_index",
           "normalized": "FT_Face-\u003ePtr FT_Long",
@@ -1195,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "family_name",
           "package": "freetype2",
@@ -1204,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "family_name",
           "normalized": "FT_Face-\u003ePtr CString",
@@ -1218,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_HAS_FAST_GLYPHS",
           "package": "freetype2",
@@ -1227,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_HAS_FAST_GLYPHS",
           "normalized": "FT_Face-\u003eIO Bool",
@@ -1242,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_HAS_FIXED_SIZES",
           "package": "freetype2",
@@ -1251,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_HAS_FIXED_SIZES",
           "normalized": "FT_Face-\u003eIO Bool",
@@ -1266,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_HAS_GLYPH_NAMES",
           "package": "freetype2",
@@ -1275,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_HAS_GLYPH_NAMES",
           "normalized": "FT_Face-\u003eIO Bool",
@@ -1290,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_HAS_HORIZONTAL",
           "package": "freetype2",
@@ -1299,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_HAS_HORIZONTAL",
           "normalized": "FT_Face-\u003eIO Bool",
@@ -1314,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_HAS_KERNING",
           "package": "freetype2",
@@ -1323,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_HAS_KERNING",
           "normalized": "FT_Face-\u003eIO Bool",
@@ -1338,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_HAS_MULTIPLE_MASTERS",
           "package": "freetype2",
@@ -1347,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_HAS_MULTIPLE_MASTERS",
           "normalized": "FT_Face-\u003eIO Bool",
@@ -1362,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_HAS_VERTICAL",
           "package": "freetype2",
@@ -1371,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_HAS_VERTICAL",
           "normalized": "FT_Face-\u003eIO Bool",
@@ -1386,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_IS_CID_KEYED",
           "package": "freetype2",
@@ -1395,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_IS_CID_KEYED",
           "normalized": "FT_Face-\u003eIO Bool",
@@ -1410,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_IS_FIXED_WIDTH",
           "package": "freetype2",
@@ -1419,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_IS_FIXED_WIDTH",
           "normalized": "FT_Face-\u003eIO Bool",
@@ -1434,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_IS_SCALABLE",
           "package": "freetype2",
@@ -1443,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_IS_SCALABLE",
           "normalized": "FT_Face-\u003eIO Bool",
@@ -1458,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_IS_SFNT",
           "package": "freetype2",
@@ -1467,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_IS_SFNT",
           "normalized": "FT_Face-\u003eIO Bool",
@@ -1482,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_IS_TRICKY",
           "package": "freetype2",
@@ -1491,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_IS_TRICKY",
           "normalized": "FT_Face-\u003eIO Bool",
@@ -1506,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_STYLE_FLAG_BOLD",
           "package": "freetype2",
@@ -1515,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_STYLE_FLAG_BOLD",
           "package": "freetype2",
@@ -1528,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_STYLE_FLAG_ITALIC",
           "package": "freetype2",
@@ -1537,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "ft_STYLE_FLAG_ITALIC",
           "package": "freetype2",
@@ -1550,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "generic",
           "package": "freetype2",
@@ -1559,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "generic",
           "normalized": "FT_Face-\u003ePtr FT_Generic",
@@ -1573,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "glyph",
           "package": "freetype2",
@@ -1582,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "glyph",
           "normalized": "FT_Face-\u003ePtr FT_GlyphSlot",
@@ -1596,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "height",
           "package": "freetype2",
@@ -1605,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "height",
           "normalized": "FT_Face-\u003ePtr FT_Short",
@@ -1619,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "max_advance_height",
           "package": "freetype2",
@@ -1628,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "max_advance_height",
           "normalized": "FT_Face-\u003ePtr FT_Short",
@@ -1642,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "max_advance_width",
           "package": "freetype2",
@@ -1651,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "max_advance_width",
           "normalized": "FT_Face-\u003ePtr FT_Short",
@@ -1665,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "num_charmaps",
           "package": "freetype2",
@@ -1674,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "num_charmaps",
           "normalized": "FT_Face-\u003ePtr FT_Int",
@@ -1688,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "num_faces",
           "package": "freetype2",
@@ -1697,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "num_faces",
           "normalized": "FT_Face-\u003ePtr FT_Long",
@@ -1711,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "num_fixed_sizes",
           "package": "freetype2",
@@ -1720,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "num_fixed_sizes",
           "normalized": "FT_Face-\u003ePtr FT_Int",
@@ -1734,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "num_glyphs",
           "package": "freetype2",
@@ -1743,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "num_glyphs",
           "normalized": "FT_Face-\u003ePtr FT_Long",
@@ -1757,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "size",
           "package": "freetype2",
@@ -1766,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "size",
           "normalized": "FT_Face-\u003ePtr FT_Size",
@@ -1780,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "style_flags",
           "package": "freetype2",
@@ -1789,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "style_flags",
           "normalized": "FT_Face-\u003ePtr FT_Long",
@@ -1803,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "style_name",
           "package": "freetype2",
@@ -1812,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "style_name",
           "normalized": "FT_Face-\u003ePtr CString",
@@ -1826,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "underline_position",
           "package": "freetype2",
@@ -1835,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "underline_position",
           "normalized": "FT_Face-\u003ePtr FT_Short",
@@ -1849,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "underline_thickness",
           "package": "freetype2",
@@ -1858,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "underline_thickness",
           "normalized": "FT_Face-\u003ePtr FT_Short",
@@ -1872,6 +2038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "units_per_EM",
           "package": "freetype2",
@@ -1881,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Face",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Face",
           "name": "units_per_EM",
           "normalized": "FT_Face-\u003ePtr FT_UShort",
@@ -1896,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.FaceType",
           "name": "FaceType",
           "package": "freetype2",
@@ -1904,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal FaceType",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.FaceType",
           "name": "FaceType",
           "package": "freetype2",
@@ -1917,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.FaceType",
           "name": "FT_Face",
           "package": "freetype2",
@@ -1925,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal FaceType",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.FaceType",
           "name": "FT_Face",
           "package": "freetype2",
@@ -1938,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.FaceType",
           "name": "FT_FaceRec_",
           "package": "freetype2",
@@ -1946,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal FaceType",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.FaceType",
           "name": "FT_FaceRec_",
           "package": "freetype2",
@@ -1959,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Generic",
           "name": "Generic",
           "package": "freetype2",
@@ -1967,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Generic",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Generic",
           "name": "Generic",
           "package": "freetype2",
@@ -1980,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Generic",
           "name": "FT_Generic",
           "package": "freetype2",
@@ -1988,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Generic",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Generic",
           "name": "FT_Generic",
           "package": "freetype2",
@@ -2001,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Generic",
           "name": "FT_Generic_Finalizer",
           "package": "freetype2",
@@ -2009,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Generic",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Generic",
           "name": "FT_Generic_Finalizer",
           "package": "freetype2",
@@ -2022,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Generic",
           "name": "FT_Generic",
           "package": "freetype2",
@@ -2031,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Generic",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Generic",
           "name": "FT_Generic",
           "package": "freetype2",
@@ -2044,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Generic",
           "name": "data_",
           "package": "freetype2",
@@ -2053,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Generic",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Generic",
           "name": "data_",
           "normalized": "Ptr()",
@@ -2067,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Generic",
           "name": "finalizer",
           "package": "freetype2",
@@ -2076,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Generic",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Generic",
           "name": "finalizer",
           "package": "freetype2",
@@ -2088,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Glyph",
           "name": "Glyph",
           "package": "freetype2",
@@ -2096,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Glyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Glyph",
           "name": "Glyph",
           "package": "freetype2",
@@ -2109,6 +2297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Glyph",
           "name": "FT_Glyph",
           "package": "freetype2",
@@ -2117,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Glyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Glyph",
           "name": "FT_Glyph",
           "package": "freetype2",
@@ -2130,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Glyph",
           "name": "FT_GlyphRec_",
           "package": "freetype2",
@@ -2138,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Glyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Glyph",
           "name": "FT_GlyphRec_",
           "package": "freetype2",
@@ -2151,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Glyph",
           "name": "advance",
           "package": "freetype2",
@@ -2160,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Glyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Glyph",
           "name": "advance",
           "normalized": "FT_Glyph-\u003ePtr FT_Vector",
@@ -2174,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Glyph",
           "name": "format",
           "package": "freetype2",
@@ -2183,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Glyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Glyph",
           "name": "format",
           "normalized": "FT_Glyph-\u003ePtr FT_Glyph_Format",
@@ -2197,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Glyph",
           "name": "library",
           "package": "freetype2",
@@ -2206,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Glyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Glyph",
           "name": "library",
           "normalized": "FT_Glyph-\u003ePtr FT_Library",
@@ -2220,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "GlyphMetrics",
           "package": "freetype2",
@@ -2228,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "GlyphMetrics",
           "package": "freetype2",
@@ -2241,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "FT_Glyph_Metrics",
           "package": "freetype2",
@@ -2249,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "FT_Glyph_Metrics",
           "package": "freetype2",
@@ -2262,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "FT_Glyph_Metrics",
           "package": "freetype2",
@@ -2271,6 +2474,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "FT_Glyph_Metrics",
           "package": "freetype2",
@@ -2284,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "height",
           "package": "freetype2",
@@ -2293,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "height",
           "package": "freetype2",
@@ -2305,6 +2511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "horiAdvance",
           "package": "freetype2",
@@ -2314,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "horiAdvance",
           "package": "freetype2",
@@ -2327,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "horiBearingX",
           "package": "freetype2",
@@ -2336,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "horiBearingX",
           "package": "freetype2",
@@ -2349,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "horiBearingY",
           "package": "freetype2",
@@ -2358,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "horiBearingY",
           "package": "freetype2",
@@ -2371,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "vertAdvance",
           "package": "freetype2",
@@ -2380,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "vertAdvance",
           "package": "freetype2",
@@ -2393,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "vertBearingX",
           "package": "freetype2",
@@ -2402,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "vertBearingX",
           "package": "freetype2",
@@ -2415,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "vertBearingY",
           "package": "freetype2",
@@ -2424,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "vertBearingY",
           "package": "freetype2",
@@ -2437,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "width",
           "package": "freetype2",
@@ -2446,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphMetrics",
           "name": "width",
           "package": "freetype2",
@@ -2458,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "GlyphSlot",
           "package": "freetype2",
@@ -2466,6 +2687,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "GlyphSlot",
           "package": "freetype2",
@@ -2479,6 +2701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "FT_GlyphSlot",
           "package": "freetype2",
@@ -2487,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "FT_GlyphSlot",
           "package": "freetype2",
@@ -2500,6 +2724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "FT_GlyphSlotRec_",
           "package": "freetype2",
@@ -2508,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "FT_GlyphSlotRec_",
           "package": "freetype2",
@@ -2521,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "advance",
           "package": "freetype2",
@@ -2530,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "advance",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Vector",
@@ -2544,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "bitmap",
           "package": "freetype2",
@@ -2553,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "bitmap",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Bitmap",
@@ -2567,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "bitmap_left",
           "package": "freetype2",
@@ -2576,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "bitmap_left",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Int",
@@ -2590,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "bitmap_top",
           "package": "freetype2",
@@ -2599,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "bitmap_top",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Int",
@@ -2613,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "control_data",
           "package": "freetype2",
@@ -2622,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "control_data",
           "normalized": "FT_GlyphSlot-\u003ePtr a",
@@ -2636,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "control_len",
           "package": "freetype2",
@@ -2645,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "control_len",
           "normalized": "FT_GlyphSlot-\u003ePtr CLong",
@@ -2659,6 +2897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "face",
           "package": "freetype2",
@@ -2668,6 +2907,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "face",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Face",
@@ -2682,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "format",
           "package": "freetype2",
@@ -2691,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "format",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Glyph_Format",
@@ -2705,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "generic",
           "package": "freetype2",
@@ -2714,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "generic",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Generic",
@@ -2728,6 +2972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "library",
           "package": "freetype2",
@@ -2737,6 +2982,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "library",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Library",
@@ -2751,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "linearHoriAdvance",
           "package": "freetype2",
@@ -2760,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "linearHoriAdvance",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Fixed",
@@ -2775,6 +3023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "linearVertAdvance",
           "package": "freetype2",
@@ -2784,6 +3033,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "linearVertAdvance",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Fixed",
@@ -2799,6 +3049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "lsb_delta",
           "package": "freetype2",
@@ -2808,6 +3059,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "lsb_delta",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Pos",
@@ -2822,6 +3074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "metrics",
           "package": "freetype2",
@@ -2831,6 +3084,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "metrics",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Glyph_Metrics",
@@ -2845,6 +3099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "next",
           "package": "freetype2",
@@ -2854,6 +3109,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "next",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_GlyphSlot",
@@ -2868,6 +3124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "num_subglyphs",
           "package": "freetype2",
@@ -2877,6 +3134,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "num_subglyphs",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_UInt",
@@ -2891,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "outline",
           "package": "freetype2",
@@ -2900,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "outline",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Outline",
@@ -2914,6 +3174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "rsb_delta",
           "package": "freetype2",
@@ -2923,6 +3184,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "rsb_delta",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Pos",
@@ -2937,6 +3199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "subglyphs",
           "package": "freetype2",
@@ -2946,6 +3209,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal GlyphSlot",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.GlyphSlot",
           "name": "subglyphs",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_SubGlyph",
@@ -2960,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Library",
           "name": "Library",
           "package": "freetype2",
@@ -2968,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Library",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Library",
           "name": "Library",
           "package": "freetype2",
@@ -2981,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Library",
           "name": "FT_Library",
           "package": "freetype2",
@@ -2989,6 +3256,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Library",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Library",
           "name": "FT_Library",
           "package": "freetype2",
@@ -3002,6 +3270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Library",
           "name": "FT_LibraryRec_",
           "package": "freetype2",
@@ -3010,6 +3279,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Library",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Library",
           "name": "FT_LibraryRec_",
           "package": "freetype2",
@@ -3023,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Matrix",
           "name": "Matrix",
           "package": "freetype2",
@@ -3031,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Matrix",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Matrix",
           "name": "Matrix",
           "package": "freetype2",
@@ -3044,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Matrix",
           "name": "FT_Matrix",
           "package": "freetype2",
@@ -3052,6 +3325,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Matrix",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Matrix",
           "name": "FT_Matrix",
           "package": "freetype2",
@@ -3065,6 +3339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Matrix",
           "name": "FT_Matrix",
           "package": "freetype2",
@@ -3074,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Matrix",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Matrix",
           "name": "FT_Matrix",
           "package": "freetype2",
@@ -3087,6 +3363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Matrix",
           "name": "xx",
           "package": "freetype2",
@@ -3096,6 +3373,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Matrix",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Matrix",
           "name": "xx",
           "package": "freetype2",
@@ -3108,6 +3386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Matrix",
           "name": "xy",
           "package": "freetype2",
@@ -3117,6 +3396,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Matrix",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Matrix",
           "name": "xy",
           "package": "freetype2",
@@ -3129,6 +3409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Matrix",
           "name": "yx",
           "package": "freetype2",
@@ -3138,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Matrix",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Matrix",
           "name": "yx",
           "package": "freetype2",
@@ -3150,6 +3432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Matrix",
           "name": "yy",
           "package": "freetype2",
@@ -3159,6 +3442,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Matrix",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Matrix",
           "name": "yy",
           "package": "freetype2",
@@ -3171,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "Memory",
           "package": "freetype2",
@@ -3179,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Memory",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "Memory",
           "package": "freetype2",
@@ -3192,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "FT_Memory",
           "package": "freetype2",
@@ -3200,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Memory",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "FT_Memory",
           "package": "freetype2",
@@ -3213,6 +3501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "FT_MemoryRec",
           "package": "freetype2",
@@ -3221,6 +3510,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Memory",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "FT_MemoryRec",
           "package": "freetype2",
@@ -3234,6 +3524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "FT_MemoryRec",
           "package": "freetype2",
@@ -3243,6 +3534,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Memory",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "FT_MemoryRec",
           "package": "freetype2",
@@ -3256,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "alloc",
           "package": "freetype2",
@@ -3265,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Memory",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "alloc",
           "package": "freetype2",
@@ -3277,6 +3571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "free",
           "package": "freetype2",
@@ -3286,6 +3581,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Memory",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "free",
           "package": "freetype2",
@@ -3298,6 +3594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "realloc",
           "package": "freetype2",
@@ -3307,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Memory",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "realloc",
           "package": "freetype2",
@@ -3319,6 +3617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "user",
           "package": "freetype2",
@@ -3328,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Memory",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Memory",
           "name": "user",
           "normalized": "Ptr()",
@@ -3342,6 +3642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Module",
           "name": "Module",
           "package": "freetype2",
@@ -3350,6 +3651,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Module",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Module",
           "name": "Module",
           "package": "freetype2",
@@ -3363,6 +3665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Module",
           "name": "FT_Module",
           "package": "freetype2",
@@ -3371,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Module",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Module",
           "name": "FT_Module",
           "package": "freetype2",
@@ -3384,6 +3688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Module",
           "name": "FT_ModuleRec_",
           "package": "freetype2",
@@ -3392,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Module",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Module",
           "name": "FT_ModuleRec_",
           "package": "freetype2",
@@ -3405,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "OpenArgs",
           "package": "freetype2",
@@ -3413,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OpenArgs",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "OpenArgs",
           "package": "freetype2",
@@ -3426,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "FT_Open_Args",
           "package": "freetype2",
@@ -3434,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OpenArgs",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "FT_Open_Args",
           "package": "freetype2",
@@ -3447,6 +3757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "FT_Open_Args",
           "package": "freetype2",
@@ -3456,6 +3767,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OpenArgs",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "FT_Open_Args",
           "package": "freetype2",
@@ -3469,6 +3781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "driver",
           "package": "freetype2",
@@ -3478,6 +3791,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OpenArgs",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "driver",
           "package": "freetype2",
@@ -3490,6 +3804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "flags",
           "package": "freetype2",
@@ -3499,6 +3814,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OpenArgs",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "flags",
           "package": "freetype2",
@@ -3511,6 +3827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "memory_base",
           "package": "freetype2",
@@ -3520,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OpenArgs",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "memory_base",
           "package": "freetype2",
@@ -3532,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "memory_size",
           "package": "freetype2",
@@ -3541,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OpenArgs",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "memory_size",
           "package": "freetype2",
@@ -3553,6 +3873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "num_params",
           "package": "freetype2",
@@ -3562,6 +3883,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OpenArgs",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "num_params",
           "package": "freetype2",
@@ -3574,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "params",
           "package": "freetype2",
@@ -3583,6 +3906,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OpenArgs",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "params",
           "package": "freetype2",
@@ -3595,6 +3919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "pathname",
           "package": "freetype2",
@@ -3604,6 +3929,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OpenArgs",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "pathname",
           "package": "freetype2",
@@ -3616,6 +3942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "stream",
           "package": "freetype2",
@@ -3625,6 +3952,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OpenArgs",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OpenArgs",
           "name": "stream",
           "package": "freetype2",
@@ -3637,6 +3965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "Outline",
           "package": "freetype2",
@@ -3645,6 +3974,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "Outline",
           "package": "freetype2",
@@ -3658,6 +3988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline",
           "package": "freetype2",
@@ -3666,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline",
           "package": "freetype2",
@@ -3679,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline_ConicToFunc",
           "package": "freetype2",
@@ -3687,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline_ConicToFunc",
           "package": "freetype2",
@@ -3700,6 +4034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline_CubicToFunc",
           "package": "freetype2",
@@ -3708,6 +4043,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline_CubicToFunc",
           "package": "freetype2",
@@ -3721,6 +4057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline_Funcs",
           "package": "freetype2",
@@ -3729,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline_Funcs",
           "package": "freetype2",
@@ -3742,6 +4080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline_LineToFunc",
           "package": "freetype2",
@@ -3750,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline_LineToFunc",
           "package": "freetype2",
@@ -3763,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline_MoveToFunc",
           "package": "freetype2",
@@ -3771,6 +4112,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline_MoveToFunc",
           "package": "freetype2",
@@ -3784,6 +4126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline",
           "package": "freetype2",
@@ -3793,6 +4136,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline",
           "package": "freetype2",
@@ -3806,6 +4150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline_Funcs",
           "package": "freetype2",
@@ -3815,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "FT_Outline_Funcs",
           "package": "freetype2",
@@ -3828,6 +4174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "conic_to",
           "package": "freetype2",
@@ -3837,6 +4184,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "conic_to",
           "package": "freetype2",
@@ -3849,6 +4197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "contours",
           "package": "freetype2",
@@ -3858,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "contours",
           "package": "freetype2",
@@ -3870,6 +4220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "cubic_to",
           "package": "freetype2",
@@ -3879,6 +4230,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "cubic_to",
           "package": "freetype2",
@@ -3891,6 +4243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "delta",
           "package": "freetype2",
@@ -3900,6 +4253,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "delta",
           "package": "freetype2",
@@ -3912,6 +4266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "flags",
           "package": "freetype2",
@@ -3921,6 +4276,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "flags",
           "package": "freetype2",
@@ -3933,6 +4289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "line_to",
           "package": "freetype2",
@@ -3942,6 +4299,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "line_to",
           "package": "freetype2",
@@ -3954,6 +4312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "move_to",
           "package": "freetype2",
@@ -3963,6 +4322,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "move_to",
           "package": "freetype2",
@@ -3975,6 +4335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "n_contours",
           "package": "freetype2",
@@ -3984,6 +4345,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "n_contours",
           "package": "freetype2",
@@ -3996,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "n_points",
           "package": "freetype2",
@@ -4005,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "n_points",
           "package": "freetype2",
@@ -4017,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "points",
           "package": "freetype2",
@@ -4026,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "points",
           "package": "freetype2",
@@ -4038,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "shift",
           "package": "freetype2",
@@ -4047,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "shift",
           "package": "freetype2",
@@ -4059,6 +4427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "tags",
           "package": "freetype2",
@@ -4068,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Outline",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Outline",
           "name": "tags",
           "package": "freetype2",
@@ -4080,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OutlineGlyph",
           "name": "OutlineGlyph",
           "package": "freetype2",
@@ -4088,6 +4459,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OutlineGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OutlineGlyph",
           "name": "OutlineGlyph",
           "package": "freetype2",
@@ -4101,6 +4473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OutlineGlyph",
           "name": "FT_OutlineGlyph",
           "package": "freetype2",
@@ -4109,6 +4482,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OutlineGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OutlineGlyph",
           "name": "FT_OutlineGlyph",
           "package": "freetype2",
@@ -4122,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OutlineGlyph",
           "name": "cast",
           "package": "freetype2",
@@ -4131,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OutlineGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OutlineGlyph",
           "name": "cast",
           "normalized": "FT_Glyph-\u003eFT_OutlineGlyph",
@@ -4145,6 +4521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OutlineGlyph",
           "name": "outline",
           "package": "freetype2",
@@ -4154,6 +4531,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OutlineGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OutlineGlyph",
           "name": "outline",
           "normalized": "FT_OutlineGlyph-\u003ePtr FT_Outline",
@@ -4168,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.OutlineGlyph",
           "name": "root",
           "package": "freetype2",
@@ -4177,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal OutlineGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.OutlineGlyph",
           "name": "root",
           "normalized": "FT_OutlineGlyph-\u003eFT_Glyph",
@@ -4191,6 +4571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Parameter",
           "name": "Parameter",
           "package": "freetype2",
@@ -4199,6 +4580,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Parameter",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Parameter",
           "name": "Parameter",
           "package": "freetype2",
@@ -4212,6 +4594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Parameter",
           "name": "FT_Parameter",
           "package": "freetype2",
@@ -4220,6 +4603,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Parameter",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Parameter",
           "name": "FT_Parameter",
           "package": "freetype2",
@@ -4233,6 +4617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Parameter",
           "name": "FT_Parameter",
           "package": "freetype2",
@@ -4242,6 +4627,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Parameter",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Parameter",
           "name": "FT_Parameter",
           "package": "freetype2",
@@ -4255,6 +4641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Parameter",
           "name": "data_",
           "package": "freetype2",
@@ -4264,6 +4651,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Parameter",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Parameter",
           "name": "data_",
           "package": "freetype2",
@@ -4276,6 +4664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Parameter",
           "name": "tag",
           "package": "freetype2",
@@ -4285,6 +4674,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Parameter",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Parameter",
           "name": "tag",
           "package": "freetype2",
@@ -4297,6 +4687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "PrimitiveTypes",
           "package": "freetype2",
@@ -4305,6 +4696,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "PrimitiveTypes",
           "package": "freetype2",
@@ -4318,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Bool",
           "package": "freetype2",
@@ -4326,6 +4719,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Bool",
           "package": "freetype2",
@@ -4339,6 +4733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Byte",
           "package": "freetype2",
@@ -4347,6 +4742,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Byte",
           "package": "freetype2",
@@ -4360,6 +4756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Bytes",
           "package": "freetype2",
@@ -4368,6 +4765,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Bytes",
           "package": "freetype2",
@@ -4381,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Char",
           "package": "freetype2",
@@ -4389,6 +4788,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Char",
           "package": "freetype2",
@@ -4402,6 +4802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Encoding",
           "package": "freetype2",
@@ -4410,6 +4811,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Encoding",
           "package": "freetype2",
@@ -4423,6 +4825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Error",
           "package": "freetype2",
@@ -4431,6 +4834,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Error",
           "package": "freetype2",
@@ -4444,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_F26Dot6",
           "package": "freetype2",
@@ -4452,6 +4857,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_F26Dot6",
           "package": "freetype2",
@@ -4465,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_FACE_FLAG",
           "package": "freetype2",
@@ -4473,6 +4880,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_FACE_FLAG",
           "package": "freetype2",
@@ -4486,6 +4894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Fixed",
           "package": "freetype2",
@@ -4494,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Fixed",
           "package": "freetype2",
@@ -4507,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Glyph_Format",
           "package": "freetype2",
@@ -4515,6 +4926,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Glyph_Format",
           "package": "freetype2",
@@ -4528,6 +4940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Int",
           "package": "freetype2",
@@ -4536,6 +4949,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Int",
           "package": "freetype2",
@@ -4549,6 +4963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Int16",
           "package": "freetype2",
@@ -4557,6 +4972,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Int16",
           "package": "freetype2",
@@ -4570,6 +4986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Int32",
           "package": "freetype2",
@@ -4578,6 +4995,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Int32",
           "package": "freetype2",
@@ -4591,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Kerning_Mode",
           "package": "freetype2",
@@ -4599,6 +5018,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Kerning_Mode",
           "package": "freetype2",
@@ -4612,6 +5032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Long",
           "package": "freetype2",
@@ -4620,6 +5041,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Long",
           "package": "freetype2",
@@ -4633,6 +5055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_OPEN",
           "package": "freetype2",
@@ -4641,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_OPEN",
           "package": "freetype2",
@@ -4654,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_OUTLINE_FLAGS",
           "package": "freetype2",
@@ -4662,6 +5087,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_OUTLINE_FLAGS",
           "package": "freetype2",
@@ -4675,6 +5101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Offset",
           "package": "freetype2",
@@ -4683,6 +5110,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Offset",
           "package": "freetype2",
@@ -4696,6 +5124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Orientation",
           "package": "freetype2",
@@ -4704,6 +5133,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Orientation",
           "package": "freetype2",
@@ -4717,6 +5147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Pointer",
           "package": "freetype2",
@@ -4725,6 +5156,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Pointer",
           "package": "freetype2",
@@ -4738,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Pos",
           "package": "freetype2",
@@ -4746,6 +5179,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Pos",
           "package": "freetype2",
@@ -4759,6 +5193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Render_Mode",
           "package": "freetype2",
@@ -4767,6 +5202,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Render_Mode",
           "package": "freetype2",
@@ -4780,6 +5216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_SUBGLYPH_FLAG",
           "package": "freetype2",
@@ -4788,6 +5225,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_SUBGLYPH_FLAG",
           "package": "freetype2",
@@ -4801,6 +5239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Short",
           "package": "freetype2",
@@ -4809,6 +5248,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Short",
           "package": "freetype2",
@@ -4822,6 +5262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Size_Request_Type",
           "package": "freetype2",
@@ -4830,6 +5271,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Size_Request_Type",
           "package": "freetype2",
@@ -4843,6 +5285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_UInt",
           "package": "freetype2",
@@ -4851,6 +5294,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_UInt",
           "package": "freetype2",
@@ -4864,6 +5308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_UInt16",
           "package": "freetype2",
@@ -4872,6 +5317,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_UInt16",
           "package": "freetype2",
@@ -4885,6 +5331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_UInt32",
           "package": "freetype2",
@@ -4893,6 +5340,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_UInt32",
           "package": "freetype2",
@@ -4906,6 +5354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_ULong",
           "package": "freetype2",
@@ -4914,6 +5363,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_ULong",
           "package": "freetype2",
@@ -4927,6 +5377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_UShort",
           "package": "freetype2",
@@ -4935,6 +5386,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_UShort",
           "package": "freetype2",
@@ -4948,6 +5400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Encoding",
           "package": "freetype2",
@@ -4957,6 +5410,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Encoding",
           "package": "freetype2",
@@ -4970,6 +5424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_FACE_FLAG",
           "package": "freetype2",
@@ -4979,6 +5434,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_FACE_FLAG",
           "package": "freetype2",
@@ -4992,6 +5448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Glyph_Format",
           "package": "freetype2",
@@ -5001,6 +5458,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Glyph_Format",
           "package": "freetype2",
@@ -5014,6 +5472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Kerning_Mode",
           "package": "freetype2",
@@ -5023,6 +5482,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Kerning_Mode",
           "package": "freetype2",
@@ -5036,6 +5496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_OPEN",
           "package": "freetype2",
@@ -5045,6 +5506,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_OPEN",
           "package": "freetype2",
@@ -5058,6 +5520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_OUTLINE_FLAGS",
           "package": "freetype2",
@@ -5067,6 +5530,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_OUTLINE_FLAGS",
           "package": "freetype2",
@@ -5080,6 +5544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Orientation",
           "package": "freetype2",
@@ -5089,6 +5554,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Orientation",
           "package": "freetype2",
@@ -5102,6 +5568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Render_Mode",
           "package": "freetype2",
@@ -5111,6 +5578,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Render_Mode",
           "package": "freetype2",
@@ -5124,6 +5592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_SUBGLYPH_FLAG",
           "package": "freetype2",
@@ -5133,6 +5602,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_SUBGLYPH_FLAG",
           "package": "freetype2",
@@ -5146,6 +5616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Size_Request_Type",
           "package": "freetype2",
@@ -5155,6 +5626,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "FT_Size_Request_Type",
           "package": "freetype2",
@@ -5168,6 +5640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "fREETYPE_MAJOR",
           "package": "freetype2",
@@ -5177,6 +5650,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "fREETYPE_MAJOR",
           "package": "freetype2",
@@ -5190,6 +5664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "fREETYPE_MINOR",
           "package": "freetype2",
@@ -5199,6 +5674,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "fREETYPE_MINOR",
           "package": "freetype2",
@@ -5212,6 +5688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "fREETYPE_PATCH",
           "package": "freetype2",
@@ -5221,6 +5698,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "fREETYPE_PATCH",
           "package": "freetype2",
@@ -5234,6 +5712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_ADOBE_CUSTOM",
           "package": "freetype2",
@@ -5243,6 +5722,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_ADOBE_CUSTOM",
           "package": "freetype2",
@@ -5256,6 +5736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_ADOBE_EXPERT",
           "package": "freetype2",
@@ -5265,6 +5746,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_ADOBE_EXPERT",
           "package": "freetype2",
@@ -5278,6 +5760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_ADOBE_LATIN_1",
           "package": "freetype2",
@@ -5287,6 +5770,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_ADOBE_LATIN_1",
           "package": "freetype2",
@@ -5300,6 +5784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_ADOBE_STANDARD",
           "package": "freetype2",
@@ -5309,6 +5794,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_ADOBE_STANDARD",
           "package": "freetype2",
@@ -5322,6 +5808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_APPLE_ROMAN",
           "package": "freetype2",
@@ -5331,6 +5818,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_APPLE_ROMAN",
           "package": "freetype2",
@@ -5344,6 +5832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_BIG5",
           "package": "freetype2",
@@ -5353,6 +5842,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_BIG5",
           "package": "freetype2",
@@ -5366,6 +5856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_GB2312",
           "package": "freetype2",
@@ -5375,6 +5866,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_GB2312",
           "package": "freetype2",
@@ -5388,6 +5880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_JOHAB",
           "package": "freetype2",
@@ -5397,6 +5890,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_JOHAB",
           "package": "freetype2",
@@ -5410,6 +5904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_MS_BIG5",
           "package": "freetype2",
@@ -5419,6 +5914,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_MS_BIG5",
           "package": "freetype2",
@@ -5432,6 +5928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_MS_GB2312",
           "package": "freetype2",
@@ -5441,6 +5938,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_MS_GB2312",
           "package": "freetype2",
@@ -5454,6 +5952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_MS_JOHAB",
           "package": "freetype2",
@@ -5463,6 +5962,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_MS_JOHAB",
           "package": "freetype2",
@@ -5476,6 +5976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_MS_SJIS",
           "package": "freetype2",
@@ -5485,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_MS_SJIS",
           "package": "freetype2",
@@ -5498,6 +6000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_MS_SYMBOL",
           "package": "freetype2",
@@ -5507,6 +6010,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_MS_SYMBOL",
           "package": "freetype2",
@@ -5520,6 +6024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_MS_WANSUNG",
           "package": "freetype2",
@@ -5529,6 +6034,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_MS_WANSUNG",
           "package": "freetype2",
@@ -5542,6 +6048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_NONE",
           "package": "freetype2",
@@ -5551,6 +6058,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_NONE",
           "package": "freetype2",
@@ -5564,6 +6072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_OLD_LATIN_2",
           "package": "freetype2",
@@ -5573,6 +6082,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_OLD_LATIN_2",
           "package": "freetype2",
@@ -5586,6 +6096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_SJIS",
           "package": "freetype2",
@@ -5595,6 +6106,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_SJIS",
           "package": "freetype2",
@@ -5608,6 +6120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_UNICODE",
           "package": "freetype2",
@@ -5617,6 +6130,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_UNICODE",
           "package": "freetype2",
@@ -5630,6 +6144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_WANSUNG",
           "package": "freetype2",
@@ -5639,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ENCODING_WANSUNG",
           "package": "freetype2",
@@ -5652,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_CID_KEYED",
           "package": "freetype2",
@@ -5661,6 +6178,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_CID_KEYED",
           "package": "freetype2",
@@ -5674,6 +6192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_EXTERNAL_STREAM",
           "package": "freetype2",
@@ -5683,6 +6202,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_EXTERNAL_STREAM",
           "package": "freetype2",
@@ -5696,6 +6216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_FAST_GLYPHS",
           "package": "freetype2",
@@ -5705,6 +6226,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_FAST_GLYPHS",
           "package": "freetype2",
@@ -5718,6 +6240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_FIXED_SIZES",
           "package": "freetype2",
@@ -5727,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_FIXED_SIZES",
           "package": "freetype2",
@@ -5740,6 +6264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_FIXED_WIDTH",
           "package": "freetype2",
@@ -5749,6 +6274,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_FIXED_WIDTH",
           "package": "freetype2",
@@ -5762,6 +6288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_GLYPH_NAMES",
           "package": "freetype2",
@@ -5771,6 +6298,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_GLYPH_NAMES",
           "package": "freetype2",
@@ -5784,6 +6312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_HINTER",
           "package": "freetype2",
@@ -5793,6 +6322,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_HINTER",
           "package": "freetype2",
@@ -5806,6 +6336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_HORIZONTAL",
           "package": "freetype2",
@@ -5815,6 +6346,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_HORIZONTAL",
           "package": "freetype2",
@@ -5828,6 +6360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_KERNING",
           "package": "freetype2",
@@ -5837,6 +6370,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_KERNING",
           "package": "freetype2",
@@ -5850,6 +6384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_MULTIPLE_MASTERS",
           "package": "freetype2",
@@ -5859,6 +6394,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_MULTIPLE_MASTERS",
           "package": "freetype2",
@@ -5872,6 +6408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_SCALABLE",
           "package": "freetype2",
@@ -5881,6 +6418,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_SCALABLE",
           "package": "freetype2",
@@ -5894,6 +6432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_SFNT",
           "package": "freetype2",
@@ -5903,6 +6442,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_SFNT",
           "package": "freetype2",
@@ -5916,6 +6456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_TRICKY",
           "package": "freetype2",
@@ -5925,6 +6466,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_TRICKY",
           "package": "freetype2",
@@ -5938,6 +6480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_VERTICAL",
           "package": "freetype2",
@@ -5947,6 +6490,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FACE_FLAG_VERTICAL",
           "package": "freetype2",
@@ -5960,6 +6504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FSTYPE_BITMAP_EMBEDDING_ONLY",
           "package": "freetype2",
@@ -5969,6 +6514,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FSTYPE_BITMAP_EMBEDDING_ONLY",
           "package": "freetype2",
@@ -5982,6 +6528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FSTYPE_EDITABLE_EMBEDDING",
           "package": "freetype2",
@@ -5991,6 +6538,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FSTYPE_EDITABLE_EMBEDDING",
           "package": "freetype2",
@@ -6004,6 +6552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FSTYPE_INSTALLABLE_EMBEDDING",
           "package": "freetype2",
@@ -6013,6 +6562,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FSTYPE_INSTALLABLE_EMBEDDING",
           "package": "freetype2",
@@ -6026,6 +6576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FSTYPE_NO_SUBSETTING",
           "package": "freetype2",
@@ -6035,6 +6586,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FSTYPE_NO_SUBSETTING",
           "package": "freetype2",
@@ -6048,6 +6600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FSTYPE_PREVIEW_AND_PRINT_EMBEDDING",
           "package": "freetype2",
@@ -6057,6 +6610,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FSTYPE_PREVIEW_AND_PRINT_EMBEDDING",
           "package": "freetype2",
@@ -6070,6 +6624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FSTYPE_RESTRICTED_LICENSE_EMBEDDING",
           "package": "freetype2",
@@ -6079,6 +6634,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_FSTYPE_RESTRICTED_LICENSE_EMBEDDING",
           "package": "freetype2",
@@ -6092,6 +6648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_GLYPH_FORMAT_BITMAP",
           "package": "freetype2",
@@ -6101,6 +6658,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_GLYPH_FORMAT_BITMAP",
           "package": "freetype2",
@@ -6114,6 +6672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_GLYPH_FORMAT_COMPOSITE",
           "package": "freetype2",
@@ -6123,6 +6682,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_GLYPH_FORMAT_COMPOSITE",
           "package": "freetype2",
@@ -6136,6 +6696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_GLYPH_FORMAT_NONE",
           "package": "freetype2",
@@ -6145,6 +6706,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_GLYPH_FORMAT_NONE",
           "package": "freetype2",
@@ -6158,6 +6720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_GLYPH_FORMAT_OUTLINE",
           "package": "freetype2",
@@ -6167,6 +6730,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_GLYPH_FORMAT_OUTLINE",
           "package": "freetype2",
@@ -6180,6 +6744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_GLYPH_FORMAT_PLOTTER",
           "package": "freetype2",
@@ -6189,6 +6754,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_GLYPH_FORMAT_PLOTTER",
           "package": "freetype2",
@@ -6202,6 +6768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_KERNING_DEFAULT",
           "package": "freetype2",
@@ -6211,6 +6778,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_KERNING_DEFAULT",
           "package": "freetype2",
@@ -6224,6 +6792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_KERNING_UNFITTED",
           "package": "freetype2",
@@ -6233,6 +6802,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_KERNING_UNFITTED",
           "package": "freetype2",
@@ -6246,6 +6816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_KERNING_UNSCALED",
           "package": "freetype2",
@@ -6255,6 +6826,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_KERNING_UNSCALED",
           "package": "freetype2",
@@ -6268,6 +6840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_CROP_BITMAP",
           "package": "freetype2",
@@ -6277,6 +6850,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_CROP_BITMAP",
           "package": "freetype2",
@@ -6290,6 +6864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_DEFAULT",
           "package": "freetype2",
@@ -6299,6 +6874,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_DEFAULT",
           "package": "freetype2",
@@ -6312,6 +6888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_FORCE_AUTOHINT",
           "package": "freetype2",
@@ -6321,6 +6898,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_FORCE_AUTOHINT",
           "package": "freetype2",
@@ -6334,6 +6912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_IGNORE_GLOBAL_ADVANCE_WIDTH",
           "package": "freetype2",
@@ -6343,6 +6922,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_IGNORE_GLOBAL_ADVANCE_WIDTH",
           "package": "freetype2",
@@ -6356,6 +6936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_IGNORE_TRANSFORM",
           "package": "freetype2",
@@ -6365,6 +6946,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_IGNORE_TRANSFORM",
           "package": "freetype2",
@@ -6378,6 +6960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_LINEAR_DESIGN",
           "package": "freetype2",
@@ -6387,6 +6970,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_LINEAR_DESIGN",
           "package": "freetype2",
@@ -6400,6 +6984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_MONOCHROME",
           "package": "freetype2",
@@ -6409,6 +6994,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_MONOCHROME",
           "package": "freetype2",
@@ -6422,6 +7008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_NO_AUTOHINT",
           "package": "freetype2",
@@ -6431,6 +7018,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_NO_AUTOHINT",
           "package": "freetype2",
@@ -6444,6 +7032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_NO_BITMAP",
           "package": "freetype2",
@@ -6453,6 +7042,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_NO_BITMAP",
           "package": "freetype2",
@@ -6466,6 +7056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_NO_HINTING",
           "package": "freetype2",
@@ -6475,6 +7066,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_NO_HINTING",
           "package": "freetype2",
@@ -6488,6 +7080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_NO_RECURSE",
           "package": "freetype2",
@@ -6497,6 +7090,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_NO_RECURSE",
           "package": "freetype2",
@@ -6510,6 +7104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_NO_SCALE",
           "package": "freetype2",
@@ -6519,6 +7114,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_NO_SCALE",
           "package": "freetype2",
@@ -6532,6 +7128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_PEDANTIC",
           "package": "freetype2",
@@ -6541,6 +7138,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_PEDANTIC",
           "package": "freetype2",
@@ -6554,6 +7152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_RENDER",
           "package": "freetype2",
@@ -6563,6 +7162,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_RENDER",
           "package": "freetype2",
@@ -6576,6 +7176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_TARGET_LCD",
           "package": "freetype2",
@@ -6585,6 +7186,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_TARGET_LCD",
           "package": "freetype2",
@@ -6598,6 +7200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_TARGET_LCD_V",
           "package": "freetype2",
@@ -6607,6 +7210,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_TARGET_LCD_V",
           "package": "freetype2",
@@ -6620,6 +7224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_TARGET_LIGHT",
           "package": "freetype2",
@@ -6629,6 +7234,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_TARGET_LIGHT",
           "package": "freetype2",
@@ -6642,6 +7248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_TARGET_MONO",
           "package": "freetype2",
@@ -6651,6 +7258,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_TARGET_MONO",
           "package": "freetype2",
@@ -6664,6 +7272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_TARGET_NORMAL",
           "package": "freetype2",
@@ -6673,6 +7282,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_TARGET_NORMAL",
           "package": "freetype2",
@@ -6686,6 +7296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_VERTICAL_LAYOUT",
           "package": "freetype2",
@@ -6695,6 +7306,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_LOAD_VERTICAL_LAYOUT",
           "package": "freetype2",
@@ -6708,6 +7320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OPEN_DRIVER",
           "package": "freetype2",
@@ -6717,6 +7330,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OPEN_DRIVER",
           "package": "freetype2",
@@ -6730,6 +7344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OPEN_MEMORY",
           "package": "freetype2",
@@ -6739,6 +7354,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OPEN_MEMORY",
           "package": "freetype2",
@@ -6752,6 +7368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OPEN_PARAMS",
           "package": "freetype2",
@@ -6761,6 +7378,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OPEN_PARAMS",
           "package": "freetype2",
@@ -6774,6 +7392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OPEN_PATHNAME",
           "package": "freetype2",
@@ -6783,6 +7402,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OPEN_PATHNAME",
           "package": "freetype2",
@@ -6796,6 +7416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OPEN_STREAM",
           "package": "freetype2",
@@ -6805,6 +7426,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OPEN_STREAM",
           "package": "freetype2",
@@ -6818,6 +7440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ORIENTATION_FILL_LEFT",
           "package": "freetype2",
@@ -6827,6 +7450,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ORIENTATION_FILL_LEFT",
           "package": "freetype2",
@@ -6840,6 +7464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ORIENTATION_FILL_RIGHT",
           "package": "freetype2",
@@ -6849,6 +7474,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ORIENTATION_FILL_RIGHT",
           "package": "freetype2",
@@ -6862,6 +7488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ORIENTATION_NONE",
           "package": "freetype2",
@@ -6871,6 +7498,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ORIENTATION_NONE",
           "package": "freetype2",
@@ -6884,6 +7512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ORIENTATION_POSTSCRIPT",
           "package": "freetype2",
@@ -6893,6 +7522,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ORIENTATION_POSTSCRIPT",
           "package": "freetype2",
@@ -6906,6 +7536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ORIENTATION_TRUETYPE",
           "package": "freetype2",
@@ -6915,6 +7546,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_ORIENTATION_TRUETYPE",
           "package": "freetype2",
@@ -6928,6 +7560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_EVEN_ODD_FILL",
           "package": "freetype2",
@@ -6937,6 +7570,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_EVEN_ODD_FILL",
           "package": "freetype2",
@@ -6950,6 +7584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_HIGH_PRECISION",
           "package": "freetype2",
@@ -6959,6 +7594,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_HIGH_PRECISION",
           "package": "freetype2",
@@ -6972,6 +7608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_IGNORE_DROPOUTS",
           "package": "freetype2",
@@ -6981,6 +7618,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_IGNORE_DROPOUTS",
           "package": "freetype2",
@@ -6994,6 +7632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_INCLUDE_STUBS",
           "package": "freetype2",
@@ -7003,6 +7642,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_INCLUDE_STUBS",
           "package": "freetype2",
@@ -7016,6 +7656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_NONE",
           "package": "freetype2",
@@ -7025,6 +7666,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_NONE",
           "package": "freetype2",
@@ -7038,6 +7680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_OWNER",
           "package": "freetype2",
@@ -7047,6 +7690,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_OWNER",
           "package": "freetype2",
@@ -7060,6 +7704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_REVERSE_FILL",
           "package": "freetype2",
@@ -7069,6 +7714,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_REVERSE_FILL",
           "package": "freetype2",
@@ -7082,6 +7728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_SINGLE_PASS",
           "package": "freetype2",
@@ -7091,6 +7738,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_SINGLE_PASS",
           "package": "freetype2",
@@ -7104,6 +7752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_SMART_DROPOUTS",
           "package": "freetype2",
@@ -7113,6 +7762,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_OUTLINE_SMART_DROPOUTS",
           "package": "freetype2",
@@ -7126,6 +7776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_RENDER_MODE_LCD",
           "package": "freetype2",
@@ -7135,6 +7786,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_RENDER_MODE_LCD",
           "package": "freetype2",
@@ -7148,6 +7800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_RENDER_MODE_LCD_V",
           "package": "freetype2",
@@ -7157,6 +7810,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_RENDER_MODE_LCD_V",
           "package": "freetype2",
@@ -7170,6 +7824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_RENDER_MODE_LIGHT",
           "package": "freetype2",
@@ -7179,6 +7834,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_RENDER_MODE_LIGHT",
           "package": "freetype2",
@@ -7192,6 +7848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_RENDER_MODE_MONO",
           "package": "freetype2",
@@ -7201,6 +7858,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_RENDER_MODE_MONO",
           "package": "freetype2",
@@ -7214,6 +7872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_RENDER_MODE_NORMAL",
           "package": "freetype2",
@@ -7223,6 +7882,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_RENDER_MODE_NORMAL",
           "package": "freetype2",
@@ -7236,6 +7896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SIZE_REQUEST_TYPE_BBOX",
           "package": "freetype2",
@@ -7245,6 +7906,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SIZE_REQUEST_TYPE_BBOX",
           "package": "freetype2",
@@ -7258,6 +7920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SIZE_REQUEST_TYPE_CELL",
           "package": "freetype2",
@@ -7267,6 +7930,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SIZE_REQUEST_TYPE_CELL",
           "package": "freetype2",
@@ -7280,6 +7944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SIZE_REQUEST_TYPE_NOMINAL",
           "package": "freetype2",
@@ -7289,6 +7954,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SIZE_REQUEST_TYPE_NOMINAL",
           "package": "freetype2",
@@ -7302,6 +7968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SIZE_REQUEST_TYPE_REAL_DIM",
           "package": "freetype2",
@@ -7311,6 +7978,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SIZE_REQUEST_TYPE_REAL_DIM",
           "package": "freetype2",
@@ -7324,6 +7992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SIZE_REQUEST_TYPE_SCALES",
           "package": "freetype2",
@@ -7333,6 +8002,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SIZE_REQUEST_TYPE_SCALES",
           "package": "freetype2",
@@ -7346,6 +8016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SUBGLYPH_FLAG_2X2",
           "package": "freetype2",
@@ -7355,6 +8026,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SUBGLYPH_FLAG_2X2",
           "package": "freetype2",
@@ -7368,6 +8040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SUBGLYPH_FLAG_ARGS_ARE_WORDS",
           "package": "freetype2",
@@ -7377,6 +8050,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SUBGLYPH_FLAG_ARGS_ARE_WORDS",
           "package": "freetype2",
@@ -7390,6 +8064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SUBGLYPH_FLAG_ARGS_ARE_XY_VALUES",
           "package": "freetype2",
@@ -7399,6 +8074,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SUBGLYPH_FLAG_ARGS_ARE_XY_VALUES",
           "package": "freetype2",
@@ -7412,6 +8088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SUBGLYPH_FLAG_ROUND_XY_TO_GRID",
           "package": "freetype2",
@@ -7421,6 +8098,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SUBGLYPH_FLAG_ROUND_XY_TO_GRID",
           "package": "freetype2",
@@ -7434,6 +8112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SUBGLYPH_FLAG_SCALE",
           "package": "freetype2",
@@ -7443,6 +8122,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SUBGLYPH_FLAG_SCALE",
           "package": "freetype2",
@@ -7456,6 +8136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SUBGLYPH_FLAG_USE_MY_METRICS",
           "package": "freetype2",
@@ -7465,6 +8146,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SUBGLYPH_FLAG_USE_MY_METRICS",
           "package": "freetype2",
@@ -7478,6 +8160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SUBGLYPH_FLAG_XY_SCALE",
           "package": "freetype2",
@@ -7487,6 +8170,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal PrimitiveTypes",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.PrimitiveTypes",
           "name": "ft_SUBGLYPH_FLAG_XY_SCALE",
           "package": "freetype2",
@@ -7500,6 +8184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "RasterParams",
           "package": "freetype2",
@@ -7508,6 +8193,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal RasterParams",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "RasterParams",
           "package": "freetype2",
@@ -7521,6 +8207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "FT_Raster_BitSet_Func",
           "package": "freetype2",
@@ -7529,6 +8216,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal RasterParams",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "FT_Raster_BitSet_Func",
           "package": "freetype2",
@@ -7542,6 +8230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "FT_Raster_BitTest_Func",
           "package": "freetype2",
@@ -7550,6 +8239,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal RasterParams",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "FT_Raster_BitTest_Func",
           "package": "freetype2",
@@ -7563,6 +8253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "FT_Raster_Params",
           "package": "freetype2",
@@ -7571,6 +8262,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal RasterParams",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "FT_Raster_Params",
           "package": "freetype2",
@@ -7584,6 +8276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "FT_SpanFunc",
           "package": "freetype2",
@@ -7592,6 +8285,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal RasterParams",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "FT_SpanFunc",
           "package": "freetype2",
@@ -7605,6 +8299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "clip_box",
           "package": "freetype2",
@@ -7614,6 +8309,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal RasterParams",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "clip_box",
           "normalized": "FT_Raster_Params-\u003eFT_BBox",
@@ -7628,6 +8324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "flags",
           "package": "freetype2",
@@ -7637,6 +8334,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal RasterParams",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "flags",
           "normalized": "FT_Raster_Params-\u003eCInt",
@@ -7651,6 +8349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "gray_spans",
           "package": "freetype2",
@@ -7660,6 +8359,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal RasterParams",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "gray_spans",
           "normalized": "FT_Raster_Params-\u003eFT_SpanFunc",
@@ -7674,6 +8374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "source",
           "package": "freetype2",
@@ -7683,6 +8384,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal RasterParams",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "source",
           "normalized": "FT_Raster_Params-\u003ePtr()",
@@ -7697,6 +8399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "target",
           "package": "freetype2",
@@ -7706,6 +8409,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal RasterParams",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "target",
           "normalized": "FT_Raster_Params-\u003ePtr FT_Bitmap",
@@ -7720,6 +8424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "user",
           "package": "freetype2",
@@ -7729,6 +8434,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal RasterParams",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.RasterParams",
           "name": "user",
           "normalized": "FT_Raster_Params-\u003ePtr()",
@@ -7743,6 +8449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Renderer",
           "name": "Renderer",
           "package": "freetype2",
@@ -7751,6 +8458,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Renderer",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Renderer",
           "name": "Renderer",
           "package": "freetype2",
@@ -7764,6 +8472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Renderer",
           "name": "FT_Renderer",
           "package": "freetype2",
@@ -7772,6 +8481,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Renderer",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Renderer",
           "name": "FT_Renderer",
           "package": "freetype2",
@@ -7785,6 +8495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Renderer",
           "name": "FT_RendererRec_",
           "package": "freetype2",
@@ -7793,6 +8504,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Renderer",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Renderer",
           "name": "FT_RendererRec_",
           "package": "freetype2",
@@ -7806,6 +8518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Size",
           "name": "Size",
           "package": "freetype2",
@@ -7814,6 +8527,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Size",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Size",
           "name": "Size",
           "package": "freetype2",
@@ -7827,6 +8541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Size",
           "name": "FT_Size",
           "package": "freetype2",
@@ -7835,6 +8550,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Size",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Size",
           "name": "FT_Size",
           "package": "freetype2",
@@ -7848,6 +8564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Size",
           "name": "FT_SizeRec_",
           "package": "freetype2",
@@ -7856,6 +8573,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Size",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Size",
           "name": "FT_SizeRec_",
           "package": "freetype2",
@@ -7869,6 +8587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Size",
           "name": "face",
           "package": "freetype2",
@@ -7878,6 +8597,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Size",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Size",
           "name": "face",
           "normalized": "FT_Size-\u003ePtr FT_Face",
@@ -7892,6 +8612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Size",
           "name": "generic",
           "package": "freetype2",
@@ -7901,6 +8622,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Size",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Size",
           "name": "generic",
           "normalized": "FT_Size-\u003ePtr FT_Generic",
@@ -7915,6 +8637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Size",
           "name": "metrics",
           "package": "freetype2",
@@ -7924,6 +8647,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Size",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Size",
           "name": "metrics",
           "normalized": "FT_Size-\u003ePtr FT_Size_Metrics",
@@ -7938,6 +8662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "SizeMetrics",
           "package": "freetype2",
@@ -7946,6 +8671,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "SizeMetrics",
           "package": "freetype2",
@@ -7959,6 +8685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "FT_Size_Metrics",
           "package": "freetype2",
@@ -7967,6 +8694,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "FT_Size_Metrics",
           "package": "freetype2",
@@ -7980,6 +8708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "FT_Size_Metrics",
           "package": "freetype2",
@@ -7989,6 +8718,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "FT_Size_Metrics",
           "package": "freetype2",
@@ -8002,6 +8732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "ascender",
           "package": "freetype2",
@@ -8011,6 +8742,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "ascender",
           "package": "freetype2",
@@ -8023,6 +8755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "descender",
           "package": "freetype2",
@@ -8032,6 +8765,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "descender",
           "package": "freetype2",
@@ -8044,6 +8778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "height",
           "package": "freetype2",
@@ -8053,6 +8788,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "height",
           "package": "freetype2",
@@ -8065,6 +8801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "max_advance",
           "package": "freetype2",
@@ -8074,6 +8811,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "max_advance",
           "package": "freetype2",
@@ -8086,6 +8824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "x_ppem",
           "package": "freetype2",
@@ -8095,6 +8834,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "x_ppem",
           "package": "freetype2",
@@ -8107,6 +8847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "x_scale",
           "package": "freetype2",
@@ -8116,6 +8857,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "x_scale",
           "package": "freetype2",
@@ -8128,6 +8870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "y_ppem",
           "package": "freetype2",
@@ -8137,6 +8880,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "y_ppem",
           "package": "freetype2",
@@ -8149,6 +8893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "y_scale",
           "package": "freetype2",
@@ -8158,6 +8903,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeMetrics",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeMetrics",
           "name": "y_scale",
           "package": "freetype2",
@@ -8170,6 +8916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "SizeRequest",
           "package": "freetype2",
@@ -8178,6 +8925,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeRequest",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "SizeRequest",
           "package": "freetype2",
@@ -8191,6 +8939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "FT_Size_Request",
           "package": "freetype2",
@@ -8199,6 +8948,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeRequest",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "FT_Size_Request",
           "package": "freetype2",
@@ -8212,6 +8962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "FT_Size_RequestRec",
           "package": "freetype2",
@@ -8220,6 +8971,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeRequest",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "FT_Size_RequestRec",
           "package": "freetype2",
@@ -8233,6 +8985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "FT_Size_RequestRec",
           "package": "freetype2",
@@ -8242,6 +8995,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeRequest",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "FT_Size_RequestRec",
           "package": "freetype2",
@@ -8255,6 +9009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "height",
           "package": "freetype2",
@@ -8264,6 +9019,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeRequest",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "height",
           "package": "freetype2",
@@ -8276,6 +9032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "horiResolution",
           "package": "freetype2",
@@ -8285,6 +9042,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeRequest",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "horiResolution",
           "package": "freetype2",
@@ -8298,6 +9056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "type_",
           "package": "freetype2",
@@ -8307,6 +9066,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeRequest",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "type_",
           "package": "freetype2",
@@ -8319,6 +9079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "vertResolution",
           "package": "freetype2",
@@ -8328,6 +9089,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeRequest",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "vertResolution",
           "package": "freetype2",
@@ -8341,6 +9103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "width",
           "package": "freetype2",
@@ -8350,6 +9113,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SizeRequest",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SizeRequest",
           "name": "width",
           "package": "freetype2",
@@ -8362,6 +9126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Span",
           "name": "Span",
           "package": "freetype2",
@@ -8370,6 +9135,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Span",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Span",
           "name": "Span",
           "package": "freetype2",
@@ -8383,6 +9149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Span",
           "name": "FT_Span",
           "package": "freetype2",
@@ -8391,6 +9158,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Span",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Span",
           "name": "FT_Span",
           "package": "freetype2",
@@ -8404,6 +9172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Span",
           "name": "FT_Span",
           "package": "freetype2",
@@ -8413,6 +9182,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Span",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Span",
           "name": "FT_Span",
           "package": "freetype2",
@@ -8426,6 +9196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Span",
           "name": "coverage",
           "package": "freetype2",
@@ -8435,6 +9206,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Span",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Span",
           "name": "coverage",
           "package": "freetype2",
@@ -8447,6 +9219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Span",
           "name": "len",
           "package": "freetype2",
@@ -8456,6 +9229,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Span",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Span",
           "name": "len",
           "package": "freetype2",
@@ -8468,6 +9242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Span",
           "name": "x",
           "package": "freetype2",
@@ -8477,6 +9252,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Span",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Span",
           "name": "x",
           "package": "freetype2",
@@ -8489,6 +9265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "Stream",
           "package": "freetype2",
@@ -8497,6 +9274,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "Stream",
           "package": "freetype2",
@@ -8510,6 +9288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "FT_Stream",
           "package": "freetype2",
@@ -8518,6 +9297,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "FT_Stream",
           "package": "freetype2",
@@ -8531,6 +9311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "FT_StreamDesc",
           "package": "freetype2",
@@ -8539,6 +9320,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "FT_StreamDesc",
           "package": "freetype2",
@@ -8552,6 +9334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "FT_StreamRec_",
           "package": "freetype2",
@@ -8560,6 +9343,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "FT_StreamRec_",
           "package": "freetype2",
@@ -8573,6 +9357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "FT_Stream_CloseFunc",
           "package": "freetype2",
@@ -8581,6 +9366,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "FT_Stream_CloseFunc",
           "package": "freetype2",
@@ -8594,6 +9380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "FT_Stream_IoFunc",
           "package": "freetype2",
@@ -8602,6 +9389,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "FT_Stream_IoFunc",
           "package": "freetype2",
@@ -8615,6 +9403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "base",
           "package": "freetype2",
@@ -8624,6 +9413,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "base",
           "normalized": "FT_Stream-\u003ePtr(Ptr CUChar)",
@@ -8638,6 +9428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "close",
           "package": "freetype2",
@@ -8647,6 +9438,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "close",
           "normalized": "FT_Stream-\u003ePtr FT_Stream_CloseFunc",
@@ -8661,6 +9453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "cursor",
           "package": "freetype2",
@@ -8670,6 +9463,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "cursor",
           "normalized": "FT_Stream-\u003ePtr(Ptr CUChar)",
@@ -8684,6 +9478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "descriptor",
           "package": "freetype2",
@@ -8693,6 +9488,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "descriptor",
           "normalized": "FT_Stream-\u003ePtr FT_StreamDesc",
@@ -8707,6 +9503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "limit",
           "package": "freetype2",
@@ -8716,6 +9513,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "limit",
           "normalized": "FT_Stream-\u003ePtr(Ptr CUChar)",
@@ -8730,6 +9528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "memory",
           "package": "freetype2",
@@ -8739,6 +9538,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "memory",
           "normalized": "FT_Stream-\u003ePtr FT_Memory",
@@ -8753,6 +9553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "pos",
           "package": "freetype2",
@@ -8762,6 +9563,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "pos",
           "normalized": "FT_Stream-\u003ePtr CULong",
@@ -8776,6 +9578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "read",
           "package": "freetype2",
@@ -8785,6 +9588,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "read",
           "normalized": "FT_Stream-\u003ePtr FT_Stream_IoFunc",
@@ -8799,6 +9603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "size",
           "package": "freetype2",
@@ -8808,6 +9613,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Stream",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Stream",
           "name": "size",
           "normalized": "FT_Stream-\u003ePtr CULong",
@@ -8822,6 +9628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SubGlyph",
           "name": "SubGlyph",
           "package": "freetype2",
@@ -8830,6 +9637,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SubGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SubGlyph",
           "name": "SubGlyph",
           "package": "freetype2",
@@ -8843,6 +9651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SubGlyph",
           "name": "FT_SubGlyph",
           "package": "freetype2",
@@ -8851,6 +9660,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SubGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SubGlyph",
           "name": "FT_SubGlyph",
           "package": "freetype2",
@@ -8864,6 +9674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.SubGlyph",
           "name": "FT_SubGlyphRec_",
           "package": "freetype2",
@@ -8872,6 +9683,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal SubGlyph",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.SubGlyph",
           "name": "FT_SubGlyphRec_",
           "package": "freetype2",
@@ -8885,6 +9697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Vector",
           "name": "Vector",
           "package": "freetype2",
@@ -8893,6 +9706,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Vector",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Vector",
           "name": "Vector",
           "package": "freetype2",
@@ -8906,6 +9720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Vector",
           "name": "FT_Vector",
           "package": "freetype2",
@@ -8914,6 +9729,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Vector",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Vector",
           "name": "FT_Vector",
           "package": "freetype2",
@@ -8927,6 +9743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Vector",
           "name": "FT_Vector",
           "package": "freetype2",
@@ -8936,6 +9753,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Vector",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Vector",
           "name": "FT_Vector",
           "package": "freetype2",
@@ -8949,6 +9767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Vector",
           "name": "x",
           "package": "freetype2",
@@ -8958,6 +9777,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Vector",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Vector",
           "name": "x",
           "package": "freetype2",
@@ -8970,6 +9790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal.Vector",
           "name": "y",
           "package": "freetype2",
@@ -8979,6 +9800,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal Vector",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal.Vector",
           "name": "y",
           "package": "freetype2",
@@ -8991,6 +9813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "Internal",
           "package": "freetype2",
@@ -8999,6 +9822,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "Internal",
           "package": "freetype2",
@@ -9012,6 +9836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Activate_Size",
           "package": "freetype2",
@@ -9021,6 +9846,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Activate_Size",
           "normalized": "FT_Size-\u003eIO FT_Error",
@@ -9036,6 +9862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Attach_File",
           "package": "freetype2",
@@ -9045,6 +9872,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Attach_File",
           "normalized": "FT_Face-\u003eCString-\u003eIO FT_Error",
@@ -9060,6 +9888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Attach_Stream",
           "package": "freetype2",
@@ -9069,6 +9898,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Attach_Stream",
           "normalized": "FT_Face-\u003ePtr FT_Open_Args-\u003eIO FT_Error",
@@ -9084,6 +9914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Done_Face",
           "package": "freetype2",
@@ -9093,6 +9924,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Done_Face",
           "normalized": "FT_Face-\u003eIO FT_Error",
@@ -9108,6 +9940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Done_FreeType",
           "package": "freetype2",
@@ -9117,6 +9950,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Done_FreeType",
           "normalized": "FT_Library-\u003eIO FT_Error",
@@ -9132,6 +9966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Done_Glyph",
           "package": "freetype2",
@@ -9141,6 +9976,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Done_Glyph",
           "normalized": "FT_Glyph-\u003eIO()",
@@ -9156,6 +9992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Done_Size",
           "package": "freetype2",
@@ -9165,6 +10002,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Done_Size",
           "normalized": "FT_Size-\u003eIO FT_Error",
@@ -9181,6 +10019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just here for completeness,\n TrueType hinting is no longer patented\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Face_CheckTrueTypePatents",
           "package": "freetype2",
@@ -9191,6 +10030,7 @@
         "index": {
           "description": "This is just here for completeness TrueType hinting is no longer patented",
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Face_CheckTrueTypePatents",
           "normalized": "FT_Face-\u003eIO FT_Bool",
@@ -9206,6 +10046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Face_GetCharVariantIndex",
           "package": "freetype2",
@@ -9215,6 +10056,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Face_GetCharVariantIndex",
           "normalized": "FT_Face-\u003eFT_ULong-\u003eFT_ULong-\u003eIO FT_UInt",
@@ -9230,6 +10072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Face_GetCharVariantIsDefault",
           "package": "freetype2",
@@ -9239,6 +10082,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Face_GetCharVariantIsDefault",
           "normalized": "FT_Face-\u003eFT_ULong-\u003eFT_ULong-\u003eIO FT_Int",
@@ -9254,6 +10098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Face_GetCharsOfVariant",
           "package": "freetype2",
@@ -9263,6 +10108,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Face_GetCharsOfVariant",
           "normalized": "FT_Face-\u003eFT_ULong-\u003eIO(Ptr FT_UInt)",
@@ -9278,6 +10124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Face_GetVariantSelectors",
           "package": "freetype2",
@@ -9287,6 +10134,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Face_GetVariantSelectors",
           "normalized": "FT_Face-\u003eIO(Ptr FT_UInt)",
@@ -9302,6 +10150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Face_GetVariantsOfChar",
           "package": "freetype2",
@@ -9311,6 +10160,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Face_GetVariantsOfChar",
           "normalized": "FT_Face-\u003eFT_ULong-\u003eIO(Ptr FT_UInt)",
@@ -9327,6 +10177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just here for completeness,\n TrueType hinting is no longer patented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Face_SetUnpatentedHinting",
           "package": "freetype2",
@@ -9337,6 +10188,7 @@
         "index": {
           "description": "This is just here for completeness TrueType hinting is no longer patented",
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Face_SetUnpatentedHinting",
           "normalized": "FT_Face-\u003eFT_Bool-\u003eIO FT_Bool",
@@ -9352,6 +10204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Char_Index",
           "package": "freetype2",
@@ -9361,6 +10214,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Char_Index",
           "normalized": "FT_Face-\u003eFT_ULong-\u003eIO FT_UInt",
@@ -9376,6 +10230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Charmap_Index",
           "package": "freetype2",
@@ -9385,6 +10240,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Charmap_Index",
           "normalized": "FT_CharMap-\u003eIO FT_Int",
@@ -9400,6 +10256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_FSType_Flags",
           "package": "freetype2",
@@ -9409,6 +10266,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_FSType_Flags",
           "normalized": "FT_Face-\u003eIO FT_UShort",
@@ -9424,6 +10282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_First_Char",
           "package": "freetype2",
@@ -9433,6 +10292,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_First_Char",
           "normalized": "FT_Face-\u003ePtr FT_UInt-\u003eIO FT_ULong",
@@ -9448,6 +10308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Glyph",
           "package": "freetype2",
@@ -9457,6 +10318,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Glyph",
           "normalized": "FT_GlyphSlot-\u003ePtr FT_Glyph-\u003eIO FT_Error",
@@ -9472,6 +10334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Glyph_Name",
           "package": "freetype2",
@@ -9481,6 +10344,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Glyph_Name",
           "normalized": "FT_Face-\u003eFT_UInt-\u003eFT_Pointer-\u003eFT_UInt-\u003eIO FT_Error",
@@ -9496,6 +10360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Kerning",
           "package": "freetype2",
@@ -9505,6 +10370,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Kerning",
           "normalized": "FT_Face-\u003eFT_UInt-\u003eFT_UInt-\u003eFT_UInt-\u003ePtr FT_Vector-\u003eIO FT_Error",
@@ -9520,6 +10386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Name_Index",
           "package": "freetype2",
@@ -9529,6 +10396,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Name_Index",
           "normalized": "FT_Face-\u003eCString-\u003eIO FT_UInt",
@@ -9544,6 +10412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Next_Char",
           "package": "freetype2",
@@ -9553,6 +10422,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Next_Char",
           "normalized": "FT_Face-\u003eFT_ULong-\u003ePtr FT_UInt-\u003eIO FT_ULong",
@@ -9568,6 +10438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Postscript_Name",
           "package": "freetype2",
@@ -9577,6 +10448,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Postscript_Name",
           "normalized": "FT_Face-\u003eIO CString",
@@ -9592,6 +10464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_SubGlyph_Info",
           "package": "freetype2",
@@ -9601,6 +10474,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_SubGlyph_Info",
           "normalized": "FT_GlyphSlot-\u003eFT_UInt-\u003ePtr FT_Int-\u003ePtr FT_UInt-\u003ePtr FT_Int-\u003ePtr FT_Int-\u003ePtr FT_Matrix-\u003eIO FT_Error",
@@ -9616,6 +10490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Track_Kerning",
           "package": "freetype2",
@@ -9625,6 +10500,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Get_Track_Kerning",
           "normalized": "FT_Face-\u003eFT_Fixed-\u003eFT_Int-\u003ePtr FT_Fixed-\u003eIO FT_Error",
@@ -9640,6 +10516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Glyph_To_Bitmap",
           "package": "freetype2",
@@ -9649,6 +10526,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Glyph_To_Bitmap",
           "normalized": "Ptr FT_Glyph-\u003eFT_Render_Mode-\u003ePtr FT_Vector-\u003eFT_Bool-\u003eIO FT_Error",
@@ -9664,6 +10542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Init_FreeType",
           "package": "freetype2",
@@ -9673,6 +10552,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Init_FreeType",
           "normalized": "Ptr FT_Library-\u003eIO FT_Error",
@@ -9688,6 +10568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Library_Version",
           "package": "freetype2",
@@ -9697,6 +10578,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Library_Version",
           "normalized": "FT_Library-\u003ePtr FT_Int-\u003ePtr FT_Int-\u003ePtr FT_Int-\u003eIO()",
@@ -9712,6 +10594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Load_Char",
           "package": "freetype2",
@@ -9721,6 +10604,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Load_Char",
           "normalized": "FT_Face-\u003eFT_ULong-\u003eFT_Int-\u003eIO FT_Error",
@@ -9736,6 +10620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Load_Glyph",
           "package": "freetype2",
@@ -9745,6 +10630,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Load_Glyph",
           "normalized": "FT_Face-\u003eFT_UInt-\u003eFT_Int-\u003eIO FT_Error",
@@ -9760,6 +10646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_New_Face",
           "package": "freetype2",
@@ -9769,6 +10656,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_New_Face",
           "normalized": "FT_Library-\u003eCString-\u003eFT_Long-\u003ePtr FT_Face-\u003eIO FT_Error",
@@ -9784,6 +10672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_New_Memory_Face",
           "package": "freetype2",
@@ -9793,6 +10682,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_New_Memory_Face",
           "normalized": "FT_Library-\u003eFT_Bytes-\u003eFT_Long-\u003eFT_Long-\u003ePtr FT_Face-\u003eIO FT_Error",
@@ -9808,6 +10698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_New_Size",
           "package": "freetype2",
@@ -9817,6 +10708,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_New_Size",
           "normalized": "FT_Face-\u003ePtr FT_Size-\u003eIO FT_Error",
@@ -9832,6 +10724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Open_Face",
           "package": "freetype2",
@@ -9841,6 +10734,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Open_Face",
           "normalized": "FT_Library-\u003ePtr FT_Open_Args-\u003eFT_Long-\u003ePtr FT_Face-\u003eIO FT_Error",
@@ -9856,6 +10750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Check",
           "package": "freetype2",
@@ -9865,6 +10760,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Check",
           "normalized": "Ptr FT_Outline-\u003eIO FT_Error",
@@ -9880,6 +10776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Copy",
           "package": "freetype2",
@@ -9889,6 +10786,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Copy",
           "normalized": "Ptr FT_Outline-\u003ePtr FT_Outline-\u003eIO FT_Error",
@@ -9904,6 +10802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Decompose",
           "package": "freetype2",
@@ -9913,6 +10812,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Decompose",
           "normalized": "Ptr FT_Outline-\u003ePtr FT_Outline_Funcs-\u003ePtr a-\u003eIO FT_Error",
@@ -9928,6 +10828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Done",
           "package": "freetype2",
@@ -9937,6 +10838,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Done",
           "normalized": "FT_Library-\u003ePtr FT_Outline-\u003eIO FT_Error",
@@ -9952,6 +10854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Done_Internal",
           "package": "freetype2",
@@ -9961,6 +10864,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Done_Internal",
           "normalized": "FT_Memory-\u003ePtr FT_Outline-\u003eIO FT_Error",
@@ -9976,6 +10880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Embolden",
           "package": "freetype2",
@@ -9985,6 +10890,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Embolden",
           "normalized": "Ptr FT_Outline-\u003eFT_Pos-\u003eIO FT_Error",
@@ -10000,6 +10906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Get_BBox",
           "package": "freetype2",
@@ -10009,6 +10916,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Get_BBox",
           "normalized": "Ptr FT_Outline-\u003ePtr FT_BBox-\u003eIO FT_Error",
@@ -10024,6 +10932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Get_Bitmap",
           "package": "freetype2",
@@ -10033,6 +10942,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Get_Bitmap",
           "normalized": "FT_Library-\u003ePtr FT_Outline-\u003ePtr FT_Bitmap-\u003eIO FT_Error",
@@ -10048,6 +10958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Get_CBox",
           "package": "freetype2",
@@ -10057,6 +10968,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Get_CBox",
           "normalized": "Ptr FT_Outline-\u003ePtr FT_BBox-\u003eIO()",
@@ -10072,6 +10984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Get_Orientation",
           "package": "freetype2",
@@ -10081,6 +10994,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Get_Orientation",
           "normalized": "Ptr FT_Outline-\u003eIO FT_Orientation",
@@ -10096,6 +11010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_New",
           "package": "freetype2",
@@ -10105,6 +11020,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_New",
           "normalized": "FT_Library-\u003eFT_UInt-\u003eFT_Int-\u003ePtr FT_Outline-\u003eIO FT_Error",
@@ -10120,6 +11036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_New_Internal",
           "package": "freetype2",
@@ -10129,6 +11046,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_New_Internal",
           "normalized": "FT_Memory-\u003eFT_UInt-\u003eFT_Int-\u003ePtr FT_Outline-\u003eIO FT_Error",
@@ -10144,6 +11062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Render",
           "package": "freetype2",
@@ -10153,6 +11072,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Render",
           "normalized": "FT_Library-\u003ePtr FT_Outline-\u003ePtr FT_Raster_Params-\u003eIO FT_Error",
@@ -10168,6 +11088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Reverse",
           "package": "freetype2",
@@ -10177,6 +11098,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Reverse",
           "normalized": "Ptr FT_Outline-\u003eIO()",
@@ -10192,6 +11114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Transform",
           "package": "freetype2",
@@ -10201,6 +11124,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Transform",
           "normalized": "Ptr FT_Outline-\u003ePtr FT_Matrix-\u003eIO()",
@@ -10216,6 +11140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Translate",
           "package": "freetype2",
@@ -10225,6 +11150,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Outline_Translate",
           "normalized": "Ptr FT_Outline-\u003eFT_Pos-\u003eFT_Pos-\u003eIO()",
@@ -10240,6 +11166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Reference_Face",
           "package": "freetype2",
@@ -10249,6 +11176,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Reference_Face",
           "normalized": "FT_Face-\u003eIO FT_Error",
@@ -10264,6 +11192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Render_Glyph",
           "package": "freetype2",
@@ -10273,6 +11202,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Render_Glyph",
           "normalized": "FT_GlyphSlot-\u003eFT_Render_Mode-\u003eIO FT_Error",
@@ -10288,6 +11218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Request_Size",
           "package": "freetype2",
@@ -10297,6 +11228,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Request_Size",
           "normalized": "FT_Face-\u003eFT_Size_Request-\u003eIO FT_Error",
@@ -10312,6 +11244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Select_Charmap",
           "package": "freetype2",
@@ -10321,6 +11254,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Select_Charmap",
           "normalized": "FT_Face-\u003eFT_Encoding-\u003eIO FT_Error",
@@ -10336,6 +11270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Select_Size",
           "package": "freetype2",
@@ -10345,6 +11280,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Select_Size",
           "normalized": "FT_Face-\u003eFT_Int-\u003eIO FT_Error",
@@ -10360,6 +11296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Set_Char_Size",
           "package": "freetype2",
@@ -10369,6 +11306,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Set_Char_Size",
           "normalized": "FT_Face-\u003eFT_F Dot-\u003eFT_F Dot-\u003eFT_UInt-\u003eFT_UInt-\u003eIO FT_Error",
@@ -10384,6 +11322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Set_Charmap",
           "package": "freetype2",
@@ -10393,6 +11332,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Set_Charmap",
           "normalized": "FT_Face-\u003eFT_CharMap-\u003eIO FT_Error",
@@ -10408,6 +11348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Set_Pixel_Sizes",
           "package": "freetype2",
@@ -10417,6 +11358,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Set_Pixel_Sizes",
           "normalized": "FT_Face-\u003eFT_UInt-\u003eFT_UInt-\u003eIO FT_Error",
@@ -10432,6 +11374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:36 UTC 2014",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Set_Transform",
           "package": "freetype2",
@@ -10441,6 +11384,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering FreeType Internal",
+          "indexed": "2014-03-11T18:12:36",
           "module": "Graphics.Rendering.FreeType.Internal",
           "name": "ft_Set_Transform",
           "normalized": "FT_Face-\u003ePtr FT_Matrix-\u003ePtr FT_Vector-\u003eIO()",

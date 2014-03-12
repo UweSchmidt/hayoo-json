@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "digit"
+        "phrase": "digit",
+        "type": "phrase"
       },
       "type": "context"
     }

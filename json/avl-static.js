@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "avl-static"
+        "phrase": "avl-static",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Internal",
           "package": "avl-static",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Internal",
           "package": "avl-static",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ccode\u003e\u003ca\u003eAVLNode\u003c/a\u003e\u003c/code\u003e n a\u003c/code\u003e is a node whose subtree has height \u003ccode\u003en\u003c/code\u003e, and values of\n type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "AVLNode",
           "package": "avl-static",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An AVLNode is node whose subtree has height and values of type",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "AVLNode",
           "package": "avl-static",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e is a statically balanced tree, whose non-nil values\n have type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "AVLTree",
           "package": "avl-static",
@@ -72,6 +77,7 @@
         "index": {
           "description": "An AVLTree is statically balanced tree whose non-nil values have type",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "AVLTree",
           "package": "avl-static",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe context for an 'AVLTree'\\'s \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e.\n The idea is that it represents an entire \u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e, save for a hole in it.\n A \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e means an entire \u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e, with a hole of height n.\n Its use is that, in a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e, we have a simple way to move around in the\n tree, starting at that hole.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ethis\u003c/a\u003e paper by Conor McBride for\n more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Context",
           "package": "avl-static",
@@ -95,6 +102,7 @@
         "index": {
           "description": "The context for an AVLTree Zipper The idea is that it represents an entire AVLTree save for hole in it Context means an entire AVLTree with hole of height Its use is that in Zipper we have simple way to move around in the tree starting at that hole See this paper by Conor McBride for more information",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Context",
           "package": "avl-static",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA natural number datatype, hoisted to a Kind using DataKinds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Nat",
           "package": "avl-static",
@@ -118,6 +127,7 @@
         "index": {
           "description": "natural number datatype hoisted to Kind using DataKinds",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Nat",
           "package": "avl-static",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e is a useful construct for functional datastructure traversals.\n For us, it can be thought of as a pointer to a subtree in an \u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003eFunctional Pearls: Zippers\u003c/a\u003e\n for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Zipper",
           "package": "avl-static",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Zipper is useful construct for functional datastructure traversals For us it can be thought of as pointer to subtree in an AVLTree See Functional Pearls Zippers for more information",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Zipper",
           "package": "avl-static",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "BC",
           "package": "avl-static",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "BC",
           "normalized": "Bool-\u003ea-\u003eAVLNode b a-\u003eContext(Succ b)a-\u003eContext b a",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Balanced",
           "package": "avl-static",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Balanced",
           "normalized": "a-\u003eAVLNode b a-\u003eAVLNode b a-\u003eAVLNode(Succ b)a",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "LLC",
           "package": "avl-static",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "LLC",
           "normalized": "a-\u003eAVLNode b a-\u003eContext(Succ(Succ b))a-\u003eContext(Succ b)a",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "LRC",
           "package": "avl-static",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "LRC",
           "normalized": "a-\u003eAVLNode(Succ b)a-\u003eContext(Succ(Succ b))a-\u003eContext b a",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Leftie",
           "package": "avl-static",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Leftie",
           "normalized": "a-\u003eAVLNode(Succ b)a-\u003eAVLNode b a-\u003eAVLNode(Succ(Succ b))a",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Nil",
           "package": "avl-static",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Nil",
           "package": "avl-static",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "RLC",
           "package": "avl-static",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "RLC",
           "normalized": "a-\u003eAVLNode(Succ b)a-\u003eContext(Succ(Succ b))a-\u003eContext b a",
@@ -320,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "RRC",
           "package": "avl-static",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "RRC",
           "normalized": "a-\u003eAVLNode b a-\u003eContext(Succ(Succ b))a-\u003eContext(Succ b)a",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Rightie",
           "package": "avl-static",
@@ -353,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Rightie",
           "normalized": "a-\u003eAVLNode b a-\u003eAVLNode(Succ b)a-\u003eAVLNode(Succ(Succ b))a",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Root",
           "package": "avl-static",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Root",
           "normalized": "Integer-\u003eContext a b",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Succ",
           "package": "avl-static",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Succ",
           "package": "avl-static",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "T",
           "package": "avl-static",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "T",
           "package": "avl-static",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Zero",
           "package": "avl-static",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Zero",
           "package": "avl-static",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Zipper",
           "package": "avl-static",
@@ -466,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "Zipper",
           "package": "avl-static",
@@ -480,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether we can navigate left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "canGoLeft",
           "package": "avl-static",
@@ -490,6 +531,7 @@
         "index": {
           "description": "Returns whether we can navigate left",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "canGoLeft",
           "normalized": "Zipper a-\u003eBool",
@@ -506,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether we can navigate right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "canGoRight",
           "package": "avl-static",
@@ -516,6 +559,7 @@
         "index": {
           "description": "Returns whether we can navigate right",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "canGoRight",
           "normalized": "Zipper a-\u003eBool",
@@ -532,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether we can navigate up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "canGoUp",
           "package": "avl-static",
@@ -542,6 +587,7 @@
         "index": {
           "description": "Returns whether we can navigate up",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "canGoUp",
           "normalized": "Zipper a-\u003eBool",
@@ -558,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eZ\u003c/code\u003e, deletes the value at the root of the subtree pointed\n to by \u003ccode\u003eZ\u003c/code\u003e. It returns a modified \u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e with this change applied.\n The removal is straight-up BST removal, folowed by an AVL rebalancing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "deleteBST",
           "package": "avl-static",
@@ -568,6 +615,7 @@
         "index": {
           "description": "Given Zipper deletes the value at the root of the subtree pointed to by It returns modified AVLTree with this change applied The removal is straight-up BST removal folowed by an AVL rebalancing",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "deleteBST",
           "normalized": "Zipper a-\u003eAVLTree a",
@@ -584,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces a given value by another, in the \u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e represented by a\n \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "fixContext",
           "package": "avl-static",
@@ -594,6 +643,7 @@
         "index": {
           "description": "Replaces given value by another in the AVLTree represented by Context",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "fixContext",
           "normalized": "a-\u003ea-\u003eContext b a-\u003eContext b a",
@@ -609,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "fmapNode",
           "package": "avl-static",
@@ -618,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "fmapNode",
           "normalized": "(a-\u003eb)-\u003eAVLNode c a-\u003eAVLNode c b",
@@ -633,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "foldNode",
           "package": "avl-static",
@@ -642,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "foldNode",
           "normalized": "(a-\u003ea-\u003eb-\u003ea)-\u003ea-\u003eAVLNode c b-\u003ea",
@@ -658,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert an \u003ccode\u003e\u003ca\u003eAVLNode\u003c/a\u003e\u003c/code\u003e of height (n + 1) in a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e with a hole of size n.\n Since this cannot be done in the usual way, rotations are used to return\n an \u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e that may nothave the same height as the 'Context'\\'s tree did,\n or have the same structure, but holds the same values, and has this enlarged\n  \u003ccode\u003e\u003ca\u003eAVLNode\u003c/a\u003e\u003c/code\u003e in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "insertUnbalancedAt",
           "package": "avl-static",
@@ -668,6 +723,7 @@
         "index": {
           "description": "Insert an AVLNode of height in Context with hole of size Since this cannot be done in the usual way rotations are used to return an AVLTree that may nothave the same height as the Context tree did or have the same structure but holds the same values and has this enlarged AVLNode in it",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "insertUnbalancedAt",
           "normalized": "AVLNode(Succ a)b-\u003eContext a b-\u003eAVLTree b",
@@ -684,6 +740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the pointed to subtree is a leaf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "isLeaf",
           "package": "avl-static",
@@ -694,6 +751,7 @@
         "index": {
           "description": "Returns whether the pointed to subtree is leaf",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "isLeaf",
           "normalized": "Zipper a-\u003eBool",
@@ -710,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the pointed to subtree is a left child of its parent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "isLeft",
           "package": "avl-static",
@@ -720,6 +779,7 @@
         "index": {
           "description": "Returns whether the pointed to subtree is left child of its parent",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "isLeft",
           "normalized": "Zipper a-\u003eBool",
@@ -736,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the pointed to subtree is a right child of its parent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "isRight",
           "package": "avl-static",
@@ -746,6 +807,7 @@
         "index": {
           "description": "Returns whether the pointed to subtree is right child of its parent",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "isRight",
           "normalized": "Zipper a-\u003eBool",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNavigates left in a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "left",
           "package": "avl-static",
@@ -772,6 +835,7 @@
         "index": {
           "description": "Navigates left in Zipper",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "left",
           "normalized": "Zipper a-\u003eZipper a",
@@ -787,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an \u003ccode\u003e\u003ca\u003eAVLNode\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e, and a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e with a hole of size \u003ccode\u003e(n + 1)\u003c/code\u003e,\n returns an \u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e with the \u003ccode\u003e\u003ca\u003eAVLNode\u003c/a\u003e\u003c/code\u003e being placed in that \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n Since this cannot be done normally, it uses rotations to return an \u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e\n that has the same elements as the \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e and the \u003ccode\u003e\u003ca\u003eAVLNode\u003c/a\u003e\u003c/code\u003e together,\n but may have a different structure than the tree the \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e represented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "rebalance",
           "package": "avl-static",
@@ -797,6 +862,7 @@
         "index": {
           "description": "Given an AVLNode and Context with hole of size returns an AVLTree with the AVLNode being placed in that Context Since this cannot be done normally it uses rotations to return an AVLTree that has the same elements as the Context and the AVLNode together but may have different structure than the tree the Context represented",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "rebalance",
           "normalized": "AVLNode a b-\u003eContext(Succ a)b-\u003eAVLTree b",
@@ -812,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNavigates right in a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "right",
           "package": "avl-static",
@@ -822,6 +889,7 @@
         "index": {
           "description": "Navigates right in Zipper",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "right",
           "normalized": "Zipper a-\u003eZipper a",
@@ -836,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "traverseNode",
           "package": "avl-static",
@@ -845,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "traverseNode",
           "normalized": "(a-\u003eb c)-\u003eAVLNode d a-\u003eb(AVLNode d c)",
@@ -861,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to the root of the given tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "unZip",
           "package": "avl-static",
@@ -871,6 +942,7 @@
         "index": {
           "description": "Constructs Zipper to the root of the given tree",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "unZip",
           "normalized": "AVLTree a-\u003eZipper a",
@@ -887,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNavigates up in a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "up",
           "package": "avl-static",
@@ -897,6 +970,7 @@
         "index": {
           "description": "Navigates up in Zipper",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "up",
           "normalized": "Zipper a-\u003eZipper a",
@@ -938,6 +1012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescends (never ascends) to a subtree whose root has a given value.\n If no such subtree exists, points to a \u003ccode\u003e\u003ca\u003eNil\u003c/a\u003e\u003c/code\u003e where the value would be found,\n  were it to exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipTo",
           "package": "avl-static",
@@ -948,6 +1023,7 @@
         "index": {
           "description": "Descends never ascends to subtree whose root has given value If no such subtree exists points to Nil where the value would be found were it to exist",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipTo",
           "normalized": "a-\u003eZipper a-\u003eZipper a",
@@ -964,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eZ\u003c/code\u003e, which points to a subtree \u003ccode\u003eS\u003c/code\u003e, returns a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to\n the first ancestor of \u003ccode\u003eS\u003c/code\u003e which is a left child of its parent. If such an\n ancestor does not exist, returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipToFirstLeftChild",
           "package": "avl-static",
@@ -974,6 +1051,7 @@
         "index": {
           "description": "Given Zipper which points to subtree returns Zipper to the first ancestor of which is left child of its parent If such an ancestor does not exist returns Nothing",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipToFirstLeftChild",
           "normalized": "Zipper a-\u003eMaybe(Zipper a)",
@@ -990,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eZ\u003c/code\u003e, which points to a subtree \u003ccode\u003eS\u003c/code\u003e, returns a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to\n the first ancestor of \u003ccode\u003eS\u003c/code\u003e which is a right child of its parent. If such an\n ancestor does not exist, returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipToFirstRightChild",
           "package": "avl-static",
@@ -1000,6 +1079,7 @@
         "index": {
           "description": "Given Zipper which points to subtree returns Zipper to the first ancestor of which is right child of its parent If such an ancestor does not exist returns Nothing",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipToFirstRightChild",
           "normalized": "Zipper a-\u003eMaybe(Zipper a)",
@@ -1016,6 +1096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to a node \u003ccode\u003eX\u003c/code\u003e in the tree, returns a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to the\n greatest node in the subtree rooted at \u003ccode\u003eX\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipToGreatest",
           "package": "avl-static",
@@ -1026,6 +1107,7 @@
         "index": {
           "description": "Given Zipper to node in the tree returns Zipper to the greatest node in the subtree rooted at",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipToGreatest",
           "normalized": "Zipper a-\u003eZipper a",
@@ -1042,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to a node in the tree, returns a Zipper to the predecessor\n of this node. If no such predecessor exists, returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipToPredecessor",
           "package": "avl-static",
@@ -1052,6 +1135,7 @@
         "index": {
           "description": "Given Zipper to node in the tree returns Zipper to the predecessor of this node If no such predecessor exists returns Nothing",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipToPredecessor",
           "normalized": "Zipper a-\u003eMaybe(Zipper a)",
@@ -1068,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to a node \u003ccode\u003eX\u003c/code\u003e in the tree, returns a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to the\n smallest node in the subtree rooted at \u003ccode\u003eX\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipToSmallest",
           "package": "avl-static",
@@ -1078,6 +1163,7 @@
         "index": {
           "description": "Given Zipper to node in the tree returns Zipper to the smallest node in the subtree rooted at",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipToSmallest",
           "normalized": "Zipper a-\u003eZipper a",
@@ -1094,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to a node in the tree, returns a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to the successor\n of this node. If no such successor exists, returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipToSuccessor",
           "package": "avl-static",
@@ -1104,6 +1191,7 @@
         "index": {
           "description": "Given Zipper to node in the tree returns Zipper to the successor of this node If no such successor exists returns Nothing",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipToSuccessor",
           "normalized": "Zipper a-\u003eMaybe(Zipper a)",
@@ -1120,6 +1208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a function that manipulates the tree size (number of nodes), and a\n \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e, constructs an \u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e with the new height, by \u003ca\u003ezipping up\u003c/a\u003e to\n the root of the tree pointed to by the \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipUp",
           "package": "avl-static",
@@ -1130,6 +1219,7 @@
         "index": {
           "description": "Given function that manipulates the tree size number of nodes and Zipper constructs an AVLTree with the new height by zipping up to the root of the tree pointed to by the Zipper",
           "hierarchy": "Data Tree AVL Static Internal",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static.Internal",
           "name": "zipUp",
           "normalized": "(Integer-\u003eInteger)-\u003eZipper a-\u003eAVLTree a",
@@ -1145,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static",
           "name": "Static",
           "package": "avl-static",
@@ -1153,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL Static",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static",
           "name": "Static",
           "package": "avl-static",
@@ -1167,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e is a statically balanced tree, whose non-nil values\n have type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static",
           "name": "AVLTree",
           "package": "avl-static",
@@ -1176,6 +1269,7 @@
         "index": {
           "description": "An AVLTree is statically balanced tree whose non-nil values have type",
           "hierarchy": "Data Tree AVL Static",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static",
           "name": "AVLTree",
           "package": "avl-static",
@@ -1190,6 +1284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e is a useful construct for functional datastructure traversals.\n For us, it can be thought of as a pointer to a subtree in an \u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003eFunctional Pearls: Zippers\u003c/a\u003e\n for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static",
           "name": "Zipper",
           "package": "avl-static",
@@ -1199,6 +1294,7 @@
         "index": {
           "description": "Zipper is useful construct for functional datastructure traversals For us it can be thought of as pointer to subtree in an AVLTree See Functional Pearls Zippers for more information",
           "hierarchy": "Data Tree AVL Static",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static",
           "name": "Zipper",
           "package": "avl-static",
@@ -1213,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to the smallest element in the tree, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the\n tree is empty.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static",
           "name": "begin",
           "package": "avl-static",
@@ -1223,6 +1320,7 @@
         "index": {
           "description": "Returns Zipper to the smallest element in the tree or Nothing if the tree is empty log",
           "hierarchy": "Data Tree AVL Static",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static",
           "name": "begin",
           "normalized": "AVLTree a-\u003eMaybe(Zipper a)",
@@ -1238,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes a value from an \u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e. If the value does not exist in the tree,\n does nothing.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static",
           "name": "delete",
           "package": "avl-static",
@@ -1248,6 +1347,7 @@
         "index": {
           "description": "Deletes value from an AVLTree If the value does not exist in the tree does nothing log",
           "hierarchy": "Data Tree AVL Static",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static",
           "name": "delete",
           "normalized": "a-\u003eAVLTree a-\u003eAVLTree a",
@@ -1263,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty \u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static",
           "name": "empty",
           "package": "avl-static",
@@ -1273,6 +1374,7 @@
         "index": {
           "description": "An empty AVLTree",
           "hierarchy": "Data Tree AVL Static",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static",
           "name": "empty",
           "package": "avl-static",
@@ -1286,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to the greatest element in the tree, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the\n tree is empty.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static",
           "name": "end",
           "package": "avl-static",
@@ -1296,6 +1399,7 @@
         "index": {
           "description": "Returns Zipper to the greatest element in the tree or Nothing if the tree is empty log",
           "hierarchy": "Data Tree AVL Static",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static",
           "name": "end",
           "normalized": "AVLTree a-\u003eMaybe(Zipper a)",
@@ -1311,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a value into an \u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e.\n If the value already exists, does nothing.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static",
           "name": "insert",
           "package": "avl-static",
@@ -1321,6 +1426,7 @@
         "index": {
           "description": "Insert value into an AVLTree If the value already exists does nothing log",
           "hierarchy": "Data Tree AVL Static",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static",
           "name": "insert",
           "normalized": "a-\u003eAVLTree a-\u003eAVLTree a",
@@ -1336,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to the predecessor of a value in a tree. If the input\n \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e points to the smallest element in the tree, returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static",
           "name": "predecessor",
           "package": "avl-static",
@@ -1346,6 +1453,7 @@
         "index": {
           "description": "Returns Zipper to the predecessor of value in tree If the input Zipper points to the smallest element in the tree returns Nothing log",
           "hierarchy": "Data Tree AVL Static",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static",
           "name": "predecessor",
           "normalized": "Zipper a-\u003eMaybe(Zipper a)",
@@ -1361,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for a node with a given value. Returns a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e pointing to\n a subtree whose root has that value, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the value is not\n in the tree.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static",
           "name": "search",
           "package": "avl-static",
@@ -1371,6 +1480,7 @@
         "index": {
           "description": "Search for node with given value Returns Zipper pointing to subtree whose root has that value or Nothing if the value is not in the tree log",
           "hierarchy": "Data Tree AVL Static",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static",
           "name": "search",
           "normalized": "a-\u003eAVLTree a-\u003eMaybe(Zipper a)",
@@ -1386,6 +1496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of nodes of an \u003ccode\u003e\u003ca\u003eAVLTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static",
           "name": "size",
           "package": "avl-static",
@@ -1396,6 +1507,7 @@
         "index": {
           "description": "The number of nodes of an AVLTree",
           "hierarchy": "Data Tree AVL Static",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static",
           "name": "size",
           "normalized": "AVLTree a-\u003eInteger",
@@ -1411,6 +1523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e to the successor of a value in a tree. If the input\n \u003ccode\u003e\u003ca\u003eZipper\u003c/a\u003e\u003c/code\u003e points to the greatest element in the tree, returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:20 UTC 2014",
           "module": "Data.Tree.AVL.Static",
           "name": "successor",
           "package": "avl-static",
@@ -1421,6 +1534,7 @@
         "index": {
           "description": "Returns Zipper to the successor of value in tree If the input Zipper points to the greatest element in the tree returns Nothing log",
           "hierarchy": "Data Tree AVL Static",
+          "indexed": "2014-03-11T17:15:20",
           "module": "Data.Tree.AVL.Static",
           "name": "successor",
           "normalized": "Zipper a-\u003eMaybe(Zipper a)",

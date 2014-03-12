@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "idna2008"
+        "phrase": "idna2008",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMakes a Unicode hostname internationalized. The code is currently prototyped\n and untested.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:56 UTC 2014",
           "module": "Data.Text.IDNA2008",
           "name": "IDNA2008",
           "package": "idna2008",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Makes Unicode hostname internationalized The code is currently prototyped and untested",
           "hierarchy": "Data Text IDNA2008",
+          "indexed": "2014-03-11T18:55:56",
           "module": "Data.Text.IDNA2008",
           "name": "IDNA2008",
           "package": "idna2008",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a Unicode hostname into an internationalized ASCII hostname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:56 UTC 2014",
           "module": "Data.Text.IDNA2008",
           "name": "toASCII",
           "package": "idna2008",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Converts Unicode hostname into an internationalized ASCII hostname",
           "hierarchy": "Data Text IDNA2008",
+          "indexed": "2014-03-11T18:55:56",
           "module": "Data.Text.IDNA2008",
           "name": "toASCII",
           "normalized": "String-\u003eMaybe String",

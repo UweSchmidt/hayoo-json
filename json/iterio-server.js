@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "iterio-server"
+        "phrase": "iterio-server",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines the \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e monad which abstracts some of the details of handling\n HTTP requests with IterIO.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "Action",
           "package": "iterio-server",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Defines the Action monad which abstracts some of the details of handling HTTP requests with IterIO",
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "Action",
           "package": "iterio-server",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eStateT\u003c/a\u003e\u003c/code\u003e monad in which requests can be handled. It keeps track of the\n \u003ccode\u003e\u003ca\u003eHttpReq\u003c/a\u003e\u003c/code\u003e, the form parameters from the request body and an \u003ccode\u003e\u003ca\u003eHttpResp\u003c/a\u003e\u003c/code\u003e used\n to reply to the client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "Action",
           "package": "iterio-server",
@@ -51,6 +54,7 @@
         "index": {
           "description": "StateT monad in which requests can be handled It keeps track of the HttpReq the form parameters from the request body and an HttpResp used to reply to the client",
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "Action",
           "package": "iterio-server",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "ActionState",
           "package": "iterio-server",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "ActionState",
           "package": "iterio-server",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA request parameter from a form field in the HTTP body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "Param",
           "package": "iterio-server",
@@ -95,6 +102,7 @@
         "index": {
           "description": "request parameter from form field in the HTTP body",
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "Param",
           "package": "iterio-server",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "ActionState",
           "package": "iterio-server",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "ActionState",
           "package": "iterio-server",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "Param",
           "package": "iterio-server",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "Param",
           "package": "iterio-server",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "actionBody",
           "package": "iterio-server",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "actionBody",
           "package": "iterio-server",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "actionParams",
           "package": "iterio-server",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "actionParams",
           "normalized": "[Param]",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "actionReq",
           "package": "iterio-server",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "actionReq",
           "package": "iterio-server",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "actionResp",
           "package": "iterio-server",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "actionResp",
           "package": "iterio-server",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the \"_sess\" key-value pair from the cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "destroySession",
           "package": "iterio-server",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Removes the sess key-value pair from the cookie",
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "destroySession",
           "normalized": "Action a b c()",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the body of the current request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "getBody",
           "package": "iterio-server",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Returns the body of the current request",
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "getBody",
           "package": "iterio-server",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003e\u003ca\u003eHttpReq\u003c/a\u003e\u003c/code\u003e for the current request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "getHttpReq",
           "package": "iterio-server",
@@ -303,6 +328,7 @@
         "index": {
           "description": "Returns the HttpReq for the current request",
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "getHttpReq",
           "package": "iterio-server",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003e\u003ca\u003eParam\u003c/a\u003e\u003c/code\u003e corresponding to the specified key or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n if one is not present in the request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "param",
           "package": "iterio-server",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Returns the Param corresponding to the specified key or Nothing if one is not present in the request",
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "param",
           "normalized": "ByteString-\u003eAction a b c(Maybe Param)",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader of a \u003ccode\u003emultipart/form-data\u003c/code\u003e post\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "paramHeaders",
           "package": "iterio-server",
@@ -352,6 +381,7 @@
         "index": {
           "description": "Header of multipart form-data post",
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "paramHeaders",
           "normalized": "[(ByteString,ByteString)]",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "paramKey",
           "package": "iterio-server",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "paramKey",
           "package": "iterio-server",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce get parameter value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "paramVal",
           "package": "iterio-server",
@@ -400,6 +433,7 @@
         "index": {
           "description": "Force get parameter value",
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "paramVal",
           "normalized": "ByteString-\u003eAction a b c ByteString",
@@ -416,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet (maybe) paramater value and transform it with \u003ccode\u003ef\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "paramValM",
           "package": "iterio-server",
@@ -426,6 +461,7 @@
         "index": {
           "description": "Get maybe paramater value and transform it with",
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "paramValM",
           "normalized": "(ByteString-\u003ea)-\u003eByteString-\u003eAction b c d(Maybe a)",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "paramValue",
           "package": "iterio-server",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "paramValue",
           "package": "iterio-server",
@@ -464,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of all \u003ccode\u003e\u003ca\u003eParam\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "params",
           "package": "iterio-server",
@@ -474,6 +513,7 @@
         "index": {
           "description": "Returns list of all Param",
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "params",
           "normalized": "Action a b c[Param]",
@@ -489,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value of an Http Header from the request if it exists otherwise\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "requestHeader",
           "package": "iterio-server",
@@ -499,6 +540,7 @@
         "index": {
           "description": "Returns the value of an Http Header from the request if it exists otherwise Nothing",
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "requestHeader",
           "normalized": "ByteString-\u003eAction a b c(Maybe ByteString)",
@@ -515,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the list of \u003ccode\u003e\u003ca\u003eParam\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "setParams",
           "package": "iterio-server",
@@ -525,6 +568,7 @@
         "index": {
           "description": "Set the list of Param",
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "setParams",
           "normalized": "[Param]-\u003eAction a b c[Param]",
@@ -541,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a the value for \"_sess\" in the cookie to the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "setSession",
           "package": "iterio-server",
@@ -551,6 +596,7 @@
         "index": {
           "description": "Sets the value for sess in the cookie to the given string",
           "hierarchy": "Data IterIO Http Support Action",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Action",
           "name": "setSession",
           "normalized": "String-\u003eAction a b c()",
@@ -567,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions for responding to HTTP requests from within an \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Responses",
           "name": "Responses",
           "package": "iterio-server",
@@ -576,6 +623,7 @@
         "index": {
           "description": "Utility functions for responding to HTTP requests from within an Action",
           "hierarchy": "Data IterIO Http Support Responses",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Responses",
           "name": "Responses",
           "package": "iterio-server",
@@ -590,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirect \"back\" according to the \"referer\" header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Responses",
           "name": "redirectBack",
           "package": "iterio-server",
@@ -600,6 +649,7 @@
         "index": {
           "description": "Redirect back according to the referer header",
           "hierarchy": "Data IterIO Http Support Responses",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Responses",
           "name": "redirectBack",
           "normalized": "Action a b c()",
@@ -616,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponds to the client with a \u003ccode\u003e303\u003c/code\u003e (Temporary Redirect) response to the given\n path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Responses",
           "name": "redirectTo",
           "package": "iterio-server",
@@ -625,6 +676,7 @@
         "index": {
           "description": "Responds to the client with Temporary Redirect response to the given path",
           "hierarchy": "Data IterIO Http Support Responses",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Responses",
           "name": "redirectTo",
           "normalized": "String-\u003eAction a b c()",
@@ -641,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponds to the client with a \u003ccode\u003e200\u003c/code\u003e (Success) response with the given body\n and mime-type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Responses",
           "name": "render",
           "package": "iterio-server",
@@ -650,6 +703,7 @@
         "index": {
           "description": "Responds to the client with Success response with the given body and mime-type",
           "hierarchy": "Data IterIO Http Support Responses",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Responses",
           "name": "render",
           "normalized": "String-\u003eByteString-\u003eAction a b c()",
@@ -665,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponds to the client with an empty \u003ccode\u003e404\u003c/code\u003e (Not Found) response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Responses",
           "name": "respond404",
           "package": "iterio-server",
@@ -675,6 +730,7 @@
         "index": {
           "description": "Responds to the client with an empty Not Found response",
           "hierarchy": "Data IterIO Http Support Responses",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Responses",
           "name": "respond404",
           "normalized": "Action a b c()",
@@ -690,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces the HTTP status in the current \u003ccode\u003e\u003ca\u003eHttpResp\u003c/a\u003e\u003c/code\u003e with the given\n \u003ccode\u003e\u003ca\u003eHttpStatus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Responses",
           "name": "respondStat",
           "package": "iterio-server",
@@ -700,6 +757,7 @@
         "index": {
           "description": "Replaces the HTTP status in the current HttpResp with the given HttpStatus",
           "hierarchy": "Data IterIO Http Support Responses",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Responses",
           "name": "respondStat",
           "normalized": "HttpStatus-\u003eAction a b c()",
@@ -716,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the \u003ccode\u003e\u003ca\u003eRestController\u003c/a\u003e\u003c/code\u003e class\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "RestController",
           "package": "iterio-server",
@@ -725,6 +784,7 @@
         "index": {
           "description": "This module defines the RestController class",
           "hierarchy": "Data IterIO Http Support RestController",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "RestController",
           "package": "iterio-server",
@@ -739,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class \u003ccode\u003eRestController\u003c/code\u003e allows a set of actions to be routed using\n RESTful HTTP verbs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "RestController",
           "package": "iterio-server",
@@ -748,6 +809,7 @@
         "index": {
           "description": "The class RestController allows set of actions to be routed using RESTful HTTP verbs",
           "hierarchy": "Data IterIO Http Support RestController",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "RestController",
           "package": "iterio-server",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePOST /\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "restCreate",
           "package": "iterio-server",
@@ -772,6 +835,7 @@
         "index": {
           "description": "POST",
           "hierarchy": "Data IterIO Http Support RestController",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "restCreate",
           "normalized": "a-\u003eAction b c d()",
@@ -788,6 +852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDELETE /:id\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eid\u003c/code\u003e is passed in as the second parameter.\n\u003c/p\u003e\u003cp\u003eSince \u003ccode\u003eDELETE\u003c/code\u003e is not supported by many browsers, this action also responds to\n requests containing the HTTP header \u003ca\u003eX-HTTP-Method-Override: DELETE\u003c/a\u003e\n regardless of the actual HTTP method (\u003ccode\u003eGET\u003c/code\u003e or \u003ccode\u003ePOST\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "restDestroy",
           "package": "iterio-server",
@@ -798,6 +863,7 @@
         "index": {
           "description": "DELETE id id is passed in as the second parameter Since DELETE is not supported by many browsers this action also responds to requests containing the HTTP header X-HTTP-Method-Override DELETE regardless of the actual HTTP method GET or POST",
           "hierarchy": "Data IterIO Http Support RestController",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "restDestroy",
           "normalized": "a-\u003eByteString-\u003eAction b c d()",
@@ -814,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGET /:id/edit\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eid\u003c/code\u003e is passed in as the second parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "restEdit",
           "package": "iterio-server",
@@ -824,6 +891,7 @@
         "index": {
           "description": "GET id edit id is passed in as the second parameter",
           "hierarchy": "Data IterIO Http Support RestController",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "restEdit",
           "normalized": "a-\u003eByteString-\u003eAction b c d()",
@@ -840,6 +908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGET /\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "restIndex",
           "package": "iterio-server",
@@ -850,6 +919,7 @@
         "index": {
           "description": "GET",
           "hierarchy": "Data IterIO Http Support RestController",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "restIndex",
           "normalized": "a-\u003eAction b c d()",
@@ -866,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGET /new\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "restNew",
           "package": "iterio-server",
@@ -876,6 +947,7 @@
         "index": {
           "description": "GET new",
           "hierarchy": "Data IterIO Http Support RestController",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "restNew",
           "normalized": "a-\u003eAction b c d()",
@@ -892,6 +964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGET /:id\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eid\u003c/code\u003e is passed in as the second parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "restShow",
           "package": "iterio-server",
@@ -902,6 +975,7 @@
         "index": {
           "description": "GET id id is passed in as the second parameter",
           "hierarchy": "Data IterIO Http Support RestController",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "restShow",
           "normalized": "a-\u003eByteString-\u003eAction b c d()",
@@ -918,6 +992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePUT /:id\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eid\u003c/code\u003e is passed in as the second parameter.\n\u003c/p\u003e\u003cp\u003eSince \u003ccode\u003ePUT\u003c/code\u003e is not supported by many browsers, this action also responds to\n requests containing the HTTP header \u003ca\u003eX-HTTP-Method-Override: PUT\u003c/a\u003e\n regardless of the actual HTTP method (\u003ccode\u003eGET\u003c/code\u003e or \u003ccode\u003ePOST\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "restUpdate",
           "package": "iterio-server",
@@ -928,6 +1003,7 @@
         "index": {
           "description": "PUT id id is passed in as the second parameter Since PUT is not supported by many browsers this action also responds to requests containing the HTTP header X-HTTP-Method-Override PUT regardless of the actual HTTP method GET or POST",
           "hierarchy": "Data IterIO Http Support RestController",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "restUpdate",
           "normalized": "a-\u003eByteString-\u003eAction b c d()",
@@ -944,6 +1020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoutes URLs under the given \u003ccode\u003eString\u003c/code\u003e to actions in a \u003ccode\u003eRestController\u003c/code\u003e. For\n example\n\u003c/p\u003e\u003cpre\u003e\n    routeRestController \u003ca\u003eposts\u003c/a\u003e myRestController\n\u003c/pre\u003e\u003cp\u003ewill map the follwoing URLs:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e GET /posts =\u003e myRestController#restIndex\n\u003c/li\u003e\u003cli\u003e POST /posts =\u003e myRestController#restCreate\n\u003c/li\u003e\u003cli\u003e GET /posts/:id =\u003e myRestController#restShow\n\u003c/li\u003e\u003cli\u003e GET /posts/:id/edit =\u003e myRestController#restEdit\n\u003c/li\u003e\u003cli\u003e GET /posts/:id/new =\u003e myRestController#restNew\n\u003c/li\u003e\u003cli\u003e DELETE /posts/:id =\u003e myRestController#restDestroy\n\u003c/li\u003e\u003cli\u003e PUT /posts/:id =\u003e myRestController#restUpdate\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "routeRestController",
           "package": "iterio-server",
@@ -954,6 +1031,7 @@
         "index": {
           "description": "Routes URLs under the given String to actions in RestController For example routeRestController posts myRestController will map the follwoing URLs GET posts myRestController restIndex POST posts myRestController restCreate GET posts id myRestController restShow GET posts id edit myRestController restEdit GET posts id new myRestController restNew DELETE posts id myRestController restDestroy PUT posts id myRestController restUpdate",
           "hierarchy": "Data IterIO Http Support RestController",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.RestController",
           "name": "routeRestController",
           "normalized": "String-\u003ea-\u003eActionRoute b c d",
@@ -970,6 +1048,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions for routing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "Routing",
           "package": "iterio-server",
@@ -979,6 +1058,7 @@
         "index": {
           "description": "Utility functions for routing",
           "hierarchy": "Data IterIO Http Support Routing",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "Routing",
           "package": "iterio-server",
@@ -993,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003eActionRoute\u003c/code\u003e either matches an \u003ccode\u003e\u003ca\u003eHttpReq\u003c/a\u003e\u003c/code\u003e and returns a\n corresponding \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e that responds to it, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n signifying, no approriate \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e was found. \u003ccode\u003eActionRoute\u003c/code\u003es can\n be strung together with, e.g., \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e such that each will be\n searched in turn until an \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e responding to the \u003ccode\u003e\u003ca\u003eHttpReq\u003c/a\u003e\u003c/code\u003e is\n found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "ActionRoute",
           "package": "iterio-server",
@@ -1002,6 +1083,7 @@
         "index": {
           "description": "An ActionRoute either matches an HttpReq and returns corresponding Action that responds to it or Nothing signifying no approriate Action was found ActionRoute can be strung together with e.g mappend such that each will be searched in turn until an Action responding to the HttpReq is found",
           "hierarchy": "Data IterIO Http Support Routing",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "ActionRoute",
           "package": "iterio-server",
@@ -1015,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "ActionRoute",
           "package": "iterio-server",
@@ -1024,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Data IterIO Http Support Routing",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "ActionRoute",
           "normalized": "ActionRoute(HttpReq a-\u003eb(Maybe(Action a c b())))",
@@ -1040,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoutes an \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "routeAction",
           "package": "iterio-server",
@@ -1050,6 +1135,7 @@
         "index": {
           "description": "Routes an Action",
           "hierarchy": "Data IterIO Http Support Routing",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "routeAction",
           "normalized": "Action a b c()-\u003eActionRoute b c a",
@@ -1065,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "routeFileSys",
           "package": "iterio-server",
@@ -1074,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Data IterIO Http Support Routing",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "routeFileSys",
           "normalized": "(String-\u003eByteString)-\u003eFilePath-\u003eActionRoute a IO b",
@@ -1090,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch requests with the given method (\"GET\", \"POST\", etc).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "routeMethod",
           "package": "iterio-server",
@@ -1100,6 +1189,7 @@
         "index": {
           "description": "Match requests with the given method GET POST etc",
           "hierarchy": "Data IterIO Http Support Routing",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "routeMethod",
           "normalized": "String-\u003eActionRoute a b c-\u003eActionRoute a b c",
@@ -1116,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoutes a specific directory name, like \u003ccode\u003erouteMap\u003c/code\u003e for a singleton\n map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "routeName",
           "package": "iterio-server",
@@ -1126,6 +1217,7 @@
         "index": {
           "description": "Routes specific directory name like routeMap for singleton map",
           "hierarchy": "Data IterIO Http Support Routing",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "routeName",
           "normalized": "String-\u003eActionRoute a b c-\u003eActionRoute a b c",
@@ -1142,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoutes an \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e to the given URL pattern. Patterns can include\n directories as well as variable patterns (prefixed with \u003ccode\u003e:\u003c/code\u003e) to be passed\n into the \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e as extra \u003ccode\u003e\u003ca\u003eParam\u003c/a\u003e\u003c/code\u003es. Some examples of URL patters:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e /posts/:id\n\u003c/li\u003e\u003cli\u003e /posts/:id/new\n\u003c/li\u003e\u003cli\u003e /:date/posts/:category/new\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "routePattern",
           "package": "iterio-server",
@@ -1152,6 +1245,7 @@
         "index": {
           "description": "Routes an Action to the given URL pattern Patterns can include directories as well as variable patterns prefixed with to be passed into the Action as extra Param Some examples of URL patters posts id posts id new date posts category new",
           "hierarchy": "Data IterIO Http Support Routing",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "routePattern",
           "normalized": "String-\u003eActionRoute a b c-\u003eActionRoute a b c",
@@ -1168,6 +1262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch request with path \"/\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "routeTop",
           "package": "iterio-server",
@@ -1178,6 +1273,7 @@
         "index": {
           "description": "Match request with path",
           "hierarchy": "Data IterIO Http Support Routing",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "routeTop",
           "normalized": "ActionRoute a b c-\u003eActionRoute a b c",
@@ -1194,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches any directory name, but additionally pushes it onto the\n front of the \u003ccode\u003e\u003ca\u003ereqPathParams\u003c/a\u003e\u003c/code\u003e list in the \u003ccode\u003e\u003ca\u003eHttpReq\u003c/a\u003e\u003c/code\u003e structure.  This\n allows the name to serve as a variable argument to the eventual\n handling function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "routeVar",
           "package": "iterio-server",
@@ -1204,6 +1301,7 @@
         "index": {
           "description": "Matches any directory name but additionally pushes it onto the front of the reqPathParams list in the HttpReq structure This allows the name to serve as variable argument to the eventual handling function",
           "hierarchy": "Data IterIO Http Support Routing",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "routeVar",
           "normalized": "ActionRoute a b c-\u003eActionRoute a b c",
@@ -1220,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns an \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e given an \u003ccode\u003e\u003ca\u003eHttpReq\u003c/a\u003e\u003c/code\u003e and body. Returns the \u003ccode\u003e\u003ca\u003eHttpResp\u003c/a\u003e\u003c/code\u003e\n generated by the \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "runAction",
           "package": "iterio-server",
@@ -1230,6 +1329,7 @@
         "index": {
           "description": "Runs an Action given an HttpReq and body Returns the HttpResp generated by the Action",
           "hierarchy": "Data IterIO Http Support Routing",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "runAction",
           "normalized": "Action a b c d-\u003eHttpReq a-\u003eb-\u003ec(HttpResp c)",
@@ -1246,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns an \u003ccode\u003e\u003ca\u003eActionRoute\u003c/a\u003e\u003c/code\u003e. If it satisfies the request, the\n underlying \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e is returned, otherwise an \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e responding\n with HTTP 404 (Not Found) is returned instead. Can be used at the\n top of a request handler, for example:\n\u003c/p\u003e\u003cpre\u003e httpHandler :: Action b m ()\n httpHandler = runActionRoute $ mconcat [\n     routeTop $ routeAction homeAction\n   , routeMethod \"POST\" $ routeAction handleForm\n   , routeMethod \"GET\" $ routeAction showForm\n   ]\n\u003c/pre\u003e\u003cp\u003eBut also can be nested inside of another action to created nested\n routes, or state dependant routes:\n\u003c/p\u003e\u003cpre\u003e httpHandler :: Action b m ()\n httpHandler = runActionRoute $ mconcat [\n     routeTop $ routeAction homeAction\n   , routeName \"foo\" $ routeAction $ runActionRoute $ mconcat [\n         routeMethod \"GET\" $ runAction showForm\n       , routeMethod \"POST\" $ runAction handleForm\n       ]\n   ]\n\u003c/pre\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cpre\u003e handleForm = do\n   day \u003c- lift $ getDayOfWeek\n   case mod day 2 of\n     0 -\u003e runActionRoute $ routeName \"stts\" $ routeAction doRes\n     1 -\u003e runActionRoute $ routeName \"mwf\" $ routeAction doRes\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "runActionRoute",
           "package": "iterio-server",
@@ -1256,6 +1357,7 @@
         "index": {
           "description": "Runs an ActionRoute If it satisfies the request the underlying Action is returned otherwise an Action responding with HTTP Not Found is returned instead Can be used at the top of request handler for example httpHandler Action httpHandler runActionRoute mconcat routeTop routeAction homeAction routeMethod POST routeAction handleForm routeMethod GET routeAction showForm But also can be nested inside of another action to created nested routes or state dependant routes httpHandler Action httpHandler runActionRoute mconcat routeTop routeAction homeAction routeName foo routeAction runActionRoute mconcat routeMethod GET runAction showForm routeMethod POST runAction handleForm or handleForm do day lift getDayOfWeek case mod day of runActionRoute routeName stts routeAction doRes runActionRoute routeName mwf routeAction doRes",
           "hierarchy": "Data IterIO Http Support Routing",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "runActionRoute",
           "normalized": "ActionRoute a b c-\u003eAction c a b()",
@@ -1272,6 +1374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erunAction\u003c/a\u003e\u003c/code\u003e but consumes the rest of the request for the\n body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "runIterAction",
           "package": "iterio-server",
@@ -1282,6 +1385,7 @@
         "index": {
           "description": "Like runAction but consumes the rest of the request for the body",
           "hierarchy": "Data IterIO Http Support Routing",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Routing",
           "name": "runIterAction",
           "normalized": "Action a ByteString b c-\u003eHttpReq a-\u003eIter ByteString b(HttpResp b)",
@@ -1297,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Utils",
           "name": "Utils",
           "package": "iterio-server",
@@ -1305,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Data IterIO Http Support Utils",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Utils",
           "name": "Utils",
           "package": "iterio-server",
@@ -1319,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003es where the body type is a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, parse the\n body with 'parseParams\\'' and prepend the result to the \u003ccode\u003eAction'\u003c/code\u003es\n \u003ccode\u003e\u003ca\u003eParam\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Utils",
           "name": "parseParams",
           "package": "iterio-server",
@@ -1329,6 +1436,7 @@
         "index": {
           "description": "For Action where the body type is ByteString parse the body with parseParams and prepend the result to the Action Param",
           "hierarchy": "Data IterIO Http Support Utils",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Utils",
           "name": "parseParams",
           "normalized": "Action a ByteString b[Param]",
@@ -1345,6 +1453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse url encoded or form encoded paramters from an HTTP\n body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support.Utils",
           "name": "parseParams'",
           "package": "iterio-server",
@@ -1355,6 +1464,7 @@
         "index": {
           "description": "Parse url encoded or form encoded paramters from an HTTP body",
           "hierarchy": "Data IterIO Http Support Utils",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support.Utils",
           "name": "parseParams'",
           "normalized": "HttpReq a-\u003eByteString-\u003eb[Param]",
@@ -1370,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Http.Support",
           "name": "Support",
           "package": "iterio-server",
@@ -1378,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Data IterIO Http Support",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Http.Support",
           "name": "Support",
           "package": "iterio-server",
@@ -1392,6 +1504,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric building blocks for creating TCP Servers based on \u003ccode\u003eIterIO\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "TCPServer",
           "package": "iterio-server",
@@ -1401,6 +1514,7 @@
         "index": {
           "description": "Generic building blocks for creating TCP Servers based on IterIO",
           "hierarchy": "Data IterIO Server TCPServer",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "TCPServer",
           "package": "iterio-server",
@@ -1415,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTCPServer\u003c/a\u003e\u003c/code\u003e holds all the information necessary to run\n bind to a sock and respond to TCP requests from the network.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "TCPServer",
           "package": "iterio-server",
@@ -1424,6 +1539,7 @@
         "index": {
           "description": "TCPServer holds all the information necessary to run bind to sock and respond to TCP requests from the network",
           "hierarchy": "Data IterIO Server TCPServer",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "TCPServer",
           "package": "iterio-server",
@@ -1437,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "TCPServer",
           "package": "iterio-server",
@@ -1446,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Data IterIO Server TCPServer",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "TCPServer",
           "package": "iterio-server",
@@ -1460,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis acceptor creates an \u003ccode\u003e\u003ca\u003eIter\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOnum\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003ehandleI\u003c/a\u003e\u003c/code\u003e and\n  \u003ccode\u003e\u003ca\u003eenumHandle\u003c/a\u003e\u003c/code\u003e respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "defaultServerAcceptor",
           "package": "iterio-server",
@@ -1470,6 +1589,7 @@
         "index": {
           "description": "This acceptor creates an Iter and Onum using handleI and enumHandle respectively",
           "hierarchy": "Data IterIO Server TCPServer",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "defaultServerAcceptor",
           "normalized": "Socket-\u003ea(Iter b a(),Onum b a c)",
@@ -1486,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eTCPServer\u003c/a\u003e\u003c/code\u003e that echoes each line from the client until EOF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "echoServer",
           "package": "iterio-server",
@@ -1496,6 +1617,7 @@
         "index": {
           "description": "Creates TCPServer that echoes each line from the client until EOF",
           "hierarchy": "Data IterIO Server TCPServer",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "echoServer",
           "normalized": "PortNumber-\u003eTCPServer String IO",
@@ -1512,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor convenience, a TCPServer in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e Monad with null defaults:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Port 0 (next availabel port)\n\u003c/li\u003e\u003cli\u003e Handler set to \u003ccode\u003e\u003ca\u003einumNop\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Acceptor set to \u003ccode\u003e\u003ca\u003edefaultServerAcceptor\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Request handler set to \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e (noop)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "minimalTCPServer",
           "package": "iterio-server",
@@ -1522,6 +1645,7 @@
         "index": {
           "description": "For convenience TCPServer in the IO Monad with null defaults Port next availabel port Handler set to inumNop Acceptor set to defaultServerAcceptor Request handler set to id noop",
           "hierarchy": "Data IterIO Server TCPServer",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "minimalTCPServer",
           "package": "iterio-server",
@@ -1536,6 +1660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a \u003ccode\u003e\u003ca\u003eTCPServer\u003c/a\u003e\u003c/code\u003e in a loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "runTCPServer",
           "package": "iterio-server",
@@ -1546,6 +1671,7 @@
         "index": {
           "description": "Runs TCPServer in loop",
           "hierarchy": "Data IterIO Server TCPServer",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "runTCPServer",
           "normalized": "TCPServer a b-\u003eIO()",
@@ -1562,6 +1688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to transform an accept incomming connection into an iter and onum.\n  Most servers should just use \u003ccode\u003edefaultSocketAcceptor\u003c/code\u003e but this can be used for\n  special cases, e.g. accepting SSL connections with \u003ccode\u003e\u003ca\u003eiterSSL\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "serverAcceptor",
           "package": "iterio-server",
@@ -1572,6 +1699,7 @@
         "index": {
           "description": "function to transform an accept incomming connection into an iter and onum Most servers should just use defaultSocketAcceptor but this can be used for special cases e.g accepting SSL connections with iterSSL",
           "hierarchy": "Data IterIO Server TCPServer",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "serverAcceptor",
           "normalized": "Socket-\u003ea(Iter b a(),Onum b a())",
@@ -1588,6 +1716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis \u003ccode\u003e\u003ca\u003eInum\u003c/a\u003e\u003c/code\u003e implements the actual functionality of the server. The input\n  and output of the \u003ccode\u003e\u003ca\u003eInum\u003c/a\u003e\u003c/code\u003e correspond to the input and output of the socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "serverHandler",
           "package": "iterio-server",
@@ -1598,6 +1727,7 @@
         "index": {
           "description": "This Inum implements the actual functionality of the server The input and output of the Inum correspond to the input and output of the socket",
           "hierarchy": "Data IterIO Server TCPServer",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "serverHandler",
           "normalized": "Inum a a b()",
@@ -1614,6 +1744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TCP port the server will listen for incomming connections on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "serverPort",
           "package": "iterio-server",
@@ -1624,6 +1755,7 @@
         "index": {
           "description": "The TCP port the server will listen for incomming connections on",
           "hierarchy": "Data IterIO Server TCPServer",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "serverPort",
           "package": "iterio-server",
@@ -1638,6 +1770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMust execute the monadic result. Servers operating in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e Monad can\n  use \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "serverResultHandler",
           "package": "iterio-server",
@@ -1648,6 +1781,7 @@
         "index": {
           "description": "Must execute the monadic result Servers operating in the IO Monad can use id",
           "hierarchy": "Data IterIO Server TCPServer",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "serverResultHandler",
           "normalized": "a()-\u003eIO()",
@@ -1664,6 +1798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a simple HTTP server from an \u003ccode\u003eHTTPRequestHandler\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:29 UTC 2014",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "simpleHttpServer",
           "package": "iterio-server",
@@ -1674,6 +1809,7 @@
         "index": {
           "description": "Creates simple HTTP server from an HTTPRequestHandler",
           "hierarchy": "Data IterIO Server TCPServer",
+          "indexed": "2014-03-11T19:00:29",
           "module": "Data.IterIO.Server.TCPServer",
           "name": "simpleHttpServer",
           "normalized": "PortNumber-\u003eHttpRequestHandler IO()-\u003eTCPServer ByteString IO",

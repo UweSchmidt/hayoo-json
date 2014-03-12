@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "TypeIlluminator"
+        "phrase": "TypeIlluminator",
+        "type": "phrase"
       },
       "type": "context"
     }

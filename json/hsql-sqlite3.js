@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsql-sqlite3"
+        "phrase": "hsql-sqlite3",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "Functions",
           "package": "hsql-sqlite3",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "Functions",
           "package": "hsql-sqlite3",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "SQLite3",
           "package": "hsql-sqlite3",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "SQLite3",
           "package": "hsql-sqlite3",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "oAppend",
           "package": "hsql-sqlite3",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "oAppend",
           "package": "hsql-sqlite3",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "oRdOnly",
           "package": "hsql-sqlite3",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "oRdOnly",
           "package": "hsql-sqlite3",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "oRdWr",
           "package": "hsql-sqlite3",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "oRdWr",
           "package": "hsql-sqlite3",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "oWrOnly",
           "package": "hsql-sqlite3",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "oWrOnly",
           "package": "hsql-sqlite3",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqlite3_close",
           "package": "hsql-sqlite3",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqlite3_close",
           "normalized": "SQLite-\u003eIO()",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqlite3_errmsg",
           "package": "hsql-sqlite3",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqlite3_errmsg",
           "normalized": "SQLite-\u003eIO CString",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqlite3_exec",
           "package": "hsql-sqlite3",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqlite3_exec",
           "normalized": "SQLite-\u003eCString-\u003eFunPtr()-\u003ePtr()-\u003ePtr CString-\u003eIO CInt",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqlite3_free",
           "package": "hsql-sqlite3",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqlite3_free",
           "normalized": "CString-\u003eIO()",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqlite3_free_table",
           "package": "hsql-sqlite3",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqlite3_free_table",
           "normalized": "Ptr CString-\u003eIO()",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqlite3_get_table",
           "package": "hsql-sqlite3",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqlite3_get_table",
           "normalized": "SQLite-\u003eCString-\u003ePtr(Ptr CString)-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CString-\u003eIO CInt",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqlite3_open",
           "package": "hsql-sqlite3",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqlite3_open",
           "normalized": "CString-\u003ePtr SQLite-\u003eIO Int",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqliteOk",
           "package": "hsql-sqlite3",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "sqliteOk",
           "package": "hsql-sqlite3",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "strlen",
           "package": "hsql-sqlite3",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL SQLite3 Functions",
+          "indexed": "2014-03-11T18:50:38",
           "module": "DB.HSQL.SQLite3.Functions",
           "name": "strlen",
           "normalized": "CString-\u003eIO CInt",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "Database.HSQL.SQLite3",
           "name": "SQLite3",
           "package": "hsql-sqlite3",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Database HSQL SQLite3",
+          "indexed": "2014-03-11T18:50:38",
           "module": "Database.HSQL.SQLite3",
           "name": "SQLite3",
           "package": "hsql-sqlite3",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:38 UTC 2014",
           "module": "Database.HSQL.SQLite3",
           "name": "connect",
           "package": "hsql-sqlite3",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Database HSQL SQLite3",
+          "indexed": "2014-03-11T18:50:38",
           "module": "Database.HSQL.SQLite3",
           "name": "connect",
           "normalized": "FilePath-\u003eIOMode-\u003eIO Connection",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "string-class"
+        "phrase": "string-class",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "Class",
           "package": "string-class",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "Class",
           "package": "string-class",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "ConvGenString",
           "package": "string-class",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "ConvGenString",
           "package": "string-class",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "ConvLazyByteString",
           "package": "string-class",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "ConvLazyByteString",
           "package": "string-class",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "ConvStrictByteString",
           "package": "string-class",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "ConvStrictByteString",
           "package": "string-class",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "ConvString",
           "package": "string-class",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "ConvString",
           "package": "string-class",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "ConvText",
           "package": "string-class",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "ConvText",
           "package": "string-class",
@@ -145,6 +157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolymorphic container of a string\n\u003c/p\u003e\u003cp\u003eWhen operations take place on multiple \u003ccode\u003e\u003ca\u003eGenString\u003c/a\u003e\u003c/code\u003es, they are first\n converted to the type \u003ccode\u003e\u003ca\u003eGenStringDefault\u003c/a\u003e\u003c/code\u003e, which are lazy bytestrings,\n whenever absolutely necessary (which includes testing for equality,\n appending strings, concatenating lists of strings, empty strings with\n \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e, and unfolding), making them the most efficient type for this\n polymorphic container.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "GenString",
           "package": "string-class",
@@ -154,6 +167,7 @@
         "index": {
           "description": "Polymorphic container of string When operations take place on multiple GenString they are first converted to the type GenStringDefault which are lazy bytestrings whenever absolutely necessary which includes testing for equality appending strings concatenating lists of strings empty strings with empty and unfolding making them the most efficient type for this polymorphic container",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "GenString",
           "package": "string-class",
@@ -168,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is used by \u003ccode\u003e\u003ca\u003eGenString\u003c/a\u003e\u003c/code\u003e when a concrete string type is needed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "GenStringDefault",
           "package": "string-class",
@@ -177,6 +192,7 @@
         "index": {
           "description": "This type is used by GenString when concrete string type is needed",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "GenStringDefault",
           "package": "string-class",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "StringCell",
           "package": "string-class",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "StringCell",
           "package": "string-class",
@@ -212,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal complete definition: StringCellChar; StringCellAltChar; toStringCells; fromStringCells; toMainChar; toAltChar; cons; snoc; either all of head, tail, last, and init, or all of uncons and unsnoc; take, take64 or genericTake; drop, drop64, or genericDrop; and length, length64, or genericLength\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "StringCells",
           "package": "string-class",
@@ -221,6 +240,7 @@
         "index": {
           "description": "Minimal complete definition StringCellChar StringCellAltChar toStringCells fromStringCells toMainChar toAltChar cons snoc either all of head tail last and init or all of uncons and unsnoc take take64 or genericTake drop drop64 or genericDrop and length length64 or genericLength",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "StringCells",
           "package": "string-class",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ehGetLine\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ehPutStr\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003ehPutStrLn\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "StringRWIO",
           "package": "string-class",
@@ -244,6 +265,7 @@
         "index": {
           "description": "Minimal complete definition hGetContents hGetLine hPutStr and hPutStrLn",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "StringRWIO",
           "package": "string-class",
@@ -258,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString super class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "Stringy",
           "package": "string-class",
@@ -267,6 +290,7 @@
         "index": {
           "description": "String super class",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "Stringy",
           "package": "string-class",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "GenString",
           "package": "string-class",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "GenString",
           "package": "string-class",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "altCons",
           "package": "string-class",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "altCons",
           "normalized": "StringCellAltChar a-\u003ea-\u003ea",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "altHead",
           "package": "string-class",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "altHead",
           "normalized": "a-\u003eStringCellAltChar a",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "altLast",
           "package": "string-class",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "altLast",
           "normalized": "a-\u003eStringCellAltChar a",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "altSnoc",
           "package": "string-class",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "altSnoc",
           "normalized": "a-\u003eStringCellAltChar a-\u003ea",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "altUncons",
           "package": "string-class",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "altUncons",
           "normalized": "a-\u003e(StringCellAltChar a,a)",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "altUnfoldr",
           "package": "string-class",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "altUnfoldr",
           "normalized": "(a-\u003eMaybe(StringCellAltChar b,a))-\u003ea-\u003eb",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "altUnfoldrN",
           "package": "string-class",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "altUnfoldrN",
           "normalized": "Int-\u003e(a-\u003eMaybe(StringCellAltChar b,a))-\u003ea-\u003eb",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "altUnsnoc",
           "package": "string-class",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "altUnsnoc",
           "normalized": "a-\u003e(a,StringCellAltChar a)",
@@ -495,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend two strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "append",
           "package": "string-class",
@@ -505,6 +548,7 @@
         "index": {
           "description": "Append two strings",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "append",
           "normalized": "a-\u003ea-\u003ea",
@@ -520,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to the end of a file\n\u003c/p\u003e\u003cp\u003eThe default definition uses \u003ccode\u003ewithFile\u003c/code\u003e to open the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "appendFile",
           "package": "string-class",
@@ -530,6 +575,7 @@
         "index": {
           "description": "Write string to the end of file The default definition uses withFile to open the file",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "appendFile",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "concat",
           "package": "string-class",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "concat",
           "normalized": "[a]-\u003ea",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "cons",
           "package": "string-class",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "cons",
           "normalized": "StringCellChar a-\u003ea-\u003ea",
@@ -591,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "cons2",
           "package": "string-class",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "cons2",
           "normalized": "StringCellChar a-\u003eStringCellChar a-\u003ea-\u003ea",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "cons3",
           "package": "string-class",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "cons3",
           "normalized": "StringCellChar a-\u003eStringCellChar a-\u003eStringCellChar a-\u003ea-\u003ea",
@@ -637,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "cons4",
           "package": "string-class",
@@ -646,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "cons4",
           "normalized": "StringCellChar a-\u003eStringCellChar a-\u003eStringCellChar a-\u003eStringCellChar a-\u003ea-\u003ea",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "drop",
           "package": "string-class",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "drop",
           "normalized": "Int-\u003ea-\u003ea",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "drop64",
           "package": "string-class",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "drop64",
           "normalized": "Int-\u003ea-\u003ea",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "empty",
           "package": "string-class",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "empty",
           "package": "string-class",
@@ -727,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "fromChar",
           "package": "string-class",
@@ -736,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "fromChar",
           "normalized": "Char-\u003ea",
@@ -751,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "fromGenString",
           "package": "string-class",
@@ -760,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "fromGenString",
           "normalized": "GenString-\u003ea",
@@ -775,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "fromLazyByteString",
           "package": "string-class",
@@ -784,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "fromLazyByteString",
           "normalized": "ByteString-\u003ea",
@@ -799,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "fromStrictByteString",
           "package": "string-class",
@@ -808,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "fromStrictByteString",
           "normalized": "ByteString-\u003ea",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "fromString",
           "package": "string-class",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "fromString",
           "normalized": "String-\u003ea",
@@ -847,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "fromStringCells",
           "package": "string-class",
@@ -856,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "fromStringCells",
           "normalized": "a-\u003ea",
@@ -871,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "fromText",
           "package": "string-class",
@@ -880,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "fromText",
           "normalized": "Text-\u003ea",
@@ -895,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "fromWord16",
           "package": "string-class",
@@ -904,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "fromWord16",
           "normalized": "Word-\u003ea",
@@ -919,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "fromWord32",
           "package": "string-class",
@@ -928,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "fromWord32",
           "normalized": "Word-\u003ea",
@@ -943,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "fromWord64",
           "package": "string-class",
@@ -952,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "fromWord64",
           "normalized": "Word-\u003ea",
@@ -967,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "fromWord8",
           "package": "string-class",
@@ -976,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "fromWord8",
           "normalized": "Word-\u003ea",
@@ -991,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "gen_string",
           "package": "string-class",
@@ -1000,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "gen_string",
           "package": "string-class",
@@ -1012,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "genericDrop",
           "package": "string-class",
@@ -1021,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "genericDrop",
           "normalized": "a-\u003eb-\u003eb",
@@ -1037,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex a string at any location\n\u003c/p\u003e\u003cp\u003eJust like the other \u003ccode\u003egeneric\u003c/code\u003e functions of this module, this function\n can be significantly slower than \u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e, since the function must be\n able to support arbitrarily large indices.  Consider using \u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eindex64\u003c/a\u003e\u003c/code\u003e, even if you need to coerce the index to an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "genericIndex",
           "package": "string-class",
@@ -1047,6 +1136,7 @@
         "index": {
           "description": "Index string at any location Just like the other generic functions of this module this function can be significantly slower than index since the function must be able to support arbitrarily large indices Consider using index or index64 even if you need to coerce the index to an Int",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "genericIndex",
           "normalized": "a-\u003eb-\u003eStringCellChar a",
@@ -1062,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "genericLength",
           "package": "string-class",
@@ -1071,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "genericLength",
           "normalized": "a-\u003eb",
@@ -1086,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "genericTake",
           "package": "string-class",
@@ -1095,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "genericTake",
           "normalized": "a-\u003eb-\u003eb",
@@ -1111,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead all user input on \u003ccode\u003estdin\u003c/code\u003e as a single string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "getContents",
           "package": "string-class",
@@ -1121,6 +1216,7 @@
         "index": {
           "description": "Read all user input on stdin as single string",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "getContents",
           "package": "string-class",
@@ -1135,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a single line of user input from \u003ccode\u003estdin\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "getLine",
           "package": "string-class",
@@ -1145,6 +1242,7 @@
         "index": {
           "description": "Read single line of user input from stdin",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "getLine",
           "package": "string-class",
@@ -1159,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead n bytes *or* characters, depending on the implementation into a\n ByteString, directly from the specified Handle\n\u003c/p\u003e\u003cp\u003eWhether or not this function is lazy depends on the instance; laziness\n is preferred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "hGetContents",
           "package": "string-class",
@@ -1169,6 +1268,7 @@
         "index": {
           "description": "Read bytes or characters depending on the implementation into ByteString directly from the specified Handle Whether or not this function is lazy depends on the instance laziness is preferred",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "hGetContents",
           "normalized": "Handle-\u003eIO a",
@@ -1185,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a single line from a handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "hGetLine",
           "package": "string-class",
@@ -1195,6 +1296,7 @@
         "index": {
           "description": "Read single line from handle",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "hGetLine",
           "normalized": "Handle-\u003eIO a",
@@ -1211,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to a handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "hPutStr",
           "package": "string-class",
@@ -1221,6 +1324,7 @@
         "index": {
           "description": "Write string to handle",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "hPutStr",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -1237,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to a handle, followed by a newline\n\u003c/p\u003e\u003cp\u003eN.B.: implementations might not define this atomically.  If the state\n of being atomic is necessary, one possible solution is to convert a\n string to an efficient type for which \u003ccode\u003e\u003ca\u003ehPutStrLn\u003c/a\u003e\u003c/code\u003e is atomic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "hPutStrLn",
           "package": "string-class",
@@ -1247,6 +1352,7 @@
         "index": {
           "description": "Write string to handle followed by newline N.B implementations might not define this atomically If the state of being atomic is necessary one possible solution is to convert string to an efficient type for which hPutStrLn is atomic",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "hPutStrLn",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -1262,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "head",
           "package": "string-class",
@@ -1271,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "head",
           "normalized": "a-\u003eStringCellChar a",
@@ -1286,6 +1394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the character at the given position\n\u003c/p\u003e\u003cp\u003eJust like \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edrop64\u003c/a\u003e\u003c/code\u003e, and the variants of those functions, the\n default definitions of these three variants are independent of each\n other, and are defined in terms of \u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e, which can be\n inefficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "index",
           "package": "string-class",
@@ -1296,6 +1405,7 @@
         "index": {
           "description": "Get the character at the given position Just like drop drop64 and the variants of those functions the default definitions of these three variants are independent of each other and are defined in terms of head and tail which can be inefficient",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "index",
           "normalized": "a-\u003eInt-\u003eStringCellChar a",
@@ -1310,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "index64",
           "package": "string-class",
@@ -1319,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "index64",
           "normalized": "a-\u003eInt-\u003eStringCellChar a",
@@ -1333,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "init",
           "package": "string-class",
@@ -1342,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "init",
           "normalized": "a-\u003ea",
@@ -1357,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a function of type Text -\u003e Text as its argument\n\u003c/p\u003e\u003cp\u003eThe entire input from the standard input device is passed to this\n function as its argument, and the resulting string is output on the\n standard output device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "interact",
           "package": "string-class",
@@ -1367,6 +1482,7 @@
         "index": {
           "description": "Take function of type Text Text as its argument The entire input from the standard input device is passed to this function as its argument and the resulting string is output on the standard output device",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "interact",
           "normalized": "(a-\u003ea)-\u003eIO()",
@@ -1381,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "last",
           "package": "string-class",
@@ -1390,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "last",
           "normalized": "a-\u003eStringCellChar a",
@@ -1404,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "length",
           "package": "string-class",
@@ -1413,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "length",
           "normalized": "a-\u003eInt",
@@ -1427,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "length64",
           "package": "string-class",
@@ -1436,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "length64",
           "normalized": "a-\u003eInt",
@@ -1450,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "null",
           "package": "string-class",
@@ -1459,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "null",
           "normalized": "a-\u003eBool",
@@ -1474,6 +1598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to \u003ccode\u003estdout\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "putStr",
           "package": "string-class",
@@ -1484,6 +1609,7 @@
         "index": {
           "description": "Write string to stdout",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "putStr",
           "normalized": "a-\u003eIO()",
@@ -1500,6 +1626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to \u003ccode\u003estdout\u003c/code\u003e, followed by a newline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "putStrLn",
           "package": "string-class",
@@ -1510,6 +1637,7 @@
         "index": {
           "description": "Write string to stdout followed by newline",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "putStrLn",
           "normalized": "a-\u003eIO()",
@@ -1526,6 +1654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a file and returns the contents of the file as a string\n\u003c/p\u003e\u003cp\u003eDepending on the instance, this function might expect the file to be\n non-binary.  The default definition uses \u003ccode\u003eopenFile\u003c/code\u003e to open the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "readFile",
           "package": "string-class",
@@ -1536,6 +1665,7 @@
         "index": {
           "description": "Read file and returns the contents of the file as string Depending on the instance this function might expect the file to be non-binary The default definition uses openFile to open the file",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO a",
@@ -1551,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeAltHead",
           "package": "string-class",
@@ -1560,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeAltHead",
           "normalized": "a-\u003eMaybe(StringCellAltChar a)",
@@ -1575,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeAltLast",
           "package": "string-class",
@@ -1584,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeAltLast",
           "normalized": "a-\u003eMaybe(StringCellAltChar a)",
@@ -1599,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeAltUncons",
           "package": "string-class",
@@ -1608,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeAltUncons",
           "normalized": "a-\u003eMaybe(StringCellAltChar a,a)",
@@ -1623,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeAltUnsnoc",
           "package": "string-class",
@@ -1632,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeAltUnsnoc",
           "normalized": "a-\u003eMaybe(a,StringCellAltChar a)",
@@ -1647,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeDrop",
           "package": "string-class",
@@ -1656,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeDrop",
           "normalized": "Int-\u003ea-\u003eMaybe a",
@@ -1671,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeDrop64",
           "package": "string-class",
@@ -1680,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeDrop64",
           "normalized": "Int-\u003ea-\u003eMaybe a",
@@ -1695,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeGenericDrop",
           "package": "string-class",
@@ -1704,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeGenericDrop",
           "normalized": "a-\u003eb-\u003eMaybe b",
@@ -1719,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeGenericIndex",
           "package": "string-class",
@@ -1728,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeGenericIndex",
           "normalized": "a-\u003eb-\u003eMaybe(StringCellChar a)",
@@ -1743,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeGenericTake",
           "package": "string-class",
@@ -1752,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeGenericTake",
           "normalized": "a-\u003eb-\u003eMaybe b",
@@ -1767,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeHead",
           "package": "string-class",
@@ -1776,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeHead",
           "normalized": "a-\u003eMaybe(StringCellChar a)",
@@ -1791,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeIndex",
           "package": "string-class",
@@ -1800,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeIndex",
           "normalized": "a-\u003eInt-\u003eMaybe(StringCellChar a)",
@@ -1815,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeIndex64",
           "package": "string-class",
@@ -1824,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeIndex64",
           "normalized": "a-\u003eInt-\u003eMaybe(StringCellChar a)",
@@ -1839,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeInit",
           "package": "string-class",
@@ -1848,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeInit",
           "normalized": "a-\u003eMaybe a",
@@ -1863,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeLast",
           "package": "string-class",
@@ -1872,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeLast",
           "normalized": "a-\u003eMaybe(StringCellChar a)",
@@ -1887,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeTail",
           "package": "string-class",
@@ -1896,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeTail",
           "normalized": "a-\u003eMaybe a",
@@ -1911,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeTake",
           "package": "string-class",
@@ -1920,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeTake",
           "normalized": "Int-\u003ea-\u003eMaybe a",
@@ -1935,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeTake64",
           "package": "string-class",
@@ -1944,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeTake64",
           "normalized": "Int-\u003ea-\u003eMaybe a",
@@ -1959,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeUncons",
           "package": "string-class",
@@ -1968,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeUncons",
           "normalized": "a-\u003eMaybe(StringCellChar a,a)",
@@ -1983,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeUncons2",
           "package": "string-class",
@@ -1992,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeUncons2",
           "normalized": "a-\u003eMaybe(StringCellChar a,StringCellChar a,a)",
@@ -2007,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeUncons3",
           "package": "string-class",
@@ -2016,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeUncons3",
           "normalized": "a-\u003eMaybe(StringCellChar a,StringCellChar a,StringCellChar a,a)",
@@ -2031,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeUncons4",
           "package": "string-class",
@@ -2040,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeUncons4",
           "normalized": "a-\u003eMaybe(StringCellChar a,StringCellChar a,StringCellChar a,StringCellChar a,a)",
@@ -2055,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "safeUnsnoc",
           "package": "string-class",
@@ -2064,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "safeUnsnoc",
           "normalized": "a-\u003eMaybe(a,StringCellChar a)",
@@ -2079,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "snoc",
           "package": "string-class",
@@ -2088,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "snoc",
           "normalized": "a-\u003eStringCellChar a-\u003ea",
@@ -2102,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "tail",
           "package": "string-class",
@@ -2111,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "tail",
           "normalized": "a-\u003ea",
@@ -2125,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "take",
           "package": "string-class",
@@ -2134,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "take",
           "normalized": "Int-\u003ea-\u003ea",
@@ -2148,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "take64",
           "package": "string-class",
@@ -2157,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "take64",
           "normalized": "Int-\u003ea-\u003ea",
@@ -2171,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "toAltChar",
           "package": "string-class",
@@ -2180,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "toAltChar",
           "normalized": "a-\u003eTagged b(StringCellAltChar b)",
@@ -2195,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "toChar",
           "package": "string-class",
@@ -2204,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "toChar",
           "normalized": "a-\u003eChar",
@@ -2219,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "toGenString",
           "package": "string-class",
@@ -2228,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "toGenString",
           "normalized": "a-\u003eGenString",
@@ -2243,6 +2431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "toLazyByteString",
           "package": "string-class",
@@ -2252,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "toLazyByteString",
           "normalized": "a-\u003eByteString",
@@ -2267,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "toMainChar",
           "package": "string-class",
@@ -2276,6 +2467,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "toMainChar",
           "normalized": "a-\u003eTagged b(StringCellChar b)",
@@ -2291,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "toStrictByteString",
           "package": "string-class",
@@ -2300,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "toStrictByteString",
           "normalized": "a-\u003eByteString",
@@ -2315,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "toString",
           "package": "string-class",
@@ -2324,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -2339,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "toStringCells",
           "package": "string-class",
@@ -2348,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "toStringCells",
           "normalized": "a-\u003ea",
@@ -2363,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "toText",
           "package": "string-class",
@@ -2372,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "toText",
           "normalized": "a-\u003eText",
@@ -2387,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "toWord16",
           "package": "string-class",
@@ -2396,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "toWord16",
           "normalized": "a-\u003eWord",
@@ -2411,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "toWord32",
           "package": "string-class",
@@ -2420,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "toWord32",
           "normalized": "a-\u003eWord",
@@ -2435,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "toWord64",
           "package": "string-class",
@@ -2444,6 +2649,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "toWord64",
           "normalized": "a-\u003eWord",
@@ -2459,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "toWord8",
           "package": "string-class",
@@ -2468,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "toWord8",
           "normalized": "a-\u003eWord",
@@ -2483,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "uncons",
           "package": "string-class",
@@ -2492,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "uncons",
           "normalized": "a-\u003e(StringCellChar a,a)",
@@ -2506,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "uncons2",
           "package": "string-class",
@@ -2515,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "uncons2",
           "normalized": "a-\u003e(StringCellChar a,StringCellChar a,a)",
@@ -2529,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "uncons3",
           "package": "string-class",
@@ -2538,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "uncons3",
           "normalized": "a-\u003e(StringCellChar a,StringCellChar a,StringCellChar a,a)",
@@ -2552,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "uncons4",
           "package": "string-class",
@@ -2561,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "uncons4",
           "normalized": "a-\u003e(StringCellChar a,StringCellChar a,StringCellChar a,StringCellChar a,a)",
@@ -2576,6 +2792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruction of a string; implementations should behave safely with incorrect lengths\n\u003c/p\u003e\u003cp\u003eThe default implementation of \u003ccode\u003eundfoldr\u003c/code\u003e is independent from that of \u003ccode\u003e\u003ca\u003ealtUnfoldr\u003c/a\u003e\u003c/code\u003e,\n as well as \u003ccode\u003e\u003ca\u003eunfoldrN\u003c/a\u003e\u003c/code\u003e as and \u003ccode\u003e\u003ca\u003ealtUnfoldrN\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "unfoldr",
           "package": "string-class",
@@ -2586,6 +2803,7 @@
         "index": {
           "description": "Construction of string implementations should behave safely with incorrect lengths The default implementation of undfoldr is independent from that of altUnfoldr as well as unfoldrN as and altUnfoldrN",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "unfoldr",
           "normalized": "(a-\u003eMaybe(StringCellChar b,a))-\u003ea-\u003eb",
@@ -2600,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "unfoldrN",
           "package": "string-class",
@@ -2609,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "unfoldrN",
           "normalized": "Int-\u003e(a-\u003eMaybe(StringCellChar b,a))-\u003ea-\u003eb",
@@ -2623,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "unsnoc",
           "package": "string-class",
@@ -2632,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "unsnoc",
           "normalized": "a-\u003e(a,StringCellChar a)",
@@ -2647,6 +2869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to a file\n\u003c/p\u003e\u003cp\u003eThe file is truncated to zero length before writing begins.\n The default definition uses \u003ccode\u003ewithFile\u003c/code\u003e to open the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:33 UTC 2014",
           "module": "Data.String.Class",
           "name": "writeFile",
           "package": "string-class",
@@ -2657,6 +2880,7 @@
         "index": {
           "description": "Write string to file The file is truncated to zero length before writing begins The default definition uses withFile to open the file",
           "hierarchy": "Data String Class",
+          "indexed": "2014-03-11T20:12:33",
           "module": "Data.String.Class",
           "name": "writeFile",
           "normalized": "FilePath-\u003ea-\u003eIO()",

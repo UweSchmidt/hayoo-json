@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BerkeleyDB"
+        "phrase": "BerkeleyDB",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBerkeley DB binding. All IO monad functions can throw DbException.\n\u003c/p\u003e\u003cp\u003eThis documentation is not a complete description of the Berkeley DB interface.\n You will need to refer to Berkeley DB's C or C++ API documentation for the details.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "Db",
           "package": "BerkeleyDB",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Berkeley DB binding All IO monad functions can throw DbException This documentation is not complete description of the Berkeley DB interface You will need to refer to Berkeley DB or API documentation for the details",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "Db",
           "package": "BerkeleyDB",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "Db",
           "package": "BerkeleyDB",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "Db",
           "package": "BerkeleyDB",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbCursor",
           "package": "BerkeleyDB",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbCursor",
           "package": "BerkeleyDB",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbEnv",
           "package": "BerkeleyDB",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbEnv",
           "package": "BerkeleyDB",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbEnvCreateFlag",
           "package": "BerkeleyDB",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbEnvCreateFlag",
           "package": "BerkeleyDB",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbEnv_native",
           "package": "BerkeleyDB",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbEnv_native",
           "package": "BerkeleyDB",
@@ -147,6 +159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNeeded for BerkeleyDBXML: C pointer type for a DbEnv\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbEnv_struct",
           "package": "BerkeleyDB",
@@ -156,6 +169,7 @@
         "index": {
           "description": "Needed for BerkeleyDBXML pointer type for DbEnv",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbEnv_struct",
           "package": "BerkeleyDB",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbError",
           "package": "BerkeleyDB",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbError",
           "package": "BerkeleyDB",
@@ -191,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception indicating an error in a Berkeley DB operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbException",
           "package": "BerkeleyDB",
@@ -200,6 +217,7 @@
         "index": {
           "description": "An exception indicating an error in Berkeley DB operation",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbException",
           "package": "BerkeleyDB",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbFlag",
           "package": "BerkeleyDB",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbFlag",
           "package": "BerkeleyDB",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbLock",
           "package": "BerkeleyDB",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbLock",
           "package": "BerkeleyDB",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbLockFlag",
           "package": "BerkeleyDB",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbLockFlag",
           "package": "BerkeleyDB",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbLockMode",
           "package": "BerkeleyDB",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbLockMode",
           "package": "BerkeleyDB",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbLocker",
           "package": "BerkeleyDB",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbLocker",
           "package": "BerkeleyDB",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbLogFlag",
           "package": "BerkeleyDB",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbLogFlag",
           "package": "BerkeleyDB",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbTxn",
           "package": "BerkeleyDB",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbTxn",
           "package": "BerkeleyDB",
@@ -361,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNeeded for BerkeleyDBXML: C pointer type for a DbTxn\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbTxn_struct",
           "package": "BerkeleyDB",
@@ -370,6 +403,7 @@
         "index": {
           "description": "Needed for BerkeleyDBXML pointer type for DbTxn",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbTxn_struct",
           "package": "BerkeleyDB",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbType",
           "package": "BerkeleyDB",
@@ -391,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbType",
           "package": "BerkeleyDB",
@@ -405,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell binding: Attempted to use a Db handle after it was closed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_ACCESSED_DB_AFTER_CLOSE",
           "package": "BerkeleyDB",
@@ -415,6 +452,7 @@
         "index": {
           "description": "Haskell binding Attempted to use Db handle after it was closed",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_ACCESSED_DB_AFTER_CLOSE",
           "package": "BerkeleyDB",
@@ -429,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell binding: Attempted to use a DbCursor handle after it was closed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_ACCESSED_DB_CURSOR_AFTER_CLOSE",
           "package": "BerkeleyDB",
@@ -439,6 +478,7 @@
         "index": {
           "description": "Haskell binding Attempted to use DbCursor handle after it was closed",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_ACCESSED_DB_CURSOR_AFTER_CLOSE",
           "package": "BerkeleyDB",
@@ -453,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell binding: Attempted to use a DbEnv handle after it was closed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_ACCESSED_DB_ENV_AFTER_CLOSE",
           "package": "BerkeleyDB",
@@ -463,6 +504,7 @@
         "index": {
           "description": "Haskell binding Attempted to use DbEnv handle after it was closed",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_ACCESSED_DB_ENV_AFTER_CLOSE",
           "package": "BerkeleyDB",
@@ -477,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell binding: Attempted to use a DbTxn handle after it was closed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_ACCESSED_DB_TXN_AFTER_CLOSE",
           "package": "BerkeleyDB",
@@ -487,6 +530,7 @@
         "index": {
           "description": "Haskell binding Attempted to use DbTxn handle after it was closed",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_ACCESSED_DB_TXN_AFTER_CLOSE",
           "package": "BerkeleyDB",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_AFTER",
           "package": "BerkeleyDB",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_AFTER",
           "package": "BerkeleyDB",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_APPEND",
           "package": "BerkeleyDB",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_APPEND",
           "package": "BerkeleyDB",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_AUTO_COMMIT",
           "package": "BerkeleyDB",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_AUTO_COMMIT",
           "package": "BerkeleyDB",
@@ -566,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_BEFORE",
           "package": "BerkeleyDB",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_BEFORE",
           "package": "BerkeleyDB",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_BTREE",
           "package": "BerkeleyDB",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_BTREE",
           "package": "BerkeleyDB",
@@ -611,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser memory too small for return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_BUFFER_SMALL",
           "package": "BerkeleyDB",
@@ -621,6 +676,7 @@
         "index": {
           "description": "User memory too small for return",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_BUFFER_SMALL",
           "package": "BerkeleyDB",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_CONSUME",
           "package": "BerkeleyDB",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_CONSUME",
           "package": "BerkeleyDB",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_CONSUME_WAIT",
           "package": "BerkeleyDB",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_CONSUME_WAIT",
           "package": "BerkeleyDB",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_CREATE",
           "package": "BerkeleyDB",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_CREATE",
           "package": "BerkeleyDB",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_CURRENT",
           "package": "BerkeleyDB",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_CURRENT",
           "package": "BerkeleyDB",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_CXX_NO_EXCEPTIONS",
           "package": "BerkeleyDB",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_CXX_NO_EXCEPTIONS",
           "package": "BerkeleyDB",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_DEGREE_2",
           "package": "BerkeleyDB",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_DEGREE_2",
           "package": "BerkeleyDB",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_DIRTY_READ",
           "package": "BerkeleyDB",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_DIRTY_READ",
           "package": "BerkeleyDB",
@@ -789,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Null\" return from 2ndary callbk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_DONOTINDEX",
           "package": "BerkeleyDB",
@@ -799,6 +870,7 @@
         "index": {
           "description": "Null return from ndary callbk",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_DONOTINDEX",
           "package": "BerkeleyDB",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_DUP",
           "package": "BerkeleyDB",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_DUP",
           "package": "BerkeleyDB",
@@ -834,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_DUPSORT",
           "package": "BerkeleyDB",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_DUPSORT",
           "package": "BerkeleyDB",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_DURABLE_UNKNOWN",
           "package": "BerkeleyDB",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_DURABLE_UNKNOWN",
           "package": "BerkeleyDB",
@@ -878,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_EXCL",
           "package": "BerkeleyDB",
@@ -887,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_EXCL",
           "package": "BerkeleyDB",
@@ -900,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_FCNTL_LOCKING",
           "package": "BerkeleyDB",
@@ -909,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_FCNTL_LOCKING",
           "package": "BerkeleyDB",
@@ -922,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_FIRST",
           "package": "BerkeleyDB",
@@ -931,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_FIRST",
           "package": "BerkeleyDB",
@@ -944,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_FORCE",
           "package": "BerkeleyDB",
@@ -953,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_FORCE",
           "package": "BerkeleyDB",
@@ -966,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_GET_BOTH",
           "package": "BerkeleyDB",
@@ -975,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_GET_BOTH",
           "package": "BerkeleyDB",
@@ -988,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_GET_BOTHC",
           "package": "BerkeleyDB",
@@ -997,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_GET_BOTHC",
           "package": "BerkeleyDB",
@@ -1010,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_GET_BOTH_RANGE",
           "package": "BerkeleyDB",
@@ -1019,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_GET_BOTH_RANGE",
           "package": "BerkeleyDB",
@@ -1032,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_GET_RECNO",
           "package": "BerkeleyDB",
@@ -1041,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_GET_RECNO",
           "package": "BerkeleyDB",
@@ -1054,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_HASH",
           "package": "BerkeleyDB",
@@ -1063,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_HASH",
           "package": "BerkeleyDB",
@@ -1076,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_IGNORE_LEASE",
           "package": "BerkeleyDB",
@@ -1085,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_IGNORE_LEASE",
           "package": "BerkeleyDB",
@@ -1098,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_INIT_CDB",
           "package": "BerkeleyDB",
@@ -1107,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_INIT_CDB",
           "package": "BerkeleyDB",
@@ -1120,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_INIT_LOCK",
           "package": "BerkeleyDB",
@@ -1129,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_INIT_LOCK",
           "package": "BerkeleyDB",
@@ -1142,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_INIT_LOG",
           "package": "BerkeleyDB",
@@ -1151,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_INIT_LOG",
           "package": "BerkeleyDB",
@@ -1164,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_INIT_MPOOL",
           "package": "BerkeleyDB",
@@ -1173,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_INIT_MPOOL",
           "package": "BerkeleyDB",
@@ -1186,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_INIT_REP",
           "package": "BerkeleyDB",
@@ -1195,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_INIT_REP",
           "package": "BerkeleyDB",
@@ -1208,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_INIT_TXN",
           "package": "BerkeleyDB",
@@ -1217,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_INIT_TXN",
           "package": "BerkeleyDB",
@@ -1230,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_JOIN_ITEM",
           "package": "BerkeleyDB",
@@ -1239,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_JOIN_ITEM",
           "package": "BerkeleyDB",
@@ -1253,6 +1365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey/data deleted or never created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_KEYEMPTY",
           "package": "BerkeleyDB",
@@ -1263,6 +1376,7 @@
         "index": {
           "description": "Key data deleted or never created",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_KEYEMPTY",
           "package": "BerkeleyDB",
@@ -1277,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe key/data pair already exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_KEYEXIST",
           "package": "BerkeleyDB",
@@ -1287,6 +1402,7 @@
         "index": {
           "description": "The key data pair already exists",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_KEYEXIST",
           "package": "BerkeleyDB",
@@ -1300,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_KEYFIRST",
           "package": "BerkeleyDB",
@@ -1309,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_KEYFIRST",
           "package": "BerkeleyDB",
@@ -1322,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_KEYLAST",
           "package": "BerkeleyDB",
@@ -1331,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_KEYLAST",
           "package": "BerkeleyDB",
@@ -1344,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LAST",
           "package": "BerkeleyDB",
@@ -1353,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LAST",
           "package": "BerkeleyDB",
@@ -1366,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCKDOWN",
           "package": "BerkeleyDB",
@@ -1375,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCKDOWN",
           "package": "BerkeleyDB",
@@ -1389,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeadlock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_DEADLOCK",
           "package": "BerkeleyDB",
@@ -1399,6 +1524,7 @@
         "index": {
           "description": "Deadlock",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_DEADLOCK",
           "package": "BerkeleyDB",
@@ -1412,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_DEFAULT",
           "package": "BerkeleyDB",
@@ -1421,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_DEFAULT",
           "package": "BerkeleyDB",
@@ -1434,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_EXPIRE",
           "package": "BerkeleyDB",
@@ -1443,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_EXPIRE",
           "package": "BerkeleyDB",
@@ -1456,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_IREAD",
           "package": "BerkeleyDB",
@@ -1465,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_IREAD",
           "package": "BerkeleyDB",
@@ -1478,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_IWR",
           "package": "BerkeleyDB",
@@ -1487,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_IWR",
           "package": "BerkeleyDB",
@@ -1500,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_IWRITE",
           "package": "BerkeleyDB",
@@ -1509,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_IWRITE",
           "package": "BerkeleyDB",
@@ -1522,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_MAXLOCKS",
           "package": "BerkeleyDB",
@@ -1531,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_MAXLOCKS",
           "package": "BerkeleyDB",
@@ -1544,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_MAXWRITE",
           "package": "BerkeleyDB",
@@ -1553,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_MAXWRITE",
           "package": "BerkeleyDB",
@@ -1566,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_MINLOCKS",
           "package": "BerkeleyDB",
@@ -1575,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_MINLOCKS",
           "package": "BerkeleyDB",
@@ -1588,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_MINWRITE",
           "package": "BerkeleyDB",
@@ -1597,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_MINWRITE",
           "package": "BerkeleyDB",
@@ -1610,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_NORUN",
           "package": "BerkeleyDB",
@@ -1619,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_NORUN",
           "package": "BerkeleyDB",
@@ -1633,6 +1779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLock unavailable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_NOTGRANTED",
           "package": "BerkeleyDB",
@@ -1643,6 +1790,7 @@
         "index": {
           "description": "Lock unavailable",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_NOTGRANTED",
           "package": "BerkeleyDB",
@@ -1656,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_NOWAIT",
           "package": "BerkeleyDB",
@@ -1665,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_NOWAIT",
           "package": "BerkeleyDB",
@@ -1678,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_OLDEST",
           "package": "BerkeleyDB",
@@ -1687,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_OLDEST",
           "package": "BerkeleyDB",
@@ -1700,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_RANDOM",
           "package": "BerkeleyDB",
@@ -1709,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_RANDOM",
           "package": "BerkeleyDB",
@@ -1722,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_READ",
           "package": "BerkeleyDB",
@@ -1731,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_READ",
           "package": "BerkeleyDB",
@@ -1744,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_WRITE",
           "package": "BerkeleyDB",
@@ -1753,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_WRITE",
           "package": "BerkeleyDB",
@@ -1766,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_YOUNGEST",
           "package": "BerkeleyDB",
@@ -1775,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOCK_YOUNGEST",
           "package": "BerkeleyDB",
@@ -1788,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOG_AUTO_REMOVE",
           "package": "BerkeleyDB",
@@ -1797,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOG_AUTO_REMOVE",
           "package": "BerkeleyDB",
@@ -1811,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn-memory log buffer full.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOG_BUFFER_FULL",
           "package": "BerkeleyDB",
@@ -1821,6 +1984,7 @@
         "index": {
           "description": "In-memory log buffer full",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOG_BUFFER_FULL",
           "package": "BerkeleyDB",
@@ -1834,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOG_DIRECT",
           "package": "BerkeleyDB",
@@ -1843,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOG_DIRECT",
           "package": "BerkeleyDB",
@@ -1856,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOG_DSYNC",
           "package": "BerkeleyDB",
@@ -1865,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOG_DSYNC",
           "package": "BerkeleyDB",
@@ -1878,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOG_IN_MEMORY",
           "package": "BerkeleyDB",
@@ -1887,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOG_IN_MEMORY",
           "package": "BerkeleyDB",
@@ -1900,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOG_ZERO",
           "package": "BerkeleyDB",
@@ -1909,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_LOG_ZERO",
           "package": "BerkeleyDB",
@@ -1922,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_MULTIPLE",
           "package": "BerkeleyDB",
@@ -1931,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_MULTIPLE",
           "package": "BerkeleyDB",
@@ -1944,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_MULTIPLE_KEY",
           "package": "BerkeleyDB",
@@ -1953,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_MULTIPLE_KEY",
           "package": "BerkeleyDB",
@@ -1966,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_MULTIVERSION",
           "package": "BerkeleyDB",
@@ -1975,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_MULTIVERSION",
           "package": "BerkeleyDB",
@@ -1988,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_NEXT",
           "package": "BerkeleyDB",
@@ -1997,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_NEXT",
           "package": "BerkeleyDB",
@@ -2010,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_NEXT_DUP",
           "package": "BerkeleyDB",
@@ -2019,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_NEXT_DUP",
           "package": "BerkeleyDB",
@@ -2032,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_NEXT_NODUP",
           "package": "BerkeleyDB",
@@ -2041,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_NEXT_NODUP",
           "package": "BerkeleyDB",
@@ -2054,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_NODUPDATA",
           "package": "BerkeleyDB",
@@ -2063,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_NODUPDATA",
           "package": "BerkeleyDB",
@@ -2076,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_NOMMAP",
           "package": "BerkeleyDB",
@@ -2085,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_NOMMAP",
           "package": "BerkeleyDB",
@@ -2098,6 +2286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_NOOVERWRITE",
           "package": "BerkeleyDB",
@@ -2107,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_NOOVERWRITE",
           "package": "BerkeleyDB",
@@ -2121,6 +2311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer panic return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_NOSERVER",
           "package": "BerkeleyDB",
@@ -2131,6 +2322,7 @@
         "index": {
           "description": "Server panic return",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_NOSERVER",
           "package": "BerkeleyDB",
@@ -2144,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_NOSYNC",
           "package": "BerkeleyDB",
@@ -2153,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_NOSYNC",
           "package": "BerkeleyDB",
@@ -2167,6 +2361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey/data pair not found (EOF).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_NOTFOUND",
           "package": "BerkeleyDB",
@@ -2177,6 +2372,7 @@
         "index": {
           "description": "Key data pair not found EOF",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_NOTFOUND",
           "package": "BerkeleyDB",
@@ -2190,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_NO_AUTO_COMMIT",
           "package": "BerkeleyDB",
@@ -2199,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_NO_AUTO_COMMIT",
           "package": "BerkeleyDB",
@@ -2213,6 +2411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOut-of-date version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_OLD_VERSION",
           "package": "BerkeleyDB",
@@ -2223,6 +2422,7 @@
         "index": {
           "description": "Out-of-date version",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_OLD_VERSION",
           "package": "BerkeleyDB",
@@ -2237,6 +2437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequested page not found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_PAGE_NOTFOUND",
           "package": "BerkeleyDB",
@@ -2247,6 +2448,7 @@
         "index": {
           "description": "Requested page not found",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_PAGE_NOTFOUND",
           "package": "BerkeleyDB",
@@ -2260,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_POSITION",
           "package": "BerkeleyDB",
@@ -2269,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_POSITION",
           "package": "BerkeleyDB",
@@ -2282,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_PREV",
           "package": "BerkeleyDB",
@@ -2291,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_PREV",
           "package": "BerkeleyDB",
@@ -2304,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_PREV_DUP",
           "package": "BerkeleyDB",
@@ -2313,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_PREV_DUP",
           "package": "BerkeleyDB",
@@ -2326,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_PREV_NODUP",
           "package": "BerkeleyDB",
@@ -2335,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_PREV_NODUP",
           "package": "BerkeleyDB",
@@ -2348,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_PRIVATE",
           "package": "BerkeleyDB",
@@ -2357,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_PRIVATE",
           "package": "BerkeleyDB",
@@ -2370,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_QUEUE",
           "package": "BerkeleyDB",
@@ -2379,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_QUEUE",
           "package": "BerkeleyDB",
@@ -2392,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_RDONLY",
           "package": "BerkeleyDB",
@@ -2401,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_RDONLY",
           "package": "BerkeleyDB",
@@ -2414,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_RDWRMASTER",
           "package": "BerkeleyDB",
@@ -2423,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_RDWRMASTER",
           "package": "BerkeleyDB",
@@ -2436,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_READ_COMMITTED",
           "package": "BerkeleyDB",
@@ -2445,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_READ_COMMITTED",
           "package": "BerkeleyDB",
@@ -2458,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_READ_UNCOMMITTED",
           "package": "BerkeleyDB",
@@ -2467,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_READ_UNCOMMITTED",
           "package": "BerkeleyDB",
@@ -2480,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_RECNO",
           "package": "BerkeleyDB",
@@ -2489,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_RECNO",
           "package": "BerkeleyDB",
@@ -2502,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_RECOVER",
           "package": "BerkeleyDB",
@@ -2511,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_RECOVER",
           "package": "BerkeleyDB",
@@ -2524,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_RECOVER_FATAL",
           "package": "BerkeleyDB",
@@ -2533,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_RECOVER_FATAL",
           "package": "BerkeleyDB",
@@ -2546,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_REGISTER",
           "package": "BerkeleyDB",
@@ -2555,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_REGISTER",
           "package": "BerkeleyDB",
@@ -2569,6 +2799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere are two masters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_DUPMASTER",
           "package": "BerkeleyDB",
@@ -2579,6 +2810,7 @@
         "index": {
           "description": "There are two masters",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_DUPMASTER",
           "package": "BerkeleyDB",
@@ -2593,6 +2825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRolled back a commit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_HANDLE_DEAD",
           "package": "BerkeleyDB",
@@ -2603,6 +2836,7 @@
         "index": {
           "description": "Rolled back commit",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_HANDLE_DEAD",
           "package": "BerkeleyDB",
@@ -2617,6 +2851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime to hold an election.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_HOLDELECTION",
           "package": "BerkeleyDB",
@@ -2627,6 +2862,7 @@
         "index": {
           "description": "Time to hold an election",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_HOLDELECTION",
           "package": "BerkeleyDB",
@@ -2641,6 +2877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis msg should be ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_IGNORE",
           "package": "BerkeleyDB",
@@ -2651,6 +2888,7 @@
         "index": {
           "description": "This msg should be ignored",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_IGNORE",
           "package": "BerkeleyDB",
@@ -2665,6 +2903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCached not written perm written.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_ISPERM",
           "package": "BerkeleyDB",
@@ -2675,6 +2914,7 @@
         "index": {
           "description": "Cached not written perm written",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_ISPERM",
           "package": "BerkeleyDB",
@@ -2689,6 +2929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnable to join replication group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_JOIN_FAILURE",
           "package": "BerkeleyDB",
@@ -2699,6 +2940,7 @@
         "index": {
           "description": "Unable to join replication group",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_JOIN_FAILURE",
           "package": "BerkeleyDB",
@@ -2713,6 +2955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaster lease has expired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_LEASE_EXPIRED",
           "package": "BerkeleyDB",
@@ -2723,6 +2966,7 @@
         "index": {
           "description": "Master lease has expired",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_LEASE_EXPIRED",
           "package": "BerkeleyDB",
@@ -2737,6 +2981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAPI/Replication lockout now.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_LOCKOUT",
           "package": "BerkeleyDB",
@@ -2747,6 +2992,7 @@
         "index": {
           "description": "API Replication lockout now",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_LOCKOUT",
           "package": "BerkeleyDB",
@@ -2761,6 +3007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew site entered system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_NEWSITE",
           "package": "BerkeleyDB",
@@ -2771,6 +3018,7 @@
         "index": {
           "description": "New site entered system",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_NEWSITE",
           "package": "BerkeleyDB",
@@ -2785,6 +3033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePermanent log record not written.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_NOTPERM",
           "package": "BerkeleyDB",
@@ -2795,6 +3044,7 @@
         "index": {
           "description": "Permanent log record not written",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_NOTPERM",
           "package": "BerkeleyDB",
@@ -2809,6 +3059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSite cannot currently be reached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_UNAVAIL",
           "package": "BerkeleyDB",
@@ -2819,6 +3070,7 @@
         "index": {
           "description": "Site cannot currently be reached",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_REP_UNAVAIL",
           "package": "BerkeleyDB",
@@ -2832,6 +3084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_RMW",
           "package": "BerkeleyDB",
@@ -2841,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_RMW",
           "package": "BerkeleyDB",
@@ -2855,6 +3109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePanic return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_RUNRECOVERY",
           "package": "BerkeleyDB",
@@ -2865,6 +3120,7 @@
         "index": {
           "description": "Panic return",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_RUNRECOVERY",
           "package": "BerkeleyDB",
@@ -2879,6 +3135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecondary index corrupt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_SECONDARY_BAD",
           "package": "BerkeleyDB",
@@ -2889,6 +3146,7 @@
         "index": {
           "description": "Secondary index corrupt",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_SECONDARY_BAD",
           "package": "BerkeleyDB",
@@ -2902,6 +3160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_SET",
           "package": "BerkeleyDB",
@@ -2911,6 +3170,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_SET",
           "package": "BerkeleyDB",
@@ -2924,6 +3184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_SET_RANGE",
           "package": "BerkeleyDB",
@@ -2933,6 +3194,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_SET_RANGE",
           "package": "BerkeleyDB",
@@ -2946,6 +3208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_SET_RECNO",
           "package": "BerkeleyDB",
@@ -2955,6 +3218,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_SET_RECNO",
           "package": "BerkeleyDB",
@@ -2968,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_SYSTEM_MEM",
           "package": "BerkeleyDB",
@@ -2977,6 +3242,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_SYSTEM_MEM",
           "package": "BerkeleyDB",
@@ -2990,6 +3256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_THREAD",
           "package": "BerkeleyDB",
@@ -2999,6 +3266,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_THREAD",
           "package": "BerkeleyDB",
@@ -3012,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_TRUNCATE",
           "package": "BerkeleyDB",
@@ -3021,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_TRUNCATE",
           "package": "BerkeleyDB",
@@ -3034,6 +3304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_TXN_NOSYNC",
           "package": "BerkeleyDB",
@@ -3043,6 +3314,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_TXN_NOSYNC",
           "package": "BerkeleyDB",
@@ -3056,6 +3328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_TXN_NOT_DURABLE",
           "package": "BerkeleyDB",
@@ -3065,6 +3338,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_TXN_NOT_DURABLE",
           "package": "BerkeleyDB",
@@ -3078,6 +3352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_TXN_NOWAIT",
           "package": "BerkeleyDB",
@@ -3087,6 +3362,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_TXN_NOWAIT",
           "package": "BerkeleyDB",
@@ -3100,6 +3376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_TXN_SNAPSHOT",
           "package": "BerkeleyDB",
@@ -3109,6 +3386,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_TXN_SNAPSHOT",
           "package": "BerkeleyDB",
@@ -3122,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_TXN_SYNC",
           "package": "BerkeleyDB",
@@ -3131,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_TXN_SYNC",
           "package": "BerkeleyDB",
@@ -3144,6 +3424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_TXN_WAIT",
           "package": "BerkeleyDB",
@@ -3153,6 +3434,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_TXN_WAIT",
           "package": "BerkeleyDB",
@@ -3166,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_TXN_WRITE_NOSYNC",
           "package": "BerkeleyDB",
@@ -3175,6 +3458,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_TXN_WRITE_NOSYNC",
           "package": "BerkeleyDB",
@@ -3188,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_UNKNOWN",
           "package": "BerkeleyDB",
@@ -3197,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_UNKNOWN",
           "package": "BerkeleyDB",
@@ -3210,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_UPDATE_SECONDARY",
           "package": "BerkeleyDB",
@@ -3219,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_UPDATE_SECONDARY",
           "package": "BerkeleyDB",
@@ -3232,6 +3520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_USE_ENVIRON",
           "package": "BerkeleyDB",
@@ -3241,6 +3530,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_USE_ENVIRON",
           "package": "BerkeleyDB",
@@ -3254,6 +3544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_USE_ENVIRON_ROOT",
           "package": "BerkeleyDB",
@@ -3263,6 +3554,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_USE_ENVIRON_ROOT",
           "package": "BerkeleyDB",
@@ -3277,6 +3569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify failed; bad format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_VERIFY_BAD",
           "package": "BerkeleyDB",
@@ -3287,6 +3580,7 @@
         "index": {
           "description": "Verify failed bad format",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_VERIFY_BAD",
           "package": "BerkeleyDB",
@@ -3301,6 +3595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnvironment version mismatch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_VERSION_MISMATCH",
           "package": "BerkeleyDB",
@@ -3311,6 +3606,7 @@
         "index": {
           "description": "Environment version mismatch",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_VERSION_MISMATCH",
           "package": "BerkeleyDB",
@@ -3324,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_WRITECURSOR",
           "package": "BerkeleyDB",
@@ -3333,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_WRITECURSOR",
           "package": "BerkeleyDB",
@@ -3346,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_WRITELOCK",
           "package": "BerkeleyDB",
@@ -3355,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_WRITELOCK",
           "package": "BerkeleyDB",
@@ -3368,6 +3668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DB_WRITEOPEN",
           "package": "BerkeleyDB",
@@ -3377,6 +3678,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DB_WRITEOPEN",
           "package": "BerkeleyDB",
@@ -3390,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "DbException",
           "package": "BerkeleyDB",
@@ -3399,6 +3702,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "DbException",
           "package": "BerkeleyDB",
@@ -3413,6 +3717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn errno value returned by the operating system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "SYSTEM_ERROR",
           "package": "BerkeleyDB",
@@ -3423,6 +3728,7 @@
         "index": {
           "description": "An errno value returned by the operating system",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "SYSTEM_ERROR",
           "package": "BerkeleyDB",
@@ -3437,6 +3743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a DBCursor. You are recommended to use \u003ccode\u003e\u003ca\u003edb_withCursor\u003c/a\u003e\u003c/code\u003e instead of this\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_close",
           "package": "BerkeleyDB",
@@ -3447,6 +3754,7 @@
         "index": {
           "description": "Close DBCursor You are recommended to use db withCursor instead of this function",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_close",
           "normalized": "DbCursor-\u003eIO()",
@@ -3463,6 +3771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount the number of duplicates at the cursor position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_count",
           "package": "BerkeleyDB",
@@ -3473,6 +3782,7 @@
         "index": {
           "description": "Count the number of duplicates at the cursor position",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_count",
           "normalized": "[DbFlag]-\u003eDbCursor-\u003eIO Int",
@@ -3489,6 +3799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the record at the cursor position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_del",
           "package": "BerkeleyDB",
@@ -3499,6 +3810,7 @@
         "index": {
           "description": "Delete the record at the cursor position",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_del",
           "normalized": "[DbFlag]-\u003eDbCursor-\u003eIO()",
@@ -3515,6 +3827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a duplicate of the specified cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_dup",
           "package": "BerkeleyDB",
@@ -3525,6 +3838,7 @@
         "index": {
           "description": "Create duplicate of the specified cursor",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_dup",
           "normalized": "[DbFlag]-\u003eDbCursor-\u003eIO DbCursor",
@@ -3541,6 +3855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch the record pointed at by the cursor (modified by the flags - see the\n Berkeley DB documentation), and return Just the (key, value) pair at the cursor\n position, or Nothing if no record was found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_get",
           "package": "BerkeleyDB",
@@ -3551,6 +3866,7 @@
         "index": {
           "description": "Fetch the record pointed at by the cursor modified by the flags see the Berkeley DB documentation and return Just the key value pair at the cursor position or Nothing if no record was found",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_get",
           "normalized": "[DbFlag]-\u003eDbCursor-\u003eIO(Maybe(ByteString,ByteString))",
@@ -3567,6 +3883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estores key/data pairs into the database in the context of the cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_put",
           "package": "BerkeleyDB",
@@ -3577,6 +3894,7 @@
         "index": {
           "description": "stores key data pairs into the database in the context of the cursor",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_put",
           "normalized": "[DbFlag]-\u003eDbCursor-\u003eByteString-\u003eByteString-\u003eIO()",
@@ -3593,6 +3911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the cursor to the specified key/data pair of the database, and return\n the datum associated with the given key, or Nothing if it wasn't matched.\n (This is DBC-\u003eget with the DB_SET flag. The DB_SET flag is implied.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_set",
           "package": "BerkeleyDB",
@@ -3603,6 +3922,7 @@
         "index": {
           "description": "Move the cursor to the specified key data pair of the database and return the datum associated with the given key or Nothing if it wasn matched This is DBC get with the DB SET flag The DB SET flag is implied",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_set",
           "normalized": "[DbFlag]-\u003eDbCursor-\u003eByteString-\u003eIO(Maybe ByteString)",
@@ -3619,6 +3939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the cursor to the specified key/data pair of the database, and return\n the next record (key, value) where the key is greater than or equal to\n the specified key, or Nothing if no such record was found.\n (This is DBC-\u003eget with the DB_SET_RANGE flag. The DB_SET_RANGE flag is implied.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_set_range",
           "package": "BerkeleyDB",
@@ -3629,6 +3950,7 @@
         "index": {
           "description": "Move the cursor to the specified key data pair of the database and return the next record key value where the key is greater than or equal to the specified key or Nothing if no such record was found This is DBC get with the DB SET RANGE flag The DB SET RANGE flag is implied",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_set_range",
           "normalized": "[DbFlag]-\u003eDbCursor-\u003eByteString-\u003eIO(Maybe(ByteString,ByteString))",
@@ -3645,6 +3967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception-safe helper that duplicates a cursor using \u003ccode\u003e\u003ca\u003edbCursor_dup\u003c/a\u003e\u003c/code\u003e,\n passes it to an action, and cleans up afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_withCursor",
           "package": "BerkeleyDB",
@@ -3654,6 +3977,7 @@
         "index": {
           "description": "An exception-safe helper that duplicates cursor using dbCursor dup passes it to an action and cleans up afterwards",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbCursor_withCursor",
           "normalized": "[DbFlag]-\u003eDbCursor-\u003e(DbCursor-\u003eIO a)-\u003eIO a",
@@ -3670,6 +3994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the Berkeley DB environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_close",
           "package": "BerkeleyDB",
@@ -3680,6 +4005,7 @@
         "index": {
           "description": "Close the Berkeley DB environment",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_close",
           "normalized": "[DbFlag]-\u003eDbEnv-\u003eIO()",
@@ -3696,6 +4022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Berkeley DB environment handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_create",
           "package": "BerkeleyDB",
@@ -3706,6 +4033,7 @@
         "index": {
           "description": "Create Berkeley DB environment handle",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_create",
           "normalized": "[DbEnvCreateFlag]-\u003eIO DbEnv",
@@ -3721,6 +4049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_get_cache_size",
           "package": "BerkeleyDB",
@@ -3730,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_get_cache_size",
           "normalized": "DbEnv-\u003eIO(Int,Int,Int)",
@@ -3745,6 +4075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_get_lg_regionmax",
           "package": "BerkeleyDB",
@@ -3754,6 +4085,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_get_lg_regionmax",
           "normalized": "DbEnv-\u003eIO Int",
@@ -3769,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_get_lk_max_lockers",
           "package": "BerkeleyDB",
@@ -3778,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_get_lk_max_lockers",
           "normalized": "DbEnv-\u003eIO Int",
@@ -3793,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_get_lk_max_locks",
           "package": "BerkeleyDB",
@@ -3802,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_get_lk_max_locks",
           "normalized": "DbEnv-\u003eIO Int",
@@ -3817,6 +4153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_get_lk_max_objects",
           "package": "BerkeleyDB",
@@ -3826,6 +4163,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_get_lk_max_objects",
           "normalized": "DbEnv-\u003eIO Int",
@@ -3841,6 +4179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_get_tx_max",
           "package": "BerkeleyDB",
@@ -3850,6 +4189,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_get_tx_max",
           "normalized": "DbEnv-\u003eIO Int",
@@ -3866,6 +4206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcquire a DbLock. \u003ccode\u003e\u003ca\u003edbTxn_id\u003c/a\u003e\u003c/code\u003e converts a DbTxn to a DbLocker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_lock_get",
           "package": "BerkeleyDB",
@@ -3875,6 +4216,7 @@
         "index": {
           "description": "Acquire DbLock dbTxn id converts DbTxn to DbLocker",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_lock_get",
           "normalized": "[DbFlag]-\u003eDbLockMode-\u003eByteString-\u003eDbEnv-\u003eDbLocker-\u003eIO DbLock",
@@ -3891,6 +4233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelease a DbLock acquired by dbEnv_lock_get.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_lock_put",
           "package": "BerkeleyDB",
@@ -3901,6 +4244,7 @@
         "index": {
           "description": "Release DbLock acquired by dbEnv lock get",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_lock_put",
           "normalized": "DbLock-\u003eIO()",
@@ -3916,6 +4260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_log_set_config",
           "package": "BerkeleyDB",
@@ -3924,6 +4269,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_log_set_config",
           "normalized": "DbEnv-\u003e[DbLogFlag]-\u003eBool-\u003eIO()",
@@ -3940,6 +4286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen the Berkeley DB environment, which must be done before \u003ccode\u003e\u003ca\u003edb_open\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_open",
           "package": "BerkeleyDB",
@@ -3949,6 +4296,7 @@
         "index": {
           "description": "Open the Berkeley DB environment which must be done before db open",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_open",
           "normalized": "[DbFlag]-\u003eInt-\u003eDbEnv-\u003eFilePath-\u003eIO()",
@@ -3964,6 +4312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_cache_size",
           "package": "BerkeleyDB",
@@ -3973,6 +4322,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_cache_size",
           "normalized": "DbEnv-\u003eInt-\u003eInt-\u003eInt-\u003eIO()",
@@ -3988,6 +4338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_data_dir",
           "package": "BerkeleyDB",
@@ -3997,6 +4348,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_data_dir",
           "normalized": "DbEnv-\u003eFilePath-\u003eIO()",
@@ -4012,6 +4364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_flags",
           "package": "BerkeleyDB",
@@ -4020,6 +4373,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_flags",
           "normalized": "DbEnv-\u003e[DbFlag]-\u003eBool-\u003eIO()",
@@ -4035,6 +4389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_lg_dir",
           "package": "BerkeleyDB",
@@ -4044,6 +4399,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_lg_dir",
           "normalized": "DbEnv-\u003eFilePath-\u003eIO()",
@@ -4059,6 +4415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_lg_regionmax",
           "package": "BerkeleyDB",
@@ -4068,6 +4425,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_lg_regionmax",
           "normalized": "DbEnv-\u003eInt-\u003eIO()",
@@ -4084,6 +4442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart the Berkeley DB lock detector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_lk_detect",
           "package": "BerkeleyDB",
@@ -4094,6 +4453,7 @@
         "index": {
           "description": "Start the Berkeley DB lock detector",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_lk_detect",
           "normalized": "DbEnv-\u003eDbLockFlag-\u003eIO()",
@@ -4109,6 +4469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_lk_max_lockers",
           "package": "BerkeleyDB",
@@ -4118,6 +4479,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_lk_max_lockers",
           "normalized": "DbEnv-\u003eInt-\u003eIO()",
@@ -4133,6 +4495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_lk_max_locks",
           "package": "BerkeleyDB",
@@ -4142,6 +4505,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_lk_max_locks",
           "normalized": "DbEnv-\u003eInt-\u003eIO()",
@@ -4157,6 +4521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_lk_max_objects",
           "package": "BerkeleyDB",
@@ -4166,6 +4531,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_lk_max_objects",
           "normalized": "DbEnv-\u003eInt-\u003eIO()",
@@ -4181,6 +4547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_tx_max",
           "package": "BerkeleyDB",
@@ -4190,6 +4557,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_set_tx_max",
           "normalized": "DbEnv-\u003eInt-\u003eIO()",
@@ -4206,6 +4574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the Haskell handle into a native handle of type DB_ENV* which can be passed to C.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_toNative",
           "package": "BerkeleyDB",
@@ -4216,6 +4585,7 @@
         "index": {
           "description": "Convert the Haskell handle into native handle of type DB ENV which can be passed to",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_toNative",
           "normalized": "DbEnv-\u003e(Ptr DbEnv_native-\u003eIO a)-\u003eIO a",
@@ -4232,6 +4602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new transaction. You are recommended to use \u003ccode\u003e\u003ca\u003edbEnv_withTxn\u003c/a\u003e\u003c/code\u003e\n instead of this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_txn_begin",
           "package": "BerkeleyDB",
@@ -4241,6 +4612,7 @@
         "index": {
           "description": "Create new transaction You are recommended to use dbEnv withTxn instead of this function",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_txn_begin",
           "normalized": "[DbFlag]-\u003eDbEnv-\u003eMaybe DbTxn-\u003eIO DbTxn",
@@ -4257,6 +4629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheckpoint the transaction subsystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_txn_checkpoint",
           "package": "BerkeleyDB",
@@ -4266,6 +4639,7 @@
         "index": {
           "description": "Checkpoint the transaction subsystem",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_txn_checkpoint",
           "normalized": "[DbFlag]-\u003eDbEnv-\u003eWord-\u003eWord-\u003eIO()",
@@ -4282,6 +4656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap dbEnv_lock_get / dbEnv_lock_put around the specified computation.\n  \u003ccode\u003e\u003ca\u003edbTxn_id\u003c/a\u003e\u003c/code\u003e converts a DbTxn to a DbLocker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_withLock",
           "package": "BerkeleyDB",
@@ -4291,6 +4666,7 @@
         "index": {
           "description": "Wrap dbEnv lock get dbEnv lock put around the specified computation dbTxn id converts DbTxn to DbLocker",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_withLock",
           "normalized": "[DbFlag]-\u003eDbLockMode-\u003eByteString-\u003eDbEnv-\u003eDbLocker-\u003eIO a-\u003eIO a",
@@ -4307,6 +4683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception-safe helper that runs an action inside a transaction.\n It will commit on completion, or abort if an exception is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_withTxn",
           "package": "BerkeleyDB",
@@ -4316,6 +4693,7 @@
         "index": {
           "description": "An exception-safe helper that runs an action inside transaction It will commit on completion or abort if an exception is thrown",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbEnv_withTxn",
           "normalized": "[DbFlag]-\u003e[DbFlag]-\u003eDbEnv-\u003eMaybe DbTxn-\u003e(DbTxn-\u003eIO a)-\u003eIO a",
@@ -4332,6 +4710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNeeded for BerkeleyDBXML: Convert an error code to a DbError\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbErrFromNum",
           "package": "BerkeleyDB",
@@ -4342,6 +4721,7 @@
         "index": {
           "description": "Needed for BerkeleyDBXML Convert an error code to DbError",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbErrFromNum",
           "normalized": "Int-\u003eDbError",
@@ -4358,6 +4738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNeeded for BerkeleyDBXML: Binary representation of a DbFlag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbToNum",
           "package": "BerkeleyDB",
@@ -4368,6 +4749,7 @@
         "index": {
           "description": "Needed for BerkeleyDBXML Binary representation of DbFlag",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbToNum",
           "normalized": "DbFlag-\u003eWord",
@@ -4384,6 +4766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbort a transaction, rolling back any writes that were made. You are\n recommended to use \u003ccode\u003e\u003ca\u003edbEnv_withTxn\u003c/a\u003e\u003c/code\u003e instead of this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbTxn_abort",
           "package": "BerkeleyDB",
@@ -4394,6 +4777,7 @@
         "index": {
           "description": "Abort transaction rolling back any writes that were made You are recommended to use dbEnv withTxn instead of this function",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbTxn_abort",
           "normalized": "DbTxn-\u003eIO()",
@@ -4410,6 +4794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommit a transaction. You are recommended to use \u003ccode\u003e\u003ca\u003edbEnv_withTxn\u003c/a\u003e\u003c/code\u003e\n instead of this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbTxn_commit",
           "package": "BerkeleyDB",
@@ -4420,6 +4805,7 @@
         "index": {
           "description": "Commit transaction You are recommended to use dbEnv withTxn instead of this function",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbTxn_commit",
           "normalized": "[DbFlag]-\u003eDbTxn-\u003eIO()",
@@ -4436,6 +4822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the locker ID for a transaction, which can be used with \u003ccode\u003e\u003ca\u003edbEnv_withLock\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "dbTxn_id",
           "package": "BerkeleyDB",
@@ -4446,6 +4833,7 @@
         "index": {
           "description": "Get the locker ID for transaction which can be used with dbEnv withLock",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "dbTxn_id",
           "normalized": "DbTxn-\u003eIO DbLocker",
@@ -4461,6 +4849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "db_close",
           "package": "BerkeleyDB",
@@ -4470,6 +4859,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "db_close",
           "normalized": "[DbFlag]-\u003eDb-\u003eIO()",
@@ -4485,6 +4875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a database handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "db_create",
           "package": "BerkeleyDB",
@@ -4495,6 +4886,7 @@
         "index": {
           "description": "Create database handle",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "db_create",
           "normalized": "[DbFlag]-\u003eDbEnv-\u003eIO Db",
@@ -4510,6 +4902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a DbCursor.  You are recommended to use \u003ccode\u003e\u003ca\u003edb_withCursor\u003c/a\u003e\u003c/code\u003e instead of this\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "db_cursor",
           "package": "BerkeleyDB",
@@ -4520,6 +4913,7 @@
         "index": {
           "description": "Open DbCursor You are recommended to use db withCursor instead of this function",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "db_cursor",
           "normalized": "[DbFlag]-\u003eDb-\u003eMaybe DbTxn-\u003eIO DbCursor",
@@ -4534,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "db_del",
           "package": "BerkeleyDB",
@@ -4543,6 +4938,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "db_del",
           "normalized": "[DbFlag]-\u003eDb-\u003eMaybe DbTxn-\u003eByteString-\u003eIO()",
@@ -4558,6 +4954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook the key up in the database, and return Just the stored value, or Nothing\n if it was not found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "db_get",
           "package": "BerkeleyDB",
@@ -4567,6 +4964,7 @@
         "index": {
           "description": "Look the key up in the database and return Just the stored value or Nothing if it was not found",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "db_get",
           "normalized": "[DbFlag]-\u003eDb-\u003eMaybe DbTxn-\u003eByteString-\u003eIO(Maybe ByteString)",
@@ -4582,6 +4980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "db_open",
           "package": "BerkeleyDB",
@@ -4591,6 +4990,7 @@
         "index": {
           "description": "Open database",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "db_open",
           "normalized": "[DbFlag]-\u003eDbType-\u003eInt-\u003eDb-\u003eMaybe DbTxn-\u003eFilePath-\u003eMaybe String-\u003eIO()",
@@ -4606,6 +5006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore the specified value into the database under the specified key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "db_put",
           "package": "BerkeleyDB",
@@ -4615,6 +5016,7 @@
         "index": {
           "description": "Store the specified value into the database under the specified key",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "db_put",
           "normalized": "[DbFlag]-\u003eDb-\u003eMaybe DbTxn-\u003eByteString-\u003eByteString-\u003eIO()",
@@ -4629,6 +5031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "db_set_flags",
           "package": "BerkeleyDB",
@@ -4638,6 +5041,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "db_set_flags",
           "normalized": "[DbFlag]-\u003eDb-\u003eIO()",
@@ -4652,6 +5056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "db_set_pagesize",
           "package": "BerkeleyDB",
@@ -4661,6 +5066,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "db_set_pagesize",
           "normalized": "Db-\u003eInt-\u003eIO()",
@@ -4675,6 +5081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "db_sync",
           "package": "BerkeleyDB",
@@ -4684,6 +5091,7 @@
         },
         "index": {
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "db_sync",
           "normalized": "[DbFlag]-\u003eDb-\u003eIO()",
@@ -4699,6 +5107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception-safe helper that creates a cursor, passes it to an action, and\n cleans up afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:06 UTC 2014",
           "module": "Database.Berkeley.Db",
           "name": "db_withCursor",
           "package": "BerkeleyDB",
@@ -4708,6 +5117,7 @@
         "index": {
           "description": "An exception-safe helper that creates cursor passes it to an action and cleans up afterwards",
           "hierarchy": "Database Berkeley Db",
+          "indexed": "2014-03-11T16:34:06",
           "module": "Database.Berkeley.Db",
           "name": "db_withCursor",
           "normalized": "[DbFlag]-\u003eDb-\u003eMaybe DbTxn-\u003e(DbCursor-\u003eIO a)-\u003eIO a",

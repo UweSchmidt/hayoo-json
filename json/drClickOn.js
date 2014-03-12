@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "drClickOn"
+        "phrase": "drClickOn",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonadic FRP basic definitions and composition functions.\n\u003c/p\u003e\u003cp\u003eSee the paper \u003ca\u003eMonadic Functional Reactive Programming\u003c/a\u003e by Atze van der Ploeg. Haskell Symposium '13. \u003ca\u003ehttp://homepages.cwi.nl/~ploeg/papers/monfrp.pdf\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eAn example can be found at \u003ca\u003ehttps://github.com/cwi-swat/monadic-frp\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eNotice that currently Monadic FRP relies on a closed union (ADT) of basic events, which has the following downsides:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Reactive level sharing requires an explicit call to a memoization function.\n\u003c/li\u003e\u003cli\u003e Reactive level recursion is problematic.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eA function preprended with i indices a initialized signal variant of an signal computation function. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "MonadicFRP",
           "package": "drClickOn",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Monadic FRP basic definitions and composition functions See the paper Monadic Functional Reactive Programming by Atze van der Ploeg Haskell Symposium http homepages.cwi.nl ploeg papers monfrp.pdf An example can be found at https github.com cwi-swat monadic-frp Notice that currently Monadic FRP relies on closed union ADT of basic events which has the following downsides Reactive level sharing requires an explicit call to memoization function Reactive level recursion is problematic function preprended with indices initialized signal variant of an signal computation function",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "MonadicFRP",
           "package": "drClickOn",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for a set of event occurances\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "EvOccs",
           "package": "drClickOn",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An alias for set of event occurances",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "EvOccs",
           "package": "drClickOn",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for a set of event requests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "EvReqs",
           "package": "drClickOn",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An alias for set of event requests",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "EvReqs",
           "package": "drClickOn",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "Event",
           "package": "drClickOn",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "Event",
           "package": "drClickOn",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn initialized signal \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "ISig",
           "package": "drClickOn",
@@ -118,6 +127,7 @@
         "index": {
           "description": "An initialized signal",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "ISig",
           "package": "drClickOn",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reactive computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "React",
           "package": "drClickOn",
@@ -141,6 +152,7 @@
         "index": {
           "description": "reactive computation",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "React",
           "package": "drClickOn",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal computation is a reactive computation of an initialized signal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "Sig",
           "package": "drClickOn",
@@ -164,6 +177,7 @@
         "index": {
           "description": "signal computation is reactive computation of an initialized signal",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "Sig",
           "package": "drClickOn",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the values from the second signal computation to the values from the first signal computation over time. When one ends, the new state of both is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "(\u003c^\u003e)",
           "package": "drClickOn",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Apply the values from the second signal computation to the values from the first signal computation over time When one ends the new state of both is returned",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "(\u003c^\u003e) \u003c^\u003e",
           "normalized": "Sig a(b-\u003ec)d-\u003eSig a b b-\u003eSig a c(ISig a(b-\u003ec)d,ISig a b b)",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": ":|",
           "package": "drClickOn",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": ":|",
           "package": "drClickOn",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "Await",
           "package": "drClickOn",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "Await",
           "normalized": "Await(EvReqs a)(EvOccs a-\u003eReact a b)",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "Done",
           "package": "drClickOn",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "Done",
           "package": "drClickOn",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "End",
           "package": "drClickOn",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "End",
           "package": "drClickOn",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "Occurred",
           "package": "drClickOn",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "Occurred",
           "package": "drClickOn",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "Request",
           "package": "drClickOn",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "Request",
           "package": "drClickOn",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "Sig",
           "package": "drClickOn",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "Sig",
           "package": "drClickOn",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal that alway has the given form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "always",
           "package": "drClickOn",
@@ -368,6 +399,7 @@
         "index": {
           "description": "signal that alway has the given form",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "always",
           "normalized": "a-\u003eSig b a c",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample the form of the signal computation at the time the reactive computation completes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "at",
           "package": "drClickOn",
@@ -393,6 +426,7 @@
         "index": {
           "description": "Sample the form of the signal computation at the time the reactive computation completes",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "at",
           "normalized": "Sig a b a-\u003eReact a c-\u003eReact a(Maybe b)",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for both signal computation to become initialized, and then return both their initizialized signals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "bothStart",
           "package": "drClickOn",
@@ -418,6 +453,7 @@
         "index": {
           "description": "Wait for both signal computation to become initialized and then return both their initizialized signals",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "bothStart",
           "normalized": "Sig a a a-\u003eSig a a a-\u003eReact a(ISig a a a,ISig a a a)",
@@ -434,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the signal computation as long as the given predicate does not hold on the emitted values. Once a value is emmited on which the predicate holds, the rest of the signal computation is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "break",
           "package": "drClickOn",
@@ -444,6 +481,7 @@
         "index": {
           "description": "Run the signal computation as long as the given predicate does not hold on the emitted values Once value is emmited on which the predicate holds the rest of the signal computation is returned",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "break",
           "normalized": "(a-\u003eBool)-\u003eSig b a c-\u003eSig b a(ISig b a c)",
@@ -459,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCons the values from the first signal computation to the values form the latter signal computation over time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "cons",
           "package": "drClickOn",
@@ -469,6 +508,7 @@
         "index": {
           "description": "Cons the values from the first signal computation to the values form the latter signal computation over time",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "cons",
           "normalized": "ISig a b c-\u003eISig a[b]d-\u003eISig a[b]()",
@@ -484,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive the current value of a signal computation, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "cur",
           "package": "drClickOn",
@@ -494,6 +535,7 @@
         "index": {
           "description": "Give the current value of signal computation if any",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "cur",
           "normalized": "Sig a b a-\u003eMaybe b",
@@ -509,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the result of a reactive computation if it is done\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "done",
           "package": "drClickOn",
@@ -519,6 +562,7 @@
         "index": {
           "description": "Return the result of reactive computation if it is done",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "done",
           "normalized": "React a b-\u003eMaybe b",
@@ -534,6 +578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of \u003ccode\u003e\u003ca\u003edone\u003c/a\u003e\u003c/code\u003e that throws an error if it the result is not done.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "done'",
           "package": "drClickOn",
@@ -544,6 +589,7 @@
         "index": {
           "description": "Version of done that throws an error if it the result is not done",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "done'",
           "normalized": "React a b-\u003eb",
@@ -559,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit a single value in the signal computation mondad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "emit",
           "package": "drClickOn",
@@ -569,6 +616,7 @@
         "index": {
           "description": "Emit single value in the signal computation mondad",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "emit",
           "normalized": "a-\u003eSig b a()",
@@ -584,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a initialized signal to a signal computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "emitAll",
           "package": "drClickOn",
@@ -594,6 +643,7 @@
         "index": {
           "description": "Convert initialized signal to signal computation",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "emitAll",
           "normalized": "ISig a b c-\u003eSig a b c",
@@ -610,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest a single event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "exper",
           "package": "drClickOn",
@@ -620,6 +671,7 @@
         "index": {
           "description": "Request single event",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "exper",
           "normalized": "a-\u003eReact a a",
@@ -635,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the first emmited value on which the predicate hold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "find",
           "package": "drClickOn",
@@ -645,6 +698,7 @@
         "index": {
           "description": "Find the first emmited value on which the predicate hold",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "find",
           "normalized": "(a-\u003eBool)-\u003eSig b a b-\u003eReact b(Maybe a)",
@@ -660,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun two reactive computations in parallel until either completes, and return the new state of both.\n\u003c/p\u003e\u003cp\u003eNotice that \n \u003ccode\u003e\n     flip first == first\n  \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "first",
           "package": "drClickOn",
@@ -670,6 +725,7 @@
         "index": {
           "description": "Run two reactive computations in parallel until either completes and return the new state of both Notice that flip first first",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "first",
           "normalized": "React a b-\u003eReact a c-\u003eReact a(React a b,React a c)",
@@ -685,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e|foldl| on signal computations behaves the same as waiting for the signal computation to end and then applying the \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e on the list of emitted values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "foldl",
           "package": "drClickOn",
@@ -695,6 +752,7 @@
         "index": {
           "description": "foldl on signal computations behaves the same as waiting for the signal computation to end and then applying the fold on the list of emitted values",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eSig c b d-\u003eReact c a",
@@ -710,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reactive computation that never completes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "hold",
           "package": "drClickOn",
@@ -720,6 +779,7 @@
         "index": {
           "description": "The reactive computation that never completes",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "hold",
           "package": "drClickOn",
@@ -732,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "ibreak",
           "package": "drClickOn",
@@ -741,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "ibreak",
           "normalized": "(a-\u003eBool)-\u003eISig b a c-\u003eISig b a(ISig b a c)",
@@ -756,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe head of an initalized signal, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "icur",
           "package": "drClickOn",
@@ -766,6 +829,7 @@
         "index": {
           "description": "the head of an initalized signal if any",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "icur",
           "normalized": "ISig a b a-\u003eMaybe b",
@@ -780,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "ifoldl",
           "package": "drClickOn",
@@ -789,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "ifoldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eISig c b d-\u003eReact c a",
@@ -803,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "iindexBy",
           "package": "drClickOn",
@@ -812,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "iindexBy",
           "normalized": "ISig a b c-\u003eSig a d d-\u003eSig a b()",
@@ -828,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the emmited values of an initialized signal computation by applying the function to each of them. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "imap",
           "package": "drClickOn",
@@ -838,6 +907,7 @@
         "index": {
           "description": "Transform the emmited values of an initialized signal computation by applying the function to each of them",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "imap",
           "normalized": "(a-\u003eb)-\u003eISig c a d-\u003eISig c b d",
@@ -852,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "imemoSig",
           "package": "drClickOn",
@@ -861,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "imemoSig",
           "normalized": "ISig a b c-\u003eISig a b c",
@@ -877,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample the former signal computation each time the later emits a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "indexBy",
           "package": "drClickOn",
@@ -887,6 +960,7 @@
         "index": {
           "description": "Sample the former signal computation each time the later emits value",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "indexBy",
           "normalized": "Sig a b c-\u003eSig a d e-\u003eSig a b()",
@@ -903,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interpreter for reactive computations. The first argument\n is a function that answers event requests in the monad m, the second \n is the reactive computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "interpret",
           "package": "drClickOn",
@@ -913,6 +988,7 @@
         "index": {
           "description": "The interpreter for reactive computations The first argument is function that answers event requests in the monad the second is the reactive computation",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "interpret",
           "normalized": "(EvReqs a-\u003eb(EvOccs a))-\u003eReact a c-\u003eb c",
@@ -928,6 +1004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interpreter for signal computations taking three arguments:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e a function that answers event requests in the monad m\n\u003c/li\u003e\u003cli\u003e a function that processes the emitted values in the monad m\n\u003c/li\u003e\u003cli\u003e the signal computation.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "interpretSig",
           "package": "drClickOn",
@@ -938,6 +1015,7 @@
         "index": {
           "description": "The interpreter for signal computations taking three arguments function that answers event requests in the monad function that processes the emitted values in the monad the signal computation",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "interpretSig",
           "normalized": "(EvReqs a-\u003eb(EvOccs a))-\u003e(c-\u003eb d)-\u003eSig a c e-\u003eb e",
@@ -953,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "iparList",
           "package": "drClickOn",
@@ -962,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "iparList",
           "normalized": "Sig a(ISig a b c)d-\u003eISig a[b]()",
@@ -978,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the result of an initialized signal a reactive computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "ires",
           "package": "drClickOn",
@@ -988,6 +1069,7 @@
         "index": {
           "description": "Convert the result of an initialized signal reactive computation",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "ires",
           "normalized": "ISig a a b-\u003eReact a b",
@@ -1002,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "iscanl",
           "package": "drClickOn",
@@ -1011,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "iscanl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eSig c b b-\u003eISig c a b",
@@ -1025,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "iuntil",
           "package": "drClickOn",
@@ -1034,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "iuntil",
           "normalized": "ISig a b c-\u003eReact a d-\u003eISig a b(ISig a b c,React a d)",
@@ -1049,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the emmited values of a signal computation by applying the function to each of them. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "map",
           "package": "drClickOn",
@@ -1059,6 +1146,7 @@
         "index": {
           "description": "Transform the emmited values of signal computation by applying the function to each of them",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eSig c a d-\u003eSig c b d",
@@ -1074,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize the continuation function of the reactive computation, and the continuation function of all next states.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "memo",
           "package": "drClickOn",
@@ -1084,6 +1173,7 @@
         "index": {
           "description": "Memoize the continuation function of the reactive computation and the continuation function of all next states",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "memo",
           "normalized": "React a b-\u003eReact a b",
@@ -1099,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize the reactive computation of the initialized signal, and memoize the signal computation of the tail (if any).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "memoSig",
           "package": "drClickOn",
@@ -1109,6 +1200,7 @@
         "index": {
           "description": "Memoize the reactive computation of the initialized signal and memoize the signal computation of the tail if any",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "memoSig",
           "normalized": "Sig a b c-\u003eSig a b c",
@@ -1125,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted the pairs of the emitted values from both signal computations over time.  When one ends, the new state of both is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "pairs",
           "package": "drClickOn",
@@ -1135,6 +1228,7 @@
         "index": {
           "description": "Emitted the pairs of the emitted values from both signal computations over time When one ends the new state of both is returned",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "pairs",
           "normalized": "ISig a b c-\u003eISig a b b-\u003eISig a(b,b)(ISig a b c,ISig a b b)",
@@ -1150,6 +1244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the initialized signals from the given signal computation in parallel, and emit the lists of the current form of all alive initialized signals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "parList",
           "package": "drClickOn",
@@ -1160,6 +1255,7 @@
         "index": {
           "description": "Run the initialized signals from the given signal computation in parallel and emit the lists of the current form of all alive initialized signals",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "parList",
           "normalized": "Sig a(ISig a b c)d-\u003eSig a[b]()",
@@ -1176,6 +1272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "parR",
           "package": "drClickOn",
@@ -1186,6 +1283,7 @@
         "index": {
           "description": "Alias for first",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "parR",
           "normalized": "React a b-\u003eReact a c-\u003eReact a(React a b,React a c)",
@@ -1201,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat the given reactive computation indefinitely, each time emitting its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "repeat",
           "package": "drClickOn",
@@ -1211,6 +1310,7 @@
         "index": {
           "description": "Repeat the given reactive computation indefinitely each time emitting its result",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "repeat",
           "normalized": "React a b-\u003eSig a b c",
@@ -1226,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the result of a signal computation to a reactive computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "res",
           "package": "drClickOn",
@@ -1236,6 +1337,7 @@
         "index": {
           "description": "Convert the result of signal computation to reactive computation",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "res",
           "normalized": "Sig a a b-\u003eReact a b",
@@ -1251,6 +1353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list function scanl is similar to foldl, but returns a list of successive reduced values instead of a single value. \n the signal variant works analogously.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "scanl",
           "package": "drClickOn",
@@ -1261,6 +1364,7 @@
         "index": {
           "description": "The list function scanl is similar to foldl but returns list of successive reduced values instead of single value the signal variant works analogously",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "scanl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eSig c b b-\u003eSig c a b",
@@ -1276,6 +1380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat the given signal computation indefinitely, each time emitting its initialized signal result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "spawn",
           "package": "drClickOn",
@@ -1286,6 +1391,7 @@
         "index": {
           "description": "Repeat the given signal computation indefinitely each time emitting its initialized signal result",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "spawn",
           "normalized": "Sig a b b-\u003eSig a(ISig a b b)c",
@@ -1301,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the signal computation until the reactive computation completes, and return the new state of both computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "until",
           "package": "drClickOn",
@@ -1311,6 +1418,7 @@
         "index": {
           "description": "Run the signal computation until the reactive computation completes and return the new state of both computations",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "until",
           "normalized": "Sig a b c-\u003eReact a d-\u003eSig a b(Sig a b c,React a d)",
@@ -1326,6 +1434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall the continuation function of a reactive computation if it awaits at least one of the event occurences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "update",
           "package": "drClickOn",
@@ -1336,6 +1445,7 @@
         "index": {
           "description": "Call the continuation function of reactive computation if it awaits at least one of the event occurences",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "update",
           "normalized": "React a b-\u003eEvOccs a-\u003eReact a b",
@@ -1351,6 +1461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a reactive computation to a signal computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:00 UTC 2014",
           "module": "Control.MonadicFRP",
           "name": "waitFor",
           "package": "drClickOn",
@@ -1361,6 +1472,7 @@
         "index": {
           "description": "Convert reactive computation to signal computation",
           "hierarchy": "Control MonadicFRP",
+          "indexed": "2014-03-11T17:59:00",
           "module": "Control.MonadicFRP",
           "name": "waitFor",
           "normalized": "React a b-\u003eSig a c b",

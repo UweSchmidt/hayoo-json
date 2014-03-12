@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "enumset"
+        "phrase": "enumset",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtract and inject an Enum value into an EnumSet.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet.PackedEnum",
           "name": "PackedEnum",
           "package": "enumset",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Extract and inject an Enum value into an EnumSet",
           "hierarchy": "Data EnumSet PackedEnum",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet.PackedEnum",
           "name": "PackedEnum",
           "package": "enumset",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e T w a b\u003c/code\u003e describes a contiguous set of bit indices into the word type \u003ccode\u003ew\u003c/code\u003e\nwhere the indices are of type \u003ccode\u003ea\u003c/code\u003e and the set of indices represent a value of type \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet.PackedEnum",
           "name": "T",
           "package": "enumset",
@@ -51,6 +54,7 @@
         "index": {
           "description": "describes contiguous set of bit indices into the word type where the indices are of type and the set of indices represent value of type",
           "hierarchy": "Data EnumSet PackedEnum",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet.PackedEnum",
           "name": "T",
           "package": "enumset",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet.PackedEnum",
           "name": "Cons",
           "package": "enumset",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet PackedEnum",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet.PackedEnum",
           "name": "Cons",
           "package": "enumset",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear all bits at the specified indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet.PackedEnum",
           "name": "clear",
           "package": "enumset",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Clear all bits at the specified indices",
           "hierarchy": "Data EnumSet PackedEnum",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet.PackedEnum",
           "name": "clear",
           "normalized": "T a b c-\u003eT a b-\u003eT a b",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an enumeration set, where an value of type \u003ccode\u003eb\u003c/code\u003e\nis placed at the specified indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet.PackedEnum",
           "name": "pack",
           "package": "enumset",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Create an enumeration set where an value of type is placed at the specified indices",
           "hierarchy": "Data EnumSet PackedEnum",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet.PackedEnum",
           "name": "pack",
           "normalized": "T a b c-\u003ec-\u003eT a b",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverwrite an enumset at the specified indices with the value of type \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet.PackedEnum",
           "name": "put",
           "package": "enumset",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Overwrite an enumset at the specified indices with the value of type",
           "hierarchy": "Data EnumSet PackedEnum",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet.PackedEnum",
           "name": "put",
           "normalized": "T a b c-\u003ec-\u003eT a b-\u003eT a b",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract an enumeration value from the specified index set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet.PackedEnum",
           "name": "unpack",
           "package": "enumset",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Extract an enumeration value from the specified index set",
           "hierarchy": "Data EnumSet PackedEnum",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet.PackedEnum",
           "name": "unpack",
           "normalized": "T a b c-\u003eT a b-\u003ec",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimilar to Data.Edison.Coll.EnumSet\nbut it allows to choose the underlying type for bit storage.\nThis is really a low-level module for type-safe foreign function interfaces.\n\u003c/p\u003e\u003cp\u003eThe integer representation of the enumeration type\nis the bit position of the flag within the bitvector.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "EnumSet",
           "package": "enumset",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Similar to Data.Edison.Coll.EnumSet but it allows to choose the underlying type for bit storage This is really low-level module for type-safe foreign function interfaces The integer representation of the enumeration type is the bit position of the flag within the bitvector",
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "EnumSet",
           "package": "enumset",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "T",
           "package": "enumset",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "T",
           "package": "enumset",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "(.|.)",
           "package": "enumset",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "(.|.) .|.",
           "normalized": "T a b-\u003eT a b-\u003eT a b",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "(.&.)",
           "package": "enumset",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "(.&.) .&.",
           "normalized": "T a b-\u003eT a b-\u003eT a b",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "(.-.)",
           "package": "enumset",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "(.-.) .-.",
           "normalized": "T a b-\u003eT a b-\u003eT a b",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "Cons",
           "package": "enumset",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "Cons",
           "package": "enumset",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "accessor",
           "package": "enumset",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "accessor",
           "normalized": "a-\u003eT(T b a)Bool",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecould also be named \u003ccode\u003edelete\u003c/code\u003e like in \u003ccode\u003eSet\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "clear",
           "package": "enumset",
@@ -353,6 +382,7 @@
         "index": {
           "description": "could also be named delete like in Set",
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "clear",
           "normalized": "a-\u003eT b a-\u003eT b a",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "decons",
           "package": "enumset",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "decons",
           "package": "enumset",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "disjoint",
           "package": "enumset",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "disjoint",
           "normalized": "T a b-\u003eT a b-\u003eBool",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "empty",
           "package": "enumset",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "empty",
           "package": "enumset",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "flip",
           "package": "enumset",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "flip",
           "normalized": "a-\u003eT b a-\u003eT b a",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "fromBool",
           "package": "enumset",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "fromBool",
           "normalized": "a-\u003eBool-\u003eT b a",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "fromEnum",
           "package": "enumset",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "fromEnum",
           "normalized": "a-\u003eT b a",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "fromEnums",
           "package": "enumset",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "fromEnums",
           "normalized": "[a]-\u003eT b a",
@@ -528,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecould also be named \u003ccode\u003emember\u003c/code\u003e like in \u003ccode\u003eSet\u003c/code\u003e or \u003ccode\u003eelem\u003c/code\u003e as in '[]'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "get",
           "package": "enumset",
@@ -538,6 +583,7 @@
         "index": {
           "description": "could also be named member like in Set or elem as in",
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "get",
           "normalized": "a-\u003eT b a-\u003eBool",
@@ -552,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "intToEnums",
           "package": "enumset",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "intToEnums",
           "normalized": "T a b-\u003e[b]",
@@ -577,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efloor of binary logarithm -\nIntended for getting the position of a single set bit.\nThis in turn is intended for implementing an \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e instance\nif you only know masks but no bit positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "mostSignificantPosition",
           "package": "enumset",
@@ -587,6 +636,7 @@
         "index": {
           "description": "floor of binary logarithm Intended for getting the position of single set bit This in turn is intended for implementing an Enum instance if you only know masks but no bit positions",
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "mostSignificantPosition",
           "normalized": "T a b-\u003eInt",
@@ -602,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "null",
           "package": "enumset",
@@ -611,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "null",
           "normalized": "T a b-\u003eBool",
@@ -625,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "put",
           "package": "enumset",
@@ -634,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "put",
           "normalized": "a-\u003eBool-\u003eT b a-\u003eT b a",
@@ -649,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecould also be named \u003ccode\u003einsert\u003c/code\u003e like in \u003ccode\u003eSet\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "set",
           "package": "enumset",
@@ -659,6 +714,7 @@
         "index": {
           "description": "could also be named insert like in Set",
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "set",
           "normalized": "a-\u003eT b a-\u003eT b a",
@@ -673,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "singleton",
           "package": "enumset",
@@ -682,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "singleton",
           "normalized": "a-\u003eT b a",
@@ -697,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset a bit -\nIntended for implementing an \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e instance\nif you only know masks but no bit positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "singletonByPosition",
           "package": "enumset",
@@ -707,6 +766,7 @@
         "index": {
           "description": "set bit Intended for implementing an Enum instance if you only know masks but no bit positions",
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "singletonByPosition",
           "normalized": "Int-\u003eT a b",
@@ -723,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esubset a b\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003ea\u003c/code\u003e is a subset of \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "subset",
           "package": "enumset",
@@ -733,6 +794,7 @@
         "index": {
           "description": "subset is True if is subset of",
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "subset",
           "normalized": "T a b-\u003eT a b-\u003eBool",
@@ -747,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "toEnums",
           "package": "enumset",
@@ -756,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "toEnums",
           "normalized": "T a b-\u003e[b]",
@@ -771,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "unions",
           "package": "enumset",
@@ -780,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "unions",
           "normalized": "[T a b]-\u003eT a b",
@@ -794,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.EnumSet",
           "name": "xor",
           "package": "enumset",
@@ -803,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Data EnumSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.EnumSet",
           "name": "xor",
           "normalized": "T a b-\u003eT a b-\u003eT a b",
@@ -817,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet.PackedRecord",
           "name": "PackedRecord",
           "package": "enumset",
@@ -825,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet PackedRecord",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet.PackedRecord",
           "name": "PackedRecord",
           "package": "enumset",
@@ -838,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet.PackedRecord",
           "name": "accessorIntByMask",
           "package": "enumset",
@@ -847,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet PackedRecord",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet.PackedRecord",
           "name": "accessorIntByMask",
           "normalized": "Mask a b c-\u003eT(T a b)d",
@@ -862,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet.PackedRecord",
           "name": "accessorIntByRange",
           "package": "enumset",
@@ -871,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet PackedRecord",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet.PackedRecord",
           "name": "accessorIntByRange",
           "normalized": "Int-\u003eInt-\u003eT(T a b)c",
@@ -886,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet.PackedRecord",
           "name": "getIntByMask",
           "package": "enumset",
@@ -895,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet PackedRecord",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet.PackedRecord",
           "name": "getIntByMask",
           "normalized": "Mask a b c-\u003eT a b-\u003ed",
@@ -910,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet.PackedRecord",
           "name": "getIntByRange",
           "package": "enumset",
@@ -919,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet PackedRecord",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet.PackedRecord",
           "name": "getIntByRange",
           "normalized": "Int-\u003eInt-\u003eT a b-\u003ec",
@@ -934,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet.PackedRecord",
           "name": "putIntByMask",
           "package": "enumset",
@@ -943,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet PackedRecord",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet.PackedRecord",
           "name": "putIntByMask",
           "normalized": "Mask a b c-\u003ed-\u003eT a b-\u003eT a b",
@@ -958,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet.PackedRecord",
           "name": "putIntByRange",
           "package": "enumset",
@@ -967,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet PackedRecord",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet.PackedRecord",
           "name": "putIntByRange",
           "normalized": "Int-\u003eInt-\u003ea-\u003eT b c-\u003eT b c",
@@ -983,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA bit vector that represents a record in a bit-packed way.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "FlagSet",
           "package": "enumset",
@@ -992,6 +1075,7 @@
         "index": {
           "description": "bit vector that represents record in bit-packed way",
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "FlagSet",
           "package": "enumset",
@@ -1005,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "Enum",
           "package": "enumset",
@@ -1013,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "Enum",
           "package": "enumset",
@@ -1027,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eMask w a b\u003c/code\u003e describes a field of a \u003ccode\u003eT w a\u003c/code\u003e that has type \u003ccode\u003eValue w b\u003c/code\u003e.\nOn the machine level a \u003ccode\u003e\u003ca\u003eMask\u003c/a\u003e\u003c/code\u003e value is a vector of bits,\nwhere set bits represent the bits belonging to one record field.\nThere must be only one mask value for every pair of types \u003ccode\u003e(a,b)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "Mask",
           "package": "enumset",
@@ -1036,6 +1123,7 @@
         "index": {
           "description": "Mask describes field of that has type Value On the machine level Mask value is vector of bits where set bits represent the bits belonging to one record field There must be only one mask value for every pair of types",
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "Mask",
           "package": "enumset",
@@ -1050,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines a mask with a value, that matches this mask.\nIn \u003ccode\u003eMaskedValue mask value\u003c/code\u003e, \u003ccode\u003evalue\u003c/code\u003e must be a subset of \u003ccode\u003emask\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "MaskedValue",
           "package": "enumset",
@@ -1059,6 +1148,7 @@
         "index": {
           "description": "Combines mask with value that matches this mask In MaskedValue mask value value must be subset of mask",
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "MaskedValue",
           "package": "enumset",
@@ -1073,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic bit vector data type.\nIt does not provide a lot of functionality,\nsince that could not be done in a safe way.\n\u003c/p\u003e\u003cp\u003eThe type \u003ccode\u003ea\u003c/code\u003e identifies the maintained flags.\nIt may be an empty type\nbut it may also be an enumeration\nof record fields with concrete values.\nIn the latter case you are encouraged to define an \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e instance\nfor this enumeration.\nBe aware that it is different from \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e of Prelude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "T",
           "package": "enumset",
@@ -1082,6 +1173,7 @@
         "index": {
           "description": "The basic bit vector data type It does not provide lot of functionality since that could not be done in safe way The type identifies the maintained flags It may be an empty type but it may also be an enumeration of record fields with concrete values In the latter case you are encouraged to define an Enum instance for this enumeration Be aware that it is different from Enum of Prelude",
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "T",
           "package": "enumset",
@@ -1095,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type parameter \u003ccode\u003ew\u003c/code\u003e is the type of the underlying bit vector.\nThe type parameter \u003ccode\u003eb\u003c/code\u003e is a phantom type,\nthat is specific for a certain range of bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "Value",
           "package": "enumset",
@@ -1104,6 +1197,7 @@
         "index": {
           "description": "The type parameter is the type of the underlying bit vector The type parameter is phantom type that is specific for certain range of bits",
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "Value",
           "package": "enumset",
@@ -1117,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "Cons",
           "package": "enumset",
@@ -1126,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "Cons",
           "package": "enumset",
@@ -1139,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "Mask",
           "package": "enumset",
@@ -1148,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "Mask",
           "package": "enumset",
@@ -1161,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "MaskedValue",
           "package": "enumset",
@@ -1170,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "MaskedValue",
           "package": "enumset",
@@ -1183,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "Value",
           "package": "enumset",
@@ -1192,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "Value",
           "package": "enumset",
@@ -1205,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "accessor",
           "package": "enumset",
@@ -1214,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "accessor",
           "normalized": "Mask a b c-\u003eT(T a b)(Value a c)",
@@ -1229,6 +1333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a flag set from a list of flags.\nHowever you may prefer to assemble flags\nusing \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e on \u003ccode\u003e\u003ca\u003eMaskedValue\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "compose",
           "package": "enumset",
@@ -1239,6 +1344,7 @@
         "index": {
           "description": "Compose flag set from list of flags However you may prefer to assemble flags using mconcat or mappend on MaskedValue",
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "compose",
           "normalized": "[a]-\u003eT b a",
@@ -1254,6 +1360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a flag set into flags.\nThe flags are generated using the \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e instance.\nWe do not recommend to use the result list for further processing,\nsince testing of flags is much faster using \u003ccode\u003e\u003ca\u003ematch\u003c/a\u003e\u003c/code\u003e.\nHowever you may find it useful to \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "decompose",
           "package": "enumset",
@@ -1264,6 +1371,7 @@
         "index": {
           "description": "Decompose flag set into flags The flags are generated using the Bounded and Enum instance We do not recommend to use the result list for further processing since testing of flags is much faster using match However you may find it useful to show the list",
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "decompose",
           "normalized": "T a b-\u003e[b]",
@@ -1278,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "decons",
           "package": "enumset",
@@ -1287,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "decons",
           "package": "enumset",
@@ -1300,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e should return an integer\n   that represents the position of the \u003ccode\u003ea\u003c/code\u003e value\n   in the list of all enumeration items.\n   In contrast to that,\n   \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e must return the according bit pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "fromEnum",
           "package": "enumset",
@@ -1310,6 +1421,7 @@
         "index": {
           "description": "fromEnum should return an integer that represents the position of the value in the list of all enumeration items In contrast to that fromEnum must return the according bit pattern",
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "fromEnum",
           "normalized": "a-\u003eMaskedValue b a",
@@ -1325,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "fromMaskedValue",
           "package": "enumset",
@@ -1334,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "fromMaskedValue",
           "normalized": "MaskedValue a b-\u003eT a b",
@@ -1349,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "get",
           "package": "enumset",
@@ -1358,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "get",
           "normalized": "Mask a b c-\u003eT a b-\u003eValue a c",
@@ -1372,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "maskValue",
           "package": "enumset",
@@ -1381,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "maskValue",
           "normalized": "Mask a b c-\u003eValue a c-\u003eMaskedValue a b",
@@ -1396,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "match",
           "package": "enumset",
@@ -1405,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "match",
           "normalized": "T a b-\u003eMaskedValue a b-\u003eBool",
@@ -1420,6 +1540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll bits in Value must be contained in the mask.\nThis condition is not checked by \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAccording to names in \u003ca\u003eData.Accessor\u003c/a\u003e it should be called \u003ccode\u003eset\u003c/code\u003e,\nbut in \u003ca\u003eData.Bits\u003c/a\u003e and thus \u003ca\u003eData.EnumSet\u003c/a\u003e\nthis is already used in the pair \u003ccode\u003eset\u003c/code\u003e/\u003ccode\u003eclear\u003c/code\u003e.\n\u003ccode\u003eput\u003c/code\u003e/\u003ccode\u003eget\u003c/code\u003e resembles the pair in \u003ca\u003eControl.Monad.State\u003c/a\u003e in the \u003ccode\u003emtl\u003c/code\u003e package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "put",
           "package": "enumset",
@@ -1430,6 +1551,7 @@
         "index": {
           "description": "All bits in Value must be contained in the mask This condition is not checked by put According to names in Data.Accessor it should be called set but in Data.Bits and thus Data.EnumSet this is already used in the pair set clear put get resembles the pair in Control.Monad.State in the mtl package",
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "put",
           "normalized": "Mask a b c-\u003eValue a c-\u003eT a b-\u003eT a b",
@@ -1444,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "unmask",
           "package": "enumset",
@@ -1453,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "unmask",
           "package": "enumset",
@@ -1465,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:03 UTC 2014",
           "module": "Data.FlagSet",
           "name": "unvalue",
           "package": "enumset",
@@ -1474,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Data FlagSet",
+          "indexed": "2014-03-11T18:03:03",
           "module": "Data.FlagSet",
           "name": "unvalue",
           "package": "enumset",

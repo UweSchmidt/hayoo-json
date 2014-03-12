@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "derangement"
+        "phrase": "derangement",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "Returns a derangement of a multiset or of a maximal fixed-point free subset represented here as (a,b) where a is paired with b\n",
+          "indexed": "Tue Mar 11 17:53:14 UTC 2014",
           "module": "Data.List.Derangement",
           "name": "3Aderangement",
           "package": "derangement",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Returns derangement of multiset or of maximal fixed-point free subset represented here as where is paired with",
           "hierarchy": "Data List Derangement",
+          "indexed": "2014-03-11T17:53:14",
           "module": "Data.List.Derangement",
           "name": "3Aderangement",
           "normalized": "[a]-\u003e[a]",
@@ -44,6 +46,7 @@
       "document": {
         "description": {
           "description": "Like derangement this returns a zipped derangement but applies \u003ctt\u003ef :: (a -\u003e b)\u003c/tt\u003e before doing equality tests.\n",
+          "indexed": "Tue Mar 11 17:53:14 UTC 2014",
           "module": "Data.List.Derangement",
           "name": "3AderangementBy",
           "package": "derangement",
@@ -53,6 +56,7 @@
         "index": {
           "description": "Like derangement this returns zipped derangement but applies before doing equality tests",
           "hierarchy": "Data List Derangement",
+          "indexed": "2014-03-11T17:53:14",
           "module": "Data.List.Derangement",
           "name": "3AderangementBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -69,6 +73,7 @@
       "document": {
         "description": {
           "description": "Like derangement but applies \u003ctt\u003ef :: (Eq b) =\u003e (a -\u003e b)\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 17:53:14 UTC 2014",
           "module": "Data.List.Derangement",
           "name": "3AderangementWRT",
           "package": "derangement",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Like derangement but applies Eq",
           "hierarchy": "Data List Derangement",
+          "indexed": "2014-03-11T17:53:14",
           "module": "Data.List.Derangement",
           "name": "3AderangementWRT",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[a]",

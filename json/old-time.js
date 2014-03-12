@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "old-time"
+        "phrase": "old-time",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe standard time library from Haskell 98.  This library is\n deprecated, please look at \u003ccode\u003eData.Time\u003c/code\u003e in the \u003ccode\u003etime\u003c/code\u003e package\n instead.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eSystem.Time\u003c/a\u003e provides functionality for clock times, including\n timezone information (i.e, the functionality of \"\u003ccode\u003etime.h\u003c/code\u003e\",\n adapted to the Haskell environment).  It follows RFC 1129 in its\n use of Coordinated Universal Time (UTC).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "Time",
           "package": "old-time",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The standard time library from Haskell This library is deprecated please look at Data.Time in the time package instead System.Time provides functionality for clock times including timezone information i.e the functionality of time.h adapted to the Haskell environment It follows RFC in its use of Coordinated Universal Time UTC",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "Time",
           "package": "old-time",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e is a user-readable and manipulable\n representation of the internal \u003ccode\u003e\u003ca\u003eClockTime\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "CalendarTime",
           "package": "old-time",
@@ -51,6 +54,7 @@
         "index": {
           "description": "CalendarTime is user-readable and manipulable representation of the internal ClockTime type",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "CalendarTime",
           "package": "old-time",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation of the internal clock time.\n Clock times may be compared, converted to strings, or converted to an\n external calendar time \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e for I/O or other manipulations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "ClockTime",
           "package": "old-time",
@@ -74,6 +79,7 @@
         "index": {
           "description": "representation of the internal clock time Clock times may be compared converted to strings or converted to an external calendar time CalendarTime for or other manipulations",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "ClockTime",
           "package": "old-time",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA day of the week.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "Day",
           "package": "old-time",
@@ -97,6 +104,7 @@
         "index": {
           "description": "day of the week",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "Day",
           "package": "old-time",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA month of the year.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "Month",
           "package": "old-time",
@@ -120,6 +129,7 @@
         "index": {
           "description": "month of the year",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "Month",
           "package": "old-time",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecords the difference between two clock times in a user-readable way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "TimeDiff",
           "package": "old-time",
@@ -143,6 +154,7 @@
         "index": {
           "description": "records the difference between two clock times in user-readable way",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "TimeDiff",
           "package": "old-time",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "April",
           "package": "old-time",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "April",
           "package": "old-time",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "August",
           "package": "old-time",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "August",
           "package": "old-time",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "CalendarTime",
           "package": "old-time",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "CalendarTime",
           "package": "old-time",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "December",
           "package": "old-time",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "December",
           "package": "old-time",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "February",
           "package": "old-time",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "February",
           "package": "old-time",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "Friday",
           "package": "old-time",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "Friday",
           "package": "old-time",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "January",
           "package": "old-time",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "January",
           "package": "old-time",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "July",
           "package": "old-time",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "July",
           "package": "old-time",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "June",
           "package": "old-time",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "June",
           "package": "old-time",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "March",
           "package": "old-time",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "March",
           "package": "old-time",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "May",
           "package": "old-time",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "May",
           "package": "old-time",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "Monday",
           "package": "old-time",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "Monday",
           "package": "old-time",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "November",
           "package": "old-time",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "November",
           "package": "old-time",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "October",
           "package": "old-time",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "October",
           "package": "old-time",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "Saturday",
           "package": "old-time",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "Saturday",
           "package": "old-time",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "September",
           "package": "old-time",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "September",
           "package": "old-time",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "Sunday",
           "package": "old-time",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "Sunday",
           "package": "old-time",
@@ -531,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a clock time.  The arguments are a number\n of seconds since 00:00:00 (UTC) on 1 January 1970,\n and an additional number of picoseconds.\n\u003c/p\u003e\u003cp\u003eIn Haskell 98, the \u003ccode\u003e\u003ca\u003eClockTime\u003c/a\u003e\u003c/code\u003e type is abstract.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "TOD",
           "package": "old-time",
@@ -541,6 +588,7 @@
         "index": {
           "description": "Construct clock time The arguments are number of seconds since UTC on January and an additional number of picoseconds In Haskell the ClockTime type is abstract",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "TOD",
           "package": "old-time",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "Thursday",
           "package": "old-time",
@@ -563,6 +612,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "Thursday",
           "package": "old-time",
@@ -576,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "TimeDiff",
           "package": "old-time",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "TimeDiff",
           "package": "old-time",
@@ -598,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "Tuesday",
           "package": "old-time",
@@ -607,6 +660,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "Tuesday",
           "package": "old-time",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "Wednesday",
           "package": "old-time",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "Wednesday",
           "package": "old-time",
@@ -643,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eaddToClockTime\u003c/a\u003e\u003c/code\u003e d t\u003c/code\u003e adds a time difference \u003ccode\u003ed\u003c/code\u003e and a\n clock time \u003ccode\u003et\u003c/code\u003e to yield a new clock time.  The difference \u003ccode\u003ed\u003c/code\u003e\n may be either positive or negative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "addToClockTime",
           "package": "old-time",
@@ -653,6 +710,7 @@
         "index": {
           "description": "addToClockTime adds time difference and clock time to yield new clock time The difference may be either positive or negative",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "addToClockTime",
           "normalized": "TimeDiff-\u003eClockTime-\u003eClockTime",
@@ -669,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformats calendar times using local conventions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "calendarTimeToString",
           "package": "old-time",
@@ -679,6 +738,7 @@
         "index": {
           "description": "formats calendar times using local conventions",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "calendarTimeToString",
           "normalized": "CalendarTime-\u003eString",
@@ -695,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of the month (1 to 31)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "ctDay",
           "package": "old-time",
@@ -705,6 +766,7 @@
         "index": {
           "description": "Day of the month to",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "ctDay",
           "package": "old-time",
@@ -719,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHour of the day (0 to 23)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "ctHour",
           "package": "old-time",
@@ -729,6 +792,7 @@
         "index": {
           "description": "Hour of the day to",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "ctHour",
           "package": "old-time",
@@ -743,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if Daylight Savings Time would\n be in effect, and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "ctIsDST",
           "package": "old-time",
@@ -753,6 +818,7 @@
         "index": {
           "description": "True if Daylight Savings Time would be in effect and False otherwise",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "ctIsDST",
           "package": "old-time",
@@ -767,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinutes (0 to 59)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "ctMin",
           "package": "old-time",
@@ -777,6 +844,7 @@
         "index": {
           "description": "Minutes to",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "ctMin",
           "package": "old-time",
@@ -791,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonth of the year\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "ctMonth",
           "package": "old-time",
@@ -801,6 +870,7 @@
         "index": {
           "description": "Month of the year",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "ctMonth",
           "package": "old-time",
@@ -815,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePicoseconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "ctPicosec",
           "package": "old-time",
@@ -825,6 +896,7 @@
         "index": {
           "description": "Picoseconds",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "ctPicosec",
           "package": "old-time",
@@ -839,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeconds (0 to 61, allowing for up to\n two leap seconds)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "ctSec",
           "package": "old-time",
@@ -849,6 +922,7 @@
         "index": {
           "description": "Seconds to allowing for up to two leap seconds",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "ctSec",
           "package": "old-time",
@@ -863,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariation from UTC in seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "ctTZ",
           "package": "old-time",
@@ -873,6 +948,7 @@
         "index": {
           "description": "Variation from UTC in seconds",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "ctTZ",
           "package": "old-time",
@@ -887,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the time zone\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "ctTZName",
           "package": "old-time",
@@ -897,6 +974,7 @@
         "index": {
           "description": "Name of the time zone",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "ctTZName",
           "package": "old-time",
@@ -911,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of the week\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "ctWDay",
           "package": "old-time",
@@ -921,6 +1000,7 @@
         "index": {
           "description": "Day of the week",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "ctWDay",
           "package": "old-time",
@@ -935,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of the year\n (0 to 364, or 365 in leap years)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "ctYDay",
           "package": "old-time",
@@ -945,6 +1026,7 @@
         "index": {
           "description": "Day of the year to or in leap years",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "ctYDay",
           "package": "old-time",
@@ -959,6 +1041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYear (pre-Gregorian dates are inaccurate)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "ctYear",
           "package": "old-time",
@@ -969,6 +1052,7 @@
         "index": {
           "description": "Year pre-Gregorian dates are inaccurate",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "ctYear",
           "package": "old-time",
@@ -983,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ediffClockTimes\u003c/a\u003e\u003c/code\u003e t1 t2\u003c/code\u003e returns the difference between two clock\n times \u003ccode\u003et1\u003c/code\u003e and \u003ccode\u003et2\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eTimeDiff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "diffClockTimes",
           "package": "old-time",
@@ -993,6 +1078,7 @@
         "index": {
           "description": "diffClockTimes t1 t2 returns the difference between two clock times t1 and t2 as TimeDiff",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "diffClockTimes",
           "normalized": "ClockTime-\u003eClockTime-\u003eTimeDiff",
@@ -1009,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformats calendar times using local conventions and a formatting string.\n The formatting string is that understood by the ISO C \u003ccode\u003estrftime()\u003c/code\u003e\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "formatCalendarTime",
           "package": "old-time",
@@ -1019,6 +1106,7 @@
         "index": {
           "description": "formats calendar times using local conventions and formatting string The formatting string is that understood by the ISO strftime function",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "formatCalendarTime",
           "normalized": "TimeLocale-\u003eString-\u003eCalendarTime-\u003eString",
@@ -1035,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformats time differences using local conventions and a formatting string.\n The formatting string is that understood by the ISO C \u003ccode\u003estrftime()\u003c/code\u003e\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "formatTimeDiff",
           "package": "old-time",
@@ -1045,6 +1134,7 @@
         "index": {
           "description": "formats time differences using local conventions and formatting string The formatting string is that understood by the ISO strftime function",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "formatTimeDiff",
           "normalized": "TimeLocale-\u003eString-\u003eTimeDiff-\u003eString",
@@ -1060,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "getClockTime",
           "package": "old-time",
@@ -1069,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "getClockTime",
           "package": "old-time",
@@ -1083,6 +1175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enull time difference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "noTimeDiff",
           "package": "old-time",
@@ -1093,6 +1186,7 @@
         "index": {
           "description": "null time difference",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "noTimeDiff",
           "package": "old-time",
@@ -1107,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts a time difference to normal form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "normalizeTimeDiff",
           "package": "old-time",
@@ -1117,6 +1212,7 @@
         "index": {
           "description": "converts time difference to normal form",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "normalizeTimeDiff",
           "normalized": "TimeDiff-\u003eTimeDiff",
@@ -1132,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "tdDay",
           "package": "old-time",
@@ -1141,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "tdDay",
           "package": "old-time",
@@ -1154,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "tdHour",
           "package": "old-time",
@@ -1163,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "tdHour",
           "package": "old-time",
@@ -1176,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "tdMin",
           "package": "old-time",
@@ -1185,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "tdMin",
           "package": "old-time",
@@ -1198,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "tdMonth",
           "package": "old-time",
@@ -1207,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "tdMonth",
           "package": "old-time",
@@ -1220,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "tdPicosec",
           "package": "old-time",
@@ -1229,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "tdPicosec",
           "package": "old-time",
@@ -1242,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "tdSec",
           "package": "old-time",
@@ -1251,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "tdSec",
           "package": "old-time",
@@ -1264,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "tdYear",
           "package": "old-time",
@@ -1273,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "tdYear",
           "package": "old-time",
@@ -1287,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformats time differences using local conventions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "timeDiffToString",
           "package": "old-time",
@@ -1297,6 +1408,7 @@
         "index": {
           "description": "formats time differences using local conventions",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "timeDiffToString",
           "normalized": "TimeDiff-\u003eString",
@@ -1313,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts an internal clock time to a local time, modified by the\n timezone and daylight savings time settings in force at the time\n of conversion.  Because of this dependence on the local environment,\n \u003ccode\u003e\u003ca\u003etoCalendarTime\u003c/a\u003e\u003c/code\u003e is in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "toCalendarTime",
           "package": "old-time",
@@ -1323,6 +1436,7 @@
         "index": {
           "description": "converts an internal clock time to local time modified by the timezone and daylight savings time settings in force at the time of conversion Because of this dependence on the local environment toCalendarTime is in the IO monad",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "toCalendarTime",
           "normalized": "ClockTime-\u003eIO CalendarTime",
@@ -1339,6 +1453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts a \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e into the corresponding internal\n \u003ccode\u003e\u003ca\u003eClockTime\u003c/a\u003e\u003c/code\u003e, ignoring the contents of the  \u003ccode\u003e\u003ca\u003ectWDay\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ectYDay\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003ectTZName\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ectIsDST\u003c/a\u003e\u003c/code\u003e fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "toClockTime",
           "package": "old-time",
@@ -1349,6 +1464,7 @@
         "index": {
           "description": "converts CalendarTime into the corresponding internal ClockTime ignoring the contents of the ctWDay ctYDay ctTZName and ctIsDST fields",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "toClockTime",
           "normalized": "CalendarTime-\u003eClockTime",
@@ -1365,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts an internal clock time into a \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e in standard\n UTC format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:30 UTC 2014",
           "module": "System.Time",
           "name": "toUTCTime",
           "package": "old-time",
@@ -1375,6 +1492,7 @@
         "index": {
           "description": "converts an internal clock time into CalendarTime in standard UTC format",
           "hierarchy": "System Time",
+          "indexed": "2014-03-11T19:31:30",
           "module": "System.Time",
           "name": "toUTCTime",
           "normalized": "ClockTime-\u003eCalendarTime",

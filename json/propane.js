@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "propane"
+        "phrase": "propane",
+        "type": "phrase"
       },
       "type": "context"
     }

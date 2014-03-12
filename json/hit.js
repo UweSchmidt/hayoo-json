@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hit"
+        "phrase": "hit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Delta",
           "name": "Delta",
           "package": "hit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Git Delta",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Delta",
           "name": "Delta",
           "package": "hit",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea delta is a source size, a destination size and a list of delta cmd\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Delta",
           "name": "Delta",
           "package": "hit",
@@ -49,6 +52,7 @@
         "index": {
           "description": "delta is source size destination size and list of delta cmd",
           "hierarchy": "Data Git Delta",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Delta",
           "name": "Delta",
           "package": "hit",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epossible commands in a delta\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Delta",
           "name": "DeltaCmd",
           "package": "hit",
@@ -72,6 +77,7 @@
         "index": {
           "description": "possible commands in delta",
           "hierarchy": "Data Git Delta",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Delta",
           "name": "DeltaCmd",
           "package": "hit",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Delta",
           "name": "Delta",
           "package": "hit",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Git Delta",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Delta",
           "name": "Delta",
           "normalized": "Delta Word Word[DeltaCmd]",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Delta",
           "name": "DeltaCopy",
           "package": "hit",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data Git Delta",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Delta",
           "name": "DeltaCopy",
           "package": "hit",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Delta",
           "name": "DeltaSrc",
           "package": "hit",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Git Delta",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Delta",
           "name": "DeltaSrc",
           "package": "hit",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapply a delta on a lazy bytestring, returning a new bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Delta",
           "name": "deltaApply",
           "package": "hit",
@@ -164,6 +177,7 @@
         "index": {
           "description": "apply delta on lazy bytestring returning new bytestring",
           "hierarchy": "Data Git Delta",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Delta",
           "name": "deltaApply",
           "normalized": "ByteString-\u003eDelta-\u003eByteString",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a delta.\n format is 2 variable sizes, followed by delta cmds. for each cmd:\n * if first byte MSB is set, we copy from source.\n * otherwise, we copy from delta.\n * extensions are not handled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Delta",
           "name": "deltaParse",
           "package": "hit",
@@ -190,6 +205,7 @@
         "index": {
           "description": "parse delta format is variable sizes followed by delta cmds for each cmd if first byte MSB is set we copy from source otherwise we copy from delta extensions are not handled",
           "hierarchy": "Data Git Delta",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Delta",
           "name": "deltaParse",
           "package": "hit",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread one delta from a lazy bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Delta",
           "name": "deltaRead",
           "package": "hit",
@@ -214,6 +231,7 @@
         "index": {
           "description": "read one delta from lazy bytestring",
           "hierarchy": "Data Git Delta",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Delta",
           "name": "deltaRead",
           "normalized": "ByteString-\u003eMaybe Delta",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic Git diff methods.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "Diff",
           "package": "hit",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Basic Git diff methods",
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "Diff",
           "package": "hit",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresents a blob's content (i.e., the content of a file at a given\n reference).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "BlobContent",
           "package": "hit",
@@ -262,6 +283,7 @@
         "index": {
           "description": "represents blob content i.e the content of file at given reference",
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "BlobContent",
           "package": "hit",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a blob description at a given state (revision)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "BlobState",
           "package": "hit",
@@ -285,6 +308,7 @@
         "index": {
           "description": "This is blob description at given state revision",
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "BlobState",
           "package": "hit",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a file state between two revisions\n A file (a blob) can be present in the first Tree's revision but not in the\n second one, then it has been deleted. If only in the second Tree's revision,\n then it has been created. If it is in the both, maybe it has been changed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "BlobStateDiff",
           "package": "hit",
@@ -308,6 +333,7 @@
         "index": {
           "description": "Represents file state between two revisions file blob can be present in the first Tree revision but not in the second one then it has been deleted If only in the second Tree revision then it has been created If it is in the both maybe it has been changed",
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "BlobStateDiff",
           "package": "hit",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "FilteredDiff",
           "package": "hit",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "FilteredDiff",
           "package": "hit",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a proposed diff records for a given file.\n It contains useful information:\n   * the filename (with its path in the root project)\n   * a file diff (with the Data.Algorythm.Patience method)\n   * the file's mode (i.e. the file priviledge)\n   * the file's ref\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "HitDiff",
           "package": "hit",
@@ -352,6 +381,7 @@
         "index": {
           "description": "This is proposed diff records for given file It contains useful information the filename with its path in the root project file diff with the Data.Algorythm.Patience method the file mode i.e the file priviledge the file ref",
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "HitDiff",
           "package": "hit",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "HitFileContent",
           "package": "hit",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "HitFileContent",
           "package": "hit",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "HitFileMode",
           "package": "hit",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "HitFileMode",
           "package": "hit",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "HitFileRef",
           "package": "hit",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "HitFileRef",
           "package": "hit",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "TextLine",
           "package": "hit",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "TextLine",
           "package": "hit",
@@ -450,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "BinaryContent",
           "package": "hit",
@@ -460,6 +499,7 @@
         "index": {
           "description": "Binary content",
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "BinaryContent",
           "package": "hit",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "BlobState",
           "package": "hit",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "BlobState",
           "package": "hit",
@@ -496,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText file's lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "FileContent",
           "package": "hit",
@@ -506,6 +549,7 @@
         "index": {
           "description": "Text file lines",
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "FileContent",
           "normalized": "FileContent[ByteString]",
@@ -521,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "HitDiff",
           "package": "hit",
@@ -530,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "HitDiff",
           "package": "hit",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "ModifiedBinaryFile",
           "package": "hit",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "ModifiedBinaryFile",
           "package": "hit",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "ModifiedFile",
           "package": "hit",
@@ -574,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "ModifiedFile",
           "normalized": "ModifiedFile[FilteredDiff]",
@@ -589,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "ModifiedMode",
           "package": "hit",
@@ -598,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "ModifiedMode",
           "package": "hit",
@@ -611,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "ModifiedRef",
           "package": "hit",
@@ -620,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "ModifiedRef",
           "package": "hit",
@@ -633,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "NewBinaryFile",
           "package": "hit",
@@ -642,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "NewBinaryFile",
           "package": "hit",
@@ -655,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "NewMode",
           "package": "hit",
@@ -664,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "NewMode",
           "package": "hit",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "NewRef",
           "package": "hit",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "NewRef",
           "package": "hit",
@@ -699,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "NewTextFile",
           "package": "hit",
@@ -708,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "NewTextFile",
           "normalized": "NewTextFile[TextLine]",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "NormalLine",
           "package": "hit",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "NormalLine",
           "package": "hit",
@@ -745,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "OldAndNew",
           "package": "hit",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "OldAndNew",
           "package": "hit",
@@ -767,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "OldBinaryFile",
           "package": "hit",
@@ -776,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "OldBinaryFile",
           "package": "hit",
@@ -789,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "OldMode",
           "package": "hit",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "OldMode",
           "package": "hit",
@@ -811,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "OldRef",
           "package": "hit",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "OldRef",
           "package": "hit",
@@ -833,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "OldTextFile",
           "package": "hit",
@@ -842,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "OldTextFile",
           "normalized": "OldTextFile[TextLine]",
@@ -857,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "OnlyNew",
           "package": "hit",
@@ -866,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "OnlyNew",
           "package": "hit",
@@ -879,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "OnlyOld",
           "package": "hit",
@@ -888,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "OnlyOld",
           "package": "hit",
@@ -901,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "Separator",
           "package": "hit",
@@ -910,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "Separator",
           "package": "hit",
@@ -923,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "TextLine",
           "package": "hit",
@@ -932,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "TextLine",
           "package": "hit",
@@ -945,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "UnModifiedFile",
           "package": "hit",
@@ -954,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "UnModifiedFile",
           "package": "hit",
@@ -967,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "UnModifiedMode",
           "package": "hit",
@@ -976,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "UnModifiedMode",
           "package": "hit",
@@ -989,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "UnModifiedRef",
           "package": "hit",
@@ -998,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "UnModifiedRef",
           "package": "hit",
@@ -1011,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "bsContent",
           "package": "hit",
@@ -1020,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "bsContent",
           "package": "hit",
@@ -1033,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "bsFilename",
           "package": "hit",
@@ -1042,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "bsFilename",
           "package": "hit",
@@ -1055,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "bsMode",
           "package": "hit",
@@ -1064,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "bsMode",
           "package": "hit",
@@ -1077,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "bsRef",
           "package": "hit",
@@ -1086,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "bsRef",
           "package": "hit",
@@ -1100,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default diff helper. It is an example about how you can write your own\n diff helper or you can use it if you want to get all of differences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "defaultDiff",
           "package": "hit",
@@ -1109,6 +1206,7 @@
         "index": {
           "description": "default diff helper It is an example about how you can write your own diff helper or you can use it if you want to get all of differences",
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "defaultDiff",
           "normalized": "Int-\u003eBlobStateDiff-\u003e[HitDiff]-\u003e[HitDiff]",
@@ -1125,6 +1223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default Diff getter which returns all diff information (Mode, Content\n and Binary) with a context of 5 lines.\n\u003c/p\u003e\u003cpre\u003e getDiff = getDiffWith (defaultDiff 5) []\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "getDiff",
           "package": "hit",
@@ -1135,6 +1234,7 @@
         "index": {
           "description": "default Diff getter which returns all diff information Mode Content and Binary with context of lines getDiff getDiffWith defaultDiff",
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "getDiff",
           "normalized": "Ref-\u003eRef-\u003eGit-\u003eIO[HitDiff]",
@@ -1151,6 +1251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate a diff list between two revisions with a given diff helper.\n\u003c/p\u003e\u003cp\u003eUseful to extract any kind of information from two different revisions.\n For example you can get the number of deleted files:\n\u003c/p\u003e\u003cpre\u003e getdiffwith f 0 head^ head git\n     where f (OnlyOld _) acc = acc+1\n           f _           acc = acc\n\u003c/pre\u003e\u003cp\u003eOr save the list of new files:\n\u003c/p\u003e\u003cpre\u003e getdiffwith f [] head^ head git\n     where f (OnlyNew bs) acc = (bsFilename bs):acc\n           f _            acc = acc\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "getDiffWith",
           "package": "hit",
@@ -1160,6 +1261,7 @@
         "index": {
           "description": "generate diff list between two revisions with given diff helper Useful to extract any kind of information from two different revisions For example you can get the number of deleted files getdiffwith head head git where OnlyOld acc acc acc acc Or save the list of new files getdiffwith head head git where OnlyNew bs acc bsFilename bs acc acc acc",
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "getDiffWith",
           "normalized": "(BlobStateDiff-\u003ea-\u003ea)-\u003ea-\u003eRef-\u003eRef-\u003eGit-\u003eIO a",
@@ -1175,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "hFileContent",
           "package": "hit",
@@ -1184,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "hFileContent",
           "package": "hit",
@@ -1197,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "hFileMode",
           "package": "hit",
@@ -1206,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "hFileMode",
           "package": "hit",
@@ -1219,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "hFileName",
           "package": "hit",
@@ -1228,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "hFileName",
           "package": "hit",
@@ -1241,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "hFileRef",
           "package": "hit",
@@ -1250,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "hFileRef",
           "package": "hit",
@@ -1263,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "lineContent",
           "package": "hit",
@@ -1272,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "lineContent",
           "package": "hit",
@@ -1285,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Diff",
           "name": "lineNumber",
           "package": "hit",
@@ -1294,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Data Git Diff",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Diff",
           "name": "lineNumber",
           "package": "hit",
@@ -1308,6 +1422,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eManipulation of named references\n * reading packed-refs file\n * reading single heads\u003cem\u003etags\u003c/em\u003eremote file\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "Named",
           "package": "hit",
@@ -1317,6 +1432,7 @@
         "index": {
           "description": "Manipulation of named references reading packed-refs file reading single heads tags remote file",
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "Named",
           "package": "hit",
@@ -1331,6 +1447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtent of a ref file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefContentTy",
           "package": "hit",
@@ -1340,6 +1457,7 @@
         "index": {
           "description": "content of ref file",
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefContentTy",
           "package": "hit",
@@ -1353,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefName",
           "package": "hit",
@@ -1361,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefName",
           "package": "hit",
@@ -1375,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a named specifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefSpecTy",
           "package": "hit",
@@ -1384,6 +1505,7 @@
         "index": {
           "description": "Represent named specifier",
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefSpecTy",
           "package": "hit",
@@ -1397,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefBranch",
           "package": "hit",
@@ -1406,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefBranch",
           "package": "hit",
@@ -1419,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefContentUnknown",
           "package": "hit",
@@ -1428,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefContentUnknown",
           "package": "hit",
@@ -1441,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefDirect",
           "package": "hit",
@@ -1450,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefDirect",
           "package": "hit",
@@ -1463,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefFetchHead",
           "package": "hit",
@@ -1472,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefFetchHead",
           "package": "hit",
@@ -1485,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefHead",
           "package": "hit",
@@ -1494,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefHead",
           "package": "hit",
@@ -1507,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefLink",
           "package": "hit",
@@ -1516,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefLink",
           "package": "hit",
@@ -1529,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefName",
           "package": "hit",
@@ -1538,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefName",
           "package": "hit",
@@ -1551,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefOrigHead",
           "package": "hit",
@@ -1560,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefOrigHead",
           "package": "hit",
@@ -1573,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefOther",
           "package": "hit",
@@ -1582,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefOther",
           "package": "hit",
@@ -1595,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefPatches",
           "package": "hit",
@@ -1604,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefPatches",
           "package": "hit",
@@ -1617,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefRemote",
           "package": "hit",
@@ -1626,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefRemote",
           "package": "hit",
@@ -1639,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefStash",
           "package": "hit",
@@ -1648,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefStash",
           "package": "hit",
@@ -1661,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "RefTag",
           "package": "hit",
@@ -1670,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "RefTag",
           "package": "hit",
@@ -1683,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "existsRefFile",
           "package": "hit",
@@ -1692,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "existsRefFile",
           "normalized": "FilePath-\u003eRefSpecTy-\u003eIO Bool",
@@ -1707,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "headsList",
           "package": "hit",
@@ -1716,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "headsList",
           "normalized": "FilePath-\u003eIO[RefName]",
@@ -1731,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "readPackedRefs",
           "package": "hit",
@@ -1740,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "readPackedRefs",
           "normalized": "FilePath-\u003eIO[(RefSpecTy,Ref)]",
@@ -1755,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "readRefFile",
           "package": "hit",
@@ -1764,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "readRefFile",
           "normalized": "FilePath-\u003eRefSpecTy-\u003eIO RefContentTy",
@@ -1779,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "refNameRaw",
           "package": "hit",
@@ -1788,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "refNameRaw",
           "package": "hit",
@@ -1801,6 +1959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "remotesList",
           "package": "hit",
@@ -1810,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "remotesList",
           "normalized": "FilePath-\u003eIO[RefName]",
@@ -1825,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "tagsList",
           "package": "hit",
@@ -1834,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "tagsList",
           "normalized": "FilePath-\u003eIO[RefName]",
@@ -1849,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Named",
           "name": "writeRefFile",
           "package": "hit",
@@ -1858,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Data Git Named",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Named",
           "name": "writeRefFile",
           "normalized": "FilePath-\u003eRefSpecTy-\u003eRefContentTy-\u003eIO()",
@@ -1873,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "Ref",
           "package": "hit",
@@ -1881,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "Ref",
           "package": "hit",
@@ -1895,6 +2061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresent a git reference (SHA1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "Ref",
           "package": "hit",
@@ -1904,6 +2071,7 @@
         "index": {
           "description": "represent git reference SHA1",
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "Ref",
           "package": "hit",
@@ -1918,6 +2086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvalid Reference exception raised when\n using something that is not a ref as a ref.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "RefInvalid",
           "package": "hit",
@@ -1927,6 +2096,7 @@
         "index": {
           "description": "Invalid Reference exception raised when using something that is not ref as ref",
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "RefInvalid",
           "package": "hit",
@@ -1941,6 +2111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference wasn't found\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "RefNotFound",
           "package": "hit",
@@ -1950,6 +2121,7 @@
         "index": {
           "description": "Reference wasn found",
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "RefNotFound",
           "package": "hit",
@@ -1963,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "RefInvalid",
           "package": "hit",
@@ -1972,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "RefInvalid",
           "package": "hit",
@@ -1985,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "RefNotFound",
           "package": "hit",
@@ -1994,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "RefNotFound",
           "package": "hit",
@@ -2008,6 +2184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompare prefix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "cmpPrefix",
           "package": "hit",
@@ -2018,6 +2195,7 @@
         "index": {
           "description": "compare prefix",
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "cmpPrefix",
           "normalized": "String-\u003eRef-\u003eOrdering",
@@ -2034,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransform a bytestring that represent a binary bytestring\n and returns a ref.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "fromBinary",
           "package": "hit",
@@ -2044,6 +2223,7 @@
         "index": {
           "description": "transform bytestring that represent binary bytestring and returns ref",
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "fromBinary",
           "normalized": "ByteString-\u003eRef",
@@ -2060,6 +2240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etake a hexadecimal bytestring that represent a reference\n and turn into a ref\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "fromHex",
           "package": "hit",
@@ -2070,6 +2251,7 @@
         "index": {
           "description": "take hexadecimal bytestring that represent reference and turn into ref",
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "fromHex",
           "normalized": "ByteString-\u003eRef",
@@ -2086,6 +2268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etake a hexadecimal string that represent a reference\n and turn into a ref\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "fromHexString",
           "package": "hit",
@@ -2096,6 +2279,7 @@
         "index": {
           "description": "take hexadecimal string that represent reference and turn into ref",
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "fromHexString",
           "normalized": "String-\u003eRef",
@@ -2112,6 +2296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a bytestring into a reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "hash",
           "package": "hit",
@@ -2122,6 +2307,7 @@
         "index": {
           "description": "hash bytestring into reference",
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "hash",
           "normalized": "ByteString-\u003eRef",
@@ -2137,6 +2323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehash a lazy bytestring into a reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "hashLBS",
           "package": "hit",
@@ -2147,6 +2334,7 @@
         "index": {
           "description": "hash lazy bytestring into reference",
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "hashLBS",
           "normalized": "ByteString-\u003eRef",
@@ -2162,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "isHex",
           "package": "hit",
@@ -2171,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "isHex",
           "normalized": "ByteString-\u003eBool",
@@ -2186,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "isHexString",
           "package": "hit",
@@ -2195,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "isHexString",
           "normalized": "[Char]-\u003eBool",
@@ -2211,6 +2403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the prefix (leading byte) of this reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "refPrefix",
           "package": "hit",
@@ -2221,6 +2414,7 @@
         "index": {
           "description": "returns the prefix leading byte of this reference",
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "refPrefix",
           "normalized": "Ref-\u003eInt",
@@ -2237,6 +2431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eturn a reference into a binary bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "toBinary",
           "package": "hit",
@@ -2247,6 +2442,7 @@
         "index": {
           "description": "turn reference into binary bytestring",
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "toBinary",
           "normalized": "Ref-\u003eByteString",
@@ -2263,6 +2459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the splitted format \u003ca\u003eprefix/suffix\u003c/a\u003e for addressing the loose object database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "toFilePathParts",
           "package": "hit",
@@ -2273,6 +2470,7 @@
         "index": {
           "description": "returns the splitted format prefix suffix for addressing the loose object database",
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "toFilePathParts",
           "normalized": "Ref-\u003e(String,String)",
@@ -2289,6 +2487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransform a ref into an hexadecimal bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "toHex",
           "package": "hit",
@@ -2299,6 +2498,7 @@
         "index": {
           "description": "transform ref into an hexadecimal bytestring",
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "toHex",
           "normalized": "Ref-\u003eByteString",
@@ -2315,6 +2515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransform a ref into an hexadecimal string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Ref",
           "name": "toHexString",
           "package": "hit",
@@ -2325,6 +2526,7 @@
         "index": {
           "description": "transform ref into an hexadecimal string",
           "hierarchy": "Data Git Ref",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Ref",
           "name": "toHexString",
           "normalized": "Ref-\u003eString",
@@ -2340,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Repository",
           "name": "Repository",
           "package": "hit",
@@ -2348,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "Data Git Repository",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Repository",
           "name": "Repository",
           "package": "hit",
@@ -2362,6 +2566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresent a git repo, with possibly already opened filereaders\n for indexes and packs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Repository",
           "name": "Git",
           "package": "hit",
@@ -2371,6 +2576,7 @@
         "index": {
           "description": "represent git repo with possibly already opened filereaders for indexes and packs",
           "hierarchy": "Data Git Repository",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Repository",
           "name": "Git",
           "package": "hit",
@@ -2384,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Repository",
           "name": "HTree",
           "package": "hit",
@@ -2392,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "Data Git Repository",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Repository",
           "name": "HTree",
           "package": "hit",
@@ -2406,6 +2614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehierarchy tree, either a reference to a blob (file) or a tree (directory).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Repository",
           "name": "HTreeEnt",
           "package": "hit",
@@ -2415,6 +2624,7 @@
         "index": {
           "description": "hierarchy tree either reference to blob file or tree directory",
           "hierarchy": "Data Git Repository",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Repository",
           "name": "HTreeEnt",
           "package": "hit",
@@ -2428,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Repository",
           "name": "TreeDir",
           "package": "hit",
@@ -2437,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Data Git Repository",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Repository",
           "name": "TreeDir",
           "package": "hit",
@@ -2450,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Repository",
           "name": "TreeFile",
           "package": "hit",
@@ -2459,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "Data Git Repository",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Repository",
           "name": "TreeFile",
           "package": "hit",
@@ -2473,6 +2687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuild a hierarchy tree from a tree object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Repository",
           "name": "buildHTree",
           "package": "hit",
@@ -2483,6 +2698,7 @@
         "index": {
           "description": "build hierarchy tree from tree object",
           "hierarchy": "Data Git Repository",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Repository",
           "name": "buildHTree",
           "normalized": "Git-\u003eTree-\u003eIO HTree",
@@ -2526,6 +2742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget a specified commit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Repository",
           "name": "getCommitMaybe",
           "package": "hit",
@@ -2536,6 +2753,7 @@
         "index": {
           "description": "get specified commit",
           "hierarchy": "Data Git Repository",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Repository",
           "name": "getCommitMaybe",
           "normalized": "Git-\u003eRef-\u003eIO(Maybe Commit)",
@@ -2579,6 +2797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget a specified tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Repository",
           "name": "getTreeMaybe",
           "package": "hit",
@@ -2589,6 +2808,7 @@
         "index": {
           "description": "get specified tree",
           "hierarchy": "Data Git Repository",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Repository",
           "name": "getTreeMaybe",
           "normalized": "Git-\u003eRef-\u003eIO(Maybe Tree)",
@@ -2763,6 +2983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Revision",
           "name": "Revision",
           "package": "hit",
@@ -2771,6 +2992,7 @@
         },
         "index": {
           "hierarchy": "Data Git Revision",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Revision",
           "name": "Revision",
           "package": "hit",
@@ -2785,6 +3007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA modifier to a revision, which is\n a function apply of a revision\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Revision",
           "name": "RevModifier",
           "package": "hit",
@@ -2794,6 +3017,7 @@
         "index": {
           "description": "modifier to revision which is function apply of revision",
           "hierarchy": "Data Git Revision",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Revision",
           "name": "RevModifier",
           "package": "hit",
@@ -2808,6 +3032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA git revision. this can be many things:\n    * a shorten ref\n    * a ref\n    * a named branch or tag\n  followed by optional modifiers \u003ccode\u003e\u003ca\u003eRevModifier\u003c/a\u003e\u003c/code\u003e that can represent:\n    * parenting\n    * type\n    * date\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Revision",
           "name": "Revision",
           "package": "hit",
@@ -2817,6 +3042,7 @@
         "index": {
           "description": "git revision this can be many things shorten ref ref named branch or tag followed by optional modifiers RevModifier that can represent parenting type date",
           "hierarchy": "Data Git Revision",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Revision",
           "name": "Revision",
           "package": "hit",
@@ -2831,6 +3057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException when a revision cannot be resolved to a reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Revision",
           "name": "RevisionNotFound",
           "package": "hit",
@@ -2840,6 +3067,7 @@
         "index": {
           "description": "Exception when revision cannot be resolved to reference",
           "hierarchy": "Data Git Revision",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Revision",
           "name": "RevisionNotFound",
           "package": "hit",
@@ -2853,6 +3081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Revision",
           "name": "RevModAtDate",
           "package": "hit",
@@ -2862,6 +3091,7 @@
         },
         "index": {
           "hierarchy": "Data Git Revision",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Revision",
           "name": "RevModAtDate",
           "package": "hit",
@@ -2875,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Revision",
           "name": "RevModAtN",
           "package": "hit",
@@ -2884,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "Data Git Revision",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Revision",
           "name": "RevModAtN",
           "package": "hit",
@@ -2897,6 +3129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Revision",
           "name": "RevModAtType",
           "package": "hit",
@@ -2906,6 +3139,7 @@
         },
         "index": {
           "hierarchy": "Data Git Revision",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Revision",
           "name": "RevModAtType",
           "package": "hit",
@@ -2920,6 +3154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparent accessor ^\u003ca\u003en\u003c/a\u003e and ^\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Revision",
           "name": "RevModParent",
           "package": "hit",
@@ -2930,6 +3165,7 @@
         "index": {
           "description": "parent accessor and",
           "hierarchy": "Data Git Revision",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Revision",
           "name": "RevModParent",
           "package": "hit",
@@ -2944,6 +3180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparent accessor ~\u003ca\u003en\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Revision",
           "name": "RevModParentFirstN",
           "package": "hit",
@@ -2954,6 +3191,7 @@
         "index": {
           "description": "parent accessor",
           "hierarchy": "Data Git Revision",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Revision",
           "name": "RevModParentFirstN",
           "package": "hit",
@@ -2967,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Revision",
           "name": "Revision",
           "package": "hit",
@@ -2976,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Data Git Revision",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Revision",
           "name": "Revision",
           "normalized": "Revision String[RevModifier]",
@@ -2991,6 +3231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Revision",
           "name": "RevisionNotFound",
           "package": "hit",
@@ -3000,6 +3241,7 @@
         },
         "index": {
           "hierarchy": "Data Git Revision",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Revision",
           "name": "RevisionNotFound",
           "package": "hit",
@@ -3013,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Revision",
           "name": "fromString",
           "package": "hit",
@@ -3021,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Data Git Revision",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Revision",
           "name": "fromString",
           "normalized": "String-\u003ea",
@@ -3036,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "Loose",
           "package": "hit",
@@ -3044,6 +3289,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "Loose",
           "package": "hit",
@@ -3057,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "Zipped",
           "package": "hit",
@@ -3065,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "Zipped",
           "package": "hit",
@@ -3078,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "Zipped",
           "package": "hit",
@@ -3087,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "Zipped",
           "package": "hit",
@@ -3100,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "getZippedData",
           "package": "hit",
@@ -3109,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "getZippedData",
           "package": "hit",
@@ -3123,6 +3375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenumarate all prefixes available in the object store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "looseEnumeratePrefixes",
           "package": "hit",
@@ -3133,6 +3386,7 @@
         "index": {
           "description": "enumarate all prefixes available in the object store",
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "looseEnumeratePrefixes",
           "normalized": "FilePath-\u003eIO[[Char]]",
@@ -3148,6 +3402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "looseEnumerateWithPrefix",
           "package": "hit",
@@ -3157,6 +3412,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "looseEnumerateWithPrefix",
           "normalized": "FilePath-\u003eString-\u003eIO[Ref]",
@@ -3173,6 +3429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenumerate all references available with a specific prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "looseEnumerateWithPrefixFilter",
           "package": "hit",
@@ -3183,6 +3440,7 @@
         "index": {
           "description": "enumerate all references available with specific prefix",
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "looseEnumerateWithPrefixFilter",
           "normalized": "FilePath-\u003eString-\u003e(Ref-\u003eBool)-\u003eIO[Ref]",
@@ -3199,6 +3457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck if a specific ref exists as loose object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "looseExists",
           "package": "hit",
@@ -3209,6 +3468,7 @@
         "index": {
           "description": "check if specific ref exists as loose object",
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "looseExists",
           "normalized": "FilePath-\u003eRef-\u003eIO Bool",
@@ -3225,6 +3485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emarshall as lazy bytestring an object except deltas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "looseMarshall",
           "package": "hit",
@@ -3235,6 +3496,7 @@
         "index": {
           "description": "marshall as lazy bytestring an object except deltas",
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "looseMarshall",
           "normalized": "Object-\u003eByteString",
@@ -3251,6 +3513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a specific ref from a loose object and returns an object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "looseRead",
           "package": "hit",
@@ -3261,6 +3524,7 @@
         "index": {
           "description": "read specific ref from loose object and returns an object",
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "looseRead",
           "normalized": "FilePath-\u003eRef-\u003eIO Object",
@@ -3277,6 +3541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread only the header of a loose object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "looseReadHeader",
           "package": "hit",
@@ -3287,6 +3552,7 @@
         "index": {
           "description": "read only the header of loose object",
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "looseReadHeader",
           "normalized": "FilePath-\u003eRef-\u003eIO(ObjectType,Word,Maybe a)",
@@ -3303,6 +3569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a specific ref from a loose object and returns an header and data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "looseReadRaw",
           "package": "hit",
@@ -3313,6 +3580,7 @@
         "index": {
           "description": "read specific ref from loose object and returns an header and data",
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "looseReadRaw",
           "normalized": "FilePath-\u003eRef-\u003eIO(ObjectHeader,ObjectData)",
@@ -3329,6 +3597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunmarshall an object (with header) from a bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "looseUnmarshall",
           "package": "hit",
@@ -3339,6 +3608,7 @@
         "index": {
           "description": "unmarshall an object with header from bytestring",
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "looseUnmarshall",
           "normalized": "ByteString-\u003eObject",
@@ -3355,6 +3625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunmarshall an object as (header, data) tuple from a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "looseUnmarshallRaw",
           "package": "hit",
@@ -3365,6 +3636,7 @@
         "index": {
           "description": "unmarshall an object as header data tuple from bytestring",
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "looseUnmarshallRaw",
           "normalized": "ByteString-\u003e(ObjectHeader,ObjectData)",
@@ -3381,6 +3653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunmarshall an object (with header) from a zipped stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "looseUnmarshallZipped",
           "package": "hit",
@@ -3391,6 +3664,7 @@
         "index": {
           "description": "unmarshall an object with header from zipped stream",
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "looseUnmarshallZipped",
           "normalized": "Zipped-\u003eObject",
@@ -3407,6 +3681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunmarshall an object as (header, data) tuple from a zipped stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "looseUnmarshallZippedRaw",
           "package": "hit",
@@ -3417,6 +3692,7 @@
         "index": {
           "description": "unmarshall an object as header data tuple from zipped stream",
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "looseUnmarshallZippedRaw",
           "normalized": "Zipped-\u003e(ObjectHeader,ObjectData)",
@@ -3433,6 +3709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrite an object to disk as a loose reference.\n use looseWriteBlobFromFile for efficiently writing blobs when being commited from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "looseWrite",
           "package": "hit",
@@ -3443,6 +3720,7 @@
         "index": {
           "description": "write an object to disk as loose reference use looseWriteBlobFromFile for efficiently writing blobs when being commited from file",
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "looseWrite",
           "normalized": "FilePath-\u003eObject-\u003eIO Ref",
@@ -3459,6 +3737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a new blob on a temporary location and on success move it to\n the object store with its digest name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Loose",
           "name": "looseWriteBlobFromFile",
           "package": "hit",
@@ -3469,6 +3748,7 @@
         "index": {
           "description": "create new blob on temporary location and on success move it to the object store with its digest name",
           "hierarchy": "Data Git Storage Loose",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Loose",
           "name": "looseWriteBlobFromFile",
           "normalized": "FilePath-\u003eFilePath-\u003eIO Ref",
@@ -3484,6 +3764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "Object",
           "package": "hit",
@@ -3492,6 +3773,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "Object",
           "package": "hit",
@@ -3506,6 +3788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edescribe a git object, that could of 6 differents types:\n tree, blob, commit, tag and deltas (offset or ref).\n the deltas one are only available in packs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "Object",
           "package": "hit",
@@ -3515,6 +3798,7 @@
         "index": {
           "description": "describe git object that could of differents types tree blob commit tag and deltas offset or ref the deltas one are only available in packs",
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "Object",
           "package": "hit",
@@ -3528,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "ObjectData",
           "package": "hit",
@@ -3536,6 +3821,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "ObjectData",
           "package": "hit",
@@ -3549,6 +3835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "ObjectHeader",
           "package": "hit",
@@ -3557,6 +3844,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "ObjectHeader",
           "package": "hit",
@@ -3571,6 +3859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw objects infos have an header (type, size, ptr),\n the data and a pointers chains to parents for resolved objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "ObjectInfo",
           "package": "hit",
@@ -3580,6 +3869,7 @@
         "index": {
           "description": "Raw objects infos have an header type size ptr the data and pointers chains to parents for resolved objects",
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "ObjectInfo",
           "package": "hit",
@@ -3594,6 +3884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocation of an object in the database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "ObjectLocation",
           "package": "hit",
@@ -3603,6 +3894,7 @@
         "index": {
           "description": "location of an object in the database",
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "ObjectLocation",
           "package": "hit",
@@ -3617,6 +3909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelta objects points to some others objects in the database\n either as offset in the pack or as a direct reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "ObjectPtr",
           "package": "hit",
@@ -3626,6 +3919,7 @@
         "index": {
           "description": "Delta objects points to some others objects in the database either as offset in the pack or as direct reference",
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "ObjectPtr",
           "package": "hit",
@@ -3640,6 +3934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype of a git object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "ObjectType",
           "package": "hit",
@@ -3649,6 +3944,7 @@
         "index": {
           "description": "type of git object",
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "ObjectType",
           "package": "hit",
@@ -3662,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "Objectable",
           "package": "hit",
@@ -3670,6 +3967,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "Objectable",
           "package": "hit",
@@ -3683,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "Loose",
           "package": "hit",
@@ -3692,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "Loose",
           "package": "hit",
@@ -3705,6 +4005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "NotFound",
           "package": "hit",
@@ -3714,6 +4015,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "NotFound",
           "package": "hit",
@@ -3727,6 +4029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "ObjBlob",
           "package": "hit",
@@ -3736,6 +4039,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "ObjBlob",
           "package": "hit",
@@ -3749,6 +4053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "ObjCommit",
           "package": "hit",
@@ -3758,6 +4063,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "ObjCommit",
           "package": "hit",
@@ -3771,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "ObjDeltaOfs",
           "package": "hit",
@@ -3780,6 +4087,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "ObjDeltaOfs",
           "package": "hit",
@@ -3793,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "ObjDeltaRef",
           "package": "hit",
@@ -3802,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "ObjDeltaRef",
           "package": "hit",
@@ -3815,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "ObjTag",
           "package": "hit",
@@ -3824,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "ObjTag",
           "package": "hit",
@@ -3837,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "ObjTree",
           "package": "hit",
@@ -3846,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "ObjTree",
           "package": "hit",
@@ -3859,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "ObjectInfo",
           "package": "hit",
@@ -3868,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "ObjectInfo",
           "package": "hit",
@@ -3881,6 +4197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "Packed",
           "package": "hit",
@@ -3890,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "Packed",
           "package": "hit",
@@ -3903,6 +4221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "PtrOfs",
           "package": "hit",
@@ -3912,6 +4231,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "PtrOfs",
           "package": "hit",
@@ -3925,6 +4245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "PtrRef",
           "package": "hit",
@@ -3934,6 +4255,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "PtrRef",
           "package": "hit",
@@ -4086,6 +4408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a blob content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "blobParse",
           "package": "hit",
@@ -4096,6 +4419,7 @@
         "index": {
           "description": "parse blob content",
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "blobParse",
           "package": "hit",
@@ -4110,6 +4434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a commit content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "commitParse",
           "package": "hit",
@@ -4120,6 +4445,7 @@
         "index": {
           "description": "parse commit content",
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "commitParse",
           "package": "hit",
@@ -4133,6 +4459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "getRaw",
           "package": "hit",
@@ -4142,6 +4469,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "getRaw",
           "normalized": "a-\u003eByteString",
@@ -4157,6 +4485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "getType",
           "package": "hit",
@@ -4166,6 +4495,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "getType",
           "normalized": "a-\u003eObjectType",
@@ -4181,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "isDelta",
           "package": "hit",
@@ -4190,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "isDelta",
           "normalized": "a-\u003eBool",
@@ -4205,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectHash",
           "package": "hit",
@@ -4214,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectHash",
           "normalized": "ObjectType-\u003eWord-\u003eByteString-\u003eRef",
@@ -4229,6 +4563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectIsDelta",
           "package": "hit",
@@ -4238,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectIsDelta",
           "normalized": "Object-\u003eBool",
@@ -4253,6 +4589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectParseBlob",
           "package": "hit",
@@ -4262,6 +4599,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectParseBlob",
           "package": "hit",
@@ -4275,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectParseCommit",
           "package": "hit",
@@ -4284,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectParseCommit",
           "package": "hit",
@@ -4297,6 +4637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectParseTag",
           "package": "hit",
@@ -4306,6 +4647,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectParseTag",
           "package": "hit",
@@ -4319,6 +4661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectParseTree",
           "package": "hit",
@@ -4328,6 +4671,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectParseTree",
           "package": "hit",
@@ -4341,6 +4685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectToBlob",
           "package": "hit",
@@ -4350,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectToBlob",
           "normalized": "Object-\u003eMaybe Blob",
@@ -4365,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectToCommit",
           "package": "hit",
@@ -4374,6 +4721,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectToCommit",
           "normalized": "Object-\u003eMaybe Commit",
@@ -4389,6 +4737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectToTag",
           "package": "hit",
@@ -4398,6 +4747,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectToTag",
           "normalized": "Object-\u003eMaybe Tag",
@@ -4413,6 +4763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectToTree",
           "package": "hit",
@@ -4422,6 +4773,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectToTree",
           "normalized": "Object-\u003eMaybe Tree",
@@ -4437,6 +4789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectToType",
           "package": "hit",
@@ -4446,6 +4799,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectToType",
           "normalized": "Object-\u003eObjectType",
@@ -4461,6 +4815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectTypeIsDelta",
           "package": "hit",
@@ -4470,6 +4825,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectTypeIsDelta",
           "normalized": "ObjectType-\u003eBool",
@@ -4485,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectTypeMarshall",
           "package": "hit",
@@ -4494,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectTypeMarshall",
           "normalized": "ObjectType-\u003eString",
@@ -4509,6 +4867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectTypeUnmarshall",
           "package": "hit",
@@ -4518,6 +4877,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectTypeUnmarshall",
           "normalized": "String-\u003eObjectType",
@@ -4533,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectWrite",
           "package": "hit",
@@ -4542,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectWrite",
           "normalized": "Object-\u003eByteString",
@@ -4557,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "objectWriteHeader",
           "package": "hit",
@@ -4566,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "objectWriteHeader",
           "normalized": "ObjectType-\u003eWord-\u003eByteString",
@@ -4581,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "oiChains",
           "package": "hit",
@@ -4590,6 +4955,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "oiChains",
           "normalized": "[ObjectPtr]",
@@ -4605,6 +4971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "oiData",
           "package": "hit",
@@ -4614,6 +4981,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "oiData",
           "package": "hit",
@@ -4627,6 +4995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "oiHeader",
           "package": "hit",
@@ -4636,6 +5005,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "oiHeader",
           "package": "hit",
@@ -4650,6 +5020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a tag content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "tagParse",
           "package": "hit",
@@ -4660,6 +5031,7 @@
         "index": {
           "description": "parse tag content",
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "tagParse",
           "package": "hit",
@@ -4673,6 +5045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "toObject",
           "package": "hit",
@@ -4682,6 +5055,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "toObject",
           "normalized": "a-\u003eObject",
@@ -4698,6 +5072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a tree content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Object",
           "name": "treeParse",
           "package": "hit",
@@ -4708,6 +5083,7 @@
         "index": {
           "description": "parse tree content",
           "hierarchy": "Data Git Storage Object",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Object",
           "name": "treeParse",
           "package": "hit",
@@ -4721,6 +5097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "Pack",
           "package": "hit",
@@ -4729,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "Pack",
           "package": "hit",
@@ -4742,6 +5120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "PackedObjectInfo",
           "package": "hit",
@@ -4750,6 +5129,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "PackedObjectInfo",
           "package": "hit",
@@ -4763,6 +5143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "PackedObjectRaw",
           "package": "hit",
@@ -4771,6 +5152,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "PackedObjectRaw",
           "package": "hit",
@@ -4784,6 +5166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "PackedObjectInfo",
           "package": "hit",
@@ -4793,6 +5176,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "PackedObjectInfo",
           "package": "hit",
@@ -4807,6 +5191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclose a pack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "packClose",
           "package": "hit",
@@ -4817,6 +5202,7 @@
         "index": {
           "description": "close pack",
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "packClose",
           "normalized": "FileReader-\u003eIO()",
@@ -4833,6 +5219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate the pack refs available in this repository.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "packEnumerate",
           "package": "hit",
@@ -4843,6 +5230,7 @@
         "index": {
           "description": "Enumerate the pack refs available in this repository",
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "packEnumerate",
           "normalized": "FilePath-\u003eIO[Ref]",
@@ -4859,6 +5247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenumerate all objects in this pack and callback to f for reach raw objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "packEnumerateObjects",
           "package": "hit",
@@ -4869,6 +5258,7 @@
         "index": {
           "description": "enumerate all objects in this pack and callback to for reach raw objects",
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "packEnumerateObjects",
           "normalized": "FilePath-\u003eRef-\u003eInt-\u003e(PackedObjectRaw-\u003eIO a)-\u003eIO()",
@@ -4884,6 +5274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "packObjectFromRaw",
           "package": "hit",
@@ -4893,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "packObjectFromRaw",
           "normalized": "(ObjectType,Maybe ObjectPtr,ByteString)-\u003eMaybe Object",
@@ -4909,6 +5301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eopen a pack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "packOpen",
           "package": "hit",
@@ -4919,6 +5312,7 @@
         "index": {
           "description": "open pack",
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "packOpen",
           "normalized": "FilePath-\u003eRef-\u003eIO FileReader",
@@ -4935,6 +5329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread an object at a specific position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "packReadAtOffset",
           "package": "hit",
@@ -4945,6 +5340,7 @@
         "index": {
           "description": "read an object at specific position",
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "packReadAtOffset",
           "normalized": "FileReader-\u003eWord-\u003eIO(Maybe Object)",
@@ -4961,6 +5357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the number of entries in this pack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "packReadHeader",
           "package": "hit",
@@ -4971,6 +5368,7 @@
         "index": {
           "description": "return the number of entries in this pack",
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "packReadHeader",
           "normalized": "FilePath-\u003eRef-\u003eIO Word",
@@ -4987,6 +5385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread an object at a specific position using a map function on the objectData\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "packReadMapAtOffset",
           "package": "hit",
@@ -4997,6 +5396,7 @@
         "index": {
           "description": "read an object at specific position using map function on the objectData",
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "packReadMapAtOffset",
           "normalized": "FileReader-\u003eWord-\u003e(ByteString-\u003eByteString)-\u003eIO(Maybe Object)",
@@ -5013,6 +5413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a raw representation at a specific position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "packReadRawAtOffset",
           "package": "hit",
@@ -5023,6 +5424,7 @@
         "index": {
           "description": "read raw representation at specific position",
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "packReadRawAtOffset",
           "normalized": "FileReader-\u003eWord-\u003eIO PackedObjectRaw",
@@ -5038,6 +5440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "packedObjectToObject",
           "package": "hit",
@@ -5047,6 +5450,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "packedObjectToObject",
           "normalized": "(PackedObjectInfo,ByteString)-\u003eMaybe Object",
@@ -5062,6 +5466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "poiActualSize",
           "package": "hit",
@@ -5071,6 +5476,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "poiActualSize",
           "package": "hit",
@@ -5084,6 +5490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "poiExtra",
           "package": "hit",
@@ -5093,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "poiExtra",
           "package": "hit",
@@ -5106,6 +5514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "poiOffset",
           "package": "hit",
@@ -5115,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "poiOffset",
           "package": "hit",
@@ -5128,6 +5538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "poiSize",
           "package": "hit",
@@ -5137,6 +5548,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "poiSize",
           "package": "hit",
@@ -5150,6 +5562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.Pack",
           "name": "poiType",
           "package": "hit",
@@ -5159,6 +5572,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage Pack",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.Pack",
           "name": "poiType",
           "package": "hit",
@@ -5172,6 +5586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "PackIndex",
           "package": "hit",
@@ -5180,6 +5595,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "PackIndex",
           "package": "hit",
@@ -5193,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "PackIndex",
           "package": "hit",
@@ -5201,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "PackIndex",
           "package": "hit",
@@ -5215,6 +5633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresent an packIndex header with the version and the fanout table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "PackIndexHeader",
           "package": "hit",
@@ -5224,6 +5643,7 @@
         "index": {
           "description": "represent an packIndex header with the version and the fanout table",
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "PackIndexHeader",
           "package": "hit",
@@ -5237,6 +5657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "PackIndex",
           "package": "hit",
@@ -5246,6 +5667,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "PackIndex",
           "package": "hit",
@@ -5259,6 +5681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "PackIndexHeader",
           "package": "hit",
@@ -5268,6 +5691,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "PackIndexHeader",
           "package": "hit",
@@ -5281,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexCRCs",
           "package": "hit",
@@ -5290,6 +5715,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexCRCs",
           "package": "hit",
@@ -5303,6 +5729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexChecksum",
           "package": "hit",
@@ -5312,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexChecksum",
           "package": "hit",
@@ -5326,6 +5754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclose an index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexClose",
           "package": "hit",
@@ -5336,6 +5765,7 @@
         "index": {
           "description": "close an index",
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexClose",
           "normalized": "FileReader-\u003eIO()",
@@ -5352,6 +5782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenumerate every indexes file in the pack directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexEnumerate",
           "package": "hit",
@@ -5362,6 +5793,7 @@
         "index": {
           "description": "enumerate every indexes file in the pack directory",
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexEnumerate",
           "normalized": "FilePath-\u003eIO[Ref]",
@@ -5378,6 +5810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget index header from an index reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexGetHeader",
           "package": "hit",
@@ -5388,6 +5821,7 @@
         "index": {
           "description": "get index header from an index reference",
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexGetHeader",
           "normalized": "FilePath-\u003eRef-\u003eIO PackIndexHeader",
@@ -5404,6 +5838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the reference offset in the packfile if found\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexGetReferenceLocation",
           "package": "hit",
@@ -5414,6 +5849,7 @@
         "index": {
           "description": "return the reference offset in the packfile if found",
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexGetReferenceLocation",
           "normalized": "PackIndexHeader-\u003eFileReader-\u003eRef-\u003eIO(Maybe Word)",
@@ -5430,6 +5866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all references that start by prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexGetReferencesWithPrefix",
           "package": "hit",
@@ -5440,6 +5877,7 @@
         "index": {
           "description": "get all references that start by prefix",
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexGetReferencesWithPrefix",
           "normalized": "PackIndexHeader-\u003eFileReader-\u003eString-\u003eIO[Ref]",
@@ -5456,6 +5894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the number of reference in this index with a specific prefix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexHeaderGetNbWithPrefix",
           "package": "hit",
@@ -5466,6 +5905,7 @@
         "index": {
           "description": "get the number of reference in this index with specific prefix",
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexHeaderGetNbWithPrefix",
           "normalized": "PackIndexHeader-\u003eInt-\u003eWord",
@@ -5482,6 +5922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eopen an index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexOpen",
           "package": "hit",
@@ -5492,6 +5933,7 @@
         "index": {
           "description": "open an index",
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexOpen",
           "normalized": "FilePath-\u003eRef-\u003eIO FileReader",
@@ -5507,6 +5949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexPackChecksum",
           "package": "hit",
@@ -5516,6 +5959,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexPackChecksum",
           "package": "hit",
@@ -5529,6 +5973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexPackoffs",
           "package": "hit",
@@ -5538,6 +5983,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexPackoffs",
           "package": "hit",
@@ -5552,6 +5998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread all index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexRead",
           "package": "hit",
@@ -5562,6 +6009,7 @@
         "index": {
           "description": "read all index",
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexRead",
           "normalized": "FilePath-\u003eRef-\u003eIO(PackIndexHeader,(Vector Ref,Vector Word,Vector Word,[ByteString],Ref,Ref))",
@@ -5578,6 +6026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread index header from an index filereader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexReadHeader",
           "package": "hit",
@@ -5588,6 +6037,7 @@
         "index": {
           "description": "read index header from an index filereader",
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexReadHeader",
           "normalized": "FileReader-\u003eIO PackIndexHeader",
@@ -5603,6 +6053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexSha1s",
           "package": "hit",
@@ -5612,6 +6063,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "packIndexSha1s",
           "package": "hit",
@@ -5626,6 +6078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariant of withFile on the index file and with a FileReader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage.PackIndex",
           "name": "withPackIndex",
           "package": "hit",
@@ -5636,6 +6089,7 @@
         "index": {
           "description": "variant of withFile on the index file and with FileReader",
           "hierarchy": "Data Git Storage PackIndex",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage.PackIndex",
           "name": "withPackIndex",
           "normalized": "FilePath-\u003eRef-\u003e(FileReader-\u003eIO a)-\u003eIO a",
@@ -5651,6 +6105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "Storage",
           "package": "hit",
@@ -5659,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "Storage",
           "package": "hit",
@@ -5673,6 +6129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresent a git repo, with possibly already opened filereaders\n for indexes and packs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "Git",
           "package": "hit",
@@ -5682,6 +6139,7 @@
         "index": {
           "description": "represent git repo with possibly already opened filereaders for indexes and packs",
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "Git",
           "package": "hit",
@@ -5696,6 +6154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclose a git repository context, closing all remaining fileReaders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "closeRepo",
           "package": "hit",
@@ -5706,6 +6165,7 @@
         "index": {
           "description": "close git repository context closing all remaining fileReaders",
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "closeRepo",
           "normalized": "Git-\u003eIO()",
@@ -5722,6 +6182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the object location of a specific reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "findReference",
           "package": "hit",
@@ -5732,6 +6193,7 @@
         "index": {
           "description": "Get the object location of specific reference",
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "findReference",
           "normalized": "Git-\u003eRef-\u003eIO ObjectLocation",
@@ -5748,6 +6210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all the references that start by a specific prefix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "findReferencesWithPrefix",
           "package": "hit",
@@ -5758,6 +6221,7 @@
         "index": {
           "description": "get all the references that start by specific prefix",
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "findReferencesWithPrefix",
           "normalized": "Git-\u003eString-\u003eIO[Ref]",
@@ -5799,6 +6263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the git repository from the current directory.\n\u003c/p\u003e\u003cp\u003eIf the environment variable GIT_DIR is set then it's used,\n otherwise iterate from current directory, up to 128 parents for a .git directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "findRepoMaybe",
           "package": "hit",
@@ -5809,6 +6274,7 @@
         "index": {
           "description": "Find the git repository from the current directory If the environment variable GIT DIR is set then it used otherwise iterate from current directory up to parents for git directory",
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "findRepoMaybe",
           "package": "hit",
@@ -5823,6 +6289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread the repository's description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "getDescription",
           "package": "hit",
@@ -5833,6 +6300,7 @@
         "index": {
           "description": "read the repository description",
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "getDescription",
           "normalized": "Git-\u003eIO(Maybe String)",
@@ -5875,6 +6343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget an object from repository using a location to reference it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "getObjectAt",
           "package": "hit",
@@ -5885,6 +6354,7 @@
         "index": {
           "description": "get an object from repository using location to reference it",
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "getObjectAt",
           "normalized": "Git-\u003eObjectLocation-\u003eBool-\u003eIO(Maybe Object)",
@@ -5901,6 +6371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget an object from repository\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "getObjectRaw",
           "package": "hit",
@@ -5911,6 +6382,7 @@
         "index": {
           "description": "get an object from repository",
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "getObjectRaw",
           "normalized": "Git-\u003eRef-\u003eBool-\u003eIO(Maybe ObjectInfo)",
@@ -5927,6 +6399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget an object from repository\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "getObjectRawAt",
           "package": "hit",
@@ -5937,6 +6410,7 @@
         "index": {
           "description": "get an object from repository",
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "getObjectRawAt",
           "normalized": "Git-\u003eObjectLocation-\u003eBool-\u003eIO(Maybe ObjectInfo)",
@@ -5953,6 +6427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget an object type from repository\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "getObjectType",
           "package": "hit",
@@ -5963,6 +6438,7 @@
         "index": {
           "description": "get an object type from repository",
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "getObjectType",
           "normalized": "Git-\u003eRef-\u003eIO(Maybe ObjectType)",
@@ -5979,6 +6455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust like \u003ccode\u003e\u003ca\u003egetObject\u003c/a\u003e\u003c/code\u003e but will raise a RefNotFound exception if the\n reference cannot be found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "getObject_",
           "package": "hit",
@@ -5988,6 +6465,7 @@
         "index": {
           "description": "Just like getObject but will raise RefNotFound exception if the reference cannot be found",
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "getObject_",
           "normalized": "Git-\u003eRef-\u003eBool-\u003eIO Object",
@@ -6003,6 +6481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "gitRepoPath",
           "package": "hit",
@@ -6012,6 +6491,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "gitRepoPath",
           "normalized": "Git-\u003eFilePath",
@@ -6027,6 +6507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "iterateIndexes",
           "package": "hit",
@@ -6036,6 +6517,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "iterateIndexes",
           "normalized": "Git-\u003e(a-\u003e(Ref,PackIndexReader)-\u003eIO(a,Bool))-\u003ea-\u003eIO a",
@@ -6052,6 +6534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eopen a new git repository context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "openRepo",
           "package": "hit",
@@ -6062,6 +6545,7 @@
         "index": {
           "description": "open new git repository context",
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "openRepo",
           "normalized": "FilePath-\u003eIO Git",
@@ -6077,6 +6561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "packedNamed",
           "package": "hit",
@@ -6086,6 +6571,7 @@
         },
         "index": {
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "packedNamed",
           "normalized": "Git-\u003ePackedRef",
@@ -6102,6 +6588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the repository's description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Storage",
           "name": "setDescription",
           "package": "hit",
@@ -6112,6 +6599,7 @@
         "index": {
           "description": "set the repository description",
           "hierarchy": "Data Git Storage",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Storage",
           "name": "setDescription",
           "normalized": "Git-\u003eString-\u003eIO()",
@@ -6208,6 +6696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "Types",
           "package": "hit",
@@ -6216,6 +6705,7 @@
         },
         "index": {
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "Types",
           "package": "hit",
@@ -6230,6 +6720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a binary blob.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "Blob",
           "package": "hit",
@@ -6239,6 +6730,7 @@
         "index": {
           "description": "Represent binary blob",
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "Blob",
           "package": "hit",
@@ -6253,6 +6745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a commit object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "Commit",
           "package": "hit",
@@ -6262,6 +6755,7 @@
         "index": {
           "description": "Represent commit object",
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "Commit",
           "package": "hit",
@@ -6275,6 +6769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "CommitExtra",
           "package": "hit",
@@ -6283,6 +6778,7 @@
         },
         "index": {
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "CommitExtra",
           "package": "hit",
@@ -6297,6 +6793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelta pointing to an offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "DeltaOfs",
           "package": "hit",
@@ -6306,6 +6803,7 @@
         "index": {
           "description": "Delta pointing to an offset",
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "DeltaOfs",
           "package": "hit",
@@ -6320,6 +6818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelta pointing to a ref.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "DeltaRef",
           "package": "hit",
@@ -6329,6 +6828,7 @@
         "index": {
           "description": "Delta pointing to ref",
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "DeltaRef",
           "package": "hit",
@@ -6343,6 +6843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etraditional unix permission for owner, group and permissions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "FilePermissions",
           "package": "hit",
@@ -6352,6 +6853,7 @@
         "index": {
           "description": "traditional unix permission for owner group and permissions",
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "FilePermissions",
           "package": "hit",
@@ -6366,6 +6868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGit time is number of seconds since unix epoch with a timezone\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "GitTime",
           "package": "hit",
@@ -6375,6 +6878,7 @@
         "index": {
           "description": "Git time is number of seconds since unix epoch with timezone",
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "GitTime",
           "package": "hit",
@@ -6388,6 +6892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "ModePerm",
           "package": "hit",
@@ -6396,6 +6901,7 @@
         },
         "index": {
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "ModePerm",
           "package": "hit",
@@ -6410,6 +6916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGit object file type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "ObjectFileType",
           "package": "hit",
@@ -6419,6 +6926,7 @@
         "index": {
           "description": "Git object file type",
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "ObjectFileType",
           "package": "hit",
@@ -6433,6 +6941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype of a git object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "ObjectType",
           "package": "hit",
@@ -6442,6 +6951,7 @@
         "index": {
           "description": "type of git object",
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "ObjectType",
           "package": "hit",
@@ -6456,6 +6966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean author or committer line\n has the format: name \u003ca\u003eemail\u003c/a\u003e time timezone\n FIXME: should be a string, but I don't know if the data is stored\n consistantly in one encoding (UTF8)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "Person",
           "package": "hit",
@@ -6465,6 +6976,7 @@
         "index": {
           "description": "an author or committer line has the format name email time timezone FIXME should be string but don know if the data is stored consistantly in one encoding UTF8",
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "Person",
           "package": "hit",
@@ -6479,6 +6991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a signed tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "Tag",
           "package": "hit",
@@ -6488,6 +7001,7 @@
         "index": {
           "description": "Represent signed tag",
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "Tag",
           "package": "hit",
@@ -6502,6 +7016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a root tree with zero to many tree entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "Tree",
           "package": "hit",
@@ -6511,6 +7026,7 @@
         "index": {
           "description": "Represent root tree with zero to many tree entries",
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "Tree",
           "package": "hit",
@@ -6525,6 +7041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresent one entry in the tree\n (permission,file or directory name,blob or tree ref)\n name should maybe a filepath, but not sure about the encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "TreeEnt",
           "package": "hit",
@@ -6534,6 +7051,7 @@
         "index": {
           "description": "represent one entry in the tree permission file or directory name blob or tree ref name should maybe filepath but not sure about the encoding",
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "TreeEnt",
           "package": "hit",
@@ -6616,6 +7134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "DeltaOfs",
           "package": "hit",
@@ -6625,6 +7144,7 @@
         },
         "index": {
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "DeltaOfs",
           "package": "hit",
@@ -6638,6 +7158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "DeltaRef",
           "package": "hit",
@@ -6647,6 +7168,7 @@
         },
         "index": {
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "DeltaRef",
           "package": "hit",
@@ -7426,6 +7948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "toPOSIXTime",
           "package": "hit",
@@ -7435,6 +7958,7 @@
         },
         "index": {
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "toPOSIXTime",
           "normalized": "GitTime-\u003ePOSIXTime",
@@ -7450,6 +7974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "toUTCTime",
           "package": "hit",
@@ -7459,6 +7984,7 @@
         },
         "index": {
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "toUTCTime",
           "normalized": "GitTime-\u003eUTCTime",
@@ -7474,6 +8000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git.Types",
           "name": "toZonedTime",
           "package": "hit",
@@ -7483,6 +8010,7 @@
         },
         "index": {
           "hierarchy": "Data Git Types",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git.Types",
           "name": "toZonedTime",
           "normalized": "GitTime-\u003eZonedTime",
@@ -7523,6 +8051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git",
           "name": "Git",
           "package": "hit",
@@ -7531,6 +8060,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git",
           "name": "Git",
           "package": "hit",
@@ -7545,6 +8075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a binary blob.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git",
           "name": "Blob",
           "package": "hit",
@@ -7554,6 +8085,7 @@
         "index": {
           "description": "Represent binary blob",
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git",
           "name": "Blob",
           "package": "hit",
@@ -7568,6 +8100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a commit object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git",
           "name": "Commit",
           "package": "hit",
@@ -7577,6 +8110,7 @@
         "index": {
           "description": "Represent commit object",
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git",
           "name": "Commit",
           "package": "hit",
@@ -7590,6 +8124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git",
           "name": "CommitExtra",
           "package": "hit",
@@ -7598,6 +8133,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git",
           "name": "CommitExtra",
           "package": "hit",
@@ -7612,6 +8148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etraditional unix permission for owner, group and permissions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git",
           "name": "FilePermissions",
           "package": "hit",
@@ -7621,6 +8158,7 @@
         "index": {
           "description": "traditional unix permission for owner group and permissions",
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git",
           "name": "FilePermissions",
           "package": "hit",
@@ -7635,6 +8173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGit time is number of seconds since unix epoch with a timezone\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git",
           "name": "GitTime",
           "package": "hit",
@@ -7644,6 +8183,7 @@
         "index": {
           "description": "Git time is number of seconds since unix epoch with timezone",
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git",
           "name": "GitTime",
           "package": "hit",
@@ -7657,6 +8197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git",
           "name": "ModePerm",
           "package": "hit",
@@ -7665,6 +8206,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git",
           "name": "ModePerm",
           "package": "hit",
@@ -7679,6 +8221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGit object file type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git",
           "name": "ObjectFileType",
           "package": "hit",
@@ -7688,6 +8231,7 @@
         "index": {
           "description": "Git object file type",
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git",
           "name": "ObjectFileType",
           "package": "hit",
@@ -7702,6 +8246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean author or committer line\n has the format: name \u003ca\u003eemail\u003c/a\u003e time timezone\n FIXME: should be a string, but I don't know if the data is stored\n consistantly in one encoding (UTF8)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git",
           "name": "Person",
           "package": "hit",
@@ -7711,6 +8256,7 @@
         "index": {
           "description": "an author or committer line has the format name email time timezone FIXME should be string but don know if the data is stored consistantly in one encoding UTF8",
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git",
           "name": "Person",
           "package": "hit",
@@ -7725,6 +8271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresent a git reference (SHA1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git",
           "name": "Ref",
           "package": "hit",
@@ -7734,6 +8281,7 @@
         "index": {
           "description": "represent git reference SHA1",
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git",
           "name": "Ref",
           "package": "hit",
@@ -7748,6 +8296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA git revision. this can be many things:\n    * a shorten ref\n    * a ref\n    * a named branch or tag\n  followed by optional modifiers \u003ccode\u003e\u003ca\u003eRevModifier\u003c/a\u003e\u003c/code\u003e that can represent:\n    * parenting\n    * type\n    * date\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git",
           "name": "Revision",
           "package": "hit",
@@ -7757,6 +8306,7 @@
         "index": {
           "description": "git revision this can be many things shorten ref ref named branch or tag followed by optional modifiers RevModifier that can represent parenting type date",
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git",
           "name": "Revision",
           "package": "hit",
@@ -7771,6 +8321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a signed tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git",
           "name": "Tag",
           "package": "hit",
@@ -7780,6 +8331,7 @@
         "index": {
           "description": "Represent signed tag",
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git",
           "name": "Tag",
           "package": "hit",
@@ -7794,6 +8346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a root tree with zero to many tree entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:32 UTC 2014",
           "module": "Data.Git",
           "name": "Tree",
           "package": "hit",
@@ -7803,6 +8356,7 @@
         "index": {
           "description": "Represent root tree with zero to many tree entries",
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:40:32",
           "module": "Data.Git",
           "name": "Tree",
           "package": "hit",

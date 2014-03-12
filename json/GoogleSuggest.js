@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GoogleSuggest"
+        "phrase": "GoogleSuggest",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Suggest",
           "package": "GoogleSuggest",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Suggest",
           "package": "GoogleSuggest",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Language",
           "package": "GoogleSuggest",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Language",
           "package": "GoogleSuggest",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Afrikaans",
           "package": "GoogleSuggest",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Afrikaans",
           "package": "GoogleSuggest",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Albanian",
           "package": "GoogleSuggest",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Albanian",
           "package": "GoogleSuggest",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Amharic",
           "package": "GoogleSuggest",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Amharic",
           "package": "GoogleSuggest",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Arabic",
           "package": "GoogleSuggest",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Arabic",
           "package": "GoogleSuggest",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Armenian",
           "package": "GoogleSuggest",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Armenian",
           "package": "GoogleSuggest",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Azerbaijani",
           "package": "GoogleSuggest",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Azerbaijani",
           "package": "GoogleSuggest",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Basque",
           "package": "GoogleSuggest",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Basque",
           "package": "GoogleSuggest",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Belarusian",
           "package": "GoogleSuggest",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Belarusian",
           "package": "GoogleSuggest",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Bengali",
           "package": "GoogleSuggest",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Bengali",
           "package": "GoogleSuggest",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Bihari",
           "package": "GoogleSuggest",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Bihari",
           "package": "GoogleSuggest",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Bulgarian",
           "package": "GoogleSuggest",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Bulgarian",
           "package": "GoogleSuggest",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Burmese",
           "package": "GoogleSuggest",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Burmese",
           "package": "GoogleSuggest",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Catalan",
           "package": "GoogleSuggest",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Catalan",
           "package": "GoogleSuggest",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Cherokee",
           "package": "GoogleSuggest",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Cherokee",
           "package": "GoogleSuggest",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Chinese",
           "package": "GoogleSuggest",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Chinese",
           "package": "GoogleSuggest",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "ChineseSimplified",
           "package": "GoogleSuggest",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "ChineseSimplified",
           "package": "GoogleSuggest",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "ChineseTraditional",
           "package": "GoogleSuggest",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "ChineseTraditional",
           "package": "GoogleSuggest",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Croatian",
           "package": "GoogleSuggest",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Croatian",
           "package": "GoogleSuggest",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Czech",
           "package": "GoogleSuggest",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Czech",
           "package": "GoogleSuggest",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Danish",
           "package": "GoogleSuggest",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Danish",
           "package": "GoogleSuggest",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Dhivehi",
           "package": "GoogleSuggest",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Dhivehi",
           "package": "GoogleSuggest",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Dutch",
           "package": "GoogleSuggest",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Dutch",
           "package": "GoogleSuggest",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "English",
           "package": "GoogleSuggest",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "English",
           "package": "GoogleSuggest",
@@ -566,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Esperanto",
           "package": "GoogleSuggest",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Esperanto",
           "package": "GoogleSuggest",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Estonian",
           "package": "GoogleSuggest",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Estonian",
           "package": "GoogleSuggest",
@@ -610,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Filipino",
           "package": "GoogleSuggest",
@@ -619,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Filipino",
           "package": "GoogleSuggest",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Finnish",
           "package": "GoogleSuggest",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Finnish",
           "package": "GoogleSuggest",
@@ -654,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "French",
           "package": "GoogleSuggest",
@@ -663,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "French",
           "package": "GoogleSuggest",
@@ -676,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Galician",
           "package": "GoogleSuggest",
@@ -685,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Galician",
           "package": "GoogleSuggest",
@@ -698,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Georgian",
           "package": "GoogleSuggest",
@@ -707,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Georgian",
           "package": "GoogleSuggest",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "German",
           "package": "GoogleSuggest",
@@ -729,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "German",
           "package": "GoogleSuggest",
@@ -742,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Greek",
           "package": "GoogleSuggest",
@@ -751,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Greek",
           "package": "GoogleSuggest",
@@ -764,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Guarani",
           "package": "GoogleSuggest",
@@ -773,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Guarani",
           "package": "GoogleSuggest",
@@ -786,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Gujarati",
           "package": "GoogleSuggest",
@@ -795,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Gujarati",
           "package": "GoogleSuggest",
@@ -808,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Hebrew",
           "package": "GoogleSuggest",
@@ -817,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Hebrew",
           "package": "GoogleSuggest",
@@ -830,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Hindi",
           "package": "GoogleSuggest",
@@ -839,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Hindi",
           "package": "GoogleSuggest",
@@ -852,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Hungarian",
           "package": "GoogleSuggest",
@@ -861,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Hungarian",
           "package": "GoogleSuggest",
@@ -874,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Icelandic",
           "package": "GoogleSuggest",
@@ -883,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Icelandic",
           "package": "GoogleSuggest",
@@ -896,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Indonesian",
           "package": "GoogleSuggest",
@@ -905,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Indonesian",
           "package": "GoogleSuggest",
@@ -918,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Inuktitut",
           "package": "GoogleSuggest",
@@ -927,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Inuktitut",
           "package": "GoogleSuggest",
@@ -940,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Italian",
           "package": "GoogleSuggest",
@@ -949,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Italian",
           "package": "GoogleSuggest",
@@ -962,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Japanese",
           "package": "GoogleSuggest",
@@ -971,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Japanese",
           "package": "GoogleSuggest",
@@ -984,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Kannada",
           "package": "GoogleSuggest",
@@ -993,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Kannada",
           "package": "GoogleSuggest",
@@ -1006,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Kazakh",
           "package": "GoogleSuggest",
@@ -1015,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Kazakh",
           "package": "GoogleSuggest",
@@ -1028,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Khmer",
           "package": "GoogleSuggest",
@@ -1037,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Khmer",
           "package": "GoogleSuggest",
@@ -1050,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Korean",
           "package": "GoogleSuggest",
@@ -1059,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Korean",
           "package": "GoogleSuggest",
@@ -1072,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Kurdish",
           "package": "GoogleSuggest",
@@ -1081,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Kurdish",
           "package": "GoogleSuggest",
@@ -1094,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Kyrgyz",
           "package": "GoogleSuggest",
@@ -1103,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Kyrgyz",
           "package": "GoogleSuggest",
@@ -1116,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Laothian",
           "package": "GoogleSuggest",
@@ -1125,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Laothian",
           "package": "GoogleSuggest",
@@ -1138,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Latvian",
           "package": "GoogleSuggest",
@@ -1147,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Latvian",
           "package": "GoogleSuggest",
@@ -1160,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Lithuanian",
           "package": "GoogleSuggest",
@@ -1169,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Lithuanian",
           "package": "GoogleSuggest",
@@ -1182,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Macedonian",
           "package": "GoogleSuggest",
@@ -1191,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Macedonian",
           "package": "GoogleSuggest",
@@ -1204,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Malay",
           "package": "GoogleSuggest",
@@ -1213,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Malay",
           "package": "GoogleSuggest",
@@ -1226,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Malayalam",
           "package": "GoogleSuggest",
@@ -1235,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Malayalam",
           "package": "GoogleSuggest",
@@ -1248,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Maltese",
           "package": "GoogleSuggest",
@@ -1257,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Maltese",
           "package": "GoogleSuggest",
@@ -1270,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Marathi",
           "package": "GoogleSuggest",
@@ -1279,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Marathi",
           "package": "GoogleSuggest",
@@ -1292,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Mongolian",
           "package": "GoogleSuggest",
@@ -1301,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Mongolian",
           "package": "GoogleSuggest",
@@ -1314,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Nepali",
           "package": "GoogleSuggest",
@@ -1323,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Nepali",
           "package": "GoogleSuggest",
@@ -1336,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Norwegian",
           "package": "GoogleSuggest",
@@ -1345,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Norwegian",
           "package": "GoogleSuggest",
@@ -1358,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Oriya",
           "package": "GoogleSuggest",
@@ -1367,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Oriya",
           "package": "GoogleSuggest",
@@ -1380,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Pashto",
           "package": "GoogleSuggest",
@@ -1389,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Pashto",
           "package": "GoogleSuggest",
@@ -1402,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Persian",
           "package": "GoogleSuggest",
@@ -1411,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Persian",
           "package": "GoogleSuggest",
@@ -1424,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Polish",
           "package": "GoogleSuggest",
@@ -1433,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Polish",
           "package": "GoogleSuggest",
@@ -1446,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Portuguese",
           "package": "GoogleSuggest",
@@ -1455,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Portuguese",
           "package": "GoogleSuggest",
@@ -1468,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Punjabi",
           "package": "GoogleSuggest",
@@ -1477,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Punjabi",
           "package": "GoogleSuggest",
@@ -1490,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Romanian",
           "package": "GoogleSuggest",
@@ -1499,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Romanian",
           "package": "GoogleSuggest",
@@ -1512,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Russian",
           "package": "GoogleSuggest",
@@ -1521,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Russian",
           "package": "GoogleSuggest",
@@ -1534,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Sanskrit",
           "package": "GoogleSuggest",
@@ -1543,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Sanskrit",
           "package": "GoogleSuggest",
@@ -1556,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Serbian",
           "package": "GoogleSuggest",
@@ -1565,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Serbian",
           "package": "GoogleSuggest",
@@ -1578,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Sindhi",
           "package": "GoogleSuggest",
@@ -1587,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Sindhi",
           "package": "GoogleSuggest",
@@ -1600,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Sinhalese",
           "package": "GoogleSuggest",
@@ -1609,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Sinhalese",
           "package": "GoogleSuggest",
@@ -1622,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Slovak",
           "package": "GoogleSuggest",
@@ -1631,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Slovak",
           "package": "GoogleSuggest",
@@ -1644,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Slovenian",
           "package": "GoogleSuggest",
@@ -1653,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Slovenian",
           "package": "GoogleSuggest",
@@ -1666,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Spanish",
           "package": "GoogleSuggest",
@@ -1675,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Spanish",
           "package": "GoogleSuggest",
@@ -1688,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Swahili",
           "package": "GoogleSuggest",
@@ -1697,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Swahili",
           "package": "GoogleSuggest",
@@ -1710,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Swedish",
           "package": "GoogleSuggest",
@@ -1719,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Swedish",
           "package": "GoogleSuggest",
@@ -1732,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Tagalog",
           "package": "GoogleSuggest",
@@ -1741,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Tagalog",
           "package": "GoogleSuggest",
@@ -1754,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Tajik",
           "package": "GoogleSuggest",
@@ -1763,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Tajik",
           "package": "GoogleSuggest",
@@ -1776,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Tamil",
           "package": "GoogleSuggest",
@@ -1785,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Tamil",
           "package": "GoogleSuggest",
@@ -1798,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Telugu",
           "package": "GoogleSuggest",
@@ -1807,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Telugu",
           "package": "GoogleSuggest",
@@ -1820,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Thai",
           "package": "GoogleSuggest",
@@ -1829,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Thai",
           "package": "GoogleSuggest",
@@ -1842,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Tibetan",
           "package": "GoogleSuggest",
@@ -1851,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Tibetan",
           "package": "GoogleSuggest",
@@ -1864,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Turkish",
           "package": "GoogleSuggest",
@@ -1873,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Turkish",
           "package": "GoogleSuggest",
@@ -1886,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Uighur",
           "package": "GoogleSuggest",
@@ -1895,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Uighur",
           "package": "GoogleSuggest",
@@ -1908,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Ukrainian",
           "package": "GoogleSuggest",
@@ -1917,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Ukrainian",
           "package": "GoogleSuggest",
@@ -1930,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Unknown",
           "package": "GoogleSuggest",
@@ -1939,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Unknown",
           "package": "GoogleSuggest",
@@ -1952,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Urdu",
           "package": "GoogleSuggest",
@@ -1961,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Urdu",
           "package": "GoogleSuggest",
@@ -1974,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Uzbek",
           "package": "GoogleSuggest",
@@ -1983,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Uzbek",
           "package": "GoogleSuggest",
@@ -1996,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "Vietnamese",
           "package": "GoogleSuggest",
@@ -2005,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "Vietnamese",
           "package": "GoogleSuggest",
@@ -2019,6 +2201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet [(suggestions, queries)] from Google Suggest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:30 UTC 2014",
           "module": "Google.Suggest",
           "name": "suggest",
           "package": "GoogleSuggest",
@@ -2028,6 +2211,7 @@
         "index": {
           "description": "Get suggestions queries from Google Suggest",
           "hierarchy": "Google Suggest",
+          "indexed": "2014-03-11T16:43:30",
           "module": "Google.Suggest",
           "name": "suggest",
           "normalized": "String-\u003eMaybe Language-\u003eIO(Either String[(String,Int)])",

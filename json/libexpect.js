@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libexpect"
+        "phrase": "libexpect",
+        "type": "phrase"
       },
       "type": "context"
     }

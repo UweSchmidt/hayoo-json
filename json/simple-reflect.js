@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-reflect"
+        "phrase": "simple-reflect",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple reflection of haskell expressions containing variables.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Expr",
           "name": "Expr",
           "package": "simple-reflect",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple reflection of haskell expressions containing variables",
           "hierarchy": "Debug SimpleReflect Expr",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Expr",
           "name": "Expr",
           "package": "simple-reflect",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type specifies the associativity of operators: left, right or none. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Expr",
           "name": "Associativity",
           "package": "simple-reflect",
@@ -51,6 +54,7 @@
         "index": {
           "description": "This data type specifies the associativity of operators left right or none",
           "hierarchy": "Debug SimpleReflect Expr",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Expr",
           "name": "Associativity",
           "package": "simple-reflect",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reflected expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Expr",
           "name": "Expr",
           "package": "simple-reflect",
@@ -74,6 +79,7 @@
         "index": {
           "description": "reflected expression",
           "hierarchy": "Debug SimpleReflect Expr",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Expr",
           "name": "Expr",
           "package": "simple-reflect",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from \u003ccode\u003eExpr\u003c/code\u003e to other types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Expr",
           "name": "FromExpr",
           "package": "simple-reflect",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Conversion from Expr to other types",
           "hierarchy": "Debug SimpleReflect Expr",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Expr",
           "name": "FromExpr",
           "package": "simple-reflect",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Expr",
           "name": "Infix",
           "package": "simple-reflect",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Expr",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Expr",
           "name": "Infix",
           "package": "simple-reflect",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Expr",
           "name": "InfixL",
           "package": "simple-reflect",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Expr",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Expr",
           "name": "InfixL",
           "package": "simple-reflect",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Expr",
           "name": "InfixR",
           "package": "simple-reflect",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Expr",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Expr",
           "name": "InfixR",
           "package": "simple-reflect",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce something to be an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Expr",
           "name": "expr",
           "package": "simple-reflect",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Force something to be an expression",
           "hierarchy": "Debug SimpleReflect Expr",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Expr",
           "name": "expr",
           "normalized": "Expr-\u003eExpr",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Expr",
           "name": "fromExpr",
           "package": "simple-reflect",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Expr",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Expr",
           "name": "fromExpr",
           "normalized": "Expr-\u003ea",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic, overloaded, function variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Expr",
           "name": "fun",
           "package": "simple-reflect",
@@ -236,6 +255,7 @@
         "index": {
           "description": "generic overloaded function variable",
           "hierarchy": "Debug SimpleReflect Expr",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Expr",
           "name": "fun",
           "normalized": "String-\u003ea",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix operator with the given associativity, precedence and name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Expr",
           "name": "op",
           "package": "simple-reflect",
@@ -261,6 +282,7 @@
         "index": {
           "description": "An infix operator with the given associativity precedence and name",
           "hierarchy": "Debug SimpleReflect Expr",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Expr",
           "name": "op",
           "normalized": "Associativity-\u003eInt-\u003eString-\u003eExpr-\u003eExpr-\u003eExpr",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce (evaluate) an expression once.\n\u003c/p\u003e\u003cp\u003eFor example \u003ccode\u003ereduce (1 + 2 + 3 + 4)  ==  3 + 3 + 4\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Expr",
           "name": "reduce",
           "package": "simple-reflect",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Reduce evaluate an expression once For example reduce",
           "hierarchy": "Debug SimpleReflect Expr",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Expr",
           "name": "reduce",
           "normalized": "Expr-\u003eExpr",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow all reduction steps when evaluating an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Expr",
           "name": "reduction",
           "package": "simple-reflect",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Show all reduction steps when evaluating an expression",
           "hierarchy": "Debug SimpleReflect Expr",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Expr",
           "name": "reduction",
           "normalized": "Expr-\u003e[Expr]",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable with the given name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Expr",
           "name": "var",
           "package": "simple-reflect",
@@ -336,6 +363,7 @@
         "index": {
           "description": "variable with the given name",
           "hierarchy": "Debug SimpleReflect Expr",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Expr",
           "name": "var",
           "normalized": "String-\u003eExpr",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSingle letter variable names.\n\u003c/p\u003e\u003cp\u003eAll names have type \u003ccode\u003eExpr\u003c/code\u003e, except for \u003ccode\u003ef\u003c/code\u003e, \u003ccode\u003eg\u003c/code\u003e and \u003ccode\u003eh\u003c/code\u003e, which are generic functions.\n This means that \u003ccode\u003eshow (f x :: Expr) == \"f x\"\u003c/code\u003e, but that \u003ccode\u003eshow (a x :: Expr)\u003c/code\u003e gives a type error.\n On the other hand, the type of \u003ccode\u003eg\u003c/code\u003e in \u003ccode\u003eshow (f g)\u003c/code\u003e is ambiguous.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "Vars",
           "package": "simple-reflect",
@@ -360,6 +389,7 @@
         "index": {
           "description": "Single letter variable names All names have type Expr except for and which are generic functions This means that show Expr but that show Expr gives type error On the other hand the type of in show is ambiguous",
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "Vars",
           "package": "simple-reflect",
@@ -373,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "a",
           "package": "simple-reflect",
@@ -382,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "a",
           "package": "simple-reflect",
@@ -394,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "b",
           "package": "simple-reflect",
@@ -403,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "b",
           "package": "simple-reflect",
@@ -415,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "c",
           "package": "simple-reflect",
@@ -424,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "c",
           "package": "simple-reflect",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "d",
           "package": "simple-reflect",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "d",
           "package": "simple-reflect",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "e",
           "package": "simple-reflect",
@@ -466,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "e",
           "package": "simple-reflect",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "f",
           "package": "simple-reflect",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "f",
           "package": "simple-reflect",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "f'",
           "package": "simple-reflect",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "f'",
           "package": "simple-reflect",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "f''",
           "package": "simple-reflect",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "f''",
           "package": "simple-reflect",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "g",
           "package": "simple-reflect",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "g",
           "package": "simple-reflect",
@@ -562,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "h",
           "package": "simple-reflect",
@@ -571,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "h",
           "package": "simple-reflect",
@@ -583,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "i",
           "package": "simple-reflect",
@@ -592,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "i",
           "package": "simple-reflect",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "j",
           "package": "simple-reflect",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "j",
           "package": "simple-reflect",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "k",
           "package": "simple-reflect",
@@ -634,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "k",
           "package": "simple-reflect",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "l",
           "package": "simple-reflect",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "l",
           "package": "simple-reflect",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "m",
           "package": "simple-reflect",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "m",
           "package": "simple-reflect",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "n",
           "package": "simple-reflect",
@@ -697,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "n",
           "package": "simple-reflect",
@@ -709,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "o",
           "package": "simple-reflect",
@@ -718,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "o",
           "package": "simple-reflect",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "p",
           "package": "simple-reflect",
@@ -739,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "p",
           "package": "simple-reflect",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "q",
           "package": "simple-reflect",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "q",
           "package": "simple-reflect",
@@ -772,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "r",
           "package": "simple-reflect",
@@ -781,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "r",
           "package": "simple-reflect",
@@ -793,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "s",
           "package": "simple-reflect",
@@ -802,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "s",
           "package": "simple-reflect",
@@ -814,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "t",
           "package": "simple-reflect",
@@ -823,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "t",
           "package": "simple-reflect",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "u",
           "package": "simple-reflect",
@@ -844,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "u",
           "package": "simple-reflect",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "v",
           "package": "simple-reflect",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "v",
           "package": "simple-reflect",
@@ -877,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "w",
           "package": "simple-reflect",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "w",
           "package": "simple-reflect",
@@ -898,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "x",
           "package": "simple-reflect",
@@ -907,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "x",
           "package": "simple-reflect",
@@ -919,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "y",
           "package": "simple-reflect",
@@ -928,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "y",
           "package": "simple-reflect",
@@ -940,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect.Vars",
           "name": "z",
           "package": "simple-reflect",
@@ -949,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Debug SimpleReflect Vars",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect.Vars",
           "name": "z",
           "package": "simple-reflect",
@@ -962,6 +1048,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple reflection of haskell expressions containing variables.\n\u003c/p\u003e\u003cp\u003eSome examples:\n\u003c/p\u003e\u003cpre\u003e \u003e sum [1..5] :: Expr\n 0 + 1 + 2 + 3 + 4 + 5\n\u003c/pre\u003e\u003cpre\u003e \u003e foldr1 f [a,b,c]\n f a (f b c)\n\u003c/pre\u003e\u003cpre\u003e \u003e take 5 (iterate f x)\n [x,f x,f (f x),f (f (f x)),f (f (f (f x)))]\n\u003c/pre\u003e\u003cpre\u003e \u003e mapM_ print $ reduction (1+2*(3+4))\n 1 + 2 * (3 + 4)\n 1 + 2 * 7\n 1 + 14\n 15\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:59 UTC 2014",
           "module": "Debug.SimpleReflect",
           "name": "SimpleReflect",
           "package": "simple-reflect",
@@ -971,6 +1058,7 @@
         "index": {
           "description": "Simple reflection of haskell expressions containing variables Some examples sum Expr foldr1 take iterate mapM print reduction",
           "hierarchy": "Debug SimpleReflect",
+          "indexed": "2014-03-11T20:02:59",
           "module": "Debug.SimpleReflect",
           "name": "SimpleReflect",
           "package": "simple-reflect",

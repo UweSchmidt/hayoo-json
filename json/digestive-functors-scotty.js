@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "digestive-functors-scotty"
+        "phrase": "digestive-functors-scotty",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule providing a scotty backend for the digestive-functors library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:28 UTC 2014",
           "module": "Text.Digestive.Scotty",
           "name": "Scotty",
           "package": "digestive-functors-scotty",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module providing scotty backend for the digestive-functors library",
           "hierarchy": "Text Digestive Scotty",
+          "indexed": "2014-03-11T17:55:28",
           "module": "Text.Digestive.Scotty",
           "name": "Scotty",
           "package": "digestive-functors-scotty",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a form with the HTTP input provided by Scotty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:28 UTC 2014",
           "module": "Text.Digestive.Scotty",
           "name": "runForm",
           "package": "digestive-functors-scotty",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Runs form with the HTTP input provided by Scotty",
           "hierarchy": "Text Digestive Scotty",
+          "indexed": "2014-03-11T17:55:28",
           "module": "Text.Digestive.Scotty",
           "name": "runForm",
           "normalized": "Text-\u003eForm a(ActionT b)c-\u003eActionT b(View a,Maybe c)",

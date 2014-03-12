@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fmark"
+        "phrase": "fmark",
+        "type": "phrase"
       },
       "type": "context"
     }

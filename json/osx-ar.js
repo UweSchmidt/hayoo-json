@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "osx-ar"
+        "phrase": "osx-ar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData.OSXAr is a module for parsing an OS X static archive\n into a list of its member files and its symbol table.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:12 UTC 2014",
           "module": "Data.OSXAr",
           "name": "OSXAr",
           "package": "osx-ar",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Data.OSXAr is module for parsing an OS static archive into list of its member files and its symbol table",
           "hierarchy": "Data OSXAr",
+          "indexed": "2014-03-11T19:33:12",
           "module": "Data.OSXAr",
           "name": "OSXAr",
           "package": "osx-ar",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:12 UTC 2014",
           "module": "Data.OSXAr",
           "name": "ArchiveEntry",
           "package": "osx-ar",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data OSXAr",
+          "indexed": "2014-03-11T19:33:12",
           "module": "Data.OSXAr",
           "name": "ArchiveEntry",
           "package": "osx-ar",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:12 UTC 2014",
           "module": "Data.OSXAr",
           "name": "ArchiveEntry",
           "package": "osx-ar",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data OSXAr",
+          "indexed": "2014-03-11T19:33:12",
           "module": "Data.OSXAr",
           "name": "ArchiveEntry",
           "package": "osx-ar",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:12 UTC 2014",
           "module": "Data.OSXAr",
           "name": "filedata",
           "package": "osx-ar",
@@ -95,6 +102,7 @@
         "index": {
           "description": "File bytes",
           "hierarchy": "Data OSXAr",
+          "indexed": "2014-03-11T19:33:12",
           "module": "Data.OSXAr",
           "name": "filedata",
           "package": "osx-ar",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:12 UTC 2014",
           "module": "Data.OSXAr",
           "name": "filename",
           "package": "osx-ar",
@@ -118,6 +127,7 @@
         "index": {
           "description": "File name",
           "hierarchy": "Data OSXAr",
+          "indexed": "2014-03-11T19:33:12",
           "module": "Data.OSXAr",
           "name": "filename",
           "package": "osx-ar",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:12 UTC 2014",
           "module": "Data.OSXAr",
           "name": "filesize",
           "package": "osx-ar",
@@ -141,6 +152,7 @@
         "index": {
           "description": "File size",
           "hierarchy": "Data OSXAr",
+          "indexed": "2014-03-11T19:33:12",
           "module": "Data.OSXAr",
           "name": "filesize",
           "package": "osx-ar",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an OS X archive into a set of contained objects and a lookup table\n for fast lookup of which member file contains a symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:12 UTC 2014",
           "module": "Data.OSXAr",
           "name": "parseOSXAr",
           "package": "osx-ar",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Parse an OS archive into set of contained objects and lookup table for fast lookup of which member file contains symbol",
           "hierarchy": "Data OSXAr",
+          "indexed": "2014-03-11T19:33:12",
           "module": "Data.OSXAr",
           "name": "parseOSXAr",
           "normalized": "ByteString-\u003e(Map Int ArchiveEntry,Maybe(Map String Int))",

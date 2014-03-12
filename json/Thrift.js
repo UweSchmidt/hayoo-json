@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Thrift"
+        "phrase": "Thrift",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol.Binary",
           "name": "Binary",
           "package": "Thrift",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol Binary",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol.Binary",
           "name": "Binary",
           "package": "Thrift",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol.Binary",
           "name": "BinaryProtocol",
           "package": "Thrift",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol Binary",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol.Binary",
           "name": "BinaryProtocol",
           "package": "Thrift",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol.Binary",
           "name": "BinaryProtocol",
           "package": "Thrift",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol Binary",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol.Binary",
           "name": "BinaryProtocol",
           "package": "Thrift",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "Protocol",
           "package": "Thrift",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "Protocol",
           "package": "Thrift",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "MessageType",
           "package": "Thrift",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "MessageType",
           "package": "Thrift",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "Protocol",
           "package": "Thrift",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "Protocol",
           "package": "Thrift",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "ProtocolExn",
           "package": "Thrift",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "ProtocolExn",
           "package": "Thrift",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "ProtocolExnType",
           "package": "Thrift",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "ProtocolExnType",
           "package": "Thrift",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "ThriftType",
           "package": "Thrift",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "ThriftType",
           "package": "Thrift",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "M_CALL",
           "package": "Thrift",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "M_CALL",
           "package": "Thrift",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "M_EXCEPTION",
           "package": "Thrift",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "M_EXCEPTION",
           "package": "Thrift",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "M_REPLY",
           "package": "Thrift",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "M_REPLY",
           "package": "Thrift",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "PE_BAD_VERSION",
           "package": "Thrift",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "PE_BAD_VERSION",
           "package": "Thrift",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "PE_INVALID_DATA",
           "package": "Thrift",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "PE_INVALID_DATA",
           "package": "Thrift",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "PE_NEGATIVE_SIZE",
           "package": "Thrift",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "PE_NEGATIVE_SIZE",
           "package": "Thrift",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "PE_SIZE_LIMIT",
           "package": "Thrift",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "PE_SIZE_LIMIT",
           "package": "Thrift",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "PE_UNKNOWN",
           "package": "Thrift",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "PE_UNKNOWN",
           "package": "Thrift",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "ProtocolExn",
           "package": "Thrift",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "ProtocolExn",
           "package": "Thrift",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "T_BOOL",
           "package": "Thrift",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "T_BOOL",
           "package": "Thrift",
@@ -428,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "T_BYTE",
           "package": "Thrift",
@@ -437,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "T_BYTE",
           "package": "Thrift",
@@ -450,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "T_DOUBLE",
           "package": "Thrift",
@@ -459,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "T_DOUBLE",
           "package": "Thrift",
@@ -472,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "T_I16",
           "package": "Thrift",
@@ -481,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "T_I16",
           "package": "Thrift",
@@ -493,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "T_I32",
           "package": "Thrift",
@@ -502,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "T_I32",
           "package": "Thrift",
@@ -514,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "T_I64",
           "package": "Thrift",
@@ -523,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "T_I64",
           "package": "Thrift",
@@ -535,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "T_LIST",
           "package": "Thrift",
@@ -544,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "T_LIST",
           "package": "Thrift",
@@ -557,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "T_MAP",
           "package": "Thrift",
@@ -566,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "T_MAP",
           "package": "Thrift",
@@ -579,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "T_SET",
           "package": "Thrift",
@@ -588,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "T_SET",
           "package": "Thrift",
@@ -601,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "T_STOP",
           "package": "Thrift",
@@ -610,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "T_STOP",
           "package": "Thrift",
@@ -623,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "T_STRING",
           "package": "Thrift",
@@ -632,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "T_STRING",
           "package": "Thrift",
@@ -645,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "T_STRUCT",
           "package": "Thrift",
@@ -654,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "T_STRUCT",
           "package": "Thrift",
@@ -667,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "T_VOID",
           "package": "Thrift",
@@ -676,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "T_VOID",
           "package": "Thrift",
@@ -689,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "getTransport",
           "package": "Thrift",
@@ -698,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "getTransport",
           "normalized": "a b-\u003eb",
@@ -713,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readBinary",
           "package": "Thrift",
@@ -722,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readBinary",
           "normalized": "a b-\u003eIO ByteString",
@@ -737,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readBool",
           "package": "Thrift",
@@ -746,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readBool",
           "normalized": "a b-\u003eIO Bool",
@@ -761,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readByte",
           "package": "Thrift",
@@ -770,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readByte",
           "normalized": "a b-\u003eIO Int",
@@ -785,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readDouble",
           "package": "Thrift",
@@ -794,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readDouble",
           "normalized": "a b-\u003eIO Double",
@@ -809,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readFieldBegin",
           "package": "Thrift",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readFieldBegin",
           "normalized": "a b-\u003eIO(String,ThriftType,Int)",
@@ -833,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readFieldEnd",
           "package": "Thrift",
@@ -842,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readFieldEnd",
           "normalized": "a b-\u003eIO()",
@@ -857,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readI16",
           "package": "Thrift",
@@ -866,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readI16",
           "normalized": "a b-\u003eIO Int",
@@ -880,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readI32",
           "package": "Thrift",
@@ -889,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readI32",
           "normalized": "a b-\u003eIO Int",
@@ -903,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readI64",
           "package": "Thrift",
@@ -912,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readI64",
           "normalized": "a b-\u003eIO Int",
@@ -926,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readListBegin",
           "package": "Thrift",
@@ -935,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readListBegin",
           "normalized": "a b-\u003eIO(ThriftType,Int)",
@@ -950,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readListEnd",
           "package": "Thrift",
@@ -959,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readListEnd",
           "normalized": "a b-\u003eIO()",
@@ -974,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readMapBegin",
           "package": "Thrift",
@@ -983,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readMapBegin",
           "normalized": "a b-\u003eIO(ThriftType,ThriftType,Int)",
@@ -998,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readMapEnd",
           "package": "Thrift",
@@ -1007,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readMapEnd",
           "normalized": "a b-\u003eIO()",
@@ -1022,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readMessageBegin",
           "package": "Thrift",
@@ -1031,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readMessageBegin",
           "normalized": "a b-\u003eIO(String,MessageType,Int)",
@@ -1046,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readMessageEnd",
           "package": "Thrift",
@@ -1055,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readMessageEnd",
           "normalized": "a b-\u003eIO()",
@@ -1070,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readSetBegin",
           "package": "Thrift",
@@ -1079,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readSetBegin",
           "normalized": "a b-\u003eIO(ThriftType,Int)",
@@ -1094,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readSetEnd",
           "package": "Thrift",
@@ -1103,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readSetEnd",
           "normalized": "a b-\u003eIO()",
@@ -1118,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readString",
           "package": "Thrift",
@@ -1127,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readString",
           "normalized": "a b-\u003eIO String",
@@ -1142,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readStructBegin",
           "package": "Thrift",
@@ -1151,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readStructBegin",
           "normalized": "a b-\u003eIO String",
@@ -1166,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "readStructEnd",
           "package": "Thrift",
@@ -1175,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "readStructEnd",
           "normalized": "a b-\u003eIO()",
@@ -1190,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "skip",
           "package": "Thrift",
@@ -1199,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "skip",
           "normalized": "a b-\u003eThriftType-\u003eIO()",
@@ -1213,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeBinary",
           "package": "Thrift",
@@ -1222,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeBinary",
           "normalized": "a b-\u003eByteString-\u003eIO()",
@@ -1237,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeBool",
           "package": "Thrift",
@@ -1246,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeBool",
           "normalized": "a b-\u003eBool-\u003eIO()",
@@ -1261,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeByte",
           "package": "Thrift",
@@ -1270,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeByte",
           "normalized": "a b-\u003eInt-\u003eIO()",
@@ -1285,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeDouble",
           "package": "Thrift",
@@ -1294,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeDouble",
           "normalized": "a b-\u003eDouble-\u003eIO()",
@@ -1309,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeFieldBegin",
           "package": "Thrift",
@@ -1318,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeFieldBegin",
           "normalized": "a b-\u003e(String,ThriftType,Int)-\u003eIO()",
@@ -1333,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeFieldEnd",
           "package": "Thrift",
@@ -1342,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeFieldEnd",
           "normalized": "a b-\u003eIO()",
@@ -1357,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeFieldStop",
           "package": "Thrift",
@@ -1366,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeFieldStop",
           "normalized": "a b-\u003eIO()",
@@ -1381,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeI16",
           "package": "Thrift",
@@ -1390,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeI16",
           "normalized": "a b-\u003eInt-\u003eIO()",
@@ -1404,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeI32",
           "package": "Thrift",
@@ -1413,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeI32",
           "normalized": "a b-\u003eInt-\u003eIO()",
@@ -1427,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeI64",
           "package": "Thrift",
@@ -1436,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeI64",
           "normalized": "a b-\u003eInt-\u003eIO()",
@@ -1450,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeListBegin",
           "package": "Thrift",
@@ -1459,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeListBegin",
           "normalized": "a b-\u003e(ThriftType,Int)-\u003eIO()",
@@ -1474,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeListEnd",
           "package": "Thrift",
@@ -1483,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeListEnd",
           "normalized": "a b-\u003eIO()",
@@ -1498,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeMapBegin",
           "package": "Thrift",
@@ -1507,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeMapBegin",
           "normalized": "a b-\u003e(ThriftType,ThriftType,Int)-\u003eIO()",
@@ -1522,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeMapEnd",
           "package": "Thrift",
@@ -1531,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeMapEnd",
           "normalized": "a b-\u003eIO()",
@@ -1546,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeMessageBegin",
           "package": "Thrift",
@@ -1555,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeMessageBegin",
           "normalized": "a b-\u003e(String,MessageType,Int)-\u003eIO()",
@@ -1570,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeMessageEnd",
           "package": "Thrift",
@@ -1579,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeMessageEnd",
           "normalized": "a b-\u003eIO()",
@@ -1594,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeSetBegin",
           "package": "Thrift",
@@ -1603,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeSetBegin",
           "normalized": "a b-\u003e(ThriftType,Int)-\u003eIO()",
@@ -1618,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeSetEnd",
           "package": "Thrift",
@@ -1627,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeSetEnd",
           "normalized": "a b-\u003eIO()",
@@ -1642,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeString",
           "package": "Thrift",
@@ -1651,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeString",
           "normalized": "a b-\u003eString-\u003eIO()",
@@ -1666,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeStructBegin",
           "package": "Thrift",
@@ -1675,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeStructBegin",
           "normalized": "a b-\u003eString-\u003eIO()",
@@ -1690,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Protocol",
           "name": "writeStructEnd",
           "package": "Thrift",
@@ -1699,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Thrift Protocol",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Protocol",
           "name": "writeStructEnd",
           "normalized": "a b-\u003eIO()",
@@ -1714,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Server",
           "name": "Server",
           "package": "Thrift",
@@ -1722,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Thrift Server",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Server",
           "name": "Server",
           "package": "Thrift",
@@ -1736,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic threaded binary protocol socket server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Server",
           "name": "runBasicServer",
           "package": "Thrift",
@@ -1746,6 +1897,7 @@
         "index": {
           "description": "basic threaded binary protocol socket server",
           "hierarchy": "Thrift Server",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Server",
           "name": "runBasicServer",
           "normalized": "a-\u003e(a-\u003e(BinaryProtocol Handle,BinaryProtocol Handle)-\u003eIO Bool)-\u003ePortNumber-\u003eIO b",
@@ -1762,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA threaded sever that is capable of using any Transport or Protocol\n instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Server",
           "name": "runThreadedServer",
           "package": "Thrift",
@@ -1772,6 +1925,7 @@
         "index": {
           "description": "threaded sever that is capable of using any Transport or Protocol instances",
           "hierarchy": "Thrift Server",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Server",
           "name": "runThreadedServer",
           "normalized": "(Socket-\u003eIO(a b,c b))-\u003ed-\u003e(d-\u003e(a b,c b)-\u003eIO Bool)-\u003ePortID-\u003eIO e",
@@ -1787,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport.Framed",
           "name": "Framed",
           "package": "Thrift",
@@ -1795,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport Framed",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport.Framed",
           "name": "Framed",
           "package": "Thrift",
@@ -1809,6 +1965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFramedTransport wraps a given transport in framed mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport.Framed",
           "name": "FramedTransport",
           "package": "Thrift",
@@ -1818,6 +1975,7 @@
         "index": {
           "description": "FramedTransport wraps given transport in framed mode",
           "hierarchy": "Thrift Transport Framed",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport.Framed",
           "name": "FramedTransport",
           "package": "Thrift",
@@ -1832,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new framed transport which wraps the given transport.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport.Framed",
           "name": "openFramedTransport",
           "package": "Thrift",
@@ -1842,6 +2001,7 @@
         "index": {
           "description": "Create new framed transport which wraps the given transport",
           "hierarchy": "Thrift Transport Framed",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport.Framed",
           "name": "openFramedTransport",
           "normalized": "a-\u003eIO(FramedTransport a)",
@@ -1857,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport.Handle",
           "name": "Handle",
           "package": "Thrift",
@@ -1865,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport Handle",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport.Handle",
           "name": "Handle",
           "package": "Thrift",
@@ -1879,6 +2041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for all types that can open a Handle. This class is used to\n replace tOpen in the Transport type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport.Handle",
           "name": "HandleSource",
           "package": "Thrift",
@@ -1888,6 +2051,7 @@
         "index": {
           "description": "Type class for all types that can open Handle This class is used to replace tOpen in the Transport type class",
           "hierarchy": "Thrift Transport Handle",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport.Handle",
           "name": "HandleSource",
           "package": "Thrift",
@@ -1901,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport.Handle",
           "name": "hOpen",
           "package": "Thrift",
@@ -1910,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport Handle",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport.Handle",
           "name": "hOpen",
           "normalized": "a-\u003eIO Handle",
@@ -1925,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport.HttpClient",
           "name": "HttpClient",
           "package": "Thrift",
@@ -1933,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport HttpClient",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport.HttpClient",
           "name": "HttpClient",
           "package": "Thrift",
@@ -1947,6 +2115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHttpClient\u003c/a\u003e\u003c/code\u003e, or THttpClient implements the Thrift Transport\n | Layer over http or https.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport.HttpClient",
           "name": "HttpClient",
           "package": "Thrift",
@@ -1956,6 +2125,7 @@
         "index": {
           "description": "HttpClient or THttpClient implements the Thrift Transport Layer over http or https",
           "hierarchy": "Thrift Transport HttpClient",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport.HttpClient",
           "name": "HttpClient",
           "package": "Thrift",
@@ -1969,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport.HttpClient",
           "name": "HttpClient",
           "package": "Thrift",
@@ -1978,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport HttpClient",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport.HttpClient",
           "name": "HttpClient",
           "package": "Thrift",
@@ -1991,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport.HttpClient",
           "name": "hstream",
           "package": "Thrift",
@@ -2000,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport HttpClient",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport.HttpClient",
           "name": "hstream",
           "package": "Thrift",
@@ -2013,6 +2187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003ccode\u003e\u003ca\u003eopenHttpClient\u003c/a\u003e\u003c/code\u003e to create an HttpClient connected to \u003ccode\u003euri\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport.HttpClient",
           "name": "openHttpClient",
           "package": "Thrift",
@@ -2023,6 +2198,7 @@
         "index": {
           "description": "Use openHttpClient to create an HttpClient connected to uri",
           "hierarchy": "Thrift Transport HttpClient",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport.HttpClient",
           "name": "openHttpClient",
           "normalized": "URI-\u003eIO HttpClient",
@@ -2038,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport.HttpClient",
           "name": "readBuffer",
           "package": "Thrift",
@@ -2047,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport HttpClient",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport.HttpClient",
           "name": "readBuffer",
           "package": "Thrift",
@@ -2060,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport.HttpClient",
           "name": "uri",
           "package": "Thrift",
@@ -2069,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport HttpClient",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport.HttpClient",
           "name": "uri",
           "package": "Thrift",
@@ -2081,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport.HttpClient",
           "name": "writeBuffer",
           "package": "Thrift",
@@ -2090,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport HttpClient",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport.HttpClient",
           "name": "writeBuffer",
           "package": "Thrift",
@@ -2103,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "Transport",
           "package": "Thrift",
@@ -2111,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "Transport",
           "package": "Thrift",
@@ -2124,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "Transport",
           "package": "Thrift",
@@ -2132,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "Transport",
           "package": "Thrift",
@@ -2145,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "TransportExn",
           "package": "Thrift",
@@ -2153,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "TransportExn",
           "package": "Thrift",
@@ -2166,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "TransportExnType",
           "package": "Thrift",
@@ -2174,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "TransportExnType",
           "package": "Thrift",
@@ -2187,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "TE_ALREADY_OPEN",
           "package": "Thrift",
@@ -2196,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "TE_ALREADY_OPEN",
           "package": "Thrift",
@@ -2209,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "TE_END_OF_FILE",
           "package": "Thrift",
@@ -2218,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "TE_END_OF_FILE",
           "package": "Thrift",
@@ -2231,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "TE_NOT_OPEN",
           "package": "Thrift",
@@ -2240,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "TE_NOT_OPEN",
           "package": "Thrift",
@@ -2253,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "TE_TIMED_OUT",
           "package": "Thrift",
@@ -2262,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "TE_TIMED_OUT",
           "package": "Thrift",
@@ -2275,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "TE_UNKNOWN",
           "package": "Thrift",
@@ -2284,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "TE_UNKNOWN",
           "package": "Thrift",
@@ -2297,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "TransportExn",
           "package": "Thrift",
@@ -2306,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "TransportExn",
           "package": "Thrift",
@@ -2319,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "tClose",
           "package": "Thrift",
@@ -2328,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "tClose",
           "normalized": "a-\u003eIO()",
@@ -2343,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "tFlush",
           "package": "Thrift",
@@ -2352,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "tFlush",
           "normalized": "a-\u003eIO()",
@@ -2367,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "tIsOpen",
           "package": "Thrift",
@@ -2376,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "tIsOpen",
           "normalized": "a-\u003eIO Bool",
@@ -2391,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "tRead",
           "package": "Thrift",
@@ -2400,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "tRead",
           "normalized": "a-\u003eInt-\u003eIO ByteString",
@@ -2415,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "tReadAll",
           "package": "Thrift",
@@ -2424,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "tReadAll",
           "normalized": "a-\u003eInt-\u003eIO ByteString",
@@ -2439,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift.Transport",
           "name": "tWrite",
           "package": "Thrift",
@@ -2448,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "Thrift Transport",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift.Transport",
           "name": "tWrite",
           "normalized": "a-\u003eByteString-\u003eIO()",
@@ -2463,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "Thrift",
           "package": "Thrift",
@@ -2471,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "Thrift",
           "package": "Thrift",
@@ -2484,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "AppExn",
           "package": "Thrift",
@@ -2492,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "AppExn",
           "package": "Thrift",
@@ -2505,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "AppExnType",
           "package": "Thrift",
@@ -2513,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "AppExnType",
           "package": "Thrift",
@@ -2526,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "ThriftException",
           "package": "Thrift",
@@ -2534,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "ThriftException",
           "package": "Thrift",
@@ -2547,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "AE_BAD_SEQUENCE_ID",
           "package": "Thrift",
@@ -2556,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "AE_BAD_SEQUENCE_ID",
           "package": "Thrift",
@@ -2569,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "AE_INVALID_MESSAGE_TYPE",
           "package": "Thrift",
@@ -2578,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "AE_INVALID_MESSAGE_TYPE",
           "package": "Thrift",
@@ -2591,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "AE_MISSING_RESULT",
           "package": "Thrift",
@@ -2600,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "AE_MISSING_RESULT",
           "package": "Thrift",
@@ -2613,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "AE_UNKNOWN",
           "package": "Thrift",
@@ -2622,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "AE_UNKNOWN",
           "package": "Thrift",
@@ -2635,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "AE_UNKNOWN_METHOD",
           "package": "Thrift",
@@ -2644,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "AE_UNKNOWN_METHOD",
           "package": "Thrift",
@@ -2657,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "AE_WRONG_METHOD_NAME",
           "package": "Thrift",
@@ -2666,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "AE_WRONG_METHOD_NAME",
           "package": "Thrift",
@@ -2679,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "AppExn",
           "package": "Thrift",
@@ -2688,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "AppExn",
           "package": "Thrift",
@@ -2701,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "ThriftException",
           "package": "Thrift",
@@ -2710,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "ThriftException",
           "package": "Thrift",
@@ -2723,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "ae_message",
           "package": "Thrift",
@@ -2732,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "ae_message",
           "package": "Thrift",
@@ -2744,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "ae_type",
           "package": "Thrift",
@@ -2753,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "ae_type",
           "package": "Thrift",
@@ -2765,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "readAppExn",
           "package": "Thrift",
@@ -2774,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "readAppExn",
           "normalized": "a b-\u003eIO AppExn",
@@ -2789,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:21 UTC 2014",
           "module": "Thrift",
           "name": "writeAppExn",
           "package": "Thrift",
@@ -2798,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Thrift",
+          "indexed": "2014-03-11T17:02:21",
           "module": "Thrift",
           "name": "writeAppExn",
           "normalized": "a b-\u003eAppExn-\u003eIO()",

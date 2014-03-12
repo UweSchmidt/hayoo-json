@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cassette"
+        "phrase": "cassette",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "Char",
           "package": "cassette",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "Char",
           "package": "cassette",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "alphaNum",
           "package": "cassette",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "alphaNum",
           "package": "cassette",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "anyChar",
           "package": "cassette",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "anyChar",
           "package": "cassette",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specific character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "char",
           "package": "cassette",
@@ -94,6 +101,7 @@
         "index": {
           "description": "specific character",
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "char",
           "normalized": "Char-\u003ePP",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "digit",
           "package": "cassette",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "digit",
           "package": "cassette",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "hexDigit",
           "package": "cassette",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "hexDigit",
           "package": "cassette",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "letter",
           "package": "cassette",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "letter",
           "package": "cassette",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "lower",
           "package": "cassette",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "lower",
           "package": "cassette",
@@ -194,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a newline character ('\\n').\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "newline",
           "package": "cassette",
@@ -204,6 +221,7 @@
         "index": {
           "description": "Parses newline character",
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "newline",
           "package": "cassette",
@@ -217,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDual of \u003ccode\u003e\u003ca\u003eoneOf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "noneOf",
           "package": "cassette",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Dual of oneOf",
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "noneOf",
           "normalized": "[Char]-\u003ePP Char",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "octDigit",
           "package": "cassette",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "octDigit",
           "package": "cassette",
@@ -265,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds if the current character is in the supplied list of characters.\n See also \u003ccode\u003e\u003ca\u003esatisfy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e vowel = oneOf \"aeiou\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "oneOf",
           "package": "cassette",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Succeeds if the current character is in the supplied list of characters See also satisfy vowel oneOf aeiou",
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "oneOf",
           "normalized": "[Char]-\u003ePP Char",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eoptSpace\u003c/a\u003e\u003c/code\u003e marks a position where whitespace is desired to occur.\n It accepts arbitrary space while parsing, and produces a\n single space character while printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "optSpace",
           "package": "cassette",
@@ -301,6 +326,7 @@
         "index": {
           "description": "optSpace marks position where whitespace is desired to occur It accepts arbitrary space while parsing and produces single space character while printing",
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "optSpace",
           "package": "cassette",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esepSpace\u003c/a\u003e\u003c/code\u003e marks a position where whitespace is required to\n occur. It requires one or more space characters while parsing,\n and produces a single space character while printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "sepSpace",
           "package": "cassette",
@@ -325,6 +352,7 @@
         "index": {
           "description": "sepSpace marks position where whitespace is required to occur It requires one or more space characters while parsing and produces single space character while printing",
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "sepSpace",
           "package": "cassette",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esatisfy\u003c/a\u003e\u003c/code\u003e combinator, unshifted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "skip",
           "package": "cassette",
@@ -349,6 +378,7 @@
         "index": {
           "description": "The satisfy combinator unshifted",
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "skip",
           "normalized": "(Char-\u003eBool)-\u003eChar-\u003ePP",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eskipSpace\u003c/a\u003e\u003c/code\u003e marks a position where whitespace is allowed to\n occur. It accepts arbitrary space while parsing, and produces\n no space while printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "skipSpace",
           "package": "cassette",
@@ -374,6 +405,7 @@
         "index": {
           "description": "skipSpace marks position where whitespace is allowed to occur It accepts arbitrary space while parsing and produces no space while printing",
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "skipSpace",
           "package": "cassette",
@@ -388,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a tab character ('\\t').\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "tab",
           "package": "cassette",
@@ -398,6 +431,7 @@
         "index": {
           "description": "Parses tab character",
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "tab",
           "package": "cassette",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Char",
           "name": "upper",
           "package": "cassette",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Char",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Char",
           "name": "upper",
           "package": "cassette",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "Combinator",
           "package": "cassette",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "Combinator",
           "package": "cassette",
@@ -453,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003echainl p op x\u003c/code\u003e matches zero or more occurrences of \u003ccode\u003ep\u003c/code\u003e, separated by\n \u003ccode\u003eop\u003c/code\u003e. Returns a value obtained by a \u003cem\u003eleft associative\u003c/em\u003e application of all\n functions returned by \u003ccode\u003eop\u003c/code\u003e to the values returned by \u003ccode\u003ep\u003c/code\u003e. If there are zero\n occurrences of \u003ccode\u003ep\u003c/code\u003e, the value \u003ccode\u003ex\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "chainl",
           "package": "cassette",
@@ -463,6 +502,7 @@
         "index": {
           "description": "chainl op matches zero or more occurrences of separated by op Returns value obtained by left associative application of all functions returned by op to the values returned by If there are zero occurrences of the value is returned",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "chainl",
           "normalized": "PP-\u003eBinL a a a-\u003ePP a-\u003ea-\u003ePP a",
@@ -478,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a a left-associative chain of infix operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "chainl1",
           "package": "cassette",
@@ -488,6 +529,7 @@
         "index": {
           "description": "Match left-associative chain of infix operators",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "chainl1",
           "normalized": "PP-\u003eBinL a a a-\u003ePP a-\u003ePP a",
@@ -503,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003echainr p op x\u003c/code\u003e matches zero or more occurrences of \u003ccode\u003ep\u003c/code\u003e, separated by\n \u003ccode\u003eop\u003c/code\u003e. Returns a value obtained by a \u003cem\u003eright associative\u003c/em\u003e application of all\n functions returned by \u003ccode\u003eop\u003c/code\u003e to the values returned by \u003ccode\u003ep\u003c/code\u003e. If there are zero\n occurrences of \u003ccode\u003ep\u003c/code\u003e, the value \u003ccode\u003ex\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "chainr",
           "package": "cassette",
@@ -513,6 +556,7 @@
         "index": {
           "description": "chainr op matches zero or more occurrences of separated by op Returns value obtained by right associative application of all functions returned by op to the values returned by If there are zero occurrences of the value is returned",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "chainr",
           "normalized": "PP-\u003eBinL a a a-\u003ePP a-\u003ea-\u003ePP a",
@@ -528,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a a right-associative chain of infix operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "chainr1",
           "package": "cassette",
@@ -538,6 +583,7 @@
         "index": {
           "description": "Match right-associative chain of infix operators",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "chainr1",
           "normalized": "PP-\u003eBinL a a a-\u003ePP a-\u003ePP a",
@@ -553,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies each cassette in the supplied list in order, until one of them\n succeeds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "choice",
           "package": "cassette",
@@ -563,6 +610,7 @@
         "index": {
           "description": "Applies each cassette in the supplied list in order until one of them succeeds",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "choice",
           "normalized": "[PP a]-\u003ePP a",
@@ -578,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecount n p\u003c/code\u003e matches \u003ccode\u003en\u003c/code\u003e occurrences of \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "count",
           "package": "cassette",
@@ -588,6 +637,7 @@
         "index": {
           "description": "count matches occurrences of",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "count",
           "normalized": "Int-\u003ePP a-\u003ePP[a]",
@@ -603,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the given cassette zero or more times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "many",
           "package": "cassette",
@@ -613,6 +664,7 @@
         "index": {
           "description": "Apply the given cassette zero or more times",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "many",
           "normalized": "PP a-\u003ePP[a]",
@@ -628,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the given cassette one or more times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "many1",
           "package": "cassette",
@@ -638,6 +691,7 @@
         "index": {
           "description": "Apply the given cassette one or more times",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "many1",
           "normalized": "PP a-\u003ePP[a]",
@@ -653,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies first argument zero or more times until second argument succeeds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "manyTill",
           "package": "cassette",
@@ -663,6 +718,7 @@
         "index": {
           "description": "Applies first argument zero or more times until second argument succeeds",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "manyTill",
           "normalized": "PP a-\u003ePP-\u003ePP[a]",
@@ -679,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enotFollowedBy p\u003c/code\u003e only succeeds when \u003ccode\u003ep\u003c/code\u003e fails. This combinator does\n not consume/produce any input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "notFollowedBy",
           "package": "cassette",
@@ -689,6 +746,7 @@
         "index": {
           "description": "notFollowedBy only succeeds when fails This combinator does not consume produce any input",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "notFollowedBy",
           "normalized": "PP-\u003ePP",
@@ -705,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to apply the given cassette. It returns the value of the cassette\n on success, the first argument otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "option",
           "package": "cassette",
@@ -715,6 +774,7 @@
         "index": {
           "description": "Tries to apply the given cassette It returns the value of the cassette on success the first argument otherwise",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "option",
           "normalized": "a-\u003ePP a-\u003ePP a",
@@ -730,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to apply the given cassette. It returns a value of the form \u003ccode\u003eJust\n x\u003c/code\u003e on success, \u003ccode\u003eNothing\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "optionMaybe",
           "package": "cassette",
@@ -740,6 +801,7 @@
         "index": {
           "description": "Tries to apply the given cassette It returns value of the form Just on success Nothing otherwise",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "optionMaybe",
           "normalized": "PP a-\u003ePP(Maybe a)",
@@ -756,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to match the given cassette and discards the result, otherwise does\n nothing in case of failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "optional",
           "package": "cassette",
@@ -766,6 +829,7 @@
         "index": {
           "description": "Tries to match the given cassette and discards the result otherwise does nothing in case of failure",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "optional",
           "normalized": "PP a-\u003ePP",
@@ -781,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the first argument zero or more times, separated by the second\n argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "sepBy",
           "package": "cassette",
@@ -791,6 +856,7 @@
         "index": {
           "description": "Apply the first argument zero or more times separated by the second argument",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "sepBy",
           "normalized": "PP a-\u003ePP-\u003ePP[a]",
@@ -807,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the first argument one or more times, separated by the second\n argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "sepBy1",
           "package": "cassette",
@@ -817,6 +884,7 @@
         "index": {
           "description": "Apply the first argument one or more times separated by the second argument",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "sepBy1",
           "normalized": "PP a-\u003ePP-\u003ePP[a]",
@@ -833,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the given cassette zero or more times, discarding the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "skipMany",
           "package": "cassette",
@@ -843,6 +912,7 @@
         "index": {
           "description": "Apply the given cassette zero or more times discarding the result",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "skipMany",
           "normalized": "PP a-\u003ePP",
@@ -859,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the given cassette one or more times, discarding the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Combinator",
           "name": "skipMany1",
           "package": "cassette",
@@ -869,6 +940,7 @@
         "index": {
           "description": "Apply the given cassette one or more times discarding the result",
           "hierarchy": "Text Cassette Combinator",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Combinator",
           "name": "skipMany1",
           "normalized": "PP a-\u003ePP",
@@ -884,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Lead",
           "name": "Lead",
           "package": "cassette",
@@ -892,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Lead",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Lead",
           "name": "Lead",
           "package": "cassette",
@@ -906,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of binary leads, parameterized by the type of the left operand,\n the right operand, and the type of the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Lead",
           "name": "BinL",
           "package": "cassette",
@@ -915,6 +990,7 @@
         "index": {
           "description": "The type of binary leads parameterized by the type of the left operand the right operand and the type of the result",
           "hierarchy": "Text Cassette Lead",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Lead",
           "name": "BinL",
           "package": "cassette",
@@ -929,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of binary leads, parameterized by the type of the left operand,\n the right operand, and the type of the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Lead",
           "name": "UnL",
           "package": "cassette",
@@ -938,6 +1015,7 @@
         "index": {
           "description": "The type of binary leads parameterized by the type of the left operand the right operand and the type of the result",
           "hierarchy": "Text Cassette Lead",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Lead",
           "name": "UnL",
           "package": "cassette",
@@ -952,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIterates a one step construction function (resp. deconstruction)\n function, i.e. a lead, thus obtaining a left fold (resp. unfold). The\n resulting lead is a catamorphism on one side and an anamorpism on the\n other, hence the name. The type of this function is the same as that of\n \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e, lifted to cassettes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Lead",
           "name": "catanal",
           "package": "cassette",
@@ -962,6 +1041,7 @@
         "index": {
           "description": "Iterates one step construction function resp deconstruction function i.e lead thus obtaining left fold resp unfold The resulting lead is catamorphism on one side and an anamorpism on the other hence the name The type of this function is the same as that of foldl lifted to cassettes",
           "hierarchy": "Text Cassette Lead",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Lead",
           "name": "catanal",
           "normalized": "BinL a b a-\u003eBinL a[b]a",
@@ -977,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIterates a one step construction function (resp. deconstruction)\n function, i.e. a lead, thus obtaining a right fold (resp. unfold). The\n resulting lead is a catamorphism on one side and an anamorpism on the\n other, hence the name. The type of this function is the same as that of\n \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e, lifted to cassettes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Lead",
           "name": "catanar",
           "package": "cassette",
@@ -987,6 +1068,7 @@
         "index": {
           "description": "Iterates one step construction function resp deconstruction function i.e lead thus obtaining right fold resp unfold The resulting lead is catamorphism on one side and an anamorpism on the other hence the name The type of this function is the same as that of foldr lifted to cassettes",
           "hierarchy": "Text Cassette Lead",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Lead",
           "name": "catanar",
           "normalized": "BinL a b b-\u003eBinL b[a]b",
@@ -1001,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Lead",
           "name": "consL",
           "package": "cassette",
@@ -1010,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Lead",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Lead",
           "name": "consL",
           "normalized": "BinL a[a][a]",
@@ -1024,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Lead",
           "name": "justL",
           "package": "cassette",
@@ -1033,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Lead",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Lead",
           "name": "justL",
           "package": "cassette",
@@ -1046,6 +1132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a pair of symmetric functions to a lead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Lead",
           "name": "liftL",
           "package": "cassette",
@@ -1056,6 +1143,7 @@
         "index": {
           "description": "Lift pair of symmetric functions to lead",
           "hierarchy": "Text Cassette Lead",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Lead",
           "name": "liftL",
           "normalized": "Sym a b-\u003eUnL a b",
@@ -1070,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Lead",
           "name": "nilL",
           "package": "cassette",
@@ -1079,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Lead",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Lead",
           "name": "nilL",
           "normalized": "PP[a]",
@@ -1093,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Lead",
           "name": "nothingL",
           "package": "cassette",
@@ -1102,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Lead",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Lead",
           "name": "nothingL",
           "package": "cassette",
@@ -1114,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Lead",
           "name": "pairL",
           "package": "cassette",
@@ -1123,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Lead",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Lead",
           "name": "pairL",
           "normalized": "BinL a b(a,b)",
@@ -1137,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Lead",
           "name": "quadrupleL",
           "package": "cassette",
@@ -1146,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Lead",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Lead",
           "name": "quadrupleL",
           "normalized": "K(C((a,b,c,d)-\u003ee))(C(d-\u003ec-\u003eb-\u003ea-\u003ee))(C((a,b,c,d)-\u003ef))(C(d-\u003ec-\u003eb-\u003ea-\u003ef))",
@@ -1160,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Lead",
           "name": "tripleL",
           "package": "cassette",
@@ -1169,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Lead",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Lead",
           "name": "tripleL",
           "normalized": "K(C((a,b,c)-\u003ed))(C(c-\u003eb-\u003ea-\u003ed))(C((a,b,c)-\u003ee))(C(c-\u003eb-\u003ea-\u003ee))",
@@ -1184,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports combinators for parsing number literals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Number",
           "name": "Number",
           "package": "cassette",
@@ -1193,6 +1292,7 @@
         "index": {
           "description": "This module exports combinators for parsing number literals",
           "hierarchy": "Text Cassette Number",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Number",
           "name": "Number",
           "package": "cassette",
@@ -1207,6 +1307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn integer literal, positive or negative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Number",
           "name": "int",
           "package": "cassette",
@@ -1217,6 +1318,7 @@
         "index": {
           "description": "An integer literal positive or negative",
           "hierarchy": "Text Cassette Number",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Number",
           "name": "int",
           "package": "cassette",
@@ -1229,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "Prim",
           "package": "cassette",
@@ -1237,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "Prim",
           "package": "cassette",
@@ -1251,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of string transformers in CPS, \u003cem\u003ei.e.\u003c/em\u003e functions from strings to\n strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "C",
           "package": "cassette",
@@ -1260,6 +1365,7 @@
         "index": {
           "description": "The type of string transformers in CPS i.e functions from strings to strings",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "C",
           "package": "cassette",
@@ -1273,6 +1379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cassette consists of two tracks, represented by functions. The\n functions on each track are not necessarily inverses of each other, and do\n not necessarily connect the same start and end types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "K7",
           "package": "cassette",
@@ -1282,6 +1389,7 @@
         "index": {
           "description": "cassette consists of two tracks represented by functions The functions on each track are not necessarily inverses of each other and do not necessarily connect the same start and end types",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "K7",
           "package": "cassette",
@@ -1295,6 +1403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of cassettes with a string transformer on each side. The A-side\n produces a value in addition to transforming the string, \u003cem\u003ei.e.\u003c/em\u003e it is a\n parser. The B-side consumes a value to transform the string, \u003cem\u003ei.e.\u003c/em\u003e it is a\n printer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "PP",
           "package": "cassette",
@@ -1304,6 +1413,7 @@
         "index": {
           "description": "The type of cassettes with string transformer on each side The A-side produces value in addition to transforming the string i.e it is parser The B-side consumes value to transform the string i.e it is printer",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "PP",
           "package": "cassette",
@@ -1317,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "PP0",
           "package": "cassette",
@@ -1325,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "PP0",
           "package": "cassette",
@@ -1339,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric cassettes do have functions that are inverses of each other on\n each track. Symmetric cassettes form a category under splicing (see\n '(\u003ca/\u003e)').\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "Sym",
           "package": "cassette",
@@ -1348,6 +1461,7 @@
         "index": {
           "description": "Symmetric cassettes do have functions that are inverses of each other on each track Symmetric cassettes form category under splicing see",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "Sym",
           "package": "cassette",
@@ -1362,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synonym to '(\u003ca/\u003e)' with its arguments flipped and with lower precedence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "(--\u003e)",
           "package": "cassette",
@@ -1372,6 +1487,7 @@
         "index": {
           "description": "synonym to with its arguments flipped and with lower precedence",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "(--\u003e) --\u003e",
           "normalized": "K a b c d-\u003eK b e d f-\u003eK a e c f",
@@ -1387,6 +1503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoice operator. If the first cassette fails, then try the second parser.\n Note that this is an unrestricted backtracking operator: it never commits\n to any particular choice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "(\u003c|\u003e)",
           "package": "cassette",
@@ -1397,6 +1514,7 @@
         "index": {
           "description": "Choice operator If the first cassette fails then try the second parser Note that this is an unrestricted backtracking operator it never commits to any particular choice",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "PP a-\u003ePP a-\u003ePP a",
@@ -1412,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTape splicing operator. Functions on each track are composed pairwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "(\u003c\u003e)",
           "package": "cassette",
@@ -1422,6 +1541,7 @@
         "index": {
           "description": "Tape splicing operator Functions on each track are composed pairwise",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "K a b c d-\u003eK e a f c-\u003eK e b f d",
@@ -1436,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "K7",
           "package": "cassette",
@@ -1445,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "K7",
           "package": "cassette",
@@ -1457,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "Sym",
           "package": "cassette",
@@ -1466,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "Sym",
           "package": "cassette",
@@ -1480,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "empty",
           "package": "cassette",
@@ -1490,6 +1615,7 @@
         "index": {
           "description": "Always fail",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "empty",
           "package": "cassette",
@@ -1503,6 +1629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds if input string is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "eof",
           "package": "cassette",
@@ -1513,6 +1640,7 @@
         "index": {
           "description": "Succeeds if input string is empty",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "eof",
           "package": "cassette",
@@ -1526,6 +1654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitch the A-side and B-side around.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "flip",
           "package": "cassette",
@@ -1536,6 +1665,7 @@
         "index": {
           "description": "Switch the A-side and B-side around",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "flip",
           "normalized": "K a b c d-\u003eK d c b a",
@@ -1551,6 +1681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse\u003cem\u003eprint without consuming\u003c/em\u003eproducing any input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "lookAhead",
           "package": "cassette",
@@ -1561,6 +1692,7 @@
         "index": {
           "description": "Parse print without consuming producing any input",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "lookAhead",
           "normalized": "PP a-\u003ePP a",
@@ -1577,6 +1709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "nothing",
           "package": "cassette",
@@ -1587,6 +1720,7 @@
         "index": {
           "description": "Do nothing",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "nothing",
           "package": "cassette",
@@ -1600,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the parser from a cassette.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "parse",
           "package": "cassette",
@@ -1610,6 +1745,7 @@
         "index": {
           "description": "Extract the parser from cassette",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "parse",
           "normalized": "PP a-\u003eString-\u003eMaybe a",
@@ -1625,6 +1761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect the A-side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "play",
           "package": "cassette",
@@ -1635,6 +1772,7 @@
         "index": {
           "description": "Select the A-side",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "play",
           "normalized": "K a b c d-\u003ea-\u003eb",
@@ -1650,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlip the cassette around to extract the pretty printer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "pretty",
           "package": "cassette",
@@ -1660,6 +1799,7 @@
         "index": {
           "description": "Flip the cassette around to extract the pretty printer",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "pretty",
           "normalized": "PP a-\u003ea-\u003eMaybe String",
@@ -1675,6 +1815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuccessful only if predicate holds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "satisfy",
           "package": "cassette",
@@ -1685,6 +1826,7 @@
         "index": {
           "description": "Successful only if predicate holds",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "satisfy",
           "normalized": "(Char-\u003eBool)-\u003ePP Char",
@@ -1700,6 +1842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn the given pure transformer into a parsing/printing pair. That is,\n return a cassette that produces and output on the one side, and consumes an\n input on the other, in addition to the string transformations of the given\n pure transformer. \u003ccode\u003eshift x p\u003c/code\u003e produces \u003ccode\u003ex\u003c/code\u003e as the output of \u003ccode\u003ep\u003c/code\u003e on the\n parsing side, and on the printing side accepts an input that is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "shift",
           "package": "cassette",
@@ -1710,6 +1853,7 @@
         "index": {
           "description": "Turn the given pure transformer into parsing printing pair That is return cassette that produces and output on the one side and consumes an input on the other in addition to the string transformations of the given pure transformer shift produces as the output of on the parsing side and on the printing side accepts an input that is ignored",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "shift",
           "normalized": "a-\u003ePP-\u003ePP a",
@@ -1724,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "sideA",
           "package": "cassette",
@@ -1733,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "sideA",
           "normalized": "a-\u003eb",
@@ -1747,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "sideB",
           "package": "cassette",
@@ -1756,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "sideB",
           "normalized": "a-\u003eb",
@@ -1771,6 +1919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip\u003cem\u003eadd the given string from\u003c/em\u003eto the output string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "string",
           "package": "cassette",
@@ -1781,6 +1930,7 @@
         "index": {
           "description": "Strip add the given string from to the output string",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "string",
           "normalized": "String-\u003ePP",
@@ -1795,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "unSym",
           "package": "cassette",
@@ -1804,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "unSym",
           "package": "cassette",
@@ -1818,6 +1970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn the given cassette into a pure string transformer. That is, return a\n cassette that does not produce an output or consume an input. \u003ccode\u003eunshift x p\u003c/code\u003e\n throws away the output of \u003ccode\u003ep\u003c/code\u003e on the parsing side, and on the printing side\n sets the input to \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette.Prim",
           "name": "unshift",
           "package": "cassette",
@@ -1828,6 +1981,7 @@
         "index": {
           "description": "Turn the given cassette into pure string transformer That is return cassette that does not produce an output or consume an input unshift throws away the output of on the parsing side and on the printing side sets the input to",
           "hierarchy": "Text Cassette Prim",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette.Prim",
           "name": "unshift",
           "normalized": "a-\u003ePP a-\u003ePP",
@@ -1843,6 +1997,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe combinators of this library are all pairs of functions going in\n opposite directions. These pairs are called \u003cem\u003ecassettes\u003c/em\u003e, sporting two\n tracks (the two functions), one of which is read is one direction, the\n other of which (accessed by flipping the cassette) is read in the opossite\n direction.\n\u003c/p\u003e\u003cp\u003eHere is an example specification for the lambda-calculus:\n\u003c/p\u003e\u003cpre\u003e varL = K7 leadout leadin where\n   leadout k k' s x = k (\\ s _ -\u003e k' s x) s (Var x)\n   leadin k k' s t@(Var x)  = k (\\ s _ -\u003e k' s t) s x\n   leadin k k' s t          = k' s t\n\n absL = K7 leadout leadin where\n   leadout k k' s t' x = k (\\ s _ -\u003e k' s t' x) s (Lam x t')\n   leadin k k' s t@(Lam x t)  = k (\\ s _ _ -\u003e k' s t) s t x\n   leadin k k' s t            = k' s t\n\n appL = K7 leadout leadin where\n   leadout k s t2 t1 = k (\\ s _ -\u003e k' s t2 t1) s (App t1 t2)\n   leadin k k' s t@(App t1 t2)  = k (\\ s _ _ -\u003e k' s t) s t2 t1\n   leadin k k' s t            = k' s t\n\n parens p = char '(' \u003c\u003e p \u003c\u003e char ')'\n\n term :: PP Term\n term  =   varL --\u003e ident\n       \u003c|\u003e absL --\u003e char '\\' \u003c\u003e ident \u003c\u003e term\n       \u003c|\u003e appL --\u003e parens (term \u003c\u003e sepSpace \u003c\u003e term)\n\u003c/pre\u003e\u003cp\u003eFrom this single specification, we can extract a parser,\n\u003c/p\u003e\u003cpre\u003e parse term :: PP Term -\u003e String -\u003e Maybe Term\n\u003c/pre\u003e\u003cp\u003eand also a pretty printer,\n\u003c/p\u003e\u003cpre\u003e pretty term :: PP Term -\u003e Term -\u003e Maybe String\n\u003c/pre\u003e\u003cp\u003eSpecifications are built from primitive and derived combinators, which\n affect the input string in some way. For each constructor of each datatype,\n we need to write a \u003cem\u003elead\u003c/em\u003e, which is a pair of a construction function and a\n destruction function. Leads are pure combinators that do not affect the\n input string. By convention, we suffix their name with \u003ca\u003eL\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eInternally, the primitive combinators are written in CPS. Leads also need\n to be written in this style, being primitive. They can, however, be\n automatically generated for every datatype using some Template Haskell\n hackery (in a separate package). A number of leads for standard datatypes\n are defined in the \u003ccode\u003e\u003ca\u003eLead\u003c/a\u003e\u003c/code\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:16 UTC 2014",
           "module": "Text.Cassette",
           "name": "Cassette",
           "package": "cassette",
@@ -1852,6 +2007,7 @@
         "index": {
           "description": "The combinators of this library are all pairs of functions going in opposite directions These pairs are called cassettes sporting two tracks the two functions one of which is read is one direction the other of which accessed by flipping the cassette is read in the opossite direction Here is an example specification for the lambda-calculus varL K7 leadout leadin where leadout Var leadin Var leadin absL K7 leadout leadin where leadout Lam leadin Lam leadin appL K7 leadout leadin where leadout t2 t1 t2 t1 App t1 t2 leadin App t1 t2 t2 t1 leadin parens char char term PP Term term varL ident absL char ident term appL parens term sepSpace term From this single specification we can extract parser parse term PP Term String Maybe Term and also pretty printer pretty term PP Term Term Maybe String Specifications are built from primitive and derived combinators which affect the input string in some way For each constructor of each datatype we need to write lead which is pair of construction function and destruction function Leads are pure combinators that do not affect the input string By convention we suffix their name with Internally the primitive combinators are written in CPS Leads also need to be written in this style being primitive They can however be automatically generated for every datatype using some Template Haskell hackery in separate package number of leads for standard datatypes are defined in the Lead module",
           "hierarchy": "Text Cassette",
+          "indexed": "2014-03-11T17:30:16",
           "module": "Text.Cassette",
           "name": "Cassette",
           "package": "cassette",

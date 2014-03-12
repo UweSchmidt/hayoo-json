@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "binding-gtk"
+        "phrase": "binding-gtk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:22 UTC 2014",
           "module": "Graphics.UI.Gtk.Binding",
           "name": "Binding",
           "package": "binding-gtk",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Binding",
+          "indexed": "2014-03-11T17:19:22",
           "module": "Graphics.UI.Gtk.Binding",
           "name": "Binding",
           "package": "binding-gtk",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a two-way data binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:22 UTC 2014",
           "module": "Graphics.UI.Gtk.Binding",
           "name": "bindControl",
           "package": "binding-gtk",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Create two-way data binding",
           "hierarchy": "Graphics UI Gtk Binding",
+          "indexed": "2014-03-11T17:19:22",
           "module": "Graphics.UI.Gtk.Binding",
           "name": "bindControl",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ed-\u003eAttr d c-\u003e(b-\u003ec-\u003eb)-\u003eIO(ConnectId d)",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind from a control to a \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e.\n The source is updated when the control loses focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:22 UTC 2014",
           "module": "Graphics.UI.Gtk.Binding",
           "name": "bindFromControl",
           "package": "binding-gtk",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Bind from control to Source The source is updated when the control loses focus",
           "hierarchy": "Graphics UI Gtk Binding",
+          "indexed": "2014-03-11T17:19:22",
           "module": "Graphics.UI.Gtk.Binding",
           "name": "bindFromControl",
           "normalized": "a-\u003eAttr a b-\u003e(c-\u003eb-\u003ec)-\u003ed c-\u003eIO(ConnectId a)",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a simple two-way data binding for a \u003ccode\u003eTextual\u003c/code\u003e control.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:22 UTC 2014",
           "module": "Graphics.UI.Gtk.Binding",
           "name": "bindTextEntry",
           "package": "binding-gtk",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Create simple two-way data binding for Textual control",
           "hierarchy": "Graphics UI Gtk Binding",
+          "indexed": "2014-03-11T17:19:22",
           "module": "Graphics.UI.Gtk.Binding",
           "name": "bindTextEntry",
           "normalized": "a b-\u003ec-\u003eIO(ConnectId c)",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind a \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e to a control.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:22 UTC 2014",
           "module": "Graphics.UI.Gtk.Binding",
           "name": "bindToControl",
           "package": "binding-gtk",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Bind Source to control",
           "hierarchy": "Graphics UI Gtk Binding",
+          "indexed": "2014-03-11T17:19:22",
           "module": "Graphics.UI.Gtk.Binding",
           "name": "bindToControl",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ed-\u003eAttr d c-\u003eIO()",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a set of navigation buttons for a binding list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:22 UTC 2014",
           "module": "Graphics.UI.Gtk.Binding",
           "name": "navigation",
           "package": "binding-gtk",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Create set of navigation buttons for binding list",
           "hierarchy": "Graphics UI Gtk Binding",
+          "indexed": "2014-03-11T17:19:22",
           "module": "Graphics.UI.Gtk.Binding",
           "name": "navigation",
           "normalized": "BindingList a b-\u003eb-\u003eIO HButtonBox",

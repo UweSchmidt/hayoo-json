@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell98"
+        "phrase": "haskell98",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Array",
           "name": "Array",
           "package": "haskell98",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Array",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Array",
           "name": "Array",
           "package": "haskell98",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of immutable non-strict (boxed) arrays\n with indices in \u003ccode\u003ei\u003c/code\u003e and elements in \u003ccode\u003ee\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Array",
           "name": "Array",
           "package": "haskell98",
@@ -48,6 +51,7 @@
         "index": {
           "description": "The type of immutable non-strict boxed arrays with indices in and elements in",
           "hierarchy": "Array",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Array",
           "name": "Array",
           "package": "haskell98",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value at the given index in an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Array",
           "name": "(!)",
           "package": "haskell98",
@@ -71,6 +76,7 @@
         "index": {
           "description": "The value at the given index in an array",
           "hierarchy": "Array",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Array",
           "name": "(!) !",
           "normalized": "Array a b-\u003ea-\u003eb",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an array identical to the first argument except that it has\n been updated by the associations in the right argument.\n For example, if \u003ccode\u003em\u003c/code\u003e is a 1-origin, \u003ccode\u003en\u003c/code\u003e by \u003ccode\u003en\u003c/code\u003e matrix, then\n\u003c/p\u003e\u003cpre\u003e m//[((i,i), 0) | i \u003c- [1..n]]\n\u003c/pre\u003e\u003cp\u003eis the same matrix, except with the diagonal zeroed.\n\u003c/p\u003e\u003cp\u003eRepeated indices in the association list are handled as for \u003ccode\u003e\u003ca\u003earray\u003c/a\u003e\u003c/code\u003e:\n Haskell 98 specifies that the resulting array is undefined (i.e. bottom),\n but GHC's implementation uses the last association for each index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Array",
           "name": "(//)",
           "package": "haskell98",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Constructs an array identical to the first argument except that it has been updated by the associations in the right argument For example if is origin by matrix then is the same matrix except with the diagonal zeroed Repeated indices in the association list are handled as for array Haskell specifies that the resulting array is undefined i.e bottom but GHC implementation uses the last association for each index",
           "hierarchy": "Array",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Array",
           "name": "(//) //",
           "normalized": "Array a b-\u003e[(a,b)]-\u003eArray a b",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eaccum\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e takes an array and an association list and accumulates\n pairs from the list into the array with the accumulating function \u003ccode\u003ef\u003c/code\u003e.\n Thus \u003ccode\u003e\u003ca\u003eaccumArray\u003c/a\u003e\u003c/code\u003e can be defined using \u003ccode\u003e\u003ca\u003eaccum\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e accumArray f z b = accum f (array b [(i, z) | i \u003c- range b])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Array",
           "name": "accum",
           "package": "haskell98",
@@ -119,6 +128,7 @@
         "index": {
           "description": "accum takes an array and an association list and accumulates pairs from the list into the array with the accumulating function Thus accumArray can be defined using accum accumArray accum array range",
           "hierarchy": "Array",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Array",
           "name": "accum",
           "normalized": "(a-\u003eb-\u003ea)-\u003eArray c a-\u003e[(c,b)]-\u003eArray c a",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eaccumArray\u003c/a\u003e\u003c/code\u003e function deals with repeated indices in the association\n list using an \u003cem\u003eaccumulating function\u003c/em\u003e which combines the values of\n associations with the same index.\n For example, given a list of values of some index type, \u003ccode\u003ehist\u003c/code\u003e\n produces a histogram of the number of occurrences of each index within\n a specified range:\n\u003c/p\u003e\u003cpre\u003e hist :: (Ix a, Num b) =\u003e (a,a) -\u003e [a] -\u003e Array a b\n hist bnds is = accumArray (+) 0 bnds [(i, 1) | i\u003c-is, inRange bnds i]\n\u003c/pre\u003e\u003cp\u003eIf the accumulating function is strict, then \u003ccode\u003e\u003ca\u003eaccumArray\u003c/a\u003e\u003c/code\u003e is strict in\n the values, as well as the indices, in the association list.  Thus,\n unlike ordinary arrays built with \u003ccode\u003e\u003ca\u003earray\u003c/a\u003e\u003c/code\u003e, accumulated arrays should\n not in general be recursive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Array",
           "name": "accumArray",
           "package": "haskell98",
@@ -143,6 +154,7 @@
         "index": {
           "description": "The accumArray function deals with repeated indices in the association list using an accumulating function which combines the values of associations with the same index For example given list of values of some index type hist produces histogram of the number of occurrences of each index within specified range hist Ix Num Array hist bnds is accumArray bnds is inRange bnds If the accumulating function is strict then accumArray is strict in the values as well as the indices in the association list Thus unlike ordinary arrays built with array accumulated arrays should not in general be recursive",
           "hierarchy": "Array",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Array",
           "name": "accumArray",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003e(c,c)-\u003e[(c,b)]-\u003eArray c a",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an array with the specified bounds and containing values\n for given indices within these bounds.\n\u003c/p\u003e\u003cp\u003eThe array is undefined (i.e. bottom) if any index in the list is\n out of bounds.  The Haskell 98 Report further specifies that if any\n two associations in the list have the same index, the value at that\n index is undefined (i.e. bottom).  However in GHC's implementation,\n the value at such an index is the value part of the last association\n with that index in the list.\n\u003c/p\u003e\u003cp\u003eBecause the indices must be checked for these errors, \u003ccode\u003e\u003ca\u003earray\u003c/a\u003e\u003c/code\u003e is\n strict in the bounds argument and in the indices of the association\n list, but non-strict in the values.  Thus, recurrences such as the\n following are possible:\n\u003c/p\u003e\u003cpre\u003e a = array (1,100) ((1,1) : [(i, i * a!(i-1)) | i \u003c- [2..100]])\n\u003c/pre\u003e\u003cp\u003eNot every index within the bounds of the array need appear in the\n association list, but the values associated with indices that do not\n appear will be undefined (i.e. bottom).\n\u003c/p\u003e\u003cp\u003eIf, in any dimension, the lower bound is greater than the upper bound,\n then the array is legal, but empty.  Indexing an empty array always\n gives an array-bounds error, but \u003ccode\u003e\u003ca\u003ebounds\u003c/a\u003e\u003c/code\u003e still yields the bounds\n with which the array was constructed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Array",
           "name": "array",
           "package": "haskell98",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Construct an array with the specified bounds and containing values for given indices within these bounds The array is undefined i.e bottom if any index in the list is out of bounds The Haskell Report further specifies that if any two associations in the list have the same index the value at that index is undefined i.e bottom However in GHC implementation the value at such an index is the value part of the last association with that index in the list Because the indices must be checked for these errors array is strict in the bounds argument and in the indices of the association list but non-strict in the values Thus recurrences such as the following are possible array i-1 Not every index within the bounds of the array need appear in the association list but the values associated with indices that do not appear will be undefined i.e bottom If in any dimension the lower bound is greater than the upper bound then the array is legal but empty Indexing an empty array always gives an array-bounds error but bounds still yields the bounds with which the array was constructed",
           "hierarchy": "Array",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Array",
           "name": "array",
           "normalized": "(a,a)-\u003e[(a,b)]-\u003eArray a b",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of associations of an array in index order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Array",
           "name": "assocs",
           "package": "haskell98",
@@ -192,6 +207,7 @@
         "index": {
           "description": "The list of associations of an array in index order",
           "hierarchy": "Array",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Array",
           "name": "assocs",
           "normalized": "Array a b-\u003e[(a,b)]",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe bounds with which an array was constructed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Array",
           "name": "bounds",
           "package": "haskell98",
@@ -216,6 +233,7 @@
         "index": {
           "description": "The bounds with which an array was constructed",
           "hierarchy": "Array",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Array",
           "name": "bounds",
           "normalized": "Array a b-\u003e(a,a)",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of elements of an array in index order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Array",
           "name": "elems",
           "package": "haskell98",
@@ -240,6 +259,7 @@
         "index": {
           "description": "The list of elements of an array in index order",
           "hierarchy": "Array",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Array",
           "name": "elems",
           "normalized": "Array a b-\u003e[b]",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of indices of an array in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Array",
           "name": "indices",
           "package": "haskell98",
@@ -264,6 +285,7 @@
         "index": {
           "description": "The list of indices of an array in ascending order",
           "hierarchy": "Array",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Array",
           "name": "indices",
           "normalized": "Array a b-\u003e[a]",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eixmap\u003c/a\u003e\u003c/code\u003e allows for transformations on array indices.\n It may be thought of as providing function composition on the right\n with the mapping that the original array embodies.\n\u003c/p\u003e\u003cp\u003eA similar transformation of array values may be achieved using \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e\n from the \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e instance of the \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Array",
           "name": "ixmap",
           "package": "haskell98",
@@ -288,6 +311,7 @@
         "index": {
           "description": "ixmap allows for transformations on array indices It may be thought of as providing function composition on the right with the mapping that the original array embodies similar transformation of array values may be achieved using fmap from the Array instance of the Functor class",
           "hierarchy": "Array",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Array",
           "name": "ixmap",
           "normalized": "(a,a)-\u003e(a-\u003eb)-\u003eArray b c-\u003eArray a c",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an array from a pair of bounds and a list of values in\n index order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Array",
           "name": "listArray",
           "package": "haskell98",
@@ -312,6 +337,7 @@
         "index": {
           "description": "Construct an array from pair of bounds and list of values in index order",
           "hierarchy": "Array",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Array",
           "name": "listArray",
           "normalized": "(a,a)-\u003e[b]-\u003eArray a b",
@@ -327,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Bits",
           "name": "Bits",
           "package": "haskell98",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Bits",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Bits",
           "name": "Bits",
           "package": "haskell98",
@@ -348,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "CError",
           "name": "CError",
           "package": "haskell98",
@@ -356,6 +385,7 @@
         },
         "index": {
           "hierarchy": "CError",
+          "indexed": "2014-03-11T18:32:00",
           "module": "CError",
           "name": "CError",
           "package": "haskell98",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "CForeign",
           "name": "CForeign",
           "package": "haskell98",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "CForeign",
+          "indexed": "2014-03-11T18:32:00",
           "module": "CForeign",
           "name": "CForeign",
           "package": "haskell98",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "CPUTime",
           "name": "CPUTime",
           "package": "haskell98",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "CPUTime",
+          "indexed": "2014-03-11T18:32:00",
           "module": "CPUTime",
           "name": "CPUTime",
           "package": "haskell98",
@@ -412,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ecpuTimePrecision\u003c/a\u003e\u003c/code\u003e constant is the smallest measurable difference\n in CPU time that the implementation can record, and is given as an\n integral number of picoseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "CPUTime",
           "name": "cpuTimePrecision",
           "package": "haskell98",
@@ -421,6 +456,7 @@
         "index": {
           "description": "The cpuTimePrecision constant is the smallest measurable difference in CPU time that the implementation can record and is given as an integral number of picoseconds",
           "hierarchy": "CPUTime",
+          "indexed": "2014-03-11T18:32:00",
           "module": "CPUTime",
           "name": "cpuTimePrecision",
           "package": "haskell98",
@@ -435,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003egetCPUTime\u003c/a\u003e\u003c/code\u003e returns the number of picoseconds CPU time\n used by the current program.  The precision of this result is\n implementation-dependent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "CPUTime",
           "name": "getCPUTime",
           "package": "haskell98",
@@ -444,6 +481,7 @@
         "index": {
           "description": "Computation getCPUTime returns the number of picoseconds CPU time used by the current program The precision of this result is implementation-dependent",
           "hierarchy": "CPUTime",
+          "indexed": "2014-03-11T18:32:00",
           "module": "CPUTime",
           "name": "getCPUTime",
           "package": "haskell98",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "CString",
           "name": "CString",
           "package": "haskell98",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "CString",
+          "indexed": "2014-03-11T18:32:00",
           "module": "CString",
           "name": "CString",
           "package": "haskell98",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "CTypes",
           "name": "CTypes",
           "package": "haskell98",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "CTypes",
+          "indexed": "2014-03-11T18:32:00",
           "module": "CTypes",
           "name": "CTypes",
           "package": "haskell98",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "Char",
           "package": "haskell98",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "Char",
           "package": "haskell98",
@@ -521,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe character type \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e is an enumeration whose values represent\nUnicode (or equivalently ISO/IEC 10646) characters (see\n\u003ca\u003ehttp://www.unicode.org/\u003c/a\u003e for details).  This set extends the ISO 8859-1\n(Latin-1) character set (the first 256 characters), which is itself an extension\nof the ASCII character set (the first 128 characters).  A character literal in\nHaskell has type \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTo convert a \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e to or from the corresponding \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e value defined\nby Unicode, use \u003ccode\u003e\u003ca\u003etoEnum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e from the\n\u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e class respectively (or equivalently \u003ccode\u003eord\u003c/code\u003e and \u003ccode\u003echr\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "Char",
           "package": "haskell98",
@@ -529,6 +574,7 @@
         "index": {
           "description": "The character type Char is an enumeration whose values represent Unicode or equivalently ISO IEC characters see http www.unicode.org for details This set extends the ISO Latin-1 character set the first characters which is itself an extension of the ASCII character set the first characters character literal in Haskell has type Char To convert Char to or from the corresponding Int value defined by Unicode use toEnum and fromEnum from the Enum class respectively or equivalently ord and chr",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "Char",
           "package": "haskell98",
@@ -543,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e is a list of characters.  String constants in Haskell are values\n of type \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "String",
           "package": "haskell98",
@@ -551,6 +598,7 @@
         "index": {
           "description": "String is list of characters String constants in Haskell are values of type String",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "String",
           "package": "haskell98",
@@ -565,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etoEnum\u003c/a\u003e\u003c/code\u003e method restricted to the type \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "chr",
           "package": "haskell98",
@@ -574,6 +623,7 @@
         "index": {
           "description": "The toEnum method restricted to the type Char",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "chr",
           "normalized": "Int-\u003eChar",
@@ -589,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a single digit \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e to the corresponding \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.  \n This function fails unless its argument satisfies \u003ccode\u003e\u003ca\u003eisHexDigit\u003c/a\u003e\u003c/code\u003e,\n but recognises both upper and lower-case hexadecimal digits\n (i.e. \u003ccode\u003e'0'\u003c/code\u003e..\u003ccode\u003e'9'\u003c/code\u003e, \u003ccode\u003e'a'\u003c/code\u003e..\u003ccode\u003e'f'\u003c/code\u003e, \u003ccode\u003e'A'\u003c/code\u003e..\u003ccode\u003e'F'\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "digitToInt",
           "package": "haskell98",
@@ -598,6 +649,7 @@
         "index": {
           "description": "Convert single digit Char to the corresponding Int This function fails unless its argument satisfies isHexDigit but recognises both upper and lower-case hexadecimal digits i.e",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "digitToInt",
           "normalized": "Char-\u003eInt",
@@ -614,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e in the range \u003ccode\u003e0\u003c/code\u003e..\u003ccode\u003e15\u003c/code\u003e to the corresponding single\n digit \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.  This function fails on other inputs, and generates\n lower-case hexadecimal digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "intToDigit",
           "package": "haskell98",
@@ -623,6 +676,7 @@
         "index": {
           "description": "Convert an Int in the range to the corresponding single digit Char This function fails on other inputs and generates lower-case hexadecimal digits",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "intToDigit",
           "normalized": "Int-\u003eChar",
@@ -639,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects alphabetic Unicode characters (lower-case, upper-case and\n title-case letters, plus letters of caseless scripts and modifiers letters).\n This function is equivalent to \u003ccode\u003e\u003ca\u003eisLetter\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "isAlpha",
           "package": "haskell98",
@@ -648,6 +703,7 @@
         "index": {
           "description": "Selects alphabetic Unicode characters lower-case upper-case and title-case letters plus letters of caseless scripts and modifiers letters This function is equivalent to isLetter",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "isAlpha",
           "normalized": "Char-\u003eBool",
@@ -664,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects alphabetic or numeric digit Unicode characters.\n\u003c/p\u003e\u003cp\u003eNote that numeric digits outside the ASCII range are selected by this\n function but not by \u003ccode\u003e\u003ca\u003eisDigit\u003c/a\u003e\u003c/code\u003e.  Such digits may be part of identifiers\n but are not used by the printer and reader to represent numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "isAlphaNum",
           "package": "haskell98",
@@ -673,6 +730,7 @@
         "index": {
           "description": "Selects alphabetic or numeric digit Unicode characters Note that numeric digits outside the ASCII range are selected by this function but not by isDigit Such digits may be part of identifiers but are not used by the printer and reader to represent numbers",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "isAlphaNum",
           "normalized": "Char-\u003eBool",
@@ -689,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the first 128 characters of the Unicode character set,\n corresponding to the ASCII character set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "isAscii",
           "package": "haskell98",
@@ -698,6 +757,7 @@
         "index": {
           "description": "Selects the first characters of the Unicode character set corresponding to the ASCII character set",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "isAscii",
           "normalized": "Char-\u003eBool",
@@ -714,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects control characters, which are the non-printing characters of\n the Latin-1 subset of Unicode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "isControl",
           "package": "haskell98",
@@ -723,6 +784,7 @@
         "index": {
           "description": "Selects control characters which are the non-printing characters of the Latin-1 subset of Unicode",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "isControl",
           "normalized": "Char-\u003eBool",
@@ -739,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects ASCII digits, i.e. \u003ccode\u003e'0'\u003c/code\u003e..\u003ccode\u003e'9'\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "isDigit",
           "package": "haskell98",
@@ -748,6 +811,7 @@
         "index": {
           "description": "Selects ASCII digits i.e",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "isDigit",
           "normalized": "Char-\u003eBool",
@@ -764,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects ASCII hexadecimal digits,\n i.e. \u003ccode\u003e'0'\u003c/code\u003e..\u003ccode\u003e'9'\u003c/code\u003e, \u003ccode\u003e'a'\u003c/code\u003e..\u003ccode\u003e'f'\u003c/code\u003e, \u003ccode\u003e'A'\u003c/code\u003e..\u003ccode\u003e'F'\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "isHexDigit",
           "package": "haskell98",
@@ -773,6 +838,7 @@
         "index": {
           "description": "Selects ASCII hexadecimal digits i.e",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "isHexDigit",
           "normalized": "Char-\u003eBool",
@@ -789,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the first 256 characters of the Unicode character set,\n corresponding to the ISO 8859-1 (Latin-1) character set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "isLatin1",
           "package": "haskell98",
@@ -798,6 +865,7 @@
         "index": {
           "description": "Selects the first characters of the Unicode character set corresponding to the ISO Latin-1 character set",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "isLatin1",
           "normalized": "Char-\u003eBool",
@@ -814,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects lower-case alphabetic Unicode characters (letters).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "isLower",
           "package": "haskell98",
@@ -823,6 +892,7 @@
         "index": {
           "description": "Selects lower-case alphabetic Unicode characters letters",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "isLower",
           "normalized": "Char-\u003eBool",
@@ -839,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects ASCII octal digits, i.e. \u003ccode\u003e'0'\u003c/code\u003e..\u003ccode\u003e'7'\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "isOctDigit",
           "package": "haskell98",
@@ -848,6 +919,7 @@
         "index": {
           "description": "Selects ASCII octal digits i.e",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "isOctDigit",
           "normalized": "Char-\u003eBool",
@@ -864,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects printable Unicode characters\n (letters, numbers, marks, punctuation, symbols and spaces).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "isPrint",
           "package": "haskell98",
@@ -873,6 +946,7 @@
         "index": {
           "description": "Selects printable Unicode characters letters numbers marks punctuation symbols and spaces",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "isPrint",
           "normalized": "Char-\u003eBool",
@@ -889,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e for any Unicode space character, and the control\n characters \u003ccode\u003e\\t\u003c/code\u003e, \u003ccode\u003e\\n\u003c/code\u003e, \u003ccode\u003e\\r\u003c/code\u003e, \u003ccode\u003e\\f\u003c/code\u003e, \u003ccode\u003e\\v\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "isSpace",
           "package": "haskell98",
@@ -898,6 +973,7 @@
         "index": {
           "description": "Returns True for any Unicode space character and the control characters",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "isSpace",
           "normalized": "Char-\u003eBool",
@@ -914,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects upper-case or title-case alphabetic Unicode characters (letters).\n Title case is used by a small number of letter ligatures like the\n single-character form of \u003cem\u003eLj\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "isUpper",
           "package": "haskell98",
@@ -923,6 +1000,7 @@
         "index": {
           "description": "Selects upper-case or title-case alphabetic Unicode characters letters Title case is used by small number of letter ligatures like the single-character form of Lj",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "isUpper",
           "normalized": "Char-\u003eBool",
@@ -939,6 +1017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a string representation of a character, using Haskell\n source-language escape conventions.  For example:\n\u003c/p\u003e\u003cpre\u003e lexLitChar  \"\\\\nHello\"  =  [(\"\\\\n\", \"Hello\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "lexLitChar",
           "package": "haskell98",
@@ -948,6 +1027,7 @@
         "index": {
           "description": "Read string representation of character using Haskell source-language escape conventions For example lexLitChar nHello Hello",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "lexLitChar",
           "package": "haskell98",
@@ -962,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e method restricted to the type \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "ord",
           "package": "haskell98",
@@ -971,6 +1052,7 @@
         "index": {
           "description": "The fromEnum method restricted to the type Char",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "ord",
           "normalized": "Char-\u003eInt",
@@ -986,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a string representation of a character, using Haskell\n source-language escape conventions, and convert it to the character\n that it encodes.  For example:\n\u003c/p\u003e\u003cpre\u003e readLitChar \"\\\\nHello\"  =  [('\\n', \"Hello\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "readLitChar",
           "package": "haskell98",
@@ -995,6 +1078,7 @@
         "index": {
           "description": "Read string representation of character using Haskell source-language escape conventions and convert it to the character that it encodes For example readLitChar nHello Hello",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "readLitChar",
           "package": "haskell98",
@@ -1009,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a character to a string using only printable characters,\n using Haskell source-language escape conventions.  For example:\n\u003c/p\u003e\u003cpre\u003e showLitChar '\\n' s  =  \"\\\\n\" ++ s\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "showLitChar",
           "package": "haskell98",
@@ -1018,6 +1103,7 @@
         "index": {
           "description": "Convert character to string using only printable characters using Haskell source-language escape conventions For example showLitChar",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "showLitChar",
           "normalized": "Char-\u003eShowS",
@@ -1034,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a letter to the corresponding lower-case letter, if any.\n Any other character is returned unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "toLower",
           "package": "haskell98",
@@ -1043,6 +1130,7 @@
         "index": {
           "description": "Convert letter to the corresponding lower-case letter if any Any other character is returned unchanged",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "toLower",
           "normalized": "Char-\u003eChar",
@@ -1059,6 +1147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a letter to the corresponding upper-case letter, if any.\n Any other character is returned unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Char",
           "name": "toUpper",
           "package": "haskell98",
@@ -1068,6 +1157,7 @@
         "index": {
           "description": "Convert letter to the corresponding upper-case letter if any Any other character is returned unchanged",
           "hierarchy": "Char",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Char",
           "name": "toUpper",
           "normalized": "Char-\u003eChar",
@@ -1083,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Complex",
           "name": "Complex",
           "package": "haskell98",
@@ -1091,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Complex",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Complex",
           "name": "Complex",
           "package": "haskell98",
@@ -1105,6 +1197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex numbers are an algebraic type.\n\u003c/p\u003e\u003cp\u003eFor a complex number \u003ccode\u003ez\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eabs\u003c/a\u003e\u003c/code\u003e z\u003c/code\u003e is a number with the magnitude of \u003ccode\u003ez\u003c/code\u003e,\n but oriented in the positive real direction, whereas \u003ccode\u003e\u003ccode\u003e\u003ca\u003esignum\u003c/a\u003e\u003c/code\u003e z\u003c/code\u003e\n has the phase of \u003ccode\u003ez\u003c/code\u003e, but unit magnitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Complex",
           "name": "Complex",
           "package": "haskell98",
@@ -1113,6 +1206,7 @@
         "index": {
           "description": "Complex numbers are an algebraic type For complex number abs is number with the magnitude of but oriented in the positive real direction whereas signum has the phase of but unit magnitude",
           "hierarchy": "Complex",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Complex",
           "name": "Complex",
           "package": "haskell98",
@@ -1127,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eforms a complex number from its real and imaginary\n rectangular components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Complex",
           "name": ":+",
           "package": "haskell98",
@@ -1136,6 +1231,7 @@
         "index": {
           "description": "forms complex number from its real and imaginary rectangular components",
           "hierarchy": "Complex",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Complex",
           "name": ":+",
           "package": "haskell98",
@@ -1149,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ecis\u003c/a\u003e\u003c/code\u003e t\u003c/code\u003e is a complex value with magnitude \u003ccode\u003e1\u003c/code\u003e\n and phase \u003ccode\u003et\u003c/code\u003e (modulo \u003ccode\u003e2*\u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Complex",
           "name": "cis",
           "package": "haskell98",
@@ -1158,6 +1255,7 @@
         "index": {
           "description": "cis is complex value with magnitude and phase modulo pi",
           "hierarchy": "Complex",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Complex",
           "name": "cis",
           "normalized": "a-\u003eComplex a",
@@ -1173,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe conjugate of a complex number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Complex",
           "name": "conjugate",
           "package": "haskell98",
@@ -1182,6 +1281,7 @@
         "index": {
           "description": "The conjugate of complex number",
           "hierarchy": "Complex",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Complex",
           "name": "conjugate",
           "normalized": "Complex a-\u003eComplex a",
@@ -1197,6 +1297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the imaginary part of a complex number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Complex",
           "name": "imagPart",
           "package": "haskell98",
@@ -1206,6 +1307,7 @@
         "index": {
           "description": "Extracts the imaginary part of complex number",
           "hierarchy": "Complex",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Complex",
           "name": "imagPart",
           "normalized": "Complex a-\u003ea",
@@ -1222,6 +1324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe nonnegative magnitude of a complex number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Complex",
           "name": "magnitude",
           "package": "haskell98",
@@ -1231,6 +1334,7 @@
         "index": {
           "description": "The nonnegative magnitude of complex number",
           "hierarchy": "Complex",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Complex",
           "name": "magnitude",
           "normalized": "Complex a-\u003ea",
@@ -1246,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm a complex number from polar components of magnitude and phase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Complex",
           "name": "mkPolar",
           "package": "haskell98",
@@ -1255,6 +1360,7 @@
         "index": {
           "description": "Form complex number from polar components of magnitude and phase",
           "hierarchy": "Complex",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Complex",
           "name": "mkPolar",
           "normalized": "a-\u003ea-\u003eComplex a",
@@ -1271,6 +1377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe phase of a complex number, in the range \u003ccode\u003e(-\u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e.\n If the magnitude is zero, then so is the phase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Complex",
           "name": "phase",
           "package": "haskell98",
@@ -1280,6 +1387,7 @@
         "index": {
           "description": "The phase of complex number in the range pi pi If the magnitude is zero then so is the phase",
           "hierarchy": "Complex",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Complex",
           "name": "phase",
           "normalized": "Complex a-\u003ea",
@@ -1295,6 +1403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003epolar\u003c/a\u003e\u003c/code\u003e takes a complex number and\n returns a (magnitude, phase) pair in canonical form:\n the magnitude is nonnegative, and the phase in the range \u003ccode\u003e(-\u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e;\n if the magnitude is zero, then so is the phase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Complex",
           "name": "polar",
           "package": "haskell98",
@@ -1304,6 +1413,7 @@
         "index": {
           "description": "The function polar takes complex number and returns magnitude phase pair in canonical form the magnitude is nonnegative and the phase in the range pi pi if the magnitude is zero then so is the phase",
           "hierarchy": "Complex",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Complex",
           "name": "polar",
           "normalized": "Complex a-\u003e(a,a)",
@@ -1319,6 +1429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the real part of a complex number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Complex",
           "name": "realPart",
           "package": "haskell98",
@@ -1328,6 +1439,7 @@
         "index": {
           "description": "Extracts the real part of complex number",
           "hierarchy": "Complex",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Complex",
           "name": "realPart",
           "normalized": "Complex a-\u003ea",
@@ -1343,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "Directory",
           "package": "haskell98",
@@ -1351,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "Directory",
           "package": "haskell98",
@@ -1364,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "Permissions",
           "package": "haskell98",
@@ -1372,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "Permissions",
           "package": "haskell98",
@@ -1385,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "Permissions",
           "package": "haskell98",
@@ -1394,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "Permissions",
           "package": "haskell98",
@@ -1408,6 +1526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ecreateDirectory\u003c/a\u003e\u003c/code\u003e dir\u003c/code\u003e creates a new directory \u003ccode\u003edir\u003c/code\u003e which is\ninitially empty, or as near to empty as the operating system\nallows.\n\u003c/p\u003e\u003cp\u003eThe operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisPermissionError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003ePermissionDenied\u003c/code\u003e\nThe process has insufficient privileges to perform the operation.\n\u003ccode\u003e[EROFS, EACCES]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisAlreadyExistsError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003eAlreadyExists\u003c/code\u003e\nThe operand refers to a directory that already exists.  \n\u003ccode\u003e [EEXIST]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eHardwareFault\u003c/code\u003e\nA physical I/O error has occurred.\n\u003ccode\u003e[EIO]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eInvalidArgument\u003c/code\u003e\nThe operand is not a valid directory name.\n\u003ccode\u003e[ENAMETOOLONG, ELOOP]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eNoSuchThing\u003c/code\u003e\nThere is no path to the directory. \n\u003ccode\u003e[ENOENT, ENOTDIR]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eResourceExhausted\u003c/code\u003e\nInsufficient resources (virtual memory, process file descriptors,\nphysical disk space, etc.) are available to perform the operation.\n\u003ccode\u003e[EDQUOT, ENOSPC, ENOMEM, EMLINK]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eInappropriateType\u003c/code\u003e\nThe path refers to an existing non-directory object.\n\u003ccode\u003e[EEXIST]\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "createDirectory",
           "package": "haskell98",
@@ -1417,6 +1536,7 @@
         "index": {
           "description": "createDirectory dir creates new directory dir which is initially empty or as near to empty as the operating system allows The operation may fail with isPermissionError PermissionDenied The process has insufficient privileges to perform the operation EROFS EACCES isAlreadyExistsError AlreadyExists The operand refers to directory that already exists EEXIST HardwareFault physical error has occurred EIO InvalidArgument The operand is not valid directory name ENAMETOOLONG ELOOP NoSuchThing There is no path to the directory ENOENT ENOTDIR ResourceExhausted Insufficient resources virtual memory process file descriptors physical disk space etc are available to perform the operation EDQUOT ENOSPC ENOMEM EMLINK InappropriateType The path refers to an existing non-directory object EEXIST",
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "createDirectory",
           "normalized": "FilePath-\u003eIO()",
@@ -1433,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe operation \u003ccode\u003e\u003ca\u003edoesDirectoryExist\u003c/a\u003e\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the argument file\nexists and is a directory, and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "doesDirectoryExist",
           "package": "haskell98",
@@ -1442,6 +1563,7 @@
         "index": {
           "description": "The operation doesDirectoryExist returns True if the argument file exists and is directory and False otherwise",
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "doesDirectoryExist",
           "normalized": "FilePath-\u003eIO Bool",
@@ -1458,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe operation \u003ccode\u003e\u003ca\u003edoesFileExist\u003c/a\u003e\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\nif the argument file exists and is not a directory, and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "doesFileExist",
           "package": "haskell98",
@@ -1467,6 +1590,7 @@
         "index": {
           "description": "The operation doesFileExist returns True if the argument file exists and is not directory and False otherwise",
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "doesFileExist",
           "normalized": "FilePath-\u003eIO Bool",
@@ -1482,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "executable",
           "package": "haskell98",
@@ -1491,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "executable",
           "package": "haskell98",
@@ -1504,6 +1630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the operating system has a notion of current directories,\n\u003ccode\u003e\u003ca\u003egetCurrentDirectory\u003c/a\u003e\u003c/code\u003e returns an absolute path to the\ncurrent directory of the calling process.\n\u003c/p\u003e\u003cp\u003eThe operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eHardwareFault\u003c/code\u003e\nA physical I/O error has occurred.\n\u003ccode\u003e[EIO]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisDoesNotExistError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003eNoSuchThing\u003c/code\u003e\nThere is no path referring to the current directory.\n\u003ccode\u003e[EPERM, ENOENT, ESTALE...]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisPermissionError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003ePermissionDenied\u003c/code\u003e\nThe process has insufficient privileges to perform the operation.\n\u003ccode\u003e[EACCES]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eResourceExhausted\u003c/code\u003e\nInsufficient resources are available to perform the operation.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eUnsupportedOperation\u003c/code\u003e\nThe operating system has no notion of current directory.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNote that in a concurrent program, the current directory is global\nstate shared between all threads of the process.  When using\nfilesystem operations from multiple threads, it is therefore highly\nrecommended to use absolute rather than relative \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "getCurrentDirectory",
           "package": "haskell98",
@@ -1513,6 +1640,7 @@
         "index": {
           "description": "If the operating system has notion of current directories getCurrentDirectory returns an absolute path to the current directory of the calling process The operation may fail with HardwareFault physical error has occurred EIO isDoesNotExistError NoSuchThing There is no path referring to the current directory EPERM ENOENT ESTALE isPermissionError PermissionDenied The process has insufficient privileges to perform the operation EACCES ResourceExhausted Insufficient resources are available to perform the operation UnsupportedOperation The operating system has no notion of current directory Note that in concurrent program the current directory is global state shared between all threads of the process When using filesystem operations from multiple threads it is therefore highly recommended to use absolute rather than relative FilePath",
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "getCurrentDirectory",
           "package": "haskell98",
@@ -1527,6 +1655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003egetDirectoryContents\u003c/a\u003e\u003c/code\u003e dir\u003c/code\u003e returns a list of \u003cem\u003eall\u003c/em\u003e entries\nin \u003cem\u003edir\u003c/em\u003e. \n\u003c/p\u003e\u003cp\u003eThe operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eHardwareFault\u003c/code\u003e\nA physical I/O error has occurred.\n\u003ccode\u003e[EIO]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eInvalidArgument\u003c/code\u003e\nThe operand is not a valid directory name.\n\u003ccode\u003e[ENAMETOOLONG, ELOOP]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisDoesNotExistError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003eNoSuchThing\u003c/code\u003e\nThe directory does not exist.\n\u003ccode\u003e[ENOENT, ENOTDIR]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisPermissionError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003ePermissionDenied\u003c/code\u003e\nThe process has insufficient privileges to perform the operation.\n\u003ccode\u003e[EACCES]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eResourceExhausted\u003c/code\u003e\nInsufficient resources are available to perform the operation.\n\u003ccode\u003e[EMFILE, ENFILE]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eInappropriateType\u003c/code\u003e\nThe path refers to an existing non-directory object.\n\u003ccode\u003e[ENOTDIR]\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "getDirectoryContents",
           "package": "haskell98",
@@ -1536,6 +1665,7 @@
         "index": {
           "description": "getDirectoryContents dir returns list of all entries in dir The operation may fail with HardwareFault physical error has occurred EIO InvalidArgument The operand is not valid directory name ENAMETOOLONG ELOOP isDoesNotExistError NoSuchThing The directory does not exist ENOENT ENOTDIR isPermissionError PermissionDenied The process has insufficient privileges to perform the operation EACCES ResourceExhausted Insufficient resources are available to perform the operation EMFILE ENFILE InappropriateType The path refers to an existing non-directory object ENOTDIR",
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "getDirectoryContents",
           "normalized": "FilePath-\u003eIO[FilePath]",
@@ -1552,6 +1682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egetModificationTime\u003c/a\u003e\u003c/code\u003e operation returns the\nclock time at which the file or directory was last modified.\n\u003c/p\u003e\u003cp\u003eThe operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisPermissionError\u003c/a\u003e\u003c/code\u003e if the user is not permitted to access\n  the modification time; or\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisDoesNotExistError\u003c/a\u003e\u003c/code\u003e if the file or directory does not exist.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "getModificationTime",
           "package": "haskell98",
@@ -1561,6 +1692,7 @@
         "index": {
           "description": "The getModificationTime operation returns the clock time at which the file or directory was last modified The operation may fail with isPermissionError if the user is not permitted to access the modification time or isDoesNotExistError if the file or directory does not exist",
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "getModificationTime",
           "normalized": "FilePath-\u003eIO UTCTime",
@@ -1576,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "getPermissions",
           "package": "haskell98",
@@ -1585,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "getPermissions",
           "normalized": "FilePath-\u003eIO Permissions",
@@ -1600,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "readable",
           "package": "haskell98",
@@ -1609,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "readable",
           "package": "haskell98",
@@ -1622,6 +1758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eremoveDirectory\u003c/a\u003e\u003c/code\u003e dir\u003c/code\u003e removes an existing directory \u003cem\u003edir\u003c/em\u003e.  The\nimplementation may specify additional constraints which must be\nsatisfied before a directory can be removed (e.g. the directory has to\nbe empty, or may not be in use by other processes).  It is not legal\nfor an implementation to partially remove a directory unless the\nentire directory is removed. A conformant implementation need not\nsupport directory removal in all situations (e.g. removal of the root\ndirectory).\n\u003c/p\u003e\u003cp\u003eThe operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eHardwareFault\u003c/code\u003e\nA physical I/O error has occurred.\nEIO\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eInvalidArgument\u003c/code\u003e\nThe operand is not a valid directory name.\n[ENAMETOOLONG, ELOOP]\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisDoesNotExistError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003eNoSuchThing\u003c/code\u003e\nThe directory does not exist. \n\u003ccode\u003e[ENOENT, ENOTDIR]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisPermissionError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003ePermissionDenied\u003c/code\u003e\nThe process has insufficient privileges to perform the operation.\n\u003ccode\u003e[EROFS, EACCES, EPERM]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eUnsatisfiedConstraints\u003c/code\u003e\nImplementation-dependent constraints are not satisfied.  \n\u003ccode\u003e[EBUSY, ENOTEMPTY, EEXIST]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eUnsupportedOperation\u003c/code\u003e\nThe implementation does not support removal in this situation.\n\u003ccode\u003e[EINVAL]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eInappropriateType\u003c/code\u003e\nThe operand refers to an existing non-directory object.\n\u003ccode\u003e[ENOTDIR]\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "removeDirectory",
           "package": "haskell98",
@@ -1631,6 +1768,7 @@
         "index": {
           "description": "removeDirectory dir removes an existing directory dir The implementation may specify additional constraints which must be satisfied before directory can be removed e.g the directory has to be empty or may not be in use by other processes It is not legal for an implementation to partially remove directory unless the entire directory is removed conformant implementation need not support directory removal in all situations e.g removal of the root directory The operation may fail with HardwareFault physical error has occurred EIO InvalidArgument The operand is not valid directory name ENAMETOOLONG ELOOP isDoesNotExistError NoSuchThing The directory does not exist ENOENT ENOTDIR isPermissionError PermissionDenied The process has insufficient privileges to perform the operation EROFS EACCES EPERM UnsatisfiedConstraints Implementation-dependent constraints are not satisfied EBUSY ENOTEMPTY EEXIST UnsupportedOperation The implementation does not support removal in this situation EINVAL InappropriateType The operand refers to an existing non-directory object ENOTDIR",
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "removeDirectory",
           "normalized": "FilePath-\u003eIO()",
@@ -1647,6 +1785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eremoveFile\u003c/a\u003e\u003c/code\u003e \u003cem\u003efile\u003c/em\u003e removes the directory entry for an existing file\n\u003cem\u003efile\u003c/em\u003e, where \u003cem\u003efile\u003c/em\u003e is not itself a directory. The\nimplementation may specify additional constraints which must be\nsatisfied before a file can be removed (e.g. the file may not be in\nuse by other processes).\n\u003c/p\u003e\u003cp\u003eThe operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eHardwareFault\u003c/code\u003e\nA physical I/O error has occurred.\n\u003ccode\u003e[EIO]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eInvalidArgument\u003c/code\u003e\nThe operand is not a valid file name.\n\u003ccode\u003e[ENAMETOOLONG, ELOOP]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisDoesNotExistError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003eNoSuchThing\u003c/code\u003e\nThe file does not exist. \n\u003ccode\u003e[ENOENT, ENOTDIR]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisPermissionError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003ePermissionDenied\u003c/code\u003e\nThe process has insufficient privileges to perform the operation.\n\u003ccode\u003e[EROFS, EACCES, EPERM]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eUnsatisfiedConstraints\u003c/code\u003e\nImplementation-dependent constraints are not satisfied.  \n\u003ccode\u003e[EBUSY]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eInappropriateType\u003c/code\u003e\nThe operand refers to an existing directory.\n\u003ccode\u003e[EPERM, EINVAL]\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "removeFile",
           "package": "haskell98",
@@ -1656,6 +1795,7 @@
         "index": {
           "description": "removeFile file removes the directory entry for an existing file file where file is not itself directory The implementation may specify additional constraints which must be satisfied before file can be removed e.g the file may not be in use by other processes The operation may fail with HardwareFault physical error has occurred EIO InvalidArgument The operand is not valid file name ENAMETOOLONG ELOOP isDoesNotExistError NoSuchThing The file does not exist ENOENT ENOTDIR isPermissionError PermissionDenied The process has insufficient privileges to perform the operation EROFS EACCES EPERM UnsatisfiedConstraints Implementation-dependent constraints are not satisfied EBUSY InappropriateType The operand refers to an existing directory EPERM EINVAL",
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "removeFile",
           "normalized": "FilePath-\u003eIO()",
@@ -1672,6 +1812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003erenameDirectory\u003c/a\u003e\u003c/code\u003e old new\u003c/code\u003e changes the name of an existing\ndirectory from \u003cem\u003eold\u003c/em\u003e to \u003cem\u003enew\u003c/em\u003e.  If the \u003cem\u003enew\u003c/em\u003e directory\nalready exists, it is atomically replaced by the \u003cem\u003eold\u003c/em\u003e directory.\nIf the \u003cem\u003enew\u003c/em\u003e directory is neither the \u003cem\u003eold\u003c/em\u003e directory nor an\nalias of the \u003cem\u003eold\u003c/em\u003e directory, it is removed as if by\n\u003ccode\u003e\u003ca\u003eremoveDirectory\u003c/a\u003e\u003c/code\u003e.  A conformant implementation need not support\nrenaming directories in all situations (e.g. renaming to an existing\ndirectory, or across different physical devices), but the constraints\nmust be documented.\n\u003c/p\u003e\u003cp\u003eOn Win32 platforms, \u003ccode\u003erenameDirectory\u003c/code\u003e fails if the \u003cem\u003enew\u003c/em\u003e directory already\nexists.\n\u003c/p\u003e\u003cp\u003eThe operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eHardwareFault\u003c/code\u003e\nA physical I/O error has occurred.\n\u003ccode\u003e[EIO]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eInvalidArgument\u003c/code\u003e\nEither operand is not a valid directory name.\n\u003ccode\u003e[ENAMETOOLONG, ELOOP]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisDoesNotExistError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003eNoSuchThing\u003c/code\u003e\nThe original directory does not exist, or there is no path to the target.\n\u003ccode\u003e[ENOENT, ENOTDIR]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisPermissionError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003ePermissionDenied\u003c/code\u003e\nThe process has insufficient privileges to perform the operation.\n\u003ccode\u003e[EROFS, EACCES, EPERM]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eResourceExhausted\u003c/code\u003e\nInsufficient resources are available to perform the operation.  \n\u003ccode\u003e[EDQUOT, ENOSPC, ENOMEM, EMLINK]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eUnsatisfiedConstraints\u003c/code\u003e\nImplementation-dependent constraints are not satisfied.\n\u003ccode\u003e[EBUSY, ENOTEMPTY, EEXIST]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eUnsupportedOperation\u003c/code\u003e\nThe implementation does not support renaming in this situation.\n\u003ccode\u003e[EINVAL, EXDEV]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eInappropriateType\u003c/code\u003e\nEither path refers to an existing non-directory object.\n\u003ccode\u003e[ENOTDIR, EISDIR]\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "renameDirectory",
           "package": "haskell98",
@@ -1681,6 +1822,7 @@
         "index": {
           "description": "renameDirectory old new changes the name of an existing directory from old to new If the new directory already exists it is atomically replaced by the old directory If the new directory is neither the old directory nor an alias of the old directory it is removed as if by removeDirectory conformant implementation need not support renaming directories in all situations e.g renaming to an existing directory or across different physical devices but the constraints must be documented On Win32 platforms renameDirectory fails if the new directory already exists The operation may fail with HardwareFault physical error has occurred EIO InvalidArgument Either operand is not valid directory name ENAMETOOLONG ELOOP isDoesNotExistError NoSuchThing The original directory does not exist or there is no path to the target ENOENT ENOTDIR isPermissionError PermissionDenied The process has insufficient privileges to perform the operation EROFS EACCES EPERM ResourceExhausted Insufficient resources are available to perform the operation EDQUOT ENOSPC ENOMEM EMLINK UnsatisfiedConstraints Implementation-dependent constraints are not satisfied EBUSY ENOTEMPTY EEXIST UnsupportedOperation The implementation does not support renaming in this situation EINVAL EXDEV InappropriateType Either path refers to an existing non-directory object ENOTDIR EISDIR",
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "renameDirectory",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -1697,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003erenameFile\u003c/a\u003e\u003c/code\u003e old new\u003c/code\u003e changes the name of an existing file system\nobject from \u003cem\u003eold\u003c/em\u003e to \u003cem\u003enew\u003c/em\u003e.  If the \u003cem\u003enew\u003c/em\u003e object already\nexists, it is atomically replaced by the \u003cem\u003eold\u003c/em\u003e object.  Neither\npath may refer to an existing directory.  A conformant implementation\nneed not support renaming files in all situations (e.g. renaming\nacross different physical devices), but the constraints must be\ndocumented.\n\u003c/p\u003e\u003cp\u003eThe operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eHardwareFault\u003c/code\u003e\nA physical I/O error has occurred.\n\u003ccode\u003e[EIO]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eInvalidArgument\u003c/code\u003e\nEither operand is not a valid file name.\n\u003ccode\u003e[ENAMETOOLONG, ELOOP]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisDoesNotExistError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003eNoSuchThing\u003c/code\u003e\nThe original file does not exist, or there is no path to the target.\n\u003ccode\u003e[ENOENT, ENOTDIR]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisPermissionError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003ePermissionDenied\u003c/code\u003e\nThe process has insufficient privileges to perform the operation.\n\u003ccode\u003e[EROFS, EACCES, EPERM]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eResourceExhausted\u003c/code\u003e\nInsufficient resources are available to perform the operation.  \n\u003ccode\u003e[EDQUOT, ENOSPC, ENOMEM, EMLINK]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eUnsatisfiedConstraints\u003c/code\u003e\nImplementation-dependent constraints are not satisfied.\n\u003ccode\u003e[EBUSY]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eUnsupportedOperation\u003c/code\u003e\nThe implementation does not support renaming in this situation.\n\u003ccode\u003e[EXDEV]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eInappropriateType\u003c/code\u003e\nEither path refers to an existing directory.\n\u003ccode\u003e[ENOTDIR, EISDIR, EINVAL, EEXIST, ENOTEMPTY]\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "renameFile",
           "package": "haskell98",
@@ -1706,6 +1849,7 @@
         "index": {
           "description": "renameFile old new changes the name of an existing file system object from old to new If the new object already exists it is atomically replaced by the old object Neither path may refer to an existing directory conformant implementation need not support renaming files in all situations e.g renaming across different physical devices but the constraints must be documented The operation may fail with HardwareFault physical error has occurred EIO InvalidArgument Either operand is not valid file name ENAMETOOLONG ELOOP isDoesNotExistError NoSuchThing The original file does not exist or there is no path to the target ENOENT ENOTDIR isPermissionError PermissionDenied The process has insufficient privileges to perform the operation EROFS EACCES EPERM ResourceExhausted Insufficient resources are available to perform the operation EDQUOT ENOSPC ENOMEM EMLINK UnsatisfiedConstraints Implementation-dependent constraints are not satisfied EBUSY UnsupportedOperation The implementation does not support renaming in this situation EXDEV InappropriateType Either path refers to an existing directory ENOTDIR EISDIR EINVAL EEXIST ENOTEMPTY",
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "renameFile",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -1721,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "searchable",
           "package": "haskell98",
@@ -1730,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "searchable",
           "package": "haskell98",
@@ -1743,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the operating system has a notion of current directories,\n\u003ccode\u003e\u003ccode\u003e\u003ca\u003esetCurrentDirectory\u003c/a\u003e\u003c/code\u003e dir\u003c/code\u003e changes the current\ndirectory of the calling process to \u003cem\u003edir\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThe operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eHardwareFault\u003c/code\u003e\nA physical I/O error has occurred.\n\u003ccode\u003e[EIO]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eInvalidArgument\u003c/code\u003e\nThe operand is not a valid directory name.\n\u003ccode\u003e[ENAMETOOLONG, ELOOP]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisDoesNotExistError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003eNoSuchThing\u003c/code\u003e\nThe directory does not exist.\n\u003ccode\u003e[ENOENT, ENOTDIR]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisPermissionError\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003ePermissionDenied\u003c/code\u003e\nThe process has insufficient privileges to perform the operation.\n\u003ccode\u003e[EACCES]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eUnsupportedOperation\u003c/code\u003e\nThe operating system has no notion of current directory, or the\ncurrent directory cannot be dynamically changed.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eInappropriateType\u003c/code\u003e\nThe path refers to an existing non-directory object.\n\u003ccode\u003e[ENOTDIR]\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNote that in a concurrent program, the current directory is global\nstate shared between all threads of the process.  When using\nfilesystem operations from multiple threads, it is therefore highly\nrecommended to use absolute rather than relative \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "setCurrentDirectory",
           "package": "haskell98",
@@ -1752,6 +1899,7 @@
         "index": {
           "description": "If the operating system has notion of current directories setCurrentDirectory dir changes the current directory of the calling process to dir The operation may fail with HardwareFault physical error has occurred EIO InvalidArgument The operand is not valid directory name ENAMETOOLONG ELOOP isDoesNotExistError NoSuchThing The directory does not exist ENOENT ENOTDIR isPermissionError PermissionDenied The process has insufficient privileges to perform the operation EACCES UnsupportedOperation The operating system has no notion of current directory or the current directory cannot be dynamically changed InappropriateType The path refers to an existing non-directory object ENOTDIR Note that in concurrent program the current directory is global state shared between all threads of the process When using filesystem operations from multiple threads it is therefore highly recommended to use absolute rather than relative FilePath",
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "setCurrentDirectory",
           "normalized": "FilePath-\u003eIO()",
@@ -1767,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "setPermissions",
           "package": "haskell98",
@@ -1776,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "setPermissions",
           "normalized": "FilePath-\u003ePermissions-\u003eIO()",
@@ -1791,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Directory",
           "name": "writable",
           "package": "haskell98",
@@ -1800,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Directory",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Directory",
           "name": "writable",
           "package": "haskell98",
@@ -1812,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "ForeignPtr",
           "name": "ForeignPtr",
           "package": "haskell98",
@@ -1820,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "ForeignPtr",
+          "indexed": "2014-03-11T18:32:00",
           "module": "ForeignPtr",
           "name": "ForeignPtr",
           "package": "haskell98",
@@ -1833,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "IO",
           "package": "haskell98",
@@ -1841,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "IO",
           "package": "haskell98",
@@ -1855,6 +2011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThree kinds of buffering are supported: line-buffering, \n block-buffering or no-buffering.  These modes have the following\n effects. For output, items are written out, or \u003cem\u003eflushed\u003c/em\u003e,\n from the internal buffer according to the buffer mode:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003cem\u003eline-buffering\u003c/em\u003e: the entire output buffer is flushed\n    whenever a newline is output, the buffer overflows, \n    a \u003ccode\u003e\u003ca\u003ehFlush\u003c/a\u003e\u003c/code\u003e is issued, or the handle is closed.\n\u003c/li\u003e\u003cli\u003e \u003cem\u003eblock-buffering\u003c/em\u003e: the entire buffer is written out whenever it\n    overflows, a \u003ccode\u003e\u003ca\u003ehFlush\u003c/a\u003e\u003c/code\u003e is issued, or the handle is closed.\n\u003c/li\u003e\u003cli\u003e \u003cem\u003eno-buffering\u003c/em\u003e: output is written immediately, and never stored\n    in the buffer.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAn implementation is free to flush the buffer more frequently,\n but not less frequently, than specified above.\n The output buffer is emptied as soon as it has been written out.\n\u003c/p\u003e\u003cp\u003eSimilarly, input occurs according to the buffer mode for the handle:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003cem\u003eline-buffering\u003c/em\u003e: when the buffer for the handle is not empty,\n    the next item is obtained from the buffer; otherwise, when the\n    buffer is empty, characters up to and including the next newline\n    character are read into the buffer.  No characters are available\n    until the newline character is available or the buffer is full.\n\u003c/li\u003e\u003cli\u003e \u003cem\u003eblock-buffering\u003c/em\u003e: when the buffer for the handle becomes empty,\n    the next block of data is read into the buffer.\n\u003c/li\u003e\u003cli\u003e \u003cem\u003eno-buffering\u003c/em\u003e: the next input item is read and returned.\n    The \u003ccode\u003e\u003ca\u003ehLookAhead\u003c/a\u003e\u003c/code\u003e operation implies that even a no-buffered\n    handle may require a one-character buffer.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe default buffering mode when a handle is opened is\n implementation-dependent and may depend on the file system object\n which is attached to that handle.\n For most implementations, physical files will normally be block-buffered \n and terminals will normally be line-buffered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "BufferMode",
           "package": "haskell98",
@@ -1863,6 +2020,7 @@
         "index": {
           "description": "Three kinds of buffering are supported line-buffering block-buffering or no-buffering These modes have the following effects For output items are written out or flushed from the internal buffer according to the buffer mode line-buffering the entire output buffer is flushed whenever newline is output the buffer overflows hFlush is issued or the handle is closed block-buffering the entire buffer is written out whenever it overflows hFlush is issued or the handle is closed no-buffering output is written immediately and never stored in the buffer An implementation is free to flush the buffer more frequently but not less frequently than specified above The output buffer is emptied as soon as it has been written out Similarly input occurs according to the buffer mode for the handle line-buffering when the buffer for the handle is not empty the next item is obtained from the buffer otherwise when the buffer is empty characters up to and including the next newline character are read into the buffer No characters are available until the newline character is available or the buffer is full block-buffering when the buffer for the handle becomes empty the next block of data is read into the buffer no-buffering the next input item is read and returned The hLookAhead operation implies that even no-buffered handle may require one-character buffer The default buffering mode when handle is opened is implementation-dependent and may depend on the file system object which is attached to that handle For most implementations physical files will normally be block-buffered and terminals will normally be line-buffered",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "BufferMode",
           "package": "haskell98",
@@ -1877,6 +2035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile and directory names are values of type \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, whose precise\n meaning is operating system dependent. Files can be opened, yielding a\n handle which can then be used to operate on the contents of that file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "FilePath",
           "package": "haskell98",
@@ -1885,6 +2044,7 @@
         "index": {
           "description": "File and directory names are values of type String whose precise meaning is operating system dependent Files can be opened yielding handle which can then be used to operate on the contents of that file",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "FilePath",
           "package": "haskell98",
@@ -1899,6 +2059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell defines operations to read and write characters from and to files,\n represented by values of type \u003ccode\u003eHandle\u003c/code\u003e.  Each value of this type is a\n \u003cem\u003ehandle\u003c/em\u003e: a record used by the Haskell run-time system to \u003cem\u003emanage\u003c/em\u003e I/O\n with file system objects.  A handle has at least the following properties:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e whether it manages input or output or both;\n\u003c/li\u003e\u003cli\u003e whether it is \u003cem\u003eopen\u003c/em\u003e, \u003cem\u003eclosed\u003c/em\u003e or \u003cem\u003esemi-closed\u003c/em\u003e;\n\u003c/li\u003e\u003cli\u003e whether the object is seekable;\n\u003c/li\u003e\u003cli\u003e whether buffering is disabled, or enabled on a line or block basis;\n\u003c/li\u003e\u003cli\u003e a buffer (whose length may be zero).\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eMost handles will also have a current I/O position indicating where the next\n input or output operation will occur.  A handle is \u003cem\u003ereadable\u003c/em\u003e if it\n manages only input or both input and output; likewise, it is \u003cem\u003ewritable\u003c/em\u003e if\n it manages only output or both input and output.  A handle is \u003cem\u003eopen\u003c/em\u003e when\n first allocated.\n Once it is closed it can no longer be used for either input or output,\n though an implementation cannot re-use its storage while references\n remain to it.  Handles are in the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e classes.  The string\n produced by showing a handle is system dependent; it should include\n enough information to identify the handle for debugging.  A handle is\n equal according to \u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e only to itself; no attempt\n is made to compare the internal state of different handles for equality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "Handle",
           "package": "haskell98",
@@ -1907,6 +2068,7 @@
         "index": {
           "description": "Haskell defines operations to read and write characters from and to files represented by values of type Handle Each value of this type is handle record used by the Haskell run-time system to manage with file system objects handle has at least the following properties whether it manages input or output or both whether it is open closed or semi-closed whether the object is seekable whether buffering is disabled or enabled on line or block basis buffer whose length may be zero Most handles will also have current position indicating where the next input or output operation will occur handle is readable if it manages only input or both input and output likewise it is writable if it manages only output or both input and output handle is open when first allocated Once it is closed it can no longer be used for either input or output though an implementation cannot re-use its storage while references remain to it Handles are in the Show and Eq classes The string produced by showing handle is system dependent it should include enough information to identify the handle for debugging handle is equal according to only to itself no attempt is made to compare the internal state of different handles for equality",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "Handle",
           "package": "haskell98",
@@ -1920,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "HandlePosn",
           "package": "haskell98",
@@ -1927,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "HandlePosn",
           "package": "haskell98",
@@ -1941,6 +2105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e is a computation which, when performed,\ndoes some I/O before returning a value of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThere is really only one way to \"perform\" an I/O action: bind it to\n\u003ccode\u003eMain.main\u003c/code\u003e in your program.  When your program is run, the I/O will\nbe performed.  It isn't possible to perform I/O from an arbitrary\nfunction, unless that function is itself in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad and called\nat some point, directly or indirectly, from \u003ccode\u003eMain.main\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e is a monad, so \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e actions can be combined using either the do-notation\nor the \u003ccode\u003e\u003e\u003e\u003c/code\u003e and \u003ccode\u003e\u003e\u003e=\u003c/code\u003e operations from the \u003ccode\u003eMonad\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "IO",
           "package": "haskell98",
@@ -1949,6 +2114,7 @@
         "index": {
           "description": "value of type IO is computation which when performed does some before returning value of type There is really only one way to perform an action bind it to Main.main in your program When your program is run the will be performed It isn possible to perform from an arbitrary function unless that function is itself in the IO monad and called at some point directly or indirectly from Main.main IO is monad so IO actions can be combined using either the do-notation or the and operations from the Monad class",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "IO",
           "package": "haskell98",
@@ -1963,6 +2129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Haskell 98 type for exceptions in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n Any I/O operation may raise an \u003ccode\u003e\u003ca\u003eIOError\u003c/a\u003e\u003c/code\u003e instead of returning a result.\n For a more general type of exception, including also those that arise\n in pure code, see \u003ca\u003eControl.Exception.Exception\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIn Haskell 98, this is an opaque type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "IOError",
           "package": "haskell98",
@@ -1971,6 +2138,7 @@
         "index": {
           "description": "The Haskell type for exceptions in the IO monad Any operation may raise an IOError instead of returning result For more general type of exception including also those that arise in pure code see Control.Exception.Exception In Haskell this is an opaque type",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "IOError",
           "package": "haskell98",
@@ -1985,6 +2153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eopenFile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "IOMode",
           "package": "haskell98",
@@ -1993,6 +2162,7 @@
         "index": {
           "description": "See openFile",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "IOMode",
           "package": "haskell98",
@@ -2007,6 +2177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mode that determines the effect of \u003ccode\u003ehSeek\u003c/code\u003e \u003ccode\u003ehdl mode i\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "SeekMode",
           "package": "haskell98",
@@ -2015,6 +2186,7 @@
         "index": {
           "description": "mode that determines the effect of hSeek hdl mode",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "SeekMode",
           "package": "haskell98",
@@ -2029,6 +2201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe position of \u003ccode\u003ehdl\u003c/code\u003e is set to \u003ccode\u003ei\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "AbsoluteSeek",
           "package": "haskell98",
@@ -2038,6 +2211,7 @@
         "index": {
           "description": "the position of hdl is set to",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "AbsoluteSeek",
           "package": "haskell98",
@@ -2051,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "AppendMode",
           "package": "haskell98",
@@ -2059,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "AppendMode",
           "package": "haskell98",
@@ -2073,6 +2249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock-buffering should be enabled if possible.\n The size of the buffer is \u003ccode\u003en\u003c/code\u003e items if the argument\n is \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e and is otherwise implementation-dependent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "BlockBuffering",
           "package": "haskell98",
@@ -2082,6 +2259,7 @@
         "index": {
           "description": "block-buffering should be enabled if possible The size of the buffer is items if the argument is Just and is otherwise implementation-dependent",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "BlockBuffering",
           "package": "haskell98",
@@ -2096,6 +2274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eline-buffering should be enabled if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "LineBuffering",
           "package": "haskell98",
@@ -2105,6 +2284,7 @@
         "index": {
           "description": "line-buffering should be enabled if possible",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "LineBuffering",
           "package": "haskell98",
@@ -2119,6 +2299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuffering is disabled if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "NoBuffering",
           "package": "haskell98",
@@ -2128,6 +2309,7 @@
         "index": {
           "description": "buffering is disabled if possible",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "NoBuffering",
           "package": "haskell98",
@@ -2141,6 +2323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "ReadMode",
           "package": "haskell98",
@@ -2149,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "ReadMode",
           "package": "haskell98",
@@ -2162,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "ReadWriteMode",
           "package": "haskell98",
@@ -2170,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "ReadWriteMode",
           "package": "haskell98",
@@ -2184,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe position of \u003ccode\u003ehdl\u003c/code\u003e is set to offset \u003ccode\u003ei\u003c/code\u003e\n from the current position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "RelativeSeek",
           "package": "haskell98",
@@ -2193,6 +2380,7 @@
         "index": {
           "description": "the position of hdl is set to offset from the current position",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "RelativeSeek",
           "package": "haskell98",
@@ -2207,6 +2395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe position of \u003ccode\u003ehdl\u003c/code\u003e is set to offset \u003ccode\u003ei\u003c/code\u003e\n from the end of the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "SeekFromEnd",
           "package": "haskell98",
@@ -2216,6 +2405,7 @@
         "index": {
           "description": "the position of hdl is set to offset from the end of the file",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "SeekFromEnd",
           "package": "haskell98",
@@ -2229,6 +2419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "WriteMode",
           "package": "haskell98",
@@ -2237,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "WriteMode",
           "package": "haskell98",
@@ -2277,6 +2469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e function captures a common allocate, compute, deallocate\n idiom in which the deallocation step must occur even in the case of an\n error during computation. This is similar to try-catch-finally in Java.\n\u003c/p\u003e\u003cp\u003eThis version handles only IO errors, as defined by Haskell 98.\n The version of \u003ccode\u003ebracket\u003c/code\u003e in \u003ca\u003eControl.Exception\u003c/a\u003e handles all exceptions,\n and should be used instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "bracket",
           "package": "haskell98",
@@ -2287,6 +2480,7 @@
         "index": {
           "description": "The bracket function captures common allocate compute deallocate idiom in which the deallocation step must occur even in the case of an error during computation This is similar to try-catch-finally in Java This version handles only IO errors as defined by Haskell The version of bracket in Control.Exception handles all exceptions and should be used instead",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "bracket",
           "normalized": "IO a-\u003e(a-\u003eIO b)-\u003e(a-\u003eIO c)-\u003eIO c",
@@ -2302,6 +2496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e where the middle computation doesn't want \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis version handles only IO errors, as defined by Haskell 98.\n The version of \u003ccode\u003ebracket_\u003c/code\u003e in \u003ca\u003eControl.Exception\u003c/a\u003e handles all exceptions,\n and should be used instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "bracket_",
           "package": "haskell98",
@@ -2312,6 +2507,7 @@
         "index": {
           "description": "variant of bracket where the middle computation doesn want This version handles only IO errors as defined by Haskell The version of bracket in Control.Exception handles all exceptions and should be used instead",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "bracket_",
           "normalized": "IO a-\u003e(a-\u003eIO b)-\u003eIO c-\u003eIO c",
@@ -2425,6 +2621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehClose\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl\u003c/code\u003e makes handle \u003ccode\u003ehdl\u003c/code\u003e closed.  Before the\n computation finishes, if \u003ccode\u003ehdl\u003c/code\u003e is writable its buffer is flushed as\n for \u003ccode\u003e\u003ca\u003ehFlush\u003c/a\u003e\u003c/code\u003e.\n Performing \u003ccode\u003e\u003ca\u003ehClose\u003c/a\u003e\u003c/code\u003e on a handle that has already been closed has no effect; \n doing so is not an error.  All other operations on a closed handle will fail.\n If \u003ccode\u003e\u003ca\u003ehClose\u003c/a\u003e\u003c/code\u003e fails for any reason, any further operations (apart from\n \u003ccode\u003e\u003ca\u003ehClose\u003c/a\u003e\u003c/code\u003e) on the handle will still fail as if \u003ccode\u003ehdl\u003c/code\u003e had been successfully\n closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hClose",
           "package": "haskell98",
@@ -2434,6 +2631,7 @@
         "index": {
           "description": "Computation hClose hdl makes handle hdl closed Before the computation finishes if hdl is writable its buffer is flushed as for hFlush Performing hClose on handle that has already been closed has no effect doing so is not an error All other operations on closed handle will fail If hClose fails for any reason any further operations apart from hClose on the handle will still fail as if hdl had been successfully closed",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hClose",
           "normalized": "Handle-\u003eIO()",
@@ -2450,6 +2648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a handle \u003ccode\u003ehdl\u003c/code\u003e which attached to a physical file,\n \u003ccode\u003e\u003ca\u003ehFileSize\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl\u003c/code\u003e returns the size of that file in 8-bit bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hFileSize",
           "package": "haskell98",
@@ -2459,6 +2658,7 @@
         "index": {
           "description": "For handle hdl which attached to physical file hFileSize hdl returns the size of that file in bit bytes",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hFileSize",
           "normalized": "Handle-\u003eIO Integer",
@@ -2475,6 +2675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe action \u003ccode\u003e\u003ca\u003ehFlush\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl\u003c/code\u003e causes any items buffered for output\n in handle \u003ccode\u003ehdl\u003c/code\u003e to be sent immediately to the operating system.\n\u003c/p\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eisFullError\u003c/code\u003e if the device is full;\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eisPermissionError\u003c/code\u003e if a system resource limit would be exceeded.\n    It is unspecified whether the characters in the buffer are discarded\n    or retained under these circumstances.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hFlush",
           "package": "haskell98",
@@ -2484,6 +2685,7 @@
         "index": {
           "description": "The action hFlush hdl causes any items buffered for output in handle hdl to be sent immediately to the operating system This operation may fail with isFullError if the device is full isPermissionError if system resource limit would be exceeded It is unspecified whether the characters in the buffer are discarded or retained under these circumstances",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hFlush",
           "normalized": "Handle-\u003eIO()",
@@ -2500,6 +2702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehGetBuffering\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl\u003c/code\u003e returns the current buffering mode\n for \u003ccode\u003ehdl\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hGetBuffering",
           "package": "haskell98",
@@ -2509,6 +2712,7 @@
         "index": {
           "description": "Computation hGetBuffering hdl returns the current buffering mode for hdl",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hGetBuffering",
           "normalized": "Handle-\u003eIO BufferMode",
@@ -2525,6 +2729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehGetChar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl\u003c/code\u003e reads a character from the file or\n channel managed by \u003ccode\u003ehdl\u003c/code\u003e, blocking until a character is available.\n\u003c/p\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisEOFError\u003c/a\u003e\u003c/code\u003e if the end of file has been reached.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hGetChar",
           "package": "haskell98",
@@ -2534,6 +2739,7 @@
         "index": {
           "description": "Computation hGetChar hdl reads character from the file or channel managed by hdl blocking until character is available This operation may fail with isEOFError if the end of file has been reached",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hGetChar",
           "normalized": "Handle-\u003eIO Char",
@@ -2550,6 +2756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl\u003c/code\u003e returns the list of characters\n corresponding to the unread portion of the channel or file managed\n by \u003ccode\u003ehdl\u003c/code\u003e, which is put into an intermediate state, \u003cem\u003esemi-closed\u003c/em\u003e.\n In this state, \u003ccode\u003ehdl\u003c/code\u003e is effectively closed,\n but items are read from \u003ccode\u003ehdl\u003c/code\u003e on demand and accumulated in a special\n list returned by \u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAny operation that fails because a handle is closed,\n also fails if a handle is semi-closed.  The only exception is \u003ccode\u003ehClose\u003c/code\u003e.\n A semi-closed handle becomes closed:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e if \u003ccode\u003ehClose\u003c/code\u003e is applied to it;\n\u003c/li\u003e\u003cli\u003e if an I/O error occurs when reading an item from the handle;\n\u003c/li\u003e\u003cli\u003e or once the entire contents of the handle has been read.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eOnce a semi-closed handle becomes closed, the contents of the\n associated list becomes fixed.  The contents of this final list is\n only partially specified: it will contain at least all the items of\n the stream that were evaluated prior to the handle becoming closed.\n\u003c/p\u003e\u003cp\u003eAny I/O errors encountered while a handle is semi-closed are simply\n discarded.\n\u003c/p\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisEOFError\u003c/a\u003e\u003c/code\u003e if the end of file has been reached.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hGetContents",
           "package": "haskell98",
@@ -2559,6 +2766,7 @@
         "index": {
           "description": "Computation hGetContents hdl returns the list of characters corresponding to the unread portion of the channel or file managed by hdl which is put into an intermediate state semi-closed In this state hdl is effectively closed but items are read from hdl on demand and accumulated in special list returned by hGetContents hdl Any operation that fails because handle is closed also fails if handle is semi-closed The only exception is hClose semi-closed handle becomes closed if hClose is applied to it if an error occurs when reading an item from the handle or once the entire contents of the handle has been read Once semi-closed handle becomes closed the contents of the associated list becomes fixed The contents of this final list is only partially specified it will contain at least all the items of the stream that were evaluated prior to the handle becoming closed Any errors encountered while handle is semi-closed are simply discarded This operation may fail with isEOFError if the end of file has been reached",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hGetContents",
           "normalized": "Handle-\u003eIO String",
@@ -2575,6 +2783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehGetLine\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl\u003c/code\u003e reads a line from the file or\n channel managed by \u003ccode\u003ehdl\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisEOFError\u003c/a\u003e\u003c/code\u003e if the end of file is encountered when reading\n    the \u003cem\u003efirst\u003c/em\u003e character of the line.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIf \u003ccode\u003e\u003ca\u003ehGetLine\u003c/a\u003e\u003c/code\u003e encounters end-of-file at any other point while reading\n in a line, it is treated as a line terminator and the (partial)\n line is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hGetLine",
           "package": "haskell98",
@@ -2584,6 +2793,7 @@
         "index": {
           "description": "Computation hGetLine hdl reads line from the file or channel managed by hdl This operation may fail with isEOFError if the end of file is encountered when reading the first character of the line If hGetLine encounters end-of-file at any other point while reading in line it is treated as line terminator and the partial line is returned",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hGetLine",
           "normalized": "Handle-\u003eIO String",
@@ -2600,6 +2810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehGetPosn\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl\u003c/code\u003e returns the current I/O position of\n \u003ccode\u003ehdl\u003c/code\u003e as a value of the abstract type \u003ccode\u003e\u003ca\u003eHandlePosn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hGetPosn",
           "package": "haskell98",
@@ -2609,6 +2820,7 @@
         "index": {
           "description": "Computation hGetPosn hdl returns the current position of hdl as value of the abstract type HandlePosn",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hGetPosn",
           "normalized": "Handle-\u003eIO HandlePosn",
@@ -2624,6 +2836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hIsClosed",
           "package": "haskell98",
@@ -2632,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hIsClosed",
           "normalized": "Handle-\u003eIO Bool",
@@ -2648,6 +2862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a readable handle \u003ccode\u003ehdl\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ehIsEOF\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl\u003c/code\u003e returns\n \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if no further input can be taken from \u003ccode\u003ehdl\u003c/code\u003e or for a\n physical file, if the current I/O position is equal to the length of\n the file.  Otherwise, it returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNOTE: \u003ccode\u003e\u003ca\u003ehIsEOF\u003c/a\u003e\u003c/code\u003e may block, because it has to attempt to read from\n the stream to determine whether there is any more data to be read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hIsEOF",
           "package": "haskell98",
@@ -2657,6 +2872,7 @@
         "index": {
           "description": "For readable handle hdl hIsEOF hdl returns True if no further input can be taken from hdl or for physical file if the current position is equal to the length of the file Otherwise it returns False NOTE hIsEOF may block because it has to attempt to read from the stream to determine whether there is any more data to be read",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hIsEOF",
           "normalized": "Handle-\u003eIO Bool",
@@ -2672,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hIsOpen",
           "package": "haskell98",
@@ -2680,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hIsOpen",
           "normalized": "Handle-\u003eIO Bool",
@@ -2695,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hIsReadable",
           "package": "haskell98",
@@ -2703,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hIsReadable",
           "normalized": "Handle-\u003eIO Bool",
@@ -2718,6 +2938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hIsSeekable",
           "package": "haskell98",
@@ -2726,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hIsSeekable",
           "normalized": "Handle-\u003eIO Bool",
@@ -2741,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hIsWritable",
           "package": "haskell98",
@@ -2749,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hIsWritable",
           "normalized": "Handle-\u003eIO Bool",
@@ -2765,6 +2989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehLookAhead\u003c/a\u003e\u003c/code\u003e returns the next character from the handle\n without removing it from the input buffer, blocking until a character\n is available.\n\u003c/p\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eisEOFError\u003c/code\u003e if the end of file has been reached.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hLookAhead",
           "package": "haskell98",
@@ -2774,6 +2999,7 @@
         "index": {
           "description": "Computation hLookAhead returns the next character from the handle without removing it from the input buffer blocking until character is available This operation may fail with isEOFError if the end of file has been reached",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hLookAhead",
           "normalized": "Handle-\u003eIO Char",
@@ -2790,6 +3016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehPrint\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl t\u003c/code\u003e writes the string representation of \u003ccode\u003et\u003c/code\u003e\n given by the \u003ccode\u003e\u003ca\u003eshows\u003c/a\u003e\u003c/code\u003e function to the file or channel managed by \u003ccode\u003ehdl\u003c/code\u003e\n and appends a newline.\n\u003c/p\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisFullError\u003c/a\u003e\u003c/code\u003e if the device is full; or\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisPermissionError\u003c/a\u003e\u003c/code\u003e if another system resource limit would be exceeded.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hPrint",
           "package": "haskell98",
@@ -2799,6 +3026,7 @@
         "index": {
           "description": "Computation hPrint hdl writes the string representation of given by the shows function to the file or channel managed by hdl and appends newline This operation may fail with isFullError if the device is full or isPermissionError if another system resource limit would be exceeded",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hPrint",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -2815,6 +3043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehPutChar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl ch\u003c/code\u003e writes the character \u003ccode\u003ech\u003c/code\u003e to the\n file or channel managed by \u003ccode\u003ehdl\u003c/code\u003e.  Characters may be buffered if\n buffering is enabled for \u003ccode\u003ehdl\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisFullError\u003c/a\u003e\u003c/code\u003e if the device is full; or\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisPermissionError\u003c/a\u003e\u003c/code\u003e if another system resource limit would be exceeded.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hPutChar",
           "package": "haskell98",
@@ -2824,6 +3053,7 @@
         "index": {
           "description": "Computation hPutChar hdl ch writes the character ch to the file or channel managed by hdl Characters may be buffered if buffering is enabled for hdl This operation may fail with isFullError if the device is full or isPermissionError if another system resource limit would be exceeded",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hPutChar",
           "normalized": "Handle-\u003eChar-\u003eIO()",
@@ -2840,6 +3070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehPutStr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl s\u003c/code\u003e writes the string\n \u003ccode\u003es\u003c/code\u003e to the file or channel managed by \u003ccode\u003ehdl\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisFullError\u003c/a\u003e\u003c/code\u003e if the device is full; or\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisPermissionError\u003c/a\u003e\u003c/code\u003e if another system resource limit would be exceeded.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hPutStr",
           "package": "haskell98",
@@ -2849,6 +3080,7 @@
         "index": {
           "description": "Computation hPutStr hdl writes the string to the file or channel managed by hdl This operation may fail with isFullError if the device is full or isPermissionError if another system resource limit would be exceeded",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hPutStr",
           "normalized": "Handle-\u003eString-\u003eIO()",
@@ -2865,6 +3097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003ehPutStr\u003c/a\u003e\u003c/code\u003e, but adds a newline character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hPutStrLn",
           "package": "haskell98",
@@ -2874,6 +3107,7 @@
         "index": {
           "description": "The same as hPutStr but adds newline character",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hPutStrLn",
           "normalized": "Handle-\u003eString-\u003eIO()",
@@ -2890,6 +3124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehReady\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl\u003c/code\u003e indicates whether at least one item is\n available for input from handle \u003ccode\u003ehdl\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisEOFError\u003c/a\u003e\u003c/code\u003e if the end of file has been reached.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hReady",
           "package": "haskell98",
@@ -2899,6 +3134,7 @@
         "index": {
           "description": "Computation hReady hdl indicates whether at least one item is available for input from handle hdl This operation may fail with isEOFError if the end of file has been reached",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hReady",
           "normalized": "Handle-\u003eIO Bool",
@@ -2915,6 +3151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehSeek\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl mode i\u003c/code\u003e sets the position of handle\n \u003ccode\u003ehdl\u003c/code\u003e depending on \u003ccode\u003emode\u003c/code\u003e.\n The offset \u003ccode\u003ei\u003c/code\u003e is given in terms of 8-bit bytes.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003ehdl\u003c/code\u003e is block- or line-buffered, then seeking to a position which is not\n in the current buffer will first cause any items in the output buffer to be\n written to the device, and then cause the input buffer to be discarded.\n Some handles may not be seekable (see \u003ccode\u003e\u003ca\u003ehIsSeekable\u003c/a\u003e\u003c/code\u003e), or only support a\n subset of the possible positioning operations (for instance, it may only\n be possible to seek to the end of a tape, or to a positive offset from\n the beginning or current position).\n It is not possible to set a negative I/O position, or for\n a physical file, an I/O position beyond the current end-of-file.\n\u003c/p\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eisIllegalOperationError\u003c/code\u003e if the Handle is not seekable, or does\n     not support the requested seek mode.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eisPermissionError\u003c/code\u003e if a system resource limit would be exceeded.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hSeek",
           "package": "haskell98",
@@ -2924,6 +3161,7 @@
         "index": {
           "description": "Computation hSeek hdl mode sets the position of handle hdl depending on mode The offset is given in terms of bit bytes If hdl is block or line-buffered then seeking to position which is not in the current buffer will first cause any items in the output buffer to be written to the device and then cause the input buffer to be discarded Some handles may not be seekable see hIsSeekable or only support subset of the possible positioning operations for instance it may only be possible to seek to the end of tape or to positive offset from the beginning or current position It is not possible to set negative position or for physical file an position beyond the current end-of-file This operation may fail with isIllegalOperationError if the Handle is not seekable or does not support the requested seek mode isPermissionError if system resource limit would be exceeded",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hSeek",
           "normalized": "Handle-\u003eSeekMode-\u003eInteger-\u003eIO()",
@@ -2940,6 +3178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehSetBuffering\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl mode\u003c/code\u003e sets the mode of buffering for\n handle \u003ccode\u003ehdl\u003c/code\u003e on subsequent reads and writes.\n\u003c/p\u003e\u003cp\u003eIf the buffer mode is changed from \u003ccode\u003e\u003ca\u003eBlockBuffering\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eLineBuffering\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eNoBuffering\u003c/a\u003e\u003c/code\u003e, then\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e if \u003ccode\u003ehdl\u003c/code\u003e is writable, the buffer is flushed as for \u003ccode\u003e\u003ca\u003ehFlush\u003c/a\u003e\u003c/code\u003e;\n\u003c/li\u003e\u003cli\u003e if \u003ccode\u003ehdl\u003c/code\u003e is not writable, the contents of the buffer is discarded.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eisPermissionError\u003c/code\u003e if the handle has already been used for reading\n    or writing and the implementation does not allow the buffering mode\n    to be changed.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hSetBuffering",
           "package": "haskell98",
@@ -2949,6 +3188,7 @@
         "index": {
           "description": "Computation hSetBuffering hdl mode sets the mode of buffering for handle hdl on subsequent reads and writes If the buffer mode is changed from BlockBuffering or LineBuffering to NoBuffering then if hdl is writable the buffer is flushed as for hFlush if hdl is not writable the contents of the buffer is discarded This operation may fail with isPermissionError if the handle has already been used for reading or writing and the implementation does not allow the buffering mode to be changed",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hSetBuffering",
           "normalized": "Handle-\u003eBufferMode-\u003eIO()",
@@ -2965,6 +3205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a call to \u003ccode\u003e\u003ca\u003ehGetPosn\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl\u003c/code\u003e returns a position \u003ccode\u003ep\u003c/code\u003e,\n then computation \u003ccode\u003e\u003ca\u003ehSetPosn\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e sets the position of \u003ccode\u003ehdl\u003c/code\u003e\n to the position it held at the time of the call to \u003ccode\u003e\u003ca\u003ehGetPosn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eisPermissionError\u003c/code\u003e if a system resource limit would be exceeded.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hSetPosn",
           "package": "haskell98",
@@ -2974,6 +3215,7 @@
         "index": {
           "description": "If call to hGetPosn hdl returns position then computation hSetPosn sets the position of hdl to the position it held at the time of the call to hGetPosn This operation may fail with isPermissionError if system resource limit would be exceeded",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hSetPosn",
           "normalized": "HandlePosn-\u003eIO()",
@@ -2990,6 +3232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003ehWaitForInput\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ehdl t\u003c/code\u003e\n waits until input is available on handle \u003ccode\u003ehdl\u003c/code\u003e.\n It returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e as soon as input is available on \u003ccode\u003ehdl\u003c/code\u003e,\n or \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e if no input is available within \u003ccode\u003et\u003c/code\u003e milliseconds.  Note that\n \u003ccode\u003e\u003ca\u003ehWaitForInput\u003c/a\u003e\u003c/code\u003e waits until one or more full \u003cem\u003echaracters\u003c/em\u003e are available,\n which means that it needs to do decoding, and hence may fail\n with a decoding error.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003et\u003c/code\u003e is less than zero, then \u003ccode\u003ehWaitForInput\u003c/code\u003e waits indefinitely.\n\u003c/p\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisEOFError\u003c/a\u003e\u003c/code\u003e if the end of file has been reached.\n\u003c/li\u003e\u003cli\u003e a decoding error, if the input begins with an invalid byte sequence\n    in this Handle's encoding.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNOTE for GHC users: unless you use the \u003ccode\u003e-threaded\u003c/code\u003e flag,\n \u003ccode\u003ehWaitForInput t\u003c/code\u003e where \u003ccode\u003et \u003e= 0\u003c/code\u003e will block all other Haskell\n threads for the duration of the call.  It behaves like a\n \u003ccode\u003esafe\u003c/code\u003e foreign call in this respect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "hWaitForInput",
           "package": "haskell98",
@@ -2999,6 +3242,7 @@
         "index": {
           "description": "Computation hWaitForInput hdl waits until input is available on handle hdl It returns True as soon as input is available on hdl or False if no input is available within milliseconds Note that hWaitForInput waits until one or more full characters are available which means that it needs to do decoding and hence may fail with decoding error If is less than zero then hWaitForInput waits indefinitely This operation may fail with isEOFError if the end of file has been reached decoding error if the input begins with an invalid byte sequence in this Handle encoding NOTE for GHC users unless you use the threaded flag hWaitForInput where will block all other Haskell threads for the duration of the call It behaves like safe foreign call in this respect",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "hWaitForInput",
           "normalized": "Handle-\u003eInt-\u003eIO Bool",
@@ -3065,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "ioeGetErrorString",
           "package": "haskell98",
@@ -3073,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "ioeGetErrorString",
           "normalized": "IOError-\u003eString",
@@ -3088,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "ioeGetFileName",
           "package": "haskell98",
@@ -3096,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "ioeGetFileName",
           "normalized": "IOError-\u003eMaybe FilePath",
@@ -3111,6 +3359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "ioeGetHandle",
           "package": "haskell98",
@@ -3119,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "ioeGetHandle",
           "normalized": "IOError-\u003eMaybe Handle",
@@ -3135,6 +3385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error indicating that an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e operation failed because\n one of its arguments already exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "isAlreadyExistsError",
           "package": "haskell98",
@@ -3144,6 +3395,7 @@
         "index": {
           "description": "An error indicating that an IO operation failed because one of its arguments already exists",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "isAlreadyExistsError",
           "normalized": "IOError-\u003eBool",
@@ -3160,6 +3412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error indicating that an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e operation failed because\n one of its arguments is a single-use resource, which is already\n being used (for example, opening the same file twice for writing\n might give this error).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "isAlreadyInUseError",
           "package": "haskell98",
@@ -3169,6 +3422,7 @@
         "index": {
           "description": "An error indicating that an IO operation failed because one of its arguments is single-use resource which is already being used for example opening the same file twice for writing might give this error",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "isAlreadyInUseError",
           "normalized": "IOError-\u003eBool",
@@ -3185,6 +3439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error indicating that an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e operation failed because\n one of its arguments does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "isDoesNotExistError",
           "package": "haskell98",
@@ -3194,6 +3449,7 @@
         "index": {
           "description": "An error indicating that an IO operation failed because one of its arguments does not exist",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "isDoesNotExistError",
           "normalized": "IOError-\u003eBool",
@@ -3210,6 +3466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe computation \u003ccode\u003e\u003ca\u003eisEOF\u003c/a\u003e\u003c/code\u003e is identical to \u003ccode\u003e\u003ca\u003ehIsEOF\u003c/a\u003e\u003c/code\u003e,\n except that it works only on \u003ccode\u003e\u003ca\u003estdin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "isEOF",
           "package": "haskell98",
@@ -3219,6 +3476,7 @@
         "index": {
           "description": "The computation isEOF is identical to hIsEOF except that it works only on stdin",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "isEOF",
           "package": "haskell98",
@@ -3233,6 +3491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error indicating that an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e operation failed because\n the end of file has been reached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "isEOFError",
           "package": "haskell98",
@@ -3242,6 +3501,7 @@
         "index": {
           "description": "An error indicating that an IO operation failed because the end of file has been reached",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "isEOFError",
           "normalized": "IOError-\u003eBool",
@@ -3258,6 +3518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error indicating that an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e operation failed because\n the device is full.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "isFullError",
           "package": "haskell98",
@@ -3267,6 +3528,7 @@
         "index": {
           "description": "An error indicating that an IO operation failed because the device is full",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "isFullError",
           "normalized": "IOError-\u003eBool",
@@ -3283,6 +3545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error indicating that an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e operation failed because\n the operation was not possible.\n Any computation which returns an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e result may fail with\n \u003ccode\u003e\u003ca\u003eisIllegalOperation\u003c/a\u003e\u003c/code\u003e.  In some cases, an implementation will not be\n able to distinguish between the possible error causes.  In this case\n it should fail with \u003ccode\u003e\u003ca\u003eisIllegalOperation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "isIllegalOperation",
           "package": "haskell98",
@@ -3292,6 +3555,7 @@
         "index": {
           "description": "An error indicating that an IO operation failed because the operation was not possible Any computation which returns an IO result may fail with isIllegalOperation In some cases an implementation will not be able to distinguish between the possible error causes In this case it should fail with isIllegalOperation",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "isIllegalOperation",
           "normalized": "IOError-\u003eBool",
@@ -3308,6 +3572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error indicating that an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e operation failed because\n the user does not have sufficient operating system privilege\n to perform that operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "isPermissionError",
           "package": "haskell98",
@@ -3317,6 +3582,7 @@
         "index": {
           "description": "An error indicating that an IO operation failed because the user does not have sufficient operating system privilege to perform that operation",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "isPermissionError",
           "normalized": "IOError-\u003eBool",
@@ -3333,6 +3599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA programmer-defined error value constructed using \u003ccode\u003e\u003ca\u003euserError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "isUserError",
           "package": "haskell98",
@@ -3342,6 +3609,7 @@
         "index": {
           "description": "programmer-defined error value constructed using userError",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "isUserError",
           "normalized": "IOError-\u003eBool",
@@ -3358,6 +3626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003eopenFile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efile mode\u003c/code\u003e allocates and returns a new, open\n handle to manage the file \u003ccode\u003efile\u003c/code\u003e.  It manages input if \u003ccode\u003emode\u003c/code\u003e\n is \u003ccode\u003e\u003ca\u003eReadMode\u003c/a\u003e\u003c/code\u003e, output if \u003ccode\u003emode\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eWriteMode\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eAppendMode\u003c/a\u003e\u003c/code\u003e,\n and both input and output if mode is \u003ccode\u003e\u003ca\u003eReadWriteMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf the file does not exist and it is opened for output, it should be\n created as a new file.  If \u003ccode\u003emode\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eWriteMode\u003c/a\u003e\u003c/code\u003e and the file\n already exists, then it should be truncated to zero length.\n Some operating systems delete empty files, so there is no guarantee\n that the file will exist following an \u003ccode\u003e\u003ca\u003eopenFile\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003emode\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003eWriteMode\u003c/a\u003e\u003c/code\u003e unless it is subsequently written to successfully.\n The handle is positioned at the end of the file if \u003ccode\u003emode\u003c/code\u003e is\n \u003ccode\u003e\u003ca\u003eAppendMode\u003c/a\u003e\u003c/code\u003e, and otherwise at the beginning (in which case its\n internal position is 0).\n The initial buffer mode is implementation-dependent.\n\u003c/p\u003e\u003cp\u003eThis operation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eisAlreadyInUseError\u003c/code\u003e if the file is already open and cannot be reopened;\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eisDoesNotExistError\u003c/code\u003e if the file does not exist; or\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eisPermissionError\u003c/code\u003e if the user does not have permission to open the file.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNote: if you will be working with files containing binary data, you'll want to\n be using \u003ccode\u003e\u003ca\u003eopenBinaryFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "openFile",
           "package": "haskell98",
@@ -3367,6 +3636,7 @@
         "index": {
           "description": "Computation openFile file mode allocates and returns new open handle to manage the file file It manages input if mode is ReadMode output if mode is WriteMode or AppendMode and both input and output if mode is ReadWriteMode If the file does not exist and it is opened for output it should be created as new file If mode is WriteMode and the file already exists then it should be truncated to zero length Some operating systems delete empty files so there is no guarantee that the file will exist following an openFile with mode WriteMode unless it is subsequently written to successfully The handle is positioned at the end of the file if mode is AppendMode and otherwise at the beginning in which case its internal position is The initial buffer mode is implementation-dependent This operation may fail with isAlreadyInUseError if the file is already open and cannot be reopened isDoesNotExistError if the file does not exist or isPermissionError if the user does not have permission to open the file Note if you will be working with files containing binary data you ll want to be using openBinaryFile",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "openFile",
           "normalized": "FilePath-\u003eIOMode-\u003eIO Handle",
@@ -3562,6 +3832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle managing output to the Haskell program's standard error channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "stderr",
           "package": "haskell98",
@@ -3571,6 +3842,7 @@
         "index": {
           "description": "handle managing output to the Haskell program standard error channel",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "stderr",
           "package": "haskell98",
@@ -3584,6 +3856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle managing input from the Haskell program's standard input channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "stdin",
           "package": "haskell98",
@@ -3593,6 +3866,7 @@
         "index": {
           "description": "handle managing input from the Haskell program standard input channel",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "stdin",
           "package": "haskell98",
@@ -3606,6 +3880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle managing output to the Haskell program's standard output channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "stdout",
           "package": "haskell98",
@@ -3615,6 +3890,7 @@
         "index": {
           "description": "handle managing output to the Haskell program standard output channel",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "stdout",
           "package": "haskell98",
@@ -3628,6 +3904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe construct \u003ccode\u003e\u003ca\u003etry\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ecomp\u003c/code\u003e exposes IO errors which occur within a\n computation, and which are not fully handled.\n\u003c/p\u003e\u003cp\u003eNon-I/O exceptions are not caught by this variant; to catch all\n exceptions, use \u003ccode\u003e\u003ca\u003etry\u003c/a\u003e\u003c/code\u003e from \u003ca\u003eControl.Exception\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "IO",
           "name": "try",
           "package": "haskell98",
@@ -3638,6 +3915,7 @@
         "index": {
           "description": "The construct try comp exposes IO errors which occur within computation and which are not fully handled Non-I exceptions are not caught by this variant to catch all exceptions use try from Control.Exception",
           "hierarchy": "IO",
+          "indexed": "2014-03-11T18:32:00",
           "module": "IO",
           "name": "try",
           "normalized": "IO a-\u003eIO(Either IOError a)",
@@ -3704,6 +3982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Int",
           "name": "Int",
           "package": "haskell98",
@@ -3712,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Int",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Int",
           "name": "Int",
           "package": "haskell98",
@@ -3725,6 +4005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Ix",
           "name": "Ix",
           "package": "haskell98",
@@ -3733,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "Ix",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Ix",
           "name": "Ix",
           "package": "haskell98",
@@ -3747,6 +4029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eIx\u003c/a\u003e\u003c/code\u003e class is used to map a contiguous subrange of values in\n a type onto integers.  It is used primarily for array indexing\n (see the array package).\n\u003c/p\u003e\u003cp\u003eThe first argument \u003ccode\u003e(l,u)\u003c/code\u003e of each of these operations is a pair\n specifying the lower and upper bounds of a contiguous subrange of values.\n\u003c/p\u003e\u003cp\u003eAn implementation is entitled to assume the following laws about these\n operations:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003einRange\u003c/a\u003e\u003c/code\u003e (l,u) i == \u003ccode\u003e\u003ca\u003eelem\u003c/a\u003e\u003c/code\u003e i (\u003ccode\u003e\u003ca\u003erange\u003c/a\u003e\u003c/code\u003e (l,u))\u003c/code\u003e \u003ccode\u003e \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003erange\u003c/a\u003e\u003c/code\u003e (l,u) \u003ccode\u003e\u003ca\u003e!!\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e (l,u) i == i\u003c/code\u003e, when \u003ccode\u003e\u003ccode\u003e\u003ca\u003einRange\u003c/a\u003e\u003c/code\u003e (l,u) i\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e (l,u)) (\u003ccode\u003e\u003ca\u003erange\u003c/a\u003e\u003c/code\u003e (l,u))) == [0..\u003ccode\u003e\u003ca\u003erangeSize\u003c/a\u003e\u003c/code\u003e (l,u)-1]\u003c/code\u003e \u003ccode\u003e \u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003erangeSize\u003c/a\u003e\u003c/code\u003e (l,u) == \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003erange\u003c/a\u003e\u003c/code\u003e (l,u))\u003c/code\u003e \u003ccode\u003e \u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eMinimal complete instance: \u003ccode\u003e\u003ca\u003erange\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003einRange\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Ix",
           "name": "Ix",
           "package": "haskell98",
@@ -3755,6 +4038,7 @@
         "index": {
           "description": "The Ix class is used to map contiguous subrange of values in type onto integers It is used primarily for array indexing see the array package The first argument of each of these operations is pair specifying the lower and upper bounds of contiguous subrange of values An implementation is entitled to assume the following laws about these operations inRange elem range range index when inRange map index range rangeSize rangeSize length range Minimal complete instance range index and inRange",
           "hierarchy": "Ix",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Ix",
           "name": "Ix",
           "package": "haskell98",
@@ -3769,6 +4053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e the given subscript lies in the range defined\n the bounding pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Ix",
           "name": "inRange",
           "package": "haskell98",
@@ -3778,6 +4063,7 @@
         "index": {
           "description": "Returns True the given subscript lies in the range defined the bounding pair",
           "hierarchy": "Ix",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Ix",
           "name": "inRange",
           "normalized": "(a,a)-\u003ea-\u003eBool",
@@ -3794,6 +4080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe position of a subscript in the subrange.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Ix",
           "name": "index",
           "package": "haskell98",
@@ -3803,6 +4090,7 @@
         "index": {
           "description": "The position of subscript in the subrange",
           "hierarchy": "Ix",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Ix",
           "name": "index",
           "normalized": "(a,a)-\u003ea-\u003eInt",
@@ -3818,6 +4106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of values in the subrange defined by a bounding pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Ix",
           "name": "range",
           "package": "haskell98",
@@ -3827,6 +4116,7 @@
         "index": {
           "description": "The list of values in the subrange defined by bounding pair",
           "hierarchy": "Ix",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Ix",
           "name": "range",
           "normalized": "(a,a)-\u003e[a]",
@@ -3842,6 +4132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of the subrange defined by a bounding pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Ix",
           "name": "rangeSize",
           "package": "haskell98",
@@ -3851,6 +4142,7 @@
         "index": {
           "description": "The size of the subrange defined by bounding pair",
           "hierarchy": "Ix",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Ix",
           "name": "rangeSize",
           "normalized": "(a,a)-\u003eInt",
@@ -3866,6 +4158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "List",
           "package": "haskell98",
@@ -3874,6 +4167,7 @@
         },
         "index": {
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "List",
           "package": "haskell98",
@@ -3938,6 +4232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003e\\\\\u003c/a\u003e\u003c/code\u003e function is list difference (non-associative).\n In the result of \u003ccode\u003exs\u003c/code\u003e \u003ccode\u003e\u003ca\u003e\\\\\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eys\u003c/code\u003e, the first occurrence of each element of\n \u003ccode\u003eys\u003c/code\u003e in turn (if any) has been removed from \u003ccode\u003exs\u003c/code\u003e.  Thus\n\u003c/p\u003e\u003cpre\u003e (xs ++ ys) \\\\ xs == ys.\n\u003c/pre\u003e\u003cp\u003eIt is a special case of \u003ccode\u003e\u003ca\u003edeleteFirstsBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer\n to supply their own equality test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "(\\\\)",
           "package": "haskell98",
@@ -3947,6 +4242,7 @@
         "index": {
           "description": "The function is list difference non-associative In the result of xs ys the first occurrence of each element of ys in turn if any has been removed from xs Thus xs ys xs ys It is special case of deleteFirstsBy which allows the programmer to supply their own equality test",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "(\\\\) \\\\",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -4138,6 +4434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ex\u003c/code\u003e removes the first occurrence of \u003ccode\u003ex\u003c/code\u003e from its list argument.\n For example,\n\u003c/p\u003e\u003cpre\u003e delete 'a' \"banana\" == \"bnana\"\n\u003c/pre\u003e\u003cp\u003eIt is a special case of \u003ccode\u003e\u003ca\u003edeleteBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer to\n supply their own equality test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "delete",
           "package": "haskell98",
@@ -4147,6 +4444,7 @@
         "index": {
           "description": "delete removes the first occurrence of from its list argument For example delete banana bnana It is special case of deleteBy which allows the programmer to supply their own equality test",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "delete",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -4162,6 +4460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003edeleteBy\u003c/a\u003e\u003c/code\u003e function behaves like \u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e, but takes a\n user-supplied equality predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "deleteBy",
           "package": "haskell98",
@@ -4171,6 +4470,7 @@
         "index": {
           "description": "The deleteBy function behaves like delete but takes user-supplied equality predicate",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "deleteBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003ea-\u003e[a]-\u003e[a]",
@@ -4187,6 +4487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003edeleteFirstsBy\u003c/a\u003e\u003c/code\u003e function takes a predicate and two lists and\n returns the first list with the first occurrence of each element of\n the second list removed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "deleteFirstsBy",
           "package": "haskell98",
@@ -4196,6 +4497,7 @@
         "index": {
           "description": "The deleteFirstsBy function takes predicate and two lists and returns the first list with the first occurrence of each element of the second list removed",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "deleteFirstsBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -4288,6 +4590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eelemIndex\u003c/a\u003e\u003c/code\u003e function returns the index of the first element\n in the given list which is equal (by \u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e) to the query element,\n or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if there is no such element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "elemIndex",
           "package": "haskell98",
@@ -4297,6 +4600,7 @@
         "index": {
           "description": "The elemIndex function returns the index of the first element in the given list which is equal by to the query element or Nothing if there is no such element",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "elemIndex",
           "normalized": "a-\u003e[a]-\u003eMaybe Int",
@@ -4313,6 +4617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eelemIndices\u003c/a\u003e\u003c/code\u003e function extends \u003ccode\u003e\u003ca\u003eelemIndex\u003c/a\u003e\u003c/code\u003e, by returning the\n indices of all elements equal to the query element, in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "elemIndices",
           "package": "haskell98",
@@ -4322,6 +4627,7 @@
         "index": {
           "description": "The elemIndices function extends elemIndex by returning the indices of all elements equal to the query element in ascending order",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "elemIndices",
           "normalized": "a-\u003e[a]-\u003e[Int]",
@@ -4363,6 +4669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efind\u003c/a\u003e\u003c/code\u003e function takes a predicate and a list and returns the\n first element in the list matching the predicate, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if\n there is no such element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "find",
           "package": "haskell98",
@@ -4372,6 +4679,7 @@
         "index": {
           "description": "The find function takes predicate and list and returns the first element in the list matching the predicate or Nothing if there is no such element",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "find",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eMaybe a",
@@ -4387,6 +4695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efindIndex\u003c/a\u003e\u003c/code\u003e function takes a predicate and a list and returns\n the index of the first element in the list satisfying the predicate,\n or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if there is no such element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "findIndex",
           "package": "haskell98",
@@ -4396,6 +4705,7 @@
         "index": {
           "description": "The findIndex function takes predicate and list and returns the index of the first element in the list satisfying the predicate or Nothing if there is no such element",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "findIndex",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eMaybe Int",
@@ -4412,6 +4722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efindIndices\u003c/a\u003e\u003c/code\u003e function extends \u003ccode\u003e\u003ca\u003efindIndex\u003c/a\u003e\u003c/code\u003e, by returning the\n indices of all elements satisfying the predicate, in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "findIndices",
           "package": "haskell98",
@@ -4421,6 +4732,7 @@
         "index": {
           "description": "The findIndices function extends findIndex by returning the indices of all elements satisfying the predicate in ascending order",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "findIndices",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[Int]",
@@ -4537,6 +4849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egenericDrop\u003c/a\u003e\u003c/code\u003e function is an overloaded version of \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e, which\n accepts any \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e value as the number of elements to drop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "genericDrop",
           "package": "haskell98",
@@ -4546,6 +4859,7 @@
         "index": {
           "description": "The genericDrop function is an overloaded version of drop which accepts any Integral value as the number of elements to drop",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "genericDrop",
           "normalized": "a-\u003e[b]-\u003e[b]",
@@ -4562,6 +4876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egenericIndex\u003c/a\u003e\u003c/code\u003e function is an overloaded version of \u003ccode\u003e\u003ca\u003e!!\u003c/a\u003e\u003c/code\u003e, which\n accepts any \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e value as the index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "genericIndex",
           "package": "haskell98",
@@ -4571,6 +4886,7 @@
         "index": {
           "description": "The genericIndex function is an overloaded version of which accepts any Integral value as the index",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "genericIndex",
           "normalized": "[a]-\u003eb-\u003ea",
@@ -4587,6 +4903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egenericLength\u003c/a\u003e\u003c/code\u003e function is an overloaded version of \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e.  In\n particular, instead of returning an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, it returns any type which is\n an instance of \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e.  It is, however, less efficient than \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "genericLength",
           "package": "haskell98",
@@ -4596,6 +4913,7 @@
         "index": {
           "description": "The genericLength function is an overloaded version of length In particular instead of returning an Int it returns any type which is an instance of Num It is however less efficient than length",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "genericLength",
           "normalized": "[a]-\u003eb",
@@ -4612,6 +4930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egenericReplicate\u003c/a\u003e\u003c/code\u003e function is an overloaded version of \u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e,\n which accepts any \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e value as the number of repetitions to make.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "genericReplicate",
           "package": "haskell98",
@@ -4621,6 +4940,7 @@
         "index": {
           "description": "The genericReplicate function is an overloaded version of replicate which accepts any Integral value as the number of repetitions to make",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "genericReplicate",
           "normalized": "a-\u003eb-\u003e[b]",
@@ -4637,6 +4957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egenericSplitAt\u003c/a\u003e\u003c/code\u003e function is an overloaded version of \u003ccode\u003e\u003ca\u003esplitAt\u003c/a\u003e\u003c/code\u003e, which\n accepts any \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e value as the position at which to split.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "genericSplitAt",
           "package": "haskell98",
@@ -4646,6 +4967,7 @@
         "index": {
           "description": "The genericSplitAt function is an overloaded version of splitAt which accepts any Integral value as the position at which to split",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "genericSplitAt",
           "normalized": "a-\u003e[b]-\u003e([b],[b])",
@@ -4662,6 +4984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egenericTake\u003c/a\u003e\u003c/code\u003e function is an overloaded version of \u003ccode\u003e\u003ca\u003etake\u003c/a\u003e\u003c/code\u003e, which\n accepts any \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e value as the number of elements to take.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "genericTake",
           "package": "haskell98",
@@ -4671,6 +4994,7 @@
         "index": {
           "description": "The genericTake function is an overloaded version of take which accepts any Integral value as the number of elements to take",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "genericTake",
           "normalized": "a-\u003e[b]-\u003e[b]",
@@ -4687,6 +5011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egroup\u003c/a\u003e\u003c/code\u003e function takes a list and returns a list of lists such\n that the concatenation of the result is equal to the argument.  Moreover,\n each sublist in the result contains only equal elements.  For example,\n\u003c/p\u003e\u003cpre\u003e group \"Mississippi\" = [\"M\",\"i\",\"ss\",\"i\",\"ss\",\"i\",\"pp\",\"i\"]\n\u003c/pre\u003e\u003cp\u003eIt is a special case of \u003ccode\u003e\u003ca\u003egroupBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer to supply\n their own equality test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "group",
           "package": "haskell98",
@@ -4696,6 +5021,7 @@
         "index": {
           "description": "The group function takes list and returns list of lists such that the concatenation of the result is equal to the argument Moreover each sublist in the result contains only equal elements For example group Mississippi ss ss pp It is special case of groupBy which allows the programmer to supply their own equality test",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "group",
           "normalized": "[a]-\u003e[[a]]",
@@ -4711,6 +5037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egroupBy\u003c/a\u003e\u003c/code\u003e function is the non-overloaded version of \u003ccode\u003e\u003ca\u003egroup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "groupBy",
           "package": "haskell98",
@@ -4720,6 +5047,7 @@
         "index": {
           "description": "The groupBy function is the non-overloaded version of group",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "groupBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -4786,6 +5114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003einits\u003c/a\u003e\u003c/code\u003e function returns all initial segments of the argument,\n shortest first.  For example,\n\u003c/p\u003e\u003cpre\u003e inits \"abc\" == [\"\",\"a\",\"ab\",\"abc\"]\n\u003c/pre\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003einits\u003c/a\u003e\u003c/code\u003e has the following strictness property:\n \u003ccode\u003einits _|_ = [] : _|_\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "inits",
           "package": "haskell98",
@@ -4795,6 +5124,7 @@
         "index": {
           "description": "The inits function returns all initial segments of the argument shortest first For example inits abc ab abc Note that inits has the following strictness property inits",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "inits",
           "normalized": "[a]-\u003e[[a]]",
@@ -4810,6 +5140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e function takes an element and a list and inserts the\n element into the list at the last position where it is still less\n than or equal to the next element.  In particular, if the list\n is sorted before the call, the result will also be sorted.\n It is a special case of \u003ccode\u003e\u003ca\u003einsertBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer to\n supply their own comparison function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "insert",
           "package": "haskell98",
@@ -4819,6 +5150,7 @@
         "index": {
           "description": "The insert function takes an element and list and inserts the element into the list at the last position where it is still less than or equal to the next element In particular if the list is sorted before the call the result will also be sorted It is special case of insertBy which allows the programmer to supply their own comparison function",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "insert",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -4834,6 +5166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe non-overloaded version of \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "insertBy",
           "package": "haskell98",
@@ -4843,6 +5176,7 @@
         "index": {
           "description": "The non-overloaded version of insert",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "insertBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003ea-\u003e[a]-\u003e[a]",
@@ -4859,6 +5193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eintersect\u003c/a\u003e\u003c/code\u003e function takes the list intersection of two lists.\n For example,\n\u003c/p\u003e\u003cpre\u003e [1,2,3,4] `intersect` [2,4,6,8] == [2,4]\n\u003c/pre\u003e\u003cp\u003eIf the first list contains duplicates, so will the result.\n\u003c/p\u003e\u003cpre\u003e [1,2,2,3,4] `intersect` [6,4,4,2] == [2,2,4]\n\u003c/pre\u003e\u003cp\u003eIt is a special case of \u003ccode\u003e\u003ca\u003eintersectBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer to\n supply their own equality test. If the element is found in both the first\n and the second list, the element from the first list will be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "intersect",
           "package": "haskell98",
@@ -4868,6 +5203,7 @@
         "index": {
           "description": "The intersect function takes the list intersection of two lists For example intersect If the first list contains duplicates so will the result intersect It is special case of intersectBy which allows the programmer to supply their own equality test If the element is found in both the first and the second list the element from the first list will be used",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "intersect",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -4883,6 +5219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eintersectBy\u003c/a\u003e\u003c/code\u003e function is the non-overloaded version of \u003ccode\u003e\u003ca\u003eintersect\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "intersectBy",
           "package": "haskell98",
@@ -4892,6 +5229,7 @@
         "index": {
           "description": "The intersectBy function is the non-overloaded version of intersect",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "intersectBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -4908,6 +5246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eintersperse\u003c/a\u003e\u003c/code\u003e function takes an element and a list and\n `intersperses' that element between the elements of the list.\n For example,\n\u003c/p\u003e\u003cpre\u003e intersperse ',' \"abcde\" == \"a,b,c,d,e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "intersperse",
           "package": "haskell98",
@@ -4917,6 +5256,7 @@
         "index": {
           "description": "The intersperse function takes an element and list and intersperses that element between the elements of the list For example intersperse abcde",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "intersperse",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -4932,6 +5272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eisPrefixOf\u003c/a\u003e\u003c/code\u003e function takes two lists and returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n iff the first list is a prefix of the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "isPrefixOf",
           "package": "haskell98",
@@ -4941,6 +5282,7 @@
         "index": {
           "description": "The isPrefixOf function takes two lists and returns True iff the first list is prefix of the second",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "isPrefixOf",
           "normalized": "[a]-\u003e[a]-\u003eBool",
@@ -4957,6 +5299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eisSuffixOf\u003c/a\u003e\u003c/code\u003e function takes two lists and returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n iff the first list is a suffix of the second.\n Both lists must be finite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "isSuffixOf",
           "package": "haskell98",
@@ -4966,6 +5309,7 @@
         "index": {
           "description": "The isSuffixOf function takes two lists and returns True iff the first list is suffix of the second Both lists must be finite",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "isSuffixOf",
           "normalized": "[a]-\u003e[a]-\u003eBool",
@@ -5132,6 +5476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emapAccumL\u003c/a\u003e\u003c/code\u003e function behaves like a combination of \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e; it applies a function to each element of a list, passing\n an accumulating parameter from left to right, and returning a final\n value of this accumulator together with the new list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "mapAccumL",
           "package": "haskell98",
@@ -5141,6 +5486,7 @@
         "index": {
           "description": "The mapAccumL function behaves like combination of map and foldl it applies function to each element of list passing an accumulating parameter from left to right and returning final value of this accumulator together with the new list",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "mapAccumL",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003ea-\u003e[b]-\u003e(a,[c])",
@@ -5157,6 +5503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emapAccumR\u003c/a\u003e\u003c/code\u003e function behaves like a combination of \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e; it applies a function to each element of a list, passing\n an accumulating parameter from right to left, and returning a final\n value of this accumulator together with the new list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "mapAccumR",
           "package": "haskell98",
@@ -5166,6 +5513,7 @@
         "index": {
           "description": "The mapAccumR function behaves like combination of map and foldr it applies function to each element of list passing an accumulating parameter from right to left and returning final value of this accumulator together with the new list",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "mapAccumR",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003ea-\u003e[b]-\u003e(a,[c])",
@@ -5207,6 +5555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emaximumBy\u003c/a\u003e\u003c/code\u003e function takes a comparison function and a list\n and returns the greatest element of the list by the comparison function.\n The list must be finite and non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "maximumBy",
           "package": "haskell98",
@@ -5216,6 +5565,7 @@
         "index": {
           "description": "The maximumBy function takes comparison function and list and returns the greatest element of the list by the comparison function The list must be finite and non-empty",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "maximumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003ea",
@@ -5257,6 +5607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eminimumBy\u003c/a\u003e\u003c/code\u003e function takes a comparison function and a list\n and returns the least element of the list by the comparison function.\n The list must be finite and non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "minimumBy",
           "package": "haskell98",
@@ -5266,6 +5617,7 @@
         "index": {
           "description": "The minimumBy function takes comparison function and list and returns the least element of the list by the comparison function The list must be finite and non-empty",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "minimumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003ea",
@@ -5308,6 +5660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n^2)\u003c/em\u003e. The \u003ccode\u003e\u003ca\u003enub\u003c/a\u003e\u003c/code\u003e function removes duplicate elements from a list.\n In particular, it keeps only the first occurrence of each element.\n (The name \u003ccode\u003e\u003ca\u003enub\u003c/a\u003e\u003c/code\u003e means `essence'.)\n It is a special case of \u003ccode\u003e\u003ca\u003enubBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer to supply\n their own equality test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "nub",
           "package": "haskell98",
@@ -5317,6 +5670,7 @@
         "index": {
           "description": "The nub function removes duplicate elements from list In particular it keeps only the first occurrence of each element The name nub means essence It is special case of nubBy which allows the programmer to supply their own equality test",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "nub",
           "normalized": "[a]-\u003e[a]",
@@ -5332,6 +5686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003enubBy\u003c/a\u003e\u003c/code\u003e function behaves just like \u003ccode\u003e\u003ca\u003enub\u003c/a\u003e\u003c/code\u003e, except it uses a\n user-supplied equality predicate instead of the overloaded \u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "nubBy",
           "package": "haskell98",
@@ -5341,6 +5696,7 @@
         "index": {
           "description": "The nubBy function behaves just like nub except it uses user-supplied equality predicate instead of the overloaded function",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "nubBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -5407,6 +5763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003epartition\u003c/a\u003e\u003c/code\u003e function takes a predicate a list and returns\n the pair of lists of elements which do and do not satisfy the\n predicate, respectively; i.e.,\n\u003c/p\u003e\u003cpre\u003e partition p xs == (filter p xs, filter (not . p) xs)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "partition",
           "package": "haskell98",
@@ -5416,6 +5773,7 @@
         "index": {
           "description": "The partition function takes predicate list and returns the pair of lists of elements which do and do not satisfy the predicate respectively i.e partition xs filter xs filter not xs",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -5631,6 +5989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esort\u003c/a\u003e\u003c/code\u003e function implements a stable sorting algorithm.\n It is a special case of \u003ccode\u003e\u003ca\u003esortBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer to supply\n their own comparison function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "sort",
           "package": "haskell98",
@@ -5640,6 +5999,7 @@
         "index": {
           "description": "The sort function implements stable sorting algorithm It is special case of sortBy which allows the programmer to supply their own comparison function",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "sort",
           "normalized": "[a]-\u003e[a]",
@@ -5655,6 +6015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esortBy\u003c/a\u003e\u003c/code\u003e function is the non-overloaded version of \u003ccode\u003e\u003ca\u003esort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "sortBy",
           "package": "haskell98",
@@ -5664,6 +6025,7 @@
         "index": {
           "description": "The sortBy function is the non-overloaded version of sort",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "sortBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003e[a]",
@@ -5782,6 +6144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etails\u003c/a\u003e\u003c/code\u003e function returns all final segments of the argument,\n longest first.  For example,\n\u003c/p\u003e\u003cpre\u003e tails \"abc\" == [\"abc\", \"bc\", \"c\",\"\"]\n\u003c/pre\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003etails\u003c/a\u003e\u003c/code\u003e has the following strictness property:\n \u003ccode\u003etails _|_ = _|_ : _|_\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "tails",
           "package": "haskell98",
@@ -5791,6 +6154,7 @@
         "index": {
           "description": "The tails function returns all final segments of the argument longest first For example tails abc abc bc Note that tails has the following strictness property tails",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "tails",
           "normalized": "[a]-\u003e[[a]]",
@@ -5857,6 +6221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etranspose\u003c/a\u003e\u003c/code\u003e function transposes the rows and columns of its argument.\n For example,\n\u003c/p\u003e\u003cpre\u003e transpose [[1,2,3],[4,5,6]] == [[1,4],[2,5],[3,6]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "transpose",
           "package": "haskell98",
@@ -5866,6 +6231,7 @@
         "index": {
           "description": "The transpose function transposes the rows and columns of its argument For example transpose",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "transpose",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -5881,6 +6247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e function is a `dual' to \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e: while \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e\n reduces a list to a summary value, \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e builds a list from\n a seed value.  The function takes the element and returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n if it is done producing the list or returns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(a,b)\u003c/code\u003e, in which\n case, \u003ccode\u003ea\u003c/code\u003e is a prepended to the list and \u003ccode\u003eb\u003c/code\u003e is used as the next\n element in a recursive call.  For example,\n\u003c/p\u003e\u003cpre\u003e iterate f == unfoldr (\\x -\u003e Just (x, f x))\n\u003c/pre\u003e\u003cp\u003eIn some cases, \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e can undo a \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e operation:\n\u003c/p\u003e\u003cpre\u003e unfoldr f' (foldr f z xs) == xs\n\u003c/pre\u003e\u003cp\u003eif the following holds:\n\u003c/p\u003e\u003cpre\u003e f' (f x y) = Just (x,y)\n f' z       = Nothing\n\u003c/pre\u003e\u003cp\u003eA simple use of unfoldr:\n\u003c/p\u003e\u003cpre\u003e unfoldr (\\b -\u003e if b == 0 then Nothing else Just (b, b-1)) 10\n  [10,9,8,7,6,5,4,3,2,1]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "unfoldr",
           "package": "haskell98",
@@ -5890,6 +6257,7 @@
         "index": {
           "description": "The unfoldr function is dual to foldr while foldr reduces list to summary value unfoldr builds list from seed value The function takes the element and returns Nothing if it is done producing the list or returns Just in which case is prepended to the list and is used as the next element in recursive call For example iterate unfoldr Just In some cases unfoldr can undo foldr operation unfoldr foldr xs xs if the following holds Just Nothing simple use of unfoldr unfoldr if then Nothing else Just b-1",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "unfoldr",
           "normalized": "(a-\u003eMaybe(b,a))-\u003ea-\u003e[b]",
@@ -5905,6 +6273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e function returns the list union of the two lists.\n For example,\n\u003c/p\u003e\u003cpre\u003e \"dog\" `union` \"cow\" == \"dogcw\"\n\u003c/pre\u003e\u003cp\u003eDuplicates, and elements of the first list, are removed from the\n the second list, but if the first list contains duplicates, so will\n the result.\n It is a special case of \u003ccode\u003e\u003ca\u003eunionBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer to supply\n their own equality test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "union",
           "package": "haskell98",
@@ -5914,6 +6283,7 @@
         "index": {
           "description": "The union function returns the list union of the two lists For example dog union cow dogcw Duplicates and elements of the first list are removed from the the second list but if the first list contains duplicates so will the result It is special case of unionBy which allows the programmer to supply their own equality test",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "union",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -5929,6 +6299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunionBy\u003c/a\u003e\u003c/code\u003e function is the non-overloaded version of \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "unionBy",
           "package": "haskell98",
@@ -5938,6 +6309,7 @@
         "index": {
           "description": "The unionBy function is the non-overloaded version of union",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "unionBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -6054,6 +6426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunzip4\u003c/a\u003e\u003c/code\u003e function takes a list of quadruples and returns four\n lists, analogous to \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "unzip4",
           "package": "haskell98",
@@ -6063,6 +6436,7 @@
         "index": {
           "description": "The unzip4 function takes list of quadruples and returns four lists analogous to unzip",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "unzip4",
           "normalized": "[(a,b,c,d)]-\u003e([a],[b],[c],[d])",
@@ -6078,6 +6452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunzip5\u003c/a\u003e\u003c/code\u003e function takes a list of five-tuples and returns five\n lists, analogous to \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "unzip5",
           "package": "haskell98",
@@ -6087,6 +6462,7 @@
         "index": {
           "description": "The unzip5 function takes list of five-tuples and returns five lists analogous to unzip",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "unzip5",
           "normalized": "[(a,b,c,d,e)]-\u003e([a],[b],[c],[d],[e])",
@@ -6102,6 +6478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunzip6\u003c/a\u003e\u003c/code\u003e function takes a list of six-tuples and returns six\n lists, analogous to \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "unzip6",
           "package": "haskell98",
@@ -6111,6 +6488,7 @@
         "index": {
           "description": "The unzip6 function takes list of six-tuples and returns six lists analogous to unzip",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "unzip6",
           "normalized": "[(a,b,c,d,e,f)]-\u003e([a],[b],[c],[d],[e],[f])",
@@ -6126,6 +6504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunzip7\u003c/a\u003e\u003c/code\u003e function takes a list of seven-tuples and returns\n seven lists, analogous to \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "unzip7",
           "package": "haskell98",
@@ -6135,6 +6514,7 @@
         "index": {
           "description": "The unzip7 function takes list of seven-tuples and returns seven lists analogous to unzip",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "unzip7",
           "normalized": "[(a,b,c,d,e,f,g)]-\u003e([a],[b],[c],[d],[e],[f],[g])",
@@ -6225,6 +6605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezip4\u003c/a\u003e\u003c/code\u003e function takes four lists and returns a list of\n quadruples, analogous to \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "zip4",
           "package": "haskell98",
@@ -6234,6 +6615,7 @@
         "index": {
           "description": "The zip4 function takes four lists and returns list of quadruples analogous to zip",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "zip4",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[(a,b,c,d)]",
@@ -6249,6 +6631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezip5\u003c/a\u003e\u003c/code\u003e function takes five lists and returns a list of\n five-tuples, analogous to \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "zip5",
           "package": "haskell98",
@@ -6258,6 +6641,7 @@
         "index": {
           "description": "The zip5 function takes five lists and returns list of five-tuples analogous to zip",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "zip5",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[(a,b,c,d,e)]",
@@ -6273,6 +6657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezip6\u003c/a\u003e\u003c/code\u003e function takes six lists and returns a list of six-tuples,\n analogous to \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "zip6",
           "package": "haskell98",
@@ -6282,6 +6667,7 @@
         "index": {
           "description": "The zip6 function takes six lists and returns list of six-tuples analogous to zip",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "zip6",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]-\u003e[(a,b,c,d,e,f)]",
@@ -6297,6 +6683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezip7\u003c/a\u003e\u003c/code\u003e function takes seven lists and returns a list of\n seven-tuples, analogous to \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "zip7",
           "package": "haskell98",
@@ -6306,6 +6693,7 @@
         "index": {
           "description": "The zip7 function takes seven lists and returns list of seven-tuples analogous to zip",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "zip7",
           "normalized": "[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]-\u003e[g]-\u003e[(a,b,c,d,e,f,g)]",
@@ -6373,6 +6761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezipWith4\u003c/a\u003e\u003c/code\u003e function takes a function which combines four\n elements, as well as four lists and returns a list of their point-wise\n combination, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "zipWith4",
           "package": "haskell98",
@@ -6382,6 +6771,7 @@
         "index": {
           "description": "The zipWith4 function takes function which combines four elements as well as four lists and returns list of their point-wise combination analogous to zipWith",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "zipWith4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]",
@@ -6398,6 +6788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezipWith5\u003c/a\u003e\u003c/code\u003e function takes a function which combines five\n elements, as well as five lists and returns a list of their point-wise\n combination, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "zipWith5",
           "package": "haskell98",
@@ -6407,6 +6798,7 @@
         "index": {
           "description": "The zipWith5 function takes function which combines five elements as well as five lists and returns list of their point-wise combination analogous to zipWith",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "zipWith5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]",
@@ -6423,6 +6815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezipWith6\u003c/a\u003e\u003c/code\u003e function takes a function which combines six\n elements, as well as six lists and returns a list of their point-wise\n combination, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "zipWith6",
           "package": "haskell98",
@@ -6432,6 +6825,7 @@
         "index": {
           "description": "The zipWith6 function takes function which combines six elements as well as six lists and returns list of their point-wise combination analogous to zipWith",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "zipWith6",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]-\u003e[g]",
@@ -6448,6 +6842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezipWith7\u003c/a\u003e\u003c/code\u003e function takes a function which combines seven\n elements, as well as seven lists and returns a list of their point-wise\n combination, analogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "List",
           "name": "zipWith7",
           "package": "haskell98",
@@ -6457,6 +6852,7 @@
         "index": {
           "description": "The zipWith7 function takes function which combines seven elements as well as seven lists and returns list of their point-wise combination analogous to zipWith",
           "hierarchy": "List",
+          "indexed": "2014-03-11T18:32:00",
           "module": "List",
           "name": "zipWith7",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]-\u003e[g]-\u003e[h]",
@@ -6472,6 +6868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Locale",
           "name": "Locale",
           "package": "haskell98",
@@ -6480,6 +6877,7 @@
         },
         "index": {
           "hierarchy": "Locale",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Locale",
           "name": "Locale",
           "package": "haskell98",
@@ -6493,6 +6891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Locale",
           "name": "TimeLocale",
           "package": "haskell98",
@@ -6500,6 +6899,7 @@
         },
         "index": {
           "hierarchy": "Locale",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Locale",
           "name": "TimeLocale",
           "package": "haskell98",
@@ -6513,6 +6913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Locale",
           "name": "TimeLocale",
           "package": "haskell98",
@@ -6521,6 +6922,7 @@
         },
         "index": {
           "hierarchy": "Locale",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Locale",
           "name": "TimeLocale",
           "normalized": "TimeLocale[(String,String)][(String,String)][(String,String)](String,String)String String String String",
@@ -6536,6 +6938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Locale",
           "name": "defaultTimeLocale",
           "package": "haskell98",
@@ -6544,6 +6947,7 @@
         },
         "index": {
           "hierarchy": "Locale",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Locale",
           "name": "defaultTimeLocale",
           "package": "haskell98",
@@ -6557,6 +6961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalAlloc",
           "name": "MarshalAlloc",
           "package": "haskell98",
@@ -6565,6 +6970,7 @@
         },
         "index": {
           "hierarchy": "MarshalAlloc",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalAlloc",
           "name": "MarshalAlloc",
           "package": "haskell98",
@@ -6578,6 +6984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalArray",
           "name": "MarshalArray",
           "package": "haskell98",
@@ -6586,6 +6993,7 @@
         },
         "index": {
           "hierarchy": "MarshalArray",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalArray",
           "name": "MarshalArray",
           "package": "haskell98",
@@ -6599,6 +7007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalError",
           "name": "MarshalError",
           "package": "haskell98",
@@ -6607,6 +7016,7 @@
         },
         "index": {
           "hierarchy": "MarshalError",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalError",
           "name": "MarshalError",
           "package": "haskell98",
@@ -6621,6 +7031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract type that contains a value for each variant of \u003ccode\u003e\u003ca\u003eIOError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalError",
           "name": "IOErrorType",
           "package": "haskell98",
@@ -6629,6 +7040,7 @@
         "index": {
           "description": "An abstract type that contains value for each variant of IOError",
           "hierarchy": "MarshalError",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalError",
           "name": "IOErrorType",
           "package": "haskell98",
@@ -6643,6 +7055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI/O error where the operation failed because one of its arguments\n already exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalError",
           "name": "alreadyExistsErrorType",
           "package": "haskell98",
@@ -6652,6 +7065,7 @@
         "index": {
           "description": "error where the operation failed because one of its arguments already exists",
           "hierarchy": "MarshalError",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalError",
           "name": "alreadyExistsErrorType",
           "package": "haskell98",
@@ -6666,6 +7080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI/O error where the operation failed because one of its arguments\n is a single-use resource, which is already being used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalError",
           "name": "alreadyInUseErrorType",
           "package": "haskell98",
@@ -6675,6 +7090,7 @@
         "index": {
           "description": "error where the operation failed because one of its arguments is single-use resource which is already being used",
           "hierarchy": "MarshalError",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalError",
           "name": "alreadyInUseErrorType",
           "package": "haskell98",
@@ -6689,6 +7105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a location description and maybe a file path and file handle\n to an \u003ccode\u003e\u003ca\u003eIOError\u003c/a\u003e\u003c/code\u003e.  If any of the file handle or file path is not given\n the corresponding value in the \u003ccode\u003e\u003ca\u003eIOError\u003c/a\u003e\u003c/code\u003e remains unaltered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalError",
           "name": "annotateIOError",
           "package": "haskell98",
@@ -6698,6 +7115,7 @@
         "index": {
           "description": "Adds location description and maybe file path and file handle to an IOError If any of the file handle or file path is not given the corresponding value in the IOError remains unaltered",
           "hierarchy": "MarshalError",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalError",
           "name": "annotateIOError",
           "normalized": "IOError-\u003eString-\u003eMaybe Handle-\u003eMaybe FilePath-\u003eIOError",
@@ -6714,6 +7132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI/O error where the operation failed because one of its arguments\n does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalError",
           "name": "doesNotExistErrorType",
           "package": "haskell98",
@@ -6723,6 +7142,7 @@
         "index": {
           "description": "error where the operation failed because one of its arguments does not exist",
           "hierarchy": "MarshalError",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalError",
           "name": "doesNotExistErrorType",
           "package": "haskell98",
@@ -6737,6 +7157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI/O error where the operation failed because the end of file has\n been reached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalError",
           "name": "eofErrorType",
           "package": "haskell98",
@@ -6746,6 +7167,7 @@
         "index": {
           "description": "error where the operation failed because the end of file has been reached",
           "hierarchy": "MarshalError",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalError",
           "name": "eofErrorType",
           "package": "haskell98",
@@ -6760,6 +7182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI/O error where the operation failed because the device is full.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalError",
           "name": "fullErrorType",
           "package": "haskell98",
@@ -6769,6 +7192,7 @@
         "index": {
           "description": "error where the operation failed because the device is full",
           "hierarchy": "MarshalError",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalError",
           "name": "fullErrorType",
           "package": "haskell98",
@@ -6783,6 +7207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI/O error where the operation is not possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalError",
           "name": "illegalOperationErrorType",
           "package": "haskell98",
@@ -6792,6 +7217,7 @@
         "index": {
           "description": "error where the operation is not possible",
           "hierarchy": "MarshalError",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalError",
           "name": "illegalOperationErrorType",
           "package": "haskell98",
@@ -6806,6 +7232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an \u003ccode\u003e\u003ca\u003eIOError\u003c/a\u003e\u003c/code\u003e of the given type where the second argument\n describes the error location and the third and fourth argument\n contain the file handle and file path of the file involved in the\n error if applicable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalError",
           "name": "mkIOError",
           "package": "haskell98",
@@ -6815,6 +7242,7 @@
         "index": {
           "description": "Construct an IOError of the given type where the second argument describes the error location and the third and fourth argument contain the file handle and file path of the file involved in the error if applicable",
           "hierarchy": "MarshalError",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalError",
           "name": "mkIOError",
           "normalized": "IOErrorType-\u003eString-\u003eMaybe Handle-\u003eMaybe FilePath-\u003eIOError",
@@ -6831,6 +7259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI/O error where the operation failed because the user does not\n have sufficient operating system privilege to perform that operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalError",
           "name": "permissionErrorType",
           "package": "haskell98",
@@ -6840,6 +7269,7 @@
         "index": {
           "description": "error where the operation failed because the user does not have sufficient operating system privilege to perform that operation",
           "hierarchy": "MarshalError",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalError",
           "name": "permissionErrorType",
           "package": "haskell98",
@@ -6854,6 +7284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI/O error that is programmer-defined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalError",
           "name": "userErrorType",
           "package": "haskell98",
@@ -6863,6 +7294,7 @@
         "index": {
           "description": "error that is programmer-defined",
           "hierarchy": "MarshalError",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalError",
           "name": "userErrorType",
           "package": "haskell98",
@@ -6876,6 +7308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "MarshalUtils",
           "name": "MarshalUtils",
           "package": "haskell98",
@@ -6884,6 +7317,7 @@
         },
         "index": {
           "hierarchy": "MarshalUtils",
+          "indexed": "2014-03-11T18:32:00",
           "module": "MarshalUtils",
           "name": "MarshalUtils",
           "package": "haskell98",
@@ -6897,6 +7331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Maybe",
           "name": "Maybe",
           "package": "haskell98",
@@ -6905,6 +7340,7 @@
         },
         "index": {
           "hierarchy": "Maybe",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Maybe",
           "name": "Maybe",
           "package": "haskell98",
@@ -6919,6 +7355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e type encapsulates an optional value.  A value of type\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e either contains a value of type \u003ccode\u003ea\u003c/code\u003e (represented as \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e), \n or it is empty (represented as \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e).  Using \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e is a good way to \n deal with errors or exceptional cases without resorting to drastic\n measures such as \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e type is also a monad.  It is a simple kind of error\n monad, where all errors are represented by \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.  A richer\n error monad can be built using the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Maybe",
           "name": "Maybe",
           "package": "haskell98",
@@ -6927,6 +7364,7 @@
         "index": {
           "description": "The Maybe type encapsulates an optional value value of type Maybe either contains value of type represented as Just or it is empty represented as Nothing Using Maybe is good way to deal with errors or exceptional cases without resorting to drastic measures such as error The Maybe type is also monad It is simple kind of error monad where all errors are represented by Nothing richer error monad can be built using the Either type",
           "hierarchy": "Maybe",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Maybe",
           "name": "Maybe",
           "package": "haskell98",
@@ -6985,6 +7423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ecatMaybes\u003c/a\u003e\u003c/code\u003e function takes a list of \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003es and returns\n a list of all the \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Maybe",
           "name": "catMaybes",
           "package": "haskell98",
@@ -6994,6 +7433,7 @@
         "index": {
           "description": "The catMaybes function takes list of Maybe and returns list of all the Just values",
           "hierarchy": "Maybe",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Maybe",
           "name": "catMaybes",
           "normalized": "[Maybe a]-\u003e[a]",
@@ -7010,6 +7450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efromJust\u003c/a\u003e\u003c/code\u003e function extracts the element out of a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e and\n throws an error if its argument is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Maybe",
           "name": "fromJust",
           "package": "haskell98",
@@ -7019,6 +7460,7 @@
         "index": {
           "description": "The fromJust function extracts the element out of Just and throws an error if its argument is Nothing",
           "hierarchy": "Maybe",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Maybe",
           "name": "fromJust",
           "normalized": "Maybe a-\u003ea",
@@ -7035,6 +7477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efromMaybe\u003c/a\u003e\u003c/code\u003e function takes a default value and and \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e\n value.  If the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, it returns the default values;\n otherwise, it returns the value contained in the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Maybe",
           "name": "fromMaybe",
           "package": "haskell98",
@@ -7044,6 +7487,7 @@
         "index": {
           "description": "The fromMaybe function takes default value and and Maybe value If the Maybe is Nothing it returns the default values otherwise it returns the value contained in the Maybe",
           "hierarchy": "Maybe",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Maybe",
           "name": "fromMaybe",
           "normalized": "a-\u003eMaybe a-\u003ea",
@@ -7060,6 +7504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eisJust\u003c/a\u003e\u003c/code\u003e function returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff its argument is of the\n form \u003ccode\u003eJust _\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Maybe",
           "name": "isJust",
           "package": "haskell98",
@@ -7069,6 +7514,7 @@
         "index": {
           "description": "The isJust function returns True iff its argument is of the form Just",
           "hierarchy": "Maybe",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Maybe",
           "name": "isJust",
           "normalized": "Maybe a-\u003eBool",
@@ -7085,6 +7531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eisNothing\u003c/a\u003e\u003c/code\u003e function returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff its argument is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Maybe",
           "name": "isNothing",
           "package": "haskell98",
@@ -7094,6 +7541,7 @@
         "index": {
           "description": "The isNothing function returns True iff its argument is Nothing",
           "hierarchy": "Maybe",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Maybe",
           "name": "isNothing",
           "normalized": "Maybe a-\u003eBool",
@@ -7110,6 +7558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003elistToMaybe\u003c/a\u003e\u003c/code\u003e function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e on an empty list\n or \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e where \u003ccode\u003ea\u003c/code\u003e is the first element of the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Maybe",
           "name": "listToMaybe",
           "package": "haskell98",
@@ -7119,6 +7568,7 @@
         "index": {
           "description": "The listToMaybe function returns Nothing on an empty list or Just where is the first element of the list",
           "hierarchy": "Maybe",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Maybe",
           "name": "listToMaybe",
           "normalized": "[a]-\u003eMaybe a",
@@ -7135,6 +7585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emapMaybe\u003c/a\u003e\u003c/code\u003e function is a version of \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e which can throw\n out elements.  In particular, the functional argument returns\n something of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e b\u003c/code\u003e.  If this is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, no element\n is added on to the result list.  If it just \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e b\u003c/code\u003e, then \u003ccode\u003eb\u003c/code\u003e is\n included in the result list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Maybe",
           "name": "mapMaybe",
           "package": "haskell98",
@@ -7144,6 +7595,7 @@
         "index": {
           "description": "The mapMaybe function is version of map which can throw out elements In particular the functional argument returns something of type Maybe If this is Nothing no element is added on to the result list If it just Just then is included in the result list",
           "hierarchy": "Maybe",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Maybe",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003e[a]-\u003e[b]",
@@ -7185,6 +7637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emaybeToList\u003c/a\u003e\u003c/code\u003e function returns an empty list when given\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e or a singleton list when not given \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Maybe",
           "name": "maybeToList",
           "package": "haskell98",
@@ -7194,6 +7647,7 @@
         "index": {
           "description": "The maybeToList function returns an empty list when given Nothing or singleton list when not given Nothing",
           "hierarchy": "Maybe",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Maybe",
           "name": "maybeToList",
           "normalized": "Maybe a-\u003e[a]",
@@ -7209,6 +7663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "Monad",
           "package": "haskell98",
@@ -7217,6 +7672,7 @@
         },
         "index": {
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "Monad",
           "package": "haskell98",
@@ -7231,6 +7687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e class is used for types that can be mapped over.\nInstances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e should satisfy the following laws:\n\u003c/p\u003e\u003cpre\u003e fmap id  ==  id\n fmap (f . g)  ==  fmap f . fmap g\n\u003c/pre\u003e\u003cp\u003eThe instances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e for lists, \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\nsatisfy these laws.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "Functor",
           "package": "haskell98",
@@ -7239,6 +7696,7 @@
         "index": {
           "description": "The Functor class is used for types that can be mapped over Instances of Functor should satisfy the following laws fmap id id fmap fmap fmap The instances of Functor for lists Maybe and IO satisfy these laws",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "Functor",
           "package": "haskell98",
@@ -7253,6 +7711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e class defines the basic operations over a \u003cem\u003emonad\u003c/em\u003e,\na concept from a branch of mathematics known as \u003cem\u003ecategory theory\u003c/em\u003e.\nFrom the perspective of a Haskell programmer, however, it is best to\nthink of a monad as an \u003cem\u003eabstract datatype\u003c/em\u003e of actions.\nHaskell's \u003ccode\u003edo\u003c/code\u003e expressions provide a convenient syntax for writing\nmonadic expressions.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInstances of \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e should satisfy the following laws:\n\u003c/p\u003e\u003cpre\u003e return a \u003e\u003e= k  ==  k a\n m \u003e\u003e= return  ==  m\n m \u003e\u003e= (\\x -\u003e k x \u003e\u003e= h)  ==  (m \u003e\u003e= k) \u003e\u003e= h\n\u003c/pre\u003e\u003cp\u003eInstances of both \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e should additionally satisfy the law:\n\u003c/p\u003e\u003cpre\u003e fmap f xs  ==  xs \u003e\u003e= return . f\n\u003c/pre\u003e\u003cp\u003eThe instances of \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e for lists, \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\ndefined in the \u003ca\u003ePrelude\u003c/a\u003e satisfy these laws.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "Monad",
           "package": "haskell98",
@@ -7261,6 +7720,7 @@
         "index": {
           "description": "The Monad class defines the basic operations over monad concept from branch of mathematics known as category theory From the perspective of Haskell programmer however it is best to think of monad as an abstract datatype of actions Haskell do expressions provide convenient syntax for writing monadic expressions Minimal complete definition and return Instances of Monad should satisfy the following laws return return Instances of both Monad and Functor should additionally satisfy the law fmap xs xs return The instances of Monad for lists Maybe and IO defined in the Prelude satisfy these laws",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "Monad",
           "package": "haskell98",
@@ -7275,6 +7735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads that also support choice and failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "MonadPlus",
           "package": "haskell98",
@@ -7283,6 +7744,7 @@
         "index": {
           "description": "Monads that also support choice and failure",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "MonadPlus",
           "package": "haskell98",
@@ -7322,6 +7784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequentially compose two actions, discarding any value produced\n by the first, like sequencing operators (such as the semicolon)\n in imperative languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "(\u003e\u003e)",
           "package": "haskell98",
@@ -7331,6 +7794,7 @@
         "index": {
           "description": "Sequentially compose two actions discarding any value produced by the first like sequencing operators such as the semicolon in imperative languages",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "(\u003e\u003e) \u003e\u003e",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -7346,6 +7810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequentially compose two actions, passing any value produced\n by the first as an argument to the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "(\u003e\u003e=)",
           "package": "haskell98",
@@ -7355,6 +7820,7 @@
         "index": {
           "description": "Sequentially compose two actions passing any value produced by the first as an argument to the second",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "(\u003e\u003e=) \u003e\u003e=",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea c",
@@ -7370,6 +7836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn many situations, the \u003ccode\u003e\u003ca\u003eliftM\u003c/a\u003e\u003c/code\u003e operations can be replaced by uses of\n\u003ccode\u003e\u003ca\u003eap\u003c/a\u003e\u003c/code\u003e, which promotes function application. \n\u003c/p\u003e\u003cpre\u003e       return f `ap` x1 `ap` ... `ap` xn\n\u003c/pre\u003e\u003cp\u003eis equivalent to \n\u003c/p\u003e\u003cpre\u003e       liftMn f x1 x2 ... xn\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "ap",
           "package": "haskell98",
@@ -7379,6 +7846,7 @@
         "index": {
           "description": "In many situations the liftM operations can be replaced by uses of ap which promotes function application return ap x1 ap ap xn is equivalent to liftMn x1 x2 xn",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "ap",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -7394,6 +7862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFail with a message.  This operation is not part of the\n mathematical definition of a monad, but is invoked on pattern-match\n failure in a \u003ccode\u003edo\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "fail",
           "package": "haskell98",
@@ -7403,6 +7872,7 @@
         "index": {
           "description": "Fail with message This operation is not part of the mathematical definition of monad but is invoked on pattern-match failure in do expression",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "fail",
           "normalized": "String-\u003ea b",
@@ -7418,6 +7888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis generalizes the list-based \u003ccode\u003e\u003ca\u003efilter\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "filterM",
           "package": "haskell98",
@@ -7427,6 +7898,7 @@
         "index": {
           "description": "This generalizes the list-based filter function",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "filterM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb[a]",
@@ -7441,6 +7913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "fmap",
           "package": "haskell98",
@@ -7449,6 +7922,7 @@
         },
         "index": {
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "fmap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -7464,6 +7938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efoldM\u003c/a\u003e\u003c/code\u003e function is analogous to \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e, except that its result is\nencapsulated in a monad. Note that \u003ccode\u003e\u003ca\u003efoldM\u003c/a\u003e\u003c/code\u003e works from left-to-right over\nthe list arguments. This could be an issue where \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e\u003e\u003e\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e and the `folded\nfunction' are not commutative.\n\u003c/p\u003e\u003cpre\u003e       foldM f a1 [x1, x2, ..., xm]\n\u003c/pre\u003e\u003cp\u003e==  \n\u003c/p\u003e\u003cpre\u003e       do\n         a2 \u003c- f a1 x1\n         a3 \u003c- f a2 x2\n         ...\n         f am xm\n\u003c/pre\u003e\u003cp\u003eIf right-to-left evaluation is required, the input list should be reversed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "foldM",
           "package": "haskell98",
@@ -7473,6 +7948,7 @@
         "index": {
           "description": "The foldM function is analogous to foldl except that its result is encapsulated in monad Note that foldM works from left-to-right over the list arguments This could be an issue where and the folded function are not commutative foldM a1 x1 x2 xm do a2 a1 x1 a3 a2 x2 am xm If right-to-left evaluation is required the input list should be reversed",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "foldM",
           "normalized": "(a-\u003eb-\u003ec a)-\u003ea-\u003e[b]-\u003ec a",
@@ -7488,6 +7964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eguard\u003c/a\u003e\u003c/code\u003e b\u003c/code\u003e is \u003ccode\u003e\u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e ()\u003c/code\u003e if \u003ccode\u003eb\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e,\n and \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003eb\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "guard",
           "package": "haskell98",
@@ -7497,6 +7974,7 @@
         "index": {
           "description": "guard is return if is True and mzero if is False",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "guard",
           "normalized": "Bool-\u003ea()",
@@ -7512,6 +7990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e function is the conventional monad join operator. It is used to\n remove one level of monadic structure, projecting its bound argument into the\n outer level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "join",
           "package": "haskell98",
@@ -7521,6 +8000,7 @@
         "index": {
           "description": "The join function is the conventional monad join operator It is used to remove one level of monadic structure projecting its bound argument into the outer level",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "join",
           "normalized": "a(a b)-\u003ea b",
@@ -7536,6 +8016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a function to a monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "liftM",
           "package": "haskell98",
@@ -7545,6 +8026,7 @@
         "index": {
           "description": "Promote function to monad",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "liftM",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -7560,6 +8042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a function to a monad, scanning the monadic arguments from\n left to right.  For example,\n\u003c/p\u003e\u003cpre\u003e    liftM2 (+) [0,1] [0,2] = [0,2,1,3]\n    liftM2 (+) (Just 1) Nothing = Nothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "liftM2",
           "package": "haskell98",
@@ -7569,6 +8052,7 @@
         "index": {
           "description": "Promote function to monad scanning the monadic arguments from left to right For example liftM2 liftM2 Just Nothing Nothing",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "liftM2",
           "normalized": "(a-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec b",
@@ -7584,6 +8068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a function to a monad, scanning the monadic arguments from\n left to right (cf. \u003ccode\u003e\u003ca\u003eliftM2\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "liftM3",
           "package": "haskell98",
@@ -7593,6 +8078,7 @@
         "index": {
           "description": "Promote function to monad scanning the monadic arguments from left to right cf liftM2",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "liftM3",
           "normalized": "(a-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -7608,6 +8094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a function to a monad, scanning the monadic arguments from\n left to right (cf. \u003ccode\u003e\u003ca\u003eliftM2\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "liftM4",
           "package": "haskell98",
@@ -7617,6 +8104,7 @@
         "index": {
           "description": "Promote function to monad scanning the monadic arguments from left to right cf liftM2",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "liftM4",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -7632,6 +8120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a function to a monad, scanning the monadic arguments from\n left to right (cf. \u003ccode\u003e\u003ca\u003eliftM2\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "liftM5",
           "package": "haskell98",
@@ -7641,6 +8130,7 @@
         "index": {
           "description": "Promote function to monad scanning the monadic arguments from left to right cf liftM2",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "liftM5",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -7656,6 +8146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emapAndUnzipM\u003c/a\u003e\u003c/code\u003e function maps its first argument over a list, returning\n the result as a pair of lists. This function is mainly used with complicated\n data structures or a state-transforming monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "mapAndUnzipM",
           "package": "haskell98",
@@ -7665,6 +8156,7 @@
         "index": {
           "description": "The mapAndUnzipM function maps its first argument over list returning the result as pair of lists This function is mainly used with complicated data structures or state-transforming monad",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "mapAndUnzipM",
           "normalized": "(a-\u003eb(c,d))-\u003e[a]-\u003eb([c],[d])",
@@ -7731,6 +8223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean associative operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "mplus",
           "package": "haskell98",
@@ -7740,6 +8233,7 @@
         "index": {
           "description": "an associative operation",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "mplus",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -7755,6 +8249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis generalizes the list-based \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "msum",
           "package": "haskell98",
@@ -7764,6 +8259,7 @@
         "index": {
           "description": "This generalizes the list-based concat function",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "msum",
           "normalized": "[a b]-\u003ea b",
@@ -7779,6 +8275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe identity of \u003ccode\u003e\u003ca\u003emplus\u003c/a\u003e\u003c/code\u003e.  It should also satisfy the equations\n\u003c/p\u003e\u003cpre\u003e mzero \u003e\u003e= f  =  mzero\n v \u003e\u003e mzero   =  mzero\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "mzero",
           "package": "haskell98",
@@ -7788,6 +8285,7 @@
         "index": {
           "description": "the identity of mplus It should also satisfy the equations mzero mzero mzero mzero",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "mzero",
           "package": "haskell98",
@@ -7801,6 +8299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject a value into the monadic type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "return",
           "package": "haskell98",
@@ -7810,6 +8309,7 @@
         "index": {
           "description": "Inject value into the monadic type",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "return",
           "normalized": "a-\u003eb a",
@@ -7875,6 +8375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reverse of \u003ccode\u003e\u003ca\u003ewhen\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "unless",
           "package": "haskell98",
@@ -7884,6 +8385,7 @@
         "index": {
           "description": "The reverse of when",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "unless",
           "normalized": "Bool-\u003ea()-\u003ea()",
@@ -7899,6 +8401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional execution of monadic expressions. For example, \n\u003c/p\u003e\u003cpre\u003e       when debug (putStr \"Debugging\\n\")\n\u003c/pre\u003e\u003cp\u003ewill output the string \u003ccode\u003eDebugging\\n\u003c/code\u003e if the Boolean value \u003ccode\u003edebug\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e,\nand otherwise do nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "when",
           "package": "haskell98",
@@ -7908,6 +8411,7 @@
         "index": {
           "description": "Conditional execution of monadic expressions For example when debug putStr Debugging will output the string Debugging if the Boolean value debug is True and otherwise do nothing",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "when",
           "normalized": "Bool-\u003ea()-\u003ea()",
@@ -7923,6 +8427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezipWithM\u003c/a\u003e\u003c/code\u003e function generalizes \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e to arbitrary monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "zipWithM",
           "package": "haskell98",
@@ -7932,6 +8437,7 @@
         "index": {
           "description": "The zipWithM function generalizes zipWith to arbitrary monads",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "zipWithM",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e[a]-\u003e[b]-\u003ec[d]",
@@ -7948,6 +8454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ezipWithM_\u003c/a\u003e\u003c/code\u003e is the extension of \u003ccode\u003e\u003ca\u003ezipWithM\u003c/a\u003e\u003c/code\u003e which ignores the final result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Monad",
           "name": "zipWithM_",
           "package": "haskell98",
@@ -7957,6 +8464,7 @@
         "index": {
           "description": "zipWithM is the extension of zipWithM which ignores the final result",
           "hierarchy": "Monad",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Monad",
           "name": "zipWithM_",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e[a]-\u003e[b]-\u003ec()",
@@ -7972,6 +8480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "Numeric",
           "package": "haskell98",
@@ -7980,6 +8489,7 @@
         },
         "index": {
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "Numeric",
           "package": "haskell98",
@@ -7994,6 +8504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efloatToDigits\u003c/a\u003e\u003c/code\u003e takes a base and a non-negative \u003ccode\u003e\u003ca\u003eRealFloat\u003c/a\u003e\u003c/code\u003e number,\n and returns a list of digits and an exponent.\n In particular, if \u003ccode\u003ex\u003e=0\u003c/code\u003e, and\n\u003c/p\u003e\u003cpre\u003e floatToDigits base x = ([d1,d2,...,dn], e)\n\u003c/pre\u003e\u003cp\u003ethen\n\u003c/p\u003e\u003col\u003e\u003cli\u003e\u003cpre\u003en \u003e= 1\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ex = 0.d1d2...dn * (base**e)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e0 \u003c= di \u003c= base-1\u003c/pre\u003e\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "floatToDigits",
           "package": "haskell98",
@@ -8003,6 +8514,7 @@
         "index": {
           "description": "floatToDigits takes base and non-negative RealFloat number and returns list of digits and an exponent In particular if and floatToDigits base d1 d2 dn then d1d2...dn base di base-1",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "floatToDigits",
           "normalized": "Integer-\u003ea-\u003e([Int],Int)",
@@ -8019,6 +8531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e value into any type in class \u003ccode\u003e\u003ca\u003eRealFloat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "fromRat",
           "package": "haskell98",
@@ -8028,6 +8541,7 @@
         "index": {
           "description": "Converts Rational value into any type in class RealFloat",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "fromRat",
           "normalized": "Rational-\u003ea",
@@ -8044,6 +8558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a non-empty string of decimal digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "lexDigits",
           "package": "haskell98",
@@ -8053,6 +8568,7 @@
         "index": {
           "description": "Reads non-empty string of decimal digits",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "lexDigits",
           "package": "haskell98",
@@ -8067,6 +8583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an unsigned number in decimal notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "readDec",
           "package": "haskell98",
@@ -8076,6 +8593,7 @@
         "index": {
           "description": "Read an unsigned number in decimal notation",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "readDec",
           "package": "haskell98",
@@ -8090,6 +8608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads an \u003cem\u003eunsigned\u003c/em\u003e \u003ccode\u003e\u003ca\u003eRealFrac\u003c/a\u003e\u003c/code\u003e value,\n expressed in decimal scientific notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "readFloat",
           "package": "haskell98",
@@ -8099,6 +8618,7 @@
         "index": {
           "description": "Reads an unsigned RealFrac value expressed in decimal scientific notation",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "readFloat",
           "package": "haskell98",
@@ -8113,6 +8633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an unsigned number in hexadecimal notation.\n Both upper or lower case letters are allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "readHex",
           "package": "haskell98",
@@ -8122,6 +8643,7 @@
         "index": {
           "description": "Read an unsigned number in hexadecimal notation Both upper or lower case letters are allowed",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "readHex",
           "package": "haskell98",
@@ -8136,6 +8658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads an \u003cem\u003eunsigned\u003c/em\u003e \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e value in an arbitrary base.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "readInt",
           "package": "haskell98",
@@ -8145,6 +8668,7 @@
         "index": {
           "description": "Reads an unsigned Integral value in an arbitrary base",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "readInt",
           "normalized": "a-\u003e(Char-\u003eBool)-\u003e(Char-\u003eInt)-\u003eReadS a",
@@ -8161,6 +8685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an unsigned number in octal notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "readOct",
           "package": "haskell98",
@@ -8170,6 +8695,7 @@
         "index": {
           "description": "Read an unsigned number in octal notation",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "readOct",
           "package": "haskell98",
@@ -8184,6 +8710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a \u003cem\u003esigned\u003c/em\u003e \u003ccode\u003e\u003ca\u003eReal\u003c/a\u003e\u003c/code\u003e value, given a reader for an unsigned value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "readSigned",
           "package": "haskell98",
@@ -8193,6 +8720,7 @@
         "index": {
           "description": "Reads signed Real value given reader for an unsigned value",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "readSigned",
           "normalized": "ReadS a-\u003eReadS a",
@@ -8209,6 +8737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a signed \u003ccode\u003e\u003ca\u003eRealFloat\u003c/a\u003e\u003c/code\u003e value\n using scientific (exponential) notation (e.g. \u003ccode\u003e2.45e2\u003c/code\u003e, \u003ccode\u003e1.5e-3\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eIn the call \u003ccode\u003e\u003ccode\u003e\u003ca\u003eshowEFloat\u003c/a\u003e\u003c/code\u003e digs val\u003c/code\u003e, if \u003ccode\u003edigs\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e,\n the value is shown to full precision; if \u003ccode\u003edigs\u003c/code\u003e is \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e d\u003c/code\u003e,\n then at most \u003ccode\u003ed\u003c/code\u003e digits after the decimal point are shown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "showEFloat",
           "package": "haskell98",
@@ -8218,6 +8747,7 @@
         "index": {
           "description": "Show signed RealFloat value using scientific exponential notation e.g e2 e-3 In the call showEFloat digs val if digs is Nothing the value is shown to full precision if digs is Just then at most digits after the decimal point are shown",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "showEFloat",
           "normalized": "Maybe Int-\u003ea-\u003eShowS",
@@ -8234,6 +8764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a signed \u003ccode\u003e\u003ca\u003eRealFloat\u003c/a\u003e\u003c/code\u003e value\n using standard decimal notation (e.g. \u003ccode\u003e245000\u003c/code\u003e, \u003ccode\u003e0.0015\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eIn the call \u003ccode\u003e\u003ccode\u003e\u003ca\u003eshowFFloat\u003c/a\u003e\u003c/code\u003e digs val\u003c/code\u003e, if \u003ccode\u003edigs\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e,\n the value is shown to full precision; if \u003ccode\u003edigs\u003c/code\u003e is \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e d\u003c/code\u003e,\n then at most \u003ccode\u003ed\u003c/code\u003e digits after the decimal point are shown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "showFFloat",
           "package": "haskell98",
@@ -8243,6 +8774,7 @@
         "index": {
           "description": "Show signed RealFloat value using standard decimal notation e.g In the call showFFloat digs val if digs is Nothing the value is shown to full precision if digs is Just then at most digits after the decimal point are shown",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "showFFloat",
           "normalized": "Maybe Int-\u003ea-\u003eShowS",
@@ -8259,6 +8791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a signed \u003ccode\u003e\u003ca\u003eRealFloat\u003c/a\u003e\u003c/code\u003e value to full precision\n using standard decimal notation for arguments whose absolute value lies\n between \u003ccode\u003e0.1\u003c/code\u003e and \u003ccode\u003e9,999,999\u003c/code\u003e, and scientific notation otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "showFloat",
           "package": "haskell98",
@@ -8268,6 +8801,7 @@
         "index": {
           "description": "Show signed RealFloat value to full precision using standard decimal notation for arguments whose absolute value lies between and and scientific notation otherwise",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "showFloat",
           "normalized": "a-\u003eShowS",
@@ -8284,6 +8818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a signed \u003ccode\u003e\u003ca\u003eRealFloat\u003c/a\u003e\u003c/code\u003e value\n using standard decimal notation for arguments whose absolute value lies \n between \u003ccode\u003e0.1\u003c/code\u003e and \u003ccode\u003e9,999,999\u003c/code\u003e, and scientific notation otherwise.\n\u003c/p\u003e\u003cp\u003eIn the call \u003ccode\u003e\u003ccode\u003e\u003ca\u003eshowGFloat\u003c/a\u003e\u003c/code\u003e digs val\u003c/code\u003e, if \u003ccode\u003edigs\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e,\n the value is shown to full precision; if \u003ccode\u003edigs\u003c/code\u003e is \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e d\u003c/code\u003e,\n then at most \u003ccode\u003ed\u003c/code\u003e digits after the decimal point are shown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "showGFloat",
           "package": "haskell98",
@@ -8293,6 +8828,7 @@
         "index": {
           "description": "Show signed RealFloat value using standard decimal notation for arguments whose absolute value lies between and and scientific notation otherwise In the call showGFloat digs val if digs is Nothing the value is shown to full precision if digs is Just then at most digits after the decimal point are shown",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "showGFloat",
           "normalized": "Maybe Int-\u003ea-\u003eShowS",
@@ -8309,6 +8845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow \u003cem\u003enon-negative\u003c/em\u003e \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e numbers in base 16.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "showHex",
           "package": "haskell98",
@@ -8318,6 +8855,7 @@
         "index": {
           "description": "Show non-negative Integral numbers in base",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "showHex",
           "normalized": "a-\u003eShowS",
@@ -8334,6 +8872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow \u003cem\u003enon-negative\u003c/em\u003e \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e numbers in base 10.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "showInt",
           "package": "haskell98",
@@ -8343,6 +8882,7 @@
         "index": {
           "description": "Show non-negative Integral numbers in base",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "showInt",
           "normalized": "a-\u003eShowS",
@@ -8359,6 +8899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows a \u003cem\u003enon-negative\u003c/em\u003e \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e number using the base specified by the\n first argument, and the character representation specified by the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "showIntAtBase",
           "package": "haskell98",
@@ -8368,6 +8909,7 @@
         "index": {
           "description": "Shows non-negative Integral number using the base specified by the first argument and the character representation specified by the second",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "showIntAtBase",
           "normalized": "a-\u003e(Int-\u003eChar)-\u003ea-\u003eShowS",
@@ -8384,6 +8926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow \u003cem\u003enon-negative\u003c/em\u003e \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e numbers in base 8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "showOct",
           "package": "haskell98",
@@ -8393,6 +8936,7 @@
         "index": {
           "description": "Show non-negative Integral numbers in base",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "showOct",
           "normalized": "a-\u003eShowS",
@@ -8409,6 +8953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a possibly-negative \u003ccode\u003e\u003ca\u003eReal\u003c/a\u003e\u003c/code\u003e value to a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Numeric",
           "name": "showSigned",
           "package": "haskell98",
@@ -8418,6 +8963,7 @@
         "index": {
           "description": "Converts possibly-negative Real value to string",
           "hierarchy": "Numeric",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Numeric",
           "name": "showSigned",
           "normalized": "(a-\u003eShowS)-\u003eInt-\u003ea-\u003eShowS",
@@ -8434,6 +8980,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Haskell 98 Prelude: a standard module imported by default\n into all Haskell modules.  For more documentation, see the Haskell 98\n Report \u003ca\u003ehttp://www.haskell.org/onlinereport/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Prelude",
           "package": "haskell98",
@@ -8443,6 +8990,7 @@
         "index": {
           "description": "The Haskell Prelude standard module imported by default into all Haskell modules For more documentation see the Haskell Report http www.haskell.org onlinereport",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Prelude",
           "package": "haskell98",
@@ -8456,6 +9004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Bool",
           "package": "haskell98",
@@ -8463,6 +9012,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Bool",
           "package": "haskell98",
@@ -8477,6 +9027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e class is used to name the upper and lower limits of a\n type.  \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e is not a superclass of \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e since types that are not\n totally ordered may also have upper and lower bounds.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e class may be derived for any enumeration type;\n \u003ccode\u003e\u003ca\u003eminBound\u003c/a\u003e\u003c/code\u003e is the first constructor listed in the \u003ccode\u003edata\u003c/code\u003e declaration\n and \u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e is the last.\n \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e may also be derived for single-constructor datatypes whose\n constituent types are in \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Bounded",
           "package": "haskell98",
@@ -8485,6 +9036,7 @@
         "index": {
           "description": "The Bounded class is used to name the upper and lower limits of type Ord is not superclass of Bounded since types that are not totally ordered may also have upper and lower bounds The Bounded class may be derived for any enumeration type minBound is the first constructor listed in the data declaration and maxBound is the last Bounded may also be derived for single-constructor datatypes whose constituent types are in Bounded",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Bounded",
           "package": "haskell98",
@@ -8499,6 +9051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe character type \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e is an enumeration whose values represent\nUnicode (or equivalently ISO/IEC 10646) characters (see\n\u003ca\u003ehttp://www.unicode.org/\u003c/a\u003e for details).  This set extends the ISO 8859-1\n(Latin-1) character set (the first 256 characters), which is itself an extension\nof the ASCII character set (the first 128 characters).  A character literal in\nHaskell has type \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTo convert a \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e to or from the corresponding \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e value defined\nby Unicode, use \u003ccode\u003e\u003ca\u003etoEnum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e from the\n\u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e class respectively (or equivalently \u003ccode\u003eord\u003c/code\u003e and \u003ccode\u003echr\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Char",
           "package": "haskell98",
@@ -8507,6 +9060,7 @@
         "index": {
           "description": "The character type Char is an enumeration whose values represent Unicode or equivalently ISO IEC characters see http www.unicode.org for details This set extends the ISO Latin-1 character set the first characters which is itself an extension of the ASCII character set the first characters character literal in Haskell has type Char To convert Char to or from the corresponding Int value defined by Unicode use toEnum and fromEnum from the Enum class respectively or equivalently ord and chr",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Char",
           "package": "haskell98",
@@ -8521,6 +9075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDouble-precision floating point numbers.\n It is desirable that this type be at least equal in range and precision\n to the IEEE double-precision type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Double",
           "package": "haskell98",
@@ -8529,6 +9084,7 @@
         "index": {
           "description": "Double-precision floating point numbers It is desirable that this type be at least equal in range and precision to the IEEE double-precision type",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Double",
           "package": "haskell98",
@@ -8543,6 +9099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e type represents values with two possibilities: a value of\ntype \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e a b\u003c/code\u003e is either \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e or \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e b\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e type is sometimes used to represent a value which is\neither correct or an error; by convention, the \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e constructor is\nused to hold an error value and the \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e constructor is used to\nhold a correct value (mnemonic: \"right\" also means \"correct\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Either",
           "package": "haskell98",
@@ -8551,6 +9108,7 @@
         "index": {
           "description": "The Either type represents values with two possibilities value of type Either is either Left or Right The Either type is sometimes used to represent value which is either correct or an error by convention the Left constructor is used to hold an error value and the Right constructor is used to hold correct value mnemonic right also means correct",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Either",
           "package": "haskell98",
@@ -8565,6 +9123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e defines operations on sequentially ordered types.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eenumFrom\u003c/code\u003e... methods are used in Haskell's translation of\n arithmetic sequences.\n\u003c/p\u003e\u003cp\u003eInstances of \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e may be derived for any enumeration type (types\n whose constructors have no fields).  The nullary constructors are\n assumed to be numbered left-to-right by \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e0\u003c/code\u003e through \u003ccode\u003en-1\u003c/code\u003e.\n See Chapter 10 of the \u003cem\u003eHaskell Report\u003c/em\u003e for more details.\n\u003c/p\u003e\u003cp\u003eFor any type that is an instance of class \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e as well as \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e,\n the following should hold:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The calls \u003ccode\u003e\u003ccode\u003e\u003ca\u003esucc\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and \u003ccode\u003e\u003ccode\u003e\u003ca\u003epred\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eminBound\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e should result in\n   a runtime error.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etoEnum\u003c/a\u003e\u003c/code\u003e should give a runtime error if the \n   result value is not representable in the result type.\n   For example, \u003ccode\u003e\u003ccode\u003e\u003ca\u003etoEnum\u003c/a\u003e\u003c/code\u003e 7 :: \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is an error.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eenumFrom\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eenumFromThen\u003c/a\u003e\u003c/code\u003e should be defined with an implicit bound,\n   thus:\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e    enumFrom     x   = enumFromTo     x maxBound\n    enumFromThen x y = enumFromThenTo x y bound\n      where\n        bound | fromEnum y \u003e= fromEnum x = maxBound\n              | otherwise                = minBound\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Enum",
           "package": "haskell98",
@@ -8573,6 +9132,7 @@
         "index": {
           "description": "Class Enum defines operations on sequentially ordered types The enumFrom methods are used in Haskell translation of arithmetic sequences Instances of Enum may be derived for any enumeration type types whose constructors have no fields The nullary constructors are assumed to be numbered left-to-right by fromEnum from through n-1 See Chapter of the Haskell Report for more details For any type that is an instance of class Bounded as well as Enum the following should hold The calls succ maxBound and pred minBound should result in runtime error fromEnum and toEnum should give runtime error if the result value is not representable in the result type For example toEnum Bool is an error enumFrom and enumFromThen should be defined with an implicit bound thus enumFrom enumFromTo maxBound enumFromThen enumFromThenTo bound where bound fromEnum fromEnum maxBound otherwise minBound",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Enum",
           "package": "haskell98",
@@ -8587,6 +9147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e class defines equality (\u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e) and inequality (\u003ccode\u003e\u003ca\u003e/=\u003c/a\u003e\u003c/code\u003e).\n All the basic datatypes exported by the \u003ca\u003ePrelude\u003c/a\u003e are instances of \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e,\n and \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e may be derived for any datatype whose constituents are also\n instances of \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: either \u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003e/=\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Eq",
           "package": "haskell98",
@@ -8595,6 +9156,7 @@
         "index": {
           "description": "The Eq class defines equality and inequality All the basic datatypes exported by the Prelude are instances of Eq and Eq may be derived for any datatype whose constituents are also instances of Eq Minimal complete definition either or",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Eq",
           "package": "haskell98",
@@ -8609,6 +9171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile and directory names are values of type \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, whose precise\n meaning is operating system dependent. Files can be opened, yielding a\n handle which can then be used to operate on the contents of that file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "FilePath",
           "package": "haskell98",
@@ -8617,6 +9180,7 @@
         "index": {
           "description": "File and directory names are values of type String whose precise meaning is operating system dependent Files can be opened yielding handle which can then be used to operate on the contents of that file",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "FilePath",
           "package": "haskell98",
@@ -8631,6 +9195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle-precision floating point numbers.\n It is desirable that this type be at least equal in range and precision\n to the IEEE single-precision type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Float",
           "package": "haskell98",
@@ -8639,6 +9204,7 @@
         "index": {
           "description": "Single-precision floating point numbers It is desirable that this type be at least equal in range and precision to the IEEE single-precision type",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Float",
           "package": "haskell98",
@@ -8653,6 +9219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrigonometric and hyperbolic functions and related functions.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition:\n      \u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eexp\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elog\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esin\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ecos\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esinh\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ecosh\u003c/a\u003e\u003c/code\u003e,\n      \u003ccode\u003e\u003ca\u003easin\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eacos\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eatan\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003easinh\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eacosh\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eatanh\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Floating",
           "package": "haskell98",
@@ -8661,6 +9228,7 @@
         "index": {
           "description": "Trigonometric and hyperbolic functions and related functions Minimal complete definition pi exp log sin cos sinh cosh asin acos atan asinh acosh and atanh",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Floating",
           "package": "haskell98",
@@ -8675,6 +9243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFractional numbers, supporting real division.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003efromRational\u003c/a\u003e\u003c/code\u003e and (\u003ccode\u003e\u003ca\u003erecip\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e/\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Fractional",
           "package": "haskell98",
@@ -8683,6 +9252,7 @@
         "index": {
           "description": "Fractional numbers supporting real division Minimal complete definition fromRational and recip or",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Fractional",
           "package": "haskell98",
@@ -8697,6 +9267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e class is used for types that can be mapped over.\nInstances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e should satisfy the following laws:\n\u003c/p\u003e\u003cpre\u003e fmap id  ==  id\n fmap (f . g)  ==  fmap f . fmap g\n\u003c/pre\u003e\u003cp\u003eThe instances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e for lists, \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\nsatisfy these laws.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Functor",
           "package": "haskell98",
@@ -8705,6 +9276,7 @@
         "index": {
           "description": "The Functor class is used for types that can be mapped over Instances of Functor should satisfy the following laws fmap id id fmap fmap fmap The instances of Functor for lists Maybe and IO satisfy these laws",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Functor",
           "package": "haskell98",
@@ -8719,6 +9291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e is a computation which, when performed,\ndoes some I/O before returning a value of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThere is really only one way to \"perform\" an I/O action: bind it to\n\u003ccode\u003eMain.main\u003c/code\u003e in your program.  When your program is run, the I/O will\nbe performed.  It isn't possible to perform I/O from an arbitrary\nfunction, unless that function is itself in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad and called\nat some point, directly or indirectly, from \u003ccode\u003eMain.main\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e is a monad, so \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e actions can be combined using either the do-notation\nor the \u003ccode\u003e\u003e\u003e\u003c/code\u003e and \u003ccode\u003e\u003e\u003e=\u003c/code\u003e operations from the \u003ccode\u003eMonad\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "IO",
           "package": "haskell98",
@@ -8727,6 +9300,7 @@
         "index": {
           "description": "value of type IO is computation which when performed does some before returning value of type There is really only one way to perform an action bind it to Main.main in your program When your program is run the will be performed It isn possible to perform from an arbitrary function unless that function is itself in the IO monad and called at some point directly or indirectly from Main.main IO is monad so IO actions can be combined using either the do-notation or the and operations from the Monad class",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "IO",
           "package": "haskell98",
@@ -8741,6 +9315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Haskell 98 type for exceptions in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n Any I/O operation may raise an \u003ccode\u003e\u003ca\u003eIOError\u003c/a\u003e\u003c/code\u003e instead of returning a result.\n For a more general type of exception, including also those that arise\n in pure code, see \u003ca\u003eControl.Exception.Exception\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIn Haskell 98, this is an opaque type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "IOError",
           "package": "haskell98",
@@ -8749,6 +9324,7 @@
         "index": {
           "description": "The Haskell type for exceptions in the IO monad Any operation may raise an IOError instead of returning result For more general type of exception including also those that arise in pure code see Control.Exception.Exception In Haskell this is an opaque type",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "IOError",
           "package": "haskell98",
@@ -8763,6 +9339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fixed-precision integer type with at least the range \u003ccode\u003e[-2^29 .. 2^29-1]\u003c/code\u003e.\n The exact range for a given implementation can be determined by using\n \u003ccode\u003e\u003ca\u003eminBound\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Int",
           "package": "haskell98",
@@ -8771,6 +9348,7 @@
         "index": {
           "description": "fixed-precision integer type with at least the range The exact range for given implementation can be determined by using minBound and maxBound from the Bounded class",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Int",
           "package": "haskell98",
@@ -8785,6 +9363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary-precision integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Integer",
           "package": "haskell98",
@@ -8793,6 +9372,7 @@
         "index": {
           "description": "Arbitrary-precision integers",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Integer",
           "package": "haskell98",
@@ -8807,6 +9387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegral numbers, supporting integer division.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003equotRem\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etoInteger\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Integral",
           "package": "haskell98",
@@ -8815,6 +9396,7 @@
         "index": {
           "description": "Integral numbers supporting integer division Minimal complete definition quotRem and toInteger",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Integral",
           "package": "haskell98",
@@ -8829,6 +9411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e type encapsulates an optional value.  A value of type\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e either contains a value of type \u003ccode\u003ea\u003c/code\u003e (represented as \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e), \n or it is empty (represented as \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e).  Using \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e is a good way to \n deal with errors or exceptional cases without resorting to drastic\n measures such as \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e type is also a monad.  It is a simple kind of error\n monad, where all errors are represented by \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.  A richer\n error monad can be built using the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Maybe",
           "package": "haskell98",
@@ -8837,6 +9420,7 @@
         "index": {
           "description": "The Maybe type encapsulates an optional value value of type Maybe either contains value of type represented as Just or it is empty represented as Nothing Using Maybe is good way to deal with errors or exceptional cases without resorting to drastic measures such as error The Maybe type is also monad It is simple kind of error monad where all errors are represented by Nothing richer error monad can be built using the Either type",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Maybe",
           "package": "haskell98",
@@ -8851,6 +9435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e class defines the basic operations over a \u003cem\u003emonad\u003c/em\u003e,\na concept from a branch of mathematics known as \u003cem\u003ecategory theory\u003c/em\u003e.\nFrom the perspective of a Haskell programmer, however, it is best to\nthink of a monad as an \u003cem\u003eabstract datatype\u003c/em\u003e of actions.\nHaskell's \u003ccode\u003edo\u003c/code\u003e expressions provide a convenient syntax for writing\nmonadic expressions.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInstances of \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e should satisfy the following laws:\n\u003c/p\u003e\u003cpre\u003e return a \u003e\u003e= k  ==  k a\n m \u003e\u003e= return  ==  m\n m \u003e\u003e= (\\x -\u003e k x \u003e\u003e= h)  ==  (m \u003e\u003e= k) \u003e\u003e= h\n\u003c/pre\u003e\u003cp\u003eInstances of both \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e should additionally satisfy the law:\n\u003c/p\u003e\u003cpre\u003e fmap f xs  ==  xs \u003e\u003e= return . f\n\u003c/pre\u003e\u003cp\u003eThe instances of \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e for lists, \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\ndefined in the \u003ca\u003ePrelude\u003c/a\u003e satisfy these laws.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Monad",
           "package": "haskell98",
@@ -8859,6 +9444,7 @@
         "index": {
           "description": "The Monad class defines the basic operations over monad concept from branch of mathematics known as category theory From the perspective of Haskell programmer however it is best to think of monad as an abstract datatype of actions Haskell do expressions provide convenient syntax for writing monadic expressions Minimal complete definition and return Instances of Monad should satisfy the following laws return return Instances of both Monad and Functor should additionally satisfy the law fmap xs xs return The instances of Monad for lists Maybe and IO defined in the Prelude satisfy these laws",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Monad",
           "package": "haskell98",
@@ -8873,6 +9459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic numeric class.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: all except \u003ccode\u003e\u003ca\u003enegate\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e(-)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Num",
           "package": "haskell98",
@@ -8881,6 +9468,7 @@
         "index": {
           "description": "Basic numeric class Minimal complete definition all except negate or",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Num",
           "package": "haskell98",
@@ -8895,6 +9483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e class is used for totally ordered datatypes.\n\u003c/p\u003e\u003cp\u003eInstances of \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e can be derived for any user-defined\n datatype whose constituent types are in \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e.  The declared order\n of the constructors in the data declaration determines the ordering\n in derived \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e instances.  The \u003ccode\u003e\u003ca\u003eOrdering\u003c/a\u003e\u003c/code\u003e datatype allows a single\n comparison to determine the precise ordering of two objects.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: either \u003ccode\u003e\u003ca\u003ecompare\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003e\u003c=\u003c/a\u003e\u003c/code\u003e.\n Using \u003ccode\u003e\u003ca\u003ecompare\u003c/a\u003e\u003c/code\u003e can be more efficient for complex types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Ord",
           "package": "haskell98",
@@ -8903,6 +9492,7 @@
         "index": {
           "description": "The Ord class is used for totally ordered datatypes Instances of Ord can be derived for any user-defined datatype whose constituent types are in Ord The declared order of the constructors in the data declaration determines the ordering in derived Ord instances The Ordering datatype allows single comparison to determine the precise ordering of two objects Minimal complete definition either compare or Using compare can be more efficient for complex types",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Ord",
           "package": "haskell98",
@@ -8916,6 +9506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Ordering",
           "package": "haskell98",
@@ -8923,6 +9514,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Ordering",
           "package": "haskell98",
@@ -8937,6 +9529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary-precision rational numbers, represented as a ratio of\n two \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e values.  A rational number may be constructed using\n the \u003ccode\u003e\u003ca\u003e%\u003c/a\u003e\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Rational",
           "package": "haskell98",
@@ -8945,6 +9538,7 @@
         "index": {
           "description": "Arbitrary-precision rational numbers represented as ratio of two Integer values rational number may be constructed using the operator",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Rational",
           "package": "haskell98",
@@ -8959,6 +9553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing of \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es, producing values.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003ereadsPrec\u003c/a\u003e\u003c/code\u003e (or, for GHC only, \u003ccode\u003e\u003ca\u003ereadPrec\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eDerived instances of \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e make the following assumptions, which\n derived instances of \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e obey:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If the constructor is defined to be an infix operator, then the\n   derived \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e instance will parse only infix applications of\n   the constructor (not the prefix form).\n\u003c/li\u003e\u003cli\u003e Associativity is not used to reduce the occurrence of parentheses,\n   although precedence may be.\n\u003c/li\u003e\u003cli\u003e If the constructor is defined using record syntax, the derived \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e\n   will parse only the record-syntax form, and furthermore, the fields\n   must be given in the same order as the original declaration.\n\u003c/li\u003e\u003cli\u003e The derived \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e instance allows arbitrary Haskell whitespace\n   between tokens of the input string.  Extra parentheses are also\n   allowed.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor example, given the declarations\n\u003c/p\u003e\u003cpre\u003e infixr 5 :^:\n data Tree a =  Leaf a  |  Tree a :^: Tree a\n\u003c/pre\u003e\u003cp\u003ethe derived instance of \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e in Haskell 98 is equivalent to\n\u003c/p\u003e\u003cpre\u003e instance (Read a) =\u003e Read (Tree a) where\n\n         readsPrec d r =  readParen (d \u003e app_prec)\n                          (\\r -\u003e [(Leaf m,t) |\n                                  (\"Leaf\",s) \u003c- lex r,\n                                  (m,t) \u003c- readsPrec (app_prec+1) s]) r\n\n                       ++ readParen (d \u003e up_prec)\n                          (\\r -\u003e [(u:^:v,w) |\n                                  (u,s) \u003c- readsPrec (up_prec+1) r,\n                                  (\":^:\",t) \u003c- lex s,\n                                  (v,w) \u003c- readsPrec (up_prec+1) t]) r\n\n           where app_prec = 10\n                 up_prec = 5\n\u003c/pre\u003e\u003cp\u003eNote that right-associativity of \u003ccode\u003e:^:\u003c/code\u003e is unused.\n\u003c/p\u003e\u003cp\u003eThe derived instance in GHC is equivalent to\n\u003c/p\u003e\u003cpre\u003e instance (Read a) =\u003e Read (Tree a) where\n\n         readPrec = parens $ (prec app_prec $ do\n                                  Ident \"Leaf\" \u003c- lexP\n                                  m \u003c- step readPrec\n                                  return (Leaf m))\n\n                      +++ (prec up_prec $ do\n                                  u \u003c- step readPrec\n                                  Symbol \":^:\" \u003c- lexP\n                                  v \u003c- step readPrec\n                                  return (u :^: v))\n\n           where app_prec = 10\n                 up_prec = 5\n\n         readListPrec = readListPrecDefault\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Read",
           "package": "haskell98",
@@ -8967,6 +9562,7 @@
         "index": {
           "description": "Parsing of String producing values Minimal complete definition readsPrec or for GHC only readPrec Derived instances of Read make the following assumptions which derived instances of Show obey If the constructor is defined to be an infix operator then the derived Read instance will parse only infix applications of the constructor not the prefix form Associativity is not used to reduce the occurrence of parentheses although precedence may be If the constructor is defined using record syntax the derived Read will parse only the record-syntax form and furthermore the fields must be given in the same order as the original declaration The derived Read instance allows arbitrary Haskell whitespace between tokens of the input string Extra parentheses are also allowed For example given the declarations infixr data Tree Leaf Tree Tree the derived instance of Read in Haskell is equivalent to instance Read Read Tree where readsPrec readParen app prec Leaf Leaf lex readsPrec app prec readParen up prec readsPrec up prec lex readsPrec up prec where app prec up prec Note that right-associativity of is unused The derived instance in GHC is equivalent to instance Read Read Tree where readPrec parens prec app prec do Ident Leaf lexP step readPrec return Leaf prec up prec do step readPrec Symbol lexP step readPrec return where app prec up prec readListPrec readListPrecDefault",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Read",
           "package": "haskell98",
@@ -8981,6 +9577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser for a type \u003ccode\u003ea\u003c/code\u003e, represented as a function that takes a\n \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e and returns a list of possible parses as \u003ccode\u003e(a,\u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e pairs.\n\u003c/p\u003e\u003cp\u003eNote that this kind of backtracking parser is very inefficient;\n reading a large structure may be quite slow (cf \u003ccode\u003e\u003ca\u003eReadP\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "ReadS",
           "package": "haskell98",
@@ -8989,6 +9586,7 @@
         "index": {
           "description": "parser for type represented as function that takes String and returns list of possible parses as String pairs Note that this kind of backtracking parser is very inefficient reading large structure may be quite slow cf ReadP",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "ReadS",
           "package": "haskell98",
@@ -9002,6 +9600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Real",
           "package": "haskell98",
@@ -9009,6 +9608,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Real",
           "package": "haskell98",
@@ -9023,6 +9623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficient, machine-independent access to the components of a\n floating-point number.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition:\n      all except \u003ccode\u003e\u003ca\u003eexponent\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esignificand\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003escaleFloat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eatan2\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "RealFloat",
           "package": "haskell98",
@@ -9031,6 +9632,7 @@
         "index": {
           "description": "Efficient machine-independent access to the components of floating-point number Minimal complete definition all except exponent significand scaleFloat and atan2",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "RealFloat",
           "package": "haskell98",
@@ -9045,6 +9647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracting components of fractions.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003eproperFraction\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "RealFrac",
           "package": "haskell98",
@@ -9053,6 +9656,7 @@
         "index": {
           "description": "Extracting components of fractions Minimal complete definition properFraction",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "RealFrac",
           "package": "haskell98",
@@ -9067,6 +9671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion of values to readable \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eDerived instances of \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e have the following properties, which\n are compatible with derived instances of \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The result of \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e is a syntactically correct Haskell\n   expression containing only constants, given the fixity\n   declarations in force at the point where the type is declared.\n   It contains only the constructor names defined in the data type,\n   parentheses, and spaces.  When labelled constructor fields are\n   used, braces, commas, field names, and equal signs are also used.\n\u003c/li\u003e\u003cli\u003e If the constructor is defined to be an infix operator, then\n   \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e will produce infix applications of the constructor.\n\u003c/li\u003e\u003cli\u003e the representation will be enclosed in parentheses if the\n   precedence of the top-level constructor in \u003ccode\u003ex\u003c/code\u003e is less than \u003ccode\u003ed\u003c/code\u003e\n   (associativity is ignored).  Thus, if \u003ccode\u003ed\u003c/code\u003e is \u003ccode\u003e0\u003c/code\u003e then the result\n   is never surrounded in parentheses; if \u003ccode\u003ed\u003c/code\u003e is \u003ccode\u003e11\u003c/code\u003e it is always\n   surrounded in parentheses, unless it is an atomic expression.\n\u003c/li\u003e\u003cli\u003e If the constructor is defined using record syntax, then \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e\n   will produce the record-syntax form, with the fields given in the\n   same order as the original declaration.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor example, given the declarations\n\u003c/p\u003e\u003cpre\u003e infixr 5 :^:\n data Tree a =  Leaf a  |  Tree a :^: Tree a\n\u003c/pre\u003e\u003cp\u003ethe derived instance of \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e is equivalent to\n\u003c/p\u003e\u003cpre\u003e instance (Show a) =\u003e Show (Tree a) where\n\n        showsPrec d (Leaf m) = showParen (d \u003e app_prec) $\n             showString \"Leaf \" . showsPrec (app_prec+1) m\n          where app_prec = 10\n\n        showsPrec d (u :^: v) = showParen (d \u003e up_prec) $\n             showsPrec (up_prec+1) u .\n             showString \" :^: \"      .\n             showsPrec (up_prec+1) v\n          where up_prec = 5\n\u003c/pre\u003e\u003cp\u003eNote that right-associativity of \u003ccode\u003e:^:\u003c/code\u003e is ignored.  For example,\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e (Leaf 1 :^: Leaf 2 :^: Leaf 3)\u003c/code\u003e produces the string\n   \u003ccode\u003e\"Leaf 1 :^: (Leaf 2 :^: Leaf 3)\"\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Show",
           "package": "haskell98",
@@ -9075,6 +9680,7 @@
         "index": {
           "description": "Conversion of values to readable String Minimal complete definition showsPrec or show Derived instances of Show have the following properties which are compatible with derived instances of Read The result of show is syntactically correct Haskell expression containing only constants given the fixity declarations in force at the point where the type is declared It contains only the constructor names defined in the data type parentheses and spaces When labelled constructor fields are used braces commas field names and equal signs are also used If the constructor is defined to be an infix operator then showsPrec will produce infix applications of the constructor the representation will be enclosed in parentheses if the precedence of the top-level constructor in is less than associativity is ignored Thus if is then the result is never surrounded in parentheses if is it is always surrounded in parentheses unless it is an atomic expression If the constructor is defined using record syntax then show will produce the record-syntax form with the fields given in the same order as the original declaration For example given the declarations infixr data Tree Leaf Tree Tree the derived instance of Show is equivalent to instance Show Show Tree where showsPrec Leaf showParen app prec showString Leaf showsPrec app prec where app prec showsPrec showParen up prec showsPrec up prec showString showsPrec up prec where up prec Note that right-associativity of is ignored For example show Leaf Leaf Leaf produces the string Leaf Leaf Leaf",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Show",
           "package": "haskell98",
@@ -9089,6 +9695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eshows\u003c/code\u003e functions return a function that prepends the\n output \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to an existing \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.  This allows constant-time\n concatenation of results using function composition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "ShowS",
           "package": "haskell98",
@@ -9097,6 +9704,7 @@
         "index": {
           "description": "The shows functions return function that prepends the output String to an existing String This allows constant-time concatenation of results using function composition",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "ShowS",
           "package": "haskell98",
@@ -9111,6 +9719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e is a list of characters.  String constants in Haskell are values\n of type \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "String",
           "package": "haskell98",
@@ -9119,6 +9728,7 @@
         "index": {
           "description": "String is list of characters String constants in Haskell are values of type String",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "String",
           "package": "haskell98",
@@ -9133,6 +9743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean \"or\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(||)",
           "package": "haskell98",
@@ -9142,6 +9753,7 @@
         "index": {
           "description": "Boolean or",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(||) ||",
           "normalized": "Bool-\u003eBool-\u003eBool",
@@ -9157,6 +9769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication operator.  This operator is redundant, since ordinary\n application \u003ccode\u003e(f x)\u003c/code\u003e means the same as \u003ccode\u003e(f \u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e x)\u003c/code\u003e. However, \u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e has\n low, right-associative binding precedence, so it sometimes allows\n parentheses to be omitted; for example:\n\u003c/p\u003e\u003cpre\u003e     f $ g $ h x  =  f (g (h x))\n\u003c/pre\u003e\u003cp\u003eIt is also useful in higher-order situations, such as \u003ccode\u003e\u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e 0) xs\u003c/code\u003e,\n or \u003ccode\u003e\u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e) fs xs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "($)",
           "package": "haskell98",
@@ -9166,6 +9779,7 @@
         "index": {
           "description": "Application operator This operator is redundant since ordinary application means the same as However has low right-associative binding precedence so it sometimes allows parentheses to be omitted for example It is also useful in higher-order situations such as map xs or zipWith fs xs",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "($) $",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -9181,6 +9795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict (call-by-value) application, defined in terms of \u003ccode\u003e\u003ca\u003eseq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "($!)",
           "package": "haskell98",
@@ -9191,6 +9806,7 @@
         "index": {
           "description": "Strict call-by-value application defined in terms of seq",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "($!) $!",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -9206,6 +9822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean \"and\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(&&)",
           "package": "haskell98",
@@ -9215,6 +9832,7 @@
         "index": {
           "description": "Boolean and",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(&&) &&",
           "normalized": "Bool-\u003eBool-\u003eBool",
@@ -9229,6 +9847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(*)",
           "package": "haskell98",
@@ -9237,6 +9856,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(*) *",
           "normalized": "a-\u003ea-\u003ea",
@@ -9251,6 +9871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(**)",
           "package": "haskell98",
@@ -9259,6 +9880,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(**) **",
           "normalized": "a-\u003ea-\u003ea",
@@ -9273,6 +9895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(+)",
           "package": "haskell98",
@@ -9281,6 +9904,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(+) +",
           "normalized": "a-\u003ea-\u003ea",
@@ -9295,6 +9919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(-)",
           "package": "haskell98",
@@ -9303,6 +9928,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(-) -",
           "normalized": "a-\u003ea-\u003ea",
@@ -9318,6 +9944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efractional division\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(/)",
           "package": "haskell98",
@@ -9327,6 +9954,7 @@
         "index": {
           "description": "fractional division",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(/) /",
           "normalized": "a-\u003ea-\u003ea",
@@ -9341,6 +9969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(/=)",
           "package": "haskell98",
@@ -9349,6 +9978,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(/=) /=",
           "normalized": "a-\u003ea-\u003eBool",
@@ -9363,6 +9993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(\u003c)",
           "package": "haskell98",
@@ -9371,6 +10002,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(\u003c) \u003c",
           "normalized": "a-\u003ea-\u003eBool",
@@ -9385,6 +10017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(\u003c=)",
           "package": "haskell98",
@@ -9393,6 +10026,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(\u003c=) \u003c=",
           "normalized": "a-\u003ea-\u003eBool",
@@ -9407,6 +10041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(==)",
           "package": "haskell98",
@@ -9415,6 +10050,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(==) ==",
           "normalized": "a-\u003ea-\u003eBool",
@@ -9429,6 +10065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(\u003e)",
           "package": "haskell98",
@@ -9437,6 +10074,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(\u003e) \u003e",
           "normalized": "a-\u003ea-\u003eBool",
@@ -9451,6 +10089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(\u003e=)",
           "package": "haskell98",
@@ -9459,6 +10098,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(\u003e=) \u003e=",
           "normalized": "a-\u003ea-\u003eBool",
@@ -9474,6 +10114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequentially compose two actions, discarding any value produced\n by the first, like sequencing operators (such as the semicolon)\n in imperative languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(\u003e\u003e)",
           "package": "haskell98",
@@ -9483,6 +10124,7 @@
         "index": {
           "description": "Sequentially compose two actions discarding any value produced by the first like sequencing operators such as the semicolon in imperative languages",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(\u003e\u003e) \u003e\u003e",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -9498,6 +10140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequentially compose two actions, passing any value produced\n by the first as an argument to the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(\u003e\u003e=)",
           "package": "haskell98",
@@ -9507,6 +10150,7 @@
         "index": {
           "description": "Sequentially compose two actions passing any value produced by the first as an argument to the second",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(\u003e\u003e=) \u003e\u003e=",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea c",
@@ -9522,6 +10166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eraise a number to a non-negative integral power\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(^)",
           "package": "haskell98",
@@ -9531,6 +10176,7 @@
         "index": {
           "description": "raise number to non-negative integral power",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(^) ^",
           "normalized": "a-\u003eb-\u003ea",
@@ -9546,6 +10192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eraise a number to an integral power\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(^^)",
           "package": "haskell98",
@@ -9555,6 +10202,7 @@
         "index": {
           "description": "raise number to an integral power",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(^^) ^^",
           "normalized": "a-\u003eb-\u003ea",
@@ -9570,6 +10218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction composition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "(.)",
           "package": "haskell98",
@@ -9579,6 +10228,7 @@
         "index": {
           "description": "Function composition",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "(.) .",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ea)-\u003ec-\u003eb",
@@ -9593,6 +10243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "EQ",
           "package": "haskell98",
@@ -9601,6 +10252,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "EQ",
           "package": "haskell98",
@@ -9614,6 +10266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "False",
           "package": "haskell98",
@@ -9622,6 +10275,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "False",
           "package": "haskell98",
@@ -9635,6 +10289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "GT",
           "package": "haskell98",
@@ -9643,6 +10298,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "GT",
           "package": "haskell98",
@@ -9656,6 +10312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "LT",
           "package": "haskell98",
@@ -9664,6 +10321,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "LT",
           "package": "haskell98",
@@ -9677,6 +10335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Left",
           "package": "haskell98",
@@ -9685,6 +10344,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Left",
           "package": "haskell98",
@@ -9698,6 +10358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "Right",
           "package": "haskell98",
@@ -9706,6 +10367,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "Right",
           "package": "haskell98",
@@ -9719,6 +10381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "True",
           "package": "haskell98",
@@ -9727,6 +10390,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "True",
           "package": "haskell98",
@@ -9741,6 +10405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolute value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "abs",
           "package": "haskell98",
@@ -9750,6 +10415,7 @@
         "index": {
           "description": "Absolute value",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "abs",
           "normalized": "a-\u003ea",
@@ -9764,6 +10430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "acos",
           "package": "haskell98",
@@ -9772,6 +10439,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "acos",
           "normalized": "a-\u003ea",
@@ -9786,6 +10454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "acosh",
           "package": "haskell98",
@@ -9794,6 +10463,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "acosh",
           "normalized": "a-\u003ea",
@@ -9809,6 +10479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003easTypeOf\u003c/a\u003e\u003c/code\u003e is a type-restricted version of \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e.  It is usually\n used as an infix operator, and its typing forces its first argument\n (which is usually overloaded) to have the same type as the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "asTypeOf",
           "package": "haskell98",
@@ -9818,6 +10489,7 @@
         "index": {
           "description": "asTypeOf is type-restricted version of const It is usually used as an infix operator and its typing forces its first argument which is usually overloaded to have the same type as the second",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "asTypeOf",
           "normalized": "a-\u003ea-\u003ea",
@@ -9833,6 +10505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "asin",
           "package": "haskell98",
@@ -9841,6 +10514,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "asin",
           "normalized": "a-\u003ea",
@@ -9855,6 +10529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "asinh",
           "package": "haskell98",
@@ -9863,6 +10538,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "asinh",
           "normalized": "a-\u003ea",
@@ -9877,6 +10553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "atan",
           "package": "haskell98",
@@ -9885,6 +10562,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "atan",
           "normalized": "a-\u003ea",
@@ -9900,6 +10578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea version of arctangent taking two real floating-point arguments.\n For real floating \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003ey\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eatan2\u003c/a\u003e\u003c/code\u003e y x\u003c/code\u003e computes the angle\n (from the positive x-axis) of the vector from the origin to the\n point \u003ccode\u003e(x,y)\u003c/code\u003e.  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eatan2\u003c/a\u003e\u003c/code\u003e y x\u003c/code\u003e returns a value in the range [\u003ccode\u003e-pi\u003c/code\u003e,\n \u003ccode\u003epi\u003c/code\u003e].  It follows the Common Lisp semantics for the origin when\n signed zeroes are supported.  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eatan2\u003c/a\u003e\u003c/code\u003e y 1\u003c/code\u003e, with \u003ccode\u003ey\u003c/code\u003e in a type\n that is \u003ccode\u003e\u003ca\u003eRealFloat\u003c/a\u003e\u003c/code\u003e, should return the same value as \u003ccode\u003e\u003ccode\u003e\u003ca\u003eatan\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e.\n A default definition of \u003ccode\u003e\u003ca\u003eatan2\u003c/a\u003e\u003c/code\u003e is provided, but implementors\n can provide a more accurate implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "atan2",
           "package": "haskell98",
@@ -9909,6 +10588,7 @@
         "index": {
           "description": "version of arctangent taking two real floating-point arguments For real floating and atan2 computes the angle from the positive x-axis of the vector from the origin to the point atan2 returns value in the range pi pi It follows the Common Lisp semantics for the origin when signed zeroes are supported atan2 with in type that is RealFloat should return the same value as atan default definition of atan2 is provided but implementors can provide more accurate implementation",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "atan2",
           "normalized": "a-\u003ea-\u003ea",
@@ -9923,6 +10603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "atanh",
           "package": "haskell98",
@@ -9931,6 +10612,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "atanh",
           "normalized": "a-\u003ea",
@@ -9946,6 +10628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eceiling\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e returns the least integer not less than \u003ccode\u003ex\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "ceiling",
           "package": "haskell98",
@@ -9955,6 +10638,7 @@
         "index": {
           "description": "ceiling returns the least integer not less than",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "ceiling",
           "normalized": "a-\u003eb",
@@ -9969,6 +10653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "compare",
           "package": "haskell98",
@@ -9977,6 +10662,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "compare",
           "normalized": "a-\u003ea-\u003eOrdering",
@@ -9992,6 +10678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "const",
           "package": "haskell98",
@@ -10001,6 +10688,7 @@
         "index": {
           "description": "Constant function",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "const",
           "normalized": "a-\u003eb-\u003ea",
@@ -10015,6 +10703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "cos",
           "package": "haskell98",
@@ -10023,6 +10712,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "cos",
           "normalized": "a-\u003ea",
@@ -10037,6 +10727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "cosh",
           "package": "haskell98",
@@ -10045,6 +10736,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "cosh",
           "normalized": "a-\u003ea",
@@ -10060,6 +10752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecurry\u003c/a\u003e\u003c/code\u003e converts an uncurried function to a curried function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "curry",
           "package": "haskell98",
@@ -10069,6 +10762,7 @@
         "index": {
           "description": "curry converts an uncurried function to curried function",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "curry",
           "normalized": "((a,b)-\u003ec)-\u003ea-\u003eb-\u003ec",
@@ -10084,6 +10778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003edecodeFloat\u003c/a\u003e\u003c/code\u003e applied to a real floating-point\n number returns the significand expressed as an \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e and an\n appropriately scaled exponent (an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e).  If \u003ccode\u003e\u003ccode\u003e\u003ca\u003edecodeFloat\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e\n yields \u003ccode\u003e(m,n)\u003c/code\u003e, then \u003ccode\u003ex\u003c/code\u003e is equal in value to \u003ccode\u003em*b^^n\u003c/code\u003e, where \u003ccode\u003eb\u003c/code\u003e\n is the floating-point radix, and furthermore, either \u003ccode\u003em\u003c/code\u003e and \u003ccode\u003en\u003c/code\u003e\n are both zero or else \u003ccode\u003eb^(d-1) \u003c= \u003ccode\u003e\u003ca\u003eabs\u003c/a\u003e\u003c/code\u003e m \u003c b^d\u003c/code\u003e, where \u003ccode\u003ed\u003c/code\u003e is\n the value of \u003ccode\u003e\u003ccode\u003e\u003ca\u003efloatDigits\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e.\n In particular, \u003ccode\u003e\u003ccode\u003e\u003ca\u003edecodeFloat\u003c/a\u003e\u003c/code\u003e 0 = (0,0)\u003c/code\u003e. If the type\n contains a negative zero, also \u003ccode\u003e\u003ccode\u003e\u003ca\u003edecodeFloat\u003c/a\u003e\u003c/code\u003e (-0.0) = (0,0)\u003c/code\u003e.\n \u003cem\u003eThe result of\u003c/em\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003edecodeFloat\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e \u003cem\u003eis unspecified if either of\u003c/em\u003e\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eisNaN\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e \u003cem\u003eor\u003c/em\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eisInfinite\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e \u003cem\u003eis\u003c/em\u003e \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "decodeFloat",
           "package": "haskell98",
@@ -10093,6 +10788,7 @@
         "index": {
           "description": "The function decodeFloat applied to real floating-point number returns the significand expressed as an Integer and an appropriately scaled exponent an Int If decodeFloat yields then is equal in value to where is the floating-point radix and furthermore either and are both zero or else d-1 abs where is the value of floatDigits In particular decodeFloat If the type contains negative zero also decodeFloat The result of decodeFloat is unspecified if either of isNaN or isInfinite is True",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "decodeFloat",
           "normalized": "a-\u003e(Integer,Int)",
@@ -10109,6 +10805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einteger division truncated toward negative infinity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "div",
           "package": "haskell98",
@@ -10118,6 +10815,7 @@
         "index": {
           "description": "integer division truncated toward negative infinity",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "div",
           "normalized": "a-\u003ea-\u003ea",
@@ -10133,6 +10831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimultaneous \u003ccode\u003e\u003ca\u003ediv\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emod\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "divMod",
           "package": "haskell98",
@@ -10142,6 +10841,7 @@
         "index": {
           "description": "simultaneous div and mod",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "divMod",
           "normalized": "a-\u003ea-\u003e(a,a)",
@@ -10158,6 +10858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase analysis for the \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e type.\n If the value is \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e, apply the first function to \u003ccode\u003ea\u003c/code\u003e;\n if it is \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e b\u003c/code\u003e, apply the second function to \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "either",
           "package": "haskell98",
@@ -10167,6 +10868,7 @@
         "index": {
           "description": "Case analysis for the Either type If the value is Left apply the first function to if it is Right apply the second function to",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "either",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003eEither a c-\u003eb",
@@ -10182,6 +10884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eencodeFloat\u003c/a\u003e\u003c/code\u003e performs the inverse of \u003ccode\u003e\u003ca\u003edecodeFloat\u003c/a\u003e\u003c/code\u003e in the\n sense that for finite \u003ccode\u003ex\u003c/code\u003e with the exception of \u003ccode\u003e-0.0\u003c/code\u003e,\n \u003ccode\u003e\u003ccode\u003euncurry\u003c/code\u003e \u003ccode\u003e\u003ca\u003eencodeFloat\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003edecodeFloat\u003c/a\u003e\u003c/code\u003e x) = x\u003c/code\u003e.\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eencodeFloat\u003c/a\u003e\u003c/code\u003e m n\u003c/code\u003e is one of the two closest representable\n floating-point numbers to \u003ccode\u003em*b^^n\u003c/code\u003e (or \u003ccode\u003e&#177;Infinity\u003c/code\u003e if overflow\n occurs); usually the closer, but if \u003ccode\u003em\u003c/code\u003e contains too many bits,\n the result may be rounded in the wrong direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "encodeFloat",
           "package": "haskell98",
@@ -10191,6 +10894,7 @@
         "index": {
           "description": "encodeFloat performs the inverse of decodeFloat in the sense that for finite with the exception of uncurry encodeFloat decodeFloat encodeFloat is one of the two closest representable floating-point numbers to or Infinity if overflow occurs usually the closer but if contains too many bits the result may be rounded in the wrong direction",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "encodeFloat",
           "normalized": "Integer-\u003eInt-\u003ea",
@@ -10207,6 +10911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in Haskell's translation of \u003ccode\u003e[n..]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "enumFrom",
           "package": "haskell98",
@@ -10216,6 +10921,7 @@
         "index": {
           "description": "Used in Haskell translation of",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "enumFrom",
           "normalized": "a-\u003e[a]",
@@ -10232,6 +10938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in Haskell's translation of \u003ccode\u003e[n,n'..]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "enumFromThen",
           "package": "haskell98",
@@ -10241,6 +10948,7 @@
         "index": {
           "description": "Used in Haskell translation of",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "enumFromThen",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -10257,6 +10965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in Haskell's translation of \u003ccode\u003e[n,n'..m]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "enumFromThenTo",
           "package": "haskell98",
@@ -10266,6 +10975,7 @@
         "index": {
           "description": "Used in Haskell translation of",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "enumFromThenTo",
           "normalized": "a-\u003ea-\u003ea-\u003e[a]",
@@ -10282,6 +10992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in Haskell's translation of \u003ccode\u003e[n..m]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "enumFromTo",
           "package": "haskell98",
@@ -10291,6 +11002,7 @@
         "index": {
           "description": "Used in Haskell translation of n..m",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "enumFromTo",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -10307,6 +11019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e stops execution and displays an error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "error",
           "package": "haskell98",
@@ -10316,6 +11029,7 @@
         "index": {
           "description": "error stops execution and displays an error message",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "error",
           "normalized": "[Char]-\u003ea",
@@ -10330,6 +11044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "even",
           "package": "haskell98",
@@ -10338,6 +11053,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "even",
           "normalized": "a-\u003eBool",
@@ -10352,6 +11068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "exp",
           "package": "haskell98",
@@ -10360,6 +11077,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "exp",
           "normalized": "a-\u003ea",
@@ -10375,6 +11093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eexponent\u003c/a\u003e\u003c/code\u003e corresponds to the second component of \u003ccode\u003e\u003ca\u003edecodeFloat\u003c/a\u003e\u003c/code\u003e.\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eexponent\u003c/a\u003e\u003c/code\u003e 0 = 0\u003c/code\u003e and for finite nonzero \u003ccode\u003ex\u003c/code\u003e,\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eexponent\u003c/a\u003e\u003c/code\u003e x = snd (\u003ccode\u003e\u003ca\u003edecodeFloat\u003c/a\u003e\u003c/code\u003e x) + \u003ccode\u003e\u003ca\u003efloatDigits\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e.\n If \u003ccode\u003ex\u003c/code\u003e is a finite floating-point number, it is equal in value to\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003esignificand\u003c/a\u003e\u003c/code\u003e x * b ^^ \u003ccode\u003e\u003ca\u003eexponent\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e, where \u003ccode\u003eb\u003c/code\u003e is the\n floating-point radix.\n The behaviour is unspecified on infinite or \u003ccode\u003eNaN\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "exponent",
           "package": "haskell98",
@@ -10384,6 +11103,7 @@
         "index": {
           "description": "exponent corresponds to the second component of decodeFloat exponent and for finite nonzero exponent snd decodeFloat floatDigits If is finite floating-point number it is equal in value to significand exponent where is the floating-point radix The behaviour is unspecified on infinite or NaN values",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "exponent",
           "normalized": "a-\u003eInt",
@@ -10399,6 +11119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFail with a message.  This operation is not part of the\n mathematical definition of a monad, but is invoked on pattern-match\n failure in a \u003ccode\u003edo\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "fail",
           "package": "haskell98",
@@ -10408,6 +11129,7 @@
         "index": {
           "description": "Fail with message This operation is not part of the mathematical definition of monad but is invoked on pattern-match failure in do expression",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "fail",
           "normalized": "String-\u003ea b",
@@ -10423,6 +11145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e takes its (first) two arguments in the reverse order of \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "flip",
           "package": "haskell98",
@@ -10432,6 +11155,7 @@
         "index": {
           "description": "flip takes its first two arguments in the reverse order of",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "flip",
           "normalized": "(a-\u003eb-\u003ec)-\u003eb-\u003ea-\u003ec",
@@ -10447,6 +11171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea constant function, returning the number of digits of\n \u003ccode\u003e\u003ca\u003efloatRadix\u003c/a\u003e\u003c/code\u003e in the significand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "floatDigits",
           "package": "haskell98",
@@ -10456,6 +11181,7 @@
         "index": {
           "description": "constant function returning the number of digits of floatRadix in the significand",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "floatDigits",
           "normalized": "a-\u003eInt",
@@ -10472,6 +11198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea constant function, returning the radix of the representation\n (often \u003ccode\u003e2\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "floatRadix",
           "package": "haskell98",
@@ -10481,6 +11208,7 @@
         "index": {
           "description": "constant function returning the radix of the representation often",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "floatRadix",
           "normalized": "a-\u003eInteger",
@@ -10497,6 +11225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea constant function, returning the lowest and highest values\n the exponent may assume\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "floatRange",
           "package": "haskell98",
@@ -10506,6 +11235,7 @@
         "index": {
           "description": "constant function returning the lowest and highest values the exponent may assume",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "floatRange",
           "normalized": "a-\u003e(Int,Int)",
@@ -10522,6 +11252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003efloor\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e returns the greatest integer not greater than \u003ccode\u003ex\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "floor",
           "package": "haskell98",
@@ -10531,6 +11262,7 @@
         "index": {
           "description": "floor returns the greatest integer not greater than",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "floor",
           "normalized": "a-\u003eb",
@@ -10545,6 +11277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "fmap",
           "package": "haskell98",
@@ -10553,6 +11286,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "fmap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -10568,6 +11302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n It is implementation-dependent what \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e returns when\n applied to a value that is too large to fit in an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "fromEnum",
           "package": "haskell98",
@@ -10577,6 +11312,7 @@
         "index": {
           "description": "Convert to an Int It is implementation-dependent what fromEnum returns when applied to value that is too large to fit in an Int",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "fromEnum",
           "normalized": "a-\u003eInt",
@@ -10593,6 +11329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from an \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n An integer literal represents the application of the function\n \u003ccode\u003e\u003ca\u003efromInteger\u003c/a\u003e\u003c/code\u003e to the appropriate value of type \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e,\n so such literals have type \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a) =\u003e a\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "fromInteger",
           "package": "haskell98",
@@ -10602,6 +11339,7 @@
         "index": {
           "description": "Conversion from an Integer An integer literal represents the application of the function fromInteger to the appropriate value of type Integer so such literals have type Num",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "fromInteger",
           "normalized": "Integer-\u003ea",
@@ -10618,6 +11356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneral coercion from integral types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "fromIntegral",
           "package": "haskell98",
@@ -10627,6 +11366,7 @@
         "index": {
           "description": "general coercion from integral types",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "fromIntegral",
           "normalized": "a-\u003eb",
@@ -10643,6 +11383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from a \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e (that is \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRatio\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e).\n A floating literal stands for an application of \u003ccode\u003e\u003ca\u003efromRational\u003c/a\u003e\u003c/code\u003e\n to a value of type \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e, so such literals have type\n \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e a) =\u003e a\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "fromRational",
           "package": "haskell98",
@@ -10652,6 +11393,7 @@
         "index": {
           "description": "Conversion from Rational that is Ratio Integer floating literal stands for an application of fromRational to value of type Rational so such literals have type Fractional",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "fromRational",
           "normalized": "Rational-\u003ea",
@@ -10668,6 +11410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the first component of a pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "fst",
           "package": "haskell98",
@@ -10677,6 +11420,7 @@
         "index": {
           "description": "Extract the first component of pair",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "fst",
           "normalized": "(a,b)-\u003ea",
@@ -10692,6 +11436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003egcd\u003c/a\u003e\u003c/code\u003e x y\u003c/code\u003e is the greatest (positive) integer that divides both \u003ccode\u003ex\u003c/code\u003e\n and \u003ccode\u003ey\u003c/code\u003e; for example \u003ccode\u003e\u003ccode\u003e\u003ca\u003egcd\u003c/a\u003e\u003c/code\u003e (-3) 6\u003c/code\u003e = \u003ccode\u003e3\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003egcd\u003c/a\u003e\u003c/code\u003e (-3) (-6)\u003c/code\u003e = \u003ccode\u003e3\u003c/code\u003e,\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003egcd\u003c/a\u003e\u003c/code\u003e 0 4\u003c/code\u003e = \u003ccode\u003e4\u003c/code\u003e.  \u003ccode\u003e\u003ccode\u003e\u003ca\u003egcd\u003c/a\u003e\u003c/code\u003e 0 0\u003c/code\u003e raises a runtime error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "gcd",
           "package": "haskell98",
@@ -10702,6 +11447,7 @@
         "index": {
           "description": "gcd is the greatest positive integer that divides both and for example gcd gcd gcd gcd raises runtime error",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "gcd",
           "normalized": "a-\u003ea-\u003ea",
@@ -10717,6 +11463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "id",
           "package": "haskell98",
@@ -10726,6 +11473,7 @@
         "index": {
           "description": "Identity function",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "id",
           "normalized": "a-\u003ea",
@@ -10741,6 +11489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the argument is too small to be represented in\n normalized format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "isDenormalized",
           "package": "haskell98",
@@ -10750,6 +11499,7 @@
         "index": {
           "description": "True if the argument is too small to be represented in normalized format",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "isDenormalized",
           "normalized": "a-\u003eBool",
@@ -10766,6 +11516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the argument is an IEEE floating point number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "isIEEE",
           "package": "haskell98",
@@ -10775,6 +11526,7 @@
         "index": {
           "description": "True if the argument is an IEEE floating point number",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "isIEEE",
           "normalized": "a-\u003eBool",
@@ -10791,6 +11543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the argument is an IEEE infinity or negative infinity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "isInfinite",
           "package": "haskell98",
@@ -10800,6 +11553,7 @@
         "index": {
           "description": "True if the argument is an IEEE infinity or negative infinity",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "isInfinite",
           "normalized": "a-\u003eBool",
@@ -10816,6 +11570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the argument is an IEEE \"not-a-number\" (NaN) value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "isNaN",
           "package": "haskell98",
@@ -10825,6 +11580,7 @@
         "index": {
           "description": "True if the argument is an IEEE not-a-number NaN value",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "isNaN",
           "normalized": "a-\u003eBool",
@@ -10841,6 +11597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the argument is an IEEE negative zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "isNegativeZero",
           "package": "haskell98",
@@ -10850,6 +11607,7 @@
         "index": {
           "description": "True if the argument is an IEEE negative zero",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "isNegativeZero",
           "normalized": "a-\u003eBool",
@@ -10866,6 +11624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003elcm\u003c/a\u003e\u003c/code\u003e x y\u003c/code\u003e is the smallest positive integer that both \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003ey\u003c/code\u003e divide.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "lcm",
           "package": "haskell98",
@@ -10875,6 +11634,7 @@
         "index": {
           "description": "lcm is the smallest positive integer that both and divide",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "lcm",
           "normalized": "a-\u003ea-\u003ea",
@@ -10890,6 +11650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003elex\u003c/a\u003e\u003c/code\u003e function reads a single lexeme from the input, discarding\n initial white space, and returning the characters that constitute the\n lexeme.  If the input string contains only white space, \u003ccode\u003e\u003ca\u003elex\u003c/a\u003e\u003c/code\u003e returns a\n single successful `lexeme' consisting of the empty string.  (Thus\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003elex\u003c/a\u003e\u003c/code\u003e \"\" = [(\"\",\"\")]\u003c/code\u003e.)  If there is no legal lexeme at the\n beginning of the input string, \u003ccode\u003e\u003ca\u003elex\u003c/a\u003e\u003c/code\u003e fails (i.e. returns \u003ccode\u003e[]\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eThis lexer is not completely faithful to the Haskell lexical syntax\n in the following respects:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Qualified names are not handled properly\n\u003c/li\u003e\u003cli\u003e Octal and hexadecimal numerics are not recognized as a single token\n\u003c/li\u003e\u003cli\u003e Comments are not treated properly\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "lex",
           "package": "haskell98",
@@ -10899,6 +11660,7 @@
         "index": {
           "description": "The lex function reads single lexeme from the input discarding initial white space and returning the characters that constitute the lexeme If the input string contains only white space lex returns single successful lexeme consisting of the empty string Thus lex If there is no legal lexeme at the beginning of the input string lex fails i.e returns This lexer is not completely faithful to the Haskell lexical syntax in the following respects Qualified names are not handled properly Octal and hexadecimal numerics are not recognized as single token Comments are not treated properly",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "lex",
           "package": "haskell98",
@@ -10911,6 +11673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "log",
           "package": "haskell98",
@@ -10919,6 +11682,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "log",
           "normalized": "a-\u003ea",
@@ -10933,6 +11697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "logBase",
           "package": "haskell98",
@@ -10941,6 +11706,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "logBase",
           "normalized": "a-\u003ea-\u003ea",
@@ -10956,6 +11722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "max",
           "package": "haskell98",
@@ -10964,6 +11731,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "max",
           "normalized": "a-\u003ea-\u003ea",
@@ -10978,6 +11746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "maxBound",
           "package": "haskell98",
@@ -10986,6 +11755,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "maxBound",
           "package": "haskell98",
@@ -10999,6 +11769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "min",
           "package": "haskell98",
@@ -11007,6 +11778,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "min",
           "normalized": "a-\u003ea-\u003ea",
@@ -11021,6 +11793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "minBound",
           "package": "haskell98",
@@ -11029,6 +11802,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "minBound",
           "package": "haskell98",
@@ -11043,6 +11817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einteger modulus, satisfying\n\u003c/p\u003e\u003cpre\u003e (x `div` y)*y + (x `mod` y) == x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "mod",
           "package": "haskell98",
@@ -11052,6 +11827,7 @@
         "index": {
           "description": "integer modulus satisfying div mod",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "mod",
           "normalized": "a-\u003ea-\u003ea",
@@ -11067,6 +11843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary negation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "negate",
           "package": "haskell98",
@@ -11076,6 +11853,7 @@
         "index": {
           "description": "Unary negation",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "negate",
           "normalized": "a-\u003ea",
@@ -11091,6 +11869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean \"not\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "not",
           "package": "haskell98",
@@ -11100,6 +11879,7 @@
         "index": {
           "description": "Boolean not",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "not",
           "normalized": "Bool-\u003eBool",
@@ -11114,6 +11894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "odd",
           "package": "haskell98",
@@ -11122,6 +11903,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "odd",
           "normalized": "a-\u003eBool",
@@ -11137,6 +11919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eotherwise\u003c/a\u003e\u003c/code\u003e is defined as the value \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.  It helps to make\n guards more readable.  eg.\n\u003c/p\u003e\u003cpre\u003e  f x | x \u003c 0     = ...\n      | otherwise = ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "otherwise",
           "package": "haskell98",
@@ -11146,6 +11929,7 @@
         "index": {
           "description": "otherwise is defined as the value True It helps to make guards more readable eg otherwise",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "otherwise",
           "package": "haskell98",
@@ -11158,6 +11942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "pi",
           "package": "haskell98",
@@ -11166,6 +11951,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "pi",
           "package": "haskell98",
@@ -11179,6 +11965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe predecessor of a value.  For numeric types, \u003ccode\u003e\u003ca\u003epred\u003c/a\u003e\u003c/code\u003e subtracts 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "pred",
           "package": "haskell98",
@@ -11188,6 +11975,7 @@
         "index": {
           "description": "the predecessor of value For numeric types pred subtracts",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "pred",
           "normalized": "a-\u003ea",
@@ -11203,6 +11991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003eproperFraction\u003c/a\u003e\u003c/code\u003e takes a real fractional number \u003ccode\u003ex\u003c/code\u003e\n and returns a pair \u003ccode\u003e(n,f)\u003c/code\u003e such that \u003ccode\u003ex = n+f\u003c/code\u003e, and:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003en\u003c/code\u003e is an integral number with the same sign as \u003ccode\u003ex\u003c/code\u003e; and\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ef\u003c/code\u003e is a fraction with the same type and sign as \u003ccode\u003ex\u003c/code\u003e,\n   and with absolute value less than \u003ccode\u003e1\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe default definitions of the \u003ccode\u003e\u003ca\u003eceiling\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efloor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003etruncate\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003eround\u003c/a\u003e\u003c/code\u003e functions are in terms of \u003ccode\u003e\u003ca\u003eproperFraction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "properFraction",
           "package": "haskell98",
@@ -11212,6 +12001,7 @@
         "index": {
           "description": "The function properFraction takes real fractional number and returns pair such that and is an integral number with the same sign as and is fraction with the same type and sign as and with absolute value less than The default definitions of the ceiling floor truncate and round functions are in terms of properFraction",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "properFraction",
           "normalized": "a-\u003e(b,a)",
@@ -11228,6 +12018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einteger division truncated toward zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "quot",
           "package": "haskell98",
@@ -11237,6 +12028,7 @@
         "index": {
           "description": "integer division truncated toward zero",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "quot",
           "normalized": "a-\u003ea-\u003ea",
@@ -11252,6 +12044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimultaneous \u003ccode\u003e\u003ca\u003equot\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erem\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "quotRem",
           "package": "haskell98",
@@ -11261,6 +12054,7 @@
         "index": {
           "description": "simultaneous quot and rem",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "quotRem",
           "normalized": "a-\u003ea-\u003e(a,a)",
@@ -11277,6 +12071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e function reads input from a string, which must be\n completely consumed by the input process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "read",
           "package": "haskell98",
@@ -11286,6 +12081,7 @@
         "index": {
           "description": "The read function reads input from string which must be completely consumed by the input process",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "read",
           "normalized": "String-\u003ea",
@@ -11301,6 +12097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe method \u003ccode\u003e\u003ca\u003ereadList\u003c/a\u003e\u003c/code\u003e is provided to allow the programmer to\n give a specialised way of parsing lists of values.\n For example, this is used by the predefined \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e instance of\n the \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e type, where values of type \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e should be are\n expected to use double quotes, rather than square brackets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "readList",
           "package": "haskell98",
@@ -11310,6 +12107,7 @@
         "index": {
           "description": "The method readList is provided to allow the programmer to give specialised way of parsing lists of values For example this is used by the predefined Read instance of the Char type where values of type String should be are expected to use double quotes rather than square brackets",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "readList",
           "normalized": "ReadS[a]",
@@ -11326,6 +12124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ereadParen\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e parses what \u003ccode\u003ep\u003c/code\u003e parses, but surrounded with\n parentheses.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ereadParen\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e parses what \u003ccode\u003ep\u003c/code\u003e parses, but optionally\n surrounded with parentheses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "readParen",
           "package": "haskell98",
@@ -11335,6 +12134,7 @@
         "index": {
           "description": "readParen True parses what parses but surrounded with parentheses readParen False parses what parses but optionally surrounded with parentheses",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "readParen",
           "normalized": "Bool-\u003eReadS a-\u003eReadS a",
@@ -11351,6 +12151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eequivalent to \u003ccode\u003e\u003ca\u003ereadsPrec\u003c/a\u003e\u003c/code\u003e with a precedence of 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "reads",
           "package": "haskell98",
@@ -11360,6 +12161,7 @@
         "index": {
           "description": "equivalent to readsPrec with precedence of",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "reads",
           "package": "haskell98",
@@ -11373,6 +12175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eattempts to parse a value from the front of the string, returning\n a list of (parsed value, remaining string) pairs.  If there is no\n successful parse, the returned list is empty.\n\u003c/p\u003e\u003cp\u003eDerived instances of \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e satisfy the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e(x,\"\")\u003c/code\u003e is an element of\n   \u003ccode\u003e(\u003ccode\u003e\u003ca\u003ereadsPrec\u003c/a\u003e\u003c/code\u003e d (\u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e d x \"\"))\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThat is, \u003ccode\u003e\u003ca\u003ereadsPrec\u003c/a\u003e\u003c/code\u003e parses the string produced by\n \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e, and delivers the value that\n \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e started with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "readsPrec",
           "package": "haskell98",
@@ -11382,6 +12185,7 @@
         "index": {
           "description": "attempts to parse value from the front of the string returning list of parsed value remaining string pairs If there is no successful parse the returned list is empty Derived instances of Read and Show satisfy the following is an element of readsPrec showsPrec That is readsPrec parses the string produced by showsPrec and delivers the value that showsPrec started with",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "readsPrec",
           "package": "haskell98",
@@ -11396,6 +12200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneral coercion to fractional types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "realToFrac",
           "package": "haskell98",
@@ -11405,6 +12210,7 @@
         "index": {
           "description": "general coercion to fractional types",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "realToFrac",
           "normalized": "a-\u003eb",
@@ -11421,6 +12227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereciprocal fraction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "recip",
           "package": "haskell98",
@@ -11430,6 +12237,7 @@
         "index": {
           "description": "reciprocal fraction",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "recip",
           "normalized": "a-\u003ea",
@@ -11445,6 +12253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einteger remainder, satisfying\n\u003c/p\u003e\u003cpre\u003e (x `quot` y)*y + (x `rem` y) == x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "rem",
           "package": "haskell98",
@@ -11454,6 +12263,7 @@
         "index": {
           "description": "integer remainder satisfying quot rem",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "rem",
           "normalized": "a-\u003ea-\u003ea",
@@ -11469,6 +12279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject a value into the monadic type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "return",
           "package": "haskell98",
@@ -11478,6 +12289,7 @@
         "index": {
           "description": "Inject value into the monadic type",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "return",
           "normalized": "a-\u003eb a",
@@ -11493,6 +12305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eround\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e returns the nearest integer to \u003ccode\u003ex\u003c/code\u003e;\n   the even integer if \u003ccode\u003ex\u003c/code\u003e is equidistant between two integers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "round",
           "package": "haskell98",
@@ -11502,6 +12315,7 @@
         "index": {
           "description": "round returns the nearest integer to the even integer if is equidistant between two integers",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "round",
           "normalized": "a-\u003eb",
@@ -11517,6 +12331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emultiplies a floating-point number by an integer power of the radix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "scaleFloat",
           "package": "haskell98",
@@ -11526,6 +12341,7 @@
         "index": {
           "description": "multiplies floating-point number by an integer power of the radix",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "scaleFloat",
           "normalized": "Int-\u003ea-\u003ea",
@@ -11542,6 +12358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates its first argument to head normal form, and then returns its second\n \targument as the result. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "seq",
           "package": "haskell98",
@@ -11551,6 +12368,7 @@
         "index": {
           "description": "Evaluates its first argument to head normal form and then returns its second argument as the result",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "seq",
           "normalized": "a-\u003eb-\u003eb",
@@ -11566,6 +12384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specialised variant of \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e, using precedence context\n zero, and returning an ordinary \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "show",
           "package": "haskell98",
@@ -11575,6 +12394,7 @@
         "index": {
           "description": "specialised variant of showsPrec using precedence context zero and returning an ordinary String",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "show",
           "normalized": "a-\u003eString",
@@ -11590,6 +12410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eutility function converting a \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e to a show function that\n simply prepends the character unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "showChar",
           "package": "haskell98",
@@ -11599,6 +12420,7 @@
         "index": {
           "description": "utility function converting Char to show function that simply prepends the character unchanged",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "showChar",
           "normalized": "Char-\u003eShowS",
@@ -11615,6 +12437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe method \u003ccode\u003e\u003ca\u003eshowList\u003c/a\u003e\u003c/code\u003e is provided to allow the programmer to\n give a specialised way of showing lists of values.\n For example, this is used by the predefined \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance of\n the \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e type, where values of type \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e should be shown\n in double quotes, rather than between square brackets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "showList",
           "package": "haskell98",
@@ -11624,6 +12447,7 @@
         "index": {
           "description": "The method showList is provided to allow the programmer to give specialised way of showing lists of values For example this is used by the predefined Show instance of the Char type where values of type String should be shown in double quotes rather than between square brackets",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "showList",
           "normalized": "[a]-\u003eShowS",
@@ -11640,6 +12464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eutility function that surrounds the inner show function with\n parentheses when the \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e parameter is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "showParen",
           "package": "haskell98",
@@ -11649,6 +12474,7 @@
         "index": {
           "description": "utility function that surrounds the inner show function with parentheses when the Bool parameter is True",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "showParen",
           "normalized": "Bool-\u003eShowS-\u003eShowS",
@@ -11665,6 +12491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eutility function converting a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to a show function that\n simply prepends the string unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "showString",
           "package": "haskell98",
@@ -11674,6 +12501,7 @@
         "index": {
           "description": "utility function converting String to show function that simply prepends the string unchanged",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "showString",
           "normalized": "String-\u003eShowS",
@@ -11690,6 +12518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eequivalent to \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e with a precedence of 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "shows",
           "package": "haskell98",
@@ -11699,6 +12528,7 @@
         "index": {
           "description": "equivalent to showsPrec with precedence of",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "shows",
           "normalized": "a-\u003eShowS",
@@ -11714,6 +12544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value to a readable \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e should satisfy the law\n\u003c/p\u003e\u003cpre\u003e showsPrec d x r ++ s  ==  showsPrec d x (r ++ s)\n\u003c/pre\u003e\u003cp\u003eDerived instances of \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e satisfy the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e(x,\"\")\u003c/code\u003e is an element of\n   \u003ccode\u003e(\u003ccode\u003e\u003ca\u003ereadsPrec\u003c/a\u003e\u003c/code\u003e d (\u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e d x \"\"))\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThat is, \u003ccode\u003e\u003ca\u003ereadsPrec\u003c/a\u003e\u003c/code\u003e parses the string produced by\n \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e, and delivers the value that \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e started with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "showsPrec",
           "package": "haskell98",
@@ -11723,6 +12554,7 @@
         "index": {
           "description": "Convert value to readable String showsPrec should satisfy the law showsPrec showsPrec Derived instances of Read and Show satisfy the following is an element of readsPrec showsPrec That is readsPrec parses the string produced by showsPrec and delivers the value that showsPrec started with",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "showsPrec",
           "package": "haskell98",
@@ -11737,6 +12569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first component of \u003ccode\u003e\u003ca\u003edecodeFloat\u003c/a\u003e\u003c/code\u003e, scaled to lie in the open\n interval (\u003ccode\u003e-1\u003c/code\u003e,\u003ccode\u003e1\u003c/code\u003e), either \u003ccode\u003e0.0\u003c/code\u003e or of absolute value \u003ccode\u003e\u003e= 1/b\u003c/code\u003e,\n where \u003ccode\u003eb\u003c/code\u003e is the floating-point radix.\n The behaviour is unspecified on infinite or \u003ccode\u003eNaN\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "significand",
           "package": "haskell98",
@@ -11746,6 +12579,7 @@
         "index": {
           "description": "The first component of decodeFloat scaled to lie in the open interval either or of absolute value where is the floating-point radix The behaviour is unspecified on infinite or NaN values",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "significand",
           "normalized": "a-\u003ea",
@@ -11761,6 +12595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign of a number.\n The functions \u003ccode\u003e\u003ca\u003eabs\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esignum\u003c/a\u003e\u003c/code\u003e should satisfy the law:\n\u003c/p\u003e\u003cpre\u003e abs x * signum x == x\n\u003c/pre\u003e\u003cp\u003eFor real numbers, the \u003ccode\u003e\u003ca\u003esignum\u003c/a\u003e\u003c/code\u003e is either \u003ccode\u003e-1\u003c/code\u003e (negative), \u003ccode\u003e0\u003c/code\u003e (zero)\n or \u003ccode\u003e1\u003c/code\u003e (positive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "signum",
           "package": "haskell98",
@@ -11770,6 +12605,7 @@
         "index": {
           "description": "Sign of number The functions abs and signum should satisfy the law abs signum For real numbers the signum is either negative zero or positive",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "signum",
           "normalized": "a-\u003ea",
@@ -11784,6 +12620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "sin",
           "package": "haskell98",
@@ -11792,6 +12629,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "sin",
           "normalized": "a-\u003ea",
@@ -11806,6 +12644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "sinh",
           "package": "haskell98",
@@ -11814,6 +12653,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "sinh",
           "normalized": "a-\u003ea",
@@ -11829,6 +12669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the second component of a pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "snd",
           "package": "haskell98",
@@ -11838,6 +12679,7 @@
         "index": {
           "description": "Extract the second component of pair",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "snd",
           "normalized": "(a,b)-\u003eb",
@@ -11852,6 +12694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "sqrt",
           "package": "haskell98",
@@ -11860,6 +12703,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "sqrt",
           "normalized": "a-\u003ea",
@@ -11875,6 +12719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe same as \u003ccode\u003e\u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eBecause \u003ccode\u003e-\u003c/code\u003e is treated specially in the Haskell grammar,\n \u003ccode\u003e(-\u003c/code\u003e \u003cem\u003ee\u003c/em\u003e\u003ccode\u003e)\u003c/code\u003e is not a section, but an application of prefix negation.\n However, \u003ccode\u003e(\u003ccode\u003e\u003ca\u003esubtract\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e \u003cem\u003eexp\u003c/em\u003e\u003ccode\u003e)\u003c/code\u003e is equivalent to the disallowed section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "subtract",
           "package": "haskell98",
@@ -11884,6 +12729,7 @@
         "index": {
           "description": "the same as flip Because is treated specially in the Haskell grammar is not section but an application of prefix negation However subtract exp is equivalent to the disallowed section",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "subtract",
           "normalized": "a-\u003ea-\u003ea",
@@ -11899,6 +12745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe successor of a value.  For numeric types, \u003ccode\u003e\u003ca\u003esucc\u003c/a\u003e\u003c/code\u003e adds 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "succ",
           "package": "haskell98",
@@ -11908,6 +12755,7 @@
         "index": {
           "description": "the successor of value For numeric types succ adds",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "succ",
           "normalized": "a-\u003ea",
@@ -11922,6 +12770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "tan",
           "package": "haskell98",
@@ -11930,6 +12779,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "tan",
           "normalized": "a-\u003ea",
@@ -11944,6 +12794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "tanh",
           "package": "haskell98",
@@ -11952,6 +12803,7 @@
         },
         "index": {
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "tanh",
           "normalized": "a-\u003ea",
@@ -11967,6 +12819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "toEnum",
           "package": "haskell98",
@@ -11976,6 +12829,7 @@
         "index": {
           "description": "Convert from an Int",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "toEnum",
           "normalized": "Int-\u003ea",
@@ -11992,6 +12846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econversion to \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "toInteger",
           "package": "haskell98",
@@ -12001,6 +12856,7 @@
         "index": {
           "description": "conversion to Integer",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "toInteger",
           "normalized": "a-\u003eInteger",
@@ -12017,6 +12873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe rational equivalent of its real argument with full precision\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "toRational",
           "package": "haskell98",
@@ -12026,6 +12883,7 @@
         "index": {
           "description": "the rational equivalent of its real argument with full precision",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "toRational",
           "normalized": "a-\u003eRational",
@@ -12042,6 +12900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003etruncate\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e returns the integer nearest \u003ccode\u003ex\u003c/code\u003e between zero and \u003ccode\u003ex\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "truncate",
           "package": "haskell98",
@@ -12051,6 +12910,7 @@
         "index": {
           "description": "truncate returns the integer nearest between zero and",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "truncate",
           "normalized": "a-\u003eb",
@@ -12066,6 +12926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e converts a curried function to a function on pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "uncurry",
           "package": "haskell98",
@@ -12075,6 +12936,7 @@
         "index": {
           "description": "uncurry converts curried function to function on pairs",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "uncurry",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(a,b)-\u003ec",
@@ -12090,6 +12952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special case of \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n It is expected that compilers will recognize this and insert error\n messages which are more appropriate to the context in which \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e\n appears. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "undefined",
           "package": "haskell98",
@@ -12099,6 +12962,7 @@
         "index": {
           "description": "special case of error It is expected that compilers will recognize this and insert error messages which are more appropriate to the context in which undefined appears",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "undefined",
           "package": "haskell98",
@@ -12112,6 +12976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003euntil\u003c/a\u003e\u003c/code\u003e p f\u003c/code\u003e yields the result of applying \u003ccode\u003ef\u003c/code\u003e until \u003ccode\u003ep\u003c/code\u003e holds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Prelude",
           "name": "until",
           "package": "haskell98",
@@ -12121,6 +12986,7 @@
         "index": {
           "description": "until yields the result of applying until holds",
           "hierarchy": "Prelude",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Prelude",
           "name": "until",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003ea)-\u003ea-\u003ea",
@@ -12135,6 +13001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Ptr",
           "name": "Ptr",
           "package": "haskell98",
@@ -12143,6 +13010,7 @@
         },
         "index": {
           "hierarchy": "Ptr",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Ptr",
           "name": "Ptr",
           "package": "haskell98",
@@ -12156,6 +13024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "Random",
           "package": "haskell98",
@@ -12164,6 +13033,7 @@
         },
         "index": {
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "Random",
           "package": "haskell98",
@@ -12178,6 +13048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith a source of random number supply in hand, the \u003ccode\u003e\u003ca\u003eRandom\u003c/a\u003e\u003c/code\u003e class allows the\nprogrammer to extract random values of a variety of types.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003erandomR\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erandom\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "Random",
           "package": "haskell98",
@@ -12187,6 +13058,7 @@
         "index": {
           "description": "With source of random number supply in hand the Random class allows the programmer to extract random values of variety of types Minimal complete definition randomR and random",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "Random",
           "package": "haskell98",
@@ -12201,6 +13073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class \u003ccode\u003e\u003ca\u003eRandomGen\u003c/a\u003e\u003c/code\u003e provides a common interface to random number\n generators.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "RandomGen",
           "package": "haskell98",
@@ -12210,6 +13083,7 @@
         "index": {
           "description": "The class RandomGen provides common interface to random number generators Minimal complete definition next and split",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "RandomGen",
           "package": "haskell98",
@@ -12224,6 +13098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eStdGen\u003c/a\u003e\u003c/code\u003e instance of \u003ccode\u003e\u003ca\u003eRandomGen\u003c/a\u003e\u003c/code\u003e has a \u003ccode\u003e\u003ca\u003egenRange\u003c/a\u003e\u003c/code\u003e of at least 30 bits.\n\u003c/p\u003e\u003cp\u003eThe result of repeatedly using \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e should be at least as statistically\nrobust as the \u003cem\u003eMinimal Standard Random Number Generator\u003c/em\u003e described by\n[\u003ca\u003eRandom\u003c/a\u003e, \u003ca\u003eRandom\u003c/a\u003e].\nUntil more is known about implementations of \u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003e, all we require is\nthat \u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003e deliver generators that are (a) not identical and\n(b) independently robust in the sense just given.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e instances of \u003ccode\u003e\u003ca\u003eStdGen\u003c/a\u003e\u003c/code\u003e provide a primitive way to save the\nstate of a random number generator.\nIt is required that \u003ccode\u003e\u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e g) == g\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIn addition, \u003ccode\u003e\u003ca\u003ereads\u003c/a\u003e\u003c/code\u003e may be used to map an arbitrary string (not necessarily one\nproduced by \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e) onto a value of type \u003ccode\u003e\u003ca\u003eStdGen\u003c/a\u003e\u003c/code\u003e. In general, the \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e\ninstance of \u003ccode\u003e\u003ca\u003eStdGen\u003c/a\u003e\u003c/code\u003e has the following properties:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e It guarantees to succeed on any string.\n\u003c/li\u003e\u003cli\u003e It guarantees to consume only a finite portion of the string.\n\u003c/li\u003e\u003cli\u003e Different argument strings are likely to result in different results.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "StdGen",
           "package": "haskell98",
@@ -12233,6 +13108,7 @@
         "index": {
           "description": "The StdGen instance of RandomGen has genRange of at least bits The result of repeatedly using next should be at least as statistically robust as the Minimal Standard Random Number Generator described by Random Random Until more is known about implementations of split all we require is that split deliver generators that are not identical and independently robust in the sense just given The Show and Read instances of StdGen provide primitive way to save the state of random number generator It is required that read show In addition reads may be used to map an arbitrary string not necessarily one produced by show onto value of type StdGen In general the Read instance of StdGen has the following properties It guarantees to succeed on any string It guarantees to consume only finite portion of the string Different argument strings are likely to result in different results",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "StdGen",
           "package": "haskell98",
@@ -12247,6 +13123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egenRange\u003c/a\u003e\u003c/code\u003e operation yields the range of values returned by\n the generator.\n\u003c/p\u003e\u003cp\u003eIt is required that:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If \u003ccode\u003e(a,b) = \u003ccode\u003e\u003ca\u003egenRange\u003c/a\u003e\u003c/code\u003e g\u003c/code\u003e, then \u003ccode\u003ea \u003c b\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003egenRange\u003c/a\u003e\u003c/code\u003e always returns a pair of defined \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe second condition ensures that \u003ccode\u003e\u003ca\u003egenRange\u003c/a\u003e\u003c/code\u003e cannot examine its\n argument, and hence the value it returns can be determined only by the\n instance of \u003ccode\u003e\u003ca\u003eRandomGen\u003c/a\u003e\u003c/code\u003e.  That in turn allows an implementation to make\n a single call to \u003ccode\u003e\u003ca\u003egenRange\u003c/a\u003e\u003c/code\u003e to establish a generator's range, without\n being concerned that the generator returned by (say) \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e might have\n a different range to the generator passed to \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe default definition spans the full range of \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "genRange",
           "package": "haskell98",
@@ -12257,6 +13134,7 @@
         "index": {
           "description": "The genRange operation yields the range of values returned by the generator It is required that If genRange then genRange always returns pair of defined Int The second condition ensures that genRange cannot examine its argument and hence the value it returns can be determined only by the instance of RandomGen That in turn allows an implementation to make single call to genRange to establish generator range without being concerned that the generator returned by say next might have different range to the generator passed to next The default definition spans the full range of Int",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "genRange",
           "normalized": "a-\u003e(Int,Int)",
@@ -12273,6 +13151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the global random number generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "getStdGen",
           "package": "haskell98",
@@ -12283,6 +13162,7 @@
         "index": {
           "description": "Gets the global random number generator",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "getStdGen",
           "package": "haskell98",
@@ -12297,6 +13177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses the supplied function to get a value from the current global\nrandom generator, and updates the global generator with the new generator\nreturned by the function. For example, \u003ccode\u003erollDice\u003c/code\u003e gets a random integer\nbetween 1 and 6:\n\u003c/p\u003e\u003cpre\u003e  rollDice :: IO Int\n  rollDice = getStdRandom (randomR (1,6))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "getStdRandom",
           "package": "haskell98",
@@ -12307,6 +13188,7 @@
         "index": {
           "description": "Uses the supplied function to get value from the current global random generator and updates the global generator with the new generator returned by the function For example rollDice gets random integer between and rollDice IO Int rollDice getStdRandom randomR",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "getStdRandom",
           "normalized": "(StdGen-\u003e(a,StdGen))-\u003eIO a",
@@ -12323,6 +13205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003emkStdGen\u003c/a\u003e\u003c/code\u003e provides an alternative way of producing an initial\ngenerator, by mapping an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e into a generator. Again, distinct arguments\nshould be likely to produce distinct generators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "mkStdGen",
           "package": "haskell98",
@@ -12333,6 +13216,7 @@
         "index": {
           "description": "The function mkStdGen provides an alternative way of producing an initial generator by mapping an Int into generator Again distinct arguments should be likely to produce distinct generators",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "mkStdGen",
           "normalized": "Int-\u003eStdGen",
@@ -12349,6 +13233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies \u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003e to the current global random generator,\n updates it with one of the results, and returns the other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "newStdGen",
           "package": "haskell98",
@@ -12359,6 +13244,7 @@
         "index": {
           "description": "Applies split to the current global random generator updates it with one of the results and returns the other",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "newStdGen",
           "package": "haskell98",
@@ -12373,6 +13259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e operation returns an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e that is uniformly distributed\n in the range returned by \u003ccode\u003e\u003ca\u003egenRange\u003c/a\u003e\u003c/code\u003e (including both end points),\n and a new generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "next",
           "package": "haskell98",
@@ -12383,6 +13270,7 @@
         "index": {
           "description": "The next operation returns an Int that is uniformly distributed in the range returned by genRange including both end points and new generator",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "next",
           "normalized": "a-\u003e(Int,a)",
@@ -12398,6 +13286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003erandomR\u003c/a\u003e\u003c/code\u003e, but using a default range determined by the type:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For bounded types (instances of \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e, such as \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e),\n   the range is normally the whole type.\n\u003c/li\u003e\u003cli\u003e For fractional types, the range is normally the semi-closed interval\n \u003ccode\u003e[0,1)\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e For \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e, the range is (arbitrarily) the range of \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "random",
           "package": "haskell98",
@@ -12408,6 +13297,7 @@
         "index": {
           "description": "The same as randomR but using default range determined by the type For bounded types instances of Bounded such as Char the range is normally the whole type For fractional types the range is normally the semi-closed interval For Integer the range is arbitrarily the range of Int",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "random",
           "normalized": "a-\u003e(b,a)",
@@ -12423,6 +13313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003erandom\u003c/a\u003e\u003c/code\u003e that uses the global random number generator\n (see \u003ca\u003eRandom\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "randomIO",
           "package": "haskell98",
@@ -12433,6 +13324,7 @@
         "index": {
           "description": "variant of random that uses the global random number generator see Random",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "randomIO",
           "package": "haskell98",
@@ -12447,6 +13339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a range \u003cem\u003e(lo,hi)\u003c/em\u003e and a random number generator\n \u003cem\u003eg\u003c/em\u003e, and returns a random value uniformly distributed in the closed\n interval \u003cem\u003e[lo,hi]\u003c/em\u003e, together with a new generator. It is unspecified\n what happens if \u003cem\u003elo\u003ehi\u003c/em\u003e. For continuous types there is no requirement\n that the values \u003cem\u003elo\u003c/em\u003e and \u003cem\u003ehi\u003c/em\u003e are ever produced, but they may be,\n depending on the implementation and the interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "randomR",
           "package": "haskell98",
@@ -12457,6 +13350,7 @@
         "index": {
           "description": "Takes range lo hi and random number generator and returns random value uniformly distributed in the closed interval lo hi together with new generator It is unspecified what happens if lo hi For continuous types there is no requirement that the values lo and hi are ever produced but they may be depending on the implementation and the interval",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "randomR",
           "normalized": "(a,a)-\u003eb-\u003e(a,b)",
@@ -12472,6 +13366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003erandomR\u003c/a\u003e\u003c/code\u003e that uses the global random number generator\n (see \u003ca\u003eRandom\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "randomRIO",
           "package": "haskell98",
@@ -12482,6 +13377,7 @@
         "index": {
           "description": "variant of randomR that uses the global random number generator see Random",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "randomRIO",
           "normalized": "(a,a)-\u003eIO a",
@@ -12498,6 +13394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlural variant of \u003ccode\u003e\u003ca\u003erandomR\u003c/a\u003e\u003c/code\u003e, producing an infinite list of\n random values instead of returning a new generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "randomRs",
           "package": "haskell98",
@@ -12508,6 +13405,7 @@
         "index": {
           "description": "Plural variant of randomR producing an infinite list of random values instead of returning new generator",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "randomRs",
           "normalized": "(a,a)-\u003eb-\u003e[a]",
@@ -12524,6 +13422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlural variant of \u003ccode\u003e\u003ca\u003erandom\u003c/a\u003e\u003c/code\u003e, producing an infinite list of\n random values instead of returning a new generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "randoms",
           "package": "haskell98",
@@ -12534,6 +13433,7 @@
         "index": {
           "description": "Plural variant of random producing an infinite list of random values instead of returning new generator",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "randoms",
           "normalized": "a-\u003e[b]",
@@ -12549,6 +13449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the global random number generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "setStdGen",
           "package": "haskell98",
@@ -12559,6 +13460,7 @@
         "index": {
           "description": "Sets the global random number generator",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "setStdGen",
           "normalized": "StdGen-\u003eIO()",
@@ -12575,6 +13477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003e operation allows one to obtain two distinct random number\n generators. This is very useful in functional programs (for example, when\n passing a random number generator down to recursive calls), but very\n little work has been done on statistically robust implementations of\n \u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003e ([\u003ca\u003eRandom\u003c/a\u003e, \u003ca\u003eRandom\u003c/a\u003e]\n are the only examples we know of).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Random",
           "name": "split",
           "package": "haskell98",
@@ -12585,6 +13488,7 @@
         "index": {
           "description": "The split operation allows one to obtain two distinct random number generators This is very useful in functional programs for example when passing random number generator down to recursive calls but very little work has been done on statistically robust implementations of split Random Random are the only examples we know of",
           "hierarchy": "Random",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Random",
           "name": "split",
           "normalized": "a-\u003e(a,a)",
@@ -12599,6 +13503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Ratio",
           "name": "Ratio",
           "package": "haskell98",
@@ -12607,6 +13512,7 @@
         },
         "index": {
           "hierarchy": "Ratio",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Ratio",
           "name": "Ratio",
           "package": "haskell98",
@@ -12621,6 +13527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRational numbers, with numerator and denominator of some \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Ratio",
           "name": "Ratio",
           "package": "haskell98",
@@ -12629,6 +13536,7 @@
         "index": {
           "description": "Rational numbers with numerator and denominator of some Integral type",
           "hierarchy": "Ratio",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Ratio",
           "name": "Ratio",
           "package": "haskell98",
@@ -12643,6 +13551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary-precision rational numbers, represented as a ratio of\n two \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e values.  A rational number may be constructed using\n the \u003ccode\u003e\u003ca\u003e%\u003c/a\u003e\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Ratio",
           "name": "Rational",
           "package": "haskell98",
@@ -12651,6 +13560,7 @@
         "index": {
           "description": "Arbitrary-precision rational numbers represented as ratio of two Integer values rational number may be constructed using the operator",
           "hierarchy": "Ratio",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Ratio",
           "name": "Rational",
           "package": "haskell98",
@@ -12665,6 +13575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForms the ratio of two integral numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Ratio",
           "name": "(%)",
           "package": "haskell98",
@@ -12674,6 +13585,7 @@
         "index": {
           "description": "Forms the ratio of two integral numbers",
           "hierarchy": "Ratio",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Ratio",
           "name": "(%) %",
           "normalized": "a-\u003ea-\u003eRatio a",
@@ -12689,6 +13601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eapproxRational\u003c/a\u003e\u003c/code\u003e, applied to two real fractional numbers \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003eepsilon\u003c/code\u003e,\n returns the simplest rational number within \u003ccode\u003eepsilon\u003c/code\u003e of \u003ccode\u003ex\u003c/code\u003e.\n A rational number \u003ccode\u003ey\u003c/code\u003e is said to be \u003cem\u003esimpler\u003c/em\u003e than another \u003ccode\u003ey'\u003c/code\u003e if\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eabs\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003enumerator\u003c/a\u003e\u003c/code\u003e y) \u003c= \u003ccode\u003e\u003ca\u003eabs\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003enumerator\u003c/a\u003e\u003c/code\u003e y')\u003c/code\u003e, and\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003edenominator\u003c/a\u003e\u003c/code\u003e y \u003c= \u003ccode\u003e\u003ca\u003edenominator\u003c/a\u003e\u003c/code\u003e y'\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAny real interval contains a unique simplest rational;\n in particular, note that \u003ccode\u003e0/1\u003c/code\u003e is the simplest rational of all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Ratio",
           "name": "approxRational",
           "package": "haskell98",
@@ -12698,6 +13611,7 @@
         "index": {
           "description": "approxRational applied to two real fractional numbers and epsilon returns the simplest rational number within epsilon of rational number is said to be simpler than another if abs numerator abs numerator and denominator denominator Any real interval contains unique simplest rational in particular note that is the simplest rational of all",
           "hierarchy": "Ratio",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Ratio",
           "name": "approxRational",
           "normalized": "a-\u003ea-\u003eRational",
@@ -12714,6 +13628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the denominator of the ratio in reduced form:\n the numerator and denominator have no common factor and the denominator\n is positive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Ratio",
           "name": "denominator",
           "package": "haskell98",
@@ -12723,6 +13638,7 @@
         "index": {
           "description": "Extract the denominator of the ratio in reduced form the numerator and denominator have no common factor and the denominator is positive",
           "hierarchy": "Ratio",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Ratio",
           "name": "denominator",
           "normalized": "Ratio a-\u003ea",
@@ -12738,6 +13654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the numerator of the ratio in reduced form:\n the numerator and denominator have no common factor and the denominator\n is positive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Ratio",
           "name": "numerator",
           "package": "haskell98",
@@ -12747,6 +13664,7 @@
         "index": {
           "description": "Extract the numerator of the ratio in reduced form the numerator and denominator have no common factor and the denominator is positive",
           "hierarchy": "Ratio",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Ratio",
           "name": "numerator",
           "normalized": "Ratio a-\u003ea",
@@ -12761,6 +13679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "StablePtr",
           "name": "StablePtr",
           "package": "haskell98",
@@ -12769,6 +13688,7 @@
         },
         "index": {
           "hierarchy": "StablePtr",
+          "indexed": "2014-03-11T18:32:00",
           "module": "StablePtr",
           "name": "StablePtr",
           "package": "haskell98",
@@ -12782,6 +13702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Storable",
           "name": "Storable",
           "package": "haskell98",
@@ -12790,6 +13711,7 @@
         },
         "index": {
           "hierarchy": "Storable",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Storable",
           "name": "Storable",
           "package": "haskell98",
@@ -12803,6 +13725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "System",
           "name": "System",
           "package": "haskell98",
@@ -12811,6 +13734,7 @@
         },
         "index": {
           "hierarchy": "System",
+          "indexed": "2014-03-11T18:32:00",
           "module": "System",
           "name": "System",
           "package": "haskell98",
@@ -12825,6 +13749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines the exit codes that a program can return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "System",
           "name": "ExitCode",
           "package": "haskell98",
@@ -12833,6 +13758,7 @@
         "index": {
           "description": "Defines the exit codes that program can return",
           "hierarchy": "System",
+          "indexed": "2014-03-11T18:32:00",
           "module": "System",
           "name": "ExitCode",
           "package": "haskell98",
@@ -12847,6 +13773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates program failure with an exit code.\n The exact interpretation of the code is\n operating-system dependent.  In particular, some values\n may be prohibited (e.g. 0 on a POSIX-compliant system).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "System",
           "name": "ExitFailure",
           "package": "haskell98",
@@ -12856,6 +13783,7 @@
         "index": {
           "description": "indicates program failure with an exit code The exact interpretation of the code is operating-system dependent In particular some values may be prohibited e.g on POSIX-compliant system",
           "hierarchy": "System",
+          "indexed": "2014-03-11T18:32:00",
           "module": "System",
           "name": "ExitFailure",
           "package": "haskell98",
@@ -12870,6 +13798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates successful termination;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "System",
           "name": "ExitSuccess",
           "package": "haskell98",
@@ -12879,6 +13808,7 @@
         "index": {
           "description": "indicates successful termination",
           "hierarchy": "System",
+          "indexed": "2014-03-11T18:32:00",
           "module": "System",
           "name": "ExitSuccess",
           "package": "haskell98",
@@ -12893,6 +13823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe computation \u003ccode\u003e\u003ca\u003eexitFailure\u003c/a\u003e\u003c/code\u003e is equivalent to\n \u003ccode\u003e\u003ca\u003eexitWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(\u003c/code\u003e\u003ccode\u003e\u003ca\u003eExitFailure\u003c/a\u003e\u003c/code\u003e \u003cem\u003eexitfail\u003c/em\u003e\u003ccode\u003e)\u003c/code\u003e,\n where \u003cem\u003eexitfail\u003c/em\u003e is implementation-dependent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "System",
           "name": "exitFailure",
           "package": "haskell98",
@@ -12902,6 +13833,7 @@
         "index": {
           "description": "The computation exitFailure is equivalent to exitWith ExitFailure exitfail where exitfail is implementation-dependent",
           "hierarchy": "System",
+          "indexed": "2014-03-11T18:32:00",
           "module": "System",
           "name": "exitFailure",
           "package": "haskell98",
@@ -12916,6 +13848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003eexitWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ecode\u003c/code\u003e throws \u003ccode\u003e\u003ca\u003eExitCode\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ecode\u003c/code\u003e.\n Normally this terminates the program, returning \u003ccode\u003ecode\u003c/code\u003e to the\n program's caller.\n\u003c/p\u003e\u003cp\u003eOn program termination, the standard \u003ccode\u003eHandle\u003c/code\u003es \u003ccode\u003estdout\u003c/code\u003e and\n \u003ccode\u003estderr\u003c/code\u003e are flushed automatically; any other buffered \u003ccode\u003eHandle\u003c/code\u003es\n need to be flushed manually, otherwise the buffered data will be\n discarded.\n\u003c/p\u003e\u003cp\u003eA program that fails in any other way is treated as if it had\n called \u003ccode\u003e\u003ca\u003eexitFailure\u003c/a\u003e\u003c/code\u003e.\n A program that terminates successfully without calling \u003ccode\u003e\u003ca\u003eexitWith\u003c/a\u003e\u003c/code\u003e\n explicitly is treated as it it had called \u003ccode\u003e\u003ca\u003eexitWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eExitSuccess\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAs an \u003ccode\u003e\u003ca\u003eExitCode\u003c/a\u003e\u003c/code\u003e is not an \u003ccode\u003e\u003ca\u003eIOError\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eexitWith\u003c/a\u003e\u003c/code\u003e bypasses\n the error handling in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad and cannot be intercepted by\n \u003ccode\u003ecatch\u003c/code\u003e from the \u003ca\u003ePrelude\u003c/a\u003e.  However it is a \u003ccode\u003eSomeException\u003c/code\u003e, and can\n be caught using the functions of \u003ca\u003eControl.Exception\u003c/a\u003e.  This means\n that cleanup computations added with \u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e\n (from \u003ca\u003eControl.Exception\u003c/a\u003e) are also executed properly on \u003ccode\u003e\u003ca\u003eexitWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: in GHC, \u003ccode\u003e\u003ca\u003eexitWith\u003c/a\u003e\u003c/code\u003e should be called from the main program\n thread in order to exit the process.  When called from another\n thread, \u003ccode\u003e\u003ca\u003eexitWith\u003c/a\u003e\u003c/code\u003e will throw an \u003ccode\u003eExitException\u003c/code\u003e as normal, but the\n exception will not cause the process itself to exit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "System",
           "name": "exitWith",
           "package": "haskell98",
@@ -12925,6 +13858,7 @@
         "index": {
           "description": "Computation exitWith code throws ExitCode code Normally this terminates the program returning code to the program caller On program termination the standard Handle stdout and stderr are flushed automatically any other buffered Handle need to be flushed manually otherwise the buffered data will be discarded program that fails in any other way is treated as if it had called exitFailure program that terminates successfully without calling exitWith explicitly is treated as it it had called exitWith ExitSuccess As an ExitCode is not an IOError exitWith bypasses the error handling in the IO monad and cannot be intercepted by catch from the Prelude However it is SomeException and can be caught using the functions of Control.Exception This means that cleanup computations added with bracket from Control.Exception are also executed properly on exitWith Note in GHC exitWith should be called from the main program thread in order to exit the process When called from another thread exitWith will throw an ExitException as normal but the exception will not cause the process itself to exit",
           "hierarchy": "System",
+          "indexed": "2014-03-11T18:32:00",
           "module": "System",
           "name": "exitWith",
           "normalized": "ExitCode-\u003eIO a",
@@ -12941,6 +13875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003egetArgs\u003c/a\u003e\u003c/code\u003e returns a list of the program's command\n line arguments (not including the program name).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "System",
           "name": "getArgs",
           "package": "haskell98",
@@ -12950,6 +13885,7 @@
         "index": {
           "description": "Computation getArgs returns list of the program command line arguments not including the program name",
           "hierarchy": "System",
+          "indexed": "2014-03-11T18:32:00",
           "module": "System",
           "name": "getArgs",
           "normalized": "IO[String]",
@@ -12966,6 +13902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003egetEnv\u003c/a\u003e\u003c/code\u003e \u003ccode\u003evar\u003c/code\u003e returns the value\n of the environment variable \u003ccode\u003evar\u003c/code\u003e. For the inverse, POSIX users\n can use \u003ccode\u003e\u003ca\u003eputEnv\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis computation may fail with:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eisDoesNotExistError\u003c/a\u003e\u003c/code\u003e if the environment variable\n    does not exist.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "System",
           "name": "getEnv",
           "package": "haskell98",
@@ -12975,6 +13912,7 @@
         "index": {
           "description": "Computation getEnv var returns the value of the environment variable var For the inverse POSIX users can use putEnv This computation may fail with isDoesNotExistError if the environment variable does not exist",
           "hierarchy": "System",
+          "indexed": "2014-03-11T18:32:00",
           "module": "System",
           "name": "getEnv",
           "normalized": "String-\u003eIO String",
@@ -12991,6 +13929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003e\u003ca\u003egetProgName\u003c/a\u003e\u003c/code\u003e returns the name of the program as it was\ninvoked.\n\u003c/p\u003e\u003cp\u003eHowever, this is hard-to-impossible to implement on some non-Unix\nOSes, so instead, for maximum portability, we just return the leafname\nof the program as invoked. Even then there are some differences\nbetween platforms: on Windows, for example, a program invoked as foo\nis probably really \u003ccode\u003eFOO.EXE\u003c/code\u003e, and that is what \u003ccode\u003e\u003ca\u003egetProgName\u003c/a\u003e\u003c/code\u003e will return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "System",
           "name": "getProgName",
           "package": "haskell98",
@@ -13000,6 +13939,7 @@
         "index": {
           "description": "Computation getProgName returns the name of the program as it was invoked However this is hard-to-impossible to implement on some non-Unix OSes so instead for maximum portability we just return the leafname of the program as invoked Even then there are some differences between platforms on Windows for example program invoked as foo is probably really FOO.EXE and that is what getProgName will return",
           "hierarchy": "System",
+          "indexed": "2014-03-11T18:32:00",
           "module": "System",
           "name": "getProgName",
           "package": "haskell98",
@@ -13014,6 +13954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation \u003ccode\u003esystem cmd\u003c/code\u003e returns the exit code produced when the\noperating system runs the shell command \u003ccode\u003ecmd\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis computation may fail with\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ePermissionDenied\u003c/code\u003e: The process has insufficient privileges to\n     perform the operation.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eResourceExhausted\u003c/code\u003e: Insufficient resources are available to\n     perform the operation.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eUnsupportedOperation\u003c/code\u003e: The implementation does not support\n     system calls.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eOn Windows, \u003ccode\u003e\u003ca\u003esystem\u003c/a\u003e\u003c/code\u003e passes the command to the Windows command\ninterpreter (\u003ccode\u003eCMD.EXE\u003c/code\u003e or \u003ccode\u003eCOMMAND.COM\u003c/code\u003e), hence Unixy shell tricks\nwill not work.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "System",
           "name": "system",
           "package": "haskell98",
@@ -13023,6 +13964,7 @@
         "index": {
           "description": "Computation system cmd returns the exit code produced when the operating system runs the shell command cmd This computation may fail with PermissionDenied The process has insufficient privileges to perform the operation ResourceExhausted Insufficient resources are available to perform the operation UnsupportedOperation The implementation does not support system calls On Windows system passes the command to the Windows command interpreter CMD.EXE or COMMAND.COM hence Unixy shell tricks will not work",
           "hierarchy": "System",
+          "indexed": "2014-03-11T18:32:00",
           "module": "System",
           "name": "system",
           "normalized": "String-\u003eIO ExitCode",
@@ -13037,6 +13979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "Time",
           "package": "haskell98",
@@ -13045,6 +13988,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "Time",
           "package": "haskell98",
@@ -13059,6 +14003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e is a user-readable and manipulable\n representation of the internal \u003ccode\u003e\u003ca\u003eClockTime\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "CalendarTime",
           "package": "haskell98",
@@ -13067,6 +14012,7 @@
         "index": {
           "description": "CalendarTime is user-readable and manipulable representation of the internal ClockTime type",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "CalendarTime",
           "package": "haskell98",
@@ -13081,6 +14027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation of the internal clock time.\n Clock times may be compared, converted to strings, or converted to an\n external calendar time \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e for I/O or other manipulations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "ClockTime",
           "package": "haskell98",
@@ -13089,6 +14036,7 @@
         "index": {
           "description": "representation of the internal clock time Clock times may be compared converted to strings or converted to an external calendar time CalendarTime for or other manipulations",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "ClockTime",
           "package": "haskell98",
@@ -13103,6 +14051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA day of the week.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "Day",
           "package": "haskell98",
@@ -13111,6 +14060,7 @@
         "index": {
           "description": "day of the week",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "Day",
           "package": "haskell98",
@@ -13125,6 +14075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA month of the year.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "Month",
           "package": "haskell98",
@@ -13133,6 +14084,7 @@
         "index": {
           "description": "month of the year",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "Month",
           "package": "haskell98",
@@ -13147,6 +14099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecords the difference between two clock times in a user-readable way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "TimeDiff",
           "package": "haskell98",
@@ -13155,6 +14108,7 @@
         "index": {
           "description": "records the difference between two clock times in user-readable way",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "TimeDiff",
           "package": "haskell98",
@@ -13168,6 +14122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "April",
           "package": "haskell98",
@@ -13176,6 +14131,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "April",
           "package": "haskell98",
@@ -13189,6 +14145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "August",
           "package": "haskell98",
@@ -13197,6 +14154,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "August",
           "package": "haskell98",
@@ -13210,6 +14168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "CalendarTime",
           "package": "haskell98",
@@ -13218,6 +14177,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "CalendarTime",
           "package": "haskell98",
@@ -13231,6 +14191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "December",
           "package": "haskell98",
@@ -13239,6 +14200,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "December",
           "package": "haskell98",
@@ -13252,6 +14214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "February",
           "package": "haskell98",
@@ -13260,6 +14223,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "February",
           "package": "haskell98",
@@ -13273,6 +14237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "Friday",
           "package": "haskell98",
@@ -13281,6 +14246,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "Friday",
           "package": "haskell98",
@@ -13294,6 +14260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "January",
           "package": "haskell98",
@@ -13302,6 +14269,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "January",
           "package": "haskell98",
@@ -13315,6 +14283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "July",
           "package": "haskell98",
@@ -13323,6 +14292,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "July",
           "package": "haskell98",
@@ -13336,6 +14306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "June",
           "package": "haskell98",
@@ -13344,6 +14315,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "June",
           "package": "haskell98",
@@ -13357,6 +14329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "March",
           "package": "haskell98",
@@ -13365,6 +14338,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "March",
           "package": "haskell98",
@@ -13378,6 +14352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "May",
           "package": "haskell98",
@@ -13386,6 +14361,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "May",
           "package": "haskell98",
@@ -13399,6 +14375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "Monday",
           "package": "haskell98",
@@ -13407,6 +14384,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "Monday",
           "package": "haskell98",
@@ -13420,6 +14398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "November",
           "package": "haskell98",
@@ -13428,6 +14407,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "November",
           "package": "haskell98",
@@ -13441,6 +14421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "October",
           "package": "haskell98",
@@ -13449,6 +14430,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "October",
           "package": "haskell98",
@@ -13462,6 +14444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "Saturday",
           "package": "haskell98",
@@ -13470,6 +14453,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "Saturday",
           "package": "haskell98",
@@ -13483,6 +14467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "September",
           "package": "haskell98",
@@ -13491,6 +14476,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "September",
           "package": "haskell98",
@@ -13504,6 +14490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "Sunday",
           "package": "haskell98",
@@ -13512,6 +14499,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "Sunday",
           "package": "haskell98",
@@ -13525,6 +14513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "Thursday",
           "package": "haskell98",
@@ -13533,6 +14522,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "Thursday",
           "package": "haskell98",
@@ -13546,6 +14536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "TimeDiff",
           "package": "haskell98",
@@ -13554,6 +14545,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "TimeDiff",
           "package": "haskell98",
@@ -13567,6 +14559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "Tuesday",
           "package": "haskell98",
@@ -13575,6 +14568,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "Tuesday",
           "package": "haskell98",
@@ -13588,6 +14582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "Wednesday",
           "package": "haskell98",
@@ -13596,6 +14591,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "Wednesday",
           "package": "haskell98",
@@ -13610,6 +14606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eaddToClockTime\u003c/a\u003e\u003c/code\u003e d t\u003c/code\u003e adds a time difference \u003ccode\u003ed\u003c/code\u003e and a\n clock time \u003ccode\u003et\u003c/code\u003e to yield a new clock time.  The difference \u003ccode\u003ed\u003c/code\u003e\n may be either positive or negative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "addToClockTime",
           "package": "haskell98",
@@ -13619,6 +14616,7 @@
         "index": {
           "description": "addToClockTime adds time difference and clock time to yield new clock time The difference may be either positive or negative",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "addToClockTime",
           "normalized": "TimeDiff-\u003eClockTime-\u003eClockTime",
@@ -13635,6 +14633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformats calendar times using local conventions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "calendarTimeToString",
           "package": "haskell98",
@@ -13644,6 +14643,7 @@
         "index": {
           "description": "formats calendar times using local conventions",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "calendarTimeToString",
           "normalized": "CalendarTime-\u003eString",
@@ -13660,6 +14660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of the month (1 to 31)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "ctDay",
           "package": "haskell98",
@@ -13669,6 +14670,7 @@
         "index": {
           "description": "Day of the month to",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "ctDay",
           "package": "haskell98",
@@ -13683,6 +14685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHour of the day (0 to 23)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "ctHour",
           "package": "haskell98",
@@ -13692,6 +14695,7 @@
         "index": {
           "description": "Hour of the day to",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "ctHour",
           "package": "haskell98",
@@ -13706,6 +14710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if Daylight Savings Time would\n be in effect, and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "ctIsDST",
           "package": "haskell98",
@@ -13715,6 +14720,7 @@
         "index": {
           "description": "True if Daylight Savings Time would be in effect and False otherwise",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "ctIsDST",
           "package": "haskell98",
@@ -13729,6 +14735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinutes (0 to 59)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "ctMin",
           "package": "haskell98",
@@ -13738,6 +14745,7 @@
         "index": {
           "description": "Minutes to",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "ctMin",
           "package": "haskell98",
@@ -13752,6 +14760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonth of the year\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "ctMonth",
           "package": "haskell98",
@@ -13761,6 +14770,7 @@
         "index": {
           "description": "Month of the year",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "ctMonth",
           "package": "haskell98",
@@ -13775,6 +14785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePicoseconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "ctPicosec",
           "package": "haskell98",
@@ -13784,6 +14795,7 @@
         "index": {
           "description": "Picoseconds",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "ctPicosec",
           "package": "haskell98",
@@ -13798,6 +14810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeconds (0 to 61, allowing for up to\n two leap seconds)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "ctSec",
           "package": "haskell98",
@@ -13807,6 +14820,7 @@
         "index": {
           "description": "Seconds to allowing for up to two leap seconds",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "ctSec",
           "package": "haskell98",
@@ -13821,6 +14835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariation from UTC in seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "ctTZ",
           "package": "haskell98",
@@ -13830,6 +14845,7 @@
         "index": {
           "description": "Variation from UTC in seconds",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "ctTZ",
           "package": "haskell98",
@@ -13844,6 +14860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the time zone\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "ctTZName",
           "package": "haskell98",
@@ -13853,6 +14870,7 @@
         "index": {
           "description": "Name of the time zone",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "ctTZName",
           "package": "haskell98",
@@ -13867,6 +14885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of the week\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "ctWDay",
           "package": "haskell98",
@@ -13876,6 +14895,7 @@
         "index": {
           "description": "Day of the week",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "ctWDay",
           "package": "haskell98",
@@ -13890,6 +14910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of the year\n (0 to 364, or 365 in leap years)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "ctYDay",
           "package": "haskell98",
@@ -13899,6 +14920,7 @@
         "index": {
           "description": "Day of the year to or in leap years",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "ctYDay",
           "package": "haskell98",
@@ -13913,6 +14935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYear (pre-Gregorian dates are inaccurate)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "ctYear",
           "package": "haskell98",
@@ -13922,6 +14945,7 @@
         "index": {
           "description": "Year pre-Gregorian dates are inaccurate",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "ctYear",
           "package": "haskell98",
@@ -13936,6 +14960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ediffClockTimes\u003c/a\u003e\u003c/code\u003e t1 t2\u003c/code\u003e returns the difference between two clock\n times \u003ccode\u003et1\u003c/code\u003e and \u003ccode\u003et2\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eTimeDiff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "diffClockTimes",
           "package": "haskell98",
@@ -13945,6 +14970,7 @@
         "index": {
           "description": "diffClockTimes t1 t2 returns the difference between two clock times t1 and t2 as TimeDiff",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "diffClockTimes",
           "normalized": "ClockTime-\u003eClockTime-\u003eTimeDiff",
@@ -13961,6 +14987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformats calendar times using local conventions and a formatting string.\n The formatting string is that understood by the ISO C \u003ccode\u003estrftime()\u003c/code\u003e\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "formatCalendarTime",
           "package": "haskell98",
@@ -13970,6 +14997,7 @@
         "index": {
           "description": "formats calendar times using local conventions and formatting string The formatting string is that understood by the ISO strftime function",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "formatCalendarTime",
           "normalized": "TimeLocale-\u003eString-\u003eCalendarTime-\u003eString",
@@ -13985,6 +15013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "getClockTime",
           "package": "haskell98",
@@ -13993,6 +15022,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "getClockTime",
           "package": "haskell98",
@@ -14006,6 +15036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "tdDay",
           "package": "haskell98",
@@ -14014,6 +15045,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "tdDay",
           "package": "haskell98",
@@ -14027,6 +15059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "tdHour",
           "package": "haskell98",
@@ -14035,6 +15068,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "tdHour",
           "package": "haskell98",
@@ -14048,6 +15082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "tdMin",
           "package": "haskell98",
@@ -14056,6 +15091,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "tdMin",
           "package": "haskell98",
@@ -14069,6 +15105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "tdMonth",
           "package": "haskell98",
@@ -14077,6 +15114,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "tdMonth",
           "package": "haskell98",
@@ -14090,6 +15128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "tdPicosec",
           "package": "haskell98",
@@ -14098,6 +15137,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "tdPicosec",
           "package": "haskell98",
@@ -14111,6 +15151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "tdSec",
           "package": "haskell98",
@@ -14119,6 +15160,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "tdSec",
           "package": "haskell98",
@@ -14132,6 +15174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "tdYear",
           "package": "haskell98",
@@ -14140,6 +15183,7 @@
         },
         "index": {
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "tdYear",
           "package": "haskell98",
@@ -14154,6 +15198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts an internal clock time to a local time, modified by the\n timezone and daylight savings time settings in force at the time\n of conversion.  Because of this dependence on the local environment,\n \u003ccode\u003e\u003ca\u003etoCalendarTime\u003c/a\u003e\u003c/code\u003e is in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "toCalendarTime",
           "package": "haskell98",
@@ -14163,6 +15208,7 @@
         "index": {
           "description": "converts an internal clock time to local time modified by the timezone and daylight savings time settings in force at the time of conversion Because of this dependence on the local environment toCalendarTime is in the IO monad",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "toCalendarTime",
           "normalized": "ClockTime-\u003eIO CalendarTime",
@@ -14179,6 +15225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts a \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e into the corresponding internal\n \u003ccode\u003e\u003ca\u003eClockTime\u003c/a\u003e\u003c/code\u003e, ignoring the contents of the  \u003ccode\u003e\u003ca\u003ectWDay\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ectYDay\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003ectTZName\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ectIsDST\u003c/a\u003e\u003c/code\u003e fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "toClockTime",
           "package": "haskell98",
@@ -14188,6 +15235,7 @@
         "index": {
           "description": "converts CalendarTime into the corresponding internal ClockTime ignoring the contents of the ctWDay ctYDay ctTZName and ctIsDST fields",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "toClockTime",
           "normalized": "CalendarTime-\u003eClockTime",
@@ -14204,6 +15252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts an internal clock time into a \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e in standard\n UTC format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Time",
           "name": "toUTCTime",
           "package": "haskell98",
@@ -14213,6 +15262,7 @@
         "index": {
           "description": "converts an internal clock time into CalendarTime in standard UTC format",
           "hierarchy": "Time",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Time",
           "name": "toUTCTime",
           "normalized": "ClockTime-\u003eCalendarTime",
@@ -14228,6 +15278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:00 UTC 2014",
           "module": "Word",
           "name": "Word",
           "package": "haskell98",
@@ -14236,6 +15287,7 @@
         },
         "index": {
           "hierarchy": "Word",
+          "indexed": "2014-03-11T18:32:00",
           "module": "Word",
           "name": "Word",
           "package": "haskell98",

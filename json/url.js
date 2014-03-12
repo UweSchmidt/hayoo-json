@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "url"
+        "phrase": "url",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a convenient way for working with HTTP URLs.\n Based on RFC 1738.\n See also: RFC 3986\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "URL",
           "package": "url",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides convenient way for working with HTTP URLs Based on RFC See also RFC",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "URL",
           "package": "url",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains information about the connection to the host.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "Host",
           "package": "url",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Contains information about the connection to the host",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "Host",
           "package": "url",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of known protocols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "Protocol",
           "package": "url",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The type of known protocols",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "Protocol",
           "package": "url",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for working with URL.\n The parameters are in \u003ccode\u003eapplication/x-www-form-urlencoded\u003c/code\u003e format:\n \u003ca\u003ehttp://www.w3.org/TR/html4/interact/forms.html#h-17.13.4.1\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "URL",
           "package": "url",
@@ -97,6 +104,7 @@
         "index": {
           "description": "type for working with URL The parameters are in application x-www-form-urlencoded format http www.w3.org TR html4 interact forms.html h-17.13.4.1",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "URL",
           "package": "url",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferent types of URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "URLType",
           "package": "url",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Different types of URL",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "URLType",
           "package": "url",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHas a host\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "Absolute",
           "package": "url",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Has host",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "Absolute",
           "package": "url",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "FTP",
           "package": "url",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "FTP",
           "package": "url",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "HTTP",
           "package": "url",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "HTTP",
           "package": "url",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "Host",
           "package": "url",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "Host",
           "package": "url",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes not have a host\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "HostRelative",
           "package": "url",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Does not have host",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "HostRelative",
           "package": "url",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelative to another URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "PathRelative",
           "package": "url",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Relative to another URL",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "PathRelative",
           "package": "url",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "RawProt",
           "package": "url",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "RawProt",
           "package": "url",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "URL",
           "package": "url",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "URL",
           "package": "url",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a (key,value) parameter to a URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "add_param",
           "package": "url",
@@ -326,6 +353,7 @@
         "index": {
           "description": "Add key value parameter to URL",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "add_param",
           "normalized": "URL-\u003e(String,String)-\u003eURL",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a list of \"bytes\" to a string.\n Performs % and UTF8 decoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "decString",
           "package": "url",
@@ -351,6 +380,7 @@
         "index": {
           "description": "Decode list of bytes to string Performs and UTF8 decoding",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "decString",
           "normalized": "Bool-\u003eString-\u003eMaybe String",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a string to bytes by escaping the characters that\n do not satisfy the input predicate.  The first argument specifies\n if we should replace spaces with +.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "encString",
           "package": "url",
@@ -377,6 +408,7 @@
         "index": {
           "description": "Convert string to bytes by escaping the characters that do not satisfy the input predicate The first argument specifies if we should replace spaces with",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "encString",
           "normalized": "Bool-\u003e(Char-\u003eBool)-\u003eString-\u003eString",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the host part of a URL to a list of \"bytes\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "exportHost",
           "package": "url",
@@ -403,6 +436,7 @@
         "index": {
           "description": "Convert the host part of URL to list of bytes",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "exportHost",
           "normalized": "Host-\u003eString",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "exportParams",
           "package": "url",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "exportParams",
           "normalized": "[(String,String)]-\u003eString",
@@ -443,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a URL to a list of \"bytes\".\n We represent non-ASCII characters using UTF8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "exportURL",
           "package": "url",
@@ -453,6 +490,7 @@
         "index": {
           "description": "Convert URL to list of bytes We represent non-ASCII characters using UTF8",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "exportURL",
           "normalized": "URL-\u003eString",
@@ -468,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "host",
           "package": "url",
@@ -477,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "host",
           "package": "url",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "importParams",
           "package": "url",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "importParams",
           "normalized": "String-\u003eMaybe[(String,String)]",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of \"bytes\" to a URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "importURL",
           "package": "url",
@@ -524,6 +567,7 @@
         "index": {
           "description": "Convert list of bytes to URL",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "importURL",
           "normalized": "String-\u003eMaybe URL",
@@ -539,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "ok_host",
           "package": "url",
@@ -548,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "ok_host",
           "normalized": "Char-\u003eBool",
@@ -562,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "ok_param",
           "package": "url",
@@ -571,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "ok_param",
           "normalized": "Char-\u003eBool",
@@ -586,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters that can appear non % encoded in the path part of the URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "ok_path",
           "package": "url",
@@ -596,6 +645,7 @@
         "index": {
           "description": "Characters that can appear non encoded in the path part of the URL",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "ok_path",
           "normalized": "Char-\u003eBool",
@@ -611,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters that do not need to be encoded in URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "ok_url",
           "package": "url",
@@ -621,6 +672,7 @@
         "index": {
           "description": "Characters that do not need to be encoded in URL",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "ok_url",
           "normalized": "Char-\u003eBool",
@@ -635,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "port",
           "package": "url",
@@ -644,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "port",
           "package": "url",
@@ -656,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "protocol",
           "package": "url",
@@ -665,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "protocol",
           "package": "url",
@@ -678,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes this host use a \"secure\" protocol (e.g., https).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "secure",
           "package": "url",
@@ -688,6 +745,7 @@
         "index": {
           "description": "Does this host use secure protocol e.g https",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "secure",
           "normalized": "Host-\u003eBool",
@@ -703,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this a \"secure\" protocol.  This works only for known protocols,\n for \u003ccode\u003e\u003ca\u003eRawProt\u003c/a\u003e\u003c/code\u003e values we return \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "secure_prot",
           "package": "url",
@@ -713,6 +772,7 @@
         "index": {
           "description": "Is this secure protocol This works only for known protocols for RawProt values we return False",
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "secure_prot",
           "normalized": "Protocol-\u003eBool",
@@ -727,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "url_params",
           "package": "url",
@@ -736,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "url_params",
           "normalized": "[(String,String)]",
@@ -750,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "url_path",
           "package": "url",
@@ -759,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "url_path",
           "package": "url",
@@ -771,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:40 UTC 2014",
           "module": "Network.URL",
           "name": "url_type",
           "package": "url",
@@ -780,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Network URL",
+          "indexed": "2014-03-11T20:31:40",
           "module": "Network.URL",
           "name": "url_type",
           "package": "url",

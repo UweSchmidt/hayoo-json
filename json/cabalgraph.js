@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabalgraph"
+        "phrase": "cabalgraph",
+        "type": "phrase"
       },
       "type": "context"
     }

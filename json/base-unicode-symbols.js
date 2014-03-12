@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "base-unicode-symbols"
+        "phrase": "base-unicode-symbols",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Control.Applicative.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Control.Applicative.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8709;) = \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2205, EMPTY SET\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Control.Applicative.Unicode",
           "name": "(∅)",
           "package": "base-unicode-symbols",
@@ -50,6 +53,7 @@
         "index": {
           "description": "empty EMPTY SET",
           "hierarchy": "Control Applicative Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Control.Applicative.Unicode",
           "name": "(∅) ∅",
           "package": "base-unicode-symbols",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8859;) = \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+229B, CIRCLED ASTERISK OPERATOR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Control.Applicative.Unicode",
           "name": "(⊛)",
           "package": "base-unicode-symbols",
@@ -73,6 +78,7 @@
         "index": {
           "description": "CIRCLED ASTERISK OPERATOR",
           "hierarchy": "Control Applicative Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Control.Applicative.Unicode",
           "name": "(⊛) ⊛",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Control.Arrow.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Control.Arrow.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#10747;) = (\u003ccode\u003e\u003ca\u003e+++\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eU+29FB, TRIPLE PLUS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Control.Arrow.Unicode",
           "name": "(⧻)",
           "package": "base-unicode-symbols",
@@ -119,6 +128,7 @@
         "index": {
           "description": "FB TRIPLE PLUS",
           "hierarchy": "Control Arrow Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Control.Arrow.Unicode",
           "name": "(⧻) ⧻",
           "normalized": "a b c-\u003ea d e-\u003ea(Either b d)(Either c e)",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#10996;) = (\u003ccode\u003e\u003ca\u003e|||\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eU+2AF4, TRIPLE VERTICAL BAR BINARY RELATION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Control.Arrow.Unicode",
           "name": "(⫴)",
           "package": "base-unicode-symbols",
@@ -144,6 +155,7 @@
         "index": {
           "description": "AF4 TRIPLE VERTICAL BAR BINARY RELATION",
           "hierarchy": "Control Arrow Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Control.Arrow.Unicode",
           "name": "(⫴) ⫴",
           "normalized": "a b c-\u003ea d c-\u003ea(Either b d)c",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8258;) = (\u003ccode\u003e\u003ca\u003e***\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eU+2042, ASTERISM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Control.Arrow.Unicode",
           "name": "⁂",
           "package": "base-unicode-symbols",
@@ -169,6 +182,7 @@
         "index": {
           "description": "ASTERISM",
           "hierarchy": "Control Arrow Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Control.Arrow.Unicode",
           "name": "⁂",
           "normalized": "a b c-\u003ea d e-\u003ea(b,d)(c,e)",
@@ -235,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Control.Category.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -243,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Control Category Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Control.Category.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -257,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8728;) = (\u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eU+2218, RING OPERATOR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Control.Category.Unicode",
           "name": "(∘)",
           "package": "base-unicode-symbols",
@@ -267,6 +284,7 @@
         "index": {
           "description": "RING OPERATOR",
           "hierarchy": "Control Category Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Control.Category.Unicode",
           "name": "(∘) ∘",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -281,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Control.Monad.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -289,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Control.Monad.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -303,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(=&#8810;) = (\u003ccode\u003e\u003ca\u003e=\u003c\u003c\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003e(U+3D, EQUALS SIGN) + (U+226A, MUCH LESS-THAN)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Control.Monad.Unicode",
           "name": "(=≪)",
           "package": "base-unicode-symbols",
@@ -313,6 +334,7 @@
         "index": {
           "description": "EQUALS SIGN MUCH LESS-THAN",
           "hierarchy": "Control Monad Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Control.Monad.Unicode",
           "name": "(=≪) =≪",
           "normalized": "(a-\u003eb c)-\u003eb a-\u003eb c",
@@ -328,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8811;) = (\u003ccode\u003e\u003ca\u003e\u003e\u003e\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eU+226B, MUCH GREATER-THAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Control.Monad.Unicode",
           "name": "(≫)",
           "package": "base-unicode-symbols",
@@ -338,6 +361,7 @@
         "index": {
           "description": "MUCH GREATER-THAN",
           "hierarchy": "Control Monad Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Control.Monad.Unicode",
           "name": "(≫) ≫",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -353,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8811;=) = (\u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003e(U+226B, MUCH GREATER-THAN) + (U+3D, EQUALS SIGN)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Control.Monad.Unicode",
           "name": "(≫=)",
           "package": "base-unicode-symbols",
@@ -363,6 +388,7 @@
         "index": {
           "description": "MUCH GREATER-THAN EQUALS SIGN",
           "hierarchy": "Control Monad Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Control.Monad.Unicode",
           "name": "(≫=) ≫=",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea c",
@@ -377,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.Bool.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -385,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Data Bool Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.Bool.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -476,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.Eq.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -484,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Data Eq Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.Eq.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -575,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.Foldable.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -583,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Data Foldable Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.Foldable.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -597,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8712;) = \u003ccode\u003e\u003ca\u003eelem\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2208, ELEMENT OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.Foldable.Unicode",
           "name": "(∈)",
           "package": "base-unicode-symbols",
@@ -607,6 +640,7 @@
         "index": {
           "description": "elem ELEMENT OF",
           "hierarchy": "Data Foldable Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.Foldable.Unicode",
           "name": "(∈) ∈",
           "normalized": "a-\u003eb a-\u003eBool",
@@ -622,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8713;) = \u003ccode\u003e\u003ca\u003enotElem\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2209, NOT AN ELEMENT OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.Foldable.Unicode",
           "name": "(∉)",
           "package": "base-unicode-symbols",
@@ -632,6 +667,7 @@
         "index": {
           "description": "notElem NOT AN ELEMENT OF",
           "hierarchy": "Data Foldable Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.Foldable.Unicode",
           "name": "(∉) ∉",
           "normalized": "a-\u003eb a-\u003eBool",
@@ -647,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8715;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8712;)\n\u003c/p\u003e\u003cp\u003eU+220B, CONTAINS AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.Foldable.Unicode",
           "name": "(∋)",
           "package": "base-unicode-symbols",
@@ -657,6 +694,7 @@
         "index": {
           "description": "flip CONTAINS AS MEMBER",
           "hierarchy": "Data Foldable Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.Foldable.Unicode",
           "name": "(∋) ∋",
           "normalized": "a b-\u003eb-\u003eBool",
@@ -672,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8716;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8713;)\n\u003c/p\u003e\u003cp\u003eU+220C, DOES NOT CONTAIN AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.Foldable.Unicode",
           "name": "(∌)",
           "package": "base-unicode-symbols",
@@ -682,6 +721,7 @@
         "index": {
           "description": "flip DOES NOT CONTAIN AS MEMBER",
           "hierarchy": "Data Foldable Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.Foldable.Unicode",
           "name": "(∌) ∌",
           "normalized": "a b-\u003eb-\u003eBool",
@@ -696,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.Function.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -704,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Data Function Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.Function.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -743,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.List.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -751,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Data List Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.List.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -791,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric difference\n\u003c/p\u003e\u003cp\u003ea &#8710; b = (a &#8726; b) &#8746; (b &#8726; a)\n\u003c/p\u003e\u003cp\u003eU+2206, INCREMENT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.List.Unicode",
           "name": "(∆)",
           "package": "base-unicode-symbols",
@@ -801,6 +846,7 @@
         "index": {
           "description": "Symmetric difference INCREMENT",
           "hierarchy": "Data List Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.List.Unicode",
           "name": "(∆) ∆",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -868,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8715;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8712;)\n\u003c/p\u003e\u003cp\u003eU+220B, CONTAINS AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.List.Unicode",
           "name": "(∋)",
           "package": "base-unicode-symbols",
@@ -878,6 +925,7 @@
         "index": {
           "description": "flip CONTAINS AS MEMBER",
           "hierarchy": "Data List Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.List.Unicode",
           "name": "(∋) ∋",
           "normalized": "[a]-\u003ea-\u003eBool",
@@ -893,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8716;) = \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e (&#8713;)\n\u003c/p\u003e\u003cp\u003eU+220C, DOES NOT CONTAIN AS MEMBER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.List.Unicode",
           "name": "(∌)",
           "package": "base-unicode-symbols",
@@ -903,6 +952,7 @@
         "index": {
           "description": "flip DOES NOT CONTAIN AS MEMBER",
           "hierarchy": "Data List Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.List.Unicode",
           "name": "(∌) ∌",
           "normalized": "[a]-\u003ea-\u003eBool",
@@ -918,6 +968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8726;) = (\u003ccode\u003e\u003ca\u003e\\\\\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eU+2216, SET MINUS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.List.Unicode",
           "name": "(∖)",
           "package": "base-unicode-symbols",
@@ -928,6 +979,7 @@
         "index": {
           "description": "SET MINUS",
           "hierarchy": "Data List Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.List.Unicode",
           "name": "(∖) ∖",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -943,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8745;) = \u003ccode\u003e\u003ca\u003eintersect\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2229, INTERSECTION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.List.Unicode",
           "name": "(∩)",
           "package": "base-unicode-symbols",
@@ -953,6 +1006,7 @@
         "index": {
           "description": "intersect INTERSECTION",
           "hierarchy": "Data List Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.List.Unicode",
           "name": "(∩) ∩",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -968,6 +1022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8746;) = \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+222A, UNION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.List.Unicode",
           "name": "(∪)",
           "package": "base-unicode-symbols",
@@ -978,6 +1033,7 @@
         "index": {
           "description": "union UNION",
           "hierarchy": "Data List Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.List.Unicode",
           "name": "(∪) ∪",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -992,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.Monoid.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -1000,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.Monoid.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -1014,6 +1072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8709;) = \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2205, EMPTY SET\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.Monoid.Unicode",
           "name": "(∅)",
           "package": "base-unicode-symbols",
@@ -1024,6 +1083,7 @@
         "index": {
           "description": "mempty EMPTY SET",
           "hierarchy": "Data Monoid Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.Monoid.Unicode",
           "name": "(∅) ∅",
           "package": "base-unicode-symbols",
@@ -1037,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8853;) = \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+2295, CIRCLED PLUS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.Monoid.Unicode",
           "name": "(⊕)",
           "package": "base-unicode-symbols",
@@ -1047,6 +1108,7 @@
         "index": {
           "description": "mappend CIRCLED PLUS",
           "hierarchy": "Data Monoid Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.Monoid.Unicode",
           "name": "(⊕) ⊕",
           "normalized": "a-\u003ea-\u003ea",
@@ -1061,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Data.Ord.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -1069,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Data Ord Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Data.Ord.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -1186,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Prelude.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -1194,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Prelude Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Prelude.Unicode",
           "name": "Unicode",
           "package": "base-unicode-symbols",
@@ -1208,6 +1274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eU+2124, DOUBLE-STRUCK CAPITAL Q\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Prelude.Unicode",
           "name": "ℚ",
           "package": "base-unicode-symbols",
@@ -1217,6 +1284,7 @@
         "index": {
           "description": "DOUBLE-STRUCK CAPITAL",
           "hierarchy": "Prelude Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Prelude.Unicode",
           "name": "ℚ",
           "package": "base-unicode-symbols",
@@ -1230,6 +1298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eU+2124, DOUBLE-STRUCK CAPITAL Z\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Prelude.Unicode",
           "name": "ℤ",
           "package": "base-unicode-symbols",
@@ -1239,6 +1308,7 @@
         "index": {
           "description": "DOUBLE-STRUCK CAPITAL",
           "hierarchy": "Prelude Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Prelude.Unicode",
           "name": "ℤ",
           "package": "base-unicode-symbols",
@@ -1252,6 +1322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#247;) = (\u003ccode\u003e\u003ca\u003e/\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eU+00F7, DIVISION SIGN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Prelude.Unicode",
           "name": "(÷)",
           "package": "base-unicode-symbols",
@@ -1262,6 +1333,7 @@
         "index": {
           "description": "F7 DIVISION SIGN",
           "hierarchy": "Prelude Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Prelude.Unicode",
           "name": "(÷) ÷",
           "normalized": "a-\u003ea-\u003ea",
@@ -1277,6 +1349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8869;) = \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+22A5, UP TACK\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Prelude.Unicode",
           "name": "(⊥)",
           "package": "base-unicode-symbols",
@@ -1287,6 +1360,7 @@
         "index": {
           "description": "undefined A5 UP TACK",
           "hierarchy": "Prelude Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Prelude.Unicode",
           "name": "(⊥) ⊥",
           "package": "base-unicode-symbols",
@@ -1300,6 +1374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(&#8901;) = (\u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eU+22C5, DOT OPERATOR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Prelude.Unicode",
           "name": "(⋅)",
           "package": "base-unicode-symbols",
@@ -1310,6 +1385,7 @@
         "index": {
           "description": "C5 DOT OPERATOR",
           "hierarchy": "Prelude Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Prelude.Unicode",
           "name": "(⋅) ⋅",
           "normalized": "a-\u003ea-\u003ea",
@@ -1325,6 +1401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#960; = \u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eU+03C0, GREEK SMALL LETTER PI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:01 UTC 2014",
           "module": "Prelude.Unicode",
           "name": "π",
           "package": "base-unicode-symbols",
@@ -1335,6 +1412,7 @@
         "index": {
           "description": "pi C0 GREEK SMALL LETTER PI",
           "hierarchy": "Prelude Unicode",
+          "indexed": "2014-03-11T17:17:01",
           "module": "Prelude.Unicode",
           "name": "π",
           "package": "base-unicode-symbols",

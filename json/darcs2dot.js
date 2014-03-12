@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "darcs2dot"
+        "phrase": "darcs2dot",
+        "type": "phrase"
       },
       "type": "context"
     }

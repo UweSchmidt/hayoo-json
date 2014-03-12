@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hspr-sh"
+        "phrase": "hspr-sh",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "SessionHandler",
           "package": "hspr-sh",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "SessionHandler",
           "package": "hspr-sh",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "Expires",
           "package": "hspr-sh",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "Expires",
           "package": "hspr-sh",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "Key",
           "package": "hspr-sh",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "Key",
           "package": "hspr-sh",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "SessionData",
           "package": "hspr-sh",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "SessionData",
           "package": "hspr-sh",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "SessionHandler",
           "package": "hspr-sh",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "SessionHandler",
           "package": "hspr-sh",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "SessionId",
           "package": "hspr-sh",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "SessionId",
           "package": "hspr-sh",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "SessionItem",
           "package": "hspr-sh",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "SessionItem",
           "package": "hspr-sh",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "Value",
           "package": "hspr-sh",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "Value",
           "package": "hspr-sh",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "deleteData",
           "package": "hspr-sh",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "deleteData",
           "normalized": "a-\u003eSessionId-\u003eKey-\u003eIO()",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "deleteSession",
           "package": "hspr-sh",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "deleteSession",
           "normalized": "a-\u003eSessionId-\u003eIO()",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "insertNew",
           "package": "hspr-sh",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "insertNew",
           "normalized": "a-\u003eSessionId-\u003eExpires-\u003eIO()",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "insertNewData",
           "package": "hspr-sh",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "insertNewData",
           "normalized": "a-\u003eSessionId-\u003eSessionItem-\u003eIO()",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "lookupData",
           "package": "hspr-sh",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "lookupData",
           "normalized": "a-\u003eSessionId-\u003eIO(Maybe SessionData)",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "updateData",
           "package": "hspr-sh",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "updateData",
           "normalized": "a-\u003eSessionId-\u003eSessionItem-\u003eIO()",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:19 UTC 2014",
           "module": "HSPR.SessionHandler",
           "name": "updateExpires",
           "package": "hspr-sh",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "HSPR SessionHandler",
+          "indexed": "2014-03-11T18:50:19",
           "module": "HSPR.SessionHandler",
           "name": "updateExpires",
           "normalized": "a-\u003eSessionId-\u003eExpires-\u003eIO()",

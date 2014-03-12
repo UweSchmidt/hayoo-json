@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fig"
+        "phrase": "fig",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser for the FIG format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Parser",
           "name": "Parser",
           "package": "fig",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parser for the FIG format",
           "hierarchy": "Graphics Fig Parser",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Parser",
           "name": "Parser",
           "package": "fig",
@@ -67,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printer for the FIG format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Printer",
           "name": "Printer",
           "package": "fig",
@@ -76,6 +79,7 @@
         "index": {
           "description": "Pretty printer for the FIG format",
           "hierarchy": "Graphics Fig Printer",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Printer",
           "name": "Printer",
           "package": "fig",
@@ -115,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbstract syntax for the FIG format.\n\u003c/p\u003e\u003cp\u003eFor the meaning of the different syntax elements, refer to the FIG format\n description (\u003ca\u003ehttp://www.xfig.org/userman/fig-format.html\u003c/a\u003e) and the Xfig user\n interface itself.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Syntax",
           "package": "fig",
@@ -124,6 +129,7 @@
         "index": {
           "description": "Abstract syntax for the FIG format For the meaning of the different syntax elements refer to the FIG format description http www.xfig.org userman fig-format.html and the Xfig user interface itself",
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Syntax",
           "package": "fig",
@@ -137,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ArcLine",
           "package": "fig",
@@ -145,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ArcLine",
           "package": "fig",
@@ -158,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "AreaFill",
           "package": "fig",
@@ -166,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "AreaFill",
           "package": "fig",
@@ -179,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Arrow",
           "package": "fig",
@@ -187,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Arrow",
           "package": "fig",
@@ -200,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ArrowStyle",
           "package": "fig",
@@ -208,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ArrowStyle",
           "package": "fig",
@@ -221,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ArrowType",
           "package": "fig",
@@ -229,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ArrowType",
           "package": "fig",
@@ -242,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "CapStyle",
           "package": "fig",
@@ -250,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "CapStyle",
           "package": "fig",
@@ -263,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Color",
           "package": "fig",
@@ -271,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Color",
           "package": "fig",
@@ -284,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ColorSpec",
           "package": "fig",
@@ -292,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ColorSpec",
           "package": "fig",
@@ -305,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Commented",
           "package": "fig",
@@ -313,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Commented",
           "package": "fig",
@@ -326,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Common",
           "package": "fig",
@@ -334,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Common",
           "package": "fig",
@@ -347,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "CompoundLine",
           "package": "fig",
@@ -355,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "CompoundLine",
           "package": "fig",
@@ -368,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "CoordinateSystem",
           "package": "fig",
@@ -376,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "CoordinateSystem",
           "package": "fig",
@@ -389,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Fig",
           "package": "fig",
@@ -397,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Fig",
           "package": "fig",
@@ -410,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Flipped",
           "package": "fig",
@@ -418,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Flipped",
           "package": "fig",
@@ -431,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Font",
           "package": "fig",
@@ -439,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Font",
           "package": "fig",
@@ -452,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "FontFlags",
           "package": "fig",
@@ -460,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "FontFlags",
           "package": "fig",
@@ -473,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Header",
           "package": "fig",
@@ -481,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Header",
           "package": "fig",
@@ -494,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "JoinStyle",
           "package": "fig",
@@ -502,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "JoinStyle",
           "package": "fig",
@@ -515,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Justification",
           "package": "fig",
@@ -523,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Justification",
           "package": "fig",
@@ -536,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "LatexFont",
           "package": "fig",
@@ -544,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "LatexFont",
           "package": "fig",
@@ -557,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "LineStyle",
           "package": "fig",
@@ -565,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "LineStyle",
           "package": "fig",
@@ -578,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "MultiplePage",
           "package": "fig",
@@ -586,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "MultiplePage",
           "package": "fig",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Object",
           "package": "fig",
@@ -607,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Object",
           "package": "fig",
@@ -620,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Orientation",
           "package": "fig",
@@ -628,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Orientation",
           "package": "fig",
@@ -641,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "PaperSize",
           "package": "fig",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "PaperSize",
           "package": "fig",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Pic",
           "package": "fig",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Pic",
           "package": "fig",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "PolylineLine",
           "package": "fig",
@@ -691,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "PolylineLine",
           "package": "fig",
@@ -704,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "PsFont",
           "package": "fig",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "PsFont",
           "package": "fig",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "SplineLine",
           "package": "fig",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "SplineLine",
           "package": "fig",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Transparent",
           "package": "fig",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Transparent",
           "package": "fig",
@@ -767,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Units",
           "package": "fig",
@@ -775,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Units",
           "package": "fig",
@@ -788,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "A",
           "package": "fig",
@@ -797,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "A",
           "package": "fig",
@@ -809,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "A0",
           "package": "fig",
@@ -818,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "A0",
           "package": "fig",
@@ -830,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "A1",
           "package": "fig",
@@ -839,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "A1",
           "package": "fig",
@@ -851,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "A2",
           "package": "fig",
@@ -860,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "A2",
           "package": "fig",
@@ -872,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "A3",
           "package": "fig",
@@ -881,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "A3",
           "package": "fig",
@@ -893,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "A4",
           "package": "fig",
@@ -902,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "A4",
           "package": "fig",
@@ -914,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Arc",
           "package": "fig",
@@ -923,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Arc",
           "package": "fig",
@@ -936,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ArcLine",
           "package": "fig",
@@ -945,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ArcLine",
           "package": "fig",
@@ -958,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Arrow",
           "package": "fig",
@@ -967,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Arrow",
           "package": "fig",
@@ -980,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "AvantGardeBook",
           "package": "fig",
@@ -989,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "AvantGardeBook",
           "package": "fig",
@@ -1002,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "AvantGardeBookOblique",
           "package": "fig",
@@ -1011,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "AvantGardeBookOblique",
           "package": "fig",
@@ -1024,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "AvantGardeDemi",
           "package": "fig",
@@ -1033,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "AvantGardeDemi",
           "package": "fig",
@@ -1046,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "AvantGardeDemiOblique",
           "package": "fig",
@@ -1055,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "AvantGardeDemiOblique",
           "package": "fig",
@@ -1068,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "B",
           "package": "fig",
@@ -1077,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "B",
           "package": "fig",
@@ -1089,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "B5",
           "package": "fig",
@@ -1098,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "B5",
           "package": "fig",
@@ -1110,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Background",
           "package": "fig",
@@ -1119,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Background",
           "package": "fig",
@@ -1132,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Bevel",
           "package": "fig",
@@ -1141,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Bevel",
           "package": "fig",
@@ -1154,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Black",
           "package": "fig",
@@ -1163,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Black",
           "package": "fig",
@@ -1176,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Blue",
           "package": "fig",
@@ -1185,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Blue",
           "package": "fig",
@@ -1198,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Blue2",
           "package": "fig",
@@ -1207,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Blue2",
           "package": "fig",
@@ -1220,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Blue3",
           "package": "fig",
@@ -1229,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Blue3",
           "package": "fig",
@@ -1242,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Blue4",
           "package": "fig",
@@ -1251,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Blue4",
           "package": "fig",
@@ -1264,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Bold",
           "package": "fig",
@@ -1273,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Bold",
           "package": "fig",
@@ -1286,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "BookmanDemi",
           "package": "fig",
@@ -1295,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "BookmanDemi",
           "package": "fig",
@@ -1308,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "BookmanDemiItalic",
           "package": "fig",
@@ -1317,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "BookmanDemiItalic",
           "package": "fig",
@@ -1330,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "BookmanLight",
           "package": "fig",
@@ -1339,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "BookmanLight",
           "package": "fig",
@@ -1352,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "BookmanLightItalic",
           "package": "fig",
@@ -1361,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "BookmanLightItalic",
           "package": "fig",
@@ -1374,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Brown2",
           "package": "fig",
@@ -1383,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Brown2",
           "package": "fig",
@@ -1396,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Brown3",
           "package": "fig",
@@ -1405,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Brown3",
           "package": "fig",
@@ -1418,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Brown4",
           "package": "fig",
@@ -1427,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Brown4",
           "package": "fig",
@@ -1440,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Butt",
           "package": "fig",
@@ -1449,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Butt",
           "package": "fig",
@@ -1462,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "C",
           "package": "fig",
@@ -1471,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "C",
           "package": "fig",
@@ -1483,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "CapRound",
           "package": "fig",
@@ -1492,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "CapRound",
           "package": "fig",
@@ -1505,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Center",
           "package": "fig",
@@ -1514,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Center",
           "package": "fig",
@@ -1527,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Closed",
           "package": "fig",
@@ -1536,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Closed",
           "package": "fig",
@@ -1549,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Color",
           "package": "fig",
@@ -1558,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Color",
           "package": "fig",
@@ -1571,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ColorSpecDefault",
           "package": "fig",
@@ -1580,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ColorSpecDefault",
           "package": "fig",
@@ -1593,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Comment",
           "package": "fig",
@@ -1602,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Comment",
           "normalized": "Comment[String]a",
@@ -1617,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Common",
           "package": "fig",
@@ -1626,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Common",
           "package": "fig",
@@ -1639,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Compound",
           "package": "fig",
@@ -1648,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Compound",
           "normalized": "Compound CompoundLine[Commented Object]",
@@ -1663,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "CompoundLine",
           "package": "fig",
@@ -1672,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "CompoundLine",
           "package": "fig",
@@ -1685,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Courier",
           "package": "fig",
@@ -1694,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Courier",
           "package": "fig",
@@ -1707,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "CourierBold",
           "package": "fig",
@@ -1716,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "CourierBold",
           "package": "fig",
@@ -1729,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "CourierBoldOblique",
           "package": "fig",
@@ -1738,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "CourierBoldOblique",
           "package": "fig",
@@ -1751,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "CourierOblique",
           "package": "fig",
@@ -1760,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "CourierOblique",
           "package": "fig",
@@ -1773,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Cyan",
           "package": "fig",
@@ -1782,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Cyan",
           "package": "fig",
@@ -1795,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Cyan2",
           "package": "fig",
@@ -1804,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Cyan2",
           "package": "fig",
@@ -1817,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Cyan3",
           "package": "fig",
@@ -1826,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Cyan3",
           "package": "fig",
@@ -1839,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Cyan4",
           "package": "fig",
@@ -1848,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Cyan4",
           "package": "fig",
@@ -1861,6 +2027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "D",
           "package": "fig",
@@ -1870,6 +2037,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "D",
           "package": "fig",
@@ -1882,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "DashDotted",
           "package": "fig",
@@ -1891,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "DashDotted",
           "package": "fig",
@@ -1904,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "DashDoubleDotted",
           "package": "fig",
@@ -1913,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "DashDoubleDotted",
           "package": "fig",
@@ -1926,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "DashTripleDotted",
           "package": "fig",
@@ -1935,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "DashTripleDotted",
           "package": "fig",
@@ -1948,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Dashed",
           "package": "fig",
@@ -1957,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Dashed",
           "package": "fig",
@@ -1970,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Dotted",
           "package": "fig",
@@ -1979,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Dotted",
           "package": "fig",
@@ -1992,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "E",
           "package": "fig",
@@ -2001,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "E",
           "package": "fig",
@@ -2013,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Ellipse",
           "package": "fig",
@@ -2022,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Ellipse",
           "package": "fig",
@@ -2035,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Fig",
           "package": "fig",
@@ -2044,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Fig",
           "package": "fig",
@@ -2057,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Filled",
           "package": "fig",
@@ -2066,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Filled",
           "package": "fig",
@@ -2079,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "FilledArrow",
           "package": "fig",
@@ -2088,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "FilledArrow",
           "package": "fig",
@@ -2101,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Flipped",
           "package": "fig",
@@ -2110,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Flipped",
           "package": "fig",
@@ -2123,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "FlushLeft",
           "package": "fig",
@@ -2132,6 +2323,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "FlushLeft",
           "package": "fig",
@@ -2145,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "FontFlags",
           "package": "fig",
@@ -2154,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "FontFlags",
           "package": "fig",
@@ -2167,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Gold",
           "package": "fig",
@@ -2176,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Gold",
           "package": "fig",
@@ -2189,6 +2385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Green",
           "package": "fig",
@@ -2198,6 +2395,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Green",
           "package": "fig",
@@ -2211,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Green2",
           "package": "fig",
@@ -2220,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Green2",
           "package": "fig",
@@ -2233,6 +2433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Green3",
           "package": "fig",
@@ -2242,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Green3",
           "package": "fig",
@@ -2255,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Green4",
           "package": "fig",
@@ -2264,6 +2467,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Green4",
           "package": "fig",
@@ -2277,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Header",
           "package": "fig",
@@ -2286,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Header",
           "package": "fig",
@@ -2299,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Helvetica",
           "package": "fig",
@@ -2308,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Helvetica",
           "package": "fig",
@@ -2321,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "HelveticaBold",
           "package": "fig",
@@ -2330,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "HelveticaBold",
           "package": "fig",
@@ -2343,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "HelveticaBoldOblique",
           "package": "fig",
@@ -2352,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "HelveticaBoldOblique",
           "package": "fig",
@@ -2365,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "HelveticaNarrow",
           "package": "fig",
@@ -2374,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "HelveticaNarrow",
           "package": "fig",
@@ -2387,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "HelveticaNarrowBold",
           "package": "fig",
@@ -2396,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "HelveticaNarrowBold",
           "package": "fig",
@@ -2409,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "HelveticaNarrowBoldOblique",
           "package": "fig",
@@ -2418,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "HelveticaNarrowBoldOblique",
           "package": "fig",
@@ -2431,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "HelveticaNarrowOblique",
           "package": "fig",
@@ -2440,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "HelveticaNarrowOblique",
           "package": "fig",
@@ -2453,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "HelveticaOblique",
           "package": "fig",
@@ -2462,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "HelveticaOblique",
           "package": "fig",
@@ -2475,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "HollowArrow",
           "package": "fig",
@@ -2484,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "HollowArrow",
           "package": "fig",
@@ -2497,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Inches",
           "package": "fig",
@@ -2506,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Inches",
           "package": "fig",
@@ -2519,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Indented",
           "package": "fig",
@@ -2528,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Indented",
           "package": "fig",
@@ -2541,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Italic",
           "package": "fig",
@@ -2550,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Italic",
           "package": "fig",
@@ -2563,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "JoinRound",
           "package": "fig",
@@ -2572,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "JoinRound",
           "package": "fig",
@@ -2585,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Landscape",
           "package": "fig",
@@ -2594,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Landscape",
           "package": "fig",
@@ -2607,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Latex",
           "package": "fig",
@@ -2616,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Latex",
           "package": "fig",
@@ -2629,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "LatexDefault",
           "package": "fig",
@@ -2638,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "LatexDefault",
           "package": "fig",
@@ -2651,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Ledger",
           "package": "fig",
@@ -2660,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Ledger",
           "package": "fig",
@@ -2673,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Legal",
           "package": "fig",
@@ -2682,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Legal",
           "package": "fig",
@@ -2695,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Letter",
           "package": "fig",
@@ -2704,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Letter",
           "package": "fig",
@@ -2717,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "LineStyleDefault",
           "package": "fig",
@@ -2726,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "LineStyleDefault",
           "package": "fig",
@@ -2739,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "LowerLeft",
           "package": "fig",
@@ -2748,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "LowerLeft",
           "package": "fig",
@@ -2761,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "LtBlue",
           "package": "fig",
@@ -2770,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "LtBlue",
           "package": "fig",
@@ -2783,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Magenta",
           "package": "fig",
@@ -2792,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Magenta",
           "package": "fig",
@@ -2805,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Magenta2",
           "package": "fig",
@@ -2814,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Magenta2",
           "package": "fig",
@@ -2827,6 +3081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Magenta3",
           "package": "fig",
@@ -2836,6 +3091,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Magenta3",
           "package": "fig",
@@ -2849,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Magenta4",
           "package": "fig",
@@ -2858,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Magenta4",
           "package": "fig",
@@ -2871,6 +3129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Metric",
           "package": "fig",
@@ -2880,6 +3139,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Metric",
           "package": "fig",
@@ -2893,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Miter",
           "package": "fig",
@@ -2902,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Miter",
           "package": "fig",
@@ -2915,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Multiple",
           "package": "fig",
@@ -2924,6 +3187,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Multiple",
           "package": "fig",
@@ -2937,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "NewCenturySchoolbookBold",
           "package": "fig",
@@ -2946,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "NewCenturySchoolbookBold",
           "package": "fig",
@@ -2959,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "NewCenturySchoolbookBoldItalic",
           "package": "fig",
@@ -2968,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "NewCenturySchoolbookBoldItalic",
           "package": "fig",
@@ -2981,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "NewCenturySchoolbookItalic",
           "package": "fig",
@@ -2990,6 +3259,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "NewCenturySchoolbookItalic",
           "package": "fig",
@@ -3003,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "NewCenturySchoolbookRoman",
           "package": "fig",
@@ -3012,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "NewCenturySchoolbookRoman",
           "package": "fig",
@@ -3025,6 +3297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "NoFill",
           "package": "fig",
@@ -3034,6 +3307,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "NoFill",
           "package": "fig",
@@ -3047,6 +3321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "None",
           "package": "fig",
@@ -3056,6 +3331,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "None",
           "package": "fig",
@@ -3069,6 +3345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Normal",
           "package": "fig",
@@ -3078,6 +3355,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Normal",
           "package": "fig",
@@ -3091,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "PalatinoBold",
           "package": "fig",
@@ -3100,6 +3379,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "PalatinoBold",
           "package": "fig",
@@ -3113,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "PalatinoBoldItalic",
           "package": "fig",
@@ -3122,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "PalatinoBoldItalic",
           "package": "fig",
@@ -3135,6 +3417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "PalatinoItalic",
           "package": "fig",
@@ -3144,6 +3427,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "PalatinoItalic",
           "package": "fig",
@@ -3157,6 +3441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "PalatinoRoman",
           "package": "fig",
@@ -3166,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "PalatinoRoman",
           "package": "fig",
@@ -3179,6 +3465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Pattern",
           "package": "fig",
@@ -3188,6 +3475,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Pattern",
           "package": "fig",
@@ -3201,6 +3489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Pic",
           "package": "fig",
@@ -3210,6 +3499,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Pic",
           "package": "fig",
@@ -3223,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Pink",
           "package": "fig",
@@ -3232,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Pink",
           "package": "fig",
@@ -3245,6 +3537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Pink2",
           "package": "fig",
@@ -3254,6 +3547,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Pink2",
           "package": "fig",
@@ -3267,6 +3561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Pink3",
           "package": "fig",
@@ -3276,6 +3571,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Pink3",
           "package": "fig",
@@ -3289,6 +3585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Pink4",
           "package": "fig",
@@ -3298,6 +3595,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Pink4",
           "package": "fig",
@@ -3311,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Pointed",
           "package": "fig",
@@ -3320,6 +3619,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Pointed",
           "package": "fig",
@@ -3333,6 +3633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Polyline",
           "package": "fig",
@@ -3342,6 +3643,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Polyline",
           "normalized": "Polyline PolylineLine(Maybe Arrow)(Maybe Arrow)(Maybe Pic)[(Integer,Integer)]",
@@ -3357,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "PolylineLine",
           "package": "fig",
@@ -3366,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "PolylineLine",
           "package": "fig",
@@ -3379,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Portrait",
           "package": "fig",
@@ -3388,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Portrait",
           "package": "fig",
@@ -3401,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Projecting",
           "package": "fig",
@@ -3410,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Projecting",
           "package": "fig",
@@ -3423,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Ps",
           "package": "fig",
@@ -3432,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Ps",
           "package": "fig",
@@ -3445,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "PsDefault",
           "package": "fig",
@@ -3454,6 +3765,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "PsDefault",
           "package": "fig",
@@ -3467,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Red",
           "package": "fig",
@@ -3476,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Red",
           "package": "fig",
@@ -3489,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Red2",
           "package": "fig",
@@ -3498,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Red2",
           "package": "fig",
@@ -3511,6 +3827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Red3",
           "package": "fig",
@@ -3520,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Red3",
           "package": "fig",
@@ -3533,6 +3851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Red4",
           "package": "fig",
@@ -3542,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Red4",
           "package": "fig",
@@ -3555,6 +3875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Roman",
           "package": "fig",
@@ -3564,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Roman",
           "package": "fig",
@@ -3577,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "SansSerif",
           "package": "fig",
@@ -3586,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "SansSerif",
           "package": "fig",
@@ -3599,6 +3923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Single",
           "package": "fig",
@@ -3608,6 +3933,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Single",
           "package": "fig",
@@ -3621,6 +3947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Solid",
           "package": "fig",
@@ -3630,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Solid",
           "package": "fig",
@@ -3643,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Spline",
           "package": "fig",
@@ -3652,6 +3981,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Spline",
           "normalized": "Spline SplineLine(Maybe Arrow)(Maybe Arrow)[(Integer,Integer)][Double]",
@@ -3667,6 +3997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "SplineLine",
           "package": "fig",
@@ -3676,6 +4007,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "SplineLine",
           "package": "fig",
@@ -3689,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Stick",
           "package": "fig",
@@ -3698,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Stick",
           "package": "fig",
@@ -3711,6 +4045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Symbol",
           "package": "fig",
@@ -3720,6 +4055,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Symbol",
           "package": "fig",
@@ -3733,6 +4069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Tabloid",
           "package": "fig",
@@ -3742,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Tabloid",
           "package": "fig",
@@ -3755,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Text",
           "package": "fig",
@@ -3764,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Text",
           "package": "fig",
@@ -3777,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "TimesBold",
           "package": "fig",
@@ -3786,6 +4127,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "TimesBold",
           "package": "fig",
@@ -3799,6 +4141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "TimesBoldItalic",
           "package": "fig",
@@ -3808,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "TimesBoldItalic",
           "package": "fig",
@@ -3821,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "TimesItalic",
           "package": "fig",
@@ -3830,6 +4175,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "TimesItalic",
           "package": "fig",
@@ -3843,6 +4189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "TimesRoman",
           "package": "fig",
@@ -3852,6 +4199,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "TimesRoman",
           "package": "fig",
@@ -3865,6 +4213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Transparent",
           "package": "fig",
@@ -3874,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Transparent",
           "package": "fig",
@@ -3887,6 +4237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "TransparentDefault",
           "package": "fig",
@@ -3896,6 +4247,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "TransparentDefault",
           "package": "fig",
@@ -3909,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Typewriter",
           "package": "fig",
@@ -3918,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Typewriter",
           "package": "fig",
@@ -3931,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "UpperLeft",
           "package": "fig",
@@ -3940,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "UpperLeft",
           "package": "fig",
@@ -3953,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "UserDefined",
           "package": "fig",
@@ -3962,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "UserDefined",
           "package": "fig",
@@ -3975,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "White",
           "package": "fig",
@@ -3984,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "White",
           "package": "fig",
@@ -3997,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "Yellow",
           "package": "fig",
@@ -4006,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "Yellow",
           "package": "fig",
@@ -4019,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ZapfChanceryMediumItalic",
           "package": "fig",
@@ -4028,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ZapfChanceryMediumItalic",
           "package": "fig",
@@ -4041,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ZapfDingbats",
           "package": "fig",
@@ -4050,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ZapfDingbats",
           "package": "fig",
@@ -4063,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_cap_style",
           "package": "fig",
@@ -4072,6 +4439,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_cap_style",
           "package": "fig",
@@ -4084,6 +4452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_center_x",
           "package": "fig",
@@ -4093,6 +4462,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_center_x",
           "package": "fig",
@@ -4105,6 +4475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_center_y",
           "package": "fig",
@@ -4114,6 +4485,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_center_y",
           "package": "fig",
@@ -4126,6 +4498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_common",
           "package": "fig",
@@ -4135,6 +4508,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_common",
           "package": "fig",
@@ -4147,6 +4521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_direction",
           "package": "fig",
@@ -4156,6 +4531,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_direction",
           "package": "fig",
@@ -4168,6 +4544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_x1",
           "package": "fig",
@@ -4177,6 +4554,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_x1",
           "package": "fig",
@@ -4189,6 +4567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_x2",
           "package": "fig",
@@ -4198,6 +4577,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_x2",
           "package": "fig",
@@ -4210,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_x3",
           "package": "fig",
@@ -4219,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_x3",
           "package": "fig",
@@ -4231,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_y1",
           "package": "fig",
@@ -4240,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_y1",
           "package": "fig",
@@ -4252,6 +4636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_y2",
           "package": "fig",
@@ -4261,6 +4646,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_y2",
           "package": "fig",
@@ -4273,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_y3",
           "package": "fig",
@@ -4282,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arc_y3",
           "package": "fig",
@@ -4294,6 +4682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "area_fill",
           "package": "fig",
@@ -4303,6 +4692,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "area_fill",
           "package": "fig",
@@ -4315,6 +4705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arrow_height",
           "package": "fig",
@@ -4324,6 +4715,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arrow_height",
           "package": "fig",
@@ -4336,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arrow_style",
           "package": "fig",
@@ -4345,6 +4738,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arrow_style",
           "package": "fig",
@@ -4357,6 +4751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arrow_thickness",
           "package": "fig",
@@ -4366,6 +4761,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arrow_thickness",
           "package": "fig",
@@ -4378,6 +4774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arrow_type",
           "package": "fig",
@@ -4387,6 +4784,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arrow_type",
           "package": "fig",
@@ -4399,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "arrow_width",
           "package": "fig",
@@ -4408,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "arrow_width",
           "package": "fig",
@@ -4420,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "color_number",
           "package": "fig",
@@ -4429,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "color_number",
           "package": "fig",
@@ -4441,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "color_rgb_values",
           "package": "fig",
@@ -4450,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "color_rgb_values",
           "package": "fig",
@@ -4462,6 +4866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "compound_lowerright_corner_x",
           "package": "fig",
@@ -4471,6 +4876,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "compound_lowerright_corner_x",
           "package": "fig",
@@ -4483,6 +4889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "compound_lowerright_corner_y",
           "package": "fig",
@@ -4492,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "compound_lowerright_corner_y",
           "package": "fig",
@@ -4504,6 +4912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "compound_upperleft_corner_x",
           "package": "fig",
@@ -4513,6 +4922,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "compound_upperleft_corner_x",
           "package": "fig",
@@ -4525,6 +4935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "compound_upperleft_corner_y",
           "package": "fig",
@@ -4534,6 +4945,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "compound_upperleft_corner_y",
           "package": "fig",
@@ -4546,6 +4958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "depth",
           "package": "fig",
@@ -4555,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "depth",
           "package": "fig",
@@ -4567,6 +4981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_angle",
           "package": "fig",
@@ -4576,6 +4991,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_angle",
           "package": "fig",
@@ -4588,6 +5004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_center_x",
           "package": "fig",
@@ -4597,6 +5014,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_center_x",
           "package": "fig",
@@ -4609,6 +5027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_center_y",
           "package": "fig",
@@ -4618,6 +5037,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_center_y",
           "package": "fig",
@@ -4630,6 +5050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_common",
           "package": "fig",
@@ -4639,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_common",
           "package": "fig",
@@ -4651,6 +5073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_direction",
           "package": "fig",
@@ -4660,6 +5083,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_direction",
           "package": "fig",
@@ -4672,6 +5096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_end_x",
           "package": "fig",
@@ -4681,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_end_x",
           "package": "fig",
@@ -4693,6 +5119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_end_y",
           "package": "fig",
@@ -4702,6 +5129,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_end_y",
           "package": "fig",
@@ -4714,6 +5142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_radius_x",
           "package": "fig",
@@ -4723,6 +5152,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_radius_x",
           "package": "fig",
@@ -4735,6 +5165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_radius_y",
           "package": "fig",
@@ -4744,6 +5175,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_radius_y",
           "package": "fig",
@@ -4756,6 +5188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_start_x",
           "package": "fig",
@@ -4765,6 +5198,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_start_x",
           "package": "fig",
@@ -4777,6 +5211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_start_y",
           "package": "fig",
@@ -4786,6 +5221,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "ellipse_start_y",
           "package": "fig",
@@ -4798,6 +5234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "fig_colors",
           "package": "fig",
@@ -4807,6 +5244,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "fig_colors",
           "normalized": "[Commented Color]",
@@ -4821,6 +5259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "fig_header",
           "package": "fig",
@@ -4830,6 +5269,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "fig_header",
           "package": "fig",
@@ -4842,6 +5282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "fig_objects",
           "package": "fig",
@@ -4851,6 +5292,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "fig_objects",
           "normalized": "[Commented Object]",
@@ -4865,6 +5307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "fill_color",
           "package": "fig",
@@ -4874,6 +5317,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "fill_color",
           "package": "fig",
@@ -4886,6 +5330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "header_comment",
           "package": "fig",
@@ -4895,6 +5340,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "header_comment",
           "normalized": "[String]",
@@ -4909,6 +5355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "header_coord_system",
           "package": "fig",
@@ -4918,6 +5365,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "header_coord_system",
           "package": "fig",
@@ -4930,6 +5378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "header_justification",
           "package": "fig",
@@ -4939,6 +5388,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "header_justification",
           "package": "fig",
@@ -4951,6 +5401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "header_magnification",
           "package": "fig",
@@ -4960,6 +5411,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "header_magnification",
           "package": "fig",
@@ -4972,6 +5424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "header_multiple_page",
           "package": "fig",
@@ -4981,6 +5434,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "header_multiple_page",
           "package": "fig",
@@ -4993,6 +5447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "header_orientation",
           "package": "fig",
@@ -5002,6 +5457,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "header_orientation",
           "package": "fig",
@@ -5014,6 +5470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "header_papersize",
           "package": "fig",
@@ -5023,6 +5480,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "header_papersize",
           "package": "fig",
@@ -5035,6 +5493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "header_resolution",
           "package": "fig",
@@ -5044,6 +5503,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "header_resolution",
           "package": "fig",
@@ -5056,6 +5516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "header_transparent_color",
           "package": "fig",
@@ -5065,6 +5526,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "header_transparent_color",
           "package": "fig",
@@ -5077,6 +5539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "header_units",
           "package": "fig",
@@ -5086,6 +5549,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "header_units",
           "package": "fig",
@@ -5098,6 +5562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "hidden",
           "package": "fig",
@@ -5107,6 +5572,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "hidden",
           "package": "fig",
@@ -5119,6 +5585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "line_style",
           "package": "fig",
@@ -5128,6 +5595,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "line_style",
           "package": "fig",
@@ -5140,6 +5608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "line_thickness",
           "package": "fig",
@@ -5149,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "line_thickness",
           "package": "fig",
@@ -5161,6 +5631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "pen_color",
           "package": "fig",
@@ -5170,6 +5641,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "pen_color",
           "package": "fig",
@@ -5182,6 +5654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "pen_style",
           "package": "fig",
@@ -5191,6 +5664,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "pen_style",
           "package": "fig",
@@ -5203,6 +5677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "pic_file",
           "package": "fig",
@@ -5212,6 +5687,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "pic_file",
           "package": "fig",
@@ -5224,6 +5700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "pic_flipped",
           "package": "fig",
@@ -5233,6 +5710,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "pic_flipped",
           "package": "fig",
@@ -5245,6 +5723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "polyline_cap_style",
           "package": "fig",
@@ -5254,6 +5733,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "polyline_cap_style",
           "package": "fig",
@@ -5266,6 +5746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "polyline_common",
           "package": "fig",
@@ -5275,6 +5756,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "polyline_common",
           "package": "fig",
@@ -5287,6 +5769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "polyline_join_style",
           "package": "fig",
@@ -5296,6 +5779,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "polyline_join_style",
           "package": "fig",
@@ -5308,6 +5792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "polyline_radius",
           "package": "fig",
@@ -5317,6 +5802,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "polyline_radius",
           "package": "fig",
@@ -5329,6 +5815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "rigid",
           "package": "fig",
@@ -5338,6 +5825,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "rigid",
           "package": "fig",
@@ -5350,6 +5838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "special",
           "package": "fig",
@@ -5359,6 +5848,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "special",
           "package": "fig",
@@ -5371,6 +5861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "spline_cap_style",
           "package": "fig",
@@ -5380,6 +5871,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "spline_cap_style",
           "package": "fig",
@@ -5392,6 +5884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "spline_common",
           "package": "fig",
@@ -5401,6 +5894,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "spline_common",
           "package": "fig",
@@ -5413,6 +5907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "style_val",
           "package": "fig",
@@ -5422,6 +5917,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "style_val",
           "package": "fig",
@@ -5434,6 +5930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "sub_type",
           "package": "fig",
@@ -5443,6 +5940,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "sub_type",
           "package": "fig",
@@ -5455,6 +5953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "text_angle",
           "package": "fig",
@@ -5464,6 +5963,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "text_angle",
           "package": "fig",
@@ -5476,6 +5976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "text_color",
           "package": "fig",
@@ -5485,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "text_color",
           "package": "fig",
@@ -5497,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "text_depth",
           "package": "fig",
@@ -5506,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "text_depth",
           "package": "fig",
@@ -5518,6 +6022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "text_font",
           "package": "fig",
@@ -5527,6 +6032,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "text_font",
           "package": "fig",
@@ -5539,6 +6045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "text_font_flags",
           "package": "fig",
@@ -5548,6 +6055,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "text_font_flags",
           "package": "fig",
@@ -5560,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "text_font_size",
           "package": "fig",
@@ -5569,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "text_font_size",
           "package": "fig",
@@ -5581,6 +6091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "text_height",
           "package": "fig",
@@ -5590,6 +6101,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "text_height",
           "package": "fig",
@@ -5602,6 +6114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "text_length",
           "package": "fig",
@@ -5611,6 +6124,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "text_length",
           "package": "fig",
@@ -5623,6 +6137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "text_pen_style",
           "package": "fig",
@@ -5632,6 +6147,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "text_pen_style",
           "package": "fig",
@@ -5644,6 +6160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "text_string",
           "package": "fig",
@@ -5653,6 +6170,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "text_string",
           "package": "fig",
@@ -5665,6 +6183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "text_sub_type",
           "package": "fig",
@@ -5674,6 +6193,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "text_sub_type",
           "package": "fig",
@@ -5686,6 +6206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "text_x",
           "package": "fig",
@@ -5695,6 +6216,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "text_x",
           "package": "fig",
@@ -5707,6 +6229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Syntax",
           "name": "text_y",
           "package": "fig",
@@ -5716,6 +6239,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Syntax",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Syntax",
           "name": "text_y",
           "package": "fig",
@@ -5729,6 +6253,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTranslations between integer or string values and data types.\n\u003c/p\u003e\u003cp\u003eThis (internal) module converts between the character encodings of the FIG\n files and the primitive types of \u003ca\u003eGraphics.Fig.Syntax\u003c/a\u003e (\u003ccode\u003e\u003ca\u003ePaperSize\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eCoordinateSystem\u003c/a\u003e\u003c/code\u003e, etc.).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "Values",
           "package": "fig",
@@ -5738,6 +6263,7 @@
         "index": {
           "description": "Translations between integer or string values and data types This internal module converts between the character encodings of the FIG files and the primitive types of Graphics.Fig.Syntax PaperSize CoordinateSystem etc",
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "Values",
           "package": "fig",
@@ -5751,6 +6277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "begin_arc",
           "package": "fig",
@@ -5760,6 +6287,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "begin_arc",
           "normalized": "[Char]",
@@ -5774,6 +6302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "begin_color",
           "package": "fig",
@@ -5783,6 +6312,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "begin_color",
           "normalized": "[Char]",
@@ -5797,6 +6327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "begin_comment",
           "package": "fig",
@@ -5806,6 +6337,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "begin_comment",
           "normalized": "[Char]",
@@ -5820,6 +6352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "begin_compound",
           "package": "fig",
@@ -5829,6 +6362,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "begin_compound",
           "normalized": "[Char]",
@@ -5843,6 +6377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "begin_ellipse",
           "package": "fig",
@@ -5852,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "begin_ellipse",
           "normalized": "[Char]",
@@ -5866,6 +6402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "begin_polyline",
           "package": "fig",
@@ -5875,6 +6412,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "begin_polyline",
           "normalized": "[Char]",
@@ -5889,6 +6427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "begin_spline",
           "package": "fig",
@@ -5898,6 +6437,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "begin_spline",
           "normalized": "[Char]",
@@ -5912,6 +6452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "begin_text",
           "package": "fig",
@@ -5921,6 +6462,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "begin_text",
           "normalized": "[Char]",
@@ -5935,6 +6477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "end_compound",
           "package": "fig",
@@ -5944,6 +6487,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "end_compound",
           "normalized": "[Char]",
@@ -5958,6 +6502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "header_version",
           "package": "fig",
@@ -5967,6 +6512,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "header_version",
           "normalized": "[Char]",
@@ -5981,6 +6527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toAreaFill",
           "package": "fig",
@@ -5990,6 +6537,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toAreaFill",
           "normalized": "Integer-\u003eEither[Char]AreaFill",
@@ -6005,6 +6553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toArrowStyle",
           "package": "fig",
@@ -6014,6 +6563,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toArrowStyle",
           "normalized": "Integer-\u003eEither[Char]ArrowStyle",
@@ -6029,6 +6579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toArrowType",
           "package": "fig",
@@ -6038,6 +6589,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toArrowType",
           "normalized": "Integer-\u003eEither[Char]ArrowType",
@@ -6053,6 +6605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toCapStyle",
           "package": "fig",
@@ -6062,6 +6615,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toCapStyle",
           "normalized": "Integer-\u003eEither[Char]CapStyle",
@@ -6077,6 +6631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toColorSpec",
           "package": "fig",
@@ -6086,6 +6641,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toColorSpec",
           "normalized": "Integer-\u003eEither[Char]ColorSpec",
@@ -6101,6 +6657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toCoordinateSystem",
           "package": "fig",
@@ -6110,6 +6667,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toCoordinateSystem",
           "normalized": "Integer-\u003eEither[Char]CoordinateSystem",
@@ -6125,6 +6683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toFlipped",
           "package": "fig",
@@ -6134,6 +6693,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toFlipped",
           "normalized": "Integer-\u003eEither[Char]Flipped",
@@ -6149,6 +6709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toFont",
           "package": "fig",
@@ -6158,6 +6719,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toFont",
           "normalized": "Bool-\u003eInteger-\u003eEither[Char]Font",
@@ -6173,6 +6735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toFontFlags",
           "package": "fig",
@@ -6182,6 +6745,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toFontFlags",
           "normalized": "Integer-\u003eEither[Char](FontFlags,Bool)",
@@ -6197,6 +6761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toFromValue",
           "package": "fig",
@@ -6206,6 +6771,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toFromValue",
           "normalized": "[(a,b)]-\u003e(a-\u003eEither[Char]b,b-\u003ea)",
@@ -6221,6 +6787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toJoinStyle",
           "package": "fig",
@@ -6230,6 +6797,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toJoinStyle",
           "normalized": "Integer-\u003eEither[Char]JoinStyle",
@@ -6245,6 +6813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toLatexFont",
           "package": "fig",
@@ -6254,6 +6823,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toLatexFont",
           "normalized": "Integer-\u003eEither[Char]LatexFont",
@@ -6269,6 +6839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toLineStyle",
           "package": "fig",
@@ -6278,6 +6849,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toLineStyle",
           "normalized": "Integer-\u003eEither[Char]LineStyle",
@@ -6293,6 +6865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toMultiplePage",
           "package": "fig",
@@ -6302,6 +6875,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toMultiplePage",
           "normalized": "[Char]-\u003eEither[Char]MultiplePage",
@@ -6317,6 +6891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toOrientation",
           "package": "fig",
@@ -6326,6 +6901,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toOrientation",
           "normalized": "[Char]-\u003eEither[Char]Orientation",
@@ -6341,6 +6917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toPaperSize",
           "package": "fig",
@@ -6350,6 +6927,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toPaperSize",
           "normalized": "[Char]-\u003eEither[Char]PaperSize",
@@ -6365,6 +6943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toPsFont",
           "package": "fig",
@@ -6374,6 +6953,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toPsFont",
           "normalized": "Integer-\u003eEither[Char]PsFont",
@@ -6389,6 +6969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toTransparent",
           "package": "fig",
@@ -6398,6 +6979,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toTransparent",
           "normalized": "Integer-\u003eEither[Char]Transparent",
@@ -6413,6 +6995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig.Values",
           "name": "toUnits",
           "package": "fig",
@@ -6422,6 +7005,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig Values",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig.Values",
           "name": "toUnits",
           "normalized": "[Char]-\u003eEither[Char]Units",
@@ -6438,6 +7022,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe example below illustrates the typical use of the Fig library. The\n program parses a FIG file read from stdin, applies a transformation to the\n figure, and emits the result to stdout.\n\u003c/p\u003e\u003cpre\u003e\nmodule Main where\n\nimport Graphics.Fig\n\nmain = do\n     input \u003c- getContents\n     either fail succeed\n         (parse \"stdin\" input)\n     where\n     succeed = putStr . pretty . process\n\nprocess = applyReplaceDef replaceDef\n\nreplaceDef =\n     emptyDef\n         { linePenColor = const Magenta\n         , arrowWidth = (* 1.5)\n         , areaFillColor = x -\u003e\n             case x of\n                 Green4 -\u003e LtBlue\n                 LtBlue -\u003e Green4\n                 _ -\u003e x\n         }\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "Fig",
           "package": "fig",
@@ -6447,6 +7032,7 @@
         "index": {
           "description": "The example below illustrates the typical use of the Fig library The program parses FIG file read from stdin applies transformation to the figure and emits the result to stdout module Main where import Graphics.Fig main do input getContents either fail succeed parse stdin input where succeed putStr pretty process process applyReplaceDef replaceDef replaceDef emptyDef linePenColor const Magenta arrowWidth areaFillColor case of Green4 LtBlue LtBlue Green4",
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "Fig",
           "package": "fig",
@@ -6461,6 +7047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplacement operations for a figure.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eReplaceDef\u003c/a\u003e\u003c/code\u003e value is a record of functions to apply to the leaf elements\n of a \u003ccode\u003e\u003ca\u003eFig\u003c/a\u003e\u003c/code\u003e syntax tree (see \u003ccode\u003e\u003ca\u003eapplyReplaceDef\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "ReplaceDef",
           "package": "fig",
@@ -6470,6 +7057,7 @@
         "index": {
           "description": "Replacement operations for figure ReplaceDef value is record of functions to apply to the leaf elements of Fig syntax tree see applyReplaceDef",
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "ReplaceDef",
           "package": "fig",
@@ -6483,6 +7071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "ReplaceDef",
           "package": "fig",
@@ -6492,6 +7081,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "ReplaceDef",
           "package": "fig",
@@ -6506,6 +7096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a replacement operation to a figure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "applyReplaceDef",
           "package": "fig",
@@ -6515,6 +7106,7 @@
         "index": {
           "description": "Apply replacement operation to figure",
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "applyReplaceDef",
           "normalized": "ReplaceDef-\u003eFig-\u003eFig",
@@ -6530,6 +7122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "areaFill",
           "package": "fig",
@@ -6539,6 +7132,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "areaFill",
           "normalized": "AreaFill-\u003eAreaFill",
@@ -6554,6 +7148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "areaFillColor",
           "package": "fig",
@@ -6563,6 +7158,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "areaFillColor",
           "normalized": "ColorSpec-\u003eColorSpec",
@@ -6578,6 +7174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "arrowHeight",
           "package": "fig",
@@ -6587,6 +7184,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "arrowHeight",
           "normalized": "Double-\u003eDouble",
@@ -6602,6 +7200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "arrowStyle",
           "package": "fig",
@@ -6611,6 +7210,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "arrowStyle",
           "normalized": "ArrowStyle-\u003eArrowStyle",
@@ -6626,6 +7226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "arrowThickness",
           "package": "fig",
@@ -6635,6 +7236,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "arrowThickness",
           "normalized": "Double-\u003eDouble",
@@ -6650,6 +7252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "arrowType",
           "package": "fig",
@@ -6659,6 +7262,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "arrowType",
           "normalized": "ArrowType-\u003eArrowType",
@@ -6674,6 +7278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "arrowWidth",
           "package": "fig",
@@ -6683,6 +7288,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "arrowWidth",
           "normalized": "Double-\u003eDouble",
@@ -6699,6 +7305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty replacement operation: All functions of the \u003ccode\u003e\u003ca\u003eReplaceDef\u003c/a\u003e\u003c/code\u003e record\n are equal to the identity function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "emptyDef",
           "package": "fig",
@@ -6709,6 +7316,7 @@
         "index": {
           "description": "The empty replacement operation All functions of the ReplaceDef record are equal to the identity function",
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "emptyDef",
           "package": "fig",
@@ -6722,6 +7330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "headerJustification",
           "package": "fig",
@@ -6731,6 +7340,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "headerJustification",
           "normalized": "Justification-\u003eJustification",
@@ -6746,6 +7356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "headerMagnification",
           "package": "fig",
@@ -6755,6 +7366,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "headerMagnification",
           "normalized": "Double-\u003eDouble",
@@ -6770,6 +7382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "headerMultiplePage",
           "package": "fig",
@@ -6779,6 +7392,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "headerMultiplePage",
           "normalized": "MultiplePage-\u003eMultiplePage",
@@ -6794,6 +7408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "headerOrientation",
           "package": "fig",
@@ -6803,6 +7418,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "headerOrientation",
           "normalized": "Orientation-\u003eOrientation",
@@ -6818,6 +7434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "headerPapersize",
           "package": "fig",
@@ -6827,6 +7444,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "headerPapersize",
           "normalized": "PaperSize-\u003ePaperSize",
@@ -6842,6 +7460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "headerResolution",
           "package": "fig",
@@ -6851,6 +7470,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "headerResolution",
           "normalized": "Integer-\u003eInteger",
@@ -6866,6 +7486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "headerTransparentColor",
           "package": "fig",
@@ -6875,6 +7496,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "headerTransparentColor",
           "normalized": "Transparent-\u003eTransparent",
@@ -6890,6 +7512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "headerUnits",
           "package": "fig",
@@ -6899,6 +7522,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "headerUnits",
           "normalized": "Units-\u003eUnits",
@@ -6914,6 +7538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "lineCapStyle",
           "package": "fig",
@@ -6923,6 +7548,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "lineCapStyle",
           "normalized": "CapStyle-\u003eCapStyle",
@@ -6938,6 +7564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "lineJoinStyle",
           "package": "fig",
@@ -6947,6 +7574,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "lineJoinStyle",
           "normalized": "JoinStyle-\u003eJoinStyle",
@@ -6962,6 +7590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "linePenColor",
           "package": "fig",
@@ -6971,6 +7600,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "linePenColor",
           "normalized": "ColorSpec-\u003eColorSpec",
@@ -6986,6 +7616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "lineStyle",
           "package": "fig",
@@ -6995,6 +7626,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "lineStyle",
           "normalized": "LineStyle-\u003eLineStyle",
@@ -7010,6 +7642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "lineStyleVal",
           "package": "fig",
@@ -7019,6 +7652,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "lineStyleVal",
           "normalized": "Double-\u003eDouble",
@@ -7034,6 +7668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "lineThickness",
           "package": "fig",
@@ -7043,6 +7678,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "lineThickness",
           "normalized": "Integer-\u003eInteger",
@@ -7058,6 +7694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "picFile",
           "package": "fig",
@@ -7067,6 +7704,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "picFile",
           "normalized": "FilePath-\u003eFilePath",
@@ -7082,6 +7720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "picFlipped",
           "package": "fig",
@@ -7091,6 +7730,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "picFlipped",
           "normalized": "Flipped-\u003eFlipped",
@@ -7106,6 +7746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "textColor",
           "package": "fig",
@@ -7115,6 +7756,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "textColor",
           "normalized": "ColorSpec-\u003eColorSpec",
@@ -7130,6 +7772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "textFont",
           "package": "fig",
@@ -7139,6 +7782,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "textFont",
           "normalized": "Font-\u003eFont",
@@ -7154,6 +7798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "textFontFlags",
           "package": "fig",
@@ -7163,6 +7808,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "textFontFlags",
           "normalized": "FontFlags-\u003eFontFlags",
@@ -7178,6 +7824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:47 UTC 2014",
           "module": "Graphics.Fig",
           "name": "textFontSize",
           "package": "fig",
@@ -7187,6 +7834,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fig",
+          "indexed": "2014-03-11T18:08:47",
           "module": "Graphics.Fig",
           "name": "textFontSize",
           "normalized": "Double-\u003eDouble",

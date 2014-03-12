@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "partial-uri"
+        "phrase": "partial-uri",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:38 UTC 2014",
           "module": "Network.URI.Partial",
           "name": "Partial",
           "package": "partial-uri",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network URI Partial",
+          "indexed": "2014-03-11T19:35:38",
           "module": "Network.URI.Partial",
           "name": "Partial",
           "package": "partial-uri",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:38 UTC 2014",
           "module": "Network.URI.Partial",
           "name": "PartialURI",
           "package": "partial-uri",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network URI Partial",
+          "indexed": "2014-03-11T19:35:38",
           "module": "Network.URI.Partial",
           "name": "PartialURI",
           "package": "partial-uri",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:38 UTC 2014",
           "module": "Network.URI.Partial",
           "name": "fromURI",
           "package": "partial-uri",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network URI Partial",
+          "indexed": "2014-03-11T19:35:38",
           "module": "Network.URI.Partial",
           "name": "fromURI",
           "normalized": "URI-\u003ePartialURI",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:38 UTC 2014",
           "module": "Network.URI.Partial",
           "name": "relativeTo",
           "package": "partial-uri",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network URI Partial",
+          "indexed": "2014-03-11T19:35:38",
           "module": "Network.URI.Partial",
           "name": "relativeTo",
           "normalized": "PartialURI-\u003eURI-\u003eURI",

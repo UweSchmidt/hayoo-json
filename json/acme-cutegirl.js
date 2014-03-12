@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "acme-cutegirl"
+        "phrase": "acme-cutegirl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule that maybe gives you a cute girl.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:07:04 UTC 2014",
           "module": "Acme.CuteGirl",
           "name": "CuteGirl",
           "package": "acme-cutegirl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module that maybe gives you cute girl",
           "hierarchy": "Acme CuteGirl",
+          "indexed": "2014-03-11T17:07:04",
           "module": "Acme.CuteGirl",
           "name": "CuteGirl",
           "package": "acme-cutegirl",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCute girls capable of doing cute stuff\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:04 UTC 2014",
           "module": "Acme.CuteGirl",
           "name": "CuteGirl",
           "package": "acme-cutegirl",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Cute girls capable of doing cute stuff",
           "hierarchy": "Acme CuteGirl",
+          "indexed": "2014-03-11T17:07:04",
           "module": "Acme.CuteGirl",
           "name": "CuteGirl",
           "package": "acme-cutegirl",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:04 UTC 2014",
           "module": "Acme.CuteGirl",
           "name": "Homura",
           "package": "acme-cutegirl",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Acme CuteGirl",
+          "indexed": "2014-03-11T17:07:04",
           "module": "Acme.CuteGirl",
           "name": "Homura",
           "package": "acme-cutegirl",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:04 UTC 2014",
           "module": "Acme.CuteGirl",
           "name": "Kyōko",
           "package": "acme-cutegirl",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Acme CuteGirl",
+          "indexed": "2014-03-11T17:07:04",
           "module": "Acme.CuteGirl",
           "name": "Kyōko",
           "package": "acme-cutegirl",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:04 UTC 2014",
           "module": "Acme.CuteGirl",
           "name": "Sayaka",
           "package": "acme-cutegirl",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Acme CuteGirl",
+          "indexed": "2014-03-11T17:07:04",
           "module": "Acme.CuteGirl",
           "name": "Sayaka",
           "package": "acme-cutegirl",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDid you expect a cute girl? Too bad!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:04 UTC 2014",
           "module": "Acme.CuteGirl",
           "name": "cuteGirl",
           "package": "acme-cutegirl",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Did you expect cute girl Too bad",
           "hierarchy": "Acme CuteGirl",
+          "indexed": "2014-03-11T17:07:04",
           "module": "Acme.CuteGirl",
           "name": "cuteGirl",
           "package": "acme-cutegirl",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNative version of \u003ccode\u003e\u003ca\u003eprintCuteGirl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:04 UTC 2014",
           "module": "Acme.CuteGirl",
           "name": "jpnPrintCuteGirl",
           "package": "acme-cutegirl",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Native version of printCuteGirl",
           "hierarchy": "Acme CuteGirl",
+          "indexed": "2014-03-11T17:07:04",
           "module": "Acme.CuteGirl",
           "name": "jpnPrintCuteGirl",
           "normalized": "IO()",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrints a descriptive result of \u003ccode\u003e\u003ca\u003ecuteGirl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:04 UTC 2014",
           "module": "Acme.CuteGirl",
           "name": "printCuteGirl",
           "package": "acme-cutegirl",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Prints descriptive result of cuteGirl",
           "hierarchy": "Acme CuteGirl",
+          "indexed": "2014-03-11T17:07:04",
           "module": "Acme.CuteGirl",
           "name": "printCuteGirl",
           "normalized": "IO()",

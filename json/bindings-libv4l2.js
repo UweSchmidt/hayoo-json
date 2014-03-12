@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-libv4l2"
+        "phrase": "bindings-libv4l2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBindings for libv4l2 on Linux, wrapping:\n   \u003ca\u003efile:///usr/include/libv4l2.h\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "LibV4L2",
           "package": "bindings-libv4l2",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Bindings for libv4l2 on Linux wrapping file usr include libv4l2.h",
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "LibV4L2",
           "package": "bindings-libv4l2",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "c'V4L2_DISABLE_CONVERSION",
           "package": "bindings-libv4l2",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "c'V4L2_DISABLE_CONVERSION",
           "package": "bindings-libv4l2",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "c'V4L2_ENABLE_ENUM_FMT_EMULATION",
           "package": "bindings-libv4l2",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "c'V4L2_ENABLE_ENUM_FMT_EMULATION",
           "package": "bindings-libv4l2",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_close",
           "package": "bindings-libv4l2",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_close",
           "normalized": "CInt-\u003eIO CInt",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_dup",
           "package": "bindings-libv4l2",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_dup",
           "normalized": "CInt-\u003eIO CInt",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_fd_open",
           "package": "bindings-libv4l2",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_fd_open",
           "normalized": "CInt-\u003eCInt-\u003eIO CInt",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_get_control",
           "package": "bindings-libv4l2",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_get_control",
           "normalized": "CInt-\u003eCInt-\u003eIO CInt",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_ioctl",
           "package": "bindings-libv4l2",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_ioctl",
           "normalized": "CInt-\u003eCULong-\u003ePtr a-\u003eIO CInt",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_mmap",
           "package": "bindings-libv4l2",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_mmap",
           "normalized": "Ptr a-\u003eCSize-\u003eCInt-\u003eCInt-\u003eCInt-\u003eInt-\u003eIO(Ptr a)",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_munmap",
           "package": "bindings-libv4l2",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_munmap",
           "normalized": "Ptr a-\u003eCSize-\u003eIO CInt",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_open",
           "package": "bindings-libv4l2",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_open",
           "normalized": "Ptr CChar-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_read",
           "package": "bindings-libv4l2",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_read",
           "normalized": "CInt-\u003ePtr a-\u003eCSize-\u003eIO CInt",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_set_control",
           "package": "bindings-libv4l2",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "c'v4l2_set_control",
           "normalized": "CInt-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_close",
           "package": "bindings-libv4l2",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_close",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_dup",
           "package": "bindings-libv4l2",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_dup",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_fd_open",
           "package": "bindings-libv4l2",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_fd_open",
           "normalized": "FunPtr(CInt-\u003eCInt-\u003eIO CInt)",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_get_control",
           "package": "bindings-libv4l2",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_get_control",
           "normalized": "FunPtr(CInt-\u003eCInt-\u003eIO CInt)",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_ioctl",
           "package": "bindings-libv4l2",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_ioctl",
           "normalized": "FunPtr(CInt-\u003eCULong-\u003ePtr a-\u003eIO CInt)",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_mmap",
           "package": "bindings-libv4l2",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_mmap",
           "normalized": "FunPtr(Ptr a-\u003eCSize-\u003eCInt-\u003eCInt-\u003eCInt-\u003eInt-\u003eIO(Ptr a))",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_munmap",
           "package": "bindings-libv4l2",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_munmap",
           "normalized": "FunPtr(Ptr a-\u003eCSize-\u003eIO CInt)",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_open",
           "package": "bindings-libv4l2",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_open",
           "normalized": "FunPtr(Ptr CChar-\u003eCInt-\u003eCInt-\u003eIO CInt)",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_read",
           "package": "bindings-libv4l2",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_read",
           "normalized": "FunPtr(CInt-\u003ePtr a-\u003eCSize-\u003eIO CInt)",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:12 UTC 2014",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_set_control",
           "package": "bindings-libv4l2",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Bindings LibV4L2",
+          "indexed": "2014-03-11T17:21:12",
           "module": "Bindings.LibV4L2",
           "name": "p'v4l2_set_control",
           "normalized": "FunPtr(CInt-\u003eCInt-\u003eCInt-\u003eIO CInt)",

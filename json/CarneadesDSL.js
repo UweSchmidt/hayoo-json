@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CarneadesDSL"
+        "phrase": "CarneadesDSL",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "CarneadesDSL",
           "package": "CarneadesDSL",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "CarneadesDSL",
           "package": "CarneadesDSL",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "AGraph",
           "package": "CarneadesDSL",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "AGraph",
           "package": "CarneadesDSL",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "ArgSet",
           "package": "CarneadesDSL",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "ArgSet",
           "package": "CarneadesDSL",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "ArgWeight",
           "package": "CarneadesDSL",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "ArgWeight",
           "package": "CarneadesDSL",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "Argument",
           "package": "CarneadesDSL",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "Argument",
           "package": "CarneadesDSL",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "AssociatedGraph",
           "package": "CarneadesDSL",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "AssociatedGraph",
           "package": "CarneadesDSL",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "Assumptions",
           "package": "CarneadesDSL",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "Assumptions",
           "package": "CarneadesDSL",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "Audience",
           "package": "CarneadesDSL",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "Audience",
           "package": "CarneadesDSL",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "CAES",
           "package": "CarneadesDSL",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "CAES",
           "package": "CarneadesDSL",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "PSName",
           "package": "CarneadesDSL",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "PSName",
           "package": "CarneadesDSL",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "ProofStandard",
           "package": "CarneadesDSL",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "ProofStandard",
           "package": "CarneadesDSL",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "ProofStandardNamed",
           "package": "CarneadesDSL",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "ProofStandardNamed",
           "package": "CarneadesDSL",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "PropLiteral",
           "package": "CarneadesDSL",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "PropLiteral",
           "package": "CarneadesDSL",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "PropNode",
           "package": "CarneadesDSL",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "PropNode",
           "package": "CarneadesDSL",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "PropStandard",
           "package": "CarneadesDSL",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "PropStandard",
           "package": "CarneadesDSL",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "Weight",
           "package": "CarneadesDSL",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "Weight",
           "package": "CarneadesDSL",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "Arg",
           "package": "CarneadesDSL",
@@ -363,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "Arg",
           "normalized": "Arg([PropLiteral],[PropLiteral],PropLiteral)",
@@ -378,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "BeyondReasonableDoubt",
           "package": "CarneadesDSL",
@@ -387,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "BeyondReasonableDoubt",
           "package": "CarneadesDSL",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "CAES",
           "package": "CarneadesDSL",
@@ -409,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "CAES",
           "normalized": "CAES(ArgSet,Audience,PropStandard)",
@@ -424,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "ClearAndConvincing",
           "package": "CarneadesDSL",
@@ -433,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "ClearAndConvincing",
           "package": "CarneadesDSL",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "DialecticalValidity",
           "package": "CarneadesDSL",
@@ -455,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "DialecticalValidity",
           "package": "CarneadesDSL",
@@ -468,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "P",
           "package": "CarneadesDSL",
@@ -477,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "P",
           "normalized": "P(String,PropLiteral-\u003eCAES-\u003eBool)",
@@ -491,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "Preponderance",
           "package": "CarneadesDSL",
@@ -500,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "Preponderance",
           "package": "CarneadesDSL",
@@ -513,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "Scintilla",
           "package": "CarneadesDSL",
@@ -522,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "Scintilla",
           "package": "CarneadesDSL",
@@ -535,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "acceptable",
           "package": "CarneadesDSL",
@@ -544,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "acceptable",
           "normalized": "PropLiteral-\u003eCAES-\u003eBool",
@@ -558,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "acceptableProps",
           "package": "CarneadesDSL",
@@ -567,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "acceptableProps",
           "normalized": "CAES-\u003e[PropLiteral]",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "addArgument",
           "package": "CarneadesDSL",
@@ -591,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "addArgument",
           "normalized": "Argument-\u003eAssociatedGraph-\u003eAssociatedGraph",
@@ -606,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "addArgument'",
           "package": "CarneadesDSL",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "addArgument'",
           "normalized": "Argument-\u003eAssociatedGraph-\u003e(AssociatedGraph,Node)",
@@ -630,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "addEdges",
           "package": "CarneadesDSL",
@@ -639,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "addEdges",
           "normalized": "Node-\u003e[PropLiteral]-\u003eAssociatedGraph-\u003eAssociatedGraph",
@@ -654,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "addEdges'",
           "package": "CarneadesDSL",
@@ -663,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "addEdges'",
           "normalized": "Node-\u003e[Node]-\u003eAssociatedGraph-\u003eAssociatedGraph",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "addNode",
           "package": "CarneadesDSL",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "addNode",
           "normalized": "PropLiteral-\u003eAssociatedGraph-\u003e(AssociatedGraph,Node)",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "addToContext",
           "package": "CarneadesDSL",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "addToContext",
           "normalized": "Argument-\u003e(Context(PropLiteral,[Argument])(),AGraph)-\u003eAGraph",
@@ -726,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "alpha",
           "package": "CarneadesDSL",
@@ -735,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "alpha",
           "package": "CarneadesDSL",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "applicable",
           "package": "CarneadesDSL",
@@ -756,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "applicable",
           "normalized": "Argument-\u003eCAES-\u003eBool",
@@ -770,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "applicableArgs",
           "package": "CarneadesDSL",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "applicableArgs",
           "normalized": "CAES-\u003e[Argument]",
@@ -794,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "beta",
           "package": "CarneadesDSL",
@@ -803,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "beta",
           "package": "CarneadesDSL",
@@ -815,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "beyond_reasonable_doubt",
           "package": "CarneadesDSL",
@@ -824,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "beyond_reasonable_doubt",
           "package": "CarneadesDSL",
@@ -836,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "checkCycle",
           "package": "CarneadesDSL",
@@ -845,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "checkCycle",
           "normalized": "AGraph-\u003eBool",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "clear_and_convincing",
           "package": "CarneadesDSL",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "clear_and_convincing",
           "package": "CarneadesDSL",
@@ -881,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "contextP",
           "package": "CarneadesDSL",
@@ -890,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "contextP",
           "normalized": "PropLiteral-\u003eAGraph-\u003e[Context(PropLiteral,[Argument])()]",
@@ -904,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "dialectical_validity",
           "package": "CarneadesDSL",
@@ -913,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "dialectical_validity",
           "package": "CarneadesDSL",
@@ -925,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "gamma",
           "package": "CarneadesDSL",
@@ -934,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "gamma",
           "package": "CarneadesDSL",
@@ -946,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "getAllArgs",
           "package": "CarneadesDSL",
@@ -955,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "getAllArgs",
           "normalized": "ArgSet-\u003e[Argument]",
@@ -970,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "getArgs",
           "package": "CarneadesDSL",
@@ -979,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "getArgs",
           "normalized": "PropLiteral-\u003eAGraph-\u003e[Argument]",
@@ -994,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "getProps",
           "package": "CarneadesDSL",
@@ -1003,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "getProps",
           "normalized": "ArgSet-\u003e[PropLiteral]",
@@ -1018,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "maxWeightApplicable",
           "package": "CarneadesDSL",
@@ -1027,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "maxWeightApplicable",
           "normalized": "[Argument]-\u003eCAES-\u003eWeight",
@@ -1042,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "maxWeightCon",
           "package": "CarneadesDSL",
@@ -1051,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "maxWeightCon",
           "normalized": "PropLiteral-\u003eCAES-\u003eWeight",
@@ -1066,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "maxWeightPro",
           "package": "CarneadesDSL",
@@ -1075,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "maxWeightPro",
           "normalized": "PropLiteral-\u003eCAES-\u003eWeight",
@@ -1090,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "mkArg",
           "package": "CarneadesDSL",
@@ -1099,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "mkArg",
           "normalized": "[String]-\u003e[String]-\u003eString-\u003eArgument",
@@ -1114,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "mkArgGraph",
           "package": "CarneadesDSL",
@@ -1123,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "mkArgGraph",
           "normalized": "[Argument]-\u003eAGraph",
@@ -1138,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "mkArgSet",
           "package": "CarneadesDSL",
@@ -1147,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "mkArgSet",
           "normalized": "[Argument]-\u003eArgSet",
@@ -1162,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "mkAssumptions",
           "package": "CarneadesDSL",
@@ -1171,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "mkAssumptions",
           "normalized": "[String]-\u003e[PropLiteral]",
@@ -1186,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "mkProp",
           "package": "CarneadesDSL",
@@ -1195,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "mkProp",
           "normalized": "String-\u003ePropLiteral",
@@ -1210,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "negate",
           "package": "CarneadesDSL",
@@ -1219,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "negate",
           "normalized": "PropLiteral-\u003ePropLiteral",
@@ -1233,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "nonAcceptableProps",
           "package": "CarneadesDSL",
@@ -1242,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "nonAcceptableProps",
           "normalized": "CAES-\u003e[PropLiteral]",
@@ -1257,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "nonApplicableArgs",
           "package": "CarneadesDSL",
@@ -1266,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "nonApplicableArgs",
           "normalized": "CAES-\u003e[Argument]",
@@ -1281,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "preponderance",
           "package": "CarneadesDSL",
@@ -1290,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "preponderance",
           "package": "CarneadesDSL",
@@ -1302,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "propsToNodes",
           "package": "CarneadesDSL",
@@ -1311,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "propsToNodes",
           "normalized": "[PropLiteral]-\u003eNode-\u003e[PropNode]",
@@ -1326,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "psMap",
           "package": "CarneadesDSL",
@@ -1335,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "psMap",
           "normalized": "PSName-\u003eProofStandard",
@@ -1350,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "scintilla",
           "package": "CarneadesDSL",
@@ -1359,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "scintilla",
           "package": "CarneadesDSL",
@@ -1371,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "showProp",
           "package": "CarneadesDSL",
@@ -1380,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "showProp",
           "normalized": "PropLiteral-\u003eString",
@@ -1395,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "unsafeMatch",
           "package": "CarneadesDSL",
@@ -1404,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades CarneadesDSL",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.CarneadesDSL",
           "name": "unsafeMatch",
           "normalized": "Node-\u003ea b c-\u003e(Context b c,a b c)",
@@ -1419,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.Cyclic",
           "name": "Cyclic",
           "package": "CarneadesDSL",
@@ -1427,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades Cyclic",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.Cyclic",
           "name": "Cyclic",
           "package": "CarneadesDSL",
@@ -1440,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.Cyclic",
           "name": "cyclic",
           "package": "CarneadesDSL",
@@ -1449,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades Cyclic",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.Cyclic",
           "name": "cyclic",
           "normalized": "a b c-\u003eBool",
@@ -1463,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "ExampleCAES",
           "package": "CarneadesDSL",
@@ -1471,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "ExampleCAES",
           "package": "CarneadesDSL",
@@ -1485,6 +1615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emkArgSet| respectively:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "arg1",
           "package": "CarneadesDSL",
@@ -1495,6 +1626,7 @@
         "index": {
           "description": "mkArgSet respectively",
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "arg1",
           "package": "CarneadesDSL",
@@ -1508,6 +1640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emkArgSet| respectively:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "arg2",
           "package": "CarneadesDSL",
@@ -1518,6 +1651,7 @@
         "index": {
           "description": "mkArgSet respectively",
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "arg2",
           "package": "CarneadesDSL",
@@ -1531,6 +1665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emkArgSet| respectively:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "arg3",
           "package": "CarneadesDSL",
@@ -1541,6 +1676,7 @@
         "index": {
           "description": "mkArgSet respectively",
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "arg3",
           "package": "CarneadesDSL",
@@ -1553,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "argSet",
           "package": "CarneadesDSL",
@@ -1562,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "argSet",
           "package": "CarneadesDSL",
@@ -1575,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "assumptions",
           "package": "CarneadesDSL",
@@ -1584,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "assumptions",
           "normalized": "[PropLiteral]",
@@ -1598,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "audience",
           "package": "CarneadesDSL",
@@ -1607,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "audience",
           "package": "CarneadesDSL",
@@ -1619,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "caes",
           "package": "CarneadesDSL",
@@ -1628,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "caes",
           "package": "CarneadesDSL",
@@ -1640,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "standard",
           "package": "CarneadesDSL",
@@ -1649,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "standard",
           "package": "CarneadesDSL",
@@ -1661,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "testAppIntent",
           "package": "CarneadesDSL",
@@ -1670,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "testAppIntent",
           "normalized": "[Argument]",
@@ -1685,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "testAppMurder",
           "package": "CarneadesDSL",
@@ -1694,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "testAppMurder",
           "normalized": "[Argument]",
@@ -1709,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "testAppNotIntent",
           "package": "CarneadesDSL",
@@ -1718,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "testAppNotIntent",
           "normalized": "[Argument]",
@@ -1733,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "testAppNotMurder",
           "package": "CarneadesDSL",
@@ -1742,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "testAppNotMurder",
           "normalized": "[Argument]",
@@ -1757,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "testMurder",
           "package": "CarneadesDSL",
@@ -1766,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "testMurder",
           "package": "CarneadesDSL",
@@ -1779,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "testNotMurder",
           "package": "CarneadesDSL",
@@ -1788,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "testNotMurder",
           "package": "CarneadesDSL",
@@ -1802,6 +1960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emkAssumptions| on the propositions which are to be assumed. The audience is\n just a pair of these:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:12 UTC 2014",
           "module": "Language.Carneades.ExampleCAES",
           "name": "weight",
           "package": "CarneadesDSL",
@@ -1812,6 +1971,7 @@
         "index": {
           "description": "mkAssumptions on the propositions which are to be assumed The audience is just pair of these",
           "hierarchy": "Language Carneades ExampleCAES",
+          "indexed": "2014-03-11T16:36:12",
           "module": "Language.Carneades.ExampleCAES",
           "name": "weight",
           "package": "CarneadesDSL",

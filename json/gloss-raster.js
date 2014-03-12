@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gloss-raster"
+        "phrase": "gloss-raster",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRendering of Repa arrays as raster images.\n\u003c/p\u003e\u003cp\u003eGloss programs should be compiled with \u003ccode\u003e-threaded\u003c/code\u003e, otherwise the GHC runtime\n  will limit the frame-rate to around 20Hz.\n\u003c/p\u003e\u003cp\u003eThe performance of programs using this interface is sensitive to how much\n  boxing and unboxing the GHC simplifier manages to eliminate. For the best\n  result add INLINE pragmas to all of your numeric functions and use the following\n  compile options.  \n\u003c/p\u003e\u003cpre\u003e-threaded -Odph -fno-liberate-case -funfolding-use-threshold1000 -funfolding-keeness-factor1000 -fllvm -optlo-O3\u003c/pre\u003e\u003cp\u003eSee the examples the \u003ccode\u003eraster\u003c/code\u003e directory of the \u003ccode\u003egloss-examples\u003c/code\u003e package \n  for more details.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "Array",
           "package": "gloss-raster",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Rendering of Repa arrays as raster images Gloss programs should be compiled with threaded otherwise the GHC runtime will limit the frame-rate to around Hz The performance of programs using this interface is sensitive to how much boxing and unboxing the GHC simplifier manages to eliminate For the best result add INLINE pragmas to all of your numeric functions and use the following compile options threaded Odph fno-liberate-case funfolding-use-threshold1000 funfolding-keeness-factor1000 fllvm optlo-O3 See the examples the raster directory of the gloss-examples package for more details",
           "hierarchy": "Graphics Gloss Raster Array",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "Array",
           "package": "gloss-raster",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes how Gloss should display its output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "Display",
           "package": "gloss-raster",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Describes how Gloss should display its output",
           "hierarchy": "Graphics Gloss Raster Array",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "Display",
           "package": "gloss-raster",
@@ -116,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnimate a bitmap generated from a Repa array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "animateArray",
           "package": "gloss-raster",
@@ -125,6 +130,7 @@
         "index": {
           "description": "Animate bitmap generated from Repa array",
           "hierarchy": "Graphics Gloss Raster Array",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "animateArray",
           "normalized": "Display-\u003e(Int,Int)-\u003e(Float-\u003eArray D DIM Color)-\u003eIO()",
@@ -141,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnimate a bitmap generated from a Repa array, via the IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "animateArrayIO",
           "package": "gloss-raster",
@@ -150,6 +157,7 @@
         "index": {
           "description": "Animate bitmap generated from Repa array via the IO monad",
           "hierarchy": "Graphics Gloss Raster Array",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "animateArrayIO",
           "normalized": "Display-\u003e(Int,Int)-\u003e(Float-\u003eIO(Array D DIM Color))-\u003eIO()",
@@ -166,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlay with a bitmap generated from a Repa array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "playArray",
           "package": "gloss-raster",
@@ -175,6 +184,7 @@
         "index": {
           "description": "Play with bitmap generated from Repa array",
           "hierarchy": "Graphics Gloss Raster Array",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "playArray",
           "normalized": "Display-\u003e(Int,Int)-\u003eInt-\u003ea-\u003e(a-\u003eArray D DIM Color)-\u003e(Event-\u003ea-\u003ea)-\u003e(Float-\u003ea-\u003ea)-\u003eIO()",
@@ -191,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlay with a bitmap generated from a Repa array, via the IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "playArrayIO",
           "package": "gloss-raster",
@@ -200,6 +211,7 @@
         "index": {
           "description": "Play with bitmap generated from Repa array via the IO monad",
           "hierarchy": "Graphics Gloss Raster Array",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "playArrayIO",
           "normalized": "Display-\u003e(Int,Int)-\u003eInt-\u003ea-\u003e(a-\u003eIO(Array D DIM Color))-\u003e(Event-\u003ea-\u003eIO a)-\u003e(Float-\u003ea-\u003eIO a)-\u003eIO()",
@@ -216,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a color from red, green, blue components.\n\u003c/p\u003e\u003cp\u003eEach component is clipped to the range [0..1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "rgb",
           "package": "gloss-raster",
@@ -226,6 +239,7 @@
         "index": {
           "description": "Construct color from red green blue components Each component is clipped to the range",
           "hierarchy": "Graphics Gloss Raster Array",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "rgb",
           "normalized": "Float-\u003eFloat-\u003eFloat-\u003eColor",
@@ -241,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a color from red, green, blue components.\n\u003c/p\u003e\u003cp\u003eEach component is clipped to the range [0..255]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "rgb8",
           "package": "gloss-raster",
@@ -251,6 +266,7 @@
         "index": {
           "description": "Construct color from red green blue components Each component is clipped to the range",
           "hierarchy": "Graphics Gloss Raster Array",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "rgb8",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eColor",
@@ -266,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a color from red, green, blue components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "rgb8w",
           "package": "gloss-raster",
@@ -276,6 +293,7 @@
         "index": {
           "description": "Construct color from red green blue components",
           "hierarchy": "Graphics Gloss Raster Array",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Array",
           "name": "rgb8w",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eColor",
@@ -291,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRendering of continuous 2D functions as raster fields.\n\u003c/p\u003e\u003cp\u003eGloss programs should be compiled with \u003ccode\u003e-threaded\u003c/code\u003e, otherwise the GHC runtime\n  will limit the frame-rate to around 20Hz.\n\u003c/p\u003e\u003cp\u003eThe performance of programs using this interface is sensitive to how much\n  boxing and unboxing the GHC simplifier manages to eliminate. For the best\n  result add INLINE pragmas to all of your numeric functions and use the following\n  compile options.  \n\u003c/p\u003e\u003cpre\u003e-threaded -Odph -fno-liberate-case -funfolding-use-threshold1000 -funfolding-keeness-factor1000 -fllvm -optlo-O3\u003c/pre\u003e\u003cp\u003eSee the examples the \u003ccode\u003eraster\u003c/code\u003e directory of the \u003ccode\u003egloss-examples\u003c/code\u003e package \n  for more details.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "Field",
           "package": "gloss-raster",
@@ -300,6 +319,7 @@
         "index": {
           "description": "Rendering of continuous functions as raster fields Gloss programs should be compiled with threaded otherwise the GHC runtime will limit the frame-rate to around Hz The performance of programs using this interface is sensitive to how much boxing and unboxing the GHC simplifier manages to eliminate For the best result add INLINE pragmas to all of your numeric functions and use the following compile options threaded Odph fno-liberate-case funfolding-use-threshold1000 funfolding-keeness-factor1000 fllvm optlo-O3 See the examples the raster directory of the gloss-examples package for more details",
           "hierarchy": "Graphics Gloss Raster Field",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "Field",
           "package": "gloss-raster",
@@ -314,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes how Gloss should display its output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "Display",
           "package": "gloss-raster",
@@ -322,6 +343,7 @@
         "index": {
           "description": "Describes how Gloss should display its output",
           "hierarchy": "Graphics Gloss Raster Field",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "Display",
           "package": "gloss-raster",
@@ -336,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA point on the x-y plane.\n   Points can also be treated as \u003ccode\u003eVector\u003c/code\u003es, so \u003ca\u003eGraphics.Gloss.Data.Vector\u003c/a\u003e\n   may also be useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "Point",
           "package": "gloss-raster",
@@ -344,6 +367,7 @@
         "index": {
           "description": "point on the x-y plane Points can also be treated as Vector so Graphics.Gloss.Data.Vector may also be useful",
           "hierarchy": "Graphics Gloss Raster Field",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "Point",
           "package": "gloss-raster",
@@ -358,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnimate a continuous 2D function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "animateField",
           "package": "gloss-raster",
@@ -367,6 +392,7 @@
         "index": {
           "description": "Animate continuous function",
           "hierarchy": "Graphics Gloss Raster Field",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "animateField",
           "normalized": "Display-\u003e(Int,Int)-\u003e(Float-\u003ePoint-\u003eColor)-\u003eIO()",
@@ -382,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "makeFrame",
           "package": "gloss-raster",
@@ -391,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Raster Field",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "makeFrame",
           "normalized": "Int-\u003eInt-\u003e(Point-\u003eColor)-\u003eArray(I D)DIM(Word,Word,Word)",
@@ -406,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "makePicture",
           "package": "gloss-raster",
@@ -415,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss Raster Field",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "makePicture",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e(Point-\u003eColor)-\u003ePicture",
@@ -431,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlay a game with a continous 2D function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "playField",
           "package": "gloss-raster",
@@ -440,6 +471,7 @@
         "index": {
           "description": "Play game with continous function",
           "hierarchy": "Graphics Gloss Raster Field",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "playField",
           "normalized": "Display-\u003e(Int,Int)-\u003eInt-\u003ea-\u003e(a-\u003ePoint-\u003eColor)-\u003e(Event-\u003ea-\u003ea)-\u003e(Float-\u003ea-\u003ea)-\u003eIO()",
@@ -456,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a color from red, green, blue components.\n\u003c/p\u003e\u003cp\u003eEach component is clipped to the range [0..1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "rgb",
           "package": "gloss-raster",
@@ -466,6 +499,7 @@
         "index": {
           "description": "Construct color from red green blue components Each component is clipped to the range",
           "hierarchy": "Graphics Gloss Raster Field",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "rgb",
           "normalized": "Float-\u003eFloat-\u003eFloat-\u003eColor",
@@ -481,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a color from red, green, blue components.\n\u003c/p\u003e\u003cp\u003eEach component is clipped to the range [0..255]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "rgb8",
           "package": "gloss-raster",
@@ -491,6 +526,7 @@
         "index": {
           "description": "Construct color from red green blue components Each component is clipped to the range",
           "hierarchy": "Graphics Gloss Raster Field",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "rgb8",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eColor",
@@ -506,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a color from red, green, blue components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:29 UTC 2014",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "rgb8w",
           "package": "gloss-raster",
@@ -516,6 +553,7 @@
         "index": {
           "description": "Construct color from red green blue components",
           "hierarchy": "Graphics Gloss Raster Field",
+          "indexed": "2014-03-11T18:18:29",
           "module": "Graphics.Gloss.Raster.Field",
           "name": "rgb8w",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eColor",

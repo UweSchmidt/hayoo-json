@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "java-bridge"
+        "phrase": "java-bridge",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellTypes",
           "package": "java-bridge",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellTypes",
           "package": "java-bridge",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellConstructor",
           "package": "java-bridge",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellConstructor",
           "package": "java-bridge",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellData",
           "package": "java-bridge",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellData",
           "package": "java-bridge",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellFunction",
           "package": "java-bridge",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellFunction",
           "package": "java-bridge",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellModule",
           "package": "java-bridge",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellModule",
           "package": "java-bridge",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellType",
           "package": "java-bridge",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellType",
           "package": "java-bridge",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellConstructor",
           "package": "java-bridge",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellConstructor",
           "package": "java-bridge",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellData",
           "package": "java-bridge",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellData",
           "package": "java-bridge",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellFunction",
           "package": "java-bridge",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellFunction",
           "package": "java-bridge",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellModule",
           "package": "java-bridge",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellModule",
           "package": "java-bridge",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellType",
           "package": "java-bridge",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "HaskellType",
           "package": "java-bridge",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "constructorField",
           "package": "java-bridge",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "constructorField",
           "normalized": "(String,HaskellType)",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "constructorName",
           "package": "java-bridge",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "constructorName",
           "package": "java-bridge",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "dataConstructors",
           "package": "java-bridge",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "dataConstructors",
           "normalized": "[HaskellConstructor]",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "dataName",
           "package": "java-bridge",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "dataName",
           "package": "java-bridge",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "functionArgs",
           "package": "java-bridge",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "functionArgs",
           "normalized": "[HaskellType]",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "functionName",
           "package": "java-bridge",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "functionName",
           "package": "java-bridge",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "functionReturn",
           "package": "java-bridge",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "functionReturn",
           "package": "java-bridge",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "moduleData",
           "package": "java-bridge",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "moduleData",
           "normalized": "[HaskellData]",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "moduleFunctions",
           "package": "java-bridge",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "moduleFunctions",
           "normalized": "[HaskellFunction]",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "moduleName",
           "package": "java-bridge",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings HaskellTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.HaskellTypes",
           "name": "moduleName",
           "package": "java-bridge",
@@ -485,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData structures that describe the interface of\n Java structures such as classes, generic types,\n their methods, etc.\n\u003c/p\u003e\u003cp\u003eAll types are instances of \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e and\n can therefor be used with \u003cem\u003eScrap Your Boilerplate\u003c/em\u003e\n combinators (see \u003ca\u003eData.Generics\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaTypes",
           "package": "java-bridge",
@@ -494,6 +537,7 @@
         "index": {
           "description": "Data structures that describe the interface of Java structures such as classes generic types their methods etc All types are instances of Data and Typeable and can therefor be used with Scrap Your Boilerplate combinators see Data.Generics",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaTypes",
           "package": "java-bridge",
@@ -508,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interface of a Java class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaClass",
           "package": "java-bridge",
@@ -517,6 +562,7 @@
         "index": {
           "description": "The interface of Java class",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaClass",
           "package": "java-bridge",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaClassType",
           "package": "java-bridge",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaClassType",
           "package": "java-bridge",
@@ -552,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Constructor in the Java language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaConstructor",
           "package": "java-bridge",
@@ -561,6 +610,7 @@
         "index": {
           "description": "Constructor in the Java language",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaConstructor",
           "package": "java-bridge",
@@ -574,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaGenericType",
           "package": "java-bridge",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaGenericType",
           "package": "java-bridge",
@@ -596,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a generic type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaGenericTypeType",
           "package": "java-bridge",
@@ -605,6 +658,7 @@
         "index": {
           "description": "The type of generic type",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaGenericTypeType",
           "package": "java-bridge",
@@ -619,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interface to a method in the Java language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaMethod",
           "package": "java-bridge",
@@ -628,6 +683,7 @@
         "index": {
           "description": "The interface to method in the Java language",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaMethod",
           "package": "java-bridge",
@@ -642,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JavaType is either a Primitive Type, an Array, or an Object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaType",
           "package": "java-bridge",
@@ -651,6 +708,7 @@
         "index": {
           "description": "JavaType is either Primitive Type an Array or an Object",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaType",
           "package": "java-bridge",
@@ -665,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Type variable declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaTypeParam",
           "package": "java-bridge",
@@ -674,6 +733,7 @@
         "index": {
           "description": "Type variable declaration",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaTypeParam",
           "package": "java-bridge",
@@ -688,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Type variable. This is merely a name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "TyVar",
           "package": "java-bridge",
@@ -697,6 +758,7 @@
         "index": {
           "description": "Type variable This is merely name",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "TyVar",
           "package": "java-bridge",
@@ -710,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Annotation",
           "package": "java-bridge",
@@ -719,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Annotation",
           "package": "java-bridge",
@@ -732,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Class",
           "package": "java-bridge",
@@ -741,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Class",
           "package": "java-bridge",
@@ -754,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Enum",
           "package": "java-bridge",
@@ -763,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Enum",
           "package": "java-bridge",
@@ -776,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Error",
           "package": "java-bridge",
@@ -785,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Error",
           "package": "java-bridge",
@@ -798,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Exception",
           "package": "java-bridge",
@@ -807,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Exception",
           "package": "java-bridge",
@@ -821,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eX[]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "GenericArray",
           "package": "java-bridge",
@@ -830,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "GenericArray",
           "package": "java-bridge",
@@ -843,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "GenericArrayT",
           "package": "java-bridge",
@@ -852,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "GenericArrayT",
           "package": "java-bridge",
@@ -865,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Interface",
           "package": "java-bridge",
@@ -874,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Interface",
           "package": "java-bridge",
@@ -887,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JArr",
           "package": "java-bridge",
@@ -896,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JArr",
           "package": "java-bridge",
@@ -909,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JBoolean",
           "package": "java-bridge",
@@ -918,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JBoolean",
           "package": "java-bridge",
@@ -931,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JByte",
           "package": "java-bridge",
@@ -940,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JByte",
           "package": "java-bridge",
@@ -953,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JChar",
           "package": "java-bridge",
@@ -962,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JChar",
           "package": "java-bridge",
@@ -975,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JDouble",
           "package": "java-bridge",
@@ -984,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JDouble",
           "package": "java-bridge",
@@ -997,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JFloat",
           "package": "java-bridge",
@@ -1006,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JFloat",
           "package": "java-bridge",
@@ -1019,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JInt",
           "package": "java-bridge",
@@ -1028,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JInt",
           "package": "java-bridge",
@@ -1041,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JLong",
           "package": "java-bridge",
@@ -1050,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JLong",
           "package": "java-bridge",
@@ -1063,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JObj",
           "package": "java-bridge",
@@ -1072,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JObj",
           "package": "java-bridge",
@@ -1085,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JShort",
           "package": "java-bridge",
@@ -1094,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JShort",
           "package": "java-bridge",
@@ -1107,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaClass",
           "package": "java-bridge",
@@ -1116,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaClass",
           "package": "java-bridge",
@@ -1129,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaConstructor",
           "package": "java-bridge",
@@ -1138,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaConstructor",
           "package": "java-bridge",
@@ -1151,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaMethod",
           "package": "java-bridge",
@@ -1160,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaMethod",
           "package": "java-bridge",
@@ -1173,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaTypeParam",
           "package": "java-bridge",
@@ -1182,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "JavaTypeParam",
           "package": "java-bridge",
@@ -1195,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "NotSoGeneric",
           "package": "java-bridge",
@@ -1204,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "NotSoGeneric",
           "package": "java-bridge",
@@ -1217,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "NotSoGenericT",
           "package": "java-bridge",
@@ -1226,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "NotSoGenericT",
           "package": "java-bridge",
@@ -1240,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ejava.util.List\u003ca\u003eX\u003c/a\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Parameterized",
           "package": "java-bridge",
@@ -1250,6 +1361,7 @@
         "index": {
           "description": "java.util.List",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Parameterized",
           "package": "java-bridge",
@@ -1263,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "ParameterizedT",
           "package": "java-bridge",
@@ -1272,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "ParameterizedT",
           "package": "java-bridge",
@@ -1285,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "TyVar",
           "package": "java-bridge",
@@ -1294,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "TyVar",
           "package": "java-bridge",
@@ -1308,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ca\u003eX\u003c/a\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "TypeVarReference",
           "package": "java-bridge",
@@ -1317,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "TypeVarReference",
           "package": "java-bridge",
@@ -1330,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "TypeVarReferenceT",
           "package": "java-bridge",
@@ -1339,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "TypeVarReferenceT",
           "package": "java-bridge",
@@ -1353,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esuper X\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eextends X\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Wildcard",
           "package": "java-bridge",
@@ -1363,6 +1484,7 @@
         "index": {
           "description": "super extends",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "Wildcard",
           "package": "java-bridge",
@@ -1376,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "WildcardT",
           "package": "java-bridge",
@@ -1385,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "WildcardT",
           "package": "java-bridge",
@@ -1398,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classAbstract",
           "package": "java-bridge",
@@ -1407,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classAbstract",
           "package": "java-bridge",
@@ -1420,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classAnnotation",
           "package": "java-bridge",
@@ -1429,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classAnnotation",
           "package": "java-bridge",
@@ -1442,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classConstructors",
           "package": "java-bridge",
@@ -1451,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classConstructors",
           "normalized": "[JavaConstructor]",
@@ -1467,6 +1597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate all classes that are referenced in any way by this class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classDependencies",
           "package": "java-bridge",
@@ -1477,6 +1608,7 @@
         "index": {
           "description": "Calculate all classes that are referenced in any way by this class",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classDependencies",
           "normalized": "JavaClass-\u003e[String]",
@@ -1492,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classEnum",
           "package": "java-bridge",
@@ -1501,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classEnum",
           "package": "java-bridge",
@@ -1514,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classEnumConstants",
           "package": "java-bridge",
@@ -1523,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classEnumConstants",
           "normalized": "[(Int,String)]",
@@ -1538,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classFinal",
           "package": "java-bridge",
@@ -1547,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classFinal",
           "package": "java-bridge",
@@ -1561,6 +1699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the full name from a class definition. See also \u003ccode\u003e\u003ca\u003emakeName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classFullName",
           "package": "java-bridge",
@@ -1571,6 +1710,7 @@
         "index": {
           "description": "Derive the full name from class definition See also makeName",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classFullName",
           "normalized": "JavaClass-\u003eString",
@@ -1586,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classIface",
           "package": "java-bridge",
@@ -1595,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classIface",
           "package": "java-bridge",
@@ -1608,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classIfaces",
           "package": "java-bridge",
@@ -1617,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classIfaces",
           "normalized": "[String]",
@@ -1632,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classMethods",
           "package": "java-bridge",
@@ -1641,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classMethods",
           "normalized": "[JavaMethod]",
@@ -1656,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classModName",
           "package": "java-bridge",
@@ -1665,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classModName",
           "package": "java-bridge",
@@ -1678,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "className",
           "package": "java-bridge",
@@ -1687,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "className",
           "package": "java-bridge",
@@ -1700,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classPackage",
           "package": "java-bridge",
@@ -1709,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classPackage",
           "package": "java-bridge",
@@ -1722,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classParents",
           "package": "java-bridge",
@@ -1731,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classParents",
           "normalized": "[String]",
@@ -1747,6 +1901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines the \u003ccode\u003e\u003ca\u003eJavaClassType\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eJavaClass\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classType",
           "package": "java-bridge",
@@ -1757,6 +1912,7 @@
         "index": {
           "description": "Determines the JavaClassType of JavaClass",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classType",
           "normalized": "JavaClass-\u003eJavaClassType",
@@ -1772,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classTypeParams",
           "package": "java-bridge",
@@ -1781,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "classTypeParams",
           "normalized": "[JavaTypeParam]",
@@ -1796,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "componentType",
           "package": "java-bridge",
@@ -1805,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "componentType",
           "package": "java-bridge",
@@ -1819,6 +1979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve all classes that this constructor definition\n references in its parameters or generic declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "constructorDependencies",
           "package": "java-bridge",
@@ -1829,6 +1990,7 @@
         "index": {
           "description": "Retrieve all classes that this constructor definition references in its parameters or generic declaration",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "constructorDependencies",
           "normalized": "JavaConstructor-\u003e[String]",
@@ -1844,6 +2006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "constructorGenericParams",
           "package": "java-bridge",
@@ -1853,6 +2016,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "constructorGenericParams",
           "normalized": "[JavaGenericType]",
@@ -1868,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "constructorParams",
           "package": "java-bridge",
@@ -1877,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "constructorParams",
           "normalized": "[JavaType]",
@@ -1892,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "constructorTypeParams",
           "package": "java-bridge",
@@ -1901,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "constructorTypeParams",
           "normalized": "[JavaTypeParam]",
@@ -1917,6 +2085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plain type, full name. Used for example in a \u003ccode\u003e\u003ca\u003eParameterized\u003c/a\u003e\u003c/code\u003e\n type, which may be parameterized by a plain type (like\n \u003ccode\u003eClass\u003ca\u003eNumber\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe full name of the base type, e.g. \u003ccode\u003ejava.lang.Class\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "jgtBasetype",
           "package": "java-bridge",
@@ -1927,6 +2096,7 @@
         "index": {
           "description": "plain type full name Used for example in Parameterized type which may be parameterized by plain type like Class Number The full name of the base type e.g java.lang.Class",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "jgtBasetype",
           "package": "java-bridge",
@@ -1940,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "jgtBounds",
           "package": "java-bridge",
@@ -1949,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "jgtBounds",
           "normalized": "[JavaGenericType]",
@@ -1965,6 +2137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe base type of the generic array, e.g. \u003ccode\u003ejava.lang.Number\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "jgtComponentType",
           "package": "java-bridge",
@@ -1975,6 +2148,7 @@
         "index": {
           "description": "The base type of the generic array e.g java.lang.Number",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "jgtComponentType",
           "package": "java-bridge",
@@ -1988,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "jgtLowerBounds",
           "package": "java-bridge",
@@ -1997,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "jgtLowerBounds",
           "normalized": "[JavaGenericType]",
@@ -2013,6 +2189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the type variable, e.g. \u003ccode\u003eE\u003c/code\u003e or \u003ccode\u003eX\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "jgtName",
           "package": "java-bridge",
@@ -2023,6 +2200,7 @@
         "index": {
           "description": "The name of the type variable e.g or",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "jgtName",
           "package": "java-bridge",
@@ -2037,6 +2215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "jgtParameters",
           "package": "java-bridge",
@@ -2047,6 +2226,7 @@
         "index": {
           "description": "The parameters",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "jgtParameters",
           "normalized": "[JavaGenericType]",
@@ -2063,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the type of a generic type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "jgtType",
           "package": "java-bridge",
@@ -2073,6 +2254,7 @@
         "index": {
           "description": "Get the type of generic type",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "jgtType",
           "normalized": "JavaGenericType-\u003eJavaGenericTypeType",
@@ -2088,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodAbstract",
           "package": "java-bridge",
@@ -2097,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodAbstract",
           "package": "java-bridge",
@@ -2111,6 +2295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the full names of all classes that this method\n references in its definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodDependencies",
           "package": "java-bridge",
@@ -2121,6 +2306,7 @@
         "index": {
           "description": "Return the full names of all classes that this method references in its definition",
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodDependencies",
           "normalized": "JavaMethod-\u003e[String]",
@@ -2136,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodFinal",
           "package": "java-bridge",
@@ -2145,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodFinal",
           "package": "java-bridge",
@@ -2158,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodGenericParams",
           "package": "java-bridge",
@@ -2167,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodGenericParams",
           "normalized": "[JavaGenericType]",
@@ -2182,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodGenericReturnType",
           "package": "java-bridge",
@@ -2191,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodGenericReturnType",
           "package": "java-bridge",
@@ -2204,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodName",
           "package": "java-bridge",
@@ -2213,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodName",
           "package": "java-bridge",
@@ -2226,6 +2420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodName'",
           "package": "java-bridge",
@@ -2235,6 +2430,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodName'",
           "package": "java-bridge",
@@ -2248,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodNative",
           "package": "java-bridge",
@@ -2257,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodNative",
           "package": "java-bridge",
@@ -2270,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodParams",
           "package": "java-bridge",
@@ -2279,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodParams",
           "normalized": "[JavaType]",
@@ -2294,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodPublic",
           "package": "java-bridge",
@@ -2303,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodPublic",
           "package": "java-bridge",
@@ -2316,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodReturnType",
           "package": "java-bridge",
@@ -2325,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodReturnType",
           "package": "java-bridge",
@@ -2338,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodStatic",
           "package": "java-bridge",
@@ -2347,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodStatic",
           "package": "java-bridge",
@@ -2360,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodSynchronized",
           "package": "java-bridge",
@@ -2369,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodSynchronized",
           "package": "java-bridge",
@@ -2382,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodTypeParams",
           "package": "java-bridge",
@@ -2391,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "methodTypeParams",
           "normalized": "[JavaTypeParam]",
@@ -2406,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "paramBounds",
           "package": "java-bridge",
@@ -2415,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "paramBounds",
           "normalized": "[JavaGenericType]",
@@ -2430,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "paramName",
           "package": "java-bridge",
@@ -2439,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "paramName",
           "package": "java-bridge",
@@ -2452,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "printJavaType",
           "package": "java-bridge",
@@ -2461,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "printJavaType",
           "normalized": "JavaType-\u003eString",
@@ -2476,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "tyVarName",
           "package": "java-bridge",
@@ -2485,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "tyVarName",
           "package": "java-bridge",
@@ -2498,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "typeName",
           "package": "java-bridge",
@@ -2507,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings JavaTypes",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.JavaTypes",
           "name": "typeName",
           "package": "java-bridge",
@@ -2521,6 +2741,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides type classes and instances for\n supporting the high level bindings. This module should\n not be imported directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "Support",
           "package": "java-bridge",
@@ -2530,6 +2751,7 @@
         "index": {
           "description": "This module provides type classes and instances for supporting the high level bindings This module should not be imported directly",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "Support",
           "package": "java-bridge",
@@ -2543,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "Array",
           "package": "java-bridge",
@@ -2551,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "Array",
           "package": "java-bridge",
@@ -2565,6 +2789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn array result of a function call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "ArrayResult",
           "package": "java-bridge",
@@ -2574,6 +2799,7 @@
         "index": {
           "description": "An array result of function call",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "ArrayResult",
           "package": "java-bridge",
@@ -2588,6 +2814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a function call that is of type \u003ccode\u003eboolean\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "BooleanResult",
           "package": "java-bridge",
@@ -2597,6 +2824,7 @@
         "index": {
           "description": "The result of function call that is of type boolean",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "BooleanResult",
           "package": "java-bridge",
@@ -2611,6 +2839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a function call that is of type \u003ccode\u003ebyte\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "ByteResult",
           "package": "java-bridge",
@@ -2620,6 +2849,7 @@
         "index": {
           "description": "The result of function call that is of type byte",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "ByteResult",
           "package": "java-bridge",
@@ -2634,6 +2864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a function call that is of type \u003ccode\u003echar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "CharResult",
           "package": "java-bridge",
@@ -2643,6 +2874,7 @@
         "index": {
           "description": "The result of function call that is of type char",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "CharResult",
           "package": "java-bridge",
@@ -2657,6 +2889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a function call that is of type \u003ccode\u003edouble\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "DoubleResult",
           "package": "java-bridge",
@@ -2666,6 +2899,7 @@
         "index": {
           "description": "The result of function call that is of type double",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "DoubleResult",
           "package": "java-bridge",
@@ -2680,6 +2914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a function call that is of type \u003ccode\u003efloat\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "FloatResult",
           "package": "java-bridge",
@@ -2689,6 +2924,7 @@
         "index": {
           "description": "The result of function call that is of type float",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "FloatResult",
           "package": "java-bridge",
@@ -2703,6 +2939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenient alternative to \u003ccode\u003e\u003ca\u003eisInstanceOf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003ecoerce\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ewhenInstanceOf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "InstanceOf",
           "package": "java-bridge",
@@ -2712,6 +2949,7 @@
         "index": {
           "description": "convenient alternative to isInstanceOf Minimal complete definition coerce or whenInstanceOf",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "InstanceOf",
           "package": "java-bridge",
@@ -2726,6 +2964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a function call that is of type \u003ccode\u003eint\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "IntResult",
           "package": "java-bridge",
@@ -2735,6 +2974,7 @@
         "index": {
           "description": "The result of function call that is of type int",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "IntResult",
           "package": "java-bridge",
@@ -2748,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JBoolean",
           "package": "java-bridge",
@@ -2756,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JBoolean",
           "package": "java-bridge",
@@ -2769,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JByte",
           "package": "java-bridge",
@@ -2777,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JByte",
           "package": "java-bridge",
@@ -2790,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JChar",
           "package": "java-bridge",
@@ -2798,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JChar",
           "package": "java-bridge",
@@ -2811,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JDouble",
           "package": "java-bridge",
@@ -2819,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JDouble",
           "package": "java-bridge",
@@ -2832,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JFloat",
           "package": "java-bridge",
@@ -2840,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JFloat",
           "package": "java-bridge",
@@ -2853,6 +3103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JInt",
           "package": "java-bridge",
@@ -2861,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JInt",
           "package": "java-bridge",
@@ -2874,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JLong",
           "package": "java-bridge",
@@ -2882,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JLong",
           "package": "java-bridge",
@@ -2895,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JShort",
           "package": "java-bridge",
@@ -2903,6 +3158,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "JShort",
           "package": "java-bridge",
@@ -2917,6 +3173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a function call that is of type \u003ccode\u003elong\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "LongResult",
           "package": "java-bridge",
@@ -2926,6 +3183,7 @@
         "index": {
           "description": "The result of function call that is of type long",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "LongResult",
           "package": "java-bridge",
@@ -2940,6 +3198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a function call that is of type \u003ccode\u003eobject\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "ObjectResult",
           "package": "java-bridge",
@@ -2949,6 +3208,7 @@
         "index": {
           "description": "The result of function call that is of type object",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "ObjectResult",
           "package": "java-bridge",
@@ -2963,6 +3223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a function call that is of type \u003ccode\u003eshort\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "ShortResult",
           "package": "java-bridge",
@@ -2972,6 +3233,7 @@
         "index": {
           "description": "The result of function call that is of type short",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "ShortResult",
           "package": "java-bridge",
@@ -2986,6 +3248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor INTERNAL use only. Is however not in a hidden module,\n so that other libraries can link against it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "UnsafeCast",
           "package": "java-bridge",
@@ -2995,6 +3258,7 @@
         "index": {
           "description": "For INTERNAL use only Is however not in hidden module so that other libraries can link against it",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "UnsafeCast",
           "package": "java-bridge",
@@ -3009,6 +3273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a function call that is of type \u003ccode\u003evoid\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "VoidResult",
           "package": "java-bridge",
@@ -3018,6 +3283,7 @@
         "index": {
           "description": "The result of function call that is of type void",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "VoidResult",
           "package": "java-bridge",
@@ -3031,6 +3297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "WrappedFun",
           "package": "java-bridge",
@@ -3039,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "WrappedFun",
           "package": "java-bridge",
@@ -3052,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "asMaybeArrayObject",
           "package": "java-bridge",
@@ -3061,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "asMaybeArrayObject",
           "normalized": "a-\u003eJava(Maybe JObject)",
@@ -3077,6 +3347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoerces the given object of type \u003ccode\u003ea\u003c/code\u003e to an object of\n \u003ccode\u003ec\u003c/code\u003e, where \u003ccode\u003ec\u003c/code\u003e is represented by a value of type \u003ccode\u003eb\u003c/code\u003e.\n Returns \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e if this is not possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "coerce",
           "package": "java-bridge",
@@ -3087,6 +3358,7 @@
         "index": {
           "description": "Coerces the given object of type to an object of where is represented by value of type Returns Nothing if this is not possible",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "coerce",
           "normalized": "a-\u003eb-\u003eJava(Maybe(CoercedType b))",
@@ -3101,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "delete",
           "package": "java-bridge",
@@ -3110,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "delete",
           "normalized": "JObject-\u003eJava()",
@@ -3124,6 +3398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "freeFunPtr",
           "package": "java-bridge",
@@ -3133,6 +3408,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "freeFunPtr",
           "normalized": "FunPtr WrappedFun-\u003eIO()",
@@ -3149,6 +3425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the object of type \u003ccode\u003ea\u003c/code\u003e is an instance\n of the type represented by \u003ccode\u003eb\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "instanceOf",
           "package": "java-bridge",
@@ -3159,6 +3436,7 @@
         "index": {
           "description": "Check if the object of type is an instance of the type represented by",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "instanceOf",
           "normalized": "a-\u003eb-\u003eJava Bool",
@@ -3174,6 +3452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "intify",
           "package": "java-bridge",
@@ -3183,6 +3462,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "intify",
           "normalized": "Java()-\u003eIO Int",
@@ -3197,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "object'",
           "package": "java-bridge",
@@ -3206,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "object'",
           "normalized": "String-\u003eQ",
@@ -3221,6 +3503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYepp. Register callbacks. Do it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "registerCallbacks",
           "package": "java-bridge",
@@ -3231,6 +3514,7 @@
         "index": {
           "description": "Yepp Register callbacks Do it",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "registerCallbacks",
           "normalized": "JClass-\u003eJava Bool",
@@ -3246,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "runJava_",
           "package": "java-bridge",
@@ -3255,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "runJava_",
           "normalized": "Ptr JVM-\u003eJava a-\u003eIO a",
@@ -3270,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "sushimaki",
           "package": "java-bridge",
@@ -3279,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "sushimaki",
           "normalized": "String-\u003eJava()-\u003eJava JObject",
@@ -3294,6 +3582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the array to a sophisticated type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toArrayResult",
           "package": "java-bridge",
@@ -3304,6 +3593,7 @@
         "index": {
           "description": "Convert the array to sophisticated type",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toArrayResult",
           "normalized": "Either JThrowable(Maybe(JArray(ArrayResultType a)))-\u003eJava a",
@@ -3319,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toBoolean",
           "package": "java-bridge",
@@ -3328,6 +3619,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toBoolean",
           "normalized": "a-\u003eJava Bool",
@@ -3343,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toBooleanResult",
           "package": "java-bridge",
@@ -3352,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toBooleanResult",
           "normalized": "Either JThrowable Bool-\u003eJava a",
@@ -3367,6 +3661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toByte",
           "package": "java-bridge",
@@ -3376,6 +3671,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toByte",
           "normalized": "a-\u003eJava Int",
@@ -3391,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toByteResult",
           "package": "java-bridge",
@@ -3400,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toByteResult",
           "normalized": "Either JThrowable Int-\u003eJava a",
@@ -3415,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toChar",
           "package": "java-bridge",
@@ -3424,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toChar",
           "normalized": "a-\u003eJava Word",
@@ -3439,6 +3739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toCharResult",
           "package": "java-bridge",
@@ -3448,6 +3749,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toCharResult",
           "normalized": "Either JThrowable Word-\u003eJava a",
@@ -3463,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toDouble",
           "package": "java-bridge",
@@ -3472,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toDouble",
           "normalized": "a-\u003eJava Double",
@@ -3487,6 +3791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toDoubleResult",
           "package": "java-bridge",
@@ -3496,6 +3801,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toDoubleResult",
           "normalized": "Either JThrowable Double-\u003eJava a",
@@ -3511,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toFloat",
           "package": "java-bridge",
@@ -3520,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toFloat",
           "normalized": "a-\u003eJava Float",
@@ -3535,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toFloatResult",
           "package": "java-bridge",
@@ -3544,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toFloatResult",
           "normalized": "Either JThrowable Float-\u003eJava a",
@@ -3559,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toInt",
           "package": "java-bridge",
@@ -3568,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toInt",
           "normalized": "a-\u003eJava Int",
@@ -3583,6 +3895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toIntResult",
           "package": "java-bridge",
@@ -3592,6 +3905,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toIntResult",
           "normalized": "Either JThrowable Int-\u003eJava a",
@@ -3607,6 +3921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toLong",
           "package": "java-bridge",
@@ -3616,6 +3931,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toLong",
           "normalized": "a-\u003eJava Int",
@@ -3631,6 +3947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toLongResult",
           "package": "java-bridge",
@@ -3640,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toLongResult",
           "normalized": "Either JThrowable Int-\u003eJava a",
@@ -3655,6 +3973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toObjectResult",
           "package": "java-bridge",
@@ -3664,6 +3983,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toObjectResult",
           "normalized": "Either JThrowable(Maybe JObject)-\u003eJava a",
@@ -3679,6 +3999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toShort",
           "package": "java-bridge",
@@ -3688,6 +4009,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toShort",
           "normalized": "a-\u003eJava Int",
@@ -3703,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toShortResult",
           "package": "java-bridge",
@@ -3712,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toShortResult",
           "normalized": "Either JThrowable Int-\u003eJava a",
@@ -3727,6 +4051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toVoidResult",
           "package": "java-bridge",
@@ -3736,6 +4061,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "toVoidResult",
           "normalized": "Either JThrowable()-\u003eJava a",
@@ -3752,6 +4078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor INTERNAL use only. Do not use yourself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "unsafeFromJObject",
           "package": "java-bridge",
@@ -3762,6 +4089,7 @@
         "index": {
           "description": "For INTERNAL use only Do not use yourself",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "unsafeFromJObject",
           "normalized": "JObject-\u003eJava a",
@@ -3778,6 +4106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the object of type \u003ccode\u003ea\u003c/code\u003e is an instance\n of the type \u003ccode\u003ec\u003c/code\u003e, represented by \u003ccode\u003eb\u003c/code\u003e. If so, it will coerce\n the object of type \u003ccode\u003ea\u003c/code\u003e and pass it to the given action.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003ea\u003c/code\u003e was an instance of \u003ccode\u003ec\u003c/code\u003e (where \u003ccode\u003ec\u003c/code\u003e is represented\n by \u003ccode\u003eb\u003c/code\u003e) this function will return \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e d\u003c/code\u003e, where \u003ccode\u003ed\u003c/code\u003e is\n the result of the optional computation. If not, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "whenInstanceOf",
           "package": "java-bridge",
@@ -3788,6 +4117,7 @@
         "index": {
           "description": "Check if the object of type is an instance of the type represented by If so it will coerce the object of type and pass it to the given action If was an instance of where is represented by this function will return Just where is the result of the optional computation If not Nothing is returned",
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "whenInstanceOf",
           "normalized": "a-\u003eb-\u003e(CoercedType b-\u003eJava c)-\u003eJava(Maybe c)",
@@ -3803,6 +4133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "wrap",
           "package": "java-bridge",
@@ -3812,6 +4143,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "wrap",
           "normalized": "Java()-\u003eIO(FunPtr WrappedFun)",
@@ -3826,6 +4158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings.Support",
           "name": "wrap_",
           "package": "java-bridge",
@@ -3835,6 +4168,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings Support",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings.Support",
           "name": "wrap_",
           "normalized": "WrappedFun-\u003eIO(FunPtr WrappedFun)",
@@ -3850,6 +4184,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for generating glue code between Haskell and Java.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings",
           "name": "Bindings",
           "package": "java-bridge",
@@ -3859,6 +4194,7 @@
         "index": {
           "description": "Functions for generating glue code between Haskell and Java",
           "hierarchy": "Foreign Java Bindings",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings",
           "name": "Bindings",
           "package": "java-bridge",
@@ -3873,6 +4209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all classes that the given classes depend on.\n\u003c/p\u003e\u003cp\u003eIn order to provide proper bindings for a class, bindings\n for all classes which a class depends on need to exist too.\n A class depends on all classes which it inherits from or\n which are used as arguments, return types, or parameters.\n\u003c/p\u003e\u003cp\u003eThis functions returns all the class names of the classes\n on which the given classes depend on. No duplicates are\n reported and the resulting list is sorted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings",
           "name": "findJavaClasses",
           "package": "java-bridge",
@@ -3883,6 +4220,7 @@
         "index": {
           "description": "Find all classes that the given classes depend on In order to provide proper bindings for class bindings for all classes which class depends on need to exist too class depends on all classes which it inherits from or which are used as arguments return types or parameters This functions returns all the class names of the classes on which the given classes depend on No duplicates are reported and the resulting list is sorted",
           "hierarchy": "Foreign Java Bindings",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings",
           "name": "findJavaClasses",
           "normalized": "Word-\u003e[String]-\u003eJava[String]",
@@ -3899,6 +4237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe names of all Java Classes part of Java SE 6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings",
           "name": "javaClassesSE6",
           "package": "java-bridge",
@@ -3909,6 +4248,7 @@
         "index": {
           "description": "The names of all Java Classes part of Java SE",
           "hierarchy": "Foreign Java Bindings",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings",
           "name": "javaClassesSE6",
           "normalized": "[String]",
@@ -3924,6 +4264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings",
           "name": "printJavaClassBootfile",
           "package": "java-bridge",
@@ -3933,6 +4274,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings",
           "name": "printJavaClassBootfile",
           "normalized": "JavaClass-\u003eString-\u003eMap String JavaClass-\u003eString",
@@ -3948,6 +4290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings",
           "name": "printJavaClassBootfile'",
           "package": "java-bridge",
@@ -3957,6 +4300,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings",
           "name": "printJavaClassBootfile'",
           "normalized": "JavaClass-\u003eString-\u003eMap String JavaClass-\u003eString",
@@ -3972,6 +4316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings",
           "name": "printJavaClassModule",
           "package": "java-bridge",
@@ -3981,6 +4326,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings",
           "name": "printJavaClassModule",
           "normalized": "JavaClass-\u003eString-\u003eMap String JavaClass-\u003eString",
@@ -3996,6 +4342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings",
           "name": "printJavaClassModule'",
           "package": "java-bridge",
@@ -4005,6 +4352,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings",
           "name": "printJavaClassModule'",
           "normalized": "JavaClass-\u003eString-\u003eMap String JavaClass-\u003eString",
@@ -4020,6 +4368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings",
           "name": "printJavaPackageModule",
           "package": "java-bridge",
@@ -4029,6 +4378,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Bindings",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings",
           "name": "printJavaPackageModule",
           "normalized": "String-\u003eString-\u003eMap String JavaClass-\u003e[JavaClass]-\u003eString",
@@ -4045,6 +4395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve information about the given Java classes\n from the Java Virtual Machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Bindings",
           "name": "reflectJavaClasses",
           "package": "java-bridge",
@@ -4055,6 +4406,7 @@
         "index": {
           "description": "Retrieve information about the given Java classes from the Java Virtual Machine",
           "hierarchy": "Foreign Java Bindings",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Bindings",
           "name": "reflectJavaClasses",
           "normalized": "[String]-\u003eJava[JavaClass]",
@@ -4071,6 +4423,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for controlling actions inside the Java monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Control",
           "name": "Control",
           "package": "java-bridge",
@@ -4080,6 +4433,7 @@
         "index": {
           "description": "Utilities for controlling actions inside the Java monad",
           "hierarchy": "Foreign Java Control",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Control",
           "name": "Control",
           "package": "java-bridge",
@@ -4094,6 +4448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReiterate a computation on a given value as long\n as a condition is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Control",
           "name": "for",
           "package": "java-bridge",
@@ -4104,6 +4459,7 @@
         "index": {
           "description": "Reiterate computation on given value as long as condition is True",
           "hierarchy": "Foreign Java Control",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Control",
           "name": "for",
           "normalized": "a-\u003e(a-\u003eb Bool)-\u003e(a-\u003eb a)-\u003eb a",
@@ -4119,6 +4475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an action if the given predicate\n evaluates to \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Control",
           "name": "unless",
           "package": "java-bridge",
@@ -4129,6 +4486,7 @@
         "index": {
           "description": "Execute an action if the given predicate evaluates to False",
           "hierarchy": "Foreign Java Control",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Control",
           "name": "unless",
           "normalized": "a Bool-\u003ea()-\u003ea()",
@@ -4144,6 +4502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReiterate a computation on a given value until\n a condition is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Control",
           "name": "until",
           "package": "java-bridge",
@@ -4154,6 +4513,7 @@
         "index": {
           "description": "Reiterate computation on given value until condition is True",
           "hierarchy": "Foreign Java Control",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Control",
           "name": "until",
           "normalized": "a-\u003e(a-\u003eb(Bool,a))-\u003eb a",
@@ -4169,6 +4529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an action if the given predicate\n evaluates to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Control",
           "name": "when",
           "package": "java-bridge",
@@ -4179,6 +4540,7 @@
         "index": {
           "description": "Execute an action if the given predicate evaluates to True",
           "hierarchy": "Foreign Java Control",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Control",
           "name": "when",
           "normalized": "a Bool-\u003ea()-\u003ea()",
@@ -4194,6 +4556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute either the first or the second action,\n depending on whether the given predicate evaluates\n to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Control",
           "name": "whether",
           "package": "java-bridge",
@@ -4204,6 +4567,7 @@
         "index": {
           "description": "Execute either the first or the second action depending on whether the given predicate evaluates to True or False",
           "hierarchy": "Foreign Java Control",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Control",
           "name": "whether",
           "normalized": "a Bool-\u003ea b-\u003ea b-\u003ea b",
@@ -4219,6 +4583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation as long as the given predicate\n evaluates to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Control",
           "name": "while",
           "package": "java-bridge",
@@ -4229,6 +4594,7 @@
         "index": {
           "description": "Run computation as long as the given predicate evaluates to True",
           "hierarchy": "Foreign Java Control",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Control",
           "name": "while",
           "normalized": "a Bool-\u003ea()-\u003ea()",
@@ -4244,6 +4610,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities to ease IO operations in the Java monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.IO",
           "name": "IO",
           "package": "java-bridge",
@@ -4253,6 +4620,7 @@
         "index": {
           "description": "Utilities to ease IO operations in the Java monad",
           "hierarchy": "Foreign Java IO",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.IO",
           "name": "IO",
           "package": "java-bridge",
@@ -4266,6 +4634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.IO",
           "name": "PrintLn",
           "package": "java-bridge",
@@ -4274,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java IO",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.IO",
           "name": "PrintLn",
           "package": "java-bridge",
@@ -4288,6 +4658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ccode\u003e\u003ca\u003eputStr\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, but with a specialized\n version for Strings plus it can be used within any\n \u003ccode\u003e\u003ca\u003eMonadIO\u003c/a\u003e\u003c/code\u003e monad (such as IO and Java).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.IO",
           "name": "print",
           "package": "java-bridge",
@@ -4298,6 +4669,7 @@
         "index": {
           "description": "Like putStr show but with specialized version for Strings plus it can be used within any MonadIO monad such as IO and Java",
           "hierarchy": "Foreign Java IO",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.IO",
           "name": "print",
           "normalized": "a-\u003eb()",
@@ -4313,6 +4685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ccode\u003e\u003ca\u003eputStrLn\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, but with a specialized\n version for Strings plus it can be used within any\n \u003ccode\u003e\u003ca\u003eMonadIO\u003c/a\u003e\u003c/code\u003e monad (such as IO and Java).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.IO",
           "name": "println",
           "package": "java-bridge",
@@ -4323,6 +4696,7 @@
         "index": {
           "description": "Like putStrLn show but with specialized version for Strings plus it can be used within any MonadIO monad such as IO and Java",
           "hierarchy": "Foreign Java IO",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.IO",
           "name": "println",
           "normalized": "a-\u003eb()",
@@ -4338,6 +4712,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow level interface to the Java Virtual Machine.\n This module is a very thin wrapper over the Java Native Interface.\n\u003c/p\u003e\u003cp\u003eNote that all functions that return references (of type \u003ccode\u003ePtr JObjectRef\u003c/code\u003e)\n return global references which you will need to free manually.\n\u003c/p\u003e\u003cp\u003eThis module contains safe bindings, see also\n \u003ca\u003eForeign.Java.JNI.Unsafe\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eRead the \u003cem\u003eThe Java Native Interface - Programmer's Guide and Specification\u003c/em\u003e\n for further information on the Java Native Interface\n (available at \u003ca\u003ehttp://www.soi.city.ac.uk/~kloukin/IN2P3/material/jni.pdf\u003c/a\u003e,\n  and \u003ca\u003ehttp://192.9.162.55/docs/books/jni/\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "Safe",
           "package": "java-bridge",
@@ -4347,6 +4722,7 @@
         "index": {
           "description": "Low level interface to the Java Virtual Machine This module is very thin wrapper over the Java Native Interface Note that all functions that return references of type Ptr JObjectRef return global references which you will need to free manually This module contains safe bindings see also Foreign.Java.JNI.Unsafe Read the The Java Native Interface Programmer Guide and Specification for further information on the Java Native Interface available at http www.soi.city.ac.uk kloukin IN2P3 material jni.pdf and http docs books jni",
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "Safe",
           "package": "java-bridge",
@@ -4360,6 +4736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JArg",
           "package": "java-bridge",
@@ -4368,6 +4745,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JArg",
           "package": "java-bridge",
@@ -4381,6 +4759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JBytes",
           "package": "java-bridge",
@@ -4389,6 +4768,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JBytes",
           "package": "java-bridge",
@@ -4402,6 +4782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JChars",
           "package": "java-bridge",
@@ -4410,6 +4791,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JChars",
           "package": "java-bridge",
@@ -4423,6 +4805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JClassRef",
           "package": "java-bridge",
@@ -4431,6 +4814,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JClassRef",
           "package": "java-bridge",
@@ -4444,6 +4828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JConstructorID",
           "package": "java-bridge",
@@ -4452,6 +4837,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JConstructorID",
           "package": "java-bridge",
@@ -4465,6 +4851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JFieldID",
           "package": "java-bridge",
@@ -4473,6 +4860,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JFieldID",
           "package": "java-bridge",
@@ -4486,6 +4874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JMethodID",
           "package": "java-bridge",
@@ -4494,6 +4883,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JMethodID",
           "package": "java-bridge",
@@ -4507,6 +4897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JObjectRef",
           "package": "java-bridge",
@@ -4515,6 +4906,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JObjectRef",
           "package": "java-bridge",
@@ -4528,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JStaticFieldID",
           "package": "java-bridge",
@@ -4536,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JStaticFieldID",
           "package": "java-bridge",
@@ -4549,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JStaticMethodID",
           "package": "java-bridge",
@@ -4557,6 +4952,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JStaticMethodID",
           "package": "java-bridge",
@@ -4570,6 +4966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JThrowableRef",
           "package": "java-bridge",
@@ -4578,6 +4975,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JThrowableRef",
           "package": "java-bridge",
@@ -4591,6 +4989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JVM",
           "package": "java-bridge",
@@ -4599,6 +4998,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JVM",
           "package": "java-bridge",
@@ -4612,6 +5012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JValues",
           "package": "java-bridge",
@@ -4620,6 +5021,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "JValues",
           "package": "java-bridge",
@@ -4908,6 +5310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "bytesFromJString",
           "package": "java-bridge",
@@ -4917,6 +5320,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "bytesFromJString",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eIO(Ptr JBytes)",
@@ -4932,6 +5336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callBooleanMethod",
           "package": "java-bridge",
@@ -4941,6 +5346,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callBooleanMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO Bool",
@@ -4956,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callByteMethod",
           "package": "java-bridge",
@@ -4965,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callByteMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -4980,6 +5388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callCharMethod",
           "package": "java-bridge",
@@ -4989,6 +5398,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callCharMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO Word",
@@ -5004,6 +5414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callDoubleMethod",
           "package": "java-bridge",
@@ -5013,6 +5424,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callDoubleMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO CDouble",
@@ -5028,6 +5440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callFloatMethod",
           "package": "java-bridge",
@@ -5037,6 +5450,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callFloatMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO CFloat",
@@ -5052,6 +5466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callIntMethod",
           "package": "java-bridge",
@@ -5061,6 +5476,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callIntMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -5076,6 +5492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callLongMethod",
           "package": "java-bridge",
@@ -5085,6 +5502,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callLongMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -5100,6 +5518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callObjectMethod",
           "package": "java-bridge",
@@ -5109,6 +5528,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callObjectMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO(Ptr JObjectRef)",
@@ -5124,6 +5544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callShortMethod",
           "package": "java-bridge",
@@ -5133,6 +5554,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callShortMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -5148,6 +5570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticBooleanMethod",
           "package": "java-bridge",
@@ -5157,6 +5580,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticBooleanMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO Bool",
@@ -5172,6 +5596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticByteMethod",
           "package": "java-bridge",
@@ -5181,6 +5606,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticByteMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -5196,6 +5622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticCharMethod",
           "package": "java-bridge",
@@ -5205,6 +5632,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticCharMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO Word",
@@ -5220,6 +5648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticDoubleMethod",
           "package": "java-bridge",
@@ -5229,6 +5658,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticDoubleMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO CDouble",
@@ -5244,6 +5674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticFloatMethod",
           "package": "java-bridge",
@@ -5253,6 +5684,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticFloatMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO CFloat",
@@ -5268,6 +5700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticIntMethod",
           "package": "java-bridge",
@@ -5277,6 +5710,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticIntMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -5292,6 +5726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticLongMethod",
           "package": "java-bridge",
@@ -5301,6 +5736,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticLongMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -5316,6 +5752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticObjectMethod",
           "package": "java-bridge",
@@ -5325,6 +5762,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticObjectMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO(Ptr JObjectRef)",
@@ -5340,6 +5778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticShortMethod",
           "package": "java-bridge",
@@ -5349,6 +5788,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticShortMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -5364,6 +5804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticStringMethod",
           "package": "java-bridge",
@@ -5373,6 +5814,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticStringMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO CString",
@@ -5388,6 +5830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticVoidMethod",
           "package": "java-bridge",
@@ -5397,6 +5840,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStaticVoidMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO()",
@@ -5412,6 +5856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStringMethod",
           "package": "java-bridge",
@@ -5421,6 +5866,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callStringMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO CString",
@@ -5436,6 +5882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callVoidMethod",
           "package": "java-bridge",
@@ -5445,6 +5892,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "callVoidMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO()",
@@ -5460,6 +5908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "charsFromJString",
           "package": "java-bridge",
@@ -5469,6 +5918,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "charsFromJString",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eIO(Ptr JChars)",
@@ -5484,6 +5934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "createVM",
           "package": "java-bridge",
@@ -5493,6 +5944,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "createVM",
           "package": "java-bridge",
@@ -5530,6 +5982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "destroyVM",
           "package": "java-bridge",
@@ -5539,6 +5992,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "destroyVM",
           "normalized": "Ptr JVM-\u003eIO()",
@@ -5555,6 +6009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether an exception has occured in the virtual\n machine or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "exceptionCheck",
           "package": "java-bridge",
@@ -5565,6 +6020,7 @@
         "index": {
           "description": "Checks whether an exception has occured in the virtual machine or not",
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "exceptionCheck",
           "normalized": "Ptr JVM-\u003eIO Bool",
@@ -5580,6 +6036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "exceptionClear",
           "package": "java-bridge",
@@ -5589,6 +6046,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "exceptionClear",
           "normalized": "Ptr JVM-\u003eIO()",
@@ -5604,6 +6062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "exceptionDescribe",
           "package": "java-bridge",
@@ -5613,6 +6072,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "exceptionDescribe",
           "normalized": "Ptr JVM-\u003eIO()",
@@ -5629,6 +6089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether an exception occured and return that exception.\n If no exception occured, the returned pointer will be the \u003ccode\u003e\u003ca\u003enullPtr\u003c/a\u003e\u003c/code\u003e.\n This method will return a local reference only, so beware that the\n obtained Ptr will not be valid for too long.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "exceptionOccurred",
           "package": "java-bridge",
@@ -5639,6 +6100,7 @@
         "index": {
           "description": "Checks whether an exception occured and return that exception If no exception occured the returned pointer will be the nullPtr This method will return local reference only so beware that the obtained Ptr will not be valid for too long",
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "exceptionOccurred",
           "normalized": "Ptr JVM-\u003eIO(Ptr JThrowableRef)",
@@ -5655,6 +6117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether an exception occured and return that exception.\n If no exception occured, the returned pointer will be the \u003ccode\u003e\u003ca\u003enullPtr\u003c/a\u003e\u003c/code\u003e.\n This method will also call exceptionClear which means that it can\n not be called twice. This method will return a global reference\n - as opposed to \u003ccode\u003e\u003ca\u003eexceptionOccurred\u003c/a\u003e\u003c/code\u003e, which will return a local\n reference only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "exceptionOccurredClear",
           "package": "java-bridge",
@@ -5665,6 +6128,7 @@
         "index": {
           "description": "Checks whether an exception occured and return that exception If no exception occured the returned pointer will be the nullPtr This method will also call exceptionClear which means that it can not be called twice This method will return global reference as opposed to exceptionOccurred which will return local reference only",
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "exceptionOccurredClear",
           "normalized": "Ptr JVM-\u003eIO(Ptr JThrowableRef)",
@@ -5680,6 +6144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "findClass",
           "package": "java-bridge",
@@ -5689,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "findClass",
           "normalized": "Ptr JVM-\u003eCString-\u003eIO(Ptr JClassRef)",
@@ -5704,6 +6170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getArrayLength",
           "package": "java-bridge",
@@ -5713,6 +6180,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getArrayLength",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eIO Int",
@@ -5728,6 +6196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getBooleanField",
           "package": "java-bridge",
@@ -5737,6 +6206,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getBooleanField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO Bool",
@@ -5752,6 +6222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getByteField",
           "package": "java-bridge",
@@ -5761,6 +6232,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getByteField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO Int",
@@ -5776,6 +6248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getCharField",
           "package": "java-bridge",
@@ -5785,6 +6258,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getCharField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO Word",
@@ -5801,6 +6275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the path to libjvm with which this library has been\n compiled. This is guaranteed to never return \u003ccode\u003e\u003ca\u003enullPtr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou are not allowed to invoke \u003ccode\u003e\u003ca\u003efree\u003c/a\u003e\u003c/code\u003e on the returned cstring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getCompiledLibjvmPath",
           "package": "java-bridge",
@@ -5811,6 +6286,7 @@
         "index": {
           "description": "Returns the path to libjvm with which this library has been compiled This is guaranteed to never return nullPtr You are not allowed to invoke free on the returned cstring",
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getCompiledLibjvmPath",
           "package": "java-bridge",
@@ -5824,6 +6300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getConstructorID",
           "package": "java-bridge",
@@ -5833,6 +6310,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getConstructorID",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003eCString-\u003eIO(Ptr JConstructorID)",
@@ -5848,6 +6326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getDebugStatus",
           "package": "java-bridge",
@@ -5857,6 +6336,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getDebugStatus",
           "package": "java-bridge",
@@ -5870,6 +6350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getDoubleField",
           "package": "java-bridge",
@@ -5879,6 +6360,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getDoubleField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO CDouble",
@@ -5894,6 +6376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getFieldID",
           "package": "java-bridge",
@@ -5903,6 +6386,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getFieldID",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003eCString-\u003eCString-\u003eIO(Ptr JFieldID)",
@@ -5918,6 +6402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getFloatField",
           "package": "java-bridge",
@@ -5927,6 +6412,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getFloatField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO CFloat",
@@ -5942,6 +6428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getIntField",
           "package": "java-bridge",
@@ -5951,6 +6438,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getIntField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO Int",
@@ -5967,6 +6455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the path to libjvm that is used by this library.\n Note that this will return the \u003ccode\u003enullPtr\u003c/code\u003e if the library has not\n yet been initialized. The library is lazily initialized the first\n time that \u003ccode\u003erunJava'\u003c/code\u003e is used. \u003ccode\u003erunJava\u003c/code\u003e is implemented in terms of\n \u003ccode\u003erunJava\u003c/code\u003e, as is \u003ccode\u003einitJava\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou are not allowed to invoke \u003ccode\u003e\u003ca\u003efree\u003c/a\u003e\u003c/code\u003e on the returned cstring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getLibjvmPath",
           "package": "java-bridge",
@@ -5977,6 +6466,7 @@
         "index": {
           "description": "Returns the path to libjvm that is used by this library Note that this will return the nullPtr if the library has not yet been initialized The library is lazily initialized the first time that runJava is used runJava is implemented in terms of runJava as is initJava You are not allowed to invoke free on the returned cstring",
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getLibjvmPath",
           "package": "java-bridge",
@@ -5990,6 +6480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getLongField",
           "package": "java-bridge",
@@ -5999,6 +6490,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getLongField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO Int",
@@ -6014,6 +6506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getMethodID",
           "package": "java-bridge",
@@ -6023,6 +6516,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getMethodID",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003eCString-\u003eCString-\u003eIO(Ptr JMethodID)",
@@ -6038,6 +6532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getObjectClass",
           "package": "java-bridge",
@@ -6047,6 +6542,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getObjectClass",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eIO(Ptr JClassRef)",
@@ -6062,6 +6558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getObjectField",
           "package": "java-bridge",
@@ -6071,6 +6568,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getObjectField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO(Ptr JObjectRef)",
@@ -6086,6 +6584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getShortField",
           "package": "java-bridge",
@@ -6095,6 +6594,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getShortField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO Int",
@@ -6110,6 +6610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticBooleanField",
           "package": "java-bridge",
@@ -6119,6 +6620,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticBooleanField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO Bool",
@@ -6134,6 +6636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticByteField",
           "package": "java-bridge",
@@ -6143,6 +6646,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticByteField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO Int",
@@ -6158,6 +6662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticCharField",
           "package": "java-bridge",
@@ -6167,6 +6672,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticCharField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO Word",
@@ -6182,6 +6688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticDoubleField",
           "package": "java-bridge",
@@ -6191,6 +6698,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticDoubleField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO CDouble",
@@ -6206,6 +6714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticFieldID",
           "package": "java-bridge",
@@ -6215,6 +6724,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticFieldID",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003eCString-\u003eCString-\u003eIO(Ptr JStaticFieldID)",
@@ -6230,6 +6740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticFloatField",
           "package": "java-bridge",
@@ -6239,6 +6750,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticFloatField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO CFloat",
@@ -6254,6 +6766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticIntField",
           "package": "java-bridge",
@@ -6263,6 +6776,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticIntField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO Int",
@@ -6278,6 +6792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticLongField",
           "package": "java-bridge",
@@ -6287,6 +6802,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticLongField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO Int",
@@ -6302,6 +6818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticMethodID",
           "package": "java-bridge",
@@ -6311,6 +6828,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticMethodID",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003eCString-\u003eCString-\u003eIO(Ptr JStaticMethodID)",
@@ -6326,6 +6844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticObjectField",
           "package": "java-bridge",
@@ -6335,6 +6854,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticObjectField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO(Ptr JObjectRef)",
@@ -6350,6 +6870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticShortField",
           "package": "java-bridge",
@@ -6359,6 +6880,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticShortField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO Int",
@@ -6374,6 +6896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticStringField",
           "package": "java-bridge",
@@ -6383,6 +6906,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStaticStringField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO CString",
@@ -6398,6 +6922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStringField",
           "package": "java-bridge",
@@ -6407,6 +6932,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "getStringField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO CString",
@@ -6422,6 +6948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "isInstanceOf",
           "package": "java-bridge",
@@ -6431,6 +6958,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "isInstanceOf",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JClassRef-\u003eIO Bool",
@@ -6446,6 +6974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "jStringToCString",
           "package": "java-bridge",
@@ -6455,6 +6984,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "jStringToCString",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eCString-\u003eIO()",
@@ -6471,6 +7001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a JValues Array which can be used for argument\n passing to a multi parameter method. You need to free the\n Ptr object manually using \u003ccode\u003e\u003ca\u003efree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis method is implemented using \u003ccode\u003ecalloc\u003c/code\u003e internally.\n See the native implementation of \u003ccode\u003enewJValues\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "mkJValues",
           "package": "java-bridge",
@@ -6481,6 +7012,7 @@
         "index": {
           "description": "Create JValues Array which can be used for argument passing to multi parameter method You need to free the Ptr object manually using free This method is implemented using calloc internally See the native implementation of newJValues",
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "mkJValues",
           "normalized": "Ptr JVM-\u003e[JArg]-\u003eIO(Ptr JValues)",
@@ -6496,6 +7028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "newJString",
           "package": "java-bridge",
@@ -6505,6 +7038,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "newJString",
           "normalized": "Ptr JVM-\u003eCString-\u003eIO(Ptr JObjectRef)",
@@ -6520,6 +7054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "newJValues",
           "package": "java-bridge",
@@ -6529,6 +7064,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "newJValues",
           "normalized": "CInt-\u003eIO(Ptr JValues)",
@@ -6544,6 +7080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "newObject",
           "package": "java-bridge",
@@ -6553,6 +7090,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "newObject",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JConstructorID-\u003ePtr JValues-\u003eIO(Ptr JObjectRef)",
@@ -6568,6 +7106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "persistVM",
           "package": "java-bridge",
@@ -6577,6 +7116,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "persistVM",
           "normalized": "Ptr JVM-\u003eIO()",
@@ -6592,6 +7132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "registerCallbacks",
           "package": "java-bridge",
@@ -6601,6 +7142,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "registerCallbacks",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003eIO Bool",
@@ -6617,6 +7159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erelease\u003c/code\u003e is a special function which can be used to create a\n \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e. A ForeignPtr does not carry a reference to a virtual\n machine (no \u003ccode\u003ePtr JVM\u003c/code\u003e), thus this function will lookup the current\n virtual machine or do nothing if it can not find one. It is\n realised as a \u003ccode\u003e\u003ca\u003eFunPtr\u003c/a\u003e\u003c/code\u003e as this is what \u003ccode\u003e\u003ca\u003enewForeignPtr\u003c/a\u003e\u003c/code\u003e expects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "release",
           "package": "java-bridge",
@@ -6627,6 +7170,7 @@
         "index": {
           "description": "release is special function which can be used to create ForeignPtr ForeignPtr does not carry reference to virtual machine no Ptr JVM thus this function will lookup the current virtual machine or do nothing if it can not find one It is realised as FunPtr as this is what newForeignPtr expects",
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "release",
           "normalized": "FunPtr(Ptr a-\u003eIO())",
@@ -6641,6 +7185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "releaseJBytes",
           "package": "java-bridge",
@@ -6650,6 +7195,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "releaseJBytes",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eCString-\u003eIO()",
@@ -6665,6 +7211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "releaseJChars",
           "package": "java-bridge",
@@ -6674,6 +7221,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "releaseJChars",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eCString-\u003eIO()",
@@ -6689,6 +7237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "releaseJClassRef",
           "package": "java-bridge",
@@ -6698,6 +7247,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "releaseJClassRef",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003eIO()",
@@ -6713,6 +7263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "releaseJObjectRef",
           "package": "java-bridge",
@@ -6722,6 +7273,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "releaseJObjectRef",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eIO()",
@@ -6737,6 +7289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "releaseJThrowableRef",
           "package": "java-bridge",
@@ -6746,6 +7299,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "releaseJThrowableRef",
           "normalized": "Ptr JVM-\u003ePtr JThrowableRef-\u003eIO()",
@@ -6761,6 +7315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "runCocoaMain",
           "package": "java-bridge",
@@ -6770,6 +7325,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "runCocoaMain",
           "normalized": "IO()",
@@ -6785,6 +7341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setBooleanField",
           "package": "java-bridge",
@@ -6794,6 +7351,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setBooleanField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eBool-\u003eIO()",
@@ -6809,6 +7367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setByteField",
           "package": "java-bridge",
@@ -6818,6 +7377,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setByteField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eInt-\u003eIO()",
@@ -6833,6 +7393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setCharField",
           "package": "java-bridge",
@@ -6842,6 +7403,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setCharField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eWord-\u003eIO()",
@@ -6857,6 +7419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setDebugStatus",
           "package": "java-bridge",
@@ -6866,6 +7429,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setDebugStatus",
           "normalized": "Bool-\u003eIO()",
@@ -6881,6 +7445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setDoubleField",
           "package": "java-bridge",
@@ -6890,6 +7455,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setDoubleField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eCDouble-\u003eIO()",
@@ -6905,6 +7471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setFloatField",
           "package": "java-bridge",
@@ -6914,6 +7481,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setFloatField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eCFloat-\u003eIO()",
@@ -6929,6 +7497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setIntField",
           "package": "java-bridge",
@@ -6938,6 +7507,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setIntField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eInt-\u003eIO()",
@@ -6953,6 +7523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueByte",
           "package": "java-bridge",
@@ -6962,6 +7533,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueByte",
           "normalized": "Ptr JValues-\u003eCInt-\u003eInt-\u003eIO()",
@@ -6977,6 +7549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueDouble",
           "package": "java-bridge",
@@ -6986,6 +7559,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueDouble",
           "normalized": "Ptr JValues-\u003eCInt-\u003eCDouble-\u003eIO()",
@@ -7001,6 +7575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueFloat",
           "package": "java-bridge",
@@ -7010,6 +7585,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueFloat",
           "normalized": "Ptr JValues-\u003eCInt-\u003eCFloat-\u003eIO()",
@@ -7025,6 +7601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueInt",
           "package": "java-bridge",
@@ -7034,6 +7611,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueInt",
           "normalized": "Ptr JValues-\u003eCInt-\u003eInt-\u003eIO()",
@@ -7049,6 +7627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueLong",
           "package": "java-bridge",
@@ -7058,6 +7637,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueLong",
           "normalized": "Ptr JValues-\u003eCInt-\u003eInt-\u003eIO()",
@@ -7073,6 +7653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueObject",
           "package": "java-bridge",
@@ -7082,6 +7663,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueObject",
           "normalized": "Ptr JValues-\u003eCInt-\u003ePtr JObjectRef-\u003eIO()",
@@ -7097,6 +7679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueShort",
           "package": "java-bridge",
@@ -7106,6 +7689,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueShort",
           "normalized": "Ptr JValues-\u003eCInt-\u003eInt-\u003eIO()",
@@ -7121,6 +7705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueString",
           "package": "java-bridge",
@@ -7130,6 +7715,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setJValueString",
           "normalized": "Ptr JVM-\u003ePtr JValues-\u003eCInt-\u003eCString-\u003eIO()",
@@ -7146,6 +7732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the path to libjvm. Note that this will only have an\n effect if the library has not yet been initialized, that is\n before any of the following functions is used: \u003ccode\u003erunJava\u003c/code\u003e,\n \u003ccode\u003erunJava'\u003c/code\u003e, and \u003ccode\u003einitJava\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eDo not invoke \u003ccode\u003e\u003ca\u003efree\u003c/a\u003e\u003c/code\u003e on the cstring passed to this function,\n as this function will not set a copy but the object given.\n It is only ever used once during the lifecycle of your\n application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setLibjvmPath",
           "package": "java-bridge",
@@ -7156,6 +7743,7 @@
         "index": {
           "description": "Sets the path to libjvm Note that this will only have an effect if the library has not yet been initialized that is before any of the following functions is used runJava runJava and initJava Do not invoke free on the cstring passed to this function as this function will not set copy but the object given It is only ever used once during the lifecycle of your application",
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setLibjvmPath",
           "normalized": "CString-\u003eIO()",
@@ -7171,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setLongField",
           "package": "java-bridge",
@@ -7180,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setLongField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eInt-\u003eIO()",
@@ -7195,6 +7785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setObjectField",
           "package": "java-bridge",
@@ -7204,6 +7795,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setObjectField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003ePtr JObjectRef-\u003eIO()",
@@ -7219,6 +7811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setShortField",
           "package": "java-bridge",
@@ -7228,6 +7821,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setShortField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eInt-\u003eIO()",
@@ -7243,6 +7837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticBooleanField",
           "package": "java-bridge",
@@ -7252,6 +7847,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticBooleanField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eBool-\u003eIO()",
@@ -7267,6 +7863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticByteField",
           "package": "java-bridge",
@@ -7276,6 +7873,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticByteField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eInt-\u003eIO()",
@@ -7291,6 +7889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticCharField",
           "package": "java-bridge",
@@ -7300,6 +7899,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticCharField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eWord-\u003eIO()",
@@ -7315,6 +7915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticDoubleField",
           "package": "java-bridge",
@@ -7324,6 +7925,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticDoubleField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eCDouble-\u003eIO()",
@@ -7339,6 +7941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticFloatField",
           "package": "java-bridge",
@@ -7348,6 +7951,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticFloatField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eCFloat-\u003eIO()",
@@ -7363,6 +7967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticIntField",
           "package": "java-bridge",
@@ -7372,6 +7977,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticIntField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eInt-\u003eIO()",
@@ -7387,6 +7993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticLongField",
           "package": "java-bridge",
@@ -7396,6 +8003,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticLongField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eInt-\u003eIO()",
@@ -7411,6 +8019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticObjectField",
           "package": "java-bridge",
@@ -7420,6 +8029,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticObjectField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003ePtr JObjectRef-\u003eIO()",
@@ -7435,6 +8045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticShortField",
           "package": "java-bridge",
@@ -7444,6 +8055,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticShortField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eInt-\u003eIO()",
@@ -7459,6 +8071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticStringField",
           "package": "java-bridge",
@@ -7468,6 +8081,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStaticStringField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eCString-\u003eIO()",
@@ -7483,6 +8097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStringField",
           "package": "java-bridge",
@@ -7492,6 +8107,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Safe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Safe",
           "name": "setStringField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eCString-\u003eIO()",
@@ -7508,6 +8124,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow level interface to the Java Virtual Machine.\n This module is a very thin wrapper over the Java Native Interface.\n\u003c/p\u003e\u003cp\u003eNote that all functions that return references (of type \u003ccode\u003ePtr JObjectRef\u003c/code\u003e)\n return global references which you will need to free manually.\n\u003c/p\u003e\u003cp\u003eThis module contains unsafe bindings, see also\n \u003ca\u003eForeign.Java.JNI.Safe\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eRead the \u003cem\u003eThe Java Native Interface - Programmer's Guide and Specification\u003c/em\u003e\n for further information on the Java Native Interface\n (available at \u003ca\u003ehttp://www.soi.city.ac.uk/~kloukin/IN2P3/material/jni.pdf\u003c/a\u003e,\n  and \u003ca\u003ehttp://192.9.162.55/docs/books/jni/\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "Unsafe",
           "package": "java-bridge",
@@ -7517,6 +8134,7 @@
         "index": {
           "description": "Low level interface to the Java Virtual Machine This module is very thin wrapper over the Java Native Interface Note that all functions that return references of type Ptr JObjectRef return global references which you will need to free manually This module contains unsafe bindings see also Foreign.Java.JNI.Safe Read the The Java Native Interface Programmer Guide and Specification for further information on the Java Native Interface available at http www.soi.city.ac.uk kloukin IN2P3 material jni.pdf and http docs books jni",
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "Unsafe",
           "package": "java-bridge",
@@ -7530,6 +8148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JArg",
           "package": "java-bridge",
@@ -7538,6 +8157,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JArg",
           "package": "java-bridge",
@@ -7551,6 +8171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JBytes",
           "package": "java-bridge",
@@ -7559,6 +8180,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JBytes",
           "package": "java-bridge",
@@ -7572,6 +8194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JChars",
           "package": "java-bridge",
@@ -7580,6 +8203,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JChars",
           "package": "java-bridge",
@@ -7593,6 +8217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JClassRef",
           "package": "java-bridge",
@@ -7601,6 +8226,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JClassRef",
           "package": "java-bridge",
@@ -7614,6 +8240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JConstructorID",
           "package": "java-bridge",
@@ -7622,6 +8249,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JConstructorID",
           "package": "java-bridge",
@@ -7635,6 +8263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JFieldID",
           "package": "java-bridge",
@@ -7643,6 +8272,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JFieldID",
           "package": "java-bridge",
@@ -7656,6 +8286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JMethodID",
           "package": "java-bridge",
@@ -7664,6 +8295,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JMethodID",
           "package": "java-bridge",
@@ -7677,6 +8309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JObjectRef",
           "package": "java-bridge",
@@ -7685,6 +8318,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JObjectRef",
           "package": "java-bridge",
@@ -7698,6 +8332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JStaticFieldID",
           "package": "java-bridge",
@@ -7706,6 +8341,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JStaticFieldID",
           "package": "java-bridge",
@@ -7719,6 +8355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JStaticMethodID",
           "package": "java-bridge",
@@ -7727,6 +8364,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JStaticMethodID",
           "package": "java-bridge",
@@ -7740,6 +8378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JThrowableRef",
           "package": "java-bridge",
@@ -7748,6 +8387,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JThrowableRef",
           "package": "java-bridge",
@@ -7761,6 +8401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JVM",
           "package": "java-bridge",
@@ -7769,6 +8410,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JVM",
           "package": "java-bridge",
@@ -7782,6 +8424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JValues",
           "package": "java-bridge",
@@ -7790,6 +8433,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "JValues",
           "package": "java-bridge",
@@ -7803,6 +8447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "bytesFromJString",
           "package": "java-bridge",
@@ -7812,6 +8457,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "bytesFromJString",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eIO(Ptr JBytes)",
@@ -7827,6 +8473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callBooleanMethod",
           "package": "java-bridge",
@@ -7836,6 +8483,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callBooleanMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO Bool",
@@ -7851,6 +8499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callByteMethod",
           "package": "java-bridge",
@@ -7860,6 +8509,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callByteMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -7875,6 +8525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callCharMethod",
           "package": "java-bridge",
@@ -7884,6 +8535,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callCharMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO Word",
@@ -7899,6 +8551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callDoubleMethod",
           "package": "java-bridge",
@@ -7908,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callDoubleMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO CDouble",
@@ -7923,6 +8577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callFloatMethod",
           "package": "java-bridge",
@@ -7932,6 +8587,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callFloatMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO CFloat",
@@ -7947,6 +8603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callIntMethod",
           "package": "java-bridge",
@@ -7956,6 +8613,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callIntMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -7971,6 +8629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callLongMethod",
           "package": "java-bridge",
@@ -7980,6 +8639,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callLongMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -7995,6 +8655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callObjectMethod",
           "package": "java-bridge",
@@ -8004,6 +8665,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callObjectMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO(Ptr JObjectRef)",
@@ -8019,6 +8681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callShortMethod",
           "package": "java-bridge",
@@ -8028,6 +8691,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callShortMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -8043,6 +8707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticBooleanMethod",
           "package": "java-bridge",
@@ -8052,6 +8717,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticBooleanMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO Bool",
@@ -8067,6 +8733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticByteMethod",
           "package": "java-bridge",
@@ -8076,6 +8743,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticByteMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -8091,6 +8759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticCharMethod",
           "package": "java-bridge",
@@ -8100,6 +8769,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticCharMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO Word",
@@ -8115,6 +8785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticDoubleMethod",
           "package": "java-bridge",
@@ -8124,6 +8795,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticDoubleMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO CDouble",
@@ -8139,6 +8811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticFloatMethod",
           "package": "java-bridge",
@@ -8148,6 +8821,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticFloatMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO CFloat",
@@ -8163,6 +8837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticIntMethod",
           "package": "java-bridge",
@@ -8172,6 +8847,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticIntMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -8187,6 +8863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticLongMethod",
           "package": "java-bridge",
@@ -8196,6 +8873,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticLongMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -8211,6 +8889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticObjectMethod",
           "package": "java-bridge",
@@ -8220,6 +8899,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticObjectMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO(Ptr JObjectRef)",
@@ -8235,6 +8915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticShortMethod",
           "package": "java-bridge",
@@ -8244,6 +8925,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticShortMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO Int",
@@ -8259,6 +8941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticStringMethod",
           "package": "java-bridge",
@@ -8268,6 +8951,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticStringMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO CString",
@@ -8283,6 +8967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticVoidMethod",
           "package": "java-bridge",
@@ -8292,6 +8977,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStaticVoidMethod",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticMethodID-\u003ePtr JValues-\u003eIO()",
@@ -8307,6 +8993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStringMethod",
           "package": "java-bridge",
@@ -8316,6 +9003,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callStringMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO CString",
@@ -8331,6 +9019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callVoidMethod",
           "package": "java-bridge",
@@ -8340,6 +9029,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "callVoidMethod",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JMethodID-\u003ePtr JValues-\u003eIO()",
@@ -8355,6 +9045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "charsFromJString",
           "package": "java-bridge",
@@ -8364,6 +9055,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "charsFromJString",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eIO(Ptr JChars)",
@@ -8379,6 +9071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "createVM",
           "package": "java-bridge",
@@ -8388,6 +9081,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "createVM",
           "package": "java-bridge",
@@ -8401,6 +9095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "destroyVM",
           "package": "java-bridge",
@@ -8410,6 +9105,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "destroyVM",
           "normalized": "Ptr JVM-\u003eIO()",
@@ -8426,6 +9122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether an exception has occured in the virtual\n machine or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "exceptionCheck",
           "package": "java-bridge",
@@ -8436,6 +9133,7 @@
         "index": {
           "description": "Checks whether an exception has occured in the virtual machine or not",
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "exceptionCheck",
           "normalized": "Ptr JVM-\u003eIO Bool",
@@ -8451,6 +9149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "exceptionClear",
           "package": "java-bridge",
@@ -8460,6 +9159,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "exceptionClear",
           "normalized": "Ptr JVM-\u003eIO()",
@@ -8475,6 +9175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "exceptionDescribe",
           "package": "java-bridge",
@@ -8484,6 +9185,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "exceptionDescribe",
           "normalized": "Ptr JVM-\u003eIO()",
@@ -8500,6 +9202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether an exception occured and return that exception.\n If no exception occured, the returned pointer will be the \u003ccode\u003e\u003ca\u003enullPtr\u003c/a\u003e\u003c/code\u003e.\n This method will return a local reference only, so beware that the\n obtained Ptr will not be valid for too long.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "exceptionOccurred",
           "package": "java-bridge",
@@ -8510,6 +9213,7 @@
         "index": {
           "description": "Checks whether an exception occured and return that exception If no exception occured the returned pointer will be the nullPtr This method will return local reference only so beware that the obtained Ptr will not be valid for too long",
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "exceptionOccurred",
           "normalized": "Ptr JVM-\u003eIO(Ptr JThrowableRef)",
@@ -8526,6 +9230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether an exception occured and return that exception.\n If no exception occured, the returned pointer will be the \u003ccode\u003e\u003ca\u003enullPtr\u003c/a\u003e\u003c/code\u003e.\n This method will also call exceptionClear which means that it can\n not be called twice. This method will return a global reference\n - as opposed to \u003ccode\u003e\u003ca\u003eexceptionOccurred\u003c/a\u003e\u003c/code\u003e, which will return a local\n reference only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "exceptionOccurredClear",
           "package": "java-bridge",
@@ -8536,6 +9241,7 @@
         "index": {
           "description": "Checks whether an exception occured and return that exception If no exception occured the returned pointer will be the nullPtr This method will also call exceptionClear which means that it can not be called twice This method will return global reference as opposed to exceptionOccurred which will return local reference only",
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "exceptionOccurredClear",
           "normalized": "Ptr JVM-\u003eIO(Ptr JThrowableRef)",
@@ -8551,6 +9257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "findClass",
           "package": "java-bridge",
@@ -8560,6 +9267,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "findClass",
           "normalized": "Ptr JVM-\u003eCString-\u003eIO(Ptr JClassRef)",
@@ -8575,6 +9283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getArrayLength",
           "package": "java-bridge",
@@ -8584,6 +9293,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getArrayLength",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eIO Int",
@@ -8599,6 +9309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getBooleanField",
           "package": "java-bridge",
@@ -8608,6 +9319,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getBooleanField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO Bool",
@@ -8623,6 +9335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getByteField",
           "package": "java-bridge",
@@ -8632,6 +9345,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getByteField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO Int",
@@ -8647,6 +9361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getCharField",
           "package": "java-bridge",
@@ -8656,6 +9371,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getCharField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO Word",
@@ -8672,6 +9388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the path to libjvm with which this library has been\n compiled. This is guaranteed to never return \u003ccode\u003e\u003ca\u003enullPtr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou are not allowed to invoke \u003ccode\u003e\u003ca\u003efree\u003c/a\u003e\u003c/code\u003e on the returned cstring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getCompiledLibjvmPath",
           "package": "java-bridge",
@@ -8682,6 +9399,7 @@
         "index": {
           "description": "Returns the path to libjvm with which this library has been compiled This is guaranteed to never return nullPtr You are not allowed to invoke free on the returned cstring",
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getCompiledLibjvmPath",
           "package": "java-bridge",
@@ -8695,6 +9413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getConstructorID",
           "package": "java-bridge",
@@ -8704,6 +9423,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getConstructorID",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003eCString-\u003eIO(Ptr JConstructorID)",
@@ -8719,6 +9439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getDebugStatus",
           "package": "java-bridge",
@@ -8728,6 +9449,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getDebugStatus",
           "package": "java-bridge",
@@ -8741,6 +9463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getDoubleField",
           "package": "java-bridge",
@@ -8750,6 +9473,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getDoubleField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO CDouble",
@@ -8765,6 +9489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getFieldID",
           "package": "java-bridge",
@@ -8774,6 +9499,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getFieldID",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003eCString-\u003eCString-\u003eIO(Ptr JFieldID)",
@@ -8789,6 +9515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getFloatField",
           "package": "java-bridge",
@@ -8798,6 +9525,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getFloatField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO CFloat",
@@ -8813,6 +9541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getIntField",
           "package": "java-bridge",
@@ -8822,6 +9551,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getIntField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO Int",
@@ -8838,6 +9568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the path to libjvm that is used by this library.\n Note that this will return the \u003ccode\u003enullPtr\u003c/code\u003e if the library has not\n yet been initialized. The library is lazily initialized the first\n time that \u003ccode\u003erunJava'\u003c/code\u003e is used. \u003ccode\u003erunJava\u003c/code\u003e is implemented in terms of\n \u003ccode\u003erunJava\u003c/code\u003e, as is \u003ccode\u003einitJava\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou are not allowed to invoke \u003ccode\u003e\u003ca\u003efree\u003c/a\u003e\u003c/code\u003e on the returned cstring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getLibjvmPath",
           "package": "java-bridge",
@@ -8848,6 +9579,7 @@
         "index": {
           "description": "Returns the path to libjvm that is used by this library Note that this will return the nullPtr if the library has not yet been initialized The library is lazily initialized the first time that runJava is used runJava is implemented in terms of runJava as is initJava You are not allowed to invoke free on the returned cstring",
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getLibjvmPath",
           "package": "java-bridge",
@@ -8861,6 +9593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getLongField",
           "package": "java-bridge",
@@ -8870,6 +9603,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getLongField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO Int",
@@ -8885,6 +9619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getMethodID",
           "package": "java-bridge",
@@ -8894,6 +9629,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getMethodID",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003eCString-\u003eCString-\u003eIO(Ptr JMethodID)",
@@ -8909,6 +9645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getObjectClass",
           "package": "java-bridge",
@@ -8918,6 +9655,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getObjectClass",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eIO(Ptr JClassRef)",
@@ -8933,6 +9671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getObjectField",
           "package": "java-bridge",
@@ -8942,6 +9681,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getObjectField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO(Ptr JObjectRef)",
@@ -8957,6 +9697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getShortField",
           "package": "java-bridge",
@@ -8966,6 +9707,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getShortField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO Int",
@@ -8981,6 +9723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticBooleanField",
           "package": "java-bridge",
@@ -8990,6 +9733,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticBooleanField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO Bool",
@@ -9005,6 +9749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticByteField",
           "package": "java-bridge",
@@ -9014,6 +9759,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticByteField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO Int",
@@ -9029,6 +9775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticCharField",
           "package": "java-bridge",
@@ -9038,6 +9785,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticCharField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO Word",
@@ -9053,6 +9801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticDoubleField",
           "package": "java-bridge",
@@ -9062,6 +9811,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticDoubleField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO CDouble",
@@ -9077,6 +9827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticFieldID",
           "package": "java-bridge",
@@ -9086,6 +9837,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticFieldID",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003eCString-\u003eCString-\u003eIO(Ptr JStaticFieldID)",
@@ -9101,6 +9853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticFloatField",
           "package": "java-bridge",
@@ -9110,6 +9863,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticFloatField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO CFloat",
@@ -9125,6 +9879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticIntField",
           "package": "java-bridge",
@@ -9134,6 +9889,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticIntField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO Int",
@@ -9149,6 +9905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticLongField",
           "package": "java-bridge",
@@ -9158,6 +9915,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticLongField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO Int",
@@ -9173,6 +9931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticMethodID",
           "package": "java-bridge",
@@ -9182,6 +9941,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticMethodID",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003eCString-\u003eCString-\u003eIO(Ptr JStaticMethodID)",
@@ -9197,6 +9957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticObjectField",
           "package": "java-bridge",
@@ -9206,6 +9967,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticObjectField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO(Ptr JObjectRef)",
@@ -9221,6 +9983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticShortField",
           "package": "java-bridge",
@@ -9230,6 +9993,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticShortField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO Int",
@@ -9245,6 +10009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticStringField",
           "package": "java-bridge",
@@ -9254,6 +10019,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStaticStringField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eIO CString",
@@ -9269,6 +10035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStringField",
           "package": "java-bridge",
@@ -9278,6 +10045,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "getStringField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eIO CString",
@@ -9293,6 +10061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "isInstanceOf",
           "package": "java-bridge",
@@ -9302,6 +10071,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "isInstanceOf",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JClassRef-\u003eIO Bool",
@@ -9317,6 +10087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "jStringToCString",
           "package": "java-bridge",
@@ -9326,6 +10097,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "jStringToCString",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eCString-\u003eIO()",
@@ -9342,6 +10114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a JValues Array which can be used for argument\n passing to a multi parameter method. You need to free the\n Ptr object manually using \u003ccode\u003e\u003ca\u003efree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis method is implemented using \u003ccode\u003ecalloc\u003c/code\u003e internally.\n See the native implementation of \u003ccode\u003enewJValues\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "mkJValues",
           "package": "java-bridge",
@@ -9352,6 +10125,7 @@
         "index": {
           "description": "Create JValues Array which can be used for argument passing to multi parameter method You need to free the Ptr object manually using free This method is implemented using calloc internally See the native implementation of newJValues",
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "mkJValues",
           "normalized": "Ptr JVM-\u003e[JArg]-\u003eIO(Ptr JValues)",
@@ -9367,6 +10141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "newJString",
           "package": "java-bridge",
@@ -9376,6 +10151,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "newJString",
           "normalized": "Ptr JVM-\u003eCString-\u003eIO(Ptr JObjectRef)",
@@ -9391,6 +10167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "newJValues",
           "package": "java-bridge",
@@ -9400,6 +10177,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "newJValues",
           "normalized": "CInt-\u003eIO(Ptr JValues)",
@@ -9415,6 +10193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "newObject",
           "package": "java-bridge",
@@ -9424,6 +10203,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "newObject",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JConstructorID-\u003ePtr JValues-\u003eIO(Ptr JObjectRef)",
@@ -9439,6 +10219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "persistVM",
           "package": "java-bridge",
@@ -9448,6 +10229,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "persistVM",
           "normalized": "Ptr JVM-\u003eIO()",
@@ -9463,6 +10245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "registerCallbacks",
           "package": "java-bridge",
@@ -9472,6 +10255,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "registerCallbacks",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003eIO Bool",
@@ -9488,6 +10272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erelease\u003c/code\u003e is a special function which can be used to create a\n \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e. A ForeignPtr does not carry a reference to a virtual\n machine (no \u003ccode\u003ePtr JVM\u003c/code\u003e), thus this function will lookup the current\n virtual machine or do nothing if it can not find one. It is\n realised as a \u003ccode\u003e\u003ca\u003eFunPtr\u003c/a\u003e\u003c/code\u003e as this is what \u003ccode\u003e\u003ca\u003enewForeignPtr\u003c/a\u003e\u003c/code\u003e expects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "release",
           "package": "java-bridge",
@@ -9498,6 +10283,7 @@
         "index": {
           "description": "release is special function which can be used to create ForeignPtr ForeignPtr does not carry reference to virtual machine no Ptr JVM thus this function will lookup the current virtual machine or do nothing if it can not find one It is realised as FunPtr as this is what newForeignPtr expects",
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "release",
           "normalized": "FunPtr(Ptr a-\u003eIO())",
@@ -9512,6 +10298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "releaseJBytes",
           "package": "java-bridge",
@@ -9521,6 +10308,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "releaseJBytes",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eCString-\u003eIO()",
@@ -9536,6 +10324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "releaseJChars",
           "package": "java-bridge",
@@ -9545,6 +10334,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "releaseJChars",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eCString-\u003eIO()",
@@ -9560,6 +10350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "releaseJClassRef",
           "package": "java-bridge",
@@ -9569,6 +10360,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "releaseJClassRef",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003eIO()",
@@ -9584,6 +10376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "releaseJObjectRef",
           "package": "java-bridge",
@@ -9593,6 +10386,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "releaseJObjectRef",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003eIO()",
@@ -9608,6 +10402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "releaseJThrowableRef",
           "package": "java-bridge",
@@ -9617,6 +10412,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "releaseJThrowableRef",
           "normalized": "Ptr JVM-\u003ePtr JThrowableRef-\u003eIO()",
@@ -9632,6 +10428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "runCocoaMain",
           "package": "java-bridge",
@@ -9641,6 +10438,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "runCocoaMain",
           "normalized": "IO()",
@@ -9656,6 +10454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setBooleanField",
           "package": "java-bridge",
@@ -9665,6 +10464,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setBooleanField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eBool-\u003eIO()",
@@ -9680,6 +10480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setByteField",
           "package": "java-bridge",
@@ -9689,6 +10490,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setByteField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eInt-\u003eIO()",
@@ -9704,6 +10506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setCharField",
           "package": "java-bridge",
@@ -9713,6 +10516,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setCharField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eWord-\u003eIO()",
@@ -9728,6 +10532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setDebugStatus",
           "package": "java-bridge",
@@ -9737,6 +10542,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setDebugStatus",
           "normalized": "Bool-\u003eIO()",
@@ -9752,6 +10558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setDoubleField",
           "package": "java-bridge",
@@ -9761,6 +10568,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setDoubleField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eCDouble-\u003eIO()",
@@ -9776,6 +10584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setFloatField",
           "package": "java-bridge",
@@ -9785,6 +10594,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setFloatField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eCFloat-\u003eIO()",
@@ -9800,6 +10610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setIntField",
           "package": "java-bridge",
@@ -9809,6 +10620,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setIntField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eInt-\u003eIO()",
@@ -9824,6 +10636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueByte",
           "package": "java-bridge",
@@ -9833,6 +10646,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueByte",
           "normalized": "Ptr JValues-\u003eCInt-\u003eInt-\u003eIO()",
@@ -9848,6 +10662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueDouble",
           "package": "java-bridge",
@@ -9857,6 +10672,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueDouble",
           "normalized": "Ptr JValues-\u003eCInt-\u003eCDouble-\u003eIO()",
@@ -9872,6 +10688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueFloat",
           "package": "java-bridge",
@@ -9881,6 +10698,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueFloat",
           "normalized": "Ptr JValues-\u003eCInt-\u003eCFloat-\u003eIO()",
@@ -9896,6 +10714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueInt",
           "package": "java-bridge",
@@ -9905,6 +10724,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueInt",
           "normalized": "Ptr JValues-\u003eCInt-\u003eInt-\u003eIO()",
@@ -9920,6 +10740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueLong",
           "package": "java-bridge",
@@ -9929,6 +10750,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueLong",
           "normalized": "Ptr JValues-\u003eCInt-\u003eInt-\u003eIO()",
@@ -9944,6 +10766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueObject",
           "package": "java-bridge",
@@ -9953,6 +10776,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueObject",
           "normalized": "Ptr JValues-\u003eCInt-\u003ePtr JObjectRef-\u003eIO()",
@@ -9968,6 +10792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueShort",
           "package": "java-bridge",
@@ -9977,6 +10802,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueShort",
           "normalized": "Ptr JValues-\u003eCInt-\u003eInt-\u003eIO()",
@@ -9992,6 +10818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueString",
           "package": "java-bridge",
@@ -10001,6 +10828,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setJValueString",
           "normalized": "Ptr JVM-\u003ePtr JValues-\u003eCInt-\u003eCString-\u003eIO()",
@@ -10017,6 +10845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the path to libjvm. Note that this will only have an\n effect if the library has not yet been initialized, that is\n before any of the following functions is used: \u003ccode\u003erunJava\u003c/code\u003e,\n \u003ccode\u003erunJava'\u003c/code\u003e, and \u003ccode\u003einitJava\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eDo not invoke \u003ccode\u003e\u003ca\u003efree\u003c/a\u003e\u003c/code\u003e on the cstring passed to this function,\n as this function will not set a copy but the object given.\n It is only ever used once during the lifecycle of your\n application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setLibjvmPath",
           "package": "java-bridge",
@@ -10027,6 +10856,7 @@
         "index": {
           "description": "Sets the path to libjvm Note that this will only have an effect if the library has not yet been initialized that is before any of the following functions is used runJava runJava and initJava Do not invoke free on the cstring passed to this function as this function will not set copy but the object given It is only ever used once during the lifecycle of your application",
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setLibjvmPath",
           "normalized": "CString-\u003eIO()",
@@ -10042,6 +10872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setLongField",
           "package": "java-bridge",
@@ -10051,6 +10882,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setLongField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eInt-\u003eIO()",
@@ -10066,6 +10898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setObjectField",
           "package": "java-bridge",
@@ -10075,6 +10908,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setObjectField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003ePtr JObjectRef-\u003eIO()",
@@ -10090,6 +10924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setShortField",
           "package": "java-bridge",
@@ -10099,6 +10934,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setShortField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eInt-\u003eIO()",
@@ -10114,6 +10950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticBooleanField",
           "package": "java-bridge",
@@ -10123,6 +10960,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticBooleanField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eBool-\u003eIO()",
@@ -10138,6 +10976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticByteField",
           "package": "java-bridge",
@@ -10147,6 +10986,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticByteField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eInt-\u003eIO()",
@@ -10162,6 +11002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticCharField",
           "package": "java-bridge",
@@ -10171,6 +11012,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticCharField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eWord-\u003eIO()",
@@ -10186,6 +11028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticDoubleField",
           "package": "java-bridge",
@@ -10195,6 +11038,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticDoubleField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eCDouble-\u003eIO()",
@@ -10210,6 +11054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticFloatField",
           "package": "java-bridge",
@@ -10219,6 +11064,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticFloatField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eCFloat-\u003eIO()",
@@ -10234,6 +11080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticIntField",
           "package": "java-bridge",
@@ -10243,6 +11090,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticIntField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eInt-\u003eIO()",
@@ -10258,6 +11106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticLongField",
           "package": "java-bridge",
@@ -10267,6 +11116,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticLongField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eInt-\u003eIO()",
@@ -10282,6 +11132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticObjectField",
           "package": "java-bridge",
@@ -10291,6 +11142,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticObjectField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003ePtr JObjectRef-\u003eIO()",
@@ -10306,6 +11158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticShortField",
           "package": "java-bridge",
@@ -10315,6 +11168,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticShortField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eInt-\u003eIO()",
@@ -10330,6 +11184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticStringField",
           "package": "java-bridge",
@@ -10339,6 +11194,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStaticStringField",
           "normalized": "Ptr JVM-\u003ePtr JClassRef-\u003ePtr JStaticFieldID-\u003eCString-\u003eIO()",
@@ -10354,6 +11210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStringField",
           "package": "java-bridge",
@@ -10363,6 +11220,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI Unsafe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI.Unsafe",
           "name": "setStringField",
           "normalized": "Ptr JVM-\u003ePtr JObjectRef-\u003ePtr JFieldID-\u003eCString-\u003eIO()",
@@ -10379,6 +11237,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains information about the java bridge on your\n system. For the low level interface use \u003ca\u003eForeign.Java.JNI.Safe\u003c/a\u003e or\n \u003ca\u003eForeign.Java.JNI.Unsafe\u003c/a\u003e, for the medium level interface use\n \u003ca\u003eForeign.Java\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eFor creating high level bindings between Haskell and Java use\n \u003ca\u003eForeign.Java.Bindings\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI",
           "name": "JNI",
           "package": "java-bridge",
@@ -10388,6 +11247,7 @@
         "index": {
           "description": "This module contains information about the java bridge on your system For the low level interface use Foreign.Java.JNI.Safe or Foreign.Java.JNI.Unsafe for the medium level interface use Foreign.Java For creating high level bindings between Haskell and Java use Foreign.Java.Bindings",
           "hierarchy": "Foreign Java JNI",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI",
           "name": "JNI",
           "package": "java-bridge",
@@ -10401,6 +11261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI",
           "name": "JniFlag",
           "package": "java-bridge",
@@ -10409,6 +11270,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java JNI",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI",
           "name": "JniFlag",
           "package": "java-bridge",
@@ -10423,6 +11285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe java bridge was compiled with debug\n   symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI",
           "name": "DEBUG",
           "package": "java-bridge",
@@ -10433,6 +11296,7 @@
         "index": {
           "description": "The java bridge was compiled with debug symbols",
           "hierarchy": "Foreign Java JNI",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI",
           "name": "DEBUG",
           "package": "java-bridge",
@@ -10447,6 +11311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe java bridge was compiled with only the\n   core modules (low level interface).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI",
           "name": "ONLY_CORE",
           "package": "java-bridge",
@@ -10457,6 +11322,7 @@
         "index": {
           "description": "The java bridge was compiled with only the core modules low level interface",
           "hierarchy": "Foreign Java JNI",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI",
           "name": "ONLY_CORE",
           "package": "java-bridge",
@@ -10471,6 +11337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe java bridge was linked with the Java\n   framework on OS X. Otherwise \u003ccode\u003elibjvm\u003c/code\u003e is\n   loaded dynamically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI",
           "name": "OSX_FRAMEWORK",
           "package": "java-bridge",
@@ -10481,6 +11348,7 @@
         "index": {
           "description": "The java bridge was linked with the Java framework on OS Otherwise libjvm is loaded dynamically",
           "hierarchy": "Foreign Java JNI",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI",
           "name": "OSX_FRAMEWORK",
           "package": "java-bridge",
@@ -10495,6 +11363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe java bridge was compiled with special\n   support for Cocoa on Mac OS X.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI",
           "name": "OSX_GUI",
           "package": "java-bridge",
@@ -10505,6 +11374,7 @@
         "index": {
           "description": "The java bridge was compiled with special support for Cocoa on Mac OS",
           "hierarchy": "Foreign Java JNI",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI",
           "name": "OSX_GUI",
           "package": "java-bridge",
@@ -10519,6 +11389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe version of the java bridge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI",
           "name": "javaBridgeVersion",
           "package": "java-bridge",
@@ -10529,6 +11400,7 @@
         "index": {
           "description": "The version of the java bridge",
           "hierarchy": "Foreign Java JNI",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI",
           "name": "javaBridgeVersion",
           "package": "java-bridge",
@@ -10543,6 +11415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of flags which the java bridge was compiled with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.JNI",
           "name": "jniFlags",
           "package": "java-bridge",
@@ -10553,6 +11426,7 @@
         "index": {
           "description": "Returns list of flags which the java bridge was compiled with",
           "hierarchy": "Foreign Java JNI",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.JNI",
           "name": "jniFlags",
           "normalized": "[JniFlag]",
@@ -10569,6 +11443,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEvery java methods returns in priniciple either Nothing or\n Just a value. This is quite cumbersome to work with. This module\n contains utility functions for working with Maybe values in the\n java monad.\n\u003c/p\u003e\u003cp\u003eThis module offers the orphan instance (!)\n\u003c/p\u003e\u003cpre\u003e instance JavaObject a =\u003e JavaObject (Maybe a)\n\u003c/pre\u003e\u003cp\u003eThis instance allows you to apply \u003ccode\u003e\u003ca\u003etoString\u003c/a\u003e\u003c/code\u003e and the like\n without unwrapping a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e\u003cp\u003eNote that the \u003ccode\u003e\u003ca\u003easObject\u003c/a\u003e\u003c/code\u003e function provided by this instance\n is undefined (since \u003ccode\u003enull\u003c/code\u003e is not an object). This is also the\n reason why this instance is not included in \u003ca\u003eForeign.Java\u003c/a\u003e by\n default. Invoking it will call \u003ccode\u003eerror \u003ca\u003eNullPointerException\u003c/a\u003e\u003c/code\u003e.\n In other words: This fine module will bring back all the joy of\n Java you might miss in Haskell :-)\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003etoString\u003c/a\u003e\u003c/code\u003e will return \u003ccode\u003enull\u003c/code\u003e for \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ehashCode\u003c/a\u003e\u003c/code\u003e will return \u003ccode\u003e0\u003c/code\u003e for \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eclassOf\u003c/a\u003e\u003c/code\u003e will return the class for \u003ccode\u003ejava.lang.Void\u003c/code\u003e on \u003ccode\u003eNothing\u003c/code\u003e,\n as this is a class for which there gare no object instances. This is\n only a stopgap and slightly incorrect, as null is not an object,\n and does therefor not have a class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Maybe",
           "name": "Maybe",
           "package": "java-bridge",
@@ -10578,6 +11453,7 @@
         "index": {
           "description": "Every java methods returns in priniciple either Nothing or Just value This is quite cumbersome to work with This module contains utility functions for working with Maybe values in the java monad This module offers the orphan instance instance JavaObject JavaObject Maybe This instance allows you to apply toString and the like without unwrapping Maybe value Note that the asObject function provided by this instance is undefined since null is not an object This is also the reason why this instance is not included in Foreign.Java by default Invoking it will call error NullPointerException In other words This fine module will bring back all the joy of Java you might miss in Haskell toString will return null for Nothing hashCode will return for Nothing classOf will return the class for java.lang.Void on Nothing as this is class for which there gare no object instances This is only stopgap and slightly incorrect as null is not an object and does therefor not have class",
           "hierarchy": "Foreign Java Maybe",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Maybe",
           "name": "Maybe",
           "package": "java-bridge",
@@ -10591,6 +11467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Tutorial",
           "name": "Tutorial",
           "package": "java-bridge",
@@ -10599,6 +11476,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Tutorial",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Tutorial",
           "name": "Tutorial",
           "package": "java-bridge",
@@ -10613,6 +11491,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for dealing with Class, Package, and Module names in\n the Java and Haskell languages.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Utils",
           "name": "Utils",
           "package": "java-bridge",
@@ -10622,6 +11501,7 @@
         "index": {
           "description": "Utilities for dealing with Class Package and Module names in the Java and Haskell languages",
           "hierarchy": "Foreign Java Utils",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Utils",
           "name": "Utils",
           "package": "java-bridge",
@@ -10635,6 +11515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Utils",
           "name": "haskellKeywords",
           "package": "java-bridge",
@@ -10644,6 +11525,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Utils",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Utils",
           "name": "haskellKeywords",
           "normalized": "[String]",
@@ -10659,6 +11541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Utils",
           "name": "javaKeywords",
           "package": "java-bridge",
@@ -10668,6 +11551,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java Utils",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Utils",
           "name": "javaKeywords",
           "normalized": "[String]",
@@ -10684,6 +11568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePendant to \u003ccode\u003e\u003ca\u003esplitClassName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Utils",
           "name": "joinClassName",
           "package": "java-bridge",
@@ -10694,6 +11579,7 @@
         "index": {
           "description": "Pendant to splitClassName",
           "hierarchy": "Foreign Java Utils",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Utils",
           "name": "joinClassName",
           "normalized": "(String,String)-\u003eString",
@@ -10710,6 +11596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslates a class name into a module name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Utils",
           "name": "makeClassModuleName",
           "package": "java-bridge",
@@ -10720,6 +11607,7 @@
         "index": {
           "description": "Translates class name into module name",
           "hierarchy": "Foreign Java Utils",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Utils",
           "name": "makeClassModuleName",
           "normalized": "String-\u003eString",
@@ -10736,6 +11624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild the name of a class based on maybe a package and a class name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Utils",
           "name": "makeName",
           "package": "java-bridge",
@@ -10746,6 +11635,7 @@
         "index": {
           "description": "Build the name of class based on maybe package and class name",
           "hierarchy": "Foreign Java Utils",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Utils",
           "name": "makeName",
           "normalized": "Maybe String-\u003eString-\u003eString",
@@ -10762,6 +11652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslates a package name into a module name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Utils",
           "name": "makePackageModuleName",
           "package": "java-bridge",
@@ -10772,6 +11663,7 @@
         "index": {
           "description": "Translates package name into module name",
           "hierarchy": "Foreign Java Utils",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Utils",
           "name": "makePackageModuleName",
           "normalized": "String-\u003eString",
@@ -10788,6 +11680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits a class name into package name and class name.\n\u003c/p\u003e\u003cp\u003eIf the name does not contain a package component, the first\n string is empty.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003ejoinClassName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Utils",
           "name": "splitClassName",
           "package": "java-bridge",
@@ -10798,6 +11691,7 @@
         "index": {
           "description": "Splits class name into package name and class name If the name does not contain package component the first string is empty See also joinClassName",
           "hierarchy": "Foreign Java Utils",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Utils",
           "name": "splitClassName",
           "normalized": "String-\u003e(String,String)",
@@ -10814,6 +11708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the class name form a simple name of a class.\n This contains only the name of the class itself.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etakeBaseClassName \"java.lang.A$B\"\n\u003c/code\u003e\u003c/strong\u003e\"B\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Utils",
           "name": "takeBaseClassName",
           "package": "java-bridge",
@@ -10824,6 +11719,7 @@
         "index": {
           "description": "Retrieve the class name form simple name of class This contains only the name of the class itself takeBaseClassName java.lang.A",
           "hierarchy": "Foreign Java Utils",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Utils",
           "name": "takeBaseClassName",
           "normalized": "String-\u003eString",
@@ -10840,6 +11736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the class name form a simple name of a class.\n This also contains the name of the enclosing class(es).\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etakeClassName \"java.lang.A$B\"\n\u003c/code\u003e\u003c/strong\u003e\"A$B\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etakeClassName \"Thread$State\"\n\u003c/code\u003e\u003c/strong\u003e\"Thread$State\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Utils",
           "name": "takeClassName",
           "package": "java-bridge",
@@ -10850,6 +11747,7 @@
         "index": {
           "description": "Retrieve the class name form simple name of class This also contains the name of the enclosing class es takeClassName java.lang.A takeClassName Thread State Thread State",
           "hierarchy": "Foreign Java Utils",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Utils",
           "name": "takeClassName",
           "normalized": "String-\u003eString",
@@ -10866,6 +11764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the names of the enclosing classes from a simple\n class name.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etakeEnclosingClasses \"java.lang.Map$EntrySet\"\n\u003c/code\u003e\u003c/strong\u003e[\"java.lang.Map\"]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etakeEnclosingClasses \"package.A$B$C\"\n\u003c/code\u003e\u003c/strong\u003e[\"package.A\", \"package.A$B\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Utils",
           "name": "takeEnclosingClasses",
           "package": "java-bridge",
@@ -10876,6 +11775,7 @@
         "index": {
           "description": "Retrieve the names of the enclosing classes from simple class name takeEnclosingClasses java.lang.Map EntrySet java.lang.Map takeEnclosingClasses package.A package.A package.A",
           "hierarchy": "Foreign Java Utils",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Utils",
           "name": "takeEnclosingClasses",
           "normalized": "String-\u003e[String]",
@@ -10892,6 +11792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the package name form a simple name of a class.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etakePackageName \"java.lang.A$B\"\n\u003c/code\u003e\u003c/strong\u003eJust \"java.lang\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etakePackageName \"Test\"\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Utils",
           "name": "takePackageName",
           "package": "java-bridge",
@@ -10902,6 +11803,7 @@
         "index": {
           "description": "Retrieve the package name form simple name of class takePackageName java.lang.A Just java.lang takePackageName Test Nothing",
           "hierarchy": "Foreign Java Utils",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Utils",
           "name": "takePackageName",
           "normalized": "String-\u003eMaybe String",
@@ -10918,6 +11820,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe ternary value type, which can \u003cem\u003etreither\u003c/em\u003e hold a value,\n nothing, or a special value describing an error condition.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Value",
           "name": "Value",
           "package": "java-bridge",
@@ -10927,6 +11830,7 @@
         "index": {
           "description": "The ternary value type which can treither hold value nothing or special value describing an error condition",
           "hierarchy": "Foreign Java Value",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Value",
           "name": "Value",
           "package": "java-bridge",
@@ -10941,6 +11845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ternary value type to hold one of two possible value types\n or none at all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Value",
           "name": "Value",
           "package": "java-bridge",
@@ -10950,6 +11855,7 @@
         "index": {
           "description": "ternary value type to hold one of two possible value types or none at all",
           "hierarchy": "Foreign Java Value",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Value",
           "name": "Value",
           "package": "java-bridge",
@@ -10964,6 +11870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value describing the error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Value",
           "name": "Fail",
           "package": "java-bridge",
@@ -10974,6 +11881,7 @@
         "index": {
           "description": "value describing the error",
           "hierarchy": "Foreign Java Value",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Value",
           "name": "Fail",
           "package": "java-bridge",
@@ -10988,6 +11896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Value",
           "name": "NoValue",
           "package": "java-bridge",
@@ -10998,6 +11907,7 @@
         "index": {
           "description": "No value",
           "hierarchy": "Foreign Java Value",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Value",
           "name": "NoValue",
           "package": "java-bridge",
@@ -11012,6 +11922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn actual value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Value",
           "name": "Value",
           "package": "java-bridge",
@@ -11022,6 +11933,7 @@
         "index": {
           "description": "An actual value",
           "hierarchy": "Foreign Java Value",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Value",
           "name": "Value",
           "package": "java-bridge",
@@ -11036,6 +11948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efold on a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e, like \u003ccode\u003e\u003ca\u003eeither\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emaybe\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java.Value",
           "name": "value",
           "package": "java-bridge",
@@ -11045,6 +11958,7 @@
         "index": {
           "description": "fold on Value like either for Either or maybe for Maybe",
           "hierarchy": "Foreign Java Value",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java.Value",
           "name": "value",
           "normalized": "a-\u003e(b-\u003ea)-\u003e(c-\u003ea)-\u003eValue b c-\u003ea",
@@ -11060,6 +11974,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the medium level interface to the Java Bridge.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003eForeign.Java.JNI.Safe\u003c/a\u003e and \u003ca\u003eForeign.Java.JNI.Unsafe\u003c/a\u003e for the low\n level interface which is a plain translation of the Java Native\n Interface. Information about the library can be retrieved using\n \u003ca\u003eForeign.Java.JNI\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eHigh level bindings can be generated using \u003ca\u003eForeign.Java.Bindings\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "Java",
           "package": "java-bridge",
@@ -11069,6 +11984,7 @@
         "index": {
           "description": "This module contains the medium level interface to the Java Bridge See Foreign.Java.JNI.Safe and Foreign.Java.JNI.Unsafe for the low level interface which is plain translation of the Java Native Interface Information about the library can be retrieved using Foreign.Java.JNI High level bindings can be generated using Foreign.Java.Bindings",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "Java",
           "package": "java-bridge",
@@ -11083,6 +11999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to an Array in the JVM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "JArray",
           "package": "java-bridge",
@@ -11092,6 +12009,7 @@
         "index": {
           "description": "reference to an Array in the JVM",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "JArray",
           "package": "java-bridge",
@@ -11106,6 +12024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to a Class object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "JClass",
           "package": "java-bridge",
@@ -11115,6 +12034,7 @@
         "index": {
           "description": "reference to Class object",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "JClass",
           "package": "java-bridge",
@@ -11128,6 +12048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "JConstructor",
           "package": "java-bridge",
@@ -11136,6 +12057,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "JConstructor",
           "package": "java-bridge",
@@ -11149,6 +12071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "JField",
           "package": "java-bridge",
@@ -11157,6 +12080,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "JField",
           "package": "java-bridge",
@@ -11170,6 +12094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "JMethod",
           "package": "java-bridge",
@@ -11178,6 +12103,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "JMethod",
           "package": "java-bridge",
@@ -11192,6 +12118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to an arbitrary Object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "JObject",
           "package": "java-bridge",
@@ -11201,6 +12128,7 @@
         "index": {
           "description": "reference to an arbitrary Object",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "JObject",
           "package": "java-bridge",
@@ -11214,6 +12142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "JStaticField",
           "package": "java-bridge",
@@ -11222,6 +12151,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "JStaticField",
           "package": "java-bridge",
@@ -11235,6 +12165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "JStaticMethod",
           "package": "java-bridge",
@@ -11243,6 +12174,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "JStaticMethod",
           "package": "java-bridge",
@@ -11257,6 +12189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to an Exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "JThrowable",
           "package": "java-bridge",
@@ -11266,6 +12199,7 @@
         "index": {
           "description": "reference to an Exception",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "JThrowable",
           "package": "java-bridge",
@@ -11280,6 +12214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to an instance of a Java Virtual Machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "JVM",
           "package": "java-bridge",
@@ -11289,6 +12224,7 @@
         "index": {
           "description": "reference to an instance of Java Virtual Machine",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "JVM",
           "package": "java-bridge",
@@ -11303,6 +12239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery computation in the Java Virtual Machine happens inside the\n Java monad. The Java monad is mightier than the IO monad, i.e.\n IO operations can be performed in both the IO monad as well as in\n the Java monad, but Java operations can be performed in the Java\n monad only and not in the IO monad.\n\u003c/p\u003e\u003cp\u003eUse one of \u003ccode\u003e\u003ca\u003erunJava\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erunJava'\u003c/a\u003e\u003c/code\u003e to perform operations in the\n Java monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "Java",
           "package": "java-bridge",
@@ -11312,6 +12249,7 @@
         "index": {
           "description": "Every computation in the Java Virtual Machine happens inside the Java monad The Java monad is mightier than the IO monad i.e IO operations can be performed in both the IO monad as well as in the Java monad but Java operations can be performed in the Java monad only and not in the IO monad Use one of runJava or runJava to perform operations in the Java monad",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "Java",
           "package": "java-bridge",
@@ -11325,6 +12263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "JavaArray",
           "package": "java-bridge",
@@ -11333,6 +12272,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "JavaArray",
           "package": "java-bridge",
@@ -11347,6 +12287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides basic functions that every Java Object supports.\n There are instances for \u003ccode\u003e\u003ca\u003eJObject\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eJClass\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eJThrowable\u003c/a\u003e\u003c/code\u003e,\n and \u003ccode\u003e\u003ca\u003eJArray\u003c/a\u003e\u003c/code\u003e (which are all references to objects in the\n virtual machine).\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003easObject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "JavaObject",
           "package": "java-bridge",
@@ -11356,6 +12297,7 @@
         "index": {
           "description": "Provides basic functions that every Java Object supports There are instances for JObject JClass JThrowable and JArray which are all references to objects in the virtual machine Minimal complete definition asObject",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "JavaObject",
           "package": "java-bridge",
@@ -11369,6 +12311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "JavaThreadId",
           "package": "java-bridge",
@@ -11377,6 +12320,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "JavaThreadId",
           "package": "java-bridge",
@@ -11390,6 +12334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "MethodDescriptor",
           "package": "java-bridge",
@@ -11398,6 +12343,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "MethodDescriptor",
           "package": "java-bridge",
@@ -11411,6 +12357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "(--\u003e)",
           "package": "java-bridge",
@@ -11420,6 +12367,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "(--\u003e) --\u003e",
           "normalized": "a-\u003eb-\u003eP a b",
@@ -11434,6 +12382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "::=",
           "package": "java-bridge",
@@ -11443,6 +12392,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "::=",
           "package": "java-bridge",
@@ -11455,6 +12405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "array",
           "package": "java-bridge",
@@ -11464,6 +12415,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "array",
           "normalized": "a-\u003eA a",
@@ -11479,6 +12431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the length of an JArray.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "arrayLength",
           "package": "java-bridge",
@@ -11489,6 +12442,7 @@
         "index": {
           "description": "Return the length of an JArray",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "arrayLength",
           "normalized": "JArray a-\u003eJava Int",
@@ -11505,6 +12459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns the reference into a JObject. This can be used\n to down-cast any reference to an Object inside the JVM\n to a JObject.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "asObject",
           "package": "java-bridge",
@@ -11515,6 +12470,7 @@
         "index": {
           "description": "Turns the reference into JObject This can be used to down-cast any reference to an Object inside the JVM to JObject",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "asObject",
           "normalized": "a-\u003eJava JObject",
@@ -11530,6 +12486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "at",
           "package": "java-bridge",
@@ -11539,6 +12496,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "at",
           "normalized": "JArray a-\u003eInt-\u003eJava b",
@@ -11553,6 +12511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "bindMethod",
           "package": "java-bridge",
@@ -11562,6 +12521,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "bindMethod",
           "normalized": "JClass-\u003eMethodDescriptor a-\u003eJava(JObject-\u003eb)",
@@ -11577,6 +12537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "bindStaticMethod",
           "package": "java-bridge",
@@ -11586,6 +12547,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "bindStaticMethod",
           "normalized": "JClass-\u003eMethodDescriptor a-\u003eJava b",
@@ -11601,6 +12563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "boolean",
           "package": "java-bridge",
@@ -11610,6 +12573,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "boolean",
           "package": "java-bridge",
@@ -11622,6 +12586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "byte",
           "package": "java-bridge",
@@ -11631,6 +12596,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "byte",
           "package": "java-bridge",
@@ -11643,6 +12609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "callMethod",
           "package": "java-bridge",
@@ -11652,6 +12619,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "callMethod",
           "normalized": "JMethod a-\u003eJObject-\u003eb",
@@ -11667,6 +12635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "callMethodE",
           "package": "java-bridge",
@@ -11676,6 +12645,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "callMethodE",
           "normalized": "JMethod a-\u003eJObject-\u003eb",
@@ -11691,6 +12661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "callMethodX",
           "package": "java-bridge",
@@ -11700,6 +12671,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "callMethodX",
           "normalized": "JMethod a-\u003eJObject-\u003eb",
@@ -11715,6 +12687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "callStaticMethod",
           "package": "java-bridge",
@@ -11724,6 +12697,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "callStaticMethod",
           "normalized": "JStaticMethod a-\u003eb",
@@ -11739,6 +12713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "callStaticMethodE",
           "package": "java-bridge",
@@ -11748,6 +12723,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "callStaticMethodE",
           "normalized": "JStaticMethod a-\u003eb",
@@ -11763,6 +12739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "callStaticMethodX",
           "package": "java-bridge",
@@ -11772,6 +12749,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "callStaticMethodX",
           "normalized": "JStaticMethod a-\u003eb",
@@ -11787,6 +12765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "char",
           "package": "java-bridge",
@@ -11796,6 +12775,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "char",
           "package": "java-bridge",
@@ -11809,6 +12789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a reference to the Class of the given object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "classOf",
           "package": "java-bridge",
@@ -11819,6 +12800,7 @@
         "index": {
           "description": "Returns reference to the Class of the given object",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "classOf",
           "normalized": "a-\u003eJava JClass",
@@ -11834,6 +12816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "double",
           "package": "java-bridge",
@@ -11843,6 +12826,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "double",
           "package": "java-bridge",
@@ -11856,6 +12840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks two objects for equality using their \u003ccode\u003eequals\u003c/code\u003e methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "equals",
           "package": "java-bridge",
@@ -11866,6 +12851,7 @@
         "index": {
           "description": "Checks two objects for equality using their equals methods",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "equals",
           "normalized": "a-\u003eb-\u003eJava Bool",
@@ -11880,6 +12866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "float",
           "package": "java-bridge",
@@ -11889,6 +12876,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "float",
           "package": "java-bridge",
@@ -11902,6 +12890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA utility function for forking an OS thread which runs in the\n Java Monad. It will return a \u003ccode\u003e\u003ca\u003eJavaThreadId\u003c/a\u003e\u003c/code\u003e which you can wait on\n using \u003ccode\u003e\u003ca\u003ewaitJava\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "forkJava",
           "package": "java-bridge",
@@ -11912,6 +12901,7 @@
         "index": {
           "description": "utility function for forking an OS thread which runs in the Java Monad It will return JavaThreadId which you can wait on using waitJava",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "forkJava",
           "normalized": "Java a-\u003eJava(JavaThreadId a)",
@@ -11928,6 +12918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds and loads a class.\n\u003c/p\u003e\u003cp\u003eNote that this function can indeed fail with an exception and\n may execute code from the class to be loaded inside the virtual\n machine.\n\u003c/p\u003e\u003cp\u003eThis is due to the fact that \u003ccode\u003egetClass\u003c/code\u003e is a translation of the\n \u003ccode\u003efindClass\u003c/code\u003e function in the JNI which loads *and* resolves the class.\n If you want to get a class definition without resolving the class,\n use the method \u003ccode\u003eloadClass(String,boolean)\u003c/code\u003e on a \u003ccode\u003eClassLoader\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eHere is an example of how to do that:\n\u003c/p\u003e\u003cpre\u003e main' = runJava $ do\n     (Just classLoader) \u003c- getClass \"java.lang.ClassLoader\"\n     getSystemClassLoader \u003c- classLoader `bindStaticMethod` \"getSystemClassLoader\"\n         ::= object \"java.lang.ClassLoader\"\n     (Just systemClassLoader) \u003c- getSystemClassLoader\n \n     loadClass \u003c- classLoader `bindMethod` \"loadClass\"\n         ::= string --\u003e boolean --\u003e object \"java.lang.Class\"\n     (Just clazz) \u003c- loadClass systemClassLoader \"java.awt.EventQueue\" False\n     io$ print clazz\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "getClass",
           "package": "java-bridge",
@@ -11937,6 +12928,7 @@
         "index": {
           "description": "Finds and loads class Note that this function can indeed fail with an exception and may execute code from the class to be loaded inside the virtual machine This is due to the fact that getClass is translation of the findClass function in the JNI which loads and resolves the class If you want to get class definition without resolving the class use the method loadClass String boolean on ClassLoader Here is an example of how to do that main runJava do Just classLoader getClass java.lang.ClassLoader getSystemClassLoader classLoader bindStaticMethod getSystemClassLoader object java.lang.ClassLoader Just systemClassLoader getSystemClassLoader loadClass classLoader bindMethod loadClass string boolean object java.lang.Class Just clazz loadClass systemClassLoader java.awt.EventQueue False io print clazz",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "getClass",
           "normalized": "String-\u003eJava(Maybe JClass)",
@@ -11952,6 +12944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "getConstructor",
           "package": "java-bridge",
@@ -11961,6 +12954,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "getConstructor",
           "normalized": "JClass-\u003ea-\u003eJava(b(JConstructor a))",
@@ -11976,6 +12970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "getField",
           "package": "java-bridge",
@@ -11985,6 +12980,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "getField",
           "normalized": "JClass-\u003eString-\u003ea-\u003eJava(Maybe(JField a))",
@@ -12000,6 +12996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "getMethod",
           "package": "java-bridge",
@@ -12009,6 +13006,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "getMethod",
           "normalized": "JClass-\u003eMethodDescriptor a-\u003eJava(Maybe(JMethod a))",
@@ -12024,6 +13022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "getStaticField",
           "package": "java-bridge",
@@ -12033,6 +13032,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "getStaticField",
           "normalized": "JClass-\u003eString-\u003ea-\u003eJava(Maybe(JStaticField a))",
@@ -12048,6 +13048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "getStaticMethod",
           "package": "java-bridge",
@@ -12057,6 +13058,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "getStaticMethod",
           "normalized": "JClass-\u003eMethodDescriptor a-\u003eJava(Maybe(JStaticMethod a))",
@@ -12073,6 +13075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvokes the \u003ccode\u003ehashCode\u003c/code\u003e method which every Java Object has.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "hashCode",
           "package": "java-bridge",
@@ -12083,6 +13086,7 @@
         "index": {
           "description": "Invokes the hashCode method which every Java Object has",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "hashCode",
           "normalized": "a-\u003eJava Int",
@@ -12099,6 +13103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializes the Java Virtual Machine so that it can\n be used by subsequent invocations of \u003ccode\u003e\u003ca\u003erunJava\u003c/a\u003e\u003c/code\u003e. Note that\n once you start the virtual machine it will be runing throughout\n the whole lifetime of the main thread of your application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "initJava",
           "package": "java-bridge",
@@ -12109,6 +13114,7 @@
         "index": {
           "description": "Initializes the Java Virtual Machine so that it can be used by subsequent invocations of runJava Note that once you start the virtual machine it will be runing throughout the whole lifetime of the main thread of your application",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "initJava",
           "normalized": "[String]-\u003eIO()",
@@ -12124,6 +13130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "int",
           "package": "java-bridge",
@@ -12133,6 +13140,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "int",
           "package": "java-bridge",
@@ -12146,6 +13154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort for \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e and restricted to the \u003ccode\u003e\u003ca\u003eJava\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "io",
           "package": "java-bridge",
@@ -12156,6 +13165,7 @@
         "index": {
           "description": "Short for liftIO and restricted to the Java monad",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "io",
           "normalized": "IO a-\u003eJava a",
@@ -12171,6 +13181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the given object is an instance of the\n given class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "isInstanceOf",
           "package": "java-bridge",
@@ -12181,6 +13192,7 @@
         "index": {
           "description": "Check whether the given object is an instance of the given class",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "isInstanceOf",
           "normalized": "JObject-\u003eJClass-\u003eJava Bool",
@@ -12197,6 +13209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "liftIO",
           "package": "java-bridge",
@@ -12206,6 +13219,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",
@@ -12221,6 +13235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "long",
           "package": "java-bridge",
@@ -12230,6 +13245,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "long",
           "package": "java-bridge",
@@ -12242,6 +13258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "newObject",
           "package": "java-bridge",
@@ -12251,6 +13268,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "newObject",
           "normalized": "JClass-\u003eJava(Maybe JObject)",
@@ -12266,6 +13284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "newObjectE",
           "package": "java-bridge",
@@ -12275,6 +13294,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "newObjectE",
           "normalized": "JClass-\u003eJava(Either JThrowable(Maybe JObject))",
@@ -12290,6 +13310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "newObjectFrom",
           "package": "java-bridge",
@@ -12299,6 +13320,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "newObjectFrom",
           "normalized": "JConstructor a-\u003eb",
@@ -12314,6 +13336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "newObjectFromE",
           "package": "java-bridge",
@@ -12323,6 +13346,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "newObjectFromE",
           "normalized": "JConstructor a-\u003eb",
@@ -12338,6 +13362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "newObjectFromX",
           "package": "java-bridge",
@@ -12347,6 +13372,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "newObjectFromX",
           "normalized": "JConstructor a-\u003eb",
@@ -12362,6 +13388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "newObjectX",
           "package": "java-bridge",
@@ -12371,6 +13398,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "newObjectX",
           "normalized": "JClass-\u003eJava(Maybe JObject)",
@@ -12386,6 +13414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "object",
           "package": "java-bridge",
@@ -12395,6 +13424,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "object",
           "normalized": "String-\u003eL",
@@ -12409,6 +13439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "readField",
           "package": "java-bridge",
@@ -12418,6 +13449,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "readField",
           "normalized": "JField a-\u003eJObject-\u003eJava b",
@@ -12433,6 +13465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "readStaticField",
           "package": "java-bridge",
@@ -12442,6 +13475,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "readStaticField",
           "normalized": "JStaticField a-\u003eJava b",
@@ -12458,6 +13492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation with support by a Java Virtual Machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "runJava",
           "package": "java-bridge",
@@ -12468,6 +13503,7 @@
         "index": {
           "description": "Run computation with support by Java Virtual Machine",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "runJava",
           "normalized": "Java a-\u003eIO a",
@@ -12484,6 +13520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation with support by a Java Virtual Machine,\n initialized with the given parameters.\n\u003c/p\u003e\u003cp\u003eThis function may be used only once. If you intend to call\n it multiple times, you need to initialize the Java subsystem\n once before. If you fail to do so, this function will tear\n down the virtual machine once it is done.\n\u003c/p\u003e\u003cp\u003eBy using \u003ccode\u003e\u003ca\u003einitJava\u003c/a\u003e\u003c/code\u003e the virtual machine will be alive during\n the whole lifetime of your process and \u003ccode\u003e\u003ca\u003erunJava'\u003c/a\u003e\u003c/code\u003e will never\n tear down the machine.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNOTE: According to the Java Native Interface specification it may be possible to create multiple virtual machines within a single process. However, no implementation of the JNI seems to be capable of doing so.\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eThis function can be used to set for example the classpath\n of the virtual machine:\n\u003c/p\u003e\u003cpre\u003e runJava' [\"-Djava.class.path=java-library-dir\"] $ do\n     doSomething\n\u003c/pre\u003e\u003cp\u003e\u003cem\u003eNOTE: java.class.path does support relative paths.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "runJava'",
           "package": "java-bridge",
@@ -12494,6 +13531,7 @@
         "index": {
           "description": "Run computation with support by Java Virtual Machine initialized with the given parameters This function may be used only once If you intend to call it multiple times you need to initialize the Java subsystem once before If you fail to do so this function will tear down the virtual machine once it is done By using initJava the virtual machine will be alive during the whole lifetime of your process and runJava will never tear down the machine NOTE According to the Java Native Interface specification it may be possible to create multiple virtual machines within single process However no implementation of the JNI seems to be capable of doing so This function can be used to set for example the classpath of the virtual machine runJava Djava.class.path java-library-dir do doSomething NOTE java.class.path does support relative paths",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "runJava'",
           "normalized": "[String]-\u003eJava a-\u003eIO a",
@@ -12510,6 +13548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort hand for \u003ccode\u003erunJavaGui' []\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "runJavaGui",
           "package": "java-bridge",
@@ -12520,6 +13559,7 @@
         "index": {
           "description": "Short hand for runJavaGui",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "runJavaGui",
           "normalized": "Java a-\u003eIO()",
@@ -12536,6 +13576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMac OS X needs some special treatment for initializing\n graphical applications, namely a Cocoa Runloop needs to be present\n on the main thread. Since the main thread is the application\n that the JVM was invoked from this has two consequences:\n (1) A runloop needs to be created on the main thread\n manually and (2) the main thread is not usable for your application.\n\u003c/p\u003e\u003cp\u003eOn Mac OS X this function will fork an os thread using \u003ccode\u003e\u003ca\u003eforkJava\u003c/a\u003e\u003c/code\u003e\n and start the Cocoa main event loop. This means that this function\n must be called on the main thread and that it will never terminate\n (since the cocoa event queue will be running there forever).\n\u003c/p\u003e\u003cp\u003eNote that this implies that you link your application with\n the threaded runtime (`-threaded` in GHC).\n\u003c/p\u003e\u003cp\u003eTypically your application should look like this:\n\u003c/p\u003e\u003cpre\u003e main = runJavaGui $ do\n     stuffYourApplicationDoes\n\u003c/pre\u003e\u003cp\u003eOn all other platforms this is exactly the same as \u003ccode\u003e\u003ca\u003erunJava'\u003c/a\u003e\u003c/code\u003e\n (minus the fact that it returns \u003ccode\u003e()\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "runJavaGui'",
           "package": "java-bridge",
@@ -12546,6 +13587,7 @@
         "index": {
           "description": "Mac OS needs some special treatment for initializing graphical applications namely Cocoa Runloop needs to be present on the main thread Since the main thread is the application that the JVM was invoked from this has two consequences runloop needs to be created on the main thread manually and the main thread is not usable for your application On Mac OS this function will fork an os thread using forkJava and start the Cocoa main event loop This means that this function must be called on the main thread and that it will never terminate since the cocoa event queue will be running there forever Note that this implies that you link your application with the threaded runtime threaded in GHC Typically your application should look like this main runJavaGui do stuffYourApplicationDoes On all other platforms this is exactly the same as runJava minus the fact that it returns",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "runJavaGui'",
           "normalized": "[String]-\u003eJava a-\u003eIO()",
@@ -12562,6 +13604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBy default java methods are invoked via the FFI using\n safe calls. Safe calls are slower than unsafe calls. This\n function controls whether safe or unsafe calls are being\n used to communicate with the JVM.\n\u003c/p\u003e\u003cp\u003eIf your application does not invoke the JVM concurrently\n it is mostly safe to use unsafe calls.\n\u003c/p\u003e\u003cpre\u003e runJava (setUnsafe True \u003e\u003e doSomething)\n\u003c/pre\u003e\u003cp\u003ewill perform \u003ccode\u003edoSomething\u003c/code\u003e using unsafe calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "setUnsafe",
           "package": "java-bridge",
@@ -12572,6 +13615,7 @@
         "index": {
           "description": "By default java methods are invoked via the FFI using safe calls Safe calls are slower than unsafe calls This function controls whether safe or unsafe calls are being used to communicate with the JVM If your application does not invoke the JVM concurrently it is mostly safe to use unsafe calls runJava setUnsafe True doSomething will perform doSomething using unsafe calls",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "setUnsafe",
           "normalized": "Bool-\u003ea()",
@@ -12587,6 +13631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "short",
           "package": "java-bridge",
@@ -12596,6 +13641,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "short",
           "package": "java-bridge",
@@ -12608,6 +13654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "string",
           "package": "java-bridge",
@@ -12617,6 +13664,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "string",
           "package": "java-bridge",
@@ -12629,6 +13677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "toList",
           "package": "java-bridge",
@@ -12638,6 +13687,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "toList",
           "normalized": "JArray a-\u003eJava[b]",
@@ -12654,6 +13704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvokes the \u003ccode\u003etoString\u003c/code\u003e method which every Java Object has.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "toString",
           "package": "java-bridge",
@@ -12664,6 +13715,7 @@
         "index": {
           "description": "Invokes the toString method which every Java Object has",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "toString",
           "normalized": "a-\u003eJava String",
@@ -12679,6 +13731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "void",
           "package": "java-bridge",
@@ -12688,6 +13741,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "void",
           "package": "java-bridge",
@@ -12701,6 +13755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for a Java Thread to exit. If the thread exits abnormally\n (that is, if an exception occurred), this function will return\n \u003ccode\u003eLeft SomeException\u003c/code\u003e. Otherwise it will return the result of the\n computation as \u003ccode\u003eRight a\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "waitJava",
           "package": "java-bridge",
@@ -12711,6 +13766,7 @@
         "index": {
           "description": "Wait for Java Thread to exit If the thread exits abnormally that is if an exception occurred this function will return Left SomeException Otherwise it will return the result of the computation as Right",
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "waitJava",
           "normalized": "JavaThreadId a-\u003eJava(Either SomeException a)",
@@ -12726,6 +13782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "write",
           "package": "java-bridge",
@@ -12735,6 +13792,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "write",
           "normalized": "JArray a-\u003eInt-\u003eb-\u003eJava()",
@@ -12749,6 +13807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "writeField",
           "package": "java-bridge",
@@ -12758,6 +13817,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "writeField",
           "normalized": "JField a-\u003eJObject-\u003eb-\u003eJava()",
@@ -12773,6 +13833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:08 UTC 2014",
           "module": "Foreign.Java",
           "name": "writeStaticField",
           "package": "java-bridge",
@@ -12782,6 +13843,7 @@
         },
         "index": {
           "hierarchy": "Foreign Java",
+          "indexed": "2014-03-11T19:01:08",
           "module": "Foreign.Java",
           "name": "writeStaticField",
           "normalized": "JStaticField a-\u003eb-\u003eJava()",

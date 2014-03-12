@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-rst"
+        "phrase": "yesod-rst",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the functionallity to use\n   pandocs reader for reStructuredText (RST) in Yesod.\n   The code bases heavily on yesod-markdown from\n   Patrick Brisbin, which does the same thing for Markdown.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:27 UTC 2014",
           "module": "Yesod.RST",
           "name": "RST",
           "package": "yesod-rst",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides the functionallity to use pandocs reader for reStructuredText RST in Yesod The code bases heavily on yesod-markdown from Patrick Brisbin which does the same thing for Markdown",
           "hierarchy": "Yesod RST",
+          "indexed": "2014-03-11T20:46:27",
           "module": "Yesod.RST",
           "name": "RST",
           "package": "yesod-rst",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:27 UTC 2014",
           "module": "Yesod.RST",
           "name": "RST",
           "package": "yesod-rst",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Yesod RST",
+          "indexed": "2014-03-11T20:46:27",
           "module": "Yesod.RST",
           "name": "RST",
           "package": "yesod-rst",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:27 UTC 2014",
           "module": "Yesod.RST",
           "name": "RST",
           "package": "yesod-rst",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Yesod RST",
+          "indexed": "2014-03-11T20:46:27",
           "module": "Yesod.RST",
           "name": "RST",
           "package": "yesod-rst",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses Markdown into the intermediate Pandoc type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:27 UTC 2014",
           "module": "Yesod.RST",
           "name": "parseRST",
           "package": "yesod-rst",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Parses Markdown into the intermediate Pandoc type",
           "hierarchy": "Yesod RST",
+          "indexed": "2014-03-11T20:46:27",
           "module": "Yesod.RST",
           "name": "parseRST",
           "normalized": "ParserState-\u003eRST-\u003ePandoc",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:27 UTC 2014",
           "module": "Yesod.RST",
           "name": "rstField",
           "package": "yesod-rst",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Yesod RST",
+          "indexed": "2014-03-11T20:46:27",
           "module": "Yesod.RST",
           "name": "rstField",
           "package": "yesod-rst",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads RST in from the specified file; returns the empty string\n   if the file does not exist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:27 UTC 2014",
           "module": "Yesod.RST",
           "name": "rstFromFile",
           "package": "yesod-rst",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Reads RST in from the specified file returns the empty string if the file does not exist",
           "hierarchy": "Yesod RST",
+          "indexed": "2014-03-11T20:46:27",
           "module": "Yesod.RST",
           "name": "rstFromFile",
           "normalized": "FilePath-\u003eIO RST",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts RST to sanitizied Html\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:27 UTC 2014",
           "module": "Yesod.RST",
           "name": "rstToHtml",
           "package": "yesod-rst",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Converts RST to sanitizied Html",
           "hierarchy": "Yesod RST",
+          "indexed": "2014-03-11T20:46:27",
           "module": "Yesod.RST",
           "name": "rstToHtml",
           "normalized": "RST-\u003eHtml",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts RST to unsanitizied Html\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:27 UTC 2014",
           "module": "Yesod.RST",
           "name": "rstToHtmlTrusted",
           "package": "yesod-rst",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Converts RST to unsanitizied Html",
           "hierarchy": "Yesod RST",
+          "indexed": "2014-03-11T20:46:27",
           "module": "Yesod.RST",
           "name": "rstToHtmlTrusted",
           "normalized": "RST-\u003eHtml",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the intermediate Pandoc type to Html. Sanitizes HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:27 UTC 2014",
           "module": "Yesod.RST",
           "name": "writePandoc",
           "package": "yesod-rst",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Converts the intermediate Pandoc type to Html Sanitizes HTML",
           "hierarchy": "Yesod RST",
+          "indexed": "2014-03-11T20:46:27",
           "module": "Yesod.RST",
           "name": "writePandoc",
           "normalized": "WriterOptions-\u003ePandoc-\u003eHtml",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkips the sanitization and its required conversion to Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:27 UTC 2014",
           "module": "Yesod.RST",
           "name": "writePandocTrusted",
           "package": "yesod-rst",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Skips the sanitization and its required conversion to Text",
           "hierarchy": "Yesod RST",
+          "indexed": "2014-03-11T20:46:27",
           "module": "Yesod.RST",
           "name": "writePandocTrusted",
           "normalized": "WriterOptions-\u003ePandoc-\u003eHtml",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePandoc defaults, plus Smart, plus ParseRaw\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:27 UTC 2014",
           "module": "Yesod.RST",
           "name": "yesodDefaultParserState",
           "package": "yesod-rst",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Pandoc defaults plus Smart plus ParseRaw",
           "hierarchy": "Yesod RST",
+          "indexed": "2014-03-11T20:46:27",
           "module": "Yesod.RST",
           "name": "yesodDefaultParserState",
           "package": "yesod-rst",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePandoc defaults, plus Html5, minus WrapText\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:27 UTC 2014",
           "module": "Yesod.RST",
           "name": "yesodDefaultWriterOptions",
           "package": "yesod-rst",
@@ -297,6 +320,7 @@
         "index": {
           "description": "Pandoc defaults plus Html5 minus WrapText",
           "hierarchy": "Yesod RST",
+          "indexed": "2014-03-11T20:46:27",
           "module": "Yesod.RST",
           "name": "yesodDefaultWriterOptions",
           "package": "yesod-rst",

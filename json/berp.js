@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "berp"
+        "phrase": "berp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHashing functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base.Hash",
           "name": "Hash",
           "package": "berp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Hashing functions",
           "hierarchy": "Berp Base Hash",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base.Hash",
           "name": "Hash",
           "package": "berp",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base.Hash",
           "name": "Hash",
           "package": "berp",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Berp Base Hash",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base.Hash",
           "name": "Hash",
           "package": "berp",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base.Hash",
           "name": "Hashed",
           "package": "berp",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Berp Base Hash",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base.Hash",
           "name": "Hashed",
           "package": "berp",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base.Hash",
           "name": "hash",
           "package": "berp",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Berp Base Hash",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base.Hash",
           "name": "hash",
           "normalized": "a-\u003eInt",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base.Hash",
           "name": "hashedStr",
           "package": "berp",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Berp Base Hash",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base.Hash",
           "name": "hashedStr",
           "normalized": "String-\u003eQ Exp",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eName mangling. \n\u003c/p\u003e\u003cp\u003eWe need to mangle Python's identifier names when we compiled them to \n Haskell names because:\n    1) Python allows some identifiers which are illegal in Haskell,\n       such as leading upper case letters.\n    2) We introduce our own \u003ca\u003etemporary\u003c/a\u003e variables into a compiled program.\n       Name mangling helps to avoid accidental name clash.\n    3) We import many Haskell primitives into the compiled program. \n       Name mangling helps to avoid accidental name clash.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base.Mangle",
           "name": "Mangle",
           "package": "berp",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Name mangling We need to mangle Python identifier names when we compiled them to Haskell names because Python allows some identifiers which are illegal in Haskell such as leading upper case letters We introduce our own temporary variables into compiled program Name mangling helps to avoid accidental name clash We import many Haskell primitives into the compiled program Name mangling helps to avoid accidental name clash",
           "hierarchy": "Berp Base Mangle",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base.Mangle",
           "name": "Mangle",
           "package": "berp",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base.Mangle",
           "name": "deMangle",
           "package": "berp",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Berp Base Mangle",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base.Mangle",
           "name": "deMangle",
           "normalized": "String-\u003eString",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base.Mangle",
           "name": "mangle",
           "package": "berp",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Berp Base Mangle",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base.Mangle",
           "name": "mangle",
           "normalized": "String-\u003eString",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports all the primitive functions which are needed by\n the compiled programs. Avoid putting extraneous exports in this file\n because it is imported by all compiled programs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "Base",
           "package": "berp",
@@ -210,6 +227,7 @@
         "index": {
           "description": "This module exports all the primitive functions which are needed by the compiled programs Avoid putting extraneous exports in this file because it is imported by all compiled programs",
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "Base",
           "package": "berp",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "(%)",
           "package": "berp",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "(%) %",
           "normalized": "Object-\u003eObject-\u003eEval Object",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "(*)",
           "package": "berp",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "(*) *",
           "normalized": "Object-\u003eObject-\u003eEval Object",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "(+)",
           "package": "berp",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "(+) +",
           "normalized": "Object-\u003eObject-\u003eEval Object",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "(-)",
           "package": "berp",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "(-) -",
           "normalized": "Object-\u003eObject-\u003eEval Object",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "(/)",
           "package": "berp",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "(/) /",
           "normalized": "Object-\u003eObject-\u003eEval Object",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "(\u003c)",
           "package": "berp",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "(\u003c) \u003c",
           "normalized": "Object-\u003eObject-\u003eEval Object",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "(\u003c=)",
           "package": "berp",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "(\u003c=) \u003c=",
           "normalized": "Object-\u003eObject-\u003eEval Object",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "(==)",
           "package": "berp",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "(==) ==",
           "normalized": "Object-\u003eObject-\u003eEval Object",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "(=:)",
           "package": "berp",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "(=:) =:",
           "normalized": "ObjectRef-\u003eObject-\u003eEval Object",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "(\u003e)",
           "package": "berp",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "(\u003e) \u003e",
           "normalized": "Object-\u003eObject-\u003eEval Object",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "(\u003e=)",
           "package": "berp",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "(\u003e=) \u003e=",
           "normalized": "Object-\u003eObject-\u003eEval Object",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "(@@)",
           "package": "berp",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "(@@) @@",
           "normalized": "Object-\u003e[Object]-\u003eEval Object",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "(.)",
           "package": "berp",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "(.) .",
           "normalized": "Object-\u003eHashed String-\u003eEval Object",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "and",
           "package": "berp",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "and",
           "normalized": "Object-\u003eObject-\u003eEval Object",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "break",
           "package": "berp",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "break",
           "package": "berp",
@@ -566,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "continue",
           "package": "berp",
@@ -575,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "continue",
           "package": "berp",
@@ -587,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "def",
           "package": "berp",
@@ -596,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "def",
           "normalized": "ObjectRef-\u003eArity-\u003eObject-\u003e([ObjectRef]-\u003eEval Object)-\u003eEval Object",
@@ -610,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "dictionary",
           "package": "berp",
@@ -619,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "dictionary",
           "normalized": "[(Object,Object)]-\u003eEval Object",
@@ -633,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "except",
           "package": "berp",
@@ -642,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "except",
           "normalized": "Object-\u003eObject-\u003eEval Object-\u003eEval Object-\u003eEval Object",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "exceptDefault",
           "package": "berp",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "exceptDefault",
           "normalized": "Eval Object-\u003eEval Object-\u003eEval Object",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "false",
           "package": "berp",
@@ -689,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "false",
           "package": "berp",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "for",
           "package": "berp",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "for",
           "normalized": "ObjectRef-\u003eObject-\u003eEval Object-\u003eEval Object",
@@ -724,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "forElse",
           "package": "berp",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "forElse",
           "normalized": "ObjectRef-\u003eObject-\u003eEval Object-\u003eEval Object-\u003eEval Object",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "ifThen",
           "package": "berp",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "ifThen",
           "normalized": "Eval Object-\u003eEval Object-\u003eEval Object",
@@ -772,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "ifThenElse",
           "package": "berp",
@@ -781,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "ifThenElse",
           "normalized": "Eval Object-\u003eEval Object-\u003eEval Object-\u003eEval Object",
@@ -796,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "int",
           "package": "berp",
@@ -805,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "int",
           "normalized": "Integer-\u003eObject",
@@ -819,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "interpretStmt",
           "package": "berp",
@@ -828,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "interpretStmt",
           "normalized": "Eval Object-\u003eIO()",
@@ -843,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "invert",
           "package": "berp",
@@ -852,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "invert",
           "normalized": "Object-\u003eEval Object",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "klass",
           "package": "berp",
@@ -875,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "klass",
           "normalized": "Ident-\u003eObjectRef-\u003e[Object]-\u003eEval[(Hashed String,ObjectRef)]-\u003eEval Object",
@@ -889,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "lambda",
           "package": "berp",
@@ -898,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "lambda",
           "normalized": "Arity-\u003e([ObjectRef]-\u003eEval Object)-\u003eEval Object",
@@ -912,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "list",
           "package": "berp",
@@ -921,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "list",
           "normalized": "[Object]-\u003eEval Object",
@@ -935,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "mkGenerator",
           "package": "berp",
@@ -944,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "mkGenerator",
           "normalized": "Eval Object-\u003eEval Object",
@@ -959,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "none",
           "package": "berp",
@@ -968,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "none",
           "package": "berp",
@@ -980,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "or",
           "package": "berp",
@@ -989,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "or",
           "normalized": "Object-\u003eObject-\u003eEval Object",
@@ -1003,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "pass",
           "package": "berp",
@@ -1012,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "pass",
           "package": "berp",
@@ -1025,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "pure",
           "package": "berp",
@@ -1034,6 +1123,7 @@
         "index": {
           "description": "Lift value",
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "pure",
           "normalized": "a b c-\u003ed c",
@@ -1048,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "pureObject",
           "package": "berp",
@@ -1057,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "pureObject",
           "normalized": "Object-\u003eEval Object",
@@ -1072,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "raise",
           "package": "berp",
@@ -1081,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "raise",
           "normalized": "Object-\u003eEval Object",
@@ -1095,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "raiseFrom",
           "package": "berp",
@@ -1104,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "raiseFrom",
           "normalized": "Object-\u003eObject-\u003eEval Object",
@@ -1119,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "reRaise",
           "package": "berp",
@@ -1128,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "reRaise",
           "package": "berp",
@@ -1141,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "read",
           "package": "berp",
@@ -1150,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "read",
           "normalized": "ObjectRef-\u003eEval Object",
@@ -1164,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "ret",
           "package": "berp",
@@ -1173,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "ret",
           "normalized": "Object-\u003eEval Object",
@@ -1187,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "runExpr",
           "package": "berp",
@@ -1196,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "runExpr",
           "normalized": "Eval Object-\u003eIO Object",
@@ -1211,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "runStmt",
           "package": "berp",
@@ -1220,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "runStmt",
           "normalized": "Eval Object-\u003eIO Object",
@@ -1235,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "setattr",
           "package": "berp",
@@ -1244,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "setattr",
           "normalized": "Object-\u003eHashed String-\u003eObject-\u003eEval Object",
@@ -1258,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "stmt",
           "package": "berp",
@@ -1267,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "stmt",
           "normalized": "Eval Object-\u003eEval Object",
@@ -1281,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "string",
           "package": "berp",
@@ -1290,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "string",
           "normalized": "String-\u003eObject",
@@ -1304,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "subs",
           "package": "berp",
@@ -1313,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "subs",
           "normalized": "Object-\u003eObject-\u003eEval Object",
@@ -1327,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "tailCall",
           "package": "berp",
@@ -1336,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "tailCall",
           "normalized": "Object-\u003e[Object]-\u003eEval Object",
@@ -1351,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "topVar",
           "package": "berp",
@@ -1360,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "topVar",
           "normalized": "Ident-\u003eIO ObjectRef",
@@ -1375,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "true",
           "package": "berp",
@@ -1384,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "true",
           "package": "berp",
@@ -1396,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "try",
           "package": "berp",
@@ -1405,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "try",
           "normalized": "Eval Object-\u003e(Object-\u003eEval Object)-\u003eEval Object",
@@ -1419,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "tryElse",
           "package": "berp",
@@ -1428,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "tryElse",
           "normalized": "Eval Object-\u003e(Object-\u003eEval Object)-\u003eEval Object-\u003eEval Object",
@@ -1443,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "tryElseFinally",
           "package": "berp",
@@ -1452,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "tryElseFinally",
           "normalized": "Eval Object-\u003e(Object-\u003eEval Object)-\u003eEval Object-\u003eEval Object-\u003eEval Object",
@@ -1467,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "tryFinally",
           "package": "berp",
@@ -1476,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "tryFinally",
           "normalized": "Eval Object-\u003e(Object-\u003eEval Object)-\u003eEval Object-\u003eEval Object",
@@ -1491,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "tuple",
           "package": "berp",
@@ -1500,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "tuple",
           "normalized": "[Object]-\u003eObject",
@@ -1514,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "unaryMinus",
           "package": "berp",
@@ -1523,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "unaryMinus",
           "normalized": "Object-\u003eEval Object",
@@ -1538,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "unaryPlus",
           "package": "berp",
@@ -1547,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "unaryPlus",
           "normalized": "Object-\u003eEval Object",
@@ -1562,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "var",
           "package": "berp",
@@ -1571,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "var",
           "normalized": "Ident-\u003eEval ObjectRef",
@@ -1585,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "while",
           "package": "berp",
@@ -1594,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "while",
           "normalized": "Eval Object-\u003eEval Object-\u003eEval Object",
@@ -1608,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "whileElse",
           "package": "berp",
@@ -1617,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "whileElse",
           "normalized": "Eval Object-\u003eEval Object-\u003eEval Object-\u003eEval Object",
@@ -1632,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Base",
           "name": "yield",
           "package": "berp",
@@ -1641,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Berp Base",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Base",
           "name": "yield",
           "normalized": "Object-\u003eEval Object",
@@ -1656,6 +1798,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe current version of berp, exported as a Haskell string.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Version",
           "name": "Version",
           "package": "berp",
@@ -1665,6 +1808,7 @@
         "index": {
           "description": "The current version of berp exported as Haskell string",
           "hierarchy": "Berp Version",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Version",
           "name": "Version",
           "package": "berp",
@@ -1678,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:54 UTC 2014",
           "module": "Berp.Version",
           "name": "version",
           "package": "berp",
@@ -1687,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Berp Version",
+          "indexed": "2014-03-11T17:17:54",
           "module": "Berp.Version",
           "name": "version",
           "package": "berp",

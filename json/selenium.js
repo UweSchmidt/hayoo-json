@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "selenium"
+        "phrase": "selenium",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntegration of Selenium and HUnit. Since all HUnit tests must have\n type IO (), this handles threading the Selenium session information\n between tests.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.HUnit",
           "name": "HUnit",
           "package": "selenium",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Integration of Selenium and HUnit Since all HUnit tests must have type IO this handles threading the Selenium session information between tests",
           "hierarchy": "Test Selenium HUnit",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.HUnit",
           "name": "HUnit",
           "package": "selenium",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.HUnit",
           "name": "runSeleniumTestsBare",
           "package": "selenium",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium HUnit",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.HUnit",
           "name": "runSeleniumTestsBare",
           "normalized": "[(String,Selenium())]-\u003eSelenium()",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.HUnit",
           "name": "runSeleniumTestsTT",
           "package": "selenium",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium HUnit",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.HUnit",
           "name": "runSeleniumTestsTT",
           "normalized": "[(String,Selenium())]-\u003eSelenium Counts",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions to ease interactive use inside GHCi.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Interactive",
           "name": "Interactive",
           "package": "selenium",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Utility functions to ease interactive use inside GHCi",
           "hierarchy": "Test Selenium Interactive",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Interactive",
           "name": "Interactive",
           "package": "selenium",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Interactive",
           "name": "($$)",
           "package": "selenium",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Interactive",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Interactive",
           "name": "($$) $$",
           "normalized": "(Selenium()-\u003ea)-\u003eSelenium b-\u003ea",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts up a session and returns a wrapper function that will run\n   commands. Gives common defaults for browser and host.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Interactive",
           "name": "start",
           "package": "selenium",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Starts up session and returns wrapper function that will run commands Gives common defaults for browser and host",
           "hierarchy": "Test Selenium Interactive",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Interactive",
           "name": "start",
           "normalized": "String-\u003eIO(Selenium a-\u003eIO(Either String a))",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStops a session (in the wrapper returned by start)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Interactive",
           "name": "stop",
           "package": "selenium",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Stops session in the wrapper returned by start",
           "hierarchy": "Test Selenium Interactive",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Interactive",
           "name": "stop",
           "normalized": "Selenium()",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Pretty",
           "name": "Pretty",
           "package": "selenium",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Pretty",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Pretty",
           "name": "Pretty",
           "package": "selenium",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin two strings with \u003ca\u003e&\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Pretty",
           "name": "(\u003c&\u003e)",
           "package": "selenium",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Join two strings with",
           "hierarchy": "Test Selenium Pretty",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Pretty",
           "name": "(\u003c&\u003e) \u003c&\u003e",
           "normalized": "String-\u003eString-\u003eString",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin two strings with =\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Pretty",
           "name": "(\u003c=\u003e)",
           "package": "selenium",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Join two strings with",
           "hierarchy": "Test Selenium Pretty",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Pretty",
           "name": "(\u003c=\u003e) \u003c=\u003e",
           "normalized": "String-\u003eString-\u003eString",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin two strings with ?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Pretty",
           "name": "(\u003c?\u003e)",
           "package": "selenium",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Join two strings with",
           "hierarchy": "Test Selenium Pretty",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Pretty",
           "name": "(\u003c?\u003e) \u003c?\u003e",
           "normalized": "String-\u003eString-\u003eString",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin two strings with :\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Pretty",
           "name": "(\u003c:\u003e)",
           "package": "selenium",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Join two strings with",
           "hierarchy": "Test Selenium Pretty",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Pretty",
           "name": "(\u003c:\u003e) \u003c:\u003e",
           "normalized": "String-\u003eString-\u003eString",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Haskell binding the HTTP protocol spoken by the Selenium Remote Control\n server. The Selenium server allows remote clients to control a web browser,\n acting as automated users.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "Server",
           "package": "selenium",
@@ -316,6 +341,7 @@
         "index": {
           "description": "Haskell binding the HTTP protocol spoken by the Selenium Remote Control server The Selenium server allows remote clients to control web browser acting as automated users",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "Server",
           "package": "selenium",
@@ -330,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrowser types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "Browser",
           "package": "selenium",
@@ -339,6 +366,7 @@
         "index": {
           "description": "Browser types",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "Browser",
           "package": "selenium",
@@ -353,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn SCommand: an action or accessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "SCommand",
           "package": "selenium",
@@ -362,6 +391,7 @@
         "index": {
           "description": "An SCommand an action or accessor",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "SCommand",
           "package": "selenium",
@@ -376,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Selenium Monad, an error-handling read-only state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "Selenium",
           "package": "selenium",
@@ -385,6 +416,7 @@
         "index": {
           "description": "The Selenium Monad an error-handling read-only state",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "Selenium",
           "package": "selenium",
@@ -398,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "SeleniumRCSession",
           "package": "selenium",
@@ -406,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "SeleniumRCSession",
           "package": "selenium",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "Chrome",
           "package": "selenium",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "Chrome",
           "package": "selenium",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "Firefox",
           "package": "selenium",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "Firefox",
           "package": "selenium",
@@ -463,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "InternetExplorer",
           "package": "selenium",
@@ -472,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "InternetExplorer",
           "package": "selenium",
@@ -485,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "Konqueror",
           "package": "selenium",
@@ -494,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "Konqueror",
           "package": "selenium",
@@ -507,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "Opera",
           "package": "selenium",
@@ -516,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "Opera",
           "package": "selenium",
@@ -529,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "Other",
           "package": "selenium",
@@ -538,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "Other",
           "package": "selenium",
@@ -3104,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "Safari",
           "package": "selenium",
@@ -3113,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "Safari",
           "package": "selenium",
@@ -3126,6 +3174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "SeleniumRCSession",
           "package": "selenium",
@@ -3135,6 +3184,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "SeleniumRCSession",
           "package": "selenium",
@@ -3148,6 +3198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "check",
           "package": "selenium",
@@ -3157,6 +3208,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "check",
           "normalized": "Locator-\u003eSelenium String",
@@ -3171,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "click",
           "package": "selenium",
@@ -3180,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "click",
           "normalized": "Locator-\u003eSelenium String",
@@ -3194,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "clickAndWait",
           "package": "selenium",
@@ -3203,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "clickAndWait",
           "normalized": "Locator-\u003eSelenium String",
@@ -3219,6 +3275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a Selenium command to the server with a list of arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "doCommand",
           "package": "selenium",
@@ -3229,6 +3286,7 @@
         "index": {
           "description": "Send Selenium command to the server with list of arguments",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "doCommand",
           "normalized": "SCommand-\u003e[String]-\u003eSelenium String",
@@ -3245,6 +3303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a list of Selenium commands paired with arguments, and return\n | a  list of results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "doCommandList",
           "package": "selenium",
@@ -3255,6 +3314,7 @@
         "index": {
           "description": "Execute list of Selenium commands paired with arguments and return list of results",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "doCommandList",
           "normalized": "[(SCommand,[String])]-\u003eSelenium[String]",
@@ -3270,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "dragAndDrop",
           "package": "selenium",
@@ -3279,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "dragAndDrop",
           "normalized": "Locator-\u003eString-\u003eSelenium String",
@@ -3294,6 +3356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "dragAndDropToObject",
           "package": "selenium",
@@ -3303,6 +3366,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "dragAndDropToObject",
           "normalized": "Locator-\u003eLocator-\u003eSelenium String",
@@ -3318,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "evalJS",
           "package": "selenium",
@@ -3327,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "evalJS",
           "normalized": "String-\u003eSelenium String",
@@ -3342,6 +3408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "getAllLinks",
           "package": "selenium",
@@ -3351,6 +3418,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "getAllLinks",
           "normalized": "Selenium[String]",
@@ -3366,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "getAttribute",
           "package": "selenium",
@@ -3375,6 +3444,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "getAttribute",
           "normalized": "Locator-\u003eSelenium String",
@@ -3390,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "getBodyText",
           "package": "selenium",
@@ -3399,6 +3470,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "getBodyText",
           "package": "selenium",
@@ -3412,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "getSelectedIndex",
           "package": "selenium",
@@ -3421,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "getSelectedIndex",
           "normalized": "Locator-\u003eSelenium Integer",
@@ -3436,6 +3510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "isChecked",
           "package": "selenium",
@@ -3445,6 +3520,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "isChecked",
           "normalized": "Locator-\u003eSelenium Bool",
@@ -3460,6 +3536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "isElementPresent",
           "package": "selenium",
@@ -3469,6 +3546,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "isElementPresent",
           "normalized": "Locator-\u003eSelenium Bool",
@@ -3484,6 +3562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "isTextPresent",
           "package": "selenium",
@@ -3493,6 +3572,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "isTextPresent",
           "normalized": "String-\u003eSelenium Bool",
@@ -3508,6 +3588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "keyPress",
           "package": "selenium",
@@ -3517,6 +3598,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "keyPress",
           "normalized": "Locator-\u003eString-\u003eSelenium String",
@@ -3533,6 +3615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an unconnected Selenium session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "mkSeleniumRCSession",
           "package": "selenium",
@@ -3543,6 +3626,7 @@
         "index": {
           "description": "Create an unconnected Selenium session",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "mkSeleniumRCSession",
           "normalized": "HostName-\u003eBrowser-\u003eURI-\u003eSeleniumRCSession",
@@ -3558,6 +3642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "mkURI",
           "package": "selenium",
@@ -3567,6 +3652,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "mkURI",
           "normalized": "SeleniumRCSession-\u003eSCommand-\u003e[String]-\u003eMaybe URI",
@@ -3582,6 +3668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "mouseDown",
           "package": "selenium",
@@ -3591,6 +3678,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "mouseDown",
           "normalized": "Locator-\u003eSelenium String",
@@ -3606,6 +3694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "mouseMove",
           "package": "selenium",
@@ -3615,6 +3704,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "mouseMove",
           "normalized": "Locator-\u003eSelenium String",
@@ -3630,6 +3720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "mouseUp",
           "package": "selenium",
@@ -3639,6 +3730,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "mouseUp",
           "normalized": "Locator-\u003eSelenium String",
@@ -3654,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "open",
           "package": "selenium",
@@ -3663,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "open",
           "normalized": "String-\u003eSelenium String",
@@ -3678,6 +3772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a Selenium action inside IO. This is the top-level function\n you'll usually use to run a Selenium command when not using\n \u003ccode\u003e\u003ca\u003ewithSelenium\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "runSelenium",
           "package": "selenium",
@@ -3688,6 +3783,7 @@
         "index": {
           "description": "Run Selenium action inside IO This is the top-level function you ll usually use to run Selenium command when not using withSelenium",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "runSelenium",
           "normalized": "SeleniumRCSession-\u003eSelenium a-\u003eIO(Either String a)",
@@ -3704,6 +3800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a Selenium action within the ErrorT monad. Useful for chaining\n   together several actions without writing intermediate error handling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "runSeleniumReader",
           "package": "selenium",
@@ -3714,6 +3811,7 @@
         "index": {
           "description": "Run Selenium action within the ErrorT monad Useful for chaining together several actions without writing intermediate error handling",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "runSeleniumReader",
           "normalized": "SeleniumRCSession-\u003eSelenium a-\u003eErrorT String IO a",
@@ -3730,6 +3828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of browser to start and use to run the tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "selBrowser",
           "package": "selenium",
@@ -3740,6 +3839,7 @@
         "index": {
           "description": "The type of browser to start and use to run the tests",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "selBrowser",
           "package": "selenium",
@@ -3754,6 +3854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eHostName\u003c/a\u003e\u003c/code\u003e of the Selenium server to connect to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "selHost",
           "package": "selenium",
@@ -3764,6 +3865,7 @@
         "index": {
           "description": "The HostName of the Selenium server to connect to",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "selHost",
           "package": "selenium",
@@ -3778,6 +3880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe port of the Selenium server to connect to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "selPort",
           "package": "selenium",
@@ -3788,6 +3891,7 @@
         "index": {
           "description": "The port of the Selenium server to connect to",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "selPort",
           "package": "selenium",
@@ -3802,6 +3906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA session ID filled in by \u003ccode\u003e\u003ca\u003estartSelenium\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "selSessionID",
           "package": "selenium",
@@ -3812,6 +3917,7 @@
         "index": {
           "description": "session ID filled in by startSelenium",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "selSessionID",
           "package": "selenium",
@@ -3826,6 +3932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe base URL of the site to be tested\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "selURL",
           "package": "selenium",
@@ -3836,6 +3943,7 @@
         "index": {
           "description": "The base URL of the site to be tested",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "selURL",
           "package": "selenium",
@@ -3850,6 +3958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse Network.Browser instead of Network.HTTP if true\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "selUseBrowse",
           "package": "selenium",
@@ -3860,6 +3969,7 @@
         "index": {
           "description": "Use Network.Browser instead of Network.HTTP if true",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "selUseBrowse",
           "package": "selenium",
@@ -3873,6 +3983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "selectFrame",
           "package": "selenium",
@@ -3882,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "selectFrame",
           "normalized": "String-\u003eSelenium String",
@@ -3898,6 +4010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to the server, and tell it to start a web browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "startSelenium",
           "package": "selenium",
@@ -3908,6 +4021,7 @@
         "index": {
           "description": "Connect to the server and tell it to start web browser",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "startSelenium",
           "package": "selenium",
@@ -3922,6 +4036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTell the server that a session is finished.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "stopSelenium",
           "package": "selenium",
@@ -3932,6 +4047,7 @@
         "index": {
           "description": "Tell the server that session is finished",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "stopSelenium",
           "normalized": "Selenium()",
@@ -3947,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "submit",
           "package": "selenium",
@@ -3956,6 +4073,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "submit",
           "normalized": "Locator-\u003eSelenium String",
@@ -3970,6 +4088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "typeText",
           "package": "selenium",
@@ -3979,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "typeText",
           "normalized": "Locator-\u003eString-\u003eSelenium String",
@@ -3994,6 +4114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "uncheck",
           "package": "selenium",
@@ -4003,6 +4124,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "uncheck",
           "normalized": "Locator-\u003eSelenium String",
@@ -4017,6 +4139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "waitForCondition",
           "package": "selenium",
@@ -4026,6 +4149,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "waitForCondition",
           "normalized": "String-\u003eInteger-\u003eSelenium String",
@@ -4041,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "waitForPage",
           "package": "selenium",
@@ -4050,6 +4175,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "waitForPage",
           "normalized": "Integer-\u003eSelenium String",
@@ -4066,6 +4192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a session, execute some code with the resulting handle, and then\n   stop the session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Server",
           "name": "withSelenium",
           "package": "selenium",
@@ -4076,6 +4203,7 @@
         "index": {
           "description": "Start session execute some code with the resulting handle and then stop the session",
           "hierarchy": "Test Selenium Server",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Server",
           "name": "withSelenium",
           "normalized": "SeleniumRCSession-\u003eSelenium a-\u003eIO(Either String a)",
@@ -4092,6 +4220,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell data structures describing the commands understood by the Selenium\n web application testing system.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "Syntax",
           "package": "selenium",
@@ -4101,6 +4230,7 @@
         "index": {
           "description": "Haskell data structures describing the commands understood by the Selenium web application testing system",
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "Syntax",
           "package": "selenium",
@@ -4114,6 +4244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "Locator",
           "package": "selenium",
@@ -4122,6 +4253,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "Locator",
           "package": "selenium",
@@ -4136,6 +4268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn SCommand: an action or accessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "SCommand",
           "package": "selenium",
@@ -4145,6 +4278,7 @@
         "index": {
           "description": "An SCommand an action or accessor",
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "SCommand",
           "package": "selenium",
@@ -4158,6 +4292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "SelectOptionLocator",
           "package": "selenium",
@@ -4166,6 +4301,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "SelectOptionLocator",
           "package": "selenium",
@@ -4179,6 +4315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "CSS",
           "package": "selenium",
@@ -4188,6 +4325,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "CSS",
           "package": "selenium",
@@ -4201,6 +4339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "DOM",
           "package": "selenium",
@@ -4210,6 +4349,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "DOM",
           "package": "selenium",
@@ -4223,6 +4363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "Id",
           "package": "selenium",
@@ -4232,6 +4373,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "Id",
           "package": "selenium",
@@ -4245,6 +4387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "IdOrName",
           "package": "selenium",
@@ -4254,6 +4397,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "IdOrName",
           "package": "selenium",
@@ -4267,6 +4411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "Link",
           "package": "selenium",
@@ -4276,6 +4421,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "Link",
           "package": "selenium",
@@ -4289,6 +4435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "Name",
           "package": "selenium",
@@ -4298,6 +4445,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "Name",
           "package": "selenium",
@@ -4311,6 +4459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "OptionId",
           "package": "selenium",
@@ -4320,6 +4469,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "OptionId",
           "package": "selenium",
@@ -4333,6 +4483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "OptionIndex",
           "package": "selenium",
@@ -4342,6 +4493,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "OptionIndex",
           "package": "selenium",
@@ -4355,6 +4507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "OptionLabel",
           "package": "selenium",
@@ -4364,6 +4517,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "OptionLabel",
           "package": "selenium",
@@ -4377,6 +4531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "OptionValue",
           "package": "selenium",
@@ -4386,6 +4541,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "OptionValue",
           "package": "selenium",
@@ -4399,6 +4555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:22 UTC 2014",
           "module": "Test.Selenium.Syntax",
           "name": "XPath",
           "package": "selenium",
@@ -4408,6 +4565,7 @@
         },
         "index": {
           "hierarchy": "Test Selenium Syntax",
+          "indexed": "2014-03-11T19:59:22",
           "module": "Test.Selenium.Syntax",
           "name": "XPath",
           "package": "selenium",

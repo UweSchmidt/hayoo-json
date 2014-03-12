@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-accessor-transformers"
+        "phrase": "data-accessor-transformers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAccess helper functions in a Reader-Writer-State monad \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "RWS",
           "package": "data-accessor-transformers",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Access helper functions in Reader-Writer-State monad",
           "hierarchy": "Data Accessor Monad Trans RWS",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "RWS",
           "package": "data-accessor-transformers",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix variant of \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "(%=)",
           "package": "data-accessor-transformers",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Infix variant of set",
           "hierarchy": "Data Accessor Monad Trans RWS",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "(%=) %=",
           "normalized": "T a b-\u003eb-\u003eRWST c d a e()",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix variant of \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "(%:)",
           "package": "data-accessor-transformers",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Infix variant of modify",
           "hierarchy": "Data Accessor Monad Trans RWS",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "(%:) %:",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003eRWST c d a e()",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "get",
           "package": "data-accessor-transformers",
@@ -100,6 +107,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad Trans RWS",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "get",
           "normalized": "T a b-\u003eRWST c d a e b",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a record element and return its old value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "getAndModify",
           "package": "data-accessor-transformers",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Modify record element and return its old value",
           "hierarchy": "Data Accessor Monad Trans RWS",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "getAndModify",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003eRWST c d a e b",
@@ -140,6 +150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "lift",
           "package": "data-accessor-transformers",
@@ -149,6 +160,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad Trans RWS",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "lift",
           "normalized": "T a a-\u003eRWS b c a d-\u003eRWST b c a e d",
@@ -163,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "liftT",
           "package": "data-accessor-transformers",
@@ -172,6 +185,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad Trans RWS",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "liftT",
           "normalized": "T a a-\u003eRWST b c a d e-\u003eRWST b c a d e",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "modify",
           "package": "data-accessor-transformers",
@@ -195,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad Trans RWS",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "modify",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003eRWST c d a e()",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a record element and return its new value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "modifyAndGet",
           "package": "data-accessor-transformers",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Modify record element and return its new value",
           "hierarchy": "Data Accessor Monad Trans RWS",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "modifyAndGet",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003eRWST c d a e b",
@@ -235,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "set",
           "package": "data-accessor-transformers",
@@ -244,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad Trans RWS",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.RWS",
           "name": "set",
           "normalized": "T a b-\u003eb-\u003eRWST c d a e()",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAccess helper functions in a State monad \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "State",
           "package": "data-accessor-transformers",
@@ -268,6 +289,7 @@
         "index": {
           "description": "Access helper functions in State monad",
           "hierarchy": "Data Accessor Monad Trans State",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "State",
           "package": "data-accessor-transformers",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix variant of \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "(%=)",
           "package": "data-accessor-transformers",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Infix variant of set",
           "hierarchy": "Data Accessor Monad Trans State",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "(%=) %=",
           "normalized": "T a b-\u003eb-\u003eStateT a c()",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix variant of \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "(%:)",
           "package": "data-accessor-transformers",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Infix variant of modify",
           "hierarchy": "Data Accessor Monad Trans State",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "(%:) %:",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003eStateT a c()",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "get",
           "package": "data-accessor-transformers",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad Trans State",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "get",
           "normalized": "T a b-\u003eStateT a c b",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a record element and return its old value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "getAndModify",
           "package": "data-accessor-transformers",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Modify record element and return its old value",
           "hierarchy": "Data Accessor Monad Trans State",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "getAndModify",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003eStateT a c b",
@@ -380,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "lift",
           "package": "data-accessor-transformers",
@@ -389,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad Trans State",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "lift",
           "normalized": "T a b-\u003eState b c-\u003eStateT a d c",
@@ -403,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "liftT",
           "package": "data-accessor-transformers",
@@ -412,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad Trans State",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "liftT",
           "normalized": "T a b-\u003eStateT b c d-\u003eStateT a c d",
@@ -426,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "modify",
           "package": "data-accessor-transformers",
@@ -435,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad Trans State",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "modify",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003eStateT a c()",
@@ -450,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a record element and return its new value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "modifyAndGet",
           "package": "data-accessor-transformers",
@@ -460,6 +497,7 @@
         "index": {
           "description": "Modify record element and return its new value",
           "hierarchy": "Data Accessor Monad Trans State",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "modifyAndGet",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003eStateT a c b",
@@ -475,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:29 UTC 2014",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "set",
           "package": "data-accessor-transformers",
@@ -484,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad Trans State",
+          "indexed": "2014-03-11T17:47:29",
           "module": "Data.Accessor.Monad.Trans.State",
           "name": "set",
           "normalized": "T a b-\u003eb-\u003eStateT a c()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snap-extras"
+        "phrase": "snap-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CSRF",
           "name": "CSRF",
           "package": "snap-extras",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras CSRF",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CSRF",
           "name": "CSRF",
           "package": "snap-extras",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this function to wrap your whole site with CSRF protection.  Due to\n security considerations, the way Snap parses file uploads\n means that the CSRF token cannot be checked before the file uploads have\n been handled.  This function protects your whole site except for handlers\n of multipart/form-data forms (forms with file uploads).  To protect those\n handlers, you have to call handleCSRF explicitly after the file has been\n processed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CSRF",
           "name": "blanketCSRF",
           "package": "snap-extras",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Use this function to wrap your whole site with CSRF protection Due to security considerations the way Snap parses file uploads means that the CSRF token cannot be checked before the file uploads have been handled This function protects your whole site except for handlers of multipart form-data forms forms with file uploads To protect those handlers you have to call handleCSRF explicitly after the file has been processed",
           "hierarchy": "Snap Extras CSRF",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CSRF",
           "name": "blanketCSRF",
           "normalized": "SnapletLens a SessionManager-\u003eHandler b a()-\u003eHandler b a()",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA splice that makes the CSRF token available to templates.  Typically we\n use it by binding a splice and using the CSRF token provided by the session\n snaplet as follows:\n\u003c/p\u003e\u003cpre\u003e(\"csrfToken\", csrfTokenSplice $ with session \u003ccode\u003e\u003ca\u003ecsrfToken\u003c/a\u003e\u003c/code\u003e)\u003c/pre\u003e\u003cp\u003eWhere \u003ccode\u003esession\u003c/code\u003e is a lens to the session snaplet.  Then you can make it\n available to javascript code by putting a meta tag at the top of every\n page like this:\n\u003c/p\u003e\u003cpre\u003e \u003cmeta name=\"csrf-token\" content=\"${csrfToken}\"\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CSRF",
           "name": "csrfTokenSplice",
           "package": "snap-extras",
@@ -74,6 +79,7 @@
         "index": {
           "description": "splice that makes the CSRF token available to templates Typically we use it by binding splice and using the CSRF token provided by the session snaplet as follows csrfToken csrfTokenSplice with session csrfToken Where session is lens to the session snaplet Then you can make it available to javascript code by putting meta tag at the top of every page like this meta name csrf-token content csrfToken",
           "hierarchy": "Snap Extras CSRF",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CSRF",
           "name": "csrfTokenSplice",
           "normalized": "a Text-\u003eSplice a",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a request is a POST, check the CSRF token and fail with the specified\n handler if the check fails.  If if the token is correct or if it's not a\n POST request, then control passes through as a no-op.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CSRF",
           "name": "handleCSRF",
           "package": "snap-extras",
@@ -99,6 +106,7 @@
         "index": {
           "description": "If request is POST check the CSRF token and fail with the specified handler if the check fails If if the token is correct or if it not POST request then control passes through as no-op",
           "hierarchy": "Snap Extras CSRF",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CSRF",
           "name": "handleCSRF",
           "normalized": "SnapletLens a SessionManager-\u003eHandler b a()-\u003eHandler b a()",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a hidden _csrf input field as the first child of the bound tag.  For\n full site protection against CSRF, you should bind this splice to the form\n tag, and then make sure your app checks all POST requests for the presence\n of this CSRF token and that the token is randomly generated and secure on a\n per session basis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CSRF",
           "name": "secureForm",
           "package": "snap-extras",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Adds hidden csrf input field as the first child of the bound tag For full site protection against CSRF you should bind this splice to the form tag and then make sure your app checks all POST requests for the presence of this CSRF token and that the token is randomly generated and secure on per session basis",
           "hierarchy": "Snap Extras CSRF",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CSRF",
           "name": "secureForm",
           "normalized": "a Text-\u003eSplice a",
@@ -139,6 +149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "CoreUtils",
           "package": "snap-extras",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "CoreUtils",
           "package": "snap-extras",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenates two URL segments with a \u003ccode\u003e\u003ca\u003e/\u003c/a\u003e\u003c/code\u003e between them.  To prevent double\n slashes, all trailing slashes are removed from the first path and all\n leading slashes are removed from the second path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "(-/-)",
           "package": "snap-extras",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Concatenates two URL segments with between them To prevent double slashes all trailing slashes are removed from the first path and all leading slashes are removed from the second path",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "(-/-) -/-",
           "normalized": "ByteString-\u003eByteString-\u003eByteString",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinish early with error code 400\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "badReq",
           "package": "snap-extras",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Finish early with error code",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "badReq",
           "normalized": "ByteString-\u003ea b",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the current rqURI does not have a trailing slash, then redirect to the\n same page with a slash added.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "dirify",
           "package": "snap-extras",
@@ -222,6 +239,7 @@
         "index": {
           "description": "If the current rqURI does not have trailing slash then redirect to the same page with slash added",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "dirify",
           "normalized": "a()",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEasier debug logging into error log. First argument is a\n category/namespace and the second argument is anything that has a\n \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "easyLog",
           "package": "snap-extras",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Easier debug logging into error log First argument is category namespace and the second argument is anything that has Show instance",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "easyLog",
           "normalized": "String-\u003ea-\u003eb()",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscard anything after this and return given status code to HTTP\n client immediately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "finishEarly",
           "package": "snap-extras",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Discard anything after this and return given status code to HTTP client immediately",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "finishEarly",
           "normalized": "Int-\u003eByteString-\u003ea b",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates an action that returns a Maybe and \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "fromMaybeM",
           "package": "snap-extras",
@@ -299,6 +322,7 @@
         "index": {
           "description": "Evaluates an action that returns Maybe and",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "fromMaybeM",
           "normalized": "a b-\u003ea(Maybe b)-\u003ea b",
@@ -315,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternate version of getParam that considers empty string Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "getParam'",
           "package": "snap-extras",
@@ -325,6 +350,7 @@
         "index": {
           "description": "Alternate version of getParam that considers empty string Nothing",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "getParam'",
           "normalized": "ByteString-\u003ea(Maybe ByteString)",
@@ -341,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark response as 'application/javascript'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "jsResponse",
           "package": "snap-extras",
@@ -351,6 +378,7 @@
         "index": {
           "description": "Mark response as application javascript",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "jsResponse",
           "normalized": "a()",
@@ -367,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark response as 'application/json'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "jsonResponse",
           "package": "snap-extras",
@@ -377,6 +406,7 @@
         "index": {
           "description": "Mark response as application json",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "jsonResponse",
           "normalized": "a()",
@@ -392,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "maybeBadReq",
           "package": "snap-extras",
@@ -401,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "maybeBadReq",
           "normalized": "ByteString-\u003ea(Maybe b)-\u003ea b",
@@ -417,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinish early with error code 404\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "notFound",
           "package": "snap-extras",
@@ -427,6 +460,7 @@
         "index": {
           "description": "Finish early with error code",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "notFound",
           "normalized": "ByteString-\u003ea b",
@@ -443,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark response as 'text/plain'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "plainResponse",
           "package": "snap-extras",
@@ -453,6 +488,7 @@
         "index": {
           "description": "Mark response as text plain",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "plainResponse",
           "normalized": "a()",
@@ -469,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to read a parameter from request. Computation may fail\n because the param is not there, or because it can't be read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "readMayParam",
           "package": "snap-extras",
@@ -479,6 +516,7 @@
         "index": {
           "description": "Try to read parameter from request Computation may fail because the param is not there or because it can be read",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "readMayParam",
           "normalized": "ByteString-\u003ea(Maybe b)",
@@ -495,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a parameter from request. Be sure it is readable if it's\n there, or else this will raise an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "readParam",
           "package": "snap-extras",
@@ -505,6 +544,7 @@
         "index": {
           "description": "Read parameter from request Be sure it is readable if it there or else this will raise an error",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "readParam",
           "normalized": "ByteString-\u003ea(Maybe b)",
@@ -521,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirects back to the refering page.  If there is no Referer header, then\n redirect to /.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "redirectReferer",
           "package": "snap-extras",
@@ -531,6 +572,7 @@
         "index": {
           "description": "Redirects back to the refering page If there is no Referer header then redirect to",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "redirectReferer",
           "package": "snap-extras",
@@ -545,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirects back to the refering page.  If there is no Referer header, then\n redirect to /.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "redirectRefererFunc",
           "package": "snap-extras",
@@ -555,6 +598,7 @@
         "index": {
           "description": "Redirects back to the refering page If there is no Referer header then redirect to",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "redirectRefererFunc",
           "normalized": "(Maybe ByteString-\u003eByteString)-\u003ea b",
@@ -571,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequire that a parameter is present or terminate early.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "reqParam",
           "package": "snap-extras",
@@ -581,6 +626,7 @@
         "index": {
           "description": "Require that parameter is present or terminate early",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "reqParam",
           "normalized": "ByteString-\u003ea ByteString",
@@ -597,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinish early with error code 500\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "serverError",
           "package": "snap-extras",
@@ -607,6 +654,7 @@
         "index": {
           "description": "Finish early with error code",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "serverError",
           "normalized": "ByteString-\u003ea b",
@@ -623,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the current rqURI has a trailing slash, then redirect to the same page\n with no trailing slash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.CoreUtils",
           "name": "undirify",
           "package": "snap-extras",
@@ -633,6 +682,7 @@
         "index": {
           "description": "If the current rqURI has trailing slash then redirect to the same page with no trailing slash",
           "hierarchy": "Snap Extras CoreUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.CoreUtils",
           "name": "undirify",
           "normalized": "a()",
@@ -647,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.FlashNotice",
           "name": "FlashNotice",
           "package": "snap-extras",
@@ -655,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras FlashNotice",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.FlashNotice",
           "name": "FlashNotice",
           "package": "snap-extras",
@@ -669,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled splice for rendering a given flash notice dirctive.\n\u003c/p\u003e\u003cp\u003eEx: \u003ca\u003etype='warning'/\u003c/a\u003e\n Ex: \u003ca\u003etype='success'/\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.FlashNotice",
           "name": "flashCSplice",
           "package": "snap-extras",
@@ -679,6 +732,7 @@
         "index": {
           "description": "compiled splice for rendering given flash notice dirctive Ex type warning Ex type success",
           "hierarchy": "Snap Extras FlashNotice",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.FlashNotice",
           "name": "flashCSplice",
           "normalized": "SnapletLens a SessionManager-\u003eSnapletCSplice a",
@@ -695,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay an error message on next load of a page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.FlashNotice",
           "name": "flashError",
           "package": "snap-extras",
@@ -705,6 +760,7 @@
         "index": {
           "description": "Display an error message on next load of page",
           "hierarchy": "Snap Extras FlashNotice",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.FlashNotice",
           "name": "flashError",
           "normalized": "SnapletLens a SessionManager-\u003eText-\u003eHandler a a()",
@@ -721,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay an info message on next load of a page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.FlashNotice",
           "name": "flashInfo",
           "package": "snap-extras",
@@ -731,6 +788,7 @@
         "index": {
           "description": "Display an info message on next load of page",
           "hierarchy": "Snap Extras FlashNotice",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.FlashNotice",
           "name": "flashInfo",
           "normalized": "SnapletLens a SessionManager-\u003eText-\u003eHandler a a()",
@@ -747,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA splice for rendering a given flash notice dirctive.\n\u003c/p\u003e\u003cp\u003eEx: \u003ca\u003etype='warning'/\u003c/a\u003e\n Ex: \u003ca\u003etype='success'/\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.FlashNotice",
           "name": "flashSplice",
           "package": "snap-extras",
@@ -757,6 +816,7 @@
         "index": {
           "description": "splice for rendering given flash notice dirctive Ex type warning Ex type success",
           "hierarchy": "Snap Extras FlashNotice",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.FlashNotice",
           "name": "flashSplice",
           "normalized": "SnapletLens a SessionManager-\u003eSnapletISplice a",
@@ -773,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a success message on next load of a page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.FlashNotice",
           "name": "flashSuccess",
           "package": "snap-extras",
@@ -783,6 +844,7 @@
         "index": {
           "description": "Display success message on next load of page",
           "hierarchy": "Snap Extras FlashNotice",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.FlashNotice",
           "name": "flashSuccess",
           "normalized": "SnapletLens a SessionManager-\u003eText-\u003eHandler a a()",
@@ -799,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay an warning message on next load of a page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.FlashNotice",
           "name": "flashWarning",
           "package": "snap-extras",
@@ -809,6 +872,7 @@
         "index": {
           "description": "Display an warning message on next load of page",
           "hierarchy": "Snap Extras FlashNotice",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.FlashNotice",
           "name": "flashWarning",
           "normalized": "SnapletLens a SessionManager-\u003eText-\u003eHandler a a()",
@@ -825,6 +889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the flash notice system. All you have to do now is to\n add some flash tags in your application template. See \u003ccode\u003e\u003ca\u003eflashSplice\u003c/a\u003e\u003c/code\u003e\n for examples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.FlashNotice",
           "name": "initFlashNotice",
           "package": "snap-extras",
@@ -835,6 +900,7 @@
         "index": {
           "description": "Initialize the flash notice system All you have to do now is to add some flash tags in your application template See flashSplice for examples",
           "hierarchy": "Snap Extras FlashNotice",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.FlashNotice",
           "name": "initFlashNotice",
           "normalized": "Snaplet(Heist a)-\u003eSnapletLens a SessionManager-\u003eInitializer a b()",
@@ -850,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.FormUtils",
           "name": "FormUtils",
           "package": "snap-extras",
@@ -858,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras FormUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.FormUtils",
           "name": "FormUtils",
           "package": "snap-extras",
@@ -872,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a generalized edit form splice that looks up an ID param\n specified by the \u003ccode\u003eby\u003c/code\u003e attribute.  You might use this splice as follows:\n\u003c/p\u003e\u003cpre\u003e \u003ceditFormSplice by=\"id\"\u003e\n\u003c/pre\u003e\u003cp\u003eIf you don't specify the \u003ccode\u003eby\u003c/code\u003e attribute, the default is \u003ccode\u003eby=\"id\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.FormUtils",
           "name": "editFormSplice",
           "package": "snap-extras",
@@ -881,6 +950,7 @@
         "index": {
           "description": "Constructs generalized edit form splice that looks up an ID param specified by the by attribute You might use this splice as follows editFormSplice by id If you don specify the by attribute the default is by id",
           "hierarchy": "Snap Extras FormUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.FormUtils",
           "name": "editFormSplice",
           "normalized": "(a(Maybe b)-\u003eHeistT a c d)-\u003e(ByteString-\u003ea(Maybe b))-\u003eHeistT a c d",
@@ -897,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform to Nothing if field is empty string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.FormUtils",
           "name": "maybeTrans",
           "package": "snap-extras",
@@ -907,6 +978,7 @@
         "index": {
           "description": "Transform to Nothing if field is empty string",
           "hierarchy": "Snap Extras FormUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.FormUtils",
           "name": "maybeTrans",
           "normalized": "a-\u003eResult b(Maybe a)",
@@ -923,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaybe read into target value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.FormUtils",
           "name": "readMayTrans",
           "package": "snap-extras",
@@ -933,6 +1006,7 @@
         "index": {
           "description": "Maybe read into target value",
           "hierarchy": "Snap Extras FormUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.FormUtils",
           "name": "readMayTrans",
           "normalized": "Text-\u003eResult a(Maybe b)",
@@ -949,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead into target value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.FormUtils",
           "name": "readTrans",
           "package": "snap-extras",
@@ -959,6 +1034,7 @@
         "index": {
           "description": "Read into target value",
           "hierarchy": "Snap Extras FormUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.FormUtils",
           "name": "readTrans",
           "normalized": "Text-\u003eResult a b",
@@ -974,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.JSON",
           "name": "JSON",
           "package": "snap-extras",
@@ -982,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras JSON",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.JSON",
           "name": "JSON",
           "package": "snap-extras",
@@ -996,6 +1074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse request body into JSON or return an error string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.JSON",
           "name": "getBoundedJSON",
           "package": "snap-extras",
@@ -1005,6 +1084,7 @@
         "index": {
           "description": "Parse request body into JSON or return an error string",
           "hierarchy": "Snap Extras JSON",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.JSON",
           "name": "getBoundedJSON",
           "normalized": "Int-\u003ea(Either String b)",
@@ -1021,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to parse request body as JSON with a default max size of\n 50000.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.JSON",
           "name": "getJSON",
           "package": "snap-extras",
@@ -1031,6 +1112,7 @@
         "index": {
           "description": "Try to parse request body as JSON with default max size of",
           "hierarchy": "Snap Extras JSON",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.JSON",
           "name": "getJSON",
           "package": "snap-extras",
@@ -1045,6 +1127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet JSON data from the given Param field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.JSON",
           "name": "getJSONField",
           "package": "snap-extras",
@@ -1055,6 +1138,7 @@
         "index": {
           "description": "Get JSON data from the given Param field",
           "hierarchy": "Snap Extras JSON",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.JSON",
           "name": "getJSONField",
           "normalized": "ByteString-\u003ea(Either String b)",
@@ -1071,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand the presence of JSON in the body with a size up to N\n bytes. If parsing fails for any reson, request is terminated early\n and a server error is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.JSON",
           "name": "reqBoundedJSON",
           "package": "snap-extras",
@@ -1080,6 +1165,7 @@
         "index": {
           "description": "Demand the presence of JSON in the body with size up to bytes If parsing fails for any reson request is terminated early and server error is returned",
           "hierarchy": "Snap Extras JSON",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.JSON",
           "name": "reqBoundedJSON",
           "normalized": "Int-\u003ea b",
@@ -1096,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand the presence of JSON in the body assuming it is not larger\n than 50000 bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.JSON",
           "name": "reqJSON",
           "package": "snap-extras",
@@ -1106,6 +1193,7 @@
         "index": {
           "description": "Demand the presence of JSON in the body assuming it is not larger than bytes",
           "hierarchy": "Snap Extras JSON",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.JSON",
           "name": "reqJSON",
           "package": "snap-extras",
@@ -1120,6 +1208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce the JSON value from field. Similar to \u003ccode\u003e\u003ca\u003egetJSONField\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.JSON",
           "name": "reqJSONField",
           "package": "snap-extras",
@@ -1130,6 +1219,7 @@
         "index": {
           "description": "Force the JSON value from field Similar to getJSONField",
           "hierarchy": "Snap Extras JSON",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.JSON",
           "name": "reqJSONField",
           "normalized": "ByteString-\u003ea b",
@@ -1146,6 +1236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet MIME to 'application/json' and write given object into\n \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.JSON",
           "name": "writeJSON",
           "package": "snap-extras",
@@ -1156,6 +1247,7 @@
         "index": {
           "description": "Set MIME to application json and write given object into Response body",
           "hierarchy": "Snap Extras JSON",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.JSON",
           "name": "writeJSON",
           "normalized": "a-\u003eb()",
@@ -1171,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "NavTrails",
           "package": "snap-extras",
@@ -1179,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "NavTrails",
           "package": "snap-extras",
@@ -1192,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "NavTrail",
           "package": "snap-extras",
@@ -1200,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "NavTrail",
           "package": "snap-extras",
@@ -1213,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "NavTrail",
           "package": "snap-extras",
@@ -1222,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "NavTrail",
           "package": "snap-extras",
@@ -1235,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "addNavTrailSplices",
           "package": "snap-extras",
@@ -1244,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "addNavTrailSplices",
           "normalized": "Snaplet(Heist a)-\u003eInitializer a(NavTrail a)()",
@@ -1259,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "backCSplice",
           "package": "snap-extras",
@@ -1268,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "backCSplice",
           "package": "snap-extras",
@@ -1281,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "backSplice",
           "package": "snap-extras",
@@ -1290,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "backSplice",
           "package": "snap-extras",
@@ -1303,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "focusCSplice",
           "package": "snap-extras",
@@ -1312,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "focusCSplice",
           "normalized": "SnapletLens(Snaplet a)(NavTrail b)-\u003eSplice(Handler b a)",
@@ -1327,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "focusSplice",
           "package": "snap-extras",
@@ -1336,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "focusSplice",
           "normalized": "SnapletLens(Snaplet a)(NavTrail b)-\u003eSplice(Handler b a)",
@@ -1351,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "getFocus",
           "package": "snap-extras",
@@ -1360,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "getFocus",
           "package": "snap-extras",
@@ -1373,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "getFocusDef",
           "package": "snap-extras",
@@ -1382,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "getFocusDef",
           "normalized": "Text-\u003eHandler a(NavTrail a)Text",
@@ -1397,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "initNavTrail",
           "package": "snap-extras",
@@ -1405,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "initNavTrail",
           "normalized": "SnapletLens a SessionManager-\u003eMaybe(Snaplet(Heist a))-\u003eSnapletInit a(NavTrail a)",
@@ -1421,6 +1535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA session manager for the base\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "ntSes",
           "package": "snap-extras",
@@ -1431,6 +1546,7 @@
         "index": {
           "description": "session manager for the base",
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "ntSes",
           "package": "snap-extras",
@@ -1444,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "redirBack",
           "package": "snap-extras",
@@ -1453,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "redirBack",
           "package": "snap-extras",
@@ -1466,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "redirFocus",
           "package": "snap-extras",
@@ -1475,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "redirFocus",
           "normalized": "ByteString-\u003eHandler a(NavTrail a)b",
@@ -1490,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "setFocus",
           "package": "snap-extras",
@@ -1499,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "setFocus",
           "normalized": "Handler a(NavTrail a)()",
@@ -1514,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "setFocus'",
           "package": "snap-extras",
@@ -1523,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "setFocus'",
           "normalized": "ByteString-\u003eHandler a(NavTrail a)()",
@@ -1538,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.NavTrails",
           "name": "setFocusToRef",
           "package": "snap-extras",
@@ -1547,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras NavTrails",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.NavTrails",
           "name": "setFocusToRef",
           "normalized": "Handler a(NavTrail a)()",
@@ -1562,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.SpliceUtils.Compiled",
           "name": "Compiled",
           "package": "snap-extras",
@@ -1570,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras SpliceUtils Compiled",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.SpliceUtils.Compiled",
           "name": "Compiled",
           "package": "snap-extras",
@@ -1584,6 +1712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the value of a request parameter.  Example use:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ename=\"username\"/\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.SpliceUtils.Compiled",
           "name": "paramSplice",
           "package": "snap-extras",
@@ -1594,6 +1723,7 @@
         "index": {
           "description": "Gets the value of request parameter Example use name username",
           "hierarchy": "Snap Extras SpliceUtils Compiled",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.SpliceUtils.Compiled",
           "name": "paramSplice",
           "package": "snap-extras",
@@ -1607,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.SpliceUtils.Compiled",
           "name": "refererCSplice",
           "package": "snap-extras",
@@ -1616,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras SpliceUtils Compiled",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.SpliceUtils.Compiled",
           "name": "refererCSplice",
           "package": "snap-extras",
@@ -1630,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches a directory on disk and all its subdirectories for all files\n with names that don't begin with an underscore and end with a .js\n extension.  It then returns script tags for each of these files.\n\u003c/p\u003e\u003cp\u003eYou can use this function to create a splice:\n\u003c/p\u003e\u003cpre\u003e (\"staticscripts\", scriptsSplice \"static/js\" \"/\")\n\u003c/pre\u003e\u003cp\u003eThen when you use the \u003ccode\u003e\u003cstaticscripts/\u003e\u003c/code\u003e tag in your templates, it will\n automatically include all the javascript code in the \u003ccode\u003estatic/js\u003c/code\u003e directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.SpliceUtils.Compiled",
           "name": "scriptsSplice",
           "package": "snap-extras",
@@ -1639,6 +1772,7 @@
         "index": {
           "description": "Searches directory on disk and all its subdirectories for all files with names that don begin with an underscore and end with js extension It then returns script tags for each of these files You can use this function to create splice staticscripts scriptsSplice static js Then when you use the staticscripts tag in your templates it will automatically include all the javascript code in the static js directory",
           "hierarchy": "Snap Extras SpliceUtils Compiled",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.SpliceUtils.Compiled",
           "name": "scriptsSplice",
           "normalized": "FilePath-\u003eString-\u003eSplice a",
@@ -1654,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.SpliceUtils.Compiled",
           "name": "utilSplices",
           "package": "snap-extras",
@@ -1663,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras SpliceUtils Compiled",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.SpliceUtils.Compiled",
           "name": "utilSplices",
           "package": "snap-extras",
@@ -1676,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "Interpreted",
           "package": "snap-extras",
@@ -1684,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras SpliceUtils Interpreted",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "Interpreted",
           "package": "snap-extras",
@@ -1698,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck to see if the boolean flag named by the \u003ca\u003eref\u003c/a\u003e attribute is\n present and set to true in snaplet user config file. If so, run\n what's inside this splice, if not, simply omit that part.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e \u003cflag ref=\"beta-functions-enabled\"\u003e\n stuff...\n \u003c/flag\u003e\n\u003c/pre\u003e\u003cp\u003eThis will look for an entry inside your .cfg file:\n\u003c/p\u003e\u003cpre\u003e beta-functions-enabled = true\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "ifFlagSplice",
           "package": "snap-extras",
@@ -1708,6 +1847,7 @@
         "index": {
           "description": "Check to see if the boolean flag named by the ref attribute is present and set to true in snaplet user config file If so run what inside this splice if not simply omit that part Example flag ref beta-functions-enabled stuff flag This will look for an entry inside your cfg file beta-functions-enabled true",
           "hierarchy": "Snap Extras SpliceUtils Interpreted",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "ifFlagSplice",
           "package": "snap-extras",
@@ -1722,6 +1862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the value of a request parameter.  Example use:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ename=\"username\"/\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "paramSplice",
           "package": "snap-extras",
@@ -1732,6 +1873,7 @@
         "index": {
           "description": "Gets the value of request parameter Example use name username",
           "hierarchy": "Snap Extras SpliceUtils Interpreted",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "paramSplice",
           "package": "snap-extras",
@@ -1745,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "refererSplice",
           "package": "snap-extras",
@@ -1754,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras SpliceUtils Interpreted",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "refererSplice",
           "package": "snap-extras",
@@ -1768,6 +1912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssume text area contains the name of a splice as Text.\n\u003c/p\u003e\u003cp\u003eThis is helpful when you pass a default value to digestive-functors\n by putting the name of a splice as the value of a textarea tag.\n\u003c/p\u003e\u003cpre\u003e heistLocal runTextAreas $ render \"joo/index\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "runTextAreas",
           "package": "snap-extras",
@@ -1778,6 +1923,7 @@
         "index": {
           "description": "Assume text area contains the name of splice as Text This is helpful when you pass default value to digestive-functors by putting the name of splice as the value of textarea tag heistLocal runTextAreas render joo index",
           "hierarchy": "Snap Extras SpliceUtils Interpreted",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "runTextAreas",
           "normalized": "HeistState a-\u003eHeistState a",
@@ -1794,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches a directory on disk and all its subdirectories for all files\n with names that don't begin with an underscore and end with a .js\n extension.  It then returns script tags for each of these files.\n\u003c/p\u003e\u003cp\u003eYou can use this function to create a splice:\n\u003c/p\u003e\u003cpre\u003e (\"staticscripts\", scriptsSplice \"static/js\" \"/\")\n\u003c/pre\u003e\u003cp\u003eThen when you use the \u003ccode\u003e\u003cstaticscripts/\u003e\u003c/code\u003e tag in your templates, it will\n automatically include all the javascript code in the \u003ccode\u003estatic/js\u003c/code\u003e directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "scriptsSplice",
           "package": "snap-extras",
@@ -1803,6 +1950,7 @@
         "index": {
           "description": "Searches directory on disk and all its subdirectories for all files with names that don begin with an underscore and end with js extension It then returns script tags for each of these files You can use this function to create splice staticscripts scriptsSplice static js Then when you use the staticscripts tag in your templates it will automatically include all the javascript code in the static js directory",
           "hierarchy": "Snap Extras SpliceUtils Interpreted",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "scriptsSplice",
           "normalized": "FilePath-\u003eString-\u003ea[Node]",
@@ -1819,6 +1967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplice helper for when you're rendering a select element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "selectSplice",
           "package": "snap-extras",
@@ -1828,6 +1977,7 @@
         "index": {
           "description": "Splice helper for when you re rendering select element",
           "hierarchy": "Snap Extras SpliceUtils Interpreted",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "selectSplice",
           "normalized": "Text-\u003eText-\u003e[(Text,Text)]-\u003eMaybe Text-\u003eSplice a",
@@ -1844,6 +1994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of splices offered in this module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "utilSplices",
           "package": "snap-extras",
@@ -1854,6 +2005,7 @@
         "index": {
           "description": "list of splices offered in this module",
           "hierarchy": "Snap Extras SpliceUtils Interpreted",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.SpliceUtils.Interpreted",
           "name": "utilSplices",
           "package": "snap-extras",
@@ -1868,6 +2020,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePurpose of this module is to provide a simple, functional way to\n    define tabs in Snap applications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.Tabs",
           "name": "Tabs",
           "package": "snap-extras",
@@ -1877,6 +2030,7 @@
         "index": {
           "description": "Purpose of this module is to provide simple functional way to define tabs in Snap applications",
           "hierarchy": "Snap Extras Tabs",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.Tabs",
           "name": "Tabs",
           "package": "snap-extras",
@@ -1891,6 +2045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tab is a \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e generator upon receiving a current URL context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.Tabs",
           "name": "Tab",
           "package": "snap-extras",
@@ -1900,6 +2055,7 @@
         "index": {
           "description": "tab is Node generator upon receiving current URL context",
           "hierarchy": "Snap Extras Tabs",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.Tabs",
           "name": "Tab",
           "package": "snap-extras",
@@ -1914,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow do we decide \u003ca\u003eactive\u003c/a\u003e for tab state?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.Tabs",
           "name": "TabActiveMode",
           "package": "snap-extras",
@@ -1923,6 +2080,7 @@
         "index": {
           "description": "How do we decide active for tab state",
           "hierarchy": "Snap Extras Tabs",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.Tabs",
           "name": "TabActiveMode",
           "package": "snap-extras",
@@ -1936,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.Tabs",
           "name": "TAMDontMatch",
           "package": "snap-extras",
@@ -1945,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras Tabs",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.Tabs",
           "name": "TAMDontMatch",
           "package": "snap-extras",
@@ -1959,6 +2119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent url has to match exactly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.Tabs",
           "name": "TAMExactMatch",
           "package": "snap-extras",
@@ -1969,6 +2130,7 @@
         "index": {
           "description": "Current url has to match exactly",
           "hierarchy": "Snap Extras Tabs",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.Tabs",
           "name": "TAMExactMatch",
           "package": "snap-extras",
@@ -1983,6 +2145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sub-set of the current url has to match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.Tabs",
           "name": "TAMInfixMatch",
           "package": "snap-extras",
@@ -1993,6 +2156,7 @@
         "index": {
           "description": "sub-set of the current url has to match",
           "hierarchy": "Snap Extras Tabs",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.Tabs",
           "name": "TAMInfixMatch",
           "package": "snap-extras",
@@ -2007,6 +2171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly the prefix needs to match current url\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.Tabs",
           "name": "TAMPrefixMatch",
           "package": "snap-extras",
@@ -2017,6 +2182,7 @@
         "index": {
           "description": "Only the prefix needs to match current url",
           "hierarchy": "Snap Extras Tabs",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.Tabs",
           "name": "TAMPrefixMatch",
           "package": "snap-extras",
@@ -2030,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.Tabs",
           "name": "initTabs",
           "package": "snap-extras",
@@ -2039,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras Tabs",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.Tabs",
           "name": "initTabs",
           "normalized": "Snaplet(Heist a)-\u003eInitializer a b()",
@@ -2055,6 +2223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake tabs from tab definitions. Use the \u003ccode\u003e\u003ca\u003etab\u003c/a\u003e\u003c/code\u003e combinator to\n define individual options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.Tabs",
           "name": "mkTabs",
           "package": "snap-extras",
@@ -2064,6 +2233,7 @@
         "index": {
           "description": "Make tabs from tab definitions Use the tab combinator to define individual options",
           "hierarchy": "Snap Extras Tabs",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.Tabs",
           "name": "mkTabs",
           "normalized": "Text-\u003e[Tab]-\u003eSplice a",
@@ -2080,6 +2250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTab item constructor to be used with \u003ccode\u003e\u003ca\u003emkTabs\u003c/a\u003e\u003c/code\u003e. Just supply the\n given arguments here and it will create a \u003ccode\u003e\u003ca\u003eTab\u003c/a\u003e\u003c/code\u003e ready to be used in\n \u003ccode\u003e\u003ca\u003emkTabs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf the tab is currently active, the li tag will get a class of\n 'active'.\n\u003c/p\u003e\u003cp\u003eMake sure to provide a trailing / when indicating URLs as snap\n context paths contain it and active tab checks will be confused\n without it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.Tabs",
           "name": "tab",
           "package": "snap-extras",
@@ -2089,6 +2260,7 @@
         "index": {
           "description": "Tab item constructor to be used with mkTabs Just supply the given arguments here and it will create Tab ready to be used in mkTabs If the tab is currently active the li tag will get class of active Make sure to provide trailing when indicating URLs as snap context paths contain it and active tab checks will be confused without it",
           "hierarchy": "Snap Extras Tabs",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.Tabs",
           "name": "tab",
           "normalized": "Text-\u003eText-\u003e[(Text,Text)]-\u003eTabActiveMode-\u003eTab",
@@ -2104,6 +2276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompiled splice for tabs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.Tabs",
           "name": "tabsCSplice",
           "package": "snap-extras",
@@ -2114,6 +2287,7 @@
         "index": {
           "description": "Compiled splice for tabs",
           "hierarchy": "Snap Extras Tabs",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.Tabs",
           "name": "tabsCSplice",
           "package": "snap-extras",
@@ -2127,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.Tabs",
           "name": "tabsSplice",
           "package": "snap-extras",
@@ -2136,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras Tabs",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.Tabs",
           "name": "tabsSplice",
           "package": "snap-extras",
@@ -2149,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.TextUtils",
           "name": "TextUtils",
           "package": "snap-extras",
@@ -2157,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras TextUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.TextUtils",
           "name": "TextUtils",
           "package": "snap-extras",
@@ -2170,6 +2348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.TextUtils",
           "name": "readBS",
           "package": "snap-extras",
@@ -2179,6 +2358,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras TextUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.TextUtils",
           "name": "readBS",
           "normalized": "ByteString-\u003ea",
@@ -2194,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.TextUtils",
           "name": "readT",
           "package": "snap-extras",
@@ -2203,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras TextUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.TextUtils",
           "name": "readT",
           "normalized": "Text-\u003ea",
@@ -2217,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.TextUtils",
           "name": "showBS",
           "package": "snap-extras",
@@ -2226,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras TextUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.TextUtils",
           "name": "showBS",
           "normalized": "a-\u003eByteString",
@@ -2241,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.TextUtils",
           "name": "showT",
           "package": "snap-extras",
@@ -2250,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras TextUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.TextUtils",
           "name": "showT",
           "normalized": "a-\u003eText",
@@ -2264,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras.TextUtils",
           "name": "titleCase",
           "package": "snap-extras",
@@ -2273,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras TextUtils",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras.TextUtils",
           "name": "titleCase",
           "normalized": "Text-\u003eText",
@@ -2288,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras",
           "name": "Extras",
           "package": "snap-extras",
@@ -2296,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Snap Extras",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras",
           "name": "Extras",
           "package": "snap-extras",
@@ -2310,6 +2500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize all the \u003ccode\u003e\u003ca\u003eExtras\u003c/a\u003e\u003c/code\u003e functionality in your Snap app.\n Currently, we don't need to keep any state and simply return ().\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:11 UTC 2014",
           "module": "Snap.Extras",
           "name": "initExtras",
           "package": "snap-extras",
@@ -2320,6 +2511,7 @@
         "index": {
           "description": "Initialize all the Extras functionality in your Snap app Currently we don need to keep any state and simply return",
           "hierarchy": "Snap Extras",
+          "indexed": "2014-03-11T20:05:11",
           "module": "Snap.Extras",
           "name": "initExtras",
           "normalized": "Snaplet(Heist a)-\u003eSnapletLens a SessionManager-\u003eSnapletInit a()",

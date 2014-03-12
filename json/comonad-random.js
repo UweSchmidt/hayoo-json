@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "comonad-random"
+        "phrase": "comonad-random",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a comonadic interface to random values. In\n   some situations, this may be more natural than a monadic\n   approach.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:46 UTC 2014",
           "module": "Control.Comonad.Random",
           "name": "Random",
           "package": "comonad-random",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides comonadic interface to random values In some situations this may be more natural than monadic approach",
           "hierarchy": "Control Comonad Random",
+          "indexed": "2014-03-11T17:36:46",
           "module": "Control.Comonad.Random",
           "name": "Random",
           "package": "comonad-random",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA memoized supply of values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:46 UTC 2014",
           "module": "Control.Comonad.Random",
           "name": "Rand",
           "package": "comonad-random",
@@ -51,6 +54,7 @@
         "index": {
           "description": "memoized supply of values",
           "hierarchy": "Control Comonad Random",
+          "indexed": "2014-03-11T17:36:46",
           "module": "Control.Comonad.Random",
           "name": "Rand",
           "package": "comonad-random",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an infinite list of values by applying a function\n   repeatedly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:46 UTC 2014",
           "module": "Control.Comonad.Random",
           "name": "extracts",
           "package": "comonad-random",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Generate an infinite list of values by applying function repeatedly",
           "hierarchy": "Control Comonad Random",
+          "indexed": "2014-03-11T17:36:46",
           "module": "Control.Comonad.Random",
           "name": "extracts",
           "normalized": "(a b-\u003ea b)-\u003ea b-\u003e[b]",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit the generator, returning the new left one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:46 UTC 2014",
           "module": "Control.Comonad.Random",
           "name": "left",
           "package": "comonad-random",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Split the generator returning the new left one",
           "hierarchy": "Control Comonad Random",
+          "indexed": "2014-03-11T17:36:46",
           "module": "Control.Comonad.Random",
           "name": "left",
           "normalized": "Rand a-\u003eRand a",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a comonadic generator from a \u003ccode\u003e\u003ca\u003eRandomGen\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:46 UTC 2014",
           "module": "Control.Comonad.Random",
           "name": "mkRand",
           "package": "comonad-random",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Create comonadic generator from RandomGen",
           "hierarchy": "Control Comonad Random",
+          "indexed": "2014-03-11T17:36:46",
           "module": "Control.Comonad.Random",
           "name": "mkRand",
           "normalized": "a-\u003eRand b",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a comonadic generator from a \u003ccode\u003e\u003ca\u003eRandomGen\u003c/a\u003e\u003c/code\u003e where the values\n   are limited to a given range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:46 UTC 2014",
           "module": "Control.Comonad.Random",
           "name": "mkRandR",
           "package": "comonad-random",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Create comonadic generator from RandomGen where the values are limited to given range",
           "hierarchy": "Control Comonad Random",
+          "indexed": "2014-03-11T17:36:46",
           "module": "Control.Comonad.Random",
           "name": "mkRandR",
           "normalized": "(a,a)-\u003eb-\u003eRand a",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the generator for the next value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:46 UTC 2014",
           "module": "Control.Comonad.Random",
           "name": "next",
           "package": "comonad-random",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Get the generator for the next value",
           "hierarchy": "Control Comonad Random",
+          "indexed": "2014-03-11T17:36:46",
           "module": "Control.Comonad.Random",
           "name": "next",
           "normalized": "Rand a-\u003eRand a",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit the generator, returning the new right one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:46 UTC 2014",
           "module": "Control.Comonad.Random",
           "name": "right",
           "package": "comonad-random",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Split the generator returning the new right one",
           "hierarchy": "Control Comonad Random",
+          "indexed": "2014-03-11T17:36:46",
           "module": "Control.Comonad.Random",
           "name": "right",
           "normalized": "Rand a-\u003eRand a",

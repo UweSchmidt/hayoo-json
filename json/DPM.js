@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DPM"
+        "phrase": "DPM",
+        "type": "phrase"
       },
       "type": "context"
     }

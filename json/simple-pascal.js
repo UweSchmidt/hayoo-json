@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-pascal"
+        "phrase": "simple-pascal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Builtin",
           "name": "Builtin",
           "package": "simple-pascal",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Builtin",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Builtin",
           "name": "Builtin",
           "package": "simple-pascal",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of builtin functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Builtin",
           "name": "builtinFunctions",
           "package": "simple-pascal",
@@ -50,6 +53,7 @@
         "index": {
           "description": "List of builtin functions",
           "hierarchy": "Language Pascal Builtin",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Builtin",
           "name": "builtinFunctions",
           "normalized": "[(Id,Type,Generate())]",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate instruction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Builtin",
           "name": "i",
           "package": "simple-pascal",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Generate instruction",
           "hierarchy": "Language Pascal Builtin",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Builtin",
           "name": "i",
           "normalized": "Instruction-\u003eGenerate()",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf named symbol is builtin, return it's definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Builtin",
           "name": "lookupBuiltin",
           "package": "simple-pascal",
@@ -101,6 +108,7 @@
         "index": {
           "description": "If named symbol is builtin return it definition",
           "hierarchy": "Language Pascal Builtin",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Builtin",
           "name": "lookupBuiltin",
           "normalized": "Id-\u003eMaybe(Generate())",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate PUSH instruction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Builtin",
           "name": "push",
           "package": "simple-pascal",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Generate PUSH instruction",
           "hierarchy": "Language Pascal Builtin",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Builtin",
           "name": "push",
           "normalized": "a-\u003eGenerate()",
@@ -141,6 +151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.CodeGen",
           "name": "CodeGen",
           "package": "simple-pascal",
@@ -149,6 +160,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal CodeGen",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.CodeGen",
           "name": "CodeGen",
           "package": "simple-pascal",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.CodeGen",
           "name": "CodeGen",
           "package": "simple-pascal",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal CodeGen",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.CodeGen",
           "name": "CodeGen",
           "package": "simple-pascal",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.CodeGen",
           "name": "generate",
           "package": "simple-pascal",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal CodeGen",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.CodeGen",
           "name": "generate",
           "normalized": "a-\u003eGenerate()",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun code generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.CodeGen",
           "name": "runCodeGen",
           "package": "simple-pascal",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Run code generator",
           "hierarchy": "Language Pascal CodeGen",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.CodeGen",
           "name": "runCodeGen",
           "normalized": "Generate()-\u003eCode",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Parser",
           "name": "Parser",
           "package": "simple-pascal",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Parser",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Parser",
           "name": "Parser",
           "package": "simple-pascal",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Parser",
           "name": "pProgram",
           "package": "simple-pascal",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Parser",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Parser",
           "name": "pProgram",
           "package": "simple-pascal",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Parser",
           "name": "parseSource",
           "package": "simple-pascal",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Parser",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Parser",
           "name": "parseSource",
           "normalized": "FilePath-\u003eIO(Program SrcPos)",
@@ -299,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.TypeCheck",
           "name": "TypeCheck",
           "package": "simple-pascal",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal TypeCheck",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.TypeCheck",
           "name": "TypeCheck",
           "package": "simple-pascal",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymbol table of builtin symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.TypeCheck",
           "name": "builtinSymbols",
           "package": "simple-pascal",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Symbol table of builtin symbols",
           "hierarchy": "Language Pascal TypeCheck",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.TypeCheck",
           "name": "builtinSymbols",
           "package": "simple-pascal",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.TypeCheck",
           "name": "checkSource",
           "package": "simple-pascal",
@@ -353,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal TypeCheck",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.TypeCheck",
           "name": "checkSource",
           "normalized": "FilePath-\u003eIO(Program TypeAnn)",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.TypeCheck",
           "name": "checkTypes",
           "package": "simple-pascal",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal TypeCheck",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.TypeCheck",
           "name": "checkTypes",
           "normalized": "(Program SrcPos)-\u003eProgram TypeAnn",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Types",
           "package": "simple-pascal",
@@ -400,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Types",
           "package": "simple-pascal",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive annotated type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": ":~",
           "package": "simple-pascal",
@@ -423,6 +458,7 @@
         "index": {
           "description": "Recursive annotated type",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": ":~",
           "package": "simple-pascal",
@@ -436,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach annotation to node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Annotate",
           "package": "simple-pascal",
@@ -445,6 +482,7 @@
         "index": {
           "description": "Attach annotation to node",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Annotate",
           "package": "simple-pascal",
@@ -459,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupported binary operations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "BinOp",
           "package": "simple-pascal",
@@ -468,6 +507,7 @@
         "index": {
           "description": "Supported binary operations",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "BinOp",
           "package": "simple-pascal",
@@ -481,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Check",
           "package": "simple-pascal",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Check",
           "package": "simple-pascal",
@@ -503,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType checker state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "CheckState",
           "package": "simple-pascal",
@@ -512,6 +555,7 @@
         "index": {
           "description": "Type checker state",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "CheckState",
           "package": "simple-pascal",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Checker",
           "package": "simple-pascal",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Checker",
           "package": "simple-pascal",
@@ -547,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCode generator state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "CodeGenState",
           "package": "simple-pascal",
@@ -556,6 +603,7 @@
         "index": {
           "description": "Code generator state",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "CodeGenState",
           "package": "simple-pascal",
@@ -570,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompiler context (where we are?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Context",
           "package": "simple-pascal",
@@ -579,6 +628,7 @@
         "index": {
           "description": "Compiler context where we are",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Context",
           "package": "simple-pascal",
@@ -593,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Expression",
           "package": "simple-pascal",
@@ -602,6 +653,7 @@
         "index": {
           "description": "Expressions",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Expression",
           "package": "simple-pascal",
@@ -616,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction (or procedure)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Function",
           "package": "simple-pascal",
@@ -625,6 +678,7 @@
         "index": {
           "description": "Function or procedure",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Function",
           "package": "simple-pascal",
@@ -638,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Generate",
           "package": "simple-pascal",
@@ -646,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Generate",
           "package": "simple-pascal",
@@ -660,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for symbol identifiers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Id",
           "package": "simple-pascal",
@@ -669,6 +726,7 @@
         "index": {
           "description": "Type for symbol identifiers",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Id",
           "package": "simple-pascal",
@@ -683,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssignment LHS value: variable or array item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "LValue",
           "package": "simple-pascal",
@@ -692,6 +751,7 @@
         "index": {
           "description": "Assignment LHS value variable or array item",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "LValue",
           "package": "simple-pascal",
@@ -706,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Lit",
           "package": "simple-pascal",
@@ -715,6 +776,7 @@
         "index": {
           "description": "Literal values",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Lit",
           "package": "simple-pascal",
@@ -729,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Program",
           "package": "simple-pascal",
@@ -738,6 +801,7 @@
         "index": {
           "description": "Program",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Program",
           "package": "simple-pascal",
@@ -752,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition of node in the source code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "SrcPos",
           "package": "simple-pascal",
@@ -761,6 +826,7 @@
         "index": {
           "description": "Position of node in the source code",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "SrcPos",
           "package": "simple-pascal",
@@ -775,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgram statements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Statement",
           "package": "simple-pascal",
@@ -784,6 +851,7 @@
         "index": {
           "description": "Program statements",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Statement",
           "package": "simple-pascal",
@@ -798,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Symbol",
           "package": "simple-pascal",
@@ -807,6 +876,7 @@
         "index": {
           "description": "symbol",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Symbol",
           "package": "simple-pascal",
@@ -821,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymbol table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "SymbolTable",
           "package": "simple-pascal",
@@ -830,6 +901,7 @@
         "index": {
           "description": "Symbol table",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "SymbolTable",
           "package": "simple-pascal",
@@ -844,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompiler error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "TError",
           "package": "simple-pascal",
@@ -853,6 +926,7 @@
         "index": {
           "description": "Compiler error",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "TError",
           "package": "simple-pascal",
@@ -867,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupported data types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Type",
           "package": "simple-pascal",
@@ -876,6 +951,7 @@
         "index": {
           "description": "Supported data types",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Type",
           "package": "simple-pascal",
@@ -890,6 +966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode type info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "TypeAnn",
           "package": "simple-pascal",
@@ -899,6 +976,7 @@
         "index": {
           "description": "Node type info",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "TypeAnn",
           "package": "simple-pascal",
@@ -913,6 +991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake symbol from it's name and type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "(#)",
           "package": "simple-pascal",
@@ -923,6 +1002,7 @@
         "index": {
           "description": "Make symbol from it name and type",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "(#) #",
           "normalized": "Id-\u003eType-\u003eSymbol",
@@ -937,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Add",
           "package": "simple-pascal",
@@ -946,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Add",
           "package": "simple-pascal",
@@ -959,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Annotate",
           "package": "simple-pascal",
@@ -968,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Annotate",
           "package": "simple-pascal",
@@ -982,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003earray item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "ArrayItem",
           "package": "simple-pascal",
@@ -992,6 +1077,7 @@
         "index": {
           "description": "array item",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "ArrayItem",
           "package": "simple-pascal",
@@ -1006,6 +1092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elvalue := expression;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Assign",
           "package": "simple-pascal",
@@ -1016,6 +1103,7 @@
         "index": {
           "description": "lvalue expression",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Assign",
           "package": "simple-pascal",
@@ -1030,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebreak (for loop)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Break",
           "package": "simple-pascal",
@@ -1040,6 +1129,7 @@
         "index": {
           "description": "break for loop",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Break",
           "package": "simple-pascal",
@@ -1054,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealready generated code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "CGState",
           "package": "simple-pascal",
@@ -1064,6 +1155,7 @@
         "index": {
           "description": "already generated code",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "CGState",
           "package": "simple-pascal",
@@ -1078,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunctionName(arguments)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Call",
           "package": "simple-pascal",
@@ -1088,6 +1181,7 @@
         "index": {
           "description": "functionName arguments",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Call",
           "normalized": "Call Id[Expression a]",
@@ -1103,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Check",
           "package": "simple-pascal",
@@ -1112,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Check",
           "package": "simple-pascal",
@@ -1125,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "CheckState",
           "package": "simple-pascal",
@@ -1134,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "CheckState",
           "package": "simple-pascal",
@@ -1148,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtnune (for loop)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Continue",
           "package": "simple-pascal",
@@ -1158,6 +1257,7 @@
         "index": {
           "description": "contnune for loop",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Continue",
           "package": "simple-pascal",
@@ -1171,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Div",
           "package": "simple-pascal",
@@ -1180,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Div",
           "package": "simple-pascal",
@@ -1194,6 +1296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexit (procedure or program)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Exit",
           "package": "simple-pascal",
@@ -1204,6 +1307,7 @@
         "index": {
           "description": "exit procedure or program",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Exit",
           "package": "simple-pascal",
@@ -1218,6 +1322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor i := start to end do ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "For",
           "package": "simple-pascal",
@@ -1228,6 +1333,7 @@
         "index": {
           "description": "for start to end do",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "For",
           "normalized": "For Id(Expression a)(Expression a)[Statement a]",
@@ -1244,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the for loop (started on nth instruction, with named counter)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "ForLoop",
           "package": "simple-pascal",
@@ -1254,6 +1361,7 @@
         "index": {
           "description": "In the for loop started on nth instruction with named counter",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "ForLoop",
           "package": "simple-pascal",
@@ -1267,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Function",
           "package": "simple-pascal",
@@ -1276,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Function",
           "package": "simple-pascal",
@@ -1289,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Generate",
           "package": "simple-pascal",
@@ -1298,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Generate",
           "package": "simple-pascal",
@@ -1312,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif expression then ... else ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "IfThenElse",
           "package": "simple-pascal",
@@ -1322,6 +1435,7 @@
         "index": {
           "description": "if expression then else",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "IfThenElse",
           "normalized": "IfThenElse(Expression a)[Statement a][Statement a]",
@@ -1338,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the named function (returning named type)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "InFunction",
           "package": "simple-pascal",
@@ -1348,6 +1463,7 @@
         "index": {
           "description": "In the named function returning named type",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "InFunction",
           "package": "simple-pascal",
@@ -1361,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "IsEQ",
           "package": "simple-pascal",
@@ -1370,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "IsEQ",
           "package": "simple-pascal",
@@ -1383,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "IsGT",
           "package": "simple-pascal",
@@ -1392,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "IsGT",
           "package": "simple-pascal",
@@ -1405,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "IsLT",
           "package": "simple-pascal",
@@ -1414,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "IsLT",
           "package": "simple-pascal",
@@ -1427,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "IsNE",
           "package": "simple-pascal",
@@ -1436,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "IsNE",
           "package": "simple-pascal",
@@ -1449,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "LArray",
           "package": "simple-pascal",
@@ -1458,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "LArray",
           "package": "simple-pascal",
@@ -1471,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "LBool",
           "package": "simple-pascal",
@@ -1480,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "LBool",
           "package": "simple-pascal",
@@ -1493,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "LField",
           "package": "simple-pascal",
@@ -1502,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "LField",
           "package": "simple-pascal",
@@ -1515,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "LInteger",
           "package": "simple-pascal",
@@ -1524,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "LInteger",
           "package": "simple-pascal",
@@ -1537,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "LString",
           "package": "simple-pascal",
@@ -1546,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "LString",
           "package": "simple-pascal",
@@ -1559,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "LVariable",
           "package": "simple-pascal",
@@ -1568,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "LVariable",
           "package": "simple-pascal",
@@ -1582,6 +1718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eliteral value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Literal",
           "package": "simple-pascal",
@@ -1592,6 +1729,7 @@
         "index": {
           "description": "literal value",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Literal",
           "package": "simple-pascal",
@@ -1605,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Mod",
           "package": "simple-pascal",
@@ -1614,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Mod",
           "package": "simple-pascal",
@@ -1627,6 +1767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Mul",
           "package": "simple-pascal",
@@ -1636,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Mul",
           "package": "simple-pascal",
@@ -1650,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebinary operation (x+y etc)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Op",
           "package": "simple-pascal",
@@ -1660,6 +1803,7 @@
         "index": {
           "description": "binary operation etc",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Op",
           "package": "simple-pascal",
@@ -1674,6 +1818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutside program body or functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Outside",
           "package": "simple-pascal",
@@ -1684,6 +1829,7 @@
         "index": {
           "description": "Outside program body or functions",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Outside",
           "package": "simple-pascal",
@@ -1697,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Pow",
           "package": "simple-pascal",
@@ -1706,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Pow",
           "package": "simple-pascal",
@@ -1720,6 +1868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprocedureName(arguments);\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Procedure",
           "package": "simple-pascal",
@@ -1730,6 +1879,7 @@
         "index": {
           "description": "procedureName arguments",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Procedure",
           "normalized": "Procedure Id[Expression a]",
@@ -1745,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Program",
           "package": "simple-pascal",
@@ -1754,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Program",
           "package": "simple-pascal",
@@ -1768,6 +1920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the program body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "ProgramBody",
           "package": "simple-pascal",
@@ -1778,6 +1931,7 @@
         "index": {
           "description": "In the program body",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "ProgramBody",
           "package": "simple-pascal",
@@ -1792,6 +1946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "RecordField",
           "package": "simple-pascal",
@@ -1802,6 +1957,7 @@
         "index": {
           "description": "record field",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "RecordField",
           "package": "simple-pascal",
@@ -1816,6 +1972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn expression;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Return",
           "package": "simple-pascal",
@@ -1826,6 +1983,7 @@
         "index": {
           "description": "return expression",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Return",
           "package": "simple-pascal",
@@ -1839,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "SrcPos",
           "package": "simple-pascal",
@@ -1848,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "SrcPos",
           "package": "simple-pascal",
@@ -1861,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Sub",
           "package": "simple-pascal",
@@ -1870,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Sub",
           "package": "simple-pascal",
@@ -1883,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Symbol",
           "package": "simple-pascal",
@@ -1892,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Symbol",
           "package": "simple-pascal",
@@ -1906,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eany value (dynamic typing)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "TAny",
           "package": "simple-pascal",
@@ -1916,6 +2081,7 @@
         "index": {
           "description": "any value dynamic typing",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "TAny",
           "package": "simple-pascal",
@@ -1930,6 +2096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003earray of some type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "TArray",
           "package": "simple-pascal",
@@ -1940,6 +2107,7 @@
         "index": {
           "description": "array of some type",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "TArray",
           "package": "simple-pascal",
@@ -1953,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "TBool",
           "package": "simple-pascal",
@@ -1962,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "TBool",
           "package": "simple-pascal",
@@ -1975,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "TError",
           "package": "simple-pascal",
@@ -1984,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "TError",
           "package": "simple-pascal",
@@ -1998,6 +2170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord field: field index and type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "TField",
           "package": "simple-pascal",
@@ -2008,6 +2181,7 @@
         "index": {
           "description": "record field field index and type",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "TField",
           "package": "simple-pascal",
@@ -2022,6 +2196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformal arguments types and return type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "TFunction",
           "package": "simple-pascal",
@@ -2032,6 +2207,7 @@
         "index": {
           "description": "formal arguments types and return type",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "TFunction",
           "normalized": "TFunction[Type]Type",
@@ -2047,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "TInteger",
           "package": "simple-pascal",
@@ -2056,6 +2233,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "TInteger",
           "package": "simple-pascal",
@@ -2070,6 +2248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "TRecord",
           "package": "simple-pascal",
@@ -2080,6 +2259,7 @@
         "index": {
           "description": "record",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "TRecord",
           "normalized": "TRecord[(Id,Type)]",
@@ -2095,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "TString",
           "package": "simple-pascal",
@@ -2104,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "TString",
           "package": "simple-pascal",
@@ -2118,6 +2300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser defined type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "TUser",
           "package": "simple-pascal",
@@ -2128,6 +2311,7 @@
         "index": {
           "description": "user defined type",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "TUser",
           "package": "simple-pascal",
@@ -2141,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "TVoid",
           "package": "simple-pascal",
@@ -2150,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "TVoid",
           "package": "simple-pascal",
@@ -2163,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "TypeAnn",
           "package": "simple-pascal",
@@ -2172,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "TypeAnn",
           "package": "simple-pascal",
@@ -2186,6 +2374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunknown context (== internal error)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Unknown",
           "package": "simple-pascal",
@@ -2196,6 +2385,7 @@
         "index": {
           "description": "unknown context internal error",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Unknown",
           "package": "simple-pascal",
@@ -2210,6 +2400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enamed variable value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "Variable",
           "package": "simple-pascal",
@@ -2220,6 +2411,7 @@
         "index": {
           "description": "named variable value",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "Variable",
           "package": "simple-pascal",
@@ -2234,6 +2426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange annotation of annotated node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "annotate",
           "package": "simple-pascal",
@@ -2244,6 +2437,7 @@
         "index": {
           "description": "Change annotation of annotated node",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "annotate",
           "normalized": "a-\u003eAnnotate b c-\u003eAnnotate b a",
@@ -2258,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "annotation",
           "package": "simple-pascal",
@@ -2267,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "annotation",
           "package": "simple-pascal",
@@ -2279,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "ckColumn",
           "package": "simple-pascal",
@@ -2288,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "ckColumn",
           "package": "simple-pascal",
@@ -2301,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "ckLine",
           "package": "simple-pascal",
@@ -2310,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "ckLine",
           "package": "simple-pascal",
@@ -2323,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "constants",
           "package": "simple-pascal",
@@ -2332,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "constants",
           "normalized": "[(Id,Lit)]",
@@ -2346,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "content",
           "package": "simple-pascal",
@@ -2355,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "content",
           "package": "simple-pascal",
@@ -2368,6 +2572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext ID, for labels and variable names generation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "contextId",
           "package": "simple-pascal",
@@ -2378,6 +2583,7 @@
         "index": {
           "description": "Context ID for labels and variable names generation",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "contextId",
           "normalized": "Context-\u003eString",
@@ -2393,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "contexts",
           "package": "simple-pascal",
@@ -2402,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "contexts",
           "normalized": "[Context]",
@@ -2417,6 +2625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrent contexts stack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "currentContext",
           "package": "simple-pascal",
@@ -2427,6 +2636,7 @@
         "index": {
           "description": "current contexts stack",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "currentContext",
           "normalized": "[Context]",
@@ -2442,6 +2652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "dropContext",
           "package": "simple-pascal",
@@ -2451,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "dropContext",
           "normalized": "a()",
@@ -2467,6 +2679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarting code generator state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "emptyGState",
           "package": "simple-pascal",
@@ -2477,6 +2690,7 @@
         "index": {
           "description": "Starting code generator state",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "emptyGState",
           "package": "simple-pascal",
@@ -2490,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "enterContext",
           "package": "simple-pascal",
@@ -2499,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "enterContext",
           "normalized": "Context-\u003ea()",
@@ -2514,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "errColumn",
           "package": "simple-pascal",
@@ -2523,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "errColumn",
           "package": "simple-pascal",
@@ -2536,6 +2754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "errContext",
           "package": "simple-pascal",
@@ -2545,6 +2764,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "errContext",
           "package": "simple-pascal",
@@ -2558,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "errLine",
           "package": "simple-pascal",
@@ -2567,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "errLine",
           "package": "simple-pascal",
@@ -2580,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "errMessage",
           "package": "simple-pascal",
@@ -2589,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "errMessage",
           "package": "simple-pascal",
@@ -2602,6 +2826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "failCheck",
           "package": "simple-pascal",
@@ -2611,6 +2836,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "failCheck",
           "normalized": "String-\u003ea b",
@@ -2627,6 +2853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction body statements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "fnBody",
           "package": "simple-pascal",
@@ -2637,6 +2864,7 @@
         "index": {
           "description": "function body statements",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "fnBody",
           "normalized": "[Statement a]",
@@ -2653,6 +2881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformal arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "fnFormalArgs",
           "package": "simple-pascal",
@@ -2663,6 +2892,7 @@
         "index": {
           "description": "formal arguments",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "fnFormalArgs",
           "normalized": "[Annotate Symbol a]",
@@ -2679,6 +2909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "fnName",
           "package": "simple-pascal",
@@ -2689,6 +2920,7 @@
         "index": {
           "description": "function name",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "fnName",
           "package": "simple-pascal",
@@ -2703,6 +2935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn type (if TVoid then this is procedure)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "fnResultType",
           "package": "simple-pascal",
@@ -2713,6 +2946,7 @@
         "index": {
           "description": "return type if TVoid then this is procedure",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "fnResultType",
           "package": "simple-pascal",
@@ -2727,6 +2961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocal variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "fnVars",
           "package": "simple-pascal",
@@ -2737,6 +2972,7 @@
         "index": {
           "description": "local variables",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "fnVars",
           "normalized": "[Annotate Symbol a]",
@@ -2752,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "generated",
           "package": "simple-pascal",
@@ -2761,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "generated",
           "package": "simple-pascal",
@@ -2773,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "inContext",
           "package": "simple-pascal",
@@ -2782,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "inContext",
           "normalized": "Context-\u003ea b-\u003ea b",
@@ -2797,6 +3037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "localSymbols",
           "package": "simple-pascal",
@@ -2806,6 +3047,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "localSymbols",
           "package": "simple-pascal",
@@ -2820,6 +3062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprogram body statements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "progBody",
           "package": "simple-pascal",
@@ -2830,6 +3073,7 @@
         "index": {
           "description": "program body statements",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "progBody",
           "normalized": "[Statement a]",
@@ -2846,6 +3090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstants\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "progConsts",
           "package": "simple-pascal",
@@ -2856,6 +3101,7 @@
         "index": {
           "description": "constants",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "progConsts",
           "normalized": "[(Id,Expression a)]",
@@ -2872,6 +3118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunctions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "progFunctions",
           "package": "simple-pascal",
@@ -2882,6 +3129,7 @@
         "index": {
           "description": "functions",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "progFunctions",
           "normalized": "[Function a]",
@@ -2898,6 +3146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser defined types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "progTypes",
           "package": "simple-pascal",
@@ -2908,6 +3157,7 @@
         "index": {
           "description": "user defined types",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "progTypes",
           "package": "simple-pascal",
@@ -2922,6 +3172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eglobal variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "progVariables",
           "package": "simple-pascal",
@@ -2932,6 +3183,7 @@
         "index": {
           "description": "global variables",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "progVariables",
           "normalized": "[Annotate Symbol a]",
@@ -2948,6 +3200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equote (word declaration) mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "quoteMode",
           "package": "simple-pascal",
@@ -2958,6 +3211,7 @@
         "index": {
           "description": "quote word declaration mode",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "quoteMode",
           "package": "simple-pascal",
@@ -2971,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "runCheck",
           "package": "simple-pascal",
@@ -2980,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "runCheck",
           "package": "simple-pascal",
@@ -2993,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "runGenerate",
           "package": "simple-pascal",
@@ -3002,6 +3259,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "runGenerate",
           "package": "simple-pascal",
@@ -3015,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "setType",
           "package": "simple-pascal",
@@ -3024,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "setType",
           "normalized": "Annotate Symbol a-\u003eType-\u003eAnnotate Symbol a",
@@ -3039,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "showSymbol",
           "package": "simple-pascal",
@@ -3048,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "showSymbol",
           "normalized": "Symbol-\u003eString",
@@ -3063,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "srcColumn",
           "package": "simple-pascal",
@@ -3072,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "srcColumn",
           "package": "simple-pascal",
@@ -3085,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "srcLine",
           "package": "simple-pascal",
@@ -3094,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "srcLine",
           "package": "simple-pascal",
@@ -3107,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "srcPos",
           "package": "simple-pascal",
@@ -3116,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "srcPos",
           "package": "simple-pascal",
@@ -3130,6 +3398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource column\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "symbolDefCol",
           "package": "simple-pascal",
@@ -3140,6 +3409,7 @@
         "index": {
           "description": "Source column",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "symbolDefCol",
           "package": "simple-pascal",
@@ -3154,6 +3424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource line where symbol was defined\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "symbolDefLine",
           "package": "simple-pascal",
@@ -3164,6 +3435,7 @@
         "index": {
           "description": "Source line where symbol was defined",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "symbolDefLine",
           "package": "simple-pascal",
@@ -3177,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "symbolName",
           "package": "simple-pascal",
@@ -3186,6 +3459,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "symbolName",
           "package": "simple-pascal",
@@ -3199,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "symbolNameC",
           "package": "simple-pascal",
@@ -3208,6 +3483,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "symbolNameC",
           "normalized": "Annotate Symbol a-\u003eId",
@@ -3223,6 +3499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "symbolTable",
           "package": "simple-pascal",
@@ -3232,6 +3509,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "symbolTable",
           "package": "simple-pascal",
@@ -3245,6 +3523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "symbolType",
           "package": "simple-pascal",
@@ -3254,6 +3533,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "symbolType",
           "package": "simple-pascal",
@@ -3267,6 +3547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "symbolTypeC",
           "package": "simple-pascal",
@@ -3276,6 +3557,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "symbolTypeC",
           "normalized": "Annotate Symbol a-\u003eType",
@@ -3291,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "typeOf",
           "package": "simple-pascal",
@@ -3300,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "typeOf",
           "package": "simple-pascal",
@@ -3313,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "typeOfA",
           "package": "simple-pascal",
@@ -3322,6 +3607,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "typeOfA",
           "normalized": "Annotate a TypeAnn-\u003eType",
@@ -3337,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "userConsts",
           "package": "simple-pascal",
@@ -3346,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "userConsts",
           "normalized": "[(Id,Expression TypeAnn)]",
@@ -3361,6 +3649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "userTypes",
           "package": "simple-pascal",
@@ -3370,6 +3659,7 @@
         },
         "index": {
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "userTypes",
           "package": "simple-pascal",
@@ -3384,6 +3674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeclared variables (not used currently)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "variables",
           "package": "simple-pascal",
@@ -3394,6 +3685,7 @@
         "index": {
           "description": "declared variables not used currently",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "variables",
           "normalized": "[Id]",
@@ -3409,6 +3701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach type info to node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:54 UTC 2014",
           "module": "Language.Pascal.Types",
           "name": "withType",
           "package": "simple-pascal",
@@ -3419,6 +3712,7 @@
         "index": {
           "description": "Attach type info to node",
           "hierarchy": "Language Pascal Types",
+          "indexed": "2014-03-11T20:02:54",
           "module": "Language.Pascal.Types",
           "name": "withType",
           "normalized": "Annotate a SrcPos-\u003eType-\u003eAnnotate a TypeAnn",

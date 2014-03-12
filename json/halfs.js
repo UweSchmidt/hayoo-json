@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "halfs"
+        "phrase": "halfs",
+        "type": "phrase"
       },
       "type": "context"
     }

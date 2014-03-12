@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cheapskate"
+        "phrase": "cheapskate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Html",
           "name": "Html",
           "package": "cheapskate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Html",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Html",
           "name": "Html",
           "package": "cheapskate",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Html",
           "name": "renderBlocks",
           "package": "cheapskate",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Html",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Html",
           "name": "renderBlocks",
           "normalized": "Options-\u003eBlocks-\u003eHtml",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a markdown document as \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e.  (This can be turned\n into a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003eByteString\u003c/code\u003e using a renderer from the \u003ccode\u003eblaze-html\u003c/code\u003e\n library.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Html",
           "name": "renderDoc",
           "package": "cheapskate",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Render markdown document as Html This can be turned into Text or ByteString using renderer from the blaze-html library",
           "hierarchy": "Cheapskate Html",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Html",
           "name": "renderDoc",
           "normalized": "Doc-\u003eHtml",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Html",
           "name": "renderInlines",
           "package": "cheapskate",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Html",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Html",
           "name": "renderInlines",
           "normalized": "Options-\u003eInlines-\u003eHtml",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Parse",
           "name": "Parse",
           "package": "cheapskate",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Parse",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Parse",
           "name": "Parse",
           "package": "cheapskate",
@@ -160,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Types",
           "package": "cheapskate",
@@ -168,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Types",
           "package": "cheapskate",
@@ -182,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock-level elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Block",
           "package": "cheapskate",
@@ -191,6 +204,7 @@
         "index": {
           "description": "Block-level elements",
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Block",
           "package": "cheapskate",
@@ -204,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Blocks",
           "package": "cheapskate",
@@ -212,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Blocks",
           "package": "cheapskate",
@@ -226,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes for fenced code blocks.  \u003ccode\u003e\u003ca\u003ecodeLang\u003c/a\u003e\u003c/code\u003e is the\n first word of the attribute line, \u003ccode\u003e\u003ca\u003ecodeInfo\u003c/a\u003e\u003c/code\u003e is the rest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "CodeAttr",
           "package": "cheapskate",
@@ -235,6 +252,7 @@
         "index": {
           "description": "Attributes for fenced code blocks codeLang is the first word of the attribute line codeInfo is the rest",
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "CodeAttr",
           "package": "cheapskate",
@@ -249,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructured representation of a document.  The \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e affect\n how the document is rendered by \u003ccode\u003etoHtml\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Doc",
           "package": "cheapskate",
@@ -258,6 +277,7 @@
         "index": {
           "description": "Structured representation of document The Options affect how the document is rendered by toHtml",
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Doc",
           "package": "cheapskate",
@@ -272,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple representation of HTML tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "HtmlTagType",
           "package": "cheapskate",
@@ -281,6 +302,7 @@
         "index": {
           "description": "Simple representation of HTML tag",
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "HtmlTagType",
           "package": "cheapskate",
@@ -295,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Inline",
           "package": "cheapskate",
@@ -304,6 +327,7 @@
         "index": {
           "description": "Inline elements",
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Inline",
           "package": "cheapskate",
@@ -317,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Inlines",
           "package": "cheapskate",
@@ -325,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Inlines",
           "package": "cheapskate",
@@ -338,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "ListType",
           "package": "cheapskate",
@@ -346,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "ListType",
           "package": "cheapskate",
@@ -359,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "NumWrapper",
           "package": "cheapskate",
@@ -367,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "NumWrapper",
           "package": "cheapskate",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRendering and parsing options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Options",
           "package": "cheapskate",
@@ -390,6 +421,7 @@
         "index": {
           "description": "Rendering and parsing options",
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Options",
           "package": "cheapskate",
@@ -403,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "ReferenceMap",
           "package": "cheapskate",
@@ -411,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "ReferenceMap",
           "package": "cheapskate",
@@ -424,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Blockquote",
           "package": "cheapskate",
@@ -433,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Blockquote",
           "package": "cheapskate",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Bullet",
           "package": "cheapskate",
@@ -455,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Bullet",
           "package": "cheapskate",
@@ -468,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Closing",
           "package": "cheapskate",
@@ -477,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Closing",
           "package": "cheapskate",
@@ -490,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Code",
           "package": "cheapskate",
@@ -499,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Code",
           "package": "cheapskate",
@@ -512,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "CodeAttr",
           "package": "cheapskate",
@@ -521,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "CodeAttr",
           "package": "cheapskate",
@@ -534,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "CodeBlock",
           "package": "cheapskate",
@@ -543,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "CodeBlock",
           "package": "cheapskate",
@@ -556,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Doc",
           "package": "cheapskate",
@@ -565,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Doc",
           "package": "cheapskate",
@@ -578,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Emph",
           "package": "cheapskate",
@@ -587,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Emph",
           "package": "cheapskate",
@@ -600,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Entity",
           "package": "cheapskate",
@@ -609,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Entity",
           "package": "cheapskate",
@@ -622,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "HRule",
           "package": "cheapskate",
@@ -631,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "HRule",
           "package": "cheapskate",
@@ -644,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Header",
           "package": "cheapskate",
@@ -653,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Header",
           "package": "cheapskate",
@@ -666,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "HtmlBlock",
           "package": "cheapskate",
@@ -675,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "HtmlBlock",
           "package": "cheapskate",
@@ -688,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Image",
           "package": "cheapskate",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Image",
           "package": "cheapskate",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "LineBreak",
           "package": "cheapskate",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "LineBreak",
           "package": "cheapskate",
@@ -732,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Link",
           "package": "cheapskate",
@@ -741,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Link",
           "package": "cheapskate",
@@ -754,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "List",
           "package": "cheapskate",
@@ -763,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "List",
           "normalized": "List Bool ListType[Blocks]",
@@ -778,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Numbered",
           "package": "cheapskate",
@@ -787,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Numbered",
           "package": "cheapskate",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Opening",
           "package": "cheapskate",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Opening",
           "package": "cheapskate",
@@ -822,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Options",
           "package": "cheapskate",
@@ -831,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Options",
           "package": "cheapskate",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Para",
           "package": "cheapskate",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Para",
           "package": "cheapskate",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "ParenFollowing",
           "package": "cheapskate",
@@ -875,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "ParenFollowing",
           "package": "cheapskate",
@@ -888,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "PeriodFollowing",
           "package": "cheapskate",
@@ -897,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "PeriodFollowing",
           "package": "cheapskate",
@@ -910,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "RawHtml",
           "package": "cheapskate",
@@ -919,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "RawHtml",
           "package": "cheapskate",
@@ -932,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "SelfClosing",
           "package": "cheapskate",
@@ -941,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "SelfClosing",
           "package": "cheapskate",
@@ -954,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "SoftBreak",
           "package": "cheapskate",
@@ -963,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "SoftBreak",
           "package": "cheapskate",
@@ -976,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Space",
           "package": "cheapskate",
@@ -985,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Space",
           "package": "cheapskate",
@@ -998,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Str",
           "package": "cheapskate",
@@ -1007,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Str",
           "package": "cheapskate",
@@ -1020,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "Strong",
           "package": "cheapskate",
@@ -1029,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "Strong",
           "package": "cheapskate",
@@ -1043,6 +1133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow raw HTML (if false it gets escaped)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "allowRawHtml",
           "package": "cheapskate",
@@ -1053,6 +1144,7 @@
         "index": {
           "description": "Allow raw HTML if false it gets escaped",
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "allowRawHtml",
           "package": "cheapskate",
@@ -1066,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "codeInfo",
           "package": "cheapskate",
@@ -1075,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "codeInfo",
           "package": "cheapskate",
@@ -1088,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "codeLang",
           "package": "cheapskate",
@@ -1097,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "codeLang",
           "package": "cheapskate",
@@ -1111,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint container structure for debugging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "debug",
           "package": "cheapskate",
@@ -1121,6 +1218,7 @@
         "index": {
           "description": "Print container structure for debugging",
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "debug",
           "package": "cheapskate",
@@ -1134,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreserve hard line breaks in the source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "preserveHardBreaks",
           "package": "cheapskate",
@@ -1144,6 +1243,7 @@
         "index": {
           "description": "Preserve hard line breaks in the source",
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "preserveHardBreaks",
           "package": "cheapskate",
@@ -1158,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSanitize raw HTML, link/image attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate.Types",
           "name": "sanitize",
           "package": "cheapskate",
@@ -1168,6 +1269,7 @@
         "index": {
           "description": "Sanitize raw HTML link image attributes",
           "hierarchy": "Cheapskate Types",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate.Types",
           "name": "sanitize",
           "package": "cheapskate",
@@ -1180,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate",
           "name": "Cheapskate",
           "package": "cheapskate",
@@ -1188,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Cheapskate",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate",
           "name": "Cheapskate",
           "package": "cheapskate",
@@ -1202,6 +1306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate",
           "name": "def",
           "package": "cheapskate",
@@ -1211,6 +1316,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Cheapskate",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate",
           "name": "def",
           "package": "cheapskate",
@@ -1224,6 +1330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation bottom-up to every node of a parsed document.\n This can be used, for example, to transform specially marked code blocks\n to highlighted code or images.  Here is a simple example that promotes\n the levels of headers:\n\u003c/p\u003e\u003cpre\u003e promoteHeaders :: Doc -\u003e Doc\n promoteHeaders = walk promoteHeader\n   where promoteHeader (Header n ils) = Header (n+1) ils\n         promoteHeader x              = x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate",
           "name": "walk",
           "package": "cheapskate",
@@ -1234,6 +1341,7 @@
         "index": {
           "description": "Apply transformation bottom-up to every node of parsed document This can be used for example to transform specially marked code blocks to highlighted code or images Here is simple example that promotes the levels of headers promoteHeaders Doc Doc promoteHeaders walk promoteHeader where promoteHeader Header ils Header ils promoteHeader",
           "hierarchy": "Cheapskate",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate",
           "name": "walk",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -1249,6 +1357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of \u003ccode\u003e\u003ca\u003ewalk\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:52 UTC 2014",
           "module": "Cheapskate",
           "name": "walkM",
           "package": "cheapskate",
@@ -1259,6 +1368,7 @@
         "index": {
           "description": "Monadic version of walk",
           "hierarchy": "Cheapskate",
+          "indexed": "2014-03-11T17:31:52",
           "module": "Cheapskate",
           "name": "walkM",
           "normalized": "(a-\u003eb a)-\u003ec-\u003eb c",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "kqueue"
+        "phrase": "kqueue",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains higher-level abstraction for monitoring file\n system changes, built on top of the bindings from \u003ca\u003eSystem.KQueue\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue.HighLevel",
           "name": "HighLevel",
           "package": "kqueue",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains higher-level abstraction for monitoring file system changes built on top of the bindings from System.KQueue",
           "hierarchy": "System KQueue HighLevel",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue.HighLevel",
           "name": "HighLevel",
           "package": "kqueue",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of file change that occurred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue.HighLevel",
           "name": "EventType",
           "package": "kqueue",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The type of file change that occurred",
           "hierarchy": "System KQueue HighLevel",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue.HighLevel",
           "name": "EventType",
           "package": "kqueue",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identifier for the watcher of a file. Allows you to stop\n watching it later.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue.HighLevel",
           "name": "Watcher",
           "package": "kqueue",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An identifier for the watcher of file Allows you to stop watching it later",
           "hierarchy": "System KQueue HighLevel",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue.HighLevel",
           "name": "Watcher",
           "package": "kqueue",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue.HighLevel",
           "name": "Changed",
           "package": "kqueue",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "System KQueue HighLevel",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue.HighLevel",
           "name": "Changed",
           "package": "kqueue",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue.HighLevel",
           "name": "Created",
           "package": "kqueue",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "System KQueue HighLevel",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue.HighLevel",
           "name": "Created",
           "package": "kqueue",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue.HighLevel",
           "name": "Deleted",
           "package": "kqueue",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "System KQueue HighLevel",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue.HighLevel",
           "name": "Deleted",
           "package": "kqueue",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop a watcher from watching.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue.HighLevel",
           "name": "stopWatching",
           "package": "kqueue",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Stop watcher from watching",
           "hierarchy": "System KQueue HighLevel",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue.HighLevel",
           "name": "stopWatching",
           "normalized": "Watcher-\u003eIO()",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWatch a file for changes. The file doesn't have to exist, but the\n directory it is in, does. Returns immediately. You can stop\n watching by passing the \u003ccode\u003e\u003ca\u003eWatcher\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003estopWatching\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue.HighLevel",
           "name": "watchFile",
           "package": "kqueue",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Watch file for changes The file doesn have to exist but the directory it is in does Returns immediately You can stop watching by passing the Watcher to stopWatching",
           "hierarchy": "System KQueue HighLevel",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue.HighLevel",
           "name": "watchFile",
           "normalized": "FilePath-\u003e(EventType-\u003eIO())-\u003eIO Watcher",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a low-level binding to the kqueue interface.\n It stays close to the C API, changing the types to more native\n Haskell types, but not significantly changing it.\n See the kqueue man page or the examples in \u003ccode\u003eexamples/\u003c/code\u003e for usage\n information.\n For a higher-level binding, see \u003ca\u003eSystem.KQueue.HighLevel\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "KQueue",
           "package": "kqueue",
@@ -215,6 +232,7 @@
         "index": {
           "description": "This module contains low-level binding to the kqueue interface It stays close to the API changing the types to more native Haskell types but not significantly changing it See the kqueue man page or the examples in examples for usage information For higher-level binding see System.KQueue.HighLevel",
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "KQueue",
           "package": "kqueue",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe filter specific flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "FFlag",
           "package": "kqueue",
@@ -238,6 +257,7 @@
         "index": {
           "description": "The filter specific flags",
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "FFlag",
           "package": "kqueue",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe types of kernel events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "Filter",
           "package": "kqueue",
@@ -261,6 +282,7 @@
         "index": {
           "description": "The types of kernel events",
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "Filter",
           "package": "kqueue",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actions to perform on the event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "Flag",
           "package": "kqueue",
@@ -284,6 +307,7 @@
         "index": {
           "description": "The actions to perform on the event",
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "Flag",
           "package": "kqueue",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA kernel event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "KEvent",
           "package": "kqueue",
@@ -307,6 +332,7 @@
         "index": {
           "description": "kernel event",
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "KEvent",
           "package": "kqueue",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA kernel event queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "KQueue",
           "package": "kqueue",
@@ -330,6 +357,7 @@
         "index": {
           "description": "kernel event queue",
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "KQueue",
           "package": "kqueue",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "KQueueException",
           "package": "kqueue",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "KQueueException",
           "package": "kqueue",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvAdd",
           "package": "kqueue",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvAdd",
           "package": "kqueue",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvClear",
           "package": "kqueue",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvClear",
           "package": "kqueue",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvDelete",
           "package": "kqueue",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvDelete",
           "package": "kqueue",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvDisable",
           "package": "kqueue",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvDisable",
           "package": "kqueue",
@@ -452,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvEnable",
           "package": "kqueue",
@@ -461,6 +500,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvEnable",
           "package": "kqueue",
@@ -474,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvEof",
           "package": "kqueue",
@@ -483,6 +524,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvEof",
           "package": "kqueue",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvError",
           "package": "kqueue",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvError",
           "package": "kqueue",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvOneshot",
           "package": "kqueue",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvOneshot",
           "package": "kqueue",
@@ -540,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvReceipt",
           "package": "kqueue",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvReceipt",
           "package": "kqueue",
@@ -562,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvfiltAio",
           "package": "kqueue",
@@ -571,6 +620,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvfiltAio",
           "package": "kqueue",
@@ -584,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvfiltProc",
           "package": "kqueue",
@@ -593,6 +644,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvfiltProc",
           "package": "kqueue",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvfiltRead",
           "package": "kqueue",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvfiltRead",
           "package": "kqueue",
@@ -628,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvfiltSignal",
           "package": "kqueue",
@@ -637,6 +692,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvfiltSignal",
           "package": "kqueue",
@@ -650,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvfiltTimer",
           "package": "kqueue",
@@ -659,6 +716,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvfiltTimer",
           "package": "kqueue",
@@ -672,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvfiltVnode",
           "package": "kqueue",
@@ -681,6 +740,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvfiltVnode",
           "package": "kqueue",
@@ -694,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "EvfiltWrite",
           "package": "kqueue",
@@ -703,6 +764,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "EvfiltWrite",
           "package": "kqueue",
@@ -716,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "KEvent",
           "package": "kqueue",
@@ -725,6 +788,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "KEvent",
           "package": "kqueue",
@@ -738,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "NoteAttrib",
           "package": "kqueue",
@@ -747,6 +812,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "NoteAttrib",
           "package": "kqueue",
@@ -760,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "NoteDelete",
           "package": "kqueue",
@@ -769,6 +836,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "NoteDelete",
           "package": "kqueue",
@@ -782,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "NoteExec",
           "package": "kqueue",
@@ -791,6 +860,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "NoteExec",
           "package": "kqueue",
@@ -804,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "NoteExit",
           "package": "kqueue",
@@ -813,6 +884,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "NoteExit",
           "package": "kqueue",
@@ -826,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "NoteExtend",
           "package": "kqueue",
@@ -835,6 +908,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "NoteExtend",
           "package": "kqueue",
@@ -848,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "NoteFork",
           "package": "kqueue",
@@ -857,6 +932,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "NoteFork",
           "package": "kqueue",
@@ -870,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "NoteLink",
           "package": "kqueue",
@@ -879,6 +956,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "NoteLink",
           "package": "kqueue",
@@ -892,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "NoteReap",
           "package": "kqueue",
@@ -901,6 +980,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "NoteReap",
           "package": "kqueue",
@@ -914,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "NoteRename",
           "package": "kqueue",
@@ -923,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "NoteRename",
           "package": "kqueue",
@@ -936,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "NoteRevoke",
           "package": "kqueue",
@@ -945,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "NoteRevoke",
           "package": "kqueue",
@@ -958,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "NoteSignal",
           "package": "kqueue",
@@ -967,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "NoteSignal",
           "package": "kqueue",
@@ -980,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "NoteWrite",
           "package": "kqueue",
@@ -989,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "NoteWrite",
           "package": "kqueue",
@@ -1003,6 +1091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter-specific data value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "data_",
           "package": "kqueue",
@@ -1013,6 +1102,7 @@
         "index": {
           "description": "Filter-specific data value",
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "data_",
           "package": "kqueue",
@@ -1026,6 +1116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe kernel filter (type of event).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "evfilter",
           "package": "kqueue",
@@ -1036,6 +1127,7 @@
         "index": {
           "description": "The kernel filter type of event",
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "evfilter",
           "package": "kqueue",
@@ -1049,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter-specific flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "fflags",
           "package": "kqueue",
@@ -1059,6 +1152,7 @@
         "index": {
           "description": "Filter-specific flags",
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "fflags",
           "normalized": "[FFlag]",
@@ -1074,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActions to perform on the event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "flags",
           "package": "kqueue",
@@ -1084,6 +1179,7 @@
         "index": {
           "description": "Actions to perform on the event",
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "flags",
           "normalized": "[Flag]",
@@ -1099,6 +1195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identifier for the event, often a file descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "ident",
           "package": "kqueue",
@@ -1109,6 +1206,7 @@
         "index": {
           "description": "The identifier for the event often file descriptor",
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "ident",
           "package": "kqueue",
@@ -1122,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd events to monitor, or retrieve events from the kqueue. If an\n error occurs, will throw a \u003ccode\u003e\u003ca\u003eKQueueException\u003c/a\u003e\u003c/code\u003e if there is no room in\n the returned event list. Otherwise, will set \u003ccode\u003e\u003ca\u003eEvError\u003c/a\u003e\u003c/code\u003e on the event\n and add it to the returned event list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "kevent",
           "package": "kqueue",
@@ -1131,6 +1230,7 @@
         "index": {
           "description": "Add events to monitor or retrieve events from the kqueue If an error occurs will throw KQueueException if there is no room in the returned event list Otherwise will set EvError on the event and add it to the returned event list",
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "kevent",
           "normalized": "KQueue-\u003e[KEvent]-\u003eInt-\u003eMaybe NominalDiffTime-\u003eIO[KEvent]",
@@ -1146,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new KQueue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "kqueue",
           "package": "kqueue",
@@ -1156,6 +1257,7 @@
         "index": {
           "description": "Create new KQueue",
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "kqueue",
           "package": "kqueue",
@@ -1169,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser-defined data, passed through unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:25 UTC 2014",
           "module": "System.KQueue",
           "name": "udata",
           "package": "kqueue",
@@ -1179,6 +1282,7 @@
         "index": {
           "description": "User-defined data passed through unchanged",
           "hierarchy": "System KQueue",
+          "indexed": "2014-03-11T19:03:25",
           "module": "System.KQueue",
           "name": "udata",
           "normalized": "Ptr()",

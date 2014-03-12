@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml-prettify"
+        "phrase": "xml-prettify",
+        "type": "phrase"
       },
       "type": "context"
     }

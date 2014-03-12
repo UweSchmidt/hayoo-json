@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aeson-pretty"
+        "phrase": "aeson-pretty",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAeson-compatible pretty-printing of JSON \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:47 UTC 2014",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "Pretty",
           "package": "aeson-pretty",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Aeson-compatible pretty-printing of JSON Value",
           "hierarchy": "Data Aeson Encode Pretty",
+          "indexed": "2014-03-11T17:08:47",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "Pretty",
           "package": "aeson-pretty",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:47 UTC 2014",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "Config",
           "package": "aeson-pretty",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Encode Pretty",
+          "indexed": "2014-03-11T17:08:47",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "Config",
           "package": "aeson-pretty",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:47 UTC 2014",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "Config",
           "package": "aeson-pretty",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Encode Pretty",
+          "indexed": "2014-03-11T17:08:47",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "Config",
           "package": "aeson-pretty",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:47 UTC 2014",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "compare",
           "package": "aeson-pretty",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Encode Pretty",
+          "indexed": "2014-03-11T17:08:47",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "compare",
           "normalized": "a-\u003ea-\u003eOrdering",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction used to sort keys in objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:47 UTC 2014",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "confCompare",
           "package": "aeson-pretty",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Function used to sort keys in objects",
           "hierarchy": "Data Aeson Encode Pretty",
+          "indexed": "2014-03-11T17:08:47",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "confCompare",
           "normalized": "Text-\u003eText-\u003eOrdering",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndentation spaces per level of nesting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:47 UTC 2014",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "confIndent",
           "package": "aeson-pretty",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Indentation spaces per level of nesting",
           "hierarchy": "Data Aeson Encode Pretty",
+          "indexed": "2014-03-11T17:08:47",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "confIndent",
           "package": "aeson-pretty",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default configuration: indent by four spaces per level of nesting, do\n  not sort objects by key.\n\u003c/p\u003e\u003cpre\u003e defConfig = Config { confIndent = 4, confSort = mempty }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:47 UTC 2014",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "defConfig",
           "package": "aeson-pretty",
@@ -167,6 +180,7 @@
         "index": {
           "description": "The default configuration indent by four spaces per level of nesting do not sort objects by key defConfig Config confIndent confSort mempty",
           "hierarchy": "Data Aeson Encode Pretty",
+          "indexed": "2014-03-11T17:08:47",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "defConfig",
           "package": "aeson-pretty",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA drop-in replacement for aeson's \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e function, producing \n  JSON-ByteStrings for human readers.\n\u003c/p\u003e\u003cp\u003eFollows the default configuration in \u003ccode\u003e\u003ca\u003edefConfig\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:47 UTC 2014",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "encodePretty",
           "package": "aeson-pretty",
@@ -191,6 +206,7 @@
         "index": {
           "description": "drop-in replacement for aeson encode function producing JSON-ByteStrings for human readers Follows the default configuration in defConfig",
           "hierarchy": "Data Aeson Encode Pretty",
+          "indexed": "2014-03-11T17:08:47",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "encodePretty",
           "normalized": "a-\u003eByteString",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003eencodePretty\u003c/a\u003e\u003c/code\u003e that takes an additional configuration\n  parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:47 UTC 2014",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "encodePretty'",
           "package": "aeson-pretty",
@@ -217,6 +234,7 @@
         "index": {
           "description": "variant of encodePretty that takes an additional configuration parameter",
           "hierarchy": "Data Aeson Encode Pretty",
+          "indexed": "2014-03-11T17:08:47",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "encodePretty'",
           "normalized": "Config-\u003ea-\u003eByteString",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort keys by their order of appearance in the argument list.\n\u003c/p\u003e\u003cp\u003eKeys that are not present in the argument list are considered to be greater\n  than any key in the list and equal to all keys not in the list. I.e. keys\n  not in the argument list are moved to the end, while their order is\n  preserved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:47 UTC 2014",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "keyOrder",
           "package": "aeson-pretty",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Sort keys by their order of appearance in the argument list Keys that are not present in the argument list are considered to be greater than any key in the list and equal to all keys not in the list I.e keys not in the argument list are moved to the end while their order is preserved",
           "hierarchy": "Data Aeson Encode Pretty",
+          "indexed": "2014-03-11T17:08:47",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "keyOrder",
           "normalized": "[Text]-\u003eText-\u003eText-\u003eOrdering",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:47 UTC 2014",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "mempty",
           "package": "aeson-pretty",
@@ -268,6 +289,7 @@
         "index": {
           "description": "Identity of mappend",
           "hierarchy": "Data Aeson Encode Pretty",
+          "indexed": "2014-03-11T17:08:47",
           "module": "Data.Aeson.Encode.Pretty",
           "name": "mempty",
           "package": "aeson-pretty",

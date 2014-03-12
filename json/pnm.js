@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pnm"
+        "phrase": "pnm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLower-level functions for parsing PNM image format headers.  Most users\nshouldn't need to import this module directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "Parse",
           "package": "pnm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Lower-level functions for parsing PNM image format headers Most users shouldn need to import this module directly",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "Parse",
           "package": "pnm",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of parsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "Parse",
           "package": "pnm",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The result of parsing",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "Parse",
           "package": "pnm",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003eappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "(++)",
           "package": "pnm",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Alias for append",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "(++) ++",
           "normalized": "ByteString-\u003eByteString-\u003eByteString",
@@ -159,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe next non-comment character.  Comments can occur in the middle\n    of what might be considered tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "char",
           "package": "pnm",
@@ -169,6 +176,7 @@
         "index": {
           "description": "The next non-comment character Comments can occur in the middle of what might be considered tokens",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "char",
           "normalized": "ByteString-\u003eParse Word",
@@ -184,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhite space characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "cr",
           "package": "pnm",
@@ -194,6 +203,7 @@
         "index": {
           "description": "White space characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "cr",
           "package": "pnm",
@@ -207,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "d0",
           "package": "pnm",
@@ -217,6 +228,7 @@
         "index": {
           "description": "Decimal digit characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "d0",
           "package": "pnm",
@@ -230,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "d1",
           "package": "pnm",
@@ -240,6 +253,7 @@
         "index": {
           "description": "Decimal digit characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "d1",
           "package": "pnm",
@@ -253,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "d2",
           "package": "pnm",
@@ -263,6 +278,7 @@
         "index": {
           "description": "Decimal digit characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "d2",
           "package": "pnm",
@@ -276,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "d3",
           "package": "pnm",
@@ -286,6 +303,7 @@
         "index": {
           "description": "Decimal digit characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "d3",
           "package": "pnm",
@@ -299,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "d4",
           "package": "pnm",
@@ -309,6 +328,7 @@
         "index": {
           "description": "Decimal digit characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "d4",
           "package": "pnm",
@@ -322,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "d5",
           "package": "pnm",
@@ -332,6 +353,7 @@
         "index": {
           "description": "Decimal digit characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "d5",
           "package": "pnm",
@@ -345,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "d6",
           "package": "pnm",
@@ -355,6 +378,7 @@
         "index": {
           "description": "Decimal digit characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "d6",
           "package": "pnm",
@@ -368,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "d7",
           "package": "pnm",
@@ -378,6 +403,7 @@
         "index": {
           "description": "Decimal digit characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "d7",
           "package": "pnm",
@@ -391,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "d8",
           "package": "pnm",
@@ -401,6 +428,7 @@
         "index": {
           "description": "Decimal digit characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "d8",
           "package": "pnm",
@@ -414,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "d9",
           "package": "pnm",
@@ -424,6 +453,7 @@
         "index": {
           "description": "Decimal digit characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "d9",
           "package": "pnm",
@@ -437,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "decimal",
           "package": "pnm",
@@ -447,6 +478,7 @@
         "index": {
           "description": "Number conversion",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "decimal",
           "normalized": "ByteString-\u003eMaybe Integer",
@@ -462,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop input while a predicate holds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "dropWhile",
           "package": "pnm",
@@ -472,6 +505,7 @@
         "index": {
           "description": "Drop input while predicate holds",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "dropWhile",
           "normalized": "(Word-\u003eBool)-\u003e(ByteString-\u003eParse Word)-\u003eByteString-\u003eParse()",
@@ -488,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhite space characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "ff",
           "package": "pnm",
@@ -498,6 +533,7 @@
         "index": {
           "description": "White space characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "ff",
           "package": "pnm",
@@ -511,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComment start character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "hash",
           "package": "pnm",
@@ -521,6 +558,7 @@
         "index": {
           "description": "Comment start character",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "hash",
           "package": "pnm",
@@ -534,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhite space characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "ht",
           "package": "pnm",
@@ -544,6 +583,7 @@
         "index": {
           "description": "White space characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "ht",
           "package": "pnm",
@@ -557,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "isDigit",
           "package": "pnm",
@@ -567,6 +608,7 @@
         "index": {
           "description": "Character classes",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "isDigit",
           "normalized": "Word-\u003eBool",
@@ -583,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "isEndComment",
           "package": "pnm",
@@ -593,6 +636,7 @@
         "index": {
           "description": "Character classes",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "isEndComment",
           "normalized": "Word-\u003eBool",
@@ -609,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "isSpace",
           "package": "pnm",
@@ -619,6 +664,7 @@
         "index": {
           "description": "Character classes",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "isSpace",
           "normalized": "Word-\u003eBool",
@@ -635,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "isStartComment",
           "package": "pnm",
@@ -645,6 +692,7 @@
         "index": {
           "description": "Character classes",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "isStartComment",
           "normalized": "Word-\u003eBool",
@@ -661,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhite space characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "lf",
           "package": "pnm",
@@ -671,6 +720,7 @@
         "index": {
           "description": "White space characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "lf",
           "package": "pnm",
@@ -684,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a positive decimal number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "number",
           "package": "pnm",
@@ -694,6 +745,7 @@
         "index": {
           "description": "Parse positive decimal number",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "number",
           "normalized": "ByteString-\u003eParse Integer",
@@ -709,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a single space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "oneSpace",
           "package": "pnm",
@@ -719,6 +772,7 @@
         "index": {
           "description": "Parse single space",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "oneSpace",
           "normalized": "ByteString-\u003eParse()",
@@ -827,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe next character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "rawChar",
           "package": "pnm",
@@ -837,6 +892,7 @@
         "index": {
           "description": "The next character",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "rawChar",
           "normalized": "ByteString-\u003eParse Word",
@@ -853,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhite space characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "space",
           "package": "pnm",
@@ -863,6 +920,7 @@
         "index": {
           "description": "White space characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "space",
           "package": "pnm",
@@ -876,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a string.  Crashes hard on non-ASCII input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "str",
           "package": "pnm",
@@ -886,6 +945,7 @@
         "index": {
           "description": "Convert from string Crashes hard on non-ASCII input",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "str",
           "normalized": "String-\u003eByteString",
@@ -901,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a fixed string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "string",
           "package": "pnm",
@@ -911,6 +972,7 @@
         "index": {
           "description": "Parse fixed string",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "string",
           "normalized": "ByteString-\u003eByteString-\u003eParse()",
@@ -926,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake input until a predicate holds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "takeUntil",
           "package": "pnm",
@@ -936,6 +999,7 @@
         "index": {
           "description": "Take input until predicate holds",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "takeUntil",
           "normalized": "(Word-\u003eBool)-\u003e(ByteString-\u003eParse Word)-\u003eByteString-\u003eParse ByteString",
@@ -952,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "token",
           "package": "pnm",
@@ -962,6 +1027,7 @@
         "index": {
           "description": "Parse token",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "token",
           "normalized": "ByteString-\u003eParse ByteString",
@@ -977,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhite space characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM.Parse",
           "name": "vt",
           "package": "pnm",
@@ -987,6 +1054,7 @@
         "index": {
           "description": "White space characters",
           "hierarchy": "Codec PNM Parse",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM.Parse",
           "name": "vt",
           "package": "pnm",
@@ -1000,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePNM image format header parsing and pretty printing.\n\u003c/p\u003e\u003cp\u003ePNM is PBM + PGM + PPM, a family of lowest common denominator image file formats.\n\u003c/p\u003e\u003cp\u003eReferences: \u003ca\u003ehttp://netpbm.sourceforge.net/doc/pnm.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "PNM",
           "package": "pnm",
@@ -1009,6 +1078,7 @@
         "index": {
           "description": "PNM image format header parsing and pretty printing PNM is PBM PGM PPM family of lowest common denominator image file formats References http netpbm.sourceforge.net doc pnm.html",
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "PNM",
           "package": "pnm",
@@ -1023,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePNM image headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "PNM",
           "package": "pnm",
@@ -1032,6 +1103,7 @@
         "index": {
           "description": "PNM image headers",
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "PNM",
           "package": "pnm",
@@ -1046,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of parsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "Parse",
           "package": "pnm",
@@ -1055,6 +1128,7 @@
         "index": {
           "description": "The result of parsing",
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "Parse",
           "package": "pnm",
@@ -1068,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "PBM",
           "package": "pnm",
@@ -1077,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "PBM",
           "package": "pnm",
@@ -1090,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "PGM",
           "package": "pnm",
@@ -1099,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "PGM",
           "package": "pnm",
@@ -1112,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "PPM",
           "package": "pnm",
@@ -1121,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "PPM",
           "package": "pnm",
@@ -1135,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a sequence of binary PNM images.\n\u003c/p\u003e\u003cp\u003eMalformed input (including huge raster sizes or plain images)\n    is treated as end-of-image-stream.\n\u003c/p\u003e\u003cp\u003eThe precondition that the raster is of the correct length is not\n    checked, so malformed output is possible.\n\u003c/p\u003e\u003cp\u003eHeader comments are not preserved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "onPNMs",
           "package": "pnm",
@@ -1145,6 +1226,7 @@
         "index": {
           "description": "Process sequence of binary PNM images Malformed input including huge raster sizes or plain images is treated as end-of-image-stream The precondition that the raster is of the correct length is not checked so malformed output is possible Header comments are not preserved",
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "onPNMs",
           "normalized": "(PNM-\u003eByteString-\u003e(PNM,ByteString))-\u003eByteString-\u003eByteString",
@@ -1161,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a sequence of binary PNM images.\n\u003c/p\u003e\u003cp\u003eMalformed input (including huge raster sizes or plain images)\n    is treated as end-of-image-stream.\n\u003c/p\u003e\u003cp\u003eThe precondition that the raster is of the correct length is not\n    checked, so malformed output is possible.\n\u003c/p\u003e\u003cp\u003eHeader comments are preserved.  Assuming well-formed input:\n\u003c/p\u003e\u003cpre\u003e onPNMs' (\\_ r -\u003e r) = id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "onPNMs'",
           "package": "pnm",
@@ -1171,6 +1254,7 @@
         "index": {
           "description": "Process sequence of binary PNM images Malformed input including huge raster sizes or plain images is treated as end-of-image-stream The precondition that the raster is of the correct length is not checked so malformed output is possible Header comments are preserved Assuming well-formed input onPNMs id",
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "onPNMs'",
           "normalized": "(PNM-\u003eByteString-\u003eByteString)-\u003eByteString-\u003eByteString",
@@ -1186,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "pnmHeight",
           "package": "pnm",
@@ -1195,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "pnmHeight",
           "package": "pnm",
@@ -1208,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "pnmMaxVal",
           "package": "pnm",
@@ -1217,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "pnmMaxVal",
           "package": "pnm",
@@ -1231,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a PNM image header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "pnmParse",
           "package": "pnm",
@@ -1241,6 +1330,7 @@
         "index": {
           "description": "Parse PNM image header",
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "pnmParse",
           "normalized": "ByteString-\u003eParse PNM",
@@ -1256,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "pnmPlain",
           "package": "pnm",
@@ -1265,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "pnmPlain",
           "package": "pnm",
@@ -1279,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print a PNM image header without any comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "pnmPretty",
           "package": "pnm",
@@ -1289,6 +1382,7 @@
         "index": {
           "description": "Pretty-print PNM image header without any comments",
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "pnmPretty",
           "normalized": "PNM-\u003eByteString",
@@ -1305,6 +1399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the raster size in bytes for binary PNM images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "pnmRasterBytes",
           "package": "pnm",
@@ -1315,6 +1410,7 @@
         "index": {
           "description": "Compute the raster size in bytes for binary PNM images",
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "pnmRasterBytes",
           "normalized": "PNM-\u003eMaybe Integer",
@@ -1330,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "pnmWidth",
           "package": "pnm",
@@ -1339,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "pnmWidth",
           "package": "pnm",
@@ -1353,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a sequence of binary PNM images.\n\u003c/p\u003e\u003cp\u003eMalformed input (including huge raster sizes or plain images)\n    is treated as end-of-image-stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "pnms",
           "package": "pnm",
@@ -1363,6 +1462,7 @@
         "index": {
           "description": "Parse sequence of binary PNM images Malformed input including huge raster sizes or plain images is treated as end-of-image-stream",
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "pnms",
           "normalized": "ByteString-\u003e[(PNM,ByteString)]",
@@ -1378,6 +1478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print a sequence of binary PNM images.\n\u003c/p\u003e\u003cp\u003eThe precondition that the raster is of the correct length is not\n    checked, so malformed output is possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:31 UTC 2014",
           "module": "Codec.PNM",
           "name": "unpnms",
           "package": "pnm",
@@ -1388,6 +1489,7 @@
         "index": {
           "description": "Pretty-print sequence of binary PNM images The precondition that the raster is of the correct length is not checked so malformed output is possible",
           "hierarchy": "Codec PNM",
+          "indexed": "2014-03-11T19:40:31",
           "module": "Codec.PNM",
           "name": "unpnms",
           "normalized": "[(PNM,ByteString)]-\u003eByteString",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pvd"
+        "phrase": "pvd",
+        "type": "phrase"
       },
       "type": "context"
     }

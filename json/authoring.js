@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "authoring"
+        "phrase": "authoring",
+        "type": "phrase"
       },
       "type": "context"
     }

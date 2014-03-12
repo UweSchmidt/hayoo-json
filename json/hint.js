@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hint"
+        "phrase": "hint",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter.Extension",
           "name": "Extension",
           "package": "hint",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter Extension",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter.Extension",
           "name": "Extension",
           "package": "hint",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis represents language extensions beyond Haskell 98\n   that are supported by GHC (it was taken from\n   Cabal's \u003ccode\u003eLanguage.Haskell.Extension\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter.Extension",
           "name": "Extension",
           "package": "hint",
@@ -49,6 +52,7 @@
         "index": {
           "description": "This represents language extensions beyond Haskell that are supported by GHC it was taken from Cabal Language.Haskell.Extension",
           "hierarchy": "Language Haskell Interpreter Extension",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter.Extension",
           "name": "Extension",
           "package": "hint",
@@ -1741,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter.Extension",
           "name": "asExtension",
           "package": "hint",
@@ -1750,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter Extension",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter.Extension",
           "name": "asExtension",
           "normalized": "String-\u003eExtension",
@@ -1792,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter.Extension",
           "name": "knownExtensions",
           "package": "hint",
@@ -1801,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter Extension",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter.Extension",
           "name": "knownExtensions",
           "normalized": "[Extension]",
@@ -1817,6 +1825,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Import Language.Haskell.Interpreter.Unsafe instead.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDEPRECATED: use \u003ccode\u003eLanguage.Haskell.Interpreter.Unsafe\u003c/code\u003e instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter.GHC.Unsafe",
           "name": "Unsafe",
           "package": "hint",
@@ -1826,6 +1835,7 @@
         "index": {
           "description": "Deprecated Import Language.Haskell.Interpreter.Unsafe instead DEPRECATED use Language.Haskell.Interpreter.Unsafe instead",
           "hierarchy": "Language Haskell Interpreter GHC Unsafe",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter.GHC.Unsafe",
           "name": "Unsafe",
           "package": "hint",
@@ -1840,6 +1850,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Import Language.Haskell.Interpreter instead.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDEPRECATED: use \u003ccode\u003eLanguage.Haskell.Interpreter.Unsafe\u003c/code\u003e instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter.GHC",
           "name": "GHC",
           "package": "hint",
@@ -1849,6 +1860,7 @@
         "index": {
           "description": "Deprecated Import Language.Haskell.Interpreter instead DEPRECATED use Language.Haskell.Interpreter.Unsafe instead",
           "hierarchy": "Language Haskell Interpreter GHC",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter.GHC",
           "name": "GHC",
           "package": "hint",
@@ -1862,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter.Unsafe",
           "name": "Unsafe",
           "package": "hint",
@@ -1870,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter Unsafe",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter.Unsafe",
           "name": "Unsafe",
           "package": "hint",
@@ -1884,6 +1898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes the interpreter, setting the args as though they were\n   command-line args.  In particular, this means args that have no\n   effect with :set in ghci might function properly from this\n   context.\n\u003c/p\u003e\u003cp\u003eWarning: Some options may interact badly with the Interpreter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter.Unsafe",
           "name": "unsafeRunInterpreterWithArgs",
           "package": "hint",
@@ -1894,6 +1909,7 @@
         "index": {
           "description": "Executes the interpreter setting the args as though they were command-line args In particular this means args that have no effect with set in ghci might function properly from this context Warning Some options may interact badly with the Interpreter",
           "hierarchy": "Language Haskell Interpreter Unsafe",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter.Unsafe",
           "name": "unsafeRunInterpreterWithArgs",
           "normalized": "[String]-\u003eInterpreterT a b-\u003ea(Either InterpreterError b)",
@@ -1910,6 +1926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a GHC option for the current session,\n   eg. \u003ccode\u003eunsafeSetGhcOption \"-XNoMonomorphismRestriction\"\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWarning: Some options may interact badly with the Interpreter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter.Unsafe",
           "name": "unsafeSetGhcOption",
           "package": "hint",
@@ -1920,6 +1937,7 @@
         "index": {
           "description": "Set GHC option for the current session eg unsafeSetGhcOption XNoMonomorphismRestriction Warning Some options may interact badly with the Interpreter",
           "hierarchy": "Language Haskell Interpreter Unsafe",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter.Unsafe",
           "name": "unsafeSetGhcOption",
           "normalized": "String-\u003ea()",
@@ -1936,6 +1954,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Haskell interpreter built on top of the GHC API\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "Interpreter",
           "package": "hint",
@@ -1945,6 +1964,7 @@
         "index": {
           "description": "Haskell interpreter built on top of the GHC API",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "Interpreter",
           "package": "hint",
@@ -1959,6 +1979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis represents language extensions beyond Haskell 98\n   that are supported by GHC (it was taken from\n   Cabal's \u003ccode\u003eLanguage.Haskell.Extension\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "Extension",
           "package": "hint",
@@ -1968,6 +1989,7 @@
         "index": {
           "description": "This represents language extensions beyond Haskell that are supported by GHC it was taken from Cabal Language.Haskell.Extension",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "Extension",
           "package": "hint",
@@ -1981,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "GhcError",
           "package": "hint",
@@ -1989,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "GhcError",
           "package": "hint",
@@ -2003,6 +2027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Id for a class, a type constructor, a data constructor, a binding, etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "Id",
           "package": "hint",
@@ -2012,6 +2037,7 @@
         "index": {
           "description": "An Id for class type constructor data constructor binding etc",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "Id",
           "package": "hint",
@@ -2025,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "Interpreter",
           "package": "hint",
@@ -2033,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "Interpreter",
           "package": "hint",
@@ -2046,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "InterpreterError",
           "package": "hint",
@@ -2054,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "InterpreterError",
           "package": "hint",
@@ -2067,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "InterpreterT",
           "package": "hint",
@@ -2075,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "InterpreterT",
           "package": "hint",
@@ -2088,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "ModuleElem",
           "package": "hint",
@@ -2096,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "ModuleElem",
           "package": "hint",
@@ -2110,6 +2144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModule names are _not_ filepaths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "ModuleName",
           "package": "hint",
@@ -2119,6 +2154,7 @@
         "index": {
           "description": "Module names are not filepaths",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "ModuleName",
           "package": "hint",
@@ -2132,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "MonadInterpreter",
           "package": "hint",
@@ -2140,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "MonadInterpreter",
           "package": "hint",
@@ -2154,6 +2192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe installed version of ghc is not thread-safe. This exception\n   is thrown whenever you try to execute \u003ccode\u003erunInterpreter\u003c/code\u003e while another\n   instance is already running.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "MultipleInstancesNotAllowed",
           "package": "hint",
@@ -2163,6 +2202,7 @@
         "index": {
           "description": "The installed version of ghc is not thread-safe This exception is thrown whenever you try to execute runInterpreter while another instance is already running",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "MultipleInstancesNotAllowed",
           "package": "hint",
@@ -2177,6 +2217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable options are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003elanguageExtensions\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003einstalledModulesInScope\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003esearchPath\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "Option",
           "package": "hint",
@@ -2186,6 +2227,7 @@
         "index": {
           "description": "Available options are languageExtensions installedModulesInScope searchPath",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "Option",
           "package": "hint",
@@ -2199,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "OptionVal",
           "package": "hint",
@@ -2207,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "OptionVal",
           "package": "hint",
@@ -2220,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": ":=",
           "package": "hint",
@@ -2229,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": ":=",
           "package": "hint",
@@ -2241,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "Class",
           "package": "hint",
@@ -2250,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "Class",
           "normalized": "Class Id[Id]",
@@ -2265,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "Data",
           "package": "hint",
@@ -2274,6 +2323,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "Data",
           "normalized": "Data Id[Id]",
@@ -2289,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "Fun",
           "package": "hint",
@@ -2298,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "Fun",
           "package": "hint",
@@ -2311,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "GhcError",
           "package": "hint",
@@ -2320,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "GhcError",
           "package": "hint",
@@ -2334,6 +2388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGhcExceptions from the underlying GHC API are caught\n and rethrown as this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "GhcException",
           "package": "hint",
@@ -2344,6 +2399,7 @@
         "index": {
           "description": "GhcExceptions from the underlying GHC API are caught and rethrown as this",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "GhcException",
           "package": "hint",
@@ -2357,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "MultipleInstancesNotAllowed",
           "package": "hint",
@@ -2366,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "MultipleInstancesNotAllowed",
           "package": "hint",
@@ -2379,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "NotAllowed",
           "package": "hint",
@@ -2388,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "NotAllowed",
           "package": "hint",
@@ -2401,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "UnknownError",
           "package": "hint",
@@ -2410,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "UnknownError",
           "package": "hint",
@@ -2423,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "WontCompile",
           "package": "hint",
@@ -2432,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "WontCompile",
           "normalized": "WontCompile[GhcError]",
@@ -2448,6 +2512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience functions to be used with \u003ccode\u003einterpret\u003c/code\u003e to provide witnesses.\n   Example:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003einterpret \"head [True,False]\" (as :: Bool)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003einterpret \"head $ map show [True,False]\" infer \u003e\u003e= flip interpret (as :: Bool)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "as",
           "package": "hint",
@@ -2458,6 +2523,7 @@
         "index": {
           "description": "Convenience functions to be used with interpret to provide witnesses Example interpret head True False as Bool interpret head map show True False infer flip interpret as Bool",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "as",
           "package": "hint",
@@ -2470,6 +2536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "children",
           "package": "hint",
@@ -2479,6 +2546,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "children",
           "normalized": "ModuleElem-\u003e[Id]",
@@ -2493,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "errMsg",
           "package": "hint",
@@ -2502,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "errMsg",
           "package": "hint",
@@ -2516,6 +2586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eeval expr\u003c/code\u003e will evaluate \u003ccode\u003eshow expr\u003c/code\u003e.\n  It will succeed only if \u003ccode\u003eexpr\u003c/code\u003e has type t and there is a \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e\n  instance for t.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "eval",
           "package": "hint",
@@ -2526,6 +2597,7 @@
         "index": {
           "description": "eval expr will evaluate show expr It will succeed only if expr has type and there is Show instance for",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "eval",
           "normalized": "String-\u003ea String",
@@ -2540,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "fromSession",
           "package": "hint",
@@ -2549,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "fromSession",
           "package": "hint",
@@ -2563,6 +2637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the value of an option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "get",
           "package": "hint",
@@ -2573,6 +2648,7 @@
         "index": {
           "description": "Retrieves the value of an option",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "get",
           "normalized": "Option a b-\u003ea b",
@@ -2588,6 +2664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the list of modules loaded with \u003ccode\u003e\u003ca\u003eloadModules\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "getLoadedModules",
           "package": "hint",
@@ -2598,6 +2675,7 @@
         "index": {
           "description": "Returns the list of modules loaded with loadModules",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "getLoadedModules",
           "normalized": "a[ModuleName]",
@@ -2614,6 +2692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the annotations associated with a particular module.\n\u003c/p\u003e\u003cp\u003eFor example, given:\n\u003c/p\u003e\u003cpre\u003e\n   RBRACE-# ANN module (1 :: Int) #-LBRACE\n   module SomeModule(g, h) where\n   ...\n\u003c/pre\u003e\u003cp\u003eThen after using \u003ccode\u003eloadModule\u003c/code\u003e to load SomeModule into scope:\n\u003c/p\u003e\u003cpre\u003e\n   x \u003c- getModuleAnnotations (as :: Int) \u003ca\u003eSomeModule\u003c/a\u003e\n   liftIO $ print x\n   -- result is [1]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "getModuleAnnotations",
           "package": "hint",
@@ -2624,6 +2703,7 @@
         "index": {
           "description": "Get the annotations associated with particular module For example given RBRACE ANN module Int LBRACE module SomeModule where Then after using loadModule to load SomeModule into scope getModuleAnnotations as Int SomeModule liftIO print result is",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "getModuleAnnotations",
           "normalized": "a-\u003eString-\u003eb[a]",
@@ -2640,6 +2720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets an abstract representation of all the entities exported by the module.\n   It is similar to the \u003ccode\u003e:browse\u003c/code\u003e command in GHCi.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "getModuleExports",
           "package": "hint",
@@ -2650,6 +2731,7 @@
         "index": {
           "description": "Gets an abstract representation of all the entities exported by the module It is similar to the browse command in GHCi",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "getModuleExports",
           "normalized": "ModuleName-\u003ea[ModuleElem]",
@@ -2666,6 +2748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the annotations associated with a particular function\n\u003c/p\u003e\u003cp\u003eFor example, given:\n\u003c/p\u003e\u003cpre\u003e\n   module SomeModule(g, h) where\n\nLBRACE-# ANN g (Just 1 :: Maybe Int) #-RBRACE\n   g = f [f]\n\nLBRACE-# ANN h (Just 2 :: Maybe Int) #-RBRACE\n   h = f\n\u003c/pre\u003e\u003cp\u003eThen after using \u003ccode\u003eloadModule\u003c/code\u003e to bring SomeModule into scope:\n\u003c/p\u003e\u003cpre\u003e\n   x \u003c- liftM concat $ mapM (getValAnnotations (as :: Maybe Int)) [\"g\",\"h\"]\n   liftIO $ print x\n   -- result is [Just 2, Just 1]\n\u003c/pre\u003e\u003cp\u003eThis can also work on data constructors and types with annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "getValAnnotations",
           "package": "hint",
@@ -2676,6 +2759,7 @@
         "index": {
           "description": "Get the annotations associated with particular function For example given module SomeModule where LBRACE ANN Just Maybe Int RBRACE LBRACE ANN Just Maybe Int RBRACE Then after using loadModule to bring SomeModule into scope liftM concat mapM getValAnnotations as Maybe Int liftIO print result is Just Just This can also work on data constructors and types with annotations",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "getValAnnotations",
           "normalized": "a-\u003eString-\u003eb[a]",
@@ -2692,6 +2776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of the underlying ghc api. Values are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e606\u003c/code\u003e for GHC 6.6.x\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e608\u003c/code\u003e for GHC 6.8.x\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e610\u003c/code\u003e for GHC 6.10.x\n\u003c/li\u003e\u003cli\u003e etc...\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "ghcVersion",
           "package": "hint",
@@ -2702,6 +2787,7 @@
         "index": {
           "description": "Version of the underlying ghc api Values are for GHC for GHC for GHC etc",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "ghcVersion",
           "package": "hint",
@@ -2716,6 +2802,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: glasgowExtensions list is no longer maintained, will be removed soon\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eList of extensions turned on when the \u003ccode\u003e-fglasgow-exts\u003c/code\u003e flag is used\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "glasgowExtensions",
           "package": "hint",
@@ -2726,6 +2813,7 @@
         "index": {
           "description": "Deprecated glasgowExtensions list is no longer maintained will be removed soon List of extensions turned on when the fglasgow-exts flag is used",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "glasgowExtensions",
           "normalized": "[Extension]",
@@ -2742,6 +2830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience functions to be used with \u003ccode\u003einterpret\u003c/code\u003e to provide witnesses.\n   Example:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003einterpret \"head [True,False]\" (as :: Bool)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003einterpret \"head $ map show [True,False]\" infer \u003e\u003e= flip interpret (as :: Bool)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "infer",
           "package": "hint",
@@ -2752,6 +2841,7 @@
         "index": {
           "description": "Convenience functions to be used with interpret to provide witnesses Example interpret head True False as Bool interpret head map show True False infer flip interpret as Bool",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "infer",
           "package": "hint",
@@ -2765,6 +2855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen set to \u003ccode\u003eTrue\u003c/code\u003e, every module in every available package is implicitly\n   imported qualified. This is very convenient for interactive\n   evaluation, but can be a problem in sandboxed environments\n   (e.g. \u003ccode\u003e\u003ca\u003eunsafePerformIO\u003c/a\u003e\u003c/code\u003e is in scope).\n\u003c/p\u003e\u003cp\u003eDefault value is \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eObserve that due to limitations in the GHC-API, when set to \u003ccode\u003eFalse\u003c/code\u003e, the\n   private symbols in interpreted modules will not be in scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "installedModulesInScope",
           "package": "hint",
@@ -2775,6 +2866,7 @@
         "index": {
           "description": "When set to True every module in every available package is implicitly imported qualified This is very convenient for interactive evaluation but can be problem in sandboxed environments e.g unsafePerformIO is in scope Default value is True Observe that due to limitations in the GHC-API when set to False the private symbols in interpreted modules will not be in scope",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "installedModulesInScope",
           "package": "hint",
@@ -2789,6 +2881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates an expression, given a witness for its monomorphic type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "interpret",
           "package": "hint",
@@ -2799,6 +2892,7 @@
         "index": {
           "description": "Evaluates an expression given witness for its monomorphic type",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "interpret",
           "normalized": "String-\u003ea-\u003eb a",
@@ -2814,6 +2908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the module was interpreted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "isModuleInterpreted",
           "package": "hint",
@@ -2824,6 +2919,7 @@
         "index": {
           "description": "Returns True if the module was interpreted",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "isModuleInterpreted",
           "normalized": "ModuleName-\u003ea Bool",
@@ -2840,6 +2936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a string representation of the kind of the type expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "kindOf",
           "package": "hint",
@@ -2850,6 +2947,7 @@
         "index": {
           "description": "Returns string representation of the kind of the type expression",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "kindOf",
           "normalized": "String-\u003ea String",
@@ -2866,6 +2964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage extensions in use by the interpreter.\n\u003c/p\u003e\u003cp\u003eDefault is: \u003ccode\u003e[]\u003c/code\u003e (i.e. none, pure Haskell 98)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "languageExtensions",
           "package": "hint",
@@ -2876,6 +2975,7 @@
         "index": {
           "description": "Language extensions in use by the interpreter Default is i.e none pure Haskell",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "languageExtensions",
           "normalized": "Option a[Extension]",
@@ -2892,6 +2992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to load all the requested modules from their source file.\n   Modules my be indicated by their ModuleName (e.g. \"My.Module\") or\n   by the full path to its source file.\n\u003c/p\u003e\u003cp\u003eThe interpreter is \u003ccode\u003e\u003ca\u003ereset\u003c/a\u003e\u003c/code\u003e both before loading the modules and in the event\n of an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "loadModules",
           "package": "hint",
@@ -2902,6 +3003,7 @@
         "index": {
           "description": "Tries to load all the requested modules from their source file Modules my be indicated by their ModuleName e.g My.Module or by the full path to its source file The interpreter is reset both before loading the modules and in the event of an error",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "loadModules",
           "normalized": "[String]-\u003ea()",
@@ -2917,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "modifySessionRef",
           "package": "hint",
@@ -2926,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "modifySessionRef",
           "package": "hint",
@@ -2939,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "name",
           "package": "hint",
@@ -2948,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "name",
           "normalized": "ModuleElem-\u003eId",
@@ -2963,6 +3069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConceptually, \u003ccode\u003eparens s = \"(\" ++ s ++ \")\"\u003c/code\u003e, where s is any valid haskell\n expression. In practice, it is harder than this.\n Observe that if \u003ccode\u003es\u003c/code\u003e ends with a trailing comment, then \u003ccode\u003eparens s\u003c/code\u003e would\n be a malformed expression. The straightforward solution for this is to\n put the closing parenthesis in a different line. However, now we are\n messing with the layout rules and we don't know where \u003ccode\u003es\u003c/code\u003e is going to\n be used!\n Solution: \u003ccode\u003eparens s = \"(let {foo =n\" ++ s ++ \"\\n ;} in foo)\"\u003c/code\u003e where \u003ccode\u003efoo\u003c/code\u003e does not occur in \u003ccode\u003es\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "parens",
           "package": "hint",
@@ -2973,6 +3080,7 @@
         "index": {
           "description": "Conceptually parens where is any valid haskell expression In practice it is harder than this Observe that if ends with trailing comment then parens would be malformed expression The straightforward solution for this is to put the closing parenthesis in different line However now we are messing with the layout rules and we don know where is going to be used Solution parens let foo in foo where foo does not occur in",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "parens",
           "normalized": "String-\u003eString",
@@ -2988,6 +3096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll imported modules are cleared from the context, and\n   loaded modules are unloaded. It is similar to a \u003ccode\u003e:load\u003c/code\u003e in\n   GHCi, but observe that not even the Prelude will be in\n   context after a reset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "reset",
           "package": "hint",
@@ -2998,6 +3107,7 @@
         "index": {
           "description": "All imported modules are cleared from the context and loaded modules are unloaded It is similar to load in GHCi but observe that not even the Prelude will be in context after reset",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "reset",
           "normalized": "a()",
@@ -3012,6 +3122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "runGhc",
           "package": "hint",
@@ -3021,6 +3132,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "runGhc",
           "package": "hint",
@@ -3035,6 +3147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes the interpreter. Returns \u003ccode\u003eLeft InterpreterError\u003c/code\u003e in case of error.\n\u003c/p\u003e\u003cp\u003eNB. The underlying ghc will overwrite certain signal handlers\n (SIGINT, SIGHUP, SIGTERM, SIGQUIT on Posix systems, Ctrl-C handler on Windows).\n In future versions of hint, this might be controlled by the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "runInterpreter",
           "package": "hint",
@@ -3045,6 +3158,7 @@
         "index": {
           "description": "Executes the interpreter Returns Left InterpreterError in case of error NB The underlying ghc will overwrite certain signal handlers SIGINT SIGHUP SIGTERM SIGQUIT on Posix systems Ctrl-C handler on Windows In future versions of hint this might be controlled by the user",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "runInterpreter",
           "normalized": "InterpreterT a b-\u003ea(Either InterpreterError b)",
@@ -3061,6 +3175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe search path for source files. Observe that every time it is set,\n   it overrides the previous search path. The default is \u003ccode\u003e[\".\"]\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eKeep in mind that by a limitation in ghc, \u003ccode\u003e\".\"\u003c/code\u003e is always in scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "searchPath",
           "package": "hint",
@@ -3071,6 +3186,7 @@
         "index": {
           "description": "The search path for source files Observe that every time it is set it overrides the previous search path The default is Keep in mind that by limitation in ghc is always in scope",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "searchPath",
           "normalized": "Option a[FilePath]",
@@ -3087,6 +3203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this function to set or modify the value of any option. It is\n   invoked like this:\n\u003c/p\u003e\u003cpre\u003eset [opt1 := val1, opt2 := val2,... optk := valk]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "set",
           "package": "hint",
@@ -3097,6 +3214,7 @@
         "index": {
           "description": "Use this function to set or modify the value of any option It is invoked like this set opt1 val1 opt2 val2 optk valk",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "set",
           "normalized": "[OptionVal a]-\u003ea()",
@@ -3112,6 +3230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the modules whose exports must be in context.\n\u003c/p\u003e\u003cp\u003eWarning: \u003ccode\u003e\u003ca\u003esetImports\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esetImportsQ\u003c/a\u003e\u003c/code\u003e are mutually exclusive.\n   If you have a list of modules to be used qualified and another list\n   unqualified, then you need to do something like\n\u003c/p\u003e\u003cpre\u003e  setImportsQ ((zip unqualified $ repeat Nothing) ++ qualifieds)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "setImports",
           "package": "hint",
@@ -3122,6 +3241,7 @@
         "index": {
           "description": "Sets the modules whose exports must be in context Warning setImports and setImportsQ are mutually exclusive If you have list of modules to be used qualified and another list unqualified then you need to do something like setImportsQ zip unqualified repeat Nothing qualifieds",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "setImports",
           "normalized": "[ModuleName]-\u003ea()",
@@ -3138,6 +3258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the modules whose exports must be in context; some\n   of them may be qualified. E.g.:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003esetImportsQ [(\u003ca\u003ePrelude\u003c/a\u003e, Nothing), (\u003ca\u003eData.Map\u003c/a\u003e, Just \u003ca\u003eM\u003c/a\u003e)]\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eHere, \u003ca\u003emap\u003c/a\u003e will refer to Prelude.map and \u003ca\u003eM.map\u003c/a\u003e to Data.Map.map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "setImportsQ",
           "package": "hint",
@@ -3148,6 +3269,7 @@
         "index": {
           "description": "Sets the modules whose exports must be in context some of them may be qualified E.g setImportsQ Prelude Nothing Data.Map Just Here map will refer to Prelude.map and M.map to Data.Map.map",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "setImportsQ",
           "normalized": "[(ModuleName,Maybe String)]-\u003ea()",
@@ -3164,6 +3286,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use set [installedModulesInScope := b] instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "setInstalledModsAreInScopeQualified",
           "package": "hint",
@@ -3174,6 +3297,7 @@
         "index": {
           "description": "Deprecated Use set installedModulesInScope instead",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "setInstalledModsAreInScopeQualified",
           "normalized": "Bool-\u003ea()",
@@ -3190,6 +3314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the modules whose context is used during evaluation. All bindings\n   of these modules are in scope, not only those exported.\n\u003c/p\u003e\u003cp\u003eModules must be interpreted to use this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "setTopLevelModules",
           "package": "hint",
@@ -3200,6 +3325,7 @@
         "index": {
           "description": "Sets the modules whose context is used during evaluation All bindings of these modules are in scope not only those exported Modules must be interpreted to use this function",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "setTopLevelModules",
           "normalized": "[ModuleName]-\u003ea()",
@@ -3216,6 +3342,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use set [languageExtensions := (ExtendedDefaultRules:glasgowExtensions)] instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "setUseLanguageExtensions",
           "package": "hint",
@@ -3226,6 +3353,7 @@
         "index": {
           "description": "Deprecated Use set languageExtensions ExtendedDefaultRules glasgowExtensions instead",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "setUseLanguageExtensions",
           "normalized": "Bool-\u003ea()",
@@ -3242,6 +3370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests if the expression type checks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "typeChecks",
           "package": "hint",
@@ -3252,6 +3381,7 @@
         "index": {
           "description": "Tests if the expression type checks",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "typeChecks",
           "normalized": "String-\u003ea Bool",
@@ -3268,6 +3398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a string representation of the type of the expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:47 UTC 2014",
           "module": "Language.Haskell.Interpreter",
           "name": "typeOf",
           "package": "hint",
@@ -3278,6 +3409,7 @@
         "index": {
           "description": "Returns string representation of the type of the expression",
           "hierarchy": "Language Haskell Interpreter",
+          "indexed": "2014-03-11T18:39:47",
           "module": "Language.Haskell.Interpreter",
           "name": "typeOf",
           "normalized": "String-\u003ea String",

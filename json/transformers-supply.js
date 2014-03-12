@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "transformers-supply"
+        "phrase": "transformers-supply",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003eComputation type:\u003c/dt\u003e\u003cdd\u003e Computations that require a supply of values.\n\u003c/dd\u003e\u003cdt\u003eBinding strategy:\u003c/dt\u003e\u003cdd\u003e Applicative values are functions that consume an input\n from a supply to produce a value.\n\u003c/dd\u003e\u003cdt\u003eUseful for:\u003c/dt\u003e\u003cdd\u003e Providing a supply of unique names or other values to\n computations needing them.\n\u003c/dd\u003e\u003cdt\u003eZero and plus:\u003c/dt\u003e\u003cdd\u003e Identical to the underlying implementation (if any) of\n \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003eExample type:\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSupply\u003c/a\u003e\u003c/code\u003e s a\u003c/code\u003e &#160; or &#160; \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSupplyT\u003c/a\u003e\u003c/code\u003e s f a\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003eDifference from \u003ca\u003eControl.Monad.Trans.Supply\u003c/a\u003e:\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ca\u003eSupplyT\u003c/a\u003e\u003c/code\u003e defined in this\n module is not, and cannot be an instance of \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e. See the \u003ca\u003eApplicative vs\n Monad\u003c/a\u003e section below for an in-depth explanation.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSupply\u003c/a\u003e\u003c/code\u003e s a\u003c/code\u003e applicative represents a computation that consumes a\n supply of \u003ccode\u003es\u003c/code\u003e's to produce a value of type \u003ccode\u003ea\u003c/code\u003e. One example use is to\n simplify computations that require the generation of unique names. The\n \u003ccode\u003e\u003ca\u003eSupply\u003c/a\u003e\u003c/code\u003e applicative can be used to provide a stream of unique names to such\n a computation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Applicative.Supply",
           "name": "Supply",
           "package": "transformers-supply",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Computation type Computations that require supply of values Binding strategy Applicative values are functions that consume an input from supply to produce value Useful for Providing supply of unique names or other values to computations needing them Zero and plus Identical to the underlying implementation if any of empty and Example type Supply or SupplyT Difference from Control.Monad.Trans.Supply SupplyT defined in this module is not and cannot be an instance of Monad See the Applicative vs Monad section below for an in-depth explanation The Supply applicative represents computation that consumes supply of to produce value of type One example use is to simplify computations that require the generation of unique names The Supply applicative can be used to provide stream of unique names to such computation",
           "hierarchy": "Control Applicative Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Applicative.Supply",
           "name": "Supply",
           "package": "transformers-supply",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Supply applicative.\n\u003c/p\u003e\u003cp\u003eComputations consume values of type \u003ccode\u003es\u003c/code\u003e from a supply of values.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e ignores the supply of values, while \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e passes the supply to the\n second argument after the first argument is done consuming values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Applicative.Supply",
           "name": "Supply",
           "package": "transformers-supply",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The Supply applicative Computations consume values of type from supply of values pure ignores the supply of values while passes the supply to the second argument after the first argument is done consuming values",
           "hierarchy": "Control Applicative Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Applicative.Supply",
           "name": "Supply",
           "package": "transformers-supply",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Supply transformer.\n\u003c/p\u003e\u003cp\u003eComposes Supply with an underlying applicative, identical to using\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eCompose\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eSupply\u003c/a\u003e\u003c/code\u003e f a\u003c/code\u003e, but this implementation avoids the\n need to explicitly wrap \u003ccode\u003e\u003ca\u003edemand\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e everywhere.\n\u003c/p\u003e\u003cp\u003eThe resulting SupplyT value has an \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instance if the underlying\n applicative has an \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Applicative.Supply",
           "name": "SupplyT",
           "package": "transformers-supply",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The Supply transformer Composes Supply with an underlying applicative identical to using Compose Supply but this implementation avoids the need to explicitly wrap demand in pure everywhere The resulting SupplyT value has an Alternative instance if the underlying applicative has an Alternative instance",
           "hierarchy": "Control Applicative Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Applicative.Supply",
           "name": "SupplyT",
           "package": "transformers-supply",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand an \u003ccode\u003es\u003c/code\u003e value from the supply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Applicative.Supply",
           "name": "demand",
           "package": "transformers-supply",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Demand an value from the supply",
           "hierarchy": "Control Applicative Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Applicative.Supply",
           "name": "demand",
           "package": "transformers-supply",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupply a non-applicative construction function with an \u003ccode\u003es\u003c/code\u003e value from\n the supply and automatically lift its result into the \u003ccode\u003ef\u003c/code\u003e applicative that\n \u003ccode\u003e\u003ca\u003eSupplyT\u003c/a\u003e\u003c/code\u003e wraps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Applicative.Supply",
           "name": "provide",
           "package": "transformers-supply",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Supply non-applicative construction function with an value from the supply and automatically lift its result into the applicative that SupplyT wraps",
           "hierarchy": "Control Applicative Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Applicative.Supply",
           "name": "provide",
           "normalized": "(a-\u003eb)-\u003eSupplyT a c b",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed a supply consuming computation from a list until the computation\n finishes or the list runs out. If the list does not contain sufficient\n elements, \u003ccode\u003erunListSupply\u003c/code\u003e returns uncompleted computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Applicative.Supply",
           "name": "runListSupply",
           "package": "transformers-supply",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Feed supply consuming computation from list until the computation finishes or the list runs out If the list does not contain sufficient elements runListSupply returns uncompleted computation",
           "hierarchy": "Control Applicative Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Applicative.Supply",
           "name": "runListSupply",
           "normalized": "Supply a b-\u003e[a]-\u003eEither(Supply a b)b",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed a supply consuming computation from a list until the computation\n finishes or the list runs out. If the list does not contain sufficient\n elements, \u003ccode\u003erunListSupplyT\u003c/code\u003e returns uncompleted computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Applicative.Supply",
           "name": "runListSupplyT",
           "package": "transformers-supply",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Feed supply consuming computation from list until the computation finishes or the list runs out If the list does not contain sufficient elements runListSupplyT returns uncompleted computation",
           "hierarchy": "Control Applicative Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Applicative.Supply",
           "name": "runListSupplyT",
           "normalized": "SupplyT a b c-\u003e[a]-\u003eEither(SupplyT a b c)(b c)",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed a supply consuming computation from a monadic action until the\n computation finishes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Applicative.Supply",
           "name": "runMonadSupply",
           "package": "transformers-supply",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Feed supply consuming computation from monadic action until the computation finishes",
           "hierarchy": "Control Applicative Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Applicative.Supply",
           "name": "runMonadSupply",
           "normalized": "Supply a b-\u003ec a-\u003ec b",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed a supply consuming computation from a monadic action until the\n computation finishes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Applicative.Supply",
           "name": "runMonadSupplyT",
           "package": "transformers-supply",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Feed supply consuming computation from monadic action until the computation finishes",
           "hierarchy": "Control Applicative Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Applicative.Supply",
           "name": "runMonadSupplyT",
           "normalized": "SupplyT a b c-\u003ed a-\u003ed(b c)",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a supply consuming computation, using a generation function and\n initial value to compute the values consumed by the \u003ccode\u003e\u003ca\u003eSupply\u003c/a\u003e\u003c/code\u003e computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Applicative.Supply",
           "name": "runSupply",
           "package": "transformers-supply",
@@ -250,6 +269,7 @@
         "index": {
           "description": "Run supply consuming computation using generation function and initial value to compute the values consumed by the Supply computation",
           "hierarchy": "Control Applicative Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Applicative.Supply",
           "name": "runSupply",
           "normalized": "Supply a b-\u003e(a-\u003ea)-\u003ea-\u003eb",
@@ -266,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a supply consuming computation, using a generation function and\n initial value to compute the values consumed by the \u003ccode\u003e\u003ca\u003eSupplyT\u003c/a\u003e\u003c/code\u003e computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Applicative.Supply",
           "name": "runSupplyT",
           "package": "transformers-supply",
@@ -276,6 +297,7 @@
         "index": {
           "description": "Run supply consuming computation using generation function and initial value to compute the values consumed by the SupplyT computation",
           "hierarchy": "Control Applicative Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Applicative.Supply",
           "name": "runSupplyT",
           "normalized": "SupplyT a b c-\u003e(a-\u003ea)-\u003ea-\u003eb c",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupply a construction function with an \u003ccode\u003es\u003c/code\u003e value from the supply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Applicative.Supply",
           "name": "supply",
           "package": "transformers-supply",
@@ -302,6 +325,7 @@
         "index": {
           "description": "Supply construction function with an value from the supply",
           "hierarchy": "Control Applicative Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Applicative.Supply",
           "name": "supply",
           "normalized": "(a-\u003eb c)-\u003eSupplyT a b c",
@@ -317,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the type of values consumed by a \u003ccode\u003e\u003ca\u003eSupply\u003c/a\u003e\u003c/code\u003e computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Applicative.Supply",
           "name": "withSupply",
           "package": "transformers-supply",
@@ -327,6 +352,7 @@
         "index": {
           "description": "Change the type of values consumed by Supply computation",
           "hierarchy": "Control Applicative Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Applicative.Supply",
           "name": "withSupply",
           "normalized": "(a-\u003eb)-\u003eSupply b c-\u003eSupply a c",
@@ -343,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the type of values consumed by a \u003ccode\u003e\u003ca\u003eSupplyT\u003c/a\u003e\u003c/code\u003e computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Applicative.Supply",
           "name": "withSupplyT",
           "package": "transformers-supply",
@@ -353,6 +380,7 @@
         "index": {
           "description": "Change the type of values consumed by SupplyT computation",
           "hierarchy": "Control Applicative Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Applicative.Supply",
           "name": "withSupplyT",
           "normalized": "(a-\u003eb)-\u003eSupplyT b c d-\u003eSupplyT a c d",
@@ -369,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSee \u003ca\u003eControl.Monad.Supply\u003c/a\u003e for documentation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Supply.Class",
           "name": "Class",
           "package": "transformers-supply",
@@ -378,6 +407,7 @@
         "index": {
           "description": "See Control.Monad.Supply for documentation",
           "hierarchy": "Control Monad Supply Class",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Supply.Class",
           "name": "Class",
           "package": "transformers-supply",
@@ -392,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonadSupply\u003c/a\u003e\u003c/code\u003e class provides access to the functions needed to\n construct supply-consuming computations in a monad transformer stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Supply.Class",
           "name": "MonadSupply",
           "package": "transformers-supply",
@@ -401,6 +432,7 @@
         "index": {
           "description": "The MonadSupply class provides access to the functions needed to construct supply-consuming computations in monad transformer stack",
           "hierarchy": "Control Monad Supply Class",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Supply.Class",
           "name": "MonadSupply",
           "package": "transformers-supply",
@@ -439,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a non-monadic construction function with an \u003ccode\u003es\u003c/code\u003e value from the\n supply and automatically lift its result into the \u003ccode\u003ef\u003c/code\u003e monad that\n \u003ccode\u003e\u003ca\u003eSupplyT\u003c/a\u003e\u003c/code\u003e wraps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Supply.Class",
           "name": "provide",
           "package": "transformers-supply",
@@ -449,6 +482,7 @@
         "index": {
           "description": "Provide non-monadic construction function with an value from the supply and automatically lift its result into the monad that SupplyT wraps",
           "hierarchy": "Control Monad Supply Class",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Supply.Class",
           "name": "provide",
           "normalized": "(a-\u003eb)-\u003ec b",
@@ -464,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupply a construction function with an \u003ccode\u003es\u003c/code\u003e value from the supply,\n the \u003ccode\u003ef\u003c/code\u003e in the function's type refers to the monad wrapped by \u003ccode\u003e\u003ca\u003eSupplyT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Supply.Class",
           "name": "supply",
           "package": "transformers-supply",
@@ -474,6 +509,7 @@
         "index": {
           "description": "Supply construction function with an value from the supply the in the function type refers to the monad wrapped by SupplyT",
           "hierarchy": "Control Monad Supply Class",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Supply.Class",
           "name": "supply",
           "normalized": "(a-\u003eb c)-\u003ed c",
@@ -489,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003eComputation type:\u003c/dt\u003e\u003cdd\u003e Computations that require a supply of values.\n\u003c/dd\u003e\u003cdt\u003eBinding strategy:\u003c/dt\u003e\u003cdd\u003e Applicative values are functions that consume an input\n from a supply to produce a value.\n\u003c/dd\u003e\u003cdt\u003eUseful for:\u003c/dt\u003e\u003cdd\u003e Providing a supply of unique names or other values to\n computations needing them.\n\u003c/dd\u003e\u003cdt\u003eZero and plus:\u003c/dt\u003e\u003cdd\u003e Identical to the underlying implementations (if any) of\n \u003ccode\u003eempty\u003c/code\u003e, \u003ccode\u003e\u003c|\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emplus\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSupply\u003c/a\u003e\u003c/code\u003e s a\u003c/code\u003e monad represents a computation that consumes a supply of\n \u003ccode\u003es\u003c/code\u003e's to produce a value of type \u003ccode\u003ea\u003c/code\u003e. One example use is to simplify\n computations that require the generation of unique names. The \u003ccode\u003e\u003ca\u003eSupply\u003c/a\u003e\u003c/code\u003e monad\n can be used to provide a stream of unique names to such a computation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "Supply",
           "package": "transformers-supply",
@@ -498,6 +535,7 @@
         "index": {
           "description": "Computation type Computations that require supply of values Binding strategy Applicative values are functions that consume an input from supply to produce value Useful for Providing supply of unique names or other values to computations needing them Zero and plus Identical to the underlying implementations if any of empty mzero and mplus The Supply monad represents computation that consumes supply of to produce value of type One example use is to simplify computations that require the generation of unique names The Supply monad can be used to provide stream of unique names to such computation",
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Supply",
           "name": "Supply",
           "package": "transformers-supply",
@@ -512,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonadSupply\u003c/a\u003e\u003c/code\u003e class provides access to the functions needed to\n construct supply-consuming computations in a monad transformer stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "MonadSupply",
           "package": "transformers-supply",
@@ -521,6 +560,7 @@
         "index": {
           "description": "The MonadSupply class provides access to the functions needed to construct supply-consuming computations in monad transformer stack",
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Supply",
           "name": "MonadSupply",
           "package": "transformers-supply",
@@ -535,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Supply monad.\n\u003c/p\u003e\u003cp\u003eComputations consume values of type \u003ccode\u003es\u003c/code\u003e from a supply of values.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e ignores the supply of values, while \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e passes the supply to the\n second argument after the first argument is done consuming values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "Supply",
           "package": "transformers-supply",
@@ -544,6 +585,7 @@
         "index": {
           "description": "The Supply monad Computations consume values of type from supply of values return ignores the supply of values while passes the supply to the second argument after the first argument is done consuming values",
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Supply",
           "name": "Supply",
           "package": "transformers-supply",
@@ -558,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Supply transformer.\n\u003c/p\u003e\u003cp\u003eComposes Supply with an underlying monad, allowing it to be used monad in\n transformer stacks.\n\u003c/p\u003e\u003cp\u003eThe resulting SupplyT value has \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e instances if\n the underlying monad has such these instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "SupplyT",
           "package": "transformers-supply",
@@ -567,6 +610,7 @@
         "index": {
           "description": "The Supply transformer Composes Supply with an underlying monad allowing it to be used monad in transformer stacks The resulting SupplyT value has Alternative and MonadPlus instances if the underlying monad has such these instances",
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Supply",
           "name": "SupplyT",
           "package": "transformers-supply",
@@ -581,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a non-monadic construction function with an \u003ccode\u003es\u003c/code\u003e value from the\n supply and automatically lift its result into the \u003ccode\u003ef\u003c/code\u003e monad that\n \u003ccode\u003e\u003ca\u003eSupplyT\u003c/a\u003e\u003c/code\u003e wraps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "provide",
           "package": "transformers-supply",
@@ -591,6 +636,7 @@
         "index": {
           "description": "Provide non-monadic construction function with an value from the supply and automatically lift its result into the monad that SupplyT wraps",
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Supply",
           "name": "provide",
           "normalized": "(a-\u003eb)-\u003ec b",
@@ -768,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupply a construction function with an \u003ccode\u003es\u003c/code\u003e value from the supply,\n the \u003ccode\u003ef\u003c/code\u003e in the function's type refers to the monad wrapped by \u003ccode\u003e\u003ca\u003eSupplyT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "supply",
           "package": "transformers-supply",
@@ -778,6 +825,7 @@
         "index": {
           "description": "Supply construction function with an value from the supply the in the function type refers to the monad wrapped by SupplyT",
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Supply",
           "name": "supply",
           "normalized": "(a-\u003eb c)-\u003ed c",
@@ -847,6 +895,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003eComputation type:\u003c/dt\u003e\u003cdd\u003e Computations that require a supply of values.\n\u003c/dd\u003e\u003cdt\u003eBinding strategy:\u003c/dt\u003e\u003cdd\u003e Applicative values are functions that consume an input\n from a supply to produce a value.\n\u003c/dd\u003e\u003cdt\u003eUseful for:\u003c/dt\u003e\u003cdd\u003e Providing a supply of unique names or other values to\n computations needing them.\n\u003c/dd\u003e\u003cdt\u003eZero and plus:\u003c/dt\u003e\u003cdd\u003e Identical to the underlying implementations (if any) of\n \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emplus\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003eExample type:\u003c/dt\u003e\u003cdd\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSupply\u003c/a\u003e\u003c/code\u003e s a\u003c/code\u003e &#160; or &#160; \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSupplyT\u003c/a\u003e\u003c/code\u003e s f a\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003eDifference from \u003ca\u003eControl.Applicative.Supply\u003c/a\u003e:\u003c/dt\u003e\u003cdd\u003e The \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e instance\n of \u003ccode\u003e\u003ca\u003eSupplyT\u003c/a\u003e\u003c/code\u003e defined in this module requires that the wrapped type is an\n instance of \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e. See the \u003ca\u003eApplicative vs Monad\u003c/a\u003e section below for an\n in-depth explanation.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSupply\u003c/a\u003e\u003c/code\u003e s a\u003c/code\u003e monad represents a computation that consumes a supply of\n \u003ccode\u003es\u003c/code\u003e's to produce a value of type \u003ccode\u003ea\u003c/code\u003e. One example use is to simplify\n computations that require the generation of unique names. The \u003ccode\u003e\u003ca\u003eSupply\u003c/a\u003e\u003c/code\u003e monad\n can be used to provide a stream of unique names to such a computation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Trans.Supply",
           "name": "Supply",
           "package": "transformers-supply",
@@ -856,6 +905,7 @@
         "index": {
           "description": "Computation type Computations that require supply of values Binding strategy Applicative values are functions that consume an input from supply to produce value Useful for Providing supply of unique names or other values to computations needing them Zero and plus Identical to the underlying implementations if any of empty mzero and mplus Example type Supply or SupplyT Difference from Control.Applicative.Supply The Applicative instance of SupplyT defined in this module requires that the wrapped type is an instance of Monad See the Applicative vs Monad section below for an in-depth explanation The Supply monad represents computation that consumes supply of to produce value of type One example use is to simplify computations that require the generation of unique names The Supply monad can be used to provide stream of unique names to such computation",
           "hierarchy": "Control Monad Trans Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Trans.Supply",
           "name": "Supply",
           "package": "transformers-supply",
@@ -870,6 +920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Supply monad.\n\u003c/p\u003e\u003cp\u003eComputations consume values of type \u003ccode\u003es\u003c/code\u003e from a supply of values.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e ignores the supply of values, while \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e passes the supply to the\n second argument after the first argument is done consuming values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Trans.Supply",
           "name": "Supply",
           "package": "transformers-supply",
@@ -879,6 +930,7 @@
         "index": {
           "description": "The Supply monad Computations consume values of type from supply of values return ignores the supply of values while passes the supply to the second argument after the first argument is done consuming values",
           "hierarchy": "Control Monad Trans Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Trans.Supply",
           "name": "Supply",
           "package": "transformers-supply",
@@ -893,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Supply transformer.\n\u003c/p\u003e\u003cp\u003eComposes Supply with an underlying monad, allowing it to be used monad in\n transformer stacks.\n\u003c/p\u003e\u003cp\u003eThe resulting SupplyT value has \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e instances if\n the underlying monad has such these instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Trans.Supply",
           "name": "SupplyT",
           "package": "transformers-supply",
@@ -902,6 +955,7 @@
         "index": {
           "description": "The Supply transformer Composes Supply with an underlying monad allowing it to be used monad in transformer stacks The resulting SupplyT value has Alternative and MonadPlus instances if the underlying monad has such these instances",
           "hierarchy": "Control Monad Trans Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Trans.Supply",
           "name": "SupplyT",
           "package": "transformers-supply",
@@ -916,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand an \u003ccode\u003es\u003c/code\u003e value from the supply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Trans.Supply",
           "name": "demand",
           "package": "transformers-supply",
@@ -926,6 +981,7 @@
         "index": {
           "description": "Demand an value from the supply",
           "hierarchy": "Control Monad Trans Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Trans.Supply",
           "name": "demand",
           "package": "transformers-supply",
@@ -939,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupply a non-monadic construction function with an \u003ccode\u003es\u003c/code\u003e value from the\n supply and automatically lift its result into the \u003ccode\u003em\u003c/code\u003e monad that \u003ccode\u003e\u003ca\u003eSupplyT\u003c/a\u003e\u003c/code\u003e\n wraps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Trans.Supply",
           "name": "provide",
           "package": "transformers-supply",
@@ -949,6 +1006,7 @@
         "index": {
           "description": "Supply non-monadic construction function with an value from the supply and automatically lift its result into the monad that SupplyT wraps",
           "hierarchy": "Control Monad Trans Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Trans.Supply",
           "name": "provide",
           "normalized": "(a-\u003eb)-\u003eSupplyT a c b",
@@ -964,6 +1022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupply a construction function with an \u003ccode\u003es\u003c/code\u003e value from the supply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:07 UTC 2014",
           "module": "Control.Monad.Trans.Supply",
           "name": "supply",
           "package": "transformers-supply",
@@ -974,6 +1033,7 @@
         "index": {
           "description": "Supply construction function with an value from the supply",
           "hierarchy": "Control Monad Trans Supply",
+          "indexed": "2014-03-11T20:25:07",
           "module": "Control.Monad.Trans.Supply",
           "name": "supply",
           "normalized": "(a-\u003eb c)-\u003eSupplyT a b c",

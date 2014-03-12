@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cityhash"
+        "phrase": "cityhash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a binding to the CityHash family of hashing\n functions. You can find more information here:\n \u003ca\u003ehttp://code.google.com/p/cityhash/\u003c/a\u003e. It implements both the 64-bit\n and 128-bit interfaces, with seed functionality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:33:08 UTC 2014",
           "module": "Data.Digest.CityHash",
           "name": "CityHash",
           "package": "cityhash",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module implements binding to the CityHash family of hashing functions You can find more information here http code.google.com cityhash It implements both the bit and bit interfaces with seed functionality",
           "hierarchy": "Data Digest CityHash",
+          "indexed": "2014-03-11T17:33:08",
           "module": "Data.Digest.CityHash",
           "name": "CityHash",
           "package": "cityhash",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash function for a byte array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:08 UTC 2014",
           "module": "Data.Digest.CityHash",
           "name": "cityHash128",
           "package": "cityhash",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Hash function for byte array",
           "hierarchy": "Data Digest CityHash",
+          "indexed": "2014-03-11T17:33:08",
           "module": "Data.Digest.CityHash",
           "name": "cityHash128",
           "normalized": "ByteString-\u003eWord",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash function for a byte array.  For convenience, a 128-bit seed is also\n hashed into the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:08 UTC 2014",
           "module": "Data.Digest.CityHash",
           "name": "cityHash128WithSeed",
           "package": "cityhash",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Hash function for byte array For convenience bit seed is also hashed into the result",
           "hierarchy": "Data Digest CityHash",
+          "indexed": "2014-03-11T17:33:08",
           "module": "Data.Digest.CityHash",
           "name": "cityHash128WithSeed",
           "normalized": "ByteString-\u003eWord-\u003eWord",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash function for a byte array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:08 UTC 2014",
           "module": "Data.Digest.CityHash",
           "name": "cityHash64",
           "package": "cityhash",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Hash function for byte array",
           "hierarchy": "Data Digest CityHash",
+          "indexed": "2014-03-11T17:33:08",
           "module": "Data.Digest.CityHash",
           "name": "cityHash64",
           "normalized": "ByteString-\u003eWord",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash function for a byte array.  For convenience, a 64-bit seed is also\n hashed into the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:08 UTC 2014",
           "module": "Data.Digest.CityHash",
           "name": "cityHash64WithSeed",
           "package": "cityhash",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Hash function for byte array For convenience bit seed is also hashed into the result",
           "hierarchy": "Data Digest CityHash",
+          "indexed": "2014-03-11T17:33:08",
           "module": "Data.Digest.CityHash",
           "name": "cityHash64WithSeed",
           "normalized": "ByteString-\u003eWord-\u003eWord",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash function for a byte array.  For convenience, two seeds are also\n hashed into the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:08 UTC 2014",
           "module": "Data.Digest.CityHash",
           "name": "cityHash64WithSeeds",
           "package": "cityhash",
@@ -156,6 +167,7 @@
         "index": {
           "description": "Hash function for byte array For convenience two seeds are also hashed into the result",
           "hierarchy": "Data Digest CityHash",
+          "indexed": "2014-03-11T17:33:08",
           "module": "Data.Digest.CityHash",
           "name": "cityHash64WithSeeds",
           "normalized": "ByteString-\u003eWord-\u003eWord-\u003eWord",

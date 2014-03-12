@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "astrds"
+        "phrase": "astrds",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-time-alloc-prof"
+        "phrase": "ghc-time-alloc-prof",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.CostCentreTree",
           "name": "CostCentreTree",
           "package": "ghc-time-alloc-prof",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile CostCentreTree",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.CostCentreTree",
           "name": "CostCentreTree",
           "package": "ghc-time-alloc-prof",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.CostCentreTree",
           "name": "buildCallSitesOrderBy",
           "package": "ghc-time-alloc-prof",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile CostCentreTree",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.CostCentreTree",
           "name": "buildCallSitesOrderBy",
           "normalized": "(CostCentre-\u003ea)-\u003eText-\u003eText-\u003eCostCentreTree-\u003eMaybe(Callee,Seq CallSite)",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.CostCentreTree",
           "name": "buildCostCentresOrderBy",
           "package": "ghc-time-alloc-prof",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile CostCentreTree",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.CostCentreTree",
           "name": "buildCostCentresOrderBy",
           "normalized": "(CostCentre-\u003ea)-\u003eCostCentreTree-\u003eMaybe(Tree CostCentre)",
@@ -190,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "Parser",
           "package": "ghc-time-alloc-prof",
@@ -198,6 +205,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Parser",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "Parser",
           "package": "ghc-time-alloc-prof",
@@ -211,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "briefCostCentre",
           "package": "ghc-time-alloc-prof",
@@ -220,6 +229,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Parser",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "briefCostCentre",
           "package": "ghc-time-alloc-prof",
@@ -233,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "commandLine",
           "package": "ghc-time-alloc-prof",
@@ -242,6 +253,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Parser",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "commandLine",
           "package": "ghc-time-alloc-prof",
@@ -255,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "costCentre",
           "package": "ghc-time-alloc-prof",
@@ -264,6 +277,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Parser",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "costCentre",
           "package": "ghc-time-alloc-prof",
@@ -277,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "costCentres",
           "package": "ghc-time-alloc-prof",
@@ -286,6 +301,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Parser",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "costCentres",
           "package": "ghc-time-alloc-prof",
@@ -299,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "hotCostCentres",
           "package": "ghc-time-alloc-prof",
@@ -308,6 +325,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Parser",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "hotCostCentres",
           "normalized": "Parser[BriefCostCentre]",
@@ -346,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "timestamp",
           "package": "ghc-time-alloc-prof",
@@ -355,6 +374,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Parser",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "timestamp",
           "package": "ghc-time-alloc-prof",
@@ -367,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "title",
           "package": "ghc-time-alloc-prof",
@@ -376,6 +397,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Parser",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "title",
           "package": "ghc-time-alloc-prof",
@@ -388,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "totalAlloc",
           "package": "ghc-time-alloc-prof",
@@ -397,6 +420,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Parser",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "totalAlloc",
           "package": "ghc-time-alloc-prof",
@@ -410,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "totalTime",
           "package": "ghc-time-alloc-prof",
@@ -419,6 +444,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Parser",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Parser",
           "name": "totalTime",
           "package": "ghc-time-alloc-prof",
@@ -432,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "Types",
           "package": "ghc-time-alloc-prof",
@@ -440,6 +467,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "Types",
           "package": "ghc-time-alloc-prof",
@@ -453,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "BriefCostCentre",
           "package": "ghc-time-alloc-prof",
@@ -461,6 +490,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "BriefCostCentre",
           "package": "ghc-time-alloc-prof",
@@ -474,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "CallSite",
           "package": "ghc-time-alloc-prof",
@@ -482,6 +513,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "CallSite",
           "package": "ghc-time-alloc-prof",
@@ -495,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "Callee",
           "package": "ghc-time-alloc-prof",
@@ -503,6 +536,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "Callee",
           "package": "ghc-time-alloc-prof",
@@ -517,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCost-centre node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "CostCentre",
           "package": "ghc-time-alloc-prof",
@@ -526,6 +561,7 @@
         "index": {
           "description": "Cost-centre node",
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "CostCentre",
           "package": "ghc-time-alloc-prof",
@@ -539,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "CostCentreNo",
           "package": "ghc-time-alloc-prof",
@@ -547,6 +584,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "CostCentreNo",
           "package": "ghc-time-alloc-prof",
@@ -560,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "CostCentreTree",
           "package": "ghc-time-alloc-prof",
@@ -568,6 +607,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "CostCentreTree",
           "package": "ghc-time-alloc-prof",
@@ -582,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-level profiling report\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "TimeAllocProfile",
           "package": "ghc-time-alloc-prof",
@@ -591,6 +632,7 @@
         "index": {
           "description": "Top-level profiling report",
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "TimeAllocProfile",
           "package": "ghc-time-alloc-prof",
@@ -605,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etotal alloc\u003c/code\u003e in the profiling reports\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "TotalAlloc",
           "package": "ghc-time-alloc-prof",
@@ -614,6 +657,7 @@
         "index": {
           "description": "total alloc in the profiling reports",
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "TotalAlloc",
           "package": "ghc-time-alloc-prof",
@@ -628,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etotal time\u003c/code\u003e in the profiling reports\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "TotalTime",
           "package": "ghc-time-alloc-prof",
@@ -637,6 +682,7 @@
         "index": {
           "description": "total time in the profiling reports",
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "TotalTime",
           "package": "ghc-time-alloc-prof",
@@ -742,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "CostCentreTree",
           "package": "ghc-time-alloc-prof",
@@ -751,6 +798,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "CostCentreTree",
           "package": "ghc-time-alloc-prof",
@@ -1333,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "costCentreCallSites",
           "package": "ghc-time-alloc-prof",
@@ -1342,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "costCentreCallSites",
           "normalized": "(Map(Text,Text)(Seq CostCentre))",
@@ -1357,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "costCentreChildren",
           "package": "ghc-time-alloc-prof",
@@ -1366,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "costCentreChildren",
           "package": "ghc-time-alloc-prof",
@@ -1579,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "costCentreNodes",
           "package": "ghc-time-alloc-prof",
@@ -1588,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "costCentreNodes",
           "package": "ghc-time-alloc-prof",
@@ -1601,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "costCentreParents",
           "package": "ghc-time-alloc-prof",
@@ -1610,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "costCentreParents",
           "package": "ghc-time-alloc-prof",
@@ -1648,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "emptyCostCentreTree",
           "package": "ghc-time-alloc-prof",
@@ -1657,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile Types",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile.Types",
           "name": "emptyCostCentreTree",
           "package": "ghc-time-alloc-prof",
@@ -1935,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "TimeAllocProfile",
           "package": "ghc-time-alloc-prof",
@@ -1943,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "TimeAllocProfile",
           "package": "ghc-time-alloc-prof",
@@ -1956,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "BriefCostCentre",
           "package": "ghc-time-alloc-prof",
@@ -1964,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "BriefCostCentre",
           "package": "ghc-time-alloc-prof",
@@ -1977,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "CallSite",
           "package": "ghc-time-alloc-prof",
@@ -1985,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "CallSite",
           "package": "ghc-time-alloc-prof",
@@ -1998,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "Callee",
           "package": "ghc-time-alloc-prof",
@@ -2006,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "Callee",
           "package": "ghc-time-alloc-prof",
@@ -2020,6 +2086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCost-centre node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "CostCentre",
           "package": "ghc-time-alloc-prof",
@@ -2029,6 +2096,7 @@
         "index": {
           "description": "Cost-centre node",
           "hierarchy": "GHC RTS TimeAllocProfile",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "CostCentre",
           "package": "ghc-time-alloc-prof",
@@ -2042,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "CostCentreNo",
           "package": "ghc-time-alloc-prof",
@@ -2050,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "CostCentreNo",
           "package": "ghc-time-alloc-prof",
@@ -2063,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "CostCentreTree",
           "package": "ghc-time-alloc-prof",
@@ -2071,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "GHC RTS TimeAllocProfile",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "CostCentreTree",
           "package": "ghc-time-alloc-prof",
@@ -2085,6 +2157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-level profiling report\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "TimeAllocProfile",
           "package": "ghc-time-alloc-prof",
@@ -2094,6 +2167,7 @@
         "index": {
           "description": "Top-level profiling report",
           "hierarchy": "GHC RTS TimeAllocProfile",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "TimeAllocProfile",
           "package": "ghc-time-alloc-prof",
@@ -2108,6 +2182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etotal alloc\u003c/code\u003e in the profiling reports\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "TotalAlloc",
           "package": "ghc-time-alloc-prof",
@@ -2117,6 +2192,7 @@
         "index": {
           "description": "total alloc in the profiling reports",
           "hierarchy": "GHC RTS TimeAllocProfile",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "TotalAlloc",
           "package": "ghc-time-alloc-prof",
@@ -2131,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etotal time\u003c/code\u003e in the profiling reports\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:31 UTC 2014",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "TotalTime",
           "package": "ghc-time-alloc-prof",
@@ -2140,6 +2217,7 @@
         "index": {
           "description": "total time in the profiling reports",
           "hierarchy": "GHC RTS TimeAllocProfile",
+          "indexed": "2014-03-11T18:16:31",
           "module": "GHC.RTS.TimeAllocProfile",
           "name": "TotalTime",
           "package": "ghc-time-alloc-prof",

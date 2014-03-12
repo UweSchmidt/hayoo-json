@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mongoDB"
+        "phrase": "mongoDB",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatabase administrative functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "Admin",
           "package": "mongoDB",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Database administrative functions",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "Admin",
           "package": "mongoDB",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "CollectionOption",
           "package": "mongoDB",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "CollectionOption",
           "package": "mongoDB",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "Index",
           "package": "mongoDB",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "Index",
           "package": "mongoDB",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "IndexName",
           "package": "mongoDB",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "IndexName",
           "package": "mongoDB",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "MilliSec",
           "package": "mongoDB",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "MilliSec",
           "package": "mongoDB",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "OpNum",
           "package": "mongoDB",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "OpNum",
           "package": "mongoDB",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "ProfilingLevel",
           "package": "mongoDB",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "ProfilingLevel",
           "package": "mongoDB",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "All",
           "package": "mongoDB",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "All",
           "package": "mongoDB",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "Capped",
           "package": "mongoDB",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "Capped",
           "package": "mongoDB",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "Index",
           "package": "mongoDB",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "Index",
           "package": "mongoDB",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "MaxByteSize",
           "package": "mongoDB",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "MaxByteSize",
           "package": "mongoDB",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "MaxItems",
           "package": "mongoDB",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "MaxItems",
           "package": "mongoDB",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "Off",
           "package": "mongoDB",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "Off",
           "package": "mongoDB",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "Slow",
           "package": "mongoDB",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "Slow",
           "package": "mongoDB",
@@ -322,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd user with password with read-only access if bool is True or read-write access if bool is False\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "addUser",
           "package": "mongoDB",
@@ -332,6 +361,7 @@
         "index": {
           "description": "Add user with password with read-only access if bool is True or read-write access if bool is False",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "addUser",
           "normalized": "Bool-\u003eUsername-\u003ePassword-\u003eAction a()",
@@ -348,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"admin\" database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "admin",
           "package": "mongoDB",
@@ -358,6 +389,7 @@
         "index": {
           "description": "admin database",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "admin",
           "package": "mongoDB",
@@ -371,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch all users of this database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "allUsers",
           "package": "mongoDB",
@@ -381,6 +414,7 @@
         "index": {
           "description": "Fetch all users of this database",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "allUsers",
           "normalized": "Action a[Document]",
@@ -397,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy database from given host to the server I am connected to. Fails and returns \u003ccode\u003e\u003ca\u003eok\u003c/a\u003e = 0\u003c/code\u003e if we don't have permission to read from given server (use copyDatabase in this case).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "cloneDatabase",
           "package": "mongoDB",
@@ -407,6 +442,7 @@
         "index": {
           "description": "Copy database from given host to the server am connected to Fails and returns ok if we don have permission to read from given server use copyDatabase in this case",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "cloneDatabase",
           "normalized": "Database-\u003eHost-\u003eAction a Document",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "collectionStats",
           "package": "mongoDB",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "collectionStats",
           "normalized": "Collection-\u003eAction a Document",
@@ -447,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy database from given host to the server I am connected to. If username & password is supplied use them to read from given host.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "copyDatabase",
           "package": "mongoDB",
@@ -457,6 +496,7 @@
         "index": {
           "description": "Copy database from given host to the server am connected to If username password is supplied use them to read from given host",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "copyDatabase",
           "normalized": "Database-\u003eHost-\u003eMaybe(Username,Password)-\u003eDatabase-\u003eAction a Document",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate collection with given options. You only need to call this to set options, otherwise a collection is created automatically on first use with no options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "createCollection",
           "package": "mongoDB",
@@ -483,6 +524,7 @@
         "index": {
           "description": "Create collection with given options You only need to call this to set options otherwise collection is created automatically on first use with no options",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "createCollection",
           "normalized": "[CollectionOption]-\u003eCollection-\u003eAction a Document",
@@ -499,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate index on the server. This call goes to the server every time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "createIndex",
           "package": "mongoDB",
@@ -509,6 +552,7 @@
         "index": {
           "description": "Create index on the server This call goes to the server every time",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "createIndex",
           "normalized": "Index-\u003eAction a()",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee currently running operation on the database, if any\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "currentOp",
           "package": "mongoDB",
@@ -535,6 +580,7 @@
         "index": {
           "description": "See currently running operation on the database if any",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "currentOp",
           "package": "mongoDB",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "dataSize",
           "package": "mongoDB",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "dataSize",
           "normalized": "Collection-\u003eAction a Int",
@@ -572,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "dbStats",
           "package": "mongoDB",
@@ -581,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "dbStats",
           "package": "mongoDB",
@@ -595,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the given collection! Return True if collection existed (and was deleted); return False if collection did not exist (and no action).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "dropCollection",
           "package": "mongoDB",
@@ -605,6 +656,7 @@
         "index": {
           "description": "Delete the given collection Return True if collection existed and was deleted return False if collection did not exist and no action",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "dropCollection",
           "normalized": "Collection-\u003eAction a Bool",
@@ -621,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the given database!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "dropDatabase",
           "package": "mongoDB",
@@ -631,6 +684,7 @@
         "index": {
           "description": "Delete the given database",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "dropDatabase",
           "normalized": "Database-\u003eAction a Document",
@@ -647,6 +701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "dropIndex",
           "package": "mongoDB",
@@ -657,6 +712,7 @@
         "index": {
           "description": "Remove the index",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "dropIndex",
           "normalized": "Collection-\u003eIndexName-\u003eAction a Document",
@@ -673,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop all indexes on this collection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "dropIndexes",
           "package": "mongoDB",
@@ -683,6 +740,7 @@
         "index": {
           "description": "Drop all indexes on this collection",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "dropIndexes",
           "normalized": "Collection-\u003eAction a Document",
@@ -699,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate index if we did not already create one. May be called repeatedly with practically no performance hit, because we remember if we already called this for the same index (although this memory gets wiped out every 15 minutes, in case another client drops the index and we want to create it again).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "ensureIndex",
           "package": "mongoDB",
@@ -709,6 +768,7 @@
         "index": {
           "description": "Create index if we did not already create one May be called repeatedly with practically no performance hit because we remember if we already called this for the same index although this memory gets wiped out every minutes in case another client drops the index and we want to create it again",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "ensureIndex",
           "normalized": "Index-\u003eAction a()",
@@ -725,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all indexes on this collection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "getIndexes",
           "package": "mongoDB",
@@ -735,6 +796,7 @@
         "index": {
           "description": "Get all indexes on this collection",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "getIndexes",
           "normalized": "Collection-\u003eAction a[Document]",
@@ -750,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "getProfilingLevel",
           "package": "mongoDB",
@@ -759,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "getProfilingLevel",
           "package": "mongoDB",
@@ -772,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "iColl",
           "package": "mongoDB",
@@ -781,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "iColl",
           "package": "mongoDB",
@@ -794,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "iDropDups",
           "package": "mongoDB",
@@ -803,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "iDropDups",
           "package": "mongoDB",
@@ -816,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "iKey",
           "package": "mongoDB",
@@ -825,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "iKey",
           "package": "mongoDB",
@@ -838,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "iName",
           "package": "mongoDB",
@@ -847,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "iName",
           "package": "mongoDB",
@@ -860,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "iUnique",
           "package": "mongoDB",
@@ -869,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "iUnique",
           "package": "mongoDB",
@@ -883,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpec of index of ordered keys on collection. Name is generated from keys. Unique and dropDups are False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "index",
           "package": "mongoDB",
@@ -893,6 +968,7 @@
         "index": {
           "description": "Spec of index of ordered keys on collection Name is generated from keys Unique and dropDups are False",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "index",
           "normalized": "Collection-\u003eOrder-\u003eIndex",
@@ -907,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "killOp",
           "package": "mongoDB",
@@ -916,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "killOp",
           "normalized": "OpNum-\u003eAction a(Maybe Document)",
@@ -931,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "removeUser",
           "package": "mongoDB",
@@ -940,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "removeUser",
           "normalized": "Username-\u003eAction a()",
@@ -956,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename first collection to second collection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "renameCollection",
           "package": "mongoDB",
@@ -966,6 +1047,7 @@
         "index": {
           "description": "Rename first collection to second collection",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "renameCollection",
           "normalized": "Collection-\u003eCollection-\u003eAction a Document",
@@ -982,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to fix any corrupt records. This operation takes a while.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "repairDatabase",
           "package": "mongoDB",
@@ -992,6 +1075,7 @@
         "index": {
           "description": "Attempt to fix any corrupt records This operation takes while",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "repairDatabase",
           "normalized": "Database-\u003eAction a Document",
@@ -1007,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "serverBuildInfo",
           "package": "mongoDB",
@@ -1016,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "serverBuildInfo",
           "package": "mongoDB",
@@ -1029,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "serverStatus",
           "package": "mongoDB",
@@ -1038,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "serverStatus",
           "package": "mongoDB",
@@ -1051,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "serverVersion",
           "package": "mongoDB",
@@ -1060,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "serverVersion",
           "package": "mongoDB",
@@ -1073,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "setProfilingLevel",
           "package": "mongoDB",
@@ -1082,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "setProfilingLevel",
           "normalized": "ProfilingLevel-\u003eMaybe MilliSec-\u003eAction a()",
@@ -1097,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "storageSize",
           "package": "mongoDB",
@@ -1106,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "storageSize",
           "normalized": "Collection-\u003eAction a Int",
@@ -1121,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "totalIndexSize",
           "package": "mongoDB",
@@ -1130,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "totalIndexSize",
           "normalized": "Collection-\u003eAction a Int",
@@ -1145,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "totalSize",
           "package": "mongoDB",
@@ -1154,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "totalSize",
           "normalized": "Collection-\u003eAction a Int",
@@ -1170,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis operation takes a while\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Admin",
           "name": "validateCollection",
           "package": "mongoDB",
@@ -1180,6 +1279,7 @@
         "index": {
           "description": "This operation takes while",
           "hierarchy": "Database MongoDB Admin",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Admin",
           "name": "validateCollection",
           "normalized": "Collection-\u003eAction a Document",
@@ -1196,6 +1296,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConnect to a single server or a replica set of servers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "Connection",
           "package": "mongoDB",
@@ -1205,6 +1306,7 @@
         "index": {
           "description": "Connect to single server or replica set of servers",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "Connection",
           "package": "mongoDB",
@@ -1218,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "Host",
           "package": "mongoDB",
@@ -1226,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "Host",
           "package": "mongoDB",
@@ -1240,6 +1344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIO monad with explicit error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "IOE",
           "package": "mongoDB",
@@ -1249,6 +1354,7 @@
         "index": {
           "description": "IO monad with explicit error",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "IOE",
           "package": "mongoDB",
@@ -1263,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThread-safe TCP connection with pipelined requests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "Pipe",
           "package": "mongoDB",
@@ -1272,6 +1379,7 @@
         "index": {
           "description": "Thread-safe TCP connection with pipelined requests",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "Pipe",
           "package": "mongoDB",
@@ -1285,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "PortID",
           "package": "mongoDB",
@@ -1292,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "PortID",
           "package": "mongoDB",
@@ -1306,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaintains a connection (created on demand) to each server in the named replica set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "ReplicaSet",
           "package": "mongoDB",
@@ -1315,6 +1426,7 @@
         "index": {
           "description": "Maintains connection created on demand to each server in the named replica set",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "ReplicaSet",
           "package": "mongoDB",
@@ -1328,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "ReplicaSetName",
           "package": "mongoDB",
@@ -1336,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "ReplicaSetName",
           "package": "mongoDB",
@@ -1349,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "Secs",
           "package": "mongoDB",
@@ -1357,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "Secs",
           "package": "mongoDB",
@@ -1370,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "Host",
           "package": "mongoDB",
@@ -1379,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "Host",
           "package": "mongoDB",
@@ -1392,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "PortNumber",
           "package": "mongoDB",
@@ -1400,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "PortNumber",
           "package": "mongoDB",
@@ -1413,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "Service",
           "package": "mongoDB",
@@ -1421,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "Service",
           "package": "mongoDB",
@@ -1434,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "UnixSocket",
           "package": "mongoDB",
@@ -1442,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "UnixSocket",
           "package": "mongoDB",
@@ -1482,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose all connections to replica set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "closeReplicaSet",
           "package": "mongoDB",
@@ -1492,6 +1617,7 @@
         "index": {
           "description": "Close all connections to replica set",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "closeReplicaSet",
           "normalized": "ReplicaSet-\u003eIO()",
@@ -1508,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to Host returning pipelined TCP connection. Throw IOError if connection refused or no response within \u003ccode\u003e\u003ca\u003eglobalConnectTimeout\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "connect",
           "package": "mongoDB",
@@ -1518,6 +1645,7 @@
         "index": {
           "description": "Connect to Host returning pipelined TCP connection Throw IOError if connection refused or no response within globalConnectTimeout",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "connect",
           "normalized": "Host-\u003eIOE Pipe",
@@ -1533,6 +1661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to Host returning pipelined TCP connection. Throw IOError if connection refused or no response within given number of seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "connect'",
           "package": "mongoDB",
@@ -1543,6 +1672,7 @@
         "index": {
           "description": "Connect to Host returning pipelined TCP connection Throw IOError if connection refused or no response within given number of seconds",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "connect'",
           "normalized": "Secs-\u003eHost-\u003eIOE Pipe",
@@ -1558,6 +1688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault MongoDB port = 27017\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "defaultPort",
           "package": "mongoDB",
@@ -1568,6 +1699,7 @@
         "index": {
           "description": "Default MongoDB port",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "defaultPort",
           "package": "mongoDB",
@@ -1582,6 +1714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e (and \u003ccode\u003e\u003ca\u003eopenReplicaSet\u003c/a\u003e\u003c/code\u003e) fails if it can't connect within this many seconds (default is 6 seconds). Use 'connect\\'' (and 'openReplicaSet\\'') if you want to ignore this global and specify your own timeout. Note, this timeout only applies to initial connection establishment, not when reading/writing to the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "globalConnectTimeout",
           "package": "mongoDB",
@@ -1592,6 +1725,7 @@
         "index": {
           "description": "connect and openReplicaSet fails if it can connect within this many seconds default is seconds Use connect and openReplicaSet if you want to ignore this global and specify your own timeout Note this timeout only applies to initial connection establishment not when reading writing to the connection",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "globalConnectTimeout",
           "package": "mongoDB",
@@ -1606,6 +1740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost on \u003ccode\u003e\u003ca\u003edefaultPort\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "host",
           "package": "mongoDB",
@@ -1616,6 +1751,7 @@
         "index": {
           "description": "Host on defaultPort",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "host",
           "normalized": "HostName-\u003eHost",
@@ -1656,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen connections (on demand) to servers in replica set. Supplied hosts is seed list. At least one of them must be a live member of the named replica set, otherwise fail. The value of \u003ccode\u003e\u003ca\u003eglobalConnectTimeout\u003c/a\u003e\u003c/code\u003e at the time of this call is the timeout used for future member connect attempts. To use your own value call 'openReplicaSet\\'' instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "openReplicaSet",
           "package": "mongoDB",
@@ -1666,6 +1803,7 @@
         "index": {
           "description": "Open connections on demand to servers in replica set Supplied hosts is seed list At least one of them must be live member of the named replica set otherwise fail The value of globalConnectTimeout at the time of this call is the timeout used for future member connect attempts To use your own value call openReplicaSet instead",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "openReplicaSet",
           "normalized": "(ReplicaSetName,[Host])-\u003eIOE ReplicaSet",
@@ -1682,6 +1820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen connections (on demand) to servers in replica set. Supplied hosts is seed list. At least one of them must be a live member of the named replica set, otherwise fail. Supplied seconds timeout is used for connect attempts to members.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "openReplicaSet'",
           "package": "mongoDB",
@@ -1692,6 +1831,7 @@
         "index": {
           "description": "Open connections on demand to servers in replica set Supplied hosts is seed list At least one of them must be live member of the named replica set otherwise fail Supplied seconds timeout is used for connect attempts to members",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "openReplicaSet'",
           "normalized": "Secs-\u003e(ReplicaSetName,[Host])-\u003eIOE ReplicaSet",
@@ -1708,6 +1848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn connection to current primary of replica set. Fail if no primary available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "primary",
           "package": "mongoDB",
@@ -1718,6 +1859,7 @@
         "index": {
           "description": "Return connection to current primary of replica set Fail if no primary available",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "primary",
           "normalized": "ReplicaSet-\u003eIOE Pipe",
@@ -1733,6 +1875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead string \"hostname:port\" as \u003ccode\u003eHost hostname (PortNumber port)\u003c/code\u003e or \"hostname\" as \u003ccode\u003ehost hostname\u003c/code\u003e (default port). Error if string does not match either syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "readHostPort",
           "package": "mongoDB",
@@ -1743,6 +1886,7 @@
         "index": {
           "description": "Read string hostname port as Host hostname PortNumber port or hostname as host hostname default port Error if string does not match either syntax",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "readHostPort",
           "normalized": "String-\u003eHost",
@@ -1759,6 +1903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead string \"hostname:port\" as \u003ccode\u003eHost hosthame (PortNumber port)\u003c/code\u003e or \"hostname\" as \u003ccode\u003ehost hostname\u003c/code\u003e (default port). Fail if string does not match either syntax.\n TODO: handle Service and UnixSocket port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "readHostPortM",
           "package": "mongoDB",
@@ -1769,6 +1914,7 @@
         "index": {
           "description": "Read string hostname port as Host hosthame PortNumber port or hostname as host hostname default port Fail if string does not match either syntax TODO handle Service and UnixSocket port",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "readHostPortM",
           "normalized": "String-\u003ea Host",
@@ -1785,6 +1931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of connected replica set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "replSetName",
           "package": "mongoDB",
@@ -1795,6 +1942,7 @@
         "index": {
           "description": "name of connected replica set",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "replSetName",
           "normalized": "ReplicaSet-\u003eText",
@@ -1811,6 +1959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a connection to a host using a user-supplied sorting function, which sorts based on a tuple containing the host and a boolean indicating whether the host is primary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "routedHost",
           "package": "mongoDB",
@@ -1821,6 +1970,7 @@
         "index": {
           "description": "Return connection to host using user-supplied sorting function which sorts based on tuple containing the host and boolean indicating whether the host is primary",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "routedHost",
           "normalized": "((Host,Bool)-\u003e(Host,Bool)-\u003eIOE Ordering)-\u003eReplicaSet-\u003eIOE Pipe",
@@ -1864,6 +2014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn connection to a random secondary, or primary if no secondaries available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "secondaryOk",
           "package": "mongoDB",
@@ -1874,6 +2025,7 @@
         "index": {
           "description": "Return connection to random secondary or primary if no secondaries available",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "secondaryOk",
           "normalized": "ReplicaSet-\u003eIOE Pipe",
@@ -1890,6 +2042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay host as \"host:port\"\n TODO: Distinguish Service and UnixSocket port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Connection",
           "name": "showHostPort",
           "package": "mongoDB",
@@ -1900,6 +2053,7 @@
         "index": {
           "description": "Display host as host port TODO Distinguish Service and UnixSocket port",
           "hierarchy": "Database MongoDB Connection",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Connection",
           "name": "showHostPort",
           "normalized": "Host-\u003eString",
@@ -1916,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow-level messaging between this client and the MongoDB server, see Mongo\n Wire Protocol (\u003ca\u003ehttp://www.mongodb.org/display/DOCS/Mongo+Wire+Protocol\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eThis module is not intended for direct use. Use the high-level interface at\n \u003ca\u003eDatabase.MongoDB.Query\u003c/a\u003e and \u003ca\u003eDatabase.MongoDB.Connection\u003c/a\u003e instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Protocol",
           "package": "mongoDB",
@@ -1925,6 +2080,7 @@
         "index": {
           "description": "Low-level messaging between this client and the MongoDB server see Mongo Wire Protocol http www.mongodb.org display DOCS Mongo Wire Protocol This module is not intended for direct use Use the high-level interface at Database.MongoDB.Query and Database.MongoDB.Connection instead",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Protocol",
           "package": "mongoDB",
@@ -1938,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "CursorId",
           "package": "mongoDB",
@@ -1946,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "CursorId",
           "package": "mongoDB",
@@ -1959,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "DeleteOption",
           "package": "mongoDB",
@@ -1967,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "DeleteOption",
           "package": "mongoDB",
@@ -1981,6 +2141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatabase name and collection name with period (.) in between. Eg. \"myDb.myCollection\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "FullCollection",
           "package": "mongoDB",
@@ -1990,6 +2151,7 @@
         "index": {
           "description": "Database name and collection name with period in between Eg myDb.myCollection",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "FullCollection",
           "package": "mongoDB",
@@ -2003,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "InsertOption",
           "package": "mongoDB",
@@ -2011,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "InsertOption",
           "package": "mongoDB",
@@ -2024,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Nonce",
           "package": "mongoDB",
@@ -2032,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Nonce",
           "package": "mongoDB",
@@ -2046,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA notice is a message that is sent with no reply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Notice",
           "package": "mongoDB",
@@ -2055,6 +2222,7 @@
         "index": {
           "description": "notice is message that is sent with no reply",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Notice",
           "package": "mongoDB",
@@ -2068,6 +2236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Password",
           "package": "mongoDB",
@@ -2076,6 +2245,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Password",
           "package": "mongoDB",
@@ -2090,6 +2260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThread-safe TCP connection with pipelined requests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Pipe",
           "package": "mongoDB",
@@ -2099,6 +2270,7 @@
         "index": {
           "description": "Thread-safe TCP connection with pipelined requests",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Pipe",
           "package": "mongoDB",
@@ -2112,6 +2284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "QueryOption",
           "package": "mongoDB",
@@ -2120,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "QueryOption",
           "package": "mongoDB",
@@ -2134,6 +2308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reply is a message received in response to a \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Reply",
           "package": "mongoDB",
@@ -2143,6 +2318,7 @@
         "index": {
           "description": "reply is message received in response to Request",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Reply",
           "package": "mongoDB",
@@ -2157,6 +2333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA request is a message that is sent with a \u003ccode\u003e\u003ca\u003eReply\u003c/a\u003e\u003c/code\u003e expected in return\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Request",
           "package": "mongoDB",
@@ -2166,6 +2343,7 @@
         "index": {
           "description": "request is message that is sent with Reply expected in return",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Request",
           "package": "mongoDB",
@@ -2179,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "ResponseFlag",
           "package": "mongoDB",
@@ -2187,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "ResponseFlag",
           "package": "mongoDB",
@@ -2200,6 +2380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "UpdateOption",
           "package": "mongoDB",
@@ -2208,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "UpdateOption",
           "package": "mongoDB",
@@ -2221,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Username",
           "package": "mongoDB",
@@ -2229,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Username",
           "package": "mongoDB",
@@ -2243,6 +2427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor backward compatability: Set when the server supports the AwaitData query option. if it doesn't, a replica slave client should sleep a little between getMore's\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "AwaitCapable",
           "package": "mongoDB",
@@ -2253,6 +2438,7 @@
         "index": {
           "description": "For backward compatability Set when the server supports the AwaitData query option if it doesn replica slave client should sleep little between getMore",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "AwaitCapable",
           "package": "mongoDB",
@@ -2292,6 +2478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet when getMore is called but the cursor id is not valid at the server. Returned with zero results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "CursorNotFound",
           "package": "mongoDB",
@@ -2302,6 +2489,7 @@
         "index": {
           "description": "Set when getMore is called but the cursor id is not valid at the server Returned with zero results",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "CursorNotFound",
           "package": "mongoDB",
@@ -2315,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Delete",
           "package": "mongoDB",
@@ -2324,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Delete",
           "package": "mongoDB",
@@ -2337,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "GetMore",
           "package": "mongoDB",
@@ -2346,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "GetMore",
           "package": "mongoDB",
@@ -2359,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Insert",
           "package": "mongoDB",
@@ -2368,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Insert",
           "package": "mongoDB",
@@ -2382,6 +2576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf set, the database will not stop processing a bulk insert if one fails (eg due to duplicate IDs). This makes bulk insert behave similarly to a series of single inserts, except lastError will be set if any insert fails, not just the last one. (new in 1.9.1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "KeepGoing",
           "package": "mongoDB",
@@ -2392,6 +2587,7 @@
         "index": {
           "description": "If set the database will not stop processing bulk insert if one fails eg due to duplicate IDs This makes bulk insert behave similarly to series of single inserts except lastError will be set if any insert fails not just the last one new in",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "KeepGoing",
           "package": "mongoDB",
@@ -2405,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "KillCursors",
           "package": "mongoDB",
@@ -2414,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "KillCursors",
           "package": "mongoDB",
@@ -2428,6 +2626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf set, the database will update all matching objects in the collection. Otherwise only updates first matching doc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "MultiUpdate",
           "package": "mongoDB",
@@ -2438,6 +2637,7 @@
         "index": {
           "description": "If set the database will update all matching objects in the collection Otherwise only updates first matching doc",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "MultiUpdate",
           "package": "mongoDB",
@@ -2501,6 +2701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Query",
           "package": "mongoDB",
@@ -2510,6 +2711,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Query",
           "package": "mongoDB",
@@ -2524,6 +2726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery error. Returned with one document containing an \u003ca\u003e$err\u003c/a\u003e field holding the error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "QueryError",
           "package": "mongoDB",
@@ -2534,6 +2737,7 @@
         "index": {
           "description": "Query error Returned with one document containing an err field holding the error message",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "QueryError",
           "package": "mongoDB",
@@ -2547,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Reply",
           "package": "mongoDB",
@@ -2556,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Reply",
           "package": "mongoDB",
@@ -2570,6 +2776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf set, the database will remove only the first matching document in the collection. Otherwise all matching documents will be removed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "SingleRemove",
           "package": "mongoDB",
@@ -2580,6 +2787,7 @@
         "index": {
           "description": "If set the database will remove only the first matching document in the collection Otherwise all matching documents will be removed",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "SingleRemove",
           "package": "mongoDB",
@@ -2594,6 +2802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow query of replica slave. Normally these return an error except for namespace \u003ca\u003elocal\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "SlaveOK",
           "package": "mongoDB",
@@ -2604,6 +2813,7 @@
         "index": {
           "description": "Allow query of replica slave Normally these return an error except for namespace local",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "SlaveOK",
           "package": "mongoDB",
@@ -2642,6 +2852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Update",
           "package": "mongoDB",
@@ -2651,6 +2862,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Update",
           "package": "mongoDB",
@@ -2665,6 +2877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf set, the database will insert the supplied object into the collection if no matching document is found\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Upsert",
           "package": "mongoDB",
@@ -2675,6 +2888,7 @@
         "index": {
           "description": "If set the database will insert the supplied object into the collection if no matching document is found",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "Upsert",
           "package": "mongoDB",
@@ -2689,6 +2903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend notices and request as a contiguous batch to server and return reply promise, which will block when invoked until reply arrives. This call and resulting promise will throw IOError if connection fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "call",
           "package": "mongoDB",
@@ -2699,6 +2914,7 @@
         "index": {
           "description": "Send notices and request as contiguous batch to server and return reply promise which will block when invoked until reply arrives This call and resulting promise will throw IOError if connection fails",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "call",
           "normalized": "Pipe-\u003e[Notice]-\u003eRequest-\u003eIOE(IOE Reply)",
@@ -2713,6 +2929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "dFullCollection",
           "package": "mongoDB",
@@ -2722,6 +2939,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "dFullCollection",
           "package": "mongoDB",
@@ -2735,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "dOptions",
           "package": "mongoDB",
@@ -2744,6 +2963,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "dOptions",
           "normalized": "[DeleteOption]",
@@ -2759,6 +2979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "dSelector",
           "package": "mongoDB",
@@ -2768,6 +2989,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "dSelector",
           "package": "mongoDB",
@@ -2781,6 +3003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "gBatchSize",
           "package": "mongoDB",
@@ -2790,6 +3013,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "gBatchSize",
           "package": "mongoDB",
@@ -2803,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "gCursorId",
           "package": "mongoDB",
@@ -2812,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "gCursorId",
           "package": "mongoDB",
@@ -2825,6 +3051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "gFullCollection",
           "package": "mongoDB",
@@ -2834,6 +3061,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "gFullCollection",
           "package": "mongoDB",
@@ -2847,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "iDocuments",
           "package": "mongoDB",
@@ -2856,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "iDocuments",
           "normalized": "[Document]",
@@ -2871,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "iFullCollection",
           "package": "mongoDB",
@@ -2880,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "iFullCollection",
           "package": "mongoDB",
@@ -2893,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "iOptions",
           "package": "mongoDB",
@@ -2902,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "iOptions",
           "normalized": "[InsertOption]",
@@ -2917,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "kCursorIds",
           "package": "mongoDB",
@@ -2926,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "kCursorIds",
           "normalized": "[CursorId]",
@@ -2942,6 +3178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate pipe over handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "newPipe",
           "package": "mongoDB",
@@ -2952,6 +3189,7 @@
         "index": {
           "description": "Create pipe over handle",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "newPipe",
           "normalized": "Handle-\u003eIO Pipe",
@@ -2967,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "pwHash",
           "package": "mongoDB",
@@ -2976,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "pwHash",
           "normalized": "Username-\u003ePassword-\u003eText",
@@ -2991,6 +3231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "pwKey",
           "package": "mongoDB",
@@ -3000,6 +3241,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "pwKey",
           "normalized": "Nonce-\u003eUsername-\u003ePassword-\u003eText",
@@ -3016,6 +3258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of document to return in each batch response from the server. 0 means use Mongo default. Negative means close cursor after first batch and use absolute value as batch size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "qBatchSize",
           "package": "mongoDB",
@@ -3026,6 +3269,7 @@
         "index": {
           "description": "The number of document to return in each batch response from the server means use Mongo default Negative means close cursor after first batch and use absolute value as batch size",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "qBatchSize",
           "package": "mongoDB",
@@ -3039,6 +3283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "qFullCollection",
           "package": "mongoDB",
@@ -3048,6 +3293,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "qFullCollection",
           "package": "mongoDB",
@@ -3061,6 +3307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "qOptions",
           "package": "mongoDB",
@@ -3070,6 +3317,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "qOptions",
           "normalized": "[QueryOption]",
@@ -3086,6 +3334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e[] = return whole document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "qProjector",
           "package": "mongoDB",
@@ -3096,6 +3345,7 @@
         "index": {
           "description": "return whole document",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "qProjector",
           "package": "mongoDB",
@@ -3110,6 +3360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e[] = return all documents in collection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "qSelector",
           "package": "mongoDB",
@@ -3120,6 +3371,7 @@
         "index": {
           "description": "return all documents in collection",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "qSelector",
           "package": "mongoDB",
@@ -3134,6 +3386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of initial matching documents to skip\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "qSkip",
           "package": "mongoDB",
@@ -3144,6 +3397,7 @@
         "index": {
           "description": "Number of initial matching documents to skip",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "qSkip",
           "package": "mongoDB",
@@ -3158,6 +3412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e0 = cursor finished\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "rCursorId",
           "package": "mongoDB",
@@ -3168,6 +3423,7 @@
         "index": {
           "description": "cursor finished",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "rCursorId",
           "package": "mongoDB",
@@ -3181,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "rDocuments",
           "package": "mongoDB",
@@ -3190,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "rDocuments",
           "normalized": "[Document]",
@@ -3205,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "rResponseFlags",
           "package": "mongoDB",
@@ -3214,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "rResponseFlags",
           "normalized": "[ResponseFlag]",
@@ -3229,6 +3489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "rStartingFrom",
           "package": "mongoDB",
@@ -3238,6 +3499,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "rStartingFrom",
           "package": "mongoDB",
@@ -3252,6 +3514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend notices as a contiguous batch to server with no reply. Throw IOError if connection fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "send",
           "package": "mongoDB",
@@ -3262,6 +3525,7 @@
         "index": {
           "description": "Send notices as contiguous batch to server with no reply Throw IOError if connection fails",
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "send",
           "normalized": "Pipe-\u003e[Notice]-\u003eIOE()",
@@ -3276,6 +3540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "uFullCollection",
           "package": "mongoDB",
@@ -3285,6 +3550,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "uFullCollection",
           "package": "mongoDB",
@@ -3298,6 +3564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "uOptions",
           "package": "mongoDB",
@@ -3307,6 +3574,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "uOptions",
           "normalized": "[UpdateOption]",
@@ -3322,6 +3590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "uSelector",
           "package": "mongoDB",
@@ -3331,6 +3600,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "uSelector",
           "package": "mongoDB",
@@ -3344,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "uUpdater",
           "package": "mongoDB",
@@ -3353,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Protocol",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Protocol",
           "name": "uUpdater",
           "package": "mongoDB",
@@ -3367,6 +3639,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMiscellaneous general functions and Show, Eq, and Ord instances for PortID\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "Util",
           "package": "mongoDB",
@@ -3376,6 +3649,7 @@
         "index": {
           "description": "Miscellaneous general functions and Show Eq and Ord instances for PortID",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "Util",
           "package": "mongoDB",
@@ -3390,6 +3664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadIO with extra Applicative and Functor superclasses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "MonadIO'",
           "package": "mongoDB",
@@ -3399,6 +3674,7 @@
         "index": {
           "description": "MonadIO with extra Applicative and Functor superclasses",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "MonadIO'",
           "package": "mongoDB",
@@ -3413,6 +3689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcat first and second together with period in between. Eg. \u003ccode\u003e\"hello\" \u003c.\u003e \"world\" = \"hello.world\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "(\u003c.\u003e)",
           "package": "mongoDB",
@@ -3423,6 +3700,7 @@
         "index": {
           "description": "Concat first and second together with period in between Eg hello world hello.world",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "(\u003c.\u003e) \u003c.\u003e",
           "normalized": "Text-\u003eText-\u003eText",
@@ -3438,6 +3716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebit-or all numbers together\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "bitOr",
           "package": "mongoDB",
@@ -3448,6 +3727,7 @@
         "index": {
           "description": "bit-or all numbers together",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "bitOr",
           "normalized": "[a]-\u003ea",
@@ -3464,6 +3744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo char hexadecimal representation of byte\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "byteHex",
           "package": "mongoDB",
@@ -3474,6 +3755,7 @@
         "index": {
           "description": "Two char hexadecimal representation of byte",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "byteHex",
           "normalized": "Word-\u003eString",
@@ -3490,6 +3772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHexadecimal string representation of a byte string. Each byte yields two hexadecimal characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "byteStringHex",
           "package": "mongoDB",
@@ -3500,6 +3783,7 @@
         "index": {
           "description": "Hexadecimal string representation of byte string Each byte yields two hexadecimal characters",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "byteStringHex",
           "normalized": "ByteString-\u003eString",
@@ -3516,6 +3800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead N bytes from hande, blocking until all N bytes are read. If EOF is reached before N bytes then raise EOF exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "hGetN",
           "package": "mongoDB",
@@ -3526,6 +3811,7 @@
         "index": {
           "description": "Read bytes from hande blocking until all bytes are read If EOF is reached before bytes then raise EOF exception",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "hGetN",
           "normalized": "Handle-\u003eInt-\u003eIO ByteString",
@@ -3542,6 +3828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elift IOE monad to ErrorT monad over some MonadIO m\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "liftIOE",
           "package": "mongoDB",
@@ -3552,6 +3839,7 @@
         "index": {
           "description": "lift IOE monad to ErrorT monad over some MonadIO",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "liftIOE",
           "normalized": "(a-\u003eb)-\u003eErrorT a IO c-\u003eErrorT b d c",
@@ -3568,6 +3856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeatedy execute action, collecting results, until it returns Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "loop",
           "package": "mongoDB",
@@ -3578,6 +3867,7 @@
         "index": {
           "description": "Repeatedy execute action collecting results until it returns Nothing",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "loop",
           "normalized": "a(Maybe b)-\u003ea[b]",
@@ -3592,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "mergeM",
           "package": "mongoDB",
@@ -3601,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "mergeM",
           "normalized": "(a-\u003ea-\u003eb Ordering)-\u003e[a]-\u003e[a]-\u003eb[a]",
@@ -3615,6 +3907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "merge_pairsM",
           "package": "mongoDB",
@@ -3624,6 +3917,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "merge_pairsM",
           "normalized": "(a-\u003ea-\u003eb Ordering)-\u003e[[a]]-\u003eb[[a]]",
@@ -3639,6 +3933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monadic sort implementation derived from the non-monadic one in ghc's Prelude\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "mergesortM",
           "package": "mongoDB",
@@ -3649,6 +3944,7 @@
         "index": {
           "description": "monadic sort implementation derived from the non-monadic one in ghc Prelude",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "mergesortM",
           "normalized": "(a-\u003ea-\u003eb Ordering)-\u003e[a]-\u003eb[a]",
@@ -3663,6 +3959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "mergesortM'",
           "package": "mongoDB",
@@ -3672,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "mergesortM'",
           "normalized": "(a-\u003ea-\u003eb Ordering)-\u003e[[a]]-\u003eb[a]",
@@ -3688,6 +3986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly shuffle items in list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "shuffle",
           "package": "mongoDB",
@@ -3698,6 +3997,7 @@
         "index": {
           "description": "Randomly shuffle items in list",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "shuffle",
           "normalized": "[a]-\u003eIO[a]",
@@ -3713,6 +4013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs field's value a 1 or True (MongoDB use both Int and Bools for truth values). Error if field not in document or field not a Num or Bool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "true1",
           "package": "mongoDB",
@@ -3723,6 +4024,7 @@
         "index": {
           "description": "Is field value or True MongoDB use both Int and Bools for truth values Error if field not in document or field not Num or Bool",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "true1",
           "normalized": "Label-\u003eDocument-\u003eBool",
@@ -3738,6 +4040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply action to elements one at a time until one succeeds. Throw last error if all fail. Throw \u003ccode\u003e\u003ca\u003estrMsg\u003c/a\u003e\u003c/code\u003e error if list is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "untilSuccess",
           "package": "mongoDB",
@@ -3748,6 +4051,7 @@
         "index": {
           "description": "Apply action to elements one at time until one succeeds Throw last error if all fail Throw strMsg error if list is empty",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "untilSuccess",
           "normalized": "(a-\u003eb c)-\u003e[a]-\u003eb c",
@@ -3764,6 +4068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply action to elements one at a time until one succeeds. Throw last error if all fail. Throw given error if list is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "untilSuccess'",
           "package": "mongoDB",
@@ -3774,6 +4079,7 @@
         "index": {
           "description": "Apply action to elements one at time until one succeeds Throw last error if all fail Throw given error if list is empty",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "untilSuccess'",
           "normalized": "a-\u003e(b-\u003ec d)-\u003e[b]-\u003ec d",
@@ -3790,6 +4096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange or insert value of key in association list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "updateAssocs",
           "package": "mongoDB",
@@ -3800,6 +4107,7 @@
         "index": {
           "description": "Change or insert value of key in association list",
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "updateAssocs",
           "normalized": "a-\u003eb-\u003e[(a,b)]-\u003e[(a,b)]",
@@ -3815,6 +4123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "whenJust",
           "package": "mongoDB",
@@ -3824,6 +4133,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "whenJust",
           "normalized": "Maybe a-\u003e(a-\u003eb())-\u003eb()",
@@ -3839,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Internal.Util",
           "name": "wrap",
           "package": "mongoDB",
@@ -3848,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Internal Util",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Internal.Util",
           "name": "wrap",
           "normalized": "a-\u003e[a]",
@@ -3863,6 +4175,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuery and update documents\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Query",
           "package": "mongoDB",
@@ -3872,6 +4185,7 @@
         "index": {
           "description": "Query and update documents",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Query",
           "package": "mongoDB",
@@ -3886,6 +4200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of reads and writes to perform\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "AccessMode",
           "package": "mongoDB",
@@ -3895,6 +4210,7 @@
         "index": {
           "description": "Type of reads and writes to perform",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "AccessMode",
           "package": "mongoDB",
@@ -3909,6 +4225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad on top of m (which must be a MonadIO) that may access the database and may fail with a DB \u003ccode\u003e\u003ca\u003eFailure\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Action",
           "package": "mongoDB",
@@ -3918,6 +4235,7 @@
         "index": {
           "description": "monad on top of which must be MonadIO that may access the database and may fail with DB Failure",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Action",
           "package": "mongoDB",
@@ -3932,6 +4250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of document to return in each batch response from the server. 0 means use Mongo default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "BatchSize",
           "package": "mongoDB",
@@ -3941,6 +4260,7 @@
         "index": {
           "description": "The number of document to return in each batch response from the server means use Mongo default",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "BatchSize",
           "package": "mongoDB",
@@ -3955,6 +4275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollection name (not prefixed with database)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Collection",
           "package": "mongoDB",
@@ -3964,6 +4285,7 @@
         "index": {
           "description": "Collection name not prefixed with database",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Collection",
           "package": "mongoDB",
@@ -3978,6 +4300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA command is a special query or action against the database. See \u003ca\u003ehttp://www.mongodb.org/display/DOCS/Commands\u003c/a\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Command",
           "package": "mongoDB",
@@ -3987,6 +4310,7 @@
         "index": {
           "description": "command is special query or action against the database See http www.mongodb.org display DOCS Commands for details",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Command",
           "package": "mongoDB",
@@ -4001,6 +4325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIterator over results of a query. Use \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e to iterate or \u003ccode\u003e\u003ca\u003erest\u003c/a\u003e\u003c/code\u003e to get all results. A cursor is closed when it is explicitly closed, all results have been read from it, garbage collected, or not used for over 10 minutes (unless \u003ccode\u003e\u003ca\u003eNoCursorTimeout\u003c/a\u003e\u003c/code\u003e option was specified in \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e). Reading from a closed cursor raises a \u003ccode\u003e\u003ca\u003eCursorNotFoundFailure\u003c/a\u003e\u003c/code\u003e. Note, a cursor is not closed when the pipe is closed, so you can open another pipe to the same server and continue using the cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Cursor",
           "package": "mongoDB",
@@ -4010,6 +4335,7 @@
         "index": {
           "description": "Iterator over results of query Use next to iterate or rest to get all results cursor is closed when it is explicitly closed all results have been read from it garbage collected or not used for over minutes unless NoCursorTimeout option was specified in Query Reading from closed cursor raises CursorNotFoundFailure Note cursor is not closed when the pipe is closed so you can open another pipe to the same server and continue using the cursor",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Cursor",
           "package": "mongoDB",
@@ -4023,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Database",
           "package": "mongoDB",
@@ -4031,6 +4358,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Database",
           "package": "mongoDB",
@@ -4045,6 +4373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError code from getLastError or query failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "ErrorCode",
           "package": "mongoDB",
@@ -4054,6 +4383,7 @@
         "index": {
           "description": "Error code from getLastError or query failure",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "ErrorCode",
           "package": "mongoDB",
@@ -4068,6 +4398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA connection failure, or a read or write exception like cursor expired or inserting a duplicate key.\n Note, unexpected data from the server is not a Failure, rather it is a programming error (you should call \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e in this case) because the client and server are incompatible and requires a programming change.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Failure",
           "package": "mongoDB",
@@ -4077,6 +4408,7 @@
         "index": {
           "description": "connection failure or read or write exception like cursor expired or inserting duplicate key Note unexpected data from the server is not Failure rather it is programming error you should call error in this case because the client and server are incompatible and requires programming change",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Failure",
           "package": "mongoDB",
@@ -4091,6 +4423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(key, value) -\u003e final_value\u003c/code\u003e. A finalize function may be run after reduction.  Such a function is optional and is not necessary for many map/reduce cases.  The finalize function takes a key and a value, and returns a finalized value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "FinalizeFun",
           "package": "mongoDB",
@@ -4100,6 +4433,7 @@
         "index": {
           "description": "key value final value finalize function may be run after reduction Such function is optional and is not necessary for many map reduce cases The finalize function takes key and value and returns finalized value",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "FinalizeFun",
           "package": "mongoDB",
@@ -4114,6 +4448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters for getLastError command. For example \u003ccode\u003e[\"w\" =: 2]\u003c/code\u003e tells the server to wait for the write to reach at least two servers in replica set before acknowledging. See \u003ca\u003ehttp://www.mongodb.org/display/DOCS/Last+Error+Commands\u003c/a\u003e for more options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "GetLastError",
           "package": "mongoDB",
@@ -4123,6 +4458,7 @@
         "index": {
           "description": "Parameters for getLastError command For example tells the server to wait for the write to reach at least two servers in replica set before acknowledging See http www.mongodb.org display DOCS Last Error Commands for more options",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "GetLastError",
           "package": "mongoDB",
@@ -4137,6 +4473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroups documents in collection by key then reduces (aggregates) each group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Group",
           "package": "mongoDB",
@@ -4146,6 +4483,7 @@
         "index": {
           "description": "Groups documents in collection by key then reduces aggregates each group",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Group",
           "package": "mongoDB",
@@ -4160,6 +4498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFields to group by, or function (\u003ccode\u003edoc -\u003e key\u003c/code\u003e) returning a \u003ca\u003ekey object\u003c/a\u003e to be used as the grouping key. Use KeyF instead of Key to specify a key that is not an existing member of the object (or, to access embedded members).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "GroupKey",
           "package": "mongoDB",
@@ -4169,6 +4508,7 @@
         "index": {
           "description": "Fields to group by or function doc key returning key object to be used as the grouping key Use KeyF instead of Key to specify key that is not an existing member of the object or to access embedded members",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "GroupKey",
           "package": "mongoDB",
@@ -4183,6 +4523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum number of documents to return, i.e. cursor will close after iterating over this number of documents. 0 means no limit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Limit",
           "package": "mongoDB",
@@ -4192,6 +4533,7 @@
         "index": {
           "description": "Maximum number of documents to return i.e cursor will close after iterating over this number of documents means no limit",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Limit",
           "package": "mongoDB",
@@ -4205,6 +4547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "MRMerge",
           "package": "mongoDB",
@@ -4213,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "MRMerge",
           "package": "mongoDB",
@@ -4226,6 +4570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "MROut",
           "package": "mongoDB",
@@ -4234,6 +4579,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "MROut",
           "package": "mongoDB",
@@ -4248,6 +4594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of running a MapReduce has some stats besides the output. See http:\u003cem/\u003ewww.mongodb.org\u003cem\u003edisplay\u003c/em\u003eDOCS/MapReduce#MapReduce-Resultobject\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "MRResult",
           "package": "mongoDB",
@@ -4257,6 +4604,7 @@
         "index": {
           "description": "Result of running MapReduce has some stats besides the output See http www.mongodb.org display DOCS MapReduce MapReduce-Resultobject",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "MRResult",
           "package": "mongoDB",
@@ -4271,6 +4619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e() -\u003e void\u003c/code\u003e. The map function references the variable \u003ccode\u003ethis\u003c/code\u003e to inspect the current object under consideration. The function must call \u003ccode\u003eemit(key,value)\u003c/code\u003e at least once, but may be invoked any number of times, as may be appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "MapFun",
           "package": "mongoDB",
@@ -4280,6 +4629,7 @@
         "index": {
           "description": "void The map function references the variable this to inspect the current object under consideration The function must call emit key value at least once but may be invoked any number of times as may be appropriate",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "MapFun",
           "package": "mongoDB",
@@ -4294,6 +4644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps every document in collection to a list of (key, value) pairs, then for each unique key reduces all its associated values to a single result. There are additional parameters that may be set to tweak this basic operation.\n This implements the latest version of map-reduce that requires MongoDB 1.7.4 or greater. To map-reduce against an older server use runCommand directly as described in http:\u003cem/\u003ewww.mongodb.org\u003cem\u003edisplay\u003c/em\u003eDOCS/MapReduce.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "MapReduce",
           "package": "mongoDB",
@@ -4303,6 +4654,7 @@
         "index": {
           "description": "Maps every document in collection to list of key value pairs then for each unique key reduces all its associated values to single result There are additional parameters that may be set to tweak this basic operation This implements the latest version of map-reduce that requires MongoDB or greater To map-reduce against an older server use runCommand directly as described in http www.mongodb.org display DOCS MapReduce",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "MapReduce",
           "package": "mongoDB",
@@ -4317,6 +4669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate operations on fields in a document. See \u003ca\u003ehttp://www.mongodb.org/display/DOCS/Updating#Updating-ModifierOperations\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Modifier",
           "package": "mongoDB",
@@ -4326,6 +4679,7 @@
         "index": {
           "description": "Update operations on fields in document See http www.mongodb.org display DOCS Updating Updating-ModifierOperations",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Modifier",
           "package": "mongoDB",
@@ -4340,6 +4694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf you stack a monad on top of \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e then make it an instance of this class and use \u003ccode\u003e\u003ca\u003eliftDB\u003c/a\u003e\u003c/code\u003e to execute a DB Action within it. Instances already exist for the basic mtl transformers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "MonadDB",
           "package": "mongoDB",
@@ -4349,6 +4704,7 @@
         "index": {
           "description": "If you stack monad on top of Action then make it an instance of this class and use liftDB to execute DB Action within it Instances already exist for the basic mtl transformers",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "MonadDB",
           "package": "mongoDB",
@@ -4363,6 +4719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFields to sort by. Each one is associated with 1 or -1. Eg. \u003ccode\u003e[\"x\" =: 1, \"y\" =: -1]\u003c/code\u003e means sort by \u003ccode\u003ex\u003c/code\u003e ascending then \u003ccode\u003ey\u003c/code\u003e descending\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Order",
           "package": "mongoDB",
@@ -4372,6 +4729,7 @@
         "index": {
           "description": "Fields to sort by Each one is associated with or Eg means sort by ascending then descending",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Order",
           "package": "mongoDB",
@@ -4385,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Password",
           "package": "mongoDB",
@@ -4393,6 +4752,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Password",
           "package": "mongoDB",
@@ -4407,6 +4767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Aggregate Pipeline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Pipeline",
           "package": "mongoDB",
@@ -4416,6 +4777,7 @@
         "index": {
           "description": "The Aggregate Pipeline",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Pipeline",
           "package": "mongoDB",
@@ -4430,6 +4792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFields to return, analogous to the select clause in SQL. \u003ccode\u003e[]\u003c/code\u003e means return whole document (analogous to * in SQL). \u003ccode\u003e[\"x\" =: 1, \"y\" =: 1]\u003c/code\u003e means return only \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003ey\u003c/code\u003e fields of each document. \u003ccode\u003e[\"x\" =: 0]\u003c/code\u003e means return all fields except \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Projector",
           "package": "mongoDB",
@@ -4439,6 +4802,7 @@
         "index": {
           "description": "Fields to return analogous to the select clause in SQL means return whole document analogous to in SQL means return only and fields of each document means return all fields except",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Projector",
           "package": "mongoDB",
@@ -4453,6 +4817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003ccode\u003e\u003ca\u003eselect\u003c/a\u003e\u003c/code\u003e to create a basic query with defaults, then modify if desired. For example, \u003ccode\u003e(select sel col) {limit = 10}\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Query",
           "package": "mongoDB",
@@ -4462,6 +4827,7 @@
         "index": {
           "description": "Use select to create basic query with defaults then modify if desired For example select sel col limit",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Query",
           "package": "mongoDB",
@@ -4475,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "QueryOption",
           "package": "mongoDB",
@@ -4483,6 +4850,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "QueryOption",
           "package": "mongoDB",
@@ -4497,6 +4865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(key, [value]) -\u003e value\u003c/code\u003e. The reduce function receives a key and an array of values and returns an aggregate result value. The MapReduce engine may invoke reduce functions iteratively; thus, these functions must be idempotent.  That is, the following must hold for your reduce function: \u003ccode\u003ereduce(k, [reduce(k,vs)]) == reduce(k,vs)\u003c/code\u003e. If you need to perform an operation only once, use a finalize function. The output of emit (the 2nd param) and reduce should be the same format to make iterative reduce possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "ReduceFun",
           "package": "mongoDB",
@@ -4506,6 +4875,7 @@
         "index": {
           "description": "key value value The reduce function receives key and an array of values and returns an aggregate result value The MapReduce engine may invoke reduce functions iteratively thus these functions must be idempotent That is the following must hold for your reduce function reduce reduce vs reduce vs If you need to perform an operation only once use finalize function The output of emit the nd param and reduce should be the same format to make iterative reduce possible",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "ReduceFun",
           "package": "mongoDB",
@@ -4519,6 +4889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Select",
           "package": "mongoDB",
@@ -4527,6 +4898,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Select",
           "package": "mongoDB",
@@ -4541,6 +4913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects documents in collection that match selector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Selection",
           "package": "mongoDB",
@@ -4550,6 +4923,7 @@
         "index": {
           "description": "Selects documents in collection that match selector",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Selection",
           "package": "mongoDB",
@@ -4564,6 +4938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter for a query, analogous to the where clause in SQL. \u003ccode\u003e[]\u003c/code\u003e matches all documents in collection. \u003ccode\u003e[\"x\" =: a, \"y\" =: b]\u003c/code\u003e is analogous to \u003ccode\u003ewhere x = a and y = b\u003c/code\u003e in SQL. See \u003ca\u003ehttp://www.mongodb.org/display/DOCS/Querying\u003c/a\u003e for full selector syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Selector",
           "package": "mongoDB",
@@ -4573,6 +4948,7 @@
         "index": {
           "description": "Filter for query analogous to the where clause in SQL matches all documents in collection is analogous to where and in SQL See http www.mongodb.org display DOCS Querying for full selector syntax",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Selector",
           "package": "mongoDB",
@@ -4586,6 +4962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Username",
           "package": "mongoDB",
@@ -4594,6 +4971,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Username",
           "package": "mongoDB",
@@ -4608,6 +4986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eaggregate\u003c/a\u003e\u003c/code\u003e returned an error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "AggregateFailure",
           "package": "mongoDB",
@@ -4618,6 +4997,7 @@
         "index": {
           "description": "aggregate returned an error",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "AggregateFailure",
           "package": "mongoDB",
@@ -4632,6 +5012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead-write action, slave not OK, every write is confirmed with getLastError.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "ConfirmWrites",
           "package": "mongoDB",
@@ -4642,6 +5023,7 @@
         "index": {
           "description": "Read-write action slave not OK every write is confirmed with getLastError",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "ConfirmWrites",
           "package": "mongoDB",
@@ -4656,6 +5038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTCP connection (\u003ccode\u003e\u003ca\u003ePipeline\u003c/a\u003e\u003c/code\u003e) failed. May work if you try again on the same Mongo \u003ccode\u003eConnection\u003c/code\u003e which will create a new Pipe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "ConnectionFailure",
           "package": "mongoDB",
@@ -4666,6 +5049,7 @@
         "index": {
           "description": "TCP connection Pipeline failed May work if you try again on the same Mongo Connection which will create new Pipe",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "ConnectionFailure",
           "package": "mongoDB",
@@ -4680,6 +5064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCursor expired because it wasn't accessed for over 10 minutes, or this cursor came from a different server that the one you are currently connected to (perhaps a fail over happen between servers in a replica set)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "CursorNotFoundFailure",
           "package": "mongoDB",
@@ -4690,6 +5075,7 @@
         "index": {
           "description": "Cursor expired because it wasn accessed for over minutes or this cursor came from different server that the one you are currently connected to perhaps fail over happen between servers in replica set",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "CursorNotFoundFailure",
           "package": "mongoDB",
@@ -4704,6 +5090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efetch\u003c/a\u003e\u003c/code\u003e found no document matching selection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "DocNotFound",
           "package": "mongoDB",
@@ -4714,6 +5101,7 @@
         "index": {
           "description": "fetch found no document matching selection",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "DocNotFound",
           "package": "mongoDB",
@@ -4727,6 +5115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Group",
           "package": "mongoDB",
@@ -4736,6 +5125,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Group",
           "package": "mongoDB",
@@ -4750,6 +5140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn results directly instead of writing them to an output collection. Results must fit within 16MB limit of a single document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Inline",
           "package": "mongoDB",
@@ -4760,6 +5151,7 @@
         "index": {
           "description": "Return results directly instead of writing them to an output collection Results must fit within MB limit of single document",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Inline",
           "package": "mongoDB",
@@ -4773,6 +5165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Key",
           "package": "mongoDB",
@@ -4782,6 +5175,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Key",
           "normalized": "Key[Label]",
@@ -4797,6 +5191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "KeyF",
           "package": "mongoDB",
@@ -4806,6 +5201,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "KeyF",
           "package": "mongoDB",
@@ -4819,6 +5215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "MapReduce",
           "package": "mongoDB",
@@ -4828,6 +5225,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "MapReduce",
           "package": "mongoDB",
@@ -4842,6 +5240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeave old data but overwrite entries with the same key with new data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Merge",
           "package": "mongoDB",
@@ -4852,6 +5251,7 @@
         "index": {
           "description": "Leave old data but overwrite entries with the same key with new data",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Merge",
           "package": "mongoDB",
@@ -4866,6 +5266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite results to given collection, in other database if specified. Follow merge policy when entry already exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Output",
           "package": "mongoDB",
@@ -4876,6 +5277,7 @@
         "index": {
           "description": "Write results to given collection in other database if specified Follow merge policy when entry already exists",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Output",
           "package": "mongoDB",
@@ -4889,6 +5291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Query",
           "package": "mongoDB",
@@ -4898,6 +5301,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Query",
           "package": "mongoDB",
@@ -4912,6 +5316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery failed for some reason as described in the string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "QueryFailure",
           "package": "mongoDB",
@@ -4922,6 +5327,7 @@
         "index": {
           "description": "Query failed for some reason as described in the string",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "QueryFailure",
           "package": "mongoDB",
@@ -4936,6 +5342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead-only action, reading stale data from a slave is OK.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "ReadStaleOk",
           "package": "mongoDB",
@@ -4946,6 +5353,7 @@
         "index": {
           "description": "Read-only action reading stale data from slave is OK",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "ReadStaleOk",
           "package": "mongoDB",
@@ -4960,6 +5368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeave old data but combine entries with the same key via MR's reduce function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Reduce",
           "package": "mongoDB",
@@ -4970,6 +5379,7 @@
         "index": {
           "description": "Leave old data but combine entries with the same key via MR reduce function",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Reduce",
           "package": "mongoDB",
@@ -4984,6 +5394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear all old data and replace it with new data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Replace",
           "package": "mongoDB",
@@ -4994,6 +5405,7 @@
         "index": {
           "description": "Clear all old data and replace it with new data",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Replace",
           "package": "mongoDB",
@@ -5007,6 +5419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "Select",
           "package": "mongoDB",
@@ -5016,6 +5429,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "Select",
           "package": "mongoDB",
@@ -5030,6 +5444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead-write action, slave not OK, every write is fire & forget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "UnconfirmedWrites",
           "package": "mongoDB",
@@ -5040,6 +5455,7 @@
         "index": {
           "description": "Read-write action slave not OK every write is fire forget",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "UnconfirmedWrites",
           "package": "mongoDB",
@@ -5054,6 +5470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError observed by getLastError after a write, error description is in string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "WriteFailure",
           "package": "mongoDB",
@@ -5064,6 +5481,7 @@
         "index": {
           "description": "Error observed by getLastError after write error description is in string",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "WriteFailure",
           "package": "mongoDB",
@@ -5078,6 +5496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun action against database on server at other end of pipe. Use access mode for any reads and writes. Return Left on connection failure or read/write failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "access",
           "package": "mongoDB",
@@ -5088,6 +5507,7 @@
         "index": {
           "description": "Run action against database on server at other end of pipe Use access mode for any reads and writes Return Left on connection failure or read write failure",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "access",
           "normalized": "Pipe-\u003eAccessMode-\u003eDatabase-\u003eAction a b-\u003ea(Either Failure b)",
@@ -5103,6 +5523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun action with given \u003ccode\u003e\u003ca\u003eAccessMode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "accessMode",
           "package": "mongoDB",
@@ -5113,6 +5534,7 @@
         "index": {
           "description": "Run action with given AccessMode",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "accessMode",
           "normalized": "AccessMode-\u003eAction a b-\u003eAction a b",
@@ -5129,6 +5551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns an aggregate and unpacks the result. See \u003ca\u003ehttp://docs.mongodb.org/manual/core/aggregation/\u003c/a\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "aggregate",
           "package": "mongoDB",
@@ -5139,6 +5562,7 @@
         "index": {
           "description": "Runs an aggregate and unpacks the result See http docs.mongodb.org manual core aggregation for details",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "aggregate",
           "normalized": "Collection-\u003ePipeline-\u003eAction a[Document]",
@@ -5154,6 +5578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all collections in this database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "allCollections",
           "package": "mongoDB",
@@ -5164,6 +5589,7 @@
         "index": {
           "description": "List all collections in this database",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "allCollections",
           "normalized": "Action a[Collection]",
@@ -5180,6 +5606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all databases residing on server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "allDatabases",
           "package": "mongoDB",
@@ -5190,6 +5617,7 @@
         "index": {
           "description": "List all databases residing on server",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "allDatabases",
           "normalized": "Action a[Database]",
@@ -5206,6 +5634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthenticate with the current database (if server is running in secure mode). Return whether authentication was successful or not. Reauthentication is required for every new pipe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "auth",
           "package": "mongoDB",
@@ -5216,6 +5645,7 @@
         "index": {
           "description": "Authenticate with the current database if server is running in secure mode Return whether authentication was successful or not Reauthentication is required for every new pipe",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "auth",
           "normalized": "Username-\u003ePassword-\u003eAction a Bool",
@@ -5231,6 +5661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of document to return in each batch response from the server. 0 means use Mongo default. Default = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "batchSize",
           "package": "mongoDB",
@@ -5241,6 +5672,7 @@
         "index": {
           "description": "The number of document to return in each batch response from the server means use Mongo default Default",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "batchSize",
           "package": "mongoDB",
@@ -5254,6 +5686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "closeCursor",
           "package": "mongoDB",
@@ -5263,6 +5696,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "closeCursor",
           "normalized": "Cursor-\u003eAction a()",
@@ -5278,6 +5712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "coll",
           "package": "mongoDB",
@@ -5287,6 +5722,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "coll",
           "package": "mongoDB",
@@ -5300,6 +5736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch number of documents satisfying query (including effect of skip and/or limit if present)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "count",
           "package": "mongoDB",
@@ -5310,6 +5747,7 @@
         "index": {
           "description": "Fetch number of documents satisfying query including effect of skip and or limit if present",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "count",
           "normalized": "Query-\u003eAction a Int",
@@ -5325,6 +5763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all documents in selection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "delete",
           "package": "mongoDB",
@@ -5335,6 +5774,7 @@
         "index": {
           "description": "Delete all documents in selection",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "delete",
           "normalized": "Selection-\u003eAction a()",
@@ -5350,6 +5790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete first document in selection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "deleteOne",
           "package": "mongoDB",
@@ -5360,6 +5801,7 @@
         "index": {
           "description": "Delete first document in selection",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "deleteOne",
           "normalized": "Selection-\u003eAction a()",
@@ -5376,6 +5818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch distinct values of field in selected documents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "distinct",
           "package": "mongoDB",
@@ -5386,6 +5829,7 @@
         "index": {
           "description": "Fetch distinct values of field in selected documents",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "distinct",
           "normalized": "Label-\u003eSelection-\u003eAction a[Value]",
@@ -5401,6 +5845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun code on server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "eval",
           "package": "mongoDB",
@@ -5411,6 +5856,7 @@
         "index": {
           "description": "Run code on server",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "eval",
           "normalized": "Javascript-\u003eAction a b",
@@ -5426,6 +5872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn performance stats of query execution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "explain",
           "package": "mongoDB",
@@ -5436,6 +5883,7 @@
         "index": {
           "description": "Return performance stats of query execution",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "explain",
           "normalized": "Query-\u003eAction a Document",
@@ -5451,6 +5899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003efindOne\u003c/a\u003e\u003c/code\u003e except throw \u003ccode\u003e\u003ca\u003eDocNotFound\u003c/a\u003e\u003c/code\u003e if none match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "fetch",
           "package": "mongoDB",
@@ -5461,6 +5910,7 @@
         "index": {
           "description": "Same as findOne except throw DocNotFound if none match",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "fetch",
           "normalized": "Query-\u003eAction a Document",
@@ -5476,6 +5926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch documents satisfying query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "find",
           "package": "mongoDB",
@@ -5486,6 +5937,7 @@
         "index": {
           "description": "Fetch documents satisfying query",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "find",
           "normalized": "Query-\u003eAction a Cursor",
@@ -5501,6 +5953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eruns the findAndModify command.\n Returns a single updated document (new option is set to true).\n Currently this API does not allow setting the remove option\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "findAndModify",
           "package": "mongoDB",
@@ -5510,6 +5963,7 @@
         "index": {
           "description": "runs the findAndModify command Returns single updated document new option is set to true Currently this API does not allow setting the remove option",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "findAndModify",
           "normalized": "Query-\u003eDocument-\u003eAction a(Either String Document)",
@@ -5526,6 +5980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch first document satisfying query or Nothing if none satisfy it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "findOne",
           "package": "mongoDB",
@@ -5536,6 +5991,7 @@
         "index": {
           "description": "Fetch first document satisfying query or Nothing if none satisfy it",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "findOne",
           "normalized": "Query-\u003eAction a(Maybe Document)",
@@ -5551,6 +6007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "gColl",
           "package": "mongoDB",
@@ -5560,6 +6017,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "gColl",
           "package": "mongoDB",
@@ -5574,6 +6032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCondition that must be true for a row to be considered. [] means always true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "gCond",
           "package": "mongoDB",
@@ -5584,6 +6043,7 @@
         "index": {
           "description": "Condition that must be true for row to be considered means always true",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "gCond",
           "package": "mongoDB",
@@ -5598,6 +6058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eagg -\u003e () | result\u003c/code\u003e. An optional function to be run on each item in the result set just before the item is returned. Can either modify the item (e.g., add an average field given a count and a total) or return a replacement object (returning a new object with just _id and average fields).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "gFinalize",
           "package": "mongoDB",
@@ -5608,6 +6069,7 @@
         "index": {
           "description": "agg result An optional function to be run on each item in the result set just before the item is returned Can either modify the item e.g add an average field given count and total or return replacement object returning new object with just id and average fields",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "gFinalize",
           "package": "mongoDB",
@@ -5622,6 +6084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eagg\u003c/code\u003e. Initial aggregation value supplied to reduce\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "gInitial",
           "package": "mongoDB",
@@ -5632,6 +6095,7 @@
         "index": {
           "description": "agg Initial aggregation value supplied to reduce",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "gInitial",
           "package": "mongoDB",
@@ -5646,6 +6110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFields to group by\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "gKey",
           "package": "mongoDB",
@@ -5656,6 +6121,7 @@
         "index": {
           "description": "Fields to group by",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "gKey",
           "package": "mongoDB",
@@ -5670,6 +6136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(doc, agg) -\u003e ()\u003c/code\u003e. The reduce function reduces (aggregates) the objects iterated. Typical operations of a reduce function include summing and counting. It takes two arguments, the current document being iterated over and the aggregation value, and updates the aggregate value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "gReduce",
           "package": "mongoDB",
@@ -5680,6 +6147,7 @@
         "index": {
           "description": "doc agg The reduce function reduces aggregates the objects iterated Typical operations of reduce function include summing and counting It takes two arguments the current document being iterated over and the aggregation value and updates the aggregate value",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "gReduce",
           "package": "mongoDB",
@@ -5694,6 +6162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute group query and return resulting aggregate value for each distinct key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "group",
           "package": "mongoDB",
@@ -5704,6 +6173,7 @@
         "index": {
           "description": "Execute group query and return resulting aggregate value for each distinct key",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "group",
           "normalized": "Group-\u003eAction a[Document]",
@@ -5719,6 +6189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce MongoDB to use this index, [] = no hint. Default = []\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "hint",
           "package": "mongoDB",
@@ -5729,6 +6200,7 @@
         "index": {
           "description": "Force MongoDB to use this index no hint Default",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "hint",
           "package": "mongoDB",
@@ -5742,6 +6214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert document into collection and return its \"_id\" value, which is created automatically if not supplied\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "insert",
           "package": "mongoDB",
@@ -5752,6 +6225,7 @@
         "index": {
           "description": "Insert document into collection and return its id value which is created automatically if not supplied",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "insert",
           "normalized": "Collection-\u003eDocument-\u003eAction a Value",
@@ -5767,6 +6241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert documents into collection and return their \"_id\" values, which are created automatically if not supplied. If a document fails to be inserted (eg. due to duplicate key) then remaining docs are still inserted. LastError is set if any doc fails, not just last one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "insertAll",
           "package": "mongoDB",
@@ -5777,6 +6252,7 @@
         "index": {
           "description": "Insert documents into collection and return their id values which are created automatically if not supplied If document fails to be inserted eg due to duplicate key then remaining docs are still inserted LastError is set if any doc fails not just last one",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "insertAll",
           "normalized": "Collection-\u003e[Document]-\u003eAction a[Value]",
@@ -5793,6 +6269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003einsertAll\u003c/a\u003e\u003c/code\u003e except don't return _ids\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "insertAll_",
           "package": "mongoDB",
@@ -5803,6 +6280,7 @@
         "index": {
           "description": "Same as insertAll except don return ids",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "insertAll_",
           "normalized": "Collection-\u003e[Document]-\u003eAction a()",
@@ -5819,6 +6297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert documents into collection and return their \"_id\" values, which are created automatically if not supplied. If a document fails to be inserted (eg. due to duplicate key) then remaining docs are aborted, and LastError is set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "insertMany",
           "package": "mongoDB",
@@ -5829,6 +6308,7 @@
         "index": {
           "description": "Insert documents into collection and return their id values which are created automatically if not supplied If document fails to be inserted eg due to duplicate key then remaining docs are aborted and LastError is set",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "insertMany",
           "normalized": "Collection-\u003e[Document]-\u003eAction a[Value]",
@@ -5845,6 +6325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003einsertMany\u003c/a\u003e\u003c/code\u003e except don't return _ids\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "insertMany_",
           "package": "mongoDB",
@@ -5855,6 +6336,7 @@
         "index": {
           "description": "Same as insertMany except don return ids",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "insertMany_",
           "normalized": "Collection-\u003e[Document]-\u003eAction a()",
@@ -5871,6 +6353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e except don't return _id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "insert_",
           "package": "mongoDB",
@@ -5881,6 +6364,7 @@
         "index": {
           "description": "Same as insert except don return id",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "insert_",
           "normalized": "Collection-\u003eDocument-\u003eAction a()",
@@ -5895,6 +6379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "isCursorClosed",
           "package": "mongoDB",
@@ -5904,6 +6389,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "isCursorClosed",
           "normalized": "Cursor-\u003eAction a Bool",
@@ -5919,6 +6405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "liftDB",
           "package": "mongoDB",
@@ -5928,6 +6415,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "liftDB",
           "normalized": "Action(BaseMonad a)b-\u003ea b",
@@ -5944,6 +6432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum number of documents to return, 0 = no limit. Default = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "limit",
           "package": "mongoDB",
@@ -5954,6 +6443,7 @@
         "index": {
           "description": "Maximum number of documents to return no limit Default",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "limit",
           "package": "mongoDB",
@@ -5967,6 +6457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapReduce on collection with given map and reduce functions. Remaining attributes are set to their defaults, which are stated in their comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "mapReduce",
           "package": "mongoDB",
@@ -5977,6 +6468,7 @@
         "index": {
           "description": "MapReduce on collection with given map and reduce functions Remaining attributes are set to their defaults which are stated in their comments",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "mapReduce",
           "normalized": "Collection-\u003eMapFun-\u003eReduceFun-\u003eMapReduce",
@@ -5993,6 +6485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eConfirmWrites\u003c/a\u003e\u003c/code\u003e []\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "master",
           "package": "mongoDB",
@@ -6003,6 +6496,7 @@
         "index": {
           "description": "Same as ConfirmWrites",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "master",
           "package": "mongoDB",
@@ -6016,6 +6510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate all documents in selection using given modifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "modify",
           "package": "mongoDB",
@@ -6026,6 +6521,7 @@
         "index": {
           "description": "Update all documents in selection using given modifier",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "modify",
           "normalized": "Selection-\u003eModifier-\u003eAction a()",
@@ -6041,6 +6537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn next document in query result, or Nothing if finished.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "next",
           "package": "mongoDB",
@@ -6051,6 +6548,7 @@
         "index": {
           "description": "Return next document in query result or Nothing if finished",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "next",
           "normalized": "Cursor-\u003eAction a(Maybe Document)",
@@ -6066,6 +6564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn next batch of documents in query result, which will be empty if finished.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "nextBatch",
           "package": "mongoDB",
@@ -6076,6 +6575,7 @@
         "index": {
           "description": "Return next batch of documents in query result which will be empty if finished",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "nextBatch",
           "normalized": "Cursor-\u003eAction a[Document]",
@@ -6092,6 +6592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn next N documents or less if end is reached\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "nextN",
           "package": "mongoDB",
@@ -6102,6 +6603,7 @@
         "index": {
           "description": "Return next documents or less if end is reached",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "nextN",
           "normalized": "Int-\u003eCursor-\u003eAction a[Document]",
@@ -6117,6 +6619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault = []\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "options",
           "package": "mongoDB",
@@ -6127,6 +6630,7 @@
         "index": {
           "description": "Default",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "options",
           "normalized": "[QueryOption]",
@@ -6142,6 +6646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e[] = all fields. Default = []\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "project",
           "package": "mongoDB",
@@ -6152,6 +6657,7 @@
         "index": {
           "description": "all fields Default",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "project",
           "package": "mongoDB",
@@ -6164,6 +6670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "rColl",
           "package": "mongoDB",
@@ -6173,6 +6680,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "rColl",
           "package": "mongoDB",
@@ -6187,6 +6695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to apply to all the results when finished. Default is Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "rFinalize",
           "package": "mongoDB",
@@ -6197,6 +6706,7 @@
         "index": {
           "description": "Function to apply to all the results when finished Default is Nothing",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "rFinalize",
           "package": "mongoDB",
@@ -6211,6 +6721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault is 0 meaning no limit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "rLimit",
           "package": "mongoDB",
@@ -6221,6 +6732,7 @@
         "index": {
           "description": "Default is meaning no limit",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "rLimit",
           "package": "mongoDB",
@@ -6234,6 +6746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "rMap",
           "package": "mongoDB",
@@ -6243,6 +6756,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "rMap",
           "package": "mongoDB",
@@ -6257,6 +6771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput to a collection with a certain merge policy. Default is no collection (\u003ccode\u003e\u003ca\u003eInline\u003c/a\u003e\u003c/code\u003e). Note, you don't want this default if your result set is large.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "rOut",
           "package": "mongoDB",
@@ -6267,6 +6782,7 @@
         "index": {
           "description": "Output to collection with certain merge policy Default is no collection Inline Note you don want this default if your result set is large",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "rOut",
           "package": "mongoDB",
@@ -6280,6 +6796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "rReduce",
           "package": "mongoDB",
@@ -6289,6 +6806,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "rReduce",
           "package": "mongoDB",
@@ -6303,6 +6821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables (environment) that can be accessed from map\u003cem\u003ereduce\u003c/em\u003efinalize. Default is [].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "rScope",
           "package": "mongoDB",
@@ -6313,6 +6832,7 @@
         "index": {
           "description": "Variables environment that can be accessed from map reduce finalize Default is",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "rScope",
           "package": "mongoDB",
@@ -6327,6 +6847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperate on only those documents selected. Default is [] meaning all documents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "rSelect",
           "package": "mongoDB",
@@ -6337,6 +6858,7 @@
         "index": {
           "description": "Operate on only those documents selected Default is meaning all documents",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "rSelect",
           "package": "mongoDB",
@@ -6351,6 +6873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault is [] meaning no sort\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "rSort",
           "package": "mongoDB",
@@ -6361,6 +6884,7 @@
         "index": {
           "description": "Default is meaning no sort",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "rSort",
           "package": "mongoDB",
@@ -6375,6 +6899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide statistics on job execution time. Default is False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "rVerbose",
           "package": "mongoDB",
@@ -6385,6 +6910,7 @@
         "index": {
           "description": "Provide statistics on job execution time Default is False",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "rVerbose",
           "package": "mongoDB",
@@ -6399,6 +6925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace first document in selection with given document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "replace",
           "package": "mongoDB",
@@ -6409,6 +6936,7 @@
         "index": {
           "description": "Replace first document in selection with given document",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "replace",
           "normalized": "Selection-\u003eDocument-\u003eAction a()",
@@ -6424,6 +6952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace first document in selection with given document, or insert document if selection is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "repsert",
           "package": "mongoDB",
@@ -6434,6 +6963,7 @@
         "index": {
           "description": "Replace first document in selection with given document or insert document if selection is empty",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "repsert",
           "normalized": "Selection-\u003eDocument-\u003eAction a()",
@@ -6449,6 +6979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn remaining documents in query result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "rest",
           "package": "mongoDB",
@@ -6459,6 +6990,7 @@
         "index": {
           "description": "Return remaining documents in query result",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "rest",
           "normalized": "Cursor-\u003eAction a[Document]",
@@ -6474,6 +7006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun command against the database and return its result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "runCommand",
           "package": "mongoDB",
@@ -6484,6 +7017,7 @@
         "index": {
           "description": "Run command against the database and return its result",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "runCommand",
           "normalized": "Command-\u003eAction a Document",
@@ -6500,6 +7034,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003erunCommand1 foo = runCommand [foo =: 1]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "runCommand1",
           "package": "mongoDB",
@@ -6510,6 +7045,7 @@
         "index": {
           "description": "runCommand1 foo runCommand foo",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "runCommand1",
           "normalized": "Text-\u003eAction a Document",
@@ -6526,6 +7062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun MapReduce and return cursor of results. Error if map/reduce fails (because of bad Javascript)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "runMR",
           "package": "mongoDB",
@@ -6536,6 +7073,7 @@
         "index": {
           "description": "Run MapReduce and return cursor of results Error if map reduce fails because of bad Javascript",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "runMR",
           "normalized": "MapReduce-\u003eAction a Cursor",
@@ -6552,6 +7090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun MapReduce and return a MR result document containing stats and the results if Inlined. Error if the map/reduce failed (because of bad Javascript).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "runMR'",
           "package": "mongoDB",
@@ -6562,6 +7101,7 @@
         "index": {
           "description": "Run MapReduce and return MR result document containing stats and the results if Inlined Error if the map reduce failed because of bad Javascript",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "runMR'",
           "normalized": "MapReduce-\u003eAction a MRResult",
@@ -6578,6 +7118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave document to collection, meaning insert it if its new (has no \"_id\" field) or update it if its not new (has \"_id\" field)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "save",
           "package": "mongoDB",
@@ -6588,6 +7129,7 @@
         "index": {
           "description": "Save document to collection meaning insert it if its new has no id field or update it if its not new has id field",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "save",
           "normalized": "Collection-\u003eDocument-\u003eAction a()",
@@ -6603,6 +7145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eSelection\u003c/a\u003e\u003c/code\u003e that selects documents in collection that match selector. The choice of type depends on use, for example, in \u003ccode\u003efind (select sel col)\u003c/code\u003e it is a Query, and in \u003ccode\u003edelete (select sel col)\u003c/code\u003e it is a Selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "select",
           "package": "mongoDB",
@@ -6613,6 +7156,7 @@
         "index": {
           "description": "Query or Selection that selects documents in collection that match selector The choice of type depends on use for example in find select sel col it is Query and in delete select sel col it is Selection",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "select",
           "normalized": "Selector-\u003eCollection-\u003ea",
@@ -6627,6 +7171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "selection",
           "package": "mongoDB",
@@ -6636,6 +7181,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "selection",
           "package": "mongoDB",
@@ -6648,6 +7194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "selector",
           "package": "mongoDB",
@@ -6657,6 +7204,7 @@
         },
         "index": {
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "selector",
           "package": "mongoDB",
@@ -6670,6 +7218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of initial matching documents to skip. Default = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "skip",
           "package": "mongoDB",
@@ -6680,6 +7229,7 @@
         "index": {
           "description": "Number of initial matching documents to skip Default",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "skip",
           "package": "mongoDB",
@@ -6693,6 +7243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eReadStaleOk\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "slaveOk",
           "package": "mongoDB",
@@ -6703,6 +7254,7 @@
         "index": {
           "description": "Same as ReadStaleOk",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "slaveOk",
           "package": "mongoDB",
@@ -6717,6 +7269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf true assures no duplicates are returned, or objects missed, which were present at both the start and end of the query's execution (even if the object were updated). If an object is new during the query, or deleted during the query, it may or may not be returned, even with snapshot mode. Note that short query responses (less than 1MB) are always effectively snapshotted. Default = False\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "snapshot",
           "package": "mongoDB",
@@ -6727,6 +7280,7 @@
         "index": {
           "description": "If true assures no duplicates are returned or objects missed which were present at both the start and end of the query execution even if the object were updated If an object is new during the query or deleted during the query it may or may not be returned even with snapshot mode Note that short query responses less than MB are always effectively snapshotted Default False",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "snapshot",
           "package": "mongoDB",
@@ -6740,6 +7294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort results by this order, [] = no sort. Default = []\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "sort",
           "package": "mongoDB",
@@ -6750,6 +7305,7 @@
         "index": {
           "description": "Sort results by this order no sort Default",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "sort",
           "package": "mongoDB",
@@ -6763,6 +7319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent database in use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "thisDatabase",
           "package": "mongoDB",
@@ -6773,6 +7330,7 @@
         "index": {
           "description": "Current database in use",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "thisDatabase",
           "package": "mongoDB",
@@ -6787,6 +7345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun action against given database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "useDb",
           "package": "mongoDB",
@@ -6797,6 +7356,7 @@
         "index": {
           "description": "Run action against given database",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "useDb",
           "normalized": "Database-\u003eAction a b-\u003eAction a b",
@@ -6813,6 +7373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd Javascript predicate to selector, in which case a document must match both selector and predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB.Query",
           "name": "whereJS",
           "package": "mongoDB",
@@ -6823,6 +7384,7 @@
         "index": {
           "description": "Add Javascript predicate to selector in which case document must match both selector and predicate",
           "hierarchy": "Database MongoDB Query",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB.Query",
           "name": "whereJS",
           "normalized": "Selector-\u003eJavascript-\u003eSelector",
@@ -6839,6 +7401,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClient interface to MongoDB database management system.\n\u003c/p\u003e\u003cp\u003eSimple example below. Use with language extensions \u003cem\u003eOvererloadedStrings\u003c/em\u003e & \u003cem\u003eExtendedDefaultRules\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e \n\n import Database.MongoDB\n import Control.Monad.Trans (liftIO)\n\n main = do\n    pipe \u003c- runIOE $ connect (host \"127.0.0.1\")\n    e \u003c- access pipe master \"baseball\" run\n    close pipe\n    print e\n\n run = do\n    clearTeams\n    insertTeams\n    allTeams \u003e\u003e= printDocs \"All Teams\"\n    nationalLeagueTeams \u003e\u003e= printDocs \"National League Teams\"\n    newYorkTeams \u003e\u003e= printDocs \"New York Teams\"\n\n clearTeams = delete (select [] \"team\")\n\n insertTeams = insertMany \"team\" [\n    [\"name\" =: \"Yankees\", \"home\" =: [\"city\" =: \"New York\", \"state\" =: \"NY\"], \"league\" =: \"American\"],\n    [\"name\" =: \"Mets\", \"home\" =: [\"city\" =: \"New York\", \"state\" =: \"NY\"], \"league\" =: \"National\"],\n    [\"name\" =: \"Phillies\", \"home\" =: [\"city\" =: \"Philadelphia\", \"state\" =: \"PA\"], \"league\" =: \"National\"],\n    [\"name\" =: \"Red Sox\", \"home\" =: [\"city\" =: \"Boston\", \"state\" =: \"MA\"], \"league\" =: \"American\"] ]\n\n allTeams = rest =\u003c\u003c find (select [] \"team\") {sort = [\"home.city\" =: 1]}\n\n nationalLeagueTeams = rest =\u003c\u003c find (select [\"league\" =: \"National\"] \"team\")\n\n newYorkTeams = rest =\u003c\u003c find (select [\"home.state\" =: \"NY\"] \"team\") {project = [\"name\" =: 1, \"league\" =: 1]}\n\n printDocs title docs = liftIO $ putStrLn title \u003e\u003e mapM_ (print . exclude [\"_id\"]) docs\n\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "Database.MongoDB",
           "name": "MongoDB",
           "package": "mongoDB",
@@ -6848,6 +7411,7 @@
         "index": {
           "description": "Client interface to MongoDB database management system Simple example below Use with language extensions OvererloadedStrings ExtendedDefaultRules import Database.MongoDB import Control.Monad.Trans liftIO main do pipe runIOE connect host access pipe master baseball run close pipe print run do clearTeams insertTeams allTeams printDocs All Teams nationalLeagueTeams printDocs National League Teams newYorkTeams printDocs New York Teams clearTeams delete select team insertTeams insertMany team name Yankees home city New York state NY league American name Mets home city New York state NY league National name Phillies home city Philadelphia state PA league National name Red Sox home city Boston state MA league American allTeams rest find select team sort home.city nationalLeagueTeams rest find select league National team newYorkTeams rest find select home.state NY team project name league printDocs title docs liftIO putStrLn title mapM print exclude id docs",
           "hierarchy": "Database MongoDB",
+          "indexed": "2014-03-11T19:21:54",
           "module": "Database.MongoDB",
           "name": "MongoDB",
           "package": "mongoDB",
@@ -6862,6 +7426,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePipelining is sending multiple requests over a socket and receiving the responses later in the same order (a' la HTTP pipelining). This is faster than sending one request, waiting for the response, then sending the next request, and so on. This implementation returns a \u003cem\u003epromise (future)\u003c/em\u003e response for each request that when invoked waits for the response if not already arrived. Multiple threads can send on the same pipeline (and get promises back); it will send each thread's request right away without waiting.\n\u003c/p\u003e\u003cp\u003eA pipeline closes itself when a read or write causes an error, so you can detect a broken pipeline by checking isClosed.  It also closes itself when garbage collected, or you can close it explicitly. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pipeline",
           "name": "Pipeline",
           "package": "mongoDB",
@@ -6871,6 +7436,7 @@
         "index": {
           "description": "Pipelining is sending multiple requests over socket and receiving the responses later in the same order la HTTP pipelining This is faster than sending one request waiting for the response then sending the next request and so on This implementation returns promise future response for each request that when invoked waits for the response if not already arrived Multiple threads can send on the same pipeline and get promises back it will send each thread request right away without waiting pipeline closes itself when read or write causes an error so you can detect broken pipeline by checking isClosed It also closes itself when garbage collected or you can close it explicitly",
           "hierarchy": "System IO Pipeline",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pipeline",
           "name": "Pipeline",
           "package": "mongoDB",
@@ -6885,6 +7451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIO monad with explicit error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pipeline",
           "name": "IOE",
           "package": "mongoDB",
@@ -6894,6 +7461,7 @@
         "index": {
           "description": "IO monad with explicit error",
           "hierarchy": "System IO Pipeline",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pipeline",
           "name": "IOE",
           "package": "mongoDB",
@@ -6908,6 +7476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn IO sink and source where value of type \u003ccode\u003eo\u003c/code\u003e are sent and values of type \u003ccode\u003ei\u003c/code\u003e are received.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pipeline",
           "name": "IOStream",
           "package": "mongoDB",
@@ -6917,6 +7486,7 @@
         "index": {
           "description": "An IO sink and source where value of type are sent and values of type are received",
           "hierarchy": "System IO Pipeline",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pipeline",
           "name": "IOStream",
           "package": "mongoDB",
@@ -6931,6 +7501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThread-safe and pipelined connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pipeline",
           "name": "Pipeline",
           "package": "mongoDB",
@@ -6940,6 +7511,7 @@
         "index": {
           "description": "Thread-safe and pipelined connection",
           "hierarchy": "System IO Pipeline",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pipeline",
           "name": "Pipeline",
           "package": "mongoDB",
@@ -6953,6 +7525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pipeline",
           "name": "IOStream",
           "package": "mongoDB",
@@ -6962,6 +7535,7 @@
         },
         "index": {
           "hierarchy": "System IO Pipeline",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pipeline",
           "name": "IOStream",
           "package": "mongoDB",
@@ -6976,6 +7550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend message to destination and return \u003cem\u003epromise\u003c/em\u003e of response from one message only. The destination must reply to the message (otherwise promises will have the wrong responses in them).\n Throw IOError and closes pipeline if send fails, likewise for promised response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pipeline",
           "name": "call",
           "package": "mongoDB",
@@ -6986,6 +7561,7 @@
         "index": {
           "description": "Send message to destination and return promise of response from one message only The destination must reply to the message otherwise promises will have the wrong responses in them Throw IOError and closes pipeline if send fails likewise for promised response",
           "hierarchy": "System IO Pipeline",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pipeline",
           "name": "call",
           "normalized": "Pipeline a b-\u003eb-\u003eIOE(IOE a)",
@@ -7000,6 +7576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pipeline",
           "name": "closeStream",
           "package": "mongoDB",
@@ -7009,6 +7586,7 @@
         },
         "index": {
           "hierarchy": "System IO Pipeline",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pipeline",
           "name": "closeStream",
           "normalized": "IO()",
@@ -7025,6 +7603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new Pipeline over given handle. You should \u003ccode\u003e\u003ca\u003eclose\u003c/a\u003e\u003c/code\u003e pipeline when finished, which will also close handle. If pipeline is not closed but eventually garbage collected, it will be closed along with handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pipeline",
           "name": "newPipeline",
           "package": "mongoDB",
@@ -7035,6 +7614,7 @@
         "index": {
           "description": "Create new Pipeline over given handle You should close pipeline when finished which will also close handle If pipeline is not closed but eventually garbage collected it will be closed along with handle",
           "hierarchy": "System IO Pipeline",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pipeline",
           "name": "newPipeline",
           "normalized": "IOStream a b-\u003eIO(Pipeline a b)",
@@ -7050,6 +7630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pipeline",
           "name": "readStream",
           "package": "mongoDB",
@@ -7059,6 +7640,7 @@
         },
         "index": {
           "hierarchy": "System IO Pipeline",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pipeline",
           "name": "readStream",
           "package": "mongoDB",
@@ -7073,6 +7655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend message to destination; the destination must not response (otherwise future \u003ccode\u003e\u003ca\u003ecall\u003c/a\u003e\u003c/code\u003es will get these responses instead of their own).\n Throw IOError and close pipeline if send fails\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pipeline",
           "name": "send",
           "package": "mongoDB",
@@ -7083,6 +7666,7 @@
         "index": {
           "description": "Send message to destination the destination must not response otherwise future call will get these responses instead of their own Throw IOError and close pipeline if send fails",
           "hierarchy": "System IO Pipeline",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pipeline",
           "name": "send",
           "normalized": "Pipeline a b-\u003eb-\u003eIOE()",
@@ -7097,6 +7681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pipeline",
           "name": "writeStream",
           "package": "mongoDB",
@@ -7106,6 +7691,7 @@
         },
         "index": {
           "hierarchy": "System IO Pipeline",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pipeline",
           "name": "writeStream",
           "normalized": "a-\u003eIOE()",
@@ -7122,6 +7708,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCycle through a set of resources (randomly), recreating them when they expire \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "Pool",
           "package": "mongoDB",
@@ -7131,6 +7718,7 @@
         "index": {
           "description": "Cycle through set of resources randomly recreating them when they expire",
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "Pool",
           "package": "mongoDB",
@@ -7145,6 +7733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreator, destroyer, and checker of resources of type r. Creator may throw error or type e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "Factory",
           "package": "mongoDB",
@@ -7154,6 +7743,7 @@
         "index": {
           "description": "Creator destroyer and checker of resources of type Creator may throw error or type",
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "Factory",
           "package": "mongoDB",
@@ -7168,6 +7758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePool of maximum N resources. Resources may expire on their own or be killed. Resources will initially be created on demand up N resources then recycled in random fashion. N may be changed by resizing the pool. Random is preferred to round-robin to distribute effect of pathological use cases that use every Xth resource the most and N is a multiple of X.\n Resources *must* close/kill themselves when garbage collected (\u003ccode\u003e\u003ca\u003eresize\u003c/a\u003e\u003c/code\u003e relies on this).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "Pool",
           "package": "mongoDB",
@@ -7177,6 +7768,7 @@
         "index": {
           "description": "Pool of maximum resources Resources may expire on their own or be killed Resources will initially be created on demand up resources then recycled in random fashion may be changed by resizing the pool Random is preferred to round-robin to distribute effect of pathological use cases that use every Xth resource the most and is multiple of Resources must close kill themselves when garbage collected resize relies on this",
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "Pool",
           "package": "mongoDB",
@@ -7190,6 +7782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "Factory",
           "package": "mongoDB",
@@ -7199,6 +7792,7 @@
         },
         "index": {
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "Factory",
           "package": "mongoDB",
@@ -7212,6 +7806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "Pool",
           "package": "mongoDB",
@@ -7221,6 +7816,7 @@
         },
         "index": {
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "Pool",
           "package": "mongoDB",
@@ -7235,6 +7831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a random live resource in pool or create new one if expired or not yet created\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "aResource",
           "package": "mongoDB",
@@ -7245,6 +7842,7 @@
         "index": {
           "description": "Return random live resource in pool or create new one if expired or not yet created",
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "aResource",
           "normalized": "Pool a b-\u003eErrorT a IO b",
@@ -7260,6 +7858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "factory",
           "package": "mongoDB",
@@ -7269,6 +7868,7 @@
         },
         "index": {
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "factory",
           "package": "mongoDB",
@@ -7281,6 +7881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "isExpired",
           "package": "mongoDB",
@@ -7290,6 +7891,7 @@
         },
         "index": {
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "isExpired",
           "normalized": "a-\u003eIO Bool",
@@ -7306,6 +7908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKill all resources in pool so subsequent access creates new ones\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "killAll",
           "package": "mongoDB",
@@ -7316,6 +7919,7 @@
         "index": {
           "description": "Kill all resources in pool so subsequent access creates new ones",
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "killAll",
           "normalized": "Pool a b-\u003eIO()",
@@ -7331,6 +7935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "killResource",
           "package": "mongoDB",
@@ -7340,6 +7945,7 @@
         },
         "index": {
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "killResource",
           "normalized": "a-\u003eIO()",
@@ -7356,6 +7962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new pool of initial max size, which must be \u003e= 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "newPool",
           "package": "mongoDB",
@@ -7366,6 +7973,7 @@
         "index": {
           "description": "Create new pool of initial max size which must be",
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "newPool",
           "normalized": "Factory a b-\u003eInt-\u003eIO(Pool a b)",
@@ -7381,6 +7989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "newResource",
           "package": "mongoDB",
@@ -7390,6 +7999,7 @@
         },
         "index": {
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "newResource",
           "package": "mongoDB",
@@ -7404,6 +8014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrent max size of pool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "poolSize",
           "package": "mongoDB",
@@ -7414,6 +8025,7 @@
         "index": {
           "description": "current max size of pool",
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "poolSize",
           "normalized": "Pool a b-\u003eIO Int",
@@ -7430,6 +8042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresize max size of pool. When shrinking some resource will be dropped without closing since they may still be in use. They are expected to close themselves when garbage collected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "resize",
           "package": "mongoDB",
@@ -7440,6 +8053,7 @@
         "index": {
           "description": "resize max size of pool When shrinking some resource will be dropped without closing since they may still be in use They are expected to close themselves when garbage collected",
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "resize",
           "normalized": "Pool a b-\u003eInt-\u003eIO()",
@@ -7454,6 +8068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:54 UTC 2014",
           "module": "System.IO.Pool",
           "name": "resources",
           "package": "mongoDB",
@@ -7463,6 +8078,7 @@
         },
         "index": {
           "hierarchy": "System IO Pool",
+          "indexed": "2014-03-11T19:21:54",
           "module": "System.IO.Pool",
           "name": "resources",
           "package": "mongoDB",

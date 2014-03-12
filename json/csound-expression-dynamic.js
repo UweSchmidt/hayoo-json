@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "csound-expression-dynamic"
+        "phrase": "csound-expression-dynamic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBoolean instances\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build.Logic",
           "name": "Logic",
           "package": "csound-expression-dynamic",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Boolean instances",
           "hierarchy": "Csound Dynamic Build Logic",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build.Logic",
           "name": "Logic",
           "package": "csound-expression-dynamic",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build.Logic",
           "name": "elseBegin",
           "package": "csound-expression-dynamic",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build Logic",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build.Logic",
           "name": "elseBegin",
           "normalized": "DepT a()",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build.Logic",
           "name": "elseIfBegin",
           "package": "csound-expression-dynamic",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build Logic",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build.Logic",
           "name": "elseIfBegin",
           "normalized": "E-\u003eDepT a()",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build.Logic",
           "name": "ifBegin",
           "package": "csound-expression-dynamic",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build Logic",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build.Logic",
           "name": "ifBegin",
           "normalized": "E-\u003eDepT a()",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build.Logic",
           "name": "ifEnd",
           "package": "csound-expression-dynamic",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build Logic",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build.Logic",
           "name": "ifEnd",
           "normalized": "DepT a()",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build.Logic",
           "name": "when1",
           "package": "csound-expression-dynamic",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build Logic",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build.Logic",
           "name": "when1",
           "normalized": "E-\u003eDepT a()-\u003eDepT a()",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build.Logic",
           "name": "whens",
           "package": "csound-expression-dynamic",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build Logic",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build.Logic",
           "name": "whens",
           "normalized": "[(E,DepT a())]-\u003eDepT a()-\u003eDepT a()",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNumeric instances\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build.Numeric",
           "name": "Numeric",
           "package": "csound-expression-dynamic",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Numeric instances",
           "hierarchy": "Csound Dynamic Build Numeric",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build.Numeric",
           "name": "Numeric",
           "package": "csound-expression-dynamic",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build.Numeric",
           "name": "ceilE",
           "package": "csound-expression-dynamic",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build Numeric",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build.Numeric",
           "name": "ceilE",
           "normalized": "E-\u003eE",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build.Numeric",
           "name": "floorE",
           "package": "csound-expression-dynamic",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build Numeric",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build.Numeric",
           "name": "floorE",
           "normalized": "E-\u003eE",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build.Numeric",
           "name": "fracE",
           "package": "csound-expression-dynamic",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build Numeric",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build.Numeric",
           "name": "fracE",
           "normalized": "E-\u003eE",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build.Numeric",
           "name": "intE",
           "package": "csound-expression-dynamic",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build Numeric",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build.Numeric",
           "name": "intE",
           "normalized": "E-\u003eE",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build.Numeric",
           "name": "roundE",
           "package": "csound-expression-dynamic",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build Numeric",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build.Numeric",
           "name": "roundE",
           "normalized": "E-\u003eE",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "Build",
           "package": "csound-expression-dynamic",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "Build",
           "package": "csound-expression-dynamic",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple output. Specify the number of outputs to get the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "MultiOut",
           "package": "csound-expression-dynamic",
@@ -352,6 +381,7 @@
         "index": {
           "description": "Multiple output Specify the number of outputs to get the result",
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "MultiOut",
           "package": "csound-expression-dynamic",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "Spec1",
           "package": "csound-expression-dynamic",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "Spec1",
           "package": "csound-expression-dynamic",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "Specs",
           "package": "csound-expression-dynamic",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "Specs",
           "package": "csound-expression-dynamic",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts Haskell's doubles to Csound's doubles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "double",
           "package": "csound-expression-dynamic",
@@ -418,6 +453,7 @@
         "index": {
           "description": "Converts Haskell doubles to Csound doubles",
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "double",
           "normalized": "Double-\u003eE",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "getPrimUnsafe",
           "package": "csound-expression-dynamic",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "getPrimUnsafe",
           "normalized": "E-\u003ePrim",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "getRates",
           "package": "csound-expression-dynamic",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "getRates",
           "normalized": "MainExp a-\u003e[Rate]",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "infOpr",
           "package": "csound-expression-dynamic",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "infOpr",
           "normalized": "Name-\u003eE-\u003eE-\u003eE",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts Haskell's integers to Csound's doubles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "int",
           "package": "csound-expression-dynamic",
@@ -515,6 +558,7 @@
         "index": {
           "description": "Converts Haskell integers to Csound doubles",
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "int",
           "normalized": "Int-\u003eE",
@@ -529,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "isMultiOutSignature",
           "package": "csound-expression-dynamic",
@@ -538,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "isMultiOutSignature",
           "normalized": "Signature-\u003eBool",
@@ -553,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "mo",
           "package": "csound-expression-dynamic",
@@ -562,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "mo",
           "normalized": "Int-\u003eE-\u003e[E]",
@@ -576,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "mopcs",
           "package": "csound-expression-dynamic",
@@ -585,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "mopcs",
           "normalized": "Name-\u003eSpecs-\u003e[E]-\u003eMultiOut[E]",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "numExp1",
           "package": "csound-expression-dynamic",
@@ -608,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "numExp1",
           "normalized": "NumOp-\u003eE-\u003eE",
@@ -623,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "numExp2",
           "package": "csound-expression-dynamic",
@@ -632,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "numExp2",
           "normalized": "NumOp-\u003eE-\u003eE-\u003eE",
@@ -647,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "onExp",
           "package": "csound-expression-dynamic",
@@ -656,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "onExp",
           "normalized": "(Exp E-\u003eExp E)-\u003eE-\u003eE",
@@ -671,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "opcPrefix",
           "package": "csound-expression-dynamic",
@@ -680,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "opcPrefix",
           "normalized": "Name-\u003eSignature-\u003eInfo",
@@ -695,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "opcs",
           "package": "csound-expression-dynamic",
@@ -704,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "opcs",
           "normalized": "Name-\u003eSpec-\u003e[E]-\u003eE",
@@ -718,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "opcsNoInlineArgs",
           "package": "csound-expression-dynamic",
@@ -727,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "opcsNoInlineArgs",
           "normalized": "Name-\u003eSpec-\u003e[E]-\u003eE",
@@ -742,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "opr1",
           "package": "csound-expression-dynamic",
@@ -751,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "opr1",
           "normalized": "Name-\u003eE-\u003eE",
@@ -765,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "opr1k",
           "package": "csound-expression-dynamic",
@@ -774,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "opr1k",
           "normalized": "Name-\u003eE-\u003eE",
@@ -788,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "oprBy",
           "package": "csound-expression-dynamic",
@@ -797,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "oprBy",
           "normalized": "Name-\u003eSpec-\u003e[E]-\u003eE",
@@ -812,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "oprInfix",
           "package": "csound-expression-dynamic",
@@ -821,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "oprInfix",
           "normalized": "Name-\u003eSignature-\u003eInfo",
@@ -836,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "oprPrefix",
           "package": "csound-expression-dynamic",
@@ -845,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "oprPrefix",
           "normalized": "Name-\u003eSignature-\u003eInfo",
@@ -860,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "pn",
           "package": "csound-expression-dynamic",
@@ -869,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "pn",
           "normalized": "Int-\u003eE",
@@ -883,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "prim",
           "package": "csound-expression-dynamic",
@@ -892,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "prim",
           "normalized": "Prim-\u003eE",
@@ -906,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "setKr",
           "package": "csound-expression-dynamic",
@@ -915,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "setKr",
           "normalized": "Int-\u003eDepT a()",
@@ -930,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "setKsmps",
           "package": "csound-expression-dynamic",
@@ -939,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "setKsmps",
           "normalized": "Int-\u003eDepT a()",
@@ -954,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "setNchnls",
           "package": "csound-expression-dynamic",
@@ -963,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "setNchnls",
           "normalized": "Int-\u003eDepT a()",
@@ -978,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "setSr",
           "package": "csound-expression-dynamic",
@@ -987,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "setSr",
           "normalized": "Int-\u003eDepT a()",
@@ -1002,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "setZeroDbfs",
           "package": "csound-expression-dynamic",
@@ -1011,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "setZeroDbfs",
           "normalized": "Double-\u003eDepT a()",
@@ -1026,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "spec1",
           "package": "csound-expression-dynamic",
@@ -1035,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "spec1",
           "normalized": "Spec-\u003eSignature",
@@ -1049,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "specs",
           "package": "csound-expression-dynamic",
@@ -1058,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "specs",
           "normalized": "Specs-\u003eSignature",
@@ -1073,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts Haskell's strings to Csound's strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "str",
           "package": "csound-expression-dynamic",
@@ -1083,6 +1174,7 @@
         "index": {
           "description": "Converts Haskell strings to Csound strings",
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "str",
           "normalized": "String-\u003eE",
@@ -1097,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "tfm",
           "package": "csound-expression-dynamic",
@@ -1106,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "tfm",
           "normalized": "Info-\u003e[E]-\u003eE",
@@ -1120,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "tfmNoInlineArgs",
           "package": "csound-expression-dynamic",
@@ -1129,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "tfmNoInlineArgs",
           "normalized": "Info-\u003e[E]-\u003eE",
@@ -1144,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "toExp",
           "package": "csound-expression-dynamic",
@@ -1153,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "toExp",
           "normalized": "E-\u003eExp E",
@@ -1168,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "verbatim",
           "package": "csound-expression-dynamic",
@@ -1177,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "verbatim",
           "normalized": "String-\u003eDepT a()",
@@ -1191,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Build",
           "name": "withInits",
           "package": "csound-expression-dynamic",
@@ -1200,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Build",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Build",
           "name": "withInits",
           "normalized": "E-\u003e[E]-\u003eE",
@@ -1215,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Render",
           "name": "Render",
           "package": "csound-expression-dynamic",
@@ -1223,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Render",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Render",
           "name": "Render",
           "package": "csound-expression-dynamic",
@@ -1236,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Render",
           "name": "renderCsd",
           "package": "csound-expression-dynamic",
@@ -1245,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Render",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Render",
           "name": "renderCsd",
           "normalized": "Csd-\u003eString",
@@ -1261,6 +1367,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Csound file\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "CsdFile",
           "package": "csound-expression-dynamic",
@@ -1270,6 +1377,7 @@
         "index": {
           "description": "The Csound file",
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "CsdFile",
           "package": "csound-expression-dynamic",
@@ -1283,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Csd",
           "package": "csound-expression-dynamic",
@@ -1291,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Csd",
           "package": "csound-expression-dynamic",
@@ -1304,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Flags",
           "package": "csound-expression-dynamic",
@@ -1312,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Flags",
           "package": "csound-expression-dynamic",
@@ -1325,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Instr",
           "package": "csound-expression-dynamic",
@@ -1333,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Instr",
           "package": "csound-expression-dynamic",
@@ -1346,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "InstrBody",
           "package": "csound-expression-dynamic",
@@ -1354,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "InstrBody",
           "package": "csound-expression-dynamic",
@@ -1367,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Orc",
           "package": "csound-expression-dynamic",
@@ -1375,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Orc",
           "package": "csound-expression-dynamic",
@@ -1388,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Sco",
           "package": "csound-expression-dynamic",
@@ -1396,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Sco",
           "package": "csound-expression-dynamic",
@@ -1409,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Csd",
           "package": "csound-expression-dynamic",
@@ -1418,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Csd",
           "package": "csound-expression-dynamic",
@@ -1431,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Instr",
           "package": "csound-expression-dynamic",
@@ -1440,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Instr",
           "package": "csound-expression-dynamic",
@@ -1453,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Orc",
           "package": "csound-expression-dynamic",
@@ -1462,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Orc",
           "package": "csound-expression-dynamic",
@@ -1475,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Sco",
           "package": "csound-expression-dynamic",
@@ -1484,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "Sco",
           "package": "csound-expression-dynamic",
@@ -1497,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "alwaysOn",
           "package": "csound-expression-dynamic",
@@ -1506,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "alwaysOn",
           "normalized": "InstrId-\u003e(InstrId,[CsdEvent Note])",
@@ -1521,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "csdFlags",
           "package": "csound-expression-dynamic",
@@ -1530,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "csdFlags",
           "package": "csound-expression-dynamic",
@@ -1543,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "csdOrc",
           "package": "csound-expression-dynamic",
@@ -1552,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "csdOrc",
           "package": "csound-expression-dynamic",
@@ -1565,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "csdSco",
           "package": "csound-expression-dynamic",
@@ -1574,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "csdSco",
           "package": "csound-expression-dynamic",
@@ -1587,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "instrBody",
           "package": "csound-expression-dynamic",
@@ -1596,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "instrBody",
           "package": "csound-expression-dynamic",
@@ -1609,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "instrName",
           "package": "csound-expression-dynamic",
@@ -1618,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "instrName",
           "package": "csound-expression-dynamic",
@@ -1631,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "intInstr",
           "package": "csound-expression-dynamic",
@@ -1640,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "intInstr",
           "normalized": "Int-\u003eE-\u003eInstr",
@@ -1655,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "orcHead",
           "package": "csound-expression-dynamic",
@@ -1664,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "orcHead",
           "package": "csound-expression-dynamic",
@@ -1677,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "orcInstruments",
           "package": "csound-expression-dynamic",
@@ -1686,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "orcInstruments",
           "normalized": "[Instr]",
@@ -1701,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "scoGens",
           "package": "csound-expression-dynamic",
@@ -1710,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "scoGens",
           "normalized": "[(Int,Gen)]",
@@ -1725,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "scoNotes",
           "package": "csound-expression-dynamic",
@@ -1734,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "scoNotes",
           "normalized": "[(InstrId,[CsdEvent Note])]",
@@ -1749,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "scoTotalDur",
           "package": "csound-expression-dynamic",
@@ -1758,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types CsdFile",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.CsdFile",
           "name": "scoTotalDur",
           "package": "csound-expression-dynamic",
@@ -1772,6 +1924,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDependency tracking\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "Dep",
           "package": "csound-expression-dynamic",
@@ -1781,6 +1934,7 @@
         "index": {
           "description": "Dependency tracking",
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "Dep",
           "package": "csound-expression-dynamic",
@@ -1795,6 +1949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCsound's synonym for \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e-monad. \u003ccode\u003eDep\u003c/code\u003e means Side Effect. \n You will bump into \u003ccode\u003eDep\u003c/code\u003e trying to read and write to delay lines,\n making random signals or trying to save your audio to file. \n Instrument is expected to return a value of \u003ccode\u003eDep [Sig]\u003c/code\u003e. \n So it's okay to do some side effects when playing a note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "DepT",
           "package": "csound-expression-dynamic",
@@ -1804,6 +1959,7 @@
         "index": {
           "description": "Csound synonym for IO monad Dep means Side Effect You will bump into Dep trying to read and write to delay lines making random signals or trying to save your audio to file Instrument is expected to return value of Dep Sig So it okay to do some side effects when playing note",
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "DepT",
           "package": "csound-expression-dynamic",
@@ -1817,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "LocalHistory",
           "package": "csound-expression-dynamic",
@@ -1825,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "LocalHistory",
           "package": "csound-expression-dynamic",
@@ -1838,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "DepT",
           "package": "csound-expression-dynamic",
@@ -1847,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "DepT",
           "package": "csound-expression-dynamic",
@@ -1860,6 +2020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "LocalHistory",
           "package": "csound-expression-dynamic",
@@ -1869,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "LocalHistory",
           "package": "csound-expression-dynamic",
@@ -1882,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "appendVarBy",
           "package": "csound-expression-dynamic",
@@ -1891,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "appendVarBy",
           "normalized": "(E-\u003eE-\u003eE)-\u003eVar-\u003eE-\u003eDepT a()",
@@ -1906,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "depT",
           "package": "csound-expression-dynamic",
@@ -1915,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "depT",
           "normalized": "E-\u003eDepT a E",
@@ -1929,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "depT_",
           "package": "csound-expression-dynamic",
@@ -1938,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "depT_",
           "normalized": "E-\u003eDepT a()",
@@ -1952,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "execDepT",
           "package": "csound-expression-dynamic",
@@ -1961,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "execDepT",
           "normalized": "DepT a b-\u003ea E",
@@ -1976,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "expDependency",
           "package": "csound-expression-dynamic",
@@ -1985,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "expDependency",
           "package": "csound-expression-dynamic",
@@ -1998,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "initVar",
           "package": "csound-expression-dynamic",
@@ -2007,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "initVar",
           "normalized": "Var-\u003eE-\u003eDepT a()",
@@ -2022,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "mdepT",
           "package": "csound-expression-dynamic",
@@ -2031,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "mdepT",
           "normalized": "MultiOut[E]-\u003eMultiOut(DepT a[E])",
@@ -2045,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "newLocalVar",
           "package": "csound-expression-dynamic",
@@ -2054,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "newLocalVar",
           "normalized": "Rate-\u003ea E-\u003eDepT a Var",
@@ -2069,6 +2247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "newLocalVarId",
           "package": "csound-expression-dynamic",
@@ -2078,6 +2257,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "newLocalVarId",
           "package": "csound-expression-dynamic",
@@ -2091,6 +2271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "newLocalVars",
           "package": "csound-expression-dynamic",
@@ -2100,6 +2281,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "newLocalVars",
           "normalized": "[Rate]-\u003ea[E]-\u003eDepT a[Var]",
@@ -2115,6 +2297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "readOnlyVar",
           "package": "csound-expression-dynamic",
@@ -2124,6 +2307,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "readOnlyVar",
           "normalized": "Var-\u003eE",
@@ -2139,6 +2323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "readVar",
           "package": "csound-expression-dynamic",
@@ -2148,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "readVar",
           "normalized": "Var-\u003eDepT a E",
@@ -2163,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "runDepT",
           "package": "csound-expression-dynamic",
@@ -2172,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "runDepT",
           "normalized": "DepT a b-\u003ea(b,LocalHistory)",
@@ -2187,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "stmtOnlyT",
           "package": "csound-expression-dynamic",
@@ -2196,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "stmtOnlyT",
           "normalized": "Exp E-\u003eDepT a()",
@@ -2211,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "stripDepT",
           "package": "csound-expression-dynamic",
@@ -2220,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "stripDepT",
           "normalized": "DepT a b-\u003ea b",
@@ -2235,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "unDepT",
           "package": "csound-expression-dynamic",
@@ -2244,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "unDepT",
           "package": "csound-expression-dynamic",
@@ -2257,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "writeVar",
           "package": "csound-expression-dynamic",
@@ -2266,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Dep",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Dep",
           "name": "writeVar",
           "normalized": "Var-\u003eE-\u003eDepT a()",
@@ -2281,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "EventList",
           "package": "csound-expression-dynamic",
@@ -2289,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types EventList",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "EventList",
           "package": "csound-expression-dynamic",
@@ -2303,6 +2501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Csound note. It's a triple of\n\u003c/p\u003e\u003cpre\u003e (startTime, duration, parameters)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "CsdEvent",
           "package": "csound-expression-dynamic",
@@ -2312,6 +2511,7 @@
         "index": {
           "description": "The Csound note It triple of startTime duration parameters",
           "hierarchy": "Csound Dynamic Types EventList",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "CsdEvent",
           "package": "csound-expression-dynamic",
@@ -2326,6 +2526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCsdEventList\u003c/a\u003e\u003c/code\u003e is a canonical representation of the Csound scores.\n A scores is a list of events and we should know the total duration of the scores.\n It's not meant to be used directly. We can use a better alternative. More convenient\n type that belongs to \u003ccode\u003e\u003ca\u003eCsdSco\u003c/a\u003e\u003c/code\u003e type class (see temporal-csound package).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "CsdEventList",
           "package": "csound-expression-dynamic",
@@ -2335,6 +2536,7 @@
         "index": {
           "description": "CsdEventList is canonical representation of the Csound scores scores is list of events and we should know the total duration of the scores It not meant to be used directly We can use better alternative More convenient type that belongs to CsdSco type class see temporal-csound package",
           "hierarchy": "Csound Dynamic Types EventList",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "CsdEventList",
           "package": "csound-expression-dynamic",
@@ -2349,6 +2551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class that represents Csound scores. All functions that use score are defined\n in terms of this class. If you want to use your own score representation, just define\n two methods of the class.\n\u003c/p\u003e\u003cp\u003eThe properties:\n\u003c/p\u003e\u003cpre\u003e forall a . toCsdEventList (singleCsdEvent a) === CsdEventList 1 [(0, 1, a)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "CsdSco",
           "package": "csound-expression-dynamic",
@@ -2358,6 +2561,7 @@
         "index": {
           "description": "class that represents Csound scores All functions that use score are defined in terms of this class If you want to use your own score representation just define two methods of the class The properties forall toCsdEventList singleCsdEvent CsdEventList",
           "hierarchy": "Csound Dynamic Types EventList",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "CsdSco",
           "package": "csound-expression-dynamic",
@@ -2371,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "CsdEventList",
           "package": "csound-expression-dynamic",
@@ -2380,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types EventList",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "CsdEventList",
           "package": "csound-expression-dynamic",
@@ -2393,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "csdEventContent",
           "package": "csound-expression-dynamic",
@@ -2402,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types EventList",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "csdEventContent",
           "normalized": "CsdEvent a-\u003ea",
@@ -2417,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "csdEventDur",
           "package": "csound-expression-dynamic",
@@ -2426,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types EventList",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "csdEventDur",
           "normalized": "CsdEvent a-\u003eDouble",
@@ -2441,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "csdEventListDur",
           "package": "csound-expression-dynamic",
@@ -2450,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types EventList",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "csdEventListDur",
           "package": "csound-expression-dynamic",
@@ -2463,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "csdEventListNotes",
           "package": "csound-expression-dynamic",
@@ -2472,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types EventList",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "csdEventListNotes",
           "normalized": "[CsdEvent a]",
@@ -2487,6 +2701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "csdEventStart",
           "package": "csound-expression-dynamic",
@@ -2496,6 +2711,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types EventList",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "csdEventStart",
           "normalized": "CsdEvent a-\u003eDouble",
@@ -2511,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "delayCsdEventList",
           "package": "csound-expression-dynamic",
@@ -2520,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types EventList",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "delayCsdEventList",
           "normalized": "Double-\u003eCsdEventList a-\u003eCsdEventList a",
@@ -2535,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "rescaleCsdEventList",
           "package": "csound-expression-dynamic",
@@ -2544,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types EventList",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "rescaleCsdEventList",
           "normalized": "Double-\u003eCsdEventList a-\u003eCsdEventList a",
@@ -2560,6 +2780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a scores that contains only one event. The event happens immediately and lasts for 1 second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "singleCsdEvent",
           "package": "csound-expression-dynamic",
@@ -2570,6 +2791,7 @@
         "index": {
           "description": "Constructs scores that contains only one event The event happens immediately and lasts for second",
           "hierarchy": "Csound Dynamic Types EventList",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "singleCsdEvent",
           "normalized": "CsdEvent a-\u003eb a",
@@ -2586,6 +2808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a given score representation to the canonical one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "toCsdEventList",
           "package": "csound-expression-dynamic",
@@ -2596,6 +2819,7 @@
         "index": {
           "description": "Converts given score representation to the canonical one",
           "hierarchy": "Csound Dynamic Types EventList",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.EventList",
           "name": "toCsdEventList",
           "normalized": "a b-\u003eCsdEventList b",
@@ -2612,6 +2836,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Exp",
           "package": "csound-expression-dynamic",
@@ -2621,6 +2846,7 @@
         "index": {
           "description": "Main types",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Exp",
           "package": "csound-expression-dynamic",
@@ -2634,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "BoolExp",
           "package": "csound-expression-dynamic",
@@ -2642,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "BoolExp",
           "package": "csound-expression-dynamic",
@@ -2655,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "CondInfo",
           "package": "csound-expression-dynamic",
@@ -2663,6 +2892,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "CondInfo",
           "package": "csound-expression-dynamic",
@@ -2676,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "CondOp",
           "package": "csound-expression-dynamic",
@@ -2684,6 +2915,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "CondOp",
           "package": "csound-expression-dynamic",
@@ -2698,6 +2930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inner representation of csound expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "E",
           "package": "csound-expression-dynamic",
@@ -2707,6 +2940,7 @@
         "index": {
           "description": "The inner representation of csound expressions",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "E",
           "package": "csound-expression-dynamic",
@@ -2719,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Exp",
           "package": "csound-expression-dynamic",
@@ -2727,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Exp",
           "package": "csound-expression-dynamic",
@@ -2740,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Gen",
           "package": "csound-expression-dynamic",
@@ -2748,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Gen",
           "package": "csound-expression-dynamic",
@@ -2761,6 +2999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Info",
           "package": "csound-expression-dynamic",
@@ -2769,6 +3008,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Info",
           "package": "csound-expression-dynamic",
@@ -2782,6 +3022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Inline",
           "package": "csound-expression-dynamic",
@@ -2790,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Inline",
           "package": "csound-expression-dynamic",
@@ -2803,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "InlineExp",
           "package": "csound-expression-dynamic",
@@ -2811,6 +3054,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "InlineExp",
           "package": "csound-expression-dynamic",
@@ -2825,6 +3069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instrument identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "InstrId",
           "package": "csound-expression-dynamic",
@@ -2834,6 +3079,7 @@
         "index": {
           "description": "An instrument identifier",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "InstrId",
           "package": "csound-expression-dynamic",
@@ -2847,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "MainExp",
           "package": "csound-expression-dynamic",
@@ -2855,6 +3102,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "MainExp",
           "package": "csound-expression-dynamic",
@@ -2869,6 +3117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple output. Specify the number of outputs to get the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "MultiOut",
           "package": "csound-expression-dynamic",
@@ -2878,6 +3127,7 @@
         "index": {
           "description": "Multiple output Specify the number of outputs to get the result",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "MultiOut",
           "package": "csound-expression-dynamic",
@@ -2891,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Name",
           "package": "csound-expression-dynamic",
@@ -2899,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Name",
           "package": "csound-expression-dynamic",
@@ -2912,6 +3164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Note",
           "package": "csound-expression-dynamic",
@@ -2920,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Note",
           "package": "csound-expression-dynamic",
@@ -2933,6 +3187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "NumExp",
           "package": "csound-expression-dynamic",
@@ -2941,6 +3196,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "NumExp",
           "package": "csound-expression-dynamic",
@@ -2954,6 +3210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "NumOp",
           "package": "csound-expression-dynamic",
@@ -2962,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "NumOp",
           "package": "csound-expression-dynamic",
@@ -2975,6 +3233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "OpcFixity",
           "package": "csound-expression-dynamic",
@@ -2983,6 +3242,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "OpcFixity",
           "package": "csound-expression-dynamic",
@@ -2996,6 +3256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PreInline",
           "package": "csound-expression-dynamic",
@@ -3004,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PreInline",
           "package": "csound-expression-dynamic",
@@ -3017,6 +3279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Prim",
           "package": "csound-expression-dynamic",
@@ -3025,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Prim",
           "package": "csound-expression-dynamic",
@@ -3039,6 +3303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt's a primitive value or something else. It's used for inlining\n of the constants (primitive values).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PrimOr",
           "package": "csound-expression-dynamic",
@@ -3048,6 +3313,7 @@
         "index": {
           "description": "It primitive value or something else It used for inlining of the constants primitive values",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PrimOr",
           "package": "csound-expression-dynamic",
@@ -3062,6 +3328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Csound rates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Rate",
           "package": "csound-expression-dynamic",
@@ -3071,6 +3338,7 @@
         "index": {
           "description": "The Csound rates",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Rate",
           "package": "csound-expression-dynamic",
@@ -3084,6 +3352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "RatedExp",
           "package": "csound-expression-dynamic",
@@ -3092,6 +3361,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "RatedExp",
           "package": "csound-expression-dynamic",
@@ -3106,6 +3376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRatedVar is for pretty printing of the wiring ports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "RatedVar",
           "package": "csound-expression-dynamic",
@@ -3115,6 +3386,7 @@
         "index": {
           "description": "RatedVar is for pretty printing of the wiring ports",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "RatedVar",
           "package": "csound-expression-dynamic",
@@ -3128,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Signature",
           "package": "csound-expression-dynamic",
@@ -3136,6 +3409,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Signature",
           "package": "csound-expression-dynamic",
@@ -3149,6 +3423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Var",
           "package": "csound-expression-dynamic",
@@ -3157,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Var",
           "package": "csound-expression-dynamic",
@@ -3170,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "VarType",
           "package": "csound-expression-dynamic",
@@ -3178,6 +3455,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "VarType",
           "package": "csound-expression-dynamic",
@@ -3191,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Add",
           "package": "csound-expression-dynamic",
@@ -3200,6 +3479,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Add",
           "package": "csound-expression-dynamic",
@@ -3213,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "And",
           "package": "csound-expression-dynamic",
@@ -3222,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "And",
           "package": "csound-expression-dynamic",
@@ -3235,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Ar",
           "package": "csound-expression-dynamic",
@@ -3244,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Ar",
           "package": "csound-expression-dynamic",
@@ -3258,6 +3542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRate conversion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ConvertRate",
           "package": "csound-expression-dynamic",
@@ -3268,6 +3553,7 @@
         "index": {
           "description": "Rate conversion",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ConvertRate",
           "package": "csound-expression-dynamic",
@@ -3281,6 +3567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Div",
           "package": "csound-expression-dynamic",
@@ -3290,6 +3577,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Div",
           "package": "csound-expression-dynamic",
@@ -3303,6 +3591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ElseBegin",
           "package": "csound-expression-dynamic",
@@ -3312,6 +3601,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ElseBegin",
           "package": "csound-expression-dynamic",
@@ -3325,6 +3615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ElseIfBegin",
           "package": "csound-expression-dynamic",
@@ -3334,6 +3625,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ElseIfBegin",
           "package": "csound-expression-dynamic",
@@ -3347,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "EmptyExp",
           "package": "csound-expression-dynamic",
@@ -3356,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "EmptyExp",
           "package": "csound-expression-dynamic",
@@ -3369,6 +3663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Equals",
           "package": "csound-expression-dynamic",
@@ -3378,6 +3673,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Equals",
           "package": "csound-expression-dynamic",
@@ -3392,6 +3688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean expressions (rendered in infix notation in the Csound)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ExpBool",
           "package": "csound-expression-dynamic",
@@ -3402,6 +3699,7 @@
         "index": {
           "description": "Boolean expressions rendered in infix notation in the Csound",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ExpBool",
           "package": "csound-expression-dynamic",
@@ -3416,6 +3714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumerical expressions (rendered in infix notation in the Csound)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ExpNum",
           "package": "csound-expression-dynamic",
@@ -3426,6 +3725,7 @@
         "index": {
           "description": "Numerical expressions rendered in infix notation in the Csound",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ExpNum",
           "package": "csound-expression-dynamic",
@@ -3440,6 +3740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitives\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ExpPrim",
           "package": "csound-expression-dynamic",
@@ -3450,6 +3751,7 @@
         "index": {
           "description": "Primitives",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ExpPrim",
           "package": "csound-expression-dynamic",
@@ -3463,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "FalseOp",
           "package": "csound-expression-dynamic",
@@ -3472,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "FalseOp",
           "package": "csound-expression-dynamic",
@@ -3485,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Fr",
           "package": "csound-expression-dynamic",
@@ -3494,6 +3799,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Fr",
           "package": "csound-expression-dynamic",
@@ -3507,6 +3813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Gen",
           "package": "csound-expression-dynamic",
@@ -3516,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Gen",
           "package": "csound-expression-dynamic",
@@ -3529,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "GlobalVar",
           "package": "csound-expression-dynamic",
@@ -3538,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "GlobalVar",
           "package": "csound-expression-dynamic",
@@ -3551,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Greater",
           "package": "csound-expression-dynamic",
@@ -3560,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Greater",
           "package": "csound-expression-dynamic",
@@ -3573,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "GreaterEquals",
           "package": "csound-expression-dynamic",
@@ -3582,6 +3895,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "GreaterEquals",
           "package": "csound-expression-dynamic",
@@ -3596,6 +3910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif-then-else\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "If",
           "package": "csound-expression-dynamic",
@@ -3606,6 +3921,7 @@
         "index": {
           "description": "if-then-else",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "If",
           "package": "csound-expression-dynamic",
@@ -3620,6 +3936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImperative If-then-else\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "IfBegin",
           "package": "csound-expression-dynamic",
@@ -3630,6 +3947,7 @@
         "index": {
           "description": "Imperative If-then-else",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "IfBegin",
           "package": "csound-expression-dynamic",
@@ -3643,6 +3961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "IfEnd",
           "package": "csound-expression-dynamic",
@@ -3652,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "IfEnd",
           "package": "csound-expression-dynamic",
@@ -3665,6 +3985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Infix",
           "package": "csound-expression-dynamic",
@@ -3674,6 +3995,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Infix",
           "package": "csound-expression-dynamic",
@@ -3687,6 +4009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Info",
           "package": "csound-expression-dynamic",
@@ -3696,6 +4019,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Info",
           "package": "csound-expression-dynamic",
@@ -3710,6 +4034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReading/writing a named variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "InitVar",
           "package": "csound-expression-dynamic",
@@ -3720,6 +4045,7 @@
         "index": {
           "description": "Reading writing named variable",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "InitVar",
           "package": "csound-expression-dynamic",
@@ -3733,6 +4059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Inline",
           "package": "csound-expression-dynamic",
@@ -3742,6 +4069,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Inline",
           "package": "csound-expression-dynamic",
@@ -3755,6 +4083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "InlineExp",
           "package": "csound-expression-dynamic",
@@ -3764,6 +4093,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "InlineExp",
           "normalized": "InlineExp a[InlineExp a]",
@@ -3779,6 +4109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "InlinePrim",
           "package": "csound-expression-dynamic",
@@ -3788,6 +4119,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "InlinePrim",
           "package": "csound-expression-dynamic",
@@ -3801,6 +4133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "InstrId",
           "package": "csound-expression-dynamic",
@@ -3810,6 +4143,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "InstrId",
           "package": "csound-expression-dynamic",
@@ -3823,6 +4157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "InstrLabel",
           "package": "csound-expression-dynamic",
@@ -3832,6 +4167,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "InstrLabel",
           "package": "csound-expression-dynamic",
@@ -3845,6 +4181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Ir",
           "package": "csound-expression-dynamic",
@@ -3854,6 +4191,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Ir",
           "package": "csound-expression-dynamic",
@@ -3867,6 +4205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Kr",
           "package": "csound-expression-dynamic",
@@ -3876,6 +4215,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Kr",
           "package": "csound-expression-dynamic",
@@ -3889,6 +4229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Less",
           "package": "csound-expression-dynamic",
@@ -3898,6 +4239,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Less",
           "package": "csound-expression-dynamic",
@@ -3911,6 +4253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "LessEquals",
           "package": "csound-expression-dynamic",
@@ -3920,6 +4263,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "LessEquals",
           "package": "csound-expression-dynamic",
@@ -3933,6 +4277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "LocalVar",
           "package": "csound-expression-dynamic",
@@ -3942,6 +4287,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "LocalVar",
           "package": "csound-expression-dynamic",
@@ -3955,6 +4301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Mod",
           "package": "csound-expression-dynamic",
@@ -3964,6 +4311,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Mod",
           "package": "csound-expression-dynamic",
@@ -3977,6 +4325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Mul",
           "package": "csound-expression-dynamic",
@@ -3986,6 +4335,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Mul",
           "package": "csound-expression-dynamic",
@@ -3999,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "MultiRate",
           "package": "csound-expression-dynamic",
@@ -4008,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "MultiRate",
           "package": "csound-expression-dynamic",
@@ -4021,6 +4373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Neg",
           "package": "csound-expression-dynamic",
@@ -4030,6 +4383,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Neg",
           "package": "csound-expression-dynamic",
@@ -4043,6 +4397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "NotEquals",
           "package": "csound-expression-dynamic",
@@ -4052,6 +4407,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "NotEquals",
           "package": "csound-expression-dynamic",
@@ -4065,6 +4421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Opcode",
           "package": "csound-expression-dynamic",
@@ -4074,6 +4431,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Opcode",
           "package": "csound-expression-dynamic",
@@ -4087,6 +4445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Or",
           "package": "csound-expression-dynamic",
@@ -4096,6 +4455,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Or",
           "package": "csound-expression-dynamic",
@@ -4109,6 +4469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "P",
           "package": "csound-expression-dynamic",
@@ -4118,6 +4479,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "P",
           "package": "csound-expression-dynamic",
@@ -4130,6 +4492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PString",
           "package": "csound-expression-dynamic",
@@ -4139,6 +4502,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PString",
           "package": "csound-expression-dynamic",
@@ -4152,6 +4516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Pow",
           "package": "csound-expression-dynamic",
@@ -4161,6 +4526,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Pow",
           "package": "csound-expression-dynamic",
@@ -4174,6 +4540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PreInline",
           "package": "csound-expression-dynamic",
@@ -4183,6 +4550,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PreInline",
           "normalized": "PreInline a[b]",
@@ -4198,6 +4566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Prefix",
           "package": "csound-expression-dynamic",
@@ -4207,6 +4576,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Prefix",
           "package": "csound-expression-dynamic",
@@ -4220,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PrimDouble",
           "package": "csound-expression-dynamic",
@@ -4229,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PrimDouble",
           "package": "csound-expression-dynamic",
@@ -4242,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PrimInstrId",
           "package": "csound-expression-dynamic",
@@ -4251,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PrimInstrId",
           "package": "csound-expression-dynamic",
@@ -4264,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PrimInt",
           "package": "csound-expression-dynamic",
@@ -4273,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PrimInt",
           "package": "csound-expression-dynamic",
@@ -4286,6 +4662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PrimOr",
           "package": "csound-expression-dynamic",
@@ -4295,6 +4672,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PrimOr",
           "package": "csound-expression-dynamic",
@@ -4308,6 +4686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PrimString",
           "package": "csound-expression-dynamic",
@@ -4317,6 +4696,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PrimString",
           "package": "csound-expression-dynamic",
@@ -4330,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PrimVar",
           "package": "csound-expression-dynamic",
@@ -4339,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "PrimVar",
           "package": "csound-expression-dynamic",
@@ -4352,6 +4734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "RatedExp",
           "package": "csound-expression-dynamic",
@@ -4361,6 +4744,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "RatedExp",
           "package": "csound-expression-dynamic",
@@ -4374,6 +4758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ReadVar",
           "package": "csound-expression-dynamic",
@@ -4383,6 +4768,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ReadVar",
           "package": "csound-expression-dynamic",
@@ -4397,6 +4783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects a cell from the tuple, here argument is always a tuple (result of opcode that returns several outputs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Select",
           "package": "csound-expression-dynamic",
@@ -4407,6 +4794,7 @@
         "index": {
           "description": "Selects cell from the tuple here argument is always tuple result of opcode that returns several outputs",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Select",
           "package": "csound-expression-dynamic",
@@ -4420,6 +4808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "SingleRate",
           "package": "csound-expression-dynamic",
@@ -4429,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "SingleRate",
           "normalized": "SingleRate(Map Rate[Rate])",
@@ -4444,6 +4834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Sr",
           "package": "csound-expression-dynamic",
@@ -4453,6 +4844,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Sr",
           "package": "csound-expression-dynamic",
@@ -4466,6 +4858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Sub",
           "package": "csound-expression-dynamic",
@@ -4475,6 +4868,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Sub",
           "package": "csound-expression-dynamic",
@@ -4489,6 +4883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of the opcode: we have opcode information (Info) and the arguments [a] \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Tfm",
           "package": "csound-expression-dynamic",
@@ -4499,6 +4894,7 @@
         "index": {
           "description": "Application of the opcode we have opcode information Info and the arguments",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Tfm",
           "normalized": "Tfm Info[a]",
@@ -4514,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "TrueOp",
           "package": "csound-expression-dynamic",
@@ -4523,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "TrueOp",
           "package": "csound-expression-dynamic",
@@ -4536,6 +4934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Tvar",
           "package": "csound-expression-dynamic",
@@ -4545,6 +4944,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Tvar",
           "package": "csound-expression-dynamic",
@@ -4558,6 +4958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Var",
           "package": "csound-expression-dynamic",
@@ -4567,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Var",
           "package": "csound-expression-dynamic",
@@ -4580,6 +4982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "VarVerbatim",
           "package": "csound-expression-dynamic",
@@ -4589,6 +4992,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "VarVerbatim",
           "package": "csound-expression-dynamic",
@@ -4603,6 +5007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerbatim stmt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Verbatim",
           "package": "csound-expression-dynamic",
@@ -4613,6 +5018,7 @@
         "index": {
           "description": "Verbatim stmt",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Verbatim",
           "package": "csound-expression-dynamic",
@@ -4626,6 +5032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Wr",
           "package": "csound-expression-dynamic",
@@ -4635,6 +5042,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Wr",
           "package": "csound-expression-dynamic",
@@ -4648,6 +5056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "WriteVar",
           "package": "csound-expression-dynamic",
@@ -4657,6 +5066,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "WriteVar",
           "package": "csound-expression-dynamic",
@@ -4670,6 +5080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Xr",
           "package": "csound-expression-dynamic",
@@ -4679,6 +5090,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "Xr",
           "package": "csound-expression-dynamic",
@@ -4692,6 +5104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "genArgs",
           "package": "csound-expression-dynamic",
@@ -4701,6 +5114,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "genArgs",
           "normalized": "[Double]",
@@ -4716,6 +5130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "genFile",
           "package": "csound-expression-dynamic",
@@ -4725,6 +5140,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "genFile",
           "package": "csound-expression-dynamic",
@@ -4738,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "genId",
           "package": "csound-expression-dynamic",
@@ -4747,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "genId",
           "package": "csound-expression-dynamic",
@@ -4760,6 +5178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "genSize",
           "package": "csound-expression-dynamic",
@@ -4769,6 +5188,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "genSize",
           "package": "csound-expression-dynamic",
@@ -4782,6 +5202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "inMultiRate",
           "package": "csound-expression-dynamic",
@@ -4791,6 +5212,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "inMultiRate",
           "normalized": "[Rate]",
@@ -4806,6 +5228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "infoName",
           "package": "csound-expression-dynamic",
@@ -4815,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "infoName",
           "package": "csound-expression-dynamic",
@@ -4828,6 +5252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "infoOpcFixity",
           "package": "csound-expression-dynamic",
@@ -4837,6 +5262,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "infoOpcFixity",
           "package": "csound-expression-dynamic",
@@ -4850,6 +5276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "infoSignature",
           "package": "csound-expression-dynamic",
@@ -4859,6 +5286,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "infoSignature",
           "package": "csound-expression-dynamic",
@@ -4872,6 +5300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "inlineEnv",
           "package": "csound-expression-dynamic",
@@ -4881,6 +5310,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "inlineEnv",
           "package": "csound-expression-dynamic",
@@ -4894,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "inlineExp",
           "package": "csound-expression-dynamic",
@@ -4903,6 +5334,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "inlineExp",
           "package": "csound-expression-dynamic",
@@ -4916,6 +5348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "instrIdCeil",
           "package": "csound-expression-dynamic",
@@ -4925,6 +5358,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "instrIdCeil",
           "package": "csound-expression-dynamic",
@@ -4938,6 +5372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "instrIdFrac",
           "package": "csound-expression-dynamic",
@@ -4947,6 +5382,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "instrIdFrac",
           "package": "csound-expression-dynamic",
@@ -4961,6 +5397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an instrument id with the integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "intInstrId",
           "package": "csound-expression-dynamic",
@@ -4971,6 +5408,7 @@
         "index": {
           "description": "Constructs an instrument id with the integer",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "intInstrId",
           "normalized": "Int-\u003eInstrId",
@@ -4986,6 +5424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "isEmptyExp",
           "package": "csound-expression-dynamic",
@@ -4995,6 +5434,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "isEmptyExp",
           "normalized": "E-\u003eBool",
@@ -5010,6 +5450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "isFalse",
           "package": "csound-expression-dynamic",
@@ -5019,6 +5460,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "isFalse",
           "normalized": "CondInfo a-\u003eBool",
@@ -5034,6 +5476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "isInfix",
           "package": "csound-expression-dynamic",
@@ -5043,6 +5486,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "isInfix",
           "normalized": "Info-\u003eBool",
@@ -5058,6 +5502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "isPrefix",
           "package": "csound-expression-dynamic",
@@ -5067,6 +5512,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "isPrefix",
           "normalized": "Info-\u003eBool",
@@ -5082,6 +5528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "isTrue",
           "package": "csound-expression-dynamic",
@@ -5091,6 +5538,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "isTrue",
           "normalized": "CondInfo a-\u003eBool",
@@ -5106,6 +5554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "noRate",
           "package": "csound-expression-dynamic",
@@ -5115,6 +5564,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "noRate",
           "normalized": "Exp E-\u003eE",
@@ -5130,6 +5580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "outMultiRate",
           "package": "csound-expression-dynamic",
@@ -5139,6 +5590,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "outMultiRate",
           "normalized": "[Rate]",
@@ -5154,6 +5606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "primVar",
           "package": "csound-expression-dynamic",
@@ -5163,6 +5616,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "primVar",
           "package": "csound-expression-dynamic",
@@ -5176,6 +5630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "primVarTargetRate",
           "package": "csound-expression-dynamic",
@@ -5185,6 +5640,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "primVarTargetRate",
           "package": "csound-expression-dynamic",
@@ -5198,6 +5654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratedExp",
           "package": "csound-expression-dynamic",
@@ -5207,6 +5664,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratedExp",
           "normalized": "Maybe Rate-\u003eExp E-\u003eE",
@@ -5223,6 +5681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDependency (it is used for expressions with side effects,\n value contains the privious statement)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratedExpDepends",
           "package": "csound-expression-dynamic",
@@ -5233,6 +5692,7 @@
         "index": {
           "description": "Dependency it is used for expressions with side effects value contains the privious statement",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratedExpDepends",
           "package": "csound-expression-dynamic",
@@ -5247,6 +5707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratedExpExp",
           "package": "csound-expression-dynamic",
@@ -5257,6 +5718,7 @@
         "index": {
           "description": "Main expression",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratedExpExp",
           "package": "csound-expression-dynamic",
@@ -5271,6 +5733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRate (can be undefined or Nothing, \n it means that rate should be deduced automatically from the context)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratedExpRate",
           "package": "csound-expression-dynamic",
@@ -5281,6 +5744,7 @@
         "index": {
           "description": "Rate can be undefined or Nothing it means that rate should be deduced automatically from the context",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratedExpRate",
           "package": "csound-expression-dynamic",
@@ -5295,6 +5759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes an rated variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratedVar",
           "package": "csound-expression-dynamic",
@@ -5305,6 +5770,7 @@
         "index": {
           "description": "Makes an rated variable",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratedVar",
           "normalized": "Rate-\u003eInt-\u003eRatedVar",
@@ -5321,6 +5787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuerries an integral identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratedVarId",
           "package": "csound-expression-dynamic",
@@ -5331,6 +5798,7 @@
         "index": {
           "description": "Querries an integral identifier",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratedVarId",
           "normalized": "RatedVar-\u003eInt",
@@ -5347,6 +5815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuerries a rate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratedVarRate",
           "package": "csound-expression-dynamic",
@@ -5357,6 +5826,7 @@
         "index": {
           "description": "Querries rate",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratedVarRate",
           "normalized": "RatedVar-\u003eRate",
@@ -5373,6 +5843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an instrument id with fractional part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratioInstrId",
           "package": "csound-expression-dynamic",
@@ -5383,6 +5854,7 @@
         "index": {
           "description": "Constructs an instrument id with fractional part",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "ratioInstrId",
           "normalized": "Int-\u003eInt-\u003eInstrId",
@@ -5398,6 +5870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "setRate",
           "package": "csound-expression-dynamic",
@@ -5407,6 +5880,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "setRate",
           "normalized": "Rate-\u003eE-\u003eE",
@@ -5423,6 +5897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an instrument id with the string label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "stringInstrId",
           "package": "csound-expression-dynamic",
@@ -5433,6 +5908,7 @@
         "index": {
           "description": "Constructs an instrument id with the string label",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "stringInstrId",
           "normalized": "String-\u003eInstrId",
@@ -5449,6 +5925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs PrimOr values from the expressions. It does inlining in\n case of primitive values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "toPrimOr",
           "package": "csound-expression-dynamic",
@@ -5459,6 +5936,7 @@
         "index": {
           "description": "Constructs PrimOr values from the expressions It does inlining in case of primitive values",
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "toPrimOr",
           "normalized": "E-\u003ePrimOr E",
@@ -5474,6 +5952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "unPrimOr",
           "package": "csound-expression-dynamic",
@@ -5483,6 +5962,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "unPrimOr",
           "package": "csound-expression-dynamic",
@@ -5496,6 +5976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "varName",
           "package": "csound-expression-dynamic",
@@ -5505,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "varName",
           "package": "csound-expression-dynamic",
@@ -5518,6 +6000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "varRate",
           "package": "csound-expression-dynamic",
@@ -5527,6 +6010,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "varRate",
           "package": "csound-expression-dynamic",
@@ -5540,6 +6024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "varType",
           "package": "csound-expression-dynamic",
@@ -5549,6 +6034,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "varType",
           "package": "csound-expression-dynamic",
@@ -5562,6 +6048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "withRate",
           "package": "csound-expression-dynamic",
@@ -5571,6 +6058,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Exp",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Exp",
           "name": "withRate",
           "normalized": "Rate-\u003eExp E-\u003eE",
@@ -5587,6 +6075,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCsound's command line flags. See original documentation for detailed overview: \u003ca\u003ehttp://www.csounds.com/manual/html/CommandFlagsCategory.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Flags",
           "package": "csound-expression-dynamic",
@@ -5596,6 +6085,7 @@
         "index": {
           "description": "Csound command line flags See original documentation for detailed overview http www.csounds.com manual html CommandFlagsCategory.html",
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Flags",
           "package": "csound-expression-dynamic",
@@ -5609,6 +6099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "AudioFileOutput",
           "package": "csound-expression-dynamic",
@@ -5617,6 +6108,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "AudioFileOutput",
           "package": "csound-expression-dynamic",
@@ -5630,6 +6122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Config",
           "package": "csound-expression-dynamic",
@@ -5638,6 +6131,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Config",
           "package": "csound-expression-dynamic",
@@ -5651,6 +6145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "DisplayMode",
           "package": "csound-expression-dynamic",
@@ -5659,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "DisplayMode",
           "package": "csound-expression-dynamic",
@@ -5672,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Displays",
           "package": "csound-expression-dynamic",
@@ -5680,6 +6177,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Displays",
           "package": "csound-expression-dynamic",
@@ -5693,6 +6191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Dither",
           "package": "csound-expression-dynamic",
@@ -5701,6 +6200,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Dither",
           "package": "csound-expression-dynamic",
@@ -5714,6 +6214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Flags",
           "package": "csound-expression-dynamic",
@@ -5722,6 +6223,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Flags",
           "package": "csound-expression-dynamic",
@@ -5735,6 +6237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "FormatHeader",
           "package": "csound-expression-dynamic",
@@ -5743,6 +6246,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "FormatHeader",
           "package": "csound-expression-dynamic",
@@ -5756,6 +6260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "FormatSamples",
           "package": "csound-expression-dynamic",
@@ -5764,6 +6269,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "FormatSamples",
           "package": "csound-expression-dynamic",
@@ -5777,6 +6283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "FormatType",
           "package": "csound-expression-dynamic",
@@ -5785,6 +6292,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "FormatType",
           "package": "csound-expression-dynamic",
@@ -5798,6 +6306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "IdTags",
           "package": "csound-expression-dynamic",
@@ -5806,6 +6315,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "IdTags",
           "package": "csound-expression-dynamic",
@@ -5819,6 +6329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "MidiIO",
           "package": "csound-expression-dynamic",
@@ -5827,6 +6338,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "MidiIO",
           "package": "csound-expression-dynamic",
@@ -5840,6 +6352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "MidiRT",
           "package": "csound-expression-dynamic",
@@ -5848,6 +6361,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "MidiRT",
           "package": "csound-expression-dynamic",
@@ -5861,6 +6375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "PulseAudio",
           "package": "csound-expression-dynamic",
@@ -5869,6 +6384,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "PulseAudio",
           "package": "csound-expression-dynamic",
@@ -5882,6 +6398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Rtaudio",
           "package": "csound-expression-dynamic",
@@ -5890,6 +6407,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Rtaudio",
           "package": "csound-expression-dynamic",
@@ -5903,6 +6421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Rtmidi",
           "package": "csound-expression-dynamic",
@@ -5911,6 +6430,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Rtmidi",
           "package": "csound-expression-dynamic",
@@ -5924,6 +6444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Aiff",
           "package": "csound-expression-dynamic",
@@ -5933,6 +6454,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Aiff",
           "package": "csound-expression-dynamic",
@@ -5946,6 +6468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Alaw",
           "package": "csound-expression-dynamic",
@@ -5955,6 +6478,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Alaw",
           "package": "csound-expression-dynamic",
@@ -5968,6 +6492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Alsa",
           "package": "csound-expression-dynamic",
@@ -5977,6 +6502,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Alsa",
           "package": "csound-expression-dynamic",
@@ -5990,6 +6516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "AlsaMidi",
           "package": "csound-expression-dynamic",
@@ -5999,6 +6526,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "AlsaMidi",
           "package": "csound-expression-dynamic",
@@ -6012,6 +6540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "AsciiDisplay",
           "package": "csound-expression-dynamic",
@@ -6021,6 +6550,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "AsciiDisplay",
           "package": "csound-expression-dynamic",
@@ -6034,6 +6564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Au",
           "package": "csound-expression-dynamic",
@@ -6043,6 +6574,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Au",
           "package": "csound-expression-dynamic",
@@ -6056,6 +6588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "AudioFileOutput",
           "package": "csound-expression-dynamic",
@@ -6065,6 +6598,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "AudioFileOutput",
           "package": "csound-expression-dynamic",
@@ -6078,6 +6612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Avr",
           "package": "csound-expression-dynamic",
@@ -6087,6 +6622,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Avr",
           "package": "csound-expression-dynamic",
@@ -6100,6 +6636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Bit24",
           "package": "csound-expression-dynamic",
@@ -6109,6 +6646,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Bit24",
           "package": "csound-expression-dynamic",
@@ -6122,6 +6660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Caf",
           "package": "csound-expression-dynamic",
@@ -6131,6 +6670,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Caf",
           "package": "csound-expression-dynamic",
@@ -6144,6 +6684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Config",
           "package": "csound-expression-dynamic",
@@ -6153,6 +6694,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Config",
           "package": "csound-expression-dynamic",
@@ -6166,6 +6708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "CoreAudio",
           "package": "csound-expression-dynamic",
@@ -6175,6 +6718,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "CoreAudio",
           "package": "csound-expression-dynamic",
@@ -6188,6 +6732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Displays",
           "package": "csound-expression-dynamic",
@@ -6197,6 +6742,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Displays",
           "package": "csound-expression-dynamic",
@@ -6210,6 +6756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Flac",
           "package": "csound-expression-dynamic",
@@ -6219,6 +6766,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Flac",
           "package": "csound-expression-dynamic",
@@ -6232,6 +6780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Flags",
           "package": "csound-expression-dynamic",
@@ -6241,6 +6790,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Flags",
           "package": "csound-expression-dynamic",
@@ -6254,6 +6804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "FloatSamples",
           "package": "csound-expression-dynamic",
@@ -6263,6 +6814,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "FloatSamples",
           "package": "csound-expression-dynamic",
@@ -6276,6 +6828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Htk",
           "package": "csound-expression-dynamic",
@@ -6285,6 +6838,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Htk",
           "package": "csound-expression-dynamic",
@@ -6298,6 +6852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "IdTags",
           "package": "csound-expression-dynamic",
@@ -6307,6 +6862,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "IdTags",
           "package": "csound-expression-dynamic",
@@ -6320,6 +6876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Ircam",
           "package": "csound-expression-dynamic",
@@ -6329,6 +6886,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Ircam",
           "package": "csound-expression-dynamic",
@@ -6342,6 +6900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Jack",
           "package": "csound-expression-dynamic",
@@ -6351,6 +6910,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Jack",
           "package": "csound-expression-dynamic",
@@ -6364,6 +6924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Long",
           "package": "csound-expression-dynamic",
@@ -6373,6 +6934,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Long",
           "package": "csound-expression-dynamic",
@@ -6386,6 +6948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Mat4",
           "package": "csound-expression-dynamic",
@@ -6395,6 +6958,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Mat4",
           "package": "csound-expression-dynamic",
@@ -6408,6 +6972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Mat5",
           "package": "csound-expression-dynamic",
@@ -6417,6 +6982,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Mat5",
           "package": "csound-expression-dynamic",
@@ -6430,6 +6996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "MidiIO",
           "package": "csound-expression-dynamic",
@@ -6439,6 +7006,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "MidiIO",
           "package": "csound-expression-dynamic",
@@ -6452,6 +7020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "MidiRT",
           "package": "csound-expression-dynamic",
@@ -6461,6 +7030,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "MidiRT",
           "package": "csound-expression-dynamic",
@@ -6474,6 +7044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Mme",
           "package": "csound-expression-dynamic",
@@ -6483,6 +7054,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Mme",
           "package": "csound-expression-dynamic",
@@ -6496,6 +7068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "MmeMidi",
           "package": "csound-expression-dynamic",
@@ -6505,6 +7078,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "MmeMidi",
           "package": "csound-expression-dynamic",
@@ -6518,6 +7092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Nis",
           "package": "csound-expression-dynamic",
@@ -6527,6 +7102,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Nis",
           "package": "csound-expression-dynamic",
@@ -6540,6 +7116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "NoDisplay",
           "package": "csound-expression-dynamic",
@@ -6549,6 +7126,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "NoDisplay",
           "package": "csound-expression-dynamic",
@@ -6562,6 +7140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "NoHeader",
           "package": "csound-expression-dynamic",
@@ -6571,6 +7150,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "NoHeader",
           "package": "csound-expression-dynamic",
@@ -6584,6 +7164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "NoRtaudio",
           "package": "csound-expression-dynamic",
@@ -6593,6 +7174,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "NoRtaudio",
           "package": "csound-expression-dynamic",
@@ -6606,6 +7188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "NoRtmidi",
           "package": "csound-expression-dynamic",
@@ -6615,6 +7198,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "NoRtmidi",
           "package": "csound-expression-dynamic",
@@ -6628,6 +7212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Paf",
           "package": "csound-expression-dynamic",
@@ -6637,6 +7222,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Paf",
           "package": "csound-expression-dynamic",
@@ -6650,6 +7236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "PortAudio",
           "package": "csound-expression-dynamic",
@@ -6659,6 +7246,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "PortAudio",
           "package": "csound-expression-dynamic",
@@ -6672,6 +7260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "PortMidi",
           "package": "csound-expression-dynamic",
@@ -6681,6 +7270,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "PortMidi",
           "package": "csound-expression-dynamic",
@@ -6694,6 +7284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "PostScriptDisplay",
           "package": "csound-expression-dynamic",
@@ -6703,6 +7294,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "PostScriptDisplay",
           "package": "csound-expression-dynamic",
@@ -6716,6 +7308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "PulseAudio",
           "package": "csound-expression-dynamic",
@@ -6725,6 +7318,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "PulseAudio",
           "package": "csound-expression-dynamic",
@@ -6738,6 +7332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Pvf",
           "package": "csound-expression-dynamic",
@@ -6747,6 +7342,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Pvf",
           "package": "csound-expression-dynamic",
@@ -6760,6 +7356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Raw",
           "package": "csound-expression-dynamic",
@@ -6769,6 +7366,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Raw",
           "package": "csound-expression-dynamic",
@@ -6782,6 +7380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "RewriteHeader",
           "package": "csound-expression-dynamic",
@@ -6791,6 +7390,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "RewriteHeader",
           "package": "csound-expression-dynamic",
@@ -6804,6 +7404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Schar",
           "package": "csound-expression-dynamic",
@@ -6813,6 +7414,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Schar",
           "package": "csound-expression-dynamic",
@@ -6826,6 +7428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Sd2",
           "package": "csound-expression-dynamic",
@@ -6835,6 +7438,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Sd2",
           "package": "csound-expression-dynamic",
@@ -6848,6 +7452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Sds",
           "package": "csound-expression-dynamic",
@@ -6857,6 +7462,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Sds",
           "package": "csound-expression-dynamic",
@@ -6870,6 +7476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Short",
           "package": "csound-expression-dynamic",
@@ -6879,6 +7486,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Short",
           "package": "csound-expression-dynamic",
@@ -6892,6 +7500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Svx",
           "package": "csound-expression-dynamic",
@@ -6901,6 +7510,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Svx",
           "package": "csound-expression-dynamic",
@@ -6914,6 +7524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Triangular",
           "package": "csound-expression-dynamic",
@@ -6923,6 +7534,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Triangular",
           "package": "csound-expression-dynamic",
@@ -6936,6 +7548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Uchar",
           "package": "csound-expression-dynamic",
@@ -6945,6 +7558,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Uchar",
           "package": "csound-expression-dynamic",
@@ -6958,6 +7572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Ulaw",
           "package": "csound-expression-dynamic",
@@ -6967,6 +7582,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Ulaw",
           "package": "csound-expression-dynamic",
@@ -6980,6 +7596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Uniform",
           "package": "csound-expression-dynamic",
@@ -6989,6 +7606,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Uniform",
           "package": "csound-expression-dynamic",
@@ -7002,6 +7620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "VirtualMidi",
           "package": "csound-expression-dynamic",
@@ -7011,6 +7630,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "VirtualMidi",
           "package": "csound-expression-dynamic",
@@ -7024,6 +7644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Voc",
           "package": "csound-expression-dynamic",
@@ -7033,6 +7654,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Voc",
           "package": "csound-expression-dynamic",
@@ -7046,6 +7668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "W64",
           "package": "csound-expression-dynamic",
@@ -7055,6 +7678,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "W64",
           "package": "csound-expression-dynamic",
@@ -7067,6 +7691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Wav",
           "package": "csound-expression-dynamic",
@@ -7076,6 +7701,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Wav",
           "package": "csound-expression-dynamic",
@@ -7089,6 +7715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Wavex",
           "package": "csound-expression-dynamic",
@@ -7098,6 +7725,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Wavex",
           "package": "csound-expression-dynamic",
@@ -7111,6 +7739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "WinmmMidi",
           "package": "csound-expression-dynamic",
@@ -7120,6 +7749,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "WinmmMidi",
           "package": "csound-expression-dynamic",
@@ -7133,6 +7763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Xi",
           "package": "csound-expression-dynamic",
@@ -7142,6 +7773,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "Xi",
           "package": "csound-expression-dynamic",
@@ -7155,6 +7787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "audioFileOutput",
           "package": "csound-expression-dynamic",
@@ -7164,6 +7797,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "audioFileOutput",
           "package": "csound-expression-dynamic",
@@ -7177,6 +7811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "config",
           "package": "csound-expression-dynamic",
@@ -7186,6 +7821,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "config",
           "package": "csound-expression-dynamic",
@@ -7198,6 +7834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "csdLineNums",
           "package": "csound-expression-dynamic",
@@ -7207,6 +7844,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "csdLineNums",
           "package": "csound-expression-dynamic",
@@ -7220,6 +7858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "displayHeartbeat",
           "package": "csound-expression-dynamic",
@@ -7229,6 +7868,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "displayHeartbeat",
           "package": "csound-expression-dynamic",
@@ -7242,6 +7882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "displayMode",
           "package": "csound-expression-dynamic",
@@ -7251,6 +7892,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "displayMode",
           "package": "csound-expression-dynamic",
@@ -7264,6 +7906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "displayVerbose",
           "package": "csound-expression-dynamic",
@@ -7273,6 +7916,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "displayVerbose",
           "package": "csound-expression-dynamic",
@@ -7286,6 +7930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "displays",
           "package": "csound-expression-dynamic",
@@ -7295,6 +7940,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "displays",
           "package": "csound-expression-dynamic",
@@ -7307,6 +7953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "dither",
           "package": "csound-expression-dynamic",
@@ -7316,6 +7963,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "dither",
           "package": "csound-expression-dynamic",
@@ -7328,6 +7976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "flagsVerbatim",
           "package": "csound-expression-dynamic",
@@ -7337,6 +7986,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "flagsVerbatim",
           "package": "csound-expression-dynamic",
@@ -7350,6 +8000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "formatSamples",
           "package": "csound-expression-dynamic",
@@ -7359,6 +8010,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "formatSamples",
           "package": "csound-expression-dynamic",
@@ -7372,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "formatType",
           "package": "csound-expression-dynamic",
@@ -7381,6 +8034,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "formatType",
           "package": "csound-expression-dynamic",
@@ -7394,6 +8048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "hwBuf",
           "package": "csound-expression-dynamic",
@@ -7403,6 +8058,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "hwBuf",
           "package": "csound-expression-dynamic",
@@ -7416,6 +8072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "idArtist",
           "package": "csound-expression-dynamic",
@@ -7425,6 +8082,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "idArtist",
           "package": "csound-expression-dynamic",
@@ -7438,6 +8096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "idComment",
           "package": "csound-expression-dynamic",
@@ -7447,6 +8106,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "idComment",
           "package": "csound-expression-dynamic",
@@ -7460,6 +8120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "idCopyright",
           "package": "csound-expression-dynamic",
@@ -7469,6 +8130,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "idCopyright",
           "package": "csound-expression-dynamic",
@@ -7482,6 +8144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "idDate",
           "package": "csound-expression-dynamic",
@@ -7491,6 +8154,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "idDate",
           "package": "csound-expression-dynamic",
@@ -7504,6 +8168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "idSoftware",
           "package": "csound-expression-dynamic",
@@ -7513,6 +8178,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "idSoftware",
           "package": "csound-expression-dynamic",
@@ -7526,6 +8192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "idTags",
           "package": "csound-expression-dynamic",
@@ -7535,6 +8202,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "idTags",
           "package": "csound-expression-dynamic",
@@ -7548,6 +8216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "idTitle",
           "package": "csound-expression-dynamic",
@@ -7557,6 +8226,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "idTitle",
           "package": "csound-expression-dynamic",
@@ -7570,6 +8240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "input",
           "package": "csound-expression-dynamic",
@@ -7579,6 +8250,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "input",
           "package": "csound-expression-dynamic",
@@ -7591,6 +8263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "ioBuf",
           "package": "csound-expression-dynamic",
@@ -7600,6 +8273,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "ioBuf",
           "package": "csound-expression-dynamic",
@@ -7613,6 +8287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "jackClient",
           "package": "csound-expression-dynamic",
@@ -7622,6 +8297,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "jackClient",
           "package": "csound-expression-dynamic",
@@ -7635,6 +8311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "jackInport",
           "package": "csound-expression-dynamic",
@@ -7644,6 +8321,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "jackInport",
           "package": "csound-expression-dynamic",
@@ -7657,6 +8335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "jackOutport",
           "package": "csound-expression-dynamic",
@@ -7666,6 +8345,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "jackOutport",
           "package": "csound-expression-dynamic",
@@ -7679,6 +8359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "listOpcodes",
           "package": "csound-expression-dynamic",
@@ -7688,6 +8369,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "listOpcodes",
           "package": "csound-expression-dynamic",
@@ -7701,6 +8383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "mAmps",
           "package": "csound-expression-dynamic",
@@ -7710,6 +8393,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "mAmps",
           "package": "csound-expression-dynamic",
@@ -7723,6 +8407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "mBenchmarks",
           "package": "csound-expression-dynamic",
@@ -7732,6 +8417,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "mBenchmarks",
           "package": "csound-expression-dynamic",
@@ -7745,6 +8431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "mColours",
           "package": "csound-expression-dynamic",
@@ -7754,6 +8441,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "mColours",
           "package": "csound-expression-dynamic",
@@ -7767,6 +8455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "mDb",
           "package": "csound-expression-dynamic",
@@ -7776,6 +8465,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "mDb",
           "package": "csound-expression-dynamic",
@@ -7789,6 +8479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "mRange",
           "package": "csound-expression-dynamic",
@@ -7798,6 +8489,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "mRange",
           "package": "csound-expression-dynamic",
@@ -7811,6 +8503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "mWarnings",
           "package": "csound-expression-dynamic",
@@ -7820,6 +8513,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "mWarnings",
           "package": "csound-expression-dynamic",
@@ -7833,6 +8527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "messageLevel",
           "package": "csound-expression-dynamic",
@@ -7842,6 +8537,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "messageLevel",
           "package": "csound-expression-dynamic",
@@ -7855,6 +8551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiDevice",
           "package": "csound-expression-dynamic",
@@ -7864,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiDevice",
           "package": "csound-expression-dynamic",
@@ -7877,6 +8575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiFile",
           "package": "csound-expression-dynamic",
@@ -7886,6 +8585,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiFile",
           "package": "csound-expression-dynamic",
@@ -7899,6 +8599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiIO",
           "package": "csound-expression-dynamic",
@@ -7908,6 +8609,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiIO",
           "package": "csound-expression-dynamic",
@@ -7921,6 +8623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiKey",
           "package": "csound-expression-dynamic",
@@ -7930,6 +8633,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiKey",
           "package": "csound-expression-dynamic",
@@ -7943,6 +8647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiKeyCps",
           "package": "csound-expression-dynamic",
@@ -7952,6 +8657,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiKeyCps",
           "package": "csound-expression-dynamic",
@@ -7965,6 +8671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiKeyOct",
           "package": "csound-expression-dynamic",
@@ -7974,6 +8681,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiKeyOct",
           "package": "csound-expression-dynamic",
@@ -7987,6 +8695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiKeyPch",
           "package": "csound-expression-dynamic",
@@ -7996,6 +8705,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiKeyPch",
           "package": "csound-expression-dynamic",
@@ -8009,6 +8719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiOutDevice",
           "package": "csound-expression-dynamic",
@@ -8018,6 +8729,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiOutDevice",
           "package": "csound-expression-dynamic",
@@ -8031,6 +8743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiOutFile",
           "package": "csound-expression-dynamic",
@@ -8040,6 +8753,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiOutFile",
           "package": "csound-expression-dynamic",
@@ -8053,6 +8767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiRT",
           "package": "csound-expression-dynamic",
@@ -8062,6 +8777,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiRT",
           "package": "csound-expression-dynamic",
@@ -8075,6 +8791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiVelocity",
           "package": "csound-expression-dynamic",
@@ -8084,6 +8801,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiVelocity",
           "package": "csound-expression-dynamic",
@@ -8097,6 +8815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiVelocityAmp",
           "package": "csound-expression-dynamic",
@@ -8106,6 +8825,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "midiVelocityAmp",
           "package": "csound-expression-dynamic",
@@ -8119,6 +8839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "msgColor",
           "package": "csound-expression-dynamic",
@@ -8128,6 +8849,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "msgColor",
           "package": "csound-expression-dynamic",
@@ -8141,6 +8863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "muteTracks",
           "package": "csound-expression-dynamic",
@@ -8150,6 +8873,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "muteTracks",
           "package": "csound-expression-dynamic",
@@ -8163,6 +8887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "newKr",
           "package": "csound-expression-dynamic",
@@ -8172,6 +8897,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "newKr",
           "package": "csound-expression-dynamic",
@@ -8185,6 +8911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "newSr",
           "package": "csound-expression-dynamic",
@@ -8194,6 +8921,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "newSr",
           "package": "csound-expression-dynamic",
@@ -8207,6 +8935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "nopeaks",
           "package": "csound-expression-dynamic",
@@ -8216,6 +8945,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "nopeaks",
           "package": "csound-expression-dynamic",
@@ -8228,6 +8958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "nosound",
           "package": "csound-expression-dynamic",
@@ -8237,6 +8968,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "nosound",
           "package": "csound-expression-dynamic",
@@ -8249,6 +8981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "omacro",
           "package": "csound-expression-dynamic",
@@ -8258,6 +8991,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "omacro",
           "normalized": "Maybe(String,String)",
@@ -8272,6 +9006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "output",
           "package": "csound-expression-dynamic",
@@ -8281,6 +9016,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "output",
           "package": "csound-expression-dynamic",
@@ -8293,6 +9029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "paInput",
           "package": "csound-expression-dynamic",
@@ -8302,6 +9039,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "paInput",
           "package": "csound-expression-dynamic",
@@ -8315,6 +9053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "paOutput",
           "package": "csound-expression-dynamic",
@@ -8324,6 +9063,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "paOutput",
           "package": "csound-expression-dynamic",
@@ -8337,6 +9077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "paServer",
           "package": "csound-expression-dynamic",
@@ -8346,6 +9087,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "paServer",
           "package": "csound-expression-dynamic",
@@ -8359,6 +9101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "pulseAudio",
           "package": "csound-expression-dynamic",
@@ -8368,6 +9111,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "pulseAudio",
           "package": "csound-expression-dynamic",
@@ -8381,6 +9125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "rawControllerMode",
           "package": "csound-expression-dynamic",
@@ -8390,6 +9135,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "rawControllerMode",
           "package": "csound-expression-dynamic",
@@ -8403,6 +9149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "rtaudio",
           "package": "csound-expression-dynamic",
@@ -8412,6 +9159,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "rtaudio",
           "package": "csound-expression-dynamic",
@@ -8424,6 +9172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "rtmidi",
           "package": "csound-expression-dynamic",
@@ -8433,6 +9182,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "rtmidi",
           "package": "csound-expression-dynamic",
@@ -8445,6 +9195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "schedNum",
           "package": "csound-expression-dynamic",
@@ -8454,6 +9205,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "schedNum",
           "package": "csound-expression-dynamic",
@@ -8467,6 +9219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "scoreIn",
           "package": "csound-expression-dynamic",
@@ -8476,6 +9229,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "scoreIn",
           "package": "csound-expression-dynamic",
@@ -8489,6 +9243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "setSched",
           "package": "csound-expression-dynamic",
@@ -8498,6 +9253,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "setSched",
           "package": "csound-expression-dynamic",
@@ -8511,6 +9267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "setTempo",
           "package": "csound-expression-dynamic",
@@ -8520,6 +9277,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "setTempo",
           "package": "csound-expression-dynamic",
@@ -8533,6 +9291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "skipSeconds",
           "package": "csound-expression-dynamic",
@@ -8542,6 +9301,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "skipSeconds",
           "package": "csound-expression-dynamic",
@@ -8555,6 +9315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "smacro",
           "package": "csound-expression-dynamic",
@@ -8564,6 +9325,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "smacro",
           "normalized": "Maybe(String,String)",
@@ -8578,6 +9340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "strsetN",
           "package": "csound-expression-dynamic",
@@ -8587,6 +9350,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "strsetN",
           "normalized": "Maybe(Int,String)",
@@ -8601,6 +9365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "terminateOnMidi",
           "package": "csound-expression-dynamic",
@@ -8610,6 +9375,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types Flags",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types.Flags",
           "name": "terminateOnMidi",
           "package": "csound-expression-dynamic",
@@ -8623,6 +9389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic.Types",
           "name": "Types",
           "package": "csound-expression-dynamic",
@@ -8631,6 +9398,7 @@
         },
         "index": {
           "hierarchy": "Csound Dynamic Types",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic.Types",
           "name": "Types",
           "package": "csound-expression-dynamic",
@@ -8645,6 +9413,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExports everything.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:31 UTC 2014",
           "module": "Csound.Dynamic",
           "name": "Dynamic",
           "package": "csound-expression-dynamic",
@@ -8654,6 +9423,7 @@
         "index": {
           "description": "Exports everything",
           "hierarchy": "Csound Dynamic",
+          "indexed": "2014-03-11T17:44:31",
           "module": "Csound.Dynamic",
           "name": "Dynamic",
           "package": "csound-expression-dynamic",

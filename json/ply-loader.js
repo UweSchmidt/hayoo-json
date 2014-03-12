@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ply-loader"
+        "phrase": "ply-loader",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Ascii",
           "name": "Ascii",
           "package": "ply-loader",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "PLY Ascii",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Ascii",
           "name": "Ascii",
           "package": "ply-loader",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Ascii",
           "name": "parseASCII",
           "package": "ply-loader",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "PLY Ascii",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Ascii",
           "name": "parseASCII",
           "normalized": "Element-\u003eParser(Vector(Vector Scalar))",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Ascii",
           "name": "parseASCIIv3",
           "package": "ply-loader",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "PLY Ascii",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Ascii",
           "name": "parseASCIIv3",
           "normalized": "Element-\u003eParser(Vector(V a))",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Binary",
           "name": "Binary",
           "package": "ply-loader",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "PLY Binary",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Binary",
           "name": "Binary",
           "package": "ply-loader",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Binary",
           "name": "getScalarT",
           "package": "ply-loader",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "PLY Binary",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Binary",
           "name": "getScalarT",
           "normalized": "ScalarT-\u003eGet Scalar",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Binary",
           "name": "mkElParser",
           "package": "ply-loader",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "PLY Binary",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Binary",
           "name": "mkElParser",
           "normalized": "[Property]-\u003eGet(Vector Scalar)",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Binary",
           "name": "mkListParser",
           "package": "ply-loader",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "PLY Binary",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Binary",
           "name": "mkListParser",
           "normalized": "ScalarT-\u003eGet(Vector Scalar)",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Binary",
           "name": "mkScalarParser",
           "package": "ply-loader",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "PLY Binary",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Binary",
           "name": "mkScalarParser",
           "normalized": "ScalarT-\u003eGet Scalar",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Binary",
           "name": "parseBinElement",
           "package": "ply-loader",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "PLY Binary",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Binary",
           "name": "parseBinElement",
           "normalized": "Element-\u003eByteString-\u003e(Vector(Vector Scalar),ByteString)",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse Stanford 3D Scanning Repository \"\u003ccode\u003e.conf\u003c/code\u003e\" files that place\n individual PLY models into a consistent coordinate frame.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Conf",
           "name": "Conf",
           "package": "ply-loader",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Parse Stanford Scanning Repository conf files that place individual PLY models into consistent coordinate frame",
           "hierarchy": "PLY Conf",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Conf",
           "name": "Conf",
           "package": "ply-loader",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e.conf\u003c/code\u003e file includes a base transformation matrix, and a\n list of meshes identified by their file name and a \u003ccode\u003e\u003ca\u003eTransformation\u003c/a\u003e\u003c/code\u003e\n to place geometry in a consistent coordinate frame.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Conf",
           "name": "Conf",
           "package": "ply-loader",
@@ -261,6 +282,7 @@
         "index": {
           "description": "conf file includes base transformation matrix and list of meshes identified by their file name and Transformation to place geometry in consistent coordinate frame",
           "hierarchy": "PLY Conf",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Conf",
           "name": "Conf",
           "package": "ply-loader",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 3D transformation represented as a translation vector and a\n rotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Conf",
           "name": "Transformation",
           "package": "ply-loader",
@@ -284,6 +307,7 @@
         "index": {
           "description": "transformation represented as translation vector and rotation",
           "hierarchy": "PLY Conf",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Conf",
           "name": "Transformation",
           "package": "ply-loader",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Conf",
           "name": "Conf",
           "package": "ply-loader",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "PLY Conf",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Conf",
           "name": "Conf",
           "package": "ply-loader",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Conf",
           "name": "camera",
           "package": "ply-loader",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "PLY Conf",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Conf",
           "name": "camera",
           "package": "ply-loader",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Conf",
           "name": "meshes",
           "package": "ply-loader",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "PLY Conf",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Conf",
           "name": "meshes",
           "normalized": "[(ByteString,Transformation a)]",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a Stanford .conf file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Conf",
           "name": "parseConf",
           "package": "ply-loader",
@@ -374,6 +405,7 @@
         "index": {
           "description": "Parse Stanford conf file",
           "hierarchy": "PLY Conf",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Conf",
           "name": "parseConf",
           "normalized": "ByteString-\u003eEither String(Conf a)",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "Parsers",
           "package": "ply-loader",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "Parsers",
           "package": "ply-loader",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "char",
           "package": "ply-loader",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "char",
           "package": "ply-loader",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "element",
           "package": "ply-loader",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "element",
           "package": "ply-loader",
@@ -452,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "float",
           "package": "ply-loader",
@@ -461,6 +500,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "float",
           "package": "ply-loader",
@@ -474,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a PLY file format line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "format",
           "package": "ply-loader",
@@ -484,6 +525,7 @@
         "index": {
           "description": "Parse PLY file format line",
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "format",
           "package": "ply-loader",
@@ -497,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a PLY header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "header",
           "package": "ply-loader",
@@ -507,6 +550,7 @@
         "index": {
           "description": "Parse PLY header",
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "header",
           "normalized": "Parser(Format,[Element])",
@@ -521,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "int",
           "package": "ply-loader",
@@ -530,6 +575,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "int",
           "package": "ply-loader",
@@ -542,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "int16",
           "package": "ply-loader",
@@ -551,6 +598,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "int16",
           "package": "ply-loader",
@@ -564,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake everything up to the end of the line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "line",
           "package": "ply-loader",
@@ -574,6 +623,7 @@
         "index": {
           "description": "Take everything up to the end of the line",
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "line",
           "package": "ply-loader",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "listProperty",
           "package": "ply-loader",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "listProperty",
           "package": "ply-loader",
@@ -609,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a flat property list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "multiProps",
           "package": "ply-loader",
@@ -619,6 +672,7 @@
         "index": {
           "description": "Parse flat property list",
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "multiProps",
           "normalized": "[Property]-\u003eParser[Scalar]",
@@ -635,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a monotyped list of values. All returned \u003ccode\u003e\u003ca\u003eScalar\u003c/a\u003e\u003c/code\u003e values\n will be of the type corresponding to the specific \u003ccode\u003e\u003ca\u003eScalarT\u003c/a\u003e\u003c/code\u003e given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "parseList",
           "package": "ply-loader",
@@ -645,6 +700,7 @@
         "index": {
           "description": "Parse monotyped list of values All returned Scalar values will be of the type corresponding to the specific ScalarT given",
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "parseList",
           "normalized": "ScalarT-\u003eParser[Scalar]",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "parseScalar",
           "package": "ply-loader",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "parseScalar",
           "normalized": "ScalarT-\u003eParser Scalar",
@@ -685,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdvance a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to where a given \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e finishes. An\n \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e is raised if the parser fails to complete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "parseSkip",
           "package": "ply-loader",
@@ -695,6 +754,7 @@
         "index": {
           "description": "Advance ByteString to where given Parser finishes An error is raised if the parser fails to complete",
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "parseSkip",
           "normalized": "Parser a-\u003eByteString-\u003eByteString",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "property",
           "package": "ply-loader",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "property",
           "package": "ply-loader",
@@ -731,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "scalarProperty",
           "package": "ply-loader",
@@ -740,6 +803,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "scalarProperty",
           "package": "ply-loader",
@@ -753,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "scalarType",
           "package": "ply-loader",
@@ -762,6 +827,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "scalarType",
           "package": "ply-loader",
@@ -776,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip white space, comments, and obj_info lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "skip",
           "package": "ply-loader",
@@ -786,6 +853,7 @@
         "index": {
           "description": "Skip white space comments and obj info lines",
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "skip",
           "normalized": "Parser()",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "uchar",
           "package": "ply-loader",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "uchar",
           "package": "ply-loader",
@@ -821,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "uint",
           "package": "ply-loader",
@@ -830,6 +901,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "uint",
           "package": "ply-loader",
@@ -842,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "uint16",
           "package": "ply-loader",
@@ -851,6 +924,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "uint16",
           "package": "ply-loader",
@@ -864,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the next white space-delimited word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.Parsers",
           "name": "word",
           "package": "ply-loader",
@@ -874,6 +949,7 @@
         "index": {
           "description": "Take the next white space-delimited word",
           "hierarchy": "PLY Internal Parsers",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.Parsers",
           "name": "word",
           "package": "ply-loader",
@@ -886,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.StrictReplicate",
           "name": "StrictReplicate",
           "package": "ply-loader",
@@ -894,6 +971,7 @@
         },
         "index": {
           "hierarchy": "PLY Internal StrictReplicate",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.StrictReplicate",
           "name": "StrictReplicate",
           "package": "ply-loader",
@@ -908,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the monadic action the given number of times and store the\n results in a vector. Each value yielded by the monadic action is\n evaluated to WHNF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.StrictReplicate",
           "name": "replicateM'",
           "package": "ply-loader",
@@ -918,6 +997,7 @@
         "index": {
           "description": "Execute the monadic action the given number of times and store the results in vector Each value yielded by the monadic action is evaluated to WHNF",
           "hierarchy": "PLY Internal StrictReplicate",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.StrictReplicate",
           "name": "replicateM'",
           "normalized": "Int-\u003ea b-\u003ea(c b)",
@@ -934,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield a \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e of values obtained by performing the monadic\n action the given number of times. Each value yielded by the monadic\n action is evaluated to WHNF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Internal.StrictReplicate",
           "name": "replicateStreamM'",
           "package": "ply-loader",
@@ -944,6 +1025,7 @@
         "index": {
           "description": "Yield Stream of values obtained by performing the monadic action the given number of times Each value yielded by the monadic action is evaluated to WHNF",
           "hierarchy": "PLY Internal StrictReplicate",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Internal.StrictReplicate",
           "name": "replicateStreamM'",
           "normalized": "Int-\u003ea b-\u003eStream a b",
@@ -959,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Types",
           "package": "ply-loader",
@@ -967,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Types",
           "package": "ply-loader",
@@ -980,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Element",
           "package": "ply-loader",
@@ -988,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Element",
           "package": "ply-loader",
@@ -1001,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Format",
           "package": "ply-loader",
@@ -1009,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Format",
           "package": "ply-loader",
@@ -1022,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "PLYType",
           "package": "ply-loader",
@@ -1030,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "PLYType",
           "package": "ply-loader",
@@ -1043,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Property",
           "package": "ply-loader",
@@ -1051,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Property",
           "package": "ply-loader",
@@ -1064,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Scalar",
           "package": "ply-loader",
@@ -1072,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Scalar",
           "package": "ply-loader",
@@ -1085,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "ScalarT",
           "package": "ply-loader",
@@ -1093,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "ScalarT",
           "package": "ply-loader",
@@ -1107,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe member functions of this class facilitate writing values of\nprimitive types to raw memory (which may have been allocated with the\nabove mentioned routines) and reading values from blocks of raw\nmemory.  The class, furthermore, includes support for computing the\nstorage requirements and alignment restrictions of storable types.\n\u003c/p\u003e\u003cp\u003eMemory addresses are represented as values of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e, for some\n\u003ccode\u003ea\u003c/code\u003e which is an instance of class \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e.  The type argument to\n\u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e helps provide some valuable type safety in FFI code (you can't\nmix pointers of different types without an explicit cast), while\nhelping the Haskell type system figure out which marshalling method is\nneeded for a given pointer.\n\u003c/p\u003e\u003cp\u003eAll marshalling between Haskell and a foreign language ultimately\nboils down to translating Haskell data structures into the binary\nrepresentation of a corresponding data structure of the foreign\nlanguage and vice versa.  To code this marshalling in Haskell, it is\nnecessary to manipulate primitive data types stored in unstructured\nmemory blocks.  The class \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e facilitates this manipulation on\nall types for which it is instantiated, which are the standard basic\ntypes of Haskell, the fixed size \u003ccode\u003eInt\u003c/code\u003e types (\u003ccode\u003e\u003ca\u003eInt8\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt16\u003c/a\u003e\u003c/code\u003e,\n\u003ccode\u003e\u003ca\u003eInt32\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e), the fixed size \u003ccode\u003eWord\u003c/code\u003e types (\u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e,\n\u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e), \u003ccode\u003e\u003ca\u003eStablePtr\u003c/a\u003e\u003c/code\u003e, all types from \u003ca\u003eForeign.C.Types\u003c/a\u003e,\nas well as \u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003esizeOf\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ealignment\u003c/a\u003e\u003c/code\u003e, one of \u003ccode\u003e\u003ca\u003epeek\u003c/a\u003e\u003c/code\u003e,\n\u003ccode\u003e\u003ca\u003epeekElemOff\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003epeekByteOff\u003c/a\u003e\u003c/code\u003e, and one of \u003ccode\u003e\u003ca\u003epoke\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epokeElemOff\u003c/a\u003e\u003c/code\u003e and\n\u003ccode\u003e\u003ca\u003epokeByteOff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Storable",
           "package": "ply-loader",
@@ -1115,6 +1212,7 @@
         "index": {
           "description": "The member functions of this class facilitate writing values of primitive types to raw memory which may have been allocated with the above mentioned routines and reading values from blocks of raw memory The class furthermore includes support for computing the storage requirements and alignment restrictions of storable types Memory addresses are represented as values of type Ptr for some which is an instance of class Storable The type argument to Ptr helps provide some valuable type safety in FFI code you can mix pointers of different types without an explicit cast while helping the Haskell type system figure out which marshalling method is needed for given pointer All marshalling between Haskell and foreign language ultimately boils down to translating Haskell data structures into the binary representation of corresponding data structure of the foreign language and vice versa To code this marshalling in Haskell it is necessary to manipulate primitive data types stored in unstructured memory blocks The class Storable facilitates this manipulation on all types for which it is instantiated which are the standard basic types of Haskell the fixed size Int types Int8 Int16 Int32 Int64 the fixed size Word types Word8 Word16 Word32 Word64 StablePtr all types from Foreign.C.Types as well as Ptr Minimal complete definition sizeOf alignment one of peek peekElemOff and peekByteOff and one of poke pokeElemOff and pokeByteOff",
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Storable",
           "package": "ply-loader",
@@ -1128,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "ASCII",
           "package": "ply-loader",
@@ -1137,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "ASCII",
           "package": "ply-loader",
@@ -1150,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Binary_BE",
           "package": "ply-loader",
@@ -1159,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Binary_BE",
           "package": "ply-loader",
@@ -1172,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Binary_LE",
           "package": "ply-loader",
@@ -1181,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Binary_LE",
           "package": "ply-loader",
@@ -1194,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Element",
           "package": "ply-loader",
@@ -1203,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Element",
           "package": "ply-loader",
@@ -1216,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "ListProperty",
           "package": "ply-loader",
@@ -1225,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "ListProperty",
           "package": "ply-loader",
@@ -1238,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "ScalarProperty",
           "package": "ply-loader",
@@ -1247,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "ScalarProperty",
           "package": "ply-loader",
@@ -1260,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Schar",
           "package": "ply-loader",
@@ -1269,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Schar",
           "package": "ply-loader",
@@ -1282,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Sdouble",
           "package": "ply-loader",
@@ -1291,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Sdouble",
           "package": "ply-loader",
@@ -1304,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Sfloat",
           "package": "ply-loader",
@@ -1313,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Sfloat",
           "package": "ply-loader",
@@ -1326,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Sint",
           "package": "ply-loader",
@@ -1335,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Sint",
           "package": "ply-loader",
@@ -1348,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Sshort",
           "package": "ply-loader",
@@ -1357,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Sshort",
           "package": "ply-loader",
@@ -1370,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Suchar",
           "package": "ply-loader",
@@ -1379,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Suchar",
           "package": "ply-loader",
@@ -1392,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Suint",
           "package": "ply-loader",
@@ -1401,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Suint",
           "package": "ply-loader",
@@ -1414,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Sushort",
           "package": "ply-loader",
@@ -1423,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Sushort",
           "package": "ply-loader",
@@ -1436,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Tchar",
           "package": "ply-loader",
@@ -1445,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Tchar",
           "package": "ply-loader",
@@ -1458,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Tdouble",
           "package": "ply-loader",
@@ -1467,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Tdouble",
           "package": "ply-loader",
@@ -1480,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Tfloat",
           "package": "ply-loader",
@@ -1489,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Tfloat",
           "package": "ply-loader",
@@ -1502,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Tint",
           "package": "ply-loader",
@@ -1511,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Tint",
           "package": "ply-loader",
@@ -1524,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Tshort",
           "package": "ply-loader",
@@ -1533,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Tshort",
           "package": "ply-loader",
@@ -1546,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Tuchar",
           "package": "ply-loader",
@@ -1555,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Tuchar",
           "package": "ply-loader",
@@ -1568,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Tuint",
           "package": "ply-loader",
@@ -1577,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Tuint",
           "package": "ply-loader",
@@ -1590,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "Tushort",
           "package": "ply-loader",
@@ -1599,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "Tushort",
           "package": "ply-loader",
@@ -1612,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "elName",
           "package": "ply-loader",
@@ -1621,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "elName",
           "package": "ply-loader",
@@ -1634,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "elNum",
           "package": "ply-loader",
@@ -1643,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "elNum",
           "package": "ply-loader",
@@ -1656,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "elProps",
           "package": "ply-loader",
@@ -1665,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "elProps",
           "normalized": "[Property]",
@@ -1680,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "plyType",
           "package": "ply-loader",
@@ -1689,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "plyType",
           "normalized": "a-\u003eScalarT",
@@ -1704,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY.Types",
           "name": "unsafeUnwrap",
           "package": "ply-loader",
@@ -1713,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "PLY Types",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY.Types",
           "name": "unsafeUnwrap",
           "normalized": "Scalar-\u003ea",
@@ -1729,6 +1881,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe loading of a \u003ccode\u003eply\u003c/code\u003e file is broken down into two steps: header\n parsing, and data loading. The \u003ccode\u003eloadPLY\u003c/code\u003e function will, if\n successful, return a data structure that may be queried to extract\n numeric data using \u003ccode\u003e\u003ca\u003eloadElements\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eloadElementsV3\u003c/a\u003e\u003c/code\u003e. For example, \n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n import Data.Vector.Storable (Vector)\n import Linear.V3\n import PLY\n\n loadVerts :: FilePath -\u003e IO (Either String (Vector (V3 Float)))\n loadVerts = loadElementsV3 \"vertex\"\n\u003c/pre\u003e\u003cp\u003eTo load all vertex data from a series of \u003ccode\u003eply\u003c/code\u003e files identified by\n a \u003ccode\u003e.conf\u003c/code\u003e file, consider using,\n\u003c/p\u003e\u003cpre\u003e fromConf :: FilePath -\u003e IO (Either String (Vector (V3 Float)))\n fromConf = loadConfV3 \"vertex\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY",
           "name": "PLY",
           "package": "ply-loader",
@@ -1738,6 +1891,7 @@
         "index": {
           "description": "The loading of ply file is broken down into two steps header parsing and data loading The loadPLY function will if successful return data structure that may be queried to extract numeric data using loadElements and loadElementsV3 For example LANGUAGE OverloadedStrings import Data.Vector.Storable Vector import Linear.V3 import PLY loadVerts FilePath IO Either String Vector V3 Float loadVerts loadElementsV3 vertex To load all vertex data from series of ply files identified by conf file consider using fromConf FilePath IO Either String Vector V3 Float fromConf loadConfV3 vertex",
           "hierarchy": "PLY",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY",
           "name": "PLY",
           "package": "ply-loader",
@@ -1751,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY",
           "name": "Header",
           "package": "ply-loader",
@@ -1759,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "PLY",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY",
           "name": "Header",
           "package": "ply-loader",
@@ -1773,6 +1929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PLY header and the associated raw data. Use \u003ccode\u003e\u003ca\u003eloadElements\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eloadElementsV3\u003c/a\u003e\u003c/code\u003e to extract a particular element array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY",
           "name": "PLYData",
           "package": "ply-loader",
@@ -1782,6 +1939,7 @@
         "index": {
           "description": "PLY header and the associated raw data Use loadElements or loadElementsV3 to extract particular element array",
           "hierarchy": "PLY",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY",
           "name": "PLYData",
           "package": "ply-loader",
@@ -1796,6 +1954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad all meshes identified by a \u003ccode\u003e.conf\u003c/code\u003e file in parallel, and\n transform vertex data into the coordinate frame specified by the\n \u003ccode\u003e.conf\u003c/code\u003e file. The application \u003ccode\u003eloadMeshesV3 confFile element\u003c/code\u003e loads\n \u003ccode\u003econfFile\u003c/code\u003e to identify every \u003ccode\u003eply\u003c/code\u003e mesh to load. The \u003ccode\u003eply\u003c/code\u003e files\n are loaded from the same directory that contained the \u003ccode\u003e.conf\u003c/code\u003e file,\n and the data associated with \u003ccode\u003eelement\u003c/code\u003e (e.g. \u003ccode\u003e\"vertex\"\u003c/code\u003e) is\n loaded, transformed, and concatenated from all the meshes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY",
           "name": "loadConfV3",
           "package": "ply-loader",
@@ -1806,6 +1965,7 @@
         "index": {
           "description": "Load all meshes identified by conf file in parallel and transform vertex data into the coordinate frame specified by the conf file The application loadMeshesV3 confFile element loads confFile to identify every ply mesh to load The ply files are loaded from the same directory that contained the conf file and the data associated with element e.g vertex is loaded transformed and concatenated from all the meshes",
           "hierarchy": "PLY",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY",
           "name": "loadConfV3",
           "normalized": "ByteString-\u003eFilePath-\u003eIO(Either String(Vector(V a)))",
@@ -1822,6 +1982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eloadElements elementName plyFile\u003c/code\u003e loads a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e of each\n vertex of the requested element array from \u003ccode\u003eplyFile\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY",
           "name": "loadElements",
           "package": "ply-loader",
@@ -1832,6 +1993,7 @@
         "index": {
           "description": "loadElements elementName plyFile loads Vector of each vertex of the requested element array from plyFile",
           "hierarchy": "PLY",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY",
           "name": "loadElements",
           "normalized": "ByteString-\u003eFilePath-\u003eIO(Either String(Vector(Vector Scalar)))",
@@ -1848,6 +2010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eloadElements\u003c/a\u003e\u003c/code\u003e, but restricted to 3D vectors. When it can\n be used, this function is much more efficient thatn\n \u003ccode\u003e\u003ca\u003eloadPlyElements\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY",
           "name": "loadElementsV3",
           "package": "ply-loader",
@@ -1858,6 +2021,7 @@
         "index": {
           "description": "Like loadElements but restricted to vectors When it can be used this function is much more efficient thatn loadPlyElements",
           "hierarchy": "PLY",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY",
           "name": "loadElementsV3",
           "normalized": "ByteString-\u003eFilePath-\u003eIO(Either String(Vector(V a)))",
@@ -1874,6 +2038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a PLY header from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY",
           "name": "loadHeader",
           "package": "ply-loader",
@@ -1884,6 +2049,7 @@
         "index": {
           "description": "Load PLY header from file",
           "hierarchy": "PLY",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY",
           "name": "loadHeader",
           "normalized": "FilePath-\u003eIO(Either String PLYData)",
@@ -1900,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eloadPlyElements elementName ply\u003c/code\u003e loads a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e of each vertex of\n the requested element array. If you are extracting 3D data,\n consider using \u003ccode\u003e\u003ca\u003eloadPlyElementsV3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY",
           "name": "loadPlyElements",
           "package": "ply-loader",
@@ -1910,6 +2077,7 @@
         "index": {
           "description": "loadPlyElements elementName ply loads Vector of each vertex of the requested element array If you are extracting data consider using loadPlyElementsV3",
           "hierarchy": "PLY",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY",
           "name": "loadPlyElements",
           "normalized": "ByteString-\u003ePLYData-\u003eEither String(Vector(Vector Scalar))",
@@ -1926,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eloadPlyElements\u003c/a\u003e\u003c/code\u003e, but restricted to 3D vectors. When it can be\n used, this function is much more efficient than \u003ccode\u003e\u003ca\u003eloadPlyElements\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY",
           "name": "loadPlyElementsV3",
           "package": "ply-loader",
@@ -1936,6 +2105,7 @@
         "index": {
           "description": "Like loadPlyElements but restricted to vectors When it can be used this function is much more efficient than loadPlyElements",
           "hierarchy": "PLY",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY",
           "name": "loadPlyElementsV3",
           "normalized": "ByteString-\u003ePLYData-\u003eEither String(Vector(V a))",
@@ -1952,6 +2122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e from a partially loaded PLY file (as from\n \u003ccode\u003e\u003ca\u003epreloadPly\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY",
           "name": "plyHeader",
           "package": "ply-loader",
@@ -1962,6 +2133,7 @@
         "index": {
           "description": "Extract the Header from partially loaded PLY file as from preloadPly",
           "hierarchy": "PLY",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY",
           "name": "plyHeader",
           "normalized": "PLYData-\u003eHeader",
@@ -1978,6 +2150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to parse a PLY file from the given bytes. If the PLY\n header is successfully parsed, the \u003ccode\u003e\u003ca\u003ePLYData\u003c/a\u003e\u003c/code\u003e value returned may be\n used with \u003ccode\u003e\u003ca\u003eloadElements\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eloadElementsV3\u003c/a\u003e\u003c/code\u003e to extract data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:26 UTC 2014",
           "module": "PLY",
           "name": "preloadPly",
           "package": "ply-loader",
@@ -1988,6 +2161,7 @@
         "index": {
           "description": "Attempt to parse PLY file from the given bytes If the PLY header is successfully parsed the PLYData value returned may be used with loadElements and loadElementsV3 to extract data",
           "hierarchy": "PLY",
+          "indexed": "2014-03-11T19:40:26",
           "module": "PLY",
           "name": "preloadPly",
           "normalized": "ByteString-\u003eEither String PLYData",

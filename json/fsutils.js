@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fsutils"
+        "phrase": "fsutils",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA collection of file system utilities that appear to be missing from\n Directory, FilePath, Prelude, etc. Some of these may overlap with MissingH\n but the versions here will probably be more simplistic. Furthermore, this\n library is focused on this one thing and not a whole bunch of things.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:56 UTC 2014",
           "module": "System.Path",
           "name": "Path",
           "package": "fsutils",
@@ -28,6 +29,7 @@
         "index": {
           "description": "collection of file system utilities that appear to be missing from Directory FilePath Prelude etc Some of these may overlap with MissingH but the versions here will probably be more simplistic Furthermore this library is focused on this one thing and not whole bunch of things",
           "hierarchy": "System Path",
+          "indexed": "2014-03-11T18:12:56",
           "module": "System.Path",
           "name": "Path",
           "package": "fsutils",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe can use this data type to represent the pieces of a directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:56 UTC 2014",
           "module": "System.Path",
           "name": "Directory",
           "package": "fsutils",
@@ -51,6 +54,7 @@
         "index": {
           "description": "We can use this data type to represent the pieces of directory",
           "hierarchy": "System Path",
+          "indexed": "2014-03-11T18:12:56",
           "module": "System.Path",
           "name": "Directory",
           "package": "fsutils",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a directory recursively. Moves every file, creates every directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:56 UTC 2014",
           "module": "System.Path",
           "name": "copyDir",
           "package": "fsutils",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Copy directory recursively Moves every file creates every directory",
           "hierarchy": "System Path",
+          "indexed": "2014-03-11T18:12:56",
           "module": "System.Path",
           "name": "copyDir",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a Directory instance from a FilePath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:56 UTC 2014",
           "module": "System.Path",
           "name": "createDir",
           "package": "fsutils",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Creates Directory instance from FilePath",
           "hierarchy": "System Path",
+          "indexed": "2014-03-11T18:12:56",
           "module": "System.Path",
           "name": "createDir",
           "normalized": "FilePath-\u003eIO Directory",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe path of the directory itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:56 UTC 2014",
           "module": "System.Path",
           "name": "dirPath",
           "package": "fsutils",
@@ -127,6 +136,7 @@
         "index": {
           "description": "The path of the directory itself",
           "hierarchy": "System Path",
+          "indexed": "2014-03-11T18:12:56",
           "module": "System.Path",
           "name": "dirPath",
           "normalized": "Directory-\u003eFilePath",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursively list the contents of a directory. Depth-first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:56 UTC 2014",
           "module": "System.Path",
           "name": "fileList",
           "package": "fsutils",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Recursively list the contents of directory Depth-first",
           "hierarchy": "System Path",
+          "indexed": "2014-03-11T18:12:56",
           "module": "System.Path",
           "name": "fileList",
           "normalized": "FilePath-\u003eIO[FilePath]",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll files contained in this directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:56 UTC 2014",
           "module": "System.Path",
           "name": "files",
           "package": "fsutils",
@@ -179,6 +192,7 @@
         "index": {
           "description": "All files contained in this directory",
           "hierarchy": "System Path",
+          "indexed": "2014-03-11T18:12:56",
           "module": "System.Path",
           "name": "files",
           "normalized": "Directory-\u003e[FilePath]",
@@ -194,6 +208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove useless paths from a list of paths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:56 UTC 2014",
           "module": "System.Path",
           "name": "filterUseless",
           "package": "fsutils",
@@ -204,6 +219,7 @@
         "index": {
           "description": "Remove useless paths from list of paths",
           "hierarchy": "System Path",
+          "indexed": "2014-03-11T18:12:56",
           "module": "System.Path",
           "name": "filterUseless",
           "normalized": "[FilePath]-\u003e[FilePath]",
@@ -220,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of nodes in a tree via a depth-first walk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:56 UTC 2014",
           "module": "System.Path",
           "name": "mtreeList",
           "package": "fsutils",
@@ -230,6 +247,7 @@
         "index": {
           "description": "Returns list of nodes in tree via depth-first walk",
           "hierarchy": "System Path",
+          "indexed": "2014-03-11T18:12:56",
           "module": "System.Path",
           "name": "mtreeList",
           "normalized": "(a-\u003eb[a])-\u003ea-\u003eb[a]",
@@ -246,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a root (prefix), remove it from a path. This is useful\n for getting the filename and subdirs of a path inside of a root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:56 UTC 2014",
           "module": "System.Path",
           "name": "removeRoot",
           "package": "fsutils",
@@ -256,6 +275,7 @@
         "index": {
           "description": "Given root prefix remove it from path This is useful for getting the filename and subdirs of path inside of root",
           "hierarchy": "System Path",
+          "indexed": "2014-03-11T18:12:56",
           "module": "System.Path",
           "name": "removeRoot",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath",
@@ -272,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a root path, a new root path, and a path to be changed,\n removes the old root from the path and replaces it with to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:56 UTC 2014",
           "module": "System.Path",
           "name": "replaceRoot",
           "package": "fsutils",
@@ -282,6 +303,7 @@
         "index": {
           "description": "Given root path new root path and path to be changed removes the old root from the path and replaces it with to",
           "hierarchy": "System Path",
+          "indexed": "2014-03-11T18:12:56",
           "module": "System.Path",
           "name": "replaceRoot",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath-\u003eFilePath",
@@ -298,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll subdirectories of this directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:56 UTC 2014",
           "module": "System.Path",
           "name": "subDirs",
           "package": "fsutils",
@@ -308,6 +331,7 @@
         "index": {
           "description": "All subdirectories of this directory",
           "hierarchy": "System Path",
+          "indexed": "2014-03-11T18:12:56",
           "module": "System.Path",
           "name": "subDirs",
           "normalized": "Directory-\u003e[FilePath]",
@@ -324,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWalk a directory depth-first. Similar to Python's os.walk and fs.core/walk\n from the fs Clojure library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:56 UTC 2014",
           "module": "System.Path",
           "name": "walkDir",
           "package": "fsutils",
@@ -334,6 +359,7 @@
         "index": {
           "description": "Walk directory depth-first Similar to Python os.walk and fs.core walk from the fs Clojure library",
           "hierarchy": "System Path",
+          "indexed": "2014-03-11T18:12:56",
           "module": "System.Path",
           "name": "walkDir",
           "normalized": "FilePath-\u003eIO[Directory]",

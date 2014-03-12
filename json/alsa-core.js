@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "alsa-core"
+        "phrase": "alsa-core",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eALSA does not distinguish between programming errors and runtime exceptions,\nwhich is sad, but we have to cope with it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "Exception",
           "package": "alsa-core",
@@ -28,6 +29,7 @@
         "index": {
           "description": "ALSA does not distinguish between programming errors and runtime exceptions which is sad but we have to cope with it",
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "Exception",
           "package": "alsa-core",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "T",
           "package": "alsa-core",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "T",
           "package": "alsa-core",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "Cons",
           "package": "alsa-core",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "Cons",
           "package": "alsa-core",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "catch",
           "package": "alsa-core",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "catch",
           "normalized": "IO a-\u003e(T-\u003eIO a)-\u003eIO a",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "catchErrno",
           "package": "alsa-core",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "catchErrno",
           "normalized": "Errno-\u003eIO a-\u003eIO a-\u003eIO a",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "catchXRun",
           "package": "alsa-core",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "catchXRun",
           "normalized": "IO a-\u003eIO a-\u003eIO a",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "checkResult",
           "package": "alsa-core",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "checkResult",
           "normalized": "String-\u003ea-\u003eIO a",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "checkResultMaybe",
           "package": "alsa-core",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "checkResultMaybe",
           "normalized": "String-\u003e(CInt-\u003ea)-\u003e(CInt-\u003eMaybe a)-\u003eCInt-\u003eIO a",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "checkResult_",
           "package": "alsa-core",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "checkResult_",
           "normalized": "String-\u003ea-\u003eIO()",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "code",
           "package": "alsa-core",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "code",
           "package": "alsa-core",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "description",
           "package": "alsa-core",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "description",
           "package": "alsa-core",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "location",
           "package": "alsa-core",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "location",
           "package": "alsa-core",
@@ -288,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts any \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e into an \u003ccode\u003e\u003ca\u003eIOError\u003c/a\u003e\u003c/code\u003e.\n This produces better a error message than letting an uncaught\n \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e propagate to the top.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "rethrow",
           "package": "alsa-core",
@@ -298,6 +323,7 @@
         "index": {
           "description": "Converts any into an IOError This produces better error message than letting an uncaught propagate to the top",
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "rethrow",
           "normalized": "IO a-\u003eIO a",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "show",
           "package": "alsa-core",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "show",
           "normalized": "T-\u003eString",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "showErrno",
           "package": "alsa-core",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "showErrno",
           "normalized": "Errno-\u003eString",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "snd_strerror",
           "package": "alsa-core",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "snd_strerror",
           "normalized": "Errno-\u003eIO CString",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the message for an error code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "strerror",
           "package": "alsa-core",
@@ -393,6 +426,7 @@
         "index": {
           "description": "Returns the message for an error code",
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "strerror",
           "normalized": "Errno-\u003eIO String",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:12 UTC 2014",
           "module": "Sound.ALSA.Exception",
           "name": "throw",
           "package": "alsa-core",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Exception",
+          "indexed": "2014-03-11T17:10:12",
           "module": "Sound.ALSA.Exception",
           "name": "throw",
           "normalized": "String-\u003eErrno-\u003eIO a",

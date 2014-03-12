@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "JuicyPixels-repa"
+        "phrase": "JuicyPixels-repa",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "Repa",
           "package": "JuicyPixels-repa",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "Repa",
           "package": "JuicyPixels-repa",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn all-blue image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "B",
           "package": "JuicyPixels-repa",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An all-blue image",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "B",
           "package": "JuicyPixels-repa",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "Collapsable",
           "package": "JuicyPixels-repa",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "Collapsable",
           "package": "JuicyPixels-repa",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn all-green image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "G",
           "package": "JuicyPixels-repa",
@@ -92,6 +99,7 @@
         "index": {
           "description": "An all-green image",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "G",
           "package": "JuicyPixels-repa",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eImg a\u003c/code\u003e is an image where the phantom type \u003ccode\u003ea\u003c/code\u003e indicates the image format\n\u003c/p\u003e\u003cp\u003eAll images are held in a three dimensional \u003ccode\u003erepa\u003c/code\u003e array.  If the image\n format is only two dimensional (ex: R, G, or B) then the shape is \u003ccode\u003eZ :. y :. x :. 1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "Img",
           "package": "JuicyPixels-repa",
@@ -114,6 +123,7 @@
         "index": {
           "description": "Img is an image where the phantom type indicates the image format All images are held in three dimensional repa array If the image format is only two dimensional ex or then the shape is",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "Img",
           "package": "JuicyPixels-repa",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn all-red image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "R",
           "package": "JuicyPixels-repa",
@@ -137,6 +148,7 @@
         "index": {
           "description": "An all-red image",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "R",
           "package": "JuicyPixels-repa",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 24-bit image with red, green and blue channels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "RGB",
           "package": "JuicyPixels-repa",
@@ -159,6 +172,7 @@
         "index": {
           "description": "bit image with red green and blue channels",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "RGB",
           "package": "JuicyPixels-repa",
@@ -173,6 +187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 32-bit image with full red, green, blue and alpha channels.\n\u003c/p\u003e\u003cp\u003eThe image is stored as Height x Width x ColorChannel.\n\u003c/p\u003e\u003cp\u003eThe color channel is stored in RGBA order.  For the common OpenGL ordering\n users might want to use \u003ccode\u003e\u003ca\u003ereverseColorChannel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "RGBA",
           "package": "JuicyPixels-repa",
@@ -182,6 +197,7 @@
         "index": {
           "description": "bit image with full red green blue and alpha channels The image is stored as Height Width ColorChannel The color channel is stored in RGBA order For the common OpenGL ordering users might want to use reverseColorChannel",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "RGBA",
           "package": "JuicyPixels-repa",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "ToRGBAChannels",
           "package": "JuicyPixels-repa",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "ToRGBAChannels",
           "package": "JuicyPixels-repa",
@@ -217,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the color channel into a tuple:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "collapseColorChannel",
           "package": "JuicyPixels-repa",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Converts the color channel into tuple",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "collapseColorChannel",
           "normalized": "Img a-\u003eArray D DIM b",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts from \u003ccode\u003eJuicyPixels\u003c/code\u003e type (Usually \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eDynamicImage\u003c/a\u003e\u003c/code\u003e to the repa-based \u003ccode\u003e\u003ca\u003eImg\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "convertImage",
           "package": "JuicyPixels-repa",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Converts from JuicyPixels type Usually Image or DynamicImage to the repa-based Img type",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "convertImage",
           "normalized": "a-\u003eImg b",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "decodeImage",
           "package": "JuicyPixels-repa",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "decodeImage",
           "normalized": "ByteString-\u003eEither String(Img a)",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "decodeImageB",
           "package": "JuicyPixels-repa",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "decodeImageB",
           "normalized": "ByteString-\u003eEither String(Img B)",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "decodeImageG",
           "package": "JuicyPixels-repa",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "decodeImageG",
           "normalized": "ByteString-\u003eEither String(Img G)",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "decodeImageR",
           "package": "JuicyPixels-repa",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "decodeImageR",
           "normalized": "ByteString-\u003eEither String(Img R)",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "decodeImageRGB",
           "package": "JuicyPixels-repa",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "decodeImageRGB",
           "normalized": "ByteString-\u003eEither String(Img RGB)",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "decodeImageRGBA",
           "package": "JuicyPixels-repa",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "decodeImageRGBA",
           "normalized": "ByteString-\u003eEither String(Img RGBA)",
@@ -413,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlip an image horizontally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "flipHorizontally",
           "package": "JuicyPixels-repa",
@@ -423,6 +458,7 @@
         "index": {
           "description": "Flip an image horizontally",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "flipHorizontally",
           "normalized": "Array F DIM Word-\u003eArray F DIM Word",
@@ -439,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlip an image vertically\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "flipVertically",
           "package": "JuicyPixels-repa",
@@ -449,6 +486,7 @@
         "index": {
           "description": "Flip an image vertically",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "flipVertically",
           "normalized": "Array F DIM Word-\u003eArray F DIM Word",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines a list of images such that the first image is on the left, then\n the second, and so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "hConcat",
           "package": "JuicyPixels-repa",
@@ -475,6 +514,7 @@
         "index": {
           "description": "Combines list of images such that the first image is on the left then the second and so on",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "hConcat",
           "normalized": "[Img a]-\u003eImg a",
@@ -490,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "imgData",
           "package": "JuicyPixels-repa",
@@ -499,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "imgData",
           "normalized": "Img a-\u003eArray F DIM Word",
@@ -514,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "imgToImage",
           "package": "JuicyPixels-repa",
@@ -523,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "imgToImage",
           "normalized": "Img a-\u003eDynamicImage",
@@ -538,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "onImg",
           "package": "JuicyPixels-repa",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "onImg",
           "normalized": "(Array F DIM Word-\u003eArray F DIM Word)-\u003eImg a-\u003eImg a",
@@ -562,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "readImage",
           "package": "JuicyPixels-repa",
@@ -571,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "readImage",
           "normalized": "FilePath-\u003eIO(Either String(Img a))",
@@ -586,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "readImageB",
           "package": "JuicyPixels-repa",
@@ -595,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "readImageB",
           "normalized": "FilePath-\u003eIO(Either String(Img B))",
@@ -610,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "readImageG",
           "package": "JuicyPixels-repa",
@@ -619,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "readImageG",
           "normalized": "FilePath-\u003eIO(Either String(Img G))",
@@ -634,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "readImageR",
           "package": "JuicyPixels-repa",
@@ -643,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "readImageR",
           "normalized": "FilePath-\u003eIO(Either String(Img R))",
@@ -658,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "readImageRGB",
           "package": "JuicyPixels-repa",
@@ -667,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "readImageRGB",
           "normalized": "FilePath-\u003eIO(Either String(Img RGB))",
@@ -682,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "readImageRGBA",
           "package": "JuicyPixels-repa",
@@ -691,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "readImageRGBA",
           "normalized": "FilePath-\u003eIO(Either String(Img RGBA))",
@@ -707,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBy default, the color channel for \u003ccode\u003e\u003ca\u003eRGBA\u003c/a\u003e\u003c/code\u003e indexes 0 -\u003e R, 1 -\u003e G, 2\n -\u003e B, 3 -\u003e A.  This is the AGBR byte ordering in OpenGL.  For\n rendering with OpenGL's RGBA PixelFormat be sure to call\n reverseColorChannel before converting to a Vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "reverseColorChannel",
           "package": "JuicyPixels-repa",
@@ -717,6 +776,7 @@
         "index": {
           "description": "By default the color channel for RGBA indexes This is the AGBR byte ordering in OpenGL For rendering with OpenGL RGBA PixelFormat be sure to call reverseColorChannel before converting to Vector",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "reverseColorChannel",
           "normalized": "Img a-\u003eImg a",
@@ -733,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etoByteString arr\u003c/code\u003e converts images to bytestrings, which is often useful\n for Gloss.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "toByteString",
           "package": "JuicyPixels-repa",
@@ -743,6 +804,7 @@
         "index": {
           "description": "toByteString arr converts images to bytestrings which is often useful for Gloss",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "toByteString",
           "normalized": "Img a-\u003eByteString",
@@ -759,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n)  returning (pointer, length, offset)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "toForeignPtr",
           "package": "JuicyPixels-repa",
@@ -769,6 +832,7 @@
         "index": {
           "description": "returning pointer length offset",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "toForeignPtr",
           "normalized": "Img RGBA-\u003e(ForeignPtr Word,Int,Int)",
@@ -784,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "toRGBAChannels",
           "package": "JuicyPixels-repa",
@@ -793,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "toRGBAChannels",
           "normalized": "a-\u003ePixelRGBA",
@@ -809,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n)  Convert to an unboxed vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "toUnboxed",
           "package": "JuicyPixels-repa",
@@ -819,6 +886,7 @@
         "index": {
           "description": "Convert to an unboxed vector",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "toUnboxed",
           "normalized": "Img a-\u003eVector Word",
@@ -835,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines a list of images such that the first image is on top, then\n the second, and so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:31 UTC 2014",
           "module": "Codec.Picture.Repa",
           "name": "vConcat",
           "package": "JuicyPixels-repa",
@@ -845,6 +914,7 @@
         "index": {
           "description": "Combines list of images such that the first image is on top then the second and so on",
           "hierarchy": "Codec Picture Repa",
+          "indexed": "2014-03-11T16:50:31",
           "module": "Codec.Picture.Repa",
           "name": "vConcat",
           "normalized": "[Img a]-\u003eImg a",

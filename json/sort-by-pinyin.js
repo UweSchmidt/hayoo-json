@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sort-by-pinyin"
+        "phrase": "sort-by-pinyin",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:16 UTC 2014",
           "module": "Text.SortByPinyin",
           "name": "SortByPinyin",
           "package": "sort-by-pinyin",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text SortByPinyin",
+          "indexed": "2014-03-11T20:07:16",
           "module": "Text.SortByPinyin",
           "name": "SortByPinyin",
           "package": "sort-by-pinyin",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:16 UTC 2014",
           "module": "Text.SortByPinyin",
           "name": "compare_chinese_char_by_pinyin",
           "package": "sort-by-pinyin",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text SortByPinyin",
+          "indexed": "2014-03-11T20:07:16",
           "module": "Text.SortByPinyin",
           "name": "compare_chinese_char_by_pinyin",
           "normalized": "Char-\u003eChar-\u003eOrdering",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:16 UTC 2014",
           "module": "Text.SortByPinyin",
           "name": "compare_chinese_string_by_pinyin",
           "package": "sort-by-pinyin",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text SortByPinyin",
+          "indexed": "2014-03-11T20:07:16",
           "module": "Text.SortByPinyin",
           "name": "compare_chinese_string_by_pinyin",
           "normalized": "String-\u003eString-\u003eOrdering",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:16 UTC 2014",
           "module": "Text.SortByPinyin",
           "name": "pinyin_char_map",
           "package": "sort-by-pinyin",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text SortByPinyin",
+          "indexed": "2014-03-11T20:07:16",
           "module": "Text.SortByPinyin",
           "name": "pinyin_char_map",
           "package": "sort-by-pinyin",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:16 UTC 2014",
           "module": "Text.SortByPinyin",
           "name": "show_pinyin",
           "package": "sort-by-pinyin",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Text SortByPinyin",
+          "indexed": "2014-03-11T20:07:16",
           "module": "Text.SortByPinyin",
           "name": "show_pinyin",
           "normalized": "Char-\u003eMaybe String",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:16 UTC 2014",
           "module": "Text.SortByPinyinData",
           "name": "SortByPinyinData",
           "package": "sort-by-pinyin",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Text SortByPinyinData",
+          "indexed": "2014-03-11T20:07:16",
           "module": "Text.SortByPinyinData",
           "name": "SortByPinyinData",
           "package": "sort-by-pinyin",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:16 UTC 2014",
           "module": "Text.SortByPinyinData",
           "name": "sort_by_pinyin_data",
           "package": "sort-by-pinyin",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Text SortByPinyinData",
+          "indexed": "2014-03-11T20:07:16",
           "module": "Text.SortByPinyinData",
           "name": "sort_by_pinyin_data",
           "normalized": "[Char]",

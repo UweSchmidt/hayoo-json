@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tokyotyrant-haskell"
+        "phrase": "tokyotyrant-haskell",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a thin FFI binding to the libtokyotyrant C library\n   shipped with Mikio Hirabayashi's Tokyo\n   Tyrant. (\u003ca\u003ehttp://tokyocabinet.sourceforge.net/tyrantdoc/\u003c/a\u003e)\n\u003c/p\u003e\u003cp\u003eIt's intended to be imported qualified, e.g.:\n   \u003ccode\u003e\n   import qualified Database.TokyoTyrant.FFI as TT\n   \u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:04 UTC 2014",
           "module": "Database.TokyoTyrant.FFI",
           "name": "FFI",
           "package": "tokyotyrant-haskell",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides thin FFI binding to the libtokyotyrant library shipped with Mikio Hirabayashi Tokyo Tyrant http tokyocabinet.sourceforge.net tyrantdoc It intended to be imported qualified e.g import qualified Database.TokyoTyrant.FFI as TT",
           "hierarchy": "Database TokyoTyrant FFI",
+          "indexed": "2014-03-11T20:24:04",
           "module": "Database.TokyoTyrant.FFI",
           "name": "FFI",
           "package": "tokyotyrant-haskell",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Tokyo Tyrant connection type. Wraps the \u003ccode\u003eTCRDB\u003c/code\u003e type from the C\n   library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:04 UTC 2014",
           "module": "Database.TokyoTyrant.FFI",
           "name": "Connection",
           "package": "tokyotyrant-haskell",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Tokyo Tyrant connection type Wraps the TCRDB type from the library",
           "hierarchy": "Database TokyoTyrant FFI",
+          "indexed": "2014-03-11T20:24:04",
           "module": "Database.TokyoTyrant.FFI",
           "name": "Connection",
           "package": "tokyotyrant-haskell",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a connection to Tokyo Tyrant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:04 UTC 2014",
           "module": "Database.TokyoTyrant.FFI",
           "name": "close",
           "package": "tokyotyrant-haskell",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Close connection to Tokyo Tyrant",
           "hierarchy": "Database TokyoTyrant FFI",
+          "indexed": "2014-03-11T20:24:04",
           "module": "Database.TokyoTyrant.FFI",
           "name": "close",
           "normalized": "Connection-\u003eIO()",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a value from the DB\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:04 UTC 2014",
           "module": "Database.TokyoTyrant.FFI",
           "name": "delete",
           "package": "tokyotyrant-haskell",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Delete value from the DB",
           "hierarchy": "Database TokyoTyrant FFI",
+          "indexed": "2014-03-11T20:24:04",
           "module": "Database.TokyoTyrant.FFI",
           "name": "delete",
           "normalized": "Connection-\u003eByteString-\u003eIO(Either String())",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch keys by prefix. Returns a list of matching keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:04 UTC 2014",
           "module": "Database.TokyoTyrant.FFI",
           "name": "fwmkeys",
           "package": "tokyotyrant-haskell",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Search keys by prefix Returns list of matching keys",
           "hierarchy": "Database TokyoTyrant FFI",
+          "indexed": "2014-03-11T20:24:04",
           "module": "Database.TokyoTyrant.FFI",
           "name": "fwmkeys",
           "normalized": "Connection-\u003eByteString-\u003eInt-\u003eIO(Either String[ByteString])",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a value from the database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:04 UTC 2014",
           "module": "Database.TokyoTyrant.FFI",
           "name": "get",
           "package": "tokyotyrant-haskell",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Get value from the database",
           "hierarchy": "Database TokyoTyrant FFI",
+          "indexed": "2014-03-11T20:24:04",
           "module": "Database.TokyoTyrant.FFI",
           "name": "get",
           "normalized": "Connection-\u003eByteString-\u003eIO(Either String(Maybe ByteString))",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet multiple values from the database. On success, returns `Right kvps`.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:04 UTC 2014",
           "module": "Database.TokyoTyrant.FFI",
           "name": "mget",
           "package": "tokyotyrant-haskell",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Get multiple values from the database On success returns Right kvps",
           "hierarchy": "Database TokyoTyrant FFI",
+          "indexed": "2014-03-11T20:24:04",
           "module": "Database.TokyoTyrant.FFI",
           "name": "mget",
           "normalized": "Connection-\u003e[ByteString]-\u003eIO(Either String[(ByteString,ByteString)])",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut multiple values to the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:04 UTC 2014",
           "module": "Database.TokyoTyrant.FFI",
           "name": "mput",
           "package": "tokyotyrant-haskell",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Put multiple values to the database",
           "hierarchy": "Database TokyoTyrant FFI",
+          "indexed": "2014-03-11T20:24:04",
           "module": "Database.TokyoTyrant.FFI",
           "name": "mput",
           "normalized": "Connection-\u003e[(ByteString,ByteString)]-\u003eIO(Either String())",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a connection to Tokyo Tyrant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:04 UTC 2014",
           "module": "Database.TokyoTyrant.FFI",
           "name": "open",
           "package": "tokyotyrant-haskell",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Open connection to Tokyo Tyrant",
           "hierarchy": "Database TokyoTyrant FFI",
+          "indexed": "2014-03-11T20:24:04",
           "module": "Database.TokyoTyrant.FFI",
           "name": "open",
           "normalized": "ByteString-\u003eInt-\u003eIO(Either String Connection)",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a value in the database (destructive, overwrites any existing\n   value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:04 UTC 2014",
           "module": "Database.TokyoTyrant.FFI",
           "name": "put",
           "package": "tokyotyrant-haskell",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Store value in the database destructive overwrites any existing value",
           "hierarchy": "Database TokyoTyrant FFI",
+          "indexed": "2014-03-11T20:24:04",
           "module": "Database.TokyoTyrant.FFI",
           "name": "put",
           "normalized": "Connection-\u003eByteString-\u003eByteString-\u003eIO(Either String())",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a value in the database (non-destructive, does nothing if the key\n   already exists)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:04 UTC 2014",
           "module": "Database.TokyoTyrant.FFI",
           "name": "putKeep",
           "package": "tokyotyrant-haskell",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Store value in the database non-destructive does nothing if the key already exists",
           "hierarchy": "Database TokyoTyrant FFI",
+          "indexed": "2014-03-11T20:24:04",
           "module": "Database.TokyoTyrant.FFI",
           "name": "putKeep",
           "normalized": "Connection-\u003eByteString-\u003eByteString-\u003eIO(Either String())",
@@ -283,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all KVPs in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:04 UTC 2014",
           "module": "Database.TokyoTyrant.FFI",
           "name": "vanish",
           "package": "tokyotyrant-haskell",
@@ -293,6 +316,7 @@
         "index": {
           "description": "Delete all KVPs in the database",
           "hierarchy": "Database TokyoTyrant FFI",
+          "indexed": "2014-03-11T20:24:04",
           "module": "Database.TokyoTyrant.FFI",
           "name": "vanish",
           "normalized": "Connection-\u003eIO(Either String())",

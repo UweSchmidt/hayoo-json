@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "word8"
+        "phrase": "word8",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChar8 library to be used with Data.ByteString.Char8.\n All function assumes that only 8bit part of \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e is used\n and it is encoded in Latin-1 (ISO-8859-1).\n All utility functions are supposed to work as if\n those of \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e. Exceptions are described in\n the function documentations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "Char8",
           "package": "word8",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Char8 library to be used with Data.ByteString.Char8 All function assumes that only bit part of Char is used and it is encoded in Latin-1 ISO-8859-1 All utility functions are supposed to work as if those of Char Exceptions are described in the function documentations",
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "Char8",
           "package": "word8",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isAlpha",
           "package": "word8",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isAlpha",
           "normalized": "Char-\u003eBool",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isAlphaNum",
           "package": "word8",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isAlphaNum",
           "normalized": "Char-\u003eBool",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isAscii",
           "package": "word8",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isAscii",
           "normalized": "Char-\u003eBool",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isAsciiLower",
           "package": "word8",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isAsciiLower",
           "normalized": "Char-\u003eBool",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isAsciiUpper",
           "package": "word8",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isAsciiUpper",
           "normalized": "Char-\u003eBool",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isControl",
           "package": "word8",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isControl",
           "normalized": "Char-\u003eBool",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isDigit",
           "package": "word8",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isDigit",
           "normalized": "Char-\u003eBool",
@@ -209,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isHexDigit",
           "package": "word8",
@@ -218,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isHexDigit",
           "normalized": "Char-\u003eBool",
@@ -233,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isLatin1",
           "package": "word8",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isLatin1",
           "normalized": "Char-\u003eBool",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isLetter",
           "package": "word8",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isLetter",
           "normalized": "Char-\u003eBool",
@@ -281,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isLower",
           "package": "word8",
@@ -290,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isLower",
           "normalized": "Char-\u003eBool",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isMark",
           "package": "word8",
@@ -314,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isMark",
           "normalized": "Char-\u003eBool",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isNumber",
           "package": "word8",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isNumber",
           "normalized": "Char-\u003eBool",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isOctDigit",
           "package": "word8",
@@ -362,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isOctDigit",
           "normalized": "Char-\u003eBool",
@@ -377,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isPrint",
           "package": "word8",
@@ -386,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isPrint",
           "normalized": "Char-\u003eBool",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isPunctuation",
           "package": "word8",
@@ -410,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isPunctuation",
           "normalized": "Char-\u003eBool",
@@ -425,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isSeparator",
           "package": "word8",
@@ -434,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isSeparator",
           "normalized": "Char-\u003eBool",
@@ -449,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isSpace",
           "package": "word8",
@@ -458,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isSpace",
           "normalized": "Char-\u003eBool",
@@ -473,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isSymbol",
           "package": "word8",
@@ -482,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isSymbol",
           "normalized": "Char-\u003eBool",
@@ -497,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "isUpper",
           "package": "word8",
@@ -506,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "isUpper",
           "normalized": "Char-\u003eBool",
@@ -521,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "toLower",
           "package": "word8",
@@ -530,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "toLower",
           "normalized": "Char-\u003eChar",
@@ -546,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMicro sign/mu (0xb5) and small letter Y with diaeresis (0xff) remain the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "toTitle",
           "package": "word8",
@@ -556,6 +601,7 @@
         "index": {
           "description": "Micro sign mu xb5 and small letter with diaeresis xff remain the same",
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "toTitle",
           "normalized": "Char-\u003eChar",
@@ -572,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMicro sign/mu (0xb5) and small letter Y with diaeresis (0xff) remain the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Char8",
           "name": "toUpper",
           "package": "word8",
@@ -582,6 +629,7 @@
         "index": {
           "description": "Micro sign mu xb5 and small letter with diaeresis xff remain the same",
           "hierarchy": "Data Char8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Char8",
           "name": "toUpper",
           "normalized": "Char-\u003eChar",
@@ -598,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWord8 library to be used with Data.ByteString.\n All function assumes that \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e is encoded in Latin-1 (ISO-8859-1).\n All utility functions are supposed to work as if\n those of \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e. Exceptions are described in\n the function documentations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "Word8",
           "package": "word8",
@@ -607,6 +656,7 @@
         "index": {
           "description": "Word8 library to be used with Data.ByteString All function assumes that Word8 is encoded in Latin-1 ISO-8859-1 All utility functions are supposed to work as if those of Char Exceptions are described in the function documentations",
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "Word8",
           "package": "word8",
@@ -621,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "Word8",
           "package": "word8",
@@ -629,6 +680,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "Word8",
           "package": "word8",
@@ -642,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_0",
           "package": "word8",
@@ -651,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_0",
           "package": "word8",
@@ -663,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_1",
           "package": "word8",
@@ -672,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_1",
           "package": "word8",
@@ -684,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_1'2",
           "package": "word8",
@@ -693,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_1'2",
           "package": "word8",
@@ -705,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_1'4",
           "package": "word8",
@@ -714,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_1'4",
           "package": "word8",
@@ -726,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_2",
           "package": "word8",
@@ -735,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_2",
           "package": "word8",
@@ -747,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_3",
           "package": "word8",
@@ -756,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_3",
           "package": "word8",
@@ -768,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_3'4",
           "package": "word8",
@@ -777,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_3'4",
           "package": "word8",
@@ -789,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_4",
           "package": "word8",
@@ -798,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_4",
           "package": "word8",
@@ -810,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_5",
           "package": "word8",
@@ -819,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_5",
           "package": "word8",
@@ -831,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_6",
           "package": "word8",
@@ -840,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_6",
           "package": "word8",
@@ -852,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_7",
           "package": "word8",
@@ -861,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_7",
           "package": "word8",
@@ -873,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_8",
           "package": "word8",
@@ -882,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_8",
           "package": "word8",
@@ -894,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_9",
           "package": "word8",
@@ -903,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_9",
           "package": "word8",
@@ -915,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_A",
           "package": "word8",
@@ -924,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_A",
           "package": "word8",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_Agrave",
           "package": "word8",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_Agrave",
           "package": "word8",
@@ -958,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_B",
           "package": "word8",
@@ -967,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_B",
           "package": "word8",
@@ -979,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_C",
           "package": "word8",
@@ -988,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_C",
           "package": "word8",
@@ -1000,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_D",
           "package": "word8",
@@ -1009,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_D",
           "package": "word8",
@@ -1021,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_E",
           "package": "word8",
@@ -1030,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_E",
           "package": "word8",
@@ -1042,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_F",
           "package": "word8",
@@ -1051,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_F",
           "package": "word8",
@@ -1063,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_G",
           "package": "word8",
@@ -1072,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_G",
           "package": "word8",
@@ -1084,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_H",
           "package": "word8",
@@ -1093,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_H",
           "package": "word8",
@@ -1105,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_I",
           "package": "word8",
@@ -1114,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_I",
           "package": "word8",
@@ -1126,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_J",
           "package": "word8",
@@ -1135,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_J",
           "package": "word8",
@@ -1147,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_K",
           "package": "word8",
@@ -1156,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_K",
           "package": "word8",
@@ -1168,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_L",
           "package": "word8",
@@ -1177,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_L",
           "package": "word8",
@@ -1189,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_M",
           "package": "word8",
@@ -1198,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_M",
           "package": "word8",
@@ -1210,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_N",
           "package": "word8",
@@ -1219,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_N",
           "package": "word8",
@@ -1231,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_O",
           "package": "word8",
@@ -1240,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_O",
           "package": "word8",
@@ -1252,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_Odieresis",
           "package": "word8",
@@ -1261,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_Odieresis",
           "package": "word8",
@@ -1274,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_Oslash",
           "package": "word8",
@@ -1283,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_Oslash",
           "package": "word8",
@@ -1296,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_P",
           "package": "word8",
@@ -1305,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_P",
           "package": "word8",
@@ -1317,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_Q",
           "package": "word8",
@@ -1326,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_Q",
           "package": "word8",
@@ -1338,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_R",
           "package": "word8",
@@ -1347,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_R",
           "package": "word8",
@@ -1359,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_S",
           "package": "word8",
@@ -1368,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_S",
           "package": "word8",
@@ -1380,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_T",
           "package": "word8",
@@ -1389,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_T",
           "package": "word8",
@@ -1401,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_Thorn",
           "package": "word8",
@@ -1410,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_Thorn",
           "package": "word8",
@@ -1423,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_U",
           "package": "word8",
@@ -1432,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_U",
           "package": "word8",
@@ -1444,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_V",
           "package": "word8",
@@ -1453,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_V",
           "package": "word8",
@@ -1465,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_W",
           "package": "word8",
@@ -1474,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_W",
           "package": "word8",
@@ -1486,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_X",
           "package": "word8",
@@ -1495,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_X",
           "package": "word8",
@@ -1507,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_Y",
           "package": "word8",
@@ -1516,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_Y",
           "package": "word8",
@@ -1528,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_Z",
           "package": "word8",
@@ -1537,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_Z",
           "package": "word8",
@@ -1549,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_a",
           "package": "word8",
@@ -1558,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_a",
           "package": "word8",
@@ -1570,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_agrave",
           "package": "word8",
@@ -1579,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_agrave",
           "package": "word8",
@@ -1591,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_ampersand",
           "package": "word8",
@@ -1600,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_ampersand",
           "package": "word8",
@@ -1612,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_asterisk",
           "package": "word8",
@@ -1621,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_asterisk",
           "package": "word8",
@@ -1633,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_at",
           "package": "word8",
@@ -1642,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_at",
           "package": "word8",
@@ -1654,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_b",
           "package": "word8",
@@ -1663,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_b",
           "package": "word8",
@@ -1675,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_backslash",
           "package": "word8",
@@ -1684,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_backslash",
           "package": "word8",
@@ -1696,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_bar",
           "package": "word8",
@@ -1705,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_bar",
           "package": "word8",
@@ -1717,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_blaceleft",
           "package": "word8",
@@ -1726,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_blaceleft",
           "package": "word8",
@@ -1738,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_braceright",
           "package": "word8",
@@ -1747,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_braceright",
           "package": "word8",
@@ -1759,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_bracketright",
           "package": "word8",
@@ -1768,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_bracketright",
           "package": "word8",
@@ -1780,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_braketleft",
           "package": "word8",
@@ -1789,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_braketleft",
           "package": "word8",
@@ -1801,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_c",
           "package": "word8",
@@ -1810,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_c",
           "package": "word8",
@@ -1822,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_circum",
           "package": "word8",
@@ -1831,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_circum",
           "package": "word8",
@@ -1843,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_colon",
           "package": "word8",
@@ -1852,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_colon",
           "package": "word8",
@@ -1864,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_comma",
           "package": "word8",
@@ -1873,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_comma",
           "package": "word8",
@@ -1885,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_cr",
           "package": "word8",
@@ -1894,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_cr",
           "package": "word8",
@@ -1906,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_d",
           "package": "word8",
@@ -1915,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_d",
           "package": "word8",
@@ -1927,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_del",
           "package": "word8",
@@ -1936,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_del",
           "package": "word8",
@@ -1948,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_dollar",
           "package": "word8",
@@ -1957,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_dollar",
           "package": "word8",
@@ -1969,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_e",
           "package": "word8",
@@ -1978,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_e",
           "package": "word8",
@@ -1990,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_equal",
           "package": "word8",
@@ -1999,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_equal",
           "package": "word8",
@@ -2011,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_exclam",
           "package": "word8",
@@ -2020,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_exclam",
           "package": "word8",
@@ -2032,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_f",
           "package": "word8",
@@ -2041,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_f",
           "package": "word8",
@@ -2053,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_g",
           "package": "word8",
@@ -2062,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_g",
           "package": "word8",
@@ -2074,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_germandbls",
           "package": "word8",
@@ -2083,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_germandbls",
           "package": "word8",
@@ -2095,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_grave",
           "package": "word8",
@@ -2104,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_grave",
           "package": "word8",
@@ -2116,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_greater",
           "package": "word8",
@@ -2125,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_greater",
           "package": "word8",
@@ -2137,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_h",
           "package": "word8",
@@ -2146,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_h",
           "package": "word8",
@@ -2158,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_hyphen",
           "package": "word8",
@@ -2167,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_hyphen",
           "package": "word8",
@@ -2179,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_i",
           "package": "word8",
@@ -2188,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_i",
           "package": "word8",
@@ -2200,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_j",
           "package": "word8",
@@ -2209,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_j",
           "package": "word8",
@@ -2221,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_k",
           "package": "word8",
@@ -2230,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_k",
           "package": "word8",
@@ -2242,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_l",
           "package": "word8",
@@ -2251,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_l",
           "package": "word8",
@@ -2263,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_less",
           "package": "word8",
@@ -2272,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_less",
           "package": "word8",
@@ -2284,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_lf",
           "package": "word8",
@@ -2293,6 +2502,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_lf",
           "package": "word8",
@@ -2305,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_m",
           "package": "word8",
@@ -2314,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_m",
           "package": "word8",
@@ -2326,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_mu",
           "package": "word8",
@@ -2335,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_mu",
           "package": "word8",
@@ -2347,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_n",
           "package": "word8",
@@ -2356,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_n",
           "package": "word8",
@@ -2368,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_nbsp",
           "package": "word8",
@@ -2377,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_nbsp",
           "package": "word8",
@@ -2389,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_np",
           "package": "word8",
@@ -2398,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_np",
           "package": "word8",
@@ -2410,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_nul",
           "package": "word8",
@@ -2419,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_nul",
           "package": "word8",
@@ -2431,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_numbersign",
           "package": "word8",
@@ -2440,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_numbersign",
           "package": "word8",
@@ -2452,6 +2676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_o",
           "package": "word8",
@@ -2461,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_o",
           "package": "word8",
@@ -2473,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_odieresis",
           "package": "word8",
@@ -2482,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_odieresis",
           "package": "word8",
@@ -2494,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_ordfeminine",
           "package": "word8",
@@ -2503,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_ordfeminine",
           "package": "word8",
@@ -2515,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_ordmasculine",
           "package": "word8",
@@ -2524,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_ordmasculine",
           "package": "word8",
@@ -2536,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_oslash",
           "package": "word8",
@@ -2545,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_oslash",
           "package": "word8",
@@ -2557,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_p",
           "package": "word8",
@@ -2566,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_p",
           "package": "word8",
@@ -2578,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_parenleft",
           "package": "word8",
@@ -2587,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_parenleft",
           "package": "word8",
@@ -2599,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_parenright",
           "package": "word8",
@@ -2608,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_parenright",
           "package": "word8",
@@ -2620,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_percent",
           "package": "word8",
@@ -2629,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_percent",
           "package": "word8",
@@ -2641,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_period",
           "package": "word8",
@@ -2650,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_period",
           "package": "word8",
@@ -2662,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_plus",
           "package": "word8",
@@ -2671,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_plus",
           "package": "word8",
@@ -2683,6 +2929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_q",
           "package": "word8",
@@ -2692,6 +2939,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_q",
           "package": "word8",
@@ -2704,6 +2952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_question",
           "package": "word8",
@@ -2713,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_question",
           "package": "word8",
@@ -2725,6 +2975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_quotedbl",
           "package": "word8",
@@ -2734,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_quotedbl",
           "package": "word8",
@@ -2746,6 +2998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_quotesingle",
           "package": "word8",
@@ -2755,6 +3008,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_quotesingle",
           "package": "word8",
@@ -2767,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_r",
           "package": "word8",
@@ -2776,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_r",
           "package": "word8",
@@ -2788,6 +3044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_s",
           "package": "word8",
@@ -2797,6 +3054,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_s",
           "package": "word8",
@@ -2809,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_s1",
           "package": "word8",
@@ -2818,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_s1",
           "package": "word8",
@@ -2830,6 +3090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_s2",
           "package": "word8",
@@ -2839,6 +3100,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_s2",
           "package": "word8",
@@ -2851,6 +3113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_s3",
           "package": "word8",
@@ -2860,6 +3123,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_s3",
           "package": "word8",
@@ -2872,6 +3136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_semicolon",
           "package": "word8",
@@ -2881,6 +3146,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_semicolon",
           "package": "word8",
@@ -2893,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_slash",
           "package": "word8",
@@ -2902,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_slash",
           "package": "word8",
@@ -2914,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_softhyphen",
           "package": "word8",
@@ -2923,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_softhyphen",
           "package": "word8",
@@ -2935,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_space",
           "package": "word8",
@@ -2944,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_space",
           "package": "word8",
@@ -2956,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_t",
           "package": "word8",
@@ -2965,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_t",
           "package": "word8",
@@ -2977,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_tab",
           "package": "word8",
@@ -2986,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_tab",
           "package": "word8",
@@ -2998,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_thorn",
           "package": "word8",
@@ -3007,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_thorn",
           "package": "word8",
@@ -3019,6 +3297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_tilde",
           "package": "word8",
@@ -3028,6 +3307,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_tilde",
           "package": "word8",
@@ -3040,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_u",
           "package": "word8",
@@ -3049,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_u",
           "package": "word8",
@@ -3061,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_underscore",
           "package": "word8",
@@ -3070,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_underscore",
           "package": "word8",
@@ -3082,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_v",
           "package": "word8",
@@ -3091,6 +3376,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_v",
           "package": "word8",
@@ -3103,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_vt",
           "package": "word8",
@@ -3112,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_vt",
           "package": "word8",
@@ -3124,6 +3412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_w",
           "package": "word8",
@@ -3133,6 +3422,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_w",
           "package": "word8",
@@ -3145,6 +3435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_x",
           "package": "word8",
@@ -3154,6 +3445,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_x",
           "package": "word8",
@@ -3166,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_y",
           "package": "word8",
@@ -3175,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_y",
           "package": "word8",
@@ -3187,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_ydieresis",
           "package": "word8",
@@ -3196,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_ydieresis",
           "package": "word8",
@@ -3208,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "_z",
           "package": "word8",
@@ -3217,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "_z",
           "package": "word8",
@@ -3229,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isAlpha",
           "package": "word8",
@@ -3238,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isAlpha",
           "normalized": "Word-\u003eBool",
@@ -3253,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isAlphaNum",
           "package": "word8",
@@ -3262,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isAlphaNum",
           "normalized": "Word-\u003eBool",
@@ -3277,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isAscii",
           "package": "word8",
@@ -3286,6 +3589,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isAscii",
           "normalized": "Word-\u003eBool",
@@ -3301,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isAsciiLower",
           "package": "word8",
@@ -3310,6 +3615,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isAsciiLower",
           "normalized": "Word-\u003eBool",
@@ -3325,6 +3631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isAsciiUpper",
           "package": "word8",
@@ -3334,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isAsciiUpper",
           "normalized": "Word-\u003eBool",
@@ -3349,6 +3657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isControl",
           "package": "word8",
@@ -3358,6 +3667,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isControl",
           "normalized": "Word-\u003eBool",
@@ -3373,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isDigit",
           "package": "word8",
@@ -3382,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isDigit",
           "normalized": "Word-\u003eBool",
@@ -3397,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isHexDigit",
           "package": "word8",
@@ -3406,6 +3719,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isHexDigit",
           "normalized": "Word-\u003eBool",
@@ -3421,6 +3735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isLatin1",
           "package": "word8",
@@ -3430,6 +3745,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isLatin1",
           "normalized": "Word-\u003eBool",
@@ -3445,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isLetter",
           "package": "word8",
@@ -3454,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isLetter",
           "normalized": "Word-\u003eBool",
@@ -3469,6 +3787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isLower",
           "package": "word8",
@@ -3478,6 +3797,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isLower",
           "normalized": "Word-\u003eBool",
@@ -3493,6 +3813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isMark",
           "package": "word8",
@@ -3502,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isMark",
           "normalized": "Word-\u003eBool",
@@ -3517,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isNumber",
           "package": "word8",
@@ -3526,6 +3849,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isNumber",
           "normalized": "Word-\u003eBool",
@@ -3541,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isOctDigit",
           "package": "word8",
@@ -3550,6 +3875,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isOctDigit",
           "normalized": "Word-\u003eBool",
@@ -3565,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isPrint",
           "package": "word8",
@@ -3574,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isPrint",
           "normalized": "Word-\u003eBool",
@@ -3589,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isPunctuation",
           "package": "word8",
@@ -3598,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isPunctuation",
           "normalized": "Word-\u003eBool",
@@ -3613,6 +3943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isSeparator",
           "package": "word8",
@@ -3622,6 +3953,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isSeparator",
           "normalized": "Word-\u003eBool",
@@ -3637,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isSpace",
           "package": "word8",
@@ -3646,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isSpace",
           "normalized": "Word-\u003eBool",
@@ -3661,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isSymbol",
           "package": "word8",
@@ -3670,6 +4005,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isSymbol",
           "normalized": "Word-\u003eBool",
@@ -3685,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "isUpper",
           "package": "word8",
@@ -3694,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "isUpper",
           "normalized": "Word-\u003eBool",
@@ -3709,6 +4047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "toLower",
           "package": "word8",
@@ -3718,6 +4057,7 @@
         },
         "index": {
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "toLower",
           "normalized": "Word-\u003eWord",
@@ -3734,6 +4074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMicro sign/mu (0xb5) and small letter Y with diaeresis (0xff) remain the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "toTitle",
           "package": "word8",
@@ -3744,6 +4085,7 @@
         "index": {
           "description": "Micro sign mu xb5 and small letter with diaeresis xff remain the same",
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "toTitle",
           "normalized": "Word-\u003eWord",
@@ -3760,6 +4102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMicro sign/mu (0xb5) and small letter Y with diaeresis (0xff) remain the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:36 UTC 2014",
           "module": "Data.Word8",
           "name": "toUpper",
           "package": "word8",
@@ -3770,6 +4113,7 @@
         "index": {
           "description": "Micro sign mu xb5 and small letter with diaeresis xff remain the same",
           "hierarchy": "Data Word8",
+          "indexed": "2014-03-11T20:39:36",
           "module": "Data.Word8",
           "name": "toUpper",
           "normalized": "Word-\u003eWord",

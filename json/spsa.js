@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "spsa"
+        "phrase": "spsa",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.LossFunctions",
           "name": "LossFunctions",
           "package": "spsa",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Math Optimization LossFunctions",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.LossFunctions",
           "name": "LossFunctions",
           "package": "spsa",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.LossFunctions",
           "name": "absSum",
           "package": "spsa",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Math Optimization LossFunctions",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.LossFunctions",
           "name": "absSum",
           "package": "spsa",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.LossFunctions",
           "name": "rosenbrock",
           "package": "spsa",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Math Optimization LossFunctions",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.LossFunctions",
           "name": "rosenbrock",
           "package": "spsa",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "SPSA",
           "package": "spsa",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "SPSA",
           "package": "spsa",
@@ -104,6 +112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstraint Function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "ConstraintFn",
           "package": "spsa",
@@ -113,6 +122,7 @@
         "index": {
           "description": "Constraint Function",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "ConstraintFn",
           "package": "spsa",
@@ -127,6 +137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoss Function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "LossFn",
           "package": "spsa",
@@ -136,6 +147,7 @@
         "index": {
           "description": "Loss Function",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "LossFn",
           "package": "spsa",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "StateSPSA",
           "package": "spsa",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "StateSPSA",
           "package": "spsa",
@@ -171,6 +185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stopping criteria is a function of current iteration number, last iteration theta, and current theta\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "StoppingCriteria",
           "package": "spsa",
@@ -180,6 +195,7 @@
         "index": {
           "description": "stopping criteria is function of current iteration number last iteration theta and current theta",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "StoppingCriteria",
           "package": "spsa",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "Iterations",
           "package": "spsa",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "Iterations",
           "package": "spsa",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "NormDiff",
           "package": "spsa",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "NormDiff",
           "package": "spsa",
@@ -238,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a bernoulli +1 / -1 distributed infinite series of perturbation vectors based on seed and dimension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "bernoulli",
           "package": "spsa",
@@ -248,6 +269,7 @@
         "index": {
           "description": "Create bernoulli distributed infinite series of perturbation vectors based on seed and dimension",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "bernoulli",
           "normalized": "Int-\u003eInt-\u003e[Vector Double]",
@@ -263,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck to make sure all required fields are filled\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "checkSPSA",
           "package": "spsa",
@@ -273,6 +296,7 @@
         "index": {
           "description": "Check to make sure all required fields are filled",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "checkSPSA",
           "normalized": "Vector Double-\u003eStateSPSA()",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a default SPSA instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "defaultSPSA",
           "package": "spsa",
@@ -299,6 +324,7 @@
         "index": {
           "description": "Make default SPSA instance",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "defaultSPSA",
           "package": "spsa",
@@ -313,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the constraint function out of StateSPSA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "getConstraint",
           "package": "spsa",
@@ -323,6 +350,7 @@
         "index": {
           "description": "Get the constraint function out of StateSPSA",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "getConstraint",
           "package": "spsa",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the iteration count\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "getIterations",
           "package": "spsa",
@@ -347,6 +376,7 @@
         "index": {
           "description": "Get the iteration count",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "getIterations",
           "package": "spsa",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the loss function out of StateSPSA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "getLoss",
           "package": "spsa",
@@ -371,6 +402,7 @@
         "index": {
           "description": "Get the loss function out of StateSPSA",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "getLoss",
           "package": "spsa",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the stopping functions out of StateSPSA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "getStop",
           "package": "spsa",
@@ -395,6 +428,7 @@
         "index": {
           "description": "Get the stopping functions out of StateSPSA",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "getStop",
           "normalized": "StateSPSA[StoppingCriteria]",
@@ -411,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement the iteration count\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "incrementIteration",
           "package": "spsa",
@@ -421,6 +456,7 @@
         "index": {
           "description": "Increment the iteration count",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "incrementIteration",
           "package": "spsa",
@@ -435,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeel the next value from the two gain sequences and the perturbation vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "peelAll",
           "package": "spsa",
@@ -445,6 +482,7 @@
         "index": {
           "description": "Peel the next value from the two gain sequences and the perturbation vectors",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "peelAll",
           "normalized": "StateSPSA(Double,Double,Vector Double)",
@@ -461,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush a stopping criteria onto SPSA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "pushStopCrit",
           "package": "spsa",
@@ -471,6 +510,7 @@
         "index": {
           "description": "Push stopping criteria onto SPSA",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "pushStopCrit",
           "normalized": "StoppingCriteria-\u003eStateSPSA()",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExported runSPSA function to extract the SPSA type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "runSPSA",
           "package": "spsa",
@@ -497,6 +538,7 @@
         "index": {
           "description": "Exported runSPSA function to extract the SPSA type",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "runSPSA",
           "normalized": "StateSPSA a-\u003eVector Double-\u003eVector Double",
@@ -513,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet semiautomatic tuning for the gain sequences\n | c should be about the standard deviation of a measurement\n | a is set how much you want the first iteration to move\n | A is set to be 10% of expected iterations\n | alpha and gamma are set to the lowest values for best finite iteration performance (not infinitely optimal)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "semiautomaticTuning",
           "package": "spsa",
@@ -523,6 +566,7 @@
         "index": {
           "description": "Set semiautomatic tuning for the gain sequences should be about the standard deviation of measurement is set how much you want the first iteration to move is set to be of expected iterations alpha and gamma are set to the lowest values for best finite iteration performance not infinitely optimal",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "semiautomaticTuning",
           "normalized": "Int-\u003eDouble-\u003eDouble-\u003eStateSPSA()",
@@ -539,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the constraint function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "setConstraint",
           "package": "spsa",
@@ -549,6 +594,7 @@
         "index": {
           "description": "Set the constraint function",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "setConstraint",
           "normalized": "ConstraintFn-\u003eStateSPSA()",
@@ -565,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the gainA sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "setGainA",
           "package": "spsa",
@@ -575,6 +622,7 @@
         "index": {
           "description": "Set the gainA sequence",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "setGainA",
           "normalized": "[Double]-\u003eStateSPSA()",
@@ -591,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the gainC sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "setGainC",
           "package": "spsa",
@@ -601,6 +650,7 @@
         "index": {
           "description": "Set the gainC sequence",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "setGainC",
           "normalized": "[Double]-\u003eStateSPSA()",
@@ -617,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the loss function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "setLoss",
           "package": "spsa",
@@ -627,6 +678,7 @@
         "index": {
           "description": "Set the loss function",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "setLoss",
           "normalized": "LossFn-\u003eStateSPSA()",
@@ -643,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the perturbation sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "setPerturbation",
           "package": "spsa",
@@ -653,6 +706,7 @@
         "index": {
           "description": "Set the perturbation sequence",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "setPerturbation",
           "normalized": "[Vector Double]-\u003eStateSPSA()",
@@ -669,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck to see if we should stop based on the critieria, iteration count, last and current iteration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "shouldStop",
           "package": "spsa",
@@ -679,6 +734,7 @@
         "index": {
           "description": "Check to see if we should stop based on the critieria iteration count last and current iteration",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "shouldStop",
           "normalized": "StoppingCriteria-\u003eInt-\u003eVector Double-\u003eVector Double-\u003eBool",
@@ -695,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard gain sequence for a_k = a / (k + 1 + A) ^ alpha\n | a is the most important and variable tuning parameter. Start with it set to get desired change in first iteration.\n | A is usually set to 10% of expected iterations\n | alpha is usually set to 0.602, but is valid up to 1.0 (the optimal for infinite iterations)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "standardGainAk",
           "package": "spsa",
@@ -705,6 +762,7 @@
         "index": {
           "description": "Standard gain sequence for alpha is the most important and variable tuning parameter Start with it set to get desired change in first iteration is usually set to of expected iterations alpha is usually set to but is valid up to the optimal for infinite iterations",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "standardGainAk",
           "normalized": "Double-\u003eInt-\u003eDouble-\u003e[Double]",
@@ -721,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard gain sequence for c_k\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:56 UTC 2014",
           "module": "Math.Optimization.SPSA",
           "name": "standardGainCk",
           "package": "spsa",
@@ -731,6 +790,7 @@
         "index": {
           "description": "Standard gain sequence for",
           "hierarchy": "Math Optimization SPSA",
+          "indexed": "2014-03-11T20:08:56",
           "module": "Math.Optimization.SPSA",
           "name": "standardGainCk",
           "normalized": "Double-\u003eDouble-\u003e[Double]",

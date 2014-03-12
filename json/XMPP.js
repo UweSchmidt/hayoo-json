@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "XMPP"
+        "phrase": "XMPP",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of Multi-User Chat, according to XEP-0045.  This\n API needs more thought and will change.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "MUC",
           "package": "XMPP",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implementation of Multi-User Chat according to XEP-0045 This API needs more thought and will change",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "MUC",
           "package": "XMPP",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "Affiliation",
           "package": "XMPP",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "Affiliation",
           "package": "XMPP",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroupchat presence. Leave, Kick and Ban are role change too of\n course, but it separated for simplicity sake.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "GroupchatPresence",
           "package": "XMPP",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Groupchat presence Leave Kick and Ban are role change too of course but it separated for simplicity sake",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "GroupchatPresence",
           "package": "XMPP",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "JID",
           "package": "XMPP",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "JID",
           "package": "XMPP",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "Nick",
           "package": "XMPP",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "Nick",
           "package": "XMPP",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroupchat occupant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "Occupant",
           "package": "XMPP",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Groupchat occupant",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "Occupant",
           "package": "XMPP",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "Role",
           "package": "XMPP",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "Role",
           "package": "XMPP",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "AAdmin",
           "package": "XMPP",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "AAdmin",
           "package": "XMPP",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "AMember",
           "package": "XMPP",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "AMember",
           "package": "XMPP",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "ANone",
           "package": "XMPP",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "ANone",
           "package": "XMPP",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "AOutcast",
           "package": "XMPP",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "AOutcast",
           "package": "XMPP",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "AOwner",
           "package": "XMPP",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "AOwner",
           "package": "XMPP",
@@ -282,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBan reason\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "Ban",
           "package": "XMPP",
@@ -292,6 +317,7 @@
         "index": {
           "description": "Ban reason",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "Ban",
           "package": "XMPP",
@@ -306,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKick reason\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "Kick",
           "package": "XMPP",
@@ -316,6 +343,7 @@
         "index": {
           "description": "Kick reason",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "Kick",
           "package": "XMPP",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "Leave",
           "package": "XMPP",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "Leave",
           "package": "XMPP",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew nick\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "NickChange",
           "package": "XMPP",
@@ -362,6 +393,7 @@
         "index": {
           "description": "New nick",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "NickChange",
           "package": "XMPP",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "Occupant",
           "package": "XMPP",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "Occupant",
           "package": "XMPP",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "RModerator",
           "package": "XMPP",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "RModerator",
           "package": "XMPP",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "RNone",
           "package": "XMPP",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "RNone",
           "package": "XMPP",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "RParticipant",
           "package": "XMPP",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "RParticipant",
           "package": "XMPP",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "RVisitor",
           "package": "XMPP",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "RVisitor",
           "package": "XMPP",
@@ -486,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRole change (also show/status\n change) with reason.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "RoleChange",
           "package": "XMPP",
@@ -496,6 +539,7 @@
         "index": {
           "description": "Role change also show status change with reason",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "RoleChange",
           "package": "XMPP",
@@ -510,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo admin actions in groupchat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "adminGroupchat",
           "package": "XMPP",
@@ -519,6 +564,7 @@
         "index": {
           "description": "Do admin actions in groupchat",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "adminGroupchat",
           "normalized": "Either Nick JID-\u003eString-\u003eString-\u003eMaybe String-\u003eXMPP()",
@@ -535,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate groupchat presence from stanza.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "doGroupchatPresence",
           "package": "XMPP",
@@ -545,6 +592,7 @@
         "index": {
           "description": "Create groupchat presence from stanza",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "doGroupchatPresence",
           "normalized": "XMLElem-\u003e(GroupchatPresence,Occupant)",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "getMessageSubject",
           "package": "XMPP",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "getMessageSubject",
           "normalized": "XMLElem-\u003eMaybe String",
@@ -585,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the stanza is a message of type \"groupchat\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "isGroupchatMessage",
           "package": "XMPP",
@@ -595,6 +646,7 @@
         "index": {
           "description": "Return true if the stanza is message of type groupchat",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "isGroupchatMessage",
           "package": "XMPP",
@@ -609,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandler for groupchat events (join\u003cem\u003eleave\u003c/em\u003ekicks\u003cem\u003ebans\u003c/em\u003eetc).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "isGroupchatPresence",
           "package": "XMPP",
@@ -619,6 +672,7 @@
         "index": {
           "description": "Handler for groupchat events join leave kicks bans etc",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "isGroupchatPresence",
           "package": "XMPP",
@@ -633,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the stanza is a private message in the named room.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "isGroupchatPrivmsg",
           "package": "XMPP",
@@ -643,6 +698,7 @@
         "index": {
           "description": "Return true if the stanza is private message in the named room",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "isGroupchatPrivmsg",
           "normalized": "String-\u003eStanzaPredicate",
@@ -659,6 +715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin groupchat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "joinGroupchat",
           "package": "XMPP",
@@ -668,6 +725,7 @@
         "index": {
           "description": "Join groupchat",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "joinGroupchat",
           "normalized": "String-\u003eString-\u003eMaybe String-\u003eXMPP()",
@@ -684,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeave groupchat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "leaveGroupchat",
           "package": "XMPP",
@@ -694,6 +753,7 @@
         "index": {
           "description": "Leave groupchat",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "leaveGroupchat",
           "normalized": "String-\u003eXMPP()",
@@ -710,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the stanza is from a JID whose \"username@server\"\n part matches the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "matchesBare",
           "package": "XMPP",
@@ -720,6 +781,7 @@
         "index": {
           "description": "Return true if the stanza is from JID whose username@server part matches the given string",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "matchesBare",
           "normalized": "String-\u003eStanzaPredicate",
@@ -735,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "occAffiliation",
           "package": "XMPP",
@@ -744,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "occAffiliation",
           "package": "XMPP",
@@ -757,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "occJid",
           "package": "XMPP",
@@ -766,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "occJid",
           "package": "XMPP",
@@ -779,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "occNick",
           "package": "XMPP",
@@ -788,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "occNick",
           "package": "XMPP",
@@ -801,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "occRole",
           "package": "XMPP",
@@ -810,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "occRole",
           "package": "XMPP",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "occStatus",
           "package": "XMPP",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "occStatus",
           "package": "XMPP",
@@ -846,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a groupchat message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "sendGroupchatMessage",
           "package": "XMPP",
@@ -855,6 +928,7 @@
         "index": {
           "description": "Send groupchat message",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "sendGroupchatMessage",
           "normalized": "String-\u003eString-\u003eXMPP()",
@@ -871,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a private message in a chat room.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "sendGroupchatPrivateMessage",
           "package": "XMPP",
@@ -880,6 +955,7 @@
         "index": {
           "description": "Send private message in chat room",
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "sendGroupchatPrivateMessage",
           "normalized": "String-\u003eString-\u003eString-\u003eXMPP()",
@@ -895,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP.MUC",
           "name": "setGroupchatSubject",
           "package": "XMPP",
@@ -903,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MUC",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP.MUC",
           "name": "setGroupchatSubject",
           "normalized": "String-\u003eString-\u003eXMPP()",
@@ -919,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library aims to make writing XMPP clients (in particular\n bots) easy and fun.  Here is a small example:\n\u003c/p\u003e\u003cpre\u003e import Network\n import Network.XMPP\n\n -- The bot's JID is \"bot@example.com\"\n botUsername = \"bot\"\n botServer = \"example.com\"\n botPassword = \"secret\"\n botResource = \"bot\"\n\n main :: IO ()\n main = withSocketsDo $\n   do\n     -- Connect to server...\n     c \u003c- openStream botServer\n     getStreamStart c\n\n     runXMPP c $ do\n       -- ...authenticate...\n       startAuth botUsername botServer botPassword botResource\n       sendpresence Nothing Nothing\n       -- ...and do something.\n       run\n\n run :: XMPP ()\n run = do\n   -- Wait for an incoming message...\n   msg \u003c- waitForStanza (isChat `conj` hasBody)\n   let sender = maybe \"\" id (getAttr \"from\" msg)\n       len = length $ maybe \"\" id (getMessageBody msg)\n   -- ...answer...\n   sendMessage sender (\"Your message was \"++(show len)++\" characters long.\")\n   -- ...and repeat.\n   run\n\u003c/pre\u003e\u003cp\u003eXMPP is a protocol for streaming XML also known as Jabber.  It is\n described in RFCs 3920 and 3921, and in a series of XMPP Extension\n Protocols (XEPs).  All of this can be found at\n \u003ca\u003ehttp://www.xmpp.org\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "XMPP",
           "package": "XMPP",
@@ -928,6 +1007,7 @@
         "index": {
           "description": "This library aims to make writing XMPP clients in particular bots easy and fun Here is small example import Network import Network.XMPP The bot JID is bot@example.com botUsername bot botServer example.com botPassword secret botResource bot main IO main withSocketsDo do Connect to server openStream botServer getStreamStart runXMPP do authenticate startAuth botUsername botServer botPassword botResource sendpresence Nothing Nothing and do something run run XMPP run do Wait for an incoming message msg waitForStanza isChat conj hasBody let sender maybe id getAttr from msg len length maybe id getMessageBody msg answer sendMessage sender Your message was show len characters long and repeat run XMPP is protocol for streaming XML also known as Jabber It is described in RFCs and and in series of XMPP Extension Protocols XEPs All of this can be found at http www.xmpp.org",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "XMPP",
           "package": "XMPP",
@@ -941,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "Presence",
           "package": "XMPP",
@@ -949,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "Presence",
           "package": "XMPP",
@@ -962,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "RosterItem",
           "package": "XMPP",
@@ -970,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "RosterItem",
           "package": "XMPP",
@@ -984,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handler function for a stanza.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "StanzaHandler",
           "package": "XMPP",
@@ -993,6 +1078,7 @@
         "index": {
           "description": "handler function for stanza",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "StanzaHandler",
           "package": "XMPP",
@@ -1007,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stanza predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "StanzaPredicate",
           "package": "XMPP",
@@ -1016,6 +1103,7 @@
         "index": {
           "description": "stanza predicate",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "StanzaPredicate",
           "package": "XMPP",
@@ -1030,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTODO: xml:lang for multiple statuses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "Status",
           "package": "XMPP",
@@ -1039,6 +1128,7 @@
         "index": {
           "description": "TODO xml lang for multiple statuses",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "Status",
           "package": "XMPP",
@@ -1052,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "StatusType",
           "package": "XMPP",
@@ -1060,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "StatusType",
           "package": "XMPP",
@@ -1073,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "Subscription",
           "package": "XMPP",
@@ -1081,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "Subscription",
           "package": "XMPP",
@@ -1095,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XMPP connection over TCP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "TCPConnection",
           "package": "XMPP",
@@ -1104,6 +1199,7 @@
         "index": {
           "description": "An XMPP connection over TCP",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "TCPConnection",
           "package": "XMPP",
@@ -1118,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure representing an XML element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "XMLElem",
           "package": "XMPP",
@@ -1127,6 +1224,7 @@
         "index": {
           "description": "data structure representing an XML element",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "XMLElem",
           "package": "XMPP",
@@ -1141,6 +1239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function in the XMPP monad behaves a bit like a thread in a\n cooperative threading system: when it decides to wait for more\n input, it \"sleeps\", letting other \"threads\" run, until input\n matching a certain predicate arrives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "XMPP",
           "package": "XMPP",
@@ -1150,6 +1249,7 @@
         "index": {
           "description": "function in the XMPP monad behaves bit like thread in cooperative threading system when it decides to wait for more input it sleeps letting other threads run until input matching certain predicate arrives",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "XMPP",
           "package": "XMPP",
@@ -1164,6 +1264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for various kinds of XMPP connections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "XMPPConnection",
           "package": "XMPP",
@@ -1173,6 +1274,7 @@
         "index": {
           "description": "class for various kinds of XMPP connections",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "XMPPConnection",
           "package": "XMPP",
@@ -1186,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "Available",
           "package": "XMPP",
@@ -1195,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "Available",
           "package": "XMPP",
@@ -1209,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter data just contains a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "CData",
           "package": "XMPP",
@@ -1219,6 +1324,7 @@
         "index": {
           "description": "Character data just contains string",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "CData",
           "package": "XMPP",
@@ -1232,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "Error",
           "package": "XMPP",
@@ -1241,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "Error",
           "package": "XMPP",
@@ -1254,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "Probe",
           "package": "XMPP",
@@ -1263,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "Probe",
           "package": "XMPP",
@@ -1276,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "RosterItem",
           "package": "XMPP",
@@ -1285,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "RosterItem",
           "package": "XMPP",
@@ -1298,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "SBoth",
           "package": "XMPP",
@@ -1307,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "SBoth",
           "package": "XMPP",
@@ -1320,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "SFrom",
           "package": "XMPP",
@@ -1329,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "SFrom",
           "package": "XMPP",
@@ -1342,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "SNone",
           "package": "XMPP",
@@ -1351,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "SNone",
           "package": "XMPP",
@@ -1364,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "STo",
           "package": "XMPP",
@@ -1373,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "STo",
           "package": "XMPP",
@@ -1386,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "SUnknown",
           "package": "XMPP",
@@ -1395,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "SUnknown",
           "package": "XMPP",
@@ -1408,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "Status",
           "package": "XMPP",
@@ -1417,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "Status",
           "normalized": "Status StatusType[String]",
@@ -1432,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "StatusAway",
           "package": "XMPP",
@@ -1441,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "StatusAway",
           "package": "XMPP",
@@ -1454,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "StatusChat",
           "package": "XMPP",
@@ -1463,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "StatusChat",
           "package": "XMPP",
@@ -1476,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "StatusDND",
           "package": "XMPP",
@@ -1485,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "StatusDND",
           "package": "XMPP",
@@ -1498,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "StatusOffline",
           "package": "XMPP",
@@ -1507,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "StatusOffline",
           "package": "XMPP",
@@ -1520,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "StatusOnline",
           "package": "XMPP",
@@ -1529,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "StatusOnline",
           "package": "XMPP",
@@ -1542,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "StatusXA",
           "package": "XMPP",
@@ -1551,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "StatusXA",
           "package": "XMPP",
@@ -1564,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "Subscribe",
           "package": "XMPP",
@@ -1573,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "Subscribe",
           "package": "XMPP",
@@ -1586,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "Subscribed",
           "package": "XMPP",
@@ -1595,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "Subscribed",
           "package": "XMPP",
@@ -1608,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "Unavailable",
           "package": "XMPP",
@@ -1617,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "Unavailable",
           "package": "XMPP",
@@ -1630,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "Unsubscribe",
           "package": "XMPP",
@@ -1639,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "Unsubscribe",
           "package": "XMPP",
@@ -1652,6 +1796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "Unsubscribed",
           "package": "XMPP",
@@ -1661,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "Unsubscribed",
           "package": "XMPP",
@@ -1675,6 +1821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTags have a name, a list of attributes, and a list of\n child elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "XML",
           "package": "XMPP",
@@ -1685,6 +1832,7 @@
         "index": {
           "description": "Tags have name list of attributes and list of child elements",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "XML",
           "normalized": "XML String[(String,String)][XMLElem]",
@@ -1701,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen a stanza matching the predicate arrives, call the given\n handler.  This is analogous to spawning a new thread, except that\n the \"thread\" is only run if and when a matching stanza arrives.\n\u003c/p\u003e\u003cp\u003eStanza handlers can be one-shot or permanent, as indicated by the\n third argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "addHandler",
           "package": "XMPP",
@@ -1710,6 +1859,7 @@
         "index": {
           "description": "When stanza matching the predicate arrives call the given handler This is analogous to spawning new thread except that the thread is only run if and when matching stanza arrives Stanza handlers can be one-shot or permanent as indicated by the third argument",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "addHandler",
           "normalized": "StanzaPredicate-\u003eStanzaHandler-\u003eBool-\u003eXMPP()",
@@ -1726,6 +1876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all childs of the XML element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "allChilds",
           "package": "XMPP",
@@ -1736,6 +1887,7 @@
         "index": {
           "description": "Get all childs of the XML element",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "allChilds",
           "normalized": "XMLElem-\u003e[XMLElem]",
@@ -1752,6 +1904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the predicate to the named attribute.  Return false if the\n tag has no such attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "attributeMatches",
           "package": "XMPP",
@@ -1761,6 +1914,7 @@
         "index": {
           "description": "Apply the predicate to the named attribute Return false if the tag has no such attribute",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "attributeMatches",
           "normalized": "String-\u003e(String-\u003eBool)-\u003eStanzaPredicate",
@@ -1777,6 +1931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet cdata from xmlelem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "cdata",
           "package": "XMPP",
@@ -1787,6 +1942,7 @@
         "index": {
           "description": "Get cdata from xmlelem",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "cdata",
           "normalized": "XMLElem-\u003eString",
@@ -1802,6 +1958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet maybe cdata from maybe xmlelem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "cdata'",
           "package": "XMPP",
@@ -1812,6 +1969,7 @@
         "index": {
           "description": "Get maybe cdata from maybe xmlelem",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "cdata'",
           "normalized": "Maybe XMLElem-\u003eMaybe String",
@@ -1827,6 +1985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "closeConnection",
           "package": "XMPP",
@@ -1837,6 +1996,7 @@
         "index": {
           "description": "Close the connection",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "closeConnection",
           "normalized": "a-\u003eIO()",
@@ -1853,6 +2013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjunction (\"and\") of two predicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "conj",
           "package": "XMPP",
@@ -1863,6 +2024,7 @@
         "index": {
           "description": "Conjunction and of two predicates",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "conj",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eBool)-\u003ea-\u003eBool",
@@ -1878,6 +2040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead presence stanza.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "doPresence",
           "package": "XMPP",
@@ -1888,6 +2051,7 @@
         "index": {
           "description": "Read presence stanza",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "doPresence",
           "normalized": "XMLElem-\u003ePresence",
@@ -1904,6 +2068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead stanza status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "doStatus",
           "package": "XMPP",
@@ -1914,6 +2079,7 @@
         "index": {
           "description": "Read stanza status",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "doStatus",
           "normalized": "XMLElem-\u003eStatus",
@@ -1930,6 +2096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of an attribute in the given tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "getAttr",
           "package": "XMPP",
@@ -1940,6 +2107,7 @@
         "index": {
           "description": "Get the value of an attribute in the given tag",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "getAttr",
           "normalized": "String-\u003eXMLElem-\u003eMaybe String",
@@ -1956,6 +2124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the bare JID, i.e. everything except the resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "getBareJid",
           "package": "XMPP",
@@ -1966,6 +2135,7 @@
         "index": {
           "description": "Get the bare JID i.e everything except the resource",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "getBareJid",
           "normalized": "String-\u003eString",
@@ -1982,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the character data subelement of the given tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "getCdata",
           "package": "XMPP",
@@ -1992,6 +2163,7 @@
         "index": {
           "description": "Get the character data subelement of the given tag",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "getCdata",
           "normalized": "XMLElem-\u003eMaybe String",
@@ -2008,6 +2180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn stanza's error code or -1 (if can't parse error node).\n Zero if no error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "getErrorCode",
           "package": "XMPP",
@@ -2018,6 +2191,7 @@
         "index": {
           "description": "Return stanza error code or if can parse error node Zero if no error",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "getErrorCode",
           "normalized": "XMLElem-\u003eInteger",
@@ -2034,6 +2208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the jid and the resource of stanza.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "getJidRes",
           "package": "XMPP",
@@ -2044,6 +2219,7 @@
         "index": {
           "description": "Get the jid and the resource of stanza",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "getJidRes",
           "normalized": "XMLElem-\u003e(String,String)",
@@ -2060,6 +2236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the body text of the message stanza, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "getMessageBody",
           "package": "XMPP",
@@ -2070,6 +2247,7 @@
         "index": {
           "description": "Get the body text of the message stanza if any",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "getMessageBody",
           "normalized": "XMLElem-\u003eMaybe String",
@@ -2086,6 +2264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the stamp of message, if has any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "getMessageStamp",
           "package": "XMPP",
@@ -2096,6 +2275,7 @@
         "index": {
           "description": "Get the stamp of message if has any",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "getMessageStamp",
           "normalized": "XMLElem-\u003eMaybe String",
@@ -2112,6 +2292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet resource part of JID, i.e. the part after /.\n Return \u003ccode\u003e\"\"\u003c/code\u003e if the JID has no resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "getResource",
           "package": "XMPP",
@@ -2122,6 +2303,7 @@
         "index": {
           "description": "Get resource part of JID i.e the part after Return if the JID has no resource",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "getResource",
           "normalized": "String-\u003eString",
@@ -2137,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "getRoster",
           "package": "XMPP",
@@ -2146,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "getRoster",
           "normalized": "XMPP[RosterItem]",
@@ -2162,6 +2346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet incoming stanzas from the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "getStanzas",
           "package": "XMPP",
@@ -2172,6 +2357,7 @@
         "index": {
           "description": "Get incoming stanzas from the connection",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "getStanzas",
           "normalized": "a-\u003eIO[XMLElem]",
@@ -2188,6 +2374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the stream header that the server sent.  This needs to be\n called before doing anything else with the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "getStreamStart",
           "package": "XMPP",
@@ -2198,6 +2385,7 @@
         "index": {
           "description": "Get the stream header that the server sent This needs to be called before doing anything else with the stream",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "getStreamStart",
           "normalized": "TCPConnection-\u003eIO XMLElem",
@@ -2214,6 +2402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet username part of JID, i.e. the part before the @ sign.\n Return \u003ccode\u003e\"\"\u003c/code\u003e if the JID contains no @ sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "getUsername",
           "package": "XMPP",
@@ -2224,6 +2413,7 @@
         "index": {
           "description": "Get username part of JID i.e the part before the sign Return if the JID contains no sign",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "getUsername",
           "normalized": "String-\u003eString",
@@ -2240,6 +2430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEstablish a handler for answering to version requests with the\n given information.  See XEP-0092: Software Version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "handleVersion",
           "package": "XMPP",
@@ -2249,6 +2440,7 @@
         "index": {
           "description": "Establish handler for answering to version requests with the given information See XEP-0092 Software Version",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "handleVersion",
           "normalized": "String-\u003eString-\u003eString-\u003eXMPP()",
@@ -2265,6 +2457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the message stanza has body text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "hasBody",
           "package": "XMPP",
@@ -2275,6 +2468,7 @@
         "index": {
           "description": "Return true if the message stanza has body text",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "hasBody",
           "package": "XMPP",
@@ -2289,6 +2483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the tag has the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "hasNodeName",
           "package": "XMPP",
@@ -2299,6 +2494,7 @@
         "index": {
           "description": "Return true if the tag has the given name",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "hasNodeName",
           "normalized": "String-\u003eStanzaPredicate",
@@ -2315,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the stanza is a \"error\" request in the given namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "iqError",
           "package": "XMPP",
@@ -2325,6 +2522,7 @@
         "index": {
           "description": "Return true if the stanza is error request in the given namespace",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "iqError",
           "normalized": "String-\u003eStanzaPredicate",
@@ -2341,6 +2539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the stanza is a \"get\" request in the given namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "iqGet",
           "package": "XMPP",
@@ -2351,6 +2550,7 @@
         "index": {
           "description": "Return true if the stanza is get request in the given namespace",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "iqGet",
           "normalized": "String-\u003eStanzaPredicate",
@@ -2367,6 +2567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the stanza is a \"result\" request in the given namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "iqResult",
           "package": "XMPP",
@@ -2377,6 +2578,7 @@
         "index": {
           "description": "Return true if the stanza is result request in the given namespace",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "iqResult",
           "normalized": "String-\u003eStanzaPredicate",
@@ -2393,6 +2595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the stanza is a \"set\" request in the given namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "iqSet",
           "package": "XMPP",
@@ -2403,6 +2606,7 @@
         "index": {
           "description": "Return true if the stanza is set request in the given namespace",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "iqSet",
           "normalized": "String-\u003eStanzaPredicate",
@@ -2419,6 +2623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the stanza is an IQ stanza in the given namespace.\n FIXME: query node not nessesary the first node in the iq stanza.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "iqXmlns",
           "package": "XMPP",
@@ -2429,6 +2634,7 @@
         "index": {
           "description": "Return true if the stanza is an IQ stanza in the given namespace FIXME query node not nessesary the first node in the iq stanza",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "iqXmlns",
           "normalized": "String-\u003eStanzaPredicate",
@@ -2445,6 +2651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the tag is a chat message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "isChat",
           "package": "XMPP",
@@ -2455,6 +2662,7 @@
         "index": {
           "description": "Return true if the tag is chat message",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "isChat",
           "package": "XMPP",
@@ -2469,6 +2677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the stanza is from the given JID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "isFrom",
           "package": "XMPP",
@@ -2479,6 +2688,7 @@
         "index": {
           "description": "Return true if the stanza is from the given JID",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "isFrom",
           "normalized": "String-\u003eStanzaPredicate",
@@ -2495,6 +2705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the tag is an IQ stanza.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "isIq",
           "package": "XMPP",
@@ -2505,6 +2716,7 @@
         "index": {
           "description": "Return true if the tag is an IQ stanza",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "isIq",
           "package": "XMPP",
@@ -2519,6 +2731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the tag is a message stanza.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "isMessage",
           "package": "XMPP",
@@ -2529,6 +2742,7 @@
         "index": {
           "description": "Return true if the tag is message stanza",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "isMessage",
           "package": "XMPP",
@@ -2543,6 +2757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn true if the tag is a presence stanza.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "isPresence",
           "package": "XMPP",
@@ -2553,6 +2768,7 @@
         "index": {
           "description": "Return true if the tag is presence stanza",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "isPresence",
           "package": "XMPP",
@@ -2566,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "itemGroups",
           "package": "XMPP",
@@ -2575,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "itemGroups",
           "normalized": "[String]",
@@ -2590,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "itemJid",
           "package": "XMPP",
@@ -2599,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "itemJid",
           "package": "XMPP",
@@ -2612,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "itemName",
           "package": "XMPP",
@@ -2621,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "itemName",
           "package": "XMPP",
@@ -2634,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "itemSubscription",
           "package": "XMPP",
@@ -2643,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "itemSubscription",
           "package": "XMPP",
@@ -2657,6 +2881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "liftIO",
           "package": "XMPP",
@@ -2666,6 +2891,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",
@@ -2682,6 +2908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a TCP connection to the named server, port 5222 (or others\n found in SRV), and send a stream header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "openStream",
           "package": "XMPP",
@@ -2692,6 +2919,7 @@
         "index": {
           "description": "Open TCP connection to the named server port or others found in SRV and send stream header",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "openStream",
           "normalized": "String-\u003eIO TCPConnection",
@@ -2708,6 +2936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerminate the loop as soon as the current function exits.  This\n works by removing all stanza handlers, which makes \u003ccode\u003e\u003ca\u003erunXMPP\u003c/a\u003e\u003c/code\u003e exit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "quit",
           "package": "XMPP",
@@ -2718,6 +2947,7 @@
         "index": {
           "description": "Terminate the loop as soon as the current function exits This works by removing all stanza handlers which makes runXMPP exit",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "quit",
           "normalized": "XMPP()",
@@ -2733,6 +2963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a function in the XMPP monad using the given XMPP connection.\n After that, keep looping as long as there are handlers waiting for\n incoming stanzas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "runXMPP",
           "package": "XMPP",
@@ -2743,6 +2974,7 @@
         "index": {
           "description": "Run function in the XMPP monad using the given XMPP connection After that keep looping as long as there are handlers waiting for incoming stanzas",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "runXMPP",
           "normalized": "a-\u003eXMPP()-\u003eIO()",
@@ -2759,6 +2991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend an IQ request, returning the randomly generated ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "sendIq",
           "package": "XMPP",
@@ -2768,6 +3001,7 @@
         "index": {
           "description": "Send an IQ request returning the randomly generated ID",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "sendIq",
           "normalized": "String-\u003eString-\u003e[XMLElem]-\u003eXMPP String",
@@ -2784,6 +3018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend an IQ request and wait for the response, without blocking\n other activity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "sendIqWait",
           "package": "XMPP",
@@ -2793,6 +3028,7 @@
         "index": {
           "description": "Send an IQ request and wait for the response without blocking other activity",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "sendIqWait",
           "normalized": "String-\u003eString-\u003e[XMLElem]-\u003eXMPP XMLElem",
@@ -2809,6 +3045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend an ordinary \"chat\" type message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "sendMessage",
           "package": "XMPP",
@@ -2818,6 +3055,7 @@
         "index": {
           "description": "Send an ordinary chat type message",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "sendMessage",
           "normalized": "String-\u003eString-\u003eXMPP()",
@@ -2834,6 +3072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend ordinary online presence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "sendPresence",
           "package": "XMPP",
@@ -2844,6 +3083,7 @@
         "index": {
           "description": "Send ordinary online presence",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "sendPresence",
           "normalized": "Maybe(String,[String])-\u003eMaybe Integer-\u003eXMPP()",
@@ -2860,6 +3100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a stanza on the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "sendStanza",
           "package": "XMPP",
@@ -2870,6 +3111,7 @@
         "index": {
           "description": "Send stanza on the connection",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "sendStanza",
           "normalized": "a-\u003eXMLElem-\u003eIO()",
@@ -2886,6 +3128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-SASL authentication, following XEP-0078.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "startAuth",
           "package": "XMPP",
@@ -2895,6 +3138,7 @@
         "index": {
           "description": "Non-SASL authentication following XEP-0078",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "startAuth",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eXMPP Integer",
@@ -2911,6 +3155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuspend execution of current function while waiting for a stanza\n matching the predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "waitForStanza",
           "package": "XMPP",
@@ -2921,6 +3166,7 @@
         "index": {
           "description": "Suspend execution of current function while waiting for stanza matching the predicate",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "waitForStanza",
           "normalized": "StanzaPredicate-\u003eXMPP XMLElem",
@@ -2937,6 +3183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFollow a \"path\" of named subtags in an XML tree.  For every\n element in the given list, find the subtag with that name and\n proceed recursively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "xmlPath",
           "package": "XMPP",
@@ -2947,6 +3194,7 @@
         "index": {
           "description": "Follow path of named subtags in an XML tree For every element in the given list find the subtag with that name and proceed recursively",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "xmlPath",
           "normalized": "[String]-\u003eXMLElem-\u003eMaybe XMLElem",
@@ -2962,6 +3210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "xmlPath'",
           "package": "XMPP",
@@ -2971,6 +3220,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "xmlPath'",
           "normalized": "[String]-\u003e[XMLElem]-\u003e[XMLElem]",
@@ -2987,6 +3237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the tag back to XML.  If the first parameter is true,\n close the tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:34 UTC 2014",
           "module": "Network.XMPP",
           "name": "xmlToString",
           "package": "XMPP",
@@ -2997,6 +3248,7 @@
         "index": {
           "description": "Convert the tag back to XML If the first parameter is true close the tag",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T17:05:34",
           "module": "Network.XMPP",
           "name": "xmlToString",
           "normalized": "Bool-\u003eXMLElem-\u003eString",

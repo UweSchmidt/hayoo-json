@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-extra"
+        "phrase": "wai-extra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBackend for Common Gateway Interface. Almost all users should use the\n \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Handler.CGI",
           "name": "CGI",
           "package": "wai-extra",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Backend for Common Gateway Interface Almost all users should use the run function",
           "hierarchy": "Network Wai Handler CGI",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Handler.CGI",
           "name": "CGI",
           "package": "wai-extra",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Handler.CGI",
           "name": "requestBodyFunc",
           "package": "wai-extra",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler CGI",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Handler.CGI",
           "name": "requestBodyFunc",
           "normalized": "(Int-\u003eIO(Maybe ByteString))-\u003eInt-\u003eSource IO ByteString",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an application using CGI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Handler.CGI",
           "name": "run",
           "package": "wai-extra",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Run an application using CGI",
           "hierarchy": "Network Wai Handler CGI",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Handler.CGI",
           "name": "run",
           "normalized": "Application-\u003eIO()",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic CGI helper, which allows other backends (FastCGI and SCGI) to\n use the same code as CGI. Most users will not need this function, and can\n stick with \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erunSendfile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Handler.CGI",
           "name": "runGeneric",
           "package": "wai-extra",
@@ -100,6 +107,7 @@
         "index": {
           "description": "generic CGI helper which allows other backends FastCGI and SCGI to use the same code as CGI Most users will not need this function and can stick with run or runSendfile",
           "hierarchy": "Network Wai Handler CGI",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Handler.CGI",
           "name": "runGeneric",
           "normalized": "[(String,String)]-\u003e(Int-\u003eSource IO ByteString)-\u003e(ByteString-\u003eIO())-\u003eMaybe ByteString-\u003eApplication-\u003eIO()",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome web servers provide an optimization for sending files via a sendfile\n system call via a special header. To use this feature, provide that header\n name here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Handler.CGI",
           "name": "runSendfile",
           "package": "wai-extra",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Some web servers provide an optimization for sending files via sendfile system call via special header To use this feature provide that header name here",
           "hierarchy": "Network Wai Handler CGI",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Handler.CGI",
           "name": "runSendfile",
           "normalized": "ByteString-\u003eApplication-\u003eIO()",
@@ -140,6 +150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.AcceptOverride",
           "name": "AcceptOverride",
           "package": "wai-extra",
@@ -148,6 +159,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware AcceptOverride",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.AcceptOverride",
           "name": "AcceptOverride",
           "package": "wai-extra",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.AcceptOverride",
           "name": "acceptOverride",
           "package": "wai-extra",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware AcceptOverride",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.AcceptOverride",
           "name": "acceptOverride",
           "package": "wai-extra",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAutomatically produce responses to HEAD requests based on the underlying\n applications GET response.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Autohead",
           "name": "Autohead",
           "package": "wai-extra",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Automatically produce responses to HEAD requests based on the underlying applications GET response",
           "hierarchy": "Network Wai Middleware Autohead",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Autohead",
           "name": "Autohead",
           "package": "wai-extra",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Autohead",
           "name": "autohead",
           "package": "wai-extra",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Autohead",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Autohead",
           "name": "autohead",
           "package": "wai-extra",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.CleanPath",
           "name": "CleanPath",
           "package": "wai-extra",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware CleanPath",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.CleanPath",
           "name": "CleanPath",
           "package": "wai-extra",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.CleanPath",
           "name": "cleanPath",
           "package": "wai-extra",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware CleanPath",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.CleanPath",
           "name": "cleanPath",
           "normalized": "([Text]-\u003eEither ByteString[Text])-\u003eByteString-\u003e([Text]-\u003eApplication)-\u003eApplication",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAutomatic gzip compression of responses.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "Gzip",
           "package": "wai-extra",
@@ -282,6 +305,7 @@
         "index": {
           "description": "Automatic gzip compression of responses",
           "hierarchy": "Network Wai Middleware Gzip",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "Gzip",
           "package": "wai-extra",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "GzipFiles",
           "package": "wai-extra",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Gzip",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "GzipFiles",
           "package": "wai-extra",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "GzipSettings",
           "package": "wai-extra",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Gzip",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "GzipSettings",
           "package": "wai-extra",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "GzipCacheFolder",
           "package": "wai-extra",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Gzip",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "GzipCacheFolder",
           "package": "wai-extra",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "GzipCompress",
           "package": "wai-extra",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Gzip",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "GzipCompress",
           "package": "wai-extra",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "GzipIgnore",
           "package": "wai-extra",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Gzip",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "GzipIgnore",
           "package": "wai-extra",
@@ -404,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "def",
           "package": "wai-extra",
@@ -413,6 +448,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Network Wai Middleware Gzip",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "def",
           "package": "wai-extra",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "defaultCheckMime",
           "package": "wai-extra",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Gzip",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "defaultCheckMime",
           "normalized": "ByteString-\u003eBool",
@@ -450,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse gzip to compress the body of the response.\n\u003c/p\u003e\u003cp\u003eAnalyzes the \"Accept-Encoding\" header from the client to determine\n if gzip is supported.\n\u003c/p\u003e\u003cp\u003ePossible future enhancements:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Only compress if the response is above a certain size.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "gzip",
           "package": "wai-extra",
@@ -460,6 +499,7 @@
         "index": {
           "description": "Use gzip to compress the body of the response Analyzes the Accept-Encoding header from the client to determine if gzip is supported Possible future enhancements Only compress if the response is above certain size",
           "hierarchy": "Network Wai Middleware Gzip",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "gzip",
           "normalized": "GzipSettings-\u003eMiddleware",
@@ -474,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "gzipCheckMime",
           "package": "wai-extra",
@@ -483,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Gzip",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "gzipCheckMime",
           "normalized": "GzipSettings-\u003eByteString-\u003eBool",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "gzipFiles",
           "package": "wai-extra",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Gzip",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Gzip",
           "name": "gzipFiles",
           "normalized": "GzipSettings-\u003eGzipFiles",
@@ -523,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements HTTP Basic Authentication.\n\u003c/p\u003e\u003cp\u003eThis module may add digest authentication in the future.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.HttpAuth",
           "name": "HttpAuth",
           "package": "wai-extra",
@@ -532,6 +577,7 @@
         "index": {
           "description": "Implements HTTP Basic Authentication This module may add digest authentication in the future",
           "hierarchy": "Network Wai Middleware HttpAuth",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.HttpAuth",
           "name": "HttpAuth",
           "package": "wai-extra",
@@ -546,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthentication settings. This value is an instance of \u003ccode\u003eIsString\u003c/code\u003e, so the\n recommended approach to create a value is to provide a string literal (which\n will be the realm) and then overriding individual fields.\n\u003c/p\u003e\u003cpre\u003e \"My Realm\" { authIsProtected = someFunc } :: AuthSettings\n\u003c/pre\u003e\u003cp\u003eSince 1.3.4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.HttpAuth",
           "name": "AuthSettings",
           "package": "wai-extra",
@@ -555,6 +602,7 @@
         "index": {
           "description": "Authentication settings This value is an instance of IsString so the recommended approach to create value is to provide string literal which will be the realm and then overriding individual fields My Realm authIsProtected someFunc AuthSettings Since",
           "hierarchy": "Network Wai Middleware HttpAuth",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.HttpAuth",
           "name": "AuthSettings",
           "package": "wai-extra",
@@ -569,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a given username and password is valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.HttpAuth",
           "name": "CheckCreds",
           "package": "wai-extra",
@@ -578,6 +627,7 @@
         "index": {
           "description": "Check if given username and password is valid",
           "hierarchy": "Network Wai Middleware HttpAuth",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.HttpAuth",
           "name": "CheckCreds",
           "package": "wai-extra",
@@ -592,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if access to the requested resource is restricted.\n\u003c/p\u003e\u003cp\u003eDefault: always returns \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.3.4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.HttpAuth",
           "name": "authIsProtected",
           "package": "wai-extra",
@@ -602,6 +653,7 @@
         "index": {
           "description": "Determine if access to the requested resource is restricted Default always returns True Since",
           "hierarchy": "Network Wai Middleware HttpAuth",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.HttpAuth",
           "name": "authIsProtected",
           "normalized": "AuthSettings-\u003eRequest-\u003eIO Bool",
@@ -618,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the realm and returns an appropriate 401 response when\n authentication is not provided.\n\u003c/p\u003e\u003cp\u003eSince 1.3.4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.HttpAuth",
           "name": "authOnNoAuth",
           "package": "wai-extra",
@@ -628,6 +681,7 @@
         "index": {
           "description": "Takes the realm and returns an appropriate response when authentication is not provided Since",
           "hierarchy": "Network Wai Middleware HttpAuth",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.HttpAuth",
           "name": "authOnNoAuth",
           "normalized": "AuthSettings-\u003eByteString-\u003eApplication",
@@ -644,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 1.3.4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.HttpAuth",
           "name": "authRealm",
           "package": "wai-extra",
@@ -654,6 +709,7 @@
         "index": {
           "description": "Since",
           "hierarchy": "Network Wai Middleware HttpAuth",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.HttpAuth",
           "name": "authRealm",
           "normalized": "AuthSettings-\u003eByteString",
@@ -670,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform basic authentication.\n\u003c/p\u003e\u003cpre\u003e basicAuth (\\u p -\u003e return $ u == \"michael\" && p == \"mypass\") \"My Realm\"\n\u003c/pre\u003e\u003cp\u003eSince 1.3.4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.HttpAuth",
           "name": "basicAuth",
           "package": "wai-extra",
@@ -680,6 +737,7 @@
         "index": {
           "description": "Perform basic authentication basicAuth return michael mypass My Realm Since",
           "hierarchy": "Network Wai Middleware HttpAuth",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.HttpAuth",
           "name": "basicAuth",
           "normalized": "CheckCreds-\u003eAuthSettings-\u003eMiddleware",
@@ -696,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAutomatic wrapping of JSON responses to convert into JSONP.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Jsonp",
           "name": "Jsonp",
           "package": "wai-extra",
@@ -705,6 +764,7 @@
         "index": {
           "description": "Automatic wrapping of JSON responses to convert into JSONP",
           "hierarchy": "Network Wai Middleware Jsonp",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Jsonp",
           "name": "Jsonp",
           "package": "wai-extra",
@@ -719,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap json responses in a jsonp callback.\n\u003c/p\u003e\u003cp\u003eBasically, if the user requested a \"text/javascript\" and supplied a\n \"callback\" GET parameter, ask the application for an\n \"application/json\" response, then convert that into a JSONP response,\n having a content type of \"text/javascript\" and calling the specified\n callback function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Jsonp",
           "name": "jsonp",
           "package": "wai-extra",
@@ -729,6 +790,7 @@
         "index": {
           "description": "Wrap json responses in jsonp callback Basically if the user requested text javascript and supplied callback GET parameter ask the application for an application json response then convert that into JSONP response having content type of text javascript and calling the specified callback function",
           "hierarchy": "Network Wai Middleware Jsonp",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Jsonp",
           "name": "jsonp",
           "package": "wai-extra",
@@ -741,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.MethodOverride",
           "name": "MethodOverride",
           "package": "wai-extra",
@@ -749,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware MethodOverride",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.MethodOverride",
           "name": "MethodOverride",
           "package": "wai-extra",
@@ -763,6 +827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows overriding of the HTTP request method via the _method query string\n parameter.\n\u003c/p\u003e\u003cp\u003eThis middleware only applies when the initial request method is POST. This\n allow submitting of normal HTML forms, without worries of semantics\n mismatches in the HTTP spec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.MethodOverride",
           "name": "methodOverride",
           "package": "wai-extra",
@@ -773,6 +838,7 @@
         "index": {
           "description": "Allows overriding of the HTTP request method via the method query string parameter This middleware only applies when the initial request method is POST This allow submitting of normal HTML forms without worries of semantics mismatches in the HTTP spec",
           "hierarchy": "Network Wai Middleware MethodOverride",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.MethodOverride",
           "name": "methodOverride",
           "package": "wai-extra",
@@ -787,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChanges the request-method via first post-parameter _method.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.MethodOverridePost",
           "name": "MethodOverridePost",
           "package": "wai-extra",
@@ -796,6 +863,7 @@
         "index": {
           "description": "Changes the request-method via first post-parameter method",
           "hierarchy": "Network Wai Middleware MethodOverridePost",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.MethodOverridePost",
           "name": "MethodOverridePost",
           "package": "wai-extra",
@@ -810,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows overriding of the HTTP request method via the _method post string parameter.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Looks for the Content-Type requestHeader.\n\u003c/li\u003e\u003cli\u003e If the header is set to application/x-www-form-urlencoded\n and the first POST parameter is _method\n then it changes the request-method to the value of that\n parameter.\n\u003c/li\u003e\u003cli\u003e This middleware only applies when the initial request method is POST.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.MethodOverridePost",
           "name": "methodOverridePost",
           "package": "wai-extra",
@@ -820,6 +889,7 @@
         "index": {
           "description": "Allows overriding of the HTTP request method via the method post string parameter Looks for the Content-Type requestHeader If the header is set to application x-www-form-urlencoded and the first POST parameter is method then it changes the request-method to the value of that parameter This middleware only applies when the initial request method is POST",
           "hierarchy": "Network Wai Middleware MethodOverridePost",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.MethodOverridePost",
           "name": "methodOverridePost",
           "package": "wai-extra",
@@ -833,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "RequestLogger",
           "package": "wai-extra",
@@ -841,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "RequestLogger",
           "package": "wai-extra",
@@ -854,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "Callback",
           "package": "wai-extra",
@@ -862,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "Callback",
           "package": "wai-extra",
@@ -875,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "Destination",
           "package": "wai-extra",
@@ -883,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "Destination",
           "package": "wai-extra",
@@ -897,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource from which the IP source address of the client is obtained.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "IPAddrSource",
           "package": "wai-extra",
@@ -905,6 +982,7 @@
         "index": {
           "description": "Source from which the IP source address of the client is obtained",
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "IPAddrSource",
           "package": "wai-extra",
@@ -918,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "OutputFormat",
           "package": "wai-extra",
@@ -926,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "OutputFormat",
           "package": "wai-extra",
@@ -939,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "OutputFormatter",
           "package": "wai-extra",
@@ -947,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "OutputFormatter",
           "package": "wai-extra",
@@ -960,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "RequestLoggerSettings",
           "package": "wai-extra",
@@ -968,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "RequestLoggerSettings",
           "package": "wai-extra",
@@ -981,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "Apache",
           "package": "wai-extra",
@@ -990,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "Apache",
           "package": "wai-extra",
@@ -1003,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "Callback",
           "package": "wai-extra",
@@ -1012,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "Callback",
           "package": "wai-extra",
@@ -1025,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "CustomOutputFormat",
           "package": "wai-extra",
@@ -1034,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "CustomOutputFormat",
           "package": "wai-extra",
@@ -1048,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse colors?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "Detailed",
           "package": "wai-extra",
@@ -1058,6 +1149,7 @@
         "index": {
           "description": "use colors",
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "Detailed",
           "package": "wai-extra",
@@ -1072,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom the peer address if header is not found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "FromFallback",
           "package": "wai-extra",
@@ -1081,6 +1174,7 @@
         "index": {
           "description": "From the peer address if header is not found",
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "FromFallback",
           "package": "wai-extra",
@@ -1095,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom X-Real-IP: or X-Forwarded-For: in the HTTP header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "FromHeader",
           "package": "wai-extra",
@@ -1104,6 +1199,7 @@
         "index": {
           "description": "From X-Real-IP or X-Forwarded-For in the HTTP header",
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "FromHeader",
           "package": "wai-extra",
@@ -1118,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom the peer address of the HTTP connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "FromSocket",
           "package": "wai-extra",
@@ -1127,6 +1224,7 @@
         "index": {
           "description": "From the peer address of the HTTP connection",
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "FromSocket",
           "package": "wai-extra",
@@ -1140,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "Handle",
           "package": "wai-extra",
@@ -1149,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "Handle",
           "package": "wai-extra",
@@ -1162,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "Logger",
           "package": "wai-extra",
@@ -1171,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "Logger",
           "package": "wai-extra",
@@ -1185,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly applies when using the \u003ccode\u003eHandle\u003c/code\u003e constructor for \u003ccode\u003edestination\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "autoFlush",
           "package": "wai-extra",
@@ -1195,6 +1298,7 @@
         "index": {
           "description": "Only applies when using the Handle constructor for destination Default value True",
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "autoFlush",
           "normalized": "RequestLoggerSettings-\u003eBool",
@@ -1211,6 +1315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault: \u003ccode\u003eHandle\u003c/code\u003e \u003ccode\u003estdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "destination",
           "package": "wai-extra",
@@ -1221,6 +1326,7 @@
         "index": {
           "description": "Default Handle stdout",
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "destination",
           "normalized": "RequestLoggerSettings-\u003eDestination",
@@ -1236,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduction request logger middleware.\n Implemented on top of \u003ca\u003elogCallback\u003c/a\u003e, but prints to \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "logStdout",
           "package": "wai-extra",
@@ -1246,6 +1353,7 @@
         "index": {
           "description": "Production request logger middleware Implemented on top of logCallback but prints to stdout",
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "logStdout",
           "package": "wai-extra",
@@ -1260,6 +1368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevelopment request logger middleware.\n Implemented on top of \u003ca\u003elogCallbackDev\u003c/a\u003e, but prints to \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eFlushes \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e on each request, which would be inefficient in production use.\n Use \u003ca\u003elogStdout\u003c/a\u003e in production.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "logStdoutDev",
           "package": "wai-extra",
@@ -1270,6 +1379,7 @@
         "index": {
           "description": "Development request logger middleware Implemented on top of logCallbackDev but prints to stdout Flushes stdout on each request which would be inefficient in production use Use logStdout in production",
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "logStdoutDev",
           "package": "wai-extra",
@@ -1283,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "mkRequestLogger",
           "package": "wai-extra",
@@ -1292,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "mkRequestLogger",
           "normalized": "RequestLoggerSettings-\u003eIO Middleware",
@@ -1308,6 +1420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value: \u003ccode\u003eDetailed\u003c/code\u003e \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "outputFormat",
           "package": "wai-extra",
@@ -1318,6 +1431,7 @@
         "index": {
           "description": "Default value Detailed True",
           "hierarchy": "Network Wai Middleware RequestLogger",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.RequestLogger",
           "name": "outputFormat",
           "normalized": "RequestLoggerSettings-\u003eOutputFormat",
@@ -1333,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Rewrite",
           "name": "Rewrite",
           "package": "wai-extra",
@@ -1341,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Rewrite",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Rewrite",
           "name": "Rewrite",
           "package": "wai-extra",
@@ -1355,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erewrite based on your own conversion rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Rewrite",
           "name": "rewrite",
           "package": "wai-extra",
@@ -1365,6 +1482,7 @@
         "index": {
           "description": "rewrite based on your own conversion rules",
           "hierarchy": "Network Wai Middleware Rewrite",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Rewrite",
           "name": "rewrite",
           "normalized": "([Text]-\u003eRequestHeaders-\u003eIO[Text])-\u003eMiddleware",
@@ -1380,6 +1498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erewrite based on your own conversion rules\n Example convert function:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Rewrite",
           "name": "rewritePure",
           "package": "wai-extra",
@@ -1390,6 +1509,7 @@
         "index": {
           "description": "rewrite based on your own conversion rules Example convert function",
           "hierarchy": "Network Wai Middleware Rewrite",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Rewrite",
           "name": "rewritePure",
           "normalized": "([Text]-\u003eRequestHeaders-\u003e[Text])-\u003eMiddleware",
@@ -1405,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Vhost",
           "name": "Vhost",
           "package": "wai-extra",
@@ -1413,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Vhost",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Vhost",
           "name": "Vhost",
           "package": "wai-extra",
@@ -1426,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Vhost",
           "name": "redirectTo",
           "package": "wai-extra",
@@ -1435,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Vhost",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Vhost",
           "name": "redirectTo",
           "normalized": "ByteString-\u003eResponse",
@@ -1450,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Vhost",
           "name": "redirectToLogged",
           "package": "wai-extra",
@@ -1459,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Vhost",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Vhost",
           "name": "redirectToLogged",
           "normalized": "(Text-\u003eIO())-\u003eByteString-\u003eIO Response",
@@ -1474,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Vhost",
           "name": "redirectWWW",
           "package": "wai-extra",
@@ -1483,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Vhost",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Vhost",
           "name": "redirectWWW",
           "normalized": "Text-\u003eApplication-\u003eApplication",
@@ -1498,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Middleware.Vhost",
           "name": "vhost",
           "package": "wai-extra",
@@ -1507,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Vhost",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Middleware.Vhost",
           "name": "vhost",
           "normalized": "[(Request-\u003eBool,Application)]-\u003eApplication-\u003eApplication",
@@ -1522,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome helpers for parsing data out of a raw WAI \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "Parse",
           "package": "wai-extra",
@@ -1531,6 +1662,7 @@
         "index": {
           "description": "Some helpers for parsing data out of raw WAI Request",
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "Parse",
           "package": "wai-extra",
@@ -1545,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file uploading backend. Takes the parameter name, file name, and content\n type, and returns a \u003ccode\u003e\u003ca\u003eSink\u003c/a\u003e\u003c/code\u003e for storing the contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "BackEnd",
           "package": "wai-extra",
@@ -1554,6 +1687,7 @@
         "index": {
           "description": "file uploading backend Takes the parameter name file name and content type and returns Sink for storing the contents",
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "BackEnd",
           "package": "wai-extra",
@@ -1568,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePost parameter name and associated file information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "File",
           "package": "wai-extra",
@@ -1577,6 +1712,7 @@
         "index": {
           "description": "Post parameter name and associated file information",
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "File",
           "package": "wai-extra",
@@ -1591,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on an uploaded file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "FileInfo",
           "package": "wai-extra",
@@ -1600,6 +1737,7 @@
         "index": {
           "description": "Information on an uploaded file",
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "FileInfo",
           "package": "wai-extra",
@@ -1614,6 +1752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePost parameter name and value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "Param",
           "package": "wai-extra",
@@ -1623,6 +1762,7 @@
         "index": {
           "description": "Post parameter name and value",
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "Param",
           "package": "wai-extra",
@@ -1636,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "RequestBodyType",
           "package": "wai-extra",
@@ -1644,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "RequestBodyType",
           "package": "wai-extra",
@@ -1657,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "FileInfo",
           "package": "wai-extra",
@@ -1666,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "FileInfo",
           "package": "wai-extra",
@@ -1679,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "Multipart",
           "package": "wai-extra",
@@ -1688,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "Multipart",
           "package": "wai-extra",
@@ -1701,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "UrlEncoded",
           "package": "wai-extra",
@@ -1710,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "UrlEncoded",
           "package": "wai-extra",
@@ -1723,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "conduitRequestBody",
           "package": "wai-extra",
@@ -1732,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "conduitRequestBody",
           "normalized": "BackEnd a-\u003eRequestBodyType-\u003eConduit ByteString IO(Either Param(File a))",
@@ -1747,6 +1897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "fileContent",
           "package": "wai-extra",
@@ -1756,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "fileContent",
           "package": "wai-extra",
@@ -1769,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "fileContentType",
           "package": "wai-extra",
@@ -1778,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "fileContentType",
           "package": "wai-extra",
@@ -1791,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "fileName",
           "package": "wai-extra",
@@ -1800,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "fileName",
           "package": "wai-extra",
@@ -1813,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "getRequestBodyType",
           "package": "wai-extra",
@@ -1822,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "getRequestBodyType",
           "normalized": "Request-\u003eMaybe RequestBodyType",
@@ -1838,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore uploaded files in memory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "lbsBackEnd",
           "package": "wai-extra",
@@ -1848,6 +2007,7 @@
         "index": {
           "description": "Store uploaded files in memory",
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "lbsBackEnd",
           "normalized": "a-\u003ea-\u003eSink ByteString b ByteString",
@@ -1864,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a content type value, turning a single \u003ccode\u003eByteString\u003c/code\u003e into the actual\n content type and a list of pairs of attributes.\n\u003c/p\u003e\u003cp\u003eSince 1.3.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "parseContentType",
           "package": "wai-extra",
@@ -1874,6 +2035,7 @@
         "index": {
           "description": "Parse content type value turning single ByteString into the actual content type and list of pairs of attributes Since",
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "parseContentType",
           "normalized": "ByteString-\u003e(ByteString,[(ByteString,ByteString)])",
@@ -1890,6 +2052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the HTTP accept string to determine supported content types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "parseHttpAccept",
           "package": "wai-extra",
@@ -1900,6 +2063,7 @@
         "index": {
           "description": "Parse the HTTP accept string to determine supported content types",
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "parseHttpAccept",
           "normalized": "ByteString-\u003e[ByteString]",
@@ -1915,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "parseRequestBody",
           "package": "wai-extra",
@@ -1924,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "parseRequestBody",
           "normalized": "BackEnd a-\u003eRequest-\u003eIO([Param],[File a])",
@@ -1939,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "sinkRequestBody",
           "package": "wai-extra",
@@ -1948,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "sinkRequestBody",
           "normalized": "BackEnd a-\u003eRequestBodyType-\u003eSink ByteString IO([Param],[File a])",
@@ -1964,6 +2132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave uploaded files on disk as temporary files\n\u003c/p\u003e\u003cp\u003eNote: starting with version 2.0, it is the responsibility of the caller to\n remove any temp files created by using this backend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "tempFileBackEnd",
           "package": "wai-extra",
@@ -1974,6 +2143,7 @@
         "index": {
           "description": "Save uploaded files on disk as temporary files Note starting with version it is the responsibility of the caller to remove any temp files created by using this backend",
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "tempFileBackEnd",
           "normalized": "InternalState-\u003ea-\u003ea-\u003eSink ByteString IO FilePath",
@@ -1990,6 +2160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003etempFileSink\u003c/code\u003e, but use configurable temp folders and patterns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.Parse",
           "name": "tempFileBackEndOpts",
           "package": "wai-extra",
@@ -1999,6 +2170,7 @@
         "index": {
           "description": "Same as tempFileSink but use configurable temp folders and patterns",
           "hierarchy": "Network Wai Parse",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.Parse",
           "name": "tempFileBackEndOpts",
           "normalized": "IO FilePath-\u003eString-\u003eInternalState-\u003ea-\u003ea-\u003eSink ByteString IO FilePath",
@@ -2015,6 +2187,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module gives you a way to mount applications under sub-URIs.\nFor example:\n\u003c/p\u003e\u003cpre\u003e bugsApp, helpdeskApp, apiV1, apiV2, mainApp :: Application\n\n myApp :: Application\n myApp = mapUrls $\n       mount \"bugs\"     bugsApp\n   \u003c|\u003e mount \"helpdesk\" helpdeskApp\n   \u003c|\u003e mount \"api\"\n           (   mount \"v1\" apiV1\n           \u003c|\u003e mount \"v2\" apiV2\n           )\n   \u003c|\u003e mountRoot mainApp\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.UrlMap",
           "name": "UrlMap",
           "package": "wai-extra",
@@ -2024,6 +2197,7 @@
         "index": {
           "description": "This module gives you way to mount applications under sub-URIs For example bugsApp helpdeskApp apiV1 apiV2 mainApp Application myApp Application myApp mapUrls mount bugs bugsApp mount helpdesk helpdeskApp mount api mount v1 apiV1 mount v2 apiV2 mountRoot mainApp",
           "hierarchy": "Network Wai UrlMap",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.UrlMap",
           "name": "UrlMap",
           "package": "wai-extra",
@@ -2037,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.UrlMap",
           "name": "UrlMap",
           "package": "wai-extra",
@@ -2045,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Network Wai UrlMap",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.UrlMap",
           "name": "UrlMap",
           "package": "wai-extra",
@@ -2058,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.UrlMap",
           "name": "UrlMap'",
           "package": "wai-extra",
@@ -2066,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "Network Wai UrlMap",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.UrlMap",
           "name": "UrlMap'",
           "package": "wai-extra",
@@ -2079,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.UrlMap",
           "name": "mapUrls",
           "package": "wai-extra",
@@ -2088,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Network Wai UrlMap",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.UrlMap",
           "name": "mapUrls",
           "normalized": "UrlMap-\u003eApplication",
@@ -2104,6 +2284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function like mount', but for mounting things under a single\n path segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.UrlMap",
           "name": "mount",
           "package": "wai-extra",
@@ -2114,6 +2295,7 @@
         "index": {
           "description": "convenience function like mount but for mounting things under single path segment",
           "hierarchy": "Network Wai UrlMap",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.UrlMap",
           "name": "mount",
           "normalized": "Text-\u003ea-\u003eUrlMap",
@@ -2129,6 +2311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMount an application under a given path. The ToApplication typeclass gives\n you the option to pass either an \u003ccode\u003e\u003ca\u003eApplication\u003c/a\u003e\u003c/code\u003e or an \u003ccode\u003e\u003ca\u003eUrlMap\u003c/a\u003e\u003c/code\u003e\n as the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.UrlMap",
           "name": "mount'",
           "package": "wai-extra",
@@ -2139,6 +2322,7 @@
         "index": {
           "description": "Mount an application under given path The ToApplication typeclass gives you the option to pass either an Application or an UrlMap as the second argument",
           "hierarchy": "Network Wai UrlMap",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.UrlMap",
           "name": "mount'",
           "normalized": "Path-\u003ea-\u003eUrlMap",
@@ -2154,6 +2338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMount something at the root. Use this for the last application in the\n block, to avoid 500 errors from none of the applications matching.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:59 UTC 2014",
           "module": "Network.Wai.UrlMap",
           "name": "mountRoot",
           "package": "wai-extra",
@@ -2164,6 +2349,7 @@
         "index": {
           "description": "Mount something at the root Use this for the last application in the block to avoid errors from none of the applications matching",
           "hierarchy": "Network Wai UrlMap",
+          "indexed": "2014-03-11T20:35:59",
           "module": "Network.Wai.UrlMap",
           "name": "mountRoot",
           "normalized": "a-\u003eUrlMap",

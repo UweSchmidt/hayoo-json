@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hoe"
+        "phrase": "hoe",
+        "type": "phrase"
       },
       "type": "context"
     }

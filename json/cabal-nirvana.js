@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-nirvana"
+        "phrase": "cabal-nirvana",
+        "type": "phrase"
       },
       "type": "context"
     }

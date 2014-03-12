@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "buildwrapper"
+        "phrase": "buildwrapper",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAPI entry point, with all exposed methods\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "API",
           "package": "buildwrapper",
@@ -28,6 +29,7 @@
         "index": {
           "description": "API entry point with all exposed methods",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "API",
           "package": "buildwrapper",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun cabal build\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "build",
           "package": "buildwrapper",
@@ -51,6 +54,7 @@
         "index": {
           "description": "run cabal build",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "build",
           "normalized": "Bool-\u003eWhichCabal-\u003eBuildWrapper(OpResult BuildResult)",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuild one source file in GHC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "build1",
           "package": "buildwrapper",
@@ -75,6 +80,7 @@
         "index": {
           "description": "build one source file in GHC",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "build1",
           "normalized": "FilePath-\u003eMaybe String-\u003eBuildWrapper(OpResult(Maybe[NameDef]))",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuild one source file in GHC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "build1LongRunning",
           "package": "buildwrapper",
@@ -99,6 +106,7 @@
         "index": {
           "description": "build one source file in GHC",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "build1LongRunning",
           "normalized": "FilePath-\u003eMaybe String-\u003eBuildWrapper(OpResult(Maybe()))",
@@ -114,6 +122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "clean",
           "package": "buildwrapper",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "clean",
           "normalized": "Bool-\u003eBuildWrapper Bool",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclean imports in a source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "cleanImports",
           "package": "buildwrapper",
@@ -146,6 +157,7 @@
         "index": {
           "description": "clean imports in source file",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "cleanImports",
           "normalized": "FilePath-\u003eBool-\u003eMaybe String-\u003eBuildWrapper(OpResult[ImportClean])",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun cabal configure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "configure",
           "package": "buildwrapper",
@@ -171,6 +184,7 @@
         "index": {
           "description": "run cabal configure",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "configure",
           "normalized": "WhichCabal-\u003eBuildWrapper(OpResult Bool)",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate usage information files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "generateUsage",
           "package": "buildwrapper",
@@ -195,6 +210,7 @@
         "index": {
           "description": "generate usage information files",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "generateUsage",
           "normalized": "Bool-\u003eString-\u003eBuildWrapper(OpResult(Maybe[FilePath]))",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget haskell-src-exts commented AST for source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getAST",
           "package": "buildwrapper",
@@ -220,6 +237,7 @@
         "index": {
           "description": "get haskell-src-exts commented AST for source file",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getAST",
           "normalized": "FilePath-\u003eMaybe String-\u003eBuildWrapper(OpResult(Maybe(ParseResult(Module SrcSpanInfo,[Comment]))))",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the build flags for a source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getBuildFlags",
           "package": "buildwrapper",
@@ -245,6 +264,7 @@
         "index": {
           "description": "get the build flags for source file",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getBuildFlags",
           "normalized": "FilePath-\u003eMaybe String-\u003eBuildWrapper(OpResult BuildFlags)",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget cabal components\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getCabalComponents",
           "package": "buildwrapper",
@@ -271,6 +292,7 @@
         "index": {
           "description": "get cabal components",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getCabalComponents",
           "normalized": "BuildWrapper(OpResult[CabalComponent])",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget cabal dependencies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getCabalDependencies",
           "package": "buildwrapper",
@@ -297,6 +320,7 @@
         "index": {
           "description": "get cabal dependencies",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getCabalDependencies",
           "normalized": "FilePath-\u003eBuildWrapper(OpResult[(FilePath,[CabalPackage])])",
@@ -313,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget GHC typechecked AST for source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getGHCAST",
           "package": "buildwrapper",
@@ -322,6 +347,7 @@
         "index": {
           "description": "get GHC typechecked AST for source file",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getGHCAST",
           "normalized": "FilePath-\u003eMaybe String-\u003eBuildWrapper(OpResult(Maybe TypecheckedSource))",
@@ -338,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget locals identifiers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getLocals",
           "package": "buildwrapper",
@@ -347,6 +374,7 @@
         "index": {
           "description": "get locals identifiers",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getLocals",
           "normalized": "FilePath-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eMaybe String-\u003eBuildWrapper(OpResult[ThingAtPoint])",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all names in scope (GHC API)                \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getNamesInScope",
           "package": "buildwrapper",
@@ -372,6 +401,7 @@
         "index": {
           "description": "get all names in scope GHC API",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getNamesInScope",
           "normalized": "FilePath-\u003eMaybe String-\u003eBuildWrapper(OpResult(Maybe[String]))",
@@ -387,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getOccurrences",
           "package": "buildwrapper",
@@ -395,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getOccurrences",
           "normalized": "FilePath-\u003eString-\u003eMaybe String-\u003eBuildWrapper(OpResult[TokenDef])",
@@ -411,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget outline for source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getOutline",
           "package": "buildwrapper",
@@ -420,6 +453,7 @@
         "index": {
           "description": "get outline for source file",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getOutline",
           "normalized": "FilePath-\u003eMaybe String-\u003eBuildWrapper(OpResult OutlineResult)",
@@ -436,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget thing at point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getThingAtPoint",
           "package": "buildwrapper",
@@ -445,6 +480,7 @@
         "index": {
           "description": "get thing at point",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getThingAtPoint",
           "normalized": "FilePath-\u003eInt-\u003eInt-\u003eMaybe String-\u003eBuildWrapper(OpResult(Maybe ThingAtPoint))",
@@ -461,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all occurrences of a token in the file\n\u003c/p\u003e\u003cp\u003eget lexer token types for source file \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getTokenTypes",
           "package": "buildwrapper",
@@ -470,6 +507,7 @@
         "index": {
           "description": "get all occurrences of token in the file get lexer token types for source file",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "getTokenTypes",
           "normalized": "FilePath-\u003eBuildWrapper(OpResult[TokenDef])",
@@ -486,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epreprocess a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "preproc",
           "package": "buildwrapper",
@@ -495,6 +534,7 @@
         "index": {
           "description": "preprocess file",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "preproc",
           "normalized": "BuildFlags-\u003eFilePath-\u003eIO String",
@@ -510,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecopy all files from the project to the temporary folder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "synchronize",
           "package": "buildwrapper",
@@ -519,6 +560,7 @@
         "index": {
           "description": "copy all files from the project to the temporary folder",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "synchronize",
           "normalized": "Bool-\u003eBuildWrapper(OpResult([FilePath],[FilePath]))",
@@ -534,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esynchronize one file only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "synchronize1",
           "package": "buildwrapper",
@@ -543,6 +586,7 @@
         "index": {
           "description": "synchronize one file only",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "synchronize1",
           "normalized": "Bool-\u003eFilePath-\u003eBuildWrapper(Maybe FilePath)",
@@ -558,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform an action on the GHC AST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "withGHCAST",
           "package": "buildwrapper",
@@ -567,6 +612,7 @@
         "index": {
           "description": "perform an action on the GHC AST",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "withGHCAST",
           "normalized": "FilePath-\u003eMaybe String-\u003e(FilePath-\u003eFilePath-\u003eString-\u003e[String]-\u003eIO a)-\u003eBuildWrapper(OpResult(Maybe a))",
@@ -582,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "withGHCAST'",
           "package": "buildwrapper",
@@ -590,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "withGHCAST'",
           "normalized": "FilePath-\u003eMaybe String-\u003e(FilePath-\u003eFilePath-\u003eString-\u003e[String]-\u003eIO(OpResult(Maybe a)))-\u003eBuildWrapper(OpResult(Maybe a))",
@@ -606,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrite contents to temporary file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "write",
           "package": "buildwrapper",
@@ -615,6 +664,7 @@
         "index": {
           "description": "write contents to temporary file",
           "hierarchy": "Language Haskell BuildWrapper API",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.API",
           "name": "write",
           "normalized": "FilePath-\u003eString-\u003eBuildWrapper()",
@@ -630,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types, State Monad, utility functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Base",
           "package": "buildwrapper",
@@ -639,6 +690,7 @@
         "index": {
           "description": "Data types State Monad utility functions",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Base",
           "package": "buildwrapper",
@@ -653,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocation of a note/error (lines and columns start at 1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BWLocation",
           "package": "buildwrapper",
@@ -662,6 +715,7 @@
         "index": {
           "description": "location of note error lines and columns start at",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BWLocation",
           "package": "buildwrapper",
@@ -676,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea note on a source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BWNote",
           "package": "buildwrapper",
@@ -685,6 +740,7 @@
         "index": {
           "description": "note on source file",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BWNote",
           "package": "buildwrapper",
@@ -699,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estatus of notes: error or warning\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BWNoteStatus",
           "package": "buildwrapper",
@@ -708,6 +765,7 @@
         "index": {
           "description": "status of notes error or warning",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BWNoteStatus",
           "package": "buildwrapper",
@@ -722,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuild flags for a specific file        \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BuildFlags",
           "package": "buildwrapper",
@@ -731,6 +790,7 @@
         "index": {
           "description": "build flags for specific file",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BuildFlags",
           "package": "buildwrapper",
@@ -745,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresult: success + files impacted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BuildResult",
           "package": "buildwrapper",
@@ -754,6 +815,7 @@
         "index": {
           "description": "result success files impacted",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BuildResult",
           "package": "buildwrapper",
@@ -768,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BuildWrapper",
           "package": "buildwrapper",
@@ -777,6 +840,7 @@
         "index": {
           "description": "State type",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BuildWrapper",
           "package": "buildwrapper",
@@ -791,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe state we keep\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BuildWrapperState",
           "package": "buildwrapper",
@@ -800,6 +865,7 @@
         "index": {
           "description": "the state we keep",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BuildWrapperState",
           "package": "buildwrapper",
@@ -814,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomponent in cabal file    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "CabalComponent",
           "package": "buildwrapper",
@@ -823,6 +890,7 @@
         "index": {
           "description": "component in cabal file",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "CabalComponent",
           "package": "buildwrapper",
@@ -837,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea cabal package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "CabalPackage",
           "package": "buildwrapper",
@@ -846,6 +915,7 @@
         "index": {
           "description": "cabal package",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "CabalPackage",
           "package": "buildwrapper",
@@ -860,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefinition of export\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ExportDef",
           "package": "buildwrapper",
@@ -869,6 +940,7 @@
         "index": {
           "description": "definition of export",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ExportDef",
           "package": "buildwrapper",
@@ -883,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimport clean operation: the span of text to change, the new text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ImportClean",
           "package": "buildwrapper",
@@ -892,6 +965,7 @@
         "index": {
           "description": "import clean operation the span of text to change the new text",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ImportClean",
           "package": "buildwrapper",
@@ -906,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefinition of an import statement     \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ImportDef",
           "package": "buildwrapper",
@@ -915,6 +990,7 @@
         "index": {
           "description": "definition of an import statement",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ImportDef",
           "package": "buildwrapper",
@@ -929,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of import/export directive    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ImportExportType",
           "package": "buildwrapper",
@@ -938,6 +1015,7 @@
         "index": {
           "description": "Type of import export directive",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ImportExportType",
           "package": "buildwrapper",
@@ -952,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefinition of an import element   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ImportSpecDef",
           "package": "buildwrapper",
@@ -961,6 +1040,7 @@
         "index": {
           "description": "definition of an import element",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ImportSpecDef",
           "package": "buildwrapper",
@@ -975,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation inside a file, the file is known and doesn't need to be repeated \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "InFileLoc",
           "package": "buildwrapper",
@@ -984,6 +1065,7 @@
         "index": {
           "description": "Location inside file the file is known and doesn need to be repeated",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "InFileLoc",
           "package": "buildwrapper",
@@ -998,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpan inside a file, the file is known and doesn't need to be repeated \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "InFileSpan",
           "package": "buildwrapper",
@@ -1007,6 +1090,7 @@
         "index": {
           "description": "Span inside file the file is known and doesn need to be repeated",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "InFileSpan",
           "package": "buildwrapper",
@@ -1021,6 +1105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einformation about files to load (single file or multiple files)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "LoadContents",
           "package": "buildwrapper",
@@ -1030,6 +1115,7 @@
         "index": {
           "description": "information about files to load single file or multiple files",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "LoadContents",
           "package": "buildwrapper",
@@ -1044,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefinition of a name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "NameDef",
           "package": "buildwrapper",
@@ -1053,6 +1140,7 @@
         "index": {
           "description": "definition of name",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "NameDef",
           "package": "buildwrapper",
@@ -1067,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimple type encapsulating the fact the operations return along with notes generated on files        \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "OpResult",
           "package": "buildwrapper",
@@ -1076,6 +1165,7 @@
         "index": {
           "description": "simple type encapsulating the fact the operations return along with notes generated on files",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "OpResult",
           "package": "buildwrapper",
@@ -1090,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eelement of the outline result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "OutlineDef",
           "package": "buildwrapper",
@@ -1099,6 +1190,7 @@
         "index": {
           "description": "element of the outline result",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "OutlineDef",
           "package": "buildwrapper",
@@ -1113,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype of elements for the outline        \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "OutlineDefType",
           "package": "buildwrapper",
@@ -1122,6 +1215,7 @@
         "index": {
           "description": "type of elements for the outline",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "OutlineDefType",
           "package": "buildwrapper",
@@ -1136,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomplete result for outline    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "OutlineResult",
           "package": "buildwrapper",
@@ -1145,6 +1240,7 @@
         "index": {
           "description": "complete result for outline",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "OutlineResult",
           "package": "buildwrapper",
@@ -1159,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einformation about the thing at a given point in the source   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ThingAtPoint",
           "package": "buildwrapper",
@@ -1168,6 +1265,7 @@
         "index": {
           "description": "information about the thing at given point in the source",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ThingAtPoint",
           "package": "buildwrapper",
@@ -1182,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLexer token\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "TokenDef",
           "package": "buildwrapper",
@@ -1191,6 +1290,7 @@
         "index": {
           "description": "Lexer token",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "TokenDef",
           "package": "buildwrapper",
@@ -1205,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsage structure                \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Usage",
           "package": "buildwrapper",
@@ -1214,6 +1315,7 @@
         "index": {
           "description": "Usage structure",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Usage",
           "package": "buildwrapper",
@@ -1228,6 +1330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerbosity settings                \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Verbosity",
           "package": "buildwrapper",
@@ -1237,6 +1340,7 @@
         "index": {
           "description": "Verbosity settings",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Verbosity",
           "package": "buildwrapper",
@@ -1251,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresult for building one file: success + names\ndata Build1Result=Build1Result Bool [NameDef]\n        deriving (Show,Read,Eq)\n\u003c/p\u003e\u003cp\u003einstance ToJSON Build1Result  where\n    toJSON (Build1Result b ns)= object [\u003ca\u003er\u003c/a\u003e .= b, \u003ca\u003ens\u003c/a\u003e .= map toJSON ns]       \n\u003c/p\u003e\u003cp\u003einstance FromJSON Build1Result where\n    parseJSON (Object v) =Build1Result \u003ca\u003e$\u003c/a\u003e\n                         v .: \u003ca\u003er\u003c/a\u003e \u003ca\u003e*\u003c/a\u003e\n                         v .: \u003ca\u003ens\u003c/a\u003e \n    parseJSON _= mzero    \n\u003c/p\u003e\u003cp\u003ewhich cabal file to use operations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "WhichCabal",
           "package": "buildwrapper",
@@ -1260,6 +1365,7 @@
         "index": {
           "description": "result for building one file success names data Build1Result Build1Result Bool NameDef deriving Show Read Eq instance ToJSON Build1Result where toJSON Build1Result ns object ns map toJSON ns instance FromJSON Build1Result where parseJSON Object Build1Result ns parseJSON mzero which cabal file to use operations",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "WhichCabal",
           "package": "buildwrapper",
@@ -1273,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BWError",
           "package": "buildwrapper",
@@ -1282,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BWError",
           "package": "buildwrapper",
@@ -1295,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BWLocation",
           "package": "buildwrapper",
@@ -1304,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BWLocation",
           "package": "buildwrapper",
@@ -1317,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BWNote",
           "package": "buildwrapper",
@@ -1326,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BWNote",
           "package": "buildwrapper",
@@ -1339,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BWWarning",
           "package": "buildwrapper",
@@ -1348,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BWWarning",
           "package": "buildwrapper",
@@ -1361,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BuildFlags",
           "package": "buildwrapper",
@@ -1370,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BuildFlags",
           "package": "buildwrapper",
@@ -1383,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BuildResult",
           "package": "buildwrapper",
@@ -1392,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BuildResult",
           "normalized": "BuildResult Bool[FilePath]",
@@ -1407,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BuildWrapperState",
           "package": "buildwrapper",
@@ -1416,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "BuildWrapperState",
           "package": "buildwrapper",
@@ -1430,6 +1550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexecutable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "CCExecutable",
           "package": "buildwrapper",
@@ -1440,6 +1561,7 @@
         "index": {
           "description": "executable",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "CCExecutable",
           "package": "buildwrapper",
@@ -1454,6 +1576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elibrary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "CCLibrary",
           "package": "buildwrapper",
@@ -1464,6 +1587,7 @@
         "index": {
           "description": "library",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "CCLibrary",
           "package": "buildwrapper",
@@ -1478,6 +1602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest suite\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "CCTestSuite",
           "package": "buildwrapper",
@@ -1488,6 +1613,7 @@
         "index": {
           "description": "test suite",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "CCTestSuite",
           "package": "buildwrapper",
@@ -1501,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "CabalPackage",
           "package": "buildwrapper",
@@ -1510,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "CabalPackage",
           "package": "buildwrapper",
@@ -1523,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Class",
           "package": "buildwrapper",
@@ -1532,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Class",
           "package": "buildwrapper",
@@ -1545,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Constructor",
           "package": "buildwrapper",
@@ -1554,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Constructor",
           "package": "buildwrapper",
@@ -1567,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Data",
           "package": "buildwrapper",
@@ -1576,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Data",
           "package": "buildwrapper",
@@ -1589,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Deafening",
           "package": "buildwrapper",
@@ -1598,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Deafening",
           "package": "buildwrapper",
@@ -1611,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ExportDef",
           "package": "buildwrapper",
@@ -1620,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ExportDef",
           "package": "buildwrapper",
@@ -1633,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Family",
           "package": "buildwrapper",
@@ -1642,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Family",
           "package": "buildwrapper",
@@ -1655,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Field",
           "package": "buildwrapper",
@@ -1664,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Field",
           "package": "buildwrapper",
@@ -1677,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Function",
           "package": "buildwrapper",
@@ -1686,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Function",
           "package": "buildwrapper",
@@ -1700,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "IEAbs",
           "package": "buildwrapper",
@@ -1710,6 +1855,7 @@
         "index": {
           "description": "Abs",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "IEAbs",
           "package": "buildwrapper",
@@ -1724,6 +1870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereexport module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "IEModule",
           "package": "buildwrapper",
@@ -1734,6 +1881,7 @@
         "index": {
           "description": "reexport module",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "IEModule",
           "package": "buildwrapper",
@@ -1748,6 +1896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimport/export everything\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "IEThingAll",
           "package": "buildwrapper",
@@ -1758,6 +1907,7 @@
         "index": {
           "description": "import export everything",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "IEThingAll",
           "package": "buildwrapper",
@@ -1772,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003especific import/export list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "IEThingWith",
           "package": "buildwrapper",
@@ -1782,6 +1933,7 @@
         "index": {
           "description": "specific import export list",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "IEThingWith",
           "package": "buildwrapper",
@@ -1796,6 +1948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "IEVar",
           "package": "buildwrapper",
@@ -1806,6 +1959,7 @@
         "index": {
           "description": "Var",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "IEVar",
           "package": "buildwrapper",
@@ -1819,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ImportClean",
           "package": "buildwrapper",
@@ -1828,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ImportClean",
           "package": "buildwrapper",
@@ -1841,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ImportDef",
           "package": "buildwrapper",
@@ -1850,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ImportDef",
           "package": "buildwrapper",
@@ -1863,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ImportSpecDef",
           "package": "buildwrapper",
@@ -1872,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ImportSpecDef",
           "package": "buildwrapper",
@@ -1885,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "InFileLoc",
           "package": "buildwrapper",
@@ -1894,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "InFileLoc",
           "package": "buildwrapper",
@@ -1907,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "InFileSpan",
           "package": "buildwrapper",
@@ -1916,6 +2079,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "InFileSpan",
           "package": "buildwrapper",
@@ -1929,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Instance",
           "package": "buildwrapper",
@@ -1938,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Instance",
           "package": "buildwrapper",
@@ -1951,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "MultipleFile",
           "package": "buildwrapper",
@@ -1960,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "MultipleFile",
           "package": "buildwrapper",
@@ -1973,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "NameDef",
           "package": "buildwrapper",
@@ -1982,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "NameDef",
           "package": "buildwrapper",
@@ -1995,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Normal",
           "package": "buildwrapper",
@@ -2004,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Normal",
           "package": "buildwrapper",
@@ -2017,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "OutlineDef",
           "package": "buildwrapper",
@@ -2026,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "OutlineDef",
           "package": "buildwrapper",
@@ -2039,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "OutlineResult",
           "package": "buildwrapper",
@@ -2048,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "OutlineResult",
           "package": "buildwrapper",
@@ -2061,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Pattern",
           "package": "buildwrapper",
@@ -2070,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Pattern",
           "package": "buildwrapper",
@@ -2083,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Silent",
           "package": "buildwrapper",
@@ -2092,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Silent",
           "package": "buildwrapper",
@@ -2105,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "SingleFile",
           "package": "buildwrapper",
@@ -2114,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "SingleFile",
           "package": "buildwrapper",
@@ -2128,6 +2310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse proper file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Source",
           "package": "buildwrapper",
@@ -2138,6 +2321,7 @@
         "index": {
           "description": "use proper file",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Source",
           "package": "buildwrapper",
@@ -2151,6 +2335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Splice",
           "package": "buildwrapper",
@@ -2160,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Splice",
           "package": "buildwrapper",
@@ -2173,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Syn",
           "package": "buildwrapper",
@@ -2182,6 +2369,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Syn",
           "package": "buildwrapper",
@@ -2196,6 +2384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse temporary file that was saved in temp folder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Target",
           "package": "buildwrapper",
@@ -2206,6 +2395,7 @@
         "index": {
           "description": "use temporary file that was saved in temp folder",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Target",
           "package": "buildwrapper",
@@ -2219,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ThingAtPoint",
           "package": "buildwrapper",
@@ -2228,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ThingAtPoint",
           "package": "buildwrapper",
@@ -2241,6 +2433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "TokenDef",
           "package": "buildwrapper",
@@ -2250,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "TokenDef",
           "package": "buildwrapper",
@@ -2263,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Type",
           "package": "buildwrapper",
@@ -2272,6 +2467,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Type",
           "package": "buildwrapper",
@@ -2285,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Usage",
           "package": "buildwrapper",
@@ -2294,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Usage",
           "package": "buildwrapper",
@@ -2307,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Verbose",
           "package": "buildwrapper",
@@ -2316,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "Verbose",
           "package": "buildwrapper",
@@ -2330,6 +2530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflags for GHC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bfAst",
           "package": "buildwrapper",
@@ -2340,6 +2541,7 @@
         "index": {
           "description": "flags for GHC",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bfAst",
           "normalized": "[String]",
@@ -2356,6 +2558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomponent used to get flags, if known\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bfComponent",
           "package": "buildwrapper",
@@ -2366,6 +2569,7 @@
         "index": {
           "description": "component used to get flags if known",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bfComponent",
           "package": "buildwrapper",
@@ -2380,6 +2584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodule name if known\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bfModName",
           "package": "buildwrapper",
@@ -2390,6 +2595,7 @@
         "index": {
           "description": "module name if known",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bfModName",
           "package": "buildwrapper",
@@ -2404,6 +2610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflags for preprocessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bfPreproc",
           "package": "buildwrapper",
@@ -2414,6 +2621,7 @@
         "index": {
           "description": "flags for preprocessor",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bfPreproc",
           "normalized": "[String]",
@@ -2430,6 +2638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolumn\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwlCol",
           "package": "buildwrapper",
@@ -2440,6 +2649,7 @@
         "index": {
           "description": "column",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwlCol",
           "package": "buildwrapper",
@@ -2454,6 +2664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eend line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwlEndCol",
           "package": "buildwrapper",
@@ -2464,6 +2675,7 @@
         "index": {
           "description": "end line",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwlEndCol",
           "package": "buildwrapper",
@@ -2478,6 +2690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eend line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwlEndLine",
           "package": "buildwrapper",
@@ -2488,6 +2701,7 @@
         "index": {
           "description": "end line",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwlEndLine",
           "package": "buildwrapper",
@@ -2502,6 +2716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwlLine",
           "package": "buildwrapper",
@@ -2512,6 +2727,7 @@
         "index": {
           "description": "line",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwlLine",
           "package": "buildwrapper",
@@ -2526,6 +2742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esource file \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwlSrc",
           "package": "buildwrapper",
@@ -2536,6 +2753,7 @@
         "index": {
           "description": "source file",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwlSrc",
           "package": "buildwrapper",
@@ -2550,6 +2768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhere the note is\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwnLocation",
           "package": "buildwrapper",
@@ -2560,6 +2779,7 @@
         "index": {
           "description": "where the note is",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwnLocation",
           "package": "buildwrapper",
@@ -2574,6 +2794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estatus of the note\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwnStatus",
           "package": "buildwrapper",
@@ -2584,6 +2805,7 @@
         "index": {
           "description": "status of the note",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwnStatus",
           "package": "buildwrapper",
@@ -2598,6 +2820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emessage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwnTitle",
           "package": "buildwrapper",
@@ -2608,6 +2831,7 @@
         "index": {
           "description": "message",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "bwnTitle",
           "package": "buildwrapper",
@@ -2622,6 +2846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the cabal component name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cabalComponentName",
           "package": "buildwrapper",
@@ -2632,6 +2857,7 @@
         "index": {
           "description": "get the cabal component name",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cabalComponentName",
           "normalized": "CabalComponent-\u003eString",
@@ -2648,6 +2874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath of the project cabal file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cabalFile",
           "package": "buildwrapper",
@@ -2658,6 +2885,7 @@
         "index": {
           "description": "path of the project cabal file",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cabalFile",
           "package": "buildwrapper",
@@ -2672,6 +2900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflags to pass cabal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cabalFlags",
           "package": "buildwrapper",
@@ -2682,6 +2911,7 @@
         "index": {
           "description": "flags to pass cabal",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cabalFlags",
           "package": "buildwrapper",
@@ -2696,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextra arguments to cabal configure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cabalOpts",
           "package": "buildwrapper",
@@ -2706,6 +2937,7 @@
         "index": {
           "description": "extra arguments to cabal configure",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cabalOpts",
           "normalized": "[String]",
@@ -2722,6 +2954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath to the cabal executable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cabalPath",
           "package": "buildwrapper",
@@ -2732,6 +2965,7 @@
         "index": {
           "description": "path to the cabal executable",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cabalPath",
           "package": "buildwrapper",
@@ -2746,6 +2980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the full, canonicalized path of a source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "canonicalizeFullPath",
           "package": "buildwrapper",
@@ -2755,6 +2990,7 @@
         "index": {
           "description": "get the full canonicalized path of source",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "canonicalizeFullPath",
           "normalized": "FilePath-\u003eBuildWrapper FilePath",
@@ -2771,6 +3007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the test suite buildable\n\u003c/p\u003e\u003cp\u003eis the executable buildable\n\u003c/p\u003e\u003cp\u003eis the library buildable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ccBuildable",
           "package": "buildwrapper",
@@ -2781,6 +3018,7 @@
         "index": {
           "description": "is the test suite buildable is the executable buildable is the library buildable",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ccBuildable",
           "package": "buildwrapper",
@@ -2795,6 +3033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexecutable name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ccExeName",
           "package": "buildwrapper",
@@ -2805,6 +3044,7 @@
         "index": {
           "description": "executable name",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ccExeName",
           "package": "buildwrapper",
@@ -2819,6 +3059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest suite name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ccTestName",
           "package": "buildwrapper",
@@ -2829,6 +3070,7 @@
         "index": {
           "description": "test suite name",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ccTestName",
           "package": "buildwrapper",
@@ -2843,6 +3085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecopy a file from the normal folders to the temp folder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "copyFromMain",
           "package": "buildwrapper",
@@ -2852,6 +3095,7 @@
         "index": {
           "description": "copy file from the normal folders to the temp folder",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "copyFromMain",
           "normalized": "Bool-\u003eFilePath-\u003eBuildWrapper(Maybe FilePath)",
@@ -2868,6 +3112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomponents in the cabal file that use this package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cpDependent",
           "package": "buildwrapper",
@@ -2878,6 +3123,7 @@
         "index": {
           "description": "components in the cabal file that use this package",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cpDependent",
           "normalized": "[CabalComponent]",
@@ -2894,6 +3140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the package exposed or hidden\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cpExposed",
           "package": "buildwrapper",
@@ -2904,6 +3151,7 @@
         "index": {
           "description": "is the package exposed or hidden",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cpExposed",
           "package": "buildwrapper",
@@ -2918,6 +3166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall modules. We keep all modules so that we can try to open non exposed but imported modules directly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cpModules",
           "package": "buildwrapper",
@@ -2928,6 +3177,7 @@
         "index": {
           "description": "all modules We keep all modules so that we can try to open non exposed but imported modules directly",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cpModules",
           "normalized": "[String]",
@@ -2944,6 +3194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cpName",
           "package": "buildwrapper",
@@ -2954,6 +3205,7 @@
         "index": {
           "description": "name of package",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cpName",
           "package": "buildwrapper",
@@ -2968,6 +3220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eversion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cpVersion",
           "package": "buildwrapper",
@@ -2978,6 +3231,7 @@
         "index": {
           "description": "version",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "cpVersion",
           "package": "buildwrapper",
@@ -2992,6 +3246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete generated files  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "deleteGenerated",
           "package": "buildwrapper",
@@ -3002,6 +3257,7 @@
         "index": {
           "description": "delete generated files",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "deleteGenerated",
           "normalized": "BuildWrapper()",
@@ -3018,6 +3274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete files in temp folder but not in real folder anymore\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "deleteGhosts",
           "package": "buildwrapper",
@@ -3028,6 +3285,7 @@
         "index": {
           "description": "delete files in temp folder but not in real folder anymore",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "deleteGhosts",
           "normalized": "[FilePath]-\u003eBuildWrapper[FilePath]",
@@ -3044,6 +3302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete all temporary files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "deleteTemp",
           "package": "buildwrapper",
@@ -3054,6 +3313,7 @@
         "index": {
           "description": "delete all temporary files",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "deleteTemp",
           "normalized": "BuildWrapper()",
@@ -3070,6 +3330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echildren (constructor names, etc.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "eChildren",
           "package": "buildwrapper",
@@ -3080,6 +3341,7 @@
         "index": {
           "description": "children constructor names etc",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "eChildren",
           "normalized": "[Text]",
@@ -3096,6 +3358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocation in source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "eLoc",
           "package": "buildwrapper",
@@ -3106,6 +3369,7 @@
         "index": {
           "description": "location in source file",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "eLoc",
           "package": "buildwrapper",
@@ -3120,6 +3384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "eName",
           "package": "buildwrapper",
@@ -3130,6 +3395,7 @@
         "index": {
           "description": "name",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "eName",
           "package": "buildwrapper",
@@ -3144,6 +3410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "eType",
           "package": "buildwrapper",
@@ -3154,6 +3421,7 @@
         "index": {
           "description": "type",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "eType",
           "package": "buildwrapper",
@@ -3168,6 +3436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereplace relative file path by module name      \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "fileToModule",
           "package": "buildwrapper",
@@ -3178,6 +3447,7 @@
         "index": {
           "description": "replace relative file path by module name",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "fileToModule",
           "normalized": "FilePath-\u003eString",
@@ -3194,6 +3464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edebug method to vaguely format JSON result to dump them\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "formatJSON",
           "package": "buildwrapper",
@@ -3204,6 +3475,7 @@
         "index": {
           "description": "debug method to vaguely format JSON result to dump them",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "formatJSON",
           "normalized": "String-\u003eString",
@@ -3220,6 +3492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edebug method: fromJust with a message to display when we get Nothing \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "fromJustDebug",
           "package": "buildwrapper",
@@ -3230,6 +3503,7 @@
         "index": {
           "description": "debug method fromJust with message to display when we get Nothing",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "fromJustDebug",
           "normalized": "String-\u003eMaybe a-\u003ea",
@@ -3246,6 +3520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the full path for the temporary dist directory (where cabal will write its output)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "getDistDir",
           "package": "buildwrapper",
@@ -3256,6 +3531,7 @@
         "index": {
           "description": "get the full path for the temporary dist directory where cabal will write its output",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "getDistDir",
           "package": "buildwrapper",
@@ -3270,6 +3546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the full path of a source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "getFullSrc",
           "package": "buildwrapper",
@@ -3279,6 +3556,7 @@
         "index": {
           "description": "get the full path of source",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "getFullSrc",
           "normalized": "FilePath-\u003eBuildWrapper FilePath",
@@ -3295,6 +3573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the full path for the temporary directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "getFullTempDir",
           "package": "buildwrapper",
@@ -3305,6 +3584,7 @@
         "index": {
           "description": "get the full path for the temporary directory",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "getFullTempDir",
           "package": "buildwrapper",
@@ -3319,6 +3599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget files to load\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "getLoadFiles",
           "package": "buildwrapper",
@@ -3329,6 +3610,7 @@
         "index": {
           "description": "get files to load",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "getLoadFiles",
           "normalized": "LoadContents-\u003e[(FilePath,String)]",
@@ -3345,6 +3627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://book.realworldhaskell.org/read/io-case-study-a-library-for-searching-the-filesystem.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "getRecursiveContents",
           "package": "buildwrapper",
@@ -3355,6 +3638,7 @@
         "index": {
           "description": "http book.realworldhaskell.org read io-case-study-a-library-for-searching-the-filesystem.html",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "getRecursiveContents",
           "normalized": "FilePath-\u003eIO[FilePath]",
@@ -3371,6 +3655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://book.realworldhaskell.org/read/io-case-study-a-library-for-searching-the-filesystem.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "getRecursiveContentsHidden",
           "package": "buildwrapper",
@@ -3381,6 +3666,7 @@
         "index": {
           "description": "http book.realworldhaskell.org read io-case-study-a-library-for-searching-the-filesystem.html",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "getRecursiveContentsHidden",
           "normalized": "FilePath-\u003eIO[FilePath]",
@@ -3397,6 +3683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget full path in temporary folder for source file (i.e. where we're going to write the temporary contents of an edited file)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "getTargetPath",
           "package": "buildwrapper",
@@ -3406,6 +3693,7 @@
         "index": {
           "description": "get full path in temporary folder for source file i.e where we re going to write the temporary contents of an edited file",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "getTargetPath",
           "normalized": "FilePath-\u003eBuildWrapper FilePath",
@@ -3422,6 +3710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealias name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iAlias",
           "package": "buildwrapper",
@@ -3432,6 +3721,7 @@
         "index": {
           "description": "alias name",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iAlias",
           "package": "buildwrapper",
@@ -3446,6 +3736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003especific import elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iChildren",
           "package": "buildwrapper",
@@ -3456,6 +3747,7 @@
         "index": {
           "description": "specific import elements",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iChildren",
           "normalized": "Maybe[ImportSpecDef]",
@@ -3472,6 +3764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the import element list for hiding or exposing \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iHiding",
           "package": "buildwrapper",
@@ -3482,6 +3775,7 @@
         "index": {
           "description": "is the import element list for hiding or exposing",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iHiding",
           "package": "buildwrapper",
@@ -3496,6 +3790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocation in source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iLoc",
           "package": "buildwrapper",
@@ -3506,6 +3801,7 @@
         "index": {
           "description": "location in source file",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iLoc",
           "package": "buildwrapper",
@@ -3520,6 +3816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodule name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iModule",
           "package": "buildwrapper",
@@ -3530,6 +3827,7 @@
         "index": {
           "description": "module name",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iModule",
           "package": "buildwrapper",
@@ -3544,6 +3842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epackage name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iPackage",
           "package": "buildwrapper",
@@ -3554,6 +3853,7 @@
         "index": {
           "description": "package name",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iPackage",
           "package": "buildwrapper",
@@ -3568,6 +3868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the import qualified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iQualified",
           "package": "buildwrapper",
@@ -3578,6 +3879,7 @@
         "index": {
           "description": "is the import qualified",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iQualified",
           "package": "buildwrapper",
@@ -3591,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "icSpan",
           "package": "buildwrapper",
@@ -3600,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "icSpan",
           "package": "buildwrapper",
@@ -3613,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "icText",
           "package": "buildwrapper",
@@ -3622,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "icText",
           "package": "buildwrapper",
@@ -3636,6 +3942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolumn\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iflColumn",
           "package": "buildwrapper",
@@ -3646,6 +3953,7 @@
         "index": {
           "description": "column",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iflColumn",
           "package": "buildwrapper",
@@ -3660,6 +3968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iflLine",
           "package": "buildwrapper",
@@ -3670,6 +3979,7 @@
         "index": {
           "description": "line",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iflLine",
           "package": "buildwrapper",
@@ -3684,6 +3994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoes span overlap location?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iflOverlap",
           "package": "buildwrapper",
@@ -3694,6 +4005,7 @@
         "index": {
           "description": "does span overlap location",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "iflOverlap",
           "normalized": "InFileSpan-\u003eInFileLoc-\u003eBool",
@@ -3710,6 +4022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eend location\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ifsEnd",
           "package": "buildwrapper",
@@ -3720,6 +4033,7 @@
         "index": {
           "description": "end location",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ifsEnd",
           "package": "buildwrapper",
@@ -3734,6 +4048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edo spans overlap?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ifsOverlap",
           "package": "buildwrapper",
@@ -3744,6 +4059,7 @@
         "index": {
           "description": "do spans overlap",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ifsOverlap",
           "normalized": "InFileSpan-\u003eInFileSpan-\u003eBool",
@@ -3760,6 +4076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estart location\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ifsStart",
           "package": "buildwrapper",
@@ -3770,6 +4087,7 @@
         "index": {
           "description": "start location",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ifsStart",
           "package": "buildwrapper",
@@ -3784,6 +4102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis a note an error?      \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "isBWNoteError",
           "package": "buildwrapper",
@@ -3794,6 +4113,7 @@
         "index": {
           "description": "is note an error",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "isBWNoteError",
           "normalized": "BWNote-\u003eBool",
@@ -3810,6 +4130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echildren (constructor names, etc.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "isChildren",
           "package": "buildwrapper",
@@ -3820,6 +4141,7 @@
         "index": {
           "description": "children constructor names etc",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "isChildren",
           "normalized": "[Text]",
@@ -3836,6 +4158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocation in source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "isLoc",
           "package": "buildwrapper",
@@ -3846,6 +4169,7 @@
         "index": {
           "description": "location in source file",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "isLoc",
           "package": "buildwrapper",
@@ -3860,6 +4184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "isName",
           "package": "buildwrapper",
@@ -3870,6 +4195,7 @@
         "index": {
           "description": "name",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "isName",
           "package": "buildwrapper",
@@ -3884,6 +4210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the source file more recent than the target file?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "isSourceMoreRecent",
           "package": "buildwrapper",
@@ -3894,6 +4221,7 @@
         "index": {
           "description": "is the source file more recent than the target file",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "isSourceMoreRecent",
           "normalized": "FilePath-\u003eFilePath-\u003eIO Bool",
@@ -3910,6 +4238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "isType",
           "package": "buildwrapper",
@@ -3920,6 +4249,7 @@
         "index": {
           "description": "type",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "isType",
           "package": "buildwrapper",
@@ -3933,6 +4263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "lmFile",
           "package": "buildwrapper",
@@ -3942,6 +4273,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "lmFile",
           "package": "buildwrapper",
@@ -3955,6 +4287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "lmFiles",
           "package": "buildwrapper",
@@ -3964,6 +4297,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "lmFiles",
           "normalized": "[(FilePath,String)]",
@@ -3979,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "lmModule",
           "package": "buildwrapper",
@@ -3988,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "lmModule",
           "package": "buildwrapper",
@@ -4002,6 +4338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elog call to cabal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "logCabalArgs",
           "package": "buildwrapper",
@@ -4012,6 +4349,7 @@
         "index": {
           "description": "log call to cabal",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "logCabalArgs",
           "package": "buildwrapper",
@@ -4026,6 +4364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuild an empty span in a given file at a given location\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "mkEmptySpan",
           "package": "buildwrapper",
@@ -4036,6 +4375,7 @@
         "index": {
           "description": "build an empty span in given file at given location",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "mkEmptySpan",
           "normalized": "FilePath-\u003eInt-\u003eInt-\u003eBWLocation",
@@ -4052,6 +4392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct a file span\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "mkFileSpan",
           "package": "buildwrapper",
@@ -4061,6 +4402,7 @@
         "index": {
           "description": "construct file span",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "mkFileSpan",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eInFileSpan",
@@ -4077,6 +4419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstructs an OutlineDef with no children and no type signature     \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "mkOutlineDef",
           "package": "buildwrapper",
@@ -4086,6 +4429,7 @@
         "index": {
           "description": "constructs an OutlineDef with no children and no type signature",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "mkOutlineDef",
           "normalized": "Text-\u003e[OutlineDefType]-\u003eInFileSpan-\u003eOutlineDef",
@@ -4102,6 +4446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstructs an OutlineDef with children and no type signature     \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "mkOutlineDefWithChildren",
           "package": "buildwrapper",
@@ -4111,6 +4456,7 @@
         "index": {
           "description": "constructs an OutlineDef with children and no type signature",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "mkOutlineDefWithChildren",
           "normalized": "Text-\u003e[OutlineDefType]-\u003eInFileSpan-\u003e[OutlineDef]-\u003eOutlineDef",
@@ -4127,6 +4473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ndName",
           "package": "buildwrapper",
@@ -4137,6 +4484,7 @@
         "index": {
           "description": "name",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ndName",
           "package": "buildwrapper",
@@ -4151,6 +4499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype signature if any\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ndSignature",
           "package": "buildwrapper",
@@ -4161,6 +4510,7 @@
         "index": {
           "description": "type signature if any",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ndSignature",
           "package": "buildwrapper",
@@ -4175,6 +4525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etypes: can have several to combine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ndType",
           "package": "buildwrapper",
@@ -4185,6 +4536,7 @@
         "index": {
           "description": "types can have several to combine",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "ndType",
           "normalized": "[OutlineDefType]",
@@ -4201,6 +4553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enub for Ord objects: use a set    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "nubOrd",
           "package": "buildwrapper",
@@ -4211,6 +4564,7 @@
         "index": {
           "description": "nub for Ord objects use set",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "nubOrd",
           "normalized": "[a]-\u003e[a]",
@@ -4227,6 +4581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echildren (constructors...)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "odChildren",
           "package": "buildwrapper",
@@ -4237,6 +4592,7 @@
         "index": {
           "description": "children constructors",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "odChildren",
           "normalized": "[OutlineDef]",
@@ -4253,6 +4609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomment if any,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "odComment",
           "package": "buildwrapper",
@@ -4263,6 +4620,7 @@
         "index": {
           "description": "comment if any",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "odComment",
           "package": "buildwrapper",
@@ -4277,6 +4635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003espan in source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "odLoc",
           "package": "buildwrapper",
@@ -4287,6 +4646,7 @@
         "index": {
           "description": "span in source",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "odLoc",
           "package": "buildwrapper",
@@ -4301,6 +4661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "odName",
           "package": "buildwrapper",
@@ -4311,6 +4672,7 @@
         "index": {
           "description": "name",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "odName",
           "package": "buildwrapper",
@@ -4325,6 +4687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype signature if any\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "odSignature",
           "package": "buildwrapper",
@@ -4335,6 +4698,7 @@
         "index": {
           "description": "type signature if any",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "odSignature",
           "package": "buildwrapper",
@@ -4349,6 +4713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomment start line if any,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "odStartLineComment",
           "package": "buildwrapper",
@@ -4359,6 +4724,7 @@
         "index": {
           "description": "comment start line if any",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "odStartLineComment",
           "package": "buildwrapper",
@@ -4373,6 +4739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etypes: can have several to combine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "odType",
           "package": "buildwrapper",
@@ -4383,6 +4750,7 @@
         "index": {
           "description": "types can have several to combine",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "odType",
           "normalized": "[OutlineDefType]",
@@ -4399,6 +4767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexports\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "orExports",
           "package": "buildwrapper",
@@ -4409,6 +4778,7 @@
         "index": {
           "description": "exports",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "orExports",
           "normalized": "[ExportDef]",
@@ -4425,6 +4795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimports\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "orImports",
           "package": "buildwrapper",
@@ -4435,6 +4806,7 @@
         "index": {
           "description": "imports",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "orImports",
           "normalized": "[ImportDef]",
@@ -4451,6 +4823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoutline contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "orOutline",
           "package": "buildwrapper",
@@ -4461,6 +4834,7 @@
         "index": {
           "description": "outline contents",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "orOutline",
           "normalized": "[OutlineDef]",
@@ -4477,6 +4851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a string from a file, forcing the read and closing the handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "readFile",
           "package": "buildwrapper",
@@ -4487,6 +4862,7 @@
         "index": {
           "description": "read string from file forcing the read and closing the handle",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO String",
@@ -4503,6 +4879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread an object from a String, with a given error message if it fails \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "readObj",
           "package": "buildwrapper",
@@ -4513,6 +4890,7 @@
         "index": {
           "description": "read an object from String with given error message if it fails",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "readObj",
           "normalized": "String-\u003eString-\u003ea",
@@ -4529,6 +4907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove a base directory from a string representing a full path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "removeBaseDir",
           "package": "buildwrapper",
@@ -4539,6 +4918,7 @@
         "index": {
           "description": "remove base directory from string representing full path",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "removeBaseDir",
           "normalized": "FilePath-\u003eString-\u003eString",
@@ -4554,6 +4934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tapGType",
           "package": "buildwrapper",
@@ -4563,6 +4944,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tapGType",
           "package": "buildwrapper",
@@ -4576,6 +4958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tapHType",
           "package": "buildwrapper",
@@ -4585,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tapHType",
           "package": "buildwrapper",
@@ -4598,6 +4982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tapModule",
           "package": "buildwrapper",
@@ -4607,6 +4992,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tapModule",
           "package": "buildwrapper",
@@ -4620,6 +5006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tapName",
           "package": "buildwrapper",
@@ -4629,6 +5016,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tapName",
           "package": "buildwrapper",
@@ -4642,6 +5030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tapQType",
           "package": "buildwrapper",
@@ -4651,6 +5040,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tapQType",
           "package": "buildwrapper",
@@ -4664,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tapType",
           "package": "buildwrapper",
@@ -4673,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tapType",
           "package": "buildwrapper",
@@ -4687,6 +5079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tdLoc",
           "package": "buildwrapper",
@@ -4697,6 +5090,7 @@
         "index": {
           "description": "location",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tdLoc",
           "package": "buildwrapper",
@@ -4711,6 +5105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype of token\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tdName",
           "package": "buildwrapper",
@@ -4721,6 +5116,7 @@
         "index": {
           "description": "type of token",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tdName",
           "package": "buildwrapper",
@@ -4735,6 +5131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of temporary folder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tempFolder",
           "package": "buildwrapper",
@@ -4745,6 +5142,7 @@
         "index": {
           "description": "name of temporary folder",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "tempFolder",
           "package": "buildwrapper",
@@ -4758,6 +5156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "usDef",
           "package": "buildwrapper",
@@ -4767,6 +5166,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "usDef",
           "package": "buildwrapper",
@@ -4780,6 +5180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "usLoc",
           "package": "buildwrapper",
@@ -4789,6 +5190,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "usLoc",
           "package": "buildwrapper",
@@ -4802,6 +5204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "usModule",
           "package": "buildwrapper",
@@ -4811,6 +5214,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "usModule",
           "package": "buildwrapper",
@@ -4824,6 +5228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "usName",
           "package": "buildwrapper",
@@ -4833,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "usName",
           "package": "buildwrapper",
@@ -4846,6 +5252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "usPackage",
           "package": "buildwrapper",
@@ -4855,6 +5262,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "usPackage",
           "package": "buildwrapper",
@@ -4868,6 +5276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "usSection",
           "package": "buildwrapper",
@@ -4877,6 +5286,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "usSection",
           "package": "buildwrapper",
@@ -4890,6 +5300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "usType",
           "package": "buildwrapper",
@@ -4899,6 +5310,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "usType",
           "package": "buildwrapper",
@@ -4913,6 +5325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003everbosity of logging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "verbosity",
           "package": "buildwrapper",
@@ -4923,6 +5336,7 @@
         "index": {
           "description": "verbosity of logging",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "verbosity",
           "package": "buildwrapper",
@@ -4936,6 +5350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform operation on a binary opened file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "withBinaryFile",
           "package": "buildwrapper",
@@ -4946,6 +5361,7 @@
         "index": {
           "description": "perform operation on binary opened file",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "withBinaryFile",
           "normalized": "FilePath-\u003eIOMode-\u003e(Handle-\u003eIO a)-\u003eIO a",
@@ -4962,6 +5378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrite string to file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "writeFile",
           "package": "buildwrapper",
@@ -4972,6 +5389,7 @@
         "index": {
           "description": "write string to file",
           "hierarchy": "Language Haskell BuildWrapper Base",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Base",
           "name": "writeFile",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -4988,6 +5406,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCabal operations: configure, build, retrieve information from build info, parse errors and warnings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "Cabal",
           "package": "buildwrapper",
@@ -4997,6 +5416,7 @@
         "index": {
           "description": "Cabal operations configure build retrieve information from build info parse errors and warnings",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "Cabal",
           "package": "buildwrapper",
@@ -5011,6 +5431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe cabal build info for a specific component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "CabalBuildInfo",
           "package": "buildwrapper",
@@ -5020,6 +5441,7 @@
         "index": {
           "description": "the cabal build info for specific component",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "CabalBuildInfo",
           "package": "buildwrapper",
@@ -5033,6 +5455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "CabalBuildInfo",
           "package": "buildwrapper",
@@ -5042,6 +5465,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "CabalBuildInfo",
           "package": "buildwrapper",
@@ -5055,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "addCurrent",
           "package": "buildwrapper",
@@ -5064,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "addCurrent",
           "normalized": "Maybe(BWNote,[String])-\u003e[BWNote]-\u003e[BWNote]",
@@ -5080,6 +5506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun cabal build\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalBuild",
           "package": "buildwrapper",
@@ -5089,6 +5516,7 @@
         "index": {
           "description": "run cabal build",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalBuild",
           "normalized": "Bool-\u003eWhichCabal-\u003eBuildWrapper(OpResult BuildResult)",
@@ -5105,6 +5533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun cabal build\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalBuild'",
           "package": "buildwrapper",
@@ -5114,6 +5543,7 @@
         "index": {
           "description": "run cabal build",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalBuild'",
           "normalized": "Bool-\u003eBool-\u003eWhichCabal-\u003eBuildWrapper(OpResult BuildResult)",
@@ -5129,6 +5559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalComponentFromExecutable",
           "package": "buildwrapper",
@@ -5138,6 +5569,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalComponentFromExecutable",
           "normalized": "Executable-\u003eCabalComponent",
@@ -5153,6 +5585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalComponentFromLibrary",
           "package": "buildwrapper",
@@ -5162,6 +5595,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalComponentFromLibrary",
           "normalized": "Library-\u003eCabalComponent",
@@ -5177,6 +5611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalComponentFromTestSuite",
           "package": "buildwrapper",
@@ -5186,6 +5621,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalComponentFromTestSuite",
           "normalized": "TestSuite-\u003eCabalComponent",
@@ -5202,6 +5638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all components in the Cabal file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalComponents",
           "package": "buildwrapper",
@@ -5212,6 +5649,7 @@
         "index": {
           "description": "get all components in the Cabal file",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalComponents",
           "normalized": "BuildWrapper(OpResult[CabalComponent])",
@@ -5227,6 +5665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalComponentsDependencies",
           "package": "buildwrapper",
@@ -5235,6 +5674,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalComponentsDependencies",
           "normalized": "PackageDescription-\u003eMap CabalComponent[Dependency]",
@@ -5251,6 +5691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all components from the package description        \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalComponentsFromDescription",
           "package": "buildwrapper",
@@ -5260,6 +5701,7 @@
         "index": {
           "description": "get all components from the package description",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalComponentsFromDescription",
           "normalized": "PackageDescription-\u003e[CabalComponent]",
@@ -5276,6 +5718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun cabal configure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalConfigure",
           "package": "buildwrapper",
@@ -5285,6 +5728,7 @@
         "index": {
           "description": "run cabal configure",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalConfigure",
           "normalized": "WhichCabal-\u003eBuildWrapper(OpResult(Maybe LocalBuildInfo))",
@@ -5301,6 +5745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all the dependencies in the cabal file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalDependencies",
           "package": "buildwrapper",
@@ -5310,6 +5755,7 @@
         "index": {
           "description": "get all the dependencies in the cabal file",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalDependencies",
           "normalized": "Maybe FilePath-\u003eBuildWrapper(OpResult[(FilePath,[CabalPackage])])",
@@ -5325,6 +5771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalErrorLine",
           "package": "buildwrapper",
@@ -5333,6 +5780,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalErrorLine",
           "normalized": "FilePath-\u003eFilePath-\u003eString-\u003eMaybe(BWNote,[String])",
@@ -5349,6 +5797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the cabal extensions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalExtensions",
           "package": "buildwrapper",
@@ -5358,6 +5807,7 @@
         "index": {
           "description": "get the cabal extensions",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalExtensions",
           "normalized": "CabalBuildInfo-\u003e(ModuleName,[String])",
@@ -5374,6 +5824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget Cabal build info, running configure if needed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalInit",
           "package": "buildwrapper",
@@ -5383,6 +5834,7 @@
         "index": {
           "description": "get Cabal build info running configure if needed",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalInit",
           "normalized": "WhichCabal-\u003eBuildWrapper(OpResult(Maybe LocalBuildInfo))",
@@ -5398,6 +5850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalV",
           "package": "buildwrapper",
@@ -5407,6 +5860,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cabalV",
           "package": "buildwrapper",
@@ -5420,6 +5874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecanonicalize the paths in the build info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "canonicalizeBuildInfo",
           "package": "buildwrapper",
@@ -5430,6 +5885,7 @@
         "index": {
           "description": "canonicalize the paths in the build info",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "canonicalizeBuildInfo",
           "normalized": "CabalBuildInfo-\u003eBuildWrapper CabalBuildInfo",
@@ -5446,6 +5902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe folder to build that component into\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cbiBuildFolder",
           "package": "buildwrapper",
@@ -5456,6 +5913,7 @@
         "index": {
           "description": "the folder to build that component into",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cbiBuildFolder",
           "package": "buildwrapper",
@@ -5470,6 +5928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe build info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cbiBuildInfo",
           "package": "buildwrapper",
@@ -5480,6 +5939,7 @@
         "index": {
           "description": "the build info",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cbiBuildInfo",
           "package": "buildwrapper",
@@ -5494,6 +5954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe component handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cbiComponent",
           "package": "buildwrapper",
@@ -5504,6 +5965,7 @@
         "index": {
           "description": "the component handle",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cbiComponent",
           "package": "buildwrapper",
@@ -5518,6 +5980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe component local build info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cbiComponentBuildInfo",
           "package": "buildwrapper",
@@ -5528,6 +5991,7 @@
         "index": {
           "description": "the component local build info",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cbiComponentBuildInfo",
           "package": "buildwrapper",
@@ -5542,6 +6006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the component the library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cbiIsLibrary",
           "package": "buildwrapper",
@@ -5552,6 +6017,7 @@
         "index": {
           "description": "is the component the library",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cbiIsLibrary",
           "package": "buildwrapper",
@@ -5566,6 +6032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe module name and corresponding source file for each contained Haskell module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cbiModulePaths",
           "package": "buildwrapper",
@@ -5576,6 +6043,7 @@
         "index": {
           "description": "the module name and corresponding source file for each contained Haskell module",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "cbiModulePaths",
           "normalized": "[(Maybe ModuleName,FilePath)]",
@@ -5592,6 +6060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all dependencies from the package description and the list of installed packages        \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "dependencies",
           "package": "buildwrapper",
@@ -5601,6 +6070,7 @@
         "index": {
           "description": "get all dependencies from the package description and the list of installed packages",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "dependencies",
           "normalized": "PackageDescription-\u003e[(FilePath,[InstalledPackageInfo])]-\u003e[(FilePath,[CabalPackage])]",
@@ -5615,6 +6085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "dropPrefixes",
           "package": "buildwrapper",
@@ -5624,6 +6095,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "dropPrefixes",
           "normalized": "[String]-\u003eString-\u003eMaybe String",
@@ -5640,6 +6112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget CPP options for a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "fileCppOptions",
           "package": "buildwrapper",
@@ -5649,6 +6122,7 @@
         "index": {
           "description": "get CPP options for file",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "fileCppOptions",
           "normalized": "CabalBuildInfo-\u003e[String]",
@@ -5665,6 +6139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget GHC options for a file            \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "fileGhcOptions",
           "package": "buildwrapper",
@@ -5674,6 +6149,7 @@
         "index": {
           "description": "get GHC options for file",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "fileGhcOptions",
           "normalized": "(LocalBuildInfo,CabalBuildInfo)-\u003eBuildWrapper[String]",
@@ -5689,6 +6165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "fromCabalDevExe",
           "package": "buildwrapper",
@@ -5697,6 +6174,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "fromCabalDevExe",
           "normalized": "FilePath-\u003eFilePath",
@@ -5713,6 +6191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all components, referencing all the files found in the source folders \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getAllFiles",
           "package": "buildwrapper",
@@ -5722,6 +6201,7 @@
         "index": {
           "description": "get all components referencing all the files found in the source folders",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getAllFiles",
           "normalized": "LocalBuildInfo-\u003eBuildWrapper[CabalBuildInfo]",
@@ -5738,6 +6218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the build info for a given source file\n if a source file is in several component, get the first one             \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getBuildInfo",
           "package": "buildwrapper",
@@ -5747,6 +6228,7 @@
         "index": {
           "description": "get the build info for given source file if source file is in several component get the first one",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getBuildInfo",
           "normalized": "FilePath-\u003eMaybe String-\u003eBuildWrapper(OpResult(Maybe(LocalBuildInfo,CabalBuildInfo)))",
@@ -5763,6 +6245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the path of a file getting compiled\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getBuiltPath",
           "package": "buildwrapper",
@@ -5772,6 +6255,7 @@
         "index": {
           "description": "get the path of file getting compiled",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getBuiltPath",
           "normalized": "String-\u003eMaybe FilePath",
@@ -5788,6 +6272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the full path to the cabal file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getCabalFile",
           "package": "buildwrapper",
@@ -5797,6 +6282,7 @@
         "index": {
           "description": "get the full path to the cabal file",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getCabalFile",
           "normalized": "WhichCabal-\u003eBuildWrapper FilePath",
@@ -5812,6 +6298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getCabalLibraryVersion",
           "package": "buildwrapper",
@@ -5821,6 +6308,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getCabalLibraryVersion",
           "package": "buildwrapper",
@@ -5834,6 +6322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getFilesToCopy",
           "package": "buildwrapper",
@@ -5843,6 +6332,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getFilesToCopy",
           "normalized": "BuildWrapper(OpResult[FilePath])",
@@ -5859,6 +6349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all components, referencing only the files explicitely indicated in the cabal file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getReferencedFiles",
           "package": "buildwrapper",
@@ -5869,6 +6360,7 @@
         "index": {
           "description": "get all components referencing only the files explicitely indicated in the cabal file",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getReferencedFiles",
           "normalized": "LocalBuildInfo-\u003eBuildWrapper[CabalBuildInfo]",
@@ -5885,6 +6377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the source directory from a build info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getSourceDirs",
           "package": "buildwrapper",
@@ -5894,6 +6387,7 @@
         "index": {
           "description": "get the source directory from build info",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "getSourceDirs",
           "normalized": "BuildInfo-\u003e[FilePath]",
@@ -5910,6 +6404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a message to the note\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "makeNote",
           "package": "buildwrapper",
@@ -5919,6 +6414,7 @@
         "index": {
           "description": "add message to the note",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "makeNote",
           "normalized": "BWNote-\u003e[String]-\u003eBWNote",
@@ -5935,6 +6431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a ModuleName to a String        \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "moduleToString",
           "package": "buildwrapper",
@@ -5945,6 +6442,7 @@
         "index": {
           "description": "convert ModuleName to String",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "moduleToString",
           "normalized": "ModuleName-\u003eString",
@@ -5961,6 +6459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapply a function on the build info modules and paths\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "onModulePaths",
           "package": "buildwrapper",
@@ -5970,6 +6469,7 @@
         "index": {
           "description": "apply function on the build info modules and paths",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "onModulePaths",
           "normalized": "([(Maybe ModuleName,FilePath)]-\u003e[(Maybe ModuleName,FilePath)])-\u003eCabalBuildInfo-\u003eCabalBuildInfo",
@@ -5986,6 +6486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapply a function on the build info modules and paths, in a monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "onModulePathsM",
           "package": "buildwrapper",
@@ -5995,6 +6496,7 @@
         "index": {
           "description": "apply function on the build info modules and paths in monad",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "onModulePathsM",
           "normalized": "([(Maybe ModuleName,FilePath)]-\u003ea[(Maybe ModuleName,FilePath)])-\u003eCabalBuildInfo-\u003ea CabalBuildInfo",
@@ -6011,6 +6513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse messages from build\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "parseBuildMessages",
           "package": "buildwrapper",
@@ -6020,6 +6523,7 @@
         "index": {
           "description": "parse messages from build",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "parseBuildMessages",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath-\u003eString-\u003e[BWNote]",
@@ -6036,6 +6540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse cabal error messages and transform them in notre\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "parseCabalMessages",
           "package": "buildwrapper",
@@ -6045,6 +6550,7 @@
         "index": {
           "description": "parse cabal error messages and transform them in notre",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "parseCabalMessages",
           "normalized": "FilePath-\u003eFilePath-\u003eString-\u003e[BWNote]",
@@ -6060,6 +6566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "readInt",
           "package": "buildwrapper",
@@ -6069,6 +6576,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "readInt",
           "normalized": "String-\u003eInt-\u003eInt",
@@ -6084,6 +6592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "setupExe",
           "package": "buildwrapper",
@@ -6092,6 +6601,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "setupExe",
           "normalized": "FilePath-\u003eFilePath",
@@ -6107,6 +6617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "stringToModuleName",
           "package": "buildwrapper",
@@ -6116,6 +6627,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "stringToModuleName",
           "normalized": "String-\u003eMaybe ModuleName",
@@ -6131,6 +6643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "stripPrefixIfNeeded",
           "package": "buildwrapper",
@@ -6140,6 +6653,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "stripPrefixIfNeeded",
           "normalized": "String-\u003eString-\u003eMaybe String-\u003eMaybe String",
@@ -6155,6 +6669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "validLoc",
           "package": "buildwrapper",
@@ -6163,6 +6678,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "validLoc",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath-\u003eFilePath",
@@ -6179,6 +6695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun a action with the cabal build info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "withCabal",
           "package": "buildwrapper",
@@ -6188,6 +6705,7 @@
         "index": {
           "description": "run action with the cabal build info",
           "hierarchy": "Language Haskell BuildWrapper Cabal",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.Cabal",
           "name": "withCabal",
           "normalized": "WhichCabal-\u003e(LocalBuildInfo-\u003eBuildWrapper a)-\u003eBuildWrapper(OpResult(Maybe a))",
@@ -6204,6 +6722,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLoad relevant module in the GHC AST and get GHC messages and thing at point info. Also use the GHC lexer for syntax highlighting.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "GHC",
           "package": "buildwrapper",
@@ -6213,6 +6732,7 @@
         "index": {
           "description": "Load relevant module in the GHC AST and get GHC messages and thing at point info Also use the GHC lexer for syntax highlighting",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "GHC",
           "package": "buildwrapper",
@@ -6226,6 +6746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "AliasMap",
           "package": "buildwrapper",
@@ -6234,6 +6755,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "AliasMap",
           "package": "buildwrapper",
@@ -6247,6 +6769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "FinalImportMap",
           "package": "buildwrapper",
@@ -6255,6 +6778,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "FinalImportMap",
           "package": "buildwrapper",
@@ -6268,6 +6792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "FinalImportValue",
           "package": "buildwrapper",
@@ -6276,6 +6801,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "FinalImportValue",
           "package": "buildwrapper",
@@ -6289,6 +6815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "GHCApplyFunction",
           "package": "buildwrapper",
@@ -6297,6 +6824,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "GHCApplyFunction",
           "package": "buildwrapper",
@@ -6310,6 +6838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ImportMap",
           "package": "buildwrapper",
@@ -6318,6 +6847,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ImportMap",
           "package": "buildwrapper",
@@ -6331,6 +6861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "PPBehavior",
           "package": "buildwrapper",
@@ -6339,6 +6870,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "PPBehavior",
           "package": "buildwrapper",
@@ -6353,6 +6885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodule, function/type, constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "TypeMap",
           "package": "buildwrapper",
@@ -6362,6 +6895,7 @@
         "index": {
           "description": "module function type constructors",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "TypeMap",
           "package": "buildwrapper",
@@ -6375,6 +6909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "Continue",
           "package": "buildwrapper",
@@ -6384,6 +6919,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "Continue",
           "package": "buildwrapper",
@@ -6397,6 +6933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ContinuePragma",
           "package": "buildwrapper",
@@ -6406,6 +6943,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ContinuePragma",
           "package": "buildwrapper",
@@ -6419,6 +6957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "Indent",
           "package": "buildwrapper",
@@ -6428,6 +6967,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "Indent",
           "package": "buildwrapper",
@@ -6441,6 +6981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "Start",
           "package": "buildwrapper",
@@ -6450,6 +6991,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "Start",
           "package": "buildwrapper",
@@ -6463,6 +7005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "dotFS",
           "package": "buildwrapper",
@@ -6472,6 +7015,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "dotFS",
           "package": "buildwrapper",
@@ -6485,6 +7029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "end",
           "package": "buildwrapper",
@@ -6494,6 +7039,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "end",
           "normalized": "SrcSpan-\u003e(Int,Int)",
@@ -6509,6 +7055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the current document, generating a TokenDef list, filtered by a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "generateTokens",
           "package": "buildwrapper",
@@ -6518,6 +7065,7 @@
         "index": {
           "description": "Parse the current document generating TokenDef list filtered by function",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "generateTokens",
           "normalized": "FilePath-\u003eString-\u003eBool-\u003e[String]-\u003e([Located Token]-\u003e[TokenDef])-\u003e([TokenDef]-\u003ea)-\u003eIO(Either BWNote a)",
@@ -6534,6 +7082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the current document, generating a TokenDef list, filtered by a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "generateTokens'",
           "package": "buildwrapper",
@@ -6543,6 +7092,7 @@
         "index": {
           "description": "Parse the current document generating TokenDef list filtered by function",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "generateTokens'",
           "normalized": "FilePath-\u003eString-\u003eBool-\u003e([Located Token]-\u003e[TokenDef])-\u003e([TokenDef]-\u003ea)-\u003eGhc(Either BWNote a)",
@@ -6559,6 +7109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the GHC typechecked AST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "getAST",
           "package": "buildwrapper",
@@ -6568,6 +7119,7 @@
         "index": {
           "description": "get the GHC typechecked AST",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "getAST",
           "normalized": "FilePath-\u003eFilePath-\u003eString-\u003e[String]-\u003eIO(OpResult(Maybe TypecheckedSource))",
@@ -6584,6 +7136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all names in scope, packaged in NameDefs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "getGhcNameDefsInScope",
           "package": "buildwrapper",
@@ -6593,6 +7146,7 @@
         "index": {
           "description": "get all names in scope packaged in NameDefs",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "getGhcNameDefsInScope",
           "normalized": "FilePath-\u003eFilePath-\u003eString-\u003e[String]-\u003eIO(OpResult(Maybe[NameDef]))",
@@ -6609,6 +7163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all names in scope, packaged in NameDefs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "getGhcNameDefsInScopeLongRunning",
           "package": "buildwrapper",
@@ -6618,6 +7173,7 @@
         "index": {
           "description": "get all names in scope packaged in NameDefs",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "getGhcNameDefsInScopeLongRunning",
           "normalized": "FilePath-\u003eFilePath-\u003eString-\u003e[String]-\u003eIO()",
@@ -6634,6 +7190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all names in scope\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "getGhcNamesInScope",
           "package": "buildwrapper",
@@ -6643,6 +7200,7 @@
         "index": {
           "description": "get all names in scope",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "getGhcNamesInScope",
           "normalized": "FilePath-\u003eFilePath-\u003eString-\u003e[String]-\u003eIO[String]",
@@ -6659,6 +7217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the \u003ca\u003ething\u003c/a\u003e at a particular point (line/column) in the source\n this is using the saved JSON info if available\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "getLocalsJSON",
           "package": "buildwrapper",
@@ -6668,6 +7227,7 @@
         "index": {
           "description": "get the thing at particular point line column in the source this is using the saved JSON info if available",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "getLocalsJSON",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eFilePath-\u003eFilePath-\u003eString-\u003e[String]-\u003eIO[ThingAtPoint]",
@@ -6684,6 +7244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the \u003ca\u003ething\u003c/a\u003e at a particular point (line/column) in the source\n this is using the saved JSON info if available\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "getThingAtPointJSON",
           "package": "buildwrapper",
@@ -6693,6 +7254,7 @@
         "index": {
           "description": "get the thing at particular point line column in the source this is using the saved JSON info if available",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "getThingAtPointJSON",
           "normalized": "Int-\u003eInt-\u003eFilePath-\u003eFilePath-\u003eString-\u003e[String]-\u003eIO(Maybe ThingAtPoint)",
@@ -6709,6 +7271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclean imports \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcCleanImports",
           "package": "buildwrapper",
@@ -6718,6 +7281,7 @@
         "index": {
           "description": "clean imports",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcCleanImports",
           "normalized": "FilePath-\u003eFilePath-\u003eString-\u003e[String]-\u003eBool-\u003eIO(OpResult[ImportClean])",
@@ -6734,6 +7298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a column info from GHC to our system (1 based)                      \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcColToScionCol",
           "package": "buildwrapper",
@@ -6744,6 +7309,7 @@
         "index": {
           "description": "convert column info from GHC to our system based",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcColToScionCol",
           "normalized": "Int-\u003eInt",
@@ -6760,6 +7326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a GHC error message to our note type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcErrMsgToNote",
           "package": "buildwrapper",
@@ -6770,6 +7337,7 @@
         "index": {
           "description": "convert GHC error message to our note type",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcErrMsgToNote",
           "normalized": "DynFlags-\u003eFilePath-\u003eErrMsg-\u003eBWNote",
@@ -6785,6 +7353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcExportToUsage",
           "package": "buildwrapper",
@@ -6794,6 +7363,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcExportToUsage",
           "normalized": "DynFlags-\u003eText-\u003eText-\u003eAliasMap-\u003eLIE Name-\u003eGhc[Usage]",
@@ -6809,6 +7379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcImportMap",
           "package": "buildwrapper",
@@ -6818,6 +7389,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcImportMap",
           "normalized": "LImportDecl Name-\u003eGhc ImportMap",
@@ -6833,6 +7405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcImportToUsage",
           "package": "buildwrapper",
@@ -6842,6 +7415,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcImportToUsage",
           "normalized": "Text-\u003eLImportDecl Name-\u003e([Usage],AliasMap)-\u003eGhc([Usage],AliasMap)",
@@ -6857,6 +7431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcLIEToUsage",
           "package": "buildwrapper",
@@ -6866,6 +7441,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcLIEToUsage",
           "normalized": "DynFlags-\u003eMaybe Text-\u003eText-\u003eText-\u003eLIE Name-\u003e[Usage]",
@@ -6882,6 +7458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003e\u003ca\u003eMessages\u003c/a\u003e\u003c/code\u003e to '[BWNote]'.\n\u003c/p\u003e\u003cp\u003eThis will mix warnings and errors, but you can split them back up\n by filtering the '[BWNote]' based on the \u003ccode\u003ebw_status\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcMessagesToNotes",
           "package": "buildwrapper",
@@ -6891,6 +7468,7 @@
         "index": {
           "description": "Convert Messages to BWNote This will mix warnings and errors but you can split them back up by filtering the BWNote based on the bw status",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcMessagesToNotes",
           "normalized": "DynFlags-\u003eFilePath-\u003eMessages-\u003e[BWNote]",
@@ -6906,6 +7484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcMsgToNote",
           "package": "buildwrapper",
@@ -6915,6 +7494,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcMsgToNote",
           "normalized": "DynFlags-\u003eBWNoteStatus-\u003eFilePath-\u003eErrMsg-\u003eBWNote",
@@ -6930,6 +7510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcNameToUsage",
           "package": "buildwrapper",
@@ -6939,6 +7520,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcNameToUsage",
           "normalized": "DynFlags-\u003eMaybe Text-\u003eText-\u003eText-\u003eName-\u003eSrcSpan-\u003eBool-\u003eUsage",
@@ -6955,6 +7537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a GHC SrcSpan to a BWLocation   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcSpanToBWLocation",
           "package": "buildwrapper",
@@ -6964,6 +7547,7 @@
         "index": {
           "description": "convert GHC SrcSpan to BWLocation",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcSpanToBWLocation",
           "normalized": "FilePath-\u003eSrcSpan-\u003eBWLocation",
@@ -6980,6 +7564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a GHC SrcSpan to a Span,  ignoring the actual file info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcSpanToLocation",
           "package": "buildwrapper",
@@ -6990,6 +7575,7 @@
         "index": {
           "description": "convert GHC SrcSpan to Span ignoring the actual file info",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcSpanToLocation",
           "normalized": "SrcSpan-\u003eInFileSpan",
@@ -7006,6 +7592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a GHC warning message to our note type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcWarnMsgToNote",
           "package": "buildwrapper",
@@ -7016,6 +7603,7 @@
         "index": {
           "description": "convert GHC warning message to our note type",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcWarnMsgToNote",
           "normalized": "DynFlags-\u003eFilePath-\u003eWarnMsg-\u003eBWNote",
@@ -7031,6 +7619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcWithASTNotes",
           "package": "buildwrapper",
@@ -7039,6 +7628,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghcWithASTNotes",
           "normalized": "GHCApplyFunction a-\u003e(FilePath-\u003eFilePath)-\u003eFilePath-\u003eLoadContents-\u003eBool-\u003eGhc(OpResult[a])",
@@ -7055,6 +7645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a stream of tokens generated by the GHC lexer from the current document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghctokensArbitrary",
           "package": "buildwrapper",
@@ -7064,6 +7655,7 @@
         "index": {
           "description": "Get stream of tokens generated by the GHC lexer from the current document",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghctokensArbitrary",
           "normalized": "FilePath-\u003eString-\u003e[String]-\u003eIO(Either BWNote[Located Token])",
@@ -7080,6 +7672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a stream of tokens generated by the GHC lexer from the current document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghctokensArbitrary'",
           "package": "buildwrapper",
@@ -7089,6 +7682,7 @@
         "index": {
           "description": "Get stream of tokens generated by the GHC lexer from the current document",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ghctokensArbitrary'",
           "normalized": "FilePath-\u003eString-\u003eGhc(Either BWNote[Located Token])",
@@ -7104,6 +7698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "initGHC",
           "package": "buildwrapper",
@@ -7112,6 +7707,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "initGHC",
           "normalized": "Ghc a-\u003e[String]-\u003eIO a",
@@ -7127,6 +7723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "lexLoc",
           "package": "buildwrapper",
@@ -7136,6 +7733,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "lexLoc",
           "package": "buildwrapper",
@@ -7150,6 +7748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike lexTokenStream, but keep Haddock flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "lexTokenStreamH",
           "package": "buildwrapper",
@@ -7160,6 +7759,7 @@
         "index": {
           "description": "like lexTokenStream but keep Haddock flag",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "lexTokenStreamH",
           "normalized": "StringBuffer-\u003eRealSrcLoc-\u003eDynFlags-\u003eParseResult[Located Token]",
@@ -7175,6 +7775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "lexerFlags",
           "package": "buildwrapper",
@@ -7184,6 +7785,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "lexerFlags",
           "normalized": "[ExtensionFlag]",
@@ -7200,6 +7802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake qualified token: join the qualifier and the name by a dot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "mkQualifiedTokenValue",
           "package": "buildwrapper",
@@ -7209,6 +7812,7 @@
         "index": {
           "description": "make qualified token join the qualifier and the name by dot",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "mkQualifiedTokenValue",
           "normalized": "FastString-\u003eFastString-\u003eText",
@@ -7225,6 +7829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a token definition from its source location and Lexer.hs token type.\nmkTokenDef :: Located Token -\u003e TokenDef\nmkTokenDef (L sp t) = TokenDef (mkTokenName t) (ghcSpanToLocation sp)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "mkTokenName",
           "package": "buildwrapper",
@@ -7235,6 +7840,7 @@
         "index": {
           "description": "Make token definition from its source location and Lexer.hs token type mkTokenDef Located Token TokenDef mkTokenDef sp TokenDef mkTokenName ghcSpanToLocation sp",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "mkTokenName",
           "normalized": "Token-\u003eText",
@@ -7251,6 +7857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake unqualified token\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "mkUnqualTokenValue",
           "package": "buildwrapper",
@@ -7260,6 +7867,7 @@
         "index": {
           "description": "make unqualified token",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "mkUnqualTokenValue",
           "normalized": "FastString-\u003eText",
@@ -7275,6 +7883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "name2nd",
           "package": "buildwrapper",
@@ -7284,6 +7893,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "name2nd",
           "normalized": "DynFlags-\u003eName-\u003ea NameDef",
@@ -7299,6 +7909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract occurrences based on lexing  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "occurrences",
           "package": "buildwrapper",
@@ -7308,6 +7919,7 @@
         "index": {
           "description": "Extract occurrences based on lexing",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "occurrences",
           "normalized": "FilePath-\u003eString-\u003eText-\u003eBool-\u003e[String]-\u003eIO(Either BWNote[TokenDef])",
@@ -7323,6 +7935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter tokens whose span appears legitimate (start line is less than end line, start column is\n less than end column.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ofInterest",
           "package": "buildwrapper",
@@ -7333,6 +7946,7 @@
         "index": {
           "description": "Filter tokens whose span appears legitimate start line is less than end line start column is less than end column",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "ofInterest",
           "normalized": "Located Token-\u003eBool",
@@ -7349,6 +7963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreprocess some source, returning the literate and Haskell source as tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "preprocessSource",
           "package": "buildwrapper",
@@ -7358,6 +7973,7 @@
         "index": {
           "description": "Preprocess some source returning the literate and Haskell source as tuple",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "preprocessSource",
           "normalized": "String-\u003eBool-\u003e([TokenDef],String)",
@@ -7374,6 +7990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove the initial status text from a message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "removeStatus",
           "package": "buildwrapper",
@@ -7384,6 +8001,7 @@
         "index": {
           "description": "remove the initial status text from message",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "removeStatus",
           "normalized": "BWNoteStatus-\u003eString-\u003eString",
@@ -7400,6 +8018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a column info from our system (1 based) to GHC      \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "scionColToGhcCol",
           "package": "buildwrapper",
@@ -7410,6 +8029,7 @@
         "index": {
           "description": "convert column info from our system based to GHC",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "scionColToGhcCol",
           "normalized": "Int-\u003eInt",
@@ -7425,6 +8045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "start",
           "package": "buildwrapper",
@@ -7434,6 +8055,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "start",
           "normalized": "SrcSpan-\u003e(Int,Int)",
@@ -7449,6 +8071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a GHC token to an interactive token (abbreviated token type)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "tokenToType",
           "package": "buildwrapper",
@@ -7459,6 +8082,7 @@
         "index": {
           "description": "Convert GHC token to an interactive token abbreviated token type",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "tokenToType",
           "normalized": "Located Token-\u003eTokenDef",
@@ -7474,6 +8098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "tokenType",
           "package": "buildwrapper",
@@ -7483,6 +8108,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "tokenType",
           "normalized": "Token-\u003eText",
@@ -7499,6 +8125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the interactive token list used by EclipseFP for syntax highlighting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "tokenTypesArbitrary",
           "package": "buildwrapper",
@@ -7509,6 +8136,7 @@
         "index": {
           "description": "Generate the interactive token list used by EclipseFP for syntax highlighting",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "tokenTypesArbitrary",
           "normalized": "FilePath-\u003eString-\u003eBool-\u003e[String]-\u003eIO(Either BWNote[TokenDef])",
@@ -7524,6 +8152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "tokenTypesArbitrary'",
           "package": "buildwrapper",
@@ -7533,6 +8162,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "tokenTypesArbitrary'",
           "normalized": "FilePath-\u003eString-\u003eBool-\u003eGhc(Either BWNote[TokenDef])",
@@ -7548,6 +8178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "tokenValue",
           "package": "buildwrapper",
@@ -7557,6 +8188,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "tokenValue",
           "normalized": "Bool-\u003eToken-\u003eText",
@@ -7573,6 +8205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform an action on the GHC Typechecked module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "withAST",
           "package": "buildwrapper",
@@ -7582,6 +8215,7 @@
         "index": {
           "description": "perform an action on the GHC Typechecked module",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "withAST",
           "normalized": "(TypecheckedModule-\u003eGhc a)-\u003eFilePath-\u003eFilePath-\u003eString-\u003e[String]-\u003eIO(Maybe a)",
@@ -7598,6 +8232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe main method loading the source contents into GHC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "withASTNotes",
           "package": "buildwrapper",
@@ -7607,6 +8242,7 @@
         "index": {
           "description": "the main method loading the source contents into GHC",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "withASTNotes",
           "normalized": "GHCApplyFunction a-\u003e(FilePath-\u003eFilePath)-\u003eFilePath-\u003eLoadContents-\u003e[String]-\u003eIO(OpResult[a])",
@@ -7623,6 +8259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform an action on the GHC JSON AST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:52 UTC 2014",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "withJSONAST",
           "package": "buildwrapper",
@@ -7632,6 +8269,7 @@
         "index": {
           "description": "perform an action on the GHC JSON AST",
           "hierarchy": "Language Haskell BuildWrapper GHC",
+          "indexed": "2014-03-11T17:25:52",
           "module": "Language.Haskell.BuildWrapper.GHC",
           "name": "withJSONAST",
           "normalized": "(Value-\u003eIO a)-\u003eFilePath-\u003eFilePath-\u003eString-\u003e[String]-\u003eIO(Maybe a)",

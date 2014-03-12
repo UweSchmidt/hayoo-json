@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rewrite"
+        "phrase": "rewrite",
+        "type": "phrase"
       },
       "type": "context"
     }

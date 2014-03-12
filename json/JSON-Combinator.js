@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "JSON-Combinator"
+        "phrase": "JSON-Combinator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCombinators for JSON data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "Combinator",
           "package": "JSON-Combinator",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Combinators for JSON data types",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "Combinator",
           "package": "JSON-Combinator",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the possible value associated with the given field if this is an object. An alias for \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "(-|)",
           "package": "JSON-Combinator",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Returns the possible value associated with the given field if this is an object An alias for field",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "(-|) -|",
           "normalized": "a-\u003eb-\u003ec b",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverses down JSON objects with the association fields and returns the potential value. An alias for \u003ccode\u003e\u003ca\u003efield'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "(-||)",
           "package": "JSON-Combinator",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Traverses down JSON objects with the association fields and returns the potential value An alias for field",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "(-||) -||",
           "normalized": "a b-\u003ec-\u003ed c",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether or not a JSON value is an object with the given field. An alias for \u003ccode\u003e\u003ca\u003ehasField\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "(-?)",
           "package": "JSON-Combinator",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Whether or not JSON value is an object with the given field An alias for hasField",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "(-?) -?",
           "normalized": "a-\u003eb-\u003eBool",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverses down JSON objects with the association fields and returns true if the association graph exists. An alias for \u003ccode\u003e\u003ca\u003ehasField'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "(-??)",
           "package": "JSON-Combinator",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Traverses down JSON objects with the association fields and returns true if the association graph exists An alias for hasField",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "(-??) -??",
           "normalized": "a b-\u003ec-\u003eBool",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a rational value from a JSON value or if it is not a rational, returns the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "arrayOr",
           "package": "JSON-Combinator",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Returns rational value from JSON value or if it is not rational returns the given default",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "arrayOr",
           "normalized": "a b-\u003eb-\u003ea b",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an array value from a JSON value or if it is not an array, returns an empty array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "arrayOrEmpty",
           "package": "JSON-Combinator",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Returns an array value from JSON value or if it is not an array returns an empty array",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "arrayOrEmpty",
           "normalized": "a-\u003eb a",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverses down JSON objects with the association fields and returns the potential value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "field'",
           "package": "JSON-Combinator",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Traverses down JSON objects with the association fields and returns the potential value",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "field'",
           "normalized": "a b-\u003ec-\u003ed c",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverses down JSON objects with the association fields and returns the potential value or the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "field'Or",
           "package": "JSON-Combinator",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Traverses down JSON objects with the association fields and returns the potential value or the given default",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "field'Or",
           "normalized": "a-\u003eb c-\u003ea-\u003ea",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverses down JSON objects with the association fields and returns the potential value or a JSON empty array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "field'OrEmptyArray",
           "package": "JSON-Combinator",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Traverses down JSON objects with the association fields and returns the potential value or JSON empty array",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "field'OrEmptyArray",
           "normalized": "a b-\u003ec-\u003ec",
@@ -264,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverses down JSON objects with the association fields and returns the potential value or a JSON empty object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "field'OrEmptyObject",
           "package": "JSON-Combinator",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Traverses down JSON objects with the association fields and returns the potential value or JSON empty object",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "field'OrEmptyObject",
           "normalized": "a b-\u003ec-\u003ec",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverses down JSON objects with the association fields and returns the potential value or a JSON empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "field'OrEmptyString",
           "package": "JSON-Combinator",
@@ -298,6 +321,7 @@
         "index": {
           "description": "Traverses down JSON objects with the association fields and returns the potential value or JSON empty string",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "field'OrEmptyString",
           "normalized": "a b-\u003ec-\u003ec",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverses down JSON objects with the association fields and returns the potential value or a JSON false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "field'OrFalse",
           "package": "JSON-Combinator",
@@ -323,6 +348,7 @@
         "index": {
           "description": "Traverses down JSON objects with the association fields and returns the potential value or JSON false",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "field'OrFalse",
           "normalized": "a b-\u003ec-\u003ec",
@@ -339,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverses down JSON objects with the association fields and returns the potential value or a JSON null.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "field'OrNull",
           "package": "JSON-Combinator",
@@ -348,6 +375,7 @@
         "index": {
           "description": "Traverses down JSON objects with the association fields and returns the potential value or JSON null",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "field'OrNull",
           "normalized": "a b-\u003ec-\u003ec",
@@ -364,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverses down JSON objects with the association fields and returns the potential value or a JSON true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "field'OrTrue",
           "package": "JSON-Combinator",
@@ -373,6 +402,7 @@
         "index": {
           "description": "Traverses down JSON objects with the association fields and returns the potential value or JSON true",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "field'OrTrue",
           "normalized": "a b-\u003ec-\u003ec",
@@ -389,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverses down JSON objects with the association fields and returns the potential value or a JSON zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "field'OrZero",
           "package": "JSON-Combinator",
@@ -398,6 +429,7 @@
         "index": {
           "description": "Traverses down JSON objects with the association fields and returns the potential value or JSON zero",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "field'OrZero",
           "normalized": "a b-\u003ec-\u003ec",
@@ -414,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value associated with the given field or if this is not an object or has no associated value, return the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "fieldOr",
           "package": "JSON-Combinator",
@@ -423,6 +456,7 @@
         "index": {
           "description": "Returns the value associated with the given field or if this is not an object or has no associated value return the given default",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "fieldOr",
           "normalized": "a-\u003eb-\u003eb-\u003eb",
@@ -439,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value associated with the given field or if this is not an object or has no associated value, return a JSON array that is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "fieldOrEmptyArray",
           "package": "JSON-Combinator",
@@ -448,6 +483,7 @@
         "index": {
           "description": "Returns the value associated with the given field or if this is not an object or has no associated value return JSON array that is empty",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "fieldOrEmptyArray",
           "normalized": "a-\u003eb-\u003eb",
@@ -464,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value associated with the given field or if this is not an object or has no associated value, return a JSON object that is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "fieldOrEmptyObject",
           "package": "JSON-Combinator",
@@ -473,6 +510,7 @@
         "index": {
           "description": "Returns the value associated with the given field or if this is not an object or has no associated value return JSON object that is empty",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "fieldOrEmptyObject",
           "normalized": "a-\u003eb-\u003eb",
@@ -489,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value associated with the given field or if this is not an object or has no associated value, return a JSON string that is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "fieldOrEmptyString",
           "package": "JSON-Combinator",
@@ -498,6 +537,7 @@
         "index": {
           "description": "Returns the value associated with the given field or if this is not an object or has no associated value return JSON string that is empty",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "fieldOrEmptyString",
           "normalized": "a-\u003eb-\u003eb",
@@ -514,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value associated with the given field or if this is not an object or has no associated value, return a JSON false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "fieldOrFalse",
           "package": "JSON-Combinator",
@@ -523,6 +564,7 @@
         "index": {
           "description": "Returns the value associated with the given field or if this is not an object or has no associated value return JSON false",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "fieldOrFalse",
           "normalized": "a-\u003eb-\u003eb",
@@ -539,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value associated with the given field or if this is not an object or has no associated value, return a JSON null.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "fieldOrNull",
           "package": "JSON-Combinator",
@@ -548,6 +591,7 @@
         "index": {
           "description": "Returns the value associated with the given field or if this is not an object or has no associated value return JSON null",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "fieldOrNull",
           "normalized": "a-\u003eb-\u003eb",
@@ -564,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value associated with the given field or if this is not an object or has no associated value, return a JSON true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "fieldOrTrue",
           "package": "JSON-Combinator",
@@ -573,6 +618,7 @@
         "index": {
           "description": "Returns the value associated with the given field or if this is not an object or has no associated value return JSON true",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "fieldOrTrue",
           "normalized": "a-\u003eb-\u003eb",
@@ -589,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value associated with the given field or if this is not an object or has no associated value, return a JSON zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "fieldOrZero",
           "package": "JSON-Combinator",
@@ -598,6 +645,7 @@
         "index": {
           "description": "Returns the value associated with the given field or if this is not an object or has no associated value return JSON zero",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "fieldOrZero",
           "normalized": "a-\u003eb-\u003eb",
@@ -614,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an object's fields from a JSON value or if it is not an object, returns the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "fieldsOr",
           "package": "JSON-Combinator",
@@ -623,6 +672,7 @@
         "index": {
           "description": "Returns an object fields from JSON value or if it is not an object returns the given default",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "fieldsOr",
           "normalized": "[a]-\u003eb-\u003e[a]",
@@ -639,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the potential array value of a JSON value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "getArray",
           "package": "JSON-Combinator",
@@ -648,6 +699,7 @@
         "index": {
           "description": "Returns the potential array value of JSON value",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "getArray",
           "normalized": "a-\u003eb(c a)",
@@ -664,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the potential boolean value of a JSON value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "getBool",
           "package": "JSON-Combinator",
@@ -673,6 +726,7 @@
         "index": {
           "description": "Returns the potential boolean value of JSON value",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "getBool",
           "normalized": "a-\u003eb Bool",
@@ -689,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the potential number value of a JSON value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "getNumber",
           "package": "JSON-Combinator",
@@ -698,6 +753,7 @@
         "index": {
           "description": "Returns the potential number value of JSON value",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "getNumber",
           "normalized": "a-\u003eb Rational",
@@ -714,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the potential object value of a JSON value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "getObject",
           "package": "JSON-Combinator",
@@ -723,6 +780,7 @@
         "index": {
           "description": "Returns the potential object value of JSON value",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "getObject",
           "normalized": "a-\u003eb(c a)",
@@ -739,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the potential string value of a JSON value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "getString",
           "package": "JSON-Combinator",
@@ -748,6 +807,7 @@
         "index": {
           "description": "Returns the potential string value of JSON value",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "getString",
           "normalized": "a-\u003eb c",
@@ -764,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether or not a JSON value is an object with the given field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "hasField",
           "package": "JSON-Combinator",
@@ -773,6 +834,7 @@
         "index": {
           "description": "Whether or not JSON value is an object with the given field",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "hasField",
           "normalized": "a-\u003eb-\u003eBool",
@@ -789,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverses down JSON objects with the association fields and returns true if the association graph exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "hasField'",
           "package": "JSON-Combinator",
@@ -798,6 +861,7 @@
         "index": {
           "description": "Traverses down JSON objects with the association fields and returns true if the association graph exists",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "hasField'",
           "normalized": "a b-\u003ec-\u003eBool",
@@ -814,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteracts by parsing the standard input for JSON, passing the result to the given function, then printing the result to standard output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "interactJSON",
           "package": "JSON-Combinator",
@@ -824,6 +889,7 @@
         "index": {
           "description": "Interacts by parsing the standard input for JSON passing the result to the given function then printing the result to standard output",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "interactJSON",
           "normalized": "(Either a b-\u003ec)-\u003eIO()",
@@ -840,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteracts by parsing the standard input for JSON, passing a failed result with a string error message to the given function, or a successful result to the given function, then printing the result to standard output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "interactJSON'",
           "package": "JSON-Combinator",
@@ -850,6 +917,7 @@
         "index": {
           "description": "Interacts by parsing the standard input for JSON passing failed result with string error message to the given function or successful result to the given function then printing the result to standard output",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "interactJSON'",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003eIO()",
@@ -866,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteracts by parsing the given file for JSON, passing the result to the given function, then writing the result to the given file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "interactJSONFile",
           "package": "JSON-Combinator",
@@ -876,6 +945,7 @@
         "index": {
           "description": "Interacts by parsing the given file for JSON passing the result to the given function then writing the result to the given file",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "interactJSONFile",
           "normalized": "(Either a b-\u003ec)-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -892,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteracts by parsing the given file for JSON, passing a failed result with a string error message to the given function, or a successful result to the given function, then writing the result to the given file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "interactJSONFile'",
           "package": "JSON-Combinator",
@@ -902,6 +973,7 @@
         "index": {
           "description": "Interacts by parsing the given file for JSON passing failed result with string error message to the given function or successful result to the given function then writing the result to the given file",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "interactJSONFile'",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -918,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not a JSON is an array value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "isArray",
           "package": "JSON-Combinator",
@@ -927,6 +1000,7 @@
         "index": {
           "description": "Returns whether or not JSON is an array value",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "isArray",
           "normalized": "a-\u003eBool",
@@ -943,6 +1017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not a JSON is a boolean value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "isBool",
           "package": "JSON-Combinator",
@@ -952,6 +1027,7 @@
         "index": {
           "description": "Returns whether or not JSON is boolean value",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "isBool",
           "normalized": "a-\u003eBool",
@@ -968,6 +1044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not a JSON is a boolean with the value false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "isFalse",
           "package": "JSON-Combinator",
@@ -977,6 +1054,7 @@
         "index": {
           "description": "Returns whether or not JSON is boolean with the value false",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "isFalse",
           "normalized": "a-\u003eBool",
@@ -993,6 +1071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not a JSON is a number value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "isNumber",
           "package": "JSON-Combinator",
@@ -1002,6 +1081,7 @@
         "index": {
           "description": "Returns whether or not JSON is number value",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "isNumber",
           "normalized": "a-\u003eBool",
@@ -1018,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not a JSON is an object value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "isObject",
           "package": "JSON-Combinator",
@@ -1027,6 +1108,7 @@
         "index": {
           "description": "Returns whether or not JSON is an object value",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "isObject",
           "normalized": "a-\u003eBool",
@@ -1043,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not a JSON is a string value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "isString",
           "package": "JSON-Combinator",
@@ -1052,6 +1135,7 @@
         "index": {
           "description": "Returns whether or not JSON is string value",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "isString",
           "normalized": "a-\u003eBool",
@@ -1068,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether or not a JSON is a boolean with the value true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "isTrue",
           "package": "JSON-Combinator",
@@ -1077,6 +1162,7 @@
         "index": {
           "description": "Returns whether or not JSON is boolean with the value true",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "isTrue",
           "normalized": "a-\u003eBool",
@@ -1093,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JSON value empty array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "jemptyarray",
           "package": "JSON-Combinator",
@@ -1103,6 +1190,7 @@
         "index": {
           "description": "The JSON value empty array",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "jemptyarray",
           "package": "JSON-Combinator",
@@ -1116,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JSON value empty object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "jemptyobject",
           "package": "JSON-Combinator",
@@ -1126,6 +1215,7 @@
         "index": {
           "description": "The JSON value empty object",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "jemptyobject",
           "package": "JSON-Combinator",
@@ -1139,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JSON value empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "jemptystring",
           "package": "JSON-Combinator",
@@ -1149,6 +1240,7 @@
         "index": {
           "description": "The JSON value empty string",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "jemptystring",
           "package": "JSON-Combinator",
@@ -1162,6 +1254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverts the JSON value if it is a boolean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "jnot",
           "package": "JSON-Combinator",
@@ -1171,6 +1264,7 @@
         "index": {
           "description": "Inverts the JSON value if it is boolean",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "jnot",
           "normalized": "a-\u003ea",
@@ -1186,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts a single value into a JSON array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "jsinglearray",
           "package": "JSON-Combinator",
@@ -1196,6 +1291,7 @@
         "index": {
           "description": "Puts single value into JSON array",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "jsinglearray",
           "normalized": "a-\u003ea",
@@ -1211,6 +1307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts a single value into a JSON object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "jsingleobject",
           "package": "JSON-Combinator",
@@ -1221,6 +1318,7 @@
         "index": {
           "description": "Puts single value into JSON object",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "jsingleobject",
           "normalized": "a-\u003ea",
@@ -1236,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JSON value zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "jzero",
           "package": "JSON-Combinator",
@@ -1246,6 +1345,7 @@
         "index": {
           "description": "The JSON value zero",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "jzero",
           "package": "JSON-Combinator",
@@ -1259,6 +1359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a number value from a JSON value or if it is not a number, returns the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "numberOr",
           "package": "JSON-Combinator",
@@ -1268,6 +1369,7 @@
         "index": {
           "description": "Returns number value from JSON value or if it is not number returns the given default",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "numberOr",
           "normalized": "Rational-\u003ea-\u003eRational",
@@ -1284,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a number value from a JSON value or if it is not a number, returns zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "numberOrZero",
           "package": "JSON-Combinator",
@@ -1293,6 +1396,7 @@
         "index": {
           "description": "Returns number value from JSON value or if it is not number returns zero",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "numberOrZero",
           "normalized": "a-\u003eRational",
@@ -1309,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an object's fields from a JSON value or if it is not an object, returns no fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "objectFieldsOrEmpty",
           "package": "JSON-Combinator",
@@ -1318,6 +1423,7 @@
         "index": {
           "description": "Returns an object fields from JSON value or if it is not an object returns no fields",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "objectFieldsOrEmpty",
           "normalized": "a-\u003e[b]",
@@ -1334,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an object value from a JSON value or if it is not an object, returns the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "objectOr",
           "package": "JSON-Combinator",
@@ -1343,6 +1450,7 @@
         "index": {
           "description": "Returns an object value from JSON value or if it is not an object returns the given default",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "objectOr",
           "normalized": "a b-\u003eb-\u003ea b",
@@ -1359,6 +1467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an object value from a JSON value or if it is not an object, returns an empty object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "objectOrEmpty",
           "package": "JSON-Combinator",
@@ -1368,6 +1477,7 @@
         "index": {
           "description": "Returns an object value from JSON value or if it is not an object returns an empty object",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "objectOrEmpty",
           "normalized": "a-\u003eb a",
@@ -1384,6 +1494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an object's values from a JSON value or if it is not an object, returns no values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "objectValuesOrEmpty",
           "package": "JSON-Combinator",
@@ -1393,6 +1504,7 @@
         "index": {
           "description": "Returns an object values from JSON value or if it is not an object returns no values",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "objectValuesOrEmpty",
           "normalized": "a-\u003e[a]",
@@ -1409,6 +1521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a JSON file into a possible JSON object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "readJSONFile",
           "package": "JSON-Combinator",
@@ -1419,6 +1532,7 @@
         "index": {
           "description": "Parses JSON file into possible JSON object",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "readJSONFile",
           "normalized": "FilePath-\u003eIO(Either a b)",
@@ -1435,6 +1549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a string value from a JSON value or if it is not a string, returns the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "stringOr",
           "package": "JSON-Combinator",
@@ -1444,6 +1559,7 @@
         "index": {
           "description": "Returns string value from JSON value or if it is not string returns the given default",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "stringOr",
           "normalized": "a-\u003eb-\u003ea",
@@ -1460,6 +1576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a string value from a JSON value or if it is not a string, returns an empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "stringOrEmpty",
           "package": "JSON-Combinator",
@@ -1469,6 +1586,7 @@
         "index": {
           "description": "Returns string value from JSON value or if it is not string returns an empty string",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "stringOrEmpty",
           "normalized": "a-\u003eb",
@@ -1485,6 +1603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a function on the array of a JSON value or if it is not an array, returns the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "usingArray",
           "package": "JSON-Combinator",
@@ -1494,6 +1613,7 @@
         "index": {
           "description": "Runs function on the array of JSON value or if it is not an array returns the given default",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "usingArray",
           "normalized": "a-\u003e(b c-\u003ea)-\u003ec-\u003ea",
@@ -1510,6 +1630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a function on the number of a JSON value or if it is not a number, returns the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "usingNumber",
           "package": "JSON-Combinator",
@@ -1519,6 +1640,7 @@
         "index": {
           "description": "Runs function on the number of JSON value or if it is not number returns the given default",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "usingNumber",
           "normalized": "a-\u003e(Rational-\u003ea)-\u003eb-\u003ea",
@@ -1535,6 +1657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a function on the object of a JSON value or if it is not an object, returns the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "usingObject",
           "package": "JSON-Combinator",
@@ -1544,6 +1667,7 @@
         "index": {
           "description": "Runs function on the object of JSON value or if it is not an object returns the given default",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "usingObject",
           "normalized": "a-\u003e(b c-\u003ea)-\u003ec-\u003ea",
@@ -1560,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a function on the fields of an object of a JSON value or if it is not an object, returns the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "usingObjectFields",
           "package": "JSON-Combinator",
@@ -1569,6 +1694,7 @@
         "index": {
           "description": "Runs function on the fields of an object of JSON value or if it is not an object returns the given default",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "usingObjectFields",
           "normalized": "a-\u003e([b]-\u003ea)-\u003ec-\u003ea",
@@ -1585,6 +1711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a function on the values of an object of a JSON value or if it is not an object, returns the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "usingObjectValues",
           "package": "JSON-Combinator",
@@ -1594,6 +1721,7 @@
         "index": {
           "description": "Runs function on the values of an object of JSON value or if it is not an object returns the given default",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "usingObjectValues",
           "normalized": "a-\u003e([b]-\u003ea)-\u003eb-\u003ea",
@@ -1610,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a function on the string of a JSON value or if it is not a string, returns the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "usingString",
           "package": "JSON-Combinator",
@@ -1619,6 +1748,7 @@
         "index": {
           "description": "Runs function on the string of JSON value or if it is not string returns the given default",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "usingString",
           "normalized": "a-\u003e(b-\u003ea)-\u003ec-\u003ea",
@@ -1635,6 +1765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an object's values from a JSON value or if it is not an object, returns the given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "valuesOr",
           "package": "JSON-Combinator",
@@ -1644,6 +1775,7 @@
         "index": {
           "description": "Returns an object values from JSON value or if it is not an object returns the given default",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "valuesOr",
           "normalized": "[a]-\u003ea-\u003e[a]",
@@ -1660,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the given function if the JSON value is an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "withArray",
           "package": "JSON-Combinator",
@@ -1669,6 +1802,7 @@
         "index": {
           "description": "Runs the given function if the JSON value is an array",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "withArray",
           "normalized": "(a b-\u003ea b)-\u003eb-\u003eb",
@@ -1685,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteracts by parsing the standard input for JSON, executing the given function for a failed result with a string error message, or printing a successful result to the given function and passing the result to standard output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "withJSON",
           "package": "JSON-Combinator",
@@ -1695,6 +1830,7 @@
         "index": {
           "description": "Interacts by parsing the standard input for JSON executing the given function for failed result with string error message or printing successful result to the given function and passing the result to standard output",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "withJSON",
           "normalized": "(a-\u003eIO())-\u003e(b-\u003ec)-\u003eIO()",
@@ -1711,6 +1847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteracts by parsing the given file for JSON, executing the given function for a failed result with a string error message, or printing a successful result to the given function and writing the result to the given file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "withJSONFile",
           "package": "JSON-Combinator",
@@ -1721,6 +1858,7 @@
         "index": {
           "description": "Interacts by parsing the given file for JSON executing the given function for failed result with string error message or printing successful result to the given function and writing the result to the given file",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "withJSONFile",
           "normalized": "(a-\u003eIO())-\u003e(b-\u003ec)-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -1737,6 +1875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the given function if the JSON value is a number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "withNumber",
           "package": "JSON-Combinator",
@@ -1746,6 +1885,7 @@
         "index": {
           "description": "Runs the given function if the JSON value is number",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "withNumber",
           "normalized": "(Rational-\u003eRational)-\u003ea-\u003ea",
@@ -1762,6 +1902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the given function if the JSON value is an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "withObject",
           "package": "JSON-Combinator",
@@ -1771,6 +1912,7 @@
         "index": {
           "description": "Runs the given function if the JSON value is an object",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "withObject",
           "normalized": "(a b-\u003ea b)-\u003eb-\u003eb",
@@ -1787,6 +1929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the given function on the fields if the JSON value is an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "withObjectFields",
           "package": "JSON-Combinator",
@@ -1796,6 +1939,7 @@
         "index": {
           "description": "Runs the given function on the fields if the JSON value is an object",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "withObjectFields",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",
@@ -1812,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the given function if the JSON value is a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "withString",
           "package": "JSON-Combinator",
@@ -1821,6 +1966,7 @@
         "index": {
           "description": "Runs the given function if the JSON value is string",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "withString",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -1837,6 +1983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites a JSON object to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Combinator",
           "name": "writeJSONFile",
           "package": "JSON-Combinator",
@@ -1847,6 +1994,7 @@
         "index": {
           "description": "Writes JSON object to file",
           "hierarchy": "Text JSON Combinator",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Combinator",
           "name": "writeJSONFile",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -1863,6 +2011,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData structures that used to denote failure of accessing JSON values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "Failure",
           "package": "JSON-Combinator",
@@ -1872,6 +2021,7 @@
         "index": {
           "description": "Data structures that used to denote failure of accessing JSON values",
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "Failure",
           "package": "JSON-Combinator",
@@ -1886,6 +2036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JSON value was expected to be an array but it wasn't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "ExpectedArray",
           "package": "JSON-Combinator",
@@ -1895,6 +2046,7 @@
         "index": {
           "description": "The JSON value was expected to be an array but it wasn",
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "ExpectedArray",
           "package": "JSON-Combinator",
@@ -1909,6 +2061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JSON value was expected to be a boolean but it wasn't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "ExpectedBool",
           "package": "JSON-Combinator",
@@ -1918,6 +2071,7 @@
         "index": {
           "description": "The JSON value was expected to be boolean but it wasn",
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "ExpectedBool",
           "package": "JSON-Combinator",
@@ -1932,6 +2086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JSON value was expected to be a number but it wasn't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "ExpectedNumber",
           "package": "JSON-Combinator",
@@ -1941,6 +2096,7 @@
         "index": {
           "description": "The JSON value was expected to be number but it wasn",
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "ExpectedNumber",
           "package": "JSON-Combinator",
@@ -1955,6 +2111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JSON value was expected to be an object but it wasn't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "ExpectedObject",
           "package": "JSON-Combinator",
@@ -1964,6 +2121,7 @@
         "index": {
           "description": "The JSON value was expected to be an object but it wasn",
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "ExpectedObject",
           "package": "JSON-Combinator",
@@ -1978,6 +2136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JSON value was expected to be a string but it wasn't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "ExpectedString",
           "package": "JSON-Combinator",
@@ -1987,6 +2146,7 @@
         "index": {
           "description": "The JSON value was expected to be string but it wasn",
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "ExpectedString",
           "package": "JSON-Combinator",
@@ -2001,6 +2161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn object field was attempted to access but the object has no such field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "NoSuchField",
           "package": "JSON-Combinator",
@@ -2010,6 +2171,7 @@
         "index": {
           "description": "An object field was attempted to access but the object has no such field",
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "NoSuchField",
           "package": "JSON-Combinator",
@@ -2024,6 +2186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn object field was attempted to access but the object has no such field or\n the JSON value was expected to be an object but it wasn't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "NoSuchFieldOrExpectedObject",
           "package": "JSON-Combinator",
@@ -2033,6 +2196,7 @@
         "index": {
           "description": "An object field was attempted to access but the object has no such field or the JSON value was expected to be an object but it wasn",
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "NoSuchFieldOrExpectedObject",
           "package": "JSON-Combinator",
@@ -2046,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "ExpectedArray",
           "package": "JSON-Combinator",
@@ -2055,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "ExpectedArray",
           "package": "JSON-Combinator",
@@ -2068,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "ExpectedBool",
           "package": "JSON-Combinator",
@@ -2077,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "ExpectedBool",
           "package": "JSON-Combinator",
@@ -2090,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "ExpectedNumber",
           "package": "JSON-Combinator",
@@ -2099,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "ExpectedNumber",
           "package": "JSON-Combinator",
@@ -2112,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "ExpectedObject",
           "package": "JSON-Combinator",
@@ -2121,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "ExpectedObject",
           "package": "JSON-Combinator",
@@ -2134,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "ExpectedString",
           "package": "JSON-Combinator",
@@ -2143,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "ExpectedString",
           "package": "JSON-Combinator",
@@ -2156,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "NoSuchField",
           "package": "JSON-Combinator",
@@ -2165,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "NoSuchField",
           "package": "JSON-Combinator",
@@ -2178,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "NoSuchFieldOrExpectedObject_ExpectedObject",
           "package": "JSON-Combinator",
@@ -2187,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "NoSuchFieldOrExpectedObject_ExpectedObject",
           "package": "JSON-Combinator",
@@ -2200,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Failure",
           "name": "NoSuchFieldOrExpectedObject_NoSuchField",
           "package": "JSON-Combinator",
@@ -2209,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Failure",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Failure",
           "name": "NoSuchFieldOrExpectedObject_NoSuchField",
           "package": "JSON-Combinator",
@@ -2223,6 +2403,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA generalisation on functions to interact with standard input and standard output.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Interact",
           "name": "Interact",
           "package": "JSON-Combinator",
@@ -2232,6 +2413,7 @@
         "index": {
           "description": "generalisation on functions to interact with standard input and standard output",
           "hierarchy": "Text JSON Interact",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Interact",
           "name": "Interact",
           "package": "JSON-Combinator",
@@ -2245,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Interact",
           "name": "Interact",
           "package": "JSON-Combinator",
@@ -2253,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Interact",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Interact",
           "name": "Interact",
           "package": "JSON-Combinator",
@@ -2266,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Interact",
           "name": "getContents'",
           "package": "JSON-Combinator",
@@ -2275,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Interact",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Interact",
           "name": "getContents'",
           "package": "JSON-Combinator",
@@ -2288,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Interact",
           "name": "interact'",
           "package": "JSON-Combinator",
@@ -2297,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Interact",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Interact",
           "name": "interact'",
           "normalized": "(a-\u003ea)-\u003eIO()",
@@ -2311,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.Interact",
           "name": "putStr'",
           "package": "JSON-Combinator",
@@ -2320,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Interact",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.Interact",
           "name": "putStr'",
           "normalized": "a-\u003eIO()",
@@ -2336,6 +2526,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA generalisation on functions to read and write files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.InteractFile",
           "name": "InteractFile",
           "package": "JSON-Combinator",
@@ -2345,6 +2536,7 @@
         "index": {
           "description": "generalisation on functions to read and write files",
           "hierarchy": "Text JSON InteractFile",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.InteractFile",
           "name": "InteractFile",
           "package": "JSON-Combinator",
@@ -2358,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.InteractFile",
           "name": "InteractFile",
           "package": "JSON-Combinator",
@@ -2366,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Text JSON InteractFile",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.InteractFile",
           "name": "InteractFile",
           "package": "JSON-Combinator",
@@ -2379,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.InteractFile",
           "name": "readFile'",
           "package": "JSON-Combinator",
@@ -2388,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Text JSON InteractFile",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.InteractFile",
           "name": "readFile'",
           "normalized": "FilePath-\u003eIO a",
@@ -2403,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.InteractFile",
           "name": "writeFile'",
           "package": "JSON-Combinator",
@@ -2412,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Text JSON InteractFile",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.InteractFile",
           "name": "writeFile'",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -2428,6 +2626,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe base functions for accessing JSON object fields.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONField",
           "name": "JSONField",
           "package": "JSON-Combinator",
@@ -2437,6 +2636,7 @@
         "index": {
           "description": "The base functions for accessing JSON object fields",
           "hierarchy": "Text JSON JSONField",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONField",
           "name": "JSONField",
           "package": "JSON-Combinator",
@@ -2451,6 +2651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccessing JSON object fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONField",
           "name": "JSONField",
           "package": "JSON-Combinator",
@@ -2460,6 +2661,7 @@
         "index": {
           "description": "Accessing JSON object fields",
           "hierarchy": "Text JSON JSONField",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONField",
           "name": "JSONField",
           "package": "JSON-Combinator",
@@ -2474,6 +2676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the field of a JSON object with potential failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONField",
           "name": "field",
           "package": "JSON-Combinator",
@@ -2484,6 +2687,7 @@
         "index": {
           "description": "Access the field of JSON object with potential failure",
           "hierarchy": "Text JSON JSONField",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONField",
           "name": "field",
           "normalized": "a-\u003eb-\u003ec b",
@@ -2499,6 +2703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess all fields of a JSON object with potential failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONField",
           "name": "fields",
           "package": "JSON-Combinator",
@@ -2509,6 +2714,7 @@
         "index": {
           "description": "Access all fields of JSON object with potential failure",
           "hierarchy": "Text JSON JSONField",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONField",
           "name": "fields",
           "normalized": "a-\u003eb[c]",
@@ -2524,6 +2730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all object field values of a JSON value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONField",
           "name": "values",
           "package": "JSON-Combinator",
@@ -2534,6 +2741,7 @@
         "index": {
           "description": "Returns all object field values of JSON value",
           "hierarchy": "Text JSON JSONField",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONField",
           "name": "values",
           "normalized": "a-\u003eb[a]",
@@ -2549,6 +2757,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe generalisation of a JSON object.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONLike",
           "name": "JSONLike",
           "package": "JSON-Combinator",
@@ -2558,6 +2767,7 @@
         "index": {
           "description": "The generalisation of JSON object",
           "hierarchy": "Text JSON JSONLike",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONLike",
           "name": "JSONLike",
           "package": "JSON-Combinator",
@@ -2572,6 +2782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe generalisation of a JSON object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONLike",
           "name": "JSONLike",
           "package": "JSON-Combinator",
@@ -2581,6 +2792,7 @@
         "index": {
           "description": "The generalisation of JSON object",
           "hierarchy": "Text JSON JSONLike",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONLike",
           "name": "JSONLike",
           "package": "JSON-Combinator",
@@ -2594,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONLike",
           "name": "StringMap",
           "package": "JSON-Combinator",
@@ -2602,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Text JSON JSONLike",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONLike",
           "name": "StringMap",
           "package": "JSON-Combinator",
@@ -2615,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONLike",
           "name": "StringMap",
           "package": "JSON-Combinator",
@@ -2624,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Text JSON JSONLike",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONLike",
           "name": "StringMap",
           "package": "JSON-Combinator",
@@ -2638,6 +2854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeconstructs a JSON object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONLike",
           "name": "foldJSON",
           "package": "JSON-Combinator",
@@ -2648,6 +2865,7 @@
         "index": {
           "description": "Deconstructs JSON object",
           "hierarchy": "Text JSON JSONLike",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONLike",
           "name": "foldJSON",
           "package": "JSON-Combinator",
@@ -2662,6 +2880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a JSON array value from the given array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONLike",
           "name": "jarray",
           "package": "JSON-Combinator",
@@ -2672,6 +2891,7 @@
         "index": {
           "description": "Constructs JSON array value from the given array",
           "hierarchy": "Text JSON JSONLike",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONLike",
           "name": "jarray",
           "normalized": "a b-\u003eb",
@@ -2687,6 +2907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a JSON false value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONLike",
           "name": "jfalse",
           "package": "JSON-Combinator",
@@ -2697,6 +2918,7 @@
         "index": {
           "description": "Constructs JSON false value",
           "hierarchy": "Text JSON JSONLike",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONLike",
           "name": "jfalse",
           "package": "JSON-Combinator",
@@ -2710,6 +2932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a JSON null value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONLike",
           "name": "jnull",
           "package": "JSON-Combinator",
@@ -2720,6 +2943,7 @@
         "index": {
           "description": "Constructs JSON null value",
           "hierarchy": "Text JSON JSONLike",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONLike",
           "name": "jnull",
           "package": "JSON-Combinator",
@@ -2733,6 +2957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a JSON number value from the given rational.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONLike",
           "name": "jnumber",
           "package": "JSON-Combinator",
@@ -2743,6 +2968,7 @@
         "index": {
           "description": "Constructs JSON number value from the given rational",
           "hierarchy": "Text JSON JSONLike",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONLike",
           "name": "jnumber",
           "normalized": "Rational-\u003ea",
@@ -2758,6 +2984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a JSON object value from the given object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONLike",
           "name": "jobject",
           "package": "JSON-Combinator",
@@ -2768,6 +2995,7 @@
         "index": {
           "description": "Constructs JSON object value from the given object",
           "hierarchy": "Text JSON JSONLike",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONLike",
           "name": "jobject",
           "normalized": "a b-\u003eb",
@@ -2783,6 +3011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a JSON string value from the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONLike",
           "name": "jstring",
           "package": "JSON-Combinator",
@@ -2793,6 +3022,7 @@
         "index": {
           "description": "Constructs JSON string value from the given string",
           "hierarchy": "Text JSON JSONLike",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONLike",
           "name": "jstring",
           "normalized": "a-\u003eb",
@@ -2808,6 +3038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a JSON true value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONLike",
           "name": "jtrue",
           "package": "JSON-Combinator",
@@ -2818,6 +3049,7 @@
         "index": {
           "description": "Constructs JSON true value",
           "hierarchy": "Text JSON JSONLike",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONLike",
           "name": "jtrue",
           "package": "JSON-Combinator",
@@ -2830,6 +3062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONLike",
           "name": "runStringMap",
           "package": "JSON-Combinator",
@@ -2839,6 +3072,7 @@
         },
         "index": {
           "hierarchy": "Text JSON JSONLike",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONLike",
           "name": "runStringMap",
           "package": "JSON-Combinator",
@@ -2853,6 +3087,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing JSON object values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONParse",
           "name": "JSONParse",
           "package": "JSON-Combinator",
@@ -2862,6 +3097,7 @@
         "index": {
           "description": "Parsing JSON object values",
           "hierarchy": "Text JSON JSONParse",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONParse",
           "name": "JSONParse",
           "package": "JSON-Combinator",
@@ -2876,6 +3112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing JSON object values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONParse",
           "name": "JSONParse",
           "package": "JSON-Combinator",
@@ -2885,6 +3122,7 @@
         "index": {
           "description": "Parsing JSON object values",
           "hierarchy": "Text JSON JSONParse",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONParse",
           "name": "JSONParse",
           "package": "JSON-Combinator",
@@ -2899,6 +3137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a value into either an error or a JSON object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONParse",
           "name": "parseJSON",
           "package": "JSON-Combinator",
@@ -2909,6 +3148,7 @@
         "index": {
           "description": "Parses value into either an error or JSON object",
           "hierarchy": "Text JSON JSONParse",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONParse",
           "name": "parseJSON",
           "package": "JSON-Combinator",
@@ -2923,6 +3163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a value with an empty source name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONParse",
           "name": "parseJSON'",
           "package": "JSON-Combinator",
@@ -2932,6 +3173,7 @@
         "index": {
           "description": "Parse value with an empty source name",
           "hierarchy": "Text JSON JSONParse",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONParse",
           "name": "parseJSON'",
           "normalized": "a-\u003eEither b c",
@@ -2948,6 +3190,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrepending values to existing JSON association values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONPrepend",
           "name": "JSONPrepend",
           "package": "JSON-Combinator",
@@ -2957,6 +3200,7 @@
         "index": {
           "description": "Prepending values to existing JSON association values",
           "hierarchy": "Text JSON JSONPrepend",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONPrepend",
           "name": "JSONPrepend",
           "package": "JSON-Combinator",
@@ -2971,6 +3215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepending values to existing JSON association values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONPrepend",
           "name": "JSONPrepend",
           "package": "JSON-Combinator",
@@ -2980,6 +3225,7 @@
         "index": {
           "description": "Prepending values to existing JSON association values",
           "hierarchy": "Text JSON JSONPrepend",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONPrepend",
           "name": "JSONPrepend",
           "package": "JSON-Combinator",
@@ -2994,6 +3240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepends the given value if the JSON is an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONPrepend",
           "name": "(--\u003e\u003e:)",
           "package": "JSON-Combinator",
@@ -3004,6 +3251,7 @@
         "index": {
           "description": "Prepends the given value if the JSON is an array",
           "hierarchy": "Text JSON JSONPrepend",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONPrepend",
           "name": "(--\u003e\u003e:) --\u003e\u003e:",
           "normalized": "(-\u003e)",
@@ -3019,6 +3267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepends the given association if the JSON is an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONPrepend",
           "name": "(-\u003e:)",
           "package": "JSON-Combinator",
@@ -3029,6 +3278,7 @@
         "index": {
           "description": "Prepends the given association if the JSON is an object",
           "hierarchy": "Text JSON JSONPrepend",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONPrepend",
           "name": "(-\u003e:) -\u003e:",
           "normalized": "(-\u003e)",
@@ -3044,6 +3294,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty-printing JSON values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONPrint",
           "name": "JSONPrint",
           "package": "JSON-Combinator",
@@ -3053,6 +3304,7 @@
         "index": {
           "description": "Pretty-printing JSON values",
           "hierarchy": "Text JSON JSONPrint",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONPrint",
           "name": "JSONPrint",
           "package": "JSON-Combinator",
@@ -3067,6 +3319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-printing JSON values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONPrint",
           "name": "JSONPrint",
           "package": "JSON-Combinator",
@@ -3076,6 +3329,7 @@
         "index": {
           "description": "Pretty-printing JSON values",
           "hierarchy": "Text JSON JSONPrint",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONPrint",
           "name": "JSONPrint",
           "package": "JSON-Combinator",
@@ -3090,6 +3344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the given JSON value to a pretty-printed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:06 UTC 2014",
           "module": "Text.JSON.JSONPrint",
           "name": "printJSON",
           "package": "JSON-Combinator",
@@ -3100,6 +3355,7 @@
         "index": {
           "description": "Print the given JSON value to pretty-printed value",
           "hierarchy": "Text JSON JSONPrint",
+          "indexed": "2014-03-11T16:50:06",
           "module": "Text.JSON.JSONPrint",
           "name": "printJSON",
           "package": "JSON-Combinator",

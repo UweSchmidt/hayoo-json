@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "googleplus"
+        "phrase": "googleplus",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Monad",
           "name": "Monad",
           "package": "googleplus",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Monad",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Monad",
           "name": "Monad",
           "package": "googleplus",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents authentication data with GooglePlus. Currently supports an OAuth\n  token or an API key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Monad",
           "name": "GooglePlusAuth",
           "package": "googleplus",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Represents authentication data with GooglePlus Currently supports an OAuth token or an API key",
           "hierarchy": "Web GooglePlus Monad",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Monad",
           "name": "GooglePlusAuth",
           "package": "googleplus",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnvironment passed into requests when they are executed within a GooglePlusM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Monad",
           "name": "GooglePlusEnv",
           "package": "googleplus",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Environment passed into requests when they are executed within GooglePlusM",
           "hierarchy": "Web GooglePlus Monad",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Monad",
           "name": "GooglePlusEnv",
           "package": "googleplus",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIO wrapper used to compose/sequence Google+ API actions. See Web.GooglePlus docs for examples\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Monad",
           "name": "GooglePlusM",
           "package": "googleplus",
@@ -95,6 +102,7 @@
         "index": {
           "description": "IO wrapper used to compose sequence Google API actions See Web.GooglePlus docs for examples",
           "hierarchy": "Web GooglePlus Monad",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Monad",
           "name": "GooglePlusM",
           "package": "googleplus",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthentication using an API key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Monad",
           "name": "APIKey",
           "package": "googleplus",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Authentication using an API key",
           "hierarchy": "Web GooglePlus Monad",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Monad",
           "name": "APIKey",
           "package": "googleplus",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Monad",
           "name": "GooglePlusEnv",
           "package": "googleplus",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Monad",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Monad",
           "name": "GooglePlusEnv",
           "package": "googleplus",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Monad",
           "name": "GooglePlusM",
           "package": "googleplus",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Monad",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Monad",
           "name": "GooglePlusM",
           "package": "googleplus",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthenticate using a token obtianed via OAuth V2. Currently no way in the library to obtain refresh tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Monad",
           "name": "OAuthToken",
           "package": "googleplus",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Authenticate using token obtianed via OAuth V2 Currently no way in the library to obtain refresh tokens",
           "hierarchy": "Web GooglePlus Monad",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Monad",
           "name": "OAuthToken",
           "package": "googleplus",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Monad",
           "name": "gpAuth",
           "package": "googleplus",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Monad",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Monad",
           "name": "gpAuth",
           "package": "googleplus",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Monad",
           "name": "unGooglePlusM",
           "package": "googleplus",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Monad",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Monad",
           "name": "unGooglePlusM",
           "package": "googleplus",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Types",
           "package": "googleplus",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Types",
           "package": "googleplus",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes who has access to a given Activity resource\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Access",
           "package": "googleplus",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Describes who has access to given Activity resource",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Access",
           "package": "googleplus",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccessEntry that describes the type of access someone may have to an Activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "AccessItem",
           "package": "googleplus",
@@ -298,6 +323,7 @@
         "index": {
           "description": "AccessEntry that describes the type of access someone may have to an Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "AccessItem",
           "package": "googleplus",
@@ -312,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of entity which may access an Activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "AccessItemType",
           "package": "googleplus",
@@ -321,6 +348,7 @@
         "index": {
           "description": "Type of entity which may access an Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "AccessItemType",
           "package": "googleplus",
@@ -335,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActivity on Google+, such as a post\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Activity",
           "package": "googleplus",
@@ -344,6 +373,7 @@
         "index": {
           "description": "Activity on Google such as post",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Activity",
           "package": "googleplus",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA feed of user activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "ActivityFeed",
           "package": "googleplus",
@@ -367,6 +398,7 @@
         "index": {
           "description": "feed of user activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "ActivityFeed",
           "package": "googleplus",
@@ -381,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObject to which an activity pertains\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "ActivityObject",
           "package": "googleplus",
@@ -390,6 +423,7 @@
         "index": {
           "description": "Object to which an activity pertains",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "ActivityObject",
           "package": "googleplus",
@@ -404,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of objects that can be associated with an Activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "ActivityObjectType",
           "package": "googleplus",
@@ -413,6 +448,7 @@
         "index": {
           "description": "Types of objects that can be associated with an Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "ActivityObjectType",
           "package": "googleplus",
@@ -427,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA person who may be associated with an Activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Actor",
           "package": "googleplus",
@@ -436,6 +473,7 @@
         "index": {
           "description": "person who may be associated with an Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Actor",
           "package": "googleplus",
@@ -450,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMedia attached to an Activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Attachment",
           "package": "googleplus",
@@ -459,6 +498,7 @@
         "index": {
           "description": "Media attached to an Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Attachment",
           "package": "googleplus",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of Activity Attachment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "AttachmentType",
           "package": "googleplus",
@@ -482,6 +523,7 @@
         "index": {
           "description": "Type of Activity Attachment",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "AttachmentType",
           "package": "googleplus",
@@ -496,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActivity comment on Google+\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Comment",
           "package": "googleplus",
@@ -505,6 +548,7 @@
         "index": {
           "description": "Activity comment on Google",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Comment",
           "package": "googleplus",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "CommentObject",
           "package": "googleplus",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "CommentObject",
           "package": "googleplus",
@@ -540,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmail address belonging to the User\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Email",
           "package": "googleplus",
@@ -549,6 +596,7 @@
         "index": {
           "description": "Email address belonging to the User",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Email",
           "package": "googleplus",
@@ -563,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext/types of Emails that a Person can have\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "EmailType",
           "package": "googleplus",
@@ -572,6 +621,7 @@
         "index": {
           "description": "Context types of Emails that Person can have",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "EmailType",
           "package": "googleplus",
@@ -586,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbeddable link for an attachment if it is a video\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Embed",
           "package": "googleplus",
@@ -595,6 +646,7 @@
         "index": {
           "description": "Embeddable link for an attachment if it is video",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Embed",
           "package": "googleplus",
@@ -609,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerson's gender\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Gender",
           "package": "googleplus",
@@ -618,6 +671,7 @@
         "index": {
           "description": "Person gender",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Gender",
           "package": "googleplus",
@@ -632,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeolocation based on longitude and latitude\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Geocode",
           "package": "googleplus",
@@ -641,6 +696,7 @@
         "index": {
           "description": "Geolocation based on longitude and latitude",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Geocode",
           "package": "googleplus",
@@ -654,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "ID",
           "package": "googleplus",
@@ -662,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "ID",
           "package": "googleplus",
@@ -676,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage resource on Google+\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Image",
           "package": "googleplus",
@@ -685,6 +744,7 @@
         "index": {
           "description": "Image resource on Google",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Image",
           "package": "googleplus",
@@ -698,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "InReplyTo",
           "package": "googleplus",
@@ -706,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "InReplyTo",
           "package": "googleplus",
@@ -720,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrganization to which a Persion currently or previously may belong\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Organization",
           "package": "googleplus",
@@ -729,6 +792,7 @@
         "index": {
           "description": "Organization to which Persion currently or previously may belong",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Organization",
           "package": "googleplus",
@@ -743,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe capacity in which the Perosn participated in an Organization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "OrganizationType",
           "package": "googleplus",
@@ -752,6 +817,7 @@
         "index": {
           "description": "The capacity in which the Perosn participated in an Organization",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "OrganizationType",
           "package": "googleplus",
@@ -766,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA member of Google+\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Person",
           "package": "googleplus",
@@ -775,6 +842,7 @@
         "index": {
           "description": "member of Google",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Person",
           "package": "googleplus",
@@ -789,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifier used for finding a Person\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "PersonID",
           "package": "googleplus",
@@ -798,6 +867,7 @@
         "index": {
           "description": "Identifier used for finding Person",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "PersonID",
           "package": "googleplus",
@@ -812,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFull, real name of a Person\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "PersonName",
           "package": "googleplus",
@@ -821,6 +892,7 @@
         "index": {
           "description": "Full real name of Person",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "PersonName",
           "package": "googleplus",
@@ -835,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Person search result with limited informaiton. The full person's profile must be retrieved to get the rest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "PersonSearchResult",
           "package": "googleplus",
@@ -844,6 +917,7 @@
         "index": {
           "description": "Person search result with limited informaiton The full person profile must be retrieved to get the rest",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "PersonSearchResult",
           "package": "googleplus",
@@ -858,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal URLS that the Person has published\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "PersonURL",
           "package": "googleplus",
@@ -867,6 +942,7 @@
         "index": {
           "description": "External URLS that the Person has published",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "PersonURL",
           "package": "googleplus",
@@ -881,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext/types of URLS that a Person can have\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "PersonURLType",
           "package": "googleplus",
@@ -890,6 +967,7 @@
         "index": {
           "description": "Context types of URLS that Person can have",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "PersonURLType",
           "package": "googleplus",
@@ -904,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA physical location where a Person resides/resided\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Place",
           "package": "googleplus",
@@ -913,6 +992,7 @@
         "index": {
           "description": "physical location where Person resides resided",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Place",
           "package": "googleplus",
@@ -927,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eService provider who originally published an Activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Provider",
           "package": "googleplus",
@@ -936,6 +1017,7 @@
         "index": {
           "description": "Service provider who originally published an Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Provider",
           "package": "googleplus",
@@ -950,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelationship status of a Person\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "RelationshipStatus",
           "package": "googleplus",
@@ -959,6 +1042,7 @@
         "index": {
           "description": "Relationship status of Person",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "RelationshipStatus",
           "package": "googleplus",
@@ -973,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of activity being performed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Verb",
           "package": "googleplus",
@@ -982,6 +1067,7 @@
         "index": {
           "description": "Type of activity being performed",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Verb",
           "package": "googleplus",
@@ -995,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Access",
           "package": "googleplus",
@@ -1004,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Access",
           "package": "googleplus",
@@ -1017,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "AccessItem",
           "package": "googleplus",
@@ -1026,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "AccessItem",
           "package": "googleplus",
@@ -1039,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Activity",
           "package": "googleplus",
@@ -1048,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Activity",
           "package": "googleplus",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "ActivityFeed",
           "package": "googleplus",
@@ -1070,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "ActivityFeed",
           "package": "googleplus",
@@ -1083,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "ActivityObject",
           "package": "googleplus",
@@ -1092,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "ActivityObject",
           "package": "googleplus",
@@ -1105,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Actor",
           "package": "googleplus",
@@ -1114,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Actor",
           "package": "googleplus",
@@ -1128,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn article attachment specified by a link by the poster\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Article",
           "package": "googleplus",
@@ -1138,6 +1237,7 @@
         "index": {
           "description": "An article attachment specified by link by the poster",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Article",
           "package": "googleplus",
@@ -1151,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Attachment",
           "package": "googleplus",
@@ -1160,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Attachment",
           "package": "googleplus",
@@ -1173,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "BlogURL",
           "package": "googleplus",
@@ -1182,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "BlogURL",
           "package": "googleplus",
@@ -1196,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck into a location\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Checkin",
           "package": "googleplus",
@@ -1206,6 +1311,7 @@
         "index": {
           "description": "Check into location",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Checkin",
           "package": "googleplus",
@@ -1219,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "CircleAccess",
           "package": "googleplus",
@@ -1228,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "CircleAccess",
           "package": "googleplus",
@@ -1241,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Comment",
           "package": "googleplus",
@@ -1250,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Comment",
           "package": "googleplus",
@@ -1263,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "CommentObject",
           "package": "googleplus",
@@ -1272,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "CommentObject",
           "package": "googleplus",
@@ -1285,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Email",
           "package": "googleplus",
@@ -1294,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Email",
           "package": "googleplus",
@@ -1307,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Embed",
           "package": "googleplus",
@@ -1316,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Embed",
           "package": "googleplus",
@@ -1329,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Engaged",
           "package": "googleplus",
@@ -1338,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Engaged",
           "package": "googleplus",
@@ -1352,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess granted to members of the Actor's circles and their circles as well\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "ExtendedCirclesAccess",
           "package": "googleplus",
@@ -1362,6 +1481,7 @@
         "index": {
           "description": "Access granted to members of the Actor circles and their circles as well",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "ExtendedCirclesAccess",
           "package": "googleplus",
@@ -1375,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Female",
           "package": "googleplus",
@@ -1384,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Female",
           "package": "googleplus",
@@ -1397,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Geocode",
           "package": "googleplus",
@@ -1406,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Geocode",
           "package": "googleplus",
@@ -1420,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Google+ Activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "GooglePlusActivity",
           "package": "googleplus",
@@ -1430,6 +1555,7 @@
         "index": {
           "description": "Google Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "GooglePlusActivity",
           "package": "googleplus",
@@ -1443,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "HomeEmail",
           "package": "googleplus",
@@ -1452,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "HomeEmail",
           "package": "googleplus",
@@ -1465,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "HomeURL",
           "package": "googleplus",
@@ -1474,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "HomeURL",
           "package": "googleplus",
@@ -1487,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Image",
           "package": "googleplus",
@@ -1496,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Image",
           "package": "googleplus",
@@ -1509,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "InARelationship",
           "package": "googleplus",
@@ -1518,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "InARelationship",
           "package": "googleplus",
@@ -1531,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "InCivilUnion",
           "package": "googleplus",
@@ -1540,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "InCivilUnion",
           "package": "googleplus",
@@ -1553,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "InDomesticPartnership",
           "package": "googleplus",
@@ -1562,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "InDomesticPartnership",
           "package": "googleplus",
@@ -1575,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "InReplyTo",
           "package": "googleplus",
@@ -1584,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "InReplyTo",
           "package": "googleplus",
@@ -1597,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "ItsComplicated",
           "package": "googleplus",
@@ -1606,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "ItsComplicated",
           "package": "googleplus",
@@ -1620,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is not a documented value, yet I've encountered it in the wild. I have no idea what it means.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "JsonURL",
           "package": "googleplus",
@@ -1630,6 +1773,7 @@
         "index": {
           "description": "This is not documented value yet ve encountered it in the wild have no idea what it means",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "JsonURL",
           "package": "googleplus",
@@ -1643,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Male",
           "package": "googleplus",
@@ -1652,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Male",
           "package": "googleplus",
@@ -1665,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Married",
           "package": "googleplus",
@@ -1674,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Married",
           "package": "googleplus",
@@ -1688,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe authenticated user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Me",
           "package": "googleplus",
@@ -1698,6 +1847,7 @@
         "index": {
           "description": "The authenticated user",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Me",
           "package": "googleplus",
@@ -1712,6 +1862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess granted to all members of the Actor's circles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "MyCirclesAccess",
           "package": "googleplus",
@@ -1722,6 +1873,7 @@
         "index": {
           "description": "Access granted to all members of the Actor circles",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "MyCirclesAccess",
           "package": "googleplus",
@@ -1736,6 +1888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTextual content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Note",
           "package": "googleplus",
@@ -1746,6 +1899,7 @@
         "index": {
           "description": "Textual content",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Note",
           "package": "googleplus",
@@ -1759,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "OpenRelationship",
           "package": "googleplus",
@@ -1768,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "OpenRelationship",
           "package": "googleplus",
@@ -1781,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Organization",
           "package": "googleplus",
@@ -1790,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Organization",
           "package": "googleplus",
@@ -1803,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "OtherEmail",
           "package": "googleplus",
@@ -1812,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "OtherEmail",
           "package": "googleplus",
@@ -1825,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "OtherGender",
           "package": "googleplus",
@@ -1834,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "OtherGender",
           "package": "googleplus",
@@ -1847,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "OtherURL",
           "package": "googleplus",
@@ -1856,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "OtherURL",
           "package": "googleplus",
@@ -1869,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Person",
           "package": "googleplus",
@@ -1878,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Person",
           "package": "googleplus",
@@ -1891,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "PersonAccess",
           "package": "googleplus",
@@ -1900,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "PersonAccess",
           "package": "googleplus",
@@ -1914,6 +2082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eID for a specific user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "PersonID",
           "package": "googleplus",
@@ -1924,6 +2093,7 @@
         "index": {
           "description": "ID for specific user",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "PersonID",
           "package": "googleplus",
@@ -1937,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "PersonName",
           "package": "googleplus",
@@ -1946,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "PersonName",
           "package": "googleplus",
@@ -1959,6 +2131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "PersonSearchResult",
           "package": "googleplus",
@@ -1968,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "PersonSearchResult",
           "package": "googleplus",
@@ -1981,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "PersonURL",
           "package": "googleplus",
@@ -1990,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "PersonURL",
           "package": "googleplus",
@@ -2003,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Photo",
           "package": "googleplus",
@@ -2012,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Photo",
           "package": "googleplus",
@@ -2026,6 +2204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that occurs in the wild but is not mentioned in the Google+ API docs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "PhotoAlbum",
           "package": "googleplus",
@@ -2036,6 +2215,7 @@
         "index": {
           "description": "type that occurs in the wild but is not mentioned in the Google API docs",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "PhotoAlbum",
           "package": "googleplus",
@@ -2049,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Place",
           "package": "googleplus",
@@ -2058,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Place",
           "package": "googleplus",
@@ -2072,6 +2254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePublish content to the stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Post",
           "package": "googleplus",
@@ -2082,6 +2265,7 @@
         "index": {
           "description": "Publish content to the stream",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Post",
           "package": "googleplus",
@@ -2095,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "ProfileURL",
           "package": "googleplus",
@@ -2104,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "ProfileURL",
           "package": "googleplus",
@@ -2117,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Provider",
           "package": "googleplus",
@@ -2126,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Provider",
           "package": "googleplus",
@@ -2140,6 +2328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess to anyone on the internet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "PublicAccess",
           "package": "googleplus",
@@ -2150,6 +2339,7 @@
         "index": {
           "description": "Access to anyone on the internet",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "PublicAccess",
           "package": "googleplus",
@@ -2163,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "School",
           "package": "googleplus",
@@ -2172,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "School",
           "package": "googleplus",
@@ -2186,6 +2378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReshare an activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Share",
           "package": "googleplus",
@@ -2196,6 +2389,7 @@
         "index": {
           "description": "Reshare an activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Share",
           "package": "googleplus",
@@ -2209,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Single",
           "package": "googleplus",
@@ -2218,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Single",
           "package": "googleplus",
@@ -2231,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Video",
           "package": "googleplus",
@@ -2240,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Video",
           "package": "googleplus",
@@ -2253,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Widowed",
           "package": "googleplus",
@@ -2262,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Widowed",
           "package": "googleplus",
@@ -2275,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "Work",
           "package": "googleplus",
@@ -2284,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "Work",
           "package": "googleplus",
@@ -2297,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "WorkEmail",
           "package": "googleplus",
@@ -2306,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "WorkEmail",
           "package": "googleplus",
@@ -2319,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "WorkURL",
           "package": "googleplus",
@@ -2328,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "WorkURL",
           "package": "googleplus",
@@ -2342,6 +2548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of the access, suitable for display\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "accessDescription",
           "package": "googleplus",
@@ -2352,6 +2559,7 @@
         "index": {
           "description": "Description of the access suitable for display",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "accessDescription",
           "package": "googleplus",
@@ -2366,6 +2574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eID of the entry. Only set when this AccessItem refers to a Person or Circle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "accessItemId",
           "package": "googleplus",
@@ -2376,6 +2585,7 @@
         "index": {
           "description": "ID of the entry Only set when this AccessItem refers to Person or Circle",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "accessItemId",
           "package": "googleplus",
@@ -2390,6 +2600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of entity which has access to the associated Activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "accessItemType",
           "package": "googleplus",
@@ -2400,6 +2611,7 @@
         "index": {
           "description": "Type of entity which has access to the associated Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "accessItemType",
           "package": "googleplus",
@@ -2414,6 +2626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of access entries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "accessItems",
           "package": "googleplus",
@@ -2424,6 +2637,7 @@
         "index": {
           "description": "List of access entries",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "accessItems",
           "normalized": "[AccessItem]",
@@ -2440,6 +2654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies who has access to this activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityAccess",
           "package": "googleplus",
@@ -2450,6 +2665,7 @@
         "index": {
           "description": "Identifies who has access to this activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityAccess",
           "package": "googleplus",
@@ -2464,6 +2680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe person who performed the Activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityActor",
           "package": "googleplus",
@@ -2474,6 +2691,7 @@
         "index": {
           "description": "The person who performed the Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityActor",
           "package": "googleplus",
@@ -2488,6 +2706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStreet address where the activity occurred\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityAddress",
           "package": "googleplus",
@@ -2498,6 +2717,7 @@
         "index": {
           "description": "Street address where the activity occurred",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityAddress",
           "package": "googleplus",
@@ -2512,6 +2732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional content added by the person who shared this activity, applicable only when resharing an activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityAnnotation",
           "package": "googleplus",
@@ -2522,6 +2743,7 @@
         "index": {
           "description": "Additional content added by the person who shared this activity applicable only when resharing an activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityAnnotation",
           "package": "googleplus",
@@ -2536,6 +2758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eID of original activity if this activity is a crosspost from another system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityCrosspostSource",
           "package": "googleplus",
@@ -2546,6 +2769,7 @@
         "index": {
           "description": "ID of original activity if this activity is crosspost from another system",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityCrosspostSource",
           "package": "googleplus",
@@ -2560,6 +2784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique ID of the feed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityFeedId",
           "package": "googleplus",
@@ -2570,6 +2795,7 @@
         "index": {
           "description": "Unique ID of the feed",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityFeedId",
           "package": "googleplus",
@@ -2584,6 +2810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActivities in the feed (currently limited to first page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityFeedItems",
           "package": "googleplus",
@@ -2594,6 +2821,7 @@
         "index": {
           "description": "Activities in the feed currently limited to first page",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityFeedItems",
           "normalized": "[Activity]",
@@ -2610,6 +2838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTitle of the feed in Google+\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityFeedTitle",
           "package": "googleplus",
@@ -2620,6 +2849,7 @@
         "index": {
           "description": "Title of the feed in Google",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityFeedTitle",
           "package": "googleplus",
@@ -2634,6 +2864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime updated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityFeedUpdated",
           "package": "googleplus",
@@ -2644,6 +2875,7 @@
         "index": {
           "description": "Time updated",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityFeedUpdated",
           "package": "googleplus",
@@ -2658,6 +2890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere the activity occurred (Latitude/Longitude)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityGeocode",
           "package": "googleplus",
@@ -2668,6 +2901,7 @@
         "index": {
           "description": "Where the activity occurred Latitude Longitude",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityGeocode",
           "package": "googleplus",
@@ -2682,6 +2916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActivity ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityId",
           "package": "googleplus",
@@ -2692,6 +2927,7 @@
         "index": {
           "description": "Activity ID",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityId",
           "package": "googleplus",
@@ -2706,6 +2942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe object of the Activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityObject",
           "package": "googleplus",
@@ -2716,6 +2953,7 @@
         "index": {
           "description": "The object of the Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityObject",
           "package": "googleplus",
@@ -2730,6 +2968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the object is another Activity, this refers to the actor for that Activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectActor",
           "package": "googleplus",
@@ -2740,6 +2979,7 @@
         "index": {
           "description": "If the object is another Activity this refers to the actor for that Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectActor",
           "package": "googleplus",
@@ -2754,6 +2994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMedia objects attached to this activity object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectAttachments",
           "package": "googleplus",
@@ -2764,6 +3005,7 @@
         "index": {
           "description": "Media objects attached to this activity object",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectAttachments",
           "normalized": "[Attachment]",
@@ -2780,6 +3022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSnipped of text if the object is an article\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectContent",
           "package": "googleplus",
@@ -2790,6 +3033,7 @@
         "index": {
           "description": "Snipped of text if the object is an article",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectContent",
           "package": "googleplus",
@@ -2804,6 +3048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eID of the media object's resource\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectId",
           "package": "googleplus",
@@ -2814,6 +3059,7 @@
         "index": {
           "description": "ID of the media object resource",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectId",
           "package": "googleplus",
@@ -2828,6 +3074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContent text as provided by the author without any HTML formatting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectOriginalContent",
           "package": "googleplus",
@@ -2838,6 +3085,7 @@
         "index": {
           "description": "Content text as provided by the author without any HTML formatting",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectOriginalContent",
           "package": "googleplus",
@@ -2852,6 +3100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of people giving the Activity a +1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectPlusOners",
           "package": "googleplus",
@@ -2862,6 +3111,7 @@
         "index": {
           "description": "Number of people giving the Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectPlusOners",
           "package": "googleplus",
@@ -2876,6 +3126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of replies to the Activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectReplies",
           "package": "googleplus",
@@ -2886,6 +3137,7 @@
         "index": {
           "description": "Number of replies to the Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectReplies",
           "package": "googleplus",
@@ -2900,6 +3152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of people resharing the Activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectResharers",
           "package": "googleplus",
@@ -2910,6 +3163,7 @@
         "index": {
           "description": "Number of people resharing the Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectResharers",
           "package": "googleplus",
@@ -2924,6 +3178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of Object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectType",
           "package": "googleplus",
@@ -2934,6 +3189,7 @@
         "index": {
           "description": "Type of Object",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectType",
           "package": "googleplus",
@@ -2948,6 +3204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL pointing to the linked resource\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectURL",
           "package": "googleplus",
@@ -2958,6 +3215,7 @@
         "index": {
           "description": "URL pointing to the linked resource",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityObjectURL",
           "package": "googleplus",
@@ -2972,6 +3230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eID of the place where the activity occurred\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityPlaceId",
           "package": "googleplus",
@@ -2982,6 +3241,7 @@
         "index": {
           "description": "ID of the place where the activity occurred",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityPlaceId",
           "package": "googleplus",
@@ -2995,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityPlaceName",
           "package": "googleplus",
@@ -3004,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityPlaceName",
           "package": "googleplus",
@@ -3018,6 +3280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeaning undocumented\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityPlaceholder",
           "package": "googleplus",
@@ -3028,6 +3291,7 @@
         "index": {
           "description": "Meaning undocumented",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityPlaceholder",
           "package": "googleplus",
@@ -3042,6 +3306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eService provider initially providing the activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityProvider",
           "package": "googleplus",
@@ -3052,6 +3317,7 @@
         "index": {
           "description": "Service provider initially providing the activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityProvider",
           "package": "googleplus",
@@ -3066,6 +3332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate originally published\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityPublished",
           "package": "googleplus",
@@ -3076,6 +3343,7 @@
         "index": {
           "description": "Date originally published",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityPublished",
           "package": "googleplus",
@@ -3090,6 +3358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRadius of the region where the activity ocurred, centered at the Geocode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityRadius",
           "package": "googleplus",
@@ -3100,6 +3369,7 @@
         "index": {
           "description": "Radius of the region where the activity ocurred centered at the Geocode",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityRadius",
           "package": "googleplus",
@@ -3114,6 +3384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTitle of the activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityTitle",
           "package": "googleplus",
@@ -3124,6 +3395,7 @@
         "index": {
           "description": "Title of the activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityTitle",
           "package": "googleplus",
@@ -3138,6 +3410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL to view the Activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityURL",
           "package": "googleplus",
@@ -3148,6 +3421,7 @@
         "index": {
           "description": "URL to view the Activity",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityURL",
           "package": "googleplus",
@@ -3162,6 +3436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate updated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityUpdated",
           "package": "googleplus",
@@ -3172,6 +3447,7 @@
         "index": {
           "description": "Date updated",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityUpdated",
           "package": "googleplus",
@@ -3186,6 +3462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates what action was performed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "activityVerb",
           "package": "googleplus",
@@ -3196,6 +3473,7 @@
         "index": {
           "description": "Indicates what action was performed",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "activityVerb",
           "package": "googleplus",
@@ -3210,6 +3488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe public display name of the Actor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "actorDisplayName",
           "package": "googleplus",
@@ -3220,6 +3499,7 @@
         "index": {
           "description": "The public display name of the Actor",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "actorDisplayName",
           "package": "googleplus",
@@ -3234,6 +3514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ID of the Actor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "actorId",
           "package": "googleplus",
@@ -3244,6 +3525,7 @@
         "index": {
           "description": "The ID of the Actor",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "actorId",
           "package": "googleplus",
@@ -3258,6 +3540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData pertaining to the Actor's main profile image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "actorImage",
           "package": "googleplus",
@@ -3268,6 +3551,7 @@
         "index": {
           "description": "Data pertaining to the Actor main profile image",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "actorImage",
           "package": "googleplus",
@@ -3282,6 +3566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL of the user's profile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "actorUrl",
           "package": "googleplus",
@@ -3292,6 +3577,7 @@
         "index": {
           "description": "URL of the user profile",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "actorUrl",
           "package": "googleplus",
@@ -3306,6 +3592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSnippet of text if the Attachment is an article\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentContent",
           "package": "googleplus",
@@ -3316,6 +3603,7 @@
         "index": {
           "description": "Snippet of text if the Attachment is an article",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentContent",
           "package": "googleplus",
@@ -3330,6 +3618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTitle of the Attachment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentDisplayName",
           "package": "googleplus",
@@ -3340,6 +3629,7 @@
         "index": {
           "description": "Title of the Attachment",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentDisplayName",
           "package": "googleplus",
@@ -3354,6 +3644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbeddable link if the Attachment is a video\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentEmbed",
           "package": "googleplus",
@@ -3364,6 +3655,7 @@
         "index": {
           "description": "Embeddable link if the Attachment is video",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentEmbed",
           "package": "googleplus",
@@ -3378,6 +3670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFull image if the Attachment is a photo\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentFullImage",
           "package": "googleplus",
@@ -3388,6 +3681,7 @@
         "index": {
           "description": "Full image if the Attachment is photo",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentFullImage",
           "package": "googleplus",
@@ -3402,6 +3696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eID of the Attachment's resource\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentId",
           "package": "googleplus",
@@ -3412,6 +3707,7 @@
         "index": {
           "description": "ID of the Attachment resource",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentId",
           "package": "googleplus",
@@ -3426,6 +3722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreview image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentImage",
           "package": "googleplus",
@@ -3436,6 +3733,7 @@
         "index": {
           "description": "Preview image",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentImage",
           "package": "googleplus",
@@ -3450,6 +3748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of attachment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentType",
           "package": "googleplus",
@@ -3460,6 +3759,7 @@
         "index": {
           "description": "Type of attachment",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentType",
           "package": "googleplus",
@@ -3474,6 +3774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLin k to text/html attachment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentURL",
           "package": "googleplus",
@@ -3484,6 +3785,7 @@
         "index": {
           "description": "Lin to text html attachment",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "attachmentURL",
           "package": "googleplus",
@@ -3498,6 +3800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe activities to which this comment is a reply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "commentActivities",
           "package": "googleplus",
@@ -3508,6 +3811,7 @@
         "index": {
           "description": "The activities to which this comment is reply",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "commentActivities",
           "normalized": "[InReplyTo]",
@@ -3524,6 +3828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actor who posted the comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "commentActor",
           "package": "googleplus",
@@ -3534,6 +3839,7 @@
         "index": {
           "description": "The actor who posted the comment",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "commentActor",
           "package": "googleplus",
@@ -3548,6 +3854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eID of the comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "commentId",
           "package": "googleplus",
@@ -3558,6 +3865,7 @@
         "index": {
           "description": "ID of the comment",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "commentId",
           "package": "googleplus",
@@ -3572,6 +3880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe content of the object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "commentObject",
           "package": "googleplus",
@@ -3582,6 +3891,7 @@
         "index": {
           "description": "The content of the object",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "commentObject",
           "package": "googleplus",
@@ -3596,6 +3906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText content of the comments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "commentObjectContent",
           "package": "googleplus",
@@ -3606,6 +3917,7 @@
         "index": {
           "description": "Text content of the comments",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "commentObjectContent",
           "package": "googleplus",
@@ -3620,6 +3932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate originally published\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "commentPublished",
           "package": "googleplus",
@@ -3630,6 +3943,7 @@
         "index": {
           "description": "Date originally published",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "commentPublished",
           "package": "googleplus",
@@ -3644,6 +3958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate updated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "commentUpdated",
           "package": "googleplus",
@@ -3654,6 +3969,7 @@
         "index": {
           "description": "Date updated",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "commentUpdated",
           "package": "googleplus",
@@ -3668,6 +3984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL to the comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "commentUrl",
           "package": "googleplus",
@@ -3678,6 +3995,7 @@
         "index": {
           "description": "URL to the comment",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "commentUrl",
           "package": "googleplus",
@@ -3692,6 +4010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates what action was performed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "commentVerb",
           "package": "googleplus",
@@ -3702,6 +4021,7 @@
         "index": {
           "description": "Indicates what action was performed",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "commentVerb",
           "package": "googleplus",
@@ -3716,6 +4036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual text address of the Email\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "emailAddressValue",
           "package": "googleplus",
@@ -3726,6 +4047,7 @@
         "index": {
           "description": "The actual text address of the Email",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "emailAddressValue",
           "package": "googleplus",
@@ -3740,6 +4062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether or not the Email is the Person's primary Email\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "emailPrimary",
           "package": "googleplus",
@@ -3750,6 +4073,7 @@
         "index": {
           "description": "Whether or not the Email is the Person primary Email",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "emailPrimary",
           "package": "googleplus",
@@ -3764,6 +4088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType/context of the Email address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "emailType",
           "package": "googleplus",
@@ -3774,6 +4099,7 @@
         "index": {
           "description": "Type context of the Email address",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "emailType",
           "package": "googleplus",
@@ -3788,6 +4114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of embeddable link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "embedType",
           "package": "googleplus",
@@ -3798,6 +4125,7 @@
         "index": {
           "description": "Type of embeddable link",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "embedType",
           "package": "googleplus",
@@ -3812,6 +4140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbeddable link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "embedUrl",
           "package": "googleplus",
@@ -3822,6 +4151,7 @@
         "index": {
           "description": "Embeddable link",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "embedUrl",
           "package": "googleplus",
@@ -3835,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "familyName",
           "package": "googleplus",
@@ -3844,6 +4175,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "familyName",
           "package": "googleplus",
@@ -3858,6 +4190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFully formatted name of a Person including middle names, suffixes, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "formatted",
           "package": "googleplus",
@@ -3868,6 +4201,7 @@
         "index": {
           "description": "Fully formatted name of Person including middle names suffixes etc",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "formatted",
           "package": "googleplus",
@@ -3881,6 +4215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe given (first) name of a Person\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "givenName",
           "package": "googleplus",
@@ -3891,6 +4226,7 @@
         "index": {
           "description": "The given first name of Person",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "givenName",
           "package": "googleplus",
@@ -3905,6 +4241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix to a Person's name such as Dr. or Mrs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "honorificPrefix",
           "package": "googleplus",
@@ -3915,6 +4252,7 @@
         "index": {
           "description": "Prefix to Person name such as Dr or Mrs",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "honorificPrefix",
           "package": "googleplus",
@@ -3929,6 +4267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuffix of a Person's name such as Jr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "honorificSuffix",
           "package": "googleplus",
@@ -3939,6 +4278,7 @@
         "index": {
           "description": "Suffix of Person name such as Jr",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "honorificSuffix",
           "package": "googleplus",
@@ -3952,6 +4292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "imageHeight",
           "package": "googleplus",
@@ -3961,6 +4302,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "imageHeight",
           "package": "googleplus",
@@ -3975,6 +4317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMedia type of the link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "imageType",
           "package": "googleplus",
@@ -3985,6 +4328,7 @@
         "index": {
           "description": "Media type of the link",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "imageType",
           "package": "googleplus",
@@ -3998,6 +4342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "imageURL",
           "package": "googleplus",
@@ -4007,6 +4352,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "imageURL",
           "package": "googleplus",
@@ -4020,6 +4366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "imageWidth",
           "package": "googleplus",
@@ -4029,6 +4376,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "imageWidth",
           "package": "googleplus",
@@ -4043,6 +4391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eID of the article\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "inReplyToId",
           "package": "googleplus",
@@ -4053,6 +4402,7 @@
         "index": {
           "description": "ID of the article",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "inReplyToId",
           "package": "googleplus",
@@ -4067,6 +4417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL of the article\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "inReplyToUrl",
           "package": "googleplus",
@@ -4077,6 +4428,7 @@
         "index": {
           "description": "URL of the article",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "inReplyToUrl",
           "package": "googleplus",
@@ -4090,6 +4442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "latitude",
           "package": "googleplus",
@@ -4099,6 +4452,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "latitude",
           "package": "googleplus",
@@ -4111,6 +4465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "longitude",
           "package": "googleplus",
@@ -4120,6 +4475,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "longitude",
           "package": "googleplus",
@@ -4132,6 +4488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "middleName",
           "package": "googleplus",
@@ -4141,6 +4498,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "middleName",
           "package": "googleplus",
@@ -4155,6 +4513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDepartment of an Organization in which the Person resided\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "organizationDepartment",
           "package": "googleplus",
@@ -4165,6 +4524,7 @@
         "index": {
           "description": "Department of an Organization in which the Person resided",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "organizationDepartment",
           "package": "googleplus",
@@ -4179,6 +4539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral description of the Organization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "organizationDescription",
           "package": "googleplus",
@@ -4189,6 +4550,7 @@
         "index": {
           "description": "General description of the Organization",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "organizationDescription",
           "package": "googleplus",
@@ -4203,6 +4565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate on which the user stopped at the organization in an unspecified text format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "organizationEndDate",
           "package": "googleplus",
@@ -4213,6 +4576,7 @@
         "index": {
           "description": "Date on which the user stopped at the organization in an unspecified text format",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "organizationEndDate",
           "package": "googleplus",
@@ -4227,6 +4591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation of the Organization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "organizationLocation",
           "package": "googleplus",
@@ -4237,6 +4602,7 @@
         "index": {
           "description": "Location of the Organization",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "organizationLocation",
           "package": "googleplus",
@@ -4251,6 +4617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the Organization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "organizationName",
           "package": "googleplus",
@@ -4261,6 +4628,7 @@
         "index": {
           "description": "Name of the Organization",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "organizationName",
           "package": "googleplus",
@@ -4275,6 +4643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether or not this Organization was the Person's primary one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "organizationPrimary",
           "package": "googleplus",
@@ -4285,6 +4654,7 @@
         "index": {
           "description": "Whether or not this Organization was the Person primary one",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "organizationPrimary",
           "package": "googleplus",
@@ -4299,6 +4669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Person's role at the Organization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "organizationTitle",
           "package": "googleplus",
@@ -4309,6 +4680,7 @@
         "index": {
           "description": "The Person role at the Organization",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "organizationTitle",
           "package": "googleplus",
@@ -4323,6 +4695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of Organization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "organizationType",
           "package": "googleplus",
@@ -4333,6 +4706,7 @@
         "index": {
           "description": "The type of Organization",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "organizationType",
           "package": "googleplus",
@@ -4347,6 +4721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate on which the user started at the organization in an unspecified text format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "organizationstartDate",
           "package": "googleplus",
@@ -4357,6 +4732,7 @@
         "index": {
           "description": "Date on which the user started at the organization in an unspecified text format",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "organizationstartDate",
           "package": "googleplus",
@@ -4371,6 +4747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbout Me profile section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personAboutMe",
           "package": "googleplus",
@@ -4381,6 +4758,7 @@
         "index": {
           "description": "About Me profile section",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personAboutMe",
           "package": "googleplus",
@@ -4395,6 +4773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerson's Birthday\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personBirthday",
           "package": "googleplus",
@@ -4405,6 +4784,7 @@
         "index": {
           "description": "Person Birthday",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personBirthday",
           "package": "googleplus",
@@ -4419,6 +4799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent location of the Person\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personCurrentLocation",
           "package": "googleplus",
@@ -4429,6 +4810,7 @@
         "index": {
           "description": "Current location of the Person",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personCurrentLocation",
           "package": "googleplus",
@@ -4443,6 +4825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the Person, suitable for display\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personDisplayName",
           "package": "googleplus",
@@ -4453,6 +4836,7 @@
         "index": {
           "description": "Name of the Person suitable for display",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personDisplayName",
           "package": "googleplus",
@@ -4467,6 +4851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmail addresses that the person uses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personEmails",
           "package": "googleplus",
@@ -4477,6 +4862,7 @@
         "index": {
           "description": "Email addresses that the person uses",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personEmails",
           "normalized": "[Email]",
@@ -4493,6 +4879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerson's gender\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personGender",
           "package": "googleplus",
@@ -4503,6 +4890,7 @@
         "index": {
           "description": "Person gender",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personGender",
           "package": "googleplus",
@@ -4516,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personHasApp",
           "package": "googleplus",
@@ -4525,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personHasApp",
           "package": "googleplus",
@@ -4539,6 +4929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eId of the Person\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personId",
           "package": "googleplus",
@@ -4549,6 +4940,7 @@
         "index": {
           "description": "Id of the Person",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personId",
           "package": "googleplus",
@@ -4563,6 +4955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProfile image for the Person\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personImage",
           "package": "googleplus",
@@ -4573,6 +4966,7 @@
         "index": {
           "description": "Profile image for the Person",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personImage",
           "package": "googleplus",
@@ -4587,6 +4981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguages the Person speaks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personLanguagesSpoken",
           "package": "googleplus",
@@ -4597,6 +4992,7 @@
         "index": {
           "description": "Languages the Person speaks",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personLanguagesSpoken",
           "normalized": "[Language]",
@@ -4613,6 +5009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerson's actual, full name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personName",
           "package": "googleplus",
@@ -4623,6 +5020,7 @@
         "index": {
           "description": "Person actual full name",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personName",
           "package": "googleplus",
@@ -4637,6 +5035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional nickname of the Person\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personNickName",
           "package": "googleplus",
@@ -4647,6 +5046,7 @@
         "index": {
           "description": "Optional nickname of the Person",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personNickName",
           "package": "googleplus",
@@ -4661,6 +5061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrganizations that the Person has belonged to, past and present\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personOrganizations",
           "package": "googleplus",
@@ -4671,6 +5072,7 @@
         "index": {
           "description": "Organizations that the Person has belonged to past and present",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personOrganizations",
           "normalized": "[Organization]",
@@ -4687,6 +5089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlaces in which the Person has lived\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personPlacesLived",
           "package": "googleplus",
@@ -4697,6 +5100,7 @@
         "index": {
           "description": "Places in which the Person has lived",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personPlacesLived",
           "normalized": "[Place]",
@@ -4713,6 +5117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL to the person's profile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personProfileURL",
           "package": "googleplus",
@@ -4723,6 +5128,7 @@
         "index": {
           "description": "URL to the person profile",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personProfileURL",
           "package": "googleplus",
@@ -4737,6 +5143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerson's current relationship status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personRelationshipStatus",
           "package": "googleplus",
@@ -4747,6 +5154,7 @@
         "index": {
           "description": "Person current relationship status",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personRelationshipStatus",
           "package": "googleplus",
@@ -4761,6 +5169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the Person, suitable for display\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personSRDisplayName",
           "package": "googleplus",
@@ -4771,6 +5180,7 @@
         "index": {
           "description": "Name of the Person suitable for display",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personSRDisplayName",
           "package": "googleplus",
@@ -4785,6 +5195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eId of the Person\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personSRId",
           "package": "googleplus",
@@ -4795,6 +5206,7 @@
         "index": {
           "description": "Id of the Person",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personSRId",
           "package": "googleplus",
@@ -4809,6 +5221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProfile image for the Person\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personSRImage",
           "package": "googleplus",
@@ -4819,6 +5232,7 @@
         "index": {
           "description": "Profile image for the Person",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personSRImage",
           "package": "googleplus",
@@ -4833,6 +5247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL to the person's profile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personSRProfileURL",
           "package": "googleplus",
@@ -4843,6 +5258,7 @@
         "index": {
           "description": "URL to the person profile",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personSRProfileURL",
           "package": "googleplus",
@@ -4857,6 +5273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrief description of the Person\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personTagline",
           "package": "googleplus",
@@ -4867,6 +5284,7 @@
         "index": {
           "description": "Brief description of the Person",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personTagline",
           "package": "googleplus",
@@ -4881,6 +5299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActual text URl for the Person\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personURLValue",
           "package": "googleplus",
@@ -4891,6 +5310,7 @@
         "index": {
           "description": "Actual text URl for the Person",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personURLValue",
           "package": "googleplus",
@@ -4905,6 +5325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal URLs on the Person's profile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personURLs",
           "package": "googleplus",
@@ -4915,6 +5336,7 @@
         "index": {
           "description": "External URLs on the Person profile",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personURLs",
           "normalized": "[PersonURL]",
@@ -4931,6 +5353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether or not the URL is the Person's primary URl\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personUrlPrimary",
           "package": "googleplus",
@@ -4941,6 +5364,7 @@
         "index": {
           "description": "Whether or not the URL is the Person primary URl",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personUrlPrimary",
           "package": "googleplus",
@@ -4955,6 +5379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "personUrlType",
           "package": "googleplus",
@@ -4965,6 +5390,7 @@
         "index": {
           "description": "Type of URL",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "personUrlType",
           "package": "googleplus",
@@ -4979,6 +5405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether or not this is/was the Person's primary residence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "placePrimary",
           "package": "googleplus",
@@ -4989,6 +5416,7 @@
         "index": {
           "description": "Whether or not this is was the Person primary residence",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "placePrimary",
           "package": "googleplus",
@@ -5003,6 +5431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText description of the Place\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "placeValue",
           "package": "googleplus",
@@ -5013,6 +5442,7 @@
         "index": {
           "description": "Text description of the Place",
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "placeValue",
           "package": "googleplus",
@@ -5026,6 +5456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus.Types",
           "name": "providerTitle",
           "package": "googleplus",
@@ -5035,6 +5466,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus Types",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus.Types",
           "name": "providerTitle",
           "package": "googleplus",
@@ -5049,6 +5481,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eToplevel module for the Google+ API operating in the GooglePlusM Monad. \n Currently covers the (very) limited, read-only API that Google has exposed\n in v1 of the Google+ API\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n import Web.GooglePlus\n import Web.GooglePlus.Monad\n import Web.GooglePlus.Types\n import Control.Monad.Reader\n import Data.Text (unpack)\n \n doStuff :: GooglePlusM ()\n doStuff = do\n   Right person \u003c- getPerson Me\n   Right feed   \u003c- getLatestActivityFeed Me PublicCollection\n   -- ...\n   return ()\n \n main :: IO ()\n main = do\n   runReaderT (unGooglePlusM doStuff) env\n   where env  = GooglePlusEnv { gpAuth = APIKey \"MYKEY\" }\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "GooglePlus",
           "package": "googleplus",
@@ -5058,6 +5491,7 @@
         "index": {
           "description": "Toplevel module for the Google API operating in the GooglePlusM Monad Currently covers the very limited read-only API that Google has exposed in v1 of the Google API LANGUAGE OverloadedStrings import Web.GooglePlus import Web.GooglePlus.Monad import Web.GooglePlus.Types import Control.Monad.Reader import Data.Text unpack doStuff GooglePlusM doStuff do Right person getPerson Me Right feed getLatestActivityFeed Me PublicCollection return main IO main do runReaderT unGooglePlusM doStuff env where env GooglePlusEnv gpAuth APIKey MYKEY",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "GooglePlus",
           "package": "googleplus",
@@ -5072,6 +5506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the type of Activities to get in an Activity listing. Currently\n the API only allows public.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "ActivityCollection",
           "package": "googleplus",
@@ -5081,6 +5516,7 @@
         "index": {
           "description": "Specifies the type of Activities to get in an Activity listing Currently the API only allows public",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "ActivityCollection",
           "package": "googleplus",
@@ -5094,6 +5530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "ListByActivityCollection",
           "package": "googleplus",
@@ -5102,6 +5539,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "ListByActivityCollection",
           "package": "googleplus",
@@ -5115,6 +5553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "SearchOrderBy",
           "package": "googleplus",
@@ -5123,6 +5562,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "SearchOrderBy",
           "package": "googleplus",
@@ -5137,6 +5577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort by relevance to the to the user, most relevant first\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "Best",
           "package": "googleplus",
@@ -5147,6 +5588,7 @@
         "index": {
           "description": "Sort by relevance to the to the user most relevant first",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "Best",
           "package": "googleplus",
@@ -5161,6 +5603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of people who have +1ed an activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "PlusOners",
           "package": "googleplus",
@@ -5171,6 +5614,7 @@
         "index": {
           "description": "List of people who have ed an activity",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "PlusOners",
           "package": "googleplus",
@@ -5184,6 +5628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "PublicCollection",
           "package": "googleplus",
@@ -5193,6 +5638,7 @@
         },
         "index": {
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "PublicCollection",
           "package": "googleplus",
@@ -5207,6 +5653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort by most recent results first\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "Recent",
           "package": "googleplus",
@@ -5217,6 +5664,7 @@
         "index": {
           "description": "Sort by most recent results first",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "Recent",
           "package": "googleplus",
@@ -5231,6 +5679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of people who have reshared an activity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "Resharers",
           "package": "googleplus",
@@ -5241,6 +5690,7 @@
         "index": {
           "description": "List of people who have reshared an activity",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "Resharers",
           "package": "googleplus",
@@ -5255,6 +5705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePaginating enumerator yielding a Chunk for each page. Use this if you\n don't need the feed metadata that enumActivityFeed provides.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "enumActivities",
           "package": "googleplus",
@@ -5264,6 +5715,7 @@
         "index": {
           "description": "Paginating enumerator yielding Chunk for each page Use this if you don need the feed metadata that enumActivityFeed provides",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "enumActivities",
           "normalized": "PersonID-\u003eActivityCollection-\u003eMaybe Integer-\u003eEnumerator Activity GooglePlusM a",
@@ -5280,6 +5732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePaginating enumerator to consume a user's activity stream. Each chunk will\n end up being an array with a single ActivityFeed in it with 1 page of data\n in it. This weirdness about the chunks only containing 1 element is mostly\n to maintain the metadata available on ActivityFeed and have it available in\n each chunk. For a more natural chunking of just Activities if you don't need\n that additional metadata, see enumActivities. Note that this Enumerator will\n abort if it encounters an error from the server, thus cutting the list\n short.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "enumActivityFeed",
           "package": "googleplus",
@@ -5289,6 +5742,7 @@
         "index": {
           "description": "Paginating enumerator to consume user activity stream Each chunk will end up being an array with single ActivityFeed in it with page of data in it This weirdness about the chunks only containing element is mostly to maintain the metadata available on ActivityFeed and have it available in each chunk For more natural chunking of just Activities if you don need that additional metadata see enumActivities Note that this Enumerator will abort if it encounters an error from the server thus cutting the list short",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "enumActivityFeed",
           "normalized": "PersonID-\u003eActivityCollection-\u003eMaybe Integer-\u003eEnumerator ActivityFeed GooglePlusM a",
@@ -5305,6 +5759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for an activity on Google+. Paginating enumerator yielding a Chunk\n for each page. Note that this Enumerator will abort if it encounters an error\n from the server, thus cutting the list short.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "enumActivitySearch",
           "package": "googleplus",
@@ -5314,6 +5769,7 @@
         "index": {
           "description": "Search for an activity on Google Paginating enumerator yielding Chunk for each page Note that this Enumerator will abort if it encounters an error from the server thus cutting the list short",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "enumActivitySearch",
           "normalized": "Text-\u003eSearchOrderBy-\u003eMaybe Integer-\u003eEnumerator Activity GooglePlusM a",
@@ -5330,6 +5786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind comments for an activity on Google+. Paginating enumerator yielding a\n Chunk for each page. Note that this Enumerator will abort if it encounters\n an error from the server, thus cutting the list short.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "enumComments",
           "package": "googleplus",
@@ -5339,6 +5796,7 @@
         "index": {
           "description": "Find comments for an activity on Google Paginating enumerator yielding Chunk for each page Note that this Enumerator will abort if it encounters an error from the server thus cutting the list short",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "enumComments",
           "normalized": "ID-\u003eMaybe Integer-\u003eEnumerator Comment GooglePlusM a",
@@ -5355,6 +5813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind people associated with a particular Activity. Paginating enumerator\n yielding a Chunk for each page. Paginating enumerator yielding a Chunk for\n each page. Note that this Enumerator will abort if it encounters an error\n from the server, thus cutting the list short.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "enumPeopleByActivity",
           "package": "googleplus",
@@ -5364,6 +5823,7 @@
         "index": {
           "description": "Find people associated with particular Activity Paginating enumerator yielding Chunk for each page Paginating enumerator yielding Chunk for each page Note that this Enumerator will abort if it encounters an error from the server thus cutting the list short",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "enumPeopleByActivity",
           "normalized": "ID-\u003eListByActivityCollection-\u003eMaybe Integer-\u003eEnumerator Person GooglePlusM a",
@@ -5380,6 +5840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for a member of Google+. Paginating enumerator yielding a Chunk for\n each page. Note that this Enumerator will abort if it encounters an error\n from the server, thus cutting the list short.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "enumPersonSearch",
           "package": "googleplus",
@@ -5389,6 +5850,7 @@
         "index": {
           "description": "Search for member of Google Paginating enumerator yielding Chunk for each page Note that this Enumerator will abort if it encounters an error from the server thus cutting the list short",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "enumPersonSearch",
           "normalized": "Text-\u003eMaybe Integer-\u003eEnumerator PersonSearchResult GooglePlusM a",
@@ -5405,6 +5867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplified version of enumActivities that fetches all the activitys of a\n Person first, thus returning them. Note that this should incur 1 API call\n per page of results, so the max page size of 100 is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "getActivities",
           "package": "googleplus",
@@ -5414,6 +5877,7 @@
         "index": {
           "description": "Simplified version of enumActivities that fetches all the activitys of Person first thus returning them Note that this should incur API call per page of results so the max page size of is used",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "getActivities",
           "normalized": "PersonID-\u003eActivityCollection-\u003eGooglePlusM[Activity]",
@@ -5430,6 +5894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an activity which matches the given activity ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "getActivity",
           "package": "googleplus",
@@ -5439,6 +5904,7 @@
         "index": {
           "description": "Get an activity which matches the given activity ID",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "getActivity",
           "normalized": "ID-\u003eGooglePlusM(Either Text Activity)",
@@ -5455,6 +5921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplified version of enumActivityFeed which retrieves all pages of an\n activity feed and merges them into one. Note that this will not be as\n efficient as enumActivityFeed in terms of memory/time because it collects\n them all in memory first. Note that this should incur 1 API call per page of\n results, so the max page size of 100 is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "getActivityFeed",
           "package": "googleplus",
@@ -5465,6 +5932,7 @@
         "index": {
           "description": "Simplified version of enumActivityFeed which retrieves all pages of an activity feed and merges them into one Note that this will not be as efficient as enumActivityFeed in terms of memory time because it collects them all in memory first Note that this should incur API call per page of results so the max page size of is used",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "getActivityFeed",
           "normalized": "PersonID-\u003eActivityCollection-\u003eGooglePlusM ActivityFeed",
@@ -5481,6 +5949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the full result set for an activity search given a search string.\n This interface is simpler to use but does not have the flexibility/memory\n usage benefit of enumActivitySearch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "getActivitySearch",
           "package": "googleplus",
@@ -5490,6 +5959,7 @@
         "index": {
           "description": "Returns the full result set for an activity search given search string This interface is simpler to use but does not have the flexibility memory usage benefit of enumActivitySearch",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "getActivitySearch",
           "normalized": "Text-\u003eSearchOrderBy-\u003eGooglePlusM[Activity]",
@@ -5506,6 +5976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a comment which matches the given comment ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "getComment",
           "package": "googleplus",
@@ -5515,6 +5986,7 @@
         "index": {
           "description": "Get comment which matches the given comment ID",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "getComment",
           "normalized": "ID-\u003eGooglePlusM(Either Text Comment)",
@@ -5531,6 +6003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the full result set for an activity's comments. This interface is\n simpler to use but does not have the flexibility/memory usage benefit of\n enumComments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "getComments",
           "package": "googleplus",
@@ -5540,6 +6013,7 @@
         "index": {
           "description": "Returns the full result set for an activity comments This interface is simpler to use but does not have the flexibility memory usage benefit of enumComments",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "getComments",
           "normalized": "ID-\u003eGooglePlusM[Comment]",
@@ -5556,6 +6030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an activity who matches the given activity ID and collection to use.\n Default page size is (20) and only fetches the first page.\n You will receive an error from the server if the page size exceeds 100.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "getLatestActivityFeed",
           "package": "googleplus",
@@ -5565,6 +6040,7 @@
         "index": {
           "description": "Get an activity who matches the given activity ID and collection to use Default page size is and only fetches the first page You will receive an error from the server if the page size exceeds",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "getLatestActivityFeed",
           "normalized": "PersonID-\u003eActivityCollection-\u003eMaybe Integer-\u003eGooglePlusM(Either Text ActivityFeed)",
@@ -5581,6 +6057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the full result set for a person search given a search string.\n This interface is simpler to use but does not have the flexibility/memory\n usage benefit of enumPeopleByActivity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "getPeopleByActivity",
           "package": "googleplus",
@@ -5590,6 +6067,7 @@
         "index": {
           "description": "Returns the full result set for person search given search string This interface is simpler to use but does not have the flexibility memory usage benefit of enumPeopleByActivity",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "getPeopleByActivity",
           "normalized": "ID-\u003eListByActivityCollection-\u003eGooglePlusM[Person]",
@@ -5606,6 +6084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a person who matches the given identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "getPerson",
           "package": "googleplus",
@@ -5615,6 +6094,7 @@
         "index": {
           "description": "Get person who matches the given identifier",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "getPerson",
           "normalized": "PersonID-\u003eGooglePlusM(Either Text Person)",
@@ -5631,6 +6111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the full result set for a person search given a search string.\n This interface is simpler to use but does not have the flexibility/memory\n usage benefit of enumPersonSearch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:18 UTC 2014",
           "module": "Web.GooglePlus",
           "name": "getPersonSearch",
           "package": "googleplus",
@@ -5640,6 +6121,7 @@
         "index": {
           "description": "Returns the full result set for person search given search string This interface is simpler to use but does not have the flexibility memory usage benefit of enumPersonSearch",
           "hierarchy": "Web GooglePlus",
+          "indexed": "2014-03-11T18:19:18",
           "module": "Web.GooglePlus",
           "name": "getPersonSearch",
           "normalized": "Text-\u003eGooglePlusM[PersonSearchResult]",

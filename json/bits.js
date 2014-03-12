@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bits"
+        "phrase": "bits",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Coding",
           "name": "Coding",
           "package": "bits",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Bits Coding",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Coding",
           "name": "Coding",
           "package": "bits",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Coding",
           "name": "Coding",
           "package": "bits",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Bits Coding",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Coding",
           "name": "Coding",
           "package": "bits",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Coding",
           "name": "Coding",
           "package": "bits",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Bits Coding",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Coding",
           "name": "Coding",
           "package": "bits",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eGet\u003c/code\u003e something from byte-aligned storage, starting on the next byte\n and discarding any left over bits in the buffer.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNB:\u003c/em\u003e Using any operation from \u003ccode\u003e\u003ca\u003eMonadGet\u003c/a\u003e\u003c/code\u003e other than checking \u003ccode\u003e\u003ca\u003eremaining\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eisEmpty\u003c/a\u003e\u003c/code\u003e will implicitly perform this operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Coding",
           "name": "getAligned",
           "package": "bits",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Get something from byte-aligned storage starting on the next byte and discarding any left over bits in the buffer NB Using any operation from MonadGet other than checking remaining or isEmpty will implicitly perform this operation",
           "hierarchy": "Data Bits Coding",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Coding",
           "name": "getAligned",
           "normalized": "a b-\u003eCoding a b",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eGet\u003c/code\u003e a single bit, consuming an entire \u003ccode\u003ebyte\u003c/code\u003e if the bit buffer is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Coding",
           "name": "getBit",
           "package": "bits",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Get single bit consuming an entire byte if the bit buffer is empty",
           "hierarchy": "Data Bits Coding",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Coding",
           "name": "getBit",
           "package": "bits",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit any remaining contents from the bit buffer.\n\u003c/p\u003e\u003cp\u003eAny use of the combinators from \u003ccode\u003e\u003ca\u003eMonadPut\u003c/a\u003e\u003c/code\u003e (including \u003ccode\u003e\u003ca\u003eflush\u003c/a\u003e\u003c/code\u003e) will cause\n this to happen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Coding",
           "name": "putAligned",
           "package": "bits",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Emit any remaining contents from the bit buffer Any use of the combinators from MonadPut including flush will cause this to happen",
           "hierarchy": "Data Bits Coding",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Coding",
           "name": "putAligned",
           "normalized": "a b-\u003eCoding a b",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePut\u003c/code\u003e a single bit, emitting an entire \u003ccode\u003ebyte\u003c/code\u003e if the bit buffer is full\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Coding",
           "name": "putBit",
           "package": "bits",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Put single bit emitting an entire byte if the bit buffer is full",
           "hierarchy": "Data Bits Coding",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Coding",
           "name": "putBit",
           "normalized": "Bool-\u003eCoding a()",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Coding",
           "name": "runCoding",
           "package": "bits",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Data Bits Coding",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Coding",
           "name": "runCoding",
           "normalized": "a b(c-\u003eInt-\u003eWord-\u003ed e)-\u003eInt-\u003eWord-\u003ed e",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCalculate a number of fiddly bit operations using fast de Bruijn\n multiplication tables.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Extras",
           "name": "Extras",
           "package": "bits",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Calculate number of fiddly bit operations using fast de Bruijn multiplication tables",
           "hierarchy": "Data Bits Extras",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Extras",
           "name": "Extras",
           "package": "bits",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Extras",
           "name": "Ranked",
           "package": "bits",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Data Bits Extras",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Extras",
           "name": "Ranked",
           "package": "bits",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Extras",
           "name": "log2",
           "package": "bits",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data Bits Extras",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Extras",
           "name": "log2",
           "normalized": "Word-\u003eInt",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the least significant set bit using a debruijn multiplication table.\n \u003cem\u003eNB:\u003c/em\u003e The result of this function is undefined when given 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Extras",
           "name": "lsb",
           "package": "bits",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Calculate the least significant set bit using debruijn multiplication table NB The result of this function is undefined when given",
           "hierarchy": "Data Bits Extras",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Extras",
           "name": "lsb",
           "normalized": "a-\u003eInt",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the number of leading zeros.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Extras",
           "name": "nlz",
           "package": "bits",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Calculate the number of leading zeros",
           "hierarchy": "Data Bits Extras",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Extras",
           "name": "nlz",
           "normalized": "a-\u003eInt",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the number of trailing 0 bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Extras",
           "name": "rank",
           "package": "bits",
@@ -336,6 +363,7 @@
         "index": {
           "description": "Calculate the number of trailing bits",
           "hierarchy": "Data Bits Extras",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Extras",
           "name": "rank",
           "normalized": "a-\u003eInt",
@@ -350,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Extras",
           "name": "w16",
           "package": "bits",
@@ -359,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Data Bits Extras",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Extras",
           "name": "w16",
           "normalized": "a-\u003eWord",
@@ -373,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Extras",
           "name": "w32",
           "package": "bits",
@@ -382,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Data Bits Extras",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Extras",
           "name": "w32",
           "normalized": "a-\u003eWord",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Extras",
           "name": "w64",
           "package": "bits",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Data Bits Extras",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Extras",
           "name": "w64",
           "normalized": "a-\u003eWord",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:49 UTC 2014",
           "module": "Data.Bits.Extras",
           "name": "w8",
           "package": "bits",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Data Bits Extras",
+          "indexed": "2014-03-11T17:22:49",
           "module": "Data.Bits.Extras",
           "name": "w8",
           "normalized": "a-\u003eWord",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regular-extras"
+        "phrase": "regular-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Generic \u003ca\u003eTest.QuickCheck\u003c/a\u003e instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "Arbitrary",
           "package": "regular-extras",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Summary Generic Test.QuickCheck instances",
           "hierarchy": "Generics Regular Functions Arbitrary",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "Arbitrary",
           "package": "regular-extras",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric Arbitrary class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "Arbitrary",
           "package": "regular-extras",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Generic Arbitrary class",
           "hierarchy": "Generics Regular Functions Arbitrary",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "Arbitrary",
           "package": "regular-extras",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric CoArbitrary class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "CoArbitrary",
           "package": "regular-extras",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Generic CoArbitrary class",
           "hierarchy": "Generics Regular Functions Arbitrary",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "CoArbitrary",
           "package": "regular-extras",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA frequency table detailing how often certain constructors should be\n picked. The \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e corresponds to the constructor name, as returned by\n \u003ccode\u003e\u003ca\u003econNames\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "FrequencyTable",
           "package": "regular-extras",
@@ -97,6 +104,7 @@
         "index": {
           "description": "frequency table detailing how often certain constructors should be picked The String corresponds to the constructor name as returned by conNames",
           "hierarchy": "Generics Regular Functions Arbitrary",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "FrequencyTable",
           "package": "regular-extras",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric arbitrary function with default sizes and constructor frequencies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "arbitrary",
           "package": "regular-extras",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Generic arbitrary function with default sizes and constructor frequencies",
           "hierarchy": "Generics Regular Functions Arbitrary",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "arbitrary",
           "package": "regular-extras",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric arbitrary function, sized and with custom constructor frequencies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "arbitraryWith",
           "package": "regular-extras",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Generic arbitrary function sized and with custom constructor frequencies",
           "hierarchy": "Generics Regular Functions Arbitrary",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "arbitraryWith",
           "normalized": "FrequencyTable-\u003eInt-\u003eGen a",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric coarbitrary function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "corbitrary",
           "package": "regular-extras",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Generic coarbitrary function",
           "hierarchy": "Generics Regular Functions Arbitrary",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "corbitrary",
           "normalized": "a-\u003eGen b-\u003eGen b",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "harbitrary",
           "package": "regular-extras",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Functions Arbitrary",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "harbitrary",
           "normalized": "(Int-\u003eGen a)-\u003eFrequencyTable-\u003eInt-\u003eInt-\u003eMaybe(Gen(b a))",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "hcoarbitrary",
           "package": "regular-extras",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Functions Arbitrary",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Arbitrary",
           "name": "hcoarbitrary",
           "normalized": "(a-\u003eGen b-\u003eGen b)-\u003eInt-\u003ec a-\u003eGen b-\u003eGen b",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric Data.Binary instances.\n\u003c/p\u003e\u003cp\u003eThese generic functions can be used to create a \u003ca\u003eData.Binary\u003c/a\u003e instance. For\n example, for a user-defined type \u003ccode\u003eMyType\u003c/code\u003e, the following code is necessary:\n\u003c/p\u003e\u003cpre\u003e import Data.Binary\n import Generics.Regular.Base\n import Generics.Regular.Binary\n\n data MyType = ...\n\n $(deriveAll ''MyType \"PFMyType\")\n type instance PF MyType = PFMyType\n\n instance Binary MyType where\n   put = gput\n   get = gget\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Binary",
           "name": "Binary",
           "package": "regular-extras",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Generic Data.Binary instances These generic functions can be used to create Data.Binary instance For example for user-defined type MyType the following code is necessary import Data.Binary import Generics.Regular.Base import Generics.Regular.Binary data MyType deriveAll MyType PFMyType type instance PF MyType PFMyType instance Binary MyType where put gput get gget",
           "hierarchy": "Generics Regular Functions Binary",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Binary",
           "name": "Binary",
           "package": "regular-extras",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Binary",
           "name": "Binary",
           "package": "regular-extras",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Functions Binary",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Binary",
           "name": "Binary",
           "package": "regular-extras",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric binary \u003ccode\u003eget\u003c/code\u003e to be used with \u003ca\u003eData.Binary.Get\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Binary",
           "name": "gget",
           "package": "regular-extras",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Generic binary get to be used with Data.Binary.Get",
           "hierarchy": "Generics Regular Functions Binary",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Binary",
           "name": "gget",
           "package": "regular-extras",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric binary \u003ccode\u003eput\u003c/code\u003e to be used with \u003ca\u003eData.Binary.Put\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Binary",
           "name": "gput",
           "package": "regular-extras",
@@ -308,6 +333,7 @@
         "index": {
           "description": "Generic binary put to be used with Data.Binary.Put",
           "hierarchy": "Generics Regular Functions Binary",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Binary",
           "name": "gput",
           "normalized": "a-\u003ePut",
@@ -323,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Deep generic seq. Used to fully evaluate a term.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Seq",
           "name": "Seq",
           "package": "regular-extras",
@@ -332,6 +359,7 @@
         "index": {
           "description": "Summary Deep generic seq Used to fully evaluate term",
           "hierarchy": "Generics Regular Functions Seq",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Seq",
           "name": "Seq",
           "package": "regular-extras",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class for generic deep seq.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Seq",
           "name": "Seq",
           "package": "regular-extras",
@@ -355,6 +384,7 @@
         "index": {
           "description": "The class for generic deep seq",
           "hierarchy": "Generics Regular Functions Seq",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Seq",
           "name": "Seq",
           "package": "regular-extras",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeep, generic version of seq.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Seq",
           "name": "gdseq",
           "package": "regular-extras",
@@ -379,6 +410,7 @@
         "index": {
           "description": "Deep generic version of seq",
           "hierarchy": "Generics Regular Functions Seq",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Seq",
           "name": "gdseq",
           "normalized": "a-\u003eb-\u003eb",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:16 UTC 2014",
           "module": "Generics.Regular.Functions.Seq",
           "name": "gseq",
           "package": "regular-extras",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Functions Seq",
+          "indexed": "2014-03-11T19:52:16",
           "module": "Generics.Regular.Functions.Seq",
           "name": "gseq",
           "normalized": "(a-\u003eb-\u003eb)-\u003ec a-\u003eb-\u003eb",

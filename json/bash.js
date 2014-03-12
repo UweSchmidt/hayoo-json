@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bash"
+        "phrase": "bash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome convenient annotations for Bash scripts, provided with example\n    pretty printer typeclass instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Annotations",
           "name": "Annotations",
           "package": "bash",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Some convenient annotations for Bash scripts provided with example pretty printer typeclass instances",
           "hierarchy": "Language Bash Annotations",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Annotations",
           "name": "Annotations",
           "package": "bash",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend some raw lines, in flow, above and below a statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Annotations",
           "name": "Lines",
           "package": "bash",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Append some raw lines in flow above and below statement",
           "hierarchy": "Language Bash Annotations",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Annotations",
           "name": "Lines",
           "package": "bash",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate a statement with statements of different types, with special\n    rules for empty \u003ccode\u003e\u003ca\u003eNoOp\u003c/a\u003e\u003c/code\u003e statements -- as long as the \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n    \"comment\" in the \u003ccode\u003e\u003ca\u003eNoOp\u003c/a\u003e\u003c/code\u003e is empty, the \u003ccode\u003e\u003ca\u003eNoOp\u003c/a\u003e\u003c/code\u003e is simply elided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Annotations",
           "name": "Statements",
           "package": "bash",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Annotate statement with statements of different types with special rules for empty NoOp statements as long as the ByteString comment in the NoOp is empty the NoOp is simply elided",
           "hierarchy": "Language Bash Annotations",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Annotations",
           "name": "Statements",
           "package": "bash",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Annotations",
           "name": "Lines",
           "package": "bash",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Annotations",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Annotations",
           "name": "Lines",
           "normalized": "Lines[ByteString][ByteString]",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Annotations",
           "name": "Statements",
           "package": "bash",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Annotations",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Annotations",
           "name": "Statements",
           "package": "bash",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eShortcuts for Bash generation that also demonstrate use of the library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Lib",
           "name": "Lib",
           "package": "bash",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Shortcuts for Bash generation that also demonstrate use of the library",
           "hierarchy": "Language Bash Lib",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Lib",
           "name": "Lib",
           "package": "bash",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate a statement with the 0 value of a monoid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Lib",
           "name": "ann_",
           "package": "bash",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Annotate statement with the value of monoid",
           "hierarchy": "Language Bash Lib",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Lib",
           "name": "ann_",
           "normalized": "Statement a-\u003eAnnotated a",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a simple command from expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Lib",
           "name": "cmd",
           "package": "bash",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Create simple command from expressions",
           "hierarchy": "Language Bash Lib",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Lib",
           "name": "cmd",
           "normalized": "Expression a-\u003e[Expression a]-\u003eStatement a",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA statement that allows one to redirect output to a file as root. This is\n    what you might expect \u003ccode\u003esudo echo x \u003e privileged_file\u003c/code\u003e would do (though\n    that does not actually work).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Lib",
           "name": "dev_null",
           "package": "bash",
@@ -217,6 +234,7 @@
         "index": {
           "description": "statement that allows one to redirect output to file as root This is what you might expect sudo echo privileged file would do though that does not actually work",
           "hierarchy": "Language Bash Lib",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Lib",
           "name": "dev_null",
           "normalized": "Statement a-\u003eStatement a",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclare or assign an array to a \u003ccode\u003esed\u003c/code\u003e command line that will use extended\n    regular expressions, checking for GNU or BSD \u003ccode\u003esed\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e argument\n    determines whether to insert the declaration or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Lib",
           "name": "esed",
           "package": "bash",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Declare or assign an array to sed command line that will use extended regular expressions checking for GNU or BSD sed The Bool argument determines whether to insert the declaration or not",
           "hierarchy": "Language Bash Lib",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Lib",
           "name": "esed",
           "normalized": "Identifier-\u003eAnnotated a",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a statement for integer values ranging from the first integral\n    parameter to the second, using \u003ccode\u003eseq\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Lib",
           "name": "for",
           "package": "bash",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Perform statement for integer values ranging from the first integral parameter to the second using seq",
           "hierarchy": "Language Bash Lib",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Lib",
           "name": "for",
           "normalized": "Identifier-\u003ea-\u003ea-\u003eAnnotated b-\u003eStatement b",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate \u003ccode\u003eseq\u003c/code\u003e for the given arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Lib",
           "name": "seqAZ",
           "package": "bash",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Evaluate seq for the given arguments",
           "hierarchy": "Language Bash Lib",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Lib",
           "name": "seqAZ",
           "normalized": "a-\u003ea-\u003eStatement b",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set statement that covers a few error handling options, setting\n    \u003ccode\u003eerrexit\u003c/code\u003e, \u003ccode\u003enounset\u003c/code\u003e and \u003ccode\u003epipefail\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Lib",
           "name": "setSafe",
           "package": "bash",
@@ -318,6 +343,7 @@
         "index": {
           "description": "set statement that covers few error handling options setting errexit nounset and pipefail",
           "hierarchy": "Language Bash Lib",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Lib",
           "name": "setSafe",
           "package": "bash",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA statement that allows one to redirect output to a file as root. This is\n    what you might expect \u003ccode\u003esudo echo x \u003e privileged_file\u003c/code\u003e would do (though\n    that does not actually work).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Lib",
           "name": "sudo_write",
           "package": "bash",
@@ -342,6 +369,7 @@
         "index": {
           "description": "statement that allows one to redirect output to file as root This is what you might expect sudo echo privileged file would do though that does not actually work",
           "hierarchy": "Language Bash Lib",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Lib",
           "name": "sudo_write",
           "normalized": "Expression a-\u003eStatement a",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printer state, used within a state monad computation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "State",
           "package": "bash",
@@ -366,6 +395,7 @@
         "index": {
           "description": "Pretty printer state used within state monad computation",
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "State",
           "package": "bash",
@@ -380,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperations we can perform while pretty printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "PPOp",
           "package": "bash",
@@ -389,6 +420,7 @@
         "index": {
           "description": "Operations we can perform while pretty printing",
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "PPOp",
           "package": "bash",
@@ -403,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState of pretty printing -- string being built, indent levels, present\n    column, brace nesting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "PPState",
           "package": "bash",
@@ -412,6 +445,7 @@
         "index": {
           "description": "State of pretty printing string being built indent levels present column brace nesting",
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "PPState",
           "package": "bash",
@@ -426,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd bytes to the script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "Bytes",
           "package": "bash",
@@ -436,6 +471,7 @@
         "index": {
           "description": "Add bytes to the script",
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "Bytes",
           "package": "bash",
@@ -450,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduce a level of braces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "Curly",
           "package": "bash",
@@ -460,6 +497,7 @@
         "index": {
           "description": "Introduce level of braces",
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "Curly",
           "package": "bash",
@@ -474,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndent by N spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "Indent",
           "package": "bash",
@@ -484,6 +523,7 @@
         "index": {
           "description": "Indent by spaces",
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "Indent",
           "package": "bash",
@@ -498,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove to newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "Newline",
           "package": "bash",
@@ -508,6 +549,7 @@
         "index": {
           "description": "Move to newline",
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "Newline",
           "package": "bash",
@@ -522,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove an indentation level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "Outdent",
           "package": "bash",
@@ -532,6 +575,7 @@
         "index": {
           "description": "Remove an indentation level",
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "Outdent",
           "package": "bash",
@@ -545,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "PPState",
           "package": "bash",
@@ -554,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "PPState",
           "package": "bash",
@@ -568,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduce a level of parens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "Round",
           "package": "bash",
@@ -578,6 +625,7 @@
         "index": {
           "description": "Introduce level of parens",
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "Round",
           "package": "bash",
@@ -592,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparate words with space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "WordSeparator",
           "package": "bash",
@@ -602,6 +651,7 @@
         "index": {
           "description": "Separate words with space",
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "WordSeparator",
           "package": "bash",
@@ -615,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "cast",
           "package": "bash",
@@ -624,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "cast",
           "normalized": "a-\u003eb",
@@ -638,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "columns",
           "package": "bash",
@@ -647,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "columns",
           "package": "bash",
@@ -659,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "curly",
           "package": "bash",
@@ -668,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "curly",
           "normalized": "[()]",
@@ -682,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "curlyClose",
           "package": "bash",
@@ -691,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "curlyClose",
           "normalized": "State PPState()",
@@ -706,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "curlyOpen",
           "package": "bash",
@@ -715,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "curlyOpen",
           "normalized": "State PPState()",
@@ -730,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "hang",
           "package": "bash",
@@ -739,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "hang",
           "normalized": "ByteString-\u003eState PPState()",
@@ -753,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "hangWord",
           "package": "bash",
@@ -762,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "hangWord",
           "normalized": "ByteString-\u003eState PPState()",
@@ -778,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis procedure is used in printing statements within evals, to set up\n    indentation correctly for lines \u003cem\u003efollowing\u003c/em\u003e the first line. It ensures\n    that the second and following lines are printed aligned with the first\n    character of the first line of the statement, not the first character of\n    the \u003ccode\u003e$(\u003c/code\u003e, \u003ccode\u003e\u003e(\u003c/code\u003e or \u003ccode\u003e\u003c(\u003c/code\u003e enclosing the eval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "indentPadToNextWord",
           "package": "bash",
@@ -788,6 +853,7 @@
         "index": {
           "description": "This procedure is used in printing statements within evals to set up indentation correctly for lines following the first line It ensures that the second and following lines are printed aligned with the first character of the first line of the statement not the first character of the or enclosing the eval",
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "indentPadToNextWord",
           "normalized": "State PPState()",
@@ -803,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "indents",
           "package": "bash",
@@ -812,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "indents",
           "normalized": "[Word]",
@@ -826,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "inword",
           "package": "bash",
@@ -835,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "inword",
           "normalized": "ByteString-\u003eState PPState()",
@@ -849,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "nl",
           "package": "bash",
@@ -858,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "nl",
           "normalized": "State PPState()",
@@ -900,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an operation to a state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "op",
           "package": "bash",
@@ -910,6 +983,7 @@
         "index": {
           "description": "Apply an operation to state",
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "op",
           "normalized": "PPState-\u003ePPOp-\u003ePPState",
@@ -924,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "opM",
           "package": "bash",
@@ -933,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "opM",
           "normalized": "[PPOp]-\u003eState PPState()",
@@ -947,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "outdent",
           "package": "bash",
@@ -956,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "outdent",
           "normalized": "State PPState()",
@@ -970,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "outword",
           "package": "bash",
@@ -979,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "outword",
           "normalized": "ByteString-\u003eState PPState()",
@@ -1019,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "renderBytes",
           "package": "bash",
@@ -1028,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "renderBytes",
           "normalized": "PPState-\u003eState PPState()-\u003eByteString",
@@ -1043,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "renderIndents",
           "package": "bash",
@@ -1052,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "renderIndents",
           "normalized": "[a]-\u003eb",
@@ -1067,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "round",
           "package": "bash",
@@ -1076,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "round",
           "normalized": "[()]",
@@ -1090,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "roundClose",
           "package": "bash",
@@ -1099,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "roundClose",
           "normalized": "State PPState()",
@@ -1114,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "roundOpen",
           "package": "bash",
@@ -1123,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "roundOpen",
           "normalized": "State PPState()",
@@ -1138,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "separated",
           "package": "bash",
@@ -1147,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "separated",
           "package": "bash",
@@ -1159,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "string",
           "package": "bash",
@@ -1168,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "string",
           "package": "bash",
@@ -1180,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "word",
           "package": "bash",
@@ -1189,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "word",
           "normalized": "ByteString-\u003eState PPState()",
@@ -1203,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "wordcat",
           "package": "bash",
@@ -1212,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter State",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter.State",
           "name": "wordcat",
           "normalized": "[ByteString]-\u003eState PPState()",
@@ -1227,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printer for Bash.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "PrettyPrinter",
           "package": "bash",
@@ -1236,6 +1335,7 @@
         "index": {
           "description": "Pretty printer for Bash",
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "PrettyPrinter",
           "package": "bash",
@@ -1249,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "Annotation",
           "package": "bash",
@@ -1257,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "Annotation",
           "package": "bash",
@@ -1270,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "PP",
           "package": "bash",
@@ -1278,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "PP",
           "package": "bash",
@@ -1291,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "annotate",
           "package": "bash",
@@ -1300,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "annotate",
           "normalized": "a-\u003eStatement a-\u003eState PPState()",
@@ -1314,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "array_pp",
           "package": "bash",
@@ -1323,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "array_pp",
           "normalized": "(a-\u003eStateT PPState Identity b)-\u003e[a]-\u003eStateT PPState Identity()",
@@ -1337,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "binGrp",
           "package": "bash",
@@ -1346,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "binGrp",
           "normalized": "Annotated a-\u003eStateT PPState Identity()",
@@ -1361,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "braces",
           "package": "bash",
@@ -1370,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "braces",
           "normalized": "ByteString-\u003eByteString",
@@ -1384,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "braces0",
           "package": "bash",
@@ -1393,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "braces0",
           "normalized": "ByteString-\u003eByteString",
@@ -1407,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "braces_",
           "package": "bash",
@@ -1416,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "braces_",
           "normalized": "ByteString-\u003eByteString",
@@ -1430,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "brackets",
           "package": "bash",
@@ -1439,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "brackets",
           "normalized": "ByteString-\u003eByteString",
@@ -1453,6 +1571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "breakline",
           "package": "bash",
@@ -1462,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "breakline",
           "normalized": "a-\u003eState PPState()",
@@ -1524,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "bytes_state",
           "package": "bash",
@@ -1533,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "bytes_state",
           "normalized": "State PPState()-\u003eByteString",
@@ -1547,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "case_clause",
           "package": "bash",
@@ -1556,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "case_clause",
           "normalized": "(a,a)-\u003eStateT PPState Identity()",
@@ -1570,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "escapeWords",
           "package": "bash",
@@ -1579,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "escapeWords",
           "normalized": "ByteString-\u003eByteString",
@@ -1594,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "finalLineLength",
           "package": "bash",
@@ -1603,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "finalLineLength",
           "normalized": "ByteString-\u003ea",
@@ -1618,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "hangMultiline",
           "package": "bash",
@@ -1627,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "hangMultiline",
           "normalized": "a-\u003eStateT PPState Identity()",
@@ -1642,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "hangcat",
           "package": "bash",
@@ -1651,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "hangcat",
           "normalized": "[ByteString]-\u003eState PPState()",
@@ -1665,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "identpart",
           "package": "bash",
@@ -1674,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "identpart",
           "normalized": "VarName-\u003eByteString",
@@ -1688,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "inlineEvalPrinter",
           "package": "bash",
@@ -1697,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "inlineEvalPrinter",
           "normalized": "ByteString-\u003eByteString-\u003ea-\u003eStateT PPState Identity()",
@@ -1712,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "isAndAnd",
           "package": "bash",
@@ -1721,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "isAndAnd",
           "normalized": "Annotated a-\u003eBool",
@@ -1736,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "isOrOr",
           "package": "bash",
@@ -1745,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "isOrOr",
           "normalized": "Annotated a-\u003eBool",
@@ -1760,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "isPipe",
           "package": "bash",
@@ -1769,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "isPipe",
           "normalized": "Annotated a-\u003eBool",
@@ -1784,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "isSimple",
           "package": "bash",
@@ -1793,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "isSimple",
           "normalized": "Annotated a-\u003eBool",
@@ -1808,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "keyset",
           "package": "bash",
@@ -1817,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "keyset",
           "normalized": "(a,a)-\u003eState PPState()",
@@ -1831,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "maxLineLength",
           "package": "bash",
@@ -1840,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "maxLineLength",
           "normalized": "ByteString-\u003ea",
@@ -1855,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "pp",
           "package": "bash",
@@ -1864,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "pp",
           "normalized": "a-\u003eState PPState()",
@@ -1878,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "quote",
           "package": "bash",
@@ -1887,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "quote",
           "normalized": "ByteString-\u003eByteString",
@@ -1901,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "redirectGrp",
           "package": "bash",
@@ -1910,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "redirectGrp",
           "normalized": "Annotated a-\u003eStateT PPState Identity()",
@@ -1925,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "render_redirect",
           "package": "bash",
@@ -1934,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "render_redirect",
           "normalized": "Redirection-\u003ea-\u003eEither a a-\u003eByteString",
@@ -1948,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.PrettyPrinter",
           "name": "trimPrinter",
           "package": "bash",
@@ -1957,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Language Bash PrettyPrinter",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.PrettyPrinter",
           "name": "trimPrinter",
           "normalized": "Trim-\u003eByteString",
@@ -1973,6 +2131,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for turning statements into full scripts.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Script",
           "name": "Script",
           "package": "bash",
@@ -1982,6 +2141,7 @@
         "index": {
           "description": "Utilities for turning statements into full scripts",
           "hierarchy": "Language Bash Script",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Script",
           "name": "Script",
           "package": "bash",
@@ -1996,6 +2156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe noop dance -- annotate a \u003ccode\u003e\u003ca\u003eNoOp\u003c/a\u003e\u003c/code\u003e with a statement, essentially as a\n    type coercion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Script",
           "name": "dance",
           "package": "bash",
@@ -2006,6 +2167,7 @@
         "index": {
           "description": "The noop dance annotate NoOp with statement essentially as type coercion",
           "hierarchy": "Language Bash Script",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Script",
           "name": "dance",
           "normalized": "Statement a-\u003eAnnotated(Statements a b)",
@@ -2021,6 +2183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScan \u003ccode\u003e$0\u003c/code\u003e for the token before running, correctly producing monoidal\n    annotations. The function argument provides an annotation for the \u003ccode\u003efgrep\u003c/code\u003e\n    check generated to search for the token. (\u003ccode\u003econst mempty\u003c/code\u003e would be\n    appropriate in most cases.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Script",
           "name": "mtokenCheck",
           "package": "bash",
@@ -2031,6 +2194,7 @@
         "index": {
           "description": "Scan for the token before running correctly producing monoidal annotations The function argument provides an annotation for the fgrep check generated to search for the token const mempty would be appropriate in most cases",
           "hierarchy": "Language Bash Script",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Script",
           "name": "mtokenCheck",
           "normalized": "ByteString-\u003e(Statement a-\u003ea)-\u003eStatement a-\u003eStatement a",
@@ -2046,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Script",
           "name": "noop",
           "package": "bash",
@@ -2055,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Script",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Script",
           "name": "noop",
           "package": "bash",
@@ -2119,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Script",
           "name": "sha1",
           "package": "bash",
@@ -2128,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Script",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Script",
           "name": "sha1",
           "normalized": "ByteString-\u003eByteString",
@@ -2143,6 +2311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScan \u003ccode\u003e$0\u003c/code\u003e the SHA1 of the statement before running.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Script",
           "name": "sha1Check",
           "package": "bash",
@@ -2153,6 +2322,7 @@
         "index": {
           "description": "Scan the SHA1 of the statement before running",
           "hierarchy": "Language Bash Script",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Script",
           "name": "sha1Check",
           "normalized": "Statement a-\u003eStatement(Statements a b)",
@@ -2169,6 +2339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScan \u003ccode\u003e$0\u003c/code\u003e for the token before running, producing a statement annotated\n    with the initial statement. This is a bit clumsy but is used internally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Script",
           "name": "tokenCheck",
           "package": "bash",
@@ -2179,6 +2350,7 @@
         "index": {
           "description": "Scan for the token before running producing statement annotated with the initial statement This is bit clumsy but is used internally",
           "hierarchy": "Language Bash Script",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Script",
           "name": "tokenCheck",
           "normalized": "ByteString-\u003eStatement a-\u003eStatement(Statements a b)",
@@ -2194,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Script",
           "name": "tokenFGREPq",
           "package": "bash",
@@ -2203,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Script",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Script",
           "name": "tokenFGREPq",
           "normalized": "ByteString-\u003eStatement a",
@@ -2219,6 +2393,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBash statements and expressions. The statement tree is a functor,\n    supporting arbitrary annotations; this is intended to support analysis of\n    effects and privilege levels as well as commenting and arbitrary code\n    inclusion.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Syntax",
           "package": "bash",
@@ -2228,6 +2403,7 @@
         "index": {
           "description": "Bash statements and expressions The statement tree is functor supporting arbitrary annotations this is intended to support analysis of effects and privilege levels as well as commenting and arbitrary code inclusion",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Syntax",
           "package": "bash",
@@ -2242,6 +2418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eAnnotated\u003c/a\u003e\u003c/code\u003e type captures the annotatedness of a tree of Bash\n    statements. It is \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Annotated",
           "package": "bash",
@@ -2251,6 +2428,7 @@
         "index": {
           "description": "The Annotated type captures the annotatedness of tree of Bash statements It is Foldable and Functor",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Annotated",
           "package": "bash",
@@ -2264,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Assignment",
           "package": "bash",
@@ -2272,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Assignment",
           "package": "bash",
@@ -2286,6 +2466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnused at present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "ConditionalExpression",
           "package": "bash",
@@ -2295,6 +2476,7 @@
         "index": {
           "description": "Unused at present",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "ConditionalExpression",
           "package": "bash",
@@ -2309,6 +2491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of Bash expressions, handling many kinds of variable reference as\n    well as eval and process substitution. It is \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Expression",
           "package": "bash",
@@ -2318,6 +2501,7 @@
         "index": {
           "description": "The type of Bash expressions handling many kinds of variable reference as well as eval and process substitution It is Foldable and Functor",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Expression",
           "package": "bash",
@@ -2332,6 +2516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file descriptor in Bash is simply a number between 0 and 255.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "FileDescriptor",
           "package": "bash",
@@ -2341,6 +2526,7 @@
         "index": {
           "description": "file descriptor in Bash is simply number between and",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "FileDescriptor",
           "package": "bash",
@@ -2355,6 +2541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBash functions can have surprising names. Once the word containing the\n    name of the function has been identified by the Bash parser, the only\n    constraint as of this writing is that it not be all digits and contain\n    neither quotes nor dollar signs. Thus the following are all callable\n    functions:\n\u003c/p\u003e\u003cpre\u003e  function http://duckduckgo.com { curl -sSfL http://duckduckgo.com?q=\"$1\" ;}\n  function 123.0 { echo 123.0 ;}\n  function + { echo \"$@\" | sed 's/ / + /g' | bc ;}\n\u003c/pre\u003e\u003cp\u003eYet a function name may only be parsed if its surroundings constitute a\n    valid function declaration. So we are not able to declare these functions:\n\u003c/p\u003e\u003cpre\u003e  function par()ens { echo '(' \"$@\" ')' ;}\n  function (parens) { echo '(' \"$@\" ')' ;}\n\u003c/pre\u003e\u003cp\u003e(The parser thinks the parens are there to separate the function name from\n    the function body.)\n\u003c/p\u003e\u003cp\u003eSome functions can be declared but not called. For example:\n\u003c/p\u003e\u003cpre\u003e  function for { echo for ;}\n  function x=y { echo x is y ;}\n\u003c/pre\u003e\u003cp\u003eCalling the former results in a syntax error. A call to the latter is\n    parsed as an assignment.\n\u003c/p\u003e\u003cp\u003eIt is possible to override important builtins with function declarations.\n    For example:\n\u003c/p\u003e\u003cpre\u003e  function set { echo Haha! ;}\n  function declare { echo Surprise! ;}\n\u003c/pre\u003e\u003cp\u003eOverall, Bash function names are quite flexible but inconsistent and\n    potentially a cause of grave errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "FuncName",
           "package": "bash",
@@ -2364,6 +2551,7 @@
         "index": {
           "description": "Bash functions can have surprising names Once the word containing the name of the function has been identified by the Bash parser the only constraint as of this writing is that it not be all digits and contain neither quotes nor dollar signs Thus the following are all callable functions function http duckduckgo.com curl sSfL http duckduckgo.com function echo function echo sed bc Yet function name may only be parsed if its surroundings constitute valid function declaration So we are not able to declare these functions function par ens echo function parens echo The parser thinks the parens are there to separate the function name from the function body Some functions can be declared but not called For example function for echo for function echo is Calling the former results in syntax error call to the latter is parsed as an assignment It is possible to override important builtins with function declarations For example function set echo Haha function declare echo Surprise Overall Bash function names are quite flexible but inconsistent and potentially cause of grave errors",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "FuncName",
           "package": "bash",
@@ -2378,6 +2566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of legal Bash identifiers, strings beginning with letters or \u003ccode\u003e_\u003c/code\u003e\n    and containing letters, \u003ccode\u003e_\u003c/code\u003e and digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Identifier",
           "package": "bash",
@@ -2387,6 +2576,7 @@
         "index": {
           "description": "The type of legal Bash identifiers strings beginning with letters or and containing letters and digits",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Identifier",
           "package": "bash",
@@ -2401,6 +2591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirection \"directions\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Redirection",
           "package": "bash",
@@ -2410,6 +2601,7 @@
         "index": {
           "description": "Redirection directions",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Redirection",
           "package": "bash",
@@ -2424,6 +2616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe names of special variables, with otherwise illegal identifiers, are\n    represented by this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "SpecialVar",
           "package": "bash",
@@ -2433,6 +2626,7 @@
         "index": {
           "description": "The names of special variables with otherwise illegal identifiers are represented by this type",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "SpecialVar",
           "package": "bash",
@@ -2447,6 +2641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eStatement\u003c/a\u003e\u003c/code\u003e type captures the different kind of statements that may\n    exist in a Bash statement tree. It is mutually recursive with \u003ccode\u003e\u003ca\u003eAnnotated\u003c/a\u003e\u003c/code\u003e.\n    It is a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Statement",
           "package": "bash",
@@ -2456,6 +2651,7 @@
         "index": {
           "description": "The Statement type captures the different kind of statements that may exist in Bash statement tree It is mutually recursive with Annotated It is Foldable and Functor",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Statement",
           "package": "bash",
@@ -2469,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Trim",
           "package": "bash",
@@ -2477,6 +2674,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Trim",
           "package": "bash",
@@ -2490,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "VarName",
           "package": "bash",
@@ -2498,6 +2697,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "VarName",
           "package": "bash",
@@ -2557,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "And",
           "package": "bash",
@@ -2566,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "And",
           "package": "bash",
@@ -2932,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Dollar0",
           "package": "bash",
@@ -2941,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Dollar0",
           "package": "bash",
@@ -2954,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Dollar1",
           "package": "bash",
@@ -2963,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Dollar1",
           "package": "bash",
@@ -2976,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Dollar2",
           "package": "bash",
@@ -2985,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Dollar2",
           "package": "bash",
@@ -2998,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Dollar3",
           "package": "bash",
@@ -3007,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Dollar3",
           "package": "bash",
@@ -3020,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Dollar4",
           "package": "bash",
@@ -3029,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Dollar4",
           "package": "bash",
@@ -3042,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Dollar5",
           "package": "bash",
@@ -3051,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Dollar5",
           "package": "bash",
@@ -3064,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Dollar6",
           "package": "bash",
@@ -3073,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Dollar6",
           "package": "bash",
@@ -3086,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Dollar7",
           "package": "bash",
@@ -3095,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Dollar7",
           "package": "bash",
@@ -3108,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Dollar8",
           "package": "bash",
@@ -3117,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Dollar8",
           "package": "bash",
@@ -3130,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Dollar9",
           "package": "bash",
@@ -3139,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Dollar9",
           "package": "bash",
@@ -3152,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "DollarBang",
           "package": "bash",
@@ -3161,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "DollarBang",
           "package": "bash",
@@ -3174,6 +3398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "DollarDollar",
           "package": "bash",
@@ -3183,6 +3408,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "DollarDollar",
           "package": "bash",
@@ -3196,6 +3422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "DollarHyphen",
           "package": "bash",
@@ -3205,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "DollarHyphen",
           "package": "bash",
@@ -3218,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "DollarQuestion",
           "package": "bash",
@@ -3227,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "DollarQuestion",
           "package": "bash",
@@ -3240,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "DollarUnderscore",
           "package": "bash",
@@ -3249,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "DollarUnderscore",
           "package": "bash",
@@ -3446,6 +3678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_G",
           "package": "bash",
@@ -3455,6 +3688,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_G",
           "package": "bash",
@@ -3468,6 +3702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_L",
           "package": "bash",
@@ -3477,6 +3712,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_L",
           "package": "bash",
@@ -3490,6 +3726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_N",
           "package": "bash",
@@ -3499,6 +3736,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_N",
           "package": "bash",
@@ -3512,6 +3750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_O",
           "package": "bash",
@@ -3521,6 +3760,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_O",
           "package": "bash",
@@ -3534,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_S",
           "package": "bash",
@@ -3543,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_S",
           "package": "bash",
@@ -3556,6 +3798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_a",
           "package": "bash",
@@ -3565,6 +3808,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_a",
           "package": "bash",
@@ -3578,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_b",
           "package": "bash",
@@ -3587,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_b",
           "package": "bash",
@@ -3600,6 +3846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_c",
           "package": "bash",
@@ -3609,6 +3856,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_c",
           "package": "bash",
@@ -3622,6 +3870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_d",
           "package": "bash",
@@ -3631,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_d",
           "package": "bash",
@@ -3644,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_e",
           "package": "bash",
@@ -3653,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_e",
           "package": "bash",
@@ -3666,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_ef",
           "package": "bash",
@@ -3675,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_ef",
           "package": "bash",
@@ -3688,6 +3942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_f",
           "package": "bash",
@@ -3697,6 +3952,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_f",
           "package": "bash",
@@ -3710,6 +3966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_g",
           "package": "bash",
@@ -3719,6 +3976,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_g",
           "package": "bash",
@@ -3732,6 +3990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_h",
           "package": "bash",
@@ -3741,6 +4000,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_h",
           "package": "bash",
@@ -3754,6 +4014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_k",
           "package": "bash",
@@ -3763,6 +4024,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_k",
           "package": "bash",
@@ -3776,6 +4038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_nt",
           "package": "bash",
@@ -3785,6 +4048,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_nt",
           "package": "bash",
@@ -3798,6 +4062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_ot",
           "package": "bash",
@@ -3807,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_ot",
           "package": "bash",
@@ -3820,6 +4086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_p",
           "package": "bash",
@@ -3829,6 +4096,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_p",
           "package": "bash",
@@ -3842,6 +4110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_r",
           "package": "bash",
@@ -3851,6 +4120,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_r",
           "package": "bash",
@@ -3864,6 +4134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_s",
           "package": "bash",
@@ -3873,6 +4144,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_s",
           "package": "bash",
@@ -3886,6 +4158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_t",
           "package": "bash",
@@ -3895,6 +4168,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_t",
           "package": "bash",
@@ -3908,6 +4182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_u",
           "package": "bash",
@@ -3917,6 +4192,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_u",
           "package": "bash",
@@ -3930,6 +4206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_w",
           "package": "bash",
@@ -3939,6 +4216,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_w",
           "package": "bash",
@@ -3952,6 +4230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "File_x",
           "package": "bash",
@@ -3961,6 +4240,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "File_x",
           "package": "bash",
@@ -4045,6 +4325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Identifier",
           "package": "bash",
@@ -4054,6 +4335,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Identifier",
           "package": "bash",
@@ -4253,6 +4535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "LongestLeading",
           "package": "bash",
@@ -4262,6 +4545,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "LongestLeading",
           "package": "bash",
@@ -4275,6 +4559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "LongestTrailing",
           "package": "bash",
@@ -4284,6 +4569,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "LongestTrailing",
           "package": "bash",
@@ -4320,6 +4606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Not",
           "package": "bash",
@@ -4329,6 +4616,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Not",
           "package": "bash",
@@ -4342,6 +4630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "NumEq",
           "package": "bash",
@@ -4351,6 +4640,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "NumEq",
           "package": "bash",
@@ -4364,6 +4654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "NumGEq",
           "package": "bash",
@@ -4373,6 +4664,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "NumGEq",
           "package": "bash",
@@ -4386,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "NumGT",
           "package": "bash",
@@ -4395,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "NumGT",
           "package": "bash",
@@ -4408,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "NumLEq",
           "package": "bash",
@@ -4417,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "NumLEq",
           "package": "bash",
@@ -4430,6 +4726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "NumLT",
           "package": "bash",
@@ -4439,6 +4736,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "NumLT",
           "package": "bash",
@@ -4452,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "NumNotEq",
           "package": "bash",
@@ -4461,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "NumNotEq",
           "package": "bash",
@@ -4474,6 +4774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "OptSet",
           "package": "bash",
@@ -4483,6 +4784,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "OptSet",
           "package": "bash",
@@ -4496,6 +4798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Or",
           "package": "bash",
@@ -4505,6 +4808,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "Or",
           "package": "bash",
@@ -4796,6 +5100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "ShortestLeading",
           "package": "bash",
@@ -4805,6 +5110,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "ShortestLeading",
           "package": "bash",
@@ -4818,6 +5124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "ShortestTrailing",
           "package": "bash",
@@ -4827,6 +5134,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "ShortestTrailing",
           "package": "bash",
@@ -4888,6 +5196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "StringEmpty",
           "package": "bash",
@@ -4897,6 +5206,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "StringEmpty",
           "package": "bash",
@@ -4910,6 +5220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "StringEq",
           "package": "bash",
@@ -4919,6 +5230,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "StringEq",
           "package": "bash",
@@ -4932,6 +5244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "StringGT",
           "package": "bash",
@@ -4941,6 +5254,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "StringGT",
           "package": "bash",
@@ -4954,6 +5268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "StringLT",
           "package": "bash",
@@ -4963,6 +5278,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "StringLT",
           "package": "bash",
@@ -4976,6 +5292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "StringNonempty",
           "package": "bash",
@@ -4985,6 +5302,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "StringNonempty",
           "package": "bash",
@@ -4998,6 +5316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "StringNotEq",
           "package": "bash",
@@ -5007,6 +5326,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "StringNotEq",
           "package": "bash",
@@ -5020,6 +5340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "StringRE",
           "package": "bash",
@@ -5029,6 +5350,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "StringRE",
           "package": "bash",
@@ -5354,6 +5676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "specialVarBytes",
           "package": "bash",
@@ -5363,6 +5686,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash.Syntax",
           "name": "specialVarBytes",
           "normalized": "SpecialVar-\u003eByteString",
@@ -5426,6 +5750,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes and functions for generation of Bash scripts, with safe escaping\n    and composition of a large subset of Bash statements and expressions.\n\u003c/p\u003e\u003cp\u003eThis module is meant to be imported qualified -- perhaps as \u003ccode\u003eBash\u003c/code\u003e -- and\n    contains everything you need to build and render Bash scripts. For\n    examples of usage, look at \u003ca\u003eLanguage.Bash.Lib\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash",
           "name": "Bash",
           "package": "bash",
@@ -5435,6 +5760,7 @@
         "index": {
           "description": "Types and functions for generation of Bash scripts with safe escaping and composition of large subset of Bash statements and expressions This module is meant to be imported qualified perhaps as Bash and contains everything you need to build and render Bash scripts For examples of usage look at Language.Bash.Lib",
           "hierarchy": "Language Bash",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash",
           "name": "Bash",
           "package": "bash",
@@ -5449,6 +5775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eAnnotated\u003c/a\u003e\u003c/code\u003e type captures the annotatedness of a tree of Bash\n    statements. It is \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash",
           "name": "Annotated",
           "package": "bash",
@@ -5458,6 +5785,7 @@
         "index": {
           "description": "The Annotated type captures the annotatedness of tree of Bash statements It is Foldable and Functor",
           "hierarchy": "Language Bash",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash",
           "name": "Annotated",
           "package": "bash",
@@ -5471,6 +5799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash",
           "name": "Assignment",
           "package": "bash",
@@ -5479,6 +5808,7 @@
         },
         "index": {
           "hierarchy": "Language Bash",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash",
           "name": "Assignment",
           "package": "bash",
@@ -5493,6 +5823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of Bash expressions, handling many kinds of variable reference as\n    well as eval and process substitution. It is \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash",
           "name": "Expression",
           "package": "bash",
@@ -5502,6 +5833,7 @@
         "index": {
           "description": "The type of Bash expressions handling many kinds of variable reference as well as eval and process substitution It is Foldable and Functor",
           "hierarchy": "Language Bash",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash",
           "name": "Expression",
           "package": "bash",
@@ -5516,6 +5848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file descriptor in Bash is simply a number between 0 and 255.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash",
           "name": "FileDescriptor",
           "package": "bash",
@@ -5525,6 +5858,7 @@
         "index": {
           "description": "file descriptor in Bash is simply number between and",
           "hierarchy": "Language Bash",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash",
           "name": "FileDescriptor",
           "package": "bash",
@@ -5539,6 +5873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBash functions can have surprising names. Once the word containing the\n    name of the function has been identified by the Bash parser, the only\n    constraint as of this writing is that it not be all digits and contain\n    neither quotes nor dollar signs. Thus the following are all callable\n    functions:\n\u003c/p\u003e\u003cpre\u003e  function http://duckduckgo.com { curl -sSfL http://duckduckgo.com?q=\"$1\" ;}\n  function 123.0 { echo 123.0 ;}\n  function + { echo \"$@\" | sed 's/ / + /g' | bc ;}\n\u003c/pre\u003e\u003cp\u003eYet a function name may only be parsed if its surroundings constitute a\n    valid function declaration. So we are not able to declare these functions:\n\u003c/p\u003e\u003cpre\u003e  function par()ens { echo '(' \"$@\" ')' ;}\n  function (parens) { echo '(' \"$@\" ')' ;}\n\u003c/pre\u003e\u003cp\u003e(The parser thinks the parens are there to separate the function name from\n    the function body.)\n\u003c/p\u003e\u003cp\u003eSome functions can be declared but not called. For example:\n\u003c/p\u003e\u003cpre\u003e  function for { echo for ;}\n  function x=y { echo x is y ;}\n\u003c/pre\u003e\u003cp\u003eCalling the former results in a syntax error. A call to the latter is\n    parsed as an assignment.\n\u003c/p\u003e\u003cp\u003eIt is possible to override important builtins with function declarations.\n    For example:\n\u003c/p\u003e\u003cpre\u003e  function set { echo Haha! ;}\n  function declare { echo Surprise! ;}\n\u003c/pre\u003e\u003cp\u003eOverall, Bash function names are quite flexible but inconsistent and\n    potentially a cause of grave errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash",
           "name": "FuncName",
           "package": "bash",
@@ -5548,6 +5883,7 @@
         "index": {
           "description": "Bash functions can have surprising names Once the word containing the name of the function has been identified by the Bash parser the only constraint as of this writing is that it not be all digits and contain neither quotes nor dollar signs Thus the following are all callable functions function http duckduckgo.com curl sSfL http duckduckgo.com function echo function echo sed bc Yet function name may only be parsed if its surroundings constitute valid function declaration So we are not able to declare these functions function par ens echo function parens echo The parser thinks the parens are there to separate the function name from the function body Some functions can be declared but not called For example function for echo for function echo is Calling the former results in syntax error call to the latter is parsed as an assignment It is possible to override important builtins with function declarations For example function set echo Haha function declare echo Surprise Overall Bash function names are quite flexible but inconsistent and potentially cause of grave errors",
           "hierarchy": "Language Bash",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash",
           "name": "FuncName",
           "package": "bash",
@@ -5562,6 +5898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of legal Bash identifiers, strings beginning with letters or \u003ccode\u003e_\u003c/code\u003e\n    and containing letters, \u003ccode\u003e_\u003c/code\u003e and digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash",
           "name": "Identifier",
           "package": "bash",
@@ -5571,6 +5908,7 @@
         "index": {
           "description": "The type of legal Bash identifiers strings beginning with letters or and containing letters and digits",
           "hierarchy": "Language Bash",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash",
           "name": "Identifier",
           "package": "bash",
@@ -5584,6 +5922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash",
           "name": "PP",
           "package": "bash",
@@ -5592,6 +5931,7 @@
         },
         "index": {
           "hierarchy": "Language Bash",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash",
           "name": "PP",
           "package": "bash",
@@ -5606,6 +5946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState of pretty printing -- string being built, indent levels, present\n    column, brace nesting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash",
           "name": "PPState",
           "package": "bash",
@@ -5615,6 +5956,7 @@
         "index": {
           "description": "State of pretty printing string being built indent levels present column brace nesting",
           "hierarchy": "Language Bash",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash",
           "name": "PPState",
           "package": "bash",
@@ -5629,6 +5971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirection \"directions\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash",
           "name": "Redirection",
           "package": "bash",
@@ -5638,6 +5981,7 @@
         "index": {
           "description": "Redirection directions",
           "hierarchy": "Language Bash",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash",
           "name": "Redirection",
           "package": "bash",
@@ -5652,6 +5996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe names of special variables, with otherwise illegal identifiers, are\n    represented by this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash",
           "name": "SpecialVar",
           "package": "bash",
@@ -5661,6 +6006,7 @@
         "index": {
           "description": "The names of special variables with otherwise illegal identifiers are represented by this type",
           "hierarchy": "Language Bash",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash",
           "name": "SpecialVar",
           "package": "bash",
@@ -5675,6 +6021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eStatement\u003c/a\u003e\u003c/code\u003e type captures the different kind of statements that may\n    exist in a Bash statement tree. It is mutually recursive with \u003ccode\u003e\u003ca\u003eAnnotated\u003c/a\u003e\u003c/code\u003e.\n    It is a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash",
           "name": "Statement",
           "package": "bash",
@@ -5684,6 +6031,7 @@
         "index": {
           "description": "The Statement type captures the different kind of statements that may exist in Bash statement tree It is mutually recursive with Annotated It is Foldable and Functor",
           "hierarchy": "Language Bash",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash",
           "name": "Statement",
           "package": "bash",
@@ -5697,6 +6045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash",
           "name": "VarName",
           "package": "bash",
@@ -5705,6 +6054,7 @@
         },
         "index": {
           "hierarchy": "Language Bash",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash",
           "name": "VarName",
           "package": "bash",
@@ -5718,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:18 UTC 2014",
           "module": "Language.Bash",
           "name": "pp",
           "package": "bash",
@@ -5727,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "Language Bash",
+          "indexed": "2014-03-11T17:17:18",
           "module": "Language.Bash",
           "name": "pp",
           "normalized": "a-\u003eState PPState()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "accelerate-examples"
+        "phrase": "accelerate-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

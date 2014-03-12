@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hiccup"
+        "phrase": "hiccup",
+        "type": "phrase"
       },
       "type": "context"
     }

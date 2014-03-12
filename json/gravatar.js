@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gravatar"
+        "phrase": "gravatar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://en.gravatar.com/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "Gravatar",
           "package": "gravatar",
@@ -28,6 +29,7 @@
         "index": {
           "description": "http en.gravatar.com",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "Gravatar",
           "package": "gravatar",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for types with a default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "Default",
           "package": "gravatar",
@@ -50,6 +53,7 @@
         "index": {
           "description": "class for types with default value",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "Default",
           "package": "gravatar",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage to show when an avatar is not available\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "DefaultImg",
           "package": "gravatar",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Image to show when an avatar is not available",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "DefaultImg",
           "package": "gravatar",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways show the default image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "ForceDefault",
           "package": "gravatar",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Always show the default image",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "ForceDefault",
           "package": "gravatar",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "GravatarOptions",
           "package": "gravatar",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "GravatarOptions",
           "package": "gravatar",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimit the returned images by rating\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "Rating",
           "package": "gravatar",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Limit the returned images by rating",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "Rating",
           "package": "gravatar",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize in pixels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "Size",
           "package": "gravatar",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Size in pixels",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "Size",
           "package": "gravatar",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esupply your own url\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "Custom",
           "package": "gravatar",
@@ -187,6 +202,7 @@
         "index": {
           "description": "supply your own url",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "Custom",
           "package": "gravatar",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "ForceDefault",
           "package": "gravatar",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "ForceDefault",
           "package": "gravatar",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "G",
           "package": "gravatar",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "G",
           "package": "gravatar",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "GravatarOptions",
           "package": "gravatar",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "GravatarOptions",
           "package": "gravatar",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeometric pattern based on the hash\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "Identicon",
           "package": "gravatar",
@@ -276,6 +299,7 @@
         "index": {
           "description": "geometric pattern based on the hash",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "Identicon",
           "package": "gravatar",
@@ -290,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emystery man\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "MM",
           "package": "gravatar",
@@ -300,6 +325,7 @@
         "index": {
           "description": "mystery man",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "MM",
           "package": "gravatar",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea generated monster\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "MonsterId",
           "package": "gravatar",
@@ -324,6 +351,7 @@
         "index": {
           "description": "generated monster",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "MonsterId",
           "package": "gravatar",
@@ -338,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edo not load an image return a 404\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "NotFound",
           "package": "gravatar",
@@ -348,6 +377,7 @@
         "index": {
           "description": "do not load an image return",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "NotFound",
           "package": "gravatar",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "PG",
           "package": "gravatar",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "PG",
           "package": "gravatar",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "R",
           "package": "gravatar",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "R",
           "package": "gravatar",
@@ -405,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerated, 8-bit arcade style pixelated face\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "Retro",
           "package": "gravatar",
@@ -415,6 +450,7 @@
         "index": {
           "description": "generated bit arcade style pixelated face",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "Retro",
           "package": "gravatar",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "Size",
           "package": "gravatar",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "Size",
           "package": "gravatar",
@@ -451,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerated faces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "Wavatar",
           "package": "gravatar",
@@ -461,6 +500,7 @@
         "index": {
           "description": "generated faces",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "Wavatar",
           "package": "gravatar",
@@ -474,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "X",
           "package": "gravatar",
@@ -483,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "X",
           "package": "gravatar",
@@ -496,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "def",
           "package": "gravatar",
@@ -505,6 +548,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "def",
           "package": "gravatar",
@@ -518,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvailable for backwards compatability, using \u003ccode\u003edef\u003c/code\u003e is advised\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "defaultConfig",
           "package": "gravatar",
@@ -528,6 +573,7 @@
         "index": {
           "description": "Available for backwards compatability using def is advised",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "defaultConfig",
           "package": "gravatar",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "gDefault",
           "package": "gravatar",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "gDefault",
           "package": "gravatar",
@@ -563,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "gForceDefault",
           "package": "gravatar",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "gForceDefault",
           "package": "gravatar",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "gRating",
           "package": "gravatar",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "gRating",
           "package": "gravatar",
@@ -607,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "gSize",
           "package": "gravatar",
@@ -616,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "gSize",
           "package": "gravatar",
@@ -630,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the avatar for the given email using the provided options \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:07 UTC 2014",
           "module": "Network.Gravatar",
           "name": "gravatar",
           "package": "gravatar",
@@ -640,6 +695,7 @@
         "index": {
           "description": "Return the avatar for the given email using the provided options",
           "hierarchy": "Network Gravatar",
+          "indexed": "2014-03-11T18:21:07",
           "module": "Network.Gravatar",
           "name": "gravatar",
           "normalized": "GravatarOptions-\u003eText-\u003eString",

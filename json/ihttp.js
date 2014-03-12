@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ihttp"
+        "phrase": "ihttp",
+        "type": "phrase"
       },
       "type": "context"
     }

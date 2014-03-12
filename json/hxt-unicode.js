@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hxt-unicode"
+        "phrase": "hxt-unicode",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "IsoLatinTables",
           "package": "hxt-unicode",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "IsoLatinTables",
           "package": "hxt-unicode",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_10",
           "package": "hxt-unicode",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_10",
           "normalized": "[(Char,Char)]",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_11",
           "package": "hxt-unicode",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_11",
           "normalized": "[(Char,Char)]",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_13",
           "package": "hxt-unicode",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_13",
           "normalized": "[(Char,Char)]",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_14",
           "package": "hxt-unicode",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_14",
           "normalized": "[(Char,Char)]",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_15",
           "package": "hxt-unicode",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_15",
           "normalized": "[(Char,Char)]",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_16",
           "package": "hxt-unicode",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_16",
           "normalized": "[(Char,Char)]",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_2",
           "package": "hxt-unicode",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_2",
           "normalized": "[(Char,Char)]",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_3",
           "package": "hxt-unicode",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_3",
           "normalized": "[(Char,Char)]",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_4",
           "package": "hxt-unicode",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_4",
           "normalized": "[(Char,Char)]",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_5",
           "package": "hxt-unicode",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_5",
           "normalized": "[(Char,Char)]",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_6",
           "package": "hxt-unicode",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_6",
           "normalized": "[(Char,Char)]",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_7",
           "package": "hxt-unicode",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_7",
           "normalized": "[(Char,Char)]",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_8",
           "package": "hxt-unicode",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_8",
           "normalized": "[(Char,Char)]",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_9",
           "package": "hxt-unicode",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Data Char IsoLatinTables",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.Char.IsoLatinTables",
           "name": "iso_8859_9",
           "normalized": "[(Char,Char)]",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConstants for character encodings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "EncodingNames",
           "package": "hxt-unicode",
@@ -371,6 +402,7 @@
         "index": {
           "description": "Constants for character encodings",
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "EncodingNames",
           "package": "hxt-unicode",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_1",
           "package": "hxt-unicode",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_1",
           "package": "hxt-unicode",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_10",
           "package": "hxt-unicode",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_10",
           "package": "hxt-unicode",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_11",
           "package": "hxt-unicode",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_11",
           "package": "hxt-unicode",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_13",
           "package": "hxt-unicode",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_13",
           "package": "hxt-unicode",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_14",
           "package": "hxt-unicode",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_14",
           "package": "hxt-unicode",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_15",
           "package": "hxt-unicode",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_15",
           "package": "hxt-unicode",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_16",
           "package": "hxt-unicode",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_16",
           "package": "hxt-unicode",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_2",
           "package": "hxt-unicode",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_2",
           "package": "hxt-unicode",
@@ -552,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_3",
           "package": "hxt-unicode",
@@ -561,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_3",
           "package": "hxt-unicode",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_4",
           "package": "hxt-unicode",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_4",
           "package": "hxt-unicode",
@@ -594,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_5",
           "package": "hxt-unicode",
@@ -603,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_5",
           "package": "hxt-unicode",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_6",
           "package": "hxt-unicode",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_6",
           "package": "hxt-unicode",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_7",
           "package": "hxt-unicode",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_7",
           "package": "hxt-unicode",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_8",
           "package": "hxt-unicode",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_8",
           "package": "hxt-unicode",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_9",
           "package": "hxt-unicode",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "iso8859_9",
           "package": "hxt-unicode",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "isoLatin1",
           "package": "hxt-unicode",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "isoLatin1",
           "package": "hxt-unicode",
@@ -721,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "ucs2",
           "package": "hxt-unicode",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "ucs2",
           "package": "hxt-unicode",
@@ -742,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "unicodeString",
           "package": "hxt-unicode",
@@ -751,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "unicodeString",
           "package": "hxt-unicode",
@@ -764,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "usAscii",
           "package": "hxt-unicode",
@@ -773,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "usAscii",
           "package": "hxt-unicode",
@@ -786,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "utf16",
           "package": "hxt-unicode",
@@ -795,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "utf16",
           "package": "hxt-unicode",
@@ -807,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "utf16be",
           "package": "hxt-unicode",
@@ -816,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "utf16be",
           "package": "hxt-unicode",
@@ -828,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "utf16le",
           "package": "hxt-unicode",
@@ -837,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "utf16le",
           "package": "hxt-unicode",
@@ -849,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.EncodingNames",
           "name": "utf8",
           "package": "hxt-unicode",
@@ -858,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Data String EncodingNames",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.EncodingNames",
           "name": "utf8",
           "package": "hxt-unicode",
@@ -870,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.UTF8",
           "name": "UTF8",
           "package": "hxt-unicode",
@@ -878,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Data String UTF8",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.UTF8",
           "name": "UTF8",
           "package": "hxt-unicode",
@@ -891,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.UTF8",
           "name": "Error",
           "package": "hxt-unicode",
@@ -899,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Data String UTF8",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.UTF8",
           "name": "Error",
           "package": "hxt-unicode",
@@ -912,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.UTF8",
           "name": "decode",
           "package": "hxt-unicode",
@@ -921,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Data String UTF8",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.UTF8",
           "name": "decode",
           "normalized": "[Word]-\u003e([Char],[(Error,Int)])",
@@ -935,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.UTF8",
           "name": "decodeEmbedErrors",
           "package": "hxt-unicode",
@@ -944,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Data String UTF8",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.UTF8",
           "name": "decodeEmbedErrors",
           "normalized": "[Word]-\u003e[Either(Error,Int)Char]",
@@ -959,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.UTF8",
           "name": "decodeOne",
           "package": "hxt-unicode",
@@ -968,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Data String UTF8",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.UTF8",
           "name": "decodeOne",
           "normalized": "[Word]-\u003e(Either Error Char,Int,[Word])",
@@ -983,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.UTF8",
           "name": "encode",
           "package": "hxt-unicode",
@@ -992,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Data String UTF8",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.UTF8",
           "name": "encode",
           "normalized": "[Char]-\u003e[Word]",
@@ -1006,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.UTF8",
           "name": "encodeOne",
           "package": "hxt-unicode",
@@ -1015,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Data String UTF8",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.UTF8",
           "name": "encodeOne",
           "normalized": "Char-\u003e[Word]",
@@ -1031,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface for Data.Char.UTF8 funtions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.UTF8Decoding",
           "name": "UTF8Decoding",
           "package": "hxt-unicode",
@@ -1040,6 +1133,7 @@
         "index": {
           "description": "Interface for Data.Char.UTF8 funtions",
           "hierarchy": "Data String UTF8Decoding",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.UTF8Decoding",
           "name": "UTF8Decoding",
           "package": "hxt-unicode",
@@ -1054,6 +1148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalls \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e for parsing and decoding UTF-8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.UTF8Decoding",
           "name": "decodeUtf8",
           "package": "hxt-unicode",
@@ -1064,6 +1159,7 @@
         "index": {
           "description": "calls decode for parsing and decoding UTF-8",
           "hierarchy": "Data String UTF8Decoding",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.UTF8Decoding",
           "name": "decodeUtf8",
           "normalized": "String-\u003e(String,[String])",
@@ -1079,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.UTF8Decoding",
           "name": "decodeUtf8EmbedErrors",
           "package": "hxt-unicode",
@@ -1088,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Data String UTF8Decoding",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.UTF8Decoding",
           "name": "decodeUtf8EmbedErrors",
           "normalized": "String-\u003e[Either String Char]",
@@ -1103,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.UTF8Decoding",
           "name": "decodeUtf8IgnoreErrors",
           "package": "hxt-unicode",
@@ -1112,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Data String UTF8Decoding",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.UTF8Decoding",
           "name": "decodeUtf8IgnoreErrors",
           "normalized": "String-\u003eString",
@@ -1128,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnicode and UTF-8 Conversion Functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "Unicode",
           "package": "hxt-unicode",
@@ -1137,6 +1238,7 @@
         "index": {
           "description": "Unicode and UTF-8 Conversion Functions",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "Unicode",
           "package": "hxt-unicode",
@@ -1151,6 +1253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecoding function with a pair containing the result string and a list of decoding errors as result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "DecodingFct",
           "package": "hxt-unicode",
@@ -1160,6 +1263,7 @@
         "index": {
           "description": "Decoding function with pair containing the result string and list of decoding errors as result",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "DecodingFct",
           "package": "hxt-unicode",
@@ -1174,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecoding function where decoding errors are interleaved with decoded characters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "DecodingFctEmbedErrors",
           "package": "hxt-unicode",
@@ -1183,6 +1288,7 @@
         "index": {
           "description": "Decoding function where decoding errors are interleaved with decoded characters",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "DecodingFctEmbedErrors",
           "package": "hxt-unicode",
@@ -1197,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe type for Unicode strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "UString",
           "package": "hxt-unicode",
@@ -1206,6 +1313,7 @@
         "index": {
           "description": "the type for Unicode strings",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "UString",
           "package": "hxt-unicode",
@@ -1219,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "UStringWithErrors",
           "package": "hxt-unicode",
@@ -1227,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "UStringWithErrors",
           "package": "hxt-unicode",
@@ -1241,6 +1351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTF-8 charachters are represented by the Char type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "UTF8Char",
           "package": "hxt-unicode",
@@ -1250,6 +1361,7 @@
         "index": {
           "description": "UTF-8 charachters are represented by the Char type",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "UTF8Char",
           "package": "hxt-unicode",
@@ -1264,6 +1376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTF-8 strings are implemented as Haskell strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "UTF8String",
           "package": "hxt-unicode",
@@ -1273,6 +1386,7 @@
         "index": {
           "description": "UTF-8 strings are implemented as Haskell strings",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "UTF8String",
           "package": "hxt-unicode",
@@ -1287,6 +1401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnicode is represented as the Char type\n   Precondition for this is the support of Unicode character range\n   in the compiler (e.g. ghc but not hugs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "Unicode",
           "package": "hxt-unicode",
@@ -1296,6 +1411,7 @@
         "index": {
           "description": "Unicode is represented as the Char type Precondition for this is the support of Unicode character range in the compiler e.g ghc but not hugs",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "Unicode",
           "package": "hxt-unicode",
@@ -1310,6 +1426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe lookup function for selecting the decoding function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "getDecodingFct",
           "package": "hxt-unicode",
@@ -1320,6 +1437,7 @@
         "index": {
           "description": "the lookup function for selecting the decoding function",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "getDecodingFct",
           "normalized": "String-\u003eMaybe DecodingFct",
@@ -1336,6 +1454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe lookup function for selecting the decoding function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "getDecodingFctEmbedErrors",
           "package": "hxt-unicode",
@@ -1346,6 +1465,7 @@
         "index": {
           "description": "the lookup function for selecting the decoding function",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "getDecodingFctEmbedErrors",
           "normalized": "String-\u003eMaybe DecodingFctEmbedErrors",
@@ -1362,6 +1482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe lookup function for selecting the encoding function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "getOutputEncodingFct",
           "package": "hxt-unicode",
@@ -1372,6 +1493,7 @@
         "index": {
           "description": "the lookup function for selecting the encoding function",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "getOutputEncodingFct",
           "normalized": "String-\u003eMaybe(String-\u003eUString)",
@@ -1388,6 +1510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe lookup function for selecting the encoding function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "getOutputEncodingFct'",
           "package": "hxt-unicode",
@@ -1398,6 +1521,7 @@
         "index": {
           "description": "the lookup function for selecting the encoding function",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "getOutputEncodingFct'",
           "normalized": "String-\u003eMaybe(Char-\u003eStringFct)",
@@ -1413,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "guessEncoding",
           "package": "hxt-unicode",
@@ -1422,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "guessEncoding",
           "normalized": "String-\u003eString",
@@ -1438,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert an Unicode into a XML character reference.\n\u003c/p\u003e\u003cp\u003esee also : \u003ccode\u003e\u003ca\u003eintToCharRefHex\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "intToCharRef",
           "package": "hxt-unicode",
@@ -1448,6 +1575,7 @@
         "index": {
           "description": "convert an Unicode into XML character reference see also intToCharRefHex",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "intToCharRef",
           "normalized": "Int-\u003eString",
@@ -1464,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert an Unicode into a XML hexadecimal character reference.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003eintToCharRef\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "intToCharRefHex",
           "package": "hxt-unicode",
@@ -1474,6 +1603,7 @@
         "index": {
           "description": "convert an Unicode into XML hexadecimal character reference see also intToCharRef",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "intToCharRefHex",
           "normalized": "Int-\u003eString",
@@ -1489,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "intToHexString",
           "package": "hxt-unicode",
@@ -1498,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "intToHexString",
           "normalized": "Int-\u003eString",
@@ -1514,6 +1646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecode conversion from latin1 to Unicode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "latin1ToUnicode",
           "package": "hxt-unicode",
@@ -1524,6 +1657,7 @@
         "index": {
           "description": "code conversion from latin1 to Unicode",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "latin1ToUnicode",
           "normalized": "String-\u003eUString",
@@ -1540,6 +1674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhite Space (XML Standard 2.3) and\n end of line handling (2.11)\n\u003c/p\u003e\u003cp\u003e#x0D and #x0D#x0A are mapped to #x0A\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "normalizeNL",
           "package": "hxt-unicode",
@@ -1550,6 +1685,7 @@
         "index": {
           "description": "White Space XML Standard and end of line handling x0D and x0D x0A are mapped to x0A",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "normalizeNL",
           "normalized": "String-\u003eString",
@@ -1566,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUCS-2 big endian to Unicode conversion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "ucs2BigEndianToUnicode",
           "package": "hxt-unicode",
@@ -1576,6 +1713,7 @@
         "index": {
           "description": "UCS-2 big endian to Unicode conversion",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "ucs2BigEndianToUnicode",
           "normalized": "String-\u003eUString",
@@ -1592,6 +1730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUCS-2 little endian to Unicode conversion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "ucs2LittleEndianToUnicode",
           "package": "hxt-unicode",
@@ -1602,6 +1741,7 @@
         "index": {
           "description": "UCS-2 little endian to Unicode conversion",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "ucs2LittleEndianToUnicode",
           "normalized": "String-\u003eUString",
@@ -1618,6 +1758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUCS-2 to UTF-8 conversion with byte order mark analysis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "ucs2ToUnicode",
           "package": "hxt-unicode",
@@ -1628,6 +1769,7 @@
         "index": {
           "description": "UCS-2 to UTF-8 conversion with byte order mark analysis",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "ucs2ToUnicode",
           "normalized": "String-\u003eUString",
@@ -1644,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubstitute all Unicode characters, that are not legal latin1\n UTF-8 XML characters by a character reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "unicodeCharToLatin1'",
           "package": "hxt-unicode",
@@ -1654,6 +1797,7 @@
         "index": {
           "description": "substitute all Unicode characters that are not legal latin1 UTF-8 XML characters by character reference",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "unicodeCharToLatin1'",
           "normalized": "Char-\u003eStringFct",
@@ -1670,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econversion from Unicode (Char) to a UTF8 encoded string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "unicodeCharToUtf8",
           "package": "hxt-unicode",
@@ -1680,6 +1825,7 @@
         "index": {
           "description": "conversion from Unicode Char to UTF8 encoded string",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "unicodeCharToUtf8",
           "normalized": "Unicode-\u003eUTF String",
@@ -1696,6 +1842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econversion from Unicode (Char) to a UTF8 encoded string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "unicodeCharToUtf8'",
           "package": "hxt-unicode",
@@ -1706,6 +1853,7 @@
         "index": {
           "description": "conversion from Unicode Char to UTF8 encoded string",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "unicodeCharToUtf8'",
           "normalized": "Char-\u003eStringFct",
@@ -1722,6 +1870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubstitute all Unicode characters, that are not legal 1-byte\n UTF-8 XML characters by a character reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "unicodeCharToXmlEntity'",
           "package": "hxt-unicode",
@@ -1732,6 +1881,7 @@
         "index": {
           "description": "substitute all Unicode characters that are not legal byte UTF-8 XML characters by character reference",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "unicodeCharToXmlEntity'",
           "normalized": "Char-\u003eStringFct",
@@ -1748,6 +1898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremoves all non ascii chars, may be used to transform\n a document into a pure ascii representation by removing\n all non ascii chars from tag and attibute names\n\u003c/p\u003e\u003cp\u003esee also : \u003ccode\u003e\u003ca\u003eunicodeRemoveNoneLatin1\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunicodeToXmlEntity\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "unicodeRemoveNoneAscii",
           "package": "hxt-unicode",
@@ -1758,6 +1909,7 @@
         "index": {
           "description": "removes all non ascii chars may be used to transform document into pure ascii representation by removing all non ascii chars from tag and attibute names see also unicodeRemoveNoneLatin1 unicodeToXmlEntity",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "unicodeRemoveNoneAscii",
           "normalized": "UString-\u003eString",
@@ -1774,6 +1926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremoves all non latin1 chars, may be used to transform\n a document into a pure ascii representation by removing\n all non ascii chars from tag and attibute names\n\u003c/p\u003e\u003cp\u003esee also : \u003ccode\u003e\u003ca\u003eunicodeRemoveNoneAscii\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunicodeToLatin1\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "unicodeRemoveNoneLatin1",
           "package": "hxt-unicode",
@@ -1784,6 +1937,7 @@
         "index": {
           "description": "removes all non latin1 chars may be used to transform document into pure ascii representation by removing all non ascii chars from tag and attibute names see also unicodeRemoveNoneAscii unicodeToLatin1",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "unicodeRemoveNoneLatin1",
           "normalized": "UString-\u003eString",
@@ -1800,6 +1954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubstitute all Unicode characters, that are not legal latin1\n UTF-8 XML characters by a character reference.\n\u003c/p\u003e\u003cp\u003eThis function can be used to translate all text nodes and\n attribute values into ISO latin1.\n\u003c/p\u003e\u003cp\u003esee also : \u003ccode\u003e\u003ca\u003eunicodeToXmlEntity\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "unicodeToLatin1",
           "package": "hxt-unicode",
@@ -1810,6 +1965,7 @@
         "index": {
           "description": "substitute all Unicode characters that are not legal latin1 UTF-8 XML characters by character reference This function can be used to translate all text nodes and attribute values into ISO latin1 see also unicodeToXmlEntity",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "unicodeToLatin1",
           "normalized": "UString-\u003eString",
@@ -1826,6 +1982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econversion from Unicode strings (UString) to UTF8 encoded strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "unicodeToUtf8",
           "package": "hxt-unicode",
@@ -1836,6 +1993,7 @@
         "index": {
           "description": "conversion from Unicode strings UString to UTF8 encoded strings",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "unicodeToUtf8",
           "normalized": "UString-\u003eUTF String",
@@ -1852,6 +2010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubstitute all Unicode characters, that are not legal 1-byte\n UTF-8 XML characters by a character reference.\n\u003c/p\u003e\u003cp\u003eThis function can be used to translate all text nodes and\n attribute values into pure ascii.\n\u003c/p\u003e\u003cp\u003esee also : \u003ccode\u003e\u003ca\u003eunicodeToLatin1\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "unicodeToXmlEntity",
           "package": "hxt-unicode",
@@ -1862,6 +2021,7 @@
         "index": {
           "description": "substitute all Unicode characters that are not legal byte UTF-8 XML characters by character reference This function can be used to translate all text nodes and attribute values into pure ascii see also unicodeToLatin1",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "unicodeToXmlEntity",
           "normalized": "UString-\u003eString",
@@ -1878,6 +2038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTF-16 big endian to UTF-8 conversion with removal of byte order mark\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "utf16beToUnicode",
           "package": "hxt-unicode",
@@ -1888,6 +2049,7 @@
         "index": {
           "description": "UTF-16 big endian to UTF-8 conversion with removal of byte order mark",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "utf16beToUnicode",
           "normalized": "String-\u003eUString",
@@ -1904,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTF-16 little endian to UTF-8 conversion with removal of byte order mark\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "utf16leToUnicode",
           "package": "hxt-unicode",
@@ -1914,6 +2077,7 @@
         "index": {
           "description": "UTF-16 little endian to UTF-8 conversion with removal of byte order mark",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "utf16leToUnicode",
           "normalized": "String-\u003eUString",
@@ -1930,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTF-8 to Unicode conversion with deletion of leading byte order mark, as described in XML standard F.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "utf8ToUnicode",
           "package": "hxt-unicode",
@@ -1940,6 +2105,7 @@
         "index": {
           "description": "UTF-8 to Unicode conversion with deletion of leading byte order mark as described in XML standard F.1",
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "utf8ToUnicode",
           "package": "hxt-unicode",
@@ -1953,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:40 UTC 2014",
           "module": "Data.String.Unicode",
           "name": "utf8ToUnicodeEmbedErrors",
           "package": "hxt-unicode",
@@ -1962,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Data String Unicode",
+          "indexed": "2014-03-11T18:54:40",
           "module": "Data.String.Unicode",
           "name": "utf8ToUnicodeEmbedErrors",
           "package": "hxt-unicode",

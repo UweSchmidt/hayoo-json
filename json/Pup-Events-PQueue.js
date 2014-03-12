@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Pup-Events-PQueue"
+        "phrase": "Pup-Events-PQueue",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements Priority Queues intended to be used with the STM module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:44 UTC 2014",
           "module": "PupEventsPQueue",
           "name": "PupEventsPQueue",
           "package": "Pup-Events-PQueue",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implements Priority Queues intended to be used with the STM module",
           "hierarchy": "PupEventsPQueue",
+          "indexed": "2014-03-11T16:57:44",
           "module": "PupEventsPQueue",
           "name": "PupEventsPQueue",
           "package": "Pup-Events-PQueue",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple alias so we have pretty types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:44 UTC 2014",
           "module": "PupEventsPQueue",
           "name": "PQueue",
           "package": "Pup-Events-PQueue",
@@ -51,6 +54,7 @@
         "index": {
           "description": "simple alias so we have pretty types",
           "hierarchy": "PupEventsPQueue",
+          "indexed": "2014-03-11T16:57:44",
           "module": "PupEventsPQueue",
           "name": "PQueue",
           "package": "Pup-Events-PQueue",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursively tries to read each priority level until it finds something.\n If it can't find any events it returns Nothing. Call using \u003ccode\u003eatomically $\n getThing pqueue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:44 UTC 2014",
           "module": "PupEventsPQueue",
           "name": "getThing",
           "package": "Pup-Events-PQueue",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Recursively tries to read each priority level until it finds something If it can find any events it returns Nothing Call using atomically getThing pqueue",
           "hierarchy": "PupEventsPQueue",
+          "indexed": "2014-03-11T16:57:44",
           "module": "PupEventsPQueue",
           "name": "getThing",
           "normalized": "PQueue a-\u003eSTM(Maybe a)",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an empty PQueue with the specified number of priority levels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:44 UTC 2014",
           "module": "PupEventsPQueue",
           "name": "makeQueues",
           "package": "Pup-Events-PQueue",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Returns an empty PQueue with the specified number of priority levels",
           "hierarchy": "PupEventsPQueue",
+          "indexed": "2014-03-11T16:57:44",
           "module": "PupEventsPQueue",
           "name": "makeQueues",
           "normalized": "Int-\u003eIO(PQueue a)",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites the given something to the given PQueue at the specified\n priority level. It does some checking to make sure we have a valid\n priority level. Call using \u003ccode\u003eatomically $ writeThing pqueue priority thing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:44 UTC 2014",
           "module": "PupEventsPQueue",
           "name": "writeThing",
           "package": "Pup-Events-PQueue",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Writes the given something to the given PQueue at the specified priority level It does some checking to make sure we have valid priority level Call using atomically writeThing pqueue priority thing",
           "hierarchy": "PupEventsPQueue",
+          "indexed": "2014-03-11T16:57:44",
           "module": "PupEventsPQueue",
           "name": "writeThing",
           "normalized": "PQueue a-\u003eInt-\u003ea-\u003eSTM()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hackage-proxy"
+        "phrase": "hackage-proxy",
+        "type": "phrase"
       },
       "type": "context"
     }

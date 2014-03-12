@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "test-sandbox-quickcheck"
+        "phrase": "test-sandbox-quickcheck",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:43 UTC 2014",
           "module": "Test.Sandbox.QuickCheck",
           "name": "QuickCheck",
           "package": "test-sandbox-quickcheck",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test Sandbox QuickCheck",
+          "indexed": "2014-03-11T20:19:43",
           "module": "Test.Sandbox.QuickCheck",
           "name": "QuickCheck",
           "package": "test-sandbox-quickcheck",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests a property and prints the results to stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:43 UTC 2014",
           "module": "Test.Sandbox.QuickCheck",
           "name": "quickCheck",
           "package": "test-sandbox-quickcheck",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Tests property and prints the results to stdout",
           "hierarchy": "Test Sandbox QuickCheck",
+          "indexed": "2014-03-11T20:19:43",
           "module": "Test.Sandbox.QuickCheck",
           "name": "quickCheck",
           "normalized": "PropertyM Sandbox()-\u003eSandbox()",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests a property, using test arguments, and prints the results to stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:43 UTC 2014",
           "module": "Test.Sandbox.QuickCheck",
           "name": "quickCheckWith",
           "package": "test-sandbox-quickcheck",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Tests property using test arguments and prints the results to stdout",
           "hierarchy": "Test Sandbox QuickCheck",
+          "indexed": "2014-03-11T20:19:43",
           "module": "Test.Sandbox.QuickCheck",
           "name": "quickCheckWith",
           "normalized": "Args-\u003ePropertyM Sandbox()-\u003eSandbox()",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests a property and prints the results and all test cases generated to stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:43 UTC 2014",
           "module": "Test.Sandbox.QuickCheck",
           "name": "verboseCheck",
           "package": "test-sandbox-quickcheck",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Tests property and prints the results and all test cases generated to stdout",
           "hierarchy": "Test Sandbox QuickCheck",
+          "indexed": "2014-03-11T20:19:43",
           "module": "Test.Sandbox.QuickCheck",
           "name": "verboseCheck",
           "normalized": "PropertyM Sandbox()-\u003eSandbox()",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests a property, using test arguments, and prints the results and all test cases generated to stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:43 UTC 2014",
           "module": "Test.Sandbox.QuickCheck",
           "name": "verboseCheckWith",
           "package": "test-sandbox-quickcheck",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Tests property using test arguments and prints the results and all test cases generated to stdout",
           "hierarchy": "Test Sandbox QuickCheck",
+          "indexed": "2014-03-11T20:19:43",
           "module": "Test.Sandbox.QuickCheck",
           "name": "verboseCheckWith",
           "normalized": "Args-\u003ePropertyM Sandbox()-\u003eSandbox()",

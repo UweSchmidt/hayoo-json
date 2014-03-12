@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fibon"
+        "phrase": "fibon",
+        "type": "phrase"
       },
       "type": "context"
     }

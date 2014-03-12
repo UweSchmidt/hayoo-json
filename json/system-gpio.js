@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "system-gpio"
+        "phrase": "system-gpio",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "Pin",
           "package": "system-gpio",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "Pin",
           "package": "system-gpio",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "Pin",
           "package": "system-gpio",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "Pin",
           "package": "system-gpio",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "PinMode",
           "package": "system-gpio",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "PinMode",
           "package": "system-gpio",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "Value",
           "package": "system-gpio",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "Value",
           "package": "system-gpio",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "In",
           "package": "system-gpio",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "In",
           "package": "system-gpio",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "One",
           "package": "system-gpio",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "One",
           "package": "system-gpio",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "Out",
           "package": "system-gpio",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "Out",
           "package": "system-gpio",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "Pin",
           "package": "system-gpio",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "Pin",
           "package": "system-gpio",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "Pwm",
           "package": "system-gpio",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "Pwm",
           "package": "system-gpio",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "Zero",
           "package": "system-gpio",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "Zero",
           "package": "system-gpio",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "close",
           "package": "system-gpio",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "close",
           "normalized": "Pin-\u003eIO()",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "dir",
           "package": "system-gpio",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "dir",
           "package": "system-gpio",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "global_DEVICE_PATH",
           "package": "system-gpio",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "global_DEVICE_PATH",
           "normalized": "a-\u003e[Char]",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "global_DIRECTION_PATH",
           "package": "system-gpio",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "global_DIRECTION_PATH",
           "normalized": "a-\u003e[Char]",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "global_EXPORT_PATH",
           "package": "system-gpio",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "global_EXPORT_PATH",
           "normalized": "[Char]",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "global_GPIO_PATH",
           "package": "system-gpio",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "global_GPIO_PATH",
           "normalized": "[Char]",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "global_UNEXPORT_PATH",
           "package": "system-gpio",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "global_UNEXPORT_PATH",
           "normalized": "[Char]",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "global_VALUE_PATH",
           "package": "system-gpio",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "global_VALUE_PATH",
           "normalized": "a-\u003e[Char]",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "handle",
           "package": "system-gpio",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "handle",
           "package": "system-gpio",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "init",
           "package": "system-gpio",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "init",
           "normalized": "Int-\u003ePinMode-\u003eIO Pin",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "num",
           "package": "system-gpio",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "num",
           "package": "system-gpio",
@@ -488,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einit pin_number direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "openWriteClose",
           "package": "system-gpio",
@@ -498,6 +541,7 @@
         "index": {
           "description": "init pin number direction",
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "openWriteClose",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "pinMapping",
           "package": "system-gpio",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "pinMapping",
           "package": "system-gpio",
@@ -535,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "read",
           "package": "system-gpio",
@@ -544,6 +591,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "read",
           "normalized": "Pin-\u003eIO Value",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:47 UTC 2014",
           "module": "System.Hardware.GPIO.Pin",
           "name": "set",
           "package": "system-gpio",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "System Hardware GPIO Pin",
+          "indexed": "2014-03-11T20:15:47",
           "module": "System.Hardware.GPIO.Pin",
           "name": "set",
           "normalized": "Pin-\u003eValue-\u003eIO()",

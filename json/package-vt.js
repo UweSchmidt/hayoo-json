@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "package-vt"
+        "phrase": "package-vt",
+        "type": "phrase"
       },
       "type": "context"
     }

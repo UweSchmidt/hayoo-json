@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "classy-prelude-conduit"
+        "phrase": "classy-prelude-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:33 UTC 2014",
           "module": "ClassyPrelude.Conduit",
           "name": "Conduit",
           "package": "classy-prelude-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "ClassyPrelude Conduit",
+          "indexed": "2014-03-11T17:33:33",
           "module": "ClassyPrelude.Conduit",
           "name": "Conduit",
           "package": "classy-prelude-conduit",

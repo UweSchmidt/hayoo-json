@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pugs-DrIFT"
+        "phrase": "pugs-DrIFT",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.JSON",
           "name": "JSON",
           "package": "pugs-DrIFT",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DrIFT JSON",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.JSON",
           "name": "JSON",
           "package": "pugs-DrIFT",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.JSON",
           "name": "JSON",
           "package": "pugs-DrIFT",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "DrIFT JSON",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.JSON",
           "name": "JSON",
           "package": "pugs-DrIFT",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.JSON",
           "name": "JSONClass",
           "package": "pugs-DrIFT",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "DrIFT JSON",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.JSON",
           "name": "JSONClass",
           "package": "pugs-DrIFT",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.JSON",
           "name": "JSONKey",
           "package": "pugs-DrIFT",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "DrIFT JSON",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.JSON",
           "name": "JSONKey",
           "package": "pugs-DrIFT",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.JSON",
           "name": "JSONVal",
           "package": "pugs-DrIFT",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "DrIFT JSON",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.JSON",
           "name": "JSONVal",
           "package": "pugs-DrIFT",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.JSON",
           "name": "showJSArray",
           "package": "pugs-DrIFT",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "DrIFT JSON",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.JSON",
           "name": "showJSArray",
           "normalized": "[JSONVal]-\u003eString",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.JSON",
           "name": "showJSArrayObj",
           "package": "pugs-DrIFT",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "DrIFT JSON",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.JSON",
           "name": "showJSArrayObj",
           "normalized": "JSONClass-\u003e[JSONVal]-\u003eString",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.JSON",
           "name": "showJSHash",
           "package": "pugs-DrIFT",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "DrIFT JSON",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.JSON",
           "name": "showJSHash",
           "normalized": "[(JSONKey,JSONVal)]-\u003eString",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.JSON",
           "name": "showJSHashObj",
           "package": "pugs-DrIFT",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "DrIFT JSON",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.JSON",
           "name": "showJSHashObj",
           "normalized": "JSONClass-\u003e[(JSONKey,JSONVal)]-\u003eString",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.JSON",
           "name": "showJSON",
           "package": "pugs-DrIFT",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "DrIFT JSON",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.JSON",
           "name": "showJSON",
           "normalized": "a-\u003eString",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.JSON",
           "name": "showJSObj",
           "package": "pugs-DrIFT",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "DrIFT JSON",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.JSON",
           "name": "showJSObj",
           "normalized": "(a-\u003eString)-\u003eJSONClass-\u003ea-\u003eString",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.JSON",
           "name": "showJSScalar",
           "package": "pugs-DrIFT",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "DrIFT JSON",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.JSON",
           "name": "showJSScalar",
           "normalized": "JSONClass-\u003eString",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl5",
           "name": "Perl5",
           "package": "pugs-DrIFT",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl5",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl5",
           "name": "Perl5",
           "package": "pugs-DrIFT",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl5",
           "name": "Perl5",
           "package": "pugs-DrIFT",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl5",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl5",
           "name": "Perl5",
           "package": "pugs-DrIFT",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl5",
           "name": "Perl5Class",
           "package": "pugs-DrIFT",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl5",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl5",
           "name": "Perl5Class",
           "package": "pugs-DrIFT",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl5",
           "name": "Perl5Key",
           "package": "pugs-DrIFT",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl5",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl5",
           "name": "Perl5Key",
           "package": "pugs-DrIFT",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl5",
           "name": "Perl5Val",
           "package": "pugs-DrIFT",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl5",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl5",
           "name": "Perl5Val",
           "package": "pugs-DrIFT",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl5",
           "name": "showP5Array",
           "package": "pugs-DrIFT",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl5",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl5",
           "name": "showP5Array",
           "normalized": "[Perl Val]-\u003eString",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl5",
           "name": "showP5ArrayObj",
           "package": "pugs-DrIFT",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl5",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl5",
           "name": "showP5ArrayObj",
           "normalized": "Perl Class-\u003e[Perl Val]-\u003eString",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl5",
           "name": "showP5Class",
           "package": "pugs-DrIFT",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl5",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl5",
           "name": "showP5Class",
           "normalized": "Perl Class-\u003eString",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl5",
           "name": "showP5Hash",
           "package": "pugs-DrIFT",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl5",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl5",
           "name": "showP5Hash",
           "normalized": "[(Perl Key,Perl Val)]-\u003eString",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl5",
           "name": "showP5HashObj",
           "package": "pugs-DrIFT",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl5",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl5",
           "name": "showP5HashObj",
           "normalized": "Perl Class-\u003e[(Perl Key,Perl Val)]-\u003eString",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl5",
           "name": "showP5Obj",
           "package": "pugs-DrIFT",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl5",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl5",
           "name": "showP5Obj",
           "normalized": "(a-\u003eString)-\u003ePerl Class-\u003ea-\u003eString",
@@ -540,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl5",
           "name": "showPerl5",
           "package": "pugs-DrIFT",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl5",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl5",
           "name": "showPerl5",
           "normalized": "a-\u003eString",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "Perl6Class",
           "package": "pugs-DrIFT",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "Perl6Class",
           "package": "pugs-DrIFT",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "MooseClass",
           "package": "pugs-DrIFT",
@@ -593,6 +644,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "MooseClass",
           "package": "pugs-DrIFT",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "NamespaceMangler",
           "package": "pugs-DrIFT",
@@ -614,6 +667,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "NamespaceMangler",
           "package": "pugs-DrIFT",
@@ -628,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etypeclass for dumping literals in Perl 6 source code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "PLit",
           "package": "pugs-DrIFT",
@@ -637,6 +692,7 @@
         "index": {
           "description": "typeclass for dumping literals in Perl source code",
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "PLit",
           "package": "pugs-DrIFT",
@@ -650,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "Perl6Class",
           "package": "pugs-DrIFT",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "Perl6Class",
           "package": "pugs-DrIFT",
@@ -671,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "asPerl6Object",
           "package": "pugs-DrIFT",
@@ -680,6 +739,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "asPerl6Object",
           "normalized": "a-\u003eString",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "plShow",
           "package": "pugs-DrIFT",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "plShow",
           "normalized": "a-\u003eString",
@@ -719,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "qbraces",
           "package": "pugs-DrIFT",
@@ -728,6 +791,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "qbraces",
           "normalized": "[Doc]-\u003e[Doc]",
@@ -742,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "qt",
           "package": "pugs-DrIFT",
@@ -751,6 +816,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "qt",
           "normalized": "String-\u003eDoc",
@@ -765,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "showKV",
           "package": "pugs-DrIFT",
@@ -774,6 +841,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "showKV",
           "normalized": "(a,b)-\u003eDoc",
@@ -790,6 +858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn FPS version of \u003ccode\u003eshowStringLiteral\u003c/code\u003e.\n   Since the pretty-printing library isn't fps, this isn't\n   as fast as it might have been.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "showLLiteral",
           "package": "pugs-DrIFT",
@@ -800,6 +869,7 @@
         "index": {
           "description": "An FPS version of showStringLiteral Since the pretty-printing library isn fps this isn as fast as it might have been",
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "showLLiteral",
           "normalized": "ByteString-\u003e[Doc]",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "showMooseClassDef",
           "package": "pugs-DrIFT",
@@ -823,6 +894,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "showMooseClassDef",
           "normalized": "NamespaceMangler-\u003eString-\u003eString-\u003e[(String,String,String)]-\u003eString",
@@ -838,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "showMooseRoleDef",
           "package": "pugs-DrIFT",
@@ -846,6 +919,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "showMooseRoleDef",
           "normalized": "NamespaceMangler-\u003eString-\u003eString",
@@ -861,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "showMooseTypeDef",
           "package": "pugs-DrIFT",
@@ -870,6 +945,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "showMooseTypeDef",
           "normalized": "NamespaceMangler-\u003ea-\u003eString",
@@ -885,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "showPerl6ClassDef",
           "package": "pugs-DrIFT",
@@ -893,6 +970,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "showPerl6ClassDef",
           "normalized": "NamespaceMangler-\u003eString-\u003eString-\u003e[(String,String,String)]-\u003eString",
@@ -908,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "showPerl6RoleDef",
           "package": "pugs-DrIFT",
@@ -916,6 +995,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "showPerl6RoleDef",
           "normalized": "NamespaceMangler-\u003eString-\u003eString",
@@ -931,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "showPerl6TypeDef",
           "package": "pugs-DrIFT",
@@ -940,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "showPerl6TypeDef",
           "normalized": "NamespaceMangler-\u003ea-\u003eString",
@@ -956,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn FPS version of \u003ccode\u003eshowStringLiteral\u003c/code\u003e.\n   Since the pretty-printing library isn't fps, this isn't\n   as fast as it might have been.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "showSLiteral",
           "package": "pugs-DrIFT",
@@ -966,6 +1049,7 @@
         "index": {
           "description": "An FPS version of showStringLiteral Since the pretty-printing library isn fps this isn as fast as it might have been",
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "showSLiteral",
           "normalized": "ByteString-\u003e[Doc]",
@@ -982,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a string into source-code fitting Perl 6 string literal.\n   May result in code for concatenation of several such literals.\n   The restult is a [Doc] rather than a single String so that\n   calling pretty-printers can render linebreaks at the correct places\n   trivially with cat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "showStringLiteral",
           "package": "pugs-DrIFT",
@@ -992,6 +1077,7 @@
         "index": {
           "description": "Turn string into source-code fitting Perl string literal May result in code for concatenation of several such literals The restult is Doc rather than single String so that calling pretty-printers can render linebreaks at the correct places trivially with cat",
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "showStringLiteral",
           "normalized": "String-\u003e[Doc]",
@@ -1007,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.Perl6Class",
           "name": "ts",
           "package": "pugs-DrIFT",
@@ -1016,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "DrIFT Perl6Class",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.Perl6Class",
           "name": "ts",
           "normalized": "a-\u003eDoc",
@@ -1030,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "YAML",
           "package": "pugs-DrIFT",
@@ -1038,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "YAML",
           "package": "pugs-DrIFT",
@@ -1051,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "Buf",
           "package": "pugs-DrIFT",
@@ -1059,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "Buf",
           "package": "pugs-DrIFT",
@@ -1072,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "DuplHash",
           "package": "pugs-DrIFT",
@@ -1080,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "DuplHash",
           "package": "pugs-DrIFT",
@@ -1093,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "EmitAs",
           "package": "pugs-DrIFT",
@@ -1101,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "EmitAs",
           "package": "pugs-DrIFT",
@@ -1114,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "SeenCache",
           "package": "pugs-DrIFT",
@@ -1122,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "SeenCache",
           "package": "pugs-DrIFT",
@@ -1135,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "SeenHash",
           "package": "pugs-DrIFT",
@@ -1143,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "SeenHash",
           "package": "pugs-DrIFT",
@@ -1156,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "YAML",
           "package": "pugs-DrIFT",
@@ -1164,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "YAML",
           "package": "pugs-DrIFT",
@@ -1177,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "YAMLClass",
           "package": "pugs-DrIFT",
@@ -1185,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "YAMLClass",
           "package": "pugs-DrIFT",
@@ -1198,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "YAMLKey",
           "package": "pugs-DrIFT",
@@ -1206,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "YAMLKey",
           "package": "pugs-DrIFT",
@@ -1219,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "YAMLVal",
           "package": "pugs-DrIFT",
@@ -1227,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "YAMLVal",
           "package": "pugs-DrIFT",
@@ -1240,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "asYAML",
           "package": "pugs-DrIFT",
@@ -1249,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "asYAML",
           "normalized": "a-\u003eEmitAs YamlNode",
@@ -1264,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "asYAMLanchor",
           "package": "pugs-DrIFT",
@@ -1273,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "asYAMLanchor",
           "normalized": "a-\u003eEmitAs YamlNode-\u003eEmitAs YamlNode",
@@ -1288,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "asYAMLcls",
           "package": "pugs-DrIFT",
@@ -1297,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "asYAMLcls",
           "normalized": "YAMLClass-\u003eEmitAs YamlNode",
@@ -1312,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "asYAMLmap",
           "package": "pugs-DrIFT",
@@ -1321,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "asYAMLmap",
           "normalized": "YAMLClass-\u003e[(YAMLKey,EmitAs YAMLVal)]-\u003eEmitAs YamlNode",
@@ -1336,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "asYAMLmapBuf",
           "package": "pugs-DrIFT",
@@ -1345,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "asYAMLmapBuf",
           "normalized": "YAMLClass-\u003e[(ByteString,EmitAs YAMLVal)]-\u003eEmitAs YamlNode",
@@ -1360,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "asYAMLseq",
           "package": "pugs-DrIFT",
@@ -1369,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "asYAMLseq",
           "normalized": "YAMLClass-\u003e[EmitAs YAMLVal]-\u003eEmitAs YamlNode",
@@ -1384,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "asYAMLwith",
           "package": "pugs-DrIFT",
@@ -1393,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "asYAMLwith",
           "normalized": "(a-\u003eEmitAs b)-\u003ea-\u003eEmitAs YamlNode",
@@ -1408,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "compressYamlNode",
           "package": "pugs-DrIFT",
@@ -1417,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "compressYamlNode",
           "normalized": "YamlNode-\u003eIO YamlNode",
@@ -1432,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "deTag",
           "package": "pugs-DrIFT",
@@ -1441,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "deTag",
           "normalized": "YamlNode-\u003eYAMLClass",
@@ -1456,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "eqElem",
           "package": "pugs-DrIFT",
@@ -1465,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "eqElem",
           "normalized": "YamlElem-\u003eYamlElem-\u003eBool",
@@ -1480,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "eqNode",
           "package": "pugs-DrIFT",
@@ -1489,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "eqNode",
           "normalized": "YamlNode-\u003eYamlNode-\u003eBool",
@@ -1504,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "failWith",
           "package": "pugs-DrIFT",
@@ -1513,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "failWith",
           "normalized": "YamlElem-\u003eIO a",
@@ -1528,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "fromYAML",
           "package": "pugs-DrIFT",
@@ -1537,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "fromYAML",
           "normalized": "YamlNode-\u003eIO a",
@@ -1552,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "fromYAMLElem",
           "package": "pugs-DrIFT",
@@ -1561,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "fromYAMLElem",
           "normalized": "YamlElem-\u003eIO a",
@@ -1576,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "fromYAMLmap",
           "package": "pugs-DrIFT",
@@ -1585,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "fromYAMLmap",
           "normalized": "YamlNode-\u003eIO[(String,a)]",
@@ -1600,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "fromYAMLmapBuf",
           "package": "pugs-DrIFT",
@@ -1609,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "fromYAMLmapBuf",
           "normalized": "YamlNode-\u003eIO[(ByteString,a)]",
@@ -1624,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "fromYAMLseq",
           "package": "pugs-DrIFT",
@@ -1633,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "fromYAMLseq",
           "normalized": "YamlNode-\u003eIO[a]",
@@ -1648,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "fromYamlString",
           "package": "pugs-DrIFT",
@@ -1657,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "fromYamlString",
           "normalized": "String-\u003eIO a",
@@ -1672,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "golden",
           "package": "pugs-DrIFT",
@@ -1681,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "golden",
           "package": "pugs-DrIFT",
@@ -1693,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "hashByteString",
           "package": "pugs-DrIFT",
@@ -1702,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "hashByteString",
           "normalized": "ByteString-\u003eInt",
@@ -1717,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "hashIDs",
           "package": "pugs-DrIFT",
@@ -1726,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "hashIDs",
           "normalized": "[SYMID]-\u003eInt",
@@ -1741,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "iterI32s",
           "package": "pugs-DrIFT",
@@ -1750,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "iterI32s",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -1764,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "iterIDs",
           "package": "pugs-DrIFT",
@@ -1773,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "iterIDs",
           "normalized": "Int-\u003eSYMID-\u003eInt",
@@ -1788,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "markElem",
           "package": "pugs-DrIFT",
@@ -1797,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "markElem",
           "normalized": "YamlElem-\u003eIO(Int,YamlElem)",
@@ -1812,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "markNode",
           "package": "pugs-DrIFT",
@@ -1821,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "markNode",
           "normalized": "YamlNode-\u003eIO YamlNode",
@@ -1836,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "mulHi",
           "package": "pugs-DrIFT",
@@ -1845,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "mulHi",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -1860,6 +2020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "showYaml",
           "package": "pugs-DrIFT",
@@ -1869,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "showYaml",
           "normalized": "a-\u003eIO String",
@@ -1884,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "showYamlCompressed",
           "package": "pugs-DrIFT",
@@ -1893,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "showYamlCompressed",
           "normalized": "a-\u003eIO String",
@@ -1908,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "tagHs",
           "package": "pugs-DrIFT",
@@ -1917,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "tagHs",
           "normalized": "YAMLClass-\u003eString",
@@ -1932,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "toYamlNode",
           "package": "pugs-DrIFT",
@@ -1941,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "toYamlNode",
           "normalized": "a-\u003eIO YamlNode",
@@ -1956,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "toYamlString",
           "package": "pugs-DrIFT",
@@ -1965,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "toYamlString",
           "normalized": "a-\u003eIO String",
@@ -1980,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "visitElem",
           "package": "pugs-DrIFT",
@@ -1989,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "visitElem",
           "normalized": "YamlElem-\u003eIO YamlElem",
@@ -2004,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:54 UTC 2014",
           "module": "DrIFT.YAML",
           "name": "visitNode",
           "package": "pugs-DrIFT",
@@ -2013,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "DrIFT YAML",
+          "indexed": "2014-03-11T19:45:54",
           "module": "DrIFT.YAML",
           "name": "visitNode",
           "normalized": "YamlNode-\u003eIO YamlNode",

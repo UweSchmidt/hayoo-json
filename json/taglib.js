@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "taglib"
+        "phrase": "taglib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHigh level interface to read and write ID3 tag fields (album, artist,\n comment, genre, title, track number, year) and get audio properties (length,\n bit rate, sample rate, channels)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "TagLib",
           "package": "taglib",
@@ -28,6 +29,7 @@
         "index": {
           "description": "High level interface to read and write ID3 tag fields album artist comment genre title track number year and get audio properties length bit rate sample rate channels",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "TagLib",
           "package": "taglib",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "AudioProperties",
           "package": "taglib",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "AudioProperties",
           "package": "taglib",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "Tag",
           "package": "taglib",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "Tag",
           "package": "taglib",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "TagFile",
           "package": "taglib",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "TagFile",
           "package": "taglib",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an album string from a Tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "album",
           "package": "taglib",
@@ -115,6 +124,7 @@
         "index": {
           "description": "Get an album string from Tag",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "album",
           "normalized": "Tag-\u003eIO String",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an artist string from a Tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "artist",
           "package": "taglib",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Get an artist string from Tag",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "artist",
           "normalized": "Tag-\u003eIO String",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the AudioProperties from a TagFile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "audioProperties",
           "package": "taglib",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Get the AudioProperties from TagFile",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "audioProperties",
           "normalized": "TagFile-\u003eIO(Maybe AudioProperties)",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the bitRate from AudioProperties\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "bitRate",
           "package": "taglib",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Get the bitRate from AudioProperties",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "bitRate",
           "normalized": "AudioProperties-\u003eIO Integer",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of channels from AudioProperties\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "channels",
           "package": "taglib",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Get the number of channels from AudioProperties",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "channels",
           "normalized": "AudioProperties-\u003eIO Integer",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the comment string from a Tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "comment",
           "package": "taglib",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Get the comment string from Tag",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "comment",
           "normalized": "Tag-\u003eIO String",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the duration (in seconds) from AudioProperties \nIn TagLib, this is named length.  This is renamed so that it doesn't conflict with the Prelude length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "duration",
           "package": "taglib",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Get the duration in seconds from AudioProperties In TagLib this is named length This is renamed so that it doesn conflict with the Prelude length",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "duration",
           "normalized": "AudioProperties-\u003eIO Integer",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the comment string from a Tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "genre",
           "package": "taglib",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Get the comment string from Tag",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "genre",
           "normalized": "Tag-\u003eIO String",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a filename and possibly get a TagFile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "open",
           "package": "taglib",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Open filename and possibly get TagFile",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "open",
           "normalized": "String-\u003eIO(Maybe TagFile)",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the sampleRate from AudioProperties\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "sampleRate",
           "package": "taglib",
@@ -342,6 +369,7 @@
         "index": {
           "description": "Get the sampleRate from AudioProperties",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "sampleRate",
           "normalized": "AudioProperties-\u003eIO Integer",
@@ -358,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave changes to a tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "save",
           "package": "taglib",
@@ -368,6 +397,7 @@
         "index": {
           "description": "Save changes to tag",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "save",
           "normalized": "TagFile-\u003eIO Integer",
@@ -383,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the album of a tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "setAlbum",
           "package": "taglib",
@@ -393,6 +424,7 @@
         "index": {
           "description": "Set the album of tag",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "setAlbum",
           "normalized": "Tag-\u003eString-\u003eIO()",
@@ -409,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the artist of a tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "setArtist",
           "package": "taglib",
@@ -419,6 +452,7 @@
         "index": {
           "description": "Set the artist of tag",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "setArtist",
           "normalized": "Tag-\u003eString-\u003eIO()",
@@ -435,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the comment of a tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "setComment",
           "package": "taglib",
@@ -445,6 +480,7 @@
         "index": {
           "description": "Set the comment of tag",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "setComment",
           "normalized": "Tag-\u003eString-\u003eIO()",
@@ -461,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the genre of a tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "setGenre",
           "package": "taglib",
@@ -471,6 +508,7 @@
         "index": {
           "description": "Set the genre of tag",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "setGenre",
           "normalized": "Tag-\u003eString-\u003eIO()",
@@ -487,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the title of a tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "setTitle",
           "package": "taglib",
@@ -497,6 +536,7 @@
         "index": {
           "description": "Set the title of tag",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "setTitle",
           "normalized": "Tag-\u003eString-\u003eIO()",
@@ -513,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the track of a tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "setTrack",
           "package": "taglib",
@@ -523,6 +564,7 @@
         "index": {
           "description": "Set the track of tag",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "setTrack",
           "normalized": "Tag-\u003eInteger-\u003eIO()",
@@ -539,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the year of a tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "setYear",
           "package": "taglib",
@@ -549,6 +592,7 @@
         "index": {
           "description": "Set the year of tag",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "setYear",
           "normalized": "Tag-\u003eInteger-\u003eIO()",
@@ -565,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a Tag from a TagFile, if it has one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "tag",
           "package": "taglib",
@@ -575,6 +620,7 @@
         "index": {
           "description": "Get Tag from TagFile if it has one",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "tag",
           "normalized": "TagFile-\u003eIO(Maybe Tag)",
@@ -590,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a title string from a Tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "title",
           "package": "taglib",
@@ -600,6 +647,7 @@
         "index": {
           "description": "Get title string from Tag",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "title",
           "normalized": "Tag-\u003eIO String",
@@ -615,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the track number from a Tag.  Empty values will be 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "track",
           "package": "taglib",
@@ -625,6 +674,7 @@
         "index": {
           "description": "Get the track number from Tag Empty values will be",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "track",
           "normalized": "Tag-\u003eIO Integer",
@@ -640,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the year from a Tag.  Empty values will be 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:39 UTC 2014",
           "module": "Sound.TagLib",
           "name": "year",
           "package": "taglib",
@@ -650,6 +701,7 @@
         "index": {
           "description": "Get the year from Tag Empty values will be",
           "hierarchy": "Sound TagLib",
+          "indexed": "2014-03-11T20:16:39",
           "module": "Sound.TagLib",
           "name": "year",
           "normalized": "Tag-\u003eIO Integer",

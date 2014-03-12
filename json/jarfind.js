@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "jarfind"
+        "phrase": "jarfind",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "JarFind",
           "package": "jarfind",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "JarFind",
           "package": "jarfind",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "Access",
           "package": "jarfind",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "Access",
           "package": "jarfind",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "Class",
           "package": "jarfind",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "Class",
           "package": "jarfind",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "ClassFileSource",
           "package": "jarfind",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "ClassFileSource",
           "package": "jarfind",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "Location",
           "package": "jarfind",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "Location",
           "package": "jarfind",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "Member",
           "package": "jarfind",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "Member",
           "package": "jarfind",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "Class",
           "package": "jarfind",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "Class",
           "package": "jarfind",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "ClassFile",
           "package": "jarfind",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "ClassFile",
           "package": "jarfind",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "ClassPath",
           "package": "jarfind",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "ClassPath",
           "package": "jarfind",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "Field",
           "package": "jarfind",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "Field",
           "package": "jarfind",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "InFile",
           "package": "jarfind",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "InFile",
           "package": "jarfind",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "InJar",
           "package": "jarfind",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "InJar",
           "package": "jarfind",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "JarFile",
           "package": "jarfind",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "JarFile",
           "package": "jarfind",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "Method",
           "package": "jarfind",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "Method",
           "package": "jarfind",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "Package",
           "package": "jarfind",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "Package",
           "package": "jarfind",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "Private",
           "package": "jarfind",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "Private",
           "package": "jarfind",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "Protected",
           "package": "jarfind",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "Protected",
           "package": "jarfind",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "Public",
           "package": "jarfind",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "Public",
           "package": "jarfind",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "clsAccess",
           "package": "jarfind",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "clsAccess",
           "package": "jarfind",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "clsIsInterface",
           "package": "jarfind",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "clsIsInterface",
           "package": "jarfind",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "clsMembers",
           "package": "jarfind",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "clsMembers",
           "normalized": "[Member]",
@@ -476,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "clsName",
           "package": "jarfind",
@@ -485,6 +528,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "clsName",
           "package": "jarfind",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "innerPath",
           "package": "jarfind",
@@ -507,6 +552,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "innerPath",
           "package": "jarfind",
@@ -520,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "jarPath",
           "package": "jarfind",
@@ -529,6 +576,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "jarPath",
           "package": "jarfind",
@@ -542,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "mAccess",
           "package": "jarfind",
@@ -551,6 +600,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "mAccess",
           "package": "jarfind",
@@ -564,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "mName",
           "package": "jarfind",
@@ -573,6 +624,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "mName",
           "package": "jarfind",
@@ -586,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "mSig",
           "package": "jarfind",
@@ -595,6 +648,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "mSig",
           "package": "jarfind",
@@ -608,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "parseClassFile",
           "package": "jarfind",
@@ -617,6 +672,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "parseClassFile",
           "normalized": "ByteString-\u003eClass",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "parseFileSource",
           "package": "jarfind",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "parseFileSource",
           "normalized": "ClassFileSource-\u003eIO[(Location,Class)]",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "path",
           "package": "jarfind",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "path",
           "package": "jarfind",
@@ -677,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:05 UTC 2014",
           "module": "JarFind",
           "name": "paths",
           "package": "jarfind",
@@ -686,6 +747,7 @@
         },
         "index": {
           "hierarchy": "JarFind",
+          "indexed": "2014-03-11T19:01:05",
           "module": "JarFind",
           "name": "paths",
           "normalized": "[ClassFileSource]",

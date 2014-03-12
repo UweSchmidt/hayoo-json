@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "attoparsec-iteratee"
+        "phrase": "attoparsec-iteratee",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA function to convert attoparsec \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003es into \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:44 UTC 2014",
           "module": "Data.Attoparsec.Iteratee",
           "name": "Iteratee",
           "package": "attoparsec-iteratee",
@@ -28,6 +29,7 @@
         "index": {
           "description": "function to convert attoparsec Parser into Iteratee",
           "hierarchy": "Data Attoparsec Iteratee",
+          "indexed": "2014-03-11T17:14:44",
           "module": "Data.Attoparsec.Iteratee",
           "name": "Iteratee",
           "package": "attoparsec-iteratee",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:44 UTC 2014",
           "module": "Data.Attoparsec.Iteratee",
           "name": "ParseError",
           "package": "attoparsec-iteratee",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Attoparsec Iteratee",
+          "indexed": "2014-03-11T17:14:44",
           "module": "Data.Attoparsec.Iteratee",
           "name": "ParseError",
           "package": "attoparsec-iteratee",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:44 UTC 2014",
           "module": "Data.Attoparsec.Iteratee",
           "name": "ParseError",
           "package": "attoparsec-iteratee",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Attoparsec Iteratee",
+          "indexed": "2014-03-11T17:14:44",
           "module": "Data.Attoparsec.Iteratee",
           "name": "ParseError",
           "package": "attoparsec-iteratee",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:44 UTC 2014",
           "module": "Data.Attoparsec.Iteratee",
           "name": "errorContexts",
           "package": "attoparsec-iteratee",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Attoparsec Iteratee",
+          "indexed": "2014-03-11T17:14:44",
           "module": "Data.Attoparsec.Iteratee",
           "name": "errorContexts",
           "normalized": "[String]",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:44 UTC 2014",
           "module": "Data.Attoparsec.Iteratee",
           "name": "errorMessage",
           "package": "attoparsec-iteratee",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Attoparsec Iteratee",
+          "indexed": "2014-03-11T17:14:44",
           "module": "Data.Attoparsec.Iteratee",
           "name": "errorMessage",
           "package": "attoparsec-iteratee",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to convert attoparsec \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003es into \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:44 UTC 2014",
           "module": "Data.Attoparsec.Iteratee",
           "name": "parserToIteratee",
           "package": "attoparsec-iteratee",
@@ -141,6 +152,7 @@
         "index": {
           "description": "function to convert attoparsec Parser into Iteratee",
           "hierarchy": "Data Attoparsec Iteratee",
+          "indexed": "2014-03-11T17:14:44",
           "module": "Data.Attoparsec.Iteratee",
           "name": "parserToIteratee",
           "normalized": "Parser a-\u003eIteratee ByteString b a",

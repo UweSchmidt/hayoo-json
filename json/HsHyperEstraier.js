@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HsHyperEstraier"
+        "phrase": "HsHyperEstraier",
+        "type": "phrase"
       },
       "type": "context"
     }

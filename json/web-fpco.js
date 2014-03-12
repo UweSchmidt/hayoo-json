@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "web-fpco"
+        "phrase": "web-fpco",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:37 UTC 2014",
           "module": "Happstack.Server.Env",
           "name": "Env",
           "package": "web-fpco",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Env",
+          "indexed": "2014-03-11T20:37:37",
           "module": "Happstack.Server.Env",
           "name": "Env",
           "package": "web-fpco",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alternate \u003ccode\u003esimpleHTTP\u003c/code\u003e which reads the port to listen to from the PORT\n environment variable. This configuration approach is used by the FP Complete\n School of Haskell and the Keter deployment manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:37 UTC 2014",
           "module": "Happstack.Server.Env",
           "name": "simpleHTTP",
           "package": "web-fpco",
@@ -50,6 +53,7 @@
         "index": {
           "description": "An alternate simpleHTTP which reads the port to listen to from the PORT environment variable This configuration approach is used by the FP Complete School of Haskell and the Keter deployment manager",
           "hierarchy": "Happstack Server Env",
+          "indexed": "2014-03-11T20:37:37",
           "module": "Happstack.Server.Env",
           "name": "simpleHTTP",
           "normalized": "Conf-\u003eServerPartT IO a-\u003eIO()",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:37 UTC 2014",
           "module": "Snap.Http.Server.Env",
           "name": "Env",
           "package": "web-fpco",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Snap Http Server Env",
+          "indexed": "2014-03-11T20:37:37",
           "module": "Snap.Http.Server.Env",
           "name": "Env",
           "package": "web-fpco",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alternate \u003ccode\u003ehttpServe\u003c/code\u003e which reads the port to listen to from the PORT\n environment variable. This configuration approach is used by the FP Complete\n School of Haskell and the Keter deployment manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:37 UTC 2014",
           "module": "Snap.Http.Server.Env",
           "name": "httpServe",
           "package": "web-fpco",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An alternate httpServe which reads the port to listen to from the PORT environment variable This configuration approach is used by the FP Complete School of Haskell and the Keter deployment manager",
           "hierarchy": "Snap Http Server Env",
+          "indexed": "2014-03-11T20:37:37",
           "module": "Snap.Http.Server.Env",
           "name": "httpServe",
           "normalized": "Config Snap a-\u003eSnap()-\u003eIO()",

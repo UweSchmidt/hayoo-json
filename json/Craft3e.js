@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Craft3e"
+        "phrase": "Craft3e",
+        "type": "phrase"
       },
       "type": "context"
     }

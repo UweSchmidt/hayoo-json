@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pngload"
+        "phrase": "pngload",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.CRC",
           "name": "CRC",
           "package": "pngload",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal CRC",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.CRC",
           "name": "CRC",
           "package": "pngload",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.CRC",
           "name": "crc",
           "package": "pngload",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal CRC",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.CRC",
           "name": "crc",
           "normalized": "ByteString-\u003eWord",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.CRC",
           "name": "update_crc",
           "package": "pngload",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal CRC",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.CRC",
           "name": "update_crc",
           "normalized": "Word-\u003eByteString-\u003eWord",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Filters",
           "name": "Filters",
           "package": "pngload",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal Filters",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Filters",
           "name": "Filters",
           "package": "pngload",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefilter filtered PNG data (data includes scanlines prepended with filter\n   types).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Filters",
           "name": "defilter_scanlines_arr",
           "package": "pngload",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Defilter filtered PNG data data includes scanlines prepended with filter types",
           "hierarchy": "Codec Image PNG Internal Filters",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Filters",
           "name": "defilter_scanlines_arr",
           "normalized": "(Width,Height)-\u003eInt-\u003eByteString-\u003eIO(StorableArray(Width,Height)Word)",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "Parser",
           "package": "pngload",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal Parser",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "Parser",
           "package": "pngload",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "Parser",
           "package": "pngload",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal Parser",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "Parser",
           "package": "pngload",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "allowedValues",
           "package": "pngload",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal Parser",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "allowedValues",
           "normalized": "(a-\u003eParser a)-\u003e[(a,b)]-\u003eParser b",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "anyWord16",
           "package": "pngload",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal Parser",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "anyWord16",
           "package": "pngload",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "anyWord32",
           "package": "pngload",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal Parser",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "anyWord32",
           "package": "pngload",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "anyWord8",
           "package": "pngload",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal Parser",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "anyWord8",
           "package": "pngload",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "block",
           "package": "pngload",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal Parser",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "block",
           "normalized": "Int-\u003eParsecT ByteString a b ByteString",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "parseFromFile",
           "package": "pngload",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal Parser",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "parseFromFile",
           "normalized": "Parser a-\u003eFilePath-\u003eIO(Either String a)",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "satisfy",
           "package": "pngload",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal Parser",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "satisfy",
           "normalized": "(Word-\u003eBool)-\u003eParsecT ByteString a b Word",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "string",
           "package": "pngload",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal Parser",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "string",
           "normalized": "ByteString-\u003eParsecT ByteString a b ByteString",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "word16",
           "package": "pngload",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal Parser",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "word16",
           "normalized": "Word-\u003eParsecT ByteString a b Word",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "word32",
           "package": "pngload",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal Parser",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "word32",
           "normalized": "Word-\u003eParsecT ByteString a b Word",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "word8",
           "package": "pngload",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG Internal Parser",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG.Internal.Parser",
           "name": "word8",
           "normalized": "Word-\u003eParsecT ByteString a b Word",
@@ -426,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple, pure Haskell PNG loader. Currently supports 24bit RGB(A) images\n with no interlacing. Also lacks support for color indexed (paletted) images.\n\u003c/p\u003e\u003cp\u003eThe image is stored in a StorableArray for compatibility with OpenGL (the\n array supports getting Ptr Word8 to the image data using withStorableArray\n function).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG",
           "name": "PNG",
           "package": "pngload",
@@ -435,6 +472,7 @@
         "index": {
           "description": "simple pure Haskell PNG loader Currently supports bit RGB images with no interlacing Also lacks support for color indexed paletted images The image is stored in StorableArray for compatibility with OpenGL the array supports getting Ptr Word8 to the image data using withStorableArray function",
           "hierarchy": "Codec Image PNG",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG",
           "name": "PNG",
           "package": "pngload",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG",
           "name": "Height",
           "package": "pngload",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG",
           "name": "Height",
           "package": "pngload",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG",
           "name": "PNGImage",
           "package": "pngload",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG",
           "name": "PNGImage",
           "package": "pngload",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG",
           "name": "Width",
           "package": "pngload",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PNG",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG",
           "name": "Width",
           "package": "pngload",
@@ -512,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet dimensions of the image (in pixels)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG",
           "name": "dimensions",
           "package": "pngload",
@@ -522,6 +567,7 @@
         "index": {
           "description": "Get dimensions of the image in pixels",
           "hierarchy": "Codec Image PNG",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG",
           "name": "dimensions",
           "normalized": "PNGImage-\u003e(Width,Height)",
@@ -537,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the image has alpha channel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG",
           "name": "hasAlphaChannel",
           "package": "pngload",
@@ -547,6 +594,7 @@
         "index": {
           "description": "Check if the image has alpha channel",
           "hierarchy": "Codec Image PNG",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG",
           "name": "hasAlphaChannel",
           "normalized": "PNGImage-\u003eBool",
@@ -563,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet image data as C-compatible StorableArray\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG",
           "name": "imageData",
           "package": "pngload",
@@ -573,6 +622,7 @@
         "index": {
           "description": "Get image data as C-compatible StorableArray",
           "hierarchy": "Codec Image PNG",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG",
           "name": "imageData",
           "normalized": "PNGImage-\u003eStorableArray(Int,Int)Word",
@@ -589,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a PNG file, Left value contains a description of a problem as a String,\n if any\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:28 UTC 2014",
           "module": "Codec.Image.PNG",
           "name": "loadPNGFile",
           "package": "pngload",
@@ -599,6 +650,7 @@
         "index": {
           "description": "Load PNG file Left value contains description of problem as String if any",
           "hierarchy": "Codec Image PNG",
+          "indexed": "2014-03-11T19:40:28",
           "module": "Codec.Image.PNG",
           "name": "loadPNGFile",
           "normalized": "FilePath-\u003eIO(Either String PNGImage)",

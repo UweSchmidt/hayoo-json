@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DysFRP-Cairo"
+        "phrase": "DysFRP-Cairo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "Cairo",
           "package": "DysFRP-Cairo",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "Cairo",
           "package": "DysFRP-Cairo",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "GtkEvent",
           "package": "DysFRP-Cairo",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "GtkEvent",
           "package": "DysFRP-Cairo",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "RenderContext",
           "package": "DysFRP-Cairo",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "RenderContext",
           "package": "DysFRP-Cairo",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "addBufRefresher",
           "package": "DysFRP-Cairo",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "addBufRefresher",
           "normalized": "Int-\u003ea-\u003eBehavior RenderContext-\u003eIO HandlerId",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "addDrawingAreaRefresher",
           "package": "DysFRP-Cairo",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "addDrawingAreaRefresher",
           "normalized": "Int-\u003ea-\u003eBehavior RenderContext-\u003eIO HandlerId",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "addDrawingAreaRefresherG",
           "package": "DysFRP-Cairo",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "addDrawingAreaRefresherG",
           "normalized": "Int-\u003ea-\u003eBehavior(Behavior RenderContext)-\u003eIO HandlerId",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "addRefresher",
           "package": "DysFRP-Cairo",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "addRefresher",
           "normalized": "Int-\u003ea-\u003eBehavior RenderContext-\u003eIO HandlerId",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "addTick",
           "package": "DysFRP-Cairo",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "addTick",
           "normalized": "Int-\u003eIO(Event())",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "concatContextB",
           "package": "DysFRP-Cairo",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "concatContextB",
           "normalized": "[Behavior RenderContext]-\u003eBehavior RenderContext",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "drawContextOnDrawable",
           "package": "DysFRP-Cairo",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "drawContextOnDrawable",
           "normalized": "a-\u003eRenderContext-\u003eIO()",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "drawContextOnSurface",
           "package": "DysFRP-Cairo",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "drawContextOnSurface",
           "normalized": "Surface-\u003eRenderContext-\u003eIO()",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "eventData",
           "package": "DysFRP-Cairo",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "eventData",
           "normalized": "EventM a b-\u003eEvent(GtkEvent a)-\u003eEvent b",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "keyDownE",
           "package": "DysFRP-Cairo",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "keyDownE",
           "normalized": "Event(GtkEvent EKey)-\u003eEvent()",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "keyLeftE",
           "package": "DysFRP-Cairo",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "keyLeftE",
           "normalized": "Event(GtkEvent EKey)-\u003eEvent()",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "keyNameE",
           "package": "DysFRP-Cairo",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "keyNameE",
           "normalized": "Event(GtkEvent EKey)-\u003eEvent String",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "keyRightE",
           "package": "DysFRP-Cairo",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "keyRightE",
           "normalized": "Event(GtkEvent EKey)-\u003eEvent()",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "keyUpE",
           "package": "DysFRP-Cairo",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "keyUpE",
           "normalized": "Event(GtkEvent EKey)-\u003eEvent()",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "keyValE",
           "package": "DysFRP-Cairo",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "keyValE",
           "normalized": "Event(GtkEvent EKey)-\u003eEvent KeyVal",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "keyValModifierE",
           "package": "DysFRP-Cairo",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "keyValModifierE",
           "normalized": "Event(GtkEvent EKey)-\u003eEvent(KeyVal,[Modifier])",
@@ -465,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "mkContext",
           "package": "DysFRP-Cairo",
@@ -474,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "mkContext",
           "normalized": "a-\u003eb-\u003eb-\u003ec a",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "mkTickerE",
           "package": "DysFRP-Cairo",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "mkTickerE",
           "normalized": "Int-\u003eIO(HandlerId,Event())",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "modifierE",
           "package": "DysFRP-Cairo",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "modifierE",
           "normalized": "Event(GtkEvent EKey)-\u003eEvent[Modifier]",
@@ -536,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "prerenderBG",
           "package": "DysFRP-Cairo",
@@ -545,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "prerenderBG",
           "normalized": "(Int,Int)-\u003eRenderContext-\u003eEvent RenderContext-\u003eBehaviorGen RenderContext",
@@ -560,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:35 UTC 2014",
           "module": "Control.DysFRP.Cairo",
           "name": "reactiveOn",
           "package": "DysFRP-Cairo",
@@ -569,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Control DysFRP Cairo",
+          "indexed": "2014-03-11T16:39:35",
           "module": "Control.DysFRP.Cairo",
           "name": "reactiveOn",
           "normalized": "a-\u003eSignal a(EventM b Bool)-\u003eIO(ConnectId a,Event(GtkEvent b))",

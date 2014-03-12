@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "websockets"
+        "phrase": "websockets",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "Connection",
           "package": "websockets",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "Connection",
           "package": "websockets",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "Connection",
           "package": "websockets",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "Connection",
           "package": "websockets",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "ConnectionOptions",
           "package": "websockets",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "ConnectionOptions",
           "package": "websockets",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA new client connected to the server. We haven't accepted the connection\n yet, though.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "PendingConnection",
           "package": "websockets",
@@ -91,6 +98,7 @@
         "index": {
           "description": "new client connected to the server We haven accepted the connection yet though",
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "PendingConnection",
           "package": "websockets",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "Connection",
           "package": "websockets",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "Connection",
           "package": "websockets",
@@ -149,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "PendingConnection",
           "package": "websockets",
@@ -158,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "PendingConnection",
           "package": "websockets",
@@ -196,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "connectionIn",
           "package": "websockets",
@@ -205,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "connectionIn",
           "package": "websockets",
@@ -243,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "connectionOptions",
           "package": "websockets",
@@ -252,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "connectionOptions",
           "package": "websockets",
@@ -265,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "connectionOut",
           "package": "websockets",
@@ -274,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "connectionOut",
           "package": "websockets",
@@ -287,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "connectionProtocol",
           "package": "websockets",
@@ -296,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "connectionProtocol",
           "package": "websockets",
@@ -309,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "connectionType",
           "package": "websockets",
@@ -318,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "connectionType",
           "package": "websockets",
@@ -355,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "pendingIn",
           "package": "websockets",
@@ -365,6 +388,7 @@
         "index": {
           "description": "Input stream",
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "pendingIn",
           "package": "websockets",
@@ -379,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne-shot callback fired when a connection is accepted, i.e., *after*\n the accepting response is sent to the client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "pendingOnAccept",
           "package": "websockets",
@@ -389,6 +414,7 @@
         "index": {
           "description": "One-shot callback fired when connection is accepted i.e after the accepting response is sent to the client",
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "pendingOnAccept",
           "normalized": "Connection-\u003eIO()",
@@ -405,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions, passed as-is to the \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "pendingOptions",
           "package": "websockets",
@@ -415,6 +442,7 @@
         "index": {
           "description": "Options passed as-is to the Connection",
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "pendingOptions",
           "package": "websockets",
@@ -429,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "pendingOut",
           "package": "websockets",
@@ -439,6 +468,7 @@
         "index": {
           "description": "Output stream",
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "pendingOut",
           "package": "websockets",
@@ -453,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUseful for e.g. inspecting the request path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets.Connection",
           "name": "pendingRequest",
           "package": "websockets",
@@ -463,6 +494,7 @@
         "index": {
           "description": "Useful for e.g inspecting the request path",
           "hierarchy": "Network WebSockets Connection",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets.Connection",
           "name": "pendingRequest",
           "package": "websockets",
@@ -738,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "WebSockets",
           "package": "websockets",
@@ -746,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "WebSockets",
           "package": "websockets",
@@ -760,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA client application interacting with a single server. Once this \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\n action finished, the underlying socket is closed automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "ClientApp",
           "package": "websockets",
@@ -769,6 +804,7 @@
         "index": {
           "description": "client application interacting with single server Once this IO action finished the underlying socket is closed automatically",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "ClientApp",
           "package": "websockets",
@@ -782,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "Connection",
           "package": "websockets",
@@ -790,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "Connection",
           "package": "websockets",
@@ -804,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe connection couldn't be established or broke down unexpectedly. thrown\n as an iteratee exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "ConnectionException",
           "package": "websockets",
@@ -813,6 +852,7 @@
         "index": {
           "description": "The connection couldn be established or broke down unexpectedly thrown as an iteratee exception",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "ConnectionException",
           "package": "websockets",
@@ -826,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "ConnectionOptions",
           "package": "websockets",
@@ -834,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "ConnectionOptions",
           "package": "websockets",
@@ -848,6 +890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferent control messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "ControlMessage",
           "package": "websockets",
@@ -857,6 +900,7 @@
         "index": {
           "description": "Different control messages",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "ControlMessage",
           "package": "websockets",
@@ -871,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor an end-user of this library, dealing with \u003ccode\u003eFrame\u003c/code\u003es would be a bit\n low-level. This is why define another type on top of it, which represents\n data for the application layer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "DataMessage",
           "package": "websockets",
@@ -880,6 +925,7 @@
         "index": {
           "description": "For an end-user of this library dealing with Frame would be bit low-level This is why define another type on top of it which represents data for the application layer",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "DataMessage",
           "package": "websockets",
@@ -894,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError in case of failed handshake. Will be thrown as an \u003ccode\u003e\u003ca\u003eException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTODO: This should probably be in the Handshake module, and is solely here to\n prevent a cyclic dependency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "HandshakeException",
           "package": "websockets",
@@ -903,6 +950,7 @@
         "index": {
           "description": "Error in case of failed handshake Will be thrown as an Exception TODO This should probably be in the Handshake module and is solely here to prevent cyclic dependency",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "HandshakeException",
           "package": "websockets",
@@ -917,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest headers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "Headers",
           "package": "websockets",
@@ -926,6 +975,7 @@
         "index": {
           "description": "Request headers",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "Headers",
           "package": "websockets",
@@ -940,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe kind of message a server application typically deals with\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "Message",
           "package": "websockets",
@@ -949,6 +1000,7 @@
         "index": {
           "description": "The kind of message server application typically deals with",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "Message",
           "package": "websockets",
@@ -963,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA new client connected to the server. We haven't accepted the connection\n yet, though.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "PendingConnection",
           "package": "websockets",
@@ -972,6 +1025,7 @@
         "index": {
           "description": "new client connected to the server We haven accepted the connection yet though",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "PendingConnection",
           "package": "websockets",
@@ -986,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA request with a body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "Request",
           "package": "websockets",
@@ -995,6 +1050,7 @@
         "index": {
           "description": "request with body",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "Request",
           "package": "websockets",
@@ -1009,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HTTP request. The request body is not yet read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "RequestHead",
           "package": "websockets",
@@ -1018,6 +1075,7 @@
         "index": {
           "description": "An HTTP request The request body is not yet read",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "RequestHead",
           "package": "websockets",
@@ -1032,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA response including a body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "Response",
           "package": "websockets",
@@ -1041,6 +1100,7 @@
         "index": {
           "description": "response including body",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "Response",
           "package": "websockets",
@@ -1055,6 +1115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP response, without body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "ResponseHead",
           "package": "websockets",
@@ -1064,6 +1125,7 @@
         "index": {
           "description": "HTTP response without body",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "ResponseHead",
           "package": "websockets",
@@ -1078,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWebSockets application that can be ran by a server. Once this \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action\n finishes, the underlying socket is closed automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "ServerApp",
           "package": "websockets",
@@ -1087,6 +1150,7 @@
         "index": {
           "description": "WebSockets application that can be ran by server Once this IO action finishes the underlying socket is closed automatically",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "ServerApp",
           "package": "websockets",
@@ -1101,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn order to have an even more high-level API, we define a typeclass for\n values the user can receive from and send to the socket. A few warnings\n apply:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Natively, everything is represented as a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, so this is the\n   fastest instance\n\u003c/li\u003e\u003cli\u003e You should only use the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e or the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e instance when you are\n   sure that the data is UTF-8 encoded (which is the case for \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n   messages).\n\u003c/li\u003e\u003cli\u003e Messages can be very large. If this is the case, it might be inefficient to\n   use the strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "WebSocketsData",
           "package": "websockets",
@@ -1110,6 +1175,7 @@
         "index": {
           "description": "In order to have an even more high-level API we define typeclass for values the user can receive from and send to the socket few warnings apply Natively everything is represented as ByteString so this is the fastest instance You should only use the Text or the Text instance when you are sure that the data is UTF-8 encoded which is the case for Text messages Messages can be very large If this is the case it might be inefficient to use the strict ByteString and Text instances",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "WebSocketsData",
           "package": "websockets",
@@ -1123,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "Binary",
           "package": "websockets",
@@ -1132,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "Binary",
           "package": "websockets",
@@ -1145,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "Close",
           "package": "websockets",
@@ -1154,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "Close",
           "package": "websockets",
@@ -1168,6 +1238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe client unexpectedly closed the connection while we were trying to\n receive some data.\n\u003c/p\u003e\u003cp\u003etodo: Also want this for sending.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "ConnectionClosed",
           "package": "websockets",
@@ -1178,6 +1249,7 @@
         "index": {
           "description": "the client unexpectedly closed the connection while we were trying to receive some data todo Also want this for sending",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "ConnectionClosed",
           "package": "websockets",
@@ -1191,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "ControlMessage",
           "package": "websockets",
@@ -1200,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "ControlMessage",
           "package": "websockets",
@@ -1213,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "DataMessage",
           "package": "websockets",
@@ -1222,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "DataMessage",
           "package": "websockets",
@@ -1236,6 +1312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe request was somehow invalid (missing headers or wrong security\n token)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "MalformedRequest",
           "package": "websockets",
@@ -1246,6 +1323,7 @@
         "index": {
           "description": "The request was somehow invalid missing headers or wrong security token",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "MalformedRequest",
           "package": "websockets",
@@ -1260,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe servers response was somehow invalid (missing headers or wrong\n security token)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "MalformedResponse",
           "package": "websockets",
@@ -1270,6 +1349,7 @@
         "index": {
           "description": "The servers response was somehow invalid missing headers or wrong security token",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "MalformedResponse",
           "package": "websockets",
@@ -1284,6 +1364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe don't have a match for the protocol requested by the client.\n todo: version parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "NotSupported",
           "package": "websockets",
@@ -1294,6 +1375,7 @@
         "index": {
           "description": "We don have match for the protocol requested by the client todo version parameter",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "NotSupported",
           "package": "websockets",
@@ -1308,6 +1390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor example \u003ca\u003eEOF came too early\u003c/a\u003e (which is actually a parse error)\n or for your own errors. (like \u003ca\u003eunknown path\u003c/a\u003e?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "OtherHandshakeException",
           "package": "websockets",
@@ -1318,6 +1401,7 @@
         "index": {
           "description": "for example EOF came too early which is actually parse error or for your own errors like unknown path",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "OtherHandshakeException",
           "package": "websockets",
@@ -1331,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "Ping",
           "package": "websockets",
@@ -1340,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "Ping",
           "package": "websockets",
@@ -1353,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "Pong",
           "package": "websockets",
@@ -1362,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "Pong",
           "package": "websockets",
@@ -1375,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "Request",
           "package": "websockets",
@@ -1384,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "Request",
           "package": "websockets",
@@ -1397,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "RequestHead",
           "package": "websockets",
@@ -1406,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "RequestHead",
           "package": "websockets",
@@ -1420,6 +1512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe request was well-formed, but the library user rejected it.\n (e.g. \u003ca\u003eunknown path\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "RequestRejected",
           "package": "websockets",
@@ -1430,6 +1523,7 @@
         "index": {
           "description": "The request was well-formed but the library user rejected it e.g unknown path",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "RequestRejected",
           "package": "websockets",
@@ -1443,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "Response",
           "package": "websockets",
@@ -1452,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "Response",
           "package": "websockets",
@@ -1465,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "ResponseHead",
           "package": "websockets",
@@ -1474,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "ResponseHead",
           "package": "websockets",
@@ -1487,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "Text",
           "package": "websockets",
@@ -1496,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "Text",
           "package": "websockets",
@@ -1509,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "fromLazyByteString",
           "package": "websockets",
@@ -1518,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "fromLazyByteString",
           "normalized": "ByteString-\u003ea",
@@ -1534,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUseful for e.g. inspecting the request path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "pendingRequest",
           "package": "websockets",
@@ -1544,6 +1647,7 @@
         "index": {
           "description": "Useful for e.g inspecting the request path",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "pendingRequest",
           "normalized": "PendingConnection-\u003eRequestHead",
@@ -1559,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "requestHeaders",
           "package": "websockets",
@@ -1568,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "requestHeaders",
           "package": "websockets",
@@ -1581,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "requestPath",
           "package": "websockets",
@@ -1590,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "requestPath",
           "package": "websockets",
@@ -1603,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "requestSecure",
           "package": "websockets",
@@ -1612,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "requestSecure",
           "package": "websockets",
@@ -1625,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "responseCode",
           "package": "websockets",
@@ -1634,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "responseCode",
           "package": "websockets",
@@ -1647,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "responseHeaders",
           "package": "websockets",
@@ -1656,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "responseHeaders",
           "package": "websockets",
@@ -1669,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "responseMessage",
           "package": "websockets",
@@ -1678,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "responseMessage",
           "package": "websockets",
@@ -1691,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "runClient",
           "package": "websockets",
@@ -1699,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "runClient",
           "normalized": "String-\u003eInt-\u003eString-\u003eClientApp a-\u003eIO a",
@@ -1714,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "runClientWith",
           "package": "websockets",
@@ -1722,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "runClientWith",
           "normalized": "String-\u003eInt-\u003eString-\u003eConnectionOptions-\u003eHeaders-\u003eClientApp a-\u003eIO a",
@@ -1737,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "runClientWithSocket",
           "package": "websockets",
@@ -1745,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "runClientWithSocket",
           "normalized": "Socket-\u003eString-\u003eString-\u003eConnectionOptions-\u003eHeaders-\u003eClientApp a-\u003eIO a",
@@ -1760,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "runClientWithStream",
           "package": "websockets",
@@ -1768,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "runClientWithStream",
           "normalized": "(InputStream ByteString,OutputStream ByteString)-\u003eString-\u003eString-\u003eConnectionOptions-\u003eHeaders-\u003eClientApp a-\u003eIO a",
@@ -1784,6 +1908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides a simple server. This function blocks forever. Note that this\n is merely provided for quick-and-dirty standalone applications, for real\n applications, you should use a real server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "runServer",
           "package": "websockets",
@@ -1793,6 +1918,7 @@
         "index": {
           "description": "Provides simple server This function blocks forever Note that this is merely provided for quick-and-dirty standalone applications for real applications you should use real server",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "runServer",
           "normalized": "String-\u003eInt-\u003eServerApp-\u003eIO()",
@@ -1809,6 +1935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003erunServer\u003c/a\u003e\u003c/code\u003e which allows you to customize some options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "runServerWith",
           "package": "websockets",
@@ -1819,6 +1946,7 @@
         "index": {
           "description": "version of runServer which allows you to customize some options",
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "runServerWith",
           "normalized": "String-\u003eInt-\u003eConnectionOptions-\u003eServerApp-\u003eIO()",
@@ -1834,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:38 UTC 2014",
           "module": "Network.WebSockets",
           "name": "toLazyByteString",
           "package": "websockets",
@@ -1843,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Network WebSockets",
+          "indexed": "2014-03-11T20:38:38",
           "module": "Network.WebSockets",
           "name": "toLazyByteString",
           "normalized": "a-\u003eByteString",

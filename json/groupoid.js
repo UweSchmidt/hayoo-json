@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "groupoid"
+        "phrase": "groupoid",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGroupoid - a set with a binary operator, more general than \n monoid as there is no obligation to have a neutral element \n (i.e mempty in Data.Monoid).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:45 UTC 2014",
           "module": "Data.Groupoid",
           "name": "Groupoid",
           "package": "groupoid",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Groupoid set with binary operator more general than monoid as there is no obligation to have neutral element i.e mempty in Data.Monoid",
           "hierarchy": "Data Groupoid",
+          "indexed": "2014-03-11T18:21:45",
           "module": "Data.Groupoid",
           "name": "Groupoid",
           "package": "groupoid",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:45 UTC 2014",
           "module": "Data.Groupoid",
           "name": "Groupoid",
           "package": "groupoid",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Groupoid",
+          "indexed": "2014-03-11T18:21:45",
           "module": "Data.Groupoid",
           "name": "Groupoid",
           "package": "groupoid",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binary operation, not necessarily associative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:45 UTC 2014",
           "module": "Data.Groupoid",
           "name": "gappend",
           "package": "groupoid",
@@ -73,6 +78,7 @@
         "index": {
           "description": "binary operation not necessarily associative",
           "hierarchy": "Data Groupoid",
+          "indexed": "2014-03-11T18:21:45",
           "module": "Data.Groupoid",
           "name": "gappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a non-empty list with the groupoid. The default \n definition uses \u003ccode\u003e\u003ca\u003efoldr1\u003c/a\u003e\u003c/code\u003e which throws an exception when\n applied to the empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:45 UTC 2014",
           "module": "Data.Groupoid",
           "name": "gconcat",
           "package": "groupoid",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Fold non-empty list with the groupoid The default definition uses foldr1 which throws an exception when applied to the empty list",
           "hierarchy": "Data Groupoid",
+          "indexed": "2014-03-11T18:21:45",
           "module": "Data.Groupoid",
           "name": "gconcat",
           "normalized": "[a]-\u003ea",

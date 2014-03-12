@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clipper"
+        "phrase": "clipper",
+        "type": "phrase"
       },
       "type": "context"
     }

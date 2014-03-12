@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hstatsd"
+        "phrase": "hstatsd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:59 UTC 2014",
           "module": "Network.StatsD",
           "name": "StatsD",
           "package": "hstatsd",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network StatsD",
+          "indexed": "2014-03-11T18:50:59",
           "module": "Network.StatsD",
           "name": "StatsD",
           "package": "hstatsd",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:59 UTC 2014",
           "module": "Network.StatsD",
           "name": "Stat",
           "package": "hstatsd",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network StatsD",
+          "indexed": "2014-03-11T18:50:59",
           "module": "Network.StatsD",
           "name": "Stat",
           "package": "hstatsd",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:59 UTC 2014",
           "module": "Network.StatsD",
           "name": "StatsD",
           "package": "hstatsd",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network StatsD",
+          "indexed": "2014-03-11T18:50:59",
           "module": "Network.StatsD",
           "name": "StatsD",
           "package": "hstatsd",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:59 UTC 2014",
           "module": "Network.StatsD",
           "name": "Stat",
           "package": "hstatsd",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Network StatsD",
+          "indexed": "2014-03-11T18:50:59",
           "module": "Network.StatsD",
           "name": "Stat",
           "package": "hstatsd",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:59 UTC 2014",
           "module": "Network.StatsD",
           "name": "bucket",
           "package": "hstatsd",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Network StatsD",
+          "indexed": "2014-03-11T18:50:59",
           "module": "Network.StatsD",
           "name": "bucket",
           "package": "hstatsd",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:59 UTC 2014",
           "module": "Network.StatsD",
           "name": "closeStatsD",
           "package": "hstatsd",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network StatsD",
+          "indexed": "2014-03-11T18:50:59",
           "module": "Network.StatsD",
           "name": "closeStatsD",
           "normalized": "StatsD-\u003eIO()",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:59 UTC 2014",
           "module": "Network.StatsD",
           "name": "mkStatsD",
           "package": "hstatsd",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Network StatsD",
+          "indexed": "2014-03-11T18:50:59",
           "module": "Network.StatsD",
           "name": "mkStatsD",
           "normalized": "Socket-\u003e[String]-\u003eStatsD",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:59 UTC 2014",
           "module": "Network.StatsD",
           "name": "openStatsD",
           "package": "hstatsd",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Network StatsD",
+          "indexed": "2014-03-11T18:50:59",
           "module": "Network.StatsD",
           "name": "openStatsD",
           "normalized": "HostName-\u003eServiceName-\u003e[String]-\u003eIO StatsD",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:59 UTC 2014",
           "module": "Network.StatsD",
           "name": "push",
           "package": "hstatsd",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Network StatsD",
+          "indexed": "2014-03-11T18:50:59",
           "module": "Network.StatsD",
           "name": "push",
           "normalized": "StatsD-\u003e[Stat]-\u003eIO()",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:59 UTC 2014",
           "module": "Network.StatsD",
           "name": "sample",
           "package": "hstatsd",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Network StatsD",
+          "indexed": "2014-03-11T18:50:59",
           "module": "Network.StatsD",
           "name": "sample",
           "package": "hstatsd",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:59 UTC 2014",
           "module": "Network.StatsD",
           "name": "showStat",
           "package": "hstatsd",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Network StatsD",
+          "indexed": "2014-03-11T18:50:59",
           "module": "Network.StatsD",
           "name": "showStat",
           "normalized": "Stat-\u003eString",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:59 UTC 2014",
           "module": "Network.StatsD",
           "name": "stat",
           "package": "hstatsd",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Network StatsD",
+          "indexed": "2014-03-11T18:50:59",
           "module": "Network.StatsD",
           "name": "stat",
           "normalized": "[String]-\u003ea-\u003eString-\u003eMaybe Double-\u003eStat",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:59 UTC 2014",
           "module": "Network.StatsD",
           "name": "unit",
           "package": "hstatsd",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Network StatsD",
+          "indexed": "2014-03-11T18:50:59",
           "module": "Network.StatsD",
           "name": "unit",
           "package": "hstatsd",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:59 UTC 2014",
           "module": "Network.StatsD",
           "name": "val",
           "package": "hstatsd",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Network StatsD",
+          "indexed": "2014-03-11T18:50:59",
           "module": "Network.StatsD",
           "name": "val",
           "package": "hstatsd",

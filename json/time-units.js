@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "time-units"
+        "phrase": "time-units",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines types for many useful time periods, as well as\n mechanisms for converting between them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "Units",
           "package": "time-units",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines types for many useful time periods as well as mechanisms for converting between them",
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "Units",
           "package": "time-units",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "Attosecond",
           "package": "time-units",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "Attosecond",
           "package": "time-units",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "Day",
           "package": "time-units",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "Day",
           "package": "time-units",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "Femtosecond",
           "package": "time-units",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "Femtosecond",
           "package": "time-units",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "Fortnight",
           "package": "time-units",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "Fortnight",
           "package": "time-units",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "Hour",
           "package": "time-units",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "Hour",
           "package": "time-units",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "Microsecond",
           "package": "time-units",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "Microsecond",
           "package": "time-units",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "Millisecond",
           "package": "time-units",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "Millisecond",
           "package": "time-units",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "Minute",
           "package": "time-units",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "Minute",
           "package": "time-units",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "Nanosecond",
           "package": "time-units",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "Nanosecond",
           "package": "time-units",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "Picosecond",
           "package": "time-units",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "Picosecond",
           "package": "time-units",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "Second",
           "package": "time-units",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "Second",
           "package": "time-units",
@@ -273,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic class that describes all the units of time. We use microseconds\n here because that tends to be what GHC (at least) tends to use as its \n system-level minimum tick size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "TimeUnit",
           "package": "time-units",
@@ -282,6 +307,7 @@
         "index": {
           "description": "generic class that describes all the units of time We use microseconds here because that tends to be what GHC at least tends to use as its system-level minimum tick size",
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "TimeUnit",
           "package": "time-units",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "Week",
           "package": "time-units",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "Week",
           "package": "time-units",
@@ -317,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd two times together to get a useful third time unit. As per usual,\n you'll want to make sure that you are careful regarding precision. This\n function goes through microseconds as an intermediary form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "addTime",
           "package": "time-units",
@@ -327,6 +356,7 @@
         "index": {
           "description": "Add two times together to get useful third time unit As per usual you ll want to make sure that you are careful regarding precision This function goes through microseconds as an intermediary form",
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "addTime",
           "normalized": "a-\u003eb-\u003ec",
@@ -343,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert one time unit to another. Note that if you move from a smaller\n time unit to a larger one, or between two time units smaller than a\n microsecond, you will lose precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "convertUnit",
           "package": "time-units",
@@ -353,6 +384,7 @@
         "index": {
           "description": "Convert one time unit to another Note that if you move from smaller time unit to larger one or between two time units smaller than microsecond you will lose precision",
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "convertUnit",
           "normalized": "a-\u003eb",
@@ -369,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the given number of microseconds into the unit of time, flooring\n the value if it comes to a fraction number of the given unit. (In other\n words: be careful, you may lose precision!)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "fromMicroseconds",
           "package": "time-units",
@@ -379,6 +412,7 @@
         "index": {
           "description": "Converts the given number of microseconds into the unit of time flooring the value if it comes to fraction number of the given unit In other words be careful you may lose precision",
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "fromMicroseconds",
           "normalized": "Integer-\u003ea",
@@ -395,6 +429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current CPU time in your favorite units. This is probably not\n very useful in itself, but is likely useful for comparison purposes ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "getCPUTimeWithUnit",
           "package": "time-units",
@@ -405,6 +440,7 @@
         "index": {
           "description": "Get the current CPU time in your favorite units This is probably not very useful in itself but is likely useful for comparison purposes",
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "getCPUTimeWithUnit",
           "package": "time-units",
@@ -419,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract the second time from the first, to get a useful third time unit.\n As per usual, you'll want to make sure that you are careful regarding\n precision. This function goes through microseconds as an intermediary form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "subTime",
           "package": "time-units",
@@ -429,6 +466,7 @@
         "index": {
           "description": "Subtract the second time from the first to get useful third time unit As per usual you ll want to make sure that you are careful regarding precision This function goes through microseconds as an intermediary form",
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "subTime",
           "normalized": "a-\u003eb-\u003ec",
@@ -445,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the given unit of time into microseconds, flooring the value\n if it comes to a fractional number of microseconds. (In other words:\n be careful, you may lose precision!)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:55 UTC 2014",
           "module": "Data.Time.Units",
           "name": "toMicroseconds",
           "package": "time-units",
@@ -455,6 +494,7 @@
         "index": {
           "description": "Converts the given unit of time into microseconds flooring the value if it comes to fractional number of microseconds In other words be careful you may lose precision",
           "hierarchy": "Data Time Units",
+          "indexed": "2014-03-11T20:22:55",
           "module": "Data.Time.Units",
           "name": "toMicroseconds",
           "normalized": "a-\u003eInteger",

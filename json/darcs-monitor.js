@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "darcs-monitor"
+        "phrase": "darcs-monitor",
+        "type": "phrase"
       },
       "type": "context"
     }

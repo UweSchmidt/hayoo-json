@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vector-heterogenous"
+        "phrase": "vector-heterogenous",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HList",
           "package": "vector-heterogenous",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HList",
           "package": "vector-heterogenous",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "($)",
           "package": "vector-heterogenous",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "($) $",
           "normalized": "()",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "(++)",
           "package": "vector-heterogenous",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "(++) ++",
           "normalized": "()",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": ":!",
           "package": "vector-heterogenous",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": ":!",
           "package": "vector-heterogenous",
@@ -104,6 +112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMost generic box, can be used on any type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "AnyBox",
           "package": "vector-heterogenous",
@@ -113,6 +122,7 @@
         "index": {
           "description": "Most generic box can be used on any type",
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "AnyBox",
           "package": "vector-heterogenous",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Concat",
           "package": "vector-heterogenous",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Concat",
           "package": "vector-heterogenous",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "ConstraintBox",
           "package": "vector-heterogenous",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "ConstraintBox",
           "package": "vector-heterogenous",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Distribute",
           "package": "vector-heterogenous",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Distribute",
           "package": "vector-heterogenous",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Downcast",
           "package": "vector-heterogenous",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Downcast",
           "package": "vector-heterogenous",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "FromNat1",
           "package": "vector-heterogenous",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "FromNat1",
           "package": "vector-heterogenous",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HAppend",
           "package": "vector-heterogenous",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HAppend",
           "package": "vector-heterogenous",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HCons",
           "package": "vector-heterogenous",
@@ -260,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HCons",
           "package": "vector-heterogenous",
@@ -274,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to prelude's \u003ca\u003edrop\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HDrop1",
           "package": "vector-heterogenous",
@@ -283,6 +308,7 @@
         "index": {
           "description": "Equivalent to prelude drop",
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HDrop1",
           "package": "vector-heterogenous",
@@ -297,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed only for the HList class to determine its length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HLength",
           "package": "vector-heterogenous",
@@ -306,6 +333,7 @@
         "index": {
           "description": "Used only for the HList class to determine its length",
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HLength",
           "package": "vector-heterogenous",
@@ -320,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe heterogenous list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HList",
           "package": "vector-heterogenous",
@@ -329,6 +358,7 @@
         "index": {
           "description": "The heterogenous list",
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HList",
           "package": "vector-heterogenous",
@@ -343,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor converting into a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HList2List",
           "package": "vector-heterogenous",
@@ -352,6 +383,7 @@
         "index": {
           "description": "For converting into list",
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HList2List",
           "package": "vector-heterogenous",
@@ -366,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to prelude's \u003ca\u003etake\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HTake1",
           "package": "vector-heterogenous",
@@ -375,6 +408,7 @@
         "index": {
           "description": "Equivalent to prelude take",
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HTake1",
           "package": "vector-heterogenous",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Index",
           "package": "vector-heterogenous",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Index",
           "package": "vector-heterogenous",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Length",
           "package": "vector-heterogenous",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Length",
           "package": "vector-heterogenous",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Length1",
           "package": "vector-heterogenous",
@@ -438,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Length1",
           "package": "vector-heterogenous",
@@ -452,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor construction from lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "List2HList",
           "package": "vector-heterogenous",
@@ -461,6 +502,7 @@
         "index": {
           "description": "For construction from lists",
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "List2HList",
           "package": "vector-heterogenous",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Map",
           "package": "vector-heterogenous",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Map",
           "package": "vector-heterogenous",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Nat1",
           "package": "vector-heterogenous",
@@ -503,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Nat1",
           "package": "vector-heterogenous",
@@ -516,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Nat1Box",
           "package": "vector-heterogenous",
@@ -524,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Nat1Box",
           "package": "vector-heterogenous",
@@ -537,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Replicate",
           "package": "vector-heterogenous",
@@ -545,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Replicate",
           "package": "vector-heterogenous",
@@ -558,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Reverse",
           "package": "vector-heterogenous",
@@ -566,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Reverse",
           "package": "vector-heterogenous",
@@ -580,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this box unless you know for certain that your types won't have a show instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "ShowBox",
           "package": "vector-heterogenous",
@@ -589,6 +642,7 @@
         "index": {
           "description": "Use this box unless you know for certain that your types won have show instance",
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "ShowBox",
           "package": "vector-heterogenous",
@@ -602,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "ToNat1",
           "package": "vector-heterogenous",
@@ -610,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "ToNat1",
           "package": "vector-heterogenous",
@@ -623,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "TypeList",
           "package": "vector-heterogenous",
@@ -631,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "TypeList",
           "package": "vector-heterogenous",
@@ -644,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "UnHList",
           "package": "vector-heterogenous",
@@ -652,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "UnHList",
           "package": "vector-heterogenous",
@@ -665,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": ":::",
           "package": "vector-heterogenous",
@@ -674,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": ":::",
           "normalized": "a-\u003eHList b-\u003eHList(a b)",
@@ -688,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "AnyBox",
           "package": "vector-heterogenous",
@@ -697,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "AnyBox",
           "package": "vector-heterogenous",
@@ -710,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HNil",
           "package": "vector-heterogenous",
@@ -719,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "HNil",
           "normalized": "HList[]",
@@ -734,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Nat1Box",
           "package": "vector-heterogenous",
@@ -743,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Nat1Box",
           "package": "vector-heterogenous",
@@ -756,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "ShowBox",
           "package": "vector-heterogenous",
@@ -765,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "ShowBox",
           "package": "vector-heterogenous",
@@ -778,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Succ",
           "package": "vector-heterogenous",
@@ -787,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Succ",
           "package": "vector-heterogenous",
@@ -800,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Zero",
           "package": "vector-heterogenous",
@@ -809,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "Zero",
           "package": "vector-heterogenous",
@@ -822,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "box",
           "package": "vector-heterogenous",
@@ -831,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "box",
           "normalized": "a-\u003eb",
@@ -845,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "downcast",
           "package": "vector-heterogenous",
@@ -854,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "downcast",
           "normalized": "a-\u003e[b]",
@@ -868,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "downcastAs",
           "package": "vector-heterogenous",
@@ -877,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "downcastAs",
           "normalized": "(a-\u003eb)-\u003ec-\u003e[b]",
@@ -892,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "hdrop1",
           "package": "vector-heterogenous",
@@ -901,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "hdrop1",
           "normalized": "a-\u003eb-\u003eb",
@@ -915,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "hlength",
           "package": "vector-heterogenous",
@@ -924,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "hlength",
           "normalized": "a-\u003eInt",
@@ -938,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "hlist2list",
           "package": "vector-heterogenous",
@@ -947,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "hlist2list",
           "normalized": "a-\u003e[b]",
@@ -961,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "htake1",
           "package": "vector-heterogenous",
@@ -970,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "htake1",
           "normalized": "a-\u003eb-\u003eb",
@@ -984,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "list2hlist",
           "package": "vector-heterogenous",
@@ -993,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "list2hlist",
           "normalized": "[a]-\u003eHList(a b)",
@@ -1007,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "typeList",
           "package": "vector-heterogenous",
@@ -1016,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "typeList",
           "normalized": "a-\u003e[TypeRep]",
@@ -1031,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "unsafeUnbox",
           "package": "vector-heterogenous",
@@ -1040,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous HList",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.HList",
           "name": "unsafeUnbox",
           "normalized": "a-\u003eb",
@@ -1055,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.Unsafe",
           "name": "Unsafe",
           "package": "vector-heterogenous",
@@ -1063,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous Unsafe",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.Unsafe",
           "name": "Unsafe",
           "package": "vector-heterogenous",
@@ -1076,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.Unsafe",
           "name": "UnsafeHVector",
           "package": "vector-heterogenous",
@@ -1084,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous Unsafe",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.Unsafe",
           "name": "UnsafeHVector",
           "package": "vector-heterogenous",
@@ -1097,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.Unsafe",
           "name": "UnsafeHVector",
           "package": "vector-heterogenous",
@@ -1106,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous Unsafe",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.Unsafe",
           "name": "UnsafeHVector",
           "package": "vector-heterogenous",
@@ -1119,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous.Unsafe",
           "name": "unhvec",
           "package": "vector-heterogenous",
@@ -1128,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous Unsafe",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous.Unsafe",
           "name": "unhvec",
           "normalized": "a-\u003eUnsafeHVector a",
@@ -1143,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHeterogenous vectors.  For more info on heterogenous collections, see \u003ca\u003ehttp://www.haskell.org/haskellwiki/Heterogenous_collections\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous",
           "name": "Heterogenous",
           "package": "vector-heterogenous",
@@ -1152,6 +1255,7 @@
         "index": {
           "description": "Heterogenous vectors For more info on heterogenous collections see http www.haskell.org haskellwiki Heterogenous collections",
           "hierarchy": "Data Vector Heterogenous",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous",
           "name": "Heterogenous",
           "package": "vector-heterogenous",
@@ -1165,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous",
           "name": "HVector",
           "package": "vector-heterogenous",
@@ -1173,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous",
           "name": "HVector",
           "package": "vector-heterogenous",
@@ -1186,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous",
           "name": "ValidHVector",
           "package": "vector-heterogenous",
@@ -1194,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous",
           "name": "ValidHVector",
           "package": "vector-heterogenous",
@@ -1207,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous",
           "name": "View",
           "package": "vector-heterogenous",
@@ -1215,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous",
           "name": "View",
           "package": "vector-heterogenous",
@@ -1228,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous",
           "name": "HVector",
           "package": "vector-heterogenous",
@@ -1237,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous",
           "name": "HVector",
           "package": "vector-heterogenous",
@@ -1250,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous",
           "name": "getvec",
           "package": "vector-heterogenous",
@@ -1259,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous",
           "name": "getvec",
           "package": "vector-heterogenous",
@@ -1271,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous",
           "name": "toHList",
           "package": "vector-heterogenous",
@@ -1280,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous",
           "name": "toHList",
           "normalized": "HVector a b-\u003ec",
@@ -1296,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates an \u003ca\u003eHVector\u003c/a\u003e from an \u003ca\u003eHList\u003c/a\u003e.  For example:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous",
           "name": "vec",
           "package": "vector-heterogenous",
@@ -1306,6 +1423,7 @@
         "index": {
           "description": "creates an HVector from an HList For example",
           "hierarchy": "Data Vector Heterogenous",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous",
           "name": "vec",
           "normalized": "[*])",
@@ -1320,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:22 UTC 2014",
           "module": "Data.Vector.Heterogenous",
           "name": "view",
           "package": "vector-heterogenous",
@@ -1329,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Heterogenous",
+          "indexed": "2014-03-11T20:34:22",
           "module": "Data.Vector.Heterogenous",
           "name": "view",
           "normalized": "a-\u003eb-\u003ec",

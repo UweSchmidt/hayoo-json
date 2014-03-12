@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hyperloglog"
+        "phrase": "hyperloglog",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "Config",
           "package": "hyperloglog",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "Config",
           "package": "hyperloglog",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstants required for a bucketing factor b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "Config",
           "package": "hyperloglog",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Constants required for bucketing factor",
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "Config",
           "package": "hyperloglog",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "HasConfig",
           "package": "hyperloglog",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "HasConfig",
           "package": "hyperloglog",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "Rank",
           "package": "hyperloglog",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "Rank",
           "package": "hyperloglog",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "ReifiesConfig",
           "package": "hyperloglog",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "ReifiesConfig",
           "package": "hyperloglog",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "alpha",
           "package": "hyperloglog",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "alpha",
           "normalized": "(Double-\u003ea Double)-\u003eb-\u003ea b",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "bucketMask",
           "package": "hyperloglog",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "bucketMask",
           "normalized": "(Word-\u003ea Word)-\u003eb-\u003ea b",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "calcBucket",
           "package": "hyperloglog",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "calcBucket",
           "normalized": "a-\u003eWord-\u003eInt",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "calcRank",
           "package": "hyperloglog",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "calcRank",
           "normalized": "a-\u003eWord-\u003eInt",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "config",
           "package": "hyperloglog",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "config",
           "package": "hyperloglog",
@@ -267,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "interRange",
           "package": "hyperloglog",
@@ -276,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "interRange",
           "normalized": "(Double-\u003ea Double)-\u003eb-\u003ea b",
@@ -291,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "lim32",
           "package": "hyperloglog",
@@ -300,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "lim32",
           "package": "hyperloglog",
@@ -312,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "numBits",
           "package": "hyperloglog",
@@ -321,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "numBits",
           "normalized": "(Int-\u003ea Int)-\u003eb-\u003ea b",
@@ -336,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "numBuckets",
           "package": "hyperloglog",
@@ -345,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "numBuckets",
           "normalized": "(Int-\u003ea Int)-\u003eb-\u003ea b",
@@ -360,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "rawFact",
           "package": "hyperloglog",
@@ -369,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "rawFact",
           "normalized": "(Double-\u003ea Double)-\u003eb-\u003ea b",
@@ -384,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "reflectConfig",
           "package": "hyperloglog",
@@ -393,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "reflectConfig",
           "normalized": "a b-\u003eConfig",
@@ -433,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Config",
           "name": "smallRange",
           "package": "hyperloglog",
@@ -442,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Config",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Config",
           "name": "smallRange",
           "normalized": "(Double-\u003ea Double)-\u003eb-\u003ea b",
@@ -458,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package provides an approximate streaming (constant space)\n unique object counter.\n\u003c/p\u003e\u003cp\u003eSee the original paper for details:\n \u003ca\u003ehttp://algo.inria.fr/flajolet/Publications/FlFuGaMe07.pdf\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Type",
           "name": "Type",
           "package": "hyperloglog",
@@ -467,6 +502,7 @@
         "index": {
           "description": "This package provides an approximate streaming constant space unique object counter See the original paper for details http algo.inria.fr flajolet Publications FlFuGaMe07.pdf",
           "hierarchy": "Data HyperLogLog Type",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Type",
           "name": "Type",
           "package": "hyperloglog",
@@ -480,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Type",
           "name": "HasHyperLogLog",
           "package": "hyperloglog",
@@ -488,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Type",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Type",
           "name": "HasHyperLogLog",
           "package": "hyperloglog",
@@ -502,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize a new counter:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emempty :: HyperLogLog $(3)\n\u003c/code\u003e\u003c/strong\u003eHyperLogLog {runHyperLogLog = fromList [0,0,0,0,0,0,0,0]}\n\u003c/pre\u003e\u003cp\u003ePlease note how you specify a counter size with the \u003ccode\u003e$(n)\u003c/code\u003e\n invocation. Sizes of up to 16 are valid, with 7 being a\n likely good minimum for decent accuracy.\n\u003c/p\u003e\u003cp\u003eLet's count a list of unique items and get the latest estimate:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esize (foldr insert mempty [1..10] :: HyperLogLog $(4))\n\u003c/code\u003e\u003c/strong\u003eApproximate {_confidence = 0.9972, _lo = 2, _estimate = 11, _hi = 20}\n\u003c/pre\u003e\u003cp\u003eNote how \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e can be used to add new observations to the\n approximate counter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Type",
           "name": "HyperLogLog",
           "package": "hyperloglog",
@@ -511,6 +550,7 @@
         "index": {
           "description": "Initialize new counter mempty HyperLogLog HyperLogLog runHyperLogLog fromList Please note how you specify counter size with the invocation Sizes of up to are valid with being likely good minimum for decent accuracy Let count list of unique items and get the latest estimate size foldr insert mempty HyperLogLog Approximate confidence lo estimate hi Note how insert can be used to add new observations to the approximate counter",
           "hierarchy": "Data HyperLogLog Type",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Type",
           "name": "HyperLogLog",
           "package": "hyperloglog",
@@ -524,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Type",
           "name": "HyperLogLog",
           "package": "hyperloglog",
@@ -533,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Type",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Type",
           "name": "HyperLogLog",
           "package": "hyperloglog",
@@ -570,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Type",
           "name": "hyperLogLog",
           "package": "hyperloglog",
@@ -579,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Type",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Type",
           "name": "hyperLogLog",
           "package": "hyperloglog",
@@ -641,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog.Type",
           "name": "runHyperLogLog",
           "package": "hyperloglog",
@@ -650,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog Type",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog.Type",
           "name": "runHyperLogLog",
           "package": "hyperloglog",
@@ -690,6 +736,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSee the original paper for details:\n \u003ca\u003ehttp://algo.inria.fr/flajolet/Publications/FlFuGaMe07.pdf\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog",
           "name": "HyperLogLog",
           "package": "hyperloglog",
@@ -699,6 +746,7 @@
         "index": {
           "description": "See the original paper for details http algo.inria.fr flajolet Publications FlFuGaMe07.pdf",
           "hierarchy": "Data HyperLogLog",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog",
           "name": "HyperLogLog",
           "package": "hyperloglog",
@@ -713,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstants required for a bucketing factor b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog",
           "name": "Config",
           "package": "hyperloglog",
@@ -722,6 +771,7 @@
         "index": {
           "description": "Constants required for bucketing factor",
           "hierarchy": "Data HyperLogLog",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog",
           "name": "Config",
           "package": "hyperloglog",
@@ -735,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog",
           "name": "HasHyperLogLog",
           "package": "hyperloglog",
@@ -743,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog",
           "name": "HasHyperLogLog",
           "package": "hyperloglog",
@@ -757,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize a new counter:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emempty :: HyperLogLog $(3)\n\u003c/code\u003e\u003c/strong\u003eHyperLogLog {runHyperLogLog = fromList [0,0,0,0,0,0,0,0]}\n\u003c/pre\u003e\u003cp\u003ePlease note how you specify a counter size with the \u003ccode\u003e$(n)\u003c/code\u003e\n invocation. Sizes of up to 16 are valid, with 7 being a\n likely good minimum for decent accuracy.\n\u003c/p\u003e\u003cp\u003eLet's count a list of unique items and get the latest estimate:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esize (foldr insert mempty [1..10] :: HyperLogLog $(4))\n\u003c/code\u003e\u003c/strong\u003eApproximate {_confidence = 0.9972, _lo = 2, _estimate = 11, _hi = 20}\n\u003c/pre\u003e\u003cp\u003eNote how \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e can be used to add new observations to the\n approximate counter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog",
           "name": "HyperLogLog",
           "package": "hyperloglog",
@@ -766,6 +819,7 @@
         "index": {
           "description": "Initialize new counter mempty HyperLogLog HyperLogLog runHyperLogLog fromList Please note how you specify counter size with the invocation Sizes of up to are valid with being likely good minimum for decent accuracy Let count list of unique items and get the latest estimate size foldr insert mempty HyperLogLog Approximate confidence lo estimate hi Note how insert can be used to add new observations to the approximate counter",
           "hierarchy": "Data HyperLogLog",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog",
           "name": "HyperLogLog",
           "package": "hyperloglog",
@@ -779,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog",
           "name": "ReifiesConfig",
           "package": "hyperloglog",
@@ -787,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog",
           "name": "ReifiesConfig",
           "package": "hyperloglog",
@@ -800,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:19 UTC 2014",
           "module": "Data.HyperLogLog",
           "name": "hyperLogLog",
           "package": "hyperloglog",
@@ -809,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Data HyperLogLog",
+          "indexed": "2014-03-11T18:55:19",
           "module": "Data.HyperLogLog",
           "name": "hyperLogLog",
           "package": "hyperloglog",

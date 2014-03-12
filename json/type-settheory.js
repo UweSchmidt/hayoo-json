@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-settheory"
+        "phrase": "type-settheory",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Data.Typeable.Extras",
           "name": "Extras",
           "package": "type-settheory",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Typeable Extras",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Data.Typeable.Extras",
           "name": "Extras",
           "package": "type-settheory",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Data.Typeable.Extras",
           "name": "dynCompare",
           "package": "type-settheory",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Typeable Extras",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Data.Typeable.Extras",
           "name": "dynCompare",
           "normalized": "a-\u003eb-\u003eOrdering",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Data.Typeable.Extras",
           "name": "dynEq",
           "package": "type-settheory",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Typeable Extras",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Data.Typeable.Extras",
           "name": "dynEq",
           "normalized": "a-\u003eb-\u003eBool",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "Dummies",
           "package": "type-settheory",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "Dummies",
           "package": "type-settheory",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "BOOL",
           "package": "type-settheory",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "BOOL",
           "package": "type-settheory",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "Bool0",
           "package": "type-settheory",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "Bool0",
           "package": "type-settheory",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "Bool1",
           "package": "type-settheory",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "Bool1",
           "package": "type-settheory",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Kind-cast\" \u003ccode\u003e (* -\u003e *) \u003c/code\u003e to \u003ccode\u003e*\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "Lower",
           "package": "type-settheory",
@@ -181,6 +196,7 @@
         "index": {
           "description": "Kind-cast to",
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "Lower",
           "package": "type-settheory",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Kind-cast\" \u003ccode\u003e ((* -\u003e *) -\u003e *) \u003c/code\u003e to \u003ccode\u003e (* -\u003e *) \u003c/code\u003e. Also lower elements using \u003ccode\u003e\u003ca\u003eLower\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "Lower1",
           "package": "type-settheory",
@@ -204,6 +221,7 @@
         "index": {
           "description": "Kind-cast to Also lower elements using Lower",
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "Lower1",
           "package": "type-settheory",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Kind-cast\" \u003ccode\u003e (((* -\u003e *) -\u003e *) -\u003e *) \u003c/code\u003e to \u003ccode\u003e ((* -\u003e *) -\u003e *) \u003c/code\u003e. Also lower elements using \u003ccode\u003e\u003ca\u003eLower1\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "Lower2",
           "package": "type-settheory",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Kind-cast to Also lower elements using Lower1",
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "Lower2",
           "package": "type-settheory",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Kind-cast\" \u003ccode\u003e ((((* -\u003e *) -\u003e *) -\u003e *) -\u003e *) \u003c/code\u003e to \u003ccode\u003e (((* -\u003e *) -\u003e *) -\u003e *) \u003c/code\u003e. Also lower elements using \u003ccode\u003e\u003ca\u003eLower2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "Lower3",
           "package": "type-settheory",
@@ -250,6 +271,7 @@
         "index": {
           "description": "Kind-cast to Also lower elements using Lower2",
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "Lower3",
           "package": "type-settheory",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePair of types of kind \u003ccode\u003e (* -\u003e *) \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "PAIR",
           "package": "type-settheory",
@@ -273,6 +296,7 @@
         "index": {
           "description": "Pair of types of kind",
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "PAIR",
           "package": "type-settheory",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePair of types of kind \u003ccode\u003e ((* -\u003e *) -\u003e *) \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "PAIR1",
           "package": "type-settheory",
@@ -296,6 +321,7 @@
         "index": {
           "description": "Pair of types of kind",
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "PAIR1",
           "package": "type-settheory",
@@ -310,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePair of types of kind \u003ccode\u003e (((* -\u003e *) -\u003e *) -\u003e *) \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "PAIR2",
           "package": "type-settheory",
@@ -319,6 +346,7 @@
         "index": {
           "description": "Pair of types of kind",
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "PAIR2",
           "package": "type-settheory",
@@ -333,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePair of types of kind \u003ccode\u003e ((((* -\u003e *) -\u003e *) -\u003e *) -\u003e *) \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "PAIR3",
           "package": "type-settheory",
@@ -342,6 +371,7 @@
         "index": {
           "description": "Pair of types of kind",
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "PAIR3",
           "package": "type-settheory",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "Bool0",
           "package": "type-settheory",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "Bool0",
           "package": "type-settheory",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "Bool1",
           "package": "type-settheory",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "Bool1",
           "package": "type-settheory",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "Lower1Element",
           "package": "type-settheory",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "Lower1Element",
           "normalized": "a b-\u003eLower a(Lower b)",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "Lower2Element",
           "package": "type-settheory",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "Lower2Element",
           "normalized": "a b-\u003eLower a(Lower b)",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "LowerElement",
           "package": "type-settheory",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "LowerElement",
           "normalized": "a b-\u003eLower a(Lower b)",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "elimBOOL",
           "package": "type-settheory",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "elimBOOL",
           "normalized": "BOOL a-\u003eb Bool-\u003eb Bool-\u003eb a",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Dummies",
           "name": "kelimBOOL",
           "package": "type-settheory",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Type Dummies",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Dummies",
           "name": "kelimBOOL",
           "normalized": "BOOL a-\u003eb-\u003eb-\u003eb",
@@ -520,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNotes\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Functions are coded as functional relations (in particular, functions are sets)\n\u003c/li\u003e\u003cli\u003e Extensional equality of functions coincedes with extensional equality of sets.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Function",
           "package": "type-settheory",
@@ -529,6 +574,7 @@
         "index": {
           "description": "Notes Functions are coded as functional relations in particular functions are sets Extensional equality of functions coincedes with extensional equality of sets",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Function",
           "package": "type-settheory",
@@ -543,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNB: \u003ccode\u003efam\u003c/code\u003e must be a function mapping some set to a set of sets, or the second condition in the constructor is vacuous\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Π",
           "package": "type-settheory",
@@ -552,6 +599,7 @@
         "index": {
           "description": "NB fam must be function mapping some set to set of sets or the second condition in the constructor is vacuous",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Π",
           "package": "type-settheory",
@@ -565,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKind-casted variant (function space as a set)\n\u003c/p\u003e\u003cp\u003eConvention: Instances of \u003ccode\u003e\u003ca\u003eFact\u003c/a\u003e\u003c/code\u003e should always prove \u003ccode\u003e\u003ca\u003e:~\u003e:\u003c/a\u003e\u003c/code\u003e rather than this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": ":~~\u003e:",
           "package": "type-settheory",
@@ -574,6 +623,7 @@
         "index": {
           "description": "Kind-casted variant function space as set Convention Instances of Fact should always prove rather than this type",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": ":~~\u003e:",
           "package": "type-settheory",
@@ -587,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions are encoded as functional relations; the three arguments to the construcor are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Is a relation\n\u003c/li\u003e\u003cli\u003e Totality\n\u003c/li\u003e\u003cli\u003e Single-valuedness (CPS-encoded; using \u003ccode\u003e\u003ca\u003e:=:\u003c/a\u003e\u003c/code\u003e would work just as well. I hope that the CPS variant makes the optimizer more happy, but this is pure speculation)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": ":~\u003e:",
           "package": "type-settheory",
@@ -596,6 +647,7 @@
         "index": {
           "description": "Functions are encoded as functional relations the three arguments to the construcor are Is relation Totality Single-valuedness CPS-encoded using would work just as well hope that the CPS variant makes the optimizer more happy but this is pure speculation",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": ":~\u003e:",
           "package": "type-settheory",
@@ -609,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003e***\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": ":***:",
           "package": "type-settheory",
@@ -618,6 +671,7 @@
         "index": {
           "description": "Analogous to",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": ":***:",
           "package": "type-settheory",
@@ -631,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": ":○:",
           "package": "type-settheory",
@@ -640,6 +695,7 @@
         "index": {
           "description": "Composition",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": ":○:",
           "package": "type-settheory",
@@ -653,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph of a \u003ccode\u003e(* -\u003e * -\u003e *)\u003c/code\u003e type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "BiGraph",
           "package": "type-settheory",
@@ -662,6 +719,7 @@
         "index": {
           "description": "Graph of type constructor",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "BiGraph",
           "package": "type-settheory",
@@ -675,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Const",
           "package": "type-settheory",
@@ -683,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Const",
           "package": "type-settheory",
@@ -697,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqualisers :D\n\u003c/p\u003e\u003cp\u003eIn our category, the equaliser of two parallel functions \u003ccode\u003ef1\u003c/code\u003e and \u003ccode\u003ef2\u003c/code\u003e is the set of types on which \u003ccode\u003ef1\u003c/code\u003e and \u003ccode\u003ef2\u003c/code\u003e agree; that is:\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eEqualiser f1 f2 = { x | f1 x = f2 x }\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Equaliser",
           "package": "type-settheory",
@@ -706,6 +767,7 @@
         "index": {
           "description": "Equalisers In our category the equaliser of two parallel functions f1 and f2 is the set of types on which f1 and f2 agree that is Equaliser f1 f2 f1 f2",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Equaliser",
           "package": "type-settheory",
@@ -720,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclusion of the equaliser into the domain of the parallel functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "EqualiserIncl",
           "package": "type-settheory",
@@ -729,6 +792,7 @@
         "index": {
           "description": "Inclusion of the equaliser into the domain of the parallel functions",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "EqualiserIncl",
           "package": "type-settheory",
@@ -743,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExistential quantification over the first component of a pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "ExSnd",
           "package": "type-settheory",
@@ -752,6 +817,7 @@
         "index": {
           "description": "Existential quantification over the first component of pair",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "ExSnd",
           "package": "type-settheory",
@@ -765,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Fst",
           "package": "type-settheory",
@@ -773,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Fst",
           "package": "type-settheory",
@@ -787,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph of a \u003ccode\u003e(* -\u003e *)\u003c/code\u003e type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Graph",
           "package": "type-settheory",
@@ -796,6 +865,7 @@
         "index": {
           "description": "Graph of type constructor",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Graph",
           "package": "type-settheory",
@@ -810,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type-level function:\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eHaskFun(a,b) = (a -\u003e b)\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "HaskFun",
           "package": "type-settheory",
@@ -819,6 +890,7 @@
         "index": {
           "description": "The type-level function HaskFun",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "HaskFun",
           "package": "type-settheory",
@@ -833,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity function on \u003ccode\u003edom\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Id",
           "package": "type-settheory",
@@ -842,6 +915,7 @@
         "index": {
           "description": "Identity function on dom",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Id",
           "package": "type-settheory",
@@ -856,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage of a set under the function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Image",
           "package": "type-settheory",
@@ -865,6 +940,7 @@
         "index": {
           "description": "Image of set under the function",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Image",
           "package": "type-settheory",
@@ -879,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclusion function of a subset\n\u003c/p\u003e\u003cp\u003eInclusions \u003cem\u003edo\u003c/em\u003e know their codomain (somewhat arbitrary design decision)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Incl",
           "package": "type-settheory",
@@ -888,6 +965,7 @@
         "index": {
           "description": "Inclusion function of subset Inclusions do know their codomain somewhat arbitrary design decision",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Incl",
           "package": "type-settheory",
@@ -902,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInjective functions\n\u003c/p\u003e\u003cp\u003e(NB: Surjectivity is meaningless here because our functions don't know their codomain, but we have \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Injective",
           "package": "type-settheory",
@@ -911,6 +990,7 @@
         "index": {
           "description": "Injective functions NB Surjectivity is meaningless here because our functions don know their codomain but we have Image",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Injective",
           "package": "type-settheory",
@@ -924,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Inv",
           "package": "type-settheory",
@@ -932,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Inv",
           "package": "type-settheory",
@@ -946,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type-level function:\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eKleisliHom(a,b) = (a -\u003e m b)\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "KleisliHom",
           "package": "type-settheory",
@@ -955,6 +1038,7 @@
         "index": {
           "description": "The type-level function KleisliHom",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "KleisliHom",
           "package": "type-settheory",
@@ -968,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Preimage",
           "package": "type-settheory",
@@ -976,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Preimage",
           "package": "type-settheory",
@@ -990,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpresses that \u003ccode\u003ef\u003c/code\u003e is a section of \u003ccode\u003ebundleMap\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Section",
           "package": "type-settheory",
@@ -999,6 +1086,7 @@
         "index": {
           "description": "Expresses that is section of bundleMap",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Section",
           "package": "type-settheory",
@@ -1012,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Snd",
           "package": "type-settheory",
@@ -1020,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Snd",
           "package": "type-settheory",
@@ -1034,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle-valuedness (CPS)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Sval",
           "package": "type-settheory",
@@ -1043,6 +1134,7 @@
         "index": {
           "description": "Single-valuedness CPS",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Sval",
           "package": "type-settheory",
@@ -1056,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "ToTyCon",
           "package": "type-settheory",
@@ -1064,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "ToTyCon",
           "package": "type-settheory",
@@ -1078,6 +1172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Total",
           "package": "type-settheory",
@@ -1087,6 +1182,7 @@
         "index": {
           "description": "Totality",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Total",
           "package": "type-settheory",
@@ -1100,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Π",
           "package": "type-settheory",
@@ -1109,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Π",
           "normalized": "(a Unions b)c-\u003e(d e f g((e,f)c)-\u003e((e,Lower h)b)-\u003ee h)-\u003eΠ b c",
@@ -1123,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": ":***:",
           "package": "type-settheory",
@@ -1132,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": ":***:",
           "normalized": "((,)a b c)-\u003e((,)a b c)-\u003e(c***c)(a,(,)b b)",
@@ -1146,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "BiGraph",
           "package": "type-settheory",
@@ -1155,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "BiGraph",
           "normalized": "BiGraph a((b,c),a b c)",
@@ -1170,6 +1272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Compo",
           "package": "type-settheory",
@@ -1179,6 +1282,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Compo",
           "normalized": "((a,b)c)-\u003e((d,a)e)-\u003e(c e)(d,b)",
@@ -1194,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Const",
           "package": "type-settheory",
@@ -1203,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Const",
           "normalized": "(a b)-\u003eConst b c(a,c)",
@@ -1218,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Equaliser",
           "package": "type-settheory",
@@ -1227,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Equaliser",
           "normalized": "((a,b)c)-\u003e((a,b)c)-\u003eEqualiser c c a",
@@ -1242,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "ExSnd",
           "package": "type-settheory",
@@ -1251,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "ExSnd",
           "normalized": "((a,b)c)-\u003eExSnd c a",
@@ -1266,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Fst",
           "package": "type-settheory",
@@ -1275,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Fst",
           "normalized": "(a b)-\u003e(c b)-\u003eFst b b((,)((,)a c)a)",
@@ -1290,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Graph",
           "package": "type-settheory",
@@ -1299,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Graph",
           "normalized": "Graph a(b,a b)",
@@ -1314,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "HaskFun",
           "package": "type-settheory",
@@ -1323,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "HaskFun",
           "normalized": "HaskFun((,)((,)a b)(a-\u003eb))",
@@ -1338,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Image",
           "package": "type-settheory",
@@ -1347,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Image",
           "normalized": "(a b)-\u003e((a,c)d)-\u003eImage d b c",
@@ -1362,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Incl",
           "package": "type-settheory",
@@ -1371,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Incl",
           "normalized": "a b-\u003eIncl a c(b,b)",
@@ -1386,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Injective",
           "package": "type-settheory",
@@ -1395,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Injective",
           "normalized": "a)-\u003ea)-\u003eInjective b",
@@ -1410,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Inv",
           "package": "type-settheory",
@@ -1419,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Inv",
           "normalized": "((a,b)c)-\u003eInv c(b,a)",
@@ -1434,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "IsFun",
           "package": "type-settheory",
@@ -1443,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "IsFun",
           "normalized": "(a(b c))-\u003eTotal b a-\u003eSval a-\u003e(b c)a",
@@ -1458,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "KleisliHom",
           "package": "type-settheory",
@@ -1467,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "KleisliHom",
           "normalized": "KleisliHom a((,)((,)b c)(b-\u003ea c))",
@@ -1482,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Preimage",
           "package": "type-settheory",
@@ -1491,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Preimage",
           "normalized": "((a,b)c)-\u003e(b d)-\u003ePreimage c d a",
@@ -1506,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Section",
           "package": "type-settheory",
@@ -1515,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Section",
           "normalized": "(a b c((b,d)e)-\u003e(d,b)f)-\u003eSection f e",
@@ -1530,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "Snd",
           "package": "type-settheory",
@@ -1539,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "Snd",
           "normalized": "(a b)-\u003e(c b)-\u003eSnd b b((,)((,)a c)c)",
@@ -1554,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "ToTyCon",
           "package": "type-settheory",
@@ -1563,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "ToTyCon",
           "normalized": "a b ToTyCon((c,b)d)b",
@@ -1579,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the codomain by proving that the full image is included in the new codomain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "adjustCod",
           "package": "type-settheory",
@@ -1589,6 +1726,7 @@
         "index": {
           "description": "Change the codomain by proving that the full image is included in the new codomain",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "adjustCod",
           "normalized": "(a b)c-\u003e(Image c a d)-\u003e(a d)c",
@@ -1605,6 +1743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType constructors are injective\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "biGraphInjective",
           "package": "type-settheory",
@@ -1615,6 +1754,7 @@
         "index": {
           "description": "Type constructors are injective",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "biGraphInjective",
           "package": "type-settheory",
@@ -1628,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "biGraphIsFun",
           "package": "type-settheory",
@@ -1637,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "biGraphIsFun",
           "package": "type-settheory",
@@ -1651,6 +1793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExample of an extensional equation between functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "biGraph_eq_HaskFun",
           "package": "type-settheory",
@@ -1661,6 +1804,7 @@
         "index": {
           "description": "Example of an extensional equation between functions",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "biGraph_eq_HaskFun",
           "normalized": "BiGraph(-\u003e)HaskFun",
@@ -1677,6 +1821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition is \u003cem\u003eid\u003c/em\u003e ==\u003e is section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "compoId_Section",
           "package": "type-settheory",
@@ -1687,6 +1832,7 @@
         "index": {
           "description": "Composition is id is section",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "compoId_Section",
           "normalized": "(a b)c-\u003e(b a)d-\u003e((c d)Id b)-\u003eSection c d",
@@ -1703,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe composition is a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "compoIsFun",
           "package": "type-settheory",
@@ -1713,6 +1860,7 @@
         "index": {
           "description": "The composition is function",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "compoIsFun",
           "normalized": "(a a)b-\u003e(a a)c-\u003e(a a)(b c)",
@@ -1728,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "compo_assoc",
           "package": "type-settheory",
@@ -1737,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "compo_assoc",
           "normalized": "a b c-\u003ea a d-\u003ee a d-\u003e((c d)d)(c(d d))",
@@ -1752,6 +1902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e is a left identity for composition                            \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "compo_idl",
           "package": "type-settheory",
@@ -1762,6 +1913,7 @@
         "index": {
           "description": "Id is left identity for composition",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "compo_idl",
           "normalized": "(a b)c-\u003e(Id b c)c",
@@ -1777,6 +1929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e is a right identity for composition                       \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "compo_idr",
           "package": "type-settheory",
@@ -1787,6 +1940,7 @@
         "index": {
           "description": "Id is right identity for composition",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "compo_idr",
           "normalized": "(a b)c-\u003e(c Id a)c",
@@ -1801,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "constEq",
           "package": "type-settheory",
@@ -1810,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "constEq",
           "normalized": "Ex a-\u003e(Const a b Const c d)-\u003eb d",
@@ -1825,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "constIsFun",
           "package": "type-settheory",
@@ -1834,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "constIsFun",
           "normalized": "(a b)-\u003e(c b)(Const c a)",
@@ -1850,6 +2008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe domain of a function is uniquely determined\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "domUniq",
           "package": "type-settheory",
@@ -1860,6 +2019,7 @@
         "index": {
           "description": "The domain of function is uniquely determined",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "domUniq",
           "normalized": "(a b)c-\u003e(a b)c-\u003ea a",
@@ -1876,6 +2036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNB: this is stronger than the straightforward unpacking function -- we can use the single-valuedness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "elimToTyCon",
           "package": "type-settheory",
@@ -1886,6 +2047,7 @@
         "index": {
           "description": "NB this is stronger than the straightforward unpacking function we can use the single-valuedness",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "elimToTyCon",
           "normalized": "(a b)c-\u003eToTyCon c d-\u003e((d,e)c)-\u003ee",
@@ -1902,6 +2064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpresses the fact that \u003cem\u003ef = f' ==\u003e f x = f' x\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "equal_f",
           "package": "type-settheory",
@@ -1912,6 +2075,7 @@
         "index": {
           "description": "Expresses the fact that",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "equal_f",
           "normalized": "(a b)c-\u003e(d c)-\u003e((e,f)d)-\u003e((e,g)c)-\u003ef g",
@@ -1927,6 +2091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform coercion using a function equality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "equal_f_coerce",
           "package": "type-settheory",
@@ -1937,6 +2102,7 @@
         "index": {
           "description": "Perform coercion using function equality",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "equal_f_coerce",
           "normalized": "(a b)c-\u003e(d c)-\u003e((e,f)d)-\u003e((e,g)c)-\u003ef-\u003eg",
@@ -1952,6 +2118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe equaliser inclusion is a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "equaliserIsFun",
           "package": "type-settheory",
@@ -1962,6 +2129,7 @@
         "index": {
           "description": "The equaliser inclusion is function",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "equaliserIsFun",
           "normalized": "(a b)c-\u003e(Equaliser c c a)(EqualiserIncl a c c)",
@@ -1978,6 +2146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe equaliser is a subset of the domain of the parallel functions \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "equaliserSubset",
           "package": "type-settheory",
@@ -1988,6 +2157,7 @@
         "index": {
           "description": "The equaliser is subset of the domain of the parallel functions",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "equaliserSubset",
           "normalized": "(a b)c-\u003eEqualiser c c a",
@@ -2004,6 +2174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniversal property of equalisers:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ef1 . g = f2 . g\u003c/code\u003e ==\u003e \u003ccode\u003eg\u003c/code\u003e factors uniquely through \u003ccode\u003eEqualiser f1 f2\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eUniqueness is trivial in our case because the function into the equaliser is\n identical to \u003ccode\u003eg\u003c/code\u003e (our functions don't know their codomain)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "equaliserUni",
           "package": "type-settheory",
@@ -2014,6 +2185,7 @@
         "index": {
           "description": "Universal property of equalisers f1 f2 factors uniquely through Equaliser f1 f2 Uniqueness is trivial in our case because the function into the equaliser is identical to our functions don know their codomain",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "equaliserUni",
           "normalized": "(a a)b-\u003e(a c)d-\u003e((d b)(d b))-\u003e(a Equaliser d d)b",
@@ -2030,6 +2202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnlargen the codomain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "extendCod",
           "package": "type-settheory",
@@ -2040,6 +2213,7 @@
         "index": {
           "description": "Enlargen the codomain",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "extendCod",
           "normalized": "(a b)c-\u003e(b d)-\u003e(a d)c",
@@ -2055,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "fromTCG",
           "package": "type-settheory",
@@ -2064,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "fromTCG",
           "normalized": "ToTyCon(Graph a)b-\u003ea b",
@@ -2079,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "fstIsFun",
           "package": "type-settheory",
@@ -2088,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "fstIsFun",
           "package": "type-settheory",
@@ -2101,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "fst_tupling",
           "package": "type-settheory",
@@ -2110,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "fst_tupling",
           "normalized": "(a b)c-\u003e(a b)c-\u003e(Fst b b(c***c))c",
@@ -2124,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "fullImageOfInclusion",
           "package": "type-settheory",
@@ -2133,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "fullImageOfInclusion",
           "normalized": "(a b)-\u003eImage(Incl a b)a a",
@@ -2149,6 +2331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVery useful lemma for proving equality of functions.\n\u003c/p\u003e\u003cp\u003eGiven the properties of functions, it is enough to show that \u003ccode\u003ef\u003c/code\u003e is a subset of \u003ccode\u003ef'\u003c/code\u003e to prove \u003ccode\u003ef = f'\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "funEq",
           "package": "type-settheory",
@@ -2159,6 +2342,7 @@
         "index": {
           "description": "Very useful lemma for proving equality of functions Given the properties of functions it is enough to show that is subset of to prove",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "funEq",
           "normalized": "a b c d e f(b c)e-\u003e(b d)g-\u003e(e g)-\u003ee g",
@@ -2175,6 +2359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efunEq\u003c/a\u003e\u003c/code\u003e with the inclusion argument flipped\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "funEq'",
           "package": "type-settheory",
@@ -2185,6 +2370,7 @@
         "index": {
           "description": "funEq with the inclusion argument flipped",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "funEq'",
           "normalized": "(a b)c-\u003e(a d)e-\u003e(e c)-\u003ec e",
@@ -2200,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "graphCPS",
           "package": "type-settheory",
@@ -2209,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "graphCPS",
           "normalized": "a)-\u003ea",
@@ -2225,6 +2413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType constructors are injective\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "graphInjective",
           "package": "type-settheory",
@@ -2235,6 +2424,7 @@
         "index": {
           "description": "Type constructors are injective",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "graphInjective",
           "package": "type-settheory",
@@ -2248,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "graphIsFun",
           "package": "type-settheory",
@@ -2257,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "graphIsFun",
           "package": "type-settheory",
@@ -2270,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "haskFunInjective",
           "package": "type-settheory",
@@ -2279,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "haskFunInjective",
           "package": "type-settheory",
@@ -2292,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "haskFunIsFun",
           "package": "type-settheory",
@@ -2301,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "haskFunIsFun",
           "package": "type-settheory",
@@ -2315,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eId is a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "idIsFun",
           "package": "type-settheory",
@@ -2325,6 +2522,7 @@
         "index": {
           "description": "Id is function",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "idIsFun",
           "package": "type-settheory",
@@ -2339,6 +2537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLemma for proving a function equal to the identity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "idLemma",
           "package": "type-settheory",
@@ -2349,6 +2548,7 @@
         "index": {
           "description": "Lemma for proving function equal to the identity",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "idLemma",
           "normalized": "(a a)b-\u003e(c d e((d,f)b)-\u003ed f)-\u003eId a b",
@@ -2365,6 +2565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery image is a subset of every possible codomain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "imageCod",
           "package": "type-settheory",
@@ -2375,6 +2576,7 @@
         "index": {
           "description": "Every image is subset of every possible codomain",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "imageCod",
           "normalized": "(a b)c-\u003eImage c d b",
@@ -2390,6 +2592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "imageEmpty",
           "package": "type-settheory",
@@ -2399,6 +2602,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "imageEmpty",
           "package": "type-settheory",
@@ -2412,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "imageGraphList",
           "package": "type-settheory",
@@ -2421,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "imageGraphList",
           "normalized": "[a]Image(Graph[])Univ",
@@ -2436,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "imageMonotonic",
           "package": "type-settheory",
@@ -2445,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "imageMonotonic",
           "normalized": "(a a)-\u003eImage b a Image b a",
@@ -2460,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "imageOfInclusion",
           "package": "type-settheory",
@@ -2469,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "imageOfInclusion",
           "package": "type-settheory",
@@ -2483,6 +2693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage distributes over union (in general not over intersection)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "imageUnion",
           "package": "type-settheory",
@@ -2493,6 +2704,7 @@
         "index": {
           "description": "Image distributes over union in general not over intersection",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "imageUnion",
           "normalized": "a b c d d e(b c)f-\u003eImage f(d d)(Image f d Image f d)",
@@ -2508,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "image_Preimage",
           "package": "type-settheory",
@@ -2517,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "image_Preimage",
           "normalized": "(a b)c-\u003eImage c(Preimage c d)d",
@@ -2533,6 +2747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003ef a = b\u003c/code\u003e, then \u003ccode\u003eb\u003c/code\u003e is in the codomain of \u003ccode\u003ef\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "inCod",
           "package": "type-settheory",
@@ -2543,6 +2758,7 @@
         "index": {
           "description": "If then is in the codomain of",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "inCod",
           "normalized": "(a b)c-\u003e((d,e)c)-\u003ee b",
@@ -2559,6 +2775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003ef a = b\u003c/code\u003e, then \u003ccode\u003ea\u003c/code\u003e is in the domain of \u003ccode\u003ef\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "inDom",
           "package": "type-settheory",
@@ -2569,6 +2786,7 @@
         "index": {
           "description": "If then is in the domain of",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "inDom",
           "normalized": "(a b)c-\u003e((d,e)c)-\u003ed a",
@@ -2585,6 +2803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclusion is a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "inclusionIsFun",
           "package": "type-settheory",
@@ -2595,6 +2814,7 @@
         "index": {
           "description": "Inclusion is function",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "inclusionIsFun",
           "normalized": "(a b)-\u003e(a b)(Incl a b)",
@@ -2610,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "inclusion_Injective",
           "package": "type-settheory",
@@ -2619,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "inclusion_Injective",
           "package": "type-settheory",
@@ -2632,6 +2854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "injective",
           "package": "type-settheory",
@@ -2641,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "injective",
           "normalized": "a b c c d Injective b-\u003e((c,e)b)-\u003e((c,e)b)-\u003ec c",
@@ -2656,6 +2880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn injective function has an inverse, with domain the image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "injective_Inv",
           "package": "type-settheory",
@@ -2666,6 +2891,7 @@
         "index": {
           "description": "An injective function has an inverse with domain the image",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "injective_Inv",
           "normalized": "(a b)c-\u003eInjective c-\u003e(Image c a a)(Inv c)",
@@ -2681,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "introToTyCon",
           "package": "type-settheory",
@@ -2690,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "introToTyCon",
           "normalized": "((a,b)c)-\u003eb-\u003eToTyCon c a",
@@ -2705,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "invId",
           "package": "type-settheory",
@@ -2714,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "invId",
           "package": "type-settheory",
@@ -2727,6 +2957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "invInv",
           "package": "type-settheory",
@@ -2736,6 +2967,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "invInv",
           "normalized": "(a b)c-\u003eInv(Inv c)c",
@@ -2751,6 +2983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "invInv0",
           "package": "type-settheory",
@@ -2760,6 +2993,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "invInv0",
           "package": "type-settheory",
@@ -2773,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "isFun_congruence",
           "package": "type-settheory",
@@ -2782,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "isFun_congruence",
           "normalized": "(a b)c-\u003e(c d)-\u003e(a b)d",
@@ -2797,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "kleisliHomInjective",
           "package": "type-settheory",
@@ -2806,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "kleisliHomInjective",
           "package": "type-settheory",
@@ -2819,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "kleisliHomIsFun",
           "package": "type-settheory",
@@ -2828,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "kleisliHomIsFun",
           "package": "type-settheory",
@@ -2841,6 +3081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "lowerFun",
           "package": "type-settheory",
@@ -2850,6 +3091,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "lowerFun",
           "normalized": "(a b)c-\u003e(a b)(Lower c)",
@@ -2865,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "preimage_Image",
           "package": "type-settheory",
@@ -2874,6 +3117,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "preimage_Image",
           "normalized": "(a b)c-\u003e(d a)-\u003ed Preimage c(Image c d)",
@@ -2889,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "raiseFun",
           "package": "type-settheory",
@@ -2898,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "raiseFun",
           "normalized": "(a b)(Lower c)-\u003e(a b)c",
@@ -2914,6 +3160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is stronger than \u003ccode\u003e\u003ca\u003eraiseFun\u003c/a\u003e\u003c/code\u003e since it introduces the knowledge that \u003ccode\u003elf\u003c/code\u003e is of the form \u003ccode\u003eLower f\u003c/code\u003e, rather than assuming it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "raiseFunCPS",
           "package": "type-settheory",
@@ -2924,6 +3171,7 @@
         "index": {
           "description": "This is stronger than raiseFun since it introduces the knowledge that lf is of the form Lower rather than assuming it",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "raiseFunCPS",
           "normalized": "(a b)c-\u003ed)-\u003ed",
@@ -2940,6 +3188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut for unpacking \u003ccode\u003e\u003ca\u003erelation\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "rel",
           "package": "type-settheory",
@@ -2950,6 +3199,7 @@
         "index": {
           "description": "Shortcut for unpacking relation",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "rel",
           "normalized": "(a b)c-\u003e(d c)-\u003ed(a b)",
@@ -2964,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "relCPS",
           "package": "type-settheory",
@@ -2973,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "relCPS",
           "normalized": "a b-\u003ec d-\u003ee)-\u003ee",
@@ -2989,6 +3241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions are relations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "relation",
           "package": "type-settheory",
@@ -2999,6 +3252,7 @@
         "index": {
           "description": "Functions are relations",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "relation",
           "normalized": "(a b)c-\u003ec(a b)",
@@ -3014,6 +3268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs section ==\u003e composition is \u003cem\u003eid\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "section_CompoId",
           "package": "type-settheory",
@@ -3024,6 +3279,7 @@
         "index": {
           "description": "Is section composition is id",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "section_CompoId",
           "normalized": "(a b)c-\u003e(b a)d-\u003eSection c d-\u003e(c d)Id b",
@@ -3040,6 +3296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe full image is a codomain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "setCodToImage",
           "package": "type-settheory",
@@ -3050,6 +3307,7 @@
         "index": {
           "description": "The full image is codomain",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "setCodToImage",
           "normalized": "(a b)c-\u003e(a Image c a)c",
@@ -3065,6 +3323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "sndIsFun",
           "package": "type-settheory",
@@ -3074,6 +3333,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "sndIsFun",
           "package": "type-settheory",
@@ -3087,6 +3347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "snd_tupling",
           "package": "type-settheory",
@@ -3096,6 +3357,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "snd_tupling",
           "normalized": "(a b)c-\u003e(a b)c-\u003e(Snd b b(c***c))c",
@@ -3111,6 +3373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions are single-valued (reified equality version)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "sval",
           "package": "type-settheory",
@@ -3121,6 +3384,7 @@
         "index": {
           "description": "Functions are single-valued reified equality version",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "sval",
           "normalized": "a b c d e e f(b c)g-\u003e((d,e)g)-\u003e((d,e)g)-\u003ee e",
@@ -3136,6 +3400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions are single-valued (CPS version)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "svalCPS",
           "package": "type-settheory",
@@ -3146,6 +3411,7 @@
         "index": {
           "description": "Functions are single-valued CPS version",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "svalCPS",
           "normalized": "a)-\u003ea",
@@ -3161,6 +3427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "svalCPS'",
           "package": "type-settheory",
@@ -3170,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "svalCPS'",
           "normalized": "(a b)c-\u003e((d,e)c)-\u003e((d,e)c)-\u003e((e e)-\u003ef)-\u003ef",
@@ -3186,6 +3454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform coercion using the single-valuedness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "svalCoerce",
           "package": "type-settheory",
@@ -3196,6 +3465,7 @@
         "index": {
           "description": "Perform coercion using the single-valuedness",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "svalCoerce",
           "normalized": "a b c d e e f(b c)g-\u003e((d,e)g)-\u003e((d,e)g)-\u003ee-\u003ee",
@@ -3211,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "targetTuplingIsFun",
           "package": "type-settheory",
@@ -3220,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "targetTuplingIsFun",
           "normalized": "(a b)c-\u003e(a b)c-\u003e(a(b b))(c***c)",
@@ -3235,6 +3507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "toTCG",
           "package": "type-settheory",
@@ -3244,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "toTCG",
           "normalized": "a b-\u003eToTyCon(Graph a)b",
@@ -3260,6 +3534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions are total\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "total",
           "package": "type-settheory",
@@ -3270,6 +3545,7 @@
         "index": {
           "description": "Functions are total",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "total",
           "normalized": "(a b)c-\u003e(d a)-\u003eExSnd c d",
@@ -3285,6 +3561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eThe detailed type variable names help debugging proofs\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "totalCPS",
           "package": "type-settheory",
@@ -3295,6 +3572,7 @@
         "index": {
           "description": "The detailed type variable names help debugging proofs",
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "totalCPS",
           "normalized": "(a b)c-\u003e(d a)-\u003e(e f((d,g)c)-\u003eh)-\u003eh",
@@ -3310,6 +3588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Function",
           "name": "tupling_eta",
           "package": "type-settheory",
@@ -3319,6 +3598,7 @@
         },
         "index": {
           "hierarchy": "Type Function",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Function",
           "name": "tupling_eta",
           "normalized": "(a(b b))c-\u003e((Fst b b c)***(Snd b b c))c",
@@ -3334,6 +3614,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePropositions as types (of kind \u003ccode\u003e*\u003c/code\u003e), proofs as values\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "Logic",
           "package": "type-settheory",
@@ -3343,6 +3624,7 @@
         "index": {
           "description": "Propositions as types of kind proofs as values",
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "Logic",
           "package": "type-settheory",
@@ -3357,6 +3639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniversal quantification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "All",
           "package": "type-settheory",
@@ -3366,6 +3649,7 @@
         "index": {
           "description": "Universal quantification",
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "All",
           "package": "type-settheory",
@@ -3379,6 +3663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "COr",
           "package": "type-settheory",
@@ -3387,6 +3672,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "COr",
           "package": "type-settheory",
@@ -3400,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "Decidable",
           "package": "type-settheory",
@@ -3408,6 +3695,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "Decidable",
           "package": "type-settheory",
@@ -3421,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "Decidable1",
           "package": "type-settheory",
@@ -3429,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "Decidable1",
           "package": "type-settheory",
@@ -3443,6 +3733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExistential quantification                                                         \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "Ex",
           "package": "type-settheory",
@@ -3452,6 +3743,7 @@
         "index": {
           "description": "Existential quantification",
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "Ex",
           "package": "type-settheory",
@@ -3466,6 +3758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique existence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "ExUniq",
           "package": "type-settheory",
@@ -3475,6 +3768,7 @@
         "index": {
           "description": "Unique existence",
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "ExUniq",
           "package": "type-settheory",
@@ -3489,6 +3783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class collects lemmas. It plays no foundational role.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "Fact",
           "package": "type-settheory",
@@ -3498,6 +3793,7 @@
         "index": {
           "description": "This class collects lemmas It plays no foundational role",
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "Fact",
           "package": "type-settheory",
@@ -3511,6 +3807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "Falsity",
           "package": "type-settheory",
@@ -3519,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "Falsity",
           "package": "type-settheory",
@@ -3532,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "Finite",
           "package": "type-settheory",
@@ -3540,6 +3839,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "Finite",
           "package": "type-settheory",
@@ -3553,6 +3853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "Not",
           "package": "type-settheory",
@@ -3561,6 +3862,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "Not",
           "package": "type-settheory",
@@ -3574,6 +3876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "Truth",
           "package": "type-settheory",
@@ -3582,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "Truth",
           "package": "type-settheory",
@@ -3595,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "All",
           "package": "type-settheory",
@@ -3604,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "All",
           "package": "type-settheory",
@@ -3617,6 +3923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "Ex",
           "package": "type-settheory",
@@ -3626,6 +3933,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "Ex",
           "normalized": "a b-\u003eEx a",
@@ -3641,6 +3949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "ExUniq",
           "package": "type-settheory",
@@ -3650,6 +3959,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "ExUniq",
           "normalized": "a b-\u003e(c d a e-\u003eb e)-\u003eExUniq a",
@@ -3665,6 +3975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "Falsity",
           "package": "type-settheory",
@@ -3674,6 +3985,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "Falsity",
           "package": "type-settheory",
@@ -3687,6 +3999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "TruthProof",
           "package": "type-settheory",
@@ -3696,6 +4009,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "TruthProof",
           "package": "type-settheory",
@@ -3709,6 +4023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "allElim",
           "package": "type-settheory",
@@ -3718,6 +4033,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "allElim",
           "package": "type-settheory",
@@ -3731,6 +4047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "auto",
           "package": "type-settheory",
@@ -3740,6 +4057,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "auto",
           "package": "type-settheory",
@@ -3752,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "decide",
           "package": "type-settheory",
@@ -3761,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "decide",
           "package": "type-settheory",
@@ -3773,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "decide1",
           "package": "type-settheory",
@@ -3782,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "decide1",
           "package": "type-settheory",
@@ -3794,6 +4116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "elimCor",
           "package": "type-settheory",
@@ -3803,6 +4126,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "elimCor",
           "normalized": "COr a b c-\u003e(b-\u003ea)-\u003e(c-\u003ea)-\u003ea",
@@ -3818,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "elimFalsity",
           "package": "type-settheory",
@@ -3827,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "elimFalsity",
           "package": "type-settheory",
@@ -3840,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "enum",
           "package": "type-settheory",
@@ -3849,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "enum",
           "normalized": "[Ex a]",
@@ -3863,6 +4191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "exElim",
           "package": "type-settheory",
@@ -3872,6 +4201,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "exElim",
           "normalized": "a b c(a d b e-\u003ef)-\u003eEx b-\u003ef",
@@ -3887,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Logic",
           "name": "lem",
           "package": "type-settheory",
@@ -3896,6 +4227,7 @@
         },
         "index": {
           "hierarchy": "Type Logic",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Logic",
           "name": "lem",
           "normalized": "COr a(b-\u003ea)b",
@@ -3911,6 +4243,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTODO\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Prove that \u003ccode\u003e\u003ca\u003eInitor\u003c/a\u003e\u003c/code\u003e is an \u003ccode\u003e\u003ca\u003eNMorphism\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Prove that it is uniquely so\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "Nat",
           "package": "type-settheory",
@@ -3920,6 +4253,7 @@
         "index": {
           "description": "TODO Prove that Initor is an NMorphism Prove that it is uniquely so",
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "Nat",
           "package": "type-settheory",
@@ -3934,6 +4268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unique morphism from an \u003ccode\u003e\u003ca\u003eTNat\u003c/a\u003e\u003c/code\u003e to any \u003ccode\u003e\u003ca\u003eNStructure\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eNB: \u003ccode\u003es\u003c/code\u003e is a type constructor, but \u003ccode\u003esucc2\u003c/code\u003e is a Function (\u003ccode\u003e\u003ca\u003eIsFun\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "Initor",
           "package": "type-settheory",
@@ -3943,6 +4278,7 @@
         "index": {
           "description": "The unique morphism from an TNat to any NStructure NB is type constructor but succ2 is Function IsFun",
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "Initor",
           "package": "type-settheory",
@@ -3957,6 +4293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpresses that \u003ccode\u003e(set1,z1,succ1)\u003c/code\u003e is initial in the cat of \u003ccode\u003e\u003ca\u003eNStructure\u003c/a\u003e\u003c/code\u003es, in other words, that it is isomorphic to the natural numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "NInitial",
           "package": "type-settheory",
@@ -3966,6 +4303,7 @@
         "index": {
           "description": "Expresses that set1 z1 succ1 is initial in the cat of NStructure in other words that it is isomorphic to the natural numbers",
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "NInitial",
           "package": "type-settheory",
@@ -3980,6 +4318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructure-preserving maps of \u003ccode\u003e\u003ca\u003eNStructure\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "NMorphism",
           "package": "type-settheory",
@@ -3989,6 +4328,7 @@
         "index": {
           "description": "Structure-preserving maps of NStructure",
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "NMorphism",
           "package": "type-settheory",
@@ -4003,6 +4343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets equipped with a constant and a function to itself\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "NStructure",
           "package": "type-settheory",
@@ -4012,6 +4353,7 @@
         "index": {
           "description": "Sets equipped with constant and function to itself",
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "NStructure",
           "package": "type-settheory",
@@ -4026,6 +4368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuccessor function made from a unary type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "Succ",
           "package": "type-settheory",
@@ -4035,6 +4378,7 @@
         "index": {
           "description": "Successor function made from unary type constructor",
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "Succ",
           "package": "type-settheory",
@@ -4049,6 +4393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActually any pair of (nullary type, unary type constructor) gives us a copy of the naturals; let's call these \u003cem\u003eTNats\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "TNat",
           "package": "type-settheory",
@@ -4058,6 +4403,7 @@
         "index": {
           "description": "Actually any pair of nullary type unary type constructor gives us copy of the naturals let call these TNats",
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "TNat",
           "package": "type-settheory",
@@ -4071,6 +4417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "InitorS",
           "package": "type-settheory",
@@ -4080,6 +4427,7 @@
         },
         "index": {
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "InitorS",
           "normalized": "Initor a b a c(d,d)-\u003e((d,e)c)-\u003eInitor a b a c(b d,e)",
@@ -4095,6 +4443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "InitorZ",
           "package": "type-settheory",
@@ -4104,6 +4453,7 @@
         },
         "index": {
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "InitorZ",
           "normalized": "Initor a b a c(a,a)",
@@ -4119,6 +4469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "IsS",
           "package": "type-settheory",
@@ -4128,6 +4479,7 @@
         },
         "index": {
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "IsS",
           "normalized": "TNat a b c-\u003eTNat a b(b c)",
@@ -4143,6 +4495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "IsZ",
           "package": "type-settheory",
@@ -4152,6 +4505,7 @@
         },
         "index": {
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "IsZ",
           "package": "type-settheory",
@@ -4165,6 +4519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "NInitial",
           "package": "type-settheory",
@@ -4174,6 +4529,7 @@
         },
         "index": {
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "NInitial",
           "normalized": "(a b c d ExUniq(NMorphism c b d b c d))-\u003eNInitial c b d",
@@ -4189,6 +4545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "NMorphism",
           "package": "type-settheory",
@@ -4198,6 +4555,7 @@
         },
         "index": {
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "NMorphism",
           "normalized": "NStructure a b c-\u003eNStructure a b c-\u003e(a a)d-\u003e(d b b)-\u003e((d c)(c d))-\u003eNMorphism a b c b a c d",
@@ -4213,6 +4571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "NStructure",
           "package": "type-settheory",
@@ -4222,6 +4581,7 @@
         },
         "index": {
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "NStructure",
           "normalized": "(a b)-\u003e(b b)c-\u003eNStructure b a c",
@@ -4237,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "Succ",
           "package": "type-settheory",
@@ -4246,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "Succ",
           "normalized": "(a TNat b c)-\u003eSucc b c(a,c a)",
@@ -4261,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "initorFun",
           "package": "type-settheory",
@@ -4270,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "initorFun",
           "normalized": "a b c d b e NStructure d b e-\u003e(TNat b c d)(Initor b c b e)",
@@ -4285,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "succFun",
           "package": "type-settheory",
@@ -4294,6 +4659,7 @@
         },
         "index": {
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "succFun",
           "package": "type-settheory",
@@ -4307,6 +4673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Nat",
           "name": "tyconNStruct",
           "package": "type-settheory",
@@ -4316,6 +4683,7 @@
         },
         "index": {
           "hierarchy": "Type Nat",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Nat",
           "name": "tyconNStruct",
           "package": "type-settheory",
@@ -4329,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set.Example",
           "name": "Example",
           "package": "type-settheory",
@@ -4337,6 +4706,7 @@
         },
         "index": {
           "hierarchy": "Type Set Example",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set.Example",
           "name": "Example",
           "package": "type-settheory",
@@ -4351,6 +4721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither \u003ccode\u003eTypeable\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003es, or \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set.Example",
           "name": "ExampleSet",
           "package": "type-settheory",
@@ -4360,6 +4731,7 @@
         "index": {
           "description": "Either Typeable Integral or String",
           "hierarchy": "Type Set Example",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set.Example",
           "name": "ExampleSet",
           "package": "type-settheory",
@@ -4374,6 +4746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eMap\u003c/code\u003e whose keys are taken from any type which is a member of \u003cem\u003eset\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set.Example",
           "name": "SMap",
           "package": "type-settheory",
@@ -4383,6 +4756,7 @@
         "index": {
           "description": "Map whose keys are taken from any type which is member of set",
           "hierarchy": "Type Set Example",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set.Example",
           "name": "SMap",
           "package": "type-settheory",
@@ -4396,6 +4770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set.Example",
           "name": "SMap",
           "package": "type-settheory",
@@ -4405,6 +4780,7 @@
         },
         "index": {
           "hierarchy": "Type Set Example",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set.Example",
           "name": "SMap",
           "package": "type-settheory",
@@ -4418,6 +4794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set.Example",
           "name": "insert",
           "package": "type-settheory",
@@ -4427,6 +4804,7 @@
         },
         "index": {
           "hierarchy": "Type Set Example",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set.Example",
           "name": "insert",
           "normalized": "(a b)-\u003ea-\u003ec-\u003eSMap b c-\u003eSMap b c",
@@ -4441,6 +4819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set.Example",
           "name": "intInExampleSet",
           "package": "type-settheory",
@@ -4450,6 +4829,7 @@
         },
         "index": {
           "hierarchy": "Type Set Example",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set.Example",
           "name": "intInExampleSet",
           "package": "type-settheory",
@@ -4463,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set.Example",
           "name": "lookup",
           "package": "type-settheory",
@@ -4472,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Type Set Example",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set.Example",
           "name": "lookup",
           "normalized": "(a b)-\u003ea-\u003eSMap b c-\u003eMaybe c",
@@ -4486,6 +4868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set.Example",
           "name": "singleton",
           "package": "type-settheory",
@@ -4495,6 +4878,7 @@
         },
         "index": {
           "hierarchy": "Type Set Example",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set.Example",
           "name": "singleton",
           "normalized": "(a b)-\u003ea-\u003ec-\u003eSMap b c",
@@ -4509,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set.Example",
           "name": "stringInExampleSet",
           "package": "type-settheory",
@@ -4518,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Type Set Example",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set.Example",
           "name": "stringInExampleSet",
           "package": "type-settheory",
@@ -4531,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set.Example",
           "name": "test",
           "package": "type-settheory",
@@ -4540,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "Type Set Example",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set.Example",
           "name": "test",
           "package": "type-settheory",
@@ -4553,6 +4941,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cul\u003e\u003cli\u003e Sets are encoded as certain types of kind \u003ccode\u003e* -\u003e *\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e A value of type \u003ccode\u003eS X\u003c/code\u003e is a proof that the type \u003ccode\u003eX\u003c/code\u003e is a member of \u003ccode\u003eS\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Set",
           "package": "type-settheory",
@@ -4562,6 +4951,7 @@
         "index": {
           "description": "Sets are encoded as certain types of kind value of type is proof that the type is member of",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Set",
           "package": "type-settheory",
@@ -4576,6 +4966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDependent sum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Σ",
           "package": "type-settheory",
@@ -4585,6 +4976,7 @@
         "index": {
           "description": "Dependent sum",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Σ",
           "package": "type-settheory",
@@ -4598,6 +4990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary products\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": ":×:",
           "package": "type-settheory",
@@ -4607,6 +5000,7 @@
         "index": {
           "description": "Binary products",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": ":×:",
           "package": "type-settheory",
@@ -4620,6 +5014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtensional equality of sets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": ":==:",
           "package": "type-settheory",
@@ -4629,6 +5024,7 @@
         "index": {
           "description": "Extensional equality of sets",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": ":==:",
           "package": "type-settheory",
@@ -4641,6 +5037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": ":∈:",
           "package": "type-settheory",
@@ -4649,6 +5046,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": ":∈:",
           "package": "type-settheory",
@@ -4662,6 +5060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary intersection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": ":∩:",
           "package": "type-settheory",
@@ -4671,6 +5070,7 @@
         "index": {
           "description": "Binary intersection",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": ":∩:",
           "package": "type-settheory",
@@ -4684,6 +5084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary union\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": ":∪:",
           "package": "type-settheory",
@@ -4693,6 +5094,7 @@
         "index": {
           "description": "Binary union",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": ":∪:",
           "package": "type-settheory",
@@ -4706,6 +5108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a proof that \u003ccode\u003eset1\u003c/code\u003e is a subset of \u003ccode\u003eset2\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": ":⊆:",
           "package": "type-settheory",
@@ -4715,6 +5118,7 @@
         "index": {
           "description": "Represents proof that set1 is subset of set2",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": ":⊆:",
           "package": "type-settheory",
@@ -4728,6 +5132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMembership of a set in a set representing a set of sets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "::∈:",
           "package": "type-settheory",
@@ -4737,6 +5142,7 @@
         "index": {
           "description": "Membership of set in set representing set of sets",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "::∈:",
           "package": "type-settheory",
@@ -4749,6 +5155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "ApplicativeType",
           "package": "type-settheory",
@@ -4757,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "ApplicativeType",
           "package": "type-settheory",
@@ -4770,6 +5178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "BoundedType",
           "package": "type-settheory",
@@ -4778,6 +5187,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "BoundedType",
           "package": "type-settheory",
@@ -4791,6 +5201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "CoKleisliType",
           "package": "type-settheory",
@@ -4799,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "CoKleisliType",
           "package": "type-settheory",
@@ -4813,6 +5225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Complement",
           "package": "type-settheory",
@@ -4822,6 +5235,7 @@
         "index": {
           "description": "Complement",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Complement",
           "package": "type-settheory",
@@ -4835,6 +5249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "DataType",
           "package": "type-settheory",
@@ -4843,6 +5258,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "DataType",
           "package": "type-settheory",
@@ -4856,6 +5272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "DependentSum",
           "package": "type-settheory",
@@ -4864,6 +5281,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "DependentSum",
           "package": "type-settheory",
@@ -4878,6 +5296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet difference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Diff",
           "package": "type-settheory",
@@ -4887,6 +5306,7 @@
         "index": {
           "description": "Set difference",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Diff",
           "package": "type-settheory",
@@ -4900,6 +5320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Disjoint",
           "package": "type-settheory",
@@ -4908,6 +5329,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Disjoint",
           "package": "type-settheory",
@@ -4922,6 +5344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty set (barring cheating with \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Empty",
           "package": "type-settheory",
@@ -4931,6 +5354,7 @@
         "index": {
           "description": "Empty set barring cheating with undefined",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Empty",
           "package": "type-settheory",
@@ -4944,6 +5368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "EnumType",
           "package": "type-settheory",
@@ -4952,6 +5377,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "EnumType",
           "package": "type-settheory",
@@ -4965,6 +5391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "EqType",
           "package": "type-settheory",
@@ -4973,6 +5400,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "EqType",
           "package": "type-settheory",
@@ -4987,6 +5415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique existence, unlowered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "ExUniq1",
           "package": "type-settheory",
@@ -4996,6 +5425,7 @@
         "index": {
           "description": "Unique existence unlowered",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "ExUniq1",
           "package": "type-settheory",
@@ -5009,6 +5439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "FractionalType",
           "package": "type-settheory",
@@ -5017,6 +5448,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "FractionalType",
           "package": "type-settheory",
@@ -5030,6 +5462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "FunctionType",
           "package": "type-settheory",
@@ -5038,6 +5471,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "FunctionType",
           "package": "type-settheory",
@@ -5051,6 +5485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "FunctorType",
           "package": "type-settheory",
@@ -5059,6 +5494,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "FunctorType",
           "package": "type-settheory",
@@ -5072,6 +5508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "IntegralType",
           "package": "type-settheory",
@@ -5080,6 +5517,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "IntegralType",
           "package": "type-settheory",
@@ -5093,6 +5531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Inter",
           "package": "type-settheory",
@@ -5101,6 +5540,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Inter",
           "package": "type-settheory",
@@ -5115,6 +5555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersection of a family\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Inters",
           "package": "type-settheory",
@@ -5124,6 +5565,7 @@
         "index": {
           "description": "Intersection of family",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Inters",
           "package": "type-settheory",
@@ -5137,6 +5579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "KleisliType",
           "package": "type-settheory",
@@ -5145,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "KleisliType",
           "package": "type-settheory",
@@ -5158,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "MonadPlusType",
           "package": "type-settheory",
@@ -5166,6 +5611,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "MonadPlusType",
           "package": "type-settheory",
@@ -5179,6 +5625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "MonadType",
           "package": "type-settheory",
@@ -5187,6 +5634,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "MonadType",
           "package": "type-settheory",
@@ -5200,6 +5648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "MonoidType",
           "package": "type-settheory",
@@ -5208,6 +5657,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "MonoidType",
           "package": "type-settheory",
@@ -5221,6 +5671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "NumType",
           "package": "type-settheory",
@@ -5229,6 +5680,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "NumType",
           "package": "type-settheory",
@@ -5242,6 +5694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "OrdType",
           "package": "type-settheory",
@@ -5250,6 +5703,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "OrdType",
           "package": "type-settheory",
@@ -5264,6 +5718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePowerset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Powerset",
           "package": "type-settheory",
@@ -5273,6 +5728,7 @@
         "index": {
           "description": "Powerset",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Powerset",
           "package": "type-settheory",
@@ -5286,6 +5742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Prod",
           "package": "type-settheory",
@@ -5294,6 +5751,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Prod",
           "package": "type-settheory",
@@ -5307,6 +5765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "ProofSet",
           "package": "type-settheory",
@@ -5315,6 +5774,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "ProofSet",
           "package": "type-settheory",
@@ -5328,6 +5788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "ReadType",
           "package": "type-settheory",
@@ -5336,6 +5797,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "ReadType",
           "package": "type-settheory",
@@ -5349,6 +5811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "ShowType",
           "package": "type-settheory",
@@ -5357,6 +5820,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "ShowType",
           "package": "type-settheory",
@@ -5370,6 +5834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Singleton",
           "package": "type-settheory",
@@ -5378,6 +5843,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Singleton",
           "package": "type-settheory",
@@ -5391,6 +5857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Subset",
           "package": "type-settheory",
@@ -5399,6 +5866,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Subset",
           "package": "type-settheory",
@@ -5412,6 +5880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "TypeableType",
           "package": "type-settheory",
@@ -5420,6 +5889,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "TypeableType",
           "package": "type-settheory",
@@ -5433,6 +5903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Union",
           "package": "type-settheory",
@@ -5441,6 +5912,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Union",
           "package": "type-settheory",
@@ -5455,6 +5927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion of a family\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Unions",
           "package": "type-settheory",
@@ -5464,6 +5937,7 @@
         "index": {
           "description": "Union of family",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Unions",
           "package": "type-settheory",
@@ -5478,6 +5952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of \u003cem\u003eall\u003c/em\u003e types of kind *\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Univ",
           "package": "type-settheory",
@@ -5487,6 +5962,7 @@
         "index": {
           "description": "Set of all types of kind",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Univ",
           "package": "type-settheory",
@@ -5501,6 +5977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eV s\u003c/code\u003e is the sum of all types \u003ccode\u003ex\u003c/code\u003e such that \u003ccode\u003es x\u003c/code\u003e is provable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "V",
           "package": "type-settheory",
@@ -5510,6 +5987,7 @@
         "index": {
           "description": "is the sum of all types such that is provable",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "V",
           "package": "type-settheory",
@@ -5522,6 +6000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Σ",
           "package": "type-settheory",
@@ -5531,6 +6010,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Σ",
           "normalized": "(Lower a b)-\u003e(c a)-\u003eΣ b(Lower a,c)",
@@ -5545,6 +6025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": ":×:",
           "package": "type-settheory",
@@ -5554,6 +6035,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": ":×:",
           "normalized": "(a b)-\u003e(c b)-\u003e(b b)(a,c)",
@@ -5568,6 +6050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "ApplicativeType",
           "package": "type-settheory",
@@ -5577,6 +6060,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "ApplicativeType",
           "package": "type-settheory",
@@ -5590,6 +6074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "BoundedType",
           "package": "type-settheory",
@@ -5599,6 +6084,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "BoundedType",
           "package": "type-settheory",
@@ -5612,6 +6098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "CoKleisliType",
           "package": "type-settheory",
@@ -5621,6 +6108,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "CoKleisliType",
           "normalized": "CoKleisliType a(a b-\u003ec)",
@@ -5636,6 +6124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Complement",
           "package": "type-settheory",
@@ -5645,6 +6134,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Complement",
           "normalized": "Not(a b)-\u003eComplement b a",
@@ -5660,6 +6150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "DataType",
           "package": "type-settheory",
@@ -5669,6 +6160,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "DataType",
           "package": "type-settheory",
@@ -5682,6 +6174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Diff",
           "package": "type-settheory",
@@ -5691,6 +6184,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Diff",
           "normalized": "(a b)-\u003eNot(a c)-\u003eDiff b c a",
@@ -5706,6 +6200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Empty",
           "package": "type-settheory",
@@ -5715,6 +6210,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Empty",
           "normalized": "(a b c)-\u003eEmpty d",
@@ -5730,6 +6226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "EnumType",
           "package": "type-settheory",
@@ -5739,6 +6236,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "EnumType",
           "package": "type-settheory",
@@ -5752,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "EqType",
           "package": "type-settheory",
@@ -5761,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "EqType",
           "package": "type-settheory",
@@ -5774,6 +6274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "ExUniq1",
           "package": "type-settheory",
@@ -5783,6 +6284,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "ExUniq1",
           "normalized": "a b-\u003e(c d a e-\u003eb e)-\u003eExUniq a",
@@ -5798,6 +6300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "FractionalType",
           "package": "type-settheory",
@@ -5807,6 +6310,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "FractionalType",
           "package": "type-settheory",
@@ -5820,6 +6324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "FunctionType",
           "package": "type-settheory",
@@ -5829,6 +6334,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "FunctionType",
           "normalized": "FunctionType(a-\u003eb)",
@@ -5844,6 +6350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "FunctorType",
           "package": "type-settheory",
@@ -5853,6 +6360,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "FunctorType",
           "package": "type-settheory",
@@ -5866,6 +6374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "IntegralType",
           "package": "type-settheory",
@@ -5875,6 +6384,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "IntegralType",
           "package": "type-settheory",
@@ -5888,6 +6398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Inter",
           "package": "type-settheory",
@@ -5897,6 +6408,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Inter",
           "normalized": "(a b)-\u003e(a b)-\u003e(b b)a",
@@ -5912,6 +6424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Inters",
           "package": "type-settheory",
@@ -5921,6 +6434,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Inters",
           "normalized": "(a b(Lower c d)-\u003ee c)-\u003eInters d e",
@@ -5936,6 +6450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "KleisliType",
           "package": "type-settheory",
@@ -5945,6 +6460,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "KleisliType",
           "normalized": "KleisliType a(b-\u003ea c)",
@@ -5960,6 +6476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "MonadPlusType",
           "package": "type-settheory",
@@ -5969,6 +6486,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "MonadPlusType",
           "package": "type-settheory",
@@ -5982,6 +6500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "MonadType",
           "package": "type-settheory",
@@ -5991,6 +6510,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "MonadType",
           "package": "type-settheory",
@@ -6004,6 +6524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "MonoidType",
           "package": "type-settheory",
@@ -6013,6 +6534,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "MonoidType",
           "package": "type-settheory",
@@ -6026,6 +6548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "NumType",
           "package": "type-settheory",
@@ -6035,6 +6558,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "NumType",
           "package": "type-settheory",
@@ -6048,6 +6572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "OrdType",
           "package": "type-settheory",
@@ -6057,6 +6582,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "OrdType",
           "package": "type-settheory",
@@ -6070,6 +6596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Powerset",
           "package": "type-settheory",
@@ -6079,6 +6606,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Powerset",
           "normalized": "(a b)-\u003ePowerset b(Lower a)",
@@ -6094,6 +6622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "ProofSet",
           "package": "type-settheory",
@@ -6103,6 +6632,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "ProofSet",
           "normalized": "a b-\u003eProofSet a(a b)",
@@ -6118,6 +6648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "ReadType",
           "package": "type-settheory",
@@ -6127,6 +6658,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "ReadType",
           "package": "type-settheory",
@@ -6140,6 +6672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "SetEq",
           "package": "type-settheory",
@@ -6149,6 +6682,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "SetEq",
           "package": "type-settheory",
@@ -6162,6 +6696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "ShowType",
           "package": "type-settheory",
@@ -6171,6 +6706,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "ShowType",
           "package": "type-settheory",
@@ -6184,6 +6720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Subset",
           "package": "type-settheory",
@@ -6193,6 +6730,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Subset",
           "normalized": "(a b(c d)-\u003ec d)-\u003ed d",
@@ -6208,6 +6746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "TypeableType",
           "package": "type-settheory",
@@ -6217,6 +6756,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "TypeableType",
           "package": "type-settheory",
@@ -6230,6 +6770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Union",
           "package": "type-settheory",
@@ -6239,6 +6780,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Union",
           "normalized": "Either(a b)(a b)-\u003e(b b)a",
@@ -6254,6 +6796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Unions",
           "package": "type-settheory",
@@ -6263,6 +6806,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Unions",
           "normalized": "(Lower a b)-\u003e(c a)-\u003eUnions b c",
@@ -6278,6 +6822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "Univ",
           "package": "type-settheory",
@@ -6287,6 +6832,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "Univ",
           "package": "type-settheory",
@@ -6300,6 +6846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "V",
           "package": "type-settheory",
@@ -6309,6 +6856,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "V",
           "normalized": "a b-\u003eb-\u003eV a",
@@ -6323,6 +6871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "autoequality",
           "package": "type-settheory",
@@ -6332,6 +6881,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "autoequality",
           "package": "type-settheory",
@@ -6344,6 +6894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "autosubset",
           "package": "type-settheory",
@@ -6353,6 +6904,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "autosubset",
           "package": "type-settheory",
@@ -6365,6 +6917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "coKleisliType",
           "package": "type-settheory",
@@ -6374,6 +6927,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "coKleisliType",
           "normalized": "(a b-\u003ec)CoKleisliType a",
@@ -6389,6 +6943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "complContradiction",
           "package": "type-settheory",
@@ -6398,6 +6953,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "complContradiction",
           "normalized": "Not(a b,Complement a b)",
@@ -6413,6 +6969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "complEmpty",
           "package": "type-settheory",
@@ -6422,6 +6979,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "complEmpty",
           "package": "type-settheory",
@@ -6435,6 +6993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "complMaximal",
           "package": "type-settheory",
@@ -6444,6 +7003,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "complMaximal",
           "normalized": "Disjoint a b-\u003eb Complement a",
@@ -6460,6 +7020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoercion using a set equality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "ecoerce",
           "package": "type-settheory",
@@ -6470,6 +7031,7 @@
         "index": {
           "description": "Coercion using set equality",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "ecoerce",
           "normalized": "(a a)-\u003e(b a)-\u003eb a",
@@ -6485,6 +7047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoercion using a set equality (flipped)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "ecoerceFlip",
           "package": "type-settheory",
@@ -6495,6 +7058,7 @@
         "index": {
           "description": "Coercion using set equality flipped",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "ecoerceFlip",
           "normalized": "(a a)-\u003e(b a)-\u003eb a",
@@ -6510,6 +7074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "elimComplement",
           "package": "type-settheory",
@@ -6519,6 +7084,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "elimComplement",
           "normalized": "(a Complement b)-\u003eNot(a b)",
@@ -6534,6 +7100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "elimDiff",
           "package": "type-settheory",
@@ -6543,6 +7110,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "elimDiff",
           "normalized": "(a Diff b c)-\u003e(a b,Not(a c))",
@@ -6558,6 +7126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "elimEmpty",
           "package": "type-settheory",
@@ -6567,6 +7136,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "elimEmpty",
           "normalized": "Empty a-\u003eb",
@@ -6582,6 +7152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "elimInter",
           "package": "type-settheory",
@@ -6591,6 +7162,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "elimInter",
           "normalized": "(a(b b))-\u003e(a b,a b)",
@@ -6606,6 +7178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "elimInters",
           "package": "type-settheory",
@@ -6615,6 +7188,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "elimInters",
           "normalized": "Inters a b-\u003e(Lower c a)-\u003ec b",
@@ -6630,6 +7204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "elimUnion",
           "package": "type-settheory",
@@ -6639,6 +7214,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "elimUnion",
           "normalized": "(a(b b))-\u003eEither(a b)(a b)",
@@ -6654,6 +7230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "elimUnions",
           "package": "type-settheory",
@@ -6663,6 +7240,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "elimUnions",
           "normalized": "Unions a b-\u003e(c d(Lower e a)-\u003e(b e)-\u003ef)-\u003ef",
@@ -6678,6 +7256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "emptySubset",
           "package": "type-settheory",
@@ -6687,6 +7266,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "emptySubset",
           "package": "type-settheory",
@@ -6700,6 +7280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "fstPrf",
           "package": "type-settheory",
@@ -6709,6 +7290,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "fstPrf",
           "normalized": "((a,b)(c c))-\u003ea c",
@@ -6724,6 +7306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "functionType",
           "package": "type-settheory",
@@ -6733,6 +7316,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "functionType",
           "normalized": "(a-\u003eb)FunctionType",
@@ -6748,6 +7332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "getCompare",
           "package": "type-settheory",
@@ -6757,6 +7342,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "getCompare",
           "normalized": "(a OrdType)-\u003ea-\u003ea-\u003eOrdering",
@@ -6772,6 +7358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "getEq",
           "package": "type-settheory",
@@ -6781,6 +7368,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "getEq",
           "normalized": "(a EqType)-\u003ea-\u003ea-\u003eBool",
@@ -6796,6 +7384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "getFmap",
           "package": "type-settheory",
@@ -6805,6 +7394,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "getFmap",
           "normalized": "(Lower a FunctorType)-\u003e(b-\u003ec)-\u003ea b-\u003ea c",
@@ -6821,6 +7411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExample application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "getShow",
           "package": "type-settheory",
@@ -6831,6 +7422,7 @@
         "index": {
           "description": "Example application",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "getShow",
           "normalized": "(a ShowType)-\u003ea-\u003eString",
@@ -6846,6 +7438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "interFst",
           "package": "type-settheory",
@@ -6855,6 +7448,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "interFst",
           "package": "type-settheory",
@@ -6868,6 +7462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "interIdempotent",
           "package": "type-settheory",
@@ -6877,6 +7472,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "interIdempotent",
           "package": "type-settheory",
@@ -6890,6 +7486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "interMaximal",
           "package": "type-settheory",
@@ -6899,6 +7496,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "interMaximal",
           "normalized": "(a b)-\u003e(a b)-\u003ea(b b)",
@@ -6914,6 +7512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "interSnd",
           "package": "type-settheory",
@@ -6923,6 +7522,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "interSnd",
           "package": "type-settheory",
@@ -6936,6 +7536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "kleisliType",
           "package": "type-settheory",
@@ -6945,6 +7546,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "kleisliType",
           "normalized": "(a-\u003eb c)KleisliType b",
@@ -6960,6 +7562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "liftCompare",
           "package": "type-settheory",
@@ -6969,6 +7572,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "liftCompare",
           "normalized": "(a OrdType)-\u003e(a TypeableType)-\u003eV a-\u003eV a-\u003eOrdering",
@@ -6984,6 +7588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "liftEq",
           "package": "type-settheory",
@@ -6993,6 +7598,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "liftEq",
           "normalized": "(a EqType)-\u003e(a TypeableType)-\u003eV a-\u003eV a-\u003eBool",
@@ -7008,6 +7614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "liftShowsPrec",
           "package": "type-settheory",
@@ -7017,6 +7624,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "liftShowsPrec",
           "normalized": "(a ShowType)-\u003e(a TypeableType)-\u003eInt-\u003eV a-\u003eShowS",
@@ -7032,6 +7640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "powersetClosedDownwards",
           "package": "type-settheory",
@@ -7041,6 +7650,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "powersetClosedDownwards",
           "package": "type-settheory",
@@ -7054,6 +7664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "powersetEmpty",
           "package": "type-settheory",
@@ -7063,6 +7674,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "powersetEmpty",
           "package": "type-settheory",
@@ -7076,6 +7688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "powersetInter",
           "package": "type-settheory",
@@ -7085,6 +7698,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "powersetInter",
           "package": "type-settheory",
@@ -7098,6 +7712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "powersetMonotonic",
           "package": "type-settheory",
@@ -7107,6 +7722,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "powersetMonotonic",
           "package": "type-settheory",
@@ -7120,6 +7736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "powersetUnion",
           "package": "type-settheory",
@@ -7129,6 +7746,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "powersetUnion",
           "package": "type-settheory",
@@ -7142,6 +7760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "powersetWholeset",
           "package": "type-settheory",
@@ -7151,6 +7770,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "powersetWholeset",
           "package": "type-settheory",
@@ -7165,6 +7785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduct is monotonic wrt. subset inclusion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "prodMonotonic",
           "package": "type-settheory",
@@ -7175,6 +7796,7 @@
         "index": {
           "description": "Product is monotonic wrt subset inclusion",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "prodMonotonic",
           "normalized": "(a b)-\u003e(a b)-\u003e(a a)(b b)",
@@ -7191,6 +7813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoercion from subset to superset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "scoerce",
           "package": "type-settheory",
@@ -7201,6 +7824,7 @@
         "index": {
           "description": "Coercion from subset to superset",
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "scoerce",
           "normalized": "(a a)-\u003e(b a)-\u003eb a",
@@ -7215,6 +7839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "setEqRefl",
           "package": "type-settheory",
@@ -7224,6 +7849,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "setEqRefl",
           "package": "type-settheory",
@@ -7237,6 +7863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "setEqSym",
           "package": "type-settheory",
@@ -7246,6 +7873,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "setEqSym",
           "normalized": "(a a)-\u003ea a",
@@ -7261,6 +7889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "setEqTrans",
           "package": "type-settheory",
@@ -7270,6 +7899,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "setEqTrans",
           "normalized": "(a a)-\u003e(a a)-\u003ea a",
@@ -7285,6 +7915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "sndPrf",
           "package": "type-settheory",
@@ -7294,6 +7925,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "sndPrf",
           "normalized": "((a,b)(c c))-\u003eb c",
@@ -7309,6 +7941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "subsetRefl",
           "package": "type-settheory",
@@ -7318,6 +7951,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "subsetRefl",
           "package": "type-settheory",
@@ -7331,6 +7965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "subsetTrans",
           "package": "type-settheory",
@@ -7340,6 +7975,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "subsetTrans",
           "normalized": "(a a)-\u003e(a a)-\u003ea a",
@@ -7355,6 +7991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "unionIdempotent",
           "package": "type-settheory",
@@ -7364,6 +8001,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "unionIdempotent",
           "package": "type-settheory",
@@ -7377,6 +8015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "unionL",
           "package": "type-settheory",
@@ -7386,6 +8025,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "unionL",
           "package": "type-settheory",
@@ -7398,6 +8038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "unionMinimal",
           "package": "type-settheory",
@@ -7407,6 +8048,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "unionMinimal",
           "normalized": "(a b)-\u003e(a b)-\u003e(a a)b",
@@ -7422,6 +8064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "unionR",
           "package": "type-settheory",
@@ -7431,6 +8074,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "unionR",
           "package": "type-settheory",
@@ -7443,6 +8087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:57 UTC 2014",
           "module": "Type.Set",
           "name": "univSubset",
           "package": "type-settheory",
@@ -7452,6 +8097,7 @@
         },
         "index": {
           "hierarchy": "Type Set",
+          "indexed": "2014-03-11T20:27:57",
           "module": "Type.Set",
           "name": "univSubset",
           "package": "type-settheory",

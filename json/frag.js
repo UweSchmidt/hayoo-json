@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "frag"
+        "phrase": "frag",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "opentheory-parser"
+        "phrase": "opentheory-parser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser.Stream",
           "name": "Stream",
           "package": "opentheory-parser",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser Stream",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser.Stream",
           "name": "Stream",
           "package": "opentheory-parser",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser.Stream",
           "name": "Stream",
           "package": "opentheory-parser",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser Stream",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser.Stream",
           "name": "Stream",
           "package": "opentheory-parser",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser.Stream",
           "name": "Cons",
           "package": "opentheory-parser",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser Stream",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser.Stream",
           "name": "Cons",
           "package": "opentheory-parser",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser.Stream",
           "name": "Eof",
           "package": "opentheory-parser",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser Stream",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser.Stream",
           "name": "Eof",
           "package": "opentheory-parser",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser.Stream",
           "name": "Error",
           "package": "opentheory-parser",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser Stream",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser.Stream",
           "name": "Error",
           "package": "opentheory-parser",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser.Stream",
           "name": "append",
           "package": "opentheory-parser",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser Stream",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser.Stream",
           "name": "append",
           "normalized": "[a]-\u003eStream a-\u003eStream a",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser.Stream",
           "name": "fromList",
           "package": "opentheory-parser",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser Stream",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser.Stream",
           "name": "fromList",
           "normalized": "[a]-\u003eStream a",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser.Stream",
           "name": "fromRandom",
           "package": "opentheory-parser",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser Stream",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser.Stream",
           "name": "fromRandom",
           "normalized": "(Random-\u003e(a,Random))-\u003eRandom-\u003e(Stream a,Random)",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser.Stream",
           "name": "size",
           "package": "opentheory-parser",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser Stream",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser.Stream",
           "name": "size",
           "normalized": "Stream a-\u003eNatural",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser.Stream",
           "name": "toList",
           "package": "opentheory-parser",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser Stream",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser.Stream",
           "name": "toList",
           "normalized": "Stream a-\u003eMaybe[a]",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser",
           "name": "Parser",
           "package": "opentheory-parser",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser",
           "name": "Parser",
           "package": "opentheory-parser",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser",
           "name": "Parser",
           "package": "opentheory-parser",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser",
           "name": "Parser",
           "package": "opentheory-parser",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser",
           "name": "Parser",
           "package": "opentheory-parser",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser",
           "name": "Parser",
           "package": "opentheory-parser",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser",
           "name": "map",
           "package": "opentheory-parser",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eParser c a-\u003eParser c b",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser",
           "name": "parse",
           "package": "opentheory-parser",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser",
           "name": "parse",
           "normalized": "Parser a b-\u003eStream a-\u003eMaybe(b,Stream a)",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser",
           "name": "parseAll",
           "package": "opentheory-parser",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser",
           "name": "parseAll",
           "package": "opentheory-parser",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser",
           "name": "parseNone",
           "package": "opentheory-parser",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser",
           "name": "parseNone",
           "package": "opentheory-parser",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser",
           "name": "parseOption",
           "package": "opentheory-parser",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser",
           "name": "parseOption",
           "normalized": "(a-\u003eMaybe b)-\u003eParser a b",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser",
           "name": "parsePair",
           "package": "opentheory-parser",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser",
           "name": "parsePair",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a(b,c)",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser",
           "name": "parseSome",
           "package": "opentheory-parser",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser",
           "name": "parseSome",
           "normalized": "(a-\u003eBool)-\u003eParser a a",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser",
           "name": "parseStream",
           "package": "opentheory-parser",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser",
           "name": "parseStream",
           "normalized": "Parser a b-\u003eStream a-\u003eStream b",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser",
           "name": "partialMap",
           "package": "opentheory-parser",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser",
           "name": "partialMap",
           "normalized": "(a-\u003eMaybe b)-\u003eParser c a-\u003eParser c b",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:27 UTC 2014",
           "module": "OpenTheory.Parser",
           "name": "unParser",
           "package": "opentheory-parser",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Parser",
+          "indexed": "2014-03-11T19:32:27",
           "module": "OpenTheory.Parser",
           "name": "unParser",
           "normalized": "a-\u003eStream a-\u003eMaybe(b,Stream a)",

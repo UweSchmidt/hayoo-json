@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "text-binary"
+        "phrase": "text-binary",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:10 UTC 2014",
           "module": "Data.Text.Binary",
           "name": "Binary",
           "package": "text-binary",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Text Binary",
+          "indexed": "2014-03-11T20:20:10",
           "module": "Data.Text.Binary",
           "name": "Binary",
           "package": "text-binary",

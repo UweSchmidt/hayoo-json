@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cmdargs-browser"
+        "phrase": "cmdargs-browser",
+        "type": "phrase"
       },
       "type": "context"
     }

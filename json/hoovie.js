@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hoovie"
+        "phrase": "hoovie",
+        "type": "phrase"
       },
       "type": "context"
     }

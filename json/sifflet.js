@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sifflet"
+        "phrase": "sifflet",
+        "type": "phrase"
       },
       "type": "context"
     }

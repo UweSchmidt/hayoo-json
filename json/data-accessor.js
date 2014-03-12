@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-accessor"
+        "phrase": "data-accessor",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the \u003ccode\u003eAccessor\u003c/code\u003e type.\nIt should be imported with qualification.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "Basic",
           "package": "data-accessor",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines the Accessor type It should be imported with qualification",
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "Basic",
           "package": "data-accessor",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe accessor function we use,\nhas a record value as first argument\nand returns the content of a specific record field\nand a function that allows to overwrite that field with a new value.\n\u003c/p\u003e\u003cp\u003eIn former version of a package\nwe used a function that resembled the state monad.\nHowever this required to use an \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e\nin the implementation of the \u003ccode\u003eget\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "T",
           "package": "data-accessor",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The accessor function we use has record value as first argument and returns the content of specific record field and function that allows to overwrite that field with new value In former version of package we used function that resembled the state monad However this required to use an undefined in the implementation of the get function",
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "T",
           "package": "data-accessor",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlipped version of '($)'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "($%)",
           "package": "data-accessor",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Flipped version of",
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "($%) $%",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccessor composition the other direction.\n\u003c/p\u003e\u003cpre\u003e (\u003c.) = flip (.\u003e)\n\u003c/pre\u003e\u003cp\u003eYou may also use the \u003ccode\u003e(.)\u003c/code\u003e operator from Category class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "(\u003c.)",
           "package": "data-accessor",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Accessor composition the other direction flip You may also use the operator from Category class",
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "(\u003c.) \u003c.",
           "normalized": "T a b-\u003eT c a-\u003eT c b",
@@ -192,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccessor composition:\nCombine an accessor with an accessor to a sub-field.\nSpeak \"stack\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "(.\u003e)",
           "package": "data-accessor",
@@ -202,6 +211,7 @@
         "index": {
           "description": "Accessor composition Combine an accessor with an accessor to sub-field Speak stack",
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "(.\u003e) .\u003e",
           "normalized": "T a b-\u003eT b c-\u003eT a c",
@@ -217,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a general function,\nbut it is especially useful for setting many values of different type at once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "compose",
           "package": "data-accessor",
@@ -227,6 +238,7 @@
         "index": {
           "description": "This is general function but it is especially useful for setting many values of different type at once",
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "compose",
           "normalized": "[a-\u003ea]-\u003ea-\u003ea",
@@ -241,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "fromLens",
           "package": "data-accessor",
@@ -250,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "fromLens",
           "normalized": "(a-\u003e(b,b-\u003ea))-\u003eT a b",
@@ -265,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "fromSetGet",
           "package": "data-accessor",
@@ -274,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "fromSetGet",
           "normalized": "(a-\u003eb-\u003eb)-\u003e(b-\u003ea)-\u003eT b a",
@@ -290,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf an object is wrapped in a \u003ccode\u003enewtype\u003c/code\u003e,\nyou can generate an \u003ccode\u003eAccessor\u003c/code\u003e to the unwrapped data\nby providing a wrapper and an unwrapper function.\nThe set function is simpler in this case,\nsince no existing data must be kept.\nSince the information content of the wrapped and unwrapped data is equivalent,\nyou can swap wrapper and unwrapper.\nThis way you can construct an \u003ccode\u003eAccessor\u003c/code\u003e\nthat treats a record field containing an unwrapped object\nlike a field containing a wrapped object.\n\u003c/p\u003e\u003cpre\u003e newtype A = A {unA :: Int}\n\n access :: Accessor.T A Int\n access = fromWrapper A unA\n\u003c/pre\u003e\u003cp\u003eWe could also have called this function \u003ccode\u003efromBijection\u003c/code\u003e,\nsince it must hold \u003ccode\u003ewrap . unwrap = id\u003c/code\u003e and \u003ccode\u003eunwrap . wrap = id\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "fromWrapper",
           "package": "data-accessor",
@@ -300,6 +317,7 @@
         "index": {
           "description": "If an object is wrapped in newtype you can generate an Accessor to the unwrapped data by providing wrapper and an unwrapper function The set function is simpler in this case since no existing data must be kept Since the information content of the wrapped and unwrapped data is equivalent you can swap wrapper and unwrapper This way you can construct an Accessor that treats record field containing an unwrapped object like field containing wrapped object newtype unA Int access Accessor.T Int access fromWrapper unA We could also have called this function fromBijection since it must hold wrap unwrap id and unwrap wrap id",
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "fromWrapper",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eT b a",
@@ -316,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of a field. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "get",
           "package": "data-accessor",
@@ -326,6 +345,7 @@
         "index": {
           "description": "Get the value of field",
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "get",
           "normalized": "T a b-\u003ea-\u003eb",
@@ -341,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge the accessors to two independent fields.\n\u003c/p\u003e\u003cp\u003eIndependency means, it must hold:\n\u003c/p\u003e\u003cpre\u003e set (merge accA accB) (a,b) = set (merge accB accA) (b,a)\n\u003c/pre\u003e\u003cp\u003eYou may construct smart accessors\nby composing a merged accessor with a \u003ccode\u003efromWrapper\u003c/code\u003e accessor.\n\u003c/p\u003e\u003cp\u003eThis is a special case of the more general \u003ccode\u003ePoint\u003c/code\u003e concept\nin the package \u003ccode\u003efclabels\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "merge",
           "package": "data-accessor",
@@ -351,6 +372,7 @@
         "index": {
           "description": "Merge the accessors to two independent fields Independency means it must hold set merge accA accB set merge accB accA You may construct smart accessors by composing merged accessor with fromWrapper accessor This is special case of the more general Point concept in the package fclabels",
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "merge",
           "normalized": "T a b-\u003eT a c-\u003eT a(b,c)",
@@ -366,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the value of a field by a function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "modify",
           "package": "data-accessor",
@@ -376,6 +399,7 @@
         "index": {
           "description": "Transform the value of field by function",
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "modify",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -391,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess a (non-existing) element of type \u003ccode\u003e()\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "null",
           "package": "data-accessor",
@@ -401,6 +426,7 @@
         "index": {
           "description": "Access non-existing element of type",
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "null",
           "normalized": "T a()",
@@ -416,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eresult a\u003c/code\u003e accesses the value of a function for argument \u003ccode\u003ea\u003c/code\u003e.\nIt is not very efficient to build a function\nfrom setting all of its values using this accessor,\nsince every access to a function adds another \u003ccode\u003eif-then-else\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAlso see semantic editor combinators,\nthat allow to modify all function values of a function at once.\nCf. \u003ca\u003ehttp://conal.net/blog/posts/semantic-editor-combinators/\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "result",
           "package": "data-accessor",
@@ -426,6 +453,7 @@
         "index": {
           "description": "result accesses the value of function for argument It is not very efficient to build function from setting all of its values using this accessor since every access to function adds another if-then-else Also see semantic editor combinators that allow to modify all function values of function at once Cf http conal.net blog posts semantic-editor-combinators",
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "result",
           "normalized": "a-\u003eT(a-\u003eb)b",
@@ -441,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the record itself\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "self",
           "package": "data-accessor",
@@ -451,6 +480,7 @@
         "index": {
           "description": "Access the record itself",
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "self",
           "package": "data-accessor",
@@ -464,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the value of a field. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Basic",
           "name": "set",
           "package": "data-accessor",
@@ -474,6 +505,7 @@
         "index": {
           "description": "Set the value of field",
           "hierarchy": "Data Accessor Basic",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Basic",
           "name": "set",
           "normalized": "T a b-\u003eb-\u003ea-\u003ea",
@@ -489,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReading records from streams\n\u003c/p\u003e\u003cp\u003eThis is still only for demonstration and might be of not much use\nand you should not rely on the interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "BinaryRead",
           "package": "data-accessor",
@@ -498,6 +531,7 @@
         "index": {
           "description": "Reading records from streams This is still only for demonstration and might be of not much use and you should not rely on the interface",
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "BinaryRead",
           "package": "data-accessor",
@@ -511,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "ByteCompatible",
           "package": "data-accessor",
@@ -519,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "ByteCompatible",
           "package": "data-accessor",
@@ -532,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "ByteSource",
           "package": "data-accessor",
@@ -540,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "ByteSource",
           "package": "data-accessor",
@@ -553,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "ByteStream",
           "package": "data-accessor",
@@ -561,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "ByteStream",
           "package": "data-accessor",
@@ -574,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "C",
           "package": "data-accessor",
@@ -582,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "C",
           "package": "data-accessor",
@@ -594,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "Parser",
           "package": "data-accessor",
@@ -602,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "Parser",
           "package": "data-accessor",
@@ -615,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "Stream",
           "package": "data-accessor",
@@ -623,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "Stream",
           "package": "data-accessor",
@@ -636,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "Parser",
           "package": "data-accessor",
@@ -645,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "Parser",
           "package": "data-accessor",
@@ -658,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "any",
           "package": "data-accessor",
@@ -667,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "any",
           "package": "data-accessor",
@@ -679,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "field",
           "package": "data-accessor",
@@ -688,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "field",
           "normalized": "T a b-\u003eParser c a",
@@ -702,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "getWord8",
           "package": "data-accessor",
@@ -711,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "getWord8",
           "normalized": "a-\u003eb(Word,a)",
@@ -726,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "readWord8",
           "package": "data-accessor",
@@ -735,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "readWord8",
           "package": "data-accessor",
@@ -748,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "record",
           "package": "data-accessor",
@@ -757,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "record",
           "normalized": "[Parser a b]-\u003eParser a b",
@@ -771,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "runParser",
           "package": "data-accessor",
@@ -780,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "runParser",
           "normalized": "(a,b)-\u003eMaybe(a,b)",
@@ -795,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.BinaryRead",
           "name": "toByte",
           "package": "data-accessor",
@@ -804,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor BinaryRead",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.BinaryRead",
           "name": "toByte",
           "normalized": "a-\u003eWord",
@@ -820,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows to access elements of arrays, sets and finite maps\nlike elements of records.\nThis is especially useful for working with nested structures\nconsisting of arrays, sets, maps and records.\n\u003c/p\u003e\u003cp\u003eMaybe we should move it to a separate package,\nthen we would not need to import \u003ccode\u003earray\u003c/code\u003e and \u003ccode\u003econtainers\u003c/code\u003e package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Container",
           "name": "Container",
           "package": "data-accessor",
@@ -829,6 +892,7 @@
         "index": {
           "description": "This module allows to access elements of arrays sets and finite maps like elements of records This is especially useful for working with nested structures consisting of arrays sets maps and records Maybe we should move it to separate package then we would not need to import array and containers package",
           "hierarchy": "Data Accessor Container",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Container",
           "name": "Container",
           "package": "data-accessor",
@@ -842,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Container",
           "name": "array",
           "package": "data-accessor",
@@ -851,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Container",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Container",
           "name": "array",
           "normalized": "a-\u003eT(Array a b)b",
@@ -865,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Container",
           "name": "intMapDefault",
           "package": "data-accessor",
@@ -874,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Container",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Container",
           "name": "intMapDefault",
           "normalized": "a-\u003eInt-\u003eT(IntMap a)a",
@@ -889,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Container",
           "name": "intMapMaybe",
           "package": "data-accessor",
@@ -898,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Container",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Container",
           "name": "intMapMaybe",
           "normalized": "Int-\u003eT(IntMap a)(Maybe a)",
@@ -914,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTreats a finite map like an infinite map,\nwhere all undefined elements are replaced by a default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Container",
           "name": "mapDefault",
           "package": "data-accessor",
@@ -924,6 +995,7 @@
         "index": {
           "description": "Treats finite map like an infinite map where all undefined elements are replaced by default value",
           "hierarchy": "Data Accessor Container",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Container",
           "name": "mapDefault",
           "normalized": "a-\u003eb-\u003eT(Map b a)a",
@@ -940,6 +1012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTreats a finite map like an infinite map,\nwhere all undefined elements are \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\nand defined elements are \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Container",
           "name": "mapMaybe",
           "package": "data-accessor",
@@ -950,6 +1023,7 @@
         "index": {
           "description": "Treats finite map like an infinite map where all undefined elements are Nothing and defined elements are Just",
           "hierarchy": "Data Accessor Container",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Container",
           "name": "mapMaybe",
           "normalized": "a-\u003eT(Map a b)(Maybe b)",
@@ -966,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTreat a Set like a boolean array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Container",
           "name": "set",
           "package": "data-accessor",
@@ -976,6 +1051,7 @@
         "index": {
           "description": "Treat Set like boolean array",
           "hierarchy": "Data Accessor Container",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Container",
           "name": "set",
           "normalized": "a-\u003eT(Set a)Bool",
@@ -991,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: please use Data.Accessor.Monad.Trans.State from data-accessor-transformers\u003c/p\u003e\u003c/div\u003e\u003cp\u003eAccess helper functions in a State monad \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.MonadState",
           "name": "MonadState",
           "package": "data-accessor",
@@ -1000,6 +1077,7 @@
         "index": {
           "description": "Deprecated please use Data.Accessor.Monad.Trans.State from data-accessor-transformers Access helper functions in State monad",
           "hierarchy": "Data Accessor MonadState",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.MonadState",
           "name": "MonadState",
           "package": "data-accessor",
@@ -1065,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.MonadState",
           "name": "get",
           "package": "data-accessor",
@@ -1074,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor MonadState",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.MonadState",
           "name": "get",
           "normalized": "T a b-\u003eStateT a c b",
@@ -1089,6 +1169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a record element and return its old value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.MonadState",
           "name": "getAndModify",
           "package": "data-accessor",
@@ -1099,6 +1180,7 @@
         "index": {
           "description": "Modify record element and return its old value",
           "hierarchy": "Data Accessor MonadState",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.MonadState",
           "name": "getAndModify",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003eStateT a c b",
@@ -1114,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.MonadState",
           "name": "lift",
           "package": "data-accessor",
@@ -1123,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor MonadState",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.MonadState",
           "name": "lift",
           "normalized": "T a b-\u003eState b c-\u003eStateT a d c",
@@ -1137,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.MonadState",
           "name": "liftT",
           "package": "data-accessor",
@@ -1146,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor MonadState",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.MonadState",
           "name": "liftT",
           "normalized": "T a b-\u003eStateT b c d-\u003eStateT a c d",
@@ -1160,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.MonadState",
           "name": "modify",
           "package": "data-accessor",
@@ -1169,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor MonadState",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.MonadState",
           "name": "modify",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003eStateT a c()",
@@ -1184,6 +1272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a record element and return its new value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.MonadState",
           "name": "modifyAndGet",
           "package": "data-accessor",
@@ -1194,6 +1283,7 @@
         "index": {
           "description": "Modify record element and return its new value",
           "hierarchy": "Data Accessor MonadState",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.MonadState",
           "name": "modifyAndGet",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003eStateT a c b",
@@ -1209,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.MonadState",
           "name": "set",
           "package": "data-accessor",
@@ -1218,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor MonadState",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.MonadState",
           "name": "set",
           "normalized": "T a b-\u003eb-\u003eStateT a c()",
@@ -1233,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for creating Show instances using the accessors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Show",
           "name": "Show",
           "package": "data-accessor",
@@ -1242,6 +1335,7 @@
         "index": {
           "description": "Support for creating Show instances using the accessors",
           "hierarchy": "Data Accessor Show",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Show",
           "name": "Show",
           "package": "data-accessor",
@@ -1255,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Show",
           "name": "field",
           "package": "data-accessor",
@@ -1264,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Show",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Show",
           "name": "field",
           "normalized": "String-\u003eT a b-\u003ea-\u003ea-\u003eMaybe ShowS",
@@ -1278,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Show",
           "name": "showsPrec",
           "package": "data-accessor",
@@ -1287,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Show",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Show",
           "name": "showsPrec",
           "normalized": "[a-\u003ea-\u003eMaybe ShowS]-\u003eString-\u003ea-\u003eInt-\u003ea-\u003eShowS",
@@ -1302,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Tuple",
           "name": "Tuple",
           "package": "data-accessor",
@@ -1310,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Tuple",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Tuple",
           "name": "Tuple",
           "package": "data-accessor",
@@ -1324,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess to the first value of a pair. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Tuple",
           "name": "first",
           "package": "data-accessor",
@@ -1334,6 +1435,7 @@
         "index": {
           "description": "Access to the first value of pair",
           "hierarchy": "Data Accessor Tuple",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Tuple",
           "name": "first",
           "normalized": "T(a,b)a",
@@ -1349,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess to the first value of a triple. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Tuple",
           "name": "first3",
           "package": "data-accessor",
@@ -1359,6 +1462,7 @@
         "index": {
           "description": "Access to the first value of triple",
           "hierarchy": "Data Accessor Tuple",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Tuple",
           "name": "first3",
           "normalized": "T(a,b,c)a",
@@ -1374,6 +1478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess to the second value of a pair. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Tuple",
           "name": "second",
           "package": "data-accessor",
@@ -1384,6 +1489,7 @@
         "index": {
           "description": "Access to the second value of pair",
           "hierarchy": "Data Accessor Tuple",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Tuple",
           "name": "second",
           "normalized": "T(a,b)b",
@@ -1399,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess to the second value of a triple. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Tuple",
           "name": "second3",
           "package": "data-accessor",
@@ -1409,6 +1516,7 @@
         "index": {
           "description": "Access to the second value of triple",
           "hierarchy": "Data Accessor Tuple",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Tuple",
           "name": "second3",
           "normalized": "T(a,b,c)b",
@@ -1424,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess to the third value of a triple. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor.Tuple",
           "name": "third3",
           "package": "data-accessor",
@@ -1434,6 +1543,7 @@
         "index": {
           "description": "Access to the third value of triple",
           "hierarchy": "Data Accessor Tuple",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor.Tuple",
           "name": "third3",
           "normalized": "T(a,b,c)c",
@@ -1449,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a simple abstract data type for\na piece of a data stucture that can be read from and written to.\nIn contrast to \u003ca\u003eData.Accessor.Basic\u003c/a\u003e it is intended for unqualified import.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor",
           "name": "Accessor",
           "package": "data-accessor",
@@ -1458,6 +1569,7 @@
         "index": {
           "description": "This module provides simple abstract data type for piece of data stucture that can be read from and written to In contrast to Data.Accessor.Basic it is intended for unqualified import",
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor",
           "name": "Accessor",
           "package": "data-accessor",
@@ -1472,6 +1584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003eAccessor r a\u003c/code\u003e is an object that encodes how to\n get and put a subject of type \u003ccode\u003ea\u003c/code\u003e out of/into an object\n of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIn order for an instance of this data structure \u003ccode\u003ea\u003c/code\u003e to be\n an \u003ccode\u003e\u003ca\u003eAccessor\u003c/a\u003e\u003c/code\u003e, it must obey the following laws:\n\u003c/p\u003e\u003cpre\u003e getVal a (setVal a x r) = x\n setVal a (getVal a r) r = r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor",
           "name": "Accessor",
           "package": "data-accessor",
@@ -1481,6 +1594,7 @@
         "index": {
           "description": "An Accessor is an object that encodes how to get and put subject of type out of into an object of type In order for an instance of this data structure to be an Accessor it must obey the following laws getVal setVal setVal getVal",
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor",
           "name": "Accessor",
           "package": "data-accessor",
@@ -1495,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccessor composition the other direction.\n\u003c/p\u003e\u003cpre\u003e (\u003c.) = flip (.\u003e)\n\u003c/pre\u003e\u003cp\u003eYou may also use the \u003ccode\u003e(.)\u003c/code\u003e operator from Category class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor",
           "name": "(\u003c.)",
           "package": "data-accessor",
@@ -1505,6 +1620,7 @@
         "index": {
           "description": "Accessor composition the other direction flip You may also use the operator from Category class",
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor",
           "name": "(\u003c.) \u003c.",
           "normalized": "Accessor a b-\u003eAccessor c a-\u003eAccessor c b",
@@ -1520,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use (Data.Accessor.Monad.Trans.State.%=) from data-accessor-transformers package\u003c/p\u003e\u003c/div\u003e\u003cp\u003eAn \"assignment operator\" for state monads.\n\u003c/p\u003e\u003cpre\u003e (=:) = putA\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor",
           "name": "(=:)",
           "package": "data-accessor",
@@ -1530,6 +1647,7 @@
         "index": {
           "description": "Deprecated use Data.Accessor.Monad.Trans.State from data-accessor-transformers package An assignment operator for state monads putA",
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor",
           "name": "(=:) =:",
           "normalized": "Accessor a b-\u003eb-\u003eStateT a c()",
@@ -1545,6 +1663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccessor composition:\nCombine an accessor with an accessor to a sub-field.\nSpeak \"stack\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor",
           "name": "(.\u003e)",
           "package": "data-accessor",
@@ -1555,6 +1674,7 @@
         "index": {
           "description": "Accessor composition Combine an accessor with an accessor to sub-field Speak stack",
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor",
           "name": "(.\u003e) .\u003e",
           "normalized": "Accessor a b-\u003eAccessor b c-\u003eAccessor a c",
@@ -1570,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an \u003ccode\u003e\u003ca\u003eAccessor\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003eget\u003c/code\u003e and a \u003ccode\u003eset\u003c/code\u003e method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor",
           "name": "accessor",
           "package": "data-accessor",
@@ -1579,6 +1700,7 @@
         "index": {
           "description": "Construct an Accessor from get and set method",
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor",
           "name": "accessor",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea-\u003ea)-\u003eAccessor a b",
@@ -1594,6 +1716,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Data.Accessor.Monad.Trans.State.get from data-accessor-transformers package\u003c/p\u003e\u003c/div\u003e\u003cp\u003eA structural dereference function for state monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor",
           "name": "getA",
           "package": "data-accessor",
@@ -1604,6 +1727,7 @@
         "index": {
           "description": "Deprecated Data.Accessor.Monad.Trans.State.get from data-accessor-transformers package structural dereference function for state monads",
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor",
           "name": "getA",
           "normalized": "Accessor a b-\u003eStateT a c b",
@@ -1619,6 +1743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a value from a record field that is specified by an Accessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor",
           "name": "getVal",
           "package": "data-accessor",
@@ -1628,6 +1753,7 @@
         "index": {
           "description": "Get value from record field that is specified by an Accessor",
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor",
           "name": "getVal",
           "normalized": "Accessor a b-\u003ea-\u003eb",
@@ -1644,6 +1770,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Data.Accessor.Monad.Trans.State.modify from data-accessor-transformers package\u003c/p\u003e\u003c/div\u003e\u003cp\u003eA structural modification function for state monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor",
           "name": "modA",
           "package": "data-accessor",
@@ -1654,6 +1781,7 @@
         "index": {
           "description": "Deprecated Data.Accessor.Monad.Trans.State.modify from data-accessor-transformers package structural modification function for state monads",
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor",
           "name": "modA",
           "normalized": "Accessor a b-\u003e(b-\u003eb)-\u003eStateT a c()",
@@ -1669,6 +1797,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Data.Accessor.Monad.Trans.State.set from data-accessor-transformers package\u003c/p\u003e\u003c/div\u003e\u003cp\u003eA structural assignment function for state monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor",
           "name": "putA",
           "package": "data-accessor",
@@ -1679,6 +1808,7 @@
         "index": {
           "description": "Deprecated Data.Accessor.Monad.Trans.State.set from data-accessor-transformers package structural assignment function for state monads",
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor",
           "name": "putA",
           "normalized": "Accessor a b-\u003eb-\u003eStateT a c()",
@@ -1694,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a value of a record field that is specified by an Accessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:12 UTC 2014",
           "module": "Data.Accessor",
           "name": "setVal",
           "package": "data-accessor",
@@ -1703,6 +1834,7 @@
         "index": {
           "description": "Set value of record field that is specified by an Accessor",
           "hierarchy": "Data Accessor",
+          "indexed": "2014-03-11T17:47:12",
           "module": "Data.Accessor",
           "name": "setVal",
           "normalized": "Accessor a b-\u003eb-\u003ea-\u003ea",

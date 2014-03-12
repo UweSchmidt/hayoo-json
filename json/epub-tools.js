@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "epub-tools"
+        "phrase": "epub-tools",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SMTPClient"
+        "phrase": "SMTPClient",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn SMTP client in the IO Monad.\n\u003c/p\u003e\u003cp\u003eData structures for representing SMTP status codes and email messages are\n re-exported here from \u003cem\u003eText.ParserCombinators.Parsec.Rfc2821\u003c/em\u003e and\n \u003cem\u003eText.ParserCombinators.Parsec.Rfc2822\u003c/em\u003e in the \u003cem\u003ehsemail\u003c/em\u003e package.\n\u003c/p\u003e\u003cp\u003eHere's a working example:\n\u003c/p\u003e\u003cpre\u003e import Network.SMTP.ClientSession\n import Network.SMTP.Client\n import Network.Socket\n import System.Time\n import System.IO\n import Data.IORef\n \n myDomain = \"example.com\"\n smtpHost = \"mail.example.com\"    -- \u003c-- Your SMTP server here\n \n main = do\n     now \u003c- getClockTime\n     nowCT \u003c- toCalendarTime now\n     let message = Message [\n                 From [NameAddr (Just \"Mr. Nobody\") \"nobody@example.com\"],\n                 To   [NameAddr (Just \"Mr. Somebody\") \"somebody@example.com\"],\n                 Subject \"I'm using SMTPClient!\",\n                 Date nowCT\n             ]\n             (\"Dear Sir,\\n\"++\n              \"It has come to my attention that this is an email.\\n\"++\n              \"Yours sincerely,\\n\"++\n              \"Mr. Nobody\\n\")\n     addrs \u003c- getAddrInfo Nothing (Just smtpHost) (Just \"25\")\n     putStrLn $ \"connecting to \"++show (map addrAddress addrs)\n     sentRef \u003c- newIORef []\n     sendSMTP' (hPutStrLn stderr) (Just sentRef) myDomain addrs [message]\n     statuses \u003c- readIORef sentRef\n     -- If no exception was caught, statuses is guaranteed to be\n     -- the same length as the list of input messages, therefore head won't fail here.\n     case head statuses of\n         Nothing     -\u003e putStrLn \"Message successfully sent\"\n         Just status -\u003e putStrLn $ \"Message send failed with status \"++show status\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Client",
           "name": "Client",
           "package": "SMTPClient",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An SMTP client in the IO Monad Data structures for representing SMTP status codes and email messages are re-exported here from Text.ParserCombinators.Parsec.Rfc2821 and Text.ParserCombinators.Parsec.Rfc2822 in the hsemail package Here working example import Network.SMTP.ClientSession import Network.SMTP.Client import Network.Socket import System.Time import System.IO import Data.IORef myDomain example.com smtpHost mail.example.com Your SMTP server here main do now getClockTime nowCT toCalendarTime now let message Message From NameAddr Just Mr Nobody nobody@example.com To NameAddr Just Mr Somebody somebody@example.com Subject using SMTPClient Date nowCT Dear Sir It has come to my attention that this is an email Yours sincerely Mr Nobody addrs getAddrInfo Nothing Just smtpHost Just putStrLn connecting to show map addrAddress addrs sentRef newIORef sendSMTP hPutStrLn stderr Just sentRef myDomain addrs message statuses readIORef sentRef If no exception was caught statuses is guaranteed to be the same length as the list of input messages therefore head won fail here case head statuses of Nothing putStrLn Message successfully sent Just status putStrLn Message send failed with status show status",
           "hierarchy": "Network SMTP Client",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Client",
           "name": "Client",
           "package": "SMTPClient",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Client",
           "name": "Category",
           "package": "SMTPClient",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP Client",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Client",
           "name": "Category",
           "package": "SMTPClient",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type represents any of the header fields defined in this\n RFC. Each of the various instances contains with the return value\n of the corresponding parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Client",
           "name": "Field",
           "package": "SMTPClient",
@@ -70,6 +75,7 @@
         "index": {
           "description": "This data type represents any of the header fields defined in this RFC Each of the various instances contains with the return value of the corresponding parser",
           "hierarchy": "Network SMTP Client",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Client",
           "name": "Field",
           "package": "SMTPClient",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type repesents a parsed Internet Message as defined in\n this RFC. It consists of an arbitrary number of header lines,\n represented in the \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e data type, and a message body, which may\n be empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Client",
           "name": "GenericMessage",
           "package": "SMTPClient",
@@ -92,6 +99,7 @@
         "index": {
           "description": "This data type repesents parsed Internet Message as defined in this RFC It consists of an arbitrary number of header lines represented in the Field data type and message body which may be empty",
           "hierarchy": "Network SMTP Client",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Client",
           "name": "GenericMessage",
           "package": "SMTPClient",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Client",
           "name": "Message",
           "package": "SMTPClient",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP Client",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Client",
           "name": "Message",
           "package": "SMTPClient",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA NameAddr is composed of an optional realname a mandatory\n e-mail \u003ccode\u003e\u003ca\u003eaddress\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Client",
           "name": "NameAddr",
           "package": "SMTPClient",
@@ -134,6 +145,7 @@
         "index": {
           "description": "NameAddr is composed of an optional realname mandatory e-mail address",
           "hierarchy": "Network SMTP Client",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Client",
           "name": "NameAddr",
           "package": "SMTPClient",
@@ -148,6 +160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception indicating a communications failure at the level of the SMTP protocol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Client",
           "name": "SMTPException",
           "package": "SMTPClient",
@@ -157,6 +170,7 @@
         "index": {
           "description": "An exception indicating communications failure at the level of the SMTP protocol",
           "hierarchy": "Network SMTP Client",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Client",
           "name": "SMTPException",
           "package": "SMTPClient",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Client",
           "name": "SmtpCode",
           "package": "SMTPClient",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP Client",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Client",
           "name": "SmtpCode",
           "package": "SMTPClient",
@@ -191,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn SMTP reply is a three-digit return code plus some waste of\n bandwidth called \"comments\". This is what the list of strings is\n for; one string per line in the reply. \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e will append an\n \"\u003ccode\u003e\\r\\n\u003c/code\u003e\" end-of-line marker to each entry in that list, so that\n the resulting string is ready to be sent back to the peer. For\n example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eshow $ Reply (Code Success MailSystem 0) [\"worked\", \"like\", \"a charm\" ]\n\u003c/code\u003e\u003c/strong\u003e\"250-worked\\r\\n250-like\\r\\n250 a charm\\r\\n\"\n\u003c/pre\u003e\u003cp\u003eIf the message is an empty list \u003ccode\u003e[]\u003c/code\u003e, a default text will be constructed:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eshow $ Reply (Code Success MailSystem 0) []\n\u003c/code\u003e\u003c/strong\u003e\"250 Success in category MailSystem\\r\\n\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Client",
           "name": "SmtpReply",
           "package": "SMTPClient",
@@ -199,6 +216,7 @@
         "index": {
           "description": "An SMTP reply is three-digit return code plus some waste of bandwidth called comments This is what the list of strings is for one string per line in the reply show will append an end-of-line marker to each entry in that list so that the resulting string is ready to be sent back to the peer For example show Reply Code Success MailSystem worked like charm worked n250-like n250 charm If the message is an empty list default text will be constructed show Reply Code Success MailSystem Success in category MailSystem",
           "hierarchy": "Network SMTP Client",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Client",
           "name": "SmtpReply",
           "package": "SMTPClient",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Client",
           "name": "SuccessCode",
           "package": "SMTPClient",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP Client",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Client",
           "name": "SuccessCode",
           "package": "SMTPClient",
@@ -968,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Client",
           "name": "SMTPException",
           "package": "SMTPClient",
@@ -977,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP Client",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Client",
           "name": "SMTPException",
           "package": "SMTPClient",
@@ -1235,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lower level function that does the I/O processing for an SMTP client session on a handle.\n Returns when the session has completed, with the handle still open.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Client",
           "name": "processSMTP",
           "package": "SMTPClient",
@@ -1244,6 +1267,7 @@
         "index": {
           "description": "lower level function that does the processing for an SMTP client session on handle Returns when the session has completed with the handle still open",
           "hierarchy": "Network SMTP Client",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Client",
           "name": "processSMTP",
           "normalized": "(String-\u003eIO())-\u003eMaybe(IORef[Maybe SmtpReply])-\u003eHandle-\u003eSMTPState-\u003eIO()",
@@ -1260,6 +1284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a list of email messages to an SMTP server. Throws SMTPException on\n failure at the communication protocol level, and it can also throw\n socket-level exceptions.\n\u003c/p\u003e\u003cp\u003eThe optional IORef is used to store a list of statuses for messages sent so\n far, where Nothing means success.  The list elements correspond to the elements\n of the input message list.  If the caller catches an exception, this list is\n likely to be shorter than the input message list:  The length of the list\n indicates how many messages were dispatched.  If no exception is caught, the\n length of the statuses will equal the length of the input messages list.\n\u003c/p\u003e\u003cp\u003eThe message body may use either \"\\n\" or \"\\r\\n\" as an end-of-line\n marker and in either case it will be sent correctly to the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Client",
           "name": "sendSMTP",
           "package": "SMTPClient",
@@ -1269,6 +1294,7 @@
         "index": {
           "description": "Send list of email messages to an SMTP server Throws SMTPException on failure at the communication protocol level and it can also throw socket-level exceptions The optional IORef is used to store list of statuses for messages sent so far where Nothing means success The list elements correspond to the elements of the input message list If the caller catches an exception this list is likely to be shorter than the input message list The length of the list indicates how many messages were dispatched If no exception is caught the length of the statuses will equal the length of the input messages list The message body may use either or as an end-of-line marker and in either case it will be sent correctly to the server",
           "hierarchy": "Network SMTP Client",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Client",
           "name": "sendSMTP",
           "normalized": "Maybe(IORef[Maybe SmtpReply])-\u003eString-\u003e[AddrInfo]-\u003e[Message]-\u003eIO()",
@@ -1285,6 +1311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike sendSMTP but takes an additional function for logging all input and\n output for diagnostic purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Client",
           "name": "sendSMTP'",
           "package": "SMTPClient",
@@ -1294,6 +1321,7 @@
         "index": {
           "description": "Like sendSMTP but takes an additional function for logging all input and output for diagnostic purposes",
           "hierarchy": "Network SMTP Client",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Client",
           "name": "sendSMTP'",
           "normalized": "(String-\u003eIO())-\u003eMaybe(IORef[Maybe SmtpReply])-\u003eString-\u003e[AddrInfo]-\u003e[Message]-\u003eIO()",
@@ -1310,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pure SMTP client state machine.\n\u003c/p\u003e\u003cp\u003eData structures for representing SMTP status codes and email messages are\n re-exported here from \u003cem\u003eText.ParserCombinators.Parsec.Rfc2821\u003c/em\u003e and\n \u003cem\u003eText.ParserCombinators.Parsec.Rfc2822\u003c/em\u003e in the \u003cem\u003ehsemail\u003c/em\u003e package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "ClientSession",
           "package": "SMTPClient",
@@ -1319,6 +1348,7 @@
         "index": {
           "description": "pure SMTP client state machine Data structures for representing SMTP status codes and email messages are re-exported here from Text.ParserCombinators.Parsec.Rfc2821 and Text.ParserCombinators.Parsec.Rfc2822 in the hsemail package",
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "ClientSession",
           "package": "SMTPClient",
@@ -1332,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "Category",
           "package": "SMTPClient",
@@ -1339,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "Category",
           "package": "SMTPClient",
@@ -1353,6 +1385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type represents any of the header fields defined in this\n RFC. Each of the various instances contains with the return value\n of the corresponding parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "Field",
           "package": "SMTPClient",
@@ -1361,6 +1394,7 @@
         "index": {
           "description": "This data type represents any of the header fields defined in this RFC Each of the various instances contains with the return value of the corresponding parser",
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "Field",
           "package": "SMTPClient",
@@ -1375,6 +1409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type repesents a parsed Internet Message as defined in\n this RFC. It consists of an arbitrary number of header lines,\n represented in the \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e data type, and a message body, which may\n be empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "GenericMessage",
           "package": "SMTPClient",
@@ -1383,6 +1418,7 @@
         "index": {
           "description": "This data type repesents parsed Internet Message as defined in this RFC It consists of an arbitrary number of header lines represented in the Field data type and message body which may be empty",
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "GenericMessage",
           "package": "SMTPClient",
@@ -1396,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "Message",
           "package": "SMTPClient",
@@ -1403,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "Message",
           "package": "SMTPClient",
@@ -1417,6 +1455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA NameAddr is composed of an optional realname a mandatory\n e-mail \u003ccode\u003e\u003ca\u003eaddress\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "NameAddr",
           "package": "SMTPClient",
@@ -1425,6 +1464,7 @@
         "index": {
           "description": "NameAddr is composed of an optional realname mandatory e-mail address",
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "NameAddr",
           "package": "SMTPClient",
@@ -1438,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "SMTPState",
           "package": "SMTPClient",
@@ -1446,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "SMTPState",
           "package": "SMTPClient",
@@ -1459,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "SmtpCode",
           "package": "SMTPClient",
@@ -1466,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "SmtpCode",
           "package": "SMTPClient",
@@ -1480,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn SMTP reply is a three-digit return code plus some waste of\n bandwidth called \"comments\". This is what the list of strings is\n for; one string per line in the reply. \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e will append an\n \"\u003ccode\u003e\\r\\n\u003c/code\u003e\" end-of-line marker to each entry in that list, so that\n the resulting string is ready to be sent back to the peer. For\n example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eshow $ Reply (Code Success MailSystem 0) [\"worked\", \"like\", \"a charm\" ]\n\u003c/code\u003e\u003c/strong\u003e\"250-worked\\r\\n250-like\\r\\n250 a charm\\r\\n\"\n\u003c/pre\u003e\u003cp\u003eIf the message is an empty list \u003ccode\u003e[]\u003c/code\u003e, a default text will be constructed:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eshow $ Reply (Code Success MailSystem 0) []\n\u003c/code\u003e\u003c/strong\u003e\"250 Success in category MailSystem\\r\\n\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "SmtpReply",
           "package": "SMTPClient",
@@ -1488,6 +1533,7 @@
         "index": {
           "description": "An SMTP reply is three-digit return code plus some waste of bandwidth called comments This is what the list of strings is for one string per line in the reply show will append an end-of-line marker to each entry in that list so that the resulting string is ready to be sent back to the peer For example show Reply Code Success MailSystem worked like charm worked n250-like n250 charm If the message is an empty list default text will be constructed show Reply Code Success MailSystem Success in category MailSystem",
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "SmtpReply",
           "package": "SMTPClient",
@@ -1501,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "SuccessCode",
           "package": "SMTPClient",
@@ -1508,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "SuccessCode",
           "package": "SMTPClient",
@@ -1521,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "SMTPState",
           "package": "SMTPClient",
@@ -1530,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "SMTPState",
           "package": "SMTPClient",
@@ -1544,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pure state machine for an SMTP client session.  Caller must\n handle I/O.  The message body may use either \"\\n\" or \"\\r\\n\" as an\n end-of-line marker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "smtpClientSession",
           "package": "SMTPClient",
@@ -1553,6 +1604,7 @@
         "index": {
           "description": "Construct pure state machine for an SMTP client session Caller must handle The message body may use either or as an end-of-line marker",
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "smtpClientSession",
           "normalized": "String-\u003e[Message]-\u003eSMTPState",
@@ -1569,6 +1621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStep 3. Check if this is Just err, which indicates that a protocol error\n has occurred, and that the caller must terminate the session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "smtpFailure",
           "package": "SMTPClient",
@@ -1579,6 +1632,7 @@
         "index": {
           "description": "Step Check if this is Just err which indicates that protocol error has occurred and that the caller must terminate the session",
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "smtpFailure",
           "package": "SMTPClient",
@@ -1593,6 +1647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStep 1. Caller must send any lines queued up in this list to the SMTP\n server.  They do not have end-of-line characters, so you must add\n \"\\r\\n\" on the end (both characters are required by RFC2821 - do not\n just send \"\\n\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "smtpOutQueue",
           "package": "SMTPClient",
@@ -1603,6 +1658,7 @@
         "index": {
           "description": "Step Caller must send any lines queued up in this list to the SMTP server They do not have end-of-line characters so you must add on the end both characters are required by RFC2821 do not just send",
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "smtpOutQueue",
           "normalized": "[String]",
@@ -1619,6 +1675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStep 4. The caller should wait for a line from the SMTP server,\n strip the \"\\r\\n\" end-of-line characters, and pass the stripped\n line to this function for processing.  Go to step 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "smtpReceive",
           "package": "SMTPClient",
@@ -1629,6 +1686,7 @@
         "index": {
           "description": "Step The caller should wait for line from the SMTP server strip the end-of-line characters and pass the stripped line to this function for processing Go to step",
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "smtpReceive",
           "normalized": "String-\u003eSMTPState-\u003eSMTPState",
@@ -1645,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list containing a failure status for each message that has been sent so far,\n where each element corresponds to one in the list of messages.\n If the SMTP session does not complete successfully, then this list is\n likely to be shorter than the input messages list.  When smtpSuccess is\n true, this list is guaranteed to be the same length as the list of input\n messages.\n \u003cem\u003eNothing\u003c/em\u003e means success, and \u003cem\u003eJust x\u003c/em\u003e is a failure status returned by\n the SMTP server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "smtpStatuses",
           "package": "SMTPClient",
@@ -1655,6 +1714,7 @@
         "index": {
           "description": "list containing failure status for each message that has been sent so far where each element corresponds to one in the list of messages If the SMTP session does not complete successfully then this list is likely to be shorter than the input messages list When smtpSuccess is true this list is guaranteed to be the same length as the list of input messages Nothing means success and Just is failure status returned by the SMTP server",
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "smtpStatuses",
           "normalized": "[Maybe SmtpReply]",
@@ -1671,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStep 2. Check if this is True, which indicates that the SMTP session\n has completed successfully and there is no more work to do.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.ClientSession",
           "name": "smtpSuccess",
           "package": "SMTPClient",
@@ -1681,6 +1742,7 @@
         "index": {
           "description": "Step Check if this is True which indicates that the SMTP session has completed successfully and there is no more work to do",
           "hierarchy": "Network SMTP ClientSession",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.ClientSession",
           "name": "smtpSuccess",
           "package": "SMTPClient",
@@ -1695,6 +1757,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMail is a simple library with which you can add email functionality to your\n application. It assumes you have access to a smarthost which can relay all\n your mail.\n\u003c/p\u003e\u003cp\u003eAs an example:\n\u003c/p\u003e\u003cpre\u003e import Network.SMTP.Simple\n import System.IO\n\n main :: IO ()\n main = do\n     sendSimpleMessages (hPutStrLn stderr) \"10.2.23.11\" \"example.com\" [message]\n     where message = SimpleMessage\n                         [NameAddr (Just \"John Doe\") \"johnd@example.com\"]\n                         [NameAddr (Just \"Team\") \"team@exmaple.com\"]\n                         \"My test email using Network.SMTP.Simple\"\n                         \"Hi, this is a test email which uses SMTPClient.\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Simple",
           "name": "Simple",
           "package": "SMTPClient",
@@ -1704,6 +1767,7 @@
         "index": {
           "description": "Mail is simple library with which you can add email functionality to your application It assumes you have access to smarthost which can relay all your mail As an example import Network.SMTP.Simple import System.IO main IO main do sendSimpleMessages hPutStrLn stderr example.com message where message SimpleMessage NameAddr Just John Doe johnd@example.com NameAddr Just Team team@exmaple.com My test email using Network.SMTP.Simple Hi this is test email which uses SMTPClient",
           "hierarchy": "Network SMTP Simple",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Simple",
           "name": "Simple",
           "package": "SMTPClient",
@@ -1718,6 +1782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA NameAddr is composed of an optional realname a mandatory\n e-mail \u003ccode\u003e\u003ca\u003eaddress\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Simple",
           "name": "NameAddr",
           "package": "SMTPClient",
@@ -1726,6 +1791,7 @@
         "index": {
           "description": "NameAddr is composed of an optional realname mandatory e-mail address",
           "hierarchy": "Network SMTP Simple",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Simple",
           "name": "NameAddr",
           "package": "SMTPClient",
@@ -1739,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Simple",
           "name": "SimpleMessage",
           "package": "SMTPClient",
@@ -1747,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP Simple",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Simple",
           "name": "SimpleMessage",
           "package": "SMTPClient",
@@ -1760,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Simple",
           "name": "SimpleMessage",
           "package": "SMTPClient",
@@ -1769,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "Network SMTP Simple",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Simple",
           "name": "SimpleMessage",
           "package": "SMTPClient",
@@ -1783,6 +1853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Simple",
           "name": "body",
           "package": "SMTPClient",
@@ -1793,6 +1864,7 @@
         "index": {
           "description": "The body",
           "hierarchy": "Network SMTP Simple",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Simple",
           "name": "body",
           "package": "SMTPClient",
@@ -1806,6 +1878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sender(s)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Simple",
           "name": "from",
           "package": "SMTPClient",
@@ -1816,6 +1889,7 @@
         "index": {
           "description": "The sender",
           "hierarchy": "Network SMTP Simple",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Simple",
           "name": "from",
           "normalized": "[NameAddr]",
@@ -1831,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this if you need more control than sendSimpleMessages gives you.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Simple",
           "name": "sendRawMessages",
           "package": "SMTPClient",
@@ -1840,6 +1915,7 @@
         "index": {
           "description": "Use this if you need more control than sendSimpleMessages gives you",
           "hierarchy": "Network SMTP Simple",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Simple",
           "name": "sendRawMessages",
           "normalized": "(String-\u003eIO())-\u003e[AddrInfo]-\u003eString-\u003e[Message]-\u003eIO()",
@@ -1856,6 +1932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplest way to send mail.  Takes the SMTP hostname, the HELO domain, and a list of SimpleMessage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Simple",
           "name": "sendSimpleMessages",
           "package": "SMTPClient",
@@ -1865,6 +1942,7 @@
         "index": {
           "description": "Simplest way to send mail Takes the SMTP hostname the HELO domain and list of SimpleMessage",
           "hierarchy": "Network SMTP Simple",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Simple",
           "name": "sendSimpleMessages",
           "normalized": "(String-\u003eIO())-\u003eString-\u003eString-\u003e[SimpleMessage]-\u003eIO()",
@@ -1881,6 +1959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe subject line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Simple",
           "name": "subject",
           "package": "SMTPClient",
@@ -1891,6 +1970,7 @@
         "index": {
           "description": "The subject line",
           "hierarchy": "Network SMTP Simple",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Simple",
           "name": "subject",
           "package": "SMTPClient",
@@ -1904,6 +1984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe recipient(s)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:39 UTC 2014",
           "module": "Network.SMTP.Simple",
           "name": "to",
           "package": "SMTPClient",
@@ -1914,6 +1995,7 @@
         "index": {
           "description": "The recipient",
           "hierarchy": "Network SMTP Simple",
+          "indexed": "2014-03-11T16:59:39",
           "module": "Network.SMTP.Simple",
           "name": "to",
           "normalized": "[NameAddr]",

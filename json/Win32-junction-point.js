@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Win32-junction-point"
+        "phrase": "Win32-junction-point",
+        "type": "phrase"
       },
       "type": "context"
     }

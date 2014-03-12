@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sqlvalue-list"
+        "phrase": "sqlvalue-list",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eExample Use:\u003c/em\u003e\n\u003c/p\u003e\u003cpre\u003e\ndata Record = R {who :: String, age :: Int} deriving (Show, Eq)\nderiveSqlValueList ''Record\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:06 UTC 2014",
           "module": "Database.HDBC.SqlValue.List.Derive",
           "name": "Derive",
           "package": "sqlvalue-list",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Example Use data Record who String age Int deriving Show Eq deriveSqlValueList Record",
           "hierarchy": "Database HDBC SqlValue List Derive",
+          "indexed": "2014-03-11T20:09:06",
           "module": "Database.HDBC.SqlValue.List.Derive",
           "name": "Derive",
           "package": "sqlvalue-list",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:06 UTC 2014",
           "module": "Database.HDBC.SqlValue.List.Derive",
           "name": "deriveSqlValueList",
           "package": "sqlvalue-list",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Database HDBC SqlValue List Derive",
+          "indexed": "2014-03-11T20:09:06",
           "module": "Database.HDBC.SqlValue.List.Derive",
           "name": "deriveSqlValueList",
           "normalized": "Name-\u003eQ[Dec]",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:06 UTC 2014",
           "module": "Database.HDBC.SqlValue.List",
           "name": "List",
           "package": "sqlvalue-list",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Database HDBC SqlValue List",
+          "indexed": "2014-03-11T20:09:06",
           "module": "Database.HDBC.SqlValue.List",
           "name": "List",
           "package": "sqlvalue-list",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:06 UTC 2014",
           "module": "Database.HDBC.SqlValue.List",
           "name": "SqlValueList",
           "package": "sqlvalue-list",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Database HDBC SqlValue List",
+          "indexed": "2014-03-11T20:09:06",
           "module": "Database.HDBC.SqlValue.List",
           "name": "SqlValueList",
           "package": "sqlvalue-list",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:06 UTC 2014",
           "module": "Database.HDBC.SqlValue.List",
           "name": "fromSqlList",
           "package": "sqlvalue-list",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Database HDBC SqlValue List",
+          "indexed": "2014-03-11T20:09:06",
           "module": "Database.HDBC.SqlValue.List",
           "name": "fromSqlList",
           "normalized": "[SqlValue]-\u003ea",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:06 UTC 2014",
           "module": "Database.HDBC.SqlValue.List",
           "name": "toSqlList",
           "package": "sqlvalue-list",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Database HDBC SqlValue List",
+          "indexed": "2014-03-11T20:09:06",
           "module": "Database.HDBC.SqlValue.List",
           "name": "toSqlList",
           "normalized": "a-\u003e[SqlValue]",

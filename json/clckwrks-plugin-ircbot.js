@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clckwrks-plugin-ircbot"
+        "phrase": "clckwrks-plugin-ircbot",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "Acid",
           "package": "clckwrks-plugin-ircbot",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Acid",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "Acid",
           "package": "clckwrks-plugin-ircbot",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "GetIrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Acid",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "GetIrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "IrcBotState",
           "package": "clckwrks-plugin-ircbot",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Acid",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "IrcBotState",
           "package": "clckwrks-plugin-ircbot",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "SetIrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Acid",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "SetIrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "GetIrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Acid",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "GetIrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "IrcBotState",
           "package": "clckwrks-plugin-ircbot",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Acid",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "IrcBotState",
           "package": "clckwrks-plugin-ircbot",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "SetIrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Acid",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "SetIrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "getIrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Acid",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "getIrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "initialIrcBotState",
           "package": "clckwrks-plugin-ircbot",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Acid",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "initialIrcBotState",
           "normalized": "IrcConfig-\u003eIrcBotState",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "ircConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Acid",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "ircConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "setIrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Acid",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Acid",
           "name": "setIrcConfig",
           "normalized": "IrcConfig-\u003eUpdate IrcBotState()",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "Monad",
           "package": "clckwrks-plugin-ircbot",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Monad",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "Monad",
           "package": "clckwrks-plugin-ircbot",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "IrcBotConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Monad",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "IrcBotConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "IrcBotForm",
           "package": "clckwrks-plugin-ircbot",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Monad",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "IrcBotForm",
           "package": "clckwrks-plugin-ircbot",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "IrcBotM",
           "package": "clckwrks-plugin-ircbot",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Monad",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "IrcBotM",
           "package": "clckwrks-plugin-ircbot",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "IrcBotT",
           "package": "clckwrks-plugin-ircbot",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Monad",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "IrcBotT",
           "package": "clckwrks-plugin-ircbot",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "IrcFormError",
           "package": "clckwrks-plugin-ircbot",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Monad",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "IrcFormError",
           "package": "clckwrks-plugin-ircbot",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "CouldNotParsePort",
           "package": "clckwrks-plugin-ircbot",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Monad",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "CouldNotParsePort",
           "package": "clckwrks-plugin-ircbot",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "IrcBotConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Monad",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "IrcBotConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "IrcCFE",
           "package": "clckwrks-plugin-ircbot",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Monad",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "IrcCFE",
           "normalized": "IrcCFE(CommonFormError[Input])",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "ircBotClckURL",
           "package": "clckwrks-plugin-ircbot",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Monad",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "ircBotClckURL",
           "normalized": "ClckURL-\u003e[(Text,Maybe Text)]-\u003eText",
@@ -479,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edirectory in which to store irc logs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "ircBotLogDirectory",
           "package": "clckwrks-plugin-ircbot",
@@ -489,6 +532,7 @@
         "index": {
           "description": "directory in which to store irc logs",
           "hierarchy": "Clckwrks IrcBot Monad",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "ircBotLogDirectory",
           "package": "clckwrks-plugin-ircbot",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "ircBotState",
           "package": "clckwrks-plugin-ircbot",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Monad",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "ircBotState",
           "package": "clckwrks-plugin-ircbot",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "ircReconnect",
           "package": "clckwrks-plugin-ircbot",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Monad",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "ircReconnect",
           "normalized": "IO()",
@@ -548,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "runIrcBotT",
           "package": "clckwrks-plugin-ircbot",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Monad",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Monad",
           "name": "runIrcBotT",
           "normalized": "IrcBotConfig-\u003eIrcBotT a b-\u003eClckT IrcBotURL a b",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Page.IrcLog",
           "name": "IrcLog",
           "package": "clckwrks-plugin-ircbot",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Page IrcLog",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Page.IrcLog",
           "name": "IrcLog",
           "package": "clckwrks-plugin-ircbot",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Page.IrcLog",
           "name": "ircLog",
           "package": "clckwrks-plugin-ircbot",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Page IrcLog",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Page.IrcLog",
           "name": "ircLog",
           "normalized": "FilePath-\u003eIrcBotM Response",
@@ -617,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Page.IrcLogs",
           "name": "IrcLogs",
           "package": "clckwrks-plugin-ircbot",
@@ -625,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Page IrcLogs",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Page.IrcLogs",
           "name": "IrcLogs",
           "package": "clckwrks-plugin-ircbot",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Page.IrcLogs",
           "name": "ircLogs",
           "package": "clckwrks-plugin-ircbot",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Page IrcLogs",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Page.IrcLogs",
           "name": "ircLogs",
           "package": "clckwrks-plugin-ircbot",
@@ -660,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Page.Reconnect",
           "name": "Reconnect",
           "package": "clckwrks-plugin-ircbot",
@@ -668,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Page Reconnect",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Page.Reconnect",
           "name": "Reconnect",
           "package": "clckwrks-plugin-ircbot",
@@ -681,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Page.Reconnect",
           "name": "forceReconnectForm",
           "package": "clckwrks-plugin-ircbot",
@@ -690,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Page Reconnect",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Page.Reconnect",
           "name": "forceReconnectForm",
           "package": "clckwrks-plugin-ircbot",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Page.Reconnect",
           "name": "ircReconnectPage",
           "package": "clckwrks-plugin-ircbot",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Page Reconnect",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Page.Reconnect",
           "name": "ircReconnectPage",
           "normalized": "IrcBotURL-\u003eIrcBotM Response",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Page.Settings",
           "name": "Settings",
           "package": "clckwrks-plugin-ircbot",
@@ -735,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Page Settings",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Page.Settings",
           "name": "Settings",
           "package": "clckwrks-plugin-ircbot",
@@ -748,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Page.Settings",
           "name": "ircBotSettings",
           "package": "clckwrks-plugin-ircbot",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Page Settings",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Page.Settings",
           "name": "ircBotSettings",
           "normalized": "IrcBotURL-\u003eIrcBotM Response",
@@ -772,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Page.Settings",
           "name": "ircBotSettingsForm",
           "package": "clckwrks-plugin-ircbot",
@@ -781,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Page Settings",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Page.Settings",
           "name": "ircBotSettingsForm",
           "normalized": "IrcConfig-\u003eIrcBotForm IrcConfig",
@@ -796,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Page.Template",
           "name": "Template",
           "package": "clckwrks-plugin-ircbot",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Page Template",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Page.Template",
           "name": "Template",
           "package": "clckwrks-plugin-ircbot",
@@ -817,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Page.Template",
           "name": "template",
           "package": "clckwrks-plugin-ircbot",
@@ -826,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Page Template",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Page.Template",
           "name": "template",
           "normalized": "Text-\u003ea-\u003eb-\u003eIrcBotM Response",
@@ -840,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "Plugin",
           "package": "clckwrks-plugin-ircbot",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Plugin",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "Plugin",
           "package": "clckwrks-plugin-ircbot",
@@ -861,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "addIrcBotAdminMenu",
           "package": "clckwrks-plugin-ircbot",
@@ -870,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Plugin",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "addIrcBotAdminMenu",
           "normalized": "ClckT a IO()",
@@ -885,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "botConnect",
           "package": "clckwrks-plugin-ircbot",
@@ -894,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Plugin",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "botConnect",
           "normalized": "Plugins a b c d e-\u003eAcidState(EventState GetIrcConfig)-\u003eFilePath-\u003eIO(IO())",
@@ -909,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "initParts",
           "package": "clckwrks-plugin-ircbot",
@@ -917,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Plugin",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "initParts",
           "normalized": "Set ByteString-\u003eIO[a()]",
@@ -932,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "ircBotHandler",
           "package": "clckwrks-plugin-ircbot",
@@ -941,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Plugin",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "ircBotHandler",
           "normalized": "(IrcBotURL-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eIrcBotConfig-\u003eClckPlugins-\u003e[Text]-\u003eClckT ClckURL(ServerPartT IO)Response",
@@ -956,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "ircBotInit",
           "package": "clckwrks-plugin-ircbot",
@@ -965,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Plugin",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "ircBotInit",
           "normalized": "ClckPlugins-\u003eIO(Maybe Text)",
@@ -980,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "ircBotNavBarCallback",
           "package": "clckwrks-plugin-ircbot",
@@ -989,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Plugin",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "ircBotNavBarCallback",
           "normalized": "(IrcBotURL-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eClckT ClckURL IO(String,[NamedLink])",
@@ -1004,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "ircBotPlugin",
           "package": "clckwrks-plugin-ircbot",
@@ -1013,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Plugin",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "ircBotPlugin",
           "normalized": "Plugin IrcBotURL Theme(ClckT ClckURL(ServerPartT IO)Response)(ClckT ClckURL IO())ClckwrksConfig ClckPluginsSt",
@@ -1028,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "plugin",
           "package": "clckwrks-plugin-ircbot",
@@ -1036,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Plugin",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Plugin",
           "name": "plugin",
           "normalized": "ClckPlugins-\u003eText-\u003eIO(Maybe Text)",
@@ -1050,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.PreProcess",
           "name": "PreProcess",
           "package": "clckwrks-plugin-ircbot",
@@ -1058,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot PreProcess",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.PreProcess",
           "name": "PreProcess",
           "package": "clckwrks-plugin-ircbot",
@@ -1071,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.PreProcess",
           "name": "height",
           "package": "clckwrks-plugin-ircbot",
@@ -1080,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot PreProcess",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.PreProcess",
           "name": "height",
           "package": "clckwrks-plugin-ircbot",
@@ -1092,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.PreProcess",
           "name": "ircBotCmd",
           "package": "clckwrks-plugin-ircbot",
@@ -1101,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot PreProcess",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.PreProcess",
           "name": "ircBotCmd",
           "normalized": "(IrcBotURL-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eText-\u003eClckT a b Builder",
@@ -1116,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.PreProcess",
           "name": "parseAttr",
           "package": "clckwrks-plugin-ircbot",
@@ -1125,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot PreProcess",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.PreProcess",
           "name": "parseAttr",
           "normalized": "Text-\u003eParser()",
@@ -1140,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.PreProcess",
           "name": "width",
           "package": "clckwrks-plugin-ircbot",
@@ -1149,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot PreProcess",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.PreProcess",
           "name": "width",
           "package": "clckwrks-plugin-ircbot",
@@ -1161,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Route",
           "name": "Route",
           "package": "clckwrks-plugin-ircbot",
@@ -1169,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Route",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Route",
           "name": "Route",
           "package": "clckwrks-plugin-ircbot",
@@ -1182,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Route",
           "name": "checkAuth",
           "package": "clckwrks-plugin-ircbot",
@@ -1191,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Route",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Route",
           "name": "checkAuth",
           "normalized": "IrcBotURL-\u003eIrcBotM IrcBotURL",
@@ -1206,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Route",
           "name": "routeIrcBot",
           "package": "clckwrks-plugin-ircbot",
@@ -1215,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Route",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Route",
           "name": "routeIrcBot",
           "normalized": "IrcBotURL-\u003eIrcBotM Response",
@@ -1230,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "Types",
           "package": "clckwrks-plugin-ircbot",
@@ -1238,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "Types",
           "package": "clckwrks-plugin-ircbot",
@@ -1251,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "IrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -1259,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "IrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -1272,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "User",
           "package": "clckwrks-plugin-ircbot",
@@ -1279,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "User",
           "package": "clckwrks-plugin-ircbot",
@@ -1292,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "IrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -1301,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "IrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -1314,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "User",
           "package": "clckwrks-plugin-ircbot",
@@ -1322,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "User",
           "package": "clckwrks-plugin-ircbot",
@@ -1335,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "emptyIrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -1344,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "emptyIrcConfig",
           "package": "clckwrks-plugin-ircbot",
@@ -1358,6 +1478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehostname of client system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "hostname",
           "package": "clckwrks-plugin-ircbot",
@@ -1367,6 +1488,7 @@
         "index": {
           "description": "hostname of client system",
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "hostname",
           "package": "clckwrks-plugin-ircbot",
@@ -1380,6 +1502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echannels to join on connect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "ircChannels",
           "package": "clckwrks-plugin-ircbot",
@@ -1390,6 +1513,7 @@
         "index": {
           "description": "channels to join on connect",
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "ircChannels",
           "package": "clckwrks-plugin-ircbot",
@@ -1404,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprefix for bot commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "ircCommandPrefix",
           "package": "clckwrks-plugin-ircbot",
@@ -1414,6 +1539,7 @@
         "index": {
           "description": "prefix for bot commands",
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "ircCommandPrefix",
           "package": "clckwrks-plugin-ircbot",
@@ -1428,6 +1554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenable the bot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "ircEnabled",
           "package": "clckwrks-plugin-ircbot",
@@ -1438,6 +1565,7 @@
         "index": {
           "description": "enable the bot",
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "ircEnabled",
           "package": "clckwrks-plugin-ircbot",
@@ -1452,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIRC server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "ircHost",
           "package": "clckwrks-plugin-ircbot",
@@ -1462,6 +1591,7 @@
         "index": {
           "description": "IRC server",
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "ircHost",
           "package": "clckwrks-plugin-ircbot",
@@ -1476,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eirc nick\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "ircNick",
           "package": "clckwrks-plugin-ircbot",
@@ -1486,6 +1617,7 @@
         "index": {
           "description": "irc nick",
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "ircNick",
           "package": "clckwrks-plugin-ircbot",
@@ -1500,6 +1632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eport (usually 6667)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "ircPort",
           "package": "clckwrks-plugin-ircbot",
@@ -1510,6 +1643,7 @@
         "index": {
           "description": "port usually",
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "ircPort",
           "package": "clckwrks-plugin-ircbot",
@@ -1524,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eirc \u003ccode\u003e\u003ca\u003eUser\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "ircUser",
           "package": "clckwrks-plugin-ircbot",
@@ -1534,6 +1669,7 @@
         "index": {
           "description": "irc User",
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "ircUser",
           "package": "clckwrks-plugin-ircbot",
@@ -1548,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclient's real name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "realname",
           "package": "clckwrks-plugin-ircbot",
@@ -1557,6 +1694,7 @@
         "index": {
           "description": "client real name",
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "realname",
           "package": "clckwrks-plugin-ircbot",
@@ -1570,6 +1708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eirc server client is connected to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "servername",
           "package": "clckwrks-plugin-ircbot",
@@ -1579,6 +1718,7 @@
         "index": {
           "description": "irc server client is connected to",
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "servername",
           "package": "clckwrks-plugin-ircbot",
@@ -1592,6 +1732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eusername on client system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.Types",
           "name": "username",
           "package": "clckwrks-plugin-ircbot",
@@ -1601,6 +1742,7 @@
         "index": {
           "description": "username on client system",
           "hierarchy": "Clckwrks IrcBot Types",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.Types",
           "name": "username",
           "package": "clckwrks-plugin-ircbot",
@@ -1613,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.URL",
           "name": "URL",
           "package": "clckwrks-plugin-ircbot",
@@ -1621,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot URL",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.URL",
           "name": "URL",
           "package": "clckwrks-plugin-ircbot",
@@ -1634,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.URL",
           "name": "IrcBotAdminURL",
           "package": "clckwrks-plugin-ircbot",
@@ -1642,6 +1787,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot URL",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.URL",
           "name": "IrcBotAdminURL",
           "package": "clckwrks-plugin-ircbot",
@@ -1655,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.URL",
           "name": "IrcBotURL",
           "package": "clckwrks-plugin-ircbot",
@@ -1663,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot URL",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.URL",
           "name": "IrcBotURL",
           "package": "clckwrks-plugin-ircbot",
@@ -1676,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.URL",
           "name": "IrcBotAdmin",
           "package": "clckwrks-plugin-ircbot",
@@ -1685,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot URL",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.URL",
           "name": "IrcBotAdmin",
           "package": "clckwrks-plugin-ircbot",
@@ -1698,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.URL",
           "name": "IrcBotReconnect",
           "package": "clckwrks-plugin-ircbot",
@@ -1707,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot URL",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.URL",
           "name": "IrcBotReconnect",
           "package": "clckwrks-plugin-ircbot",
@@ -1720,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.URL",
           "name": "IrcBotSettings",
           "package": "clckwrks-plugin-ircbot",
@@ -1729,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot URL",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.URL",
           "name": "IrcBotSettings",
           "package": "clckwrks-plugin-ircbot",
@@ -1742,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.URL",
           "name": "IrcLog",
           "package": "clckwrks-plugin-ircbot",
@@ -1751,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot URL",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.URL",
           "name": "IrcLog",
           "package": "clckwrks-plugin-ircbot",
@@ -1764,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot.URL",
           "name": "IrcLogs",
           "package": "clckwrks-plugin-ircbot",
@@ -1773,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot URL",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot.URL",
           "name": "IrcLogs",
           "package": "clckwrks-plugin-ircbot",
@@ -1786,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Clckwrks.IrcBot",
           "name": "IrcBot",
           "package": "clckwrks-plugin-ircbot",
@@ -1794,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks IrcBot",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Clckwrks.IrcBot",
           "name": "IrcBot",
           "package": "clckwrks-plugin-ircbot",
@@ -1807,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "Paths_clckwrks_plugin_ircbot",
           "package": "clckwrks-plugin-ircbot",
@@ -1815,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_ircbot",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "Paths_clckwrks_plugin_ircbot",
           "package": "clckwrks-plugin-ircbot",
@@ -1828,6 +1990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "getBinDir",
           "package": "clckwrks-plugin-ircbot",
@@ -1837,6 +2000,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_ircbot",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "getBinDir",
           "package": "clckwrks-plugin-ircbot",
@@ -1850,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "getDataDir",
           "package": "clckwrks-plugin-ircbot",
@@ -1859,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_ircbot",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "getDataDir",
           "package": "clckwrks-plugin-ircbot",
@@ -1872,6 +2038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "getDataFileName",
           "package": "clckwrks-plugin-ircbot",
@@ -1881,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_ircbot",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "getDataFileName",
           "normalized": "FilePath-\u003eIO FilePath",
@@ -1896,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "getLibDir",
           "package": "clckwrks-plugin-ircbot",
@@ -1905,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_ircbot",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "getLibDir",
           "package": "clckwrks-plugin-ircbot",
@@ -1918,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "getLibexecDir",
           "package": "clckwrks-plugin-ircbot",
@@ -1927,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_ircbot",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "getLibexecDir",
           "package": "clckwrks-plugin-ircbot",
@@ -1940,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "getSysconfDir",
           "package": "clckwrks-plugin-ircbot",
@@ -1949,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_ircbot",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "getSysconfDir",
           "package": "clckwrks-plugin-ircbot",
@@ -1962,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:55 UTC 2014",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "version",
           "package": "clckwrks-plugin-ircbot",
@@ -1971,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_ircbot",
+          "indexed": "2014-03-11T17:33:55",
           "module": "Paths_clckwrks_plugin_ircbot",
           "name": "version",
           "package": "clckwrks-plugin-ircbot",

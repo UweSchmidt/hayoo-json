@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ViennaRNA-bindings"
+        "phrase": "ViennaRNA-bindings",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.CoFold",
           "name": "CoFold",
           "package": "ViennaRNA-bindings",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI CoFold",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.CoFold",
           "name": "CoFold",
           "package": "ViennaRNA-bindings",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.CoFold",
           "name": "CofoldF",
           "package": "ViennaRNA-bindings",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI CoFold",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.CoFold",
           "name": "CofoldF",
           "package": "ViennaRNA-bindings",
@@ -193,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.CoFold",
           "name": "ffiCoEnergyOfStructure",
           "package": "ViennaRNA-bindings",
@@ -202,6 +207,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI CoFold",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.CoFold",
           "name": "ffiCoEnergyOfStructure",
           "normalized": "Int-\u003eString-\u003eString-\u003eInt-\u003eIO Double",
@@ -217,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.CoFold",
           "name": "ffiCoFold",
           "package": "ViennaRNA-bindings",
@@ -226,6 +233,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI CoFold",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.CoFold",
           "name": "ffiCoFold",
           "normalized": "Int-\u003eString-\u003eIO(Double,String)",
@@ -242,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstrained partition function\n\u003c/p\u003e\u003cp\u003eNOTE the wrapped C function we \u003ccode\u003eforeign import\u003c/code\u003e use very dirty\n return-pointer-from-stack stuff. We should fix that. On the other hand, it just\n works, because we immediately peek into the structure and marshall to Haskell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.CoFold",
           "name": "ffiCoPartitionConstrained",
           "package": "ViennaRNA-bindings",
@@ -252,6 +261,7 @@
         "index": {
           "description": "Constrained partition function NOTE the wrapped function we foreign import use very dirty return-pointer-from-stack stuff We should fix that On the other hand it just works because we immediately peek into the structure and marshall to Haskell",
           "hierarchy": "BioInf ViennaRNA Bindings FFI CoFold",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.CoFold",
           "name": "ffiCoPartitionConstrained",
           "normalized": "Int-\u003eString-\u003eString-\u003eIO(CofoldF,String,Array(Int,Int)Double)",
@@ -267,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.CoFold",
           "name": "ffiCoPartitionFunction",
           "package": "ViennaRNA-bindings",
@@ -276,6 +287,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI CoFold",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.CoFold",
           "name": "ffiCoPartitionFunction",
           "normalized": "Int-\u003eString-\u003eIO(CofoldF,String,Array(Int,Int)Double)",
@@ -291,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.Fold",
           "name": "Fold",
           "package": "ViennaRNA-bindings",
@@ -299,6 +312,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI Fold",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.Fold",
           "name": "Fold",
           "package": "ViennaRNA-bindings",
@@ -312,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.Fold",
           "name": "ffiEnergyOfStructure",
           "package": "ViennaRNA-bindings",
@@ -321,6 +336,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI Fold",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.Fold",
           "name": "ffiEnergyOfStructure",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO Double",
@@ -336,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.Fold",
           "name": "ffiFold",
           "package": "ViennaRNA-bindings",
@@ -345,6 +362,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI Fold",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.Fold",
           "name": "ffiFold",
           "normalized": "String-\u003eIO(Double,String)",
@@ -360,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.PartFunc",
           "name": "PartFunc",
           "package": "ViennaRNA-bindings",
@@ -368,6 +387,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI PartFunc",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.PartFunc",
           "name": "PartFunc",
           "package": "ViennaRNA-bindings",
@@ -381,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.PartFunc",
           "name": "ffi_pf_fold",
           "package": "ViennaRNA-bindings",
@@ -390,6 +411,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI PartFunc",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.PartFunc",
           "name": "ffi_pf_fold",
           "normalized": "String-\u003eIO(Double,String,Array(Int,Int)Double)",
@@ -404,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.PartFunc",
           "name": "ffi_pf_fold_constrained",
           "package": "ViennaRNA-bindings",
@@ -413,6 +436,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI PartFunc",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.PartFunc",
           "name": "ffi_pf_fold_constrained",
           "normalized": "String-\u003eString-\u003eIO(Double,String,Array(Int,Int)Double)",
@@ -427,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.Utils",
           "name": "Utils",
           "package": "ViennaRNA-bindings",
@@ -435,6 +460,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI Utils",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.Utils",
           "name": "Utils",
           "package": "ViennaRNA-bindings",
@@ -448,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.Utils",
           "name": "cf2d",
           "package": "ViennaRNA-bindings",
@@ -457,6 +484,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI Utils",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.Utils",
           "name": "cf2d",
           "normalized": "CFloat-\u003eDouble",
@@ -471,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.Utils",
           "name": "cut_point",
           "package": "ViennaRNA-bindings",
@@ -480,6 +509,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI Utils",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.Utils",
           "name": "cut_point",
           "package": "ViennaRNA-bindings",
@@ -492,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings.FFI.Utils",
           "name": "setCutPoint",
           "package": "ViennaRNA-bindings",
@@ -501,6 +532,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings FFI Utils",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings.FFI.Utils",
           "name": "setCutPoint",
           "normalized": "Int-\u003eIO()",
@@ -517,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBindings to important functions in the ViennaRNA library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "Bindings",
           "package": "ViennaRNA-bindings",
@@ -526,6 +559,7 @@
         "index": {
           "description": "Bindings to important functions in the ViennaRNA library",
           "hierarchy": "BioInf ViennaRNA Bindings",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "Bindings",
           "package": "ViennaRNA-bindings",
@@ -539,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "CofoldF",
           "package": "ViennaRNA-bindings",
@@ -547,6 +582,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "CofoldF",
           "package": "ViennaRNA-bindings",
@@ -561,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnergy of struct for cofolded structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "coeos",
           "package": "ViennaRNA-bindings",
@@ -571,6 +608,7 @@
         "index": {
           "description": "Energy of struct for cofolded structures",
           "hierarchy": "BioInf ViennaRNA Bindings",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "coeos",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO Double",
@@ -586,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emfe of co-folded structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "comfe",
           "package": "ViennaRNA-bindings",
@@ -596,6 +635,7 @@
         "index": {
           "description": "mfe of co-folded structure",
           "hierarchy": "BioInf ViennaRNA Bindings",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "comfe",
           "normalized": "String-\u003eInt-\u003eIO(Double,String)",
@@ -611,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCofolded partition function. Makes the set of different partfun values\n from cofoldF available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "copart",
           "package": "ViennaRNA-bindings",
@@ -621,6 +662,7 @@
         "index": {
           "description": "Cofolded partition function Makes the set of different partfun values from cofoldF available",
           "hierarchy": "BioInf ViennaRNA Bindings",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "copart",
           "normalized": "String-\u003eInt-\u003eIO(CofoldF,String,Array(Int,Int)Double)",
@@ -635,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "copartConstrained",
           "package": "ViennaRNA-bindings",
@@ -644,6 +687,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "copartConstrained",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO(CofoldF,String,Array(Int,Int)Double)",
@@ -660,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a sequence and a structure, returns the energy of the\n sequence/structure pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "eos",
           "package": "ViennaRNA-bindings",
@@ -670,6 +715,7 @@
         "index": {
           "description": "Given sequence and structure returns the energy of the sequence structure pair",
           "hierarchy": "BioInf ViennaRNA Bindings",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "eos",
           "normalized": "String-\u003eString-\u003eIO Double",
@@ -685,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a sequence into an optimal secondary structure. Returns a pair of\n energy and structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "mfe",
           "package": "ViennaRNA-bindings",
@@ -695,6 +742,7 @@
         "index": {
           "description": "Fold sequence into an optimal secondary structure Returns pair of energy and structure",
           "hierarchy": "BioInf ViennaRNA Bindings",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "mfe",
           "normalized": "String-\u003eIO(Double,String)",
@@ -710,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a string, calculates the partition function for said string. Returns\n the ensemble energy, a string with where each nucleotide position is\n annotated with the strength of the potential pairing, and the whole base\n pair probability table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "part",
           "package": "ViennaRNA-bindings",
@@ -720,6 +769,7 @@
         "index": {
           "description": "Given string calculates the partition function for said string Returns the ensemble energy string with where each nucleotide position is annotated with the strength of the potential pairing and the whole base pair probability table",
           "hierarchy": "BioInf ViennaRNA Bindings",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "part",
           "normalized": "String-\u003eIO(Double,String,Array(Int,Int)Double)",
@@ -734,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:54 UTC 2014",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "partConstrained",
           "package": "ViennaRNA-bindings",
@@ -743,6 +794,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Bindings",
+          "indexed": "2014-03-11T17:03:54",
           "module": "BioInf.ViennaRNA.Bindings",
           "name": "partConstrained",
           "normalized": "String-\u003eString-\u003eIO(Double,String,Array(Int,Int)Double)",

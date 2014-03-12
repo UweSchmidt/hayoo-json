@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-stm"
+        "phrase": "monad-stm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:50 UTC 2014",
           "module": "Control.Monad.STM.Class",
           "name": "Class",
           "package": "monad-stm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad STM Class",
+          "indexed": "2014-03-11T19:20:50",
           "module": "Control.Monad.STM.Class",
           "name": "Class",
           "package": "monad-stm",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:50 UTC 2014",
           "module": "Control.Monad.STM.Class",
           "name": "MonadSTM",
           "package": "monad-stm",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad STM Class",
+          "indexed": "2014-03-11T19:20:50",
           "module": "Control.Monad.STM.Class",
           "name": "MonadSTM",
           "package": "monad-stm",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:50 UTC 2014",
           "module": "Control.Monad.STM.Class",
           "name": "liftSTM",
           "package": "monad-stm",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Monad STM Class",
+          "indexed": "2014-03-11T19:20:50",
           "module": "Control.Monad.STM.Class",
           "name": "liftSTM",
           "normalized": "STM a-\u003eb a",

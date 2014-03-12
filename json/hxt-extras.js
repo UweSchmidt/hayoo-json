@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hxt-extras"
+        "phrase": "hxt-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra library functions for HXT.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "Extras",
           "package": "hxt-extras",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Extra library functions for HXT",
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "Extras",
           "package": "hxt-extras",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePickles a value, then writes the document to a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "showPickled",
           "package": "hxt-extras",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Pickles value then writes the document to string",
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "showPickled",
           "normalized": "SysConfigList-\u003ea-\u003eString",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA text attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "textAttr",
           "package": "hxt-extras",
@@ -77,6 +82,7 @@
         "index": {
           "description": "text attribute",
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "textAttr",
           "normalized": "String-\u003ePU String",
@@ -92,6 +98,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp10Tuple",
           "package": "hxt-extras",
@@ -100,6 +107,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp10Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU(a,b,c,d,e,f,g,h,i,j)",
@@ -115,6 +123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp11Tuple",
           "package": "hxt-extras",
@@ -123,6 +132,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp11Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU k-\u003ePU(a,b,c,d,e,f,g,h,i,j,k)",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp12Tuple",
           "package": "hxt-extras",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp12Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU k-\u003ePU l-\u003ePU(a,b,c,d,e,f,g,h,i,j,k,l)",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp13Tuple",
           "package": "hxt-extras",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp13Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU k-\u003ePU l-\u003ePU m-\u003ePU(a,b,c,d,e,f,g,h,i,j,k,l,m)",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp14Tuple",
           "package": "hxt-extras",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp14Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU k-\u003ePU l-\u003ePU m-\u003ePU n-\u003ePU(a,b,c,d,e,f,g,h,i,j,k,l,m,n)",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp15Tuple",
           "package": "hxt-extras",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp15Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU k-\u003ePU l-\u003ePU m-\u003ePU n-\u003ePU o-\u003ePU(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o)",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp16Tuple",
           "package": "hxt-extras",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp16Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU k-\u003ePU l-\u003ePU m-\u003ePU n-\u003ePU o-\u003ePU p-\u003ePU(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p)",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp17Tuple",
           "package": "hxt-extras",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp17Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU k-\u003ePU l-\u003ePU m-\u003ePU n-\u003ePU o-\u003ePU p-\u003ePU q-\u003ePU(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q)",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp18Tuple",
           "package": "hxt-extras",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp18Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU k-\u003ePU l-\u003ePU m-\u003ePU n-\u003ePU o-\u003ePU p-\u003ePU q-\u003ePU r-\u003ePU(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r)",
@@ -299,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp19Tuple",
           "package": "hxt-extras",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp19Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU k-\u003ePU l-\u003ePU m-\u003ePU n-\u003ePU o-\u003ePU p-\u003ePU q-\u003ePU r-\u003ePU s-\u003ePU(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s)",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp20Tuple",
           "package": "hxt-extras",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp20Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU k-\u003ePU l-\u003ePU m-\u003ePU n-\u003ePU o-\u003ePU p-\u003ePU q-\u003ePU r-\u003ePU s-\u003ePU t-\u003ePU(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t)",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp21Tuple",
           "package": "hxt-extras",
@@ -353,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp21Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU k-\u003ePU l-\u003ePU m-\u003ePU n-\u003ePU o-\u003ePU p-\u003ePU q-\u003ePU r-\u003ePU s-\u003ePU t-\u003ePU u-\u003ePU(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u)",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp22Tuple",
           "package": "hxt-extras",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp22Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU k-\u003ePU l-\u003ePU m-\u003ePU n-\u003ePU o-\u003ePU p-\u003ePU q-\u003ePU r-\u003ePU s-\u003ePU t-\u003ePU u-\u003ePU v-\u003ePU(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v)",
@@ -391,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp23Tuple",
           "package": "hxt-extras",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp23Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU k-\u003ePU l-\u003ePU m-\u003ePU n-\u003ePU o-\u003ePU p-\u003ePU q-\u003ePU r-\u003ePU s-\u003ePU t-\u003ePU u-\u003ePU v-\u003ePU w-\u003ePU(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w)",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHopefully no one needs a xp25Tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp24Tuple",
           "package": "hxt-extras",
@@ -424,6 +459,7 @@
         "index": {
           "description": "Hopefully no one needs xp25Tuple",
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp24Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU j-\u003ePU k-\u003ePU l-\u003ePU m-\u003ePU n-\u003ePU o-\u003ePU p-\u003ePU q-\u003ePU r-\u003ePU s-\u003ePU t-\u003ePU u-\u003ePU v-\u003ePU w-\u003ePU x-\u003ePU(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x)",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003expPair\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003expTriple\u003c/a\u003e\u003c/code\u003e but for 7-tuples\n\u003c/p\u003e\u003cp\u003eThanks to Tony Morris for doing xp7Tuple, ..., xp24Tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp7Tuple",
           "package": "hxt-extras",
@@ -449,6 +486,7 @@
         "index": {
           "description": "Like xpPair and xpTriple but for tuples Thanks to Tony Morris for doing xp7Tuple xp24Tuple",
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp7Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU(a,b,c,d,e,f,g)",
@@ -464,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp8Tuple",
           "package": "hxt-extras",
@@ -472,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp8Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU(a,b,c,d,e,f,g,h)",
@@ -487,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xp9Tuple",
           "package": "hxt-extras",
@@ -495,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xp9Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU g-\u003ePU h-\u003ePU i-\u003ePU(a,b,c,d,e,f,g,h,i)",
@@ -510,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:23 UTC 2014",
           "module": "Text.XML.HXT.Extras",
           "name": "xunpickleString",
           "package": "hxt-extras",
@@ -519,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Extras",
+          "indexed": "2014-03-11T18:54:23",
           "module": "Text.XML.HXT.Extras",
           "name": "xunpickleString",
           "normalized": "PU a-\u003eSysConfigList-\u003eString-\u003eIOStateArrow b c a",

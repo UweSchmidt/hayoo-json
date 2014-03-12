@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GuiTV"
+        "phrase": "GuiTV",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsc3-utils"
+        "phrase": "hsc3-utils",
+        "type": "phrase"
       },
       "type": "context"
     }

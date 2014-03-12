@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "listlike-instances"
+        "phrase": "listlike-instances",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:52 UTC 2014",
           "module": "Data.ListLike.Text.Text",
           "name": "Text",
           "package": "listlike-instances",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data ListLike Text Text",
+          "indexed": "2014-03-11T19:10:52",
           "module": "Data.ListLike.Text.Text",
           "name": "Text",
           "package": "listlike-instances",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:52 UTC 2014",
           "module": "Data.ListLike.Text.TextLazy",
           "name": "TextLazy",
           "package": "listlike-instances",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data ListLike Text TextLazy",
+          "indexed": "2014-03-11T19:10:52",
           "module": "Data.ListLike.Text.TextLazy",
           "name": "TextLazy",
           "package": "listlike-instances",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:52 UTC 2014",
           "module": "Data.ListLike.Text",
           "name": "Text",
           "package": "listlike-instances",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data ListLike Text",
+          "indexed": "2014-03-11T19:10:52",
           "module": "Data.ListLike.Text",
           "name": "Text",
           "package": "listlike-instances",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eListLike instance for any type supporting the \u003ccode\u003eData.Vector.Generic\u003c/code\u003e\n interface.  To avoid collisions with other Vector instances, this module\n must be imported directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:52 UTC 2014",
           "module": "Data.ListLike.Vector.Generic",
           "name": "Generic",
           "package": "listlike-instances",
@@ -91,6 +98,7 @@
         "index": {
           "description": "ListLike instance for any type supporting the Data.Vector.Generic interface To avoid collisions with other Vector instances this module must be imported directly",
           "hierarchy": "Data ListLike Vector Generic",
+          "indexed": "2014-03-11T19:10:52",
           "module": "Data.ListLike.Vector.Generic",
           "name": "Generic",
           "package": "listlike-instances",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:52 UTC 2014",
           "module": "Data.ListLike.Vector.Storable",
           "name": "Storable",
           "package": "listlike-instances",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data ListLike Vector Storable",
+          "indexed": "2014-03-11T19:10:52",
           "module": "Data.ListLike.Vector.Storable",
           "name": "Storable",
           "package": "listlike-instances",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:52 UTC 2014",
           "module": "Data.ListLike.Vector.Unboxed",
           "name": "Unboxed",
           "package": "listlike-instances",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data ListLike Vector Unboxed",
+          "indexed": "2014-03-11T19:10:52",
           "module": "Data.ListLike.Vector.Unboxed",
           "name": "Unboxed",
           "package": "listlike-instances",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:52 UTC 2014",
           "module": "Data.ListLike.Vector.Vector",
           "name": "Vector",
           "package": "listlike-instances",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data ListLike Vector Vector",
+          "indexed": "2014-03-11T19:10:52",
           "module": "Data.ListLike.Vector.Vector",
           "name": "Vector",
           "package": "listlike-instances",
@@ -168,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eListLike instances for several \u003ccode\u003eData.Vector\u003c/code\u003e types.\n The \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e instances are not exported from this\n module in order to prevent collisions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:52 UTC 2014",
           "module": "Data.ListLike.Vector",
           "name": "Vector",
           "package": "listlike-instances",
@@ -177,6 +192,7 @@
         "index": {
           "description": "ListLike instances for several Data.Vector types The Generic instances are not exported from this module in order to prevent collisions",
           "hierarchy": "Data ListLike Vector",
+          "indexed": "2014-03-11T19:10:52",
           "module": "Data.ListLike.Vector",
           "name": "Vector",
           "package": "listlike-instances",

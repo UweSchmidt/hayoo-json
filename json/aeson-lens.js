@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aeson-lens"
+        "phrase": "aeson-lens",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "Lens",
           "package": "aeson-lens",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "Lens",
           "package": "aeson-lens",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "ValueIx",
           "package": "aeson-lens",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "ValueIx",
           "package": "aeson-lens",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "ArrIx",
           "package": "aeson-lens",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "ArrIx",
           "package": "aeson-lens",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "ObjIx",
           "package": "aeson-lens",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "ObjIx",
           "package": "aeson-lens",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens of Bool\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet v = decode (L.pack \"{\\\"foo\\\": {\\\"baz\\\": false}, \\\"bar\\\": [123, false, null]}\") :: Maybe Value\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"foo\") . key (T.pack \"baz\") . asBool\n\u003c/code\u003e\u003c/strong\u003eJust False\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"bar\") . asBool\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"hoge\") . asBool\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "asBool",
           "package": "aeson-lens",
@@ -115,6 +124,7 @@
         "index": {
           "description": "Lens of Bool let decode L.pack foo baz false bar false null Maybe Value key T.pack foo key T.pack baz asBool Just False key T.pack bar asBool Nothing key T.pack hoge asBool Nothing",
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "asBool",
           "package": "aeson-lens",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens of Double\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet v = decode (L.pack \"{\\\"foo\\\": {\\\"baz\\\": 3.14}, \\\"bar\\\": [123, false, null]}\") :: Maybe Value\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"foo\") . key (T.pack \"baz\") . asDouble\n\u003c/code\u003e\u003c/strong\u003eJust 3.14\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"bar\") . asDouble\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"hoge\") . asDouble\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "asDouble",
           "package": "aeson-lens",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Lens of Double let decode L.pack foo baz bar false null Maybe Value key T.pack foo key T.pack baz asDouble Just key T.pack bar asDouble Nothing key T.pack hoge asDouble Nothing",
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "asDouble",
           "package": "aeson-lens",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens of Text\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet v = decode (L.pack \"{\\\"foo\\\": {\\\"baz\\\": \\\"3.14\\\"}, \\\"bar\\\": [123, false, null]}\") :: Maybe Value\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"foo\") . key (T.pack \"baz\") . asText\n\u003c/code\u003e\u003c/strong\u003eJust \"3.14\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"bar\") . asText\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"hoge\") . asText\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "asText",
           "package": "aeson-lens",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Lens of Text let decode L.pack foo baz bar false null Maybe Value key T.pack foo key T.pack baz asText Just key T.pack bar asText Nothing key T.pack hoge asText Nothing",
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "asText",
           "package": "aeson-lens",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens of Object\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet v = decode (L.pack \"{\\\"foo\\\": {\\\"baz\\\": 3.14}, \\\"bar\\\": [123, false, null]}\") :: Maybe Value\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"foo\") . key (T.pack \"baz\") :: Maybe Double\n\u003c/code\u003e\u003c/strong\u003eJust 3.14\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"foo\") . key (T.pack \"baz\") :: Maybe Object\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"foo\") . key (T.pack \"hoge\") :: Maybe Value\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"hoge\") :: Maybe Value\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet w = Nothing & key (T.pack \"a\") .~ Just 2.23\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eL.unpack $ encode w\n\u003c/code\u003e\u003c/strong\u003e\"{\\\"a\\\":2.23}\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet x = w & key (T.pack \"b\") . key (T.pack \"c\") .~ Just True\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eL.unpack $ encode x\n\u003c/code\u003e\u003c/strong\u003e\"{\\\"b\\\":{\\\"c\\\":true},\\\"a\\\":2.23}\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "key",
           "package": "aeson-lens",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Lens of Object let decode L.pack foo baz bar false null Maybe Value key T.pack foo key T.pack baz Maybe Double Just key T.pack foo key T.pack baz Maybe Object Nothing key T.pack foo key T.pack hoge Maybe Value Nothing key T.pack hoge Maybe Value Nothing let Nothing key T.pack Just L.unpack encode let key T.pack key T.pack Just True L.unpack encode true",
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "key",
           "normalized": "Text-\u003eIndexedLens' ValueIx(Maybe Value)(Maybe a)",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "key'",
           "package": "aeson-lens",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "key'",
           "normalized": "Text-\u003eIndexedLens ValueIx(Maybe Value)(Maybe Value)(Maybe a)(Maybe b)",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens of Array\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet v = decode (L.pack \"{\\\"foo\\\": {\\\"baz\\\": 3.14}, \\\"bar\\\": [123, false, null]}\") :: Maybe Value\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"bar\") . nth 1 :: Maybe Bool\n\u003c/code\u003e\u003c/strong\u003eJust False\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"bar\") . nth 1 :: Maybe String\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. key (T.pack \"bar\") . nth 3 :: Maybe Value\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev ^. nth 0 :: Maybe Value\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet x = Nothing & nth 0 .~ Just 1\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eL.unpack $ encode x\n\u003c/code\u003e\u003c/strong\u003e\"[1]\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet y = x & nth 1 .~ Just \"hoge\"\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eL.unpack $ encode y\n\u003c/code\u003e\u003c/strong\u003e\"[1,\\\"hoge\\\"]\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet z = y & nth 0 .~ Just False\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eL.unpack $ encode z\n\u003c/code\u003e\u003c/strong\u003e\"[false,\\\"hoge\\\"]\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet v = decode (L.pack \"[]\") :: Maybe Value\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev & nth 0 .~ Just \"hello\"\n\u003c/code\u003e\u003c/strong\u003eJust (Array (fromList [String \"hello\"]))\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev & nth 1 .~ Just \"hello\"\n\u003c/code\u003e\u003c/strong\u003eJust (Array (fromList [Null,String \"hello\"]))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "nth",
           "package": "aeson-lens",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Lens of Array let decode L.pack foo baz bar false null Maybe Value key T.pack bar nth Maybe Bool Just False key T.pack bar nth Maybe String Nothing key T.pack bar nth Maybe Value Nothing nth Maybe Value Nothing let Nothing nth Just L.unpack encode let nth Just hoge L.unpack encode hoge let nth Just False L.unpack encode false hoge let decode L.pack Maybe Value nth Just hello Just Array fromList String hello nth Just hello Just Array fromList Null String hello",
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "nth",
           "normalized": "Int-\u003eIndexedLens' ValueIx(Maybe Value)(Maybe a)",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "nth'",
           "package": "aeson-lens",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "nth'",
           "normalized": "Int-\u003eIndexedLens ValueIx(Maybe Value)(Maybe Value)(Maybe a)(Maybe b)",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndexed traversal of Array\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet v = decode (L.pack \"[1, true, null]\") :: Maybe Value\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ev & catMaybes . toListOf traverseArray :: [Value]\n\u003c/code\u003e\u003c/strong\u003e[Number 1,Bool True,Null]\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet w = decode (L.pack \"[{\\\"name\\\": \\\"tanakh\\\", \\\"age\\\": 29}, {\\\"name\\\": \\\"nushio\\\", \\\"age\\\": 28}]\") :: Maybe Value\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ew & catMaybes . toListOf (traverseArray . key (T.pack \"name\")) :: [T.Text]\n\u003c/code\u003e\u003c/strong\u003e[\"tanakh\",\"nushio\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "traverseArray",
           "package": "aeson-lens",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Indexed traversal of Array let decode L.pack true null Maybe Value catMaybes toListOf traverseArray Value Number Bool True Null let decode L.pack name tanakh age name nushio age Maybe Value catMaybes toListOf traverseArray key T.pack name T.Text tanakh nushio",
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "traverseArray",
           "package": "aeson-lens",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-changing indexed traversal of an Array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "traverseArray'",
           "package": "aeson-lens",
@@ -307,6 +332,7 @@
         "index": {
           "description": "Type-changing indexed traversal of an Array",
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "traverseArray'",
           "package": "aeson-lens",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndexed traversal of Object\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet w = decode (L.pack \"[{\\\"name\\\": \\\"tanakh\\\", \\\"age\\\": 29}, {\\\"name\\\": \\\"nushio\\\", \\\"age\\\": 28}]\") :: Maybe Value\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ew & catMaybes . toListOf (traverseArray . traverseObject) :: [Value]\n\u003c/code\u003e\u003c/strong\u003e[String \"tanakh\",Number 29,String \"nushio\",Number 28]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "traverseObject",
           "package": "aeson-lens",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Indexed traversal of Object let decode L.pack name tanakh age name nushio age Maybe Value catMaybes toListOf traverseArray traverseObject Value String tanakh Number String nushio Number",
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "traverseObject",
           "package": "aeson-lens",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-changing indexed traversal of Object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "traverseObject'",
           "package": "aeson-lens",
@@ -355,6 +384,7 @@
         "index": {
           "description": "Type-changing indexed traversal of Object",
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "traverseObject'",
           "package": "aeson-lens",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens of Value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:40 UTC 2014",
           "module": "Data.Aeson.Lens",
           "name": "valueAt",
           "package": "aeson-lens",
@@ -379,6 +410,7 @@
         "index": {
           "description": "Lens of Value",
           "hierarchy": "Data Aeson Lens",
+          "indexed": "2014-03-11T17:08:40",
           "module": "Data.Aeson.Lens",
           "name": "valueAt",
           "normalized": "ValueIx-\u003eIndexedLens ValueIx(Maybe Value)(Maybe Value)(Maybe a)(Maybe b)",

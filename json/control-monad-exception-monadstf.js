@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "control-monad-exception-monadstf"
+        "phrase": "control-monad-exception-monadstf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eEMT\u003c/a\u003e\u003c/code\u003e liftings for the classes in the monads-fd package\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:40:09 UTC 2014",
           "module": "Control.Monad.Exception.MonadsTF",
           "name": "MonadsTF",
           "package": "control-monad-exception-monadstf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "EMT liftings for the classes in the monads-fd package",
           "hierarchy": "Control Monad Exception MonadsTF",
+          "indexed": "2014-03-11T17:40:09",
           "module": "Control.Monad.Exception.MonadsTF",
           "name": "MonadsTF",
           "package": "control-monad-exception-monadstf",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe catch primitive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:40:09 UTC 2014",
           "module": "Control.Monad.Exception.MonadsTF",
           "name": "catch",
           "package": "control-monad-exception-monadstf",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The catch primitive",
           "hierarchy": "Control Monad Exception MonadsTF",
+          "indexed": "2014-03-11T17:40:09",
           "module": "Control.Monad.Exception.MonadsTF",
           "name": "catch",
           "normalized": "EMT(Caught a b)c d-\u003e(a-\u003eEMT b c d)-\u003eEMT b c d",

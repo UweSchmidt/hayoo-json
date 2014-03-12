@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "astview"
+        "phrase": "astview",
+        "type": "phrase"
       },
       "type": "context"
     }

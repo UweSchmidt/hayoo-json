@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hxt-charproperties"
+        "phrase": "hxt-charproperties",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnicode Code Blocks\n\u003c/p\u003e\u003cp\u003edon't edit this module\n   it's generated from 'http:\\/\\/www.unicode.org\\/Public\\/UNIDATA\\/Blocks.txt'\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "UnicodeBlocks",
           "package": "hxt-charproperties",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Unicode Code Blocks don edit this module it generated from http www.unicode.org Public UNIDATA Blocks.txt",
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "UnicodeBlocks",
           "package": "hxt-charproperties",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "codeBlocks",
           "package": "hxt-charproperties",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "codeBlocks",
           "normalized": "[(String,(Char,Char))]",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "elemCodeBlock",
           "package": "hxt-charproperties",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "elemCodeBlock",
           "normalized": "Char-\u003eString-\u003eBool",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isAegeanNumbers",
           "package": "hxt-charproperties",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isAegeanNumbers",
           "normalized": "Char-\u003eBool",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isAlphabeticPresentationForms",
           "package": "hxt-charproperties",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isAlphabeticPresentationForms",
           "normalized": "Char-\u003eBool",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isAncientGreekMusicalNotation",
           "package": "hxt-charproperties",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isAncientGreekMusicalNotation",
           "normalized": "Char-\u003eBool",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isAncientGreekNumbers",
           "package": "hxt-charproperties",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isAncientGreekNumbers",
           "normalized": "Char-\u003eBool",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isAncientSymbols",
           "package": "hxt-charproperties",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isAncientSymbols",
           "normalized": "Char-\u003eBool",
@@ -209,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isArabic",
           "package": "hxt-charproperties",
@@ -218,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isArabic",
           "normalized": "Char-\u003eBool",
@@ -233,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isArabicPresentationFormsA",
           "package": "hxt-charproperties",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isArabicPresentationFormsA",
           "normalized": "Char-\u003eBool",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isArabicPresentationFormsB",
           "package": "hxt-charproperties",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isArabicPresentationFormsB",
           "normalized": "Char-\u003eBool",
@@ -281,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isArabicSupplement",
           "package": "hxt-charproperties",
@@ -290,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isArabicSupplement",
           "normalized": "Char-\u003eBool",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isArmenian",
           "package": "hxt-charproperties",
@@ -314,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isArmenian",
           "normalized": "Char-\u003eBool",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isArrows",
           "package": "hxt-charproperties",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isArrows",
           "normalized": "Char-\u003eBool",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isAvestan",
           "package": "hxt-charproperties",
@@ -362,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isAvestan",
           "normalized": "Char-\u003eBool",
@@ -377,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBalinese",
           "package": "hxt-charproperties",
@@ -386,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBalinese",
           "normalized": "Char-\u003eBool",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBamum",
           "package": "hxt-charproperties",
@@ -410,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBamum",
           "normalized": "Char-\u003eBool",
@@ -425,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBasicLatin",
           "package": "hxt-charproperties",
@@ -434,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBasicLatin",
           "normalized": "Char-\u003eBool",
@@ -449,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBengali",
           "package": "hxt-charproperties",
@@ -458,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBengali",
           "normalized": "Char-\u003eBool",
@@ -473,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBlockElements",
           "package": "hxt-charproperties",
@@ -482,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBlockElements",
           "normalized": "Char-\u003eBool",
@@ -497,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBopomofo",
           "package": "hxt-charproperties",
@@ -506,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBopomofo",
           "normalized": "Char-\u003eBool",
@@ -521,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBopomofoExtended",
           "package": "hxt-charproperties",
@@ -530,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBopomofoExtended",
           "normalized": "Char-\u003eBool",
@@ -545,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBoxDrawing",
           "package": "hxt-charproperties",
@@ -554,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBoxDrawing",
           "normalized": "Char-\u003eBool",
@@ -569,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBraillePatterns",
           "package": "hxt-charproperties",
@@ -578,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBraillePatterns",
           "normalized": "Char-\u003eBool",
@@ -593,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBuginese",
           "package": "hxt-charproperties",
@@ -602,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBuginese",
           "normalized": "Char-\u003eBool",
@@ -617,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBuhid",
           "package": "hxt-charproperties",
@@ -626,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isBuhid",
           "normalized": "Char-\u003eBool",
@@ -641,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isByzantineMusicalSymbols",
           "package": "hxt-charproperties",
@@ -650,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isByzantineMusicalSymbols",
           "normalized": "Char-\u003eBool",
@@ -665,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKCompatibility",
           "package": "hxt-charproperties",
@@ -674,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKCompatibility",
           "normalized": "Char-\u003eBool",
@@ -689,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKCompatibilityForms",
           "package": "hxt-charproperties",
@@ -698,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKCompatibilityForms",
           "normalized": "Char-\u003eBool",
@@ -713,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKCompatibilityIdeographs",
           "package": "hxt-charproperties",
@@ -722,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKCompatibilityIdeographs",
           "normalized": "Char-\u003eBool",
@@ -737,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKCompatibilityIdeographsSupplement",
           "package": "hxt-charproperties",
@@ -746,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKCompatibilityIdeographsSupplement",
           "normalized": "Char-\u003eBool",
@@ -761,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKRadicalsSupplement",
           "package": "hxt-charproperties",
@@ -770,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKRadicalsSupplement",
           "normalized": "Char-\u003eBool",
@@ -785,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKStrokes",
           "package": "hxt-charproperties",
@@ -794,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKStrokes",
           "normalized": "Char-\u003eBool",
@@ -809,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKSymbolsandPunctuation",
           "package": "hxt-charproperties",
@@ -818,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKSymbolsandPunctuation",
           "normalized": "Char-\u003eBool",
@@ -833,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKUnifiedIdeographs",
           "package": "hxt-charproperties",
@@ -842,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKUnifiedIdeographs",
           "normalized": "Char-\u003eBool",
@@ -857,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKUnifiedIdeographsExtensionA",
           "package": "hxt-charproperties",
@@ -866,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKUnifiedIdeographsExtensionA",
           "normalized": "Char-\u003eBool",
@@ -881,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKUnifiedIdeographsExtensionB",
           "package": "hxt-charproperties",
@@ -890,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKUnifiedIdeographsExtensionB",
           "normalized": "Char-\u003eBool",
@@ -905,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKUnifiedIdeographsExtensionC",
           "package": "hxt-charproperties",
@@ -914,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCJKUnifiedIdeographsExtensionC",
           "normalized": "Char-\u003eBool",
@@ -929,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCarian",
           "package": "hxt-charproperties",
@@ -938,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCarian",
           "normalized": "Char-\u003eBool",
@@ -953,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCham",
           "package": "hxt-charproperties",
@@ -962,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCham",
           "normalized": "Char-\u003eBool",
@@ -977,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCherokee",
           "package": "hxt-charproperties",
@@ -986,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCherokee",
           "normalized": "Char-\u003eBool",
@@ -1001,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCombiningDiacriticalMarks",
           "package": "hxt-charproperties",
@@ -1010,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCombiningDiacriticalMarks",
           "normalized": "Char-\u003eBool",
@@ -1025,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCombiningDiacriticalMarksSupplement",
           "package": "hxt-charproperties",
@@ -1034,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCombiningDiacriticalMarksSupplement",
           "normalized": "Char-\u003eBool",
@@ -1049,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCombiningDiacriticalMarksforSymbols",
           "package": "hxt-charproperties",
@@ -1058,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCombiningDiacriticalMarksforSymbols",
           "normalized": "Char-\u003eBool",
@@ -1073,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCombiningHalfMarks",
           "package": "hxt-charproperties",
@@ -1082,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCombiningHalfMarks",
           "normalized": "Char-\u003eBool",
@@ -1097,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCommonIndicNumberForms",
           "package": "hxt-charproperties",
@@ -1106,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCommonIndicNumberForms",
           "normalized": "Char-\u003eBool",
@@ -1121,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isControlPictures",
           "package": "hxt-charproperties",
@@ -1130,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isControlPictures",
           "normalized": "Char-\u003eBool",
@@ -1145,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCoptic",
           "package": "hxt-charproperties",
@@ -1154,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCoptic",
           "normalized": "Char-\u003eBool",
@@ -1169,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCountingRodNumerals",
           "package": "hxt-charproperties",
@@ -1178,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCountingRodNumerals",
           "normalized": "Char-\u003eBool",
@@ -1193,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCuneiform",
           "package": "hxt-charproperties",
@@ -1202,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCuneiform",
           "normalized": "Char-\u003eBool",
@@ -1217,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCuneiformNumbersandPunctuation",
           "package": "hxt-charproperties",
@@ -1226,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCuneiformNumbersandPunctuation",
           "normalized": "Char-\u003eBool",
@@ -1241,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCurrencySymbols",
           "package": "hxt-charproperties",
@@ -1250,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCurrencySymbols",
           "normalized": "Char-\u003eBool",
@@ -1265,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCypriotSyllabary",
           "package": "hxt-charproperties",
@@ -1274,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCypriotSyllabary",
           "normalized": "Char-\u003eBool",
@@ -1289,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCyrillic",
           "package": "hxt-charproperties",
@@ -1298,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCyrillic",
           "normalized": "Char-\u003eBool",
@@ -1313,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCyrillicExtendedA",
           "package": "hxt-charproperties",
@@ -1322,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCyrillicExtendedA",
           "normalized": "Char-\u003eBool",
@@ -1337,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCyrillicExtendedB",
           "package": "hxt-charproperties",
@@ -1346,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCyrillicExtendedB",
           "normalized": "Char-\u003eBool",
@@ -1361,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCyrillicSupplement",
           "package": "hxt-charproperties",
@@ -1370,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isCyrillicSupplement",
           "normalized": "Char-\u003eBool",
@@ -1385,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isDeseret",
           "package": "hxt-charproperties",
@@ -1394,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isDeseret",
           "normalized": "Char-\u003eBool",
@@ -1409,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isDevanagari",
           "package": "hxt-charproperties",
@@ -1418,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isDevanagari",
           "normalized": "Char-\u003eBool",
@@ -1433,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isDevanagariExtended",
           "package": "hxt-charproperties",
@@ -1442,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isDevanagariExtended",
           "normalized": "Char-\u003eBool",
@@ -1457,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isDingbats",
           "package": "hxt-charproperties",
@@ -1466,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isDingbats",
           "normalized": "Char-\u003eBool",
@@ -1481,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isDominoTiles",
           "package": "hxt-charproperties",
@@ -1490,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isDominoTiles",
           "normalized": "Char-\u003eBool",
@@ -1505,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEgyptianHieroglyphs",
           "package": "hxt-charproperties",
@@ -1514,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEgyptianHieroglyphs",
           "normalized": "Char-\u003eBool",
@@ -1529,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEnclosedAlphanumericSupplement",
           "package": "hxt-charproperties",
@@ -1538,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEnclosedAlphanumericSupplement",
           "normalized": "Char-\u003eBool",
@@ -1553,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEnclosedAlphanumerics",
           "package": "hxt-charproperties",
@@ -1562,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEnclosedAlphanumerics",
           "normalized": "Char-\u003eBool",
@@ -1577,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEnclosedCJKLettersandMonths",
           "package": "hxt-charproperties",
@@ -1586,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEnclosedCJKLettersandMonths",
           "normalized": "Char-\u003eBool",
@@ -1601,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEnclosedIdeographicSupplement",
           "package": "hxt-charproperties",
@@ -1610,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEnclosedIdeographicSupplement",
           "normalized": "Char-\u003eBool",
@@ -1625,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEthiopic",
           "package": "hxt-charproperties",
@@ -1634,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEthiopic",
           "normalized": "Char-\u003eBool",
@@ -1649,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEthiopicExtended",
           "package": "hxt-charproperties",
@@ -1658,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEthiopicExtended",
           "normalized": "Char-\u003eBool",
@@ -1673,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEthiopicSupplement",
           "package": "hxt-charproperties",
@@ -1682,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isEthiopicSupplement",
           "normalized": "Char-\u003eBool",
@@ -1697,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGeneralPunctuation",
           "package": "hxt-charproperties",
@@ -1706,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGeneralPunctuation",
           "normalized": "Char-\u003eBool",
@@ -1721,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGeometricShapes",
           "package": "hxt-charproperties",
@@ -1730,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGeometricShapes",
           "normalized": "Char-\u003eBool",
@@ -1745,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGeorgian",
           "package": "hxt-charproperties",
@@ -1754,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGeorgian",
           "normalized": "Char-\u003eBool",
@@ -1769,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGeorgianSupplement",
           "package": "hxt-charproperties",
@@ -1778,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGeorgianSupplement",
           "normalized": "Char-\u003eBool",
@@ -1793,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGlagolitic",
           "package": "hxt-charproperties",
@@ -1802,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGlagolitic",
           "normalized": "Char-\u003eBool",
@@ -1817,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGothic",
           "package": "hxt-charproperties",
@@ -1826,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGothic",
           "normalized": "Char-\u003eBool",
@@ -1841,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGreekExtended",
           "package": "hxt-charproperties",
@@ -1850,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGreekExtended",
           "normalized": "Char-\u003eBool",
@@ -1865,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGreekandCoptic",
           "package": "hxt-charproperties",
@@ -1874,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGreekandCoptic",
           "normalized": "Char-\u003eBool",
@@ -1889,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGujarati",
           "package": "hxt-charproperties",
@@ -1898,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGujarati",
           "normalized": "Char-\u003eBool",
@@ -1913,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGurmukhi",
           "package": "hxt-charproperties",
@@ -1922,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isGurmukhi",
           "normalized": "Char-\u003eBool",
@@ -1937,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHalfwidthandFullwidthForms",
           "package": "hxt-charproperties",
@@ -1946,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHalfwidthandFullwidthForms",
           "normalized": "Char-\u003eBool",
@@ -1961,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHangulCompatibilityJamo",
           "package": "hxt-charproperties",
@@ -1970,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHangulCompatibilityJamo",
           "normalized": "Char-\u003eBool",
@@ -1985,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHangulJamo",
           "package": "hxt-charproperties",
@@ -1994,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHangulJamo",
           "normalized": "Char-\u003eBool",
@@ -2009,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHangulJamoExtendedA",
           "package": "hxt-charproperties",
@@ -2018,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHangulJamoExtendedA",
           "normalized": "Char-\u003eBool",
@@ -2033,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHangulJamoExtendedB",
           "package": "hxt-charproperties",
@@ -2042,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHangulJamoExtendedB",
           "normalized": "Char-\u003eBool",
@@ -2057,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHangulSyllables",
           "package": "hxt-charproperties",
@@ -2066,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHangulSyllables",
           "normalized": "Char-\u003eBool",
@@ -2081,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHanunoo",
           "package": "hxt-charproperties",
@@ -2090,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHanunoo",
           "normalized": "Char-\u003eBool",
@@ -2105,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHebrew",
           "package": "hxt-charproperties",
@@ -2114,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHebrew",
           "normalized": "Char-\u003eBool",
@@ -2129,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHighPrivateUseSurrogates",
           "package": "hxt-charproperties",
@@ -2138,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHighPrivateUseSurrogates",
           "normalized": "Char-\u003eBool",
@@ -2153,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHighSurrogates",
           "package": "hxt-charproperties",
@@ -2162,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHighSurrogates",
           "normalized": "Char-\u003eBool",
@@ -2177,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHiragana",
           "package": "hxt-charproperties",
@@ -2186,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isHiragana",
           "normalized": "Char-\u003eBool",
@@ -2201,6 +2383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isIPAExtensions",
           "package": "hxt-charproperties",
@@ -2210,6 +2393,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isIPAExtensions",
           "normalized": "Char-\u003eBool",
@@ -2225,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isIdeographicDescriptionCharacters",
           "package": "hxt-charproperties",
@@ -2234,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isIdeographicDescriptionCharacters",
           "normalized": "Char-\u003eBool",
@@ -2249,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isImperialAramaic",
           "package": "hxt-charproperties",
@@ -2258,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isImperialAramaic",
           "normalized": "Char-\u003eBool",
@@ -2273,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isInscriptionalPahlavi",
           "package": "hxt-charproperties",
@@ -2282,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isInscriptionalPahlavi",
           "normalized": "Char-\u003eBool",
@@ -2297,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isInscriptionalParthian",
           "package": "hxt-charproperties",
@@ -2306,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isInscriptionalParthian",
           "normalized": "Char-\u003eBool",
@@ -2321,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isJavanese",
           "package": "hxt-charproperties",
@@ -2330,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isJavanese",
           "normalized": "Char-\u003eBool",
@@ -2345,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKaithi",
           "package": "hxt-charproperties",
@@ -2354,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKaithi",
           "normalized": "Char-\u003eBool",
@@ -2369,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKanbun",
           "package": "hxt-charproperties",
@@ -2378,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKanbun",
           "normalized": "Char-\u003eBool",
@@ -2393,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKangxiRadicals",
           "package": "hxt-charproperties",
@@ -2402,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKangxiRadicals",
           "normalized": "Char-\u003eBool",
@@ -2417,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKannada",
           "package": "hxt-charproperties",
@@ -2426,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKannada",
           "normalized": "Char-\u003eBool",
@@ -2441,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKatakana",
           "package": "hxt-charproperties",
@@ -2450,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKatakana",
           "normalized": "Char-\u003eBool",
@@ -2465,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKatakanaPhoneticExtensions",
           "package": "hxt-charproperties",
@@ -2474,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKatakanaPhoneticExtensions",
           "normalized": "Char-\u003eBool",
@@ -2489,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKayahLi",
           "package": "hxt-charproperties",
@@ -2498,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKayahLi",
           "normalized": "Char-\u003eBool",
@@ -2513,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKharoshthi",
           "package": "hxt-charproperties",
@@ -2522,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKharoshthi",
           "normalized": "Char-\u003eBool",
@@ -2537,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKhmer",
           "package": "hxt-charproperties",
@@ -2546,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKhmer",
           "normalized": "Char-\u003eBool",
@@ -2561,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKhmerSymbols",
           "package": "hxt-charproperties",
@@ -2570,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isKhmerSymbols",
           "normalized": "Char-\u003eBool",
@@ -2585,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLao",
           "package": "hxt-charproperties",
@@ -2594,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLao",
           "normalized": "Char-\u003eBool",
@@ -2609,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLatin1Supplement",
           "package": "hxt-charproperties",
@@ -2618,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLatin1Supplement",
           "normalized": "Char-\u003eBool",
@@ -2633,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLatinExtendedA",
           "package": "hxt-charproperties",
@@ -2642,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLatinExtendedA",
           "normalized": "Char-\u003eBool",
@@ -2657,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLatinExtendedAdditional",
           "package": "hxt-charproperties",
@@ -2666,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLatinExtendedAdditional",
           "normalized": "Char-\u003eBool",
@@ -2681,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLatinExtendedB",
           "package": "hxt-charproperties",
@@ -2690,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLatinExtendedB",
           "normalized": "Char-\u003eBool",
@@ -2705,6 +2929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLatinExtendedC",
           "package": "hxt-charproperties",
@@ -2714,6 +2939,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLatinExtendedC",
           "normalized": "Char-\u003eBool",
@@ -2729,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLatinExtendedD",
           "package": "hxt-charproperties",
@@ -2738,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLatinExtendedD",
           "normalized": "Char-\u003eBool",
@@ -2753,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLepcha",
           "package": "hxt-charproperties",
@@ -2762,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLepcha",
           "normalized": "Char-\u003eBool",
@@ -2777,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLetterlikeSymbols",
           "package": "hxt-charproperties",
@@ -2786,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLetterlikeSymbols",
           "normalized": "Char-\u003eBool",
@@ -2801,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLimbu",
           "package": "hxt-charproperties",
@@ -2810,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLimbu",
           "normalized": "Char-\u003eBool",
@@ -2825,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLinearBIdeograms",
           "package": "hxt-charproperties",
@@ -2834,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLinearBIdeograms",
           "normalized": "Char-\u003eBool",
@@ -2849,6 +3085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLinearBSyllabary",
           "package": "hxt-charproperties",
@@ -2858,6 +3095,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLinearBSyllabary",
           "normalized": "Char-\u003eBool",
@@ -2873,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLisu",
           "package": "hxt-charproperties",
@@ -2882,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLisu",
           "normalized": "Char-\u003eBool",
@@ -2897,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLowSurrogates",
           "package": "hxt-charproperties",
@@ -2906,6 +3147,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLowSurrogates",
           "normalized": "Char-\u003eBool",
@@ -2921,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLycian",
           "package": "hxt-charproperties",
@@ -2930,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLycian",
           "normalized": "Char-\u003eBool",
@@ -2945,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLydian",
           "package": "hxt-charproperties",
@@ -2954,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isLydian",
           "normalized": "Char-\u003eBool",
@@ -2969,6 +3215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMahjongTiles",
           "package": "hxt-charproperties",
@@ -2978,6 +3225,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMahjongTiles",
           "normalized": "Char-\u003eBool",
@@ -2993,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMalayalam",
           "package": "hxt-charproperties",
@@ -3002,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMalayalam",
           "normalized": "Char-\u003eBool",
@@ -3017,6 +3267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMathematicalAlphanumericSymbols",
           "package": "hxt-charproperties",
@@ -3026,6 +3277,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMathematicalAlphanumericSymbols",
           "normalized": "Char-\u003eBool",
@@ -3041,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMathematicalOperators",
           "package": "hxt-charproperties",
@@ -3050,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMathematicalOperators",
           "normalized": "Char-\u003eBool",
@@ -3065,6 +3319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMeeteiMayek",
           "package": "hxt-charproperties",
@@ -3074,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMeeteiMayek",
           "normalized": "Char-\u003eBool",
@@ -3089,6 +3345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMiscellaneousMathematicalSymbolsA",
           "package": "hxt-charproperties",
@@ -3098,6 +3355,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMiscellaneousMathematicalSymbolsA",
           "normalized": "Char-\u003eBool",
@@ -3113,6 +3371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMiscellaneousMathematicalSymbolsB",
           "package": "hxt-charproperties",
@@ -3122,6 +3381,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMiscellaneousMathematicalSymbolsB",
           "normalized": "Char-\u003eBool",
@@ -3137,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMiscellaneousSymbols",
           "package": "hxt-charproperties",
@@ -3146,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMiscellaneousSymbols",
           "normalized": "Char-\u003eBool",
@@ -3161,6 +3423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMiscellaneousSymbolsandArrows",
           "package": "hxt-charproperties",
@@ -3170,6 +3433,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMiscellaneousSymbolsandArrows",
           "normalized": "Char-\u003eBool",
@@ -3185,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMiscellaneousTechnical",
           "package": "hxt-charproperties",
@@ -3194,6 +3459,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMiscellaneousTechnical",
           "normalized": "Char-\u003eBool",
@@ -3209,6 +3475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isModifierToneLetters",
           "package": "hxt-charproperties",
@@ -3218,6 +3485,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isModifierToneLetters",
           "normalized": "Char-\u003eBool",
@@ -3233,6 +3501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMongolian",
           "package": "hxt-charproperties",
@@ -3242,6 +3511,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMongolian",
           "normalized": "Char-\u003eBool",
@@ -3257,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMusicalSymbols",
           "package": "hxt-charproperties",
@@ -3266,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMusicalSymbols",
           "normalized": "Char-\u003eBool",
@@ -3281,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMyanmar",
           "package": "hxt-charproperties",
@@ -3290,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMyanmar",
           "normalized": "Char-\u003eBool",
@@ -3305,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMyanmarExtendedA",
           "package": "hxt-charproperties",
@@ -3314,6 +3589,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isMyanmarExtendedA",
           "normalized": "Char-\u003eBool",
@@ -3329,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isNKo",
           "package": "hxt-charproperties",
@@ -3338,6 +3615,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isNKo",
           "normalized": "Char-\u003eBool",
@@ -3353,6 +3631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isNewTaiLue",
           "package": "hxt-charproperties",
@@ -3362,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isNewTaiLue",
           "normalized": "Char-\u003eBool",
@@ -3377,6 +3657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isNumberForms",
           "package": "hxt-charproperties",
@@ -3386,6 +3667,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isNumberForms",
           "normalized": "Char-\u003eBool",
@@ -3401,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOgham",
           "package": "hxt-charproperties",
@@ -3410,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOgham",
           "normalized": "Char-\u003eBool",
@@ -3425,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOlChiki",
           "package": "hxt-charproperties",
@@ -3434,6 +3719,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOlChiki",
           "normalized": "Char-\u003eBool",
@@ -3449,6 +3735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOldItalic",
           "package": "hxt-charproperties",
@@ -3458,6 +3745,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOldItalic",
           "normalized": "Char-\u003eBool",
@@ -3473,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOldPersian",
           "package": "hxt-charproperties",
@@ -3482,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOldPersian",
           "normalized": "Char-\u003eBool",
@@ -3497,6 +3787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOldSouthArabian",
           "package": "hxt-charproperties",
@@ -3506,6 +3797,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOldSouthArabian",
           "normalized": "Char-\u003eBool",
@@ -3521,6 +3813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOldTurkic",
           "package": "hxt-charproperties",
@@ -3530,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOldTurkic",
           "normalized": "Char-\u003eBool",
@@ -3545,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOpticalCharacterRecognition",
           "package": "hxt-charproperties",
@@ -3554,6 +3849,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOpticalCharacterRecognition",
           "normalized": "Char-\u003eBool",
@@ -3569,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOriya",
           "package": "hxt-charproperties",
@@ -3578,6 +3875,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOriya",
           "normalized": "Char-\u003eBool",
@@ -3593,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOsmanya",
           "package": "hxt-charproperties",
@@ -3602,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isOsmanya",
           "normalized": "Char-\u003eBool",
@@ -3617,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isPhagspa",
           "package": "hxt-charproperties",
@@ -3626,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isPhagspa",
           "normalized": "Char-\u003eBool",
@@ -3641,6 +3943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isPhaistosDisc",
           "package": "hxt-charproperties",
@@ -3650,6 +3953,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isPhaistosDisc",
           "normalized": "Char-\u003eBool",
@@ -3665,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isPhoenician",
           "package": "hxt-charproperties",
@@ -3674,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isPhoenician",
           "normalized": "Char-\u003eBool",
@@ -3689,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isPhoneticExtensions",
           "package": "hxt-charproperties",
@@ -3698,6 +4005,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isPhoneticExtensions",
           "normalized": "Char-\u003eBool",
@@ -3713,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isPhoneticExtensionsSupplement",
           "package": "hxt-charproperties",
@@ -3722,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isPhoneticExtensionsSupplement",
           "normalized": "Char-\u003eBool",
@@ -3737,6 +4047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isPrivateUseArea",
           "package": "hxt-charproperties",
@@ -3746,6 +4057,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isPrivateUseArea",
           "normalized": "Char-\u003eBool",
@@ -3761,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isRejang",
           "package": "hxt-charproperties",
@@ -3770,6 +4083,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isRejang",
           "normalized": "Char-\u003eBool",
@@ -3785,6 +4099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isRumiNumeralSymbols",
           "package": "hxt-charproperties",
@@ -3794,6 +4109,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isRumiNumeralSymbols",
           "normalized": "Char-\u003eBool",
@@ -3809,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isRunic",
           "package": "hxt-charproperties",
@@ -3818,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isRunic",
           "normalized": "Char-\u003eBool",
@@ -3833,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSamaritan",
           "package": "hxt-charproperties",
@@ -3842,6 +4161,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSamaritan",
           "normalized": "Char-\u003eBool",
@@ -3857,6 +4177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSaurashtra",
           "package": "hxt-charproperties",
@@ -3866,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSaurashtra",
           "normalized": "Char-\u003eBool",
@@ -3881,6 +4203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isShavian",
           "package": "hxt-charproperties",
@@ -3890,6 +4213,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isShavian",
           "normalized": "Char-\u003eBool",
@@ -3905,6 +4229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSinhala",
           "package": "hxt-charproperties",
@@ -3914,6 +4239,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSinhala",
           "normalized": "Char-\u003eBool",
@@ -3929,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSmallFormVariants",
           "package": "hxt-charproperties",
@@ -3938,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSmallFormVariants",
           "normalized": "Char-\u003eBool",
@@ -3953,6 +4281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSpacingModifierLetters",
           "package": "hxt-charproperties",
@@ -3962,6 +4291,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSpacingModifierLetters",
           "normalized": "Char-\u003eBool",
@@ -3977,6 +4307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSpecials",
           "package": "hxt-charproperties",
@@ -3986,6 +4317,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSpecials",
           "normalized": "Char-\u003eBool",
@@ -4001,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSundanese",
           "package": "hxt-charproperties",
@@ -4010,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSundanese",
           "normalized": "Char-\u003eBool",
@@ -4025,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSuperscriptsandSubscripts",
           "package": "hxt-charproperties",
@@ -4034,6 +4369,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSuperscriptsandSubscripts",
           "normalized": "Char-\u003eBool",
@@ -4049,6 +4385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSupplementalArrowsA",
           "package": "hxt-charproperties",
@@ -4058,6 +4395,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSupplementalArrowsA",
           "normalized": "Char-\u003eBool",
@@ -4073,6 +4411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSupplementalArrowsB",
           "package": "hxt-charproperties",
@@ -4082,6 +4421,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSupplementalArrowsB",
           "normalized": "Char-\u003eBool",
@@ -4097,6 +4437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSupplementalMathematicalOperators",
           "package": "hxt-charproperties",
@@ -4106,6 +4447,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSupplementalMathematicalOperators",
           "normalized": "Char-\u003eBool",
@@ -4121,6 +4463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSupplementalPunctuation",
           "package": "hxt-charproperties",
@@ -4130,6 +4473,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSupplementalPunctuation",
           "normalized": "Char-\u003eBool",
@@ -4145,6 +4489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSupplementaryPrivateUseAreaA",
           "package": "hxt-charproperties",
@@ -4154,6 +4499,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSupplementaryPrivateUseAreaA",
           "normalized": "Char-\u003eBool",
@@ -4169,6 +4515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSupplementaryPrivateUseAreaB",
           "package": "hxt-charproperties",
@@ -4178,6 +4525,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSupplementaryPrivateUseAreaB",
           "normalized": "Char-\u003eBool",
@@ -4193,6 +4541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSylotiNagri",
           "package": "hxt-charproperties",
@@ -4202,6 +4551,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSylotiNagri",
           "normalized": "Char-\u003eBool",
@@ -4217,6 +4567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSyriac",
           "package": "hxt-charproperties",
@@ -4226,6 +4577,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isSyriac",
           "normalized": "Char-\u003eBool",
@@ -4241,6 +4593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTagalog",
           "package": "hxt-charproperties",
@@ -4250,6 +4603,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTagalog",
           "normalized": "Char-\u003eBool",
@@ -4265,6 +4619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTagbanwa",
           "package": "hxt-charproperties",
@@ -4274,6 +4629,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTagbanwa",
           "normalized": "Char-\u003eBool",
@@ -4289,6 +4645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTags",
           "package": "hxt-charproperties",
@@ -4298,6 +4655,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTags",
           "normalized": "Char-\u003eBool",
@@ -4313,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTaiLe",
           "package": "hxt-charproperties",
@@ -4322,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTaiLe",
           "normalized": "Char-\u003eBool",
@@ -4337,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTaiTham",
           "package": "hxt-charproperties",
@@ -4346,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTaiTham",
           "normalized": "Char-\u003eBool",
@@ -4361,6 +4723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTaiViet",
           "package": "hxt-charproperties",
@@ -4370,6 +4733,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTaiViet",
           "normalized": "Char-\u003eBool",
@@ -4385,6 +4749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTaiXuanJingSymbols",
           "package": "hxt-charproperties",
@@ -4394,6 +4759,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTaiXuanJingSymbols",
           "normalized": "Char-\u003eBool",
@@ -4409,6 +4775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTamil",
           "package": "hxt-charproperties",
@@ -4418,6 +4785,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTamil",
           "normalized": "Char-\u003eBool",
@@ -4433,6 +4801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTelugu",
           "package": "hxt-charproperties",
@@ -4442,6 +4811,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTelugu",
           "normalized": "Char-\u003eBool",
@@ -4457,6 +4827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isThaana",
           "package": "hxt-charproperties",
@@ -4466,6 +4837,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isThaana",
           "normalized": "Char-\u003eBool",
@@ -4481,6 +4853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isThai",
           "package": "hxt-charproperties",
@@ -4490,6 +4863,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isThai",
           "normalized": "Char-\u003eBool",
@@ -4505,6 +4879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTibetan",
           "package": "hxt-charproperties",
@@ -4514,6 +4889,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTibetan",
           "normalized": "Char-\u003eBool",
@@ -4529,6 +4905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTifinagh",
           "package": "hxt-charproperties",
@@ -4538,6 +4915,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isTifinagh",
           "normalized": "Char-\u003eBool",
@@ -4553,6 +4931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isUgaritic",
           "package": "hxt-charproperties",
@@ -4562,6 +4941,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isUgaritic",
           "normalized": "Char-\u003eBool",
@@ -4577,6 +4957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isUnifiedCanadianAboriginalSyllabics",
           "package": "hxt-charproperties",
@@ -4586,6 +4967,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isUnifiedCanadianAboriginalSyllabics",
           "normalized": "Char-\u003eBool",
@@ -4601,6 +4983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isUnifiedCanadianAboriginalSyllabicsExtended",
           "package": "hxt-charproperties",
@@ -4610,6 +4993,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isUnifiedCanadianAboriginalSyllabicsExtended",
           "normalized": "Char-\u003eBool",
@@ -4625,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isVai",
           "package": "hxt-charproperties",
@@ -4634,6 +5019,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isVai",
           "normalized": "Char-\u003eBool",
@@ -4649,6 +5035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isVariationSelectors",
           "package": "hxt-charproperties",
@@ -4658,6 +5045,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isVariationSelectors",
           "normalized": "Char-\u003eBool",
@@ -4673,6 +5061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isVariationSelectorsSupplement",
           "package": "hxt-charproperties",
@@ -4682,6 +5071,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isVariationSelectorsSupplement",
           "normalized": "Char-\u003eBool",
@@ -4697,6 +5087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isVedicExtensions",
           "package": "hxt-charproperties",
@@ -4706,6 +5097,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isVedicExtensions",
           "normalized": "Char-\u003eBool",
@@ -4721,6 +5113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isVerticalForms",
           "package": "hxt-charproperties",
@@ -4730,6 +5123,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isVerticalForms",
           "normalized": "Char-\u003eBool",
@@ -4745,6 +5139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isYiRadicals",
           "package": "hxt-charproperties",
@@ -4754,6 +5149,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isYiRadicals",
           "normalized": "Char-\u003eBool",
@@ -4769,6 +5165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isYiSyllables",
           "package": "hxt-charproperties",
@@ -4778,6 +5175,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isYiSyllables",
           "normalized": "Char-\u003eBool",
@@ -4793,6 +5191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isYijingHexagramSymbols",
           "package": "hxt-charproperties",
@@ -4802,6 +5201,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "isYijingHexagramSymbols",
           "normalized": "Char-\u003eBool",
@@ -4817,6 +5217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "versionUnicode",
           "package": "hxt-charproperties",
@@ -4826,6 +5227,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeBlocks",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeBlocks",
           "name": "versionUnicode",
           "package": "hxt-charproperties",
@@ -4840,6 +5242,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnicode character properties\n\u003c/p\u003e\u003cp\u003edon't edit this module\n   it's generated from 'http:\\/\\/www.unicode.org\\/Public\\/UNIDATA\\/UnicodeData.txt'\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "UnicodeCharProps",
           "package": "hxt-charproperties",
@@ -4849,6 +5252,7 @@
         "index": {
           "description": "Unicode character properties don edit this module it generated from http www.unicode.org Public UNIDATA UnicodeData.txt",
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "UnicodeCharProps",
           "package": "hxt-charproperties",
@@ -4862,6 +5266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeC",
           "package": "hxt-charproperties",
@@ -4871,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeC",
           "package": "hxt-charproperties",
@@ -4884,6 +5290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeCc",
           "package": "hxt-charproperties",
@@ -4893,6 +5300,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeCc",
           "package": "hxt-charproperties",
@@ -4906,6 +5314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeCf",
           "package": "hxt-charproperties",
@@ -4915,6 +5324,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeCf",
           "package": "hxt-charproperties",
@@ -4928,6 +5338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeCo",
           "package": "hxt-charproperties",
@@ -4937,6 +5348,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeCo",
           "package": "hxt-charproperties",
@@ -4950,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeCs",
           "package": "hxt-charproperties",
@@ -4959,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeCs",
           "package": "hxt-charproperties",
@@ -4972,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeL",
           "package": "hxt-charproperties",
@@ -4981,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeL",
           "package": "hxt-charproperties",
@@ -4994,6 +5410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeLl",
           "package": "hxt-charproperties",
@@ -5003,6 +5420,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeLl",
           "package": "hxt-charproperties",
@@ -5016,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeLm",
           "package": "hxt-charproperties",
@@ -5025,6 +5444,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeLm",
           "package": "hxt-charproperties",
@@ -5038,6 +5458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeLo",
           "package": "hxt-charproperties",
@@ -5047,6 +5468,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeLo",
           "package": "hxt-charproperties",
@@ -5060,6 +5482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeLt",
           "package": "hxt-charproperties",
@@ -5069,6 +5492,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeLt",
           "package": "hxt-charproperties",
@@ -5082,6 +5506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeLu",
           "package": "hxt-charproperties",
@@ -5091,6 +5516,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeLu",
           "package": "hxt-charproperties",
@@ -5104,6 +5530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeM",
           "package": "hxt-charproperties",
@@ -5113,6 +5540,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeM",
           "package": "hxt-charproperties",
@@ -5126,6 +5554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeMc",
           "package": "hxt-charproperties",
@@ -5135,6 +5564,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeMc",
           "package": "hxt-charproperties",
@@ -5148,6 +5578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeMe",
           "package": "hxt-charproperties",
@@ -5157,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeMe",
           "package": "hxt-charproperties",
@@ -5170,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeMn",
           "package": "hxt-charproperties",
@@ -5179,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeMn",
           "package": "hxt-charproperties",
@@ -5192,6 +5626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeN",
           "package": "hxt-charproperties",
@@ -5201,6 +5636,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeN",
           "package": "hxt-charproperties",
@@ -5214,6 +5650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeNd",
           "package": "hxt-charproperties",
@@ -5223,6 +5660,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeNd",
           "package": "hxt-charproperties",
@@ -5236,6 +5674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeNl",
           "package": "hxt-charproperties",
@@ -5245,6 +5684,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeNl",
           "package": "hxt-charproperties",
@@ -5258,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeNo",
           "package": "hxt-charproperties",
@@ -5267,6 +5708,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeNo",
           "package": "hxt-charproperties",
@@ -5280,6 +5722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeP",
           "package": "hxt-charproperties",
@@ -5289,6 +5732,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeP",
           "package": "hxt-charproperties",
@@ -5302,6 +5746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodePc",
           "package": "hxt-charproperties",
@@ -5311,6 +5756,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodePc",
           "package": "hxt-charproperties",
@@ -5324,6 +5770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodePd",
           "package": "hxt-charproperties",
@@ -5333,6 +5780,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodePd",
           "package": "hxt-charproperties",
@@ -5346,6 +5794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodePe",
           "package": "hxt-charproperties",
@@ -5355,6 +5804,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodePe",
           "package": "hxt-charproperties",
@@ -5368,6 +5818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodePf",
           "package": "hxt-charproperties",
@@ -5377,6 +5828,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodePf",
           "package": "hxt-charproperties",
@@ -5390,6 +5842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodePi",
           "package": "hxt-charproperties",
@@ -5399,6 +5852,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodePi",
           "package": "hxt-charproperties",
@@ -5412,6 +5866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodePo",
           "package": "hxt-charproperties",
@@ -5421,6 +5876,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodePo",
           "package": "hxt-charproperties",
@@ -5434,6 +5890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodePs",
           "package": "hxt-charproperties",
@@ -5443,6 +5900,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodePs",
           "package": "hxt-charproperties",
@@ -5456,6 +5914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeS",
           "package": "hxt-charproperties",
@@ -5465,6 +5924,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeS",
           "package": "hxt-charproperties",
@@ -5478,6 +5938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeSc",
           "package": "hxt-charproperties",
@@ -5487,6 +5948,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeSc",
           "package": "hxt-charproperties",
@@ -5500,6 +5962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeSk",
           "package": "hxt-charproperties",
@@ -5509,6 +5972,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeSk",
           "package": "hxt-charproperties",
@@ -5522,6 +5986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeSm",
           "package": "hxt-charproperties",
@@ -5531,6 +5996,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeSm",
           "package": "hxt-charproperties",
@@ -5544,6 +6010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeSo",
           "package": "hxt-charproperties",
@@ -5553,6 +6020,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeSo",
           "package": "hxt-charproperties",
@@ -5566,6 +6034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeZ",
           "package": "hxt-charproperties",
@@ -5575,6 +6044,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeZ",
           "package": "hxt-charproperties",
@@ -5588,6 +6058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeZl",
           "package": "hxt-charproperties",
@@ -5597,6 +6068,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeZl",
           "package": "hxt-charproperties",
@@ -5610,6 +6082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeZp",
           "package": "hxt-charproperties",
@@ -5619,6 +6092,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeZp",
           "package": "hxt-charproperties",
@@ -5632,6 +6106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeZs",
           "package": "hxt-charproperties",
@@ -5641,6 +6116,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "charPropUnicodeZs",
           "package": "hxt-charproperties",
@@ -5654,6 +6130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeC",
           "package": "hxt-charproperties",
@@ -5663,6 +6140,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeC",
           "normalized": "Char-\u003eBool",
@@ -5678,6 +6156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeCc",
           "package": "hxt-charproperties",
@@ -5687,6 +6166,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeCc",
           "normalized": "Char-\u003eBool",
@@ -5702,6 +6182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeCf",
           "package": "hxt-charproperties",
@@ -5711,6 +6192,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeCf",
           "normalized": "Char-\u003eBool",
@@ -5726,6 +6208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeCo",
           "package": "hxt-charproperties",
@@ -5735,6 +6218,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeCo",
           "normalized": "Char-\u003eBool",
@@ -5750,6 +6234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeCs",
           "package": "hxt-charproperties",
@@ -5759,6 +6244,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeCs",
           "normalized": "Char-\u003eBool",
@@ -5774,6 +6260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeL",
           "package": "hxt-charproperties",
@@ -5783,6 +6270,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeL",
           "normalized": "Char-\u003eBool",
@@ -5798,6 +6286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeLl",
           "package": "hxt-charproperties",
@@ -5807,6 +6296,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeLl",
           "normalized": "Char-\u003eBool",
@@ -5822,6 +6312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeLm",
           "package": "hxt-charproperties",
@@ -5831,6 +6322,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeLm",
           "normalized": "Char-\u003eBool",
@@ -5846,6 +6338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeLo",
           "package": "hxt-charproperties",
@@ -5855,6 +6348,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeLo",
           "normalized": "Char-\u003eBool",
@@ -5870,6 +6364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeLt",
           "package": "hxt-charproperties",
@@ -5879,6 +6374,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeLt",
           "normalized": "Char-\u003eBool",
@@ -5894,6 +6390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeLu",
           "package": "hxt-charproperties",
@@ -5903,6 +6400,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeLu",
           "normalized": "Char-\u003eBool",
@@ -5918,6 +6416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeM",
           "package": "hxt-charproperties",
@@ -5927,6 +6426,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeM",
           "normalized": "Char-\u003eBool",
@@ -5942,6 +6442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeMc",
           "package": "hxt-charproperties",
@@ -5951,6 +6452,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeMc",
           "normalized": "Char-\u003eBool",
@@ -5966,6 +6468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeMe",
           "package": "hxt-charproperties",
@@ -5975,6 +6478,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeMe",
           "normalized": "Char-\u003eBool",
@@ -5990,6 +6494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeMn",
           "package": "hxt-charproperties",
@@ -5999,6 +6504,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeMn",
           "normalized": "Char-\u003eBool",
@@ -6014,6 +6520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeN",
           "package": "hxt-charproperties",
@@ -6023,6 +6530,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeN",
           "normalized": "Char-\u003eBool",
@@ -6038,6 +6546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeNd",
           "package": "hxt-charproperties",
@@ -6047,6 +6556,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeNd",
           "normalized": "Char-\u003eBool",
@@ -6062,6 +6572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeNl",
           "package": "hxt-charproperties",
@@ -6071,6 +6582,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeNl",
           "normalized": "Char-\u003eBool",
@@ -6086,6 +6598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeNo",
           "package": "hxt-charproperties",
@@ -6095,6 +6608,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeNo",
           "normalized": "Char-\u003eBool",
@@ -6110,6 +6624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeP",
           "package": "hxt-charproperties",
@@ -6119,6 +6634,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeP",
           "normalized": "Char-\u003eBool",
@@ -6134,6 +6650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodePc",
           "package": "hxt-charproperties",
@@ -6143,6 +6660,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodePc",
           "normalized": "Char-\u003eBool",
@@ -6158,6 +6676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodePd",
           "package": "hxt-charproperties",
@@ -6167,6 +6686,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodePd",
           "normalized": "Char-\u003eBool",
@@ -6182,6 +6702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodePe",
           "package": "hxt-charproperties",
@@ -6191,6 +6712,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodePe",
           "normalized": "Char-\u003eBool",
@@ -6206,6 +6728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodePf",
           "package": "hxt-charproperties",
@@ -6215,6 +6738,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodePf",
           "normalized": "Char-\u003eBool",
@@ -6230,6 +6754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodePi",
           "package": "hxt-charproperties",
@@ -6239,6 +6764,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodePi",
           "normalized": "Char-\u003eBool",
@@ -6254,6 +6780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodePo",
           "package": "hxt-charproperties",
@@ -6263,6 +6790,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodePo",
           "normalized": "Char-\u003eBool",
@@ -6278,6 +6806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodePs",
           "package": "hxt-charproperties",
@@ -6287,6 +6816,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodePs",
           "normalized": "Char-\u003eBool",
@@ -6302,6 +6832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeS",
           "package": "hxt-charproperties",
@@ -6311,6 +6842,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeS",
           "normalized": "Char-\u003eBool",
@@ -6326,6 +6858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeSc",
           "package": "hxt-charproperties",
@@ -6335,6 +6868,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeSc",
           "normalized": "Char-\u003eBool",
@@ -6350,6 +6884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeSk",
           "package": "hxt-charproperties",
@@ -6359,6 +6894,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeSk",
           "normalized": "Char-\u003eBool",
@@ -6374,6 +6910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeSm",
           "package": "hxt-charproperties",
@@ -6383,6 +6920,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeSm",
           "normalized": "Char-\u003eBool",
@@ -6398,6 +6936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeSo",
           "package": "hxt-charproperties",
@@ -6407,6 +6946,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeSo",
           "normalized": "Char-\u003eBool",
@@ -6422,6 +6962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeZ",
           "package": "hxt-charproperties",
@@ -6431,6 +6972,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeZ",
           "normalized": "Char-\u003eBool",
@@ -6446,6 +6988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeZl",
           "package": "hxt-charproperties",
@@ -6455,6 +6998,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeZl",
           "normalized": "Char-\u003eBool",
@@ -6470,6 +7014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeZp",
           "package": "hxt-charproperties",
@@ -6479,6 +7024,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeZp",
           "normalized": "Char-\u003eBool",
@@ -6494,6 +7040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeZs",
           "package": "hxt-charproperties",
@@ -6503,6 +7050,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties UnicodeCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.UnicodeCharProps",
           "name": "isUnicodeZs",
           "normalized": "Char-\u003eBool",
@@ -6519,6 +7067,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eXML character properties\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "XMLCharProps",
           "package": "hxt-charproperties",
@@ -6528,6 +7077,7 @@
         "index": {
           "description": "XML character properties",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "XMLCharProps",
           "package": "hxt-charproperties",
@@ -6541,6 +7091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXml11SpaceChar",
           "package": "hxt-charproperties",
@@ -6550,6 +7101,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXml11SpaceChar",
           "package": "hxt-charproperties",
@@ -6563,6 +7115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXml1ByteChar",
           "package": "hxt-charproperties",
@@ -6572,6 +7125,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXml1ByteChar",
           "package": "hxt-charproperties",
@@ -6585,6 +7139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlBaseChar",
           "package": "hxt-charproperties",
@@ -6594,6 +7149,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlBaseChar",
           "package": "hxt-charproperties",
@@ -6607,6 +7163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlChar",
           "package": "hxt-charproperties",
@@ -6616,6 +7173,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlChar",
           "package": "hxt-charproperties",
@@ -6629,6 +7187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlCharCR",
           "package": "hxt-charproperties",
@@ -6638,6 +7197,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlCharCR",
           "package": "hxt-charproperties",
@@ -6651,6 +7211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlCombiningChar",
           "package": "hxt-charproperties",
@@ -6660,6 +7221,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlCombiningChar",
           "package": "hxt-charproperties",
@@ -6673,6 +7235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlControlOrPermanentlyUndefined",
           "package": "hxt-charproperties",
@@ -6682,6 +7245,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlControlOrPermanentlyUndefined",
           "package": "hxt-charproperties",
@@ -6695,6 +7259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlDigit",
           "package": "hxt-charproperties",
@@ -6704,6 +7269,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlDigit",
           "package": "hxt-charproperties",
@@ -6717,6 +7283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlExtender",
           "package": "hxt-charproperties",
@@ -6726,6 +7293,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlExtender",
           "package": "hxt-charproperties",
@@ -6739,6 +7307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlIdeographicChar",
           "package": "hxt-charproperties",
@@ -6748,6 +7317,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlIdeographicChar",
           "package": "hxt-charproperties",
@@ -6761,6 +7331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlLatin1Char",
           "package": "hxt-charproperties",
@@ -6770,6 +7341,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlLatin1Char",
           "package": "hxt-charproperties",
@@ -6783,6 +7355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlLetter",
           "package": "hxt-charproperties",
@@ -6792,6 +7365,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlLetter",
           "package": "hxt-charproperties",
@@ -6805,6 +7379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlNCNameChar",
           "package": "hxt-charproperties",
@@ -6814,6 +7389,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlNCNameChar",
           "package": "hxt-charproperties",
@@ -6827,6 +7403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlNCNameStartChar",
           "package": "hxt-charproperties",
@@ -6836,6 +7413,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlNCNameStartChar",
           "package": "hxt-charproperties",
@@ -6849,6 +7427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlNameChar",
           "package": "hxt-charproperties",
@@ -6858,6 +7437,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlNameChar",
           "package": "hxt-charproperties",
@@ -6871,6 +7451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlNameStartChar",
           "package": "hxt-charproperties",
@@ -6880,6 +7461,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlNameStartChar",
           "package": "hxt-charproperties",
@@ -6893,6 +7475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlPubidChar",
           "package": "hxt-charproperties",
@@ -6902,6 +7485,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlPubidChar",
           "package": "hxt-charproperties",
@@ -6915,6 +7499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlSpaceChar",
           "package": "hxt-charproperties",
@@ -6924,6 +7509,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlSpaceChar",
           "package": "hxt-charproperties",
@@ -6937,6 +7523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlSpaceCharCR",
           "package": "hxt-charproperties",
@@ -6946,6 +7533,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "charPropXmlSpaceCharCR",
           "package": "hxt-charproperties",
@@ -6960,6 +7548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML1.1 space character: additional space 0x85 and 0x2028\n\u003c/p\u003e\u003cp\u003esee also : \u003ccode\u003e\u003ca\u003eisXmlSpaceChar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXml11SpaceChar",
           "package": "hxt-charproperties",
@@ -6970,6 +7559,7 @@
         "index": {
           "description": "checking for XML1.1 space character additional space x85 and x2028 see also isXmlSpaceChar",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXml11SpaceChar",
           "normalized": "Char-\u003eBool",
@@ -6986,6 +7576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck for a legal 1 byte XML char\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXml1ByteChar",
           "package": "hxt-charproperties",
@@ -6996,6 +7587,7 @@
         "index": {
           "description": "check for legal byte XML char",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXml1ByteChar",
           "normalized": "Char-\u003eBool",
@@ -7012,6 +7604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML base charater\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlBaseChar",
           "package": "hxt-charproperties",
@@ -7022,6 +7615,7 @@
         "index": {
           "description": "checking for XML base charater",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlBaseChar",
           "normalized": "Char-\u003eBool",
@@ -7038,6 +7632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for valid XML characters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlChar",
           "package": "hxt-charproperties",
@@ -7048,6 +7643,7 @@
         "index": {
           "description": "checking for valid XML characters",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlChar",
           "normalized": "Char-\u003eBool",
@@ -7064,6 +7660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for valid XML characters, except CR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlCharCR",
           "package": "hxt-charproperties",
@@ -7074,6 +7671,7 @@
         "index": {
           "description": "checking for valid XML characters except CR",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlCharCR",
           "normalized": "Char-\u003eBool",
@@ -7090,6 +7688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML combining charater\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlCombiningChar",
           "package": "hxt-charproperties",
@@ -7100,6 +7699,7 @@
         "index": {
           "description": "checking for XML combining charater",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlCombiningChar",
           "normalized": "Char-\u003eBool",
@@ -7116,6 +7716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML control or permanently discouraged char\n\u003c/p\u003e\u003cp\u003esee Errata to XML1.0 (http://www.w3.org/XML/xml-V10-2e-errata) No 46\n\u003c/p\u003e\u003cp\u003eDocument authors are encouraged to avoid \u003ca\u003ecompatibility characters\u003c/a\u003e,\n as defined in section 6.8 of [Unicode] (see also D21 in section 3.6 of [Unicode3]).\n The characters defined in the following ranges are also discouraged.\n They are either control characters or permanently undefined Unicode characters:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlControlOrPermanentlyUndefined",
           "package": "hxt-charproperties",
@@ -7126,6 +7727,7 @@
         "index": {
           "description": "checking for XML control or permanently discouraged char see Errata to XML1.0 http www.w3.org XML xml-V10-2e-errata No Document authors are encouraged to avoid compatibility characters as defined in section of Unicode see also D21 in section of Unicode3 The characters defined in the following ranges are also discouraged They are either control characters or permanently undefined Unicode characters",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlControlOrPermanentlyUndefined",
           "normalized": "Char-\u003eBool",
@@ -7142,6 +7744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML digit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlDigit",
           "package": "hxt-charproperties",
@@ -7152,6 +7755,7 @@
         "index": {
           "description": "checking for XML digit",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlDigit",
           "normalized": "Char-\u003eBool",
@@ -7168,6 +7772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML extender\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlExtender",
           "package": "hxt-charproperties",
@@ -7178,6 +7783,7 @@
         "index": {
           "description": "checking for XML extender",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlExtender",
           "normalized": "Char-\u003eBool",
@@ -7194,6 +7800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML ideographic charater\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlIdeographicChar",
           "package": "hxt-charproperties",
@@ -7204,6 +7811,7 @@
         "index": {
           "description": "checking for XML ideographic charater",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlIdeographicChar",
           "normalized": "Char-\u003eBool",
@@ -7220,6 +7828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest for a legal latin1 XML char\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlLatin1Char",
           "package": "hxt-charproperties",
@@ -7230,6 +7839,7 @@
         "index": {
           "description": "test for legal latin1 XML char",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlLatin1Char",
           "normalized": "Char-\u003eBool",
@@ -7246,6 +7856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML letter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlLetter",
           "package": "hxt-charproperties",
@@ -7256,6 +7867,7 @@
         "index": {
           "description": "checking for XML letter",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlLetter",
           "normalized": "Char-\u003eBool",
@@ -7272,6 +7884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML NCName character: no \":\" allowed\n\u003c/p\u003e\u003cp\u003esee also : \u003ccode\u003e\u003ca\u003eisXmlNameChar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlNCNameChar",
           "package": "hxt-charproperties",
@@ -7282,6 +7895,7 @@
         "index": {
           "description": "checking for XML NCName character no allowed see also isXmlNameChar",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlNCNameChar",
           "normalized": "Char-\u003eBool",
@@ -7298,6 +7912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML NCName start character: no \":\" allowed\n\u003c/p\u003e\u003cp\u003esee also : \u003ccode\u003e\u003ca\u003eisXmlNameChar\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eisXmlNCNameChar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlNCNameStartChar",
           "package": "hxt-charproperties",
@@ -7308,6 +7923,7 @@
         "index": {
           "description": "checking for XML NCName start character no allowed see also isXmlNameChar isXmlNCNameChar",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlNCNameStartChar",
           "normalized": "Char-\u003eBool",
@@ -7324,6 +7940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML name character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlNameChar",
           "package": "hxt-charproperties",
@@ -7334,6 +7951,7 @@
         "index": {
           "description": "checking for XML name character",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlNameChar",
           "normalized": "Char-\u003eBool",
@@ -7350,6 +7968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML name start character\n\u003c/p\u003e\u003cp\u003esee also : \u003ccode\u003e\u003ca\u003eisXmlNameChar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlNameStartChar",
           "package": "hxt-charproperties",
@@ -7360,6 +7979,7 @@
         "index": {
           "description": "checking for XML name start character see also isXmlNameChar",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlNameStartChar",
           "normalized": "Char-\u003eBool",
@@ -7376,6 +7996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML public id character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlPubidChar",
           "package": "hxt-charproperties",
@@ -7386,6 +8007,7 @@
         "index": {
           "description": "checking for XML public id character",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlPubidChar",
           "normalized": "Char-\u003eBool",
@@ -7402,6 +8024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML space character: \\n, \\r, \\t and \" \"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlSpaceChar",
           "package": "hxt-charproperties",
@@ -7412,6 +8035,7 @@
         "index": {
           "description": "checking for XML space character and",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlSpaceChar",
           "normalized": "Char-\u003eBool",
@@ -7428,6 +8052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecking for XML space character: \\n, \\t and \" \"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlSpaceCharCR",
           "package": "hxt-charproperties",
@@ -7438,6 +8063,7 @@
         "index": {
           "description": "checking for XML space character and",
           "hierarchy": "Data Char Properties XMLCharProps",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Char.Properties.XMLCharProps",
           "name": "isXmlSpaceCharCR",
           "normalized": "Char-\u003eBool",
@@ -7454,6 +8080,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChar sets implemeted as non overlapping sorted lists of intervalls\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "CharSet",
           "package": "hxt-charproperties",
@@ -7463,6 +8090,7 @@
         "index": {
           "description": "Char sets implemeted as non overlapping sorted lists of intervalls",
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "CharSet",
           "package": "hxt-charproperties",
@@ -7476,6 +8104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "CharSet",
           "package": "hxt-charproperties",
@@ -7484,6 +8113,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "CharSet",
           "package": "hxt-charproperties",
@@ -7497,6 +8127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "allCS",
           "package": "hxt-charproperties",
@@ -7506,6 +8137,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "allCS",
           "package": "hxt-charproperties",
@@ -7519,6 +8151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "compCS",
           "package": "hxt-charproperties",
@@ -7528,6 +8161,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "compCS",
           "normalized": "CharSet-\u003eCharSet",
@@ -7543,6 +8177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "diffCS",
           "package": "hxt-charproperties",
@@ -7552,6 +8187,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "diffCS",
           "normalized": "CharSet-\u003eCharSet-\u003eCharSet",
@@ -7567,6 +8203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "elemCS",
           "package": "hxt-charproperties",
@@ -7576,6 +8213,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "elemCS",
           "normalized": "Char-\u003eCharSet-\u003eBool",
@@ -7591,6 +8229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "emptyCS",
           "package": "hxt-charproperties",
@@ -7600,6 +8239,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "emptyCS",
           "package": "hxt-charproperties",
@@ -7613,6 +8253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "exorCS",
           "package": "hxt-charproperties",
@@ -7622,6 +8263,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "exorCS",
           "normalized": "CharSet-\u003eCharSet-\u003eCharSet",
@@ -7637,6 +8279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "fullCS",
           "package": "hxt-charproperties",
@@ -7646,6 +8289,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "fullCS",
           "normalized": "CharSet-\u003eBool",
@@ -7661,6 +8305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "intersectCS",
           "package": "hxt-charproperties",
@@ -7670,6 +8315,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "intersectCS",
           "normalized": "CharSet-\u003eCharSet-\u003eCharSet",
@@ -7685,6 +8331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "nullCS",
           "package": "hxt-charproperties",
@@ -7694,6 +8341,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "nullCS",
           "normalized": "CharSet-\u003eBool",
@@ -7709,6 +8357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "rangeCS",
           "package": "hxt-charproperties",
@@ -7718,6 +8367,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "rangeCS",
           "normalized": "Char-\u003eChar-\u003eCharSet",
@@ -7733,6 +8383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "singleCS",
           "package": "hxt-charproperties",
@@ -7742,6 +8393,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "singleCS",
           "normalized": "Char-\u003eCharSet",
@@ -7757,6 +8409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "stringCS",
           "package": "hxt-charproperties",
@@ -7766,6 +8419,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "stringCS",
           "normalized": "String-\u003eCharSet",
@@ -7781,6 +8435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "toListCS",
           "package": "hxt-charproperties",
@@ -7790,6 +8445,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "toListCS",
           "normalized": "CharSet-\u003e[Char]",
@@ -7805,6 +8461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:16 UTC 2014",
           "module": "Data.Set.CharSet",
           "name": "unionCS",
           "package": "hxt-charproperties",
@@ -7814,6 +8471,7 @@
         },
         "index": {
           "hierarchy": "Data Set CharSet",
+          "indexed": "2014-03-11T18:54:16",
           "module": "Data.Set.CharSet",
           "name": "unionCS",
           "normalized": "CharSet-\u003eCharSet-\u003eCharSet",

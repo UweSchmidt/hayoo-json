@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HandlerSocketClient"
+        "phrase": "HandlerSocketClient",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell implementation of a HandlerSocket client (API).\n HandlerSocket is a MySQL plugin with better performance then SQL.\n HandlerSocket site: https:\u003cem/\u003egithub.com\u003cem\u003eahiguti\u003c/em\u003eHandlerSocket-Plugin-for-MySQL\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "HandlerSocketClient",
           "package": "HandlerSocketClient",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Haskell implementation of HandlerSocket client API HandlerSocket is MySQL plugin with better performance then SQL HandlerSocket site https github.com ahiguti HandlerSocket-Plugin-for-MySQL",
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "HandlerSocketClient",
           "package": "HandlerSocketClient",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebasic data structure for one Socket and one Handle (or Index).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "HandSock",
           "package": "HandlerSocketClient",
@@ -51,6 +54,7 @@
         "index": {
           "description": "basic data structure for one Socket and one Handle or Index",
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "HandSock",
           "package": "HandlerSocketClient",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "HandSock",
           "package": "HandlerSocketClient",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "HandSock",
           "package": "HandlerSocketClient",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "closeHS",
           "package": "HandlerSocketClient",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Close the connection",
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "closeHS",
           "normalized": "HandSock-\u003eIO()",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to specific address & port.\n Returns the \u003ccode\u003e\u003ca\u003eHandSock\u003c/a\u003e\u003c/code\u003e for later request or close.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "connectTo",
           "package": "HandlerSocketClient",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Connect to specific address port Returns the HandSock for later request or close",
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "connectTo",
           "normalized": "String-\u003eString-\u003eIO HandSock",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "getHost",
           "package": "HandlerSocketClient",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "getHost",
           "package": "HandlerSocketClient",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "getPort",
           "package": "HandlerSocketClient",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "getPort",
           "package": "HandlerSocketClient",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "getSocket",
           "package": "HandlerSocketClient",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "getSocket",
           "package": "HandlerSocketClient",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo 'delete' request, give one value to be compared with the KEY. \n Only ONE record will be deleted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "runReqDelete",
           "package": "HandlerSocketClient",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Do delete request give one value to be compared with the KEY Only ONE record will be deleted",
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "runReqDelete",
           "normalized": "HandSock-\u003eString-\u003eIO Bool",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo 'find' request. Returns at most lim results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "runReqFind",
           "package": "HandlerSocketClient",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Do find request Returns at most lim results",
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "runReqFind",
           "normalized": "HandSock-\u003eString-\u003eString-\u003ea-\u003eIO[[String]]",
@@ -256,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "runReqFindN",
           "package": "HandlerSocketClient",
@@ -265,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "runReqFindN",
           "normalized": "HandSock-\u003eString-\u003e[String]-\u003ea-\u003eIO[[[String]]]",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo Generic Request, Returns all values received, \"0\" in the head means SUCCESS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "runReqGeneric",
           "package": "HandlerSocketClient",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Do Generic Request Returns all values received in the head means SUCCESS",
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "runReqGeneric",
           "normalized": "HandSock-\u003e[String]-\u003eIO[String]",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo 'insert' request, insert one record at a time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "runReqInsert",
           "package": "HandlerSocketClient",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Do insert request insert one record at time",
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "runReqInsert",
           "normalized": "HandSock-\u003e[String]-\u003eIO Bool",
@@ -333,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo Generic Request with given Strings. Return True or False, discarding all other messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "runReqNoRespData",
           "package": "HandlerSocketClient",
@@ -343,6 +370,7 @@
         "index": {
           "description": "Do Generic Request with given Strings Return True or False discarding all other messages",
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "runReqNoRespData",
           "normalized": "HandSock-\u003e[String]-\u003eIO Bool",
@@ -359,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo 'open_index' request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "runReqOpen",
           "package": "HandlerSocketClient",
@@ -369,6 +398,7 @@
         "index": {
           "description": "Do open index request",
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "runReqOpen",
           "normalized": "HandSock-\u003eString-\u003eString-\u003eString-\u003eString-\u003eIO Bool",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo 'update' request, give one value to be compared with the KEY, then provide the new data.\n Only ONE record will be updated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:30 UTC 2014",
           "module": "Database.HandlerSocketClient",
           "name": "runReqUpdate",
           "package": "HandlerSocketClient",
@@ -395,6 +426,7 @@
         "index": {
           "description": "Do update request give one value to be compared with the KEY then provide the new data Only ONE record will be updated",
           "hierarchy": "Database HandlerSocketClient",
+          "indexed": "2014-03-11T16:47:30",
           "module": "Database.HandlerSocketClient",
           "name": "runReqUpdate",
           "normalized": "HandSock-\u003eString-\u003e[String]-\u003eIO Bool",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "random-access-list"
+        "phrase": "random-access-list",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA random-access list implementation based on Chris Okasaki's approach\n on his book \"Purely Functional Data Structures\", Cambridge University\n Press, 1998, chapter 9.3.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003es are finite lists providing random-access (\u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eupdate\u003c/a\u003e\u003c/code\u003e, etc.) in \u003cem\u003eO(log n)\u003c/em\u003e while the list functionality \u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003econs\u003c/a\u003e\u003c/code\u003e still works in \u003cem\u003eO(1)\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e uses \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es for effective indexing. The valid index\n range of a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e of size \u003ccode\u003en\u003c/code\u003e is \u003ccode\u003e[0 .. n-1]\u003c/code\u003e. If an index is\n out of range, an \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e is raised.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "RandomAccessList",
           "package": "random-access-list",
@@ -28,6 +29,7 @@
         "index": {
           "description": "random-access list implementation based on Chris Okasaki approach on his book Purely Functional Data Structures Cambridge University Press chapter RandomAccessList are finite lists providing random-access lookup update etc in log while the list functionality head tail and cons still works in RandomAccessList uses Int for effective indexing The valid index range of RandomAccessList of size is n-1 If an index is out of range an error is raised",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "RandomAccessList",
           "package": "random-access-list",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom-access lists allowing \u003cem\u003eO(1)\u003c/em\u003e list operations and \u003cem\u003eO(log n)\u003c/em\u003e\n indexed access.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "RandomAccessList",
           "package": "random-access-list",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Random-access lists allowing list operations and log indexed access",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "RandomAccessList",
           "package": "random-access-list",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView the end of a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e which is either empty or has\n been constructed by \u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "View",
           "package": "random-access-list",
@@ -74,6 +79,7 @@
         "index": {
           "description": "View the end of RandomAccessList which is either empty or has been constructed by head and tail",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "View",
           "package": "random-access-list",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e of a non-empty \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "Cons",
           "package": "random-access-list",
@@ -98,6 +105,7 @@
         "index": {
           "description": "head and tail of non-empty RandomAccessList",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "Cons",
           "package": "random-access-list",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "Empty",
           "package": "random-access-list",
@@ -122,6 +131,7 @@
         "index": {
           "description": "An empty RandomAccessList",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "Empty",
           "package": "random-access-list",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Adjust \u003cem\u003ei\u003c/em\u003eth element of the list according to the\n given function. Unless \u003cem\u003e0 \u003c= i \u003c n\u003c/em\u003e, an \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e is raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "adjust",
           "package": "random-access-list",
@@ -146,6 +157,7 @@
         "index": {
           "description": "log Adjust th element of the list according to the given function Unless an error is raised",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eInt-\u003eRandomAccessList a-\u003eRandomAccessList a",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Find the \u003cem\u003ei\u003c/em\u003eth element of the list and change it. This\n function returns the element that is at index \u003cem\u003ei\u003c/em\u003e in the original\n \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e and a new \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e with the \u003cem\u003ei\u003c/em\u003eth\n element replaced according to the given function:\n\u003c/p\u003e\u003cpre\u003e\n    lookup   index list === fst (adjustLookup undefined index list)\n    adjust f index list === snd (adjustLookup f         index list)\n\u003c/pre\u003e\u003cp\u003eUnless \u003cem\u003e0 \u003c= i \u003c n\u003c/em\u003e, an \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e is raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "adjustLookup",
           "package": "random-access-list",
@@ -170,6 +183,7 @@
         "index": {
           "description": "log Find the th element of the list and change it This function returns the element that is at index in the original RandomAccessList and new RandomAccessList with the th element replaced according to the given function lookup index list fst adjustLookup undefined index list adjust index list snd adjustLookup index list Unless an error is raised",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "adjustLookup",
           "normalized": "(a-\u003ea)-\u003eInt-\u003eRandomAccessList a-\u003e(a,RandomAccessList a)",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e where \u003cem\u003en\u003c/em\u003e is the \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e of the first list. Appends the second\n list to the first list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "append",
           "package": "random-access-list",
@@ -196,6 +211,7 @@
         "index": {
           "description": "where is the length of the first list Appends the second list to the first list",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "append",
           "normalized": "RandomAccessList a-\u003eRandomAccessList a-\u003eRandomAccessList a",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Prepend an element to the \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "cons",
           "package": "random-access-list",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Prepend an element to the RandomAccessList",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "cons",
           "normalized": "a-\u003eRandomAccessList a-\u003eRandomAccessList a",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Builds an empty \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "empty",
           "package": "random-access-list",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Builds an empty RandomAccessList",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "empty",
           "package": "random-access-list",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Remove all elements from a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e not fulfilling a\n predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "filter",
           "package": "random-access-list",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Remove all elements from RandomAccessList not fulfilling predicate",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eRandomAccessList a-\u003eRandomAccessList a",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Given an \u003ccode\u003e\u003ca\u003eIArray\u003c/a\u003e\u003c/code\u003e, generate a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e. The elements'\n order will be preserved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "fromArray",
           "package": "random-access-list",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Given an IArray generate RandomAccessList The elements order will be preserved",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "fromArray",
           "normalized": "a b c-\u003eRandomAccessList c",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Build a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e from a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "fromList",
           "package": "random-access-list",
@@ -320,6 +345,7 @@
         "index": {
           "description": "Build RandomAccessList from list",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "fromList",
           "normalized": "[a]-\u003eRandomAccessList a",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Returns the head of a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "head",
           "package": "random-access-list",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Returns the head of RandomAccessList",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "head",
           "normalized": "RandomAccessList a-\u003ea",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Find the index of a given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "index",
           "package": "random-access-list",
@@ -371,6 +400,7 @@
         "index": {
           "description": "Find the index of given element",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "index",
           "normalized": "a-\u003eRandomAccessList a-\u003eMaybe Int",
@@ -386,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Is the \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "isEmpty",
           "package": "random-access-list",
@@ -396,6 +427,7 @@
         "index": {
           "description": "Is the RandomAccessList empty",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "isEmpty",
           "normalized": "RandomAccessList a-\u003eBool",
@@ -412,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. The number of elements contained in a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "length",
           "package": "random-access-list",
@@ -422,6 +455,7 @@
         "index": {
           "description": "The number of elements contained in RandomAccessList",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "length",
           "normalized": "RandomAccessList a-\u003eInt",
@@ -437,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Retrieve the \u003cem\u003ei\u003c/em\u003eth element of the list. Unless\n \u003cem\u003e0 \u003c= i \u003c n\u003c/em\u003e, an \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e is raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "lookup",
           "package": "random-access-list",
@@ -447,6 +482,7 @@
         "index": {
           "description": "log Retrieve the th element of the list Unless an error is raised",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "lookup",
           "normalized": "Int-\u003eRandomAccessList a-\u003ea",
@@ -462,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Is the given element a member of the \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "member",
           "package": "random-access-list",
@@ -472,6 +509,7 @@
         "index": {
           "description": "Is the given element member of the RandomAccessList",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "member",
           "normalized": "a-\u003eRandomAccessList a-\u003eBool",
@@ -487,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Is the \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "null",
           "package": "random-access-list",
@@ -497,6 +536,7 @@
         "index": {
           "description": "Is the RandomAccessList empty",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "null",
           "normalized": "RandomAccessList a-\u003eBool",
@@ -512,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Split a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e into two: The elements in the first\n fulfill the given prefix, the others don't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "partition",
           "package": "random-access-list",
@@ -522,6 +563,7 @@
         "index": {
           "description": "Split RandomAccessList into two The elements in the first fulfill the given prefix the others don",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003eRandomAccessList a-\u003e(RandomAccessList a,RandomAccessList a)",
@@ -537,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. \u003ccode\u003e\u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e n x\u003c/code\u003e constructs a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e that\n contains the same element \u003ccode\u003ex\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "replicate",
           "package": "random-access-list",
@@ -547,6 +590,7 @@
         "index": {
           "description": "replicate constructs RandomAccessList that contains the same element times",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "replicate",
           "normalized": "Int-\u003ea-\u003eRandomAccessList a",
@@ -562,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Builds a singleton \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "singleton",
           "package": "random-access-list",
@@ -572,6 +617,7 @@
         "index": {
           "description": "Builds singleton RandomAccessList",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "singleton",
           "normalized": "a-\u003eRandomAccessList a",
@@ -587,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. The number of elements contained in a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "size",
           "package": "random-access-list",
@@ -597,6 +644,7 @@
         "index": {
           "description": "The number of elements contained in RandomAccessList",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "size",
           "normalized": "RandomAccessList a-\u003eInt",
@@ -612,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Retrieve the tail of a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "tail",
           "package": "random-access-list",
@@ -622,6 +671,7 @@
         "index": {
           "description": "Retrieve the tail of RandomAccessList",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "tail",
           "normalized": "RandomAccessList a-\u003eRandomAccessList a",
@@ -637,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Build an \u003ccode\u003e\u003ca\u003eIArray\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e. It will have\n an index range from \u003ccode\u003e[0 .. n-1]\u003c/code\u003e, where \u003ccode\u003en\u003c/code\u003e is the \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003es\n \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "toArray",
           "package": "random-access-list",
@@ -647,6 +698,7 @@
         "index": {
           "description": "Build an IArray from the RandomAccessList It will have an index range from n-1 where is the RandomAccessList length",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "toArray",
           "normalized": "RandomAccessList a-\u003eb Int a",
@@ -663,6 +715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Convert a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e to a list of tuples each holding\n an element and its index. The list is ordered ascending regarding the\n indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "toIndexedList",
           "package": "random-access-list",
@@ -673,6 +726,7 @@
         "index": {
           "description": "Convert RandomAccessList to list of tuples each holding an element and its index The list is ordered ascending regarding the indices",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "toIndexedList",
           "normalized": "RandomAccessList a-\u003e[(Int,a)]",
@@ -689,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Build an \u003ccode\u003e\u003ca\u003eIntMap\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e. The keys in the\n \u003ccode\u003e\u003ca\u003eIntMap\u003c/a\u003e\u003c/code\u003e are the indices of the elements in the \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "toIntMap",
           "package": "random-access-list",
@@ -699,6 +754,7 @@
         "index": {
           "description": "Build an IntMap from RandomAccessList The keys in the IntMap are the indices of the elements in the RandomAccessList",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "toIntMap",
           "normalized": "RandomAccessList a-\u003eIntMap a",
@@ -715,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Convert a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e to a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "toList",
           "package": "random-access-list",
@@ -725,6 +782,7 @@
         "index": {
           "description": "Convert RandomAccessList to list",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "toList",
           "normalized": "RandomAccessList a-\u003e[a]",
@@ -741,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Build a \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e. The keys in the\n \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e are the indices of the elements in the \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "toMap",
           "package": "random-access-list",
@@ -751,6 +810,7 @@
         "index": {
           "description": "Build Map from RandomAccessList The keys in the Map are the indices of the elements in the RandomAccessList",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "toMap",
           "normalized": "RandomAccessList a-\u003eMap Int a",
@@ -767,6 +827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Retrieve both, \u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "uncons",
           "package": "random-access-list",
@@ -777,6 +838,7 @@
         "index": {
           "description": "Retrieve both head and tail of RandomAccessList",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "uncons",
           "normalized": "RandomAccessList a-\u003e(a,RandomAccessList a)",
@@ -792,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. List-like \u003ccode\u003ePrelude.unzip\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "unzip",
           "package": "random-access-list",
@@ -802,6 +865,7 @@
         "index": {
           "description": "List-like Prelude.unzip for RandomAccessList",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "unzip",
           "normalized": "RandomAccessList(a,b)-\u003e(RandomAccessList a,RandomAccessList b)",
@@ -817,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e. Set the \u003cem\u003ei\u003c/em\u003eth element of the list. Unless\n \u003cem\u003e0 \u003c= i \u003c n\u003c/em\u003e, an \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e is raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "update",
           "package": "random-access-list",
@@ -827,6 +892,7 @@
         "index": {
           "description": "log Set the th element of the list Unless an error is raised",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "update",
           "normalized": "Int-\u003ea-\u003eRandomAccessList a-\u003eRandomAccessList a",
@@ -842,6 +908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Examine a \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003e: Either it is \u003ccode\u003e\u003ca\u003eEmpty\u003c/a\u003e\u003c/code\u003e or it has\n a \u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e (packed in \u003ccode\u003e\u003ca\u003eCons\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "view",
           "package": "random-access-list",
@@ -852,6 +919,7 @@
         "index": {
           "description": "Examine RandomAccessList Either it is Empty or it has head and tail packed in Cons",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "view",
           "normalized": "RandomAccessList a-\u003eView a",
@@ -867,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(n, m))\u003c/em\u003e. List-like \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e. This function is slightly faster\n when called with two \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003es of equal \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "zip",
           "package": "random-access-list",
@@ -877,6 +946,7 @@
         "index": {
           "description": "min List-like zip This function is slightly faster when called with two RandomAccessList of equal length",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "zip",
           "normalized": "RandomAccessList a-\u003eRandomAccessList b-\u003eRandomAccessList(a,b)",
@@ -892,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(n, m))\u003c/em\u003e. List-like \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e. This function is slightly faster\n when called with two \u003ccode\u003e\u003ca\u003eRandomAccessList\u003c/a\u003e\u003c/code\u003es of equal \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:03 UTC 2014",
           "module": "Data.RandomAccessList",
           "name": "zipWith",
           "package": "random-access-list",
@@ -902,6 +973,7 @@
         "index": {
           "description": "min List-like zipWith This function is slightly faster when called with two RandomAccessList of equal length",
           "hierarchy": "Data RandomAccessList",
+          "indexed": "2014-03-11T19:48:03",
           "module": "Data.RandomAccessList",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eRandomAccessList a-\u003eRandomAccessList b-\u003eRandomAccessList c",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ThreadObjects"
+        "phrase": "ThreadObjects",
+        "type": "phrase"
       },
       "type": "context"
     }

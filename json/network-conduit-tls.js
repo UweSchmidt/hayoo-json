@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-conduit-tls"
+        "phrase": "network-conduit-tls",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "Internal",
           "package": "network-conduit-tls",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS Internal",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "Internal",
           "package": "network-conduit-tls",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "TLSConfig",
           "package": "network-conduit-tls",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS Internal",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "TLSConfig",
           "package": "network-conduit-tls",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "TlsCertData",
           "package": "network-conduit-tls",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS Internal",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "TlsCertData",
           "package": "network-conduit-tls",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "TLSConfig",
           "package": "network-conduit-tls",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS Internal",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "TLSConfig",
           "package": "network-conduit-tls",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "TlsCertData",
           "package": "network-conduit-tls",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS Internal",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "TlsCertData",
           "package": "network-conduit-tls",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "getTLSCert",
           "package": "network-conduit-tls",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS Internal",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "getTLSCert",
           "package": "network-conduit-tls",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "getTLSKey",
           "package": "network-conduit-tls",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS Internal",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "getTLSKey",
           "package": "network-conduit-tls",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "tlsCertData",
           "package": "network-conduit-tls",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS Internal",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "tlsCertData",
           "package": "network-conduit-tls",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "tlsHost",
           "package": "network-conduit-tls",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS Internal",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "tlsHost",
           "package": "network-conduit-tls",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "tlsNeedLocalAddr",
           "package": "network-conduit-tls",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS Internal",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "tlsNeedLocalAddr",
           "package": "network-conduit-tls",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "tlsPort",
           "package": "network-conduit-tls",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS Internal",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS.Internal",
           "name": "tlsPort",
           "package": "network-conduit-tls",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "TLS",
           "package": "network-conduit-tls",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "TLS",
           "package": "network-conduit-tls",
@@ -279,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings type for TLS client connection.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "TLSClientConfig",
           "package": "network-conduit-tls",
@@ -288,6 +313,7 @@
         "index": {
           "description": "Settings type for TLS client connection Since",
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "TLSClientConfig",
           "package": "network-conduit-tls",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "TLSConfig",
           "package": "network-conduit-tls",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "TLSConfig",
           "package": "network-conduit-tls",
@@ -323,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun a server un-crypted but also pass a call-back to trigger a StartTLS handshake\n on the underlying connection\n\u003c/p\u003e\u003cp\u003eexample usage :\n  \u003ccode\u003e\n  runTCPServerStartTLS serverConfig $ (appData,startTLS) -\u003e do\n    abortTLS \u003c- doSomethingInClear appData\n    unless (abortTLS) $ startTls $ appDataTls -\u003e do\n      doSomethingSSL appDataTls\n  \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "runTCPServerStartTLS",
           "package": "network-conduit-tls",
@@ -333,6 +362,7 @@
         "index": {
           "description": "run server un-crypted but also pass call-back to trigger StartTLS handshake on the underlying connection example usage runTCPServerStartTLS serverConfig appData startTLS do abortTLS doSomethingInClear appData unless abortTLS startTls appDataTls do doSomethingSSL appDataTls",
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "runTCPServerStartTLS",
           "normalized": "TLSConfig-\u003eApplicationStartTLS-\u003eIO()",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "runTCPServerTLS",
           "package": "network-conduit-tls",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "runTCPServerTLS",
           "normalized": "TLSConfig-\u003eApplication IO-\u003eIO()",
@@ -373,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an application with the given configuration.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "runTLSClient",
           "package": "network-conduit-tls",
@@ -383,6 +416,7 @@
         "index": {
           "description": "Run an application with the given configuration Since",
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "runTLSClient",
           "normalized": "TLSClientConfig a-\u003eApplication a-\u003ea()",
@@ -399,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an application with the given configuration. starting with a clear connection\n   but provide also a call back to trigger a StartTLS handshake on the connection\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "runTLSClientStartTLS",
           "package": "network-conduit-tls",
@@ -409,6 +444,7 @@
         "index": {
           "description": "Run an application with the given configuration starting with clear connection but provide also call back to trigger StartTLS handshake on the connection Since",
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "runTLSClientStartTLS",
           "normalized": "TLSClientConfig IO-\u003eApplicationStartTLS-\u003eIO()",
@@ -425,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003eAppData\u003c/code\u003e from an existing tls \u003ccode\u003eContext\u003c/code\u003e value. This is a lower level function, allowing you to create a connection in any way you want.\n\u003c/p\u003e\u003cp\u003eSample usage:\n\u003c/p\u003e\u003cpre\u003e import Network.Simple.TCP.TLS\n\n myapp :: Application IO\n ...\n main = do\n     cset \u003c- getDefaultClientSettings\n     connect cset \"host\" \"port\" $\n         (\\(ctx, addr) -\u003e myapp $ tlsAppData ctx addr Nothing)\n\u003c/pre\u003e\u003cp\u003eSince 1.0.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsAppData",
           "package": "network-conduit-tls",
@@ -434,6 +471,7 @@
         "index": {
           "description": "Create an AppData from an existing tls Context value This is lower level function allowing you to create connection in any way you want Sample usage import Network.Simple.TCP.TLS myapp Application IO main do cset getDefaultClientSettings connect cset host port ctx addr myapp tlsAppData ctx addr Nothing Since",
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsAppData",
           "normalized": "Context-\u003eSockAddr-\u003eMaybe SockAddr-\u003eAppData IO",
@@ -450,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for \u003ccode\u003eTLSClientConfig\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsClientConfig",
           "package": "network-conduit-tls",
@@ -459,6 +498,7 @@
         "index": {
           "description": "Smart constructor for TLSClientConfig Since",
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsClientConfig",
           "normalized": "Int-\u003eByteString-\u003eTLSClientConfig a",
@@ -475,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection context. Default is \u003ccode\u003eNothing\u003c/code\u003e, which will generate a new\n context automatically. If you will be making many connections, it's\n recommended to call \u003ccode\u003e\u003ca\u003einitConnectionContext\u003c/a\u003e\u003c/code\u003e yourself.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsClientConnectionContext",
           "package": "network-conduit-tls",
@@ -485,6 +526,7 @@
         "index": {
           "description": "Connection context Default is Nothing which will generate new context automatically If you will be making many connections it recommended to call initConnectionContext yourself Since",
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsClientConnectionContext",
           "normalized": "TLSClientConfig a-\u003eMaybe ConnectionContext",
@@ -501,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsClientHost",
           "package": "network-conduit-tls",
@@ -511,6 +554,7 @@
         "index": {
           "description": "Since",
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsClientHost",
           "normalized": "TLSClientConfig a-\u003eByteString",
@@ -527,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsClientPort",
           "package": "network-conduit-tls",
@@ -537,6 +582,7 @@
         "index": {
           "description": "Since",
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsClientPort",
           "normalized": "TLSClientConfig a-\u003eInt",
@@ -553,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSocks configuration; default is \u003ccode\u003eNothing\u003c/code\u003e. If absent, Socks will not be used.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsClientSockSettings",
           "package": "network-conduit-tls",
@@ -563,6 +610,7 @@
         "index": {
           "description": "Socks configuration default is Nothing If absent Socks will not be used Since",
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsClientSockSettings",
           "normalized": "TLSClientConfig a-\u003eMaybe SockSettings",
@@ -579,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTLS settings to use. If not provided, defaults will be provided.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsClientTLSSettings",
           "package": "network-conduit-tls",
@@ -589,6 +638,7 @@
         "index": {
           "description": "TLS settings to use If not provided defaults will be provided Since",
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsClientTLSSettings",
           "normalized": "TLSClientConfig a-\u003eTLSSettings",
@@ -605,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault is True. If set to \u003ccode\u003eFalse\u003c/code\u003e, will make a non-TLS connection.\n\u003c/p\u003e\u003cp\u003eSince 1.0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsClientUseTLS",
           "package": "network-conduit-tls",
@@ -615,6 +666,7 @@
         "index": {
           "description": "Default is True If set to False will make non-TLS connection Since",
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsClientUseTLS",
           "normalized": "TLSClientConfig a-\u003eBool",
@@ -630,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsConfig",
           "package": "network-conduit-tls",
@@ -638,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsConfig",
           "normalized": "HostPreference-\u003eInt-\u003eFilePath-\u003eFilePath-\u003eTLSConfig",
@@ -654,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eallow to build a server config directly from raw bytestring data (exact same\n string as if the certificates were read from the filesystem).\n this enables to plug another backend to fetch certifcates (other than FS) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsConfigBS",
           "package": "network-conduit-tls",
@@ -663,6 +718,7 @@
         "index": {
           "description": "allow to build server config directly from raw bytestring data exact same string as if the certificates were read from the filesystem this enables to plug another backend to fetch certifcates other than FS",
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsConfigBS",
           "normalized": "HostPreference-\u003eInt-\u003eByteString-\u003eByteString-\u003eTLSConfig",
@@ -678,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsHost",
           "package": "network-conduit-tls",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsHost",
           "normalized": "TLSConfig-\u003eHostPreference",
@@ -702,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsNeedLocalAddr",
           "package": "network-conduit-tls",
@@ -711,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsNeedLocalAddr",
           "normalized": "TLSConfig-\u003eBool",
@@ -726,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:37 UTC 2014",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsPort",
           "package": "network-conduit-tls",
@@ -735,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Network TLS",
+          "indexed": "2014-03-11T19:27:37",
           "module": "Data.Conduit.Network.TLS",
           "name": "tlsPort",
           "normalized": "TLSConfig-\u003eInt",

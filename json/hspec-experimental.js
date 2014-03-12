@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hspec-experimental"
+        "phrase": "hspec-experimental",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:59 UTC 2014",
           "module": "Test.Hspec.Experimental",
           "name": "Experimental",
           "package": "hspec-experimental",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Experimental",
+          "indexed": "2014-03-11T18:49:59",
           "module": "Test.Hspec.Experimental",
           "name": "Experimental",
           "package": "hspec-experimental",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:59 UTC 2014",
           "module": "Test.Hspec.Experimental",
           "name": "it",
           "package": "hspec-experimental",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Experimental",
+          "indexed": "2014-03-11T18:49:59",
           "module": "Test.Hspec.Experimental",
           "name": "it",
           "normalized": "String-\u003ea-\u003eSpec",

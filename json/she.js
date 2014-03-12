@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "she"
+        "phrase": "she",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "ShePrelude",
           "package": "she",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "ShePrelude",
           "package": "she",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": ":$#$#$#:",
           "package": "she",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": ":$#$#$#:",
           "package": "she",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "SheChecks",
           "package": "she",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "SheChecks",
           "package": "she",
@@ -80,6 +86,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "SheProxy",
           "package": "she",
@@ -88,6 +95,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "SheProxy",
           "package": "she",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "SheSingleton",
           "package": "she",
@@ -109,6 +118,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "SheSingleton",
           "package": "she",
@@ -122,6 +132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "SheSpecialNil",
           "package": "she",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "SheSpecialNil",
           "package": "she",
@@ -143,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "SheTyFalse",
           "package": "she",
@@ -151,6 +164,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "SheTyFalse",
           "package": "she",
@@ -164,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "SheTyLeft",
           "package": "she",
@@ -172,6 +187,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "SheTyLeft",
           "package": "she",
@@ -185,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "SheTyRight",
           "package": "she",
@@ -193,6 +210,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "SheTyRight",
           "package": "she",
@@ -206,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "SheTyTrue",
           "package": "she",
@@ -214,6 +233,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "SheTyTrue",
           "package": "she",
@@ -227,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": ":$#$#$#:",
           "package": "she",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": ":$#$#$#:",
           "package": "she",
@@ -248,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "SheProxy",
           "package": "she",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "SheProxy",
           "package": "she",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "SheSpecialNil",
           "package": "she",
@@ -279,6 +304,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "SheSpecialNil",
           "package": "she",
@@ -292,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "SheTyFalse",
           "package": "she",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "SheTyFalse",
           "package": "she",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "SheTyLeft",
           "package": "she",
@@ -323,6 +352,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "SheTyLeft",
           "package": "she",
@@ -336,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "SheTyRight",
           "package": "she",
@@ -345,6 +376,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "SheTyRight",
           "package": "she",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "SheTyTrue",
           "package": "she",
@@ -367,6 +400,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "SheTyTrue",
           "package": "she",
@@ -380,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:24 UTC 2014",
           "module": "ShePrelude",
           "name": "sheTypes",
           "package": "she",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "ShePrelude",
+          "indexed": "2014-03-11T20:01:24",
           "module": "ShePrelude",
           "name": "sheTypes",
           "normalized": "SheProxy a b-\u003eSheSingleton a b",

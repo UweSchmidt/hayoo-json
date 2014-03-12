@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libxslt"
+        "phrase": "libxslt",
+        "type": "phrase"
       },
       "type": "context"
     }

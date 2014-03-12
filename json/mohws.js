@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mohws"
+        "phrase": "mohws",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "Accessor",
           "package": "mohws",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "Accessor",
           "package": "mohws",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "accessFileName",
           "package": "mohws",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "accessFileName",
           "package": "mohws",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "addLanguage",
           "package": "mohws",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "addLanguage",
           "normalized": "T(T a)[(String,String)]",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "chunkSize",
           "package": "mohws",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "chunkSize",
           "package": "mohws",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "customLogs",
           "package": "mohws",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "customLogs",
           "normalized": "T(T a)[(FilePath,String)]",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "defaultType",
           "package": "mohws",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "defaultType",
           "package": "mohws",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "documentRoot",
           "package": "mohws",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "documentRoot",
           "package": "mohws",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "errorLogFile",
           "package": "mohws",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "errorLogFile",
           "package": "mohws",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "extension",
           "package": "mohws",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "extension",
           "package": "mohws",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "followSymbolicLinks",
           "package": "mohws",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "followSymbolicLinks",
           "package": "mohws",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "group",
           "package": "mohws",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "group",
           "package": "mohws",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "hostnameLookups",
           "package": "mohws",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "hostnameLookups",
           "package": "mohws",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "indexes",
           "package": "mohws",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "indexes",
           "package": "mohws",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "keepAliveTimeout",
           "package": "mohws",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "keepAliveTimeout",
           "package": "mohws",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "languagePriority",
           "package": "mohws",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "languagePriority",
           "normalized": "T(T a)[String]",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "listen",
           "package": "mohws",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "listen",
           "normalized": "T(T a)[(Maybe String,PortNumber)]",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "logLevel",
           "package": "mohws",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "logLevel",
           "package": "mohws",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "maxClients",
           "package": "mohws",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "maxClients",
           "package": "mohws",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "requestTimeout",
           "package": "mohws",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "requestTimeout",
           "package": "mohws",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "serverAdmin",
           "package": "mohws",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "serverAdmin",
           "package": "mohws",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "serverAlias",
           "package": "mohws",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "serverAlias",
           "package": "mohws",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "serverName",
           "package": "mohws",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "serverName",
           "package": "mohws",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "typesConfig",
           "package": "mohws",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "typesConfig",
           "package": "mohws",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "useCanonicalName",
           "package": "mohws",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "useCanonicalName",
           "package": "mohws",
@@ -549,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "user",
           "package": "mohws",
@@ -558,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Accessor",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Accessor",
           "name": "user",
           "package": "mohws",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "Parser",
           "package": "mohws",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Parser",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "Parser",
           "package": "mohws",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "T",
           "package": "mohws",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Parser",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "T",
           "package": "mohws",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "addToList",
           "package": "mohws",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Parser",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "addToList",
           "normalized": "T a[b]-\u003eGenParser Char c b-\u003eGenParser Char c(a-\u003ea)",
@@ -635,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "bool",
           "package": "mohws",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Parser",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "bool",
           "package": "mohws",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "field",
           "package": "mohws",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Parser",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "field",
           "normalized": "String-\u003eT a b-\u003eT a b",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "int",
           "package": "mohws",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Parser",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "int",
           "package": "mohws",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "lift",
           "package": "mohws",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Parser",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "lift",
           "normalized": "T a b-\u003eT c b-\u003eT c a",
@@ -723,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "run",
           "package": "mohws",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Parser",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "run",
           "normalized": "T()a-\u003eString-\u003eIO(Either ParseError(Builder a))",
@@ -746,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "set",
           "package": "mohws",
@@ -755,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Parser",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "set",
           "normalized": "T a b-\u003eGenParser Char c b-\u003eGenParser Char c(a-\u003ea)",
@@ -769,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "stringLiteral",
           "package": "mohws",
@@ -778,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration Parser",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration.Parser",
           "name": "stringLiteral",
           "package": "mohws",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "Configuration",
           "package": "mohws",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "Configuration",
           "package": "mohws",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "T",
           "package": "mohws",
@@ -820,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "T",
           "package": "mohws",
@@ -832,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "Cons",
           "package": "mohws",
@@ -841,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "Cons",
           "package": "mohws",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "accessFileName",
           "package": "mohws",
@@ -863,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "accessFileName",
           "package": "mohws",
@@ -876,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "addLanguage",
           "package": "mohws",
@@ -885,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "addLanguage",
           "normalized": "[(String,String)]",
@@ -900,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "chunkSize",
           "package": "mohws",
@@ -909,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "chunkSize",
           "package": "mohws",
@@ -922,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "customLogs",
           "package": "mohws",
@@ -931,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "customLogs",
           "normalized": "[(FilePath,String)]",
@@ -946,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "defaultType",
           "package": "mohws",
@@ -955,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "defaultType",
           "package": "mohws",
@@ -968,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "deflt",
           "package": "mohws",
@@ -977,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "deflt",
           "normalized": "a-\u003eT a",
@@ -991,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "documentRoot",
           "package": "mohws",
@@ -1000,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "documentRoot",
           "package": "mohws",
@@ -1013,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "errorLogFile",
           "package": "mohws",
@@ -1022,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "errorLogFile",
           "package": "mohws",
@@ -1035,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "extension",
           "package": "mohws",
@@ -1044,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "extension",
           "package": "mohws",
@@ -1056,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "extensionAcc",
           "package": "mohws",
@@ -1065,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "extensionAcc",
           "package": "mohws",
@@ -1078,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "followSymbolicLinks",
           "package": "mohws",
@@ -1087,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "followSymbolicLinks",
           "package": "mohws",
@@ -1100,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "group",
           "package": "mohws",
@@ -1109,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "group",
           "package": "mohws",
@@ -1121,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "hostnameLookups",
           "package": "mohws",
@@ -1130,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "hostnameLookups",
           "package": "mohws",
@@ -1143,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "indexes",
           "package": "mohws",
@@ -1152,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "indexes",
           "package": "mohws",
@@ -1164,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "keepAliveTimeout",
           "package": "mohws",
@@ -1173,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "keepAliveTimeout",
           "package": "mohws",
@@ -1186,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "languagePriority",
           "package": "mohws",
@@ -1195,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "languagePriority",
           "normalized": "[String]",
@@ -1210,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "listen",
           "package": "mohws",
@@ -1219,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "listen",
           "normalized": "[(Maybe String,PortNumber)]",
@@ -1233,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "logLevel",
           "package": "mohws",
@@ -1242,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "logLevel",
           "package": "mohws",
@@ -1255,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "maxClients",
           "package": "mohws",
@@ -1264,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "maxClients",
           "package": "mohws",
@@ -1277,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "requestTimeout",
           "package": "mohws",
@@ -1286,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "requestTimeout",
           "package": "mohws",
@@ -1299,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "serverAdmin",
           "package": "mohws",
@@ -1308,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "serverAdmin",
           "package": "mohws",
@@ -1321,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "serverAlias",
           "package": "mohws",
@@ -1330,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "serverAlias",
           "package": "mohws",
@@ -1343,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "serverName",
           "package": "mohws",
@@ -1352,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "serverName",
           "package": "mohws",
@@ -1365,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "serverSoftware",
           "package": "mohws",
@@ -1374,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "serverSoftware",
           "package": "mohws",
@@ -1387,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "serverVersion",
           "package": "mohws",
@@ -1396,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "serverVersion",
           "package": "mohws",
@@ -1409,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "typesConfig",
           "package": "mohws",
@@ -1418,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "typesConfig",
           "package": "mohws",
@@ -1431,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "useCanonicalName",
           "package": "mohws",
@@ -1440,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "useCanonicalName",
           "package": "mohws",
@@ -1453,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Configuration",
           "name": "user",
           "package": "mohws",
@@ -1462,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Configuration",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Configuration",
           "name": "user",
           "package": "mohws",
@@ -1474,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "Header",
           "package": "mohws",
@@ -1482,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "Header",
           "package": "mohws",
@@ -1495,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "Group",
           "package": "mohws",
@@ -1503,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "Group",
           "package": "mohws",
@@ -1517,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eHasHeaders\u003c/code\u003e is a type class for types containing HTTP headers, allowing\n you to write overloaded header manipulation functions\n for both \u003ccode\u003eRequest\u003c/code\u003e and \u003ccode\u003eResponse\u003c/code\u003e data types, for instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HasHeaders",
           "package": "mohws",
@@ -1525,6 +1662,7 @@
         "index": {
           "description": "HasHeaders is type class for types containing HTTP headers allowing you to write overloaded header manipulation functions for both Request and Response data types for instance",
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HasHeaders",
           "package": "mohws",
@@ -1539,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eHeader\u003c/code\u003e data type pairs header names & values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "Header",
           "package": "mohws",
@@ -1547,6 +1686,7 @@
         "index": {
           "description": "The Header data type pairs header names values",
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "Header",
           "package": "mohws",
@@ -1561,6 +1701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP \u003ccode\u003eHeaderName\u003c/code\u003e type, a Haskell data constructor for each\n specification-defined header, prefixed with \u003ccode\u003eHdr\u003c/code\u003e and CamelCased,\n (i.e., eliding the \u003ccode\u003e-\u003c/code\u003e in the process.) Should you require using\n a custom header, there's the \u003ccode\u003eHdrCustom\u003c/code\u003e constructor which takes\n a \u003ccode\u003eString\u003c/code\u003e argument.\n\u003c/p\u003e\u003cp\u003eEncoding HTTP header names differently, as Strings perhaps, is an\n equally fine choice..no decidedly clear winner, but let's stick\n with data constructors here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HeaderName",
           "package": "mohws",
@@ -1569,6 +1710,7 @@
         "index": {
           "description": "HTTP HeaderName type Haskell data constructor for each specification-defined header prefixed with Hdr and CamelCased i.e eliding the in the process Should you require using custom header there the HdrCustom constructor which takes String argument Encoding HTTP header names differently as Strings perhaps is an equally fine choice..no decidedly clear winner but let stick with data constructors here",
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HeaderName",
           "package": "mohws",
@@ -1582,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "Name",
           "package": "mohws",
@@ -1590,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "Name",
           "package": "mohws",
@@ -1603,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "T",
           "package": "mohws",
@@ -1611,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "T",
           "package": "mohws",
@@ -1623,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "TransferCoding",
           "package": "mohws",
@@ -1631,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "TransferCoding",
           "package": "mohws",
@@ -1644,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "ChunkedTransferCoding",
           "package": "mohws",
@@ -1653,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "ChunkedTransferCoding",
           "package": "mohws",
@@ -1666,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "CompressTransferCoding",
           "package": "mohws",
@@ -1675,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "CompressTransferCoding",
           "package": "mohws",
@@ -1688,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "DeflateTransferCoding",
           "package": "mohws",
@@ -1697,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "DeflateTransferCoding",
           "package": "mohws",
@@ -1710,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "GzipTransferCoding",
           "package": "mohws",
@@ -1719,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "GzipTransferCoding",
           "package": "mohws",
@@ -1732,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrAccept",
           "package": "mohws",
@@ -1740,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrAccept",
           "package": "mohws",
@@ -1753,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrAcceptCharset",
           "package": "mohws",
@@ -1761,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrAcceptCharset",
           "package": "mohws",
@@ -1774,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrAcceptEncoding",
           "package": "mohws",
@@ -1782,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrAcceptEncoding",
           "package": "mohws",
@@ -1795,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrAcceptLanguage",
           "package": "mohws",
@@ -1803,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrAcceptLanguage",
           "package": "mohws",
@@ -1816,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrAge",
           "package": "mohws",
@@ -1824,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrAge",
           "package": "mohws",
@@ -1837,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrAllow",
           "package": "mohws",
@@ -1845,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrAllow",
           "package": "mohws",
@@ -1858,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrAuthorization",
           "package": "mohws",
@@ -1866,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrAuthorization",
           "package": "mohws",
@@ -1879,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrCacheControl",
           "package": "mohws",
@@ -1887,6 +2058,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrCacheControl",
           "package": "mohws",
@@ -1900,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrConnection",
           "package": "mohws",
@@ -1908,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrConnection",
           "package": "mohws",
@@ -1921,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentBase",
           "package": "mohws",
@@ -1929,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentBase",
           "package": "mohws",
@@ -1942,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentEncoding",
           "package": "mohws",
@@ -1950,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentEncoding",
           "package": "mohws",
@@ -1963,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentLanguage",
           "package": "mohws",
@@ -1971,6 +2150,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentLanguage",
           "package": "mohws",
@@ -1984,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentLength",
           "package": "mohws",
@@ -1992,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentLength",
           "package": "mohws",
@@ -2005,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentLocation",
           "package": "mohws",
@@ -2013,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentLocation",
           "package": "mohws",
@@ -2026,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentMD5",
           "package": "mohws",
@@ -2034,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentMD5",
           "package": "mohws",
@@ -2047,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentRange",
           "package": "mohws",
@@ -2055,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentRange",
           "package": "mohws",
@@ -2069,6 +2257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMIME entity headers (for sub-parts)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentTransferEncoding",
           "package": "mohws",
@@ -2078,6 +2267,7 @@
         "index": {
           "description": "MIME entity headers for sub-parts",
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentTransferEncoding",
           "package": "mohws",
@@ -2091,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentType",
           "package": "mohws",
@@ -2099,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrContentType",
           "package": "mohws",
@@ -2112,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrCookie",
           "package": "mohws",
@@ -2120,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrCookie",
           "package": "mohws",
@@ -2134,6 +2328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows for unrecognised or experimental headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrCustom",
           "package": "mohws",
@@ -2143,6 +2338,7 @@
         "index": {
           "description": "Allows for unrecognised or experimental headers",
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrCustom",
           "package": "mohws",
@@ -2156,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrDate",
           "package": "mohws",
@@ -2164,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrDate",
           "package": "mohws",
@@ -2177,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrETag",
           "package": "mohws",
@@ -2185,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrETag",
           "package": "mohws",
@@ -2198,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrExpect",
           "package": "mohws",
@@ -2206,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrExpect",
           "package": "mohws",
@@ -2219,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrExpires",
           "package": "mohws",
@@ -2227,6 +2430,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrExpires",
           "package": "mohws",
@@ -2240,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrFrom",
           "package": "mohws",
@@ -2248,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrFrom",
           "package": "mohws",
@@ -2261,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrHost",
           "package": "mohws",
@@ -2269,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrHost",
           "package": "mohws",
@@ -2282,6 +2490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrIfMatch",
           "package": "mohws",
@@ -2290,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrIfMatch",
           "package": "mohws",
@@ -2303,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrIfModifiedSince",
           "package": "mohws",
@@ -2311,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrIfModifiedSince",
           "package": "mohws",
@@ -2324,6 +2536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrIfNoneMatch",
           "package": "mohws",
@@ -2332,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrIfNoneMatch",
           "package": "mohws",
@@ -2345,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrIfRange",
           "package": "mohws",
@@ -2353,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrIfRange",
           "package": "mohws",
@@ -2366,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrIfUnmodifiedSince",
           "package": "mohws",
@@ -2374,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrIfUnmodifiedSince",
           "package": "mohws",
@@ -2387,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrLastModified",
           "package": "mohws",
@@ -2395,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrLastModified",
           "package": "mohws",
@@ -2408,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrLocation",
           "package": "mohws",
@@ -2416,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrLocation",
           "package": "mohws",
@@ -2429,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrMaxForwards",
           "package": "mohws",
@@ -2437,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrMaxForwards",
           "package": "mohws",
@@ -2450,6 +2674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrPragma",
           "package": "mohws",
@@ -2458,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrPragma",
           "package": "mohws",
@@ -2471,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrProxyAuthenticate",
           "package": "mohws",
@@ -2479,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrProxyAuthenticate",
           "package": "mohws",
@@ -2492,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrProxyAuthorization",
           "package": "mohws",
@@ -2500,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrProxyAuthorization",
           "package": "mohws",
@@ -2513,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrPublic",
           "package": "mohws",
@@ -2521,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrPublic",
           "package": "mohws",
@@ -2534,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrRange",
           "package": "mohws",
@@ -2542,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrRange",
           "package": "mohws",
@@ -2555,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrReferer",
           "package": "mohws",
@@ -2563,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrReferer",
           "package": "mohws",
@@ -2576,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrRetryAfter",
           "package": "mohws",
@@ -2584,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrRetryAfter",
           "package": "mohws",
@@ -2597,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrServer",
           "package": "mohws",
@@ -2605,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrServer",
           "package": "mohws",
@@ -2618,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrSetCookie",
           "package": "mohws",
@@ -2626,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrSetCookie",
           "package": "mohws",
@@ -2639,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrTE",
           "package": "mohws",
@@ -2647,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrTE",
           "package": "mohws",
@@ -2660,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrTrailer",
           "package": "mohws",
@@ -2668,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrTrailer",
           "package": "mohws",
@@ -2681,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrTransferEncoding",
           "package": "mohws",
@@ -2689,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrTransferEncoding",
           "package": "mohws",
@@ -2702,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrUpgrade",
           "package": "mohws",
@@ -2710,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrUpgrade",
           "package": "mohws",
@@ -2723,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrUserAgent",
           "package": "mohws",
@@ -2731,6 +2982,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrUserAgent",
           "package": "mohws",
@@ -2744,6 +2996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrVary",
           "package": "mohws",
@@ -2752,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrVary",
           "package": "mohws",
@@ -2765,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrVia",
           "package": "mohws",
@@ -2773,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrVia",
           "package": "mohws",
@@ -2786,6 +3042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrWWWAuthenticate",
           "package": "mohws",
@@ -2794,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrWWWAuthenticate",
           "package": "mohws",
@@ -2807,6 +3065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrWarning",
           "package": "mohws",
@@ -2815,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "HdrWarning",
           "package": "mohws",
@@ -2828,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "Header",
           "package": "mohws",
@@ -2836,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "Header",
           "package": "mohws",
@@ -2849,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "getContentLength",
           "package": "mohws",
@@ -2858,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "getContentLength",
           "normalized": "a-\u003eMaybe Integer",
@@ -2873,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "getContentType",
           "package": "mohws",
@@ -2882,6 +3147,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "getContentType",
           "normalized": "a-\u003eMaybe String",
@@ -2897,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "getGroup",
           "package": "mohws",
@@ -2906,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "getGroup",
           "normalized": "a-\u003eGroup",
@@ -2921,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "getName",
           "package": "mohws",
@@ -2930,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "getName",
           "normalized": "T-\u003eName",
@@ -2945,6 +3215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "getValue",
           "package": "mohws",
@@ -2954,6 +3225,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "getValue",
           "normalized": "T-\u003eString",
@@ -2969,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "group",
           "package": "mohws",
@@ -2978,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "group",
           "normalized": "[T]-\u003eGroup",
@@ -2992,6 +3266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "insert",
           "package": "mohws",
@@ -3001,6 +3276,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "insert",
           "normalized": "Name-\u003eString-\u003ea-\u003ea",
@@ -3015,6 +3291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "insertIfMissing",
           "package": "mohws",
@@ -3024,6 +3301,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "insertIfMissing",
           "normalized": "Name-\u003eString-\u003ea-\u003ea",
@@ -3039,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "insertMany",
           "package": "mohws",
@@ -3048,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "insertMany",
           "normalized": "[T]-\u003ea-\u003ea",
@@ -3063,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "list",
           "package": "mohws",
@@ -3072,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "list",
           "normalized": "a-\u003e[T]",
@@ -3086,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "lookup",
           "package": "mohws",
@@ -3095,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "lookup",
           "normalized": "Name-\u003ea-\u003eMaybe String",
@@ -3109,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "lookupMany",
           "package": "mohws",
@@ -3118,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "lookupMany",
           "normalized": "Name-\u003ea-\u003e[String]",
@@ -3133,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "make",
           "package": "mohws",
@@ -3142,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "make",
           "normalized": "Name-\u003eString-\u003eT",
@@ -3156,6 +3444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "makeContentLength",
           "package": "mohws",
@@ -3165,6 +3454,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "makeContentLength",
           "normalized": "Integer-\u003eT",
@@ -3180,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "makeContentType",
           "package": "mohws",
@@ -3189,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "makeContentType",
           "normalized": "String-\u003eT",
@@ -3204,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "makeLastModified",
           "package": "mohws",
@@ -3213,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "makeLastModified",
           "normalized": "ClockTime-\u003eT",
@@ -3228,6 +3522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "makeLocation",
           "package": "mohws",
@@ -3237,6 +3532,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "makeLocation",
           "normalized": "URI-\u003eT",
@@ -3252,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "makeName",
           "package": "mohws",
@@ -3261,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "makeName",
           "normalized": "String-\u003eName",
@@ -3276,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "makeTransferCoding",
           "package": "mohws",
@@ -3285,6 +3584,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "makeTransferCoding",
           "normalized": "TransferCoding-\u003eT",
@@ -3300,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "modifyMany",
           "package": "mohws",
@@ -3309,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "modifyMany",
           "normalized": "([T]-\u003e[T])-\u003ea-\u003ea",
@@ -3324,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "name",
           "package": "mohws",
@@ -3333,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "name",
           "package": "mohws",
@@ -3345,6 +3649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "pGroup",
           "package": "mohws",
@@ -3354,6 +3659,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "pGroup",
           "package": "mohws",
@@ -3367,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "replace",
           "package": "mohws",
@@ -3376,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "replace",
           "normalized": "Name-\u003eString-\u003ea-\u003ea",
@@ -3390,6 +3698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "setGroup",
           "package": "mohws",
@@ -3399,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "setGroup",
           "normalized": "a-\u003eGroup-\u003ea",
@@ -3414,6 +3724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "ungroup",
           "package": "mohws",
@@ -3423,6 +3734,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "ungroup",
           "normalized": "Group-\u003e[T]",
@@ -3437,6 +3749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "value",
           "package": "mohws",
@@ -3446,6 +3759,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Header",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Header",
           "name": "value",
           "package": "mohws",
@@ -3458,6 +3772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.MimeType",
           "name": "MimeType",
           "package": "mohws",
@@ -3466,6 +3781,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP MimeType",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.MimeType",
           "name": "MimeType",
           "package": "mohws",
@@ -3479,6 +3795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.MimeType",
           "name": "Dictionary",
           "package": "mohws",
@@ -3487,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP MimeType",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.MimeType",
           "name": "Dictionary",
           "package": "mohws",
@@ -3500,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.MimeType",
           "name": "T",
           "package": "mohws",
@@ -3508,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP MimeType",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.MimeType",
           "name": "T",
           "package": "mohws",
@@ -3520,6 +3840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.MimeType",
           "name": "Cons",
           "package": "mohws",
@@ -3529,6 +3850,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP MimeType",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.MimeType",
           "name": "Cons",
           "package": "mohws",
@@ -3542,6 +3864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.MimeType",
           "name": "fromFileName",
           "package": "mohws",
@@ -3551,6 +3874,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP MimeType",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.MimeType",
           "name": "fromFileName",
           "normalized": "Dictionary-\u003eFilePath-\u003eMaybe T",
@@ -3566,6 +3890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.MimeType",
           "name": "loadDictionary",
           "package": "mohws",
@@ -3575,6 +3900,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP MimeType",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.MimeType",
           "name": "loadDictionary",
           "normalized": "FilePath-\u003eIO Dictionary",
@@ -3590,6 +3916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "Request",
           "package": "mohws",
@@ -3598,6 +3925,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "Request",
           "package": "mohws",
@@ -3611,6 +3939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "Command",
           "package": "mohws",
@@ -3619,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "Command",
           "package": "mohws",
@@ -3632,6 +3962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "Connection",
           "package": "mohws",
@@ -3640,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "Connection",
           "package": "mohws",
@@ -3653,6 +3985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "Expect",
           "package": "mohws",
@@ -3661,6 +3994,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "Expect",
           "package": "mohws",
@@ -3675,6 +4009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HTTP request method, to be used in the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e object.\n We are missing a few of the stranger methods, but these are\n not really necessary until we add full TLS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "RequestMethod",
           "package": "mohws",
@@ -3683,6 +4018,7 @@
         "index": {
           "description": "The HTTP request method to be used in the Request object We are missing few of the stranger methods but these are not really necessary until we add full TLS",
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "RequestMethod",
           "package": "mohws",
@@ -3696,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "T",
           "package": "mohws",
@@ -3704,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "T",
           "package": "mohws",
@@ -3716,6 +4054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "CONNECT",
           "package": "mohws",
@@ -3724,6 +4063,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "CONNECT",
           "package": "mohws",
@@ -3737,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "ConnectionClose",
           "package": "mohws",
@@ -3746,6 +4087,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "ConnectionClose",
           "package": "mohws",
@@ -3759,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "ConnectionKeepAlive",
           "package": "mohws",
@@ -3768,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "ConnectionKeepAlive",
           "package": "mohws",
@@ -3781,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "ConnectionOther",
           "package": "mohws",
@@ -3790,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "ConnectionOther",
           "package": "mohws",
@@ -3803,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "Cons",
           "package": "mohws",
@@ -3812,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "Cons",
           "package": "mohws",
@@ -3825,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "Custom",
           "package": "mohws",
@@ -3833,6 +4182,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "Custom",
           "package": "mohws",
@@ -3846,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "DELETE",
           "package": "mohws",
@@ -3854,6 +4205,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "DELETE",
           "package": "mohws",
@@ -3867,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "ExpectContinue",
           "package": "mohws",
@@ -3876,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "ExpectContinue",
           "package": "mohws",
@@ -3889,6 +4243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "GET",
           "package": "mohws",
@@ -3897,6 +4252,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "GET",
           "package": "mohws",
@@ -3910,6 +4266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "HEAD",
           "package": "mohws",
@@ -3918,6 +4275,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "HEAD",
           "package": "mohws",
@@ -3931,6 +4289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "OPTIONS",
           "package": "mohws",
@@ -3939,6 +4298,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "OPTIONS",
           "package": "mohws",
@@ -3952,6 +4312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "POST",
           "package": "mohws",
@@ -3960,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "POST",
           "package": "mohws",
@@ -3973,6 +4335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "PUT",
           "package": "mohws",
@@ -3981,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "PUT",
           "package": "mohws",
@@ -3994,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "TRACE",
           "package": "mohws",
@@ -4002,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "TRACE",
           "package": "mohws",
@@ -4015,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "body",
           "package": "mohws",
@@ -4024,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "body",
           "package": "mohws",
@@ -4036,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "command",
           "package": "mohws",
@@ -4045,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "command",
           "package": "mohws",
@@ -4057,6 +4427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "fromHTTPbis",
           "package": "mohws",
@@ -4066,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "fromHTTPbis",
           "normalized": "Request a-\u003eT a",
@@ -4081,6 +4453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "getConnection",
           "package": "mohws",
@@ -4090,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "getConnection",
           "normalized": "a-\u003e[Connection]",
@@ -4105,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "getHost",
           "package": "mohws",
@@ -4114,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "getHost",
           "normalized": "a-\u003eMaybe(HostName,Maybe Int)",
@@ -4129,6 +4505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "headers",
           "package": "mohws",
@@ -4138,6 +4515,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "headers",
           "package": "mohws",
@@ -4150,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "httpVersion",
           "package": "mohws",
@@ -4159,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "httpVersion",
           "package": "mohws",
@@ -4172,6 +4552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "pHeaders",
           "package": "mohws",
@@ -4181,6 +4562,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "pHeaders",
           "package": "mohws",
@@ -4194,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "toHTTPbis",
           "package": "mohws",
@@ -4203,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "toHTTPbis",
           "normalized": "T a-\u003eRequest a",
@@ -4218,6 +4602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "uri",
           "package": "mohws",
@@ -4227,6 +4612,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Request",
           "name": "uri",
           "package": "mohws",
@@ -4239,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "Response",
           "package": "mohws",
@@ -4247,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "Response",
           "package": "mohws",
@@ -4260,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "Body",
           "package": "mohws",
@@ -4268,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "Body",
           "package": "mohws",
@@ -4281,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "T",
           "package": "mohws",
@@ -4289,6 +4680,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "T",
           "package": "mohws",
@@ -4301,6 +4693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "Body",
           "package": "mohws",
@@ -4310,6 +4703,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "Body",
           "package": "mohws",
@@ -4323,6 +4717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "Cons",
           "package": "mohws",
@@ -4332,6 +4727,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "Cons",
           "package": "mohws",
@@ -4345,6 +4741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "body",
           "package": "mohws",
@@ -4354,6 +4751,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "body",
           "package": "mohws",
@@ -4366,6 +4764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "bodyFromString",
           "package": "mohws",
@@ -4375,6 +4774,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "bodyFromString",
           "normalized": "a-\u003eBody a",
@@ -4390,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "bodyWithSizeFromString",
           "package": "mohws",
@@ -4399,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "bodyWithSizeFromString",
           "normalized": "a-\u003eBody a",
@@ -4414,6 +4816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "close",
           "package": "mohws",
@@ -4423,6 +4826,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "close",
           "normalized": "IO()",
@@ -4437,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "code",
           "package": "mohws",
@@ -4446,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "code",
           "package": "mohws",
@@ -4458,6 +4864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "coding",
           "package": "mohws",
@@ -4467,6 +4874,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "coding",
           "normalized": "[TransferCoding]",
@@ -4481,6 +4889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "content",
           "package": "mohws",
@@ -4490,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "content",
           "package": "mohws",
@@ -4502,6 +4912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "dateHeader",
           "package": "mohws",
@@ -4511,6 +4922,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "dateHeader",
           "package": "mohws",
@@ -4524,6 +4936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "decomposeCode",
           "package": "mohws",
@@ -4533,6 +4946,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "decomposeCode",
           "normalized": "Int-\u003eResponseCode",
@@ -4548,6 +4962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "description",
           "package": "mohws",
@@ -4557,6 +4972,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "description",
           "package": "mohws",
@@ -4569,6 +4985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "descriptionDictionary",
           "package": "mohws",
@@ -4578,6 +4995,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "descriptionDictionary",
           "package": "mohws",
@@ -4591,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "descriptionFromCode",
           "package": "mohws",
@@ -4600,6 +5019,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "descriptionFromCode",
           "normalized": "Int-\u003eString",
@@ -4615,6 +5035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "doSendBody",
           "package": "mohws",
@@ -4624,6 +5045,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "doSendBody",
           "package": "mohws",
@@ -4637,6 +5059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "fromHTTPbis",
           "package": "mohws",
@@ -4646,6 +5069,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "fromHTTPbis",
           "normalized": "Response a-\u003eT a",
@@ -4661,6 +5085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "genErrorHtml",
           "package": "mohws",
@@ -4670,6 +5095,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "genErrorHtml",
           "normalized": "Int-\u003eT a-\u003eHtml",
@@ -4685,6 +5111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "generateErrorPage",
           "package": "mohws",
@@ -4694,6 +5121,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "generateErrorPage",
           "normalized": "Int-\u003eT a-\u003eBody b",
@@ -4709,6 +5137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "getFileName",
           "package": "mohws",
@@ -4718,6 +5147,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "getFileName",
           "normalized": "Body a-\u003eString",
@@ -4733,6 +5163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "hasBody",
           "package": "mohws",
@@ -4742,6 +5173,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "hasBody",
           "normalized": "Body a-\u003eBool",
@@ -4757,6 +5189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "headers",
           "package": "mohws",
@@ -4766,6 +5199,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "headers",
           "package": "mohws",
@@ -4778,6 +5212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "httpVersion",
           "package": "mohws",
@@ -4787,6 +5222,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "httpVersion",
           "package": "mohws",
@@ -4800,6 +5236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeAccepted",
           "package": "mohws",
@@ -4809,6 +5246,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeAccepted",
           "normalized": "T a-\u003eT b",
@@ -4824,6 +5262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeBadGateway",
           "package": "mohws",
@@ -4833,6 +5272,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeBadGateway",
           "normalized": "T a-\u003eT b",
@@ -4848,6 +5288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeBadRequest",
           "package": "mohws",
@@ -4857,6 +5298,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeBadRequest",
           "normalized": "T a-\u003eT b",
@@ -4872,6 +5314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeConflict",
           "package": "mohws",
@@ -4881,6 +5324,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeConflict",
           "normalized": "T a-\u003eT b",
@@ -4896,6 +5340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeCont",
           "package": "mohws",
@@ -4905,6 +5350,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeCont",
           "normalized": "T a-\u003eT b",
@@ -4920,6 +5366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeCreated",
           "package": "mohws",
@@ -4929,6 +5376,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeCreated",
           "normalized": "T a-\u003eT b",
@@ -4944,6 +5392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeError",
           "package": "mohws",
@@ -4953,6 +5402,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeError",
           "normalized": "Int-\u003eT a-\u003eT b",
@@ -4968,6 +5418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeExpectationFailed",
           "package": "mohws",
@@ -4977,6 +5428,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeExpectationFailed",
           "normalized": "T a-\u003eT b",
@@ -4992,6 +5444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeForbidden",
           "package": "mohws",
@@ -5001,6 +5454,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeForbidden",
           "normalized": "T a-\u003eT b",
@@ -5016,6 +5470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeFound",
           "package": "mohws",
@@ -5025,6 +5480,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeFound",
           "normalized": "T a-\u003eT b",
@@ -5040,6 +5496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeGatewayTimeOut",
           "package": "mohws",
@@ -5049,6 +5506,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeGatewayTimeOut",
           "normalized": "T a-\u003eT b",
@@ -5064,6 +5522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeGone",
           "package": "mohws",
@@ -5073,6 +5532,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeGone",
           "normalized": "T a-\u003eT b",
@@ -5088,6 +5548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeInternalServerError",
           "package": "mohws",
@@ -5097,6 +5558,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeInternalServerError",
           "normalized": "T a-\u003eT b",
@@ -5112,6 +5574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeLengthRequired",
           "package": "mohws",
@@ -5121,6 +5584,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeLengthRequired",
           "normalized": "T a-\u003eT b",
@@ -5136,6 +5600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeMethodNotAllowed",
           "package": "mohws",
@@ -5145,6 +5610,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeMethodNotAllowed",
           "normalized": "T a-\u003eT b",
@@ -5160,6 +5626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeMovedPermanently",
           "package": "mohws",
@@ -5169,6 +5636,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeMovedPermanently",
           "normalized": "T a-\u003eGroup-\u003eBody b-\u003eURI-\u003eT b",
@@ -5184,6 +5652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeMultipleChoices",
           "package": "mohws",
@@ -5193,6 +5662,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeMultipleChoices",
           "normalized": "T a-\u003eT b",
@@ -5208,6 +5678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeNoContent",
           "package": "mohws",
@@ -5217,6 +5688,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeNoContent",
           "normalized": "T a-\u003eT b",
@@ -5232,6 +5704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeNonAuthoritiveInformation",
           "package": "mohws",
@@ -5241,6 +5714,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeNonAuthoritiveInformation",
           "normalized": "T a-\u003eT b",
@@ -5256,6 +5730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeNotAcceptable",
           "package": "mohws",
@@ -5265,6 +5740,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeNotAcceptable",
           "normalized": "T a-\u003eT b",
@@ -5280,6 +5756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeNotFound",
           "package": "mohws",
@@ -5289,6 +5766,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeNotFound",
           "normalized": "T a-\u003eT b",
@@ -5304,6 +5782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeNotImplemented",
           "package": "mohws",
@@ -5313,6 +5792,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeNotImplemented",
           "normalized": "T a-\u003eT b",
@@ -5328,6 +5808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeNotModified",
           "package": "mohws",
@@ -5337,6 +5818,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeNotModified",
           "normalized": "T a-\u003eT b",
@@ -5352,6 +5834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeOk",
           "package": "mohws",
@@ -5361,6 +5844,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeOk",
           "normalized": "T a-\u003eBool-\u003eGroup-\u003eBody b-\u003eT b",
@@ -5376,6 +5860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makePartialContent",
           "package": "mohws",
@@ -5385,6 +5870,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makePartialContent",
           "normalized": "T a-\u003eT b",
@@ -5400,6 +5886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makePaymentRequired",
           "package": "mohws",
@@ -5409,6 +5896,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makePaymentRequired",
           "normalized": "T a-\u003eT b",
@@ -5424,6 +5912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makePreconditionFailed",
           "package": "mohws",
@@ -5433,6 +5922,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makePreconditionFailed",
           "normalized": "T a-\u003eT b",
@@ -5448,6 +5938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeProxyAuthenticationRequired",
           "package": "mohws",
@@ -5457,6 +5948,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeProxyAuthenticationRequired",
           "normalized": "T a-\u003eT b",
@@ -5472,6 +5964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeRequestEntityTooLarge",
           "package": "mohws",
@@ -5481,6 +5974,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeRequestEntityTooLarge",
           "normalized": "T a-\u003eT b",
@@ -5496,6 +5990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeRequestTimeOut",
           "package": "mohws",
@@ -5505,6 +6000,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeRequestTimeOut",
           "normalized": "T a-\u003eT b",
@@ -5520,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeRequestURITooLarge",
           "package": "mohws",
@@ -5529,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeRequestURITooLarge",
           "normalized": "T a-\u003eT b",
@@ -5544,6 +6042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeRequestedRangeNotSatisfiable",
           "package": "mohws",
@@ -5553,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeRequestedRangeNotSatisfiable",
           "normalized": "T a-\u003eT b",
@@ -5568,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeResetContent",
           "package": "mohws",
@@ -5577,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeResetContent",
           "normalized": "T a-\u003eT b",
@@ -5592,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeSeeOther",
           "package": "mohws",
@@ -5601,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeSeeOther",
           "normalized": "T a-\u003eT b",
@@ -5616,6 +6120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeServiceUnavailable",
           "package": "mohws",
@@ -5625,6 +6130,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeServiceUnavailable",
           "normalized": "T a-\u003eT b",
@@ -5640,6 +6146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeSwitchingProtocols",
           "package": "mohws",
@@ -5649,6 +6156,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeSwitchingProtocols",
           "normalized": "T a-\u003eT b",
@@ -5664,6 +6172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeTemporaryRedirect",
           "package": "mohws",
@@ -5673,6 +6182,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeTemporaryRedirect",
           "normalized": "T a-\u003eT b",
@@ -5688,6 +6198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeUnauthorized",
           "package": "mohws",
@@ -5697,6 +6208,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeUnauthorized",
           "normalized": "T a-\u003eT b",
@@ -5712,6 +6224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeUnsupportedMediaType",
           "package": "mohws",
@@ -5721,6 +6234,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeUnsupportedMediaType",
           "normalized": "T a-\u003eT b",
@@ -5736,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeUseProxy",
           "package": "mohws",
@@ -5745,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeUseProxy",
           "normalized": "T a-\u003eT b",
@@ -5760,6 +6276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeVersionNotSupported",
           "package": "mohws",
@@ -5769,6 +6286,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeVersionNotSupported",
           "normalized": "T a-\u003eT b",
@@ -5784,6 +6302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeWithBody",
           "package": "mohws",
@@ -5793,6 +6312,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "makeWithBody",
           "normalized": "Int-\u003eT a-\u003eBool-\u003eGroup-\u003eBody b-\u003eT b",
@@ -5808,6 +6328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "sendBody",
           "package": "mohws",
@@ -5817,6 +6338,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "sendBody",
           "normalized": "Handle-\u003eBody a-\u003eIO()",
@@ -5832,6 +6354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "sendBodyChunked",
           "package": "mohws",
@@ -5841,6 +6364,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "sendBodyChunked",
           "normalized": "Int-\u003eHandle-\u003eBody a-\u003eIO()",
@@ -5856,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "serverHeader",
           "package": "mohws",
@@ -5865,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "serverHeader",
           "package": "mohws",
@@ -5878,6 +6404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "showStatusLine",
           "package": "mohws",
@@ -5887,6 +6414,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "showStatusLine",
           "normalized": "T a-\u003eString",
@@ -5902,6 +6430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "size",
           "package": "mohws",
@@ -5911,6 +6440,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "size",
           "package": "mohws",
@@ -5923,6 +6453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "source",
           "package": "mohws",
@@ -5932,6 +6463,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "source",
           "package": "mohws",
@@ -5944,6 +6476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "statusLine",
           "package": "mohws",
@@ -5953,6 +6486,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "statusLine",
           "normalized": "Int-\u003eString-\u003eString",
@@ -5968,6 +6502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "toHTTPbis",
           "package": "mohws",
@@ -5977,6 +6512,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Response",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Response",
           "name": "toHTTPbis",
           "normalized": "T a-\u003eResponse a",
@@ -5992,6 +6528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "Version",
           "package": "mohws",
@@ -6000,6 +6537,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Version",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "Version",
           "package": "mohws",
@@ -6013,6 +6551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "T",
           "package": "mohws",
@@ -6021,6 +6560,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Version",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "T",
           "package": "mohws",
@@ -6033,6 +6573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "Cons",
           "package": "mohws",
@@ -6042,6 +6583,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Version",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "Cons",
           "package": "mohws",
@@ -6055,6 +6597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "http1_0",
           "package": "mohws",
@@ -6064,6 +6607,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Version",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "http1_0",
           "package": "mohws",
@@ -6076,6 +6620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "http1_1",
           "package": "mohws",
@@ -6085,6 +6630,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Version",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "http1_1",
           "package": "mohws",
@@ -6097,6 +6643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "major",
           "package": "mohws",
@@ -6106,6 +6653,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Version",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "major",
           "package": "mohws",
@@ -6118,6 +6666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "minor",
           "package": "mohws",
@@ -6127,6 +6676,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Version",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "minor",
           "package": "mohws",
@@ -6139,6 +6689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "pInRequest",
           "package": "mohws",
@@ -6148,6 +6699,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS HTTP Version",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.HTTP.Version",
           "name": "pInRequest",
           "package": "mohws",
@@ -6162,6 +6714,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCopyright: 2009, Henning Thielemann\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Initialization.Standard",
           "name": "Standard",
           "package": "mohws",
@@ -6171,6 +6724,7 @@
         "index": {
           "description": "Copyright Henning Thielemann",
           "hierarchy": "Network MoHWS Initialization Standard",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Initialization.Standard",
           "name": "Standard",
           "package": "mohws",
@@ -6184,6 +6738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Initialization.Standard",
           "name": "Extension",
           "package": "mohws",
@@ -6192,6 +6747,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Initialization Standard",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Initialization.Standard",
           "name": "Extension",
           "package": "mohws",
@@ -6205,6 +6761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Initialization.Standard",
           "name": "init",
           "package": "mohws",
@@ -6214,6 +6771,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Initialization Standard",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Initialization.Standard",
           "name": "init",
           "package": "mohws",
@@ -6226,6 +6784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Initialization",
           "name": "Initialization",
           "package": "mohws",
@@ -6234,6 +6793,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Initialization",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Initialization",
           "name": "Initialization",
           "package": "mohws",
@@ -6247,6 +6807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Initialization",
           "name": "T",
           "package": "mohws",
@@ -6255,6 +6816,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Initialization",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Initialization",
           "name": "T",
           "package": "mohws",
@@ -6267,6 +6829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Initialization",
           "name": "Cons",
           "package": "mohws",
@@ -6276,6 +6839,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Initialization",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Initialization",
           "name": "Cons",
           "package": "mohws",
@@ -6289,6 +6853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Initialization",
           "name": "configurationExtensionDefault",
           "package": "mohws",
@@ -6298,6 +6863,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Initialization",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Initialization",
           "name": "configurationExtensionDefault",
           "package": "mohws",
@@ -6311,6 +6877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Initialization",
           "name": "moduleList",
           "package": "mohws",
@@ -6320,6 +6887,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Initialization",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Initialization",
           "name": "moduleList",
           "normalized": "[T a b]",
@@ -6335,6 +6903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Access",
           "name": "Access",
           "package": "mohws",
@@ -6343,6 +6912,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Access",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Access",
           "name": "Access",
           "package": "mohws",
@@ -6356,6 +6926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Access",
           "name": "Handle",
           "package": "mohws",
@@ -6364,6 +6935,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Access",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Access",
           "name": "Handle",
           "package": "mohws",
@@ -6377,6 +6949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Access",
           "name": "Request",
           "package": "mohws",
@@ -6385,6 +6958,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Access",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Access",
           "name": "Request",
           "package": "mohws",
@@ -6398,6 +6972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Access",
           "name": "Request",
           "package": "mohws",
@@ -6407,6 +6982,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Access",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Access",
           "name": "Request",
           "package": "mohws",
@@ -6420,6 +6996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Access",
           "name": "delay",
           "package": "mohws",
@@ -6429,6 +7006,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Access",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Access",
           "name": "delay",
           "package": "mohws",
@@ -6441,6 +7019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Access",
           "name": "log",
           "package": "mohws",
@@ -6450,6 +7029,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Access",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Access",
           "name": "log",
           "normalized": "Handle-\u003eRequest-\u003eIO()",
@@ -6464,6 +7044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Access",
           "name": "mkRequest",
           "package": "mohws",
@@ -6473,6 +7054,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Access",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Access",
           "name": "mkRequest",
           "normalized": "T a-\u003eT a-\u003eHostEntry-\u003eTimeDiff-\u003eIO Request",
@@ -6488,6 +7070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Access",
           "name": "request",
           "package": "mohws",
@@ -6497,6 +7080,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Access",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Access",
           "name": "request",
           "normalized": "T()",
@@ -6511,6 +7095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Access",
           "name": "response",
           "package": "mohws",
@@ -6520,6 +7105,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Access",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Access",
           "name": "response",
           "normalized": "T()",
@@ -6534,6 +7120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Access",
           "name": "serverHost",
           "package": "mohws",
@@ -6543,6 +7130,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Access",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Access",
           "name": "serverHost",
           "package": "mohws",
@@ -6556,6 +7144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Access",
           "name": "start",
           "package": "mohws",
@@ -6565,6 +7154,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Access",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Access",
           "name": "start",
           "normalized": "String-\u003eFilePath-\u003eIO Handle",
@@ -6579,6 +7169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Access",
           "name": "stop",
           "package": "mohws",
@@ -6588,6 +7179,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Access",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Access",
           "name": "stop",
           "normalized": "Handle-\u003eIO()",
@@ -6602,6 +7194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Access",
           "name": "time",
           "package": "mohws",
@@ -6611,6 +7204,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Access",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Access",
           "name": "time",
           "package": "mohws",
@@ -6623,6 +7217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Error",
           "name": "Error",
           "package": "mohws",
@@ -6631,6 +7226,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Error",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Error",
           "name": "Error",
           "package": "mohws",
@@ -6644,6 +7240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Error",
           "name": "Handle",
           "package": "mohws",
@@ -6652,6 +7249,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Error",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Error",
           "name": "Handle",
           "package": "mohws",
@@ -6665,6 +7263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Error",
           "name": "HasHandle",
           "package": "mohws",
@@ -6673,6 +7272,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Error",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Error",
           "name": "HasHandle",
           "package": "mohws",
@@ -6686,6 +7286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Error",
           "name": "abort",
           "package": "mohws",
@@ -6695,6 +7296,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Error",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Error",
           "name": "abort",
           "normalized": "a-\u003eString-\u003eMaybeT IO b",
@@ -6709,6 +7311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Error",
           "name": "debug",
           "package": "mohws",
@@ -6718,6 +7321,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Error",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Error",
           "name": "debug",
           "normalized": "a-\u003eString-\u003eb()",
@@ -6732,6 +7336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Error",
           "name": "debugOnAbort",
           "package": "mohws",
@@ -6741,6 +7346,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Error",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Error",
           "name": "debugOnAbort",
           "normalized": "a-\u003eString-\u003eMaybeT IO b-\u003eMaybeT IO b",
@@ -6756,6 +7362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Error",
           "name": "getHandle",
           "package": "mohws",
@@ -6765,6 +7372,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Error",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Error",
           "name": "getHandle",
           "normalized": "a-\u003eHandle",
@@ -6780,6 +7388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Error",
           "name": "log",
           "package": "mohws",
@@ -6789,6 +7398,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Error",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Error",
           "name": "log",
           "normalized": "Handle-\u003eT-\u003eString-\u003eIO()",
@@ -6803,6 +7413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Error",
           "name": "logDebug",
           "package": "mohws",
@@ -6812,6 +7423,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Error",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Error",
           "name": "logDebug",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -6827,6 +7439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Error",
           "name": "logError",
           "package": "mohws",
@@ -6836,6 +7449,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Error",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Error",
           "name": "logError",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -6851,6 +7465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Error",
           "name": "logInfo",
           "package": "mohws",
@@ -6860,6 +7475,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Error",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Error",
           "name": "logInfo",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -6875,6 +7491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Error",
           "name": "start",
           "package": "mohws",
@@ -6884,6 +7501,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Error",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Error",
           "name": "start",
           "normalized": "FilePath-\u003eT-\u003eIO Handle",
@@ -6898,6 +7516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Error",
           "name": "stop",
           "package": "mohws",
@@ -6907,6 +7526,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Error",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Error",
           "name": "stop",
           "normalized": "Handle-\u003eIO()",
@@ -6921,6 +7541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Level",
           "package": "mohws",
@@ -6929,6 +7550,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Level",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Level",
           "package": "mohws",
@@ -6942,6 +7564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Level",
           "name": "T",
           "package": "mohws",
@@ -6950,6 +7573,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Level",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Level",
           "name": "T",
           "package": "mohws",
@@ -6962,6 +7586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Alert",
           "package": "mohws",
@@ -6971,6 +7596,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Level",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Alert",
           "package": "mohws",
@@ -6984,6 +7610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Crit",
           "package": "mohws",
@@ -6993,6 +7620,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Level",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Crit",
           "package": "mohws",
@@ -7006,6 +7634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Debug",
           "package": "mohws",
@@ -7015,6 +7644,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Level",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Debug",
           "package": "mohws",
@@ -7028,6 +7658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Emerg",
           "package": "mohws",
@@ -7037,6 +7668,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Level",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Emerg",
           "package": "mohws",
@@ -7050,6 +7682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Error",
           "package": "mohws",
@@ -7059,6 +7692,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Level",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Error",
           "package": "mohws",
@@ -7072,6 +7706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Info",
           "package": "mohws",
@@ -7081,6 +7716,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Level",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Info",
           "package": "mohws",
@@ -7094,6 +7730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Notice",
           "package": "mohws",
@@ -7103,6 +7740,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Level",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Notice",
           "package": "mohws",
@@ -7116,6 +7754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Warn",
           "package": "mohws",
@@ -7125,6 +7764,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger Level",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger.Level",
           "name": "Warn",
           "package": "mohws",
@@ -7138,6 +7778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger",
           "name": "Logger",
           "package": "mohws",
@@ -7146,6 +7787,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger",
           "name": "Logger",
           "package": "mohws",
@@ -7159,6 +7801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger",
           "name": "Handle",
           "package": "mohws",
@@ -7167,6 +7810,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger",
           "name": "Handle",
           "package": "mohws",
@@ -7180,6 +7824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger",
           "name": "log",
           "package": "mohws",
@@ -7189,6 +7834,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger",
           "name": "log",
           "normalized": "Handle a-\u003ea-\u003eIO()",
@@ -7203,6 +7849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger",
           "name": "start",
           "package": "mohws",
@@ -7211,6 +7858,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger",
           "name": "start",
           "normalized": "(a-\u003eIO String)-\u003eFilePath-\u003eIO(Handle a)",
@@ -7225,6 +7873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Logger",
           "name": "stop",
           "package": "mohws",
@@ -7234,6 +7883,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Logger",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Logger",
           "name": "stop",
           "normalized": "Handle a-\u003eIO()",
@@ -7249,6 +7899,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCopyright: 2009, Henning Thielemann\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module.Description",
           "name": "Description",
           "package": "mohws",
@@ -7258,6 +7909,7 @@
         "index": {
           "description": "Copyright Henning Thielemann",
           "hierarchy": "Network MoHWS Module Description",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module.Description",
           "name": "Description",
           "package": "mohws",
@@ -7271,6 +7923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module.Description",
           "name": "T",
           "package": "mohws",
@@ -7279,6 +7932,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Module Description",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module.Description",
           "name": "T",
           "package": "mohws",
@@ -7291,6 +7945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module.Description",
           "name": "Cons",
           "package": "mohws",
@@ -7300,6 +7955,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Module Description",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module.Description",
           "name": "Cons",
           "package": "mohws",
@@ -7313,6 +7969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module.Description",
           "name": "configParser",
           "package": "mohws",
@@ -7322,6 +7979,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Module Description",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module.Description",
           "name": "configParser",
           "normalized": "T()a",
@@ -7337,6 +7995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module.Description",
           "name": "empty",
           "package": "mohws",
@@ -7346,6 +8005,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Module Description",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module.Description",
           "name": "empty",
           "package": "mohws",
@@ -7358,6 +8018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module.Description",
           "name": "lift",
           "package": "mohws",
@@ -7367,6 +8028,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Module Description",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module.Description",
           "name": "lift",
           "normalized": "T a b-\u003eT c b-\u003eT c a",
@@ -7381,6 +8043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module.Description",
           "name": "load",
           "package": "mohws",
@@ -7390,6 +8053,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Module Description",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module.Description",
           "name": "load",
           "normalized": "T a-\u003eIO(T b)",
@@ -7404,6 +8068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module.Description",
           "name": "name",
           "package": "mohws",
@@ -7413,6 +8078,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Module Description",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module.Description",
           "name": "name",
           "package": "mohws",
@@ -7425,6 +8091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module.Description",
           "name": "setDefltConfig",
           "package": "mohws",
@@ -7434,6 +8101,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Module Description",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module.Description",
           "name": "setDefltConfig",
           "normalized": "a-\u003ea",
@@ -7450,6 +8118,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCopyright: 2009, Henning Thielemann\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module",
           "name": "Module",
           "package": "mohws",
@@ -7459,6 +8128,7 @@
         "index": {
           "description": "Copyright Henning Thielemann",
           "hierarchy": "Network MoHWS Module",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module",
           "name": "Module",
           "package": "mohws",
@@ -7473,6 +8143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eisServerHost\u003c/a\u003e\u003c/code\u003e allows for advanced checks of the appropriate domain,\ne.g. we can catch all subdomains of a certain domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module",
           "name": "T",
           "package": "mohws",
@@ -7482,6 +8153,7 @@
         "index": {
           "description": "isServerHost allows for advanced checks of the appropriate domain e.g we can catch all subdomains of certain domain",
           "hierarchy": "Network MoHWS Module",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module",
           "name": "T",
           "package": "mohws",
@@ -7494,6 +8166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module",
           "name": "Cons",
           "package": "mohws",
@@ -7503,6 +8176,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Module",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module",
           "name": "Cons",
           "package": "mohws",
@@ -7516,6 +8190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module",
           "name": "empty",
           "package": "mohws",
@@ -7525,6 +8200,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Module",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module",
           "name": "empty",
           "package": "mohws",
@@ -7537,6 +8213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module",
           "name": "handleRequest",
           "package": "mohws",
@@ -7546,6 +8223,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Module",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module",
           "name": "handleRequest",
           "normalized": "T a-\u003eMaybeT IO(T a)",
@@ -7561,6 +8239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module",
           "name": "isServerHost",
           "package": "mohws",
@@ -7570,6 +8249,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Module",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module",
           "name": "isServerHost",
           "normalized": "HostName-\u003eBool",
@@ -7585,6 +8265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module",
           "name": "translatePath",
           "package": "mohws",
@@ -7594,6 +8275,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Module",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module",
           "name": "translatePath",
           "normalized": "String-\u003eString-\u003eMaybeT IO FilePath",
@@ -7610,6 +8292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe use the type variable \u003ccode\u003eserver\u003c/code\u003e\nalthough it will be always instantiated with \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e.\nHowever, with this type variable we avoid mutual recursive Haskell modules\nfor Module and ServerContext.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module",
           "name": "tweakFilename",
           "package": "mohws",
@@ -7620,6 +8303,7 @@
         "index": {
           "description": "We use the type variable server although it will be always instantiated with However with this type variable we avoid mutual recursive Haskell modules for Module and ServerContext",
           "hierarchy": "Network MoHWS Module",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module",
           "name": "tweakFilename",
           "normalized": "(a-\u003eFilePath-\u003eIO FilePath)-\u003ea-\u003eT b-\u003eIO(T b)",
@@ -7635,6 +8319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Module",
           "name": "tweakRequest",
           "package": "mohws",
@@ -7644,6 +8329,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Module",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Module",
           "name": "tweakRequest",
           "normalized": "T a-\u003eIO(T a)",
@@ -7660,6 +8346,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWhen we get a request for http:\u003cem/\u003efoo.com/bar,\nwhere \u003ccode\u003ebar\u003c/code\u003e is a directory and contains an index.html,\nwe need to send back a redirect for http:\u003cem/\u003efoo.com\u003cem\u003ebar\u003c/em\u003e\n(i.e. add the final slash),\notherwise relative links from index.html will be relative to http:\u003cem/\u003efoo.com/\ninstead of http:\u003cem/\u003efoo.com\u003cem\u003ebar\u003c/em\u003e.\nE.g. look at http:\u003cem/\u003ewww.haskell.org\u003cem\u003ehappy\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.AddSlash",
           "name": "AddSlash",
           "package": "mohws",
@@ -7669,6 +8356,7 @@
         "index": {
           "description": "When we get request for http foo.com bar where bar is directory and contains an index.html we need to send back redirect for http foo.com bar i.e add the final slash otherwise relative links from index.html will be relative to http foo.com instead of http foo.com bar E.g look at http www.haskell.org happy",
           "hierarchy": "Network MoHWS Part AddSlash",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.AddSlash",
           "name": "AddSlash",
           "package": "mohws",
@@ -7682,6 +8370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.AddSlash",
           "name": "Configuration",
           "package": "mohws",
@@ -7690,6 +8379,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part AddSlash",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.AddSlash",
           "name": "Configuration",
           "package": "mohws",
@@ -7703,6 +8393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.AddSlash",
           "name": "desc",
           "package": "mohws",
@@ -7712,6 +8403,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part AddSlash",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.AddSlash",
           "name": "desc",
           "package": "mohws",
@@ -7725,6 +8417,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCopyright: 2009, Henning Thielemann.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.CGI",
           "name": "CGI",
           "package": "mohws",
@@ -7734,6 +8427,7 @@
         "index": {
           "description": "Copyright Henning Thielemann",
           "hierarchy": "Network MoHWS Part CGI",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.CGI",
           "name": "CGI",
           "package": "mohws",
@@ -7747,6 +8441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.CGI",
           "name": "Configuration",
           "package": "mohws",
@@ -7755,6 +8450,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part CGI",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.CGI",
           "name": "Configuration",
           "package": "mohws",
@@ -7768,6 +8464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.CGI",
           "name": "desc",
           "package": "mohws",
@@ -7777,6 +8474,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part CGI",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.CGI",
           "name": "desc",
           "package": "mohws",
@@ -7789,6 +8487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.CGI",
           "name": "mkCGIEnv",
           "package": "mohws",
@@ -7798,6 +8497,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part CGI",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.CGI",
           "name": "mkCGIEnv",
           "normalized": "T a-\u003eT b-\u003eString-\u003eIO[(String,String)]",
@@ -7813,6 +8513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.CGI",
           "name": "mkCGIResponse",
           "package": "mohws",
@@ -7822,6 +8523,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part CGI",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.CGI",
           "name": "mkCGIResponse",
           "normalized": "Group-\u003ea-\u003eHandle-\u003eIO(T a)",
@@ -7838,6 +8540,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCopyright: 2006, Bjorn Bringert.\nCopyright: 2009, Henning Thielemann.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.File",
           "name": "File",
           "package": "mohws",
@@ -7847,6 +8550,7 @@
         "index": {
           "description": "Copyright Bjorn Bringert Copyright Henning Thielemann",
           "hierarchy": "Network MoHWS Part File",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.File",
           "name": "File",
           "package": "mohws",
@@ -7861,6 +8565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDummy Configuration that forces users\nto use the lifting mechanism,\nwhich in turn asserts that future extensions are respected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.File",
           "name": "Configuration",
           "package": "mohws",
@@ -7870,6 +8575,7 @@
         "index": {
           "description": "Dummy Configuration that forces users to use the lifting mechanism which in turn asserts that future extensions are respected",
           "hierarchy": "Network MoHWS Part File",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.File",
           "name": "Configuration",
           "package": "mohws",
@@ -7883,6 +8589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.File",
           "name": "desc",
           "package": "mohws",
@@ -7892,6 +8599,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part File",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.File",
           "name": "desc",
           "package": "mohws",
@@ -7905,6 +8613,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCopyright: 2006, Bjorn Bringert.\nCopyright: 2009, Henning Thielemann.\n\u003c/p\u003e\u003cp\u003eShow \u003ccode\u003eindex.html\u003c/code\u003e or another configured file\nwhenever the URI path is a directory.\nHowever, this module gets only active\nif the directory path is terminated with a slash.\nWithout a slash the relative paths will not be processed correct by the web clients\n(they will consider relative paths as relative to the superdirectory).\nSee also \u003ca\u003eNetwork.MoHWS.Part.AddSlash\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.Index",
           "name": "Index",
           "package": "mohws",
@@ -7914,6 +8623,7 @@
         "index": {
           "description": "Copyright Bjorn Bringert Copyright Henning Thielemann Show index.html or another configured file whenever the URI path is directory However this module gets only active if the directory path is terminated with slash Without slash the relative paths will not be processed correct by the web clients they will consider relative paths as relative to the superdirectory See also Network.MoHWS.Part.AddSlash",
           "hierarchy": "Network MoHWS Part Index",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.Index",
           "name": "Index",
           "package": "mohws",
@@ -7927,6 +8637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.Index",
           "name": "Configuration",
           "package": "mohws",
@@ -7935,6 +8646,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part Index",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.Index",
           "name": "Configuration",
           "package": "mohws",
@@ -7948,6 +8660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.Index",
           "name": "desc",
           "package": "mohws",
@@ -7957,6 +8670,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part Index",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.Index",
           "name": "desc",
           "package": "mohws",
@@ -7970,6 +8684,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeliver a HTML document containing the contents of a directory.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.Listing",
           "name": "Listing",
           "package": "mohws",
@@ -7979,6 +8694,7 @@
         "index": {
           "description": "Deliver HTML document containing the contents of directory",
           "hierarchy": "Network MoHWS Part Listing",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.Listing",
           "name": "Listing",
           "package": "mohws",
@@ -7992,6 +8708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.Listing",
           "name": "Configuration",
           "package": "mohws",
@@ -8000,6 +8717,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part Listing",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.Listing",
           "name": "Configuration",
           "package": "mohws",
@@ -8013,6 +8731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.Listing",
           "name": "desc",
           "package": "mohws",
@@ -8022,6 +8741,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part Listing",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.Listing",
           "name": "desc",
           "package": "mohws",
@@ -8035,6 +8755,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCopyright: 2006, Bjorn Bringert.\nCopyright: 2009, Henning Thielemann.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.UserDirectory",
           "name": "UserDirectory",
           "package": "mohws",
@@ -8044,6 +8765,7 @@
         "index": {
           "description": "Copyright Bjorn Bringert Copyright Henning Thielemann",
           "hierarchy": "Network MoHWS Part UserDirectory",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.UserDirectory",
           "name": "UserDirectory",
           "package": "mohws",
@@ -8057,6 +8779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.UserDirectory",
           "name": "Configuration",
           "package": "mohws",
@@ -8065,6 +8788,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part UserDirectory",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.UserDirectory",
           "name": "Configuration",
           "package": "mohws",
@@ -8078,6 +8802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.UserDirectory",
           "name": "desc",
           "package": "mohws",
@@ -8087,6 +8812,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part UserDirectory",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.UserDirectory",
           "name": "desc",
           "package": "mohws",
@@ -8099,6 +8825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.VirtualHost",
           "name": "VirtualHost",
           "package": "mohws",
@@ -8107,6 +8834,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part VirtualHost",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.VirtualHost",
           "name": "VirtualHost",
           "package": "mohws",
@@ -8120,6 +8848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.VirtualHost",
           "name": "Configuration",
           "package": "mohws",
@@ -8128,6 +8857,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part VirtualHost",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.VirtualHost",
           "name": "Configuration",
           "package": "mohws",
@@ -8141,6 +8871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.VirtualHost",
           "name": "desc",
           "package": "mohws",
@@ -8150,6 +8881,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part VirtualHost",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.VirtualHost",
           "name": "desc",
           "package": "mohws",
@@ -8162,6 +8894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.VirtualHost",
           "name": "virtualDocumentRoot",
           "package": "mohws",
@@ -8171,6 +8904,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part VirtualHost",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.VirtualHost",
           "name": "virtualDocumentRoot",
           "package": "mohws",
@@ -8184,6 +8918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Part.VirtualHost",
           "name": "virtualFile",
           "package": "mohws",
@@ -8193,6 +8928,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Part VirtualHost",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Part.VirtualHost",
           "name": "virtualFile",
           "package": "mohws",
@@ -8207,6 +8943,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCopyright: 2009, Henning Thielemann\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Context",
           "name": "Context",
           "package": "mohws",
@@ -8216,6 +8953,7 @@
         "index": {
           "description": "Copyright Henning Thielemann",
           "hierarchy": "Network MoHWS Server Context",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Context",
           "name": "Context",
           "package": "mohws",
@@ -8229,6 +8967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Context",
           "name": "T",
           "package": "mohws",
@@ -8237,6 +8976,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Context",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Context",
           "name": "T",
           "package": "mohws",
@@ -8249,6 +8989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Context",
           "name": "Cons",
           "package": "mohws",
@@ -8258,6 +8999,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Context",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Context",
           "name": "Cons",
           "package": "mohws",
@@ -8271,6 +9013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Context",
           "name": "accessLoggers",
           "package": "mohws",
@@ -8280,6 +9023,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Context",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Context",
           "name": "accessLoggers",
           "normalized": "[Handle]",
@@ -8295,6 +9039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Context",
           "name": "config",
           "package": "mohws",
@@ -8304,6 +9049,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Context",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Context",
           "name": "config",
           "package": "mohws",
@@ -8316,6 +9062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Context",
           "name": "errorLogger",
           "package": "mohws",
@@ -8325,6 +9072,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Context",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Context",
           "name": "errorLogger",
           "package": "mohws",
@@ -8338,6 +9086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Context",
           "name": "getMimeType",
           "package": "mohws",
@@ -8347,6 +9096,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Context",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Context",
           "name": "getMimeType",
           "normalized": "T a-\u003eFilePath-\u003eString",
@@ -8362,6 +9112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Context",
           "name": "hostName",
           "package": "mohws",
@@ -8371,6 +9122,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Context",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Context",
           "name": "hostName",
           "package": "mohws",
@@ -8384,6 +9136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Context",
           "name": "logAccess",
           "package": "mohws",
@@ -8393,6 +9146,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Context",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Context",
           "name": "logAccess",
           "normalized": "T a-\u003eT b-\u003eT b-\u003eTimeDiff-\u003eIO()",
@@ -8408,6 +9162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Context",
           "name": "mimeTypes",
           "package": "mohws",
@@ -8417,6 +9172,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Context",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Context",
           "name": "mimeTypes",
           "package": "mohws",
@@ -8430,6 +9186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Context",
           "name": "options",
           "package": "mohws",
@@ -8439,6 +9196,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Context",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Context",
           "name": "options",
           "package": "mohws",
@@ -8451,6 +9209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Options",
           "name": "Options",
           "package": "mohws",
@@ -8459,6 +9218,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Options",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Options",
           "name": "Options",
           "package": "mohws",
@@ -8472,6 +9232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Options",
           "name": "T",
           "package": "mohws",
@@ -8480,6 +9241,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Options",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Options",
           "name": "T",
           "package": "mohws",
@@ -8492,6 +9254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Options",
           "name": "Cons",
           "package": "mohws",
@@ -8501,6 +9264,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Options",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Options",
           "name": "Cons",
           "package": "mohws",
@@ -8514,6 +9278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Options",
           "name": "configPath",
           "package": "mohws",
@@ -8523,6 +9288,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Options",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Options",
           "name": "configPath",
           "normalized": "T-\u003eFilePath",
@@ -8538,6 +9304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Options",
           "name": "inServerRoot",
           "package": "mohws",
@@ -8547,6 +9314,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Options",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Options",
           "name": "inServerRoot",
           "normalized": "T-\u003eFilePath-\u003eFilePath",
@@ -8562,6 +9330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Options",
           "name": "parse",
           "package": "mohws",
@@ -8571,6 +9340,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Options",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Options",
           "name": "parse",
           "normalized": "[String]-\u003eEither String T",
@@ -8585,6 +9355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Request",
           "name": "Request",
           "package": "mohws",
@@ -8593,6 +9364,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Request",
           "name": "Request",
           "package": "mohws",
@@ -8607,6 +9379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the server's information about a request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Request",
           "name": "T",
           "package": "mohws",
@@ -8616,6 +9389,7 @@
         "index": {
           "description": "All the server information about request",
           "hierarchy": "Network MoHWS Server Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Request",
           "name": "T",
           "package": "mohws",
@@ -8628,6 +9402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Request",
           "name": "Cons",
           "package": "mohws",
@@ -8637,6 +9412,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Request",
           "name": "Cons",
           "package": "mohws",
@@ -8650,6 +9426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Request",
           "name": "clientAddress",
           "package": "mohws",
@@ -8659,6 +9436,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Request",
           "name": "clientAddress",
           "package": "mohws",
@@ -8672,6 +9450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Request",
           "name": "clientName",
           "package": "mohws",
@@ -8681,6 +9460,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Request",
           "name": "clientName",
           "package": "mohws",
@@ -8694,6 +9474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Request",
           "name": "clientRequest",
           "package": "mohws",
@@ -8703,6 +9484,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Request",
           "name": "clientRequest",
           "package": "mohws",
@@ -8716,6 +9498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Request",
           "name": "requestHostName",
           "package": "mohws",
@@ -8725,6 +9508,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Request",
           "name": "requestHostName",
           "package": "mohws",
@@ -8738,6 +9522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Request",
           "name": "serverFilename",
           "package": "mohws",
@@ -8747,6 +9532,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Request",
           "name": "serverFilename",
           "package": "mohws",
@@ -8760,6 +9546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Request",
           "name": "serverPort",
           "package": "mohws",
@@ -8769,6 +9556,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Request",
           "name": "serverPort",
           "package": "mohws",
@@ -8782,6 +9570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server.Request",
           "name": "serverURIPath",
           "package": "mohws",
@@ -8791,6 +9580,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server Request",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server.Request",
           "name": "serverURIPath",
           "package": "mohws",
@@ -8804,6 +9594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server",
           "name": "Server",
           "package": "mohws",
@@ -8812,6 +9603,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server",
           "name": "Server",
           "package": "mohws",
@@ -8825,6 +9617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server",
           "name": "main",
           "package": "mohws",
@@ -8834,6 +9627,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server",
           "name": "main",
           "normalized": "T a b-\u003eIO()",
@@ -8848,6 +9642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Server",
           "name": "mainWithOptions",
           "package": "mohws",
@@ -8857,6 +9652,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Server",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Server",
           "name": "mainWithOptions",
           "normalized": "T a b-\u003eT-\u003eIO()",
@@ -8873,6 +9669,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnified interface to String and ByteStrings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "Stream",
           "package": "mohws",
@@ -8882,6 +9679,7 @@
         "index": {
           "description": "Unified interface to String and ByteStrings",
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "Stream",
           "package": "mohws",
@@ -8895,6 +9693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "C",
           "package": "mohws",
@@ -8903,6 +9702,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "C",
           "package": "mohws",
@@ -8915,6 +9715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "CharType",
           "package": "mohws",
@@ -8923,6 +9724,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "CharType",
           "package": "mohws",
@@ -8936,6 +9738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "break",
           "package": "mohws",
@@ -8945,6 +9748,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "break",
           "normalized": "(Char-\u003eBool)-\u003ea-\u003e(a,a)",
@@ -8959,6 +9763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "drop",
           "package": "mohws",
@@ -8968,6 +9773,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "drop",
           "normalized": "Int-\u003ea-\u003ea",
@@ -8982,6 +9788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "fromChar",
           "package": "mohws",
@@ -8991,6 +9798,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "fromChar",
           "normalized": "Char-\u003ea",
@@ -9006,6 +9814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "fromString",
           "package": "mohws",
@@ -9015,6 +9824,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "fromString",
           "normalized": "Int-\u003eString-\u003ea",
@@ -9030,6 +9840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "isEmpty",
           "package": "mohws",
@@ -9039,6 +9850,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "isEmpty",
           "normalized": "a-\u003eBool",
@@ -9054,6 +9866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "isPrefixOf",
           "package": "mohws",
@@ -9063,6 +9876,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "isPrefixOf",
           "normalized": "a-\u003ea-\u003eBool",
@@ -9078,6 +9892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "length",
           "package": "mohws",
@@ -9087,6 +9902,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "length",
           "normalized": "a-\u003eInteger",
@@ -9101,6 +9917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "read",
           "package": "mohws",
@@ -9110,6 +9927,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "read",
           "normalized": "Handle-\u003eInteger-\u003eIO a",
@@ -9124,6 +9942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "readAll",
           "package": "mohws",
@@ -9133,6 +9952,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "readAll",
           "normalized": "Int-\u003eHandle-\u003eIO a",
@@ -9148,6 +9968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "toChar",
           "package": "mohws",
@@ -9157,6 +9978,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "toChar",
           "normalized": "a-\u003eChar",
@@ -9172,6 +9994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "toString",
           "package": "mohws",
@@ -9181,6 +10004,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -9196,6 +10020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "write",
           "package": "mohws",
@@ -9205,6 +10030,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "write",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -9219,6 +10045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:26 UTC 2014",
           "module": "Network.MoHWS.Stream",
           "name": "writeChunked",
           "package": "mohws",
@@ -9228,6 +10055,7 @@
         },
         "index": {
           "hierarchy": "Network MoHWS Stream",
+          "indexed": "2014-03-11T19:19:26",
           "module": "Network.MoHWS.Stream",
           "name": "writeChunked",
           "normalized": "Int-\u003eHandle-\u003ea-\u003eIO()",

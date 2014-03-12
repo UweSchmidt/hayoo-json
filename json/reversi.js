@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reversi"
+        "phrase": "reversi",
+        "type": "phrase"
       },
       "type": "context"
     }

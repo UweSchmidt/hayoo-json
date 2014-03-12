@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HGamer3D-CAudio-Binding"
+        "phrase": "HGamer3D-CAudio-Binding",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-python"
+        "phrase": "language-python",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentation of the Python abstract syntax tree (AST). The representation is\n a superset of versions 2.x and 3.x of Python. In many cases they are \n identical. The documentation in this module indicates where they are\n different.\n\u003c/p\u003e\u003cp\u003eAll the data types have a (polymorphic) parameter which allows the AST to\n be annotated by an arbitrary type (for example source locations). Specialised\n instances of the types are provided for source spans. For example \u003ccode\u003eModule a\u003c/code\u003e is\n the type of modules, and \u003ccode\u003eModuleSpan\u003c/code\u003e is the type of modules annoted with source\n span information.\n\u003c/p\u003e\u003cp\u003eNote: there are cases where the AST is more liberal than the formal grammar\n of the language. Therefore some care must be taken when constructing\n Python programs using the raw AST. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "AST",
           "package": "language-python",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Representation of the Python abstract syntax tree AST The representation is superset of versions and of Python In many cases they are identical The documentation in this module indicates where they are different All the data types have polymorphic parameter which allows the AST to be annotated by an arbitrary type for example source locations Specialised instances of the types are provided for source spans For example Module is the type of modules and ModuleSpan is the type of modules annoted with source span information Note there are cases where the AST is more liberal than the formal grammar of the language Therefore some care must be taken when constructing Python programs using the raw AST",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "AST",
           "package": "language-python",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient access to annotations in annotated types. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Annotated",
           "package": "language-python",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Convenient access to annotations in annotated types",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Annotated",
           "package": "language-python",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArguments to function calls, class declarations and decorators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Argument",
           "package": "language-python",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Arguments to function calls class declarations and decorators",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Argument",
           "package": "language-python",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ArgumentSpan",
           "package": "language-python",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ArgumentSpan",
           "package": "language-python",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAugmented assignment operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "AssignOp",
           "package": "language-python",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Augmented assignment operators",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "AssignOp",
           "package": "language-python",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "AssignOpSpan",
           "package": "language-python",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "AssignOpSpan",
           "package": "language-python",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComprehension 'for' component. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "CompFor",
           "package": "language-python",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Comprehension for component",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "CompFor",
           "package": "language-python",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "CompForSpan",
           "package": "language-python",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "CompForSpan",
           "package": "language-python",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComprehension guard. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "CompIf",
           "package": "language-python",
@@ -206,6 +223,7 @@
         "index": {
           "description": "Comprehension guard",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "CompIf",
           "package": "language-python",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "CompIfSpan",
           "package": "language-python",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "CompIfSpan",
           "package": "language-python",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComprehension iterator (either a 'for' or an 'if'). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "CompIter",
           "package": "language-python",
@@ -250,6 +271,7 @@
         "index": {
           "description": "Comprehension iterator either for or an if",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "CompIter",
           "package": "language-python",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "CompIterSpan",
           "package": "language-python",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "CompIterSpan",
           "package": "language-python",
@@ -285,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComprehension. In version 3.x this can be used for lists, sets, dictionaries and generators. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Comprehension",
           "package": "language-python",
@@ -294,6 +319,7 @@
         "index": {
           "description": "Comprehension In version this can be used for lists sets dictionaries and generators",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Comprehension",
           "package": "language-python",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ComprehensionSpan",
           "package": "language-python",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ComprehensionSpan",
           "package": "language-python",
@@ -329,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecorator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Decorator",
           "package": "language-python",
@@ -338,6 +367,7 @@
         "index": {
           "description": "Decorator",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Decorator",
           "package": "language-python",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "DecoratorSpan",
           "package": "language-python",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "DecoratorSpan",
           "package": "language-python",
@@ -373,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compound name constructed with the dot operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "DottedName",
           "package": "language-python",
@@ -382,6 +415,7 @@
         "index": {
           "description": "compound name constructed with the dot operator",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "DottedName",
           "package": "language-python",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "DottedNameSpan",
           "package": "language-python",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "DottedNameSpan",
           "package": "language-python",
@@ -417,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException clause. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ExceptClause",
           "package": "language-python",
@@ -426,6 +463,7 @@
         "index": {
           "description": "Exception clause",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ExceptClause",
           "package": "language-python",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ExceptClauseSpan",
           "package": "language-python",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ExceptClauseSpan",
           "package": "language-python",
@@ -461,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpressions.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Version 2.6 \u003ca\u003ehttp://www.python.org/doc/2.6/reference/expressions.html\u003c/a\u003e.\n\u003c/li\u003e\u003cli\u003e Version 3.1 \u003ca\u003ehttp://www.python.org/doc/3.1/reference/expressions.html\u003c/a\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Expr",
           "package": "language-python",
@@ -470,6 +511,7 @@
         "index": {
           "description": "Expressions Version http www.python.org doc reference expressions.html Version http www.python.org doc reference expressions.html",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Expr",
           "package": "language-python",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ExprSpan",
           "package": "language-python",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ExprSpan",
           "package": "language-python",
@@ -505,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entity imported using the 'from ... import' construct.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Version 2.6 \u003ca\u003ehttp://www.python.org/doc/2.6/reference/simple_stmts.html#the-import-statement\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Version 3.1 \u003ca\u003ehttp://www.python.org/doc/3.1/reference/simple_stmts.html#the-import-statement\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "FromItem",
           "package": "language-python",
@@ -514,6 +559,7 @@
         "index": {
           "description": "An entity imported using the from import construct Version http www.python.org doc reference simple stmts.html the-import-statement Version http www.python.org doc reference simple stmts.html the-import-statement",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "FromItem",
           "package": "language-python",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "FromItemSpan",
           "package": "language-python",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "FromItemSpan",
           "package": "language-python",
@@ -549,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eItems imported using the 'from ... import' construct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "FromItems",
           "package": "language-python",
@@ -558,6 +607,7 @@
         "index": {
           "description": "Items imported using the from import construct",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "FromItems",
           "package": "language-python",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "FromItemsSpan",
           "package": "language-python",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "FromItemsSpan",
           "package": "language-python",
@@ -593,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException handler. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Handler",
           "package": "language-python",
@@ -602,6 +655,7 @@
         "index": {
           "description": "Exception handler",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Handler",
           "package": "language-python",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "HandlerSpan",
           "package": "language-python",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "HandlerSpan",
           "package": "language-python",
@@ -637,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Ident",
           "package": "language-python",
@@ -646,6 +703,7 @@
         "index": {
           "description": "Identifier",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Ident",
           "package": "language-python",
@@ -659,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "IdentSpan",
           "package": "language-python",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "IdentSpan",
           "package": "language-python",
@@ -681,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entity imported using the 'import' keyword.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Version 2.6 \u003ca\u003ehttp://www.python.org/doc/2.6/reference/simple_stmts.html#the-import-statement\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Version 3.1 \u003ca\u003ehttp://www.python.org/doc/3.1/reference/simple_stmts.html#the-import-statement\u003c/a\u003e \n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ImportItem",
           "package": "language-python",
@@ -690,6 +751,7 @@
         "index": {
           "description": "An entity imported using the import keyword Version http www.python.org doc reference simple stmts.html the-import-statement Version http www.python.org doc reference simple stmts.html the-import-statement",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ImportItem",
           "package": "language-python",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ImportItemSpan",
           "package": "language-python",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ImportItemSpan",
           "package": "language-python",
@@ -725,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to the module to import from using the 'from ... import' construct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ImportRelative",
           "package": "language-python",
@@ -734,6 +799,7 @@
         "index": {
           "description": "reference to the module to import from using the from import construct",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ImportRelative",
           "package": "language-python",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ImportRelativeSpan",
           "package": "language-python",
@@ -755,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ImportRelativeSpan",
           "package": "language-python",
@@ -769,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA module (Python source file). \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Version 2.6 \u003ca\u003ehttp://www.python.org/doc/2.6/reference/toplevel_components.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Version 3.1 \u003ca\u003ehttp://www.python.org/doc/3.1/reference/toplevel_components.html\u003c/a\u003e \n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Module",
           "package": "language-python",
@@ -778,6 +847,7 @@
         "index": {
           "description": "module Python source file Version http www.python.org doc reference toplevel components.html Version http www.python.org doc reference toplevel components.html",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Module",
           "package": "language-python",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ModuleSpan",
           "package": "language-python",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ModuleSpan",
           "package": "language-python",
@@ -813,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Op",
           "package": "language-python",
@@ -822,6 +895,7 @@
         "index": {
           "description": "Operators",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Op",
           "package": "language-python",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "OpSpan",
           "package": "language-python",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "OpSpan",
           "package": "language-python",
@@ -857,6 +933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple unpack parameter. \u003cem\u003eVersion 2 only\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ParamTuple",
           "package": "language-python",
@@ -866,6 +943,7 @@
         "index": {
           "description": "Tuple unpack parameter Version only",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ParamTuple",
           "package": "language-python",
@@ -879,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ParamTupleSpan",
           "package": "language-python",
@@ -887,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ParamTupleSpan",
           "package": "language-python",
@@ -901,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormal parameter of function definitions and lambda expressions.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Version 2.6: \n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/2.6/reference/compound_stmts.html#function-definitions\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/2.6/reference/expressions.html#calls\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Version 3.1: \n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/3.1/reference/compound_stmts.html#function-definitions\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/3.1/reference/expressions.html#calls\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Parameter",
           "package": "language-python",
@@ -910,6 +991,7 @@
         "index": {
           "description": "Formal parameter of function definitions and lambda expressions Version http www.python.org doc reference compound stmts.html function-definitions http www.python.org doc reference expressions.html calls Version http www.python.org doc reference compound stmts.html function-definitions http www.python.org doc reference expressions.html calls",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Parameter",
           "package": "language-python",
@@ -923,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ParameterSpan",
           "package": "language-python",
@@ -931,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ParameterSpan",
           "package": "language-python",
@@ -945,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe argument for a \u003ccode\u003eraise\u003c/code\u003e statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "RaiseExpr",
           "package": "language-python",
@@ -954,6 +1039,7 @@
         "index": {
           "description": "The argument for raise statement",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "RaiseExpr",
           "package": "language-python",
@@ -967,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "RaiseExprSpan",
           "package": "language-python",
@@ -975,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "RaiseExprSpan",
           "package": "language-python",
@@ -989,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlice compenent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Slice",
           "package": "language-python",
@@ -998,6 +1087,7 @@
         "index": {
           "description": "Slice compenent",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Slice",
           "package": "language-python",
@@ -1011,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "SliceSpan",
           "package": "language-python",
@@ -1019,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "SliceSpan",
           "package": "language-python",
@@ -1033,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatements.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Simple statements:\n\u003c/li\u003e\u003cli\u003e Version 2.6 \u003ca\u003ehttp://www.python.org/doc/2.6/reference/simple_stmts.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Version 3.1 \u003ca\u003ehttp://www.python.org/doc/3.1/reference/simple_stmts.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Compound statements:\n\u003c/li\u003e\u003cli\u003e Version 2.6 \u003ca\u003ehttp://www.python.org/doc/2.6/reference/compound_stmts.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Version 3.1 \u003ca\u003ehttp://www.python.org/doc/3.1/reference/compound_stmts.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Statement",
           "package": "language-python",
@@ -1042,6 +1135,7 @@
         "index": {
           "description": "Statements Simple statements Version http www.python.org doc reference simple stmts.html Version http www.python.org doc reference simple stmts.html Compound statements Version http www.python.org doc reference compound stmts.html Version http www.python.org doc reference compound stmts.html",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Statement",
           "package": "language-python",
@@ -1055,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "StatementSpan",
           "package": "language-python",
@@ -1063,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "StatementSpan",
           "package": "language-python",
@@ -1077,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA block of statements. A suite is a group of statements controlled by a clause, \n for example, the body of a loop. \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Version 2.6 \u003ca\u003ehttp://www.python.org/doc/2.6/reference/compound_stmts.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Version 3.1 \u003ca\u003ehttp://www.python.org/doc/3.1/reference/compound_stmts.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Suite",
           "package": "language-python",
@@ -1086,6 +1183,7 @@
         "index": {
           "description": "block of statements suite is group of statements controlled by clause for example the body of loop Version http www.python.org doc reference compound stmts.html Version http www.python.org doc reference compound stmts.html",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Suite",
           "package": "language-python",
@@ -1099,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "SuiteSpan",
           "package": "language-python",
@@ -1107,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "SuiteSpan",
           "package": "language-python",
@@ -1121,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'and'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "And",
           "package": "language-python",
@@ -1131,6 +1232,7 @@
         "index": {
           "description": "and",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "And",
           "package": "language-python",
@@ -1145,6 +1247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdinary argument expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ArgExpr",
           "package": "language-python",
@@ -1155,6 +1258,7 @@
         "index": {
           "description": "Ordinary argument expression",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ArgExpr",
           "package": "language-python",
@@ -1169,6 +1273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ArgKeyword",
           "package": "language-python",
@@ -1179,6 +1284,7 @@
         "index": {
           "description": "Keyword argument",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ArgKeyword",
           "package": "language-python",
@@ -1193,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExcess keyword argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ArgVarArgsKeyword",
           "package": "language-python",
@@ -1203,6 +1310,7 @@
         "index": {
           "description": "Excess keyword argument",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ArgVarArgsKeyword",
           "package": "language-python",
@@ -1217,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExcess positional argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ArgVarArgsPos",
           "package": "language-python",
@@ -1227,6 +1336,7 @@
         "index": {
           "description": "Excess positional argument",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ArgVarArgsPos",
           "package": "language-python",
@@ -1241,6 +1351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssertion. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Assert",
           "package": "language-python",
@@ -1251,6 +1362,7 @@
         "index": {
           "description": "Assertion",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Assert",
           "package": "language-python",
@@ -1265,6 +1377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssignment statement. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Assign",
           "package": "language-python",
@@ -1275,6 +1388,7 @@
         "index": {
           "description": "Assignment statement",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Assign",
           "package": "language-python",
@@ -1289,6 +1403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAugmented assignment statement. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "AugmentedAssign",
           "package": "language-python",
@@ -1299,6 +1414,7 @@
         "index": {
           "description": "Augmented assignment statement",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "AugmentedAssign",
           "package": "language-python",
@@ -1313,6 +1429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'&='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "BinAndAssign",
           "package": "language-python",
@@ -1322,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "BinAndAssign",
           "package": "language-python",
@@ -1336,6 +1454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'|='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "BinOrAssign",
           "package": "language-python",
@@ -1345,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "BinOrAssign",
           "package": "language-python",
@@ -1359,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'^=' \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "BinXorAssign",
           "package": "language-python",
@@ -1368,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "BinXorAssign",
           "package": "language-python",
@@ -1382,6 +1504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'&'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "BinaryAnd",
           "package": "language-python",
@@ -1391,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "BinaryAnd",
           "package": "language-python",
@@ -1405,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary operator application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "BinaryOp",
           "package": "language-python",
@@ -1415,6 +1540,7 @@
         "index": {
           "description": "Binary operator application",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "BinaryOp",
           "package": "language-python",
@@ -1429,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'|'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "BinaryOr",
           "package": "language-python",
@@ -1438,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "BinaryOr",
           "package": "language-python",
@@ -1452,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral boolean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Bool",
           "package": "language-python",
@@ -1462,6 +1591,7 @@
         "index": {
           "description": "Literal boolean",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Bool",
           "package": "language-python",
@@ -1476,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak statement (may only occur syntactically nested in a for or while loop, but not nested in a function or class definition within that loop). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Break",
           "package": "language-python",
@@ -1486,6 +1617,7 @@
         "index": {
           "description": "Break statement may only occur syntactically nested in for or while loop but not nested in function or class definition within that loop",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Break",
           "package": "language-python",
@@ -1500,6 +1632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral byte string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ByteStrings",
           "package": "language-python",
@@ -1510,6 +1643,7 @@
         "index": {
           "description": "Literal byte string",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ByteStrings",
           "package": "language-python",
@@ -1524,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction call. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Call",
           "package": "language-python",
@@ -1534,6 +1669,7 @@
         "index": {
           "description": "Function call",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Call",
           "package": "language-python",
@@ -1548,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass definition. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Class",
           "package": "language-python",
@@ -1558,6 +1695,7 @@
         "index": {
           "description": "Class definition",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Class",
           "package": "language-python",
@@ -1571,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "CompFor",
           "package": "language-python",
@@ -1580,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "CompFor",
           "package": "language-python",
@@ -1593,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "CompIf",
           "package": "language-python",
@@ -1602,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "CompIf",
           "package": "language-python",
@@ -1615,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Comprehension",
           "package": "language-python",
@@ -1624,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Comprehension",
           "package": "language-python",
@@ -1638,6 +1782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional expresison. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "CondExpr",
           "package": "language-python",
@@ -1648,6 +1793,7 @@
         "index": {
           "description": "Conditional expresison",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "CondExpr",
           "package": "language-python",
@@ -1662,6 +1808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional statement (if-elif-else). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Conditional",
           "package": "language-python",
@@ -1672,6 +1819,7 @@
         "index": {
           "description": "Conditional statement if-elif-else",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Conditional",
           "package": "language-python",
@@ -1686,6 +1834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContinue statement (may only occur syntactically nested in a for or while loop, but not nested in a function or class definition or finally clause within that loop). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Continue",
           "package": "language-python",
@@ -1696,6 +1845,7 @@
         "index": {
           "description": "Continue statement may only occur syntactically nested in for or while loop but not nested in function or class definition or finally clause within that loop",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Continue",
           "package": "language-python",
@@ -1710,6 +1860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecorated definition of a function or class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Decorated",
           "package": "language-python",
@@ -1720,6 +1871,7 @@
         "index": {
           "description": "Decorated definition of function or class",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Decorated",
           "package": "language-python",
@@ -1733,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Decorator",
           "package": "language-python",
@@ -1742,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Decorator",
           "package": "language-python",
@@ -1756,6 +1910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDel statement (delete). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Delete",
           "package": "language-python",
@@ -1766,6 +1921,7 @@
         "index": {
           "description": "Del statement delete",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Delete",
           "package": "language-python",
@@ -1780,6 +1936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDictionary comprehension. \u003cem\u003eVersion 3 only\u003c/em\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "DictComp",
           "package": "language-python",
@@ -1790,6 +1947,7 @@
         "index": {
           "description": "Dictionary comprehension Version only",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "DictComp",
           "package": "language-python",
@@ -1804,6 +1962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDictionary. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Dictionary",
           "package": "language-python",
@@ -1814,6 +1973,7 @@
         "index": {
           "description": "Dictionary",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Dictionary",
           "package": "language-python",
@@ -1828,6 +1988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'/='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "DivAssign",
           "package": "language-python",
@@ -1837,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "DivAssign",
           "package": "language-python",
@@ -1851,6 +2013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'/'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Divide",
           "package": "language-python",
@@ -1860,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Divide",
           "package": "language-python",
@@ -1874,6 +2038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'.'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Dot",
           "package": "language-python",
@@ -1883,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Dot",
           "package": "language-python",
@@ -1897,6 +2063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEllipsis '...'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Ellipsis",
           "package": "language-python",
@@ -1907,6 +2074,7 @@
         "index": {
           "description": "Ellipsis",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Ellipsis",
           "package": "language-python",
@@ -1921,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarker for the end of positional parameters (not a parameter itself).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "EndPositional",
           "package": "language-python",
@@ -1931,6 +2100,7 @@
         "index": {
           "description": "Marker for the end of positional parameters not parameter itself",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "EndPositional",
           "package": "language-python",
@@ -1945,6 +2115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'=='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Equality",
           "package": "language-python",
@@ -1954,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Equality",
           "package": "language-python",
@@ -1967,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ExceptClause",
           "package": "language-python",
@@ -1976,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ExceptClause",
           "package": "language-python",
@@ -1990,6 +2164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExec statement. \u003cem\u003eVersion 2 only\u003c/em\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Exec",
           "package": "language-python",
@@ -2000,6 +2175,7 @@
         "index": {
           "description": "Exec statement Version only",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Exec",
           "package": "language-python",
@@ -2014,6 +2190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'**'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Exponent",
           "package": "language-python",
@@ -2023,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Exponent",
           "package": "language-python",
@@ -2037,6 +2215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral floating point number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Float",
           "package": "language-python",
@@ -2047,6 +2226,7 @@
         "index": {
           "description": "Literal floating point number",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Float",
           "package": "language-python",
@@ -2061,6 +2241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'//='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "FloorDivAssign",
           "package": "language-python",
@@ -2070,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "FloorDivAssign",
           "package": "language-python",
@@ -2084,6 +2266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'//'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "FloorDivide",
           "package": "language-python",
@@ -2093,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "FloorDivide",
           "package": "language-python",
@@ -2107,6 +2291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor loop. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "For",
           "package": "language-python",
@@ -2117,6 +2302,7 @@
         "index": {
           "description": "For loop",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "For",
           "package": "language-python",
@@ -2131,6 +2317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom ... import statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "FromImport",
           "package": "language-python",
@@ -2141,6 +2328,7 @@
         "index": {
           "description": "From import statement",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "FromImport",
           "package": "language-python",
@@ -2154,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "FromItem",
           "package": "language-python",
@@ -2163,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "FromItem",
           "package": "language-python",
@@ -2177,6 +2367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport a specific list of items from the module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "FromItems",
           "package": "language-python",
@@ -2187,6 +2378,7 @@
         "index": {
           "description": "Import specific list of items from the module",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "FromItems",
           "package": "language-python",
@@ -2201,6 +2393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction definition. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Fun",
           "package": "language-python",
@@ -2211,6 +2404,7 @@
         "index": {
           "description": "Function definition",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Fun",
           "package": "language-python",
@@ -2225,6 +2419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerator. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Generator",
           "package": "language-python",
@@ -2235,6 +2430,7 @@
         "index": {
           "description": "Generator",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Generator",
           "package": "language-python",
@@ -2249,6 +2445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal declaration. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Global",
           "package": "language-python",
@@ -2259,6 +2456,7 @@
         "index": {
           "description": "Global declaration",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Global",
           "package": "language-python",
@@ -2273,6 +2471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'\u003e'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "GreaterThan",
           "package": "language-python",
@@ -2282,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "GreaterThan",
           "package": "language-python",
@@ -2296,6 +2496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'\u003e='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "GreaterThanEquals",
           "package": "language-python",
@@ -2305,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "GreaterThanEquals",
           "package": "language-python",
@@ -2318,6 +2520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Handler",
           "package": "language-python",
@@ -2327,6 +2530,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Handler",
           "package": "language-python",
@@ -2340,6 +2544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Ident",
           "package": "language-python",
@@ -2349,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Ident",
           "package": "language-python",
@@ -2363,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral imaginary number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Imaginary",
           "package": "language-python",
@@ -2373,6 +2580,7 @@
         "index": {
           "description": "Literal imaginary number",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Imaginary",
           "package": "language-python",
@@ -2387,6 +2595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Import",
           "package": "language-python",
@@ -2397,6 +2606,7 @@
         "index": {
           "description": "Import statement",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Import",
           "package": "language-python",
@@ -2411,6 +2621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport everything exported from the module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ImportEverything",
           "package": "language-python",
@@ -2421,6 +2632,7 @@
         "index": {
           "description": "Import everything exported from the module",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ImportEverything",
           "package": "language-python",
@@ -2434,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ImportItem",
           "package": "language-python",
@@ -2443,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ImportItem",
           "package": "language-python",
@@ -2456,6 +2670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ImportRelative",
           "package": "language-python",
@@ -2465,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ImportRelative",
           "package": "language-python",
@@ -2479,6 +2695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'in'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "In",
           "package": "language-python",
@@ -2489,6 +2706,7 @@
         "index": {
           "description": "in",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "In",
           "package": "language-python",
@@ -2503,6 +2721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Int",
           "package": "language-python",
@@ -2513,6 +2732,7 @@
         "index": {
           "description": "Literal integer",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Int",
           "package": "language-python",
@@ -2527,6 +2747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'~' (bitwise inversion of its integer argument)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Invert",
           "package": "language-python",
@@ -2537,6 +2758,7 @@
         "index": {
           "description": "bitwise inversion of its integer argument",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Invert",
           "package": "language-python",
@@ -2551,6 +2773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'is'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Is",
           "package": "language-python",
@@ -2561,6 +2784,7 @@
         "index": {
           "description": "is",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Is",
           "package": "language-python",
@@ -2575,6 +2799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'is not'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "IsNot",
           "package": "language-python",
@@ -2585,6 +2810,7 @@
         "index": {
           "description": "is not",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "IsNot",
           "package": "language-python",
@@ -2598,6 +2824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "IterFor",
           "package": "language-python",
@@ -2607,6 +2834,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "IterFor",
           "package": "language-python",
@@ -2620,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "IterIf",
           "package": "language-python",
@@ -2629,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "IterIf",
           "package": "language-python",
@@ -2643,6 +2873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnonymous function definition (lambda). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Lambda",
           "package": "language-python",
@@ -2653,6 +2884,7 @@
         "index": {
           "description": "Anonymous function definition lambda",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Lambda",
           "package": "language-python",
@@ -2667,6 +2899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'\u003c\u003c='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "LeftShiftAssign",
           "package": "language-python",
@@ -2676,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "LeftShiftAssign",
           "package": "language-python",
@@ -2690,6 +2924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'\u003c'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "LessThan",
           "package": "language-python",
@@ -2699,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "LessThan",
           "package": "language-python",
@@ -2713,6 +2949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'\u003c='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "LessThanEquals",
           "package": "language-python",
@@ -2722,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "LessThanEquals",
           "package": "language-python",
@@ -2736,6 +2974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "List",
           "package": "language-python",
@@ -2746,6 +2985,7 @@
         "index": {
           "description": "List",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "List",
           "package": "language-python",
@@ -2760,6 +3000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList comprehension. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ListComp",
           "package": "language-python",
@@ -2770,6 +3011,7 @@
         "index": {
           "description": "List comprehension",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ListComp",
           "package": "language-python",
@@ -2784,6 +3026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLong literal integer. \u003cem\u003eVersion 2 only\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "LongInt",
           "package": "language-python",
@@ -2794,6 +3037,7 @@
         "index": {
           "description": "Long literal integer Version only",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "LongInt",
           "package": "language-python",
@@ -2808,6 +3052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'-'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Minus",
           "package": "language-python",
@@ -2817,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Minus",
           "package": "language-python",
@@ -2831,6 +3077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'-='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "MinusAssign",
           "package": "language-python",
@@ -2840,6 +3087,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "MinusAssign",
           "package": "language-python",
@@ -2854,6 +3102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'%='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ModAssign",
           "package": "language-python",
@@ -2863,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ModAssign",
           "package": "language-python",
@@ -2877,6 +3127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA module is just a sequence of top-level statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Module",
           "package": "language-python",
@@ -2887,6 +3138,7 @@
         "index": {
           "description": "module is just sequence of top-level statements",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Module",
           "normalized": "Module[Statement a]",
@@ -2903,6 +3155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'%'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Modulo",
           "package": "language-python",
@@ -2912,6 +3165,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Modulo",
           "package": "language-python",
@@ -2926,6 +3180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'*='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "MultAssign",
           "package": "language-python",
@@ -2935,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "MultAssign",
           "package": "language-python",
@@ -2949,6 +3205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'*'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Multiply",
           "package": "language-python",
@@ -2958,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Multiply",
           "package": "language-python",
@@ -2972,6 +3230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNonlocal declaration. \u003cem\u003eVersion 3.x only\u003c/em\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "NonLocal",
           "package": "language-python",
@@ -2982,6 +3241,7 @@
         "index": {
           "description": "Nonlocal declaration Version only",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "NonLocal",
           "package": "language-python",
@@ -2996,6 +3256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral 'None' value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "None",
           "package": "language-python",
@@ -3006,6 +3267,7 @@
         "index": {
           "description": "Literal None value",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "None",
           "package": "language-python",
@@ -3020,6 +3282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'not'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Not",
           "package": "language-python",
@@ -3030,6 +3293,7 @@
         "index": {
           "description": "not",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Not",
           "package": "language-python",
@@ -3044,6 +3308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'!='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "NotEquals",
           "package": "language-python",
@@ -3053,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "NotEquals",
           "package": "language-python",
@@ -3067,6 +3333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'\u003ca/\u003e'. Version 2 only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "NotEqualsV2",
           "package": "language-python",
@@ -3077,6 +3344,7 @@
         "index": {
           "description": "Version only",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "NotEqualsV2",
           "package": "language-python",
@@ -3091,6 +3359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'not in'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "NotIn",
           "package": "language-python",
@@ -3101,6 +3370,7 @@
         "index": {
           "description": "not in",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "NotIn",
           "package": "language-python",
@@ -3115,6 +3385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'or'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Or",
           "package": "language-python",
@@ -3125,6 +3396,7 @@
         "index": {
           "description": "or",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Or",
           "package": "language-python",
@@ -3139,6 +3411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdinary named parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Param",
           "package": "language-python",
@@ -3149,6 +3422,7 @@
         "index": {
           "description": "Ordinary named parameter",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Param",
           "package": "language-python",
@@ -3163,6 +3437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (possibly nested) tuple parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ParamTuple",
           "package": "language-python",
@@ -3173,6 +3448,7 @@
         "index": {
           "description": "possibly nested tuple parameter",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ParamTuple",
           "package": "language-python",
@@ -3187,6 +3463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ParamTupleName",
           "package": "language-python",
@@ -3197,6 +3474,7 @@
         "index": {
           "description": "variable name",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ParamTupleName",
           "package": "language-python",
@@ -3211,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParenthesised expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Paren",
           "package": "language-python",
@@ -3221,6 +3500,7 @@
         "index": {
           "description": "Parenthesised expression",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Paren",
           "package": "language-python",
@@ -3235,6 +3515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass statement (null operation). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Pass",
           "package": "language-python",
@@ -3245,6 +3526,7 @@
         "index": {
           "description": "Pass statement null operation",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Pass",
           "package": "language-python",
@@ -3259,6 +3541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'+'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Plus",
           "package": "language-python",
@@ -3268,6 +3551,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Plus",
           "package": "language-python",
@@ -3282,6 +3566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'+='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "PlusAssign",
           "package": "language-python",
@@ -3291,6 +3576,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "PlusAssign",
           "package": "language-python",
@@ -3305,6 +3591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'*='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "PowAssign",
           "package": "language-python",
@@ -3314,6 +3601,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "PowAssign",
           "package": "language-python",
@@ -3328,6 +3616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint statement. \u003cem\u003eVersion 2 only\u003c/em\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Print",
           "package": "language-python",
@@ -3338,6 +3627,7 @@
         "index": {
           "description": "Print statement Version only",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Print",
           "package": "language-python",
@@ -3352,6 +3642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise statement (exception throwing). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Raise",
           "package": "language-python",
@@ -3362,6 +3653,7 @@
         "index": {
           "description": "Raise statement exception throwing",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Raise",
           "package": "language-python",
@@ -3376,6 +3668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eVersion 2 only\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "RaiseV2",
           "package": "language-python",
@@ -3386,6 +3679,7 @@
         "index": {
           "description": "Version only",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "RaiseV2",
           "normalized": "RaiseV(Maybe(Expr a,Maybe(Expr a,Maybe(Expr a))))",
@@ -3402,6 +3696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional expression to evaluate, and optional 'from' clause. \u003cem\u003eVersion 3 only\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "RaiseV3",
           "package": "language-python",
@@ -3412,6 +3707,7 @@
         "index": {
           "description": "Optional expression to evaluate and optional from clause Version only",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "RaiseV3",
           "normalized": "RaiseV(Maybe(Expr a,Maybe(Expr a)))",
@@ -3428,6 +3724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn statement (may only occur syntactically nested in a function definition). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Return",
           "package": "language-python",
@@ -3438,6 +3735,7 @@
         "index": {
           "description": "Return statement may only occur syntactically nested in function definition",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Return",
           "package": "language-python",
@@ -3452,6 +3750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'\u003e\u003e='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "RightShiftAssign",
           "package": "language-python",
@@ -3461,6 +3760,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "RightShiftAssign",
           "package": "language-python",
@@ -3475,6 +3775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Set",
           "package": "language-python",
@@ -3485,6 +3786,7 @@
         "index": {
           "description": "Set",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Set",
           "package": "language-python",
@@ -3499,6 +3801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet comprehension. \u003cem\u003eVersion 3 only\u003c/em\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "SetComp",
           "package": "language-python",
@@ -3509,6 +3812,7 @@
         "index": {
           "description": "Set comprehension Version only",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "SetComp",
           "package": "language-python",
@@ -3523,6 +3827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'\u003c\u003c'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ShiftLeft",
           "package": "language-python",
@@ -3532,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ShiftLeft",
           "package": "language-python",
@@ -3546,6 +3852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'\u003e\u003e'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ShiftRight",
           "package": "language-python",
@@ -3555,6 +3862,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ShiftRight",
           "package": "language-python",
@@ -3568,6 +3876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "SliceEllipsis",
           "package": "language-python",
@@ -3577,6 +3886,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "SliceEllipsis",
           "package": "language-python",
@@ -3590,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "SliceExpr",
           "package": "language-python",
@@ -3599,6 +3910,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "SliceExpr",
           "package": "language-python",
@@ -3612,6 +3924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "SliceProper",
           "package": "language-python",
@@ -3621,6 +3934,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "SliceProper",
           "package": "language-python",
@@ -3635,6 +3949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlicing, for example 'w [x:y:z]'. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "SlicedExpr",
           "package": "language-python",
@@ -3645,6 +3960,7 @@
         "index": {
           "description": "Slicing for example",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "SlicedExpr",
           "package": "language-python",
@@ -3659,6 +3975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarred expression. \u003cem\u003eVersion 3 only\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Starred",
           "package": "language-python",
@@ -3669,6 +3986,7 @@
         "index": {
           "description": "Starred expression Version only",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Starred",
           "package": "language-python",
@@ -3683,6 +4001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression statement. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "StmtExpr",
           "package": "language-python",
@@ -3693,6 +4012,7 @@
         "index": {
           "description": "Expression statement",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "StmtExpr",
           "package": "language-python",
@@ -3707,6 +4027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString conversion (backquoted expression). Version 2 only. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "StringConversion",
           "package": "language-python",
@@ -3717,6 +4038,7 @@
         "index": {
           "description": "String conversion backquoted expression Version only",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "StringConversion",
           "package": "language-python",
@@ -3731,6 +4053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral strings (to be concatentated together).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Strings",
           "package": "language-python",
@@ -3741,6 +4064,7 @@
         "index": {
           "description": "Literal strings to be concatentated together",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Strings",
           "package": "language-python",
@@ -3755,6 +4079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubscription, for example 'x [y]'. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Subscript",
           "package": "language-python",
@@ -3765,6 +4090,7 @@
         "index": {
           "description": "Subscription for example",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Subscript",
           "package": "language-python",
@@ -3779,6 +4105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry statement (exception handling). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Try",
           "package": "language-python",
@@ -3789,6 +4116,7 @@
         "index": {
           "description": "Try statement exception handling",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Try",
           "package": "language-python",
@@ -3803,6 +4131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple. Can be empty. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Tuple",
           "package": "language-python",
@@ -3813,6 +4142,7 @@
         "index": {
           "description": "Tuple Can be empty",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Tuple",
           "package": "language-python",
@@ -3827,6 +4157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple unpack. \u003cem\u003eVersion 2 only\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "UnPackTuple",
           "package": "language-python",
@@ -3837,6 +4168,7 @@
         "index": {
           "description": "Tuple unpack Version only",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "UnPackTuple",
           "package": "language-python",
@@ -3851,6 +4183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary operator application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "UnaryOp",
           "package": "language-python",
@@ -3861,6 +4194,7 @@
         "index": {
           "description": "Unary operator application",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "UnaryOp",
           "package": "language-python",
@@ -3875,6 +4209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnicode literal strings (to be concatentated together). Version 2 only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "UnicodeStrings",
           "package": "language-python",
@@ -3885,6 +4220,7 @@
         "index": {
           "description": "Unicode literal strings to be concatentated together Version only",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "UnicodeStrings",
           "package": "language-python",
@@ -3899,6 +4235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Var",
           "package": "language-python",
@@ -3909,6 +4246,7 @@
         "index": {
           "description": "Variable",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Var",
           "package": "language-python",
@@ -3923,6 +4261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExcess keyword parameter (double asterisk before its name in the concrete syntax).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "VarArgsKeyword",
           "package": "language-python",
@@ -3933,6 +4272,7 @@
         "index": {
           "description": "Excess keyword parameter double asterisk before its name in the concrete syntax",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "VarArgsKeyword",
           "package": "language-python",
@@ -3947,6 +4287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExcess positional parameter (single asterisk before its name in the concrete syntax). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "VarArgsPos",
           "package": "language-python",
@@ -3957,6 +4298,7 @@
         "index": {
           "description": "Excess positional parameter single asterisk before its name in the concrete syntax",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "VarArgsPos",
           "package": "language-python",
@@ -3971,6 +4313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhile loop. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "While",
           "package": "language-python",
@@ -3981,6 +4324,7 @@
         "index": {
           "description": "While loop",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "While",
           "package": "language-python",
@@ -3995,6 +4339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith statement (context management). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "With",
           "package": "language-python",
@@ -4005,6 +4350,7 @@
         "index": {
           "description": "With statement context management",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "With",
           "package": "language-python",
@@ -4019,6 +4365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'^'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Xor",
           "package": "language-python",
@@ -4028,6 +4375,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Xor",
           "package": "language-python",
@@ -4042,6 +4390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerator yield. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "Yield",
           "package": "language-python",
@@ -4052,6 +4401,7 @@
         "index": {
           "description": "Generator yield",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "Yield",
           "package": "language-python",
@@ -4066,6 +4416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an annotated type, project out its annotation value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "annot",
           "package": "language-python",
@@ -4076,6 +4427,7 @@
         "index": {
           "description": "Given an annotated type project out its annotation value",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "annot",
           "normalized": "a b-\u003eb",
@@ -4090,6 +4442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "arg_annot",
           "package": "language-python",
@@ -4099,6 +4452,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "arg_annot",
           "package": "language-python",
@@ -4112,6 +4466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "arg_expr",
           "package": "language-python",
@@ -4122,6 +4477,7 @@
         "index": {
           "description": "Argument expression",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "arg_expr",
           "package": "language-python",
@@ -4135,6 +4491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "arg_keyword",
           "package": "language-python",
@@ -4145,6 +4502,7 @@
         "index": {
           "description": "Keyword name",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "arg_keyword",
           "package": "language-python",
@@ -4158,6 +4516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpressions being asserted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "assert_exprs",
           "package": "language-python",
@@ -4168,6 +4527,7 @@
         "index": {
           "description": "Expressions being asserted",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "assert_exprs",
           "normalized": "[Expr a]",
@@ -4182,6 +4542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "assignOp_annot",
           "package": "language-python",
@@ -4191,6 +4552,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "assignOp_annot",
           "package": "language-python",
@@ -4205,6 +4567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression to evaluate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "assign_expr",
           "package": "language-python",
@@ -4215,6 +4578,7 @@
         "index": {
           "description": "Expression to evaluate",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "assign_expr",
           "package": "language-python",
@@ -4228,6 +4592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntity to assign to. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "assign_to",
           "package": "language-python",
@@ -4238,6 +4603,7 @@
         "index": {
           "description": "Entity to assign to",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "assign_to",
           "normalized": "[Expr a]",
@@ -4253,6 +4619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression to evaluate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "aug_assign_expr",
           "package": "language-python",
@@ -4263,6 +4630,7 @@
         "index": {
           "description": "Expression to evaluate",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "aug_assign_expr",
           "package": "language-python",
@@ -4276,6 +4644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssignment operator (for example '+=').\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "aug_assign_op",
           "package": "language-python",
@@ -4286,6 +4655,7 @@
         "index": {
           "description": "Assignment operator for example",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "aug_assign_op",
           "package": "language-python",
@@ -4299,6 +4669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntity to assign to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "aug_assign_to",
           "package": "language-python",
@@ -4309,6 +4680,7 @@
         "index": {
           "description": "Entity to assign to",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "aug_assign_to",
           "package": "language-python",
@@ -4321,6 +4693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "backquoted_expr",
           "package": "language-python",
@@ -4330,6 +4703,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "backquoted_expr",
           "package": "language-python",
@@ -4342,6 +4716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "bool_value",
           "package": "language-python",
@@ -4351,6 +4726,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "bool_value",
           "package": "language-python",
@@ -4363,6 +4739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "byte_string_strings",
           "package": "language-python",
@@ -4372,6 +4749,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "byte_string_strings",
           "normalized": "[String]",
@@ -4387,6 +4765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "call_args",
           "package": "language-python",
@@ -4397,6 +4776,7 @@
         "index": {
           "description": "Call arguments",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "call_args",
           "normalized": "[Argument a]",
@@ -4412,6 +4792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression yielding a callable object (such as a function).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "call_fun",
           "package": "language-python",
@@ -4422,6 +4803,7 @@
         "index": {
           "description": "Expression yielding callable object such as function",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "call_fun",
           "package": "language-python",
@@ -4435,6 +4817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean condition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ce_condition",
           "package": "language-python",
@@ -4445,6 +4828,7 @@
         "index": {
           "description": "Boolean condition",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ce_condition",
           "package": "language-python",
@@ -4458,6 +4842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression to evaluate if condition is False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ce_false_branch",
           "package": "language-python",
@@ -4468,6 +4853,7 @@
         "index": {
           "description": "Expression to evaluate if condition is False",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ce_false_branch",
           "package": "language-python",
@@ -4481,6 +4867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression to evaluate if condition is True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ce_true_branch",
           "package": "language-python",
@@ -4491,6 +4878,7 @@
         "index": {
           "description": "Expression to evaluate if condition is True",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ce_true_branch",
           "package": "language-python",
@@ -4504,6 +4892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass argument list. In version 2.x this is only ArgExprs. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "class_args",
           "package": "language-python",
@@ -4514,6 +4903,7 @@
         "index": {
           "description": "Class argument list In version this is only ArgExprs",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "class_args",
           "normalized": "[Argument a]",
@@ -4529,6 +4919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "class_body",
           "package": "language-python",
@@ -4539,6 +4930,7 @@
         "index": {
           "description": "Class body",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "class_body",
           "package": "language-python",
@@ -4552,6 +4944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "class_name",
           "package": "language-python",
@@ -4562,6 +4955,7 @@
         "index": {
           "description": "Class name",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "class_name",
           "package": "language-python",
@@ -4574,6 +4968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "comp_for_annot",
           "package": "language-python",
@@ -4583,6 +4978,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "comp_for_annot",
           "package": "language-python",
@@ -4595,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "comp_for_exprs",
           "package": "language-python",
@@ -4604,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "comp_for_exprs",
           "normalized": "[Expr a]",
@@ -4618,6 +5016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "comp_for_iter",
           "package": "language-python",
@@ -4627,6 +5026,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "comp_for_iter",
           "package": "language-python",
@@ -4639,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "comp_if",
           "package": "language-python",
@@ -4648,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "comp_if",
           "package": "language-python",
@@ -4660,6 +5062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "comp_if_annot",
           "package": "language-python",
@@ -4669,6 +5072,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "comp_if_annot",
           "package": "language-python",
@@ -4681,6 +5085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "comp_if_iter",
           "package": "language-python",
@@ -4690,6 +5095,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "comp_if_iter",
           "package": "language-python",
@@ -4702,6 +5108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "comp_in_expr",
           "package": "language-python",
@@ -4711,6 +5118,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "comp_in_expr",
           "package": "language-python",
@@ -4723,6 +5131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "comp_iter_annot",
           "package": "language-python",
@@ -4732,6 +5141,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "comp_iter_annot",
           "package": "language-python",
@@ -4744,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "comp_iter_for",
           "package": "language-python",
@@ -4753,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "comp_iter_for",
           "package": "language-python",
@@ -4765,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "comp_iter_if",
           "package": "language-python",
@@ -4774,6 +5187,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "comp_iter_if",
           "package": "language-python",
@@ -4786,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "comprehension_annot",
           "package": "language-python",
@@ -4795,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "comprehension_annot",
           "package": "language-python",
@@ -4807,6 +5223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "comprehension_expr",
           "package": "language-python",
@@ -4816,6 +5233,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "comprehension_expr",
           "package": "language-python",
@@ -4828,6 +5246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "comprehension_for",
           "package": "language-python",
@@ -4837,6 +5256,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "comprehension_for",
           "package": "language-python",
@@ -4850,6 +5270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossibly empty unconditional else clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "cond_else",
           "package": "language-python",
@@ -4860,6 +5281,7 @@
         "index": {
           "description": "Possibly empty unconditional else clause",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "cond_else",
           "package": "language-python",
@@ -4873,6 +5295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence of if-elif conditional clauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "cond_guards",
           "package": "language-python",
@@ -4883,6 +5306,7 @@
         "index": {
           "description": "Sequence of if-elif conditional clauses",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "cond_guards",
           "normalized": "[(Expr a,Suite a)]",
@@ -4898,6 +5322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecorators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "decorated_decorators",
           "package": "language-python",
@@ -4908,6 +5333,7 @@
         "index": {
           "description": "Decorators",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "decorated_decorators",
           "normalized": "[Decorator a]",
@@ -4923,6 +5349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction or class definition to be decorated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "decorated_def",
           "package": "language-python",
@@ -4933,6 +5360,7 @@
         "index": {
           "description": "Function or class definition to be decorated",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "decorated_def",
           "package": "language-python",
@@ -4945,6 +5373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "decorator_annot",
           "package": "language-python",
@@ -4954,6 +5383,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "decorator_annot",
           "package": "language-python",
@@ -4967,6 +5397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecorator arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "decorator_args",
           "package": "language-python",
@@ -4977,6 +5408,7 @@
         "index": {
           "description": "Decorator arguments",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "decorator_args",
           "normalized": "[Argument a]",
@@ -4992,6 +5424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecorator name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "decorator_name",
           "package": "language-python",
@@ -5002,6 +5435,7 @@
         "index": {
           "description": "Decorator name",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "decorator_name",
           "package": "language-python",
@@ -5015,6 +5449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eItems to delete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "del_exprs",
           "package": "language-python",
@@ -5025,6 +5460,7 @@
         "index": {
           "description": "Items to delete",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "del_exprs",
           "normalized": "[Expr a]",
@@ -5039,6 +5475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "dict_comprehension",
           "package": "language-python",
@@ -5048,6 +5485,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "dict_comprehension",
           "normalized": "Comprehension(Expr a,Expr a)a",
@@ -5062,6 +5500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "dict_mappings",
           "package": "language-python",
@@ -5071,6 +5510,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "dict_mappings",
           "normalized": "[(Expr a,Expr a)]",
@@ -5085,6 +5525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "except_clause",
           "package": "language-python",
@@ -5094,6 +5535,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "except_clause",
           "normalized": "Maybe(Expr a,Maybe(Expr a))",
@@ -5108,6 +5550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "except_clause_annot",
           "package": "language-python",
@@ -5117,6 +5560,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "except_clause_annot",
           "package": "language-python",
@@ -5130,6 +5574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression to exec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "exec_expr",
           "package": "language-python",
@@ -5140,6 +5585,7 @@
         "index": {
           "description": "Expression to exec",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "exec_expr",
           "package": "language-python",
@@ -5153,6 +5599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal and local environments to evaluate the expression within.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "exec_globals_locals",
           "package": "language-python",
@@ -5163,6 +5610,7 @@
         "index": {
           "description": "Global and local environments to evaluate the expression within",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "exec_globals_locals",
           "normalized": "Maybe(Expr a,Maybe(Expr a))",
@@ -5177,6 +5625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "expr_annot",
           "package": "language-python",
@@ -5186,6 +5635,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "expr_annot",
           "package": "language-python",
@@ -5198,6 +5648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "expr_anot",
           "package": "language-python",
@@ -5207,6 +5658,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "expr_anot",
           "package": "language-python",
@@ -5219,6 +5671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "expr_literal",
           "package": "language-python",
@@ -5228,6 +5681,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "expr_literal",
           "package": "language-python",
@@ -5240,6 +5694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "float_value",
           "package": "language-python",
@@ -5249,6 +5704,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "float_value",
           "package": "language-python",
@@ -5262,6 +5718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoop body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "for_body",
           "package": "language-python",
@@ -5272,6 +5729,7 @@
         "index": {
           "description": "Loop body",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "for_body",
           "package": "language-python",
@@ -5285,6 +5743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElse clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "for_else",
           "package": "language-python",
@@ -5295,6 +5754,7 @@
         "index": {
           "description": "Else clause",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "for_else",
           "package": "language-python",
@@ -5308,6 +5768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoop generator. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "for_generator",
           "package": "language-python",
@@ -5318,6 +5779,7 @@
         "index": {
           "description": "Loop generator",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "for_generator",
           "package": "language-python",
@@ -5331,6 +5793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoop variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "for_targets",
           "package": "language-python",
@@ -5341,6 +5804,7 @@
         "index": {
           "description": "Loop variables",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "for_targets",
           "normalized": "[Expr a]",
@@ -5356,6 +5820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn optional name to refer to the entity (the 'as' name).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "from_as_name",
           "package": "language-python",
@@ -5366,6 +5831,7 @@
         "index": {
           "description": "An optional name to refer to the entity the as name",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "from_as_name",
           "package": "language-python",
@@ -5378,6 +5844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "from_item_annot",
           "package": "language-python",
@@ -5387,6 +5854,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "from_item_annot",
           "package": "language-python",
@@ -5400,6 +5868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the entity imported. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "from_item_name",
           "package": "language-python",
@@ -5410,6 +5879,7 @@
         "index": {
           "description": "The name of the entity imported",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "from_item_name",
           "package": "language-python",
@@ -5423,6 +5893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eItems to import.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "from_items",
           "package": "language-python",
@@ -5433,6 +5904,7 @@
         "index": {
           "description": "Items to import",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "from_items",
           "package": "language-python",
@@ -5445,6 +5917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "from_items_annot",
           "package": "language-python",
@@ -5454,6 +5927,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "from_items_annot",
           "package": "language-python",
@@ -5466,6 +5940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "from_items_items",
           "package": "language-python",
@@ -5475,6 +5950,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "from_items_items",
           "normalized": "[FromItem a]",
@@ -5490,6 +5966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModule to import from.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "from_module",
           "package": "language-python",
@@ -5500,6 +5977,7 @@
         "index": {
           "description": "Module to import from",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "from_module",
           "package": "language-python",
@@ -5513,6 +5991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction parameter list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "fun_args",
           "package": "language-python",
@@ -5523,6 +6002,7 @@
         "index": {
           "description": "Function parameter list",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "fun_args",
           "normalized": "[Parameter a]",
@@ -5538,6 +6018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "fun_body",
           "package": "language-python",
@@ -5548,6 +6029,7 @@
         "index": {
           "description": "Function body",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "fun_body",
           "package": "language-python",
@@ -5561,6 +6043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "fun_name",
           "package": "language-python",
@@ -5571,6 +6054,7 @@
         "index": {
           "description": "Function name",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "fun_name",
           "package": "language-python",
@@ -5584,6 +6068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional result annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "fun_result_annotation",
           "package": "language-python",
@@ -5594,6 +6079,7 @@
         "index": {
           "description": "Optional result annotation",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "fun_result_annotation",
           "package": "language-python",
@@ -5606,6 +6092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "gen_comprehension",
           "package": "language-python",
@@ -5615,6 +6102,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "gen_comprehension",
           "package": "language-python",
@@ -5628,6 +6116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables declared global in the current block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "global_vars",
           "package": "language-python",
@@ -5638,6 +6127,7 @@
         "index": {
           "description": "Variables declared global in the current block",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "global_vars",
           "normalized": "[Ident a]",
@@ -5652,6 +6142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "handler_annot",
           "package": "language-python",
@@ -5661,6 +6152,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "handler_annot",
           "package": "language-python",
@@ -5673,6 +6165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "handler_clause",
           "package": "language-python",
@@ -5682,6 +6175,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "handler_clause",
           "package": "language-python",
@@ -5694,6 +6188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "handler_suite",
           "package": "language-python",
@@ -5703,6 +6198,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "handler_suite",
           "package": "language-python",
@@ -5715,6 +6211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ident_annot",
           "package": "language-python",
@@ -5724,6 +6221,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ident_annot",
           "package": "language-python",
@@ -5736,6 +6234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "ident_string",
           "package": "language-python",
@@ -5745,6 +6244,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "ident_string",
           "package": "language-python",
@@ -5757,6 +6257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "imaginary_value",
           "package": "language-python",
@@ -5766,6 +6267,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "imaginary_value",
           "package": "language-python",
@@ -5779,6 +6281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn optional name to refer to the entity (the 'as' name). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "import_as_name",
           "package": "language-python",
@@ -5789,6 +6292,7 @@
         "index": {
           "description": "An optional name to refer to the entity the as name",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "import_as_name",
           "package": "language-python",
@@ -5801,6 +6305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "import_item_annot",
           "package": "language-python",
@@ -5810,6 +6315,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "import_item_annot",
           "package": "language-python",
@@ -5823,6 +6329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of module to import.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "import_item_name",
           "package": "language-python",
@@ -5833,6 +6340,7 @@
         "index": {
           "description": "The name of module to import",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "import_item_name",
           "package": "language-python",
@@ -5846,6 +6354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eItems to import.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "import_items",
           "package": "language-python",
@@ -5856,6 +6365,7 @@
         "index": {
           "description": "Items to import",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "import_items",
           "normalized": "[ImportItem a]",
@@ -5870,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "import_relative_annot",
           "package": "language-python",
@@ -5879,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "import_relative_annot",
           "package": "language-python",
@@ -5891,6 +6403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "import_relative_dots",
           "package": "language-python",
@@ -5900,6 +6413,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "import_relative_dots",
           "package": "language-python",
@@ -5912,6 +6426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "import_relative_module",
           "package": "language-python",
@@ -5921,6 +6436,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "import_relative_module",
           "package": "language-python",
@@ -5933,6 +6449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "int_value",
           "package": "language-python",
@@ -5942,6 +6459,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "int_value",
           "package": "language-python",
@@ -5954,6 +6472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "lambda_args",
           "package": "language-python",
@@ -5963,6 +6482,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "lambda_args",
           "normalized": "[Parameter a]",
@@ -5977,6 +6497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "lambda_body",
           "package": "language-python",
@@ -5986,6 +6507,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "lambda_body",
           "package": "language-python",
@@ -5998,6 +6520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "left_op_arg",
           "package": "language-python",
@@ -6007,6 +6530,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "left_op_arg",
           "package": "language-python",
@@ -6019,6 +6543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "list_comprehension",
           "package": "language-python",
@@ -6028,6 +6553,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "list_comprehension",
           "package": "language-python",
@@ -6040,6 +6566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "list_exprs",
           "package": "language-python",
@@ -6049,6 +6576,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "list_exprs",
           "normalized": "[Expr a]",
@@ -6064,6 +6592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables declared nonlocal in the current block (their binding comes from bound the nearest enclosing scope).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "nonLocal_vars",
           "package": "language-python",
@@ -6074,6 +6603,7 @@
         "index": {
           "description": "Variables declared nonlocal in the current block their binding comes from bound the nearest enclosing scope",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "nonLocal_vars",
           "normalized": "[Ident a]",
@@ -6089,6 +6619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "op_annot",
           "package": "language-python",
@@ -6098,6 +6629,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "op_annot",
           "package": "language-python",
@@ -6110,6 +6642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "op_arg",
           "package": "language-python",
@@ -6119,6 +6652,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "op_arg",
           "package": "language-python",
@@ -6131,6 +6665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "operator",
           "package": "language-python",
@@ -6140,6 +6675,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "operator",
           "package": "language-python",
@@ -6152,6 +6688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "param_annot",
           "package": "language-python",
@@ -6161,6 +6698,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "param_annot",
           "package": "language-python",
@@ -6174,6 +6712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional default value.\n\u003c/p\u003e\u003cp\u003eOptional default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "param_default",
           "package": "language-python",
@@ -6184,6 +6723,7 @@
         "index": {
           "description": "Optional default value Optional default value",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "param_default",
           "package": "language-python",
@@ -6197,6 +6737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameter name.\n\u003c/p\u003e\u003cp\u003eParameter name.\n\u003c/p\u003e\u003cp\u003eParameter name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "param_name",
           "package": "language-python",
@@ -6207,6 +6748,7 @@
         "index": {
           "description": "Parameter name Parameter name Parameter name",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "param_name",
           "package": "language-python",
@@ -6220,6 +6762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional annotation.\n\u003c/p\u003e\u003cp\u003eOptional annotation.\n\u003c/p\u003e\u003cp\u003eOptional annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "param_py_annotation",
           "package": "language-python",
@@ -6230,6 +6773,7 @@
         "index": {
           "description": "Optional annotation Optional annotation Optional annotation",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "param_py_annotation",
           "package": "language-python",
@@ -6242,6 +6786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "param_tuple",
           "package": "language-python",
@@ -6251,6 +6796,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "param_tuple",
           "normalized": "[ParamTuple a]",
@@ -6265,6 +6811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "param_tuple_annot",
           "package": "language-python",
@@ -6274,6 +6821,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "param_tuple_annot",
           "package": "language-python",
@@ -6286,6 +6834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "param_tuple_name",
           "package": "language-python",
@@ -6295,6 +6844,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "param_tuple_name",
           "package": "language-python",
@@ -6308,6 +6858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tuple to unpack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "param_unpack_tuple",
           "package": "language-python",
@@ -6318,6 +6869,7 @@
         "index": {
           "description": "The tuple to unpack",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "param_unpack_tuple",
           "package": "language-python",
@@ -6330,6 +6882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "paren_expr",
           "package": "language-python",
@@ -6339,6 +6892,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "paren_expr",
           "package": "language-python",
@@ -6352,6 +6906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional chevron (\u003e\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "print_chevron",
           "package": "language-python",
@@ -6362,6 +6917,7 @@
         "index": {
           "description": "Optional chevron",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "print_chevron",
           "package": "language-python",
@@ -6375,6 +6931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArguments to print\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "print_exprs",
           "package": "language-python",
@@ -6385,6 +6942,7 @@
         "index": {
           "description": "Arguments to print",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "print_exprs",
           "normalized": "[Expr a]",
@@ -6400,6 +6958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes it end in a comma?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "print_trailing_comma",
           "package": "language-python",
@@ -6410,6 +6969,7 @@
         "index": {
           "description": "Does it end in comma",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "print_trailing_comma",
           "package": "language-python",
@@ -6422,6 +6982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "raise_expr",
           "package": "language-python",
@@ -6431,6 +6992,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "raise_expr",
           "package": "language-python",
@@ -6444,6 +7006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional expression to evaluate and return to caller.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "return_expr",
           "package": "language-python",
@@ -6454,6 +7017,7 @@
         "index": {
           "description": "Optional expression to evaluate and return to caller",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "return_expr",
           "package": "language-python",
@@ -6466,6 +7030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "right_op_arg",
           "package": "language-python",
@@ -6475,6 +7040,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "right_op_arg",
           "package": "language-python",
@@ -6487,6 +7053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "set_comprehension",
           "package": "language-python",
@@ -6496,6 +7063,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "set_comprehension",
           "package": "language-python",
@@ -6508,6 +7076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "set_exprs",
           "package": "language-python",
@@ -6517,6 +7086,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "set_exprs",
           "normalized": "[Expr a]",
@@ -6531,6 +7101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "slice_annot",
           "package": "language-python",
@@ -6540,6 +7111,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "slice_annot",
           "package": "language-python",
@@ -6552,6 +7124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "slice_expr",
           "package": "language-python",
@@ -6561,6 +7134,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "slice_expr",
           "package": "language-python",
@@ -6573,6 +7147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "slice_lower",
           "package": "language-python",
@@ -6582,6 +7157,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "slice_lower",
           "package": "language-python",
@@ -6594,6 +7170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "slice_stride",
           "package": "language-python",
@@ -6603,6 +7180,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "slice_stride",
           "package": "language-python",
@@ -6615,6 +7193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "slice_upper",
           "package": "language-python",
@@ -6624,6 +7203,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "slice_upper",
           "package": "language-python",
@@ -6636,6 +7216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "slicee",
           "package": "language-python",
@@ -6645,6 +7226,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "slicee",
           "package": "language-python",
@@ -6657,6 +7239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "slices",
           "package": "language-python",
@@ -6666,6 +7249,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "slices",
           "normalized": "[Slice a]",
@@ -6680,6 +7264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "starred_expr",
           "package": "language-python",
@@ -6689,6 +7274,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "starred_expr",
           "package": "language-python",
@@ -6701,6 +7287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "stmt_annot",
           "package": "language-python",
@@ -6710,6 +7297,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "stmt_annot",
           "package": "language-python",
@@ -6722,6 +7310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "stmt_expr",
           "package": "language-python",
@@ -6731,6 +7320,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "stmt_expr",
           "package": "language-python",
@@ -6743,6 +7333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "strings_strings",
           "package": "language-python",
@@ -6752,6 +7343,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "strings_strings",
           "normalized": "[String]",
@@ -6766,6 +7358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "subscript_expr",
           "package": "language-python",
@@ -6775,6 +7368,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "subscript_expr",
           "package": "language-python",
@@ -6787,6 +7381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "subscriptee",
           "package": "language-python",
@@ -6796,6 +7391,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "subscriptee",
           "package": "language-python",
@@ -6809,6 +7405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "try_body",
           "package": "language-python",
@@ -6819,6 +7416,7 @@
         "index": {
           "description": "Try clause",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "try_body",
           "package": "language-python",
@@ -6832,6 +7430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossibly empty else clause, executed if and when control flows off the end of the try clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "try_else",
           "package": "language-python",
@@ -6842,6 +7441,7 @@
         "index": {
           "description": "Possibly empty else clause executed if and when control flows off the end of the try clause",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "try_else",
           "package": "language-python",
@@ -6855,6 +7455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException handlers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "try_excepts",
           "package": "language-python",
@@ -6865,6 +7466,7 @@
         "index": {
           "description": "Exception handlers",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "try_excepts",
           "normalized": "[Handler a]",
@@ -6880,6 +7482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossibly empty finally clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "try_finally",
           "package": "language-python",
@@ -6890,6 +7493,7 @@
         "index": {
           "description": "Possibly empty finally clause",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "try_finally",
           "package": "language-python",
@@ -6902,6 +7506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "tuple_exprs",
           "package": "language-python",
@@ -6911,6 +7516,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "tuple_exprs",
           "normalized": "[Expr a]",
@@ -6925,6 +7531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "unicodestrings_strings",
           "package": "language-python",
@@ -6934,6 +7541,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "unicodestrings_strings",
           "normalized": "[String]",
@@ -6948,6 +7556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "var_ident",
           "package": "language-python",
@@ -6957,6 +7566,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "var_ident",
           "package": "language-python",
@@ -6970,6 +7580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoop body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "while_body",
           "package": "language-python",
@@ -6980,6 +7591,7 @@
         "index": {
           "description": "Loop body",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "while_body",
           "package": "language-python",
@@ -6993,6 +7605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoop condition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "while_cond",
           "package": "language-python",
@@ -7003,6 +7616,7 @@
         "index": {
           "description": "Loop condition",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "while_cond",
           "package": "language-python",
@@ -7016,6 +7630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElse clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "while_else",
           "package": "language-python",
@@ -7026,6 +7641,7 @@
         "index": {
           "description": "Else clause",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "while_else",
           "package": "language-python",
@@ -7039,6 +7655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuite to be managed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "with_body",
           "package": "language-python",
@@ -7049,6 +7666,7 @@
         "index": {
           "description": "Suite to be managed",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "with_body",
           "package": "language-python",
@@ -7062,6 +7680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContext expression(s) (yields a context manager).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "with_context",
           "package": "language-python",
@@ -7072,6 +7691,7 @@
         "index": {
           "description": "Context expression yields context manager",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "with_context",
           "normalized": "[(Expr a,Maybe(Expr a))]",
@@ -7087,6 +7707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional expression to yield.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.AST",
           "name": "yield_expr",
           "package": "language-python",
@@ -7097,6 +7718,7 @@
         "index": {
           "description": "Optional expression to yield",
           "hierarchy": "Language Python Common AST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.AST",
           "name": "yield_expr",
           "package": "language-python",
@@ -7110,6 +7732,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eError values for the lexer and parser. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParseError",
           "name": "ParseError",
           "package": "language-python",
@@ -7119,6 +7742,7 @@
         "index": {
           "description": "Error values for the lexer and parser",
           "hierarchy": "Language Python Common ParseError",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParseError",
           "name": "ParseError",
           "package": "language-python",
@@ -7132,6 +7756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParseError",
           "name": "ParseError",
           "package": "language-python",
@@ -7140,6 +7765,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParseError",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParseError",
           "name": "ParseError",
           "package": "language-python",
@@ -7229,6 +7855,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonad support for Python parser and lexer. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "ParserMonad",
           "package": "language-python",
@@ -7238,6 +7865,7 @@
         "index": {
           "description": "Monad support for Python parser and lexer",
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "ParserMonad",
           "package": "language-python",
@@ -7251,6 +7879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "P",
           "package": "language-python",
@@ -7259,6 +7888,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "P",
           "package": "language-python",
@@ -7271,6 +7901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "ParseError",
           "package": "language-python",
@@ -7279,6 +7910,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "ParseError",
           "package": "language-python",
@@ -7292,6 +7924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "ParseState",
           "package": "language-python",
@@ -7300,6 +7933,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "ParseState",
           "package": "language-python",
@@ -7313,6 +7947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "ParseState",
           "package": "language-python",
@@ -7322,6 +7957,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "ParseState",
           "package": "language-python",
@@ -7335,6 +7971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "addComment",
           "package": "language-python",
@@ -7344,6 +7981,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "addComment",
           "normalized": "Token-\u003eP()",
@@ -7359,6 +7997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "comments",
           "package": "language-python",
@@ -7368,6 +8007,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "comments",
           "normalized": "[Token]",
@@ -7382,6 +8022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "execParser",
           "package": "language-python",
@@ -7391,6 +8032,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "execParser",
           "normalized": "P a-\u003eParseState-\u003eEither ParseError a",
@@ -7406,6 +8048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "execParserKeepComments",
           "package": "language-python",
@@ -7415,6 +8058,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "execParserKeepComments",
           "normalized": "P a-\u003eParseState-\u003eEither ParseError(a,[Token])",
@@ -7430,6 +8074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getComments",
           "package": "language-python",
@@ -7439,6 +8084,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getComments",
           "normalized": "P[Token]",
@@ -7454,6 +8100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getIndent",
           "package": "language-python",
@@ -7463,6 +8110,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getIndent",
           "package": "language-python",
@@ -7476,6 +8124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getIndentStackDepth",
           "package": "language-python",
@@ -7485,6 +8134,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getIndentStackDepth",
           "package": "language-python",
@@ -7498,6 +8148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getInput",
           "package": "language-python",
@@ -7507,6 +8158,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getInput",
           "package": "language-python",
@@ -7520,6 +8172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getLastEOL",
           "package": "language-python",
@@ -7529,6 +8182,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getLastEOL",
           "package": "language-python",
@@ -7542,6 +8196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getLastToken",
           "package": "language-python",
@@ -7551,6 +8206,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getLastToken",
           "package": "language-python",
@@ -7564,6 +8220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getLocation",
           "package": "language-python",
@@ -7573,6 +8230,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getLocation",
           "package": "language-python",
@@ -7586,6 +8244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getParen",
           "package": "language-python",
@@ -7595,6 +8254,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getParen",
           "package": "language-python",
@@ -7608,6 +8268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getParenStackDepth",
           "package": "language-python",
@@ -7617,6 +8278,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getParenStackDepth",
           "package": "language-python",
@@ -7630,6 +8292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getStartCode",
           "package": "language-python",
@@ -7639,6 +8302,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "getStartCode",
           "package": "language-python",
@@ -7652,6 +8316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "indentStack",
           "package": "language-python",
@@ -7661,6 +8326,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "indentStack",
           "normalized": "[Int]",
@@ -7676,6 +8342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "initialState",
           "package": "language-python",
@@ -7685,6 +8352,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "initialState",
           "normalized": "SrcLocation-\u003eString-\u003e[Int]-\u003eParseState",
@@ -7700,6 +8368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "input",
           "package": "language-python",
@@ -7709,6 +8378,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "input",
           "package": "language-python",
@@ -7721,6 +8391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "lastEOL",
           "package": "language-python",
@@ -7730,6 +8401,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "lastEOL",
           "package": "language-python",
@@ -7743,6 +8415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "location",
           "package": "language-python",
@@ -7752,6 +8425,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "location",
           "package": "language-python",
@@ -7764,6 +8438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "parenStack",
           "package": "language-python",
@@ -7773,6 +8448,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "parenStack",
           "normalized": "[Token]",
@@ -7788,6 +8464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "popIndent",
           "package": "language-python",
@@ -7797,6 +8474,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "popIndent",
           "normalized": "P()",
@@ -7812,6 +8490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "popParen",
           "package": "language-python",
@@ -7821,6 +8500,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "popParen",
           "normalized": "P()",
@@ -7836,6 +8516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "popStartCode",
           "package": "language-python",
@@ -7845,6 +8526,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "popStartCode",
           "normalized": "P()",
@@ -7860,6 +8542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "previousToken",
           "package": "language-python",
@@ -7869,6 +8552,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "previousToken",
           "package": "language-python",
@@ -7882,6 +8566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "pushIndent",
           "package": "language-python",
@@ -7891,6 +8576,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "pushIndent",
           "normalized": "Int-\u003eP()",
@@ -7906,6 +8592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "pushParen",
           "package": "language-python",
@@ -7915,6 +8602,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "pushParen",
           "normalized": "Token-\u003eP()",
@@ -7930,6 +8618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "pushStartCode",
           "package": "language-python",
@@ -7939,6 +8628,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "pushStartCode",
           "normalized": "Int-\u003eP()",
@@ -7954,6 +8644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "returnP",
           "package": "language-python",
@@ -7963,6 +8654,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "returnP",
           "normalized": "a-\u003eP a",
@@ -7977,6 +8669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "runParser",
           "package": "language-python",
@@ -7986,6 +8679,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "runParser",
           "normalized": "P a-\u003eParseState-\u003eEither ParseError(a,ParseState)",
@@ -8001,6 +8695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "setInput",
           "package": "language-python",
@@ -8010,6 +8705,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "setInput",
           "normalized": "String-\u003eP()",
@@ -8025,6 +8721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "setLastEOL",
           "package": "language-python",
@@ -8034,6 +8731,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "setLastEOL",
           "normalized": "SrcSpan-\u003eP()",
@@ -8049,6 +8747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "setLastToken",
           "package": "language-python",
@@ -8058,6 +8757,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "setLastToken",
           "normalized": "Token-\u003eP()",
@@ -8073,6 +8773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "setLocation",
           "package": "language-python",
@@ -8082,6 +8783,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "setLocation",
           "normalized": "SrcLocation-\u003eP()",
@@ -8097,6 +8799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "spanError",
           "package": "language-python",
@@ -8106,6 +8809,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "spanError",
           "normalized": "a-\u003eString-\u003eP b",
@@ -8121,6 +8825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "startCodeStack",
           "package": "language-python",
@@ -8130,6 +8835,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "startCodeStack",
           "normalized": "[Int]",
@@ -8145,6 +8851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.ParserMonad",
           "name": "thenP",
           "package": "language-python",
@@ -8154,6 +8861,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common ParserMonad",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.ParserMonad",
           "name": "thenP",
           "normalized": "P a-\u003e(a-\u003eP b)-\u003eP b",
@@ -8169,6 +8877,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience class for pretty printing combinators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Pretty",
           "name": "Pretty",
           "package": "language-python",
@@ -8178,6 +8887,7 @@
         "index": {
           "description": "Convenience class for pretty printing combinators",
           "hierarchy": "Language Python Common Pretty",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Pretty",
           "name": "Pretty",
           "package": "language-python",
@@ -8192,6 +8902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll types which can be transformed into a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Pretty",
           "name": "Pretty",
           "package": "language-python",
@@ -8201,6 +8912,7 @@
         "index": {
           "description": "All types which can be transformed into Doc",
           "hierarchy": "Language Python Common Pretty",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Pretty",
           "name": "Pretty",
           "package": "language-python",
@@ -8215,6 +8927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of things separated by commas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Pretty",
           "name": "commaList",
           "package": "language-python",
@@ -8225,6 +8938,7 @@
         "index": {
           "description": "list of things separated by commas",
           "hierarchy": "Language Python Common Pretty",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Pretty",
           "name": "commaList",
           "normalized": "[a]-\u003eDoc",
@@ -8241,6 +8955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditionally wrap parentheses around an item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Pretty",
           "name": "parensIf",
           "package": "language-python",
@@ -8251,6 +8966,7 @@
         "index": {
           "description": "Conditionally wrap parentheses around an item",
           "hierarchy": "Language Python Common Pretty",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Pretty",
           "name": "parensIf",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eDoc",
@@ -8266,6 +8982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Pretty",
           "name": "perhaps",
           "package": "language-python",
@@ -8275,6 +8992,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Pretty",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Pretty",
           "name": "perhaps",
           "normalized": "Maybe a-\u003eDoc-\u003eDoc",
@@ -8289,6 +9007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Pretty",
           "name": "pretty",
           "package": "language-python",
@@ -8298,6 +9017,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Pretty",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Pretty",
           "name": "pretty",
           "normalized": "a-\u003eDoc",
@@ -8313,6 +9033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint just the prefix of something\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Pretty",
           "name": "prettyPrefix",
           "package": "language-python",
@@ -8323,6 +9044,7 @@
         "index": {
           "description": "Print just the prefix of something",
           "hierarchy": "Language Python Common Pretty",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Pretty",
           "name": "prettyPrefix",
           "normalized": "Int-\u003ea-\u003eDoc",
@@ -8339,6 +9061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform values into strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Pretty",
           "name": "prettyText",
           "package": "language-python",
@@ -8349,6 +9072,7 @@
         "index": {
           "description": "Transform values into strings",
           "hierarchy": "Language Python Common Pretty",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Pretty",
           "name": "prettyText",
           "normalized": "a-\u003eString",
@@ -8365,6 +9089,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printing of the Python abstract syntax (version 2.x and 3.x). \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.PrettyAST",
           "name": "PrettyAST",
           "package": "language-python",
@@ -8374,6 +9099,7 @@
         "index": {
           "description": "Pretty printing of the Python abstract syntax version and",
           "hierarchy": "Language Python Common PrettyAST",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.PrettyAST",
           "name": "PrettyAST",
           "package": "language-python",
@@ -8388,6 +9114,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printing of parse errors. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.PrettyParseError",
           "name": "PrettyParseError",
           "package": "language-python",
@@ -8397,6 +9124,7 @@
         "index": {
           "description": "Pretty printing of parse errors",
           "hierarchy": "Language Python Common PrettyParseError",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.PrettyParseError",
           "name": "PrettyParseError",
           "package": "language-python",
@@ -8411,6 +9139,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printing of tokens. Note the output is intended for displaying in\n messages to the user, and may not be valid Python syntax. For instance\n the pretty printing is useful for displaying parser error messages, but\n not useful for producing concrete Python source.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.PrettyToken",
           "name": "PrettyToken",
           "package": "language-python",
@@ -8420,6 +9149,7 @@
         "index": {
           "description": "Pretty printing of tokens Note the output is intended for displaying in messages to the user and may not be valid Python syntax For instance the pretty printing is useful for displaying parser error messages but not useful for producing concrete Python source",
           "hierarchy": "Language Python Common PrettyToken",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.PrettyToken",
           "name": "PrettyToken",
           "package": "language-python",
@@ -8434,6 +9164,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSource location information for the Python lexer and parser. This module\n provides single-point locations and spans, and conversions between them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "SrcLocation",
           "package": "language-python",
@@ -8443,6 +9174,7 @@
         "index": {
           "description": "Source location information for the Python lexer and parser This module provides single-point locations and spans and conversions between them",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "SrcLocation",
           "package": "language-python",
@@ -8457,6 +9189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes which have a span.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "Span",
           "package": "language-python",
@@ -8466,6 +9199,7 @@
         "index": {
           "description": "Types which have span",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "Span",
           "package": "language-python",
@@ -8480,6 +9214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA location for a syntactic entity from the source code.\n The location is specified by its filename, and starting row\n and column. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "SrcLocation",
           "package": "language-python",
@@ -8489,6 +9224,7 @@
         "index": {
           "description": "location for syntactic entity from the source code The location is specified by its filename and starting row and column",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "SrcLocation",
           "package": "language-python",
@@ -8503,6 +9239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource location spanning a contiguous section of a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "SrcSpan",
           "package": "language-python",
@@ -8512,6 +9249,7 @@
         "index": {
           "description": "Source location spanning contiguous section of file",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "SrcSpan",
           "package": "language-python",
@@ -8525,6 +9263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "NoLocation",
           "package": "language-python",
@@ -8534,6 +9273,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "NoLocation",
           "package": "language-python",
@@ -8547,6 +9287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "Sloc",
           "package": "language-python",
@@ -8556,6 +9297,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "Sloc",
           "package": "language-python",
@@ -8570,6 +9312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA span which starts and ends on the same line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "SpanCoLinear",
           "package": "language-python",
@@ -8580,6 +9323,7 @@
         "index": {
           "description": "span which starts and ends on the same line",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "SpanCoLinear",
           "package": "language-python",
@@ -8594,6 +9338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo span information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "SpanEmpty",
           "package": "language-python",
@@ -8604,6 +9349,7 @@
         "index": {
           "description": "No span information",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "SpanEmpty",
           "package": "language-python",
@@ -8618,6 +9364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA span which starts and ends on different lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "SpanMultiLine",
           "package": "language-python",
@@ -8628,6 +9375,7 @@
         "index": {
           "description": "span which starts and ends on different lines",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "SpanMultiLine",
           "package": "language-python",
@@ -8642,6 +9390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA span which is actually just one point in the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "SpanPoint",
           "package": "language-python",
@@ -8652,6 +9401,7 @@
         "index": {
           "description": "span which is actually just one point in the file",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "SpanPoint",
           "package": "language-python",
@@ -8666,6 +9416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines two \u003ccode\u003e\u003ca\u003eSrcSpan\u003c/a\u003e\u003c/code\u003e into one that spans at least all the characters\n within both spans. Assumes the \u003ca\u003efile\u003c/a\u003e part is the same in both inputs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "combineSrcSpans",
           "package": "language-python",
@@ -8676,6 +9427,7 @@
         "index": {
           "description": "Combines two SrcSpan into one that spans at least all the characters within both spans Assumes the file part is the same in both inputs",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "combineSrcSpans",
           "normalized": "SrcSpan-\u003eSrcSpan-\u003eSrcSpan",
@@ -8692,6 +9444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrement the column of a location, only if they are on the same row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "decColumn",
           "package": "language-python",
@@ -8702,6 +9455,7 @@
         "index": {
           "description": "Decrement the column of location only if they are on the same row",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "decColumn",
           "normalized": "Int-\u003eSrcLocation-\u003eSrcLocation",
@@ -8718,6 +9472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the column of the end of a span.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "endCol",
           "package": "language-python",
@@ -8728,6 +9483,7 @@
         "index": {
           "description": "Get the column of the end of span",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "endCol",
           "normalized": "SrcSpan-\u003eInt",
@@ -8744,6 +9500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the row of the end of a span.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "endRow",
           "package": "language-python",
@@ -8754,6 +9511,7 @@
         "index": {
           "description": "Get the row of the end of span",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "endRow",
           "normalized": "SrcSpan-\u003eInt",
@@ -8769,6 +9527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "getSpan",
           "package": "language-python",
@@ -8778,6 +9537,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "getSpan",
           "normalized": "a-\u003eSrcSpan",
@@ -8794,6 +9554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement the column of a location. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "incColumn",
           "package": "language-python",
@@ -8804,6 +9565,7 @@
         "index": {
           "description": "Increment the column of location",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "incColumn",
           "normalized": "Int-\u003eSrcLocation-\u003eSrcLocation",
@@ -8820,6 +9582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement the line number (row) of a location by one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "incLine",
           "package": "language-python",
@@ -8830,6 +9593,7 @@
         "index": {
           "description": "Increment the line number row of location by one",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "incLine",
           "normalized": "Int-\u003eSrcLocation-\u003eSrcLocation",
@@ -8846,6 +9610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement the column of a location by one tab stop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "incTab",
           "package": "language-python",
@@ -8856,6 +9621,7 @@
         "index": {
           "description": "Increment the column of location by one tab stop",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "incTab",
           "normalized": "SrcLocation-\u003eSrcLocation",
@@ -8872,6 +9638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the initial source location for a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "initialSrcLocation",
           "package": "language-python",
@@ -8882,6 +9649,7 @@
         "index": {
           "description": "Construct the initial source location for file",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "initialSrcLocation",
           "normalized": "String-\u003eSrcLocation",
@@ -8898,6 +9666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a span from two locations. Assumption: either the\n arguments are the same, or the left one preceeds the right one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "mkSrcSpan",
           "package": "language-python",
@@ -8908,6 +9677,7 @@
         "index": {
           "description": "Make span from two locations Assumption either the arguments are the same or the left one preceeds the right one",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "mkSrcSpan",
           "normalized": "SrcLocation-\u003eSrcLocation-\u003eSrcSpan",
@@ -8923,6 +9693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "sloc_column",
           "package": "language-python",
@@ -8932,6 +9703,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "sloc_column",
           "package": "language-python",
@@ -8944,6 +9716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "sloc_filename",
           "package": "language-python",
@@ -8953,6 +9726,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "sloc_filename",
           "package": "language-python",
@@ -8965,6 +9739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "sloc_row",
           "package": "language-python",
@@ -8974,6 +9749,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "sloc_row",
           "package": "language-python",
@@ -8987,6 +9763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a point span from the start of a span\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "spanStartPoint",
           "package": "language-python",
@@ -8997,6 +9774,7 @@
         "index": {
           "description": "Make point span from the start of span",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "spanStartPoint",
           "normalized": "SrcSpan-\u003eSrcSpan",
@@ -9012,6 +9790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "span_column",
           "package": "language-python",
@@ -9021,6 +9800,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "span_column",
           "package": "language-python",
@@ -9033,6 +9813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "span_end_column",
           "package": "language-python",
@@ -9042,6 +9823,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "span_end_column",
           "package": "language-python",
@@ -9054,6 +9836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "span_end_row",
           "package": "language-python",
@@ -9063,6 +9846,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "span_end_row",
           "package": "language-python",
@@ -9075,6 +9859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "span_filename",
           "package": "language-python",
@@ -9084,6 +9869,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "span_filename",
           "package": "language-python",
@@ -9096,6 +9882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "span_row",
           "package": "language-python",
@@ -9105,6 +9892,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "span_row",
           "package": "language-python",
@@ -9117,6 +9905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "span_start_column",
           "package": "language-python",
@@ -9126,6 +9915,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "span_start_column",
           "package": "language-python",
@@ -9138,6 +9928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "span_start_row",
           "package": "language-python",
@@ -9147,6 +9938,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "span_start_row",
           "package": "language-python",
@@ -9160,6 +9952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new span which encloses two spanned things.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "spanning",
           "package": "language-python",
@@ -9170,6 +9963,7 @@
         "index": {
           "description": "Create new span which encloses two spanned things",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "spanning",
           "normalized": "a-\u003eb-\u003eSrcSpan",
@@ -9185,6 +9979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the column of the start of a span.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "startCol",
           "package": "language-python",
@@ -9195,6 +9990,7 @@
         "index": {
           "description": "Get the column of the start of span",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "startCol",
           "normalized": "SrcSpan-\u003eInt",
@@ -9211,6 +10007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the row of the start of a span.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.SrcLocation",
           "name": "startRow",
           "package": "language-python",
@@ -9221,6 +10018,7 @@
         "index": {
           "description": "Get the row of the start of span",
           "hierarchy": "Language Python Common SrcLocation",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.SrcLocation",
           "name": "startRow",
           "normalized": "SrcSpan-\u003eInt",
@@ -9237,6 +10035,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion to/from escaped characters in strings. Note: currently does not\n support escaped Unicode character names.\n\u003c/p\u003e\u003cp\u003eSee:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Version 2.6 \u003ca\u003ehttp://www.python.org/doc/2.6/reference/lexical_analysis.html#string-literals\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Version 3.1 \u003ca\u003ehttp://www.python.org/doc/3.1/reference/lexical_analysis.html#string-and-bytes-literals\u003c/a\u003e \n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.StringEscape",
           "name": "StringEscape",
           "package": "language-python",
@@ -9246,6 +10045,7 @@
         "index": {
           "description": "Conversion to from escaped characters in strings Note currently does not support escaped Unicode character names See Version http www.python.org doc reference lexical analysis.html string-literals Version http www.python.org doc reference lexical analysis.html string-and-bytes-literals",
           "hierarchy": "Language Python Common StringEscape",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.StringEscape",
           "name": "StringEscape",
           "package": "language-python",
@@ -9260,6 +10060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of valid hex digits in Python.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.StringEscape",
           "name": "hexDigits",
           "package": "language-python",
@@ -9270,6 +10071,7 @@
         "index": {
           "description": "The set of valid hex digits in Python",
           "hierarchy": "Language Python Common StringEscape",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.StringEscape",
           "name": "hexDigits",
           "package": "language-python",
@@ -9284,6 +10086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of valid octal digits in Python.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.StringEscape",
           "name": "octalDigits",
           "package": "language-python",
@@ -9294,6 +10097,7 @@
         "index": {
           "description": "The set of valid octal digits in Python",
           "hierarchy": "Language Python Common StringEscape",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.StringEscape",
           "name": "octalDigits",
           "package": "language-python",
@@ -9308,6 +10112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert escaped sequences of characters into \u003cem\u003ereal\u003c/em\u003e characters in a raw Python string.\n Note: despite their name, Python raw strings do allow a small set of character escapings,\n namely the single and double quote characters and the line continuation marker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.StringEscape",
           "name": "unescapeRawString",
           "package": "language-python",
@@ -9318,6 +10123,7 @@
         "index": {
           "description": "Convert escaped sequences of characters into real characters in raw Python string Note despite their name Python raw strings do allow small set of character escapings namely the single and double quote characters and the line continuation marker",
           "hierarchy": "Language Python Common StringEscape",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.StringEscape",
           "name": "unescapeRawString",
           "normalized": "String-\u003eString",
@@ -9334,6 +10140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert escaped sequences of characters into \u003cem\u003ereal\u003c/em\u003e characters in a normal Python string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.StringEscape",
           "name": "unescapeString",
           "package": "language-python",
@@ -9344,6 +10151,7 @@
         "index": {
           "description": "Convert escaped sequences of characters into real characters in normal Python string",
           "hierarchy": "Language Python Common StringEscape",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.StringEscape",
           "name": "unescapeString",
           "normalized": "String-\u003eString",
@@ -9360,6 +10168,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLexical tokens for the Python lexer. Contains the superset of tokens from\n version 2 and version 3 of Python (they are mostly the same).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "Token",
           "package": "language-python",
@@ -9369,6 +10178,7 @@
         "index": {
           "description": "Lexical tokens for the Python lexer Contains the superset of tokens from version and version of Python they are mostly the same",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "Token",
           "package": "language-python",
@@ -9383,6 +10193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLexical tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "Token",
           "package": "language-python",
@@ -9392,6 +10203,7 @@
         "index": {
           "description": "Lexical tokens",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "Token",
           "package": "language-python",
@@ -9406,6 +10218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassification of tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "TokenClass",
           "package": "language-python",
@@ -9415,6 +10228,7 @@
         "index": {
           "description": "Classification of tokens",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "TokenClass",
           "package": "language-python",
@@ -9429,6 +10243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: boolean conjunction 'and'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "AndToken",
           "package": "language-python",
@@ -9439,6 +10254,7 @@
         "index": {
           "description": "Keyword boolean conjunction and",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "AndToken",
           "package": "language-python",
@@ -9453,6 +10269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'as'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "AsToken",
           "package": "language-python",
@@ -9463,6 +10280,7 @@
         "index": {
           "description": "Keyword as",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "AsToken",
           "package": "language-python",
@@ -9477,6 +10295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'assert'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "AssertToken",
           "package": "language-python",
@@ -9487,6 +10306,7 @@
         "index": {
           "description": "Keyword assert",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "AssertToken",
           "package": "language-python",
@@ -9501,6 +10321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: assignment '='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "AssignToken",
           "package": "language-python",
@@ -9511,6 +10332,7 @@
         "index": {
           "description": "Delimiter assignment",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "AssignToken",
           "package": "language-python",
@@ -9524,6 +10346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "Assignment",
           "package": "language-python",
@@ -9533,6 +10356,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "Assignment",
           "package": "language-python",
@@ -9547,6 +10371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: at sign '@'. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "AtToken",
           "package": "language-python",
@@ -9557,6 +10382,7 @@
         "index": {
           "description": "Delimiter at sign",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "AtToken",
           "package": "language-python",
@@ -9571,6 +10397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: back quote character '`\\'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "BackQuoteToken",
           "package": "language-python",
@@ -9581,6 +10408,7 @@
         "index": {
           "description": "Delimiter back quote character",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "BackQuoteToken",
           "package": "language-python",
@@ -9595,6 +10423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: binary-and assignment '&='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "BinAndAssignToken",
           "package": "language-python",
@@ -9605,6 +10434,7 @@
         "index": {
           "description": "Delimiter binary-and assignment",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "BinAndAssignToken",
           "package": "language-python",
@@ -9619,6 +10449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: binary-or assignment '|='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "BinOrAssignToken",
           "package": "language-python",
@@ -9629,6 +10460,7 @@
         "index": {
           "description": "Delimiter binary-or assignment",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "BinOrAssignToken",
           "package": "language-python",
@@ -9643,6 +10475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: binary-xor assignment '^='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "BinXorAssignToken",
           "package": "language-python",
@@ -9653,6 +10486,7 @@
         "index": {
           "description": "Delimiter binary-xor assignment",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "BinXorAssignToken",
           "package": "language-python",
@@ -9667,6 +10501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: binary-and '&'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "BinaryAndToken",
           "package": "language-python",
@@ -9677,6 +10512,7 @@
         "index": {
           "description": "Operator binary-and",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "BinaryAndToken",
           "package": "language-python",
@@ -9691,6 +10527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: binary-or '|'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "BinaryOrToken",
           "package": "language-python",
@@ -9701,6 +10538,7 @@
         "index": {
           "description": "Operator binary-or",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "BinaryOrToken",
           "package": "language-python",
@@ -9714,6 +10552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "Bracket",
           "package": "language-python",
@@ -9723,6 +10562,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "Bracket",
           "package": "language-python",
@@ -9737,6 +10577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'break'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "BreakToken",
           "package": "language-python",
@@ -9747,6 +10588,7 @@
         "index": {
           "description": "Keyword break",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "BreakToken",
           "package": "language-python",
@@ -9761,6 +10603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral: byte string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ByteStringToken",
           "package": "language-python",
@@ -9771,6 +10614,7 @@
         "index": {
           "description": "Literal byte string",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ByteStringToken",
           "package": "language-python",
@@ -9785,6 +10629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'class'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ClassToken",
           "package": "language-python",
@@ -9795,6 +10640,7 @@
         "index": {
           "description": "Keyword class",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ClassToken",
           "package": "language-python",
@@ -9809,6 +10655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: colon ':'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ColonToken",
           "package": "language-python",
@@ -9819,6 +10666,7 @@
         "index": {
           "description": "Delimiter colon",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ColonToken",
           "package": "language-python",
@@ -9833,6 +10681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: comma ','.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "CommaToken",
           "package": "language-python",
@@ -9843,6 +10692,7 @@
         "index": {
           "description": "Delimiter comma",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "CommaToken",
           "package": "language-python",
@@ -9856,6 +10706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "Comment",
           "package": "language-python",
@@ -9865,6 +10716,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "Comment",
           "package": "language-python",
@@ -9879,6 +10731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle line comment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "CommentToken",
           "package": "language-python",
@@ -9889,6 +10742,7 @@
         "index": {
           "description": "Single line comment",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "CommentToken",
           "package": "language-python",
@@ -9903,6 +10757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'continue'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ContinueToken",
           "package": "language-python",
@@ -9913,6 +10768,7 @@
         "index": {
           "description": "Keyword continue",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ContinueToken",
           "package": "language-python",
@@ -9927,6 +10783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndentation: decrease.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "DedentToken",
           "package": "language-python",
@@ -9937,6 +10794,7 @@
         "index": {
           "description": "Indentation decrease",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "DedentToken",
           "package": "language-python",
@@ -9951,6 +10809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'def'. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "DefToken",
           "package": "language-python",
@@ -9961,6 +10820,7 @@
         "index": {
           "description": "Keyword def",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "DefToken",
           "package": "language-python",
@@ -9975,6 +10835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'del'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "DeleteToken",
           "package": "language-python",
@@ -9985,6 +10846,7 @@
         "index": {
           "description": "Keyword del",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "DeleteToken",
           "package": "language-python",
@@ -9999,6 +10861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: divide assignment '/='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "DivAssignToken",
           "package": "language-python",
@@ -10009,6 +10872,7 @@
         "index": {
           "description": "Delimiter divide assignment",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "DivAssignToken",
           "package": "language-python",
@@ -10023,6 +10887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: divide '/'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "DivToken",
           "package": "language-python",
@@ -10033,6 +10898,7 @@
         "index": {
           "description": "Operator divide",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "DivToken",
           "package": "language-python",
@@ -10047,6 +10913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: dot (full stop) '.'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "DotToken",
           "package": "language-python",
@@ -10057,6 +10924,7 @@
         "index": {
           "description": "Delimiter dot full stop",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "DotToken",
           "package": "language-python",
@@ -10071,6 +10939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnd of file \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "EOFToken",
           "package": "language-python",
@@ -10081,6 +10950,7 @@
         "index": {
           "description": "End of file",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "EOFToken",
           "package": "language-python",
@@ -10095,6 +10965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'elif'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ElifToken",
           "package": "language-python",
@@ -10105,6 +10976,7 @@
         "index": {
           "description": "Keyword elif",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ElifToken",
           "package": "language-python",
@@ -10119,6 +10991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: ellipses (three dots) '...'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "EllipsisToken",
           "package": "language-python",
@@ -10129,6 +11002,7 @@
         "index": {
           "description": "Delimiter ellipses three dots",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "EllipsisToken",
           "package": "language-python",
@@ -10143,6 +11017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'else'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ElseToken",
           "package": "language-python",
@@ -10153,6 +11028,7 @@
         "index": {
           "description": "Keyword else",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ElseToken",
           "package": "language-python",
@@ -10167,6 +11043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: equals '=='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "EqualityToken",
           "package": "language-python",
@@ -10177,6 +11054,7 @@
         "index": {
           "description": "Operator equals",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "EqualityToken",
           "package": "language-python",
@@ -10191,6 +11069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'except'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ExceptToken",
           "package": "language-python",
@@ -10201,6 +11080,7 @@
         "index": {
           "description": "Keyword except",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ExceptToken",
           "package": "language-python",
@@ -10215,6 +11095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'exec'. (Python 2.x only)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ExecToken",
           "package": "language-python",
@@ -10225,6 +11106,7 @@
         "index": {
           "description": "Keyword exec Python only",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ExecToken",
           "package": "language-python",
@@ -10239,6 +11121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: exponential '**'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ExponentToken",
           "package": "language-python",
@@ -10249,6 +11132,7 @@
         "index": {
           "description": "Operator exponential",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ExponentToken",
           "package": "language-python",
@@ -10263,6 +11147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'False'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "FalseToken",
           "package": "language-python",
@@ -10273,6 +11158,7 @@
         "index": {
           "description": "Keyword False",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "FalseToken",
           "package": "language-python",
@@ -10287,6 +11173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'finally'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "FinallyToken",
           "package": "language-python",
@@ -10297,6 +11184,7 @@
         "index": {
           "description": "Keyword finally",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "FinallyToken",
           "package": "language-python",
@@ -10311,6 +11199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral: floating point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "FloatToken",
           "package": "language-python",
@@ -10321,6 +11210,7 @@
         "index": {
           "description": "Literal floating point",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "FloatToken",
           "package": "language-python",
@@ -10335,6 +11225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: floor-divide assignment '\u003cem/\u003e='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "FloorDivAssignToken",
           "package": "language-python",
@@ -10345,6 +11236,7 @@
         "index": {
           "description": "Delimiter floor-divide assignment",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "FloorDivAssignToken",
           "package": "language-python",
@@ -10359,6 +11251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: floor-divide '\u003cem/\u003e'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "FloorDivToken",
           "package": "language-python",
@@ -10369,6 +11262,7 @@
         "index": {
           "description": "Operator floor-divide",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "FloorDivToken",
           "package": "language-python",
@@ -10383,6 +11277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'for'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ForToken",
           "package": "language-python",
@@ -10393,6 +11288,7 @@
         "index": {
           "description": "Keyword for",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ForToken",
           "package": "language-python",
@@ -10407,6 +11303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'from'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "FromToken",
           "package": "language-python",
@@ -10417,6 +11314,7 @@
         "index": {
           "description": "Keyword from",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "FromToken",
           "package": "language-python",
@@ -10431,6 +11329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'global'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "GlobalToken",
           "package": "language-python",
@@ -10441,6 +11340,7 @@
         "index": {
           "description": "Keyword global",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "GlobalToken",
           "package": "language-python",
@@ -10455,6 +11355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: greater-than-or-equals '\u003e='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "GreaterThanEqualsToken",
           "package": "language-python",
@@ -10465,6 +11366,7 @@
         "index": {
           "description": "Operator greater-than-or-equals",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "GreaterThanEqualsToken",
           "package": "language-python",
@@ -10479,6 +11381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: greater-than '\u003e'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "GreaterThanToken",
           "package": "language-python",
@@ -10489,6 +11392,7 @@
         "index": {
           "description": "Operator greater-than",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "GreaterThanToken",
           "package": "language-python",
@@ -10502,6 +11406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "Identifier",
           "package": "language-python",
@@ -10511,6 +11416,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "Identifier",
           "package": "language-python",
@@ -10525,6 +11431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "IdentifierToken",
           "package": "language-python",
@@ -10535,6 +11442,7 @@
         "index": {
           "description": "Identifier",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "IdentifierToken",
           "package": "language-python",
@@ -10549,6 +11457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'if'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "IfToken",
           "package": "language-python",
@@ -10559,6 +11468,7 @@
         "index": {
           "description": "Keyword if",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "IfToken",
           "package": "language-python",
@@ -10573,6 +11483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral: imaginary number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ImaginaryToken",
           "package": "language-python",
@@ -10583,6 +11494,7 @@
         "index": {
           "description": "Literal imaginary number",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ImaginaryToken",
           "package": "language-python",
@@ -10597,6 +11509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'import'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ImportToken",
           "package": "language-python",
@@ -10607,6 +11520,7 @@
         "index": {
           "description": "Keyword import",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ImportToken",
           "package": "language-python",
@@ -10621,6 +11535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'in'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "InToken",
           "package": "language-python",
@@ -10631,6 +11546,7 @@
         "index": {
           "description": "Keyword in",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "InToken",
           "package": "language-python",
@@ -10645,6 +11561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndentation: increase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "IndentToken",
           "package": "language-python",
@@ -10655,6 +11572,7 @@
         "index": {
           "description": "Indentation increase",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "IndentToken",
           "package": "language-python",
@@ -10669,6 +11587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral: integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "IntegerToken",
           "package": "language-python",
@@ -10679,6 +11598,7 @@
         "index": {
           "description": "Literal integer",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "IntegerToken",
           "package": "language-python",
@@ -10693,6 +11613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'is'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "IsToken",
           "package": "language-python",
@@ -10703,6 +11624,7 @@
         "index": {
           "description": "Keyword is",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "IsToken",
           "package": "language-python",
@@ -10716,6 +11638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "Keyword",
           "package": "language-python",
@@ -10725,6 +11648,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "Keyword",
           "package": "language-python",
@@ -10739,6 +11663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'lambda'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "LambdaToken",
           "package": "language-python",
@@ -10749,6 +11674,7 @@
         "index": {
           "description": "Keyword lambda",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "LambdaToken",
           "package": "language-python",
@@ -10762,6 +11688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "Layout",
           "package": "language-python",
@@ -10771,6 +11698,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "Layout",
           "package": "language-python",
@@ -10785,6 +11713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: left curly bracket '{'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "LeftBraceToken",
           "package": "language-python",
@@ -10795,6 +11724,7 @@
         "index": {
           "description": "Delimiter left curly bracket",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "LeftBraceToken",
           "package": "language-python",
@@ -10809,6 +11739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: left round bracket '('.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "LeftRoundBracketToken",
           "package": "language-python",
@@ -10819,6 +11750,7 @@
         "index": {
           "description": "Delimiter left round bracket",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "LeftRoundBracketToken",
           "package": "language-python",
@@ -10833,6 +11765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: binary-left-shift assignment '\u003c\u003c='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "LeftShiftAssignToken",
           "package": "language-python",
@@ -10843,6 +11776,7 @@
         "index": {
           "description": "Delimiter binary-left-shift assignment",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "LeftShiftAssignToken",
           "package": "language-python",
@@ -10857,6 +11791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: left square bracket '['.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "LeftSquareBracketToken",
           "package": "language-python",
@@ -10867,6 +11802,7 @@
         "index": {
           "description": "Delimiter left square bracket",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "LeftSquareBracketToken",
           "package": "language-python",
@@ -10881,6 +11817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: less-than-or-equals '\u003c='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "LessThanEqualsToken",
           "package": "language-python",
@@ -10891,6 +11828,7 @@
         "index": {
           "description": "Operator less-than-or-equals",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "LessThanEqualsToken",
           "package": "language-python",
@@ -10905,6 +11843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: less-than '\u003c'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "LessThanToken",
           "package": "language-python",
@@ -10915,6 +11854,7 @@
         "index": {
           "description": "Operator less-than",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "LessThanToken",
           "package": "language-python",
@@ -10929,6 +11869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine join (backslash at end of line).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "LineJoinToken",
           "package": "language-python",
@@ -10939,6 +11880,7 @@
         "index": {
           "description": "Line join backslash at end of line",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "LineJoinToken",
           "package": "language-python",
@@ -10953,6 +11895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral: long integer. \u003cem\u003eVersion 2 only\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "LongIntegerToken",
           "package": "language-python",
@@ -10963,6 +11906,7 @@
         "index": {
           "description": "Literal long integer Version only",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "LongIntegerToken",
           "package": "language-python",
@@ -10977,6 +11921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: minus assignment '-='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "MinusAssignToken",
           "package": "language-python",
@@ -10987,6 +11932,7 @@
         "index": {
           "description": "Delimiter minus assignment",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "MinusAssignToken",
           "package": "language-python",
@@ -11001,6 +11947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: minus: '-'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "MinusToken",
           "package": "language-python",
@@ -11011,6 +11958,7 @@
         "index": {
           "description": "Operator minus",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "MinusToken",
           "package": "language-python",
@@ -11025,6 +11973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: modulus assignment '%='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ModAssignToken",
           "package": "language-python",
@@ -11035,6 +11984,7 @@
         "index": {
           "description": "Delimiter modulus assignment",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ModAssignToken",
           "package": "language-python",
@@ -11049,6 +11999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: modulus '%'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ModuloToken",
           "package": "language-python",
@@ -11059,6 +12010,7 @@
         "index": {
           "description": "Operator modulus",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ModuloToken",
           "package": "language-python",
@@ -11073,6 +12025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: multiply assignment '*='\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "MultAssignToken",
           "package": "language-python",
@@ -11083,6 +12036,7 @@
         "index": {
           "description": "Delimiter multiply assignment",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "MultAssignToken",
           "package": "language-python",
@@ -11097,6 +12051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: multiply '*'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "MultToken",
           "package": "language-python",
@@ -11107,6 +12062,7 @@
         "index": {
           "description": "Operator multiply",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "MultToken",
           "package": "language-python",
@@ -11121,6 +12077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "NewlineToken",
           "package": "language-python",
@@ -11131,6 +12088,7 @@
         "index": {
           "description": "Newline",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "NewlineToken",
           "package": "language-python",
@@ -11145,6 +12103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'nonlocal' (Python 3.x only)\n Version 2.x only:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "NonLocalToken",
           "package": "language-python",
@@ -11155,6 +12114,7 @@
         "index": {
           "description": "Keyword nonlocal Python only Version only",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "NonLocalToken",
           "package": "language-python",
@@ -11169,6 +12129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'None'. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "NoneToken",
           "package": "language-python",
@@ -11179,6 +12140,7 @@
         "index": {
           "description": "Keyword None",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "NoneToken",
           "package": "language-python",
@@ -11193,6 +12155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: not-equals '!='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "NotEqualsToken",
           "package": "language-python",
@@ -11203,6 +12166,7 @@
         "index": {
           "description": "Operator not-equals",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "NotEqualsToken",
           "package": "language-python",
@@ -11217,6 +12181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: not-equals '\u003ca/\u003e'. Version 2 only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "NotEqualsV2Token",
           "package": "language-python",
@@ -11227,6 +12192,7 @@
         "index": {
           "description": "Operator not-equals Version only",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "NotEqualsV2Token",
           "package": "language-python",
@@ -11241,6 +12207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'not'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "NotToken",
           "package": "language-python",
@@ -11251,6 +12218,7 @@
         "index": {
           "description": "Keyword not",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "NotToken",
           "package": "language-python",
@@ -11264,6 +12232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "Number",
           "package": "language-python",
@@ -11273,6 +12242,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "Number",
           "package": "language-python",
@@ -11286,6 +12256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "Operator",
           "package": "language-python",
@@ -11295,6 +12266,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "Operator",
           "package": "language-python",
@@ -11309,6 +12281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: boolean disjunction 'or'.\n Version 3.x only:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "OrToken",
           "package": "language-python",
@@ -11319,6 +12292,7 @@
         "index": {
           "description": "Keyword boolean disjunction or Version only",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "OrToken",
           "package": "language-python",
@@ -11333,6 +12307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'pass'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "PassToken",
           "package": "language-python",
@@ -11343,6 +12318,7 @@
         "index": {
           "description": "Keyword pass",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "PassToken",
           "package": "language-python",
@@ -11357,6 +12333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: plus assignment '+='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "PlusAssignToken",
           "package": "language-python",
@@ -11367,6 +12344,7 @@
         "index": {
           "description": "Delimiter plus assignment",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "PlusAssignToken",
           "package": "language-python",
@@ -11381,6 +12359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: plus '+'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "PlusToken",
           "package": "language-python",
@@ -11391,6 +12370,7 @@
         "index": {
           "description": "Operator plus",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "PlusToken",
           "package": "language-python",
@@ -11405,6 +12385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: power assignment '**='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "PowAssignToken",
           "package": "language-python",
@@ -11415,6 +12396,7 @@
         "index": {
           "description": "Delimiter power assignment",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "PowAssignToken",
           "package": "language-python",
@@ -11429,6 +12411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'print'. (Python 2.x only)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "PrintToken",
           "package": "language-python",
@@ -11439,6 +12422,7 @@
         "index": {
           "description": "Keyword print Python only",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "PrintToken",
           "package": "language-python",
@@ -11452,6 +12436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "Punctuation",
           "package": "language-python",
@@ -11461,6 +12446,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "Punctuation",
           "package": "language-python",
@@ -11475,6 +12461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'raise'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "RaiseToken",
           "package": "language-python",
@@ -11485,6 +12472,7 @@
         "index": {
           "description": "Keyword raise",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "RaiseToken",
           "package": "language-python",
@@ -11499,6 +12487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'Return'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ReturnToken",
           "package": "language-python",
@@ -11509,6 +12498,7 @@
         "index": {
           "description": "Keyword Return",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ReturnToken",
           "package": "language-python",
@@ -11523,6 +12513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: right facing arrow '-\u003e'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "RightArrowToken",
           "package": "language-python",
@@ -11533,6 +12524,7 @@
         "index": {
           "description": "Delimiter right facing arrow",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "RightArrowToken",
           "package": "language-python",
@@ -11547,6 +12539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: right curly bracket '}'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "RightBraceToken",
           "package": "language-python",
@@ -11557,6 +12550,7 @@
         "index": {
           "description": "Delimiter right curly bracket",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "RightBraceToken",
           "package": "language-python",
@@ -11571,6 +12565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: right round bracket ')'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "RightRoundBracketToken",
           "package": "language-python",
@@ -11581,6 +12576,7 @@
         "index": {
           "description": "Delimiter right round bracket",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "RightRoundBracketToken",
           "package": "language-python",
@@ -11595,6 +12591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: binary-right-shift assignment '\u003e\u003e='.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "RightShiftAssignToken",
           "package": "language-python",
@@ -11605,6 +12602,7 @@
         "index": {
           "description": "Delimiter binary-right-shift assignment",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "RightShiftAssignToken",
           "package": "language-python",
@@ -11619,6 +12617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: right square bracket ']'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "RightSquareBracketToken",
           "package": "language-python",
@@ -11629,6 +12628,7 @@
         "index": {
           "description": "Delimiter right square bracket",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "RightSquareBracketToken",
           "package": "language-python",
@@ -11643,6 +12643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter: semicolon ';'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "SemiColonToken",
           "package": "language-python",
@@ -11653,6 +12654,7 @@
         "index": {
           "description": "Delimiter semicolon",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "SemiColonToken",
           "package": "language-python",
@@ -11667,6 +12669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: binary-shift-left '\u003c\u003c'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ShiftLeftToken",
           "package": "language-python",
@@ -11677,6 +12680,7 @@
         "index": {
           "description": "Operator binary-shift-left",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ShiftLeftToken",
           "package": "language-python",
@@ -11691,6 +12695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: binary-shift-right '\u003e\u003e'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "ShiftRightToken",
           "package": "language-python",
@@ -11701,6 +12706,7 @@
         "index": {
           "description": "Operator binary-shift-right",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "ShiftRightToken",
           "package": "language-python",
@@ -11714,6 +12720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "String",
           "package": "language-python",
@@ -11723,6 +12730,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "String",
           "package": "language-python",
@@ -11737,6 +12745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral: string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "StringToken",
           "package": "language-python",
@@ -11747,6 +12756,7 @@
         "index": {
           "description": "Literal string",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "StringToken",
           "package": "language-python",
@@ -11761,6 +12771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: tilde '~'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "TildeToken",
           "package": "language-python",
@@ -11771,6 +12782,7 @@
         "index": {
           "description": "Operator tilde",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "TildeToken",
           "package": "language-python",
@@ -11785,6 +12797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'True'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "TrueToken",
           "package": "language-python",
@@ -11795,6 +12808,7 @@
         "index": {
           "description": "Keyword True",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "TrueToken",
           "package": "language-python",
@@ -11809,6 +12823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'try'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "TryToken",
           "package": "language-python",
@@ -11819,6 +12834,7 @@
         "index": {
           "description": "Keyword try",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "TryToken",
           "package": "language-python",
@@ -11833,6 +12849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral: unicode string, version 2 only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "UnicodeStringToken",
           "package": "language-python",
@@ -11843,6 +12860,7 @@
         "index": {
           "description": "Literal unicode string version only",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "UnicodeStringToken",
           "package": "language-python",
@@ -11857,6 +12875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'while'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "WhileToken",
           "package": "language-python",
@@ -11867,6 +12886,7 @@
         "index": {
           "description": "Keyword while",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "WhileToken",
           "package": "language-python",
@@ -11881,6 +12901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'with'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "WithToken",
           "package": "language-python",
@@ -11891,6 +12912,7 @@
         "index": {
           "description": "Keyword with",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "WithToken",
           "package": "language-python",
@@ -11905,6 +12927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator: binary-xor '^'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "XorToken",
           "package": "language-python",
@@ -11915,6 +12938,7 @@
         "index": {
           "description": "Operator binary-xor",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "XorToken",
           "package": "language-python",
@@ -11929,6 +12953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyword: 'yield'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "YieldToken",
           "package": "language-python",
@@ -11939,6 +12964,7 @@
         "index": {
           "description": "Keyword yield",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "YieldToken",
           "package": "language-python",
@@ -11952,6 +12978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "classifyToken",
           "package": "language-python",
@@ -11961,6 +12988,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "classifyToken",
           "normalized": "Token-\u003eTokenClass",
@@ -11977,6 +13005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a string from a token containing detailed information. Mainly intended for debugging. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "debugTokenString",
           "package": "language-python",
@@ -11987,6 +13016,7 @@
         "index": {
           "description": "Produce string from token containing detailed information Mainly intended for debugging",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "debugTokenString",
           "normalized": "Token-\u003eString",
@@ -12003,6 +13033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a token contains its literal source text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "hasLiteral",
           "package": "language-python",
@@ -12013,6 +13044,7 @@
         "index": {
           "description": "Test if token contains its literal source text",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "hasLiteral",
           "normalized": "Token-\u003eBool",
@@ -12029,6 +13061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a string from a token which is suitable for printing as Python concrete syntax.\n \u003cem\u003eInvisible\u003c/em\u003e tokens yield an empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "tokenString",
           "package": "language-python",
@@ -12039,6 +13072,7 @@
         "index": {
           "description": "Produce string from token which is suitable for printing as Python concrete syntax Invisible tokens yield an empty string",
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "tokenString",
           "normalized": "Token-\u003eString",
@@ -12054,6 +13088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "token_double",
           "package": "language-python",
@@ -12063,6 +13098,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "token_double",
           "package": "language-python",
@@ -12075,6 +13111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "token_integer",
           "package": "language-python",
@@ -12084,6 +13121,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "token_integer",
           "package": "language-python",
@@ -12096,6 +13134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "token_literal",
           "package": "language-python",
@@ -12105,6 +13144,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "token_literal",
           "package": "language-python",
@@ -12117,6 +13157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common.Token",
           "name": "token_span",
           "package": "language-python",
@@ -12126,6 +13167,7 @@
         },
         "index": {
           "hierarchy": "Language Python Common Token",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common.Token",
           "name": "token_span",
           "package": "language-python",
@@ -12139,6 +13181,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenient re-export of common code, which \n works with both version 2.x and 3.x of Python.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Common",
           "name": "Common",
           "package": "language-python",
@@ -12148,6 +13191,7 @@
         "index": {
           "description": "Convenient re-export of common code which works with both version and of Python",
           "hierarchy": "Language Python Common",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Common",
           "name": "Common",
           "package": "language-python",
@@ -12162,6 +13206,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLexical analysis for Python version 2.x programs. \n See: \u003ca\u003ehttp://www.python.org/doc/2.6/reference/lexical_analysis.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Version2.Lexer",
           "name": "Lexer",
           "package": "language-python",
@@ -12171,6 +13216,7 @@
         "index": {
           "description": "Lexical analysis for Python version programs See http www.python.org doc reference lexical analysis.html",
           "hierarchy": "Language Python Version2 Lexer",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Version2.Lexer",
           "name": "Lexer",
           "package": "language-python",
@@ -12236,6 +13282,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA parser for Python version 2.x programs. Parsers are provided for \n modules, statements, and expressions. The parsers produce comment tokens\n in addition to the abstract syntax tree.\n\u003c/p\u003e\u003cp\u003eSee: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/2.6/reference/index.html\u003c/a\u003e for an overview of the language. \n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/2.6/reference/grammar.html\u003c/a\u003e for the full grammar.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/2.6/reference/toplevel_components.html\u003c/a\u003e for a description of \n the various Python top-levels, which correspond to the parsers provided here.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Version2.Parser",
           "name": "Parser",
           "package": "language-python",
@@ -12245,6 +13292,7 @@
         "index": {
           "description": "parser for Python version programs Parsers are provided for modules statements and expressions The parsers produce comment tokens in addition to the abstract syntax tree See http www.python.org doc reference index.html for an overview of the language http www.python.org doc reference grammar.html for the full grammar http www.python.org doc reference toplevel components.html for description of the various Python top-levels which correspond to the parsers provided here",
           "hierarchy": "Language Python Version2 Parser",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Version2.Parser",
           "name": "Parser",
           "package": "language-python",
@@ -12337,6 +13385,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA convenient re-export of the parser and lexer for version 2.x of Python. \n\u003c/p\u003e\u003cp\u003eSee: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/2.6/reference/index.html\u003c/a\u003e for an overview of the language. \n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/2.6/reference/grammar.html\u003c/a\u003e for the full grammar.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/2.6/reference/toplevel_components.html\u003c/a\u003e for a description of \n the various Python top-levels, which correspond to the parsers provided here.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Version2",
           "name": "Version2",
           "package": "language-python",
@@ -12346,6 +13395,7 @@
         "index": {
           "description": "convenient re-export of the parser and lexer for version of Python See http www.python.org doc reference index.html for an overview of the language http www.python.org doc reference grammar.html for the full grammar http www.python.org doc reference toplevel components.html for description of the various Python top-levels which correspond to the parsers provided here",
           "hierarchy": "Language Python Version2",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Version2",
           "name": "Version2",
           "package": "language-python",
@@ -12360,6 +13410,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLexical analysis for Python version 3.x programs. \n See: \u003ca\u003ehttp://www.python.org/doc/3.1/reference/lexical_analysis.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Version3.Lexer",
           "name": "Lexer",
           "package": "language-python",
@@ -12369,6 +13420,7 @@
         "index": {
           "description": "Lexical analysis for Python version programs See http www.python.org doc reference lexical analysis.html",
           "hierarchy": "Language Python Version3 Lexer",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Version3.Lexer",
           "name": "Lexer",
           "package": "language-python",
@@ -12382,6 +13434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Version3.Lexer",
           "name": "initLexState",
           "package": "language-python",
@@ -12391,6 +13444,7 @@
         },
         "index": {
           "hierarchy": "Language Python Version3 Lexer",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Version3.Lexer",
           "name": "initLexState",
           "normalized": "String-\u003eString-\u003eParseState",
@@ -12407,6 +13461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLex a sequence of tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Version3.Lexer",
           "name": "lexer",
           "package": "language-python",
@@ -12417,6 +13472,7 @@
         "index": {
           "description": "Lex sequence of tokens",
           "hierarchy": "Language Python Version3 Lexer",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Version3.Lexer",
           "name": "lexer",
           "normalized": "P[Token]",
@@ -12432,6 +13488,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA parser for Python version 3.x programs. Parsers are provided for \n modules, statements, and expressions. The parsers produce comment tokens\n in addition to the abstract syntax tree.\n\u003c/p\u003e\u003cp\u003eSee: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/3.1/reference/index.html\u003c/a\u003e for an overview of the language. \n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/3.1/reference/grammar.html\u003c/a\u003e for the full grammar.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/3.1/reference/toplevel_components.html\u003c/a\u003e for a description of \n the various Python top-levels, which correspond to the parsers provided here.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Version3.Parser",
           "name": "Parser",
           "package": "language-python",
@@ -12441,6 +13498,7 @@
         "index": {
           "description": "parser for Python version programs Parsers are provided for modules statements and expressions The parsers produce comment tokens in addition to the abstract syntax tree See http www.python.org doc reference index.html for an overview of the language http www.python.org doc reference grammar.html for the full grammar http www.python.org doc reference toplevel components.html for description of the various Python top-levels which correspond to the parsers provided here",
           "hierarchy": "Language Python Version3 Parser",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Version3.Parser",
           "name": "Parser",
           "package": "language-python",
@@ -12455,6 +13513,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA convenient re-export of the parser and lexer for version 3.x of Python. \n\u003c/p\u003e\u003cp\u003eSee: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/3.1/reference/index.html\u003c/a\u003e for an overview of the language. \n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/3.1/reference/grammar.html\u003c/a\u003e for the full grammar.\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.python.org/doc/3.1/reference/toplevel_components.html\u003c/a\u003e for a description of \n the various Python top-levels, which correspond to the parsers provided here.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:02 UTC 2014",
           "module": "Language.Python.Version3",
           "name": "Version3",
           "package": "language-python",
@@ -12464,6 +13523,7 @@
         "index": {
           "description": "convenient re-export of the parser and lexer for version of Python See http www.python.org doc reference index.html for an overview of the language http www.python.org doc reference grammar.html for the full grammar http www.python.org doc reference toplevel components.html for description of the various Python top-levels which correspond to the parsers provided here",
           "hierarchy": "Language Python Version3",
+          "indexed": "2014-03-11T19:06:02",
           "module": "Language.Python.Version3",
           "name": "Version3",
           "package": "language-python",

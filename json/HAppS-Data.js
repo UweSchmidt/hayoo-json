@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HAppS-Data"
+        "phrase": "HAppS-Data",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Atom",
           "name": "Author",
           "package": "HAppS-Data",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Atom",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Atom",
           "name": "Author",
           "package": "HAppS-Data",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Atom",
           "name": "Category",
           "package": "HAppS-Data",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Atom",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Atom",
           "name": "Category",
           "package": "HAppS-Data",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Atom",
           "name": "Content",
           "package": "HAppS-Data",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Atom",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Atom",
           "name": "Content",
           "package": "HAppS-Data",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Atom",
           "name": "Contributor",
           "package": "HAppS-Data",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Atom",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Atom",
           "name": "Contributor",
           "package": "HAppS-Data",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Atom",
           "name": "Email",
           "package": "HAppS-Data",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Atom",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Atom",
           "name": "Email",
           "package": "HAppS-Data",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Atom",
           "name": "Entry",
           "package": "HAppS-Data",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Atom",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Atom",
           "name": "Entry",
           "package": "HAppS-Data",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Atom",
           "name": "Feed",
           "package": "HAppS-Data",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Atom",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Atom",
           "name": "Feed",
           "package": "HAppS-Data",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Atom",
           "name": "Id",
           "package": "HAppS-Data",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Atom",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Atom",
           "name": "Id",
           "package": "HAppS-Data",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Atom",
           "name": "Published",
           "package": "HAppS-Data",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Atom",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Atom",
           "name": "Published",
           "package": "HAppS-Data",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Atom",
           "name": "Summary",
           "package": "HAppS-Data",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Atom",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Atom",
           "name": "Summary",
           "package": "HAppS-Data",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Atom",
           "name": "Title",
           "package": "HAppS-Data",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Atom",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Atom",
           "name": "Title",
           "package": "HAppS-Data",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Atom",
           "name": "Updated",
           "package": "HAppS-Data",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Atom",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Atom",
           "name": "Updated",
           "package": "HAppS-Data",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Atom",
           "name": "Word",
           "package": "HAppS-Data",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Atom",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Atom",
           "name": "Word",
           "package": "HAppS-Data",
@@ -292,11 +318,13 @@
       "document": {
         "description": {
           "description": "Provides a \u003ctt\u003e\u003ca\u003eDefault\u003c/a\u003e\u003c/tt\u003e instance for all types. \u003ctt\u003e\u003ca\u003edefaultDefaultValue\u003c/a\u003e\u003c/tt\u003e is\n used for \u003ctt\u003e\u003ca\u003edefaultValue\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "source": "http://hackage.haskell.org/package/HAppS-Data/docs/HAppS-Data-Default-Generic.html",
           "type": "unknown"
         },
         "index": {
           "description": "Provides Default instance for all types defaultDefaultValue is used for defaultValue",
+          "indexed": "2014-03-11T16:44:11",
           "type": "unknown"
         },
         "uri": "http://hackage.haskell.org/package/HAppS-Data/docs/HAppS-Data-Default-Generic.html"
@@ -306,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Default",
           "name": "DefaultD",
           "package": "HAppS-Data",
@@ -314,6 +343,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Default",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Default",
           "name": "DefaultD",
           "package": "HAppS-Data",
@@ -327,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Default",
           "name": "Default",
           "package": "HAppS-Data",
@@ -335,6 +366,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Default",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Default",
           "name": "Default",
           "package": "HAppS-Data",
@@ -349,6 +381,7 @@
       "document": {
         "description": {
           "description": "This is the \u003ctt\u003e\u003ca\u003edefaultValue\u003c/a\u003e\u003c/tt\u003e that is used in an instance if you don't\n specify one. It may be a useful building block when writing your own\n instances.\n",
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Default",
           "name": "defaultDefaultValue",
           "package": "HAppS-Data",
@@ -359,6 +392,7 @@
         "index": {
           "description": "This is the defaultValue that is used in an instance if you don specify one It may be useful building block when writing your own instances",
           "hierarchy": "HAppS Data Default",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Default",
           "name": "defaultDefaultValue",
           "package": "HAppS-Data",
@@ -373,6 +407,7 @@
       "document": {
         "description": {
           "description": "When writing your own generic functions for \u003ctt\u003e\u003ca\u003eDefault\u003c/a\u003e\u003c/tt\u003e you may\n need this, the proxy value.\n",
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Default",
           "name": "defaultProxy",
           "package": "HAppS-Data",
@@ -383,6 +418,7 @@
         "index": {
           "description": "When writing your own generic functions for Default you may need this the proxy value",
           "hierarchy": "HAppS Data Default",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Default",
           "name": "defaultProxy",
           "package": "HAppS-Data",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Default",
           "name": "defaultValue",
           "package": "HAppS-Data",
@@ -405,6 +442,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Default",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Default",
           "name": "defaultValue",
           "package": "HAppS-Data",
@@ -419,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ctt\u003e\u003ca\u003ederiveAll\u003c/a\u003e\u003c/tt\u003e function takes a list of classes to derive and\n a block of declarations. It will additionally derive instances for\n Typeable, \u003ctt\u003e\u003ca\u003eData\u003c/a\u003e\u003c/tt\u003e and New.Data.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e $( deriveAll [''Show, ''Eq, ''Default] [d|\n        data Foo a = Foo a\n        data Bar = Baz | Quux\n  |] )\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.DeriveAll",
           "name": "deriveAll",
           "package": "HAppS-Data",
@@ -429,6 +468,7 @@
         "index": {
           "description": "The deriveAll function takes list of classes to derive and block of declarations It will additionally derive instances for Typeable Data and New.Data Example deriveAll Show Eq Default data Foo Foo data Bar Baz Quux",
           "hierarchy": "HAppS Data DeriveAll",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.DeriveAll",
           "name": "deriveAll",
           "normalized": "[Name]-\u003eQ[Dec]-\u003eQ[Dec]",
@@ -444,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.DeriveAll",
           "name": "deriveNewData",
           "package": "HAppS-Data",
@@ -453,6 +494,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data DeriveAll",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.DeriveAll",
           "name": "deriveNewData",
           "normalized": "[Name]-\u003eQ[Dec]",
@@ -468,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.DeriveAll",
           "name": "deriveNewDataNoDefault",
           "package": "HAppS-Data",
@@ -477,6 +520,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data DeriveAll",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.DeriveAll",
           "name": "deriveNewDataNoDefault",
           "normalized": "[Name]-\u003eQ[Dec]",
@@ -492,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.HList",
           "name": ":&:",
           "package": "HAppS-Data",
@@ -500,6 +545,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data HList",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.HList",
           "name": ":&:",
           "package": "HAppS-Data",
@@ -512,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.HList",
           "name": "Couple",
           "package": "HAppS-Data",
@@ -520,6 +567,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data HList",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.HList",
           "name": "Couple",
           "package": "HAppS-Data",
@@ -533,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.HList",
           "name": "Nil",
           "package": "HAppS-Data",
@@ -541,6 +590,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data HList",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.HList",
           "name": "Nil",
           "package": "HAppS-Data",
@@ -554,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.HList",
           "name": ".",
           "package": "HAppS-Data",
@@ -563,6 +614,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data HList",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.HList",
           "name": ".",
           "normalized": "a-\u003eb-\u003eCouple a b",
@@ -577,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.HList",
           "name": "CoupleClass",
           "package": "HAppS-Data",
@@ -585,6 +638,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data HList",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.HList",
           "name": "CoupleClass",
           "package": "HAppS-Data",
@@ -598,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.HList",
           "name": "HasT",
           "package": "HAppS-Data",
@@ -606,6 +661,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data HList",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.HList",
           "name": "HasT",
           "package": "HAppS-Data",
@@ -619,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.HList",
           "name": "hMap",
           "package": "HAppS-Data",
@@ -628,6 +685,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data HList",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.HList",
           "name": "hMap",
           "normalized": "a-\u003eb",
@@ -643,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.HList",
           "name": "hlextract",
           "package": "HAppS-Data",
@@ -652,6 +711,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data HList",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.HList",
           "name": "hlextract",
           "normalized": "a-\u003eb",
@@ -666,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.HList",
           "name": "hlupdate",
           "package": "HAppS-Data",
@@ -675,6 +736,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data HList",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.HList",
           "name": "hlupdate",
           "normalized": "a-\u003eb-\u003ea",
@@ -689,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.HList",
           "name": "trans",
           "package": "HAppS-Data",
@@ -698,6 +761,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data HList",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.HList",
           "name": "trans",
           "normalized": "a-\u003eb-\u003eb",
@@ -712,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Migrate",
           "name": "Migrate",
           "package": "HAppS-Data",
@@ -720,6 +785,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Migrate",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Migrate",
           "name": "Migrate",
           "package": "HAppS-Data",
@@ -734,6 +800,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003ed| ... |\u003c/dt\u003e\u003cdd\u003e)\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Migrate",
           "name": "migrate",
           "package": "HAppS-Data",
@@ -743,6 +810,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Migrate",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Migrate",
           "name": "migrate",
           "normalized": "a-\u003eb",
@@ -757,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Normalize",
           "name": "NormalizeD",
           "package": "HAppS-Data",
@@ -765,6 +834,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Normalize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Normalize",
           "name": "NormalizeD",
           "package": "HAppS-Data",
@@ -778,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Normalize",
           "name": "Normalize",
           "package": "HAppS-Data",
@@ -786,6 +857,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Normalize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Normalize",
           "name": "Normalize",
           "package": "HAppS-Data",
@@ -800,6 +872,7 @@
       "document": {
         "description": {
           "description": "This is the \u003ctt\u003e\u003ca\u003enormalize\u003c/a\u003e\u003c/tt\u003e function in the default \u003ctt\u003e\u003ca\u003eNormalize\u003c/a\u003e\u003c/tt\u003e\n instance. It may be a useful building block when writing your own\n instances.\n",
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Normalize",
           "name": "defaultNormalize",
           "package": "HAppS-Data",
@@ -810,6 +883,7 @@
         "index": {
           "description": "This is the normalize function in the default Normalize instance It may be useful building block when writing your own instances",
           "hierarchy": "HAppS Data Normalize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Normalize",
           "name": "defaultNormalize",
           "normalized": "a-\u003ea",
@@ -826,6 +900,7 @@
       "document": {
         "description": {
           "description": "This is the \u003ctt\u003e\u003ca\u003enormalizeRecursively\u003c/a\u003e\u003c/tt\u003e function in the default\n \u003ctt\u003e\u003ca\u003eNormalize\u003c/a\u003e\u003c/tt\u003e instance. It may be a useful building block when writing\n your own instances.\n",
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Normalize",
           "name": "defaultNormalizeRecursively",
           "package": "HAppS-Data",
@@ -836,6 +911,7 @@
         "index": {
           "description": "This is the normalizeRecursively function in the default Normalize instance It may be useful building block when writing your own instances",
           "hierarchy": "HAppS Data Normalize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Normalize",
           "name": "defaultNormalizeRecursively",
           "normalized": "a-\u003ea",
@@ -851,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Normalize",
           "name": "normalize",
           "package": "HAppS-Data",
@@ -860,6 +937,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Normalize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Normalize",
           "name": "normalize",
           "normalized": "a-\u003ea",
@@ -875,6 +953,7 @@
       "document": {
         "description": {
           "description": "When writing your own generic functions for \u003ctt\u003e\u003ca\u003eNormalize\u003c/a\u003e\u003c/tt\u003e you may\n need this, the proxy value.\n",
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Normalize",
           "name": "normalizeProxy",
           "package": "HAppS-Data",
@@ -885,6 +964,7 @@
         "index": {
           "description": "When writing your own generic functions for Normalize you may need this the proxy value",
           "hierarchy": "HAppS Data Normalize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Normalize",
           "name": "normalizeProxy",
           "package": "HAppS-Data",
@@ -898,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Normalize",
           "name": "normalizeRecursively",
           "package": "HAppS-Data",
@@ -907,6 +988,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Normalize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Normalize",
           "name": "normalizeRecursively",
           "normalized": "a-\u003ea",
@@ -922,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Pairs",
           "name": "Pairs",
           "package": "HAppS-Data",
@@ -930,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Pairs",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Pairs",
           "name": "Pairs",
           "package": "HAppS-Data",
@@ -943,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Pairs",
           "name": "AsPairs",
           "package": "HAppS-Data",
@@ -951,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Pairs",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Pairs",
           "name": "AsPairs",
           "package": "HAppS-Data",
@@ -964,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Pairs",
           "name": "fromPairs",
           "package": "HAppS-Data",
@@ -973,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Pairs",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Pairs",
           "name": "fromPairs",
           "normalized": "Pairs-\u003eMaybe a",
@@ -988,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Pairs",
           "name": "toPairs",
           "package": "HAppS-Data",
@@ -997,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Pairs",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Pairs",
           "name": "toPairs",
           "normalized": "a-\u003ePairs",
@@ -1012,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Proxy",
           "name": "Proxy",
           "package": "HAppS-Data",
@@ -1020,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Proxy",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Proxy",
           "name": "Proxy",
           "package": "HAppS-Data",
@@ -1033,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Proxy",
           "name": "asProxyType",
           "package": "HAppS-Data",
@@ -1042,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Proxy",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Proxy",
           "name": "asProxyType",
           "normalized": "a-\u003eProxy a-\u003ea",
@@ -1057,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Proxy",
           "name": "constr[aiay]",
           "package": "HAppS-Data",
@@ -1066,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Proxy",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Proxy",
           "name": "constr[aiay]",
           "package": "HAppS-Data",
@@ -1078,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Proxy",
           "name": "dataType[aiax]",
           "package": "HAppS-Data",
@@ -1087,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Proxy",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Proxy",
           "name": "dataType[aiax]",
           "package": "HAppS-Data",
@@ -1100,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Proxy",
           "name": "proxy",
           "package": "HAppS-Data",
@@ -1109,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Proxy",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Proxy",
           "name": "proxy",
           "normalized": "a-\u003eProxy a",
@@ -1123,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Proxy",
           "name": "unProxy",
           "package": "HAppS-Data",
@@ -1132,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Proxy",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Proxy",
           "name": "unProxy",
           "normalized": "Proxy a-\u003ea",
@@ -1147,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "Contained",
           "package": "HAppS-Data",
@@ -1155,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "Contained",
           "package": "HAppS-Data",
@@ -1168,6 +1272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "Mode",
           "package": "HAppS-Data",
@@ -1176,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "Mode",
           "package": "HAppS-Data",
@@ -1189,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "Object",
           "package": "HAppS-Data",
@@ -1197,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "Object",
           "package": "HAppS-Data",
@@ -1210,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "Migrate",
           "package": "HAppS-Data",
@@ -1218,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "Migrate",
           "package": "HAppS-Data",
@@ -1231,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "Serialize",
           "package": "HAppS-Data",
@@ -1239,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "Serialize",
           "package": "HAppS-Data",
@@ -1252,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "Version",
           "package": "HAppS-Data",
@@ -1260,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "Version",
           "package": "HAppS-Data",
@@ -1273,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "collectVersions",
           "package": "HAppS-Data",
@@ -1282,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "collectVersions",
           "normalized": "Proxy a-\u003e[ByteString]",
@@ -1297,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "contain",
           "package": "HAppS-Data",
@@ -1306,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "contain",
           "normalized": "a-\u003eContained a",
@@ -1320,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "deserialize",
           "package": "HAppS-Data",
@@ -1329,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "deserialize",
           "normalized": "ByteString-\u003e(a,ByteString)",
@@ -1343,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "deserializeObject",
           "package": "HAppS-Data",
@@ -1352,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "deserializeObject",
           "normalized": "ByteString-\u003e(Object,ByteString)",
@@ -1367,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "extension",
           "package": "HAppS-Data",
@@ -1376,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "extension",
           "normalized": "VersionId a-\u003eProxy b-\u003eMode a",
@@ -1390,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "getCopy",
           "package": "HAppS-Data",
@@ -1399,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "getCopy",
           "package": "HAppS-Data",
@@ -1412,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "migrate",
           "package": "HAppS-Data",
@@ -1421,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "migrate",
           "normalized": "a-\u003eb",
@@ -1435,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "mkObject",
           "package": "HAppS-Data",
@@ -1444,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "mkObject",
           "normalized": "a-\u003eObject",
@@ -1459,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "mode",
           "package": "HAppS-Data",
@@ -1468,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "mode",
           "package": "HAppS-Data",
@@ -1480,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "parseObject",
           "package": "HAppS-Data",
@@ -1489,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "parseObject",
           "normalized": "Object-\u003ea",
@@ -1504,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "putCopy",
           "package": "HAppS-Data",
@@ -1513,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "putCopy",
           "normalized": "a-\u003eContained Put",
@@ -1528,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "safeGet",
           "package": "HAppS-Data",
@@ -1537,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "safeGet",
           "package": "HAppS-Data",
@@ -1550,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "safePut",
           "package": "HAppS-Data",
@@ -1559,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "safePut",
           "normalized": "a-\u003ePut",
@@ -1574,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Serialize",
           "name": "serialize",
           "package": "HAppS-Data",
@@ -1583,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Serialize",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Serialize",
           "name": "serialize",
           "normalized": "a-\u003eByteString",
@@ -1597,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.SerializeTH",
           "name": "deriveSerialize",
           "package": "HAppS-Data",
@@ -1606,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data SerializeTH",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.SerializeTH",
           "name": "deriveSerialize",
           "normalized": "Name-\u003eQ[Dec]",
@@ -1621,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.SerializeTH",
           "name": "deriveSerializeFor",
           "package": "HAppS-Data",
@@ -1630,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data SerializeTH",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.SerializeTH",
           "name": "deriveSerializeFor",
           "normalized": "[Name]-\u003eQ[Dec]",
@@ -1645,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "fromAttribute",
           "package": "HAppS-Data",
@@ -1654,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml HaXml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "fromAttribute",
           "normalized": "Attribute-\u003eElement",
@@ -1669,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "fromAttributes",
           "package": "HAppS-Data",
@@ -1678,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml HaXml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "fromAttributes",
           "normalized": "[Attribute]-\u003e[Element]",
@@ -1693,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "fromHaXml",
           "package": "HAppS-Data",
@@ -1702,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml HaXml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "fromHaXml",
           "normalized": "Content-\u003eElement",
@@ -1717,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "fromHaXmls",
           "package": "HAppS-Data",
@@ -1726,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml HaXml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "fromHaXmls",
           "normalized": "[Content]-\u003e[Element]",
@@ -1741,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "isAttr",
           "package": "HAppS-Data",
@@ -1750,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml HaXml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "isAttr",
           "normalized": "Element-\u003eBool",
@@ -1765,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "toAttribute",
           "package": "HAppS-Data",
@@ -1774,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml HaXml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "toAttribute",
           "normalized": "Element-\u003eAttribute",
@@ -1789,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "toHaXml",
           "package": "HAppS-Data",
@@ -1798,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml HaXml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "toHaXml",
           "normalized": "Element-\u003eContent",
@@ -1813,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "toHaXmls",
           "package": "HAppS-Data",
@@ -1822,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml HaXml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml.HaXml",
           "name": "toHaXmls",
           "normalized": "[Element]-\u003e[Content]",
@@ -1837,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "Element",
           "package": "HAppS-Data",
@@ -1845,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "Element",
           "package": "HAppS-Data",
@@ -1858,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "K",
           "package": "HAppS-Data",
@@ -1866,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "K",
           "package": "HAppS-Data",
@@ -1878,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "Other",
           "package": "HAppS-Data",
@@ -1886,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "Other",
           "package": "HAppS-Data",
@@ -1899,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "ReadM",
           "package": "HAppS-Data",
@@ -1907,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "ReadM",
           "package": "HAppS-Data",
@@ -1920,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "ReadState",
           "package": "HAppS-Data",
@@ -1928,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "ReadState",
           "package": "HAppS-Data",
@@ -1941,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "Rigidity",
           "package": "HAppS-Data",
@@ -1949,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "Rigidity",
           "package": "HAppS-Data",
@@ -1962,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "W",
           "package": "HAppS-Data",
@@ -1970,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "W",
           "package": "HAppS-Data",
@@ -1982,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "XmlD",
           "package": "HAppS-Data",
@@ -1990,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "XmlD",
           "package": "HAppS-Data",
@@ -2003,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "FromString",
           "package": "HAppS-Data",
@@ -2011,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "FromString",
           "package": "HAppS-Data",
@@ -2024,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "ToString",
           "package": "HAppS-Data",
@@ -2032,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "ToString",
           "package": "HAppS-Data",
@@ -2045,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "Xml",
           "package": "HAppS-Data",
@@ -2053,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "Xml",
           "package": "HAppS-Data",
@@ -2066,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "aConstrFromElements",
           "package": "HAppS-Data",
@@ -2075,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "aConstrFromElements",
           "normalized": "Rigidity a-\u003e[Constr]-\u003e[Element]-\u003eMaybe([Element],b)",
@@ -2090,6 +2276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "constrFromElements",
           "package": "HAppS-Data",
@@ -2099,6 +2286,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "constrFromElements",
           "normalized": "Rigidity a-\u003eConstr-\u003e[Element]-\u003ea([Element],b)",
@@ -2114,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "constrFromElementsNoRootDefault",
           "package": "HAppS-Data",
@@ -2123,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "constrFromElementsNoRootDefault",
           "normalized": "Rigidity a-\u003eConstr-\u003e[Element]-\u003eMaybe([Element],b)",
@@ -2138,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "constr[a63N]",
           "package": "HAppS-Data",
@@ -2147,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "constr[a63N]",
           "package": "HAppS-Data",
@@ -2159,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "constr[a63O]",
           "package": "HAppS-Data",
@@ -2168,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "constr[a63O]",
           "package": "HAppS-Data",
@@ -2180,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "constr[a63P]",
           "package": "HAppS-Data",
@@ -2189,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "constr[a63P]",
           "package": "HAppS-Data",
@@ -2201,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "constr[adTb]",
           "package": "HAppS-Data",
@@ -2210,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "constr[adTb]",
           "package": "HAppS-Data",
@@ -2223,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "constr[adTl]",
           "package": "HAppS-Data",
@@ -2232,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "constr[adTl]",
           "package": "HAppS-Data",
@@ -2245,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "dataType[a63M]",
           "package": "HAppS-Data",
@@ -2254,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "dataType[a63M]",
           "package": "HAppS-Data",
@@ -2267,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "dataType[adTa]",
           "package": "HAppS-Data",
@@ -2276,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "dataType[adTa]",
           "package": "HAppS-Data",
@@ -2289,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "dataType[adTk]",
           "package": "HAppS-Data",
@@ -2298,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "dataType[adTk]",
           "package": "HAppS-Data",
@@ -2311,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "defaultReadXml",
           "package": "HAppS-Data",
@@ -2320,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "defaultReadXml",
           "normalized": "Rigidity a-\u003e[Element]-\u003eMaybe([Element],b)",
@@ -2335,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "defaultReadXml'",
           "package": "HAppS-Data",
@@ -2344,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "defaultReadXml'",
           "normalized": "Rigidity a-\u003e[Element]-\u003eMaybe([Element],b)",
@@ -2359,6 +2569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "defaultToXml",
           "package": "HAppS-Data",
@@ -2368,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "defaultToXml",
           "normalized": "a-\u003e[Element]",
@@ -2383,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "first",
           "package": "HAppS-Data",
@@ -2392,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "first",
           "normalized": "(a-\u003ea)-\u003e[a]-\u003e[a]",
@@ -2406,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "fromString",
           "package": "HAppS-Data",
@@ -2415,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "fromString",
           "normalized": "Rigidity a-\u003eString-\u003ea b",
@@ -2430,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "fromXml",
           "package": "HAppS-Data",
@@ -2439,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "fromXml",
           "normalized": "Rigidity a-\u003e[Element]-\u003ea b",
@@ -2454,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "getAttr",
           "package": "HAppS-Data",
@@ -2463,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "getAttr",
           "normalized": "String-\u003e[Element]-\u003eMaybe(String,[Element])",
@@ -2478,6 +2698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "getXmls",
           "package": "HAppS-Data",
@@ -2487,6 +2708,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "getXmls",
           "normalized": "ReadM a[Element]",
@@ -2502,6 +2724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "isTheAttr",
           "package": "HAppS-Data",
@@ -2511,6 +2734,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "isTheAttr",
           "normalized": "String-\u003eElement-\u003eBool",
@@ -2526,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "noCommas",
           "package": "HAppS-Data",
@@ -2535,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "noCommas",
           "normalized": "String-\u003eString",
@@ -2550,6 +2776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "normalizeXml",
           "package": "HAppS-Data",
@@ -2559,6 +2786,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "normalizeXml",
           "normalized": "a-\u003e[Element]-\u003e[Element]",
@@ -2574,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "otherVersion",
           "package": "HAppS-Data",
@@ -2583,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "otherVersion",
           "normalized": "a-\u003eOther a",
@@ -2598,6 +2828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "putXmls",
           "package": "HAppS-Data",
@@ -2607,6 +2838,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "putXmls",
           "normalized": "[Element]-\u003eReadM a()",
@@ -2622,6 +2854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "readElement",
           "package": "HAppS-Data",
@@ -2631,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "readElement",
           "normalized": "Rigidity a-\u003eElement-\u003eMaybe b",
@@ -2646,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "readMXml",
           "package": "HAppS-Data",
@@ -2655,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "readMXml",
           "normalized": "Rigidity a-\u003eReadM a b",
@@ -2670,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "readMXmlNoRootDefault",
           "package": "HAppS-Data",
@@ -2679,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "readMXmlNoRootDefault",
           "normalized": "Rigidity a-\u003eReadM Maybe b",
@@ -2694,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "readVersionedElement",
           "package": "HAppS-Data",
@@ -2703,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "readVersionedElement",
           "normalized": "Rigidity a-\u003eElement-\u003eMaybe b",
@@ -2718,6 +2958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "readXml",
           "package": "HAppS-Data",
@@ -2727,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "readXml",
           "normalized": "Rigidity a-\u003e[Element]-\u003eMaybe([Element],b)",
@@ -2742,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "readXml'",
           "package": "HAppS-Data",
@@ -2751,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "readXml'",
           "normalized": "Rigidity a-\u003e[Element]-\u003eMaybe([Element],b)",
@@ -2766,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "readXmlWith",
           "package": "HAppS-Data",
@@ -2775,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "readXmlWith",
           "normalized": "(Rigidity a-\u003eElement-\u003eMaybe b)-\u003eRigidity a-\u003e[Element]-\u003eMaybe([Element],b)",
@@ -2790,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "toPublicXml",
           "package": "HAppS-Data",
@@ -2799,6 +3046,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "toPublicXml",
           "normalized": "a-\u003e[Element]",
@@ -2814,6 +3062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "toString",
           "package": "HAppS-Data",
@@ -2823,6 +3072,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -2838,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "toXml",
           "package": "HAppS-Data",
@@ -2847,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "toXml",
           "normalized": "a-\u003e[Element]",
@@ -2862,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "transparentReadXml",
           "package": "HAppS-Data",
@@ -2871,6 +3124,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "transparentReadXml",
           "normalized": "Rigidity a-\u003e[Element]-\u003eMaybe([Element],b)",
@@ -2886,6 +3140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "transparentToXml",
           "package": "HAppS-Data",
@@ -2895,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "transparentToXml",
           "normalized": "a-\u003e[Element]",
@@ -2910,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "transparentXml",
           "package": "HAppS-Data",
@@ -2919,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "transparentXml",
           "normalized": "Name-\u003eQ[Dec]",
@@ -2934,6 +3192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "typ",
           "package": "HAppS-Data",
@@ -2943,6 +3202,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "typ",
           "normalized": "a-\u003eString",
@@ -2957,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "typeAttr",
           "package": "HAppS-Data",
@@ -2966,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "typeAttr",
           "package": "HAppS-Data",
@@ -2979,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "typeNotValue",
           "package": "HAppS-Data",
@@ -2988,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "typeNotValue",
           "normalized": "a-\u003ea",
@@ -3003,6 +3267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "version",
           "package": "HAppS-Data",
@@ -3012,6 +3277,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "version",
           "normalized": "a-\u003eMaybe String",
@@ -3026,6 +3292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "versionAttr",
           "package": "HAppS-Data",
@@ -3035,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "versionAttr",
           "package": "HAppS-Data",
@@ -3048,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "xmlAttr",
           "package": "HAppS-Data",
@@ -3057,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "xmlAttr",
           "normalized": "Name-\u003eQ[Dec]",
@@ -3072,6 +3342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "xmlCDataList",
           "package": "HAppS-Data",
@@ -3081,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "xmlCDataList",
           "normalized": "Name-\u003eQ[Dec]",
@@ -3096,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "xmlCDataLists",
           "package": "HAppS-Data",
@@ -3105,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "xmlCDataLists",
           "normalized": "[Name]-\u003eQ[Dec]",
@@ -3120,6 +3394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "xmlProxy",
           "package": "HAppS-Data",
@@ -3129,6 +3404,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "xmlProxy",
           "package": "HAppS-Data",
@@ -3142,6 +3418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "xmlShowCData",
           "package": "HAppS-Data",
@@ -3151,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "xmlShowCData",
           "normalized": "Name-\u003eQ[Dec]",
@@ -3166,6 +3444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:11 UTC 2014",
           "module": "HAppS.Data.Xml",
           "name": "xmlShowCDatas",
           "package": "HAppS-Data",
@@ -3175,6 +3454,7 @@
         },
         "index": {
           "hierarchy": "HAppS Data Xml",
+          "indexed": "2014-03-11T16:44:11",
           "module": "HAppS.Data.Xml",
           "name": "xmlShowCDatas",
           "normalized": "[Name]-\u003eQ[Dec]",

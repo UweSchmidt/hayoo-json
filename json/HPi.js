@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HPi"
+        "phrase": "HPi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLibrary for controlling the GPIO pins on a Raspberry Pi (or any system using the Broadcom 2835 SOC). It is constructed\n as a FFI wrapper over the BCM2835 library by Mike McCauley.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "GPIO",
           "package": "HPi",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Library for controlling the GPIO pins on Raspberry Pi or any system using the Broadcom SOC It is constructed as FFI wrapper over the BCM2835 library by Mike McCauley",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "GPIO",
           "package": "HPi",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis describes the address of an I2C slave.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Address",
           "package": "HPi",
@@ -51,6 +54,7 @@
         "index": {
           "description": "This describes the address of an I2C slave",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Address",
           "package": "HPi",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither high or low.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "LogicLevel",
           "package": "HPi",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Either high or low",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "LogicLevel",
           "package": "HPi",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin",
           "package": "HPi",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin",
           "package": "HPi",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GPIO pin can be either set to input mode, output mode or an alternative mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinMode",
           "package": "HPi",
@@ -118,6 +127,7 @@
         "index": {
           "description": "GPIO pin can be either set to input mode output mode or an alternative mode",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinMode",
           "package": "HPi",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Alt0",
           "package": "HPi",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Alt0",
           "package": "HPi",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Alt1",
           "package": "HPi",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Alt1",
           "package": "HPi",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Alt2",
           "package": "HPi",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Alt2",
           "package": "HPi",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Alt3",
           "package": "HPi",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Alt3",
           "package": "HPi",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Alt4",
           "package": "HPi",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Alt4",
           "package": "HPi",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Alt5",
           "package": "HPi",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Alt5",
           "package": "HPi",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Input",
           "package": "HPi",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Input",
           "package": "HPi",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Output",
           "package": "HPi",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Output",
           "package": "HPi",
@@ -308,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePins for the P1 connector of the V2 revision of the Raspberry Pi\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin03",
           "package": "HPi",
@@ -318,6 +345,7 @@
         "index": {
           "description": "Pins for the P1 connector of the V2 revision of the Raspberry Pi",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin03",
           "package": "HPi",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin05",
           "package": "HPi",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin05",
           "package": "HPi",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin07",
           "package": "HPi",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin07",
           "package": "HPi",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin08",
           "package": "HPi",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin08",
           "package": "HPi",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin10",
           "package": "HPi",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin10",
           "package": "HPi",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin11",
           "package": "HPi",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin11",
           "package": "HPi",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin12",
           "package": "HPi",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin12",
           "package": "HPi",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin13",
           "package": "HPi",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin13",
           "package": "HPi",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin15",
           "package": "HPi",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin15",
           "package": "HPi",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin16",
           "package": "HPi",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin16",
           "package": "HPi",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin18",
           "package": "HPi",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin18",
           "package": "HPi",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin19",
           "package": "HPi",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin19",
           "package": "HPi",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin21",
           "package": "HPi",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin21",
           "package": "HPi",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin22",
           "package": "HPi",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin22",
           "package": "HPi",
@@ -617,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin23",
           "package": "HPi",
@@ -626,6 +681,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin23",
           "package": "HPi",
@@ -639,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin24",
           "package": "HPi",
@@ -648,6 +705,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin24",
           "package": "HPi",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin26",
           "package": "HPi",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "Pin26",
           "package": "HPi",
@@ -684,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePins for the P5 connector of the V2 revision of the Raspberry Pi\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinP5_03",
           "package": "HPi",
@@ -694,6 +755,7 @@
         "index": {
           "description": "Pins for the P5 connector of the V2 revision of the Raspberry Pi",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinP5_03",
           "package": "HPi",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinP5_04",
           "package": "HPi",
@@ -716,6 +779,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinP5_04",
           "package": "HPi",
@@ -729,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinP5_05",
           "package": "HPi",
@@ -738,6 +803,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinP5_05",
           "package": "HPi",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinP5_06",
           "package": "HPi",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinP5_06",
           "package": "HPi",
@@ -774,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePins for the P1 connector of the V1 revision of the Raspberry Pi\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_03",
           "package": "HPi",
@@ -784,6 +853,7 @@
         "index": {
           "description": "Pins for the P1 connector of the V1 revision of the Raspberry Pi",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_03",
           "package": "HPi",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_05",
           "package": "HPi",
@@ -806,6 +877,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_05",
           "package": "HPi",
@@ -819,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_07",
           "package": "HPi",
@@ -828,6 +901,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_07",
           "package": "HPi",
@@ -841,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_08",
           "package": "HPi",
@@ -850,6 +925,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_08",
           "package": "HPi",
@@ -863,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_10",
           "package": "HPi",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_10",
           "package": "HPi",
@@ -885,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_11",
           "package": "HPi",
@@ -894,6 +973,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_11",
           "package": "HPi",
@@ -907,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_12",
           "package": "HPi",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_12",
           "package": "HPi",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_13",
           "package": "HPi",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_13",
           "package": "HPi",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_15",
           "package": "HPi",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_15",
           "package": "HPi",
@@ -973,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_16",
           "package": "HPi",
@@ -982,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_16",
           "package": "HPi",
@@ -995,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_18",
           "package": "HPi",
@@ -1004,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_18",
           "package": "HPi",
@@ -1017,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_19",
           "package": "HPi",
@@ -1026,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_19",
           "package": "HPi",
@@ -1039,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_21",
           "package": "HPi",
@@ -1048,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_21",
           "package": "HPi",
@@ -1061,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_22",
           "package": "HPi",
@@ -1070,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_22",
           "package": "HPi",
@@ -1083,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_23",
           "package": "HPi",
@@ -1092,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_23",
           "package": "HPi",
@@ -1105,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_24",
           "package": "HPi",
@@ -1114,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_24",
           "package": "HPi",
@@ -1127,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_26",
           "package": "HPi",
@@ -1136,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "PinV1_26",
           "package": "HPi",
@@ -1150,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads num bytes from the specified address. Throws an IOException if an error occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "readI2C",
           "package": "HPi",
@@ -1160,6 +1263,7 @@
         "index": {
           "description": "Reads num bytes from the specified address Throws an IOException if an error occurs",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "readI2C",
           "normalized": "Address-\u003eInt-\u003eIO ByteString",
@@ -1175,6 +1279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the current state of the specified pin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "readPin",
           "package": "HPi",
@@ -1185,6 +1290,7 @@
         "index": {
           "description": "Returns the current state of the specified pin",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "readPin",
           "normalized": "Pin-\u003eIO LogicLevel",
@@ -1201,6 +1307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the baud rate of the I2C bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "setI2cBaudRate",
           "package": "HPi",
@@ -1211,6 +1318,7 @@
         "index": {
           "description": "Sets the baud rate of the I2C bus",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "setI2cBaudRate",
           "normalized": "Word-\u003eIO()",
@@ -1227,6 +1335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the clock divider for (and hence the speed of) the I2C bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "setI2cClockDivider",
           "package": "HPi",
@@ -1237,6 +1346,7 @@
         "index": {
           "description": "Sets the clock divider for and hence the speed of the I2C bus",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "setI2cClockDivider",
           "normalized": "Word-\u003eIO()",
@@ -1253,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the pin to either \u003ccode\u003e\u003ca\u003eInput\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "setPinFunction",
           "package": "HPi",
@@ -1263,6 +1374,7 @@
         "index": {
           "description": "Sets the pin to either Input or Output mode",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "setPinFunction",
           "normalized": "Pin-\u003ePinMode-\u003eIO()",
@@ -1279,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny IO computation that accesses the GPIO pins using this library should be wrapped with this function; ie \u003ccode\u003ewithGPIO $ do foo\u003c/code\u003e.\n It prepares the file descriptors to \u003cem\u003edev\u003c/em\u003emem and makes sure everything is safely deallocated if an exception occurs. The behavior\n when accessing the GPIO outside of this function is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "withGPIO",
           "package": "HPi",
@@ -1289,6 +1402,7 @@
         "index": {
           "description": "Any IO computation that accesses the GPIO pins using this library should be wrapped with this function ie withGPIO do foo It prepares the file descriptors to dev mem and makes sure everything is safely deallocated if an exception occurs The behavior when accessing the GPIO outside of this function is undefined",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "withGPIO",
           "normalized": "IO a-\u003eIO a",
@@ -1305,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny IO computation that uses the I2C bus using this library should be wrapped with this function; ie \u003ccode\u003ewithI2C $ do foo\u003c/code\u003e.\n It prepares the relevant pins for use with the I2C protocol and makes sure everything is safely returned to normal if an exception\n occurs. If you only use the GPIO pins for I2C, you can do \u003ccode\u003ewithGPIO . withI2C $ do foo\u003c/code\u003e and it will work as expected. WARNING: \n after this function returns, the I2C pins will be set to Input, so use \u003ccode\u003e\u003ca\u003esetPinFunction\u003c/a\u003e\u003c/code\u003e if you want to use them for output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "withI2C",
           "package": "HPi",
@@ -1315,6 +1430,7 @@
         "index": {
           "description": "Any IO computation that uses the I2C bus using this library should be wrapped with this function ie withI2C do foo It prepares the relevant pins for use with the I2C protocol and makes sure everything is safely returned to normal if an exception occurs If you only use the GPIO pins for I2C you can do withGPIO withI2C do foo and it will work as expected WARNING after this function returns the I2C pins will be set to Input so use setPinFunction if you want to use them for output",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "withI2C",
           "normalized": "IO a-\u003eIO a",
@@ -1330,6 +1446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites the data in the \u003ccode\u003eByteString\u003c/code\u003e to the specified adress. Throws an IOException if an error occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "writeI2C",
           "package": "HPi",
@@ -1340,6 +1457,7 @@
         "index": {
           "description": "Writes the data in the ByteString to the specified adress Throws an IOException if an error occurs",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "writeI2C",
           "normalized": "Address-\u003eByteString-\u003eIO()",
@@ -1355,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the specified pin to either \u003ccode\u003eTrue\u003c/code\u003e or \u003ccode\u003eFalse\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "writePin",
           "package": "HPi",
@@ -1365,6 +1484,7 @@
         "index": {
           "description": "Sets the specified pin to either True or False",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "writePin",
           "normalized": "Pin-\u003eLogicLevel-\u003eIO()",
@@ -1381,6 +1501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites a \u003ccode\u003eByteString\u003c/code\u003e containing a register address to the specified address, then reads num bytes from\n it, using the \"repeated start\" I2C method. Throws an IOException if an error occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:07 UTC 2014",
           "module": "System.RaspberryPi.GPIO",
           "name": "writeReadI2C",
           "package": "HPi",
@@ -1391,6 +1512,7 @@
         "index": {
           "description": "Writes ByteString containing register address to the specified address then reads num bytes from it using the repeated start I2C method Throws an IOException if an error occurs",
           "hierarchy": "System RaspberryPi GPIO",
+          "indexed": "2014-03-11T16:46:07",
           "module": "System.RaspberryPi.GPIO",
           "name": "writeReadI2C",
           "normalized": "Address-\u003eByteString-\u003eInt-\u003eIO ByteString",

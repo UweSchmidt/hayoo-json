@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "happstack-yui"
+        "phrase": "happstack-yui",
+        "type": "phrase"
       },
       "type": "context"
     }

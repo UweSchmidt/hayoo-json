@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "multext-east-msd"
+        "phrase": "multext-east-msd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of the MULTEXT-East morphosyntactic descriptors.\n\u003c/p\u003e\u003cp\u003eMULTEXT-East encodes values of morphosyntatic attributes in a single string,\n using positional encoding. Each attribute is represented by a single letter\n at a predefined position, while non-applicable attributes are represented by\n hyphens. For example, \u003ccode\u003eNcmsg\u003c/code\u003e denotes a common noun (\u003ccode\u003eNc\u003c/code\u003e) in masculine\n singular genitive (\u003ccode\u003emsg\u003c/code\u003e) case. For details, refer to \u003ca\u003ehttp://nl.ijs.si/ME\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eCurrently, only MULTEXT-East Version 3 is supported. MULTEXT-East Version 3\n covers morphosyntactic descriptions for Bulgarian, Croatian, Czech, English,\n Estonian, Hungarian, Lithuanian, Macedonian, Persian, Polish, Resian,\n Romanian, Russian, Serbian, Slovak, Slovene, and Ukrainian. For details,\n refer to \u003ca\u003ehttp://nl.ijs.si/ME/V3/\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eUsage example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet Just d1 = fromString \"Ncmsg\"\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003epos d1\n\u003c/code\u003e\u003c/strong\u003eNoun\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efeatures d1\n\u003c/code\u003e\u003c/strong\u003e[NType Common,Gender Masculine,Number Singular,Case Genitive]\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet d2 = unset NType d1\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etoString d2\n\u003c/code\u003e\u003c/strong\u003e\"N-msg\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ed1 == d2\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ed1 =~= d2\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "MultextEastMsd",
           "package": "multext-east-msd",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implementation of the MULTEXT-East morphosyntactic descriptors MULTEXT-East encodes values of morphosyntatic attributes in single string using positional encoding Each attribute is represented by single letter at predefined position while non-applicable attributes are represented by hyphens For example Ncmsg denotes common noun Nc in masculine singular genitive msg case For details refer to http nl.ijs.si ME Currently only MULTEXT-East Version is supported MULTEXT-East Version covers morphosyntactic descriptions for Bulgarian Croatian Czech English Estonian Hungarian Lithuanian Macedonian Persian Polish Resian Romanian Russian Serbian Slovak Slovene and Ukrainian For details refer to http nl.ijs.si ME V3 Usage example let Just d1 fromString Ncmsg pos d1 Noun features d1 NType Common Gender Masculine Number Singular Case Genitive let d2 unset NType d1 toString d2 N-msg d1 d2 False d1 d2 True",
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "MultextEastMsd",
           "package": "multext-east-msd",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "AType",
           "package": "multext-east-msd",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "AType",
           "package": "multext-east-msd",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Aspect",
           "package": "multext-east-msd",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Aspect",
           "package": "multext-east-msd",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Attribute",
           "package": "multext-east-msd",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Attribute",
           "package": "multext-east-msd",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "CType",
           "package": "multext-east-msd",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "CType",
           "package": "multext-east-msd",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Case",
           "package": "multext-east-msd",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Case",
           "package": "multext-east-msd",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Class",
           "package": "multext-east-msd",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Class",
           "package": "multext-east-msd",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "CoordType",
           "package": "multext-east-msd",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "CoordType",
           "package": "multext-east-msd",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Definiteness",
           "package": "multext-east-msd",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Definiteness",
           "package": "multext-east-msd",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Degree",
           "package": "multext-east-msd",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Degree",
           "package": "multext-east-msd",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Feature",
           "package": "multext-east-msd",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Feature",
           "package": "multext-east-msd",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Formation",
           "package": "multext-east-msd",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Formation",
           "package": "multext-east-msd",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Gender",
           "package": "multext-east-msd",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Gender",
           "package": "multext-east-msd",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "MForm",
           "package": "multext-east-msd",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "MForm",
           "package": "multext-east-msd",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "MType",
           "package": "multext-east-msd",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "MType",
           "package": "multext-east-msd",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Msd",
           "package": "multext-east-msd",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Msd",
           "package": "multext-east-msd",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "NType",
           "package": "multext-east-msd",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "NType",
           "package": "multext-east-msd",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Number",
           "package": "multext-east-msd",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Number",
           "package": "multext-east-msd",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Person",
           "package": "multext-east-msd",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Person",
           "package": "multext-east-msd",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "PoS",
           "package": "multext-east-msd",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "PoS",
           "package": "multext-east-msd",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "SType",
           "package": "multext-east-msd",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "SType",
           "package": "multext-east-msd",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "SubType",
           "package": "multext-east-msd",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "SubType",
           "package": "multext-east-msd",
@@ -482,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Tense",
           "package": "multext-east-msd",
@@ -490,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Tense",
           "package": "multext-east-msd",
@@ -503,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "VForm",
           "package": "multext-east-msd",
@@ -511,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "VForm",
           "package": "multext-east-msd",
@@ -524,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "VType",
           "package": "multext-east-msd",
@@ -532,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "VType",
           "package": "multext-east-msd",
@@ -545,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Voice",
           "package": "multext-east-msd",
@@ -553,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Voice",
           "package": "multext-east-msd",
@@ -567,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wildcard-matching operator between two Msd patterns.\n Relation \u003ccode\u003e msd1 =~= msd2 \u003c/code\u003e holds iff \u003ccode\u003emsd1\u003c/code\u003e and \u003ccode\u003emsd2\u003c/code\u003e are of the same\n part-of-speech and the attributes common to \u003ccode\u003emsd1\u003c/code\u003e\n and \u003ccode\u003emsd2\u003c/code\u003e have identical values. The attributes of \u003ccode\u003emsd1\u003c/code\u003e that are not\n set in \u003ccode\u003emsd2\u003c/code\u003e (and conversely) are ignored in the comparison.\n In MULTEXT-East notation, this is tantamount to \n having character code \u003ccode\u003e-\u003c/code\u003e (hyphen) act as a wildcard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "(=~=)",
           "package": "multext-east-msd",
@@ -577,6 +630,7 @@
         "index": {
           "description": "wildcard-matching operator between two Msd patterns Relation msd1 msd2 holds iff msd1 and msd2 are of the same part-of-speech and the attributes common to msd1 and msd2 have identical values The attributes of msd1 that are not set in msd2 and conversely are ignored in the comparison In MULTEXT-East notation this is tantamount to having character code hyphen act as wildcard",
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "(=~=) =~=",
           "normalized": "a-\u003ea-\u003eBool",
@@ -591,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "AType",
           "package": "multext-east-msd",
@@ -600,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "AType",
           "package": "multext-east-msd",
@@ -613,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Abessive",
           "package": "multext-east-msd",
@@ -622,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Abessive",
           "package": "multext-east-msd",
@@ -635,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Ablative",
           "package": "multext-east-msd",
@@ -644,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Ablative",
           "package": "multext-east-msd",
@@ -657,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Accusative",
           "package": "multext-east-msd",
@@ -666,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Accusative",
           "package": "multext-east-msd",
@@ -679,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Active",
           "package": "multext-east-msd",
@@ -688,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Active",
           "package": "multext-east-msd",
@@ -701,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Adessive",
           "package": "multext-east-msd",
@@ -710,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Adessive",
           "package": "multext-east-msd",
@@ -723,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Aditive",
           "package": "multext-east-msd",
@@ -732,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Aditive",
           "package": "multext-east-msd",
@@ -745,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Adjective",
           "package": "multext-east-msd",
@@ -754,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Adjective",
           "package": "multext-east-msd",
@@ -767,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Adposition",
           "package": "multext-east-msd",
@@ -776,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Adposition",
           "package": "multext-east-msd",
@@ -789,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Allative",
           "package": "multext-east-msd",
@@ -798,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Allative",
           "package": "multext-east-msd",
@@ -811,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Animate",
           "package": "multext-east-msd",
@@ -820,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Animate",
           "package": "multext-east-msd",
@@ -833,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Aorist",
           "package": "multext-east-msd",
@@ -842,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Aorist",
           "package": "multext-east-msd",
@@ -855,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Approx",
           "package": "multext-east-msd",
@@ -864,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Approx",
           "package": "multext-east-msd",
@@ -877,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Aspect",
           "package": "multext-east-msd",
@@ -886,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Aspect",
           "package": "multext-east-msd",
@@ -899,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Auxiliary",
           "package": "multext-east-msd",
@@ -908,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Auxiliary",
           "package": "multext-east-msd",
@@ -921,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Base",
           "package": "multext-east-msd",
@@ -930,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Base",
           "package": "multext-east-msd",
@@ -943,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Both",
           "package": "multext-east-msd",
@@ -952,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Both",
           "package": "multext-east-msd",
@@ -965,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "CTCorrelat",
           "package": "multext-east-msd",
@@ -974,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "CTCorrelat",
           "package": "multext-east-msd",
@@ -987,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "CTRepetit",
           "package": "multext-east-msd",
@@ -996,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "CTRepetit",
           "package": "multext-east-msd",
@@ -1009,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "CTSentence",
           "package": "multext-east-msd",
@@ -1018,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "CTSentence",
           "package": "multext-east-msd",
@@ -1031,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "CTSimple",
           "package": "multext-east-msd",
@@ -1040,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "CTSimple",
           "package": "multext-east-msd",
@@ -1053,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "CTWords",
           "package": "multext-east-msd",
@@ -1062,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "CTWords",
           "package": "multext-east-msd",
@@ -1075,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "CType",
           "package": "multext-east-msd",
@@ -1084,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "CType",
           "package": "multext-east-msd",
@@ -1097,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Cardinal",
           "package": "multext-east-msd",
@@ -1106,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Cardinal",
           "package": "multext-east-msd",
@@ -1119,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Case",
           "package": "multext-east-msd",
@@ -1128,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Case",
           "package": "multext-east-msd",
@@ -1141,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Causalis",
           "package": "multext-east-msd",
@@ -1150,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Causalis",
           "package": "multext-east-msd",
@@ -1163,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Class",
           "package": "multext-east-msd",
@@ -1172,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Class",
           "package": "multext-east-msd",
@@ -1185,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Clitic",
           "package": "multext-east-msd",
@@ -1194,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Clitic",
           "package": "multext-east-msd",
@@ -1207,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "CliticS",
           "package": "multext-east-msd",
@@ -1216,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "CliticS",
           "package": "multext-east-msd",
@@ -1229,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Collect",
           "package": "multext-east-msd",
@@ -1238,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Collect",
           "package": "multext-east-msd",
@@ -1251,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Collective",
           "package": "multext-east-msd",
@@ -1260,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Collective",
           "package": "multext-east-msd",
@@ -1273,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Common",
           "package": "multext-east-msd",
@@ -1282,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Common",
           "package": "multext-east-msd",
@@ -1295,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Comparative",
           "package": "multext-east-msd",
@@ -1304,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Comparative",
           "package": "multext-east-msd",
@@ -1317,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Compound",
           "package": "multext-east-msd",
@@ -1326,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Compound",
           "package": "multext-east-msd",
@@ -1339,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Conditional",
           "package": "multext-east-msd",
@@ -1348,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Conditional",
           "package": "multext-east-msd",
@@ -1361,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Conjunction",
           "package": "multext-east-msd",
@@ -1370,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Conjunction",
           "package": "multext-east-msd",
@@ -1383,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "CoordType",
           "package": "multext-east-msd",
@@ -1392,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "CoordType",
           "package": "multext-east-msd",
@@ -1405,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Coordinating",
           "package": "multext-east-msd",
@@ -1414,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Coordinating",
           "package": "multext-east-msd",
@@ -1427,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Copula",
           "package": "multext-east-msd",
@@ -1436,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Copula",
           "package": "multext-east-msd",
@@ -1449,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Count",
           "package": "multext-east-msd",
@@ -1458,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Count",
           "package": "multext-east-msd",
@@ -1471,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Courtesy",
           "package": "multext-east-msd",
@@ -1480,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Courtesy",
           "package": "multext-east-msd",
@@ -1493,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Dative",
           "package": "multext-east-msd",
@@ -1502,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Dative",
           "package": "multext-east-msd",
@@ -1515,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Definite",
           "package": "multext-east-msd",
@@ -1524,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Definite",
           "package": "multext-east-msd",
@@ -1537,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Definite1",
           "package": "multext-east-msd",
@@ -1546,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Definite1",
           "package": "multext-east-msd",
@@ -1559,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Definite2",
           "package": "multext-east-msd",
@@ -1568,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Definite2",
           "package": "multext-east-msd",
@@ -1581,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Definite34",
           "package": "multext-east-msd",
@@ -1590,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Definite34",
           "package": "multext-east-msd",
@@ -1603,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Definiteness",
           "package": "multext-east-msd",
@@ -1612,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Definiteness",
           "package": "multext-east-msd",
@@ -1625,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Degree",
           "package": "multext-east-msd",
@@ -1634,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Degree",
           "package": "multext-east-msd",
@@ -1647,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Delative",
           "package": "multext-east-msd",
@@ -1656,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Delative",
           "package": "multext-east-msd",
@@ -1669,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Demonstrative",
           "package": "multext-east-msd",
@@ -1678,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Demonstrative",
           "package": "multext-east-msd",
@@ -1691,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Digit",
           "package": "multext-east-msd",
@@ -1700,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Digit",
           "package": "multext-east-msd",
@@ -1713,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Diminutive",
           "package": "multext-east-msd",
@@ -1722,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Diminutive",
           "package": "multext-east-msd",
@@ -1735,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Direct",
           "package": "multext-east-msd",
@@ -1744,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Direct",
           "package": "multext-east-msd",
@@ -1757,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Distributive",
           "package": "multext-east-msd",
@@ -1766,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Distributive",
           "package": "multext-east-msd",
@@ -1779,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Dual",
           "package": "multext-east-msd",
@@ -1788,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Dual",
           "package": "multext-east-msd",
@@ -1801,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Elative",
           "package": "multext-east-msd",
@@ -1810,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Elative",
           "package": "multext-east-msd",
@@ -1823,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "ElativeD",
           "package": "multext-east-msd",
@@ -1832,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "ElativeD",
           "package": "multext-east-msd",
@@ -1845,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Essive",
           "package": "multext-east-msd",
@@ -1854,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Essive",
           "package": "multext-east-msd",
@@ -1867,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "EssiveFormal",
           "package": "multext-east-msd",
@@ -1876,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "EssiveFormal",
           "package": "multext-east-msd",
@@ -1889,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Factive",
           "package": "multext-east-msd",
@@ -1898,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Factive",
           "package": "multext-east-msd",
@@ -1911,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Feminine",
           "package": "multext-east-msd",
@@ -1920,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Feminine",
           "package": "multext-east-msd",
@@ -1933,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "First",
           "package": "multext-east-msd",
@@ -1942,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "First",
           "package": "multext-east-msd",
@@ -1955,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Formation",
           "package": "multext-east-msd",
@@ -1964,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Formation",
           "package": "multext-east-msd",
@@ -1977,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Fractal",
           "package": "multext-east-msd",
@@ -1986,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Fractal",
           "package": "multext-east-msd",
@@ -1999,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "FullArt",
           "package": "multext-east-msd",
@@ -2008,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "FullArt",
           "package": "multext-east-msd",
@@ -2021,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Future",
           "package": "multext-east-msd",
@@ -2030,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Future",
           "package": "multext-east-msd",
@@ -2043,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Gender",
           "package": "multext-east-msd",
@@ -2052,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Gender",
           "package": "multext-east-msd",
@@ -2065,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Genitive",
           "package": "multext-east-msd",
@@ -2074,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Genitive",
           "package": "multext-east-msd",
@@ -2087,6 +2277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Gerund",
           "package": "multext-east-msd",
@@ -2096,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Gerund",
           "package": "multext-east-msd",
@@ -2109,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Illative",
           "package": "multext-east-msd",
@@ -2118,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Illative",
           "package": "multext-east-msd",
@@ -2131,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Imperative",
           "package": "multext-east-msd",
@@ -2140,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Imperative",
           "package": "multext-east-msd",
@@ -2153,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Imperfect",
           "package": "multext-east-msd",
@@ -2162,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Imperfect",
           "package": "multext-east-msd",
@@ -2175,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Indefinite",
           "package": "multext-east-msd",
@@ -2184,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Indefinite",
           "package": "multext-east-msd",
@@ -2197,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "IndefiniteC",
           "package": "multext-east-msd",
@@ -2206,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "IndefiniteC",
           "package": "multext-east-msd",
@@ -2219,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Indicative",
           "package": "multext-east-msd",
@@ -2228,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Indicative",
           "package": "multext-east-msd",
@@ -2241,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Inessive",
           "package": "multext-east-msd",
@@ -2250,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Inessive",
           "package": "multext-east-msd",
@@ -2263,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Infinitive",
           "package": "multext-east-msd",
@@ -2272,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Infinitive",
           "package": "multext-east-msd",
@@ -2285,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Initial",
           "package": "multext-east-msd",
@@ -2294,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Initial",
           "package": "multext-east-msd",
@@ -2307,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Instrumental",
           "package": "multext-east-msd",
@@ -2316,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Instrumental",
           "package": "multext-east-msd",
@@ -2329,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Interrogative",
           "package": "multext-east-msd",
@@ -2338,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Interrogative",
           "package": "multext-east-msd",
@@ -2351,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Komitative",
           "package": "multext-east-msd",
@@ -2360,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Komitative",
           "package": "multext-east-msd",
@@ -2373,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Letter",
           "package": "multext-east-msd",
@@ -2382,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Letter",
           "package": "multext-east-msd",
@@ -2395,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Locative",
           "package": "multext-east-msd",
@@ -2404,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Locative",
           "package": "multext-east-msd",
@@ -2417,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "MForm",
           "package": "multext-east-msd",
@@ -2426,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "MForm",
           "package": "multext-east-msd",
@@ -2439,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "MForm_",
           "package": "multext-east-msd",
@@ -2448,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "MForm_",
           "package": "multext-east-msd",
@@ -2461,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "MType",
           "package": "multext-east-msd",
@@ -2470,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "MType",
           "package": "multext-east-msd",
@@ -2483,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Main",
           "package": "multext-east-msd",
@@ -2492,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Main",
           "package": "multext-east-msd",
@@ -2505,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Masculine",
           "package": "multext-east-msd",
@@ -2514,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Masculine",
           "package": "multext-east-msd",
@@ -2527,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Modal",
           "package": "multext-east-msd",
@@ -2536,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Modal",
           "package": "multext-east-msd",
@@ -2549,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Multiple",
           "package": "multext-east-msd",
@@ -2558,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Multiple",
           "package": "multext-east-msd",
@@ -2571,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Multiplicative",
           "package": "multext-east-msd",
@@ -2580,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Multiplicative",
           "package": "multext-east-msd",
@@ -2593,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "NType",
           "package": "multext-east-msd",
@@ -2602,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "NType",
           "package": "multext-east-msd",
@@ -2615,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Negative",
           "package": "multext-east-msd",
@@ -2624,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Negative",
           "package": "multext-east-msd",
@@ -2637,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Neuter",
           "package": "multext-east-msd",
@@ -2646,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Neuter",
           "package": "multext-east-msd",
@@ -2659,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "No",
           "package": "multext-east-msd",
@@ -2668,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "No",
           "package": "multext-east-msd",
@@ -2681,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Nominal",
           "package": "multext-east-msd",
@@ -2690,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Nominal",
           "package": "multext-east-msd",
@@ -2703,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Nominative",
           "package": "multext-east-msd",
@@ -2712,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Nominative",
           "package": "multext-east-msd",
@@ -2725,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "NonInitial",
           "package": "multext-east-msd",
@@ -2734,6 +2983,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "NonInitial",
           "package": "multext-east-msd",
@@ -2747,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Noun",
           "package": "multext-east-msd",
@@ -2756,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Noun",
           "package": "multext-east-msd",
@@ -2769,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Number",
           "package": "multext-east-msd",
@@ -2778,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Number",
           "package": "multext-east-msd",
@@ -2791,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Numeral",
           "package": "multext-east-msd",
@@ -2800,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Numeral",
           "package": "multext-east-msd",
@@ -2813,6 +3069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Oblique",
           "package": "multext-east-msd",
@@ -2822,6 +3079,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Oblique",
           "package": "multext-east-msd",
@@ -2835,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "OneSTwoS",
           "package": "multext-east-msd",
@@ -2844,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "OneSTwoS",
           "package": "multext-east-msd",
@@ -2857,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Ordinal",
           "package": "multext-east-msd",
@@ -2866,6 +3127,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Ordinal",
           "package": "multext-east-msd",
@@ -2879,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "OrdinalT",
           "package": "multext-east-msd",
@@ -2888,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "OrdinalT",
           "package": "multext-east-msd",
@@ -2901,6 +3165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "OwnedNumber",
           "package": "multext-east-msd",
@@ -2910,6 +3175,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "OwnedNumber",
           "package": "multext-east-msd",
@@ -2923,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "OwnerNumber",
           "package": "multext-east-msd",
@@ -2932,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "OwnerNumber",
           "package": "multext-east-msd",
@@ -2945,6 +3213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "OwnerPerson",
           "package": "multext-east-msd",
@@ -2954,6 +3223,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "OwnerPerson",
           "package": "multext-east-msd",
@@ -2967,6 +3237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Participle",
           "package": "multext-east-msd",
@@ -2976,6 +3247,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Participle",
           "package": "multext-east-msd",
@@ -2989,6 +3261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Partitive",
           "package": "multext-east-msd",
@@ -2998,6 +3271,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Partitive",
           "package": "multext-east-msd",
@@ -3011,6 +3285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Passive",
           "package": "multext-east-msd",
@@ -3020,6 +3295,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Passive",
           "package": "multext-east-msd",
@@ -3033,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Past",
           "package": "multext-east-msd",
@@ -3042,6 +3319,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Past",
           "package": "multext-east-msd",
@@ -3055,6 +3333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Perfective",
           "package": "multext-east-msd",
@@ -3064,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Perfective",
           "package": "multext-east-msd",
@@ -3077,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Person",
           "package": "multext-east-msd",
@@ -3086,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Person",
           "package": "multext-east-msd",
@@ -3099,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Pluperfect",
           "package": "multext-east-msd",
@@ -3108,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Pluperfect",
           "package": "multext-east-msd",
@@ -3121,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Plural",
           "package": "multext-east-msd",
@@ -3130,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Plural",
           "package": "multext-east-msd",
@@ -3143,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Portmanteau",
           "package": "multext-east-msd",
@@ -3152,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Portmanteau",
           "package": "multext-east-msd",
@@ -3165,6 +3453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Positive",
           "package": "multext-east-msd",
@@ -3174,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Positive",
           "package": "multext-east-msd",
@@ -3187,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Possessive",
           "package": "multext-east-msd",
@@ -3196,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Possessive",
           "package": "multext-east-msd",
@@ -3209,6 +3501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Postposition",
           "package": "multext-east-msd",
@@ -3218,6 +3511,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Postposition",
           "package": "multext-east-msd",
@@ -3231,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Preposition",
           "package": "multext-east-msd",
@@ -3240,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Preposition",
           "package": "multext-east-msd",
@@ -3253,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Present",
           "package": "multext-east-msd",
@@ -3262,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Present",
           "package": "multext-east-msd",
@@ -3275,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Progressive",
           "package": "multext-east-msd",
@@ -3284,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Progressive",
           "package": "multext-east-msd",
@@ -3297,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Proper",
           "package": "multext-east-msd",
@@ -3306,6 +3607,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Proper",
           "package": "multext-east-msd",
@@ -3319,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Qualificative",
           "package": "multext-east-msd",
@@ -3328,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Qualificative",
           "package": "multext-east-msd",
@@ -3341,6 +3645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Quotative",
           "package": "multext-east-msd",
@@ -3350,6 +3655,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Quotative",
           "package": "multext-east-msd",
@@ -3363,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Relative",
           "package": "multext-east-msd",
@@ -3372,6 +3679,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Relative",
           "package": "multext-east-msd",
@@ -3385,6 +3693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Roman",
           "package": "multext-east-msd",
@@ -3394,6 +3703,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Roman",
           "package": "multext-east-msd",
@@ -3407,6 +3717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "STNegative",
           "package": "multext-east-msd",
@@ -3416,6 +3727,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "STNegative",
           "package": "multext-east-msd",
@@ -3429,6 +3741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "STPositive",
           "package": "multext-east-msd",
@@ -3438,6 +3751,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "STPositive",
           "package": "multext-east-msd",
@@ -3451,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "SType",
           "package": "multext-east-msd",
@@ -3460,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "SType",
           "package": "multext-east-msd",
@@ -3473,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Second",
           "package": "multext-east-msd",
@@ -3482,6 +3799,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Second",
           "package": "multext-east-msd",
@@ -3495,6 +3813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "ShortArt",
           "package": "multext-east-msd",
@@ -3504,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "ShortArt",
           "package": "multext-east-msd",
@@ -3517,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Simple",
           "package": "multext-east-msd",
@@ -3526,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Simple",
           "package": "multext-east-msd",
@@ -3539,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Singular",
           "package": "multext-east-msd",
@@ -3548,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Singular",
           "package": "multext-east-msd",
@@ -3561,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Sociative",
           "package": "multext-east-msd",
@@ -3570,6 +3895,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Sociative",
           "package": "multext-east-msd",
@@ -3583,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Special",
           "package": "multext-east-msd",
@@ -3592,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Special",
           "package": "multext-east-msd",
@@ -3605,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "SubType",
           "package": "multext-east-msd",
@@ -3614,6 +3943,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "SubType",
           "package": "multext-east-msd",
@@ -3627,6 +3957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Subjunctive",
           "package": "multext-east-msd",
@@ -3636,6 +3967,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Subjunctive",
           "package": "multext-east-msd",
@@ -3649,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Sublative",
           "package": "multext-east-msd",
@@ -3658,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Sublative",
           "package": "multext-east-msd",
@@ -3671,6 +4005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Subordinating",
           "package": "multext-east-msd",
@@ -3680,6 +4015,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Subordinating",
           "package": "multext-east-msd",
@@ -3693,6 +4029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Superessive",
           "package": "multext-east-msd",
@@ -3702,6 +4039,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Superessive",
           "package": "multext-east-msd",
@@ -3715,6 +4053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Superlative",
           "package": "multext-east-msd",
@@ -3724,6 +4063,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Superlative",
           "package": "multext-east-msd",
@@ -3737,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Supine",
           "package": "multext-east-msd",
@@ -3746,6 +4087,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Supine",
           "package": "multext-east-msd",
@@ -3759,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Temporalis",
           "package": "multext-east-msd",
@@ -3768,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Temporalis",
           "package": "multext-east-msd",
@@ -3781,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Tense",
           "package": "multext-east-msd",
@@ -3790,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Tense",
           "package": "multext-east-msd",
@@ -3803,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Terminative",
           "package": "multext-east-msd",
@@ -3812,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Terminative",
           "package": "multext-east-msd",
@@ -3825,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Third",
           "package": "multext-east-msd",
@@ -3834,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Third",
           "package": "multext-east-msd",
@@ -3847,6 +4197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Transgressive",
           "package": "multext-east-msd",
@@ -3856,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Transgressive",
           "package": "multext-east-msd",
@@ -3869,6 +4221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Translative",
           "package": "multext-east-msd",
@@ -3878,6 +4231,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Translative",
           "package": "multext-east-msd",
@@ -3891,6 +4245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "VForm",
           "package": "multext-east-msd",
@@ -3900,6 +4255,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "VForm",
           "package": "multext-east-msd",
@@ -3913,6 +4269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "VType",
           "package": "multext-east-msd",
@@ -3922,6 +4279,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "VType",
           "package": "multext-east-msd",
@@ -3935,6 +4293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Verb",
           "package": "multext-east-msd",
@@ -3944,6 +4303,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Verb",
           "package": "multext-east-msd",
@@ -3957,6 +4317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Vocative",
           "package": "multext-east-msd",
@@ -3966,6 +4327,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Vocative",
           "package": "multext-east-msd",
@@ -3979,6 +4341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Voice",
           "package": "multext-east-msd",
@@ -3988,6 +4351,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Voice",
           "package": "multext-east-msd",
@@ -4001,6 +4365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "Yes",
           "package": "multext-east-msd",
@@ -4010,6 +4375,7 @@
         },
         "index": {
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "Yes",
           "package": "multext-east-msd",
@@ -4024,6 +4390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether the attributes are set to the specified values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "check",
           "package": "multext-east-msd",
@@ -4034,6 +4401,7 @@
         "index": {
           "description": "Checks whether the attributes are set to the specified values",
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "check",
           "normalized": "[Feature]-\u003eMsd-\u003eBool",
@@ -4049,6 +4417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the features (attribute-value pairs) of a \u003ccode\u003eMsd\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "features",
           "package": "multext-east-msd",
@@ -4059,6 +4428,7 @@
         "index": {
           "description": "Returns the features attribute-value pairs of Msd",
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "features",
           "normalized": "Msd-\u003e[Feature]",
@@ -4074,6 +4444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a MULTEXT-East string notation into an \u003ccode\u003eMsd\u003c/code\u003e datatype.\n Returns \u003ccode\u003eNothing\u003c/code\u003e if string is not a valid MULTEXT-East string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "fromString",
           "package": "multext-east-msd",
@@ -4084,6 +4455,7 @@
         "index": {
           "description": "Converts MULTEXT-East string notation into an Msd datatype Returns Nothing if string is not valid MULTEXT-East string",
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "fromString",
           "normalized": "String-\u003eMaybe Msd",
@@ -4100,6 +4472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the value of a specified attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "get",
           "package": "multext-east-msd",
@@ -4110,6 +4483,7 @@
         "index": {
           "description": "Gets the value of specified attribute",
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "get",
           "normalized": "Attribute a-\u003eMsd-\u003eMaybe Feature",
@@ -4125,6 +4499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a morphosyntactic descriptor (an abstract \u003ccode\u003eMsd\u003c/code\u003e datatype) of \n a specified part-of-speech and with specified features (attribute-value \n pairs). Duplicated attributes and attributes not applicable to the given \n part-of-speech are ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "msd",
           "package": "multext-east-msd",
@@ -4135,6 +4510,7 @@
         "index": {
           "description": "Constructs morphosyntactic descriptor an abstract Msd datatype of specified part-of-speech and with specified features attribute-value pairs Duplicated attributes and attributes not applicable to the given part-of-speech are ignored",
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "msd",
           "normalized": "PoS-\u003e[Feature]-\u003eMsd",
@@ -4150,6 +4526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a part-of-speech (\u003ccode\u003e\u003ca\u003ePoS\u003c/a\u003e\u003c/code\u003e value) of an \u003ccode\u003eMsd\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "pos",
           "package": "multext-east-msd",
@@ -4160,6 +4537,7 @@
         "index": {
           "description": "Returns part-of-speech PoS value of an Msd",
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "pos",
           "normalized": "Msd-\u003ePoS",
@@ -4175,6 +4553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the specified features (attribute-value pairs). Duplicated \n attributes and  attributes not applicable to the given part-of-speech \n are ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "set",
           "package": "multext-east-msd",
@@ -4185,6 +4564,7 @@
         "index": {
           "description": "Sets the specified features attribute-value pairs Duplicated attributes and attributes not applicable to the given part-of-speech are ignored",
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "set",
           "normalized": "[Feature]-\u003eMsd-\u003eMsd",
@@ -4200,6 +4580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003eMsd\u003c/code\u003e datatype into a MULTEXT-East string notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "toString",
           "package": "multext-east-msd",
@@ -4210,6 +4591,7 @@
         "index": {
           "description": "Converts an Msd datatype into MULTEXT-East string notation",
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "toString",
           "normalized": "Msd-\u003eString",
@@ -4226,6 +4608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsets the value of a specified attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "unset",
           "package": "multext-east-msd",
@@ -4236,6 +4619,7 @@
         "index": {
           "description": "Unsets the value of specified attribute",
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "unset",
           "normalized": "Attribute a-\u003eMsd-\u003eMsd",
@@ -4251,6 +4635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether the string conforms to the MULTEXT-East specification.\n Defined as:\n \u003ccode\u003e validString = isJust . fromString \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:40 UTC 2014",
           "module": "Data.MultextEastMsd",
           "name": "validString",
           "package": "multext-east-msd",
@@ -4261,6 +4646,7 @@
         "index": {
           "description": "Checks whether the string conforms to the MULTEXT-East specification Defined as validString isJust fromString",
           "hierarchy": "Data MultextEastMsd",
+          "indexed": "2014-03-11T19:23:40",
           "module": "Data.MultextEastMsd",
           "name": "validString",
           "normalized": "String-\u003eBool",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "binary-conduit"
+        "phrase": "binary-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "Binary",
           "package": "binary-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "Binary",
           "package": "binary-conduit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "ParseError",
           "package": "binary-conduit",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "ParseError",
           "package": "binary-conduit",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "ParseError",
           "package": "binary-conduit",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "ParseError",
           "package": "binary-conduit",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns default \u003ccode\u003e\u003ca\u003eDecoder\u003c/a\u003e\u003c/code\u003e repeatedly on a input stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "conduitDecode",
           "package": "binary-conduit",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Runs default Decoder repeatedly on input stream",
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "conduitDecode",
           "package": "binary-conduit",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns default encoder on a input stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "conduitEncode",
           "package": "binary-conduit",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Runs default encoder on input stream",
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "conduitEncode",
           "package": "binary-conduit",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns getter repeatedly on a input stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "conduitGet",
           "package": "binary-conduit",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Runs getter repeatedly on input stream",
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "conduitGet",
           "normalized": "Get a-\u003eConduit ByteString b a",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns putter repeatedly on a input stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "conduitPut",
           "package": "binary-conduit",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Runs putter repeatedly on input stream",
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "conduitPut",
           "package": "binary-conduit",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns putter repeatedly on a input stream.\n Returns a lazy butestring so it's possible to use vectorized\n IO on the result either by calling' LBS.toChunks' or by \n calling \u003ccode\u003e\u003ca\u003esend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "conduitPutLBS",
           "package": "binary-conduit",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Runs putter repeatedly on input stream Returns lazy butestring so it possible to use vectorized IO on the result either by calling LBS.toChunks or by calling send",
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "conduitPutLBS",
           "package": "binary-conduit",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVectorized variant of \u003ccode\u003e\u003ca\u003econduitPut\u003c/a\u003e\u003c/code\u003e returning list contains\n all chunks from one element representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "conduitPutList",
           "package": "binary-conduit",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Vectorized variant of conduitPut returning list contains all chunks from one element representation",
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "conduitPutList",
           "normalized": "Conduit Put a[ByteString]",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVectorized variant of \u003ccode\u003e\u003ca\u003econduitPut\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "conduitPutMany",
           "package": "binary-conduit",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Vectorized variant of conduitPut",
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "conduitPutMany",
           "package": "binary-conduit",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "content",
           "package": "binary-conduit",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Error content",
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "content",
           "package": "binary-conduit",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of bytes consumed from single stream input value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "offset",
           "package": "binary-conduit",
@@ -288,6 +311,7 @@
         "index": {
           "description": "Number of bytes consumed from single stream input value",
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "offset",
           "package": "binary-conduit",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode message from input stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "sinkGet",
           "package": "binary-conduit",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Decode message from input stream",
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "sinkGet",
           "normalized": "Get a-\u003eConsumer ByteString b a",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate stream of strict bytestrings from \u003ccode\u003e\u003ca\u003ePut\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "sourcePut",
           "package": "binary-conduit",
@@ -337,6 +364,7 @@
         "index": {
           "description": "Create stream of strict bytestrings from Put value",
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "sourcePut",
           "normalized": "Put-\u003eProducer a ByteString",
@@ -353,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData left unconsumed in single stream input value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:43 UTC 2014",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "unconsumed",
           "package": "binary-conduit",
@@ -363,6 +392,7 @@
         "index": {
           "description": "Data left unconsumed in single stream input value",
           "hierarchy": "Data Conduit Serialization Binary",
+          "indexed": "2014-03-11T17:18:43",
           "module": "Data.Conduit.Serialization.Binary",
           "name": "unconsumed",
           "package": "binary-conduit",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "manatee-welcome"
+        "phrase": "manatee-welcome",
+        "type": "phrase"
       },
       "type": "context"
     }

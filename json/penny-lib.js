@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "penny-lib"
+        "phrase": "penny-lib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Clear",
           "name": "Clear",
           "package": "penny-lib",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Clear",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Clear",
           "name": "Clear",
           "package": "penny-lib",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Clear",
           "name": "mode",
           "package": "penny-lib",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Clear",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Clear",
           "name": "mode",
           "package": "penny-lib",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Database",
           "name": "Database",
           "package": "penny-lib",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Database",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Database",
           "name": "Database",
           "package": "penny-lib",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Database",
           "name": "mode",
           "package": "penny-lib",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Database",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Database",
           "name": "mode",
           "package": "penny-lib",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Import",
           "name": "Import",
           "package": "penny-lib",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Import",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Import",
           "name": "Import",
           "package": "penny-lib",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Import",
           "name": "mode",
           "package": "penny-lib",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Import",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Import",
           "name": "mode",
           "package": "penny-lib",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Info",
           "name": "Info",
           "package": "penny-lib",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Info",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Info",
           "name": "Info",
           "package": "penny-lib",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Info",
           "name": "mode",
           "package": "penny-lib",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Info",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Info",
           "name": "mode",
           "normalized": "Config-\u003eMode(ProgName-\u003eString)(IO())",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Merge",
           "name": "Merge",
           "package": "penny-lib",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Merge",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Merge",
           "name": "Merge",
           "package": "penny-lib",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Merge",
           "name": "mode",
           "package": "penny-lib",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Merge",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Merge",
           "name": "mode",
           "package": "penny-lib",
@@ -231,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParses any OFX 1.0-series file. Uses the parser from the ofx\n package.\n\u003c/p\u003e\u003cp\u003eThe Postings that this module returns \u003cem\u003ealways\u003c/em\u003e have an empty\n Description field. Information from the OFX Payee field is placed\n into the Payee field of the Posting record.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.OFX",
           "name": "OFX",
           "package": "penny-lib",
@@ -240,6 +261,7 @@
         "index": {
           "description": "Parses any OFX series file Uses the parser from the ofx package The Postings that this module returns always have an empty Description field Information from the OFX Payee field is placed into the Payee field of the Posting record",
           "hierarchy": "Penny Brenner OFX",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.OFX",
           "name": "OFX",
           "package": "penny-lib",
@@ -254,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for OFX files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.OFX",
           "name": "parser",
           "package": "penny-lib",
@@ -264,6 +287,7 @@
         "index": {
           "description": "Parser for OFX files",
           "hierarchy": "Penny Brenner OFX",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.OFX",
           "name": "parser",
           "normalized": "(ParserDesc,ParserFn)",
@@ -279,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrints parsed transactions.\n\u003c/p\u003e\u003cp\u003eTODO add support to this and other Brenner components for reading\n from stdin.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Print",
           "name": "Print",
           "package": "penny-lib",
@@ -288,6 +313,7 @@
         "index": {
           "description": "Prints parsed transactions TODO add support to this and other Brenner components for reading from stdin",
           "hierarchy": "Penny Brenner Print",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Print",
           "name": "Print",
           "package": "penny-lib",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Print",
           "name": "mode",
           "package": "penny-lib",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Print",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Print",
           "name": "mode",
           "package": "penny-lib",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Types",
           "package": "penny-lib",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Types",
           "package": "penny-lib",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "AllowNew",
           "package": "penny-lib",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "AllowNew",
           "package": "penny-lib",
@@ -365,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe amount of the transaction. Do not include any leading plus or\n minus signs; this should be only digits and a decimal point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Amount",
           "package": "penny-lib",
@@ -374,6 +407,7 @@
         "index": {
           "description": "The amount of the transaction Do not include any leading plus or minus signs this should be only digits and decimal point",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Amount",
           "package": "penny-lib",
@@ -388,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration for the Brenner program. You can optionally have\n a default FitAcct, which is used if you do not specify any FitAcct on the\n command line. You can also name any number of additional FitAccts. If\n you do not specify a default FitAcct, you must specify a FitAcct on the\n command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Config",
           "package": "penny-lib",
@@ -397,6 +432,7 @@
         "index": {
           "description": "Configuration for the Brenner program You can optionally have default FitAcct which is used if you do not specify any FitAcct on the command line You can also name any number of additional FitAccts If you do not specify default FitAcct you must specify FitAcct on the command line",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Config",
           "package": "penny-lib",
@@ -411,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe currency for all transactions, e.g. \u003ccode\u003e$\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Currency",
           "package": "penny-lib",
@@ -420,6 +457,7 @@
         "index": {
           "description": "The currency for all transactions e.g",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Currency",
           "package": "penny-lib",
@@ -434,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe date reported by the financial institution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Date",
           "package": "penny-lib",
@@ -443,6 +482,7 @@
         "index": {
           "description": "The date reported by the financial institution",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Date",
           "package": "penny-lib",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "DbList",
           "package": "penny-lib",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "DbList",
           "package": "penny-lib",
@@ -478,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere is the database of postings?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "DbLocation",
           "package": "penny-lib",
@@ -487,6 +530,7 @@
         "index": {
           "description": "Where is the database of postings",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "DbLocation",
           "package": "penny-lib",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "DbMap",
           "package": "penny-lib",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "DbMap",
           "package": "penny-lib",
@@ -522,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default account to place unclassified postings in. For\n instance \u003ccode\u003eExpenses:Unclassified\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "DefaultAcct",
           "package": "penny-lib",
@@ -531,6 +578,7 @@
         "index": {
           "description": "The default account to place unclassified postings in For instance Expenses Unclassified",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "DefaultAcct",
           "package": "penny-lib",
@@ -545,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe transaction description. Some institutions assign only a\n description (sometimes muddling a payee with long codes, some\n dates, etc). Brenner prefers the Payee if there is one, and uses a\n Desc otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Desc",
           "package": "penny-lib",
@@ -554,6 +603,7 @@
         "index": {
           "description": "The transaction description Some institutions assign only description sometimes muddling payee with long codes some dates etc Brenner prefers the Payee if there is one and uses Desc otherwise",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Desc",
           "package": "penny-lib",
@@ -568,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA batch of settings representing a single financial institution\n account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "FitAcct",
           "package": "penny-lib",
@@ -577,6 +628,7 @@
         "index": {
           "description": "batch of settings representing single financial institution account",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "FitAcct",
           "package": "penny-lib",
@@ -591,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText description of the financial institution account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "FitAcctDesc",
           "package": "penny-lib",
@@ -600,6 +653,7 @@
         "index": {
           "description": "Text description of the financial institution account",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "FitAcctDesc",
           "package": "penny-lib",
@@ -614,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name used to refer to a batch of settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "FitAcctName",
           "package": "penny-lib",
@@ -623,6 +678,7 @@
         "index": {
           "description": "name used to refer to batch of settings",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "FitAcctName",
           "package": "penny-lib",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "FitFileLocation",
           "package": "penny-lib",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "FitFileLocation",
           "package": "penny-lib",
@@ -658,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor Brenner to work, the bank has to assign unique identifiers to\n each transaction that it gives you for download. This is the\n easiest reliable way to ensure duplicates are not processed\n multiple times. (There are other ways to accomplish this, but they\n are much harder and less reliable.) If the bank does not do this,\n you can't use Brenner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "FitId",
           "package": "penny-lib",
@@ -667,6 +726,7 @@
         "index": {
           "description": "For Brenner to work the bank has to assign unique identifiers to each transaction that it gives you for download This is the easiest reliable way to ensure duplicates are not processed multiple times There are other ways to accomplish this but they are much harder and less reliable If the bank does not do this you can use Brenner",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "FitId",
           "package": "penny-lib",
@@ -681,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReports changes in account balances. Avoids using \u003cem\u003edebit\u003c/em\u003e and\n \u003cem\u003ecredit\u003c/em\u003e as these terms are used differently by the bank than in\n your ledger (that is, the bank reports it from their perspective,\n not yours) so instead the terms \u003cem\u003eincrease\u003c/em\u003e and \u003cem\u003edecrease\u003c/em\u003e are\n used. IncDec is used to record the bank's transactions so\n \u003cem\u003eincrease\u003c/em\u003e and \u003cem\u003edecrease\u003c/em\u003e are used in the same way you would see\n them on a bank statement, whether it's a credit card, loan,\n checking account, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "IncDec",
           "package": "penny-lib",
@@ -690,6 +751,7 @@
         "index": {
           "description": "Reports changes in account balances Avoids using debit and credit as these terms are used differently by the bank than in your ledger that is the bank reports it from their perspective not yours so instead the terms increase and decrease are used IncDec is used to record the bank transactions so increase and decrease are used in the same way you would see them on bank statement whether it credit card loan checking account etc",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "IncDec",
           "package": "penny-lib",
@@ -704,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of all Brenner MultiArg modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Mode",
           "package": "penny-lib",
@@ -713,6 +776,7 @@
         "index": {
           "description": "The type of all Brenner MultiArg modes",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Mode",
           "package": "penny-lib",
@@ -727,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText description of the parser itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "ParserDesc",
           "package": "penny-lib",
@@ -736,6 +801,7 @@
         "index": {
           "description": "Text description of the parser itself",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "ParserDesc",
           "package": "penny-lib",
@@ -750,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll parsers must be of this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "ParserFn",
           "package": "penny-lib",
@@ -759,6 +826,7 @@
         "index": {
           "description": "All parsers must be of this type",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "ParserFn",
           "package": "penny-lib",
@@ -773,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome financial institutions assign a separate Payee in addition\n to a description. Others just have a single Description field. If\n this institution uses both, put something here. Brenner will prefer\n the Payee if it is not zero length; then it will use the Desc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Payee",
           "package": "penny-lib",
@@ -782,6 +851,7 @@
         "index": {
           "description": "Some financial institutions assign separate Payee in addition to description Others just have single Description field If this institution uses both put something here Brenner will prefer the Payee if it is not zero length then it will use the Desc",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Payee",
           "package": "penny-lib",
@@ -796,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Penny account holding postings for this financial\n institution. For instance it might be \u003ccode\u003eAssets:Checking\u003c/code\u003e if this is\n your checking account, \u003ccode\u003eLiabilities:Credit Card\u003c/code\u003e, or whatever.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "PennyAcct",
           "package": "penny-lib",
@@ -805,6 +876,7 @@
         "index": {
           "description": "The Penny account holding postings for this financial institution For instance it might be Assets Checking if this is your checking account Liabilities Credit Card or whatever",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "PennyAcct",
           "package": "penny-lib",
@@ -818,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Posting",
           "package": "penny-lib",
@@ -826,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Posting",
           "package": "penny-lib",
@@ -840,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat the financial institution shows as an increase or decrease\n has to be recorded as a debit or credit in the PennyAcct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Translator",
           "package": "penny-lib",
@@ -849,6 +924,7 @@
         "index": {
           "description": "What the financial institution shows as an increase or decrease has to be recorded as debit or credit in the PennyAcct",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Translator",
           "package": "penny-lib",
@@ -863,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA unique number assigned by Brenner to identify each\n posting. This is unique within a particular financial institution\n account only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "UNumber",
           "package": "penny-lib",
@@ -872,6 +949,7 @@
         "index": {
           "description": "unique number assigned by Brenner to identify each posting This is unique within particular financial institution account only",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "UNumber",
           "package": "penny-lib",
@@ -885,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "AllowNew",
           "package": "penny-lib",
@@ -894,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "AllowNew",
           "package": "penny-lib",
@@ -907,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Config",
           "package": "penny-lib",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Config",
           "package": "penny-lib",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Currency",
           "package": "penny-lib",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Currency",
           "package": "penny-lib",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Date",
           "package": "penny-lib",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Date",
           "package": "penny-lib",
@@ -973,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "DbLocation",
           "package": "penny-lib",
@@ -982,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "DbLocation",
           "package": "penny-lib",
@@ -996,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecreases the account balance. On a credit card, this is a\n payment. On a checking account, this is a withdrawal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Decrease",
           "package": "penny-lib",
@@ -1006,6 +1095,7 @@
         "index": {
           "description": "Decreases the account balance On credit card this is payment On checking account this is withdrawal",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Decrease",
           "package": "penny-lib",
@@ -1019,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "DefaultAcct",
           "package": "penny-lib",
@@ -1028,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "DefaultAcct",
           "package": "penny-lib",
@@ -1041,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Desc",
           "package": "penny-lib",
@@ -1050,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Desc",
           "package": "penny-lib",
@@ -1063,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "FitAcct",
           "package": "penny-lib",
@@ -1072,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "FitAcct",
           "package": "penny-lib",
@@ -1085,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "FitAcctDesc",
           "package": "penny-lib",
@@ -1094,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "FitAcctDesc",
           "package": "penny-lib",
@@ -1107,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "FitAcctName",
           "package": "penny-lib",
@@ -1116,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "FitAcctName",
           "package": "penny-lib",
@@ -1129,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "FitFileLocation",
           "package": "penny-lib",
@@ -1138,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "FitFileLocation",
           "package": "penny-lib",
@@ -1151,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "FitId",
           "package": "penny-lib",
@@ -1160,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "FitId",
           "package": "penny-lib",
@@ -1174,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncreases the account balance. For a checking or savings\n account, this is a deposit. For a credit card, this is a purchase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Increase",
           "package": "penny-lib",
@@ -1184,6 +1289,7 @@
         "index": {
           "description": "Increases the account balance For checking or savings account this is deposit For credit card this is purchase",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Increase",
           "package": "penny-lib",
@@ -1247,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "ParserDesc",
           "package": "penny-lib",
@@ -1256,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "ParserDesc",
           "package": "penny-lib",
@@ -1269,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Payee",
           "package": "penny-lib",
@@ -1278,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Payee",
           "package": "penny-lib",
@@ -1291,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "PennyAcct",
           "package": "penny-lib",
@@ -1300,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "PennyAcct",
           "package": "penny-lib",
@@ -1313,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "Posting",
           "package": "penny-lib",
@@ -1322,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "Posting",
           "package": "penny-lib",
@@ -1335,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "UNumber",
           "package": "penny-lib",
@@ -1344,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "UNumber",
           "package": "penny-lib",
@@ -1357,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "amount",
           "package": "penny-lib",
@@ -1366,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "amount",
           "package": "penny-lib",
@@ -1378,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "currency",
           "package": "penny-lib",
@@ -1387,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "currency",
           "package": "penny-lib",
@@ -1399,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "date",
           "package": "penny-lib",
@@ -1408,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "date",
           "package": "penny-lib",
@@ -1420,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "dbLocation",
           "package": "penny-lib",
@@ -1429,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "dbLocation",
           "package": "penny-lib",
@@ -1442,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "defaultAcct",
           "package": "penny-lib",
@@ -1451,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "defaultAcct",
           "package": "penny-lib",
@@ -1464,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "defaultFitAcct",
           "package": "penny-lib",
@@ -1473,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "defaultFitAcct",
           "package": "penny-lib",
@@ -1486,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "desc",
           "package": "penny-lib",
@@ -1495,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "desc",
           "package": "penny-lib",
@@ -1507,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "fitAcctDesc",
           "package": "penny-lib",
@@ -1516,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "fitAcctDesc",
           "package": "penny-lib",
@@ -1529,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "fitAcctName",
           "package": "penny-lib",
@@ -1538,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "fitAcctName",
           "package": "penny-lib",
@@ -1551,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "fitId",
           "package": "penny-lib",
@@ -1560,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "fitId",
           "package": "penny-lib",
@@ -1573,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "incDec",
           "package": "penny-lib",
@@ -1582,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "incDec",
           "package": "penny-lib",
@@ -1596,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsures that incoming Amounts have only digits and (up to) one\n decimal point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "mkAmount",
           "package": "penny-lib",
@@ -1606,6 +1745,7 @@
         "index": {
           "description": "Ensures that incoming Amounts have only digits and up to one decimal point",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "mkAmount",
           "normalized": "String-\u003eMaybe Amount",
@@ -1621,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "moreFitAccts",
           "package": "penny-lib",
@@ -1630,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "moreFitAccts",
           "normalized": "[FitAcct]",
@@ -1646,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a file of transactions from the financial\n institution. The function must open the file and parse it. This\n is in the IO monad not only because the function must open the\n file itself, but also so the function can perform arbitrary IO\n (run pdftotext, maybe?) If there is failure, the function can\n return an Exceptional String, which is the error\n message. Alternatively the function can raise an exception in the\n IO monad (currently Brenner makes no attempt to catch these) so\n if any of the IO functions throw you can simply not handle the\n exceptions.\n\u003c/p\u003e\u003cp\u003eThe first element of the pair gives information about the parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "parser",
           "package": "penny-lib",
@@ -1656,6 +1799,7 @@
         "index": {
           "description": "Parses file of transactions from the financial institution The function must open the file and parse it This is in the IO monad not only because the function must open the file itself but also so the function can perform arbitrary IO run pdftotext maybe If there is failure the function can return an Exceptional String which is the error message Alternatively the function can raise an exception in the IO monad currently Brenner makes no attempt to catch these so if any of the IO functions throw you can simply not handle the exceptions The first element of the pair gives information about the parser",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "parser",
           "normalized": "(ParserDesc,FitFileLocation-\u003eIO(Exceptional String[Posting]))",
@@ -1670,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "payee",
           "package": "penny-lib",
@@ -1679,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "payee",
           "package": "penny-lib",
@@ -1691,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "pennyAcct",
           "package": "penny-lib",
@@ -1700,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "pennyAcct",
           "package": "penny-lib",
@@ -1714,6 +1862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to turn Qty into QtyRep.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "qtySpec",
           "package": "penny-lib",
@@ -1724,6 +1873,7 @@
         "index": {
           "description": "How to turn Qty into QtyRep",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "qtySpec",
           "package": "penny-lib",
@@ -1738,6 +1888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen creating new transactions, the commodity will be on this\n side\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "side",
           "package": "penny-lib",
@@ -1748,6 +1899,7 @@
         "index": {
           "description": "When creating new transactions the commodity will be on this side",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "side",
           "package": "penny-lib",
@@ -1761,6 +1913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen creating new transactions, is there a space between the\n commodity and the quantity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "spaceBetween",
           "package": "penny-lib",
@@ -1771,6 +1924,7 @@
         "index": {
           "description": "When creating new transactions is there space between the commodity and the quantity",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "spaceBetween",
           "package": "penny-lib",
@@ -1785,6 +1939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSometimes the financial institution provides Payee information,\n sometimes it does not. Sometimes the Desc might have additional\n information that you might want to remove. This function can be\n used to do that. The resulting Lincoln Payee is used for any\n transactions that are created by the merge command. The resulting\n payee is also used when comparing new financial institution\n postings to already existing ledger transactions in order to\n guess at which payee and accounts to create in the transactions\n created by the merge command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "toLincolnPayee",
           "package": "penny-lib",
@@ -1795,6 +1950,7 @@
         "index": {
           "description": "Sometimes the financial institution provides Payee information sometimes it does not Sometimes the Desc might have additional information that you might want to remove This function can be used to do that The resulting Lincoln Payee is used for any transactions that are created by the merge command The resulting payee is also used when comparing new financial institution postings to already existing ledger transactions in order to guess at which payee and accounts to create in the transactions created by the merge command",
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "toLincolnPayee",
           "normalized": "Desc-\u003ePayee-\u003ePayee",
@@ -1810,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "translate",
           "package": "penny-lib",
@@ -1819,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "translate",
           "normalized": "IncDec-\u003eTranslator-\u003eDrCr",
@@ -1833,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "translator",
           "package": "penny-lib",
@@ -1842,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "translator",
           "package": "penny-lib",
@@ -1854,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "unAllowNew",
           "package": "penny-lib",
@@ -1863,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "unAllowNew",
           "package": "penny-lib",
@@ -1876,6 +2038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "unCurrency",
           "package": "penny-lib",
@@ -1885,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "unCurrency",
           "package": "penny-lib",
@@ -1898,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "unDate",
           "package": "penny-lib",
@@ -1907,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "unDate",
           "package": "penny-lib",
@@ -1920,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "unDbLocation",
           "package": "penny-lib",
@@ -1929,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "unDbLocation",
           "package": "penny-lib",
@@ -1942,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "unDefaultAcct",
           "package": "penny-lib",
@@ -1951,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "unDefaultAcct",
           "package": "penny-lib",
@@ -1964,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "unDesc",
           "package": "penny-lib",
@@ -1973,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "unDesc",
           "package": "penny-lib",
@@ -1986,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "unFitAcctDesc",
           "package": "penny-lib",
@@ -1995,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "unFitAcctDesc",
           "package": "penny-lib",
@@ -2008,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "unFitAcctName",
           "package": "penny-lib",
@@ -2017,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "unFitAcctName",
           "package": "penny-lib",
@@ -2030,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "unFitFileLocation",
           "package": "penny-lib",
@@ -2039,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "unFitFileLocation",
           "package": "penny-lib",
@@ -2052,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "unFitId",
           "package": "penny-lib",
@@ -2061,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "unFitId",
           "package": "penny-lib",
@@ -2074,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "unParserDesc",
           "package": "penny-lib",
@@ -2083,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "unParserDesc",
           "package": "penny-lib",
@@ -2096,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "unPayee",
           "package": "penny-lib",
@@ -2105,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "unPayee",
           "package": "penny-lib",
@@ -2118,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "unPennyAcct",
           "package": "penny-lib",
@@ -2127,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "unPennyAcct",
           "package": "penny-lib",
@@ -2140,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Types",
           "name": "unUNumber",
           "package": "penny-lib",
@@ -2149,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Types",
           "name": "unUNumber",
           "package": "penny-lib",
@@ -2162,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Util",
           "name": "Util",
           "package": "penny-lib",
@@ -2170,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Util",
           "name": "Util",
           "package": "penny-lib",
@@ -2183,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Util",
           "name": "brenner",
           "package": "penny-lib",
@@ -2192,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Util",
           "name": "brenner",
           "package": "penny-lib",
@@ -2205,6 +2397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint an error message and exit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Util",
           "name": "errExit",
           "package": "penny-lib",
@@ -2215,6 +2408,7 @@
         "index": {
           "description": "Print an error message and exit",
           "hierarchy": "Penny Brenner Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Util",
           "name": "errExit",
           "normalized": "String-\u003eIO a",
@@ -2231,6 +2425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the FitAcct, if it was provided. If it was not provided,\n exit with an error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Util",
           "name": "getFitAcct",
           "package": "penny-lib",
@@ -2241,6 +2436,7 @@
         "index": {
           "description": "Gets the FitAcct if it was provided If it was not provided exit with an error message",
           "hierarchy": "Penny Brenner Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Util",
           "name": "getFitAcct",
           "normalized": "Maybe FitAcct-\u003eIO FitAcct",
@@ -2256,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Util",
           "name": "label",
           "package": "penny-lib",
@@ -2265,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Util",
           "name": "label",
           "normalized": "String-\u003eText-\u003eString",
@@ -2280,6 +2478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the database from disk. If allowNew is True, then does not\n fail if the file was not found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Util",
           "name": "loadDb",
           "package": "penny-lib",
@@ -2289,6 +2488,7 @@
         "index": {
           "description": "Loads the database from disk If allowNew is True then does not fail if the file was not found",
           "hierarchy": "Penny Brenner Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Util",
           "name": "loadDb",
           "normalized": "AllowNew-\u003eDbLocation-\u003eIO DbList",
@@ -2305,6 +2505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses quantities from amounts. All amounts should be verified as\n having only digits, optionally followed by a point and then more\n digits. All these values should parse. So if there is a problem it\n is a programmer error. Apply error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Util",
           "name": "parseQty",
           "package": "penny-lib",
@@ -2315,6 +2516,7 @@
         "index": {
           "description": "Parses quantities from amounts All amounts should be verified as having only digits optionally followed by point and then more digits All these values should parse So if there is problem it is programmer error Apply error",
           "hierarchy": "Penny Brenner Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Util",
           "name": "parseQty",
           "normalized": "Amount-\u003eQty",
@@ -2330,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Util",
           "name": "readDbTuple",
           "package": "penny-lib",
@@ -2339,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Util",
           "name": "readDbTuple",
           "normalized": "ByteString-\u003eExceptional String DbList",
@@ -2355,6 +2559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites a new database to disk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Util",
           "name": "saveDb",
           "package": "penny-lib",
@@ -2365,6 +2570,7 @@
         "index": {
           "description": "Writes new database to disk",
           "hierarchy": "Penny Brenner Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Util",
           "name": "saveDb",
           "normalized": "DbLocation-\u003eDbList-\u003eIO()",
@@ -2380,6 +2586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Util",
           "name": "saveDbTuple",
           "package": "penny-lib",
@@ -2389,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Util",
           "name": "saveDbTuple",
           "normalized": "DbList-\u003eByteString",
@@ -2404,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Util",
           "name": "showDbPair",
           "package": "penny-lib",
@@ -2413,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Util",
           "name": "showDbPair",
           "normalized": "(UNumber,Posting)-\u003eString",
@@ -2429,6 +2639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows a Posting in human readable format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Util",
           "name": "showPosting",
           "package": "penny-lib",
@@ -2439,6 +2650,7 @@
         "index": {
           "description": "Shows Posting in human readable format",
           "hierarchy": "Penny Brenner Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Util",
           "name": "showPosting",
           "normalized": "Posting-\u003eString",
@@ -2455,6 +2667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile version. Increment this when anything in the file format\n changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner.Util",
           "name": "version",
           "package": "penny-lib",
@@ -2465,6 +2678,7 @@
         "index": {
           "description": "File version Increment this when anything in the file format changes",
           "hierarchy": "Penny Brenner Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner.Util",
           "name": "version",
           "package": "penny-lib",
@@ -2478,6 +2692,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBrenner - Penny financial institution interfaces\n\u003c/p\u003e\u003cp\u003eBrenner provides a uniform way to interact with downloaded data\n from financial Given a parser, Brenner will import the transactions\n and store them in a database. From there it is easy to merge the\n transactions (without duplicates) into a ledger file, and then to\n clear transactions from statements in an automated fashion.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "Brenner",
           "package": "penny-lib",
@@ -2487,6 +2702,7 @@
         "index": {
           "description": "Brenner Penny financial institution interfaces Brenner provides uniform way to interact with downloaded data from financial Given parser Brenner will import the transactions and store them in database From there it is easy to merge the transactions without duplicates into ledger file and then to clear transactions from statements in an automated fashion",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "Brenner",
           "package": "penny-lib",
@@ -2501,6 +2717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe digit grouping character when the radix is a comma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "CommaGrp",
           "package": "penny-lib",
@@ -2510,6 +2727,7 @@
         "index": {
           "description": "The digit grouping character when the radix is comma",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "CommaGrp",
           "package": "penny-lib",
@@ -2523,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "Config",
           "package": "penny-lib",
@@ -2531,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "Config",
           "package": "penny-lib",
@@ -2545,6 +2765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation to configure a single financial institution account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "FitAcct",
           "package": "penny-lib",
@@ -2554,6 +2775,7 @@
         "index": {
           "description": "Information to configure single financial institution account",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "FitAcct",
           "package": "penny-lib",
@@ -2568,6 +2790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe digit grouping character when the radix is a period.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "PeriodGrp",
           "package": "penny-lib",
@@ -2577,6 +2800,7 @@
         "index": {
           "description": "The digit grouping character when the radix is period",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "PeriodGrp",
           "package": "penny-lib",
@@ -2590,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "Radix",
           "package": "penny-lib",
@@ -2598,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "Radix",
           "package": "penny-lib",
@@ -2611,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "S3",
           "package": "penny-lib",
@@ -2619,6 +2846,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "S3",
           "package": "penny-lib",
@@ -2632,6 +2860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe commodity and and the quantity may appear with the commodity\n on the left (e.g. USD 2.14) or with the commodity on the right\n (e.g. 2.14 USD).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "Side",
           "package": "penny-lib",
@@ -2641,6 +2870,7 @@
         "index": {
           "description": "The commodity and and the quantity may appear with the commodity on the left e.g USD or with the commodity on the right e.g USD",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "Side",
           "package": "penny-lib",
@@ -2655,6 +2885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere may or may not be a space in between the commodity and the\n quantity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "SpaceBetween",
           "package": "penny-lib",
@@ -2664,6 +2895,7 @@
         "index": {
           "description": "There may or may not be space in between the commodity and the quantity",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "SpaceBetween",
           "package": "penny-lib",
@@ -2678,6 +2910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat the financial institution shows as an increase or decrease\n has to be recorded as a debit or credit in the PennyAcct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "Translator",
           "package": "penny-lib",
@@ -2687,6 +2920,7 @@
         "index": {
           "description": "What the financial institution shows as an increase or decrease has to be recorded as debit or credit in the PennyAcct",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "Translator",
           "package": "penny-lib",
@@ -2844,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "Config",
           "package": "penny-lib",
@@ -2853,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "Config",
           "package": "penny-lib",
@@ -2866,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "FitAcct",
           "package": "penny-lib",
@@ -2875,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "FitAcct",
           "package": "penny-lib",
@@ -3099,6 +3337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrenner, with a pre-compiled configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "brennerMain",
           "package": "penny-lib",
@@ -3108,6 +3347,7 @@
         "index": {
           "description": "Brenner with pre-compiled configuration",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "brennerMain",
           "normalized": "Version-\u003eConfig-\u003eIO()",
@@ -3124,6 +3364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe commodity for the currency of your card (e.g. \u003ccode\u003e$\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "currency",
           "package": "penny-lib",
@@ -3134,6 +3375,7 @@
         "index": {
           "description": "The commodity for the currency of your card e.g",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "currency",
           "package": "penny-lib",
@@ -3147,6 +3389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath and filename to where the database is kept. You can use\n an absolute or relative path (if it is relative, it will be\n resolved relative to the current directory at runtime.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "dbLocation",
           "package": "penny-lib",
@@ -3157,6 +3400,7 @@
         "index": {
           "description": "Path and filename to where the database is kept You can use an absolute or relative path if it is relative it will be resolved relative to the current directory at runtime",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "dbLocation",
           "package": "penny-lib",
@@ -3171,6 +3415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen new transactions are created, one of the postings will\n be in the amexAcct given above. The other posting will be in\n this account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "defaultAcct",
           "package": "penny-lib",
@@ -3181,6 +3426,7 @@
         "index": {
           "description": "When new transactions are created one of the postings will be in the amexAcct given above The other posting will be in this account",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "defaultAcct",
           "package": "penny-lib",
@@ -3194,6 +3440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "defaultFitAcct",
           "package": "penny-lib",
@@ -3203,6 +3450,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "defaultFitAcct",
           "package": "penny-lib",
@@ -3217,6 +3465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional information about this financial institution\n account. Here I put information on where to find the statments\n for download on the website.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "fitAcctDesc",
           "package": "penny-lib",
@@ -3227,6 +3476,7 @@
         "index": {
           "description": "Additional information about this financial institution account Here put information on where to find the statments for download on the website",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "fitAcctDesc",
           "package": "penny-lib",
@@ -3241,6 +3491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName for this financial institution account, e.g. \u003ccode\u003eHouse\n Checking\u003c/code\u003e or \u003ccode\u003eMegabank\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "fitAcctName",
           "package": "penny-lib",
@@ -3251,6 +3502,7 @@
         "index": {
           "description": "Name for this financial institution account e.g House Checking or Megabank",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "fitAcctName",
           "package": "penny-lib",
@@ -3264,6 +3516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "moreFitAccts",
           "package": "penny-lib",
@@ -3273,6 +3526,7 @@
         },
         "index": {
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "moreFitAccts",
           "normalized": "[FitAcct]",
@@ -3289,6 +3543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for OFX data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "ofxParser",
           "package": "penny-lib",
@@ -3299,6 +3554,7 @@
         "index": {
           "description": "Parser for OFX data",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "ofxParser",
           "normalized": "(ParserDesc,ParserFn)",
@@ -3315,6 +3571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a file of transactions from the financial\n institution. The function must open the file and parse it. This\n is in the IO monad not only because the function must open the\n file itself, but also so the function can perform arbitrary IO\n (run pdftotext, maybe?) If there is failure, the function can\n return an Exceptional String, which is the error\n message. Alternatively the function can raise an exception in the\n IO monad (currently Brenner makes no attempt to catch these) so\n if any of the IO functions throw you can simply not handle the\n exceptions.\n\u003c/p\u003e\u003cp\u003eThe first element of the pair is a help string which should\n indicate how to download the data, as a helpful reminder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "parser",
           "package": "penny-lib",
@@ -3325,6 +3582,7 @@
         "index": {
           "description": "Parses file of transactions from the financial institution The function must open the file and parse it This is in the IO monad not only because the function must open the file itself but also so the function can perform arbitrary IO run pdftotext maybe If there is failure the function can return an Exceptional String which is the error message Alternatively the function can raise an exception in the IO monad currently Brenner makes no attempt to catch these so if any of the IO functions throw you can simply not handle the exceptions The first element of the pair is help string which should indicate how to download the data as helpful reminder",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "parser",
           "normalized": "(ParserDesc,FitFileLocation-\u003eIO(Exceptional String[Posting]))",
@@ -3340,6 +3598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe account that you use in your Penny file to hold\n transactions for this card. Separate each sub-account with\n colons (as you do in the Penny file.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "pennyAcct",
           "package": "penny-lib",
@@ -3350,6 +3609,7 @@
         "index": {
           "description": "The account that you use in your Penny file to hold transactions for this card Separate each sub-account with colons as you do in the Penny file",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "pennyAcct",
           "package": "penny-lib",
@@ -3364,6 +3624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to group digits when printing the resulting ledger.\n This affects only the postings created from the statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "qtySpec",
           "package": "penny-lib",
@@ -3374,6 +3635,7 @@
         "index": {
           "description": "How to group digits when printing the resulting ledger This affects only the postings created from the statement",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "qtySpec",
           "package": "penny-lib",
@@ -3388,6 +3650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen creating new transactions, the commodity will be on this\n side\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "side",
           "package": "penny-lib",
@@ -3398,6 +3661,7 @@
         "index": {
           "description": "When creating new transactions the commodity will be on this side",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "side",
           "package": "penny-lib",
@@ -3411,6 +3675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen creating new transactions, is there a space between the\n commodity and the quantity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "spaceBetween",
           "package": "penny-lib",
@@ -3421,6 +3686,7 @@
         "index": {
           "description": "When creating new transactions is there space between the commodity and the quantity",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "spaceBetween",
           "package": "penny-lib",
@@ -3435,6 +3701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSometimes the financial institution provides Payee information,\n sometimes it does not. Sometimes the Desc might have additional\n information that you might want to remove. This function can be\n used to do that. The resulting Lincoln Payee is used for any\n transactions that are created by the merge command. The resulting\n payee is also used when comparing new financial institution\n postings to already existing ledger transactions in order to\n guess at which payee and accounts to create in the transactions\n created by the merge command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "toLincolnPayee",
           "package": "penny-lib",
@@ -3445,6 +3712,7 @@
         "index": {
           "description": "Sometimes the financial institution provides Payee information sometimes it does not Sometimes the Desc might have additional information that you might want to remove This function can be used to do that The resulting Lincoln Payee is used for any transactions that are created by the merge command The resulting payee is also used when comparing new financial institution postings to already existing ledger transactions in order to guess at which payee and accounts to create in the transactions created by the merge command",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "toLincolnPayee",
           "normalized": "Desc-\u003ePayee-\u003ePayee",
@@ -3461,6 +3729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee the documentation under the \u003ccode\u003eTranslator\u003c/code\u003e type for\n details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "translator",
           "package": "penny-lib",
@@ -3471,6 +3740,7 @@
         "index": {
           "description": "See the documentation under the Translator type for details",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "translator",
           "package": "penny-lib",
@@ -3484,6 +3754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple function to use for \u003ccode\u003e\u003ca\u003etoLincolnPayee\u003c/a\u003e\u003c/code\u003e. Uses the financial\n institution payee if it is available; otherwise, uses the financial\n institution description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Brenner",
           "name": "usePayeeOrDesc",
           "package": "penny-lib",
@@ -3494,6 +3765,7 @@
         "index": {
           "description": "simple function to use for toLincolnPayee Uses the financial institution payee if it is available otherwise uses the financial institution description",
           "hierarchy": "Penny Brenner",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Brenner",
           "name": "usePayeeOrDesc",
           "normalized": "Desc-\u003ePayee-\u003ePayee",
@@ -3510,6 +3782,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreates the output Chunks for the Balance report for\n multi-commodity reports only.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "Chunker",
           "package": "penny-lib",
@@ -3519,6 +3792,7 @@
         "index": {
           "description": "Creates the output Chunks for the Balance report for multi-commodity reports only",
           "hierarchy": "Penny Cabin Balance Convert Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "Chunker",
           "package": "penny-lib",
@@ -3533,6 +3807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays a single account in a Balance report. In a\n single-commodity report, this account will only be one screen line\n long. In a multi-commodity report, it might be multiple lines long,\n with one screen line for each commodity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "MainRow",
           "package": "penny-lib",
@@ -3542,6 +3817,7 @@
         "index": {
           "description": "Displays single account in Balance report In single-commodity report this account will only be one screen line long In multi-commodity report it might be multiple lines long with one screen line for each commodity",
           "hierarchy": "Penny Cabin Balance Convert Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "MainRow",
           "package": "penny-lib",
@@ -3556,6 +3832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays a one-column row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "OneColRow",
           "package": "penny-lib",
@@ -3565,6 +3842,7 @@
         "index": {
           "description": "Displays one-column row",
           "hierarchy": "Penny Cabin Balance Convert Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "OneColRow",
           "package": "penny-lib",
@@ -3578,6 +3856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "Row",
           "package": "penny-lib",
@@ -3586,6 +3865,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "Row",
           "package": "penny-lib",
@@ -3599,6 +3879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "MainRow",
           "package": "penny-lib",
@@ -3608,6 +3889,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "MainRow",
           "package": "penny-lib",
@@ -3621,6 +3903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "OneColRow",
           "package": "penny-lib",
@@ -3630,6 +3913,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "OneColRow",
           "package": "penny-lib",
@@ -3643,6 +3927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "RMain",
           "package": "penny-lib",
@@ -3652,6 +3937,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "RMain",
           "package": "penny-lib",
@@ -3665,6 +3951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "ROneCol",
           "package": "penny-lib",
@@ -3674,6 +3961,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "ROneCol",
           "package": "penny-lib",
@@ -3688,6 +3976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommodity balances. If this list is empty, dashes are\n displayed for the DrCr and Qty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "mrBottomLine",
           "package": "penny-lib",
@@ -3698,6 +3987,7 @@
         "index": {
           "description": "Commodity balances If this list is empty dashes are displayed for the DrCr and Qty",
           "hierarchy": "Penny Cabin Balance Convert Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "mrBottomLine",
           "package": "penny-lib",
@@ -3712,6 +4002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndent the account name by this many levels (not by this many\n spaces; this number is multiplied by another number in the\n Chunker source to arrive at the final indentation amount)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "mrIndentation",
           "package": "penny-lib",
@@ -3722,6 +4013,7 @@
         "index": {
           "description": "Indent the account name by this many levels not by this many spaces this number is multiplied by another number in the Chunker source to arrive at the final indentation amount",
           "hierarchy": "Penny Cabin Balance Convert Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "mrIndentation",
           "package": "penny-lib",
@@ -3736,6 +4028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText for the name of the account\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "mrText",
           "package": "penny-lib",
@@ -3746,6 +4039,7 @@
         "index": {
           "description": "Text for the name of the account",
           "hierarchy": "Penny Cabin Balance Convert Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "mrText",
           "package": "penny-lib",
@@ -3760,6 +4054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndent the text by this many levels (not by this many\n spaces; this number is multiplied by another number in the\n Chunker source to arrive at the final indentation amount)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "ocIndentation",
           "package": "penny-lib",
@@ -3770,6 +4065,7 @@
         "index": {
           "description": "Indent the text by this many levels not by this many spaces this number is multiplied by another number in the Chunker source to arrive at the final indentation amount",
           "hierarchy": "Penny Cabin Balance Convert Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "ocIndentation",
           "package": "penny-lib",
@@ -3784,6 +4080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText for the left column\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "ocText",
           "package": "penny-lib",
@@ -3794,6 +4091,7 @@
         "index": {
           "description": "Text for the left column",
           "hierarchy": "Penny Cabin Balance Convert Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "ocText",
           "package": "penny-lib",
@@ -3807,6 +4105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "rowsToChunks",
           "package": "penny-lib",
@@ -3815,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Chunker",
           "name": "rowsToChunks",
           "normalized": "Changers-\u003e(Qty-\u003eText)-\u003e[Row]-\u003e[Chunk]",
@@ -3831,6 +4131,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefault options for the Convert report when used from the command\n line.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "Options",
           "package": "penny-lib",
@@ -3840,6 +4141,7 @@
         "index": {
           "description": "Default options for the Convert report when used from the command line",
           "hierarchy": "Penny Cabin Balance Convert Options",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "Options",
           "package": "penny-lib",
@@ -3854,6 +4156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault options for the Convert report. This record is used as\n the starting point when parsing in options from the command\n line. You don't need to use it if you are setting the options for\n the Convert report directly from your own code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "DefaultOpts",
           "package": "penny-lib",
@@ -3863,6 +4166,7 @@
         "index": {
           "description": "Default options for the Convert report This record is used as the starting point when parsing in options from the command line You don need to use it if you are setting the options for the Convert report directly from your own code",
           "hierarchy": "Penny Cabin Balance Convert Options",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "DefaultOpts",
           "package": "penny-lib",
@@ -3876,6 +4180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "DefaultOpts",
           "package": "penny-lib",
@@ -3885,6 +4190,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Options",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "DefaultOpts",
           "package": "penny-lib",
@@ -3898,6 +4204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "defaultOptions",
           "package": "penny-lib",
@@ -3907,6 +4214,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Options",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "defaultOptions",
           "package": "penny-lib",
@@ -3920,6 +4228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "showZeroBalances",
           "package": "penny-lib",
@@ -3929,6 +4238,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Options",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "showZeroBalances",
           "package": "penny-lib",
@@ -3942,6 +4252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "sortBy",
           "package": "penny-lib",
@@ -3951,6 +4262,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Options",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "sortBy",
           "package": "penny-lib",
@@ -3964,6 +4276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "sortOrder",
           "package": "penny-lib",
@@ -3973,6 +4286,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Options",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "sortOrder",
           "package": "penny-lib",
@@ -3986,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "target",
           "package": "penny-lib",
@@ -3995,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Options",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "target",
           "package": "penny-lib",
@@ -4007,6 +4323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "toParserOpts",
           "package": "penny-lib",
@@ -4016,6 +4333,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Options",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Options",
           "name": "toParserOpts",
           "normalized": "DefaultOpts-\u003eRuntime-\u003eOpts",
@@ -4032,6 +4350,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing options for the Convert report from the command line.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "Parser",
           "package": "penny-lib",
@@ -4041,6 +4360,7 @@
         "index": {
           "description": "Parsing options for the Convert report from the command line",
           "hierarchy": "Penny Cabin Balance Convert Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "Parser",
           "package": "penny-lib",
@@ -4055,6 +4375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault starting options for the Convert report. After\n considering what is parsed in from the command line and price data,\n a Convert.Opts will be generated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "Opts",
           "package": "penny-lib",
@@ -4064,6 +4385,7 @@
         "index": {
           "description": "Default starting options for the Convert report After considering what is parsed in from the command line and price data Convert.Opts will be generated",
           "hierarchy": "Penny Cabin Balance Convert Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "Opts",
           "package": "penny-lib",
@@ -4077,6 +4399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "SortBy",
           "package": "penny-lib",
@@ -4085,6 +4408,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "SortBy",
           "package": "penny-lib",
@@ -4099,6 +4423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the target commodity determined by the user or automatically?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "Target",
           "package": "penny-lib",
@@ -4108,6 +4433,7 @@
         "index": {
           "description": "Is the target commodity determined by the user or automatically",
           "hierarchy": "Penny Cabin Balance Convert Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "Target",
           "package": "penny-lib",
@@ -4121,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "AutoTarget",
           "package": "penny-lib",
@@ -4130,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "AutoTarget",
           "package": "penny-lib",
@@ -4143,6 +4471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "ManualTarget",
           "package": "penny-lib",
@@ -4152,6 +4481,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "ManualTarget",
           "package": "penny-lib",
@@ -4165,6 +4495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "Opts",
           "package": "penny-lib",
@@ -4174,6 +4505,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "Opts",
           "package": "penny-lib",
@@ -4234,6 +4566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not be tempted to change the setup in this module so that the\n individual functions such as parseColor and parseBackground return\n parsers rather than OptSpec. Such an arrangement breaks the correct\n parsing of abbreviated long options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "allOptSpecs",
           "package": "penny-lib",
@@ -4244,6 +4577,7 @@
         "index": {
           "description": "Do not be tempted to change the setup in this module so that the individual functions such as parseColor and parseBackground return parsers rather than OptSpec Such an arrangement breaks the correct parsing of abbreviated long options",
           "hierarchy": "Penny Cabin Balance Convert Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "allOptSpecs",
           "normalized": "[OptSpec(Opts-\u003eExceptional String Opts)]",
@@ -4259,6 +4593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "dateTime",
           "package": "penny-lib",
@@ -4268,6 +4603,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "dateTime",
           "package": "penny-lib",
@@ -4281,6 +4617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "showZeroBalances",
           "package": "penny-lib",
@@ -4290,6 +4627,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "showZeroBalances",
           "package": "penny-lib",
@@ -4303,6 +4641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "sortBy",
           "package": "penny-lib",
@@ -4312,6 +4651,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "sortBy",
           "package": "penny-lib",
@@ -4325,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "sortOrder",
           "package": "penny-lib",
@@ -4334,6 +4675,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "sortOrder",
           "package": "penny-lib",
@@ -4347,6 +4689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "target",
           "package": "penny-lib",
@@ -4356,6 +4699,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert.Parser",
           "name": "target",
           "package": "penny-lib",
@@ -4369,6 +4713,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Convert report. This report converts all account balances to\n a single commodity, which must be specified.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "Convert",
           "package": "penny-lib",
@@ -4378,6 +4723,7 @@
         "index": {
           "description": "The Convert report This report converts all account balances to single commodity which must be specified",
           "hierarchy": "Penny Cabin Balance Convert",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "Convert",
           "package": "penny-lib",
@@ -4392,6 +4738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for the Convert report. These are the only options you\n need to use if you are supplying options programatically (as\n opposed to parsing them in from the command line.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "Opts",
           "package": "penny-lib",
@@ -4401,6 +4748,7 @@
         "index": {
           "description": "Options for the Convert report These are the only options you need to use if you are supplying options programatically as opposed to parsing them in from the command line",
           "hierarchy": "Penny Cabin Balance Convert",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "Opts",
           "package": "penny-lib",
@@ -4415,6 +4763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to sort each line of the report. Each subaccount has only one\n BottomLine (unlike in the MultiCommodity report, where each\n subaccount may have more than one BottomLine, one for each\n commodity.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "Sorter",
           "package": "penny-lib",
@@ -4424,6 +4773,7 @@
         "index": {
           "description": "How to sort each line of the report Each subaccount has only one BottomLine unlike in the MultiCommodity report where each subaccount may have more than one BottomLine one for each commodity",
           "hierarchy": "Penny Cabin Balance Convert",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "Sorter",
           "package": "penny-lib",
@@ -4437,6 +4787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "Opts",
           "package": "penny-lib",
@@ -4446,6 +4797,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "Opts",
           "package": "penny-lib",
@@ -4459,6 +4811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "balanceFormat",
           "package": "penny-lib",
@@ -4468,6 +4821,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "balanceFormat",
           "normalized": "Amount Qty-\u003eText",
@@ -4484,6 +4838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a report respecting the standard interface for reports\n whose options are parsed in from the command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "cmdLineReport",
           "package": "penny-lib",
@@ -4494,6 +4849,7 @@
         "index": {
           "description": "Creates report respecting the standard interface for reports whose options are parsed in from the command line",
           "hierarchy": "Penny Cabin Balance Convert",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "cmdLineReport",
           "normalized": "DefaultOpts-\u003eReport",
@@ -4509,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "dateTime",
           "package": "penny-lib",
@@ -4518,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "dateTime",
           "package": "penny-lib",
@@ -4532,6 +4890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a function usable to sort pairs of SubAccount and\n BottomLine depending on how you want them sorted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "getSorter",
           "package": "penny-lib",
@@ -4542,6 +4901,7 @@
         "index": {
           "description": "Returns function usable to sort pairs of SubAccount and BottomLine depending on how you want them sorted",
           "hierarchy": "Penny Cabin Balance Convert",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "getSorter",
           "normalized": "SortOrder-\u003eSortBy-\u003eSorter",
@@ -4558,6 +4918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function for the Convert report. Use this function if you are\n setting the options from a program (as opposed to parsing them in\n from the command line.) Will fail if the balance conversions fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "report",
           "package": "penny-lib",
@@ -4568,6 +4929,7 @@
         "index": {
           "description": "The function for the Convert report Use this function if you are setting the options from program as opposed to parsing them in from the command line Will fail if the balance conversions fail",
           "hierarchy": "Penny Cabin Balance Convert",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "report",
           "normalized": "Opts-\u003e[PricePoint]-\u003e[(a,Posting)]-\u003eExceptional Text[Chunk]",
@@ -4582,6 +4944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "showZeroBalances",
           "package": "penny-lib",
@@ -4591,6 +4954,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "showZeroBalances",
           "package": "penny-lib",
@@ -4604,6 +4968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "sorter",
           "package": "penny-lib",
@@ -4613,6 +4978,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "sorter",
           "package": "penny-lib",
@@ -4625,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "target",
           "package": "penny-lib",
@@ -4634,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "target",
           "package": "penny-lib",
@@ -4646,6 +5014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "textFormats",
           "package": "penny-lib",
@@ -4655,6 +5024,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Convert",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Convert",
           "name": "textFormats",
           "package": "penny-lib",
@@ -4669,6 +5039,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreates the output Chunks for the Balance report for both\n multi-commodity reports.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity.Chunker",
           "name": "Chunker",
           "package": "penny-lib",
@@ -4678,6 +5049,7 @@
         "index": {
           "description": "Creates the output Chunks for the Balance report for both multi-commodity reports",
           "hierarchy": "Penny Cabin Balance MultiCommodity Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity.Chunker",
           "name": "Chunker",
           "package": "penny-lib",
@@ -4692,6 +5064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays a single account in a Balance report. In a\n single-commodity report, this account will only be one screen line\n long. In a multi-commodity report, it might be multiple lines long,\n with one screen line for each commodity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity.Chunker",
           "name": "Row",
           "package": "penny-lib",
@@ -4701,6 +5074,7 @@
         "index": {
           "description": "Displays single account in Balance report In single-commodity report this account will only be one screen line long In multi-commodity report it might be multiple lines long with one screen line for each commodity",
           "hierarchy": "Penny Cabin Balance MultiCommodity Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity.Chunker",
           "name": "Row",
           "package": "penny-lib",
@@ -4714,6 +5088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity.Chunker",
           "name": "Row",
           "package": "penny-lib",
@@ -4723,6 +5098,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance MultiCommodity Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity.Chunker",
           "name": "Row",
           "package": "penny-lib",
@@ -4737,6 +5113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText for the name of the account\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity.Chunker",
           "name": "accountTxt",
           "package": "penny-lib",
@@ -4747,6 +5124,7 @@
         "index": {
           "description": "Text for the name of the account",
           "hierarchy": "Penny Cabin Balance MultiCommodity Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity.Chunker",
           "name": "accountTxt",
           "package": "penny-lib",
@@ -4761,6 +5139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommodity balances. If this list is empty, dashes are\n displayed for the DrCr, Commodity, and Qty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity.Chunker",
           "name": "balances",
           "package": "penny-lib",
@@ -4771,6 +5150,7 @@
         "index": {
           "description": "Commodity balances If this list is empty dashes are displayed for the DrCr Commodity and Qty",
           "hierarchy": "Penny Cabin Balance MultiCommodity Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity.Chunker",
           "name": "balances",
           "normalized": "[(Commodity,BottomLine)]",
@@ -4786,6 +5166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndent the account name by this many levels (not by this many\n spaces; this number is multiplied by another number in the\n Chunker source to arrive at the final indentation amount)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity.Chunker",
           "name": "indentation",
           "package": "penny-lib",
@@ -4796,6 +5177,7 @@
         "index": {
           "description": "Indent the account name by this many levels not by this many spaces this number is multiplied by another number in the Chunker source to arrive at the final indentation amount",
           "hierarchy": "Penny Cabin Balance MultiCommodity Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity.Chunker",
           "name": "indentation",
           "package": "penny-lib",
@@ -4808,6 +5190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity.Chunker",
           "name": "rowsToChunks",
           "package": "penny-lib",
@@ -4816,6 +5199,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance MultiCommodity Chunker",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity.Chunker",
           "name": "rowsToChunks",
           "normalized": "Changers-\u003e(Amount Qty-\u003eText)-\u003e[Row]-\u003e[Chunk]",
@@ -4831,6 +5215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity.Parser",
           "name": "Parser",
           "package": "penny-lib",
@@ -4839,6 +5224,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance MultiCommodity Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity.Parser",
           "name": "Parser",
           "package": "penny-lib",
@@ -4853,6 +5239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for the Balance report that have been parsed from the\n command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity.Parser",
           "name": "ParseOpts",
           "package": "penny-lib",
@@ -4862,6 +5249,7 @@
         "index": {
           "description": "Options for the Balance report that have been parsed from the command line",
           "hierarchy": "Penny Cabin Balance MultiCommodity Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity.Parser",
           "name": "ParseOpts",
           "package": "penny-lib",
@@ -4875,6 +5263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity.Parser",
           "name": "ParseOpts",
           "package": "penny-lib",
@@ -4884,6 +5273,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance MultiCommodity Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity.Parser",
           "name": "ParseOpts",
           "package": "penny-lib",
@@ -4897,6 +5287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity.Parser",
           "name": "allSpecs",
           "package": "penny-lib",
@@ -4906,6 +5297,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance MultiCommodity Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity.Parser",
           "name": "allSpecs",
           "normalized": "[OptSpec(ParseOpts-\u003eParseOpts)]",
@@ -4921,6 +5313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity.Parser",
           "name": "order",
           "package": "penny-lib",
@@ -4930,6 +5323,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance MultiCommodity Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity.Parser",
           "name": "order",
           "package": "penny-lib",
@@ -4942,6 +5336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity.Parser",
           "name": "showZeroBalances",
           "package": "penny-lib",
@@ -4951,6 +5346,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance MultiCommodity Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity.Parser",
           "name": "showZeroBalances",
           "package": "penny-lib",
@@ -4965,6 +5361,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe multi-commodity Balance report. This is the simpler balance\n report because it does not allow for commodities to be converted.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "MultiCommodity",
           "package": "penny-lib",
@@ -4974,6 +5371,7 @@
         "index": {
           "description": "The multi-commodity Balance report This is the simpler balance report because it does not allow for commodities to be converted",
           "hierarchy": "Penny Cabin Balance MultiCommodity",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "MultiCommodity",
           "package": "penny-lib",
@@ -4988,6 +5386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for making the balance report. These are the only options\n needed to make the report if the options are not being parsed in\n from the command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "Opts",
           "package": "penny-lib",
@@ -4997,6 +5396,7 @@
         "index": {
           "description": "Options for making the balance report These are the only options needed to make the report if the options are not being parsed in from the command line",
           "hierarchy": "Penny Cabin Balance MultiCommodity",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "Opts",
           "package": "penny-lib",
@@ -5010,6 +5410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "Opts",
           "package": "penny-lib",
@@ -5019,6 +5420,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance MultiCommodity",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "Opts",
           "package": "penny-lib",
@@ -5032,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "balanceFormat",
           "package": "penny-lib",
@@ -5041,6 +5444,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance MultiCommodity",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "balanceFormat",
           "normalized": "Amount Qty-\u003eText",
@@ -5056,6 +5460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "defaultOpts",
           "package": "penny-lib",
@@ -5065,6 +5470,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance MultiCommodity",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "defaultOpts",
           "normalized": "(Amount Qty-\u003eText)-\u003eOpts",
@@ -5080,6 +5486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "defaultParseOpts",
           "package": "penny-lib",
@@ -5089,6 +5496,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance MultiCommodity",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "defaultParseOpts",
           "package": "penny-lib",
@@ -5103,6 +5511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe MultiCommodity report, with default options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "defaultReport",
           "package": "penny-lib",
@@ -5113,6 +5522,7 @@
         "index": {
           "description": "The MultiCommodity report with default options",
           "hierarchy": "Penny Cabin Balance MultiCommodity",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "defaultReport",
           "package": "penny-lib",
@@ -5126,6 +5536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "order",
           "package": "penny-lib",
@@ -5135,6 +5546,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance MultiCommodity",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "order",
           "normalized": "SubAccount-\u003eSubAccount-\u003eOrdering",
@@ -5150,6 +5562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe MultiCommodity report with configurable options that have\n been parsed from the command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "parseReport",
           "package": "penny-lib",
@@ -5159,6 +5572,7 @@
         "index": {
           "description": "The MultiCommodity report with configurable options that have been parsed from the command line",
           "hierarchy": "Penny Cabin Balance MultiCommodity",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "parseReport",
           "normalized": "ParseOpts-\u003eReport",
@@ -5175,6 +5589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis report is what to use if you already have your options (that\n is, you are not parsing them in from the command line.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "report",
           "package": "penny-lib",
@@ -5185,6 +5600,7 @@
         "index": {
           "description": "This report is what to use if you already have your options that is you are not parsing them in from the command line",
           "hierarchy": "Penny Cabin Balance MultiCommodity",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "report",
           "normalized": "Opts-\u003e[(a,Posting)]-\u003e[Chunk]",
@@ -5199,6 +5615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "showZeroBalances",
           "package": "penny-lib",
@@ -5208,6 +5625,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance MultiCommodity",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "showZeroBalances",
           "package": "penny-lib",
@@ -5221,6 +5639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "textFormats",
           "package": "penny-lib",
@@ -5230,6 +5649,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance MultiCommodity",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.MultiCommodity",
           "name": "textFormats",
           "package": "penny-lib",
@@ -5244,6 +5664,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGrab bag of utility functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "Util",
           "package": "penny-lib",
@@ -5253,6 +5674,7 @@
         "index": {
           "description": "Grab bag of utility functions",
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "Util",
           "package": "penny-lib",
@@ -5267,6 +5689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts all Boxes into a Tree and sums the balances. Removes\n accounts that have empty balances if requested. Does NOT sum\n balances from the bottom up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "balances",
           "package": "penny-lib",
@@ -5277,6 +5700,7 @@
         "index": {
           "description": "Puts all Boxes into Tree and sums the balances Removes accounts that have empty balances if requested Does NOT sum balances from the bottom up",
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "balances",
           "normalized": "ShowZeroBalances-\u003e[(a,Posting)]-\u003eForest(SubAccount,Balance)",
@@ -5291,6 +5715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "boxesBalance",
           "package": "penny-lib",
@@ -5300,6 +5725,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "boxesBalance",
           "normalized": "[(a,Posting)]-\u003eBalance",
@@ -5316,6 +5742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeeps only Trees that match a given condition. First examines\n child trees to determine whether they should be retained. If a\n child tree is retained, does not delete the parent tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "filterForest",
           "package": "penny-lib",
@@ -5326,6 +5753,7 @@
         "index": {
           "description": "Keeps only Trees that match given condition First examines child trees to determine whether they should be retained If child tree is retained does not delete the parent tree",
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "filterForest",
           "normalized": "(a-\u003eBool)-\u003eForest a-\u003eForest a",
@@ -5342,6 +5770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a tree of Balances (like what is produced by the \u003ccode\u003e\u003ca\u003ebalances\u003c/a\u003e\u003c/code\u003e\n function) and produces a flat list of accounts with the balance of\n each account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "flatten",
           "package": "penny-lib",
@@ -5352,6 +5781,7 @@
         "index": {
           "description": "Takes tree of Balances like what is produced by the balances function and produces flat list of accounts with the balance of each account",
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "flatten",
           "normalized": "Forest(SubAccount,Balance)-\u003e[(Account,Balance)]",
@@ -5367,6 +5797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a Forest and returns a Forest where each node has\n information about its parent Nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "forestWithParents",
           "package": "penny-lib",
@@ -5377,6 +5808,7 @@
         "index": {
           "description": "Takes Forest and returns Forest where each node has information about its parent Nodes",
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "forestWithParents",
           "normalized": "Forest a-\u003eForest(a,[a])",
@@ -5393,6 +5825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel each level of a Tree with an integer indicating how deep it\n is. The top node of the tree is level 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "labelLevels",
           "package": "penny-lib",
@@ -5403,6 +5836,7 @@
         "index": {
           "description": "Label each level of Tree with an integer indicating how deep it is The top node of the tree is level",
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "labelLevels",
           "normalized": "Tree a-\u003eTree(Int,a)",
@@ -5419,6 +5853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike lastModeBy but using Ord.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "lastMode",
           "package": "penny-lib",
@@ -5429,6 +5864,7 @@
         "index": {
           "description": "Like lastModeBy but using Ord",
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "lastMode",
           "normalized": "[a]-\u003eMaybe a",
@@ -5445,6 +5881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSorts each level of a Forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "sortForest",
           "package": "penny-lib",
@@ -5455,6 +5892,7 @@
         "index": {
           "description": "Sorts each level of Forest",
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "sortForest",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eForest a-\u003eForest a",
@@ -5471,6 +5909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSorts each level of a Tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "sortTree",
           "package": "penny-lib",
@@ -5481,6 +5920,7 @@
         "index": {
           "description": "Sorts each level of Tree",
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "sortTree",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eTree a-\u003eTree a",
@@ -5497,6 +5937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSums a forest from the bottom up. Returns a pair, where the first\n element is the forest, but with the second element of each node\n replaced with the sum of that node and all its children. The second\n element is the sum of all the second elements in the forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "sumForest",
           "package": "penny-lib",
@@ -5506,6 +5947,7 @@
         "index": {
           "description": "Sums forest from the bottom up Returns pair where the first element is the forest but with the second element of each node replaced with the sum of that node and all its children The second element is the sum of all the second elements in the forest",
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "sumForest",
           "normalized": "a-\u003e(a-\u003ea-\u003ea)-\u003eForest(b,a)-\u003e(Forest(b,a),a)",
@@ -5522,6 +5964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSums a tree from the bottom up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "sumTree",
           "package": "penny-lib",
@@ -5531,6 +5974,7 @@
         "index": {
           "description": "Sums tree from the bottom up",
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "sumTree",
           "normalized": "a-\u003e(a-\u003ea-\u003ea)-\u003eTree(b,a)-\u003eTree(b,a)",
@@ -5547,6 +5991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a forest sorted into tiers based on lists of keys that\n are extracted from the elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "tieredForest",
           "package": "penny-lib",
@@ -5556,6 +6001,7 @@
         "index": {
           "description": "Constructs forest sorted into tiers based on lists of keys that are extracted from the elements",
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "tieredForest",
           "normalized": "(a-\u003e[b])-\u003e[a]-\u003eForest(b,[a])",
@@ -5572,6 +6018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of postings and puts them into a Forest. Each level\n of each of the trees corresponds to a sub account. The label of the\n node tells you the sub account name and gives you a list of the\n postings at that level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "tieredPostings",
           "package": "penny-lib",
@@ -5582,6 +6029,7 @@
         "index": {
           "description": "Takes list of postings and puts them into Forest Each level of each of the trees corresponds to sub account The label of the node tells you the sub account name and gives you list of the postings at that level",
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "tieredPostings",
           "normalized": "[(a,Posting)]-\u003eForest(SubAccount,[(a,Posting)])",
@@ -5598,6 +6046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a Tree and returns a Tree where each node has information\n about its parent Nodes. The list of parent nodes has the most\n immediate parent first and the most distant parent last.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance.Util",
           "name": "treeWithParents",
           "package": "penny-lib",
@@ -5608,6 +6057,7 @@
         "index": {
           "description": "Takes Tree and returns Tree where each node has information about its parent Nodes The list of parent nodes has the most immediate parent first and the most distant parent last",
           "hierarchy": "Penny Cabin Balance Util",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance.Util",
           "name": "treeWithParents",
           "normalized": "Tree a-\u003eTree(a,[a])",
@@ -5624,6 +6074,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePenny balance reports. Currently there are two balance reports:\n the MultiCommodity report, which cannot convert commodities and\n which therefore might show more than one commodity in a single\n report, and the Convert report, which uses price data in the Penny\n file to convert all commodities to a single commodity. The Convert\n report always displays only one commodity per account and this one\n commodity for the whole report.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance",
           "name": "Balance",
           "package": "penny-lib",
@@ -5633,6 +6084,7 @@
         "index": {
           "description": "Penny balance reports Currently there are two balance reports the MultiCommodity report which cannot convert commodities and which therefore might show more than one commodity in single report and the Convert report which uses price data in the Penny file to convert all commodities to single commodity The Convert report always displays only one commodity per account and this one commodity for the whole report",
           "hierarchy": "Penny Cabin Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance",
           "name": "Balance",
           "package": "penny-lib",
@@ -5647,6 +6099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default converting balance report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance",
           "name": "convert",
           "package": "penny-lib",
@@ -5657,6 +6110,7 @@
         "index": {
           "description": "The default converting balance report",
           "hierarchy": "Penny Cabin Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance",
           "name": "convert",
           "package": "penny-lib",
@@ -5670,6 +6124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default multi-commodity balance report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Balance",
           "name": "multiCommodity",
           "package": "penny-lib",
@@ -5680,6 +6135,7 @@
         "index": {
           "description": "The default multi-commodity balance report",
           "hierarchy": "Penny Cabin Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Balance",
           "name": "multiCommodity",
           "package": "penny-lib",
@@ -5694,6 +6150,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn interface for other Penny components to use. A report is\n anything that is a \u003ccode\u003e\u003ca\u003eReport\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Interface",
           "name": "Interface",
           "package": "penny-lib",
@@ -5703,6 +6160,7 @@
         "index": {
           "description": "An interface for other Penny components to use report is anything that is Report",
           "hierarchy": "Penny Cabin Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Interface",
           "name": "Interface",
           "package": "penny-lib",
@@ -5716,6 +6174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Interface",
           "name": "ArgsAndReport",
           "package": "penny-lib",
@@ -5724,6 +6183,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Interface",
           "name": "ArgsAndReport",
           "package": "penny-lib",
@@ -5737,6 +6197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Interface",
           "name": "HelpStr",
           "package": "penny-lib",
@@ -5745,6 +6206,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Interface",
           "name": "HelpStr",
           "package": "penny-lib",
@@ -5758,6 +6220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Interface",
           "name": "MkReport",
           "package": "penny-lib",
@@ -5766,6 +6229,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Interface",
           "name": "MkReport",
           "package": "penny-lib",
@@ -5780,6 +6244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of parsing the arguments to a report. Failures are\n indicated with a Text. The name of the executable and the word\n \u003ccode\u003eerror\u003c/code\u003e will be prepended to this Text; otherwise, it is printed\n as-is, so be sure to include any trailing newline if needed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Interface",
           "name": "ParseResult",
           "package": "penny-lib",
@@ -5789,6 +6254,7 @@
         "index": {
           "description": "The result of parsing the arguments to report Failures are indicated with Text The name of the executable and the word error will be prepended to this Text otherwise it is printed as-is so be sure to include any trailing newline if needed",
           "hierarchy": "Penny Cabin Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Interface",
           "name": "ParseResult",
           "package": "penny-lib",
@@ -5803,6 +6269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function that will print the report, and the positional\n arguments. If there was a problem parsing the command line options,\n return an Exception with an error message.\n\u003c/p\u003e\u003cp\u003eParsing the filter options can have one of two results: a help\n string, or a list of positional arguments and a function that\n prints a report. Or, the parse might fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Interface",
           "name": "PosArg",
           "package": "penny-lib",
@@ -5812,6 +6279,7 @@
         "index": {
           "description": "The function that will print the report and the positional arguments If there was problem parsing the command line options return an Exception with an error message Parsing the filter options can have one of two results help string or list of positional arguments and function that prints report Or the parse might fail",
           "hierarchy": "Penny Cabin Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Interface",
           "name": "PosArg",
           "package": "penny-lib",
@@ -5825,6 +6293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Interface",
           "name": "PrintReport",
           "package": "penny-lib",
@@ -5833,6 +6302,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Interface",
           "name": "PrintReport",
           "package": "penny-lib",
@@ -5846,6 +6316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Interface",
           "name": "Report",
           "package": "penny-lib",
@@ -5854,6 +6325,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Interface",
           "name": "Report",
           "package": "penny-lib",
@@ -5868,6 +6340,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMetadata that is specific to Cabin.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Meta",
           "name": "Meta",
           "package": "penny-lib",
@@ -5877,6 +6350,7 @@
         "index": {
           "description": "Metadata that is specific to Cabin",
           "hierarchy": "Penny Cabin Meta",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Meta",
           "name": "Meta",
           "package": "penny-lib",
@@ -5891,6 +6365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach row that is visible on screen is assigned a VisibleNum. This\n is used to number the rows in the report for the user's benefit. It\n is also used to determine whether the row is even or odd for the\n purpose of assigning the background color (this way the background\n colors can alternate, like a checkbook register.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Meta",
           "name": "VisibleNum",
           "package": "penny-lib",
@@ -5900,6 +6375,7 @@
         "index": {
           "description": "Each row that is visible on screen is assigned VisibleNum This is used to number the rows in the report for the user benefit It is also used to determine whether the row is even or odd for the purpose of assigning the background color this way the background colors can alternate like checkbook register",
           "hierarchy": "Penny Cabin Meta",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Meta",
           "name": "VisibleNum",
           "package": "penny-lib",
@@ -5913,6 +6389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Meta",
           "name": "VisibleNum",
           "package": "penny-lib",
@@ -5922,6 +6399,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Meta",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Meta",
           "name": "VisibleNum",
           "package": "penny-lib",
@@ -5935,6 +6413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Meta",
           "name": "unVisibleNum",
           "package": "penny-lib",
@@ -5944,6 +6423,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Meta",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Meta",
           "name": "unVisibleNum",
           "package": "penny-lib",
@@ -5958,6 +6438,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOptions applicable to multiple Cabin reports.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Options",
           "name": "Options",
           "package": "penny-lib",
@@ -5967,6 +6448,7 @@
         "index": {
           "description": "Options applicable to multiple Cabin reports",
           "hierarchy": "Penny Cabin Options",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Options",
           "name": "Options",
           "package": "penny-lib",
@@ -5981,6 +6463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to show zero balances in reports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Options",
           "name": "ShowZeroBalances",
           "package": "penny-lib",
@@ -5990,6 +6473,7 @@
         "index": {
           "description": "Whether to show zero balances in reports",
           "hierarchy": "Penny Cabin Options",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Options",
           "name": "ShowZeroBalances",
           "package": "penny-lib",
@@ -6003,6 +6487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Options",
           "name": "ShowZeroBalances",
           "package": "penny-lib",
@@ -6012,6 +6497,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Options",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Options",
           "name": "ShowZeroBalances",
           "package": "penny-lib",
@@ -6026,6 +6512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an ordering to a descending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Options",
           "name": "descending",
           "package": "penny-lib",
@@ -6036,6 +6523,7 @@
         "index": {
           "description": "Converts an ordering to descending order",
           "hierarchy": "Penny Cabin Options",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Options",
           "name": "descending",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003ea-\u003ea-\u003eOrdering",
@@ -6050,6 +6538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Options",
           "name": "unShowZeroBalances",
           "package": "penny-lib",
@@ -6059,6 +6548,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Options",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Options",
           "name": "unShowZeroBalances",
           "package": "penny-lib",
@@ -6073,6 +6563,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommand line parsers that are common to various Cabin reports.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Parsers",
           "name": "Parsers",
           "package": "penny-lib",
@@ -6082,6 +6573,7 @@
         "index": {
           "description": "Command line parsers that are common to various Cabin reports",
           "hierarchy": "Penny Cabin Parsers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Parsers",
           "name": "Parsers",
           "package": "penny-lib",
@@ -6095,6 +6587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Parsers",
           "name": "SortOrder",
           "package": "penny-lib",
@@ -6103,6 +6596,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Parsers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Parsers",
           "name": "SortOrder",
           "package": "penny-lib",
@@ -6162,6 +6656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Parsers",
           "name": "help",
           "package": "penny-lib",
@@ -6171,6 +6666,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Parsers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Parsers",
           "name": "help",
           "normalized": "OptSpec()",
@@ -6185,6 +6681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Parsers",
           "name": "order",
           "package": "penny-lib",
@@ -6194,6 +6691,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Parsers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Parsers",
           "name": "order",
           "package": "penny-lib",
@@ -6206,6 +6704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Parsers",
           "name": "zeroBalances",
           "package": "penny-lib",
@@ -6215,6 +6714,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Parsers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Parsers",
           "name": "zeroBalances",
           "package": "penny-lib",
@@ -6229,6 +6729,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCalculates the allocated cells -- the Payee cell and the Account\n cell. Here is the logic for this process:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e If neither Payee nor Account appears, do nothing.\n\u003c/li\u003e\u003cli\u003e Obtain the width of the growing cells, including the\n spacers. One of the spacers attached to a field might be omitted:\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003ea. If the rightmost growing field is TotalQty, include all spacers.\n\u003c/p\u003e\u003cp\u003eb. If the rightmost growing field is to the left of Payee, include\n all spacers.\n\u003c/p\u003e\u003cp\u003ec. If the rightmost growing field is to the right of Account but is\n not TotalQty, omit its spacer.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Obtain the width of the Payee and Account spacers. Include each\n spacer if its corresponding field appears in the report.\n\u003c/li\u003e\u003cli\u003e Subtract from the total report width the width of the the\n growing cells and the width of the Payee and Account spacers. This\n gives the total width available for the Payee and Account\n fields. If there are not at least two columns available, return\n without including the Payee and Account fields.\n\u003c/li\u003e\u003cli\u003e Determine the total width that the Payee and Account fields\n would obtain if they had all the space they could ever need. This\n is the \u003ca\u003erequested width\u003c/a\u003e.\n\u003c/li\u003e\u003cli\u003e Split up the available width for the Payee and Account fields\n depending on which fields appear:\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003ea. If only the one field appears, then it shall be as wide as the\n total available width or the its requested width, whichever is\n smaller.\n\u003c/p\u003e\u003cp\u003eb. If both fields appear, then calculate the allocated width for\n each field. If either field's requested width is less than its\n allocated width, then that field is only as wide as its requested\n width. The other field is then as wide as (the sum of its allocated\n width and the leftover width from the other field) or its requested\n width, whichever is smaller. If neither field's requested width is\n less than its allocated width, then each field gets ts allocated\n width.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Fill cell contents; return filled cells.\n\u003c/li\u003e\u003c/ol\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "Allocated",
           "package": "penny-lib",
@@ -6238,6 +6739,7 @@
         "index": {
           "description": "Calculates the allocated cells the Payee cell and the Account cell Here is the logic for this process If neither Payee nor Account appears do nothing Obtain the width of the growing cells including the spacers One of the spacers attached to field might be omitted If the rightmost growing field is TotalQty include all spacers If the rightmost growing field is to the left of Payee include all spacers If the rightmost growing field is to the right of Account but is not TotalQty omit its spacer Obtain the width of the Payee and Account spacers Include each spacer if its corresponding field appears in the report Subtract from the total report width the width of the the growing cells and the width of the Payee and Account spacers This gives the total width available for the Payee and Account fields If there are not at least two columns available return without including the Payee and Account fields Determine the total width that the Payee and Account fields would obtain if they had all the space they could ever need This is the requested width Split up the available width for the Payee and Account fields depending on which fields appear If only the one field appears then it shall be as wide as the total available width or the its requested width whichever is smaller If both fields appear then calculate the allocated width for each field If either field requested width is less than its allocated width then that field is only as wide as its requested width The other field is then as wide as the sum of its allocated width and the leftover width from the other field or its requested width whichever is smaller If neither field requested width is less than its allocated width then each field gets ts allocated width Fill cell contents return filled cells",
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "Allocated",
           "package": "penny-lib",
@@ -6251,6 +6753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "Alloc",
           "package": "penny-lib",
@@ -6259,6 +6762,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "Alloc",
           "package": "penny-lib",
@@ -6273,6 +6777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the information needed for allocated cells.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "AllocatedOpts",
           "package": "penny-lib",
@@ -6282,6 +6787,7 @@
         "index": {
           "description": "All the information needed for allocated cells",
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "AllocatedOpts",
           "package": "penny-lib",
@@ -6295,6 +6801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "Fields",
           "package": "penny-lib",
@@ -6303,6 +6810,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "Fields",
           "package": "penny-lib",
@@ -6316,6 +6824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "SubAccountLength",
           "package": "penny-lib",
@@ -6324,6 +6833,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "SubAccountLength",
           "package": "penny-lib",
@@ -6337,6 +6847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "AllocatedOpts",
           "package": "penny-lib",
@@ -6346,6 +6857,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "AllocatedOpts",
           "package": "penny-lib",
@@ -6359,6 +6871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "Fields",
           "package": "penny-lib",
@@ -6368,6 +6881,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "Fields",
           "package": "penny-lib",
@@ -6404,6 +6918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "account",
           "package": "penny-lib",
@@ -6413,6 +6928,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "account",
           "package": "penny-lib",
@@ -6449,6 +6965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "allocations",
           "package": "penny-lib",
@@ -6458,6 +6975,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "allocations",
           "package": "penny-lib",
@@ -6470,6 +6988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "fields",
           "package": "penny-lib",
@@ -6479,6 +6998,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "fields",
           "package": "penny-lib",
@@ -6491,6 +7011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "growerWidths",
           "package": "penny-lib",
@@ -6500,6 +7021,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "growerWidths",
           "package": "penny-lib",
@@ -6513,6 +7035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "payee",
           "package": "penny-lib",
@@ -6522,6 +7045,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "payee",
           "package": "penny-lib",
@@ -6535,6 +7059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates Payee and Account cells. The user must have requested the\n cells. In addition, no cells are created if there is not enough\n space for them in the report. Returns a Fields; each element of the\n Fields is Nothing if no cells were created (either because the user\n did not ask for them, or because there was no room) or Just cs i,\n where cs is a list of all the cells, and i is the width of all the\n cells.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "payeeAndAcct",
           "package": "penny-lib",
@@ -6545,6 +7070,7 @@
         "index": {
           "description": "Creates Payee and Account cells The user must have requested the cells In addition no cells are created if there is not enough space for them in the report Returns Fields each element of the Fields is Nothing if no cells were created either because the user did not ask for them or because there was no room or Just cs where cs is list of all the cells and is the width of all the cells",
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "payeeAndAcct",
           "normalized": "Changers-\u003eAllocatedOpts-\u003e[(PostMeta,Posting)]-\u003eFields(Maybe([ColumnSpec],Int))",
@@ -6560,6 +7086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "reportWidth",
           "package": "penny-lib",
@@ -6569,6 +7096,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "reportWidth",
           "package": "penny-lib",
@@ -6582,6 +7110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "spacers",
           "package": "penny-lib",
@@ -6591,6 +7120,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "spacers",
           "package": "penny-lib",
@@ -6603,6 +7133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "subAccountLength",
           "package": "penny-lib",
@@ -6612,6 +7143,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "subAccountLength",
           "package": "penny-lib",
@@ -6625,6 +7157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "unAlloc",
           "package": "penny-lib",
@@ -6634,6 +7167,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Allocated",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Allocated",
           "name": "unAlloc",
           "normalized": "Alloc-\u003eInt",
@@ -6673,6 +7207,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFills the bottom rows, which contain the tags, memo, and\n filename. These rows are formatted as follows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If the columns for TotalDrCr, TotalCmdty, and TotalQty are all\n present, AND if there are at least TWO other columns present, then\n there will be a hanging indent. The bottom rows will begin at the\n SECOND column and end with the last column to the left of\n TotalDrCr. In this case, each bottom row will have three cells: one\n padding on the left, one main content, and one padding on the\n right.\n\u003c/li\u003e\u003cli\u003e Otherwise, if there are NO columns in the top row, these rows\n will take the entire width of the report. Each bottom row will have\n one cell.\n\u003c/li\u003e\u003cli\u003e Otherwise, the bottom rows are as wide as all the top cells\n combined. Each bottom row will have one cell.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "BottomRows",
           "package": "penny-lib",
@@ -6682,6 +7217,7 @@
         "index": {
           "description": "Fills the bottom rows which contain the tags memo and filename These rows are formatted as follows If the columns for TotalDrCr TotalCmdty and TotalQty are all present AND if there are at least TWO other columns present then there will be hanging indent The bottom rows will begin at the SECOND column and end with the last column to the left of TotalDrCr In this case each bottom row will have three cells one padding on the left one main content and one padding on the right Otherwise if there are NO columns in the top row these rows will take the entire width of the report Each bottom row will have one cell Otherwise the bottom rows are as wide as all the top cells combined Each bottom row will have one cell",
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "BottomRows",
           "package": "penny-lib",
@@ -6695,6 +7231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "BottomOpts",
           "package": "penny-lib",
@@ -6703,6 +7240,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "BottomOpts",
           "package": "penny-lib",
@@ -6716,6 +7254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "Fields",
           "package": "penny-lib",
@@ -6724,6 +7263,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "Fields",
           "package": "penny-lib",
@@ -6737,6 +7277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "TopRowCells",
           "package": "penny-lib",
@@ -6745,6 +7286,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "TopRowCells",
           "package": "penny-lib",
@@ -6758,6 +7300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "BottomOpts",
           "package": "penny-lib",
@@ -6767,6 +7310,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "BottomOpts",
           "package": "penny-lib",
@@ -6780,6 +7324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "Fields",
           "package": "penny-lib",
@@ -6789,6 +7334,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "Fields",
           "package": "penny-lib",
@@ -6802,6 +7348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "TopRowCells",
           "package": "penny-lib",
@@ -6811,6 +7358,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "TopRowCells",
           "package": "penny-lib",
@@ -6824,6 +7372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "account",
           "package": "penny-lib",
@@ -6833,6 +7382,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "account",
           "package": "penny-lib",
@@ -6845,6 +7395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "allocatedWidths",
           "package": "penny-lib",
@@ -6854,6 +7405,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "allocatedWidths",
           "package": "penny-lib",
@@ -6867,6 +7419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "bottomRows",
           "package": "penny-lib",
@@ -6876,6 +7429,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "bottomRows",
           "normalized": "Changers-\u003eBottomOpts-\u003e[(PostMeta,Posting)]-\u003eFields(Maybe[[Chunk]])",
@@ -6891,6 +7445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "date",
           "package": "penny-lib",
@@ -6900,6 +7455,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "date",
           "package": "penny-lib",
@@ -6912,6 +7468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "fields",
           "package": "penny-lib",
@@ -6921,6 +7478,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "fields",
           "package": "penny-lib",
@@ -6933,6 +7491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "filePosting",
           "package": "penny-lib",
@@ -6942,6 +7501,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "filePosting",
           "package": "penny-lib",
@@ -6955,6 +7515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "fileTransaction",
           "package": "penny-lib",
@@ -6964,6 +7525,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "fileTransaction",
           "package": "penny-lib",
@@ -6977,6 +7539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "filename",
           "package": "penny-lib",
@@ -6986,6 +7549,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "filename",
           "package": "penny-lib",
@@ -6998,6 +7562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "filtered",
           "package": "penny-lib",
@@ -7007,6 +7572,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "filtered",
           "package": "penny-lib",
@@ -7019,6 +7585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "flag",
           "package": "penny-lib",
@@ -7028,6 +7595,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "flag",
           "package": "penny-lib",
@@ -7040,6 +7608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "globalPosting",
           "package": "penny-lib",
@@ -7049,6 +7618,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "globalPosting",
           "package": "penny-lib",
@@ -7062,6 +7632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "globalTransaction",
           "package": "penny-lib",
@@ -7071,6 +7642,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "globalTransaction",
           "package": "penny-lib",
@@ -7084,6 +7656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "growingWidths",
           "package": "penny-lib",
@@ -7093,6 +7666,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "growingWidths",
           "package": "penny-lib",
@@ -7107,6 +7681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe line number from the posting's metadata\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "lineNum",
           "package": "penny-lib",
@@ -7117,6 +7692,7 @@
         "index": {
           "description": "The line number from the posting metadata",
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "lineNum",
           "package": "penny-lib",
@@ -7130,6 +7706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "memo",
           "package": "penny-lib",
@@ -7139,6 +7716,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "memo",
           "package": "penny-lib",
@@ -7152,6 +7730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges a TopRowCells with a Spacers. Returns Maybes because\n totalQty has no spacer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "mergeWithSpacers",
           "package": "penny-lib",
@@ -7162,6 +7741,7 @@
         "index": {
           "description": "Merges TopRowCells with Spacers Returns Maybes because totalQty has no spacer",
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "mergeWithSpacers",
           "normalized": "TopRowCells a-\u003eSpacers b-\u003eTopRowCells(a,Maybe b)",
@@ -7177,6 +7757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "number",
           "package": "penny-lib",
@@ -7186,6 +7767,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "number",
           "package": "penny-lib",
@@ -7198,6 +7780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "payee",
           "package": "penny-lib",
@@ -7207,6 +7790,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "payee",
           "package": "penny-lib",
@@ -7219,6 +7803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "postingCmdty",
           "package": "penny-lib",
@@ -7228,6 +7813,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "postingCmdty",
           "package": "penny-lib",
@@ -7241,6 +7827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "postingDrCr",
           "package": "penny-lib",
@@ -7250,6 +7837,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "postingDrCr",
           "package": "penny-lib",
@@ -7263,6 +7851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "postingQty",
           "package": "penny-lib",
@@ -7272,6 +7861,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "postingQty",
           "package": "penny-lib",
@@ -7285,6 +7875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "reportWidth",
           "package": "penny-lib",
@@ -7294,6 +7885,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "reportWidth",
           "package": "penny-lib",
@@ -7307,6 +7899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "revFilePosting",
           "package": "penny-lib",
@@ -7316,6 +7909,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "revFilePosting",
           "package": "penny-lib",
@@ -7329,6 +7923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "revFileTransaction",
           "package": "penny-lib",
@@ -7338,6 +7933,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "revFileTransaction",
           "package": "penny-lib",
@@ -7351,6 +7947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "revFiltered",
           "package": "penny-lib",
@@ -7360,6 +7957,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "revFiltered",
           "package": "penny-lib",
@@ -7373,6 +7971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "revGlobalPosting",
           "package": "penny-lib",
@@ -7382,6 +7981,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "revGlobalPosting",
           "package": "penny-lib",
@@ -7395,6 +7995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "revGlobalTransaction",
           "package": "penny-lib",
@@ -7404,6 +8005,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "revGlobalTransaction",
           "package": "penny-lib",
@@ -7417,6 +8019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "revSorted",
           "package": "penny-lib",
@@ -7426,6 +8029,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "revSorted",
           "package": "penny-lib",
@@ -7439,6 +8043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "revVisible",
           "package": "penny-lib",
@@ -7448,6 +8053,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "revVisible",
           "package": "penny-lib",
@@ -7461,6 +8067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "sorted",
           "package": "penny-lib",
@@ -7470,6 +8077,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "sorted",
           "package": "penny-lib",
@@ -7482,6 +8090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "spacers",
           "package": "penny-lib",
@@ -7491,6 +8100,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "spacers",
           "package": "penny-lib",
@@ -7503,6 +8113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "tags",
           "package": "penny-lib",
@@ -7512,6 +8123,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "tags",
           "package": "penny-lib",
@@ -7524,6 +8136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "topRowCells",
           "package": "penny-lib",
@@ -7533,6 +8146,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "topRowCells",
           "normalized": "Fields a-\u003eFields a-\u003eTopRowCells a",
@@ -7548,6 +8162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "totalCmdty",
           "package": "penny-lib",
@@ -7557,6 +8172,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "totalCmdty",
           "package": "penny-lib",
@@ -7570,6 +8186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "totalDrCr",
           "package": "penny-lib",
@@ -7579,6 +8196,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "totalDrCr",
           "package": "penny-lib",
@@ -7592,6 +8210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "totalQty",
           "package": "penny-lib",
@@ -7601,6 +8220,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "totalQty",
           "package": "penny-lib",
@@ -7614,6 +8234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "visible",
           "package": "penny-lib",
@@ -7623,6 +8244,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts BottomRows",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.BottomRows",
           "name": "visible",
           "package": "penny-lib",
@@ -7635,6 +8257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "Chunk",
           "package": "penny-lib",
@@ -7643,6 +8266,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Chunk",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "Chunk",
           "package": "penny-lib",
@@ -7656,6 +8280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "ChunkOpts",
           "package": "penny-lib",
@@ -7664,6 +8289,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Chunk",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "ChunkOpts",
           "package": "penny-lib",
@@ -7677,6 +8303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "ChunkOpts",
           "package": "penny-lib",
@@ -7686,6 +8313,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Chunk",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "ChunkOpts",
           "package": "penny-lib",
@@ -7699,6 +8327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "accountAllocation",
           "package": "penny-lib",
@@ -7708,6 +8337,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Chunk",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "accountAllocation",
           "package": "penny-lib",
@@ -7721,6 +8351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "dateFormat",
           "package": "penny-lib",
@@ -7730,6 +8361,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Chunk",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "dateFormat",
           "normalized": "(PostMeta,Posting)-\u003eText",
@@ -7745,6 +8377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "fields",
           "package": "penny-lib",
@@ -7754,6 +8387,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Chunk",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "fields",
           "package": "penny-lib",
@@ -7766,6 +8400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "makeChunk",
           "package": "penny-lib",
@@ -7775,6 +8410,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Chunk",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "makeChunk",
           "normalized": "Changers-\u003eChunkOpts-\u003e[(PostMeta,Posting)]-\u003e[Chunk]",
@@ -7790,6 +8426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "payeeAllocation",
           "package": "penny-lib",
@@ -7799,6 +8436,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Chunk",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "payeeAllocation",
           "package": "penny-lib",
@@ -7812,6 +8450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "qtyFormat",
           "package": "penny-lib",
@@ -7821,6 +8460,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Chunk",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "qtyFormat",
           "normalized": "Amount Qty-\u003eText",
@@ -7836,6 +8476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "reportWidth",
           "package": "penny-lib",
@@ -7845,6 +8486,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Chunk",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "reportWidth",
           "package": "penny-lib",
@@ -7858,6 +8500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "spacers",
           "package": "penny-lib",
@@ -7867,6 +8510,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Chunk",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "spacers",
           "package": "penny-lib",
@@ -7879,6 +8523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "subAccountLength",
           "package": "penny-lib",
@@ -7888,6 +8533,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Chunk",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Chunk",
           "name": "subAccountLength",
           "package": "penny-lib",
@@ -7902,6 +8548,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFields that can appear in the Posts report.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "Fields",
           "package": "penny-lib",
@@ -7911,6 +8558,7 @@
         "index": {
           "description": "Fields that can appear in the Posts report",
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "Fields",
           "package": "penny-lib",
@@ -7924,6 +8572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "Fields",
           "package": "penny-lib",
@@ -7932,6 +8581,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "Fields",
           "package": "penny-lib",
@@ -7945,6 +8595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "Fields",
           "package": "penny-lib",
@@ -7954,6 +8605,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "Fields",
           "package": "penny-lib",
@@ -7967,6 +8619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "account",
           "package": "penny-lib",
@@ -7976,6 +8629,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "account",
           "package": "penny-lib",
@@ -7988,6 +8642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "date",
           "package": "penny-lib",
@@ -7997,6 +8652,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "date",
           "package": "penny-lib",
@@ -8009,6 +8665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "fieldNames",
           "package": "penny-lib",
@@ -8018,6 +8675,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "fieldNames",
           "package": "penny-lib",
@@ -8031,6 +8689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "filePosting",
           "package": "penny-lib",
@@ -8040,6 +8699,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "filePosting",
           "package": "penny-lib",
@@ -8053,6 +8713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "fileTransaction",
           "package": "penny-lib",
@@ -8062,6 +8723,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "fileTransaction",
           "package": "penny-lib",
@@ -8075,6 +8737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "filename",
           "package": "penny-lib",
@@ -8084,6 +8747,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "filename",
           "package": "penny-lib",
@@ -8096,6 +8760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "filtered",
           "package": "penny-lib",
@@ -8105,6 +8770,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "filtered",
           "package": "penny-lib",
@@ -8117,6 +8783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "flag",
           "package": "penny-lib",
@@ -8126,6 +8793,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "flag",
           "package": "penny-lib",
@@ -8138,6 +8806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "globalPosting",
           "package": "penny-lib",
@@ -8147,6 +8816,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "globalPosting",
           "package": "penny-lib",
@@ -8160,6 +8830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "globalTransaction",
           "package": "penny-lib",
@@ -8169,6 +8840,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "globalTransaction",
           "package": "penny-lib",
@@ -8182,6 +8854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "lineNum",
           "package": "penny-lib",
@@ -8191,6 +8864,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "lineNum",
           "package": "penny-lib",
@@ -8204,6 +8878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "memo",
           "package": "penny-lib",
@@ -8213,6 +8888,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "memo",
           "package": "penny-lib",
@@ -8225,6 +8901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "number",
           "package": "penny-lib",
@@ -8234,6 +8911,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "number",
           "package": "penny-lib",
@@ -8246,6 +8924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "payee",
           "package": "penny-lib",
@@ -8255,6 +8934,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "payee",
           "package": "penny-lib",
@@ -8267,6 +8947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "postingCmdty",
           "package": "penny-lib",
@@ -8276,6 +8957,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "postingCmdty",
           "package": "penny-lib",
@@ -8289,6 +8971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "postingDrCr",
           "package": "penny-lib",
@@ -8298,6 +8981,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "postingDrCr",
           "package": "penny-lib",
@@ -8311,6 +8995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "postingQty",
           "package": "penny-lib",
@@ -8320,6 +9005,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "postingQty",
           "package": "penny-lib",
@@ -8333,6 +9019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "revFilePosting",
           "package": "penny-lib",
@@ -8342,6 +9029,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "revFilePosting",
           "package": "penny-lib",
@@ -8355,6 +9043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "revFileTransaction",
           "package": "penny-lib",
@@ -8364,6 +9053,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "revFileTransaction",
           "package": "penny-lib",
@@ -8377,6 +9067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "revFiltered",
           "package": "penny-lib",
@@ -8386,6 +9077,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "revFiltered",
           "package": "penny-lib",
@@ -8399,6 +9091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "revGlobalPosting",
           "package": "penny-lib",
@@ -8408,6 +9101,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "revGlobalPosting",
           "package": "penny-lib",
@@ -8421,6 +9115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "revGlobalTransaction",
           "package": "penny-lib",
@@ -8430,6 +9125,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "revGlobalTransaction",
           "package": "penny-lib",
@@ -8443,6 +9139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "revSorted",
           "package": "penny-lib",
@@ -8452,6 +9149,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "revSorted",
           "package": "penny-lib",
@@ -8465,6 +9163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "revVisible",
           "package": "penny-lib",
@@ -8474,6 +9173,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "revVisible",
           "package": "penny-lib",
@@ -8487,6 +9187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "sorted",
           "package": "penny-lib",
@@ -8496,6 +9197,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "sorted",
           "package": "penny-lib",
@@ -8508,6 +9210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "tags",
           "package": "penny-lib",
@@ -8517,6 +9220,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "tags",
           "package": "penny-lib",
@@ -8529,6 +9233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "totalCmdty",
           "package": "penny-lib",
@@ -8538,6 +9243,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "totalCmdty",
           "package": "penny-lib",
@@ -8551,6 +9257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "totalDrCr",
           "package": "penny-lib",
@@ -8560,6 +9267,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "totalDrCr",
           "package": "penny-lib",
@@ -8573,6 +9281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "totalQty",
           "package": "penny-lib",
@@ -8582,6 +9291,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "totalQty",
           "package": "penny-lib",
@@ -8595,6 +9305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "visible",
           "package": "penny-lib",
@@ -8604,6 +9315,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Fields",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Fields",
           "name": "visible",
           "package": "penny-lib",
@@ -8617,6 +9329,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCalculates cells that \u003ca\u003egrow to fit.\u003c/a\u003e These cells grow to fit the\n widest cell in the column. No information is ever truncated from\n these cells (what use is a truncated dollar amount?)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "Growers",
           "package": "penny-lib",
@@ -8626,6 +9339,7 @@
         "index": {
           "description": "Calculates cells that grow to fit These cells grow to fit the widest cell in the column No information is ever truncated from these cells what use is truncated dollar amount",
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "Growers",
           "package": "penny-lib",
@@ -8640,6 +9354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll growing fields, as an ADT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EFields",
           "package": "penny-lib",
@@ -8649,6 +9364,7 @@
         "index": {
           "description": "All growing fields as an ADT",
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EFields",
           "package": "penny-lib",
@@ -8663,6 +9379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll growing fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "Fields",
           "package": "penny-lib",
@@ -8672,6 +9389,7 @@
         "index": {
           "description": "All growing fields",
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "Fields",
           "package": "penny-lib",
@@ -8686,6 +9404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the options needed to grow the cells.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "GrowOpts",
           "package": "penny-lib",
@@ -8695,6 +9414,7 @@
         "index": {
           "description": "All the options needed to grow the cells",
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "GrowOpts",
           "package": "penny-lib",
@@ -8708,6 +9428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EDate",
           "package": "penny-lib",
@@ -8717,6 +9438,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EDate",
           "package": "penny-lib",
@@ -8730,6 +9452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EFilePosting",
           "package": "penny-lib",
@@ -8739,6 +9462,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EFilePosting",
           "package": "penny-lib",
@@ -8752,6 +9476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EFileTransaction",
           "package": "penny-lib",
@@ -8761,6 +9486,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EFileTransaction",
           "package": "penny-lib",
@@ -8774,6 +9500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EFiltered",
           "package": "penny-lib",
@@ -8783,6 +9510,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EFiltered",
           "package": "penny-lib",
@@ -8796,6 +9524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EFlag",
           "package": "penny-lib",
@@ -8805,6 +9534,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EFlag",
           "package": "penny-lib",
@@ -8818,6 +9548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EGlobalPosting",
           "package": "penny-lib",
@@ -8827,6 +9558,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EGlobalPosting",
           "package": "penny-lib",
@@ -8840,6 +9572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EGlobalTransaction",
           "package": "penny-lib",
@@ -8849,6 +9582,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EGlobalTransaction",
           "package": "penny-lib",
@@ -8862,6 +9596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ELineNum",
           "package": "penny-lib",
@@ -8871,6 +9606,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ELineNum",
           "package": "penny-lib",
@@ -8884,6 +9620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ENumber",
           "package": "penny-lib",
@@ -8893,6 +9630,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ENumber",
           "package": "penny-lib",
@@ -8906,6 +9644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EPostingCmdty",
           "package": "penny-lib",
@@ -8915,6 +9654,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EPostingCmdty",
           "package": "penny-lib",
@@ -8928,6 +9668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EPostingDrCr",
           "package": "penny-lib",
@@ -8937,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EPostingDrCr",
           "package": "penny-lib",
@@ -8950,6 +9692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EPostingQty",
           "package": "penny-lib",
@@ -8959,6 +9702,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EPostingQty",
           "package": "penny-lib",
@@ -8972,6 +9716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ERevFilePosting",
           "package": "penny-lib",
@@ -8981,6 +9726,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ERevFilePosting",
           "package": "penny-lib",
@@ -8994,6 +9740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ERevFileTransaction",
           "package": "penny-lib",
@@ -9003,6 +9750,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ERevFileTransaction",
           "package": "penny-lib",
@@ -9016,6 +9764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ERevFiltered",
           "package": "penny-lib",
@@ -9025,6 +9774,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ERevFiltered",
           "package": "penny-lib",
@@ -9038,6 +9788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ERevGlobalPosting",
           "package": "penny-lib",
@@ -9047,6 +9798,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ERevGlobalPosting",
           "package": "penny-lib",
@@ -9060,6 +9812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ERevGlobalTransaction",
           "package": "penny-lib",
@@ -9069,6 +9822,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ERevGlobalTransaction",
           "package": "penny-lib",
@@ -9082,6 +9836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ERevSorted",
           "package": "penny-lib",
@@ -9091,6 +9846,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ERevSorted",
           "package": "penny-lib",
@@ -9104,6 +9860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ERevVisible",
           "package": "penny-lib",
@@ -9113,6 +9870,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ERevVisible",
           "package": "penny-lib",
@@ -9126,6 +9884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ESorted",
           "package": "penny-lib",
@@ -9135,6 +9894,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ESorted",
           "package": "penny-lib",
@@ -9148,6 +9908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ETotalCmdty",
           "package": "penny-lib",
@@ -9157,6 +9918,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ETotalCmdty",
           "package": "penny-lib",
@@ -9170,6 +9932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ETotalDrCr",
           "package": "penny-lib",
@@ -9179,6 +9942,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ETotalDrCr",
           "package": "penny-lib",
@@ -9192,6 +9956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ETotalQty",
           "package": "penny-lib",
@@ -9201,6 +9966,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "ETotalQty",
           "package": "penny-lib",
@@ -9214,6 +9980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EVisible",
           "package": "penny-lib",
@@ -9223,6 +9990,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "EVisible",
           "package": "penny-lib",
@@ -9236,6 +10004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "Fields",
           "package": "penny-lib",
@@ -9245,6 +10014,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "Fields",
           "package": "penny-lib",
@@ -9258,6 +10028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "GrowOpts",
           "package": "penny-lib",
@@ -9267,6 +10038,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "GrowOpts",
           "package": "penny-lib",
@@ -9280,6 +10052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "date",
           "package": "penny-lib",
@@ -9289,6 +10062,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "date",
           "package": "penny-lib",
@@ -9301,6 +10075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "dateFormat",
           "package": "penny-lib",
@@ -9310,6 +10085,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "dateFormat",
           "normalized": "(PostMeta,Posting)-\u003eText",
@@ -9326,6 +10102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a Fields where each record has its corresponding EField.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "eFields",
           "package": "penny-lib",
@@ -9336,6 +10113,7 @@
         "index": {
           "description": "Returns Fields where each record has its corresponding EField",
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "eFields",
           "package": "penny-lib",
@@ -9349,6 +10127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "fields",
           "package": "penny-lib",
@@ -9358,6 +10137,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "fields",
           "package": "penny-lib",
@@ -9370,6 +10150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "filePosting",
           "package": "penny-lib",
@@ -9379,6 +10160,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "filePosting",
           "package": "penny-lib",
@@ -9392,6 +10174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "fileTransaction",
           "package": "penny-lib",
@@ -9401,6 +10184,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "fileTransaction",
           "package": "penny-lib",
@@ -9414,6 +10198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "filtered",
           "package": "penny-lib",
@@ -9423,6 +10208,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "filtered",
           "package": "penny-lib",
@@ -9435,6 +10221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "flag",
           "package": "penny-lib",
@@ -9444,6 +10231,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "flag",
           "package": "penny-lib",
@@ -9456,6 +10244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "globalPosting",
           "package": "penny-lib",
@@ -9465,6 +10254,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "globalPosting",
           "package": "penny-lib",
@@ -9478,6 +10268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "globalTransaction",
           "package": "penny-lib",
@@ -9487,6 +10278,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "globalTransaction",
           "package": "penny-lib",
@@ -9501,6 +10293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrows the cells that will be GrowToFit cells in the report. First\n this function fills in all visible cells with text, but leaves the\n width undetermined. Then it determines the widest line in each\n column. Finally it adjusts each cell in the column so that it is\n that maximum width.\n\u003c/p\u003e\u003cp\u003eReturns a list of rows, and a Fields holding the width of each\n cell. Each of these widths will be at least 1; fields that were in\n the report but that ended up having no width are changed to\n Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "growCells",
           "package": "penny-lib",
@@ -9511,6 +10304,7 @@
         "index": {
           "description": "Grows the cells that will be GrowToFit cells in the report First this function fills in all visible cells with text but leaves the width undetermined Then it determines the widest line in each column Finally it adjusts each cell in the column so that it is that maximum width Returns list of rows and Fields holding the width of each cell Each of these widths will be at least fields that were in the report but that ended up having no width are changed to Nothing",
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "growCells",
           "normalized": "Changers-\u003eGrowOpts-\u003e[(PostMeta,Posting)]-\u003eFields(Maybe([ColumnSpec],Int))",
@@ -9527,6 +10321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the width of all Grown cells, including any applicable\n spacer cells.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "grownWidth",
           "package": "penny-lib",
@@ -9537,6 +10332,7 @@
         "index": {
           "description": "Compute the width of all Grown cells including any applicable spacer cells",
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "grownWidth",
           "normalized": "Fields(Maybe Int)-\u003eSpacers Int-\u003eInt",
@@ -9553,6 +10349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe line number from the posting's metadata\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "lineNum",
           "package": "penny-lib",
@@ -9563,6 +10360,7 @@
         "index": {
           "description": "The line number from the posting metadata",
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "lineNum",
           "package": "penny-lib",
@@ -9576,6 +10374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "number",
           "package": "penny-lib",
@@ -9585,6 +10384,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "number",
           "package": "penny-lib",
@@ -9598,6 +10398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePairs data from a Fields with its matching spacer field. The\n spacer field is returned in a Maybe because the TotalQty field does\n not have a spacer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "pairWithSpacer",
           "package": "penny-lib",
@@ -9608,6 +10409,7 @@
         "index": {
           "description": "Pairs data from Fields with its matching spacer field The spacer field is returned in Maybe because the TotalQty field does not have spacer",
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "pairWithSpacer",
           "normalized": "Fields a-\u003eSpacers b-\u003eFields(a,Maybe b)",
@@ -9623,6 +10425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "postingCmdty",
           "package": "penny-lib",
@@ -9632,6 +10435,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "postingCmdty",
           "package": "penny-lib",
@@ -9645,6 +10449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "postingDrCr",
           "package": "penny-lib",
@@ -9654,6 +10459,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "postingDrCr",
           "package": "penny-lib",
@@ -9667,6 +10473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "postingQty",
           "package": "penny-lib",
@@ -9676,6 +10483,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "postingQty",
           "package": "penny-lib",
@@ -9689,6 +10497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "qtyFormat",
           "package": "penny-lib",
@@ -9698,6 +10507,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "qtyFormat",
           "normalized": "Amount Qty-\u003eText",
@@ -9713,6 +10523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "revFilePosting",
           "package": "penny-lib",
@@ -9722,6 +10533,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "revFilePosting",
           "package": "penny-lib",
@@ -9735,6 +10547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "revFileTransaction",
           "package": "penny-lib",
@@ -9744,6 +10557,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "revFileTransaction",
           "package": "penny-lib",
@@ -9757,6 +10571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "revFiltered",
           "package": "penny-lib",
@@ -9766,6 +10581,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "revFiltered",
           "package": "penny-lib",
@@ -9779,6 +10595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "revGlobalPosting",
           "package": "penny-lib",
@@ -9788,6 +10605,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "revGlobalPosting",
           "package": "penny-lib",
@@ -9801,6 +10619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "revGlobalTransaction",
           "package": "penny-lib",
@@ -9810,6 +10629,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "revGlobalTransaction",
           "package": "penny-lib",
@@ -9823,6 +10643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "revSorted",
           "package": "penny-lib",
@@ -9832,6 +10653,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "revSorted",
           "package": "penny-lib",
@@ -9845,6 +10667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "revVisible",
           "package": "penny-lib",
@@ -9854,6 +10677,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "revVisible",
           "package": "penny-lib",
@@ -9867,6 +10691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "sorted",
           "package": "penny-lib",
@@ -9876,6 +10701,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "sorted",
           "package": "penny-lib",
@@ -9888,6 +10714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "totalCmdty",
           "package": "penny-lib",
@@ -9897,6 +10724,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "totalCmdty",
           "package": "penny-lib",
@@ -9910,6 +10738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "totalDrCr",
           "package": "penny-lib",
@@ -9919,6 +10748,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "totalDrCr",
           "package": "penny-lib",
@@ -9932,6 +10762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "totalQty",
           "package": "penny-lib",
@@ -9941,6 +10772,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "totalQty",
           "package": "penny-lib",
@@ -9954,6 +10786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "visible",
           "package": "penny-lib",
@@ -9963,6 +10796,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Growers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Growers",
           "name": "visible",
           "package": "penny-lib",
@@ -9975,6 +10809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Meta",
           "name": "Meta",
           "package": "penny-lib",
@@ -9983,6 +10818,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Meta",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Meta",
           "name": "Meta",
           "package": "penny-lib",
@@ -9996,6 +10832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Meta",
           "name": "PostMeta",
           "package": "penny-lib",
@@ -10004,6 +10841,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Meta",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Meta",
           "name": "PostMeta",
           "package": "penny-lib",
@@ -10018,6 +10856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach row that is visible on screen is assigned a VisibleNum. This\n is used to number the rows in the report for the user's benefit. It\n is also used to determine whether the row is even or odd for the\n purpose of assigning the background color (this way the background\n colors can alternate, like a checkbook register.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Meta",
           "name": "VisibleNum",
           "package": "penny-lib",
@@ -10027,6 +10866,7 @@
         "index": {
           "description": "Each row that is visible on screen is assigned VisibleNum This is used to number the rows in the report for the user benefit It is also used to determine whether the row is even or odd for the purpose of assigning the background color this way the background colors can alternate like checkbook register",
           "hierarchy": "Penny Cabin Posts Meta",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Meta",
           "name": "VisibleNum",
           "package": "penny-lib",
@@ -10041,6 +10881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds appropriate metadata, including the running balance, to a\n list of Box. Because all posts are incorporated into the running\n balance, first calculates the running balance for all posts. Then,\n removes posts we're not interested in by applying the predicate and\n the post-filter. Finally, adds on the metadata, which will include\n the VisibleNum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Meta",
           "name": "toBoxList",
           "package": "penny-lib",
@@ -10050,6 +10891,7 @@
         "index": {
           "description": "Adds appropriate metadata including the running balance to list of Box Because all posts are incorporated into the running balance first calculates the running balance for all posts Then removes posts we re not interested in by applying the predicate and the post-filter Finally adds on the metadata which will include the VisibleNum",
           "hierarchy": "Penny Cabin Posts Meta",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Meta",
           "name": "toBoxList",
           "normalized": "ShowZeroBalances-\u003ePdct(LibertyMeta,Posting)-\u003e[PostFilterFn]-\u003e[(LibertyMeta,Posting)]-\u003e[(PostMeta,Posting)]",
@@ -10065,6 +10907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "Parser",
           "package": "penny-lib",
@@ -10073,6 +10916,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "Parser",
           "package": "penny-lib",
@@ -10086,6 +10930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "Error",
           "package": "penny-lib",
@@ -10094,6 +10939,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "Error",
           "package": "penny-lib",
@@ -10107,6 +10953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "ShowExpression",
           "package": "penny-lib",
@@ -10115,6 +10962,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "ShowExpression",
           "package": "penny-lib",
@@ -10128,6 +10976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "State",
           "package": "penny-lib",
@@ -10136,6 +10985,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "State",
           "package": "penny-lib",
@@ -10149,6 +10999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "VerboseFilter",
           "package": "penny-lib",
@@ -10157,6 +11008,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "VerboseFilter",
           "package": "penny-lib",
@@ -10170,6 +11022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "ShowExpression",
           "package": "penny-lib",
@@ -10179,6 +11032,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "ShowExpression",
           "package": "penny-lib",
@@ -10192,6 +11046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "State",
           "package": "penny-lib",
@@ -10201,6 +11056,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "State",
           "package": "penny-lib",
@@ -10214,6 +11070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "VerboseFilter",
           "package": "penny-lib",
@@ -10223,6 +11080,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "VerboseFilter",
           "package": "penny-lib",
@@ -10236,6 +11094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "allSpecs",
           "package": "penny-lib",
@@ -10245,6 +11104,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "allSpecs",
           "normalized": "Runtime-\u003e[OptSpec(State-\u003eExceptional Error State)]",
@@ -10260,6 +11120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "exprDesc",
           "package": "penny-lib",
@@ -10269,6 +11130,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "exprDesc",
           "package": "penny-lib",
@@ -10282,6 +11144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "factory",
           "package": "penny-lib",
@@ -10291,6 +11154,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "factory",
           "package": "penny-lib",
@@ -10303,6 +11167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "fields",
           "package": "penny-lib",
@@ -10312,6 +11177,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "fields",
           "package": "penny-lib",
@@ -10324,6 +11190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "postFilter",
           "package": "penny-lib",
@@ -10333,6 +11200,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "postFilter",
           "normalized": "[PostFilterFn]",
@@ -10348,6 +11216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "sensitive",
           "package": "penny-lib",
@@ -10357,6 +11226,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "sensitive",
           "package": "penny-lib",
@@ -10369,6 +11239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "showExpression",
           "package": "penny-lib",
@@ -10378,6 +11249,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "showExpression",
           "package": "penny-lib",
@@ -10391,6 +11263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "showZeroBalances",
           "package": "penny-lib",
@@ -10400,6 +11273,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "showZeroBalances",
           "package": "penny-lib",
@@ -10413,6 +11287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "tokens",
           "package": "penny-lib",
@@ -10422,6 +11297,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "tokens",
           "normalized": "[Token(LibertyMeta,Posting)]",
@@ -10436,6 +11312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "unShowExpression",
           "package": "penny-lib",
@@ -10445,6 +11322,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "unShowExpression",
           "package": "penny-lib",
@@ -10458,6 +11336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "unVerboseFilter",
           "package": "penny-lib",
@@ -10467,6 +11346,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "unVerboseFilter",
           "package": "penny-lib",
@@ -10480,6 +11360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "verboseFilter",
           "package": "penny-lib",
@@ -10489,6 +11370,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "verboseFilter",
           "package": "penny-lib",
@@ -10502,6 +11384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "width",
           "package": "penny-lib",
@@ -10511,6 +11394,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Parser",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Parser",
           "name": "width",
           "package": "penny-lib",
@@ -10524,6 +11408,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSpacer fields in the report. They don't contain any data; they\n just provide whitespace. Each spacer immediately follows the named\n field.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "Spacers",
           "package": "penny-lib",
@@ -10533,6 +11418,7 @@
         "index": {
           "description": "Spacer fields in the report They don contain any data they just provide whitespace Each spacer immediately follows the named field",
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "Spacers",
           "package": "penny-lib",
@@ -10546,6 +11432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "Spacers",
           "package": "penny-lib",
@@ -10554,6 +11441,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "Spacers",
           "package": "penny-lib",
@@ -10567,6 +11455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "Spacers",
           "package": "penny-lib",
@@ -10576,6 +11465,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "Spacers",
           "package": "penny-lib",
@@ -10589,6 +11479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "account",
           "package": "penny-lib",
@@ -10598,6 +11489,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "account",
           "package": "penny-lib",
@@ -10610,6 +11502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "date",
           "package": "penny-lib",
@@ -10619,6 +11512,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "date",
           "package": "penny-lib",
@@ -10631,6 +11525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "filePosting",
           "package": "penny-lib",
@@ -10640,6 +11535,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "filePosting",
           "package": "penny-lib",
@@ -10653,6 +11549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "fileTransaction",
           "package": "penny-lib",
@@ -10662,6 +11559,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "fileTransaction",
           "package": "penny-lib",
@@ -10675,6 +11573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "filtered",
           "package": "penny-lib",
@@ -10684,6 +11583,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "filtered",
           "package": "penny-lib",
@@ -10696,6 +11596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "flag",
           "package": "penny-lib",
@@ -10705,6 +11606,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "flag",
           "package": "penny-lib",
@@ -10717,6 +11619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "globalPosting",
           "package": "penny-lib",
@@ -10726,6 +11629,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "globalPosting",
           "package": "penny-lib",
@@ -10739,6 +11643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "globalTransaction",
           "package": "penny-lib",
@@ -10748,6 +11653,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "globalTransaction",
           "package": "penny-lib",
@@ -10761,6 +11667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "lineNum",
           "package": "penny-lib",
@@ -10770,6 +11677,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "lineNum",
           "package": "penny-lib",
@@ -10783,6 +11691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "number",
           "package": "penny-lib",
@@ -10792,6 +11701,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "number",
           "package": "penny-lib",
@@ -10804,6 +11714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "payee",
           "package": "penny-lib",
@@ -10813,6 +11724,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "payee",
           "package": "penny-lib",
@@ -10825,6 +11737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "postingCmdty",
           "package": "penny-lib",
@@ -10834,6 +11747,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "postingCmdty",
           "package": "penny-lib",
@@ -10847,6 +11761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "postingDrCr",
           "package": "penny-lib",
@@ -10856,6 +11771,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "postingDrCr",
           "package": "penny-lib",
@@ -10869,6 +11785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "postingQty",
           "package": "penny-lib",
@@ -10878,6 +11795,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "postingQty",
           "package": "penny-lib",
@@ -10891,6 +11809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "revFilePosting",
           "package": "penny-lib",
@@ -10900,6 +11819,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "revFilePosting",
           "package": "penny-lib",
@@ -10913,6 +11833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "revFileTransaction",
           "package": "penny-lib",
@@ -10922,6 +11843,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "revFileTransaction",
           "package": "penny-lib",
@@ -10935,6 +11857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "revFiltered",
           "package": "penny-lib",
@@ -10944,6 +11867,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "revFiltered",
           "package": "penny-lib",
@@ -10957,6 +11881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "revGlobalPosting",
           "package": "penny-lib",
@@ -10966,6 +11891,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "revGlobalPosting",
           "package": "penny-lib",
@@ -10979,6 +11905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "revGlobalTransaction",
           "package": "penny-lib",
@@ -10988,6 +11915,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "revGlobalTransaction",
           "package": "penny-lib",
@@ -11001,6 +11929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "revSorted",
           "package": "penny-lib",
@@ -11010,6 +11939,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "revSorted",
           "package": "penny-lib",
@@ -11023,6 +11953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "revVisible",
           "package": "penny-lib",
@@ -11032,6 +11963,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "revVisible",
           "package": "penny-lib",
@@ -11045,6 +11977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "sorted",
           "package": "penny-lib",
@@ -11054,6 +11987,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "sorted",
           "package": "penny-lib",
@@ -11066,6 +12000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "totalCmdty",
           "package": "penny-lib",
@@ -11075,6 +12010,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "totalCmdty",
           "package": "penny-lib",
@@ -11088,6 +12024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "totalDrCr",
           "package": "penny-lib",
@@ -11097,6 +12034,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "totalDrCr",
           "package": "penny-lib",
@@ -11110,6 +12048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "visible",
           "package": "penny-lib",
@@ -11119,6 +12058,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Spacers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Spacers",
           "name": "visible",
           "package": "penny-lib",
@@ -11131,6 +12071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Types",
           "name": "Types",
           "package": "penny-lib",
@@ -11139,6 +12080,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Types",
           "name": "Types",
           "package": "penny-lib",
@@ -11152,6 +12094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts.Types",
           "name": "ReportWidth",
           "package": "penny-lib",
@@ -11160,6 +12103,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts Types",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts.Types",
           "name": "ReportWidth",
           "package": "penny-lib",
@@ -11220,6 +12164,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Penny Postings report\n\u003c/p\u003e\u003cp\u003eThe Postings report displays postings in a tabular format designed\n to be read by humans. Some terminology used in the Postings report:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003erow\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e The smallest unit that spans from left to right. A row,\n however, might consist of more than one screen line. For example,\n the running balance is shown on the far right side of the Postings\n report. The running balance might consist of more than one\n commodity. Each commodity is displayed on its own screen\n line. However, all these lines put together are displayed in a\n single row.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003ecolumn\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e The smallest unit that spans from top to bottom.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003etranche\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Each posting is displayed in several rows. The group of\n rows that is displayed for a single posting is called a tranche.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003etranche row\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Each tranche has a particular number of rows\n (currently four); each of these rows is known as a tranche row.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003efield\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Corresponds to a particular element of the posting, such\n as whether it is a debit or credit or its payee. The user can\n select which fields to see.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eallocation\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e The width of the Payee and Account fields is\n variable. Generally their width will adjust to fill the entire\n width of the screen. The allocations of the Payee and Account\n fields determine how much of the remaining space each field will\n receive.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe Postings report is easily customized from the command line to\n show various fields. However, the order of the fields is not\n configurable without editing the source code (sorry).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "Posts",
           "package": "penny-lib",
@@ -11229,6 +12174,7 @@
         "index": {
           "description": "The Penny Postings report The Postings report displays postings in tabular format designed to be read by humans Some terminology used in the Postings report row The smallest unit that spans from left to right row however might consist of more than one screen line For example the running balance is shown on the far right side of the Postings report The running balance might consist of more than one commodity Each commodity is displayed on its own screen line However all these lines put together are displayed in single row column The smallest unit that spans from top to bottom tranche Each posting is displayed in several rows The group of rows that is displayed for single posting is called tranche tranche row Each tranche has particular number of rows currently four each of these rows is known as tranche row field Corresponds to particular element of the posting such as whether it is debit or credit or its payee The user can select which fields to see allocation The width of the Payee and Account fields is variable Generally their width will adjust to fill the entire width of the screen The allocations of the Payee and Account fields determine how much of the remaining space each field will receive The Postings report is easily customized from the command line to show various fields However the order of the fields is not configurable without editing the source code sorry",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "Posts",
           "package": "penny-lib",
@@ -11242,6 +12188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "Alloc",
           "package": "penny-lib",
@@ -11250,6 +12197,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "Alloc",
           "package": "penny-lib",
@@ -11263,6 +12211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "ReportWidth",
           "package": "penny-lib",
@@ -11271,6 +12220,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "ReportWidth",
           "package": "penny-lib",
@@ -11284,6 +12234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "SubAccountLength",
           "package": "penny-lib",
@@ -11292,6 +12243,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "SubAccountLength",
           "package": "penny-lib",
@@ -11306,6 +12258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the information to configure the postings report if the\n options will be parsed in from the command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "ZincOpts",
           "package": "penny-lib",
@@ -11315,6 +12268,7 @@
         "index": {
           "description": "All the information to configure the postings report if the options will be parsed in from the command line",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "ZincOpts",
           "package": "penny-lib",
@@ -11328,6 +12282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "ZincOpts",
           "package": "penny-lib",
@@ -11337,6 +12292,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "ZincOpts",
           "package": "penny-lib",
@@ -11351,6 +12307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee payeeAllocation above\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "accountAllocation",
           "package": "penny-lib",
@@ -11361,6 +12318,7 @@
         "index": {
           "description": "See payeeAllocation above",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "accountAllocation",
           "package": "penny-lib",
@@ -11375,6 +12333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplied to the value of the COLUMNS environment variable, returns\n an appropriate ReportWidth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "columnsVarToWidth",
           "package": "penny-lib",
@@ -11385,6 +12344,7 @@
         "index": {
           "description": "Applied to the value of the COLUMNS environment variable returns an appropriate ReportWidth",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "columnsVarToWidth",
           "normalized": "Maybe String-\u003eReportWidth",
@@ -11401,6 +12361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to display dates. This function is applied to the\n a PostingInfo so it has lots of information, but it\n should return a date for use in the Date field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "dateFormat",
           "package": "penny-lib",
@@ -11411,6 +12372,7 @@
         "index": {
           "description": "How to display dates This function is applied to the PostingInfo so it has lots of information but it should return date for use in the Date field",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "dateFormat",
           "normalized": "(PostMeta,Posting)-\u003eText",
@@ -11427,6 +12389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault fields to show in the Postings report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "defaultFields",
           "package": "penny-lib",
@@ -11437,6 +12400,7 @@
         "index": {
           "description": "Default fields to show in the Postings report",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "defaultFields",
           "package": "penny-lib",
@@ -11450,6 +12414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "defaultOptions",
           "package": "penny-lib",
@@ -11459,6 +12424,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "defaultOptions",
           "normalized": "Runtime-\u003eZincOpts",
@@ -11475,6 +12441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault width of spacers; most are one character wide, but the\n spacer after payee is 4 characters wide.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "defaultSpacerWidth",
           "package": "penny-lib",
@@ -11485,6 +12452,7 @@
         "index": {
           "description": "Default width of spacers most are one character wide but the spacer after payee is characters wide",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "defaultSpacerWidth",
           "package": "penny-lib",
@@ -11499,6 +12467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default width for the report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "defaultWidth",
           "package": "penny-lib",
@@ -11509,6 +12478,7 @@
         "index": {
           "description": "The default width for the report",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "defaultWidth",
           "package": "penny-lib",
@@ -11523,6 +12493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault fields to show in the report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "fields",
           "package": "penny-lib",
@@ -11533,6 +12504,7 @@
         "index": {
           "description": "Default fields to show in the report",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "fields",
           "package": "penny-lib",
@@ -11546,6 +12518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis and accountAllocation determine how much space\n payees and accounts receive. They divide up the\n remaining space after everything else is displayed. For\n instance if payeeAllocation is 60 and accountAllocation\n is 40, the payee takes about 60 percent of the\n remaining space and the account takes about 40 percent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "payeeAllocation",
           "package": "penny-lib",
@@ -11556,6 +12529,7 @@
         "index": {
           "description": "This and accountAllocation determine how much space payees and accounts receive They divide up the remaining space after everything else is displayed For instance if payeeAllocation is and accountAllocation is the payee takes about percent of the remaining space and the account takes about percent",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "payeeAllocation",
           "package": "penny-lib",
@@ -11570,6 +12544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll information needed to make a Posts report. This function\n never fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "postsReport",
           "package": "penny-lib",
@@ -11579,6 +12554,7 @@
         "index": {
           "description": "All information needed to make Posts report This function never fails",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "postsReport",
           "normalized": "Changers-\u003eShowZeroBalances-\u003ePdct(LibertyMeta,Posting)-\u003e[PostFilterFn]-\u003eChunkOpts-\u003e[(LibertyMeta,Posting)]-\u003e[Chunk]",
@@ -11595,6 +12571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre commodities that have no balance shown in the Total fields\n of the report?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "showZeroBalances",
           "package": "penny-lib",
@@ -11605,6 +12582,7 @@
         "index": {
           "description": "Are commodities that have no balance shown in the Total fields of the report",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "showZeroBalances",
           "package": "penny-lib",
@@ -11619,6 +12597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault width for spacer fields. If any of these Ints are\n less than or equal to zero, there will be no spacer. There is\n never a spacer for fields that do not appear in the report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "spacers",
           "package": "penny-lib",
@@ -11629,6 +12608,7 @@
         "index": {
           "description": "Default width for spacer fields If any of these Ints are less than or equal to zero there will be no spacer There is never spacer for fields that do not appear in the report",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "spacers",
           "package": "penny-lib",
@@ -11642,6 +12622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen shortening the names of sub accounts to make\n them fit, they will be this long.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "subAccountLength",
           "package": "penny-lib",
@@ -11652,6 +12633,7 @@
         "index": {
           "description": "When shortening the names of sub accounts to make them fit they will be this long",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "subAccountLength",
           "package": "penny-lib",
@@ -11666,6 +12648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives the default report width. This can be\n overridden on the command line. You can use the\n information from the Runtime to make this as wide as\n the current terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "width",
           "package": "penny-lib",
@@ -11676,6 +12659,7 @@
         "index": {
           "description": "Gives the default report width This can be overridden on the command line You can use the information from the Runtime to make this as wide as the current terminal",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "width",
           "package": "penny-lib",
@@ -11689,6 +12673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the Runtime, use the defaultWidth given above to calculate\n the report's width if COLUMNS does not yield a value. Otherwise,\n use what is in COLUMNS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "widthFromRuntime",
           "package": "penny-lib",
@@ -11699,6 +12684,7 @@
         "index": {
           "description": "Given the Runtime use the defaultWidth given above to calculate the report width if COLUMNS does not yield value Otherwise use what is in COLUMNS",
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "widthFromRuntime",
           "normalized": "Runtime-\u003eReportWidth",
@@ -11741,6 +12727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Posts",
           "name": "zincReport",
           "package": "penny-lib",
@@ -11750,6 +12737,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Posts",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Posts",
           "name": "zincReport",
           "normalized": "ZincOpts-\u003eReport",
@@ -11766,6 +12754,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisplays a single on-screen row. A row may contain multiple\n screen lines and multiple columns.\n\u003c/p\u003e\u003cp\u003eThis module only deals with a single row at a time. Each cell in\n the row can have more than one screen line; this module will make\n sure that the cells have appropriate padding on the bottom so that\n the row appears nicely. This module will also justify each cell so\n that its left side or right side is ragged; however, you first have\n to specify how wide you want the cell to be.\n\u003c/p\u003e\u003cp\u003eThis module is a little dumber than you might first think it could\n be. For instance it would be possible to write a function that\n takes a number of rows and automatically justifies all the cells by\n finding the widest cell in a column. Indeed I might eventually\n write such a function because it might be useful in, for example,\n the multi-commodity balance report. However, such a function would\n not be useful in all cases; in particular, the Posts report is very\n complicated to lay out, and the automatic function described above\n would not do the right thing.\n\u003c/p\u003e\u003cp\u003eSo this module offers some useful automation, even if it is at a\n level that is apparently lower that what is possible. Thus the\n present \u003ccode\u003e\u003ca\u003erow\u003c/a\u003e\u003c/code\u003e function likely will not change, even if eventually I\n add a \u003ccode\u003etable\u003c/code\u003e function that automatically justifies many rows.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Row",
           "name": "Row",
           "package": "penny-lib",
@@ -11775,6 +12764,7 @@
         "index": {
           "description": "Displays single on-screen row row may contain multiple screen lines and multiple columns This module only deals with single row at time Each cell in the row can have more than one screen line this module will make sure that the cells have appropriate padding on the bottom so that the row appears nicely This module will also justify each cell so that its left side or right side is ragged however you first have to specify how wide you want the cell to be This module is little dumber than you might first think it could be For instance it would be possible to write function that takes number of rows and automatically justifies all the cells by finding the widest cell in column Indeed might eventually write such function because it might be useful in for example the multi-commodity balance report However such function would not be useful in all cases in particular the Posts report is very complicated to lay out and the automatic function described above would not do the right thing So this module offers some useful automation even if it is at level that is apparently lower that what is possible Thus the present row function likely will not change even if eventually add table function that automatically justifies many rows",
           "hierarchy": "Penny Cabin Row",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Row",
           "name": "Row",
           "package": "penny-lib",
@@ -11789,6 +12779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cell of text output. You tell the cell how to justify itself\n and how wide it is. You also tell it the background colors to\n use. The cell will be appropriately justified (that is, text\n aligned between left and right margins) and padded (with lines of\n blank text added on the bottom as needed) when joined with other\n cells into a Row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Row",
           "name": "ColumnSpec",
           "package": "penny-lib",
@@ -11798,6 +12789,7 @@
         "index": {
           "description": "cell of text output You tell the cell how to justify itself and how wide it is You also tell it the background colors to use The cell will be appropriately justified that is text aligned between left and right margins and padded with lines of blank text added on the bottom as needed when joined with other cells into Row",
           "hierarchy": "Penny Cabin Row",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Row",
           "name": "ColumnSpec",
           "package": "penny-lib",
@@ -11812,6 +12804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to justify cells. LeftJustify leaves the right side\n ragged. RightJustify leaves the left side ragged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Row",
           "name": "Justification",
           "package": "penny-lib",
@@ -11821,6 +12814,7 @@
         "index": {
           "description": "How to justify cells LeftJustify leaves the right side ragged RightJustify leaves the left side ragged",
           "hierarchy": "Penny Cabin Row",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Row",
           "name": "Justification",
           "package": "penny-lib",
@@ -11834,6 +12828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Row",
           "name": "Width",
           "package": "penny-lib",
@@ -11842,6 +12837,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Row",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Row",
           "name": "Width",
           "package": "penny-lib",
@@ -11855,6 +12851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Row",
           "name": "ColumnSpec",
           "package": "penny-lib",
@@ -11864,6 +12861,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Row",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Row",
           "name": "ColumnSpec",
           "package": "penny-lib",
@@ -11877,6 +12875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Row",
           "name": "LeftJustify",
           "package": "penny-lib",
@@ -11886,6 +12885,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Row",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Row",
           "name": "LeftJustify",
           "package": "penny-lib",
@@ -11899,6 +12899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Row",
           "name": "RightJustify",
           "package": "penny-lib",
@@ -11908,6 +12909,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Row",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Row",
           "name": "RightJustify",
           "package": "penny-lib",
@@ -11921,6 +12923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Row",
           "name": "Width",
           "package": "penny-lib",
@@ -11930,6 +12933,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Row",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Row",
           "name": "Width",
           "package": "penny-lib",
@@ -11943,6 +12947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Row",
           "name": "bits",
           "package": "penny-lib",
@@ -11952,6 +12957,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Row",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Row",
           "name": "bits",
           "normalized": "[Chunk]",
@@ -11966,6 +12972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Row",
           "name": "justification",
           "package": "penny-lib",
@@ -11975,6 +12982,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Row",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Row",
           "name": "justification",
           "package": "penny-lib",
@@ -11987,6 +12995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Row",
           "name": "padSpec",
           "package": "penny-lib",
@@ -11996,6 +13005,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Row",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Row",
           "name": "padSpec",
           "normalized": "(Label,EvenOdd)",
@@ -12011,6 +13021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Row",
           "name": "row",
           "package": "penny-lib",
@@ -12020,6 +13031,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Row",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Row",
           "name": "row",
           "normalized": "Changers-\u003e[ColumnSpec]-\u003e[Chunk]",
@@ -12034,6 +13046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Row",
           "name": "unWidth",
           "package": "penny-lib",
@@ -12043,6 +13056,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Row",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Row",
           "name": "unWidth",
           "package": "penny-lib",
@@ -12056,6 +13070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Row",
           "name": "width",
           "package": "penny-lib",
@@ -12065,6 +13080,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Row",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Row",
           "name": "width",
           "package": "penny-lib",
@@ -12078,6 +13094,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome schemes you can use.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "Schemes",
           "package": "penny-lib",
@@ -12087,6 +13104,7 @@
         "index": {
           "description": "Some schemes you can use",
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "Schemes",
           "package": "penny-lib",
@@ -12101,6 +13119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dark color scheme. You can change various values below to\n affect the color scheme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "dark",
           "package": "penny-lib",
@@ -12111,6 +13130,7 @@
         "index": {
           "description": "The dark color scheme You can change various values below to affect the color scheme",
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "dark",
           "package": "penny-lib",
@@ -12123,6 +13143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "darkCredit",
           "package": "penny-lib",
@@ -12132,6 +13153,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "darkCredit",
           "normalized": "(Chunk-\u003eChunk)-\u003eChunk-\u003eChunk",
@@ -12147,6 +13169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "darkDebit",
           "package": "penny-lib",
@@ -12156,6 +13179,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "darkDebit",
           "normalized": "(Chunk-\u003eChunk)-\u003eChunk-\u003eChunk",
@@ -12171,6 +13195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "darkEvenTextSpec",
           "package": "penny-lib",
@@ -12180,6 +13205,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "darkEvenTextSpec",
           "normalized": "Chunk-\u003eChunk",
@@ -12195,6 +13221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "darkLabels",
           "package": "penny-lib",
@@ -12204,6 +13231,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "darkLabels",
           "normalized": "Labels(EvenAndOdd(Chunk-\u003eChunk))",
@@ -12219,6 +13247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "darkOddTextSpec",
           "package": "penny-lib",
@@ -12228,6 +13257,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "darkOddTextSpec",
           "normalized": "Chunk-\u003eChunk",
@@ -12243,6 +13273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "darkZero",
           "package": "penny-lib",
@@ -12252,6 +13283,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "darkZero",
           "normalized": "(Chunk-\u003eChunk)-\u003eChunk-\u003eChunk",
@@ -12268,6 +13300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe light color scheme. You can change various values below to\n affect the color scheme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "light",
           "package": "penny-lib",
@@ -12278,6 +13311,7 @@
         "index": {
           "description": "The light color scheme You can change various values below to affect the color scheme",
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "light",
           "package": "penny-lib",
@@ -12290,6 +13324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "lightCredit",
           "package": "penny-lib",
@@ -12299,6 +13334,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "lightCredit",
           "normalized": "(Chunk-\u003eChunk)-\u003eChunk-\u003eChunk",
@@ -12314,6 +13350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "lightDebit",
           "package": "penny-lib",
@@ -12323,6 +13360,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "lightDebit",
           "normalized": "(Chunk-\u003eChunk)-\u003eChunk-\u003eChunk",
@@ -12338,6 +13376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "lightEvenTextSpec",
           "package": "penny-lib",
@@ -12347,6 +13386,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "lightEvenTextSpec",
           "normalized": "Chunk-\u003eChunk",
@@ -12362,6 +13402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "lightLabels",
           "package": "penny-lib",
@@ -12371,6 +13412,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "lightLabels",
           "normalized": "Labels(EvenAndOdd(Chunk-\u003eChunk))",
@@ -12386,6 +13428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "lightOddTextSpec",
           "package": "penny-lib",
@@ -12395,6 +13438,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "lightOddTextSpec",
           "normalized": "Chunk-\u003eChunk",
@@ -12410,6 +13454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "lightZero",
           "package": "penny-lib",
@@ -12419,6 +13464,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "lightZero",
           "normalized": "(Chunk-\u003eChunk)-\u003eChunk-\u003eChunk",
@@ -12435,6 +13481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain scheme has no colors at all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "plain",
           "package": "penny-lib",
@@ -12445,6 +13492,7 @@
         "index": {
           "description": "Plain scheme has no colors at all",
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "plain",
           "package": "penny-lib",
@@ -12457,6 +13505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "plainLabels",
           "package": "penny-lib",
@@ -12466,6 +13515,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme Schemes",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme.Schemes",
           "name": "plainLabels",
           "normalized": "Labels(EvenAndOdd(Chunk-\u003eChunk))",
@@ -12482,6 +13532,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCabin color schemes\n\u003c/p\u003e\u003cp\u003eEach element of a Cabin report identifies what it is--a debit on an\n even line, a credit on an odd line, etc. The user can have several\n color schemes; the scheme contains color assignments for 8 and 256\n color terminals. This allows the use of different schemes for light\n and dark terminals or for any other reason.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "Scheme",
           "package": "penny-lib",
@@ -12491,6 +13542,7 @@
         "index": {
           "description": "Cabin color schemes Each element of Cabin report identifies what it is--a debit on an even line credit on an odd line etc The user can have several color schemes the scheme contains color assignments for and color terminals This allows the use of different schemes for light and dark terminals or for any other reason",
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "Scheme",
           "package": "penny-lib",
@@ -12504,6 +13556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "Changers",
           "package": "penny-lib",
@@ -12512,6 +13565,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "Changers",
           "package": "penny-lib",
@@ -12525,6 +13579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "EvenAndOdd",
           "package": "penny-lib",
@@ -12533,6 +13588,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "EvenAndOdd",
           "package": "penny-lib",
@@ -12546,6 +13602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "EvenOdd",
           "package": "penny-lib",
@@ -12554,6 +13611,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "EvenOdd",
           "package": "penny-lib",
@@ -12567,6 +13625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "Label",
           "package": "penny-lib",
@@ -12575,6 +13634,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "Label",
           "package": "penny-lib",
@@ -12588,6 +13648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "Labels",
           "package": "penny-lib",
@@ -12596,6 +13657,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "Labels",
           "package": "penny-lib",
@@ -12609,6 +13671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "Scheme",
           "package": "penny-lib",
@@ -12617,6 +13680,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "Scheme",
           "package": "penny-lib",
@@ -12630,6 +13694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "Credit",
           "package": "penny-lib",
@@ -12639,6 +13704,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "Credit",
           "package": "penny-lib",
@@ -12652,6 +13718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "Debit",
           "package": "penny-lib",
@@ -12661,6 +13728,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "Debit",
           "package": "penny-lib",
@@ -12674,6 +13742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "Even",
           "package": "penny-lib",
@@ -12683,6 +13752,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "Even",
           "package": "penny-lib",
@@ -12742,6 +13812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "Odd",
           "package": "penny-lib",
@@ -12751,6 +13822,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "Odd",
           "package": "penny-lib",
@@ -12764,6 +13836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "Other",
           "package": "penny-lib",
@@ -12773,6 +13846,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "Other",
           "package": "penny-lib",
@@ -12809,6 +13883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "Zero",
           "package": "penny-lib",
@@ -12818,6 +13893,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "Zero",
           "package": "penny-lib",
@@ -12831,6 +13907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "balanceToQtys",
           "package": "penny-lib",
@@ -12840,6 +13917,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "balanceToQtys",
           "normalized": "Changers-\u003e(Amount Qty-\u003eText)-\u003eEvenOdd-\u003e[(Commodity,BottomLine)]-\u003e[Chunk]",
@@ -12855,6 +13933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "balancesToCmdtys",
           "package": "penny-lib",
@@ -12864,6 +13943,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "balancesToCmdtys",
           "normalized": "Changers-\u003eEvenOdd-\u003e[(Commodity,BottomLine)]-\u003e[Chunk]",
@@ -12879,6 +13959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "bottomLineToCmdty",
           "package": "penny-lib",
@@ -12888,6 +13969,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "bottomLineToCmdty",
           "normalized": "Changers-\u003eEvenOdd-\u003e(Commodity,BottomLine)-\u003eChunk",
@@ -12903,6 +13985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "bottomLineToDrCr",
           "package": "penny-lib",
@@ -12912,6 +13995,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "bottomLineToDrCr",
           "normalized": "BottomLine-\u003eEvenOdd-\u003eChangers-\u003eChunk",
@@ -12927,6 +14011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "bottomLineToQty",
           "package": "penny-lib",
@@ -12936,6 +14021,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "bottomLineToQty",
           "normalized": "Changers-\u003e(Amount Qty-\u003eText)-\u003eEvenOdd-\u003e(Commodity,BottomLine)-\u003eChunk",
@@ -12995,6 +14081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "dcToLbl",
           "package": "penny-lib",
@@ -13004,6 +14091,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "dcToLbl",
           "normalized": "DrCr-\u003eLabel",
@@ -13111,6 +14199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "fromVisibleNum",
           "package": "penny-lib",
@@ -13120,6 +14209,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "fromVisibleNum",
           "normalized": "VisibleNum-\u003eEvenOdd",
@@ -13135,6 +14225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "getEvenOdd",
           "package": "penny-lib",
@@ -13144,6 +14235,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "getEvenOdd",
           "normalized": "EvenOdd-\u003eEvenAndOdd a-\u003ea",
@@ -13159,6 +14251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "getEvenOddLabelValue",
           "package": "penny-lib",
@@ -13168,6 +14261,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "getEvenOddLabelValue",
           "normalized": "Label-\u003eEvenOdd-\u003eLabels(EvenAndOdd a)-\u003ea",
@@ -13183,6 +14277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.Scheme",
           "name": "getLabelValue",
           "package": "penny-lib",
@@ -13192,6 +14287,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin Scheme",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.Scheme",
           "name": "getLabelValue",
           "normalized": "Label-\u003eLabels a-\u003ea",
@@ -13275,6 +14371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "TextFormat",
           "package": "penny-lib",
@@ -13283,6 +14380,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "TextFormat",
           "package": "penny-lib",
@@ -13296,6 +14394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "CharsPerLine",
           "package": "penny-lib",
@@ -13304,6 +14403,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "CharsPerLine",
           "package": "penny-lib",
@@ -13317,6 +14417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "Lines",
           "package": "penny-lib",
@@ -13325,6 +14426,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "Lines",
           "package": "penny-lib",
@@ -13338,6 +14440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "Shortest",
           "package": "penny-lib",
@@ -13346,6 +14449,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "Shortest",
           "package": "penny-lib",
@@ -13359,6 +14463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "Target",
           "package": "penny-lib",
@@ -13367,6 +14472,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "Target",
           "package": "penny-lib",
@@ -13380,6 +14486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "Words",
           "package": "penny-lib",
@@ -13388,6 +14495,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "Words",
           "package": "penny-lib",
@@ -13401,6 +14509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "Lines",
           "package": "penny-lib",
@@ -13410,6 +14519,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "Lines",
           "package": "penny-lib",
@@ -13423,6 +14533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "Shortest",
           "package": "penny-lib",
@@ -13432,6 +14543,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "Shortest",
           "package": "penny-lib",
@@ -13445,6 +14557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "Target",
           "package": "penny-lib",
@@ -13454,6 +14567,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "Target",
           "package": "penny-lib",
@@ -13467,6 +14581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "Words",
           "package": "penny-lib",
@@ -13476,6 +14591,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "Words",
           "package": "penny-lib",
@@ -13490,6 +14606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of words and shortens it so that it fits in the\n space allotted. You specify the minimum length for each word, x. It\n will shorten the farthest left word first, until it is only x\n characters long; then it will shorten the next word until it is\n only x characters long, etc. This proceeds until all words are just\n x characters long. Then words are shortened to one\n character. Then the leftmost words are deleted as necessary.\n\u003c/p\u003e\u003cp\u003eAssumes that the words will be printed with a separator, which\n matters when lengths are calculated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "shorten",
           "package": "penny-lib",
@@ -13500,6 +14617,7 @@
         "index": {
           "description": "Takes list of words and shortens it so that it fits in the space allotted You specify the minimum length for each word It will shorten the farthest left word first until it is only characters long then it will shorten the next word until it is only characters long etc This proceeds until all words are just characters long Then words are shortened to one character Then the leftmost words are deleted as necessary Assumes that the words will be printed with separator which matters when lengths are calculated",
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "shorten",
           "normalized": "Shortest-\u003eTarget-\u003eWords-\u003eWords",
@@ -13515,6 +14633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits a blank-separated text into words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "txtWords",
           "package": "penny-lib",
@@ -13525,6 +14644,7 @@
         "index": {
           "description": "Splits blank-separated text into words",
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "txtWords",
           "normalized": "Text-\u003eWords",
@@ -13540,6 +14660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "unLines",
           "package": "penny-lib",
@@ -13549,6 +14670,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "unLines",
           "package": "penny-lib",
@@ -13562,6 +14684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "unShortest",
           "package": "penny-lib",
@@ -13571,6 +14694,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "unShortest",
           "package": "penny-lib",
@@ -13584,6 +14708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "unTarget",
           "package": "penny-lib",
@@ -13593,6 +14718,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "unTarget",
           "package": "penny-lib",
@@ -13606,6 +14732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "unWords",
           "package": "penny-lib",
@@ -13615,6 +14742,7 @@
         },
         "index": {
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "unWords",
           "package": "penny-lib",
@@ -13629,6 +14757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a sequence of words into a sequence of lines, where each\n line is no more than a given maximum number of characters long.\n\u003c/p\u003e\u003cp\u003eIf the maximum number of characters per line is less than 1,\n returns a Lines that is empty.\n\u003c/p\u003e\u003cp\u003eAn individual word will be split across multiple lines only if that\n word is too long to fit into a single line. No hyphenation is done;\n the word is simply broken across two lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin.TextFormat",
           "name": "wordWrap",
           "package": "penny-lib",
@@ -13639,6 +14768,7 @@
         "index": {
           "description": "Wraps sequence of words into sequence of lines where each line is no more than given maximum number of characters long If the maximum number of characters per line is less than returns Lines that is empty An individual word will be split across multiple lines only if that word is too long to fit into single line No hyphenation is done the word is simply broken across two lines",
           "hierarchy": "Penny Cabin TextFormat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin.TextFormat",
           "name": "wordWrap",
           "normalized": "Int-\u003eWords-\u003eLines",
@@ -13655,6 +14785,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCabin - Penny reports\n\u003c/p\u003e\u003cp\u003eCabin contains reports, or functions that take a list of postings\n and return a formatted Text to display data in a human-readable\n format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Cabin",
           "name": "Cabin",
           "package": "penny-lib",
@@ -13664,6 +14795,7 @@
         "index": {
           "description": "Cabin Penny reports Cabin contains reports or functions that take list of postings and return formatted Text to display data in human-readable format",
           "hierarchy": "Penny Cabin",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Cabin",
           "name": "Cabin",
           "package": "penny-lib",
@@ -13677,6 +14809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "Interface",
           "package": "penny-lib",
@@ -13685,6 +14818,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "Interface",
           "package": "penny-lib",
@@ -13698,6 +14832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "BlankLine",
           "package": "penny-lib",
@@ -13706,6 +14841,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "BlankLine",
           "package": "penny-lib",
@@ -13719,6 +14855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "Comment",
           "package": "penny-lib",
@@ -13727,6 +14864,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "Comment",
           "package": "penny-lib",
@@ -13740,6 +14878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "LedgerItem",
           "package": "penny-lib",
@@ -13748,6 +14887,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "LedgerItem",
           "package": "penny-lib",
@@ -13761,6 +14901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "ParsedItem",
           "package": "penny-lib",
@@ -13769,6 +14910,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "ParsedItem",
           "package": "penny-lib",
@@ -13782,6 +14924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "ParsedTopLine",
           "package": "penny-lib",
@@ -13790,6 +14933,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "ParsedTopLine",
           "package": "penny-lib",
@@ -13803,6 +14947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "ParsedTxn",
           "package": "penny-lib",
@@ -13811,6 +14956,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "ParsedTxn",
           "package": "penny-lib",
@@ -13824,6 +14970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "Parser",
           "package": "penny-lib",
@@ -13832,6 +14979,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "Parser",
           "package": "penny-lib",
@@ -13845,6 +14993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "BlankLine",
           "package": "penny-lib",
@@ -13854,6 +15003,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "BlankLine",
           "package": "penny-lib",
@@ -13867,6 +15017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "Comment",
           "package": "penny-lib",
@@ -13876,6 +15027,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "Comment",
           "package": "penny-lib",
@@ -13889,6 +15041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "ParsedTopLine",
           "package": "penny-lib",
@@ -13898,6 +15051,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "ParsedTopLine",
           "package": "penny-lib",
@@ -13911,6 +15065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "ptlDateTime",
           "package": "penny-lib",
@@ -13920,6 +15075,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "ptlDateTime",
           "package": "penny-lib",
@@ -13933,6 +15089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "ptlFlag",
           "package": "penny-lib",
@@ -13942,6 +15099,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "ptlFlag",
           "package": "penny-lib",
@@ -13955,6 +15113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "ptlMemo",
           "package": "penny-lib",
@@ -13964,6 +15123,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "ptlMemo",
           "normalized": "Maybe(Memo,TopMemoLine)",
@@ -13979,6 +15139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "ptlNumber",
           "package": "penny-lib",
@@ -13988,6 +15149,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "ptlNumber",
           "package": "penny-lib",
@@ -14001,6 +15163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "ptlPayee",
           "package": "penny-lib",
@@ -14010,6 +15173,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "ptlPayee",
           "package": "penny-lib",
@@ -14023,6 +15187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "ptlTopLineLine",
           "package": "penny-lib",
@@ -14032,6 +15197,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "ptlTopLineLine",
           "package": "penny-lib",
@@ -14046,6 +15212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges a ledger item to remove metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "stripMeta",
           "package": "penny-lib",
@@ -14056,6 +15223,7 @@
         "index": {
           "description": "Changes ledger item to remove metadata",
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "stripMeta",
           "normalized": "LedgerItem-\u003eS(TopLineCore,Ents PostingCore)PricePoint Comment BlankLine",
@@ -14071,6 +15239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "toTopLineCore",
           "package": "penny-lib",
@@ -14080,6 +15249,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "toTopLineCore",
           "normalized": "ParsedTopLine-\u003eTopLineCore",
@@ -14095,6 +15265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Interface",
           "name": "unComment",
           "package": "penny-lib",
@@ -14104,6 +15275,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Interface",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Interface",
           "name": "unComment",
           "package": "penny-lib",
@@ -14118,6 +15290,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsec parsers for the ledger file format. The format is\n documented in EBNF in the file \u003ccode\u003edoc/ledger-grammar.org\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "Parsec",
           "package": "penny-lib",
@@ -14127,6 +15300,7 @@
         "index": {
           "description": "Parsec parsers for the ledger file format The format is documented in EBNF in the file doc ledger-grammar.org",
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "Parsec",
           "package": "penny-lib",
@@ -14140,6 +15314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "amount",
           "package": "penny-lib",
@@ -14149,6 +15324,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "amount",
           "normalized": "Parser(Amount QtyRep,Side,SpaceBetween)",
@@ -14163,6 +15339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "blankLine",
           "package": "penny-lib",
@@ -14172,6 +15349,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "blankLine",
           "normalized": "Parser()",
@@ -14187,6 +15365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "comment",
           "package": "penny-lib",
@@ -14196,6 +15375,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "comment",
           "package": "penny-lib",
@@ -14208,6 +15388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "credit",
           "package": "penny-lib",
@@ -14217,6 +15398,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "credit",
           "package": "penny-lib",
@@ -14229,6 +15411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "date",
           "package": "penny-lib",
@@ -14238,6 +15421,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "date",
           "package": "penny-lib",
@@ -14250,6 +15434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "dateTime",
           "package": "penny-lib",
@@ -14259,6 +15444,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "dateTime",
           "package": "penny-lib",
@@ -14272,6 +15458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "day",
           "package": "penny-lib",
@@ -14281,6 +15468,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "day",
           "package": "penny-lib",
@@ -14293,6 +15481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "debit",
           "package": "penny-lib",
@@ -14302,6 +15491,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "debit",
           "package": "penny-lib",
@@ -14314,6 +15504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "digit",
           "package": "penny-lib",
@@ -14323,6 +15514,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "digit",
           "package": "penny-lib",
@@ -14335,6 +15527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "digitList",
           "package": "penny-lib",
@@ -14344,6 +15537,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "digitList",
           "package": "penny-lib",
@@ -14358,6 +15552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a sequence of grouped digits, followed by an optional\n radix point, followed by an optional additional sequence of grouped\n digits.  Numbers such as .25 are not allowed; instead,\n the user must enter 0.25. Also not allowed is something like\n \u003ca\u003e25.\u003c/a\u003e. Intsead, if the user enters a radix, there must be a\n character after it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "digitsRadDigits",
           "package": "penny-lib",
@@ -14367,6 +15562,7 @@
         "index": {
           "description": "Parses sequence of grouped digits followed by an optional radix point followed by an optional additional sequence of grouped digits Numbers such as are not allowed instead the user must enter Also not allowed is something like Intsead if the user enters radix there must be character after it",
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "digitsRadDigits",
           "normalized": "Parser a-\u003eParser b-\u003eParser(GroupedDigits a,Maybe(GroupedDigits a))",
@@ -14382,6 +15578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "drCr",
           "package": "penny-lib",
@@ -14391,6 +15588,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "drCr",
           "package": "penny-lib",
@@ -14404,6 +15602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "entry",
           "package": "penny-lib",
@@ -14413,6 +15612,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "entry",
           "normalized": "Parser(Entry QtyRep,Side,SpaceBetween)",
@@ -14427,6 +15627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "flag",
           "package": "penny-lib",
@@ -14436,6 +15637,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "flag",
           "package": "penny-lib",
@@ -14448,6 +15650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "flagNumPayee",
           "package": "penny-lib",
@@ -14457,6 +15660,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "flagNumPayee",
           "normalized": "Parser(Maybe Flag,Maybe Number,Maybe Payee)",
@@ -14472,6 +15676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "fromCmdty",
           "package": "penny-lib",
@@ -14481,6 +15686,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "fromCmdty",
           "package": "penny-lib",
@@ -14494,6 +15700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "getFileContentsStdin",
           "package": "penny-lib",
@@ -14503,6 +15710,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "getFileContentsStdin",
           "normalized": "String-\u003eIO(Filename,Text)",
@@ -14518,6 +15726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "getStdin",
           "package": "penny-lib",
@@ -14527,6 +15736,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "getStdin",
           "package": "penny-lib",
@@ -14540,6 +15750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "groupPart",
           "package": "penny-lib",
@@ -14549,6 +15760,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "groupPart",
           "normalized": "Parser a-\u003eParser(a,DigitList)",
@@ -14564,6 +15776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "groupedDigits",
           "package": "penny-lib",
@@ -14573,6 +15786,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "groupedDigits",
           "normalized": "Parser a-\u003eParser(GroupedDigits a)",
@@ -14588,6 +15802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "handleParseError",
           "package": "penny-lib",
@@ -14596,6 +15811,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "handleParseError",
           "normalized": "String-\u003eString-\u003eIO a",
@@ -14611,6 +15827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "hours",
           "package": "penny-lib",
@@ -14620,6 +15837,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "hours",
           "package": "penny-lib",
@@ -14632,6 +15850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "item",
           "package": "penny-lib",
@@ -14641,6 +15860,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "item",
           "package": "penny-lib",
@@ -14653,6 +15873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "ledgerAcct",
           "package": "penny-lib",
@@ -14662,6 +15883,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "ledgerAcct",
           "package": "penny-lib",
@@ -14675,6 +15897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "leftCmdtyLvl1Amt",
           "package": "penny-lib",
@@ -14684,6 +15907,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "leftCmdtyLvl1Amt",
           "normalized": "Parser(Amount QtyRep,Side,SpaceBetween)",
@@ -14699,6 +15923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "leftCmdtyLvl3Amt",
           "package": "penny-lib",
@@ -14708,6 +15933,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "leftCmdtyLvl3Amt",
           "normalized": "Parser(Amount QtyRep,Side,SpaceBetween)",
@@ -14723,6 +15949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "leftSideCmdtyAmt",
           "package": "penny-lib",
@@ -14732,6 +15959,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "leftSideCmdtyAmt",
           "normalized": "Parser(Amount QtyRep,Side,SpaceBetween)",
@@ -14747,6 +15975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "lineNum",
           "package": "penny-lib",
@@ -14756,6 +15985,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "lineNum",
           "package": "penny-lib",
@@ -14769,6 +15999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "lvl1Acct",
           "package": "penny-lib",
@@ -14778,6 +16009,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "lvl1Acct",
           "package": "penny-lib",
@@ -14791,6 +16023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "lvl1Cmdty",
           "package": "penny-lib",
@@ -14800,6 +16033,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "lvl1Cmdty",
           "package": "penny-lib",
@@ -14813,6 +16047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "lvl1FirstSubAcct",
           "package": "penny-lib",
@@ -14822,6 +16057,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "lvl1FirstSubAcct",
           "package": "penny-lib",
@@ -14835,6 +16071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "lvl1OtherSubAcct",
           "package": "penny-lib",
@@ -14844,6 +16081,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "lvl1OtherSubAcct",
           "package": "penny-lib",
@@ -14857,6 +16095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "lvl1Payee",
           "package": "penny-lib",
@@ -14866,6 +16105,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "lvl1Payee",
           "package": "penny-lib",
@@ -14879,6 +16119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "lvl1SubAcct",
           "package": "penny-lib",
@@ -14888,6 +16129,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "lvl1SubAcct",
           "package": "penny-lib",
@@ -14901,6 +16143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "lvl2Acct",
           "package": "penny-lib",
@@ -14910,6 +16153,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "lvl2Acct",
           "package": "penny-lib",
@@ -14923,6 +16167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "lvl2Cmdty",
           "package": "penny-lib",
@@ -14932,6 +16177,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "lvl2Cmdty",
           "package": "penny-lib",
@@ -14945,6 +16191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "lvl2FirstSubAcct",
           "package": "penny-lib",
@@ -14954,6 +16201,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "lvl2FirstSubAcct",
           "package": "penny-lib",
@@ -14967,6 +16215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "lvl2OtherSubAcct",
           "package": "penny-lib",
@@ -14976,6 +16225,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "lvl2OtherSubAcct",
           "package": "penny-lib",
@@ -14989,6 +16239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "lvl2Payee",
           "package": "penny-lib",
@@ -14998,6 +16249,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "lvl2Payee",
           "package": "penny-lib",
@@ -15011,6 +16263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "lvl3Cmdty",
           "package": "penny-lib",
@@ -15020,6 +16273,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "lvl3Cmdty",
           "package": "penny-lib",
@@ -15033,6 +16287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "minutes",
           "package": "penny-lib",
@@ -15042,6 +16297,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "minutes",
           "package": "penny-lib",
@@ -15054,6 +16310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "month",
           "package": "penny-lib",
@@ -15063,6 +16320,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "month",
           "package": "penny-lib",
@@ -15075,6 +16333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "nonEmpty",
           "package": "penny-lib",
@@ -15084,6 +16343,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "nonEmpty",
           "normalized": "Parser a-\u003eParser(NonEmpty a)",
@@ -15099,6 +16359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "number",
           "package": "penny-lib",
@@ -15108,6 +16369,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "number",
           "package": "penny-lib",
@@ -15120,6 +16382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "parse",
           "package": "penny-lib",
@@ -15128,6 +16391,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "parse",
           "normalized": "Text-\u003eExceptional String[ParsedItem]",
@@ -15142,6 +16406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "parseFromFilename",
           "package": "penny-lib",
@@ -15151,6 +16416,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "parseFromFilename",
           "normalized": "String-\u003eIO(Filename,[ParsedItem])",
@@ -15166,6 +16432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "parseStdinOnly",
           "package": "penny-lib",
@@ -15175,6 +16442,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "parseStdinOnly",
           "normalized": "IO(Filename,[ParsedItem])",
@@ -15190,6 +16458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "posting",
           "package": "penny-lib",
@@ -15199,6 +16468,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "posting",
           "normalized": "Parser(PostingCore,PostingLine,Maybe(Entry QtyRep))",
@@ -15213,6 +16483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "postingAcct",
           "package": "penny-lib",
@@ -15222,6 +16493,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "postingAcct",
           "package": "penny-lib",
@@ -15235,6 +16507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "postingMemo",
           "package": "penny-lib",
@@ -15244,6 +16517,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "postingMemo",
           "package": "penny-lib",
@@ -15257,6 +16531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "postingMemoLine",
           "package": "penny-lib",
@@ -15266,6 +16541,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "postingMemoLine",
           "package": "penny-lib",
@@ -15279,6 +16555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "price",
           "package": "penny-lib",
@@ -15288,6 +16565,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "price",
           "package": "penny-lib",
@@ -15300,6 +16578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "qtyRep",
           "package": "penny-lib",
@@ -15309,6 +16588,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "qtyRep",
           "package": "penny-lib",
@@ -15323,6 +16603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a QtyRep that is quoted with square braces. This is a\n QtyRep that uses a comma as the radix point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "quotedCommaQtyRep",
           "package": "penny-lib",
@@ -15333,6 +16614,7 @@
         "index": {
           "description": "Parses QtyRep that is quoted with square braces This is QtyRep that uses comma as the radix point",
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "quotedCommaQtyRep",
           "package": "penny-lib",
@@ -15346,6 +16628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "quotedLvl1Acct",
           "package": "penny-lib",
@@ -15355,6 +16638,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "quotedLvl1Acct",
           "package": "penny-lib",
@@ -15368,6 +16652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "quotedLvl1Cmdty",
           "package": "penny-lib",
@@ -15377,6 +16662,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "quotedLvl1Cmdty",
           "package": "penny-lib",
@@ -15390,6 +16676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "quotedLvl1Payee",
           "package": "penny-lib",
@@ -15399,6 +16686,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "quotedLvl1Payee",
           "package": "penny-lib",
@@ -15413,6 +16701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a QtyRep that is quoted with curly braces. This is a\n QtyRep that uses a period as the radix point. Unlike an unquoted\n QtyRep this can include spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "quotedPeriodQtyRep",
           "package": "penny-lib",
@@ -15423,6 +16712,7 @@
         "index": {
           "description": "Parses QtyRep that is quoted with curly braces This is QtyRep that uses period as the radix point Unlike an unquoted QtyRep this can include spaces",
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "quotedPeriodQtyRep",
           "package": "penny-lib",
@@ -15436,6 +16726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "rightSideCmdty",
           "package": "penny-lib",
@@ -15445,6 +16736,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "rightSideCmdty",
           "package": "penny-lib",
@@ -15458,6 +16750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "rightSideCmdtyAmt",
           "package": "penny-lib",
@@ -15467,6 +16760,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "rightSideCmdtyAmt",
           "normalized": "Parser(Amount QtyRep,Side,SpaceBetween)",
@@ -15482,6 +16776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "seconds",
           "package": "penny-lib",
@@ -15491,6 +16786,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "seconds",
           "package": "penny-lib",
@@ -15503,6 +16799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "skipWhite",
           "package": "penny-lib",
@@ -15512,6 +16809,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "skipWhite",
           "normalized": "Parser()",
@@ -15527,6 +16825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "spaceBetween",
           "package": "penny-lib",
@@ -15536,6 +16835,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "spaceBetween",
           "package": "penny-lib",
@@ -15549,6 +16849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "tag",
           "package": "penny-lib",
@@ -15558,6 +16859,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "tag",
           "package": "penny-lib",
@@ -15570,6 +16872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "tags",
           "package": "penny-lib",
@@ -15579,6 +16882,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "tags",
           "package": "penny-lib",
@@ -15591,6 +16895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "time",
           "package": "penny-lib",
@@ -15600,6 +16905,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "time",
           "normalized": "Parser(Hours,Minutes,Maybe Seconds)",
@@ -15614,6 +16920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "timeWithZone",
           "package": "penny-lib",
@@ -15623,6 +16930,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "timeWithZone",
           "normalized": "Parser(Hours,Minutes,Maybe Seconds,Maybe TimeZoneOffset)",
@@ -15638,6 +16946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "timeZone",
           "package": "penny-lib",
@@ -15647,6 +16956,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "timeZone",
           "package": "penny-lib",
@@ -15660,6 +16970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "topLine",
           "package": "penny-lib",
@@ -15669,6 +16980,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "topLine",
           "package": "penny-lib",
@@ -15682,6 +16994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "topLineFlagNum",
           "package": "penny-lib",
@@ -15691,6 +17004,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "topLineFlagNum",
           "normalized": "Parser(Maybe Flag,Maybe Number)",
@@ -15706,6 +17020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "topLinePayee",
           "package": "penny-lib",
@@ -15715,6 +17030,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "topLinePayee",
           "package": "penny-lib",
@@ -15728,6 +17044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "transaction",
           "package": "penny-lib",
@@ -15737,6 +17054,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "transaction",
           "package": "penny-lib",
@@ -15749,6 +17067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "transactionMemo",
           "package": "penny-lib",
@@ -15758,6 +17077,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "transactionMemo",
           "normalized": "Parser(TopMemoLine,Memo)",
@@ -15773,6 +17093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "transactionMemoLine",
           "package": "penny-lib",
@@ -15782,6 +17103,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "transactionMemoLine",
           "package": "penny-lib",
@@ -15795,6 +17117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "tzNumber",
           "package": "penny-lib",
@@ -15804,6 +17127,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "tzNumber",
           "package": "penny-lib",
@@ -15817,6 +17141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "tzSign",
           "package": "penny-lib",
@@ -15826,6 +17151,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "tzSign",
           "normalized": "Parser(Int-\u003eInt)",
@@ -15842,6 +17168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an unquoted QtyRep.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "unquotedQtyRep",
           "package": "penny-lib",
@@ -15852,6 +17179,7 @@
         "index": {
           "description": "Parses an unquoted QtyRep",
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "unquotedQtyRep",
           "package": "penny-lib",
@@ -15866,6 +17194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an unquoted QtyRep that also has spaces. Use only when\n parsing command line items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "unquotedQtyRepWithSpaces",
           "package": "penny-lib",
@@ -15876,6 +17205,7 @@
         "index": {
           "description": "Parses an unquoted QtyRep that also has spaces Use only when parsing command line items",
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "unquotedQtyRepWithSpaces",
           "package": "penny-lib",
@@ -15889,6 +17219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Parsec",
           "name": "year",
           "package": "penny-lib",
@@ -15898,6 +17229,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Parsec",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Parsec",
           "name": "year",
           "package": "penny-lib",
@@ -15911,6 +17243,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRenders Penny data in a format that can be parsed by\n \u003ca\u003ePenny.Copper.Parsec\u003c/a\u003e. These functions render text that is\n compliant with the EBNF grammar which is at\n \u003ccode\u003edoc/ledger-grammar.org\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "Render",
           "package": "penny-lib",
@@ -15920,6 +17253,7 @@
         "index": {
           "description": "Renders Penny data in format that can be parsed by Penny.Copper.Parsec These functions render text that is compliant with the EBNF grammar which is at doc ledger-grammar.org",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "Render",
           "package": "penny-lib",
@@ -15934,6 +17268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an Amount. The Format is required so that the commodity\n can be displayed in the right place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "amount",
           "package": "penny-lib",
@@ -15943,6 +17278,7 @@
         "index": {
           "description": "Render an Amount The Format is required so that the commodity can be displayed in the right place",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "amount",
           "normalized": "Maybe(Amount Qty-\u003eS Radix PeriodGrp CommaGrp)-\u003eMaybe Side-\u003eMaybe SpaceBetween-\u003eEither(Amount QtyRep)(Amount Qty)-\u003eMaybe Text",
@@ -15957,6 +17293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "comment",
           "package": "penny-lib",
@@ -15966,6 +17303,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "comment",
           "normalized": "Comment-\u003eMaybe Text",
@@ -15981,6 +17319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a DateTime. The day is always printed. If the time zone\n offset is not zero, then the time and time zone offset are both\n printed. If the time zone offset is zero, then the hours and\n minutes are printed, but only if the time is not midnight. If the\n seconds are not zero, they are also printed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "dateTime",
           "package": "penny-lib",
@@ -15991,6 +17330,7 @@
         "index": {
           "description": "Render DateTime The day is always printed If the time zone offset is not zero then the time and time zone offset are both printed If the time zone offset is zero then the hours and minutes are printed but only if the time is not midnight If the seconds are not zero they are also printed",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "dateTime",
           "normalized": "DateTime-\u003eText",
@@ -16006,6 +17346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "entry",
           "package": "penny-lib",
@@ -16014,6 +17355,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "entry",
           "normalized": "Maybe(Amount Qty-\u003eS Radix PeriodGrp CommaGrp)-\u003eMaybe Side-\u003eMaybe SpaceBetween-\u003eEither(Entry QtyRep)(Entry Qty)-\u003eMaybe Text",
@@ -16028,6 +17370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "flag",
           "package": "penny-lib",
@@ -16037,6 +17380,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "flag",
           "normalized": "Flag-\u003eMaybe Text",
@@ -16051,6 +17395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "formatter",
           "package": "penny-lib",
@@ -16059,6 +17404,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "formatter",
           "normalized": "Bool-\u003eText-\u003eText-\u003eText-\u003eText-\u003eText-\u003eText-\u003eText-\u003eText",
@@ -16073,6 +17419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "hasSpace",
           "package": "penny-lib",
@@ -16082,6 +17429,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "hasSpace",
           "normalized": "WholeOrFrac(GroupedDigits PeriodGrp)-\u003eBool",
@@ -16097,6 +17445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "hoursMinsSecsZone",
           "package": "penny-lib",
@@ -16106,6 +17455,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "hoursMinsSecsZone",
           "normalized": "Hours-\u003eMinutes-\u003eSeconds-\u003eTimeZoneOffset-\u003eText",
@@ -16121,6 +17471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "isAcctLvl1",
           "package": "penny-lib",
@@ -16130,6 +17481,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "isAcctLvl1",
           "normalized": "Account-\u003eBool",
@@ -16145,6 +17497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "isAcctLvl2",
           "package": "penny-lib",
@@ -16154,6 +17507,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "isAcctLvl2",
           "normalized": "Account-\u003eBool",
@@ -16169,6 +17523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "isFirstSubAcctLvl2",
           "package": "penny-lib",
@@ -16178,6 +17533,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "isFirstSubAcctLvl2",
           "normalized": "SubAccount-\u003eBool",
@@ -16193,6 +17549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "isOtherSubAcctLvl2",
           "package": "penny-lib",
@@ -16202,6 +17559,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "isOtherSubAcctLvl2",
           "normalized": "SubAccount-\u003eBool",
@@ -16218,6 +17576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs True if a sub account can be rendered at Level 1;\n False otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "isSubAcctLvl1",
           "package": "penny-lib",
@@ -16228,6 +17587,7 @@
         "index": {
           "description": "Is True if sub account can be rendered at Level False otherwise",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "isSubAcctLvl1",
           "normalized": "SubAccount-\u003eBool",
@@ -16267,6 +17627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows an account, with the minimum level of quoting\n possible. Fails with an error if any one of the characters in the\n account name does not satisfy the \u003ccode\u003elvl1Char\u003c/code\u003e predicate. Otherwise\n returns a rendered account, quoted if necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "ledgerAcct",
           "package": "penny-lib",
@@ -16277,6 +17638,7 @@
         "index": {
           "description": "Shows an account with the minimum level of quoting possible Fails with an error if any one of the characters in the account name does not satisfy the lvl1Char predicate Otherwise returns rendered account quoted if necessary",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "ledgerAcct",
           "normalized": "Account-\u003eMaybe Text",
@@ -16292,6 +17654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "lvl2Acct",
           "package": "penny-lib",
@@ -16301,6 +17664,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "lvl2Acct",
           "normalized": "Account-\u003eMaybe Text",
@@ -16317,6 +17681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a Level 2 commodity. Fails if the first character is not a\n letter or a symbol, or if any other character is a space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "lvl2Cmdty",
           "package": "penny-lib",
@@ -16327,6 +17692,7 @@
         "index": {
           "description": "Render Level commodity Fails if the first character is not letter or symbol or if any other character is space",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "lvl2Cmdty",
           "normalized": "Commodity-\u003eMaybe Text",
@@ -16342,6 +17708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "lvl2Payee",
           "package": "penny-lib",
@@ -16351,6 +17718,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "lvl2Payee",
           "normalized": "Payee-\u003eMaybe Text",
@@ -16367,6 +17735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a Level 3 commodity. Fails if any character is not a\n letter or a symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "lvl3Cmdty",
           "package": "penny-lib",
@@ -16377,6 +17746,7 @@
         "index": {
           "description": "Render Level commodity Fails if any character is not letter or symbol",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "lvl3Cmdty",
           "normalized": "Commodity-\u003eMaybe Text",
@@ -16392,6 +17762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "number",
           "package": "penny-lib",
@@ -16401,6 +17772,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "number",
           "normalized": "Number-\u003eMaybe Text",
@@ -16415,6 +17787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "pad2",
           "package": "penny-lib",
@@ -16424,6 +17797,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "pad2",
           "normalized": "Text-\u003eText",
@@ -16438,6 +17812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "pad4",
           "package": "penny-lib",
@@ -16447,6 +17822,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "pad4",
           "normalized": "Text-\u003eText",
@@ -16461,6 +17837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "payee",
           "package": "penny-lib",
@@ -16470,6 +17847,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "payee",
           "normalized": "Payee-\u003eMaybe Text",
@@ -16485,6 +17863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a Posting. Fails if any of the components\n fail to render. In addition, if the unverified Posting has an\n Entry, a Format must be provided, otherwise render fails.\n\u003c/p\u003e\u003cp\u003eThe columns look like this. Column numbers begin with 0 (like they\n do in Emacs) rather than with column 1 (like they do in\n Vim). (Really Emacs is the strange one; most CLI utilities seem to\n start with column 1 too...)\n\u003c/p\u003e\u003cpre\u003e ID COLUMN WIDTH WHAT\n ---------------------------------------------------\n A    0      4     Blank spaces for indentation\n B    4      50    Flag, Number, Payee, Account, Tags\n C    54     2     Blank spaces for padding\n D    56     NA    Entry\n\u003c/pre\u003e\u003cp\u003eOmit the padding after column B if there is no entry; also omit\n columns C and D entirely if there is no Entry. (It is annoying to\n have extraneous blank space in a file).\n\u003c/p\u003e\u003cp\u003eThis table is a bit of a lie, because the blank spaces for\n indentation are emitted either by the posting previous to this one\n (either after the posting itself or after its postingMemo) or by\n the TopLine.\n\u003c/p\u003e\u003cp\u003eAlso emits an additional eight spaces after the trailing newline if\n the posting has a memo. That way the memo will be indented\n properly. (There are trailing spaces here, as opposed to leading\n spaces in the posting memo, because the latter would be\n inconsistent with the grammar.)\n\u003c/p\u003e\u003cp\u003eEmits an extra four spaces after the first line if the first\n paramter is True. However, this is overriden if there is a memo, in\n which case eight spaces will be emitted. (This allows the next\n posting to be indented properly.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "posting",
           "package": "penny-lib",
@@ -16494,6 +17873,7 @@
         "index": {
           "description": "Renders Posting Fails if any of the components fail to render In addition if the unverified Posting has an Entry Format must be provided otherwise render fails The columns look like this Column numbers begin with like they do in Emacs rather than with column like they do in Vim Really Emacs is the strange one most CLI utilities seem to start with column too ID COLUMN WIDTH WHAT Blank spaces for indentation Flag Number Payee Account Tags Blank spaces for padding NA Entry Omit the padding after column if there is no entry also omit columns and entirely if there is no Entry It is annoying to have extraneous blank space in file This table is bit of lie because the blank spaces for indentation are emitted either by the posting previous to this one either after the posting itself or after its postingMemo or by the TopLine Also emits an additional eight spaces after the trailing newline if the posting has memo That way the memo will be indented properly There are trailing spaces here as opposed to leading spaces in the posting memo because the latter would be inconsistent with the grammar Emits an extra four spaces after the first line if the first paramter is True However this is overriden if there is memo in which case eight spaces will be emitted This allows the next posting to be indented properly",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "posting",
           "normalized": "Maybe(Amount Qty-\u003eS Radix PeriodGrp CommaGrp)-\u003eBool-\u003eEnt PostingCore-\u003eMaybe Text",
@@ -16509,6 +17889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a postingMemo. Fails if the postingMemo is empty, as the\n grammar requires that they have at least one line.\n\u003c/p\u003e\u003cp\u003eIf the boolean is True, inserts padding after the last\n postingMemoLine so that the next line is indented by four\n columns. Use this if the posting memo is followed by another\n posting. If the last boolean if False, there is no indenting after\n the last postingMemoLine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "postingMemo",
           "package": "penny-lib",
@@ -16519,6 +17900,7 @@
         "index": {
           "description": "Renders postingMemo Fails if the postingMemo is empty as the grammar requires that they have at least one line If the boolean is True inserts padding after the last postingMemoLine so that the next line is indented by four columns Use this if the posting memo is followed by another posting If the last boolean if False there is no indenting after the last postingMemoLine",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "postingMemo",
           "normalized": "Bool-\u003eMemo-\u003eMaybe Text",
@@ -16535,6 +17917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a postingMemoLine, optionally with trailing\n whitespace. The trailing whitespace allows the next line to be\n indented properly if is also a postingMemoLine. This is handled\n using trailing whitespace rather than leading whitespace because\n leading whitespace is inconsistent with the grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "postingMemoLine",
           "package": "penny-lib",
@@ -16544,6 +17927,7 @@
         "index": {
           "description": "Renders postingMemoLine optionally with trailing whitespace The trailing whitespace allows the next line to be indented properly if is also postingMemoLine This is handled using trailing whitespace rather than leading whitespace because leading whitespace is inconsistent with the grammar",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "postingMemoLine",
           "normalized": "Int-\u003eText-\u003eMaybe Text",
@@ -16559,6 +17943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "price",
           "package": "penny-lib",
@@ -16568,6 +17953,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "price",
           "normalized": "PricePoint-\u003eMaybe Text",
@@ -16582,6 +17968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "qtyRep",
           "package": "penny-lib",
@@ -16591,6 +17978,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "qtyRep",
           "normalized": "QtyRep-\u003eText",
@@ -16607,6 +17995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the characters necessary to quote a qtyRep.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "quoteQtyRep",
           "package": "penny-lib",
@@ -16617,6 +18006,7 @@
         "index": {
           "description": "Gets the characters necessary to quote qtyRep",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "quoteQtyRep",
           "normalized": "QtyRep-\u003e(Text,Text)",
@@ -16632,6 +18022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "quotedLvl1Acct",
           "package": "penny-lib",
@@ -16641,6 +18032,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "quotedLvl1Acct",
           "normalized": "Account-\u003eMaybe Text",
@@ -16657,6 +18049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a quoted Level 1 commodity. Fails if any character does\n not satisfy lvl1Char.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "quotedLvl1Cmdty",
           "package": "penny-lib",
@@ -16667,6 +18060,7 @@
         "index": {
           "description": "Render quoted Level commodity Fails if any character does not satisfy lvl1Char",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "quotedLvl1Cmdty",
           "normalized": "Commodity-\u003eMaybe Text",
@@ -16682,6 +18076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "quotedLvl1Payee",
           "package": "penny-lib",
@@ -16691,6 +18086,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "quotedLvl1Payee",
           "normalized": "Payee-\u003eMaybe Text",
@@ -16707,6 +18103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a field that may or may not be present and a function that\n renders it. If the field is not present at all, returns an empty\n Text. Otherwise will succeed or fail depending upon whether the\n rendering function succeeds or fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "renMaybe",
           "package": "penny-lib",
@@ -16717,6 +18114,7 @@
         "index": {
           "description": "Takes field that may or may not be present and function that renders it If the field is not present at all returns an empty Text Otherwise will succeed or fail depending upon whether the rendering function succeeds or fails",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "renMaybe",
           "normalized": "Maybe a-\u003e(a-\u003eMaybe Text)-\u003eMaybe Text",
@@ -16732,6 +18130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "showX",
           "package": "penny-lib",
@@ -16741,6 +18140,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "showX",
           "normalized": "a-\u003eText",
@@ -16755,6 +18155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "tag",
           "package": "penny-lib",
@@ -16764,6 +18165,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "tag",
           "normalized": "Tag-\u003eMaybe Text",
@@ -16778,6 +18180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "tags",
           "package": "penny-lib",
@@ -16787,6 +18190,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "tags",
           "normalized": "Tags-\u003eMaybe Text",
@@ -16802,6 +18206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders the TopLine. Emits trailing whitespace after the newline\n so that the first posting is properly indented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "topLine",
           "package": "penny-lib",
@@ -16812,6 +18217,7 @@
         "index": {
           "description": "Renders the TopLine Emits trailing whitespace after the newline so that the first posting is properly indented",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "topLine",
           "normalized": "TopLineCore-\u003eMaybe Text",
@@ -16827,6 +18233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "transaction",
           "package": "penny-lib",
@@ -16835,6 +18242,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "transaction",
           "normalized": "Maybe(Amount Qty-\u003eS Radix PeriodGrp CommaGrp)-\u003e(TopLineCore,Ents PostingCore)-\u003eMaybe Text",
@@ -16849,6 +18257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "transactionMemo",
           "package": "penny-lib",
@@ -16858,6 +18267,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "transactionMemo",
           "normalized": "Memo-\u003eMaybe Text",
@@ -16873,6 +18283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "transactionMemoLine",
           "package": "penny-lib",
@@ -16882,6 +18293,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "transactionMemoLine",
           "normalized": "Text-\u003eMaybe Text",
@@ -16898,6 +18310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges a list of words into one Text; however, if any given Text\n is empty, that Text is first dropped from the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Render",
           "name": "txtWords",
           "package": "penny-lib",
@@ -16908,6 +18321,7 @@
         "index": {
           "description": "Merges list of words into one Text however if any given Text is empty that Text is first dropped from the list",
           "hierarchy": "Penny Copper Render",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Render",
           "name": "txtWords",
           "normalized": "[Text]-\u003eText",
@@ -16923,6 +18337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "Terminals",
           "package": "penny-lib",
@@ -16931,6 +18346,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "Terminals",
           "package": "penny-lib",
@@ -16944,6 +18360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "apostrophe",
           "package": "penny-lib",
@@ -16953,6 +18370,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "apostrophe",
           "normalized": "Char-\u003eBool",
@@ -16967,6 +18385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "asterisk",
           "package": "penny-lib",
@@ -16976,6 +18395,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "asterisk",
           "normalized": "Char-\u003eBool",
@@ -16990,6 +18410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "atSign",
           "package": "penny-lib",
@@ -16999,6 +18420,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "atSign",
           "normalized": "Char-\u003eBool",
@@ -17014,6 +18436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "closeCurly",
           "package": "penny-lib",
@@ -17023,6 +18446,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "closeCurly",
           "normalized": "Char-\u003eBool",
@@ -17038,6 +18462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "closeParen",
           "package": "penny-lib",
@@ -17047,6 +18472,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "closeParen",
           "normalized": "Char-\u003eBool",
@@ -17062,6 +18488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "closeSquare",
           "package": "penny-lib",
@@ -17071,6 +18498,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "closeSquare",
           "normalized": "Char-\u003eBool",
@@ -17086,6 +18514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "colon",
           "package": "penny-lib",
@@ -17095,6 +18524,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "colon",
           "normalized": "Char-\u003eBool",
@@ -17109,6 +18539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "dateSep",
           "package": "penny-lib",
@@ -17118,6 +18549,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "dateSep",
           "normalized": "Char-\u003eBool",
@@ -17133,6 +18565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "digit",
           "package": "penny-lib",
@@ -17142,6 +18575,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "digit",
           "normalized": "Char-\u003eBool",
@@ -17156,6 +18590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "dollar",
           "package": "penny-lib",
@@ -17165,6 +18600,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "dollar",
           "normalized": "Char-\u003eBool",
@@ -17179,6 +18615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "doubleQuote",
           "package": "penny-lib",
@@ -17188,6 +18625,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "doubleQuote",
           "normalized": "Char-\u003eBool",
@@ -17203,6 +18641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "flagChar",
           "package": "penny-lib",
@@ -17212,6 +18651,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "flagChar",
           "normalized": "Char-\u003eBool",
@@ -17227,6 +18667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "greaterThan",
           "package": "penny-lib",
@@ -17236,6 +18677,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "greaterThan",
           "normalized": "Char-\u003eBool",
@@ -17251,6 +18693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "hash",
           "package": "penny-lib",
@@ -17260,6 +18703,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "hash",
           "normalized": "Char-\u003eBool",
@@ -17274,6 +18718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "invalid",
           "package": "penny-lib",
@@ -17283,6 +18728,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "invalid",
           "normalized": "Char-\u003eBool",
@@ -17297,6 +18743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "lessThan",
           "package": "penny-lib",
@@ -17306,6 +18753,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "lessThan",
           "normalized": "Char-\u003eBool",
@@ -17321,6 +18769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "letter",
           "package": "penny-lib",
@@ -17330,6 +18779,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "letter",
           "normalized": "Char-\u003eBool",
@@ -17344,6 +18794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "lowerCaseAscii",
           "package": "penny-lib",
@@ -17353,6 +18804,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "lowerCaseAscii",
           "normalized": "Char-\u003eBool",
@@ -17368,6 +18820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "lvl1AcctChar",
           "package": "penny-lib",
@@ -17377,6 +18830,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "lvl1AcctChar",
           "normalized": "Char-\u003eBool",
@@ -17392,6 +18846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "lvl1CmdtyChar",
           "package": "penny-lib",
@@ -17401,6 +18856,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "lvl1CmdtyChar",
           "normalized": "Char-\u003eBool",
@@ -17416,6 +18872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "lvl2AcctOtherChar",
           "package": "penny-lib",
@@ -17425,6 +18882,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "lvl2AcctOtherChar",
           "normalized": "Char-\u003eBool",
@@ -17440,6 +18898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "lvl2CmdtyFirstChar",
           "package": "penny-lib",
@@ -17449,6 +18908,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "lvl2CmdtyFirstChar",
           "normalized": "Char-\u003eBool",
@@ -17464,6 +18924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "lvl2CmdtyOtherChar",
           "package": "penny-lib",
@@ -17473,6 +18934,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "lvl2CmdtyOtherChar",
           "normalized": "Char-\u003eBool",
@@ -17488,6 +18950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "lvl3CmdtyChar",
           "package": "penny-lib",
@@ -17497,6 +18960,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "lvl3CmdtyChar",
           "normalized": "Char-\u003eBool",
@@ -17512,6 +18976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "minus",
           "package": "penny-lib",
@@ -17521,6 +18986,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "minus",
           "normalized": "Char-\u003eBool",
@@ -17535,6 +19001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "newline",
           "package": "penny-lib",
@@ -17544,6 +19011,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "newline",
           "normalized": "Char-\u003eBool",
@@ -17558,6 +19026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "nonAscii",
           "package": "penny-lib",
@@ -17567,6 +19036,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "nonAscii",
           "normalized": "Char-\u003eBool",
@@ -17582,6 +19052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "nonNewline",
           "package": "penny-lib",
@@ -17591,6 +19062,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "nonNewline",
           "normalized": "Char-\u003eBool",
@@ -17606,6 +19078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "nonNewlineNonSpace",
           "package": "penny-lib",
@@ -17615,6 +19088,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "nonNewlineNonSpace",
           "normalized": "Char-\u003eBool",
@@ -17630,6 +19104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "numberChar",
           "package": "penny-lib",
@@ -17639,6 +19114,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "numberChar",
           "normalized": "Char-\u003eBool",
@@ -17654,6 +19130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "openCurly",
           "package": "penny-lib",
@@ -17663,6 +19140,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "openCurly",
           "normalized": "Char-\u003eBool",
@@ -17678,6 +19156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "openParen",
           "package": "penny-lib",
@@ -17687,6 +19166,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "openParen",
           "normalized": "Char-\u003eBool",
@@ -17702,6 +19182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "openSquare",
           "package": "penny-lib",
@@ -17711,6 +19192,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "openSquare",
           "normalized": "Char-\u003eBool",
@@ -17726,6 +19208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "period",
           "package": "penny-lib",
@@ -17735,6 +19218,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "period",
           "normalized": "Char-\u003eBool",
@@ -17749,6 +19233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "plus",
           "package": "penny-lib",
@@ -17758,6 +19243,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "plus",
           "normalized": "Char-\u003eBool",
@@ -17772,6 +19258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "quotedPayeeChar",
           "package": "penny-lib",
@@ -17781,6 +19268,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "quotedPayeeChar",
           "normalized": "Char-\u003eBool",
@@ -17796,6 +19284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "semicolon",
           "package": "penny-lib",
@@ -17805,6 +19294,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "semicolon",
           "normalized": "Char-\u003eBool",
@@ -17819,6 +19309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "space",
           "package": "penny-lib",
@@ -17828,6 +19319,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "space",
           "normalized": "Char-\u003eBool",
@@ -17842,6 +19334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "tab",
           "package": "penny-lib",
@@ -17851,6 +19344,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "tab",
           "normalized": "Char-\u003eBool",
@@ -17865,6 +19359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "tagChar",
           "package": "penny-lib",
@@ -17874,6 +19369,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "tagChar",
           "normalized": "Char-\u003eBool",
@@ -17889,6 +19385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "thinSpace",
           "package": "penny-lib",
@@ -17898,6 +19395,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "thinSpace",
           "normalized": "Char-\u003eBool",
@@ -17913,6 +19411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "tilde",
           "package": "penny-lib",
@@ -17922,6 +19421,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "tilde",
           "normalized": "Char-\u003eBool",
@@ -17936,6 +19436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "underscore",
           "package": "penny-lib",
@@ -17945,6 +19446,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "underscore",
           "normalized": "Char-\u003eBool",
@@ -17959,6 +19461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "unicode",
           "package": "penny-lib",
@@ -17968,6 +19471,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "unicode",
           "normalized": "Char-\u003eBool",
@@ -17982,6 +19486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "upperCaseAscii",
           "package": "penny-lib",
@@ -17991,6 +19496,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "upperCaseAscii",
           "normalized": "Char-\u003eBool",
@@ -18006,6 +19512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper.Terminals",
           "name": "white",
           "package": "penny-lib",
@@ -18015,6 +19522,7 @@
         },
         "index": {
           "hierarchy": "Penny Copper Terminals",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper.Terminals",
           "name": "white",
           "normalized": "Char-\u003eBool",
@@ -18030,6 +19538,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCopper - the Penny parser.\n\u003c/p\u003e\u003cp\u003eThe parse functions in this module only accept lists of files\n rather than individual files because in order to correctly assign\n the global serials a single function must be able to see all the\n transactions, not just the transactions in a single file.\n\u003c/p\u003e\u003cp\u003eSome notes about Copper and performance:\n\u003c/p\u003e\u003cp\u003eRunning Penny on the datasets I typically use takes about two\n seconds. This does not seem very long on paper, and indeed it isn't\n very long, but it would be nice if this were\n instantaneous. Profiles consistently show that the most\n time-consuming part of running Penny is the Parsec parse of the\n incoming data. After eliminating the Parsec phase, the profile is\n not showing any parts of the program whose runtime could be\n shortened easily--the time is spent scattered amongst many\n functions.\n\u003c/p\u003e\u003cp\u003eSo the clear place to hunt for performance improvements is in the\n Parsec phase. And, indeed, I have tried many things to improve this\n phase. I tried using a parser based on Happy and Alex rather than\n Parsec; this code is tagged in the Git repository, though it is so\n old that many of the other data structures in Penny have since\n changed. Happy and Alex did not yield any significant performance\n improvement. As I recall, between Parsec and Happy/Alex, one was a\n little faster but used more memory, though I can't remember which\n was which.\n\u003c/p\u003e\u003cp\u003eThe problem with using Happy and Alex is that it is a bit harder to\n test and to maintain. Each Parsec parser is freestanding and can be\n tested on its own; doing this with Happy would be harder. Happy\n parsers also are not written in Haskell, though I'm not sure this\n is a disadvantage. And, of course an advantage to Happy is that it\n warns you if your grammar is ambiguous; Parsec will only reveal\n this through usage or through meticulous testing.\n\u003c/p\u003e\u003cp\u003eIt isn't worth using Happy/Alex in Penny because of the negligible\n performance difference. Parsec has much better error messages than\n Happy/Alex, which turns out to be critically important.\n\u003c/p\u003e\u003cp\u003eAnother thing I tried was using Attoparsec, which bills itself as\n being faster. The speed improvements were negligible, and\n Parsec error messages are much better than those in Attoparsec. I\n would have been willing to maintain a Parsec and an Attoparsec\n parser if the latter were faster. Penny could parse with Attoparsec\n first and, if that fails, use Parsec and use its error message. But\n Attoparsec was so negligibly faster that I did not think this\n worthwhile.\n\u003c/p\u003e\u003cp\u003eAnother thing I tried was using the \u003ccode\u003ebinary\u003c/code\u003e package to serialize\n the data in binary form. This shaved off a fair amont of run\n time. But Penny still did not feel instantaneous--run time probably\n dropped by about 40 percent, which is significant. The big\n disadvantage to using binary is that you then need to get\n plain-text ledger files into binary form, save them, and then use\n the binary form if it is up to date. Doing this manually imposes a\n big burden on the user to convert plain text to binary. Doing it\n automatically could work but would be a lot of code. And then, you\n would need to factor converstion time into the performance\n comparison. Again, not worth it for the performance improvement\n involved.\n\u003c/p\u003e\u003cp\u003eProbably the best performance improvement would come from putting\n the whole ledger into SQLite. This would, however, run into the\n same problems that exist with using a binary format: you need to\n convert from plain text, or perhaps write an editor to change the\n binary natively.  I'm not eager to write an editor (we already have\n Emacs).  Furthermore, using SQLite would likely require a\n significant re-engineering of Penny.\n\u003c/p\u003e\u003cp\u003eSo, Penny continues to use the simplest, most obvious solution--a\n Parsec parser--not from inertia or because Parsec is the default\n choice; rather, Parsec so far has proven to be the best solution to\n this problem.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper",
           "name": "Copper",
           "package": "penny-lib",
@@ -18039,6 +19548,7 @@
         "index": {
           "description": "Copper the Penny parser The parse functions in this module only accept lists of files rather than individual files because in order to correctly assign the global serials single function must be able to see all the transactions not just the transactions in single file Some notes about Copper and performance Running Penny on the datasets typically use takes about two seconds This does not seem very long on paper and indeed it isn very long but it would be nice if this were instantaneous Profiles consistently show that the most time-consuming part of running Penny is the Parsec parse of the incoming data After eliminating the Parsec phase the profile is not showing any parts of the program whose runtime could be shortened easily--the time is spent scattered amongst many functions So the clear place to hunt for performance improvements is in the Parsec phase And indeed have tried many things to improve this phase tried using parser based on Happy and Alex rather than Parsec this code is tagged in the Git repository though it is so old that many of the other data structures in Penny have since changed Happy and Alex did not yield any significant performance improvement As recall between Parsec and Happy Alex one was little faster but used more memory though can remember which was which The problem with using Happy and Alex is that it is bit harder to test and to maintain Each Parsec parser is freestanding and can be tested on its own doing this with Happy would be harder Happy parsers also are not written in Haskell though not sure this is disadvantage And of course an advantage to Happy is that it warns you if your grammar is ambiguous Parsec will only reveal this through usage or through meticulous testing It isn worth using Happy Alex in Penny because of the negligible performance difference Parsec has much better error messages than Happy Alex which turns out to be critically important Another thing tried was using Attoparsec which bills itself as being faster The speed improvements were negligible and Parsec error messages are much better than those in Attoparsec would have been willing to maintain Parsec and an Attoparsec parser if the latter were faster Penny could parse with Attoparsec first and if that fails use Parsec and use its error message But Attoparsec was so negligibly faster that did not think this worthwhile Another thing tried was using the binary package to serialize the data in binary form This shaved off fair amont of run time But Penny still did not feel instantaneous--run time probably dropped by about percent which is significant The big disadvantage to using binary is that you then need to get plain-text ledger files into binary form save them and then use the binary form if it is up to date Doing this manually imposes big burden on the user to convert plain text to binary Doing it automatically could work but would be lot of code And then you would need to factor converstion time into the performance comparison Again not worth it for the performance improvement involved Probably the best performance improvement would come from putting the whole ledger into SQLite This would however run into the same problems that exist with using binary format you need to convert from plain text or perhaps write an editor to change the binary natively not eager to write an editor we already have Emacs Furthermore using SQLite would likely require significant re-engineering of Penny So Penny continues to use the simplest most obvious solution--a Parsec parser--not from inertia or because Parsec is the default choice rather Parsec so far has proven to be the best solution to this problem",
           "hierarchy": "Penny Copper",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper",
           "name": "Copper",
           "package": "penny-lib",
@@ -18053,6 +19563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads and parses the given files. If any of the files is \u003ccode\u003e-\u003c/code\u003e,\n reads standard input. If the list of files is empty, reads standard\n input. IO errors are not caught. Parse errors are printed to\n standard error and the program will exit with a failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Copper",
           "name": "open",
           "package": "penny-lib",
@@ -18063,6 +19574,7 @@
         "index": {
           "description": "Reads and parses the given files If any of the files is reads standard input If the list of files is empty reads standard input IO errors are not caught Parse errors are printed to standard error and the program will exit with failure",
           "hierarchy": "Penny Copper",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Copper",
           "name": "open",
           "normalized": "[String]-\u003eIO[LedgerItem]",
@@ -18078,6 +19590,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLiberty - Penny command line parsing utilities\n\u003c/p\u003e\u003cp\u003eBoth Cabin and Zinc share various functions that aid in parsing\n command lines. For instance both the Postings report and the Zinc\n postings filter use common command-line options. However, Zinc\n already depends on Cabin. To avoid a cyclic dependency whereby\n Cabin would also depend on Zinc, functions formerly in Zinc that\n Cabin will also find useful are relocated here, to Liberty.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "Liberty",
           "package": "penny-lib",
@@ -18087,6 +19600,7 @@
         "index": {
           "description": "Liberty Penny command line parsing utilities Both Cabin and Zinc share various functions that aid in parsing command lines For instance both the Postings report and the Zinc postings filter use common command-line options However Zinc already depends on Cabin To avoid cyclic dependency whereby Cabin would also depend on Zinc functions formerly in Zinc that Cabin will also find useful are relocated here to Liberty",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "Liberty",
           "package": "penny-lib",
@@ -18101,6 +19615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA multiline Text that holds an error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "Error",
           "package": "penny-lib",
@@ -18110,6 +19625,7 @@
         "index": {
           "description": "multiline Text that holds an error message",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "Error",
           "package": "penny-lib",
@@ -18124,6 +19640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA serial indicating how a post relates to all other postings that\n made it through the filtering phase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "FilteredNum",
           "package": "penny-lib",
@@ -18133,6 +19650,7 @@
         "index": {
           "description": "serial indicating how post relates to all other postings that made it through the filtering phase",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "FilteredNum",
           "package": "penny-lib",
@@ -18146,6 +19664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "ItemIndex",
           "package": "penny-lib",
@@ -18154,6 +19673,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "ItemIndex",
           "package": "penny-lib",
@@ -18168,6 +19688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll metadata from Liberty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "LibertyMeta",
           "package": "penny-lib",
@@ -18177,6 +19698,7 @@
         "index": {
           "description": "All metadata from Liberty",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "LibertyMeta",
           "package": "penny-lib",
@@ -18190,6 +19712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "ListLength",
           "package": "penny-lib",
@@ -18198,6 +19721,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "ListLength",
           "package": "penny-lib",
@@ -18211,6 +19735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "MatcherFactory",
           "package": "penny-lib",
@@ -18219,6 +19744,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "MatcherFactory",
           "package": "penny-lib",
@@ -18232,6 +19758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "Operand",
           "package": "penny-lib",
@@ -18240,6 +19767,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "Operand",
           "package": "penny-lib",
@@ -18254,6 +19782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies options for the post-filter stage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "PostFilterFn",
           "package": "penny-lib",
@@ -18263,6 +19792,7 @@
         "index": {
           "description": "Specifies options for the post-filter stage",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "PostFilterFn",
           "package": "penny-lib",
@@ -18277,6 +19807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA serial indicating how a posting relates to all other postings\n that have been sorted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "SortedNum",
           "package": "penny-lib",
@@ -18286,6 +19817,7 @@
         "index": {
           "description": "serial indicating how posting relates to all other postings that have been sorted",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "SortedNum",
           "package": "penny-lib",
@@ -18299,6 +19831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "FilteredNum",
           "package": "penny-lib",
@@ -18308,6 +19841,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "FilteredNum",
           "package": "penny-lib",
@@ -18321,6 +19855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "ItemIndex",
           "package": "penny-lib",
@@ -18330,6 +19865,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "ItemIndex",
           "package": "penny-lib",
@@ -18343,6 +19879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "ListLength",
           "package": "penny-lib",
@@ -18352,6 +19889,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "ListLength",
           "package": "penny-lib",
@@ -18365,6 +19903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "SortedNum",
           "package": "penny-lib",
@@ -18374,6 +19913,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "SortedNum",
           "package": "penny-lib",
@@ -18387,6 +19927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "caseSelectSpecs",
           "package": "penny-lib",
@@ -18396,6 +19937,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "caseSelectSpecs",
           "normalized": "[OptSpec CaseSensitive]",
@@ -18412,6 +19954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoth Infix and RPN options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "exprDesc",
           "package": "penny-lib",
@@ -18422,6 +19965,7 @@
         "index": {
           "description": "Both Infix and RPN options",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "exprDesc",
           "normalized": "[OptSpec ExprDesc]",
@@ -18437,6 +19981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "matcherSelectSpecs",
           "package": "penny-lib",
@@ -18446,6 +19991,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "matcherSelectSpecs",
           "normalized": "[OptSpec MatcherFactory]",
@@ -18462,6 +20008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll operand OptSpec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "operandSpecs",
           "package": "penny-lib",
@@ -18472,6 +20019,7 @@
         "index": {
           "description": "All operand OptSpec",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "operandSpecs",
           "normalized": "DateTime-\u003e[OptSpec(CaseSensitive-\u003eMatcherFactory-\u003eExceptional Error Operand)]",
@@ -18487,6 +20035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "operatorSpecs",
           "package": "penny-lib",
@@ -18496,6 +20045,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "operatorSpecs",
           "normalized": "[OptSpec(Token a)]",
@@ -18512,6 +20062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn option for where the user would like to send output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "output",
           "package": "penny-lib",
@@ -18522,6 +20073,7 @@
         "index": {
           "description": "An option for where the user would like to send output",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "output",
           "normalized": "OptSpec(Text-\u003eIO())",
@@ -18537,6 +20089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses comparers given on command line to a function. Fails if\n the string given is invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "parseComparer",
           "package": "penny-lib",
@@ -18547,6 +20100,7 @@
         "index": {
           "description": "Parses comparers given on command line to function Fails if the string given is invalid",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "parseComparer",
           "normalized": "String-\u003e(Ordering-\u003ePdct a)-\u003eExceptional Error(Pdct a)",
@@ -18562,6 +20116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "parseInfix",
           "package": "penny-lib",
@@ -18571,6 +20126,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "parseInfix",
           "package": "penny-lib",
@@ -18585,6 +20141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses exactly one integer; fails if it cannot read exactly one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "parseInt",
           "package": "penny-lib",
@@ -18595,6 +20152,7 @@
         "index": {
           "description": "Parses exactly one integer fails if it cannot read exactly one",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "parseInt",
           "normalized": "String-\u003eExceptional Error Int",
@@ -18611,6 +20169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a list of tokens to obtain a predicate. Deals with an\n empty list of tokens by returning a predicate that is always\n True. Fails if the list of tokens is not empty and the parse fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "parsePredicate",
           "package": "penny-lib",
@@ -18621,6 +20180,7 @@
         "index": {
           "description": "Parses list of tokens to obtain predicate Deals with an empty list of tokens by returning predicate that is always True Fails if the list of tokens is not empty and the parse fails",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "parsePredicate",
           "normalized": "ExprDesc-\u003e[Token a]-\u003eExceptional Error(Pdct a)",
@@ -18636,6 +20196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "parseRPN",
           "package": "penny-lib",
@@ -18645,6 +20206,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "parseRPN",
           "package": "penny-lib",
@@ -18658,6 +20220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "postFilterSpecs",
           "package": "penny-lib",
@@ -18667,6 +20230,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "postFilterSpecs",
           "normalized": "(OptSpec(Exceptional Error PostFilterFn),OptSpec(Exceptional Error PostFilterFn))",
@@ -18683,6 +20247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of output options, returns a single IO action to\n write to all given files. If the list was empty, returns an IO\n action that writes to standard output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "processOutput",
           "package": "penny-lib",
@@ -18693,6 +20258,7 @@
         "index": {
           "description": "Given list of output options returns single IO action to write to all given files If the list was empty returns an IO action that writes to standard output",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "processOutput",
           "normalized": "[Text-\u003eIO()]-\u003eText-\u003eIO()",
@@ -18708,6 +20274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "processPostFilters",
           "package": "penny-lib",
@@ -18717,6 +20284,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "processPostFilters",
           "normalized": "[PostFilterFn]-\u003e[a]-\u003e[a]",
@@ -18732,6 +20300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "showExpression",
           "package": "penny-lib",
@@ -18741,6 +20310,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "showExpression",
           "normalized": "OptSpec()",
@@ -18756,6 +20326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "unFilteredNum",
           "package": "penny-lib",
@@ -18765,6 +20336,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "unFilteredNum",
           "package": "penny-lib",
@@ -18778,6 +20350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "unItemIndex",
           "package": "penny-lib",
@@ -18787,6 +20360,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "unItemIndex",
           "package": "penny-lib",
@@ -18800,6 +20374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "unListLength",
           "package": "penny-lib",
@@ -18809,6 +20384,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "unListLength",
           "package": "penny-lib",
@@ -18822,6 +20398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "unSortedNum",
           "package": "penny-lib",
@@ -18831,6 +20408,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "unSortedNum",
           "package": "penny-lib",
@@ -18844,6 +20422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "verboseFilter",
           "package": "penny-lib",
@@ -18853,6 +20432,7 @@
         },
         "index": {
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "verboseFilter",
           "normalized": "OptSpec()",
@@ -18869,6 +20449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrints the binary's version and the version of the library, and exits successfully.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "version",
           "package": "penny-lib",
@@ -18878,6 +20459,7 @@
         "index": {
           "description": "Prints the binary version and the version of the library and exits successfully",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "version",
           "normalized": "Version-\u003eString-\u003eString",
@@ -18893,6 +20475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of transactions, splits them into PostingChild\n instances, filters them, post-filters them, sorts them, and places\n them in Box instances with Filtered serials. Also returns Chunks\n containing a description of the evalutation process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Liberty",
           "name": "xactionsToFiltered",
           "package": "penny-lib",
@@ -18902,6 +20485,7 @@
         "index": {
           "description": "Takes list of transactions splits them into PostingChild instances filters them post-filters them sorts them and places them in Box instances with Filtered serials Also returns Chunks containing description of the evalutation process",
           "hierarchy": "Penny Liberty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Liberty",
           "name": "xactionsToFiltered",
           "normalized": "LPdct-\u003e[PostFilterFn]-\u003e(Posting-\u003ePosting-\u003eOrdering)-\u003e[Transaction]-\u003e((Amount Qty-\u003eText)-\u003e[Chunk],[(LibertyMeta,Posting)])",
@@ -18917,6 +20501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "Balance",
           "package": "penny-lib",
@@ -18925,6 +20510,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "Balance",
           "package": "penny-lib",
@@ -18939,6 +20525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA balance summarizes several entries. You do not create a Balance\n directly. Instead, use \u003ccode\u003e\u003ca\u003eentryToBalance\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "Balance",
           "package": "penny-lib",
@@ -18948,6 +20535,7 @@
         "index": {
           "description": "balance summarizes several entries You do not create Balance directly Instead use entryToBalance",
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "Balance",
           "package": "penny-lib",
@@ -18962,6 +20550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturned by \u003ccode\u003e\u003ca\u003ebalanced\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "Balanced",
           "package": "penny-lib",
@@ -18971,6 +20560,7 @@
         "index": {
           "description": "Returned by balanced",
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "Balanced",
           "package": "penny-lib",
@@ -18984,6 +20574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "BottomLine",
           "package": "penny-lib",
@@ -18992,6 +20583,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "BottomLine",
           "package": "penny-lib",
@@ -19005,6 +20597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "Column",
           "package": "penny-lib",
@@ -19013,6 +20606,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "Column",
           "package": "penny-lib",
@@ -19026,6 +20620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "Balanced",
           "package": "penny-lib",
@@ -19035,6 +20630,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "Balanced",
           "package": "penny-lib",
@@ -19048,6 +20644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "Column",
           "package": "penny-lib",
@@ -19057,6 +20654,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "Column",
           "package": "penny-lib",
@@ -19070,6 +20668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "Inferable",
           "package": "penny-lib",
@@ -19079,6 +20678,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "Inferable",
           "package": "penny-lib",
@@ -19092,6 +20692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "NonZero",
           "package": "penny-lib",
@@ -19101,6 +20702,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "NonZero",
           "package": "penny-lib",
@@ -19114,6 +20716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "NotInferable",
           "package": "penny-lib",
@@ -19123,6 +20726,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "NotInferable",
           "package": "penny-lib",
@@ -19136,6 +20740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "Zero",
           "package": "penny-lib",
@@ -19145,6 +20750,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "Zero",
           "package": "penny-lib",
@@ -19159,6 +20765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes whether a Balance map is Balanced.\n\u003c/p\u003e\u003cpre\u003e balanced mempty == Balanced\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "balanced",
           "package": "penny-lib",
@@ -19169,6 +20776,7 @@
         "index": {
           "description": "Computes whether Balance map is Balanced balanced mempty Balanced",
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "balanced",
           "normalized": "Balance-\u003eBalanced",
@@ -19183,6 +20791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "colDrCr",
           "package": "penny-lib",
@@ -19192,6 +20801,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "colDrCr",
           "package": "penny-lib",
@@ -19205,6 +20815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "colQty",
           "package": "penny-lib",
@@ -19214,6 +20825,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "colQty",
           "package": "penny-lib",
@@ -19228,6 +20840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts multiple Entries to a Balanced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "entriesToBalanced",
           "package": "penny-lib",
@@ -19238,6 +20851,7 @@
         "index": {
           "description": "Converts multiple Entries to Balanced",
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "entriesToBalanced",
           "normalized": "[Entry a]-\u003eBalanced",
@@ -19254,6 +20868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an Entry to a Balance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "entryToBalance",
           "package": "penny-lib",
@@ -19264,6 +20879,7 @@
         "index": {
           "description": "Converts an Entry to Balance",
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "entryToBalance",
           "normalized": "Entry a-\u003eBalance",
@@ -19279,6 +20895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "isInferable",
           "package": "penny-lib",
@@ -19288,6 +20905,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "isInferable",
           "normalized": "Balanced-\u003eBool",
@@ -19304,6 +20922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves zero balances from a Balance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "removeZeroCommodities",
           "package": "penny-lib",
@@ -19314,6 +20933,7 @@
         "index": {
           "description": "Removes zero balances from Balance",
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "removeZeroCommodities",
           "normalized": "Balance-\u003eBalance",
@@ -19330,6 +20950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a map where the keys are the commodities in the balance\n and the values are the balance for each commodity. If there is no\n balance at all, this map can be empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Balance",
           "name": "unBalance",
           "package": "penny-lib",
@@ -19340,6 +20961,7 @@
         "index": {
           "description": "Returns map where the keys are the commodities in the balance and the values are the balance for each commodity If there is no balance at all this map can be empty",
           "hierarchy": "Penny Lincoln Balance",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Balance",
           "name": "unBalance",
           "normalized": "Balance-\u003eMap Commodity BottomLine",
@@ -19355,6 +20977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "DateTime",
           "package": "penny-lib",
@@ -19363,6 +20986,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "DateTime",
           "package": "penny-lib",
@@ -19377,6 +21001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA DateTime is a a local date and time, along with a time zone\n offset.  The Eq and Ord instances are derived; therefore, two\n DateTime instances will not be equivalent if the time zone offsets\n are different, even if they are the same instant. To compare one\n DateTime to another, you probably want to use \u003ccode\u003e\u003ca\u003etoUTC\u003c/a\u003e\u003c/code\u003e and compare\n those. To see if two DateTime are the same instant, use\n \u003ccode\u003e\u003ca\u003esameInstant\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "DateTime",
           "package": "penny-lib",
@@ -19386,6 +21011,7 @@
         "index": {
           "description": "DateTime is local date and time along with time zone offset The Eq and Ord instances are derived therefore two DateTime instances will not be equivalent if the time zone offsets are different even if they are the same instant To compare one DateTime to another you probably want to use toUTC and compare those To see if two DateTime are the same instant use sameInstant",
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "DateTime",
           "package": "penny-lib",
@@ -19399,6 +21025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "Hours",
           "package": "penny-lib",
@@ -19407,6 +21034,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "Hours",
           "package": "penny-lib",
@@ -19420,6 +21048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "Minutes",
           "package": "penny-lib",
@@ -19428,6 +21057,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "Minutes",
           "package": "penny-lib",
@@ -19441,6 +21071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "Seconds",
           "package": "penny-lib",
@@ -19449,6 +21080,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "Seconds",
           "package": "penny-lib",
@@ -19463,6 +21095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of minutes that this timezone is offset from UTC. Can\n be positive, negative, or zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "TimeZoneOffset",
           "package": "penny-lib",
@@ -19472,6 +21105,7 @@
         "index": {
           "description": "The number of minutes that this timezone is offset from UTC Can be positive negative or zero",
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "TimeZoneOffset",
           "package": "penny-lib",
@@ -19485,6 +21119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "DateTime",
           "package": "penny-lib",
@@ -19494,6 +21129,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "DateTime",
           "package": "penny-lib",
@@ -19507,6 +21143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "dateTimeMidnightUTC",
           "package": "penny-lib",
@@ -19516,6 +21153,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "dateTimeMidnightUTC",
           "normalized": "Day-\u003eDateTime",
@@ -19531,6 +21169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "day",
           "package": "penny-lib",
@@ -19540,6 +21179,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "day",
           "package": "penny-lib",
@@ -19552,6 +21192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "fromZonedTime",
           "package": "penny-lib",
@@ -19561,6 +21202,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "fromZonedTime",
           "normalized": "ZonedTime-\u003eMaybe DateTime",
@@ -19576,6 +21218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "hours",
           "package": "penny-lib",
@@ -19585,6 +21228,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "hours",
           "package": "penny-lib",
@@ -19598,6 +21242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esucceeds if 0 \u003c= x \u003c 24\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "intToHours",
           "package": "penny-lib",
@@ -19608,6 +21253,7 @@
         "index": {
           "description": "succeeds if",
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "intToHours",
           "normalized": "Int-\u003eMaybe Hours",
@@ -19624,6 +21270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esucceeds if 0 \u003c= x \u003c 60\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "intToMinutes",
           "package": "penny-lib",
@@ -19634,6 +21281,7 @@
         "index": {
           "description": "succeeds if",
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "intToMinutes",
           "normalized": "Int-\u003eMaybe Minutes",
@@ -19650,6 +21298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esucceeds if 0 \u003c= x \u003c 61 (to allow for leap seconds)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "intToSeconds",
           "package": "penny-lib",
@@ -19660,6 +21309,7 @@
         "index": {
           "description": "succeeds if to allow for leap seconds",
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "intToSeconds",
           "normalized": "Int-\u003eMaybe Seconds",
@@ -19675,6 +21325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "midnight",
           "package": "penny-lib",
@@ -19684,6 +21335,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "midnight",
           "normalized": "(Hours,Minutes,Seconds)",
@@ -19699,6 +21351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert minutes to a time zone offset. I'm having a hard time\n deciding whether to be liberal or strict in what to accept\n here. Currently it is somewhat strict in that it will fail if\n absolute value is greater than 840 minutes; currently the article\n at http:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eList_of_time_zones_by_UTC_offset\n says there is no offset greater than 14 hours, or 840 minutes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "minsToOffset",
           "package": "penny-lib",
@@ -19709,6 +21362,7 @@
         "index": {
           "description": "Convert minutes to time zone offset having hard time deciding whether to be liberal or strict in what to accept here Currently it is somewhat strict in that it will fail if absolute value is greater than minutes currently the article at http en.wikipedia.org wiki List of time zones by UTC offset says there is no offset greater than hours or minutes",
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "minsToOffset",
           "normalized": "Int-\u003eMaybe TimeZoneOffset",
@@ -19724,6 +21378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "minutes",
           "package": "penny-lib",
@@ -19733,6 +21388,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "minutes",
           "package": "penny-lib",
@@ -19745,6 +21401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "noOffset",
           "package": "penny-lib",
@@ -19754,6 +21411,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "noOffset",
           "package": "penny-lib",
@@ -19768,6 +21426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre these DateTimes the same instant in time, after adjusting for\n local timezones?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "sameInstant",
           "package": "penny-lib",
@@ -19778,6 +21437,7 @@
         "index": {
           "description": "Are these DateTimes the same instant in time after adjusting for local timezones",
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "sameInstant",
           "normalized": "DateTime-\u003eDateTime-\u003eBool",
@@ -19793,6 +21453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "seconds",
           "package": "penny-lib",
@@ -19802,6 +21463,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "seconds",
           "package": "penny-lib",
@@ -19815,6 +21477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows a DateTime in a pretty way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "showDateTime",
           "package": "penny-lib",
@@ -19825,6 +21488,7 @@
         "index": {
           "description": "Shows DateTime in pretty way",
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "showDateTime",
           "normalized": "DateTime-\u003eString",
@@ -19840,6 +21504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "timeZone",
           "package": "penny-lib",
@@ -19849,6 +21514,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "timeZone",
           "package": "penny-lib",
@@ -19862,6 +21528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "toUTC",
           "package": "penny-lib",
@@ -19871,6 +21538,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "toUTC",
           "normalized": "DateTime-\u003eUTCTime",
@@ -19886,6 +21554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "toZonedTime",
           "package": "penny-lib",
@@ -19895,6 +21564,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "toZonedTime",
           "normalized": "DateTime-\u003eZonedTime",
@@ -19910,6 +21580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "zeroHours",
           "package": "penny-lib",
@@ -19919,6 +21590,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "zeroHours",
           "package": "penny-lib",
@@ -19932,6 +21604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "zeroMinutes",
           "package": "penny-lib",
@@ -19941,6 +21614,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "zeroMinutes",
           "package": "penny-lib",
@@ -19954,6 +21628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "zeroSeconds",
           "package": "penny-lib",
@@ -19963,6 +21638,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits DateTime",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.DateTime",
           "name": "zeroSeconds",
           "package": "penny-lib",
@@ -19977,6 +21653,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThese are the bits that are \u003ca\u003eopen\u003c/a\u003e; that is, their constructors\n are exported. This includes most bits. Some bits that have open\n constructors are not in this module because they include other bits\n that do not have exported constructors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Open",
           "package": "penny-lib",
@@ -19986,6 +21663,7 @@
         "index": {
           "description": "These are the bits that are open that is their constructors are exported This includes most bits Some bits that have open constructors are not in this module because they include other bits that do not have exported constructors",
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Open",
           "package": "penny-lib",
@@ -19999,6 +21677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Account",
           "package": "penny-lib",
@@ -20007,6 +21686,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Account",
           "package": "penny-lib",
@@ -20020,6 +21700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Amount",
           "package": "penny-lib",
@@ -20028,6 +21709,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Amount",
           "package": "penny-lib",
@@ -20041,6 +21723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Commodity",
           "package": "penny-lib",
@@ -20049,6 +21732,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Commodity",
           "package": "penny-lib",
@@ -20062,6 +21746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "DrCr",
           "package": "penny-lib",
@@ -20070,6 +21755,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "DrCr",
           "package": "penny-lib",
@@ -20083,6 +21769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Entry",
           "package": "penny-lib",
@@ -20091,6 +21778,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Entry",
           "package": "penny-lib",
@@ -20105,6 +21793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe postings in each file are numbered in order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "FilePosting",
           "package": "penny-lib",
@@ -20114,6 +21803,7 @@
         "index": {
           "description": "The postings in each file are numbered in order",
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "FilePosting",
           "package": "penny-lib",
@@ -20128,6 +21818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe transactions in each file are numbered in order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "FileTransaction",
           "package": "penny-lib",
@@ -20137,6 +21828,7 @@
         "index": {
           "description": "The transactions in each file are numbered in order",
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "FileTransaction",
           "package": "penny-lib",
@@ -20151,6 +21843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the file in which a transaction appears.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Filename",
           "package": "penny-lib",
@@ -20160,6 +21853,7 @@
         "index": {
           "description": "The name of the file in which transaction appears",
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Filename",
           "package": "penny-lib",
@@ -20173,6 +21867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Flag",
           "package": "penny-lib",
@@ -20181,6 +21876,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Flag",
           "package": "penny-lib",
@@ -20195,6 +21891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll postings are numbered in order, beginning with the first\n posting in the first file and ending with the last posting\n in the last file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "GlobalPosting",
           "package": "penny-lib",
@@ -20204,6 +21901,7 @@
         "index": {
           "description": "All postings are numbered in order beginning with the first posting in the first file and ending with the last posting in the last file",
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "GlobalPosting",
           "package": "penny-lib",
@@ -20218,6 +21916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll transactions are numbered in order, beginning with the first\n transaction in the first file and ending with the last transaction\n in the last file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "GlobalTransaction",
           "package": "penny-lib",
@@ -20227,6 +21926,7 @@
         "index": {
           "description": "All transactions are numbered in order beginning with the first transaction in the first file and ending with the last transaction in the last file",
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "GlobalTransaction",
           "package": "penny-lib",
@@ -20241,6 +21941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere is one item in the list for each line of the memo. Do not\n include newlines in the texts themselves. However there is nothing\n to enforce this convention.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Memo",
           "package": "penny-lib",
@@ -20250,6 +21951,7 @@
         "index": {
           "description": "There is one item in the list for each line of the memo Do not include newlines in the texts themselves However there is nothing to enforce this convention",
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Memo",
           "package": "penny-lib",
@@ -20263,6 +21965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Number",
           "package": "penny-lib",
@@ -20271,6 +21974,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Number",
           "package": "penny-lib",
@@ -20284,6 +21988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Payee",
           "package": "penny-lib",
@@ -20292,6 +21997,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Payee",
           "package": "penny-lib",
@@ -20306,6 +22012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe line number on which a posting appears.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "PostingLine",
           "package": "penny-lib",
@@ -20315,6 +22022,7 @@
         "index": {
           "description": "The line number on which posting appears",
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "PostingLine",
           "package": "penny-lib",
@@ -20329,6 +22037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe line number on which a price appears.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "PriceLine",
           "package": "penny-lib",
@@ -20338,6 +22047,7 @@
         "index": {
           "description": "The line number on which price appears",
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "PriceLine",
           "package": "penny-lib",
@@ -20352,6 +22062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe commodity and and the quantity may appear with the commodity\n on the left (e.g. USD 2.14) or with the commodity on the right\n (e.g. 2.14 USD).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Side",
           "package": "penny-lib",
@@ -20361,6 +22072,7 @@
         "index": {
           "description": "The commodity and and the quantity may appear with the commodity on the left e.g USD or with the commodity on the right e.g USD",
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Side",
           "package": "penny-lib",
@@ -20375,6 +22087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere may or may not be a space in between the commodity and the\n quantity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "SpaceBetween",
           "package": "penny-lib",
@@ -20384,6 +22097,7 @@
         "index": {
           "description": "There may or may not be space in between the commodity and the quantity",
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "SpaceBetween",
           "package": "penny-lib",
@@ -20397,6 +22111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "SubAccount",
           "package": "penny-lib",
@@ -20405,6 +22120,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "SubAccount",
           "package": "penny-lib",
@@ -20418,6 +22134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Tag",
           "package": "penny-lib",
@@ -20426,6 +22143,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Tag",
           "package": "penny-lib",
@@ -20439,6 +22157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Tags",
           "package": "penny-lib",
@@ -20447,6 +22166,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Tags",
           "package": "penny-lib",
@@ -20461,6 +22181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe line number that the TopLine starts on (excluding the memo\n accompanying the TopLine).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "TopLineLine",
           "package": "penny-lib",
@@ -20470,6 +22191,7 @@
         "index": {
           "description": "The line number that the TopLine starts on excluding the memo accompanying the TopLine",
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "TopLineLine",
           "package": "penny-lib",
@@ -20484,6 +22206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe line number that the memo accompanying the TopLine starts on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "TopMemoLine",
           "package": "penny-lib",
@@ -20493,6 +22216,7 @@
         "index": {
           "description": "The line number that the memo accompanying the TopLine starts on",
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "TopMemoLine",
           "package": "penny-lib",
@@ -20506,6 +22230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Account",
           "package": "penny-lib",
@@ -20515,6 +22240,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Account",
           "package": "penny-lib",
@@ -20528,6 +22254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Amount",
           "package": "penny-lib",
@@ -20537,6 +22264,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Amount",
           "package": "penny-lib",
@@ -20550,6 +22278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Commodity",
           "package": "penny-lib",
@@ -20559,6 +22288,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Commodity",
           "package": "penny-lib",
@@ -20572,6 +22302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Credit",
           "package": "penny-lib",
@@ -20581,6 +22312,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Credit",
           "package": "penny-lib",
@@ -20594,6 +22326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Debit",
           "package": "penny-lib",
@@ -20603,6 +22336,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Debit",
           "package": "penny-lib",
@@ -20616,6 +22350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Entry",
           "package": "penny-lib",
@@ -20625,6 +22360,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Entry",
           "package": "penny-lib",
@@ -20638,6 +22374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "FilePosting",
           "package": "penny-lib",
@@ -20647,6 +22384,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "FilePosting",
           "package": "penny-lib",
@@ -20660,6 +22398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "FileTransaction",
           "package": "penny-lib",
@@ -20669,6 +22408,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "FileTransaction",
           "package": "penny-lib",
@@ -20682,6 +22422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Filename",
           "package": "penny-lib",
@@ -20691,6 +22432,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Filename",
           "package": "penny-lib",
@@ -20704,6 +22446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Flag",
           "package": "penny-lib",
@@ -20713,6 +22456,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Flag",
           "package": "penny-lib",
@@ -20726,6 +22470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "GlobalPosting",
           "package": "penny-lib",
@@ -20735,6 +22480,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "GlobalPosting",
           "package": "penny-lib",
@@ -20748,6 +22494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "GlobalTransaction",
           "package": "penny-lib",
@@ -20757,6 +22504,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "GlobalTransaction",
           "package": "penny-lib",
@@ -20770,6 +22518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Memo",
           "package": "penny-lib",
@@ -20779,6 +22528,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Memo",
           "package": "penny-lib",
@@ -20792,6 +22542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Number",
           "package": "penny-lib",
@@ -20801,6 +22552,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Number",
           "package": "penny-lib",
@@ -20814,6 +22566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Payee",
           "package": "penny-lib",
@@ -20823,6 +22576,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Payee",
           "package": "penny-lib",
@@ -20836,6 +22590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "PostingLine",
           "package": "penny-lib",
@@ -20845,6 +22600,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "PostingLine",
           "package": "penny-lib",
@@ -20858,6 +22614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "PriceLine",
           "package": "penny-lib",
@@ -20867,6 +22624,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "PriceLine",
           "package": "penny-lib",
@@ -20880,6 +22638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "SubAccount",
           "package": "penny-lib",
@@ -20889,6 +22648,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "SubAccount",
           "package": "penny-lib",
@@ -20902,6 +22662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Tag",
           "package": "penny-lib",
@@ -20911,6 +22672,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Tag",
           "package": "penny-lib",
@@ -20924,6 +22686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Tags",
           "package": "penny-lib",
@@ -20933,6 +22696,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "Tags",
           "package": "penny-lib",
@@ -20946,6 +22710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "TopLineLine",
           "package": "penny-lib",
@@ -20955,6 +22720,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "TopLineLine",
           "package": "penny-lib",
@@ -20968,6 +22734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "TopMemoLine",
           "package": "penny-lib",
@@ -20977,6 +22744,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "TopMemoLine",
           "package": "penny-lib",
@@ -20990,6 +22758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "amount",
           "package": "penny-lib",
@@ -20999,6 +22768,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "amount",
           "package": "penny-lib",
@@ -21011,6 +22781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "commodity",
           "package": "penny-lib",
@@ -21020,6 +22791,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "commodity",
           "package": "penny-lib",
@@ -21032,6 +22804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "drCr",
           "package": "penny-lib",
@@ -21041,6 +22814,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "drCr",
           "package": "penny-lib",
@@ -21055,6 +22829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDebit returns Credit; Credit returns Debit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "opposite",
           "package": "penny-lib",
@@ -21065,6 +22840,7 @@
         "index": {
           "description": "Debit returns Credit Credit returns Debit",
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "opposite",
           "normalized": "DrCr-\u003eDrCr",
@@ -21079,6 +22855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "qty",
           "package": "penny-lib",
@@ -21088,6 +22865,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "qty",
           "package": "penny-lib",
@@ -21100,6 +22878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unAccount",
           "package": "penny-lib",
@@ -21109,6 +22888,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unAccount",
           "normalized": "[SubAccount]",
@@ -21124,6 +22904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unCommodity",
           "package": "penny-lib",
@@ -21133,6 +22914,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unCommodity",
           "package": "penny-lib",
@@ -21146,6 +22928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unFilePosting",
           "package": "penny-lib",
@@ -21155,6 +22938,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unFilePosting",
           "package": "penny-lib",
@@ -21168,6 +22952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unFileTransaction",
           "package": "penny-lib",
@@ -21177,6 +22962,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unFileTransaction",
           "package": "penny-lib",
@@ -21190,6 +22976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unFilename",
           "package": "penny-lib",
@@ -21199,6 +22986,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unFilename",
           "package": "penny-lib",
@@ -21212,6 +23000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unFlag",
           "package": "penny-lib",
@@ -21221,6 +23010,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unFlag",
           "package": "penny-lib",
@@ -21234,6 +23024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unGlobalPosting",
           "package": "penny-lib",
@@ -21243,6 +23034,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unGlobalPosting",
           "package": "penny-lib",
@@ -21256,6 +23048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unGlobalTransaction",
           "package": "penny-lib",
@@ -21265,6 +23058,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unGlobalTransaction",
           "package": "penny-lib",
@@ -21278,6 +23072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unMemo",
           "package": "penny-lib",
@@ -21287,6 +23082,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unMemo",
           "normalized": "[Text]",
@@ -21302,6 +23098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unNumber",
           "package": "penny-lib",
@@ -21311,6 +23108,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unNumber",
           "package": "penny-lib",
@@ -21324,6 +23122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unPayee",
           "package": "penny-lib",
@@ -21333,6 +23132,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unPayee",
           "package": "penny-lib",
@@ -21346,6 +23146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unPostingLine",
           "package": "penny-lib",
@@ -21355,6 +23156,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unPostingLine",
           "package": "penny-lib",
@@ -21368,6 +23170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unPriceLine",
           "package": "penny-lib",
@@ -21377,6 +23180,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unPriceLine",
           "package": "penny-lib",
@@ -21390,6 +23194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unSubAccount",
           "package": "penny-lib",
@@ -21399,6 +23204,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unSubAccount",
           "package": "penny-lib",
@@ -21412,6 +23218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unTag",
           "package": "penny-lib",
@@ -21421,6 +23228,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unTag",
           "package": "penny-lib",
@@ -21434,6 +23242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unTags",
           "package": "penny-lib",
@@ -21443,6 +23252,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unTags",
           "normalized": "[Tag]",
@@ -21458,6 +23268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unTopLineLine",
           "package": "penny-lib",
@@ -21467,6 +23278,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unTopLineLine",
           "package": "penny-lib",
@@ -21480,6 +23292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unTopMemoLine",
           "package": "penny-lib",
@@ -21489,6 +23302,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Open",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Open",
           "name": "unTopMemoLine",
           "package": "penny-lib",
@@ -21502,6 +23316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "Price",
           "package": "penny-lib",
@@ -21510,6 +23325,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Price",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "Price",
           "package": "penny-lib",
@@ -21523,6 +23339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "CountPerUnit",
           "package": "penny-lib",
@@ -21531,6 +23348,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Price",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "CountPerUnit",
           "package": "penny-lib",
@@ -21544,6 +23362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "From",
           "package": "penny-lib",
@@ -21552,6 +23371,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Price",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "From",
           "package": "penny-lib",
@@ -21565,6 +23385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "Price",
           "package": "penny-lib",
@@ -21573,6 +23394,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Price",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "Price",
           "package": "penny-lib",
@@ -21586,6 +23408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "To",
           "package": "penny-lib",
@@ -21594,6 +23417,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Price",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "To",
           "package": "penny-lib",
@@ -21607,6 +23431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "CountPerUnit",
           "package": "penny-lib",
@@ -21616,6 +23441,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Price",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "CountPerUnit",
           "package": "penny-lib",
@@ -21629,6 +23455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "From",
           "package": "penny-lib",
@@ -21638,6 +23465,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Price",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "From",
           "package": "penny-lib",
@@ -21651,6 +23479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "To",
           "package": "penny-lib",
@@ -21660,6 +23489,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Price",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "To",
           "package": "penny-lib",
@@ -21674,6 +23504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds only if From and To are different commodities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "newPrice",
           "package": "penny-lib",
@@ -21684,6 +23515,7 @@
         "index": {
           "description": "Succeeds only if From and To are different commodities",
           "hierarchy": "Penny Lincoln Bits Price",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "newPrice",
           "normalized": "From-\u003eTo-\u003eCountPerUnit-\u003eMaybe Price",
@@ -21699,6 +23531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "unCountPerUnit",
           "package": "penny-lib",
@@ -21708,6 +23541,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Price",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "unCountPerUnit",
           "package": "penny-lib",
@@ -21721,6 +23555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "unFrom",
           "package": "penny-lib",
@@ -21730,6 +23565,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Price",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "unFrom",
           "package": "penny-lib",
@@ -21743,6 +23579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "unTo",
           "package": "penny-lib",
@@ -21752,6 +23589,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Price",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Price",
           "name": "unTo",
           "package": "penny-lib",
@@ -21766,6 +23604,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePenny quantities. A quantity is simply a count (possibly\n fractional) of something. It does not have a commodity or a\n Debit/Credit.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Qty",
           "package": "penny-lib",
@@ -21775,6 +23614,7 @@
         "index": {
           "description": "Penny quantities quantity is simply count possibly fractional of something It does not have commodity or Debit Credit",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Qty",
           "package": "penny-lib",
@@ -21789,6 +23629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe digit grouping character when the radix is a comma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "CommaGrp",
           "package": "penny-lib",
@@ -21798,6 +23639,7 @@
         "index": {
           "description": "The digit grouping character when the radix is comma",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "CommaGrp",
           "package": "penny-lib",
@@ -21811,6 +23653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Difference",
           "package": "penny-lib",
@@ -21819,6 +23662,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Difference",
           "package": "penny-lib",
@@ -21832,6 +23676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Digit",
           "package": "penny-lib",
@@ -21840,6 +23685,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Digit",
           "package": "penny-lib",
@@ -21853,6 +23699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "DigitList",
           "package": "penny-lib",
@@ -21861,6 +23708,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "DigitList",
           "package": "penny-lib",
@@ -21874,6 +23722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Digits",
           "package": "penny-lib",
@@ -21882,6 +23731,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Digits",
           "package": "penny-lib",
@@ -21896,6 +23746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll of the digits on a single side of a radix point. Typically\n this is parameterized on a type that represents the grouping\n character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "GroupedDigits",
           "package": "penny-lib",
@@ -21905,6 +23756,7 @@
         "index": {
           "description": "All of the digits on single side of radix point Typically this is parameterized on type that represents the grouping character",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "GroupedDigits",
           "package": "penny-lib",
@@ -21918,6 +23770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Grouper",
           "package": "penny-lib",
@@ -21926,6 +23779,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Grouper",
           "package": "penny-lib",
@@ -21939,6 +23793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "HasQty",
           "package": "penny-lib",
@@ -21947,6 +23802,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "HasQty",
           "package": "penny-lib",
@@ -21960,6 +23816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "PartyVotes",
           "package": "penny-lib",
@@ -21968,6 +23825,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "PartyVotes",
           "package": "penny-lib",
@@ -21982,6 +23840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe digit grouping character when the radix is a period.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "PeriodGrp",
           "package": "penny-lib",
@@ -21991,6 +23850,7 @@
         "index": {
           "description": "The digit grouping character when the radix is period",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "PeriodGrp",
           "package": "penny-lib",
@@ -22004,6 +23864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Places",
           "package": "penny-lib",
@@ -22012,6 +23873,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Places",
           "package": "penny-lib",
@@ -22026,6 +23888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA quantity is always greater than zero. Various odd questions\n happen if quantities can be zero. For instance, what if you have a\n debit whose quantity is zero? Does it require a balancing credit\n that is also zero? And how can you have a debit of zero anyway?\n\u003c/p\u003e\u003cp\u003eI can imagine situations where a quantity of zero might be useful;\n for instance maybe you want to specifically indicate that a\n particular posting in a transaction did not happen (for instance,\n that a paycheck deduction did not take place). I think the better\n way to handle that though would be through an addition to\n Debit/Credit - maybe Debit/Credit/Zero. Barring the addition of\n that, though, the best way to indicate a situation such as this\n would be through transaction memos.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWARNING\u003c/em\u003e - before doing comparisons or equality tests\n\u003c/p\u003e\u003cp\u003eThe Eq instance is derived. Therefore q1 == q2 only if q1 and q2\n have both the same significand and the same exponent. You may instead\n want \u003ccode\u003e\u003ca\u003eequivalent\u003c/a\u003e\u003c/code\u003e. Similarly, the Ord instance is derived. It\n compares based on the integral value of the significand and of the\n exponent. You may instead want \u003ccode\u003e\u003ca\u003ecompareQty\u003c/a\u003e\u003c/code\u003e, which compares after\n equalizing the exponents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Qty",
           "package": "penny-lib",
@@ -22035,6 +23898,7 @@
         "index": {
           "description": "quantity is always greater than zero Various odd questions happen if quantities can be zero For instance what if you have debit whose quantity is zero Does it require balancing credit that is also zero And how can you have debit of zero anyway can imagine situations where quantity of zero might be useful for instance maybe you want to specifically indicate that particular posting in transaction did not happen for instance that paycheck deduction did not take place think the better way to handle that though would be through an addition to Debit Credit maybe Debit Credit Zero Barring the addition of that though the best way to indicate situation such as this would be through transaction memos WARNING before doing comparisons or equality tests The Eq instance is derived Therefore q1 q2 only if q1 and q2 have both the same significand and the same exponent You may instead want equivalent Similarly the Ord instance is derived It compares based on the integral value of the significand and of the exponent You may instead want compareQty which compares after equalizing the exponents",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Qty",
           "package": "penny-lib",
@@ -22048,6 +23912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "QtyRep",
           "package": "penny-lib",
@@ -22056,6 +23921,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "QtyRep",
           "package": "penny-lib",
@@ -22069,6 +23935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Radix",
           "package": "penny-lib",
@@ -22077,6 +23944,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Radix",
           "package": "penny-lib",
@@ -22090,6 +23958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "SeatsWon",
           "package": "penny-lib",
@@ -22098,6 +23967,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "SeatsWon",
           "package": "penny-lib",
@@ -22111,6 +23981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Signif",
           "package": "penny-lib",
@@ -22119,6 +23990,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Signif",
           "package": "penny-lib",
@@ -22132,6 +24004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "TotSeats",
           "package": "penny-lib",
@@ -22140,6 +24013,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "TotSeats",
           "package": "penny-lib",
@@ -22154,6 +24028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA quantity representation that has both a whole number and a\n fractional part. Abstract because there must be a non-zero digit in\n here somewhere, which \u003ccode\u003e\u003ca\u003ewholeFrac\u003c/a\u003e\u003c/code\u003e checks for.  Typically this is\n parameterized on an instance of the Digits class, such as DigitList\n or GroupedDigits.  This allows separate types for values that\n cannot be grouped as well as those that can.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "WholeFrac",
           "package": "penny-lib",
@@ -22163,6 +24038,7 @@
         "index": {
           "description": "quantity representation that has both whole number and fractional part Abstract because there must be non-zero digit in here somewhere which wholeFrac checks for Typically this is parameterized on an instance of the Digits class such as DigitList or GroupedDigits This allows separate types for values that cannot be grouped as well as those that can",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "WholeFrac",
           "package": "penny-lib",
@@ -22177,6 +24053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA quantity representation that has a whole part only. Abstract\n because there must be a non-zero digit in here somewhere, which\n \u003ccode\u003e\u003ca\u003ewholeOnly\u003c/a\u003e\u003c/code\u003e checks for.  Typically this is parameterized on an\n instance of the Digits class, such as DigitList or GroupedDigits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "WholeOnly",
           "package": "penny-lib",
@@ -22186,6 +24063,7 @@
         "index": {
           "description": "quantity representation that has whole part only Abstract because there must be non-zero digit in here somewhere which wholeOnly checks for Typically this is parameterized on an instance of the Digits class such as DigitList or GroupedDigits",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "WholeOnly",
           "package": "penny-lib",
@@ -22200,6 +24078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypically this is parameterized on an instance of the Digits\n class, such as DigitList or GroupedDigits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "WholeOrFrac",
           "package": "penny-lib",
@@ -22209,6 +24088,7 @@
         "index": {
           "description": "Typically this is parameterized on an instance of the Digits class such as DigitList or GroupedDigits",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "WholeOrFrac",
           "package": "penny-lib",
@@ -22222,6 +24102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "WholeOrFracResult",
           "package": "penny-lib",
@@ -22230,6 +24111,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "WholeOrFracResult",
           "package": "penny-lib",
@@ -22243,6 +24125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D0",
           "package": "penny-lib",
@@ -22252,6 +24135,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D0",
           "package": "penny-lib",
@@ -22264,6 +24148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D1",
           "package": "penny-lib",
@@ -22273,6 +24158,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D1",
           "package": "penny-lib",
@@ -22285,6 +24171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D2",
           "package": "penny-lib",
@@ -22294,6 +24181,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D2",
           "package": "penny-lib",
@@ -22306,6 +24194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D3",
           "package": "penny-lib",
@@ -22315,6 +24204,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D3",
           "package": "penny-lib",
@@ -22327,6 +24217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D4",
           "package": "penny-lib",
@@ -22336,6 +24227,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D4",
           "package": "penny-lib",
@@ -22348,6 +24240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D5",
           "package": "penny-lib",
@@ -22357,6 +24250,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D5",
           "package": "penny-lib",
@@ -22369,6 +24263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D6",
           "package": "penny-lib",
@@ -22378,6 +24273,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D6",
           "package": "penny-lib",
@@ -22390,6 +24286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D7",
           "package": "penny-lib",
@@ -22399,6 +24296,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D7",
           "package": "penny-lib",
@@ -22411,6 +24309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D8",
           "package": "penny-lib",
@@ -22420,6 +24319,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D8",
           "package": "penny-lib",
@@ -22432,6 +24332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D9",
           "package": "penny-lib",
@@ -22441,6 +24342,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "D9",
           "package": "penny-lib",
@@ -22453,6 +24355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "DigitList",
           "package": "penny-lib",
@@ -22462,6 +24365,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "DigitList",
           "package": "penny-lib",
@@ -22475,6 +24379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Equal",
           "package": "penny-lib",
@@ -22484,6 +24389,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "Equal",
           "package": "penny-lib",
@@ -22497,6 +24403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "GroupedDigits",
           "package": "penny-lib",
@@ -22506,6 +24413,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "GroupedDigits",
           "package": "penny-lib",
@@ -22519,6 +24427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "LeftBiggerBy",
           "package": "penny-lib",
@@ -22528,6 +24437,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "LeftBiggerBy",
           "package": "penny-lib",
@@ -22541,6 +24451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "QGrouped",
           "package": "penny-lib",
@@ -22550,6 +24461,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "QGrouped",
           "package": "penny-lib",
@@ -22563,6 +24475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "QNoGrouping",
           "package": "penny-lib",
@@ -22572,6 +24485,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "QNoGrouping",
           "package": "penny-lib",
@@ -22585,6 +24499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "RightBiggerBy",
           "package": "penny-lib",
@@ -22594,6 +24509,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "RightBiggerBy",
           "package": "penny-lib",
@@ -22607,6 +24523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "WholeOrFrac",
           "package": "penny-lib",
@@ -22616,6 +24533,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "WholeOrFrac",
           "package": "penny-lib",
@@ -22629,6 +24547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "add",
           "package": "penny-lib",
@@ -22638,6 +24557,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "add",
           "normalized": "Qty-\u003eQty-\u003eQty",
@@ -22653,6 +24573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a Qty proportionally so that the sum of the results adds\n up to a given Qty. Fails if the allocation cannot be made (e.g. if\n it is impossible to allocate without overflowing Decimal.) The\n result will always add up to the given sum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "allocate",
           "package": "penny-lib",
@@ -22663,6 +24584,7 @@
         "index": {
           "description": "Allocate Qty proportionally so that the sum of the results adds up to given Qty Fails if the allocation cannot be made e.g if it is impossible to allocate without overflowing Decimal The result will always add up to the given sum",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "allocate",
           "normalized": "Qty-\u003e(Qty,[Qty])-\u003e(Qty,[Qty])",
@@ -22678,6 +24600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of QtyRep, determine the most common radix and\n grouping that are used.  If a single QtyRep is grouped, then the\n result is also grouped.  The most common grouping character\n determines which grouping character is used.\n\u003c/p\u003e\u003cp\u003eIf no QtyRep are grouped, then the most common radix point is used\n and the result is not grouped.\n\u003c/p\u003e\u003cp\u003eIf there is no radix point found, returns Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "bestRadGroup",
           "package": "penny-lib",
@@ -22688,6 +24611,7 @@
         "index": {
           "description": "Given list of QtyRep determine the most common radix and grouping that are used If single QtyRep is grouped then the result is also grouped The most common grouping character determines which grouping character is used If no QtyRep are grouped then the most common radix point is used and the result is not grouped If there is no radix point found returns Nothing",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "bestRadGroup",
           "normalized": "[QtyRep]-\u003eMaybe(S Radix PeriodGrp CommaGrp)",
@@ -22704,6 +24628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompares Qty after equalizing their exponents.\n\u003c/p\u003e\u003cpre\u003e compareQty (newQty 15 1) (newQty 1500 3) == EQ\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "compareQty",
           "package": "penny-lib",
@@ -22714,6 +24639,7 @@
         "index": {
           "description": "Compares Qty after equalizing their exponents compareQty newQty newQty EQ",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "compareQty",
           "normalized": "Qty-\u003eQty-\u003eOrdering",
@@ -22730,6 +24656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract the second Qty from the first, after equalizing their\n exponents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "difference",
           "package": "penny-lib",
@@ -22740,6 +24667,7 @@
         "index": {
           "description": "Subtract the second Qty from the first after equalizing their exponents",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "difference",
           "normalized": "Qty-\u003eQty-\u003eDifference",
@@ -22754,6 +24682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "digits",
           "package": "penny-lib",
@@ -22763,6 +24692,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "digits",
           "normalized": "a-\u003eDigitList",
@@ -22778,6 +24708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first chunk of digits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "dsFirstPart",
           "package": "penny-lib",
@@ -22788,6 +24719,7 @@
         "index": {
           "description": "The first chunk of digits",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "dsFirstPart",
           "package": "penny-lib",
@@ -22802,6 +24734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional subsequent chunks of digits. Each is a grouping\n character followed by additional digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "dsNextParts",
           "package": "penny-lib",
@@ -22812,6 +24745,7 @@
         "index": {
           "description": "Optional subsequent chunks of digits Each is grouping character followed by additional digits",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "dsNextParts",
           "normalized": "[(a,DigitList)]",
@@ -22827,6 +24761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "frac",
           "package": "penny-lib",
@@ -22836,6 +24771,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "frac",
           "normalized": "WholeFrac a-\u003ea",
@@ -22850,6 +24786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "groupChar",
           "package": "penny-lib",
@@ -22859,6 +24796,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "groupChar",
           "normalized": "a-\u003eChar",
@@ -22875,6 +24813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocates integers using the largest remainder method. This is\n the method used to allocate parliamentary seats in many countries,\n so the types are named accordingly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "largestRemainderMethod",
           "package": "penny-lib",
@@ -22884,6 +24823,7 @@
         "index": {
           "description": "Allocates integers using the largest remainder method This is the method used to allocate parliamentary seats in many countries so the types are named accordingly",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "largestRemainderMethod",
           "normalized": "TotSeats-\u003e[PartyVotes]-\u003e[SeatsWon]",
@@ -22899,6 +24839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "mult",
           "package": "penny-lib",
@@ -22908,6 +24849,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "mult",
           "normalized": "Qty-\u003eQty-\u003eQty",
@@ -22922,6 +24864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "newQty",
           "package": "penny-lib",
@@ -22931,6 +24874,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "newQty",
           "normalized": "Signif-\u003ePlaces-\u003eMaybe Qty",
@@ -22946,6 +24890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "places",
           "package": "penny-lib",
@@ -22955,6 +24900,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "places",
           "normalized": "Qty-\u003eInteger",
@@ -22970,6 +24916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignificand 1, exponent 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "qtyOne",
           "package": "penny-lib",
@@ -22980,6 +24927,7 @@
         "index": {
           "description": "Significand exponent",
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "qtyOne",
           "package": "penny-lib",
@@ -22993,6 +24941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "qtyToRep",
           "package": "penny-lib",
@@ -23002,6 +24951,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "qtyToRep",
           "normalized": "S Radix PeriodGrp CommaGrp-\u003eQty-\u003eQtyRep",
@@ -23017,6 +24967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "qtyToRepGrouped",
           "package": "penny-lib",
@@ -23026,6 +24977,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "qtyToRepGrouped",
           "normalized": "a-\u003eQty-\u003eWholeOrFrac(GroupedDigits a)",
@@ -23041,6 +24993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "qtyToRepNoGrouping",
           "package": "penny-lib",
@@ -23050,6 +25003,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "qtyToRepNoGrouping",
           "normalized": "Qty-\u003eWholeOrFrac DigitList",
@@ -23065,6 +25019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "showQtyRep",
           "package": "penny-lib",
@@ -23074,6 +25029,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "showQtyRep",
           "normalized": "QtyRep-\u003eText",
@@ -23089,6 +25045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "showRadix",
           "package": "penny-lib",
@@ -23098,6 +25055,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "showRadix",
           "normalized": "Radix-\u003eText",
@@ -23113,6 +25071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "signif",
           "package": "penny-lib",
@@ -23122,6 +25081,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "signif",
           "normalized": "Qty-\u003eInteger",
@@ -23136,6 +25096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "toQty",
           "package": "penny-lib",
@@ -23145,6 +25106,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "toQty",
           "normalized": "a-\u003eQty",
@@ -23160,6 +25122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "unDigitList",
           "package": "penny-lib",
@@ -23169,6 +25132,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "unDigitList",
           "package": "penny-lib",
@@ -23182,6 +25146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "unWholeOnly",
           "package": "penny-lib",
@@ -23191,6 +25156,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "unWholeOnly",
           "normalized": "WholeOnly a-\u003ea",
@@ -23206,6 +25172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "unWholeOrFrac",
           "package": "penny-lib",
@@ -23215,6 +25182,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "unWholeOrFrac",
           "package": "penny-lib",
@@ -23228,6 +25196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "whole",
           "package": "penny-lib",
@@ -23237,6 +25206,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "whole",
           "normalized": "WholeFrac a-\u003ea",
@@ -23251,6 +25221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "wholeFrac",
           "package": "penny-lib",
@@ -23259,6 +25230,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "wholeFrac",
           "normalized": "a-\u003ea-\u003eMaybe(WholeFrac a)",
@@ -23274,6 +25246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "wholeOnly",
           "package": "penny-lib",
@@ -23283,6 +25256,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "wholeOnly",
           "normalized": "a-\u003eMaybe(WholeOnly a)",
@@ -23298,6 +25272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "wholeOrFrac",
           "package": "penny-lib",
@@ -23306,6 +25281,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "wholeOrFrac",
           "normalized": "GroupedDigits a-\u003eMaybe(GroupedDigits a)-\u003eMaybe(Either(WholeOrFrac DigitList)(WholeOrFrac(GroupedDigits a)))",
@@ -23321,6 +25297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "wholeOrFracToQtyRep",
           "package": "penny-lib",
@@ -23330,6 +25307,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits Qty",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits.Qty",
           "name": "wholeOrFracToQtyRep",
           "normalized": "Either(WholeOrFracResult PeriodGrp)(WholeOrFracResult CommaGrp)-\u003eQtyRep",
@@ -23346,6 +25324,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEssential data types used to make Transactions and Postings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "Bits",
           "package": "penny-lib",
@@ -23355,6 +25334,7 @@
         "index": {
           "description": "Essential data types used to make Transactions and Postings",
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "Bits",
           "package": "penny-lib",
@@ -23369,6 +25349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll Postings have this data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "PostingCore",
           "package": "penny-lib",
@@ -23378,6 +25359,7 @@
         "index": {
           "description": "All Postings have this data",
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "PostingCore",
           "package": "penny-lib",
@@ -23392,6 +25374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the data that a Posting might have.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "PostingData",
           "package": "penny-lib",
@@ -23401,6 +25384,7 @@
         "index": {
           "description": "All the data that Posting might have",
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "PostingData",
           "package": "penny-lib",
@@ -23415,6 +25399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePostings from files have this additional data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "PostingFileMeta",
           "package": "penny-lib",
@@ -23424,6 +25409,7 @@
         "index": {
           "description": "Postings from files have this additional data",
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "PostingFileMeta",
           "package": "penny-lib",
@@ -23437,6 +25423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "PricePoint",
           "package": "penny-lib",
@@ -23445,6 +25432,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "PricePoint",
           "package": "penny-lib",
@@ -23459,6 +25447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery TopLine has this data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "TopLineCore",
           "package": "penny-lib",
@@ -23468,6 +25457,7 @@
         "index": {
           "description": "Every TopLine has this data",
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "TopLineCore",
           "package": "penny-lib",
@@ -23482,6 +25472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the data that a TopLine might have.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "TopLineData",
           "package": "penny-lib",
@@ -23491,6 +25482,7 @@
         "index": {
           "description": "All the data that TopLine might have",
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "TopLineData",
           "package": "penny-lib",
@@ -23505,6 +25497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTopLines from files have this metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "TopLineFileMeta",
           "package": "penny-lib",
@@ -23514,6 +25507,7 @@
         "index": {
           "description": "TopLines from files have this metadata",
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "TopLineFileMeta",
           "package": "penny-lib",
@@ -23527,6 +25521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "PostingCore",
           "package": "penny-lib",
@@ -23536,6 +25531,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "PostingCore",
           "package": "penny-lib",
@@ -23549,6 +25545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "PostingData",
           "package": "penny-lib",
@@ -23558,6 +25555,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "PostingData",
           "package": "penny-lib",
@@ -23571,6 +25569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "PostingFileMeta",
           "package": "penny-lib",
@@ -23580,6 +25579,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "PostingFileMeta",
           "package": "penny-lib",
@@ -23593,6 +25593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "PricePoint",
           "package": "penny-lib",
@@ -23602,6 +25603,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "PricePoint",
           "package": "penny-lib",
@@ -23615,6 +25617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "TopLineCore",
           "package": "penny-lib",
@@ -23624,6 +25627,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "TopLineCore",
           "package": "penny-lib",
@@ -23637,6 +25641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "TopLineData",
           "package": "penny-lib",
@@ -23646,6 +25651,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "TopLineData",
           "package": "penny-lib",
@@ -23659,6 +25665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "TopLineFileMeta",
           "package": "penny-lib",
@@ -23668,6 +25675,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "TopLineFileMeta",
           "package": "penny-lib",
@@ -23681,6 +25689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "dateTime",
           "package": "penny-lib",
@@ -23690,6 +25699,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "dateTime",
           "package": "penny-lib",
@@ -23703,6 +25713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "emptyPostingCore",
           "package": "penny-lib",
@@ -23712,6 +25723,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "emptyPostingCore",
           "normalized": "Account-\u003ePostingCore",
@@ -23727,6 +25739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "emptyPostingData",
           "package": "penny-lib",
@@ -23736,6 +25749,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "emptyPostingData",
           "normalized": "Account-\u003ePostingData",
@@ -23751,6 +25765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "emptyTopLineCore",
           "package": "penny-lib",
@@ -23760,6 +25775,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "emptyTopLineCore",
           "normalized": "DateTime-\u003eTopLineCore",
@@ -23775,6 +25791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "emptyTopLineData",
           "package": "penny-lib",
@@ -23784,6 +25801,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "emptyTopLineData",
           "normalized": "DateTime-\u003eTopLineData",
@@ -23799,6 +25817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "pAccount",
           "package": "penny-lib",
@@ -23808,6 +25827,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "pAccount",
           "package": "penny-lib",
@@ -23821,6 +25841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "pFilePosting",
           "package": "penny-lib",
@@ -23830,6 +25851,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "pFilePosting",
           "package": "penny-lib",
@@ -23843,6 +25865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "pFlag",
           "package": "penny-lib",
@@ -23852,6 +25875,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "pFlag",
           "package": "penny-lib",
@@ -23865,6 +25889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "pMemo",
           "package": "penny-lib",
@@ -23874,6 +25899,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "pMemo",
           "package": "penny-lib",
@@ -23887,6 +25913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "pNumber",
           "package": "penny-lib",
@@ -23896,6 +25923,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "pNumber",
           "package": "penny-lib",
@@ -23909,6 +25937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "pPayee",
           "package": "penny-lib",
@@ -23918,6 +25947,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "pPayee",
           "package": "penny-lib",
@@ -23931,6 +25961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "pPostingLine",
           "package": "penny-lib",
@@ -23940,6 +25971,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "pPostingLine",
           "package": "penny-lib",
@@ -23953,6 +25985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "pSide",
           "package": "penny-lib",
@@ -23962,6 +25995,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "pSide",
           "package": "penny-lib",
@@ -23975,6 +26009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "pSpaceBetween",
           "package": "penny-lib",
@@ -23984,6 +26019,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "pSpaceBetween",
           "package": "penny-lib",
@@ -23997,6 +26033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "pTags",
           "package": "penny-lib",
@@ -24006,6 +26043,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "pTags",
           "package": "penny-lib",
@@ -24019,6 +26057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "pdCore",
           "package": "penny-lib",
@@ -24028,6 +26067,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "pdCore",
           "package": "penny-lib",
@@ -24041,6 +26081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "pdFileMeta",
           "package": "penny-lib",
@@ -24050,6 +26091,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "pdFileMeta",
           "package": "penny-lib",
@@ -24063,6 +26105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "pdGlobal",
           "package": "penny-lib",
@@ -24072,6 +26115,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "pdGlobal",
           "package": "penny-lib",
@@ -24085,6 +26129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "ppSide",
           "package": "penny-lib",
@@ -24094,6 +26139,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "ppSide",
           "package": "penny-lib",
@@ -24107,6 +26153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "ppSpaceBetween",
           "package": "penny-lib",
@@ -24116,6 +26163,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "ppSpaceBetween",
           "package": "penny-lib",
@@ -24129,6 +26177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "price",
           "package": "penny-lib",
@@ -24138,6 +26187,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "price",
           "package": "penny-lib",
@@ -24150,6 +26200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "priceLine",
           "package": "penny-lib",
@@ -24159,6 +26210,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "priceLine",
           "package": "penny-lib",
@@ -24172,6 +26224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "tDateTime",
           "package": "penny-lib",
@@ -24181,6 +26234,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "tDateTime",
           "package": "penny-lib",
@@ -24194,6 +26248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "tFileTransaction",
           "package": "penny-lib",
@@ -24203,6 +26258,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "tFileTransaction",
           "package": "penny-lib",
@@ -24216,6 +26272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "tFilename",
           "package": "penny-lib",
@@ -24225,6 +26282,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "tFilename",
           "package": "penny-lib",
@@ -24238,6 +26296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "tFlag",
           "package": "penny-lib",
@@ -24247,6 +26306,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "tFlag",
           "package": "penny-lib",
@@ -24260,6 +26320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "tMemo",
           "package": "penny-lib",
@@ -24269,6 +26330,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "tMemo",
           "package": "penny-lib",
@@ -24282,6 +26344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "tNumber",
           "package": "penny-lib",
@@ -24291,6 +26354,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "tNumber",
           "package": "penny-lib",
@@ -24304,6 +26368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "tPayee",
           "package": "penny-lib",
@@ -24313,6 +26378,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "tPayee",
           "package": "penny-lib",
@@ -24326,6 +26392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "tTopLineLine",
           "package": "penny-lib",
@@ -24335,6 +26402,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "tTopLineLine",
           "package": "penny-lib",
@@ -24348,6 +26416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "tTopMemoLine",
           "package": "penny-lib",
@@ -24357,6 +26426,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "tTopMemoLine",
           "package": "penny-lib",
@@ -24370,6 +26440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "tlCore",
           "package": "penny-lib",
@@ -24379,6 +26450,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "tlCore",
           "package": "penny-lib",
@@ -24392,6 +26464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "tlFileMeta",
           "package": "penny-lib",
@@ -24401,6 +26474,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "tlFileMeta",
           "package": "penny-lib",
@@ -24414,6 +26488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Bits",
           "name": "tlGlobal",
           "package": "penny-lib",
@@ -24423,6 +26498,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Bits",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Bits",
           "name": "tlGlobal",
           "package": "penny-lib",
@@ -24437,6 +26513,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePartial functions that make common types in Lincoln. Some data\n types in Lincoln are deeply nested, with TextNonEmpty nested inside\n of a newtype, nested inside of a NonEmptyList, nested inside\n of... :) All the nesting ensures to the maximum extent possible\n that the type system reflects the restrictions that exist on\n Penny's data. For example, it would make no sense to have an empty\n account (that is, an account with no sub-accounts) or a sub-account\n whose name is an empty Text.\n\u003c/p\u003e\u003cp\u003eThe disadvantage of the nesting is that building these data types\n can be tedious if, for example, you want to build some data within\n a short custom Haskell program. Thus, this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Builders",
           "name": "Builders",
           "package": "penny-lib",
@@ -24446,6 +26523,7 @@
         "index": {
           "description": "Partial functions that make common types in Lincoln Some data types in Lincoln are deeply nested with TextNonEmpty nested inside of newtype nested inside of NonEmptyList nested inside of All the nesting ensures to the maximum extent possible that the type system reflects the restrictions that exist on Penny data For example it would make no sense to have an empty account that is an account with no sub-accounts or sub-account whose name is an empty Text The disadvantage of the nesting is that building these data types can be tedious if for example you want to build some data within short custom Haskell program Thus this module",
           "hierarchy": "Penny Lincoln Builders",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Builders",
           "name": "Builders",
           "package": "penny-lib",
@@ -24460,6 +26538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an Account. You supply a single Text, with colons to\n separate the different sub-accounts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Builders",
           "name": "account",
           "package": "penny-lib",
@@ -24470,6 +26549,7 @@
         "index": {
           "description": "Create an Account You supply single Text with colons to separate the different sub-accounts",
           "hierarchy": "Penny Lincoln Builders",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Builders",
           "name": "account",
           "normalized": "Text-\u003eAccount",
@@ -24485,6 +26565,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContainers for entries.\n\u003c/p\u003e\u003cp\u003eThis module is the key guardian of the core principle of\n double-entry accounting, which is that debits and credits must\n always balance. An \u003ccode\u003e\u003ca\u003eEnt\u003c/a\u003e\u003c/code\u003e is a container for an \u003ccode\u003eEntry\u003c/code\u003e. An \u003ccode\u003eEntry\u003c/code\u003e\n holds a \u003ccode\u003eDrCr\u003c/code\u003e and an \u003ccode\u003eAmount\u003c/code\u003e which, in turn, holds a \u003ccode\u003eCommodity\u003c/code\u003e\n and a \u003ccode\u003eQty\u003c/code\u003e. For a given \u003ccode\u003eCommodity\u003c/code\u003e in a particular transaction,\n the sum of the debits must always be equal to the sum of the\n credits.\n\u003c/p\u003e\u003cp\u003eIn addition to the \u003ccode\u003eEntry\u003c/code\u003e, the \u003ccode\u003e\u003ca\u003eEnt\u003c/a\u003e\u003c/code\u003e holds information about\n whether the particular \u003ccode\u003eEntry\u003c/code\u003e it holds is inferred or not. An Ent\n is \u003ccode\u003einferred\u003c/code\u003e if the user did not supply the entry, but Penny was\n able to deduce its \u003ccode\u003eEntry\u003c/code\u003e because proper entries were supplied for\n all the other postings in the transaction. The \u003ccode\u003e\u003ca\u003eEnt\u003c/a\u003e\u003c/code\u003e also holds\n arbitrary metadata--which will typically be other information about\n the particular posting, such as the payee, account, etc.\n\u003c/p\u003e\u003cp\u003eA collection of \u003ccode\u003e\u003ca\u003eEnt\u003c/a\u003e\u003c/code\u003e is an \u003ccode\u003e\u003ca\u003eEnts\u003c/a\u003e\u003c/code\u003e. This module will only create an\n \u003ccode\u003e\u003ca\u003eEnt\u003c/a\u003e\u003c/code\u003e as part of an \u003ccode\u003e\u003ca\u003eEnts\u003c/a\u003e\u003c/code\u003e (though you can later separate the \u003ccode\u003e\u003ca\u003eEnt\u003c/a\u003e\u003c/code\u003e\n from its other \u003ccode\u003e\u003ca\u003eEnts\u003c/a\u003e\u003c/code\u003e if you like.) In any given \u003ccode\u003e\u003ca\u003eEnts\u003c/a\u003e\u003c/code\u003e, all of the\n \u003ccode\u003e\u003ca\u003eEnt\u003c/a\u003e\u003c/code\u003e collectively have a zero balance.\n\u003c/p\u003e\u003cp\u003eThis module also contains type synonyms used to represent a\n Posting, which is an Ent bundled with its sibling Ents, and a\n Transaction.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "Ents",
           "package": "penny-lib",
@@ -24494,6 +26575,7 @@
         "index": {
           "description": "Containers for entries This module is the key guardian of the core principle of double-entry accounting which is that debits and credits must always balance An Ent is container for an Entry An Entry holds DrCr and an Amount which in turn holds Commodity and Qty For given Commodity in particular transaction the sum of the debits must always be equal to the sum of the credits In addition to the Entry the Ent holds information about whether the particular Entry it holds is inferred or not An Ent is inferred if the user did not supply the entry but Penny was able to deduce its Entry because proper entries were supplied for all the other postings in the transaction The Ent also holds arbitrary metadata--which will typically be other information about the particular posting such as the payee account etc collection of Ent is an Ents This module will only create an Ent as part of an Ents though you can later separate the Ent from its other Ents if you like In any given Ents all of the Ent collectively have zero balance This module also contains type synonyms used to represent Posting which is an Ent bundled with its sibling Ents and Transaction",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "Ents",
           "package": "penny-lib",
@@ -24508,6 +26590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about an entry, along with whether it is inferred and\n its metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "Ent",
           "package": "penny-lib",
@@ -24517,6 +26600,7 @@
         "index": {
           "description": "Information about an entry along with whether it is inferred and its metadata",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "Ent",
           "package": "penny-lib",
@@ -24530,6 +26614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "Ents",
           "package": "penny-lib",
@@ -24538,6 +26623,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "Ents",
           "package": "penny-lib",
@@ -24552,6 +26638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn a Posting, the Ent yielded by \u003ccode\u003e\u003ca\u003eheadEnt\u003c/a\u003e\u003c/code\u003e will be the posting of\n interest. The other sibling postings are also available for\n inspection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "Posting",
           "package": "penny-lib",
@@ -24561,6 +26648,7 @@
         "index": {
           "description": "In Posting the Ent yielded by headEnt will be the posting of interest The other sibling postings are also available for inspection",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "Posting",
           "package": "penny-lib",
@@ -24575,6 +26663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Transaction and a Posting are identical on the inside, but they\n have different semantic meanings so they are wrapped in newtypes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "Transaction",
           "package": "penny-lib",
@@ -24584,6 +26673,7 @@
         "index": {
           "description": "Transaction and Posting are identical on the inside but they have different semantic meanings so they are wrapped in newtypes",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "Transaction",
           "package": "penny-lib",
@@ -24597,6 +26687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "Posting",
           "package": "penny-lib",
@@ -24606,6 +26697,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "Posting",
           "package": "penny-lib",
@@ -24619,6 +26711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "Transaction",
           "package": "penny-lib",
@@ -24628,6 +26721,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "Transaction",
           "package": "penny-lib",
@@ -24642,6 +26736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe entry from an Ent.  If the Ent is inferred--that is, if the\n user did not supply an entry for it and Penny was able to infer\n the entry--this will be a Right with the inferred Entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "entry",
           "package": "penny-lib",
@@ -24652,6 +26747,7 @@
         "index": {
           "description": "The entry from an Ent If the Ent is inferred--that is if the user did not supply an entry for it and Penny was able to infer the entry--this will be Right with the inferred Entry",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "entry",
           "normalized": "Ent a-\u003eEither(Entry QtyRep)(Entry Qty)",
@@ -24667,6 +26763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an \u003ccode\u003e\u003ca\u003eEnts\u003c/a\u003e\u003c/code\u003e. At most, one of the Maybe Entry can be Nothing\n and this function will infer the remaining Entry. This function\n fails if it cannot create a balanced Ents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "ents",
           "package": "penny-lib",
@@ -24677,6 +26774,7 @@
         "index": {
           "description": "Creates an Ents At most one of the Maybe Entry can be Nothing and this function will infer the remaining Entry This function fails if it cannot create balanced Ents",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "ents",
           "normalized": "[(Maybe(Either(Entry QtyRep)(Entry Qty)),a)]-\u003eMaybe(Ents a)",
@@ -24692,6 +26790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information from the head posting in the View, which is the\n one you are most likely interested in. This never fails, as every\n Ents has at least two postings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "headEnt",
           "package": "penny-lib",
@@ -24702,6 +26801,7 @@
         "index": {
           "description": "Get information from the head posting in the View which is the one you are most likely interested in This never fails as every Ents has at least two postings",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "headEnt",
           "normalized": "Ents a-\u003eEnt a",
@@ -24718,6 +26818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the entry was inferred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "inferred",
           "package": "penny-lib",
@@ -24728,6 +26829,7 @@
         "index": {
           "description": "True if the entry was inferred",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "inferred",
           "normalized": "Ent a-\u003eBool",
@@ -24743,6 +26845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlter the metadata Ents, while examining the Ents themselves. If\n you only want to change the metadata and you don't need to examine\n the other contents of the Ent, use the Functor instance. You cannot\n change non-metadata aspects of the Ent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "mapEnts",
           "package": "penny-lib",
@@ -24753,6 +26856,7 @@
         "index": {
           "description": "Alter the metadata Ents while examining the Ents themselves If you only want to change the metadata and you don need to examine the other contents of the Ent use the Functor instance You cannot change non-metadata aspects of the Ent",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "mapEnts",
           "normalized": "(Ent a-\u003eb)-\u003eEnts a-\u003eEnts b",
@@ -24769,6 +26873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe metadata accompanying an Ent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "meta",
           "package": "penny-lib",
@@ -24779,6 +26884,7 @@
         "index": {
           "description": "The metadata accompanying an Ent",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "meta",
           "normalized": "Ent a-\u003ea",
@@ -24794,6 +26900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates \u003ccode\u003e\u003ca\u003eEnts\u003c/a\u003e\u003c/code\u003e. Unlike \u003ccode\u003e\u003ca\u003eents\u003c/a\u003e\u003c/code\u003e this function never fails because\n you are restricted in the inputs that you can give it. It will\n always infer the last Entry. All Entries except one will have the\n same DrCr; the last, inferred one will have the opposite DrCr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "rEnts",
           "package": "penny-lib",
@@ -24803,6 +26910,7 @@
         "index": {
           "description": "Creates Ents Unlike ents this function never fails because you are restricted in the inputs that you can give it It will always infer the last Entry All Entries except one will have the same DrCr the last inferred one will have the opposite DrCr",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "rEnts",
           "normalized": "Commodity-\u003eDrCr-\u003e(Either QtyRep Qty,a)-\u003e[(Either QtyRep Qty,a)]-\u003ea-\u003eEnts a",
@@ -24819,6 +26927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information on sibling Ents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "tailEnts",
           "package": "penny-lib",
@@ -24829,6 +26938,7 @@
         "index": {
           "description": "Get information on sibling Ents",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "tailEnts",
           "normalized": "Ents a-\u003e(Ent a,[Ent a])",
@@ -24845,6 +26955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits a Transaction into Postings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "transactionToPostings",
           "package": "penny-lib",
@@ -24855,6 +26966,7 @@
         "index": {
           "description": "Splits Transaction into Postings",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "transactionToPostings",
           "normalized": "Transaction-\u003e[Posting]",
@@ -24871,6 +26983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlter the metadata of Ents while examing their contents. If you\n do not need to examine their contents, use the Traversable\n instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "traverseEnts",
           "package": "penny-lib",
@@ -24881,6 +26994,7 @@
         "index": {
           "description": "Alter the metadata of Ents while examing their contents If you do not need to examine their contents use the Traversable instance",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "traverseEnts",
           "normalized": "(Ent a-\u003eb c)-\u003eEnts a-\u003eb(Ents c)",
@@ -24897,6 +27011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery Ents alwas contains at least two ents, and possibly\n additional ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "tupleEnts",
           "package": "penny-lib",
@@ -24907,6 +27022,7 @@
         "index": {
           "description": "Every Ents alwas contains at least two ents and possibly additional ones",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "tupleEnts",
           "normalized": "Ents a-\u003e(Ent a,Ent a,[Ent a])",
@@ -24922,6 +27038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "unEnts",
           "package": "penny-lib",
@@ -24931,6 +27048,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "unEnts",
           "normalized": "Ents a-\u003e[Ent a]",
@@ -24946,6 +27064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "unPosting",
           "package": "penny-lib",
@@ -24955,6 +27074,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "unPosting",
           "normalized": "(TopLineData,Ents PostingData)",
@@ -24970,6 +27090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "unTransaction",
           "package": "penny-lib",
@@ -24979,6 +27100,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "unTransaction",
           "normalized": "(TopLineData,Ents PostingData)",
@@ -24995,6 +27117,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e unrollSnd (undefined, []) == []\n unrollSnd (1, [1,2,3]) = [(1,1), (1,2), (1,3)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "unrollSnd",
           "package": "penny-lib",
@@ -25005,6 +27128,7 @@
         "index": {
           "description": "unrollSnd undefined unrollSnd",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "unrollSnd",
           "normalized": "(a,[b])-\u003e[(a,b)]",
@@ -25021,6 +27145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn a Posting, the Ent at the front of the list of Ents is the\n main posting. There are additional postings. This function\n rearranges the Ents multiple times so that each posting is at the\n head of the list exactly once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Ents",
           "name": "views",
           "package": "penny-lib",
@@ -25031,6 +27156,7 @@
         "index": {
           "description": "In Posting the Ent at the front of the list of Ents is the main posting There are additional postings This function rearranges the Ents multiple times so that each posting is at the head of the list exactly once",
           "hierarchy": "Penny Lincoln Ents",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Ents",
           "name": "views",
           "normalized": "Ents a-\u003e[Ents a]",
@@ -25045,6 +27171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Equivalent",
           "name": "Equivalent",
           "package": "penny-lib",
@@ -25053,6 +27180,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Equivalent",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Equivalent",
           "name": "Equivalent",
           "package": "penny-lib",
@@ -25067,6 +27195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComparisons for equivalency. Two items are equivalent if they\n have the same semantic meaning, even if the data in the two items\n is different.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Equivalent",
           "name": "Equivalent",
           "package": "penny-lib",
@@ -25076,6 +27205,7 @@
         "index": {
           "description": "Comparisons for equivalency Two items are equivalent if they have the same semantic meaning even if the data in the two items is different",
           "hierarchy": "Penny Lincoln Equivalent",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Equivalent",
           "name": "Equivalent",
           "package": "penny-lib",
@@ -25089,6 +27219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Equivalent",
           "name": "(==~)",
           "package": "penny-lib",
@@ -25098,6 +27229,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Equivalent",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Equivalent",
           "name": "(==~) ==~",
           "normalized": "a-\u003ea-\u003eBool",
@@ -25113,6 +27245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompares based on equivalency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Equivalent",
           "name": "compareEv",
           "package": "penny-lib",
@@ -25123,6 +27256,7 @@
         "index": {
           "description": "Compares based on equivalency",
           "hierarchy": "Penny Lincoln Equivalent",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Equivalent",
           "name": "compareEv",
           "normalized": "a-\u003ea-\u003eOrdering",
@@ -25138,6 +27272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Equivalent",
           "name": "equivalent",
           "package": "penny-lib",
@@ -25147,6 +27282,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Equivalent",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Equivalent",
           "name": "equivalent",
           "normalized": "a-\u003ea-\u003eBool",
@@ -25161,6 +27297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.HasText",
           "name": "HasText",
           "package": "penny-lib",
@@ -25169,6 +27306,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln HasText",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.HasText",
           "name": "HasText",
           "package": "penny-lib",
@@ -25183,6 +27321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps instances of HasTextList and provides a delimiter; the\n result is an instance of HasText.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.HasText",
           "name": "Delimited",
           "package": "penny-lib",
@@ -25192,6 +27331,7 @@
         "index": {
           "description": "Wraps instances of HasTextList and provides delimiter the result is an instance of HasText",
           "hierarchy": "Penny Lincoln HasText",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.HasText",
           "name": "Delimited",
           "package": "penny-lib",
@@ -25205,6 +27345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.HasText",
           "name": "HasText",
           "package": "penny-lib",
@@ -25213,6 +27354,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln HasText",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.HasText",
           "name": "HasText",
           "package": "penny-lib",
@@ -25226,6 +27368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.HasText",
           "name": "HasTextList",
           "package": "penny-lib",
@@ -25234,6 +27377,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln HasText",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.HasText",
           "name": "HasTextList",
           "package": "penny-lib",
@@ -25247,6 +27391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.HasText",
           "name": "Delimited",
           "package": "penny-lib",
@@ -25256,6 +27401,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln HasText",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.HasText",
           "name": "Delimited",
           "package": "penny-lib",
@@ -25269,6 +27415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.HasText",
           "name": "delimited",
           "package": "penny-lib",
@@ -25278,6 +27425,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln HasText",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.HasText",
           "name": "delimited",
           "package": "penny-lib",
@@ -25290,6 +27438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.HasText",
           "name": "delimiter",
           "package": "penny-lib",
@@ -25299,6 +27448,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln HasText",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.HasText",
           "name": "delimiter",
           "package": "penny-lib",
@@ -25311,6 +27461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.HasText",
           "name": "text",
           "package": "penny-lib",
@@ -25320,6 +27471,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln HasText",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.HasText",
           "name": "text",
           "normalized": "a-\u003eText",
@@ -25334,6 +27486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.HasText",
           "name": "textList",
           "package": "penny-lib",
@@ -25343,6 +27496,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln HasText",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.HasText",
           "name": "textList",
           "normalized": "a-\u003e[Text]",
@@ -25359,6 +27513,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType synonyms for functions dealing with text matching.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Matchers",
           "name": "Matchers",
           "package": "penny-lib",
@@ -25368,6 +27523,7 @@
         "index": {
           "description": "Type synonyms for functions dealing with text matching",
           "hierarchy": "Penny Lincoln Matchers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Matchers",
           "name": "Matchers",
           "package": "penny-lib",
@@ -25382,6 +27538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function that makes Matchers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Matchers",
           "name": "Factory",
           "package": "penny-lib",
@@ -25391,6 +27548,7 @@
         "index": {
           "description": "function that makes Matchers",
           "hierarchy": "Penny Lincoln Matchers",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Matchers",
           "name": "Factory",
           "package": "penny-lib",
@@ -25405,6 +27563,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions that return a boolean based upon some criterion that\n matches something, often a PostFam. Useful when filtering\n Postings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "Siblings",
           "package": "penny-lib",
@@ -25414,6 +27573,7 @@
         "index": {
           "description": "Functions that return boolean based upon some criterion that matches something often PostFam Useful when filtering Postings",
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "Siblings",
           "package": "penny-lib",
@@ -25427,6 +27587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "LPdct",
           "package": "penny-lib",
@@ -25435,6 +27596,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "LPdct",
           "package": "penny-lib",
@@ -25448,6 +27610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "MakePdct",
           "package": "penny-lib",
@@ -25456,6 +27619,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "MakePdct",
           "package": "penny-lib",
@@ -25469,6 +27633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "MakeSerialPdct",
           "package": "penny-lib",
@@ -25477,6 +27642,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "MakeSerialPdct",
           "package": "penny-lib",
@@ -25490,6 +27656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "account",
           "package": "penny-lib",
@@ -25499,6 +27666,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "account",
           "normalized": "Matcher-\u003eLPdct",
@@ -25513,6 +27681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "accountAny",
           "package": "penny-lib",
@@ -25522,6 +27691,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "accountAny",
           "normalized": "Matcher-\u003eLPdct",
@@ -25537,6 +27707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "accountLevel",
           "package": "penny-lib",
@@ -25546,6 +27717,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "accountLevel",
           "normalized": "Int-\u003eMatcher-\u003eLPdct",
@@ -25561,6 +27733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "backFilePosting",
           "package": "penny-lib",
@@ -25570,6 +27743,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "backFilePosting",
           "package": "penny-lib",
@@ -25583,6 +27757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "backFileTransaction",
           "package": "penny-lib",
@@ -25592,6 +27767,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "backFileTransaction",
           "package": "penny-lib",
@@ -25605,6 +27781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "backGlobalPosting",
           "package": "penny-lib",
@@ -25614,6 +27791,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "backGlobalPosting",
           "package": "penny-lib",
@@ -25627,6 +27805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "backGlobalTransaction",
           "package": "penny-lib",
@@ -25636,6 +27815,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "backGlobalTransaction",
           "package": "penny-lib",
@@ -25649,6 +27829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "commodity",
           "package": "penny-lib",
@@ -25658,6 +27839,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "commodity",
           "normalized": "Matcher-\u003eLPdct",
@@ -25672,6 +27854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "credit",
           "package": "penny-lib",
@@ -25681,6 +27864,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "credit",
           "package": "penny-lib",
@@ -25693,6 +27877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "debit",
           "package": "penny-lib",
@@ -25702,6 +27887,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "debit",
           "package": "penny-lib",
@@ -25714,6 +27900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "drCr",
           "package": "penny-lib",
@@ -25723,6 +27910,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "drCr",
           "normalized": "DrCr-\u003eLPdct",
@@ -25738,6 +27926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "flag",
           "package": "penny-lib",
@@ -25747,6 +27936,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "flag",
           "package": "penny-lib",
@@ -25759,6 +27949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "fwdFilePosting",
           "package": "penny-lib",
@@ -25768,6 +27959,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "fwdFilePosting",
           "package": "penny-lib",
@@ -25781,6 +27973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "fwdFileTransaction",
           "package": "penny-lib",
@@ -25790,6 +27983,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "fwdFileTransaction",
           "package": "penny-lib",
@@ -25803,6 +27997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "fwdGlobalPosting",
           "package": "penny-lib",
@@ -25812,6 +28007,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "fwdGlobalPosting",
           "package": "penny-lib",
@@ -25825,6 +28021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "fwdGlobalTransaction",
           "package": "penny-lib",
@@ -25834,6 +28031,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "fwdGlobalTransaction",
           "package": "penny-lib",
@@ -25847,6 +28045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "number",
           "package": "penny-lib",
@@ -25856,6 +28055,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "number",
           "package": "penny-lib",
@@ -25868,6 +28068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "parseQty",
           "package": "penny-lib",
@@ -25877,6 +28078,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "parseQty",
           "normalized": "Text-\u003eMaybe(Qty-\u003eLPdct)",
@@ -25892,6 +28094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "payee",
           "package": "penny-lib",
@@ -25901,6 +28104,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "payee",
           "package": "penny-lib",
@@ -25913,6 +28117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "postingMemo",
           "package": "penny-lib",
@@ -25922,6 +28127,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "postingMemo",
           "package": "penny-lib",
@@ -25936,6 +28142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Pdct that returns True if \u003ccode\u003ecompare subject qty\u003c/code\u003e returns the\n given Ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "qty",
           "package": "penny-lib",
@@ -25946,6 +28153,7 @@
         "index": {
           "description": "Pdct that returns True if compare subject qty returns the given Ordering",
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "qty",
           "normalized": "Ordering-\u003eQty-\u003eLPdct",
@@ -25961,6 +28169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if a posting is reconciled; that is, its flag is exactly\n \u003ccode\u003eR\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "reconciled",
           "package": "penny-lib",
@@ -25971,6 +28180,7 @@
         "index": {
           "description": "True if posting is reconciled that is its flag is exactly",
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "reconciled",
           "package": "penny-lib",
@@ -25984,6 +28194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes Pdct based on comparisons against a particular serial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "serialPdct",
           "package": "penny-lib",
@@ -25993,6 +28204,7 @@
         "index": {
           "description": "Makes Pdct based on comparisons against particular serial",
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "serialPdct",
           "normalized": "Text-\u003e((TopLineData,Ent PostingData)-\u003eMaybe Int)-\u003eInt-\u003eOrdering-\u003ePdct Posting",
@@ -26008,6 +28220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "tag",
           "package": "penny-lib",
@@ -26017,6 +28230,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates.Siblings",
           "name": "tag",
           "normalized": "Matcher-\u003eLPdct",
@@ -26032,6 +28246,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions that return a boolean based upon some criterion that\n matches something, often a PostFam. Useful when filtering\n Postings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "Predicates",
           "package": "penny-lib",
@@ -26041,6 +28256,7 @@
         "index": {
           "description": "Functions that return boolean based upon some criterion that matches something often PostFam Useful when filtering Postings",
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "Predicates",
           "package": "penny-lib",
@@ -26054,6 +28270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "LPdct",
           "package": "penny-lib",
@@ -26062,6 +28279,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "LPdct",
           "package": "penny-lib",
@@ -26075,6 +28293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "MakePdct",
           "package": "penny-lib",
@@ -26083,6 +28302,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "MakePdct",
           "package": "penny-lib",
@@ -26096,6 +28316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "MakeSerialPdct",
           "package": "penny-lib",
@@ -26104,6 +28325,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "MakeSerialPdct",
           "package": "penny-lib",
@@ -26117,6 +28339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "account",
           "package": "penny-lib",
@@ -26126,6 +28349,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "account",
           "normalized": "Matcher-\u003eLPdct",
@@ -26140,6 +28364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "accountAny",
           "package": "penny-lib",
@@ -26149,6 +28374,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "accountAny",
           "normalized": "Matcher-\u003eLPdct",
@@ -26164,6 +28390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "accountLevel",
           "package": "penny-lib",
@@ -26173,6 +28400,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "accountLevel",
           "normalized": "Int-\u003eMatcher-\u003eLPdct",
@@ -26188,6 +28416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "backFilePosting",
           "package": "penny-lib",
@@ -26197,6 +28426,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "backFilePosting",
           "package": "penny-lib",
@@ -26210,6 +28440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "backFileTransaction",
           "package": "penny-lib",
@@ -26219,6 +28450,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "backFileTransaction",
           "package": "penny-lib",
@@ -26232,6 +28464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "backGlobalPosting",
           "package": "penny-lib",
@@ -26241,6 +28474,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "backGlobalPosting",
           "package": "penny-lib",
@@ -26254,6 +28488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "backGlobalTransaction",
           "package": "penny-lib",
@@ -26263,6 +28498,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "backGlobalTransaction",
           "package": "penny-lib",
@@ -26276,6 +28512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "commodity",
           "package": "penny-lib",
@@ -26285,6 +28522,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "commodity",
           "normalized": "Matcher-\u003eLPdct",
@@ -26299,6 +28537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "credit",
           "package": "penny-lib",
@@ -26308,6 +28547,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "credit",
           "package": "penny-lib",
@@ -26320,6 +28560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "date",
           "package": "penny-lib",
@@ -26329,6 +28570,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "date",
           "normalized": "Ordering-\u003eUTCTime-\u003eLPdct",
@@ -26343,6 +28585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "debit",
           "package": "penny-lib",
@@ -26352,6 +28595,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "debit",
           "package": "penny-lib",
@@ -26364,6 +28608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "drCr",
           "package": "penny-lib",
@@ -26373,6 +28618,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "drCr",
           "normalized": "DrCr-\u003eLPdct",
@@ -26388,6 +28634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "filename",
           "package": "penny-lib",
@@ -26397,6 +28644,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "filename",
           "normalized": "Matcher-\u003eLPdct",
@@ -26411,6 +28659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "flag",
           "package": "penny-lib",
@@ -26420,6 +28669,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "flag",
           "package": "penny-lib",
@@ -26432,6 +28682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "fwdFilePosting",
           "package": "penny-lib",
@@ -26441,6 +28692,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "fwdFilePosting",
           "package": "penny-lib",
@@ -26454,6 +28706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "fwdFileTransaction",
           "package": "penny-lib",
@@ -26463,6 +28716,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "fwdFileTransaction",
           "package": "penny-lib",
@@ -26476,6 +28730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "fwdGlobalPosting",
           "package": "penny-lib",
@@ -26485,6 +28740,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "fwdGlobalPosting",
           "package": "penny-lib",
@@ -26498,6 +28754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "fwdGlobalTransaction",
           "package": "penny-lib",
@@ -26507,6 +28764,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "fwdGlobalTransaction",
           "package": "penny-lib",
@@ -26520,6 +28778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "number",
           "package": "penny-lib",
@@ -26529,6 +28788,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "number",
           "package": "penny-lib",
@@ -26541,6 +28801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "payee",
           "package": "penny-lib",
@@ -26550,6 +28811,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "payee",
           "package": "penny-lib",
@@ -26562,6 +28824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "postingMemo",
           "package": "penny-lib",
@@ -26571,6 +28834,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "postingMemo",
           "package": "penny-lib",
@@ -26584,6 +28848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "qty",
           "package": "penny-lib",
@@ -26593,6 +28858,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "qty",
           "normalized": "Ordering-\u003eQty-\u003eLPdct",
@@ -26608,6 +28874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if a posting is reconciled; that is, its flag is exactly\n \u003ccode\u003eR\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "reconciled",
           "package": "penny-lib",
@@ -26618,6 +28885,7 @@
         "index": {
           "description": "True if posting is reconciled that is its flag is exactly",
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "reconciled",
           "package": "penny-lib",
@@ -26631,6 +28899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes Pdct based on comparisons against a particular serial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "serialPdct",
           "package": "penny-lib",
@@ -26640,6 +28909,7 @@
         "index": {
           "description": "Makes Pdct based on comparisons against particular serial",
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "serialPdct",
           "normalized": "Text-\u003e(a-\u003eMaybe Int)-\u003eInt-\u003eOrdering-\u003ePdct a",
@@ -26655,6 +28925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "tag",
           "package": "penny-lib",
@@ -26664,6 +28935,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "tag",
           "normalized": "Matcher-\u003eLPdct",
@@ -26678,6 +28950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Predicates",
           "name": "transactionMemo",
           "package": "penny-lib",
@@ -26687,6 +28960,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Predicates",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Predicates",
           "name": "transactionMemo",
           "package": "penny-lib",
@@ -26701,6 +28975,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA database of price information. A PricePoint has a DateTime, a\n From commodity, a To commodity, and a QtyPerUnit. The PriceDb holds\n this information for several prices. You can query the database by\n supplying a from commodity, a to commodity, and a DateTime, and the\n database will give you the QtyPerUnit, if there is one.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.PriceDb",
           "name": "PriceDb",
           "package": "penny-lib",
@@ -26710,6 +28985,7 @@
         "index": {
           "description": "database of price information PricePoint has DateTime From commodity To commodity and QtyPerUnit The PriceDb holds this information for several prices You can query the database by supplying from commodity to commodity and DateTime and the database will give you the QtyPerUnit if there is one",
           "hierarchy": "Penny Lincoln PriceDb",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.PriceDb",
           "name": "PriceDb",
           "package": "penny-lib",
@@ -26724,6 +29000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PriceDb holds information about prices. Create an empty one\n using \u003ccode\u003e\u003ca\u003eemptyDb\u003c/a\u003e\u003c/code\u003e then fill it with values using foldl or similar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.PriceDb",
           "name": "PriceDb",
           "package": "penny-lib",
@@ -26733,6 +29010,7 @@
         "index": {
           "description": "The PriceDb holds information about prices Create an empty one using emptyDb then fill it with values using foldl or similar",
           "hierarchy": "Penny Lincoln PriceDb",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.PriceDb",
           "name": "PriceDb",
           "package": "penny-lib",
@@ -26747,6 +29025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting prices can fail; if it fails, an Error is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.PriceDb",
           "name": "PriceDbError",
           "package": "penny-lib",
@@ -26756,6 +29035,7 @@
         "index": {
           "description": "Getting prices can fail if it fails an Error is returned",
           "hierarchy": "Penny Lincoln PriceDb",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.PriceDb",
           "name": "PriceDbError",
           "package": "penny-lib",
@@ -26769,6 +29049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.PriceDb",
           "name": "CpuNotFound",
           "package": "penny-lib",
@@ -26778,6 +29059,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln PriceDb",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.PriceDb",
           "name": "CpuNotFound",
           "package": "penny-lib",
@@ -26791,6 +29073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.PriceDb",
           "name": "FromNotFound",
           "package": "penny-lib",
@@ -26800,6 +29083,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln PriceDb",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.PriceDb",
           "name": "FromNotFound",
           "package": "penny-lib",
@@ -26813,6 +29097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.PriceDb",
           "name": "ToNotFound",
           "package": "penny-lib",
@@ -26822,6 +29107,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln PriceDb",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.PriceDb",
           "name": "ToNotFound",
           "package": "penny-lib",
@@ -26836,6 +29122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a single price to the PriceDb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.PriceDb",
           "name": "addPrice",
           "package": "penny-lib",
@@ -26846,6 +29133,7 @@
         "index": {
           "description": "Add single price to the PriceDb",
           "hierarchy": "Penny Lincoln PriceDb",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.PriceDb",
           "name": "addPrice",
           "normalized": "PriceDb-\u003ePricePoint-\u003ePriceDb",
@@ -26862,6 +29150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an Amount and a Commodity to convert the amount to,\n converts the Amount to the given commodity. If the Amount given is\n already in the To commodity, simply returns what was passed in. Can\n fail and throw PriceDbError. Internally uses \u003ccode\u003e\u003ca\u003egetPrice\u003c/a\u003e\u003c/code\u003e, so read its\n documentation for details on how price lookup works.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.PriceDb",
           "name": "convertAsOf",
           "package": "penny-lib",
@@ -26872,6 +29161,7 @@
         "index": {
           "description": "Given an Amount and Commodity to convert the amount to converts the Amount to the given commodity If the Amount given is already in the To commodity simply returns what was passed in Can fail and throw PriceDbError Internally uses getPrice so read its documentation for details on how price lookup works",
           "hierarchy": "Penny Lincoln PriceDb",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.PriceDb",
           "name": "convertAsOf",
           "normalized": "PriceDb-\u003eDateTime-\u003eTo-\u003eAmount a-\u003eExceptional PriceDbError Qty",
@@ -26888,6 +29178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty PriceDb\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.PriceDb",
           "name": "emptyDb",
           "package": "penny-lib",
@@ -26898,6 +29189,7 @@
         "index": {
           "description": "An empty PriceDb",
           "hierarchy": "Penny Lincoln PriceDb",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.PriceDb",
           "name": "emptyDb",
           "package": "penny-lib",
@@ -26912,6 +29204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooks up values from the PriceDb. Throws \u003ca\u003eError\u003c/a\u003e if something\n fails.\n\u003c/p\u003e\u003cp\u003eThe DateTime is the time at which to find a price. If a price\n exists for that exact DateTime, that price is returned. If no price\n exists for that exact DateTime, but there is a price for an earlier\n DateTime, the latest possible price is returned. If there are no\n earlier prices, CpuNotFound is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.PriceDb",
           "name": "getPrice",
           "package": "penny-lib",
@@ -26922,6 +29215,7 @@
         "index": {
           "description": "Looks up values from the PriceDb Throws Error if something fails The DateTime is the time at which to find price If price exists for that exact DateTime that price is returned If no price exists for that exact DateTime but there is price for an earlier DateTime the latest possible price is returned If there are no earlier prices CpuNotFound is thrown",
           "hierarchy": "Penny Lincoln PriceDb",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.PriceDb",
           "name": "getPrice",
           "normalized": "PriceDb-\u003eFrom-\u003eTo-\u003eDateTime-\u003eExceptional PriceDbError CountPerUnit",
@@ -26938,6 +29232,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eQueries\u003c/a\u003e\u003c/code\u003e but instead of querying the main\n posting of the PostFam, queries the siblings. Therefore, these\n functions return a list, with each entry in the list containing the\n best answer for each sibling. There is one item in the list for\n each sibling, even if all these items contain the same data (for\n instance, a posting might have five siblings, but all five siblings\n might have the same payee. Nonetheless the \u003ccode\u003e\u003ca\u003epayee\u003c/a\u003e\u003c/code\u003e function will\n return a list of five items.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "Siblings",
           "package": "penny-lib",
@@ -26947,6 +29242,7 @@
         "index": {
           "description": "Like Queries but instead of querying the main posting of the PostFam queries the siblings Therefore these functions return list with each entry in the list containing the best answer for each sibling There is one item in the list for each sibling even if all these items contain the same data for instance posting might have five siblings but all five siblings might have the same payee Nonetheless the payee function will return list of five items",
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "Siblings",
           "package": "penny-lib",
@@ -26960,6 +29256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "account",
           "package": "penny-lib",
@@ -26969,6 +29266,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "account",
           "normalized": "Posting-\u003e[Account]",
@@ -26983,6 +29281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "amount",
           "package": "penny-lib",
@@ -26992,6 +29291,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "amount",
           "normalized": "Posting-\u003e[Either(Amount QtyRep)(Amount Qty)]",
@@ -27006,6 +29306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "balance",
           "package": "penny-lib",
@@ -27015,6 +29316,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "balance",
           "normalized": "Posting-\u003e[Balance]",
@@ -27030,6 +29332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor all siblings, uses information from the Posting if it is set;\n otherwise, uses data from the TopLine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "bestSibs",
           "package": "penny-lib",
@@ -27040,6 +29343,7 @@
         "index": {
           "description": "For all siblings uses information from the Posting if it is set otherwise uses data from the TopLine",
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "bestSibs",
           "normalized": "(PostingCore-\u003eMaybe a)-\u003e(TopLineCore-\u003eMaybe a)-\u003ePosting-\u003e[Maybe a]",
@@ -27055,6 +29359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "commodity",
           "package": "penny-lib",
@@ -27064,6 +29369,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "commodity",
           "normalized": "Posting-\u003e[Commodity]",
@@ -27078,6 +29384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "drCr",
           "package": "penny-lib",
@@ -27087,6 +29394,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "drCr",
           "normalized": "Posting-\u003e[DrCr]",
@@ -27102,6 +29410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "entry",
           "package": "penny-lib",
@@ -27111,6 +29420,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "entry",
           "normalized": "Posting-\u003e[Either(Entry QtyRep)(Entry Qty)]",
@@ -27125,6 +29435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "filePosting",
           "package": "penny-lib",
@@ -27134,6 +29445,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "filePosting",
           "normalized": "Posting-\u003e[Maybe FilePosting]",
@@ -27149,6 +29461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "flag",
           "package": "penny-lib",
@@ -27158,6 +29471,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "flag",
           "normalized": "Posting-\u003e[Maybe Flag]",
@@ -27172,6 +29486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "globalPosting",
           "package": "penny-lib",
@@ -27181,6 +29496,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "globalPosting",
           "normalized": "Posting-\u003e[Maybe GlobalPosting]",
@@ -27196,6 +29512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "globalTransaction",
           "package": "penny-lib",
@@ -27205,6 +29522,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "globalTransaction",
           "normalized": "Posting-\u003e[Maybe GlobalTransaction]",
@@ -27220,6 +29538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "number",
           "package": "penny-lib",
@@ -27229,6 +29548,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "number",
           "normalized": "Posting-\u003e[Maybe Number]",
@@ -27243,6 +29563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "payee",
           "package": "penny-lib",
@@ -27252,6 +29573,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "payee",
           "normalized": "Posting-\u003e[Maybe Payee]",
@@ -27266,6 +29588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "postingLine",
           "package": "penny-lib",
@@ -27275,6 +29598,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "postingLine",
           "normalized": "Posting-\u003e[Maybe PostingLine]",
@@ -27290,6 +29614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "postingMemo",
           "package": "penny-lib",
@@ -27299,6 +29624,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "postingMemo",
           "normalized": "Posting-\u003e[Maybe Memo]",
@@ -27314,6 +29640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "qty",
           "package": "penny-lib",
@@ -27323,6 +29650,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "qty",
           "normalized": "Posting-\u003e[Qty]",
@@ -27338,6 +29666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor all siblings, get the information from the Posting if it\n exists; otherwise Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "sibs",
           "package": "penny-lib",
@@ -27348,6 +29677,7 @@
         "index": {
           "description": "For all siblings get the information from the Posting if it exists otherwise Nothing",
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "sibs",
           "normalized": "(Ent PostingData-\u003ea)-\u003ePosting-\u003e[a]",
@@ -27362,6 +29692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "side",
           "package": "penny-lib",
@@ -27371,6 +29702,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "side",
           "normalized": "Posting-\u003e[Maybe Side]",
@@ -27385,6 +29717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "spaceBetween",
           "package": "penny-lib",
@@ -27394,6 +29727,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "spaceBetween",
           "normalized": "Posting-\u003e[Maybe SpaceBetween]",
@@ -27409,6 +29743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "tags",
           "package": "penny-lib",
@@ -27418,6 +29753,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries Siblings",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries.Siblings",
           "name": "tags",
           "normalized": "Posting-\u003e[Tags]",
@@ -27433,6 +29769,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExamining a Posting for a particular component of the main\n posting (as opposed to the sibling postings) in the Posting. For\n some components, such as the payee, the posting might have one\n piece of data while the TopLine has something else. These functions\n will examine the Posting first and, if it has no information, use\n the data from the TopLine if it is there.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "Queries",
           "package": "penny-lib",
@@ -27442,6 +29779,7 @@
         "index": {
           "description": "Examining Posting for particular component of the main posting as opposed to the sibling postings in the Posting For some components such as the payee the posting might have one piece of data while the TopLine has something else These functions will examine the Posting first and if it has no information use the data from the TopLine if it is there",
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "Queries",
           "package": "penny-lib",
@@ -27455,6 +29793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "account",
           "package": "penny-lib",
@@ -27464,6 +29803,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "account",
           "normalized": "Posting-\u003eAccount",
@@ -27478,6 +29818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "amount",
           "package": "penny-lib",
@@ -27487,6 +29828,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "amount",
           "normalized": "Posting-\u003eEither(Amount QtyRep)(Amount Qty)",
@@ -27501,6 +29843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "balance",
           "package": "penny-lib",
@@ -27510,6 +29853,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "balance",
           "normalized": "Posting-\u003eBalance",
@@ -27525,6 +29869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses the data from the Posting if it is set; otherwise, use the\n data from the TopLine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "best",
           "package": "penny-lib",
@@ -27535,6 +29880,7 @@
         "index": {
           "description": "Uses the data from the Posting if it is set otherwise use the data from the TopLine",
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "best",
           "normalized": "(TopLineData-\u003eMaybe a)-\u003e(Ents PostingData-\u003eMaybe a)-\u003ePosting-\u003eMaybe a",
@@ -27549,6 +29895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "commodity",
           "package": "penny-lib",
@@ -27558,6 +29905,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "commodity",
           "normalized": "Posting-\u003eCommodity",
@@ -27572,6 +29920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "dateTime",
           "package": "penny-lib",
@@ -27581,6 +29930,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "dateTime",
           "normalized": "Posting-\u003eDateTime",
@@ -27596,6 +29946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "drCr",
           "package": "penny-lib",
@@ -27605,6 +29956,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "drCr",
           "normalized": "Posting-\u003eDrCr",
@@ -27620,6 +29972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "eiQty",
           "package": "penny-lib",
@@ -27629,6 +29982,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "eiQty",
           "normalized": "Posting-\u003eEither QtyRep Qty",
@@ -27644,6 +29998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "entry",
           "package": "penny-lib",
@@ -27653,6 +30008,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "entry",
           "normalized": "Posting-\u003eEither(Entry QtyRep)(Entry Qty)",
@@ -27667,6 +30023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "filePosting",
           "package": "penny-lib",
@@ -27676,6 +30033,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "filePosting",
           "normalized": "Posting-\u003eMaybe FilePosting",
@@ -27691,6 +30049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "fileTransaction",
           "package": "penny-lib",
@@ -27700,6 +30059,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "fileTransaction",
           "normalized": "Posting-\u003eMaybe FileTransaction",
@@ -27715,6 +30075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "filename",
           "package": "penny-lib",
@@ -27724,6 +30085,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "filename",
           "normalized": "Posting-\u003eMaybe Filename",
@@ -27738,6 +30100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "flag",
           "package": "penny-lib",
@@ -27747,6 +30110,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "flag",
           "normalized": "Posting-\u003eMaybe Flag",
@@ -27761,6 +30125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "globalPosting",
           "package": "penny-lib",
@@ -27770,6 +30135,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "globalPosting",
           "normalized": "Posting-\u003eMaybe GlobalPosting",
@@ -27785,6 +30151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "globalTransaction",
           "package": "penny-lib",
@@ -27794,6 +30161,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "globalTransaction",
           "normalized": "Posting-\u003eMaybe GlobalTransaction",
@@ -27809,6 +30177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "localDay",
           "package": "penny-lib",
@@ -27818,6 +30187,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "localDay",
           "normalized": "Posting-\u003eDay",
@@ -27833,6 +30203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "number",
           "package": "penny-lib",
@@ -27842,6 +30213,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "number",
           "normalized": "Posting-\u003eMaybe Number",
@@ -27856,6 +30228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "payee",
           "package": "penny-lib",
@@ -27865,6 +30238,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "payee",
           "normalized": "Posting-\u003eMaybe Payee",
@@ -27879,6 +30253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "postingLine",
           "package": "penny-lib",
@@ -27888,6 +30263,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "postingLine",
           "normalized": "Posting-\u003eMaybe PostingLine",
@@ -27903,6 +30279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "postingMemo",
           "package": "penny-lib",
@@ -27912,6 +30289,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "postingMemo",
           "normalized": "Posting-\u003eMaybe Memo",
@@ -27928,6 +30306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery Posting either has a Qty or it can be computed from its QtyRep.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "qty",
           "package": "penny-lib",
@@ -27938,6 +30317,7 @@
         "index": {
           "description": "Every Posting either has Qty or it can be computed from its QtyRep",
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "qty",
           "normalized": "Posting-\u003eQty",
@@ -27952,6 +30332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "side",
           "package": "penny-lib",
@@ -27961,6 +30342,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "side",
           "normalized": "Posting-\u003eMaybe Side",
@@ -27975,6 +30357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "spaceBetween",
           "package": "penny-lib",
@@ -27984,6 +30367,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "spaceBetween",
           "normalized": "Posting-\u003eMaybe SpaceBetween",
@@ -27999,6 +30383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "tags",
           "package": "penny-lib",
@@ -28008,6 +30393,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "tags",
           "normalized": "Posting-\u003eTags",
@@ -28022,6 +30408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "topLineLine",
           "package": "penny-lib",
@@ -28031,6 +30418,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "topLineLine",
           "normalized": "Posting-\u003eMaybe TopLineLine",
@@ -28046,6 +30434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "topMemoLine",
           "package": "penny-lib",
@@ -28055,6 +30444,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "topMemoLine",
           "normalized": "Posting-\u003eMaybe TopMemoLine",
@@ -28070,6 +30460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Queries",
           "name": "transactionMemo",
           "package": "penny-lib",
@@ -28079,6 +30470,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Queries",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Queries",
           "name": "transactionMemo",
           "normalized": "Posting-\u003eMaybe Memo",
@@ -28094,6 +30486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Serial",
           "name": "Serial",
           "package": "penny-lib",
@@ -28102,6 +30495,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Serial",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Serial",
           "name": "Serial",
           "package": "penny-lib",
@@ -28115,6 +30509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Serial",
           "name": "Serial",
           "package": "penny-lib",
@@ -28123,6 +30518,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Serial",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Serial",
           "name": "Serial",
           "package": "penny-lib",
@@ -28136,6 +30532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Serial",
           "name": "backward",
           "package": "penny-lib",
@@ -28145,6 +30542,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Serial",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Serial",
           "name": "backward",
           "normalized": "Serial-\u003eInt",
@@ -28159,6 +30557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Serial",
           "name": "forward",
           "package": "penny-lib",
@@ -28168,6 +30567,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Serial",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Serial",
           "name": "forward",
           "normalized": "Serial-\u003eInt",
@@ -28182,6 +30582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Serial",
           "name": "serialItems",
           "package": "penny-lib",
@@ -28191,6 +30592,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Serial",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Serial",
           "name": "serialItems",
           "normalized": "(Serial-\u003ea-\u003eb)-\u003e[a]-\u003e[b]",
@@ -28207,6 +30609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds serials to items that are nested within other items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Serial",
           "name": "serialNestedItems",
           "package": "penny-lib",
@@ -28216,6 +30619,7 @@
         "index": {
           "description": "Adds serials to items that are nested within other items",
           "hierarchy": "Penny Lincoln Serial",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Serial",
           "name": "serialNestedItems",
           "normalized": "(a-\u003eEither b(c d,Serial-\u003ed-\u003ee,c e-\u003eb))-\u003e[a]-\u003e[b]",
@@ -28231,6 +30635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln.Serial",
           "name": "serialSomeItems",
           "package": "penny-lib",
@@ -28240,6 +30645,7 @@
         },
         "index": {
           "hierarchy": "Penny Lincoln Serial",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln.Serial",
           "name": "serialSomeItems",
           "normalized": "(a-\u003eEither b(Serial-\u003eb))-\u003e[a]-\u003e[b]",
@@ -28256,6 +30662,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLincoln - the Penny core\n\u003c/p\u003e\u003cp\u003ePenny's core types and classes are here. This module re-exports the\n most useful things. For more details you will want to look at the\n sub-modules. Also, not all types and functions are re-exported due\n to naming conflicts. In particular, neither\n \u003ca\u003ePenny.Lincoln.Predicates\u003c/a\u003e nor \u003ca\u003ePenny.Lincoln.Queries\u003c/a\u003e is exported\n from here due to the blizzard of name conflicts that would result.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln",
           "name": "Lincoln",
           "package": "penny-lib",
@@ -28265,6 +30672,7 @@
         "index": {
           "description": "Lincoln the Penny core Penny core types and classes are here This module re-exports the most useful things For more details you will want to look at the sub-modules Also not all types and functions are re-exported due to naming conflicts In particular neither Penny.Lincoln.Predicates nor Penny.Lincoln.Queries is exported from here due to the blizzard of name conflicts that would result",
           "hierarchy": "Penny Lincoln",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln",
           "name": "Lincoln",
           "package": "penny-lib",
@@ -28279,6 +30687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays a PostFam in a one line format.\n\u003c/p\u003e\u003cp\u003eFormat:\n\u003c/p\u003e\u003cp\u003eFile LineNo Date Payee Acct DrCr Cmdty Qty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Lincoln",
           "name": "display",
           "package": "penny-lib",
@@ -28288,6 +30697,7 @@
         "index": {
           "description": "Displays PostFam in one line format Format File LineNo Date Payee Acct DrCr Cmdty Qty",
           "hierarchy": "Penny Lincoln",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Lincoln",
           "name": "display",
           "normalized": "(Amount Qty-\u003eText)-\u003ePosting-\u003eText",
@@ -28303,6 +30713,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eShield - the Penny runtime environment\n\u003c/p\u003e\u003cp\u003eBoth Cabin and Copper can benefit from knowing information about\n the Penny runtime environment, such as environment variables and\n whether standard output is a terminal. That information is provided\n by the Runtime type. In the future this module may also provide\n information about the POSIX locale configuration. For now, that\n information would require reaching into the FFI and so it is not\n implemented.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "Shield",
           "package": "penny-lib",
@@ -28312,6 +30723,7 @@
         "index": {
           "description": "Shield the Penny runtime environment Both Cabin and Copper can benefit from knowing information about the Penny runtime environment such as environment variables and whether standard output is terminal That information is provided by the Runtime type In the future this module may also provide information about the POSIX locale configuration For now that information would require reaching into the FFI and so it is not implemented",
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "Shield",
           "package": "penny-lib",
@@ -28325,6 +30737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "Output",
           "package": "penny-lib",
@@ -28333,6 +30746,7 @@
         },
         "index": {
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "Output",
           "package": "penny-lib",
@@ -28347,6 +30761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about the runtime environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "Runtime",
           "package": "penny-lib",
@@ -28356,6 +30771,7 @@
         "index": {
           "description": "Information about the runtime environment",
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "Runtime",
           "package": "penny-lib",
@@ -28369,6 +30785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "ScreenLines",
           "package": "penny-lib",
@@ -28377,6 +30794,7 @@
         },
         "index": {
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "ScreenLines",
           "package": "penny-lib",
@@ -28390,6 +30808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "ScreenWidth",
           "package": "penny-lib",
@@ -28398,6 +30817,7 @@
         },
         "index": {
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "ScreenWidth",
           "package": "penny-lib",
@@ -28411,6 +30831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "Term",
           "package": "penny-lib",
@@ -28419,6 +30840,7 @@
         },
         "index": {
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "Term",
           "package": "penny-lib",
@@ -28432,6 +30854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "IsTTY",
           "package": "penny-lib",
@@ -28441,6 +30864,7 @@
         },
         "index": {
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "IsTTY",
           "package": "penny-lib",
@@ -28454,6 +30878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "NotTTY",
           "package": "penny-lib",
@@ -28463,6 +30888,7 @@
         },
         "index": {
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "NotTTY",
           "package": "penny-lib",
@@ -28477,6 +30903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines which Chunk Term to use based on whether standard\n output is a terminal. Uses Dumb if standard output is not a\n terminal; otherwise, uses the TERM environment variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "autoTerm",
           "package": "penny-lib",
@@ -28487,6 +30914,7 @@
         "index": {
           "description": "Determines which Chunk Term to use based on whether standard output is terminal Uses Dumb if standard output is not terminal otherwise uses the TERM environment variable",
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "autoTerm",
           "normalized": "Runtime-\u003eTerm",
@@ -28502,6 +30930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "currentTime",
           "package": "penny-lib",
@@ -28511,6 +30940,7 @@
         },
         "index": {
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "currentTime",
           "normalized": "Runtime-\u003eDateTime",
@@ -28550,6 +30980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "output",
           "package": "penny-lib",
@@ -28559,6 +30990,7 @@
         },
         "index": {
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "output",
           "normalized": "Runtime-\u003eOutput",
@@ -28573,6 +31005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "runtime",
           "package": "penny-lib",
@@ -28582,6 +31015,7 @@
         },
         "index": {
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "runtime",
           "package": "penny-lib",
@@ -28594,6 +31028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "screenLines",
           "package": "penny-lib",
@@ -28603,6 +31038,7 @@
         },
         "index": {
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "screenLines",
           "normalized": "Runtime-\u003eMaybe ScreenLines",
@@ -28618,6 +31054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "screenWidth",
           "package": "penny-lib",
@@ -28627,6 +31064,7 @@
         },
         "index": {
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "screenWidth",
           "normalized": "Runtime-\u003eMaybe ScreenWidth",
@@ -28642,6 +31080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "term",
           "package": "penny-lib",
@@ -28651,6 +31090,7 @@
         },
         "index": {
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "term",
           "normalized": "Runtime-\u003eMaybe Term",
@@ -28666,6 +31106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines which Chunk Term to use based on the TERM environment\n variable, regardless of whether standard output is a terminal. Uses\n Dumb if TERM is not set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "termFromEnv",
           "package": "penny-lib",
@@ -28676,6 +31117,7 @@
         "index": {
           "description": "Determines which Chunk Term to use based on the TERM environment variable regardless of whether standard output is terminal Uses Dumb if TERM is not set",
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "termFromEnv",
           "normalized": "Runtime-\u003eTerm",
@@ -28691,6 +31133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "unScreenLines",
           "package": "penny-lib",
@@ -28700,6 +31143,7 @@
         },
         "index": {
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "unScreenLines",
           "normalized": "ScreenLines-\u003eInt",
@@ -28715,6 +31159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Shield",
           "name": "unScreenWidth",
           "package": "penny-lib",
@@ -28724,6 +31169,7 @@
         },
         "index": {
           "hierarchy": "Penny Shield",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Shield",
           "name": "unScreenWidth",
           "normalized": "ScreenWidth-\u003eInt",
@@ -28740,6 +31186,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA nested map. The values in each NestedMap are tuples, with the\n first element of the tuple being a label that you select and the\n second value being another NestedMap. Functions are provided so you\n may query the map at any level or insert new labels (and,\n therefore, new keys) at any level.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.NestedMap",
           "name": "NestedMap",
           "package": "penny-lib",
@@ -28749,6 +31196,7 @@
         "index": {
           "description": "nested map The values in each NestedMap are tuples with the first element of the tuple being label that you select and the second value being another NestedMap Functions are provided so you may query the map at any level or insert new labels and therefore new keys at any level",
           "hierarchy": "Penny Steel NestedMap",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.NestedMap",
           "name": "NestedMap",
           "package": "penny-lib",
@@ -28762,6 +31210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.NestedMap",
           "name": "NestedMap",
           "package": "penny-lib",
@@ -28770,6 +31219,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel NestedMap",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.NestedMap",
           "name": "NestedMap",
           "package": "penny-lib",
@@ -28783,6 +31233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.NestedMap",
           "name": "NestedMap",
           "package": "penny-lib",
@@ -28792,6 +31243,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel NestedMap",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.NestedMap",
           "name": "NestedMap",
           "package": "penny-lib",
@@ -28806,6 +31258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeaves all keys of the map and submaps the same. Changes each\n label to reflect the total of that label and of all the labels of\n the maps within the NestedMap accompanying the label. Returns the\n total of the entire NestedMap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.NestedMap",
           "name": "cumulativeTotal",
           "package": "penny-lib",
@@ -28816,6 +31269,7 @@
         "index": {
           "description": "Leaves all keys of the map and submaps the same Changes each label to reflect the total of that label and of all the labels of the maps within the NestedMap accompanying the label Returns the total of the entire NestedMap",
           "hierarchy": "Penny Steel NestedMap",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.NestedMap",
           "name": "cumulativeTotal",
           "normalized": "NestedMap a b-\u003e(b,NestedMap a b)",
@@ -28832,6 +31286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of keys, find the key that is furthest down in the\n map that matches the requested list of keys. Returns [(k, l)],\n where the first item in the list is the topmost key found and its\n matching label, and the last item in the list is the deepest key\n found and its matching label. (Often you will be most interested\n in the deepest key.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.NestedMap",
           "name": "descend",
           "package": "penny-lib",
@@ -28842,6 +31297,7 @@
         "index": {
           "description": "Given list of keys find the key that is furthest down in the map that matches the requested list of keys Returns where the first item in the list is the topmost key found and its matching label and the last item in the list is the deepest key found and its matching label Often you will be most interested in the deepest key",
           "hierarchy": "Penny Steel NestedMap",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.NestedMap",
           "name": "descend",
           "normalized": "[a]-\u003eNestedMap a b-\u003e[(a,b)]",
@@ -28857,6 +31313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty NestedMap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.NestedMap",
           "name": "empty",
           "package": "penny-lib",
@@ -28867,6 +31324,7 @@
         "index": {
           "description": "An empty NestedMap",
           "hierarchy": "Penny Steel NestedMap",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.NestedMap",
           "name": "empty",
           "package": "penny-lib",
@@ -28880,6 +31338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescends through the NestedMap one level at a time, proceeding\n key by key from left to right through the list of keys given. At\n the last key, appends the given label to the labels already\n present; if no label is present, uses mempty and mappend to create\n a new label. If the list of keys is empty, does nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.NestedMap",
           "name": "insert",
           "package": "penny-lib",
@@ -28890,6 +31349,7 @@
         "index": {
           "description": "Descends through the NestedMap one level at time proceeding key by key from left to right through the list of keys given At the last key appends the given label to the labels already present if no label is present uses mempty and mappend to create new label If the list of keys is empty does nothing",
           "hierarchy": "Penny Steel NestedMap",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.NestedMap",
           "name": "insert",
           "normalized": "NestedMap a b-\u003e[a]-\u003eb-\u003eNestedMap a b",
@@ -28905,6 +31365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescends through a NestedMap with successive keys in the list,\n proceeding from left to right. At any given level, if the key\n given does not already exist, then inserts an empty submap and\n applies the given label modification function to Nothing to\n determine the new label. If the given key already does exist, then\n preserves the existing submap and applies the given label\n modification function to (Just oldlabel) to determine the new\n label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.NestedMap",
           "name": "relabel",
           "package": "penny-lib",
@@ -28915,6 +31376,7 @@
         "index": {
           "description": "Descends through NestedMap with successive keys in the list proceeding from left to right At any given level if the key given does not already exist then inserts an empty submap and applies the given label modification function to Nothing to determine the new label If the given key already does exist then preserves the existing submap and applies the given label modification function to Just oldlabel to determine the new label",
           "hierarchy": "Penny Steel NestedMap",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.NestedMap",
           "name": "relabel",
           "normalized": "NestedMap a b-\u003e[(a,Maybe b-\u003eb)]-\u003eNestedMap a b",
@@ -28930,6 +31392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a NestedMap to a Forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.NestedMap",
           "name": "toForest",
           "package": "penny-lib",
@@ -28940,6 +31403,7 @@
         "index": {
           "description": "Convert NestedMap to Forest",
           "hierarchy": "Penny Steel NestedMap",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.NestedMap",
           "name": "toForest",
           "normalized": "NestedMap a b-\u003eForest(a,b)",
@@ -28956,6 +31420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupply a function that takes a key, a label, and a\n NestedMap. traverse will traverse the NestedMap. For each (label,\n NestedMap) pair, traverse will first apply the given function to\n the label before descending through the NestedMap. The function is\n applied to the present key and label and the accompanying\n NestedMap. The function you supply must return a Maybe. If the\n result is Nothing, then the pair is deleted as a value from its\n parent NestedMap. If the result is (Just s), then the label of this\n level of the NestedMap is changed to s before descending to the\n next level of the NestedMap.\n\u003c/p\u003e\u003cp\u003eAll this is done in a monad, so you can carry out arbitrary side\n effects such as inspecting or changing a state or doing IO. If you\n don't need a monad, just use Identity.\n\u003c/p\u003e\u003cp\u003eThus this function can be used to inspect, modify, and prune a\n NestedMap.\n\u003c/p\u003e\u003cp\u003eFor a simpler traverse that does not provide you with so much\n information, NestedMap is also an instance of Data.Traversable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.NestedMap",
           "name": "traverse",
           "package": "penny-lib",
@@ -28966,6 +31431,7 @@
         "index": {
           "description": "Supply function that takes key label and NestedMap traverse will traverse the NestedMap For each label NestedMap pair traverse will first apply the given function to the label before descending through the NestedMap The function is applied to the present key and label and the accompanying NestedMap The function you supply must return Maybe If the result is Nothing then the pair is deleted as value from its parent NestedMap If the result is Just then the label of this level of the NestedMap is changed to before descending to the next level of the NestedMap All this is done in monad so you can carry out arbitrary side effects such as inspecting or changing state or doing IO If you don need monad just use Identity Thus this function can be used to inspect modify and prune NestedMap For simpler traverse that does not provide you with so much information NestedMap is also an instance of Data.Traversable",
           "hierarchy": "Penny Steel NestedMap",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.NestedMap",
           "name": "traverse",
           "normalized": "(a-\u003eb-\u003eNestedMap a b-\u003ec(Maybe d))-\u003eNestedMap a b-\u003ec(NestedMap a d)",
@@ -28981,6 +31447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike traverse, but the supplied function is also applied to a\n list that tells it about the levels of NestedMap that are parents\n to this NestedMap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.NestedMap",
           "name": "traverseWithTrail",
           "package": "penny-lib",
@@ -28991,6 +31458,7 @@
         "index": {
           "description": "Like traverse but the supplied function is also applied to list that tells it about the levels of NestedMap that are parents to this NestedMap",
           "hierarchy": "Penny Steel NestedMap",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.NestedMap",
           "name": "traverseWithTrail",
           "normalized": "([(a,b)]-\u003ea-\u003eb-\u003eNestedMap a b-\u003ec(Maybe d))-\u003eNestedMap a b-\u003ec(NestedMap a d)",
@@ -29006,6 +31474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.NestedMap",
           "name": "unNestedMap",
           "package": "penny-lib",
@@ -29015,6 +31484,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel NestedMap",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.NestedMap",
           "name": "unNestedMap",
           "normalized": "Map a(b,NestedMap a b)",
@@ -29031,6 +31501,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAnonymous sum types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "Sums",
           "package": "penny-lib",
@@ -29040,6 +31511,7 @@
         "index": {
           "description": "Anonymous sum types",
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "Sums",
           "package": "penny-lib",
@@ -29053,6 +31525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "S3",
           "package": "penny-lib",
@@ -29061,6 +31534,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "S3",
           "package": "penny-lib",
@@ -29073,6 +31547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "S4",
           "package": "penny-lib",
@@ -29081,6 +31556,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "S4",
           "package": "penny-lib",
@@ -29093,6 +31569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "S4a",
           "package": "penny-lib",
@@ -29102,6 +31579,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "S4a",
           "package": "penny-lib",
@@ -29114,6 +31592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "S4b",
           "package": "penny-lib",
@@ -29123,6 +31602,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "S4b",
           "package": "penny-lib",
@@ -29135,6 +31615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "S4c",
           "package": "penny-lib",
@@ -29144,6 +31625,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "S4c",
           "package": "penny-lib",
@@ -29156,6 +31638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "S4d",
           "package": "penny-lib",
@@ -29165,6 +31648,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "S4d",
           "package": "penny-lib",
@@ -29177,6 +31661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "caseS3",
           "package": "penny-lib",
@@ -29186,6 +31671,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "caseS3",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003eS a c d-\u003eb",
@@ -29200,6 +31686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "caseS4",
           "package": "penny-lib",
@@ -29209,6 +31696,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "caseS4",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(d-\u003eb)-\u003e(e-\u003eb)-\u003eS a c d e-\u003eb",
@@ -29223,6 +31711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "mapS3",
           "package": "penny-lib",
@@ -29232,6 +31721,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "mapS3",
           "normalized": "(a-\u003ea)-\u003e(b-\u003eb)-\u003e(c-\u003ec)-\u003eS a b c-\u003eS a b c",
@@ -29246,6 +31736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "mapS3a",
           "package": "penny-lib",
@@ -29255,6 +31746,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "mapS3a",
           "normalized": "(a-\u003eb a)-\u003e(c-\u003eb c)-\u003e(d-\u003eb d)-\u003eS a c d-\u003eb(S a c d)",
@@ -29269,6 +31761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "mapS4",
           "package": "penny-lib",
@@ -29278,6 +31771,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "mapS4",
           "normalized": "(a-\u003ea)-\u003e(b-\u003eb)-\u003e(c-\u003ec)-\u003e(d-\u003ed)-\u003eS a b c d-\u003eS a b c d",
@@ -29292,6 +31786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "mapS4a",
           "package": "penny-lib",
@@ -29301,6 +31796,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "mapS4a",
           "normalized": "(a-\u003eb a)-\u003e(c-\u003eb c)-\u003e(d-\u003eb d)-\u003e(e-\u003eb e)-\u003eS a c d e-\u003eb(S a c d e)",
@@ -29315,6 +31811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "partitionS3",
           "package": "penny-lib",
@@ -29324,6 +31821,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "partitionS3",
           "normalized": "[S a b c]-\u003e([a],[b],[c])",
@@ -29338,6 +31836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel.Sums",
           "name": "partitionS4",
           "package": "penny-lib",
@@ -29347,6 +31846,7 @@
         },
         "index": {
           "hierarchy": "Penny Steel Sums",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel.Sums",
           "name": "partitionS4",
           "normalized": "[S a b c d]-\u003e([a],[b],[c],[d])",
@@ -29362,6 +31862,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSteel - independent Penny utilities\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Steel",
           "name": "Steel",
           "package": "penny-lib",
@@ -29371,6 +31872,7 @@
         "index": {
           "description": "Steel independent Penny utilities",
           "hierarchy": "Penny Steel",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Steel",
           "name": "Steel",
           "package": "penny-lib",
@@ -29385,6 +31887,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWheat - Penny ledger tests\n\u003c/p\u003e\u003cp\u003eWheat helps you build tests to check all the postings in your\n ledger. Perhaps you want to make sure all the account names are\n valid, or that your checking account has no unreconciled\n transactions. With Wheat you can easily build a command line\n program that will check all the postings in a ledger for you\n against criteria that you specify.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "Wheat",
           "package": "penny-lib",
@@ -29394,6 +31897,7 @@
         "index": {
           "description": "Wheat Penny ledger tests Wheat helps you build tests to check all the postings in your ledger Perhaps you want to make sure all the account names are valid or that your checking account has no unreconciled transactions With Wheat you can easily build command line program that will check all the postings in ledger for you against criteria that you specify",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "Wheat",
           "package": "penny-lib",
@@ -29408,6 +31912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord holding all data to configure Wheat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "WheatConf",
           "package": "penny-lib",
@@ -29417,6 +31922,7 @@
         "index": {
           "description": "Record holding all data to configure Wheat",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "WheatConf",
           "package": "penny-lib",
@@ -29430,6 +31936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "WheatConf",
           "package": "penny-lib",
@@ -29439,6 +31946,7 @@
         },
         "index": {
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "WheatConf",
           "package": "penny-lib",
@@ -29453,6 +31961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePasses if at least a particular number of postings is True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "atLeastNPostings",
           "package": "penny-lib",
@@ -29462,6 +31971,7 @@
         "index": {
           "description": "Passes if at least particular number of postings is True",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "atLeastNPostings",
           "normalized": "Int-\u003eName-\u003ePdct Posting-\u003eTest Posting",
@@ -29478,6 +31988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests may use this date and time as they wish; see\n \u003ccode\u003e\u003ca\u003etests\u003c/a\u003e\u003c/code\u003e. Typically you will set this to the current instant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "baseTime",
           "package": "penny-lib",
@@ -29488,6 +31999,7 @@
         "index": {
           "description": "Tests may use this date and time as they wish see tests Typically you will set this to the current instant",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "baseTime",
           "package": "penny-lib",
@@ -29502,6 +32014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is displayed at the beginning of the online help. It\n should be a one-line description of what this program does--for\n example, what it checks for.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "briefDescription",
           "package": "penny-lib",
@@ -29512,6 +32025,7 @@
         "index": {
           "description": "This is displayed at the beginning of the online help It should be one-line description of what this program does--for example what it checks for",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "briefDescription",
           "package": "penny-lib",
@@ -29526,6 +32040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse colors even if stdout is not a file?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "colorToFile",
           "package": "penny-lib",
@@ -29536,6 +32051,7 @@
         "index": {
           "description": "Use colors even if stdout is not file",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "colorToFile",
           "package": "penny-lib",
@@ -29550,6 +32066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePasses only if each posting is True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "eachPostingMustBeTrue",
           "package": "penny-lib",
@@ -29560,6 +32077,7 @@
         "index": {
           "description": "Passes only if each posting is True",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "eachPostingMustBeTrue",
           "normalized": "Name-\u003ePdct Posting-\u003eTest Posting",
@@ -29576,6 +32094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to format quantities\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "formatQty",
           "package": "penny-lib",
@@ -29586,6 +32105,7 @@
         "index": {
           "description": "How to format quantities",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "formatQty",
           "normalized": "[LedgerItem]-\u003eAmount Qty-\u003eText",
@@ -29602,6 +32122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA non-terminating list of starting with the first day of the\n first month following the given day, followed by successive first\n days of the month.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "futureFirstsOfTheMonth",
           "package": "penny-lib",
@@ -29612,6 +32133,7 @@
         "index": {
           "description": "non-terminating list of starting with the first day of the first month following the given day followed by successive first days of the month",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "futureFirstsOfTheMonth",
           "normalized": "Day-\u003e[Day]",
@@ -29628,6 +32150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many spaces to indent each level in a tree of tests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "indentAmt",
           "package": "penny-lib",
@@ -29638,6 +32161,7 @@
         "index": {
           "description": "How many spaces to indent each level in tree of tests",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "indentAmt",
           "package": "penny-lib",
@@ -29652,6 +32176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns Wheat tests. Prints the result to standard output. Exits\n unsuccessfully if the user gave bad command line options or if at\n least a single test failed; exits successfully if all tests\n succeeded. Shows the version number and exits successfully if that\n was requested.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "main",
           "package": "penny-lib",
@@ -29661,6 +32186,7 @@
         "index": {
           "description": "Runs Wheat tests Prints the result to standard output Exits unsuccessfully if the user gave bad command line options or if at least single test failed exits successfully if all tests succeeded Shows the version number and exits successfully if that was requested",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "main",
           "normalized": "Version-\u003e(Runtime-\u003eWheatConf)-\u003eIO()",
@@ -29676,6 +32202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplayed at the end of the online help. It should be a list\n of lines, wich each line not terminated by a newline\n character. It is displayed at the end of the online help.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "moreHelp",
           "package": "penny-lib",
@@ -29686,6 +32213,7 @@
         "index": {
           "description": "Displayed at the end of the online help It should be list of lines wich each line not terminated by newline character It is displayed at the end of the online help",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "moreHelp",
           "normalized": "[String]",
@@ -29702,6 +32230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf True, then tests will stop running immediately after a\n single test fails. If False, all tests are always run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "stopOnFail",
           "package": "penny-lib",
@@ -29712,6 +32241,7 @@
         "index": {
           "description": "If True then tests will stop running immediately after single test fails If False all tests are always run",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "stopOnFail",
           "package": "penny-lib",
@@ -29726,6 +32256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest names are filtered with this function; a test is only\n run if this function returns True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "testPred",
           "package": "penny-lib",
@@ -29736,6 +32267,7 @@
         "index": {
           "description": "Test names are filtered with this function test is only run if this function returns True",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "testPred",
           "normalized": "Name-\u003eBool",
@@ -29752,6 +32284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual tests to run. The UTCTime is the \u003ccode\u003ebase time\u003c/code\u003e. Each\n test may decide what to do with the base time--for example, the\n test might say that all postings have to have a date on or\n before that date. Or the test might just ignore the base time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "tests",
           "package": "penny-lib",
@@ -29762,6 +32295,7 @@
         "index": {
           "description": "The actual tests to run The UTCTime is the base time Each test may decide what to do with the base time--for example the test might say that all postings have to have date on or before that date Or the test might just ignore the base time",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "tests",
           "normalized": "[UTCTime-\u003eTest Posting]",
@@ -29777,6 +32311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf Just, use this verbosity. If Nothing, use the default\n verbosity provided by the tests themselves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Wheat",
           "name": "verbosity",
           "package": "penny-lib",
@@ -29787,6 +32322,7 @@
         "index": {
           "description": "If Just use this verbosity If Nothing use the default verbosity provided by the tests themselves",
           "hierarchy": "Penny Wheat",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Wheat",
           "name": "verbosity",
           "package": "penny-lib",
@@ -29800,6 +32336,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eZinc - the Penny command-line interface\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "Zinc",
           "package": "penny-lib",
@@ -29809,6 +32346,7 @@
         "index": {
           "description": "Zinc the Penny command-line interface",
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "Zinc",
           "package": "penny-lib",
@@ -29823,6 +32361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to use color when standard output is not a terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "ColorToFile",
           "package": "penny-lib",
@@ -29832,6 +32371,7 @@
         "index": {
           "description": "Whether to use color when standard output is not terminal",
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "ColorToFile",
           "package": "penny-lib",
@@ -29845,6 +32385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "Defaults",
           "package": "penny-lib",
@@ -29853,6 +32394,7 @@
         },
         "index": {
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "Defaults",
           "package": "penny-lib",
@@ -29866,6 +32408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "Matcher",
           "package": "penny-lib",
@@ -29874,6 +32417,7 @@
         },
         "index": {
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "Matcher",
           "package": "penny-lib",
@@ -29887,6 +32431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "SortField",
           "package": "penny-lib",
@@ -29895,6 +32440,7 @@
         },
         "index": {
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "SortField",
           "package": "penny-lib",
@@ -29931,6 +32477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "ColorToFile",
           "package": "penny-lib",
@@ -29940,6 +32487,7 @@
         },
         "index": {
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "ColorToFile",
           "package": "penny-lib",
@@ -29999,6 +32547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "Defaults",
           "package": "penny-lib",
@@ -30008,6 +32557,7 @@
         },
         "index": {
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "Defaults",
           "package": "penny-lib",
@@ -30274,6 +32824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "colorToFile",
           "package": "penny-lib",
@@ -30283,6 +32834,7 @@
         },
         "index": {
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "colorToFile",
           "package": "penny-lib",
@@ -30297,6 +32849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf Nothing, no default scheme. If the user does not pick a\n scheme, no colors are used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "defaultScheme",
           "package": "penny-lib",
@@ -30307,6 +32860,7 @@
         "index": {
           "description": "If Nothing no default scheme If the user does not pick scheme no colors are used",
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "defaultScheme",
           "package": "penny-lib",
@@ -30320,6 +32874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "exprDesc",
           "package": "penny-lib",
@@ -30329,6 +32884,7 @@
         },
         "index": {
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "exprDesc",
           "package": "penny-lib",
@@ -30342,6 +32898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "formatQty",
           "package": "penny-lib",
@@ -30351,6 +32908,7 @@
         },
         "index": {
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "formatQty",
           "normalized": "[LedgerItem]-\u003eAmount Qty-\u003eText",
@@ -30366,6 +32924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "matcher",
           "package": "penny-lib",
@@ -30375,6 +32934,7 @@
         },
         "index": {
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "matcher",
           "package": "penny-lib",
@@ -30387,6 +32947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "moreSchemes",
           "package": "penny-lib",
@@ -30396,6 +32957,7 @@
         },
         "index": {
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "moreSchemes",
           "normalized": "[Scheme]",
@@ -30411,6 +32973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "runZinc",
           "package": "penny-lib",
@@ -30419,6 +32982,7 @@
         },
         "index": {
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "runZinc",
           "normalized": "Version-\u003eDefaults-\u003eRuntime-\u003e[Report]-\u003eIO()",
@@ -30434,6 +32998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "sensitive",
           "package": "penny-lib",
@@ -30443,6 +33008,7 @@
         },
         "index": {
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "sensitive",
           "package": "penny-lib",
@@ -30456,6 +33022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor example, to sort by date and then by payee if the dates\n are equal, use\n\u003c/p\u003e\u003cpre\u003e [(Date, Ascending), (Payee, Ascending)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "sorter",
           "package": "penny-lib",
@@ -30466,6 +33033,7 @@
         "index": {
           "description": "For example to sort by date and then by payee if the dates are equal use Date Ascending Payee Ascending",
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "sorter",
           "normalized": "[(SortField,SortOrder)]",
@@ -30480,6 +33048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny.Zinc",
           "name": "unColorToFile",
           "package": "penny-lib",
@@ -30489,6 +33058,7 @@
         },
         "index": {
           "hierarchy": "Penny Zinc",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny.Zinc",
           "name": "unColorToFile",
           "package": "penny-lib",
@@ -30503,6 +33073,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePenny - extensible double-entry accounting system\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Penny",
           "package": "penny-lib",
@@ -30512,6 +33083,7 @@
         "index": {
           "description": "Penny extensible double-entry accounting system",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Penny",
           "package": "penny-lib",
@@ -30525,6 +33097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Changers",
           "package": "penny-lib",
@@ -30533,6 +33106,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Changers",
           "package": "penny-lib",
@@ -30547,6 +33121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe digit grouping character when the radix is a comma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "CommaGrp",
           "package": "penny-lib",
@@ -30556,6 +33131,7 @@
         "index": {
           "description": "The digit grouping character when the radix is comma",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "CommaGrp",
           "package": "penny-lib",
@@ -30570,6 +33146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type contains settings for all the reports, as well as\n default settings for the global options. Some of these can be\n overridden on the command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Defaults",
           "package": "penny-lib",
@@ -30579,6 +33156,7 @@
         "index": {
           "description": "This type contains settings for all the reports as well as default settings for the global options Some of these can be overridden on the command line",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Defaults",
           "package": "penny-lib",
@@ -30592,6 +33170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "EvenAndOdd",
           "package": "penny-lib",
@@ -30600,6 +33179,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "EvenAndOdd",
           "package": "penny-lib",
@@ -30614,6 +33194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this an infix or RPN expression?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "ExprDesc",
           "package": "penny-lib",
@@ -30622,6 +33203,7 @@
         "index": {
           "description": "Is this an infix or RPN expression",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "ExprDesc",
           "package": "penny-lib",
@@ -30635,6 +33217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Fields",
           "package": "penny-lib",
@@ -30643,6 +33226,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Fields",
           "package": "penny-lib",
@@ -30656,6 +33240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Labels",
           "package": "penny-lib",
@@ -30664,6 +33249,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Labels",
           "package": "penny-lib",
@@ -30677,6 +33263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Matcher",
           "package": "penny-lib",
@@ -30685,6 +33272,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Matcher",
           "package": "penny-lib",
@@ -30699,6 +33287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe digit grouping character when the radix is a period.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "PeriodGrp",
           "package": "penny-lib",
@@ -30708,6 +33297,7 @@
         "index": {
           "description": "The digit grouping character when the radix is period",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "PeriodGrp",
           "package": "penny-lib",
@@ -30721,6 +33311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Radix",
           "package": "penny-lib",
@@ -30729,6 +33320,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Radix",
           "package": "penny-lib",
@@ -30743,6 +33335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about the runtime environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Runtime",
           "package": "penny-lib",
@@ -30752,6 +33345,7 @@
         "index": {
           "description": "Information about the runtime environment",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Runtime",
           "package": "penny-lib",
@@ -30765,6 +33359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "S3",
           "package": "penny-lib",
@@ -30773,6 +33368,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "S3",
           "package": "penny-lib",
@@ -30785,6 +33381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Scheme",
           "package": "penny-lib",
@@ -30793,6 +33390,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Scheme",
           "package": "penny-lib",
@@ -30806,6 +33404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "SortBy",
           "package": "penny-lib",
@@ -30814,6 +33413,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "SortBy",
           "package": "penny-lib",
@@ -30827,6 +33427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "SortField",
           "package": "penny-lib",
@@ -30835,6 +33436,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "SortField",
           "package": "penny-lib",
@@ -30848,6 +33450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "SortOrder",
           "package": "penny-lib",
@@ -30856,6 +33459,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "SortOrder",
           "package": "penny-lib",
@@ -30869,6 +33473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Spacers",
           "package": "penny-lib",
@@ -30877,6 +33482,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Spacers",
           "package": "penny-lib",
@@ -30891,6 +33497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe commodity to which to convert the commodities in the convert\n report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Target",
           "package": "penny-lib",
@@ -30900,6 +33507,7 @@
         "index": {
           "description": "The commodity to which to convert the commodities in the convert report",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Target",
           "package": "penny-lib",
@@ -30914,6 +33522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space efficient, packed, unboxed Unicode text type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Text",
           "package": "penny-lib",
@@ -30922,6 +33531,7 @@
         "index": {
           "description": "space efficient packed unboxed Unicode text type",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Text",
           "package": "penny-lib",
@@ -30936,6 +33546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eVersion\u003c/a\u003e\u003c/code\u003e represents the version of a software entity.  \n\u003c/p\u003e\u003cp\u003eAn instance of \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e is provided, which implements exact equality\nmodulo reordering of the tags in the \u003ccode\u003e\u003ca\u003eversionTags\u003c/a\u003e\u003c/code\u003e field.\n\u003c/p\u003e\u003cp\u003eAn instance of \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e is also provided, which gives lexicographic\nordering on the \u003ccode\u003e\u003ca\u003eversionBranch\u003c/a\u003e\u003c/code\u003e fields (i.e. 2.1 \u003e 2.0, 1.2.3 \u003e 1.2.2,\netc.).  This is expected to be sufficient for many uses, but note that\nyou may need to use a more specific ordering for your versioning\nscheme.  For example, some versioning schemes may include pre-releases\nwhich have tags \u003ccode\u003e\"pre1\"\u003c/code\u003e, \u003ccode\u003e\"pre2\"\u003c/code\u003e, and so on, and these would need to\nbe taken into account when determining ordering.  In some cases, date\nordering may be more appropriate, so the application would have to\nlook for \u003ccode\u003edate\u003c/code\u003e tags in the \u003ccode\u003e\u003ca\u003eversionTags\u003c/a\u003e\u003c/code\u003e field and compare those.\nThe bottom line is, don't always assume that \u003ccode\u003e\u003ca\u003ecompare\u003c/a\u003e\u003c/code\u003e and other \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e\noperations are the right thing for every \u003ccode\u003e\u003ca\u003eVersion\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSimilarly, concrete representations of versions may differ.  One\npossible concrete representation is provided (see \u003ccode\u003e\u003ca\u003eshowVersion\u003c/a\u003e\u003c/code\u003e and\n\u003ccode\u003e\u003ca\u003eparseVersion\u003c/a\u003e\u003c/code\u003e), but depending on the application a different concrete\nrepresentation may be more appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Version",
           "package": "penny-lib",
@@ -30944,6 +33555,7 @@
         "index": {
           "description": "Version represents the version of software entity An instance of Eq is provided which implements exact equality modulo reordering of the tags in the versionTags field An instance of Ord is also provided which gives lexicographic ordering on the versionBranch fields i.e etc This is expected to be sufficient for many uses but note that you may need to use more specific ordering for your versioning scheme For example some versioning schemes may include pre-releases which have tags pre1 pre2 and so on and these would need to be taken into account when determining ordering In some cases date ordering may be more appropriate so the application would have to look for date tags in the versionTags field and compare those The bottom line is don always assume that compare and other Ord operations are the right thing for every Version Similarly concrete representations of versions may differ One possible concrete representation is provided see showVersion and parseVersion but depending on the application different concrete representation may be more appropriate",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Version",
           "package": "penny-lib",
@@ -30958,6 +33570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects a target commodity automatically, based on which\n commodity is the most common target commodity in the prices in\n your ledger files. If there is a tie for most common target\n commodity, the target that appears later in your ledger files\n is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "AutoTarget",
           "package": "penny-lib",
@@ -30968,6 +33581,7 @@
         "index": {
           "description": "Selects target commodity automatically based on which commodity is the most common target commodity in the prices in your ledger files If there is tie for most common target commodity the target that appears later in your ledger files is used",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "AutoTarget",
           "package": "penny-lib",
@@ -30981,6 +33595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Defaults",
           "package": "penny-lib",
@@ -30990,6 +33605,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Defaults",
           "package": "penny-lib",
@@ -31003,6 +33619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Fields",
           "package": "penny-lib",
@@ -31012,6 +33629,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Fields",
           "package": "penny-lib",
@@ -31025,6 +33643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Infix",
           "package": "penny-lib",
@@ -31033,6 +33652,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Infix",
           "package": "penny-lib",
@@ -31047,6 +33667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways uses the commodity named by the string given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "ManualTarget",
           "package": "penny-lib",
@@ -31057,6 +33678,7 @@
         "index": {
           "description": "Always uses the commodity named by the string given",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "ManualTarget",
           "package": "penny-lib",
@@ -31070,6 +33692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "RPN",
           "package": "penny-lib",
@@ -31078,6 +33701,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "RPN",
           "package": "penny-lib",
@@ -31091,6 +33715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Spacers",
           "package": "penny-lib",
@@ -31100,6 +33725,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Spacers",
           "package": "penny-lib",
@@ -31113,6 +33739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "Version",
           "package": "penny-lib",
@@ -31121,6 +33748,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "Version",
           "package": "penny-lib",
@@ -31135,6 +33763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional color schemes the user can pick from on the\n command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "additionalSchemes",
           "package": "penny-lib",
@@ -31145,6 +33774,7 @@
         "index": {
           "description": "Additional color schemes the user can pick from on the command line",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "additionalSchemes",
           "normalized": "[Scheme]",
@@ -31161,6 +33791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to sort the accounts in ascending or descending order\n by account name in the balance report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "balanceOrder",
           "package": "penny-lib",
@@ -31171,6 +33802,7 @@
         "index": {
           "description": "Whether to sort the accounts in ascending or descending order by account name in the balance report",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "balanceOrder",
           "package": "penny-lib",
@@ -31185,6 +33817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow zero balances in the balance report? If True, show them;\n if False, hide them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "balanceShowZeroBalances",
           "package": "penny-lib",
@@ -31195,6 +33828,7 @@
         "index": {
           "description": "Show zero balances in the balance report If True show them if False hide them",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "balanceShowZeroBalances",
           "package": "penny-lib",
@@ -31209,6 +33843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the matcher is case sensitive by default\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "caseSensitive",
           "package": "penny-lib",
@@ -31219,6 +33854,7 @@
         "index": {
           "description": "Whether the matcher is case sensitive by default",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "caseSensitive",
           "package": "penny-lib",
@@ -31233,6 +33869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse colors when standard output is not a terminal?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "colorToFile",
           "package": "penny-lib",
@@ -31243,6 +33880,7 @@
         "index": {
           "description": "Use colors when standard output is not terminal",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "colorToFile",
           "package": "penny-lib",
@@ -31257,6 +33895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort the convert report in ascending or descending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "convertOrder",
           "package": "penny-lib",
@@ -31267,6 +33906,7 @@
         "index": {
           "description": "Sort the convert report in ascending or descending order",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "convertOrder",
           "package": "penny-lib",
@@ -31281,6 +33921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow zero balances in the convert report? If True, show them;\n if False, hide them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "convertShowZeroBalances",
           "package": "penny-lib",
@@ -31291,6 +33932,7 @@
         "index": {
           "description": "Show zero balances in the convert report If True show them if False hide them",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "convertShowZeroBalances",
           "package": "penny-lib",
@@ -31305,6 +33947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort by account or by quantity in the convert report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "convertSortBy",
           "package": "penny-lib",
@@ -31315,6 +33958,7 @@
         "index": {
           "description": "Sort by account or by quantity in the convert report",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "convertSortBy",
           "package": "penny-lib",
@@ -31329,6 +33973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe commodity to which to convert the commodities in the\n convert report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "convertTarget",
           "package": "penny-lib",
@@ -31339,6 +33984,7 @@
         "index": {
           "description": "The commodity to which to convert the commodities in the convert report",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "convertTarget",
           "package": "penny-lib",
@@ -31353,6 +33999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault color scheme. If Nothing, there is no default color\n scheme. If there is no default color scheme and the user does\n not pick one on the command line, no colors will be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "defaultScheme",
           "package": "penny-lib",
@@ -31363,6 +34010,7 @@
         "index": {
           "description": "Default color scheme If Nothing there is no default color scheme If there is no default color scheme and the user does not pick one on the command line no colors will be used",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "defaultScheme",
           "package": "penny-lib",
@@ -31377,6 +34025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse RPN or infix expressions? This affects both the posting\n filter and the filter for the Postings report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "expressionType",
           "package": "penny-lib",
@@ -31387,6 +34036,7 @@
         "index": {
           "description": "Use RPN or infix expressions This affects both the posting filter and the filter for the Postings report",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "expressionType",
           "package": "penny-lib",
@@ -31400,6 +34050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fAccount",
           "package": "penny-lib",
@@ -31409,6 +34060,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fAccount",
           "package": "penny-lib",
@@ -31422,6 +34074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fDate",
           "package": "penny-lib",
@@ -31431,6 +34084,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fDate",
           "package": "penny-lib",
@@ -31444,6 +34098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fFilePosting",
           "package": "penny-lib",
@@ -31453,6 +34108,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fFilePosting",
           "package": "penny-lib",
@@ -31466,6 +34122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fFileTransaction",
           "package": "penny-lib",
@@ -31475,6 +34132,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fFileTransaction",
           "package": "penny-lib",
@@ -31488,6 +34146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fFilename",
           "package": "penny-lib",
@@ -31497,6 +34156,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fFilename",
           "package": "penny-lib",
@@ -31510,6 +34170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fFiltered",
           "package": "penny-lib",
@@ -31519,6 +34180,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fFiltered",
           "package": "penny-lib",
@@ -31532,6 +34194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fFlag",
           "package": "penny-lib",
@@ -31541,6 +34204,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fFlag",
           "package": "penny-lib",
@@ -31554,6 +34218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fGlobalPosting",
           "package": "penny-lib",
@@ -31563,6 +34228,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fGlobalPosting",
           "package": "penny-lib",
@@ -31576,6 +34242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fGlobalTransaction",
           "package": "penny-lib",
@@ -31585,6 +34252,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fGlobalTransaction",
           "package": "penny-lib",
@@ -31598,6 +34266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fLineNum",
           "package": "penny-lib",
@@ -31607,6 +34276,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fLineNum",
           "package": "penny-lib",
@@ -31620,6 +34290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fMemo",
           "package": "penny-lib",
@@ -31629,6 +34300,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fMemo",
           "package": "penny-lib",
@@ -31642,6 +34314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fNumber",
           "package": "penny-lib",
@@ -31651,6 +34324,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fNumber",
           "package": "penny-lib",
@@ -31664,6 +34338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fPayee",
           "package": "penny-lib",
@@ -31673,6 +34348,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fPayee",
           "package": "penny-lib",
@@ -31686,6 +34362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fPostingCmdty",
           "package": "penny-lib",
@@ -31695,6 +34372,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fPostingCmdty",
           "package": "penny-lib",
@@ -31708,6 +34386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fPostingDrCr",
           "package": "penny-lib",
@@ -31717,6 +34396,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fPostingDrCr",
           "package": "penny-lib",
@@ -31730,6 +34410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fPostingQty",
           "package": "penny-lib",
@@ -31739,6 +34420,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fPostingQty",
           "package": "penny-lib",
@@ -31752,6 +34434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fRevFilePosting",
           "package": "penny-lib",
@@ -31761,6 +34444,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fRevFilePosting",
           "package": "penny-lib",
@@ -31774,6 +34458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fRevFileTransaction",
           "package": "penny-lib",
@@ -31783,6 +34468,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fRevFileTransaction",
           "package": "penny-lib",
@@ -31796,6 +34482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fRevFiltered",
           "package": "penny-lib",
@@ -31805,6 +34492,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fRevFiltered",
           "package": "penny-lib",
@@ -31818,6 +34506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fRevGlobalPosting",
           "package": "penny-lib",
@@ -31827,6 +34516,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fRevGlobalPosting",
           "package": "penny-lib",
@@ -31840,6 +34530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fRevGlobalTransaction",
           "package": "penny-lib",
@@ -31849,6 +34540,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fRevGlobalTransaction",
           "package": "penny-lib",
@@ -31862,6 +34554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fRevSorted",
           "package": "penny-lib",
@@ -31871,6 +34564,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fRevSorted",
           "package": "penny-lib",
@@ -31884,6 +34578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fRevVisible",
           "package": "penny-lib",
@@ -31893,6 +34588,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fRevVisible",
           "package": "penny-lib",
@@ -31906,6 +34602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fSorted",
           "package": "penny-lib",
@@ -31915,6 +34612,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fSorted",
           "package": "penny-lib",
@@ -31928,6 +34626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fTags",
           "package": "penny-lib",
@@ -31937,6 +34636,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fTags",
           "package": "penny-lib",
@@ -31950,6 +34650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fTotalCmdty",
           "package": "penny-lib",
@@ -31959,6 +34660,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fTotalCmdty",
           "package": "penny-lib",
@@ -31972,6 +34674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fTotalDrCr",
           "package": "penny-lib",
@@ -31981,6 +34684,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fTotalDrCr",
           "package": "penny-lib",
@@ -31994,6 +34698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fTotalQty",
           "package": "penny-lib",
@@ -32003,6 +34708,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fTotalQty",
           "package": "penny-lib",
@@ -32016,6 +34722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "fVisible",
           "package": "penny-lib",
@@ -32025,6 +34732,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "fVisible",
           "package": "penny-lib",
@@ -32039,6 +34747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to format quantities. This affects only quantities that\n are not parsed from the ledger.  Examples include calculated\n totals and inferred quantities.  Affects all reports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "formatQty",
           "package": "penny-lib",
@@ -32049,6 +34758,7 @@
         "index": {
           "description": "How to format quantities This affects only quantities that are not parsed from the ledger Examples include calculated totals and inferred quantities Affects all reports",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "formatQty",
           "package": "penny-lib",
@@ -32063,6 +34773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtains radix and grouping information for a particular commodity\n and quantity, but does not actually perform the formatting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "getQtyFormat",
           "package": "penny-lib",
@@ -32072,6 +34783,7 @@
         "index": {
           "description": "Obtains radix and grouping information for particular commodity and quantity but does not actually perform the formatting",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "getQtyFormat",
           "normalized": "S Radix PeriodGrp CommaGrp-\u003e[LedgerItem]-\u003eAmount Qty-\u003eS Radix PeriodGrp CommaGrp",
@@ -32088,6 +34800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich matcher to use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "matcher",
           "package": "penny-lib",
@@ -32098,6 +34811,7 @@
         "index": {
           "description": "Which matcher to use",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "matcher",
           "package": "penny-lib",
@@ -32111,6 +34825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  Subject to\n fusion.  Performs replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "pack",
           "package": "penny-lib",
@@ -32120,6 +34835,7 @@
         "index": {
           "description": "Convert String into Text Subject to fusion Performs replacement on invalid scalar values",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "pack",
           "normalized": "String-\u003eText",
@@ -32135,6 +34851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee postingsPayeeAllocation above for an explanation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "postingsAccountAllocation",
           "package": "penny-lib",
@@ -32145,6 +34862,7 @@
         "index": {
           "description": "See postingsPayeeAllocation above for an explanation",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "postingsAccountAllocation",
           "package": "penny-lib",
@@ -32159,6 +34877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to format dates in the postings report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "postingsDateFormat",
           "package": "penny-lib",
@@ -32169,6 +34888,7 @@
         "index": {
           "description": "How to format dates in the postings report",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "postingsDateFormat",
           "normalized": "(PostMeta,Posting)-\u003eText",
@@ -32185,6 +34905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFields to show by default in the postings report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "postingsFields",
           "package": "penny-lib",
@@ -32195,6 +34916,7 @@
         "index": {
           "description": "Fields to show by default in the postings report",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "postingsFields",
           "package": "penny-lib",
@@ -32209,6 +34931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epostingsPayeeAllocation and postingsAccountAllocation\n determine how much space is allotted to the payee and account\n fields in the postings report. These fields are variable\n width. After space for most other fields is allotted, space is\n allotted for these two fields. The two fields divide the space\n proportionally depending on postingsPayeeAllocation and\n postingsAccountAllocation. For example, if\n postingsPayeeAllocation is 60 and postingsAccountAllocation is\n 40, then the payee field gets 60 percent of the leftover space\n and the account field gets 40 percent of the leftover space.\n\u003c/p\u003e\u003cp\u003eBoth postingsPayeeAllocation and postingsAccountAllocation\n must be positive integers; if either one is less than 1, your\n program will crash at runtime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "postingsPayeeAllocation",
           "package": "penny-lib",
@@ -32219,6 +34942,7 @@
         "index": {
           "description": "postingsPayeeAllocation and postingsAccountAllocation determine how much space is allotted to the payee and account fields in the postings report These fields are variable width After space for most other fields is allotted space is allotted for these two fields The two fields divide the space proportionally depending on postingsPayeeAllocation and postingsAccountAllocation For example if postingsPayeeAllocation is and postingsAccountAllocation is then the payee field gets percent of the leftover space and the account field gets percent of the leftover space Both postingsPayeeAllocation and postingsAccountAllocation must be positive integers if either one is less than your program will crash at runtime",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "postingsPayeeAllocation",
           "package": "penny-lib",
@@ -32233,6 +34957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow zero balances in the postings report? If True, show\n them; if False, hide them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "postingsShowZeroBalances",
           "package": "penny-lib",
@@ -32243,6 +34968,7 @@
         "index": {
           "description": "Show zero balances in the postings report If True show them if False hide them",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "postingsShowZeroBalances",
           "package": "penny-lib",
@@ -32257,6 +34983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines the number of spaces that appears to the right of\n each named field; for example, sPayee indicates how many spaces\n will appear to the right of the payee field. Each field of the\n Spacers should be a non-negative integer (although currently\n the absolute value of the field is taken.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "postingsSpacers",
           "package": "penny-lib",
@@ -32267,6 +34994,7 @@
         "index": {
           "description": "Determines the number of spaces that appears to the right of each named field for example sPayee indicates how many spaces will appear to the right of the payee field Each field of the Spacers should be non-negative integer although currently the absolute value of the field is taken",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "postingsSpacers",
           "package": "penny-lib",
@@ -32281,6 +35009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccount names in the postings report are shortened if\n necessary in order to help the report fit within the allotted\n width (see postingsWidth). Account names are only shortened as\n much as is necessary for them to fit; however, each sub-account\n name will not be shortened any more than the amount given here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "postingsSubAccountLength",
           "package": "penny-lib",
@@ -32291,6 +35020,7 @@
         "index": {
           "description": "Account names in the postings report are shortened if necessary in order to help the report fit within the allotted width see postingsWidth Account names are only shortened as much as is necessary for them to fit however each sub-account name will not be shortened any more than the amount given here",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "postingsSubAccountLength",
           "package": "penny-lib",
@@ -32305,6 +35035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe postings report is roughly this wide by\n default. Typically this will be as wide as your terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "postingsWidth",
           "package": "penny-lib",
@@ -32315,6 +35046,7 @@
         "index": {
           "description": "The postings report is roughly this wide by default Typically this will be as wide as your terminal",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "postingsWidth",
           "package": "penny-lib",
@@ -32329,6 +35061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides a function to use in the \u003ccode\u003e\u003ca\u003eformatQty\u003c/a\u003e\u003c/code\u003e field. This formats\n quantities that were not parsed in the ledger.  It first consults a\n list of all items that were parsed from the ledger.  It examines\n these items to determine if another item with the same commodity\n already exists in the ledger.\n\u003c/p\u003e\u003cp\u003eIf other items with the same commodity exist in the ledger, the\n radix point most frequently occurring amongst those items is\n used. If at least one of these items (with this radix point) also\n has grouped digits, then the quantity will be formatted with\n grouped digits; otherwise, no digit grouping is performed. If digit\n grouping is performed, it is done according to the following rules:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e only digits to the left of the radix point are grouped\n\u003c/li\u003e\u003cli\u003e grouping is performed only if the number has at least five\n digits. Therefore, 1234 is not grouped, but 1,234.5 is grouped, as\n is 12,345\n\u003c/li\u003e\u003cli\u003e the character most frequently appearing as a grouping character\n (for this particular commodity and radix point) is used to perform\n grouping\n\u003c/li\u003e\u003cli\u003e digits are grouped into groups of 3 digits\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIf a radix point cannot be determined from the quantities for a\n given commodity, then the radix point appearing most frequently for\n all commodities is used.  If it's impossible to determine a radix\n point from all commodities, then the given default radix point and\n digit grouping (if desired) is used.\n\u003c/p\u003e\u003cp\u003eThis function builds a map internally which holds all the\n formatting information; it might be expensive to build, so the\n function is written to be partially applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "qtyFormatter",
           "package": "penny-lib",
@@ -32338,6 +35071,7 @@
         "index": {
           "description": "Provides function to use in the formatQty field This formats quantities that were not parsed in the ledger It first consults list of all items that were parsed from the ledger It examines these items to determine if another item with the same commodity already exists in the ledger If other items with the same commodity exist in the ledger the radix point most frequently occurring amongst those items is used If at least one of these items with this radix point also has grouped digits then the quantity will be formatted with grouped digits otherwise no digit grouping is performed If digit grouping is performed it is done according to the following rules only digits to the left of the radix point are grouped grouping is performed only if the number has at least five digits Therefore is not grouped but is grouped as is the character most frequently appearing as grouping character for this particular commodity and radix point is used to perform grouping digits are grouped into groups of digits If radix point cannot be determined from the quantities for given commodity then the radix point appearing most frequently for all commodities is used If it impossible to determine radix point from all commodities then the given default radix point and digit grouping if desired is used This function builds map internally which holds all the formatting information it might be expensive to build so the function is written to be partially applied",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "qtyFormatter",
           "normalized": "S Radix PeriodGrp CommaGrp-\u003eFormatQty",
@@ -32354,6 +35088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an IO action that you can use for the main function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "runPenny",
           "package": "penny-lib",
@@ -32363,6 +35098,7 @@
         "index": {
           "description": "Creates an IO action that you can use for the main function",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "runPenny",
           "normalized": "Version-\u003e(Runtime-\u003eDefaults)-\u003eIO()",
@@ -32378,6 +35114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sAccount",
           "package": "penny-lib",
@@ -32387,6 +35124,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sAccount",
           "package": "penny-lib",
@@ -32400,6 +35138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sDate",
           "package": "penny-lib",
@@ -32409,6 +35148,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sDate",
           "package": "penny-lib",
@@ -32422,6 +35162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sFilePosting",
           "package": "penny-lib",
@@ -32431,6 +35172,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sFilePosting",
           "package": "penny-lib",
@@ -32444,6 +35186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sFileTransaction",
           "package": "penny-lib",
@@ -32453,6 +35196,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sFileTransaction",
           "package": "penny-lib",
@@ -32466,6 +35210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sFiltered",
           "package": "penny-lib",
@@ -32475,6 +35220,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sFiltered",
           "package": "penny-lib",
@@ -32488,6 +35234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sFlag",
           "package": "penny-lib",
@@ -32497,6 +35244,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sFlag",
           "package": "penny-lib",
@@ -32510,6 +35258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sGlobalPosting",
           "package": "penny-lib",
@@ -32519,6 +35268,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sGlobalPosting",
           "package": "penny-lib",
@@ -32532,6 +35282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sGlobalTransaction",
           "package": "penny-lib",
@@ -32541,6 +35292,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sGlobalTransaction",
           "package": "penny-lib",
@@ -32554,6 +35306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sLineNum",
           "package": "penny-lib",
@@ -32563,6 +35316,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sLineNum",
           "package": "penny-lib",
@@ -32576,6 +35330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sNumber",
           "package": "penny-lib",
@@ -32585,6 +35340,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sNumber",
           "package": "penny-lib",
@@ -32598,6 +35354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sPayee",
           "package": "penny-lib",
@@ -32607,6 +35364,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sPayee",
           "package": "penny-lib",
@@ -32620,6 +35378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sPostingCmdty",
           "package": "penny-lib",
@@ -32629,6 +35388,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sPostingCmdty",
           "package": "penny-lib",
@@ -32642,6 +35402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sPostingDrCr",
           "package": "penny-lib",
@@ -32651,6 +35412,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sPostingDrCr",
           "package": "penny-lib",
@@ -32664,6 +35426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sPostingQty",
           "package": "penny-lib",
@@ -32673,6 +35436,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sPostingQty",
           "package": "penny-lib",
@@ -32686,6 +35450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sRevFilePosting",
           "package": "penny-lib",
@@ -32695,6 +35460,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sRevFilePosting",
           "package": "penny-lib",
@@ -32708,6 +35474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sRevFileTransaction",
           "package": "penny-lib",
@@ -32717,6 +35484,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sRevFileTransaction",
           "package": "penny-lib",
@@ -32730,6 +35498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sRevFiltered",
           "package": "penny-lib",
@@ -32739,6 +35508,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sRevFiltered",
           "package": "penny-lib",
@@ -32752,6 +35522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sRevGlobalPosting",
           "package": "penny-lib",
@@ -32761,6 +35532,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sRevGlobalPosting",
           "package": "penny-lib",
@@ -32774,6 +35546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sRevGlobalTransaction",
           "package": "penny-lib",
@@ -32783,6 +35556,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sRevGlobalTransaction",
           "package": "penny-lib",
@@ -32796,6 +35570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sRevSorted",
           "package": "penny-lib",
@@ -32805,6 +35580,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sRevSorted",
           "package": "penny-lib",
@@ -32818,6 +35594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sRevVisible",
           "package": "penny-lib",
@@ -32827,6 +35604,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sRevVisible",
           "package": "penny-lib",
@@ -32840,6 +35618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sSorted",
           "package": "penny-lib",
@@ -32849,6 +35628,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sSorted",
           "package": "penny-lib",
@@ -32862,6 +35642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sTotalCmdty",
           "package": "penny-lib",
@@ -32871,6 +35652,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sTotalCmdty",
           "package": "penny-lib",
@@ -32884,6 +35666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sTotalDrCr",
           "package": "penny-lib",
@@ -32893,6 +35676,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sTotalDrCr",
           "package": "penny-lib",
@@ -32906,6 +35690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sVisible",
           "package": "penny-lib",
@@ -32915,6 +35700,7 @@
         },
         "index": {
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sVisible",
           "package": "penny-lib",
@@ -32929,6 +35715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePostings are sorted in this order by default. For example, if\n the first pair is (Date, Ascending), then postings are first\n sorted by date in ascending order. If the second pair is\n (Payee, Ascending), then postings with the same date are then\n sorted by payee.\n\u003c/p\u003e\u003cp\u003eIf this list is empty, then by default postings are left in the\n same order as they appear in the ledger files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "sorter",
           "package": "penny-lib",
@@ -32939,6 +35726,7 @@
         "index": {
           "description": "Postings are sorted in this order by default For example if the first pair is Date Ascending then postings are first sorted by date in ascending order If the second pair is Payee Ascending then postings with the same date are then sorted by payee If this list is empty then by default postings are left in the same order as they appear in the ledger files",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "sorter",
           "normalized": "[(SortField,SortOrder)]",
@@ -32954,6 +35742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe numeric branch for this version.  This reflects the\n fact that most software versions are tree-structured; there\n is a main trunk which is tagged with versions at various\n points (1,2,3...), and the first branch off the trunk after\n version 3 is 3.1, the second branch off the trunk after\n version 3 is 3.2, and so on.  The tree can be branched\n arbitrarily, just by adding more digits.\n\u003c/p\u003e\u003cp\u003eWe represent the branch as a list of \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, so\n version 3.2.1 becomes [3,2,1].  Lexicographic ordering\n (i.e. the default instance of \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e[Int]\u003c/code\u003e) gives\n the natural ordering of branches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "versionBranch",
           "package": "penny-lib",
@@ -32963,6 +35752,7 @@
         "index": {
           "description": "The numeric branch for this version This reflects the fact that most software versions are tree-structured there is main trunk which is tagged with versions at various points and the first branch off the trunk after version is the second branch off the trunk after version is and so on The tree can be branched arbitrarily just by adding more digits We represent the branch as list of Int so version becomes Lexicographic ordering i.e the default instance of Ord for Int gives the natural ordering of branches",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "versionBranch",
           "normalized": "[Int]",
@@ -32979,6 +35769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version can be tagged with an arbitrary list of strings.\n The interpretation of the list of tags is entirely dependent\n on the entity that this version applies to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "versionTags",
           "package": "penny-lib",
@@ -32988,6 +35779,7 @@
         "index": {
           "description": "version can be tagged with an arbitrary list of strings The interpretation of the list of tags is entirely dependent on the entity that this version applies to",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "versionTags",
           "normalized": "[String]",
@@ -33004,6 +35796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the current screen width from the runtime. If the COLUMNS\n environment variable is not set, uses 80.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:16 UTC 2014",
           "module": "Penny",
           "name": "widthFromRuntime",
           "package": "penny-lib",
@@ -33014,6 +35807,7 @@
         "index": {
           "description": "Gets the current screen width from the runtime If the COLUMNS environment variable is not set uses",
           "hierarchy": "Penny",
+          "indexed": "2014-03-11T19:37:16",
           "module": "Penny",
           "name": "widthFromRuntime",
           "normalized": "Runtime-\u003eInt",

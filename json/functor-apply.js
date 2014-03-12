@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "functor-apply"
+        "phrase": "functor-apply",
+        "type": "phrase"
       },
       "type": "context"
     }

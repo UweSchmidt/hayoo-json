@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "base64-string"
+        "phrase": "base64-string",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:15 UTC 2014",
           "module": "Codec.Binary.Base64.String",
           "name": "String",
           "package": "base64-string",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary Base64 String",
+          "indexed": "2014-03-11T17:17:15",
           "module": "Codec.Binary.Base64.String",
           "name": "String",
           "package": "base64-string",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:15 UTC 2014",
           "module": "Codec.Binary.Base64.String",
           "name": "decode",
           "package": "base64-string",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary Base64 String",
+          "indexed": "2014-03-11T17:17:15",
           "module": "Codec.Binary.Base64.String",
           "name": "decode",
           "normalized": "String-\u003eString",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:15 UTC 2014",
           "module": "Codec.Binary.Base64.String",
           "name": "encode",
           "package": "base64-string",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary Base64 String",
+          "indexed": "2014-03-11T17:17:15",
           "module": "Codec.Binary.Base64.String",
           "name": "encode",
           "normalized": "String-\u003eString",

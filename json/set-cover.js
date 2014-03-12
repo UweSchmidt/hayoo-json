@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "set-cover"
+        "phrase": "set-cover",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Bit",
           "name": "Bit",
           "package": "set-cover",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Bit",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Bit",
           "name": "Bit",
           "package": "set-cover",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Bit",
           "name": "C",
           "package": "set-cover",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Bit",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Bit",
           "name": "C",
           "package": "set-cover",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Bit",
           "name": "Sum",
           "package": "set-cover",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Bit",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Bit",
           "name": "Sum",
           "package": "set-cover",
@@ -80,6 +86,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Bit",
           "name": "Sum",
           "package": "set-cover",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Bit",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Bit",
           "name": "Sum",
           "package": "set-cover",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Bit",
           "name": "bitLeft",
           "package": "set-cover",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Bit",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Bit",
           "name": "bitLeft",
           "normalized": "Int-\u003eSum a b",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Bit",
           "name": "bitRight",
           "package": "set-cover",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Bit",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Bit",
           "name": "bitRight",
           "normalized": "Int-\u003eSum a b",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Bit",
           "name": "complement",
           "package": "set-cover",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Bit",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Bit",
           "name": "complement",
           "normalized": "a-\u003ea",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Bit",
           "name": "empty",
           "package": "set-cover",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Bit",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Bit",
           "name": "empty",
           "package": "set-cover",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Bit",
           "name": "xor",
           "package": "set-cover",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Bit",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Bit",
           "name": "xor",
           "normalized": "a-\u003ea-\u003ea",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitMap",
           "name": "BitMap",
           "package": "set-cover",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitMap",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitMap",
           "name": "BitMap",
           "package": "set-cover",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitMap",
           "name": "Map",
           "package": "set-cover",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitMap",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitMap",
           "name": "Map",
           "package": "set-cover",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitMap",
           "name": "Map",
           "package": "set-cover",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitMap",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitMap",
           "name": "Map",
           "package": "set-cover",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitMap",
           "name": "add",
           "package": "set-cover",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitMap",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitMap",
           "name": "add",
           "normalized": "Map a-\u003eMap a-\u003eMap a",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitMap",
           "name": "fromSet",
           "package": "set-cover",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitMap",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitMap",
           "name": "fromSet",
           "normalized": "Set a-\u003eMap a",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitMap",
           "name": "inc",
           "package": "set-cover",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitMap",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitMap",
           "name": "inc",
           "normalized": "Set a-\u003eMap a-\u003eMap a",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitMap",
           "name": "minimumSet",
           "package": "set-cover",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitMap",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitMap",
           "name": "minimumSet",
           "normalized": "Set a-\u003eMap a-\u003eSet a",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitMap",
           "name": "unMap",
           "package": "set-cover",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitMap",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitMap",
           "name": "unMap",
           "normalized": "[a]",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitSet",
           "name": "BitSet",
           "package": "set-cover",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitSet",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitSet",
           "name": "BitSet",
           "package": "set-cover",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitSet",
           "name": "Set",
           "package": "set-cover",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitSet",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitSet",
           "name": "Set",
           "package": "set-cover",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitSet",
           "name": "Set",
           "package": "set-cover",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitSet",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitSet",
           "name": "Set",
           "package": "set-cover",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitSet",
           "name": "difference",
           "package": "set-cover",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitSet",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitSet",
           "name": "difference",
           "normalized": "Set a-\u003eSet a-\u003eSet a",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitSet",
           "name": "disjoint",
           "package": "set-cover",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitSet",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitSet",
           "name": "disjoint",
           "normalized": "Set a-\u003eSet a-\u003eBool",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitSet",
           "name": "empty",
           "package": "set-cover",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitSet",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitSet",
           "name": "empty",
           "package": "set-cover",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitSet",
           "name": "keepMinimum",
           "package": "set-cover",
@@ -539,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitSet",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitSet",
           "name": "keepMinimum",
           "normalized": "Set a-\u003eSet a",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.BitSet",
           "name": "null",
           "package": "set-cover",
@@ -563,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover BitSet",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.BitSet",
           "name": "null",
           "normalized": "Set a-\u003eBool",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "Cuboid",
           "package": "set-cover",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "Cuboid",
           "package": "set-cover",
@@ -598,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "Coords",
           "package": "set-cover",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "Coords",
           "package": "set-cover",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "PackedCoords",
           "package": "set-cover",
@@ -627,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "PackedCoords",
           "package": "set-cover",
@@ -640,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "Size",
           "package": "set-cover",
@@ -648,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "Size",
           "package": "set-cover",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "Coords",
           "package": "set-cover",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "Coords",
           "package": "set-cover",
@@ -683,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "PackedCoords",
           "package": "set-cover",
@@ -692,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "PackedCoords",
           "package": "set-cover",
@@ -705,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "allOrientations",
           "package": "set-cover",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "allOrientations",
           "normalized": "[Coords a]-\u003e[[Coords a]]",
@@ -729,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "allPositions",
           "package": "set-cover",
@@ -738,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "allPositions",
           "normalized": "Size-\u003e[Coords Int]-\u003e[[Coords Int]]",
@@ -753,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "coordsFrom2LayerString",
           "package": "set-cover",
@@ -762,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "coordsFrom2LayerString",
           "normalized": "[String]-\u003e[Coords Int]",
@@ -777,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "coordsFromString",
           "package": "set-cover",
@@ -786,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "coordsFromString",
           "normalized": "[[String]]-\u003e[Coords Int]",
@@ -801,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "dx",
           "package": "set-cover",
@@ -810,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "dx",
           "normalized": "Coords a-\u003eCoords a",
@@ -824,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "dy",
           "package": "set-cover",
@@ -833,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "dy",
           "normalized": "Coords a-\u003eCoords a",
@@ -847,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "dz",
           "package": "set-cover",
@@ -856,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "dz",
           "normalized": "Coords a-\u003eCoords a",
@@ -870,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "forNestedCoords",
           "package": "set-cover",
@@ -879,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "forNestedCoords",
           "normalized": "([a]-\u003eb)-\u003e([c]-\u003ea)-\u003e([d]-\u003ec)-\u003e(Coords e-\u003ed)-\u003eCoords e-\u003eb",
@@ -894,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "move",
           "package": "set-cover",
@@ -903,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "move",
           "normalized": "Coords Int-\u003e[Coords Int]-\u003e[Coords Int]",
@@ -917,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "normalForm",
           "package": "set-cover",
@@ -926,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "normalForm",
           "normalized": "[Coords a]-\u003e[Coords a]",
@@ -941,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "numberOf2LayerAtoms",
           "package": "set-cover",
@@ -950,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "numberOf2LayerAtoms",
           "normalized": "[[String]]-\u003eInt",
@@ -965,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "packCoords",
           "package": "set-cover",
@@ -974,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "packCoords",
           "normalized": "Size-\u003eCoords Int-\u003ePackedCoords",
@@ -989,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "rotations",
           "package": "set-cover",
@@ -998,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "rotations",
           "normalized": "[Coords a-\u003eCoords a]",
@@ -1013,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObject must be in \u003ccode\u003e\u003ca\u003enormalForm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "size",
           "package": "set-cover",
@@ -1023,6 +1112,7 @@
         "index": {
           "description": "Object must be in normalForm",
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "size",
           "normalized": "[Coords Int]-\u003eCoords Int",
@@ -1037,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Cuboid",
           "name": "unpackCoords",
           "package": "set-cover",
@@ -1046,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Cuboid",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Cuboid",
           "name": "unpackCoords",
           "normalized": "Size-\u003ePackedCoords-\u003eCoords Int",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "Exact",
           "package": "set-cover",
@@ -1069,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "Exact",
           "package": "set-cover",
@@ -1082,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "Assign",
           "package": "set-cover",
@@ -1090,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "Assign",
           "package": "set-cover",
@@ -1103,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "Set",
           "package": "set-cover",
@@ -1111,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "Set",
           "package": "set-cover",
@@ -1124,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "State",
           "package": "set-cover",
@@ -1132,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "State",
           "package": "set-cover",
@@ -1145,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "Assign",
           "package": "set-cover",
@@ -1154,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "Assign",
           "package": "set-cover",
@@ -1167,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "State",
           "package": "set-cover",
@@ -1176,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "State",
           "package": "set-cover",
@@ -1189,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "assign",
           "package": "set-cover",
@@ -1198,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "assign",
           "normalized": "a-\u003eb-\u003eAssign a b",
@@ -1212,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "availableSubsets",
           "package": "set-cover",
@@ -1221,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "availableSubsets",
           "normalized": "[Assign a b]",
@@ -1236,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "difference",
           "package": "set-cover",
@@ -1245,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "difference",
           "normalized": "a-\u003ea-\u003ea",
@@ -1259,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "disjoint",
           "package": "set-cover",
@@ -1268,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "disjoint",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1282,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "freeElements",
           "package": "set-cover",
@@ -1291,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "freeElements",
           "package": "set-cover",
@@ -1304,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "initState",
           "package": "set-cover",
@@ -1313,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "initState",
           "normalized": "[Assign a b]-\u003eState a b",
@@ -1328,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "label",
           "package": "set-cover",
@@ -1337,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "label",
           "package": "set-cover",
@@ -1349,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "labeledSet",
           "package": "set-cover",
@@ -1358,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "labeledSet",
           "package": "set-cover",
@@ -1371,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "minimize",
           "package": "set-cover",
@@ -1380,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "minimize",
           "normalized": "a-\u003e[Assign b a]-\u003e[Assign b a]",
@@ -1394,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "null",
           "package": "set-cover",
@@ -1403,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "null",
           "normalized": "a-\u003eBool",
@@ -1417,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "partitions",
           "package": "set-cover",
@@ -1426,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "partitions",
           "normalized": "[Assign a b]-\u003e[[a]]",
@@ -1440,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "search",
           "package": "set-cover",
@@ -1449,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "search",
           "normalized": "State a b-\u003e[[a]]",
@@ -1463,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "step",
           "package": "set-cover",
@@ -1472,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "step",
           "normalized": "State a b-\u003e[State a b]",
@@ -1486,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "unions",
           "package": "set-cover",
@@ -1495,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "unions",
           "normalized": "[a]-\u003ea",
@@ -1509,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "updateState",
           "package": "set-cover",
@@ -1518,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "updateState",
           "normalized": "Assign a b-\u003eState a b-\u003eState a b",
@@ -1533,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:11 UTC 2014",
           "module": "Math.SetCover.Exact",
           "name": "usedSubsets",
           "package": "set-cover",
@@ -1542,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Math SetCover Exact",
+          "indexed": "2014-03-11T20:00:11",
           "module": "Math.SetCover.Exact",
           "name": "usedSubsets",
           "normalized": "[Assign a b]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ports"
+        "phrase": "ports",
+        "type": "phrase"
       },
       "type": "context"
     }

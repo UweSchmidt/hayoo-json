@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "usb-iteratee"
+        "phrase": "usb-iteratee",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIteratee enumerators for endpoints.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:32:03 UTC 2014",
           "module": "System.USB.IO.Iteratee",
           "name": "Iteratee",
           "package": "usb-iteratee",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Iteratee enumerators for endpoints",
           "hierarchy": "System USB IO Iteratee",
+          "indexed": "2014-03-11T20:32:03",
           "module": "System.USB.IO.Iteratee",
           "name": "Iteratee",
           "package": "usb-iteratee",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIteratee enumerator for reading \u003cem\u003ebulk\u003c/em\u003e endpoints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:03 UTC 2014",
           "module": "System.USB.IO.Iteratee",
           "name": "enumReadBulk",
           "package": "usb-iteratee",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Iteratee enumerator for reading bulk endpoints",
           "hierarchy": "System USB IO Iteratee",
+          "indexed": "2014-03-11T20:32:03",
           "module": "System.USB.IO.Iteratee",
           "name": "enumReadBulk",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eSize-\u003eTimeout-\u003eEnumerator a b c",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIteratee enumerator for reading \u003cem\u003einterrupt\u003c/em\u003e endpoints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:03 UTC 2014",
           "module": "System.USB.IO.Iteratee",
           "name": "enumReadInterrupt",
           "package": "usb-iteratee",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Iteratee enumerator for reading interrupt endpoints",
           "hierarchy": "System USB IO Iteratee",
+          "indexed": "2014-03-11T20:32:03",
           "module": "System.USB.IO.Iteratee",
           "name": "enumReadInterrupt",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eSize-\u003eTimeout-\u003eEnumerator a b c",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIteratee enumerator for reading \u003cem\u003eisochronous\u003c/em\u003e endpoints.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWARNING:\u003c/em\u003e You need to enable the threaded runtime (\u003ccode\u003e-threaded\u003c/code\u003e) for this\n function to work correctly. It throws a runtime error otherwise!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:03 UTC 2014",
           "module": "System.USB.IO.Iteratee",
           "name": "enumReadIsochronous",
           "package": "usb-iteratee",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Iteratee enumerator for reading isochronous endpoints WARNING You need to enable the threaded runtime threaded for this function to work correctly It throws runtime error otherwise",
           "hierarchy": "System USB IO Iteratee",
+          "indexed": "2014-03-11T20:32:03",
           "module": "System.USB.IO.Iteratee",
           "name": "enumReadIsochronous",
           "normalized": "DeviceHandle-\u003eEndpointAddress-\u003eVector Size-\u003eTimeout-\u003eEnumerator(Vector a)b c",

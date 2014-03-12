@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-constraints"
+        "phrase": "cabal-constraints",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "priority-queue"
+        "phrase": "priority-queue",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "PriorityQueue",
           "package": "priority-queue",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "PriorityQueue",
           "package": "priority-queue",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "Dequeue",
           "package": "priority-queue",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "Dequeue",
           "package": "priority-queue",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "DequeueWhere",
           "package": "priority-queue",
@@ -66,6 +71,7 @@
         },
         "index": {
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "DequeueWhere",
           "package": "priority-queue",
@@ -79,6 +85,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "Enqueue",
           "package": "priority-queue",
@@ -86,6 +93,7 @@
         },
         "index": {
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "Enqueue",
           "package": "priority-queue",
@@ -100,6 +108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ca\u003epure\u003c/a\u003e type at the chewy center.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "PQ",
           "package": "priority-queue",
@@ -109,6 +118,7 @@
         "index": {
           "description": "The pure type at the chewy center",
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "PQ",
           "package": "priority-queue",
@@ -122,6 +132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "PeekQueue",
           "package": "priority-queue",
@@ -129,6 +140,7 @@
         },
         "index": {
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "PeekQueue",
           "package": "priority-queue",
@@ -143,6 +155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA priority queue usable in the monad \u003ccode\u003em\u003c/code\u003e with values of type \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "PriorityQueue",
           "package": "priority-queue",
@@ -152,6 +165,7 @@
         "index": {
           "description": "priority queue usable in the monad with values of type",
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "PriorityQueue",
           "package": "priority-queue",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "QueueSize",
           "package": "priority-queue",
@@ -172,6 +187,7 @@
         },
         "index": {
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "QueueSize",
           "package": "priority-queue",
@@ -186,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePull an item out of a queue.  Should not block.  No ordering\n  constraints are implied other than that any item that went into\n  the queue \u003ca\u003ereally ought to\u003c/a\u003e come out before \u003ccode\u003e\u003ca\u003edequeue\u003c/a\u003e\u003c/code\u003e returns\n  \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "dequeue",
           "package": "priority-queue",
@@ -195,6 +212,7 @@
         "index": {
           "description": "Pull an item out of queue Should not block No ordering constraints are implied other than that any item that went into the queue really ought to come out before dequeue returns Nothing",
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "dequeue",
           "normalized": "a-\u003eb(Maybe c)",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "dequeueBatch",
           "package": "priority-queue",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "dequeueBatch",
           "normalized": "a-\u003eb[c]",
@@ -233,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePull an item matching the given predicate out of a queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "dequeueWhere",
           "package": "priority-queue",
@@ -242,6 +263,7 @@
         "index": {
           "description": "Pull an item matching the given predicate out of queue",
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "dequeueWhere",
           "normalized": "a-\u003e(b-\u003eBool)-\u003ec(Maybe b)",
@@ -258,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA new empty \u003ccode\u003e\u003ca\u003ePQ\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "emptyPQ",
           "package": "priority-queue",
@@ -268,6 +291,7 @@
         "index": {
           "description": "new empty PQ",
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "emptyPQ",
           "normalized": "(a-\u003eb)-\u003ePQ a",
@@ -284,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut an item into a queue.  May block while trying to do so.\n  No constraint is placed on the behavior of the queue except that\n  every item put in \u003ca\u003ereally ought to\u003c/a\u003e come out sometime before\n  \u003ccode\u003e\u003ca\u003edequeue\u003c/a\u003e\u003c/code\u003e returns a \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "enqueue",
           "package": "priority-queue",
@@ -293,6 +318,7 @@
         "index": {
           "description": "Put an item into queue May block while trying to do so No constraint is placed on the behavior of the queue except that every item put in really ought to come out sometime before dequeue returns Nothing",
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "enqueue",
           "normalized": "a-\u003eb-\u003ec()",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "enqueueBatch",
           "package": "priority-queue",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "enqueueBatch",
           "normalized": "a-\u003e[b]-\u003ec()",
@@ -331,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a priority queue using an instance of the default modifiable \n  reference for the requested monad and value type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "mkDefaultPriorityQueue",
           "package": "priority-queue",
@@ -341,6 +370,7 @@
         "index": {
           "description": "Build priority queue using an instance of the default modifiable reference for the requested monad and value type",
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "mkDefaultPriorityQueue",
           "normalized": "Ref a(PQ b)-\u003ePriorityQueue a b",
@@ -357,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a priority queue from a modifiable reference containing\n  a \u003ccode\u003e\u003ca\u003ePQ\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "mkPriorityQueue",
           "package": "priority-queue",
@@ -367,6 +398,7 @@
         "index": {
           "description": "Build priority queue from modifiable reference containing PQ",
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "mkPriorityQueue",
           "normalized": "a-\u003ePriorityQueue b c",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new priority queue using the specified indexing function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "newPriorityQueue",
           "package": "priority-queue",
@@ -393,6 +426,7 @@
         "index": {
           "description": "Construct new priority queue using the specified indexing function",
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "newPriorityQueue",
           "normalized": "(a-\u003eb)-\u003ec(PriorityQueue c a)",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new priority queue using a comparator function.  It is \n  the user's responsibility to ensure that this function provides a\n  sensible order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "newPriorityQueueBy",
           "package": "priority-queue",
@@ -419,6 +454,7 @@
         "index": {
           "description": "Construct new priority queue using comparator function It is the user responsibility to ensure that this function provides sensible order",
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "newPriorityQueueBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eb(PriorityQueue b a)",
@@ -435,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the whole contents of the queue (if possible) without \n  altering the queue's contents.  Obviously in cases where this\n  can't be done lazily this can be a very expensive operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "peekQueue",
           "package": "priority-queue",
@@ -444,6 +481,7 @@
         "index": {
           "description": "return the whole contents of the queue if possible without altering the queue contents Obviously in cases where this can be done lazily this can be very expensive operation",
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "peekQueue",
           "normalized": "a-\u003eb[c]",
@@ -460,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epeek a specified number of items off the queue.  The default\n  implementation is hideously wasteful in cases where peekQueue is\n  not able to get the contents lazily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "peekQueueTaking",
           "package": "priority-queue",
@@ -469,6 +508,7 @@
         "index": {
           "description": "peek specified number of items off the queue The default implementation is hideously wasteful in cases where peekQueue is not able to get the contents lazily",
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "peekQueueTaking",
           "normalized": "Int-\u003ea-\u003eb[c]",
@@ -485,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the number of elements in the queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:00 UTC 2014",
           "module": "Data.PriorityQueue",
           "name": "queueSize",
           "package": "priority-queue",
@@ -494,6 +535,7 @@
         "index": {
           "description": "return the number of elements in the queue",
           "hierarchy": "Data PriorityQueue",
+          "indexed": "2014-03-11T19:44:00",
           "module": "Data.PriorityQueue",
           "name": "queueSize",
           "normalized": "a-\u003eb Int",

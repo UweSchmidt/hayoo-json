@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scan"
+        "phrase": "scan",
+        "type": "phrase"
       },
       "type": "context"
     }

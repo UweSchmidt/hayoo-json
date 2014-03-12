@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "live-sequencer"
+        "phrase": "live-sequencer",
+        "type": "phrase"
       },
       "type": "context"
     }

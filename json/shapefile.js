@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shapefile"
+        "phrase": "shapefile",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "ShapeTypes",
           "package": "shapefile",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "ShapeTypes",
           "package": "shapefile",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "ESRIShapeType",
           "package": "shapefile",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "ESRIShapeType",
           "package": "shapefile",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "MultiPatch",
           "package": "shapefile",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "MultiPatch",
           "package": "shapefile",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "MultiPoint",
           "package": "shapefile",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "MultiPoint",
           "package": "shapefile",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "MultiPointM",
           "package": "shapefile",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "MultiPointM",
           "package": "shapefile",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "MultiPointZ",
           "package": "shapefile",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "MultiPointZ",
           "package": "shapefile",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "NullShape",
           "package": "shapefile",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "NullShape",
           "package": "shapefile",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "Point",
           "package": "shapefile",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "Point",
           "package": "shapefile",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "PointM",
           "package": "shapefile",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "PointM",
           "package": "shapefile",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "PointZ",
           "package": "shapefile",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "PointZ",
           "package": "shapefile",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "PolyLine",
           "package": "shapefile",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "PolyLine",
           "package": "shapefile",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "PolyLineM",
           "package": "shapefile",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "PolyLineM",
           "package": "shapefile",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "PolyLineZ",
           "package": "shapefile",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "PolyLineZ",
           "package": "shapefile",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "Polygon",
           "package": "shapefile",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "Polygon",
           "package": "shapefile",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "PolygonM",
           "package": "shapefile",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "PolygonM",
           "package": "shapefile",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "PolygonZ",
           "package": "shapefile",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "PolygonZ",
           "package": "shapefile",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "Unknown",
           "package": "shapefile",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "Unknown",
           "package": "shapefile",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "getShapeType32le",
           "package": "shapefile",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "getShapeType32le",
           "package": "shapefile",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "hasM",
           "package": "shapefile",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "hasM",
           "normalized": "ESRIShapeType-\u003eBool",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "hasZ",
           "package": "shapefile",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "hasZ",
           "normalized": "ESRIShapeType-\u003eBool",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "identifyShapeType",
           "package": "shapefile",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "identifyShapeType",
           "normalized": "ESRIShapeType-\u003eESRIShapeType",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "isKnownShapeType",
           "package": "shapefile",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "isKnownShapeType",
           "normalized": "ESRIShapeType-\u003eBool",
@@ -506,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "putShapeType32le",
           "package": "shapefile",
@@ -515,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile ShapeTypes",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.ShapeTypes",
           "name": "putShapeType32le",
           "normalized": "ESRIShapeType-\u003ePut",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "Handle",
           "package": "shapefile",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "Handle",
           "package": "shapefile",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "ShpHandle",
           "package": "shapefile",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "ShpHandle",
           "package": "shapefile",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "closeShp",
           "package": "shapefile",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "closeShp",
           "normalized": "ShpHandle-\u003eIO()",
@@ -596,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "getShpRecord",
           "package": "shapefile",
@@ -605,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "getShpRecord",
           "normalized": "ShpHandle-\u003eInt-\u003eIO(ShpRec,Maybe DbfRecHandle)",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "openShp",
           "package": "shapefile",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "openShp",
           "normalized": "FilePath-\u003eBool-\u003eIO ShpHandle",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "shpDbfFields",
           "package": "shapefile",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "shpDbfFields",
           "normalized": "ShpHandle-\u003eIO[DbfFieldHandle]",
@@ -668,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "shpHeader",
           "package": "shapefile",
@@ -677,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "shpHeader",
           "normalized": "ShpHandle-\u003eIO ShpFileHeader",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "shpIsOpen",
           "package": "shapefile",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp.Handle",
           "name": "shpIsOpen",
           "normalized": "ShpHandle-\u003eIO Bool",
@@ -716,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "Shp",
           "package": "shapefile",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "Shp",
           "package": "shapefile",
@@ -737,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "ShpFileHeader",
           "package": "shapefile",
@@ -745,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "ShpFileHeader",
           "package": "shapefile",
@@ -758,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "ShpRec",
           "package": "shapefile",
@@ -766,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "ShpRec",
           "package": "shapefile",
@@ -779,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "ShpRecHeader",
           "package": "shapefile",
@@ -787,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "ShpRecHeader",
           "package": "shapefile",
@@ -800,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "ShpFileHeader",
           "package": "shapefile",
@@ -809,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "ShpFileHeader",
           "package": "shapefile",
@@ -822,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "ShpRec",
           "package": "shapefile",
@@ -831,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "ShpRec",
           "package": "shapefile",
@@ -844,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "ShpRecHeader",
           "package": "shapefile",
@@ -853,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "ShpRecHeader",
           "package": "shapefile",
@@ -866,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "getShpFile",
           "package": "shapefile",
@@ -875,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "getShpFile",
           "normalized": "Get(ShpFileHeader,[ShpRec])",
@@ -890,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "getShpFileHeader",
           "package": "shapefile",
@@ -899,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "getShpFileHeader",
           "package": "shapefile",
@@ -912,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "getShpRec",
           "package": "shapefile",
@@ -921,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "getShpRec",
           "package": "shapefile",
@@ -934,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "getShpRecHeader",
           "package": "shapefile",
@@ -943,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "getShpRecHeader",
           "package": "shapefile",
@@ -957,6 +1041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack the data for a shape into a \u003ccode\u003e\u003ca\u003eShpRec\u003c/a\u003e\u003c/code\u003e with the specified record number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "mkShpRec",
           "package": "shapefile",
@@ -967,6 +1052,7 @@
         "index": {
           "description": "Pack the data for shape into ShpRec with the specified record number",
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "mkShpRec",
           "normalized": "Word-\u003eByteString-\u003eShpRec",
@@ -983,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack several raw shape records into \u003ccode\u003e\u003ca\u003eShpRec\u003c/a\u003e\u003c/code\u003es, setting proper record numbers\n and sizes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "mkShpRecs",
           "package": "shapefile",
@@ -993,6 +1080,7 @@
         "index": {
           "description": "Pack several raw shape records into ShpRec setting proper record numbers and sizes",
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "mkShpRecs",
           "normalized": "[ByteString]-\u003e[ShpRec]",
@@ -1008,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "putShpFile",
           "package": "shapefile",
@@ -1017,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "putShpFile",
           "normalized": "ShpFileHeader-\u003e[ShpRec]-\u003ePut",
@@ -1032,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "putShpFileHeader",
           "package": "shapefile",
@@ -1041,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "putShpFileHeader",
           "normalized": "ShpFileHeader-\u003ePut",
@@ -1056,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "putShpRec",
           "package": "shapefile",
@@ -1065,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "putShpRec",
           "normalized": "ShpRec-\u003ePut",
@@ -1080,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "putShpRecHeader",
           "package": "shapefile",
@@ -1089,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "putShpRecHeader",
           "normalized": "ShpRecHeader-\u003ePut",
@@ -1104,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "shpFileBBox",
           "package": "shapefile",
@@ -1113,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "shpFileBBox",
           "normalized": "BBox(Double,Double)",
@@ -1129,6 +1227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile length in 16-bit words.  Unsigned, I assume - spec doesn't say.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "shpFileLength",
           "package": "shapefile",
@@ -1139,6 +1238,7 @@
         "index": {
           "description": "File length in bit words Unsigned assume spec doesn say",
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "shpFileLength",
           "package": "shapefile",
@@ -1153,6 +1253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShape file length in bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "shpFileLengthBytes",
           "package": "shapefile",
@@ -1163,6 +1264,7 @@
         "index": {
           "description": "Shape file length in bytes",
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "shpFileLengthBytes",
           "normalized": "ShpFileHeader-\u003eInteger",
@@ -1178,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "shpFileMBnd",
           "package": "shapefile",
@@ -1187,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "shpFileMBnd",
           "normalized": "Maybe(Double,Double)",
@@ -1202,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "shpFileShapeType",
           "package": "shapefile",
@@ -1211,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "shpFileShapeType",
           "package": "shapefile",
@@ -1224,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "shpFileZBnd",
           "package": "shapefile",
@@ -1233,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "shpFileZBnd",
           "normalized": "Maybe(Double,Double)",
@@ -1248,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "shpRecData",
           "package": "shapefile",
@@ -1257,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "shpRecData",
           "package": "shapefile",
@@ -1270,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "shpRecHdr",
           "package": "shapefile",
@@ -1279,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "shpRecHdr",
           "package": "shapefile",
@@ -1293,6 +1405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex of the record.  First index is 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "shpRecNum",
           "package": "shapefile",
@@ -1303,6 +1416,7 @@
         "index": {
           "description": "Index of the record First index is",
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "shpRecNum",
           "package": "shapefile",
@@ -1317,6 +1431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shape record type isn't \u003ca\u003epart of\u003c/a\u003e the header, but every shape format starts with\n a word indicating the shape type.  This function extracts it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "shpRecShapeType",
           "package": "shapefile",
@@ -1327,6 +1442,7 @@
         "index": {
           "description": "shape record type isn part of the header but every shape format starts with word indicating the shape type This function extracts it",
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "shpRecShapeType",
           "normalized": "ShpRec-\u003eESRIShapeType",
@@ -1343,6 +1459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the record in 16-bit words, excluding this header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "shpRecSize",
           "package": "shapefile",
@@ -1353,6 +1470,7 @@
         "index": {
           "description": "Size of the record in bit words excluding this header",
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "shpRecSize",
           "package": "shapefile",
@@ -1367,6 +1485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the record in bytes, excluding the record header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "shpRecSizeBytes",
           "package": "shapefile",
@@ -1377,6 +1496,7 @@
         "index": {
           "description": "Size of the record in bytes excluding the record header",
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "shpRecSizeBytes",
           "normalized": "ShpRecHeader-\u003eInteger",
@@ -1393,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal size of the shape record in bytes, including the header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shp",
           "name": "shpRecTotalSizeBytes",
           "package": "shapefile",
@@ -1403,6 +1524,7 @@
         "index": {
           "description": "Total size of the shape record in bytes including the header",
           "hierarchy": "Database Shapefile Shp",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shp",
           "name": "shpRecTotalSizeBytes",
           "normalized": "ShpRec-\u003eInteger",
@@ -1419,6 +1541,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrimarily for use internally by \u003ccode\u003eShpHandle\u003c/code\u003e.\n Each \u003ccode\u003eShpHandle\u003c/code\u003e has an \u003ccode\u003e\u003ca\u003eShxHandle\u003c/a\u003e\u003c/code\u003e that it uses to lookup arbitrary shape\n records from the .shp file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx.Handle",
           "name": "Handle",
           "package": "shapefile",
@@ -1428,6 +1551,7 @@
         "index": {
           "description": "Primarily for use internally by ShpHandle Each ShpHandle has an ShxHandle that it uses to lookup arbitrary shape records from the shp file",
           "hierarchy": "Database Shapefile Shx Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx.Handle",
           "name": "Handle",
           "package": "shapefile",
@@ -1441,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx.Handle",
           "name": "ShxHandle",
           "package": "shapefile",
@@ -1449,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shx Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx.Handle",
           "name": "ShxHandle",
           "package": "shapefile",
@@ -1462,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx.Handle",
           "name": "closeShx",
           "package": "shapefile",
@@ -1471,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shx Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx.Handle",
           "name": "closeShx",
           "normalized": "ShxHandle-\u003eIO()",
@@ -1486,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx.Handle",
           "name": "getShxRecord",
           "package": "shapefile",
@@ -1495,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shx Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx.Handle",
           "name": "getShxRecord",
           "normalized": "ShxHandle-\u003eInt-\u003eIO ShxRec",
@@ -1510,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx.Handle",
           "name": "openShx",
           "package": "shapefile",
@@ -1519,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shx Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx.Handle",
           "name": "openShx",
           "normalized": "FilePath-\u003eBool-\u003eIO ShxHandle",
@@ -1534,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx.Handle",
           "name": "shxHeader",
           "package": "shapefile",
@@ -1543,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shx Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx.Handle",
           "name": "shxHeader",
           "normalized": "ShxHandle-\u003eIO ShpFileHeader",
@@ -1558,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx.Handle",
           "name": "shxIsOpen",
           "package": "shapefile",
@@ -1567,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shx Handle",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx.Handle",
           "name": "shxIsOpen",
           "normalized": "ShxHandle-\u003eIO Bool",
@@ -1582,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx",
           "name": "Shx",
           "package": "shapefile",
@@ -1590,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shx",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx",
           "name": "Shx",
           "package": "shapefile",
@@ -1604,6 +1742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoffset and length of corresponding shape in 16-bit words\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx",
           "name": "ShxRec",
           "package": "shapefile",
@@ -1613,6 +1752,7 @@
         "index": {
           "description": "offset and length of corresponding shape in bit words",
           "hierarchy": "Database Shapefile Shx",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx",
           "name": "ShxRec",
           "package": "shapefile",
@@ -1626,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx",
           "name": "ShxRec",
           "package": "shapefile",
@@ -1635,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shx",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx",
           "name": "ShxRec",
           "package": "shapefile",
@@ -1648,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx",
           "name": "getShxFile",
           "package": "shapefile",
@@ -1657,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shx",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx",
           "name": "getShxFile",
           "normalized": "Get(ShpFileHeader,[ShxRec])",
@@ -1672,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx",
           "name": "getShxRec",
           "package": "shapefile",
@@ -1681,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shx",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx",
           "name": "getShxRec",
           "package": "shapefile",
@@ -1694,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx",
           "name": "putShxFile",
           "package": "shapefile",
@@ -1703,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shx",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx",
           "name": "putShxFile",
           "normalized": "ShpFileHeader-\u003e[ShxRec]-\u003ePut",
@@ -1718,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx",
           "name": "putShxRec",
           "package": "shapefile",
@@ -1727,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shx",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx",
           "name": "putShxRec",
           "normalized": "ShxRec-\u003ePut",
@@ -1743,6 +1893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an index for the provided .shp file contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx",
           "name": "shxFromShp",
           "package": "shapefile",
@@ -1753,6 +1904,7 @@
         "index": {
           "description": "Construct an index for the provided shp file contents",
           "hierarchy": "Database Shapefile Shx",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx",
           "name": "shxFromShp",
           "normalized": "ShpFileHeader-\u003e[ShpRec]-\u003e(ShpFileHeader,[ShxRec])",
@@ -1769,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of the corresponding ShpRec in 16-bit words\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx",
           "name": "shxLength",
           "package": "shapefile",
@@ -1779,6 +1932,7 @@
         "index": {
           "description": "Length of the corresponding ShpRec in bit words",
           "hierarchy": "Database Shapefile Shx",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx",
           "name": "shxLength",
           "package": "shapefile",
@@ -1792,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx",
           "name": "shxLengthBytes",
           "package": "shapefile",
@@ -1801,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shx",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx",
           "name": "shxLengthBytes",
           "normalized": "ShxRec-\u003eInteger",
@@ -1817,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset of the corresponding ShpRec in 16-bit words\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx",
           "name": "shxOffset",
           "package": "shapefile",
@@ -1827,6 +1984,7 @@
         "index": {
           "description": "Offset of the corresponding ShpRec in bit words",
           "hierarchy": "Database Shapefile Shx",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx",
           "name": "shxOffset",
           "package": "shapefile",
@@ -1840,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx",
           "name": "shxOffsetBytes",
           "package": "shapefile",
@@ -1849,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile Shx",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx",
           "name": "shxOffsetBytes",
           "normalized": "ShxRec-\u003eInteger",
@@ -1865,6 +2025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eShxRec\u003c/a\u003e\u003c/code\u003e given the record offset and length in bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile.Shx",
           "name": "shxRecBytes",
           "package": "shapefile",
@@ -1875,6 +2036,7 @@
         "index": {
           "description": "Construct ShxRec given the record offset and length in bytes",
           "hierarchy": "Database Shapefile Shx",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile.Shx",
           "name": "shxRecBytes",
           "normalized": "Integer-\u003eInteger-\u003eShxRec",
@@ -1890,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile",
           "name": "Shapefile",
           "package": "shapefile",
@@ -1898,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile",
           "name": "Shapefile",
           "package": "shapefile",
@@ -1911,6 +2075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile",
           "name": "BBox",
           "package": "shapefile",
@@ -1919,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile",
           "name": "BBox",
           "package": "shapefile",
@@ -1932,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile",
           "name": "BBox",
           "package": "shapefile",
@@ -1941,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile",
           "name": "BBox",
           "package": "shapefile",
@@ -1954,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile",
           "name": "bbMax",
           "package": "shapefile",
@@ -1963,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile",
           "name": "bbMax",
           "package": "shapefile",
@@ -1976,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:18 UTC 2014",
           "module": "Database.Shapefile",
           "name": "bbMin",
           "package": "shapefile",
@@ -1985,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Database Shapefile",
+          "indexed": "2014-03-11T20:01:18",
           "module": "Database.Shapefile",
           "name": "bbMin",
           "package": "shapefile",

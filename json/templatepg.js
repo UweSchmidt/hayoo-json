@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "templatepg"
+        "phrase": "templatepg",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Protocol module allows for direct, low-level communication with a\n  PostgreSQL server over TCP/IP. You probably don't want to use this module\n  directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Protocol",
           "name": "Protocol",
           "package": "templatepg",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The Protocol module allows for direct low-level communication with PostgreSQL server over TCP IP You probably don want to use this module directly",
           "hierarchy": "Database TemplatePG Protocol",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Protocol",
           "name": "Protocol",
           "package": "templatepg",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePGException is thrown upon encountering an \u003ccode\u003eErrorResponse\u003c/code\u003e with severity of\n  ERROR, FATAL, or PANIC. It holds the SQLSTATE and message of the error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Protocol",
           "name": "PGException",
           "package": "templatepg",
@@ -51,6 +54,7 @@
         "index": {
           "description": "PGException is thrown upon encountering an ErrorResponse with severity of ERROR FATAL or PANIC It holds the SQLSTATE and message of the error",
           "hierarchy": "Database TemplatePG Protocol",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Protocol",
           "name": "PGException",
           "package": "templatepg",
@@ -88,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe a SQL statement/query. A statement description consists of 0 or\n more parameter descriptions (a PostgreSQL type) and zero or more result\n field descriptions (for queries) (consist of the name of the field, the\n type of the field, and a nullability indicator).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Protocol",
           "name": "describeStatement",
           "package": "templatepg",
@@ -97,6 +102,7 @@
         "index": {
           "description": "Describe SQL statement query statement description consists of or more parameter descriptions PostgreSQL type and zero or more result field descriptions for queries consist of the name of the field the type of the field and nullability indicator",
           "hierarchy": "Database TemplatePG Protocol",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Protocol",
           "name": "describeStatement",
           "normalized": "Handle-\u003eString-\u003eIO([PGType],[(String,PGType,Bool)])",
@@ -113,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple query is one which requires sending only a single \u003ccode\u003eSimpleQuery\u003c/code\u003e\n message to the PostgreSQL server. The query is sent as a single string; you\n cannot bind parameters. Note that queries can return 0 results (an empty\n list).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Protocol",
           "name": "executeSimpleQuery",
           "package": "templatepg",
@@ -122,6 +129,7 @@
         "index": {
           "description": "simple query is one which requires sending only single SimpleQuery message to the PostgreSQL server The query is sent as single string you cannot bind parameters Note that queries can return results an empty list",
           "hierarchy": "Database TemplatePG Protocol",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Protocol",
           "name": "executeSimpleQuery",
           "normalized": "String-\u003eHandle-\u003eIO[[Maybe ByteString]]",
@@ -138,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhile not strictly necessary, this can make code a little bit clearer. It\n executes a \u003ccode\u003eSimpleQuery\u003c/code\u003e but doesn't look for results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Protocol",
           "name": "executeSimpleStatement",
           "package": "templatepg",
@@ -147,6 +156,7 @@
         "index": {
           "description": "While not strictly necessary this can make code little bit clearer It executes SimpleQuery but doesn look for results",
           "hierarchy": "Database TemplatePG Protocol",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Protocol",
           "name": "executeSimpleStatement",
           "normalized": "String-\u003eHandle-\u003eIO()",
@@ -215,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exposes the high-level Template Haskell interface for querying\n and manipulating the PostgreSQL server.\n\u003c/p\u003e\u003cp\u003eAll SQL string arguments support expression interpolation. Just enclose your\n expression in \u003ccode\u003e{}\u003c/code\u003e in the SQL string.\n\u003c/p\u003e\u003cp\u003eNote that transactions are messy and untested. Attempt to use them at your\n own risk.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.SQL",
           "name": "SQL",
           "package": "templatepg",
@@ -224,6 +235,7 @@
         "index": {
           "description": "This module exposes the high-level Template Haskell interface for querying and manipulating the PostgreSQL server All SQL string arguments support expression interpolation Just enclose your expression in in the SQL string Note that transactions are messy and untested Attempt to use them at your own risk",
           "hierarchy": "Database TemplatePG SQL",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.SQL",
           "name": "SQL",
           "package": "templatepg",
@@ -371,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrab a PostgreSQL connection for compile time. We do so through the\n environment variables: \u003ccode\u003eTPG_DB\u003c/code\u003e, \u003ccode\u003eTPG_HOST\u003c/code\u003e, \u003ccode\u003eTPG_PORT\u003c/code\u003e, \u003ccode\u003eTPG_USER\u003c/code\u003e, and\n \u003ccode\u003eTPG_PASS\u003c/code\u003e. Only TPG_DB is required.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.SQL",
           "name": "thConnection",
           "package": "templatepg",
@@ -381,6 +394,7 @@
         "index": {
           "description": "Grab PostgreSQL connection for compile time We do so through the environment variables TPG DB TPG HOST TPG PORT TPG USER and TPG PASS Only TPG DB is required",
           "hierarchy": "Database TemplatePG SQL",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.SQL",
           "name": "thConnection",
           "package": "templatepg",
@@ -422,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAll type conversion to and from the PostgreSQL server is handled here.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Types",
           "name": "Types",
           "package": "templatepg",
@@ -431,6 +446,7 @@
         "index": {
           "description": "All type conversion to and from the PostgreSQL server is handled here",
           "hierarchy": "Database TemplatePG Types",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Types",
           "name": "Types",
           "package": "templatepg",
@@ -445,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemplatePG currenly only supports a handful of types. It also doesn't\n distinguish between numeric types with different ranges. More types are the\n most likely feature of future TemplatePG releases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Types",
           "name": "PGType",
           "package": "templatepg",
@@ -454,6 +471,7 @@
         "index": {
           "description": "TemplatePG currenly only supports handful of types It also doesn distinguish between numeric types with different ranges More types are the most likely feature of future TemplatePG releases",
           "hierarchy": "Database TemplatePG Types",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Types",
           "name": "PGType",
           "package": "templatepg",
@@ -468,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Types",
           "name": "PGBoolean",
           "package": "templatepg",
@@ -478,6 +497,7 @@
         "index": {
           "description": "bool",
           "hierarchy": "Database TemplatePG Types",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Types",
           "name": "PGBoolean",
           "package": "templatepg",
@@ -492,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edate (day without time)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Types",
           "name": "PGDate",
           "package": "templatepg",
@@ -502,6 +523,7 @@
         "index": {
           "description": "date day without time",
           "hierarchy": "Database TemplatePG Types",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Types",
           "name": "PGDate",
           "package": "templatepg",
@@ -516,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einteger\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Types",
           "name": "PGInteger",
           "package": "templatepg",
@@ -526,6 +549,7 @@
         "index": {
           "description": "integer",
           "hierarchy": "Database TemplatePG Types",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Types",
           "name": "PGInteger",
           "package": "templatepg",
@@ -540,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterval (a time interval), send-only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Types",
           "name": "PGInterval",
           "package": "templatepg",
@@ -550,6 +575,7 @@
         "index": {
           "description": "interval time interval send-only",
           "hierarchy": "Database TemplatePG Types",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Types",
           "name": "PGInterval",
           "package": "templatepg",
@@ -564,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efloat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Types",
           "name": "PGReal",
           "package": "templatepg",
@@ -574,6 +601,7 @@
         "index": {
           "description": "float",
           "hierarchy": "Database TemplatePG Types",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Types",
           "name": "PGReal",
           "package": "templatepg",
@@ -588,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etext/varchar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Types",
           "name": "PGText",
           "package": "templatepg",
@@ -598,6 +627,7 @@
         "index": {
           "description": "text varchar",
           "hierarchy": "Database TemplatePG Types",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Types",
           "name": "PGText",
           "package": "templatepg",
@@ -612,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etimestamptz (timestamp with time zone)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Types",
           "name": "PGTimestampTZ",
           "package": "templatepg",
@@ -622,6 +653,7 @@
         "index": {
           "description": "timestamptz timestamp with time zone",
           "hierarchy": "Database TemplatePG Types",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Types",
           "name": "PGTimestampTZ",
           "package": "templatepg",
@@ -636,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a string from PostgreSQL of the given type into an appropriate\n Haskell value. Or, more accurately, given a PostgreSQL type, create a\n function for converting a string of that type into a compatible Haskell\n value.\n \u003ccode\u003epgStringToType :: PGType -\u003e (String -\u003e ?)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Types",
           "name": "pgStringToType",
           "package": "templatepg",
@@ -646,6 +679,7 @@
         "index": {
           "description": "Convert string from PostgreSQL of the given type into an appropriate Haskell value Or more accurately given PostgreSQL type create function for converting string of that type into compatible Haskell value pgStringToType PGType String",
           "hierarchy": "Database TemplatePG Types",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Types",
           "name": "pgStringToType",
           "normalized": "PGType-\u003eQ Exp",
@@ -662,6 +696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a type OID from PostgreSQL's catalog to a TemplatePG\n representation. To get a list of types: \u003ccode\u003eSELECT typname, oid FROM pg_type\u003c/code\u003e\n Note that I have assumed, but not tested, that type OIDs for these basic\n types are consistent across installations. If not, I'm going to have to\n switch to using the text descriptions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Types",
           "name": "pgTypeFromOID",
           "package": "templatepg",
@@ -671,6 +706,7 @@
         "index": {
           "description": "Convert type OID from PostgreSQL catalog to TemplatePG representation To get list of types SELECT typname oid FROM pg type Note that have assumed but not tested that type OIDs for these basic types are consistent across installations If not going to have to switch to using the text descriptions",
           "hierarchy": "Database TemplatePG Types",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Types",
           "name": "pgTypeFromOID",
           "normalized": "Int-\u003ePGType",
@@ -687,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Haskell value to a string of the given PostgreSQL type. Or, more\n accurately, given a PostgreSQL type, create a function for converting\n compatible Haskell values into a string of that type.\n \u003ccode\u003epgTypeToString :: PGType -\u003e (? -\u003e String)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG.Types",
           "name": "pgTypeToString",
           "package": "templatepg",
@@ -697,6 +734,7 @@
         "index": {
           "description": "Convert Haskell value to string of the given PostgreSQL type Or more accurately given PostgreSQL type create function for converting compatible Haskell values into string of that type pgTypeToString PGType String",
           "hierarchy": "Database TemplatePG Types",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG.Types",
           "name": "pgTypeToString",
           "normalized": "PGType-\u003eQ Exp",
@@ -712,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG",
           "name": "TemplatePG",
           "package": "templatepg",
@@ -720,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Database TemplatePG",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG",
           "name": "TemplatePG",
           "package": "templatepg",
@@ -734,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePGException is thrown upon encountering an \u003ccode\u003eErrorResponse\u003c/code\u003e with severity of\n  ERROR, FATAL, or PANIC. It holds the SQLSTATE and message of the error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:18 UTC 2014",
           "module": "Database.TemplatePG",
           "name": "PGException",
           "package": "templatepg",
@@ -743,6 +784,7 @@
         "index": {
           "description": "PGException is thrown upon encountering an ErrorResponse with severity of ERROR FATAL or PANIC It holds the SQLSTATE and message of the error",
           "hierarchy": "Database TemplatePG",
+          "indexed": "2014-03-11T20:18:18",
           "module": "Database.TemplatePG",
           "name": "PGException",
           "package": "templatepg",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "profunctor-extras"
+        "phrase": "profunctor-extras",
+        "type": "phrase"
       },
       "type": "context"
     }

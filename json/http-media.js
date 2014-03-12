@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-media"
+        "phrase": "http-media",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines the \u003ccode\u003e\u003ca\u003eMatch\u003c/a\u003e\u003c/code\u003e type class, designed to unify types on the\n matching functions in the Media module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media.Match",
           "name": "Match",
           "package": "http-media",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Defines the Match type class designed to unify types on the matching functions in the Media module",
           "hierarchy": "Network HTTP Media Match",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media.Match",
           "name": "Match",
           "package": "http-media",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines methods for a type whose values can be matched against each\n other in terms of a HTTP media header.\n\u003c/p\u003e\u003cp\u003eThis allows functions to work on both the standard Accept header and\n others such as Accept-Language that still may use quality values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media.Match",
           "name": "Match",
           "package": "http-media",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Defines methods for type whose values can be matched against each other in terms of HTTP media header This allows functions to work on both the standard Accept header and others such as Accept-Language that still may use quality values",
           "hierarchy": "Network HTTP Media Match",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media.Match",
           "name": "Match",
           "package": "http-media",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates whether either the left argument matches the right one\n (order may be important).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media.Match",
           "name": "matches",
           "package": "http-media",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Evaluates whether either the left argument matches the right one order may be important",
           "hierarchy": "Network HTTP Media Match",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media.Match",
           "name": "matches",
           "normalized": "a-\u003ea-\u003eBool",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates whether the left argument is more specific than the right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media.Match",
           "name": "moreSpecificThan",
           "package": "http-media",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Evaluates whether the left argument is more specific than the right",
           "hierarchy": "Network HTTP Media Match",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media.Match",
           "name": "moreSpecificThan",
           "normalized": "a-\u003ea-\u003eBool",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates to whichever argument is more specific. Left biased.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media.Match",
           "name": "mostSpecific",
           "package": "http-media",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Evaluates to whichever argument is more specific Left biased",
           "hierarchy": "Network HTTP Media Match",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media.Match",
           "name": "mostSpecific",
           "normalized": "a-\u003ea-\u003ea",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines the media type types and functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media.MediaType",
           "name": "MediaType",
           "package": "http-media",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Defines the media type types and functions",
           "hierarchy": "Network HTTP Media MediaType",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media.MediaType",
           "name": "MediaType",
           "package": "http-media",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HTTP media type, consisting of the type, subtype, and parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media.MediaType",
           "name": "MediaType",
           "package": "http-media",
@@ -174,6 +187,7 @@
         "index": {
           "description": "An HTTP media type consisting of the type subtype and parameters",
           "hierarchy": "Network HTTP Media MediaType",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media.MediaType",
           "name": "MediaType",
           "package": "http-media",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMediaType\u003c/a\u003e\u003c/code\u003e parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media.MediaType",
           "name": "Parameters",
           "package": "http-media",
@@ -197,6 +212,7 @@
         "index": {
           "description": "MediaType parameters",
           "hierarchy": "Network HTTP Media MediaType",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media.MediaType",
           "name": "Parameters",
           "package": "http-media",
@@ -368,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a media type header into a \u003ccode\u003e\u003ca\u003eMediaType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media.MediaType",
           "name": "parse",
           "package": "http-media",
@@ -378,6 +395,7 @@
         "index": {
           "description": "Parses media type header into MediaType",
           "hierarchy": "Network HTTP Media MediaType",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media.MediaType",
           "name": "parse",
           "normalized": "ByteString-\u003eMaybe MediaType",
@@ -420,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts \u003ccode\u003e\u003ca\u003eMediaType\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media.MediaType",
           "name": "toByteString",
           "package": "http-media",
@@ -430,6 +449,7 @@
         "index": {
           "description": "Converts MediaType to ByteString",
           "hierarchy": "Network HTTP Media MediaType",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media.MediaType",
           "name": "toByteString",
           "normalized": "MediaType-\u003eByteString",
@@ -446,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA framework for parsing HTTP media type headers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media",
           "name": "Media",
           "package": "http-media",
@@ -455,6 +476,7 @@
         "index": {
           "description": "framework for parsing HTTP media type headers",
           "hierarchy": "Network HTTP Media",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media",
           "name": "Media",
           "package": "http-media",
@@ -469,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines methods for a type whose values can be matched against each\n other in terms of a HTTP media header.\n\u003c/p\u003e\u003cp\u003eThis allows functions to work on both the standard Accept header and\n others such as Accept-Language that still may use quality values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media",
           "name": "Match",
           "package": "http-media",
@@ -478,6 +501,7 @@
         "index": {
           "description": "Defines methods for type whose values can be matched against each other in terms of HTTP media header This allows functions to work on both the standard Accept header and others such as Accept-Language that still may use quality values",
           "hierarchy": "Network HTTP Media",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media",
           "name": "Match",
           "package": "http-media",
@@ -492,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HTTP media type, consisting of the type, subtype, and parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media",
           "name": "MediaType",
           "package": "http-media",
@@ -501,6 +526,7 @@
         "index": {
           "description": "An HTTP media type consisting of the type subtype and parameters",
           "hierarchy": "Network HTTP Media",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media",
           "name": "MediaType",
           "package": "http-media",
@@ -515,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttaches a quality value to data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media",
           "name": "Quality",
           "package": "http-media",
@@ -524,6 +551,7 @@
         "index": {
           "description": "Attaches quality value to data",
           "hierarchy": "Network HTTP Media",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media",
           "name": "Quality",
           "package": "http-media",
@@ -538,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe equivalent of \u003ccode\u003e\u003ca\u003ematchAccept\u003c/a\u003e\u003c/code\u003e above, except the resulting choice is\n mapped to another value. Convenient for specifying how to translate the\n resource into each of its available formats.\n\u003c/p\u003e\u003cpre\u003e maybe render406Error renderResource $ parseAccepts header \u003e\u003e= mapQuality\n     [ (\"text/html\",        asHtml)\n     , (\"application/json\", asJson)\n     ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media",
           "name": "mapAccept",
           "package": "http-media",
@@ -547,6 +576,7 @@
         "index": {
           "description": "The equivalent of matchAccept above except the resulting choice is mapped to another value Convenient for specifying how to translate the resource into each of its available formats maybe render406Error renderResource parseAccepts header mapQuality text html asHtml application json asJson",
           "hierarchy": "Network HTTP Media",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media",
           "name": "mapAccept",
           "normalized": "[(a,b)]-\u003e[Quality a]-\u003eMaybe b",
@@ -563,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe equivalent of \u003ccode\u003e\u003ca\u003ematchContent\u003c/a\u003e\u003c/code\u003e above, except the resulting choice is\n mapped to another value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media",
           "name": "mapContent",
           "package": "http-media",
@@ -572,6 +603,7 @@
         "index": {
           "description": "The equivalent of matchContent above except the resulting choice is mapped to another value",
           "hierarchy": "Network HTTP Media",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media",
           "name": "mapContent",
           "normalized": "a-\u003e[(a,b)]-\u003eMaybe b",
@@ -588,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a list of server-side resource options against a quality-marked\n list of client-side preferences. A result of \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e means that nothing\n matched (which should indicate a 406 error). If two or more results arise\n with the same quality level and specificity, then the first one in the\n server list is chosen.\n\u003c/p\u003e\u003cp\u003eThe use of the \u003ccode\u003e\u003ca\u003eMatch\u003c/a\u003e\u003c/code\u003e type class allows the application of either\n \u003ccode\u003e\u003ca\u003eMediaType\u003c/a\u003e\u003c/code\u003e for the standard Accept header or \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e for any other\n Accept header which can be marked with a quality value. The standard\n application of this function for \u003ccode\u003e\u003ca\u003eMediaType\u003c/a\u003e\u003c/code\u003e should be in conjunction with\n \u003ccode\u003eparseAccepts\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e parseAccepts header \u003e\u003e= matchQuality resourceTypeOptions\n\u003c/pre\u003e\u003cp\u003eFor more information on the matching process see RFC 2616, section 14.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media",
           "name": "matchAccept",
           "package": "http-media",
@@ -597,6 +630,7 @@
         "index": {
           "description": "Matches list of server-side resource options against quality-marked list of client-side preferences result of Nothing means that nothing matched which should indicate error If two or more results arise with the same quality level and specificity then the first one in the server list is chosen The use of the Match type class allows the application of either MediaType for the standard Accept header or ByteString for any other Accept header which can be marked with quality value The standard application of this function for MediaType should be in conjunction with parseAccepts parseAccepts header matchQuality resourceTypeOptions For more information on the matching process see RFC section",
           "hierarchy": "Network HTTP Media",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media",
           "name": "matchAccept",
           "normalized": "[a]-\u003e[Quality a]-\u003eMaybe a",
@@ -613,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a list of server-side parsing options against a the client-side\n content value. A result of \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e means that nothing matched (which\n should indicate a 415 error).\n\u003c/p\u003e\u003cp\u003eAs with the Accept parsing, he use of the \u003ccode\u003e\u003ca\u003eMatch\u003c/a\u003e\u003c/code\u003e type class allows the\n application of either \u003ccode\u003e\u003ca\u003eMediaType\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media",
           "name": "matchContent",
           "package": "http-media",
@@ -622,6 +657,7 @@
         "index": {
           "description": "Matches list of server-side parsing options against the client-side content value result of Nothing means that nothing matched which should indicate error As with the Accept parsing he use of the Match type class allows the application of either MediaType or ByteString",
           "hierarchy": "Network HTTP Media",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media",
           "name": "matchContent",
           "normalized": "a-\u003e[a]-\u003eMaybe a",
@@ -638,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates whether either the left argument matches the right one\n (order may be important).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media",
           "name": "matches",
           "package": "http-media",
@@ -648,6 +685,7 @@
         "index": {
           "description": "Evaluates whether either the left argument matches the right one order may be important",
           "hierarchy": "Network HTTP Media",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media",
           "name": "matches",
           "normalized": "a-\u003ea-\u003eBool",
@@ -663,6 +701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates whether the left argument is more specific than the right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media",
           "name": "moreSpecificThan",
           "package": "http-media",
@@ -673,6 +712,7 @@
         "index": {
           "description": "Evaluates whether the left argument is more specific than the right",
           "hierarchy": "Network HTTP Media",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media",
           "name": "moreSpecificThan",
           "normalized": "a-\u003ea-\u003eBool",
@@ -689,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a full Accept header into a list of quality-valued media types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:44 UTC 2014",
           "module": "Network.HTTP.Media",
           "name": "parseAccept",
           "package": "http-media",
@@ -699,6 +740,7 @@
         "index": {
           "description": "Parses full Accept header into list of quality-valued media types",
           "hierarchy": "Network HTTP Media",
+          "indexed": "2014-03-11T18:52:44",
           "module": "Network.HTTP.Media",
           "name": "parseAccept",
           "normalized": "ByteString-\u003eMaybe[Quality MediaType]",

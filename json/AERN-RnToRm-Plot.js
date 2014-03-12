@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AERN-RnToRm-Plot"
+        "phrase": "AERN-RnToRm-Plot",
+        "type": "phrase"
       },
       "type": "context"
     }

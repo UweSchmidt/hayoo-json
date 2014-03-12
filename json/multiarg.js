@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "multiarg"
+        "phrase": "multiarg",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCombinators that are useful for building command-line\n parsers. These build off the functions in\n \u003ca\u003eSystem.Console.MultiArg.Prim\u003c/a\u003e. Unlike those functions, these\n functions have no access to the internals of the parser.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "Combinator",
           "package": "multiarg",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Combinators that are useful for building command-line parsers These build off the functions in System.Console.MultiArg.Prim Unlike those functions these functions have no access to the internals of the parser",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "Combinator",
           "package": "multiarg",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies how many arguments each option takes. As with\n \u003ccode\u003e\u003ca\u003eArgDescr\u003c/a\u003e\u003c/code\u003e, there are (at least) two ways to\n use this type. You can simply represent each possible option using\n different data constructors in an algebraic data type. Or you can\n have each ArgSpec yield a function that transforms a record. For an\n example that uses an algebraic data type, see\n \u003ca\u003eSystem.Console.MultiArg.SampleParser\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eMost of these value constructors take as an argument a function\n that returns an Either.  The function should return a \u003ccode\u003eLeft\n InputError\u003c/code\u003e if the parsing of the arguments failed--if, for\n example, the user needs to enter an integer but she instead input a\n letter.  The functions should return a Right if parsing of the\n arguments was successful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "ArgSpec",
           "package": "multiarg",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Specifies how many arguments each option takes As with ArgDescr there are at least two ways to use this type You can simply represent each possible option using different data constructors in an algebraic data type Or you can have each ArgSpec yield function that transforms record For an example that uses an algebraic data type see System.Console.MultiArg.SampleParser Most of these value constructors take as an argument function that returns an Either The function should return Left InputError if the parsing of the arguments failed--if for example the user needs to enter an integer but she instead input letter The functions should return Right if parsing of the arguments was successful",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "ArgSpec",
           "package": "multiarg",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates errors when parsing options to arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "InputError",
           "package": "multiarg",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Indicates errors when parsing options to arguments",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "InputError",
           "package": "multiarg",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies options for the \u003ccode\u003e\u003ca\u003eparseOption\u003c/a\u003e\u003c/code\u003e function. Each OptSpec\n represents one command-line option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "OptSpec",
           "package": "multiarg",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Specifies options for the parseOption function Each OptSpec represents one command-line option",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "OptSpec",
           "package": "multiarg",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis option takes a single argument, which must match one of\n the strings given in the list. The user may supply the shortest\n unambiguous string. If the argument list to ChoiceArg has\n duplicate strings, only the first string is used. For instance,\n ChoiceArg could be useful if you were parsing the \u003ccode\u003e--color\u003c/code\u003e\n option to GNU grep, which requires the user to supply one of\n three arguments: \u003ccode\u003ealways\u003c/code\u003e, \u003ccode\u003enever\u003c/code\u003e, or \u003ccode\u003eauto\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "ChoiceArg",
           "package": "multiarg",
@@ -121,6 +130,7 @@
         "index": {
           "description": "This option takes single argument which must match one of the strings given in the list The user may supply the shortest unambiguous string If the argument list to ChoiceArg has duplicate strings only the first string is used For instance ChoiceArg could be useful if you were parsing the color option to GNU grep which requires the user to supply one of three arguments always never or auto",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "ChoiceArg",
           "normalized": "ChoiceArg[(String,a)]",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing the argument failed with this error message. An example\n might be \u003ccode\u003eoption argument is not an integer\u003c/code\u003e or \u003ccode\u003eoption argument\n is too large\u003c/code\u003e. The text of the options the user provided is\n automatically prepended to the error message, so do not replicate\n this in your message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "ErrorMsg",
           "package": "multiarg",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Parsing the argument failed with this error message An example might be option argument is not an integer or option argument is too large The text of the options the user provided is automatically prepended to the error message so do not replicate this in your message",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "ErrorMsg",
           "package": "multiarg",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis option takes no arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "NoArg",
           "package": "multiarg",
@@ -171,6 +184,7 @@
         "index": {
           "description": "This option takes no arguments",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "NoArg",
           "package": "multiarg",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo error message accompanies this failure. multiarg will create\n a generic error message for you.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "NoMsg",
           "package": "multiarg",
@@ -195,6 +210,7 @@
         "index": {
           "description": "No error message accompanies this failure multiarg will create generic error message for you",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "NoMsg",
           "package": "multiarg",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis option takes one argument. Here, if option \u003ccode\u003ea\u003c/code\u003e takes one\n argument, \u003ccode\u003e-a -b\u003c/code\u003e will be parsed with \u003ccode\u003e-b\u003c/code\u003e being an argument to\n option \u003ccode\u003ea\u003c/code\u003e, even though \u003ccode\u003e-b\u003c/code\u003e starts with a hyphen and therefore\n \"looks like\" an option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "OneArg",
           "package": "multiarg",
@@ -219,6 +236,7 @@
         "index": {
           "description": "This option takes one argument Here if option takes one argument will be parsed with being an argument to option even though starts with hyphen and therefore looks like an option",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "OneArg",
           "normalized": "OneArg(String-\u003eEither InputError a)",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "OptSpec",
           "package": "multiarg",
@@ -243,6 +262,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "OptSpec",
           "package": "multiarg",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis option takes an optional argument. As noted in \"The Tao\n of Option Parsing\", optional arguments can result in some\n ambiguity. (Read it here:\n \u003ca\u003ehttp://optik.sourceforge.net/doc/1.5/tao.html\u003c/a\u003e) If option \u003ccode\u003ea\u003c/code\u003e\n takes an optional argument, and \u003ccode\u003eb\u003c/code\u003e is also an option, what\n does \u003ccode\u003e-ab\u003c/code\u003e mean? SimpleParser resolves this ambiguity by\n assuming that \u003ccode\u003eb\u003c/code\u003e is an argument to \u003ccode\u003ea\u003c/code\u003e. If the user does not\n like this, she can specify \u003ccode\u003e-a -b\u003c/code\u003e (in such an instance \u003ccode\u003e-b\u003c/code\u003e is\n not parsed as an option to \u003ccode\u003e-a\u003c/code\u003e, because \u003ccode\u003e-b\u003c/code\u003e begins with a\n hyphen and therefore \"looks like\" an option.) Certainly\n though, optional arguments lead to ambiguity, so if you don't\n like it, don't use them :)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "OptionalArg",
           "package": "multiarg",
@@ -267,6 +288,7 @@
         "index": {
           "description": "This option takes an optional argument As noted in The Tao of Option Parsing optional arguments can result in some ambiguity Read it here http optik.sourceforge.net doc tao.html If option takes an optional argument and is also an option what does ab mean SimpleParser resolves this ambiguity by assuming that is an argument to If the user does not like this she can specify in such an instance is not parsed as an option to because begins with hyphen and therefore looks like an option Certainly though optional arguments lead to ambiguity so if you don like it don use them",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "OptionalArg",
           "normalized": "OptionalArg(Maybe String-\u003eEither InputError a)",
@@ -283,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis option takes three arguments. Parsed similarly to\n \u003ccode\u003e\u003ca\u003eOneArg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "ThreeArg",
           "package": "multiarg",
@@ -293,6 +316,7 @@
         "index": {
           "description": "This option takes three arguments Parsed similarly to OneArg",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "ThreeArg",
           "normalized": "ThreeArg(String-\u003eString-\u003eString-\u003eEither InputError a)",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis option takes two arguments. Parsed similarly to\n \u003ccode\u003e\u003ca\u003eOneArg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "TwoArg",
           "package": "multiarg",
@@ -319,6 +344,7 @@
         "index": {
           "description": "This option takes two arguments Parsed similarly to OneArg",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "TwoArg",
           "normalized": "TwoArg(String-\u003eString-\u003eEither InputError a)",
@@ -335,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis option takes a variable number of arguments--zero or\n more. Option arguments continue until the command line contains\n a word that begins with a hyphen. For example, if option \u003ccode\u003ea\u003c/code\u003e\n takes a variable number of arguments, then \u003ccode\u003e-a one two three\n -b\u003c/code\u003e will be parsed as \u003ccode\u003ea\u003c/code\u003e taking three arguments, and \u003ccode\u003e-a -b\u003c/code\u003e\n will be parsed as \u003ccode\u003ea\u003c/code\u003e taking no arguments. If the user enters\n \u003ccode\u003e-a\u003c/code\u003e as the last option on the command line, then the only way\n to indicate the end of arguments for \u003ccode\u003ea\u003c/code\u003e and the beginning of\n positional argments is with a stopper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "VariableArg",
           "package": "multiarg",
@@ -345,6 +372,7 @@
         "index": {
           "description": "This option takes variable number of arguments--zero or more Option arguments continue until the command line contains word that begins with hyphen For example if option takes variable number of arguments then one two three will be parsed as taking three arguments and will be parsed as taking no arguments If the user enters as the last option on the command line then the only way to indicate the end of arguments for and the beginning of positional argments is with stopper",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "VariableArg",
           "normalized": "VariableArg([String]-\u003eEither InputError a)",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to do each time one of the given long options or\n short options appears on the command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "argSpec",
           "package": "multiarg",
@@ -371,6 +400,7 @@
         "index": {
           "description": "What to do each time one of the given long options or short options appears on the command line",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "argSpec",
           "package": "multiarg",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats error messages for nice display. Returns a multi-line\n string (there is no need to append a newline to the end of the\n string returned).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "formatError",
           "package": "multiarg",
@@ -394,6 +425,7 @@
         "index": {
           "description": "Formats error messages for nice display Returns multi-line string there is no need to append newline to the end of the string returned",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "formatError",
           "normalized": "String-\u003eError-\u003eString",
@@ -410,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach String is a single long option, such as \u003ccode\u003eversion\u003c/code\u003e. When\n the user specifies long options on the command line, she must\n type two dashes; however, do not include the dashes when you\n specify the long option here. Strings you specify as long options\n cannot include a dash as either the first or the second\n character, and they cannot include an equal sign anywhere. If\n your long option does not meet these conditions, a runtime error\n will occur.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "longOpts",
           "package": "multiarg",
@@ -420,6 +453,7 @@
         "index": {
           "description": "Each String is single long option such as version When the user specifies long options on the command line she must type two dashes however do not include the dashes when you specify the long option here Strings you specify as long options cannot include dash as either the first or the second character and they cannot include an equal sign anywhere If your long option does not meet these conditions runtime error will occur",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "longOpts",
           "normalized": "[String]",
@@ -436,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enotFollowedBy p\u003c/code\u003e succeeds only if parser p fails. If p fails,\n notFollowedBy succeeds without consuming any input. If p succeeds\n and consumes input, notFollowedBy fails and consumes input. If p\n succeeds and does not consume any input, notFollowedBy fails and\n does not consume any input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "notFollowedBy",
           "package": "multiarg",
@@ -446,6 +481,7 @@
         "index": {
           "description": "notFollowedBy succeeds only if parser fails If fails notFollowedBy succeeds without consuming any input If succeeds and consumes input notFollowedBy fails and consumes input If succeeds and does not consume any input notFollowedBy fails and does not consume any input",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "notFollowedBy",
           "normalized": "Parser a-\u003eParser()",
@@ -462,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads in values that are members of Read, but the value does not\n have to appear on the command line. Provides a generic error\n message if the read fails. If the argument is Nothing, returns\n Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "optReader",
           "package": "multiarg",
@@ -472,6 +509,7 @@
         "index": {
           "description": "Reads in values that are members of Read but the value does not have to appear on the command line Provides generic error message if the read fails If the argument is Nothing returns Nothing",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "optReader",
           "normalized": "Maybe String-\u003eEither InputError(Maybe a)",
@@ -488,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a single command line option. Examines all the options\n specified using multiple OptSpec and parses one option on the\n command line accordingly. Fails without consuming any input if the\n next word on the command line is not a recognized option. Allows\n the user to specify the shortest unambiguous match for long\n options; for example, the user could type \u003ccode\u003e--verb\u003c/code\u003e for \u003ccode\u003e--verbose\u003c/code\u003e\n and \u003ccode\u003e--vers\u003c/code\u003e for \u003ccode\u003e--version\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function is applied to a list of OptSpec, rather than to a\n single OptSpec, because in order to correctly handle the parsing of\n shortened long options (e.g. \u003ccode\u003e--verb\u003c/code\u003e rather than \u003ccode\u003e--verbose\u003c/code\u003e) it\n is necessary for one function to have access to all of the\n OptSpec. Applying this function multiple times to different lists\n of OptSpec and then using the \u003ccode\u003e\u003ca\u003e|\u003c/a\u003e\u003c/code\u003e function to combine them will\n break the proper parsing of shortened long options.\n\u003c/p\u003e\u003cp\u003eFor an example that uses this function, see\n \u003ca\u003eSystem.Console.MultiArg.SimpleParser\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "parseOption",
           "package": "multiarg",
@@ -498,6 +537,7 @@
         "index": {
           "description": "Parses single command line option Examines all the options specified using multiple OptSpec and parses one option on the command line accordingly Fails without consuming any input if the next word on the command line is not recognized option Allows the user to specify the shortest unambiguous match for long options for example the user could type verb for verbose and vers for version This function is applied to list of OptSpec rather than to single OptSpec because in order to correctly handle the parsing of shortened long options e.g verb rather than verbose it is necessary for one function to have access to all of the OptSpec Applying this function multiple times to different lists of OptSpec and then using the function to combine them will break the proper parsing of shortened long options For an example that uses this function see System.Console.MultiArg.SimpleParser",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "parseOption",
           "normalized": "[OptSpec a]-\u003eParser a",
@@ -514,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads in values that are members of Read. Provides a generic\n error message if the read fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "reader",
           "package": "multiarg",
@@ -524,6 +565,7 @@
         "index": {
           "description": "Reads in values that are members of Read Provides generic error message if the read fails",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "reader",
           "normalized": "String-\u003eEither InputError a",
@@ -539,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach Char is a single short option, such as \u003ccode\u003ev\u003c/code\u003e. The\n character cannot be a dash; if it is, a runtime error will occur.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Combinator",
           "name": "shortOpts",
           "package": "multiarg",
@@ -549,6 +592,7 @@
         "index": {
           "description": "Each Char is single short option such as The character cannot be dash if it is runtime error will occur",
           "hierarchy": "System Console MultiArg Combinator",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Combinator",
           "name": "shortOpts",
           "normalized": "[Char]",
@@ -565,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome pre-built command line parsers. One is a simple command line\n parser that can parse options that take an optional argument, one\n or two arguments, or a variable number of arguments. For sample\n code that uses this parser, see\n \u003ca\u003eSystem.Console.MultiArg.SampleParser\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eAnother parser is provided for multi-mode programs that are similar\n to \u003ccode\u003egit\u003c/code\u003e or \u003ccode\u003edarcs\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003ePreviously there was a bug in System.Environment.getArgs that would\n not properly encode Unicode command line arguments.  multiarg used\n to provide its own GetArgs module to deal with this.  This bug was\n in base 4.3.1.0, which was bundled with ghc 7.0.4.  This bug was\n fixed in base 4.4.0.0, which came with ghc 7.2.  Since this bug has\n been fixed for awhile, multiarg no longer has its own GetArgs\n module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "CommandLine",
           "package": "multiarg",
@@ -574,6 +619,7 @@
         "index": {
           "description": "Some pre-built command line parsers One is simple command line parser that can parse options that take an optional argument one or two arguments or variable number of arguments For sample code that uses this parser see System.Console.MultiArg.SampleParser Another parser is provided for multi-mode programs that are similar to git or darcs Previously there was bug in System.Environment.getArgs that would not properly encode Unicode command line arguments multiarg used to provide its own GetArgs module to deal with this This bug was in base which was bundled with ghc This bug was fixed in base which came with ghc Since this bug has been fixed for awhile multiarg no longer has its own GetArgs module",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "CommandLine",
           "package": "multiarg",
@@ -588,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to do after encountering the first non-option,\n non-option-argument word on the command line? In either case, no\n more options are parsed after a stopper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "Intersperse",
           "package": "multiarg",
@@ -597,6 +644,7 @@
         "index": {
           "description": "What to do after encountering the first non-option non-option-argument word on the command line In either case no more options are parsed after stopper",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "Intersperse",
           "package": "multiarg",
@@ -611,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies a mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "Mode",
           "package": "multiarg",
@@ -620,6 +669,7 @@
         "index": {
           "description": "Specifies mode",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "Mode",
           "package": "multiarg",
@@ -634,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies a set of options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "Opts",
           "package": "multiarg",
@@ -643,6 +694,7 @@
         "index": {
           "description": "Specifies set of options",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "Opts",
           "package": "multiarg",
@@ -657,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecification for both options and positional arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "OptsWithPosArgs",
           "package": "multiarg",
@@ -666,6 +719,7 @@
         "index": {
           "description": "Specification for both options and positional arguments",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "OptsWithPosArgs",
           "package": "multiarg",
@@ -680,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the program that was entered on the command line,\n obtained from System.Environment.getProgName.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "ProgName",
           "package": "multiarg",
@@ -689,6 +744,7 @@
         "index": {
           "description": "The name of the program that was entered on the command line obtained from System.Environment.getProgName",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "ProgName",
           "package": "multiarg",
@@ -703,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional options are allowed on the command line after\n encountering the first positional argument. For example, if \u003ccode\u003ea\u003c/code\u003e\n and \u003ccode\u003eb\u003c/code\u003e are options, in the command line \u003ccode\u003e-a posarg -b\u003c/code\u003e, \u003ccode\u003eb\u003c/code\u003e will\n be parsed as an option. If \u003ccode\u003eb\u003c/code\u003e is \u003cem\u003enot\u003c/em\u003e an option and the same\n command line is entered, then \u003ccode\u003e-b\u003c/code\u003e will result in an error\n because \u003ccode\u003e-b\u003c/code\u003e starts with a hyphen and therefore \"looks like\" an\n option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "Intersperse",
           "package": "multiarg",
@@ -713,6 +770,7 @@
         "index": {
           "description": "Additional options are allowed on the command line after encountering the first positional argument For example if and are options in the command line posarg will be parsed as an option If is not an option and the same command line is entered then will result in an error because starts with hyphen and therefore looks like an option",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "Intersperse",
           "package": "multiarg",
@@ -726,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "Mode",
           "package": "multiarg",
@@ -735,6 +794,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "Mode",
           "package": "multiarg",
@@ -748,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "Opts",
           "package": "multiarg",
@@ -757,6 +818,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "Opts",
           "package": "multiarg",
@@ -770,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "OptsWithPosArgs",
           "package": "multiarg",
@@ -779,6 +842,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "OptsWithPosArgs",
           "package": "multiarg",
@@ -793,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo additional options will be parsed after encountering the\n first positional argument. For example, if \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e are\n options, in the command line \u003ccode\u003e-a posarg -b\u003c/code\u003e, \u003ccode\u003eb\u003c/code\u003e will be parsed\n as a positional argument rather than as an option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "StopOptions",
           "package": "multiarg",
@@ -803,6 +868,7 @@
         "index": {
           "description": "No additional options will be parsed after encountering the first positional argument For example if and are options in the command line posarg will be parsed as positional argument rather than as an option",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "StopOptions",
           "package": "multiarg",
@@ -817,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is applied to a list of the results of parsing the\n options that are specific to this mode.  The function returns a\n type of your choosing (though all modes in the same parser will\n have to return the same type.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "mGetResult",
           "package": "multiarg",
@@ -827,6 +894,7 @@
         "index": {
           "description": "This function is applied to list of the results of parsing the options that are specific to this mode The function returns type of your choosing though all modes in the same parser will have to return the same type",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "mGetResult",
           "normalized": "[a]-\u003eb",
@@ -843,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow the user specifies the mode on the command line.  For \u003ccode\u003egit\u003c/code\u003e\n for example this might be \u003ccode\u003ecommit\u003c/code\u003e or \u003ccode\u003elog\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "mModeName",
           "package": "multiarg",
@@ -853,6 +922,7 @@
         "index": {
           "description": "How the user specifies the mode on the command line For git for example this might be commit or log",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "mModeName",
           "package": "multiarg",
@@ -867,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions and positional arguments that are specific to this\n mode.  For example, in the command line \u003ccode\u003egit commit -a -m 'this\n is a log message'\u003c/code\u003e, \u003ccode\u003ecommit\u003c/code\u003e is the mode name and everything\n after that is specified here as an option or positional argument\n that is specific to this mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "mOpts",
           "package": "multiarg",
@@ -877,6 +948,7 @@
         "index": {
           "description": "Options and positional arguments that are specific to this mode For example in the command line git commit this is log message commit is the mode name and everything after that is specified here as an option or positional argument that is specific to this mode",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "mOpts",
           "package": "multiarg",
@@ -891,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a Mode with a help option (help specific to the mode.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "modeHelp",
           "package": "multiarg",
@@ -900,6 +973,7 @@
         "index": {
           "description": "Creates Mode with help option help specific to the mode",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "modeHelp",
           "normalized": "String-\u003ea-\u003e([b]-\u003ec)-\u003e[OptSpec b]-\u003eIntersperse-\u003e(String-\u003eEither InputError b)-\u003eMode a c",
@@ -916,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA command line parser for multi-mode command lines.  Runs in the\n IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "modesIO",
           "package": "multiarg",
@@ -925,6 +1000,7 @@
         "index": {
           "description": "command line parser for multi-mode command lines Runs in the IO monad",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "modesIO",
           "normalized": "Opts a b-\u003e([b]-\u003eEither String(Either c[Mode a c]))-\u003eIO(Either a c)",
@@ -941,6 +1017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure (non-IO) parser for command lines that contain modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "modesPure",
           "package": "multiarg",
@@ -950,6 +1027,7 @@
         "index": {
           "description": "pure non-IO parser for command lines that contain modes",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "modesPure",
           "normalized": "Opts a b-\u003e([b]-\u003eEither String(Either c[Mode a c]))-\u003e[String]-\u003eEither Error(Either a c)",
@@ -966,6 +1044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the user does not specify any shortcut options, she may\n specify any number of these options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "oOptions",
           "package": "multiarg",
@@ -976,6 +1055,7 @@
         "index": {
           "description": "If the user does not specify any shortcut options she may specify any number of these options",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "oOptions",
           "normalized": "[OptSpec a]",
@@ -992,6 +1072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut options are commonly options such as \u003ccode\u003e--help\u003c/code\u003e or\n \u003ccode\u003e--version\u003c/code\u003e. Such options must be specified alone on the command\n line.  The parser looks for one of these options first.  If it\n finds one and it is the only option on the command line, only\n this option is processed and returned.  If the option is not\n alone on the command line, an error occurs.  If no shortcut\n option is found, the parser processes non-shortcut options\n instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "oShortcuts",
           "package": "multiarg",
@@ -1002,6 +1083,7 @@
         "index": {
           "description": "Shortcut options are commonly options such as help or version Such options must be specified alone on the command line The parser looks for one of these options first If it finds one and it is the only option on the command line only this option is processed and returned If the option is not alone on the command line an error occurs If no shortcut option is found the parser processes non-shortcut options instead",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "oShortcuts",
           "normalized": "[OptSpec a]",
@@ -1017,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "opIntersperse",
           "package": "multiarg",
@@ -1026,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "opIntersperse",
           "package": "multiarg",
@@ -1039,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "opOpts",
           "package": "multiarg",
@@ -1048,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "opOpts",
           "package": "multiarg",
@@ -1061,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "opPosArg",
           "package": "multiarg",
@@ -1070,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "opPosArg",
           "normalized": "String-\u003eEither InputError a",
@@ -1086,6 +1174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an Opts with a help shortcut option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "optsHelp",
           "package": "multiarg",
@@ -1095,6 +1184,7 @@
         "index": {
           "description": "Creates an Opts with help shortcut option",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "optsHelp",
           "normalized": "a-\u003e[OptSpec b]-\u003eOpts a b",
@@ -1111,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an Opts with help and version shortcut options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "optsHelpVersion",
           "package": "multiarg",
@@ -1120,6 +1211,7 @@
         "index": {
           "description": "Creates an Opts with help and version shortcut options",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "optsHelpVersion",
           "normalized": "a-\u003ea-\u003e[OptSpec b]-\u003eOpts a b",
@@ -1136,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser for simple command lines. Adds a \u003ccode\u003e--help\u003c/code\u003e option for\n you.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "simpleHelp",
           "package": "multiarg",
@@ -1145,6 +1238,7 @@
         "index": {
           "description": "parser for simple command lines Adds help option for you",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "simpleHelp",
           "normalized": "(ProgName-\u003eString)-\u003e[OptSpec a]-\u003eIntersperse-\u003e(String-\u003eEither InputError a)-\u003eIO[a]",
@@ -1161,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser for simple command lines without modes.  Adds options\n for \u003ccode\u003e--help\u003c/code\u003e and \u003ccode\u003e--version\u003c/code\u003e for you.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "simpleHelpVersion",
           "package": "multiarg",
@@ -1170,6 +1265,7 @@
         "index": {
           "description": "parser for simple command lines without modes Adds options for help and version for you",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "simpleHelpVersion",
           "normalized": "(ProgName-\u003eString)-\u003e(ProgName-\u003eString)-\u003e[OptSpec a]-\u003eIntersperse-\u003e(String-\u003eEither InputError a)-\u003eIO[a]",
@@ -1186,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser for simple command lines that do not contain modes.\n Runs in the IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "simpleIO",
           "package": "multiarg",
@@ -1195,6 +1292,7 @@
         "index": {
           "description": "parser for simple command lines that do not contain modes Runs in the IO monad",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "simpleIO",
           "normalized": "[OptSpec a]-\u003eIntersperse-\u003e(String-\u003eEither InputError a)-\u003eIO[a]",
@@ -1211,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure (non-IO) parser for simple command lines--that is, command\n lines that do not have modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "simplePure",
           "package": "multiarg",
@@ -1220,6 +1319,7 @@
         "index": {
           "description": "pure non-IO parser for simple command lines--that is command lines that do not have modes",
           "hierarchy": "System Console MultiArg CommandLine",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.CommandLine",
           "name": "simplePure",
           "normalized": "OptsWithPosArgs a b-\u003e[String]-\u003eEither Error(Either a[b])",
@@ -1236,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThese types represent options. Option names cannot have a dash as\n their first or second character, and long option names cannot have\n an equals sign anywhere in the name.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Option",
           "name": "Option",
           "package": "multiarg",
@@ -1245,6 +1346,7 @@
         "index": {
           "description": "These types represent options Option names cannot have dash as their first or second character and long option names cannot have an equals sign anywhere in the name",
           "hierarchy": "System Console MultiArg Option",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Option",
           "name": "Option",
           "package": "multiarg",
@@ -1259,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLong options. Options that are preceded with two dashes on the\n command line and typically consist of an entire mnemonic word, such\n as \u003ccode\u003elines\u003c/code\u003e. However, anything that is at least one letter long is\n fine for a long option name. The name must be at least one\n character long. It cannot have an equal sign anywhere in its\n name. Otherwise any Unicode character is good (including\n pathological ones like newlines).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Option",
           "name": "LongOpt",
           "package": "multiarg",
@@ -1268,6 +1371,7 @@
         "index": {
           "description": "Long options Options that are preceded with two dashes on the command line and typically consist of an entire mnemonic word such as lines However anything that is at least one letter long is fine for long option name The name must be at least one character long It cannot have an equal sign anywhere in its name Otherwise any Unicode character is good including pathological ones like newlines",
           "hierarchy": "System Console MultiArg Option",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Option",
           "name": "LongOpt",
           "package": "multiarg",
@@ -1282,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort options. Options that are preceded with a single dash on\n the command line and consist of a single letter. That single letter\n cannot be a dash. Any other Unicode character is good (including\n pathological ones like newlines).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Option",
           "name": "ShortOpt",
           "package": "multiarg",
@@ -1291,6 +1396,7 @@
         "index": {
           "description": "Short options Options that are preceded with single dash on the command line and consist of single letter That single letter cannot be dash Any other Unicode character is good including pathological ones like newlines",
           "hierarchy": "System Console MultiArg Option",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Option",
           "name": "ShortOpt",
           "package": "multiarg",
@@ -1305,6 +1411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a long option. Returns Nothing if the string is not a valid\n long option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Option",
           "name": "makeLongOpt",
           "package": "multiarg",
@@ -1315,6 +1422,7 @@
         "index": {
           "description": "Makes long option Returns Nothing if the string is not valid long option",
           "hierarchy": "System Console MultiArg Option",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Option",
           "name": "makeLongOpt",
           "normalized": "String-\u003eMaybe LongOpt",
@@ -1331,6 +1439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a short option. Returns Nothing if the character is not\n valid for a short option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Option",
           "name": "makeShortOpt",
           "package": "multiarg",
@@ -1341,6 +1450,7 @@
         "index": {
           "description": "Creates short option Returns Nothing if the character is not valid for short option",
           "hierarchy": "System Console MultiArg Option",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Option",
           "name": "makeShortOpt",
           "normalized": "Char-\u003eMaybe ShortOpt",
@@ -1356,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Option",
           "name": "unLongOpt",
           "package": "multiarg",
@@ -1365,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg Option",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Option",
           "name": "unLongOpt",
           "normalized": "LongOpt-\u003eString",
@@ -1380,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Option",
           "name": "unShortOpt",
           "package": "multiarg",
@@ -1389,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg Option",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Option",
           "name": "unShortOpt",
           "normalized": "ShortOpt-\u003eChar",
@@ -1405,6 +1519,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser primitives. These are the only functions that have access\n to the internals of the parser. Use these functions if you want to\n build your own parser from scratch. If your needs are simpler, you\n will want to look at \u003ca\u003eSystem.Console.MultiArg.SimpleParser\u003c/a\u003e or\n \u003ca\u003eSystem.Console.MultiArg.Combinator\u003c/a\u003e, which do a lot of grunt work\n for you.\n\u003c/p\u003e\u003cp\u003eInternal design, especially the error handling, is based in large\n part on Parsec, as described in the paper at\n \u003ca\u003ehttp://legacy.cs.uu.nl/daan/pubs.html#parsec\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "Prim",
           "package": "multiarg",
@@ -1414,6 +1529,7 @@
         "index": {
           "description": "Parser primitives These are the only functions that have access to the internals of the parser Use these functions if you want to build your own parser from scratch If your needs are simpler you will want to look at System.Console.MultiArg.SimpleParser or System.Console.MultiArg.Combinator which do lot of grunt work for you Internal design especially the error handling is based in large part on Parsec as described in the paper at http legacy.cs.uu.nl daan pubs.html parsec",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "Prim",
           "package": "multiarg",
@@ -1427,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "Description",
           "package": "multiarg",
@@ -1435,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "Description",
           "package": "multiarg",
@@ -1449,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError messages. To format error messages for nice display, see\n \u003ccode\u003e\u003ca\u003eformatError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "Error",
           "package": "multiarg",
@@ -1458,6 +1577,7 @@
         "index": {
           "description": "Error messages To format error messages for nice display see formatError",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "Error",
           "package": "multiarg",
@@ -1471,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "InputDesc",
           "package": "multiarg",
@@ -1479,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "InputDesc",
           "package": "multiarg",
@@ -1493,6 +1615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsers. Internally the parser tracks what input remains to be\n parsed, whether there are any pending short options, and whether a\n stopper has been seen. A parser can return a value of any type.\n\u003c/p\u003e\u003cp\u003eThe parser also includes the notion of failure. Any parser can\n fail; a failed parser affects the behavior of combinators such as\n choice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "Parser",
           "package": "multiarg",
@@ -1502,6 +1625,7 @@
         "index": {
           "description": "Parsers Internally the parser tracks what input remains to be parsed whether there are any pending short options and whether stopper has been seen parser can return value of any type The parser also includes the notion of failure Any parser can fail failed parser affects the behavior of combinators such as choice",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "Parser",
           "package": "multiarg",
@@ -1516,6 +1640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the parser given. If it fails without consuming any input,\n replaces all Expected messages with the one given. Otherwise,\n returns the result of the parser unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "(\u003c?\u003e)",
           "package": "multiarg",
@@ -1526,6 +1651,7 @@
         "index": {
           "description": "Runs the parser given If it fails without consuming any input replaces all Expected messages with the one given Otherwise returns the result of the parser unchanged",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "(\u003c?\u003e) \u003c?\u003e",
           "normalized": "Parser a-\u003eString-\u003eParser a",
@@ -1540,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "Error",
           "package": "multiarg",
@@ -1549,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "Error",
           "normalized": "Error InputDesc[Description]",
@@ -1564,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "Expected",
           "package": "multiarg",
@@ -1573,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "Expected",
           "package": "multiarg",
@@ -1586,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "General",
           "package": "multiarg",
@@ -1595,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "General",
           "package": "multiarg",
@@ -1608,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "Unknown",
           "package": "multiarg",
@@ -1617,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "Unknown",
           "package": "multiarg",
@@ -1631,6 +1765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExamines the next word. If it matches a LongOpt in the set\n unambiguously, returns a tuple of the word actually found and the\n matching word in the set and the accompanying text after the equal\n sign (if any). If the Set is empty, this parser will always fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "approxLongOpt",
           "package": "multiarg",
@@ -1641,6 +1776,7 @@
         "index": {
           "description": "Examines the next word If it matches LongOpt in the set unambiguously returns tuple of the word actually found and the matching word in the set and the accompanying text after the equal sign if any If the Set is empty this parser will always fail",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "approxLongOpt",
           "normalized": "Set LongOpt-\u003eParser(String,LongOpt,Maybe String)",
@@ -1657,6 +1793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines two parsers into a single parser. The second parser can\n optionally depend upon the result from the first parser.\n\u003c/p\u003e\u003cp\u003eThis applies the first parser. If the first parser succeeds,\n combine then takes the result from the first parser, applies the\n function given to the result from the first parser, and then\n applies the resulting parser.\n\u003c/p\u003e\u003cp\u003eIf the first parser fails, combine will not apply the second\n function but instead will bypass the second parser.\n\u003c/p\u003e\u003cp\u003eThis provides the implementation for \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e in\n \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "bind",
           "package": "multiarg",
@@ -1667,6 +1804,7 @@
         "index": {
           "description": "Combines two parsers into single parser The second parser can optionally depend upon the result from the first parser This applies the first parser If the first parser succeeds combine then takes the result from the first parser applies the function given to the result from the first parser and then applies the resulting parser If the first parser fails combine will not apply the second function but instead will bypass the second parser This provides the implementation for in Monad",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "bind",
           "normalized": "Parser a-\u003e(a-\u003eParser b)-\u003eParser b",
@@ -1682,6 +1820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the first parser. If it fails without consuming any input,\n then runs the second parser. If the first parser succeeds, then\n returns the result of the first parser. If the first parser fails\n and consumes input, then returns the result of the first\n parser. This provides the implementation for\n \u003ccode\u003e\u003c|\u003e\u003c/code\u003e in \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "choice",
           "package": "multiarg",
@@ -1692,6 +1831,7 @@
         "index": {
           "description": "Runs the first parser If it fails without consuming any input then runs the second parser If the first parser succeeds then returns the result of the first parser If the first parser fails and consumes input then returns the result of the first parser This provides the implementation for in Alternative",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "choice",
           "normalized": "Parser a-\u003eParser a-\u003eParser a",
@@ -1707,6 +1847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds if there is no more input left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "end",
           "package": "multiarg",
@@ -1717,6 +1858,7 @@
         "index": {
           "description": "Succeeds if there is no more input left",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "end",
           "normalized": "Parser()",
@@ -1732,6 +1874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an exact long option. That is, the text of the\n command-line option must exactly match the text of the\n option. Returns any argument that is attached to\n the same word of the option with an equal sign (for example,\n \u003ccode\u003e--follow=/dev/random\u003c/code\u003e will return \u003ccode\u003eJust \"/dev/random\"\u003c/code\u003e for the\n argument.) If there is no equal sign, returns Nothing for the\n argument. If there is an equal sign but there is nothing after it,\n returns \u003ccode\u003eJust \"\"\u003c/code\u003e for the argument.\n\u003c/p\u003e\u003cp\u003eIf you do not want your long option to have equal signs and\n GNU-style option arguments, wrap this parser in something that will\n fail if there is an option argument.\n\u003c/p\u003e\u003cp\u003eFails without consuming any input if:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e there are pending short options\n\u003c/li\u003e\u003cli\u003e a stopper has been parsed\n\u003c/li\u003e\u003cli\u003e there are no arguments left on the command line\n\u003c/li\u003e\u003cli\u003e the next argument on the command line does not begin with\n   two dashes\n\u003c/li\u003e\u003cli\u003e the next argument on the command line is \u003ccode\u003e--\u003c/code\u003e (a stopper)\n\u003c/li\u003e\u003cli\u003e the next argument on the command line does begin with two\n   dashes but its text does not match the argument we're looking for\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "exactLongOpt",
           "package": "multiarg",
@@ -1742,6 +1885,7 @@
         "index": {
           "description": "Parses an exact long option That is the text of the command-line option must exactly match the text of the option Returns any argument that is attached to the same word of the option with an equal sign for example follow dev random will return Just dev random for the argument If there is no equal sign returns Nothing for the argument If there is an equal sign but there is nothing after it returns Just for the argument If you do not want your long option to have equal signs and GNU-style option arguments wrap this parser in something that will fail if there is an option argument Fails without consuming any input if there are pending short options stopper has been parsed there are no arguments left on the command line the next argument on the command line does not begin with two dashes the next argument on the command line is stopper the next argument on the command line does begin with two dashes but its text does not match the argument we re looking for",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "exactLongOpt",
           "normalized": "LongOpt-\u003eParser(Maybe String)",
@@ -1758,6 +1902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efailString s\u003c/code\u003e always fails without consuming any input. The\n failure contains a record of the string passed in by s. This\n provides the implementation for \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "failString",
           "package": "multiarg",
@@ -1768,6 +1913,7 @@
         "index": {
           "description": "failString always fails without consuming any input The failure contains record of the string passed in by This provides the implementation for fail",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "failString",
           "normalized": "String-\u003eParser a",
@@ -1784,6 +1930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFail with an unhelpful error message. Usually \u003ccode\u003ethrowString\u003c/code\u003e is\n more useful, but this is handy to implement some typeclass\n instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "genericThrow",
           "package": "multiarg",
@@ -1794,6 +1941,7 @@
         "index": {
           "description": "Fail with an unhelpful error message Usually throwString is more useful but this is handy to implement some typeclass instances",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "genericThrow",
           "package": "multiarg",
@@ -1808,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egood a\u003c/code\u003e always succeeds without consuming any input and has\n result a. This provides the implementation for\n \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "good",
           "package": "multiarg",
@@ -1818,6 +1967,7 @@
         "index": {
           "description": "good always succeeds without consuming any input and has result This provides the implementation for return and pure",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "good",
           "normalized": "a-\u003eParser a",
@@ -1833,6 +1983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elookAhead p\u003c/code\u003e runs parser p. If p succeeds, lookAhead p succeeds\n without consuming any input. If p fails without consuming any\n input, so does lookAhead. If p fails and consumes input, lookAhead\n also fails and consumes input. If this is undesirable, combine with\n \u003ca\u003etry\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "lookAhead",
           "package": "multiarg",
@@ -1843,6 +1994,7 @@
         "index": {
           "description": "lookAhead runs parser If succeeds lookAhead succeeds without consuming any input If fails without consuming any input so does lookAhead If fails and consumes input lookAhead also fails and consumes input If this is undesirable combine with try",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "lookAhead",
           "normalized": "Parser a-\u003eParser a",
@@ -1859,6 +2011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emanyTill p end\u003c/code\u003e runs parser p zero or more times until parser\n \u003ccode\u003eend\u003c/code\u003e succeeds. If \u003ccode\u003eend\u003c/code\u003e succeeds and consumes input, that input is\n also consumed. in the result of \u003ccode\u003emanyTill\u003c/code\u003e. If that is a problem,\n wrap it in \u003ccode\u003elookAhead\u003c/code\u003e. Also, if \u003ccode\u003eend\u003c/code\u003e fails and consumes input,\n \u003ccode\u003emanyTill\u003c/code\u003e fails and consumes input. If that is a problem, wrap\n \u003ccode\u003eend\u003c/code\u003e in \u003ccode\u003etry\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "manyTill",
           "package": "multiarg",
@@ -1869,6 +2022,7 @@
         "index": {
           "description": "manyTill end runs parser zero or more times until parser end succeeds If end succeeds and consumes input that input is also consumed in the result of manyTill If that is problem wrap it in lookAhead Also if end fails and consumes input manyTill fails and consumes input If that is problem wrap end in try",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "manyTill",
           "normalized": "Parser a-\u003eParser b-\u003eParser[a]",
@@ -1885,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExamines the possible words in Set. If there are no pendings,\n then get the next word and see if it matches one of the words in\n Set. If so, returns the word actually parsed and the matching word\n from Set. If there is no match, fails without consuming any\n input. Pays no attention to whether a stopper has been seen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "matchApproxWord",
           "package": "multiarg",
@@ -1895,6 +2050,7 @@
         "index": {
           "description": "Examines the possible words in Set If there are no pendings then get the next word and see if it matches one of the words in Set If so returns the word actually parsed and the matching word from Set If there is no match fails without consuming any input Pays no attention to whether stopper has been seen",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "matchApproxWord",
           "normalized": "Set String-\u003eParser(String,String)",
@@ -1911,6 +2067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the next string on the command line as long as there are\n no pendings. Succeeds even if a stopper is present. Be careful -\n this will return the next string even if it looks like an option\n (that is, it starts with a dash.) Consider whether you should be\n using nonOptionPosArg instead. However this can be useful when\n parsing command line options after a stopper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "nextWord",
           "package": "multiarg",
@@ -1921,6 +2078,7 @@
         "index": {
           "description": "Returns the next string on the command line as long as there are no pendings Succeeds even if stopper is present Be careful this will return the next string even if it looks like an option that is it starts with dash Consider whether you should be using nonOptionPosArg instead However this can be useful when parsing command line options after stopper",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "nextWord",
           "package": "multiarg",
@@ -1935,6 +2093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the next word on the command line, but only if it exactly\n matches the word given. Otherwise, fails without consuming any\n input. Also fails without consuming any input if there are pending\n short options or if a stopper has already been parsed. Does not pay\n any attention to whether a stopper is present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "nextWordIs",
           "package": "multiarg",
@@ -1945,6 +2104,7 @@
         "index": {
           "description": "Parses the next word on the command line but only if it exactly matches the word given Otherwise fails without consuming any input Also fails without consuming any input if there are pending short options or if stopper has already been parsed Does not pay any attention to whether stopper is present",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "nextWordIs",
           "normalized": "String-\u003eParser()",
@@ -1961,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf there are pending short options, fails without consuming any input.\n\u003c/p\u003e\u003cp\u003eOtherwise, if a stopper has NOT already been parsed, then returns\n the next word if it is either a single dash or any other word that\n does not begin with a dash. If the next word does not meet these\n criteria, fails without consuming any input.\n\u003c/p\u003e\u003cp\u003eOtherwise, if a stopper has already been parsed, then returns the\n next word, regardless of whether it begins with a dash or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "nonOptionPosArg",
           "package": "multiarg",
@@ -1971,6 +2132,7 @@
         "index": {
           "description": "If there are pending short options fails without consuming any input Otherwise if stopper has NOT already been parsed then returns the next word if it is either single dash or any other word that does not begin with dash If the next word does not meet these criteria fails without consuming any input Otherwise if stopper has already been parsed then returns the next word regardless of whether it begins with dash or not",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "nonOptionPosArg",
           "package": "multiarg",
@@ -1985,6 +2147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses only non-pending short options. Fails without consuming\n any input if:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e there are pending short options\n\u003c/li\u003e\u003cli\u003e there has already been a stopper\n\u003c/li\u003e\u003cli\u003e there are no arguments left to parse\n\u003c/li\u003e\u003cli\u003e the next argument is an empty string\n\u003c/li\u003e\u003cli\u003e the next argument does not begin with a dash\n\u003c/li\u003e\u003cli\u003e the next argument is a single dash\n\u003c/li\u003e\u003cli\u003e the next argument is a short option but it does not match\n   the one given\n\u003c/li\u003e\u003cli\u003e the next argument is a stopper\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eOtherwise, consumes the next argument, puts any remaining letters\n from the argument into a pending short, and removes the first word\n from remaining arguments to be parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "nonPendingShortOpt",
           "package": "multiarg",
@@ -1995,6 +2158,7 @@
         "index": {
           "description": "Parses only non-pending short options Fails without consuming any input if there are pending short options there has already been stopper there are no arguments left to parse the next argument is an empty string the next argument does not begin with dash the next argument is single dash the next argument is short option but it does not match the one given the next argument is stopper Otherwise consumes the next argument puts any remaining letters from the argument into pending short and removes the first word from remaining arguments to be parsed",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "nonPendingShortOpt",
           "normalized": "ShortOpt-\u003eParser()",
@@ -2011,6 +2175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a parser. This is the only way to change a value of type\n \u003ccode\u003eParser a\u003c/code\u003e into a value of type \u003ccode\u003ea\u003c/code\u003e (that is, it is the only way to\n \"get out of the Parser monad\" or to \"escape the Parser monad\".)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "parse",
           "package": "multiarg",
@@ -2020,6 +2185,7 @@
         "index": {
           "description": "Runs parser This is the only way to change value of type Parser into value of type that is it is the only way to get out of the Parser monad or to escape the Parser monad",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "parse",
           "normalized": "[String]-\u003eParser a-\u003eEither Error a",
@@ -2035,6 +2201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses only pending short options. Fails without consuming any\n input if there has already been a stopper or if there are no\n pending short options. Fails without consuming any input if there\n is a pending short option, but it does not match the short option\n given. Succeeds and consumes a pending short option if it matches\n the short option given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "pendingShortOpt",
           "package": "multiarg",
@@ -2045,6 +2212,7 @@
         "index": {
           "description": "Parses only pending short options Fails without consuming any input if there has already been stopper or if there are no pending short options Fails without consuming any input if there is pending short option but it does not match the short option given Succeeds and consumes pending short option if it matches the short option given",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "pendingShortOpt",
           "normalized": "ShortOpt-\u003eParser()",
@@ -2061,6 +2229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses only pending short option arguments. For example, for the\n \u003ccode\u003etail\u003c/code\u003e command, if you enter the option \u003ccode\u003e-c25\u003c/code\u003e, then after parsing\n the \u003ccode\u003e-c\u003c/code\u003e option the \u003ccode\u003e25\u003c/code\u003e becomes a pending short option argument\n because it was in the same command line argument as the \u003ccode\u003e-c\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFails without consuming any input if:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e a stopper has already been parsed\n\u003c/li\u003e\u003cli\u003e there are no pending short option arguments\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eOn success, returns the String of the pending short option argument\n (this String will never be empty).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "pendingShortOptArg",
           "package": "multiarg",
@@ -2071,6 +2240,7 @@
         "index": {
           "description": "Parses only pending short option arguments For example for the tail command if you enter the option c25 then after parsing the option the becomes pending short option argument because it was in the same command line argument as the Fails without consuming any input if stopper has already been parsed there are no pending short option arguments On success returns the String of the pending short option argument this String will never be empty",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "pendingShortOptArg",
           "package": "multiarg",
@@ -2085,6 +2255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a stopper has already been seen, change the internal state\n back to indicating that no stopper has been seen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "resetStopper",
           "package": "multiarg",
@@ -2095,6 +2266,7 @@
         "index": {
           "description": "If stopper has already been seen change the internal state back to indicating that no stopper has been seen",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "resetStopper",
           "normalized": "Parser()",
@@ -2111,6 +2283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a parser zero or more times. If the last run of the parser\n fails without consuming any input, this parser succeeds without\n consuming any input. If the last run of the parser fails while\n consuming input, this parser fails while consuming input. This\n provides the implementation for \u003ccode\u003emany\u003c/code\u003e in Control.Applicative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "several",
           "package": "multiarg",
@@ -2121,6 +2294,7 @@
         "index": {
           "description": "Runs parser zero or more times If the last run of the parser fails without consuming any input this parser succeeds without consuming any input If the last run of the parser fails while consuming input this parser fails while consuming input This provides the implementation for many in Control.Applicative",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "several",
           "normalized": "Parser a-\u003eParser[a]",
@@ -2136,6 +2310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a parser one or more times. Runs the parser once and then\n applies \u003ccode\u003e\u003ca\u003eseveral\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "several1",
           "package": "multiarg",
@@ -2146,6 +2321,7 @@
         "index": {
           "description": "Runs parser one or more times Runs the parser once and then applies several",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "several1",
           "normalized": "Parser a-\u003eParser[a]",
@@ -2161,6 +2337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \"stopper\" - that is, a double dash. Changes the internal\n state of the parser to reflect that a stopper has been seen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "stopper",
           "package": "multiarg",
@@ -2171,6 +2348,7 @@
         "index": {
           "description": "Parses stopper that is double dash Changes the internal state of the parser to reflect that stopper has been seen",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "stopper",
           "normalized": "Parser()",
@@ -2186,6 +2364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etry p behaves just like p, but if p fails, try p will not consume\n any input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.Prim",
           "name": "try",
           "package": "multiarg",
@@ -2196,6 +2375,7 @@
         "index": {
           "description": "try behaves just like but if fails try will not consume any input",
           "hierarchy": "System Console MultiArg Prim",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.Prim",
           "name": "try",
           "normalized": "Parser a-\u003eParser a",
@@ -2211,6 +2391,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is sample code using \u003ca\u003eSystem.Console.MultiArg\u003c/a\u003e. This could\n be a command-line parser for the version of the Unix command \u003ccode\u003etail\u003c/code\u003e\n that is included with GNU coreutils version 8.5. \u003ca\u003emain\u003c/a\u003e simply gets\n the command line arguments, parses them, and prints out what was\n parsed. To test it out, simply compile an executable that looks\n like this and then feed it different options:\n\u003c/p\u003e\u003cpre\u003e import System.Console.MultiArg.SampleParser\n main = sampleMain Intersperse\n\u003c/pre\u003e\u003cp\u003eor:\n\u003c/p\u003e\u003cpre\u003e import System.Console.MultiArg.SampleParser\n main = sampleMain StopOptions\n\u003c/pre\u003e\u003cp\u003eThe code in the module is the sample code; the sample code is not\n in the Haddock documentation! If you're reading this in Haddock,\n you will want to also take a look at the actual source code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "SampleParser",
           "package": "multiarg",
@@ -2220,6 +2401,7 @@
         "index": {
           "description": "This is sample code using System.Console.MultiArg This could be command-line parser for the version of the Unix command tail that is included with GNU coreutils version main simply gets the command line arguments parses them and prints out what was parsed To test it out simply compile an executable that looks like this and then feed it different options import System.Console.MultiArg.SampleParser main sampleMain Intersperse or import System.Console.MultiArg.SampleParser main sampleMain StopOptions The code in the module is the sample code the sample code is not in the Haddock documentation If you re reading this in Haddock you will want to also take look at the actual source code",
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "SampleParser",
           "package": "multiarg",
@@ -2233,6 +2415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Flag",
           "package": "multiarg",
@@ -2241,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Flag",
           "package": "multiarg",
@@ -2254,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Bytes",
           "package": "multiarg",
@@ -2263,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Bytes",
           "package": "multiarg",
@@ -2276,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Filename",
           "package": "multiarg",
@@ -2285,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Filename",
           "package": "multiarg",
@@ -2298,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Follow",
           "package": "multiarg",
@@ -2307,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Follow",
           "package": "multiarg",
@@ -2320,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Help",
           "package": "multiarg",
@@ -2329,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Help",
           "package": "multiarg",
@@ -2342,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Lines",
           "package": "multiarg",
@@ -2351,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Lines",
           "package": "multiarg",
@@ -2364,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Pid",
           "package": "multiarg",
@@ -2373,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Pid",
           "package": "multiarg",
@@ -2386,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Quiet",
           "package": "multiarg",
@@ -2395,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Quiet",
           "package": "multiarg",
@@ -2408,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Retry",
           "package": "multiarg",
@@ -2417,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Retry",
           "package": "multiarg",
@@ -2430,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Sleep",
           "package": "multiarg",
@@ -2439,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Sleep",
           "package": "multiarg",
@@ -2452,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Stats",
           "package": "multiarg",
@@ -2461,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Stats",
           "package": "multiarg",
@@ -2474,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Verbose",
           "package": "multiarg",
@@ -2483,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Verbose",
           "package": "multiarg",
@@ -2496,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Version",
           "package": "multiarg",
@@ -2505,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "Version",
           "package": "multiarg",
@@ -2518,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "sampleMain",
           "package": "multiarg",
@@ -2527,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "sampleMain",
           "normalized": "Intersperse-\u003eIO()",
@@ -2542,6 +2752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "specs",
           "package": "multiarg",
@@ -2551,6 +2762,7 @@
         },
         "index": {
           "hierarchy": "System Console MultiArg SampleParser",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg.SampleParser",
           "name": "specs",
           "normalized": "[OptSpec Flag]",
@@ -2566,6 +2778,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA combinator library for building command-line parsers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:42 UTC 2014",
           "module": "System.Console.MultiArg",
           "name": "MultiArg",
           "package": "multiarg",
@@ -2575,6 +2788,7 @@
         "index": {
           "description": "combinator library for building command-line parsers",
           "hierarchy": "System Console MultiArg",
+          "indexed": "2014-03-11T19:23:42",
           "module": "System.Console.MultiArg",
           "name": "MultiArg",
           "package": "multiarg",

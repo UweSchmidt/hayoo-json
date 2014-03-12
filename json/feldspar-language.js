@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "feldspar-language"
+        "phrase": "feldspar-language",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "CRC",
           "package": "feldspar-language",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "CRC",
           "package": "feldspar-language",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "CRC",
           "package": "feldspar-language",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "CRC",
           "package": "feldspar-language",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "CRC",
           "package": "feldspar-language",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "CRC",
           "package": "feldspar-language",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "crc16",
           "package": "feldspar-language",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "crc16",
           "package": "feldspar-language",
@@ -104,6 +112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate normal form CRC from a polynominal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "crcNaive",
           "package": "feldspar-language",
@@ -114,6 +123,7 @@
         "index": {
           "description": "Calculate normal form CRC from polynominal",
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "crcNaive",
           "normalized": "Data a-\u003eData a-\u003eVector Word-\u003eData a",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the normal form CRC using a table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "crcNormal",
           "package": "feldspar-language",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Calculate the normal form CRC using table",
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "crcNormal",
           "normalized": "Vector a-\u003eData a-\u003eVector Word-\u003eData a",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the reflected form CRC using a table\n needs reflected tables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "crcReflected",
           "package": "feldspar-language",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Calculate the reflected form CRC using table needs reflected tables",
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "crcReflected",
           "normalized": "Vector a-\u003eData a-\u003eVector Word-\u003eData a",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "init",
           "package": "feldspar-language",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "init",
           "package": "feldspar-language",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "makeCrcTable",
           "package": "feldspar-language",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "makeCrcTable",
           "normalized": "Data a-\u003eVector a",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "name",
           "package": "feldspar-language",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "name",
           "package": "feldspar-language",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "poly",
           "package": "feldspar-language",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "poly",
           "package": "feldspar-language",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflect the bottom b bits of value t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "reflect",
           "package": "feldspar-language",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Reflect the bottom bits of value",
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "reflect",
           "normalized": "Data a-\u003eData Length-\u003eData a",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "reflectIn",
           "package": "feldspar-language",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "reflectIn",
           "package": "feldspar-language",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "reflectOut",
           "package": "feldspar-language",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "reflectOut",
           "package": "feldspar-language",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "tstBit",
           "package": "feldspar-language",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "tstBit",
           "normalized": "Data a-\u003eData Index-\u003eData Bool",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "width",
           "package": "feldspar-language",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "width",
           "package": "feldspar-language",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.CRC",
           "name": "xorOut",
           "package": "feldspar-language",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Algorithm CRC",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.CRC",
           "name": "xorOut",
           "package": "feldspar-language",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.FFT",
           "name": "FFT",
           "package": "feldspar-language",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Algorithm FFT",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.FFT",
           "name": "FFT",
           "package": "feldspar-language",
@@ -426,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRadix-2 Decimation-In-Frequeny Fast Fourier Transformation of the given complex vector\n   The given vector must be power-of-two sized, (for example 2, 4, 8, 16, 32, etc.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.FFT",
           "name": "fft",
           "package": "feldspar-language",
@@ -436,6 +473,7 @@
         "index": {
           "description": "Radix-2 Decimation-In-Frequeny Fast Fourier Transformation of the given complex vector The given vector must be power-of-two sized for example etc",
           "hierarchy": "Feldspar Algorithm FFT",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.FFT",
           "name": "fft",
           "normalized": "Vector(Complex Float)-\u003eVector(Complex Float)",
@@ -451,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRadix-2 Decimation-In-Frequeny Inverse Fast Fourier Transformation of the given complex vector\n   The given vector must be power-of-two sized, (for example 2, 4, 8, 16, 32, etc.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Algorithm.FFT",
           "name": "ifft",
           "package": "feldspar-language",
@@ -461,6 +500,7 @@
         "index": {
           "description": "Radix-2 Decimation-In-Frequeny Inverse Fast Fourier Transformation of the given complex vector The given vector must be power-of-two sized for example etc",
           "hierarchy": "Feldspar Algorithm FFT",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Algorithm.FFT",
           "name": "ifft",
           "normalized": "Vector(Complex Float)-\u003eVector(Complex Float)",
@@ -476,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ccode\u003eVector\u003c/code\u003e interface to packed sequences of bits\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "BitVector",
           "package": "feldspar-language",
@@ -485,6 +526,7 @@
         "index": {
           "description": "Vector interface to packed sequences of bits",
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "BitVector",
           "package": "feldspar-language",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "BitVector",
           "package": "feldspar-language",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "BitVector",
           "package": "feldspar-language",
@@ -519,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "Segment",
           "package": "feldspar-language",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "Segment",
           "package": "feldspar-language",
@@ -541,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eUnit\u003c/a\u003e\u003c/code\u003e is the internal representation of a \u003ccode\u003e\u003ca\u003eBitVector\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "Unit",
           "package": "feldspar-language",
@@ -550,6 +597,7 @@
         "index": {
           "description": "Unit is the internal representation of BitVector",
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "Unit",
           "package": "feldspar-language",
@@ -563,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "(++)",
           "package": "feldspar-language",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "(++) ++",
           "normalized": "BitVector a-\u003eBitVector a-\u003eBitVector a",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "BitVector",
           "package": "feldspar-language",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "BitVector",
           "package": "feldspar-language",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "Segment",
           "package": "feldspar-language",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "Segment",
           "package": "feldspar-language",
@@ -630,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "boolFun1",
           "package": "feldspar-language",
@@ -639,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "boolFun1",
           "normalized": "(Data Bool-\u003eData Bool)-\u003e((Data a-\u003eData a)-\u003eb)-\u003eb",
@@ -654,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "boolFun2",
           "package": "feldspar-language",
@@ -663,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "boolFun2",
           "normalized": "(Data Bool-\u003eData Bool-\u003eData Bool)-\u003e((Data a-\u003eData a-\u003eData a)-\u003eb)-\u003eb",
@@ -678,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "drop",
           "package": "feldspar-language",
@@ -687,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "drop",
           "normalized": "Data Length-\u003eData a-\u003eBitVector a-\u003eBitVector a",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "dropUnits",
           "package": "feldspar-language",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "dropUnits",
           "normalized": "Data Length-\u003eBitVector a-\u003eBitVector a",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "elements",
           "package": "feldspar-language",
@@ -734,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "elements",
           "normalized": "Data Index-\u003eData a",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "fold",
           "package": "feldspar-language",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "fold",
           "normalized": "(a-\u003eData Bool-\u003ea)-\u003ea-\u003eBitVector b-\u003ea",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "freezeBitVector",
           "package": "feldspar-language",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "freezeBitVector",
           "normalized": "BitVector a-\u003eData[a]",
@@ -795,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "fromBits",
           "package": "feldspar-language",
@@ -804,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "fromBits",
           "normalized": "[Bool]-\u003eBitVector a",
@@ -819,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "fromUnits",
           "package": "feldspar-language",
@@ -828,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "fromUnits",
           "normalized": "[a]-\u003eBitVector a",
@@ -844,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a bool vector to a bitvector.\n Length of the vector has to be divisible by the wordlength,\n otherwise booleans at the end will be dropped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "fromVector",
           "package": "feldspar-language",
@@ -854,6 +927,7 @@
         "index": {
           "description": "Transforms bool vector to bitvector Length of the vector has to be divisible by the wordlength otherwise booleans at the end will be dropped",
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "fromVector",
           "normalized": "Vector(Data Bool)-\u003eBitVector a",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "head",
           "package": "feldspar-language",
@@ -878,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "head",
           "normalized": "BitVector a-\u003eData Bool",
@@ -892,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "indexed",
           "package": "feldspar-language",
@@ -901,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "indexed",
           "normalized": "Data Length-\u003e(Data Index-\u003eData Bool)-\u003eBitVector a",
@@ -915,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "length",
           "package": "feldspar-language",
@@ -924,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "length",
           "normalized": "BitVector a-\u003eData Length",
@@ -938,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "map",
           "package": "feldspar-language",
@@ -947,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "map",
           "normalized": "(Data Bool-\u003eData Bool)-\u003eBitVector a-\u003eBitVector a",
@@ -961,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "numOfUnits",
           "package": "feldspar-language",
@@ -970,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "numOfUnits",
           "normalized": "BitVector a-\u003eData Length",
@@ -985,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "numUnits",
           "package": "feldspar-language",
@@ -994,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "numUnits",
           "package": "feldspar-language",
@@ -1007,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "replUnit",
           "package": "feldspar-language",
@@ -1016,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "replUnit",
           "normalized": "Data Length-\u003ea-\u003eBitVector a",
@@ -1031,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "segments",
           "package": "feldspar-language",
@@ -1040,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "segments",
           "normalized": "[Segment a]",
@@ -1054,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "tBV",
           "package": "feldspar-language",
@@ -1063,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "tBV",
           "normalized": "Patch a a-\u003ePatch(BitVector a)(BitVector a)",
@@ -1078,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "tail",
           "package": "feldspar-language",
@@ -1087,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "tail",
           "normalized": "Data Bool-\u003eBitVector a-\u003eBitVector a",
@@ -1101,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "takeUnits",
           "package": "feldspar-language",
@@ -1110,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "takeUnits",
           "normalized": "Data Length-\u003eBitVector a-\u003eBitVector a",
@@ -1125,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "toVector",
           "package": "feldspar-language",
@@ -1134,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "toVector",
           "normalized": "BitVector a-\u003eVector(Data Bool)",
@@ -1149,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "unfreezeBitVector",
           "package": "feldspar-language",
@@ -1158,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "unfreezeBitVector",
           "normalized": "Data[a]-\u003eBitVector a",
@@ -1173,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "width",
           "package": "feldspar-language",
@@ -1182,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "width",
           "normalized": "Proxy a-\u003eLength",
@@ -1196,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.BitVector",
           "name": "zipWith",
           "package": "feldspar-language",
@@ -1205,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Feldspar BitVector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.BitVector",
           "name": "zipWith",
           "normalized": "(Data Bool-\u003eData Bool-\u003eData Bool)-\u003eBitVector a-\u003eBitVector a-\u003eBitVector a",
@@ -1221,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneral interfaces to collections of data\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Collection",
           "name": "Collection",
           "package": "feldspar-language",
@@ -1230,6 +1335,7 @@
         "index": {
           "description": "General interfaces to collections of data",
           "hierarchy": "Feldspar Core Collection",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Collection",
           "name": "Collection",
           "package": "feldspar-language",
@@ -1244,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollection index type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Collection",
           "name": "CollIndex",
           "package": "feldspar-language",
@@ -1253,6 +1360,7 @@
         "index": {
           "description": "Collection index type",
           "hierarchy": "Feldspar Core Collection",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Collection",
           "name": "CollIndex",
           "package": "feldspar-language",
@@ -1267,6 +1375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping over collections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Collection",
           "name": "CollMap",
           "package": "feldspar-language",
@@ -1276,6 +1385,7 @@
         "index": {
           "description": "Mapping over collections",
           "hierarchy": "Feldspar Core Collection",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Collection",
           "name": "CollMap",
           "package": "feldspar-language",
@@ -1290,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollection size type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Collection",
           "name": "CollSize",
           "package": "feldspar-language",
@@ -1299,6 +1410,7 @@
         "index": {
           "description": "Collection size type",
           "hierarchy": "Feldspar Core Collection",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Collection",
           "name": "CollSize",
           "package": "feldspar-language",
@@ -1313,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollection element type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Collection",
           "name": "Elem",
           "package": "feldspar-language",
@@ -1322,6 +1435,7 @@
         "index": {
           "description": "Collection element type",
           "hierarchy": "Feldspar Core Collection",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Collection",
           "name": "Elem",
           "package": "feldspar-language",
@@ -1336,6 +1450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structures that support indexing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Collection",
           "name": "Indexed",
           "package": "feldspar-language",
@@ -1345,6 +1460,7 @@
         "index": {
           "description": "Data structures that support indexing",
           "hierarchy": "Feldspar Core Collection",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Collection",
           "name": "Indexed",
           "package": "feldspar-language",
@@ -1359,6 +1475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSized data structures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Collection",
           "name": "Sized",
           "package": "feldspar-language",
@@ -1368,6 +1485,7 @@
         "index": {
           "description": "Sized data structures",
           "hierarchy": "Feldspar Core Collection",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Collection",
           "name": "Sized",
           "package": "feldspar-language",
@@ -1381,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Collection",
           "name": "(!)",
           "package": "feldspar-language",
@@ -1390,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Collection",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Collection",
           "name": "(!) !",
           "normalized": "a-\u003eCollIndex a-\u003eElem a",
@@ -1404,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Collection",
           "name": "collMap",
           "package": "feldspar-language",
@@ -1413,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Collection",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Collection",
           "name": "collMap",
           "normalized": "(Elem a-\u003eElem b)-\u003ea-\u003eb",
@@ -1428,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Collection",
           "name": "collSize",
           "package": "feldspar-language",
@@ -1437,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Collection",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Collection",
           "name": "collSize",
           "normalized": "a-\u003eCollSize a",
@@ -1452,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Collection",
           "name": "setCollSize",
           "package": "feldspar-language",
@@ -1461,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Collection",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Collection",
           "name": "setCollSize",
           "normalized": "CollSize a-\u003ea-\u003ea",
@@ -1476,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "Array",
           "package": "feldspar-language",
@@ -1484,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "Array",
           "package": "feldspar-language",
@@ -1497,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "Array",
           "package": "feldspar-language",
@@ -1505,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "Array",
           "package": "feldspar-language",
@@ -1518,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "Append",
           "package": "feldspar-language",
@@ -1527,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "Append",
           "normalized": "Array([a]-\u003e([a]-\u003eFull[a]))",
@@ -1542,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "GetIx",
           "package": "feldspar-language",
@@ -1551,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "GetIx",
           "normalized": "Array([a]-\u003e(Index-\u003eFull a))",
@@ -1566,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "GetLength",
           "package": "feldspar-language",
@@ -1575,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "GetLength",
           "normalized": "Array([a]-\u003eFull Length)",
@@ -1590,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "Parallel",
           "package": "feldspar-language",
@@ -1599,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "Parallel",
           "normalized": "Array(Length-\u003e((Index-\u003ea)-\u003eFull[a]))",
@@ -1614,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "Sequential",
           "package": "feldspar-language",
@@ -1623,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "Sequential",
           "normalized": "Array(Length-\u003e(a-\u003e((Index-\u003ea-\u003e(b,a))-\u003eFull[b])))",
@@ -1638,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "SetIx",
           "package": "feldspar-language",
@@ -1647,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "SetIx",
           "normalized": "Array([a]-\u003e(Index-\u003e(a-\u003eFull[a])))",
@@ -1662,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "SetLength",
           "package": "feldspar-language",
@@ -1671,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Array",
           "name": "SetLength",
           "normalized": "Array(Length-\u003e([a]-\u003eFull[a]))",
@@ -1687,6 +1831,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterpretation of binding constructs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Binding",
           "name": "Binding",
           "package": "feldspar-language",
@@ -1696,6 +1841,7 @@
         "index": {
           "description": "Interpretation of binding constructs",
           "hierarchy": "Feldspar Core Constructs Binding",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Binding",
           "name": "Binding",
           "package": "feldspar-language",
@@ -1709,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Binding",
           "name": "betaReduce",
           "package": "feldspar-language",
@@ -1717,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Binding",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Binding",
           "name": "betaReduce",
           "normalized": "ASTF(a Typeable)b-\u003eASTF(a Typeable)(b-\u003ec)-\u003eASTF(a Typeable)c",
@@ -1732,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Binding",
           "name": "cLambda",
           "package": "feldspar-language",
@@ -1741,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Binding",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Binding",
           "name": "cLambda",
           "normalized": "VarId-\u003eCLambda Type(a-\u003eFull(b-\u003ea))",
@@ -1757,6 +1907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssumes that the expression is a \u003ccode\u003e\u003ca\u003eLambda\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Binding",
           "name": "optimizeFunction",
           "package": "feldspar-language",
@@ -1766,6 +1917,7 @@
         "index": {
           "description": "Assumes that the expression is Lambda",
           "hierarchy": "Feldspar Core Constructs Binding",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Binding",
           "name": "optimizeFunction",
           "normalized": "(ASTF(a Typeable)b-\u003eOpt(ASTF(Decor Info(a Typeable))b))-\u003eInfo c-\u003eASTF(a Typeable)(c-\u003eb)-\u003eOpt(ASTF(Decor Info(a Typeable))(c-\u003eb))",
@@ -1781,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Binding",
           "name": "optimizeLambda",
           "package": "feldspar-language",
@@ -1789,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Binding",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Binding",
           "name": "optimizeLambda",
           "normalized": "(ASTF(a Typeable)b-\u003eOpt(ASTF(Decor Info(a Typeable))b))-\u003eInfo c-\u003eCLambda Type(b-\u003eFull(c-\u003eb))-\u003eArgs(AST(a Typeable))(b-\u003eFull(c-\u003eb))-\u003eOpt(ASTF(Decor Info(a Typeable))(c-\u003eb))",
@@ -1804,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Binding",
           "name": "prjLambda",
           "package": "feldspar-language",
@@ -1813,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Binding",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Binding",
           "name": "prjLambda",
           "normalized": "a b-\u003eMaybe(CLambda Type b)",
@@ -1829,6 +1985,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of constructs and operations on \u003ccode\u003e\u003ca\u003eBits\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "Bits",
           "package": "feldspar-language",
@@ -1838,6 +1995,7 @@
         "index": {
           "description": "Implementation of constructs and operations on Bits",
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "Bits",
           "package": "feldspar-language",
@@ -1852,6 +2010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBits constructs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "BITS",
           "package": "feldspar-language",
@@ -1861,6 +2020,7 @@
         "index": {
           "description": "Bits constructs",
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "BITS",
           "package": "feldspar-language",
@@ -1874,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "BAnd",
           "package": "feldspar-language",
@@ -1883,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "BAnd",
           "normalized": "BITS(a-\u003e(a-\u003eFull a))",
@@ -1898,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "BOr",
           "package": "feldspar-language",
@@ -1907,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "BOr",
           "normalized": "BITS(a-\u003e(a-\u003eFull a))",
@@ -1922,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "BXor",
           "package": "feldspar-language",
@@ -1931,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "BXor",
           "normalized": "BITS(a-\u003e(a-\u003eFull a))",
@@ -1946,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "Bit",
           "package": "feldspar-language",
@@ -1955,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "Bit",
           "normalized": "BITS(Index-\u003eFull a)",
@@ -1970,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "BitCount",
           "package": "feldspar-language",
@@ -1979,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "BitCount",
           "normalized": "BITS(a-\u003eFull Index)",
@@ -1994,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "BitScan",
           "package": "feldspar-language",
@@ -2003,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "BitScan",
           "normalized": "BITS(a-\u003eFull Index)",
@@ -2018,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "ClearBit",
           "package": "feldspar-language",
@@ -2027,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "ClearBit",
           "normalized": "BITS(a-\u003e(Index-\u003eFull a))",
@@ -2042,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "Complement",
           "package": "feldspar-language",
@@ -2051,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "Complement",
           "normalized": "BITS(a-\u003eFull a)",
@@ -2066,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "ComplementBit",
           "package": "feldspar-language",
@@ -2075,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "ComplementBit",
           "normalized": "BITS(a-\u003e(Index-\u003eFull a))",
@@ -2090,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "IsSigned",
           "package": "feldspar-language",
@@ -2099,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "IsSigned",
           "normalized": "BITS(a-\u003eFull Bool)",
@@ -2114,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "ReverseBits",
           "package": "feldspar-language",
@@ -2123,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "ReverseBits",
           "normalized": "BITS(a-\u003eFull a)",
@@ -2138,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "RotateL",
           "package": "feldspar-language",
@@ -2147,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "RotateL",
           "normalized": "BITS(a-\u003e(IntN-\u003eFull a))",
@@ -2162,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "RotateLU",
           "package": "feldspar-language",
@@ -2171,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "RotateLU",
           "normalized": "BITS(a-\u003e(Index-\u003eFull a))",
@@ -2186,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "RotateR",
           "package": "feldspar-language",
@@ -2195,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "RotateR",
           "normalized": "BITS(a-\u003e(IntN-\u003eFull a))",
@@ -2210,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "RotateRU",
           "package": "feldspar-language",
@@ -2219,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "RotateRU",
           "normalized": "BITS(a-\u003e(Index-\u003eFull a))",
@@ -2234,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "SetBit",
           "package": "feldspar-language",
@@ -2243,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "SetBit",
           "normalized": "BITS(a-\u003e(Index-\u003eFull a))",
@@ -2258,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "ShiftL",
           "package": "feldspar-language",
@@ -2267,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "ShiftL",
           "normalized": "BITS(a-\u003e(IntN-\u003eFull a))",
@@ -2282,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "ShiftLU",
           "package": "feldspar-language",
@@ -2291,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "ShiftLU",
           "normalized": "BITS(a-\u003e(Index-\u003eFull a))",
@@ -2306,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "ShiftR",
           "package": "feldspar-language",
@@ -2315,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "ShiftR",
           "normalized": "BITS(a-\u003e(IntN-\u003eFull a))",
@@ -2330,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "ShiftRU",
           "package": "feldspar-language",
@@ -2339,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "ShiftRU",
           "normalized": "BITS(a-\u003e(Index-\u003eFull a))",
@@ -2354,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "TestBit",
           "package": "feldspar-language",
@@ -2363,6 +2564,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Bits",
           "name": "TestBit",
           "normalized": "BITS(a-\u003e(Index-\u003eFull Bool))",
@@ -2378,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "Complex",
           "package": "feldspar-language",
@@ -2386,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "Complex",
           "package": "feldspar-language",
@@ -2399,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "COMPLEX",
           "package": "feldspar-language",
@@ -2407,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "COMPLEX",
           "package": "feldspar-language",
@@ -2420,6 +2626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "Cis",
           "package": "feldspar-language",
@@ -2429,6 +2636,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "Cis",
           "normalized": "COMPLEX(a-\u003eFull(Complex a))",
@@ -2444,6 +2652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "Conjugate",
           "package": "feldspar-language",
@@ -2453,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "Conjugate",
           "normalized": "COMPLEX(Complex a-\u003eFull(Complex a))",
@@ -2468,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "ImagPart",
           "package": "feldspar-language",
@@ -2477,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "ImagPart",
           "normalized": "COMPLEX(Complex a-\u003eFull a)",
@@ -2492,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "Magnitude",
           "package": "feldspar-language",
@@ -2501,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "Magnitude",
           "normalized": "COMPLEX(Complex a-\u003eFull a)",
@@ -2516,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "MkComplex",
           "package": "feldspar-language",
@@ -2525,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "MkComplex",
           "normalized": "COMPLEX(a-\u003e(a-\u003eFull(Complex a)))",
@@ -2540,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "MkPolar",
           "package": "feldspar-language",
@@ -2549,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "MkPolar",
           "normalized": "COMPLEX(a-\u003e(a-\u003eFull(Complex a)))",
@@ -2564,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "Phase",
           "package": "feldspar-language",
@@ -2573,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "Phase",
           "normalized": "COMPLEX(Complex a-\u003eFull a)",
@@ -2588,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "RealPart",
           "package": "feldspar-language",
@@ -2597,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Complex",
           "name": "RealPart",
           "normalized": "COMPLEX(Complex a-\u003eFull a)",
@@ -2612,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Condition",
           "name": "Condition",
           "package": "feldspar-language",
@@ -2620,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Condition",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Condition",
           "name": "Condition",
           "package": "feldspar-language",
@@ -2633,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.ConditionM",
           "name": "ConditionM",
           "package": "feldspar-language",
@@ -2641,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs ConditionM",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.ConditionM",
           "name": "ConditionM",
           "package": "feldspar-language",
@@ -2654,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.ConditionM",
           "name": "ConditionM",
           "package": "feldspar-language",
@@ -2662,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs ConditionM",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.ConditionM",
           "name": "ConditionM",
           "package": "feldspar-language",
@@ -2675,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.ConditionM",
           "name": "ConditionM",
           "package": "feldspar-language",
@@ -2684,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs ConditionM",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.ConditionM",
           "name": "ConditionM",
           "normalized": "ConditionM a(Bool-\u003e(a b-\u003e(a b-\u003eFull(a b))))",
@@ -2699,6 +2929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "Conversion",
           "package": "feldspar-language",
@@ -2707,6 +2938,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "Conversion",
           "package": "feldspar-language",
@@ -2720,6 +2952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "Conversion",
           "package": "feldspar-language",
@@ -2728,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "Conversion",
           "package": "feldspar-language",
@@ -2741,6 +2975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "B2I",
           "package": "feldspar-language",
@@ -2750,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "B2I",
           "normalized": "Conversion(Bool-\u003eFull a)",
@@ -2764,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "Ceiling",
           "package": "feldspar-language",
@@ -2773,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "Ceiling",
           "normalized": "Conversion(Float-\u003eFull a)",
@@ -2788,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "F2I",
           "package": "feldspar-language",
@@ -2797,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "F2I",
           "normalized": "Conversion(Float-\u003eFull a)",
@@ -2811,6 +3051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "Floor",
           "package": "feldspar-language",
@@ -2820,6 +3061,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "Floor",
           "normalized": "Conversion(Float-\u003eFull a)",
@@ -2835,6 +3077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "I2N",
           "package": "feldspar-language",
@@ -2844,6 +3087,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "I2N",
           "normalized": "Conversion(a-\u003eFull b)",
@@ -2858,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "Round",
           "package": "feldspar-language",
@@ -2867,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Conversion",
           "name": "Round",
           "normalized": "Conversion(Float-\u003eFull a)",
@@ -2883,6 +3129,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of Equality constructs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Eq",
           "name": "Eq",
           "package": "feldspar-language",
@@ -2892,6 +3139,7 @@
         "index": {
           "description": "Implementation of Equality constructs",
           "hierarchy": "Feldspar Core Constructs Eq",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Eq",
           "name": "Eq",
           "package": "feldspar-language",
@@ -2906,6 +3154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality constructs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Eq",
           "name": "EQ",
           "package": "feldspar-language",
@@ -2915,6 +3164,7 @@
         "index": {
           "description": "Equality constructs",
           "hierarchy": "Feldspar Core Constructs Eq",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Eq",
           "name": "EQ",
           "package": "feldspar-language",
@@ -2928,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Eq",
           "name": "Equal",
           "package": "feldspar-language",
@@ -2937,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Eq",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Eq",
           "name": "Equal",
           "normalized": "EQ(a-\u003e(a-\u003eFull Bool))",
@@ -2952,6 +3204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Eq",
           "name": "NotEqual",
           "package": "feldspar-language",
@@ -2961,6 +3214,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Eq",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Eq",
           "name": "NotEqual",
           "normalized": "EQ(a-\u003e(a-\u003eFull Bool))",
@@ -2976,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Error",
           "name": "Error",
           "package": "feldspar-language",
@@ -2984,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Error",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Error",
           "name": "Error",
           "package": "feldspar-language",
@@ -2997,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Error",
           "name": "Error",
           "package": "feldspar-language",
@@ -3005,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Error",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Error",
           "name": "Error",
           "package": "feldspar-language",
@@ -3018,6 +3276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Error",
           "name": "Assert",
           "package": "feldspar-language",
@@ -3027,6 +3286,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Error",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Error",
           "name": "Assert",
           "normalized": "String-\u003eError(Bool-\u003e(a-\u003eFull a))",
@@ -3042,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Error",
           "name": "Undefined",
           "package": "feldspar-language",
@@ -3051,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Error",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Error",
           "name": "Undefined",
           "package": "feldspar-language",
@@ -3064,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.FFI",
           "name": "FFI",
           "package": "feldspar-language",
@@ -3072,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs FFI",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.FFI",
           "name": "FFI",
           "package": "feldspar-language",
@@ -3085,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.FFI",
           "name": "FFI",
           "package": "feldspar-language",
@@ -3093,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs FFI",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.FFI",
           "name": "FFI",
           "package": "feldspar-language",
@@ -3106,6 +3372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.FFI",
           "name": "ForeignImport",
           "package": "feldspar-language",
@@ -3115,6 +3382,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs FFI",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.FFI",
           "name": "ForeignImport",
           "normalized": "String-\u003eDenotation a-\u003eFFI a",
@@ -3130,6 +3398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Floating",
           "package": "feldspar-language",
@@ -3138,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Floating",
           "package": "feldspar-language",
@@ -3151,6 +3421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "FLOATING",
           "package": "feldspar-language",
@@ -3159,6 +3430,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "FLOATING",
           "package": "feldspar-language",
@@ -3172,6 +3444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Acos",
           "package": "feldspar-language",
@@ -3181,6 +3454,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Acos",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3196,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Acosh",
           "package": "feldspar-language",
@@ -3205,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Acosh",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3220,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Asin",
           "package": "feldspar-language",
@@ -3229,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Asin",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3244,6 +3522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Asinh",
           "package": "feldspar-language",
@@ -3253,6 +3532,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Asinh",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3268,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Atan",
           "package": "feldspar-language",
@@ -3277,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Atan",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3292,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Atanh",
           "package": "feldspar-language",
@@ -3301,6 +3584,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Atanh",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3316,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Cos",
           "package": "feldspar-language",
@@ -3325,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Cos",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3340,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Cosh",
           "package": "feldspar-language",
@@ -3349,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Cosh",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3364,6 +3652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Exp",
           "package": "feldspar-language",
@@ -3373,6 +3662,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Exp",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3388,6 +3678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Log",
           "package": "feldspar-language",
@@ -3397,6 +3688,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Log",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3412,6 +3704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "LogBase",
           "package": "feldspar-language",
@@ -3421,6 +3714,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "LogBase",
           "normalized": "FLOATING(a-\u003e(a-\u003eFull a))",
@@ -3436,6 +3730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Pi",
           "package": "feldspar-language",
@@ -3445,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Pi",
           "package": "feldspar-language",
@@ -3458,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Pow",
           "package": "feldspar-language",
@@ -3467,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Pow",
           "normalized": "FLOATING(a-\u003e(a-\u003eFull a))",
@@ -3482,6 +3780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Sin",
           "package": "feldspar-language",
@@ -3491,6 +3790,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Sin",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3506,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Sinh",
           "package": "feldspar-language",
@@ -3515,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Sinh",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3530,6 +3832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Sqrt",
           "package": "feldspar-language",
@@ -3539,6 +3842,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Sqrt",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3554,6 +3858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Tan",
           "package": "feldspar-language",
@@ -3563,6 +3868,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Tan",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3578,6 +3884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Tanh",
           "package": "feldspar-language",
@@ -3587,6 +3894,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Floating",
           "name": "Tanh",
           "normalized": "FLOATING(a-\u003eFull a)",
@@ -3602,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Fractional",
           "name": "Fractional",
           "package": "feldspar-language",
@@ -3610,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Fractional",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Fractional",
           "name": "Fractional",
           "package": "feldspar-language",
@@ -3623,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Fractional",
           "name": "FRACTIONAL",
           "package": "feldspar-language",
@@ -3631,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Fractional",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Fractional",
           "name": "FRACTIONAL",
           "package": "feldspar-language",
@@ -3644,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Fractional",
           "name": "DivFrac",
           "package": "feldspar-language",
@@ -3653,6 +3966,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Fractional",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Fractional",
           "name": "DivFrac",
           "normalized": "FRACTIONAL(a-\u003e(a-\u003eFull a))",
@@ -3668,6 +3982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Future",
           "name": "Future",
           "package": "feldspar-language",
@@ -3676,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Future",
           "name": "Future",
           "package": "feldspar-language",
@@ -3689,6 +4005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Future",
           "name": "FUTURE",
           "package": "feldspar-language",
@@ -3697,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Future",
           "name": "FUTURE",
           "package": "feldspar-language",
@@ -3710,6 +4028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Future",
           "name": "Await",
           "package": "feldspar-language",
@@ -3719,6 +4038,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Future",
           "name": "Await",
           "normalized": "FUTURE(FVal a-\u003eFull a)",
@@ -3734,6 +4054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Future",
           "name": "MkFuture",
           "package": "feldspar-language",
@@ -3743,6 +4064,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Future",
           "name": "MkFuture",
           "normalized": "FUTURE(a-\u003eFull(FVal a))",
@@ -3758,6 +4080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Integral",
           "name": "Integral",
           "package": "feldspar-language",
@@ -3766,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Integral",
           "name": "Integral",
           "package": "feldspar-language",
@@ -3779,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Integral",
           "name": "INTEGRAL",
           "package": "feldspar-language",
@@ -3787,6 +4112,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Integral",
           "name": "INTEGRAL",
           "package": "feldspar-language",
@@ -3800,6 +4126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Integral",
           "name": "Div",
           "package": "feldspar-language",
@@ -3809,6 +4136,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Integral",
           "name": "Div",
           "normalized": "INTEGRAL(a-\u003e(a-\u003eFull a))",
@@ -3824,6 +4152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Integral",
           "name": "Exp",
           "package": "feldspar-language",
@@ -3833,6 +4162,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Integral",
           "name": "Exp",
           "normalized": "INTEGRAL(a-\u003e(a-\u003eFull a))",
@@ -3848,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Integral",
           "name": "Mod",
           "package": "feldspar-language",
@@ -3857,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Integral",
           "name": "Mod",
           "normalized": "INTEGRAL(a-\u003e(a-\u003eFull a))",
@@ -3872,6 +4204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Integral",
           "name": "Quot",
           "package": "feldspar-language",
@@ -3881,6 +4214,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Integral",
           "name": "Quot",
           "normalized": "INTEGRAL(a-\u003e(a-\u003eFull a))",
@@ -3896,6 +4230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Integral",
           "name": "Rem",
           "package": "feldspar-language",
@@ -3905,6 +4240,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Integral",
           "name": "Rem",
           "normalized": "INTEGRAL(a-\u003e(a-\u003eFull a))",
@@ -3921,6 +4257,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterpretation of basic syntactic constructs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Literal",
           "name": "Literal",
           "package": "feldspar-language",
@@ -3930,6 +4267,7 @@
         "index": {
           "description": "Interpretation of basic syntactic constructs",
           "hierarchy": "Feldspar Core Constructs Literal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Literal",
           "name": "Literal",
           "package": "feldspar-language",
@@ -3944,6 +4282,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of Logic constructs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Logic",
           "name": "Logic",
           "package": "feldspar-language",
@@ -3953,6 +4292,7 @@
         "index": {
           "description": "Implementation of Logic constructs",
           "hierarchy": "Feldspar Core Constructs Logic",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Logic",
           "name": "Logic",
           "package": "feldspar-language",
@@ -3967,6 +4307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogic constructs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Logic",
           "name": "Logic",
           "package": "feldspar-language",
@@ -3976,6 +4317,7 @@
         "index": {
           "description": "Logic constructs",
           "hierarchy": "Feldspar Core Constructs Logic",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Logic",
           "name": "Logic",
           "package": "feldspar-language",
@@ -3989,6 +4331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Logic",
           "name": "And",
           "package": "feldspar-language",
@@ -3998,6 +4341,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Logic",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Logic",
           "name": "And",
           "normalized": "Logic(Bool-\u003e(Bool-\u003eFull Bool))",
@@ -4013,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Logic",
           "name": "Not",
           "package": "feldspar-language",
@@ -4022,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Logic",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Logic",
           "name": "Not",
           "normalized": "Logic(Bool-\u003eFull Bool)",
@@ -4037,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Logic",
           "name": "Or",
           "package": "feldspar-language",
@@ -4046,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Logic",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Logic",
           "name": "Or",
           "normalized": "Logic(Bool-\u003e(Bool-\u003eFull Bool))",
@@ -4061,6 +4409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Loop",
           "name": "Loop",
           "package": "feldspar-language",
@@ -4069,6 +4418,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Loop",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Loop",
           "name": "Loop",
           "package": "feldspar-language",
@@ -4082,6 +4432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Loop",
           "name": "Loop",
           "package": "feldspar-language",
@@ -4090,6 +4441,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Loop",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Loop",
           "name": "Loop",
           "package": "feldspar-language",
@@ -4103,6 +4455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Loop",
           "name": "LoopM",
           "package": "feldspar-language",
@@ -4111,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Loop",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Loop",
           "name": "LoopM",
           "package": "feldspar-language",
@@ -4124,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Loop",
           "name": "For",
           "package": "feldspar-language",
@@ -4133,6 +4488,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Loop",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Loop",
           "name": "For",
           "normalized": "LoopM a(Length-\u003e((Index-\u003ea b)-\u003eFull(a())))",
@@ -4148,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Loop",
           "name": "ForLoop",
           "package": "feldspar-language",
@@ -4157,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Loop",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Loop",
           "name": "ForLoop",
           "normalized": "Loop(Length-\u003e(a-\u003e((Index-\u003ea-\u003ea)-\u003eFull a)))",
@@ -4172,6 +4530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Loop",
           "name": "While",
           "package": "feldspar-language",
@@ -4181,6 +4540,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Loop",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Loop",
           "name": "While",
           "normalized": "LoopM a(a Bool-\u003e(a b-\u003eFull(a())))",
@@ -4196,6 +4556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Loop",
           "name": "WhileLoop",
           "package": "feldspar-language",
@@ -4205,6 +4566,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Loop",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Loop",
           "name": "WhileLoop",
           "normalized": "Loop(a-\u003e((a-\u003eBool)-\u003e((a-\u003ea)-\u003eFull a)))",
@@ -4220,6 +4582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Mutable",
           "name": "Mutable",
           "package": "feldspar-language",
@@ -4228,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Mutable",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Mutable",
           "name": "Mutable",
           "package": "feldspar-language",
@@ -4241,6 +4605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Mutable",
           "name": "Mutable",
           "package": "feldspar-language",
@@ -4249,6 +4614,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Mutable",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Mutable",
           "name": "Mutable",
           "package": "feldspar-language",
@@ -4262,6 +4628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Mutable",
           "name": "Run",
           "package": "feldspar-language",
@@ -4271,6 +4638,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Mutable",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Mutable",
           "name": "Run",
           "normalized": "Mutable(Mut a-\u003eFull a)",
@@ -4286,6 +4654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Mutable",
           "name": "monadProxy",
           "package": "feldspar-language",
@@ -4295,6 +4664,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Mutable",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Mutable",
           "name": "monadProxy",
           "package": "feldspar-language",
@@ -4308,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableArray",
           "name": "MutableArray",
           "package": "feldspar-language",
@@ -4316,6 +4687,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableArray",
           "name": "MutableArray",
           "package": "feldspar-language",
@@ -4329,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableArray",
           "name": "MutableArray",
           "package": "feldspar-language",
@@ -4337,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableArray",
           "name": "MutableArray",
           "package": "feldspar-language",
@@ -4350,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableArray",
           "name": "ArrLength",
           "package": "feldspar-language",
@@ -4359,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableArray",
           "name": "ArrLength",
           "normalized": "MutableArray(MArr a-\u003eFull(Mut Length))",
@@ -4374,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableArray",
           "name": "GetArr",
           "package": "feldspar-language",
@@ -4383,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableArray",
           "name": "GetArr",
           "normalized": "MutableArray(MArr a-\u003e(Index-\u003eFull(Mut a)))",
@@ -4398,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableArray",
           "name": "NewArr",
           "package": "feldspar-language",
@@ -4407,6 +4786,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableArray",
           "name": "NewArr",
           "normalized": "MutableArray(Length-\u003e(a-\u003eFull(Mut(MArr a))))",
@@ -4422,6 +4802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableArray",
           "name": "NewArr_",
           "package": "feldspar-language",
@@ -4431,6 +4812,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableArray",
           "name": "NewArr_",
           "normalized": "MutableArray(Length-\u003eFull(Mut(MArr a)))",
@@ -4446,6 +4828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableArray",
           "name": "SetArr",
           "package": "feldspar-language",
@@ -4455,6 +4838,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableArray",
           "name": "SetArr",
           "normalized": "MutableArray(MArr a-\u003e(Index-\u003e(a-\u003eFull(Mut()))))",
@@ -4470,6 +4854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableReference",
           "name": "MutableReference",
           "package": "feldspar-language",
@@ -4478,6 +4863,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableReference",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableReference",
           "name": "MutableReference",
           "package": "feldspar-language",
@@ -4491,6 +4877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableReference",
           "name": "MutableReference",
           "package": "feldspar-language",
@@ -4499,6 +4886,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableReference",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableReference",
           "name": "MutableReference",
           "package": "feldspar-language",
@@ -4512,6 +4900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableReference",
           "name": "GetRef",
           "package": "feldspar-language",
@@ -4521,6 +4910,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableReference",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableReference",
           "name": "GetRef",
           "normalized": "MutableReference(IORef a-\u003eFull(Mut a))",
@@ -4536,6 +4926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableReference",
           "name": "NewRef",
           "package": "feldspar-language",
@@ -4545,6 +4936,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableReference",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableReference",
           "name": "NewRef",
           "normalized": "MutableReference(a-\u003eFull(Mut(IORef a)))",
@@ -4560,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableReference",
           "name": "SetRef",
           "package": "feldspar-language",
@@ -4569,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableReference",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableReference",
           "name": "SetRef",
           "normalized": "MutableReference(IORef a-\u003e(a-\u003eFull(Mut())))",
@@ -4584,6 +4978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableToPure",
           "name": "MutableToPure",
           "package": "feldspar-language",
@@ -4592,6 +4987,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableToPure",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableToPure",
           "name": "MutableToPure",
           "package": "feldspar-language",
@@ -4605,6 +5001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableToPure",
           "name": "MutableToPure",
           "package": "feldspar-language",
@@ -4613,6 +5010,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableToPure",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableToPure",
           "name": "MutableToPure",
           "package": "feldspar-language",
@@ -4626,6 +5024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableToPure",
           "name": "RunMutableArray",
           "package": "feldspar-language",
@@ -4635,6 +5034,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableToPure",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableToPure",
           "name": "RunMutableArray",
           "normalized": "MutableToPure(Mut(MArr a)-\u003eFull[a])",
@@ -4650,6 +5050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.MutableToPure",
           "name": "WithArray",
           "package": "feldspar-language",
@@ -4659,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs MutableToPure",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.MutableToPure",
           "name": "WithArray",
           "normalized": "MutableToPure(MArr a-\u003e(([a]-\u003eMut b)-\u003eFull(Mut b)))",
@@ -4674,6 +5076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.NoInline",
           "name": "NoInline",
           "package": "feldspar-language",
@@ -4682,6 +5085,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs NoInline",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.NoInline",
           "name": "NoInline",
           "package": "feldspar-language",
@@ -4695,6 +5099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.NoInline",
           "name": "NoInline",
           "package": "feldspar-language",
@@ -4703,6 +5108,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs NoInline",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.NoInline",
           "name": "NoInline",
           "package": "feldspar-language",
@@ -4716,6 +5122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.NoInline",
           "name": "NoInline",
           "package": "feldspar-language",
@@ -4725,6 +5132,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs NoInline",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.NoInline",
           "name": "NoInline",
           "normalized": "NoInline(a-\u003eFull a)",
@@ -4740,6 +5148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Num",
           "name": "Num",
           "package": "feldspar-language",
@@ -4748,6 +5157,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Num",
           "name": "Num",
           "package": "feldspar-language",
@@ -4761,6 +5171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Num",
           "name": "NUM",
           "package": "feldspar-language",
@@ -4769,6 +5180,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Num",
           "name": "NUM",
           "package": "feldspar-language",
@@ -4782,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Num",
           "name": "Abs",
           "package": "feldspar-language",
@@ -4791,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Num",
           "name": "Abs",
           "normalized": "NUM(a-\u003eFull a)",
@@ -4806,6 +5220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Num",
           "name": "Add",
           "package": "feldspar-language",
@@ -4815,6 +5230,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Num",
           "name": "Add",
           "normalized": "NUM(a-\u003e(a-\u003eFull a))",
@@ -4830,6 +5246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Num",
           "name": "Mul",
           "package": "feldspar-language",
@@ -4839,6 +5256,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Num",
           "name": "Mul",
           "normalized": "NUM(a-\u003e(a-\u003eFull a))",
@@ -4854,6 +5272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Num",
           "name": "Sign",
           "package": "feldspar-language",
@@ -4863,6 +5282,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Num",
           "name": "Sign",
           "normalized": "NUM(a-\u003eFull a)",
@@ -4878,6 +5298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Num",
           "name": "Sub",
           "package": "feldspar-language",
@@ -4887,6 +5308,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Num",
           "name": "Sub",
           "normalized": "NUM(a-\u003e(a-\u003eFull a))",
@@ -4903,6 +5325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of ordering constructs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "Ord",
           "package": "feldspar-language",
@@ -4912,6 +5335,7 @@
         "index": {
           "description": "Implementation of ordering constructs",
           "hierarchy": "Feldspar Core Constructs Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "Ord",
           "package": "feldspar-language",
@@ -4926,6 +5350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdering constructs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "ORD",
           "package": "feldspar-language",
@@ -4935,6 +5360,7 @@
         "index": {
           "description": "Ordering constructs",
           "hierarchy": "Feldspar Core Constructs Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "ORD",
           "package": "feldspar-language",
@@ -4948,6 +5374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "GTE",
           "package": "feldspar-language",
@@ -4957,6 +5384,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "GTE",
           "normalized": "ORD(a-\u003e(a-\u003eFull Bool))",
@@ -4972,6 +5400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "GTH",
           "package": "feldspar-language",
@@ -4981,6 +5410,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "GTH",
           "normalized": "ORD(a-\u003e(a-\u003eFull Bool))",
@@ -4996,6 +5426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "LTE",
           "package": "feldspar-language",
@@ -5005,6 +5436,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "LTE",
           "normalized": "ORD(a-\u003e(a-\u003eFull Bool))",
@@ -5020,6 +5452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "LTH",
           "package": "feldspar-language",
@@ -5029,6 +5462,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "LTH",
           "normalized": "ORD(a-\u003e(a-\u003eFull Bool))",
@@ -5044,6 +5478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "Max",
           "package": "feldspar-language",
@@ -5053,6 +5488,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "Max",
           "normalized": "ORD(a-\u003e(a-\u003eFull a))",
@@ -5068,6 +5504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "Min",
           "package": "feldspar-language",
@@ -5077,6 +5514,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Ord",
           "name": "Min",
           "normalized": "ORD(a-\u003e(a-\u003eFull a))",
@@ -5092,6 +5530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "Par",
           "package": "feldspar-language",
@@ -5100,6 +5539,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "Par",
           "package": "feldspar-language",
@@ -5113,6 +5553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "ParFeature",
           "package": "feldspar-language",
@@ -5121,6 +5562,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "ParFeature",
           "package": "feldspar-language",
@@ -5134,6 +5576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "ParFork",
           "package": "feldspar-language",
@@ -5143,6 +5586,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "ParFork",
           "normalized": "ParFeature(Par()-\u003eFull(Par()))",
@@ -5158,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "ParGet",
           "package": "feldspar-language",
@@ -5167,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "ParGet",
           "normalized": "ParFeature(IV a-\u003eFull(Par a))",
@@ -5182,6 +5628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "ParNew",
           "package": "feldspar-language",
@@ -5191,6 +5638,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "ParNew",
           "package": "feldspar-language",
@@ -5204,6 +5652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "ParPut",
           "package": "feldspar-language",
@@ -5213,6 +5662,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "ParPut",
           "normalized": "ParFeature(IV a-\u003e(a-\u003eFull(Par())))",
@@ -5228,6 +5678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "ParRun",
           "package": "feldspar-language",
@@ -5237,6 +5688,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "ParRun",
           "normalized": "ParFeature(Par a-\u003eFull a)",
@@ -5252,6 +5704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "ParYield",
           "package": "feldspar-language",
@@ -5261,6 +5714,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "ParYield",
           "normalized": "ParFeature(Full(Par()))",
@@ -5276,6 +5730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "monadProxy",
           "package": "feldspar-language",
@@ -5285,6 +5740,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Par",
           "name": "monadProxy",
           "package": "feldspar-language",
@@ -5298,6 +5754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Save",
           "name": "Save",
           "package": "feldspar-language",
@@ -5306,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Save",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Save",
           "name": "Save",
           "package": "feldspar-language",
@@ -5319,6 +5777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Save",
           "name": "Save",
           "package": "feldspar-language",
@@ -5327,6 +5786,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Save",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Save",
           "name": "Save",
           "package": "feldspar-language",
@@ -5340,6 +5800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Save",
           "name": "Save",
           "package": "feldspar-language",
@@ -5349,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Save",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Save",
           "name": "Save",
           "normalized": "Save(a-\u003eFull a)",
@@ -5364,6 +5826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.SizeProp",
           "name": "SizeProp",
           "package": "feldspar-language",
@@ -5372,6 +5835,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs SizeProp",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.SizeProp",
           "name": "SizeProp",
           "package": "feldspar-language",
@@ -5385,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.SizeProp",
           "name": "PropSize",
           "package": "feldspar-language",
@@ -5393,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs SizeProp",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.SizeProp",
           "name": "PropSize",
           "package": "feldspar-language",
@@ -5406,6 +5872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.SizeProp",
           "name": "PropSize",
           "package": "feldspar-language",
@@ -5415,6 +5882,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs SizeProp",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.SizeProp",
           "name": "PropSize",
           "normalized": "(Size a-\u003eSize b)-\u003ePropSize(a-\u003e(b-\u003eFull b))",
@@ -5430,6 +5898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.SourceInfo",
           "name": "SourceInfo",
           "package": "feldspar-language",
@@ -5438,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs SourceInfo",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.SourceInfo",
           "name": "SourceInfo",
           "package": "feldspar-language",
@@ -5452,6 +5922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKind \u003ccode\u003e* -\u003e *\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003eSourceInfo\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.SourceInfo",
           "name": "SourceInfo1",
           "package": "feldspar-language",
@@ -5461,6 +5932,7 @@
         "index": {
           "description": "Kind version of SourceInfo",
           "hierarchy": "Feldspar Core Constructs SourceInfo",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.SourceInfo",
           "name": "SourceInfo1",
           "package": "feldspar-language",
@@ -5474,6 +5946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.SourceInfo",
           "name": "SourceInfo1",
           "package": "feldspar-language",
@@ -5483,6 +5956,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs SourceInfo",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.SourceInfo",
           "name": "SourceInfo1",
           "package": "feldspar-language",
@@ -5496,6 +5970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Trace",
           "name": "Trace",
           "package": "feldspar-language",
@@ -5504,6 +5979,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Trace",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Trace",
           "name": "Trace",
           "package": "feldspar-language",
@@ -5517,6 +5993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Trace",
           "name": "Trace",
           "package": "feldspar-language",
@@ -5525,6 +6002,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Trace",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Trace",
           "name": "Trace",
           "package": "feldspar-language",
@@ -5538,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Trace",
           "name": "Trace",
           "package": "feldspar-language",
@@ -5547,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Trace",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Trace",
           "name": "Trace",
           "normalized": "Trace(IntN-\u003e(a-\u003eFull a))",
@@ -5562,6 +6042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs.Tuple",
           "name": "Tuple",
           "package": "feldspar-language",
@@ -5570,6 +6051,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs Tuple",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs.Tuple",
           "name": "Tuple",
           "package": "feldspar-language",
@@ -5583,6 +6065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs",
           "name": "Constructs",
           "package": "feldspar-language",
@@ -5591,6 +6074,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs",
           "name": "Constructs",
           "package": "feldspar-language",
@@ -5604,6 +6088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs",
           "name": "Data",
           "package": "feldspar-language",
@@ -5612,6 +6097,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs",
           "name": "Data",
           "package": "feldspar-language",
@@ -5625,6 +6111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs",
           "name": "FeldDomain",
           "package": "feldspar-language",
@@ -5633,6 +6120,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs",
           "name": "FeldDomain",
           "package": "feldspar-language",
@@ -5646,6 +6134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs",
           "name": "FeldDomainAll",
           "package": "feldspar-language",
@@ -5654,6 +6143,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs",
           "name": "FeldDomainAll",
           "package": "feldspar-language",
@@ -5667,6 +6157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs",
           "name": "FeldSymbols",
           "package": "feldspar-language",
@@ -5675,6 +6166,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs",
           "name": "FeldSymbols",
           "package": "feldspar-language",
@@ -5689,6 +6181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialization of the \u003ccode\u003e\u003ca\u003eSyntactic\u003c/a\u003e\u003c/code\u003e class for the Feldspar domain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs",
           "name": "Syntax",
           "package": "feldspar-language",
@@ -5698,6 +6191,7 @@
         "index": {
           "description": "Specialization of the Syntactic class for the Feldspar domain",
           "hierarchy": "Feldspar Core Constructs",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs",
           "name": "Syntax",
           "package": "feldspar-language",
@@ -5711,6 +6205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs",
           "name": "Data",
           "package": "feldspar-language",
@@ -5720,6 +6215,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs",
           "name": "Data",
           "package": "feldspar-language",
@@ -5733,6 +6229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs",
           "name": "sugarSymF",
           "package": "feldspar-language",
@@ -5742,6 +6239,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs",
           "name": "sugarSymF",
           "normalized": "a b-\u003ec",
@@ -5757,6 +6255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Constructs",
           "name": "unData",
           "package": "feldspar-language",
@@ -5766,6 +6265,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Constructs",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Constructs",
           "name": "unData",
           "package": "feldspar-language",
@@ -5779,6 +6279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "Array",
           "package": "feldspar-language",
@@ -5787,6 +6288,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "Array",
           "package": "feldspar-language",
@@ -5801,6 +6303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArray patch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "(|\u003e)",
           "package": "feldspar-language",
@@ -5811,6 +6314,7 @@
         "index": {
           "description": "Array patch",
           "hierarchy": "Feldspar Core Frontend Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "(|\u003e) |\u003e",
           "normalized": "Patch(CollSize a)(CollSize a)-\u003ePatch(Elem a)(Elem a)-\u003ePatch a a",
@@ -5825,6 +6329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "append",
           "package": "feldspar-language",
@@ -5834,6 +6339,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "append",
           "normalized": "Data[a]-\u003eData[a]-\u003eData[a]",
@@ -5848,6 +6354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "getIx",
           "package": "feldspar-language",
@@ -5857,6 +6364,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "getIx",
           "normalized": "Data[a]-\u003eData Index-\u003eData a",
@@ -5872,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "getLength",
           "package": "feldspar-language",
@@ -5881,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "getLength",
           "normalized": "Data[a]-\u003eData Length",
@@ -5896,6 +6406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "parallel",
           "package": "feldspar-language",
@@ -5905,6 +6416,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "parallel",
           "normalized": "Data Length-\u003e(Data Index-\u003eData a)-\u003eData[a]",
@@ -5919,6 +6431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "sequential",
           "package": "feldspar-language",
@@ -5928,6 +6441,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "sequential",
           "normalized": "Data Length-\u003ea-\u003e(Data Index-\u003ea-\u003e(Data b,a))-\u003eData[b]",
@@ -5942,6 +6456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "setIx",
           "package": "feldspar-language",
@@ -5951,6 +6466,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "setIx",
           "normalized": "Data[a]-\u003eData Index-\u003eData a-\u003eData[a]",
@@ -5967,6 +6483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the length of the vector to the supplied value. If the supplied\n length is greater than the old length, the new elements will have undefined\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "setLength",
           "package": "feldspar-language",
@@ -5977,6 +6494,7 @@
         "index": {
           "description": "Change the length of the vector to the supplied value If the supplied length is greater than the old length the new elements will have undefined value",
           "hierarchy": "Feldspar Core Frontend Array",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Array",
           "name": "setLength",
           "normalized": "Data Length-\u003eData[a]-\u003eData[a]",
@@ -5992,6 +6510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Binding",
           "name": "Binding",
           "package": "feldspar-language",
@@ -6000,6 +6519,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Binding",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Binding",
           "name": "Binding",
           "package": "feldspar-language",
@@ -6014,6 +6534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShare an expression in the scope of a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Binding",
           "name": "($\u003c)",
           "package": "feldspar-language",
@@ -6024,6 +6545,7 @@
         "index": {
           "description": "Share an expression in the scope of function",
           "hierarchy": "Feldspar Core Frontend Binding",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Binding",
           "name": "($\u003c) $\u003c",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -6039,6 +6561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShare the intermediate result when composing functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Binding",
           "name": "(.\u003c)",
           "package": "feldspar-language",
@@ -6049,6 +6572,7 @@
         "index": {
           "description": "Share the intermediate result when composing functions",
           "hierarchy": "Feldspar Core Frontend Binding",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Binding",
           "name": "(.\u003c) .\u003c",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ea)-\u003ec-\u003eb",
@@ -6064,6 +6588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShare an expression in the scope of a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Binding",
           "name": "share",
           "package": "feldspar-language",
@@ -6074,6 +6599,7 @@
         "index": {
           "description": "Share an expression in the scope of function",
           "hierarchy": "Feldspar Core Frontend Binding",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Binding",
           "name": "share",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -6088,6 +6614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "Bits",
           "package": "feldspar-language",
@@ -6096,6 +6623,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "Bits",
           "package": "feldspar-language",
@@ -6109,6 +6637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "Bits",
           "package": "feldspar-language",
@@ -6117,6 +6646,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "Bits",
           "package": "feldspar-language",
@@ -6130,6 +6660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "(⊕)",
           "package": "feldspar-language",
@@ -6139,6 +6670,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "(⊕) ⊕",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -6153,6 +6685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "(.|.)",
           "package": "feldspar-language",
@@ -6162,6 +6695,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "(.|.) .|.",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -6176,6 +6710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "(.&.)",
           "package": "feldspar-language",
@@ -6185,6 +6720,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "(.&.) .&.",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -6199,6 +6735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "(.\u003c\u003c.)",
           "package": "feldspar-language",
@@ -6208,6 +6745,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "(.\u003c\u003c.) .\u003c\u003c.",
           "normalized": "Data a-\u003eData Index-\u003eData a",
@@ -6222,6 +6760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "(.\u003e\u003e.)",
           "package": "feldspar-language",
@@ -6231,6 +6770,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "(.\u003e\u003e.) .\u003e\u003e.",
           "normalized": "Data a-\u003eData Index-\u003eData a",
@@ -6245,6 +6785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "bit",
           "package": "feldspar-language",
@@ -6254,6 +6795,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "bit",
           "normalized": "Data Index-\u003eData a",
@@ -6268,6 +6810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "bitCount",
           "package": "feldspar-language",
@@ -6277,6 +6820,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "bitCount",
           "normalized": "Data a-\u003eData Index",
@@ -6292,6 +6836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "bitScan",
           "package": "feldspar-language",
@@ -6301,6 +6846,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "bitScan",
           "normalized": "Data a-\u003eData Index",
@@ -6316,6 +6862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "bitSize",
           "package": "feldspar-language",
@@ -6325,6 +6872,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "bitSize",
           "normalized": "Data a-\u003eData Index",
@@ -6340,6 +6888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "bitSize'",
           "package": "feldspar-language",
@@ -6349,6 +6898,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "bitSize'",
           "normalized": "Data a-\u003eIndex",
@@ -6364,6 +6914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "clearBit",
           "package": "feldspar-language",
@@ -6373,6 +6924,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "clearBit",
           "normalized": "Data a-\u003eData Index-\u003eData a",
@@ -6388,6 +6940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "complement",
           "package": "feldspar-language",
@@ -6397,6 +6950,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "complement",
           "normalized": "Data a-\u003eData a",
@@ -6411,6 +6965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "complementBit",
           "package": "feldspar-language",
@@ -6420,6 +6975,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "complementBit",
           "normalized": "Data a-\u003eData Index-\u003eData a",
@@ -6435,6 +6991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "isSigned",
           "package": "feldspar-language",
@@ -6444,6 +7001,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "isSigned",
           "normalized": "Data a-\u003eData Bool",
@@ -6459,6 +7017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "reverseBits",
           "package": "feldspar-language",
@@ -6468,6 +7027,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "reverseBits",
           "normalized": "Data a-\u003eData a",
@@ -6483,6 +7043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "rotateL",
           "package": "feldspar-language",
@@ -6492,6 +7053,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "rotateL",
           "normalized": "Data a-\u003eData IntN-\u003eData a",
@@ -6506,6 +7068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "rotateLU",
           "package": "feldspar-language",
@@ -6515,6 +7078,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "rotateLU",
           "normalized": "Data a-\u003eData Index-\u003eData a",
@@ -6530,6 +7094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "rotateR",
           "package": "feldspar-language",
@@ -6539,6 +7104,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "rotateR",
           "normalized": "Data a-\u003eData IntN-\u003eData a",
@@ -6553,6 +7119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "rotateRU",
           "package": "feldspar-language",
@@ -6562,6 +7129,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "rotateRU",
           "normalized": "Data a-\u003eData Index-\u003eData a",
@@ -6577,6 +7145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "setBit",
           "package": "feldspar-language",
@@ -6586,6 +7155,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "setBit",
           "normalized": "Data a-\u003eData Index-\u003eData a",
@@ -6601,6 +7171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "shiftL",
           "package": "feldspar-language",
@@ -6610,6 +7181,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "shiftL",
           "normalized": "Data a-\u003eData IntN-\u003eData a",
@@ -6624,6 +7196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "shiftLU",
           "package": "feldspar-language",
@@ -6633,6 +7206,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "shiftLU",
           "normalized": "Data a-\u003eData Index-\u003eData a",
@@ -6648,6 +7222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "shiftR",
           "package": "feldspar-language",
@@ -6657,6 +7232,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "shiftR",
           "normalized": "Data a-\u003eData IntN-\u003eData a",
@@ -6671,6 +7247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "shiftRU",
           "package": "feldspar-language",
@@ -6680,6 +7257,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "shiftRU",
           "normalized": "Data a-\u003eData Index-\u003eData a",
@@ -6695,6 +7273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "testBit",
           "package": "feldspar-language",
@@ -6704,6 +7283,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "testBit",
           "normalized": "Data a-\u003eData Index-\u003eData Bool",
@@ -6719,6 +7299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "xor",
           "package": "feldspar-language",
@@ -6728,6 +7309,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Bits",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Bits",
           "name": "xor",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -6742,6 +7324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "Complex",
           "package": "feldspar-language",
@@ -6750,6 +7333,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "Complex",
           "package": "feldspar-language",
@@ -6763,6 +7347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "(+.)",
           "package": "feldspar-language",
@@ -6772,6 +7357,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "(+.) +.",
           "normalized": "Data a-\u003eData a-\u003eData(Complex a)",
@@ -6786,6 +7372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "cis",
           "package": "feldspar-language",
@@ -6795,6 +7382,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "cis",
           "normalized": "Data a-\u003eData(Complex a)",
@@ -6809,6 +7397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "complex",
           "package": "feldspar-language",
@@ -6818,6 +7407,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "complex",
           "normalized": "Data a-\u003eData a-\u003eData(Complex a)",
@@ -6832,6 +7422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "conjugate",
           "package": "feldspar-language",
@@ -6841,6 +7432,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "conjugate",
           "normalized": "Data(Complex a)-\u003eData(Complex a)",
@@ -6855,6 +7447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "imagPart",
           "package": "feldspar-language",
@@ -6864,6 +7457,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "imagPart",
           "normalized": "Data(Complex a)-\u003eData a",
@@ -6879,6 +7473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "iunit",
           "package": "feldspar-language",
@@ -6888,6 +7483,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "iunit",
           "package": "feldspar-language",
@@ -6900,6 +7496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "magnitude",
           "package": "feldspar-language",
@@ -6909,6 +7506,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "magnitude",
           "normalized": "Data(Complex a)-\u003eData a",
@@ -6923,6 +7521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "mkPolar",
           "package": "feldspar-language",
@@ -6932,6 +7531,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "mkPolar",
           "normalized": "Data a-\u003eData a-\u003eData(Complex a)",
@@ -6947,6 +7547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "phase",
           "package": "feldspar-language",
@@ -6956,6 +7557,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "phase",
           "normalized": "Data(Complex a)-\u003eData a",
@@ -6970,6 +7572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "polar",
           "package": "feldspar-language",
@@ -6979,6 +7582,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "polar",
           "normalized": "Data(Complex a)-\u003e(Data a,Data a)",
@@ -6993,6 +7597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "realPart",
           "package": "feldspar-language",
@@ -7002,6 +7607,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Complex",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Complex",
           "name": "realPart",
           "normalized": "Data(Complex a)-\u003eData a",
@@ -7017,6 +7623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Condition",
           "name": "Condition",
           "package": "feldspar-language",
@@ -7025,6 +7632,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Condition",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Condition",
           "name": "Condition",
           "package": "feldspar-language",
@@ -7038,6 +7646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Condition",
           "name": "(?)",
           "package": "feldspar-language",
@@ -7047,6 +7656,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Condition",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Condition",
           "name": "(?) ?",
           "normalized": "Data Bool-\u003e(a,a)-\u003ea",
@@ -7061,6 +7671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Condition",
           "name": "condition",
           "package": "feldspar-language",
@@ -7070,6 +7681,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Condition",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Condition",
           "name": "condition",
           "normalized": "Data Bool-\u003ea-\u003ea-\u003ea",
@@ -7084,6 +7696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.ConditionM",
           "name": "ConditionM",
           "package": "feldspar-language",
@@ -7092,6 +7705,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend ConditionM",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.ConditionM",
           "name": "ConditionM",
           "package": "feldspar-language",
@@ -7105,6 +7719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.ConditionM",
           "name": "ifM",
           "package": "feldspar-language",
@@ -7114,6 +7729,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend ConditionM",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.ConditionM",
           "name": "ifM",
           "normalized": "Data Bool-\u003eM a-\u003eM a-\u003eM a",
@@ -7128,6 +7744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "Conversion",
           "package": "feldspar-language",
@@ -7136,6 +7753,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "Conversion",
           "package": "feldspar-language",
@@ -7149,6 +7767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "b2i",
           "package": "feldspar-language",
@@ -7158,6 +7777,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "b2i",
           "normalized": "Data Bool-\u003eData a",
@@ -7172,6 +7792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "ceiling",
           "package": "feldspar-language",
@@ -7181,6 +7802,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "ceiling",
           "normalized": "Data Float-\u003eData a",
@@ -7195,6 +7817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "f2i",
           "package": "feldspar-language",
@@ -7204,6 +7827,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "f2i",
           "normalized": "Data Float-\u003eData a",
@@ -7218,6 +7842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "floor",
           "package": "feldspar-language",
@@ -7227,6 +7852,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "floor",
           "normalized": "Data Float-\u003eData a",
@@ -7241,6 +7867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "i2f",
           "package": "feldspar-language",
@@ -7250,6 +7877,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "i2f",
           "normalized": "Data a-\u003eData Float",
@@ -7264,6 +7892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "i2n",
           "package": "feldspar-language",
@@ -7273,6 +7902,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "i2n",
           "normalized": "Data a-\u003eData b",
@@ -7287,6 +7917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "round",
           "package": "feldspar-language",
@@ -7296,6 +7927,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "round",
           "normalized": "Data Float-\u003eData a",
@@ -7310,6 +7942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "truncate",
           "package": "feldspar-language",
@@ -7319,6 +7952,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Conversion",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Conversion",
           "name": "truncate",
           "normalized": "Data Float-\u003eData a",
@@ -7333,6 +7967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Eq",
           "name": "Eq",
           "package": "feldspar-language",
@@ -7341,6 +7976,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Eq",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Eq",
           "name": "Eq",
           "package": "feldspar-language",
@@ -7355,6 +7991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedefinition of the standard \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e class for Feldspar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Eq",
           "name": "Eq",
           "package": "feldspar-language",
@@ -7364,6 +8001,7 @@
         "index": {
           "description": "Redefinition of the standard Eq class for Feldspar",
           "hierarchy": "Feldspar Core Frontend Eq",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Eq",
           "name": "Eq",
           "package": "feldspar-language",
@@ -7377,6 +8015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Eq",
           "name": "(/=)",
           "package": "feldspar-language",
@@ -7386,6 +8025,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Eq",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Eq",
           "name": "(/=) /=",
           "normalized": "Data a-\u003eData a-\u003eData Bool",
@@ -7400,6 +8040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Eq",
           "name": "(==)",
           "package": "feldspar-language",
@@ -7409,6 +8050,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Eq",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Eq",
           "name": "(==) ==",
           "normalized": "Data a-\u003eData a-\u003eData Bool",
@@ -7423,6 +8065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Error",
           "name": "Error",
           "package": "feldspar-language",
@@ -7431,6 +8074,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Error",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Error",
           "name": "Error",
           "package": "feldspar-language",
@@ -7445,6 +8089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert that the condition holds, the conditions string representation is used as the message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Error",
           "name": "assert",
           "package": "feldspar-language",
@@ -7455,6 +8100,7 @@
         "index": {
           "description": "Assert that the condition holds the conditions string representation is used as the message",
           "hierarchy": "Feldspar Core Frontend Error",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Error",
           "name": "assert",
           "normalized": "Data Bool-\u003ea-\u003ea",
@@ -7470,6 +8116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert that the condition holds or fail with message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Error",
           "name": "assertMsg",
           "package": "feldspar-language",
@@ -7480,6 +8127,7 @@
         "index": {
           "description": "Assert that the condition holds or fail with message",
           "hierarchy": "Feldspar Core Frontend Error",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Error",
           "name": "assertMsg",
           "normalized": "String-\u003eData Bool-\u003ea-\u003ea",
@@ -7495,6 +8143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Error",
           "name": "err",
           "package": "feldspar-language",
@@ -7504,6 +8153,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Error",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Error",
           "name": "err",
           "normalized": "String-\u003ea",
@@ -7518,6 +8168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Error",
           "name": "undef",
           "package": "feldspar-language",
@@ -7527,6 +8178,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Error",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Error",
           "name": "undef",
           "package": "feldspar-language",
@@ -7539,6 +8191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.FFI",
           "name": "FFI",
           "package": "feldspar-language",
@@ -7547,6 +8200,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend FFI",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.FFI",
           "name": "FFI",
           "package": "feldspar-language",
@@ -7560,6 +8214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.FFI",
           "name": "foreignImport",
           "package": "feldspar-language",
@@ -7569,6 +8224,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend FFI",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.FFI",
           "name": "foreignImport",
           "normalized": "String-\u003eDenotation a-\u003eb",
@@ -7584,6 +8240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "Floating",
           "package": "feldspar-language",
@@ -7592,6 +8249,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "Floating",
           "package": "feldspar-language",
@@ -7605,6 +8263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "Floating",
           "package": "feldspar-language",
@@ -7613,6 +8272,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "Floating",
           "package": "feldspar-language",
@@ -7626,6 +8286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "(**)",
           "package": "feldspar-language",
@@ -7635,6 +8296,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "(**) **",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -7649,6 +8311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "acos",
           "package": "feldspar-language",
@@ -7658,6 +8321,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "acos",
           "normalized": "Data a-\u003eData a",
@@ -7672,6 +8336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "acosh",
           "package": "feldspar-language",
@@ -7681,6 +8346,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "acosh",
           "normalized": "Data a-\u003eData a",
@@ -7695,6 +8361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "asin",
           "package": "feldspar-language",
@@ -7704,6 +8371,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "asin",
           "normalized": "Data a-\u003eData a",
@@ -7718,6 +8386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "asinh",
           "package": "feldspar-language",
@@ -7727,6 +8396,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "asinh",
           "normalized": "Data a-\u003eData a",
@@ -7741,6 +8411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "atan",
           "package": "feldspar-language",
@@ -7750,6 +8421,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "atan",
           "normalized": "Data a-\u003eData a",
@@ -7764,6 +8436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "atanh",
           "package": "feldspar-language",
@@ -7773,6 +8446,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "atanh",
           "normalized": "Data a-\u003eData a",
@@ -7787,6 +8461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "cos",
           "package": "feldspar-language",
@@ -7796,6 +8471,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "cos",
           "normalized": "Data a-\u003eData a",
@@ -7810,6 +8486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "cosh",
           "package": "feldspar-language",
@@ -7819,6 +8496,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "cosh",
           "normalized": "Data a-\u003eData a",
@@ -7833,6 +8511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "exp",
           "package": "feldspar-language",
@@ -7842,6 +8521,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "exp",
           "normalized": "Data a-\u003eData a",
@@ -7856,6 +8536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "log",
           "package": "feldspar-language",
@@ -7865,6 +8546,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "log",
           "normalized": "Data a-\u003eData a",
@@ -7879,6 +8561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "logBase",
           "package": "feldspar-language",
@@ -7888,6 +8571,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "logBase",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -7903,6 +8587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "pi",
           "package": "feldspar-language",
@@ -7912,6 +8597,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "pi",
           "package": "feldspar-language",
@@ -7924,6 +8610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "sin",
           "package": "feldspar-language",
@@ -7933,6 +8620,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "sin",
           "normalized": "Data a-\u003eData a",
@@ -7947,6 +8635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "sinh",
           "package": "feldspar-language",
@@ -7956,6 +8645,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "sinh",
           "normalized": "Data a-\u003eData a",
@@ -7970,6 +8660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "sqrt",
           "package": "feldspar-language",
@@ -7979,6 +8670,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "sqrt",
           "normalized": "Data a-\u003eData a",
@@ -7993,6 +8685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "tan",
           "package": "feldspar-language",
@@ -8002,6 +8695,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "tan",
           "normalized": "Data a-\u003eData a",
@@ -8016,6 +8710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "tanh",
           "package": "feldspar-language",
@@ -8025,6 +8720,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Floating",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Floating",
           "name": "tanh",
           "normalized": "Data a-\u003eData a",
@@ -8039,6 +8735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Fractional",
           "name": "Fractional",
           "package": "feldspar-language",
@@ -8047,6 +8744,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Fractional",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Fractional",
           "name": "Fractional",
           "package": "feldspar-language",
@@ -8061,6 +8759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFractional types. The relation to the standard \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e class is\n\u003c/p\u003e\u003cpre\u003einstance \u003ccode\u003e\u003ca\u003eFraction\u003c/a\u003e\u003c/code\u003e a =\u003e \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e a)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Fractional",
           "name": "Fraction",
           "package": "feldspar-language",
@@ -8070,6 +8769,7 @@
         "index": {
           "description": "Fractional types The relation to the standard Fractional class is instance Fraction Fractional Data",
           "hierarchy": "Feldspar Core Frontend Fractional",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Fractional",
           "name": "Fraction",
           "package": "feldspar-language",
@@ -8083,6 +8783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Fractional",
           "name": "divFrac",
           "package": "feldspar-language",
@@ -8092,6 +8793,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Fractional",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Fractional",
           "name": "divFrac",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -8107,6 +8809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Fractional",
           "name": "fromRationalFrac",
           "package": "feldspar-language",
@@ -8116,6 +8819,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Fractional",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Fractional",
           "name": "fromRationalFrac",
           "normalized": "Rational-\u003eData a",
@@ -8131,6 +8835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "Future",
           "package": "feldspar-language",
@@ -8139,6 +8844,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "Future",
           "package": "feldspar-language",
@@ -8152,6 +8858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "Future",
           "package": "feldspar-language",
@@ -8160,6 +8867,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "Future",
           "package": "feldspar-language",
@@ -8173,6 +8881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "Future",
           "package": "feldspar-language",
@@ -8182,6 +8891,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "Future",
           "package": "feldspar-language",
@@ -8195,6 +8905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "await",
           "package": "feldspar-language",
@@ -8204,6 +8915,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "await",
           "normalized": "Future a-\u003ea",
@@ -8218,6 +8930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "future",
           "package": "feldspar-language",
@@ -8227,6 +8940,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "future",
           "normalized": "a-\u003eFuture a",
@@ -8241,6 +8955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "later",
           "package": "feldspar-language",
@@ -8250,6 +8965,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "later",
           "normalized": "(a-\u003eb)-\u003eFuture a-\u003eFuture b",
@@ -8264,6 +8980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "pval",
           "package": "feldspar-language",
@@ -8273,6 +8990,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "pval",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -8287,6 +9005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "unFuture",
           "package": "feldspar-language",
@@ -8296,6 +9015,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Future",
           "name": "unFuture",
           "package": "feldspar-language",
@@ -8309,6 +9029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "Integral",
           "package": "feldspar-language",
@@ -8317,6 +9038,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "Integral",
           "package": "feldspar-language",
@@ -8330,6 +9052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "Integral",
           "package": "feldspar-language",
@@ -8338,6 +9061,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "Integral",
           "package": "feldspar-language",
@@ -8351,6 +9075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "(^)",
           "package": "feldspar-language",
@@ -8360,6 +9085,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "(^) ^",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -8374,6 +9100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "div",
           "package": "feldspar-language",
@@ -8383,6 +9110,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "div",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -8397,6 +9125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "divSem",
           "package": "feldspar-language",
@@ -8406,6 +9135,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "divSem",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -8421,6 +9151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "mod",
           "package": "feldspar-language",
@@ -8430,6 +9161,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "mod",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -8444,6 +9176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "quot",
           "package": "feldspar-language",
@@ -8453,6 +9186,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "quot",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -8467,6 +9201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "rem",
           "package": "feldspar-language",
@@ -8476,6 +9211,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Integral",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Integral",
           "name": "rem",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -8490,6 +9226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Literal",
           "name": "Literal",
           "package": "feldspar-language",
@@ -8498,6 +9235,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Literal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Literal",
           "name": "Literal",
           "package": "feldspar-language",
@@ -8511,6 +9249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Literal",
           "name": "false",
           "package": "feldspar-language",
@@ -8520,6 +9259,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Literal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Literal",
           "name": "false",
           "package": "feldspar-language",
@@ -8532,6 +9272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Literal",
           "name": "true",
           "package": "feldspar-language",
@@ -8541,6 +9282,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Literal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Literal",
           "name": "true",
           "package": "feldspar-language",
@@ -8553,6 +9295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Literal",
           "name": "value",
           "package": "feldspar-language",
@@ -8562,6 +9305,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Literal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Literal",
           "name": "value",
           "normalized": "Internal a-\u003ea",
@@ -8576,6 +9320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Logic",
           "name": "Logic",
           "package": "feldspar-language",
@@ -8584,6 +9329,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Logic",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Logic",
           "name": "Logic",
           "package": "feldspar-language",
@@ -8597,6 +9343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Logic",
           "name": "(||)",
           "package": "feldspar-language",
@@ -8606,6 +9353,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Logic",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Logic",
           "name": "(||) ||",
           "normalized": "Data Bool-\u003eData Bool-\u003eData Bool",
@@ -8621,6 +9369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazy disjunction, second argument only evaluated if necessary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Logic",
           "name": "(||*)",
           "package": "feldspar-language",
@@ -8631,6 +9380,7 @@
         "index": {
           "description": "Lazy disjunction second argument only evaluated if necessary",
           "hierarchy": "Feldspar Core Frontend Logic",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Logic",
           "name": "(||*) ||*",
           "normalized": "Data Bool-\u003eData Bool-\u003eData Bool",
@@ -8645,6 +9395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Logic",
           "name": "(&&)",
           "package": "feldspar-language",
@@ -8654,6 +9405,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Logic",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Logic",
           "name": "(&&) &&",
           "normalized": "Data Bool-\u003eData Bool-\u003eData Bool",
@@ -8669,6 +9421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazy conjunction, second argument only evaluated if necessary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Logic",
           "name": "(&&*)",
           "package": "feldspar-language",
@@ -8679,6 +9432,7 @@
         "index": {
           "description": "Lazy conjunction second argument only evaluated if necessary",
           "hierarchy": "Feldspar Core Frontend Logic",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Logic",
           "name": "(&&*) &&*",
           "normalized": "Data Bool-\u003eData Bool-\u003eData Bool",
@@ -8693,6 +9447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Logic",
           "name": "not",
           "package": "feldspar-language",
@@ -8702,6 +9457,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Logic",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Logic",
           "name": "not",
           "normalized": "Data Bool-\u003eData Bool",
@@ -8716,6 +9472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Loop",
           "name": "Loop",
           "package": "feldspar-language",
@@ -8724,6 +9481,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Loop",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Loop",
           "name": "Loop",
           "package": "feldspar-language",
@@ -8737,6 +9495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Loop",
           "name": "forLoop",
           "package": "feldspar-language",
@@ -8746,6 +9505,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Loop",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Loop",
           "name": "forLoop",
           "normalized": "Data Length-\u003ea-\u003e(Data Index-\u003ea-\u003ea)-\u003ea",
@@ -8761,6 +9521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Loop",
           "name": "forM",
           "package": "feldspar-language",
@@ -8770,6 +9531,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Loop",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Loop",
           "name": "forM",
           "normalized": "Data Length-\u003e(Data Index-\u003eM a)-\u003eM()",
@@ -8784,6 +9546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Loop",
           "name": "whileLoop",
           "package": "feldspar-language",
@@ -8793,6 +9556,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Loop",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Loop",
           "name": "whileLoop",
           "normalized": "a-\u003e(a-\u003eData Bool)-\u003e(a-\u003ea)-\u003ea",
@@ -8808,6 +9572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Loop",
           "name": "whileM",
           "package": "feldspar-language",
@@ -8817,6 +9582,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Loop",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Loop",
           "name": "whileM",
           "normalized": "M(Data Bool)-\u003eM a-\u003eM()",
@@ -8831,6 +9597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Mutable",
           "name": "Mutable",
           "package": "feldspar-language",
@@ -8839,6 +9606,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Mutable",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Mutable",
           "name": "Mutable",
           "package": "feldspar-language",
@@ -8852,6 +9620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Mutable",
           "name": "M",
           "package": "feldspar-language",
@@ -8860,6 +9629,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Mutable",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Mutable",
           "name": "M",
           "package": "feldspar-language",
@@ -8872,6 +9642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Mutable",
           "name": "M",
           "package": "feldspar-language",
@@ -8881,6 +9652,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Mutable",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Mutable",
           "name": "M",
           "package": "feldspar-language",
@@ -8893,6 +9665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Mutable",
           "name": "runMutable",
           "package": "feldspar-language",
@@ -8902,6 +9675,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Mutable",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Mutable",
           "name": "runMutable",
           "normalized": "M a-\u003ea",
@@ -8917,6 +9691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Mutable",
           "name": "unM",
           "package": "feldspar-language",
@@ -8926,6 +9701,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Mutable",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Mutable",
           "name": "unM",
           "package": "feldspar-language",
@@ -8938,6 +9714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Mutable",
           "name": "unless",
           "package": "feldspar-language",
@@ -8947,6 +9724,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Mutable",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Mutable",
           "name": "unless",
           "normalized": "Data Bool-\u003eM()-\u003eM()",
@@ -8961,6 +9739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Mutable",
           "name": "when",
           "package": "feldspar-language",
@@ -8970,6 +9749,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Mutable",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Mutable",
           "name": "when",
           "normalized": "Data Bool-\u003eM()-\u003eM()",
@@ -8984,6 +9764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "MutableArray",
           "package": "feldspar-language",
@@ -8992,6 +9773,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "MutableArray",
           "package": "feldspar-language",
@@ -9005,6 +9787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "arrLength",
           "package": "feldspar-language",
@@ -9014,6 +9797,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "arrLength",
           "normalized": "Data(MArr a)-\u003eM(Data Length)",
@@ -9029,6 +9813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "forArr",
           "package": "feldspar-language",
@@ -9038,6 +9823,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "forArr",
           "normalized": "Data Length-\u003e(Data Index-\u003eM a)-\u003eM()",
@@ -9053,6 +9839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "getArr",
           "package": "feldspar-language",
@@ -9062,6 +9849,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "getArr",
           "normalized": "Data(MArr a)-\u003eData Index-\u003eM(Data a)",
@@ -9077,6 +9865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "mapArray",
           "package": "feldspar-language",
@@ -9086,6 +9875,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "mapArray",
           "normalized": "(Data a-\u003eData a)-\u003eData(MArr a)-\u003eM(Data(MArr a))",
@@ -9101,6 +9891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "modifyArr",
           "package": "feldspar-language",
@@ -9110,6 +9901,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "modifyArr",
           "normalized": "Data(MArr a)-\u003eData Index-\u003e(Data a-\u003eData a)-\u003eM()",
@@ -9125,6 +9917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "newArr",
           "package": "feldspar-language",
@@ -9134,6 +9927,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "newArr",
           "normalized": "Data Length-\u003eData a-\u003eM(Data(MArr a))",
@@ -9149,6 +9943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "newArr_",
           "package": "feldspar-language",
@@ -9158,6 +9953,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "newArr_",
           "normalized": "Data Length-\u003eM(Data(MArr a))",
@@ -9173,6 +9969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "newListArr",
           "package": "feldspar-language",
@@ -9182,6 +9979,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "newListArr",
           "normalized": "[Data a]-\u003eM(Data(MArr a))",
@@ -9197,6 +9995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "setArr",
           "package": "feldspar-language",
@@ -9206,6 +10005,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "setArr",
           "normalized": "Data(MArr a)-\u003eData Index-\u003eData a-\u003eM()",
@@ -9221,6 +10021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "swap",
           "package": "feldspar-language",
@@ -9230,6 +10031,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableArray",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableArray",
           "name": "swap",
           "normalized": "Data(MArr(Internal a))-\u003eData Index-\u003eData Index-\u003eM()",
@@ -9244,6 +10046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "MutableReference",
           "package": "feldspar-language",
@@ -9252,6 +10055,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableReference",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "MutableReference",
           "package": "feldspar-language",
@@ -9265,6 +10069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "Ref",
           "package": "feldspar-language",
@@ -9273,6 +10078,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableReference",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "Ref",
           "package": "feldspar-language",
@@ -9286,6 +10092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "Ref",
           "package": "feldspar-language",
@@ -9295,6 +10102,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableReference",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "Ref",
           "package": "feldspar-language",
@@ -9308,6 +10116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "getRef",
           "package": "feldspar-language",
@@ -9317,6 +10126,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableReference",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "getRef",
           "normalized": "Ref a-\u003eM a",
@@ -9332,6 +10142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "modifyRef",
           "package": "feldspar-language",
@@ -9341,6 +10152,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableReference",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "modifyRef",
           "normalized": "Ref a-\u003e(a-\u003ea)-\u003eM()",
@@ -9356,6 +10168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "newRef",
           "package": "feldspar-language",
@@ -9365,6 +10178,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableReference",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "newRef",
           "normalized": "a-\u003eM(Ref a)",
@@ -9380,6 +10194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "setRef",
           "package": "feldspar-language",
@@ -9389,6 +10204,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableReference",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "setRef",
           "normalized": "Ref a-\u003ea-\u003eM()",
@@ -9404,6 +10220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "unRef",
           "package": "feldspar-language",
@@ -9413,6 +10230,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableReference",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableReference",
           "name": "unRef",
           "package": "feldspar-language",
@@ -9426,6 +10244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableToPure",
           "name": "MutableToPure",
           "package": "feldspar-language",
@@ -9434,6 +10253,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableToPure",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableToPure",
           "name": "MutableToPure",
           "package": "feldspar-language",
@@ -9447,6 +10267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableToPure",
           "name": "freezeArray",
           "package": "feldspar-language",
@@ -9456,6 +10277,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableToPure",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableToPure",
           "name": "freezeArray",
           "normalized": "Data(MArr a)-\u003eM(Data[a])",
@@ -9471,6 +10293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableToPure",
           "name": "runMutableArray",
           "package": "feldspar-language",
@@ -9480,6 +10303,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableToPure",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableToPure",
           "name": "runMutableArray",
           "normalized": "M(Data(MArr a))-\u003eData[a]",
@@ -9495,6 +10319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableToPure",
           "name": "thawArray",
           "package": "feldspar-language",
@@ -9504,6 +10329,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableToPure",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableToPure",
           "name": "thawArray",
           "normalized": "Data[a]-\u003eM(Data(MArr a))",
@@ -9519,6 +10345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.MutableToPure",
           "name": "withArray",
           "package": "feldspar-language",
@@ -9528,6 +10355,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend MutableToPure",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.MutableToPure",
           "name": "withArray",
           "normalized": "Data(MArr a)-\u003e(Data[a]-\u003eM b)-\u003eM b",
@@ -9543,6 +10371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.NoInline",
           "name": "NoInline",
           "package": "feldspar-language",
@@ -9551,6 +10380,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend NoInline",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.NoInline",
           "name": "NoInline",
           "package": "feldspar-language",
@@ -9564,6 +10394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.NoInline",
           "name": "noInline",
           "package": "feldspar-language",
@@ -9573,6 +10404,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend NoInline",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.NoInline",
           "name": "noInline",
           "normalized": "a-\u003ea",
@@ -9588,6 +10420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "Num",
           "package": "feldspar-language",
@@ -9596,6 +10429,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "Num",
           "package": "feldspar-language",
@@ -9609,6 +10443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "Numeric",
           "package": "feldspar-language",
@@ -9617,6 +10452,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "Numeric",
           "package": "feldspar-language",
@@ -9630,6 +10466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "absNum",
           "package": "feldspar-language",
@@ -9639,6 +10476,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "absNum",
           "normalized": "Data a-\u003eData a",
@@ -9654,6 +10492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "addNum",
           "package": "feldspar-language",
@@ -9663,6 +10502,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "addNum",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -9678,6 +10518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "fromIntegerNum",
           "package": "feldspar-language",
@@ -9687,6 +10528,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "fromIntegerNum",
           "normalized": "Integer-\u003eData a",
@@ -9702,6 +10544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "mulNum",
           "package": "feldspar-language",
@@ -9711,6 +10554,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "mulNum",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -9726,6 +10570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "signumNum",
           "package": "feldspar-language",
@@ -9735,6 +10580,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "signumNum",
           "normalized": "Data a-\u003eData a",
@@ -9750,6 +10596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "subNum",
           "package": "feldspar-language",
@@ -9759,6 +10606,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Num",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Num",
           "name": "subNum",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -9774,6 +10622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "Ord",
           "package": "feldspar-language",
@@ -9782,6 +10631,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "Ord",
           "package": "feldspar-language",
@@ -9796,6 +10646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedefinition of the standard \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e class for Feldspar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "Ord",
           "package": "feldspar-language",
@@ -9805,6 +10656,7 @@
         "index": {
           "description": "Redefinition of the standard Ord class for Feldspar",
           "hierarchy": "Feldspar Core Frontend Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "Ord",
           "package": "feldspar-language",
@@ -9818,6 +10670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "(\u003c)",
           "package": "feldspar-language",
@@ -9827,6 +10680,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "(\u003c) \u003c",
           "normalized": "Data a-\u003eData a-\u003eData Bool",
@@ -9841,6 +10695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "(\u003c=)",
           "package": "feldspar-language",
@@ -9850,6 +10705,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "(\u003c=) \u003c=",
           "normalized": "Data a-\u003eData a-\u003eData Bool",
@@ -9864,6 +10720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "(\u003e)",
           "package": "feldspar-language",
@@ -9873,6 +10730,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "(\u003e) \u003e",
           "normalized": "Data a-\u003eData a-\u003eData Bool",
@@ -9887,6 +10745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "(\u003e=)",
           "package": "feldspar-language",
@@ -9896,6 +10755,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "(\u003e=) \u003e=",
           "normalized": "Data a-\u003eData a-\u003eData Bool",
@@ -9910,6 +10770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "max",
           "package": "feldspar-language",
@@ -9919,6 +10780,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "max",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -9933,6 +10795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "min",
           "package": "feldspar-language",
@@ -9942,6 +10805,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Ord",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Ord",
           "name": "min",
           "normalized": "Data a-\u003eData a-\u003eData a",
@@ -9956,6 +10820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Par",
           "name": "Par",
           "package": "feldspar-language",
@@ -9964,6 +10829,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Par",
           "name": "Par",
           "package": "feldspar-language",
@@ -9977,6 +10843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Par",
           "name": "IVar",
           "package": "feldspar-language",
@@ -9985,6 +10852,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Par",
           "name": "IVar",
           "package": "feldspar-language",
@@ -9998,6 +10866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Par",
           "name": "P",
           "package": "feldspar-language",
@@ -10006,6 +10875,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Par",
           "name": "P",
           "package": "feldspar-language",
@@ -10018,6 +10888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Par",
           "name": "IVar",
           "package": "feldspar-language",
@@ -10027,6 +10898,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Par",
           "name": "IVar",
           "package": "feldspar-language",
@@ -10040,6 +10912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Par",
           "name": "P",
           "package": "feldspar-language",
@@ -10049,6 +10922,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Par",
           "name": "P",
           "package": "feldspar-language",
@@ -10061,6 +10935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Par",
           "name": "unIVar",
           "package": "feldspar-language",
@@ -10070,6 +10945,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Par",
           "name": "unIVar",
           "package": "feldspar-language",
@@ -10083,6 +10959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Par",
           "name": "unP",
           "package": "feldspar-language",
@@ -10092,6 +10969,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Par",
           "name": "unP",
           "package": "feldspar-language",
@@ -10105,6 +10983,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTracing execution of Feldspar expressions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Save",
           "name": "Save",
           "package": "feldspar-language",
@@ -10114,6 +10993,7 @@
         "index": {
           "description": "Tracing execution of Feldspar expressions",
           "hierarchy": "Feldspar Core Frontend Save",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Save",
           "name": "Save",
           "package": "feldspar-language",
@@ -10128,6 +11008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003esave\u003c/a\u003e\u003c/code\u003e. When applied to a lazy data structure, \u003ccode\u003e\u003ca\u003eforce\u003c/a\u003e\u003c/code\u003e (and\n \u003ccode\u003e\u003ca\u003esave\u003c/a\u003e\u003c/code\u003e) has the effect of forcing evaluation of the whole structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Save",
           "name": "force",
           "package": "feldspar-language",
@@ -10138,6 +11019,7 @@
         "index": {
           "description": "Equivalent to save When applied to lazy data structure force and save has the effect of forcing evaluation of the whole structure",
           "hierarchy": "Feldspar Core Frontend Save",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Save",
           "name": "force",
           "normalized": "a-\u003ea",
@@ -10153,6 +11035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identity function that guarantees that the result will be computed as a\n sub-result of the whole program. This is useful to prevent certain\n optimizations.\n\u003c/p\u003e\u003cp\u003eException: Currently constant folding does not respect \u003ccode\u003e\u003ca\u003esave\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Save",
           "name": "save",
           "package": "feldspar-language",
@@ -10163,6 +11046,7 @@
         "index": {
           "description": "An identity function that guarantees that the result will be computed as sub-result of the whole program This is useful to prevent certain optimizations Exception Currently constant folding does not respect save",
           "hierarchy": "Feldspar Core Frontend Save",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Save",
           "name": "save",
           "normalized": "a-\u003ea",
@@ -10177,6 +11061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Select",
           "name": "Select",
           "package": "feldspar-language",
@@ -10185,6 +11070,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Select",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Select",
           "name": "Select",
           "package": "feldspar-language",
@@ -10199,6 +11085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect between the cases based on the value of the scrutinee.\n TODO: This implementation should be replaces by a proper construct\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Select",
           "name": "select",
           "package": "feldspar-language",
@@ -10209,6 +11096,7 @@
         "index": {
           "description": "Select between the cases based on the value of the scrutinee TODO This implementation should be replaces by proper construct",
           "hierarchy": "Feldspar Core Frontend Select",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Select",
           "name": "select",
           "normalized": "Data a-\u003e[(Data a,b)]-\u003eb-\u003eb",
@@ -10224,6 +11112,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe functions in this module can be used to help size inference (which, in\n turn, helps deriving upper bounds of array sizes and helps optimization).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.SizeProp",
           "name": "SizeProp",
           "package": "feldspar-language",
@@ -10233,6 +11122,7 @@
         "index": {
           "description": "The functions in this module can be used to help size inference which in turn helps deriving upper bounds of array sizes and helps optimization",
           "hierarchy": "Feldspar Core Frontend SizeProp",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.SizeProp",
           "name": "SizeProp",
           "package": "feldspar-language",
@@ -10247,6 +11137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identity function affecting the abstract size information used during\n optimization. The application of a \u003ccode\u003e\u003ca\u003eSizeCap\u003c/a\u003e\u003c/code\u003e is a \u003cem\u003eguarantee\u003c/em\u003e (by the caller)\n that the argument is within a certain size (determined by the creator of the\n \u003ccode\u003e\u003ca\u003eSizeCap\u003c/a\u003e\u003c/code\u003e, e.g. \u003ccode\u003e\u003ca\u003esizeProp\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eWarning: If the guarantee is not fulfilled, optimizations become unsound!\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eIn general, the size of the resulting value is the intersection of the cap\n size and the size obtained by ordinary size inference. That is, a \u003ccode\u003e\u003ca\u003eSizeCap\u003c/a\u003e\u003c/code\u003e\n can only make the size more precise, not less precise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.SizeProp",
           "name": "SizeCap",
           "package": "feldspar-language",
@@ -10256,6 +11147,7 @@
         "index": {
           "description": "An identity function affecting the abstract size information used during optimization The application of SizeCap is guarantee by the caller that the argument is within certain size determined by the creator of the SizeCap e.g sizeProp Warning If the guarantee is not fulfilled optimizations become unsound In general the size of the resulting value is the intersection of the cap size and the size obtained by ordinary size inference That is SizeCap can only make the size more precise not less precise",
           "hierarchy": "Feldspar Core Frontend SizeProp",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.SizeProp",
           "name": "SizeCap",
           "package": "feldspar-language",
@@ -10270,6 +11162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebetween l u a\u003c/code\u003e: A guarantee that \u003ccode\u003el \u003c= a \u003c= u\u003c/code\u003e holds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.SizeProp",
           "name": "between",
           "package": "feldspar-language",
@@ -10280,6 +11173,7 @@
         "index": {
           "description": "between guarantee that holds",
           "hierarchy": "Feldspar Core Frontend SizeProp",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.SizeProp",
           "name": "between",
           "normalized": "Data a-\u003eData a-\u003eSizeCap a",
@@ -10295,6 +11189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA guarantee that the argument is within the given size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.SizeProp",
           "name": "cap",
           "package": "feldspar-language",
@@ -10305,6 +11200,7 @@
         "index": {
           "description": "guarantee that the argument is within the given size",
           "hierarchy": "Feldspar Core Frontend SizeProp",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.SizeProp",
           "name": "cap",
           "normalized": "Size a-\u003eSizeCap a",
@@ -10320,6 +11216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enotAbove a b\u003c/code\u003e: A guarantee that \u003ccode\u003eb \u003c= a\u003c/code\u003e holds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.SizeProp",
           "name": "notAbove",
           "package": "feldspar-language",
@@ -10330,6 +11227,7 @@
         "index": {
           "description": "notAbove guarantee that holds",
           "hierarchy": "Feldspar Core Frontend SizeProp",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.SizeProp",
           "name": "notAbove",
           "normalized": "Data a-\u003eSizeCap a",
@@ -10346,6 +11244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enotBelow a b\u003c/code\u003e: A guarantee that \u003ccode\u003eb \u003e= a\u003c/code\u003e holds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.SizeProp",
           "name": "notBelow",
           "package": "feldspar-language",
@@ -10356,6 +11255,7 @@
         "index": {
           "description": "notBelow guarantee that holds",
           "hierarchy": "Feldspar Core Frontend SizeProp",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.SizeProp",
           "name": "notBelow",
           "normalized": "Data a-\u003eSizeCap a",
@@ -10372,6 +11272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esizeProp prop a b\u003c/code\u003e: A guarantee that \u003ccode\u003eb\u003c/code\u003e is within the size \u003ccode\u003e(prop sa)\u003c/code\u003e,\n where \u003ccode\u003esa\u003c/code\u003e is the size of \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.SizeProp",
           "name": "sizeProp",
           "package": "feldspar-language",
@@ -10382,6 +11283,7 @@
         "index": {
           "description": "sizeProp prop guarantee that is within the size prop sa where sa is the size of",
           "hierarchy": "Feldspar Core Frontend SizeProp",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.SizeProp",
           "name": "sizeProp",
           "normalized": "(Size(Internal a)-\u003eSize b)-\u003ea-\u003eSizeCap b",
@@ -10398,6 +11300,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSource-code annotations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.SourceInfo",
           "name": "SourceInfo",
           "package": "feldspar-language",
@@ -10407,6 +11310,7 @@
         "index": {
           "description": "Source-code annotations",
           "hierarchy": "Feldspar Core Frontend SourceInfo",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.SourceInfo",
           "name": "SourceInfo",
           "package": "feldspar-language",
@@ -10421,6 +11325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate an expression with information about its source code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.SourceInfo",
           "name": "sourceData",
           "package": "feldspar-language",
@@ -10431,6 +11336,7 @@
         "index": {
           "description": "Annotate an expression with information about its source code",
           "hierarchy": "Feldspar Core Frontend SourceInfo",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.SourceInfo",
           "name": "sourceData",
           "normalized": "SourceInfo a-\u003eData a-\u003eData a",
@@ -10447,6 +11353,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTracing execution of Feldspar expressions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Trace",
           "name": "Trace",
           "package": "feldspar-language",
@@ -10456,6 +11363,7 @@
         "index": {
           "description": "Tracing execution of Feldspar expressions",
           "hierarchy": "Feldspar Core Frontend Trace",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Trace",
           "name": "Trace",
           "package": "feldspar-language",
@@ -10470,6 +11378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTracing execution of an expression. Semantically, this is the identity\n function, but a back end may treat this function specially, for example write\n its arguments to a log.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Trace",
           "name": "trace",
           "package": "feldspar-language",
@@ -10480,6 +11389,7 @@
         "index": {
           "description": "Tracing execution of an expression Semantically this is the identity function but back end may treat this function specially for example write its arguments to log",
           "hierarchy": "Feldspar Core Frontend Trace",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Trace",
           "name": "trace",
           "normalized": "Int-\u003eData a-\u003eData a",
@@ -10494,6 +11404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend.Tuple",
           "name": "Tuple",
           "package": "feldspar-language",
@@ -10502,6 +11413,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend Tuple",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend.Tuple",
           "name": "Tuple",
           "package": "feldspar-language",
@@ -10515,6 +11427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "Frontend",
           "package": "feldspar-language",
@@ -10523,6 +11436,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "Frontend",
           "package": "feldspar-language",
@@ -10536,6 +11450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "Data",
           "package": "feldspar-language",
@@ -10544,6 +11459,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "Data",
           "package": "feldspar-language",
@@ -10557,6 +11473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "FeldDomainAll",
           "package": "feldspar-language",
@@ -10565,6 +11482,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "FeldDomainAll",
           "package": "feldspar-language",
@@ -10578,6 +11496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "Internal",
           "package": "feldspar-language",
@@ -10586,6 +11505,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "Internal",
           "package": "feldspar-language",
@@ -10600,6 +11520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is usually assumed that \u003ccode\u003e(\u003ccode\u003e\u003ca\u003edesugar\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003esugar\u003c/a\u003e\u003c/code\u003e a))\u003c/code\u003e has the same meaning\n as \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "Syntactic",
           "package": "feldspar-language",
@@ -10608,6 +11529,7 @@
         "index": {
           "description": "It is usually assumed that desugar sugar has the same meaning as",
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "Syntactic",
           "package": "feldspar-language",
@@ -10621,6 +11543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "SyntacticFeld",
           "package": "feldspar-language",
@@ -10629,6 +11552,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "SyntacticFeld",
           "package": "feldspar-language",
@@ -10643,6 +11567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialization of the \u003ccode\u003e\u003ca\u003eSyntactic\u003c/a\u003e\u003c/code\u003e class for the Feldspar domain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "Syntax",
           "package": "feldspar-language",
@@ -10652,6 +11577,7 @@
         "index": {
           "description": "Specialization of the Syntactic class for the Feldspar domain",
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "Syntax",
           "package": "feldspar-language",
@@ -10665,6 +11591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "(===)",
           "package": "feldspar-language",
@@ -10674,6 +11601,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "(===) ===",
           "normalized": "a-\u003ea-\u003eProperty",
@@ -10688,6 +11616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "(===\u003e)",
           "package": "feldspar-language",
@@ -10697,6 +11626,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "(===\u003e) ===\u003e",
           "normalized": "Data Bool-\u003ea-\u003eProperty",
@@ -10711,6 +11641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "desugar",
           "package": "feldspar-language",
@@ -10720,6 +11651,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "desugar",
           "normalized": "a-\u003eData(Internal a)",
@@ -10734,6 +11666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "drawAST",
           "package": "feldspar-language",
@@ -10743,6 +11676,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "drawAST",
           "normalized": "a-\u003eIO()",
@@ -10759,6 +11693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a syntax tree decorated with type and size information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "drawDecor",
           "package": "feldspar-language",
@@ -10769,6 +11704,7 @@
         "index": {
           "description": "Draw syntax tree decorated with type and size information",
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "drawDecor",
           "normalized": "a-\u003eIO()",
@@ -10784,6 +11720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "eval",
           "package": "feldspar-language",
@@ -10793,6 +11730,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "eval",
           "normalized": "a-\u003eInternal a",
@@ -10807,6 +11745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "evalTarget",
           "package": "feldspar-language",
@@ -10816,6 +11755,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "evalTarget",
           "normalized": "BitWidth a-\u003eb-\u003eInternal b",
@@ -10832,6 +11772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteger logarithm in base 2\n   Based on an algorithm in Hacker's Delight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "ilog2",
           "package": "feldspar-language",
@@ -10842,6 +11783,7 @@
         "index": {
           "description": "Integer logarithm in base Based on an algorithm in Hacker Delight",
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "ilog2",
           "normalized": "Data a-\u003eData Index",
@@ -10857,6 +11799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount leading zeros\n   Based on an algorithm in Hacker's Delight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "nlz",
           "package": "feldspar-language",
@@ -10867,6 +11810,7 @@
         "index": {
           "description": "Count leading zeros Based on an algorithm in Hacker Delight",
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "nlz",
           "normalized": "Data a-\u003eData Index",
@@ -10881,6 +11825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "printExpr",
           "package": "feldspar-language",
@@ -10890,6 +11835,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "printExpr",
           "normalized": "a-\u003eIO()",
@@ -10906,6 +11852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReification and optimization of a Feldspar program\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "reifyFeld",
           "package": "feldspar-language",
@@ -10916,6 +11863,7 @@
         "index": {
           "description": "Reification and optimization of Feldspar program",
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "reifyFeld",
           "normalized": "BitWidth a-\u003eb-\u003eASTF(Decor Info FeldDomain)(Internal b)",
@@ -10931,6 +11879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "resugar",
           "package": "feldspar-language",
@@ -10940,6 +11889,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "resugar",
           "normalized": "a-\u003eb",
@@ -10954,6 +11904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "showAST",
           "package": "feldspar-language",
@@ -10963,6 +11914,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "showAST",
           "normalized": "a-\u003eString",
@@ -10979,6 +11931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a syntax tree decorated with type and size information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "showDecor",
           "package": "feldspar-language",
@@ -10989,6 +11942,7 @@
         "index": {
           "description": "Draw syntax tree decorated with type and size information",
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "showDecor",
           "normalized": "a-\u003eString",
@@ -11004,6 +11958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "showExpr",
           "package": "feldspar-language",
@@ -11013,6 +11968,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "showExpr",
           "normalized": "a-\u003eString",
@@ -11028,6 +11984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "sugar",
           "package": "feldspar-language",
@@ -11037,6 +11994,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "sugar",
           "normalized": "Data(Internal a)-\u003ea",
@@ -11051,6 +12009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "tArr1",
           "package": "feldspar-language",
@@ -11060,6 +12019,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "tArr1",
           "normalized": "Patch a a-\u003ePatch(Data[a])(Data[a])",
@@ -11075,6 +12035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "tArr2",
           "package": "feldspar-language",
@@ -11084,6 +12045,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "tArr2",
           "normalized": "Patch a a-\u003ePatch(Data[[a]])(Data[[a]])",
@@ -11099,6 +12061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "tData",
           "package": "feldspar-language",
@@ -11108,6 +12071,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "tData",
           "normalized": "Patch a a-\u003ePatch(Data a)(Data a)",
@@ -11123,6 +12087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Frontend",
           "name": "tM",
           "package": "feldspar-language",
@@ -11132,6 +12097,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Frontend",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Frontend",
           "name": "tM",
           "normalized": "Patch a a-\u003ePatch(M a)(M a)",
@@ -11147,6 +12113,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWitness \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e constraints\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation.Typed",
           "name": "Typed",
           "package": "feldspar-language",
@@ -11156,6 +12123,7 @@
         "index": {
           "description": "Witness Type constraints",
           "hierarchy": "Feldspar Core Interpretation Typed",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation.Typed",
           "name": "Typed",
           "package": "feldspar-language",
@@ -11170,6 +12138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass representing a possible dictionary to witness a \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e\n constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation.Typed",
           "name": "Typed",
           "package": "feldspar-language",
@@ -11179,6 +12148,7 @@
         "index": {
           "description": "Class representing possible dictionary to witness Type constraint",
           "hierarchy": "Feldspar Core Interpretation Typed",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation.Typed",
           "name": "Typed",
           "package": "feldspar-language",
@@ -11193,6 +12163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a possible \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e constraint witness from an \u003ccode\u003e\u003ca\u003eAST\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation.Typed",
           "name": "typeDict",
           "package": "feldspar-language",
@@ -11203,6 +12174,7 @@
         "index": {
           "description": "Extract possible Type constraint witness from an AST",
           "hierarchy": "Feldspar Core Interpretation Typed",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation.Typed",
           "name": "typeDict",
           "normalized": "ASTF a b-\u003eMaybe(Dict(Type b))",
@@ -11218,6 +12190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation.Typed",
           "name": "typeDictSym",
           "package": "feldspar-language",
@@ -11227,6 +12200,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation Typed",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation.Typed",
           "name": "typeDictSym",
           "normalized": "a b-\u003eMaybe(Dict(Type(DenResult b)))",
@@ -11243,6 +12217,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines different interpretations of Feldspar programs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "Interpretation",
           "package": "feldspar-language",
@@ -11252,6 +12227,7 @@
         "index": {
           "description": "Defines different interpretations of Feldspar programs",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "Interpretation",
           "package": "feldspar-language",
@@ -11265,6 +12241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "Env",
           "package": "feldspar-language",
@@ -11273,6 +12250,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "Env",
           "package": "feldspar-language",
@@ -11287,6 +12265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType and size information of a Feldspar program\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "Info",
           "package": "feldspar-language",
@@ -11296,6 +12275,7 @@
         "index": {
           "description": "Type and size information of Feldspar program",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "Info",
           "package": "feldspar-language",
@@ -11310,6 +12290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is used to allow constructs to be abstract in the monad. Its\n purpose is similar to that of \u003ccode\u003e\u003ca\u003eMonadType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "LatticeSize1",
           "package": "feldspar-language",
@@ -11319,6 +12300,7 @@
         "index": {
           "description": "This class is used to allow constructs to be abstract in the monad Its purpose is similar to that of MonadType",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "LatticeSize1",
           "package": "feldspar-language",
@@ -11333,6 +12315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnvironment for optimization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "Opt",
           "package": "feldspar-language",
@@ -11342,6 +12325,7 @@
         "index": {
           "description": "Environment for optimization",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "Opt",
           "package": "feldspar-language",
@@ -11356,6 +12340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic optimization of a feature\n\u003c/p\u003e\u003cp\u003eThis optimization is similar to \u003ccode\u003e\u003ca\u003eOptimize\u003c/a\u003e\u003c/code\u003e, but it also performs size\n inference. Size inference has to be done simultaneously with other\n optimizations in order to avoid iterating the phases. (Size information may\n help optimization and optimization may help size inference.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "Optimize",
           "package": "feldspar-language",
@@ -11365,6 +12350,7 @@
         "index": {
           "description": "Basic optimization of feature This optimization is similar to Optimize but it also performs size inference Size inference has to be done simultaneously with other optimizations in order to avoid iterating the phases Size information may help optimization and optimization may help size inference",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "Optimize",
           "package": "feldspar-language",
@@ -11378,6 +12364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "OptimizeSuper",
           "package": "feldspar-language",
@@ -11386,6 +12373,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "OptimizeSuper",
           "package": "feldspar-language",
@@ -11400,6 +12388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndication whether a symbol is sharable or not\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "Sharable",
           "package": "feldspar-language",
@@ -11409,6 +12398,7 @@
         "index": {
           "description": "Indication whether symbol is sharable or not",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "Sharable",
           "package": "feldspar-language",
@@ -11423,6 +12413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForwards size propagation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "SizeProp",
           "package": "feldspar-language",
@@ -11432,6 +12423,7 @@
         "index": {
           "description": "Forwards size propagation",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "SizeProp",
           "package": "feldspar-language",
@@ -11446,6 +12438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInfo\u003c/a\u003e\u003c/code\u003e with hidden result type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "SomeInfo",
           "package": "feldspar-language",
@@ -11455,6 +12448,7 @@
         "index": {
           "description": "Info with hidden result type",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "SomeInfo",
           "package": "feldspar-language",
@@ -11468,6 +12462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "SomeType",
           "package": "feldspar-language",
@@ -11476,6 +12471,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "SomeType",
           "package": "feldspar-language",
@@ -11490,6 +12486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about the source code of an expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "SourceInfo",
           "package": "feldspar-language",
@@ -11499,6 +12496,7 @@
         "index": {
           "description": "Information about the source code of an expression",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "SourceInfo",
           "package": "feldspar-language",
@@ -11512,6 +12510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "Env",
           "package": "feldspar-language",
@@ -11521,6 +12520,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "Env",
           "package": "feldspar-language",
@@ -11534,6 +12534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "Info",
           "package": "feldspar-language",
@@ -11543,6 +12544,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "Info",
           "normalized": "TypeRep a-\u003eSize a-\u003eVarInfo-\u003eSourceInfo-\u003eInfo a",
@@ -11558,6 +12560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "SomeInfo",
           "package": "feldspar-language",
@@ -11567,6 +12570,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "SomeInfo",
           "normalized": "Info a-\u003eSomeInfo",
@@ -11582,6 +12586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "SomeType",
           "package": "feldspar-language",
@@ -11591,6 +12596,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "SomeType",
           "normalized": "TypeRep a-\u003eSomeType",
@@ -11606,6 +12612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "c'",
           "package": "feldspar-language",
@@ -11615,6 +12622,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "c'",
           "normalized": "a b-\u003e(a Type)b",
@@ -11630,6 +12638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces an expression with a literal if the type permits, otherwise\n returns the expression unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "constFold",
           "package": "feldspar-language",
@@ -11640,6 +12649,7 @@
         "index": {
           "description": "Replaces an expression with literal if the type permits otherwise returns the expression unchanged",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "constFold",
           "normalized": "SourceInfo-\u003eASTF(Decor Info(a Typeable))b-\u003eb-\u003eASTF(Decor Info(a Typeable))b",
@@ -11656,6 +12666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimized construction of an expression from a symbol and its optimized\n arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "constructFeat",
           "package": "feldspar-language",
@@ -11666,6 +12677,7 @@
         "index": {
           "description": "Optimized construction of an expression from symbol and its optimized arguments",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "constructFeat",
           "normalized": "a b-\u003eArgs(AST(Decor Info(c Typeable)))b-\u003eOpt(ASTF(Decor Info(c Typeable))(DenResult b))",
@@ -11682,6 +12694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimized construction of an expression from a symbol and its optimized\n arguments\n\u003c/p\u003e\u003cp\u003eNote: This function should normally not be called directly. Instead, use\n \u003ccode\u003e\u003ca\u003econstructFeat\u003c/a\u003e\u003c/code\u003e which has more accurate propagation of \u003ccode\u003e\u003ca\u003eInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "constructFeatOpt",
           "package": "feldspar-language",
@@ -11692,6 +12705,7 @@
         "index": {
           "description": "Optimized construction of an expression from symbol and its optimized arguments Note This function should normally not be called directly Instead use constructFeat which has more accurate propagation of Info",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "constructFeatOpt",
           "normalized": "a b-\u003eArgs(AST(Decor Info(c Typeable)))b-\u003eOpt(ASTF(Decor Info(c Typeable))(DenResult b))",
@@ -11708,6 +12722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnoptimized construction of an expression from a symbol and its\n optimized arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "constructFeatUnOpt",
           "package": "feldspar-language",
@@ -11718,6 +12733,7 @@
         "index": {
           "description": "Unoptimized construction of an expression from symbol and its optimized arguments",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "constructFeatUnOpt",
           "normalized": "a b-\u003eArgs(AST(Decor Info(c Typeable)))b-\u003eOpt(ASTF(Decor Info(c Typeable))(DenResult b))",
@@ -11734,6 +12750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003econstructFeatUnOptDefaultTyp\u003c/a\u003e\u003c/code\u003e but without an explicit \u003ccode\u003e\u003ca\u003eTypeRep\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "constructFeatUnOptDefault",
           "package": "feldspar-language",
@@ -11744,6 +12761,7 @@
         "index": {
           "description": "Like constructFeatUnOptDefaultTyp but without an explicit TypeRep",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "constructFeatUnOptDefault",
           "normalized": "a b-\u003eArgs(AST(Decor Info(c Typeable)))b-\u003eOpt(ASTF(Decor Info(c Typeable))(DenResult b))",
@@ -11760,6 +12778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient default implementation of \u003ccode\u003e\u003ca\u003econstructFeatUnOpt\u003c/a\u003e\u003c/code\u003e. Uses \u003ccode\u003e\u003ca\u003esizeProp\u003c/a\u003e\u003c/code\u003e\n to propagate size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "constructFeatUnOptDefaultTyp",
           "package": "feldspar-language",
@@ -11770,6 +12789,7 @@
         "index": {
           "description": "Convenient default implementation of constructFeatUnOpt Uses sizeProp to propagate size",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "constructFeatUnOptDefaultTyp",
           "normalized": "TypeRep(DenResult a)-\u003eb a-\u003eArgs(AST(Decor Info(c Typeable)))a-\u003eOpt(ASTF(Decor Info(c Typeable))(DenResult a))",
@@ -11785,6 +12805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "infoRange",
           "package": "feldspar-language",
@@ -11794,6 +12815,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "infoRange",
           "normalized": "Info a-\u003eRangeSet a",
@@ -11809,6 +12831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "infoSize",
           "package": "feldspar-language",
@@ -11818,6 +12841,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "infoSize",
           "package": "feldspar-language",
@@ -11831,6 +12855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "infoSource",
           "package": "feldspar-language",
@@ -11840,6 +12865,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "infoSource",
           "package": "feldspar-language",
@@ -11853,6 +12879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "infoType",
           "package": "feldspar-language",
@@ -11862,6 +12889,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "infoType",
           "package": "feldspar-language",
@@ -11875,6 +12903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "infoVars",
           "package": "feldspar-language",
@@ -11884,6 +12913,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "infoVars",
           "package": "feldspar-language",
@@ -11898,6 +12928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eLiteral\u003c/a\u003e\u003c/code\u003e decorated with \u003ccode\u003e\u003ca\u003eInfo\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "literalDecor",
           "package": "feldspar-language",
@@ -11908,6 +12939,7 @@
         "index": {
           "description": "Construct Literal decorated with Info",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "literalDecor",
           "normalized": "a-\u003eASTF(Decor Info(b Typeable))a",
@@ -11924,6 +12956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the \u003ccode\u003e\u003ca\u003eSourceInfo\u003c/a\u003e\u003c/code\u003e environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "localSource",
           "package": "feldspar-language",
@@ -11934,6 +12967,7 @@
         "index": {
           "description": "Change the SourceInfo environment",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "localSource",
           "normalized": "SourceInfo-\u003eOpt a-\u003eOpt a",
@@ -11950,6 +12984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a variable into the environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "localVar",
           "package": "feldspar-language",
@@ -11960,6 +12995,7 @@
         "index": {
           "description": "Insert variable into the environment",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "localVar",
           "normalized": "VarId-\u003eInfo a-\u003eOpt b-\u003eOpt b",
@@ -11975,6 +13011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "mergeSize",
           "package": "feldspar-language",
@@ -11984,6 +13021,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "mergeSize",
           "normalized": "Info(a b)-\u003eSize(a b)-\u003eSize(a b)-\u003eSize(a b)",
@@ -11999,6 +13037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "mkInfo",
           "package": "feldspar-language",
@@ -12008,6 +13047,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "mkInfo",
           "normalized": "Size a-\u003eInfo a",
@@ -12023,6 +13063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "mkInfoTy",
           "package": "feldspar-language",
@@ -12032,6 +13073,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "mkInfoTy",
           "normalized": "TypeRep a-\u003eInfo a",
@@ -12048,6 +13090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimization of an expression. This function runs \u003ccode\u003e\u003ca\u003eoptimizeM\u003c/a\u003e\u003c/code\u003e and extracts\n the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "optimize",
           "package": "feldspar-language",
@@ -12058,6 +13101,7 @@
         "index": {
           "description": "Optimization of an expression This function runs optimizeM and extracts the result",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "optimize",
           "normalized": "ASTF(a Typeable)b-\u003eASTF(Decor Info(a Typeable))b",
@@ -12073,6 +13117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-down and bottom-up optimization of a feature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "optimizeFeat",
           "package": "feldspar-language",
@@ -12083,6 +13128,7 @@
         "index": {
           "description": "Top-down and bottom-up optimization of feature",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "optimizeFeat",
           "normalized": "a b-\u003eArgs(AST(c Typeable))b-\u003eOpt(ASTF(Decor Info(c Typeable))(DenResult b))",
@@ -12099,6 +13145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient default implementation of \u003ccode\u003e\u003ca\u003eoptimizeFeat\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "optimizeFeatDefault",
           "package": "feldspar-language",
@@ -12109,6 +13156,7 @@
         "index": {
           "description": "Convenient default implementation of optimizeFeat",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "optimizeFeatDefault",
           "normalized": "a b-\u003eArgs(AST(c Typeable))b-\u003eOpt(ASTF(Decor Info(c Typeable))(DenResult b))",
@@ -12125,6 +13173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimization of an expression\n\u003c/p\u003e\u003cp\u003eIn addition to running \u003ccode\u003e\u003ca\u003eoptimizeFeat\u003c/a\u003e\u003c/code\u003e, this function performs constant\n folding on all closed expressions, provided that the type permits making a\n literal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "optimizeM",
           "package": "feldspar-language",
@@ -12135,6 +13184,7 @@
         "index": {
           "description": "Optimization of an expression In addition to running optimizeFeat this function performs constant folding on all closed expressions provided that the type permits making literal",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "optimizeM",
           "normalized": "ASTF(a Typeable)b-\u003eOpt(ASTF(Decor Info(a Typeable))b)",
@@ -12149,6 +13199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "prjF",
           "package": "feldspar-language",
@@ -12158,6 +13209,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "prjF",
           "normalized": "a b-\u003eMaybe((c Type)b)",
@@ -12173,6 +13225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a type representation of a symbol's result type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "resultType",
           "package": "feldspar-language",
@@ -12183,6 +13236,7 @@
         "index": {
           "description": "Compute type representation of symbol result type",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "resultType",
           "normalized": "a b-\u003eTypeRep(DenResult b)",
@@ -12198,6 +13252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "sharable",
           "package": "feldspar-language",
@@ -12207,6 +13262,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "sharable",
           "normalized": "a b-\u003eBool",
@@ -12222,6 +13278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize propagation for a symbol given a list of argument sizes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "sizeProp",
           "package": "feldspar-language",
@@ -12232,6 +13289,7 @@
         "index": {
           "description": "Size propagation for symbol given list of argument sizes",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "sizeProp",
           "normalized": "a b-\u003eArgs(WrapFull Info)b-\u003eSize(DenResult b)",
@@ -12248,6 +13306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient default implementation of \u003ccode\u003e\u003ca\u003esizeProp\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "sizePropDefault",
           "package": "feldspar-language",
@@ -12258,6 +13317,7 @@
         "index": {
           "description": "Convenient default implementation of sizeProp",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "sizePropDefault",
           "normalized": "a b-\u003eArgs(WrapFull Info)b-\u003eSize(DenResult b)",
@@ -12273,6 +13333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "sourceEnv",
           "package": "feldspar-language",
@@ -12282,6 +13343,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "sourceEnv",
           "package": "feldspar-language",
@@ -12296,6 +13358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialize the program for a target platform with the given native bit\n width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "targetSpecialization",
           "package": "feldspar-language",
@@ -12306,6 +13369,7 @@
         "index": {
           "description": "Specialize the program for target platform with the given native bit width",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "targetSpecialization",
           "normalized": "BitWidth a-\u003eASTF b c-\u003eASTF b c",
@@ -12321,6 +13385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "varEnv",
           "package": "feldspar-language",
@@ -12330,6 +13395,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "varEnv",
           "normalized": "[(VarId,SomeInfo)]",
@@ -12346,6 +13412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt the expression is a literal, its value is returned, otherwise \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Interpretation",
           "name": "viewLiteral",
           "package": "feldspar-language",
@@ -12356,6 +13423,7 @@
         "index": {
           "description": "It the expression is literal its value is returned otherwise Nothing",
           "hierarchy": "Feldspar Core Interpretation",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Interpretation",
           "name": "viewLiteral",
           "normalized": "ASTF(Decor a(b Typeable))c-\u003eMaybe c",
@@ -12371,6 +13439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Types",
           "package": "feldspar-language",
@@ -12379,6 +13448,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Types",
           "package": "feldspar-language",
@@ -12393,6 +13463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeterogeneous list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": ":\u003e",
           "package": "feldspar-language",
@@ -12402,6 +13473,7 @@
         "index": {
           "description": "Heterogeneous list",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": ":\u003e",
           "package": "feldspar-language",
@@ -12414,6 +13486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "AnySize",
           "package": "feldspar-language",
@@ -12422,6 +13495,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "AnySize",
           "package": "feldspar-language",
@@ -12436,6 +13510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWitness for \u003ccode\u003e\u003ca\u003eN8\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eN16\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eN32\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eN64\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eNNative\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "BitWidth",
           "package": "feldspar-language",
@@ -12445,6 +13520,7 @@
         "index": {
           "description": "Witness for N8 N16 N32 N64 or NNative",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "BitWidth",
           "package": "feldspar-language",
@@ -12458,6 +13534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "FVal",
           "package": "feldspar-language",
@@ -12466,6 +13543,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "FVal",
           "package": "feldspar-language",
@@ -12480,6 +13558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalization of unsigned and signed integers. The first parameter\n represents the signedness and the sectond parameter the number of bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "GenericInt",
           "package": "feldspar-language",
@@ -12489,6 +13568,7 @@
         "index": {
           "description": "generalization of unsigned and signed integers The first parameter represents the signedness and the sectond parameter the number of bits",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "GenericInt",
           "package": "feldspar-language",
@@ -12503,6 +13583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImmutable references\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "IV",
           "package": "feldspar-language",
@@ -12512,6 +13593,7 @@
         "index": {
           "description": "Immutable references",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "IV",
           "package": "feldspar-language",
@@ -12525,6 +13607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Index",
           "package": "feldspar-language",
@@ -12533,6 +13616,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Index",
           "package": "feldspar-language",
@@ -12547,6 +13631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTarget-dependent signed integers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "IntN",
           "package": "feldspar-language",
@@ -12556,6 +13641,7 @@
         "index": {
           "description": "Target-dependent signed integers",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "IntN",
           "package": "feldspar-language",
@@ -12569,6 +13655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Length",
           "package": "feldspar-language",
@@ -12577,6 +13664,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Length",
           "package": "feldspar-language",
@@ -12591,6 +13679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable arrays\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "MArr",
           "package": "feldspar-language",
@@ -12600,6 +13689,7 @@
         "index": {
           "description": "Mutable arrays",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "MArr",
           "package": "feldspar-language",
@@ -12614,6 +13704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is used to allow constructs to be abstract in the monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "MonadType",
           "package": "feldspar-language",
@@ -12623,6 +13714,7 @@
         "index": {
           "description": "This class is used to allow constructs to be abstract in the monad",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "MonadType",
           "package": "feldspar-language",
@@ -12637,6 +13729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad for manipulation of mutable data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Mut",
           "package": "feldspar-language",
@@ -12646,6 +13739,7 @@
         "index": {
           "description": "Monad for manipulation of mutable data",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Mut",
           "package": "feldspar-language",
@@ -12660,6 +13754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representation of 16 bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "N16",
           "package": "feldspar-language",
@@ -12669,6 +13764,7 @@
         "index": {
           "description": "Type representation of bits",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "N16",
           "package": "feldspar-language",
@@ -12682,6 +13778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representation of 32 bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "N32",
           "package": "feldspar-language",
@@ -12691,6 +13788,7 @@
         "index": {
           "description": "Type representation of bits",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "N32",
           "package": "feldspar-language",
@@ -12704,6 +13802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representation of 64 bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "N64",
           "package": "feldspar-language",
@@ -12713,6 +13812,7 @@
         "index": {
           "description": "Type representation of bits",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "N64",
           "package": "feldspar-language",
@@ -12726,6 +13826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representation of 8 bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "N8",
           "package": "feldspar-language",
@@ -12735,6 +13836,7 @@
         "index": {
           "description": "Type representation of bits",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "N8",
           "package": "feldspar-language",
@@ -12748,6 +13850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representation of the native number of bits on the target\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "NNative",
           "package": "feldspar-language",
@@ -12757,6 +13860,7 @@
         "index": {
           "description": "Type representation of the native number of bits on the target",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "NNative",
           "package": "feldspar-language",
@@ -12771,6 +13875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad for parallel constructs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Par",
           "package": "feldspar-language",
@@ -12780,6 +13885,7 @@
         "index": {
           "description": "Monad for parallel constructs",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Par",
           "package": "feldspar-language",
@@ -12794,6 +13900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalization of \u003ccode\u003e\u003ca\u003eRange\u003c/a\u003e\u003c/code\u003e that serves two purposes: (1) Adding an extra\n \u003ccode\u003e\u003ca\u003eUniversal\u003c/a\u003e\u003c/code\u003e constructor to support unbounded types (\u003ccode\u003e\u003ca\u003eRange\u003c/a\u003e\u003c/code\u003e can only\n represent bounded ranges), and (2) pack a \u003ccode\u003e\u003ca\u003eBoundedInt\u003c/a\u003e\u003c/code\u003e constraint with the\n \u003ccode\u003e\u003ca\u003eRangeSet\u003c/a\u003e\u003c/code\u003e constructor. This is what allows \u003ccode\u003e\u003ca\u003esizeToRange\u003c/a\u003e\u003c/code\u003e to be defined as a\n total function with \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e as the only constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "RangeSet",
           "package": "feldspar-language",
@@ -12803,6 +13910,7 @@
         "index": {
           "description": "generalization of Range that serves two purposes Adding an extra Universal constructor to support unbounded types Range can only represent bounded ranges and pack BoundedInt constraint with the RangeSet constructor This is what allows sizeToRange to be defined as total function with Type as the only constraint",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "RangeSet",
           "package": "feldspar-language",
@@ -12817,6 +13925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representation of \"signed\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "S",
           "package": "feldspar-language",
@@ -12826,6 +13935,7 @@
         "index": {
           "description": "Type representation of signed",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "S",
           "package": "feldspar-language",
@@ -12838,6 +13948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "SignOf",
           "package": "feldspar-language",
@@ -12846,6 +13957,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "SignOf",
           "package": "feldspar-language",
@@ -12860,6 +13972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWitness for \u003ccode\u003e\u003ca\u003eU\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Signedness",
           "package": "feldspar-language",
@@ -12869,6 +13982,7 @@
         "index": {
           "description": "Witness for or",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Signedness",
           "package": "feldspar-language",
@@ -12882,6 +13996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Size",
           "package": "feldspar-language",
@@ -12890,6 +14005,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Size",
           "package": "feldspar-language",
@@ -12904,6 +14020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArray whose length is represented by an \u003ccode\u003en\u003c/code\u003e-bit word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "TargetArr",
           "package": "feldspar-language",
@@ -12913,6 +14030,7 @@
         "index": {
           "description": "Array whose length is represented by an bit word",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "TargetArr",
           "package": "feldspar-language",
@@ -12926,6 +14044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "TargetType",
           "package": "feldspar-language",
@@ -12934,6 +14053,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "TargetType",
           "package": "feldspar-language",
@@ -12948,6 +14068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of supported types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Type",
           "package": "feldspar-language",
@@ -12957,6 +14078,7 @@
         "index": {
           "description": "The set of supported types",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Type",
           "package": "feldspar-language",
@@ -12971,6 +14093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType equality witness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "TypeEq",
           "package": "feldspar-language",
@@ -12980,6 +14103,7 @@
         "index": {
           "description": "Type equality witness",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "TypeEq",
           "package": "feldspar-language",
@@ -12994,6 +14118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of supported types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "TypeRep",
           "package": "feldspar-language",
@@ -13003,6 +14128,7 @@
         "index": {
           "description": "Representation of supported types",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "TypeRep",
           "package": "feldspar-language",
@@ -13017,6 +14143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representation of \"unsigned\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "U",
           "package": "feldspar-language",
@@ -13026,6 +14153,7 @@
         "index": {
           "description": "Type representation of unsigned",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "U",
           "package": "feldspar-language",
@@ -13038,6 +14166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "WidthOf",
           "package": "feldspar-language",
@@ -13046,6 +14175,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "WidthOf",
           "package": "feldspar-language",
@@ -13060,6 +14190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTarget-dependent unsigned integers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "WordN",
           "package": "feldspar-language",
@@ -13069,6 +14200,7 @@
         "index": {
           "description": "Target-dependent unsigned integers",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "WordN",
           "package": "feldspar-language",
@@ -13082,6 +14214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": ":\u003e",
           "package": "feldspar-language",
@@ -13091,6 +14224,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": ":\u003e",
           "package": "feldspar-language",
@@ -13103,6 +14237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "AnySize",
           "package": "feldspar-language",
@@ -13112,6 +14247,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "AnySize",
           "package": "feldspar-language",
@@ -13125,6 +14261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "ArrayType",
           "package": "feldspar-language",
@@ -13134,6 +14271,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "ArrayType",
           "normalized": "TypeRep a-\u003eTypeRep[a]",
@@ -13149,6 +14287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "BoolType",
           "package": "feldspar-language",
@@ -13158,6 +14297,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "BoolType",
           "package": "feldspar-language",
@@ -13171,6 +14311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "ComplexType",
           "package": "feldspar-language",
@@ -13180,6 +14321,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "ComplexType",
           "normalized": "TypeRep a-\u003eTypeRep(Complex a)",
@@ -13195,6 +14337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "FVal",
           "package": "feldspar-language",
@@ -13204,6 +14347,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "FVal",
           "package": "feldspar-language",
@@ -13217,6 +14361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "FValType",
           "package": "feldspar-language",
@@ -13226,6 +14371,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "FValType",
           "normalized": "TypeRep a-\u003eTypeRep(FVal a)",
@@ -13241,6 +14387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "FloatType",
           "package": "feldspar-language",
@@ -13250,6 +14397,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "FloatType",
           "package": "feldspar-language",
@@ -13263,6 +14411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "FunType",
           "package": "feldspar-language",
@@ -13272,6 +14421,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "FunType",
           "normalized": "TypeRep a-\u003eTypeRep b-\u003eTypeRep(a-\u003eb)",
@@ -13287,6 +14437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "IVarType",
           "package": "feldspar-language",
@@ -13296,6 +14447,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "IVarType",
           "normalized": "TypeRep a-\u003eTypeRep(IV a)",
@@ -13311,6 +14463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "IntN",
           "package": "feldspar-language",
@@ -13320,6 +14473,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "IntN",
           "package": "feldspar-language",
@@ -13333,6 +14487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "IntType",
           "package": "feldspar-language",
@@ -13342,6 +14497,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "IntType",
           "normalized": "Signedness a-\u003eBitWidth b-\u003eTypeRep(GenericInt a b)",
@@ -13357,6 +14513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "MArrType",
           "package": "feldspar-language",
@@ -13366,6 +14523,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "MArrType",
           "normalized": "TypeRep a-\u003eTypeRep(MArr a)",
@@ -13381,6 +14539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "MutType",
           "package": "feldspar-language",
@@ -13390,6 +14549,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "MutType",
           "normalized": "TypeRep a-\u003eTypeRep(Mut a)",
@@ -13405,6 +14565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "N16",
           "package": "feldspar-language",
@@ -13414,6 +14575,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "N16",
           "package": "feldspar-language",
@@ -13426,6 +14588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "N32",
           "package": "feldspar-language",
@@ -13435,6 +14598,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "N32",
           "package": "feldspar-language",
@@ -13447,6 +14611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "N64",
           "package": "feldspar-language",
@@ -13456,6 +14621,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "N64",
           "package": "feldspar-language",
@@ -13468,6 +14634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "N8",
           "package": "feldspar-language",
@@ -13477,6 +14644,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "N8",
           "package": "feldspar-language",
@@ -13489,6 +14657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "NNative",
           "package": "feldspar-language",
@@ -13498,6 +14667,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "NNative",
           "package": "feldspar-language",
@@ -13511,6 +14681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "ParType",
           "package": "feldspar-language",
@@ -13520,6 +14691,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "ParType",
           "normalized": "TypeRep a-\u003eTypeRep(Par a)",
@@ -13535,6 +14707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "RangeSet",
           "package": "feldspar-language",
@@ -13544,6 +14717,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "RangeSet",
           "normalized": "Range a-\u003eRangeSet a",
@@ -13559,6 +14733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "RefType",
           "package": "feldspar-language",
@@ -13568,6 +14743,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "RefType",
           "normalized": "TypeRep a-\u003eTypeRep(IORef a)",
@@ -13583,6 +14759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "S",
           "package": "feldspar-language",
@@ -13592,6 +14769,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "S",
           "package": "feldspar-language",
@@ -13604,6 +14782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "TargetArr",
           "package": "feldspar-language",
@@ -13613,6 +14792,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "TargetArr",
           "normalized": "TargetArr(GenericInt U a)[b]",
@@ -13628,6 +14808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "TargetArrType",
           "package": "feldspar-language",
@@ -13637,6 +14818,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "TargetArrType",
           "normalized": "BitWidth a-\u003eTypeRep b-\u003eTypeRep(TargetArr a b)",
@@ -13652,6 +14834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Tup2Type",
           "package": "feldspar-language",
@@ -13661,6 +14844,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Tup2Type",
           "normalized": "TypeRep a-\u003eTypeRep b-\u003eTypeRep(a,b)",
@@ -13676,6 +14860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Tup3Type",
           "package": "feldspar-language",
@@ -13685,6 +14870,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Tup3Type",
           "normalized": "TypeRep a-\u003eTypeRep b-\u003eTypeRep c-\u003eTypeRep(a,b,c)",
@@ -13700,6 +14886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Tup4Type",
           "package": "feldspar-language",
@@ -13709,6 +14896,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Tup4Type",
           "normalized": "TypeRep a-\u003eTypeRep b-\u003eTypeRep c-\u003eTypeRep d-\u003eTypeRep(a,b,c,d)",
@@ -13724,6 +14912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Tup5Type",
           "package": "feldspar-language",
@@ -13733,6 +14922,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Tup5Type",
           "normalized": "TypeRep a-\u003eTypeRep b-\u003eTypeRep c-\u003eTypeRep d-\u003eTypeRep e-\u003eTypeRep(a,b,c,d,e)",
@@ -13748,6 +14938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Tup6Type",
           "package": "feldspar-language",
@@ -13757,6 +14948,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Tup6Type",
           "normalized": "TypeRep a-\u003eTypeRep b-\u003eTypeRep c-\u003eTypeRep d-\u003eTypeRep e-\u003eTypeRep f-\u003eTypeRep(a,b,c,d,e,f)",
@@ -13772,6 +14964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Tup7Type",
           "package": "feldspar-language",
@@ -13781,6 +14974,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Tup7Type",
           "normalized": "TypeRep a-\u003eTypeRep b-\u003eTypeRep c-\u003eTypeRep d-\u003eTypeRep e-\u003eTypeRep f-\u003eTypeRep g-\u003eTypeRep(a,b,c,d,e,f,g)",
@@ -13796,6 +14990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "TypeEq",
           "package": "feldspar-language",
@@ -13805,6 +15000,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "TypeEq",
           "package": "feldspar-language",
@@ -13818,6 +15014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "U",
           "package": "feldspar-language",
@@ -13827,6 +15024,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "U",
           "package": "feldspar-language",
@@ -13839,6 +15037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "UnitType",
           "package": "feldspar-language",
@@ -13848,6 +15047,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "UnitType",
           "normalized": "TypeRep()",
@@ -13863,6 +15063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "Universal",
           "package": "feldspar-language",
@@ -13872,6 +15073,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "Universal",
           "package": "feldspar-language",
@@ -13885,6 +15087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "WordN",
           "package": "feldspar-language",
@@ -13894,6 +15097,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "WordN",
           "package": "feldspar-language",
@@ -13907,6 +15111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "anySizeFun",
           "package": "feldspar-language",
@@ -13916,6 +15121,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "anySizeFun",
           "normalized": "AnySize-\u003eAnySize",
@@ -13931,6 +15137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "anySizeFun2",
           "package": "feldspar-language",
@@ -13940,6 +15147,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "anySizeFun2",
           "normalized": "AnySize-\u003eAnySize-\u003eAnySize",
@@ -13955,6 +15163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "argType",
           "package": "feldspar-language",
@@ -13964,6 +15173,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "argType",
           "normalized": "TypeRep(a-\u003eb)-\u003eTypeRep a",
@@ -13979,6 +15189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "bitWidth",
           "package": "feldspar-language",
@@ -13988,6 +15199,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "bitWidth",
           "normalized": "BitWidth a-\u003eString",
@@ -14003,6 +15215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "defaultSize",
           "package": "feldspar-language",
@@ -14012,6 +15225,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "defaultSize",
           "normalized": "TypeRep a-\u003eSize a",
@@ -14027,6 +15241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "fromIntN",
           "package": "feldspar-language",
@@ -14036,6 +15251,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "fromIntN",
           "normalized": "BitWidth a-\u003eIntN-\u003eGenericInt S a",
@@ -14051,6 +15267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "fromWordN",
           "package": "feldspar-language",
@@ -14060,6 +15277,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "fromWordN",
           "normalized": "BitWidth a-\u003eWordN-\u003eGenericInt U a",
@@ -14075,6 +15293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "genericLen",
           "package": "feldspar-language",
@@ -14084,6 +15303,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "genericLen",
           "normalized": "BitWidth a-\u003e[b]-\u003eGenericInt U a",
@@ -14099,6 +15319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "resType",
           "package": "feldspar-language",
@@ -14108,6 +15329,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "resType",
           "normalized": "TypeRep(a-\u003eb)-\u003eTypeRep b",
@@ -14123,6 +15345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "showTup",
           "package": "feldspar-language",
@@ -14132,6 +15355,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "showTup",
           "normalized": "[String]-\u003eString",
@@ -14148,6 +15372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType equality on \u003ccode\u003e\u003ca\u003eSignedness\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "signEq",
           "package": "feldspar-language",
@@ -14158,6 +15383,7 @@
         "index": {
           "description": "Type equality on Signedness",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "signEq",
           "normalized": "Signedness a-\u003eSignedness a-\u003eMaybe(TypeEq a a)",
@@ -14173,6 +15399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "signedness",
           "package": "feldspar-language",
@@ -14182,6 +15409,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "signedness",
           "normalized": "Signedness a-\u003eString",
@@ -14196,6 +15424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "sizeOf",
           "package": "feldspar-language",
@@ -14205,6 +15434,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "sizeOf",
           "normalized": "a-\u003eSize a",
@@ -14221,6 +15451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast a \u003ccode\u003e\u003ca\u003eSize\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eRangeSet\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "sizeToRange",
           "package": "feldspar-language",
@@ -14231,6 +15462,7 @@
         "index": {
           "description": "Cast Size to RangeSet",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "sizeToRange",
           "normalized": "Size a-\u003eRangeSet a",
@@ -14246,6 +15478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "tArr",
           "package": "feldspar-language",
@@ -14255,6 +15488,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "tArr",
           "normalized": "Patch a a-\u003ePatch[a][a]",
@@ -14270,6 +15504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "tIndex",
           "package": "feldspar-language",
@@ -14279,6 +15514,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "tIndex",
           "package": "feldspar-language",
@@ -14292,6 +15528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "tIntN",
           "package": "feldspar-language",
@@ -14301,6 +15538,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "tIntN",
           "package": "feldspar-language",
@@ -14314,6 +15552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "tLength",
           "package": "feldspar-language",
@@ -14323,6 +15562,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "tLength",
           "package": "feldspar-language",
@@ -14336,6 +15576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "tWordN",
           "package": "feldspar-language",
@@ -14345,6 +15586,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "tWordN",
           "package": "feldspar-language",
@@ -14358,6 +15600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "toTarget",
           "package": "feldspar-language",
@@ -14367,6 +15610,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "toTarget",
           "normalized": "BitWidth a-\u003eb-\u003eTargetType a b",
@@ -14383,6 +15627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType equality on \u003ccode\u003e\u003ca\u003eTypeRep\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "typeEq",
           "package": "feldspar-language",
@@ -14393,6 +15638,7 @@
         "index": {
           "description": "Type equality on TypeRep",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "typeEq",
           "normalized": "TypeRep a-\u003eTypeRep b-\u003eMaybe(TypeEq a b)",
@@ -14409,6 +15655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives the type representation a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "typeRep",
           "package": "feldspar-language",
@@ -14419,6 +15666,7 @@
         "index": {
           "description": "Gives the type representation value",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "typeRep",
           "package": "feldspar-language",
@@ -14432,6 +15680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "typeRepByProxy",
           "package": "feldspar-language",
@@ -14441,6 +15690,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "typeRepByProxy",
           "normalized": "Proxy a-\u003eTypeRep a",
@@ -14456,6 +15706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "unFVal",
           "package": "feldspar-language",
@@ -14465,6 +15716,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "unFVal",
           "package": "feldspar-language",
@@ -14478,6 +15730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "voidTypeRep",
           "package": "feldspar-language",
@@ -14487,6 +15740,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "voidTypeRep",
           "normalized": "TypeRep(a())",
@@ -14503,6 +15757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType equality on \u003ccode\u003e\u003ca\u003eBitWidth\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core.Types",
           "name": "widthEq",
           "package": "feldspar-language",
@@ -14513,6 +15768,7 @@
         "index": {
           "description": "Type equality on BitWidth",
           "hierarchy": "Feldspar Core Types",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core.Types",
           "name": "widthEq",
           "normalized": "BitWidth a-\u003eBitWidth a-\u003eMaybe(TypeEq a a)",
@@ -14529,6 +15785,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Feldspar core language\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core",
           "name": "Core",
           "package": "feldspar-language",
@@ -14538,6 +15795,7 @@
         "index": {
           "description": "The Feldspar core language",
           "hierarchy": "Feldspar Core",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core",
           "name": "Core",
           "package": "feldspar-language",
@@ -14552,6 +15810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience alias for bounded integers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core",
           "name": "BoundedInt",
           "package": "feldspar-language",
@@ -14561,6 +15820,7 @@
         "index": {
           "description": "Convenience alias for bounded integers",
           "hierarchy": "Feldspar Core",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core",
           "name": "BoundedInt",
           "package": "feldspar-language",
@@ -14575,6 +15835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex numbers are an algebraic type.\n\u003c/p\u003e\u003cp\u003eFor a complex number \u003ccode\u003ez\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eabs\u003c/a\u003e\u003c/code\u003e z\u003c/code\u003e is a number with the magnitude of \u003ccode\u003ez\u003c/code\u003e,\n but oriented in the positive real direction, whereas \u003ccode\u003e\u003ccode\u003e\u003ca\u003esignum\u003c/a\u003e\u003c/code\u003e z\u003c/code\u003e\n has the phase of \u003ccode\u003ez\u003c/code\u003e, but unit magnitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core",
           "name": "Complex",
           "package": "feldspar-language",
@@ -14583,6 +15844,7 @@
         "index": {
           "description": "Complex numbers are an algebraic type For complex number abs is number with the magnitude of but oriented in the positive real direction whereas signum has the phase of but unit magnitude",
           "hierarchy": "Feldspar Core",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core",
           "name": "Complex",
           "package": "feldspar-language",
@@ -14597,6 +15859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bounded range of values of type \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core",
           "name": "Range",
           "package": "feldspar-language",
@@ -14606,6 +15869,7 @@
         "index": {
           "description": "bounded range of values of type",
           "hierarchy": "Feldspar Core",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core",
           "name": "Range",
           "package": "feldspar-language",
@@ -14620,6 +15884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eforms a complex number from its real and imaginary\n rectangular components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Core",
           "name": ":+",
           "package": "feldspar-language",
@@ -14629,6 +15894,7 @@
         "index": {
           "description": "forms complex number from its real and imaginary rectangular components",
           "hierarchy": "Feldspar Core",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Core",
           "name": ":+",
           "package": "feldspar-language",
@@ -14710,6 +15976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.FixedPoint",
           "name": "FixedPoint",
           "package": "feldspar-language",
@@ -14718,6 +15985,7 @@
         },
         "index": {
           "hierarchy": "Feldspar FixedPoint",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.FixedPoint",
           "name": "FixedPoint",
           "package": "feldspar-language",
@@ -14732,6 +16000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract real number type with exponent and mantissa\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.FixedPoint",
           "name": "Fix",
           "package": "feldspar-language",
@@ -14741,6 +16010,7 @@
         "index": {
           "description": "Abstract real number type with exponent and mantissa",
           "hierarchy": "Feldspar FixedPoint",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.FixedPoint",
           "name": "Fix",
           "package": "feldspar-language",
@@ -14755,6 +16025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperations to get and set exponent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.FixedPoint",
           "name": "Fixable",
           "package": "feldspar-language",
@@ -14764,6 +16035,7 @@
         "index": {
           "description": "Operations to get and set exponent",
           "hierarchy": "Feldspar FixedPoint",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.FixedPoint",
           "name": "Fixable",
           "package": "feldspar-language",
@@ -14778,6 +16050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of branching for fixed point algorithms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.FixedPoint",
           "name": "(?!)",
           "package": "feldspar-language",
@@ -14788,6 +16061,7 @@
         "index": {
           "description": "version of branching for fixed point algorithms",
           "hierarchy": "Feldspar FixedPoint",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.FixedPoint",
           "name": "(?!) ?!",
           "normalized": "Data Bool-\u003e(a,a)-\u003ea",
@@ -14802,6 +16076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.FixedPoint",
           "name": "Fix",
           "package": "feldspar-language",
@@ -14811,6 +16086,7 @@
         },
         "index": {
           "hierarchy": "Feldspar FixedPoint",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.FixedPoint",
           "name": "Fix",
           "package": "feldspar-language",
@@ -14824,6 +16100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.FixedPoint",
           "name": "exponent",
           "package": "feldspar-language",
@@ -14833,6 +16110,7 @@
         },
         "index": {
           "hierarchy": "Feldspar FixedPoint",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.FixedPoint",
           "name": "exponent",
           "package": "feldspar-language",
@@ -14845,6 +16123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.FixedPoint",
           "name": "fix",
           "package": "feldspar-language",
@@ -14854,6 +16133,7 @@
         },
         "index": {
           "hierarchy": "Feldspar FixedPoint",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.FixedPoint",
           "name": "fix",
           "normalized": "Data IntN-\u003ea-\u003ea",
@@ -14869,6 +16149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of vector fold for fixed point algorithms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.FixedPoint",
           "name": "fixFold",
           "package": "feldspar-language",
@@ -14879,6 +16160,7 @@
         "index": {
           "description": "version of vector fold for fixed point algorithms",
           "hierarchy": "Feldspar FixedPoint",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.FixedPoint",
           "name": "fixFold",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVector b-\u003ea",
@@ -14895,6 +16177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an abstract real number to a pair of exponent and mantissa\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.FixedPoint",
           "name": "freezeFix",
           "package": "feldspar-language",
@@ -14905,6 +16188,7 @@
         "index": {
           "description": "Converts an abstract real number to pair of exponent and mantissa",
           "hierarchy": "Feldspar FixedPoint",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.FixedPoint",
           "name": "freezeFix",
           "normalized": "Fix a-\u003e(Data IntN,Data a)",
@@ -14921,6 +16205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an abstract real number to fixed point integer with given exponent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.FixedPoint",
           "name": "freezeFix'",
           "package": "feldspar-language",
@@ -14931,6 +16216,7 @@
         "index": {
           "description": "Converts an abstract real number to fixed point integer with given exponent",
           "hierarchy": "Feldspar FixedPoint",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.FixedPoint",
           "name": "freezeFix'",
           "normalized": "IntN-\u003eFix a-\u003eData a",
@@ -14946,6 +16232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.FixedPoint",
           "name": "getExp",
           "package": "feldspar-language",
@@ -14955,6 +16242,7 @@
         },
         "index": {
           "hierarchy": "Feldspar FixedPoint",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.FixedPoint",
           "name": "getExp",
           "normalized": "a-\u003eData IntN",
@@ -14970,6 +16258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.FixedPoint",
           "name": "mantissa",
           "package": "feldspar-language",
@@ -14979,6 +16268,7 @@
         },
         "index": {
           "hierarchy": "Feldspar FixedPoint",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.FixedPoint",
           "name": "mantissa",
           "package": "feldspar-language",
@@ -14992,6 +16282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a pair of exponent and mantissa to an abstract real number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.FixedPoint",
           "name": "unfreezeFix",
           "package": "feldspar-language",
@@ -15002,6 +16293,7 @@
         "index": {
           "description": "Converts pair of exponent and mantissa to an abstract real number",
           "hierarchy": "Feldspar FixedPoint",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.FixedPoint",
           "name": "unfreezeFix",
           "normalized": "(Data IntN,Data a)-\u003eFix a",
@@ -15018,6 +16310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a fixed point integer with given exponent to an abstract real number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.FixedPoint",
           "name": "unfreezeFix'",
           "package": "feldspar-language",
@@ -15028,6 +16321,7 @@
         "index": {
           "description": "Converts fixed point integer with given exponent to an abstract real number",
           "hierarchy": "Feldspar FixedPoint",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.FixedPoint",
           "name": "unfreezeFix'",
           "normalized": "IntN-\u003eData a-\u003eFix a",
@@ -15043,6 +16337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Future",
           "name": "Future",
           "package": "feldspar-language",
@@ -15051,6 +16346,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Future",
           "name": "Future",
           "package": "feldspar-language",
@@ -15064,6 +16360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Future",
           "name": "withFuture",
           "package": "feldspar-language",
@@ -15073,6 +16370,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Future",
           "name": "withFuture",
           "normalized": "a-\u003e(Future a-\u003eb)-\u003eb",
@@ -15088,6 +16386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Future",
           "name": "withFutures",
           "package": "feldspar-language",
@@ -15097,6 +16396,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Future",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Future",
           "name": "withFutures",
           "normalized": "Vector a-\u003e(Vector(Future a)-\u003eb)-\u003eb",
@@ -15113,6 +16413,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneral operations on sets\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "Lattice",
           "package": "feldspar-language",
@@ -15122,6 +16423,7 @@
         "index": {
           "description": "General operations on sets",
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "Lattice",
           "package": "feldspar-language",
@@ -15136,6 +16438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLattice types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "Lattice",
           "package": "feldspar-language",
@@ -15145,6 +16448,7 @@
         "index": {
           "description": "Lattice types",
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "Lattice",
           "package": "feldspar-language",
@@ -15159,6 +16463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of widening operators. A widening operator modifies a\n   function that is subject to fixed point analysis. A widening\n   operator introduces approximations in order to guarantee (fast)\n   termination of the fixed point analysis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "Widening",
           "package": "feldspar-language",
@@ -15168,6 +16473,7 @@
         "index": {
           "description": "The type of widening operators widening operator modifies function that is subject to fixed point analysis widening operator introduces approximations in order to guarantee fast termination of the fixed point analysis",
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "Widening",
           "package": "feldspar-language",
@@ -15182,6 +16488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "(/\\)",
           "package": "feldspar-language",
@@ -15192,6 +16499,7 @@
         "index": {
           "description": "Intersection",
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "(/\\) /\\",
           "normalized": "a-\u003ea-\u003ea",
@@ -15207,6 +16515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "(\\/)",
           "package": "feldspar-language",
@@ -15217,6 +16526,7 @@
         "index": {
           "description": "Union",
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "(\\/) \\/",
           "normalized": "a-\u003ea-\u003ea",
@@ -15232,6 +16542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bounded version of \u003ccode\u003e\u003ca\u003elensedFixedPoint\u003c/a\u003e\u003c/code\u003e. It will always do at least one\n iteration regardless of the provided bound (in order to return something of\n the right type).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "boundedLensedFixedPoint",
           "package": "feldspar-language",
@@ -15242,6 +16553,7 @@
         "index": {
           "description": "bounded version of lensedFixedPoint It will always do at least one iteration regardless of the provided bound in order to return something of the right type",
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "boundedLensedFixedPoint",
           "normalized": "Int-\u003eLens a b-\u003eLens c b-\u003e(a-\u003ec)-\u003ea-\u003e(c,Int)",
@@ -15258,6 +16570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widening operator which defaults to \u003ccode\u003e\u003ca\u003euniversal\u003c/a\u003e\u003c/code\u003e when the number of\n   iterations goes over the specified value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "cutOffAt",
           "package": "feldspar-language",
@@ -15268,6 +16581,7 @@
         "index": {
           "description": "widening operator which defaults to universal when the number of iterations goes over the specified value",
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "cutOffAt",
           "normalized": "Int-\u003eWidening a",
@@ -15283,6 +16597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "empty",
           "package": "feldspar-language",
@@ -15292,6 +16607,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "empty",
           "package": "feldspar-language",
@@ -15305,6 +16621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the fixed point of a function. The second argument is an initial\n  element. A sensible default for the initial element is \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe function is not required to be monotonic. It is made monotonic internally\n by always taking the union of the result and the previous value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "fixedPoint",
           "package": "feldspar-language",
@@ -15315,6 +16632,7 @@
         "index": {
           "description": "Take the fixed point of function The second argument is an initial element sensible default for the initial element is empty The function is not required to be monotonic It is made monotonic internally by always taking the union of the result and the previous value",
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "fixedPoint",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",
@@ -15331,6 +16649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMuch like \u003ccode\u003e\u003ca\u003efixedPoint\u003c/a\u003e\u003c/code\u003e but keeps track of the number of iterations\n   in the fixed point iteration. Useful for defining widening operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "indexedFixedPoint",
           "package": "feldspar-language",
@@ -15341,6 +16660,7 @@
         "index": {
           "description": "Much like fixedPoint but keeps track of the number of iterations in the fixed point iteration Useful for defining widening operators",
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "indexedFixedPoint",
           "normalized": "(Int-\u003ea-\u003ea)-\u003ea-\u003e(a,Int)",
@@ -15357,6 +16677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccumulated intersection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "intersections",
           "package": "feldspar-language",
@@ -15367,6 +16688,7 @@
         "index": {
           "description": "Accumulated intersection",
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "intersections",
           "normalized": "[a]-\u003ea",
@@ -15382,6 +16704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralization of \u003ccode\u003e\u003ca\u003efixedPoint\u003c/a\u003e\u003c/code\u003e to functions whose argument and result\n contain (i.e has a lens to) a common lattice\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "lensedFixedPoint",
           "package": "feldspar-language",
@@ -15392,6 +16715,7 @@
         "index": {
           "description": "Generalization of fixedPoint to functions whose argument and result contain i.e has lens to common lattice",
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "lensedFixedPoint",
           "normalized": "Lens a b-\u003eLens c b-\u003e(a-\u003ec)-\u003ea-\u003ec",
@@ -15408,6 +16732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralization of \u003ccode\u003e\u003ca\u003eindexedFixedPoint\u003c/a\u003e\u003c/code\u003e to functions whose argument and\n result contain (i.e has a lens to) a common lattice\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "lensedIndexedFixedPoint",
           "package": "feldspar-language",
@@ -15418,6 +16743,7 @@
         "index": {
           "description": "Generalization of indexedFixedPoint to functions whose argument and result contain i.e has lens to common lattice",
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "lensedIndexedFixedPoint",
           "normalized": "Lens a b-\u003eLens c b-\u003e(Int-\u003ea-\u003ec)-\u003ea-\u003e(c,Int)",
@@ -15434,6 +16760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccumulated union\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "unions",
           "package": "feldspar-language",
@@ -15444,6 +16771,7 @@
         "index": {
           "description": "Accumulated union",
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "unions",
           "normalized": "[a]-\u003ea",
@@ -15458,6 +16786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Lattice",
           "name": "universal",
           "package": "feldspar-language",
@@ -15467,6 +16796,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Lattice",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Lattice",
           "name": "universal",
           "package": "feldspar-language",
@@ -15480,6 +16810,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOperations on matrices (doubly-nested parallel vectors). All operations in\n this module assume rectangular matrices.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "Matrix",
           "package": "feldspar-language",
@@ -15489,6 +16820,7 @@
         "index": {
           "description": "Operations on matrices doubly-nested parallel vectors All operations in this module assume rectangular matrices",
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "Matrix",
           "package": "feldspar-language",
@@ -15502,6 +16834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "ElemWise",
           "package": "feldspar-language",
@@ -15510,6 +16843,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "ElemWise",
           "package": "feldspar-language",
@@ -15523,6 +16857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "Matrix",
           "package": "feldspar-language",
@@ -15531,6 +16866,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "Matrix",
           "package": "feldspar-language",
@@ -15544,6 +16880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "Mul",
           "package": "feldspar-language",
@@ -15552,6 +16889,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "Mul",
           "package": "feldspar-language",
@@ -15566,6 +16904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral multiplication operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "(***)",
           "package": "feldspar-language",
@@ -15576,6 +16915,7 @@
         "index": {
           "description": "General multiplication operator",
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "(***) ***",
           "normalized": "a-\u003eb-\u003eProd a b",
@@ -15590,6 +16930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "(.*)",
           "package": "feldspar-language",
@@ -15599,6 +16940,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "(.*) .*",
           "normalized": "a-\u003ea-\u003ea",
@@ -15613,6 +16955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "(.+)",
           "package": "feldspar-language",
@@ -15622,6 +16965,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "(.+) .+",
           "normalized": "a-\u003ea-\u003ea",
@@ -15636,6 +16980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "(.-)",
           "package": "feldspar-language",
@@ -15645,6 +16990,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "(.-) .-",
           "normalized": "a-\u003ea-\u003ea",
@@ -15660,6 +17006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe diagonal vector of a square matrix. It happens to work if the number of\n rows is less than the number of columns, but not the other way around (this\n would require some overhead).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "diagonal",
           "package": "feldspar-language",
@@ -15670,6 +17017,7 @@
         "index": {
           "description": "The diagonal vector of square matrix It happens to work if the number of rows is less than the number of columns but not the other way around this would require some overhead",
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "diagonal",
           "normalized": "Matrix a-\u003eVector(Data a)",
@@ -15684,6 +17032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "distributeL",
           "package": "feldspar-language",
@@ -15693,6 +17042,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "distributeL",
           "normalized": "(a-\u003eb-\u003ec)-\u003ea-\u003eVector b-\u003eVector c",
@@ -15707,6 +17057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "distributeR",
           "package": "feldspar-language",
@@ -15716,6 +17067,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "distributeR",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVector a-\u003eb-\u003eVector c",
@@ -15731,6 +17083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator for general element-wise multiplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "elemWise",
           "package": "feldspar-language",
@@ -15741,6 +17094,7 @@
         "index": {
           "description": "Operator for general element-wise multiplication",
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "elemWise",
           "normalized": "(Scalar a-\u003eScalar a-\u003eScalar a)-\u003ea-\u003ea-\u003ea",
@@ -15757,6 +17111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenates the rows of a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "flatten",
           "package": "feldspar-language",
@@ -15767,6 +17122,7 @@
         "index": {
           "description": "Concatenates the rows of matrix",
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "flatten",
           "normalized": "Matrix a-\u003eVector(Data a)",
@@ -15782,6 +17138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a matrix to a core array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "freezeMatrix",
           "package": "feldspar-language",
@@ -15792,6 +17149,7 @@
         "index": {
           "description": "Converts matrix to core array",
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "freezeMatrix",
           "normalized": "Matrix a-\u003eData[[a]]",
@@ -15808,6 +17166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructing a matrix from an index function.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eindexedMat m n ixf\u003c/code\u003e:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003em\u003c/code\u003e is the number of rows.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003en\u003c/code\u003e is the number of columns.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eifx\u003c/code\u003e is a function mapping indexes to elements (first argument is row\n     index; second argument is column index).\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "indexedMat",
           "package": "feldspar-language",
@@ -15818,6 +17177,7 @@
         "index": {
           "description": "Constructing matrix from an index function indexedMat ixf is the number of rows is the number of columns ifx is function mapping indexes to elements first argument is row index second argument is column index",
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "indexedMat",
           "normalized": "Data Length-\u003eData Length-\u003e(Data Index-\u003eData Index-\u003eData a)-\u003eMatrix a",
@@ -15834,6 +17194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a matrix. The elements are stored in a core array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "matrix",
           "package": "feldspar-language",
@@ -15844,6 +17205,7 @@
         "index": {
           "description": "Constructs matrix The elements are stored in core array",
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "matrix",
           "normalized": "[[a]]-\u003eMatrix a",
@@ -15859,6 +17221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix multiplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "mulMat",
           "package": "feldspar-language",
@@ -15869,6 +17232,7 @@
         "index": {
           "description": "Matrix multiplication",
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "mulMat",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -15884,6 +17248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "tMat",
           "package": "feldspar-language",
@@ -15893,6 +17258,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "tMat",
           "normalized": "Patch a a-\u003ePatch(Matrix a)(Matrix a)",
@@ -15909,6 +17275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a core array to a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "thawMatrix",
           "package": "feldspar-language",
@@ -15919,6 +17286,7 @@
         "index": {
           "description": "Converts core array to matrix",
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "thawMatrix",
           "normalized": "Data[[a]]-\u003eMatrix a",
@@ -15935,6 +17303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a core array to a matrix. The first length argument is the number\n of rows (outer vector), and the second argument is the number of columns\n (inner vector).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "thawMatrix'",
           "package": "feldspar-language",
@@ -15945,6 +17314,7 @@
         "index": {
           "description": "Converts core array to matrix The first length argument is the number of rows outer vector and the second argument is the number of columns inner vector",
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "thawMatrix'",
           "normalized": "Length-\u003eLength-\u003eData[[a]]-\u003eMatrix a",
@@ -15961,6 +17331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose of a matrix. Assumes that the number of rows is \u003e 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Matrix",
           "name": "transpose",
           "package": "feldspar-language",
@@ -15971,6 +17342,7 @@
         "index": {
           "description": "Transpose of matrix Assumes that the number of rows is",
           "hierarchy": "Feldspar Matrix",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Matrix",
           "name": "transpose",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -15985,6 +17357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Option",
           "name": "Option",
           "package": "feldspar-language",
@@ -15993,6 +17366,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Option",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Option",
           "name": "Option",
           "package": "feldspar-language",
@@ -16006,6 +17380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Option",
           "name": "Option",
           "package": "feldspar-language",
@@ -16014,6 +17389,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Option",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Option",
           "name": "Option",
           "package": "feldspar-language",
@@ -16027,6 +17403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Option",
           "name": "(\u003c?)",
           "package": "feldspar-language",
@@ -16036,6 +17413,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Option",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Option",
           "name": "(\u003c?) \u003c?",
           "normalized": "a-\u003eOption a-\u003ea",
@@ -16051,6 +17429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional choice operator. Can be used together with \u003ccode\u003e\u003ca\u003e\u003c?\u003c/a\u003e\u003c/code\u003e to write\n guarded choices as follows:\n\u003c/p\u003e\u003cpre\u003e prog :: Data Index -\u003e Data Index\n prog a\n     =  a+1 \u003c? a==0\n     ?\u003e a+2 \u003c? a==1\n     ?\u003e a+3 \u003c? a==2\n     ?\u003e a+4 \u003c? a==3\n     ?\u003e a+5\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Option",
           "name": "(?\u003e)",
           "package": "feldspar-language",
@@ -16061,6 +17440,7 @@
         "index": {
           "description": "Conditional choice operator Can be used together with to write guarded choices as follows prog Data Index Data Index prog",
           "hierarchy": "Feldspar Option",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Option",
           "name": "(?\u003e) ?\u003e",
           "normalized": "Data Bool-\u003ea-\u003eOption a",
@@ -16075,6 +17455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Option",
           "name": "Option",
           "package": "feldspar-language",
@@ -16084,6 +17465,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Option",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Option",
           "name": "Option",
           "package": "feldspar-language",
@@ -16098,6 +17480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne-layer desugaring of \u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Option",
           "name": "desugarOption",
           "package": "feldspar-language",
@@ -16108,6 +17491,7 @@
         "index": {
           "description": "One-layer desugaring of Option",
           "hierarchy": "Feldspar Option",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Option",
           "name": "desugarOption",
           "normalized": "Option(Data a)-\u003eData(Bool,a)",
@@ -16123,6 +17507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Option",
           "name": "fromSome",
           "package": "feldspar-language",
@@ -16132,6 +17517,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Option",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Option",
           "name": "fromSome",
           "package": "feldspar-language",
@@ -16145,6 +17531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Option",
           "name": "isSome",
           "package": "feldspar-language",
@@ -16154,6 +17541,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Option",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Option",
           "name": "isSome",
           "package": "feldspar-language",
@@ -16167,6 +17555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Option",
           "name": "none",
           "package": "feldspar-language",
@@ -16176,6 +17565,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Option",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Option",
           "name": "none",
           "package": "feldspar-language",
@@ -16188,6 +17578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Option",
           "name": "oplus",
           "package": "feldspar-language",
@@ -16197,6 +17588,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Option",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Option",
           "name": "oplus",
           "normalized": "Option a-\u003eOption a-\u003eOption a",
@@ -16211,6 +17603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Option",
           "name": "option",
           "package": "feldspar-language",
@@ -16220,6 +17613,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Option",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Option",
           "name": "option",
           "normalized": "a-\u003e(b-\u003ea)-\u003eOption b-\u003ea",
@@ -16234,6 +17628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Option",
           "name": "some",
           "package": "feldspar-language",
@@ -16243,6 +17638,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Option",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Option",
           "name": "some",
           "normalized": "a-\u003eOption a",
@@ -16258,6 +17654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne-layer sugaring of \u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Option",
           "name": "sugarOption",
           "package": "feldspar-language",
@@ -16268,6 +17665,7 @@
         "index": {
           "description": "One-layer sugaring of Option",
           "hierarchy": "Feldspar Option",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Option",
           "name": "sugarOption",
           "normalized": "Data(Bool,a)-\u003eOption(Data a)",
@@ -16283,6 +17681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Par",
           "name": "Par",
           "package": "feldspar-language",
@@ -16291,6 +17690,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Par",
           "name": "Par",
           "package": "feldspar-language",
@@ -16304,6 +17704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Par",
           "name": "IVar",
           "package": "feldspar-language",
@@ -16312,6 +17713,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Par",
           "name": "IVar",
           "package": "feldspar-language",
@@ -16325,6 +17727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Par",
           "name": "P",
           "package": "feldspar-language",
@@ -16333,6 +17736,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Par",
           "name": "P",
           "package": "feldspar-language",
@@ -16345,6 +17749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Par",
           "name": "divConq",
           "package": "feldspar-language",
@@ -16354,6 +17759,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Par",
           "name": "divConq",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003e[a])-\u003e([b]-\u003eb)-\u003e(a-\u003eb)-\u003ea-\u003eP b",
@@ -16369,6 +17775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Par",
           "name": "fork",
           "package": "feldspar-language",
@@ -16378,6 +17785,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Par",
           "name": "fork",
           "normalized": "P()-\u003eP()",
@@ -16392,6 +17800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Par",
           "name": "get",
           "package": "feldspar-language",
@@ -16401,6 +17810,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Par",
           "name": "get",
           "normalized": "IVar a-\u003eP a",
@@ -16415,6 +17825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Par",
           "name": "new",
           "package": "feldspar-language",
@@ -16424,6 +17835,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Par",
           "name": "new",
           "package": "feldspar-language",
@@ -16436,6 +17848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Par",
           "name": "parMap",
           "package": "feldspar-language",
@@ -16445,6 +17858,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Par",
           "name": "parMap",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003eP[b]",
@@ -16460,6 +17874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Par",
           "name": "parMapM",
           "package": "feldspar-language",
@@ -16469,6 +17884,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Par",
           "name": "parMapM",
           "normalized": "(a-\u003eP b)-\u003e[a]-\u003eP[b]",
@@ -16484,6 +17900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Par",
           "name": "put",
           "package": "feldspar-language",
@@ -16493,6 +17910,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Par",
           "name": "put",
           "normalized": "IVar a-\u003ea-\u003eP()",
@@ -16507,6 +17925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Par",
           "name": "pval",
           "package": "feldspar-language",
@@ -16516,6 +17935,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Par",
           "name": "pval",
           "normalized": "a-\u003eP(IVar a)",
@@ -16530,6 +17950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Par",
           "name": "runPar",
           "package": "feldspar-language",
@@ -16539,6 +17960,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Par",
           "name": "runPar",
           "normalized": "P a-\u003ea",
@@ -16554,6 +17976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Par",
           "name": "spawn",
           "package": "feldspar-language",
@@ -16563,6 +17986,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Par",
           "name": "spawn",
           "normalized": "P a-\u003eP(IVar a)",
@@ -16577,6 +18001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Par",
           "name": "yield",
           "package": "feldspar-language",
@@ -16586,6 +18011,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Par",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Par",
           "name": "yield",
           "normalized": "P()",
@@ -16601,6 +18027,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReexports a minimal subset of the \u003ca\u003ePrelude\u003c/a\u003e to open up for reusing\n \u003ca\u003ePrelude\u003c/a\u003e identifiers in Feldspar\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Prelude",
           "name": "Prelude",
           "package": "feldspar-language",
@@ -16610,6 +18037,7 @@
         "index": {
           "description": "Reexports minimal subset of the Prelude to open up for reusing Prelude identifiers in Feldspar",
           "hierarchy": "Feldspar Prelude",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Prelude",
           "name": "Prelude",
           "package": "feldspar-language",
@@ -16624,6 +18052,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBounded integer ranges\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "Range",
           "package": "feldspar-language",
@@ -16633,6 +18062,7 @@
         "index": {
           "description": "Bounded integer ranges",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "Range",
           "package": "feldspar-language",
@@ -16647,6 +18077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience alias for bounded integers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "BoundedInt",
           "package": "feldspar-language",
@@ -16656,6 +18087,7 @@
         "index": {
           "description": "Convenience alias for bounded integers",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "BoundedInt",
           "package": "feldspar-language",
@@ -16670,6 +18102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bounded range of values of type \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "Range",
           "package": "feldspar-language",
@@ -16679,6 +18112,7 @@
         "index": {
           "description": "bounded range of values of type",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "Range",
           "package": "feldspar-language",
@@ -16693,6 +18127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003erangeLessAbs\u003c/a\u003e\u003c/code\u003e but replaces the expression\n   \u003ccode\u003eabs d `rangeLess` abs r\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "absRangeLessAbs",
           "package": "feldspar-language",
@@ -16703,6 +18138,7 @@
         "index": {
           "description": "Similar to rangeLessAbs but replaces the expression abs rangeLess abs instead",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "absRangeLessAbs",
           "normalized": "Range a-\u003eRange a-\u003eBool",
@@ -16718,6 +18154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "approx",
           "package": "feldspar-language",
@@ -16727,6 +18164,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "approx",
           "normalized": "(Range a,Range b,Range c)-\u003eRange d",
@@ -16741,6 +18179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "binopR",
           "package": "feldspar-language",
@@ -16750,6 +18189,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "binopR",
           "normalized": "Range a-\u003eRange a-\u003eRange a)-\u003e(Range b,Range c,Range d)-\u003e(Range b,Range c,Range d)-\u003e(Range b,Range c,Range d)",
@@ -16765,6 +18205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the position of the highest bit set to 1. Counting starts at 1.\n Beware! It doesn't terminate for negative numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "bits",
           "package": "feldspar-language",
@@ -16775,6 +18216,7 @@
         "index": {
           "description": "Returns the position of the highest bit set to Counting starts at Beware It doesn terminate for negative numbers",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "bits",
           "normalized": "a-\u003eInt",
@@ -16790,6 +18232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a replacement fror Haskell's shiftR. If we carelessly use\n   Haskell's variant then we will get left shifts for very large shift values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "correctShiftRU",
           "package": "feldspar-language",
@@ -16800,6 +18243,7 @@
         "index": {
           "description": "This is replacement fror Haskell shiftR If we carelessly use Haskell variant then we will get left shifts for very large shift values",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "correctShiftRU",
           "normalized": "a-\u003eb-\u003ea",
@@ -16816,6 +18260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edisjoint r1 r2\u003c/code\u003e returns true when \u003ccode\u003er1\u003c/code\u003e and \u003ccode\u003er2\u003c/code\u003e have no elements in\n   common.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "disjoint",
           "package": "feldspar-language",
@@ -16826,6 +18271,7 @@
         "index": {
           "description": "disjoint r1 r2 returns true when r1 and r2 have no elements in common",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "disjoint",
           "normalized": "Range a-\u003eRange a-\u003eBool",
@@ -16841,6 +18287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe range containing no elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "emptyRange",
           "package": "feldspar-language",
@@ -16851,6 +18298,7 @@
         "index": {
           "description": "The range containing no elements",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "emptyRange",
           "package": "feldspar-language",
@@ -16865,6 +18313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe range containing all elements of a type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "fullRange",
           "package": "feldspar-language",
@@ -16875,6 +18324,7 @@
         "index": {
           "description": "The range containing all elements of type",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "fullRange",
           "package": "feldspar-language",
@@ -16889,6 +18339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function for defining range propagation.\n   \u003ccode\u003ehandleSign propU propS\u003c/code\u003e chooses \u003ccode\u003epropU\u003c/code\u003e for unsigned types and\n   \u003ccode\u003epropS\u003c/code\u003e for signed types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "handleSign",
           "package": "feldspar-language",
@@ -16899,6 +18350,7 @@
         "index": {
           "description": "convenience function for defining range propagation handleSign propU propS chooses propU for unsigned types and propS for signed types",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "handleSign",
           "normalized": "(Range a-\u003eb)-\u003e(Range a-\u003eb)-\u003eRange a-\u003eb",
@@ -16915,6 +18367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ea `inRange` r\u003c/code\u003e checks is \u003ccode\u003ea\u003c/code\u003e is an element of the range \u003ccode\u003er\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "inRange",
           "package": "feldspar-language",
@@ -16925,6 +18378,7 @@
         "index": {
           "description": "inRange checks is is an element of the range",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "inRange",
           "normalized": "a-\u003eRange a-\u003eBool",
@@ -16941,6 +18395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the range is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "isEmpty",
           "package": "feldspar-language",
@@ -16951,6 +18406,7 @@
         "index": {
           "description": "Checks if the range is empty",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "isEmpty",
           "normalized": "Range a-\u003eBool",
@@ -16967,6 +18423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the range contains all values of the type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "isFull",
           "package": "feldspar-language",
@@ -16977,6 +18434,7 @@
         "index": {
           "description": "Checks if the range contains all values of the type",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "isFull",
           "normalized": "Range a-\u003eBool",
@@ -16993,6 +18451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether a range is a sub-range of the natural numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "isNatural",
           "package": "feldspar-language",
@@ -17003,6 +18462,7 @@
         "index": {
           "description": "Checks whether range is sub-range of the natural numbers",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "isNatural",
           "normalized": "Range a-\u003eBool",
@@ -17019,6 +18479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether a range is a sub-range of the negative numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "isNegative",
           "package": "feldspar-language",
@@ -17029,6 +18490,7 @@
         "index": {
           "description": "Checks whether range is sub-range of the negative numbers",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "isNegative",
           "normalized": "Range a-\u003eBool",
@@ -17045,6 +18507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks is the range contains exactly one element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "isSingleton",
           "package": "feldspar-language",
@@ -17055,6 +18518,7 @@
         "index": {
           "description": "Checks is the range contains exactly one element",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "isSingleton",
           "normalized": "Range a-\u003eBool",
@@ -17071,6 +18535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003er1 `isSubRangeOf` r2\u003c/code\u003e checks is all the elements in \u003ccode\u003er1\u003c/code\u003e are included\n   in \u003ccode\u003er2\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "isSubRangeOf",
           "package": "feldspar-language",
@@ -17081,6 +18546,7 @@
         "index": {
           "description": "r1 isSubRangeOf r2 checks is all the elements in r1 are included in r2",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "isSubRangeOf",
           "normalized": "Range a-\u003eRange a-\u003eBool",
@@ -17096,6 +18562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "liftR",
           "package": "feldspar-language",
@@ -17105,6 +18572,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "liftR",
           "normalized": "Range a)-\u003e(Range b,Range c,Range d)",
@@ -17120,6 +18588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires a monotonic function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "mapMonotonic",
           "package": "feldspar-language",
@@ -17130,6 +18599,7 @@
         "index": {
           "description": "Requires monotonic function",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "mapMonotonic",
           "normalized": "(a-\u003eb)-\u003eRange a-\u003eRange b",
@@ -17146,6 +18616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires a monotonic function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "mapMonotonic2",
           "package": "feldspar-language",
@@ -17156,6 +18627,7 @@
         "index": {
           "description": "Requires monotonic function",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "mapMonotonic2",
           "normalized": "(a-\u003eb-\u003ec)-\u003eRange a-\u003eRange b-\u003eRange c",
@@ -17171,6 +18643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "mapR",
           "package": "feldspar-language",
@@ -17180,6 +18653,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "mapR",
           "normalized": "Range a-\u003eRange a)-\u003e(Range b,Range c,Range d)-\u003e(Range b,Range c,Range d)",
@@ -17195,6 +18669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccurate upper bound for \u003ccode\u003e\u003ca\u003e.|.\u003c/a\u003e\u003c/code\u003e on unsigned numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "maxOrUnsigned",
           "package": "feldspar-language",
@@ -17205,6 +18680,7 @@
         "index": {
           "description": "Accurate upper bound for on unsigned numbers",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "maxOrUnsigned",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea",
@@ -17221,6 +18697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ea `maxPlus` b\u003c/code\u003e adds \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e but if the addition overflows then\n   \u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "maxPlus",
           "package": "feldspar-language",
@@ -17231,6 +18708,7 @@
         "index": {
           "description": "maxPlus adds and but if the addition overflows then maxBound is returned",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "maxPlus",
           "normalized": "a-\u003ea-\u003ea",
@@ -17247,6 +18725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccurate lower bound for \u003ccode\u003e\u003ca\u003e.|.\u003c/a\u003e\u003c/code\u003e on unsigned numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "minOrUnsigned",
           "package": "feldspar-language",
@@ -17257,6 +18736,7 @@
         "index": {
           "description": "Accurate lower bound for on unsigned numbers",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "minOrUnsigned",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea",
@@ -17273,6 +18753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe range from \u003ccode\u003e0\u003c/code\u003e to the maximum element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "naturalRange",
           "package": "feldspar-language",
@@ -17283,6 +18764,7 @@
         "index": {
           "description": "The range from to the maximum element",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "naturalRange",
           "package": "feldspar-language",
@@ -17297,6 +18779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe range from the smallest negative element to \u003ccode\u003e-1\u003c/code\u003e.\n   Undefined for unsigned types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "negativeRange",
           "package": "feldspar-language",
@@ -17307,6 +18790,7 @@
         "index": {
           "description": "The range from the smallest negative element to Undefined for unsigned types",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "negativeRange",
           "package": "feldspar-language",
@@ -17320,6 +18804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "predAbs",
           "package": "feldspar-language",
@@ -17329,6 +18814,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "predAbs",
           "normalized": "a-\u003ea",
@@ -17345,6 +18831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "range",
           "package": "feldspar-language",
@@ -17355,6 +18842,7 @@
         "index": {
           "description": "Construct range",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "range",
           "normalized": "a-\u003ea-\u003eRange a",
@@ -17370,6 +18858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagates range information through \u003ccode\u003eabs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeAbs",
           "package": "feldspar-language",
@@ -17380,6 +18869,7 @@
         "index": {
           "description": "Propagates range information through abs",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeAbs",
           "normalized": "Range a-\u003eRange a",
@@ -17396,6 +18886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagates range information through addition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeAdd",
           "package": "feldspar-language",
@@ -17406,6 +18897,7 @@
         "index": {
           "description": "Propagates range information through addition",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeAdd",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17422,6 +18914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigned case for \u003ccode\u003e\u003ca\u003erangeAdd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeAddSigned",
           "package": "feldspar-language",
@@ -17432,6 +18925,7 @@
         "index": {
           "description": "Signed case for rangeAdd",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeAddSigned",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17448,6 +18942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned case for \u003ccode\u003e\u003ca\u003erangeAdd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeAddUnsigned",
           "package": "feldspar-language",
@@ -17458,6 +18953,7 @@
         "index": {
           "description": "Unsigned case for rangeAdd",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeAddUnsigned",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17474,6 +18970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagating range information through \u003ccode\u003e\u003ca\u003e.&.\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeAnd",
           "package": "feldspar-language",
@@ -17484,6 +18981,7 @@
         "index": {
           "description": "Propagating range information through",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeAnd",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17500,6 +18998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheap and inaccurate range propagation for \u003ccode\u003e\u003ca\u003e.&.\u003c/a\u003e\u003c/code\u003e on unsigned numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeAndUnsignedCheap",
           "package": "feldspar-language",
@@ -17510,6 +19009,7 @@
         "index": {
           "description": "Cheap and inaccurate range propagation for on unsigned numbers",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeAndUnsignedCheap",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17526,6 +19026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erangeByRange ra rb\u003c/code\u003e: Computes the range of the following set\n\u003c/p\u003e\u003cpre\u003e {x | a \u003c- ra, b \u003c- rb, x \u003c- Range a b}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeByRange",
           "package": "feldspar-language",
@@ -17536,6 +19037,7 @@
         "index": {
           "description": "rangeByRange ra rb Computes the range of the following set ra rb Range",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeByRange",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17552,6 +19054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagating range information through \u003ccode\u003e\u003ca\u003ecomplement\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeComplement",
           "package": "feldspar-language",
@@ -17562,6 +19065,7 @@
         "index": {
           "description": "Propagating range information through complement",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeComplement",
           "normalized": "Range a-\u003eRange a",
@@ -17578,6 +19082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagates range information through \u003ccode\u003e\u003ca\u003ediv\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeDiv",
           "package": "feldspar-language",
@@ -17588,6 +19093,7 @@
         "index": {
           "description": "Propagates range information through div",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeDiv",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17604,6 +19110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned case for \u003ccode\u003e\u003ca\u003erangeDiv\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeDivU",
           "package": "feldspar-language",
@@ -17614,6 +19121,7 @@
         "index": {
           "description": "Unsigned case for rangeDiv",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeDivU",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17630,6 +19138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagates range information through exponentiation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeExp",
           "package": "feldspar-language",
@@ -17640,6 +19149,7 @@
         "index": {
           "description": "Propagates range information through exponentiation",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeExp",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17656,6 +19166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigend case for \u003ccode\u003e\u003ca\u003erangeExp\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeExpSigned",
           "package": "feldspar-language",
@@ -17666,6 +19177,7 @@
         "index": {
           "description": "Sigend case for rangeExp",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeExpSigned",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17682,6 +19194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned case for \u003ccode\u003e\u003ca\u003erangeExp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeExpUnsigned",
           "package": "feldspar-language",
@@ -17692,6 +19205,7 @@
         "index": {
           "description": "Unsigned case for rangeExp",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeExpUnsigned",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17708,6 +19222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erangeGap r1 r2\u003c/code\u003e returns a range of all the elements between \u003ccode\u003er1\u003c/code\u003e and\n   \u003ccode\u003er2\u003c/code\u003e including the boundary elements. If \u003ccode\u003er1\u003c/code\u003e and \u003ccode\u003er2\u003c/code\u003e have elements in\n   common the result is an empty range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeGap",
           "package": "feldspar-language",
@@ -17718,6 +19233,7 @@
         "index": {
           "description": "rangeGap r1 r2 returns range of all the elements between r1 and r2 including the boundary elements If r1 and r2 have elements in common the result is an empty range",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeGap",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17734,6 +19250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersection on ranges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeIntersection",
           "package": "feldspar-language",
@@ -17744,6 +19261,7 @@
         "index": {
           "description": "Intersection on ranges",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeIntersection",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17760,6 +19278,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003er1 `rangeLess` r2:\u003c/pre\u003e\u003cp\u003eChecks if all elements of \u003ccode\u003er1\u003c/code\u003e are less than all elements of \u003ccode\u003er2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeLess",
           "package": "feldspar-language",
@@ -17770,6 +19289,7 @@
         "index": {
           "description": "r1 rangeLess r2 Checks if all elements of r1 are less than all elements of r2",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeLess",
           "normalized": "Range a-\u003eRange a-\u003eBool",
@@ -17786,6 +19306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWriting \u003ccode\u003ed `rangeLess` abs r\u003c/code\u003e doesn't mean what you think it does because\n \u003ccode\u003er\u003c/code\u003e may contain minBound which doesn't have a positive representation.\n Instead, this function should be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeLessAbs",
           "package": "feldspar-language",
@@ -17796,6 +19317,7 @@
         "index": {
           "description": "Writing rangeLess abs doesn mean what you think it does because may contain minBound which doesn have positive representation Instead this function should be used",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeLessAbs",
           "normalized": "Range a-\u003eRange a-\u003eBool",
@@ -17812,6 +19334,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003er1 `rangeLessEq` r2:\u003c/pre\u003e\u003cp\u003eChecks if all elements of \u003ccode\u003er1\u003c/code\u003e are less than or equal to all elements of\n \u003ccode\u003er2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeLessEq",
           "package": "feldspar-language",
@@ -17822,6 +19345,7 @@
         "index": {
           "description": "r1 rangeLessEq r2 Checks if all elements of r1 are less than or equal to all elements of r2",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeLessEq",
           "normalized": "Range a-\u003eRange a-\u003eBool",
@@ -17838,6 +19362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagates range information through \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeMax",
           "package": "feldspar-language",
@@ -17848,6 +19373,7 @@
         "index": {
           "description": "Propagates range information through max",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeMax",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17864,6 +19390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003erangeMax\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeMin",
           "package": "feldspar-language",
@@ -17874,6 +19401,7 @@
         "index": {
           "description": "Analogous to rangeMax",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeMin",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17890,6 +19418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagates range information through \u003ccode\u003e\u003ca\u003emod\u003c/a\u003e\u003c/code\u003e.\n Note that we assume Haskell semantics for \u003ccode\u003e\u003ca\u003emod\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeMod",
           "package": "feldspar-language",
@@ -17900,6 +19429,7 @@
         "index": {
           "description": "Propagates range information through mod Note that we assume Haskell semantics for mod",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeMod",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17916,6 +19446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagates range information through multiplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeMul",
           "package": "feldspar-language",
@@ -17926,6 +19457,7 @@
         "index": {
           "description": "Propagates range information through multiplication",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeMul",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17942,6 +19474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigned case for \u003ccode\u003e\u003ca\u003erangeMul\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeMulSigned",
           "package": "feldspar-language",
@@ -17952,6 +19485,7 @@
         "index": {
           "description": "Signed case for rangeMul",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeMulSigned",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17968,6 +19502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned case for \u003ccode\u003e\u003ca\u003erangeMul\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeMulUnsigned",
           "package": "feldspar-language",
@@ -17978,6 +19513,7 @@
         "index": {
           "description": "Unsigned case for rangeMul",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeMulUnsigned",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -17994,6 +19530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagates range information through negation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeNeg",
           "package": "feldspar-language",
@@ -18004,6 +19541,7 @@
         "index": {
           "description": "Propagates range information through negation",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeNeg",
           "normalized": "Range a-\u003eRange a",
@@ -18020,6 +19558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigned case for \u003ccode\u003e\u003ca\u003erangeNeg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeNegSigned",
           "package": "feldspar-language",
@@ -18030,6 +19569,7 @@
         "index": {
           "description": "Signed case for rangeNeg",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeNegSigned",
           "normalized": "Range a-\u003eRange a",
@@ -18046,6 +19586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned case for \u003ccode\u003e\u003ca\u003erangeNeg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeNegUnsigned",
           "package": "feldspar-language",
@@ -18056,6 +19597,7 @@
         "index": {
           "description": "Unsigned case for rangeNeg",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeNegUnsigned",
           "normalized": "Range a-\u003eRange a",
@@ -18072,6 +19614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function for defining range propagation. If the input\n   range is empty then the result is also empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeOp",
           "package": "feldspar-language",
@@ -18082,6 +19625,7 @@
         "index": {
           "description": "convenience function for defining range propagation If the input range is empty then the result is also empty",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeOp",
           "normalized": "(Range a-\u003eRange a)-\u003eRange a-\u003eRange a",
@@ -18098,6 +19642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003erangeOp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeOp2",
           "package": "feldspar-language",
@@ -18108,6 +19653,7 @@
         "index": {
           "description": "See rangeOp",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeOp2",
           "normalized": "(Range a-\u003eRange a-\u003eRange a)-\u003eRange a-\u003eRange a-\u003eRange a",
@@ -18124,6 +19670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagates range information through \u003ccode\u003e\u003ca\u003e.|.\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeOr",
           "package": "feldspar-language",
@@ -18134,6 +19681,7 @@
         "index": {
           "description": "Propagates range information through",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeOr",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -18150,6 +19698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccurate range propagation through \u003ccode\u003e\u003ca\u003e.|.\u003c/a\u003e\u003c/code\u003e for unsigned types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeOrUnsignedAccurate",
           "package": "feldspar-language",
@@ -18160,6 +19709,7 @@
         "index": {
           "description": "Accurate range propagation through for unsigned types",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeOrUnsignedAccurate",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -18176,6 +19726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheap and inaccurate range propagation for \u003ccode\u003e\u003ca\u003e.|.\u003c/a\u003e\u003c/code\u003e on unsigned numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeOrUnsignedCheap",
           "package": "feldspar-language",
@@ -18186,6 +19737,7 @@
         "index": {
           "description": "Cheap and inaccurate range propagation for on unsigned numbers",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeOrUnsignedCheap",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -18202,6 +19754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagates range information through \u003ccode\u003e\u003ca\u003equot\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeQuot",
           "package": "feldspar-language",
@@ -18212,6 +19765,7 @@
         "index": {
           "description": "Propagates range information through quot",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeQuot",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -18228,6 +19782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned case for \u003ccode\u003e\u003ca\u003erangeQuot\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeQuotU",
           "package": "feldspar-language",
@@ -18238,6 +19793,7 @@
         "index": {
           "description": "Unsigned case for rangeQuot",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeQuotU",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -18254,6 +19810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagates range information through \u003ccode\u003e\u003ca\u003erem\u003c/a\u003e\u003c/code\u003e.\n Note that we assume Haskell semantics for \u003ccode\u003e\u003ca\u003erem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeRem",
           "package": "feldspar-language",
@@ -18264,6 +19821,7 @@
         "index": {
           "description": "Propagates range information through rem Note that we assume Haskell semantics for rem",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeRem",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -18280,6 +19838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagating range information through \u003ccode\u003eshiftLU\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeShiftLU",
           "package": "feldspar-language",
@@ -18290,6 +19849,7 @@
         "index": {
           "description": "Propagating range information through shiftLU",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeShiftLU",
           "normalized": "Range a-\u003eRange b-\u003eRange a",
@@ -18306,6 +19866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned case for \u003ccode\u003e\u003ca\u003erangeShiftLU\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeShiftLUUnsigned",
           "package": "feldspar-language",
@@ -18316,6 +19877,7 @@
         "index": {
           "description": "Unsigned case for rangeShiftLU",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeShiftLUUnsigned",
           "normalized": "Range a-\u003eRange b-\u003eRange a",
@@ -18332,6 +19894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagating range information through \u003ccode\u003eshiftRU\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeShiftRU",
           "package": "feldspar-language",
@@ -18342,6 +19905,7 @@
         "index": {
           "description": "Propagating range information through shiftRU",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeShiftRU",
           "normalized": "Range a-\u003eRange b-\u003eRange a",
@@ -18358,6 +19922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned case for \u003ccode\u003e\u003ca\u003erangeShiftRU\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeShiftRUUnsigned",
           "package": "feldspar-language",
@@ -18368,6 +19933,7 @@
         "index": {
           "description": "Unsigned case for rangeShiftRU",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeShiftRUUnsigned",
           "normalized": "Range a-\u003eRange b-\u003eRange a",
@@ -18384,6 +19950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagates range information through \u003ccode\u003e\u003ca\u003esignum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeSignum",
           "package": "feldspar-language",
@@ -18394,6 +19961,7 @@
         "index": {
           "description": "Propagates range information through signum",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeSignum",
           "normalized": "Range a-\u003eRange a",
@@ -18410,6 +19978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigned case for \u003ccode\u003e\u003ca\u003erangeSignum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeSignumSigned",
           "package": "feldspar-language",
@@ -18420,6 +19989,7 @@
         "index": {
           "description": "Signed case for rangeSignum",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeSignumSigned",
           "normalized": "Range a-\u003eRange a",
@@ -18436,6 +20006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned case for \u003ccode\u003e\u003ca\u003erangeSignum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeSignumUnsigned",
           "package": "feldspar-language",
@@ -18446,6 +20017,7 @@
         "index": {
           "description": "Unsigned case for rangeSignum",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeSignumUnsigned",
           "normalized": "Range a-\u003eRange a",
@@ -18462,6 +20034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of a range. Beware that the size may not always be representable\n   for signed types. For instance\n   \u003ccode\u003erangeSize (range minBound maxBound) :: Int\u003c/code\u003e gives a nonsense answer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeSize",
           "package": "feldspar-language",
@@ -18472,6 +20045,7 @@
         "index": {
           "description": "The size of range Beware that the size may not always be representable for signed types For instance rangeSize range minBound maxBound Int gives nonsense answer",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeSize",
           "normalized": "Range a-\u003ea",
@@ -18488,6 +20062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagates range information through subtraction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeSub",
           "package": "feldspar-language",
@@ -18498,6 +20073,7 @@
         "index": {
           "description": "Propagates range information through subtraction",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeSub",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -18514,6 +20090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRange propagation for \u003ccode\u003e\u003ca\u003esubSat\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeSubSat",
           "package": "feldspar-language",
@@ -18524,6 +20101,7 @@
         "index": {
           "description": "Range propagation for subSat",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeSubSat",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -18539,6 +20117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeSubSigned",
           "package": "feldspar-language",
@@ -18548,6 +20127,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeSubSigned",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -18564,6 +20144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned case for \u003ccode\u003e\u003ca\u003erangeSub\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeSubUnsigned",
           "package": "feldspar-language",
@@ -18574,6 +20155,7 @@
         "index": {
           "description": "Unsigned case for rangeSub",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeSubUnsigned",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -18590,6 +20172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion on ranges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeUnion",
           "package": "feldspar-language",
@@ -18600,6 +20183,7 @@
         "index": {
           "description": "Union on ranges",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeUnion",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -18616,6 +20200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagating range information through \u003ccode\u003e\u003ca\u003exor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeXor",
           "package": "feldspar-language",
@@ -18626,6 +20211,7 @@
         "index": {
           "description": "Propagating range information through xor",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeXor",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -18642,6 +20228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned case for \u003ccode\u003e\u003ca\u003erangeXor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "rangeXorUnsigned",
           "package": "feldspar-language",
@@ -18652,6 +20239,7 @@
         "index": {
           "description": "Unsigned case for rangeXor",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "rangeXorUnsigned",
           "normalized": "Range a-\u003eRange a-\u003eRange a",
@@ -18668,6 +20256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows a bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "showBound",
           "package": "feldspar-language",
@@ -18678,6 +20267,7 @@
         "index": {
           "description": "Shows bound",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "showBound",
           "normalized": "a-\u003eString",
@@ -18694,6 +20284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA textual representation of ranges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "showRange",
           "package": "feldspar-language",
@@ -18704,6 +20295,7 @@
         "index": {
           "description": "textual representation of ranges",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "showRange",
           "normalized": "Range a-\u003eString",
@@ -18720,6 +20312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe range containing one element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "singletonRange",
           "package": "feldspar-language",
@@ -18730,6 +20323,7 @@
         "index": {
           "description": "The range containing one element",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "singletonRange",
           "normalized": "a-\u003eRange a",
@@ -18746,6 +20340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaturating unsigned subtraction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Range",
           "name": "subSat",
           "package": "feldspar-language",
@@ -18756,6 +20351,7 @@
         "index": {
           "description": "Saturating unsigned subtraction",
           "hierarchy": "Feldspar Range",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Range",
           "name": "subSat",
           "normalized": "a-\u003ea-\u003ea",
@@ -18771,6 +20367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "Repa",
           "package": "feldspar-language",
@@ -18779,6 +20376,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "Repa",
           "package": "feldspar-language",
@@ -18792,6 +20390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": ":.",
           "package": "feldspar-language",
@@ -18800,6 +20399,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": ":.",
           "package": "feldspar-language",
@@ -18813,6 +20413,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Slices\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "All",
           "package": "feldspar-language",
@@ -18822,6 +20423,7 @@
         "index": {
           "description": "Slices",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "All",
           "package": "feldspar-language",
@@ -18835,6 +20437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "Any",
           "package": "feldspar-language",
@@ -18843,6 +20446,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "Any",
           "package": "feldspar-language",
@@ -18856,6 +20460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "DIM0",
           "package": "feldspar-language",
@@ -18864,6 +20469,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "DIM0",
           "package": "feldspar-language",
@@ -18877,6 +20483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "DIM1",
           "package": "feldspar-language",
@@ -18885,6 +20492,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "DIM1",
           "package": "feldspar-language",
@@ -18898,6 +20506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "DIM2",
           "package": "feldspar-language",
@@ -18906,6 +20515,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "DIM2",
           "package": "feldspar-language",
@@ -18919,6 +20529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "DIM3",
           "package": "feldspar-language",
@@ -18927,6 +20538,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "DIM3",
           "package": "feldspar-language",
@@ -18940,6 +20552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "DVector",
           "package": "feldspar-language",
@@ -18948,6 +20561,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "DVector",
           "package": "feldspar-language",
@@ -18961,6 +20575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "FullShape",
           "package": "feldspar-language",
@@ -18969,6 +20584,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "FullShape",
           "package": "feldspar-language",
@@ -18982,6 +20598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "Shape",
           "package": "feldspar-language",
@@ -18990,6 +20607,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "Shape",
           "package": "feldspar-language",
@@ -19003,6 +20621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "Slice",
           "package": "feldspar-language",
@@ -19011,6 +20630,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "Slice",
           "package": "feldspar-language",
@@ -19024,6 +20644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "SliceShape",
           "package": "feldspar-language",
@@ -19032,6 +20653,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "SliceShape",
           "package": "feldspar-language",
@@ -19046,6 +20668,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Vectors\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "Vector",
           "package": "feldspar-language",
@@ -19055,6 +20678,7 @@
         "index": {
           "description": "Vectors",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "Vector",
           "package": "feldspar-language",
@@ -19069,6 +20693,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Shapes\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "Z",
           "package": "feldspar-language",
@@ -19078,6 +20703,7 @@
         "index": {
           "description": "Shapes",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "Z",
           "package": "feldspar-language",
@@ -19091,6 +20717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex into a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "(!:)",
           "package": "feldspar-language",
@@ -19101,6 +20728,7 @@
         "index": {
           "description": "Index into vector",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "(!:) !:",
           "normalized": "Vector a b-\u003ea-\u003eb",
@@ -19115,6 +20743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "(++)",
           "package": "feldspar-language",
@@ -19124,6 +20753,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "(++) ++",
           "normalized": "Vector DIM a-\u003eVector DIM a-\u003eVector DIM a",
@@ -19139,6 +20769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerating a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "(...)",
           "package": "feldspar-language",
@@ -19149,6 +20780,7 @@
         "index": {
           "description": "Enumerating vector",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "(...) ...",
           "normalized": "Data Index-\u003eData Index-\u003eDVector DIM Index",
@@ -19163,6 +20795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": ":.",
           "package": "feldspar-language",
@@ -19172,6 +20805,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": ":.",
           "package": "feldspar-language",
@@ -19184,6 +20818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "All",
           "package": "feldspar-language",
@@ -19193,6 +20828,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "All",
           "package": "feldspar-language",
@@ -19206,6 +20842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "Any",
           "package": "feldspar-language",
@@ -19215,6 +20852,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "Any",
           "package": "feldspar-language",
@@ -19228,6 +20866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "Vector",
           "package": "feldspar-language",
@@ -19237,6 +20876,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "Vector",
           "normalized": "Vector a(a-\u003eb)",
@@ -19252,6 +20892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "Z",
           "package": "feldspar-language",
@@ -19261,6 +20902,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "Z",
           "package": "feldspar-language",
@@ -19274,6 +20916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the shape of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "backpermute",
           "package": "feldspar-language",
@@ -19284,6 +20927,7 @@
         "index": {
           "description": "Change the shape of vector",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "backpermute",
           "normalized": "a-\u003e(a-\u003eb)-\u003eVector b c-\u003eVector a c",
@@ -19299,6 +20943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the diagonal of a two dimensional vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "diagonal",
           "package": "feldspar-language",
@@ -19309,6 +20954,7 @@
         "index": {
           "description": "Extract the diagonal of two dimensional vector",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "diagonal",
           "normalized": "Vector DIM a-\u003eVector DIM a",
@@ -19324,6 +20970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of dimensions in a shape\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "dim",
           "package": "feldspar-language",
@@ -19334,6 +20981,7 @@
         "index": {
           "description": "Get the number of dimensions in shape",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "dim",
           "normalized": "a-\u003eInt",
@@ -19348,6 +20996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "drop",
           "package": "feldspar-language",
@@ -19357,6 +21006,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "drop",
           "normalized": "Data Length-\u003eVector DIM a-\u003eVector DIM a",
@@ -19372,6 +21022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eenumFrom m\u003c/code\u003e: Enumerate the indexes from \u003ccode\u003em\u003c/code\u003e to \u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "enumFrom",
           "package": "feldspar-language",
@@ -19382,6 +21033,7 @@
         "index": {
           "description": "enumFrom Enumerate the indexes from to maxBound",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "enumFrom",
           "normalized": "Data Index-\u003eVector DIM(Data Index)",
@@ -19398,6 +21050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eenumFromTo m n\u003c/code\u003e: Enumerate the indexes from \u003ccode\u003em\u003c/code\u003e to \u003ccode\u003en\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eIn order to enumerate a different type, use \u003ccode\u003e\u003ca\u003ei2n\u003c/a\u003e\u003c/code\u003e, e.g:\n\u003c/p\u003e\u003cpre\u003e map i2n (10...20) :: Vector1 Word8\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "enumFromTo",
           "package": "feldspar-language",
@@ -19408,6 +21061,7 @@
         "index": {
           "description": "enumFromTo Enumerate the indexes from to In order to enumerate different type use i2n e.g map i2n Vector1 Word8",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "enumFromTo",
           "normalized": "Data Index-\u003eData Index-\u003eVector DIM(Data Index)",
@@ -19424,6 +21078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe shape and size of the vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "extent",
           "package": "feldspar-language",
@@ -19434,6 +21089,7 @@
         "index": {
           "description": "The shape and size of the vector",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "extent",
           "normalized": "Vector a b-\u003ea",
@@ -19449,6 +21105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce a vector along its last dimension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "fold",
           "package": "feldspar-language",
@@ -19459,6 +21116,7 @@
         "index": {
           "description": "Reduce vector along its last dimension",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "fold",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eVector(b Data Length)a-\u003eVector b a",
@@ -19474,6 +21132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalization of \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e which allows for different initial\n   values when starting to fold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "fold'",
           "package": "feldspar-language",
@@ -19484,6 +21143,7 @@
         "index": {
           "description": "generalization of fold which allows for different initial values when starting to fold",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "fold'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVector b a-\u003eVector(b Data Length)a-\u003eVector b a",
@@ -19499,6 +21159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to the standard \u003ccode\u003efoldl1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "fold1",
           "package": "feldspar-language",
@@ -19509,6 +21170,7 @@
         "index": {
           "description": "Corresponds to the standard foldl1",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "fold1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVector DIM a-\u003ea",
@@ -19524,6 +21186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to the standard \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "foldl",
           "package": "feldspar-language",
@@ -19534,6 +21197,7 @@
         "index": {
           "description": "Corresponds to the standard foldl",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVector DIM b-\u003ea",
@@ -19548,6 +21212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "freezeVector",
           "package": "feldspar-language",
@@ -19557,6 +21222,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "freezeVector",
           "normalized": "DVector a b-\u003e(Data[Length],Data[b])",
@@ -19573,6 +21239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003e\u003ca\u003etoIndex\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "fromIndex",
           "package": "feldspar-language",
@@ -19583,6 +21250,7 @@
         "index": {
           "description": "Inverse of toIndex",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "fromIndex",
           "normalized": "a-\u003eData Index-\u003ea",
@@ -19598,6 +21266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "fromList",
           "package": "feldspar-language",
@@ -19607,6 +21276,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "fromList",
           "normalized": "[Data a]-\u003eData[a]",
@@ -19623,6 +21293,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e Fuctions\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eStore a vector in an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "fromVector",
           "package": "feldspar-language",
@@ -19633,6 +21304,7 @@
         "index": {
           "description": "Fuctions Store vector in an array",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "fromVector",
           "normalized": "DVector a b-\u003eData[b]",
@@ -19648,6 +21320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "fullOfSlice",
           "package": "feldspar-language",
@@ -19657,6 +21330,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "fullOfSlice",
           "normalized": "a-\u003eSliceShape a-\u003eFullShape a",
@@ -19672,6 +21346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "head",
           "package": "feldspar-language",
@@ -19681,6 +21356,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "head",
           "normalized": "Vector DIM a-\u003ea",
@@ -19696,6 +21372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether an index is within a given shape.\n \u003ccode\u003einRange l u i\u003c/code\u003e checks that \u003ccode\u003ei\u003c/code\u003e fits between \u003ccode\u003el\u003c/code\u003e and \u003ccode\u003eu\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "inRange",
           "package": "feldspar-language",
@@ -19706,6 +21383,7 @@
         "index": {
           "description": "Check whether an index is within given shape inRange checks that fits between and",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "inRange",
           "normalized": "a-\u003ea-\u003ea-\u003eData Bool",
@@ -19721,6 +21399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "indexed",
           "package": "feldspar-language",
@@ -19730,6 +21409,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "indexed",
           "normalized": "Data Length-\u003e(Data Index-\u003ea)-\u003eVector DIM a",
@@ -19744,6 +21424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "init",
           "package": "feldspar-language",
@@ -19753,6 +21434,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "init",
           "normalized": "Vector DIM a-\u003eVector DIM a",
@@ -19767,6 +21449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "inits",
           "package": "feldspar-language",
@@ -19776,6 +21459,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "inits",
           "normalized": "Vector DIM a-\u003eVector DIM(Vector DIM a)",
@@ -19790,6 +21474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "inits1",
           "package": "feldspar-language",
@@ -19799,6 +21484,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "inits1",
           "normalized": "Vector DIM a-\u003eVector DIM(Vector DIM a)",
@@ -19814,6 +21500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe intersection of two dimensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "intersectDim",
           "package": "feldspar-language",
@@ -19824,6 +21511,7 @@
         "index": {
           "description": "The intersection of two dimensions",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "intersectDim",
           "normalized": "a-\u003ea-\u003ea",
@@ -19839,6 +21527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "laplace",
           "package": "feldspar-language",
@@ -19848,6 +21537,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "laplace",
           "normalized": "Data Length-\u003eDVector DIM Float-\u003eDVector DIM Float",
@@ -19862,6 +21552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "last",
           "package": "feldspar-language",
@@ -19871,6 +21562,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "last",
           "normalized": "Vector DIM a-\u003ea",
@@ -19885,6 +21577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "length",
           "package": "feldspar-language",
@@ -19894,6 +21587,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "length",
           "normalized": "Vector DIM a-\u003eData Length",
@@ -19909,6 +21603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function on all the elements of a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "map",
           "package": "feldspar-language",
@@ -19919,6 +21614,7 @@
         "index": {
           "description": "Map function on all the elements of vector",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eVector c a-\u003eVector c b",
@@ -19933,6 +21629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "mapDIM1",
           "package": "feldspar-language",
@@ -19942,6 +21639,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "mapDIM1",
           "normalized": "(Data Index-\u003eData Index)-\u003eDIM-\u003eDIM",
@@ -19957,6 +21655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "maximum",
           "package": "feldspar-language",
@@ -19966,6 +21665,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "maximum",
           "normalized": "Vector DIM(Data a)-\u003eData a",
@@ -19981,6 +21681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a vector in memory. Use this function instead of \u003ccode\u003e\u003ca\u003eforce\u003c/a\u003e\u003c/code\u003e if\n   possible as it is both much more safe and faster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "memorize",
           "package": "feldspar-language",
@@ -19991,6 +21692,7 @@
         "index": {
           "description": "Store vector in memory Use this function instead of force if possible as it is both much more safe and faster",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "memorize",
           "normalized": "DVector a b-\u003eDVector a b",
@@ -20005,6 +21707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "minimum",
           "package": "feldspar-language",
@@ -20014,6 +21717,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "minimum",
           "normalized": "Vector DIM(Data a)-\u003eData a",
@@ -20029,6 +21733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix multiplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "mmMult",
           "package": "feldspar-language",
@@ -20039,6 +21744,7 @@
         "index": {
           "description": "Matrix multiplication",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "mmMult",
           "normalized": "DVector DIM a-\u003eDVector DIM a-\u003eDVector DIM a",
@@ -20055,6 +21761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the extent of the vector to the supplied value. If the supplied\n extent will contain more elements than the old extent, the new elements\n will have undefined value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "newExtent",
           "package": "feldspar-language",
@@ -20065,6 +21772,7 @@
         "index": {
           "description": "Change the extent of the vector to the supplied value If the supplied extent will contain more elements than the old extent the new elements will have undefined value",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "newExtent",
           "normalized": "a-\u003eVector a b-\u003eVector a b",
@@ -20081,6 +21789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the length of the vector to the supplied value. If the supplied\n length is greater than the old length, the new elements will have undefined\n value. The resulting vector has only one segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "newLen",
           "package": "feldspar-language",
@@ -20091,6 +21800,7 @@
         "index": {
           "description": "Change the length of the vector to the supplied value If the supplied length is greater than the old length the new elements will have undefined value The resulting vector has only one segment",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "newLen",
           "normalized": "Data Length-\u003eVector DIM a-\u003eVector DIM a",
@@ -20107,6 +21817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePermute a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "permute",
           "package": "feldspar-language",
@@ -20117,6 +21828,7 @@
         "index": {
           "description": "Permute vector",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "permute",
           "normalized": "(Data Length-\u003eData Index-\u003eData Index)-\u003eVector DIM a-\u003eVector DIM a",
@@ -20132,6 +21844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuplicates part of a vector along a new dimension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "replicate",
           "package": "feldspar-language",
@@ -20142,6 +21855,7 @@
         "index": {
           "description": "Duplicates part of vector along new dimension",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "replicate",
           "normalized": "a-\u003eVector(SliceShape a)b-\u003eVector(FullShape a)b",
@@ -20156,6 +21870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "replicate1",
           "package": "feldspar-language",
@@ -20165,6 +21880,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "replicate1",
           "normalized": "Data Length-\u003ea-\u003eVector DIM a",
@@ -20180,6 +21896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the shape of a vector. This function is potentially unsafe, the\n   new shape need to have fewer or equal number of elements compared to\n   the old shape.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "reshape",
           "package": "feldspar-language",
@@ -20190,6 +21907,7 @@
         "index": {
           "description": "Change the shape of vector This function is potentially unsafe the new shape need to have fewer or equal number of elements compared to the old shape",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "reshape",
           "normalized": "a-\u003eVector b c-\u003eVector a c",
@@ -20204,6 +21922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "reverse",
           "package": "feldspar-language",
@@ -20213,6 +21932,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "reverse",
           "normalized": "Vector DIM a-\u003eVector DIM a",
@@ -20227,6 +21947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "rotateVecL",
           "package": "feldspar-language",
@@ -20236,6 +21957,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "rotateVecL",
           "normalized": "Data Index-\u003eVector DIM a-\u003eVector DIM a",
@@ -20251,6 +21973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "rotateVecR",
           "package": "feldspar-language",
@@ -20260,6 +21983,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "rotateVecR",
           "normalized": "Data Index-\u003eVector DIM a-\u003eVector DIM a",
@@ -20276,6 +22000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar product of two vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "scalarProd",
           "package": "feldspar-language",
@@ -20286,6 +22011,7 @@
         "index": {
           "description": "Scalar product of two vectors",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "scalarProd",
           "normalized": "Vector DIM a-\u003eVector DIM a-\u003ea",
@@ -20302,6 +22028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the total number of elements in an array with this shape.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "size",
           "package": "feldspar-language",
@@ -20312,6 +22039,7 @@
         "index": {
           "description": "Get the total number of elements in an array with this shape",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "size",
           "normalized": "a-\u003eData Length",
@@ -20327,6 +22055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts a slice from a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "slice",
           "package": "feldspar-language",
@@ -20337,6 +22066,7 @@
         "index": {
           "description": "Extracts slice from vector",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "slice",
           "normalized": "Vector(FullShape a)b-\u003ea-\u003eVector(SliceShape a)b",
@@ -20351,6 +22081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "sliceOfFull",
           "package": "feldspar-language",
@@ -20360,6 +22091,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "sliceOfFull",
           "normalized": "a-\u003eFullShape a-\u003eSliceShape a",
@@ -20375,6 +22107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "splitAt",
           "package": "feldspar-language",
@@ -20384,6 +22117,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "splitAt",
           "normalized": "Data Index-\u003eVector DIM a-\u003e(Vector DIM a,Vector DIM a)",
@@ -20399,6 +22133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "stencil",
           "package": "feldspar-language",
@@ -20408,6 +22143,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "stencil",
           "normalized": "DVector DIM Float-\u003eDVector DIM Float",
@@ -20423,6 +22159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSumming a vector along its last dimension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "sum",
           "package": "feldspar-language",
@@ -20433,6 +22170,7 @@
         "index": {
           "description": "Summing vector along its last dimension",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "sum",
           "normalized": "DVector(a Data Length)b-\u003eDVector a b",
@@ -20447,6 +22185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "sum1",
           "package": "feldspar-language",
@@ -20456,6 +22195,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "sum1",
           "normalized": "Vector DIM a-\u003ea",
@@ -20470,6 +22210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "tVec",
           "package": "feldspar-language",
@@ -20479,6 +22220,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "tVec",
           "normalized": "Patch a a-\u003ePatch(Vector DIM a)(Vector DIM a)",
@@ -20494,6 +22236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "tVec1",
           "package": "feldspar-language",
@@ -20503,6 +22246,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "tVec1",
           "normalized": "Patch a a-\u003ePatch(Vector DIM(Data a))(Vector DIM(Data a))",
@@ -20518,6 +22262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "tVec2",
           "package": "feldspar-language",
@@ -20527,6 +22272,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "tVec2",
           "normalized": "Patch a a-\u003ePatch(Vector DIM(Data a))(Vector DIM(Data a))",
@@ -20542,6 +22288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "tail",
           "package": "feldspar-language",
@@ -20551,6 +22298,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "tail",
           "normalized": "Vector DIM a-\u003eVector DIM a",
@@ -20565,6 +22313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "tails",
           "package": "feldspar-language",
@@ -20574,6 +22323,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "tails",
           "normalized": "Vector DIM a-\u003eVector DIM(Vector DIM a)",
@@ -20588,6 +22338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "take",
           "package": "feldspar-language",
@@ -20597,6 +22348,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "take",
           "normalized": "Data Length-\u003eVector DIM a-\u003eVector DIM a",
@@ -20611,6 +22363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "thawVector",
           "package": "feldspar-language",
@@ -20620,6 +22373,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "thawVector",
           "normalized": "(Data[Length],Data[a])-\u003eDVector b a",
@@ -20636,6 +22390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex into flat, linear, row-major representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "toIndex",
           "package": "feldspar-language",
@@ -20646,6 +22401,7 @@
         "index": {
           "description": "Index into flat linear row-major representation",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "toIndex",
           "normalized": "a-\u003ea-\u003eData Index",
@@ -20662,6 +22418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a shape into a list. Used in the \u003ccode\u003e\u003ca\u003eSyntactic\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "toList",
           "package": "feldspar-language",
@@ -20672,6 +22429,7 @@
         "index": {
           "description": "Turn shape into list Used in the Syntactic instance",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "toList",
           "normalized": "a-\u003e[Data Length]",
@@ -20688,6 +22446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReconstruct a shape. Used in the \u003ccode\u003e\u003ca\u003eSyntactic\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "toShape",
           "package": "feldspar-language",
@@ -20698,6 +22457,7 @@
         "index": {
           "description": "Reconstruct shape Used in the Syntactic instance",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "toShape",
           "normalized": "Int-\u003eData[Length]-\u003ea",
@@ -20714,6 +22474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestore a vector from an array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "toVector",
           "package": "feldspar-language",
@@ -20724,6 +22485,7 @@
         "index": {
           "description": "Restore vector from an array",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "toVector",
           "normalized": "a-\u003eData[b]-\u003eDVector a b",
@@ -20739,6 +22501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "transpose2D",
           "package": "feldspar-language",
@@ -20748,6 +22511,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "transpose2D",
           "normalized": "Vector DIM a-\u003eVector DIM a",
@@ -20763,6 +22527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange shape and transform elements of a vector. This function is the\n   most general way of manipulating a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "traverse",
           "package": "feldspar-language",
@@ -20773,6 +22538,7 @@
         "index": {
           "description": "Change shape and transform elements of vector This function is the most general way of manipulating vector",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "traverse",
           "normalized": "Vector a b-\u003e(a-\u003ec)-\u003e((a-\u003eb)-\u003ec-\u003ed)-\u003eVector c d",
@@ -20788,6 +22554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA scalar (zero dimensional) vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "unit",
           "package": "feldspar-language",
@@ -20798,6 +22565,7 @@
         "index": {
           "description": "scalar zero dimensional vector",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "unit",
           "normalized": "a-\u003eVector Z a",
@@ -20813,6 +22581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe shape of an array with size one, with a particular dimension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "unitDim",
           "package": "feldspar-language",
@@ -20823,6 +22592,7 @@
         "index": {
           "description": "The shape of an array with size one with particular dimension",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "unitDim",
           "package": "feldspar-language",
@@ -20836,6 +22606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "unzip",
           "package": "feldspar-language",
@@ -20845,6 +22616,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "unzip",
           "normalized": "Vector DIM(a,b)-\u003e(Vector DIM a,Vector DIM b)",
@@ -20860,6 +22632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe shape of an array of size zero, with a particular dimension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "zeroDim",
           "package": "feldspar-language",
@@ -20870,6 +22643,7 @@
         "index": {
           "description": "The shape of an array of size zero with particular dimension",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "zeroDim",
           "package": "feldspar-language",
@@ -20884,6 +22658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines the elements of two vectors. The size of the resulting vector\n   will be the intersection of the two argument vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "zip",
           "package": "feldspar-language",
@@ -20894,6 +22669,7 @@
         "index": {
           "description": "Combines the elements of two vectors The size of the resulting vector will be the intersection of the two argument vectors",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "zip",
           "normalized": "Vector a b-\u003eVector a c-\u003eVector a(b,c)",
@@ -20909,6 +22685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines the elements of two vectors pointwise using a function.\n   The size of the resulting vector will be the intersection of the\n   two argument vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Repa",
           "name": "zipWith",
           "package": "feldspar-language",
@@ -20919,6 +22696,7 @@
         "index": {
           "description": "Combines the elements of two vectors pointwise using function The size of the resulting vector will be the intersection of the two argument vectors",
           "hierarchy": "Feldspar Repa",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Repa",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVector d a-\u003eVector d b-\u003eVector d c",
@@ -20934,6 +22712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "Stream",
           "package": "feldspar-language",
@@ -20942,6 +22721,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "Stream",
           "package": "feldspar-language",
@@ -20956,6 +22736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfinite streams.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "Stream",
           "package": "feldspar-language",
@@ -20965,6 +22746,7 @@
         "index": {
           "description": "Infinite streams",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "Stream",
           "package": "feldspar-language",
@@ -20979,6 +22761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoops through a vector indefinitely to produce a stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "cycle",
           "package": "feldspar-language",
@@ -20989,6 +22772,7 @@
         "index": {
           "description": "Loops through vector indefinitely to produce stream",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "cycle",
           "normalized": "Vector a-\u003eStream a",
@@ -21004,6 +22788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'downsample n str' takes every \u003ccode\u003en\u003c/code\u003eth element of the input stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "downsample",
           "package": "feldspar-language",
@@ -21014,6 +22799,7 @@
         "index": {
           "description": "downsample str takes every th element of the input stream",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "downsample",
           "normalized": "Data Index-\u003eStream a-\u003eStream a",
@@ -21029,6 +22815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop a number of elements from the front of a stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "drop",
           "package": "feldspar-language",
@@ -21039,6 +22826,7 @@
         "index": {
           "description": "Drop number of elements from the front of stream",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "drop",
           "normalized": "Data Length-\u003eStream a-\u003eStream a",
@@ -21054,6 +22842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'duplicate n str' stretches the stream by duplicating the elements \u003ccode\u003en\u003c/code\u003e times\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "duplicate",
           "package": "feldspar-language",
@@ -21064,6 +22853,7 @@
         "index": {
           "description": "duplicate str stretches the stream by duplicating the elements times",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "duplicate",
           "normalized": "Data Index-\u003eStream a-\u003eStream a",
@@ -21079,6 +22869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fir filter on streams\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "fir",
           "package": "feldspar-language",
@@ -21089,6 +22880,7 @@
         "index": {
           "description": "fir filter on streams",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "fir",
           "normalized": "Vector Float-\u003eStream(Data Float)-\u003eStream(Data Float)",
@@ -21104,6 +22896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the first element of a stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "head",
           "package": "feldspar-language",
@@ -21114,6 +22907,7 @@
         "index": {
           "description": "Take the first element of stream",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "head",
           "normalized": "Stream a-\u003ea",
@@ -21129,6 +22923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn iir filter on streams\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "iir",
           "package": "feldspar-language",
@@ -21139,6 +22934,7 @@
         "index": {
           "description": "An iir filter on streams",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "iir",
           "normalized": "Data Float-\u003eVector Float-\u003eVector Float-\u003eStream(Data Float)-\u003eStream(Data Float)",
@@ -21154,6 +22950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new stream by alternating between the elements from\n   the two input streams\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "interleave",
           "package": "feldspar-language",
@@ -21164,6 +22961,7 @@
         "index": {
           "description": "Create new stream by alternating between the elements from the two input streams",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "interleave",
           "normalized": "Stream a-\u003eStream a-\u003eStream a",
@@ -21179,6 +22977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'intersperse a str' inserts an \u003ccode\u003ea\u003c/code\u003e between each element of the stream\n    \u003ccode\u003estr\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "intersperse",
           "package": "feldspar-language",
@@ -21189,6 +22988,7 @@
         "index": {
           "description": "intersperse str inserts an between each element of the stream str",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "intersperse",
           "normalized": "a-\u003eStream a-\u003eStream a",
@@ -21204,6 +23004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIteratively applies a function to a starting element. All the successive\n   results are used to create a stream.\n\u003c/p\u003e\u003cpre\u003eiterate f a == [a, f a, f (f a), f (f (f a)) ...]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "iterate",
           "package": "feldspar-language",
@@ -21214,6 +23015,7 @@
         "index": {
           "description": "Iteratively applies function to starting element All the successive results are used to create stream iterate",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "iterate",
           "normalized": "(a-\u003ea)-\u003ea-\u003eStream a",
@@ -21229,6 +23031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'map f str' transforms every element of the stream \u003ccode\u003estr\u003c/code\u003e using the\n   function \u003ccode\u003ef\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "map",
           "package": "feldspar-language",
@@ -21239,6 +23042,7 @@
         "index": {
           "description": "map str transforms every element of the stream str using the function",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eStream a-\u003eStream b",
@@ -21254,6 +23058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps a function over a stream using an accumulator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "mapAccum",
           "package": "feldspar-language",
@@ -21264,6 +23069,7 @@
         "index": {
           "description": "Maps function over stream using an accumulator",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "mapAccum",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003ea-\u003eStream b-\u003eStream c",
@@ -21280,6 +23086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'mapNth f n k str' transforms every \u003ccode\u003en\u003c/code\u003eth element with offset \u003ccode\u003ek\u003c/code\u003e\n    of the stream \u003ccode\u003estr\u003c/code\u003e using the function \u003ccode\u003ef\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "mapNth",
           "package": "feldspar-language",
@@ -21290,6 +23097,7 @@
         "index": {
           "description": "mapNth str transforms every th element with offset of the stream str using the function",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "mapNth",
           "normalized": "(a-\u003ea)-\u003eData Index-\u003eData Index-\u003eStream a-\u003eStream a",
@@ -21306,6 +23114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'maps fs str' uses one of the functions from \u003ccode\u003efs\u003c/code\u003e successively to modify\n   the elements of \u003ccode\u003estr\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "maps",
           "package": "feldspar-language",
@@ -21316,6 +23125,7 @@
         "index": {
           "description": "maps fs str uses one of the functions from fs successively to modify the elements of str",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "maps",
           "normalized": "[a-\u003ea]-\u003eStream a-\u003eStream a",
@@ -21331,6 +23141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA recurrence combinator with input. The function \u003ccode\u003e\u003ca\u003erecurrenceI\u003c/a\u003e\u003c/code\u003e is\n   similar to \u003ccode\u003e\u003ca\u003erecurrenceO\u003c/a\u003e\u003c/code\u003e. The difference is that that it has an input\n   stream, and that the recurrence equation may only refer to previous\n   inputs, it may not refer to previous outputs.\n\u003c/p\u003e\u003cp\u003eThe sliding average of a stream can easily be implemented using\n \u003ccode\u003e\u003ca\u003erecurrenceI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e slidingAvg :: Data WordN -\u003e Stream (Data WordN) -\u003e Stream (Data WordN)\n slidingAvg n str = recurrenceI (replicate n 0) str\n                    (\\input -\u003e sum input `quot` n)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "recurrenceI",
           "package": "feldspar-language",
@@ -21341,6 +23152,7 @@
         "index": {
           "description": "recurrence combinator with input The function recurrenceI is similar to recurrenceO The difference is that that it has an input stream and that the recurrence equation may only refer to previous inputs it may not refer to previous outputs The sliding average of stream can easily be implemented using recurrenceI slidingAvg Data WordN Stream Data WordN Stream Data WordN slidingAvg str recurrenceI replicate str input sum input quot",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "recurrenceI",
           "normalized": "Vector a-\u003eStream(Data a)-\u003e(Vector a-\u003eData b)-\u003eStream(Data b)",
@@ -21356,6 +23168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003erecurrenceIO\u003c/a\u003e\u003c/code\u003e but takes two input streams.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "recurrenceIIO",
           "package": "feldspar-language",
@@ -21366,6 +23179,7 @@
         "index": {
           "description": "Similar to recurrenceIO but takes two input streams",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "recurrenceIIO",
           "normalized": "Vector a-\u003eStream(Data a)-\u003eVector b-\u003eStream(Data b)-\u003eVector c-\u003e(Vector a-\u003eVector b-\u003eVector c-\u003eData c)-\u003eStream(Data c)",
@@ -21382,6 +23196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erecurrenceIO\u003c/a\u003e\u003c/code\u003e is a combination of \u003ccode\u003e\u003ca\u003erecurrenceO\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erecurrenceI\u003c/a\u003e\u003c/code\u003e. It\n   has an input stream and the recurrence equation may refer both to\n   previous inputs and outputs.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003erecurrenceIO\u003c/a\u003e\u003c/code\u003e is used when defining the \u003ccode\u003e\u003ca\u003eiir\u003c/a\u003e\u003c/code\u003e filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "recurrenceIO",
           "package": "feldspar-language",
@@ -21392,6 +23207,7 @@
         "index": {
           "description": "recurrenceIO is combination of recurrenceO and recurrenceI It has an input stream and the recurrence equation may refer both to previous inputs and outputs recurrenceIO is used when defining the iir filter",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "recurrenceIO",
           "normalized": "Vector a-\u003eStream(Data a)-\u003eVector b-\u003e(Vector a-\u003eVector b-\u003eData b)-\u003eStream(Data b)",
@@ -21408,6 +23224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA combinator for descibing recurrence equations, or feedback loops.\n   The recurrence equation may refer to previous outputs of the stream,\n   but only as many as the length of the input stream\n   It uses memory proportional to the input vector.\n\u003c/p\u003e\u003cp\u003eFor exaple one can define the fibonacci sequence as follows:\n\u003c/p\u003e\u003cpre\u003e fib = recurrenceO (vector [0,1]) (\\fib -\u003e fib!0 + fib!1)\n\u003c/pre\u003e\u003cp\u003eThe expressions \u003ccode\u003efib!0\u003c/code\u003e and \u003ccode\u003efib!1\u003c/code\u003e refer to previous elements in the\n stream defined one step back and two steps back respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "recurrenceO",
           "package": "feldspar-language",
@@ -21418,6 +23235,7 @@
         "index": {
           "description": "combinator for descibing recurrence equations or feedback loops The recurrence equation may refer to previous outputs of the stream but only as many as the length of the input stream It uses memory proportional to the input vector For exaple one can define the fibonacci sequence as follows fib recurrenceO vector fib fib fib The expressions fib and fib refer to previous elements in the stream defined one step back and two steps back respectively",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "recurrenceO",
           "normalized": "Vector a-\u003e(Vector a-\u003eData a)-\u003eStream(Data a)",
@@ -21433,6 +23251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat an element indefinitely.\n\u003c/p\u003e\u003cpre\u003erepeat a = [a, a, a, ...]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "repeat",
           "package": "feldspar-language",
@@ -21443,6 +23262,7 @@
         "index": {
           "description": "Repeat an element indefinitely repeat",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "repeat",
           "normalized": "a-\u003eStream a",
@@ -21458,6 +23278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'scan f a str' produces a stream by successively applying \u003ccode\u003ef\u003c/code\u003e to\n   each element of the input stream \u003ccode\u003estr\u003c/code\u003e and the previous element of\n   the output stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "scan",
           "package": "feldspar-language",
@@ -21468,6 +23289,7 @@
         "index": {
           "description": "scan str produces stream by successively applying to each element of the input stream str and the previous element of the output stream",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "scan",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eStream b-\u003eStream a",
@@ -21483,6 +23305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA scan but without an initial element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "scan1",
           "package": "feldspar-language",
@@ -21493,6 +23316,7 @@
         "index": {
           "description": "scan but without an initial element",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "scan1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eStream a-\u003eStream a",
@@ -21507,6 +23331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "slidingAvg",
           "package": "feldspar-language",
@@ -21516,6 +23341,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "slidingAvg",
           "normalized": "Data WordN-\u003eStream(Data WordN)-\u003eStream(Data WordN)",
@@ -21532,6 +23358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'splitAt n str' allocates \u003ccode\u003en\u003c/code\u003e elements from the stream \u003ccode\u003estr\u003c/code\u003e into a\n   core array and returns the rest of the stream continuing from\n   element 'n+1'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "splitAt",
           "package": "feldspar-language",
@@ -21542,6 +23369,7 @@
         "index": {
           "description": "splitAt str allocates elements from the stream str into core array and returns the rest of the stream continuing from element",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "splitAt",
           "normalized": "Data Length-\u003eStream a-\u003e(Data[Internal a],Stream a)",
@@ -21558,6 +23386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function for translating an algorithm on streams to an algorithm on vectors.\n   The result vector will have the same length as the input vector.\n   It is important that the stream function doesn't drop any elements of\n   the input stream.\n\u003c/p\u003e\u003cp\u003eThis function allocates memory for the output vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "streamAsVector",
           "package": "feldspar-language",
@@ -21568,6 +23397,7 @@
         "index": {
           "description": "convenience function for translating an algorithm on streams to an algorithm on vectors The result vector will have the same length as the input vector It is important that the stream function doesn drop any elements of the input stream This function allocates memory for the output vector",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "streamAsVector",
           "normalized": "(Stream a-\u003eStream b)-\u003eVector a-\u003eVector b",
@@ -21584,6 +23414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003estreamAsVector\u003c/a\u003e\u003c/code\u003e except the size of the output array is computed by the second argument\n   which is given the size of the input vector as a result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "streamAsVectorSize",
           "package": "feldspar-language",
@@ -21594,6 +23425,7 @@
         "index": {
           "description": "Similar to streamAsVector except the size of the output array is computed by the second argument which is given the size of the input vector as result",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "streamAsVectorSize",
           "normalized": "(Stream a-\u003eStream b)-\u003e(Data Length-\u003eData Length)-\u003eVector a-\u003eVector b",
@@ -21610,6 +23442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop the first element of a stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "tail",
           "package": "feldspar-language",
@@ -21620,6 +23453,7 @@
         "index": {
           "description": "Drop the first element of stream",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "tail",
           "normalized": "Stream a-\u003eStream a",
@@ -21635,6 +23469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'take n str' allocates \u003ccode\u003en\u003c/code\u003e elements from the stream \u003ccode\u003estr\u003c/code\u003e into a\n   core array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "take",
           "package": "feldspar-language",
@@ -21645,6 +23480,7 @@
         "index": {
           "description": "take str allocates elements from the stream str into core array",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "take",
           "normalized": "Data Length-\u003eStream a-\u003eData[Internal a]",
@@ -21660,6 +23496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunfold f acc\u003c/code\u003e creates a new stream by successively applying \u003ccode\u003ef\u003c/code\u003e to\n   to the accumulator \u003ccode\u003eacc\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "unfold",
           "package": "feldspar-language",
@@ -21670,6 +23507,7 @@
         "index": {
           "description": "unfold acc creates new stream by successively applying to to the accumulator acc",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "unfold",
           "normalized": "(a-\u003e(b,a))-\u003ea-\u003eStream b",
@@ -21685,6 +23523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a stream of pairs, split it into two stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "unzip",
           "package": "feldspar-language",
@@ -21695,6 +23534,7 @@
         "index": {
           "description": "Given stream of pairs split it into two stream",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "unzip",
           "normalized": "Stream(a,b)-\u003e(Stream a,Stream b)",
@@ -21710,6 +23550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePairs together two streams into one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "zip",
           "package": "feldspar-language",
@@ -21720,6 +23561,7 @@
         "index": {
           "description": "Pairs together two streams into one",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "zip",
           "normalized": "Stream a-\u003eStream b-\u003eStream(a,b)",
@@ -21735,6 +23577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePairs together two streams using a function to combine the\n   corresponding elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Stream",
           "name": "zipWith",
           "package": "feldspar-language",
@@ -21745,6 +23588,7 @@
         "index": {
           "description": "Pairs together two streams using function to combine the corresponding elements",
           "hierarchy": "Feldspar Stream",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Stream",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eStream a-\u003eStream b-\u003eStream c",
@@ -21760,6 +23604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "Internal",
           "package": "feldspar-language",
@@ -21768,6 +23613,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "Internal",
           "package": "feldspar-language",
@@ -21782,6 +23628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymbolic vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "Vector",
           "package": "feldspar-language",
@@ -21791,6 +23638,7 @@
         "index": {
           "description": "Symbolic vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "Vector",
           "package": "feldspar-language",
@@ -21805,6 +23653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-nested vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "Vector1",
           "package": "feldspar-language",
@@ -21814,6 +23663,7 @@
         "index": {
           "description": "Non-nested vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "Vector1",
           "package": "feldspar-language",
@@ -21828,6 +23678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo-level nested vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "Vector2",
           "package": "feldspar-language",
@@ -21837,6 +23688,7 @@
         "index": {
           "description": "Two-level nested vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "Vector2",
           "package": "feldspar-language",
@@ -21850,6 +23702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "(++)",
           "package": "feldspar-language",
@@ -21859,6 +23712,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "(++) ++",
           "normalized": "Vector a-\u003eVector a-\u003eVector a",
@@ -21874,6 +23728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eenumFromTo\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "(...)",
           "package": "feldspar-language",
@@ -21884,6 +23739,7 @@
         "index": {
           "description": "See enumFromTo",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "(...) ...",
           "normalized": "Data a-\u003eData a-\u003eVector(Data a)",
@@ -21898,6 +23754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "Empty",
           "package": "feldspar-language",
@@ -21907,6 +23764,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "Empty",
           "package": "feldspar-language",
@@ -21920,6 +23778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "Indexed",
           "package": "feldspar-language",
@@ -21929,6 +23788,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "Indexed",
           "package": "feldspar-language",
@@ -21942,6 +23802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "continuation",
           "package": "feldspar-language",
@@ -21951,6 +23812,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "continuation",
           "package": "feldspar-language",
@@ -21963,6 +23825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "drop",
           "package": "feldspar-language",
@@ -21972,6 +23835,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "drop",
           "normalized": "Data Length-\u003eVector a-\u003eVector a",
@@ -21987,6 +23851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eenumFrom m\u003c/code\u003e: Enumerate the indexes from \u003ccode\u003em\u003c/code\u003e to \u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "enumFrom",
           "package": "feldspar-language",
@@ -21997,6 +23862,7 @@
         "index": {
           "description": "enumFrom Enumerate the indexes from to maxBound",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "enumFrom",
           "normalized": "Data a-\u003eVector(Data a)",
@@ -22013,6 +23879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eenumFromTo m n\u003c/code\u003e: Enumerate the integers from \u003ccode\u003em\u003c/code\u003e to \u003ccode\u003en\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "enumFromTo",
           "package": "feldspar-language",
@@ -22023,6 +23890,7 @@
         "index": {
           "description": "enumFromTo Enumerate the integers from to",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "enumFromTo",
           "normalized": "Data a-\u003eData a-\u003eVector(Data a)",
@@ -22039,6 +23907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to the standard \u003ccode\u003efoldl\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "fold",
           "package": "feldspar-language",
@@ -22049,6 +23918,7 @@
         "index": {
           "description": "Corresponds to the standard foldl",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "fold",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVector b-\u003ea",
@@ -22064,6 +23934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to the standard \u003ccode\u003efoldl1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "fold1",
           "package": "feldspar-language",
@@ -22074,6 +23945,7 @@
         "index": {
           "description": "Corresponds to the standard foldl1",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "fold1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVector a-\u003ea",
@@ -22089,6 +23961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a non-nested vector to a core vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "freezeVector",
           "package": "feldspar-language",
@@ -22099,6 +23972,7 @@
         "index": {
           "description": "Converts non-nested vector to core vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "freezeVector",
           "normalized": "Vector(Data a)-\u003eData[a]",
@@ -22114,6 +23988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "head",
           "package": "feldspar-language",
@@ -22123,6 +23998,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "head",
           "normalized": "Vector a-\u003ea",
@@ -22137,6 +24013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "indexed",
           "package": "feldspar-language",
@@ -22146,6 +24023,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "indexed",
           "normalized": "Data Length-\u003e(Data Index-\u003ea)-\u003eVector a",
@@ -22160,6 +24038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "init",
           "package": "feldspar-language",
@@ -22169,6 +24048,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "init",
           "normalized": "Vector a-\u003eVector a",
@@ -22183,6 +24063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "inits",
           "package": "feldspar-language",
@@ -22192,6 +24073,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "inits",
           "normalized": "Vector a-\u003eVector(Vector a)",
@@ -22206,6 +24088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "inits1",
           "package": "feldspar-language",
@@ -22215,6 +24098,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "inits1",
           "normalized": "Vector a-\u003eVector(Vector a)",
@@ -22229,6 +24113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "last",
           "package": "feldspar-language",
@@ -22238,6 +24123,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "last",
           "normalized": "Vector a-\u003ea",
@@ -22252,6 +24138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "length",
           "package": "feldspar-language",
@@ -22261,6 +24148,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "length",
           "normalized": "Vector a-\u003eData Length",
@@ -22276,6 +24164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef v\u003c/code\u003e is the \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e obtained by applying f to each element of\n \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "map",
           "package": "feldspar-language",
@@ -22286,6 +24175,7 @@
         "index": {
           "description": "map is the Vector obtained by applying to each element of",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eVector a-\u003eVector b",
@@ -22300,6 +24190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "maximum",
           "package": "feldspar-language",
@@ -22309,6 +24200,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "maximum",
           "normalized": "Vector(Data a)-\u003eData a",
@@ -22324,6 +24216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a segmented vector to a vector with a single segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "mergeSegments",
           "package": "feldspar-language",
@@ -22334,6 +24227,7 @@
         "index": {
           "description": "Converts segmented vector to vector with single segment",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "mergeSegments",
           "normalized": "Vector a-\u003eVector a",
@@ -22349,6 +24243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "minimum",
           "package": "feldspar-language",
@@ -22358,6 +24253,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "minimum",
           "normalized": "Vector(Data a)-\u003eData a",
@@ -22373,6 +24269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the length of the vector to the supplied value. If the supplied\n length is greater than the old length, the new elements will have undefined\n value. The resulting vector has only one segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "newLen",
           "package": "feldspar-language",
@@ -22383,6 +24280,7 @@
         "index": {
           "description": "Change the length of the vector to the supplied value If the supplied length is greater than the old length the new elements will have undefined value The resulting vector has only one segment",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "newLen",
           "normalized": "Data Length-\u003eVector a-\u003eVector a",
@@ -22399,6 +24297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePermute a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "permute",
           "package": "feldspar-language",
@@ -22409,6 +24308,7 @@
         "index": {
           "description": "Permute vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "permute",
           "normalized": "(Data Length-\u003eData Index-\u003eData Index)-\u003eVector a-\u003eVector a",
@@ -22424,6 +24324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePermute a single-segment vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "permute'",
           "package": "feldspar-language",
@@ -22434,6 +24335,7 @@
         "index": {
           "description": "Permute single-segment vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "permute'",
           "normalized": "(Data Length-\u003eData Index-\u003eData Index)-\u003eVector a-\u003eVector a",
@@ -22448,6 +24350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "replicate",
           "package": "feldspar-language",
@@ -22457,6 +24360,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "replicate",
           "normalized": "Data Length-\u003ea-\u003eVector a",
@@ -22471,6 +24375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "reverse",
           "package": "feldspar-language",
@@ -22480,6 +24385,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "reverse",
           "normalized": "Vector a-\u003eVector a",
@@ -22494,6 +24400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "rotateVecL",
           "package": "feldspar-language",
@@ -22503,6 +24410,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "rotateVecL",
           "normalized": "Data Index-\u003eVector a-\u003eVector a",
@@ -22518,6 +24426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "rotateVecR",
           "package": "feldspar-language",
@@ -22527,6 +24436,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "rotateVecR",
           "normalized": "Data Index-\u003eVector a-\u003eVector a",
@@ -22543,6 +24453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar product of two vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "scalarProd",
           "package": "feldspar-language",
@@ -22553,6 +24464,7 @@
         "index": {
           "description": "Scalar product of two vectors",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "scalarProd",
           "normalized": "Vector a-\u003eVector a-\u003ea",
@@ -22568,6 +24480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "segmentIndex",
           "package": "feldspar-language",
@@ -22577,6 +24490,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "segmentIndex",
           "normalized": "Data Index-\u003ea",
@@ -22592,6 +24506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "segmentLength",
           "package": "feldspar-language",
@@ -22601,6 +24516,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "segmentLength",
           "package": "feldspar-language",
@@ -22615,6 +24531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreaks up a segmented vector into a list of single-segment vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "segments",
           "package": "feldspar-language",
@@ -22625,6 +24542,7 @@
         "index": {
           "description": "Breaks up segmented vector into list of single-segment vectors",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "segments",
           "normalized": "Vector a-\u003e[Vector a]",
@@ -22639,6 +24557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "splitAt",
           "package": "feldspar-language",
@@ -22648,6 +24567,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "splitAt",
           "normalized": "Data Index-\u003eVector a-\u003e(Vector a,Vector a)",
@@ -22663,6 +24583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "sum",
           "package": "feldspar-language",
@@ -22672,6 +24593,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "sum",
           "normalized": "Vector a-\u003ea",
@@ -22686,6 +24608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "tVec",
           "package": "feldspar-language",
@@ -22695,6 +24618,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "tVec",
           "normalized": "Patch a a-\u003ePatch(Vector a)(Vector a)",
@@ -22710,6 +24634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "tVec1",
           "package": "feldspar-language",
@@ -22719,6 +24644,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "tVec1",
           "normalized": "Patch a a-\u003ePatch(Vector(Data a))(Vector(Data a))",
@@ -22734,6 +24660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "tVec2",
           "package": "feldspar-language",
@@ -22743,6 +24670,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "tVec2",
           "normalized": "Patch a a-\u003ePatch(Vector(Vector(Data a)))(Vector(Vector(Data a)))",
@@ -22758,6 +24686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "tail",
           "package": "feldspar-language",
@@ -22767,6 +24696,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "tail",
           "normalized": "Vector a-\u003eVector a",
@@ -22781,6 +24711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "tails",
           "package": "feldspar-language",
@@ -22790,6 +24721,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "tails",
           "normalized": "Vector a-\u003eVector(Vector a)",
@@ -22804,6 +24736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "take",
           "package": "feldspar-language",
@@ -22813,6 +24746,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "take",
           "normalized": "Data Length-\u003eVector a-\u003eVector a",
@@ -22828,6 +24762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a non-nested core array to a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "thawVector",
           "package": "feldspar-language",
@@ -22838,6 +24773,7 @@
         "index": {
           "description": "Converts non-nested core array to vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "thawVector",
           "normalized": "Data[a]-\u003eVector(Data a)",
@@ -22853,6 +24789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "thawVector'",
           "package": "feldspar-language",
@@ -22862,6 +24799,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "thawVector'",
           "normalized": "Length-\u003eData[a]-\u003eVector(Data a)",
@@ -22878,6 +24816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnzip to two \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "unzip",
           "package": "feldspar-language",
@@ -22888,6 +24827,7 @@
         "index": {
           "description": "Unzip to two Vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "unzip",
           "normalized": "Vector(a,b)-\u003e(Vector a,Vector b)",
@@ -22903,6 +24843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnzip to three \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "unzip3",
           "package": "feldspar-language",
@@ -22913,6 +24854,7 @@
         "index": {
           "description": "Unzip to three Vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "unzip3",
           "normalized": "Vector(a,b,c)-\u003e(Vector a,Vector b,Vector c)",
@@ -22928,6 +24870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnzip to four \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "unzip4",
           "package": "feldspar-language",
@@ -22938,6 +24881,7 @@
         "index": {
           "description": "Unzip to four Vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "unzip4",
           "normalized": "Vector(a,b,c,d)-\u003e(Vector a,Vector b,Vector c,Vector d)",
@@ -22953,6 +24897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnzip to five \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "unzip5",
           "package": "feldspar-language",
@@ -22963,6 +24908,7 @@
         "index": {
           "description": "Unzip to five Vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "unzip5",
           "normalized": "Vector(a,b,c,d,e)-\u003e(Vector a,Vector b,Vector c,Vector d,Vector e)",
@@ -22978,6 +24924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZipping two \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "zip",
           "package": "feldspar-language",
@@ -22988,6 +24935,7 @@
         "index": {
           "description": "Zipping two Vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "zip",
           "normalized": "Vector a-\u003eVector b-\u003eVector(a,b)",
@@ -23003,6 +24951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZipping three \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "zip3",
           "package": "feldspar-language",
@@ -23013,6 +24962,7 @@
         "index": {
           "description": "Zipping three Vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "zip3",
           "normalized": "Vector a-\u003eVector b-\u003eVector c-\u003eVector(a,b,c)",
@@ -23028,6 +24978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZipping four \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "zip4",
           "package": "feldspar-language",
@@ -23038,6 +24989,7 @@
         "index": {
           "description": "Zipping four Vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "zip4",
           "normalized": "Vector a-\u003eVector b-\u003eVector c-\u003eVector d-\u003eVector(a,b,c,d)",
@@ -23053,6 +25005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZipping five \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "zip5",
           "package": "feldspar-language",
@@ -23063,6 +25016,7 @@
         "index": {
           "description": "Zipping five Vector",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "zip5",
           "normalized": "Vector a-\u003eVector b-\u003eVector c-\u003eVector d-\u003eVector e-\u003eVector(a,b,c,d,e)",
@@ -23078,6 +25032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralization of \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e using the supplied function instead of tupling\n to combine the elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "zipWith",
           "package": "feldspar-language",
@@ -23088,6 +25043,7 @@
         "index": {
           "description": "Generalization of zip using the supplied function instead of tupling to combine the elements",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVector a-\u003eVector b-\u003eVector c",
@@ -23104,6 +25060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralization of \u003ccode\u003e\u003ca\u003ezip3\u003c/a\u003e\u003c/code\u003e using the supplied function instead of tupling\n to combine the elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "zipWith3",
           "package": "feldspar-language",
@@ -23114,6 +25071,7 @@
         "index": {
           "description": "Generalization of zip3 using the supplied function instead of tupling to combine the elements",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "zipWith3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eVector a-\u003eVector b-\u003eVector c-\u003eVector d",
@@ -23130,6 +25088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralization of \u003ccode\u003e\u003ca\u003ezip4\u003c/a\u003e\u003c/code\u003e using the supplied function instead of tupling\n to combine the elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "zipWith4",
           "package": "feldspar-language",
@@ -23140,6 +25099,7 @@
         "index": {
           "description": "Generalization of zip4 using the supplied function instead of tupling to combine the elements",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "zipWith4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eVector a-\u003eVector b-\u003eVector c-\u003eVector d-\u003eVector e",
@@ -23156,6 +25116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralization of \u003ccode\u003e\u003ca\u003ezip5\u003c/a\u003e\u003c/code\u003e using the supplied function instead of tupling\n to combine the elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Internal",
           "name": "zipWith5",
           "package": "feldspar-language",
@@ -23166,6 +25127,7 @@
         "index": {
           "description": "Generalization of zip5 using the supplied function instead of tupling to combine the elements",
           "hierarchy": "Feldspar Vector Internal",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Internal",
           "name": "zipWith5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eVector a-\u003eVector b-\u003eVector c-\u003eVector d-\u003eVector e-\u003eVector f",
@@ -23181,6 +25143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "Push",
           "package": "feldspar-language",
@@ -23189,6 +25152,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "Push",
           "package": "feldspar-language",
@@ -23203,6 +25167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn overloaded function for reordering elements of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "Ixmap",
           "package": "feldspar-language",
@@ -23212,6 +25177,7 @@
         "index": {
           "description": "An overloaded function for reordering elements of vector",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "Ixmap",
           "package": "feldspar-language",
@@ -23226,6 +25192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for overloading \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e for both pull and push vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "Len",
           "package": "feldspar-language",
@@ -23235,6 +25202,7 @@
         "index": {
           "description": "class for overloading length for both pull and push vectors",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "Len",
           "package": "feldspar-language",
@@ -23248,6 +25216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "PushVector",
           "package": "feldspar-language",
@@ -23256,6 +25225,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "PushVector",
           "package": "feldspar-language",
@@ -23270,6 +25240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny kind of vector, push or pull, can cheaply be converted to a push vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "Pushy",
           "package": "feldspar-language",
@@ -23279,6 +25250,7 @@
         "index": {
           "description": "Any kind of vector push or pull can cheaply be converted to push vector",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "Pushy",
           "package": "feldspar-language",
@@ -23293,6 +25265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenating two arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "(++)",
           "package": "feldspar-language",
@@ -23303,6 +25276,7 @@
         "index": {
           "description": "Concatenating two arrays",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "(++) ++",
           "normalized": "a b-\u003ea b-\u003ePushVector b",
@@ -23317,6 +25291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "Push",
           "package": "feldspar-language",
@@ -23326,6 +25301,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "Push",
           "normalized": "((Data Index-\u003ea-\u003eM())-\u003eM())-\u003eData Length-\u003ePushVector a",
@@ -23342,6 +25318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function can distribute array computations on chunks of a large\n   pull vector. A call `chunk l f g v` will split the vector \u003ccode\u003ev\u003c/code\u003e into chunks\n   of size \u003ccode\u003el\u003c/code\u003e and apply \u003ccode\u003ef\u003c/code\u003e to these chunks. In case the length of \u003ccode\u003ev\u003c/code\u003e is\n   not a multiple of \u003ccode\u003el\u003c/code\u003e then the rest of \u003ccode\u003ev\u003c/code\u003e will be processed by \u003ccode\u003eg\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "chunk",
           "package": "feldspar-language",
@@ -23351,6 +25328,7 @@
         "index": {
           "description": "This function can distribute array computations on chunks of large pull vector call chunk will split the vector into chunks of size and apply to these chunks In case the length of is not multiple of then the rest of will be processed by",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "chunk",
           "normalized": "Data Length-\u003e(Vector a-\u003eb c)-\u003e(Vector a-\u003eb c)-\u003eVector a-\u003ePushVector c",
@@ -23366,6 +25344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty push vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "empty",
           "package": "feldspar-language",
@@ -23376,6 +25355,7 @@
         "index": {
           "description": "The empty push vector",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "empty",
           "package": "feldspar-language",
@@ -23388,6 +25368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "everyOther",
           "package": "feldspar-language",
@@ -23397,6 +25378,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "everyOther",
           "normalized": "(Data Index-\u003ea-\u003eM b)-\u003eData Index-\u003e(a,a)-\u003eM b",
@@ -23413,6 +25395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlattens a pull vector containing push vectors into an unnested push vector\n\u003c/p\u003e\u003cp\u003eNote that there are no restrictions on the lengths of the push vectors\n   inside the pull vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "flatten",
           "package": "feldspar-language",
@@ -23423,6 +25406,7 @@
         "index": {
           "description": "Flattens pull vector containing push vectors into an unnested push vector Note that there are no restrictions on the lengths of the push vectors inside the pull vector",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "flatten",
           "normalized": "Vector(PushVector a)-\u003ePushVector a",
@@ -23438,6 +25422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore push vectors in memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "freezePush",
           "package": "feldspar-language",
@@ -23448,6 +25433,7 @@
         "index": {
           "description": "Store push vectors in memory",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "freezePush",
           "normalized": "PushVector a-\u003eData[Internal a]",
@@ -23464,6 +25450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a push vector to memory and return it as an ordinary vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "freezeToVector",
           "package": "feldspar-language",
@@ -23474,6 +25461,7 @@
         "index": {
           "description": "Store push vector to memory and return it as an ordinary vector",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "freezeToVector",
           "normalized": "PushVector a-\u003eVector a",
@@ -23490,6 +25478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a pull vector in half.\n\u003c/p\u003e\u003cp\u003eIf the input vector has an odd length the second result vector\n   will be one element longer than the first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "halve",
           "package": "feldspar-language",
@@ -23500,6 +25489,7 @@
         "index": {
           "description": "Split pull vector in half If the input vector has an odd length the second result vector will be one element longer than the first",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "halve",
           "normalized": "Vector a-\u003e(Vector a,Vector a)",
@@ -23514,6 +25504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "ixmap",
           "package": "feldspar-language",
@@ -23523,6 +25514,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "ixmap",
           "normalized": "(Data Index-\u003eData Index)-\u003ea b-\u003ea b",
@@ -23537,6 +25529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "length",
           "package": "feldspar-language",
@@ -23546,6 +25539,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "length",
           "normalized": "a b-\u003eData Length",
@@ -23561,6 +25555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse a vector. Works for both push and pull vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "reverse",
           "package": "feldspar-language",
@@ -23571,6 +25566,7 @@
         "index": {
           "description": "Reverse vector Works for both push and pull vectors",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "reverse",
           "normalized": "a b-\u003ea b",
@@ -23586,6 +25582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a vector in half and interleave the two two halves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "riffle",
           "package": "feldspar-language",
@@ -23596,6 +25593,7 @@
         "index": {
           "description": "Split vector in half and interleave the two two halves",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "riffle",
           "normalized": "Vector a-\u003ePushVector a",
@@ -23611,6 +25609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a push vector from an array stored in memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "thawPush",
           "package": "feldspar-language",
@@ -23621,6 +25620,7 @@
         "index": {
           "description": "Create push vector from an array stored in memory",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "thawPush",
           "normalized": "Data[Internal a]-\u003ePushVector a",
@@ -23636,6 +25636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "toPush",
           "package": "feldspar-language",
@@ -23645,6 +25646,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "toPush",
           "normalized": "a b-\u003ePushVector b",
@@ -23661,6 +25663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an array of pairs, flatten the array so that the elements of the\n   pairs end up next to each other in the resulting vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "unpair",
           "package": "feldspar-language",
@@ -23671,6 +25674,7 @@
         "index": {
           "description": "Given an array of pairs flatten the array so that the elements of the pairs end up next to each other in the resulting vector",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "unpair",
           "normalized": "a(b,b)-\u003ePushVector b",
@@ -23686,6 +25690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterleaves the elements of two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector.Push",
           "name": "zipUnpair",
           "package": "feldspar-language",
@@ -23696,6 +25701,7 @@
         "index": {
           "description": "Interleaves the elements of two vectors",
           "hierarchy": "Feldspar Vector Push",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector.Push",
           "name": "zipUnpair",
           "normalized": "Vector a-\u003eVector a-\u003ePushVector a",
@@ -23712,6 +25718,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for \u003cem\u003evirtual vectors\u003c/em\u003e. Many of the functions defined here are\n imitations of Haskell's list operations, and to a first approximation they\n behave accordingly.\n\u003c/p\u003e\u003cp\u003eA virtual vector is normally guaranteed not to be present in the generated\n code. The only exceptions are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e when it is explicitly forced using the functions \u003ccode\u003eforce\u003c/code\u003e or \u003ccode\u003edesugar\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e when it is the input or output of a program\n\u003c/li\u003e\u003cli\u003e when it is accessed by a function outside the \u003ca\u003eFeldspar.Vector\u003c/a\u003e API, for\n     example, \u003ccode\u003econdition\u003c/code\u003e or \u003ccode\u003eforLoop\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNote also that most operations only introduce a small constant overhead on\n the vector. The exceptions are\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003efold1\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Functions that introduce storage (see above)\n\u003c/li\u003e\u003cli\u003e \"Folding\" functions: \u003ccode\u003e\u003ca\u003esum\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003emaximum\u003c/a\u003e\u003c/code\u003e, etc.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThese functions introduce overhead that is linear in the length of the\n vector.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Vector",
           "name": "Vector",
           "package": "feldspar-language",
@@ -23721,6 +25728,7 @@
         "index": {
           "description": "module for virtual vectors Many of the functions defined here are imitations of Haskell list operations and to first approximation they behave accordingly virtual vector is normally guaranteed not to be present in the generated code The only exceptions are when it is explicitly forced using the functions force or desugar when it is the input or output of program when it is accessed by function outside the Feldspar.Vector API for example condition or forLoop Note also that most operations only introduce small constant overhead on the vector The exceptions are fold fold1 Functions that introduce storage see above Folding functions sum maximum etc These functions introduce overhead that is linear in the length of the vector",
           "hierarchy": "Feldspar Vector",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Vector",
           "name": "Vector",
           "package": "feldspar-language",
@@ -23735,6 +25743,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule \u003ca\u003eData.TypeLevel.Num.Aliases\u003c/a\u003e is re-exported because\n wrappers use type level numbers frequently\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "Wrap",
           "package": "feldspar-language",
@@ -23744,6 +25753,7 @@
         "index": {
           "description": "Module Data.TypeLevel.Num.Aliases is re-exported because wrappers use type level numbers frequently",
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "Wrap",
           "package": "feldspar-language",
@@ -23758,6 +25768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "D0",
           "package": "feldspar-language",
@@ -23766,6 +25777,7 @@
         "index": {
           "description": "Decimal digit zero",
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "D0",
           "package": "feldspar-language",
@@ -23779,6 +25791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "D1",
           "package": "feldspar-language",
@@ -23787,6 +25800,7 @@
         "index": {
           "description": "Decimal digit one",
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "D1",
           "package": "feldspar-language",
@@ -23800,6 +25814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit two\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "D2",
           "package": "feldspar-language",
@@ -23808,6 +25823,7 @@
         "index": {
           "description": "Decimal digit two",
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "D2",
           "package": "feldspar-language",
@@ -23821,6 +25837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit three \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "D3",
           "package": "feldspar-language",
@@ -23829,6 +25846,7 @@
         "index": {
           "description": "Decimal digit three",
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "D3",
           "package": "feldspar-language",
@@ -23842,6 +25860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit four \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "D4",
           "package": "feldspar-language",
@@ -23850,6 +25869,7 @@
         "index": {
           "description": "Decimal digit four",
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "D4",
           "package": "feldspar-language",
@@ -23863,6 +25883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit five\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "D5",
           "package": "feldspar-language",
@@ -23871,6 +25892,7 @@
         "index": {
           "description": "Decimal digit five",
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "D5",
           "package": "feldspar-language",
@@ -23884,6 +25906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit six\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "D6",
           "package": "feldspar-language",
@@ -23892,6 +25915,7 @@
         "index": {
           "description": "Decimal digit six",
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "D6",
           "package": "feldspar-language",
@@ -23905,6 +25929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit seven\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "D7",
           "package": "feldspar-language",
@@ -23913,6 +25938,7 @@
         "index": {
           "description": "Decimal digit seven",
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "D7",
           "package": "feldspar-language",
@@ -23926,6 +25952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit eight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "D8",
           "package": "feldspar-language",
@@ -23934,6 +25961,7 @@
         "index": {
           "description": "Decimal digit eight",
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "D8",
           "package": "feldspar-language",
@@ -23947,6 +25975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit nine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "D9",
           "package": "feldspar-language",
@@ -23955,6 +25984,7 @@
         "index": {
           "description": "Decimal digit nine",
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "D9",
           "package": "feldspar-language",
@@ -23968,6 +25998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtended \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e to be used in wrappers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "Data'",
           "package": "feldspar-language",
@@ -23977,6 +26008,7 @@
         "index": {
           "description": "Extended Data to be used in wrappers",
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "Data'",
           "package": "feldspar-language",
@@ -23991,6 +26023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapping Feldspar functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "Wrap",
           "package": "feldspar-language",
@@ -24000,6 +26033,7 @@
         "index": {
           "description": "Wrapping Feldspar functions",
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "Wrap",
           "package": "feldspar-language",
@@ -24013,6 +26047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "Data'",
           "package": "feldspar-language",
@@ -24022,6 +26057,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "Data'",
           "package": "feldspar-language",
@@ -24035,6 +26071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "unData'",
           "package": "feldspar-language",
@@ -24044,6 +26081,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "unData'",
           "package": "feldspar-language",
@@ -24057,6 +26095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar.Wrap",
           "name": "wrap",
           "package": "feldspar-language",
@@ -24066,6 +26105,7 @@
         },
         "index": {
           "hierarchy": "Feldspar Wrap",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar.Wrap",
           "name": "wrap",
           "normalized": "a-\u003eb",
@@ -24081,6 +26121,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to the essential parts of the Feldspar language. High-level\n libraries have to be imported separately.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:59 UTC 2014",
           "module": "Feldspar",
           "name": "Feldspar",
           "package": "feldspar-language",
@@ -24090,6 +26131,7 @@
         "index": {
           "description": "Interface to the essential parts of the Feldspar language High-level libraries have to be imported separately",
           "hierarchy": "Feldspar",
+          "indexed": "2014-03-11T18:07:59",
           "module": "Feldspar",
           "name": "Feldspar",
           "package": "feldspar-language",

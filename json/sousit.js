@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sousit"
+        "phrase": "sousit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.File",
           "name": "File",
           "package": "sousit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT File",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.File",
           "name": "File",
           "package": "sousit",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a sink that writes the ByteStrings into the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.File",
           "name": "fileSinkByteString",
           "package": "sousit",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Creates sink that writes the ByteStrings into the file",
           "hierarchy": "Data SouSiT File",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.File",
           "name": "fileSinkByteString",
           "normalized": "FilePath-\u003eSink ByteString a()",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a sink that writes the Chars into the specified file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.File",
           "name": "fileSinkChar",
           "package": "sousit",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Creates sink that writes the Chars into the specified file",
           "hierarchy": "Data SouSiT File",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.File",
           "name": "fileSinkChar",
           "normalized": "FilePath-\u003eSink Char a()",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a sink that writes each input as a line into the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.File",
           "name": "fileSinkLine",
           "package": "sousit",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Creates sink that writes each input as line into the file",
           "hierarchy": "Data SouSiT File",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.File",
           "name": "fileSinkLine",
           "normalized": "FilePath-\u003eSink String a()",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a sink that writes the input into the file (without adding newlines).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.File",
           "name": "fileSinkString",
           "package": "sousit",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Creates sink that writes the input into the file without adding newlines",
           "hierarchy": "Data SouSiT File",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.File",
           "name": "fileSinkString",
           "normalized": "FilePath-\u003eSink String a()",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a sink for writing bytes into a file. The first parameter is the size of the buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.File",
           "name": "fileSinkWord8",
           "package": "sousit",
@@ -154,6 +165,7 @@
         "index": {
           "description": "Creates sink for writing bytes into file The first parameter is the size of the buffer",
           "hierarchy": "Data SouSiT File",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.File",
           "name": "fileSinkWord8",
           "normalized": "Int-\u003eFilePath-\u003eSink Word a()",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an unbuffered sink for writing bytes into a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.File",
           "name": "fileSinkWord8Unbuffered",
           "package": "sousit",
@@ -180,6 +193,7 @@
         "index": {
           "description": "Creates an unbuffered sink for writing bytes into file",
           "hierarchy": "Data SouSiT File",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.File",
           "name": "fileSinkWord8Unbuffered",
           "normalized": "FilePath-\u003eSink Word a()",
@@ -196,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a Source2 for file read as ByteStrings (hGetSome).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.File",
           "name": "fileSourceByteString",
           "package": "sousit",
@@ -206,6 +221,7 @@
         "index": {
           "description": "Creates Source2 for file read as ByteStrings hGetSome",
           "hierarchy": "Data SouSiT File",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.File",
           "name": "fileSourceByteString",
           "normalized": "Int-\u003eFilePath-\u003eFeedSource a ByteString",
@@ -222,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a Source2 for the file read as characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.File",
           "name": "fileSourceChar",
           "package": "sousit",
@@ -232,6 +249,7 @@
         "index": {
           "description": "Creates Source2 for the file read as characters",
           "hierarchy": "Data SouSiT File",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.File",
           "name": "fileSourceChar",
           "normalized": "FilePath-\u003eFeedSource a Char",
@@ -248,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a Source2 for the file read linewise as string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.File",
           "name": "fileSourceLine",
           "package": "sousit",
@@ -258,6 +277,7 @@
         "index": {
           "description": "Creates Source2 for the file read linewise as string",
           "hierarchy": "Data SouSiT File",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.File",
           "name": "fileSourceLine",
           "normalized": "FilePath-\u003eFeedSource a String",
@@ -274,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a Source2 for file read as single bytes (buffered).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.File",
           "name": "fileSourceWord8",
           "package": "sousit",
@@ -284,6 +305,7 @@
         "index": {
           "description": "Creates Source2 for file read as single bytes buffered",
           "hierarchy": "Data SouSiT File",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.File",
           "name": "fileSourceWord8",
           "normalized": "FilePath-\u003eSimpleSource a Word",
@@ -299,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Handle",
           "name": "Handle",
           "package": "sousit",
@@ -307,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Handle",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Handle",
           "name": "Handle",
           "package": "sousit",
@@ -321,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSink backed by a handle. The data will be written by the provided function.\n   The sink will never change to the SinkDone state (if the device is full then\n   the operation will simply fail).\n   The handle is not closed and exceptions are not catched.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Handle",
           "name": "hSink",
           "package": "sousit",
@@ -331,6 +356,7 @@
         "index": {
           "description": "Sink backed by handle The data will be written by the provided function The sink will never change to the SinkDone state if the device is full then the operation will simply fail The handle is not closed and exceptions are not catched",
           "hierarchy": "Data SouSiT Handle",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Handle",
           "name": "hSink",
           "normalized": "(Handle-\u003ea-\u003eb())-\u003eHandle-\u003eSink a b()",
@@ -347,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as hSink, but does opens the handle when the first item is written.\n   The handle will be closed when the sink is closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Handle",
           "name": "hSinkRes",
           "package": "sousit",
@@ -357,6 +384,7 @@
         "index": {
           "description": "Same as hSink but does opens the handle when the first item is written The handle will be closed when the sink is closed",
           "hierarchy": "Data SouSiT Handle",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Handle",
           "name": "hSinkRes",
           "normalized": "(Handle-\u003ea-\u003eb())-\u003eIO Handle-\u003eSink a b()",
@@ -373,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource from a handle. The handle will not be closed and is read till hIsEOF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Handle",
           "name": "hSource",
           "package": "sousit",
@@ -383,6 +412,7 @@
         "index": {
           "description": "Source from handle The handle will not be closed and is read till hIsEOF",
           "hierarchy": "Data SouSiT Handle",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Handle",
           "name": "hSource",
           "normalized": "(Handle-\u003ea b)-\u003eHandle-\u003eFeedSource a b",
@@ -399,6 +429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as hSource, but opens the handle when transfer is called and closes it when\n   transfer/feedToSink completes.\n   Uses \u003ccode\u003ebracket\u003c/code\u003e to ensure safe release of the allocated resources.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Handle",
           "name": "hSource'",
           "package": "sousit",
@@ -409,6 +440,7 @@
         "index": {
           "description": "Same as hSource but opens the handle when transfer is called and closes it when transfer feedToSink completes Uses bracket to ensure safe release of the allocated resources",
           "hierarchy": "Data SouSiT Handle",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Handle",
           "name": "hSource'",
           "normalized": "(Handle-\u003eIO a)-\u003eIO Handle-\u003eFeedSource IO a",
@@ -425,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as hSource, but does not check for hIsEOF and therefore never terminates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Handle",
           "name": "hSourceNoEOF",
           "package": "sousit",
@@ -435,6 +468,7 @@
         "index": {
           "description": "Same as hSource but does not check for hIsEOF and therefore never terminates",
           "hierarchy": "Data SouSiT Handle",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Handle",
           "name": "hSourceNoEOF",
           "normalized": "(Handle-\u003ea b)-\u003eHandle-\u003eFeedSource a b",
@@ -451,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as hSource', but does not check for hIsEOF and therefore never terminates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Handle",
           "name": "hSourceNoEOF'",
           "package": "sousit",
@@ -461,6 +496,7 @@
         "index": {
           "description": "Same as hSource but does not check for hIsEOF and therefore never terminates",
           "hierarchy": "Data SouSiT Handle",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Handle",
           "name": "hSourceNoEOF'",
           "normalized": "(Handle-\u003eIO a)-\u003eIO Handle-\u003eFeedSource IO a",
@@ -477,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as hSource, but opens the handle when transfer is called and closes it when\n   transfer/feedToSink completes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Handle",
           "name": "hSourceRes",
           "package": "sousit",
@@ -487,6 +524,7 @@
         "index": {
           "description": "Same as hSource but opens the handle when transfer is called and closes it when transfer feedToSink completes",
           "hierarchy": "Data SouSiT Handle",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Handle",
           "name": "hSourceRes",
           "normalized": "(Handle-\u003ea b)-\u003eIO Handle-\u003eFeedSource a b",
@@ -503,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as hSourceRes', but does not check for hIsEOF and therefore never terminates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Handle",
           "name": "hSourceResNoEOF",
           "package": "sousit",
@@ -513,6 +552,7 @@
         "index": {
           "description": "Same as hSourceRes but does not check for hIsEOF and therefore never terminates",
           "hierarchy": "Data SouSiT Handle",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Handle",
           "name": "hSourceResNoEOF",
           "normalized": "(Handle-\u003ea b)-\u003eIO Handle-\u003eFeedSource a b",
@@ -528,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.List",
           "name": "List",
           "package": "sousit",
@@ -536,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT List",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.List",
           "name": "List",
           "package": "sousit",
@@ -550,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sink that collects all input into a list. Does never say SinkDone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.List",
           "name": "listSink",
           "package": "sousit",
@@ -560,6 +603,7 @@
         "index": {
           "description": "sink that collects all input into list Does never say SinkDone",
           "hierarchy": "Data SouSiT List",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.List",
           "name": "listSink",
           "normalized": "Sink a b[a]",
@@ -576,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA source containing the elements of the list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.List",
           "name": "listSource",
           "package": "sousit",
@@ -586,6 +631,7 @@
         "index": {
           "description": "source containing the elements of the list",
           "hierarchy": "Data SouSiT List",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.List",
           "name": "listSource",
           "normalized": "[a]-\u003eFeedSource b a",
@@ -601,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.STM",
           "name": "STM",
           "package": "sousit",
@@ -609,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT STM",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.STM",
           "name": "STM",
           "package": "sousit",
@@ -623,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sink that executes (atomically) a STM action for every input received.\n   The sink continues as long as the action returns Nothing. When the action\n   returns Just, then that value is the result of the sink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.STM",
           "name": "stmSink",
           "package": "sousit",
@@ -633,6 +682,7 @@
         "index": {
           "description": "sink that executes atomically STM action for every input received The sink continues as long as the action returns Nothing When the action returns Just then that value is the result of the sink",
           "hierarchy": "Data SouSiT STM",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.STM",
           "name": "stmSink",
           "normalized": "(a-\u003eSTM(Maybe b))-\u003eSink a c(Maybe b)",
@@ -649,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sink that executes (atomically) a STM action for every input received.\n   The sink never terminates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.STM",
           "name": "stmSink'",
           "package": "sousit",
@@ -659,6 +710,7 @@
         "index": {
           "description": "sink that executes atomically STM action for every input received The sink never terminates",
           "hierarchy": "Data SouSiT STM",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.STM",
           "name": "stmSink'",
           "normalized": "(a-\u003eSTM())-\u003eSink a b()",
@@ -675,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource that executes a STM action to get a new item. When the action returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n   then the source is depleted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.STM",
           "name": "stmSource",
           "package": "sousit",
@@ -685,6 +738,7 @@
         "index": {
           "description": "Source that executes STM action to get new item When the action returns Nothing then the source is depleted",
           "hierarchy": "Data SouSiT STM",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.STM",
           "name": "stmSource",
           "normalized": "STM(Maybe a)-\u003eFeedSource b a",
@@ -701,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource that executes a STM action to get a new item. Does never run out of items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.STM",
           "name": "stmSource'",
           "package": "sousit",
@@ -711,6 +766,7 @@
         "index": {
           "description": "Source that executes STM action to get new item Does never run out of items",
           "hierarchy": "Data SouSiT STM",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.STM",
           "name": "stmSource'",
           "normalized": "STM a-\u003eFeedSource b a",
@@ -727,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSink that writes all items into a TChan.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.STM",
           "name": "tchanSink",
           "package": "sousit",
@@ -737,6 +794,7 @@
         "index": {
           "description": "Sink that writes all items into TChan",
           "hierarchy": "Data SouSiT STM",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.STM",
           "name": "tchanSink",
           "normalized": "TChan a-\u003eSink a b()",
@@ -753,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource that reads from a TChan. Does never run out of items (just waits for new ones\n   written to the TChan).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.STM",
           "name": "tchanSource",
           "package": "sousit",
@@ -763,6 +822,7 @@
         "index": {
           "description": "Source that reads from TChan Does never run out of items just waits for new ones written to the TChan",
           "hierarchy": "Data SouSiT STM",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.STM",
           "name": "tchanSource",
           "normalized": "TChan a-\u003eFeedSource b a",
@@ -778,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "Sink",
           "package": "sousit",
@@ -786,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "Sink",
           "package": "sousit",
@@ -799,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "Sink",
           "package": "sousit",
@@ -807,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "Sink",
           "package": "sousit",
@@ -820,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "SinkStatus",
           "package": "sousit",
@@ -828,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "SinkStatus",
           "package": "sousit",
@@ -842,6 +908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenates two sinks that produce a monoid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "(=||=)",
           "package": "sousit",
@@ -852,6 +919,7 @@
         "index": {
           "description": "Concatenates two sinks that produce monoid",
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "(=||=) =||=",
           "normalized": "Sink a b c-\u003eSink a b c-\u003eSink a b c",
@@ -866,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "Cont",
           "package": "sousit",
@@ -875,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "Cont",
           "normalized": "Cont(a-\u003eb(Sink a b c))(b c)",
@@ -890,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "Done",
           "package": "sousit",
@@ -899,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "Done",
           "package": "sousit",
@@ -912,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "Sink",
           "package": "sousit",
@@ -921,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "Sink",
           "package": "sousit",
@@ -935,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSink that executes a monadic action per input received. Does not terminate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "actionSink",
           "package": "sousit",
@@ -945,6 +1020,7 @@
         "index": {
           "description": "Sink that executes monadic action per input received Does not terminate",
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "actionSink",
           "normalized": "(a-\u003eb())-\u003eSink a b()",
@@ -961,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenates two sinks that produce a monoid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "appendSink",
           "package": "sousit",
@@ -971,6 +1048,7 @@
         "index": {
           "description": "Concatenates two sinks that produce monoid",
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "appendSink",
           "normalized": "Sink a b c-\u003eSink a b c-\u003eSink a b c",
@@ -987,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses the sink and returns its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "closeSink",
           "package": "sousit",
@@ -997,6 +1076,7 @@
         "index": {
           "description": "Closes the sink and returns its result",
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "closeSink",
           "normalized": "Sink a b c-\u003eb c",
@@ -1012,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "contSink",
           "package": "sousit",
@@ -1021,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "contSink",
           "normalized": "(a-\u003eb(Sink a b c))-\u003eb c-\u003eSink a b c",
@@ -1036,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "contSink'",
           "package": "sousit",
@@ -1045,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "contSink'",
           "normalized": "(a-\u003eSink a b c)-\u003eb c-\u003eSink a b c",
@@ -1060,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "doneSink",
           "package": "sousit",
@@ -1069,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "doneSink",
           "normalized": "a b-\u003eSink c a b",
@@ -1084,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "doneSink'",
           "package": "sousit",
@@ -1093,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "doneSink'",
           "normalized": "a-\u003eSink b c a",
@@ -1109,6 +1197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed a list of inputs to a sink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "feedList",
           "package": "sousit",
@@ -1119,6 +1208,7 @@
         "index": {
           "description": "Feed list of inputs to sink",
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "feedList",
           "normalized": "[a]-\u003eSink a b c-\u003eb(Sink a b c)",
@@ -1265,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSink that executes f for every input.\n   The sink continues as long as the action returns Nothing, when the action returns\n   Just, then that value is the result of the sink (and the sink is \u003ccode\u003efull\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "maybeSink",
           "package": "sousit",
@@ -1275,6 +1366,7 @@
         "index": {
           "description": "Sink that executes for every input The sink continues as long as the action returns Nothing when the action returns Just then that value is the result of the sink and the sink is full",
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "maybeSink",
           "normalized": "(a-\u003eb(Maybe c))-\u003eSink a b(Maybe c)",
@@ -1291,6 +1383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst calls open, then processes every input with process and when the sink is closed\n   close is called. Does not terminate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "openCloseActionSink",
           "package": "sousit",
@@ -1301,6 +1394,7 @@
         "index": {
           "description": "First calls open then processes every input with process and when the sink is closed close is called Does not terminate",
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "openCloseActionSink",
           "normalized": "a b-\u003e(b-\u003ea())-\u003e(b-\u003ec-\u003ea())-\u003eSink c a()",
@@ -1316,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Sink",
           "name": "sinkStatus",
           "package": "sousit",
@@ -1325,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Sink",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Sink",
           "name": "sinkStatus",
           "package": "sousit",
@@ -1364,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Source",
           "name": "Source",
           "package": "sousit",
@@ -1372,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Source",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Source",
           "name": "Source",
           "package": "sousit",
@@ -1386,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic instance of FeedSource (and Source)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Source",
           "name": "FeedSource",
           "package": "sousit",
@@ -1395,6 +1494,7 @@
         "index": {
           "description": "basic instance of FeedSource and Source",
           "hierarchy": "Data SouSiT Source",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Source",
           "name": "FeedSource",
           "package": "sousit",
@@ -1409,6 +1509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic instance of Source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Source",
           "name": "SimpleSource",
           "package": "sousit",
@@ -1418,6 +1519,7 @@
         "index": {
           "description": "basic instance of Source",
           "hierarchy": "Data SouSiT Source",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Source",
           "name": "SimpleSource",
           "package": "sousit",
@@ -1432,6 +1534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething that produces data to be processed by a sink\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Source",
           "name": "Source",
           "package": "sousit",
@@ -1441,6 +1544,7 @@
         "index": {
           "description": "Something that produces data to be processed by sink",
           "hierarchy": "Data SouSiT Source",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Source",
           "name": "Source",
           "package": "sousit",
@@ -1532,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Source",
           "name": "FeedSource",
           "package": "sousit",
@@ -1541,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Source",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Source",
           "name": "FeedSource",
           "package": "sousit",
@@ -1580,6 +1686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource that executes a monadic action to get its inputs. Terminates when the sink terminates\n   or the action returns Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Source",
           "name": "actionSource",
           "package": "sousit",
@@ -1590,6 +1697,7 @@
         "index": {
           "description": "Source that executes monadic action to get its inputs Terminates when the sink terminates or the action returns Nothing",
           "hierarchy": "Data SouSiT Source",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Source",
           "name": "actionSource",
           "normalized": "a(Maybe b)-\u003eFeedSource a b",
@@ -1606,6 +1714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource that first opens a resource, then transfers itself to the sink and the closes the\n   resource again (in a bracket).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Source",
           "name": "bracketActionSource",
           "package": "sousit",
@@ -1616,6 +1725,7 @@
         "index": {
           "description": "Source that first opens resource then transfers itself to the sink and the closes the resource again in bracket",
           "hierarchy": "Data SouSiT Source",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Source",
           "name": "bracketActionSource",
           "normalized": "IO a-\u003e(a-\u003eIO())-\u003e(a-\u003eIO(Maybe b))-\u003eFeedSource IO b",
@@ -1632,6 +1742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenates two sources.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Source",
           "name": "concatSources",
           "package": "sousit",
@@ -1642,6 +1753,7 @@
         "index": {
           "description": "Concatenates two sources",
           "hierarchy": "Data SouSiT Source",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Source",
           "name": "concatSources",
           "normalized": "FeedSource a b-\u003ec a b-\u003eSimpleSource a b",
@@ -1658,6 +1770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenates two sources yielding a FeedSource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Source",
           "name": "concatSources'",
           "package": "sousit",
@@ -1668,6 +1781,7 @@
         "index": {
           "description": "Concatenates two sources yielding FeedSource",
           "hierarchy": "Data SouSiT Source",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Source",
           "name": "concatSources'",
           "normalized": "FeedSource a b-\u003eFeedSource a b-\u003eFeedSource a b",
@@ -1683,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Source",
           "name": "feedToSink",
           "package": "sousit",
@@ -1692,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Source",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Source",
           "name": "feedToSink",
           "normalized": "a b Sink c d e-\u003ed(Sink c d e)",
@@ -1707,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Source",
           "name": "transfer",
           "package": "sousit",
@@ -1716,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Source",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Source",
           "name": "transfer",
           "normalized": "a b c-\u003eSink c b d-\u003eb d",
@@ -1730,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "Trans",
           "package": "sousit",
@@ -1738,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "Trans",
           "package": "sousit",
@@ -1751,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "TransFun",
           "package": "sousit",
@@ -1759,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "TransFun",
           "package": "sousit",
@@ -1773,6 +1895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccumulates all elements with the accumulator function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "accumulate",
           "package": "sousit",
@@ -1783,6 +1906,7 @@
         "index": {
           "description": "Accumulates all elements with the accumulator function",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "accumulate",
           "normalized": "a-\u003e(a-\u003eb-\u003ea)-\u003eTransform b a",
@@ -1798,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes with t1 and when t1 ends, then the next input is fed to through t2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "andThen",
           "package": "sousit",
@@ -1808,6 +1933,7 @@
         "index": {
           "description": "Executes with t1 and when t1 ends then the next input is fed to through t2",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "andThen",
           "normalized": "Transform a b-\u003eTransform a b-\u003eTransform a b",
@@ -1823,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "applyMapping",
           "package": "sousit",
@@ -1832,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "applyMapping",
           "normalized": "(Sink a b c-\u003eSink d b c)-\u003e(d-\u003ea)-\u003eSinkStatus a b c-\u003eSinkStatus d b c",
@@ -1847,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "applyTransFun",
           "package": "sousit",
@@ -1856,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "applyTransFun",
           "normalized": "TransFun a b c d-\u003eSinkStatus a c d-\u003eSinkStatus b c d",
@@ -1872,6 +2002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccumulates up to n elements with the accumulator function and then releases it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "buffer",
           "package": "sousit",
@@ -1882,6 +2013,7 @@
         "index": {
           "description": "Accumulates up to elements with the accumulator function and then releases it",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "buffer",
           "normalized": "Int-\u003ea-\u003e(a-\u003eb-\u003ea)-\u003eTransform b a",
@@ -1897,6 +2029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts the received elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "count",
           "package": "sousit",
@@ -1907,6 +2040,7 @@
         "index": {
           "description": "Counts the received elements",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "count",
           "package": "sousit",
@@ -1920,6 +2054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs every element received to the System-out (using putStrLn).\n   Format: \u003ca\u003elabel\u003c/a\u003e: \u003ca\u003eelement\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "debug",
           "package": "sousit",
@@ -1930,6 +2065,7 @@
         "index": {
           "description": "Outputs every element received to the System-out using putStrLn Format label element",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "debug",
           "normalized": "String-\u003eSink a b c-\u003eSink a b c",
@@ -1945,6 +2081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserializes ByteString elements. The ByteStrings may be chunked, but the beginnings\n   of values must be aligned to the chunks. If this is not the case then consider splitting\n   the ByteStrings by the appropriate start delimiter (if available) or split them up into\n   singletons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "deserialize",
           "package": "sousit",
@@ -1955,6 +2092,7 @@
         "index": {
           "description": "Deserializes ByteString elements The ByteStrings may be chunked but the beginnings of values must be aligned to the chunks If this is not the case then consider splitting the ByteStrings by the appropriate start delimiter if available or split them up into singletons",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "deserialize",
           "package": "sousit",
@@ -1968,6 +2106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield all elements of the array as seperate outputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "disperse",
           "package": "sousit",
@@ -1978,6 +2117,7 @@
         "index": {
           "description": "Yield all elements of the array as seperate outputs",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "disperse",
           "normalized": "Transform[a]a",
@@ -1993,6 +2133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrops the first n inputs then passes through all inputs unchanged\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "drop",
           "package": "sousit",
@@ -2003,6 +2144,7 @@
         "index": {
           "description": "Drops the first inputs then passes through all inputs unchanged",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "drop",
           "normalized": "a-\u003eTransform b b",
@@ -2018,6 +2160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrops inputs until the predicate is matched. The matching input and all subsequent inputs\n are passed on unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "dropUntil",
           "package": "sousit",
@@ -2028,6 +2171,7 @@
         "index": {
           "description": "Drops inputs until the predicate is matched The matching input and all subsequent inputs are passed on unchanged",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "dropUntil",
           "normalized": "(a-\u003eBool)-\u003eTransform a a",
@@ -2044,6 +2188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrops inputs as long as they match the predicate. The first non-matching input and all\n following inputs are passed on unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "dropWhile",
           "package": "sousit",
@@ -2054,6 +2199,7 @@
         "index": {
           "description": "Drops inputs as long as they match the predicate The first non-matching input and all following inputs are passed on unchanged",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003eTransform a a",
@@ -2070,6 +2216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly lets the \u003ccode\u003elefts\u003c/code\u003e of Either pass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "eitherLeft",
           "package": "sousit",
@@ -2080,6 +2227,7 @@
         "index": {
           "description": "Only lets the lefts of Either pass",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "eitherLeft",
           "package": "sousit",
@@ -2094,6 +2242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly lets the \u003ccode\u003erights\u003c/code\u003e of Either pass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "eitherRight",
           "package": "sousit",
@@ -2104,6 +2253,7 @@
         "index": {
           "description": "Only lets the rights of Either pass",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "eitherRight",
           "package": "sousit",
@@ -2118,6 +2268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly retains elements that match the filter function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "filter",
           "package": "sousit",
@@ -2128,6 +2279,7 @@
         "index": {
           "description": "Only retains elements that match the filter function",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eTransform a a",
@@ -2143,6 +2295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap that allows to filter out elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "filterMap",
           "package": "sousit",
@@ -2153,6 +2306,7 @@
         "index": {
           "description": "Map that allows to filter out elements",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "filterMap",
           "normalized": "(a-\u003eMaybe b)-\u003eTransform a b",
@@ -2169,6 +2323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a function to each element and passes on every element of the result list seperatly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "flatMap",
           "package": "sousit",
@@ -2179,6 +2334,7 @@
         "index": {
           "description": "Applies function to each element and passes on every element of the result list seperatly",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "flatMap",
           "normalized": "(a-\u003e[b])-\u003eTransform a b",
@@ -2195,6 +2351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoops the given transform forever.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "loop",
           "package": "sousit",
@@ -2205,6 +2362,7 @@
         "index": {
           "description": "Loops the given transform forever",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "loop",
           "normalized": "Transform a b-\u003eTransform a b",
@@ -2220,6 +2378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoops the given transform n times\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "loopN",
           "package": "sousit",
@@ -2230,6 +2389,7 @@
         "index": {
           "description": "Loops the given transform times",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "loopN",
           "normalized": "Int-\u003eTransform a b-\u003eTransform a b",
@@ -2245,6 +2405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms each input individually by applying the function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "map",
           "package": "sousit",
@@ -2255,6 +2416,7 @@
         "index": {
           "description": "Transforms each input individually by applying the function",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eTransform a b",
@@ -2270,6 +2432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms each input individually by applying the monadic function.\n   Warning: This is not really a Transform, since it isn't pure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "mapM",
           "package": "sousit",
@@ -2280,6 +2443,7 @@
         "index": {
           "description": "Transforms each input individually by applying the monadic function Warning This is not really Transform since it isn pure",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "mapM",
           "normalized": "(a-\u003eb c)-\u003eSink c b d-\u003eSink a b d",
@@ -2294,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "mapSinkMapping",
           "package": "sousit",
@@ -2303,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "mapSinkMapping",
           "normalized": "(Sink a b c-\u003eSink d b c)-\u003e(d-\u003ea)-\u003eSink a b c-\u003eSink d b c",
@@ -2318,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "mapSinkStatus",
           "package": "sousit",
@@ -2327,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "mapSinkStatus",
           "normalized": "(SinkStatus a b c-\u003eSinkStatus d b c)-\u003eSink a b c-\u003eSink d b c",
@@ -2342,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "mapSinkTransFun",
           "package": "sousit",
@@ -2351,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "mapSinkTransFun",
           "normalized": "TransFun a b c d-\u003eSink a c d-\u003eSink b c d",
@@ -2367,6 +2537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms each input and carry a state between the inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "mapWithState",
           "package": "sousit",
@@ -2377,6 +2548,7 @@
         "index": {
           "description": "Transforms each input and carry state between the inputs",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "mapWithState",
           "normalized": "(a-\u003eb-\u003e(c,a))-\u003ea-\u003eTransform b c",
@@ -2393,6 +2565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes the given transforms in a sequence, as soon as one ends the next input is\n   passed to the next transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "sequence",
           "package": "sousit",
@@ -2403,6 +2576,7 @@
         "index": {
           "description": "Executes the given transforms in sequence as soon as one ends the next input is passed to the next transform",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "sequence",
           "normalized": "[Transform a b]-\u003eTransform a b",
@@ -2418,6 +2592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize the elements into ByteString using cereal. For every input there is exactly one\n   output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "serialize",
           "package": "sousit",
@@ -2428,6 +2603,7 @@
         "index": {
           "description": "Serialize the elements into ByteString using cereal For every input there is exactly one output",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "serialize",
           "package": "sousit",
@@ -2441,6 +2617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes only the first n inputs, then returns done.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "take",
           "package": "sousit",
@@ -2451,6 +2628,7 @@
         "index": {
           "description": "Takes only the first inputs then returns done",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "take",
           "normalized": "a-\u003eTransform b b",
@@ -2466,6 +2644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes inputs until the input fullfils the predicate. The matching input is not passed on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "takeUntil",
           "package": "sousit",
@@ -2476,6 +2655,7 @@
         "index": {
           "description": "Takes inputs until the input fullfils the predicate The matching input is not passed on",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "takeUntil",
           "normalized": "(a-\u003eBool)-\u003eTransform a a",
@@ -2492,6 +2672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes inputs until the input matches the argument. The matching input is not passed on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "takeUntilEq",
           "package": "sousit",
@@ -2502,6 +2683,7 @@
         "index": {
           "description": "Takes inputs until the input matches the argument The matching input is not passed on",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "takeUntilEq",
           "normalized": "a-\u003eTransform a a",
@@ -2518,6 +2700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake inputs while the input fullfils the predicate. As soon as the first non-matching input\n is encountered no more inputs will be passed on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "takeWhile",
           "package": "sousit",
@@ -2528,6 +2711,7 @@
         "index": {
           "description": "Take inputs while the input fullfils the predicate As soon as the first non-matching input is encountered no more inputs will be passed on",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "takeWhile",
           "normalized": "(a-\u003eBool)-\u003eTransform a a",
@@ -2543,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "toDoneTrans",
           "package": "sousit",
@@ -2552,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "toDoneTrans",
           "normalized": "Sink a b c-\u003eSink a b c",
@@ -2568,6 +2754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms each input to a tuple (input, index of input).\n I.e. for \u003ca\u003eMario\u003c/a\u003e: (M, 0), (a, 1), (r, 2), (i, 3), (o, 4)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Trans",
           "name": "zipWithIndex",
           "package": "sousit",
@@ -2578,6 +2765,7 @@
         "index": {
           "description": "Transforms each input to tuple input index of input I.e for Mario",
           "hierarchy": "Data SouSiT Trans",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Trans",
           "name": "zipWithIndex",
           "normalized": "Transform a(a,Int)",
@@ -2593,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Transform",
           "name": "Transform",
           "package": "sousit",
@@ -2601,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Transform",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Transform",
           "name": "Transform",
           "package": "sousit",
@@ -2614,6 +2804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Transform",
           "name": "Transform",
           "package": "sousit",
@@ -2622,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT Transform",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Transform",
           "name": "Transform",
           "package": "sousit",
@@ -2714,6 +2906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges two transforms into one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Transform",
           "name": "mergeTransform",
           "package": "sousit",
@@ -2724,6 +2917,7 @@
         "index": {
           "description": "Merges two transforms into one",
           "hierarchy": "Data SouSiT Transform",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Transform",
           "name": "mergeTransform",
           "normalized": "(Sink a b c-\u003eSink d b c)-\u003e(Sink e b c-\u003eSink a b c)-\u003eSink e b c-\u003eSink d b c",
@@ -2740,6 +2934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transform to a sink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Transform",
           "name": "transformSink",
           "package": "sousit",
@@ -2750,6 +2945,7 @@
         "index": {
           "description": "Apply transform to sink",
           "hierarchy": "Data SouSiT Transform",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Transform",
           "name": "transformSink",
           "normalized": "(Sink a b c-\u003eSink d b c)-\u003eSink a b c-\u003eSink d b c",
@@ -2766,6 +2962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transform to a Source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT.Transform",
           "name": "transformSource",
           "package": "sousit",
@@ -2776,6 +2973,7 @@
         "index": {
           "description": "Apply transform to Source",
           "hierarchy": "Data SouSiT Transform",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT.Transform",
           "name": "transformSource",
           "normalized": "(a b Sink c d e-\u003eSink f d e)-\u003eg d f-\u003eSimpleSource d c",
@@ -2791,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT",
           "name": "SouSiT",
           "package": "sousit",
@@ -2799,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT",
           "name": "SouSiT",
           "package": "sousit",
@@ -2813,6 +3013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic instance of FeedSource (and Source)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT",
           "name": "FeedSource",
           "package": "sousit",
@@ -2822,6 +3023,7 @@
         "index": {
           "description": "basic instance of FeedSource and Source",
           "hierarchy": "Data SouSiT",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT",
           "name": "FeedSource",
           "package": "sousit",
@@ -2835,6 +3037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT",
           "name": "Fetch",
           "package": "sousit",
@@ -2843,6 +3046,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT",
           "name": "Fetch",
           "package": "sousit",
@@ -2857,6 +3061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic instance of Source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT",
           "name": "SimpleSource",
           "package": "sousit",
@@ -2866,6 +3071,7 @@
         "index": {
           "description": "basic instance of Source",
           "hierarchy": "Data SouSiT",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT",
           "name": "SimpleSource",
           "package": "sousit",
@@ -2879,6 +3085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT",
           "name": "Sink",
           "package": "sousit",
@@ -2887,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT",
           "name": "Sink",
           "package": "sousit",
@@ -2901,6 +3109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething that produces data to be processed by a sink\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT",
           "name": "Source",
           "package": "sousit",
@@ -2910,6 +3119,7 @@
         "index": {
           "description": "Something that produces data to be processed by sink",
           "hierarchy": "Data SouSiT",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT",
           "name": "Source",
           "package": "sousit",
@@ -2923,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT",
           "name": "Transform",
           "package": "sousit",
@@ -2931,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT",
           "name": "Transform",
           "package": "sousit",
@@ -2944,6 +3156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT",
           "name": "feedToSink",
           "package": "sousit",
@@ -2953,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT",
           "name": "feedToSink",
           "normalized": "FeedSource a b-\u003ec d Sink b a e-\u003ea(Sink b a e)",
@@ -2969,6 +3183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift the (pure) fetch sink into any monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT",
           "name": "liftFetch",
           "package": "sousit",
@@ -2979,6 +3194,7 @@
         "index": {
           "description": "Lift the pure fetch sink into any monad",
           "hierarchy": "Data SouSiT",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT",
           "name": "liftFetch",
           "normalized": "Fetch a b-\u003eSink a c b",
@@ -2994,6 +3210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:28 UTC 2014",
           "module": "Data.SouSiT",
           "name": "transfer",
           "package": "sousit",
@@ -3003,6 +3220,7 @@
         },
         "index": {
           "hierarchy": "Data SouSiT",
+          "indexed": "2014-03-11T20:07:28",
           "module": "Data.SouSiT",
           "name": "transfer",
           "normalized": "a b c-\u003eSink c b d-\u003eb d",

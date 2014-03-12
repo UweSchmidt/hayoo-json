@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "extcore"
+        "phrase": "extcore",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "Check",
           "package": "extcore",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "Check",
           "package": "extcore",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "CheckRes",
           "package": "extcore",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "CheckRes",
           "package": "extcore",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "Envs",
           "package": "extcore",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "Envs",
           "package": "extcore",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "Menv",
           "package": "extcore",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "Menv",
           "package": "extcore",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "NtEnv",
           "package": "extcore",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "NtEnv",
           "package": "extcore",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "Tcenv",
           "package": "extcore",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "Tcenv",
           "package": "extcore",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "Tvenv",
           "package": "extcore",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "Tvenv",
           "package": "extcore",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "Venv",
           "package": "extcore",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "Venv",
           "package": "extcore",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "Envs",
           "package": "extcore",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "Envs",
           "package": "extcore",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "FailC",
           "package": "extcore",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "FailC",
           "package": "extcore",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "OkC",
           "package": "extcore",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "OkC",
           "package": "extcore",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "cenv_",
           "package": "extcore",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "cenv_",
           "package": "extcore",
@@ -273,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "checkExpr",
           "package": "extcore",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "checkExpr",
           "normalized": "AnMname-\u003eMenv-\u003eTcenv-\u003eCenv-\u003eVenv-\u003eTvenv-\u003eExp-\u003eTy",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "checkModule",
           "package": "extcore",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "checkModule",
           "normalized": "Menv-\u003eModule-\u003eCheckRes Menv",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "checkType",
           "package": "extcore",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "checkType",
           "normalized": "AnMname-\u003eMenv-\u003eTcenv-\u003eTvenv-\u003eTy-\u003eKind",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "envsModule",
           "package": "extcore",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "envsModule",
           "normalized": "Menv-\u003eModule-\u003eMenv",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "mkNtEnv",
           "package": "extcore",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "mkNtEnv",
           "normalized": "Menv-\u003eNtEnv",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "mkTypeEnvsNoChecking",
           "package": "extcore",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "mkTypeEnvsNoChecking",
           "normalized": "[Tdef]-\u003e(Tcenv,Cenv)",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "primCoercionError",
           "package": "extcore",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "primCoercionError",
           "normalized": "a-\u003eb",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "splitTy",
           "package": "extcore",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "splitTy",
           "normalized": "Ty-\u003e([Tbind],[Ty],Ty)",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "tcenv_",
           "package": "extcore",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "tcenv_",
           "package": "extcore",
@@ -510,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Check",
           "name": "venv_",
           "package": "extcore",
@@ -519,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Language Core Check",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Check",
           "name": "venv_",
           "package": "extcore",
@@ -531,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Core",
           "package": "extcore",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Core",
           "package": "extcore",
@@ -552,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Alt",
           "package": "extcore",
@@ -560,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Alt",
           "package": "extcore",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "AnMname",
           "package": "extcore",
@@ -581,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "AnMname",
           "package": "extcore",
@@ -594,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Bind",
           "package": "extcore",
@@ -602,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Bind",
           "package": "extcore",
@@ -615,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Cdef",
           "package": "extcore",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Cdef",
           "package": "extcore",
@@ -636,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "CoercionKind",
           "package": "extcore",
@@ -644,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "CoercionKind",
           "package": "extcore",
@@ -657,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "CoreLit",
           "package": "extcore",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "CoreLit",
           "package": "extcore",
@@ -678,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Dcon",
           "package": "extcore",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Dcon",
           "package": "extcore",
@@ -699,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Exp",
           "package": "extcore",
@@ -707,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Exp",
           "package": "extcore",
@@ -720,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Id",
           "package": "extcore",
@@ -728,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Id",
           "package": "extcore",
@@ -741,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Kind",
           "package": "extcore",
@@ -749,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Kind",
           "package": "extcore",
@@ -762,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "KindOrCoercion",
           "package": "extcore",
@@ -770,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "KindOrCoercion",
           "package": "extcore",
@@ -783,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Lit",
           "package": "extcore",
@@ -791,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Lit",
           "package": "extcore",
@@ -804,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Mname",
           "package": "extcore",
@@ -812,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Mname",
           "package": "extcore",
@@ -825,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Module",
           "package": "extcore",
@@ -833,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Module",
           "package": "extcore",
@@ -846,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Pname",
           "package": "extcore",
@@ -854,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Pname",
           "package": "extcore",
@@ -867,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Qual",
           "package": "extcore",
@@ -875,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Qual",
           "package": "extcore",
@@ -888,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Tbind",
           "package": "extcore",
@@ -896,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Tbind",
           "package": "extcore",
@@ -909,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Tcon",
           "package": "extcore",
@@ -917,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Tcon",
           "package": "extcore",
@@ -930,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Tdef",
           "package": "extcore",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Tdef",
           "package": "extcore",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Tvar",
           "package": "extcore",
@@ -959,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Tvar",
           "package": "extcore",
@@ -972,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Ty",
           "package": "extcore",
@@ -980,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Ty",
           "package": "extcore",
@@ -993,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Var",
           "package": "extcore",
@@ -1001,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Var",
           "package": "extcore",
@@ -1014,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Vbind",
           "package": "extcore",
@@ -1022,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Vbind",
           "package": "extcore",
@@ -1035,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Vdef",
           "package": "extcore",
@@ -1043,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Vdef",
           "package": "extcore",
@@ -1056,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Vdefg",
           "package": "extcore",
@@ -1064,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Vdefg",
           "package": "extcore",
@@ -1077,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Acon",
           "package": "extcore",
@@ -1086,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Acon",
           "normalized": "Acon(Qual Dcon)[Tbind][Vbind]Exp",
@@ -1101,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Adefault",
           "package": "extcore",
@@ -1110,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Adefault",
           "package": "extcore",
@@ -1123,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Alit",
           "package": "extcore",
@@ -1132,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Alit",
           "package": "extcore",
@@ -1145,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "App",
           "package": "extcore",
@@ -1154,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "App",
           "package": "extcore",
@@ -1167,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Appt",
           "package": "extcore",
@@ -1176,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Appt",
           "package": "extcore",
@@ -1189,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Case",
           "package": "extcore",
@@ -1198,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Case",
           "normalized": "Case Exp Vbind Ty[Alt]",
@@ -1213,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Cast",
           "package": "extcore",
@@ -1222,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Cast",
           "package": "extcore",
@@ -1235,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Coercion",
           "package": "extcore",
@@ -1244,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Coercion",
           "package": "extcore",
@@ -1257,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Constr",
           "package": "extcore",
@@ -1266,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Constr",
           "normalized": "Constr(Qual Dcon)[Tbind][Ty]",
@@ -1281,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Data",
           "package": "extcore",
@@ -1290,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Data",
           "normalized": "Data(Qual Tcon)[Tbind][Cdef]",
@@ -1305,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Dcon",
           "package": "extcore",
@@ -1314,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Dcon",
           "package": "extcore",
@@ -1327,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "DefinedCoercion",
           "package": "extcore",
@@ -1336,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "DefinedCoercion",
           "normalized": "DefinedCoercion[Tbind](Ty,Ty)",
@@ -1351,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "External",
           "package": "extcore",
@@ -1360,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "External",
           "package": "extcore",
@@ -1373,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "InstCoercion",
           "package": "extcore",
@@ -1382,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "InstCoercion",
           "package": "extcore",
@@ -1395,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Karrow",
           "package": "extcore",
@@ -1404,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Karrow",
           "package": "extcore",
@@ -1417,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Keq",
           "package": "extcore",
@@ -1426,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Keq",
           "package": "extcore",
@@ -1439,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Kind",
           "package": "extcore",
@@ -1448,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Kind",
           "package": "extcore",
@@ -1461,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Klifted",
           "package": "extcore",
@@ -1470,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Klifted",
           "package": "extcore",
@@ -1483,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Kopen",
           "package": "extcore",
@@ -1492,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Kopen",
           "package": "extcore",
@@ -1505,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Kunlifted",
           "package": "extcore",
@@ -1514,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Kunlifted",
           "package": "extcore",
@@ -1527,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Lam",
           "package": "extcore",
@@ -1536,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Lam",
           "package": "extcore",
@@ -1549,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Lchar",
           "package": "extcore",
@@ -1558,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Lchar",
           "package": "extcore",
@@ -1571,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "LeftCoercion",
           "package": "extcore",
@@ -1580,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "LeftCoercion",
           "package": "extcore",
@@ -1593,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Let",
           "package": "extcore",
@@ -1602,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Let",
           "package": "extcore",
@@ -1615,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Lint",
           "package": "extcore",
@@ -1624,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Lint",
           "package": "extcore",
@@ -1637,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Lit",
           "package": "extcore",
@@ -1646,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Lit",
           "package": "extcore",
@@ -1659,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Literal",
           "package": "extcore",
@@ -1668,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Literal",
           "package": "extcore",
@@ -1681,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Lrational",
           "package": "extcore",
@@ -1690,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Lrational",
           "package": "extcore",
@@ -1703,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Lstring",
           "package": "extcore",
@@ -1712,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Lstring",
           "package": "extcore",
@@ -1725,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "M",
           "package": "extcore",
@@ -1734,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "M",
           "normalized": "M(Pname,[Id],Id)",
@@ -1748,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Module",
           "package": "extcore",
@@ -1757,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Module",
           "normalized": "Module AnMname[Tdef][Vdefg]",
@@ -1772,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Newtype",
           "package": "extcore",
@@ -1781,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Newtype",
           "normalized": "Newtype(Qual Tcon)(Qual Tcon)[Tbind]Ty",
@@ -1796,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Nonrec",
           "package": "extcore",
@@ -1805,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Nonrec",
           "package": "extcore",
@@ -1818,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Note",
           "package": "extcore",
@@ -1827,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Note",
           "package": "extcore",
@@ -1840,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "P",
           "package": "extcore",
@@ -1849,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "P",
           "package": "extcore",
@@ -1861,6 +2027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Rec",
           "package": "extcore",
@@ -1870,6 +2037,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Rec",
           "normalized": "Rec[Vdef]",
@@ -1885,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "RightCoercion",
           "package": "extcore",
@@ -1894,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "RightCoercion",
           "package": "extcore",
@@ -1907,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "SymCoercion",
           "package": "extcore",
@@ -1916,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "SymCoercion",
           "package": "extcore",
@@ -1929,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Tapp",
           "package": "extcore",
@@ -1938,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Tapp",
           "package": "extcore",
@@ -1951,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Tb",
           "package": "extcore",
@@ -1960,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Tb",
           "package": "extcore",
@@ -1973,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Tcon",
           "package": "extcore",
@@ -1982,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Tcon",
           "package": "extcore",
@@ -1995,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Tforall",
           "package": "extcore",
@@ -2004,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Tforall",
           "package": "extcore",
@@ -2017,6 +2197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "TransCoercion",
           "package": "extcore",
@@ -2026,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "TransCoercion",
           "package": "extcore",
@@ -2039,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Tvar",
           "package": "extcore",
@@ -2048,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Tvar",
           "package": "extcore",
@@ -2061,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "UnsafeCoercion",
           "package": "extcore",
@@ -2070,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "UnsafeCoercion",
           "package": "extcore",
@@ -2083,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Var",
           "package": "extcore",
@@ -2092,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Var",
           "package": "extcore",
@@ -2105,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Vb",
           "package": "extcore",
@@ -2114,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Vb",
           "package": "extcore",
@@ -2127,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "Vdef",
           "package": "extcore",
@@ -2136,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "Vdef",
           "normalized": "Vdef(Qual Var,Ty,Exp)",
@@ -2151,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "baseKind",
           "package": "extcore",
@@ -2160,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "baseKind",
           "normalized": "Kind-\u003eBool",
@@ -2175,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "basePkg",
           "package": "extcore",
@@ -2184,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "basePkg",
           "package": "extcore",
@@ -2197,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "boolMname",
           "package": "extcore",
@@ -2206,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "boolMname",
           "package": "extcore",
@@ -2219,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "dcFalse",
           "package": "extcore",
@@ -2228,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "dcFalse",
           "package": "extcore",
@@ -2241,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "dcTrue",
           "package": "extcore",
@@ -2250,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "dcTrue",
           "package": "extcore",
@@ -2263,6 +2465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "dcUtuple",
           "package": "extcore",
@@ -2272,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "dcUtuple",
           "normalized": "Int-\u003eQual Dcon",
@@ -2287,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "dcUtupleTy",
           "package": "extcore",
@@ -2296,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "dcUtupleTy",
           "normalized": "Int-\u003eTy",
@@ -2311,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "eqKind",
           "package": "extcore",
@@ -2320,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "eqKind",
           "normalized": "Kind-\u003eKind-\u003eBool",
@@ -2335,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "equalTy",
           "package": "extcore",
@@ -2344,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "equalTy",
           "normalized": "Ty-\u003eTy-\u003eBool",
@@ -2359,6 +2569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "errMname",
           "package": "extcore",
@@ -2368,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "errMname",
           "package": "extcore",
@@ -2381,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "flattenBinds",
           "package": "extcore",
@@ -2390,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "flattenBinds",
           "normalized": "[Vdefg]-\u003e[Vdef]",
@@ -2405,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "getModule",
           "package": "extcore",
@@ -2414,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "getModule",
           "normalized": "Qual a-\u003eMname",
@@ -2429,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "ghcPrefix",
           "package": "extcore",
@@ -2438,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "ghcPrefix",
           "normalized": "[[Char]]",
@@ -2453,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "isPrimVar",
           "package": "extcore",
@@ -2462,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "isPrimVar",
           "normalized": "(Maybe AnMname,a)-\u003eBool",
@@ -2477,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "isUtupleDc",
           "package": "extcore",
@@ -2486,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "isUtupleDc",
           "normalized": "Qual Dcon-\u003eBool",
@@ -2501,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "isUtupleTy",
           "package": "extcore",
@@ -2510,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "isUtupleTy",
           "normalized": "Ty-\u003eBool",
@@ -2525,6 +2749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "ktArrow",
           "package": "extcore",
@@ -2534,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "ktArrow",
           "package": "extcore",
@@ -2547,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "ktUtuple",
           "package": "extcore",
@@ -2556,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "ktUtuple",
           "normalized": "Int-\u003eKind",
@@ -2571,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "mainMname",
           "package": "extcore",
@@ -2580,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "mainMname",
           "package": "extcore",
@@ -2593,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "mainPkg",
           "package": "extcore",
@@ -2602,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "mainPkg",
           "package": "extcore",
@@ -2615,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "mainPrefix",
           "package": "extcore",
@@ -2624,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "mainPrefix",
           "normalized": "[a]",
@@ -2639,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "mainVar",
           "package": "extcore",
@@ -2648,6 +2883,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "mainVar",
           "normalized": "Qual[Char]",
@@ -2663,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "maxUtuple",
           "package": "extcore",
@@ -2672,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "maxUtuple",
           "package": "extcore",
@@ -2685,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "mkBaseMname",
           "package": "extcore",
@@ -2694,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "mkBaseMname",
           "normalized": "Id-\u003eAnMname",
@@ -2709,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "mkFunTy",
           "package": "extcore",
@@ -2718,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "mkFunTy",
           "normalized": "Ty-\u003eTy-\u003eTy",
@@ -2733,6 +2975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "mkPrimMname",
           "package": "extcore",
@@ -2742,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "mkPrimMname",
           "normalized": "Id-\u003eAnMname",
@@ -2757,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "primMname",
           "package": "extcore",
@@ -2766,6 +3011,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "primMname",
           "package": "extcore",
@@ -2779,6 +3025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "primPkg",
           "package": "extcore",
@@ -2788,6 +3035,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "primPkg",
           "package": "extcore",
@@ -2801,6 +3049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "qual",
           "package": "extcore",
@@ -2810,6 +3059,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "qual",
           "normalized": "AnMname-\u003ea-\u003eQual a",
@@ -2824,6 +3074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "splitTyConApp_maybe",
           "package": "extcore",
@@ -2833,6 +3084,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "splitTyConApp_maybe",
           "normalized": "Ty-\u003eMaybe(Qual Tcon,[Ty])",
@@ -2848,6 +3100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "subKindOf",
           "package": "extcore",
@@ -2857,6 +3110,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "subKindOf",
           "normalized": "Kind-\u003eKind-\u003eBool",
@@ -2872,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "tArrow",
           "package": "extcore",
@@ -2881,6 +3136,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "tArrow",
           "normalized": "Ty-\u003eTy-\u003eTy",
@@ -2896,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "tUtuple",
           "package": "extcore",
@@ -2905,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "tUtuple",
           "normalized": "[Ty]-\u003eTy",
@@ -2920,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "tcArrow",
           "package": "extcore",
@@ -2929,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "tcArrow",
           "package": "extcore",
@@ -2942,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "tcUtuple",
           "package": "extcore",
@@ -2951,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "tcUtuple",
           "normalized": "Int-\u003eQual Tcon",
@@ -2966,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "unitMname",
           "package": "extcore",
@@ -2975,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "unitMname",
           "package": "extcore",
@@ -2988,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "unqual",
           "package": "extcore",
@@ -2997,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "unqual",
           "normalized": "a-\u003eQual a",
@@ -3011,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "utuple",
           "package": "extcore",
@@ -3020,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "utuple",
           "normalized": "[Ty]-\u003e[Exp]-\u003eExp",
@@ -3034,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "wrapperMainAnMname",
           "package": "extcore",
@@ -3043,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "wrapperMainAnMname",
           "package": "extcore",
@@ -3056,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "wrapperMainMname",
           "package": "extcore",
@@ -3065,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "wrapperMainMname",
           "package": "extcore",
@@ -3078,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Core",
           "name": "wrapperMainVar",
           "package": "extcore",
@@ -3087,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Language Core Core",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Core",
           "name": "wrapperMainVar",
           "normalized": "Qual[Char]",
@@ -3102,6 +3376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "CoreUtils",
           "package": "extcore",
@@ -3110,6 +3385,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "CoreUtils",
           "package": "extcore",
@@ -3123,6 +3399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "applyNewtype",
           "package": "extcore",
@@ -3132,6 +3409,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "applyNewtype",
           "normalized": "CoercionKind-\u003e[Ty]-\u003e(Ty,Ty)",
@@ -3147,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "filterVdefgs",
           "package": "extcore",
@@ -3156,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "filterVdefgs",
           "normalized": "(Vdef-\u003eBool)-\u003e[Vdefg]-\u003e[Vdefg]",
@@ -3171,6 +3451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "freeTvars",
           "package": "extcore",
@@ -3180,6 +3461,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "freeTvars",
           "normalized": "Ty-\u003e[Tvar]",
@@ -3195,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "freeVars",
           "package": "extcore",
@@ -3204,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "freeVars",
           "normalized": "Exp-\u003e[Qual Var]",
@@ -3219,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "freeVarss",
           "package": "extcore",
@@ -3228,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "freeVarss",
           "normalized": "[Exp]-\u003e[Qual Var]",
@@ -3243,6 +3529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "freshTvar",
           "package": "extcore",
@@ -3252,6 +3539,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "freshTvar",
           "normalized": "[Tvar]-\u003eTvar",
@@ -3267,6 +3555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "mapVdefg",
           "package": "extcore",
@@ -3276,6 +3565,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "mapVdefg",
           "normalized": "(Vdef-\u003ea Vdef)-\u003eVdefg-\u003ea Vdefg",
@@ -3291,6 +3581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "splitApp",
           "package": "extcore",
@@ -3300,6 +3591,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "splitApp",
           "normalized": "Exp-\u003e(Exp,[Exp])",
@@ -3315,6 +3607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "splitAppIgnoreCasts",
           "package": "extcore",
@@ -3324,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "splitAppIgnoreCasts",
           "normalized": "Exp-\u003e(Exp,[Exp])",
@@ -3339,6 +3633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "splitBinds",
           "package": "extcore",
@@ -3348,6 +3643,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "splitBinds",
           "normalized": "[Bind]-\u003e([(Tvar,Kind)],[(Var,Ty)])",
@@ -3363,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "splitDataConApp_maybe",
           "package": "extcore",
@@ -3372,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "splitDataConApp_maybe",
           "normalized": "Exp-\u003eMaybe(Qual Dcon,[Ty],[Exp])",
@@ -3387,6 +3685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "splitFunTy2_maybe",
           "package": "extcore",
@@ -3396,6 +3695,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "splitFunTy2_maybe",
           "normalized": "Ty-\u003eMaybe(Ty,Ty)",
@@ -3411,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "splitFunTy_maybe",
           "package": "extcore",
@@ -3420,6 +3721,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "splitFunTy_maybe",
           "normalized": "Ty-\u003eMaybe([Ty],Ty)",
@@ -3435,6 +3737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "splitLambda",
           "package": "extcore",
@@ -3444,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "splitLambda",
           "normalized": "Exp-\u003e([Bind],Exp)",
@@ -3459,6 +3763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "substIn",
           "package": "extcore",
@@ -3468,6 +3773,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "substIn",
           "normalized": "Var-\u003eVar-\u003ea-\u003ea",
@@ -3483,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "substVars",
           "package": "extcore",
@@ -3492,6 +3799,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "substVars",
           "normalized": "[Var]-\u003e[Var]-\u003ea-\u003ea",
@@ -3507,6 +3815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "tdefDcons",
           "package": "extcore",
@@ -3516,6 +3825,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "tdefDcons",
           "normalized": "[Tdef]-\u003e[Qual Var]",
@@ -3531,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "tdefNames",
           "package": "extcore",
@@ -3540,6 +3851,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "tdefNames",
           "normalized": "[Tdef]-\u003e[Qual Var]",
@@ -3555,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "tdefTcons",
           "package": "extcore",
@@ -3564,6 +3877,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "tdefTcons",
           "normalized": "[Tdef]-\u003e[Qual Var]",
@@ -3579,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "vbNames",
           "package": "extcore",
@@ -3588,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "vbNames",
           "normalized": "[Vbind]-\u003e[Var]",
@@ -3603,6 +3919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "vbinds",
           "package": "extcore",
@@ -3612,6 +3929,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "vbinds",
           "normalized": "[Bind]-\u003e[(Var,Ty)]",
@@ -3626,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "vdefNames",
           "package": "extcore",
@@ -3635,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "vdefNames",
           "normalized": "[Vdef]-\u003e[Var]",
@@ -3650,6 +3970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "vdefNamesQ",
           "package": "extcore",
@@ -3659,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "vdefNamesQ",
           "normalized": "[Vdef]-\u003e[Qual Var]",
@@ -3674,6 +3996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "vdefTys",
           "package": "extcore",
@@ -3683,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "vdefTys",
           "normalized": "[Vdef]-\u003e[Ty]",
@@ -3698,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "vdefgBodies",
           "package": "extcore",
@@ -3707,6 +4032,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "vdefgBodies",
           "normalized": "Vdefg-\u003e[Exp]",
@@ -3722,6 +4048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "vdefgNames",
           "package": "extcore",
@@ -3731,6 +4058,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "vdefgNames",
           "normalized": "Vdefg-\u003e[Var]",
@@ -3746,6 +4074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "vdefgNamesQ",
           "package": "extcore",
@@ -3755,6 +4084,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "vdefgNamesQ",
           "normalized": "Vdefg-\u003e[Qual Var]",
@@ -3770,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.CoreUtils",
           "name": "vdefgTys",
           "package": "extcore",
@@ -3779,6 +4110,7 @@
         },
         "index": {
           "hierarchy": "Language Core CoreUtils",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.CoreUtils",
           "name": "vdefgTys",
           "normalized": "Vdefg-\u003e[Ty]",
@@ -3794,6 +4126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.DebugPrinter",
           "name": "DebugPrinter",
           "package": "extcore",
@@ -3802,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Language Core DebugPrinter",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.DebugPrinter",
           "name": "DebugPrinter",
           "package": "extcore",
@@ -3816,6 +4150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions controlling the printing of external core.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.DebugPrinter",
           "name": "PrintOpts",
           "package": "extcore",
@@ -3825,6 +4160,7 @@
         "index": {
           "description": "Options controlling the printing of external core",
           "hierarchy": "Language Core DebugPrinter",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.DebugPrinter",
           "name": "PrintOpts",
           "package": "extcore",
@@ -3838,6 +4174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.DebugPrinter",
           "name": "PrintOpts",
           "package": "extcore",
@@ -3847,6 +4184,7 @@
         },
         "index": {
           "hierarchy": "Language Core DebugPrinter",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.DebugPrinter",
           "name": "PrintOpts",
           "package": "extcore",
@@ -3861,6 +4199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to decode names into their recognisable form, i.e. Data.List.nub\n instead of DataziListzinub.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.DebugPrinter",
           "name": "decodeNames",
           "package": "extcore",
@@ -3871,6 +4210,7 @@
         "index": {
           "description": "Whether to decode names into their recognisable form i.e Data.List.nub instead of DataziListzinub",
           "hierarchy": "Language Core DebugPrinter",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.DebugPrinter",
           "name": "decodeNames",
           "package": "extcore",
@@ -3885,6 +4225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default printing options.  Everything is True except ignoreQuals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.DebugPrinter",
           "name": "defOpts",
           "package": "extcore",
@@ -3895,6 +4236,7 @@
         "index": {
           "description": "The default printing options Everything is True except ignoreQuals",
           "hierarchy": "Language Core DebugPrinter",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.DebugPrinter",
           "name": "defOpts",
           "package": "extcore",
@@ -3909,6 +4251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to ignore things that look like dictionary parameters (ignores\n all parameters where the name begins with a dollar sign).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.DebugPrinter",
           "name": "ignoreDicts",
           "package": "extcore",
@@ -3919,6 +4262,7 @@
         "index": {
           "description": "Whether to ignore things that look like dictionary parameters ignores all parameters where the name begins with dollar sign",
           "hierarchy": "Language Core DebugPrinter",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.DebugPrinter",
           "name": "ignoreDicts",
           "package": "extcore",
@@ -3933,6 +4277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to ignore kinds when printing out.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.DebugPrinter",
           "name": "ignoreKinds",
           "package": "extcore",
@@ -3943,6 +4288,7 @@
         "index": {
           "description": "Whether to ignore kinds when printing out",
           "hierarchy": "Language Core DebugPrinter",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.DebugPrinter",
           "name": "ignoreKinds",
           "package": "extcore",
@@ -3957,6 +4303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to ignore module names on fully qualified names, i.e. nub instead\n of Data.List.nub.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.DebugPrinter",
           "name": "ignoreQuals",
           "package": "extcore",
@@ -3967,6 +4314,7 @@
         "index": {
           "description": "Whether to ignore module names on fully qualified names i.e nub instead of Data.List.nub",
           "hierarchy": "Language Core DebugPrinter",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.DebugPrinter",
           "name": "ignoreQuals",
           "package": "extcore",
@@ -3981,6 +4329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to ignore type annotations when printing out.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.DebugPrinter",
           "name": "ignoreTypeBinds",
           "package": "extcore",
@@ -3991,6 +4340,7 @@
         "index": {
           "description": "Whether to ignore type annotations when printing out",
           "hierarchy": "Language Core DebugPrinter",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.DebugPrinter",
           "name": "ignoreTypeBinds",
           "package": "extcore",
@@ -4005,6 +4355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to write Haskell operators in infix form, i.e. p + x rather than\n (+) p x.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.DebugPrinter",
           "name": "infixOperators",
           "package": "extcore",
@@ -4015,6 +4366,7 @@
         "index": {
           "description": "Whether to write Haskell operators in infix form i.e rather than",
           "hierarchy": "Language Core DebugPrinter",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.DebugPrinter",
           "name": "infixOperators",
           "package": "extcore",
@@ -4028,6 +4380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.DebugPrinter",
           "name": "pmodule",
           "package": "extcore",
@@ -4037,6 +4390,7 @@
         },
         "index": {
           "hierarchy": "Language Core DebugPrinter",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.DebugPrinter",
           "name": "pmodule",
           "package": "extcore",
@@ -4049,6 +4403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.DebugPrinter",
           "name": "removeTypeBinds",
           "package": "extcore",
@@ -4058,6 +4413,7 @@
         },
         "index": {
           "hierarchy": "Language Core DebugPrinter",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.DebugPrinter",
           "name": "removeTypeBinds",
           "normalized": "a-\u003ea",
@@ -4073,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Dependencies",
           "name": "Dependencies",
           "package": "extcore",
@@ -4081,6 +4438,7 @@
         },
         "index": {
           "hierarchy": "Language Core Dependencies",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Dependencies",
           "name": "Dependencies",
           "package": "extcore",
@@ -4094,6 +4452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Dependencies",
           "name": "getDependencies",
           "package": "extcore",
@@ -4103,6 +4462,7 @@
         },
         "index": {
           "hierarchy": "Language Core Dependencies",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Dependencies",
           "name": "getDependencies",
           "normalized": "[FilePath]-\u003e[FilePath]-\u003eIO[(FilePath,Module)]",
@@ -4118,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ElimDeadCode",
           "name": "ElimDeadCode",
           "package": "extcore",
@@ -4126,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "Language Core ElimDeadCode",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ElimDeadCode",
           "name": "ElimDeadCode",
           "package": "extcore",
@@ -4139,6 +4501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ElimDeadCode",
           "name": "elimDeadCode",
           "package": "extcore",
@@ -4148,6 +4511,7 @@
         },
         "index": {
           "hierarchy": "Language Core ElimDeadCode",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ElimDeadCode",
           "name": "elimDeadCode",
           "normalized": "Bool-\u003eModule-\u003eModule",
@@ -4163,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Encoding",
           "name": "Encoding",
           "package": "extcore",
@@ -4171,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "Language Core Encoding",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Encoding",
           "name": "Encoding",
           "package": "extcore",
@@ -4184,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Encoding",
           "name": "EncodedString",
           "package": "extcore",
@@ -4192,6 +4559,7 @@
         },
         "index": {
           "hierarchy": "Language Core Encoding",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Encoding",
           "name": "EncodedString",
           "package": "extcore",
@@ -4205,6 +4573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Encoding",
           "name": "UserString",
           "package": "extcore",
@@ -4213,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "Language Core Encoding",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Encoding",
           "name": "UserString",
           "package": "extcore",
@@ -4226,6 +4596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Encoding",
           "name": "count_commas",
           "package": "extcore",
@@ -4235,6 +4606,7 @@
         },
         "index": {
           "hierarchy": "Language Core Encoding",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Encoding",
           "name": "count_commas",
           "normalized": "Int-\u003eString-\u003e(Int,String)",
@@ -4249,6 +4621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Encoding",
           "name": "decode_lower",
           "package": "extcore",
@@ -4258,6 +4631,7 @@
         },
         "index": {
           "hierarchy": "Language Core Encoding",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Encoding",
           "name": "decode_lower",
           "normalized": "Char-\u003eChar",
@@ -4272,6 +4646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Encoding",
           "name": "decode_num_esc",
           "package": "extcore",
@@ -4281,6 +4656,7 @@
         },
         "index": {
           "hierarchy": "Language Core Encoding",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Encoding",
           "name": "decode_num_esc",
           "normalized": "Char-\u003eEncodedString-\u003eUserString",
@@ -4295,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Encoding",
           "name": "decode_tuple",
           "package": "extcore",
@@ -4304,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Language Core Encoding",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Encoding",
           "name": "decode_tuple",
           "normalized": "Char-\u003eEncodedString-\u003eUserString",
@@ -4318,6 +4696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Encoding",
           "name": "decode_upper",
           "package": "extcore",
@@ -4327,6 +4706,7 @@
         },
         "index": {
           "hierarchy": "Language Core Encoding",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Encoding",
           "name": "decode_upper",
           "normalized": "Char-\u003eChar",
@@ -4341,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Encoding",
           "name": "encode_ch",
           "package": "extcore",
@@ -4350,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Language Core Encoding",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Encoding",
           "name": "encode_ch",
           "normalized": "Char-\u003eEncodedString",
@@ -4364,6 +4746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Encoding",
           "name": "maybe_tuple",
           "package": "extcore",
@@ -4373,6 +4756,7 @@
         },
         "index": {
           "hierarchy": "Language Core Encoding",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Encoding",
           "name": "maybe_tuple",
           "normalized": "UserString-\u003eMaybe EncodedString",
@@ -4387,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Encoding",
           "name": "unencodedChar",
           "package": "extcore",
@@ -4396,6 +4781,7 @@
         },
         "index": {
           "hierarchy": "Language Core Encoding",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Encoding",
           "name": "unencodedChar",
           "normalized": "Char-\u003eBool",
@@ -4411,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Encoding",
           "name": "zDecodeString",
           "package": "extcore",
@@ -4420,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Language Core Encoding",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Encoding",
           "name": "zDecodeString",
           "normalized": "EncodedString-\u003eUserString",
@@ -4435,6 +4823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Encoding",
           "name": "zEncodeString",
           "package": "extcore",
@@ -4444,6 +4833,7 @@
         },
         "index": {
           "hierarchy": "Language Core Encoding",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Encoding",
           "name": "zEncodeString",
           "normalized": "UserString-\u003eEncodedString",
@@ -4459,6 +4849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Env",
           "name": "Env",
           "package": "extcore",
@@ -4467,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Language Core Env",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Env",
           "name": "Env",
           "package": "extcore",
@@ -4480,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Env",
           "name": "edomain",
           "package": "extcore",
@@ -4489,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "Language Core Env",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Env",
           "name": "edomain",
           "normalized": "Map a b-\u003e[a]",
@@ -4503,6 +4897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Env",
           "name": "eempty",
           "package": "extcore",
@@ -4512,6 +4907,7 @@
         },
         "index": {
           "hierarchy": "Language Core Env",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Env",
           "name": "eempty",
           "package": "extcore",
@@ -4524,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Env",
           "name": "eextend",
           "package": "extcore",
@@ -4533,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "Language Core Env",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Env",
           "name": "eextend",
           "normalized": "Map a b-\u003e(a,b)-\u003eMap a b",
@@ -4547,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Env",
           "name": "efilter",
           "package": "extcore",
@@ -4556,6 +4955,7 @@
         },
         "index": {
           "hierarchy": "Language Core Env",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Env",
           "name": "efilter",
           "normalized": "Map a b-\u003e(a-\u003eBool)-\u003eMap a b",
@@ -4570,6 +4970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Env",
           "name": "efromlist",
           "package": "extcore",
@@ -4579,6 +4980,7 @@
         },
         "index": {
           "hierarchy": "Language Core Env",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Env",
           "name": "efromlist",
           "normalized": "[(a,b)]-\u003eMap a b",
@@ -4593,6 +4995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Env",
           "name": "elookup",
           "package": "extcore",
@@ -4602,6 +5005,7 @@
         },
         "index": {
           "hierarchy": "Language Core Env",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Env",
           "name": "elookup",
           "normalized": "Map a b-\u003ea-\u003eMaybe b",
@@ -4616,6 +5020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Env",
           "name": "eremove",
           "package": "extcore",
@@ -4625,6 +5030,7 @@
         },
         "index": {
           "hierarchy": "Language Core Env",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Env",
           "name": "eremove",
           "normalized": "Map a b-\u003ea-\u003eMap a b",
@@ -4639,6 +5045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Env",
           "name": "etolist",
           "package": "extcore",
@@ -4648,6 +5055,7 @@
         },
         "index": {
           "hierarchy": "Language Core Env",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Env",
           "name": "etolist",
           "normalized": "Map a b-\u003e[(a,b)]",
@@ -4662,6 +5070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Interp",
           "name": "Interp",
           "package": "extcore",
@@ -4670,6 +5079,7 @@
         },
         "index": {
           "hierarchy": "Language Core Interp",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Interp",
           "name": "Interp",
           "package": "extcore",
@@ -4683,6 +5093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Interp",
           "name": "evalProgram",
           "package": "extcore",
@@ -4692,6 +5103,7 @@
         },
         "index": {
           "hierarchy": "Language Core Interp",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Interp",
           "name": "evalProgram",
           "normalized": "[Module]-\u003eIO Value",
@@ -4707,6 +5119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Merge",
           "name": "Merge",
           "package": "extcore",
@@ -4715,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Language Core Merge",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Merge",
           "name": "Merge",
           "package": "extcore",
@@ -4728,6 +5142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Merge",
           "name": "merge",
           "package": "extcore",
@@ -4737,6 +5152,7 @@
         },
         "index": {
           "hierarchy": "Language Core Merge",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Merge",
           "name": "merge",
           "normalized": "Map(Qual Var)(Qual Var)-\u003e[Module]-\u003eModule",
@@ -4751,6 +5167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Merge",
           "name": "nonUniqueNamesIn",
           "package": "extcore",
@@ -4760,6 +5177,7 @@
         },
         "index": {
           "hierarchy": "Language Core Merge",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Merge",
           "name": "nonUniqueNamesIn",
           "normalized": "[Vdef]-\u003e[Tdef]-\u003e[Qual Var]",
@@ -4775,6 +5193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Merge",
           "name": "uniqueNamesIn",
           "package": "extcore",
@@ -4784,6 +5203,7 @@
         },
         "index": {
           "hierarchy": "Language Core Merge",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Merge",
           "name": "uniqueNamesIn",
           "normalized": "[Vdefg]-\u003e[Tdef]-\u003e([Qual Var],[Qual Dcon],[Qual Tcon])",
@@ -4799,6 +5219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "ParseGlue",
           "package": "extcore",
@@ -4807,6 +5228,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "ParseGlue",
           "package": "extcore",
@@ -4820,6 +5242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "P",
           "package": "extcore",
@@ -4828,6 +5251,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "P",
           "package": "extcore",
@@ -4840,6 +5264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "ParseResult",
           "package": "extcore",
@@ -4848,6 +5273,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "ParseResult",
           "package": "extcore",
@@ -4861,6 +5287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "Token",
           "package": "extcore",
@@ -4869,6 +5296,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "Token",
           "package": "extcore",
@@ -4882,6 +5310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "FailP",
           "package": "extcore",
@@ -4891,6 +5320,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "FailP",
           "package": "extcore",
@@ -4904,6 +5334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "OkP",
           "package": "extcore",
@@ -4913,6 +5344,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "OkP",
           "package": "extcore",
@@ -4926,6 +5358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKEOF",
           "package": "extcore",
@@ -4935,6 +5368,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKEOF",
           "package": "extcore",
@@ -4948,6 +5382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKat",
           "package": "extcore",
@@ -4957,6 +5392,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKat",
           "package": "extcore",
@@ -4970,6 +5406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKbiglambda",
           "package": "extcore",
@@ -4979,6 +5416,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKbiglambda",
           "package": "extcore",
@@ -4992,6 +5430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKcase",
           "package": "extcore",
@@ -5001,6 +5440,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKcase",
           "package": "extcore",
@@ -5014,6 +5454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKcast",
           "package": "extcore",
@@ -5023,6 +5464,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKcast",
           "package": "extcore",
@@ -5036,6 +5478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKcbrace",
           "package": "extcore",
@@ -5045,6 +5488,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKcbrace",
           "package": "extcore",
@@ -5058,6 +5502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKchar",
           "package": "extcore",
@@ -5067,6 +5512,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKchar",
           "package": "extcore",
@@ -5080,6 +5526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKcname",
           "package": "extcore",
@@ -5089,6 +5536,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKcname",
           "package": "extcore",
@@ -5102,6 +5550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKcolon",
           "package": "extcore",
@@ -5111,6 +5560,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKcolon",
           "package": "extcore",
@@ -5124,6 +5574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKcoloncolon",
           "package": "extcore",
@@ -5133,6 +5584,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKcoloncolon",
           "package": "extcore",
@@ -5146,6 +5598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKcparen",
           "package": "extcore",
@@ -5155,6 +5608,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKcparen",
           "package": "extcore",
@@ -5168,6 +5622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKdata",
           "package": "extcore",
@@ -5177,6 +5632,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKdata",
           "package": "extcore",
@@ -5190,6 +5646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKdot",
           "package": "extcore",
@@ -5199,6 +5656,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKdot",
           "package": "extcore",
@@ -5212,6 +5670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKdynexternal",
           "package": "extcore",
@@ -5221,6 +5680,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKdynexternal",
           "package": "extcore",
@@ -5234,6 +5694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKeq",
           "package": "extcore",
@@ -5243,6 +5704,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKeq",
           "package": "extcore",
@@ -5256,6 +5718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKexternal",
           "package": "extcore",
@@ -5265,6 +5728,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKexternal",
           "package": "extcore",
@@ -5278,6 +5742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKforall",
           "package": "extcore",
@@ -5287,6 +5752,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKforall",
           "package": "extcore",
@@ -5300,6 +5766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKhash",
           "package": "extcore",
@@ -5309,6 +5776,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKhash",
           "package": "extcore",
@@ -5322,6 +5790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKin",
           "package": "extcore",
@@ -5331,6 +5800,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKin",
           "package": "extcore",
@@ -5344,6 +5814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKinst",
           "package": "extcore",
@@ -5353,6 +5824,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKinst",
           "package": "extcore",
@@ -5366,6 +5838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKinteger",
           "package": "extcore",
@@ -5375,6 +5848,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKinteger",
           "package": "extcore",
@@ -5388,6 +5862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKlabel",
           "package": "extcore",
@@ -5397,6 +5872,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKlabel",
           "package": "extcore",
@@ -5410,6 +5886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKlambda",
           "package": "extcore",
@@ -5419,6 +5896,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKlambda",
           "package": "extcore",
@@ -5432,6 +5910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKleft",
           "package": "extcore",
@@ -5441,6 +5920,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKleft",
           "package": "extcore",
@@ -5454,6 +5934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKlet",
           "package": "extcore",
@@ -5463,6 +5944,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKlet",
           "package": "extcore",
@@ -5476,6 +5958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKmodule",
           "package": "extcore",
@@ -5485,6 +5968,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKmodule",
           "package": "extcore",
@@ -5498,6 +5982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKname",
           "package": "extcore",
@@ -5507,6 +5992,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKname",
           "package": "extcore",
@@ -5520,6 +6006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKnewtype",
           "package": "extcore",
@@ -5529,6 +6016,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKnewtype",
           "package": "extcore",
@@ -5542,6 +6030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKnote",
           "package": "extcore",
@@ -5551,6 +6040,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKnote",
           "package": "extcore",
@@ -5564,6 +6054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKobrace",
           "package": "extcore",
@@ -5573,6 +6064,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKobrace",
           "package": "extcore",
@@ -5586,6 +6078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKof",
           "package": "extcore",
@@ -5595,6 +6088,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKof",
           "package": "extcore",
@@ -5608,6 +6102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKoparen",
           "package": "extcore",
@@ -5617,6 +6112,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKoparen",
           "package": "extcore",
@@ -5630,6 +6126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKpercent",
           "package": "extcore",
@@ -5639,6 +6136,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKpercent",
           "package": "extcore",
@@ -5652,6 +6150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKquestion",
           "package": "extcore",
@@ -5661,6 +6160,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKquestion",
           "package": "extcore",
@@ -5674,6 +6174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKrarrow",
           "package": "extcore",
@@ -5683,6 +6184,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKrarrow",
           "package": "extcore",
@@ -5696,6 +6198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKrational",
           "package": "extcore",
@@ -5705,6 +6208,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKrational",
           "package": "extcore",
@@ -5718,6 +6222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKrec",
           "package": "extcore",
@@ -5727,6 +6232,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKrec",
           "package": "extcore",
@@ -5740,6 +6246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKright",
           "package": "extcore",
@@ -5749,6 +6256,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKright",
           "package": "extcore",
@@ -5762,6 +6270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKsemicolon",
           "package": "extcore",
@@ -5771,6 +6280,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKsemicolon",
           "package": "extcore",
@@ -5784,6 +6294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKstar",
           "package": "extcore",
@@ -5793,6 +6304,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKstar",
           "package": "extcore",
@@ -5806,6 +6318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKstring",
           "package": "extcore",
@@ -5815,6 +6328,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKstring",
           "package": "extcore",
@@ -5828,6 +6342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKsym",
           "package": "extcore",
@@ -5837,6 +6352,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKsym",
           "package": "extcore",
@@ -5850,6 +6366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKtrans",
           "package": "extcore",
@@ -5859,6 +6376,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKtrans",
           "package": "extcore",
@@ -5872,6 +6390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKunsafe",
           "package": "extcore",
@@ -5881,6 +6400,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKunsafe",
           "package": "extcore",
@@ -5894,6 +6414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "TKwild",
           "package": "extcore",
@@ -5903,6 +6424,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "TKwild",
           "package": "extcore",
@@ -5916,6 +6438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "failP",
           "package": "extcore",
@@ -5925,6 +6448,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "failP",
           "normalized": "String-\u003eP a",
@@ -5939,6 +6463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "returnP",
           "package": "extcore",
@@ -5948,6 +6473,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "returnP",
           "normalized": "a-\u003eP a",
@@ -5962,6 +6488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "splitModuleName",
           "package": "extcore",
@@ -5971,6 +6498,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "splitModuleName",
           "normalized": "EncodedString-\u003e([String],String)",
@@ -5986,6 +6514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParseGlue",
           "name": "thenP",
           "package": "extcore",
@@ -5995,6 +6524,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParseGlue",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParseGlue",
           "name": "thenP",
           "normalized": "P a-\u003e(a-\u003eP b)-\u003eP b",
@@ -6010,6 +6540,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module currently is buggy. (Patches welcome.)\n   Use \u003ca\u003eLanguage.Core.Parser\u003c/a\u003e instead. See also \u003ca\u003eLanguage.Core.ParseGlue\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParsecParser",
           "name": "ParsecParser",
           "package": "extcore",
@@ -6019,6 +6550,7 @@
         "index": {
           "description": "This module currently is buggy Patches welcome Use Language.Core.Parser instead See also Language.Core.ParseGlue",
           "hierarchy": "Language Core ParsecParser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParsecParser",
           "name": "ParsecParser",
           "package": "extcore",
@@ -6032,6 +6564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParsecParser",
           "name": "braces",
           "package": "extcore",
@@ -6041,6 +6574,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParsecParser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParsecParser",
           "name": "braces",
           "normalized": "CharParser a b-\u003eCharParser a b",
@@ -6055,6 +6589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParsecParser",
           "name": "coreKind",
           "package": "extcore",
@@ -6064,6 +6599,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParsecParser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParsecParser",
           "name": "coreKind",
           "package": "extcore",
@@ -6077,6 +6613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParsecParser",
           "name": "coreModuleName",
           "package": "extcore",
@@ -6086,6 +6623,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParsecParser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParsecParser",
           "name": "coreModuleName",
           "package": "extcore",
@@ -6099,6 +6637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParsecParser",
           "name": "coreQualifiedName",
           "package": "extcore",
@@ -6108,6 +6647,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParsecParser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParsecParser",
           "name": "coreQualifiedName",
           "normalized": "Parser(Mname,Id)",
@@ -6123,6 +6663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParsecParser",
           "name": "coreTbinds",
           "package": "extcore",
@@ -6132,6 +6673,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParsecParser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParsecParser",
           "name": "coreTbinds",
           "normalized": "Parser[Tbind]",
@@ -6147,6 +6689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParsecParser",
           "name": "coreTcon",
           "package": "extcore",
@@ -6156,6 +6699,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParsecParser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParsecParser",
           "name": "coreTcon",
           "package": "extcore",
@@ -6169,6 +6713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParsecParser",
           "name": "coreType",
           "package": "extcore",
@@ -6178,6 +6723,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParsecParser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParsecParser",
           "name": "coreType",
           "package": "extcore",
@@ -6191,6 +6737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParsecParser",
           "name": "identifier",
           "package": "extcore",
@@ -6200,6 +6747,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParsecParser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParsecParser",
           "name": "identifier",
           "package": "extcore",
@@ -6212,6 +6760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParsecParser",
           "name": "parens",
           "package": "extcore",
@@ -6221,6 +6770,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParsecParser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParsecParser",
           "name": "parens",
           "normalized": "CharParser a b-\u003eCharParser a b",
@@ -6235,6 +6785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParsecParser",
           "name": "parseCore",
           "package": "extcore",
@@ -6244,6 +6795,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParsecParser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParsecParser",
           "name": "parseCore",
           "normalized": "FilePath-\u003eIO(Either ParseError Module)",
@@ -6259,6 +6811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParsecParser",
           "name": "pt",
           "package": "extcore",
@@ -6268,6 +6821,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParsecParser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParsecParser",
           "name": "pt",
           "normalized": "CharParser()a-\u003eString-\u003eIO()",
@@ -6282,6 +6836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParsecParser",
           "name": "topVbind",
           "package": "extcore",
@@ -6291,6 +6846,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParsecParser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParsecParser",
           "name": "topVbind",
           "normalized": "Parser(Qual Var,Ty)",
@@ -6306,6 +6862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.ParsecParser",
           "name": "upperName",
           "package": "extcore",
@@ -6315,6 +6872,7 @@
         },
         "index": {
           "hierarchy": "Language Core ParsecParser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.ParsecParser",
           "name": "upperName",
           "package": "extcore",
@@ -6328,6 +6886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Parser",
           "name": "Parser",
           "package": "extcore",
@@ -6336,6 +6895,7 @@
         },
         "index": {
           "hierarchy": "Language Core Parser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Parser",
           "name": "Parser",
           "package": "extcore",
@@ -6349,6 +6909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Parser",
           "name": "parse",
           "package": "extcore",
@@ -6358,6 +6919,7 @@
         },
         "index": {
           "hierarchy": "Language Core Parser",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Parser",
           "name": "parse",
           "package": "extcore",
@@ -6370,6 +6932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prep",
           "name": "Prep",
           "package": "extcore",
@@ -6378,6 +6941,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prep",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prep",
           "name": "Prep",
           "package": "extcore",
@@ -6391,6 +6955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prep",
           "name": "PrepM",
           "package": "extcore",
@@ -6399,6 +6964,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prep",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prep",
           "name": "PrepM",
           "package": "extcore",
@@ -6412,6 +6978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prep",
           "name": "boundVars",
           "package": "extcore",
@@ -6421,6 +6988,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prep",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prep",
           "name": "boundVars",
           "normalized": "Exp-\u003e[Id]",
@@ -6436,6 +7004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prep",
           "name": "boundVarsAlt",
           "package": "extcore",
@@ -6445,6 +7014,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prep",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prep",
           "name": "boundVarsAlt",
           "normalized": "Alt-\u003e[Var]",
@@ -6460,6 +7030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prep",
           "name": "boundVarsAlts",
           "package": "extcore",
@@ -6469,6 +7040,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prep",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prep",
           "name": "boundVarsAlts",
           "normalized": "[Alt]-\u003e[Var]",
@@ -6484,6 +7056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prep",
           "name": "boundVarsVdef",
           "package": "extcore",
@@ -6493,6 +7066,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prep",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prep",
           "name": "boundVarsVdef",
           "normalized": "Vdef-\u003e[Id]",
@@ -6508,6 +7082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prep",
           "name": "boundVarsVdefs",
           "package": "extcore",
@@ -6517,6 +7092,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prep",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prep",
           "name": "boundVarsVdefs",
           "normalized": "Vdefg-\u003e[Id]",
@@ -6532,6 +7108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prep",
           "name": "freshVar",
           "package": "extcore",
@@ -6541,6 +7118,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prep",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prep",
           "name": "freshVar",
           "package": "extcore",
@@ -6554,6 +7132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prep",
           "name": "initCounter",
           "package": "extcore",
@@ -6563,6 +7142,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prep",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prep",
           "name": "initCounter",
           "package": "extcore",
@@ -6576,6 +7156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prep",
           "name": "mkTapp",
           "package": "extcore",
@@ -6585,6 +7166,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prep",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prep",
           "name": "mkTapp",
           "normalized": "Ty-\u003e[Ty]-\u003eTy",
@@ -6600,6 +7182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prep",
           "name": "newtypeCoercion_maybe",
           "package": "extcore",
@@ -6609,6 +7192,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prep",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prep",
           "name": "newtypeCoercion_maybe",
           "normalized": "NtEnv-\u003eTy-\u003eMaybe CoercionKind",
@@ -6624,6 +7208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prep",
           "name": "prepModule",
           "package": "extcore",
@@ -6633,6 +7218,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prep",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prep",
           "name": "prepModule",
           "normalized": "Menv-\u003eModule-\u003eModule",
@@ -6648,6 +7234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prep",
           "name": "substNewtys",
           "package": "extcore",
@@ -6657,6 +7244,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prep",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prep",
           "name": "substNewtys",
           "normalized": "NtEnv-\u003eTy-\u003eTy",
@@ -6672,6 +7260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "Prims",
           "package": "extcore",
@@ -6680,6 +7269,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "Prims",
           "package": "extcore",
@@ -6693,6 +7283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "initialEnv",
           "package": "extcore",
@@ -6702,6 +7293,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "initialEnv",
           "package": "extcore",
@@ -6715,6 +7307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "ioBaseMname",
           "package": "extcore",
@@ -6724,6 +7317,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "ioBaseMname",
           "package": "extcore",
@@ -6737,6 +7331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "mkInitialEnv",
           "package": "extcore",
@@ -6746,6 +7341,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "mkInitialEnv",
           "normalized": "[Module]-\u003eIO Menv",
@@ -6761,6 +7357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "mkTypeEnv",
           "package": "extcore",
@@ -6770,6 +7367,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "mkTypeEnv",
           "normalized": "Menv-\u003eModule-\u003eIO Menv",
@@ -6785,6 +7383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "primEnv",
           "package": "extcore",
@@ -6794,6 +7393,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "primEnv",
           "package": "extcore",
@@ -6807,6 +7407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "primId",
           "package": "extcore",
@@ -6816,6 +7417,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "primId",
           "normalized": "String-\u003eQual Id",
@@ -6831,6 +7433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tAddrzh",
           "package": "extcore",
@@ -6840,6 +7443,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tAddrzh",
           "package": "extcore",
@@ -6853,6 +7457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tBool",
           "package": "extcore",
@@ -6862,6 +7467,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tBool",
           "package": "extcore",
@@ -6875,6 +7481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tByteArrayzh",
           "package": "extcore",
@@ -6884,6 +7491,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tByteArrayzh",
           "package": "extcore",
@@ -6897,6 +7505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tCharzh",
           "package": "extcore",
@@ -6906,6 +7515,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tCharzh",
           "package": "extcore",
@@ -6919,6 +7529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tDoublezh",
           "package": "extcore",
@@ -6928,6 +7539,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tDoublezh",
           "package": "extcore",
@@ -6941,6 +7553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tFloatzh",
           "package": "extcore",
@@ -6950,6 +7563,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tFloatzh",
           "package": "extcore",
@@ -6963,6 +7577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tInt64zh",
           "package": "extcore",
@@ -6972,6 +7587,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tInt64zh",
           "package": "extcore",
@@ -6985,6 +7601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tIntzh",
           "package": "extcore",
@@ -6994,6 +7611,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tIntzh",
           "package": "extcore",
@@ -7007,6 +7625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tRWS",
           "package": "extcore",
@@ -7016,6 +7635,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tRWS",
           "package": "extcore",
@@ -7029,6 +7649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tWord64zh",
           "package": "extcore",
@@ -7038,6 +7659,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tWord64zh",
           "package": "extcore",
@@ -7051,6 +7673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tWordzh",
           "package": "extcore",
@@ -7060,6 +7683,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tWordzh",
           "package": "extcore",
@@ -7073,6 +7697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tcBool",
           "package": "extcore",
@@ -7082,6 +7707,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tcBool",
           "package": "extcore",
@@ -7095,6 +7721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tcIO",
           "package": "extcore",
@@ -7104,6 +7731,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tcIO",
           "package": "extcore",
@@ -7117,6 +7745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tcStablePtrzh",
           "package": "extcore",
@@ -7126,6 +7755,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tcStablePtrzh",
           "package": "extcore",
@@ -7139,6 +7769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Prims",
           "name": "tcStatezh",
           "package": "extcore",
@@ -7148,6 +7779,7 @@
         },
         "index": {
           "hierarchy": "Language Core Prims",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Prims",
           "name": "tcStatezh",
           "package": "extcore",
@@ -7161,6 +7793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "Printer",
           "package": "extcore",
@@ -7169,6 +7802,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "Printer",
           "package": "extcore",
@@ -7182,6 +7816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "escape",
           "package": "extcore",
@@ -7191,6 +7826,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "escape",
           "normalized": "String-\u003eString",
@@ -7205,6 +7841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "hierModuleSeparator",
           "package": "extcore",
@@ -7214,6 +7851,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "hierModuleSeparator",
           "package": "extcore",
@@ -7227,6 +7865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "indent",
           "package": "extcore",
@@ -7236,6 +7875,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "indent",
           "normalized": "Doc-\u003eDoc",
@@ -7250,6 +7890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "paexp",
           "package": "extcore",
@@ -7259,6 +7900,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "paexp",
           "normalized": "Exp-\u003eDoc",
@@ -7273,6 +7915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pakind",
           "package": "extcore",
@@ -7282,6 +7925,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pakind",
           "normalized": "Kind-\u003eDoc",
@@ -7296,6 +7940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "palt",
           "package": "extcore",
@@ -7305,6 +7950,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "palt",
           "normalized": "Alt-\u003eDoc",
@@ -7319,6 +7965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "panmname",
           "package": "extcore",
@@ -7328,6 +7975,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "panmname",
           "normalized": "AnMname-\u003eDoc",
@@ -7342,6 +7990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pappexp",
           "package": "extcore",
@@ -7351,6 +8000,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pappexp",
           "normalized": "Exp-\u003e[Either Exp Ty]-\u003eDoc",
@@ -7365,6 +8015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pappty",
           "package": "extcore",
@@ -7374,6 +8025,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pappty",
           "normalized": "Ty-\u003e[Ty]-\u003eDoc",
@@ -7388,6 +8040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pattbind",
           "package": "extcore",
@@ -7397,6 +8050,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pattbind",
           "normalized": "(Tvar,Kind)-\u003eDoc",
@@ -7411,6 +8065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "paty",
           "package": "extcore",
@@ -7420,6 +8075,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "paty",
           "normalized": "Ty-\u003eDoc",
@@ -7434,6 +8090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pbind",
           "package": "extcore",
@@ -7443,6 +8100,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pbind",
           "normalized": "Bind-\u003eDoc",
@@ -7457,6 +8115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pbty",
           "package": "extcore",
@@ -7466,6 +8125,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pbty",
           "normalized": "Ty-\u003eDoc",
@@ -7480,6 +8140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pcdef",
           "package": "extcore",
@@ -7489,6 +8150,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pcdef",
           "normalized": "Cdef-\u003eDoc",
@@ -7503,6 +8165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pclit",
           "package": "extcore",
@@ -7512,6 +8175,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pclit",
           "normalized": "CoreLit-\u003eDoc",
@@ -7526,6 +8190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "peqkind",
           "package": "extcore",
@@ -7535,6 +8200,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "peqkind",
           "normalized": "(Ty,Ty)-\u003eDoc",
@@ -7549,6 +8215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pexp",
           "package": "extcore",
@@ -7558,6 +8225,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pexp",
           "normalized": "Exp-\u003eDoc",
@@ -7572,6 +8240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pfexp",
           "package": "extcore",
@@ -7581,6 +8250,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pfexp",
           "normalized": "Exp-\u003eDoc",
@@ -7595,6 +8265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pforall",
           "package": "extcore",
@@ -7604,6 +8275,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pforall",
           "normalized": "[Tbind]-\u003eTy-\u003eDoc",
@@ -7618,6 +8290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pkind",
           "package": "extcore",
@@ -7627,6 +8300,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pkind",
           "normalized": "Kind-\u003eDoc",
@@ -7641,6 +8315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "plamexp",
           "package": "extcore",
@@ -7650,6 +8325,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "plamexp",
           "normalized": "[Bind]-\u003eExp-\u003eDoc",
@@ -7664,6 +8340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "plit",
           "package": "extcore",
@@ -7673,6 +8350,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "plit",
           "normalized": "Lit-\u003eDoc",
@@ -7687,6 +8365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pmname",
           "package": "extcore",
@@ -7696,6 +8375,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pmname",
           "normalized": "Maybe AnMname-\u003eDoc",
@@ -7710,6 +8390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pmodule",
           "package": "extcore",
@@ -7719,6 +8400,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pmodule",
           "normalized": "Module-\u003eDoc",
@@ -7733,6 +8415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pname",
           "package": "extcore",
@@ -7742,6 +8425,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pname",
           "normalized": "String-\u003eDoc",
@@ -7756,6 +8440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pqname",
           "package": "extcore",
@@ -7765,6 +8450,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pqname",
           "normalized": "(Maybe AnMname,String)-\u003eDoc",
@@ -7779,6 +8465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pstring",
           "package": "extcore",
@@ -7788,6 +8475,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pstring",
           "normalized": "String-\u003eDoc",
@@ -7802,6 +8490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "ptbind",
           "package": "extcore",
@@ -7811,6 +8500,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "ptbind",
           "normalized": "Tbind-\u003eDoc",
@@ -7825,6 +8515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "ptdef",
           "package": "extcore",
@@ -7834,6 +8525,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "ptdef",
           "normalized": "Tdef-\u003eDoc",
@@ -7848,6 +8540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pty",
           "package": "extcore",
@@ -7857,6 +8550,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pty",
           "normalized": "Ty-\u003eDoc",
@@ -7871,6 +8565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pvbind",
           "package": "extcore",
@@ -7880,6 +8575,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pvbind",
           "normalized": "(String,Ty)-\u003eDoc",
@@ -7894,6 +8590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pvdef",
           "package": "extcore",
@@ -7903,6 +8600,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pvdef",
           "normalized": "Vdef-\u003eDoc",
@@ -7917,6 +8615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:41 UTC 2014",
           "module": "Language.Core.Printer",
           "name": "pvdefg",
           "package": "extcore",
@@ -7926,6 +8625,7 @@
         },
         "index": {
           "hierarchy": "Language Core Printer",
+          "indexed": "2014-03-11T18:05:41",
           "module": "Language.Core.Printer",
           "name": "pvdefg",
           "normalized": "Vdefg-\u003eDoc",

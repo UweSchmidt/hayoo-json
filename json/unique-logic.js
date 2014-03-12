@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unique-logic"
+        "phrase": "unique-logic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This module is intended for documentation purposes. Do not import it!\n\u003c/p\u003e\u003c/div\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Expression",
           "name": "Expression",
           "package": "unique-logic",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Deprecated This module is intended for documentation purposes Do not import it",
           "hierarchy": "UniqueLogic ST Example Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Expression",
           "name": "Expression",
           "package": "unique-logic",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Expression",
           "name": "example",
           "package": "unique-logic",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Expression",
           "name": "example",
           "normalized": "(Maybe Double,Maybe Double)",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This module is intended for documentation purposes. Do not import it!\n\u003c/p\u003e\u003c/div\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Label",
           "package": "unique-logic",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Deprecated This module is intended for documentation purposes Do not import it",
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Label",
           "package": "unique-logic",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Assign",
           "package": "unique-logic",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Assign",
           "package": "unique-logic",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Assigns",
           "package": "unique-logic",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Assigns",
           "package": "unique-logic",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Name",
           "package": "unique-logic",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Name",
           "package": "unique-logic",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Term",
           "package": "unique-logic",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Term",
           "package": "unique-logic",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Abs",
           "package": "unique-logic",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Abs",
           "package": "unique-logic",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Add",
           "package": "unique-logic",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Add",
           "package": "unique-logic",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Assign",
           "package": "unique-logic",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Assign",
           "package": "unique-logic",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Const",
           "package": "unique-logic",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Const",
           "package": "unique-logic",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Div",
           "package": "unique-logic",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Div",
           "package": "unique-logic",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Max",
           "package": "unique-logic",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Max",
           "package": "unique-logic",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Mul",
           "package": "unique-logic",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Mul",
           "package": "unique-logic",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Signum",
           "package": "unique-logic",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Signum",
           "package": "unique-logic",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Sub",
           "package": "unique-logic",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Sub",
           "package": "unique-logic",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Var",
           "package": "unique-logic",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "Var",
           "package": "unique-logic",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "constant",
           "package": "unique-logic",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "constant",
           "normalized": "Rational-\u003eT Assigns a(Variable Assigns a Term)",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "expression",
           "package": "unique-logic",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "expression",
           "normalized": "((Maybe Term,Maybe Term),Assigns)",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "globalVariable",
           "package": "unique-logic",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "globalVariable",
           "normalized": "Name-\u003eST a(Variable Assigns a Term)",
@@ -462,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e x=1\n y=2\n z=3\n\u003c/pre\u003e\u003cpre\u003e x+y=3\n y*z=6\n z=3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "rule",
           "package": "unique-logic",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Label",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Label",
           "name": "rule",
           "normalized": "((Maybe Term,Maybe Term,Maybe Term),Assigns)",
@@ -486,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This module is intended for documentation purposes. Do not import it!\n\u003c/p\u003e\u003c/div\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Rule",
           "name": "Rule",
           "package": "unique-logic",
@@ -495,6 +538,7 @@
         "index": {
           "description": "Deprecated This module is intended for documentation purposes Do not import it",
           "hierarchy": "UniqueLogic ST Example Rule",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Rule",
           "name": "Rule",
           "package": "unique-logic",
@@ -509,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e x=1\n y=2\n z=3\n w=3\n\u003c/pre\u003e\u003cpre\u003e x+y=3\n y*z=6\n z=3\n y^w=8\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Example.Rule",
           "name": "example",
           "package": "unique-logic",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Example Rule",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Example.Rule",
           "name": "example",
           "normalized": "(Maybe Double,Maybe Double,Maybe Double,Maybe Double)",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "Expression",
           "package": "unique-logic",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "Expression",
           "package": "unique-logic",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "Apply",
           "package": "unique-logic",
@@ -561,6 +610,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "Apply",
           "package": "unique-logic",
@@ -575,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression is defined by a set of equations\nand the variable at the top-level.\nThe value of the expression equals the value of the top variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "T",
           "package": "unique-logic",
@@ -584,6 +635,7 @@
         "index": {
           "description": "An expression is defined by set of equations and the variable at the top-level The value of the expression equals the value of the top variable",
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "T",
           "package": "unique-logic",
@@ -596,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "(=!=)",
           "package": "unique-logic",
@@ -605,6 +658,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "(=!=) =!=",
           "normalized": "T a b c d-\u003eT a b c d-\u003eT a b c d",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "(=:=)",
           "package": "unique-logic",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "(=:=) =:=",
           "normalized": "T a b c d-\u003eT a b c d-\u003eT b c()",
@@ -643,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function allows to generalize \u003ccode\u003e\u003ca\u003efromRule2\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efromRule3\u003c/a\u003e\u003c/code\u003e to more arguments\nusing \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e combinators.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e fromRule3 rule x y\n    = runApply $ liftA2 rule (arg x) (arg y)\n    = runApply $ pure rule \u003c*\u003e arg x \u003c*\u003e arg y\n\u003c/pre\u003e\u003cp\u003eBuilding rules with \u003ccode\u003e\u003ca\u003earg\u003c/a\u003e\u003c/code\u003e provides more granularity\nthan using auxiliary \u003ccode\u003e\u003ca\u003epair\u003c/a\u003e\u003c/code\u003e rules!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "arg",
           "package": "unique-logic",
@@ -653,6 +710,7 @@
         "index": {
           "description": "This function allows to generalize fromRule2 and fromRule3 to more arguments using Applicative combinators Example fromRule3 rule runApply liftA2 rule arg arg runApply pure rule arg arg Building rules with arg provides more granularity than using auxiliary pair rules",
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "arg",
           "normalized": "T a b c d-\u003eApply b c(a b c d)",
@@ -668,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a constant expression of a simple numeric value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "constant",
           "package": "unique-logic",
@@ -678,6 +737,7 @@
         "index": {
           "description": "Make constant expression of simple numeric value",
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "constant",
           "normalized": "a-\u003eT b c d a",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "fromRule1",
           "package": "unique-logic",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "fromRule1",
           "normalized": "(a b c d-\u003eT b c())-\u003eT a b c d",
@@ -716,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "fromRule2",
           "package": "unique-logic",
@@ -725,6 +788,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "fromRule2",
           "normalized": "(a b c d-\u003ea b c e-\u003eT b c())-\u003eT a b c d-\u003eT a b c e",
@@ -740,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "fromRule3",
           "package": "unique-logic",
@@ -749,6 +814,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "fromRule3",
           "normalized": "(a b c d-\u003ea b c e-\u003ea b c f-\u003eT b c())-\u003eT a b c d-\u003eT a b c e-\u003eT a b c f",
@@ -764,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "fromVariable",
           "package": "unique-logic",
@@ -773,6 +840,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "fromVariable",
           "normalized": "a b c d-\u003eT a b c d",
@@ -789,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe are not able to implement a full Ord instance\nincluding Eq superclass and comparisons,\nbut we need to compute maxima.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "max",
           "package": "unique-logic",
@@ -799,6 +868,7 @@
         "index": {
           "description": "We are not able to implement full Ord instance including Eq superclass and comparisons but we need to compute maxima",
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "max",
           "normalized": "T a b c d-\u003eT a b c d-\u003eT a b c d",
@@ -813,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "maximum",
           "package": "unique-logic",
@@ -822,6 +893,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "maximum",
           "normalized": "[T a b c d]-\u003eT a b c d",
@@ -837,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct or decompose a pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "pair",
           "package": "unique-logic",
@@ -847,6 +920,7 @@
         "index": {
           "description": "Construct or decompose pair",
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "pair",
           "normalized": "T a b c d-\u003eT a b c e-\u003eT a b c(d,e)",
@@ -861,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "runApply",
           "package": "unique-logic",
@@ -870,6 +945,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "runApply",
           "normalized": "Apply a b(c a b d-\u003eT a b())-\u003eT c a b d",
@@ -885,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "sqr",
           "package": "unique-logic",
@@ -894,6 +971,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "sqr",
           "normalized": "T a b c d-\u003eT a b c d",
@@ -908,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Expression",
           "name": "sqrt",
           "package": "unique-logic",
@@ -917,6 +996,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Expression",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Expression",
           "name": "sqrt",
           "normalized": "T a b c d-\u003eT a b c d",
@@ -931,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Rule",
           "name": "Rule",
           "package": "unique-logic",
@@ -939,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Rule",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Rule",
           "name": "Rule",
           "package": "unique-logic",
@@ -952,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Rule",
           "name": "add",
           "package": "unique-logic",
@@ -961,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Rule",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Rule",
           "name": "add",
           "normalized": "a b c d-\u003ea b c d-\u003ea b c d-\u003eT b c()",
@@ -975,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Rule",
           "name": "equ",
           "package": "unique-logic",
@@ -984,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Rule",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Rule",
           "name": "equ",
           "normalized": "a b c d-\u003ea b c d-\u003eT b c()",
@@ -998,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Rule",
           "name": "generic2",
           "package": "unique-logic",
@@ -1007,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Rule",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Rule",
           "name": "generic2",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003ec d e b-\u003ec d e a-\u003eT d e()",
@@ -1021,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Rule",
           "name": "generic3",
           "package": "unique-logic",
@@ -1030,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Rule",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Rule",
           "name": "generic3",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(b-\u003ec-\u003ea)-\u003e(c-\u003ea-\u003eb)-\u003ed e f c-\u003ed e f a-\u003ed e f b-\u003eT e f()",
@@ -1044,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Rule",
           "name": "max",
           "package": "unique-logic",
@@ -1053,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Rule",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Rule",
           "name": "max",
           "normalized": "a b c d-\u003ea b c d-\u003ea b c d-\u003eT b c()",
@@ -1067,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Rule",
           "name": "mul",
           "package": "unique-logic",
@@ -1076,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Rule",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Rule",
           "name": "mul",
           "normalized": "a b c d-\u003ea b c d-\u003ea b c d-\u003eT b c()",
@@ -1091,6 +1185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou might be tempted to use the \u003ccode\u003e\u003ca\u003epair\u003c/a\u003e\u003c/code\u003e rule to collect parameters\nfor rules with more than three arguments.\nThis is generally not a good idea since this way you lose granularity.\nFor building rules with more than three arguments,\nplease build according assignments with \u003ccode\u003e\u003ca\u003earg\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erunApply\u003c/a\u003e\u003c/code\u003e\nand bundle these assignments to rules.\nThis is the way, \u003ccode\u003e\u003ca\u003egeneric2\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003egeneric3\u003c/a\u003e\u003c/code\u003e work.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Rule",
           "name": "pair",
           "package": "unique-logic",
@@ -1101,6 +1196,7 @@
         "index": {
           "description": "You might be tempted to use the pair rule to collect parameters for rules with more than three arguments This is generally not good idea since this way you lose granularity For building rules with more than three arguments please build according assignments with arg and runApply and bundle these assignments to rules This is the way generic2 and generic3 work",
           "hierarchy": "UniqueLogic ST Rule",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Rule",
           "name": "pair",
           "normalized": "a b c d-\u003ea b c e-\u003ea b c(d,e)-\u003eT b c()",
@@ -1115,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Rule",
           "name": "pow",
           "package": "unique-logic",
@@ -1124,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Rule",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Rule",
           "name": "pow",
           "normalized": "a b c d-\u003ea b c d-\u003ea b c d-\u003eT b c()",
@@ -1138,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.Rule",
           "name": "square",
           "package": "unique-logic",
@@ -1147,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST Rule",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.Rule",
           "name": "square",
           "normalized": "a b c d-\u003ea b c d-\u003eT b c()",
@@ -1161,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.RuleLog",
           "name": "RuleLog",
           "package": "unique-logic",
@@ -1169,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST RuleLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.RuleLog",
           "name": "RuleLog",
           "package": "unique-logic",
@@ -1182,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.RuleLog",
           "name": "generic2",
           "package": "unique-logic",
@@ -1191,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST RuleLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.RuleLog",
           "name": "generic2",
           "normalized": "(a-\u003eWriter b c)-\u003e(c-\u003eWriter b a)-\u003eVariable b d c-\u003eVariable b d a-\u003eT b d()",
@@ -1205,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.RuleLog",
           "name": "generic3",
           "package": "unique-logic",
@@ -1214,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST RuleLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.RuleLog",
           "name": "generic3",
           "normalized": "(a-\u003eb-\u003eWriter c d)-\u003e(b-\u003ed-\u003eWriter c a)-\u003e(d-\u003ea-\u003eWriter c b)-\u003eVariable c e d-\u003eVariable c e a-\u003eVariable c e b-\u003eT c e()",
@@ -1228,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.System",
           "name": "System",
           "package": "unique-logic",
@@ -1236,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST System",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.System",
           "name": "System",
           "package": "unique-logic",
@@ -1249,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.System",
           "name": "Apply",
           "package": "unique-logic",
@@ -1257,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST System",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.System",
           "name": "Apply",
           "package": "unique-logic",
@@ -1270,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.System",
           "name": "T",
           "package": "unique-logic",
@@ -1278,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST System",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.System",
           "name": "T",
           "package": "unique-logic",
@@ -1290,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.System",
           "name": "Var",
           "package": "unique-logic",
@@ -1298,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST System",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.System",
           "name": "Var",
           "package": "unique-logic",
@@ -1311,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.System",
           "name": "Variable",
           "package": "unique-logic",
@@ -1319,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST System",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.System",
           "name": "Variable",
           "package": "unique-logic",
@@ -1404,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.System",
           "name": "constant",
           "package": "unique-logic",
@@ -1413,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST System",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.System",
           "name": "constant",
           "normalized": "a-\u003eT b c(d b c a)",
@@ -1450,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.System",
           "name": "localVariable",
           "package": "unique-logic",
@@ -1459,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST System",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.System",
           "name": "localVariable",
           "package": "unique-logic",
@@ -1472,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.System",
           "name": "plainVariable",
           "package": "unique-logic",
@@ -1481,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST System",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.System",
           "name": "plainVariable",
           "normalized": "a b c d-\u003eVariable b c d",
@@ -1520,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.System",
           "name": "runApply",
           "package": "unique-logic",
@@ -1529,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST System",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.System",
           "name": "runApply",
           "normalized": "Apply a b c-\u003ed a b c-\u003eT a b()",
@@ -1544,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.System",
           "name": "solve",
           "package": "unique-logic",
@@ -1553,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST System",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.System",
           "name": "solve",
           "normalized": "T()a b-\u003eST a b",
@@ -1567,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "SystemLabel",
           "package": "unique-logic",
@@ -1575,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLabel",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "SystemLabel",
           "package": "unique-logic",
@@ -1588,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "Apply",
           "package": "unique-logic",
@@ -1596,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLabel",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "Apply",
           "package": "unique-logic",
@@ -1609,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "T",
           "package": "unique-logic",
@@ -1617,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLabel",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "T",
           "package": "unique-logic",
@@ -1629,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "Variable",
           "package": "unique-logic",
@@ -1637,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLabel",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "Variable",
           "package": "unique-logic",
@@ -1650,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "constant",
           "package": "unique-logic",
@@ -1659,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLabel",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "constant",
           "normalized": "a-\u003eT b c(d b c a)",
@@ -1673,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "globalVariable",
           "package": "unique-logic",
@@ -1682,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLabel",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "globalVariable",
           "normalized": "(a-\u003eWriter b a)-\u003eST c(Variable b c a)",
@@ -1697,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "localVariable",
           "package": "unique-logic",
@@ -1706,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLabel",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "localVariable",
           "package": "unique-logic",
@@ -1719,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "runApply",
           "package": "unique-logic",
@@ -1728,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLabel",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "runApply",
           "normalized": "Apply a b c-\u003ed a b c-\u003eT a b()",
@@ -1743,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "solve",
           "package": "unique-logic",
@@ -1752,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLabel",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLabel",
           "name": "solve",
           "normalized": "T a b c-\u003eWriterT a(ST b)c",
@@ -1766,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "SystemLog",
           "package": "unique-logic",
@@ -1774,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "SystemLog",
           "package": "unique-logic",
@@ -1787,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "Apply",
           "package": "unique-logic",
@@ -1795,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "Apply",
           "package": "unique-logic",
@@ -1808,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "T",
           "package": "unique-logic",
@@ -1816,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "T",
           "package": "unique-logic",
@@ -1828,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "Variable",
           "package": "unique-logic",
@@ -1836,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "Variable",
           "package": "unique-logic",
@@ -1850,6 +2002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function allows to generalize \u003ccode\u003e\u003ca\u003eassignment2\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eassignment3\u003c/a\u003e\u003c/code\u003e to more arguments.\nYou could achieve the same with nested applications of \u003ccode\u003eassignment3 (,)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "arg",
           "package": "unique-logic",
@@ -1860,6 +2013,7 @@
         "index": {
           "description": "This function allows to generalize assignment2 and assignment3 to more arguments You could achieve the same with nested applications of assignment3",
           "hierarchy": "UniqueLogic ST SystemLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "arg",
           "normalized": "Variable a b c-\u003eApply a b c",
@@ -1874,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "assignment2",
           "package": "unique-logic",
@@ -1883,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "assignment2",
           "normalized": "(a-\u003eWriter b c)-\u003eVariable b d a-\u003eVariable b d c-\u003eT b d()",
@@ -1897,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "assignment3",
           "package": "unique-logic",
@@ -1906,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "assignment3",
           "normalized": "(a-\u003eb-\u003eWriter c d)-\u003eVariable c e a-\u003eVariable c e b-\u003eVariable c e d-\u003eT c e()",
@@ -1920,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "constant",
           "package": "unique-logic",
@@ -1929,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "constant",
           "normalized": "a-\u003eT b c(Variable b c a)",
@@ -1943,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "localVariable",
           "package": "unique-logic",
@@ -1952,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "localVariable",
           "package": "unique-logic",
@@ -1965,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "query",
           "package": "unique-logic",
@@ -1974,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "query",
           "normalized": "Variable a b c-\u003eST b(Maybe c)",
@@ -1988,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "runApply",
           "package": "unique-logic",
@@ -1997,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "runApply",
           "normalized": "Apply a b(Writer a c)-\u003eVariable a b c-\u003eT a b()",
@@ -2012,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:10 UTC 2014",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "solve",
           "package": "unique-logic",
@@ -2021,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "UniqueLogic ST SystemLog",
+          "indexed": "2014-03-11T20:30:10",
           "module": "UniqueLogic.ST.SystemLog",
           "name": "solve",
           "normalized": "T a b c-\u003eWriterT a(ST b)c",

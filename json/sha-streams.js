@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sha-streams"
+        "phrase": "sha-streams",
+        "type": "phrase"
       },
       "type": "context"
     }

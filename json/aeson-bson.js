@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aeson-bson"
+        "phrase": "aeson-bson",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:37 UTC 2014",
           "module": "Data.Aeson.Bson",
           "name": "Bson",
           "package": "aeson-bson",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Bson",
+          "indexed": "2014-03-11T17:08:37",
           "module": "Data.Aeson.Bson",
           "name": "Bson",
           "package": "aeson-bson",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:37 UTC 2014",
           "module": "Data.Aeson.Bson",
           "name": "aesonifyValue",
           "package": "aeson-bson",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Bson",
+          "indexed": "2014-03-11T17:08:37",
           "module": "Data.Aeson.Bson",
           "name": "aesonifyValue",
           "normalized": "Value-\u003eValue",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:37 UTC 2014",
           "module": "Data.Aeson.Bson",
           "name": "bsonifyValue",
           "package": "aeson-bson",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Bson",
+          "indexed": "2014-03-11T17:08:37",
           "module": "Data.Aeson.Bson",
           "name": "bsonifyValue",
           "normalized": "Value-\u003eValue",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:37 UTC 2014",
           "module": "Data.Aeson.Bson",
           "name": "toAeson",
           "package": "aeson-bson",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Bson",
+          "indexed": "2014-03-11T17:08:37",
           "module": "Data.Aeson.Bson",
           "name": "toAeson",
           "normalized": "Document-\u003eObject",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:37 UTC 2014",
           "module": "Data.Aeson.Bson",
           "name": "toBson",
           "package": "aeson-bson",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Bson",
+          "indexed": "2014-03-11T17:08:37",
           "module": "Data.Aeson.Bson",
           "name": "toBson",
           "normalized": "Object-\u003eDocument",

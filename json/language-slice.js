@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-slice"
+        "phrase": "language-slice",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "AST",
           "package": "language-slice",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "AST",
           "package": "language-slice",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "Annotation",
           "package": "language-slice",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "Annotation",
           "package": "language-slice",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "FieldDecl",
           "package": "language-slice",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "FieldDecl",
           "package": "language-slice",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "Ident",
           "package": "language-slice",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "Ident",
           "package": "language-slice",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "IncludeDelimiters",
           "package": "language-slice",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "IncludeDelimiters",
           "package": "language-slice",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "MethodDecl",
           "package": "language-slice",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "MethodDecl",
           "package": "language-slice",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "MethodOrFieldDecl",
           "package": "language-slice",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "MethodOrFieldDecl",
           "package": "language-slice",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "NsQualIdent",
           "package": "language-slice",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "NsQualIdent",
           "package": "language-slice",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceDecl",
           "package": "language-slice",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceDecl",
           "package": "language-slice",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceType",
           "package": "language-slice",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceType",
           "package": "language-slice",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceVal",
           "package": "language-slice",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceVal",
           "package": "language-slice",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "AngleBrackets",
           "package": "language-slice",
@@ -258,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "AngleBrackets",
           "package": "language-slice",
@@ -271,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "ClassDecl",
           "package": "language-slice",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "ClassDecl",
           "normalized": "ClassDecl Ident(Maybe NsQualIdent)[MethodOrFieldDecl]",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "ConstDecl",
           "package": "language-slice",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "ConstDecl",
           "package": "language-slice",
@@ -317,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "DictionaryDecl",
           "package": "language-slice",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "DictionaryDecl",
           "package": "language-slice",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "EnumDecl",
           "package": "language-slice",
@@ -348,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "EnumDecl",
           "normalized": "EnumDecl Ident[Ident]",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "ExceptionDecl",
           "package": "language-slice",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "ExceptionDecl",
           "normalized": "ExceptionDecl Ident[NsQualIdent][FieldDecl]",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "FDecl",
           "package": "language-slice",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "FDecl",
           "package": "language-slice",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "FieldDecl",
           "package": "language-slice",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "FieldDecl",
           "package": "language-slice",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "Idempotent",
           "package": "language-slice",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "Idempotent",
           "package": "language-slice",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "Ident",
           "package": "language-slice",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "Ident",
           "package": "language-slice",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "IncludeDecl",
           "package": "language-slice",
@@ -484,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "IncludeDecl",
           "package": "language-slice",
@@ -497,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "InterfaceDecl",
           "package": "language-slice",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "InterfaceDecl",
           "normalized": "InterfaceDecl Ident[NsQualIdent][MethodDecl]",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "InterfaceFDecl",
           "package": "language-slice",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "InterfaceFDecl",
           "package": "language-slice",
@@ -543,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "MDecl",
           "package": "language-slice",
@@ -552,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "MDecl",
           "package": "language-slice",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "MethodDecl",
           "package": "language-slice",
@@ -574,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "MethodDecl",
           "normalized": "MethodDecl SliceType Ident[FieldDecl][NsQualIdent](Maybe Annotation)",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "ModuleDecl",
           "package": "language-slice",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "ModuleDecl",
           "normalized": "ModuleDecl Ident[SliceDecl]",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "NsQualIdent",
           "package": "language-slice",
@@ -622,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "NsQualIdent",
           "package": "language-slice",
@@ -635,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "Quotes",
           "package": "language-slice",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "Quotes",
           "package": "language-slice",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "STBool",
           "package": "language-slice",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "STBool",
           "package": "language-slice",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "STByte",
           "package": "language-slice",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "STByte",
           "package": "language-slice",
@@ -701,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "STDouble",
           "package": "language-slice",
@@ -710,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "STDouble",
           "package": "language-slice",
@@ -723,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "STFloat",
           "package": "language-slice",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "STFloat",
           "package": "language-slice",
@@ -745,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "STInt",
           "package": "language-slice",
@@ -754,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "STInt",
           "package": "language-slice",
@@ -767,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "STLong",
           "package": "language-slice",
@@ -776,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "STLong",
           "package": "language-slice",
@@ -789,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "STShort",
           "package": "language-slice",
@@ -798,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "STShort",
           "package": "language-slice",
@@ -811,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "STString",
           "package": "language-slice",
@@ -820,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "STString",
           "package": "language-slice",
@@ -833,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "STUserDefined",
           "package": "language-slice",
@@ -842,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "STUserDefined",
           "package": "language-slice",
@@ -855,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "STUserDefinedPrx",
           "package": "language-slice",
@@ -864,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "STUserDefinedPrx",
           "package": "language-slice",
@@ -877,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "STVoid",
           "package": "language-slice",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "STVoid",
           "package": "language-slice",
@@ -899,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "SequenceDecl",
           "package": "language-slice",
@@ -908,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "SequenceDecl",
           "package": "language-slice",
@@ -921,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceBool",
           "package": "language-slice",
@@ -930,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceBool",
           "package": "language-slice",
@@ -943,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceDouble",
           "package": "language-slice",
@@ -952,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceDouble",
           "package": "language-slice",
@@ -965,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceIdentifier",
           "package": "language-slice",
@@ -974,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceIdentifier",
           "package": "language-slice",
@@ -987,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceInteger",
           "package": "language-slice",
@@ -996,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceInteger",
           "package": "language-slice",
@@ -1009,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceStr",
           "package": "language-slice",
@@ -1018,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "SliceStr",
           "package": "language-slice",
@@ -1031,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "StructDecl",
           "package": "language-slice",
@@ -1040,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "StructDecl",
           "normalized": "StructDecl Ident[FieldDecl]",
@@ -1055,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "name",
           "package": "language-slice",
@@ -1064,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "name",
           "package": "language-slice",
@@ -1076,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.AST",
           "name": "ns",
           "package": "language-slice",
@@ -1085,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax AST",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.AST",
           "name": "ns",
           "normalized": "[String]",
@@ -1099,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "Parser",
           "package": "language-slice",
@@ -1107,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "Parser",
           "package": "language-slice",
@@ -1120,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "SyntaxError",
           "package": "language-slice",
@@ -1128,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "SyntaxError",
           "package": "language-slice",
@@ -1141,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "SyntaxError",
           "package": "language-slice",
@@ -1150,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "SyntaxError",
           "package": "language-slice",
@@ -1163,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "ctxt",
           "package": "language-slice",
@@ -1172,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "ctxt",
           "package": "language-slice",
@@ -1184,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "msgs",
           "package": "language-slice",
@@ -1193,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "msgs",
           "normalized": "[Message]",
@@ -1207,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parse",
           "package": "language-slice",
@@ -1216,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parse",
           "normalized": "Parser a-\u003eSourceName-\u003eByteString-\u003eEither SyntaxError a",
@@ -1230,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseConst",
           "package": "language-slice",
@@ -1239,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseConst",
           "package": "language-slice",
@@ -1252,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseField",
           "package": "language-slice",
@@ -1261,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseField",
           "package": "language-slice",
@@ -1274,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseFile",
           "package": "language-slice",
@@ -1283,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseFile",
           "normalized": "String-\u003eIO(Either SyntaxError[SliceDecl])",
@@ -1298,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseIdent",
           "package": "language-slice",
@@ -1307,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseIdent",
           "package": "language-slice",
@@ -1320,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseIfDef",
           "package": "language-slice",
@@ -1329,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseIfDef",
           "normalized": "Parser[SliceDecl]",
@@ -1344,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseMethod",
           "package": "language-slice",
@@ -1353,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseMethod",
           "package": "language-slice",
@@ -1366,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseNsQualIdent",
           "package": "language-slice",
@@ -1375,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseNsQualIdent",
           "package": "language-slice",
@@ -1388,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseSemTermField",
           "package": "language-slice",
@@ -1397,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseSemTermField",
           "package": "language-slice",
@@ -1410,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseSlice",
           "package": "language-slice",
@@ -1419,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseSlice",
           "package": "language-slice",
@@ -1432,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseSlices",
           "package": "language-slice",
@@ -1441,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseSlices",
           "normalized": "Parser[SliceDecl]",
@@ -1456,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseType",
           "package": "language-slice",
@@ -1465,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "parseType",
           "package": "language-slice",
@@ -1478,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:09 UTC 2014",
           "module": "Language.Slice.Syntax.Parser",
           "name": "pos",
           "package": "language-slice",
@@ -1487,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Language Slice Syntax Parser",
+          "indexed": "2014-03-11T19:06:09",
           "module": "Language.Slice.Syntax.Parser",
           "name": "pos",
           "package": "language-slice",

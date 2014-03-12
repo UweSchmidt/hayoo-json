@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Monocle"
+        "phrase": "Monocle",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "Core",
           "package": "Monocle",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "Core",
           "package": "Monocle",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of the functional modifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "FuncT",
           "package": "Monocle",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Types of the functional modifier",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "FuncT",
           "package": "Monocle",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMorphism data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "Mor",
           "package": "Monocle",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Morphism data type",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "Mor",
           "package": "Monocle",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of morphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "Morphism",
           "package": "Monocle",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Class of morphisms",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "Morphism",
           "package": "Monocle",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRule type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "Rule",
           "package": "Monocle",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Rule type",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "Rule",
           "package": "Monocle",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTensor product of two morphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "(\\*)",
           "package": "Monocle",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Tensor product of two morphisms",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "(\\*) \\*",
           "normalized": "a-\u003ea-\u003ea",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ex \\== y\u003c/code\u003e is the same as \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDefEqual\u003c/a\u003e\u003c/code\u003e x y\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "(\\==)",
           "package": "Monocle",
@@ -167,6 +180,7 @@
         "index": {
           "description": "is the same as DefEqual",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "(\\==) \\==",
           "normalized": "Mor a-\u003eMor a-\u003eRule a",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition of two morphisms (should be associative).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "(\\.)",
           "package": "Monocle",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Composition of two morphisms should be associative",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "(\\.) \\.",
           "normalized": "a-\u003ea-\u003ea",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomary morphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "Arrow",
           "package": "Monocle",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Atomary morphism",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "Arrow",
           "package": "Monocle",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContravariant functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "Cofunctor",
           "package": "Monocle",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Contravariant functor",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "Cofunctor",
           "package": "Monocle",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition of morphisms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "Composition",
           "package": "Monocle",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Composition of morphisms",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "Composition",
           "normalized": "Composition[Mor a]",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclares equality of two morphisms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "DefEqual",
           "package": "Monocle",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Declares equality of two morphisms",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "DefEqual",
           "package": "Monocle",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctionional modifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "Func",
           "package": "Monocle",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Functionional modifier",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "Func",
           "normalized": "Func String[Mor a]FuncT",
@@ -331,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction on objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "Function",
           "package": "Monocle",
@@ -341,6 +368,7 @@
         "index": {
           "description": "Function on objects",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "Function",
           "package": "Monocle",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCovariant functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "Functor",
           "package": "Monocle",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Covariant functor",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "Functor",
           "package": "Monocle",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity morphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "Id",
           "package": "Monocle",
@@ -389,6 +420,7 @@
         "index": {
           "description": "Identity morphism",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "Id",
           "package": "Monocle",
@@ -403,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTensor product of morphisms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "Tensor",
           "package": "Monocle",
@@ -413,6 +446,7 @@
         "index": {
           "description": "Tensor product of morphisms",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "Tensor",
           "normalized": "Tensor[Mor a]",
@@ -429,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNaturally transformational modifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "Transform",
           "package": "Monocle",
@@ -439,6 +474,7 @@
         "index": {
           "description": "Naturally transformational modifier",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "Transform",
           "normalized": "Transform String(Mor a)[Mor a]",
@@ -455,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies the \u003ccode\u003e\u003ca\u003eRule\u003c/a\u003e\u003c/code\u003e to the given morphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "apply",
           "package": "Monocle",
@@ -465,6 +502,7 @@
         "index": {
           "description": "Applies the Rule to the given morphism",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "apply",
           "normalized": "Rule String-\u003eMor a-\u003eMor a",
@@ -480,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates \u003ccode\u003e\u003ca\u003eArrow\u003c/a\u003e\u003c/code\u003e by morphism information (e.g. name), domain and codomain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "arrow",
           "package": "Monocle",
@@ -490,6 +529,7 @@
         "index": {
           "description": "Creates Arrow by morphism information e.g name domain and codomain",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "arrow",
           "normalized": "a-\u003eMor a-\u003eMor a-\u003eMor a",
@@ -505,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether morphism is an atomary formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "atomary",
           "package": "Monocle",
@@ -515,6 +556,7 @@
         "index": {
           "description": "Checks whether morphism is an atomary formula",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "atomary",
           "normalized": "Mor a-\u003eBool",
@@ -530,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns codomain of the given morphism  (actually its id).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "cod",
           "package": "Monocle",
@@ -540,6 +583,7 @@
         "index": {
           "description": "Returns codomain of the given morphism actually its id",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "cod",
           "normalized": "a-\u003ea",
@@ -555,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates generalized coelement, i.e. an arrow from the the given object to the identity object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "coelement",
           "package": "Monocle",
@@ -565,6 +610,7 @@
         "index": {
           "description": "Creates generalized coelement i.e an arrow from the the given object to the identity object",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "coelement",
           "normalized": "a-\u003eMor a-\u003eMor a",
@@ -580,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollects atomary subterms of the given arrow as keys of the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "collect",
           "package": "Monocle",
@@ -590,6 +637,7 @@
         "index": {
           "description": "Collects atomary subterms of the given arrow as keys of the map",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "collect",
           "normalized": "Mor a-\u003eMap(Mor a)b",
@@ -605,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns domain of the given morphism (actually its id).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "dom",
           "package": "Monocle",
@@ -615,6 +664,7 @@
         "index": {
           "description": "Returns domain of the given morphism actually its id",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "dom",
           "normalized": "a-\u003ea",
@@ -630,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates generalized element, i.e. an arrow from the identity object to the given object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "element",
           "package": "Monocle",
@@ -640,6 +691,7 @@
         "index": {
           "description": "Creates generalized element i.e an arrow from the identity object to the given object",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "element",
           "normalized": "a-\u003eMor a-\u003eMor a",
@@ -655,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns recursively \u003ccode\u003e(a \\. c) \\* (b \\. d)\u003c/code\u003e to \u003ccode\u003e(a \\* b) \\. (c \\* d)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "horz",
           "package": "Monocle",
@@ -665,6 +718,7 @@
         "index": {
           "description": "Turns recursively to",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "horz",
           "normalized": "Mor a-\u003eMor a",
@@ -680,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether morphism is id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "isId",
           "package": "Monocle",
@@ -690,6 +745,7 @@
         "index": {
           "description": "Checks whether morphism is id",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "isId",
           "normalized": "a-\u003eBool",
@@ -706,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalizes the term representing morphism, e.g. turns \u003ccode\u003e((a \\* b) \\* c)\u003c/code\u003e to \u003ccode\u003e(a \\* b \\* c)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "nrm",
           "package": "Monocle",
@@ -716,6 +773,7 @@
         "index": {
           "description": "Normalizes the term representing morphism e.g turns to",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "nrm",
           "normalized": "Mor a-\u003eMor a",
@@ -731,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates object (actually its id). Same as \u003ccode\u003e\u003ca\u003eobjectId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "object",
           "package": "Monocle",
@@ -741,6 +800,7 @@
         "index": {
           "description": "Creates object actually its id Same as objectId",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "object",
           "normalized": "a-\u003eMor a",
@@ -756,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates object id. Same as \u003ccode\u003e\u003ca\u003eobject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "objectId",
           "package": "Monocle",
@@ -766,6 +827,7 @@
         "index": {
           "description": "Creates object id Same as object",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "objectId",
           "normalized": "a-\u003eMor a",
@@ -782,6 +844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity object, \u003ccode\u003etid \\* f == f\u003c/code\u003e in strict monoidal category.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "tid",
           "package": "Monocle",
@@ -792,6 +855,7 @@
         "index": {
           "description": "Identity object tid in strict monoidal category",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "tid",
           "package": "Monocle",
@@ -805,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns recursively \u003ccode\u003e(a \\* b) \\. (c \\* d)\u003c/code\u003e to \u003ccode\u003e(a \\. c) \\* (b \\. d)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Core",
           "name": "vert",
           "package": "Monocle",
@@ -815,6 +880,7 @@
         "index": {
           "description": "Turns recursively to",
           "hierarchy": "Monocle Core",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Core",
           "name": "vert",
           "normalized": "Mor a-\u003eMor a",
@@ -829,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "Markup",
           "package": "Monocle",
@@ -837,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "Markup",
           "package": "Monocle",
@@ -851,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabelled arrow data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "Lab",
           "package": "Monocle",
@@ -860,6 +929,7 @@
         "index": {
           "description": "Labelled arrow data type",
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "Lab",
           "package": "Monocle",
@@ -873,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "MArrow",
           "package": "Monocle",
@@ -882,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "MArrow",
           "package": "Monocle",
@@ -895,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "MComposition",
           "package": "Monocle",
@@ -904,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "MComposition",
           "normalized": "MComposition[Lab a]String",
@@ -919,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "MFunc",
           "package": "Monocle",
@@ -928,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "MFunc",
           "normalized": "MFunc String[Lab a]FuncT String",
@@ -943,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "MId",
           "package": "Monocle",
@@ -952,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "MId",
           "package": "Monocle",
@@ -965,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "MTensor",
           "package": "Monocle",
@@ -974,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "MTensor",
           "normalized": "MTensor[Lab a]String",
@@ -989,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "MTransform",
           "package": "Monocle",
@@ -998,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "MTransform",
           "normalized": "MTransform String(Lab a)[Mor a]String",
@@ -1014,6 +1096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChooses subterm of an associative operation (composition or tensor product).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "choose",
           "package": "Monocle",
@@ -1024,6 +1107,7 @@
         "index": {
           "description": "Chooses subterm of an associative operation composition or tensor product",
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "choose",
           "normalized": "String-\u003eInt-\u003eInt-\u003eLab a-\u003eLab a",
@@ -1039,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the label of the given marked morphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "getLabel",
           "package": "Monocle",
@@ -1049,6 +1134,7 @@
         "index": {
           "description": "Returns the label of the given marked morphism",
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "getLabel",
           "normalized": "Lab a-\u003eString",
@@ -1065,6 +1151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the given morphism marked up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "markup",
           "package": "Monocle",
@@ -1075,6 +1162,7 @@
         "index": {
           "description": "Returns the given morphism marked up",
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "markup",
           "normalized": "Mor a-\u003eLab a",
@@ -1090,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003emodif s lf op == \u003ccode\u003e\u003ca\u003eunmark\u003c/a\u003e\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003emodif'\u003c/a\u003e\u003c/code\u003e s lf op\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "modif",
           "package": "Monocle",
@@ -1100,6 +1189,7 @@
         "index": {
           "description": "modif lf op unmark modif lf op",
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "modif",
           "normalized": "String-\u003eLab a-\u003e(Mor a-\u003eMor a)-\u003eMor a",
@@ -1115,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies operation to the marked subterm of the given morphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "modif'",
           "package": "Monocle",
@@ -1125,6 +1216,7 @@
         "index": {
           "description": "Applies operation to the marked subterm of the given morphism",
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "modif'",
           "normalized": "String-\u003eLab a-\u003e(Mor a-\u003eMor a)-\u003eLab a",
@@ -1140,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies operation to the marked subterm of the given morphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "modifLab",
           "package": "Monocle",
@@ -1150,6 +1243,7 @@
         "index": {
           "description": "Applies operation to the marked subterm of the given morphism",
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "modifLab",
           "normalized": "String-\u003eLab a-\u003e(Lab a-\u003eLab a)-\u003eLab a",
@@ -1166,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves labels and returns corresponding \u003ccode\u003e\u003ca\u003eMor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Markup",
           "name": "unmark",
           "package": "Monocle",
@@ -1176,6 +1271,7 @@
         "index": {
           "description": "Removes labels and returns corresponding Mor",
           "hierarchy": "Monocle Markup",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Markup",
           "name": "unmark",
           "normalized": "Lab a-\u003eMor a",
@@ -1190,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "Rules",
           "package": "Monocle",
@@ -1198,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "Rules",
           "package": "Monocle",
@@ -1212,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003ebraid'of\u003c/a\u003e\u003c/code\u003e \"\\\\beta\"\u003c/code\u003e, for usage in calculations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "braid",
           "package": "Monocle",
@@ -1222,6 +1321,7 @@
         "index": {
           "description": "Same as braid of beta for usage in calculations",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "braid",
           "normalized": "Mor String-\u003eMor String-\u003eMor String",
@@ -1237,6 +1337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor given pair of objects \u003ccode\u003e(x, y)\u003c/code\u003e and name \u003ccode\u003enm\u003c/code\u003e call \u003ccode\u003ebraid'of nm x y\u003c/code\u003e to create named\n braid arrow: \u003ca\u003ehttp://en.wikipedia.org/wiki/Braided_monoidal_category\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "braid'of",
           "package": "Monocle",
@@ -1247,6 +1348,7 @@
         "index": {
           "description": "For given pair of objects and name nm call braid of nm to create named braid arrow http en.wikipedia.org wiki Braided monoidal category",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "braid'of",
           "normalized": "a-\u003eMor a-\u003eMor a-\u003eMor a",
@@ -1262,6 +1364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003ebraid'of\u003c/a\u003e\u003c/code\u003e \"*\\\\beta\"\u003c/code\u003e, for usage in rule descriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "braid'r",
           "package": "Monocle",
@@ -1272,6 +1375,7 @@
         "index": {
           "description": "Same as braid of beta for usage in rule descriptions",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "braid'r",
           "normalized": "Mor String-\u003eMor String-\u003eMor String",
@@ -1287,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHexagon identity for \u003ccode\u003e\u003ca\u003ebraid\u003c/a\u003e\u003c/code\u003e, strict monoidal case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "braid'rule'Hex'Braid",
           "package": "Monocle",
@@ -1297,6 +1402,7 @@
         "index": {
           "description": "Hexagon identity for braid strict monoidal case",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "braid'rule'Hex'Braid",
           "package": "Monocle",
@@ -1311,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHexagon identity for \u003ccode\u003e\u003ca\u003eunbraid\u003c/a\u003e\u003c/code\u003e, strict monoidal case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "braid'rule'Hex'Unbraid",
           "package": "Monocle",
@@ -1321,6 +1428,7 @@
         "index": {
           "description": "Hexagon identity for unbraid strict monoidal case",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "braid'rule'Hex'Unbraid",
           "package": "Monocle",
@@ -1335,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsomorphism rule: \u003ccode\u003e\u003ca\u003eunbraid\u003c/a\u003e\u003c/code\u003e as inverse of \u003ccode\u003e\u003ca\u003ebraid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "braid'rule'Iso'Left",
           "package": "Monocle",
@@ -1345,6 +1454,7 @@
         "index": {
           "description": "Isomorphism rule unbraid as inverse of braid",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "braid'rule'Iso'Left",
           "package": "Monocle",
@@ -1359,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsomorphism rule: \u003ccode\u003e\u003ca\u003ebraid\u003c/a\u003e\u003c/code\u003e as inverse of \u003ccode\u003e\u003ca\u003eunbraid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "braid'rule'Iso'Right",
           "package": "Monocle",
@@ -1369,6 +1480,7 @@
         "index": {
           "description": "Isomorphism rule braid as inverse of unbraid",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "braid'rule'Iso'Right",
           "package": "Monocle",
@@ -1383,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNaturality rule on the \"left wire\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "braid'rule'Nat'Left",
           "package": "Monocle",
@@ -1393,6 +1506,7 @@
         "index": {
           "description": "Naturality rule on the left wire",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "braid'rule'Nat'Left",
           "package": "Monocle",
@@ -1407,6 +1521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNaturality rule on the \"right wire\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "braid'rule'Nat'Right",
           "package": "Monocle",
@@ -1417,6 +1532,7 @@
         "index": {
           "description": "Naturality rule on the right wire",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "braid'rule'Nat'Right",
           "package": "Monocle",
@@ -1431,6 +1547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecounit'of\u003c/a\u003e\u003c/code\u003e \"\\\\epsilon\"\u003c/code\u003e, for usage in calculations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "counit",
           "package": "Monocle",
@@ -1441,6 +1558,7 @@
         "index": {
           "description": "Same as counit of epsilon for usage in calculations",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "counit",
           "normalized": "Mor String-\u003eMor String-\u003eMor String",
@@ -1456,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor given dual pair of objects \u003ccode\u003e(x, y)\u003c/code\u003e and name \u003ccode\u003enm\u003c/code\u003e call \u003ccode\u003ecounit'of nm x y\u003c/code\u003e to create named\n duality counit arrow. Generates error if \u003ccode\u003e(x, y)\u003c/code\u003e is not a dual pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "counit'of",
           "package": "Monocle",
@@ -1466,6 +1585,7 @@
         "index": {
           "description": "For given dual pair of objects and name nm call counit of nm to create named duality counit arrow Generates error if is not dual pair",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "counit'of",
           "normalized": "a-\u003eMor a-\u003eMor a-\u003eMor a",
@@ -1481,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecounit'of\u003c/a\u003e\u003c/code\u003e \"*\\\\epsilon\"\u003c/code\u003e, except that it does not check duality. For usage in\n rule descriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "counit'r",
           "package": "Monocle",
@@ -1491,6 +1612,7 @@
         "index": {
           "description": "Same as counit of epsilon except that it does not check duality For usage in rule descriptions",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "counit'r",
           "normalized": "Mor String-\u003eMor String-\u003eMor String",
@@ -1506,6 +1628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRule for the \"cross\" arrow: it's simply self-inverse braid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "cross'rule",
           "package": "Monocle",
@@ -1516,6 +1639,7 @@
         "index": {
           "description": "Rule for the cross arrow it simply self-inverse braid",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "cross'rule",
           "package": "Monocle",
@@ -1529,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003edagger'of\u003c/a\u003e\u003c/code\u003e, for usage in calculations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "dagger",
           "package": "Monocle",
@@ -1539,6 +1664,7 @@
         "index": {
           "description": "Same as dagger of for usage in calculations",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "dagger",
           "normalized": "Mor a-\u003eMor a",
@@ -1554,6 +1680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edagger'of f\u003c/code\u003e creates daggered version of the arrow \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "dagger'of",
           "package": "Monocle",
@@ -1564,6 +1691,7 @@
         "index": {
           "description": "dagger of creates daggered version of the arrow",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "dagger'of",
           "normalized": "Mor a-\u003eMor a",
@@ -1579,6 +1707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003edagger'of\u003c/a\u003e\u003c/code\u003e, for usage in rule descriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "dagger'r",
           "package": "Monocle",
@@ -1589,6 +1718,7 @@
         "index": {
           "description": "Same as dagger of for usage in rule descriptions",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "dagger'r",
           "normalized": "Mor a-\u003eMor a",
@@ -1604,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edagger\u003c/a\u003e\u003c/code\u003e is contravariant functor, i.e. inverts composition order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "dagger'rule'Cofunctor",
           "package": "Monocle",
@@ -1614,6 +1745,7 @@
         "index": {
           "description": "dagger is contravariant functor i.e inverts composition order",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "dagger'rule'Cofunctor",
           "package": "Monocle",
@@ -1628,6 +1760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs contravariant functor \u003ccode\u003e\u003ca\u003edagger\u003c/a\u003e\u003c/code\u003e maps id's to id's.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "dagger'rule'Id",
           "package": "Monocle",
@@ -1638,6 +1771,7 @@
         "index": {
           "description": "As contravariant functor dagger maps id to id",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "dagger'rule'Id",
           "package": "Monocle",
@@ -1652,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edagger\u003c/a\u003e\u003c/code\u003e involution rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "dagger'rule'Inv",
           "package": "Monocle",
@@ -1662,6 +1797,7 @@
         "index": {
           "description": "dagger involution rule",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "dagger'rule'Inv",
           "package": "Monocle",
@@ -1676,6 +1812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eldual'of\u003c/a\u003e\u003c/code\u003e, for usage in calculations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "ldual",
           "package": "Monocle",
@@ -1686,6 +1823,7 @@
         "index": {
           "description": "Same as ldual of for usage in calculations",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "ldual",
           "normalized": "Mor a-\u003eMor a",
@@ -1701,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor given object create it's left dual: \u003ca\u003ehttp://en.wikipedia.org/wiki/Dual_object\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "ldual'of",
           "package": "Monocle",
@@ -1711,6 +1850,7 @@
         "index": {
           "description": "For given object create it left dual http en.wikipedia.org wiki Dual object",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "ldual'of",
           "normalized": "Mor a-\u003eMor a",
@@ -1726,6 +1866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eldual'of\u003c/a\u003e\u003c/code\u003e, for usage in rule descriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "ldual'r",
           "package": "Monocle",
@@ -1736,6 +1877,7 @@
         "index": {
           "description": "Same as ldual of for usage in rule descriptions",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "ldual'r",
           "normalized": "Mor a-\u003eMor a",
@@ -1751,6 +1893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003erdual'of\u003c/a\u003e\u003c/code\u003e, for usage in calculations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "rdual",
           "package": "Monocle",
@@ -1761,6 +1904,7 @@
         "index": {
           "description": "Same as rdual of for usage in calculations",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "rdual",
           "normalized": "Mor a-\u003eMor a",
@@ -1776,6 +1920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor given object create it's right dual: \u003ca\u003ehttp://en.wikipedia.org/wiki/Dual_object\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "rdual'of",
           "package": "Monocle",
@@ -1786,6 +1931,7 @@
         "index": {
           "description": "For given object create it right dual http en.wikipedia.org wiki Dual object",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "rdual'of",
           "normalized": "Mor a-\u003eMor a",
@@ -1801,6 +1947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003erdual'of\u003c/a\u003e\u003c/code\u003e, for usage in rule descriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "rdual'r",
           "package": "Monocle",
@@ -1811,6 +1958,7 @@
         "index": {
           "description": "Same as rdual of for usage in rule descriptions",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "rdual'r",
           "normalized": "Mor a-\u003eMor a",
@@ -1826,6 +1974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003etwist'of\u003c/a\u003e\u003c/code\u003e \"\\\\theta\"\u003c/code\u003e, for usage in calculations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "twist",
           "package": "Monocle",
@@ -1836,6 +1985,7 @@
         "index": {
           "description": "Same as twist of theta for usage in calculations",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "twist",
           "normalized": "Mor String-\u003eMor String",
@@ -1851,6 +2001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor given object \u003ccode\u003ex\u003c/code\u003e and name \u003ccode\u003enm\u003c/code\u003e call \u003ccode\u003etwist'of nm x\u003c/code\u003e to create named\n twist arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "twist'of",
           "package": "Monocle",
@@ -1861,6 +2012,7 @@
         "index": {
           "description": "For given object and name nm call twist of nm to create named twist arrow",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "twist'of",
           "normalized": "a-\u003eMor a-\u003eMor a",
@@ -1876,6 +2028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003etwist'of\u003c/a\u003e\u003c/code\u003e \"*\\\\theta\"\u003c/code\u003e, for usage in rule descriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "twist'r",
           "package": "Monocle",
@@ -1886,6 +2039,7 @@
         "index": {
           "description": "Same as twist of theta for usage in rule descriptions",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "twist'r",
           "normalized": "Mor String-\u003eMor String",
@@ -1901,6 +2055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwist/braid interaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "twist'rule'Braid",
           "package": "Monocle",
@@ -1911,6 +2066,7 @@
         "index": {
           "description": "Twist braid interaction",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "twist'rule'Braid",
           "package": "Monocle",
@@ -1925,6 +2081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwisting the identity object changes nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "twist'rule'Id",
           "package": "Monocle",
@@ -1935,6 +2092,7 @@
         "index": {
           "description": "Twisting the identity object changes nothing",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "twist'rule'Id",
           "package": "Monocle",
@@ -1949,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsomorphism rule: \u003ccode\u003e\u003ca\u003euntwist\u003c/a\u003e\u003c/code\u003e as inverse of \u003ccode\u003e\u003ca\u003etwist\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "twist'rule'Iso'Left",
           "package": "Monocle",
@@ -1959,6 +2118,7 @@
         "index": {
           "description": "Isomorphism rule untwist as inverse of twist",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "twist'rule'Iso'Left",
           "package": "Monocle",
@@ -1973,6 +2133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsomorphism rule: \u003ccode\u003e\u003ca\u003etwist\u003c/a\u003e\u003c/code\u003e as inverse of \u003ccode\u003e\u003ca\u003euntwist\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "twist'rule'Iso'Right",
           "package": "Monocle",
@@ -1983,6 +2144,7 @@
         "index": {
           "description": "Isomorphism rule twist as inverse of untwist",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "twist'rule'Iso'Right",
           "package": "Monocle",
@@ -1997,6 +2159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwisting naturality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "twist'rule'Natural",
           "package": "Monocle",
@@ -2007,6 +2170,7 @@
         "index": {
           "description": "Twisting naturality",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "twist'rule'Natural",
           "package": "Monocle",
@@ -2021,6 +2185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003eunbraid'of\u003c/a\u003e\u003c/code\u003e \"\\\\beta^{-1}\"\u003c/code\u003e, for usage in calculations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "unbraid",
           "package": "Monocle",
@@ -2031,6 +2196,7 @@
         "index": {
           "description": "Same as unbraid of beta for usage in calculations",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "unbraid",
           "normalized": "Mor String-\u003eMor String-\u003eMor String",
@@ -2046,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor given pair of objects \u003ccode\u003e(x, y)\u003c/code\u003e and name \u003ccode\u003enm\u003c/code\u003e call \u003ccode\u003eunbraid'of nm x y\u003c/code\u003e to create named\n unbraid arrow (inverse of braid arrow).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "unbraid'of",
           "package": "Monocle",
@@ -2056,6 +2223,7 @@
         "index": {
           "description": "For given pair of objects and name nm call unbraid of nm to create named unbraid arrow inverse of braid arrow",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "unbraid'of",
           "normalized": "a-\u003eMor a-\u003eMor a-\u003eMor a",
@@ -2071,6 +2239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003eunbraid'of\u003c/a\u003e\u003c/code\u003e \"*\\\\beta^{-1}\"\u003c/code\u003e, for usage in rule descriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "unbraid'r",
           "package": "Monocle",
@@ -2081,6 +2250,7 @@
         "index": {
           "description": "Same as unbraid of beta for usage in rule descriptions",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "unbraid'r",
           "normalized": "Mor String-\u003eMor String-\u003eMor String",
@@ -2096,6 +2266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003eunit'of\u003c/a\u003e\u003c/code\u003e \"\\\\eta\"\u003c/code\u003e, for usage in calculations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "unit",
           "package": "Monocle",
@@ -2106,6 +2277,7 @@
         "index": {
           "description": "Same as unit of eta for usage in calculations",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "unit",
           "normalized": "Mor String-\u003eMor String-\u003eMor String",
@@ -2121,6 +2293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor given dual pair of objects \u003ccode\u003e(x, y)\u003c/code\u003e and name \u003ccode\u003enm\u003c/code\u003e call \u003ccode\u003eunit'of nm x y\u003c/code\u003e to create named\n duality unit arrow. Generates error if \u003ccode\u003e(x, y)\u003c/code\u003e is not a dual pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "unit'of",
           "package": "Monocle",
@@ -2131,6 +2304,7 @@
         "index": {
           "description": "For given dual pair of objects and name nm call unit of nm to create named duality unit arrow Generates error if is not dual pair",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "unit'of",
           "normalized": "a-\u003eMor a-\u003eMor a-\u003eMor a",
@@ -2146,6 +2320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003eunit'of\u003c/a\u003e\u003c/code\u003e \"*\\\\eta\"\u003c/code\u003e, except that it does not check duality. For usage in\n rule descriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "unit'r",
           "package": "Monocle",
@@ -2156,6 +2331,7 @@
         "index": {
           "description": "Same as unit of eta except that it does not check duality For usage in rule descriptions",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "unit'r",
           "normalized": "Mor String-\u003eMor String-\u003eMor String",
@@ -2171,6 +2347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003euntwist'of\u003c/a\u003e\u003c/code\u003e \"\\\\theta^{-1}\"\u003c/code\u003e, for usage in calculations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "untwist",
           "package": "Monocle",
@@ -2181,6 +2358,7 @@
         "index": {
           "description": "Same as untwist of theta for usage in calculations",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "untwist",
           "normalized": "Mor String-\u003eMor String",
@@ -2196,6 +2374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor given object \u003ccode\u003ex\u003c/code\u003e and name \u003ccode\u003enm\u003c/code\u003e call \u003ccode\u003euntwist'of nm x\u003c/code\u003e to create named\n untwist arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "untwist'of",
           "package": "Monocle",
@@ -2206,6 +2385,7 @@
         "index": {
           "description": "For given object and name nm call untwist of nm to create named untwist arrow",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "untwist'of",
           "normalized": "a-\u003eMor a-\u003eMor a",
@@ -2221,6 +2401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003euntwist'of\u003c/a\u003e\u003c/code\u003e \"*\\\\theta^{-1}\"\u003c/code\u003e, for usage in rule descriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "untwist'r",
           "package": "Monocle",
@@ -2231,6 +2412,7 @@
         "index": {
           "description": "Same as untwist of theta for usage in rule descriptions",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "untwist'r",
           "normalized": "Mor String-\u003eMor String",
@@ -2246,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne of \"zigzag rules\" for duality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "zigzag'rule'Left",
           "package": "Monocle",
@@ -2256,6 +2439,7 @@
         "index": {
           "description": "One of zigzag rules for duality",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "zigzag'rule'Left",
           "package": "Monocle",
@@ -2270,6 +2454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne of \"zigzag rules\" for duality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Rules",
           "name": "zigzag'rule'Right",
           "package": "Monocle",
@@ -2280,6 +2465,7 @@
         "index": {
           "description": "One of zigzag rules for duality",
           "hierarchy": "Monocle Rules",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Rules",
           "name": "zigzag'rule'Right",
           "package": "Monocle",
@@ -2293,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Tex",
           "name": "Tex",
           "package": "Monocle",
@@ -2301,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Monocle Tex",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Tex",
           "name": "Tex",
           "package": "Monocle",
@@ -2315,6 +2503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass providing information in LaTeX form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Tex",
           "name": "Texified",
           "package": "Monocle",
@@ -2324,6 +2513,7 @@
         "index": {
           "description": "Class providing information in LaTeX form",
           "hierarchy": "Monocle Tex",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Tex",
           "name": "Texified",
           "package": "Monocle",
@@ -2338,6 +2528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns detailed description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Tex",
           "name": "doc",
           "package": "Monocle",
@@ -2348,6 +2539,7 @@
         "index": {
           "description": "Returns detailed description",
           "hierarchy": "Monocle Tex",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Tex",
           "name": "doc",
           "normalized": "a-\u003eString",
@@ -2363,6 +2555,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003epdoc f = do \u003ccode\u003e\u003ca\u003eputStrLn\u003c/a\u003e\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003edoc\u003c/a\u003e\u003c/code\u003e f\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Tex",
           "name": "pdoc",
           "package": "Monocle",
@@ -2373,6 +2566,7 @@
         "index": {
           "description": "pdoc do putStrLn doc",
           "hierarchy": "Monocle Tex",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Tex",
           "name": "pdoc",
           "normalized": "a-\u003eIO()",
@@ -2388,6 +2582,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003epobj f = do \u003ccode\u003e\u003ca\u003eputStrLn\u003c/a\u003e\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003etexObj\u003c/a\u003e\u003c/code\u003e f\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Tex",
           "name": "pobj",
           "package": "Monocle",
@@ -2398,6 +2593,7 @@
         "index": {
           "description": "pobj do putStrLn texObj",
           "hierarchy": "Monocle Tex",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Tex",
           "name": "pobj",
           "normalized": "Mor a-\u003eIO()",
@@ -2413,6 +2609,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eptex f = do \u003ccode\u003e\u003ca\u003eputStrLn\u003c/a\u003e\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003etex\u003c/a\u003e\u003c/code\u003e f\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Tex",
           "name": "ptex",
           "package": "Monocle",
@@ -2423,6 +2620,7 @@
         "index": {
           "description": "ptex do putStrLn tex",
           "hierarchy": "Monocle Tex",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Tex",
           "name": "ptex",
           "normalized": "a-\u003eIO()",
@@ -2438,6 +2636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns short description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Tex",
           "name": "tex",
           "package": "Monocle",
@@ -2448,6 +2647,7 @@
         "index": {
           "description": "Returns short description",
           "hierarchy": "Monocle Tex",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Tex",
           "name": "tex",
           "normalized": "a-\u003eString",
@@ -2463,6 +2663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns LaTeX description of an object of category\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Tex",
           "name": "texObj",
           "package": "Monocle",
@@ -2473,6 +2674,7 @@
         "index": {
           "description": "Returns LaTeX description of an object of category",
           "hierarchy": "Monocle Tex",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Tex",
           "name": "texObj",
           "normalized": "Mor a-\u003eString",
@@ -2488,6 +2690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Utils",
           "name": "Utils",
           "package": "Monocle",
@@ -2496,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "Monocle Utils",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Utils",
           "name": "Utils",
           "package": "Monocle",
@@ -2509,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Utils",
           "name": "MStack",
           "package": "Monocle",
@@ -2517,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "Monocle Utils",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Utils",
           "name": "MStack",
           "package": "Monocle",
@@ -2530,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Utils",
           "name": "Printable",
           "package": "Monocle",
@@ -2538,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Monocle Utils",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Utils",
           "name": "Printable",
           "package": "Monocle",
@@ -2551,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Utils",
           "name": "Wrap",
           "package": "Monocle",
@@ -2559,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Monocle Utils",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Utils",
           "name": "Wrap",
           "package": "Monocle",
@@ -2572,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Utils",
           "name": "Wrap",
           "package": "Monocle",
@@ -2581,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Monocle Utils",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Utils",
           "name": "Wrap",
           "package": "Monocle",
@@ -2594,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Utils",
           "name": "pop",
           "package": "Monocle",
@@ -2603,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "Monocle Utils",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Utils",
           "name": "pop",
           "normalized": "a-\u003e(a,b)",
@@ -2617,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Utils",
           "name": "push",
           "package": "Monocle",
@@ -2626,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Monocle Utils",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Utils",
           "name": "push",
           "normalized": "a-\u003eb-\u003eb",
@@ -2640,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Utils",
           "name": "str",
           "package": "Monocle",
@@ -2649,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Monocle Utils",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Utils",
           "name": "str",
           "normalized": "a-\u003eString",
@@ -2663,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Utils",
           "name": "tappend",
           "package": "Monocle",
@@ -2672,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Monocle Utils",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Utils",
           "name": "tappend",
           "normalized": "a-\u003eb-\u003eb",
@@ -2686,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle.Utils",
           "name": "tcombine",
           "package": "Monocle",
@@ -2695,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Monocle Utils",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle.Utils",
           "name": "tcombine",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -2709,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:35 UTC 2014",
           "module": "Monocle",
           "name": "Monocle",
           "package": "Monocle",
@@ -2717,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Monocle",
+          "indexed": "2014-03-11T16:53:35",
           "module": "Monocle",
           "name": "Monocle",
           "package": "Monocle",

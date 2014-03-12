@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yaml-config"
+        "phrase": "yaml-config",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:27 UTC 2014",
           "module": "Data.Yaml.Config.Internal",
           "name": "Internal",
           "package": "yaml-config",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Config Internal",
+          "indexed": "2014-03-11T20:44:27",
           "module": "Data.Yaml.Config.Internal",
           "name": "Internal",
           "package": "yaml-config",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType contains config section and path from root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:27 UTC 2014",
           "module": "Data.Yaml.Config.Internal",
           "name": "Config",
           "package": "yaml-config",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Type contains config section and path from root",
           "hierarchy": "Data Yaml Config Internal",
+          "indexed": "2014-03-11T20:44:27",
           "module": "Data.Yaml.Config.Internal",
           "name": "Config",
           "package": "yaml-config",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfig or field name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:27 UTC 2014",
           "module": "Data.Yaml.Config.Internal",
           "name": "Key",
           "package": "yaml-config",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Config or field name",
           "hierarchy": "Data Yaml Config Internal",
+          "indexed": "2014-03-11T20:44:27",
           "module": "Data.Yaml.Config.Internal",
           "name": "Key",
           "package": "yaml-config",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis error can be raised if config has not target path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:27 UTC 2014",
           "module": "Data.Yaml.Config.Internal",
           "name": "KeyError",
           "package": "yaml-config",
@@ -95,6 +102,7 @@
         "index": {
           "description": "This error can be raised if config has not target path",
           "hierarchy": "Data Yaml Config Internal",
+          "indexed": "2014-03-11T20:44:27",
           "module": "Data.Yaml.Config.Internal",
           "name": "KeyError",
           "package": "yaml-config",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:27 UTC 2014",
           "module": "Data.Yaml.Config.Internal",
           "name": "Config",
           "package": "yaml-config",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Config Internal",
+          "indexed": "2014-03-11T20:44:27",
           "module": "Data.Yaml.Config.Internal",
           "name": "Config",
           "normalized": "Config[Key]Object",
@@ -156,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow full path from the root to target key. Levels are separated by dots.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efullpath sub \"field1\"\n\u003c/code\u003e\u003c/strong\u003e\"section1.field1\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:44:27 UTC 2014",
           "module": "Data.Yaml.Config.Internal",
           "name": "fullpath",
           "package": "yaml-config",
@@ -166,6 +177,7 @@
         "index": {
           "description": "Show full path from the root to target key Levels are separated by dots fullpath sub field1 section1.field1",
           "hierarchy": "Data Yaml Config Internal",
+          "indexed": "2014-03-11T20:44:27",
           "module": "Data.Yaml.Config.Internal",
           "name": "fullpath",
           "normalized": "Config-\u003eKey-\u003eKey",
@@ -309,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLibrary for read config files in YAML format.\n\u003c/p\u003e\u003cp\u003eexample.yaml:\n\u003c/p\u003e\u003cpre\u003e server:\n     port: 8080\n     logs:\n         access: /var/log/server/access.log\n         error:  /var/log/server/error.log\n\u003c/pre\u003e\u003cp\u003eUsage example:\n\u003c/p\u003e\u003cpre\u003e module Main where\n import Prelude hiding (lookup)\n import Data.Word (Word16)\n import Data.Yaml.Config (load, subconfig, lookupDefault, lookup)\n\n main :: IO ()\n main = do\n     config \u003c- load \"./example.yaml\"\n\n     serverConfig \u003c- subconfig \"server\" config\n     let interface = lookupDefault \"interface\" \"127.0.0.1\" serverConfig\n         port :: Word16 = lookupDefault \"port\" 80 serverConfig\n\n     logConfig \u003c- subconfig \"logs\" serverConfig\n     accessLog \u003c- lookup \"access\" logConfig\n     errorLog \u003c- lookup \"error\" logConfig\n\n     mapM_ putStrLn [interface, (show port), errorLog, accessLog]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:44:27 UTC 2014",
           "module": "Data.Yaml.Config",
           "name": "Config",
           "package": "yaml-config",
@@ -318,6 +331,7 @@
         "index": {
           "description": "Library for read config files in YAML format example.yaml server port logs access var log server access.log error var log server error.log Usage example module Main where import Prelude hiding lookup import Data.Word Word16 import Data.Yaml.Config load subconfig lookupDefault lookup main IO main do config load example.yaml serverConfig subconfig server config let interface lookupDefault interface serverConfig port Word16 lookupDefault port serverConfig logConfig subconfig logs serverConfig accessLog lookup access logConfig errorLog lookup error logConfig mapM putStrLn interface show port errorLog accessLog",
           "hierarchy": "Data Yaml Config",
+          "indexed": "2014-03-11T20:44:27",
           "module": "Data.Yaml.Config",
           "name": "Config",
           "package": "yaml-config",
@@ -332,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType contains config section and path from root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:27 UTC 2014",
           "module": "Data.Yaml.Config",
           "name": "Config",
           "package": "yaml-config",
@@ -341,6 +356,7 @@
         "index": {
           "description": "Type contains config section and path from root",
           "hierarchy": "Data Yaml Config",
+          "indexed": "2014-03-11T20:44:27",
           "module": "Data.Yaml.Config",
           "name": "Config",
           "package": "yaml-config",
@@ -355,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfig or field name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:27 UTC 2014",
           "module": "Data.Yaml.Config",
           "name": "Key",
           "package": "yaml-config",
@@ -364,6 +381,7 @@
         "index": {
           "description": "Config or field name",
           "hierarchy": "Data Yaml Config",
+          "indexed": "2014-03-11T20:44:27",
           "module": "Data.Yaml.Config",
           "name": "Key",
           "package": "yaml-config",
@@ -378,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis error can be raised if config has not target path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:27 UTC 2014",
           "module": "Data.Yaml.Config",
           "name": "KeyError",
           "package": "yaml-config",
@@ -387,6 +406,7 @@
         "index": {
           "description": "This error can be raised if config has not target path",
           "hierarchy": "Data Yaml Config",
+          "indexed": "2014-03-11T20:44:27",
           "module": "Data.Yaml.Config",
           "name": "KeyError",
           "package": "yaml-config",

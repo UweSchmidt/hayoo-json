@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "adjunctions"
+        "phrase": "adjunctions",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a generalized \u003ccode\u003e\u003ca\u003eStore\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eComonad\u003c/a\u003e\u003c/code\u003e, parameterized by a \u003ccode\u003e\u003ca\u003eRepresentable\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e.\n The representation of that \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e serves as the index of the store.\n\u003c/p\u003e\u003cp\u003eThis can be useful if the representable functor serves to memoize its\n contents and will be inspected often.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "Store",
           "package": "adjunctions",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is generalized Store Comonad parameterized by Representable Functor The representation of that Functor serves as the index of the store This can be useful if the representable functor serves to memoize its contents and will be inspected often",
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "Store",
           "package": "adjunctions",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "ComonadStore",
           "package": "adjunctions",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "ComonadStore",
           "package": "adjunctions",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA memoized store comonad parameterized by a representable functor \u003ccode\u003eg\u003c/code\u003e, where\n the representatation of \u003ccode\u003eg\u003c/code\u003e, \u003ccode\u003eRep g\u003c/code\u003e is the index of the store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "Store",
           "package": "adjunctions",
@@ -71,6 +76,7 @@
         "index": {
           "description": "memoized store comonad parameterized by representable functor where the representatation of Rep is the index of the store",
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "Store",
           "package": "adjunctions",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA store transformer comonad parameterized by:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eg\u003c/code\u003e - A representable functor used to memoize results for an index \u003ccode\u003eRep g\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ew\u003c/code\u003e - The inner comonad.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "StoreT",
           "package": "adjunctions",
@@ -94,6 +101,7 @@
         "index": {
           "description": "store transformer comonad parameterized by representable functor used to memoize results for an index Rep The inner comonad",
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "StoreT",
           "package": "adjunctions",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "StoreT",
           "package": "adjunctions",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "StoreT",
           "package": "adjunctions",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "experiment",
           "package": "adjunctions",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "experiment",
           "normalized": "(a-\u003eb a)-\u003ec d-\u003eb d",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "peek",
           "package": "adjunctions",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "peek",
           "normalized": "a-\u003eb c-\u003ec",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "peeks",
           "package": "adjunctions",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "peeks",
           "normalized": "(a-\u003ea)-\u003eb c-\u003ec",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "pos",
           "package": "adjunctions",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "pos",
           "normalized": "a b-\u003ec",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap a state monad computation as a function.\n (The inverse of \u003ccode\u003estate\u003c/code\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "runStore",
           "package": "adjunctions",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Unwrap state monad computation as function The inverse of state",
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "runStore",
           "normalized": "Store a b-\u003e(Rep a-\u003eb,Rep a)",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "runStoreT",
           "package": "adjunctions",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "runStoreT",
           "normalized": "StoreT a b c-\u003e(b(Rep a-\u003ec),Rep a)",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "seek",
           "package": "adjunctions",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "seek",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "seeks",
           "package": "adjunctions",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "seeks",
           "normalized": "(a-\u003ea)-\u003eb c-\u003eb c",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a store comonad computation from a function and a current index.\n (The inverse of \u003ccode\u003e\u003ca\u003erunStore\u003c/a\u003e\u003c/code\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "store",
           "package": "adjunctions",
@@ -320,6 +347,7 @@
         "index": {
           "description": "Construct store comonad computation from function and current index The inverse of runStore",
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "store",
           "normalized": "(Rep a-\u003eb)-\u003eRep a-\u003eStore a b",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "storeT",
           "package": "adjunctions",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Representable.Store",
           "name": "storeT",
           "normalized": "a(Rep b-\u003ec)-\u003eRep b-\u003eStoreT b a c",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Trans.Adjoint",
           "name": "Adjoint",
           "package": "adjunctions",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Trans.Adjoint",
           "name": "Adjoint",
           "package": "adjunctions",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Trans.Adjoint",
           "name": "Adjoint",
           "package": "adjunctions",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Trans.Adjoint",
           "name": "Adjoint",
           "package": "adjunctions",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Trans.Adjoint",
           "name": "AdjointT",
           "package": "adjunctions",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Trans.Adjoint",
           "name": "AdjointT",
           "package": "adjunctions",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Trans.Adjoint",
           "name": "AdjointT",
           "package": "adjunctions",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Trans.Adjoint",
           "name": "AdjointT",
           "package": "adjunctions",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Trans.Adjoint",
           "name": "adjoint",
           "package": "adjunctions",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Trans.Adjoint",
           "name": "adjoint",
           "normalized": "a(b c)-\u003eAdjoint a b c",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Trans.Adjoint",
           "name": "runAdjoint",
           "package": "adjunctions",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Trans.Adjoint",
           "name": "runAdjoint",
           "normalized": "Adjoint a b c-\u003ea(b c)",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Comonad.Trans.Adjoint",
           "name": "runAdjointT",
           "package": "adjunctions",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Trans Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Comonad.Trans.Adjoint",
           "name": "runAdjointT",
           "package": "adjunctions",
@@ -512,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentable functors on Hask are all monads, because they are isomorphic to\n a \u003ccode\u003e\u003ca\u003eReader\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "Reader",
           "package": "adjunctions",
@@ -521,6 +566,7 @@
         "index": {
           "description": "Representable functors on Hask are all monads because they are isomorphic to Reader monad",
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.Reader",
           "name": "Reader",
           "package": "adjunctions",
@@ -535,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee examples in \u003ca\u003eControl.Monad.Reader\u003c/a\u003e.\n Note, the partially applied function type \u003ccode\u003e(-\u003e) r\u003c/code\u003e is a simple reader monad.\n See the \u003ccode\u003einstance\u003c/code\u003e declaration below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "MonadReader",
           "package": "adjunctions",
@@ -543,6 +590,7 @@
         "index": {
           "description": "See examples in Control.Monad.Reader Note the partially applied function type is simple reader monad See the instance declaration below",
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.Reader",
           "name": "MonadReader",
           "package": "adjunctions",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "Reader",
           "package": "adjunctions",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.Reader",
           "name": "Reader",
           "package": "adjunctions",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "ReaderT",
           "package": "adjunctions",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.Reader",
           "name": "ReaderT",
           "package": "adjunctions",
@@ -598,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "ReaderT",
           "package": "adjunctions",
@@ -607,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.Reader",
           "name": "ReaderT",
           "package": "adjunctions",
@@ -621,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the monad environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "ask",
           "package": "adjunctions",
@@ -630,6 +685,7 @@
         "index": {
           "description": "Retrieves the monad environment",
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.Reader",
           "name": "ask",
           "package": "adjunctions",
@@ -642,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "getReaderT",
           "package": "adjunctions",
@@ -651,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.Reader",
           "name": "getReaderT",
           "package": "adjunctions",
@@ -665,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a computation in a modified environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "local",
           "package": "adjunctions",
@@ -674,6 +733,7 @@
         "index": {
           "description": "Executes computation in modified environment",
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.Reader",
           "name": "local",
           "package": "adjunctions",
@@ -687,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves a function of the current environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "reader",
           "package": "adjunctions",
@@ -696,6 +757,7 @@
         "index": {
           "description": "Retrieves function of the current environment",
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.Reader",
           "name": "reader",
           "package": "adjunctions",
@@ -708,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "readerT",
           "package": "adjunctions",
@@ -717,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.Reader",
           "name": "readerT",
           "normalized": "(Rep a-\u003eb c)-\u003eReaderT a b c",
@@ -731,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "runReader",
           "package": "adjunctions",
@@ -740,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.Reader",
           "name": "runReader",
           "normalized": "Reader a b-\u003eRep a-\u003eb",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "runReaderT",
           "package": "adjunctions",
@@ -764,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.Reader",
           "name": "runReaderT",
           "normalized": "ReaderT a b c-\u003eRep a-\u003eb c",
@@ -780,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA generalized State monad, parameterized by a Representable functor.\n The representation of that functor serves as the state.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "State",
           "package": "adjunctions",
@@ -789,6 +858,7 @@
         "index": {
           "description": "generalized State monad parameterized by Representable functor The representation of that functor serves as the state",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "State",
           "package": "adjunctions",
@@ -803,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal definition is either both of \u003ccode\u003eget\u003c/code\u003e and \u003ccode\u003eput\u003c/code\u003e or just \u003ccode\u003estate\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "MonadState",
           "package": "adjunctions",
@@ -811,6 +882,7 @@
         "index": {
           "description": "Minimal definition is either both of get and put or just state",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "MonadState",
           "package": "adjunctions",
@@ -825,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA memoized state monad parameterized by a representable functor \u003ccode\u003eg\u003c/code\u003e, where\n the representatation of \u003ccode\u003eg\u003c/code\u003e, \u003ccode\u003eRep g\u003c/code\u003e is the state to carry.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function leaves the state unchanged, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e uses\n the final state of the first computation as the initial state of\n the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "State",
           "package": "adjunctions",
@@ -834,6 +907,7 @@
         "index": {
           "description": "memoized state monad parameterized by representable functor where the representatation of Rep is the state to carry The return function leaves the state unchanged while uses the final state of the first computation as the initial state of the second",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "State",
           "package": "adjunctions",
@@ -848,6 +922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA state transformer monad parameterized by:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eg\u003c/code\u003e - A representable functor used to memoize results for a state \u003ccode\u003eRep g\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003em\u003c/code\u003e - The inner monad.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function leaves the state unchanged, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e uses\n the final state of the first computation as the initial state of\n the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "StateT",
           "package": "adjunctions",
@@ -857,6 +932,7 @@
         "index": {
           "description": "state transformer monad parameterized by representable functor used to memoize results for state Rep The inner monad The return function leaves the state unchanged while uses the final state of the first computation as the initial state of the second",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "StateT",
           "package": "adjunctions",
@@ -870,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "StateT",
           "package": "adjunctions",
@@ -879,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "StateT",
           "package": "adjunctions",
@@ -893,6 +971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a state computation with the given initial state\n and return the final value, discarding the final state.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eevalState\u003c/a\u003e\u003c/code\u003e m s = \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003erunState\u003c/a\u003e\u003c/code\u003e m s)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "evalState",
           "package": "adjunctions",
@@ -902,6 +981,7 @@
         "index": {
           "description": "Evaluate state computation with the given initial state and return the final value discarding the final state evalState fst runState",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "evalState",
           "normalized": "State a b-\u003eRep a-\u003eb",
@@ -918,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a state computation with the given initial state\n and return the final value, discarding the final state.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eevalStateT\u003c/a\u003e\u003c/code\u003e m s = \u003ccode\u003e\u003ca\u003eliftM\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003erunStateT\u003c/a\u003e\u003c/code\u003e m s)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "evalStateT",
           "package": "adjunctions",
@@ -928,6 +1009,7 @@
         "index": {
           "description": "Evaluate state computation with the given initial state and return the final value discarding the final state evalStateT liftM fst runStateT",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "evalStateT",
           "normalized": "StateT a b c-\u003eRep a-\u003eb c",
@@ -944,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a state computation with the given initial state\n and return the final state, discarding the final value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eexecState\u003c/a\u003e\u003c/code\u003e m s = \u003ccode\u003e\u003ca\u003esnd\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003erunState\u003c/a\u003e\u003c/code\u003e m s)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "execState",
           "package": "adjunctions",
@@ -953,6 +1036,7 @@
         "index": {
           "description": "Evaluate state computation with the given initial state and return the final state discarding the final value execState snd runState",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "execState",
           "normalized": "State a b-\u003eRep a-\u003eRep a",
@@ -969,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a state computation with the given initial state\n and return the final state, discarding the final value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eexecStateT\u003c/a\u003e\u003c/code\u003e m s = \u003ccode\u003e\u003ca\u003eliftM\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003esnd\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003erunStateT\u003c/a\u003e\u003c/code\u003e m s)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "execStateT",
           "package": "adjunctions",
@@ -979,6 +1064,7 @@
         "index": {
           "description": "Evaluate state computation with the given initial state and return the final state discarding the final value execStateT liftM snd runStateT",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "execStateT",
           "normalized": "StateT a b c-\u003eRep a-\u003eb(Rep a)",
@@ -995,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the state from the internals of the monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "get",
           "package": "adjunctions",
@@ -1004,6 +1091,7 @@
         "index": {
           "description": "Return the state from the internals of the monad",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "get",
           "package": "adjunctions",
@@ -1016,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "getStateT",
           "package": "adjunctions",
@@ -1025,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "getStateT",
           "normalized": "a(b(c,Rep a))",
@@ -1041,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform lifting of a \u003ccode\u003ecallCC\u003c/code\u003e operation to the new monad.\n This version rolls back to the original state on entering the\n continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "liftCallCC",
           "package": "adjunctions",
@@ -1051,6 +1142,7 @@
         "index": {
           "description": "Uniform lifting of callCC operation to the new monad This version rolls back to the original state on entering the continuation",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "liftCallCC",
           "normalized": "((((a,Rep b)-\u003ec(d,Rep b))-\u003ec(a,Rep b))-\u003ec(a,Rep b))-\u003e((a-\u003eStateT b c d)-\u003eStateT b c a)-\u003eStateT b c a",
@@ -1067,6 +1159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn-situ lifting of a \u003ccode\u003ecallCC\u003c/code\u003e operation to the new monad.\n This version uses the current state on entering the continuation.\n It does not satisfy the laws of a monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "liftCallCC'",
           "package": "adjunctions",
@@ -1077,6 +1170,7 @@
         "index": {
           "description": "In-situ lifting of callCC operation to the new monad This version uses the current state on entering the continuation It does not satisfy the laws of monad transformer",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "liftCallCC'",
           "normalized": "((((a,Rep b)-\u003ec(d,Rep b))-\u003ec(a,Rep b))-\u003ec(a,Rep b))-\u003e((a-\u003eStateT b c d)-\u003eStateT b c a)-\u003eStateT b c a",
@@ -1093,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap both the return value and final state of a computation using\n the given function.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunState\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003emapState\u003c/a\u003e\u003c/code\u003e f m) = f . \u003ccode\u003e\u003ca\u003erunState\u003c/a\u003e\u003c/code\u003e m\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "mapState",
           "package": "adjunctions",
@@ -1103,6 +1198,7 @@
         "index": {
           "description": "Map both the return value and final state of computation using the given function runState mapState runState",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "mapState",
           "normalized": "((a,Rep b)-\u003e(c,Rep b))-\u003eState b a-\u003eState b c",
@@ -1118,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "mapStateT",
           "package": "adjunctions",
@@ -1127,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "mapStateT",
           "normalized": "(a(b,Rep c)-\u003ed(e,Rep c))-\u003eStateT c a b-\u003eStateT c d e",
@@ -1143,6 +1241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the state inside the monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "put",
           "package": "adjunctions",
@@ -1152,6 +1251,7 @@
         "index": {
           "description": "Replace the state inside the monad",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "put",
           "normalized": "a-\u003eb()",
@@ -1167,6 +1267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap a state monad computation as a function.\n (The inverse of \u003ccode\u003e\u003ca\u003estate\u003c/a\u003e\u003c/code\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "runState",
           "package": "adjunctions",
@@ -1176,6 +1277,7 @@
         "index": {
           "description": "Unwrap state monad computation as function The inverse of state",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "runState",
           "normalized": "State a b-\u003eRep a-\u003e(b,Rep a)",
@@ -1191,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "runStateT",
           "package": "adjunctions",
@@ -1200,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "runStateT",
           "normalized": "StateT a b c-\u003eRep a-\u003eb(c,Rep a)",
@@ -1216,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed a simple state action into the monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "state",
           "package": "adjunctions",
@@ -1225,6 +1330,7 @@
         "index": {
           "description": "Embed simple state action into the monad",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "state",
           "normalized": "(a-\u003e(b,a))-\u003ec b",
@@ -1239,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "stateT",
           "package": "adjunctions",
@@ -1248,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Representable.State",
           "name": "stateT",
           "normalized": "(Rep a-\u003eb(c,Rep a))-\u003eStateT a b c",
@@ -1262,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Adjoint",
           "name": "Adjoint",
           "package": "adjunctions",
@@ -1270,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Adjoint",
           "name": "Adjoint",
           "package": "adjunctions",
@@ -1283,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Adjoint",
           "name": "Adjoint",
           "package": "adjunctions",
@@ -1291,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Adjoint",
           "name": "Adjoint",
           "package": "adjunctions",
@@ -1304,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Adjoint",
           "name": "AdjointT",
           "package": "adjunctions",
@@ -1312,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Adjoint",
           "name": "AdjointT",
           "package": "adjunctions",
@@ -1325,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Adjoint",
           "name": "AdjointT",
           "package": "adjunctions",
@@ -1334,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Adjoint",
           "name": "AdjointT",
           "package": "adjunctions",
@@ -1347,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Adjoint",
           "name": "adjoint",
           "package": "adjunctions",
@@ -1356,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Adjoint",
           "name": "adjoint",
           "normalized": "a(b c)-\u003eAdjoint b a c",
@@ -1370,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Adjoint",
           "name": "runAdjoint",
           "package": "adjunctions",
@@ -1379,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Adjoint",
           "name": "runAdjoint",
           "normalized": "Adjoint a b c-\u003eb(a c)",
@@ -1394,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Adjoint",
           "name": "runAdjointT",
           "package": "adjunctions",
@@ -1403,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Adjoint",
           "name": "runAdjointT",
           "package": "adjunctions",
@@ -1417,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUses a contravariant adjunction:\n\u003c/p\u003e\u003cp\u003ef -| g : Hask^op -\u003e Hask\n\u003c/p\u003e\u003cp\u003eto build a \u003ccode\u003e\u003ca\u003eComonad\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e transformer. Sadly, the dual construction,\n which builds a \u003ccode\u003e\u003ca\u003eComonad\u003c/a\u003e\u003c/code\u003e out of a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e, is uninhabited, because any\n \u003ccode\u003e\u003ca\u003eAdjunction\u003c/a\u003e\u003c/code\u003e of the form\n\u003c/p\u003e\u003cpre\u003e f -| g : Hask -\u003e Hask^op\n\u003c/pre\u003e\u003cp\u003ewould trivially admit unsafePerformIO.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Contravariant.Adjoint",
           "name": "Adjoint",
           "package": "adjunctions",
@@ -1426,6 +1549,7 @@
         "index": {
           "description": "Uses contravariant adjunction Hask op Hask to build Comonad to Monad transformer Sadly the dual construction which builds Comonad out of Monad is uninhabited because any Adjunction of the form Hask Hask op would trivially admit unsafePerformIO",
           "hierarchy": "Control Monad Trans Contravariant Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Contravariant.Adjoint",
           "name": "Adjoint",
           "package": "adjunctions",
@@ -1439,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Contravariant.Adjoint",
           "name": "Adjoint",
           "package": "adjunctions",
@@ -1447,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Contravariant Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Contravariant.Adjoint",
           "name": "Adjoint",
           "package": "adjunctions",
@@ -1460,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Contravariant.Adjoint",
           "name": "AdjointT",
           "package": "adjunctions",
@@ -1468,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Contravariant Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Contravariant.Adjoint",
           "name": "AdjointT",
           "package": "adjunctions",
@@ -1481,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Contravariant.Adjoint",
           "name": "AdjointT",
           "package": "adjunctions",
@@ -1490,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Contravariant Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Contravariant.Adjoint",
           "name": "AdjointT",
           "package": "adjunctions",
@@ -1503,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Contravariant.Adjoint",
           "name": "adjoint",
           "package": "adjunctions",
@@ -1512,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Contravariant Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Contravariant.Adjoint",
           "name": "adjoint",
           "normalized": "a(b c)-\u003eAdjoint b a c",
@@ -1526,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Contravariant.Adjoint",
           "name": "runAdjoint",
           "package": "adjunctions",
@@ -1535,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Contravariant Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Contravariant.Adjoint",
           "name": "runAdjoint",
           "normalized": "Adjoint a b c-\u003eb(a c)",
@@ -1550,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Contravariant.Adjoint",
           "name": "runAdjointT",
           "package": "adjunctions",
@@ -1559,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Contravariant Adjoint",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Contravariant.Adjoint",
           "name": "runAdjointT",
           "package": "adjunctions",
@@ -1573,6 +1709,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cpre\u003e Cont r ~ Contravariant.Adjoint (Op r) (Op r)\n Conts r ~ Contravariant.AdjointT (Op r) (Op r)\n ContsT r w m ~ Contravariant.AdjointT (Op (m r)) (Op (m r)) w\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Conts",
           "name": "Conts",
           "package": "adjunctions",
@@ -1582,6 +1719,7 @@
         "index": {
           "description": "Cont Contravariant.Adjoint Op Op Conts Contravariant.AdjointT Op Op ContsT Contravariant.AdjointT Op Op",
           "hierarchy": "Control Monad Trans Conts",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Conts",
           "name": "Conts",
           "package": "adjunctions",
@@ -1595,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Conts",
           "name": "Cont",
           "package": "adjunctions",
@@ -1603,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Conts",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Conts",
           "name": "Cont",
           "package": "adjunctions",
@@ -1616,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Conts",
           "name": "Conts",
           "package": "adjunctions",
@@ -1624,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Conts",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Conts",
           "name": "Conts",
           "package": "adjunctions",
@@ -1637,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Conts",
           "name": "ContsT",
           "package": "adjunctions",
@@ -1645,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Conts",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Conts",
           "name": "ContsT",
           "package": "adjunctions",
@@ -1658,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Conts",
           "name": "ContsT",
           "package": "adjunctions",
@@ -1667,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Conts",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Conts",
           "name": "ContsT",
           "package": "adjunctions",
@@ -1680,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Conts",
           "name": "callCC",
           "package": "adjunctions",
@@ -1689,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Conts",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Conts",
           "name": "callCC",
           "normalized": "((a-\u003eContsT b c d e)-\u003eContsT b c d a)-\u003eContsT b c d a",
@@ -1704,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Conts",
           "name": "cont",
           "package": "adjunctions",
@@ -1713,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Conts",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Conts",
           "name": "cont",
           "normalized": "((a-\u003eb)-\u003eb)-\u003eCont b a",
@@ -1727,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Conts",
           "name": "conts",
           "package": "adjunctions",
@@ -1736,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Conts",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Conts",
           "name": "conts",
           "normalized": "(a(b-\u003ec)-\u003ec)-\u003eConts c a b",
@@ -1750,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Conts",
           "name": "runCont",
           "package": "adjunctions",
@@ -1759,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Conts",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Conts",
           "name": "runCont",
           "normalized": "Cont a b-\u003e(b-\u003ea)-\u003ea",
@@ -1774,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Conts",
           "name": "runConts",
           "package": "adjunctions",
@@ -1783,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Conts",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Conts",
           "name": "runConts",
           "normalized": "Conts a b c-\u003eb(c-\u003ea)-\u003ea",
@@ -1798,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Control.Monad.Trans.Conts",
           "name": "runContsT",
           "package": "adjunctions",
@@ -1807,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Conts",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Control.Monad.Trans.Conts",
           "name": "runContsT",
           "normalized": "a(b-\u003ec d)-\u003ec d",
@@ -1822,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "Adjunction",
           "package": "adjunctions",
@@ -1830,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "Adjunction",
           "package": "adjunctions",
@@ -1844,6 +2004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn adjunction between Hask and Hask.\n\u003c/p\u003e\u003cp\u003eMinimal definition: both \u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecounit\u003c/a\u003e\u003c/code\u003e or both \u003ccode\u003e\u003ca\u003eleftAdjunct\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003erightAdjunct\u003c/a\u003e\u003c/code\u003e, subject to the constraints imposed by the\n default definitions that the following laws should hold.\n\u003c/p\u003e\u003cpre\u003e unit = leftAdjunct id\n counit = rightAdjunct id\n leftAdjunct f = fmap f . unit\n rightAdjunct f = counit . fmap f\n\u003c/pre\u003e\u003cp\u003eAny implementation is required to ensure that \u003ccode\u003e\u003ca\u003eleftAdjunct\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003erightAdjunct\u003c/a\u003e\u003c/code\u003e witness an isomorphism from \u003ccode\u003eNat (f a, b)\u003c/code\u003e to\n \u003ccode\u003eNat (a, g b)\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e rightAdjunct unit = id\n leftAdjunct counit = id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "Adjunction",
           "package": "adjunctions",
@@ -1853,6 +2014,7 @@
         "index": {
           "description": "An adjunction between Hask and Hask Minimal definition both unit and counit or both leftAdjunct and rightAdjunct subject to the constraints imposed by the default definitions that the following laws should hold unit leftAdjunct id counit rightAdjunct id leftAdjunct fmap unit rightAdjunct counit fmap Any implementation is required to ensure that leftAdjunct and rightAdjunct witness an isomorphism from Nat to Nat rightAdjunct unit id leftAdjunct counit id",
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "Adjunction",
           "package": "adjunctions",
@@ -1866,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "absurdL",
           "package": "adjunctions",
@@ -1875,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "absurdL",
           "normalized": "Void-\u003ea Void",
@@ -1889,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "counit",
           "package": "adjunctions",
@@ -1898,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "counit",
           "normalized": "a(b c)-\u003ec",
@@ -1913,6 +2079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnd a left adjoint must be inhabited by exactly one element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "cozipL",
           "package": "adjunctions",
@@ -1923,6 +2090,7 @@
         "index": {
           "description": "And left adjoint must be inhabited by exactly one element",
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "cozipL",
           "normalized": "a(Either b c)-\u003eEither(a b)(a c)",
@@ -1937,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "duplicateL",
           "package": "adjunctions",
@@ -1946,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "duplicateL",
           "normalized": "a b-\u003ea(a b)",
@@ -1960,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "extractL",
           "package": "adjunctions",
@@ -1969,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "extractL",
           "normalized": "a b-\u003eb",
@@ -1983,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "indexAdjunction",
           "package": "adjunctions",
@@ -1992,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "indexAdjunction",
           "normalized": "a b-\u003ec d-\u003eb",
@@ -2007,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "leftAdjunct",
           "package": "adjunctions",
@@ -2016,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "leftAdjunct",
           "normalized": "(a b-\u003ec)-\u003eb-\u003ed c",
@@ -2031,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "rightAdjunct",
           "package": "adjunctions",
@@ -2040,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "rightAdjunct",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003ec",
@@ -2055,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "splitL",
           "package": "adjunctions",
@@ -2064,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "splitL",
           "normalized": "a b-\u003e(b,a())",
@@ -2079,6 +2259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery right adjoint is representable by its left adjoint\n applied to a unit element\n\u003c/p\u003e\u003cp\u003eUse this definition and the primitives in\n Data.Functor.Representable to meet the requirements of the\n superclasses of Representable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "tabulateAdjunction",
           "package": "adjunctions",
@@ -2089,6 +2270,7 @@
         "index": {
           "description": "Every right adjoint is representable by its left adjoint applied to unit element Use this definition and the primitives in Data.Functor.Representable to meet the requirements of the superclasses of Representable",
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "tabulateAdjunction",
           "normalized": "(a()-\u003eb)-\u003ec b",
@@ -2105,6 +2287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA left adjoint must be inhabited, or we can derive bottom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "unabsurdL",
           "package": "adjunctions",
@@ -2115,6 +2298,7 @@
         "index": {
           "description": "left adjoint must be inhabited or we can derive bottom",
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "unabsurdL",
           "normalized": "a Void-\u003eVoid",
@@ -2130,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery functor in Haskell permits \u003ccode\u003euncozipping\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "uncozipL",
           "package": "adjunctions",
@@ -2140,6 +2325,7 @@
         "index": {
           "description": "Every functor in Haskell permits uncozipping",
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "uncozipL",
           "normalized": "Either(a b)(a c)-\u003ea(Either b c)",
@@ -2154,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "unit",
           "package": "adjunctions",
@@ -2163,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "unit",
           "normalized": "a-\u003eb(c a)",
@@ -2177,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "unsplitL",
           "package": "adjunctions",
@@ -2186,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "unsplitL",
           "normalized": "a-\u003eb()-\u003eb a",
@@ -2201,6 +2391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery functor in Haskell permits unzipping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "unzipR",
           "package": "adjunctions",
@@ -2211,6 +2402,7 @@
         "index": {
           "description": "Every functor in Haskell permits unzipping",
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "unzipR",
           "normalized": "a(b,c)-\u003e(a b,a c)",
@@ -2225,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "zapWithAdjunction",
           "package": "adjunctions",
@@ -2234,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "zapWithAdjunction",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ee b-\u003ec",
@@ -2250,6 +2444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA right adjoint functor admits an intrinsic\n notion of zipping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Adjunction",
           "name": "zipR",
           "package": "adjunctions",
@@ -2260,6 +2455,7 @@
         "index": {
           "description": "right adjoint functor admits an intrinsic notion of zipping",
           "hierarchy": "Data Functor Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Adjunction",
           "name": "zipR",
           "normalized": "(a b,a c)-\u003ea(b,c)",
@@ -2274,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "Adjunction",
           "package": "adjunctions",
@@ -2282,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Contravariant Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "Adjunction",
           "package": "adjunctions",
@@ -2296,6 +2494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn adjunction from \u003ccode\u003eHask^op\u003c/code\u003e to \u003ccode\u003eHask\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eOp\u003c/a\u003e\u003c/code\u003e (f a) b ~ \u003ccode\u003eHask\u003c/code\u003e a (g b)\u003c/pre\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003erightAdjunct\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003eleftAdjunct\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ecounit\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eAny adjunction from \u003ccode\u003eHask\u003c/code\u003e to \u003ccode\u003eHask^op\u003c/code\u003e would indirectly\n permit \u003ccode\u003eunsafePerformIO\u003c/code\u003e, and therefore does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "Adjunction",
           "package": "adjunctions",
@@ -2305,6 +2504,7 @@
         "index": {
           "description": "An adjunction from Hask op to Hask Op Hask rightAdjunct unit id leftAdjunct counit id Any adjunction from Hask to Hask op would indirectly permit unsafePerformIO and therefore does not exist",
           "hierarchy": "Data Functor Contravariant Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "Adjunction",
           "package": "adjunctions",
@@ -2318,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "coindexAdjunction",
           "package": "adjunctions",
@@ -2327,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Contravariant Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "coindexAdjunction",
           "normalized": "a b-\u003eb-\u003ec()",
@@ -2343,6 +2545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a \u003ccode\u003e\u003ca\u003eContravariant\u003c/a\u003e\u003c/code\u003e functor that has a left adjoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "contrarepAdjunction",
           "package": "adjunctions",
@@ -2353,6 +2556,7 @@
         "index": {
           "description": "Represent Contravariant functor that has left adjoint",
           "hierarchy": "Data Functor Contravariant Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "contrarepAdjunction",
           "normalized": "(a-\u003eb())-\u003ec a",
@@ -2368,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "counit",
           "package": "adjunctions",
@@ -2377,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Contravariant Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "counit",
           "normalized": "a-\u003eb(c a)",
@@ -2391,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "leftAdjunct",
           "package": "adjunctions",
@@ -2400,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Contravariant Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "leftAdjunct",
           "normalized": "(a-\u003eb c)-\u003ec-\u003ed a",
@@ -2415,6 +2623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "rightAdjunct",
           "package": "adjunctions",
@@ -2424,6 +2633,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Contravariant Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "rightAdjunct",
           "normalized": "(a-\u003eb c)-\u003ec-\u003ed a",
@@ -2439,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "unit",
           "package": "adjunctions",
@@ -2448,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Contravariant Adjunction",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Contravariant.Adjunction",
           "name": "unit",
           "normalized": "a-\u003eb(c a)",
@@ -2463,6 +2675,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentable contravariant endofunctors over the category of Haskell\n types are isomorphic to \u003ccode\u003e(_ -\u003e r)\u003c/code\u003e and resemble mappings to a\n fixed range.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Contravariant.Rep",
           "name": "Rep",
           "package": "adjunctions",
@@ -2472,6 +2685,7 @@
         "index": {
           "description": "Representable contravariant endofunctors over the category of Haskell types are isomorphic to and resemble mappings to fixed range",
           "hierarchy": "Data Functor Contravariant Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Contravariant.Rep",
           "name": "Rep",
           "package": "adjunctions",
@@ -2486,6 +2700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eContravariant\u003c/a\u003e\u003c/code\u003e functor \u003ccode\u003ef\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eRepresentable\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003etabulate\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e witness an isomorphism to \u003ccode\u003e(_ -\u003e Rep f)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003etabulate\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e &#8801; id\n \u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003etabulate\u003c/a\u003e\u003c/code\u003e &#8801; id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Contravariant.Rep",
           "name": "Representable",
           "package": "adjunctions",
@@ -2495,6 +2710,7 @@
         "index": {
           "description": "Contravariant functor is Representable if tabulate and index witness an isomorphism to Rep tabulate index id index tabulate id",
           "hierarchy": "Data Functor Contravariant Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Contravariant.Rep",
           "name": "Representable",
           "package": "adjunctions",
@@ -2508,6 +2724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Contravariant.Rep",
           "name": "contramapRep",
           "package": "adjunctions",
@@ -2517,6 +2734,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Contravariant Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Contravariant.Rep",
           "name": "contramapRep",
           "normalized": "(a-\u003eb)-\u003ec b-\u003ec a",
@@ -2533,6 +2751,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003econtramapWithRep\u003c/a\u003e\u003c/code\u003e f p &#8801; \u003ccode\u003e\u003ca\u003etabulate\u003c/a\u003e\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003eeither\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e p) \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e . f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Contravariant.Rep",
           "name": "contramapWithRep",
           "package": "adjunctions",
@@ -2543,6 +2762,7 @@
         "index": {
           "description": "contramapWithRep tabulate either index id",
           "hierarchy": "Data Functor Contravariant Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Contravariant.Rep",
           "name": "contramapWithRep",
           "normalized": "(a-\u003eEither b(Rep c))-\u003ec b-\u003ec a",
@@ -2558,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Contravariant.Rep",
           "name": "index",
           "package": "adjunctions",
@@ -2567,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Contravariant Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Contravariant.Rep",
           "name": "index",
           "normalized": "a b-\u003eb-\u003eRep a",
@@ -2582,6 +2804,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003econtramap\u003c/a\u003e\u003c/code\u003e f (\u003ccode\u003e\u003ca\u003etabulate\u003c/a\u003e\u003c/code\u003e g) = \u003ccode\u003e\u003ca\u003etabulate\u003c/a\u003e\u003c/code\u003e (g . f)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Contravariant.Rep",
           "name": "tabulate",
           "package": "adjunctions",
@@ -2592,6 +2815,7 @@
         "index": {
           "description": "contramap tabulate tabulate",
           "hierarchy": "Data Functor Contravariant Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Contravariant.Rep",
           "name": "tabulate",
           "normalized": "(a-\u003eRep b)-\u003eb a",
@@ -2607,6 +2831,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentable endofunctors over the category of Haskell types are\n isomorphic to the reader monad and so inherit a very large number\n of properties for free.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "Rep",
           "package": "adjunctions",
@@ -2616,6 +2841,7 @@
         "index": {
           "description": "Representable endofunctors over the category of Haskell types are isomorphic to the reader monad and so inherit very large number of properties for free",
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "Rep",
           "package": "adjunctions",
@@ -2629,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "Co",
           "package": "adjunctions",
@@ -2637,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "Co",
           "package": "adjunctions",
@@ -2651,6 +2879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eRepresentable\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003etabulate\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e witness an isomorphism to \u003ccode\u003e(-\u003e) x\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEvery \u003ccode\u003e\u003ca\u003eDistributive\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e is actually \u003ccode\u003e\u003ca\u003eRepresentable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEvery \u003ccode\u003e\u003ca\u003eRepresentable\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e from Hask to Hask is a right adjoint.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003etabulate\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e    &#8801; id\n \u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003etabulate\u003c/a\u003e\u003c/code\u003e    &#8801; id\n \u003ccode\u003e\u003ca\u003etabulate\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e f &#8801; \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "Representable",
           "package": "adjunctions",
@@ -2660,6 +2889,7 @@
         "index": {
           "description": "Functor is Representable if tabulate and index witness an isomorphism to Every Distributive Functor is actually Representable Every Representable Functor from Hask to Hask is right adjoint tabulate index id index tabulate id tabulate return return",
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "Representable",
           "package": "adjunctions",
@@ -2673,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "Co",
           "package": "adjunctions",
@@ -2682,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "Co",
           "package": "adjunctions",
@@ -2695,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "apRep",
           "package": "adjunctions",
@@ -2704,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "apRep",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -2719,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "askRep",
           "package": "adjunctions",
@@ -2728,6 +2963,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "askRep",
           "package": "adjunctions",
@@ -2741,6 +2977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "bindRep",
           "package": "adjunctions",
@@ -2750,6 +2987,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "bindRep",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea c",
@@ -2765,6 +3003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "distributeRep",
           "package": "adjunctions",
@@ -2774,6 +3013,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "distributeRep",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -2789,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "duplicateRep",
           "package": "adjunctions",
@@ -2798,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "duplicateRep",
           "normalized": "a b-\u003ea(a b)",
@@ -2813,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "duplicatedRep",
           "package": "adjunctions",
@@ -2822,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "duplicatedRep",
           "normalized": "a b-\u003ea(a b)",
@@ -2837,6 +3081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "extendRep",
           "package": "adjunctions",
@@ -2846,6 +3091,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "extendRep",
           "normalized": "(a b-\u003ec)-\u003ea b-\u003ea c",
@@ -2861,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "extendedRep",
           "package": "adjunctions",
@@ -2870,6 +3117,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "extendedRep",
           "normalized": "(a b-\u003ec)-\u003ea b-\u003ea c",
@@ -2885,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "extractRep",
           "package": "adjunctions",
@@ -2894,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "extractRep",
           "normalized": "a b-\u003eb",
@@ -2909,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "fmapRep",
           "package": "adjunctions",
@@ -2918,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "fmapRep",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -2933,6 +3185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "index",
           "package": "adjunctions",
@@ -2942,6 +3195,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "index",
           "normalized": "a b-\u003eRep a-\u003eb",
@@ -2956,6 +3210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "liftR2",
           "package": "adjunctions",
@@ -2965,6 +3220,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "liftR2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -2979,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "liftR3",
           "package": "adjunctions",
@@ -2988,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "liftR3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ee a-\u003ee b-\u003ee c-\u003ee d",
@@ -3002,6 +3260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "localRep",
           "package": "adjunctions",
@@ -3011,6 +3270,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "localRep",
           "normalized": "(Rep a-\u003eRep a)-\u003ea b-\u003ea b",
@@ -3026,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "pureRep",
           "package": "adjunctions",
@@ -3035,6 +3296,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "pureRep",
           "normalized": "a-\u003eb a",
@@ -3051,6 +3313,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e f . \u003ccode\u003e\u003ca\u003etabulate\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003etabulate\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "tabulate",
           "package": "adjunctions",
@@ -3061,6 +3324,7 @@
         "index": {
           "description": "fmap tabulate tabulate fmap",
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "tabulate",
           "normalized": "(Rep a-\u003eb)-\u003ea b",
@@ -3075,6 +3339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:20 UTC 2014",
           "module": "Data.Functor.Rep",
           "name": "unCo",
           "package": "adjunctions",
@@ -3084,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Rep",
+          "indexed": "2014-03-11T17:08:20",
           "module": "Data.Functor.Rep",
           "name": "unCo",
           "package": "adjunctions",

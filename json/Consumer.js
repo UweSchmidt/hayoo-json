@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Consumer"
+        "phrase": "Consumer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monad for consuming streams - I believe this is basically just a specialized version of the State monad. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:21 UTC 2014",
           "module": "Control.Monad.Consumer",
           "name": "Consumer",
           "package": "Consumer",
@@ -28,6 +29,7 @@
         "index": {
           "description": "monad for consuming streams believe this is basically just specialized version of the State monad",
           "hierarchy": "Control Monad Consumer",
+          "indexed": "2014-03-11T16:37:21",
           "module": "Control.Monad.Consumer",
           "name": "Consumer",
           "package": "Consumer",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:21 UTC 2014",
           "module": "Control.Monad.Consumer",
           "name": "Consumer",
           "package": "Consumer",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Consumer",
+          "indexed": "2014-03-11T16:37:21",
           "module": "Control.Monad.Consumer",
           "name": "Consumer",
           "package": "Consumer",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:21 UTC 2014",
           "module": "Control.Monad.Consumer",
           "name": "ConsumerT",
           "package": "Consumer",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Consumer",
+          "indexed": "2014-03-11T16:37:21",
           "module": "Control.Monad.Consumer",
           "name": "ConsumerT",
           "package": "Consumer",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:21 UTC 2014",
           "module": "Control.Monad.Consumer",
           "name": "MonadConsumer",
           "package": "Consumer",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Consumer",
+          "indexed": "2014-03-11T16:37:21",
           "module": "Control.Monad.Consumer",
           "name": "MonadConsumer",
           "package": "Consumer",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:21 UTC 2014",
           "module": "Control.Monad.Consumer",
           "name": "Consumer",
           "package": "Consumer",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Consumer",
+          "indexed": "2014-03-11T16:37:21",
           "module": "Control.Monad.Consumer",
           "name": "Consumer",
           "normalized": "Consumer([a]-\u003e(b,[a]))",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:21 UTC 2014",
           "module": "Control.Monad.Consumer",
           "name": "ConsumerT",
           "package": "Consumer",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Consumer",
+          "indexed": "2014-03-11T16:37:21",
           "module": "Control.Monad.Consumer",
           "name": "ConsumerT",
           "package": "Consumer",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a stateful computation, ignoring the final state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:21 UTC 2014",
           "module": "Control.Monad.Consumer",
           "name": "evalConsumer",
           "package": "Consumer",
@@ -161,6 +174,7 @@
         "index": {
           "description": "Execute stateful computation ignoring the final state",
           "hierarchy": "Control Monad Consumer",
+          "indexed": "2014-03-11T16:37:21",
           "module": "Control.Monad.Consumer",
           "name": "evalConsumer",
           "normalized": "[a]-\u003eConsumer a b-\u003eb",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a stateful computation, just for the side effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:21 UTC 2014",
           "module": "Control.Monad.Consumer",
           "name": "execConsumer",
           "package": "Consumer",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Execute stateful computation just for the side effect",
           "hierarchy": "Control Monad Consumer",
+          "indexed": "2014-03-11T16:37:21",
           "module": "Control.Monad.Consumer",
           "name": "execConsumer",
           "normalized": "[a]-\u003eConsumer a b-\u003e[a]",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:21 UTC 2014",
           "module": "Control.Monad.Consumer",
           "name": "next",
           "package": "Consumer",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Consumer",
+          "indexed": "2014-03-11T16:37:21",
           "module": "Control.Monad.Consumer",
           "name": "next",
           "package": "Consumer",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:21 UTC 2014",
           "module": "Control.Monad.Consumer",
           "name": "peek",
           "package": "Consumer",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Consumer",
+          "indexed": "2014-03-11T16:37:21",
           "module": "Control.Monad.Consumer",
           "name": "peek",
           "package": "Consumer",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:21 UTC 2014",
           "module": "Control.Monad.Consumer",
           "name": "poke",
           "package": "Consumer",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Consumer",
+          "indexed": "2014-03-11T16:37:21",
           "module": "Control.Monad.Consumer",
           "name": "poke",
           "package": "Consumer",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a stateful computation, as a result we get\n the result of the computation, and the final state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:21 UTC 2014",
           "module": "Control.Monad.Consumer",
           "name": "runConsumer",
           "package": "Consumer",
@@ -276,6 +299,7 @@
         "index": {
           "description": "Execute stateful computation as result we get the result of the computation and the final state",
           "hierarchy": "Control Monad Consumer",
+          "indexed": "2014-03-11T16:37:21",
           "module": "Control.Monad.Consumer",
           "name": "runConsumer",
           "normalized": "[a]-\u003eConsumer a b-\u003e(b,[a])",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:21 UTC 2014",
           "module": "Control.Monad.Consumer",
           "name": "runConsumerT",
           "package": "Consumer",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Consumer",
+          "indexed": "2014-03-11T16:37:21",
           "module": "Control.Monad.Consumer",
           "name": "runConsumerT",
           "normalized": "[a]-\u003eb(c,[a])",

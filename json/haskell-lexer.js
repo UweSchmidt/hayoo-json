@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-lexer"
+        "phrase": "haskell-lexer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Lexer",
           "package": "haskell-lexer",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Lexer",
           "package": "haskell-lexer",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe posisiotn within a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Pos",
           "package": "haskell-lexer",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The posisiotn within file",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Pos",
           "package": "haskell-lexer",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "PosToken",
           "package": "haskell-lexer",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "PosToken",
           "package": "haskell-lexer",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell token classifications:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Token",
           "package": "haskell-lexer",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Haskell token classifications",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Token",
           "package": "haskell-lexer",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "CharLit",
           "package": "haskell-lexer",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Character literal",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "CharLit",
           "package": "haskell-lexer",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe stuff after the dashes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Comment",
           "package": "haskell-lexer",
@@ -141,6 +152,7 @@
         "index": {
           "description": "The stuff after the dashes",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Comment",
           "package": "haskell-lexer",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDashes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Commentstart",
           "package": "haskell-lexer",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Dashes",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Commentstart",
           "package": "haskell-lexer",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Conid",
           "package": "haskell-lexer",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Constructor",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Conid",
           "package": "haskell-lexer",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Consym",
           "package": "haskell-lexer",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Constructor operator",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Consym",
           "package": "haskell-lexer",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "ErrorToken",
           "package": "haskell-lexer",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "ErrorToken",
           "package": "haskell-lexer",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFractional numeric literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "FloatLit",
           "package": "haskell-lexer",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Fractional numeric literal",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "FloatLit",
           "package": "haskell-lexer",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "GotEOF",
           "package": "haskell-lexer",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "GotEOF",
           "package": "haskell-lexer",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cn\u003e, to preceed first token on each line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Indent",
           "package": "haskell-lexer",
@@ -305,6 +330,7 @@
         "index": {
           "description": "to preceed first token on each line",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Indent",
           "package": "haskell-lexer",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegral numeric literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "IntLit",
           "package": "haskell-lexer",
@@ -329,6 +356,7 @@
         "index": {
           "description": "Integral numeric literal",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "IntLit",
           "package": "haskell-lexer",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor implicit braces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Layout",
           "package": "haskell-lexer",
@@ -353,6 +382,7 @@
         "index": {
           "description": "for implicit braces",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Layout",
           "package": "haskell-lexer",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot handled by the lexer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "LiterateComment",
           "package": "haskell-lexer",
@@ -377,6 +408,7 @@
         "index": {
           "description": "Not handled by the lexer",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "LiterateComment",
           "package": "haskell-lexer",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecognized in a later pass\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "ModuleAlias",
           "package": "haskell-lexer",
@@ -401,6 +434,7 @@
         "index": {
           "description": "recognized in later pass",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "ModuleAlias",
           "package": "haskell-lexer",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "ModuleName",
           "package": "haskell-lexer",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "ModuleName",
           "package": "haskell-lexer",
@@ -437,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA nested comment ({- ... -})\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "NestedComment",
           "package": "haskell-lexer",
@@ -447,6 +484,7 @@
         "index": {
           "description": "nested comment",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "NestedComment",
           "package": "haskell-lexer",
@@ -461,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal: causes a call to an external function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "NestedCommentStart",
           "package": "haskell-lexer",
@@ -471,6 +510,7 @@
         "index": {
           "description": "Internal causes call to an external function",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "NestedCommentStart",
           "package": "haskell-lexer",
@@ -485,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e{n}, after let, where, do or of, if not followed by a \"{\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Open",
           "package": "haskell-lexer",
@@ -495,6 +536,7 @@
         "index": {
           "description": "after let where do or of if not followed by",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Open",
           "package": "haskell-lexer",
@@ -508,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Pos",
           "package": "haskell-lexer",
@@ -517,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Pos",
           "package": "haskell-lexer",
@@ -531,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQualified constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Qconid",
           "package": "haskell-lexer",
@@ -541,6 +586,7 @@
         "index": {
           "description": "Qualified constructor",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Qconid",
           "package": "haskell-lexer",
@@ -555,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQualified constructor operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Qconsym",
           "package": "haskell-lexer",
@@ -565,6 +612,7 @@
         "index": {
           "description": "Qualified constructor operator",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Qconsym",
           "package": "haskell-lexer",
@@ -579,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQualified variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Qvarid",
           "package": "haskell-lexer",
@@ -589,6 +638,7 @@
         "index": {
           "description": "Qualified variable",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Qvarid",
           "package": "haskell-lexer",
@@ -603,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQualified variable operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Qvarsym",
           "package": "haskell-lexer",
@@ -613,6 +664,7 @@
         "index": {
           "description": "Qualified variable operator",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Qvarsym",
           "package": "haskell-lexer",
@@ -627,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReserved keyword\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Reservedid",
           "package": "haskell-lexer",
@@ -637,6 +690,7 @@
         "index": {
           "description": "Reserved keyword",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Reservedid",
           "package": "haskell-lexer",
@@ -651,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReserved operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Reservedop",
           "package": "haskell-lexer",
@@ -661,6 +716,7 @@
         "index": {
           "description": "Reserved operator",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Reservedop",
           "package": "haskell-lexer",
@@ -674,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Special",
           "package": "haskell-lexer",
@@ -683,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Special",
           "package": "haskell-lexer",
@@ -696,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Specialid",
           "package": "haskell-lexer",
@@ -705,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Specialid",
           "package": "haskell-lexer",
@@ -719,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "StringLit",
           "package": "haskell-lexer",
@@ -729,6 +790,7 @@
         "index": {
           "description": "String literal",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "StringLit",
           "package": "haskell-lexer",
@@ -742,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "TheRest",
           "package": "haskell-lexer",
@@ -751,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "TheRest",
           "package": "haskell-lexer",
@@ -765,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Varid",
           "package": "haskell-lexer",
@@ -775,6 +840,7 @@
         "index": {
           "description": "Variable",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Varid",
           "package": "haskell-lexer",
@@ -789,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Varsym",
           "package": "haskell-lexer",
@@ -799,6 +866,7 @@
         "index": {
           "description": "Variable operator",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Varsym",
           "package": "haskell-lexer",
@@ -813,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhite space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "Whitespace",
           "package": "haskell-lexer",
@@ -823,6 +892,7 @@
         "index": {
           "description": "White space",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "Whitespace",
           "package": "haskell-lexer",
@@ -836,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "char",
           "package": "haskell-lexer",
@@ -845,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "char",
           "package": "haskell-lexer",
@@ -857,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "column",
           "package": "haskell-lexer",
@@ -866,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "column",
           "package": "haskell-lexer",
@@ -879,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is an implementation of Haskell layout, as specified in\n section 9.3 of the revised Haskell 98 report.\n This preprocessor inserts the extra \u003cn\u003e and {n} tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "layoutPre",
           "package": "haskell-lexer",
@@ -889,6 +964,7 @@
         "index": {
           "description": "This is an implementation of Haskell layout as specified in section of the revised Haskell report This preprocessor inserts the extra and tokens",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "layoutPre",
           "normalized": "[PosToken]-\u003e[PosToken]",
@@ -905,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTokenize and add position information.  Preserves white space,\n and does not insert extra tokens due to layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "lexerPass0",
           "package": "haskell-lexer",
@@ -915,6 +992,7 @@
         "index": {
           "description": "Tokenize and add position information Preserves white space and does not insert extra tokens due to layout",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "lexerPass0",
           "normalized": "String-\u003e[PosToken]",
@@ -931,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003elexerPass0\u003c/a\u003e\u003c/code\u003e, except that it uses the given start position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "lexerPass0'",
           "package": "haskell-lexer",
@@ -941,6 +1020,7 @@
         "index": {
           "description": "Same as lexerPass0 except that it uses the given start position",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "lexerPass0'",
           "normalized": "Pos-\u003eString-\u003e[PosToken]",
@@ -957,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003elexerPass1\u003c/a\u003e\u003c/code\u003e handles the part of lexical analysis that\n can be done independently of the parser---the tokenization and the\n addition of the extra layout tokens \u003cn\u003e and {n}, as specified in\n section 9.3 of the revised Haskell 98 Report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "lexerPass1",
           "package": "haskell-lexer",
@@ -967,6 +1048,7 @@
         "index": {
           "description": "The function lexerPass1 handles the part of lexical analysis that can be done independently of the parser---the tokenization and the addition of the extra layout tokens and as specified in section of the revised Haskell Report",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "lexerPass1",
           "normalized": "String-\u003e[PosToken]",
@@ -982,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "line",
           "package": "haskell-lexer",
@@ -991,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "line",
           "package": "haskell-lexer",
@@ -1004,6 +1088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdvance position by a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "nextPos",
           "package": "haskell-lexer",
@@ -1014,6 +1099,7 @@
         "index": {
           "description": "Advance position by string",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "nextPos",
           "normalized": "Pos-\u003eString-\u003ePos",
@@ -1030,6 +1116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdvance position by a single character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "nextPos1",
           "package": "haskell-lexer",
@@ -1040,6 +1127,7 @@
         "index": {
           "description": "Advance position by single character",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "nextPos1",
           "normalized": "Pos-\u003eChar-\u003ePos",
@@ -1056,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove token that are not meaningful (e.g., white space and comments).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "rmSpace",
           "package": "haskell-lexer",
@@ -1066,6 +1155,7 @@
         "index": {
           "description": "Remove token that are not meaningful e.g white space and comments",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "rmSpace",
           "normalized": "[PosToken]-\u003e[PosToken]",
@@ -1082,6 +1172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe line and column numbers of a position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "simpPos",
           "package": "haskell-lexer",
@@ -1092,6 +1183,7 @@
         "index": {
           "description": "The line and column numbers of position",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "simpPos",
           "normalized": "Pos-\u003e(Int,Int)",
@@ -1108,6 +1200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first column is designated column 1, not 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:54 UTC 2014",
           "module": "Language.Haskell.Lexer",
           "name": "startPos",
           "package": "haskell-lexer",
@@ -1118,6 +1211,7 @@
         "index": {
           "description": "The first column is designated column not",
           "hierarchy": "Language Haskell Lexer",
+          "indexed": "2014-03-11T18:30:54",
           "module": "Language.Haskell.Lexer",
           "name": "startPos",
           "package": "haskell-lexer",

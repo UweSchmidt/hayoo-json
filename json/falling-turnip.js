@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "falling-turnip"
+        "phrase": "falling-turnip",
+        "type": "phrase"
       },
       "type": "context"
     }

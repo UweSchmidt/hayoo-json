@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "alms"
+        "phrase": "alms",
+        "type": "phrase"
       },
       "type": "context"
     }

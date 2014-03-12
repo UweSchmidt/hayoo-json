@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tf-random"
+        "phrase": "tf-random",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the \u003ccode\u003e\u003ca\u003eTFGen\u003c/a\u003e\u003c/code\u003e generator and the alternative \u003ccode\u003e\u003ca\u003eRandomGen\u003c/a\u003e\u003c/code\u003e class.\n  \u003ccode\u003e\u003ca\u003eTFGen\u003c/a\u003e\u003c/code\u003e also implements the standard \u003ccode\u003e\u003ca\u003eRandomGen\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Gen",
           "name": "Gen",
           "package": "tf-random",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides the TFGen generator and the alternative RandomGen class TFGen also implements the standard RandomGen class",
           "hierarchy": "System Random TF Gen",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Gen",
           "name": "Gen",
           "package": "tf-random",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative \u003ccode\u003e\u003ca\u003eRandomGen\u003c/a\u003e\u003c/code\u003e class with a modified \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e operation, and added \u003ccode\u003e\u003ca\u003esplitn\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003elevel\u003c/a\u003e\u003c/code\u003e operations.\n\u003c/p\u003e\u003cp\u003eUsing the generator requires that no more than one operation is called\n on the same generator state, as the implementation does not guarantee pseudorandomness\n otherwise. As an exception, calling \u003ccode\u003e\u003ca\u003esplitn\u003c/a\u003e\u003c/code\u003e many times on the same generator state is\n allowed as long as the 'bits' argument is the same for all the calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Gen",
           "name": "RandomGen",
           "package": "tf-random",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Alternative RandomGen class with modified next operation and added splitn and level operations Using the generator requires that no more than one operation is called on the same generator state as the implementation does not guarantee pseudorandomness otherwise As an exception calling splitn many times on the same generator state is allowed as long as the bits argument is the same for all the calls",
           "hierarchy": "System Random TF Gen",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Gen",
           "name": "RandomGen",
           "package": "tf-random",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe generator type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Gen",
           "name": "TFGen",
           "package": "tf-random",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The generator type",
           "hierarchy": "System Random TF Gen",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Gen",
           "name": "TFGen",
           "package": "tf-random",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elevel\u003c/a\u003e\u003c/code\u003e is a 'hint' operation that may cause an iteration of work\n of the generator be performed prematurely in order to\n prevent the subsequent operations from being expensive. It is meant to be\n called before a \u003ccode\u003e\u003ca\u003esplitn\u003c/a\u003e\u003c/code\u003e operation, which is expected to be evaluated\n a very large number indices. Calling \u003ccode\u003e\u003ca\u003elevel\u003c/a\u003e\u003c/code\u003e in such case might decrease\n the total amount of work performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Gen",
           "name": "level",
           "package": "tf-random",
@@ -98,6 +105,7 @@
         "index": {
           "description": "level is hint operation that may cause an iteration of work of the generator be performed prematurely in order to prevent the subsequent operations from being expensive It is meant to be called before splitn operation which is expected to be evaluated very large number indices Calling level in such case might decrease the total amount of work performed",
           "hierarchy": "System Random TF Gen",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Gen",
           "name": "level",
           "normalized": "a-\u003ea",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e returns a \u003ccode\u003e\u003ca\u003eWord32\u003c/a\u003e\u003c/code\u003e that appears to have been chosen uniformly at random, and a \n new generator state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Gen",
           "name": "next",
           "package": "tf-random",
@@ -123,6 +132,7 @@
         "index": {
           "description": "next returns Word32 that appears to have been chosen uniformly at random and new generator state",
           "hierarchy": "System Random TF Gen",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Gen",
           "name": "next",
           "normalized": "a-\u003e(Word,a)",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a generator from a random seed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Gen",
           "name": "seedTFGen",
           "package": "tf-random",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Create generator from random seed",
           "hierarchy": "System Random TF Gen",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Gen",
           "name": "seedTFGen",
           "normalized": "(Word,Word,Word,Word)-\u003eTFGen",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003e returns two derived generator states that appear to be independent pseudorandom\n number generators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Gen",
           "name": "split",
           "package": "tf-random",
@@ -174,6 +187,7 @@
         "index": {
           "description": "split returns two derived generator states that appear to be independent pseudorandom number generators",
           "hierarchy": "System Random TF Gen",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Gen",
           "name": "split",
           "normalized": "a-\u003e(a,a)",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esplitn\u003c/a\u003e\u003c/code\u003e is the n-way split operation used to create many derived generator states\n in one go. Application of \u003ccode\u003e\u003ca\u003esplitn\u003c/a\u003e\u003c/code\u003e to two first arguments should be shared between\n different applications of the index argument to avoid unnecessary repeated computations.\n\u003c/p\u003e\u003cp\u003eThe following code creates ten 'independent' generator states. Number '4' comes\n from the fact that at least\n four bits are needed to encode ten different indices.\n\u003c/p\u003e\u003cpre\u003e\n    f :: RandomGen g =\u003e g -\u003e [g]\n    f r = map (splitn r 4) [0..9]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Gen",
           "name": "splitn",
           "package": "tf-random",
@@ -199,6 +214,7 @@
         "index": {
           "description": "splitn is the n-way split operation used to create many derived generator states in one go Application of splitn to two first arguments should be shared between different applications of the index argument to avoid unnecessary repeated computations The following code creates ten independent generator states Number comes from the fact that at least four bits are needed to encode ten different indices RandomGen map splitn",
           "hierarchy": "System Random TF Gen",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Gen",
           "name": "splitn",
           "package": "tf-random",
@@ -211,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Init",
           "name": "Init",
           "package": "tf-random",
@@ -219,6 +236,7 @@
         },
         "index": {
           "hierarchy": "System Random TF Init",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Init",
           "name": "Init",
           "package": "tf-random",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse system time create the random seed.\n This method of seeding may not be relible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Init",
           "name": "mkSeedTime",
           "package": "tf-random",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Use system time create the random seed This method of seeding may not be relible",
           "hierarchy": "System Random TF Init",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Init",
           "name": "mkSeedTime",
           "normalized": "IO(Word,Word,Word,Word)",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the UNIX special file \u003ccode\u003e/dev/urandom\u003c/code\u003e to create the seed.\n Inspired by \u003ccode\u003erandom-mwc\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Init",
           "name": "mkSeedUnix",
           "package": "tf-random",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Use the UNIX special file dev urandom to create the seed Inspired by random-mwc",
           "hierarchy": "System Random TF Init",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Init",
           "name": "mkSeedUnix",
           "normalized": "IO(Word,Word,Word,Word)",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines alternative \u003ccode\u003e\u003ca\u003eRandom\u003c/a\u003e\u003c/code\u003e instances for\n common integral types, which make use of \n the \u003ccode\u003e\u003ca\u003eRandomGen\u003c/a\u003e\u003c/code\u003e class from \u003ca\u003eSystem.Random.TF.Gen\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Instances",
           "name": "Instances",
           "package": "tf-random",
@@ -294,6 +317,7 @@
         "index": {
           "description": "This module defines alternative Random instances for common integral types which make use of the RandomGen class from System.Random.TF.Gen",
           "hierarchy": "System Random TF Instances",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Instances",
           "name": "Instances",
           "package": "tf-random",
@@ -307,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Instances",
           "name": "Random",
           "package": "tf-random",
@@ -315,6 +340,7 @@
         },
         "index": {
           "hierarchy": "System Random TF Instances",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Instances",
           "name": "Random",
           "package": "tf-random",
@@ -328,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Instances",
           "name": "random",
           "package": "tf-random",
@@ -337,6 +364,7 @@
         },
         "index": {
           "hierarchy": "System Random TF Instances",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Instances",
           "name": "random",
           "normalized": "a-\u003e(b,a)",
@@ -351,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Instances",
           "name": "randomR",
           "package": "tf-random",
@@ -360,6 +389,7 @@
         },
         "index": {
           "hierarchy": "System Random TF Instances",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Instances",
           "name": "randomR",
           "normalized": "(a,a)-\u003eb-\u003e(a,b)",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Instances",
           "name": "randomRs",
           "package": "tf-random",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "System Random TF Instances",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Instances",
           "name": "randomRs",
           "normalized": "(a,a)-\u003eb-\u003e[a]",
@@ -398,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF.Instances",
           "name": "randoms",
           "package": "tf-random",
@@ -407,6 +440,7 @@
         },
         "index": {
           "hierarchy": "System Random TF Instances",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF.Instances",
           "name": "randoms",
           "normalized": "a-\u003e[b]",
@@ -422,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports \u003ca\u003eSystem.Random.TF.Gen\u003c/a\u003e and \u003ca\u003eSystem.Random.TF.Init\u003c/a\u003e\n modules without exporting the alternative \u003ccode\u003e\u003ca\u003eRandomGen\u003c/a\u003e\u003c/code\u003e\n class from \u003ca\u003eSystem.Random.TF.Gen\u003c/a\u003e. To use this class and the \u003ccode\u003e\u003ca\u003eRandom\u003c/a\u003e\u003c/code\u003e\n instances written for it, please import \u003ca\u003eSystem.Random.TF.Gen\u003c/a\u003e and \u003ca\u003eSystem.Random.TF.Instances\u003c/a\u003e\n directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:44 UTC 2014",
           "module": "System.Random.TF",
           "name": "TF",
           "package": "tf-random",
@@ -431,6 +466,7 @@
         "index": {
           "description": "This module exports System.Random.TF.Gen and System.Random.TF.Init modules without exporting the alternative RandomGen class from System.Random.TF.Gen To use this class and the Random instances written for it please import System.Random.TF.Gen and System.Random.TF.Instances directly",
           "hierarchy": "System Random TF",
+          "indexed": "2014-03-11T20:20:44",
           "module": "System.Random.TF",
           "name": "TF",
           "package": "tf-random",

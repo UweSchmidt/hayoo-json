@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hse-cpp"
+        "phrase": "hse-cpp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "CPP",
           "package": "hse-cpp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "CPP",
           "package": "hse-cpp",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions representable as Booleans.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "BoolOptions",
           "package": "hse-cpp",
@@ -48,6 +51,7 @@
         "index": {
           "description": "Options representable as Booleans",
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "BoolOptions",
           "package": "hse-cpp",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCpphs options structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "CpphsOptions",
           "package": "hse-cpp",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Cpphs options structure",
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "CpphsOptions",
           "package": "hse-cpp",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "BoolOptions",
           "package": "hse-cpp",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "BoolOptions",
           "package": "hse-cpp",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "CpphsOptions",
           "package": "hse-cpp",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "CpphsOptions",
           "package": "hse-cpp",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePermit stringise # and catenate ## operators?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "ansi",
           "package": "hse-cpp",
@@ -135,6 +146,7 @@
         "index": {
           "description": "Permit stringise and catenate operators",
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "ansi",
           "package": "hse-cpp",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "boolopts",
           "package": "hse-cpp",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "boolopts",
           "package": "hse-cpp",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "defaultCpphsOptions",
           "package": "hse-cpp",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "defaultCpphsOptions",
           "package": "hse-cpp",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "defines",
           "package": "hse-cpp",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "defines",
           "normalized": "[(String,String)]",
@@ -212,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite #line or {-# LINE #-} ?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "hashline",
           "package": "hse-cpp",
@@ -221,6 +240,7 @@
         "index": {
           "description": "Write line or LINE",
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "hashline",
           "package": "hse-cpp",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "includes",
           "package": "hse-cpp",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "includes",
           "normalized": "[String]",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "infiles",
           "package": "hse-cpp",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "infiles",
           "normalized": "[FilePath]",
@@ -278,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLex input as Haskell code?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "lang",
           "package": "hse-cpp",
@@ -287,6 +312,7 @@
         "index": {
           "description": "Lex input as Haskell code",
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "lang",
           "package": "hse-cpp",
@@ -300,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetain newlines in macro expansions?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "layout",
           "package": "hse-cpp",
@@ -309,6 +336,7 @@
         "index": {
           "description": "Retain newlines in macro expansions",
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "layout",
           "package": "hse-cpp",
@@ -322,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove literate markup?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "literate",
           "package": "hse-cpp",
@@ -331,6 +360,7 @@
         "index": {
           "description": "Remove literate markup",
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "literate",
           "package": "hse-cpp",
@@ -344,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlace #line droppings in output?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "locations",
           "package": "hse-cpp",
@@ -353,6 +384,7 @@
         "index": {
           "description": "Place line droppings in output",
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "locations",
           "package": "hse-cpp",
@@ -366,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeave #define and #undef in output of ifdef?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "macros",
           "package": "hse-cpp",
@@ -375,6 +408,7 @@
         "index": {
           "description": "Leave define and undef in output of ifdef",
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "macros",
           "package": "hse-cpp",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "outfiles",
           "package": "hse-cpp",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "outfiles",
           "normalized": "[FilePath]",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "parseFileContentsWithCommentsAndCPP",
           "package": "hse-cpp",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "parseFileContentsWithCommentsAndCPP",
           "normalized": "CpphsOptions-\u003eParseMode-\u003eString-\u003eIO(ParseResult(Module SrcSpanInfo,[Comment]))",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "parseFileWithCommentsAndCPP",
           "package": "hse-cpp",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "parseFileWithCommentsAndCPP",
           "normalized": "CpphsOptions-\u003eParseMode-\u003eFilePath-\u003eIO(ParseResult(Module SrcSpanInfo,[Comment]))",
@@ -458,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep #pragma in final output?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "pragma",
           "package": "hse-cpp",
@@ -467,6 +508,7 @@
         "index": {
           "description": "Keep pragma in final output",
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "pragma",
           "package": "hse-cpp",
@@ -480,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFiles to #include before anything else\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "preInclude",
           "package": "hse-cpp",
@@ -489,6 +532,7 @@
         "index": {
           "description": "Files to include before anything else",
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "preInclude",
           "normalized": "[FilePath]",
@@ -505,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove C inline (/**/) comments everywhere?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "stripC89",
           "package": "hse-cpp",
@@ -514,6 +559,7 @@
         "index": {
           "description": "Remove inline comments everywhere",
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "stripC89",
           "package": "hse-cpp",
@@ -527,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove C eol (//) comments everywhere?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "stripEol",
           "package": "hse-cpp",
@@ -536,6 +583,7 @@
         "index": {
           "description": "Remove eol comments everywhere",
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "stripEol",
           "package": "hse-cpp",
@@ -550,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIssue warnings?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:16 UTC 2014",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "warnings",
           "package": "hse-cpp",
@@ -559,6 +608,7 @@
         "index": {
           "description": "Issue warnings",
           "hierarchy": "Language Haskell Exts Annotated CPP",
+          "indexed": "2014-03-11T18:48:16",
           "module": "Language.Haskell.Exts.Annotated.CPP",
           "name": "warnings",
           "package": "hse-cpp",

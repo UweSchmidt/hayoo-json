@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "partial-isomorphisms"
+        "phrase": "partial-isomorphisms",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "Constructors",
           "package": "partial-isomorphisms",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "Constructors",
           "package": "partial-isomorphisms",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "cons",
           "package": "partial-isomorphisms",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "cons",
           "normalized": "Iso(a,[a])[a]",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "just",
           "package": "partial-isomorphisms",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "just",
           "package": "partial-isomorphisms",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "left",
           "package": "partial-isomorphisms",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "left",
           "package": "partial-isomorphisms",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "listCases",
           "package": "partial-isomorphisms",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "listCases",
           "normalized": "Iso(Either()(a,[a]))[a]",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "nil",
           "package": "partial-isomorphisms",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "nil",
           "normalized": "Iso()[a]",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "nothing",
           "package": "partial-isomorphisms",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "nothing",
           "normalized": "Iso()(Maybe a)",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "right",
           "package": "partial-isomorphisms",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Constructors",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Constructors",
           "name": "right",
           "package": "partial-isomorphisms",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Derived",
           "name": "Derived",
           "package": "partial-isomorphisms",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Derived",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Derived",
           "name": "Derived",
           "package": "partial-isomorphisms",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Derived",
           "name": "foldl",
           "package": "partial-isomorphisms",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Derived",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Derived",
           "name": "foldl",
           "normalized": "Iso(a,b)a-\u003eIso(a,[b])a",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "Prim",
           "package": "partial-isomorphisms",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "Prim",
           "package": "partial-isomorphisms",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "Iso",
           "package": "partial-isomorphisms",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "Iso",
           "package": "partial-isomorphisms",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "IsoFunctor",
           "package": "partial-isomorphisms",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "IsoFunctor",
           "package": "partial-isomorphisms",
@@ -303,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mediating arrow for sums constructed with \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e.\n This is not a proper partial isomorphism because of \u003ccode\u003e\u003ca\u003emplus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "(|||)",
           "package": "partial-isomorphisms",
@@ -313,6 +340,7 @@
         "index": {
           "description": "The mediating arrow for sums constructed with Either This is not proper partial isomorphism because of mplus",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "(|||) |||",
           "normalized": "Iso a b-\u003eIso c b-\u003eIso(Either a c)b",
@@ -328,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe product type constructor `(,)` is a bifunctor from \n \u003ccode\u003e\u003ca\u003eIso\u003c/a\u003e\u003c/code\u003e $times$ \u003ccode\u003e\u003ca\u003eIso\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eIso\u003c/a\u003e\u003c/code\u003e, so that we have the \n bifunctorial map \u003ccode\u003e\u003ca\u003e***\u003c/a\u003e\u003c/code\u003e which allows two separate isomorphisms \n to work on the two components of a tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "(***)",
           "package": "partial-isomorphisms",
@@ -338,6 +367,7 @@
         "index": {
           "description": "the product type constructor is bifunctor from Iso times Iso to Iso so that we have the bifunctorial map which allows two separate isomorphisms to work on the two components of tuple",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "(***) ***",
           "normalized": "Iso a b-\u003eIso c d-\u003eIso(a,c)(b,d)",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "(\u003c$\u003e)",
           "package": "partial-isomorphisms",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "Iso a b-\u003ec a-\u003ec b",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "apply",
           "package": "partial-isomorphisms",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "apply",
           "normalized": "Iso a b-\u003ea-\u003eMaybe b",
@@ -399,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNested products associate. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "associate",
           "package": "partial-isomorphisms",
@@ -409,6 +444,7 @@
         "index": {
           "description": "Nested products associate",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "associate",
           "normalized": "Iso(a,(b,c))((a,b),c)",
@@ -424,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProducts commute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "commute",
           "package": "partial-isomorphisms",
@@ -434,6 +471,7 @@
         "index": {
           "description": "Products commute",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "commute",
           "normalized": "Iso(a,b)(b,a)",
@@ -449,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProducts distribute over sums.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "distribute",
           "package": "partial-isomorphisms",
@@ -459,6 +498,7 @@
         "index": {
           "description": "Products distribute over sums",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "distribute",
           "normalized": "Iso(a,Either b c)(Either(a,b)(a,c))",
@@ -474,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e`element x` is the partial isomorphism between `()` and the \n singleton set which contains just \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "element",
           "package": "partial-isomorphisms",
@@ -484,6 +525,7 @@
         "index": {
           "description": "element is the partial isomorphism between and the singleton set which contains just",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "element",
           "normalized": "a-\u003eIso()a",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "ignore",
           "package": "partial-isomorphisms",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "ignore",
           "normalized": "a-\u003eIso a()",
@@ -521,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "inverse",
           "package": "partial-isomorphisms",
@@ -530,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "inverse",
           "normalized": "Iso a b-\u003eIso b a",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "iterate",
           "package": "partial-isomorphisms",
@@ -553,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "iterate",
           "normalized": "Iso a a-\u003eIso a a",
@@ -568,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a predicate \u003ccode\u003ep\u003c/code\u003e, `subset p` is the identity isomorphism\n restricted to elements matching the predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "subset",
           "package": "partial-isomorphisms",
@@ -578,6 +627,7 @@
         "index": {
           "description": "For predicate subset is the identity isomorphism restricted to elements matching the predicate",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "subset",
           "normalized": "(a-\u003eBool)-\u003eIso a a",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "unapply",
           "package": "partial-isomorphisms",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "unapply",
           "normalized": "Iso a b-\u003eb-\u003eMaybe a",
@@ -616,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e`()` is the unit element for products. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "unit",
           "package": "partial-isomorphisms",
@@ -626,6 +679,7 @@
         "index": {
           "description": "is the unit element for products",
           "hierarchy": "Control Isomorphism Partial Prim",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Prim",
           "name": "unit",
           "normalized": "Iso a(a,())",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.TH",
           "name": "TH",
           "package": "partial-isomorphisms",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial TH",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.TH",
           "name": "TH",
           "package": "partial-isomorphisms",
@@ -662,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a partial isomorphism expression for a constructor, \n given the constructor's name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.TH",
           "name": "constructorIso",
           "package": "partial-isomorphisms",
@@ -672,6 +729,7 @@
         "index": {
           "description": "Construct partial isomorphism expression for constructor given the constructor name",
           "hierarchy": "Control Isomorphism Partial TH",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.TH",
           "name": "constructorIso",
           "normalized": "Name-\u003eExpQ",
@@ -688,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct partial isomorphism definitions for all \n   constructors of a datatype, given the datatype's name.\n   The names of the partial isomorphisms are constructed by\n   spelling the constructor names with an initial lower-case\n   letter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.TH",
           "name": "defineIsomorphisms",
           "package": "partial-isomorphisms",
@@ -698,6 +757,7 @@
         "index": {
           "description": "Construct partial isomorphism definitions for all constructors of datatype given the datatype name The names of the partial isomorphisms are constructed by spelling the constructor names with an initial lower-case letter",
           "hierarchy": "Control Isomorphism Partial TH",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.TH",
           "name": "defineIsomorphisms",
           "normalized": "Name-\u003eQ[Dec]",
@@ -713,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Unsafe",
           "name": "Unsafe",
           "package": "partial-isomorphisms",
@@ -721,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Unsafe",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Unsafe",
           "name": "Unsafe",
           "package": "partial-isomorphisms",
@@ -734,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Unsafe",
           "name": "Iso",
           "package": "partial-isomorphisms",
@@ -742,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Unsafe",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Unsafe",
           "name": "Iso",
           "package": "partial-isomorphisms",
@@ -755,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial.Unsafe",
           "name": "Iso",
           "package": "partial-isomorphisms",
@@ -764,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial Unsafe",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial.Unsafe",
           "name": "Iso",
           "normalized": "Iso(a-\u003eMaybe b)(b-\u003eMaybe a)",
@@ -779,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:33 UTC 2014",
           "module": "Control.Isomorphism.Partial",
           "name": "Partial",
           "package": "partial-isomorphisms",
@@ -787,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Control Isomorphism Partial",
+          "indexed": "2014-03-11T19:35:33",
           "module": "Control.Isomorphism.Partial",
           "name": "Partial",
           "package": "partial-isomorphisms",

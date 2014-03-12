@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "css-text"
+        "phrase": "css-text",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse CSS with parseNestedBlocks and render it with renderNestedBlock\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Parse",
           "name": "Parse",
           "package": "css-text",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parse CSS with parseNestedBlocks and render it with renderNestedBlock",
           "hierarchy": "Text CSS Parse",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Parse",
           "name": "Parse",
           "package": "css-text",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Parse",
           "name": "NestedBlock",
           "package": "css-text",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parse",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Parse",
           "name": "NestedBlock",
           "package": "css-text",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Parse",
           "name": "LeafBlock",
           "package": "css-text",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parse",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Parse",
           "name": "LeafBlock",
           "package": "css-text",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor example a media query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Parse",
           "name": "NestedBlock",
           "package": "css-text",
@@ -95,6 +102,7 @@
         "index": {
           "description": "for example media query",
           "hierarchy": "Text CSS Parse",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Parse",
           "name": "NestedBlock",
           "normalized": "NestedBlock Text[NestedBlock]",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Parse",
           "name": "attrParser",
           "package": "css-text",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parse",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Parse",
           "name": "attrParser",
           "normalized": "Parser(Text,Text)",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Parse",
           "name": "attrsParser",
           "package": "css-text",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parse",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Parse",
           "name": "attrsParser",
           "normalized": "Parser[(Text,Text)]",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Parse",
           "name": "blockParser",
           "package": "css-text",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parse",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Parse",
           "name": "blockParser",
           "normalized": "Parser(Text,[(Text,Text)])",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Parse",
           "name": "blocksParser",
           "package": "css-text",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parse",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Parse",
           "name": "blocksParser",
           "normalized": "Parser[(Text,[(Text,Text)])]",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Parse",
           "name": "parseAttr",
           "package": "css-text",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parse",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Parse",
           "name": "parseAttr",
           "normalized": "Text-\u003eEither String(Text,Text)",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Parse",
           "name": "parseAttrs",
           "package": "css-text",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parse",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Parse",
           "name": "parseAttrs",
           "normalized": "Text-\u003eEither String[(Text,Text)]",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Parse",
           "name": "parseBlock",
           "package": "css-text",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Parse",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Parse",
           "name": "parseBlock",
           "normalized": "Text-\u003eEither String CssBlock",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe original parser of basic CSS, but throws out media queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Parse",
           "name": "parseBlocks",
           "package": "css-text",
@@ -289,6 +312,7 @@
         "index": {
           "description": "The original parser of basic CSS but throws out media queries",
           "hierarchy": "Text CSS Parse",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Parse",
           "name": "parseBlocks",
           "normalized": "Text-\u003eEither String[CssBlock]",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe preferred parser, will capture media queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Parse",
           "name": "parseNestedBlocks",
           "package": "css-text",
@@ -315,6 +340,7 @@
         "index": {
           "description": "The preferred parser will capture media queries",
           "hierarchy": "Text CSS Parse",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Parse",
           "name": "parseNestedBlocks",
           "normalized": "Text-\u003eEither String[NestedBlock]",
@@ -331,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrender CSS with renderNestedBlocks\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Render",
           "name": "Render",
           "package": "css-text",
@@ -340,6 +367,7 @@
         "index": {
           "description": "Prender CSS with renderNestedBlocks",
           "hierarchy": "Text CSS Render",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Render",
           "name": "Render",
           "package": "css-text",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Render",
           "name": "renderAttr",
           "package": "css-text",
@@ -362,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Render",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Render",
           "name": "renderAttr",
           "normalized": "(Text,Text)-\u003eBuilder",
@@ -377,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Render",
           "name": "renderAttrs",
           "package": "css-text",
@@ -386,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Render",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Render",
           "name": "renderAttrs",
           "normalized": "[(Text,Text)]-\u003eBuilder",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Render",
           "name": "renderBlock",
           "package": "css-text",
@@ -410,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Render",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Render",
           "name": "renderBlock",
           "normalized": "(Text,[(Text,Text)])-\u003eBuilder",
@@ -425,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Render",
           "name": "renderBlocks",
           "package": "css-text",
@@ -434,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Render",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Render",
           "name": "renderBlocks",
           "normalized": "[(Text,[(Text,Text)])]-\u003eBuilder",
@@ -449,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:53 UTC 2014",
           "module": "Text.CSS.Render",
           "name": "renderNestedBlocks",
           "package": "css-text",
@@ -458,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Text CSS Render",
+          "indexed": "2014-03-11T17:44:53",
           "module": "Text.CSS.Render",
           "name": "renderNestedBlocks",
           "normalized": "[NestedBlock]-\u003eBuilder",

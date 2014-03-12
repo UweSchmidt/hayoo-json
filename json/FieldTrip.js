@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FieldTrip"
+        "phrase": "FieldTrip",
+        "type": "phrase"
       },
       "type": "context"
     }

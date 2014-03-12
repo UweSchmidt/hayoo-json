@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HSoundFile"
+        "phrase": "HSoundFile",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "AudioError",
           "package": "HSoundFile",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "AudioError",
           "package": "HSoundFile",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "Monad to support error handling.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "AudioMonad",
           "package": "HSoundFile",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Monad to support error handling",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "AudioMonad",
           "package": "HSoundFile",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "AudioSig",
           "package": "HSoundFile",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "AudioSig",
           "package": "HSoundFile",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "The bit depth, or word length, of audio data.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "BitDepth",
           "package": "HSoundFile",
@@ -93,6 +100,7 @@
         "index": {
           "description": "The bit depth or word length of audio data",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "BitDepth",
           "package": "HSoundFile",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "A position in a data stream, or a length, in frame values.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "FrameCount",
           "package": "HSoundFile",
@@ -116,6 +125,7 @@
         "index": {
           "description": "position in data stream or length in frame values",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "FrameCount",
           "package": "HSoundFile",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "The samplerate value, in samples per second.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "SampleRate",
           "package": "HSoundFile",
@@ -139,6 +150,7 @@
         "index": {
           "description": "The samplerate value in samples per second",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "SampleRate",
           "package": "HSoundFile",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "SndFileInfo",
           "package": "HSoundFile",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "SndFileInfo",
           "package": "HSoundFile",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "SndFileType",
           "package": "HSoundFile",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "SndFileType",
           "package": "HSoundFile",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "A single sample of audio data.  Represented normalized to [-1,1]\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "SoundData",
           "package": "HSoundFile",
@@ -204,6 +221,7 @@
         "index": {
           "description": "single sample of audio data Represented normalized to",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "SoundData",
           "package": "HSoundFile",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "SoundFile",
           "package": "HSoundFile",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "SoundFile",
           "package": "HSoundFile",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "One frame of audio data, i.e. the sample value for each channel in the data.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "SoundFrame",
           "package": "HSoundFile",
@@ -248,6 +269,7 @@
         "index": {
           "description": "One frame of audio data i.e the sample value for each channel in the data",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "SoundFrame",
           "package": "HSoundFile",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "SndFileCls",
           "package": "HSoundFile",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "SndFileCls",
           "package": "HSoundFile",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "appendASig",
           "package": "HSoundFile",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "appendASig",
           "normalized": "AudioSig-\u003eAudioSig-\u003eAudioSig",
@@ -307,6 +333,7 @@
       "document": {
         "description": {
           "description": "The audio data.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "audioData",
           "package": "HSoundFile",
@@ -317,6 +344,7 @@
         "index": {
           "description": "The audio data",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "audioData",
           "normalized": "AudioSig-\u003e[SoundFrame]",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "concatASig",
           "package": "HSoundFile",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "concatASig",
           "normalized": "[AudioSig]-\u003eAudioSig",
@@ -357,6 +387,7 @@
       "document": {
         "description": {
           "description": "convert a SndFileCls instance to the SoundFile type.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "fromSndFileCls",
           "package": "HSoundFile",
@@ -367,6 +398,7 @@
         "index": {
           "description": "convert SndFileCls instance to the SoundFile type",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "fromSndFileCls",
           "normalized": "a-\u003eAudioMonad b SoundFile",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "Get the AudioSig from the SndFileCls instance.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "getAudioData",
           "package": "HSoundFile",
@@ -393,6 +426,7 @@
         "index": {
           "description": "Get the AudioSig from the SndFileCls instance",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "getAudioData",
           "normalized": "a-\u003eAudioMonad b AudioSig",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "Get the length of audio data, in frames.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "getAudioLength",
           "package": "HSoundFile",
@@ -419,6 +454,7 @@
         "index": {
           "description": "Get the length of audio data in frames",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "getAudioLength",
           "normalized": "a-\u003eAudioMonad b FrameCount",
@@ -435,6 +471,7 @@
       "document": {
         "description": {
           "description": "get a \u003ctt\u003e\u003ca\u003eSndFileInfo\u003c/a\u003e\u003c/tt\u003e with data for the current SoundFile\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "getSfInfo",
           "package": "HSoundFile",
@@ -445,6 +482,7 @@
         "index": {
           "description": "get SndFileInfo with data for the current SoundFile",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "getSfInfo",
           "normalized": "a-\u003eAudioMonad b SndFileInfo",
@@ -461,6 +499,7 @@
       "document": {
         "description": {
           "description": "get the type of the underlying instance\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "getSfType",
           "package": "HSoundFile",
@@ -471,6 +510,7 @@
         "index": {
           "description": "get the type of the underlying instance",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "getSfType",
           "normalized": "a-\u003eSndFileType",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "Interleave a [[\u003ctt\u003e\u003ca\u003eSoundData\u003c/a\u003e\u003c/tt\u003e]] to [\u003ctt\u003e\u003ca\u003eSoundFrame\u003c/a\u003e\u003c/tt\u003e], e.g. [[l1,l2,l3], [r1,r2,r3]] -\u003e [[l1,r1], [l2,r2], [l3, r3]]\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "interleave",
           "package": "HSoundFile",
@@ -497,6 +538,7 @@
         "index": {
           "description": "Interleave SoundData to SoundFrame e.g l1 l2 l3 r1 r2 r3 l1 r1 l2 r2 l3 r3",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "interleave",
           "normalized": "[[SoundData]]-\u003e[SoundFrame]",
@@ -512,6 +554,7 @@
       "document": {
         "description": {
           "description": "length of the audio data.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "lengthInFrames",
           "package": "HSoundFile",
@@ -522,6 +565,7 @@
         "index": {
           "description": "length of the audio data",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "lengthInFrames",
           "normalized": "AudioSig-\u003eFrameCount",
@@ -537,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "makeAudioSignal",
           "package": "HSoundFile",
@@ -546,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "makeAudioSignal",
           "normalized": "FrameCount-\u003e[SoundFrame]-\u003eAudioSig",
@@ -562,6 +608,7 @@
       "document": {
         "description": {
           "description": "Convert an interleaved [\u003ctt\u003e\u003ca\u003eSoundData\u003c/a\u003e\u003c/tt\u003e] (e.g., [l1, r1, l2, r2,...]) to [\u003ctt\u003e\u003ca\u003eSoundFrame\u003c/a\u003e\u003c/tt\u003e]\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Base",
           "name": "makeFrames",
           "package": "HSoundFile",
@@ -572,6 +619,7 @@
         "index": {
           "description": "Convert an interleaved SoundData e.g l1 r1 l2 r2 to SoundFrame",
           "hierarchy": "Sound Base",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Base",
           "name": "makeFrames",
           "normalized": "Int-\u003e[SoundData]-\u003e[SoundFrame]",
@@ -587,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Codecs.WaveFile",
           "name": "WaveChunk",
           "package": "HSoundFile",
@@ -595,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Sound Codecs WaveFile",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Codecs.WaveFile",
           "name": "WaveChunk",
           "package": "HSoundFile",
@@ -608,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Codecs.WaveFile",
           "name": "WaveFile",
           "package": "HSoundFile",
@@ -616,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Sound Codecs WaveFile",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Codecs.WaveFile",
           "name": "WaveFile",
           "package": "HSoundFile",
@@ -630,6 +682,7 @@
       "document": {
         "description": {
           "description": "return a WaveFile from a bytestring (including header)\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Codecs.WaveFile",
           "name": "getWaveFile",
           "package": "HSoundFile",
@@ -640,6 +693,7 @@
         "index": {
           "description": "return WaveFile from bytestring including header",
           "hierarchy": "Sound Codecs WaveFile",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Codecs.WaveFile",
           "name": "getWaveFile",
           "normalized": "ByteString-\u003eAudioMonad a WaveFile",
@@ -656,6 +710,7 @@
       "document": {
         "description": {
           "description": "determine (based on header information) if the bytestring is a wave file.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.Codecs.WaveFile",
           "name": "isWaveFile",
           "package": "HSoundFile",
@@ -666,6 +721,7 @@
         "index": {
           "description": "determine based on header information if the bytestring is wave file",
           "hierarchy": "Sound Codecs WaveFile",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.Codecs.WaveFile",
           "name": "isWaveFile",
           "normalized": "ByteString-\u003eBool",
@@ -709,6 +765,7 @@
       "document": {
         "description": {
           "description": "Decode a Lazy ByteString to a SoundFile.  This should be used instead of Data.Binary decode\n to make sure that the correct file format is used.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.File",
           "name": "decodeSoundFileBS",
           "package": "HSoundFile",
@@ -719,6 +776,7 @@
         "index": {
           "description": "Decode Lazy ByteString to SoundFile This should be used instead of Data.Binary decode to make sure that the correct file format is used",
           "hierarchy": "Sound File",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.File",
           "name": "decodeSoundFileBS",
           "normalized": "ByteString-\u003eAudioMonad a SoundFile",
@@ -735,6 +793,7 @@
       "document": {
         "description": {
           "description": "Attempt to decode a soundfile as the specified type.  Return Nothing on failure.\n This function may be faster than using decodeSoundFileBS if the type is known.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.File",
           "name": "decodeSoundFileHinted",
           "package": "HSoundFile",
@@ -745,6 +804,7 @@
         "index": {
           "description": "Attempt to decode soundfile as the specified type Return Nothing on failure This function may be faster than using decodeSoundFileBS if the type is known",
           "hierarchy": "Sound File",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.File",
           "name": "decodeSoundFileHinted",
           "normalized": "SndFileType-\u003eByteString-\u003eAudioMonad a SoundFile",
@@ -761,6 +821,7 @@
       "document": {
         "description": {
           "description": "Find the SndFileType of a ByteString.\n This function assumes that at most the file will match one format.  If more than one format matches,\n the first found will be the format used.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.File",
           "name": "getType",
           "package": "HSoundFile",
@@ -771,6 +832,7 @@
         "index": {
           "description": "Find the SndFileType of ByteString This function assumes that at most the file will match one format If more than one format matches the first found will be the format used",
           "hierarchy": "Sound File",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.File",
           "name": "getType",
           "normalized": "ByteString-\u003eAudioMonad a SndFileType",
@@ -787,6 +849,7 @@
       "document": {
         "description": {
           "description": "Attempt to guess the SndFileType from the extension of the file.\nThis does not check that the file actually is valid data.\n",
+          "indexed": "Tue Mar 11 16:46:35 UTC 2014",
           "module": "Sound.File",
           "name": "getTypeFromName",
           "package": "HSoundFile",
@@ -797,6 +860,7 @@
         "index": {
           "description": "Attempt to guess the SndFileType from the extension of the file This does not check that the file actually is valid data",
           "hierarchy": "Sound File",
+          "indexed": "2014-03-11T16:46:35",
           "module": "Sound.File",
           "name": "getTypeFromName",
           "normalized": "FilePath-\u003eAudioMonad a SndFileType",

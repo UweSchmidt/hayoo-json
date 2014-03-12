@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-sh"
+        "phrase": "language-sh",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Arithmetic",
           "name": "Arithmetic",
           "package": "language-sh",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Arithmetic",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Arithmetic",
           "name": "Arithmetic",
           "package": "language-sh",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Arithmetic",
           "name": "runMathParser",
           "package": "language-sh",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Arithmetic",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Arithmetic",
           "name": "runMathParser",
           "normalized": "SS-\u003eString-\u003eEither String(Int,SI)",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the expansion module.  It provides an interface for a monad\n in which expansions can happen, and then defines the expansions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Expansion",
           "name": "Expansion",
           "package": "language-sh",
@@ -73,6 +78,7 @@
         "index": {
           "description": "This is the expansion module It provides an interface for monad in which expansions can happen and then defines the expansions",
           "hierarchy": "Language Sh Expansion",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Expansion",
           "name": "Expansion",
           "package": "language-sh",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Expansion",
           "name": "ExpansionFunctions",
           "package": "language-sh",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Expansion",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Expansion",
           "name": "ExpansionFunctions",
           "package": "language-sh",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Expansion",
           "name": "ExpansionFunctions",
           "package": "language-sh",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Expansion",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Expansion",
           "name": "ExpansionFunctions",
           "package": "language-sh",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Expansion",
           "name": "commandSub",
           "package": "language-sh",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Expansion",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Expansion",
           "name": "commandSub",
           "normalized": "[Command]-\u003ea String",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe have one main sticking point here... in the case of \u003ccode\u003eA=*\u003c/code\u003e, we want\n to use expandWord, and do the glob expansion.  In the case of \u003ccode\u003e\u003e*\u003c/code\u003e, we\n want to \u003cem\u003etry\u003c/em\u003e the glob expansion and then given an error in the case\n that we get multiple hits.  We could make one more expansion function?\n (expandNoAmbiguousGlob?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Expansion",
           "name": "expand",
           "package": "language-sh",
@@ -164,6 +177,7 @@
         "index": {
           "description": "We have one main sticking point here in the case of we want to use expandWord and do the glob expansion In the case of we want to try the glob expansion and then given an error in the case that we get multiple hits We could make one more expansion function expandNoAmbiguousGlob",
           "hierarchy": "Language Sh Expansion",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Expansion",
           "name": "expand",
           "normalized": "ExpansionFunctions a-\u003e[Word]-\u003ea[String]",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Expansion",
           "name": "expandGlob",
           "package": "language-sh",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Expansion",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Expansion",
           "name": "expandGlob",
           "normalized": "Word-\u003ea[FilePath]",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a version of expandWord that doesn't deal with globs or remove\n quotes!  It's currently only used in case statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Expansion",
           "name": "expandPattern",
           "package": "language-sh",
@@ -213,6 +230,7 @@
         "index": {
           "description": "This is version of expandWord that doesn deal with globs or remove quotes It currently only used in case statements",
           "hierarchy": "Language Sh Expansion",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Expansion",
           "name": "expandPattern",
           "normalized": "ExpansionFunctions a-\u003eWord-\u003ea Word",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest: A=1  * --\u003e A=1 ... -\u003e so it's getting expand'ed/joined, and not\n expandWord'ed.  For now, we'll leave globs out of this function, but it\n seems like maybe the only use is in redirects, so then we can make this\n the one that doesn't allow ambiguity.  Also, we know that glob expansion\n comes after field splitting... (B=  ; A=2$B*)\n Tricky: A=\u003ca\u003e3$B*\u003c/a\u003e; echo $A --\u003e looks silly, but echo \u003ca\u003e$A\u003c/a\u003e...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Expansion",
           "name": "expandWord",
           "package": "language-sh",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Test so it getting expand ed joined and not expandWord ed For now we ll leave globs out of this function but it seems like maybe the only use is in redirects so then we can make this the one that doesn allow ambiguity Also we know that glob expansion comes after field splitting Tricky echo looks silly but echo",
           "hierarchy": "Language Sh Expansion",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Expansion",
           "name": "expandWord",
           "normalized": "ExpansionFunctions a-\u003eWord-\u003ea String",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Expansion",
           "name": "getAllEnv",
           "package": "language-sh",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Expansion",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Expansion",
           "name": "getAllEnv",
           "normalized": "a[(String,String)]",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Expansion",
           "name": "homeDir",
           "package": "language-sh",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Expansion",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Expansion",
           "name": "homeDir",
           "normalized": "String-\u003ea(Maybe String)",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a default function that basically treats globs as literals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Expansion",
           "name": "noGlobExpansion",
           "package": "language-sh",
@@ -313,6 +338,7 @@
         "index": {
           "description": "This is default function that basically treats globs as literals",
           "hierarchy": "Language Sh Expansion",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Expansion",
           "name": "noGlobExpansion",
           "normalized": "Word-\u003ea[String]",
@@ -328,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Expansion",
           "name": "positionals",
           "package": "language-sh",
@@ -337,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Expansion",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Expansion",
           "name": "positionals",
           "normalized": "a[String]",
@@ -351,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Expansion",
           "name": "setEnv",
           "package": "language-sh",
@@ -360,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Expansion",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Expansion",
           "name": "setEnv",
           "normalized": "String-\u003eString-\u003ea()",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Glob",
           "name": "Glob",
           "package": "language-sh",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Glob",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Glob",
           "name": "Glob",
           "package": "language-sh",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Glob",
           "name": "expandGlob",
           "package": "language-sh",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Glob",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Glob",
           "name": "expandGlob",
           "normalized": "Word-\u003ea[FilePath]",
@@ -420,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Glob",
           "name": "matchPattern",
           "package": "language-sh",
@@ -429,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Glob",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Glob",
           "name": "matchPattern",
           "normalized": "Word-\u003eString-\u003eBool",
@@ -444,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Glob",
           "name": "removePrefix",
           "package": "language-sh",
@@ -452,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Glob",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Glob",
           "name": "removePrefix",
           "normalized": "Bool-\u003eWord-\u003eString-\u003eString",
@@ -467,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Glob",
           "name": "removeSuffix",
           "package": "language-sh",
@@ -475,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Glob",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Glob",
           "name": "removeSuffix",
           "normalized": "Bool-\u003eWord-\u003eString-\u003eString",
@@ -490,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "Map",
           "package": "language-sh",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "Map",
           "package": "language-sh",
@@ -511,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "ExpressionMapper",
           "package": "language-sh",
@@ -519,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "ExpressionMapper",
           "package": "language-sh",
@@ -533,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe idea here is to prevent duplicating code needlessly.\n We could go even more extreme and make a third parameter, but\n then we have WAY too many instances, and they all depend on\n every other one anyway...\n class Applicative a =\u003e ExpressionMapper a f t where\n   mapSh :: f -\u003e t -\u003e a t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "ExpressionMapperM",
           "package": "language-sh",
@@ -542,6 +587,7 @@
         "index": {
           "description": "The idea here is to prevent duplicating code needlessly We could go even more extreme and make third parameter but then we have WAY too many instances and they all depend on every other one anyway class Applicative ExpressionMapper where mapSh",
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "ExpressionMapperM",
           "package": "language-sh",
@@ -555,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapAssignment",
           "package": "language-sh",
@@ -564,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapAssignment",
           "normalized": "a-\u003eAssignment-\u003eAssignment",
@@ -579,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapAssignmentM",
           "package": "language-sh",
@@ -588,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapAssignmentM",
           "normalized": "a-\u003eAssignment-\u003eb Assignment",
@@ -603,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapCommand",
           "package": "language-sh",
@@ -612,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapCommand",
           "normalized": "a-\u003eCommand-\u003eCommand",
@@ -627,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapCommandM",
           "package": "language-sh",
@@ -636,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapCommandM",
           "normalized": "a-\u003eCommand-\u003eb Command",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapCommands",
           "package": "language-sh",
@@ -660,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapCommands",
           "normalized": "a-\u003e[Command]-\u003e[Command]",
@@ -675,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapCommandsM",
           "package": "language-sh",
@@ -684,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapCommandsM",
           "normalized": "a-\u003e[Command]-\u003eb[Command]",
@@ -699,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapCompound",
           "package": "language-sh",
@@ -708,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapCompound",
           "normalized": "a-\u003eCompoundStatement-\u003eCompoundStatement",
@@ -723,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapCompoundM",
           "package": "language-sh",
@@ -732,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapCompoundM",
           "normalized": "a-\u003eCompoundStatement-\u003eb CompoundStatement",
@@ -747,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapExpansion",
           "package": "language-sh",
@@ -756,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapExpansion",
           "normalized": "a-\u003eExpansion-\u003eExpansion",
@@ -771,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapExpansionM",
           "package": "language-sh",
@@ -780,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapExpansionM",
           "normalized": "a-\u003eExpansion-\u003eb Expansion",
@@ -795,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapLexeme",
           "package": "language-sh",
@@ -804,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapLexeme",
           "normalized": "a-\u003eLexeme-\u003eLexeme",
@@ -819,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapLexemeM",
           "package": "language-sh",
@@ -828,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapLexemeM",
           "normalized": "a-\u003eLexeme-\u003eb Lexeme",
@@ -843,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapLexemes",
           "package": "language-sh",
@@ -852,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapLexemes",
           "normalized": "a-\u003eLexeme-\u003e[Lexeme]",
@@ -867,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapLexemesM",
           "package": "language-sh",
@@ -876,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapLexemesM",
           "normalized": "a-\u003eLexeme-\u003eb[Lexeme]",
@@ -891,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapList",
           "package": "language-sh",
@@ -900,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapList",
           "normalized": "a-\u003eAndOrList-\u003eAndOrList",
@@ -915,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapListM",
           "package": "language-sh",
@@ -924,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapListM",
           "normalized": "a-\u003eAndOrList-\u003eb AndOrList",
@@ -939,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapPipeline",
           "package": "language-sh",
@@ -948,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapPipeline",
           "normalized": "a-\u003ePipeline-\u003ePipeline",
@@ -963,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapPipelineM",
           "package": "language-sh",
@@ -972,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapPipelineM",
           "normalized": "a-\u003ePipeline-\u003eb Pipeline",
@@ -987,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapRedir",
           "package": "language-sh",
@@ -996,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapRedir",
           "normalized": "a-\u003eRedir-\u003eRedir",
@@ -1011,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapRedirM",
           "package": "language-sh",
@@ -1020,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapRedirM",
           "normalized": "a-\u003eRedir-\u003eb Redir",
@@ -1035,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapStatement",
           "package": "language-sh",
@@ -1044,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapStatement",
           "normalized": "a-\u003eStatement-\u003eStatement",
@@ -1059,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapStatementM",
           "package": "language-sh",
@@ -1068,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapStatementM",
           "normalized": "a-\u003eStatement-\u003eb Statement",
@@ -1083,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapTerm",
           "package": "language-sh",
@@ -1092,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapTerm",
           "normalized": "a-\u003eTerm-\u003eTerm",
@@ -1107,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapTermM",
           "package": "language-sh",
@@ -1116,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapTermM",
           "normalized": "a-\u003eTerm-\u003eb Term",
@@ -1131,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapTerms",
           "package": "language-sh",
@@ -1140,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapTerms",
           "normalized": "a-\u003eTerm-\u003e[Term]",
@@ -1155,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapTermsM",
           "package": "language-sh",
@@ -1164,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapTermsM",
           "normalized": "a-\u003eTerm-\u003eb[Term]",
@@ -1179,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapWord",
           "package": "language-sh",
@@ -1188,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapWord",
           "normalized": "a-\u003eWord-\u003eWord",
@@ -1203,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "defaultMapWordM",
           "package": "language-sh",
@@ -1212,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "defaultMapWordM",
           "normalized": "a-\u003eWord-\u003eb Word",
@@ -1227,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapAssignment",
           "package": "language-sh",
@@ -1236,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapAssignment",
           "normalized": "a-\u003eAssignment-\u003eAssignment",
@@ -1251,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapAssignmentM",
           "package": "language-sh",
@@ -1260,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapAssignmentM",
           "normalized": "a-\u003eAssignment-\u003eb Assignment",
@@ -1275,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapCommand",
           "package": "language-sh",
@@ -1284,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapCommand",
           "normalized": "a-\u003eCommand-\u003eCommand",
@@ -1299,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapCommandM",
           "package": "language-sh",
@@ -1308,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapCommandM",
           "normalized": "a-\u003eCommand-\u003eb Command",
@@ -1323,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapCommands",
           "package": "language-sh",
@@ -1332,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapCommands",
           "normalized": "a-\u003e[Command]-\u003e[Command]",
@@ -1347,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapCommandsM",
           "package": "language-sh",
@@ -1356,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapCommandsM",
           "normalized": "a-\u003e[Command]-\u003eb[Command]",
@@ -1371,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapCompound",
           "package": "language-sh",
@@ -1380,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapCompound",
           "normalized": "a-\u003eCompoundStatement-\u003eCompoundStatement",
@@ -1395,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapCompoundM",
           "package": "language-sh",
@@ -1404,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapCompoundM",
           "normalized": "a-\u003eCompoundStatement-\u003eb CompoundStatement",
@@ -1419,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapExpansion",
           "package": "language-sh",
@@ -1428,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapExpansion",
           "normalized": "a-\u003eExpansion-\u003eExpansion",
@@ -1443,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapExpansionM",
           "package": "language-sh",
@@ -1452,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapExpansionM",
           "normalized": "a-\u003eExpansion-\u003eb Expansion",
@@ -1467,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapLexeme",
           "package": "language-sh",
@@ -1476,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapLexeme",
           "normalized": "a-\u003eLexeme-\u003eLexeme",
@@ -1491,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapLexemeM",
           "package": "language-sh",
@@ -1500,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapLexemeM",
           "normalized": "a-\u003eLexeme-\u003eb Lexeme",
@@ -1515,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapLexemes",
           "package": "language-sh",
@@ -1524,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapLexemes",
           "normalized": "a-\u003eLexeme-\u003e[Lexeme]",
@@ -1539,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapLexemesM",
           "package": "language-sh",
@@ -1548,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapLexemesM",
           "normalized": "a-\u003eLexeme-\u003eb[Lexeme]",
@@ -1563,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapList",
           "package": "language-sh",
@@ -1572,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapList",
           "normalized": "a-\u003eAndOrList-\u003eAndOrList",
@@ -1587,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapListM",
           "package": "language-sh",
@@ -1596,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapListM",
           "normalized": "a-\u003eAndOrList-\u003eb AndOrList",
@@ -1611,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapPipeline",
           "package": "language-sh",
@@ -1620,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapPipeline",
           "normalized": "a-\u003ePipeline-\u003ePipeline",
@@ -1635,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapPipelineM",
           "package": "language-sh",
@@ -1644,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapPipelineM",
           "normalized": "a-\u003ePipeline-\u003eb Pipeline",
@@ -1659,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapRedir",
           "package": "language-sh",
@@ -1668,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapRedir",
           "normalized": "a-\u003eRedir-\u003eRedir",
@@ -1683,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapRedirM",
           "package": "language-sh",
@@ -1692,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapRedirM",
           "normalized": "a-\u003eRedir-\u003eb Redir",
@@ -1707,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapStatement",
           "package": "language-sh",
@@ -1716,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapStatement",
           "normalized": "a-\u003eStatement-\u003eStatement",
@@ -1731,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapStatementM",
           "package": "language-sh",
@@ -1740,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapStatementM",
           "normalized": "a-\u003eStatement-\u003eb Statement",
@@ -1755,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapTerm",
           "package": "language-sh",
@@ -1764,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapTerm",
           "normalized": "a-\u003eTerm-\u003eTerm",
@@ -1779,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapTermM",
           "package": "language-sh",
@@ -1788,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapTermM",
           "normalized": "a-\u003eTerm-\u003eb Term",
@@ -1803,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapTerms",
           "package": "language-sh",
@@ -1812,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapTerms",
           "normalized": "a-\u003eTerm-\u003e[Term]",
@@ -1827,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapTermsM",
           "package": "language-sh",
@@ -1836,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapTermsM",
           "normalized": "a-\u003eTerm-\u003eb[Term]",
@@ -1851,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapWord",
           "package": "language-sh",
@@ -1860,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapWord",
           "normalized": "a-\u003eWord-\u003eWord",
@@ -1875,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Map",
           "name": "mapWordM",
           "package": "language-sh",
@@ -1884,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Map",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Map",
           "name": "mapWordM",
           "normalized": "a-\u003eWord-\u003eb Word",
@@ -1900,6 +2058,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHere we use the stuff defined in the AST and Parsec modules\n to parse things.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Parser",
           "name": "Parser",
           "package": "language-sh",
@@ -1909,6 +2068,7 @@
         "index": {
           "description": "Here we use the stuff defined in the AST and Parsec modules to parse things",
           "hierarchy": "Language Sh Parser",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Parser",
           "name": "Parser",
           "package": "language-sh",
@@ -1922,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Parser",
           "name": "hereDocsComplete",
           "package": "language-sh",
@@ -1931,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Parser",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Parser",
           "name": "hereDocsComplete",
           "normalized": "[Command]-\u003eBool",
@@ -1947,6 +2109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the main export here.  We take a list of aliases for the\n environment and a \u003ccode\u003eString\u003c/code\u003e to parse.  The return type is \u003ccode\u003eRight\n [Command]\u003c/code\u003e if parsing succeeded and \u003ccode\u003eLeft (String,Bool)\u003c/code\u003e upon\n failure.  The \u003ccode\u003eBool\u003c/code\u003e is \u003ccode\u003eTrue\u003c/code\u003e when the error was fatal/unrecoverable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Parser",
           "name": "parse",
           "package": "language-sh",
@@ -1956,6 +2119,7 @@
         "index": {
           "description": "This is the main export here We take list of aliases for the environment and String to parse The return type is Right Command if parsing succeeded and Left String Bool upon failure The Bool is True when the error was fatal unrecoverable",
           "hierarchy": "Language Sh Parser",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Parser",
           "name": "parse",
           "normalized": "[(String,String)]-\u003eString-\u003eEither(String,Bool)[Command]",
@@ -1970,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Pretty",
           "name": "Pretty",
           "package": "language-sh",
@@ -1978,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Pretty",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Pretty",
           "name": "Pretty",
           "package": "language-sh",
@@ -1992,6 +2158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the pretty-printing class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Pretty",
           "name": "Pretty",
           "package": "language-sh",
@@ -2001,6 +2168,7 @@
         "index": {
           "description": "This is the pretty-printing class",
           "hierarchy": "Language Sh Pretty",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Pretty",
           "name": "Pretty",
           "package": "language-sh",
@@ -2014,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Pretty",
           "name": "compacted",
           "package": "language-sh",
@@ -2023,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Pretty",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Pretty",
           "name": "compacted",
           "normalized": "a-\u003ePrettyP String",
@@ -2037,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Pretty",
           "name": "indented",
           "package": "language-sh",
@@ -2046,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Pretty",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Pretty",
           "name": "indented",
           "normalized": "Int-\u003ea-\u003ePrettyP String",
@@ -2060,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Pretty",
           "name": "pretty",
           "package": "language-sh",
@@ -2069,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Pretty",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Pretty",
           "name": "pretty",
           "package": "language-sh",
@@ -2082,6 +2256,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHere we define the \u003cem\u003ecomplete\u003c/em\u003e abstract syntax tree for\n simple and compound statements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Syntax",
           "package": "language-sh",
@@ -2091,6 +2266,7 @@
         "index": {
           "description": "Here we define the complete abstract syntax tree for simple and compound statements",
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Syntax",
           "package": "language-sh",
@@ -2104,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "AndOrList",
           "package": "language-sh",
@@ -2112,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "AndOrList",
           "package": "language-sh",
@@ -2125,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Assignment",
           "package": "language-sh",
@@ -2133,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Assignment",
           "package": "language-sh",
@@ -2146,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Command",
           "package": "language-sh",
@@ -2154,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Command",
           "package": "language-sh",
@@ -2167,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "CompoundStatement",
           "package": "language-sh",
@@ -2175,6 +2358,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "CompoundStatement",
           "package": "language-sh",
@@ -2189,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expansion.  The first three are all variable expansions.  The\n \u003ccode\u003e\u003ca\u003eModifiedExpansion\u003c/a\u003e\u003c/code\u003e in particular also keeps track of which operation\n it is to perform.  The \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e can be any of \u003ccode\u003e\u003ca\u003e-+=?\u003c/a\u003e\u003c/code\u003e and the \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\n says whether it was paired with a \u003ccode\u003e\u003ccode\u003e:\u003c/code\u003e\u003c/code\u003e in the case of the first four\n or doubled in the case of the latter two.  This isn't a very good\n data structure, but I hesitate to add 12 more algebraic types, one for\n each type of expansion.  It would be elegant to use a function\n parameter here, but then we lose our data-ness and it makes it difficult\n to be \u003ccode\u003eShow\u003c/code\u003e.  We could use a data class that has functions and is\n also \u003ccode\u003eShow\u003c/code\u003e and can be pretty-printed, and this would allow arbitrary\n generalizability, but do we really want this?  It needs to be parsed\n anyway.  The other question is the \u003ccode\u003ebash\u003c/code\u003e extensions: do we parse for\n \u003ccode\u003e/\u003c/code\u003e or should it be an error?  Is there a way to prevent it optionally?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Expansion",
           "package": "language-sh",
@@ -2198,6 +2383,7 @@
         "index": {
           "description": "An expansion The first three are all variable expansions The ModifiedExpansion in particular also keeps track of which operation it is to perform The Char can be any of and the Bool says whether it was paired with in the case of the first four or doubled in the case of the latter two This isn very good data structure but hesitate to add more algebraic types one for each type of expansion It would be elegant to use function parameter here but then we lose our data-ness and it makes it difficult to be Show We could use data class that has functions and is also Show and can be pretty-printed and this would allow arbitrary generalizability but do we really want this It needs to be parsed anyway The other question is the bash extensions do we parse for or should it be an error Is there way to prevent it optionally",
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Expansion",
           "package": "language-sh",
@@ -2211,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Lexeme",
           "package": "language-sh",
@@ -2219,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Lexeme",
           "package": "language-sh",
@@ -2232,6 +2420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Pipeline",
           "package": "language-sh",
@@ -2240,6 +2429,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Pipeline",
           "package": "language-sh",
@@ -2253,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Redir",
           "package": "language-sh",
@@ -2261,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Redir",
           "package": "language-sh",
@@ -2274,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Statement",
           "package": "language-sh",
@@ -2282,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Statement",
           "package": "language-sh",
@@ -2295,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Term",
           "package": "language-sh",
@@ -2303,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Term",
           "package": "language-sh",
@@ -2316,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Word",
           "package": "language-sh",
@@ -2324,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Word",
           "package": "language-sh",
@@ -2337,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": ":||:",
           "package": "language-sh",
@@ -2346,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": ":||:",
           "package": "language-sh",
@@ -2358,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": ":&&:",
           "package": "language-sh",
@@ -2367,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": ":&&:",
           "package": "language-sh",
@@ -2379,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": ":\u003c",
           "package": "language-sh",
@@ -2388,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": ":\u003c",
           "package": "language-sh",
@@ -2400,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": ":\u003c&",
           "package": "language-sh",
@@ -2409,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": ":\u003c&",
           "package": "language-sh",
@@ -2421,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": ":\u003c\u003c",
           "package": "language-sh",
@@ -2430,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": ":\u003c\u003c",
           "package": "language-sh",
@@ -2442,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": ":\u003c\u003c-",
           "package": "language-sh",
@@ -2451,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": ":\u003c\u003c-",
           "package": "language-sh",
@@ -2463,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": ":\u003c\u003e",
           "package": "language-sh",
@@ -2472,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": ":\u003c\u003e",
           "package": "language-sh",
@@ -2484,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": ":=",
           "package": "language-sh",
@@ -2493,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": ":=",
           "package": "language-sh",
@@ -2505,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": ":\u003e",
           "package": "language-sh",
@@ -2514,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": ":\u003e",
           "package": "language-sh",
@@ -2526,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": ":\u003e|",
           "package": "language-sh",
@@ -2535,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": ":\u003e|",
           "package": "language-sh",
@@ -2547,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": ":\u003e&",
           "package": "language-sh",
@@ -2556,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": ":\u003e&",
           "package": "language-sh",
@@ -2568,6 +2788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": ":\u003e\u003e",
           "package": "language-sh",
@@ -2577,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": ":\u003e\u003e",
           "package": "language-sh",
@@ -2589,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Arithmetic",
           "package": "language-sh",
@@ -2598,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Arithmetic",
           "package": "language-sh",
@@ -2611,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Asynchronous",
           "package": "language-sh",
@@ -2620,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Asynchronous",
           "package": "language-sh",
@@ -2633,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "BangPipeline",
           "package": "language-sh",
@@ -2642,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "BangPipeline",
           "normalized": "BangPipeline[Statement]",
@@ -2657,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "BraceGroup",
           "package": "language-sh",
@@ -2666,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "BraceGroup",
           "normalized": "BraceGroup[Command]",
@@ -2681,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Case",
           "package": "language-sh",
@@ -2690,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Case",
           "normalized": "Case Word[([Word],[Command])]",
@@ -2705,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "CommandSub",
           "package": "language-sh",
@@ -2714,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "CommandSub",
           "normalized": "CommandSub[Command]",
@@ -2729,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Compound",
           "package": "language-sh",
@@ -2738,6 +2973,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Compound",
           "normalized": "Compound CompoundStatement[Redir]",
@@ -2753,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Expand",
           "package": "language-sh",
@@ -2762,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Expand",
           "package": "language-sh",
@@ -2775,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "For",
           "package": "language-sh",
@@ -2784,6 +3023,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "For",
           "normalized": "For String[Word][Command]",
@@ -2799,6 +3039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "FunctionDefinition",
           "package": "language-sh",
@@ -2808,6 +3049,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "FunctionDefinition",
           "normalized": "FunctionDefinition String CompoundStatement[Redir]",
@@ -2824,6 +3066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efilled in version...?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Heredoc",
           "package": "language-sh",
@@ -2834,6 +3077,7 @@
         "index": {
           "description": "filled in version",
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Heredoc",
           "package": "language-sh",
@@ -2847,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "If",
           "package": "language-sh",
@@ -2856,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "If",
           "normalized": "If[Command][Command][Command]",
@@ -2871,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "LengthExpansion",
           "package": "language-sh",
@@ -2880,6 +3127,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "LengthExpansion",
           "package": "language-sh",
@@ -2893,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Literal",
           "package": "language-sh",
@@ -2902,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Literal",
           "package": "language-sh",
@@ -2915,6 +3165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "ModifiedExpansion",
           "package": "language-sh",
@@ -2924,6 +3175,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "ModifiedExpansion",
           "package": "language-sh",
@@ -2937,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "OrderedStatement",
           "package": "language-sh",
@@ -2946,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "OrderedStatement",
           "normalized": "OrderedStatement[Term]",
@@ -2961,6 +3215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Pipeline",
           "package": "language-sh",
@@ -2970,6 +3225,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Pipeline",
           "normalized": "Pipeline[Statement]",
@@ -2985,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Quote",
           "package": "language-sh",
@@ -2994,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Quote",
           "package": "language-sh",
@@ -3007,6 +3265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Quoted",
           "package": "language-sh",
@@ -3016,6 +3275,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Quoted",
           "package": "language-sh",
@@ -3029,6 +3289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "SimpleExpansion",
           "package": "language-sh",
@@ -3038,6 +3299,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "SimpleExpansion",
           "package": "language-sh",
@@ -3051,6 +3313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Singleton",
           "package": "language-sh",
@@ -3060,6 +3323,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Singleton",
           "package": "language-sh",
@@ -3073,6 +3337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "SplitField",
           "package": "language-sh",
@@ -3082,6 +3347,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "SplitField",
           "package": "language-sh",
@@ -3095,6 +3361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Statement",
           "package": "language-sh",
@@ -3104,6 +3371,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Statement",
           "normalized": "Statement[Word][Redir][Assignment]",
@@ -3119,6 +3387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Subshell",
           "package": "language-sh",
@@ -3128,6 +3397,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Subshell",
           "normalized": "Subshell[Command]",
@@ -3143,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Synchronous",
           "package": "language-sh",
@@ -3152,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Synchronous",
           "package": "language-sh",
@@ -3165,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "TAssignment",
           "package": "language-sh",
@@ -3174,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "TAssignment",
           "package": "language-sh",
@@ -3187,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "TRedir",
           "package": "language-sh",
@@ -3196,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "TRedir",
           "package": "language-sh",
@@ -3209,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "TWord",
           "package": "language-sh",
@@ -3218,6 +3495,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "TWord",
           "package": "language-sh",
@@ -3231,6 +3509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "Until",
           "package": "language-sh",
@@ -3240,6 +3519,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "Until",
           "normalized": "Until[Command][Command]",
@@ -3255,6 +3535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:07 UTC 2014",
           "module": "Language.Sh.Syntax",
           "name": "While",
           "package": "language-sh",
@@ -3264,6 +3545,7 @@
         },
         "index": {
           "hierarchy": "Language Sh Syntax",
+          "indexed": "2014-03-11T19:06:07",
           "module": "Language.Sh.Syntax",
           "name": "While",
           "normalized": "While[Command][Command]",

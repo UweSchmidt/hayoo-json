@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ohloh-hs"
+        "phrase": "ohloh-hs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referenceaccount/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "Account",
           "package": "ohloh-hs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referenceaccount",
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "Account",
           "package": "ohloh-hs",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAccount\u003c/a\u003e\u003c/code\u003e represents an Ohloh member.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "Account",
           "package": "ohloh-hs",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Account represents an Ohloh member",
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "Account",
           "package": "ohloh-hs",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "Account",
           "package": "ohloh-hs",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "Account",
           "package": "ohloh-hs",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accAbout",
           "package": "ohloh-hs",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accAbout",
           "package": "ohloh-hs",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accAvatarUrl",
           "package": "ohloh-hs",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accAvatarUrl",
           "package": "ohloh-hs",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accCountryCode",
           "package": "ohloh-hs",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accCountryCode",
           "package": "ohloh-hs",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accCreatedAt",
           "package": "ohloh-hs",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accCreatedAt",
           "package": "ohloh-hs",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accEmailSha1",
           "package": "ohloh-hs",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accEmailSha1",
           "package": "ohloh-hs",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accHomepageUrl",
           "package": "ohloh-hs",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accHomepageUrl",
           "package": "ohloh-hs",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accHtmlUrl",
           "package": "ohloh-hs",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accHtmlUrl",
           "package": "ohloh-hs",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accId",
           "package": "ohloh-hs",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accId",
           "package": "ohloh-hs",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accKudoScore",
           "package": "ohloh-hs",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accKudoScore",
           "package": "ohloh-hs",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accLatitude",
           "package": "ohloh-hs",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accLatitude",
           "package": "ohloh-hs",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accLocation",
           "package": "ohloh-hs",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accLocation",
           "package": "ohloh-hs",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accLogin",
           "package": "ohloh-hs",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accLogin",
           "package": "ohloh-hs",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accLongitude",
           "package": "ohloh-hs",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accLongitude",
           "package": "ohloh-hs",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accName",
           "package": "ohloh-hs",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accName",
           "package": "ohloh-hs",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accPostsCount",
           "package": "ohloh-hs",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accPostsCount",
           "package": "ohloh-hs",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accTwitterAccount",
           "package": "ohloh-hs",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accTwitterAccount",
           "package": "ohloh-hs",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accUpdatedAt",
           "package": "ohloh-hs",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accUpdatedAt",
           "package": "ohloh-hs",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "accUrl",
           "package": "ohloh-hs",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "accUrl",
           "package": "ohloh-hs",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Account",
           "name": "xpAccount",
           "package": "ohloh-hs",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Account",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Account",
           "name": "xpAccount",
           "package": "ohloh-hs",
@@ -505,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referenceactivity_fact/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ActivityFact",
           "name": "ActivityFact",
           "package": "ohloh-hs",
@@ -514,6 +559,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referenceactivity fact",
           "hierarchy": "Web Ohloh ActivityFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ActivityFact",
           "name": "ActivityFact",
           "package": "ohloh-hs",
@@ -528,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eActivityFact\u003c/a\u003e\u003c/code\u003e is a pre-computed collection of statistics about\n   \u003ccode\u003e\u003ca\u003eProject\u003c/a\u003e\u003c/code\u003e source code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ActivityFact",
           "name": "ActivityFact",
           "package": "ohloh-hs",
@@ -537,6 +584,7 @@
         "index": {
           "description": "ActivityFact is pre-computed collection of statistics about Project source code",
           "hierarchy": "Web Ohloh ActivityFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ActivityFact",
           "name": "ActivityFact",
           "package": "ohloh-hs",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ActivityFact",
           "name": "ActivityFact",
           "package": "ohloh-hs",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ActivityFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ActivityFact",
           "name": "ActivityFact",
           "package": "ohloh-hs",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afBlanksAdded",
           "package": "ohloh-hs",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ActivityFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afBlanksAdded",
           "package": "ohloh-hs",
@@ -594,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afBlanksRemoved",
           "package": "ohloh-hs",
@@ -603,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ActivityFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afBlanksRemoved",
           "package": "ohloh-hs",
@@ -616,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afCodeAdded",
           "package": "ohloh-hs",
@@ -625,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ActivityFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afCodeAdded",
           "package": "ohloh-hs",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afCodeRemoved",
           "package": "ohloh-hs",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ActivityFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afCodeRemoved",
           "package": "ohloh-hs",
@@ -660,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afCommentsAdded",
           "package": "ohloh-hs",
@@ -669,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ActivityFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afCommentsAdded",
           "package": "ohloh-hs",
@@ -682,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afCommentsRemoved",
           "package": "ohloh-hs",
@@ -691,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ActivityFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afCommentsRemoved",
           "package": "ohloh-hs",
@@ -704,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afCommits",
           "package": "ohloh-hs",
@@ -713,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ActivityFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afCommits",
           "package": "ohloh-hs",
@@ -726,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afContributors",
           "package": "ohloh-hs",
@@ -735,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ActivityFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afContributors",
           "package": "ohloh-hs",
@@ -748,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afMonth",
           "package": "ohloh-hs",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ActivityFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ActivityFact",
           "name": "afMonth",
           "package": "ohloh-hs",
@@ -770,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ActivityFact",
           "name": "xpActivityFact",
           "package": "ohloh-hs",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ActivityFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ActivityFact",
           "name": "xpActivityFact",
           "package": "ohloh-hs",
@@ -793,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referenceanalysis/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Analysis",
           "name": "Analysis",
           "package": "ohloh-hs",
@@ -802,6 +873,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referenceanalysis",
           "hierarchy": "Web Ohloh Analysis",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Analysis",
           "name": "Analysis",
           "package": "ohloh-hs",
@@ -816,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAnalysis\u003c/a\u003e\u003c/code\u003e is a pre-computed collection of statistics about\n   \u003ccode\u003e\u003ca\u003eProject\u003c/a\u003e\u003c/code\u003e source code and contributors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Analysis",
           "name": "Analysis",
           "package": "ohloh-hs",
@@ -825,6 +898,7 @@
         "index": {
           "description": "Analysis is pre-computed collection of statistics about Project source code and contributors",
           "hierarchy": "Web Ohloh Analysis",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Analysis",
           "name": "Analysis",
           "package": "ohloh-hs",
@@ -838,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Analysis",
           "name": "Analysis",
           "package": "ohloh-hs",
@@ -847,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Analysis",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Analysis",
           "name": "Analysis",
           "package": "ohloh-hs",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Analysis",
           "name": "anaId",
           "package": "ohloh-hs",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Analysis",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Analysis",
           "name": "anaId",
           "package": "ohloh-hs",
@@ -882,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Analysis",
           "name": "anaLoggedAt",
           "package": "ohloh-hs",
@@ -891,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Analysis",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Analysis",
           "name": "anaLoggedAt",
           "package": "ohloh-hs",
@@ -904,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Analysis",
           "name": "anaMainLanguageId",
           "package": "ohloh-hs",
@@ -913,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Analysis",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Analysis",
           "name": "anaMainLanguageId",
           "package": "ohloh-hs",
@@ -926,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Analysis",
           "name": "anaMainLanguageName",
           "package": "ohloh-hs",
@@ -935,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Analysis",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Analysis",
           "name": "anaMainLanguageName",
           "package": "ohloh-hs",
@@ -948,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Analysis",
           "name": "anaMaxMonth",
           "package": "ohloh-hs",
@@ -957,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Analysis",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Analysis",
           "name": "anaMaxMonth",
           "package": "ohloh-hs",
@@ -970,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Analysis",
           "name": "anaMinMonth",
           "package": "ohloh-hs",
@@ -979,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Analysis",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Analysis",
           "name": "anaMinMonth",
           "package": "ohloh-hs",
@@ -992,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Analysis",
           "name": "anaProjectId",
           "package": "ohloh-hs",
@@ -1001,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Analysis",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Analysis",
           "name": "anaProjectId",
           "package": "ohloh-hs",
@@ -1014,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Analysis",
           "name": "anaTotalCodeLines",
           "package": "ohloh-hs",
@@ -1023,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Analysis",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Analysis",
           "name": "anaTotalCodeLines",
           "package": "ohloh-hs",
@@ -1036,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Analysis",
           "name": "anaTwelveMonthContributorCount",
           "package": "ohloh-hs",
@@ -1045,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Analysis",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Analysis",
           "name": "anaTwelveMonthContributorCount",
           "package": "ohloh-hs",
@@ -1058,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Analysis",
           "name": "anaUpdatedAt",
           "package": "ohloh-hs",
@@ -1067,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Analysis",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Analysis",
           "name": "anaUpdatedAt",
           "package": "ohloh-hs",
@@ -1080,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Analysis",
           "name": "xpAnalysis",
           "package": "ohloh-hs",
@@ -1089,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Analysis",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Analysis",
           "name": "xpAnalysis",
           "package": "ohloh-hs",
@@ -1103,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon operations for \u003ca\u003eWeb.Ohloh\u003c/a\u003e types and convenience functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "Common",
           "package": "ohloh-hs",
@@ -1112,6 +1211,7 @@
         "index": {
           "description": "Common operations for Web.Ohloh types and convenience functions",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "Common",
           "package": "ohloh-hs",
@@ -1125,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "ReadXmlString",
           "package": "ohloh-hs",
@@ -1133,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "ReadXmlString",
           "package": "ohloh-hs",
@@ -1146,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "ShowXmlString",
           "package": "ohloh-hs",
@@ -1154,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "ShowXmlString",
           "package": "ohloh-hs",
@@ -1167,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "queryPaths",
           "package": "ohloh-hs",
@@ -1176,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "queryPaths",
           "normalized": "[(String,String)]",
@@ -1192,6 +1298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an URL for the different items that can be queried:\n\u003c/p\u003e\u003cpre\u003e queryUrl \"project\" [\"ohloh-hs\"] == Just \"http://www.ohloh.net/projects/ohloh-hs.xml\"\n queryUrl \"projects\" []          == Just \"http://www.ohloh.net/projects.xml\"\n\u003c/pre\u003e\u003cp\u003eA list of possible items can be retrieved with \u003ccode\u003emap fst \u003ccode\u003e\u003ca\u003equeryPaths\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "queryUrl",
           "package": "ohloh-hs",
@@ -1202,6 +1309,7 @@
         "index": {
           "description": "Return an URL for the different items that can be queried queryUrl project ohloh-hs Just http www.ohloh.net projects ohloh-hs.xml queryUrl projects Just http www.ohloh.net projects.xml list of possible items can be retrieved with map fst queryPaths",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "queryUrl",
           "normalized": "String-\u003e[String]-\u003eMaybe String",
@@ -1217,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "readXmlString",
           "package": "ohloh-hs",
@@ -1226,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "readXmlString",
           "normalized": "String-\u003eMaybe a",
@@ -1241,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "showXmlString",
           "package": "ohloh-hs",
@@ -1250,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "showXmlString",
           "normalized": "a-\u003eString",
@@ -1266,6 +1378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 10 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry10",
           "package": "ohloh-hs",
@@ -1276,6 +1389,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry10",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a,a,a,a,a,a,a,a)-\u003ea",
@@ -1291,6 +1405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 11 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry11",
           "package": "ohloh-hs",
@@ -1301,6 +1416,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry11",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a,a,a,a,a,a,a,a,a)-\u003ea",
@@ -1316,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 13 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry13",
           "package": "ohloh-hs",
@@ -1326,6 +1443,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry13",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a,a,a,a,a,a,a,a,a,a,a)-\u003ea",
@@ -1341,6 +1459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 14 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry14",
           "package": "ohloh-hs",
@@ -1351,6 +1470,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry14",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a,a,a,a,a,a,a,a,a,a,a,a)-\u003ea",
@@ -1366,6 +1486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 15 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry15",
           "package": "ohloh-hs",
@@ -1376,6 +1497,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry15",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a,a,a,a,a,a,a,a,a,a,a,a,a)-\u003ea",
@@ -1391,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 16 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry16",
           "package": "ohloh-hs",
@@ -1401,6 +1524,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry16",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a)-\u003ea",
@@ -1416,6 +1540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 17 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry17",
           "package": "ohloh-hs",
@@ -1426,6 +1551,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry17",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a)-\u003ea",
@@ -1441,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 18 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry18",
           "package": "ohloh-hs",
@@ -1451,6 +1578,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry18",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a)-\u003ea",
@@ -1466,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 3 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry3",
           "package": "ohloh-hs",
@@ -1476,6 +1605,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry3",
           "normalized": "(a-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a)-\u003ea",
@@ -1491,6 +1621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 4 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry4",
           "package": "ohloh-hs",
@@ -1501,6 +1632,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry4",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a,a)-\u003ea",
@@ -1516,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 5 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry5",
           "package": "ohloh-hs",
@@ -1526,6 +1659,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry5",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a,a,a)-\u003ea",
@@ -1541,6 +1675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 6 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry6",
           "package": "ohloh-hs",
@@ -1551,6 +1686,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry6",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a,a,a,a)-\u003ea",
@@ -1566,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 7 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry7",
           "package": "ohloh-hs",
@@ -1576,6 +1713,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry7",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a,a,a,a,a)-\u003ea",
@@ -1591,6 +1729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 8 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry8",
           "package": "ohloh-hs",
@@ -1601,6 +1740,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry8",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a,a,a,a,a,a)-\u003ea",
@@ -1616,6 +1756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003euncurry\u003c/a\u003e\u003c/code\u003e but for functions with 9 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "uncurry9",
           "package": "ohloh-hs",
@@ -1626,6 +1767,7 @@
         "index": {
           "description": "Like uncurry but for functions with arguments",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "uncurry9",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(a,a,a,a,a,a,a,a,a)-\u003ea",
@@ -1641,6 +1783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend an API key to an URL, i.e.\n\u003c/p\u003e\u003cpre\u003e queryUrl \"language\" [\"haskell\"] `withApiKey` \"YOUR_API_KEY\"\n\u003c/pre\u003e\u003cp\u003ereturns \u003ccode\u003eJust \"http://www.ohloh.net/languages/haskell.xml?api_key=YOUR_API_KEY\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Common",
           "name": "withApiKey",
           "package": "ohloh-hs",
@@ -1651,6 +1794,7 @@
         "index": {
           "description": "Append an API key to an URL i.e queryUrl language haskell withApiKey YOUR API KEY returns Just http www.ohloh.net languages haskell.xml api key YOUR API KEY",
           "hierarchy": "Web Ohloh Common",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Common",
           "name": "withApiKey",
           "normalized": "Maybe String-\u003eString-\u003eMaybe String",
@@ -1667,6 +1811,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referencecontributor_fact/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "ContributorFact",
           "package": "ohloh-hs",
@@ -1676,6 +1821,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referencecontributor fact",
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "ContributorFact",
           "package": "ohloh-hs",
@@ -1690,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eContributorFact\u003c/a\u003e\u003c/code\u003e contains a selection of high-level statistics about a\n   person who commited source code to a \u003ccode\u003e\u003ca\u003eProject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "ContributorFact",
           "package": "ohloh-hs",
@@ -1699,6 +1846,7 @@
         "index": {
           "description": "ContributorFact contains selection of high-level statistics about person who commited source code to Project",
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "ContributorFact",
           "package": "ohloh-hs",
@@ -1712,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "ContributorFact",
           "package": "ohloh-hs",
@@ -1721,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "ContributorFact",
           "package": "ohloh-hs",
@@ -1734,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfAccountId",
           "package": "ohloh-hs",
@@ -1743,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfAccountId",
           "package": "ohloh-hs",
@@ -1756,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfAccountName",
           "package": "ohloh-hs",
@@ -1765,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfAccountName",
           "package": "ohloh-hs",
@@ -1778,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfAnalysisId",
           "package": "ohloh-hs",
@@ -1787,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfAnalysisId",
           "package": "ohloh-hs",
@@ -1800,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfCommentRatio",
           "package": "ohloh-hs",
@@ -1809,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfCommentRatio",
           "package": "ohloh-hs",
@@ -1822,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfCommits",
           "package": "ohloh-hs",
@@ -1831,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfCommits",
           "package": "ohloh-hs",
@@ -1844,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfContributorId",
           "package": "ohloh-hs",
@@ -1853,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfContributorId",
           "package": "ohloh-hs",
@@ -1866,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfContributorLanguageFacts",
           "package": "ohloh-hs",
@@ -1875,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfContributorLanguageFacts",
           "normalized": "Maybe[ContributorLanguageFact]",
@@ -1890,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfContributorName",
           "package": "ohloh-hs",
@@ -1899,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfContributorName",
           "package": "ohloh-hs",
@@ -1912,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfFirstCommitTime",
           "package": "ohloh-hs",
@@ -1921,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfFirstCommitTime",
           "package": "ohloh-hs",
@@ -1934,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfLastCommitTime",
           "package": "ohloh-hs",
@@ -1943,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfLastCommitTime",
           "package": "ohloh-hs",
@@ -1956,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfManMonths",
           "package": "ohloh-hs",
@@ -1965,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfManMonths",
           "package": "ohloh-hs",
@@ -1978,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfMedianCommits",
           "package": "ohloh-hs",
@@ -1987,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfMedianCommits",
           "package": "ohloh-hs",
@@ -2000,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfPrimaryLanguageId",
           "package": "ohloh-hs",
@@ -2009,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfPrimaryLanguageId",
           "package": "ohloh-hs",
@@ -2022,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfPrimaryLanguageNiceName",
           "package": "ohloh-hs",
@@ -2031,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "cfPrimaryLanguageNiceName",
           "package": "ohloh-hs",
@@ -2044,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorFact",
           "name": "xpContributorFact",
           "package": "ohloh-hs",
@@ -2053,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorFact",
           "name": "xpContributorFact",
           "package": "ohloh-hs",
@@ -2067,6 +2247,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referencecontributor_language_fact/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "ContributorLanguageFact",
           "package": "ohloh-hs",
@@ -2076,6 +2257,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referencecontributor language fact",
           "hierarchy": "Web Ohloh ContributorLanguageFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "ContributorLanguageFact",
           "package": "ohloh-hs",
@@ -2090,6 +2272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eContributorLanguageFact\u003c/a\u003e\u003c/code\u003e contains a selection of\n   \u003ccode\u003e\u003ca\u003eLanguage\u003c/a\u003e\u003c/code\u003e-specific statistics about a single person\n   who commited source code to a \u003ccode\u003e\u003ca\u003eProject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "ContributorLanguageFact",
           "package": "ohloh-hs",
@@ -2099,6 +2282,7 @@
         "index": {
           "description": "ContributorLanguageFact contains selection of Language specific statistics about single person who commited source code to Project",
           "hierarchy": "Web Ohloh ContributorLanguageFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "ContributorLanguageFact",
           "package": "ohloh-hs",
@@ -2112,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "ContributorLanguageFact",
           "package": "ohloh-hs",
@@ -2121,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorLanguageFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "ContributorLanguageFact",
           "package": "ohloh-hs",
@@ -2134,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfAnalysisId",
           "package": "ohloh-hs",
@@ -2143,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorLanguageFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfAnalysisId",
           "package": "ohloh-hs",
@@ -2156,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfCommentRatio",
           "package": "ohloh-hs",
@@ -2165,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorLanguageFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfCommentRatio",
           "package": "ohloh-hs",
@@ -2178,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfCommits",
           "package": "ohloh-hs",
@@ -2187,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorLanguageFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfCommits",
           "package": "ohloh-hs",
@@ -2200,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfContributorId",
           "package": "ohloh-hs",
@@ -2209,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorLanguageFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfContributorId",
           "package": "ohloh-hs",
@@ -2222,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfContributorName",
           "package": "ohloh-hs",
@@ -2231,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorLanguageFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfContributorName",
           "package": "ohloh-hs",
@@ -2244,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfLanguageId",
           "package": "ohloh-hs",
@@ -2253,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorLanguageFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfLanguageId",
           "package": "ohloh-hs",
@@ -2266,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfLanguageNiceName",
           "package": "ohloh-hs",
@@ -2275,6 +2474,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorLanguageFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfLanguageNiceName",
           "package": "ohloh-hs",
@@ -2288,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfManMonths",
           "package": "ohloh-hs",
@@ -2297,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorLanguageFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfManMonths",
           "package": "ohloh-hs",
@@ -2310,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfMedianCommits",
           "package": "ohloh-hs",
@@ -2319,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorLanguageFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "clfMedianCommits",
           "package": "ohloh-hs",
@@ -2332,6 +2536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "xpContributorLanguageFact",
           "package": "ohloh-hs",
@@ -2341,6 +2546,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ContributorLanguageFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ContributorLanguageFact",
           "name": "xpContributorLanguageFact",
           "package": "ohloh-hs",
@@ -2355,6 +2561,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referenceenlistment/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Enlistment",
           "name": "Enlistment",
           "package": "ohloh-hs",
@@ -2364,6 +2571,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referenceenlistment",
           "hierarchy": "Web Ohloh Enlistment",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Enlistment",
           "name": "Enlistment",
           "package": "ohloh-hs",
@@ -2378,6 +2586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eEnlistment\u003c/a\u003e\u003c/code\u003e joins a \u003ccode\u003e\u003ca\u003eProject\u003c/a\u003e\u003c/code\u003e to a source control\n   \u003ccode\u003e\u003ca\u003eRepository\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Enlistment",
           "name": "Enlistment",
           "package": "ohloh-hs",
@@ -2387,6 +2596,7 @@
         "index": {
           "description": "Enlistment joins Project to source control Repository",
           "hierarchy": "Web Ohloh Enlistment",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Enlistment",
           "name": "Enlistment",
           "package": "ohloh-hs",
@@ -2400,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Enlistment",
           "name": "Enlistment",
           "package": "ohloh-hs",
@@ -2409,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Enlistment",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Enlistment",
           "name": "Enlistment",
           "package": "ohloh-hs",
@@ -2422,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Enlistment",
           "name": "enId",
           "package": "ohloh-hs",
@@ -2431,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Enlistment",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Enlistment",
           "name": "enId",
           "package": "ohloh-hs",
@@ -2444,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Enlistment",
           "name": "enProjectId",
           "package": "ohloh-hs",
@@ -2453,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Enlistment",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Enlistment",
           "name": "enProjectId",
           "package": "ohloh-hs",
@@ -2466,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Enlistment",
           "name": "enRepository",
           "package": "ohloh-hs",
@@ -2475,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Enlistment",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Enlistment",
           "name": "enRepository",
           "package": "ohloh-hs",
@@ -2488,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Enlistment",
           "name": "enRepositoryId",
           "package": "ohloh-hs",
@@ -2497,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Enlistment",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Enlistment",
           "name": "enRepositoryId",
           "package": "ohloh-hs",
@@ -2510,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Enlistment",
           "name": "xpEnlistment",
           "package": "ohloh-hs",
@@ -2519,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Enlistment",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Enlistment",
           "name": "xpEnlistment",
           "package": "ohloh-hs",
@@ -2533,6 +2755,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referencefactoid/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "Factoid",
           "package": "ohloh-hs",
@@ -2542,6 +2765,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referencefactoid",
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "Factoid",
           "package": "ohloh-hs",
@@ -2556,6 +2780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFactoid\u003c/a\u003e\u003c/code\u003e is a short, high-level bullet point delivering a simple\n   observation about a \u003ccode\u003e\u003ca\u003eProject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "Factoid",
           "package": "ohloh-hs",
@@ -2565,6 +2790,7 @@
         "index": {
           "description": "Factoid is short high-level bullet point delivering simple observation about Project",
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "Factoid",
           "package": "ohloh-hs",
@@ -2578,6 +2804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidType",
           "package": "ohloh-hs",
@@ -2586,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidType",
           "package": "ohloh-hs",
@@ -2599,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "Factoid",
           "package": "ohloh-hs",
@@ -2608,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "Factoid",
           "package": "ohloh-hs",
@@ -2621,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidActivityDecreasing",
           "package": "ohloh-hs",
@@ -2630,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidActivityDecreasing",
           "package": "ohloh-hs",
@@ -2643,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidActivityIncreasing",
           "package": "ohloh-hs",
@@ -2652,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidActivityIncreasing",
           "package": "ohloh-hs",
@@ -2665,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidActivityStable",
           "package": "ohloh-hs",
@@ -2674,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidActivityStable",
           "package": "ohloh-hs",
@@ -2687,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidAgeOld",
           "package": "ohloh-hs",
@@ -2696,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidAgeOld",
           "package": "ohloh-hs",
@@ -2709,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidAgeVeryOld",
           "package": "ohloh-hs",
@@ -2718,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidAgeVeryOld",
           "package": "ohloh-hs",
@@ -2731,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidAgeYoung",
           "package": "ohloh-hs",
@@ -2740,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidAgeYoung",
           "package": "ohloh-hs",
@@ -2753,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidCommentsAverage",
           "package": "ohloh-hs",
@@ -2762,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidCommentsAverage",
           "package": "ohloh-hs",
@@ -2775,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidCommentsHigh",
           "package": "ohloh-hs",
@@ -2784,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidCommentsHigh",
           "package": "ohloh-hs",
@@ -2797,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidCommentsLow",
           "package": "ohloh-hs",
@@ -2806,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidCommentsLow",
           "package": "ohloh-hs",
@@ -2819,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidCommentsVeryHigh",
           "package": "ohloh-hs",
@@ -2828,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidCommentsVeryHigh",
           "package": "ohloh-hs",
@@ -2841,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidCommentsVeryLow",
           "package": "ohloh-hs",
@@ -2850,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidCommentsVeryLow",
           "package": "ohloh-hs",
@@ -2863,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidDistributionOnePerson",
           "package": "ohloh-hs",
@@ -2872,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidDistributionOnePerson",
           "package": "ohloh-hs",
@@ -2885,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidGplConflict",
           "package": "ohloh-hs",
@@ -2894,6 +3149,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidGplConflict",
           "package": "ohloh-hs",
@@ -2907,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidTeamSizeAverage",
           "package": "ohloh-hs",
@@ -2916,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidTeamSizeAverage",
           "package": "ohloh-hs",
@@ -2929,6 +3187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidTeamSizeLarge",
           "package": "ohloh-hs",
@@ -2938,6 +3197,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidTeamSizeLarge",
           "package": "ohloh-hs",
@@ -2951,6 +3211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidTeamSizeOne",
           "package": "ohloh-hs",
@@ -2960,6 +3221,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidTeamSizeOne",
           "package": "ohloh-hs",
@@ -2973,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidTeamSizeSmall",
           "package": "ohloh-hs",
@@ -2982,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidTeamSizeSmall",
           "package": "ohloh-hs",
@@ -2995,6 +3259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidTeamSizeVeryLarge",
           "package": "ohloh-hs",
@@ -3004,6 +3269,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidTeamSizeVeryLarge",
           "package": "ohloh-hs",
@@ -3017,6 +3283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidTeamSizeZero",
           "package": "ohloh-hs",
@@ -3026,6 +3293,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "FactoidTeamSizeZero",
           "package": "ohloh-hs",
@@ -3039,6 +3307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "factAnalysisId",
           "package": "ohloh-hs",
@@ -3048,6 +3317,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "factAnalysisId",
           "package": "ohloh-hs",
@@ -3061,6 +3331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "factDescription",
           "package": "ohloh-hs",
@@ -3070,6 +3341,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "factDescription",
           "package": "ohloh-hs",
@@ -3083,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "factId",
           "package": "ohloh-hs",
@@ -3092,6 +3365,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "factId",
           "package": "ohloh-hs",
@@ -3105,6 +3379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "factLicenseId",
           "package": "ohloh-hs",
@@ -3114,6 +3389,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "factLicenseId",
           "package": "ohloh-hs",
@@ -3127,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "factSeverity",
           "package": "ohloh-hs",
@@ -3136,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "factSeverity",
           "package": "ohloh-hs",
@@ -3149,6 +3427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "factType",
           "package": "ohloh-hs",
@@ -3158,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "factType",
           "package": "ohloh-hs",
@@ -3171,6 +3451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Factoid",
           "name": "xpFactoid",
           "package": "ohloh-hs",
@@ -3180,6 +3461,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Factoid",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Factoid",
           "name": "xpFactoid",
           "package": "ohloh-hs",
@@ -3194,6 +3476,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referencekudo/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Kudo",
           "name": "Kudo",
           "package": "ohloh-hs",
@@ -3203,6 +3486,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referencekudo",
           "hierarchy": "Web Ohloh Kudo",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Kudo",
           "name": "Kudo",
           "package": "ohloh-hs",
@@ -3217,6 +3501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eKudo\u003c/a\u003e\u003c/code\u003e is a simple gesture of thanks, praise, or endorsement from an\n   \u003ccode\u003e\u003ca\u003eAccount\u003c/a\u003e\u003c/code\u003e to another person.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Kudo",
           "name": "Kudo",
           "package": "ohloh-hs",
@@ -3226,6 +3511,7 @@
         "index": {
           "description": "Kudo is simple gesture of thanks praise or endorsement from an Account to another person",
           "hierarchy": "Web Ohloh Kudo",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Kudo",
           "name": "Kudo",
           "package": "ohloh-hs",
@@ -3239,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Kudo",
           "name": "Kudo",
           "package": "ohloh-hs",
@@ -3248,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Kudo",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Kudo",
           "name": "Kudo",
           "package": "ohloh-hs",
@@ -3261,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoContributorId",
           "package": "ohloh-hs",
@@ -3270,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Kudo",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoContributorId",
           "package": "ohloh-hs",
@@ -3283,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoContributorName",
           "package": "ohloh-hs",
@@ -3292,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Kudo",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoContributorName",
           "package": "ohloh-hs",
@@ -3305,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoCreatedAt",
           "package": "ohloh-hs",
@@ -3314,6 +3607,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Kudo",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoCreatedAt",
           "package": "ohloh-hs",
@@ -3327,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoProjectId",
           "package": "ohloh-hs",
@@ -3336,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Kudo",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoProjectId",
           "package": "ohloh-hs",
@@ -3349,6 +3645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoProjectName",
           "package": "ohloh-hs",
@@ -3358,6 +3655,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Kudo",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoProjectName",
           "package": "ohloh-hs",
@@ -3371,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoReceiverAccountId",
           "package": "ohloh-hs",
@@ -3380,6 +3679,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Kudo",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoReceiverAccountId",
           "package": "ohloh-hs",
@@ -3393,6 +3693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoReceiverAccountName",
           "package": "ohloh-hs",
@@ -3402,6 +3703,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Kudo",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoReceiverAccountName",
           "package": "ohloh-hs",
@@ -3415,6 +3717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoSenderAccountId",
           "package": "ohloh-hs",
@@ -3424,6 +3727,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Kudo",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoSenderAccountId",
           "package": "ohloh-hs",
@@ -3437,6 +3741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoSenderAccountName",
           "package": "ohloh-hs",
@@ -3446,6 +3751,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Kudo",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Kudo",
           "name": "kudoSenderAccountName",
           "package": "ohloh-hs",
@@ -3459,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Kudo",
           "name": "xpKudo",
           "package": "ohloh-hs",
@@ -3468,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Kudo",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Kudo",
           "name": "xpKudo",
           "package": "ohloh-hs",
@@ -3482,6 +3790,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referencekudo_score/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.KudoScore",
           "name": "KudoScore",
           "package": "ohloh-hs",
@@ -3491,6 +3800,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referencekudo score",
           "hierarchy": "Web Ohloh KudoScore",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.KudoScore",
           "name": "KudoScore",
           "package": "ohloh-hs",
@@ -3504,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.KudoScore",
           "name": "KudoScore",
           "package": "ohloh-hs",
@@ -3512,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh KudoScore",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.KudoScore",
           "name": "KudoScore",
           "package": "ohloh-hs",
@@ -3525,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.KudoScore",
           "name": "KudoScore",
           "package": "ohloh-hs",
@@ -3534,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh KudoScore",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.KudoScore",
           "name": "KudoScore",
           "package": "ohloh-hs",
@@ -3547,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.KudoScore",
           "name": "ksCreatedAt",
           "package": "ohloh-hs",
@@ -3556,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh KudoScore",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.KudoScore",
           "name": "ksCreatedAt",
           "package": "ohloh-hs",
@@ -3569,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.KudoScore",
           "name": "ksKudoRank",
           "package": "ohloh-hs",
@@ -3578,6 +3895,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh KudoScore",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.KudoScore",
           "name": "ksKudoRank",
           "package": "ohloh-hs",
@@ -3591,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.KudoScore",
           "name": "ksMaxPosition",
           "package": "ohloh-hs",
@@ -3600,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh KudoScore",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.KudoScore",
           "name": "ksMaxPosition",
           "package": "ohloh-hs",
@@ -3613,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.KudoScore",
           "name": "ksPosition",
           "package": "ohloh-hs",
@@ -3622,6 +3943,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh KudoScore",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.KudoScore",
           "name": "ksPosition",
           "package": "ohloh-hs",
@@ -3635,6 +3957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.KudoScore",
           "name": "ksPositionDelta",
           "package": "ohloh-hs",
@@ -3644,6 +3967,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh KudoScore",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.KudoScore",
           "name": "ksPositionDelta",
           "package": "ohloh-hs",
@@ -3657,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.KudoScore",
           "name": "xpKudoScore",
           "package": "ohloh-hs",
@@ -3666,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh KudoScore",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.KudoScore",
           "name": "xpKudoScore",
           "package": "ohloh-hs",
@@ -3680,6 +4006,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referencelanguage/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "Language",
           "package": "ohloh-hs",
@@ -3689,6 +4016,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referencelanguage",
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "Language",
           "package": "ohloh-hs",
@@ -3703,6 +4031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLanguage\u003c/a\u003e\u003c/code\u003e contains the name and various statistics related to a\n   programming language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "Language",
           "package": "ohloh-hs",
@@ -3712,6 +4041,7 @@
         "index": {
           "description": "Language contains the name and various statistics related to programming language",
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "Language",
           "package": "ohloh-hs",
@@ -3725,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "Language",
           "package": "ohloh-hs",
@@ -3734,6 +4065,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "Language",
           "package": "ohloh-hs",
@@ -3747,6 +4079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "langBlanks",
           "package": "ohloh-hs",
@@ -3756,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "langBlanks",
           "package": "ohloh-hs",
@@ -3769,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "langCategory",
           "package": "ohloh-hs",
@@ -3778,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "langCategory",
           "package": "ohloh-hs",
@@ -3791,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "langCode",
           "package": "ohloh-hs",
@@ -3800,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "langCode",
           "package": "ohloh-hs",
@@ -3813,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "langCommentRatio",
           "package": "ohloh-hs",
@@ -3822,6 +4161,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "langCommentRatio",
           "package": "ohloh-hs",
@@ -3835,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "langComments",
           "package": "ohloh-hs",
@@ -3844,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "langComments",
           "package": "ohloh-hs",
@@ -3857,6 +4199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "langCommits",
           "package": "ohloh-hs",
@@ -3866,6 +4209,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "langCommits",
           "package": "ohloh-hs",
@@ -3879,6 +4223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "langContributors",
           "package": "ohloh-hs",
@@ -3888,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "langContributors",
           "package": "ohloh-hs",
@@ -3901,6 +4247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "langId",
           "package": "ohloh-hs",
@@ -3910,6 +4257,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "langId",
           "package": "ohloh-hs",
@@ -3923,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "langName",
           "package": "ohloh-hs",
@@ -3932,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "langName",
           "package": "ohloh-hs",
@@ -3945,6 +4295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "langNiceName",
           "package": "ohloh-hs",
@@ -3954,6 +4305,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "langNiceName",
           "package": "ohloh-hs",
@@ -3967,6 +4319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "langProjects",
           "package": "ohloh-hs",
@@ -3976,6 +4329,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "langProjects",
           "package": "ohloh-hs",
@@ -3989,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Language",
           "name": "xpLanguage",
           "package": "ohloh-hs",
@@ -3998,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Language",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Language",
           "name": "xpLanguage",
           "package": "ohloh-hs",
@@ -4011,6 +4367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Lens.IdL",
           "name": "IdL",
           "package": "ohloh-hs",
@@ -4019,6 +4376,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Lens IdL",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Lens.IdL",
           "name": "IdL",
           "package": "ohloh-hs",
@@ -4032,6 +4390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Lens.IdL",
           "name": "IdL",
           "package": "ohloh-hs",
@@ -4040,6 +4399,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Lens IdL",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Lens.IdL",
           "name": "IdL",
           "package": "ohloh-hs",
@@ -4053,6 +4413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Lens.IdL",
           "name": "idL",
           "package": "ohloh-hs",
@@ -4062,6 +4423,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Lens IdL",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Lens.IdL",
           "name": "idL",
           "package": "ohloh-hs",
@@ -4074,6 +4436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Lens.NameL",
           "name": "NameL",
           "package": "ohloh-hs",
@@ -4082,6 +4445,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Lens NameL",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Lens.NameL",
           "name": "NameL",
           "package": "ohloh-hs",
@@ -4095,6 +4459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Lens.NameL",
           "name": "NameL",
           "package": "ohloh-hs",
@@ -4103,6 +4468,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Lens NameL",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Lens.NameL",
           "name": "NameL",
           "package": "ohloh-hs",
@@ -4116,6 +4482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Lens.NameL",
           "name": "nameL",
           "package": "ohloh-hs",
@@ -4125,6 +4492,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Lens NameL",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Lens.NameL",
           "name": "nameL",
           "package": "ohloh-hs",
@@ -4137,6 +4505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Lens.UpdatedAtL",
           "name": "UpdatedAtL",
           "package": "ohloh-hs",
@@ -4145,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Lens UpdatedAtL",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Lens.UpdatedAtL",
           "name": "UpdatedAtL",
           "package": "ohloh-hs",
@@ -4158,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Lens.UpdatedAtL",
           "name": "UpdatedAtL",
           "package": "ohloh-hs",
@@ -4166,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Lens UpdatedAtL",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Lens.UpdatedAtL",
           "name": "UpdatedAtL",
           "package": "ohloh-hs",
@@ -4179,6 +4551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Lens.UpdatedAtL",
           "name": "updatedAtL",
           "package": "ohloh-hs",
@@ -4188,6 +4561,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Lens UpdatedAtL",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Lens.UpdatedAtL",
           "name": "updatedAtL",
           "package": "ohloh-hs",
@@ -4202,6 +4576,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referenceproject/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "Project",
           "package": "ohloh-hs",
@@ -4211,6 +4586,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referenceproject",
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "Project",
           "package": "ohloh-hs",
@@ -4225,6 +4601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eProject\u003c/a\u003e\u003c/code\u003e represents a collection of source code, documentation, and web\n   sites treated together as a unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "Project",
           "package": "ohloh-hs",
@@ -4234,6 +4611,7 @@
         "index": {
           "description": "Project represents collection of source code documentation and web sites treated together as unit",
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "Project",
           "package": "ohloh-hs",
@@ -4247,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "Project",
           "package": "ohloh-hs",
@@ -4256,6 +4635,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "Project",
           "package": "ohloh-hs",
@@ -4269,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projAnalysis",
           "package": "ohloh-hs",
@@ -4278,6 +4659,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projAnalysis",
           "package": "ohloh-hs",
@@ -4291,6 +4673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projAnalysisId",
           "package": "ohloh-hs",
@@ -4300,6 +4683,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projAnalysisId",
           "package": "ohloh-hs",
@@ -4313,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projAverageRating",
           "package": "ohloh-hs",
@@ -4322,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projAverageRating",
           "package": "ohloh-hs",
@@ -4335,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projCreatedAt",
           "package": "ohloh-hs",
@@ -4344,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projCreatedAt",
           "package": "ohloh-hs",
@@ -4357,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projDescription",
           "package": "ohloh-hs",
@@ -4366,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projDescription",
           "package": "ohloh-hs",
@@ -4379,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projDownloadUrl",
           "package": "ohloh-hs",
@@ -4388,6 +4779,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projDownloadUrl",
           "package": "ohloh-hs",
@@ -4401,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projHomepageUrl",
           "package": "ohloh-hs",
@@ -4410,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projHomepageUrl",
           "package": "ohloh-hs",
@@ -4423,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projHtmlUrl",
           "package": "ohloh-hs",
@@ -4432,6 +4827,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projHtmlUrl",
           "package": "ohloh-hs",
@@ -4445,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projId",
           "package": "ohloh-hs",
@@ -4454,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projId",
           "package": "ohloh-hs",
@@ -4467,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projMediumLogoUrl",
           "package": "ohloh-hs",
@@ -4476,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projMediumLogoUrl",
           "package": "ohloh-hs",
@@ -4489,6 +4889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projName",
           "package": "ohloh-hs",
@@ -4498,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projName",
           "package": "ohloh-hs",
@@ -4511,6 +4913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projRatingCount",
           "package": "ohloh-hs",
@@ -4520,6 +4923,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projRatingCount",
           "package": "ohloh-hs",
@@ -4533,6 +4937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projSmallLogoUrl",
           "package": "ohloh-hs",
@@ -4542,6 +4947,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projSmallLogoUrl",
           "package": "ohloh-hs",
@@ -4555,6 +4961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projUpdatedAt",
           "package": "ohloh-hs",
@@ -4564,6 +4971,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projUpdatedAt",
           "package": "ohloh-hs",
@@ -4577,6 +4985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projUrl",
           "package": "ohloh-hs",
@@ -4586,6 +4995,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projUrl",
           "package": "ohloh-hs",
@@ -4599,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projUrlName",
           "package": "ohloh-hs",
@@ -4608,6 +5019,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projUrlName",
           "package": "ohloh-hs",
@@ -4621,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "projUserCount",
           "package": "ohloh-hs",
@@ -4630,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "projUserCount",
           "package": "ohloh-hs",
@@ -4643,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Project",
           "name": "xpProject",
           "package": "ohloh-hs",
@@ -4652,6 +5067,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Project",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Project",
           "name": "xpProject",
           "package": "ohloh-hs",
@@ -4666,6 +5082,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referencerepository/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "Repository",
           "package": "ohloh-hs",
@@ -4675,6 +5092,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referencerepository",
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "Repository",
           "package": "ohloh-hs",
@@ -4689,6 +5107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRepository\u003c/a\u003e\u003c/code\u003e represents an individual source control repository.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "Repository",
           "package": "ohloh-hs",
@@ -4698,6 +5117,7 @@
         "index": {
           "description": "Repository represents an individual source control repository",
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "Repository",
           "package": "ohloh-hs",
@@ -4711,6 +5131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "RepositoryType",
           "package": "ohloh-hs",
@@ -4719,6 +5140,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "RepositoryType",
           "package": "ohloh-hs",
@@ -4732,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "BzrRepository",
           "package": "ohloh-hs",
@@ -4741,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "BzrRepository",
           "package": "ohloh-hs",
@@ -4754,6 +5178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "CvsRepository",
           "package": "ohloh-hs",
@@ -4763,6 +5188,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "CvsRepository",
           "package": "ohloh-hs",
@@ -4776,6 +5202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "GitRepository",
           "package": "ohloh-hs",
@@ -4785,6 +5212,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "GitRepository",
           "package": "ohloh-hs",
@@ -4798,6 +5226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "HgRepository",
           "package": "ohloh-hs",
@@ -4807,6 +5236,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "HgRepository",
           "package": "ohloh-hs",
@@ -4820,6 +5250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "Repository",
           "package": "ohloh-hs",
@@ -4829,6 +5260,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "Repository",
           "package": "ohloh-hs",
@@ -4842,6 +5274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "SvnRepository",
           "package": "ohloh-hs",
@@ -4851,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "SvnRepository",
           "package": "ohloh-hs",
@@ -4864,6 +5298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "SvnSyncRepository",
           "package": "ohloh-hs",
@@ -4873,6 +5308,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "SvnSyncRepository",
           "package": "ohloh-hs",
@@ -4886,6 +5322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "repoCommits",
           "package": "ohloh-hs",
@@ -4895,6 +5332,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "repoCommits",
           "package": "ohloh-hs",
@@ -4908,6 +5346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "repoId",
           "package": "ohloh-hs",
@@ -4917,6 +5356,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "repoId",
           "package": "ohloh-hs",
@@ -4930,6 +5370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "repoLoggedAt",
           "package": "ohloh-hs",
@@ -4939,6 +5380,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "repoLoggedAt",
           "package": "ohloh-hs",
@@ -4952,6 +5394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "repoModuleName",
           "package": "ohloh-hs",
@@ -4961,6 +5404,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "repoModuleName",
           "package": "ohloh-hs",
@@ -4974,6 +5418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "repoOhlohJobStatus",
           "package": "ohloh-hs",
@@ -4983,6 +5428,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "repoOhlohJobStatus",
           "package": "ohloh-hs",
@@ -4996,6 +5442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "repoPassword",
           "package": "ohloh-hs",
@@ -5005,6 +5452,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "repoPassword",
           "package": "ohloh-hs",
@@ -5018,6 +5466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "repoRepoType",
           "package": "ohloh-hs",
@@ -5027,6 +5476,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "repoRepoType",
           "package": "ohloh-hs",
@@ -5040,6 +5490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "repoUrl",
           "package": "ohloh-hs",
@@ -5049,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "repoUrl",
           "package": "ohloh-hs",
@@ -5062,6 +5514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "repoUsername",
           "package": "ohloh-hs",
@@ -5071,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "repoUsername",
           "package": "ohloh-hs",
@@ -5084,6 +5538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Repository",
           "name": "xpRepository",
           "package": "ohloh-hs",
@@ -5093,6 +5548,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Repository",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Repository",
           "name": "xpRepository",
           "package": "ohloh-hs",
@@ -5106,6 +5562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Response",
           "name": "Response",
           "package": "ohloh-hs",
@@ -5114,6 +5571,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Response",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Response",
           "name": "Response",
           "package": "ohloh-hs",
@@ -5127,6 +5585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Response",
           "name": "Response",
           "package": "ohloh-hs",
@@ -5135,6 +5594,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Response",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Response",
           "name": "Response",
           "package": "ohloh-hs",
@@ -5148,6 +5608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Response",
           "name": "Response",
           "package": "ohloh-hs",
@@ -5157,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Response",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Response",
           "name": "Response",
           "package": "ohloh-hs",
@@ -5170,6 +5632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Response",
           "name": "respError",
           "package": "ohloh-hs",
@@ -5179,6 +5642,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Response",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Response",
           "name": "respError",
           "package": "ohloh-hs",
@@ -5192,6 +5656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Response",
           "name": "respFirstItemPosition",
           "package": "ohloh-hs",
@@ -5201,6 +5666,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Response",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Response",
           "name": "respFirstItemPosition",
           "package": "ohloh-hs",
@@ -5214,6 +5680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Response",
           "name": "respItemsAvailable",
           "package": "ohloh-hs",
@@ -5223,6 +5690,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Response",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Response",
           "name": "respItemsAvailable",
           "package": "ohloh-hs",
@@ -5236,6 +5704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Response",
           "name": "respItemsReturned",
           "package": "ohloh-hs",
@@ -5245,6 +5714,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Response",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Response",
           "name": "respItemsReturned",
           "package": "ohloh-hs",
@@ -5258,6 +5728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Response",
           "name": "respResult",
           "package": "ohloh-hs",
@@ -5267,6 +5738,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Response",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Response",
           "name": "respResult",
           "normalized": "[ResultType]",
@@ -5282,6 +5754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Response",
           "name": "respStatus",
           "package": "ohloh-hs",
@@ -5291,6 +5764,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Response",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Response",
           "name": "respStatus",
           "package": "ohloh-hs",
@@ -5304,6 +5778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Response",
           "name": "xpResponse",
           "package": "ohloh-hs",
@@ -5313,6 +5788,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Response",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Response",
           "name": "xpResponse",
           "package": "ohloh-hs",
@@ -5326,6 +5802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "ResultType",
           "package": "ohloh-hs",
@@ -5334,6 +5811,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "ResultType",
           "package": "ohloh-hs",
@@ -5348,6 +5826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResultType is a simple sum type that can hold those types which can be part\n   of the \u003ccode\u003e/response/result\u003c/code\u003e element (see \u003ccode\u003e\u003ca\u003erespResult\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "ResultType",
           "package": "ohloh-hs",
@@ -5357,6 +5836,7 @@
         "index": {
           "description": "ResultType is simple sum type that can hold those types which can be part of the response result element see respResult",
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "ResultType",
           "package": "ohloh-hs",
@@ -5370,6 +5850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "AccountR",
           "package": "ohloh-hs",
@@ -5379,6 +5860,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "AccountR",
           "package": "ohloh-hs",
@@ -5392,6 +5874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "ActivityFactR",
           "package": "ohloh-hs",
@@ -5401,6 +5884,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "ActivityFactR",
           "package": "ohloh-hs",
@@ -5414,6 +5898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "AnalysisR",
           "package": "ohloh-hs",
@@ -5423,6 +5908,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "AnalysisR",
           "package": "ohloh-hs",
@@ -5436,6 +5922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "ContributorFactR",
           "package": "ohloh-hs",
@@ -5445,6 +5932,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "ContributorFactR",
           "package": "ohloh-hs",
@@ -5458,6 +5946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "ContributorLanguageFactR",
           "package": "ohloh-hs",
@@ -5467,6 +5956,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "ContributorLanguageFactR",
           "package": "ohloh-hs",
@@ -5480,6 +5970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "EnlistmentR",
           "package": "ohloh-hs",
@@ -5489,6 +5980,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "EnlistmentR",
           "package": "ohloh-hs",
@@ -5502,6 +5994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "FactoidR",
           "package": "ohloh-hs",
@@ -5511,6 +6004,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "FactoidR",
           "package": "ohloh-hs",
@@ -5524,6 +6018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "KudoR",
           "package": "ohloh-hs",
@@ -5533,6 +6028,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "KudoR",
           "package": "ohloh-hs",
@@ -5546,6 +6042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "LanguageR",
           "package": "ohloh-hs",
@@ -5555,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "LanguageR",
           "package": "ohloh-hs",
@@ -5568,6 +6066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "ProjectR",
           "package": "ohloh-hs",
@@ -5577,6 +6076,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "ProjectR",
           "package": "ohloh-hs",
@@ -5590,6 +6090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "SizeFactR",
           "package": "ohloh-hs",
@@ -5599,6 +6100,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "SizeFactR",
           "package": "ohloh-hs",
@@ -5612,6 +6114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "StackR",
           "package": "ohloh-hs",
@@ -5621,6 +6124,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "StackR",
           "package": "ohloh-hs",
@@ -5634,6 +6138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.ResultType",
           "name": "xpResultType",
           "package": "ohloh-hs",
@@ -5643,6 +6148,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh ResultType",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.ResultType",
           "name": "xpResultType",
           "package": "ohloh-hs",
@@ -5657,6 +6163,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referencesize_fact/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.SizeFact",
           "name": "SizeFact",
           "package": "ohloh-hs",
@@ -5666,6 +6173,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referencesize fact",
           "hierarchy": "Web Ohloh SizeFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.SizeFact",
           "name": "SizeFact",
           "package": "ohloh-hs",
@@ -5680,6 +6188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSizeFact\u003c/a\u003e\u003c/code\u003e is a pre-computed collection of statistics about\n   \u003ccode\u003e\u003ca\u003eProject\u003c/a\u003e\u003c/code\u003e source code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.SizeFact",
           "name": "SizeFact",
           "package": "ohloh-hs",
@@ -5689,6 +6198,7 @@
         "index": {
           "description": "SizeFact is pre-computed collection of statistics about Project source code",
           "hierarchy": "Web Ohloh SizeFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.SizeFact",
           "name": "SizeFact",
           "package": "ohloh-hs",
@@ -5702,6 +6212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.SizeFact",
           "name": "SizeFact",
           "package": "ohloh-hs",
@@ -5711,6 +6222,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh SizeFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.SizeFact",
           "name": "SizeFact",
           "package": "ohloh-hs",
@@ -5724,6 +6236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.SizeFact",
           "name": "sfBlanks",
           "package": "ohloh-hs",
@@ -5733,6 +6246,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh SizeFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.SizeFact",
           "name": "sfBlanks",
           "package": "ohloh-hs",
@@ -5746,6 +6260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.SizeFact",
           "name": "sfCode",
           "package": "ohloh-hs",
@@ -5755,6 +6270,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh SizeFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.SizeFact",
           "name": "sfCode",
           "package": "ohloh-hs",
@@ -5768,6 +6284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.SizeFact",
           "name": "sfCommentRatio",
           "package": "ohloh-hs",
@@ -5777,6 +6294,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh SizeFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.SizeFact",
           "name": "sfCommentRatio",
           "package": "ohloh-hs",
@@ -5790,6 +6308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.SizeFact",
           "name": "sfComments",
           "package": "ohloh-hs",
@@ -5799,6 +6318,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh SizeFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.SizeFact",
           "name": "sfComments",
           "package": "ohloh-hs",
@@ -5812,6 +6332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.SizeFact",
           "name": "sfCommits",
           "package": "ohloh-hs",
@@ -5821,6 +6342,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh SizeFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.SizeFact",
           "name": "sfCommits",
           "package": "ohloh-hs",
@@ -5834,6 +6356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.SizeFact",
           "name": "sfManMonths",
           "package": "ohloh-hs",
@@ -5843,6 +6366,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh SizeFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.SizeFact",
           "name": "sfManMonths",
           "package": "ohloh-hs",
@@ -5856,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.SizeFact",
           "name": "sfMonth",
           "package": "ohloh-hs",
@@ -5865,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh SizeFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.SizeFact",
           "name": "sfMonth",
           "package": "ohloh-hs",
@@ -5878,6 +6404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.SizeFact",
           "name": "xpSizeFact",
           "package": "ohloh-hs",
@@ -5887,6 +6414,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh SizeFact",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.SizeFact",
           "name": "xpSizeFact",
           "package": "ohloh-hs",
@@ -5901,6 +6429,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referencestack/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Stack",
           "name": "Stack",
           "package": "ohloh-hs",
@@ -5910,6 +6439,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referencestack",
           "hierarchy": "Web Ohloh Stack",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Stack",
           "name": "Stack",
           "package": "ohloh-hs",
@@ -5924,6 +6454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eStack\u003c/a\u003e\u003c/code\u003e represents a collection of \u003ccode\u003e\u003ca\u003eProject\u003c/a\u003e\u003c/code\u003es used by\n   a single person.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Stack",
           "name": "Stack",
           "package": "ohloh-hs",
@@ -5933,6 +6464,7 @@
         "index": {
           "description": "Stack represents collection of Project used by single person",
           "hierarchy": "Web Ohloh Stack",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Stack",
           "name": "Stack",
           "package": "ohloh-hs",
@@ -5946,6 +6478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Stack",
           "name": "Stack",
           "package": "ohloh-hs",
@@ -5955,6 +6488,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Stack",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Stack",
           "name": "Stack",
           "package": "ohloh-hs",
@@ -5968,6 +6502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Stack",
           "name": "staAccount",
           "package": "ohloh-hs",
@@ -5977,6 +6512,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Stack",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Stack",
           "name": "staAccount",
           "package": "ohloh-hs",
@@ -5990,6 +6526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Stack",
           "name": "staAccountId",
           "package": "ohloh-hs",
@@ -5999,6 +6536,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Stack",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Stack",
           "name": "staAccountId",
           "package": "ohloh-hs",
@@ -6012,6 +6550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Stack",
           "name": "staDescription",
           "package": "ohloh-hs",
@@ -6021,6 +6560,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Stack",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Stack",
           "name": "staDescription",
           "package": "ohloh-hs",
@@ -6034,6 +6574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Stack",
           "name": "staId",
           "package": "ohloh-hs",
@@ -6043,6 +6584,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Stack",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Stack",
           "name": "staId",
           "package": "ohloh-hs",
@@ -6056,6 +6598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Stack",
           "name": "staProjectCount",
           "package": "ohloh-hs",
@@ -6065,6 +6608,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Stack",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Stack",
           "name": "staProjectCount",
           "package": "ohloh-hs",
@@ -6078,6 +6622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Stack",
           "name": "staStackEntries",
           "package": "ohloh-hs",
@@ -6087,6 +6632,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Stack",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Stack",
           "name": "staStackEntries",
           "normalized": "[StackEntry]",
@@ -6102,6 +6648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Stack",
           "name": "staTitle",
           "package": "ohloh-hs",
@@ -6111,6 +6658,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Stack",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Stack",
           "name": "staTitle",
           "package": "ohloh-hs",
@@ -6124,6 +6672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Stack",
           "name": "staUpdatedAt",
           "package": "ohloh-hs",
@@ -6133,6 +6682,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Stack",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Stack",
           "name": "staUpdatedAt",
           "package": "ohloh-hs",
@@ -6146,6 +6696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.Stack",
           "name": "xpStack",
           "package": "ohloh-hs",
@@ -6155,6 +6706,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh Stack",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.Stack",
           "name": "xpStack",
           "package": "ohloh-hs",
@@ -6169,6 +6721,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOhloh API Reference: \u003ca\u003ehttp://meta.ohloh.net/referencestack_entry/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.StackEntry",
           "name": "StackEntry",
           "package": "ohloh-hs",
@@ -6178,6 +6731,7 @@
         "index": {
           "description": "Ohloh API Reference http meta.ohloh.net referencestack entry",
           "hierarchy": "Web Ohloh StackEntry",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.StackEntry",
           "name": "StackEntry",
           "package": "ohloh-hs",
@@ -6192,6 +6746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eStackEntry\u003c/a\u003e\u003c/code\u003e joins one \u003ccode\u003e\u003ca\u003eStack\u003c/a\u003e\u003c/code\u003e to one\n   \u003ccode\u003e\u003ca\u003eProject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.StackEntry",
           "name": "StackEntry",
           "package": "ohloh-hs",
@@ -6201,6 +6756,7 @@
         "index": {
           "description": "StackEntry joins one Stack to one Project",
           "hierarchy": "Web Ohloh StackEntry",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.StackEntry",
           "name": "StackEntry",
           "package": "ohloh-hs",
@@ -6214,6 +6770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.StackEntry",
           "name": "StackEntry",
           "package": "ohloh-hs",
@@ -6223,6 +6780,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh StackEntry",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.StackEntry",
           "name": "StackEntry",
           "package": "ohloh-hs",
@@ -6236,6 +6794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.StackEntry",
           "name": "seCreatedAt",
           "package": "ohloh-hs",
@@ -6245,6 +6804,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh StackEntry",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.StackEntry",
           "name": "seCreatedAt",
           "package": "ohloh-hs",
@@ -6258,6 +6818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.StackEntry",
           "name": "seId",
           "package": "ohloh-hs",
@@ -6267,6 +6828,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh StackEntry",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.StackEntry",
           "name": "seId",
           "package": "ohloh-hs",
@@ -6280,6 +6842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.StackEntry",
           "name": "seProject",
           "package": "ohloh-hs",
@@ -6289,6 +6852,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh StackEntry",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.StackEntry",
           "name": "seProject",
           "package": "ohloh-hs",
@@ -6302,6 +6866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.StackEntry",
           "name": "seProjectId",
           "package": "ohloh-hs",
@@ -6311,6 +6876,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh StackEntry",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.StackEntry",
           "name": "seProjectId",
           "package": "ohloh-hs",
@@ -6324,6 +6890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.StackEntry",
           "name": "seStackId",
           "package": "ohloh-hs",
@@ -6333,6 +6900,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh StackEntry",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.StackEntry",
           "name": "seStackId",
           "package": "ohloh-hs",
@@ -6346,6 +6914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh.StackEntry",
           "name": "xpStackEntry",
           "package": "ohloh-hs",
@@ -6355,6 +6924,7 @@
         },
         "index": {
           "hierarchy": "Web Ohloh StackEntry",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh.StackEntry",
           "name": "xpStackEntry",
           "package": "ohloh-hs",
@@ -6369,6 +6939,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTop-level module for the Ohloh API (\u003ca\u003ehttp://meta.ohloh.net/getting_started/\u003c/a\u003e).\n Examples how to use this module can be found in the \"tests/read-haskell.hs\",\n \"tests/fetch-haskell.hs\", and \"tools/cmdoh.hs\" files in ohloh-hs' source\n tree.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:20 UTC 2014",
           "module": "Web.Ohloh",
           "name": "Ohloh",
           "package": "ohloh-hs",
@@ -6378,6 +6949,7 @@
         "index": {
           "description": "Top-level module for the Ohloh API http meta.ohloh.net getting started Examples how to use this module can be found in the tests read-haskell.hs tests fetch-haskell.hs and tools cmdoh.hs files in ohloh-hs source tree",
           "hierarchy": "Web Ohloh",
+          "indexed": "2014-03-11T19:31:20",
           "module": "Web.Ohloh",
           "name": "Ohloh",
           "package": "ohloh-hs",

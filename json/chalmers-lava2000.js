@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "chalmers-lava2000"
+        "phrase": "chalmers-lava2000",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Arithmetic",
           "name": "Arithmetic",
           "package": "chalmers-lava2000",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Lava Arithmetic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Arithmetic",
           "name": "Arithmetic",
           "package": "chalmers-lava2000",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Arithmetic",
           "name": "adder",
           "package": "chalmers-lava2000",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Lava Arithmetic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Arithmetic",
           "name": "adder",
           "normalized": "(Signal Bool,([Signal Bool],[Signal Bool]))-\u003e([Signal Bool],Signal Bool)",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Arithmetic",
           "name": "bin2int",
           "package": "chalmers-lava2000",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Lava Arithmetic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Arithmetic",
           "name": "bin2int",
           "normalized": "[Signal Bool]-\u003eSignal Int",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Arithmetic",
           "name": "binAdder",
           "package": "chalmers-lava2000",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Lava Arithmetic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Arithmetic",
           "name": "binAdder",
           "normalized": "([Signal Bool],[Signal Bool])-\u003e[Signal Bool]",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Arithmetic",
           "name": "bitAdder",
           "package": "chalmers-lava2000",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Lava Arithmetic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Arithmetic",
           "name": "bitAdder",
           "normalized": "(Signal Bool,[Signal Bool])-\u003e([Signal Bool],Signal Bool)",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Arithmetic",
           "name": "bitMulti",
           "package": "chalmers-lava2000",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Lava Arithmetic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Arithmetic",
           "name": "bitMulti",
           "normalized": "(Signal Bool,[Signal Bool])-\u003e[Signal Bool]",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Arithmetic",
           "name": "fullAdd",
           "package": "chalmers-lava2000",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Lava Arithmetic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Arithmetic",
           "name": "fullAdd",
           "normalized": "(Signal Bool,(Signal Bool,Signal Bool))-\u003e(Signal Bool,Signal Bool)",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Arithmetic",
           "name": "halfAdd",
           "package": "chalmers-lava2000",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Lava Arithmetic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Arithmetic",
           "name": "halfAdd",
           "normalized": "(Signal Bool,Signal Bool)-\u003e(Signal Bool,Signal Bool)",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Arithmetic",
           "name": "int2bin",
           "package": "chalmers-lava2000",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Lava Arithmetic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Arithmetic",
           "name": "int2bin",
           "normalized": "a-\u003eSignal Int-\u003e[Signal Bool]",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Arithmetic",
           "name": "multi",
           "package": "chalmers-lava2000",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Lava Arithmetic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Arithmetic",
           "name": "multi",
           "normalized": "([Signal Bool],[Signal Bool])-\u003e[Signal Bool]",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Arithmetic",
           "name": "numBreak",
           "package": "chalmers-lava2000",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Lava Arithmetic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Arithmetic",
           "name": "numBreak",
           "normalized": "Signal Int-\u003e(Signal Bool,Signal Int)",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Captain",
           "name": "Captain",
           "package": "chalmers-lava2000",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Lava Captain",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Captain",
           "name": "Captain",
           "package": "chalmers-lava2000",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Captain",
           "name": "captain",
           "package": "chalmers-lava2000",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Lava Captain",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Captain",
           "name": "captain",
           "normalized": "a-\u003eIO ProofResult",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Combinational",
           "name": "Combinational",
           "package": "chalmers-lava2000",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Lava Combinational",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Combinational",
           "name": "Combinational",
           "package": "chalmers-lava2000",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Combinational",
           "name": "simulate",
           "package": "chalmers-lava2000",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Lava Combinational",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Combinational",
           "name": "simulate",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.ConstructiveAnalysis",
           "name": "ConstructiveAnalysis",
           "package": "chalmers-lava2000",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Lava ConstructiveAnalysis",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.ConstructiveAnalysis",
           "name": "ConstructiveAnalysis",
           "package": "chalmers-lava2000",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.ConstructiveAnalysis",
           "name": "constructive",
           "package": "chalmers-lava2000",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Lava ConstructiveAnalysis",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.ConstructiveAnalysis",
           "name": "constructive",
           "normalized": "(a-\u003eb)-\u003ea-\u003eSignal Bool",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Eprover",
           "name": "Eprover",
           "package": "chalmers-lava2000",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Lava Eprover",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Eprover",
           "name": "Eprover",
           "package": "chalmers-lava2000",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Eprover",
           "name": "eprover",
           "package": "chalmers-lava2000",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Lava Eprover",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Eprover",
           "name": "eprover",
           "normalized": "a-\u003eIO ProofResult",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Error",
           "name": "Error",
           "package": "chalmers-lava2000",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Lava Error",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Error",
           "name": "Error",
           "package": "chalmers-lava2000",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Error",
           "name": "Error",
           "package": "chalmers-lava2000",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Lava Error",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Error",
           "name": "Error",
           "package": "chalmers-lava2000",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Error",
           "name": "BadCombinationalLoop",
           "package": "chalmers-lava2000",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Lava Error",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Error",
           "name": "BadCombinationalLoop",
           "package": "chalmers-lava2000",
@@ -515,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Error",
           "name": "CombinationalLoop",
           "package": "chalmers-lava2000",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Lava Error",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Error",
           "name": "CombinationalLoop",
           "package": "chalmers-lava2000",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Error",
           "name": "DelayEval",
           "package": "chalmers-lava2000",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Lava Error",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Error",
           "name": "DelayEval",
           "package": "chalmers-lava2000",
@@ -559,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Error",
           "name": "EnumOnSymbols",
           "package": "chalmers-lava2000",
@@ -568,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Lava Error",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Error",
           "name": "EnumOnSymbols",
           "package": "chalmers-lava2000",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Error",
           "name": "IncompatibleStructures",
           "package": "chalmers-lava2000",
@@ -590,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Lava Error",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Error",
           "name": "IncompatibleStructures",
           "package": "chalmers-lava2000",
@@ -603,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Error",
           "name": "Internal_OptionNotFound",
           "package": "chalmers-lava2000",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Lava Error",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Error",
           "name": "Internal_OptionNotFound",
           "package": "chalmers-lava2000",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Error",
           "name": "NoArithmetic",
           "package": "chalmers-lava2000",
@@ -634,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Lava Error",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Error",
           "name": "NoArithmetic",
           "package": "chalmers-lava2000",
@@ -647,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Error",
           "name": "NoEquality",
           "package": "chalmers-lava2000",
@@ -656,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Lava Error",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Error",
           "name": "NoEquality",
           "package": "chalmers-lava2000",
@@ -669,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Error",
           "name": "UndefinedWire",
           "package": "chalmers-lava2000",
@@ -678,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Lava Error",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Error",
           "name": "UndefinedWire",
           "package": "chalmers-lava2000",
@@ -691,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Error",
           "name": "VarEval",
           "package": "chalmers-lava2000",
@@ -700,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Lava Error",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Error",
           "name": "VarEval",
           "package": "chalmers-lava2000",
@@ -713,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Error",
           "name": "wrong",
           "package": "chalmers-lava2000",
@@ -722,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Lava Error",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Error",
           "name": "wrong",
           "normalized": "Error-\u003ea",
@@ -736,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Fixit",
           "name": "Fixit",
           "package": "chalmers-lava2000",
@@ -744,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Lava Fixit",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Fixit",
           "name": "Fixit",
           "package": "chalmers-lava2000",
@@ -757,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Fixit",
           "name": "fixit",
           "package": "chalmers-lava2000",
@@ -766,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Lava Fixit",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Fixit",
           "name": "fixit",
           "normalized": "a-\u003eIO ProofResult",
@@ -780,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "Generic",
           "package": "chalmers-lava2000",
@@ -788,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "Generic",
           "package": "chalmers-lava2000",
@@ -801,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "Choice",
           "package": "chalmers-lava2000",
@@ -809,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "Choice",
           "package": "chalmers-lava2000",
@@ -822,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "Constructive",
           "package": "chalmers-lava2000",
@@ -830,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "Constructive",
           "package": "chalmers-lava2000",
@@ -843,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "ConstructiveSig",
           "package": "chalmers-lava2000",
@@ -851,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "ConstructiveSig",
           "package": "chalmers-lava2000",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "Finite",
           "package": "chalmers-lava2000",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "Finite",
           "package": "chalmers-lava2000",
@@ -885,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "FiniteSig",
           "package": "chalmers-lava2000",
@@ -893,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "FiniteSig",
           "package": "chalmers-lava2000",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "Generic",
           "package": "chalmers-lava2000",
@@ -914,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "Generic",
           "package": "chalmers-lava2000",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "Ops",
           "package": "chalmers-lava2000",
@@ -935,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "Ops",
           "package": "chalmers-lava2000",
@@ -948,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "Struct",
           "package": "chalmers-lava2000",
@@ -956,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "Struct",
           "package": "chalmers-lava2000",
@@ -969,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "Compound",
           "package": "chalmers-lava2000",
@@ -978,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "Compound",
           "normalized": "Compound[Struct a]",
@@ -993,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "Object",
           "package": "chalmers-lava2000",
@@ -1002,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "Object",
           "package": "chalmers-lava2000",
@@ -1015,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "Ops",
           "package": "chalmers-lava2000",
@@ -1024,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "Ops",
           "package": "chalmers-lava2000",
@@ -1037,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "construct",
           "package": "chalmers-lava2000",
@@ -1046,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "construct",
           "normalized": "Struct Symbol-\u003ea",
@@ -1060,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "delay",
           "package": "chalmers-lava2000",
@@ -1069,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "delay",
           "normalized": "a-\u003ea-\u003ea",
@@ -1083,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "delaySymbol",
           "package": "chalmers-lava2000",
@@ -1092,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "delaySymbol",
           "normalized": "Symbol-\u003eSymbol-\u003eSymbol",
@@ -1107,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "domain",
           "package": "chalmers-lava2000",
@@ -1116,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "domain",
           "normalized": "[a]",
@@ -1130,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "domainList",
           "package": "chalmers-lava2000",
@@ -1139,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "domainList",
           "normalized": "Int-\u003e[[a]]",
@@ -1154,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "domainSig",
           "package": "chalmers-lava2000",
@@ -1163,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "domainSig",
           "normalized": "[Signal a]",
@@ -1178,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "equal",
           "package": "chalmers-lava2000",
@@ -1187,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "equal",
           "normalized": "(a,a)-\u003eSignal Bool",
@@ -1201,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "equalSymbol",
           "package": "chalmers-lava2000",
@@ -1210,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "equalSymbol",
           "normalized": "Symbol-\u003eSymbol-\u003eSignal Bool",
@@ -1225,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "flatten",
           "package": "chalmers-lava2000",
@@ -1234,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "flatten",
           "normalized": "Struct a-\u003e[a]",
@@ -1248,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "ifSymbol",
           "package": "chalmers-lava2000",
@@ -1257,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "ifSymbol",
           "normalized": "Signal Bool-\u003e(Symbol,Symbol)-\u003eSymbol",
@@ -1272,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "ifThenElse",
           "package": "chalmers-lava2000",
@@ -1281,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "ifThenElse",
           "normalized": "Signal Bool-\u003e(a,a)-\u003ea",
@@ -1296,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "lazyZipWith",
           "package": "chalmers-lava2000",
@@ -1305,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "lazyZipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003e[a]-\u003e[b]-\u003e[c]",
@@ -1320,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "mux",
           "package": "chalmers-lava2000",
@@ -1329,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "mux",
           "normalized": "(Signal Bool,(a,a))-\u003ea",
@@ -1343,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "ops",
           "package": "chalmers-lava2000",
@@ -1352,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "ops",
           "normalized": "Symbol-\u003eOps",
@@ -1366,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "opsBool",
           "package": "chalmers-lava2000",
@@ -1375,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "opsBool",
           "package": "chalmers-lava2000",
@@ -1388,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "opsInt",
           "package": "chalmers-lava2000",
@@ -1397,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "opsInt",
           "package": "chalmers-lava2000",
@@ -1410,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "pickSymbol",
           "package": "chalmers-lava2000",
@@ -1419,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "pickSymbol",
           "normalized": "String-\u003ea-\u003eSymbol",
@@ -1434,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "random",
           "package": "chalmers-lava2000",
@@ -1443,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "random",
           "normalized": "Rnd-\u003ea",
@@ -1457,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "randomList",
           "package": "chalmers-lava2000",
@@ -1466,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "randomList",
           "normalized": "Int-\u003eRnd-\u003e[a]",
@@ -1481,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "randomSig",
           "package": "chalmers-lava2000",
@@ -1490,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "randomSig",
           "normalized": "Rnd-\u003eSignal a",
@@ -1505,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "splitRndList",
           "package": "chalmers-lava2000",
@@ -1514,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "splitRndList",
           "normalized": "Rnd-\u003e[Rnd]",
@@ -1529,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "strongZipWith",
           "package": "chalmers-lava2000",
@@ -1538,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "strongZipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003e[a]-\u003e[b]-\u003e[c]",
@@ -1553,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "struct",
           "package": "chalmers-lava2000",
@@ -1562,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "struct",
           "normalized": "a-\u003eStruct Symbol",
@@ -1576,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "symbolize",
           "package": "chalmers-lava2000",
@@ -1585,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "symbolize",
           "normalized": "String-\u003ea-\u003ea",
@@ -1599,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "transStruct",
           "package": "chalmers-lava2000",
@@ -1608,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "transStruct",
           "normalized": "Struct[a]-\u003e[Struct a]",
@@ -1623,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "unSignal",
           "package": "chalmers-lava2000",
@@ -1632,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "unSignal",
           "normalized": "Signal a-\u003eSymbol",
@@ -1647,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "valRnd",
           "package": "chalmers-lava2000",
@@ -1656,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "valRnd",
           "normalized": "Rnd-\u003eInt",
@@ -1671,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "var",
           "package": "chalmers-lava2000",
@@ -1680,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "var",
           "normalized": "String-\u003ea",
@@ -1694,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "varList",
           "package": "chalmers-lava2000",
@@ -1703,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "varList",
           "normalized": "Int-\u003eString-\u003e[a]",
@@ -1718,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "varSig",
           "package": "chalmers-lava2000",
@@ -1727,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "varSig",
           "normalized": "String-\u003eSignal a",
@@ -1742,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "varSymbol",
           "package": "chalmers-lava2000",
@@ -1751,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "varSymbol",
           "normalized": "String-\u003eSymbol",
@@ -1766,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "zero",
           "package": "chalmers-lava2000",
@@ -1775,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "zero",
           "package": "chalmers-lava2000",
@@ -1787,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "zeroList",
           "package": "chalmers-lava2000",
@@ -1796,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "zeroList",
           "normalized": "Int-\u003e[a]",
@@ -1811,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "zeroSig",
           "package": "chalmers-lava2000",
@@ -1820,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "zeroSig",
           "package": "chalmers-lava2000",
@@ -1833,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "zeroSymbol",
           "package": "chalmers-lava2000",
@@ -1842,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "zeroSymbol",
           "package": "chalmers-lava2000",
@@ -1855,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Generic",
           "name": "zeroify",
           "package": "chalmers-lava2000",
@@ -1864,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "Lava Generic",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Generic",
           "name": "zeroify",
           "normalized": "a-\u003ea",
@@ -1878,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.HeerHugo",
           "name": "HeerHugo",
           "package": "chalmers-lava2000",
@@ -1886,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Lava HeerHugo",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.HeerHugo",
           "name": "HeerHugo",
           "package": "chalmers-lava2000",
@@ -1899,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.HeerHugo",
           "name": "heerhugo",
           "package": "chalmers-lava2000",
@@ -1908,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Lava HeerHugo",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.HeerHugo",
           "name": "heerhugo",
           "normalized": "a-\u003eIO ProofResult",
@@ -1922,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.IOBuffering",
           "name": "IOBuffering",
           "package": "chalmers-lava2000",
@@ -1930,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Lava IOBuffering",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.IOBuffering",
           "name": "IOBuffering",
           "package": "chalmers-lava2000",
@@ -1943,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.IOBuffering",
           "name": "noBuffering",
           "package": "chalmers-lava2000",
@@ -1952,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Lava IOBuffering",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.IOBuffering",
           "name": "noBuffering",
           "normalized": "IO()",
@@ -1967,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Isc",
           "name": "Isc",
           "package": "chalmers-lava2000",
@@ -1975,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Lava Isc",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Isc",
           "name": "Isc",
           "package": "chalmers-lava2000",
@@ -1988,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Isc",
           "name": "IscMethod",
           "package": "chalmers-lava2000",
@@ -1996,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Lava Isc",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Isc",
           "name": "IscMethod",
           "package": "chalmers-lava2000",
@@ -2009,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Isc",
           "name": "Bmc",
           "package": "chalmers-lava2000",
@@ -2018,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Lava Isc",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Isc",
           "name": "Bmc",
           "package": "chalmers-lava2000",
@@ -2031,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Isc",
           "name": "Mixed",
           "package": "chalmers-lava2000",
@@ -2040,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "Lava Isc",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Isc",
           "name": "Mixed",
           "package": "chalmers-lava2000",
@@ -2053,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Isc",
           "name": "StepMax",
           "package": "chalmers-lava2000",
@@ -2062,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "Lava Isc",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Isc",
           "name": "StepMax",
           "package": "chalmers-lava2000",
@@ -2075,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Isc",
           "name": "StepMin",
           "package": "chalmers-lava2000",
@@ -2084,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Lava Isc",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Isc",
           "name": "StepMin",
           "package": "chalmers-lava2000",
@@ -2097,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Isc",
           "name": "isc",
           "package": "chalmers-lava2000",
@@ -2106,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Lava Isc",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Isc",
           "name": "isc",
           "normalized": "a-\u003eIO ProofResult",
@@ -2120,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Isc",
           "name": "iscWith",
           "package": "chalmers-lava2000",
@@ -2129,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Lava Isc",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Isc",
           "name": "iscWith",
           "normalized": "IscMethod-\u003eInt-\u003ea-\u003eIO ProofResult",
@@ -2144,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.LavaDir",
           "name": "LavaDir",
           "package": "chalmers-lava2000",
@@ -2152,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Lava LavaDir",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.LavaDir",
           "name": "LavaDir",
           "package": "chalmers-lava2000",
@@ -2165,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.LavaDir",
           "name": "getLavaDir",
           "package": "chalmers-lava2000",
@@ -2174,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Lava LavaDir",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.LavaDir",
           "name": "getLavaDir",
           "package": "chalmers-lava2000",
@@ -2187,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.LavaRandom",
           "name": "LavaRandom",
           "package": "chalmers-lava2000",
@@ -2195,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Lava LavaRandom",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.LavaRandom",
           "name": "LavaRandom",
           "package": "chalmers-lava2000",
@@ -2208,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.LavaRandom",
           "name": "Rnd",
           "package": "chalmers-lava2000",
@@ -2216,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Lava LavaRandom",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.LavaRandom",
           "name": "Rnd",
           "package": "chalmers-lava2000",
@@ -2229,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.LavaRandom",
           "name": "newRnd",
           "package": "chalmers-lava2000",
@@ -2238,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Lava LavaRandom",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.LavaRandom",
           "name": "newRnd",
           "package": "chalmers-lava2000",
@@ -2252,6 +2450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e operation returns an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e that is uniformly distributed\n in the range returned by \u003ccode\u003e\u003ca\u003egenRange\u003c/a\u003e\u003c/code\u003e (including both end points),\n and a new generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.LavaRandom",
           "name": "next",
           "package": "chalmers-lava2000",
@@ -2261,6 +2460,7 @@
         "index": {
           "description": "The next operation returns an Int that is uniformly distributed in the range returned by genRange including both end points and new generator",
           "hierarchy": "Lava LavaRandom",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.LavaRandom",
           "name": "next",
           "normalized": "a-\u003e(Int,a)",
@@ -2276,6 +2476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003e operation allows one to obtain two distinct random number\n generators. This is very useful in functional programs (for example, when\n passing a random number generator down to recursive calls), but very\n little work has been done on statistically robust implementations of\n \u003ccode\u003e\u003ca\u003esplit\u003c/a\u003e\u003c/code\u003e ([\u003ca\u003eSystem.Random\u003c/a\u003e, \u003ca\u003eSystem.Random\u003c/a\u003e]\n are the only examples we know of).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.LavaRandom",
           "name": "split",
           "package": "chalmers-lava2000",
@@ -2285,6 +2486,7 @@
         "index": {
           "description": "The split operation allows one to obtain two distinct random number generators This is very useful in functional programs for example when passing random number generator down to recursive calls but very little work has been done on statistically robust implementations of split System.Random System.Random are the only examples we know of",
           "hierarchy": "Lava LavaRandom",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.LavaRandom",
           "name": "split",
           "normalized": "a-\u003e(a,a)",
@@ -2299,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Limmat",
           "name": "Limmat",
           "package": "chalmers-lava2000",
@@ -2307,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "Lava Limmat",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Limmat",
           "name": "Limmat",
           "package": "chalmers-lava2000",
@@ -2320,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Limmat",
           "name": "limmat",
           "package": "chalmers-lava2000",
@@ -2329,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Lava Limmat",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Limmat",
           "name": "limmat",
           "normalized": "a-\u003eIO ProofResult",
@@ -2343,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Modoc",
           "name": "Modoc",
           "package": "chalmers-lava2000",
@@ -2351,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Lava Modoc",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Modoc",
           "name": "Modoc",
           "package": "chalmers-lava2000",
@@ -2364,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Modoc",
           "name": "modoc",
           "package": "chalmers-lava2000",
@@ -2373,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "Lava Modoc",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Modoc",
           "name": "modoc",
           "normalized": "a-\u003eIO ProofResult",
@@ -2387,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.MyST",
           "name": "MyST",
           "package": "chalmers-lava2000",
@@ -2395,6 +2606,7 @@
         },
         "index": {
           "hierarchy": "Lava MyST",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.MyST",
           "name": "MyST",
           "package": "chalmers-lava2000",
@@ -2408,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.MyST",
           "name": "ST",
           "package": "chalmers-lava2000",
@@ -2416,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Lava MyST",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.MyST",
           "name": "ST",
           "package": "chalmers-lava2000",
@@ -2429,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.MyST",
           "name": "STRef",
           "package": "chalmers-lava2000",
@@ -2437,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Lava MyST",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.MyST",
           "name": "STRef",
           "package": "chalmers-lava2000",
@@ -2450,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.MyST",
           "name": "fixST",
           "package": "chalmers-lava2000",
@@ -2459,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Lava MyST",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.MyST",
           "name": "fixST",
           "normalized": "(a-\u003eST b a)-\u003eST b a",
@@ -2474,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.MyST",
           "name": "newSTRef",
           "package": "chalmers-lava2000",
@@ -2483,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "Lava MyST",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.MyST",
           "name": "newSTRef",
           "normalized": "a-\u003eST b(STRef b a)",
@@ -2498,6 +2718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.MyST",
           "name": "readSTRef",
           "package": "chalmers-lava2000",
@@ -2507,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Lava MyST",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.MyST",
           "name": "readSTRef",
           "normalized": "STRef a b-\u003eST a b",
@@ -2522,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.MyST",
           "name": "runST",
           "package": "chalmers-lava2000",
@@ -2531,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "Lava MyST",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.MyST",
           "name": "runST",
           "normalized": "(a b ST c d)-\u003ed",
@@ -2546,6 +2770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.MyST",
           "name": "unsafeIOtoST",
           "package": "chalmers-lava2000",
@@ -2555,6 +2780,7 @@
         },
         "index": {
           "hierarchy": "Lava MyST",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.MyST",
           "name": "unsafeIOtoST",
           "normalized": "IO a-\u003eST b a",
@@ -2570,6 +2796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.MyST",
           "name": "unsafeInterleaveST",
           "package": "chalmers-lava2000",
@@ -2579,6 +2806,7 @@
         },
         "index": {
           "hierarchy": "Lava MyST",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.MyST",
           "name": "unsafeInterleaveST",
           "normalized": "ST a b-\u003eST a b",
@@ -2594,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.MyST",
           "name": "unsafePerformST",
           "package": "chalmers-lava2000",
@@ -2603,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Lava MyST",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.MyST",
           "name": "unsafePerformST",
           "normalized": "ST a b-\u003eb",
@@ -2618,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.MyST",
           "name": "writeSTRef",
           "package": "chalmers-lava2000",
@@ -2627,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Lava MyST",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.MyST",
           "name": "writeSTRef",
           "normalized": "STRef a b-\u003eb-\u003eST a()",
@@ -2642,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Netlist",
           "name": "Netlist",
           "package": "chalmers-lava2000",
@@ -2650,6 +2883,7 @@
         },
         "index": {
           "hierarchy": "Lava Netlist",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Netlist",
           "name": "Netlist",
           "package": "chalmers-lava2000",
@@ -2663,6 +2897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Netlist",
           "name": "netlist",
           "package": "chalmers-lava2000",
@@ -2672,6 +2907,7 @@
         },
         "index": {
           "hierarchy": "Lava Netlist",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Netlist",
           "name": "netlist",
           "normalized": "(S a-\u003ea)-\u003eb Symbol-\u003eb a",
@@ -2686,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Netlist",
           "name": "netlistIO",
           "package": "chalmers-lava2000",
@@ -2695,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Lava Netlist",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Netlist",
           "name": "netlistIO",
           "normalized": "IO a-\u003e(a-\u003eS a-\u003eIO())-\u003eb Symbol-\u003eIO(b a)",
@@ -2710,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Netlist",
           "name": "netlistST",
           "package": "chalmers-lava2000",
@@ -2719,6 +2958,7 @@
         },
         "index": {
           "hierarchy": "Lava Netlist",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Netlist",
           "name": "netlistST",
           "normalized": "ST a b-\u003e(b-\u003eS b-\u003eST a())-\u003ec Symbol-\u003eST a(c b)",
@@ -2734,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "Operators",
           "package": "chalmers-lava2000",
@@ -2742,6 +2983,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "Operators",
           "package": "chalmers-lava2000",
@@ -2755,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "SignalInt",
           "package": "chalmers-lava2000",
@@ -2763,6 +3006,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "SignalInt",
           "package": "chalmers-lava2000",
@@ -2776,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "(|-\u003e)",
           "package": "chalmers-lava2000",
@@ -2785,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "(|-\u003e) |-\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -2799,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "(%%)",
           "package": "chalmers-lava2000",
@@ -2808,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "(%%) %%",
           "normalized": "Signal Int-\u003eSignal Int-\u003eSignal Int",
@@ -2822,6 +3070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "(\u003c|\u003e)",
           "package": "chalmers-lava2000",
@@ -2831,6 +3080,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "Signal Bool-\u003eSignal Bool-\u003eSignal Bool",
@@ -2845,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "(\u003c#\u003e)",
           "package": "chalmers-lava2000",
@@ -2854,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "(\u003c#\u003e) \u003c#\u003e",
           "normalized": "Signal Bool-\u003eSignal Bool-\u003eSignal Bool",
@@ -2868,6 +3120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "(\u003c&\u003e)",
           "package": "chalmers-lava2000",
@@ -2877,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "(\u003c&\u003e) \u003c&\u003e",
           "normalized": "Signal Bool-\u003eSignal Bool-\u003eSignal Bool",
@@ -2891,6 +3145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "(\u003c==)",
           "package": "chalmers-lava2000",
@@ -2900,6 +3155,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "(\u003c==) \u003c==",
           "normalized": "Signal Bool-\u003eSignal Bool-\u003eSignal Bool",
@@ -2914,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "(\u003c==\u003e)",
           "package": "chalmers-lava2000",
@@ -2923,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "(\u003c==\u003e) \u003c==\u003e",
           "normalized": "a-\u003ea-\u003eSignal Bool",
@@ -2937,6 +3195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "(\u003c=\u003e)",
           "package": "chalmers-lava2000",
@@ -2946,6 +3205,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "(\u003c=\u003e) \u003c=\u003e",
           "normalized": "Signal Bool-\u003eSignal Bool-\u003eSignal Bool",
@@ -2960,6 +3220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "(==\u003e)",
           "package": "chalmers-lava2000",
@@ -2969,6 +3230,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "(==\u003e) ==\u003e",
           "normalized": "Signal Bool-\u003eSignal Bool-\u003eSignal Bool",
@@ -2983,6 +3245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "(\u003e\u003e==)",
           "package": "chalmers-lava2000",
@@ -2992,6 +3255,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "(\u003e\u003e==) \u003e\u003e==",
           "normalized": "Signal Int-\u003eSignal Int-\u003eSignal Bool",
@@ -3006,6 +3270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "and2",
           "package": "chalmers-lava2000",
@@ -3015,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "and2",
           "normalized": "(Signal Bool,Signal Bool)-\u003eSignal Bool",
@@ -3029,6 +3295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "bit2int",
           "package": "chalmers-lava2000",
@@ -3038,6 +3305,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "bit2int",
           "normalized": "Signal Bool-\u003eSignal Int",
@@ -3052,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "equiv",
           "package": "chalmers-lava2000",
@@ -3061,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "equiv",
           "normalized": "(Signal Bool,Signal Bool)-\u003eSignal Bool",
@@ -3075,6 +3345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "fromSignalInt",
           "package": "chalmers-lava2000",
@@ -3084,6 +3355,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "fromSignalInt",
           "normalized": "Signal Int-\u003eSignal a",
@@ -3099,6 +3371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "gte",
           "package": "chalmers-lava2000",
@@ -3108,6 +3381,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "gte",
           "normalized": "(Signal Int,Signal Int)-\u003eSignal Bool",
@@ -3122,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "idiv",
           "package": "chalmers-lava2000",
@@ -3131,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "idiv",
           "normalized": "(Signal Int,Signal Int)-\u003eSignal Int",
@@ -3145,6 +3421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "imax",
           "package": "chalmers-lava2000",
@@ -3154,6 +3431,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "imax",
           "normalized": "(Signal Int,Signal Int)-\u003eSignal Int",
@@ -3168,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "imin",
           "package": "chalmers-lava2000",
@@ -3177,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "imin",
           "normalized": "(Signal Int,Signal Int)-\u003eSignal Int",
@@ -3191,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "imod",
           "package": "chalmers-lava2000",
@@ -3200,6 +3481,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "imod",
           "normalized": "(Signal Int,Signal Int)-\u003eSignal Int",
@@ -3214,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "impl",
           "package": "chalmers-lava2000",
@@ -3223,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "impl",
           "normalized": "(Signal Bool,Signal Bool)-\u003eSignal Bool",
@@ -3237,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "int2bit",
           "package": "chalmers-lava2000",
@@ -3246,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "int2bit",
           "normalized": "Signal Int-\u003eSignal Bool",
@@ -3260,6 +3546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "nand2",
           "package": "chalmers-lava2000",
@@ -3269,6 +3556,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "nand2",
           "normalized": "(Signal Bool,Signal Bool)-\u003eSignal Bool",
@@ -3283,6 +3571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "nandl",
           "package": "chalmers-lava2000",
@@ -3292,6 +3581,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "nandl",
           "normalized": "[Signal Bool]-\u003eSignal Bool",
@@ -3306,6 +3596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "nor2",
           "package": "chalmers-lava2000",
@@ -3315,6 +3606,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "nor2",
           "normalized": "(Signal Bool,Signal Bool)-\u003eSignal Bool",
@@ -3329,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "norl",
           "package": "chalmers-lava2000",
@@ -3338,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "norl",
           "normalized": "[Signal Bool]-\u003eSignal Bool",
@@ -3352,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "or2",
           "package": "chalmers-lava2000",
@@ -3361,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "or2",
           "normalized": "(Signal Bool,Signal Bool)-\u003eSignal Bool",
@@ -3375,6 +3671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "plus",
           "package": "chalmers-lava2000",
@@ -3384,6 +3681,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "plus",
           "normalized": "(Signal Int,Signal Int)-\u003eSignal Int",
@@ -3398,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "sub",
           "package": "chalmers-lava2000",
@@ -3407,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "sub",
           "normalized": "(Signal Int,Signal Int)-\u003eSignal Int",
@@ -3421,6 +3721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "times",
           "package": "chalmers-lava2000",
@@ -3430,6 +3731,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "times",
           "normalized": "(Signal Int,Signal Int)-\u003eSignal Int",
@@ -3444,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "toSignalInt",
           "package": "chalmers-lava2000",
@@ -3453,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "toSignalInt",
           "normalized": "Signal a-\u003eSignal Int",
@@ -3468,6 +3772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "xnor2",
           "package": "chalmers-lava2000",
@@ -3477,6 +3782,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "xnor2",
           "normalized": "(Signal Bool,Signal Bool)-\u003eSignal Bool",
@@ -3491,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Operators",
           "name": "xor2",
           "package": "chalmers-lava2000",
@@ -3500,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "Lava Operators",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Operators",
           "name": "xor2",
           "normalized": "(Signal Bool,Signal Bool)-\u003eSignal Bool",
@@ -3514,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "Patterns",
           "package": "chalmers-lava2000",
@@ -3522,6 +3831,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "Patterns",
           "package": "chalmers-lava2000",
@@ -3535,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "(-|-)",
           "package": "chalmers-lava2000",
@@ -3544,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "(-|-) -|-",
           "normalized": "(a-\u003ea)-\u003e(a-\u003ea)-\u003e(a,a)-\u003e(a,a)",
@@ -3558,6 +3870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "(-\u003e-)",
           "package": "chalmers-lava2000",
@@ -3567,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "(-\u003e-) -\u003e-",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ec)-\u003ea-\u003ec",
@@ -3581,6 +3895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "append",
           "package": "chalmers-lava2000",
@@ -3590,6 +3905,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "append",
           "normalized": "([a],[a])-\u003e[a]",
@@ -3604,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "bfly",
           "package": "chalmers-lava2000",
@@ -3613,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "bfly",
           "normalized": "a-\u003e([a]-\u003e[a])-\u003e[a]-\u003e[a]",
@@ -3627,6 +3945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "column",
           "package": "chalmers-lava2000",
@@ -3636,6 +3955,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "column",
           "normalized": "((a,a)-\u003e(a,b))-\u003e([a],a)-\u003e(a,[b])",
@@ -3650,6 +3970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "compose",
           "package": "chalmers-lava2000",
@@ -3659,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "compose",
           "normalized": "[a-\u003ea]-\u003ea-\u003ea",
@@ -3673,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "composeN",
           "package": "chalmers-lava2000",
@@ -3682,6 +4005,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "composeN",
           "normalized": "Int-\u003e(a-\u003ea)-\u003ea-\u003ea",
@@ -3696,6 +4020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "copy",
           "package": "chalmers-lava2000",
@@ -3705,6 +4030,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "copy",
           "normalized": "a-\u003e(a,a)",
@@ -3719,6 +4045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "grid",
           "package": "chalmers-lava2000",
@@ -3728,6 +4055,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "grid",
           "normalized": "((a,b)-\u003e(b,a))-\u003e([a],[b])-\u003e([b],[a])",
@@ -3742,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "halveList",
           "package": "chalmers-lava2000",
@@ -3751,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "halveList",
           "normalized": "[a]-\u003e([a],[a])",
@@ -3766,6 +4096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "ilv",
           "package": "chalmers-lava2000",
@@ -3775,6 +4106,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "ilv",
           "normalized": "([a]-\u003e[b])-\u003e[a]-\u003e[b]",
@@ -3789,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "ilvN",
           "package": "chalmers-lava2000",
@@ -3798,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "ilvN",
           "normalized": "a-\u003e([b]-\u003e[a])-\u003e[b]-\u003e[a]",
@@ -3812,6 +4146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "iter",
           "package": "chalmers-lava2000",
@@ -3821,6 +4156,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "iter",
           "normalized": "a-\u003e(b-\u003eb)-\u003eb-\u003eb",
@@ -3835,6 +4171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "mirror",
           "package": "chalmers-lava2000",
@@ -3844,6 +4181,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "mirror",
           "normalized": "((a,a)-\u003e(a,a))-\u003e(a,a)-\u003e(a,a)",
@@ -3858,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "pair",
           "package": "chalmers-lava2000",
@@ -3867,6 +4206,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "pair",
           "normalized": "[a]-\u003e[(a,a)]",
@@ -3881,6 +4221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "par",
           "package": "chalmers-lava2000",
@@ -3890,6 +4231,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "par",
           "normalized": "(a-\u003ea)-\u003e(a-\u003ea)-\u003e(a,a)-\u003e(a,a)",
@@ -3904,6 +4246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "parl",
           "package": "chalmers-lava2000",
@@ -3913,6 +4256,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "parl",
           "normalized": "([a]-\u003e[a])-\u003e([a]-\u003e[a])-\u003e[a]-\u003e[a]",
@@ -3927,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "pmap",
           "package": "chalmers-lava2000",
@@ -3936,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "pmap",
           "normalized": "((a,a)-\u003e(b,b))-\u003e[a]-\u003e[b]",
@@ -3950,6 +4296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "riffle",
           "package": "chalmers-lava2000",
@@ -3959,6 +4306,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "riffle",
           "normalized": "[a]-\u003e[a]",
@@ -3973,6 +4321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "row",
           "package": "chalmers-lava2000",
@@ -3982,6 +4331,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "row",
           "normalized": "((a,a)-\u003e(b,a))-\u003e(a,[a])-\u003e([b],a)",
@@ -3996,6 +4346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "serial",
           "package": "chalmers-lava2000",
@@ -4005,6 +4356,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "serial",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ec)-\u003ea-\u003ec",
@@ -4019,6 +4371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "swap",
           "package": "chalmers-lava2000",
@@ -4028,6 +4381,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "swap",
           "normalized": "(a,a)-\u003e(a,a)",
@@ -4042,6 +4396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "swapl",
           "package": "chalmers-lava2000",
@@ -4051,6 +4406,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "swapl",
           "normalized": "[a]-\u003e[a]",
@@ -4065,6 +4421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "tri",
           "package": "chalmers-lava2000",
@@ -4074,6 +4431,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "tri",
           "normalized": "(a-\u003ea)-\u003e[a]-\u003e[a]",
@@ -4088,6 +4446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "two",
           "package": "chalmers-lava2000",
@@ -4097,6 +4456,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "two",
           "normalized": "([a]-\u003e[a])-\u003e[a]-\u003e[a]",
@@ -4111,6 +4471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "twoN",
           "package": "chalmers-lava2000",
@@ -4120,6 +4481,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "twoN",
           "normalized": "a-\u003e([a]-\u003e[a])-\u003e[a]-\u003e[a]",
@@ -4134,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "unpair",
           "package": "chalmers-lava2000",
@@ -4143,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "unpair",
           "normalized": "[(a,a)]-\u003e[a]",
@@ -4157,6 +4521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "unriffle",
           "package": "chalmers-lava2000",
@@ -4166,6 +4531,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "unriffle",
           "normalized": "[a]-\u003e[a]",
@@ -4180,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "unzipp",
           "package": "chalmers-lava2000",
@@ -4189,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "unzipp",
           "normalized": "[(a,a)]-\u003e([a],[a])",
@@ -4203,6 +4571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Patterns",
           "name": "zipp",
           "package": "chalmers-lava2000",
@@ -4212,6 +4581,7 @@
         },
         "index": {
           "hierarchy": "Lava Patterns",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Patterns",
           "name": "zipp",
           "normalized": "([a],[a])-\u003e[(a,a)]",
@@ -4226,6 +4596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "Property",
           "package": "chalmers-lava2000",
@@ -4234,6 +4605,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "Property",
           "package": "chalmers-lava2000",
@@ -4247,6 +4619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "Checkable",
           "package": "chalmers-lava2000",
@@ -4255,6 +4628,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "Checkable",
           "package": "chalmers-lava2000",
@@ -4268,6 +4642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "ChoiceWithSig",
           "package": "chalmers-lava2000",
@@ -4276,6 +4651,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "ChoiceWithSig",
           "package": "chalmers-lava2000",
@@ -4289,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "CoFresh",
           "package": "chalmers-lava2000",
@@ -4297,6 +4674,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "CoFresh",
           "package": "chalmers-lava2000",
@@ -4310,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "Fresh",
           "package": "chalmers-lava2000",
@@ -4318,6 +4697,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "Fresh",
           "package": "chalmers-lava2000",
@@ -4331,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "Gen",
           "package": "chalmers-lava2000",
@@ -4339,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "Gen",
           "package": "chalmers-lava2000",
@@ -4352,6 +4734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "Model",
           "package": "chalmers-lava2000",
@@ -4360,6 +4743,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "Model",
           "package": "chalmers-lava2000",
@@ -4373,6 +4757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "Property",
           "package": "chalmers-lava2000",
@@ -4381,6 +4766,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "Property",
           "package": "chalmers-lava2000",
@@ -4394,6 +4780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "ShowModel",
           "package": "chalmers-lava2000",
@@ -4402,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "ShowModel",
           "package": "chalmers-lava2000",
@@ -4415,6 +4803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "P",
           "package": "chalmers-lava2000",
@@ -4424,6 +4813,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "P",
           "normalized": "P(Gen([Signal Bool],Model-\u003e[[String]]))",
@@ -4438,6 +4828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "cofresh",
           "package": "chalmers-lava2000",
@@ -4447,6 +4838,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "cofresh",
           "normalized": "Gen a-\u003eGen(b-\u003ea)",
@@ -4461,6 +4853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "double",
           "package": "chalmers-lava2000",
@@ -4470,6 +4863,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "double",
           "normalized": "Gen a-\u003eGen(a,a)",
@@ -4484,6 +4878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "forAll",
           "package": "chalmers-lava2000",
@@ -4493,6 +4888,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "forAll",
           "normalized": "Gen a-\u003e(a-\u003eb)-\u003eProperty",
@@ -4508,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "fresh",
           "package": "chalmers-lava2000",
@@ -4517,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "fresh",
           "package": "chalmers-lava2000",
@@ -4529,6 +4927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "generate",
           "package": "chalmers-lava2000",
@@ -4538,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "generate",
           "normalized": "Gen a-\u003eIO a",
@@ -4552,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "list",
           "package": "chalmers-lava2000",
@@ -4561,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "list",
           "normalized": "Int-\u003eGen[a]",
@@ -4575,6 +4977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "listOf",
           "package": "chalmers-lava2000",
@@ -4584,6 +4987,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "listOf",
           "normalized": "Int-\u003eGen a-\u003eGen[a]",
@@ -4599,6 +5003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "properties",
           "package": "chalmers-lava2000",
@@ -4608,6 +5013,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "properties",
           "normalized": "a-\u003eIO([Signal Bool],Model-\u003e[[String]])",
@@ -4622,6 +5028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "property",
           "package": "chalmers-lava2000",
@@ -4631,6 +5038,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "property",
           "normalized": "a-\u003eProperty",
@@ -4645,6 +5053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "results",
           "package": "chalmers-lava2000",
@@ -4654,6 +5063,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "results",
           "normalized": "Int-\u003eGen(a-\u003eb)-\u003eGen(a-\u003e[b])",
@@ -4668,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "sequential",
           "package": "chalmers-lava2000",
@@ -4677,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "sequential",
           "normalized": "Int-\u003eGen(a-\u003eb)",
@@ -4691,6 +5103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "showModel",
           "package": "chalmers-lava2000",
@@ -4700,6 +5113,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "showModel",
           "normalized": "Model-\u003ea-\u003e[String]",
@@ -4715,6 +5129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Property",
           "name": "triple",
           "package": "chalmers-lava2000",
@@ -4724,6 +5139,7 @@
         },
         "index": {
           "hierarchy": "Lava Property",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Property",
           "name": "triple",
           "normalized": "Gen a-\u003eGen(a,a,a)",
@@ -4738,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "Ref",
           "package": "chalmers-lava2000",
@@ -4746,6 +5163,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "Ref",
           "package": "chalmers-lava2000",
@@ -4759,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "Ref",
           "package": "chalmers-lava2000",
@@ -4767,6 +5186,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "Ref",
           "package": "chalmers-lava2000",
@@ -4780,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "TableIO",
           "package": "chalmers-lava2000",
@@ -4788,6 +5209,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "TableIO",
           "package": "chalmers-lava2000",
@@ -4801,6 +5223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "TableST",
           "package": "chalmers-lava2000",
@@ -4809,6 +5232,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "TableST",
           "package": "chalmers-lava2000",
@@ -4822,6 +5246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "deref",
           "package": "chalmers-lava2000",
@@ -4831,6 +5256,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "deref",
           "normalized": "Ref a-\u003ea",
@@ -4845,6 +5271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "extendIO",
           "package": "chalmers-lava2000",
@@ -4854,6 +5281,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "extendIO",
           "normalized": "TableIO a b-\u003eRef a-\u003eb-\u003eIO()",
@@ -4869,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "extendST",
           "package": "chalmers-lava2000",
@@ -4878,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "extendST",
           "normalized": "TableST a b c-\u003eRef b-\u003ec-\u003eST a()",
@@ -4893,6 +5323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "findIO",
           "package": "chalmers-lava2000",
@@ -4902,6 +5333,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "findIO",
           "normalized": "TableIO a b-\u003eRef a-\u003eIO(Maybe b)",
@@ -4917,6 +5349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "findST",
           "package": "chalmers-lava2000",
@@ -4926,6 +5359,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "findST",
           "normalized": "TableST a b c-\u003eRef b-\u003eST a(Maybe c)",
@@ -4941,6 +5375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "memoRef",
           "package": "chalmers-lava2000",
@@ -4950,6 +5385,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "memoRef",
           "normalized": "(Ref a-\u003eb)-\u003eRef a-\u003eb",
@@ -4965,6 +5401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "memoRefIO",
           "package": "chalmers-lava2000",
@@ -4974,6 +5411,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "memoRefIO",
           "normalized": "(Ref a-\u003eIO b)-\u003eRef a-\u003eIO b",
@@ -4989,6 +5427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "memoRefST",
           "package": "chalmers-lava2000",
@@ -4998,6 +5437,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "memoRefST",
           "normalized": "(Ref a-\u003eST b c)-\u003eRef a-\u003eST b c",
@@ -5013,6 +5453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "ref",
           "package": "chalmers-lava2000",
@@ -5022,6 +5463,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "ref",
           "normalized": "a-\u003eRef a",
@@ -5036,6 +5478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "tableIO",
           "package": "chalmers-lava2000",
@@ -5045,6 +5488,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "tableIO",
           "package": "chalmers-lava2000",
@@ -5058,6 +5502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Ref",
           "name": "tableST",
           "package": "chalmers-lava2000",
@@ -5067,6 +5512,7 @@
         },
         "index": {
           "hierarchy": "Lava Ref",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Ref",
           "name": "tableST",
           "package": "chalmers-lava2000",
@@ -5080,6 +5526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Retime",
           "name": "Retime",
           "package": "chalmers-lava2000",
@@ -5088,6 +5535,7 @@
         },
         "index": {
           "hierarchy": "Lava Retime",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Retime",
           "name": "Retime",
           "package": "chalmers-lava2000",
@@ -5101,6 +5549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Retime",
           "name": "timeTransform",
           "package": "chalmers-lava2000",
@@ -5110,6 +5559,7 @@
         },
         "index": {
           "hierarchy": "Lava Retime",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Retime",
           "name": "timeTransform",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -5125,6 +5575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Satnik",
           "name": "Satnik",
           "package": "chalmers-lava2000",
@@ -5133,6 +5584,7 @@
         },
         "index": {
           "hierarchy": "Lava Satnik",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Satnik",
           "name": "Satnik",
           "package": "chalmers-lava2000",
@@ -5146,6 +5598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Satnik",
           "name": "satnik",
           "package": "chalmers-lava2000",
@@ -5155,6 +5608,7 @@
         },
         "index": {
           "hierarchy": "Lava Satnik",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Satnik",
           "name": "satnik",
           "normalized": "a-\u003eIO ProofResult",
@@ -5169,6 +5623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Satzoo",
           "name": "Satzoo",
           "package": "chalmers-lava2000",
@@ -5177,6 +5632,7 @@
         },
         "index": {
           "hierarchy": "Lava Satzoo",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Satzoo",
           "name": "Satzoo",
           "package": "chalmers-lava2000",
@@ -5190,6 +5646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Satzoo",
           "name": "satzoo",
           "package": "chalmers-lava2000",
@@ -5199,6 +5656,7 @@
         },
         "index": {
           "hierarchy": "Lava Satzoo",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Satzoo",
           "name": "satzoo",
           "normalized": "a-\u003eIO ProofResult",
@@ -5213,6 +5671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Sequent",
           "name": "Sequent",
           "package": "chalmers-lava2000",
@@ -5221,6 +5680,7 @@
         },
         "index": {
           "hierarchy": "Lava Sequent",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Sequent",
           "name": "Sequent",
           "package": "chalmers-lava2000",
@@ -5234,6 +5694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Sequent",
           "name": "Sequent",
           "package": "chalmers-lava2000",
@@ -5242,6 +5703,7 @@
         },
         "index": {
           "hierarchy": "Lava Sequent",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Sequent",
           "name": "Sequent",
           "package": "chalmers-lava2000",
@@ -5255,6 +5717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Sequent",
           "name": "mmap",
           "package": "chalmers-lava2000",
@@ -5264,6 +5727,7 @@
         },
         "index": {
           "hierarchy": "Lava Sequent",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Sequent",
           "name": "mmap",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -5278,6 +5742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Sequent",
           "name": "sequent",
           "package": "chalmers-lava2000",
@@ -5287,6 +5752,7 @@
         },
         "index": {
           "hierarchy": "Lava Sequent",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Sequent",
           "name": "sequent",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -5301,6 +5767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Sequential",
           "name": "Sequential",
           "package": "chalmers-lava2000",
@@ -5309,6 +5776,7 @@
         },
         "index": {
           "hierarchy": "Lava Sequential",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Sequential",
           "name": "Sequential",
           "package": "chalmers-lava2000",
@@ -5322,6 +5790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Sequential",
           "name": "simulateSeq",
           "package": "chalmers-lava2000",
@@ -5331,6 +5800,7 @@
         },
         "index": {
           "hierarchy": "Lava Sequential",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Sequential",
           "name": "simulateSeq",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -5346,6 +5816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SequentialCircuits",
           "name": "SequentialCircuits",
           "package": "chalmers-lava2000",
@@ -5354,6 +5825,7 @@
         },
         "index": {
           "hierarchy": "Lava SequentialCircuits",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SequentialCircuits",
           "name": "SequentialCircuits",
           "package": "chalmers-lava2000",
@@ -5367,6 +5839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SequentialCircuits",
           "name": "always",
           "package": "chalmers-lava2000",
@@ -5376,6 +5849,7 @@
         },
         "index": {
           "hierarchy": "Lava SequentialCircuits",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SequentialCircuits",
           "name": "always",
           "normalized": "Signal Bool-\u003eSignal Bool",
@@ -5390,6 +5864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SequentialCircuits",
           "name": "constant",
           "package": "chalmers-lava2000",
@@ -5399,6 +5874,7 @@
         },
         "index": {
           "hierarchy": "Lava SequentialCircuits",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SequentialCircuits",
           "name": "constant",
           "normalized": "a-\u003eSignal Bool",
@@ -5413,6 +5889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SequentialCircuits",
           "name": "delayClk",
           "package": "chalmers-lava2000",
@@ -5422,6 +5899,7 @@
         },
         "index": {
           "hierarchy": "Lava SequentialCircuits",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SequentialCircuits",
           "name": "delayClk",
           "normalized": "a-\u003e(Signal Bool,a)-\u003ea",
@@ -5437,6 +5915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SequentialCircuits",
           "name": "delayN",
           "package": "chalmers-lava2000",
@@ -5446,6 +5925,7 @@
         },
         "index": {
           "hierarchy": "Lava SequentialCircuits",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SequentialCircuits",
           "name": "delayN",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -5460,6 +5940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SequentialCircuits",
           "name": "edge",
           "package": "chalmers-lava2000",
@@ -5469,6 +5950,7 @@
         },
         "index": {
           "hierarchy": "Lava SequentialCircuits",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SequentialCircuits",
           "name": "edge",
           "normalized": "Signal Bool-\u003eSignal Bool",
@@ -5483,6 +5965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SequentialCircuits",
           "name": "outputList",
           "package": "chalmers-lava2000",
@@ -5492,6 +5975,7 @@
         },
         "index": {
           "hierarchy": "Lava SequentialCircuits",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SequentialCircuits",
           "name": "outputList",
           "normalized": "[a]-\u003e()-\u003ea",
@@ -5507,6 +5991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SequentialCircuits",
           "name": "puls",
           "package": "chalmers-lava2000",
@@ -5516,6 +6001,7 @@
         },
         "index": {
           "hierarchy": "Lava SequentialCircuits",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SequentialCircuits",
           "name": "puls",
           "normalized": "a-\u003e()-\u003eSignal Bool",
@@ -5530,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SequentialCircuits",
           "name": "rowSeq",
           "package": "chalmers-lava2000",
@@ -5539,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "Lava SequentialCircuits",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SequentialCircuits",
           "name": "rowSeq",
           "normalized": "((a,a)-\u003e(a,a))-\u003ea-\u003ea",
@@ -5554,6 +6042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SequentialCircuits",
           "name": "rowSeqPeriod",
           "package": "chalmers-lava2000",
@@ -5563,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "Lava SequentialCircuits",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SequentialCircuits",
           "name": "rowSeqPeriod",
           "normalized": "a-\u003e((b,b)-\u003e(b,b))-\u003eb-\u003eb",
@@ -5578,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SequentialCircuits",
           "name": "rowSeqReset",
           "package": "chalmers-lava2000",
@@ -5587,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "Lava SequentialCircuits",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SequentialCircuits",
           "name": "rowSeqReset",
           "normalized": "((a,a)-\u003e(a,a))-\u003e(Signal Bool,a)-\u003ea",
@@ -5602,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SequentialCircuits",
           "name": "toggle",
           "package": "chalmers-lava2000",
@@ -5611,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "Lava SequentialCircuits",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SequentialCircuits",
           "name": "toggle",
           "normalized": "Signal Bool-\u003eSignal Bool",
@@ -5625,6 +6119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SequentialConstructive",
           "name": "SequentialConstructive",
           "package": "chalmers-lava2000",
@@ -5633,6 +6128,7 @@
         },
         "index": {
           "hierarchy": "Lava SequentialConstructive",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SequentialConstructive",
           "name": "SequentialConstructive",
           "package": "chalmers-lava2000",
@@ -5646,6 +6142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SequentialConstructive",
           "name": "simulateCon",
           "package": "chalmers-lava2000",
@@ -5655,6 +6152,7 @@
         },
         "index": {
           "hierarchy": "Lava SequentialConstructive",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SequentialConstructive",
           "name": "simulateCon",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -5670,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Signal",
           "package": "chalmers-lava2000",
@@ -5678,6 +6177,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Signal",
           "package": "chalmers-lava2000",
@@ -5691,6 +6191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "S",
           "package": "chalmers-lava2000",
@@ -5699,6 +6200,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "S",
           "package": "chalmers-lava2000",
@@ -5711,6 +6213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Signal",
           "package": "chalmers-lava2000",
@@ -5719,6 +6222,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Signal",
           "package": "chalmers-lava2000",
@@ -5732,6 +6236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Symbol",
           "package": "chalmers-lava2000",
@@ -5740,6 +6245,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Symbol",
           "package": "chalmers-lava2000",
@@ -5753,6 +6259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "And",
           "package": "chalmers-lava2000",
@@ -5762,6 +6269,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "And",
           "normalized": "And[a]",
@@ -5777,6 +6285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Bool",
           "package": "chalmers-lava2000",
@@ -5786,6 +6295,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Bool",
           "package": "chalmers-lava2000",
@@ -5799,6 +6309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "DelayBool",
           "package": "chalmers-lava2000",
@@ -5808,6 +6319,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "DelayBool",
           "package": "chalmers-lava2000",
@@ -5821,6 +6333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "DelayInt",
           "package": "chalmers-lava2000",
@@ -5830,6 +6343,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "DelayInt",
           "package": "chalmers-lava2000",
@@ -5843,6 +6357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Div",
           "package": "chalmers-lava2000",
@@ -5852,6 +6367,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Div",
           "package": "chalmers-lava2000",
@@ -5865,6 +6381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Equal",
           "package": "chalmers-lava2000",
@@ -5874,6 +6391,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Equal",
           "normalized": "Equal[a]",
@@ -5889,6 +6407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Gte",
           "package": "chalmers-lava2000",
@@ -5898,6 +6417,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Gte",
           "package": "chalmers-lava2000",
@@ -5911,6 +6431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "If",
           "package": "chalmers-lava2000",
@@ -5920,6 +6441,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "If",
           "package": "chalmers-lava2000",
@@ -5933,6 +6455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Int",
           "package": "chalmers-lava2000",
@@ -5942,6 +6465,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Int",
           "package": "chalmers-lava2000",
@@ -5955,6 +6479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Inv",
           "package": "chalmers-lava2000",
@@ -5964,6 +6489,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Inv",
           "package": "chalmers-lava2000",
@@ -5977,6 +6503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Mod",
           "package": "chalmers-lava2000",
@@ -5986,6 +6513,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Mod",
           "package": "chalmers-lava2000",
@@ -5999,6 +6527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Neg",
           "package": "chalmers-lava2000",
@@ -6008,6 +6537,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Neg",
           "package": "chalmers-lava2000",
@@ -6021,6 +6551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Or",
           "package": "chalmers-lava2000",
@@ -6030,6 +6561,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Or",
           "normalized": "Or[a]",
@@ -6045,6 +6577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Plus",
           "package": "chalmers-lava2000",
@@ -6054,6 +6587,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Plus",
           "normalized": "Plus[a]",
@@ -6069,6 +6603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Signal",
           "package": "chalmers-lava2000",
@@ -6078,6 +6613,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Signal",
           "package": "chalmers-lava2000",
@@ -6091,6 +6627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Symbol",
           "package": "chalmers-lava2000",
@@ -6100,6 +6637,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Symbol",
           "package": "chalmers-lava2000",
@@ -6113,6 +6651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Times",
           "package": "chalmers-lava2000",
@@ -6122,6 +6661,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Times",
           "normalized": "Times[a]",
@@ -6137,6 +6677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "VarBool",
           "package": "chalmers-lava2000",
@@ -6146,6 +6687,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "VarBool",
           "package": "chalmers-lava2000",
@@ -6159,6 +6701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "VarInt",
           "package": "chalmers-lava2000",
@@ -6168,6 +6711,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "VarInt",
           "package": "chalmers-lava2000",
@@ -6181,6 +6725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "Xor",
           "package": "chalmers-lava2000",
@@ -6190,6 +6735,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "Xor",
           "normalized": "Xor[a]",
@@ -6205,6 +6751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "andl",
           "package": "chalmers-lava2000",
@@ -6214,6 +6761,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "andl",
           "normalized": "[Signal Bool]-\u003eSignal Bool",
@@ -6228,6 +6776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "arguments",
           "package": "chalmers-lava2000",
@@ -6237,6 +6786,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "arguments",
           "normalized": "S a-\u003e[a]",
@@ -6251,6 +6801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "bool",
           "package": "chalmers-lava2000",
@@ -6260,6 +6811,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "bool",
           "normalized": "Bool-\u003eSignal Bool",
@@ -6274,6 +6826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "delayBool",
           "package": "chalmers-lava2000",
@@ -6283,6 +6836,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "delayBool",
           "normalized": "Signal Bool-\u003eSignal Bool-\u003eSignal Bool",
@@ -6298,6 +6852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "delayInt",
           "package": "chalmers-lava2000",
@@ -6307,6 +6862,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "delayInt",
           "normalized": "Signal Int-\u003eSignal Int-\u003eSignal Int",
@@ -6322,6 +6878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "divide",
           "package": "chalmers-lava2000",
@@ -6331,6 +6888,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "divide",
           "normalized": "Signal Int-\u003eSignal Int-\u003eSignal Int",
@@ -6345,6 +6903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "equalBool",
           "package": "chalmers-lava2000",
@@ -6354,6 +6913,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "equalBool",
           "normalized": "Signal Bool-\u003eSignal Bool-\u003eSignal Bool",
@@ -6369,6 +6929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "equalInt",
           "package": "chalmers-lava2000",
@@ -6378,6 +6939,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "equalInt",
           "normalized": "Signal Int-\u003eSignal Int-\u003eSignal Bool",
@@ -6393,6 +6955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "equall",
           "package": "chalmers-lava2000",
@@ -6402,6 +6965,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "equall",
           "normalized": "[Signal Int]-\u003eSignal Bool",
@@ -6416,6 +6980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "eval",
           "package": "chalmers-lava2000",
@@ -6425,6 +6990,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "eval",
           "normalized": "S(S a)-\u003eS a",
@@ -6439,6 +7005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "evalLazy",
           "package": "chalmers-lava2000",
@@ -6448,6 +7015,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "evalLazy",
           "normalized": "S(Maybe(S a))-\u003eMaybe(S a)",
@@ -6463,6 +7031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "gteInt",
           "package": "chalmers-lava2000",
@@ -6472,6 +7041,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "gteInt",
           "normalized": "Signal Int-\u003eSignal Int-\u003eSignal Bool",
@@ -6487,6 +7057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "high",
           "package": "chalmers-lava2000",
@@ -6496,6 +7067,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "high",
           "package": "chalmers-lava2000",
@@ -6508,6 +7080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "ifBool",
           "package": "chalmers-lava2000",
@@ -6517,6 +7090,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "ifBool",
           "normalized": "Signal Bool-\u003e(Signal Bool,Signal Bool)-\u003eSignal Bool",
@@ -6532,6 +7106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "ifInt",
           "package": "chalmers-lava2000",
@@ -6541,6 +7116,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "ifInt",
           "normalized": "Signal Bool-\u003e(Signal Int,Signal Int)-\u003eSignal a",
@@ -6556,6 +7132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "int",
           "package": "chalmers-lava2000",
@@ -6565,6 +7142,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "int",
           "normalized": "Int-\u003eSignal Int",
@@ -6579,6 +7157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "inv",
           "package": "chalmers-lava2000",
@@ -6588,6 +7167,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "inv",
           "normalized": "Signal Bool-\u003eSignal Bool",
@@ -6602,6 +7182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "lift0",
           "package": "chalmers-lava2000",
@@ -6611,6 +7192,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "lift0",
           "normalized": "S Symbol-\u003eSignal a",
@@ -6625,6 +7207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "lift1",
           "package": "chalmers-lava2000",
@@ -6634,6 +7217,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "lift1",
           "normalized": "(Symbol-\u003eS Symbol)-\u003eSignal a-\u003eSignal b",
@@ -6648,6 +7232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "lift2",
           "package": "chalmers-lava2000",
@@ -6657,6 +7242,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "lift2",
           "normalized": "(Symbol-\u003eSymbol-\u003eS Symbol)-\u003eSignal a-\u003eSignal b-\u003eSignal c",
@@ -6671,6 +7257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "lift3",
           "package": "chalmers-lava2000",
@@ -6680,6 +7267,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "lift3",
           "normalized": "(Symbol-\u003eSymbol-\u003eSymbol-\u003eS Symbol)-\u003eSignal a-\u003eSignal b-\u003eSignal c-\u003eSignal d",
@@ -6694,6 +7282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "liftl",
           "package": "chalmers-lava2000",
@@ -6703,6 +7292,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "liftl",
           "normalized": "([Symbol]-\u003eS Symbol)-\u003e[Signal a]-\u003eSignal b",
@@ -6717,6 +7307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "low",
           "package": "chalmers-lava2000",
@@ -6726,6 +7317,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "low",
           "package": "chalmers-lava2000",
@@ -6738,6 +7330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "modulo",
           "package": "chalmers-lava2000",
@@ -6747,6 +7340,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "modulo",
           "normalized": "Signal Int-\u003eSignal Int-\u003eSignal Int",
@@ -6761,6 +7355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "neg",
           "package": "chalmers-lava2000",
@@ -6770,6 +7365,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "neg",
           "normalized": "Signal Int-\u003eSignal Int",
@@ -6784,6 +7380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "orl",
           "package": "chalmers-lava2000",
@@ -6793,6 +7390,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "orl",
           "normalized": "[Signal Bool]-\u003eSignal Bool",
@@ -6807,6 +7405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "plusl",
           "package": "chalmers-lava2000",
@@ -6816,6 +7415,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "plusl",
           "normalized": "[Signal Int]-\u003eSignal Int",
@@ -6830,6 +7430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "symbol",
           "package": "chalmers-lava2000",
@@ -6839,6 +7440,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "symbol",
           "normalized": "S Symbol-\u003eSymbol",
@@ -6853,6 +7455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "timesl",
           "package": "chalmers-lava2000",
@@ -6862,6 +7465,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "timesl",
           "normalized": "[Signal Int]-\u003eSignal Int",
@@ -6876,6 +7480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "unsymbol",
           "package": "chalmers-lava2000",
@@ -6885,6 +7490,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "unsymbol",
           "normalized": "Symbol-\u003eS Symbol",
@@ -6899,6 +7505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "varBool",
           "package": "chalmers-lava2000",
@@ -6908,6 +7515,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "varBool",
           "normalized": "String-\u003eSignal Bool",
@@ -6923,6 +7531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "varInt",
           "package": "chalmers-lava2000",
@@ -6932,6 +7541,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "varInt",
           "normalized": "String-\u003eSignal Int",
@@ -6947,6 +7557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "xorl",
           "package": "chalmers-lava2000",
@@ -6956,6 +7567,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "xorl",
           "normalized": "[Signal Bool]-\u003eSignal Bool",
@@ -6970,6 +7582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Signal",
           "name": "zips",
           "package": "chalmers-lava2000",
@@ -6979,6 +7592,7 @@
         },
         "index": {
           "hierarchy": "Lava Signal",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Signal",
           "name": "zips",
           "normalized": "S[a]-\u003e[S a]",
@@ -6993,6 +7607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SignalTry",
           "name": "SignalTry",
           "package": "chalmers-lava2000",
@@ -7001,6 +7616,7 @@
         },
         "index": {
           "hierarchy": "Lava SignalTry",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SignalTry",
           "name": "SignalTry",
           "package": "chalmers-lava2000",
@@ -7014,6 +7630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SignalTry",
           "name": "Signal",
           "package": "chalmers-lava2000",
@@ -7022,6 +7639,7 @@
         },
         "index": {
           "hierarchy": "Lava SignalTry",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SignalTry",
           "name": "Signal",
           "package": "chalmers-lava2000",
@@ -7035,6 +7653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SignalTry",
           "name": "Symbol",
           "package": "chalmers-lava2000",
@@ -7043,6 +7662,7 @@
         },
         "index": {
           "hierarchy": "Lava SignalTry",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SignalTry",
           "name": "Symbol",
           "package": "chalmers-lava2000",
@@ -7056,6 +7676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SignalTry",
           "name": "Delay",
           "package": "chalmers-lava2000",
@@ -7065,6 +7686,7 @@
         },
         "index": {
           "hierarchy": "Lava SignalTry",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SignalTry",
           "name": "Delay",
           "package": "chalmers-lava2000",
@@ -7078,6 +7700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SignalTry",
           "name": "Function",
           "package": "chalmers-lava2000",
@@ -7087,6 +7710,7 @@
         },
         "index": {
           "hierarchy": "Lava SignalTry",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SignalTry",
           "name": "Function",
           "normalized": "a b c Function String([b]-\u003e[c]-\u003ed)[Signal b][Signal c]",
@@ -7102,6 +7726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SignalTry",
           "name": "Symbol",
           "package": "chalmers-lava2000",
@@ -7111,6 +7736,7 @@
         },
         "index": {
           "hierarchy": "Lava SignalTry",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SignalTry",
           "name": "Symbol",
           "package": "chalmers-lava2000",
@@ -7124,6 +7750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SignalTry",
           "name": "Value",
           "package": "chalmers-lava2000",
@@ -7133,6 +7760,7 @@
         },
         "index": {
           "hierarchy": "Lava SignalTry",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SignalTry",
           "name": "Value",
           "package": "chalmers-lava2000",
@@ -7146,6 +7774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SignalTry",
           "name": "Variable",
           "package": "chalmers-lava2000",
@@ -7155,6 +7784,7 @@
         },
         "index": {
           "hierarchy": "Lava SignalTry",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SignalTry",
           "name": "Variable",
           "package": "chalmers-lava2000",
@@ -7168,6 +7798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.SignalTry",
           "name": "and2",
           "package": "chalmers-lava2000",
@@ -7177,6 +7808,7 @@
         },
         "index": {
           "hierarchy": "Lava SignalTry",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.SignalTry",
           "name": "and2",
           "normalized": "(Signal Bool,Signal Bool)-\u003eSignal Bool",
@@ -7191,6 +7823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Smv",
           "name": "Smv",
           "package": "chalmers-lava2000",
@@ -7199,6 +7832,7 @@
         },
         "index": {
           "hierarchy": "Lava Smv",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Smv",
           "name": "Smv",
           "package": "chalmers-lava2000",
@@ -7212,6 +7846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Smv",
           "name": "smv",
           "package": "chalmers-lava2000",
@@ -7221,6 +7856,7 @@
         },
         "index": {
           "hierarchy": "Lava Smv",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Smv",
           "name": "smv",
           "normalized": "a-\u003eIO ProofResult",
@@ -7235,6 +7871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Stable",
           "name": "Stable",
           "package": "chalmers-lava2000",
@@ -7243,6 +7880,7 @@
         },
         "index": {
           "hierarchy": "Lava Stable",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Stable",
           "name": "Stable",
           "package": "chalmers-lava2000",
@@ -7256,6 +7894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Stable",
           "name": "stable",
           "package": "chalmers-lava2000",
@@ -7265,6 +7904,7 @@
         },
         "index": {
           "hierarchy": "Lava Stable",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Stable",
           "name": "stable",
           "normalized": "a-\u003eSignal Bool",
@@ -7279,6 +7919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Table",
           "name": "Table",
           "package": "chalmers-lava2000",
@@ -7287,6 +7928,7 @@
         },
         "index": {
           "hierarchy": "Lava Table",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Table",
           "name": "Table",
           "package": "chalmers-lava2000",
@@ -7300,6 +7942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Table",
           "name": "table",
           "package": "chalmers-lava2000",
@@ -7309,6 +7952,7 @@
         },
         "index": {
           "hierarchy": "Lava Table",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Table",
           "name": "table",
           "normalized": "a Symbol-\u003e([(Int,S Int)],a Int)",
@@ -7323,6 +7967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Table",
           "name": "tableProp",
           "package": "chalmers-lava2000",
@@ -7332,6 +7977,7 @@
         },
         "index": {
           "hierarchy": "Lava Table",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Table",
           "name": "tableProp",
           "normalized": "a-\u003eIO([(Int,S Int)],[Int])",
@@ -7347,6 +7993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Test",
           "name": "Test",
           "package": "chalmers-lava2000",
@@ -7355,6 +8002,7 @@
         },
         "index": {
           "hierarchy": "Lava Test",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Test",
           "name": "Test",
           "package": "chalmers-lava2000",
@@ -7368,6 +8016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Test",
           "name": "test",
           "package": "chalmers-lava2000",
@@ -7377,6 +8026,7 @@
         },
         "index": {
           "hierarchy": "Lava Test",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Test",
           "name": "test",
           "normalized": "(a-\u003eb)-\u003eIO[b]",
@@ -7391,6 +8041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "Verification",
           "package": "chalmers-lava2000",
@@ -7399,6 +8050,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "Verification",
           "package": "chalmers-lava2000",
@@ -7412,6 +8064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "Option",
           "package": "chalmers-lava2000",
@@ -7420,6 +8073,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "Option",
           "package": "chalmers-lava2000",
@@ -7433,6 +8087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "ProofResult",
           "package": "chalmers-lava2000",
@@ -7441,6 +8096,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "ProofResult",
           "package": "chalmers-lava2000",
@@ -7454,6 +8110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "Depth",
           "package": "chalmers-lava2000",
@@ -7463,6 +8120,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "Depth",
           "package": "chalmers-lava2000",
@@ -7476,6 +8134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "Falsifiable",
           "package": "chalmers-lava2000",
@@ -7485,6 +8144,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "Falsifiable",
           "package": "chalmers-lava2000",
@@ -7498,6 +8158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "Increasing",
           "package": "chalmers-lava2000",
@@ -7507,6 +8168,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "Increasing",
           "package": "chalmers-lava2000",
@@ -7520,6 +8182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "Indeterminate",
           "package": "chalmers-lava2000",
@@ -7529,6 +8192,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "Indeterminate",
           "package": "chalmers-lava2000",
@@ -7542,6 +8206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "Name",
           "package": "chalmers-lava2000",
@@ -7551,6 +8216,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "Name",
           "package": "chalmers-lava2000",
@@ -7564,6 +8230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "NoBacktracking",
           "package": "chalmers-lava2000",
@@ -7573,6 +8240,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "NoBacktracking",
           "package": "chalmers-lava2000",
@@ -7586,6 +8254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "RestrictStates",
           "package": "chalmers-lava2000",
@@ -7595,6 +8264,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "RestrictStates",
           "package": "chalmers-lava2000",
@@ -7608,6 +8278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "Sat",
           "package": "chalmers-lava2000",
@@ -7617,6 +8288,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "Sat",
           "package": "chalmers-lava2000",
@@ -7630,6 +8302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "ShowTime",
           "package": "chalmers-lava2000",
@@ -7639,6 +8312,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "ShowTime",
           "package": "chalmers-lava2000",
@@ -7652,6 +8326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "Valid",
           "package": "chalmers-lava2000",
@@ -7661,6 +8336,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "Valid",
           "package": "chalmers-lava2000",
@@ -7674,6 +8350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "checkVerifyDir",
           "package": "chalmers-lava2000",
@@ -7683,6 +8360,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "checkVerifyDir",
           "normalized": "IO()",
@@ -7698,6 +8376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "verify",
           "package": "chalmers-lava2000",
@@ -7707,6 +8386,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "verify",
           "normalized": "a-\u003eIO ProofResult",
@@ -7721,6 +8401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "verifyDir",
           "package": "chalmers-lava2000",
@@ -7730,6 +8411,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "verifyDir",
           "package": "chalmers-lava2000",
@@ -7743,6 +8425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Verification",
           "name": "verifyWith",
           "package": "chalmers-lava2000",
@@ -7752,6 +8435,7 @@
         },
         "index": {
           "hierarchy": "Lava Verification",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Verification",
           "name": "verifyWith",
           "normalized": "[Option]-\u003ea-\u003eIO ProofResult",
@@ -7767,6 +8451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Vhdl",
           "name": "Vhdl",
           "package": "chalmers-lava2000",
@@ -7775,6 +8460,7 @@
         },
         "index": {
           "hierarchy": "Lava Vhdl",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Vhdl",
           "name": "Vhdl",
           "package": "chalmers-lava2000",
@@ -7788,6 +8474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Vhdl",
           "name": "writeVhdl",
           "package": "chalmers-lava2000",
@@ -7797,6 +8484,7 @@
         },
         "index": {
           "hierarchy": "Lava Vhdl",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Vhdl",
           "name": "writeVhdl",
           "normalized": "String-\u003e(a-\u003eb)-\u003eIO()",
@@ -7812,6 +8500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Vhdl",
           "name": "writeVhdlInput",
           "package": "chalmers-lava2000",
@@ -7821,6 +8510,7 @@
         },
         "index": {
           "hierarchy": "Lava Vhdl",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Vhdl",
           "name": "writeVhdlInput",
           "normalized": "String-\u003e(a-\u003eb)-\u003ea-\u003eIO()",
@@ -7836,6 +8526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Vhdl",
           "name": "writeVhdlInputOutput",
           "package": "chalmers-lava2000",
@@ -7845,6 +8536,7 @@
         },
         "index": {
           "hierarchy": "Lava Vhdl",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Vhdl",
           "name": "writeVhdlInputOutput",
           "normalized": "String-\u003e(a-\u003eb)-\u003ea-\u003eb-\u003eIO()",
@@ -7860,6 +8552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Vis",
           "name": "Vis",
           "package": "chalmers-lava2000",
@@ -7868,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "Lava Vis",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Vis",
           "name": "Vis",
           "package": "chalmers-lava2000",
@@ -7881,6 +8575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Vis",
           "name": "equivCheckVisInput",
           "package": "chalmers-lava2000",
@@ -7890,6 +8585,7 @@
         },
         "index": {
           "hierarchy": "Lava Vis",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Vis",
           "name": "equivCheckVisInput",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb)-\u003ea-\u003eIO ProofResult",
@@ -7905,6 +8601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Vis",
           "name": "vis",
           "package": "chalmers-lava2000",
@@ -7914,6 +8611,7 @@
         },
         "index": {
           "hierarchy": "Lava Vis",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Vis",
           "name": "vis",
           "normalized": "a-\u003eIO ProofResult",
@@ -7928,6 +8626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Vis",
           "name": "writeVis",
           "package": "chalmers-lava2000",
@@ -7937,6 +8636,7 @@
         },
         "index": {
           "hierarchy": "Lava Vis",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Vis",
           "name": "writeVis",
           "normalized": "String-\u003e(a-\u003eb)-\u003eIO()",
@@ -7952,6 +8652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Vis",
           "name": "writeVisInput",
           "package": "chalmers-lava2000",
@@ -7961,6 +8662,7 @@
         },
         "index": {
           "hierarchy": "Lava Vis",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Vis",
           "name": "writeVisInput",
           "normalized": "String-\u003e(a-\u003eb)-\u003ea-\u003eIO()",
@@ -7976,6 +8678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Vis",
           "name": "writeVisInputOutput",
           "package": "chalmers-lava2000",
@@ -7985,6 +8688,7 @@
         },
         "index": {
           "hierarchy": "Lava Vis",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Vis",
           "name": "writeVisInputOutput",
           "normalized": "String-\u003e(a-\u003eb)-\u003ea-\u003eb-\u003eIO()",
@@ -8000,6 +8704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Zchaff",
           "name": "Zchaff",
           "package": "chalmers-lava2000",
@@ -8008,6 +8713,7 @@
         },
         "index": {
           "hierarchy": "Lava Zchaff",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Zchaff",
           "name": "Zchaff",
           "package": "chalmers-lava2000",
@@ -8021,6 +8727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava.Zchaff",
           "name": "zchaff",
           "package": "chalmers-lava2000",
@@ -8030,6 +8737,7 @@
         },
         "index": {
           "hierarchy": "Lava Zchaff",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava.Zchaff",
           "name": "zchaff",
           "normalized": "a-\u003eIO ProofResult",
@@ -8044,6 +8752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:33 UTC 2014",
           "module": "Lava",
           "name": "Lava",
           "package": "chalmers-lava2000",
@@ -8052,6 +8761,7 @@
         },
         "index": {
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T17:31:33",
           "module": "Lava",
           "name": "Lava",
           "package": "chalmers-lava2000",

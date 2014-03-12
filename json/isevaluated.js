@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "isevaluated"
+        "phrase": "isevaluated",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eisEvaluated\u003c/a\u003e\u003c/code\u003e allows checking for expressions that have already been\n reduced to weak heaf normal form. This can be useful for racing\n computations against one another; if one computation can be shown to\n terminate instantly, there's no need to set up any threads for the race.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:49 UTC 2014",
           "module": "Data.IsEvaluated",
           "name": "IsEvaluated",
           "package": "isevaluated",
@@ -28,6 +29,7 @@
         "index": {
           "description": "isEvaluated allows checking for expressions that have already been reduced to weak heaf normal form This can be useful for racing computations against one another if one computation can be shown to terminate instantly there no need to set up any threads for the race",
           "hierarchy": "Data IsEvaluated",
+          "indexed": "2014-03-11T18:59:49",
           "module": "Data.IsEvaluated",
           "name": "IsEvaluated",
           "package": "isevaluated",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003eisEvaluated a\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, the given value is in whnf.\n\u003c/p\u003e\u003cp\u003eIt may produce false negatives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:49 UTC 2014",
           "module": "Data.IsEvaluated",
           "name": "isEvaluated",
           "package": "isevaluated",
@@ -52,6 +55,7 @@
         "index": {
           "description": "If isEvaluated returns True the given value is in whnf It may produce false negatives",
           "hierarchy": "Data IsEvaluated",
+          "indexed": "2014-03-11T18:59:49",
           "module": "Data.IsEvaluated",
           "name": "isEvaluated",
           "normalized": "a-\u003eIO Bool",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-session-tokyocabinet"
+        "phrase": "wai-session-tokyocabinet",
+        "type": "phrase"
       },
       "type": "context"
     }

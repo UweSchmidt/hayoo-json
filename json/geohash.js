@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "geohash"
+        "phrase": "geohash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompute geohashes as per \u003ca\u003ehttp://en.wikipedia.org/wiki/Geohash\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:15:33 UTC 2014",
           "module": "Data.Geohash",
           "name": "Geohash",
           "package": "geohash",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Compute geohashes as per http en.wikipedia.org wiki Geohash",
           "hierarchy": "Data Geohash",
+          "indexed": "2014-03-11T18:15:33",
           "module": "Data.Geohash",
           "name": "Geohash",
           "package": "geohash",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a geohash into a \u003ccode\u003e(lat, lon)\u003c/code\u003e pair.\n\u003c/p\u003e\u003cpre\u003e decode \"9q8yyk9pqd\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:33 UTC 2014",
           "module": "Data.Geohash",
           "name": "decode",
           "package": "geohash",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Decode geohash into lat lon pair decode q8yyk9pqd",
           "hierarchy": "Data Geohash",
+          "indexed": "2014-03-11T18:15:33",
           "module": "Data.Geohash",
           "name": "decode",
           "normalized": "String-\u003eMaybe(a,a)",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a geohash into ranges of latitude & longitude. This\n reflects the precision of the decode and can be used to construct a\n bounding box.\n\u003c/p\u003e\u003cpre\u003e decode_ \"9q8yyk9pqd\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:33 UTC 2014",
           "module": "Data.Geohash",
           "name": "decode_",
           "package": "geohash",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Decode geohash into ranges of latitude longitude This reflects the precision of the decode and can be used to construct bounding box decode q8yyk9pqd",
           "hierarchy": "Data Geohash",
+          "indexed": "2014-03-11T18:15:33",
           "module": "Data.Geohash",
           "name": "decode_",
           "normalized": "String-\u003eMaybe((a,a),(a,a))",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a geohash from the given \u003ccode\u003e(lat, lon)\u003c/code\u003e pair with the given\n precision.\n\u003c/p\u003e\u003cpre\u003e encode 10 (37.775, -122.419)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:33 UTC 2014",
           "module": "Data.Geohash",
           "name": "encode",
           "package": "geohash",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Encode geohash from the given lat lon pair with the given precision encode",
           "hierarchy": "Data Geohash",
+          "indexed": "2014-03-11T18:15:33",
           "module": "Data.Geohash",
           "name": "encode",
           "normalized": "Int-\u003e(a,a)-\u003eMaybe String",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "timestamp-subprocess-lines"
+        "phrase": "timestamp-subprocess-lines",
+        "type": "phrase"
       },
       "type": "context"
     }

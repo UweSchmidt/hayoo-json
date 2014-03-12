@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cloudyfs"
+        "phrase": "cloudyfs",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "csound-expression"
+        "phrase": "csound-expression",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "Air",
           "package": "csound-expression",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "Air",
           "package": "csound-expression",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "AdsrBound",
           "package": "csound-expression",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "AdsrBound",
           "package": "csound-expression",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "AdsrInit",
           "package": "csound-expression",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "AdsrInit",
           "package": "csound-expression",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "AdsrBound",
           "package": "csound-expression",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "AdsrBound",
           "package": "csound-expression",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "AdsrInit",
           "package": "csound-expression",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "AdsrInit",
           "package": "csound-expression",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "attBound",
           "package": "csound-expression",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "attBound",
           "package": "csound-expression",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "attInit",
           "package": "csound-expression",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "attInit",
           "package": "csound-expression",
@@ -170,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBand-pass filter.\n\u003c/p\u003e\u003cpre\u003e bbp cutoff bandwidth sig\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "bbp",
           "package": "csound-expression",
@@ -180,6 +195,7 @@
         "index": {
           "description": "Band-pass filter bbp cutoff bandwidth sig",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "bbp",
           "normalized": "Sig-\u003eSig-\u003eSig-\u003eSig",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBalanced butterworth band-pass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "bbpb",
           "package": "csound-expression",
@@ -205,6 +222,7 @@
         "index": {
           "description": "Balanced butterworth band-pass filter",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "bbpb",
           "normalized": "Sig-\u003eSig-\u003eSig-\u003eSig",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBand-regect filter.\n\u003c/p\u003e\u003cpre\u003e bbr cutoff bandwidth sig\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "bbr",
           "package": "csound-expression",
@@ -230,6 +249,7 @@
         "index": {
           "description": "Band-regect filter bbr cutoff bandwidth sig",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "bbr",
           "normalized": "Sig-\u003eSig-\u003eSig-\u003eSig",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBalanced butterworth band-reject filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "bbrb",
           "package": "csound-expression",
@@ -255,6 +276,7 @@
         "index": {
           "description": "Balanced butterworth band-reject filter",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "bbrb",
           "normalized": "Sig-\u003eSig-\u003eSig-\u003eSig",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigh-pass filter.\n\u003c/p\u003e\u003cpre\u003e bhp cutoff sig\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "bhp",
           "package": "csound-expression",
@@ -280,6 +303,7 @@
         "index": {
           "description": "High-pass filter bhp cutoff sig",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "bhp",
           "normalized": "Sig-\u003eSig-\u003eSig",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBalanced butterworth high-pass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "bhpb",
           "package": "csound-expression",
@@ -305,6 +330,7 @@
         "index": {
           "description": "Balanced butterworth high-pass filter",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "bhpb",
           "normalized": "Sig-\u003eSig-\u003eSig",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns an unipolar sound (ranges from 0 to 1) to bipolar (ranges from -1 to 1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "bipolar",
           "package": "csound-expression",
@@ -330,6 +357,7 @@
         "index": {
           "description": "Turns an unipolar sound ranges from to to bipolar ranges from to",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "bipolar",
           "normalized": "Sig-\u003eSig",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA band-limited oscillator with user defined waveform (it's stored in the table).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "blosc",
           "package": "csound-expression",
@@ -354,6 +383,7 @@
         "index": {
           "description": "band-limited oscillator with user defined waveform it stored in the table",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "blosc",
           "normalized": "Tab-\u003eSig-\u003eSig",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-pass filter.\n\u003c/p\u003e\u003cpre\u003e blp cutoff sig\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "blp",
           "package": "csound-expression",
@@ -379,6 +410,7 @@
         "index": {
           "description": "Low-pass filter blp cutoff sig",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "blp",
           "normalized": "Sig-\u003eSig-\u003eSig",
@@ -394,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBalanced butterworth low-pass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "blpb",
           "package": "csound-expression",
@@ -404,6 +437,7 @@
         "index": {
           "description": "Balanced butterworth low-pass filter",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "blpb",
           "normalized": "Sig-\u003eSig-\u003eSig",
@@ -419,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBand-pass filter.\n\u003c/p\u003e\u003cpre\u003e bp cutoff bandwidth sig\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "bp",
           "package": "csound-expression",
@@ -429,6 +464,7 @@
         "index": {
           "description": "Band-pass filter bp cutoff bandwidth sig",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "bp",
           "normalized": "Sig-\u003eSig-\u003eSig-\u003eSig",
@@ -444,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBalanced band-pass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "bpb",
           "package": "csound-expression",
@@ -454,6 +491,7 @@
         "index": {
           "description": "Balanced band-pass filter",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "bpb",
           "normalized": "Sig-\u003eSig-\u003eSig-\u003eSig",
@@ -469,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBand-regect filter.\n\u003c/p\u003e\u003cpre\u003e br cutoff bandwidth sig\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "br",
           "package": "csound-expression",
@@ -479,6 +518,7 @@
         "index": {
           "description": "Band-regect filter br cutoff bandwidth sig",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "br",
           "normalized": "Sig-\u003eSig-\u003eSig-\u003eSig",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBalanced band-reject filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "brb",
           "package": "csound-expression",
@@ -504,6 +545,7 @@
         "index": {
           "description": "Balanced band-reject filter",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "brb",
           "normalized": "Sig-\u003eSig-\u003eSig-\u003eSig",
@@ -519,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChorus takes a list of displacments from the base frequencies and a sound unit.\n Output is mean of signals with displacments that is applied to the base frequency. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "chorus",
           "package": "csound-expression",
@@ -529,6 +572,7 @@
         "index": {
           "description": "Chorus takes list of displacments from the base frequencies and sound unit Output is mean of signals with displacments that is applied to the base frequency",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "chorus",
           "normalized": "[Sig]-\u003e(Sig-\u003ea)-\u003eSig-\u003ea",
@@ -544,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget with four standard waveforms: pure tone, triangle, square and sawtooth.\n The last parameter is a default waveform (it's set at init time).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "classicWaves",
           "package": "csound-expression",
@@ -554,6 +599,7 @@
         "index": {
           "description": "widget with four standard waveforms pure tone triangle square and sawtooth The last parameter is default waveform it set at init time",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "classicWaves",
           "normalized": "String-\u003eInt-\u003eSource(Sig-\u003eSig)",
@@ -569,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "decBound",
           "package": "csound-expression",
@@ -578,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "decBound",
           "package": "csound-expression",
@@ -591,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "decInit",
           "package": "csound-expression",
@@ -600,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "decInit",
           "package": "csound-expression",
@@ -614,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMixes dry and wet signals. \n\u003c/p\u003e\u003cpre\u003e dryWet ratio effect asig\n\u003c/pre\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eratio\u003c/code\u003e - of dry signal to wet\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eeffect\u003c/code\u003e - means to wet the signal\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003easig\u003c/code\u003e -- processed signal\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "dryWet",
           "package": "csound-expression",
@@ -624,6 +675,7 @@
         "index": {
           "description": "Mixes dry and wet signals dryWet ratio effect asig ratio of dry signal to wet effect means to wet the signal asig processed signal",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "dryWet",
           "normalized": "Sig-\u003e(Sig-\u003eSig)-\u003eSig-\u003eSig",
@@ -640,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects even elements from the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "evens",
           "package": "csound-expression",
@@ -650,6 +703,7 @@
         "index": {
           "description": "Selects even elements from the list",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "evens",
           "normalized": "[a]-\u003e[a]",
@@ -664,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "expAdsr",
           "package": "csound-expression",
@@ -673,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "expAdsr",
           "normalized": "String-\u003eAdsrBound-\u003eAdsrInit-\u003eSource Sig",
@@ -689,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFades in by exponent with the given attack time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "expFadeIn",
           "package": "csound-expression",
@@ -699,6 +756,7 @@
         "index": {
           "description": "Fades in by exponent with the given attack time",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "expFadeIn",
           "normalized": "D-\u003eSig",
@@ -715,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFades out by exponent with the given attack time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "expFadeOut",
           "package": "csound-expression",
@@ -725,6 +784,7 @@
         "index": {
           "description": "Fades out by exponent with the given attack time",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "expFadeOut",
           "normalized": "D-\u003eSig",
@@ -741,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA combination of exponential fade in and fade out.\n\u003c/p\u003e\u003cpre\u003e expFades attackDuration decayDuration\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "expFades",
           "package": "csound-expression",
@@ -751,6 +812,7 @@
         "index": {
           "description": "combination of exponential fade in and fade out expFades attackDuration decayDuration",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "expFades",
           "normalized": "D-\u003eD-\u003eSig",
@@ -767,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opcode \u003ccode\u003e\u003ca\u003eexpseg\u003c/a\u003e\u003c/code\u003e with time intervals \n relative to the total duration of the note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "expdur",
           "package": "csound-expression",
@@ -777,6 +840,7 @@
         "index": {
           "description": "The opcode expseg with time intervals relative to the total duration of the note",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "expdur",
           "normalized": "[D]-\u003eSig",
@@ -792,6 +856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opcode \u003ccode\u003e\u003ca\u003eexpseg\u003c/a\u003e\u003c/code\u003e with time intervals \n relative to the total duration of the note given by the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "expdurBy",
           "package": "csound-expression",
@@ -802,6 +867,7 @@
         "index": {
           "description": "The opcode expseg with time intervals relative to the total duration of the note given by the user",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "expdurBy",
           "normalized": "D-\u003e[D]-\u003eSig",
@@ -818,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFades in with the given attack time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "fadeIn",
           "package": "csound-expression",
@@ -828,6 +895,7 @@
         "index": {
           "description": "Fades in with the given attack time",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "fadeIn",
           "normalized": "D-\u003eSig",
@@ -844,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFades out with the given attack time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "fadeOut",
           "package": "csound-expression",
@@ -854,6 +923,7 @@
         "index": {
           "description": "Fades out with the given attack time",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "fadeOut",
           "normalized": "D-\u003eSig",
@@ -870,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA combination of fade in and fade out.\n\u003c/p\u003e\u003cpre\u003e fades attackDuration decayDuration\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "fades",
           "package": "csound-expression",
@@ -880,6 +951,7 @@
         "index": {
           "description": "combination of fade in and fade out fades attackDuration decayDuration",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "fades",
           "normalized": "D-\u003eD-\u003eSig",
@@ -895,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigh-pass filter.\n\u003c/p\u003e\u003cpre\u003e hp cutoff sig\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "hp",
           "package": "csound-expression",
@@ -905,6 +978,7 @@
         "index": {
           "description": "High-pass filter hp cutoff sig",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "hp",
           "normalized": "Sig-\u003eSig-\u003eSig",
@@ -920,6 +994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBalanced high-pass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "hpb",
           "package": "csound-expression",
@@ -930,6 +1005,7 @@
         "index": {
           "description": "Balanced high-pass filter",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "hpb",
           "normalized": "Sig-\u003eSig-\u003eSig",
@@ -945,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegrated sawtooth: 4 * x * (1 - x).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "isaw",
           "package": "csound-expression",
@@ -954,6 +1031,7 @@
         "index": {
           "description": "Integrated sawtooth",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "isaw",
           "normalized": "Sig-\u003eSig",
@@ -968,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "linAdsr",
           "package": "csound-expression",
@@ -977,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "linAdsr",
           "normalized": "String-\u003eAdsrBound-\u003eAdsrInit-\u003eSource Sig",
@@ -993,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opcode \u003ccode\u003e\u003ca\u003elinseg\u003c/a\u003e\u003c/code\u003e with time intervals \n relative to the total duration of the note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "lindur",
           "package": "csound-expression",
@@ -1003,6 +1084,7 @@
         "index": {
           "description": "The opcode linseg with time intervals relative to the total duration of the note",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "lindur",
           "normalized": "[D]-\u003eSig",
@@ -1018,6 +1100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opcode \u003ccode\u003e\u003ca\u003elinseg\u003c/a\u003e\u003c/code\u003e with time intervals \n relative to the total duration of the note given by the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "lindurBy",
           "package": "csound-expression",
@@ -1028,6 +1111,7 @@
         "index": {
           "description": "The opcode linseg with time intervals relative to the total duration of the note given by the user",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "lindurBy",
           "normalized": "D-\u003e[D]-\u003eSig",
@@ -1044,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opcode \u003ccode\u003e\u003ca\u003elinen\u003c/a\u003e\u003c/code\u003e with time intervals relative to the total duration of the note. Total time is set to the value of idur.\n\u003c/p\u003e\u003cpre\u003e linendur asig rise decay\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "linendur",
           "package": "csound-expression",
@@ -1054,6 +1139,7 @@
         "index": {
           "description": "The opcode linen with time intervals relative to the total duration of the note Total time is set to the value of idur linendur asig rise decay",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "linendur",
           "normalized": "Sig-\u003eD-\u003eD-\u003eSig",
@@ -1069,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opcode \u003ccode\u003e\u003ca\u003elinen\u003c/a\u003e\u003c/code\u003e with time intervals relative to the total duration of the note. Total time is set to the value of\n the first argument.\n\u003c/p\u003e\u003cpre\u003e linendurBy dt asig rise decay\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "linendurBy",
           "package": "csound-expression",
@@ -1079,6 +1166,7 @@
         "index": {
           "description": "The opcode linen with time intervals relative to the total duration of the note Total time is set to the value of the first argument linendurBy dt asig rise decay",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "linendurBy",
           "normalized": "D-\u003eSig-\u003eD-\u003eD-\u003eSig",
@@ -1095,6 +1183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-pass filter.\n\u003c/p\u003e\u003cpre\u003e lp cutoff sig\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "lp",
           "package": "csound-expression",
@@ -1105,6 +1194,7 @@
         "index": {
           "description": "Low-pass filter lp cutoff sig",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "lp",
           "normalized": "Sig-\u003eSig-\u003eSig",
@@ -1120,6 +1210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBalanced low-pass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "lpb",
           "package": "csound-expression",
@@ -1130,6 +1221,7 @@
         "index": {
           "description": "Balanced low-pass filter",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "lpb",
           "normalized": "Sig-\u003eSig-\u003eSig",
@@ -1145,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlider for master volume\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "masterVolume",
           "package": "csound-expression",
@@ -1155,6 +1248,7 @@
         "index": {
           "description": "Slider for master volume",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "masterVolume",
           "package": "csound-expression",
@@ -1169,6 +1263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKnob for master volume\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "masterVolumeKnob",
           "package": "csound-expression",
@@ -1179,6 +1274,7 @@
         "index": {
           "description": "Knob for master volume",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "masterVolumeKnob",
           "package": "csound-expression",
@@ -1193,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMean value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "mean",
           "package": "csound-expression",
@@ -1203,6 +1300,7 @@
         "index": {
           "description": "Mean value",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "mean",
           "normalized": "[a]-\u003ea",
@@ -1218,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMoog's low-pass filter.\n\u003c/p\u003e\u003cpre\u003e mlp centerFrequency qResonance signal\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "mlp",
           "package": "csound-expression",
@@ -1228,6 +1327,7 @@
         "index": {
           "description": "Moog low-pass filter mlp centerFrequency qResonance signal",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "mlp",
           "normalized": "Sig-\u003eSig-\u003eSig-\u003eSig",
@@ -1243,6 +1343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChain of mass-spring-damping filters.\n\u003c/p\u003e\u003cpre\u003e modes params baseCps exciter \n\u003c/pre\u003e\u003cul\u003e\u003cli\u003e params - a list of pairs \u003ccode\u003e(resonantFrequencyRatio, filterQuality)\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ebaseCps\u003c/code\u003e - base frequency of the resonator\n\u003c/li\u003e\u003cli\u003e exciter - an impulse that starts a resonator.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "modes",
           "package": "csound-expression",
@@ -1253,6 +1354,7 @@
         "index": {
           "description": "Chain of mass-spring-damping filters modes params baseCps exciter params list of pairs resonantFrequencyRatio filterQuality baseCps base frequency of the resonator exciter an impulse that starts resonator",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "modes",
           "normalized": "[(Sig,Sig)]-\u003eSig-\u003eSig-\u003eSig",
@@ -1268,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects odd elements from the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "odds",
           "package": "csound-expression",
@@ -1278,6 +1381,7 @@
         "index": {
           "description": "Selects odd elements from the list",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "odds",
           "normalized": "[a]-\u003e[a]",
@@ -1293,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRescaling of the bipolar signal (-1, 1) -\u003e (a, b)\n\u003c/p\u003e\u003cpre\u003e on a b biSig\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "on",
           "package": "csound-expression",
@@ -1303,6 +1408,7 @@
         "index": {
           "description": "Rescaling of the bipolar signal on biSig",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "on",
           "normalized": "Sig-\u003eSig-\u003eSig-\u003eSig",
@@ -1318,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes time intervals relative to the note's duration. So that:\n\u003c/p\u003e\u003cpre\u003e onDur dt [a, t1, b, t2, c]\n\u003c/pre\u003e\u003cp\u003ebecomes: \n\u003c/p\u003e\u003cpre\u003e [a, t1 * dt, b, t2 * dt, c]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "onDur",
           "package": "csound-expression",
@@ -1328,6 +1435,7 @@
         "index": {
           "description": "Makes time intervals relative to the note duration So that onDur dt t1 t2 becomes t1 dt t2 dt",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "onDur",
           "normalized": "D-\u003e[D]-\u003e[D]",
@@ -1344,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes time intervals relative to the note's duration. So that:\n\u003c/p\u003e\u003cpre\u003e onIdur [a, t1, b, t2, c]\n\u003c/pre\u003e\u003cp\u003ebecomes: \n\u003c/p\u003e\u003cpre\u003e [a, t1 * idur, b, t2 * idur, c]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "onIdur",
           "package": "csound-expression",
@@ -1354,6 +1463,7 @@
         "index": {
           "description": "Makes time intervals relative to the note duration So that onIdur t1 t2 becomes t1 idur t2 idur",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "onIdur",
           "normalized": "[D]-\u003e[D]",
@@ -1370,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads table once during the note length. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "once",
           "package": "csound-expression",
@@ -1380,6 +1491,7 @@
         "index": {
           "description": "Reads table once during the note length",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "once",
           "normalized": "Tab-\u003eSig",
@@ -1395,6 +1507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads table once during a given period of time. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "onceBy",
           "package": "csound-expression",
@@ -1405,6 +1518,7 @@
         "index": {
           "description": "Reads table once during given period of time",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "onceBy",
           "normalized": "D-\u003eTab-\u003eSig",
@@ -1421,6 +1535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pure tone (sine wave).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "osc",
           "package": "csound-expression",
@@ -1431,6 +1546,7 @@
         "index": {
           "description": "pure tone sine wave",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "osc",
           "normalized": "Sig-\u003eSig",
@@ -1446,6 +1562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn oscillator with user provided waveform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "oscBy",
           "package": "csound-expression",
@@ -1456,6 +1573,7 @@
         "index": {
           "description": "An oscillator with user provided waveform",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "oscBy",
           "normalized": "Tab-\u003eSig-\u003eSig",
@@ -1472,6 +1590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoops over equally spaced exponential segments with the given rate.\n\u003c/p\u003e\u003cpre\u003e oscLins [a, typeA, b, typeB, c, typeC ..] === oscLins [a, 1, typeA, b, 1, typeB, c, 1, typeC ..]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "oscEexps",
           "package": "csound-expression",
@@ -1482,6 +1601,7 @@
         "index": {
           "description": "Loops over equally spaced exponential segments with the given rate oscLins typeA typeB typeC oscLins typeA typeB typeC",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "oscEexps",
           "normalized": "[D]-\u003eSig-\u003eSig",
@@ -1498,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoops over equally spaced line segments with the given rate.\n\u003c/p\u003e\u003cpre\u003e oscElins [a, b, c] === oscLins [a, 1, b, 1, c]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "oscElins",
           "package": "csound-expression",
@@ -1508,6 +1629,7 @@
         "index": {
           "description": "Loops over equally spaced line segments with the given rate oscElins oscLins",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "oscElins",
           "normalized": "[D]-\u003eSig-\u003eSig",
@@ -1524,6 +1646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoops over exponential segments with the given rate.\n\u003c/p\u003e\u003cpre\u003e oscLins [a, durA, typeA, b, durB, typeB, c, durC, typeC ..] cps\n\u003c/pre\u003e\u003cp\u003ewhere \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ea\u003c/code\u003e, \u003ccode\u003eb\u003c/code\u003e, \u003ccode\u003ec\u003c/code\u003e ... -- values\n\u003c/li\u003e\u003cli\u003e durA, durB, durC -- durations of the segments relative to the current frequency.\n\u003c/li\u003e\u003cli\u003e typeA, typeB, typeC, ... -- shape of the envelope. If the value is 0 then the shap eis linear; otherwise it is an concave exponential (positive type) or a convex exponential (negative type).\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "oscExps",
           "package": "csound-expression",
@@ -1534,6 +1657,7 @@
         "index": {
           "description": "Loops over exponential segments with the given rate oscLins durA typeA durB typeB durC typeC cps where values durA durB durC durations of the segments relative to the current frequency typeA typeB typeC shape of the envelope If the value is then the shap eis linear otherwise it is an concave exponential positive type or convex exponential negative type",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "oscExps",
           "normalized": "[D]-\u003eSig-\u003eSig",
@@ -1550,6 +1674,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e oscLine a b cps\n\u003c/pre\u003e\u003cp\u003eGoes from \u003ccode\u003ea\u003c/code\u003e to \u003ccode\u003eb\u003c/code\u003e and back by line segments. One period is equal to \u003ccode\u003e2/cps\u003c/code\u003e so that one period is passed by \u003ccode\u003e1/cps\u003c/code\u003e seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "oscLine",
           "package": "csound-expression",
@@ -1560,6 +1685,7 @@
         "index": {
           "description": "oscLine cps Goes from to and back by line segments One period is equal to cps so that one period is passed by cps seconds",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "oscLine",
           "normalized": "D-\u003eD-\u003eSig-\u003eSig",
@@ -1576,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoops over line segments with the given rate.\n\u003c/p\u003e\u003cpre\u003e oscLins [a, durA, b, durB, c, durC ..] cps\n\u003c/pre\u003e\u003cp\u003ewhere \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ea\u003c/code\u003e, \u003ccode\u003eb\u003c/code\u003e, \u003ccode\u003ec\u003c/code\u003e ... -- values\n\u003c/li\u003e\u003cli\u003e durA, durB, durC -- durations of the segments relative to the current frequency.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "oscLins",
           "package": "csound-expression",
@@ -1586,6 +1713,7 @@
         "index": {
           "description": "Loops over line segments with the given rate oscLins durA durB durC cps where values durA durB durC durations of the segments relative to the current frequency",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "oscLins",
           "normalized": "[D]-\u003eSig-\u003eSig",
@@ -1602,6 +1730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePulse (not normalized).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "pulse",
           "package": "csound-expression",
@@ -1611,6 +1740,7 @@
         "index": {
           "description": "Pulse not normalized",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "pulse",
           "normalized": "Sig-\u003eSig",
@@ -1626,6 +1756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a random vibrato to the sound unit. Sound units is a function that takes in a frequency. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "randomPitch",
           "package": "csound-expression",
@@ -1636,6 +1767,7 @@
         "index": {
           "description": "Adds random vibrato to the sound unit Sound units is function that takes in frequency",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "randomPitch",
           "normalized": "Sig-\u003eSig-\u003e(Sig-\u003ea)-\u003eSig-\u003eSE a",
@@ -1651,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "relBound",
           "package": "csound-expression",
@@ -1660,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "relBound",
           "package": "csound-expression",
@@ -1673,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "relInit",
           "package": "csound-expression",
@@ -1682,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "relInit",
           "package": "csound-expression",
@@ -1696,6 +1832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a resonator to the signals. A resonator is\n a list of band pass filters. A list contains the parameters for the filters:\n\u003c/p\u003e\u003cpre\u003e [(centerFrequency, bandWidth)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "resons",
           "package": "csound-expression",
@@ -1706,6 +1843,7 @@
         "index": {
           "description": "Applies resonator to the signals resonator is list of band pass filters list contains the parameters for the filters centerFrequency bandWidth",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "resons",
           "normalized": "[(Sig,Sig)]-\u003eSig-\u003eSig",
@@ -1721,6 +1859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA resonator with user defined band pass filter.\n Warning: a filter takes in a center frequency, band width and the signal.\n The signal comes last (this order is not standard in the Csound but it's more\n convinient to use with Haskell).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "resonsBy",
           "package": "csound-expression",
@@ -1731,6 +1870,7 @@
         "index": {
           "description": "resonator with user defined band pass filter Warning filter takes in center frequency band width and the signal The signal comes last this order is not standard in the Csound but it more convinient to use with Haskell",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "resonsBy",
           "normalized": "(a-\u003eb-\u003eSig-\u003eSig)-\u003e[(a,b)]-\u003eSig-\u003eSig",
@@ -1747,6 +1887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMono version of the cool reverberation opcode reverbsc.\n\u003c/p\u003e\u003cpre\u003e reverbsc1 asig feedbackLevel cutOffFreq\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "reverbsc1",
           "package": "csound-expression",
@@ -1757,6 +1898,7 @@
         "index": {
           "description": "Mono version of the cool reverberation opcode reverbsc reverbsc1 asig feedbackLevel cutOffFreq",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "reverbsc1",
           "normalized": "Sig-\u003eSig-\u003eSig-\u003eSig",
@@ -1772,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sawtooth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "saw",
           "package": "csound-expression",
@@ -1781,6 +1924,7 @@
         "index": {
           "description": "sawtooth",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "saw",
           "normalized": "Sig-\u003eSig",
@@ -1796,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads table several times during the note length.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "several",
           "package": "csound-expression",
@@ -1806,6 +1951,7 @@
         "index": {
           "description": "Reads table several times during the note length",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "several",
           "normalized": "Tab-\u003eSig-\u003eSig",
@@ -1821,6 +1967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA square wave.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "sqr",
           "package": "csound-expression",
@@ -1830,6 +1977,7 @@
         "index": {
           "description": "square wave",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "sqr",
           "normalized": "Sig-\u003eSig",
@@ -1844,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "susInit",
           "package": "csound-expression",
@@ -1853,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "susInit",
           "package": "csound-expression",
@@ -1867,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA triangle wave.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "tri",
           "package": "csound-expression",
@@ -1876,6 +2027,7 @@
         "index": {
           "description": "triangle wave",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "tri",
           "normalized": "Sig-\u003eSig",
@@ -1891,6 +2043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnipolar band-limited oscillator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "ublosc",
           "package": "csound-expression",
@@ -1901,6 +2054,7 @@
         "index": {
           "description": "Unipolar band-limited oscillator",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "ublosc",
           "normalized": "Tab-\u003eSig-\u003eSig",
@@ -1916,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnipolar integrated sawtooth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "uisaw",
           "package": "csound-expression",
@@ -1926,6 +2081,7 @@
         "index": {
           "description": "Unipolar integrated sawtooth",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "uisaw",
           "normalized": "Sig-\u003eSig",
@@ -1941,6 +2097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns a bipolar sound (ranges from -1 to 1) to unipolar (ranges from 0 to 1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "unipolar",
           "package": "csound-expression",
@@ -1951,6 +2108,7 @@
         "index": {
           "description": "Turns bipolar sound ranges from to to unipolar ranges from to",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "unipolar",
           "normalized": "Sig-\u003eSig",
@@ -1966,6 +2124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRescaling of the unipolar signal (0, 1) -\u003e (a, b)\n\u003c/p\u003e\u003cpre\u003e on a b uniSig\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "uon",
           "package": "csound-expression",
@@ -1976,6 +2135,7 @@
         "index": {
           "description": "Rescaling of the unipolar signal on uniSig",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "uon",
           "normalized": "Sig-\u003eSig-\u003eSig-\u003eSig",
@@ -1991,6 +2151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnipolar pure tone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "uosc",
           "package": "csound-expression",
@@ -2001,6 +2162,7 @@
         "index": {
           "description": "Unipolar pure tone",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "uosc",
           "normalized": "Sig-\u003eSig",
@@ -2016,6 +2178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnipolar \u003ccode\u003e\u003ca\u003eoscBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "uoscBy",
           "package": "csound-expression",
@@ -2026,6 +2189,7 @@
         "index": {
           "description": "Unipolar oscBy",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "uoscBy",
           "normalized": "Tab-\u003eSig-\u003eSig",
@@ -2042,6 +2206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnipolar pulse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "upulse",
           "package": "csound-expression",
@@ -2052,6 +2217,7 @@
         "index": {
           "description": "Unipolar pulse",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "upulse",
           "normalized": "Sig-\u003eSig",
@@ -2067,6 +2233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnipolar sawtooth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "usaw",
           "package": "csound-expression",
@@ -2077,6 +2244,7 @@
         "index": {
           "description": "Unipolar sawtooth",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "usaw",
           "normalized": "Sig-\u003eSig",
@@ -2092,6 +2260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnipolar square wave.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "usqr",
           "package": "csound-expression",
@@ -2102,6 +2271,7 @@
         "index": {
           "description": "Unipolar square wave",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "usqr",
           "normalized": "Sig-\u003eSig",
@@ -2117,6 +2287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnipolar triangle wave.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "utri",
           "package": "csound-expression",
@@ -2127,6 +2298,7 @@
         "index": {
           "description": "Unipolar triangle wave",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "utri",
           "normalized": "Sig-\u003eSig",
@@ -2142,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds vibrato to the sound unit. Sound units is a function that takes in a frequency. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Air",
           "name": "vibrate",
           "package": "csound-expression",
@@ -2152,6 +2325,7 @@
         "index": {
           "description": "Adds vibrato to the sound unit Sound units is function that takes in frequency",
           "hierarchy": "Csound Air",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Air",
           "name": "vibrate",
           "normalized": "Sig-\u003eSig-\u003e(Sig-\u003ea)-\u003eSig-\u003ea",
@@ -2167,6 +2341,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic types and functions.\n\u003c/p\u003e\u003cp\u003eThis module re-exports everything.\n\u003c/p\u003e\u003cp\u003eWARNING (for Csound users): the maximum amplitude is 1.0. There is no way to alter it. \n Don't define your amplitudes with 9000 or 11000. But the good news are: all signals\n are clipped by 1 so that you can not damage your ears and your speakers by a little typo.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Base",
           "name": "Base",
           "package": "csound-expression",
@@ -2176,6 +2351,7 @@
         "index": {
           "description": "Basic types and functions This module re-exports everything WARNING for Csound users the maximum amplitude is There is no way to alter it Don define your amplitudes with or But the good news are all signals are clipped by so that you can not damage your ears and your speakers by little typo",
           "hierarchy": "Csound Base",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Base",
           "name": "Base",
           "package": "csound-expression",
@@ -2189,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "Evt",
           "package": "csound-expression",
@@ -2197,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "Evt",
           "package": "csound-expression",
@@ -2211,6 +2389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA procedure. Something that takes a value and suddenly bams with it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "Bam",
           "package": "csound-expression",
@@ -2219,6 +2398,7 @@
         "index": {
           "description": "procedure Something that takes value and suddenly bams with it",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "Bam",
           "package": "csound-expression",
@@ -2233,6 +2413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stream of events. We can convert a stream of events to\n the procedure with the function \u003ccode\u003erunEvt\u003c/code\u003e. It waits for events\n and invokes the given procedure when the event happens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "Evt",
           "package": "csound-expression",
@@ -2241,6 +2422,7 @@
         "index": {
           "description": "stream of events We can convert stream of events to the procedure with the function runEvt It waits for events and invokes the given procedure when the event happens",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "Evt",
           "package": "csound-expression",
@@ -2255,6 +2437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA snapshot of the signal. It converts a type of the signal to the \n type of the value in the given moment. Instances:\n\u003c/p\u003e\u003cpre\u003e type instance Snap D   = D\n type instance Snap Str = Str\n type instance Snap Tab = Tab\n\n type instance Snap Sig = D\n \n type instance Snap (a, b) = (Snap a, Snap b)\n type instance Snap (a, b, c) = (Snap a, Snap b, Snap c)\n type instance Snap (a, b, c, d) = (Snap a, Snap b, Snap c, Snap d)\n type instance Snap (a, b, c, d, e) = (Snap a, Snap b, Snap c, Snap d, Snap e)\n type instance Snap (a, b, c, d, e, f) = (Snap a, Snap b, Snap c, Snap d, Snap e, Snap f)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "Snap",
           "package": "csound-expression",
@@ -2264,6 +2447,7 @@
         "index": {
           "description": "snapshot of the signal It converts type of the signal to the type of the value in the given moment Instances type instance Snap type instance Snap Str Str type instance Snap Tab Tab type instance Snap Sig type instance Snap Snap Snap type instance Snap Snap Snap Snap type instance Snap Snap Snap Snap Snap type instance Snap Snap Snap Snap Snap Snap type instance Snap Snap Snap Snap Snap Snap Snap",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "Snap",
           "package": "csound-expression",
@@ -2277,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "Evt",
           "package": "csound-expression",
@@ -2285,6 +2470,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "Evt",
           "package": "csound-expression",
@@ -2299,6 +2485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccumulator for events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "accumE",
           "package": "csound-expression",
@@ -2308,6 +2495,7 @@
         "index": {
           "description": "Accumulator for events",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "accumE",
           "normalized": "a-\u003e(b-\u003ea-\u003e(c,a))-\u003eEvt b-\u003eEvt c",
@@ -2323,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccumulator for events with side effects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "accumSE",
           "package": "csound-expression",
@@ -2332,6 +2521,7 @@
         "index": {
           "description": "Accumulator for events with side effects",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "accumSE",
           "normalized": "a-\u003e(b-\u003ea-\u003eSE(c,a))-\u003eEvt b-\u003eEvt c",
@@ -2348,6 +2538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccumulates a values from the given event stream with binary function.\n It's a variant of the fold for event streams.\n\u003c/p\u003e\u003cpre\u003e appendE z f evt\n\u003c/pre\u003e\u003cp\u003eWhen value \u003ccode\u003ea\u003c/code\u003e happens with \u003ccode\u003eevt\u003c/code\u003e, the resulting event stream contains\n a value (z \u003ccode\u003ef\u003c/code\u003e a) and in the next time \u003ccode\u003ez\u003c/code\u003e equals to this value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "appendE",
           "package": "csound-expression",
@@ -2358,6 +2549,7 @@
         "index": {
           "description": "Accumulates values from the given event stream with binary function It variant of the fold for event streams appendE evt When value happens with evt the resulting event stream contains value and in the next time equals to this value",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "appendE",
           "normalized": "a-\u003e(a-\u003ea-\u003ea)-\u003eEvt a-\u003eEvt a",
@@ -2373,6 +2565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts booleans to events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "boolToEvt",
           "package": "csound-expression",
@@ -2382,6 +2575,7 @@
         "index": {
           "description": "Converts booleans to events",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "boolToEvt",
           "normalized": "BoolSig-\u003eEvt Unit",
@@ -2398,6 +2592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBehaves like \u003ccode\u003e\u003ca\u003echanged\u003c/a\u003e\u003c/code\u003e, but returns an event stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "changedE",
           "package": "csound-expression",
@@ -2408,6 +2603,7 @@
         "index": {
           "description": "Behaves like changed but returns an event stream",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "changedE",
           "normalized": "[Sig]-\u003eEvt Unit",
@@ -2423,6 +2619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an event stream that contains an infinite repetition\n values from the given list. When an event happens this function takes \n the next value from the list, if there is no values left it starts\n from the beggining of the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "cycleE",
           "package": "csound-expression",
@@ -2433,6 +2630,7 @@
         "index": {
           "description": "Constructs an event stream that contains an infinite repetition values from the given list When an event happens this function takes the next value from the list if there is no values left it starts from the beggining of the list",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "cycleE",
           "normalized": "[a]-\u003eEvt b-\u003eEvt a",
@@ -2448,6 +2646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialization of the function \u003ccode\u003e\u003ca\u003emasked\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003cpre\u003e every n [a, b, c, ..] evt\n\u003c/pre\u003e\u003cp\u003econstructs a mask that skips first \u003ccode\u003en\u003c/code\u003e elements and then produces\n an event and skips next (a - 1) events, then produces an event and\n skips next (b - 1) events and so on. It's useful for construction of \n the percussive beats. For example \n\u003c/p\u003e\u003cpre\u003e every 0 [2] (metroE 2)\n\u003c/pre\u003e\u003cp\u003etriggers an event on the odd beats. With this function we can \n create a complex patterns of cyclic events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "every",
           "package": "csound-expression",
@@ -2458,6 +2657,7 @@
         "index": {
           "description": "Specialization of the function masked every evt constructs mask that skips first elements and then produces an event and skips next events then produces an event and skips next events and so on It useful for construction of the percussive beats For example every metroE triggers an event on the odd beats With this function we can create complex patterns of cyclic events",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "every",
           "normalized": "Int-\u003e[Int]-\u003eEvt a-\u003eEvt a",
@@ -2473,6 +2673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an event to boolean signal. It forgets\n everything about the event values. Signal equals to one when \n an event happens and zero otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "evtToBool",
           "package": "csound-expression",
@@ -2482,6 +2683,7 @@
         "index": {
           "description": "Converts an event to boolean signal It forgets everything about the event values Signal equals to one when an event happens and zero otherwise",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "evtToBool",
           "normalized": "Evt a-\u003eSE BoolSig",
@@ -2498,6 +2700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccumulator with filtering. It can skip the events from the event stream.\n If the third element of the triple equals to 1 then we should include the\n event in the resulting stream. If the element equals to 0 we skip the event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "filterAccumE",
           "package": "csound-expression",
@@ -2507,6 +2710,7 @@
         "index": {
           "description": "Accumulator with filtering It can skip the events from the event stream If the third element of the triple equals to then we should include the event in the resulting stream If the element equals to we skip the event",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "filterAccumE",
           "normalized": "a-\u003e(b-\u003ea-\u003e(BoolD,c,a))-\u003eEvt b-\u003eEvt c",
@@ -2523,6 +2727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccumulator for events with side effects and filtering. Event triggers\n only if the first element in the tripplet is true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "filterAccumSE",
           "package": "csound-expression",
@@ -2532,6 +2737,7 @@
         "index": {
           "description": "Accumulator for events with side effects and filtering Event triggers only if the first element in the tripplet is true",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "filterAccumSE",
           "normalized": "a-\u003e(b-\u003ea-\u003eSE(BoolD,c,a))-\u003eEvt b-\u003eEvt c",
@@ -2548,6 +2754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilters events with predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "filterE",
           "package": "csound-expression",
@@ -2557,6 +2764,7 @@
         "index": {
           "description": "Filters events with predicate",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "filterE",
           "normalized": "(a-\u003eBoolD)-\u003eEvt a-\u003eEvt a",
@@ -2572,6 +2780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilters events with effectful predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "filterSE",
           "package": "csound-expression",
@@ -2581,6 +2790,7 @@
         "index": {
           "description": "Filters events with effectful predicate",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "filterSE",
           "normalized": "(a-\u003eSE BoolD)-\u003eEvt a-\u003eEvt a",
@@ -2597,6 +2807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function combines the functions \u003ccode\u003e\u003ca\u003eaccumE\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003efreqOf\u003c/a\u003e\u003c/code\u003e. We transform the values of the event stream\n with stateful function that produce not just values but the list of values\n with frequencies of occurrence. We apply this function to the current state\n and the value and then at random pick one of the values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "freqAccum",
           "package": "csound-expression",
@@ -2607,6 +2818,7 @@
         "index": {
           "description": "This function combines the functions accumE and freqOf We transform the values of the event stream with stateful function that produce not just values but the list of values with frequencies of occurrence We apply this function to the current state and the value and then at random pick one of the values",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "freqAccum",
           "normalized": "a-\u003e(b-\u003ea-\u003eRnds(c,a))-\u003eEvt b-\u003eEvt c",
@@ -2623,6 +2835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an event stream that contains values from the\n given list which are taken in the random order. In the list we specify\n not only values but the frequencies of occurrence. Sum of the frequencies \n should be equal to one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "freqOf",
           "package": "csound-expression",
@@ -2633,6 +2846,7 @@
         "index": {
           "description": "Constructs an event stream that contains values from the given list which are taken in the random order In the list we specify not only values but the frequencies of occurrence Sum of the frequencies should be equal to one",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "freqOf",
           "normalized": "Rnds a-\u003eEvt b-\u003eEvt a",
@@ -2649,6 +2863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen something happens on the given event stream resulting\n event stream contains an application of some unary function to the \n given initial value. So the event stream contains the values:\n\u003c/p\u003e\u003cpre\u003e [s0, f s0, f (f s0), f (f (f s0)), ...]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "iterateE",
           "package": "csound-expression",
@@ -2659,6 +2874,7 @@
         "index": {
           "description": "When something happens on the given event stream resulting event stream contains an application of some unary function to the given initial value So the event stream contains the values s0 s0 s0 s0",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "iterateE",
           "normalized": "a-\u003e(a-\u003ea)-\u003eEvt b-\u003eEvt a",
@@ -2674,6 +2890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns an event of indices to the event of the values from the list.\n A value is taken with index. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "listAt",
           "package": "csound-expression",
@@ -2684,6 +2901,7 @@
         "index": {
           "description": "Turns an event of indices to the event of the values from the list value is taken with index",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "listAt",
           "normalized": "[a]-\u003eEvt D-\u003eEvt a",
@@ -2700,6 +2918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special variant of the function \u003ccode\u003e\u003ca\u003eappendE\u003c/a\u003e\u003c/code\u003e for the monoids. \n Initial value is \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e and binary function is \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e which\n belong to the instance of the class \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "mappendE",
           "package": "csound-expression",
@@ -2710,6 +2929,7 @@
         "index": {
           "description": "special variant of the function appendE for the monoids Initial value is mempty and binary function is mappend which belong to the instance of the class Monoid",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "mappendE",
           "normalized": "Evt a-\u003eEvt a",
@@ -2725,6 +2945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilters events with the mask. A mask is a list of ones and zeroes. \n n'th element from the given list should be included in the resulting stream\n if the n'th element from the list equals to one or skipped if the element \n equals to zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "masked",
           "package": "csound-expression",
@@ -2735,6 +2956,7 @@
         "index": {
           "description": "Filters events with the mask mask is list of ones and zeroes th element from the given list should be included in the resulting stream if the th element from the list equals to one or skipped if the element equals to zero",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "masked",
           "normalized": "[D]-\u003eEvt a-\u003eEvt a",
@@ -2750,6 +2972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBehaves like \u003ccode\u003e\u003ca\u003emetro\u003c/a\u003e\u003c/code\u003e, but returns an event stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "metroE",
           "package": "csound-expression",
@@ -2760,6 +2983,7 @@
         "index": {
           "description": "Behaves like metro but returns an event stream",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "metroE",
           "normalized": "Sig-\u003eEvt Unit",
@@ -2775,6 +2999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an event stream that contains values from the\n given list which are taken in the random order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "oneOf",
           "package": "csound-expression",
@@ -2785,6 +3010,7 @@
         "index": {
           "description": "Constructs an event stream that contains values from the given list which are taken in the random order",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "oneOf",
           "normalized": "[a]-\u003eEvt b-\u003eEvt a",
@@ -2801,6 +3027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits event stream on two streams with predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "partitionE",
           "package": "csound-expression",
@@ -2811,6 +3038,7 @@
         "index": {
           "description": "Splits event stream on two streams with predicate",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "partitionE",
           "normalized": "(a-\u003eBoolD)-\u003eEvt a-\u003e(Evt a,Evt a)",
@@ -2826,6 +3054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn event stream of the random values in the interval \u003ccode\u003e(0, 1)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "randDs",
           "package": "csound-expression",
@@ -2836,6 +3065,7 @@
         "index": {
           "description": "An event stream of the random values in the interval",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "randDs",
           "normalized": "Evt a-\u003eEvt D",
@@ -2852,6 +3082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn event stream of the integers taken from the given diapason.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "randInts",
           "package": "csound-expression",
@@ -2862,6 +3093,7 @@
         "index": {
           "description": "An event stream of the integers taken from the given diapason",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "randInts",
           "normalized": "(D,D)-\u003eEvt a-\u003eEvt D",
@@ -2878,6 +3110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkips elements at random.\n\u003c/p\u003e\u003cpre\u003e randSkip prob\n\u003c/pre\u003e\u003cp\u003ewhere \u003ccode\u003eprob\u003c/code\u003e is probability of includinng the element in the output stream. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "randSkip",
           "package": "csound-expression",
@@ -2888,6 +3121,7 @@
         "index": {
           "description": "Skips elements at random randSkip prob where prob is probability of includinng the element in the output stream",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "randSkip",
           "normalized": "D-\u003eEvt a-\u003eEvt a",
@@ -2904,6 +3138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkips elements at random.\n\u003c/p\u003e\u003cpre\u003e randSkip probFun\n\u003c/pre\u003e\u003cp\u003eIt behaves just like \u003ccode\u003erandSkip\u003c/code\u003e, but probability depends on the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "randSkipBy",
           "package": "csound-expression",
@@ -2914,6 +3149,7 @@
         "index": {
           "description": "Skips elements at random randSkip probFun It behaves just like randSkip but probability depends on the value",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "randSkipBy",
           "normalized": "(a-\u003eD)-\u003eEvt a-\u003eEvt a",
@@ -2930,6 +3166,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e range (xMin, xMax) === cycleE [xMin .. pred xMax]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "range",
           "package": "csound-expression",
@@ -2940,6 +3177,7 @@
         "index": {
           "description": "range xMin xMax cycleE xMin pred xMax",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "range",
           "normalized": "(D,D)-\u003eEvt a-\u003eEvt D",
@@ -2955,6 +3193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitutes all values in the input stream with the given constant value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "repeatE",
           "package": "csound-expression",
@@ -2965,6 +3204,7 @@
         "index": {
           "description": "Substitutes all values in the input stream with the given constant value",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "repeatE",
           "normalized": "a-\u003eEvt b-\u003eEvt a",
@@ -2979,6 +3219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "runEvt",
           "package": "csound-expression",
@@ -2987,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "runEvt",
           "normalized": "Bam a-\u003eSE()",
@@ -3003,6 +3245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggers an event when signal equals to 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "sigToEvt",
           "package": "csound-expression",
@@ -3012,6 +3255,7 @@
         "index": {
           "description": "Triggers an event when signal equals to",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "sigToEvt",
           "normalized": "Sig-\u003eEvt Unit",
@@ -3028,6 +3272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an event stream that contains values from the\n given signal. Events happens only when the signal changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "snaps",
           "package": "csound-expression",
@@ -3037,6 +3282,7 @@
         "index": {
           "description": "Constructs an event stream that contains values from the given signal Events happens only when the signal changes",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "snaps",
           "normalized": "Sig-\u003eEvt D",
@@ -3052,6 +3298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet values of some signal at the given events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "snapshot",
           "package": "csound-expression",
@@ -3061,6 +3308,7 @@
         "index": {
           "description": "Get values of some signal at the given events",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "snapshot",
           "normalized": "(Snap a-\u003eb-\u003ec)-\u003ea-\u003eEvt b-\u003eEvt c",
@@ -3076,6 +3324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits a toggle event stream on on-events and off-events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "splitToggle",
           "package": "csound-expression",
@@ -3086,6 +3335,7 @@
         "index": {
           "description": "Splits toggle event stream on on-events and off-events",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "splitToggle",
           "normalized": "Evt D-\u003e(Evt D,Evt D)",
@@ -3102,6 +3352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts events to signals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "stepper",
           "package": "csound-expression",
@@ -3111,6 +3362,7 @@
         "index": {
           "description": "Converts events to signals",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "stepper",
           "normalized": "a-\u003eEvt a-\u003eSE a",
@@ -3126,6 +3378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes actions synchronized with global tempo (in Hz).\n\u003c/p\u003e\u003cpre\u003e runEvtSync tempoCps evt proc\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "sync",
           "package": "csound-expression",
@@ -3135,6 +3388,7 @@
         "index": {
           "description": "Executes actions synchronized with global tempo in Hz runEvtSync tempoCps evt proc",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "sync",
           "normalized": "D-\u003eEvt a-\u003eEvt a",
@@ -3150,6 +3404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe sync function but time is measured in beats per minute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "syncBpm",
           "package": "csound-expression",
@@ -3160,6 +3415,7 @@
         "index": {
           "description": "the sync function but time is measured in beats per minute",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "syncBpm",
           "normalized": "D-\u003eEvt a-\u003eEvt a",
@@ -3176,6 +3432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBehaves like \u003ccode\u003e\u003ca\u003etrigger\u003c/a\u003e\u003c/code\u003e, but returns an event stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Evt",
           "name": "triggerE",
           "package": "csound-expression",
@@ -3186,6 +3443,7 @@
         "index": {
           "description": "Behaves like trigger but returns an event stream",
           "hierarchy": "Csound Control Evt",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Evt",
           "name": "triggerE",
           "normalized": "Sig-\u003eSig-\u003eSig-\u003eEvt Unit",
@@ -3201,6 +3459,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe functions from this module specify the geometry \n of the GUI-elements. They tell where to render the elements.\n\u003c/p\u003e\u003cp\u003eEvery element is rectangular. To know where to place the element is \n to know the parameters of the bounding rectangle. All rectangles are\n relative and automatically aligned. \n\u003c/p\u003e\u003cp\u003eWe have two functions for grouping. They construct horizontal and vertical\n groups of the elements. Within the group we can change the relative size \n of the rectangles (by scaling one side of the rectangle). In place of rectangle\n we can put an empty space. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Layout",
           "name": "Layout",
           "package": "csound-expression",
@@ -3210,6 +3469,7 @@
         "index": {
           "description": "The functions from this module specify the geometry of the GUI-elements They tell where to render the elements Every element is rectangular To know where to place the element is to know the parameters of the bounding rectangle All rectangles are relative and automatically aligned We have two functions for grouping They construct horizontal and vertical groups of the elements Within the group we can change the relative size of the rectangles by scaling one side of the rectangle In place of rectangle we can put an empty space",
           "hierarchy": "Csound Control Gui Layout",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Layout",
           "name": "Layout",
           "package": "csound-expression",
@@ -3224,6 +3484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal groupping of the elements. All elements are \n placed in the stright horizontal line and aligned by Y-coordinate\n and height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Layout",
           "name": "hor",
           "package": "csound-expression",
@@ -3233,6 +3494,7 @@
         "index": {
           "description": "Horizontal groupping of the elements All elements are placed in the stright horizontal line and aligned by Y-coordinate and height",
           "hierarchy": "Csound Control Gui Layout",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Layout",
           "name": "hor",
           "normalized": "[Gui]-\u003eGui",
@@ -3248,6 +3510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeighted horizontal grouping. \n It takes a list of scaling factors and elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Layout",
           "name": "horSca",
           "package": "csound-expression",
@@ -3257,6 +3520,7 @@
         "index": {
           "description": "Weighted horizontal grouping It takes list of scaling factors and elements",
           "hierarchy": "Csound Control Gui Layout",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Layout",
           "name": "horSca",
           "normalized": "[(Double,Gui)]-\u003eGui",
@@ -3273,6 +3537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the margin of the element. How much empty space\n to reserve between the elements within the group. It affects\n only compound elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Layout",
           "name": "margin",
           "package": "csound-expression",
@@ -3282,6 +3547,7 @@
         "index": {
           "description": "Sets the margin of the element How much empty space to reserve between the elements within the group It affects only compound elements",
           "hierarchy": "Csound Control Gui Layout",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Layout",
           "name": "margin",
           "normalized": "Int-\u003eGui-\u003eGui",
@@ -3297,6 +3563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the padding of the element. How much empty space\n to reserve outside the element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Layout",
           "name": "padding",
           "package": "csound-expression",
@@ -3306,6 +3573,7 @@
         "index": {
           "description": "Sets the padding of the element How much empty space to reserve outside the element",
           "hierarchy": "Csound Control Gui Layout",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Layout",
           "name": "padding",
           "normalized": "Int-\u003eGui-\u003eGui",
@@ -3321,6 +3589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScales an element within the group. It depends on the type\n of the alignment (horizontal or vertical) which side of the bounding\n box is scaled. If it's a horizontal group then the width is scaled\n and height is scaled otherwise.\n\u003c/p\u003e\u003cp\u003eEvery element in the group has a scaling factor. By \n default it equals to one. During rendering all scaling factors are summed\n and divided on the sum of all factors. So that factors become weights \n or proportions. This process is called normalization. \n Scaling one element affects not only this element but \n all other elements in the group! \n\u003c/p\u003e\u003cp\u003eAn example:\n\u003c/p\u003e\u003cp\u003eOne element is twice as large as the other two:\n\u003c/p\u003e\u003cpre\u003e hor [a, b, sca 2 c]\n\u003c/pre\u003e\u003cp\u003eWhy is it so? Let's look at the hidden scaling factors:\n\u003c/p\u003e\u003cpre\u003e hor [sca 1 a, sca 1 b, sca 2 c]\n\u003c/pre\u003e\u003cp\u003eDuring rendering we scale all the scaling fators so that\n total sum equals to one:\n\u003c/p\u003e\u003cpre\u003e hor [sca 0.25 a, sca 0.25 b, sca 0.5 c]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Layout",
           "name": "sca",
           "package": "csound-expression",
@@ -3330,6 +3599,7 @@
         "index": {
           "description": "Scales an element within the group It depends on the type of the alignment horizontal or vertical which side of the bounding box is scaled If it horizontal group then the width is scaled and height is scaled otherwise Every element in the group has scaling factor By default it equals to one During rendering all scaling factors are summed and divided on the sum of all factors So that factors become weights or proportions This process is called normalization Scaling one element affects not only this element but all other elements in the group An example One element is twice as large as the other two hor sca Why is it so Let look at the hidden scaling factors hor sca sca sca During rendering we scale all the scaling fators so that total sum equals to one hor sca sca sca",
           "hierarchy": "Csound Control Gui Layout",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Layout",
           "name": "sca",
           "normalized": "Double-\u003eGui-\u003eGui",
@@ -3345,6 +3615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Layout",
           "name": "space",
           "package": "csound-expression",
@@ -3354,6 +3625,7 @@
         "index": {
           "description": "An empty space",
           "hierarchy": "Csound Control Gui Layout",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Layout",
           "name": "space",
           "package": "csound-expression",
@@ -3367,6 +3639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical groupping of the elements. All elements are \n placed in the stright vertical line and aligned by X-coordinate\n and width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Layout",
           "name": "ver",
           "package": "csound-expression",
@@ -3376,6 +3649,7 @@
         "index": {
           "description": "Vertical groupping of the elements All elements are placed in the stright vertical line and aligned by X-coordinate and width",
           "hierarchy": "Csound Control Gui Layout",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Layout",
           "name": "ver",
           "normalized": "[Gui]-\u003eGui",
@@ -3391,6 +3665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeighted vertical grouping. \n It takes a list of scaling factors and elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Layout",
           "name": "verSca",
           "package": "csound-expression",
@@ -3400,6 +3675,7 @@
         "index": {
           "description": "Weighted vertical grouping It takes list of scaling factors and elements",
           "hierarchy": "Csound Control Gui Layout",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Layout",
           "name": "verSca",
           "normalized": "[(Double,Gui)]-\u003eGui",
@@ -3416,6 +3692,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProperties that specify the appearance of the GUI elements. \n The specification is inspired by CSS. All properties\n are set in the cascade manner. For example, if you want to change the font type\n for all elements you should set this property only for the top-most GUI element.\n If the property is set on the lower level it wins versus property that is set on the \n higher level. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Props",
           "package": "csound-expression",
@@ -3425,6 +3702,7 @@
         "index": {
           "description": "Properties that specify the appearance of the GUI elements The specification is inspired by CSS All properties are set in the cascade manner For example if you want to change the font type for all elements you should set this property only for the top-most GUI element If the property is set on the lower level it wins versus property that is set on the higher level",
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Props",
           "package": "csound-expression",
@@ -3438,6 +3716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "BorderType",
           "package": "csound-expression",
@@ -3445,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "BorderType",
           "package": "csound-expression",
@@ -3459,6 +3739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Csound colours. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Color",
           "package": "csound-expression",
@@ -3467,6 +3748,7 @@
         "index": {
           "description": "The Csound colours",
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Color",
           "package": "csound-expression",
@@ -3480,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Emphasis",
           "package": "csound-expression",
@@ -3487,6 +3770,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Emphasis",
           "package": "csound-expression",
@@ -3500,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "FontType",
           "package": "csound-expression",
@@ -3507,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "FontType",
           "package": "csound-expression",
@@ -3521,6 +3807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the material of the element. It affects sliders and buttons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Material",
           "package": "csound-expression",
@@ -3529,6 +3816,7 @@
         "index": {
           "description": "The type of the material of the element It affects sliders and buttons",
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Material",
           "package": "csound-expression",
@@ -3543,6 +3831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe orientation of the widget (slider, roller). This property is \n never needs to be set in practice. If this property is not set then \n default orientation is calculated from the bounding box of the widget.\n If the width is greater than the height then we need to use a horizontal\n widget otherwise it should be a vertical one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Orient",
           "package": "csound-expression",
@@ -3551,6 +3840,7 @@
         "index": {
           "description": "The orientation of the widget slider roller This property is never needs to be set in practice If this property is not set then default orientation is calculated from the bounding box of the widget If the width is greater than the height then we need to use horizontal widget otherwise it should be vertical one",
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Orient",
           "package": "csound-expression",
@@ -3565,6 +3855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperties of the widgets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Prop",
           "package": "csound-expression",
@@ -3573,6 +3864,7 @@
         "index": {
           "description": "Properties of the widgets",
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Prop",
           "package": "csound-expression",
@@ -3587,6 +3879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Rect",
           "package": "csound-expression",
@@ -3595,6 +3888,7 @@
         "index": {
           "description": "rectangle",
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Rect",
           "package": "csound-expression",
@@ -3608,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "BlackLine",
           "package": "csound-expression",
@@ -3616,6 +3911,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "BlackLine",
           "package": "csound-expression",
@@ -3629,6 +3925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Bold",
           "package": "csound-expression",
@@ -3637,6 +3934,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Bold",
           "package": "csound-expression",
@@ -3650,6 +3948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "BoldItalic",
           "package": "csound-expression",
@@ -3658,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "BoldItalic",
           "package": "csound-expression",
@@ -3671,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Courier",
           "package": "csound-expression",
@@ -3679,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Courier",
           "package": "csound-expression",
@@ -3692,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Dingbats",
           "package": "csound-expression",
@@ -3700,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Dingbats",
           "package": "csound-expression",
@@ -3713,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "DownBoxBorder",
           "package": "csound-expression",
@@ -3721,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "DownBoxBorder",
           "package": "csound-expression",
@@ -3734,6 +4040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "EmbossedBorder",
           "package": "csound-expression",
@@ -3742,6 +4049,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "EmbossedBorder",
           "package": "csound-expression",
@@ -3755,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "EngravedBorder",
           "package": "csound-expression",
@@ -3763,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "EngravedBorder",
           "package": "csound-expression",
@@ -3776,6 +4086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Helvetica",
           "package": "csound-expression",
@@ -3784,6 +4095,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Helvetica",
           "package": "csound-expression",
@@ -3797,6 +4109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Hor",
           "package": "csound-expression",
@@ -3805,6 +4118,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Hor",
           "package": "csound-expression",
@@ -3818,6 +4132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Italic",
           "package": "csound-expression",
@@ -3826,6 +4141,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Italic",
           "package": "csound-expression",
@@ -3839,6 +4155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "NoBorder",
           "package": "csound-expression",
@@ -3847,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "NoBorder",
           "package": "csound-expression",
@@ -3860,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "NoEmphasis",
           "package": "csound-expression",
@@ -3868,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "NoEmphasis",
           "package": "csound-expression",
@@ -3881,6 +4201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "NoPlastic",
           "package": "csound-expression",
@@ -3889,6 +4210,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "NoPlastic",
           "package": "csound-expression",
@@ -3902,6 +4224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Plastic",
           "package": "csound-expression",
@@ -3910,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Plastic",
           "package": "csound-expression",
@@ -3923,6 +4247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Rect",
           "package": "csound-expression",
@@ -3931,6 +4256,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Rect",
           "package": "csound-expression",
@@ -3944,6 +4270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Screen",
           "package": "csound-expression",
@@ -3952,6 +4279,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Screen",
           "package": "csound-expression",
@@ -3965,6 +4293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetBoxType",
           "package": "csound-expression",
@@ -3973,6 +4302,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetBoxType",
           "package": "csound-expression",
@@ -3986,6 +4316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetButtonType",
           "package": "csound-expression",
@@ -3994,6 +4325,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetButtonType",
           "package": "csound-expression",
@@ -4007,6 +4339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetColor1",
           "package": "csound-expression",
@@ -4015,6 +4348,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetColor1",
           "package": "csound-expression",
@@ -4028,6 +4362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetColor2",
           "package": "csound-expression",
@@ -4036,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetColor2",
           "package": "csound-expression",
@@ -4049,6 +4385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetEmphasis",
           "package": "csound-expression",
@@ -4057,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetEmphasis",
           "package": "csound-expression",
@@ -4070,6 +4408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetFontSize",
           "package": "csound-expression",
@@ -4078,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetFontSize",
           "package": "csound-expression",
@@ -4091,6 +4431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetFontType",
           "package": "csound-expression",
@@ -4099,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetFontType",
           "package": "csound-expression",
@@ -4112,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetKnobType",
           "package": "csound-expression",
@@ -4120,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetKnobType",
           "package": "csound-expression",
@@ -4133,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetLabel",
           "package": "csound-expression",
@@ -4141,6 +4486,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetLabel",
           "package": "csound-expression",
@@ -4154,6 +4500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetLabelType",
           "package": "csound-expression",
@@ -4162,6 +4509,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetLabelType",
           "package": "csound-expression",
@@ -4175,6 +4523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetMaterial",
           "package": "csound-expression",
@@ -4183,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetMaterial",
           "package": "csound-expression",
@@ -4196,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetOrient",
           "package": "csound-expression",
@@ -4204,6 +4555,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetOrient",
           "package": "csound-expression",
@@ -4217,6 +4569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetSliderType",
           "package": "csound-expression",
@@ -4225,6 +4578,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetSliderType",
           "package": "csound-expression",
@@ -4238,6 +4592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetTextColor",
           "package": "csound-expression",
@@ -4246,6 +4601,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetTextColor",
           "package": "csound-expression",
@@ -4259,6 +4615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "SetTextType",
           "package": "csound-expression",
@@ -4267,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "SetTextType",
           "package": "csound-expression",
@@ -4280,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Symbol",
           "package": "csound-expression",
@@ -4288,6 +4647,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Symbol",
           "package": "csound-expression",
@@ -4301,6 +4661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "ThinDown",
           "package": "csound-expression",
@@ -4309,6 +4670,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "ThinDown",
           "package": "csound-expression",
@@ -4322,6 +4684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "ThinUp",
           "package": "csound-expression",
@@ -4330,6 +4693,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "ThinUp",
           "package": "csound-expression",
@@ -4343,6 +4707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Times",
           "package": "csound-expression",
@@ -4351,6 +4716,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Times",
           "package": "csound-expression",
@@ -4364,6 +4730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "UpBoxBorder",
           "package": "csound-expression",
@@ -4372,6 +4739,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "UpBoxBorder",
           "package": "csound-expression",
@@ -4385,6 +4753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "Ver",
           "package": "csound-expression",
@@ -4393,6 +4762,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "Ver",
           "package": "csound-expression",
@@ -4407,6 +4777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the properties for a GUI element on all levels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "forceProps",
           "package": "csound-expression",
@@ -4416,6 +4787,7 @@
         "index": {
           "description": "Sets the properties for GUI element on all levels",
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "forceProps",
           "normalized": "[Prop]-\u003eGui-\u003eGui",
@@ -4431,6 +4803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "height",
           "package": "csound-expression",
@@ -4439,6 +4812,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "height",
           "package": "csound-expression",
@@ -4452,6 +4826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the properties for a GUI element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "props",
           "package": "csound-expression",
@@ -4461,6 +4836,7 @@
         "index": {
           "description": "Sets the properties for GUI element",
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "props",
           "normalized": "[Prop]-\u003eGui-\u003eGui",
@@ -4475,6 +4851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "px",
           "package": "csound-expression",
@@ -4483,6 +4860,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "px",
           "package": "csound-expression",
@@ -4495,6 +4873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "py",
           "package": "csound-expression",
@@ -4503,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "py",
           "package": "csound-expression",
@@ -4515,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "setBorder",
           "package": "csound-expression",
@@ -4523,6 +4904,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "setBorder",
           "normalized": "BorderType-\u003eGui-\u003eGui",
@@ -4538,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "setColor1",
           "package": "csound-expression",
@@ -4546,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "setColor1",
           "normalized": "Color-\u003eGui-\u003eGui",
@@ -4561,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "setColor2",
           "package": "csound-expression",
@@ -4569,6 +4954,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "setColor2",
           "normalized": "Color-\u003eGui-\u003eGui",
@@ -4584,6 +4970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "setColors",
           "package": "csound-expression",
@@ -4592,6 +4979,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "setColors",
           "normalized": "Color-\u003eColor-\u003eGui-\u003eGui",
@@ -4607,6 +4995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "setEmphasis",
           "package": "csound-expression",
@@ -4615,6 +5004,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "setEmphasis",
           "normalized": "Emphasis-\u003eGui-\u003eGui",
@@ -4630,6 +5020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "setFontSize",
           "package": "csound-expression",
@@ -4638,6 +5029,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "setFontSize",
           "normalized": "Int-\u003eGui-\u003eGui",
@@ -4653,6 +5045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "setFontType",
           "package": "csound-expression",
@@ -4661,6 +5054,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "setFontType",
           "normalized": "FontType-\u003eGui-\u003eGui",
@@ -4676,6 +5070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "setLabel",
           "package": "csound-expression",
@@ -4684,6 +5079,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "setLabel",
           "normalized": "String-\u003eGui-\u003eGui",
@@ -4699,6 +5095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "setMaterial",
           "package": "csound-expression",
@@ -4707,6 +5104,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "setMaterial",
           "normalized": "Material-\u003eGui-\u003eGui",
@@ -4722,6 +5120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "setOrient",
           "package": "csound-expression",
@@ -4730,6 +5129,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "setOrient",
           "normalized": "Orient-\u003eGui-\u003eGui",
@@ -4745,6 +5145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "setTextColor",
           "package": "csound-expression",
@@ -4753,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "setTextColor",
           "normalized": "Color-\u003eGui-\u003eGui",
@@ -4768,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Props",
           "name": "width",
           "package": "csound-expression",
@@ -4776,6 +5179,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Props",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Props",
           "name": "width",
           "package": "csound-expression",
@@ -4789,6 +5193,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrimitive GUI elements.\n\u003c/p\u003e\u003cp\u003eThere is a convention that constructors take only parameters that \n specify the logic of the widget. The view is set for GUI-elements with \n other functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Widget",
           "package": "csound-expression",
@@ -4798,6 +5203,7 @@
         "index": {
           "description": "Primitive GUI elements There is convention that constructors take only parameters that specify the logic of the widget The view is set for GUI-elements with other functions",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Widget",
           "package": "csound-expression",
@@ -4812,6 +5218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the box. Some values are not implemented on the Csound level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "BoxType",
           "package": "csound-expression",
@@ -4820,6 +5227,7 @@
         "index": {
           "description": "The type of the box Some values are not implemented on the Csound level",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "BoxType",
           "package": "csound-expression",
@@ -4834,6 +5242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the button. It affects toggle buttons and button banks.\n\u003c/p\u003e\u003cp\u003eIn Csound buttons and toggle buttons\n are constructed with the same function (but with different button types). \n But in this library they are contructed by different functions (\u003ccode\u003ebutton\u003c/code\u003e and \u003ccode\u003etoggle\u003c/code\u003e). \n Normal button is a plain old button, but other values specify toggle buttons.\n So this property doesn't affect the buttons (since they could be only normal buttons).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ButtonType",
           "package": "csound-expression",
@@ -4842,6 +5251,7 @@
         "index": {
           "description": "The type of the button It affects toggle buttons and button banks In Csound buttons and toggle buttons are constructed with the same function but with different button types But in this library they are contructed by different functions button and toggle Normal button is plain old button but other values specify toggle buttons So this property doesn affect the buttons since they could be only normal buttons",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ButtonType",
           "package": "csound-expression",
@@ -4856,6 +5266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Key",
           "package": "csound-expression",
@@ -4864,6 +5275,7 @@
         "index": {
           "description": "Keys",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Key",
           "package": "csound-expression",
@@ -4878,6 +5290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeyboard events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "KeyEvt",
           "package": "csound-expression",
@@ -4886,6 +5299,7 @@
         "index": {
           "description": "Keyboard events",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "KeyEvt",
           "package": "csound-expression",
@@ -4899,6 +5313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "KnobType",
           "package": "csound-expression",
@@ -4906,6 +5321,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "KnobType",
           "package": "csound-expression",
@@ -4919,6 +5335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "SliderType",
           "package": "csound-expression",
@@ -4926,6 +5343,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "SliderType",
           "package": "csound-expression",
@@ -4939,6 +5357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "TextType",
           "package": "csound-expression",
@@ -4946,6 +5365,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "TextType",
           "package": "csound-expression",
@@ -4960,6 +5380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe diapason of the continuous value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ValDiap",
           "package": "csound-expression",
@@ -4968,6 +5389,7 @@
         "index": {
           "description": "The diapason of the continuous value",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ValDiap",
           "package": "csound-expression",
@@ -4981,6 +5403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ValScaleType",
           "package": "csound-expression",
@@ -4988,6 +5411,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ValScaleType",
           "package": "csound-expression",
@@ -5002,6 +5426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value span is a diapason of the value and a type \n of the scale (can be linear or exponential).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ValSpan",
           "package": "csound-expression",
@@ -5010,6 +5435,7 @@
         "index": {
           "description": "value span is diapason of the value and type of the scale can be linear or exponential",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ValSpan",
           "package": "csound-expression",
@@ -5023,6 +5449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ValStep",
           "package": "csound-expression",
@@ -5030,6 +5457,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ValStep",
           "package": "csound-expression",
@@ -5043,6 +5471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ArrowDown",
           "package": "csound-expression",
@@ -5051,6 +5480,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ArrowDown",
           "package": "csound-expression",
@@ -5064,6 +5494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ArrowLeft",
           "package": "csound-expression",
@@ -5072,6 +5503,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ArrowLeft",
           "package": "csound-expression",
@@ -5085,6 +5517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ArrowRight",
           "package": "csound-expression",
@@ -5093,6 +5526,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ArrowRight",
           "package": "csound-expression",
@@ -5106,6 +5540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ArrowUp",
           "package": "csound-expression",
@@ -5114,6 +5549,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ArrowUp",
           "package": "csound-expression",
@@ -5127,6 +5563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Backspace",
           "package": "csound-expression",
@@ -5135,6 +5572,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Backspace",
           "package": "csound-expression",
@@ -5148,6 +5586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "BorderBox",
           "package": "csound-expression",
@@ -5156,6 +5595,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "BorderBox",
           "package": "csound-expression",
@@ -5169,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "CapsLook",
           "package": "csound-expression",
@@ -5177,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "CapsLook",
           "package": "csound-expression",
@@ -5190,6 +5632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "CharKey",
           "package": "csound-expression",
@@ -5198,6 +5641,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "CharKey",
           "package": "csound-expression",
@@ -5211,6 +5655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "CheckButton",
           "package": "csound-expression",
@@ -5219,6 +5664,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "CheckButton",
           "package": "csound-expression",
@@ -5232,6 +5678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Clock",
           "package": "csound-expression",
@@ -5240,6 +5687,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Clock",
           "package": "csound-expression",
@@ -5253,6 +5701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Delete",
           "package": "csound-expression",
@@ -5261,6 +5710,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Delete",
           "package": "csound-expression",
@@ -5274,6 +5724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "DiamondDownBox",
           "package": "csound-expression",
@@ -5282,6 +5733,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "DiamondDownBox",
           "package": "csound-expression",
@@ -5295,6 +5747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "DiamondUpBox",
           "package": "csound-expression",
@@ -5303,6 +5756,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "DiamondUpBox",
           "package": "csound-expression",
@@ -5316,6 +5770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "DownBox",
           "package": "csound-expression",
@@ -5324,6 +5779,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "DownBox",
           "package": "csound-expression",
@@ -5337,6 +5793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "EmbossedBox",
           "package": "csound-expression",
@@ -5345,6 +5802,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "EmbossedBox",
           "package": "csound-expression",
@@ -5358,6 +5816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "End",
           "package": "csound-expression",
@@ -5366,6 +5825,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "End",
           "package": "csound-expression",
@@ -5379,6 +5839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Engraved",
           "package": "csound-expression",
@@ -5387,6 +5848,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Engraved",
           "package": "csound-expression",
@@ -5400,6 +5862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "EngravedBox",
           "package": "csound-expression",
@@ -5408,6 +5871,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "EngravedBox",
           "package": "csound-expression",
@@ -5421,6 +5885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Enter",
           "package": "csound-expression",
@@ -5429,6 +5894,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Enter",
           "package": "csound-expression",
@@ -5442,6 +5908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Exponential",
           "package": "csound-expression",
@@ -5450,6 +5917,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Exponential",
           "package": "csound-expression",
@@ -5463,6 +5931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "F1",
           "package": "csound-expression",
@@ -5471,6 +5940,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "F1",
           "package": "csound-expression",
@@ -5483,6 +5953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "F10",
           "package": "csound-expression",
@@ -5491,6 +5962,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "F10",
           "package": "csound-expression",
@@ -5503,6 +5975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "F11",
           "package": "csound-expression",
@@ -5511,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "F11",
           "package": "csound-expression",
@@ -5523,6 +5997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "F12",
           "package": "csound-expression",
@@ -5531,6 +6006,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "F12",
           "package": "csound-expression",
@@ -5543,6 +6019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "F2",
           "package": "csound-expression",
@@ -5551,6 +6028,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "F2",
           "package": "csound-expression",
@@ -5563,6 +6041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "F3",
           "package": "csound-expression",
@@ -5571,6 +6050,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "F3",
           "package": "csound-expression",
@@ -5583,6 +6063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "F4",
           "package": "csound-expression",
@@ -5591,6 +6072,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "F4",
           "package": "csound-expression",
@@ -5603,6 +6085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "F5",
           "package": "csound-expression",
@@ -5611,6 +6094,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "F5",
           "package": "csound-expression",
@@ -5623,6 +6107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "F6",
           "package": "csound-expression",
@@ -5631,6 +6116,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "F6",
           "package": "csound-expression",
@@ -5643,6 +6129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "F7",
           "package": "csound-expression",
@@ -5651,6 +6138,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "F7",
           "package": "csound-expression",
@@ -5663,6 +6151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "F8",
           "package": "csound-expression",
@@ -5671,6 +6160,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "F8",
           "package": "csound-expression",
@@ -5683,6 +6173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "F9",
           "package": "csound-expression",
@@ -5691,6 +6182,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "F9",
           "package": "csound-expression",
@@ -5703,6 +6195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Fill",
           "package": "csound-expression",
@@ -5711,6 +6204,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Fill",
           "package": "csound-expression",
@@ -5724,6 +6218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Flat",
           "package": "csound-expression",
@@ -5732,6 +6227,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Flat",
           "package": "csound-expression",
@@ -5745,6 +6241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "FlatBox",
           "package": "csound-expression",
@@ -5753,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "FlatBox",
           "package": "csound-expression",
@@ -5766,6 +6264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Home",
           "package": "csound-expression",
@@ -5774,6 +6273,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Home",
           "package": "csound-expression",
@@ -5787,6 +6287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Insert",
           "package": "csound-expression",
@@ -5795,6 +6296,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Insert",
           "package": "csound-expression",
@@ -5808,6 +6310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "LeftAlt",
           "package": "csound-expression",
@@ -5816,6 +6319,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "LeftAlt",
           "package": "csound-expression",
@@ -5829,6 +6333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "LeftCtrl",
           "package": "csound-expression",
@@ -5837,6 +6342,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "LeftCtrl",
           "package": "csound-expression",
@@ -5850,6 +6356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "LeftShift",
           "package": "csound-expression",
@@ -5858,6 +6365,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "LeftShift",
           "package": "csound-expression",
@@ -5871,6 +6379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "LeftWinKey",
           "package": "csound-expression",
@@ -5879,6 +6388,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "LeftWinKey",
           "package": "csound-expression",
@@ -5892,6 +6402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "LightButton",
           "package": "csound-expression",
@@ -5900,6 +6411,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "LightButton",
           "package": "csound-expression",
@@ -5913,6 +6425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Linear",
           "package": "csound-expression",
@@ -5921,6 +6434,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Linear",
           "package": "csound-expression",
@@ -5934,6 +6448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Nice",
           "package": "csound-expression",
@@ -5942,6 +6457,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Nice",
           "package": "csound-expression",
@@ -5955,6 +6471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NoDrag",
           "package": "csound-expression",
@@ -5963,6 +6480,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NoDrag",
           "package": "csound-expression",
@@ -5976,6 +6494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NoEdit",
           "package": "csound-expression",
@@ -5984,6 +6503,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NoEdit",
           "package": "csound-expression",
@@ -5997,6 +6517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NormalButton",
           "package": "csound-expression",
@@ -6005,6 +6526,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NormalButton",
           "package": "csound-expression",
@@ -6018,6 +6540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NormalText",
           "package": "csound-expression",
@@ -6026,6 +6549,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NormalText",
           "package": "csound-expression",
@@ -6039,6 +6563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num0",
           "package": "csound-expression",
@@ -6047,6 +6572,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num0",
           "package": "csound-expression",
@@ -6060,6 +6586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num1",
           "package": "csound-expression",
@@ -6068,6 +6595,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num1",
           "package": "csound-expression",
@@ -6081,6 +6609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num2",
           "package": "csound-expression",
@@ -6089,6 +6618,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num2",
           "package": "csound-expression",
@@ -6102,6 +6632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num3",
           "package": "csound-expression",
@@ -6110,6 +6641,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num3",
           "package": "csound-expression",
@@ -6123,6 +6655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num4",
           "package": "csound-expression",
@@ -6131,6 +6664,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num4",
           "package": "csound-expression",
@@ -6144,6 +6678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num5",
           "package": "csound-expression",
@@ -6152,6 +6687,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num5",
           "package": "csound-expression",
@@ -6165,6 +6701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num6",
           "package": "csound-expression",
@@ -6173,6 +6710,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num6",
           "package": "csound-expression",
@@ -6186,6 +6724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num7",
           "package": "csound-expression",
@@ -6194,6 +6733,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num7",
           "package": "csound-expression",
@@ -6207,6 +6747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num8",
           "package": "csound-expression",
@@ -6215,6 +6756,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num8",
           "package": "csound-expression",
@@ -6228,6 +6770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num9",
           "package": "csound-expression",
@@ -6236,6 +6779,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Num9",
           "package": "csound-expression",
@@ -6249,6 +6793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumArrowDown",
           "package": "csound-expression",
@@ -6257,6 +6802,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumArrowDown",
           "package": "csound-expression",
@@ -6270,6 +6816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumArrowLeft",
           "package": "csound-expression",
@@ -6278,6 +6825,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumArrowLeft",
           "package": "csound-expression",
@@ -6291,6 +6839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumArrowRight",
           "package": "csound-expression",
@@ -6299,6 +6848,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumArrowRight",
           "package": "csound-expression",
@@ -6312,6 +6862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumArrowUp",
           "package": "csound-expression",
@@ -6320,6 +6871,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumArrowUp",
           "package": "csound-expression",
@@ -6333,6 +6885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumDel",
           "package": "csound-expression",
@@ -6341,6 +6894,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumDel",
           "package": "csound-expression",
@@ -6354,6 +6908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumDiv",
           "package": "csound-expression",
@@ -6362,6 +6917,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumDiv",
           "package": "csound-expression",
@@ -6375,6 +6931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumDot",
           "package": "csound-expression",
@@ -6383,6 +6940,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumDot",
           "package": "csound-expression",
@@ -6396,6 +6954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumEnd",
           "package": "csound-expression",
@@ -6404,6 +6963,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumEnd",
           "package": "csound-expression",
@@ -6417,6 +6977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumEnter",
           "package": "csound-expression",
@@ -6425,6 +6986,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumEnter",
           "package": "csound-expression",
@@ -6438,6 +7000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumHome",
           "package": "csound-expression",
@@ -6446,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumHome",
           "package": "csound-expression",
@@ -6459,6 +7023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumIns",
           "package": "csound-expression",
@@ -6467,6 +7032,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumIns",
           "package": "csound-expression",
@@ -6480,6 +7046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumLock",
           "package": "csound-expression",
@@ -6488,6 +7055,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumLock",
           "package": "csound-expression",
@@ -6501,6 +7069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumMul",
           "package": "csound-expression",
@@ -6509,6 +7078,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumMul",
           "package": "csound-expression",
@@ -6522,6 +7092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumPgDown",
           "package": "csound-expression",
@@ -6530,6 +7101,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumPgDown",
           "package": "csound-expression",
@@ -6543,6 +7115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumPgUp",
           "package": "csound-expression",
@@ -6551,6 +7124,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumPgUp",
           "package": "csound-expression",
@@ -6564,6 +7138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumPlus",
           "package": "csound-expression",
@@ -6572,6 +7147,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumPlus",
           "package": "csound-expression",
@@ -6585,6 +7161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumSpace",
           "package": "csound-expression",
@@ -6593,6 +7170,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumSpace",
           "package": "csound-expression",
@@ -6606,6 +7184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumSub",
           "package": "csound-expression",
@@ -6614,6 +7193,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "NumSub",
           "package": "csound-expression",
@@ -6627,6 +7207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "OvalBox",
           "package": "csound-expression",
@@ -6635,6 +7216,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "OvalBox",
           "package": "csound-expression",
@@ -6648,6 +7230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "OvalFlatBox",
           "package": "csound-expression",
@@ -6656,6 +7239,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "OvalFlatBox",
           "package": "csound-expression",
@@ -6669,6 +7253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "OvalShadowBox",
           "package": "csound-expression",
@@ -6677,6 +7262,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "OvalShadowBox",
           "package": "csound-expression",
@@ -6690,6 +7276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "PgDown",
           "package": "csound-expression",
@@ -6698,6 +7285,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "PgDown",
           "package": "csound-expression",
@@ -6711,6 +7299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "PgUp",
           "package": "csound-expression",
@@ -6719,6 +7308,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "PgUp",
           "package": "csound-expression",
@@ -6732,6 +7322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Pie",
           "package": "csound-expression",
@@ -6740,6 +7331,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Pie",
           "package": "csound-expression",
@@ -6753,6 +7345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Press",
           "package": "csound-expression",
@@ -6761,6 +7354,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Press",
           "package": "csound-expression",
@@ -6774,6 +7368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Release",
           "package": "csound-expression",
@@ -6782,6 +7377,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Release",
           "package": "csound-expression",
@@ -6795,6 +7391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "RightAlt",
           "package": "csound-expression",
@@ -6803,6 +7400,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "RightAlt",
           "package": "csound-expression",
@@ -6816,6 +7414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "RightCtrl",
           "package": "csound-expression",
@@ -6824,6 +7423,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "RightCtrl",
           "package": "csound-expression",
@@ -6837,6 +7437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "RightShift",
           "package": "csound-expression",
@@ -6845,6 +7446,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "RightShift",
           "package": "csound-expression",
@@ -6858,6 +7460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "RightWinKey",
           "package": "csound-expression",
@@ -6866,6 +7469,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "RightWinKey",
           "package": "csound-expression",
@@ -6879,6 +7483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "RoundButton",
           "package": "csound-expression",
@@ -6887,6 +7492,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "RoundButton",
           "package": "csound-expression",
@@ -6900,6 +7506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "RoundedDownBox",
           "package": "csound-expression",
@@ -6908,6 +7515,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "RoundedDownBox",
           "package": "csound-expression",
@@ -6921,6 +7529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "RoundedFlatBox",
           "package": "csound-expression",
@@ -6929,6 +7538,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "RoundedFlatBox",
           "package": "csound-expression",
@@ -6942,6 +7552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "RoundedShadowBox",
           "package": "csound-expression",
@@ -6950,6 +7561,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "RoundedShadowBox",
           "package": "csound-expression",
@@ -6963,6 +7575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "RoundedUpBox",
           "package": "csound-expression",
@@ -6971,6 +7584,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "RoundedUpBox",
           "package": "csound-expression",
@@ -6984,6 +7598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Roundedbox",
           "package": "csound-expression",
@@ -6992,6 +7607,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Roundedbox",
           "package": "csound-expression",
@@ -7005,6 +7621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "Scroll",
           "package": "csound-expression",
@@ -7013,6 +7630,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "Scroll",
           "package": "csound-expression",
@@ -7026,6 +7644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ShadowBox",
           "package": "csound-expression",
@@ -7034,6 +7653,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ShadowBox",
           "package": "csound-expression",
@@ -7047,6 +7667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ThinDownBox",
           "package": "csound-expression",
@@ -7055,6 +7676,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ThinDownBox",
           "package": "csound-expression",
@@ -7068,6 +7690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ThinUpBox",
           "package": "csound-expression",
@@ -7076,6 +7699,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ThinUpBox",
           "package": "csound-expression",
@@ -7089,6 +7713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ThreeD",
           "package": "csound-expression",
@@ -7097,6 +7722,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ThreeD",
           "package": "csound-expression",
@@ -7110,6 +7736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "UpBox",
           "package": "csound-expression",
@@ -7118,6 +7745,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "UpBox",
           "package": "csound-expression",
@@ -7131,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ValDiap",
           "package": "csound-expression",
@@ -7139,6 +7768,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ValDiap",
           "package": "csound-expression",
@@ -7152,6 +7782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "ValSpan",
           "package": "csound-expression",
@@ -7160,6 +7791,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "ValSpan",
           "package": "csound-expression",
@@ -7174,6 +7806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA FLTK widget that displays text inside of a box.\n If the text is longer than 255 characters the text\n is split on several parts (Csound limitations).\n\u003c/p\u003e\u003cpre\u003e box text\n\u003c/pre\u003e\u003cp\u003edoc: \u003ca\u003ehttp://www.csounds.com/manual/html/FLbox.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "box",
           "package": "csound-expression",
@@ -7183,6 +7816,7 @@
         "index": {
           "description": "FLTK widget that displays text inside of box If the text is longer than characters the text is split on several parts Csound limitations box text doc http www.csounds.com manual html FLbox.html",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "box",
           "normalized": "String-\u003eDisplay",
@@ -7198,6 +7832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBipolar unit span. A special case:\n\u003c/p\u003e\u003cpre\u003e uspan = linSpan (-1) 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "bspan",
           "package": "csound-expression",
@@ -7207,6 +7842,7 @@
         "index": {
           "description": "Bipolar unit span special case uspan linSpan",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "bspan",
           "package": "csound-expression",
@@ -7220,6 +7856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA FLTK widget opcode that creates a bank of buttons.\n Result is (x, y) coordinate of the triggered button.\n\u003c/p\u003e\u003cpre\u003e butBank xNumOfButtons yNumOfButtons\n\u003c/pre\u003e\u003cp\u003edoc: \u003ca\u003ehttp://www.csounds.com/manual/html/FLbutBank.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "butBank",
           "package": "csound-expression",
@@ -7229,6 +7866,7 @@
         "index": {
           "description": "FLTK widget opcode that creates bank of buttons Result is coordinate of the triggered button butBank xNumOfButtons yNumOfButtons doc http www.csounds.com manual html FLbutBank.html",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "butBank",
           "normalized": "String-\u003eInt-\u003eInt-\u003e(Int,Int)-\u003eSource(Evt(D,D))",
@@ -7245,6 +7883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA FLTK widget opcode that creates a bank of buttons.\n\u003c/p\u003e\u003cpre\u003e butBank xNumOfButtons yNumOfButtons\n\u003c/pre\u003e\u003cp\u003edoc: \u003ca\u003ehttp://www.csounds.com/manual/html/FLbutBank.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "butBank1",
           "package": "csound-expression",
@@ -7254,6 +7893,7 @@
         "index": {
           "description": "FLTK widget opcode that creates bank of buttons butBank xNumOfButtons yNumOfButtons doc http www.csounds.com manual html FLbutBank.html",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "butBank1",
           "normalized": "String-\u003eInt-\u003eInt-\u003e(Int,Int)-\u003eSource(Evt D)",
@@ -7270,6 +7910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variance on the function \u003ccode\u003e\u003ca\u003ebutBank\u003c/a\u003e\u003c/code\u003e, but it produces \n a signal of piecewise constant function. \n Result is (x, y) coordinate of the triggered button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "butBankSig",
           "package": "csound-expression",
@@ -7279,6 +7920,7 @@
         "index": {
           "description": "variance on the function butBank but it produces signal of piecewise constant function Result is coordinate of the triggered button",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "butBankSig",
           "normalized": "String-\u003eInt-\u003eInt-\u003e(Int,Int)-\u003eSource(Sig,Sig)",
@@ -7294,6 +7936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "butBankSig1",
           "package": "csound-expression",
@@ -7302,6 +7945,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "butBankSig1",
           "normalized": "String-\u003eInt-\u003eInt-\u003e(Int,Int)-\u003eSource Sig",
@@ -7318,6 +7962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA FLTK widget opcode that creates a button. \n\u003c/p\u003e\u003cpre\u003e button text\n\u003c/pre\u003e\u003cp\u003edoc: \u003ca\u003ehttp://www.csounds.com/manual/html/FLbutton.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "button",
           "package": "csound-expression",
@@ -7327,6 +7972,7 @@
         "index": {
           "description": "FLTK widget opcode that creates button button text doc http www.csounds.com manual html FLbutton.html",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "button",
           "normalized": "String-\u003eSource(Evt Unit)",
@@ -7342,6 +7988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut for release \u003ccode\u003e\u003ca\u003eCharKey\u003c/a\u003e\u003c/code\u003e events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "charOff",
           "package": "csound-expression",
@@ -7352,6 +7999,7 @@
         "index": {
           "description": "Shortcut for release CharKey events",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "charOff",
           "normalized": "Char-\u003eEvt Unit",
@@ -7368,6 +8016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut for press \u003ccode\u003e\u003ca\u003eCharKey\u003c/a\u003e\u003c/code\u003e events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "charOn",
           "package": "csound-expression",
@@ -7378,6 +8027,7 @@
         "index": {
           "description": "Shortcut for press CharKey events",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "charOn",
           "normalized": "Char-\u003eEvt Unit",
@@ -7394,6 +8044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows the user to increase/decrease a value with mouse \n clicks on a corresponding arrow button. Output is an event stream that contains \n values when counter changes.\n\u003c/p\u003e\u003cpre\u003e count diapason fineValStep maybeCoarseValStep initValue \n\u003c/pre\u003e\u003cp\u003edoc: http:\u003cem/\u003ewww.csounds.com\u003cem\u003emanual\u003c/em\u003ehtml/FLcount.html\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "count",
           "package": "csound-expression",
@@ -7403,6 +8054,7 @@
         "index": {
           "description": "Allows the user to increase decrease value with mouse clicks on corresponding arrow button Output is an event stream that contains values when counter changes count diapason fineValStep maybeCoarseValStep initValue doc http www.csounds.com manual html FLcount.html",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "count",
           "normalized": "ValDiap-\u003eValStep-\u003eMaybe ValStep-\u003eDouble-\u003eSource(Evt D)",
@@ -7418,6 +8070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variance on the function \u003ccode\u003e\u003ca\u003ecount\u003c/a\u003e\u003c/code\u003e, but it produces \n a signal of piecewise constant function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "countSig",
           "package": "csound-expression",
@@ -7427,6 +8080,7 @@
         "index": {
           "description": "variance on the function count but it produces signal of piecewise constant function",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "countSig",
           "normalized": "ValDiap-\u003eValStep-\u003eMaybe ValStep-\u003eDouble-\u003eSource Sig",
@@ -7443,6 +8097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes an exponential \u003ccode\u003eValSpan\u003c/code\u003e with specified boundaries.\n\u003c/p\u003e\u003cpre\u003e expSpan minVal maxVal\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "expSpan",
           "package": "csound-expression",
@@ -7452,6 +8107,7 @@
         "index": {
           "description": "Makes an exponential ValSpan with specified boundaries expSpan minVal maxVal",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "expSpan",
           "normalized": "Double-\u003eDouble-\u003eValSpan",
@@ -7468,6 +8124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix of functional values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "funnyMatrix",
           "package": "csound-expression",
@@ -7478,6 +8135,7 @@
         "index": {
           "description": "Matrix of functional values",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "funnyMatrix",
           "normalized": "String-\u003eInt-\u003eInt-\u003e[a-\u003eb]-\u003e(Int,Int)-\u003eSource(a-\u003eb)",
@@ -7494,6 +8152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRadio button that returns functions. Useful for picking a waveform or type of filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "funnyRadio",
           "package": "csound-expression",
@@ -7504,6 +8163,7 @@
         "index": {
           "description": "Radio button that returns functions Useful for picking waveform or type of filter",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "funnyRadio",
           "normalized": "String-\u003e[(String,a-\u003eb)]-\u003eInt-\u003eSource(a-\u003eb)",
@@ -7520,6 +8180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is a squared area that allows the user to modify two output values \n at the same time. It acts like a joystick. \n\u003c/p\u003e\u003cpre\u003e joy valueSpanX valueSpanY (initX, initY) \n\u003c/pre\u003e\u003cp\u003edoc: \u003ca\u003ehttp://www.csounds.com/manual/html/FLjoy.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "joy",
           "package": "csound-expression",
@@ -7529,6 +8190,7 @@
         "index": {
           "description": "It is squared area that allows the user to modify two output values at the same time It acts like joystick joy valueSpanX valueSpanY initX initY doc http www.csounds.com manual html FLjoy.html",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "joy",
           "normalized": "ValSpan-\u003eValSpan-\u003e(Double,Double)-\u003eSource(Sig,Sig)",
@@ -7544,6 +8206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe stream of keyboard press/release events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "keyIn",
           "package": "csound-expression",
@@ -7553,6 +8216,7 @@
         "index": {
           "description": "The stream of keyboard press release events",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "keyIn",
           "normalized": "KeyEvt-\u003eEvt Unit",
@@ -7569,6 +8233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA FLTK widget opcode that creates a knob.\n\u003c/p\u003e\u003cpre\u003e knob valueSpan initValue\n\u003c/pre\u003e\u003cp\u003edoc: \u003ca\u003ehttp://www.csounds.com/manual/html/FLknob.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "knob",
           "package": "csound-expression",
@@ -7578,6 +8243,7 @@
         "index": {
           "description": "FLTK widget opcode that creates knob knob valueSpan initValue doc http www.csounds.com manual html FLknob.html",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "knob",
           "normalized": "String-\u003eValSpan-\u003eDouble-\u003eSource Sig",
@@ -7593,6 +8259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a linear \u003ccode\u003eValSpan\u003c/code\u003e with specified boundaries.\n\u003c/p\u003e\u003cpre\u003e linSpan minVal maxVal\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "linSpan",
           "package": "csound-expression",
@@ -7602,6 +8269,7 @@
         "index": {
           "description": "Makes linear ValSpan with specified boundaries linSpan minVal maxVal",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "linSpan",
           "normalized": "Double-\u003eDouble-\u003eValSpan",
@@ -7618,6 +8286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA matrix of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "matrixButton",
           "package": "csound-expression",
@@ -7628,6 +8297,7 @@
         "index": {
           "description": "matrix of values",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "matrixButton",
           "normalized": "String-\u003eInt-\u003eInt-\u003e[a]-\u003e(Int,Int)-\u003eSource(Evt a)",
@@ -7644,6 +8314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA slider that serves as indicator. It consumes values instead of producing.\n\u003c/p\u003e\u003cpre\u003e meter valueSpan initValue\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "meter",
           "package": "csound-expression",
@@ -7653,6 +8324,7 @@
         "index": {
           "description": "slider that serves as indicator It consumes values instead of producing meter valueSpan initValue",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "meter",
           "normalized": "String-\u003eValSpan-\u003eDouble-\u003eSink Sig",
@@ -7668,6 +8340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumeric (originally FLtext in the Csound) allows the user to modify \n a parameter value by directly typing it into a text field.\n\u003c/p\u003e\u003cpre\u003e numeric diapason step initValue \n\u003c/pre\u003e\u003cp\u003edoc: \u003ca\u003ehttp://www.csounds.com/manual/html/FLtext.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "numeric",
           "package": "csound-expression",
@@ -7677,6 +8350,7 @@
         "index": {
           "description": "numeric originally FLtext in the Csound allows the user to modify parameter value by directly typing it into text field numeric diapason step initValue doc http www.csounds.com manual html FLtext.html",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "numeric",
           "normalized": "String-\u003eValDiap-\u003eValStep-\u003eDouble-\u003eSource Sig",
@@ -7692,6 +8366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA radio button. It takes a list of values with labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "radioButton",
           "package": "csound-expression",
@@ -7702,6 +8377,7 @@
         "index": {
           "description": "radio button It takes list of values with labels",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "radioButton",
           "normalized": "String-\u003e[(String,a)]-\u003eInt-\u003eSource(Evt a)",
@@ -7718,6 +8394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFLroller is a sort of knob, but put transversally. \n\u003c/p\u003e\u003cpre\u003e roller valueSpan step initVal\n\u003c/pre\u003e\u003cp\u003edoc: \u003ca\u003ehttp://www.csounds.com/manual/html/FLroller.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "roller",
           "package": "csound-expression",
@@ -7727,6 +8404,7 @@
         "index": {
           "description": "FLroller is sort of knob but put transversally roller valueSpan step initVal doc http www.csounds.com manual html FLroller.html",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "roller",
           "normalized": "String-\u003eValSpan-\u003eValStep-\u003eDouble-\u003eSource Sig",
@@ -7741,6 +8419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "setBoxType",
           "package": "csound-expression",
@@ -7749,6 +8428,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "setBoxType",
           "normalized": "BoxType-\u003eGui-\u003eGui",
@@ -7764,6 +8444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "setButtonType",
           "package": "csound-expression",
@@ -7772,6 +8453,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "setButtonType",
           "normalized": "ButtonType-\u003eGui-\u003eGui",
@@ -7787,6 +8469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "setKnobType",
           "package": "csound-expression",
@@ -7795,6 +8478,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "setKnobType",
           "normalized": "KnobType-\u003eGui-\u003eGui",
@@ -7810,6 +8494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "setSliderType",
           "package": "csound-expression",
@@ -7818,6 +8503,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "setSliderType",
           "normalized": "SliderType-\u003eGui-\u003eGui",
@@ -7833,6 +8519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "setTextType",
           "package": "csound-expression",
@@ -7841,6 +8528,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "setTextType",
           "normalized": "TextType-\u003eGui-\u003eGui",
@@ -7857,6 +8545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends a title to a group of widgets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "setTitle",
           "package": "csound-expression",
@@ -7866,6 +8555,7 @@
         "index": {
           "description": "Appends title to group of widgets",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "setTitle",
           "normalized": "String-\u003eGui-\u003eSE Gui",
@@ -7882,6 +8572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFLslider puts a slider into the corresponding container.\n\u003c/p\u003e\u003cpre\u003e slider valueSpan initVal \n\u003c/pre\u003e\u003cp\u003edoc: \u003ca\u003ehttp://www.csounds.com/manual/html/FLslider.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "slider",
           "package": "csound-expression",
@@ -7891,6 +8582,7 @@
         "index": {
           "description": "FLslider puts slider into the corresponding container slider valueSpan initVal doc http www.csounds.com manual html FLslider.html",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "slider",
           "normalized": "String-\u003eValSpan-\u003eDouble-\u003eSource Sig",
@@ -7906,6 +8598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a list of linear unit sliders (ranges in [0, 1]). It takes a list\n of init values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "sliderBank",
           "package": "csound-expression",
@@ -7915,6 +8608,7 @@
         "index": {
           "description": "Constructs list of linear unit sliders ranges in It takes list of init values",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "sliderBank",
           "normalized": "String-\u003e[Double]-\u003eSource[Sig]",
@@ -7931,6 +8625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA FLTK widget opcode that creates a toggle button.\n\u003c/p\u003e\u003cpre\u003e button text\n\u003c/pre\u003e\u003cp\u003edoc: \u003ca\u003ehttp://www.csounds.com/manual/html/FLbutton.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "toggle",
           "package": "csound-expression",
@@ -7940,6 +8635,7 @@
         "index": {
           "description": "FLTK widget opcode that creates toggle button button text doc http www.csounds.com manual html FLbutton.html",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "toggle",
           "normalized": "String-\u003eSource(Evt D)",
@@ -7955,6 +8651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variance on the function \u003ccode\u003e\u003ca\u003etoggle\u003c/a\u003e\u003c/code\u003e, but it produces \n a signal of piecewise constant function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "toggleSig",
           "package": "csound-expression",
@@ -7964,6 +8661,7 @@
         "index": {
           "description": "variance on the function toggle but it produces signal of piecewise constant function",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "toggleSig",
           "normalized": "String-\u003eSource Sig",
@@ -7980,6 +8678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit span. A special case:\n\u003c/p\u003e\u003cpre\u003e uspan = linSpan 0 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "uspan",
           "package": "csound-expression",
@@ -7989,6 +8688,7 @@
         "index": {
           "description": "Unit span special case uspan linSpan",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "uspan",
           "package": "csound-expression",
@@ -8002,6 +8702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exponential unit span. A special case:\n\u003c/p\u003e\u003cpre\u003e uspan = expSpan 0 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "uspanExp",
           "package": "csound-expression",
@@ -8011,6 +8712,7 @@
         "index": {
           "description": "An exponential unit span special case uspan expSpan",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "uspanExp",
           "package": "csound-expression",
@@ -8024,6 +8726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "valDiapMax",
           "package": "csound-expression",
@@ -8032,6 +8735,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "valDiapMax",
           "package": "csound-expression",
@@ -8045,6 +8749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "valDiapMin",
           "package": "csound-expression",
@@ -8053,6 +8758,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "valDiapMin",
           "package": "csound-expression",
@@ -8066,6 +8772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "valSpanDiap",
           "package": "csound-expression",
@@ -8074,6 +8781,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "valSpanDiap",
           "package": "csound-expression",
@@ -8087,6 +8795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "valSpanScale",
           "package": "csound-expression",
@@ -8095,6 +8804,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "valSpanScale",
           "package": "csound-expression",
@@ -8109,6 +8819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFLvalue shows current the value of a valuator in a text field.\n\u003c/p\u003e\u003cpre\u003e value initVal\n\u003c/pre\u003e\u003cp\u003edoc: \u003ca\u003ehttp://www.csounds.com/manual/html/FLvalue.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui.Widget",
           "name": "value",
           "package": "csound-expression",
@@ -8118,6 +8829,7 @@
         "index": {
           "description": "FLvalue shows current the value of valuator in text field value initVal doc http www.csounds.com manual html FLvalue.html",
           "hierarchy": "Csound Control Gui Widget",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui.Widget",
           "name": "value",
           "normalized": "String-\u003eDouble-\u003eSink Sig",
@@ -8133,6 +8845,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGUI (Graphical User Interface) elements are handy to change \n the parameters of the sound in real time. It includes sliders, \n knobs, rollers, buttons and other widgets. \n\u003c/p\u003e\u003cp\u003eA GUI element consists of two parts. They are view (how it looks)\n and logic (what's going on with it). For example a slider can be\n horizontal or vertical or green or yellow or small or big. It's the view \n of the slider. And a slider can produce a continuous signal within the \n given interval. It's a logic of the slider. \n\u003c/p\u003e\u003cp\u003eLet's talk about the view. The view is divided on two parts:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e where element is placed or Layout. \n\u003c/li\u003e\u003cli\u003e all other  properties or just Properties. \n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe layout is defined with very simple functions. There are vertical and horizontal grouping \n of the elements. We can scale the element within the group and include an empty\n space in the group. Everything is aligned (see \u003ca\u003eCsound.Gui.Layout\u003c/a\u003e). \n Other properties include colors, fonts (size and type), borders, specific properties \n of the widgets (see \u003ca\u003eCsound.Gui.Props\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eLet's consider the logic. The logic consists of three parts:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e what is consumed (\u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e what is produced (\u003ccode\u003e\u003ca\u003eInput\u003c/a\u003e\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e what's going on inside (\u003ccode\u003e\u003ca\u003eInner\u003c/a\u003e\u003c/code\u003e)\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eA widget can react on values, produce values or do something useful. \n There are special types of widgets:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e  - they produce values only\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eSink\u003c/a\u003e\u003c/code\u003e    - they consume values only\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eDisplay\u003c/a\u003e\u003c/code\u003e - something is going on inside them (for example, it can show a \u003ca\u003ehello world\u003c/a\u003e message)\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eWidgets can be simple and compound. Simple widgets are primitive elements\n (sliders, knobs, rollers, buttons). We have a special constructors that \n produce simple widgets (see \u003ca\u003eCsound.Gui.Widget\u003c/a\u003e). Compound widgets glue together\n several widgets. That is the view contains several elements and all of them \n involved in the logic of the widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "Gui",
           "package": "csound-expression",
@@ -8142,6 +8855,7 @@
         "index": {
           "description": "GUI Graphical User Interface elements are handy to change the parameters of the sound in real time It includes sliders knobs rollers buttons and other widgets GUI element consists of two parts They are view how it looks and logic what going on with it For example slider can be horizontal or vertical or green or yellow or small or big It the view of the slider And slider can produce continuous signal within the given interval It logic of the slider Let talk about the view The view is divided on two parts where element is placed or Layout all other properties or just Properties The layout is defined with very simple functions There are vertical and horizontal grouping of the elements We can scale the element within the group and include an empty space in the group Everything is aligned see Csound.Gui.Layout Other properties include colors fonts size and type borders specific properties of the widgets see Csound.Gui.Props Let consider the logic The logic consists of three parts what is consumed Output what is produced Input what going on inside Inner widget can react on values produce values or do something useful There are special types of widgets Source they produce values only Sink they consume values only Display something is going on inside them for example it can show hello world message Widgets can be simple and compound Simple widgets are primitive elements sliders knobs rollers buttons We have special constructors that produce simple widgets see Csound.Gui.Widget Compound widgets glue together several widgets That is the view contains several elements and all of them involved in the logic of the widget",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "Gui",
           "package": "csound-expression",
@@ -8156,6 +8870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA static element. We can only look at it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "Display",
           "package": "csound-expression",
@@ -8164,6 +8879,7 @@
         "index": {
           "description": "static element We can only look at it",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "Display",
           "package": "csound-expression",
@@ -8178,6 +8894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA visual representation of the GUI-element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "Gui",
           "package": "csound-expression",
@@ -8186,6 +8903,7 @@
         "index": {
           "description": "visual representation of the GUI-element",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "Gui",
           "package": "csound-expression",
@@ -8200,6 +8918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets that just do something inside them or have an inner state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "Inner",
           "package": "csound-expression",
@@ -8208,6 +8927,7 @@
         "index": {
           "description": "Widgets that just do something inside them or have an inner state",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "Inner",
           "package": "csound-expression",
@@ -8222,6 +8942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets that produce something has inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "Input",
           "package": "csound-expression",
@@ -8230,6 +8951,7 @@
         "index": {
           "description": "Widgets that produce something has inputs",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "Input",
           "package": "csound-expression",
@@ -8244,6 +8966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidgets that consume something has outputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "Output",
           "package": "csound-expression",
@@ -8252,6 +8975,7 @@
         "index": {
           "description": "Widgets that consume something has outputs",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "Output",
           "package": "csound-expression",
@@ -8266,6 +8990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA consumer of the values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "Sink",
           "package": "csound-expression",
@@ -8274,6 +8999,7 @@
         "index": {
           "description": "consumer of the values",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "Sink",
           "package": "csound-expression",
@@ -8288,6 +9014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA producer of the values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "Source",
           "package": "csound-expression",
@@ -8296,6 +9023,7 @@
         "index": {
           "description": "producer of the values",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "Source",
           "package": "csound-expression",
@@ -8310,6 +9038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget consists of visible element (Gui), value consumer (Output) \n and producer (Input) and an inner state (Inner).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "Widget",
           "package": "csound-expression",
@@ -8318,6 +9047,7 @@
         "index": {
           "description": "widget consists of visible element Gui value consumer Output and producer Input and an inner state Inner",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "Widget",
           "package": "csound-expression",
@@ -8332,6 +9062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA display constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "display",
           "package": "csound-expression",
@@ -8341,6 +9072,7 @@
         "index": {
           "description": "display constructor",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "display",
           "normalized": "SE Gui-\u003eDisplay",
@@ -8356,6 +9088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders the GUI elements on the window. Rectangle is calculated\n automatically (window listens for keyboard events).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "keyPanel",
           "package": "csound-expression",
@@ -8365,6 +9098,7 @@
         "index": {
           "description": "Renders the GUI elements on the window Rectangle is calculated automatically window listens for keyboard events",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "keyPanel",
           "normalized": "Gui-\u003eSE()",
@@ -8381,6 +9115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders the GUI elements on the window. We can specify the window title\n and rectangle of the window. Panesls are sensitive to keyboard events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "keyPanelBy",
           "package": "csound-expression",
@@ -8390,6 +9125,7 @@
         "index": {
           "description": "Renders the GUI elements on the window We can specify the window title and rectangle of the window Panesls are sensitive to keyboard events",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "keyPanelBy",
           "normalized": "String-\u003eMaybe Rect-\u003eGui-\u003eSE()",
@@ -8406,6 +9142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a list of panels. Panels are sensitive to keyboard events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "keyPanels",
           "package": "csound-expression",
@@ -8415,6 +9152,7 @@
         "index": {
           "description": "Renders list of panels Panels are sensitive to keyboard events",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "keyPanels",
           "normalized": "[Gui]-\u003eSE()",
@@ -8431,6 +9169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders the GUI elements on the window. Rectangle is calculated\n automatically (window doesn't listens for keyboard events).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "panel",
           "package": "csound-expression",
@@ -8440,6 +9179,7 @@
         "index": {
           "description": "Renders the GUI elements on the window Rectangle is calculated automatically window doesn listens for keyboard events",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "panel",
           "normalized": "Gui-\u003eSE()",
@@ -8455,6 +9195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders the GUI elements on the window. We can specify the window title\n and rectangle of the window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "panelBy",
           "package": "csound-expression",
@@ -8464,6 +9205,7 @@
         "index": {
           "description": "Renders the GUI elements on the window We can specify the window title and rectangle of the window",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "panelBy",
           "normalized": "String-\u003eMaybe Rect-\u003eGui-\u003eSE()",
@@ -8480,6 +9222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a list of panels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "panels",
           "package": "csound-expression",
@@ -8489,6 +9232,7 @@
         "index": {
           "description": "Renders list of panels",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "panels",
           "normalized": "[Gui]-\u003eSE()",
@@ -8504,6 +9248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA consumer constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "sink",
           "package": "csound-expression",
@@ -8513,6 +9258,7 @@
         "index": {
           "description": "consumer constructor",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "sink",
           "normalized": "SE(Gui,Output a)-\u003eSink a",
@@ -8528,6 +9274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA producer constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "source",
           "package": "csound-expression",
@@ -8537,6 +9284,7 @@
         "index": {
           "description": "producer constructor",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "source",
           "normalized": "SE(Gui,Input a)-\u003eSource a",
@@ -8552,6 +9300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Gui",
           "name": "widget",
           "package": "csound-expression",
@@ -8561,6 +9310,7 @@
         "index": {
           "description": "widget constructor",
           "hierarchy": "Csound Control Gui",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Gui",
           "name": "widget",
           "normalized": "SE(Gui,Output a,Input b,Inner)-\u003eWidget a b",
@@ -8576,6 +9326,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWe can convert notes to sound signals with instruments. \n An instrument is a function:\n\u003c/p\u003e\u003cpre\u003e (Arg a, Sigs b) =\u003e a -\u003e SE b\n\u003c/pre\u003e\u003cp\u003eIt takes a tuple of primitive Csound values (number, string or array) and converts\n it to the tuple of signals and it makes some side effects along the way so\n the output is wrapped in the \u003ccode\u003e\u003ca\u003eSE\u003c/a\u003e\u003c/code\u003e-monad.\n\u003c/p\u003e\u003cp\u003eThere are only three ways of making a sound with an instrument:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Suplpy an instrument with notes (\u003ccode\u003eMix\u003c/code\u003e-section).\n\u003c/li\u003e\u003cli\u003e Trigger an instrument with event stream (\u003ccode\u003eEvt\u003c/code\u003e-section).\n\u003c/li\u003e\u003cli\u003e By using midi-instruments (\u003ccode\u003eMidi\u003c/code\u003e-section).\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eSometimes we don't want to produce any sound. Our instrument is just\n a procedure that makes something useful without being noisy about it. \n It's type is:\n\u003c/p\u003e\u003cpre\u003e (Arg a) =\u003e a -\u003e SE ()\n\u003c/pre\u003e\u003cp\u003eTo invoke the procedures there are functions with trailing underscore.\n For example we have the function \u003ccode\u003etrig\u003c/code\u003e to convert event stream to sound:\n\u003c/p\u003e\u003cpre\u003e trig :: (Arg a, Sigs b) =\u003e (a -\u003e SE b) -\u003e Evts (D, D, a) -\u003e b \n\u003c/pre\u003e\u003cp\u003eand we have a \u003ccode\u003etrig\u003c/code\u003e with underscore to convert the event stream to\n the sequence of the procedure invkations:\n\u003c/p\u003e\u003cpre\u003e trig_ :: (Arg a) =\u003e (a -\u003e SE ()) -\u003e Evts (D, D, a) -\u003e SE () \n\u003c/pre\u003e\u003cp\u003eTo invoke instruments from another instrumetnts we use artificial closures\n made with functions with trailing xxxBy. For example:\n\u003c/p\u003e\u003cpre\u003e trigBy :: (Arg a, Arg c, Sigs b) =\u003e (a -\u003e SE b) -\u003e (c -\u003e Evts (D, D, a)) -\u003e (c -\u003e b)\n\u003c/pre\u003e\u003cp\u003eNotice that the event stream depends on the argument of the type c. Here goes\n all the parameters that we want to pass from the outer instrument. Unfortunately\n we can not just create the closure, because our values are not the real values.\n It's a text of the programm (a tiny snippet of it) to be executed. For a time being\n I don't know how to make it better. So we need to pass the values explicitly. \n\u003c/p\u003e\u003cp\u003eFor example, if we want to make an arpeggiator:\n\u003c/p\u003e\u003cpre\u003e pureTone :: D -\u003e SE Sig\n pureTone cps = return $ mul env $ osc $ sig cps\n    where env = linseg [0, 0.01, 1, 0.25, 0]\n \n majArpeggio :: D -\u003e SE Sig\n majArpeggio = return . schedBy pureTone evts\n     where evts cps = withDur 0.5 $ fmap (* cps) $ cycleE [1, 5/3, 3/2, 2] $ metroE 5\n \n main = dac $ mul 0.5 $ midi $ onMsg majArpeggio\n\u003c/pre\u003e\u003cp\u003eWe should use \u003ccode\u003e\u003ca\u003eschedBy\u003c/a\u003e\u003c/code\u003e to pass the frequency as a parameter to the event stream.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "Instr",
           "package": "csound-expression",
@@ -8585,6 +9336,7 @@
         "index": {
           "description": "We can convert notes to sound signals with instruments An instrument is function Arg Sigs SE It takes tuple of primitive Csound values number string or array and converts it to the tuple of signals and it makes some side effects along the way so the output is wrapped in the SE monad There are only three ways of making sound with an instrument Suplpy an instrument with notes Mix section Trigger an instrument with event stream Evt section By using midi-instruments Midi section Sometimes we don want to produce any sound Our instrument is just procedure that makes something useful without being noisy about it It type is Arg SE To invoke the procedures there are functions with trailing underscore For example we have the function trig to convert event stream to sound trig Arg Sigs SE Evts and we have trig with underscore to convert the event stream to the sequence of the procedure invkations trig Arg SE Evts SE To invoke instruments from another instrumetnts we use artificial closures made with functions with trailing xxxBy For example trigBy Arg Arg Sigs SE Evts Notice that the event stream depends on the argument of the type Here goes all the parameters that we want to pass from the outer instrument Unfortunately we can not just create the closure because our values are not the real values It text of the programm tiny snippet of it to be executed For time being don know how to make it better So we need to pass the values explicitly For example if we want to make an arpeggiator pureTone SE Sig pureTone cps return mul env osc sig cps where env linseg majArpeggio SE Sig majArpeggio return schedBy pureTone evts where evts cps withDur fmap cps cycleE metroE main dac mul midi onMsg majArpeggio We should use schedBy to pass the frequency as parameter to the event stream",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "Instr",
           "package": "csound-expression",
@@ -8599,6 +9351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a drum-like instrument.\n Drum like instrument has a single argument that \n signifies an amplitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "AmpInstr",
           "package": "csound-expression",
@@ -8608,6 +9361,7 @@
         "index": {
           "description": "Constructs drum-like instrument Drum like instrument has single argument that signifies an amplitude",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "AmpInstr",
           "package": "csound-expression",
@@ -8621,6 +9375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "Channel",
           "package": "csound-expression",
@@ -8628,6 +9383,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "Channel",
           "package": "csound-expression",
@@ -8642,6 +9398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a simple instrument that takes in a tuple of two arguments.\n They are amplitude and the frequency (in Hz or cycles per second).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "CpsInstr",
           "package": "csound-expression",
@@ -8651,6 +9408,7 @@
         "index": {
           "description": "Constructs simple instrument that takes in tuple of two arguments They are amplitude and the frequency in Hz or cycles per second",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "CpsInstr",
           "package": "csound-expression",
@@ -8665,6 +9423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Csound note. It's a triple of\n\u003c/p\u003e\u003cpre\u003e (startTime, duration, parameters)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "CsdEvent",
           "package": "csound-expression",
@@ -8673,6 +9432,7 @@
         "index": {
           "description": "The Csound note It triple of startTime duration parameters",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "CsdEvent",
           "package": "csound-expression",
@@ -8687,6 +9447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCsdEventList\u003c/a\u003e\u003c/code\u003e is a canonical representation of the Csound scores.\n A scores is a list of events and we should know the total duration of the scores.\n It's not meant to be used directly. We can use a better alternative. More convenient\n type that belongs to \u003ccode\u003e\u003ca\u003eCsdSco\u003c/a\u003e\u003c/code\u003e type class (see temporal-csound package).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "CsdEventList",
           "package": "csound-expression",
@@ -8695,6 +9456,7 @@
         "index": {
           "description": "CsdEventList is canonical representation of the Csound scores scores is list of events and we should know the total duration of the scores It not meant to be used directly We can use better alternative More convenient type that belongs to CsdSco type class see temporal-csound package",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "CsdEventList",
           "package": "csound-expression",
@@ -8709,6 +9471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class that represents Csound scores. All functions that use score are defined\n in terms of this class. If you want to use your own score representation, just define\n two methods of the class.\n\u003c/p\u003e\u003cp\u003eThe properties:\n\u003c/p\u003e\u003cpre\u003e forall a . toCsdEventList (singleCsdEvent a) === CsdEventList 1 [(0, 1, a)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "CsdSco",
           "package": "csound-expression",
@@ -8717,6 +9480,7 @@
         "index": {
           "description": "class that represents Csound scores All functions that use score are defined in terms of this class If you want to use your own score representation just define two methods of the class The properties forall toCsdEventList singleCsdEvent CsdEventList",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "CsdSco",
           "package": "csound-expression",
@@ -8731,6 +9495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a value to the instrument that is used with the functions \u003ccode\u003e\u003ca\u003esco\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eeff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "Instr",
           "package": "csound-expression",
@@ -8740,6 +9505,7 @@
         "index": {
           "description": "Converts value to the instrument that is used with the functions sco or eff",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "Instr",
           "package": "csound-expression",
@@ -8754,6 +9520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a value to the midi-instrument. It's used with the functions \u003ccode\u003e\u003ca\u003emidi\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003emidin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "MidiInstr",
           "package": "csound-expression",
@@ -8763,6 +9530,7 @@
         "index": {
           "description": "Converts value to the midi-instrument It used with the functions midi midin",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "MidiInstr",
           "package": "csound-expression",
@@ -8777,6 +9545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial type that represents a scores of sound signals.\n If an instrument is triggered with the scores the result is wrapped\n in the value of this type. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "Mix",
           "package": "csound-expression",
@@ -8785,6 +9554,7 @@
         "index": {
           "description": "Special type that represents scores of sound signals If an instrument is triggered with the scores the result is wrapped in the value of this type",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "Mix",
           "package": "csound-expression",
@@ -8798,6 +9568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "Msg",
           "package": "csound-expression",
@@ -8805,6 +9576,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "Msg",
           "package": "csound-expression",
@@ -8818,6 +9590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "CsdEventList",
           "package": "csound-expression",
@@ -8826,6 +9599,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "CsdEventList",
           "package": "csound-expression",
@@ -8839,6 +9613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "ampCps",
           "package": "csound-expression",
@@ -8848,6 +9623,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "ampCps",
           "normalized": "Msg-\u003e(D,D)",
@@ -8864,6 +9640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the velocity of the current MIDI event.\n\u003c/p\u003e\u003cpre\u003e iamp  ampmidi  iscal [, ifn]\n\u003c/pre\u003e\u003cp\u003ecsound doc: \u003ca\u003ehttp://www.csounds.com/manual/html/ampmidi.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "ampmidi",
           "package": "csound-expression",
@@ -8873,6 +9650,7 @@
         "index": {
           "description": "Get the velocity of the current MIDI event iamp ampmidi iscal ifn csound doc http www.csounds.com manual html ampmidi.html",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "ampmidi",
           "normalized": "Msg-\u003eD-\u003eD",
@@ -8888,6 +9666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the note number of the current MIDI event, expressed in cycles-per-second.\n\u003c/p\u003e\u003cpre\u003e icps  cpsmidi &#160;\u003c/pre\u003e\u003cp\u003ecsound doc: \u003ca\u003ehttp://www.csounds.com/manual/html/cpsmidi.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "cpsmidi",
           "package": "csound-expression",
@@ -8897,6 +9676,7 @@
         "index": {
           "description": "Get the note number of the current MIDI event expressed in cycles-per-second icps cpsmidi csound doc http www.csounds.com manual html cpsmidi.html",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "cpsmidi",
           "normalized": "Msg-\u003eD",
@@ -8911,6 +9691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "csdEventListDur",
           "package": "csound-expression",
@@ -8919,6 +9700,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "csdEventListDur",
           "package": "csound-expression",
@@ -8932,6 +9714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "csdEventListNotes",
           "package": "csound-expression",
@@ -8940,6 +9723,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "csdEventListNotes",
           "normalized": "[CsdEvent a]",
@@ -8956,6 +9740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies an effect to the sound. Effect is applied to the sound on the give track. \n\u003c/p\u003e\u003cpre\u003e res = eff effect sco \n\u003c/pre\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eeffect\u003c/code\u003e - a function that takes a tuple of signals and produces \n   a tuple of signals.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003esco\u003c/code\u003e - something that is constructed with \u003ccode\u003e\u003ca\u003esco\u003c/a\u003e\u003c/code\u003e or \n   \u003ccode\u003e\u003ca\u003eeff\u003c/a\u003e\u003c/code\u003e. \n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eWith the function \u003ccode\u003e\u003ca\u003eeff\u003c/a\u003e\u003c/code\u003e you can apply a reverb or adjust the \n level of the signal. It functions like a mixing board but unlike mixing \n board it produces the value that you can arrange with functions from your\n favorite Score-generation library. You can delay it or mix with some other track and \n apply some another effect on top of it!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "eff",
           "package": "csound-expression",
@@ -8965,6 +9750,7 @@
         "index": {
           "description": "Applies an effect to the sound Effect is applied to the sound on the give track res eff effect sco effect function that takes tuple of signals and produces tuple of signals sco something that is constructed with sco or eff With the function eff you can apply reverb or adjust the level of the signal It functions like mixing board but unlike mixing board it produces the value that you can arrange with functions from your favorite Score-generation library You can delay it or mix with some other track and apply some another effect on top of it",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "eff",
           "normalized": "(a-\u003eSE b)-\u003ec(Mix a)-\u003ec(Mix b)",
@@ -8980,6 +9766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggers a midi-instrument (aka Csound's massign) for all channels. \n It's useful to test a single instrument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "midi",
           "package": "csound-expression",
@@ -8989,6 +9776,7 @@
         "index": {
           "description": "Triggers midi-instrument aka Csound massign for all channels It useful to test single instrument",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "midi",
           "normalized": "(Msg-\u003eSE a)-\u003ea",
@@ -9004,6 +9792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggers a midi-procedure (aka Csound's massign) for all channels. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "midi_",
           "package": "csound-expression",
@@ -9013,6 +9802,7 @@
         "index": {
           "description": "Triggers midi-procedure aka Csound massign for all channels",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "midi_",
           "normalized": "(Msg-\u003eSE())-\u003eSE()",
@@ -9028,6 +9818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggers a midi-instrument (aka Csound's massign) on the specified channel. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "midin",
           "package": "csound-expression",
@@ -9037,6 +9828,7 @@
         "index": {
           "description": "Triggers midi-instrument aka Csound massign on the specified channel",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "midin",
           "normalized": "Channel-\u003e(Msg-\u003eSE a)-\u003ea",
@@ -9052,6 +9844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggers a midi-procedure (aka Csound's pgmassign) on the given channel. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "midin_",
           "package": "csound-expression",
@@ -9061,6 +9854,7 @@
         "index": {
           "description": "Triggers midi-procedure aka Csound pgmassign on the given channel",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "midin_",
           "normalized": "Channel-\u003e(Msg-\u003eSE())-\u003eSE()",
@@ -9076,6 +9870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders a scores to the sound signals. we can use it inside the other instruments.\n Warning: if we use a score that lasts for an hour in the note that lasts for 5 seconds\n all the events would be generated, though we will hear only first five seconds.\n So the semantics is good but implementation is inefficient for such a cases \n (consider event streams for such cases). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "mix",
           "package": "csound-expression",
@@ -9085,6 +9880,7 @@
         "index": {
           "description": "Renders scores to the sound signals we can use it inside the other instruments Warning if we use score that lasts for an hour in the note that lasts for seconds all the events would be generated though we will hear only first five seconds So the semantics is good but implementation is inefficient for such cases consider event streams for such cases",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "mix",
           "normalized": "a(Mix b)-\u003eb",
@@ -9100,6 +9896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImitates a closure for a bunch of notes to be played within another instrument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "mixBy",
           "package": "csound-expression",
@@ -9109,6 +9906,7 @@
         "index": {
           "description": "Imitates closure for bunch of notes to be played within another instrument",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "mixBy",
           "normalized": "(a-\u003eb(Mix c))-\u003ea-\u003ec",
@@ -9125,6 +9923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMixes the scores and plays them in the loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "mixLoop",
           "package": "csound-expression",
@@ -9135,6 +9934,7 @@
         "index": {
           "description": "Mixes the scores and plays them in the loop",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "mixLoop",
           "normalized": "a(Mix b)-\u003eb",
@@ -9151,6 +9951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMixes the procedures and plays them in the loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "mixLoop_",
           "package": "csound-expression",
@@ -9161,6 +9962,7 @@
         "index": {
           "description": "Mixes the procedures and plays them in the loop",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "mixLoop_",
           "normalized": "a(Mix Unit)-\u003eSE()",
@@ -9177,6 +9979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a bunch of procedures scheduled with scores to a single procedure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "mix_",
           "package": "csound-expression",
@@ -9186,6 +9989,7 @@
         "index": {
           "description": "Converts bunch of procedures scheduled with scores to single procedure",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "mix_",
           "normalized": "a(Mix Unit)-\u003eSE()",
@@ -9200,6 +10004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "onAmp",
           "package": "csound-expression",
@@ -9209,6 +10014,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "onAmp",
           "normalized": "a-\u003eD-\u003eSE(AmpInstrOut a)",
@@ -9224,6 +10030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "onArg",
           "package": "csound-expression",
@@ -9233,6 +10040,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "onArg",
           "normalized": "a-\u003eInstrIn a-\u003eSE(InstrOut a)",
@@ -9248,6 +10056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "onCps",
           "package": "csound-expression",
@@ -9257,6 +10066,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "onCps",
           "normalized": "a-\u003e(D,D)-\u003eSE(CpsInstrOut a)",
@@ -9272,6 +10082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "onMsg",
           "package": "csound-expression",
@@ -9281,6 +10092,7 @@
         },
         "index": {
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "onMsg",
           "normalized": "a-\u003eMsg-\u003eSE(MidiInstrOut a)",
@@ -9297,6 +10109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggers a midi-instrument (aka Csound's pgmassign) on the specified programm bank. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "pgmidi",
           "package": "csound-expression",
@@ -9306,6 +10119,7 @@
         "index": {
           "description": "Triggers midi-instrument aka Csound pgmassign on the specified programm bank",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "pgmidi",
           "normalized": "Maybe Int-\u003eChannel-\u003e(Msg-\u003eSE a)-\u003ea",
@@ -9321,6 +10135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggers a midi-procedure (aka Csound's pgmassign) on the given programm bank. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "pgmidi_",
           "package": "csound-expression",
@@ -9330,6 +10145,7 @@
         "index": {
           "description": "Triggers midi-procedure aka Csound pgmassign on the given programm bank",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "pgmidi_",
           "normalized": "Maybe Int-\u003eChannel-\u003e(Msg-\u003eSE())-\u003eSE()",
@@ -9345,6 +10161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt's like the function \u003ccode\u003etrig\u003c/code\u003e, but delay is set to zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "sched",
           "package": "csound-expression",
@@ -9354,6 +10171,7 @@
         "index": {
           "description": "It like the function trig but delay is set to zero",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "sched",
           "normalized": "(a-\u003eSE b)-\u003eEvt(D,a)-\u003eb",
@@ -9369,6 +10187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA closure to trigger an instrument inside the body of another instrument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "schedBy",
           "package": "csound-expression",
@@ -9378,6 +10197,7 @@
         "index": {
           "description": "closure to trigger an instrument inside the body of another instrument",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "schedBy",
           "normalized": "(a-\u003eSE b)-\u003e(c-\u003eEvt(D,a))-\u003ec-\u003eb",
@@ -9394,6 +10214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instrument is triggered with event stream and delay time is set to zero \n (event fires immediately) and duration is set to inifinite time. The note is \n held while the instrument is producing something. If the instrument is silent\n for some seconds (specified in the first argument) then it's turned off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "schedHarp",
           "package": "csound-expression",
@@ -9403,6 +10224,7 @@
         "index": {
           "description": "An instrument is triggered with event stream and delay time is set to zero event fires immediately and duration is set to inifinite time The note is held while the instrument is producing something If the instrument is silent for some seconds specified in the first argument then it turned off",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "schedHarp",
           "normalized": "D-\u003e(a-\u003eSE b)-\u003eEvt a-\u003eb",
@@ -9419,6 +10241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA closure to trigger an instrument inside the body of another instrument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "schedHarpBy",
           "package": "csound-expression",
@@ -9428,6 +10251,7 @@
         "index": {
           "description": "closure to trigger an instrument inside the body of another instrument",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "schedHarpBy",
           "normalized": "D-\u003e(a-\u003eSE b)-\u003e(c-\u003eEvt a)-\u003ec-\u003eb",
@@ -9444,6 +10268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvokes an instrument with toggle event stream (1 stands for on and 0 stands for off).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "schedToggle",
           "package": "csound-expression",
@@ -9454,6 +10279,7 @@
         "index": {
           "description": "Invokes an instrument with toggle event stream stands for on and stands for off",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "schedToggle",
           "normalized": "SE a-\u003eEvt D-\u003ea",
@@ -9470,6 +10296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvokes an instrument with first event stream and \n holds the note until the second event stream is active.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "schedUntil",
           "package": "csound-expression",
@@ -9480,6 +10307,7 @@
         "index": {
           "description": "Invokes an instrument with first event stream and holds the note until the second event stream is active",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "schedUntil",
           "normalized": "(a-\u003eSE b)-\u003eEvt a-\u003eEvt c-\u003eb",
@@ -9496,6 +10324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvokes an instrument with first event stream and \n holds the note until the second event stream is active.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "schedUntil_",
           "package": "csound-expression",
@@ -9506,6 +10335,7 @@
         "index": {
           "description": "Invokes an instrument with first event stream and holds the note until the second event stream is active",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "schedUntil_",
           "normalized": "(a-\u003eSE())-\u003eEvt a-\u003eEvt b-\u003eSE()",
@@ -9522,6 +10352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggers a procedure on the event stream. A delay time is set to zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "sched_",
           "package": "csound-expression",
@@ -9531,6 +10362,7 @@
         "index": {
           "description": "Triggers procedure on the event stream delay time is set to zero",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "sched_",
           "normalized": "(a-\u003eSE())-\u003eEvt(D,a)-\u003eSE()",
@@ -9546,6 +10378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlays a bunch of notes with the given instrument.\n\u003c/p\u003e\u003cpre\u003e res = sco instrument scores \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "sco",
           "package": "csound-expression",
@@ -9555,6 +10388,7 @@
         "index": {
           "description": "Plays bunch of notes with the given instrument res sco instrument scores",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "sco",
           "normalized": "(a-\u003eSE b)-\u003ec a-\u003ec(Mix b)",
@@ -9570,6 +10404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvokes a procedure for the given bunch of events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "sco_",
           "package": "csound-expression",
@@ -9579,6 +10414,7 @@
         "index": {
           "description": "Invokes procedure for the given bunch of events",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "sco_",
           "normalized": "(a-\u003eSE())-\u003eb a-\u003eb(Mix Unit)",
@@ -9594,6 +10430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a scores that contains only one event. The event happens immediately and lasts for 1 second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "singleCsdEvent",
           "package": "csound-expression",
@@ -9603,6 +10440,7 @@
         "index": {
           "description": "Constructs scores that contains only one event The event happens immediately and lasts for second",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "singleCsdEvent",
           "normalized": "CsdEvent a-\u003eb a",
@@ -9619,6 +10457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a given score representation to the canonical one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "toCsdEventList",
           "package": "csound-expression",
@@ -9628,6 +10467,7 @@
         "index": {
           "description": "Converts given score representation to the canonical one",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "toCsdEventList",
           "normalized": "a b-\u003eCsdEventList b",
@@ -9644,6 +10484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggers an instrument with an event stream. The event stream\n contains triples:\n\u003c/p\u003e\u003cpre\u003e (delay_after_event_is_fired, duration_of_the_event, argument_for_the_instrument)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "trig",
           "package": "csound-expression",
@@ -9653,6 +10494,7 @@
         "index": {
           "description": "Triggers an instrument with an event stream The event stream contains triples delay after event is fired duration of the event argument for the instrument",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "trig",
           "normalized": "(a-\u003eSE b)-\u003eEvt(D,D,a)-\u003eb",
@@ -9668,6 +10510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA closure to trigger an instrument inside the body of another instrument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "trigBy",
           "package": "csound-expression",
@@ -9677,6 +10520,7 @@
         "index": {
           "description": "closure to trigger an instrument inside the body of another instrument",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "trigBy",
           "normalized": "(a-\u003eSE b)-\u003e(c-\u003eEvt(D,D,a))-\u003ec-\u003eb",
@@ -9693,6 +10537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggers a procedure on the event stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "trig_",
           "package": "csound-expression",
@@ -9702,6 +10547,7 @@
         "index": {
           "description": "Triggers procedure on the event stream",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "trig_",
           "normalized": "(a-\u003eSE())-\u003eEvt(D,D,a)-\u003eSE()",
@@ -9717,6 +10563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the same duration for all events. It's useful with the functions \u003ccode\u003esched\u003c/code\u003e, \u003ccode\u003eschedBy\u003c/code\u003e, \u003ccode\u003esched_\u003c/code\u003e. \n\u003c/p\u003e\u003cpre\u003e withDur dur events === fmap (\\x -\u003e (dur, x)) events\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.Instr",
           "name": "withDur",
           "package": "csound-expression",
@@ -9727,6 +10574,7 @@
         "index": {
           "description": "Sets the same duration for all events It useful with the functions sched schedBy sched withDur dur events fmap dur events",
           "hierarchy": "Csound Control Instr",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.Instr",
           "name": "withDur",
           "normalized": "D-\u003eEvt a-\u003eEvt(D,a)",
@@ -9742,6 +10590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.SE",
           "name": "SE",
           "package": "csound-expression",
@@ -9750,6 +10599,7 @@
         },
         "index": {
           "hierarchy": "Csound Control SE",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.SE",
           "name": "SE",
           "package": "csound-expression",
@@ -9764,6 +10614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Csound's \u003ccode\u003eIO\u003c/code\u003e-monad. All values that produce side effects are wrapped\n in the \u003ccode\u003eSE\u003c/code\u003e-monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.SE",
           "name": "SE",
           "package": "csound-expression",
@@ -9772,6 +10623,7 @@
         "index": {
           "description": "The Csound IO monad All values that produce side effects are wrapped in the SE monad",
           "hierarchy": "Csound Control SE",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.SE",
           "name": "SE",
           "package": "csound-expression",
@@ -9786,6 +10638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt describes a reference to mutable values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.SE",
           "name": "SERef",
           "package": "csound-expression",
@@ -9794,6 +10647,7 @@
         "index": {
           "description": "It describes reference to mutable values",
           "hierarchy": "Csound Control SE",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.SE",
           "name": "SERef",
           "package": "csound-expression",
@@ -9807,6 +10661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.SE",
           "name": "SERef",
           "package": "csound-expression",
@@ -9815,6 +10670,7 @@
         },
         "index": {
           "hierarchy": "Csound Control SE",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.SE",
           "name": "SERef",
           "package": "csound-expression",
@@ -9829,6 +10685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocates a new mutable value and initializes it with value. \n A reference can contain a tuple of variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.SE",
           "name": "newSERef",
           "package": "csound-expression",
@@ -9838,6 +10695,7 @@
         "index": {
           "description": "Allocates new mutable value and initializes it with value reference can contain tuple of variables",
           "hierarchy": "Csound Control SE",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.SE",
           "name": "newSERef",
           "normalized": "a-\u003eSE(SERef a)",
@@ -9853,6 +10711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.SE",
           "name": "readSERef",
           "package": "csound-expression",
@@ -9861,6 +10720,7 @@
         },
         "index": {
           "hierarchy": "Csound Control SE",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.SE",
           "name": "readSERef",
           "package": "csound-expression",
@@ -9875,6 +10735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for the function \u003ccode\u003enewSERef\u003c/code\u003e. It returns not the reference\n to mutable value but a pair of reader and writer functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.SE",
           "name": "sensorsSE",
           "package": "csound-expression",
@@ -9884,6 +10745,7 @@
         "index": {
           "description": "An alias for the function newSERef It returns not the reference to mutable value but pair of reader and writer functions",
           "hierarchy": "Csound Control SE",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.SE",
           "name": "sensorsSE",
           "normalized": "a-\u003eSE(SE a,a-\u003eSE())",
@@ -9899,6 +10761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control.SE",
           "name": "writeSERef",
           "package": "csound-expression",
@@ -9907,6 +10770,7 @@
         },
         "index": {
           "hierarchy": "Csound Control SE",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control.SE",
           "name": "writeSERef",
           "normalized": "a-\u003eSE()",
@@ -9923,6 +10787,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module contains the modules that are responsible\n for converting events to signals \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Control",
           "name": "Control",
           "package": "csound-expression",
@@ -9932,6 +10797,7 @@
         "index": {
           "description": "The module contains the modules that are responsible for converting events to signals",
           "hierarchy": "Csound Control",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Control",
           "name": "Control",
           "package": "csound-expression",
@@ -9946,6 +10812,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRendering of Csound files and playing the music in real time.\n\u003c/p\u003e\u003cp\u003eHow are we going to get the sound out of Haskell code? \n Instruments are ready and we have written all the scores for them. \n Now, it's time to use the rendering functions. We can render haskell expressions\n to Csound code. A rendering function takes a value that represents a sound (it's a tuple of signals)\n and produces a string with Csound code. It can take a value that represents \n the flags for the csound compiler and global settings (\u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e). \n Then we can save this string to file and convert it to sound with csound compiler\n\u003c/p\u003e\u003cpre\u003e csound -o music.wav music.csd\n\u003c/pre\u003e\u003cp\u003eOr we can play it in real time with -odac flag. It sends the sound directly to\n soundcard. It's usefull when we are using midi or tweek the parameters in real time\n with sliders or knobs.\n\u003c/p\u003e\u003cpre\u003e csound -odac music.csd\n\u003c/pre\u003e\u003cp\u003eThe main function of this module is \u003ccode\u003e\u003ca\u003erenderCsdBy\u003c/a\u003e\u003c/code\u003e. Other function are nothing but\n wrappers that produce the Csound code and make something useful with it (saving to file,\n playing with specific player or in real time).  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "IO",
           "package": "csound-expression",
@@ -9955,6 +10822,7 @@
         "index": {
           "description": "Rendering of Csound files and playing the music in real time How are we going to get the sound out of Haskell code Instruments are ready and we have written all the scores for them Now it time to use the rendering functions We can render haskell expressions to Csound code rendering function takes value that represents sound it tuple of signals and produces string with Csound code It can take value that represents the flags for the csound compiler and global settings Options Then we can save this string to file and convert it to sound with csound compiler csound music.wav music.csd Or we can play it in real time with odac flag It sends the sound directly to soundcard It usefull when we are using midi or tweek the parameters in real time with sliders or knobs csound odac music.csd The main function of this module is renderCsdBy Other function are nothing but wrappers that produce the Csound code and make something useful with it saving to file playing with specific player or in real time",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "IO",
           "package": "csound-expression",
@@ -9968,6 +10836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "RenderCsd",
           "package": "csound-expression",
@@ -9976,6 +10845,7 @@
         },
         "index": {
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "RenderCsd",
           "package": "csound-expression",
@@ -9990,6 +10860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders to file \u003ccode\u003etmp.csd\u003c/code\u003e and invokes the csound on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "csd",
           "package": "csound-expression",
@@ -10000,6 +10871,7 @@
         "index": {
           "description": "Renders to file tmp.csd and invokes the csound on it",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "csd",
           "normalized": "a-\u003eIO()",
@@ -10015,6 +10887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders to file \u003ccode\u003etmp.csd\u003c/code\u003e and invokes the csound on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "csdBy",
           "package": "csound-expression",
@@ -10025,6 +10898,7 @@
         "index": {
           "description": "Renders to file tmp.csd and invokes the csound on it",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "csdBy",
           "normalized": "Options-\u003ea-\u003eIO()",
@@ -10041,6 +10915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders csound code to file \u003ccode\u003etmp.csd\u003c/code\u003e and plays it with \u003ccode\u003e-odac\u003c/code\u003e option\n (sound output goes to soundcard in real time).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "dac",
           "package": "csound-expression",
@@ -10051,6 +10926,7 @@
         "index": {
           "description": "Renders csound code to file tmp.csd and plays it with odac option sound output goes to soundcard in real time",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "dac",
           "normalized": "a-\u003eIO()",
@@ -10066,6 +10942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edac\u003c/a\u003e\u003c/code\u003e with options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "dacBy",
           "package": "csound-expression",
@@ -10076,6 +10953,7 @@
         "index": {
           "description": "dac with options",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "dacBy",
           "normalized": "Options-\u003ea-\u003eIO()",
@@ -10092,6 +10970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders to tmp.csd and tmp.wav and plays with mplayer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "mplayer",
           "package": "csound-expression",
@@ -10102,6 +10981,7 @@
         "index": {
           "description": "Renders to tmp.csd and tmp.wav and plays with mplayer",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "mplayer",
           "normalized": "a-\u003eIO()",
@@ -10117,6 +10997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders to tmp.csd and tmp.wav and plays with mplayer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "mplayerBy",
           "package": "csound-expression",
@@ -10127,6 +11008,7 @@
         "index": {
           "description": "Renders to tmp.csd and tmp.wav and plays with mplayer",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "mplayerBy",
           "normalized": "Options-\u003ea-\u003eIO()",
@@ -10143,6 +11025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders Csound file, saves it to the given file, renders with csound command and plays it with the given program.\n\u003c/p\u003e\u003cpre\u003e playCsd program file csd \n\u003c/pre\u003e\u003cp\u003eProduces files \u003ccode\u003efile.csd\u003c/code\u003e (with \u003ccode\u003e\u003ca\u003erenderCsd\u003c/a\u003e\u003c/code\u003e) and \u003ccode\u003efile.wav\u003c/code\u003e (with \u003ccode\u003ecsound\u003c/code\u003e) and then invokes:\n\u003c/p\u003e\u003cpre\u003e program \"file.wav\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "playCsd",
           "package": "csound-expression",
@@ -10153,6 +11036,7 @@
         "index": {
           "description": "Renders Csound file saves it to the given file renders with csound command and plays it with the given program playCsd program file csd Produces files file.csd with renderCsd and file.wav with csound and then invokes program file.wav",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "playCsd",
           "normalized": "(String-\u003eIO())-\u003eString-\u003ea-\u003eIO()",
@@ -10169,6 +11053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWorks just like \u003ccode\u003e\u003ca\u003eplayCsd\u003c/a\u003e\u003c/code\u003e but you can supply csound options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "playCsdBy",
           "package": "csound-expression",
@@ -10179,6 +11064,7 @@
         "index": {
           "description": "Works just like playCsd but you can supply csound options",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "playCsdBy",
           "normalized": "Options-\u003e(String-\u003eIO())-\u003eString-\u003ea-\u003eIO()",
@@ -10195,6 +11081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders Csound file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "renderCsd",
           "package": "csound-expression",
@@ -10205,6 +11092,7 @@
         "index": {
           "description": "Renders Csound file",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "renderCsd",
           "normalized": "a-\u003eIO String",
@@ -10220,6 +11108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "renderCsdBy",
           "package": "csound-expression",
@@ -10229,6 +11118,7 @@
         },
         "index": {
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "renderCsdBy",
           "normalized": "Options-\u003ea-\u003eIO String",
@@ -10245,6 +11135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders to tmp.csd and tmp.wav and plays with totem player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "totem",
           "package": "csound-expression",
@@ -10255,6 +11146,7 @@
         "index": {
           "description": "Renders to tmp.csd and tmp.wav and plays with totem player",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "totem",
           "normalized": "a-\u003eIO()",
@@ -10270,6 +11162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders to tmp.csd and tmp.wav and plays with totem player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "totemBy",
           "package": "csound-expression",
@@ -10280,6 +11173,7 @@
         "index": {
           "description": "Renders to tmp.csd and tmp.wav and plays with totem player",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "totemBy",
           "normalized": "Options-\u003ea-\u003eIO()",
@@ -10296,6 +11190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput to dac with virtual midi keyboard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "vdac",
           "package": "csound-expression",
@@ -10306,6 +11201,7 @@
         "index": {
           "description": "Output to dac with virtual midi keyboard",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "vdac",
           "normalized": "a-\u003eIO()",
@@ -10321,6 +11217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput to dac with virtual midi keyboard with specified options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "vdacBy",
           "package": "csound-expression",
@@ -10331,6 +11228,7 @@
         "index": {
           "description": "Output to dac with virtual midi keyboard with specified options",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "vdacBy",
           "normalized": "Options-\u003ea-\u003eIO()",
@@ -10347,6 +11245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender Csound file and save it to the give file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "writeCsd",
           "package": "csound-expression",
@@ -10357,6 +11256,7 @@
         "index": {
           "description": "Render Csound file and save it to the give file",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "writeCsd",
           "normalized": "String-\u003ea-\u003eIO()",
@@ -10373,6 +11273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender Csound file with options and save it to the give file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.IO",
           "name": "writeCsdBy",
           "package": "csound-expression",
@@ -10383,6 +11284,7 @@
         "index": {
           "description": "Render Csound file with options and save it to the give file",
           "hierarchy": "Csound IO",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.IO",
           "name": "writeCsdBy",
           "normalized": "Options-\u003eString-\u003ea-\u003eIO()",
@@ -10398,6 +11300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Options",
           "package": "csound-expression",
@@ -10406,6 +11309,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Options",
           "package": "csound-expression",
@@ -10419,6 +11323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "AudioFileOutput",
           "package": "csound-expression",
@@ -10426,6 +11331,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "AudioFileOutput",
           "package": "csound-expression",
@@ -10439,6 +11345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Config",
           "package": "csound-expression",
@@ -10446,6 +11353,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Config",
           "package": "csound-expression",
@@ -10459,6 +11367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "DisplayMode",
           "package": "csound-expression",
@@ -10466,6 +11375,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "DisplayMode",
           "package": "csound-expression",
@@ -10479,6 +11389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Displays",
           "package": "csound-expression",
@@ -10486,6 +11397,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Displays",
           "package": "csound-expression",
@@ -10499,6 +11411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Dither",
           "package": "csound-expression",
@@ -10506,6 +11419,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Dither",
           "package": "csound-expression",
@@ -10519,6 +11433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Flags",
           "package": "csound-expression",
@@ -10526,6 +11441,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Flags",
           "package": "csound-expression",
@@ -10539,6 +11455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "FormatHeader",
           "package": "csound-expression",
@@ -10546,6 +11463,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "FormatHeader",
           "package": "csound-expression",
@@ -10559,6 +11477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "FormatSamples",
           "package": "csound-expression",
@@ -10566,6 +11485,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "FormatSamples",
           "package": "csound-expression",
@@ -10579,6 +11499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "FormatType",
           "package": "csound-expression",
@@ -10586,6 +11507,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "FormatType",
           "package": "csound-expression",
@@ -10599,6 +11521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "IdTags",
           "package": "csound-expression",
@@ -10606,6 +11529,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "IdTags",
           "package": "csound-expression",
@@ -10619,6 +11543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "MidiIO",
           "package": "csound-expression",
@@ -10626,6 +11551,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "MidiIO",
           "package": "csound-expression",
@@ -10639,6 +11565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "MidiRT",
           "package": "csound-expression",
@@ -10646,6 +11573,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "MidiRT",
           "package": "csound-expression",
@@ -10660,6 +11588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCsound options. The default values are\n\u003c/p\u003e\u003cpre\u003e flags      = def     -- the only flag set by default is \"no-displays\" \n                      -- to supress the display of the tables\n sampleRate = 44100\n blockSize  = 64\n gain       = 0.5\n tabFi      = fineFi 13 [(idLins, 11), (idExps, 11), (idConsts, 9), (idSplines, 11), (idStartEnds, 12)] }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Options",
           "package": "csound-expression",
@@ -10668,6 +11597,7 @@
         "index": {
           "description": "Csound options The default values are flags def the only flag set by default is no-displays to supress the display of the tables sampleRate blockSize gain tabFi fineFi idLins idExps idConsts idSplines idStartEnds",
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Options",
           "package": "csound-expression",
@@ -10681,6 +11611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "PulseAudio",
           "package": "csound-expression",
@@ -10688,6 +11619,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "PulseAudio",
           "package": "csound-expression",
@@ -10701,6 +11633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Rtaudio",
           "package": "csound-expression",
@@ -10708,6 +11641,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Rtaudio",
           "package": "csound-expression",
@@ -10721,6 +11655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Rtmidi",
           "package": "csound-expression",
@@ -10728,6 +11663,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Rtmidi",
           "package": "csound-expression",
@@ -10741,6 +11677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Aiff",
           "package": "csound-expression",
@@ -10749,6 +11686,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Aiff",
           "package": "csound-expression",
@@ -10762,6 +11700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Alaw",
           "package": "csound-expression",
@@ -10770,6 +11709,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Alaw",
           "package": "csound-expression",
@@ -10783,6 +11723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Alsa",
           "package": "csound-expression",
@@ -10791,6 +11732,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Alsa",
           "package": "csound-expression",
@@ -10804,6 +11746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "AlsaMidi",
           "package": "csound-expression",
@@ -10812,6 +11755,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "AlsaMidi",
           "package": "csound-expression",
@@ -10825,6 +11769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "AsciiDisplay",
           "package": "csound-expression",
@@ -10833,6 +11778,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "AsciiDisplay",
           "package": "csound-expression",
@@ -10846,6 +11792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Au",
           "package": "csound-expression",
@@ -10854,6 +11801,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Au",
           "package": "csound-expression",
@@ -10867,6 +11815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "AudioFileOutput",
           "package": "csound-expression",
@@ -10875,6 +11824,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "AudioFileOutput",
           "package": "csound-expression",
@@ -10888,6 +11838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Avr",
           "package": "csound-expression",
@@ -10896,6 +11847,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Avr",
           "package": "csound-expression",
@@ -10909,6 +11861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Bit24",
           "package": "csound-expression",
@@ -10917,6 +11870,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Bit24",
           "package": "csound-expression",
@@ -10930,6 +11884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Caf",
           "package": "csound-expression",
@@ -10938,6 +11893,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Caf",
           "package": "csound-expression",
@@ -10951,6 +11907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Config",
           "package": "csound-expression",
@@ -10959,6 +11916,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Config",
           "package": "csound-expression",
@@ -10972,6 +11930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "CoreAudio",
           "package": "csound-expression",
@@ -10980,6 +11939,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "CoreAudio",
           "package": "csound-expression",
@@ -10993,6 +11953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Displays",
           "package": "csound-expression",
@@ -11001,6 +11962,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Displays",
           "package": "csound-expression",
@@ -11014,6 +11976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Flac",
           "package": "csound-expression",
@@ -11022,6 +11985,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Flac",
           "package": "csound-expression",
@@ -11035,6 +11999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Flags",
           "package": "csound-expression",
@@ -11043,6 +12008,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Flags",
           "package": "csound-expression",
@@ -11056,6 +12022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "FloatSamples",
           "package": "csound-expression",
@@ -11064,6 +12031,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "FloatSamples",
           "package": "csound-expression",
@@ -11077,6 +12045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Htk",
           "package": "csound-expression",
@@ -11085,6 +12054,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Htk",
           "package": "csound-expression",
@@ -11098,6 +12068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "IdTags",
           "package": "csound-expression",
@@ -11106,6 +12077,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "IdTags",
           "package": "csound-expression",
@@ -11119,6 +12091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Ircam",
           "package": "csound-expression",
@@ -11127,6 +12100,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Ircam",
           "package": "csound-expression",
@@ -11140,6 +12114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Jack",
           "package": "csound-expression",
@@ -11148,6 +12123,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Jack",
           "package": "csound-expression",
@@ -11161,6 +12137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Long",
           "package": "csound-expression",
@@ -11169,6 +12146,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Long",
           "package": "csound-expression",
@@ -11182,6 +12160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Mat4",
           "package": "csound-expression",
@@ -11190,6 +12169,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Mat4",
           "package": "csound-expression",
@@ -11203,6 +12183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Mat5",
           "package": "csound-expression",
@@ -11211,6 +12192,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Mat5",
           "package": "csound-expression",
@@ -11224,6 +12206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "MidiIO",
           "package": "csound-expression",
@@ -11232,6 +12215,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "MidiIO",
           "package": "csound-expression",
@@ -11245,6 +12229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "MidiRT",
           "package": "csound-expression",
@@ -11253,6 +12238,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "MidiRT",
           "package": "csound-expression",
@@ -11266,6 +12252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Mme",
           "package": "csound-expression",
@@ -11274,6 +12261,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Mme",
           "package": "csound-expression",
@@ -11287,6 +12275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "MmeMidi",
           "package": "csound-expression",
@@ -11295,6 +12284,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "MmeMidi",
           "package": "csound-expression",
@@ -11308,6 +12298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Nis",
           "package": "csound-expression",
@@ -11316,6 +12307,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Nis",
           "package": "csound-expression",
@@ -11329,6 +12321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "NoDisplay",
           "package": "csound-expression",
@@ -11337,6 +12330,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "NoDisplay",
           "package": "csound-expression",
@@ -11350,6 +12344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "NoHeader",
           "package": "csound-expression",
@@ -11358,6 +12353,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "NoHeader",
           "package": "csound-expression",
@@ -11371,6 +12367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "NoRtaudio",
           "package": "csound-expression",
@@ -11379,6 +12376,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "NoRtaudio",
           "package": "csound-expression",
@@ -11392,6 +12390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "NoRtmidi",
           "package": "csound-expression",
@@ -11400,6 +12399,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "NoRtmidi",
           "package": "csound-expression",
@@ -11413,6 +12413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Options",
           "package": "csound-expression",
@@ -11421,6 +12422,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Options",
           "package": "csound-expression",
@@ -11434,6 +12436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Paf",
           "package": "csound-expression",
@@ -11442,6 +12445,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Paf",
           "package": "csound-expression",
@@ -11455,6 +12459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "PortAudio",
           "package": "csound-expression",
@@ -11463,6 +12468,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "PortAudio",
           "package": "csound-expression",
@@ -11476,6 +12482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "PortMidi",
           "package": "csound-expression",
@@ -11484,6 +12491,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "PortMidi",
           "package": "csound-expression",
@@ -11497,6 +12505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "PostScriptDisplay",
           "package": "csound-expression",
@@ -11505,6 +12514,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "PostScriptDisplay",
           "package": "csound-expression",
@@ -11518,6 +12528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "PulseAudio",
           "package": "csound-expression",
@@ -11526,6 +12537,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "PulseAudio",
           "package": "csound-expression",
@@ -11539,6 +12551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Pvf",
           "package": "csound-expression",
@@ -11547,6 +12560,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Pvf",
           "package": "csound-expression",
@@ -11560,6 +12574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Raw",
           "package": "csound-expression",
@@ -11568,6 +12583,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Raw",
           "package": "csound-expression",
@@ -11581,6 +12597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "RewriteHeader",
           "package": "csound-expression",
@@ -11589,6 +12606,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "RewriteHeader",
           "package": "csound-expression",
@@ -11602,6 +12620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Schar",
           "package": "csound-expression",
@@ -11610,6 +12629,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Schar",
           "package": "csound-expression",
@@ -11623,6 +12643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Sd2",
           "package": "csound-expression",
@@ -11631,6 +12652,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Sd2",
           "package": "csound-expression",
@@ -11644,6 +12666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Sds",
           "package": "csound-expression",
@@ -11652,6 +12675,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Sds",
           "package": "csound-expression",
@@ -11665,6 +12689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Short",
           "package": "csound-expression",
@@ -11673,6 +12698,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Short",
           "package": "csound-expression",
@@ -11686,6 +12712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Svx",
           "package": "csound-expression",
@@ -11694,6 +12721,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Svx",
           "package": "csound-expression",
@@ -11707,6 +12735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Triangular",
           "package": "csound-expression",
@@ -11715,6 +12744,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Triangular",
           "package": "csound-expression",
@@ -11728,6 +12758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Uchar",
           "package": "csound-expression",
@@ -11736,6 +12767,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Uchar",
           "package": "csound-expression",
@@ -11749,6 +12781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Ulaw",
           "package": "csound-expression",
@@ -11757,6 +12790,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Ulaw",
           "package": "csound-expression",
@@ -11770,6 +12804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Uniform",
           "package": "csound-expression",
@@ -11778,6 +12813,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Uniform",
           "package": "csound-expression",
@@ -11791,6 +12827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "VirtualMidi",
           "package": "csound-expression",
@@ -11799,6 +12836,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "VirtualMidi",
           "package": "csound-expression",
@@ -11812,6 +12850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Voc",
           "package": "csound-expression",
@@ -11820,6 +12859,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Voc",
           "package": "csound-expression",
@@ -11833,6 +12873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "W64",
           "package": "csound-expression",
@@ -11841,6 +12882,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "W64",
           "package": "csound-expression",
@@ -11853,6 +12895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Wav",
           "package": "csound-expression",
@@ -11861,6 +12904,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Wav",
           "package": "csound-expression",
@@ -11874,6 +12918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Wavex",
           "package": "csound-expression",
@@ -11882,6 +12927,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Wavex",
           "package": "csound-expression",
@@ -11895,6 +12941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "WinmmMidi",
           "package": "csound-expression",
@@ -11903,6 +12950,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "WinmmMidi",
           "package": "csound-expression",
@@ -11916,6 +12964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "Xi",
           "package": "csound-expression",
@@ -11924,6 +12973,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "Xi",
           "package": "csound-expression",
@@ -11937,6 +12987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "audioFileOutput",
           "package": "csound-expression",
@@ -11945,6 +12996,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "audioFileOutput",
           "package": "csound-expression",
@@ -11958,6 +13010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "config",
           "package": "csound-expression",
@@ -11966,6 +13019,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "config",
           "package": "csound-expression",
@@ -11979,6 +13033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of audio samples in one control step\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "csdBlockSize",
           "package": "csound-expression",
@@ -11988,6 +13043,7 @@
         "index": {
           "description": "The number of audio samples in one control step",
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "csdBlockSize",
           "package": "csound-expression",
@@ -12002,6 +13058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCsound command line flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "csdFlags",
           "package": "csound-expression",
@@ -12011,6 +13068,7 @@
         "index": {
           "description": "Csound command line flags",
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "csdFlags",
           "package": "csound-expression",
@@ -12025,6 +13083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA gain of the final output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "csdGain",
           "package": "csound-expression",
@@ -12034,6 +13093,7 @@
         "index": {
           "description": "gain of the final output",
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "csdGain",
           "package": "csound-expression",
@@ -12047,6 +13107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "csdLineNums",
           "package": "csound-expression",
@@ -12055,6 +13116,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "csdLineNums",
           "package": "csound-expression",
@@ -12069,6 +13131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sample rate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "csdSampleRate",
           "package": "csound-expression",
@@ -12078,6 +13141,7 @@
         "index": {
           "description": "The sample rate",
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "csdSampleRate",
           "package": "csound-expression",
@@ -12092,6 +13156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault fidelity of the arrays\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "csdTabFi",
           "package": "csound-expression",
@@ -12101,6 +13166,7 @@
         "index": {
           "description": "Default fidelity of the arrays",
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "csdTabFi",
           "package": "csound-expression",
@@ -12114,6 +13180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "displayHeartbeat",
           "package": "csound-expression",
@@ -12122,6 +13189,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "displayHeartbeat",
           "package": "csound-expression",
@@ -12135,6 +13203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "displayMode",
           "package": "csound-expression",
@@ -12143,6 +13212,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "displayMode",
           "package": "csound-expression",
@@ -12156,6 +13226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "displayVerbose",
           "package": "csound-expression",
@@ -12164,6 +13235,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "displayVerbose",
           "package": "csound-expression",
@@ -12177,6 +13249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "displays",
           "package": "csound-expression",
@@ -12185,6 +13258,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "displays",
           "package": "csound-expression",
@@ -12197,6 +13271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "dither",
           "package": "csound-expression",
@@ -12205,6 +13280,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "dither",
           "package": "csound-expression",
@@ -12217,6 +13293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "flagsVerbatim",
           "package": "csound-expression",
@@ -12225,6 +13302,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "flagsVerbatim",
           "package": "csound-expression",
@@ -12238,6 +13316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "formatSamples",
           "package": "csound-expression",
@@ -12246,6 +13325,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "formatSamples",
           "package": "csound-expression",
@@ -12259,6 +13339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "formatType",
           "package": "csound-expression",
@@ -12267,6 +13348,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "formatType",
           "package": "csound-expression",
@@ -12280,6 +13362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "hwBuf",
           "package": "csound-expression",
@@ -12288,6 +13371,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "hwBuf",
           "package": "csound-expression",
@@ -12301,6 +13385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "idArtist",
           "package": "csound-expression",
@@ -12309,6 +13394,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "idArtist",
           "package": "csound-expression",
@@ -12322,6 +13408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "idComment",
           "package": "csound-expression",
@@ -12330,6 +13417,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "idComment",
           "package": "csound-expression",
@@ -12343,6 +13431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "idCopyright",
           "package": "csound-expression",
@@ -12351,6 +13440,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "idCopyright",
           "package": "csound-expression",
@@ -12364,6 +13454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "idDate",
           "package": "csound-expression",
@@ -12372,6 +13463,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "idDate",
           "package": "csound-expression",
@@ -12385,6 +13477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "idSoftware",
           "package": "csound-expression",
@@ -12393,6 +13486,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "idSoftware",
           "package": "csound-expression",
@@ -12406,6 +13500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "idTags",
           "package": "csound-expression",
@@ -12414,6 +13509,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "idTags",
           "package": "csound-expression",
@@ -12427,6 +13523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "idTitle",
           "package": "csound-expression",
@@ -12435,6 +13532,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "idTitle",
           "package": "csound-expression",
@@ -12448,6 +13546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "input",
           "package": "csound-expression",
@@ -12456,6 +13555,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "input",
           "package": "csound-expression",
@@ -12468,6 +13568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "ioBuf",
           "package": "csound-expression",
@@ -12476,6 +13577,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "ioBuf",
           "package": "csound-expression",
@@ -12489,6 +13591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "jackClient",
           "package": "csound-expression",
@@ -12497,6 +13600,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "jackClient",
           "package": "csound-expression",
@@ -12510,6 +13614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "jackInport",
           "package": "csound-expression",
@@ -12518,6 +13623,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "jackInport",
           "package": "csound-expression",
@@ -12531,6 +13637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "jackOutport",
           "package": "csound-expression",
@@ -12539,6 +13646,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "jackOutport",
           "package": "csound-expression",
@@ -12552,6 +13660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "listOpcodes",
           "package": "csound-expression",
@@ -12560,6 +13669,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "listOpcodes",
           "package": "csound-expression",
@@ -12573,6 +13683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "mAmps",
           "package": "csound-expression",
@@ -12581,6 +13692,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "mAmps",
           "package": "csound-expression",
@@ -12594,6 +13706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "mBenchmarks",
           "package": "csound-expression",
@@ -12602,6 +13715,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "mBenchmarks",
           "package": "csound-expression",
@@ -12615,6 +13729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "mColours",
           "package": "csound-expression",
@@ -12623,6 +13738,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "mColours",
           "package": "csound-expression",
@@ -12636,6 +13752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "mDb",
           "package": "csound-expression",
@@ -12644,6 +13761,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "mDb",
           "package": "csound-expression",
@@ -12657,6 +13775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "mRange",
           "package": "csound-expression",
@@ -12665,6 +13784,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "mRange",
           "package": "csound-expression",
@@ -12678,6 +13798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "mWarnings",
           "package": "csound-expression",
@@ -12686,6 +13807,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "mWarnings",
           "package": "csound-expression",
@@ -12699,6 +13821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "messageLevel",
           "package": "csound-expression",
@@ -12707,6 +13830,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "messageLevel",
           "package": "csound-expression",
@@ -12720,6 +13844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "midiDevice",
           "package": "csound-expression",
@@ -12728,6 +13853,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "midiDevice",
           "package": "csound-expression",
@@ -12741,6 +13867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "midiFile",
           "package": "csound-expression",
@@ -12749,6 +13876,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "midiFile",
           "package": "csound-expression",
@@ -12762,6 +13890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "midiIO",
           "package": "csound-expression",
@@ -12770,6 +13899,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "midiIO",
           "package": "csound-expression",
@@ -12783,6 +13913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "midiKey",
           "package": "csound-expression",
@@ -12791,6 +13922,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "midiKey",
           "package": "csound-expression",
@@ -12804,6 +13936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "midiKeyCps",
           "package": "csound-expression",
@@ -12812,6 +13945,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "midiKeyCps",
           "package": "csound-expression",
@@ -12825,6 +13959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "midiKeyOct",
           "package": "csound-expression",
@@ -12833,6 +13968,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "midiKeyOct",
           "package": "csound-expression",
@@ -12846,6 +13982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "midiKeyPch",
           "package": "csound-expression",
@@ -12854,6 +13991,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "midiKeyPch",
           "package": "csound-expression",
@@ -12867,6 +14005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "midiOutDevice",
           "package": "csound-expression",
@@ -12875,6 +14014,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "midiOutDevice",
           "package": "csound-expression",
@@ -12888,6 +14028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "midiOutFile",
           "package": "csound-expression",
@@ -12896,6 +14037,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "midiOutFile",
           "package": "csound-expression",
@@ -12909,6 +14051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "midiRT",
           "package": "csound-expression",
@@ -12917,6 +14060,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "midiRT",
           "package": "csound-expression",
@@ -12930,6 +14074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "midiVelocity",
           "package": "csound-expression",
@@ -12938,6 +14083,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "midiVelocity",
           "package": "csound-expression",
@@ -12951,6 +14097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "midiVelocityAmp",
           "package": "csound-expression",
@@ -12959,6 +14106,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "midiVelocityAmp",
           "package": "csound-expression",
@@ -12972,6 +14120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "msgColor",
           "package": "csound-expression",
@@ -12980,6 +14129,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "msgColor",
           "package": "csound-expression",
@@ -12993,6 +14143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "muteTracks",
           "package": "csound-expression",
@@ -13001,6 +14152,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "muteTracks",
           "package": "csound-expression",
@@ -13014,6 +14166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "newKr",
           "package": "csound-expression",
@@ -13022,6 +14175,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "newKr",
           "package": "csound-expression",
@@ -13035,6 +14189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "newSr",
           "package": "csound-expression",
@@ -13043,6 +14198,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "newSr",
           "package": "csound-expression",
@@ -13056,6 +14212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "nopeaks",
           "package": "csound-expression",
@@ -13064,6 +14221,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "nopeaks",
           "package": "csound-expression",
@@ -13076,6 +14234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "nosound",
           "package": "csound-expression",
@@ -13084,6 +14243,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "nosound",
           "package": "csound-expression",
@@ -13096,6 +14256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "omacro",
           "package": "csound-expression",
@@ -13104,6 +14265,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "omacro",
           "normalized": "Maybe(String,String)",
@@ -13118,6 +14280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "output",
           "package": "csound-expression",
@@ -13126,6 +14289,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "output",
           "package": "csound-expression",
@@ -13138,6 +14302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "paInput",
           "package": "csound-expression",
@@ -13146,6 +14311,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "paInput",
           "package": "csound-expression",
@@ -13159,6 +14325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "paOutput",
           "package": "csound-expression",
@@ -13167,6 +14334,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "paOutput",
           "package": "csound-expression",
@@ -13180,6 +14348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "paServer",
           "package": "csound-expression",
@@ -13188,6 +14357,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "paServer",
           "package": "csound-expression",
@@ -13201,6 +14371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "pulseAudio",
           "package": "csound-expression",
@@ -13209,6 +14380,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "pulseAudio",
           "package": "csound-expression",
@@ -13222,6 +14394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "rawControllerMode",
           "package": "csound-expression",
@@ -13230,6 +14403,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "rawControllerMode",
           "package": "csound-expression",
@@ -13243,6 +14417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "rtaudio",
           "package": "csound-expression",
@@ -13251,6 +14426,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "rtaudio",
           "package": "csound-expression",
@@ -13263,6 +14439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "rtmidi",
           "package": "csound-expression",
@@ -13271,6 +14448,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "rtmidi",
           "package": "csound-expression",
@@ -13283,6 +14461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "schedNum",
           "package": "csound-expression",
@@ -13291,6 +14470,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "schedNum",
           "package": "csound-expression",
@@ -13304,6 +14484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "scoreIn",
           "package": "csound-expression",
@@ -13312,6 +14493,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "scoreIn",
           "package": "csound-expression",
@@ -13325,6 +14507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "setAdc",
           "package": "csound-expression",
@@ -13334,6 +14517,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "setAdc",
           "package": "csound-expression",
@@ -13347,6 +14531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "setAdcBy",
           "package": "csound-expression",
@@ -13356,6 +14541,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "setAdcBy",
           "normalized": "String-\u003eOptions",
@@ -13372,6 +14558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets hardware and software buffers.\n\u003c/p\u003e\u003cpre\u003e setBufs hardwareBuf ioBuf\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "setBufs",
           "package": "csound-expression",
@@ -13382,6 +14569,7 @@
         "index": {
           "description": "Sets hardware and software buffers setBufs hardwareBuf ioBuf",
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "setBufs",
           "normalized": "Int-\u003eInt-\u003eOptions",
@@ -13397,6 +14585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "setDac",
           "package": "csound-expression",
@@ -13406,6 +14595,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "setDac",
           "package": "csound-expression",
@@ -13419,6 +14609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "setDacBy",
           "package": "csound-expression",
@@ -13428,6 +14619,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "setDacBy",
           "normalized": "String-\u003eOptions",
@@ -13443,6 +14635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "setGain",
           "package": "csound-expression",
@@ -13452,6 +14645,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "setGain",
           "normalized": "Double-\u003eOptions",
@@ -13467,6 +14661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "setInput",
           "package": "csound-expression",
@@ -13476,6 +14671,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "setInput",
           "normalized": "String-\u003eOptions",
@@ -13491,6 +14687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "setJack",
           "package": "csound-expression",
@@ -13500,6 +14697,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "setJack",
           "normalized": "String-\u003eOptions",
@@ -13515,6 +14713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "setOutput",
           "package": "csound-expression",
@@ -13524,6 +14723,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "setOutput",
           "normalized": "String-\u003eOptions",
@@ -13540,6 +14740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets sample rate and block size\n\u003c/p\u003e\u003cpre\u003e setRates sampleRate blockSize\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "setRates",
           "package": "csound-expression",
@@ -13550,6 +14751,7 @@
         "index": {
           "description": "Sets sample rate and block size setRates sampleRate blockSize",
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "setRates",
           "normalized": "Int-\u003eInt-\u003eOptions",
@@ -13565,6 +14767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "setSched",
           "package": "csound-expression",
@@ -13573,6 +14776,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "setSched",
           "package": "csound-expression",
@@ -13586,6 +14790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "setTempo",
           "package": "csound-expression",
@@ -13594,6 +14799,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "setTempo",
           "package": "csound-expression",
@@ -13607,6 +14813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "setThru",
           "package": "csound-expression",
@@ -13616,6 +14823,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "setThru",
           "package": "csound-expression",
@@ -13629,6 +14837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "skipSeconds",
           "package": "csound-expression",
@@ -13637,6 +14846,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "skipSeconds",
           "package": "csound-expression",
@@ -13650,6 +14860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "smacro",
           "package": "csound-expression",
@@ -13658,6 +14869,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "smacro",
           "normalized": "Maybe(String,String)",
@@ -13672,6 +14884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "strsetN",
           "package": "csound-expression",
@@ -13680,6 +14893,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "strsetN",
           "normalized": "Maybe(Int,String)",
@@ -13694,6 +14908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Options",
           "name": "terminateOnMidi",
           "package": "csound-expression",
@@ -13702,6 +14917,7 @@
         },
         "index": {
           "hierarchy": "Csound Options",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Options",
           "name": "terminateOnMidi",
           "package": "csound-expression",
@@ -13715,6 +14931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.SigSpace",
           "name": "SigSpace",
           "package": "csound-expression",
@@ -13723,6 +14940,7 @@
         },
         "index": {
           "hierarchy": "Csound SigSpace",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.SigSpace",
           "name": "SigSpace",
           "package": "csound-expression",
@@ -13737,6 +14955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for easy way to process the outputs of the instruments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.SigSpace",
           "name": "SigSpace",
           "package": "csound-expression",
@@ -13746,6 +14965,7 @@
         "index": {
           "description": "class for easy way to process the outputs of the instruments",
           "hierarchy": "Csound SigSpace",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.SigSpace",
           "name": "SigSpace",
           "package": "csound-expression",
@@ -13759,6 +14979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.SigSpace",
           "name": "bindSig",
           "package": "csound-expression",
@@ -13768,6 +14989,7 @@
         },
         "index": {
           "hierarchy": "Csound SigSpace",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.SigSpace",
           "name": "bindSig",
           "normalized": "(Sig-\u003eSE Sig)-\u003ea-\u003eSE a",
@@ -13784,6 +15006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCrossfade.\n\u003c/p\u003e\u003cpre\u003e cfd coeff sig1 sig2\n\u003c/pre\u003e\u003cp\u003eIf coeff equals 0 then we get the first signal and if it equals 1 we get the second signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.SigSpace",
           "name": "cfd",
           "package": "csound-expression",
@@ -13794,6 +15017,7 @@
         "index": {
           "description": "Crossfade cfd coeff sig1 sig2 If coeff equals then we get the first signal and if it equals we get the second signal",
           "hierarchy": "Csound SigSpace",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.SigSpace",
           "name": "cfd",
           "normalized": "Sig-\u003ea-\u003ea-\u003ea",
@@ -13809,6 +15033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpectral crossfade.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.SigSpace",
           "name": "cfdSpec",
           "package": "csound-expression",
@@ -13819,6 +15044,7 @@
         "index": {
           "description": "Spectral crossfade",
           "hierarchy": "Csound SigSpace",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.SigSpace",
           "name": "cfdSpec",
           "normalized": "Sig-\u003eSpec-\u003eSpec-\u003eSpec",
@@ -13835,6 +15061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric crossfade for n coefficients and n+1 signals.\n\u003c/p\u003e\u003cpre\u003e cfds coeffs sigs\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.SigSpace",
           "name": "cfds",
           "package": "csound-expression",
@@ -13845,6 +15072,7 @@
         "index": {
           "description": "Generic crossfade for coefficients and signals cfds coeffs sigs",
           "hierarchy": "Csound SigSpace",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.SigSpace",
           "name": "cfds",
           "normalized": "[Sig]-\u003e[a]-\u003ea",
@@ -13860,6 +15088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric spectral crossfade.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.SigSpace",
           "name": "cfdsSpec",
           "package": "csound-expression",
@@ -13870,6 +15099,7 @@
         "index": {
           "description": "Generic spectral crossfade",
           "hierarchy": "Csound SigSpace",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.SigSpace",
           "name": "cfdsSpec",
           "normalized": "[Sig]-\u003e[Spec]-\u003eSpec",
@@ -13885,6 +15115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.SigSpace",
           "name": "mapSig",
           "package": "csound-expression",
@@ -13894,6 +15125,7 @@
         },
         "index": {
           "hierarchy": "Csound SigSpace",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.SigSpace",
           "name": "mapSig",
           "normalized": "(Sig-\u003eSig)-\u003ea-\u003ea",
@@ -13910,6 +15142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScaling the sound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.SigSpace",
           "name": "mul",
           "package": "csound-expression",
@@ -13920,6 +15153,7 @@
         "index": {
           "description": "Scaling the sound",
           "hierarchy": "Csound SigSpace",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.SigSpace",
           "name": "mul",
           "normalized": "Sig-\u003ea-\u003ea",
@@ -13935,6 +15169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeighted sum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.SigSpace",
           "name": "wsum",
           "package": "csound-expression",
@@ -13945,6 +15180,7 @@
         "index": {
           "description": "Weighted sum",
           "hierarchy": "Csound SigSpace",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.SigSpace",
           "name": "wsum",
           "normalized": "[(Sig,a)]-\u003ea",
@@ -13960,6 +15196,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreating Function Tables (Buffers)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "Tab",
           "package": "csound-expression",
@@ -13969,6 +15206,7 @@
         "index": {
           "description": "Creating Function Tables Buffers",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "Tab",
           "package": "csound-expression",
@@ -13982,6 +15220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "PartialDC",
           "package": "csound-expression",
@@ -13990,6 +15229,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "PartialDC",
           "package": "csound-expression",
@@ -14003,6 +15243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "PartialNumber",
           "package": "csound-expression",
@@ -14011,6 +15252,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "PartialNumber",
           "package": "csound-expression",
@@ -14024,6 +15266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "PartialPhase",
           "package": "csound-expression",
@@ -14032,6 +15275,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "PartialPhase",
           "package": "csound-expression",
@@ -14045,6 +15289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "PartialStrength",
           "package": "csound-expression",
@@ -14053,6 +15298,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "PartialStrength",
           "package": "csound-expression",
@@ -14067,6 +15313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTables (or arrays)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "Tab",
           "package": "csound-expression",
@@ -14075,6 +15322,7 @@
         "index": {
           "description": "Tables or arrays",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "Tab",
           "package": "csound-expression",
@@ -14089,6 +15337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable size fidelity (how many points in the table by default).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "TabFi",
           "package": "csound-expression",
@@ -14097,6 +15346,7 @@
         "index": {
           "description": "Table size fidelity how many points in the table by default",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "TabFi",
           "package": "csound-expression",
@@ -14111,6 +15361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModified Bessel function of the second kind, order 0 (for amplitude modulated FM). \n\u003c/p\u003e\u003cpre\u003e bessels xint\n\u003c/pre\u003e\u003cp\u003ethe function is defined within the interval \u003ccode\u003e[0, xint]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "bessels",
           "package": "csound-expression",
@@ -14121,6 +15372,7 @@
         "index": {
           "description": "Modified Bessel function of the second kind order for amplitude modulated FM bessels xint the function is defined within the interval xint",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "bessels",
           "normalized": "Double-\u003eTab",
@@ -14136,6 +15388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates values similar to the opcode \u003ccode\u003e\u003ca\u003ebuzz\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003cpre\u003e buzzes numberOfHarmonics [lowestHarmonic, coefficientOfAttenuation]\n\u003c/pre\u003e\u003cp\u003eWith \u003ccode\u003ebuzzes n [l, r]\u003c/code\u003e you get \u003ccode\u003en\u003c/code\u003e harmonics from \u003ccode\u003el\u003c/code\u003e that are attenuated by the factor of \u003ccode\u003er\u003c/code\u003e\n on each step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "buzzes",
           "package": "csound-expression",
@@ -14146,6 +15399,7 @@
         "index": {
           "description": "Generates values similar to the opcode buzz buzzes numberOfHarmonics lowestHarmonic coefficientOfAttenuation With buzzes you get harmonics from that are attenuated by the factor of on each step",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "buzzes",
           "normalized": "Double-\u003e[Double]-\u003eTab",
@@ -14161,6 +15415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChebyshev polynomials of the first kind.\n\u003c/p\u003e\u003cpre\u003e polys xl xr [h0, h1, h2, ..]\n\u003c/pre\u003e\u003cp\u003ewhere\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e xl, xr - left and right values of the interval over wich polynomial is defined\n\u003c/li\u003e\u003cli\u003e [h0, h1, h2, ...] -- relative strength of the partials\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "chebs1",
           "package": "csound-expression",
@@ -14171,6 +15426,7 @@
         "index": {
           "description": "Chebyshev polynomials of the first kind polys xl xr h0 h1 h2 where xl xr left and right values of the interval over wich polynomial is defined h0 h1 h2 relative strength of the partials",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "chebs1",
           "normalized": "Double-\u003eDouble-\u003e[Double]-\u003eTab",
@@ -14186,6 +15442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChebyshev polynomials of the second kind.\n\u003c/p\u003e\u003cpre\u003e polys xl xr [h0, h1, h2, ..]\n\u003c/pre\u003e\u003cp\u003ewhere\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e xl, xr - left and right values of the interval over wich polynomial is defined\n\u003c/li\u003e\u003cli\u003e [h0, h1, h2, ...] -- relative strength of the partials\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "chebs2",
           "package": "csound-expression",
@@ -14196,6 +15453,7 @@
         "index": {
           "description": "Chebyshev polynomials of the second kind polys xl xr h0 h1 h2 where xl xr left and right values of the interval over wich polynomial is defined h0 h1 h2 relative strength of the partials",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "chebs2",
           "normalized": "Double-\u003eDouble-\u003e[Double]-\u003eTab",
@@ -14211,6 +15469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the same table size for all tables. \n\u003c/p\u003e\u003cpre\u003e coarseFi n\n\u003c/pre\u003e\u003cp\u003ewhere \u003ccode\u003en\u003c/code\u003e  is a degree of 2. For example, \u003ccode\u003en = 10\u003c/code\u003e sets size to 1024 points for all tables by default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "coarseFi",
           "package": "csound-expression",
@@ -14220,6 +15479,7 @@
         "index": {
           "description": "Sets the same table size for all tables coarseFi where is degree of For example sets size to points for all tables by default",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "coarseFi",
           "normalized": "Int-\u003eTabFi",
@@ -14236,6 +15496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant segments (sample and hold).\n\u003c/p\u003e\u003cpre\u003e consts [a, n1, b, n2, c, ...]\n\u003c/pre\u003e\u003cp\u003ewhere\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e a, b, c .. - are ordinate values\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003en1, n2, ...\u003c/code\u003e  are lengths of the segments relative to the total number of the points in the table\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "consts",
           "package": "csound-expression",
@@ -14246,6 +15507,7 @@
         "index": {
           "description": "Constant segments sample and hold consts n1 n2 where are ordinate values n1 n2 are lengths of the segments relative to the total number of the points in the table",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "consts",
           "normalized": "[Double]-\u003eTab",
@@ -14261,6 +15523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable for pure cosine wave.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "cosine",
           "package": "csound-expression",
@@ -14271,6 +15534,7 @@
         "index": {
           "description": "Table for pure cosine wave",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "cosine",
           "package": "csound-expression",
@@ -14284,6 +15548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegments of cubic polynomials. \n\u003c/p\u003e\u003cpre\u003e cubes [a, n1, b, n2, c, ...]\n\u003c/pre\u003e\u003cp\u003ewhere\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e a, b, c .. - are ordinate values\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003en1, n2, ...\u003c/code\u003e  are lengths of the segments relative to the total number of the points in the table\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "cubes",
           "package": "csound-expression",
@@ -14294,6 +15559,7 @@
         "index": {
           "description": "Segments of cubic polynomials cubes n1 n2 where are ordinate values n1 n2 are lengths of the segments relative to the total number of the points in the table",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "cubes",
           "normalized": "[Double]-\u003eTab",
@@ -14309,6 +15575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable contains all provided values \n (table is extended to contain all values and to be of the power of 2 or the power of two plus one).\n (by default it skips normalization).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "doubles",
           "package": "csound-expression",
@@ -14319,6 +15586,7 @@
         "index": {
           "description": "Table contains all provided values table is extended to contain all values and to be of the power of or the power of two plus one by default it skips normalization",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "doubles",
           "normalized": "[Double]-\u003eTab",
@@ -14334,6 +15602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqually spaced constant segments.\n\u003c/p\u003e\u003cpre\u003e econsts [a, b, c, ...] \n\u003c/pre\u003e\u003cp\u003eis the same as\n\u003c/p\u003e\u003cpre\u003e consts [a, 1, b, 1, c, ...]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "econsts",
           "package": "csound-expression",
@@ -14344,6 +15613,7 @@
         "index": {
           "description": "Equally spaced constant segments econsts is the same as consts",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "econsts",
           "normalized": "[Double]-\u003eTab",
@@ -14359,6 +15629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqually spaced segments of cubic polynomials.\n\u003c/p\u003e\u003cpre\u003e ecubes [a, b, c, ...] \n\u003c/pre\u003e\u003cp\u003eis the same as\n\u003c/p\u003e\u003cpre\u003e cubes [a, 1, b, 1, c, ...]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "ecubes",
           "package": "csound-expression",
@@ -14369,6 +15640,7 @@
         "index": {
           "description": "Equally spaced segments of cubic polynomials ecubes is the same as cubes",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "ecubes",
           "normalized": "[Double]-\u003eTab",
@@ -14384,6 +15656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqually spaced segments of exponential curves.\n\u003c/p\u003e\u003cpre\u003e eexps [a, b, c, ...] \n\u003c/pre\u003e\u003cp\u003eis the same as\n\u003c/p\u003e\u003cpre\u003e exps [a, 1, b, 1, c, ...]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "eexps",
           "package": "csound-expression",
@@ -14394,6 +15667,7 @@
         "index": {
           "description": "Equally spaced segments of exponential curves eexps is the same as exps",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "eexps",
           "normalized": "[Double]-\u003eTab",
@@ -14409,6 +15683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqually spaced segments of straight lines.\n\u003c/p\u003e\u003cpre\u003e elins [a, b, c, ...] \n\u003c/pre\u003e\u003cp\u003eis the same as\n\u003c/p\u003e\u003cpre\u003e lins [a, 1, b, 1, c, ...]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "elins",
           "package": "csound-expression",
@@ -14419,6 +15694,7 @@
         "index": {
           "description": "Equally spaced segments of straight lines elins is the same as lins",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "elins",
           "normalized": "[Double]-\u003eTab",
@@ -14434,6 +15710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqually spaced spline curve.\n\u003c/p\u003e\u003cpre\u003e esplines [a, b, c, ...] \n\u003c/pre\u003e\u003cp\u003eis the same as\n\u003c/p\u003e\u003cpre\u003e splines [a, 1, b, 1, c, ...]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "esplines",
           "package": "csound-expression",
@@ -14444,6 +15721,7 @@
         "index": {
           "description": "Equally spaced spline curve esplines is the same as splines",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "esplines",
           "normalized": "[Double]-\u003eTab",
@@ -14459,6 +15737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqually spaced interpolation for the function \u003ccode\u003estartEnds\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e estartEnds [val1, type1, val2, typ2, ...]\n\u003c/pre\u003e\u003cp\u003eis the same as\n\u003c/p\u003e\u003cpre\u003e estartEnds [val1, 1, type1, val2, 1, type2, ...]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "estartEnds",
           "package": "csound-expression",
@@ -14469,6 +15748,7 @@
         "index": {
           "description": "Equally spaced interpolation for the function startEnds estartEnds val1 type1 val2 typ2 is the same as estartEnds val1 type1 val2 type2",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "estartEnds",
           "normalized": "[Double]-\u003eTab",
@@ -14485,6 +15765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegments of the exponential curves.\n\u003c/p\u003e\u003cpre\u003e exps [a, n1, b, n2, c, ...]\n\u003c/pre\u003e\u003cp\u003ewhere \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ea, b, c, ...\u003c/code\u003e are ordinate values\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003en1, n2, ...\u003c/code\u003e  are lengths of the segments relative to the total number of the points in the table\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "exps",
           "package": "csound-expression",
@@ -14495,6 +15776,7 @@
         "index": {
           "description": "Segments of the exponential curves exps n1 n2 where are ordinate values n1 n2 are lengths of the segments relative to the total number of the points in the table",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "exps",
           "normalized": "[Double]-\u003eTab",
@@ -14510,6 +15792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets different table size for different GEN-routines. \n\u003c/p\u003e\u003cpre\u003e fineFi n ps \n\u003c/pre\u003e\u003cp\u003ewhere \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003en\u003c/code\u003e is the default value for table size (size is a \u003ccode\u003en\u003c/code\u003e power of 2) for all gen routines that are not listed in the next argument \u003ccode\u003eps\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eps\u003c/code\u003e is a list of pairs \u003ccode\u003e(genRoutineId, tableSizeDegreeOf2)\u003c/code\u003e that sets the given table size for a \n   given GEN-routine.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003ewith this function we can set lower table sizes for tables that are usually used in the envelopes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "fineFi",
           "package": "csound-expression",
@@ -14519,6 +15802,7 @@
         "index": {
           "description": "Sets different table size for different GEN-routines fineFi ps where is the default value for table size size is power of for all gen routines that are not listed in the next argument ps ps is list of pairs genRoutineId tableSizeDegreeOf2 that sets the given table size for given GEN-routine with this function we can set lower table sizes for tables that are usually used in the envelopes",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "fineFi",
           "normalized": "Int-\u003e[(Int,Int)]-\u003eTabFi",
@@ -14535,6 +15819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce normalization (sets table size to positive value).\n Might be useful to restore normalization for table \u003ccode\u003e\u003ca\u003edoubles\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "forceNorm",
           "package": "csound-expression",
@@ -14544,6 +15829,7 @@
         "index": {
           "description": "Force normalization sets table size to positive value Might be useful to restore normalization for table doubles",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "forceNorm",
           "normalized": "Tab-\u003eTab",
@@ -14560,6 +15846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a table of doubles (It's f-table in Csound).\n Arguments are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e identificator of the GEN routine\n\u003c/li\u003e\u003cli\u003e GEN routine arguments\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAll tables are created at 0 and memory is never released.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "gen",
           "package": "csound-expression",
@@ -14570,6 +15857,7 @@
         "index": {
           "description": "Creates table of doubles It f-table in Csound Arguments are identificator of the GEN routine GEN routine arguments All tables are created at and memory is never released",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "gen",
           "normalized": "Int-\u003e[Double]-\u003eTab",
@@ -14585,6 +15873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut for \u003ccode\u003e\u003ca\u003eguardPoint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "gp",
           "package": "csound-expression",
@@ -14595,6 +15884,7 @@
         "index": {
           "description": "Shortcut for guardPoint",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "gp",
           "normalized": "Tab-\u003eTab",
@@ -14610,6 +15900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds guard point to the table size (details of the interpolation schemes: you do need guard point if your intention is to read the \n table once but you don't need the guard point if you read table in many cycles, the guard point is the the first point of your table).  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "guardPoint",
           "package": "csound-expression",
@@ -14620,6 +15911,7 @@
         "index": {
           "description": "Adds guard point to the table size details of the interpolation schemes you do need guard point if your intention is to read the table once but you don need the guard point if you read table in many cycles the guard point is the the first point of your table",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "guardPoint",
           "normalized": "Tab-\u003eTab",
@@ -14636,6 +15928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets degrees from -3 to 3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "hhhifi",
           "package": "csound-expression",
@@ -14646,6 +15939,7 @@
         "index": {
           "description": "Sets degrees from to",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "hhhifi",
           "normalized": "Tab-\u003eTab",
@@ -14661,6 +15955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets degrees from -3 to 3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "hhifi",
           "package": "csound-expression",
@@ -14671,6 +15966,7 @@
         "index": {
           "description": "Sets degrees from to",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "hhifi",
           "normalized": "Tab-\u003eTab",
@@ -14686,6 +15982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets degrees from -3 to 3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "hifi",
           "package": "csound-expression",
@@ -14696,6 +15993,7 @@
         "index": {
           "description": "Sets degrees from to",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "hifi",
           "normalized": "Tab-\u003eTab",
@@ -14710,6 +16008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idBessels",
           "package": "csound-expression",
@@ -14718,6 +16017,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idBessels",
           "package": "csound-expression",
@@ -14731,6 +16031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idBuzzes",
           "package": "csound-expression",
@@ -14739,6 +16040,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idBuzzes",
           "package": "csound-expression",
@@ -14752,6 +16054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idChebs1",
           "package": "csound-expression",
@@ -14760,6 +16063,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idChebs1",
           "package": "csound-expression",
@@ -14773,6 +16077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idChebs2",
           "package": "csound-expression",
@@ -14781,6 +16086,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idChebs2",
           "package": "csound-expression",
@@ -14794,6 +16100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idConsts",
           "package": "csound-expression",
@@ -14802,6 +16109,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idConsts",
           "package": "csound-expression",
@@ -14815,6 +16123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idCubes",
           "package": "csound-expression",
@@ -14823,6 +16132,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idCubes",
           "package": "csound-expression",
@@ -14836,6 +16146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idDoubles",
           "package": "csound-expression",
@@ -14844,6 +16155,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idDoubles",
           "package": "csound-expression",
@@ -14857,6 +16169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idExps",
           "package": "csound-expression",
@@ -14865,6 +16178,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idExps",
           "package": "csound-expression",
@@ -14878,6 +16192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idLins",
           "package": "csound-expression",
@@ -14886,6 +16201,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idLins",
           "package": "csound-expression",
@@ -14899,6 +16215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idMp3s",
           "package": "csound-expression",
@@ -14907,6 +16224,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idMp3s",
           "package": "csound-expression",
@@ -14920,6 +16238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idPartials",
           "package": "csound-expression",
@@ -14928,6 +16247,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idPartials",
           "package": "csound-expression",
@@ -14941,6 +16261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idPolys",
           "package": "csound-expression",
@@ -14949,6 +16270,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idPolys",
           "package": "csound-expression",
@@ -14962,6 +16284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idSines",
           "package": "csound-expression",
@@ -14970,6 +16293,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idSines",
           "package": "csound-expression",
@@ -14983,6 +16307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idSines2",
           "package": "csound-expression",
@@ -14991,6 +16316,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idSines2",
           "package": "csound-expression",
@@ -15004,6 +16330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idSines3",
           "package": "csound-expression",
@@ -15012,6 +16339,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idSines3",
           "package": "csound-expression",
@@ -15025,6 +16353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idSines4",
           "package": "csound-expression",
@@ -15033,6 +16362,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idSines4",
           "package": "csound-expression",
@@ -15046,6 +16376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idSplines",
           "package": "csound-expression",
@@ -15054,6 +16385,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idSplines",
           "package": "csound-expression",
@@ -15067,6 +16399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idStartEnds",
           "package": "csound-expression",
@@ -15075,6 +16408,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idStartEnds",
           "package": "csound-expression",
@@ -15088,6 +16422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idWavs",
           "package": "csound-expression",
@@ -15096,6 +16431,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idWavs",
           "package": "csound-expression",
@@ -15109,6 +16445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "idWins",
           "package": "csound-expression",
@@ -15117,6 +16454,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "idWins",
           "package": "csound-expression",
@@ -15131,6 +16469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegments of straight lines. \n\u003c/p\u003e\u003cpre\u003e lins [a, n1, b, n2, c, ...]\n\u003c/pre\u003e\u003cp\u003ewhere\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e a, b, c .. - are ordinate values\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003en1, n2, ...\u003c/code\u003e  are lengths of the segments relative to the total number of the points in the table\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "lins",
           "package": "csound-expression",
@@ -15141,6 +16480,7 @@
         "index": {
           "description": "Segments of straight lines lins n1 n2 where are ordinate values n1 n2 are lengths of the segments relative to the total number of the points in the table",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "lins",
           "normalized": "[Double]-\u003eTab",
@@ -15156,6 +16496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets degrees from -3 to 3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "lllofi",
           "package": "csound-expression",
@@ -15166,6 +16507,7 @@
         "index": {
           "description": "Sets degrees from to",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "lllofi",
           "normalized": "Tab-\u003eTab",
@@ -15181,6 +16523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets degrees from -3 to 3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "llofi",
           "package": "csound-expression",
@@ -15191,6 +16534,7 @@
         "index": {
           "description": "Sets degrees from to",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "llofi",
           "normalized": "Tab-\u003eTab",
@@ -15206,6 +16550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets degrees from -3 to 3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "lofi",
           "package": "csound-expression",
@@ -15216,6 +16561,7 @@
         "index": {
           "description": "Sets degrees from to",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "lofi",
           "normalized": "Tab-\u003eTab",
@@ -15231,6 +16577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets degrees from -3 to 3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "midfi",
           "package": "csound-expression",
@@ -15241,6 +16588,7 @@
         "index": {
           "description": "Sets degrees from to",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "midfi",
           "normalized": "Tab-\u003eTab",
@@ -15255,6 +16603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "mp3s",
           "package": "csound-expression",
@@ -15264,6 +16613,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "mp3s",
           "normalized": "String-\u003eDouble-\u003eTab",
@@ -15279,6 +16629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolynomials.\n\u003c/p\u003e\u003cpre\u003e polys xl xr [c0, c1, c2, ..]\n\u003c/pre\u003e\u003cp\u003ewhere\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e xl, xr - left and right values of the interval over wich polynomial is defined\n\u003c/li\u003e\u003cli\u003e [c0, c1, c2, ...] -- coefficients of the polynomial\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e c0 + c1 * x + c2 * x * x + ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "polys",
           "package": "csound-expression",
@@ -15289,6 +16640,7 @@
         "index": {
           "description": "Polynomials polys xl xr c0 c1 c2 where xl xr left and right values of the interval over wich polynomial is defined c0 c1 c2 coefficients of the polynomial c0 c1 c2",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "polys",
           "normalized": "Double-\u003eDouble-\u003e[Double]-\u003eTab",
@@ -15304,6 +16656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the relative size value. You can set the base value in the options \n (see \u003ccode\u003e\u003ca\u003etabResolution\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003eCsdOptions\u003c/a\u003e\u003c/code\u003e, with tabResolution you can easily change table sizes for all your tables).\n Here zero means the base value. 1 is the base value multiplied by 2, 2 is the base value multiplied by 4\n and so on. Negative values mean division by the specified degree. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "setDegree",
           "package": "csound-expression",
@@ -15314,6 +16667,7 @@
         "index": {
           "description": "Sets the relative size value You can set the base value in the options see tabResolution at CsdOptions with tabResolution you can easily change table sizes for all your tables Here zero means the base value is the base value multiplied by is the base value multiplied by and so on Negative values mean division by the specified degree",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "setDegree",
           "normalized": "Int-\u003eTab-\u003eTab",
@@ -15330,6 +16684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets an absolute size value. As you can do it in the Csound files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "setSize",
           "package": "csound-expression",
@@ -15340,6 +16695,7 @@
         "index": {
           "description": "Sets an absolute size value As you can do it in the Csound files",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "setSize",
           "normalized": "Int-\u003eTab-\u003eTab",
@@ -15356,6 +16712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable for sigmoid wave.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "sigmoid",
           "package": "csound-expression",
@@ -15366,6 +16723,7 @@
         "index": {
           "description": "Table for sigmoid wave",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "sigmoid",
           "package": "csound-expression",
@@ -15379,6 +16737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable for pure sine wave.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "sine",
           "package": "csound-expression",
@@ -15389,6 +16748,7 @@
         "index": {
           "description": "Table for pure sine wave",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "sine",
           "package": "csound-expression",
@@ -15402,6 +16762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeries of harmonic partials:\n\u003c/p\u003e\u003cpre\u003e sine = sines [1]\n\u003c/pre\u003e\u003cpre\u003e saw = sines $ fmap (1 / ) [1 .. 10]\n\u003c/pre\u003e\u003cpre\u003e square = sines $ fmap (1 / ) [1, 3 .. 11]\n\u003c/pre\u003e\u003cpre\u003e triangle = sines $ zipWith (\\a b -\u003e a / (b ** 2)) (cycle [1, -1]) [1, 3 .. 11]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "sines",
           "package": "csound-expression",
@@ -15412,6 +16773,7 @@
         "index": {
           "description": "Series of harmonic partials sine sines saw sines fmap square sines fmap triangle sines zipWith cycle",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "sines",
           "normalized": "[PartialStrength]-\u003eTab",
@@ -15427,6 +16789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust like \u003ccode\u003e\u003ca\u003esines2\u003c/a\u003e\u003c/code\u003e but partial strength is set to one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "sines1",
           "package": "csound-expression",
@@ -15437,6 +16800,7 @@
         "index": {
           "description": "Just like sines2 but partial strength is set to one",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "sines1",
           "normalized": "[PartialNumber]-\u003eTab",
@@ -15452,6 +16816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust like \u003ccode\u003e\u003ca\u003esines3\u003c/a\u003e\u003c/code\u003e but phases are set to zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "sines2",
           "package": "csound-expression",
@@ -15462,6 +16827,7 @@
         "index": {
           "description": "Just like sines3 but phases are set to zero",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "sines2",
           "normalized": "[(PartialNumber,PartialStrength)]-\u003eTab",
@@ -15477,6 +16843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies series of possibly inharmonic partials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "sines3",
           "package": "csound-expression",
@@ -15487,6 +16854,7 @@
         "index": {
           "description": "Specifies series of possibly inharmonic partials",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "sines3",
           "normalized": "[(PartialNumber,PartialStrength,PartialPhase)]-\u003eTab",
@@ -15502,6 +16870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies series of possibly inharmonic partials with direct current.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "sines4",
           "package": "csound-expression",
@@ -15512,6 +16881,7 @@
         "index": {
           "description": "Specifies series of possibly inharmonic partials with direct current",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "sines4",
           "normalized": "[(PartialNumber,PartialStrength,PartialPhase,PartialDC)]-\u003eTab",
@@ -15527,6 +16897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkips normalization (sets table size to negative value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "skipNorm",
           "package": "csound-expression",
@@ -15536,6 +16907,7 @@
         "index": {
           "description": "Skips normalization sets table size to negative value",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "skipNorm",
           "normalized": "Tab-\u003eTab",
@@ -15552,6 +16924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCubic spline curve.\n\u003c/p\u003e\u003cpre\u003e splines [a, n1, b, n2, c, ...]\n\u003c/pre\u003e\u003cp\u003ewhere\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e a, b, c .. - are ordinate values\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003en1, n2, ...\u003c/code\u003e  are lengths of the segments relative to the total number of the points in the table\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "splines",
           "package": "csound-expression",
@@ -15562,6 +16935,7 @@
         "index": {
           "description": "Cubic spline curve splines n1 n2 where are ordinate values n1 n2 are lengths of the segments relative to the total number of the points in the table",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "splines",
           "normalized": "[Double]-\u003eTab",
@@ -15577,6 +16951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a table from a starting value to an ending value.\n\u003c/p\u003e\u003cpre\u003e startEnds [val1, dur1, type1, val2, dur2, type2, val3, ... typeX, valN]\n\u003c/pre\u003e\u003cul\u003e\u003cli\u003e val1, val2 ... -- end points of the segments\n\u003c/li\u003e\u003cli\u003e dur1, dur2 ... -- durations of the segments\n\u003c/li\u003e\u003cli\u003e type1, type2 ... -- if 0, a straight line is produced. If non-zero, then it creates the following curve, for dur steps:\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e beg&#160;+&#160;(end&#160;-&#160;beg)&#160;*&#160;(1&#160;-&#160;exp(&#160;i*type))&#160;/&#160;(1&#160;-&#160;exp(\u003c/pre\u003e\u003cul\u003e\u003cli\u003e beg, end - end points of the segment\n\u003c/li\u003e\u003cli\u003e dur - duration of the segment\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "startEnds",
           "package": "csound-expression",
@@ -15587,6 +16962,7 @@
         "index": {
           "description": "Creates table from starting value to an ending value startEnds val1 dur1 type1 val2 dur2 type2 val3 typeX valN val1 val2 end points of the segments dur1 dur2 durations of the segments type1 type2 if straight line is produced If non-zero then it creates the following curve for dur steps beg end beg exp type exp beg end end points of the segment dur duration of the segment",
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "startEnds",
           "normalized": "[Double]-\u003eTab",
@@ -15602,6 +16978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "wavs",
           "package": "csound-expression",
@@ -15611,6 +16988,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "wavs",
           "normalized": "String-\u003eDouble-\u003eInt-\u003eTab",
@@ -15625,6 +17003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "winBartlett",
           "package": "csound-expression",
@@ -15634,6 +17013,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "winBartlett",
           "normalized": "[Double]-\u003eTab",
@@ -15649,6 +17029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "winBlackman",
           "package": "csound-expression",
@@ -15658,6 +17039,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "winBlackman",
           "normalized": "[Double]-\u003eTab",
@@ -15673,6 +17055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "winGaussian",
           "package": "csound-expression",
@@ -15682,6 +17065,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "winGaussian",
           "normalized": "[Double]-\u003eTab",
@@ -15697,6 +17081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "winHamming",
           "package": "csound-expression",
@@ -15706,6 +17091,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "winHamming",
           "normalized": "[Double]-\u003eTab",
@@ -15721,6 +17107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "winHanning",
           "package": "csound-expression",
@@ -15730,6 +17117,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "winHanning",
           "normalized": "[Double]-\u003eTab",
@@ -15745,6 +17133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "winHarris",
           "package": "csound-expression",
@@ -15754,6 +17143,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "winHarris",
           "normalized": "[Double]-\u003eTab",
@@ -15769,6 +17159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "winKaiser",
           "package": "csound-expression",
@@ -15778,6 +17169,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "winKaiser",
           "normalized": "[Double]-\u003eTab",
@@ -15793,6 +17185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "winRectangle",
           "package": "csound-expression",
@@ -15802,6 +17195,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "winRectangle",
           "normalized": "[Double]-\u003eTab",
@@ -15817,6 +17211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Tab",
           "name": "winSync",
           "package": "csound-expression",
@@ -15826,6 +17221,7 @@
         },
         "index": {
           "hierarchy": "Csound Tab",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Tab",
           "name": "winSync",
           "normalized": "[Double]-\u003eTab",
@@ -15842,6 +17238,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Csound types.\n\u003c/p\u003e\u003cp\u003eThere are several primitive types:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eSig\u003c/code\u003e - signals\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eD\u003c/code\u003e - numbers\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eStr\u003c/code\u003e - strings\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eTab\u003c/code\u003e - 1-dimensional arrays\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eSpec\u003c/code\u003e and \u003ccode\u003eWspec\u003c/code\u003e - sound spectrums\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eA signal is a stream of numbers. Signals carry sound or time varied \n  control values. Numbers are constants. 1-dimensional arrays contain some useful\n  data which is calculated at the initial run of the program.\n\u003c/p\u003e\u003cp\u003eThere is only one compound type. It's a tuple of Csound values. The empty tuple\n is signified with special type called \u003ccode\u003eUnit\u003c/code\u003e. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Types",
           "package": "csound-expression",
@@ -15851,6 +17248,7 @@
         "index": {
           "description": "The Csound types There are several primitive types Sig signals numbers Str strings Tab dimensional arrays Spec and Wspec sound spectrums signal is stream of numbers Signals carry sound or time varied control values Numbers are constants dimensional arrays contain some useful data which is calculated at the initial run of the program There is only one compound type It tuple of Csound values The empty tuple is signified with special type called Unit",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Types",
           "package": "csound-expression",
@@ -15864,6 +17262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Arg",
           "package": "csound-expression",
@@ -15871,6 +17270,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Arg",
           "package": "csound-expression",
@@ -15885,6 +17285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constant boolean value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "BoolD",
           "package": "csound-expression",
@@ -15893,6 +17294,7 @@
         "index": {
           "description": "constant boolean value",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "BoolD",
           "package": "csound-expression",
@@ -15907,6 +17309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal of booleans.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "BoolSig",
           "package": "csound-expression",
@@ -15915,6 +17318,7 @@
         "index": {
           "description": "signal of booleans",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "BoolSig",
           "package": "csound-expression",
@@ -15929,6 +17333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "D",
           "package": "csound-expression",
@@ -15937,6 +17342,7 @@
         "index": {
           "description": "Constant numbers",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "D",
           "package": "csound-expression",
@@ -15950,6 +17356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Sig",
           "package": "csound-expression",
@@ -15958,6 +17365,7 @@
         "index": {
           "description": "Signals",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Sig",
           "package": "csound-expression",
@@ -15971,6 +17379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Sig2",
           "package": "csound-expression",
@@ -15979,6 +17388,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Sig2",
           "package": "csound-expression",
@@ -15992,6 +17402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Sig4",
           "package": "csound-expression",
@@ -16000,6 +17411,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Sig4",
           "package": "csound-expression",
@@ -16013,6 +17425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Sig6",
           "package": "csound-expression",
@@ -16021,6 +17434,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Sig6",
           "package": "csound-expression",
@@ -16034,6 +17448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Sig8",
           "package": "csound-expression",
@@ -16042,6 +17457,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Sig8",
           "package": "csound-expression",
@@ -16055,6 +17471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "SigOrD",
           "package": "csound-expression",
@@ -16062,6 +17479,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "SigOrD",
           "package": "csound-expression",
@@ -16076,6 +17494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tuples of signals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Sigs",
           "package": "csound-expression",
@@ -16084,6 +17503,7 @@
         "index": {
           "description": "The tuples of signals",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Sigs",
           "package": "csound-expression",
@@ -16098,6 +17518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpectrum. It's \u003ccode\u003efsig\u003c/code\u003e in the Csound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Spec",
           "package": "csound-expression",
@@ -16106,6 +17527,7 @@
         "index": {
           "description": "Spectrum It fsig in the Csound",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Spec",
           "package": "csound-expression",
@@ -16120,6 +17542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Str",
           "package": "csound-expression",
@@ -16128,6 +17551,7 @@
         "index": {
           "description": "Strings",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Str",
           "package": "csound-expression",
@@ -16142,6 +17566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTables (or arrays)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Tab",
           "package": "csound-expression",
@@ -16150,6 +17575,7 @@
         "index": {
           "description": "Tables or arrays",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Tab",
           "package": "csound-expression",
@@ -16164,6 +17590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tuple of Csound values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Tuple",
           "package": "csound-expression",
@@ -16172,6 +17599,7 @@
         "index": {
           "description": "tuple of Csound values",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Tuple",
           "package": "csound-expression",
@@ -16186,6 +17614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCsound's empty tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Unit",
           "package": "csound-expression",
@@ -16194,6 +17623,7 @@
         "index": {
           "description": "Csound empty tuple",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Unit",
           "package": "csound-expression",
@@ -16208,6 +17638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains all Csound values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Val",
           "package": "csound-expression",
@@ -16216,6 +17647,7 @@
         "index": {
           "description": "Contains all Csound values",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Val",
           "package": "csound-expression",
@@ -16230,6 +17662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnother type for spectrum. It's \u003ccode\u003ewsig\u003c/code\u003e in the Csound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "Wspec",
           "package": "csound-expression",
@@ -16238,6 +17671,7 @@
         "index": {
           "description": "Another type for spectrum It wsig in the Csound",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "Wspec",
           "package": "csound-expression",
@@ -16252,6 +17686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a rate of the signal to audio rate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "ar",
           "package": "csound-expression",
@@ -16261,6 +17696,7 @@
         "index": {
           "description": "Sets rate of the signal to audio rate",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "ar",
           "normalized": "Sig-\u003eSig",
@@ -16275,6 +17711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "ar1",
           "package": "csound-expression",
@@ -16283,6 +17720,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "ar1",
           "normalized": "Sig-\u003eSig",
@@ -16297,6 +17735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "ar2",
           "package": "csound-expression",
@@ -16305,6 +17744,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "ar2",
           "normalized": "(Sig,Sig)-\u003e(Sig,Sig)",
@@ -16319,6 +17759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "ar4",
           "package": "csound-expression",
@@ -16327,6 +17768,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "ar4",
           "normalized": "(Sig,Sig,Sig,Sig)-\u003e(Sig,Sig,Sig,Sig)",
@@ -16341,6 +17783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "ar6",
           "package": "csound-expression",
@@ -16349,6 +17792,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "ar6",
           "normalized": "(Sig,Sig,Sig,Sig,Sig,Sig)-\u003e(Sig,Sig,Sig,Sig,Sig,Sig)",
@@ -16363,6 +17807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "ar8",
           "package": "csound-expression",
@@ -16371,6 +17816,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "ar8",
           "normalized": "(Sig,Sig,Sig,Sig,Sig,Sig,Sig,Sig)-\u003e(Sig,Sig,Sig,Sig,Sig,Sig,Sig,Sig)",
@@ -16386,6 +17832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a constant boolean signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "boolSig",
           "package": "csound-expression",
@@ -16395,6 +17842,7 @@
         "index": {
           "description": "Creates constant boolean signal",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "boolSig",
           "normalized": "BoolD-\u003eBoolSig",
@@ -16411,6 +17859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecaseB\u003c/code\u003e for constants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "caseArg",
           "package": "csound-expression",
@@ -16420,6 +17869,7 @@
         "index": {
           "description": "caseB for constants",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "caseArg",
           "normalized": "a-\u003e[(a-\u003eBoolD,b)]-\u003eb-\u003eb",
@@ -16436,6 +17886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecaseB\u003c/code\u003e for tuples of csound values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "caseTuple",
           "package": "csound-expression",
@@ -16445,6 +17896,7 @@
         "index": {
           "description": "caseB for tuples of csound values",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "caseTuple",
           "normalized": "a-\u003e[(a-\u003eBoolSig,b)]-\u003eb-\u003eb",
@@ -16460,6 +17912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "ceil'",
           "package": "csound-expression",
@@ -16468,6 +17921,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "ceil'",
           "normalized": "a-\u003ea",
@@ -16482,6 +17936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "div'",
           "package": "csound-expression",
@@ -16490,6 +17945,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "div'",
           "normalized": "a-\u003ea-\u003ea",
@@ -16505,6 +17961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "double",
           "package": "csound-expression",
@@ -16514,6 +17971,7 @@
         "index": {
           "description": "Constructs number",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "double",
           "normalized": "Double-\u003eD",
@@ -16528,6 +17986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "floor'",
           "package": "csound-expression",
@@ -16536,6 +17995,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "floor'",
           "normalized": "a-\u003ea",
@@ -16550,6 +18010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "frac'",
           "package": "csound-expression",
@@ -16558,6 +18019,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "frac'",
           "normalized": "a-\u003ea",
@@ -16572,6 +18034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "fromE",
           "package": "csound-expression",
@@ -16580,6 +18043,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "fromE",
           "normalized": "E-\u003ea",
@@ -16594,6 +18058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "fromGE",
           "package": "csound-expression",
@@ -16602,6 +18067,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "fromGE",
           "normalized": "GE E-\u003ea",
@@ -16617,6 +18083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "getBlockSize",
           "package": "csound-expression",
@@ -16625,6 +18092,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "getBlockSize",
           "package": "csound-expression",
@@ -16638,6 +18106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "getControlRate",
           "package": "csound-expression",
@@ -16646,6 +18115,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "getControlRate",
           "package": "csound-expression",
@@ -16659,6 +18129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "getSampleRate",
           "package": "csound-expression",
@@ -16667,6 +18138,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "getSampleRate",
           "package": "csound-expression",
@@ -16681,6 +18153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eguardedB\u003c/code\u003e for constants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "guardedArg",
           "package": "csound-expression",
@@ -16690,6 +18163,7 @@
         "index": {
           "description": "guardedB for constants",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "guardedArg",
           "normalized": "[(BoolD,a)]-\u003ea-\u003ea",
@@ -16706,6 +18180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eguardedB\u003c/code\u003e for tuples of csound values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "guardedTuple",
           "package": "csound-expression",
@@ -16715,6 +18190,7 @@
         "index": {
           "description": "guardedB for tuples of csound values",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "guardedTuple",
           "normalized": "[(BoolSig,a)]-\u003ea-\u003ea",
@@ -16731,6 +18207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuerries a total duration of the note. It's equivallent to Csound's \u003ccode\u003ep3\u003c/code\u003e field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "idur",
           "package": "csound-expression",
@@ -16740,6 +18217,7 @@
         "index": {
           "description": "Querries total duration of the note It equivallent to Csound p3 field",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "idur",
           "package": "csound-expression",
@@ -16753,6 +18231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eifB\u003c/code\u003e for constants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "ifArg",
           "package": "csound-expression",
@@ -16762,6 +18241,7 @@
         "index": {
           "description": "ifB for constants",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "ifArg",
           "normalized": "BoolD-\u003ea-\u003ea-\u003ea",
@@ -16778,6 +18258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eifB\u003c/code\u003e for tuples of csound values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "ifTuple",
           "package": "csound-expression",
@@ -16787,6 +18268,7 @@
         "index": {
           "description": "ifB for tuples of csound values",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "ifTuple",
           "normalized": "BoolSig-\u003ea-\u003ea-\u003ea",
@@ -16803,6 +18285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "int",
           "package": "csound-expression",
@@ -16812,6 +18295,7 @@
         "index": {
           "description": "Constructs an integer",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "int",
           "normalized": "Int-\u003eD",
@@ -16826,6 +18310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "int'",
           "package": "csound-expression",
@@ -16834,6 +18319,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "int'",
           "normalized": "a-\u003ea",
@@ -16849,6 +18335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a signal to the number (initial value of the signal).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "ir",
           "package": "csound-expression",
@@ -16858,6 +18345,7 @@
         "index": {
           "description": "Converts signal to the number initial value of the signal",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "ir",
           "normalized": "Sig-\u003eD",
@@ -16873,6 +18361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a rate of the signal to control rate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "kr",
           "package": "csound-expression",
@@ -16882,6 +18371,7 @@
         "index": {
           "description": "Sets rate of the signal to control rate",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "kr",
           "normalized": "Sig-\u003eSig",
@@ -16897,6 +18387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines instance of type class \u003ccode\u003e\u003ca\u003eTuple\u003c/a\u003e\u003c/code\u003e for a new type in terms of an already defined one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "makeTupleMethods",
           "package": "csound-expression",
@@ -16906,6 +18397,7 @@
         "index": {
           "description": "Defines instance of type class Tuple for new type in terms of an already defined one",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "makeTupleMethods",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eTupleMethods b",
@@ -16921,6 +18413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "mod'",
           "package": "csound-expression",
@@ -16929,6 +18422,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "mod'",
           "normalized": "a-\u003ea-\u003ea",
@@ -16943,6 +18437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "quot'",
           "package": "csound-expression",
@@ -16951,6 +18446,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "quot'",
           "normalized": "a-\u003ea-\u003ea",
@@ -16965,6 +18461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "rem'",
           "package": "csound-expression",
@@ -16973,6 +18470,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "rem'",
           "normalized": "a-\u003ea-\u003ea",
@@ -16987,6 +18485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "round'",
           "package": "csound-expression",
@@ -16995,6 +18494,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "round'",
           "normalized": "a-\u003ea",
@@ -17010,6 +18510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a constant signal from the number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "sig",
           "package": "csound-expression",
@@ -17019,6 +18520,7 @@
         "index": {
           "description": "Makes constant signal from the number",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "sig",
           "normalized": "D-\u003eSig",
@@ -17034,6 +18536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "text",
           "package": "csound-expression",
@@ -17043,6 +18546,7 @@
         "index": {
           "description": "Constructs string",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "text",
           "normalized": "String-\u003eStr",
@@ -17057,6 +18561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "toGE",
           "package": "csound-expression",
@@ -17065,6 +18570,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "toGE",
           "normalized": "a-\u003eGE E",
@@ -17080,6 +18586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "tupleMethods",
           "package": "csound-expression",
@@ -17088,6 +18595,7 @@
         },
         "index": {
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "tupleMethods",
           "package": "csound-expression",
@@ -17102,6 +18610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs Csound's empty tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "unit",
           "package": "csound-expression",
@@ -17111,6 +18620,7 @@
         "index": {
           "description": "Constructs Csound empty tuple",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "unit",
           "package": "csound-expression",
@@ -17124,6 +18634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvokes the given procedure if the boolean signal is true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "when1",
           "package": "csound-expression",
@@ -17133,6 +18644,7 @@
         "index": {
           "description": "Invokes the given procedure if the boolean signal is true",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "when1",
           "normalized": "BoolSig-\u003eSE()-\u003eSE()",
@@ -17148,6 +18660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe chain of \u003ccode\u003ewhen1\u003c/code\u003es. Tests all the conditions in sequence\n if everything is false it invokes the procedure given in the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "whens",
           "package": "csound-expression",
@@ -17157,6 +18670,7 @@
         "index": {
           "description": "The chain of when1 Tests all the conditions in sequence if everything is false it invokes the procedure given in the second argument",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "whens",
           "normalized": "[(BoolSig,SE())]-\u003eSE()-\u003eSE()",
@@ -17172,6 +18686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends an init value which is a number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "withD",
           "package": "csound-expression",
@@ -17181,6 +18696,7 @@
         "index": {
           "description": "Appends an init value which is number",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "withD",
           "normalized": "a-\u003eD-\u003ea",
@@ -17196,6 +18712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special case of \u003ccode\u003ewithInits\u003c/code\u003e. Here all inits are numbers. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "withDs",
           "package": "csound-expression",
@@ -17205,6 +18722,7 @@
         "index": {
           "description": "special case of withInits Here all inits are numbers",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "withDs",
           "normalized": "a-\u003e[D]-\u003ea",
@@ -17221,6 +18739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends initialisation arguments. It's up to user to supply arguments with the right types. For example:\n\u003c/p\u003e\u003cpre\u003e oscil 0.5 440 sinWave `withInits` (0.5 :: D)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "withInits",
           "package": "csound-expression",
@@ -17230,6 +18749,7 @@
         "index": {
           "description": "Appends initialisation arguments It up to user to supply arguments with the right types For example oscil sinWave withInits",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "withInits",
           "normalized": "a-\u003eb-\u003ea",
@@ -17246,6 +18766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a seed to the random value. \n It's equivalent to the \u003ccode\u003ewithD\u003c/code\u003e but it has a special \n meaning of canceling the side effect. When random\n opcode is provided with seed value it's no longer\n contains a side effect so we don't need to restrict it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "withSeed",
           "package": "csound-expression",
@@ -17255,6 +18776,7 @@
         "index": {
           "description": "Applies seed to the random value It equivalent to the withD but it has special meaning of canceling the side effect When random opcode is provided with seed value it no longer contains side effect so we don need to restrict it",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "withSeed",
           "normalized": "SE Sig-\u003eD-\u003eSig",
@@ -17271,6 +18793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends an init value which is a signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "withSig",
           "package": "csound-expression",
@@ -17280,6 +18803,7 @@
         "index": {
           "description": "Appends an init value which is signal",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "withSig",
           "normalized": "a-\u003eSig-\u003ea",
@@ -17296,6 +18820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special case of \u003ccode\u003ewithInits\u003c/code\u003e. Here all inits are signals. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "withSigs",
           "package": "csound-expression",
@@ -17305,6 +18830,7 @@
         "index": {
           "description": "special case of withInits Here all inits are signals",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "withSigs",
           "normalized": "a-\u003e[Sig]-\u003ea",
@@ -17321,6 +18847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends an init value which is a table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "withTab",
           "package": "csound-expression",
@@ -17330,6 +18857,7 @@
         "index": {
           "description": "Appends an init value which is table",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "withTab",
           "normalized": "a-\u003eTab-\u003ea",
@@ -17346,6 +18874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special case of \u003ccode\u003ewithInits\u003c/code\u003e. Here all inits are arrays. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:28 UTC 2014",
           "module": "Csound.Types",
           "name": "withTabs",
           "package": "csound-expression",
@@ -17355,6 +18884,7 @@
         "index": {
           "description": "special case of withInits Here all inits are arrays",
           "hierarchy": "Csound Types",
+          "indexed": "2014-03-11T17:44:28",
           "module": "Csound.Types",
           "name": "withTabs",
           "normalized": "a-\u003e[Tab]-\u003ea",

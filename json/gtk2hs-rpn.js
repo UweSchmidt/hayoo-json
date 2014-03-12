@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtk2hs-rpn"
+        "phrase": "gtk2hs-rpn",
+        "type": "phrase"
       },
       "type": "context"
     }

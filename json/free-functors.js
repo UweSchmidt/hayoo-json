@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "free-functors"
+        "phrase": "free-functors",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA cofree functor is right adjoint to a forgetful functor.\n In this package the forgetful functor forgets class constraints.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "Cofree",
           "package": "free-functors",
@@ -28,6 +29,7 @@
         "index": {
           "description": "cofree functor is right adjoint to forgetful functor In this package the forgetful functor forgets class constraints",
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "Cofree",
           "package": "free-functors",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cofree functor for constraint \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "Cofree",
           "package": "free-functors",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The cofree functor for constraint",
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "Cofree",
           "package": "free-functors",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "Product",
           "package": "free-functors",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "Product",
           "package": "free-functors",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "TerminalObject",
           "package": "free-functors",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "TerminalObject",
           "package": "free-functors",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "Cofree",
           "package": "free-functors",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "Cofree",
           "normalized": "(a-\u003eb)-\u003ea-\u003eCofree c b",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "convert",
           "package": "free-functors",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "convert",
           "normalized": "a b-\u003eCofree c b",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "counit",
           "package": "free-functors",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "counit",
           "normalized": "Cofree a b-\u003eb",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "leftAdjunct",
           "package": "free-functors",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "leftAdjunct",
           "normalized": "(a-\u003eb)-\u003ea-\u003eCofree c b",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "leftAdjunctF",
           "package": "free-functors",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "leftAdjunctF",
           "normalized": "(a b-\u003ec)-\u003ea b-\u003eCofree d c",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "outL",
           "package": "free-functors",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "outL",
           "normalized": "Product a b c-\u003eb",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "outR",
           "package": "free-functors",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "outR",
           "normalized": "Product a b c-\u003ec",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "product",
           "package": "free-functors",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "product",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ec)-\u003ea-\u003eProduct d b c",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003erightAdjunct f = counit . f\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "rightAdjunct",
           "package": "free-functors",
@@ -304,6 +329,7 @@
         "index": {
           "description": "rightAdjunct counit",
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "rightAdjunct",
           "normalized": "(a-\u003eCofree b c)-\u003ea-\u003ec",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "terminal",
           "package": "free-functors",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "terminal",
           "normalized": "a-\u003eTerminalObject b",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eunit = leftAdjunct id\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Cofree",
           "name": "unit",
           "package": "free-functors",
@@ -353,6 +382,7 @@
         "index": {
           "description": "unit leftAdjunct id",
           "hierarchy": "Data Functor Cofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Cofree",
           "name": "unit",
           "normalized": "a-\u003eCofree b a",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA free functor is left adjoint to a forgetful functor.\n In this package the forgetful functor forgets class constraints.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "Free",
           "package": "free-functors",
@@ -377,6 +408,7 @@
         "index": {
           "description": "free functor is left adjoint to forgetful functor In this package the forgetful functor forgets class constraints",
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "Free",
           "package": "free-functors",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProducts of \u003ccode\u003eMonoid\u003c/code\u003es are \u003ccode\u003eMonoid\u003c/code\u003es themselves. But coproducts of \u003ccode\u003eMonoid\u003c/code\u003es are not. \n However, the free \u003ccode\u003eMonoid\u003c/code\u003e applied to the coproduct \u003cem\u003eis\u003c/em\u003e a \u003ccode\u003eMonoid\u003c/code\u003e, and it is the coproduct in the category of \u003ccode\u003eMonoid\u003c/code\u003es.\n This is also called the free product, and generalizes to any algebraic class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "Coproduct",
           "package": "free-functors",
@@ -400,6 +433,7 @@
         "index": {
           "description": "Products of Monoid are Monoid themselves But coproducts of Monoid are not However the free Monoid applied to the coproduct is Monoid and it is the coproduct in the category of Monoid This is also called the free product and generalizes to any algebraic class",
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "Coproduct",
           "package": "free-functors",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe free functor for class \u003ccode\u003ec\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eFree c a\u003c/code\u003e is basically an expression tree with operations from class \u003ccode\u003ec\u003c/code\u003e \n   and variables/placeholders of type \u003ccode\u003ea\u003c/code\u003e, created with \u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e.\n   Monadic bind allows you to replace each of these variables with another sub-expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "Free",
           "package": "free-functors",
@@ -423,6 +458,7 @@
         "index": {
           "description": "The free functor for class Free is basically an expression tree with operations from class and variables placeholders of type created with unit Monadic bind allows you to replace each of these variables with another sub-expression",
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "Free",
           "package": "free-functors",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "InitialObject",
           "package": "free-functors",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "InitialObject",
           "package": "free-functors",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "Free",
           "package": "free-functors",
@@ -466,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "Free",
           "package": "free-functors",
@@ -480,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003econvert = rightAdjunct pure\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "convert",
           "package": "free-functors",
@@ -490,6 +531,7 @@
         "index": {
           "description": "convert rightAdjunct pure",
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "convert",
           "normalized": "Free a b-\u003ec b",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003econvertClosed = rightAdjunct absurd\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "convertClosed",
           "package": "free-functors",
@@ -515,6 +558,7 @@
         "index": {
           "description": "convertClosed rightAdjunct absurd",
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "convertClosed",
           "normalized": "Free a Void-\u003eb",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "coproduct",
           "package": "free-functors",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "coproduct",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003eCoproduct d a c-\u003eb",
@@ -554,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ecounit = rightAdjunct id\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "counit",
           "package": "free-functors",
@@ -564,6 +611,7 @@
         "index": {
           "description": "counit rightAdjunct id",
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "counit",
           "normalized": "Free a b-\u003eb",
@@ -579,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the instances of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFree\u003c/a\u003e\u003c/code\u003e c a\u003c/code\u003e for the class \u003ccode\u003ec\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example: \n\u003c/p\u003e\u003cpre\u003ederiveInstances ''Num\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "deriveInstances",
           "package": "free-functors",
@@ -589,6 +638,7 @@
         "index": {
           "description": "Derive the instances of Free for the class Show Foldable and Traversable For example deriveInstances Num",
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "deriveInstances",
           "normalized": "Name-\u003eQ[Dec]",
@@ -604,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "inL",
           "package": "free-functors",
@@ -613,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "inL",
           "normalized": "a-\u003eCoproduct b a c",
@@ -627,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "inR",
           "package": "free-functors",
@@ -636,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "inR",
           "normalized": "a-\u003eCoproduct b c a",
@@ -650,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "initial",
           "package": "free-functors",
@@ -659,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "initial",
           "normalized": "InitialObject a-\u003eb",
@@ -674,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eleftAdjunct f = f . unit\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "leftAdjunct",
           "package": "free-functors",
@@ -684,6 +741,7 @@
         "index": {
           "description": "leftAdjunct unit",
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "leftAdjunct",
           "normalized": "(Free a b-\u003ec)-\u003eb-\u003ec",
@@ -700,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erightAdjunct\u003c/a\u003e\u003c/code\u003e is the destructor of `Free c` values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "rightAdjunct",
           "package": "free-functors",
@@ -710,6 +769,7 @@
         "index": {
           "description": "rightAdjunct is the destructor of Free values",
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "rightAdjunct",
           "normalized": "(a-\u003eb)-\u003eFree c a-\u003eb",
@@ -725,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "rightAdjunctF",
           "package": "free-functors",
@@ -734,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "rightAdjunctF",
           "normalized": "(a-\u003eb c)-\u003eFree d a-\u003eb c",
@@ -749,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "rightAdjunctT",
           "package": "free-functors",
@@ -758,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "rightAdjunctT",
           "normalized": "(a-\u003eb c d)-\u003eFree e a-\u003eb c d",
@@ -773,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "runFree",
           "package": "free-functors",
@@ -782,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "runFree",
           "normalized": "(a-\u003eb)-\u003eb",
@@ -798,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003etransform f as = as \u003e\u003e= f unit\u003c/pre\u003e\u003cpre\u003etransform f . transform g = transform (g . f)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "transform",
           "package": "free-functors",
@@ -808,6 +875,7 @@
         "index": {
           "description": "transform as as unit transform transform transform",
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "transform",
           "normalized": "(a-\u003eb)-\u003ec-\u003eb)-\u003eFree d c-\u003eFree d a",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eunfold f = coproduct (unfold f) unit . f\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003einL\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003einR\u003c/a\u003e\u003c/code\u003e are useful here. For example, the following creates the list \u003ccode\u003e[1..10]\u003c/code\u003e as a \u003ccode\u003eFree Monoid\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003eunfold (b -\u003e if b == 0 then mempty else \u003ccode\u003e\u003ca\u003einL\u003c/a\u003e\u003c/code\u003e (b - 1) \u003c\u003e \u003ccode\u003e\u003ca\u003einR\u003c/a\u003e\u003c/code\u003e b) 10\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "unfold",
           "package": "free-functors",
@@ -833,6 +902,7 @@
         "index": {
           "description": "unfold coproduct unfold unit inL and inR are useful here For example the following creates the list as Free Monoid unfold if then mempty else inL inR",
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "unfold",
           "normalized": "(a-\u003eCoproduct b a c)-\u003ea-\u003eFree b c",
@@ -848,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e allows you to create `Free c` values, together with the operations from the class \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.Free",
           "name": "unit",
           "package": "free-functors",
@@ -858,6 +929,7 @@
         "index": {
           "description": "unit allows you to create Free values together with the operations from the class",
           "hierarchy": "Data Functor Free",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.Free",
           "name": "unit",
           "normalized": "a-\u003eFree b a",
@@ -873,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA cofree functor is right adjoint to a forgetful functor.\n In this package the forgetful functor forgets class constraints.\n\u003c/p\u003e\u003cp\u003eCompared to \u003ccode\u003eData.Functor.Cofree\u003c/code\u003e we're going up a level.\n These free functors go between categories of functors and the natural\n transformations between them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HCofree",
           "name": "HCofree",
           "package": "free-functors",
@@ -882,6 +955,7 @@
         "index": {
           "description": "cofree functor is right adjoint to forgetful functor In this package the forgetful functor forgets class constraints Compared to Data.Functor.Cofree we re going up level These free functors go between categories of functors and the natural transformations between them",
           "hierarchy": "Data Functor HCofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HCofree",
           "name": "HCofree",
           "package": "free-functors",
@@ -896,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNatural transformations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HCofree",
           "name": ":~\u003e",
           "package": "free-functors",
@@ -905,6 +980,7 @@
         "index": {
           "description": "Natural transformations",
           "hierarchy": "Data Functor HCofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HCofree",
           "name": ":~\u003e",
           "package": "free-functors",
@@ -918,6 +994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe higher order cofree functor for constraint \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HCofree",
           "name": "HCofree",
           "package": "free-functors",
@@ -927,6 +1004,7 @@
         "index": {
           "description": "The higher order cofree functor for constraint",
           "hierarchy": "Data Functor HCofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HCofree",
           "name": "HCofree",
           "package": "free-functors",
@@ -940,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HCofree",
           "name": "HCofree",
           "package": "free-functors",
@@ -949,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HCofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HCofree",
           "name": "HCofree",
           "normalized": "(a b)-\u003ea c-\u003eHCofree d b c",
@@ -964,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HCofree",
           "name": "coiter",
           "package": "free-functors",
@@ -973,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HCofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HCofree",
           "name": "coiter",
           "normalized": "(a b c-\u003ed c)-\u003ee-\u003eHCofree f d e",
@@ -987,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HCofree",
           "name": "convert",
           "package": "free-functors",
@@ -996,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HCofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HCofree",
           "name": "convert",
           "normalized": "a b c-\u003eHCofree d b c",
@@ -1010,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HCofree",
           "name": "counit",
           "package": "free-functors",
@@ -1019,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HCofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HCofree",
           "name": "counit",
           "package": "free-functors",
@@ -1031,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HCofree",
           "name": "hfmap",
           "package": "free-functors",
@@ -1040,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HCofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HCofree",
           "name": "hfmap",
           "normalized": "(a b)-\u003eHCofree c a HCofree c b",
@@ -1054,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HCofree",
           "name": "leftAdjunct",
           "package": "free-functors",
@@ -1063,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HCofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HCofree",
           "name": "leftAdjunct",
           "normalized": "(a b)-\u003ea HCofree c b",
@@ -1078,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HCofree",
           "name": "liftCofree",
           "package": "free-functors",
@@ -1087,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HCofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HCofree",
           "name": "liftCofree",
           "normalized": "a b-\u003eHCofree c a b",
@@ -1102,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HCofree",
           "name": "lowerCofree",
           "package": "free-functors",
@@ -1111,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HCofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HCofree",
           "name": "lowerCofree",
           "normalized": "HCofree a b c-\u003eb c",
@@ -1127,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003erightAdjunct f = counit . f\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HCofree",
           "name": "rightAdjunct",
           "package": "free-functors",
@@ -1137,6 +1232,7 @@
         "index": {
           "description": "rightAdjunct counit",
           "hierarchy": "Data Functor HCofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HCofree",
           "name": "rightAdjunct",
           "normalized": "(a HCofree b c)-\u003ea c",
@@ -1153,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eunit = leftAdjunct id\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HCofree",
           "name": "unit",
           "package": "free-functors",
@@ -1163,6 +1260,7 @@
         "index": {
           "description": "unit leftAdjunct id",
           "hierarchy": "Data Functor HCofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HCofree",
           "name": "unit",
           "package": "free-functors",
@@ -1175,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HCofree",
           "name": "unwrap",
           "package": "free-functors",
@@ -1184,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HCofree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HCofree",
           "name": "unwrap",
           "normalized": "HCofree Comonad a b-\u003ea(HCofree Comonad a b)",
@@ -1199,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA free functor is left adjoint to a forgetful functor.\n In this package the forgetful functor forgets class constraints.\n\u003c/p\u003e\u003cp\u003eCompared to \u003ccode\u003eData.Functor.Free\u003c/code\u003e we're going up a level.\n These free functors go between categories of functors and the natural\n transformations between them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": "HFree",
           "package": "free-functors",
@@ -1208,6 +1309,7 @@
         "index": {
           "description": "free functor is left adjoint to forgetful functor In this package the forgetful functor forgets class constraints Compared to Data.Functor.Free we re going up level These free functors go between categories of functors and the natural transformations between them",
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": "HFree",
           "package": "free-functors",
@@ -1222,6 +1324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNatural transformations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": ":~\u003e",
           "package": "free-functors",
@@ -1231,6 +1334,7 @@
         "index": {
           "description": "Natural transformations",
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": ":~\u003e",
           "package": "free-functors",
@@ -1244,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe higher order free functor for constraint \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": "HFree",
           "package": "free-functors",
@@ -1253,6 +1358,7 @@
         "index": {
           "description": "The higher order free functor for constraint",
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": "HFree",
           "package": "free-functors",
@@ -1266,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": "HFree",
           "package": "free-functors",
@@ -1275,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": "HFree",
           "package": "free-functors",
@@ -1288,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": "convert",
           "package": "free-functors",
@@ -1297,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": "convert",
           "normalized": "HFree a b c-\u003ed b c",
@@ -1312,6 +1422,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ecounit = rightAdjunct id\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": "counit",
           "package": "free-functors",
@@ -1322,6 +1433,7 @@
         "index": {
           "description": "counit rightAdjunct id",
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": "counit",
           "package": "free-functors",
@@ -1334,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": "hfmap",
           "package": "free-functors",
@@ -1343,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": "hfmap",
           "normalized": "(a b)-\u003eHFree c a HFree c b",
@@ -1357,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": "iter",
           "package": "free-functors",
@@ -1366,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": "iter",
           "normalized": "(a b c d-\u003ed)-\u003eHFree e c f-\u003ef",
@@ -1381,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eleftAdjunct f = f . unit\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": "leftAdjunct",
           "package": "free-functors",
@@ -1391,6 +1508,7 @@
         "index": {
           "description": "leftAdjunct unit",
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": "leftAdjunct",
           "normalized": "(HFree a b c)-\u003eb c",
@@ -1406,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": "liftFree",
           "package": "free-functors",
@@ -1415,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": "liftFree",
           "normalized": "a b-\u003eHFree c a b",
@@ -1430,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": "lowerFree",
           "package": "free-functors",
@@ -1439,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": "lowerFree",
           "normalized": "HFree a b c-\u003eb c",
@@ -1454,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": "rightAdjunct",
           "package": "free-functors",
@@ -1463,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": "rightAdjunct",
           "normalized": "(a b)-\u003eHFree c a b",
@@ -1478,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": "runHFree",
           "package": "free-functors",
@@ -1487,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": "runHFree",
           "normalized": "(a b)-\u003eb c",
@@ -1502,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": "unit",
           "package": "free-functors",
@@ -1511,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": "unit",
           "package": "free-functors",
@@ -1523,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:08 UTC 2014",
           "module": "Data.Functor.HFree",
           "name": "wrap",
           "package": "free-functors",
@@ -1532,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Data Functor HFree",
+          "indexed": "2014-03-11T18:12:08",
           "module": "Data.Functor.HFree",
           "name": "wrap",
           "normalized": "a(HFree Monad a b)-\u003eHFree Monad a b",

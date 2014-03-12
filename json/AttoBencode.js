@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AttoBencode"
+        "phrase": "AttoBencode",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode.Parser",
           "name": "Parser",
           "package": "AttoBencode",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data AttoBencode Parser",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode.Parser",
           "name": "Parser",
           "package": "AttoBencode",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for Bencode values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode.Parser",
           "name": "bValue",
           "package": "AttoBencode",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Parser for Bencode values",
           "hierarchy": "Data AttoBencode Parser",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode.Parser",
           "name": "bValue",
           "package": "AttoBencode",
@@ -89,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "AttoBencode",
           "package": "AttoBencode",
@@ -97,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "AttoBencode",
           "package": "AttoBencode",
@@ -111,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Haskell data type for Bencode values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "BValue",
           "package": "AttoBencode",
@@ -120,6 +127,7 @@
         "index": {
           "description": "The Haskell data type for Bencode values",
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "BValue",
           "package": "AttoBencode",
@@ -134,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Bencode dictionary. Dictionaries have \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e keys and \u003ccode\u003e\u003ca\u003eBValue\u003c/a\u003e\u003c/code\u003e\n   values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "Dict",
           "package": "AttoBencode",
@@ -143,6 +152,7 @@
         "index": {
           "description": "Bencode dictionary Dictionaries have ByteString keys and BValue values",
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "Dict",
           "package": "AttoBencode",
@@ -157,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted from a \u003ccode\u003e\u003ca\u003eBValue\u003c/a\u003e\u003c/code\u003e. The conversion can fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "FromBencode",
           "package": "AttoBencode",
@@ -166,6 +177,7 @@
         "index": {
           "description": "type that can be converted from BValue The conversion can fail",
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "FromBencode",
           "package": "AttoBencode",
@@ -180,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted to a \u003ccode\u003e\u003ca\u003eBValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "ToBencode",
           "package": "AttoBencode",
@@ -189,6 +202,7 @@
         "index": {
           "description": "type that can be converted to BValue",
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "ToBencode",
           "package": "AttoBencode",
@@ -203,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a (key, value) tuple from a ByteString key and some bencode-able\n   value. Can be used with the \u003ccode\u003e\u003ca\u003edict\u003c/a\u003e\u003c/code\u003e function as a convenient way to create\n   \u003ccode\u003e\u003ca\u003eBDict\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "(.=)",
           "package": "AttoBencode",
@@ -213,6 +228,7 @@
         "index": {
           "description": "Create key value tuple from ByteString key and some bencode-able value Can be used with the dict function as convenient way to create BDict",
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "(.=) .=",
           "normalized": "ByteString-\u003ea-\u003e(ByteString,BValue)",
@@ -228,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up the value corresponding to a (ByteString) key from a dictionary.\n   Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the key is not in the dictionary or if the \u003ccode\u003e\u003ca\u003eBValue\u003c/a\u003e\u003c/code\u003e\n   cannot be converted to the expected type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "(.:)",
           "package": "AttoBencode",
@@ -238,6 +255,7 @@
         "index": {
           "description": "Look up the value corresponding to ByteString key from dictionary Returns Nothing if the key is not in the dictionary or if the BValue cannot be converted to the expected type",
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "(.:) .:",
           "normalized": "Dict-\u003eByteString-\u003eMaybe a",
@@ -252,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "BDict",
           "package": "AttoBencode",
@@ -261,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "BDict",
           "package": "AttoBencode",
@@ -274,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "BInt",
           "package": "AttoBencode",
@@ -283,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "BInt",
           "package": "AttoBencode",
@@ -296,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "BList",
           "package": "AttoBencode",
@@ -305,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "BList",
           "normalized": "BList[BValue]",
@@ -320,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "BString",
           "package": "AttoBencode",
@@ -329,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "BString",
           "package": "AttoBencode",
@@ -343,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a BDict from a list of (key, value) tuples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "dict",
           "package": "AttoBencode",
@@ -353,6 +380,7 @@
         "index": {
           "description": "Make BDict from list of key value tuples",
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "dict",
           "normalized": "[(ByteString,BValue)]-\u003eBValue",
@@ -368,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialise a Bencode value to a (strict) ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "encode",
           "package": "AttoBencode",
@@ -378,6 +407,7 @@
         "index": {
           "description": "Serialise Bencode value to strict ByteString",
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "encode",
           "normalized": "a-\u003eByteString",
@@ -392,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "fromBencode",
           "package": "AttoBencode",
@@ -401,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "fromBencode",
           "normalized": "BValue-\u003eMaybe a",
@@ -416,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:40 UTC 2014",
           "module": "Data.AttoBencode",
           "name": "toBencode",
           "package": "AttoBencode",
@@ -425,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Data AttoBencode",
+          "indexed": "2014-03-11T16:33:40",
           "module": "Data.AttoBencode",
           "name": "toBencode",
           "normalized": "a-\u003eBValue",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cufft"
+        "phrase": "cufft",
+        "type": "phrase"
       },
       "type": "context"
     }

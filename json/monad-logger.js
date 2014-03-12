@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-logger"
+        "phrase": "monad-logger",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the facilities needed for a decoupled logging system.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonadLogger\u003c/a\u003e\u003c/code\u003e class is implemented by monads that give access to a\n logging facility.  If you're defining a custom monad, then you may define an\n instance of \u003ccode\u003e\u003ca\u003eMonadLogger\u003c/a\u003e\u003c/code\u003e that routes the log messages to the appropriate\n place (e.g., that's what \u003ccode\u003eyesod-core\u003c/code\u003e's \u003ccode\u003eGHandler\u003c/code\u003e does).  Otherwise, you\n may use the \u003ccode\u003e\u003ca\u003eLoggingT\u003c/a\u003e\u003c/code\u003e monad included in this module (see\n \u003ccode\u003e\u003ca\u003erunStderrLoggingT\u003c/a\u003e\u003c/code\u003e). To simply discard log message, use \u003ccode\u003e\u003ca\u003eNoLoggingT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAs a user of the logging facility, we provide you some convenient Template\n Haskell splices that use the \u003ccode\u003e\u003ca\u003eMonadLogger\u003c/a\u003e\u003c/code\u003e class.  They will record their\n source file and position, which is very helpful when debugging.  See\n \u003ccode\u003e\u003ca\u003elogDebug\u003c/a\u003e\u003c/code\u003e for more information.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "Logger",
           "package": "monad-logger",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides the facilities needed for decoupled logging system The MonadLogger class is implemented by monads that give access to logging facility If you re defining custom monad then you may define an instance of MonadLogger that routes the log messages to the appropriate place e.g that what yesod-core GHandler does Otherwise you may use the LoggingT monad included in this module see runStderrLoggingT To simply discard log message use NoLoggingT As user of the logging facility we provide you some convenient Template Haskell splices that use the MonadLogger class They will record their source file and position which is very helpful when debugging See logDebug for more information",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "Logger",
           "package": "monad-logger",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "Loc",
           "package": "monad-logger",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "Loc",
           "package": "monad-logger",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "LogLevel",
           "package": "monad-logger",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "LogLevel",
           "package": "monad-logger",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "LogSource",
           "package": "monad-logger",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "LogSource",
           "package": "monad-logger",
@@ -104,6 +112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad transformer that adds a new logging function.\n\u003c/p\u003e\u003cp\u003eSince 0.2.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "LoggingT",
           "package": "monad-logger",
@@ -113,6 +122,7 @@
         "index": {
           "description": "Monad transformer that adds new logging function Since",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "LoggingT",
           "package": "monad-logger",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "MonadLogger",
           "package": "monad-logger",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "MonadLogger",
           "package": "monad-logger",
@@ -148,6 +160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad transformer that disables logging.\n\u003c/p\u003e\u003cp\u003eSince 0.2.4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "NoLoggingT",
           "package": "monad-logger",
@@ -157,6 +170,7 @@
         "index": {
           "description": "Monad transformer that disables logging Since",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "NoLoggingT",
           "package": "monad-logger",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "LevelDebug",
           "package": "monad-logger",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "LevelDebug",
           "package": "monad-logger",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "LevelError",
           "package": "monad-logger",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "LevelError",
           "package": "monad-logger",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "LevelInfo",
           "package": "monad-logger",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "LevelInfo",
           "package": "monad-logger",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "LevelOther",
           "package": "monad-logger",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "LevelOther",
           "package": "monad-logger",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "LevelWarn",
           "package": "monad-logger",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "LevelWarn",
           "package": "monad-logger",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "LoggingT",
           "package": "monad-logger",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "LoggingT",
           "package": "monad-logger",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "NoLoggingT",
           "package": "monad-logger",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "NoLoggingT",
           "package": "monad-logger",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "defaultLogStr",
           "package": "monad-logger",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "defaultLogStr",
           "normalized": "Loc-\u003eLogSource-\u003eLogLevel-\u003eLogStr-\u003eLogStr",
@@ -349,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a location into an Exp.\n\u003c/p\u003e\u003cp\u003eSince 0.3.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "liftLoc",
           "package": "monad-logger",
@@ -359,6 +390,7 @@
         "index": {
           "description": "Lift location into an Exp Since",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "liftLoc",
           "normalized": "Loc-\u003eQ Exp",
@@ -375,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a function that takes a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e and logs a \u003ccode\u003e\u003ca\u003eLevelDebug\u003c/a\u003e\u003c/code\u003e message. Usage:\n\u003c/p\u003e\u003cpre\u003e $(logDebug) \"This is a debug log message\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logDebug",
           "package": "monad-logger",
@@ -385,6 +418,7 @@
         "index": {
           "description": "Generates function that takes Text and logs LevelDebug message Usage logDebug This is debug log message",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logDebug",
           "package": "monad-logger",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logDebugN",
           "package": "monad-logger",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logDebugN",
           "normalized": "Text-\u003ea()",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logDebugNS",
           "package": "monad-logger",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logDebugNS",
           "normalized": "Text-\u003eText-\u003ea()",
@@ -447,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a function that takes a \u003ccode\u003e\u003ca\u003eLogSource\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e and logs a \u003ccode\u003e\u003ca\u003eLevelDebug\u003c/a\u003e\u003c/code\u003e message. Usage:\n\u003c/p\u003e\u003cpre\u003e $logDebugS \"SomeSource\" \"This is a debug log message\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logDebugS",
           "package": "monad-logger",
@@ -457,6 +496,7 @@
         "index": {
           "description": "Generates function that takes LogSource and Text and logs LevelDebug message Usage logDebugS SomeSource This is debug log message",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logDebugS",
           "package": "monad-logger",
@@ -471,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003elogDebug\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logError",
           "package": "monad-logger",
@@ -481,6 +522,7 @@
         "index": {
           "description": "See logDebug",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logError",
           "package": "monad-logger",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logErrorN",
           "package": "monad-logger",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logErrorN",
           "normalized": "Text-\u003ea()",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logErrorNS",
           "package": "monad-logger",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logErrorNS",
           "normalized": "Text-\u003eText-\u003ea()",
@@ -543,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003elogDebugS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logErrorS",
           "package": "monad-logger",
@@ -553,6 +600,7 @@
         "index": {
           "description": "See logDebugS",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logErrorS",
           "package": "monad-logger",
@@ -567,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003elogDebug\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logInfo",
           "package": "monad-logger",
@@ -577,6 +626,7 @@
         "index": {
           "description": "See logDebug",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logInfo",
           "package": "monad-logger",
@@ -590,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logInfoN",
           "package": "monad-logger",
@@ -599,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logInfoN",
           "normalized": "Text-\u003ea()",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logInfoNS",
           "package": "monad-logger",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logInfoNS",
           "normalized": "Text-\u003eText-\u003ea()",
@@ -639,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003elogDebugS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logInfoS",
           "package": "monad-logger",
@@ -649,6 +704,7 @@
         "index": {
           "description": "See logDebugS",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logInfoS",
           "package": "monad-logger",
@@ -663,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a function that takes a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e and logs a \u003ccode\u003e\u003ca\u003eLevelOther\u003c/a\u003e\u003c/code\u003e message. Usage:\n\u003c/p\u003e\u003cpre\u003e $(logOther \"My new level\") \"This is a log message\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logOther",
           "package": "monad-logger",
@@ -673,6 +730,7 @@
         "index": {
           "description": "Generates function that takes Text and logs LevelOther message Usage logOther My new level This is log message",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logOther",
           "normalized": "Text-\u003eQ Exp",
@@ -688,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logOtherN",
           "package": "monad-logger",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logOtherN",
           "normalized": "LogLevel-\u003eText-\u003ea()",
@@ -712,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logOtherNS",
           "package": "monad-logger",
@@ -721,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logOtherNS",
           "normalized": "Text-\u003eLogLevel-\u003eText-\u003ea()",
@@ -737,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a function that takes a \u003ccode\u003e\u003ca\u003eLogSource\u003c/a\u003e\u003c/code\u003e, a level name and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e and logs a \u003ccode\u003e\u003ca\u003eLevelOther\u003c/a\u003e\u003c/code\u003e message. Usage:\n\u003c/p\u003e\u003cpre\u003e $logOtherS \"SomeSource\" \"My new level\" \"This is a log message\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logOtherS",
           "package": "monad-logger",
@@ -747,6 +810,7 @@
         "index": {
           "description": "Generates function that takes LogSource level name and Text and logs LevelOther message Usage logOtherS SomeSource My new level This is log message",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logOtherS",
           "package": "monad-logger",
@@ -761,6 +825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003elogDebug\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logWarn",
           "package": "monad-logger",
@@ -771,6 +836,7 @@
         "index": {
           "description": "See logDebug",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logWarn",
           "package": "monad-logger",
@@ -784,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logWarnN",
           "package": "monad-logger",
@@ -793,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logWarnN",
           "normalized": "Text-\u003ea()",
@@ -808,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logWarnNS",
           "package": "monad-logger",
@@ -817,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logWarnNS",
           "normalized": "Text-\u003eText-\u003ea()",
@@ -833,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003elogDebugS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "logWarnS",
           "package": "monad-logger",
@@ -843,6 +914,7 @@
         "index": {
           "description": "See logDebugS",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "logWarnS",
           "package": "monad-logger",
@@ -856,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "monadLoggerLog",
           "package": "monad-logger",
@@ -865,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "monadLoggerLog",
           "normalized": "Loc-\u003eLogSource-\u003eLogLevel-\u003ea-\u003eb()",
@@ -880,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "runLoggingT",
           "package": "monad-logger",
@@ -889,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "runLoggingT",
           "normalized": "(Loc-\u003eLogSource-\u003eLogLevel-\u003eLogStr-\u003eIO())-\u003ea b",
@@ -904,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "runNoLoggingT",
           "package": "monad-logger",
@@ -913,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "runNoLoggingT",
           "package": "monad-logger",
@@ -927,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a block using a \u003ccode\u003eMonadLogger\u003c/code\u003e instance which prints to stderr.\n\u003c/p\u003e\u003cp\u003eSince 0.2.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "runStderrLoggingT",
           "package": "monad-logger",
@@ -937,6 +1016,7 @@
         "index": {
           "description": "Run block using MonadLogger instance which prints to stderr Since",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "runStderrLoggingT",
           "normalized": "LoggingT a b-\u003ea b",
@@ -953,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a block using a \u003ccode\u003eMonadLogger\u003c/code\u003e instance which prints to stdout.\n\u003c/p\u003e\u003cp\u003eSince 0.2.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "runStdoutLoggingT",
           "package": "monad-logger",
@@ -963,6 +1044,7 @@
         "index": {
           "description": "Run block using MonadLogger instance which prints to stdout Since",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "runStdoutLoggingT",
           "normalized": "LoggingT a b-\u003ea b",
@@ -979,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWithin the \u003ccode\u003e\u003ca\u003eLoggingT\u003c/a\u003e\u003c/code\u003e monad, capture all log messages to a bounded\n   channel of the indicated size, and only actually log them if there is an\n   exception.\n\u003c/p\u003e\u003cp\u003eSince 0.3.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:55 UTC 2014",
           "module": "Control.Monad.Logger",
           "name": "withChannelLogger",
           "package": "monad-logger",
@@ -988,6 +1071,7 @@
         "index": {
           "description": "Within the LoggingT monad capture all log messages to bounded channel of the indicated size and only actually log them if there is an exception Since",
           "hierarchy": "Control Monad Logger",
+          "indexed": "2014-03-11T19:19:55",
           "module": "Control.Monad.Logger",
           "name": "withChannelLogger",
           "normalized": "Int-\u003eLoggingT a b-\u003eLoggingT a b",

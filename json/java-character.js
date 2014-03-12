@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "java-character"
+        "phrase": "java-character",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisDefined\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isDefined%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsDefined",
           "name": "IsDefined",
           "package": "java-character",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simulates the isDefined Java method http docs.oracle.com javase docs api java lang Character.html isDefined int",
           "hierarchy": "Language Java Character IsDefined",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsDefined",
           "name": "IsDefined",
           "package": "java-character",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisDefined\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsDefined",
           "name": "IsDefined",
           "package": "java-character",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isDefined",
           "hierarchy": "Language Java Character IsDefined",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsDefined",
           "name": "IsDefined",
           "package": "java-character",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsDefined",
           "name": "isDefined",
           "package": "java-character",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsDefined",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsDefined",
           "name": "isDefined",
           "normalized": "a-\u003eBool",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsDefined",
           "name": "isNotDefined",
           "package": "java-character",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsDefined",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsDefined",
           "name": "isNotDefined",
           "normalized": "a-\u003eBool",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisDigit\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isDigit%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsDigit",
           "name": "IsDigit",
           "package": "java-character",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Simulates the isDigit Java method http docs.oracle.com javase docs api java lang Character.html isDigit int",
           "hierarchy": "Language Java Character IsDigit",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsDigit",
           "name": "IsDigit",
           "package": "java-character",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisDigit\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsDigit",
           "name": "IsDigit",
           "package": "java-character",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isDigit",
           "hierarchy": "Language Java Character IsDigit",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsDigit",
           "name": "IsDigit",
           "package": "java-character",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsDigit",
           "name": "isDigit",
           "package": "java-character",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsDigit",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsDigit",
           "name": "isDigit",
           "normalized": "a-\u003eBool",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsDigit",
           "name": "isNotDigit",
           "package": "java-character",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsDigit",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsDigit",
           "name": "isNotDigit",
           "normalized": "a-\u003eBool",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisIdentifierIgnorable\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isIdentifierIgnorable%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsIdentifierIgnorable",
           "name": "IsIdentifierIgnorable",
           "package": "java-character",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Simulates the isIdentifierIgnorable Java method http docs.oracle.com javase docs api java lang Character.html isIdentifierIgnorable int",
           "hierarchy": "Language Java Character IsIdentifierIgnorable",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsIdentifierIgnorable",
           "name": "IsIdentifierIgnorable",
           "package": "java-character",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisIdentifierIgnorable\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsIdentifierIgnorable",
           "name": "IsIdentifierIgnorable",
           "package": "java-character",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isIdentifierIgnorable",
           "hierarchy": "Language Java Character IsIdentifierIgnorable",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsIdentifierIgnorable",
           "name": "IsIdentifierIgnorable",
           "package": "java-character",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsIdentifierIgnorable",
           "name": "isIdentifierIgnorable",
           "package": "java-character",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsIdentifierIgnorable",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsIdentifierIgnorable",
           "name": "isIdentifierIgnorable",
           "normalized": "a-\u003eBool",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsIdentifierIgnorable",
           "name": "isNotIdentifierIgnorable",
           "package": "java-character",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsIdentifierIgnorable",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsIdentifierIgnorable",
           "name": "isNotIdentifierIgnorable",
           "normalized": "a-\u003eBool",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisISOControl\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isISOControl%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsIsoControl",
           "name": "IsIsoControl",
           "package": "java-character",
@@ -310,6 +335,7 @@
         "index": {
           "description": "Simulates the isISOControl Java method http docs.oracle.com javase docs api java lang Character.html isISOControl int",
           "hierarchy": "Language Java Character IsIsoControl",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsIsoControl",
           "name": "IsIsoControl",
           "package": "java-character",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisISOControl\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsIsoControl",
           "name": "IsIsoControl",
           "package": "java-character",
@@ -333,6 +360,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isISOControl",
           "hierarchy": "Language Java Character IsIsoControl",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsIsoControl",
           "name": "IsIsoControl",
           "package": "java-character",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsIsoControl",
           "name": "isIsoControl",
           "package": "java-character",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsIsoControl",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsIsoControl",
           "name": "isIsoControl",
           "normalized": "a-\u003eBool",
@@ -370,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsIsoControl",
           "name": "isNotIsoControl",
           "package": "java-character",
@@ -379,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsIsoControl",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsIsoControl",
           "name": "isNotIsoControl",
           "normalized": "a-\u003eBool",
@@ -395,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisJavaIdentifierPart\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isJavaIdentifierPart%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsJavaIdentifierPart",
           "name": "IsJavaIdentifierPart",
           "package": "java-character",
@@ -404,6 +437,7 @@
         "index": {
           "description": "Simulates the isJavaIdentifierPart Java method http docs.oracle.com javase docs api java lang Character.html isJavaIdentifierPart int",
           "hierarchy": "Language Java Character IsJavaIdentifierPart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsJavaIdentifierPart",
           "name": "IsJavaIdentifierPart",
           "package": "java-character",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisJavaIdentifierPart\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsJavaIdentifierPart",
           "name": "IsJavaIdentifierPart",
           "package": "java-character",
@@ -427,6 +462,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isJavaIdentifierPart",
           "hierarchy": "Language Java Character IsJavaIdentifierPart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsJavaIdentifierPart",
           "name": "IsJavaIdentifierPart",
           "package": "java-character",
@@ -440,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsJavaIdentifierPart",
           "name": "isJavaIdentifierPart",
           "package": "java-character",
@@ -449,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsJavaIdentifierPart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsJavaIdentifierPart",
           "name": "isJavaIdentifierPart",
           "normalized": "a-\u003eBool",
@@ -464,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsJavaIdentifierPart",
           "name": "isNotJavaIdentifierPart",
           "package": "java-character",
@@ -473,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsJavaIdentifierPart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsJavaIdentifierPart",
           "name": "isNotJavaIdentifierPart",
           "normalized": "a-\u003eBool",
@@ -489,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisJavaIdentifierStart\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isJavaIdentifierStart%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsJavaIdentifierStart",
           "name": "IsJavaIdentifierStart",
           "package": "java-character",
@@ -498,6 +539,7 @@
         "index": {
           "description": "Simulates the isJavaIdentifierStart Java method http docs.oracle.com javase docs api java lang Character.html isJavaIdentifierStart int",
           "hierarchy": "Language Java Character IsJavaIdentifierStart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsJavaIdentifierStart",
           "name": "IsJavaIdentifierStart",
           "package": "java-character",
@@ -512,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisJavaIdentifierStart\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsJavaIdentifierStart",
           "name": "IsJavaIdentifierStart",
           "package": "java-character",
@@ -521,6 +564,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isJavaIdentifierStart",
           "hierarchy": "Language Java Character IsJavaIdentifierStart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsJavaIdentifierStart",
           "name": "IsJavaIdentifierStart",
           "package": "java-character",
@@ -534,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsJavaIdentifierStart",
           "name": "isJavaIdentifierStart",
           "package": "java-character",
@@ -543,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsJavaIdentifierStart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsJavaIdentifierStart",
           "name": "isJavaIdentifierStart",
           "normalized": "a-\u003eBool",
@@ -558,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsJavaIdentifierStart",
           "name": "isNotJavaIdentifierStart",
           "package": "java-character",
@@ -567,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsJavaIdentifierStart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsJavaIdentifierStart",
           "name": "isNotJavaIdentifierStart",
           "normalized": "a-\u003eBool",
@@ -583,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisLetter\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isLetter%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsLetter",
           "name": "IsLetter",
           "package": "java-character",
@@ -592,6 +641,7 @@
         "index": {
           "description": "Simulates the isLetter Java method http docs.oracle.com javase docs api java lang Character.html isLetter int",
           "hierarchy": "Language Java Character IsLetter",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsLetter",
           "name": "IsLetter",
           "package": "java-character",
@@ -606,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisLetter\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsLetter",
           "name": "IsLetter",
           "package": "java-character",
@@ -615,6 +666,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isLetter",
           "hierarchy": "Language Java Character IsLetter",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsLetter",
           "name": "IsLetter",
           "package": "java-character",
@@ -628,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsLetter",
           "name": "isLetter",
           "package": "java-character",
@@ -637,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsLetter",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsLetter",
           "name": "isLetter",
           "normalized": "a-\u003eBool",
@@ -652,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsLetter",
           "name": "isNotLetter",
           "package": "java-character",
@@ -661,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsLetter",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsLetter",
           "name": "isNotLetter",
           "normalized": "a-\u003eBool",
@@ -677,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisLetterOrDigit\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isLetterOrDigit%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsLetterOrDigit",
           "name": "IsLetterOrDigit",
           "package": "java-character",
@@ -686,6 +743,7 @@
         "index": {
           "description": "Simulates the isLetterOrDigit Java method http docs.oracle.com javase docs api java lang Character.html isLetterOrDigit int",
           "hierarchy": "Language Java Character IsLetterOrDigit",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsLetterOrDigit",
           "name": "IsLetterOrDigit",
           "package": "java-character",
@@ -700,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisLetterOrDigit\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsLetterOrDigit",
           "name": "IsLetterOrDigit",
           "package": "java-character",
@@ -709,6 +768,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isLetterOrDigit",
           "hierarchy": "Language Java Character IsLetterOrDigit",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsLetterOrDigit",
           "name": "IsLetterOrDigit",
           "package": "java-character",
@@ -722,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsLetterOrDigit",
           "name": "isLetterOrDigit",
           "package": "java-character",
@@ -731,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsLetterOrDigit",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsLetterOrDigit",
           "name": "isLetterOrDigit",
           "normalized": "a-\u003eBool",
@@ -746,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsLetterOrDigit",
           "name": "isNotLetterOrDigit",
           "package": "java-character",
@@ -755,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsLetterOrDigit",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsLetterOrDigit",
           "name": "isNotLetterOrDigit",
           "normalized": "a-\u003eBool",
@@ -771,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eIsLowerCase\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#IsLowerCase%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsLowerCase",
           "name": "IsLowerCase",
           "package": "java-character",
@@ -780,6 +845,7 @@
         "index": {
           "description": "Simulates the IsLowerCase Java method http docs.oracle.com javase docs api java lang Character.html IsLowerCase int",
           "hierarchy": "Language Java Character IsLowerCase",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsLowerCase",
           "name": "IsLowerCase",
           "package": "java-character",
@@ -794,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eIsLowerCase\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsLowerCase",
           "name": "IsLowerCase",
           "package": "java-character",
@@ -803,6 +870,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating IsLowerCase",
           "hierarchy": "Language Java Character IsLowerCase",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsLowerCase",
           "name": "IsLowerCase",
           "package": "java-character",
@@ -816,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsLowerCase",
           "name": "isLowerCase",
           "package": "java-character",
@@ -825,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsLowerCase",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsLowerCase",
           "name": "isLowerCase",
           "normalized": "a-\u003eBool",
@@ -840,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsLowerCase",
           "name": "isNotLowerCase",
           "package": "java-character",
@@ -849,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsLowerCase",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsLowerCase",
           "name": "isNotLowerCase",
           "normalized": "a-\u003eBool",
@@ -865,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisMirrored\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isMirrored%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsMirrored",
           "name": "IsMirrored",
           "package": "java-character",
@@ -874,6 +947,7 @@
         "index": {
           "description": "Simulates the isMirrored Java method http docs.oracle.com javase docs api java lang Character.html isMirrored int",
           "hierarchy": "Language Java Character IsMirrored",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsMirrored",
           "name": "IsMirrored",
           "package": "java-character",
@@ -888,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisMirrored\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsMirrored",
           "name": "IsMirrored",
           "package": "java-character",
@@ -897,6 +972,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isMirrored",
           "hierarchy": "Language Java Character IsMirrored",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsMirrored",
           "name": "IsMirrored",
           "package": "java-character",
@@ -910,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsMirrored",
           "name": "isMirrored",
           "package": "java-character",
@@ -919,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsMirrored",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsMirrored",
           "name": "isMirrored",
           "normalized": "a-\u003eBool",
@@ -934,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsMirrored",
           "name": "isNotMirrored",
           "package": "java-character",
@@ -943,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsMirrored",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsMirrored",
           "name": "isNotMirrored",
           "normalized": "a-\u003eBool",
@@ -959,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisSpaceChar\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isSpaceChar%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsSpaceChar",
           "name": "IsSpaceChar",
           "package": "java-character",
@@ -968,6 +1049,7 @@
         "index": {
           "description": "Simulates the isSpaceChar Java method http docs.oracle.com javase docs api java lang Character.html isSpaceChar int",
           "hierarchy": "Language Java Character IsSpaceChar",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsSpaceChar",
           "name": "IsSpaceChar",
           "package": "java-character",
@@ -982,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisSpaceChar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsSpaceChar",
           "name": "IsSpaceChar",
           "package": "java-character",
@@ -991,6 +1074,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isSpaceChar",
           "hierarchy": "Language Java Character IsSpaceChar",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsSpaceChar",
           "name": "IsSpaceChar",
           "package": "java-character",
@@ -1004,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsSpaceChar",
           "name": "isNotSpaceChar",
           "package": "java-character",
@@ -1013,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsSpaceChar",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsSpaceChar",
           "name": "isNotSpaceChar",
           "normalized": "a-\u003eBool",
@@ -1028,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsSpaceChar",
           "name": "isSpaceChar",
           "package": "java-character",
@@ -1037,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsSpaceChar",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsSpaceChar",
           "name": "isSpaceChar",
           "normalized": "a-\u003eBool",
@@ -1053,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisSupplementaryCodePoint\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isSupplementaryCodePoint%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsSupplementaryCodePoint",
           "name": "IsSupplementaryCodePoint",
           "package": "java-character",
@@ -1062,6 +1151,7 @@
         "index": {
           "description": "Simulates the isSupplementaryCodePoint Java method http docs.oracle.com javase docs api java lang Character.html isSupplementaryCodePoint int",
           "hierarchy": "Language Java Character IsSupplementaryCodePoint",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsSupplementaryCodePoint",
           "name": "IsSupplementaryCodePoint",
           "package": "java-character",
@@ -1076,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisSupplementaryCodePoint\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsSupplementaryCodePoint",
           "name": "IsSupplementaryCodePoint",
           "package": "java-character",
@@ -1085,6 +1176,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isSupplementaryCodePoint",
           "hierarchy": "Language Java Character IsSupplementaryCodePoint",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsSupplementaryCodePoint",
           "name": "IsSupplementaryCodePoint",
           "package": "java-character",
@@ -1098,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsSupplementaryCodePoint",
           "name": "isNotSupplementaryCodePoint",
           "package": "java-character",
@@ -1107,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsSupplementaryCodePoint",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsSupplementaryCodePoint",
           "name": "isNotSupplementaryCodePoint",
           "normalized": "a-\u003eBool",
@@ -1122,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsSupplementaryCodePoint",
           "name": "isSupplementaryCodePoint",
           "package": "java-character",
@@ -1131,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsSupplementaryCodePoint",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsSupplementaryCodePoint",
           "name": "isSupplementaryCodePoint",
           "normalized": "a-\u003eBool",
@@ -1147,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisTitleCase\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isTitleCase%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsTitleCase",
           "name": "IsTitleCase",
           "package": "java-character",
@@ -1156,6 +1253,7 @@
         "index": {
           "description": "Simulates the isTitleCase Java method http docs.oracle.com javase docs api java lang Character.html isTitleCase int",
           "hierarchy": "Language Java Character IsTitleCase",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsTitleCase",
           "name": "IsTitleCase",
           "package": "java-character",
@@ -1170,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisTitleCase\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsTitleCase",
           "name": "IsTitleCase",
           "package": "java-character",
@@ -1179,6 +1278,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isTitleCase",
           "hierarchy": "Language Java Character IsTitleCase",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsTitleCase",
           "name": "IsTitleCase",
           "package": "java-character",
@@ -1192,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsTitleCase",
           "name": "isNotTitleCase",
           "package": "java-character",
@@ -1201,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsTitleCase",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsTitleCase",
           "name": "isNotTitleCase",
           "normalized": "a-\u003eBool",
@@ -1216,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsTitleCase",
           "name": "isTitleCase",
           "package": "java-character",
@@ -1225,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsTitleCase",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsTitleCase",
           "name": "isTitleCase",
           "normalized": "a-\u003eBool",
@@ -1241,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisUnicodeIdentifierPart\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isUnicodeIdentifierPart%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsUnicodeIdentifierPart",
           "name": "IsUnicodeIdentifierPart",
           "package": "java-character",
@@ -1250,6 +1355,7 @@
         "index": {
           "description": "Simulates the isUnicodeIdentifierPart Java method http docs.oracle.com javase docs api java lang Character.html isUnicodeIdentifierPart int",
           "hierarchy": "Language Java Character IsUnicodeIdentifierPart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsUnicodeIdentifierPart",
           "name": "IsUnicodeIdentifierPart",
           "package": "java-character",
@@ -1264,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisUnicodeIdentifierPart\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsUnicodeIdentifierPart",
           "name": "IsUnicodeIdentifierPart",
           "package": "java-character",
@@ -1273,6 +1380,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isUnicodeIdentifierPart",
           "hierarchy": "Language Java Character IsUnicodeIdentifierPart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsUnicodeIdentifierPart",
           "name": "IsUnicodeIdentifierPart",
           "package": "java-character",
@@ -1286,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsUnicodeIdentifierPart",
           "name": "isNotUnicodeIdentifierPart",
           "package": "java-character",
@@ -1295,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsUnicodeIdentifierPart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsUnicodeIdentifierPart",
           "name": "isNotUnicodeIdentifierPart",
           "normalized": "a-\u003eBool",
@@ -1310,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsUnicodeIdentifierPart",
           "name": "isUnicodeIdentifierPart",
           "package": "java-character",
@@ -1319,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsUnicodeIdentifierPart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsUnicodeIdentifierPart",
           "name": "isUnicodeIdentifierPart",
           "normalized": "a-\u003eBool",
@@ -1335,6 +1447,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisUnicodeIdentifierStart\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isUnicodeIdentifierStart%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsUnicodeIdentifierStart",
           "name": "IsUnicodeIdentifierStart",
           "package": "java-character",
@@ -1344,6 +1457,7 @@
         "index": {
           "description": "Simulates the isUnicodeIdentifierStart Java method http docs.oracle.com javase docs api java lang Character.html isUnicodeIdentifierStart int",
           "hierarchy": "Language Java Character IsUnicodeIdentifierStart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsUnicodeIdentifierStart",
           "name": "IsUnicodeIdentifierStart",
           "package": "java-character",
@@ -1358,6 +1472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisUnicodeIdentifierStart\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsUnicodeIdentifierStart",
           "name": "IsUnicodeIdentifierStart",
           "package": "java-character",
@@ -1367,6 +1482,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isUnicodeIdentifierStart",
           "hierarchy": "Language Java Character IsUnicodeIdentifierStart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsUnicodeIdentifierStart",
           "name": "IsUnicodeIdentifierStart",
           "package": "java-character",
@@ -1380,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsUnicodeIdentifierStart",
           "name": "isNotUnicodeIdentifierStart",
           "package": "java-character",
@@ -1389,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsUnicodeIdentifierStart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsUnicodeIdentifierStart",
           "name": "isNotUnicodeIdentifierStart",
           "normalized": "a-\u003eBool",
@@ -1404,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsUnicodeIdentifierStart",
           "name": "isUnicodeIdentifierStart",
           "package": "java-character",
@@ -1413,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsUnicodeIdentifierStart",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsUnicodeIdentifierStart",
           "name": "isUnicodeIdentifierStart",
           "normalized": "a-\u003eBool",
@@ -1429,6 +1549,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisUpperCase\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isUpperCase%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsUpperCase",
           "name": "IsUpperCase",
           "package": "java-character",
@@ -1438,6 +1559,7 @@
         "index": {
           "description": "Simulates the isUpperCase Java method http docs.oracle.com javase docs api java lang Character.html isUpperCase int",
           "hierarchy": "Language Java Character IsUpperCase",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsUpperCase",
           "name": "IsUpperCase",
           "package": "java-character",
@@ -1452,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisUpperCase\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsUpperCase",
           "name": "IsUpperCase",
           "package": "java-character",
@@ -1461,6 +1584,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isUpperCase",
           "hierarchy": "Language Java Character IsUpperCase",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsUpperCase",
           "name": "IsUpperCase",
           "package": "java-character",
@@ -1474,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsUpperCase",
           "name": "isNotUpperCase",
           "package": "java-character",
@@ -1483,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsUpperCase",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsUpperCase",
           "name": "isNotUpperCase",
           "normalized": "a-\u003eBool",
@@ -1498,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsUpperCase",
           "name": "isUpperCase",
           "package": "java-character",
@@ -1507,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsUpperCase",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsUpperCase",
           "name": "isUpperCase",
           "normalized": "a-\u003eBool",
@@ -1523,6 +1651,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisValidCodePoint\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isValidCodePoint%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsValidCodePoint",
           "name": "IsValidCodePoint",
           "package": "java-character",
@@ -1532,6 +1661,7 @@
         "index": {
           "description": "Simulates the isValidCodePoint Java method http docs.oracle.com javase docs api java lang Character.html isValidCodePoint int",
           "hierarchy": "Language Java Character IsValidCodePoint",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsValidCodePoint",
           "name": "IsValidCodePoint",
           "package": "java-character",
@@ -1546,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisValidCodePoint\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsValidCodePoint",
           "name": "IsValidCodePoint",
           "package": "java-character",
@@ -1555,6 +1686,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isValidCodePoint",
           "hierarchy": "Language Java Character IsValidCodePoint",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsValidCodePoint",
           "name": "IsValidCodePoint",
           "package": "java-character",
@@ -1568,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsValidCodePoint",
           "name": "isNotValidCodePoint",
           "package": "java-character",
@@ -1577,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsValidCodePoint",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsValidCodePoint",
           "name": "isNotValidCodePoint",
           "normalized": "a-\u003eBool",
@@ -1592,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsValidCodePoint",
           "name": "isValidCodePoint",
           "package": "java-character",
@@ -1601,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsValidCodePoint",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsValidCodePoint",
           "name": "isValidCodePoint",
           "normalized": "a-\u003eBool",
@@ -1617,6 +1753,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates the \u003ccode\u003eisWhitespace\u003c/code\u003e Java method. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html#isWhitespace%28int%29\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsWhitespace",
           "name": "IsWhitespace",
           "package": "java-character",
@@ -1626,6 +1763,7 @@
         "index": {
           "description": "Simulates the isWhitespace Java method http docs.oracle.com javase docs api java lang Character.html isWhitespace int",
           "hierarchy": "Language Java Character IsWhitespace",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsWhitespace",
           "name": "IsWhitespace",
           "package": "java-character",
@@ -1640,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances simulate Java characters and provide a decision on simulating \u003ccode\u003eisWhitespace\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsWhitespace",
           "name": "IsWhitespace",
           "package": "java-character",
@@ -1649,6 +1788,7 @@
         "index": {
           "description": "Instances simulate Java characters and provide decision on simulating isWhitespace",
           "hierarchy": "Language Java Character IsWhitespace",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsWhitespace",
           "name": "IsWhitespace",
           "package": "java-character",
@@ -1662,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsWhitespace",
           "name": "isNotWhitespace",
           "package": "java-character",
@@ -1671,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsWhitespace",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsWhitespace",
           "name": "isNotWhitespace",
           "normalized": "a-\u003eBool",
@@ -1686,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character.IsWhitespace",
           "name": "isWhitespace",
           "package": "java-character",
@@ -1695,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "Language Java Character IsWhitespace",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character.IsWhitespace",
           "name": "isWhitespace",
           "normalized": "a-\u003eBool",
@@ -1711,6 +1855,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimulates methods of \u003ccode\u003ejava.lang.Character\u003c/code\u003e. \u003ca\u003ehttp://docs.oracle.com/javase/6/docs/api/java/lang/Character.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:01:14 UTC 2014",
           "module": "Language.Java.Character",
           "name": "Character",
           "package": "java-character",
@@ -1720,6 +1865,7 @@
         "index": {
           "description": "Simulates methods of java.lang.Character http docs.oracle.com javase docs api java lang Character.html",
           "hierarchy": "Language Java Character",
+          "indexed": "2014-03-11T19:01:14",
           "module": "Language.Java.Character",
           "name": "Character",
           "package": "java-character",

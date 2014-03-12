@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aterm"
+        "phrase": "aterm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ethe data types \u003ccode\u003e\u003ca\u003eShATerm\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eATermTable\u003c/a\u003e\u003c/code\u003e plus some utilities\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "AbstractSyntax",
           "package": "aterm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "the data types ShATerm and ATermTable plus some utilities",
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "AbstractSyntax",
           "package": "aterm",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "ATermTable",
           "package": "aterm",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "ATermTable",
           "package": "aterm",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "Key",
           "package": "aterm",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "Key",
           "package": "aterm",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "ShATerm",
           "package": "aterm",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "ShATerm",
           "package": "aterm",
@@ -204,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "emptyATermTable",
           "package": "aterm",
@@ -213,6 +222,7 @@
         },
         "index": {
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "emptyATermTable",
           "package": "aterm",
@@ -226,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "getATerm",
           "package": "aterm",
@@ -235,6 +246,7 @@
         },
         "index": {
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "getATerm",
           "normalized": "ATermTable-\u003eShATerm",
@@ -250,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "getATerm'",
           "package": "aterm",
@@ -259,6 +272,7 @@
         },
         "index": {
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "getATerm'",
           "normalized": "Int-\u003eATermTable-\u003eMaybe a",
@@ -274,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "getATermByIndex1",
           "package": "aterm",
@@ -283,6 +298,7 @@
         },
         "index": {
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "getATermByIndex1",
           "normalized": "Int-\u003eATermTable-\u003eATermTable",
@@ -298,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "getKey",
           "package": "aterm",
@@ -307,6 +324,7 @@
         },
         "index": {
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "getKey",
           "normalized": "Key-\u003eATermTable-\u003eIO(Maybe Int)",
@@ -347,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "getTopIndex",
           "package": "aterm",
@@ -356,6 +375,7 @@
         },
         "index": {
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "getTopIndex",
           "normalized": "ATermTable-\u003eInt",
@@ -372,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econversion of an unlimited integer to a machine int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "integer2Int",
           "package": "aterm",
@@ -382,6 +403,7 @@
         "index": {
           "description": "conversion of an unlimited integer to machine int",
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "integer2Int",
           "normalized": "Integer-\u003eInt",
@@ -397,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "mkKey",
           "package": "aterm",
@@ -406,6 +429,7 @@
         },
         "index": {
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "mkKey",
           "normalized": "a-\u003eIO Key",
@@ -421,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "setATerm'",
           "package": "aterm",
@@ -430,6 +455,7 @@
         },
         "index": {
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "setATerm'",
           "normalized": "Int-\u003ea-\u003eATermTable-\u003eATermTable",
@@ -445,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "setKey",
           "package": "aterm",
@@ -454,6 +481,7 @@
         },
         "index": {
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "setKey",
           "normalized": "Key-\u003eInt-\u003eATermTable-\u003eIO(ATermTable,Int)",
@@ -470,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econversion of a string in double quotes to a character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "str2Char",
           "package": "aterm",
@@ -480,6 +509,7 @@
         "index": {
           "description": "conversion of string in double quotes to character",
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "str2Char",
           "normalized": "String-\u003eChar",
@@ -495,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.AbstractSyntax",
           "name": "toReadonlyATT",
           "package": "aterm",
@@ -504,6 +535,7 @@
         },
         "index": {
           "hierarchy": "ATerm AbstractSyntax",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.AbstractSyntax",
           "name": "toReadonlyATT",
           "normalized": "ATermTable-\u003eATermTable",
@@ -520,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ebase64 character conversions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Base64",
           "name": "Base64",
           "package": "aterm",
@@ -529,6 +562,7 @@
         "index": {
           "description": "base64 character conversions",
           "hierarchy": "ATerm Base64",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Base64",
           "name": "Base64",
           "package": "aterm",
@@ -542,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Base64",
           "name": "isBase64Char",
           "package": "aterm",
@@ -551,6 +586,7 @@
         },
         "index": {
           "hierarchy": "ATerm Base64",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Base64",
           "name": "isBase64Char",
           "normalized": "Char-\u003eBool",
@@ -566,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Base64",
           "name": "ord0",
           "package": "aterm",
@@ -575,6 +612,7 @@
         },
         "index": {
           "hierarchy": "ATerm Base64",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Base64",
           "name": "ord0",
           "package": "aterm",
@@ -587,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Base64",
           "name": "toBase64Char",
           "package": "aterm",
@@ -596,6 +635,7 @@
         },
         "index": {
           "hierarchy": "ATerm Base64",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Base64",
           "name": "toBase64Char",
           "normalized": "Int-\u003eChar",
@@ -611,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Base64",
           "name": "toBase64Int",
           "package": "aterm",
@@ -620,6 +661,7 @@
         },
         "index": {
           "hierarchy": "ATerm Base64",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Base64",
           "name": "toBase64Int",
           "normalized": "Char-\u003eInt",
@@ -636,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ethe class \u003ccode\u003e\u003ca\u003eShATermConvertible\u003c/a\u003e\u003c/code\u003e depending on the class \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e for\nconverting datatypes to and from \u003ccode\u003e\u003ca\u003eShATerm\u003c/a\u003e\u003c/code\u003es in \u003ccode\u003e\u003ca\u003eATermTable\u003c/a\u003e\u003c/code\u003es, plus a\ncouple of basic instances and utilities\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Conversion",
           "name": "Conversion",
           "package": "aterm",
@@ -645,6 +688,7 @@
         "index": {
           "description": "the class ShATermConvertible depending on the class Typeable for converting datatypes to and from ShATerm in ATermTable plus couple of basic instances and utilities",
           "hierarchy": "ATerm Conversion",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Conversion",
           "name": "Conversion",
           "package": "aterm",
@@ -658,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Conversion",
           "name": "ShATermConvertible",
           "package": "aterm",
@@ -666,6 +711,7 @@
         },
         "index": {
           "hierarchy": "ATerm Conversion",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Conversion",
           "name": "ShATermConvertible",
           "package": "aterm",
@@ -704,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Conversion",
           "name": "fromShATermAux",
           "package": "aterm",
@@ -713,6 +760,7 @@
         },
         "index": {
           "hierarchy": "ATerm Conversion",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Conversion",
           "name": "fromShATermAux",
           "normalized": "Int-\u003eATermTable-\u003e(ATermTable,a)",
@@ -753,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Conversion",
           "name": "fromShATermList'",
           "package": "aterm",
@@ -762,6 +811,7 @@
         },
         "index": {
           "hierarchy": "ATerm Conversion",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Conversion",
           "name": "fromShATermList'",
           "normalized": "Int-\u003eATermTable-\u003e(ATermTable,[a])",
@@ -802,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Conversion",
           "name": "toShATermAux",
           "package": "aterm",
@@ -811,6 +862,7 @@
         },
         "index": {
           "hierarchy": "ATerm Conversion",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Conversion",
           "name": "toShATermAux",
           "normalized": "ATermTable-\u003ea-\u003eIO(ATermTable,Int)",
@@ -826,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Conversion",
           "name": "toShATermList'",
           "package": "aterm",
@@ -835,6 +888,7 @@
         },
         "index": {
           "hierarchy": "ATerm Conversion",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Conversion",
           "name": "toShATermList'",
           "normalized": "ATermTable-\u003e[a]-\u003eIO(ATermTable,Int)",
@@ -851,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides functions that calculate differences in unshared \u003ccode\u003e\u003ca\u003eATerm\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Diff",
           "name": "Diff",
           "package": "aterm",
@@ -860,6 +915,7 @@
         "index": {
           "description": "Provides functions that calculate differences in unshared ATerm",
           "hierarchy": "ATerm Diff",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Diff",
           "name": "Diff",
           "package": "aterm",
@@ -874,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall diferences between both terms are replaced by appropiate\n placeholders (in \u003ccode\u003e\u003c\u003e\u003c/code\u003e) and the differing terms are added to the\n list of ATerm as arguments to the function symbol \u003ccode\u003ediff\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e/Note:\n this function ignores annotions and the resulting ATerm does not\n contain any annotation!/\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Diff",
           "name": "atDiff",
           "package": "aterm",
@@ -884,6 +941,7 @@
         "index": {
           "description": "all diferences between both terms are replaced by appropiate placeholders in and the differing terms are added to the list of ATerm as arguments to the function symbol diff Note this function ignores annotions and the resulting ATerm does not contain any annotation",
           "hierarchy": "ATerm Diff",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Diff",
           "name": "atDiff",
           "normalized": "ATerm-\u003eATerm-\u003e(ATerm,[ATerm])",
@@ -900,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ereexports the names needed for many \u003ccode\u003e\u003ca\u003eShATermConvertible\u003c/a\u003e\u003c/code\u003e\ninstances. For converting \u003ccode\u003e\u003ca\u003eShATerm\u003c/a\u003e\u003c/code\u003es to and from \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es you'll need\nthe module \u003ca\u003eATerm.ReadWrite\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eFor more information on ATerms look under\n\u003ca\u003ehttp://www.asfsdf.org\u003c/a\u003e, \u003ca\u003ehttp://www.asfsdf.org/Meta-Environment/ATerms\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Lib",
           "name": "Lib",
           "package": "aterm",
@@ -909,6 +968,7 @@
         "index": {
           "description": "reexports the names needed for many ShATermConvertible instances For converting ShATerm to and from String you ll need the module ATerm.ReadWrite For more information on ATerms look under http www.asfsdf.org http www.asfsdf.org Meta-Environment ATerms",
           "hierarchy": "ATerm Lib",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Lib",
           "name": "Lib",
           "package": "aterm",
@@ -922,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Lib",
           "name": "ATermTable",
           "package": "aterm",
@@ -930,6 +991,7 @@
         },
         "index": {
           "hierarchy": "ATerm Lib",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Lib",
           "name": "ATermTable",
           "package": "aterm",
@@ -943,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Lib",
           "name": "ShATerm",
           "package": "aterm",
@@ -951,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "ATerm Lib",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Lib",
           "name": "ShATerm",
           "package": "aterm",
@@ -964,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Lib",
           "name": "ShATermConvertible",
           "package": "aterm",
@@ -972,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "ATerm Lib",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Lib",
           "name": "ShATermConvertible",
           "package": "aterm",
@@ -985,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Lib",
           "name": "fromShATermAux",
           "package": "aterm",
@@ -994,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "ATerm Lib",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Lib",
           "name": "fromShATermAux",
           "normalized": "Int-\u003eATermTable-\u003e(ATermTable,a)",
@@ -1009,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Lib",
           "name": "toShATermAux",
           "package": "aterm",
@@ -1018,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "ATerm Lib",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Lib",
           "name": "toShATermAux",
           "normalized": "ATermTable-\u003ea-\u003eIO(ATermTable,Int)",
@@ -1034,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003econvert \u003ccode\u003e\u003ca\u003eATermTable\u003c/a\u003e\u003c/code\u003es (created by \u003ccode\u003eATerm.Conversion.toATermTable\u003c/code\u003e) from\n  \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es and to \u003ccode\u003e\u003ca\u003eSDoc\u003c/a\u003e\u003c/code\u003es as shared (TAF format) or unshared (AT format).\n  Indices (following hash marks) are base64 encoded.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.ReadWrite",
           "name": "ReadWrite",
           "package": "aterm",
@@ -1043,6 +1114,7 @@
         "index": {
           "description": "convert ATermTable created by ATerm.Conversion.toATermTable from String and to SDoc as shared TAF format or unshared AT format Indices following hash marks are base64 encoded",
           "hierarchy": "ATerm ReadWrite",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.ReadWrite",
           "name": "ReadWrite",
           "package": "aterm",
@@ -1057,6 +1129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate an ATerm table from an input string. Shared or unshared ATerms can\nbe read. A string for shared ATerms usually starts with an exclamation mark\nand contains many hash marks indicating references. Unshared ATerms are plain\nconstructor terms.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.ReadWrite",
           "name": "readATerm",
           "package": "aterm",
@@ -1067,6 +1140,7 @@
         "index": {
           "description": "create an ATerm table from an input string Shared or unshared ATerms can be read string for shared ATerms usually starts with an exclamation mark and contains many hash marks indicating references Unshared ATerms are plain constructor terms",
           "hierarchy": "ATerm ReadWrite",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.ReadWrite",
           "name": "readATerm",
           "normalized": "String-\u003eATermTable",
@@ -1082,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.ReadWrite",
           "name": "readATermFile",
           "package": "aterm",
@@ -1091,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "ATerm ReadWrite",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.ReadWrite",
           "name": "readATermFile",
           "normalized": "FilePath-\u003eIO ATermTable",
@@ -1106,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.ReadWrite",
           "name": "writeATerm",
           "package": "aterm",
@@ -1115,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "ATerm ReadWrite",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.ReadWrite",
           "name": "writeATerm",
           "normalized": "ATermTable-\u003eString",
@@ -1130,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.ReadWrite",
           "name": "writeATermFile",
           "package": "aterm",
@@ -1139,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "ATerm ReadWrite",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.ReadWrite",
           "name": "writeATermFile",
           "normalized": "FilePath-\u003eATermTable-\u003eIO()",
@@ -1154,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.ReadWrite",
           "name": "writeATermSDoc",
           "package": "aterm",
@@ -1163,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "ATerm ReadWrite",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.ReadWrite",
           "name": "writeATermSDoc",
           "normalized": "ATermTable-\u003eSDoc",
@@ -1178,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.ReadWrite",
           "name": "writeSharedATerm",
           "package": "aterm",
@@ -1187,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "ATerm ReadWrite",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.ReadWrite",
           "name": "writeSharedATerm",
           "normalized": "ATermTable-\u003eString",
@@ -1202,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.ReadWrite",
           "name": "writeSharedATermFile",
           "package": "aterm",
@@ -1211,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "ATerm ReadWrite",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.ReadWrite",
           "name": "writeSharedATermFile",
           "normalized": "FilePath-\u003eATermTable-\u003eIO()",
@@ -1226,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.ReadWrite",
           "name": "writeSharedATermSDoc",
           "package": "aterm",
@@ -1235,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "ATerm ReadWrite",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.ReadWrite",
           "name": "writeSharedATermSDoc",
           "normalized": "ATermTable-\u003eSDoc",
@@ -1251,6 +1339,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRather than using (slow, sequential) strings create (fast, tree-like)\ndocuments and render them later as text for IO.\n\u003c/p\u003e\u003cp\u003eA very simplified version of John Hughes's\n   and Simon Peyton Jones's Pretty Printer Combinators. Only catenable\n   string sequences are left over.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.SimpPretty",
           "name": "SimpPretty",
           "package": "aterm",
@@ -1260,6 +1349,7 @@
         "index": {
           "description": "Rather than using slow sequential strings create fast tree-like documents and render them later as text for IO very simplified version of John Hughes and Simon Peyton Jones Pretty Printer Combinators Only catenable string sequences are left over",
           "hierarchy": "ATerm SimpPretty",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.SimpPretty",
           "name": "SimpPretty",
           "package": "aterm",
@@ -1274,6 +1364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract type of documents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.SimpPretty",
           "name": "SDoc",
           "package": "aterm",
@@ -1283,6 +1374,7 @@
         "index": {
           "description": "The abstract type of documents",
           "hierarchy": "ATerm SimpPretty",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.SimpPretty",
           "name": "SDoc",
           "package": "aterm",
@@ -1296,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.SimpPretty",
           "name": "(\u003c\u003e)",
           "package": "aterm",
@@ -1304,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "ATerm SimpPretty",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.SimpPretty",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "SDoc-\u003eSDoc-\u003eSDoc",
@@ -1318,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.SimpPretty",
           "name": "braces",
           "package": "aterm",
@@ -1326,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "ATerm SimpPretty",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.SimpPretty",
           "name": "braces",
           "normalized": "SDoc-\u003eSDoc",
@@ -1340,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.SimpPretty",
           "name": "brackets",
           "package": "aterm",
@@ -1348,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "ATerm SimpPretty",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.SimpPretty",
           "name": "brackets",
           "normalized": "SDoc-\u003eSDoc",
@@ -1362,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.SimpPretty",
           "name": "comma",
           "package": "aterm",
@@ -1370,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "ATerm SimpPretty",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.SimpPretty",
           "name": "comma",
           "package": "aterm",
@@ -1382,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.SimpPretty",
           "name": "empty",
           "package": "aterm",
@@ -1390,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "ATerm SimpPretty",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.SimpPretty",
           "name": "empty",
           "package": "aterm",
@@ -1402,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.SimpPretty",
           "name": "fullRender",
           "package": "aterm",
@@ -1411,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "ATerm SimpPretty",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.SimpPretty",
           "name": "fullRender",
           "normalized": "(String-\u003ea)-\u003e(a-\u003ea-\u003ea)-\u003eSDoc-\u003ea",
@@ -1426,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.SimpPretty",
           "name": "parens",
           "package": "aterm",
@@ -1434,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "ATerm SimpPretty",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.SimpPretty",
           "name": "parens",
           "normalized": "SDoc-\u003eSDoc",
@@ -1449,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders the document as a string using the default style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.SimpPretty",
           "name": "render",
           "package": "aterm",
@@ -1459,6 +1566,7 @@
         "index": {
           "description": "Renders the document as string using the default style",
           "hierarchy": "ATerm SimpPretty",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.SimpPretty",
           "name": "render",
           "normalized": "SDoc-\u003eString",
@@ -1473,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.SimpPretty",
           "name": "text",
           "package": "aterm",
@@ -1482,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "ATerm SimpPretty",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.SimpPretty",
           "name": "text",
           "normalized": "String-\u003eSDoc",
@@ -1496,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.SimpPretty",
           "name": "writeFileSDoc",
           "package": "aterm",
@@ -1505,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "ATerm SimpPretty",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.SimpPretty",
           "name": "writeFileSDoc",
           "normalized": "FilePath-\u003eSDoc-\u003eIO()",
@@ -1521,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003econversion between shared and (basically unused) unshared \u003ccode\u003e\u003ca\u003eATerm\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Unshared",
           "name": "Unshared",
           "package": "aterm",
@@ -1530,6 +1643,7 @@
         "index": {
           "description": "conversion between shared and basically unused unshared ATerm",
           "hierarchy": "ATerm Unshared",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Unshared",
           "name": "Unshared",
           "package": "aterm",
@@ -1543,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Unshared",
           "name": "ATerm",
           "package": "aterm",
@@ -1551,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "ATerm Unshared",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Unshared",
           "name": "ATerm",
           "package": "aterm",
@@ -1564,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Unshared",
           "name": "AAppl",
           "package": "aterm",
@@ -1573,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "ATerm Unshared",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Unshared",
           "name": "AAppl",
           "normalized": "AAppl String[ATerm][ATerm]",
@@ -1588,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Unshared",
           "name": "AInt",
           "package": "aterm",
@@ -1597,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "ATerm Unshared",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Unshared",
           "name": "AInt",
           "normalized": "AInt Integer[ATerm]",
@@ -1612,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Unshared",
           "name": "AList",
           "package": "aterm",
@@ -1621,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "ATerm Unshared",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Unshared",
           "name": "AList",
           "normalized": "AList[ATerm][ATerm]",
@@ -1636,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Unshared",
           "name": "fromATerm",
           "package": "aterm",
@@ -1645,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "ATerm Unshared",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Unshared",
           "name": "fromATerm",
           "normalized": "ATerm-\u003ea",
@@ -1660,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Unshared",
           "name": "fromShATerm",
           "package": "aterm",
@@ -1669,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "ATerm Unshared",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Unshared",
           "name": "fromShATerm",
           "normalized": "ATermTable-\u003ea",
@@ -1684,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Unshared",
           "name": "getATermFull",
           "package": "aterm",
@@ -1693,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "ATerm Unshared",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Unshared",
           "name": "getATermFull",
           "normalized": "ATermTable-\u003eATerm",
@@ -1708,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:50 UTC 2014",
           "module": "ATerm.Unshared",
           "name": "toATermTable",
           "package": "aterm",
@@ -1717,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "ATerm Unshared",
+          "indexed": "2014-03-11T17:13:50",
           "module": "ATerm.Unshared",
           "name": "toATermTable",
           "normalized": "ATerm-\u003eATermTable",

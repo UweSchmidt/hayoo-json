@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "curl"
+        "phrase": "curl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresenting Curl's status codes as a Haskell type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "Code",
           "package": "curl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Representing Curl status codes as Haskell type",
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "Code",
           "package": "curl",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlCode",
           "package": "curl",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlCode",
           "package": "curl",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlAbortedByCallback",
           "package": "curl",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlAbortedByCallback",
           "package": "curl",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlAgain",
           "package": "curl",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlAgain",
           "package": "curl",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlBadCallingOrder",
           "package": "curl",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlBadCallingOrder",
           "package": "curl",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlBadContentEncoding",
           "package": "curl",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlBadContentEncoding",
           "package": "curl",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlBadDownloadResume",
           "package": "curl",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlBadDownloadResume",
           "package": "curl",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlBadFunctionArgument",
           "package": "curl",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlBadFunctionArgument",
           "package": "curl",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlBadPasswordEntered",
           "package": "curl",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlBadPasswordEntered",
           "package": "curl",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlConvFailed",
           "package": "curl",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlConvFailed",
           "package": "curl",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlConvReqd",
           "package": "curl",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlConvReqd",
           "package": "curl",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlCouldntConnect",
           "package": "curl",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlCouldntConnect",
           "package": "curl",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlCouldntResolveHost",
           "package": "curl",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlCouldntResolveHost",
           "package": "curl",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlCouldntResolveProxy",
           "package": "curl",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlCouldntResolveProxy",
           "package": "curl",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFailedInit",
           "package": "curl",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFailedInit",
           "package": "curl",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFileCouldntReadFile",
           "package": "curl",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFileCouldntReadFile",
           "package": "curl",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFilesizeExceeded",
           "package": "curl",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFilesizeExceeded",
           "package": "curl",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpAccessDenied",
           "package": "curl",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpAccessDenied",
           "package": "curl",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCantGetHost",
           "package": "curl",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCantGetHost",
           "package": "curl",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCantReconnect",
           "package": "curl",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCantReconnect",
           "package": "curl",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCouldnSetBinary",
           "package": "curl",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCouldnSetBinary",
           "package": "curl",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCouldnStorFile",
           "package": "curl",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCouldnStorFile",
           "package": "curl",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCouldntGetSize",
           "package": "curl",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCouldntGetSize",
           "package": "curl",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCouldntRetrFile",
           "package": "curl",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCouldntRetrFile",
           "package": "curl",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCouldntSetAscii",
           "package": "curl",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCouldntSetAscii",
           "package": "curl",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCouldntUseRest",
           "package": "curl",
@@ -577,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpCouldntUseRest",
           "package": "curl",
@@ -590,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpPortFailed",
           "package": "curl",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpPortFailed",
           "package": "curl",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpQuoteError",
           "package": "curl",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpQuoteError",
           "package": "curl",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpSSLFailed",
           "package": "curl",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpSSLFailed",
           "package": "curl",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpUserPasswordIncorrect",
           "package": "curl",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpUserPasswordIncorrect",
           "package": "curl",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpWeird227Format",
           "package": "curl",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpWeird227Format",
           "package": "curl",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpWeirdPASVReply",
           "package": "curl",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpWeirdPASVReply",
           "package": "curl",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpWeirdPassReply",
           "package": "curl",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpWeirdPassReply",
           "package": "curl",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpWeirdServerReply",
           "package": "curl",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpWeirdServerReply",
           "package": "curl",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpWeirdUserReply",
           "package": "curl",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpWeirdUserReply",
           "package": "curl",
@@ -788,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFtpWriteError",
           "package": "curl",
@@ -797,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFtpWriteError",
           "package": "curl",
@@ -810,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlFunctionNotFound",
           "package": "curl",
@@ -819,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlFunctionNotFound",
           "package": "curl",
@@ -832,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlGotNothing",
           "package": "curl",
@@ -841,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlGotNothing",
           "package": "curl",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlHttpPostError",
           "package": "curl",
@@ -863,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlHttpPostError",
           "package": "curl",
@@ -876,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlHttpRangeError",
           "package": "curl",
@@ -885,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlHttpRangeError",
           "package": "curl",
@@ -898,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlHttpReturnedError",
           "package": "curl",
@@ -907,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlHttpReturnedError",
           "package": "curl",
@@ -920,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlInterfaceFailed",
           "package": "curl",
@@ -929,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlInterfaceFailed",
           "package": "curl",
@@ -942,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlLDAPCannotBind",
           "package": "curl",
@@ -951,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlLDAPCannotBind",
           "package": "curl",
@@ -964,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlLDAPInvalidUrl",
           "package": "curl",
@@ -973,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlLDAPInvalidUrl",
           "package": "curl",
@@ -986,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlLDPAPSearchFailed",
           "package": "curl",
@@ -995,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlLDPAPSearchFailed",
           "package": "curl",
@@ -1008,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlLibraryNotFound",
           "package": "curl",
@@ -1017,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlLibraryNotFound",
           "package": "curl",
@@ -1030,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlLoginDenied",
           "package": "curl",
@@ -1039,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlLoginDenied",
           "package": "curl",
@@ -1052,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlMalformatError",
           "package": "curl",
@@ -1061,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlMalformatError",
           "package": "curl",
@@ -1074,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlOK",
           "package": "curl",
@@ -1083,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlOK",
           "package": "curl",
@@ -1096,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlObsolete",
           "package": "curl",
@@ -1105,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlObsolete",
           "package": "curl",
@@ -1118,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlOperationTimeout",
           "package": "curl",
@@ -1127,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlOperationTimeout",
           "package": "curl",
@@ -1140,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlOutOfMemory",
           "package": "curl",
@@ -1149,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlOutOfMemory",
           "package": "curl",
@@ -1162,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlPartialFile",
           "package": "curl",
@@ -1171,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlPartialFile",
           "package": "curl",
@@ -1184,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlReadError",
           "package": "curl",
@@ -1193,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlReadError",
           "package": "curl",
@@ -1206,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlRecvError",
           "package": "curl",
@@ -1215,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlRecvError",
           "package": "curl",
@@ -1228,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlRemoveFileNotFound",
           "package": "curl",
@@ -1237,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlRemoveFileNotFound",
           "package": "curl",
@@ -1250,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSSH",
           "package": "curl",
@@ -1259,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSSH",
           "package": "curl",
@@ -1272,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSSLCACert",
           "package": "curl",
@@ -1281,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSSLCACert",
           "package": "curl",
@@ -1294,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSSLCACertBadFile",
           "package": "curl",
@@ -1303,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSSLCACertBadFile",
           "package": "curl",
@@ -1316,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSSLCRLBadFile",
           "package": "curl",
@@ -1325,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSSLCRLBadFile",
           "package": "curl",
@@ -1338,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSSLCertProblem",
           "package": "curl",
@@ -1347,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSSLCertProblem",
           "package": "curl",
@@ -1360,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSSLCipher",
           "package": "curl",
@@ -1369,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSSLCipher",
           "package": "curl",
@@ -1382,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSSLConnectError",
           "package": "curl",
@@ -1391,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSSLConnectError",
           "package": "curl",
@@ -1404,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSSLEngineInitFailed",
           "package": "curl",
@@ -1413,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSSLEngineInitFailed",
           "package": "curl",
@@ -1426,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSSLEngineNotFound",
           "package": "curl",
@@ -1435,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSSLEngineNotFound",
           "package": "curl",
@@ -1448,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSSLEngineSetFailed",
           "package": "curl",
@@ -1457,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSSLEngineSetFailed",
           "package": "curl",
@@ -1470,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSSLIssuerError",
           "package": "curl",
@@ -1479,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSSLIssuerError",
           "package": "curl",
@@ -1492,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSSLPeerCertificate",
           "package": "curl",
@@ -1501,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSSLPeerCertificate",
           "package": "curl",
@@ -1514,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSSLShutdownFailed",
           "package": "curl",
@@ -1523,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSSLShutdownFailed",
           "package": "curl",
@@ -1536,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSendError",
           "package": "curl",
@@ -1545,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSendError",
           "package": "curl",
@@ -1558,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlSendFailRewind",
           "package": "curl",
@@ -1567,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlSendFailRewind",
           "package": "curl",
@@ -1580,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlShareInUse",
           "package": "curl",
@@ -1589,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlShareInUse",
           "package": "curl",
@@ -1602,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlTFtpDiskFull",
           "package": "curl",
@@ -1611,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlTFtpDiskFull",
           "package": "curl",
@@ -1624,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlTFtpExists",
           "package": "curl",
@@ -1633,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlTFtpExists",
           "package": "curl",
@@ -1646,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlTFtpIllegal",
           "package": "curl",
@@ -1655,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlTFtpIllegal",
           "package": "curl",
@@ -1668,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlTFtpNoSuchUser",
           "package": "curl",
@@ -1677,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlTFtpNoSuchUser",
           "package": "curl",
@@ -1690,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlTFtpNotFound",
           "package": "curl",
@@ -1699,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlTFtpNotFound",
           "package": "curl",
@@ -1712,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlTFtpPerm",
           "package": "curl",
@@ -1721,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlTFtpPerm",
           "package": "curl",
@@ -1734,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlTFtpUnknownId",
           "package": "curl",
@@ -1743,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlTFtpUnknownId",
           "package": "curl",
@@ -1756,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlTelnetOptionSyntax",
           "package": "curl",
@@ -1765,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlTelnetOptionSyntax",
           "package": "curl",
@@ -1778,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlTooManyRedirects",
           "package": "curl",
@@ -1787,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlTooManyRedirects",
           "package": "curl",
@@ -1800,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlUnknownTelnetOption",
           "package": "curl",
@@ -1809,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlUnknownTelnetOption",
           "package": "curl",
@@ -1822,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlUnspportedProtocol",
           "package": "curl",
@@ -1831,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlUnspportedProtocol",
           "package": "curl",
@@ -1844,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlUrlMalformat",
           "package": "curl",
@@ -1853,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlUrlMalformat",
           "package": "curl",
@@ -1866,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlUrlMalformatUser",
           "package": "curl",
@@ -1875,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlUrlMalformatUser",
           "package": "curl",
@@ -1888,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "CurlWriteError",
           "package": "curl",
@@ -1897,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "CurlWriteError",
           "package": "curl",
@@ -1910,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Code",
           "name": "toCode",
           "package": "curl",
@@ -1919,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Code",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Code",
           "name": "toCode",
           "normalized": "CInt-\u003eCurlCode",
@@ -1934,6 +2108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Debug",
           "name": "Debug",
           "package": "curl",
@@ -1942,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Debug",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Debug",
           "name": "Debug",
           "package": "curl",
@@ -1955,6 +2131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Debug",
           "name": "debug",
           "package": "curl",
@@ -1964,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Debug",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Debug",
           "name": "debug",
           "normalized": "String-\u003eIO()",
@@ -1979,6 +2157,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell binding to the libcurl \u003ca\u003ehttp://curl.haxx.se/\u003c/a\u003e \"easy\" API.\n The \"easy\" API provides a higher-level, easy-to-get-started calling\n interface to the library's wide range of features for interacting\n with HTTP/FTP/etc servers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Easy",
           "name": "Easy",
           "package": "curl",
@@ -1988,6 +2167,7 @@
         "index": {
           "description": "Haskell binding to the libcurl http curl.haxx.se easy API The easy API provides higher-level easy-to-get-started calling interface to the library wide range of features for interacting with HTTP FTP etc servers",
           "hierarchy": "Network Curl Easy",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Easy",
           "name": "Easy",
           "package": "curl",
@@ -2001,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Easy",
           "name": "curl_global_cleanup",
           "package": "curl",
@@ -2010,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Easy",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Easy",
           "name": "curl_global_cleanup",
           "normalized": "IO()",
@@ -2024,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Easy",
           "name": "curl_global_init",
           "package": "curl",
@@ -2033,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Easy",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Easy",
           "name": "curl_global_init",
           "normalized": "CInt-\u003eIO CurlCode",
@@ -2047,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Easy",
           "name": "curl_version_number",
           "package": "curl",
@@ -2056,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Easy",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Easy",
           "name": "curl_version_number",
           "package": "curl",
@@ -2068,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Easy",
           "name": "curl_version_string",
           "package": "curl",
@@ -2077,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Easy",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Easy",
           "name": "curl_version_string",
           "package": "curl",
@@ -2089,6 +2277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Easy",
           "name": "duphandle",
           "package": "curl",
@@ -2098,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Easy",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Easy",
           "name": "duphandle",
           "normalized": "Curl-\u003eIO Curl",
@@ -2113,6 +2303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialise a curl instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Easy",
           "name": "initialize",
           "package": "curl",
@@ -2123,6 +2314,7 @@
         "index": {
           "description": "Initialise curl instance",
           "hierarchy": "Network Curl Easy",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Easy",
           "name": "initialize",
           "package": "curl",
@@ -2135,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Easy",
           "name": "perform",
           "package": "curl",
@@ -2144,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Easy",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Easy",
           "name": "perform",
           "normalized": "Curl-\u003eIO CurlCode",
@@ -2158,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Easy",
           "name": "reset",
           "package": "curl",
@@ -2167,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Easy",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Easy",
           "name": "reset",
           "normalized": "Curl-\u003eIO()",
@@ -2181,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Easy",
           "name": "setopt",
           "package": "curl",
@@ -2190,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Easy",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Easy",
           "name": "setopt",
           "normalized": "Curl-\u003eCurlOption-\u003eIO CurlCode",
@@ -2205,6 +2403,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAccessing the properties of a curl handle's current state/request.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "Info",
           "package": "curl",
@@ -2214,6 +2413,7 @@
         "index": {
           "description": "Accessing the properties of curl handle current state request",
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "Info",
           "package": "curl",
@@ -2227,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "Info",
           "package": "curl",
@@ -2235,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "Info",
           "package": "curl",
@@ -2248,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "InfoValue",
           "package": "curl",
@@ -2256,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "InfoValue",
           "package": "curl",
@@ -2269,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "ConnectTime",
           "package": "curl",
@@ -2278,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "ConnectTime",
           "package": "curl",
@@ -2291,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "ContentLengthDownload",
           "package": "curl",
@@ -2300,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "ContentLengthDownload",
           "package": "curl",
@@ -2313,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "ContentLengthUpload",
           "package": "curl",
@@ -2322,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "ContentLengthUpload",
           "package": "curl",
@@ -2335,6 +2545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "ContentType",
           "package": "curl",
@@ -2344,6 +2555,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "ContentType",
           "package": "curl",
@@ -2357,6 +2569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "CookieList",
           "package": "curl",
@@ -2366,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "CookieList",
           "package": "curl",
@@ -2379,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "EffectiveUrl",
           "package": "curl",
@@ -2388,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "EffectiveUrl",
           "package": "curl",
@@ -2401,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "Filetime",
           "package": "curl",
@@ -2410,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "Filetime",
           "package": "curl",
@@ -2423,6 +2641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "FtpEntryPath",
           "package": "curl",
@@ -2432,6 +2651,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "FtpEntryPath",
           "package": "curl",
@@ -2445,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "HeaderSize",
           "package": "curl",
@@ -2454,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "HeaderSize",
           "package": "curl",
@@ -2467,6 +2689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "HttpAuthAvail",
           "package": "curl",
@@ -2476,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "HttpAuthAvail",
           "package": "curl",
@@ -2489,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "HttpConnectCode",
           "package": "curl",
@@ -2498,6 +2723,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "HttpConnectCode",
           "package": "curl",
@@ -2511,6 +2737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "IDouble",
           "package": "curl",
@@ -2520,6 +2747,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "IDouble",
           "package": "curl",
@@ -2533,6 +2761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "IList",
           "package": "curl",
@@ -2542,6 +2771,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "IList",
           "normalized": "IList[String]",
@@ -2557,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "ILong",
           "package": "curl",
@@ -2566,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "ILong",
           "package": "curl",
@@ -2579,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "IString",
           "package": "curl",
@@ -2588,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "IString",
           "package": "curl",
@@ -2601,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "LastSocket",
           "package": "curl",
@@ -2610,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "LastSocket",
           "package": "curl",
@@ -2623,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "NameLookupTime",
           "package": "curl",
@@ -2632,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "NameLookupTime",
           "package": "curl",
@@ -2645,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "NumConnects",
           "package": "curl",
@@ -2654,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "NumConnects",
           "package": "curl",
@@ -2667,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "OSErrno",
           "package": "curl",
@@ -2676,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "OSErrno",
           "package": "curl",
@@ -2689,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "PreTransferTime",
           "package": "curl",
@@ -2698,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "PreTransferTime",
           "package": "curl",
@@ -2711,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "Private",
           "package": "curl",
@@ -2720,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "Private",
           "package": "curl",
@@ -2733,6 +2979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "ProxyAuthAvail",
           "package": "curl",
@@ -2742,6 +2989,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "ProxyAuthAvail",
           "package": "curl",
@@ -2755,6 +3003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "RedirectCount",
           "package": "curl",
@@ -2764,6 +3013,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "RedirectCount",
           "package": "curl",
@@ -2777,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "RedirectTime",
           "package": "curl",
@@ -2786,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "RedirectTime",
           "package": "curl",
@@ -2799,6 +3051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "RequestSize",
           "package": "curl",
@@ -2808,6 +3061,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "RequestSize",
           "package": "curl",
@@ -2821,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "ResponseCode",
           "package": "curl",
@@ -2830,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "ResponseCode",
           "package": "curl",
@@ -2843,6 +3099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "SizeDownload",
           "package": "curl",
@@ -2852,6 +3109,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "SizeDownload",
           "package": "curl",
@@ -2865,6 +3123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "SizeUpload",
           "package": "curl",
@@ -2874,6 +3133,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "SizeUpload",
           "package": "curl",
@@ -2887,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "SpeedDownload",
           "package": "curl",
@@ -2896,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "SpeedDownload",
           "package": "curl",
@@ -2909,6 +3171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "SpeedUpload",
           "package": "curl",
@@ -2918,6 +3181,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "SpeedUpload",
           "package": "curl",
@@ -2931,6 +3195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "SslEngines",
           "package": "curl",
@@ -2940,6 +3205,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "SslEngines",
           "package": "curl",
@@ -2953,6 +3219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "SslVerifyResult",
           "package": "curl",
@@ -2962,6 +3229,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "SslVerifyResult",
           "package": "curl",
@@ -2975,6 +3243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "StartTransferTime",
           "package": "curl",
@@ -2984,6 +3253,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "StartTransferTime",
           "package": "curl",
@@ -2997,6 +3267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "TotalTime",
           "package": "curl",
@@ -3006,6 +3277,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "TotalTime",
           "package": "curl",
@@ -3019,6 +3291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Info",
           "name": "getInfo",
           "package": "curl",
@@ -3028,6 +3301,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Info",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Info",
           "name": "getInfo",
           "normalized": "Curl-\u003eInfo-\u003eIO InfoValue",
@@ -3044,6 +3318,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the various options that specify what happens\n when we use \u003ccode\u003eperform\u003c/code\u003e on a \u003ccode\u003eCurl\u003c/code\u003e handle.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "Opts",
           "package": "curl",
@@ -3053,6 +3328,7 @@
         "index": {
           "description": "This module contains the various options that specify what happens when we use perform on Curl handle",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "Opts",
           "package": "curl",
@@ -3066,6 +3342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlOption",
           "package": "curl",
@@ -3074,6 +3351,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlOption",
           "package": "curl",
@@ -3087,6 +3365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "DebugFunction",
           "package": "curl",
@@ -3095,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "DebugFunction",
           "package": "curl",
@@ -3108,6 +3388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "DebugFunctionPrim",
           "package": "curl",
@@ -3116,6 +3397,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "DebugFunctionPrim",
           "package": "curl",
@@ -3129,6 +3411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "DebugInfo",
           "package": "curl",
@@ -3137,6 +3420,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "DebugInfo",
           "package": "curl",
@@ -3150,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "HttpAuth",
           "package": "curl",
@@ -3158,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "HttpAuth",
           "package": "curl",
@@ -3171,6 +3457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "HttpVersion",
           "package": "curl",
@@ -3179,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "HttpVersion",
           "package": "curl",
@@ -3192,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "NetRcOption",
           "package": "curl",
@@ -3200,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "NetRcOption",
           "package": "curl",
@@ -3213,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "ProgressFunction",
           "package": "curl",
@@ -3221,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "ProgressFunction",
           "package": "curl",
@@ -3234,6 +3526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "ReadFunction",
           "package": "curl",
@@ -3242,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "ReadFunction",
           "package": "curl",
@@ -3255,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "ReadFunctionPrim",
           "package": "curl",
@@ -3263,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "ReadFunctionPrim",
           "package": "curl",
@@ -3276,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "SSHAuthType",
           "package": "curl",
@@ -3284,6 +3581,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "SSHAuthType",
           "package": "curl",
@@ -3297,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "SSLCtxtFunction",
           "package": "curl",
@@ -3305,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "SSLCtxtFunction",
           "package": "curl",
@@ -3318,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "TimeCond",
           "package": "curl",
@@ -3326,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "TimeCond",
           "package": "curl",
@@ -3339,6 +3641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "Unmarshaller",
           "package": "curl",
@@ -3347,6 +3650,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "Unmarshaller",
           "package": "curl",
@@ -3360,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "WriteFunction",
           "package": "curl",
@@ -3368,6 +3673,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "WriteFunction",
           "package": "curl",
@@ -3381,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlAddressScope",
           "package": "curl",
@@ -3390,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlAddressScope",
           "package": "curl",
@@ -3404,6 +3712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl if the Referer: field is set upon following Location: redirects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlAutoReferer",
           "package": "curl",
@@ -3414,6 +3723,7 @@
         "index": {
           "description": "Control if the Referer field is set upon following Location redirects",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlAutoReferer",
           "package": "curl",
@@ -3428,6 +3738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn (down, presumably) the buffers the received data is chunked up into (and reported to the WriteFunction.) A hint, library is free to ignore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlBufferSize",
           "package": "curl",
@@ -3438,6 +3749,7 @@
         "index": {
           "description": "Turn down presumably the buffers the received data is chunked up into and reported to the WriteFunction hint library is free to ignore",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlBufferSize",
           "package": "curl",
@@ -3452,6 +3764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf verifying peer's certificate, use certificates in this file to do so.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlCAInfo",
           "package": "curl",
@@ -3462,6 +3775,7 @@
         "index": {
           "description": "If verifying peer certificate use certificates in this file to do so",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlCAInfo",
           "package": "curl",
@@ -3476,6 +3790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectory holding CA certificates; used when verifying peer certificate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlCAPath",
           "package": "curl",
@@ -3486,6 +3801,7 @@
         "index": {
           "description": "Directory holding CA certificates used when verifying peer certificate",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlCAPath",
           "package": "curl",
@@ -3500,6 +3816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf true, convert Unix newlines into CRLFs when transferring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlCRLF",
           "package": "curl",
@@ -3510,6 +3827,7 @@
         "index": {
           "description": "If true convert Unix newlines into CRLFs when transferring",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlCRLF",
           "package": "curl",
@@ -3523,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlCRLFile",
           "package": "curl",
@@ -3532,6 +3851,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlCRLFile",
           "package": "curl",
@@ -3545,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlCertInfo",
           "package": "curl",
@@ -3554,6 +3875,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlCertInfo",
           "package": "curl",
@@ -3568,6 +3890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo effect (obsolete.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlClosePolicy",
           "package": "curl",
@@ -3578,6 +3901,7 @@
         "index": {
           "description": "No effect obsolete",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlClosePolicy",
           "package": "curl",
@@ -3592,6 +3916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf enabled, perform all steps up until actual transfer.\n next three for completeness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlConnectOnly",
           "package": "curl",
@@ -3602,6 +3927,7 @@
         "index": {
           "description": "If enabled perform all steps up until actual transfer next three for completeness",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlConnectOnly",
           "package": "curl",
@@ -3616,6 +3942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emax number of seconds to wait for the initial connection to happen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlConnectTimeout",
           "package": "curl",
@@ -3626,6 +3953,7 @@
         "index": {
           "description": "max number of seconds to wait for the initial connection to happen",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlConnectTimeout",
           "package": "curl",
@@ -3640,6 +3968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMax number of milliseconds that a connection attempt may take to complete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlConnectTimeoutMS",
           "package": "curl",
@@ -3650,6 +3979,7 @@
         "index": {
           "description": "Max number of milliseconds that connection attempt may take to complete",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlConnectTimeoutMS",
           "package": "curl",
@@ -3664,6 +3994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecallback for doing character translations from network format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlConvFromNetworkFunction",
           "package": "curl",
@@ -3674,6 +4005,7 @@
         "index": {
           "description": "callback for doing character translations from network format",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlConvFromNetworkFunction",
           "normalized": "CurlConvFromNetworkFunction(Ptr())",
@@ -3690,6 +4022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecallback for translating UTF8 into host encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlConvFromUtf8Function",
           "package": "curl",
@@ -3700,6 +4033,7 @@
         "index": {
           "description": "callback for translating UTF8 into host encoding",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlConvFromUtf8Function",
           "normalized": "CurlConvFromUtf Function(Ptr())",
@@ -3716,6 +4050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecallback for doing character translations to network format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlConvToNetworkFunction",
           "package": "curl",
@@ -3726,6 +4061,7 @@
         "index": {
           "description": "callback for doing character translations to network format",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlConvToNetworkFunction",
           "normalized": "CurlConvToNetworkFunction(Ptr())",
@@ -3742,6 +4078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Cookie: header to the given cookie (name=value pairs, semicolon-separated) string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlCookie",
           "package": "curl",
@@ -3752,6 +4089,7 @@
         "index": {
           "description": "Set the Cookie header to the given cookie name value pairs semicolon-separated string",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlCookie",
           "package": "curl",
@@ -3766,6 +4104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath to file holding initial cookie data; also enables cookie handling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlCookieFile",
           "package": "curl",
@@ -3776,6 +4115,7 @@
         "index": {
           "description": "Path to file holding initial cookie data also enables cookie handling",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlCookieFile",
           "package": "curl",
@@ -3790,6 +4130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath to file where additional cookie information will be stored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlCookieJar",
           "package": "curl",
@@ -3800,6 +4141,7 @@
         "index": {
           "description": "Path to file where additional cookie information will be stored",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlCookieJar",
           "package": "curl",
@@ -3814,6 +4156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCookie string to pass cookie engine; \u003ca\u003eALL\u003c/a\u003e scrubs all cookie info; \u003ca\u003eSESS\u003c/a\u003e scrubs session ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlCookieList",
           "package": "curl",
@@ -3824,6 +4167,7 @@
         "index": {
           "description": "Cookie string to pass cookie engine ALL scrubs all cookie info SESS scrubs session ones",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlCookieList",
           "package": "curl",
@@ -3838,6 +4182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal the start of a cookie session, ignoring previous session cookies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlCookieSession",
           "package": "curl",
@@ -3848,6 +4193,7 @@
         "index": {
           "description": "Signal the start of cookie session ignoring previous session cookies",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlCookieSession",
           "package": "curl",
@@ -3861,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlCopyPostFields",
           "package": "curl",
@@ -3870,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlCopyPostFields",
           "package": "curl",
@@ -3884,6 +4232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString holding alternative request command (WebDAV anyone?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlCustomRequest",
           "package": "curl",
@@ -3894,6 +4243,7 @@
         "index": {
           "description": "String holding alternative request command WebDAV anyone",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlCustomRequest",
           "package": "curl",
@@ -3908,6 +4258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of seconds to cache results of DNS lookups in memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlDNSCacheTimeout",
           "package": "curl",
@@ -3918,6 +4269,7 @@
         "index": {
           "description": "Number of seconds to cache results of DNS lookups in memory",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlDNSCacheTimeout",
           "package": "curl",
@@ -3932,6 +4284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHave library uses its MT-unfriendly DNS global cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlDNSUseGlobalCache",
           "package": "curl",
@@ -3942,6 +4295,7 @@
         "index": {
           "description": "Have library uses its MT-unfriendly DNS global cache",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlDNSUseGlobalCache",
           "package": "curl",
@@ -3956,6 +4310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estate argument to pass to debug callback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlDebugData",
           "package": "curl",
@@ -3966,6 +4321,7 @@
         "index": {
           "description": "state argument to pass to debug callback",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlDebugData",
           "normalized": "CurlDebugData(Ptr())",
@@ -3982,6 +4338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecallback to catch and report transfer operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlDebugFunction",
           "package": "curl",
@@ -3992,6 +4349,7 @@
         "index": {
           "description": "callback to catch and report transfer operations",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlDebugFunction",
           "package": "curl",
@@ -4006,6 +4364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath to domain socket of EG Daemon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlEgdSocket",
           "package": "curl",
@@ -4016,6 +4375,7 @@
         "index": {
           "description": "Path to domain socket of EG Daemon",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlEgdSocket",
           "package": "curl",
@@ -4030,6 +4390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to report in the Accept-Encoding: header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlEncoding",
           "package": "curl",
@@ -4040,6 +4401,7 @@
         "index": {
           "description": "What to report in the Accept-Encoding header",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlEncoding",
           "package": "curl",
@@ -4054,6 +4416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuffer for curl to deposit error messages (must at least CURL_ERROR_SIZE bytes long). Uses standard error if not specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlErrorBuffer",
           "package": "curl",
@@ -4064,6 +4427,7 @@
         "index": {
           "description": "buffer for curl to deposit error messages must at least CURL ERROR SIZE bytes long Uses standard error if not specified",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlErrorBuffer",
           "package": "curl",
@@ -4078,6 +4442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf status response is \u003e= 300, return an error (and no other output).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFailOnError",
           "package": "curl",
@@ -4088,6 +4453,7 @@
         "index": {
           "description": "If status response is return an error and no other output",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFailOnError",
           "package": "curl",
@@ -4102,6 +4468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexternal pointer to pass to as \u003ccode\u003e\u003ca\u003eWriteFunction\u003c/a\u003e\u003c/code\u003es last argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFileObj",
           "package": "curl",
@@ -4112,6 +4479,7 @@
         "index": {
           "description": "external pointer to pass to as WriteFunction last argument",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFileObj",
           "normalized": "CurlFileObj(Ptr())",
@@ -4128,6 +4496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to determine the modification date of remote document; can be queried for.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFiletime",
           "package": "curl",
@@ -4138,6 +4507,7 @@
         "index": {
           "description": "Try to determine the modification date of remote document can be queried for",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFiletime",
           "package": "curl",
@@ -4152,6 +4522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle auto-redirects by chasing down Location: values in responses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFollowLocation",
           "package": "curl",
@@ -4162,6 +4533,7 @@
         "index": {
           "description": "Handle auto-redirects by chasing down Location values in responses",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFollowLocation",
           "package": "curl",
@@ -4176,6 +4548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not reuse the connection of next transfer when done.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlForbidReuse",
           "package": "curl",
@@ -4186,6 +4559,7 @@
         "index": {
           "description": "Do not reuse the connection of next transfer when done",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlForbidReuse",
           "package": "curl",
@@ -4200,6 +4574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce the opening up a new connection rather than try to reuse active connections. Default is not to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFreshConnect",
           "package": "curl",
@@ -4210,6 +4585,7 @@
         "index": {
           "description": "Force the opening up new connection rather than try to reuse active connections Default is not to",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFreshConnect",
           "package": "curl",
@@ -4224,6 +4600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe string to use when server asks for account info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpAccount",
           "package": "curl",
@@ -4234,6 +4611,7 @@
         "index": {
           "description": "The string to use when server asks for account info",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpAccount",
           "package": "curl",
@@ -4248,6 +4626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative (to user:pass) for FTP authentication; weird.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpAlternativeToUser",
           "package": "curl",
@@ -4258,6 +4637,7 @@
         "index": {
           "description": "Alternative to user pass for FTP authentication weird",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpAlternativeToUser",
           "package": "curl",
@@ -4272,6 +4652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl if FTP uploads append rather than overwrite files \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpAppend",
           "package": "curl",
@@ -4282,6 +4663,7 @@
         "index": {
           "description": "Control if FTP uploads append rather than overwrite files",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpAppend",
           "package": "curl",
@@ -4296,6 +4678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHave remote directories be created if not already there\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpCreateMissingDirs",
           "package": "curl",
@@ -4306,6 +4689,7 @@
         "index": {
           "description": "Have remote directories be created if not already there",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpCreateMissingDirs",
           "package": "curl",
@@ -4320,6 +4704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to navigate to a file on the remote server (single, multiple CWDs).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpFileMethod",
           "package": "curl",
@@ -4330,6 +4715,7 @@
         "index": {
           "description": "How to navigate to file on the remote server single multiple CWDs",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpFileMethod",
           "package": "curl",
@@ -4344,6 +4730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitch NLST for FTP directory listings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpListOnly",
           "package": "curl",
@@ -4354,6 +4741,7 @@
         "index": {
           "description": "Switch NLST for FTP directory listings",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpListOnly",
           "package": "curl",
@@ -4368,6 +4756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe string to feed to the FTP PORT command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpPort",
           "package": "curl",
@@ -4378,6 +4767,7 @@
         "index": {
           "description": "The string to feed to the FTP PORT command",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpPort",
           "package": "curl",
@@ -4392,6 +4782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emax number of seconds to wait for remote server to ACK commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpResponseTimeout",
           "package": "curl",
@@ -4402,6 +4793,7 @@
         "index": {
           "description": "max number of seconds to wait for remote server to ACK commands",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpResponseTimeout",
           "package": "curl",
@@ -4416,6 +4808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry enabling the use of SSL for FTP control connections and/or transfers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpSSL",
           "package": "curl",
@@ -4426,6 +4819,7 @@
         "index": {
           "description": "Try enabling the use of SSL for FTP control connections and or transfers",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpSSL",
           "package": "curl",
@@ -4440,6 +4834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwiddle if TLS or SSL is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpSSLAuth",
           "package": "curl",
@@ -4450,6 +4845,7 @@
         "index": {
           "description": "Twiddle if TLS or SSL is used",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpSSLAuth",
           "package": "curl",
@@ -4464,6 +4860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend CCC command after FTP connection has been authenticated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpSSLCCC",
           "package": "curl",
@@ -4474,6 +4871,7 @@
         "index": {
           "description": "Send CCC command after FTP connection has been authenticated",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpSSLCCC",
           "package": "curl",
@@ -4488,6 +4886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore IP address in 227 responses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpSkipPASVIP",
           "package": "curl",
@@ -4498,6 +4897,7 @@
         "index": {
           "description": "Ignore IP address in responses",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpSkipPASVIP",
           "package": "curl",
@@ -4512,6 +4912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt the use of EPSV before PASV for passive FTP downloads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpUseEPSV",
           "package": "curl",
@@ -4522,6 +4923,7 @@
         "index": {
           "description": "Attempt the use of EPSV before PASV for passive FTP downloads",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFtpUseEPSV",
           "package": "curl",
@@ -4536,6 +4938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor active FTP downloads, try using EPRT command over LPRT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlFtppUseEPRT",
           "package": "curl",
@@ -4546,6 +4949,7 @@
         "index": {
           "description": "For active FTP downloads try using EPRT command over LPRT",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlFtppUseEPRT",
           "package": "curl",
@@ -4560,6 +4964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay outgoing and incoming headers \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlHeader",
           "package": "curl",
@@ -4570,6 +4975,7 @@
         "index": {
           "description": "Display outgoing and incoming headers",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlHeader",
           "package": "curl",
@@ -4584,6 +4990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecallback used to handle _incoming_ header data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlHeaderFunction",
           "package": "curl",
@@ -4594,6 +5001,7 @@
         "index": {
           "description": "callback used to handle incoming header data",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlHeaderFunction",
           "package": "curl",
@@ -4608,6 +5016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternatives to standard 200 OK response strings; whatever it takes, I suppose.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlHttp200Aliases",
           "package": "curl",
@@ -4618,6 +5027,7 @@
         "index": {
           "description": "Alternatives to standard OK response strings whatever it takes suppose",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlHttp200Aliases",
           "package": "curl",
@@ -4632,6 +5042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState your authentication preferences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpAuth",
           "package": "curl",
@@ -4642,6 +5053,7 @@
         "index": {
           "description": "State your authentication preferences",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpAuth",
           "normalized": "CurlHttpAuth[HttpAuth]",
@@ -4658,6 +5070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisable content decoding, getting the raw bits.\n sync'ed wrt 7.19.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpContentDecoding",
           "package": "curl",
@@ -4668,6 +5081,7 @@
         "index": {
           "description": "Disable content decoding getting the raw bits sync ed wrt",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpContentDecoding",
           "package": "curl",
@@ -4682,6 +5096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRevert to a GET for the next request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpGet",
           "package": "curl",
@@ -4692,6 +5107,7 @@
         "index": {
           "description": "Revert to GET for the next request",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpGet",
           "package": "curl",
@@ -4706,6 +5122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbellish the outgoing request with the given list of (formatted) header values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpHeaders",
           "package": "curl",
@@ -4716,6 +5133,7 @@
         "index": {
           "description": "Embellish the outgoing request with the given list of formatted header values",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpHeaders",
           "normalized": "CurlHttpHeaders[String]",
@@ -4732,6 +5150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Multipart) POST data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpPost",
           "package": "curl",
@@ -4742,6 +5161,7 @@
         "index": {
           "description": "Multipart POST data",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpPost",
           "normalized": "CurlHttpPost[HttpPost]",
@@ -4758,6 +5178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etunnel all HTTP operations through the proxy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpProxyTunnel",
           "package": "curl",
@@ -4768,6 +5189,7 @@
         "index": {
           "description": "tunnel all HTTP operations through the proxy",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpProxyTunnel",
           "package": "curl",
@@ -4782,6 +5204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisable transfer decoding; if disabled, curl will turn off chunking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpTransferDecoding",
           "package": "curl",
@@ -4792,6 +5215,7 @@
         "index": {
           "description": "Disable transfer decoding if disabled curl will turn off chunking",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpTransferDecoding",
           "package": "curl",
@@ -4806,6 +5230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat HTTP version to use, should you want to drop back for some reason.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpVersion",
           "package": "curl",
@@ -4816,6 +5241,7 @@
         "index": {
           "description": "What HTTP version to use should you want to drop back for some reason",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlHttpVersion",
           "package": "curl",
@@ -4830,6 +5256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estate argument to the above.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlIOCTLData",
           "package": "curl",
@@ -4840,6 +5267,7 @@
         "index": {
           "description": "state argument to the above",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlIOCTLData",
           "normalized": "CurlIOCTLData(Ptr())",
@@ -4856,6 +5284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esomewhat obscure callback for handling read stream resets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlIOCTLFunction",
           "package": "curl",
@@ -4866,6 +5295,7 @@
         "index": {
           "description": "somewhat obscure callback for handling read stream resets",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlIOCTLFunction",
           "normalized": "CurlIOCTLFunction(Ptr())",
@@ -4882,6 +5312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to resolve wrt IPv4 or IPv6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlIPResolve",
           "package": "curl",
@@ -4892,6 +5323,7 @@
         "index": {
           "description": "Whether to resolve wrt IPv4 or IPv6",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlIPResolve",
           "package": "curl",
@@ -4906,6 +5338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf Content-Length: values are troublesome (wrong, perhaps?), use this option to ignore using them as guidance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlIgnoreContentLength",
           "package": "curl",
@@ -4916,6 +5349,7 @@
         "index": {
           "description": "If Content-Length values are troublesome wrong perhaps use this option to ignore using them as guidance",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlIgnoreContentLength",
           "package": "curl",
@@ -4930,6 +5364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexternal pointer to pass to as \u003ccode\u003e\u003ca\u003eWriteFunction\u003c/a\u003e\u003c/code\u003es last argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlInFile",
           "package": "curl",
@@ -4940,6 +5375,7 @@
         "index": {
           "description": "external pointer to pass to as WriteFunction last argument",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlInFile",
           "package": "curl",
@@ -4954,6 +5390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexpected size of uploaded data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlInFileSize",
           "package": "curl",
@@ -4964,6 +5401,7 @@
         "index": {
           "description": "expected size of uploaded data",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlInFileSize",
           "package": "curl",
@@ -4978,6 +5416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWider alternative of option giving upper bound of uploaded content (-1 =\u003e unknown.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlInFileSizeLarge",
           "package": "curl",
@@ -4988,6 +5427,7 @@
         "index": {
           "description": "Wider alternative of option giving upper bound of uploaded content unknown",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlInFileSizeLarge",
           "package": "curl",
@@ -5002,6 +5442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface name of outgoing network interface ( network interface, IP address, host name.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlInterface",
           "package": "curl",
@@ -5012,6 +5453,7 @@
         "index": {
           "description": "Interface name of outgoing network interface network interface IP address host name",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlInterface",
           "package": "curl",
@@ -5025,6 +5467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlIssuerCert",
           "package": "curl",
@@ -5034,6 +5477,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlIssuerCert",
           "package": "curl",
@@ -5048,6 +5492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKerberos security level (\u003ca\u003eclear\u003c/a\u003e, \u003ca\u003esafe\u003c/a\u003e, \u003ca\u003econfidential\u003c/a\u003e, \u003ca\u003eprivate\u003c/a\u003e are good values, seemingly.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlKrb4Level",
           "package": "curl",
@@ -5058,6 +5503,7 @@
         "index": {
           "description": "Kerberos security level clear safe confidential private are good values seemingly",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlKrb4Level",
           "package": "curl",
@@ -5072,6 +5518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat local port to use for established connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlLocalPort",
           "package": "curl",
@@ -5082,6 +5529,7 @@
         "index": {
           "description": "What local port to use for established connection",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlLocalPort",
           "package": "curl",
@@ -5096,6 +5544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of attempts at finding local ports (using LocalPort as initial base.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlLocalPortRange",
           "package": "curl",
@@ -5106,6 +5555,7 @@
         "index": {
           "description": "Number of attempts at finding local ports using LocalPort as initial base",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlLocalPortRange",
           "package": "curl",
@@ -5120,6 +5570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the bytes per sec drops below the given value, the operation is aborted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlLowSpeed",
           "package": "curl",
@@ -5130,6 +5581,7 @@
         "index": {
           "description": "If the bytes per sec drops below the given value the operation is aborted",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlLowSpeed",
           "package": "curl",
@@ -5144,6 +5596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpper bound for request to complete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlLowSpeedTime",
           "package": "curl",
@@ -5154,6 +5607,7 @@
         "index": {
           "description": "Upper bound for request to complete",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlLowSpeedTime",
           "package": "curl",
@@ -5168,6 +5622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum number of cached active connections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlMaxConnects",
           "package": "curl",
@@ -5178,6 +5633,7 @@
         "index": {
           "description": "Maximum number of cached active connections",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlMaxConnects",
           "package": "curl",
@@ -5192,6 +5648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimit the number of bytes you're willing to download.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlMaxFileSize",
           "package": "curl",
@@ -5202,6 +5659,7 @@
         "index": {
           "description": "Limit the number of bytes you re willing to download",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlMaxFileSize",
           "package": "curl",
@@ -5216,6 +5674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWider alternative for specifying max download size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlMaxFileSizeLarge",
           "package": "curl",
@@ -5226,6 +5685,7 @@
         "index": {
           "description": "Wider alternative for specifying max download size",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlMaxFileSizeLarge",
           "package": "curl",
@@ -5240,6 +5700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies throttle for incoming data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlMaxRecvSpeedLarge",
           "package": "curl",
@@ -5250,6 +5711,7 @@
         "index": {
           "description": "Specifies throttle for incoming data",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlMaxRecvSpeedLarge",
           "package": "curl",
@@ -5264,6 +5726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum number of Location: redirects to chase down before giving up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlMaxRedirs",
           "package": "curl",
@@ -5274,6 +5737,7 @@
         "index": {
           "description": "Maximum number of Location redirects to chase down before giving up",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlMaxRedirs",
           "package": "curl",
@@ -5288,6 +5752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies throttle value for outgoing data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlMaxSendSpeedLarge",
           "package": "curl",
@@ -5298,6 +5763,7 @@
         "index": {
           "description": "Specifies throttle value for outgoing data",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlMaxSendSpeedLarge",
           "package": "curl",
@@ -5312,6 +5778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath to user's .netrc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlNetrcFile",
           "package": "curl",
@@ -5322,6 +5789,7 @@
         "index": {
           "description": "Path to user netrc",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlNetrcFile",
           "package": "curl",
@@ -5335,6 +5803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlNewDirectoryPerms",
           "package": "curl",
@@ -5344,6 +5813,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlNewDirectoryPerms",
           "package": "curl",
@@ -5357,6 +5827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlNewFilePerms",
           "package": "curl",
@@ -5366,6 +5837,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlNewFilePerms",
           "package": "curl",
@@ -5380,6 +5852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse HEAD instead of GET\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlNoBody",
           "package": "curl",
@@ -5390,6 +5863,7 @@
         "index": {
           "description": "Use HEAD instead of GET",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlNoBody",
           "package": "curl",
@@ -5404,6 +5878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl progress meter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlNoProgress",
           "package": "curl",
@@ -5414,6 +5889,7 @@
         "index": {
           "description": "Control progress meter",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlNoProgress",
           "package": "curl",
@@ -5428,6 +5904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn off use of signals internally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlNoSignal",
           "package": "curl",
@@ -5438,6 +5915,7 @@
         "index": {
           "description": "Turn off use of signals internally",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlNoSignal",
           "package": "curl",
@@ -5452,6 +5930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhat port to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlPort",
           "package": "curl",
@@ -5462,6 +5941,7 @@
         "index": {
           "description": "what port to use",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlPort",
           "package": "curl",
@@ -5476,6 +5956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIssue a POST request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlPost",
           "package": "curl",
@@ -5486,6 +5967,7 @@
         "index": {
           "description": "Issue POST request",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlPost",
           "package": "curl",
@@ -5500,6 +5982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the POSTed data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlPostFieldSize",
           "package": "curl",
@@ -5510,6 +5993,7 @@
         "index": {
           "description": "Size of the POSTed data",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlPostFieldSize",
           "package": "curl",
@@ -5524,6 +6008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of data to POST; if unspecified (or -1), curl uses strlen().\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlPostFieldSizeLarge",
           "package": "curl",
@@ -5534,6 +6019,7 @@
         "index": {
           "description": "Size of data to POST if unspecified or curl uses strlen",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlPostFieldSizeLarge",
           "package": "curl",
@@ -5548,6 +6034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Multipart) POST data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlPostFields",
           "package": "curl",
@@ -5558,6 +6045,7 @@
         "index": {
           "description": "Multipart POST data",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlPostFields",
           "normalized": "CurlPostFields[String]",
@@ -5574,6 +6062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of commands to issue to FTP server after the main request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlPostQuote",
           "package": "curl",
@@ -5584,6 +6073,7 @@
         "index": {
           "description": "List of commands to issue to FTP server after the main request",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlPostQuote",
           "normalized": "CurlPostQuote[String]",
@@ -5599,6 +6089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlPostRedirect",
           "package": "curl",
@@ -5608,6 +6099,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlPostRedirect",
           "package": "curl",
@@ -5622,6 +6114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFTP commands to issue after connection and transfer mode has been set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlPreQuote",
           "package": "curl",
@@ -5632,6 +6125,7 @@
         "index": {
           "description": "FTP commands to issue after connection and transfer mode has been set",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlPreQuote",
           "normalized": "CurlPreQuote[String]",
@@ -5648,6 +6142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData associated with a Curl handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlPrivate",
           "package": "curl",
@@ -5658,6 +6153,7 @@
         "index": {
           "description": "Data associated with Curl handle",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlPrivate",
           "normalized": "CurlPrivate(Ptr())",
@@ -5674,6 +6170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estate argumentto pass to progress callback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlProgressData",
           "package": "curl",
@@ -5684,6 +6181,7 @@
         "index": {
           "description": "state argumentto pass to progress callback",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlProgressData",
           "normalized": "CurlProgressData(Ptr())",
@@ -5700,6 +6198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecallback for showing progress\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlProgressFunction",
           "package": "curl",
@@ -5710,6 +6209,7 @@
         "index": {
           "description": "callback for showing progress",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlProgressFunction",
           "package": "curl",
@@ -5724,6 +6224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of proxy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlProxy",
           "package": "curl",
@@ -5734,6 +6235,7 @@
         "index": {
           "description": "name of proxy",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlProxy",
           "package": "curl",
@@ -5748,6 +6250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat preferred authentication schemes to use wrt. proxy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlProxyAuth",
           "package": "curl",
@@ -5758,6 +6261,7 @@
         "index": {
           "description": "What preferred authentication schemes to use wrt proxy",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlProxyAuth",
           "normalized": "CurlProxyAuth[HttpAuth]",
@@ -5773,6 +6277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlProxyPassword",
           "package": "curl",
@@ -5782,6 +6287,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlProxyPassword",
           "package": "curl",
@@ -5796,6 +6302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Numeric) proxy port to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlProxyPort",
           "package": "curl",
@@ -5806,6 +6313,7 @@
         "index": {
           "description": "Numeric proxy port to use",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlProxyPort",
           "package": "curl",
@@ -5819,6 +6327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlProxyTransferMode",
           "package": "curl",
@@ -5828,6 +6337,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlProxyTransferMode",
           "package": "curl",
@@ -5842,6 +6352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat type of proxy to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlProxyType",
           "package": "curl",
@@ -5852,6 +6363,7 @@
         "index": {
           "description": "What type of proxy to use",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlProxyType",
           "package": "curl",
@@ -5865,6 +6377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlProxyUser",
           "package": "curl",
@@ -5874,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlProxyUser",
           "package": "curl",
@@ -5888,6 +6402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esame thing, but for the proxy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlProxyUserPwd",
           "package": "curl",
@@ -5898,6 +6413,7 @@
         "index": {
           "description": "same thing but for the proxy",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlProxyUserPwd",
           "package": "curl",
@@ -5912,6 +6428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse PUT to upload data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlPut",
           "package": "curl",
@@ -5922,6 +6439,7 @@
         "index": {
           "description": "Use PUT to upload data",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlPut",
           "package": "curl",
@@ -5936,6 +6454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence of FTP commands to execute prior to the main request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlQuote",
           "package": "curl",
@@ -5946,6 +6465,7 @@
         "index": {
           "description": "Sequence of FTP commands to execute prior to the main request",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlQuote",
           "normalized": "CurlQuote[String]",
@@ -5962,6 +6482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath to file used to seed (Open)SSL PRNG.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlRandomFile",
           "package": "curl",
@@ -5972,6 +6493,7 @@
         "index": {
           "description": "Path to file used to seed Open SSL PRNG",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlRandomFile",
           "package": "curl",
@@ -5986,6 +6508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebyte range to fetch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlRange",
           "package": "curl",
@@ -5996,6 +6519,7 @@
         "index": {
           "description": "byte range to fetch",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlRange",
           "package": "curl",
@@ -6010,6 +6534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecallback for supplying outgoing/uploaded data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlReadFunction",
           "package": "curl",
@@ -6020,6 +6545,7 @@
         "index": {
           "description": "callback for supplying outgoing uploaded data",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlReadFunction",
           "package": "curl",
@@ -6034,6 +6560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Referer: header to the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlReferer",
           "package": "curl",
@@ -6044,6 +6571,7 @@
         "index": {
           "description": "Set the Referer header to the given string",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlReferer",
           "package": "curl",
@@ -6058,6 +6586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eByte offset at which the transfer (HTTP or FTP) should start from.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlResumeFrom",
           "package": "curl",
@@ -6068,6 +6597,7 @@
         "index": {
           "description": "Byte offset at which the transfer HTTP or FTP should start from",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlResumeFrom",
           "package": "curl",
@@ -6082,6 +6612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWider alternative for specifying initial transfer offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlResumeFromLarge",
           "package": "curl",
@@ -6092,6 +6623,7 @@
         "index": {
           "description": "Wider alternative for specifying initial transfer offset",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlResumeFromLarge",
           "package": "curl",
@@ -6106,6 +6638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSSH authentication methods to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSHAuthTypes",
           "package": "curl",
@@ -6116,6 +6649,7 @@
         "index": {
           "description": "SSH authentication methods to use",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSHAuthTypes",
           "normalized": "CurlSSHAuthTypes[SSHAuthType]",
@@ -6131,6 +6665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSHHostPublicKeyMD5",
           "package": "curl",
@@ -6140,6 +6675,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSHHostPublicKeyMD5",
           "package": "curl",
@@ -6154,6 +6690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath to file holding user's SSH private key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSHPrivateKeyFile",
           "package": "curl",
@@ -6164,6 +6701,7 @@
         "index": {
           "description": "Path to file holding user SSH private key",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSHPrivateKeyFile",
           "package": "curl",
@@ -6178,6 +6716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath to file holding user's SSH public key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSHPublicKeyFile",
           "package": "curl",
@@ -6188,6 +6727,7 @@
         "index": {
           "description": "Path to file holding user SSH public key",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSHPublicKeyFile",
           "package": "curl",
@@ -6202,6 +6742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efile holding your private SSL certificates (default format is PEM).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLCert",
           "package": "curl",
@@ -6212,6 +6753,7 @@
         "index": {
           "description": "file holding your private SSL certificates default format is PEM",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLCert",
           "package": "curl",
@@ -6226,6 +6768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe format of your certificates (\u003ca\u003ePEM\u003c/a\u003e, \u003ca\u003eDER\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLCertType",
           "package": "curl",
@@ -6236,6 +6779,7 @@
         "index": {
           "description": "The format of your certificates PEM DER",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLCertType",
           "package": "curl",
@@ -6250,6 +6794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColon-separated string list of cipher preferences to use for upcoming connection (e.g., \u003ca\u003e3DES:+RSA\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLCipherList",
           "package": "curl",
@@ -6260,6 +6805,7 @@
         "index": {
           "description": "Colon-separated string list of cipher preferences to use for upcoming connection e.g DES RSA",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLCipherList",
           "package": "curl",
@@ -6274,6 +6820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estate argument to pass into the above callback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLCtxData",
           "package": "curl",
@@ -6284,6 +6831,7 @@
         "index": {
           "description": "state argument to pass into the above callback",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLCtxData",
           "normalized": "CurlSSLCtxData(Ptr())",
@@ -6300,6 +6848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecallback to handle setting up SSL connections; have the power to abort them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLCtxFunction",
           "package": "curl",
@@ -6310,6 +6859,7 @@
         "index": {
           "description": "callback to handle setting up SSL connections have the power to abort them",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLCtxFunction",
           "package": "curl",
@@ -6324,6 +6874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of crypto engine to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLEngine",
           "package": "curl",
@@ -6334,6 +6885,7 @@
         "index": {
           "description": "Name of crypto engine to use",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLEngine",
           "package": "curl",
@@ -6348,6 +6900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake crypto engine the default for crypto operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLEngineDefault",
           "package": "curl",
@@ -6358,6 +6911,7 @@
         "index": {
           "description": "Make crypto engine the default for crypto operations",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLEngineDefault",
           "package": "curl",
@@ -6372,6 +6926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilename of private key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLKey",
           "package": "curl",
@@ -6382,6 +6937,7 @@
         "index": {
           "description": "Filename of private key",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLKey",
           "package": "curl",
@@ -6396,6 +6952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean alias for the previous.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLKeyPassword",
           "package": "curl",
@@ -6406,6 +6963,7 @@
         "index": {
           "description": "an alias for the previous",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLKeyPassword",
           "package": "curl",
@@ -6420,6 +6978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat of private key; use \u003ca\u003eENG\u003c/a\u003e to load from a crypto engine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLKeyType",
           "package": "curl",
@@ -6430,6 +6989,7 @@
         "index": {
           "description": "Format of private key use ENG to load from crypto engine",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLKeyType",
           "package": "curl",
@@ -6444,6 +7004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epassword to the above file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLPassword",
           "package": "curl",
@@ -6454,6 +7015,7 @@
         "index": {
           "description": "password to the above file",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLPassword",
           "package": "curl",
@@ -6468,6 +7030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable the SSL session id cache; default is on, so use this to disable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLSessionIdCache",
           "package": "curl",
@@ -6478,6 +7041,7 @@
         "index": {
           "description": "Enable the SSL session id cache default is on so use this to disable",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLSessionIdCache",
           "package": "curl",
@@ -6492,6 +7056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform Common name checking in peer certificate (1=\u003e existence;2=\u003e matches hostname.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLVerifyHost",
           "package": "curl",
@@ -6502,6 +7067,7 @@
         "index": {
           "description": "Perform Common name checking in peer certificate existence matches hostname",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLVerifyHost",
           "package": "curl",
@@ -6516,6 +7082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable the authentication of peer certificate. Default is True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLVerifyPeer",
           "package": "curl",
@@ -6526,6 +7093,7 @@
         "index": {
           "description": "Enable the authentication of peer certificate Default is True",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLVerifyPeer",
           "package": "curl",
@@ -6540,6 +7108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat protocol to attempt using (0:default;1:TLS;2:SSLv2;3:SSLv3)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLVersion",
           "package": "curl",
@@ -6550,6 +7119,7 @@
         "index": {
           "description": "What protocol to attempt using default TLS SSLv2 SSLv3",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSSLVersion",
           "package": "curl",
@@ -6564,6 +7134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShare handles are used for sharing data among concurrent Curl objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlShare",
           "package": "curl",
@@ -6574,6 +7145,7 @@
         "index": {
           "description": "Share handles are used for sharing data among concurrent Curl objects",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlShare",
           "normalized": "CurlShare(Ptr())",
@@ -6590,6 +7162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estate argument to the above.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSockOptData",
           "package": "curl",
@@ -6600,6 +7173,7 @@
         "index": {
           "description": "state argument to the above",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSockOptData",
           "normalized": "CurlSockOptData(Ptr())",
@@ -6616,6 +7190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecallback that's injected between socket creation and connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlSockOptFunction",
           "package": "curl",
@@ -6626,6 +7201,7 @@
         "index": {
           "description": "callback that injected between socket creation and connection",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlSockOptFunction",
           "normalized": "CurlSockOptFunction(Ptr())",
@@ -6642,6 +7218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn on or off the TCP/IP NODELAY option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlTCPNoDelay",
           "package": "curl",
@@ -6652,6 +7229,7 @@
         "index": {
           "description": "Turn on or off the TCP IP NODELAY option",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlTCPNoDelay",
           "package": "curl",
@@ -6666,6 +7244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of commands to use for initial telnet negotiations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlTelnetOptions",
           "package": "curl",
@@ -6676,6 +7255,7 @@
         "index": {
           "description": "List of commands to use for initial telnet negotiations",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlTelnetOptions",
           "normalized": "CurlTelnetOptions[String]",
@@ -6692,6 +7272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to interpret a conditional time value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlTimeCondition",
           "package": "curl",
@@ -6702,6 +7283,7 @@
         "index": {
           "description": "How to interpret conditional time value",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlTimeCondition",
           "package": "curl",
@@ -6716,6 +7298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of secs since Jan 1, 1970. Interpretation is determined by CurlTimeCondition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlTimeValue",
           "package": "curl",
@@ -6726,6 +7309,7 @@
         "index": {
           "description": "Number of secs since Jan Interpretation is determined by CurlTimeCondition",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlTimeValue",
           "package": "curl",
@@ -6740,6 +7324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of seconds before timing out curl operation/request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlTimeout",
           "package": "curl",
@@ -6750,6 +7335,7 @@
         "index": {
           "description": "number of seconds before timing out curl operation request",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlTimeout",
           "package": "curl",
@@ -6764,6 +7350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMax number of milliseconds that a transfer may take.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlTimeoutMS",
           "package": "curl",
@@ -6774,6 +7361,7 @@
         "index": {
           "description": "Max number of milliseconds that transfer may take",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlTimeoutMS",
           "package": "curl",
@@ -6788,6 +7376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn on ASCII transfers for FTP transfers; default is binary (i.e. off).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlTransferTextASCII",
           "package": "curl",
@@ -6798,6 +7387,7 @@
         "index": {
           "description": "Turn on ASCII transfers for FTP transfers default is binary i.e off",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlTransferTextASCII",
           "package": "curl",
@@ -6812,6 +7402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe URL to use for next request; can be the full URL or just the authority/hostname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlURL",
           "package": "curl",
@@ -6822,6 +7413,7 @@
         "index": {
           "description": "the URL to use for next request can be the full URL or just the authority hostname",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlURL",
           "package": "curl",
@@ -6836,6 +7428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass on user:pass when following redirects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlUnrestrictedAuth",
           "package": "curl",
@@ -6846,6 +7439,7 @@
         "index": {
           "description": "Pass on user pass when following redirects",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlUnrestrictedAuth",
           "package": "curl",
@@ -6860,6 +7454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl the main dataflow, i.e., True to perform uploads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlUpload",
           "package": "curl",
@@ -6870,6 +7465,7 @@
         "index": {
           "description": "Control the main dataflow i.e True to perform uploads",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlUpload",
           "package": "curl",
@@ -6884,6 +7480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econtrol how or if a user's.netrc will be consulted for user:password\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlUseNetRc",
           "package": "curl",
@@ -6894,6 +7491,7 @@
         "index": {
           "description": "control how or if user s.netrc will be consulted for user password",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlUseNetRc",
           "package": "curl",
@@ -6908,6 +7506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the User-Agent: header to the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlUserAgent",
           "package": "curl",
@@ -6918,6 +7517,7 @@
         "index": {
           "description": "Set the User-Agent header to the given string",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlUserAgent",
           "package": "curl",
@@ -6931,6 +7531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlUserName",
           "package": "curl",
@@ -6940,6 +7541,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlUserName",
           "package": "curl",
@@ -6953,6 +7555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlUserPassword",
           "package": "curl",
@@ -6962,6 +7565,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlUserPassword",
           "package": "curl",
@@ -6976,6 +7580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe \u003ca\u003euser:pass\u003c/a\u003e string to use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlUserPwd",
           "package": "curl",
@@ -6986,6 +7591,7 @@
         "index": {
           "description": "the user pass string to use",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlUserPwd",
           "package": "curl",
@@ -7000,6 +7606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl verbosity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlVerbose",
           "package": "curl",
@@ -7010,6 +7617,7 @@
         "index": {
           "description": "Control verbosity",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlVerbose",
           "package": "curl",
@@ -7024,6 +7632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecallback to handle incoming data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlWriteFunction",
           "package": "curl",
@@ -7034,6 +7643,7 @@
         "index": {
           "description": "callback to handle incoming data",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlWriteFunction",
           "package": "curl",
@@ -7048,6 +7658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState / pointer argument to pass to WriteFunction callback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlWriteHeader",
           "package": "curl",
@@ -7058,6 +7669,7 @@
         "index": {
           "description": "State pointer argument to pass to WriteFunction callback",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlWriteHeader",
           "normalized": "CurlWriteHeader(Ptr())",
@@ -7074,6 +7686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot sure what this one does; something about passing it to the output function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "CurlWriteInfo",
           "package": "curl",
@@ -7084,6 +7697,7 @@
         "index": {
           "description": "Not sure what this one does something about passing it to the output function",
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "CurlWriteInfo",
           "package": "curl",
@@ -7097,6 +7711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "HttpAuthAny",
           "package": "curl",
@@ -7106,6 +7721,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "HttpAuthAny",
           "package": "curl",
@@ -7119,6 +7735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "HttpAuthAnySafe",
           "package": "curl",
@@ -7128,6 +7745,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "HttpAuthAnySafe",
           "package": "curl",
@@ -7141,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "HttpAuthBasic",
           "package": "curl",
@@ -7150,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "HttpAuthBasic",
           "package": "curl",
@@ -7163,6 +7783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "HttpAuthDigest",
           "package": "curl",
@@ -7172,6 +7793,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "HttpAuthDigest",
           "package": "curl",
@@ -7185,6 +7807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "HttpAuthGSSNegotiate",
           "package": "curl",
@@ -7194,6 +7817,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "HttpAuthGSSNegotiate",
           "package": "curl",
@@ -7207,6 +7831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "HttpAuthNTLM",
           "package": "curl",
@@ -7216,6 +7841,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "HttpAuthNTLM",
           "package": "curl",
@@ -7229,6 +7855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "HttpAuthNone",
           "package": "curl",
@@ -7238,6 +7865,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "HttpAuthNone",
           "package": "curl",
@@ -7251,6 +7879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "HttpVersion10",
           "package": "curl",
@@ -7260,6 +7889,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "HttpVersion10",
           "package": "curl",
@@ -7273,6 +7903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "HttpVersion11",
           "package": "curl",
@@ -7282,6 +7913,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "HttpVersion11",
           "package": "curl",
@@ -7295,6 +7927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "HttpVersionNone",
           "package": "curl",
@@ -7304,6 +7937,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "HttpVersionNone",
           "package": "curl",
@@ -7317,6 +7951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "InfoDataIn",
           "package": "curl",
@@ -7326,6 +7961,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "InfoDataIn",
           "package": "curl",
@@ -7339,6 +7975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "InfoDataOut",
           "package": "curl",
@@ -7348,6 +7985,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "InfoDataOut",
           "package": "curl",
@@ -7361,6 +7999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "InfoHeaderIn",
           "package": "curl",
@@ -7370,6 +8009,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "InfoHeaderIn",
           "package": "curl",
@@ -7383,6 +8023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "InfoHeaderOut",
           "package": "curl",
@@ -7392,6 +8033,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "InfoHeaderOut",
           "package": "curl",
@@ -7405,6 +8047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "InfoSslDataIn",
           "package": "curl",
@@ -7414,6 +8057,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "InfoSslDataIn",
           "package": "curl",
@@ -7427,6 +8071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "InfoSslDataOut",
           "package": "curl",
@@ -7436,6 +8081,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "InfoSslDataOut",
           "package": "curl",
@@ -7449,6 +8095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "InfoText",
           "package": "curl",
@@ -7458,6 +8105,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "InfoText",
           "package": "curl",
@@ -7471,6 +8119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "NetRcIgnored",
           "package": "curl",
@@ -7480,6 +8129,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "NetRcIgnored",
           "package": "curl",
@@ -7493,6 +8143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "NetRcOptional",
           "package": "curl",
@@ -7502,6 +8153,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "NetRcOptional",
           "package": "curl",
@@ -7515,6 +8167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "NetRcRequired",
           "package": "curl",
@@ -7524,6 +8177,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "NetRcRequired",
           "package": "curl",
@@ -7537,6 +8191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "SSHAuthAny",
           "package": "curl",
@@ -7546,6 +8201,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "SSHAuthAny",
           "package": "curl",
@@ -7559,6 +8215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "SSHAuthHost",
           "package": "curl",
@@ -7568,6 +8225,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "SSHAuthHost",
           "package": "curl",
@@ -7581,6 +8239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "SSHAuthKeyboard",
           "package": "curl",
@@ -7590,6 +8249,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "SSHAuthKeyboard",
           "package": "curl",
@@ -7603,6 +8263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "SSHAuthNone",
           "package": "curl",
@@ -7612,6 +8273,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "SSHAuthNone",
           "package": "curl",
@@ -7625,6 +8287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "SSHAuthPassword",
           "package": "curl",
@@ -7634,6 +8297,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "SSHAuthPassword",
           "package": "curl",
@@ -7647,6 +8311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "SSHAuthPublickey",
           "package": "curl",
@@ -7656,6 +8321,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "SSHAuthPublickey",
           "package": "curl",
@@ -7669,6 +8335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "TimeCondIfModSince",
           "package": "curl",
@@ -7678,6 +8345,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "TimeCondIfModSince",
           "package": "curl",
@@ -7691,6 +8359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "TimeCondIfUnmodSince",
           "package": "curl",
@@ -7700,6 +8369,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "TimeCondIfUnmodSince",
           "package": "curl",
@@ -7713,6 +8383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "TimeCondLastMode",
           "package": "curl",
@@ -7722,6 +8393,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "TimeCondLastMode",
           "package": "curl",
@@ -7735,6 +8407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "TimeCondNone",
           "package": "curl",
@@ -7744,6 +8417,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "TimeCondNone",
           "package": "curl",
@@ -7757,6 +8431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "Unmarshaller",
           "package": "curl",
@@ -7766,6 +8441,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "Unmarshaller",
           "package": "curl",
@@ -7779,6 +8455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "baseFunction",
           "package": "curl",
@@ -7788,6 +8465,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "baseFunction",
           "package": "curl",
@@ -7801,6 +8479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "baseLong",
           "package": "curl",
@@ -7810,6 +8489,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "baseLong",
           "package": "curl",
@@ -7823,6 +8503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "baseObject",
           "package": "curl",
@@ -7832,6 +8513,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "baseObject",
           "package": "curl",
@@ -7845,6 +8527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "baseOffT",
           "package": "curl",
@@ -7854,6 +8537,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "baseOffT",
           "package": "curl",
@@ -7867,6 +8551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "curl_readfunc_abort",
           "package": "curl",
@@ -7876,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "curl_readfunc_abort",
           "package": "curl",
@@ -7888,6 +8574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "showCurlOption",
           "package": "curl",
@@ -7897,6 +8584,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "showCurlOption",
           "normalized": "CurlOption-\u003eString",
@@ -7912,6 +8600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "toHttpAuthMask",
           "package": "curl",
@@ -7921,6 +8610,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "toHttpAuthMask",
           "normalized": "[HttpAuth]-\u003eLong",
@@ -7936,6 +8626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "toSSHAuthMask",
           "package": "curl",
@@ -7945,6 +8636,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "toSSHAuthMask",
           "normalized": "[SSHAuthType]-\u003eLong",
@@ -7960,6 +8652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_bool",
           "package": "curl",
@@ -7969,6 +8662,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_bool",
           "normalized": "Unmarshaller a-\u003eInt-\u003eBool-\u003eIO a",
@@ -7983,6 +8677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_convFromNetwork",
           "package": "curl",
@@ -7992,6 +8687,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_convFromNetwork",
           "normalized": "Int-\u003ePtr()-\u003eIO a",
@@ -8007,6 +8703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_convFromUtf8",
           "package": "curl",
@@ -8016,6 +8713,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_convFromUtf8",
           "normalized": "Int-\u003ePtr()-\u003eIO a",
@@ -8031,6 +8729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_convToNetwork",
           "package": "curl",
@@ -8040,6 +8739,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_convToNetwork",
           "normalized": "Int-\u003ePtr()-\u003eIO a",
@@ -8055,6 +8755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_cptr",
           "package": "curl",
@@ -8064,6 +8765,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_cptr",
           "normalized": "Unmarshaller a-\u003eInt-\u003ePtr CChar-\u003eIO a",
@@ -8078,6 +8780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_debugFun",
           "package": "curl",
@@ -8087,6 +8790,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_debugFun",
           "normalized": "Int-\u003eDebugFunction-\u003eIO a",
@@ -8102,6 +8806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_enum",
           "package": "curl",
@@ -8111,6 +8816,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_enum",
           "normalized": "Unmarshaller a-\u003eInt-\u003eb-\u003eIO a",
@@ -8125,6 +8831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_ioctl_fun",
           "package": "curl",
@@ -8134,6 +8841,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_ioctl_fun",
           "normalized": "Int-\u003ePtr()-\u003eIO a",
@@ -8148,6 +8856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_llong",
           "package": "curl",
@@ -8157,6 +8866,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_llong",
           "normalized": "Int-\u003eLLong-\u003eIO a",
@@ -8171,6 +8881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_long",
           "package": "curl",
@@ -8180,6 +8891,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_long",
           "normalized": "Int-\u003eLong-\u003eIO a",
@@ -8194,6 +8906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_posts",
           "package": "curl",
@@ -8203,6 +8916,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_posts",
           "normalized": "Int-\u003e[HttpPost]-\u003eIO a",
@@ -8217,6 +8931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_progressFun",
           "package": "curl",
@@ -8226,6 +8941,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_progressFun",
           "normalized": "Int-\u003eProgressFunction-\u003eIO a",
@@ -8241,6 +8957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_ptr",
           "package": "curl",
@@ -8250,6 +8967,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_ptr",
           "normalized": "Int-\u003ePtr()-\u003eIO a",
@@ -8264,6 +8982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_readFun",
           "package": "curl",
@@ -8273,6 +8992,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_readFun",
           "normalized": "Int-\u003eReadFunction-\u003eIO a",
@@ -8288,6 +9008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_sockoptFun",
           "package": "curl",
@@ -8297,6 +9018,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_sockoptFun",
           "normalized": "Int-\u003ePtr()-\u003eIO a",
@@ -8312,6 +9034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_sslctxt",
           "package": "curl",
@@ -8321,6 +9044,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_sslctxt",
           "normalized": "Int-\u003eSSLCtxtFunction-\u003eIO a",
@@ -8335,6 +9059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_string",
           "package": "curl",
@@ -8344,6 +9069,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_string",
           "normalized": "Int-\u003eString-\u003eIO a",
@@ -8358,6 +9084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_strings",
           "package": "curl",
@@ -8367,6 +9094,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_strings",
           "normalized": "Int-\u003e[String]-\u003eIO a",
@@ -8381,6 +9109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "u_writeFun",
           "package": "curl",
@@ -8390,6 +9119,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "u_writeFun",
           "normalized": "Int-\u003eWriteFunction-\u003eIO a",
@@ -8405,6 +9135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "unmarshallOption",
           "package": "curl",
@@ -8414,6 +9145,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "unmarshallOption",
           "normalized": "Unmarshaller a-\u003eCurlOption-\u003eIO a",
@@ -8429,6 +9161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Opts",
           "name": "verboseUnmarshaller",
           "package": "curl",
@@ -8438,6 +9171,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Opts",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Opts",
           "name": "verboseUnmarshaller",
           "normalized": "Unmarshaller a-\u003eUnmarshaller a",
@@ -8454,6 +9188,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresenting and marshalling formdata (as part of POST uploads/submissions.)\n If you are only looking to submit a sequence of name=value pairs,\n you are better off using the CurlPostFields constructor; much simpler.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "Post",
           "package": "curl",
@@ -8463,6 +9198,7 @@
         "index": {
           "description": "Representing and marshalling formdata as part of POST uploads submissions If you are only looking to submit sequence of name value pairs you are better off using the CurlPostFields constructor much simpler",
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "Post",
           "package": "curl",
@@ -8476,6 +9212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "Content",
           "package": "curl",
@@ -8484,6 +9221,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "Content",
           "package": "curl",
@@ -8497,6 +9235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "Header",
           "package": "curl",
@@ -8505,6 +9244,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "Header",
           "package": "curl",
@@ -8518,6 +9258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "HttpPost",
           "package": "curl",
@@ -8526,6 +9267,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "HttpPost",
           "package": "curl",
@@ -8539,6 +9281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "ContentBuffer",
           "package": "curl",
@@ -8548,6 +9291,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "ContentBuffer",
           "package": "curl",
@@ -8561,6 +9305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "ContentFile",
           "package": "curl",
@@ -8570,6 +9315,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "ContentFile",
           "package": "curl",
@@ -8583,6 +9329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "ContentString",
           "package": "curl",
@@ -8592,6 +9339,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "ContentString",
           "package": "curl",
@@ -8605,6 +9353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "HttpPost",
           "package": "curl",
@@ -8614,6 +9363,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "HttpPost",
           "package": "curl",
@@ -8627,6 +9377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "content",
           "package": "curl",
@@ -8636,6 +9387,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "content",
           "package": "curl",
@@ -8648,6 +9400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "contentType",
           "package": "curl",
@@ -8657,6 +9410,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "contentType",
           "package": "curl",
@@ -8670,6 +9424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "curl_formfree",
           "package": "curl",
@@ -8679,6 +9434,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "curl_formfree",
           "normalized": "Ptr a-\u003eIO()",
@@ -8693,6 +9449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "curl_slist_append",
           "package": "curl",
@@ -8702,6 +9459,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "curl_slist_append",
           "normalized": "Ptr Slist_-\u003eCString-\u003eIO(Ptr Slist_)",
@@ -8716,6 +9474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "curl_slist_free",
           "package": "curl",
@@ -8725,6 +9484,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "curl_slist_free",
           "normalized": "Ptr Slist_-\u003eIO()",
@@ -8739,6 +9499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "extraHeaders",
           "package": "curl",
@@ -8748,6 +9509,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "extraHeaders",
           "normalized": "[Header]",
@@ -8763,6 +9525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "marshallPost",
           "package": "curl",
@@ -8772,6 +9535,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "marshallPost",
           "normalized": "HttpPost-\u003eIO(Ptr HttpPost)",
@@ -8787,6 +9551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "marshallPosts",
           "package": "curl",
@@ -8796,6 +9561,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "marshallPosts",
           "normalized": "[HttpPost]-\u003eIO(Ptr HttpPost)",
@@ -8811,6 +9577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "multiformString",
           "package": "curl",
@@ -8820,6 +9587,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "multiformString",
           "normalized": "String-\u003eString-\u003eHttpPost",
@@ -8835,6 +9603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "postName",
           "package": "curl",
@@ -8844,6 +9613,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "postName",
           "package": "curl",
@@ -8857,6 +9627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "showName",
           "package": "curl",
@@ -8866,6 +9637,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "showName",
           "package": "curl",
@@ -8879,6 +9651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Post",
           "name": "sizeof_httppost",
           "package": "curl",
@@ -8888,6 +9661,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Post",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Post",
           "name": "sizeof_httppost",
           "package": "curl",
@@ -8901,6 +9675,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic set of types for the Haskell curl binding, including the\n \u003ccode\u003eCurl\u003c/code\u003e handle type which holds the C library stateful connection\n handle along with a set of cleanup actions tht should be performed\n upon shutting down the curl session.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "Types",
           "package": "curl",
@@ -8910,6 +9685,7 @@
         "index": {
           "description": "Basic set of types for the Haskell curl binding including the Curl handle type which holds the library stateful connection handle along with set of cleanup actions tht should be performed upon shutting down the curl session",
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "Types",
           "package": "curl",
@@ -8923,6 +9699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "Curl",
           "package": "curl",
@@ -8931,6 +9708,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "Curl",
           "package": "curl",
@@ -8944,6 +9722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "CurlH",
           "package": "curl",
@@ -8952,6 +9731,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "CurlH",
           "package": "curl",
@@ -8965,6 +9745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "LLong",
           "package": "curl",
@@ -8973,6 +9754,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "LLong",
           "package": "curl",
@@ -8986,6 +9768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "Long",
           "package": "curl",
@@ -8994,6 +9777,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "Long",
           "package": "curl",
@@ -9007,6 +9791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "OptionMap",
           "package": "curl",
@@ -9015,6 +9800,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "OptionMap",
           "package": "curl",
@@ -9028,6 +9814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "Port",
           "package": "curl",
@@ -9036,6 +9823,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "Port",
           "package": "curl",
@@ -9049,6 +9837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "Slist_",
           "package": "curl",
@@ -9057,6 +9846,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "Slist_",
           "package": "curl",
@@ -9070,6 +9860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "URLString",
           "package": "curl",
@@ -9078,6 +9869,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "URLString",
           "package": "curl",
@@ -9092,6 +9884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a \u003ca\u003eprimitve\u003c/a\u003e curl operation.\n NOTE: See warnings about the use of \u003ccode\u003ewithForeginPtr\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "curlPrim",
           "package": "curl",
@@ -9102,6 +9895,7 @@
         "index": {
           "description": "Execute primitve curl operation NOTE See warnings about the use of withForeginPtr",
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "curlPrim",
           "normalized": "Curl-\u003e(IORef OptionMap-\u003eCurlH-\u003eIO a)-\u003eIO a",
@@ -9118,6 +9912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocates a Haskell handle from a C handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "mkCurl",
           "package": "curl",
@@ -9128,6 +9923,7 @@
         "index": {
           "description": "Allocates Haskell handle from handle",
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "mkCurl",
           "normalized": "CurlH-\u003eIO Curl",
@@ -9144,6 +9940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocates a Haskell handle from a C handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "mkCurlWithCleanup",
           "package": "curl",
@@ -9154,6 +9951,7 @@
         "index": {
           "description": "Allocates Haskell handle from handle",
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "mkCurlWithCleanup",
           "normalized": "CurlH-\u003eOptionMap-\u003eIO Curl",
@@ -9169,6 +9967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "runCleanup",
           "package": "curl",
@@ -9178,6 +9977,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "runCleanup",
           "normalized": "IORef OptionMap-\u003eIO()",
@@ -9193,6 +9993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "shareCleanup",
           "package": "curl",
@@ -9202,6 +10003,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "shareCleanup",
           "normalized": "IORef OptionMap-\u003eIO OptionMap",
@@ -9217,6 +10019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl.Types",
           "name": "updateCleanup",
           "package": "curl",
@@ -9226,6 +10029,7 @@
         },
         "index": {
           "hierarchy": "Network Curl Types",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl.Types",
           "name": "updateCleanup",
           "normalized": "IORef OptionMap-\u003eInt-\u003eIO()-\u003eIO()",
@@ -9242,6 +10046,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Haskell binding the libcurl library \u003ca\u003ehttp://curl.haxx.se/\u003c/a\u003e, a\n proven and feature-rich library for interacting with HTTP(S)/FTP\n servers.\n\u003c/p\u003e\u003cp\u003eThe binding was initially made against version 7.16.2; libcurl does\n appear to be considerate in not introducing breaking changes wrt\n older versions. So, unless you're after the latest features (i.e.,\n constructors towards the end the Option type), there's a very good\n chance your code will work against older installations of libcurl.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "Curl",
           "package": "curl",
@@ -9251,6 +10056,7 @@
         "index": {
           "description": "Haskell binding the libcurl library http curl.haxx.se proven and feature-rich library for interacting with HTTP FTP servers The binding was initially made against version libcurl does appear to be considerate in not introducing breaking changes wrt older versions So unless you re after the latest features i.e constructors towards the end the Option type there very good chance your code will work against older installations of libcurl",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "Curl",
           "package": "curl",
@@ -9265,6 +10071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCurlBuffer\u003c/code\u003e class encodes the representation\n of response buffers, allowing you to provide your\n own app-specific buffer reps to be used..or use\n one of the standard instances (String and ByteStrings.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "CurlBuffer",
           "package": "curl",
@@ -9274,6 +10081,7 @@
         "index": {
           "description": "The CurlBuffer class encodes the representation of response buffers allowing you to provide your own app-specific buffer reps to be used..or use one of the standard instances String and ByteStrings",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "CurlBuffer",
           "package": "curl",
@@ -9288,6 +10096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCurlHeader\u003c/code\u003e class encodes the representation\n of response headers. Similar to \u003ccode\u003e\u003ca\u003eCurlBuffer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "CurlHeader",
           "package": "curl",
@@ -9297,6 +10106,7 @@
         "index": {
           "description": "The CurlHeader class encodes the representation of response headers Similar to CurlBuffer",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "CurlHeader",
           "package": "curl",
@@ -9310,6 +10120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "CurlResponse",
           "package": "curl",
@@ -9318,6 +10129,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "CurlResponse",
           "package": "curl",
@@ -9332,6 +10144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCurlResponse_\u003c/a\u003e\u003c/code\u003e is a record type encoding all the information\n embodied in a response to your Curl request. Currently only used\n to gather up the results of doing a GET in \u003ccode\u003e\u003ca\u003ecurlGetResponse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "CurlResponse_",
           "package": "curl",
@@ -9341,6 +10154,7 @@
         "index": {
           "description": "CurlResponse is record type encoding all the information embodied in response to your Curl request Currently only used to gather up the results of doing GET in curlGetResponse",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "CurlResponse_",
           "package": "curl",
@@ -9354,6 +10168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "CurlResponse",
           "package": "curl",
@@ -9363,6 +10178,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "CurlResponse",
           "package": "curl",
@@ -9377,6 +10193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImports data into the Haskell world and invokes the callback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "callbackWriter",
           "package": "curl",
@@ -9387,6 +10204,7 @@
         "index": {
           "description": "Imports data into the Haskell world and invokes the callback",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "callbackWriter",
           "normalized": "(String-\u003eIO())-\u003eWriteFunction",
@@ -9402,6 +10220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "concRev",
           "package": "curl",
@@ -9411,6 +10230,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "concRev",
           "normalized": "[a]-\u003e[[a]]-\u003e[a]",
@@ -9427,6 +10247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecurlGet\u003c/a\u003e\u003c/code\u003e perform a basic GET, dumping the output on stdout.\n The list of options are set prior performing the GET request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "curlGet",
           "package": "curl",
@@ -9437,6 +10258,7 @@
         "index": {
           "description": "curlGet perform basic GET dumping the output on stdout The list of options are set prior performing the GET request",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "curlGet",
           "normalized": "URLString-\u003e[CurlOption]-\u003eIO()",
@@ -9453,6 +10275,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Switch to using curlGetResponse_\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "curlGetResponse",
           "package": "curl",
@@ -9463,6 +10286,7 @@
         "index": {
           "description": "Deprecated Switch to using curlGetResponse",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "curlGetResponse",
           "normalized": "URLString-\u003e[CurlOption]-\u003eIO CurlResponse",
@@ -9479,6 +10303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecurlGetResponse url opts\u003c/code\u003e performs a \u003ccode\u003eGET\u003c/code\u003e, returning all the info\n it can lay its hands on in the response, a value of type \u003ccode\u003e\u003ca\u003eCurlResponse\u003c/a\u003e\u003c/code\u003e.\n The representation of the body is overloaded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "curlGetResponse_",
           "package": "curl",
@@ -9489,6 +10314,7 @@
         "index": {
           "description": "curlGetResponse url opts performs GET returning all the info it can lay its hands on in the response value of type CurlResponse The representation of the body is overloaded",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "curlGetResponse_",
           "normalized": "URLString-\u003e[CurlOption]-\u003eIO(CurlResponse_ a b)",
@@ -9505,6 +10331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecurlGetString\u003c/a\u003e\u003c/code\u003e performs the same request as \u003ccode\u003e\u003ca\u003ecurlGet\u003c/a\u003e\u003c/code\u003e, but \n returns the response body as a Haskell string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "curlGetString",
           "package": "curl",
@@ -9515,6 +10342,7 @@
         "index": {
           "description": "curlGetString performs the same request as curlGet but returns the response body as Haskell string",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "curlGetString",
           "normalized": "URLString-\u003e[CurlOption]-\u003eIO(CurlCode,String)",
@@ -9530,6 +10358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "curlGetString_",
           "package": "curl",
@@ -9539,6 +10368,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "curlGetString_",
           "normalized": "URLString-\u003e[CurlOption]-\u003eIO(CurlCode,a)",
@@ -9555,6 +10385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the headers associated with a particular URL.\n Returns the status line and the key-value pairs for the headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "curlHead",
           "package": "curl",
@@ -9565,6 +10396,7 @@
         "index": {
           "description": "Get the headers associated with particular URL Returns the status line and the key-value pairs for the headers",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "curlHead",
           "normalized": "URLString-\u003e[CurlOption]-\u003eIO(String,[(String,String)])",
@@ -9581,6 +10413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the headers associated with a particular URL.\n Returns the status line and the key-value pairs for the headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "curlHead_",
           "package": "curl",
@@ -9591,6 +10424,7 @@
         "index": {
           "description": "Get the headers associated with particular URL Returns the status line and the key-value pairs for the headers",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "curlHead_",
           "normalized": "URLString-\u003e[CurlOption]-\u003eIO(String,a)",
@@ -9607,6 +10441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecurlMultiPost\u003c/a\u003e\u003c/code\u003e perform a multi-part POST submission.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "curlMultiPost",
           "package": "curl",
@@ -9617,6 +10452,7 @@
         "index": {
           "description": "curlMultiPost perform multi-part POST submission",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "curlMultiPost",
           "normalized": "URLString-\u003e[CurlOption]-\u003e[HttpPost]-\u003eIO()",
@@ -9633,6 +10469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecurlPost\u003c/a\u003e\u003c/code\u003e performs. a common POST operation, namely that\n of submitting a sequence of name=value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "curlPost",
           "package": "curl",
@@ -9643,6 +10480,7 @@
         "index": {
           "description": "curlPost performs common POST operation namely that of submitting sequence of name value pairs",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "curlPost",
           "normalized": "URLString-\u003e[String]-\u003eIO()",
@@ -9659,6 +10497,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Consider switching to do_curl_\u003c/p\u003e\u003c/div\u003e\u003cp\u003ePerforms a curl request using an exisitng curl handle.\n The provided URL will overwride any \u003ccode\u003e\u003ca\u003eCurlURL\u003c/a\u003e\u003c/code\u003e options that\n are provided in the list of options.  See also: \u003ccode\u003e\u003ca\u003eperform_with_response\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "do_curl",
           "package": "curl",
@@ -9669,6 +10508,7 @@
         "index": {
           "description": "Deprecated Consider switching to do curl Performs curl request using an exisitng curl handle The provided URL will overwride any CurlURL options that are provided in the list of options See also perform with response",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "do_curl",
           "normalized": "Curl-\u003eURLString-\u003e[CurlOption]-\u003eIO CurlResponse",
@@ -9683,6 +10523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "do_curl_",
           "package": "curl",
@@ -9692,6 +10533,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "do_curl_",
           "normalized": "Curl-\u003eURLString-\u003e[CurlOption]-\u003eIO(CurlResponse_ a b)",
@@ -9706,6 +10548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "easyWriter",
           "package": "curl",
@@ -9715,6 +10558,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "easyWriter",
           "normalized": "(String-\u003eIO())-\u003eWriteFunction",
@@ -9731,6 +10575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd chunks of data to an IORef as they arrive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "gatherOutput",
           "package": "curl",
@@ -9741,6 +10586,7 @@
         "index": {
           "description": "Add chunks of data to an IORef as they arrive",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "gatherOutput",
           "normalized": "IORef[String]-\u003eWriteFunction",
@@ -9757,6 +10603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd chunks of data to an IORef as they arrive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "gatherOutput_",
           "package": "curl",
@@ -9767,6 +10614,7 @@
         "index": {
           "description": "Add chunks of data to an IORef as they arrive",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "gatherOutput_",
           "normalized": "(CStringLen-\u003eIO())-\u003eWriteFunction",
@@ -9782,6 +10630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "getResponseCode",
           "package": "curl",
@@ -9791,6 +10640,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "getResponseCode",
           "normalized": "Curl-\u003eIO Int",
@@ -9807,6 +10657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe output of Curl is ignored.  This function\n does not marshall data into Haskell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "ignoreOutput",
           "package": "curl",
@@ -9817,6 +10668,7 @@
         "index": {
           "description": "The output of Curl is ignored This function does not marshall data into Haskell",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "ignoreOutput",
           "package": "curl",
@@ -9830,6 +10682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "method_GET",
           "package": "curl",
@@ -9839,6 +10692,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "method_GET",
           "normalized": "[CurlOption]",
@@ -9854,6 +10708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "method_HEAD",
           "package": "curl",
@@ -9863,6 +10718,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "method_HEAD",
           "normalized": "[CurlOption]",
@@ -9878,6 +10734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "method_POST",
           "package": "curl",
@@ -9887,6 +10744,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "method_POST",
           "normalized": "[CurlOption]",
@@ -9902,6 +10760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "newIncoming",
           "package": "curl",
@@ -9911,6 +10770,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "newIncoming",
           "normalized": "IO(IO a,CStringLen-\u003eIO())",
@@ -9926,6 +10786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "newIncomingHeader",
           "package": "curl",
@@ -9935,6 +10796,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "newIncomingHeader",
           "normalized": "IO(IO(String,a),CStringLen-\u003eIO())",
@@ -9950,6 +10812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "parseHeader",
           "package": "curl",
@@ -9959,6 +10822,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "parseHeader",
           "normalized": "String-\u003e(String,String)",
@@ -9974,6 +10838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "parseStatusNHeaders",
           "package": "curl",
@@ -9983,6 +10848,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "parseStatusNHeaders",
           "normalized": "String-\u003e(String,[(String,String)])",
@@ -9999,6 +10865,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Consider switching to perform_with_response_\u003c/p\u003e\u003c/div\u003e\u003cp\u003ePerform the actions already specified on the handle.\n Collects useful information about the returned message.\n Note that this function sets the\n \u003ccode\u003e\u003ca\u003eCurlWriteFunction\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eCurlHeaderFunction\u003c/a\u003e\u003c/code\u003e options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "perform_with_response",
           "package": "curl",
@@ -10009,6 +10876,7 @@
         "index": {
           "description": "Deprecated Consider switching to perform with response Perform the actions already specified on the handle Collects useful information about the returned message Note that this function sets the CurlWriteFunction and CurlHeaderFunction options",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "perform_with_response",
           "normalized": "Curl-\u003eIO(CurlResponse_ a b)",
@@ -10024,6 +10892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform the actions already specified on the handle.\n Collects useful information about the returned message.\n Note that this function sets the\n \u003ccode\u003e\u003ca\u003eCurlWriteFunction\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eCurlHeaderFunction\u003c/a\u003e\u003c/code\u003e options.\n The returned payload is overloaded over the representation of\n both headers and body via the \u003ccode\u003e\u003ca\u003eCurlResponse_\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "perform_with_response_",
           "package": "curl",
@@ -10034,6 +10903,7 @@
         "index": {
           "description": "Perform the actions already specified on the handle Collects useful information about the returned message Note that this function sets the CurlWriteFunction and CurlHeaderFunction options The returned payload is overloaded over the representation of both headers and body via the CurlResponse type",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "perform_with_response_",
           "normalized": "Curl-\u003eIO(CurlResponse_ a b)",
@@ -10048,6 +10918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "respBody",
           "package": "curl",
@@ -10057,6 +10928,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "respBody",
           "package": "curl",
@@ -10070,6 +10942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "respCurlCode",
           "package": "curl",
@@ -10079,6 +10952,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "respCurlCode",
           "package": "curl",
@@ -10092,6 +10966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "respGetInfo",
           "package": "curl",
@@ -10101,6 +10976,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "respGetInfo",
           "normalized": "Info-\u003eIO InfoValue",
@@ -10116,6 +10992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "respHeaders",
           "package": "curl",
@@ -10125,6 +11002,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "respHeaders",
           "package": "curl",
@@ -10138,6 +11016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "respStatus",
           "package": "curl",
@@ -10147,6 +11026,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "respStatus",
           "package": "curl",
@@ -10160,6 +11040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "respStatusLine",
           "package": "curl",
@@ -10169,6 +11050,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "respStatusLine",
           "package": "curl",
@@ -10182,6 +11064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "setDefaultSSLOpts",
           "package": "curl",
@@ -10191,6 +11074,7 @@
         },
         "index": {
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "setDefaultSSLOpts",
           "normalized": "Curl-\u003eURLString-\u003eIO()",
@@ -10207,6 +11091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a list of options on a Curl handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "setopts",
           "package": "curl",
@@ -10217,6 +11102,7 @@
         "index": {
           "description": "Set list of options on Curl handle",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "setopts",
           "normalized": "Curl-\u003e[CurlOption]-\u003eIO()",
@@ -10232,6 +11118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould be used once to wrap all uses of libcurl.\n WARNING: the argument should not return before it\n is completely done with curl (e.g., no forking or lazy returns)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:25 UTC 2014",
           "module": "Network.Curl",
           "name": "withCurlDo",
           "package": "curl",
@@ -10242,6 +11129,7 @@
         "index": {
           "description": "Should be used once to wrap all uses of libcurl WARNING the argument should not return before it is completely done with curl e.g no forking or lazy returns",
           "hierarchy": "Network Curl",
+          "indexed": "2014-03-11T17:45:25",
           "module": "Network.Curl",
           "name": "withCurlDo",
           "normalized": "IO a-\u003eIO a",

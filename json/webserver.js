@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "webserver"
+        "phrase": "webserver",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Date",
           "name": "Date",
           "package": "webserver",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Web Date",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Date",
           "name": "Date",
           "package": "webserver",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Date",
           "name": "HttpDate",
           "package": "webserver",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Web Date",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Date",
           "name": "HttpDate",
           "package": "webserver",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Date",
           "name": "parseDate",
           "package": "webserver",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network Web Date",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Date",
           "name": "parseDate",
           "normalized": "ByteString-\u003eMaybe UTCTime",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Date",
           "name": "utcToDate",
           "package": "webserver",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network Web Date",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Date",
           "name": "utcToDate",
           "normalized": "UTCTime-\u003eHttpDate",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTTP library for HTTP server.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "HTTP",
           "package": "webserver",
@@ -118,6 +127,7 @@
         "index": {
           "description": "HTTP library for HTTP server",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "HTTP",
           "package": "webserver",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class to abstract \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "Comm",
           "package": "webserver",
@@ -141,6 +152,7 @@
         "index": {
           "description": "class to abstract Request and Response",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "Comm",
           "package": "webserver",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type for Key-values of HTTP header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "Fields",
           "package": "webserver",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Abstract data type for Key-values of HTTP header",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "Fields",
           "package": "webserver",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type of HTTP request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "Request",
           "package": "webserver",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Abstract data type of HTTP request",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "Request",
           "package": "webserver",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type of HTTP response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "Response",
           "package": "webserver",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Abstract data type of HTTP response",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "Response",
           "package": "webserver",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "fromFields",
           "package": "webserver",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "fromFields",
           "normalized": "Fields-\u003e[(FieldKey,FieldValue)]",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserting the HTTP field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "insertField",
           "package": "webserver",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Inserting the HTTP field",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "insertField",
           "normalized": "FieldKey-\u003eFieldValue-\u003ea-\u003ea",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserting the HTTP field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "insertField'",
           "package": "webserver",
@@ -284,6 +307,7 @@
         "index": {
           "description": "Inserting the HTTP field",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "insertField'",
           "normalized": "FieldKey-\u003eFieldValue-\u003eFields-\u003eFields",
@@ -300,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooking up the HTTP field value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "lookupField",
           "package": "webserver",
@@ -310,6 +335,7 @@
         "index": {
           "description": "Looking up the HTTP field value",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "lookupField",
           "normalized": "FieldKey-\u003ea-\u003eMaybe FieldValue",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooking up the HTTP field value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "lookupField'",
           "package": "webserver",
@@ -336,6 +363,7 @@
         "index": {
           "description": "Looking up the HTTP field value",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "lookupField'",
           "normalized": "FieldKey-\u003eFields-\u003eMaybe FieldValue",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to make \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "makeResponse",
           "package": "webserver",
@@ -362,6 +391,7 @@
         "index": {
           "description": "function to make Response",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "makeResponse",
           "normalized": "Status-\u003e[(FieldKey,FieldValue)]-\u003eResponse",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to make \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "makeResponse2",
           "package": "webserver",
@@ -388,6 +419,7 @@
         "index": {
           "description": "function to make Response",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "makeResponse2",
           "normalized": "Status-\u003eMaybe ByteString-\u003eMaybe Integer-\u003e[(FieldKey,FieldValue)]-\u003eResponse",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to make \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "makeResponse3",
           "package": "webserver",
@@ -414,6 +447,7 @@
         "index": {
           "description": "function to make Response",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "makeResponse3",
           "normalized": "Status-\u003eMaybe ByteString-\u003eMaybe Integer-\u003eFields-\u003eResponse",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceiving HTTP request from \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.\n  If request is broken, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "receive",
           "package": "webserver",
@@ -440,6 +475,7 @@
         "index": {
           "description": "Receiving HTTP request from Handle If request is broken Nothing is returned",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "receive",
           "normalized": "Handle-\u003eIO(Maybe Request)",
@@ -455,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing HTTP header from \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.\n  This function is useful to parse CGI output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "receiveFields",
           "package": "webserver",
@@ -465,6 +502,7 @@
         "index": {
           "description": "Parsing HTTP header from Handle This function is useful to parse CGI output",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "receiveFields",
           "normalized": "Handle-\u003eIO Fields",
@@ -481,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntity body if exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "reqBody",
           "package": "webserver",
@@ -491,6 +530,7 @@
         "index": {
           "description": "Entity body if exists",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "reqBody",
           "normalized": "Request-\u003eMaybe ByteString",
@@ -507,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey-values of request header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "reqFields",
           "package": "webserver",
@@ -517,6 +558,7 @@
         "index": {
           "description": "Key-values of request header",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "reqFields",
           "normalized": "Request-\u003eFields",
@@ -533,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of entity body from Content-Length:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "reqLength",
           "package": "webserver",
@@ -543,6 +586,7 @@
         "index": {
           "description": "Length of entity body from Content-Length",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "reqLength",
           "normalized": "Request-\u003eInteger",
@@ -559,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "reqMethod",
           "package": "webserver",
@@ -569,6 +614,7 @@
         "index": {
           "description": "Request method",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "reqMethod",
           "normalized": "Request-\u003eMethod",
@@ -585,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURI parsed from absolute URL or relative URL with the Host: field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "reqURI",
           "package": "webserver",
@@ -595,6 +642,7 @@
         "index": {
           "description": "URI parsed from absolute URL or relative URL with the Host field",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "reqURI",
           "normalized": "Request-\u003eURI",
@@ -611,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "reqVersion",
           "package": "webserver",
@@ -621,6 +670,7 @@
         "index": {
           "description": "HTTP version",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "reqVersion",
           "normalized": "Request-\u003eVersion",
@@ -637,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSending HTTP response to \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.\n  If \u003ccode\u003e\u003ca\u003eKeep\u003c/a\u003e\u003c/code\u003e is specified, the HTTP connection\n  will be kept. If \u003ccode\u003e\u003ca\u003eClose\u003c/a\u003e\u003c/code\u003e is specified, the connection will be closed.\n  \u003ccode\u003e\u003ca\u003eVersion\u003c/a\u003e\u003c/code\u003e should be copied from \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "respond",
           "package": "webserver",
@@ -647,6 +698,7 @@
         "index": {
           "description": "Sending HTTP response to Handle If Keep is specified the HTTP connection will be kept If Close is specified the connection will be closed Version should be copied from Request",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "respond",
           "normalized": "Handle-\u003eVersion-\u003ePersist-\u003eResponse-\u003eIO()",
@@ -661,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "rspBody",
           "package": "webserver",
@@ -670,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "rspBody",
           "normalized": "Response-\u003eMaybe ByteString",
@@ -685,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "rspFields",
           "package": "webserver",
@@ -694,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "rspFields",
           "normalized": "Response-\u003eFields",
@@ -709,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "rspLength",
           "package": "webserver",
@@ -718,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "rspLength",
           "normalized": "Response-\u003eMaybe Integer",
@@ -733,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "rspLogMsg",
           "package": "webserver",
@@ -742,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "rspLogMsg",
           "normalized": "Response-\u003eString",
@@ -758,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.HTTP",
           "name": "rspStatus",
           "package": "webserver",
@@ -768,6 +829,7 @@
         "index": {
           "description": "Response status",
           "hierarchy": "Network Web HTTP",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.HTTP",
           "name": "rspStatus",
           "normalized": "Response-\u003eStatus",
@@ -784,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParameters of HTTP.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Params",
           "package": "webserver",
@@ -793,6 +856,7 @@
         "index": {
           "description": "Parameters of HTTP",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Params",
           "package": "webserver",
@@ -807,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for Content-Type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "CT",
           "package": "webserver",
@@ -816,6 +881,7 @@
         "index": {
           "description": "The type for Content-Type",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "CT",
           "package": "webserver",
@@ -830,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField key of HTTP header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FieldKey",
           "package": "webserver",
@@ -839,6 +906,7 @@
         "index": {
           "description": "Field key of HTTP header",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FieldKey",
           "package": "webserver",
@@ -853,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField value of HTTP header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FieldValue",
           "package": "webserver",
@@ -862,6 +931,7 @@
         "index": {
           "description": "Field value of HTTP header",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FieldValue",
           "package": "webserver",
@@ -876,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethods of HTTP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Method",
           "package": "webserver",
@@ -885,6 +956,7 @@
         "index": {
           "description": "Methods of HTTP",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Method",
           "package": "webserver",
@@ -899,6 +971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for persist connection or not\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Persist",
           "package": "webserver",
@@ -908,6 +981,7 @@
         "index": {
           "description": "The type for persist connection or not",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Persist",
           "package": "webserver",
@@ -922,6 +996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExceptions for Web server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "ServerException",
           "package": "webserver",
@@ -931,6 +1006,7 @@
         "index": {
           "description": "Exceptions for Web server",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "ServerException",
           "package": "webserver",
@@ -945,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus of HTTP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Status",
           "package": "webserver",
@@ -954,6 +1031,7 @@
         "index": {
           "description": "Status of HTTP",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Status",
           "package": "webserver",
@@ -968,6 +1046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersions of HTTP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Version",
           "package": "webserver",
@@ -977,6 +1056,7 @@
         "index": {
           "description": "Versions of HTTP",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Version",
           "package": "webserver",
@@ -990,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Accepted",
           "package": "webserver",
@@ -999,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Accepted",
           "package": "webserver",
@@ -1012,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "BadGateway",
           "package": "webserver",
@@ -1021,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "BadGateway",
           "package": "webserver",
@@ -1034,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "BadRequest",
           "package": "webserver",
@@ -1043,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "BadRequest",
           "package": "webserver",
@@ -1056,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "CONNECT",
           "package": "webserver",
@@ -1065,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "CONNECT",
           "package": "webserver",
@@ -1078,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Close",
           "package": "webserver",
@@ -1087,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Close",
           "package": "webserver",
@@ -1100,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Conflict",
           "package": "webserver",
@@ -1109,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Conflict",
           "package": "webserver",
@@ -1122,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Continue",
           "package": "webserver",
@@ -1131,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Continue",
           "package": "webserver",
@@ -1144,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Created",
           "package": "webserver",
@@ -1153,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Created",
           "package": "webserver",
@@ -1166,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "DELETE",
           "package": "webserver",
@@ -1175,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "DELETE",
           "package": "webserver",
@@ -1188,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "ExpectationFailed",
           "package": "webserver",
@@ -1197,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "ExpectationFailed",
           "package": "webserver",
@@ -1210,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkAccept",
           "package": "webserver",
@@ -1219,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkAccept",
           "package": "webserver",
@@ -1233,6 +1335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esent by client\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkAcceptEncoding",
           "package": "webserver",
@@ -1243,6 +1346,7 @@
         "index": {
           "description": "sent by client",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkAcceptEncoding",
           "package": "webserver",
@@ -1256,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkAcceptLanguage",
           "package": "webserver",
@@ -1265,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkAcceptLanguage",
           "package": "webserver",
@@ -1278,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkCacheControl",
           "package": "webserver",
@@ -1287,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkCacheControl",
           "package": "webserver",
@@ -1300,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkConnection",
           "package": "webserver",
@@ -1309,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkConnection",
           "package": "webserver",
@@ -1323,6 +1433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturned by server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkContentEncoding",
           "package": "webserver",
@@ -1333,6 +1444,7 @@
         "index": {
           "description": "returned by server",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkContentEncoding",
           "package": "webserver",
@@ -1346,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkContentLength",
           "package": "webserver",
@@ -1355,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkContentLength",
           "package": "webserver",
@@ -1368,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkContentRange",
           "package": "webserver",
@@ -1377,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkContentRange",
           "package": "webserver",
@@ -1390,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkContentType",
           "package": "webserver",
@@ -1399,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkContentType",
           "package": "webserver",
@@ -1412,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkCookie",
           "package": "webserver",
@@ -1421,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkCookie",
           "package": "webserver",
@@ -1434,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkDate",
           "package": "webserver",
@@ -1443,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkDate",
           "package": "webserver",
@@ -1456,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkHost",
           "package": "webserver",
@@ -1465,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkHost",
           "package": "webserver",
@@ -1478,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkIfModifiedSince",
           "package": "webserver",
@@ -1487,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkIfModifiedSince",
           "package": "webserver",
@@ -1500,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkIfRange",
           "package": "webserver",
@@ -1509,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkIfRange",
           "package": "webserver",
@@ -1522,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkIfUnmodifiedSince",
           "package": "webserver",
@@ -1531,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkIfUnmodifiedSince",
           "package": "webserver",
@@ -1544,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkLastModified",
           "package": "webserver",
@@ -1553,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkLastModified",
           "package": "webserver",
@@ -1566,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkLocation",
           "package": "webserver",
@@ -1575,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkLocation",
           "package": "webserver",
@@ -1588,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkOther",
           "package": "webserver",
@@ -1597,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkOther",
           "package": "webserver",
@@ -1610,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkRange",
           "package": "webserver",
@@ -1619,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkRange",
           "package": "webserver",
@@ -1632,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkServer",
           "package": "webserver",
@@ -1641,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkServer",
           "package": "webserver",
@@ -1654,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkSetCookie2",
           "package": "webserver",
@@ -1663,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkSetCookie2",
           "package": "webserver",
@@ -1676,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkStatus",
           "package": "webserver",
@@ -1685,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkStatus",
           "package": "webserver",
@@ -1698,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "FkTransferEncoding",
           "package": "webserver",
@@ -1707,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "FkTransferEncoding",
           "package": "webserver",
@@ -1720,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Forbidden",
           "package": "webserver",
@@ -1729,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Forbidden",
           "package": "webserver",
@@ -1742,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Found",
           "package": "webserver",
@@ -1751,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Found",
           "package": "webserver",
@@ -1764,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "GET",
           "package": "webserver",
@@ -1773,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "GET",
           "package": "webserver",
@@ -1786,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "GatewayTimeout",
           "package": "webserver",
@@ -1795,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "GatewayTimeout",
           "package": "webserver",
@@ -1808,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Gone",
           "package": "webserver",
@@ -1817,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Gone",
           "package": "webserver",
@@ -1830,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "HEAD",
           "package": "webserver",
@@ -1839,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "HEAD",
           "package": "webserver",
@@ -1852,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "HTTP10",
           "package": "webserver",
@@ -1861,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "HTTP10",
           "package": "webserver",
@@ -1874,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "HTTP11",
           "package": "webserver",
@@ -1883,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "HTTP11",
           "package": "webserver",
@@ -1896,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "HTTPVersionNotSupported",
           "package": "webserver",
@@ -1905,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "HTTPVersionNotSupported",
           "package": "webserver",
@@ -1918,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "InternalServerError",
           "package": "webserver",
@@ -1927,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "InternalServerError",
           "package": "webserver",
@@ -1940,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Keep",
           "package": "webserver",
@@ -1949,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Keep",
           "package": "webserver",
@@ -1962,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "LengthRequired",
           "package": "webserver",
@@ -1971,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "LengthRequired",
           "package": "webserver",
@@ -1984,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "MethodNotAllowed",
           "package": "webserver",
@@ -1993,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "MethodNotAllowed",
           "package": "webserver",
@@ -2006,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "MovedPermanently",
           "package": "webserver",
@@ -2015,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "MovedPermanently",
           "package": "webserver",
@@ -2028,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "MultipleChoices",
           "package": "webserver",
@@ -2037,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "MultipleChoices",
           "package": "webserver",
@@ -2050,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "NoContent",
           "package": "webserver",
@@ -2059,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "NoContent",
           "package": "webserver",
@@ -2072,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "NonAuthoritativeInformation",
           "package": "webserver",
@@ -2081,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "NonAuthoritativeInformation",
           "package": "webserver",
@@ -2094,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "NotAcceptable",
           "package": "webserver",
@@ -2103,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "NotAcceptable",
           "package": "webserver",
@@ -2116,6 +2298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "NotFound",
           "package": "webserver",
@@ -2125,6 +2308,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "NotFound",
           "package": "webserver",
@@ -2138,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "NotImplemented",
           "package": "webserver",
@@ -2147,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "NotImplemented",
           "package": "webserver",
@@ -2160,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "NotModified",
           "package": "webserver",
@@ -2169,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "NotModified",
           "package": "webserver",
@@ -2182,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "OK",
           "package": "webserver",
@@ -2191,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "OK",
           "package": "webserver",
@@ -2204,6 +2394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "POST",
           "package": "webserver",
@@ -2213,6 +2404,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "POST",
           "package": "webserver",
@@ -2226,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "PUT",
           "package": "webserver",
@@ -2235,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "PUT",
           "package": "webserver",
@@ -2248,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "PartialContent",
           "package": "webserver",
@@ -2257,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "PartialContent",
           "package": "webserver",
@@ -2270,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "PaymentRequired",
           "package": "webserver",
@@ -2279,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "PaymentRequired",
           "package": "webserver",
@@ -2292,6 +2490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "PerUnknown",
           "package": "webserver",
@@ -2301,6 +2500,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "PerUnknown",
           "package": "webserver",
@@ -2314,6 +2514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "PreconditionFailed",
           "package": "webserver",
@@ -2323,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "PreconditionFailed",
           "package": "webserver",
@@ -2336,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "ProxyAuthenticationRequired",
           "package": "webserver",
@@ -2345,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "ProxyAuthenticationRequired",
           "package": "webserver",
@@ -2358,6 +2562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "RequestEntityTooLarge",
           "package": "webserver",
@@ -2367,6 +2572,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "RequestEntityTooLarge",
           "package": "webserver",
@@ -2380,6 +2586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "RequestTimeout",
           "package": "webserver",
@@ -2389,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "RequestTimeout",
           "package": "webserver",
@@ -2402,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "RequestURITooLarge",
           "package": "webserver",
@@ -2411,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "RequestURITooLarge",
           "package": "webserver",
@@ -2424,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "RequestedRangeNotSatisfiable",
           "package": "webserver",
@@ -2433,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "RequestedRangeNotSatisfiable",
           "package": "webserver",
@@ -2446,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "ResetContent",
           "package": "webserver",
@@ -2455,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "ResetContent",
           "package": "webserver",
@@ -2468,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "SeeOther",
           "package": "webserver",
@@ -2477,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "SeeOther",
           "package": "webserver",
@@ -2490,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "ServiceUnavailable",
           "package": "webserver",
@@ -2499,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "ServiceUnavailable",
           "package": "webserver",
@@ -2512,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "SwitchingProtocols",
           "package": "webserver",
@@ -2521,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "SwitchingProtocols",
           "package": "webserver",
@@ -2534,6 +2754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "TRACE",
           "package": "webserver",
@@ -2543,6 +2764,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "TRACE",
           "package": "webserver",
@@ -2556,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "TemporaryRedirect",
           "package": "webserver",
@@ -2565,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "TemporaryRedirect",
           "package": "webserver",
@@ -2578,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "TerminatedByClient",
           "package": "webserver",
@@ -2587,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "TerminatedByClient",
           "package": "webserver",
@@ -2600,6 +2826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "TimeOut",
           "package": "webserver",
@@ -2609,6 +2836,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "TimeOut",
           "package": "webserver",
@@ -2622,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "Unauthorized",
           "package": "webserver",
@@ -2631,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "Unauthorized",
           "package": "webserver",
@@ -2644,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "UnknownMethod",
           "package": "webserver",
@@ -2653,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "UnknownMethod",
           "package": "webserver",
@@ -2666,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "UnsupportedMediaType",
           "package": "webserver",
@@ -2675,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "UnsupportedMediaType",
           "package": "webserver",
@@ -2688,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "UseProxy",
           "package": "webserver",
@@ -2697,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "UseProxy",
           "package": "webserver",
@@ -2711,6 +2947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturning \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e for 4xx and 5xx.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "badStatus",
           "package": "webserver",
@@ -2721,6 +2958,7 @@
         "index": {
           "description": "Returning True for xx and xx",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "badStatus",
           "normalized": "Status-\u003eBool",
@@ -2737,6 +2975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting \u003ccode\u003e\u003ca\u003eFieldKey\u003c/a\u003e\u003c/code\u003e to field key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "fromFieldKey",
           "package": "webserver",
@@ -2747,6 +2986,7 @@
         "index": {
           "description": "Converting FieldKey to field key",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "fromFieldKey",
           "normalized": "FieldKey-\u003eByteString",
@@ -2762,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "fromPersist",
           "package": "webserver",
@@ -2771,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "fromPersist",
           "normalized": "Persist-\u003eByteString",
@@ -2786,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "fromStatus",
           "package": "webserver",
@@ -2795,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "fromStatus",
           "normalized": "Status-\u003eByteString",
@@ -2810,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "fromVersion",
           "package": "webserver",
@@ -2819,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "fromVersion",
           "normalized": "Version-\u003eByteString",
@@ -2835,6 +3081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelecting a value of Content-Type from a file suffix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "selectContentType",
           "package": "webserver",
@@ -2845,6 +3092,7 @@
         "index": {
           "description": "Selecting value of Content-Type from file suffix",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "selectContentType",
           "normalized": "String-\u003eCT",
@@ -2861,6 +3109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value for text/html.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "textHtml",
           "package": "webserver",
@@ -2871,6 +3120,7 @@
         "index": {
           "description": "The value for text html",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "textHtml",
           "package": "webserver",
@@ -2885,6 +3135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting field key to \u003ccode\u003e\u003ca\u003eFieldKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "toFieldKey",
           "package": "webserver",
@@ -2895,6 +3146,7 @@
         "index": {
           "description": "Converting field key to FieldKey",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "toFieldKey",
           "normalized": "ByteString-\u003eFieldKey",
@@ -2910,6 +3162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "toMethod",
           "package": "webserver",
@@ -2919,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "toMethod",
           "normalized": "ByteString-\u003eMethod",
@@ -2934,6 +3188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "toPersist",
           "package": "webserver",
@@ -2943,6 +3198,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "toPersist",
           "normalized": "ByteString-\u003ePersist",
@@ -2959,6 +3215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting numeric status to \u003ccode\u003e\u003ca\u003eStatus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "toStatus",
           "package": "webserver",
@@ -2969,6 +3226,7 @@
         "index": {
           "description": "Converting numeric status to Status",
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "toStatus",
           "normalized": "ByteString-\u003eMaybe Status",
@@ -2984,6 +3242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Params",
           "name": "toVersion",
           "package": "webserver",
@@ -2993,6 +3252,7 @@
         },
         "index": {
           "hierarchy": "Network Web Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Params",
           "name": "toVersion",
           "normalized": "ByteString-\u003eVersion",
@@ -3009,6 +3269,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreating basic \u003ccode\u003e\u003ca\u003eWebServer\u003c/a\u003e\u003c/code\u003e.\n  Created \u003ccode\u003e\u003ca\u003eWebServer\u003c/a\u003e\u003c/code\u003e can handle GET / HEAD / POST;\n  OK, Not Found, Not Modified, Moved Permanently, etc;\n  partial getting; language negotication;\n  CGI, chunked data for CGI output;\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Basic",
           "name": "Basic",
           "package": "webserver",
@@ -3018,6 +3279,7 @@
         "index": {
           "description": "Creating basic WebServer Created WebServer can handle GET HEAD POST OK Not Found Not Modified Moved Permanently etc partial getting language negotication CGI chunked data for CGI output",
           "hierarchy": "Network Web Server Basic",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Basic",
           "name": "Basic",
           "package": "webserver",
@@ -3032,6 +3294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating \u003ccode\u003e\u003ca\u003eWebServer\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eBasicConfig\u003c/a\u003e\u003c/code\u003e.\n  The created \u003ccode\u003e\u003ca\u003eWebServer\u003c/a\u003e\u003c/code\u003e can handle GET / HEAD / POST;\n  OK, Not Found, Not Modified, Moved Permanently, etc;\n  partial getting; language negotication;\n  CGI, chunked data for CGI output;\n  If http://example.com/path does not exist but\n  http://example.com/path/ exists, the created \u003ccode\u003e\u003ca\u003eWebServer\u003c/a\u003e\u003c/code\u003e\n  redirects it. http://example.com/path/ is mapped to\n  /somewhere/path/ by \u003ccode\u003e\u003ca\u003emapper\u003c/a\u003e\u003c/code\u003e and index.html and index.html.en\n  automatically added and try to read by \u003ccode\u003e\u003ca\u003eobtain\u003c/a\u003e\u003c/code\u003e.\n  If Accept-Language is \u003ca\u003exx\u003c/a\u003e and \u003ca\u003eyy\u003c/a\u003e in order,\n  index.html.xx, index.html.yy, index.html and index.html.en\n  are tried. The created \u003ccode\u003e\u003ca\u003eWebServer\u003c/a\u003e\u003c/code\u003e does not dynamically\n  make index.html for a directory even if index.html does not\n  exist for security reasons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Basic",
           "name": "basicServer",
           "package": "webserver",
@@ -3042,6 +3305,7 @@
         "index": {
           "description": "Creating WebServer with BasicConfig The created WebServer can handle GET HEAD POST OK Not Found Not Modified Moved Permanently etc partial getting language negotication CGI chunked data for CGI output If http example.com path does not exist but http example.com path exists the created WebServer redirects it http example.com path is mapped to somewhere path by mapper and index.html and index.html.en automatically added and try to read by obtain If Accept-Language is xx and yy in order index.html.xx index.html.yy index.html and index.html.en are tried The created WebServer does not dynamically make index.html for directory even if index.html does not exist for security reasons",
           "hierarchy": "Network Web Server Basic",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Basic",
           "name": "basicServer",
           "normalized": "BasicConfig-\u003eWebServer",
@@ -3058,6 +3322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an HTTP server, using a default BasicConfig.\n  If you need to perform IO in the site mapping function (e.g. to check for the existence of files), use \u003ccode\u003e\u003ca\u003eserveHTTPMapIO\u003c/a\u003e\u003c/code\u003e,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Basic",
           "name": "serveHTTP",
           "package": "webserver",
@@ -3067,6 +3332,7 @@
         "index": {
           "description": "Run an HTTP server using default BasicConfig If you need to perform IO in the site mapping function e.g to check for the existence of files use serveHTTPMapIO",
           "hierarchy": "Network Web Server Basic",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Basic",
           "name": "serveHTTP",
           "normalized": "Maybe FilePath-\u003eInt-\u003eByteString-\u003e(Request-\u003ePath)-\u003eIO()",
@@ -3083,6 +3349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an HTTP server, using a default BasicConfig.\n  Can perform IO in the site mapping function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Basic",
           "name": "serveHTTPMapIO",
           "package": "webserver",
@@ -3092,6 +3359,7 @@
         "index": {
           "description": "Run an HTTP server using default BasicConfig Can perform IO in the site mapping function",
           "hierarchy": "Network Web Server Basic",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Basic",
           "name": "serveHTTPMapIO",
           "normalized": "Maybe FilePath-\u003eInt-\u003eByteString-\u003e(Request-\u003eIO Path)-\u003eIO()",
@@ -3107,6 +3375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.CGI",
           "name": "CGI",
           "package": "webserver",
@@ -3115,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "Network Web Server CGI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.CGI",
           "name": "CGI",
           "package": "webserver",
@@ -3128,6 +3398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.CGI",
           "name": "tryGetCGI",
           "package": "webserver",
@@ -3137,6 +3408,7 @@
         },
         "index": {
           "hierarchy": "Network Web Server CGI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.CGI",
           "name": "tryGetCGI",
           "normalized": "BasicConfig-\u003eRequest-\u003eCGI-\u003eIO(Maybe Response)",
@@ -3152,6 +3424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Lang",
           "name": "Lang",
           "package": "webserver",
@@ -3160,6 +3433,7 @@
         },
         "index": {
           "hierarchy": "Network Web Server Lang",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Lang",
           "name": "Lang",
           "package": "webserver",
@@ -3173,6 +3447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Lang",
           "name": "parseLang",
           "package": "webserver",
@@ -3182,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "Network Web Server Lang",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Lang",
           "name": "parseLang",
           "normalized": "String-\u003e[String]",
@@ -3197,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "Params",
           "package": "webserver",
@@ -3205,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "Params",
           "package": "webserver",
@@ -3219,6 +3497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe configuration for the basic web server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "BasicConfig",
           "package": "webserver",
@@ -3228,6 +3507,7 @@
         "index": {
           "description": "The configuration for the basic web server",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "BasicConfig",
           "package": "webserver",
@@ -3242,6 +3522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal information of CGI converted from \u003ccode\u003eURI\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "CGI",
           "package": "webserver",
@@ -3251,6 +3532,7 @@
         "index": {
           "description": "Internal information of CGI converted from URI",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "CGI",
           "package": "webserver",
@@ -3265,6 +3547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl information of how to handle \u003ccode\u003eURI\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "Path",
           "package": "webserver",
@@ -3274,6 +3557,7 @@
         "index": {
           "description": "Control information of how to handle URI",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "Path",
           "package": "webserver",
@@ -3287,6 +3571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "BasicConfig",
           "package": "webserver",
@@ -3296,6 +3581,7 @@
         },
         "index": {
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "BasicConfig",
           "package": "webserver",
@@ -3309,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "CGI",
           "package": "webserver",
@@ -3318,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "CGI",
           "package": "webserver",
@@ -3332,6 +3620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eURI\u003c/code\u003e is converted into a resource (typically a file).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "File",
           "package": "webserver",
@@ -3342,6 +3631,7 @@
         "index": {
           "description": "URI is converted into resource typically file",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "File",
           "package": "webserver",
@@ -3356,6 +3646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eURI\u003c/code\u003e is converted into a handler callback\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "Handler",
           "package": "webserver",
@@ -3366,6 +3657,7 @@
         "index": {
           "description": "URI is converted into handler callback",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "Handler",
           "package": "webserver",
@@ -3380,6 +3672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eURI\u003c/code\u003e cannot be converted into any resources.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "None",
           "package": "webserver",
@@ -3390,6 +3683,7 @@
         "index": {
           "description": "URI cannot be converted into any resources",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "None",
           "package": "webserver",
@@ -3404,6 +3698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eURI\u003c/code\u003e is converted into CGI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "PathCGI",
           "package": "webserver",
@@ -3414,6 +3709,7 @@
         "index": {
           "description": "URI is converted into CGI",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "PathCGI",
           "package": "webserver",
@@ -3428,6 +3724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault \u003ccode\u003e\u003ca\u003eBasicConfig\u003c/a\u003e\u003c/code\u003e, with \u003ccode\u003e\u003ca\u003eobtain\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003einfo\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eserverName\u003c/a\u003e\u003c/code\u003e filled in.\n  It is necessary to override the \u003ccode\u003e\u003ca\u003emapper\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etcpInfo\u003c/a\u003e\u003c/code\u003e fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "defaultConfig",
           "package": "webserver",
@@ -3438,6 +3735,7 @@
         "index": {
           "description": "Default BasicConfig with obtain info and serverName filled in It is necessary to override the mapper and tcpInfo fields",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "defaultConfig",
           "package": "webserver",
@@ -3452,6 +3750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size and modification time of a file, if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "defaultInfo",
           "package": "webserver",
@@ -3462,6 +3761,7 @@
         "index": {
           "description": "Get the size and modification time of file if possible",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "defaultInfo",
           "normalized": "FilePath-\u003eIO(Maybe(Integer,UTCTime))",
@@ -3478,6 +3778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain a data slice from a file as a lazy bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "defaultObtain",
           "package": "webserver",
@@ -3488,6 +3789,7 @@
         "index": {
           "description": "Obtain data slice from file as lazy bytestring",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "defaultObtain",
           "normalized": "FilePath-\u003eMaybe(Integer,Integer)-\u003eIO ByteString",
@@ -3504,6 +3806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to return the size of the resource and\n   its modification time if exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "info",
           "package": "webserver",
@@ -3514,6 +3817,7 @@
         "index": {
           "description": "function to return the size of the resource and its modification time if exists",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "info",
           "normalized": "FilePath-\u003eIO(Maybe(Integer,UTCTime))",
@@ -3529,6 +3833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapper from \u003ccode\u003eURI\u003c/code\u003e to \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "mapper",
           "package": "webserver",
@@ -3539,6 +3844,7 @@
         "index": {
           "description": "mapper from URI to Path",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "mapper",
           "normalized": "Request-\u003eIO Path",
@@ -3554,6 +3860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResource obtaining function. The second argument is\n   (offset of the resource, and length from the offset).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "obtain",
           "package": "webserver",
@@ -3564,6 +3871,7 @@
         "index": {
           "description": "Resource obtaining function The second argument is offset of the resource and length from the offset",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "obtain",
           "normalized": "FilePath-\u003eMaybe(Integer,Integer)-\u003eIO ByteString",
@@ -3579,6 +3887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA path information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "pathInfo",
           "package": "webserver",
@@ -3589,6 +3898,7 @@
         "index": {
           "description": "path information",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "pathInfo",
           "package": "webserver",
@@ -3603,6 +3913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA program path to be executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "progPath",
           "package": "webserver",
@@ -3613,6 +3924,7 @@
         "index": {
           "description": "program path to be executed",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "progPath",
           "package": "webserver",
@@ -3627,6 +3939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA query string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "queryString",
           "package": "webserver",
@@ -3637,6 +3950,7 @@
         "index": {
           "description": "query string",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "queryString",
           "package": "webserver",
@@ -3651,6 +3965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA script name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "scriptName",
           "package": "webserver",
@@ -3661,6 +3976,7 @@
         "index": {
           "description": "script name",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "scriptName",
           "package": "webserver",
@@ -3675,6 +3991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA server name specified the Server: field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "serverName",
           "package": "webserver",
@@ -3685,6 +4002,7 @@
         "index": {
           "description": "server name specified the Server field",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "serverName",
           "package": "webserver",
@@ -3699,6 +4017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTCPInfo\u003c/a\u003e\u003c/code\u003e for passing CGI. (See c10k library.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Params",
           "name": "tcpInfo",
           "package": "webserver",
@@ -3709,6 +4028,7 @@
         "index": {
           "description": "TCPInfo for passing CGI See c10k library",
           "hierarchy": "Network Web Server Params",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Params",
           "name": "tcpInfo",
           "package": "webserver",
@@ -3722,6 +4042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Range",
           "name": "Range",
           "package": "webserver",
@@ -3730,6 +4051,7 @@
         },
         "index": {
           "hierarchy": "Network Web Server Range",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Range",
           "name": "Range",
           "package": "webserver",
@@ -3743,6 +4065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server.Range",
           "name": "skipAndSize",
           "package": "webserver",
@@ -3752,6 +4075,7 @@
         },
         "index": {
           "hierarchy": "Network Web Server Range",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server.Range",
           "name": "skipAndSize",
           "normalized": "String-\u003eInteger-\u003eMaybe(Integer,Integer)",
@@ -3768,6 +4092,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTTP server library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server",
           "name": "Server",
           "package": "webserver",
@@ -3777,6 +4102,7 @@
         "index": {
           "description": "HTTP server library",
           "hierarchy": "Network Web Server",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server",
           "name": "Server",
           "package": "webserver",
@@ -3791,6 +4117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe configuration for \u003ccode\u003e\u003ca\u003econnection\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server",
           "name": "WebConfig",
           "package": "webserver",
@@ -3800,6 +4127,7 @@
         "index": {
           "description": "The configuration for connection",
           "hierarchy": "Network Web Server",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server",
           "name": "WebConfig",
           "package": "webserver",
@@ -3814,6 +4142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for HTTP server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server",
           "name": "WebServer",
           "package": "webserver",
@@ -3823,6 +4152,7 @@
         "index": {
           "description": "The type for HTTP server",
           "hierarchy": "Network Web Server",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server",
           "name": "WebServer",
           "package": "webserver",
@@ -3836,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server",
           "name": "WebConfig",
           "package": "webserver",
@@ -3845,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Network Web Server",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server",
           "name": "WebConfig",
           "package": "webserver",
@@ -3859,6 +4191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hook to be called when access succeeds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server",
           "name": "accessHook",
           "package": "webserver",
@@ -3869,6 +4202,7 @@
         "index": {
           "description": "hook to be called when access succeeds",
           "hierarchy": "Network Web Server",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server",
           "name": "accessHook",
           "normalized": "String-\u003eIO()",
@@ -3885,6 +4219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hook to be called when an HTTP connection is closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server",
           "name": "closedHook",
           "package": "webserver",
@@ -3895,6 +4230,7 @@
         "index": {
           "description": "hook to be called when an HTTP connection is closed",
           "hierarchy": "Network Web Server",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server",
           "name": "closedHook",
           "normalized": "String-\u003eIO()",
@@ -3911,6 +4247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to run an \u003ccode\u003e\u003ca\u003eWebServer\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e should be mode by\n  converting an accepted socket.\n  Keep-alive / termination of HTTP 1.0 and HTTP 1.1 is correctly handled.\n  So, \u003ccode\u003e\u003ca\u003eWebServer\u003c/a\u003e\u003c/code\u003e need not to handle the Connection: header in response.\n  The Date: header is automatically added in response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server",
           "name": "connection",
           "package": "webserver",
@@ -3921,6 +4258,7 @@
         "index": {
           "description": "function to run an WebServer Handle should be mode by converting an accepted socket Keep-alive termination of HTTP and HTTP is correctly handled So WebServer need not to handle the Connection header in response The Date header is automatically added in response",
           "hierarchy": "Network Web Server",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server",
           "name": "connection",
           "normalized": "Handle-\u003eWebServer-\u003eWebConfig-\u003eIO()",
@@ -3936,6 +4274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA time to unblock receiving an HTTP request in seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server",
           "name": "connectionTimer",
           "package": "webserver",
@@ -3946,6 +4285,7 @@
         "index": {
           "description": "time to unblock receiving an HTTP request in seconds",
           "hierarchy": "Network Web Server",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server",
           "name": "connectionTimer",
           "package": "webserver",
@@ -3960,6 +4300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hook to be called when an access error occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server",
           "name": "errorHook",
           "package": "webserver",
@@ -3970,6 +4311,7 @@
         "index": {
           "description": "hook to be called when an access error occurs",
           "hierarchy": "Network Web Server",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server",
           "name": "errorHook",
           "normalized": "String-\u003eIO()",
@@ -3986,6 +4328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hook to be called when a fatal error occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.Server",
           "name": "fatalErrorHook",
           "package": "webserver",
@@ -3996,6 +4339,7 @@
         "index": {
           "description": "hook to be called when fatal error occurs",
           "hierarchy": "Network Web Server",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.Server",
           "name": "fatalErrorHook",
           "normalized": "String-\u003eIO()",
@@ -4012,6 +4356,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser for URI\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "URI",
           "package": "webserver",
@@ -4021,6 +4366,7 @@
         "index": {
           "description": "Parser for URI",
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "URI",
           "package": "webserver",
@@ -4035,6 +4381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type for URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "URI",
           "package": "webserver",
@@ -4044,6 +4391,7 @@
         "index": {
           "description": "Abstract data type for URI",
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "URI",
           "package": "webserver",
@@ -4058,6 +4406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type for URI Authority\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "URIAuth",
           "package": "webserver",
@@ -4067,6 +4416,7 @@
         "index": {
           "description": "Abstract data type for URI Authority",
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "URIAuth",
           "package": "webserver",
@@ -4081,6 +4431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecking whether or not URI starts with \"http:\u003cem/\u003e\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "isAbsoluteURI",
           "package": "webserver",
@@ -4091,6 +4442,7 @@
         "index": {
           "description": "Checking whether or not URI starts with http",
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "isAbsoluteURI",
           "normalized": "ByteString-\u003eBool",
@@ -4107,6 +4459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "parseURI",
           "package": "webserver",
@@ -4117,6 +4470,7 @@
         "index": {
           "description": "Parsing URI",
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "parseURI",
           "normalized": "ByteString-\u003eMaybe URI",
@@ -4133,6 +4487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaking a URL string from \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "toURL",
           "package": "webserver",
@@ -4143,6 +4498,7 @@
         "index": {
           "description": "Making URL string from URI",
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "toURL",
           "normalized": "URI-\u003eByteString",
@@ -4159,6 +4515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaking a URL string from \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e without port and parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "toURLPath",
           "package": "webserver",
@@ -4169,6 +4526,7 @@
         "index": {
           "description": "Making URL string from URI without port and parameters",
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "toURLPath",
           "normalized": "URI-\u003eByteString",
@@ -4185,6 +4543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaking a URL string from \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e without port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "toURLwoPort",
           "package": "webserver",
@@ -4195,6 +4554,7 @@
         "index": {
           "description": "Making URL string from URI without port",
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "toURLwoPort",
           "normalized": "URI-\u003eByteString",
@@ -4211,6 +4571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecoding the %XX encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "unEscapeByteString",
           "package": "webserver",
@@ -4221,6 +4582,7 @@
         "index": {
           "description": "Decoding the XX encoding",
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "unEscapeByteString",
           "normalized": "ByteString-\u003eByteString",
@@ -4237,6 +4599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecoding the %XX encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "unEscapeString",
           "package": "webserver",
@@ -4247,6 +4610,7 @@
         "index": {
           "description": "Decoding the XX encoding",
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "unEscapeString",
           "normalized": "String-\u003eString",
@@ -4262,6 +4626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "uriAuthority",
           "package": "webserver",
@@ -4271,6 +4636,7 @@
         },
         "index": {
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "uriAuthority",
           "normalized": "URI-\u003eMaybe URIAuth",
@@ -4286,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "uriFragment",
           "package": "webserver",
@@ -4295,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "uriFragment",
           "normalized": "URI-\u003eByteString",
@@ -4311,6 +4679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting a hostname from \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "uriHostName",
           "package": "webserver",
@@ -4321,6 +4690,7 @@
         "index": {
           "description": "Getting hostname from URI",
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "uriHostName",
           "normalized": "URI-\u003eByteString",
@@ -4336,6 +4706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "uriPath",
           "package": "webserver",
@@ -4345,6 +4716,7 @@
         },
         "index": {
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "uriPath",
           "normalized": "URI-\u003eByteString",
@@ -4360,6 +4732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "uriPort",
           "package": "webserver",
@@ -4369,6 +4742,7 @@
         },
         "index": {
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "uriPort",
           "normalized": "URIAuth-\u003eByteString",
@@ -4385,6 +4759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting a port number from \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "uriPortNumber",
           "package": "webserver",
@@ -4395,6 +4770,7 @@
         "index": {
           "description": "Getting port number from URI",
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "uriPortNumber",
           "normalized": "URI-\u003eByteString",
@@ -4410,6 +4786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "uriQuery",
           "package": "webserver",
@@ -4419,6 +4796,7 @@
         },
         "index": {
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "uriQuery",
           "normalized": "URI-\u003eByteString",
@@ -4434,6 +4812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "uriRegName",
           "package": "webserver",
@@ -4443,6 +4822,7 @@
         },
         "index": {
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "uriRegName",
           "normalized": "URIAuth-\u003eByteString",
@@ -4458,6 +4838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "uriScheme",
           "package": "webserver",
@@ -4467,6 +4848,7 @@
         },
         "index": {
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "uriScheme",
           "normalized": "URI-\u003eByteString",
@@ -4482,6 +4864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:36 UTC 2014",
           "module": "Network.Web.URI",
           "name": "uriUserInfo",
           "package": "webserver",
@@ -4491,6 +4874,7 @@
         },
         "index": {
           "hierarchy": "Network Web URI",
+          "indexed": "2014-03-11T20:38:36",
           "module": "Network.Web.URI",
           "name": "uriUserInfo",
           "normalized": "URIAuth-\u003eByteString",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "order-statistics"
+        "phrase": "order-statistics",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Distribution.Beta",
           "name": "Beta",
           "package": "order-statistics",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Beta",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Distribution.Beta",
           "name": "Beta",
           "package": "order-statistics",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Distribution.Beta",
           "name": "BetaDistribution",
           "package": "order-statistics",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Beta",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Distribution.Beta",
           "name": "BetaDistribution",
           "package": "order-statistics",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Distribution.Beta",
           "name": "BD",
           "package": "order-statistics",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Beta",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Distribution.Beta",
           "name": "BD",
           "package": "order-statistics",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Distribution.Beta",
           "name": "bdAlpha",
           "package": "order-statistics",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Beta",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Distribution.Beta",
           "name": "bdAlpha",
           "package": "order-statistics",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Distribution.Beta",
           "name": "bdBeta",
           "package": "order-statistics",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Beta",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Distribution.Beta",
           "name": "bdBeta",
           "package": "order-statistics",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Distribution.Beta",
           "name": "betaDistr",
           "package": "order-statistics",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Beta",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Distribution.Beta",
           "name": "betaDistr",
           "normalized": "Double-\u003eDouble-\u003eBetaDistribution",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "Order",
           "package": "order-statistics",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "Order",
           "package": "order-statistics",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample quantile estimators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "Estimate",
           "package": "order-statistics",
@@ -181,6 +196,7 @@
         "index": {
           "description": "Sample quantile estimators",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "Estimate",
           "package": "order-statistics",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "Estimator",
           "package": "order-statistics",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "Estimator",
           "package": "order-statistics",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eL-estimators are linear combinations of order statistics used by \u003ccode\u003erobust\u003c/code\u003e statistics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "L",
           "package": "order-statistics",
@@ -225,6 +244,7 @@
         "index": {
           "description": "L-estimators are linear combinations of order statistics used by robust statistics",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "L",
           "package": "order-statistics",
@@ -238,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the result of applying an L-estimator to a *pre-sorted* vector of order statistics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "(@!)",
           "package": "order-statistics",
@@ -248,6 +269,7 @@
         "index": {
           "description": "Calculate the result of applying an L-estimator to pre-sorted vector of order statistics",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "(@!) @!",
           "normalized": "L a-\u003eVector a-\u003ea",
@@ -263,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget a vector of the coefficients of an L estimator when applied to an input of a given length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "(@#)",
           "package": "order-statistics",
@@ -273,6 +296,7 @@
         "index": {
           "description": "get vector of the coefficients of an estimator when applied to an input of given length",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "(@#) @#",
           "normalized": "L a-\u003eInt-\u003e[a]",
@@ -288,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the result of applying an L-estimator after sorting list into order statistics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "(@@)",
           "package": "order-statistics",
@@ -298,6 +323,7 @@
         "index": {
           "description": "Calculate the result of applying an L-estimator after sorting list into order statistics",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "(@@) @@",
           "normalized": "L a-\u003e[a]-\u003ea",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "Estimate",
           "package": "order-statistics",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "Estimate",
           "package": "order-statistics",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "L",
           "package": "order-statistics",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "L",
           "package": "order-statistics",
@@ -356,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalculate the breakdown % of an L-estimator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "breakdown",
           "package": "order-statistics",
@@ -366,6 +397,7 @@
         "index": {
           "description": "calculate the breakdown of an L-estimator",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "breakdown",
           "normalized": "L a-\u003eInt",
@@ -381,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Harrell-Davis quantile estimate. Uses multiple order statistics to approximate the quantile\n to reduce variance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "hdquantile",
           "package": "order-statistics",
@@ -391,6 +424,7 @@
         "index": {
           "description": "The Harrell-Davis quantile estimate Uses multiple order statistics to approximate the quantile to reduce variance",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "hdquantile",
           "normalized": "Rational-\u003eL a",
@@ -406,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterquartile mean\n\u003c/p\u003e\u003cpre\u003e iqm = trimmed 0.25 mean\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "iqm",
           "package": "order-statistics",
@@ -416,6 +451,7 @@
         "index": {
           "description": "interquartile mean iqm trimmed mean",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "iqm",
           "package": "order-statistics",
@@ -429,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterquartile range\n\u003c/p\u003e\u003cpre\u003e breakdown iqr = 25%\n iqr = trimmed 0.25 midrange\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "iqr",
           "package": "order-statistics",
@@ -439,6 +476,7 @@
         "index": {
           "description": "interquartile range breakdown iqr iqr trimmed midrange",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "iqr",
           "package": "order-statistics",
@@ -452,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJackknifes the statistic by removing each sample in turn and recalculating the L-estimator,\n requires at least 2 samples!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "jackknifed",
           "package": "order-statistics",
@@ -462,6 +501,7 @@
         "index": {
           "description": "Jackknifes the statistic by removing each sample in turn and recalculating the L-estimator requires at least samples",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "jackknifed",
           "normalized": "L a-\u003eL a",
@@ -477,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum value in the sample\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "lmax",
           "package": "order-statistics",
@@ -487,6 +528,7 @@
         "index": {
           "description": "The maximum value in the sample",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "lmax",
           "package": "order-statistics",
@@ -500,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe minimum value in the sample\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "lmin",
           "package": "order-statistics",
@@ -510,6 +553,7 @@
         "index": {
           "description": "The minimum value in the sample",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "lmin",
           "package": "order-statistics",
@@ -523,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirect estimator for the second L-moment given a sample\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "lscale",
           "package": "order-statistics",
@@ -533,6 +578,7 @@
         "index": {
           "description": "Direct estimator for the second L-moment given sample",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "lscale",
           "package": "order-statistics",
@@ -546,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe average of all of the order statistics. Not robust.\n\u003c/p\u003e\u003cpre\u003e breakdown mean = 0%\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "mean",
           "package": "order-statistics",
@@ -556,6 +603,7 @@
         "index": {
           "description": "The average of all of the order statistics Not robust breakdown mean",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "mean",
           "package": "order-statistics",
@@ -569,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most robust L-estimator possible.\n\u003c/p\u003e\u003cpre\u003e breakdown median = 50\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "median",
           "package": "order-statistics",
@@ -579,6 +628,7 @@
         "index": {
           "description": "The most robust L-estimator possible breakdown median",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "median",
           "package": "order-statistics",
@@ -592,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e midhinge = trimmed 0.25 midrange\n breakdown midhinge = 25%\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "midhinge",
           "package": "order-statistics",
@@ -602,6 +653,7 @@
         "index": {
           "description": "midhinge trimmed midrange breakdown midhinge",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "midhinge",
           "package": "order-statistics",
@@ -615,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e midrange = lmax - lmin\n breakdown midrange = 0%\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "midrange",
           "package": "order-statistics",
@@ -625,6 +678,7 @@
         "index": {
           "description": "midrange lmax lmin breakdown midrange",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "midrange",
           "package": "order-statistics",
@@ -637,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "nthLargest",
           "package": "order-statistics",
@@ -646,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "nthLargest",
           "normalized": "Int-\u003eL a",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "nthSmallest",
           "package": "order-statistics",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "nthSmallest",
           "normalized": "Int-\u003eL a",
@@ -686,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e breakdown (percentile n) = min n (100 - n)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "percentile",
           "package": "order-statistics",
@@ -696,6 +755,7 @@
         "index": {
           "description": "breakdown percentile min",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "percentile",
           "normalized": "Rational-\u003eL a",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "permille",
           "package": "order-statistics",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "permille",
           "normalized": "Rational-\u003eL a",
@@ -734,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equantiles, with breakdown points 25%, 50%, and 25% respectively\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "q1",
           "package": "order-statistics",
@@ -744,6 +807,7 @@
         "index": {
           "description": "quantiles with breakdown points and respectively",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "q1",
           "package": "order-statistics",
@@ -757,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equantiles, with breakdown points 25%, 50%, and 25% respectively\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "q2",
           "package": "order-statistics",
@@ -767,6 +832,7 @@
         "index": {
           "description": "quantiles with breakdown points and respectively",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "q2",
           "package": "order-statistics",
@@ -780,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equantiles, with breakdown points 25%, 50%, and 25% respectively\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "q3",
           "package": "order-statistics",
@@ -790,6 +857,7 @@
         "index": {
           "description": "quantiles with breakdown points and respectively",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "q3",
           "package": "order-statistics",
@@ -803,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equintiles 1 through 4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "qu1",
           "package": "order-statistics",
@@ -813,6 +882,7 @@
         "index": {
           "description": "quintiles through",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "qu1",
           "package": "order-statistics",
@@ -826,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equintiles 1 through 4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "qu2",
           "package": "order-statistics",
@@ -836,6 +907,7 @@
         "index": {
           "description": "quintiles through",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "qu2",
           "package": "order-statistics",
@@ -849,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equintiles 1 through 4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "qu3",
           "package": "order-statistics",
@@ -859,6 +932,7 @@
         "index": {
           "description": "quintiles through",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "qu3",
           "package": "order-statistics",
@@ -872,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equintiles 1 through 4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "qu4",
           "package": "order-statistics",
@@ -882,6 +957,7 @@
         "index": {
           "description": "quintiles through",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "qu4",
           "package": "order-statistics",
@@ -895,6 +971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a quantile with traditional direct averaging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "quantile",
           "package": "order-statistics",
@@ -905,6 +982,7 @@
         "index": {
           "description": "Compute quantile with traditional direct averaging",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "quantile",
           "normalized": "Rational-\u003eL a",
@@ -920,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a quantile using the given estimation strategy to interpolate when an exact quantile isn't available\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "quantileBy",
           "package": "order-statistics",
@@ -930,6 +1009,7 @@
         "index": {
           "description": "Compute quantile using the given estimation strategy to interpolate when an exact quantile isn available",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "quantileBy",
           "normalized": "Estimator a-\u003eRational-\u003eL a",
@@ -945,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "quartile",
           "package": "order-statistics",
@@ -954,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "quartile",
           "normalized": "Rational-\u003eL a",
@@ -968,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "quintile",
           "package": "order-statistics",
@@ -977,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "quintile",
           "normalized": "Rational-\u003eL a",
@@ -992,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of the empirical distribution function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "r1",
           "package": "order-statistics",
@@ -1002,6 +1087,7 @@
         "index": {
           "description": "Inverse of the empirical distribution function",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "r1",
           "package": "order-statistics",
@@ -1015,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen rounding h, this yields the order statistic with the least expected square deviation relative to p.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "r10",
           "package": "order-statistics",
@@ -1025,6 +1112,7 @@
         "index": {
           "description": "When rounding this yields the order statistic with the least expected square deviation relative to",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "r10",
           "package": "order-statistics",
@@ -1038,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e.. with averaging at discontinuities\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "r2",
           "package": "order-statistics",
@@ -1048,6 +1137,7 @@
         "index": {
           "description": "with averaging at discontinuities",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "r2",
           "package": "order-statistics",
@@ -1061,6 +1151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe observation numbered closest to Np. NB: does not yield a proper median\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "r3",
           "package": "order-statistics",
@@ -1071,6 +1162,7 @@
         "index": {
           "description": "The observation numbered closest to Np NB does not yield proper median",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "r3",
           "package": "order-statistics",
@@ -1084,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear interpolation of the empirical distribution function. NB: does not yield a proper median.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "r4",
           "package": "order-statistics",
@@ -1094,6 +1187,7 @@
         "index": {
           "description": "Linear interpolation of the empirical distribution function NB does not yield proper median",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "r4",
           "package": "order-statistics",
@@ -1107,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e.. with knots midway through the steps as used in hydrology. This is the simplest continuous estimator that yields a correct median\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "r5",
           "package": "order-statistics",
@@ -1117,6 +1212,7 @@
         "index": {
           "description": "with knots midway through the steps as used in hydrology This is the simplest continuous estimator that yields correct median",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "r5",
           "package": "order-statistics",
@@ -1130,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear interpolation of the expectations of the order statistics for the uniform distribution on [0,1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "r6",
           "package": "order-statistics",
@@ -1140,6 +1237,7 @@
         "index": {
           "description": "Linear interpolation of the expectations of the order statistics for the uniform distribution on",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "r6",
           "package": "order-statistics",
@@ -1153,6 +1251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear interpolation of the modes for the order statistics for the uniform distribution on [0,1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "r7",
           "package": "order-statistics",
@@ -1163,6 +1262,7 @@
         "index": {
           "description": "Linear interpolation of the modes for the order statistics for the uniform distribution on",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "r7",
           "package": "order-statistics",
@@ -1176,6 +1276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear interpolation of the approximate medans for order statistics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "r8",
           "package": "order-statistics",
@@ -1186,6 +1287,7 @@
         "index": {
           "description": "Linear interpolation of the approximate medans for order statistics",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "r8",
           "package": "order-statistics",
@@ -1199,6 +1301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe resulting quantile estimates are approximately unbiased for the expected order statistics if x is normally distributed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "r9",
           "package": "order-statistics",
@@ -1209,6 +1312,7 @@
         "index": {
           "description": "The resulting quantile estimates are approximately unbiased for the expected order statistics if is normally distributed",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "r9",
           "package": "order-statistics",
@@ -1221,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "runL",
           "package": "order-statistics",
@@ -1230,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "runL",
           "normalized": "Int-\u003eIntMap a",
@@ -1245,6 +1351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eterciles 1 and 2\n\u003c/p\u003e\u003cpre\u003e breakdown t1 = breakdown t2 = 33%\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "t1",
           "package": "order-statistics",
@@ -1255,6 +1362,7 @@
         "index": {
           "description": "terciles and breakdown t1 breakdown t2",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "t1",
           "package": "order-statistics",
@@ -1268,6 +1376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eterciles 1 and 2\n\u003c/p\u003e\u003cpre\u003e breakdown t1 = breakdown t2 = 33%\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "t2",
           "package": "order-statistics",
@@ -1278,6 +1387,7 @@
         "index": {
           "description": "terciles and breakdown t1 breakdown t2",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "t2",
           "package": "order-statistics",
@@ -1290,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "tercile",
           "package": "order-statistics",
@@ -1299,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "tercile",
           "normalized": "Rational-\u003eL a",
@@ -1314,6 +1426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sum of all of the order statistics. Not robust.\n\u003c/p\u003e\u003cpre\u003e breakdown total = 0%\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "total",
           "package": "order-statistics",
@@ -1324,6 +1437,7 @@
         "index": {
           "description": "The sum of all of the order statistics Not robust breakdown total",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "total",
           "package": "order-statistics",
@@ -1337,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTukey's trimean\n\u003c/p\u003e\u003cpre\u003e breakdown trimean = 25\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "trimean",
           "package": "order-statistics",
@@ -1347,6 +1462,7 @@
         "index": {
           "description": "Tukey trimean breakdown trimean",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "trimean",
           "package": "order-statistics",
@@ -1360,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate a trimmed L-estimator. If the sample size isn't evenly divided, linear interpolation is used\n as described in \u003ca\u003ehttp://en.wikipedia.org/wiki/Trimmed_mean#Interpolation\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "trimmed",
           "package": "order-statistics",
@@ -1370,6 +1487,7 @@
         "index": {
           "description": "Calculate trimmed L-estimator If the sample size isn evenly divided linear interpolation is used as described in http en.wikipedia.org wiki Trimmed mean Interpolation",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "trimmed",
           "normalized": "Rational-\u003eL a-\u003eL a",
@@ -1385,6 +1503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates an interpolated winsorized L-estimator in a manner analogous to the trimmed estimator. \n Unlike trimming, winsorizing replaces the extreme values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "winsorised",
           "package": "order-statistics",
@@ -1395,6 +1514,7 @@
         "index": {
           "description": "Calculates an interpolated winsorized L-estimator in manner analogous to the trimmed estimator Unlike trimming winsorizing replaces the extreme values",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "winsorised",
           "normalized": "Rational-\u003eL a-\u003eL a",
@@ -1410,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates an interpolated winsorized L-estimator in a manner analogous to the trimmed estimator. \n Unlike trimming, winsorizing replaces the extreme values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:01 UTC 2014",
           "module": "Statistics.Order",
           "name": "winsorized",
           "package": "order-statistics",
@@ -1420,6 +1541,7 @@
         "index": {
           "description": "Calculates an interpolated winsorized L-estimator in manner analogous to the trimmed estimator Unlike trimming winsorizing replaces the extreme values",
           "hierarchy": "Statistics Order",
+          "indexed": "2014-03-11T19:33:01",
           "module": "Statistics.Order",
           "name": "winsorized",
           "normalized": "Rational-\u003eL a-\u003eL a",

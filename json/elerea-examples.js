@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "elerea-examples"
+        "phrase": "elerea-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

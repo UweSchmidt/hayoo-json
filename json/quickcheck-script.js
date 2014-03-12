@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "quickcheck-script"
+        "phrase": "quickcheck-script",
+        "type": "phrase"
       },
       "type": "context"
     }

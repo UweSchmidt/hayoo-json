@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack-handler-kibro"
+        "phrase": "hack-handler-kibro",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:29 UTC 2014",
           "module": "Hack.Handler.Kibro",
           "name": "Kibro",
           "package": "hack-handler-kibro",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Kibro",
+          "indexed": "2014-03-11T18:25:29",
           "module": "Hack.Handler.Kibro",
           "name": "Kibro",
           "package": "hack-handler-kibro",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:29 UTC 2014",
           "module": "Hack.Handler.Kibro",
           "name": "run",
           "package": "hack-handler-kibro",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Kibro",
+          "indexed": "2014-03-11T18:25:29",
           "module": "Hack.Handler.Kibro",
           "name": "run",
           "normalized": "Application-\u003eIO()",

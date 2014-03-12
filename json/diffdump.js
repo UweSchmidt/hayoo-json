@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "diffdump"
+        "phrase": "diffdump",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "TrieMap"
+        "phrase": "TrieMap",
+        "type": "phrase"
       },
       "type": "context"
     }

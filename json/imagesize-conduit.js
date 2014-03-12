@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "imagesize-conduit"
+        "phrase": "imagesize-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:53 UTC 2014",
           "module": "Data.Conduit.ImageSize",
           "name": "ImageSize",
           "package": "imagesize-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit ImageSize",
+          "indexed": "2014-03-11T18:56:53",
           "module": "Data.Conduit.ImageSize",
           "name": "ImageSize",
           "package": "imagesize-conduit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:53 UTC 2014",
           "module": "Data.Conduit.ImageSize",
           "name": "FileFormat",
           "package": "imagesize-conduit",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit ImageSize",
+          "indexed": "2014-03-11T18:56:53",
           "module": "Data.Conduit.ImageSize",
           "name": "FileFormat",
           "package": "imagesize-conduit",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:53 UTC 2014",
           "module": "Data.Conduit.ImageSize",
           "name": "Size",
           "package": "imagesize-conduit",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit ImageSize",
+          "indexed": "2014-03-11T18:56:53",
           "module": "Data.Conduit.ImageSize",
           "name": "Size",
           "package": "imagesize-conduit",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:53 UTC 2014",
           "module": "Data.Conduit.ImageSize",
           "name": "GIF",
           "package": "imagesize-conduit",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit ImageSize",
+          "indexed": "2014-03-11T18:56:53",
           "module": "Data.Conduit.ImageSize",
           "name": "GIF",
           "package": "imagesize-conduit",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:53 UTC 2014",
           "module": "Data.Conduit.ImageSize",
           "name": "JPG",
           "package": "imagesize-conduit",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit ImageSize",
+          "indexed": "2014-03-11T18:56:53",
           "module": "Data.Conduit.ImageSize",
           "name": "JPG",
           "package": "imagesize-conduit",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:53 UTC 2014",
           "module": "Data.Conduit.ImageSize",
           "name": "PNG",
           "package": "imagesize-conduit",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit ImageSize",
+          "indexed": "2014-03-11T18:56:53",
           "module": "Data.Conduit.ImageSize",
           "name": "PNG",
           "package": "imagesize-conduit",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:53 UTC 2014",
           "module": "Data.Conduit.ImageSize",
           "name": "Size",
           "package": "imagesize-conduit",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit ImageSize",
+          "indexed": "2014-03-11T18:56:53",
           "module": "Data.Conduit.ImageSize",
           "name": "Size",
           "package": "imagesize-conduit",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:53 UTC 2014",
           "module": "Data.Conduit.ImageSize",
           "name": "height",
           "package": "imagesize-conduit",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit ImageSize",
+          "indexed": "2014-03-11T18:56:53",
           "module": "Data.Conduit.ImageSize",
           "name": "height",
           "package": "imagesize-conduit",
@@ -191,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind out the size of an image.  Also returns the file format\n that parsed correctly.  Note that this function does not\n verify that the file is indeed in the format that it returns,\n since it looks only at a small part of the header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:53 UTC 2014",
           "module": "Data.Conduit.ImageSize",
           "name": "sinkImageInfo",
           "package": "imagesize-conduit",
@@ -201,6 +218,7 @@
         "index": {
           "description": "Find out the size of an image Also returns the file format that parsed correctly Note that this function does not verify that the file is indeed in the format that it returns since it looks only at small part of the header",
           "hierarchy": "Data Conduit ImageSize",
+          "indexed": "2014-03-11T18:56:53",
           "module": "Data.Conduit.ImageSize",
           "name": "sinkImageInfo",
           "normalized": "Consumer ByteString a(Maybe(Size,FileFormat))",
@@ -217,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialized version of \u003ccode\u003e\u003ca\u003esinkImageInfo\u003c/a\u003e\u003c/code\u003e that returns only the\n image size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:53 UTC 2014",
           "module": "Data.Conduit.ImageSize",
           "name": "sinkImageSize",
           "package": "imagesize-conduit",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Specialized version of sinkImageInfo that returns only the image size",
           "hierarchy": "Data Conduit ImageSize",
+          "indexed": "2014-03-11T18:56:53",
           "module": "Data.Conduit.ImageSize",
           "name": "sinkImageSize",
           "package": "imagesize-conduit",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:53 UTC 2014",
           "module": "Data.Conduit.ImageSize",
           "name": "width",
           "package": "imagesize-conduit",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit ImageSize",
+          "indexed": "2014-03-11T18:56:53",
           "module": "Data.Conduit.ImageSize",
           "name": "width",
           "package": "imagesize-conduit",

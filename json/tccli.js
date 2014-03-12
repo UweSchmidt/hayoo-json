@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tccli"
+        "phrase": "tccli",
+        "type": "phrase"
       },
       "type": "context"
     }

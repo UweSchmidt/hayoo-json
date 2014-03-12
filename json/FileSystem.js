@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FileSystem"
+        "phrase": "FileSystem",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Across",
           "name": "Across",
           "package": "FileSystem",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Across",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Across",
           "name": "Across",
           "package": "FileSystem",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Across",
           "name": "buildFileSystem",
           "package": "FileSystem",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Across",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Across",
           "name": "buildFileSystem",
           "normalized": "[Path]-\u003eFileSystem",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Across",
           "name": "fileSystemList",
           "package": "FileSystem",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Across",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Across",
           "name": "fileSystemList",
           "normalized": "FileSystem-\u003e[(Either DirName File,FilePath)]",
@@ -167,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Class",
           "name": "Class",
           "package": "FileSystem",
@@ -175,6 +182,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Class",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Class",
           "name": "Class",
           "package": "FileSystem",
@@ -188,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Class",
           "name": "FSMonad",
           "package": "FileSystem",
@@ -196,6 +205,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Class",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Class",
           "name": "FSMonad",
           "package": "FileSystem",
@@ -209,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Class",
           "name": "apgetFS",
           "package": "FileSystem",
@@ -218,6 +229,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Class",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Class",
           "name": "apgetFS",
           "normalized": "(FSState-\u003ea)-\u003eb a",
@@ -233,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Class",
           "name": "getFS",
           "package": "FileSystem",
@@ -242,6 +255,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Class",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Class",
           "name": "getFS",
           "package": "FileSystem",
@@ -255,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Class",
           "name": "modifyFS",
           "package": "FileSystem",
@@ -264,6 +279,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Class",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Class",
           "name": "modifyFS",
           "normalized": "InApp FSState-\u003ea()",
@@ -279,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Class",
           "name": "putFS",
           "package": "FileSystem",
@@ -288,6 +305,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Class",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Class",
           "name": "putFS",
           "normalized": "FSState-\u003ea()",
@@ -303,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Computations",
           "name": "Computations",
           "package": "FileSystem",
@@ -311,6 +330,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Computations",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Computations",
           "name": "Computations",
           "package": "FileSystem",
@@ -324,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Computations",
           "name": "checkDExist",
           "package": "FileSystem",
@@ -333,6 +354,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Computations",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Computations",
           "name": "checkDExist",
           "normalized": "DirPath-\u003ea Bool",
@@ -348,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Computations",
           "name": "checkFExist",
           "package": "FileSystem",
@@ -357,6 +380,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Computations",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Computations",
           "name": "checkFExist",
           "normalized": "(DirPath,FileName)-\u003ea Bool",
@@ -372,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Computations",
           "name": "getDirCnt",
           "package": "FileSystem",
@@ -381,6 +406,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Computations",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Computations",
           "name": "getDirCnt",
           "normalized": "DirPath-\u003ea(Maybe([DirName],[FileName]))",
@@ -396,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Computations",
           "name": "getFl",
           "package": "FileSystem",
@@ -405,6 +432,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Computations",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Computations",
           "name": "getFl",
           "normalized": "FPath-\u003ea(Maybe File)",
@@ -420,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Computations",
           "name": "newDir",
           "package": "FileSystem",
@@ -429,6 +458,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Computations",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Computations",
           "name": "newDir",
           "normalized": "DirPath-\u003ea()",
@@ -444,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Computations",
           "name": "putPath",
           "package": "FileSystem",
@@ -453,6 +484,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Computations",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Computations",
           "name": "putPath",
           "normalized": "Path-\u003ea()",
@@ -468,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Computations",
           "name": "rmvDir",
           "package": "FileSystem",
@@ -477,6 +510,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Computations",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Computations",
           "name": "rmvDir",
           "normalized": "DirPath-\u003ea()",
@@ -492,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Computations",
           "name": "rmvFile",
           "package": "FileSystem",
@@ -501,6 +536,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Computations",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Computations",
           "name": "rmvFile",
           "normalized": "FPath-\u003ea()",
@@ -516,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Computations",
           "name": "rmvPath",
           "package": "FileSystem",
@@ -525,6 +562,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Computations",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Computations",
           "name": "rmvPath",
           "normalized": "Path-\u003ea()",
@@ -540,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Computations",
           "name": "rnmDir",
           "package": "FileSystem",
@@ -549,6 +588,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Computations",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Computations",
           "name": "rnmDir",
           "normalized": "(DirPath,DirPath)-\u003ea Bool",
@@ -564,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Computations",
           "name": "rnmFile",
           "package": "FileSystem",
@@ -573,6 +614,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Computations",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Computations",
           "name": "rnmFile",
           "normalized": "(FPath,FPath)-\u003ea Bool",
@@ -588,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Computations",
           "name": "rnmPath",
           "package": "FileSystem",
@@ -597,6 +640,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Computations",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Computations",
           "name": "rnmPath",
           "normalized": "([String],[String],Bool)-\u003ea Bool",
@@ -612,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.IO",
           "name": "IO",
           "package": "FileSystem",
@@ -620,6 +665,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem IO",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.IO",
           "name": "IO",
           "package": "FileSystem",
@@ -634,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a complete \u003ccode\u003e\u003ca\u003eFileSystem\u003c/a\u003e\u003c/code\u003e from the current working directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.IO",
           "name": "capture",
           "package": "FileSystem",
@@ -644,6 +691,7 @@
         "index": {
           "description": "Create complete FileSystem from the current working directory",
           "hierarchy": "System FileSystem IO",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.IO",
           "name": "capture",
           "package": "FileSystem",
@@ -657,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a complete \u003ccode\u003e\u003ca\u003eFileSystem\u003c/a\u003e\u003c/code\u003e from an existing directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.IO",
           "name": "captureDir",
           "package": "FileSystem",
@@ -667,6 +716,7 @@
         "index": {
           "description": "Create complete FileSystem from an existing directory",
           "hierarchy": "System FileSystem IO",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.IO",
           "name": "captureDir",
           "normalized": "FilePath-\u003eIO FileSystem",
@@ -683,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erelease fp fs\u003c/code\u003e write in \u003ccode\u003efp\u003c/code\u003e the \u003ccode\u003e\u003ca\u003eFileSystem\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.IO",
           "name": "release",
           "package": "FileSystem",
@@ -693,6 +744,7 @@
         "index": {
           "description": "release fp fs write in fp the FileSystem fs",
           "hierarchy": "System FileSystem IO",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.IO",
           "name": "release",
           "normalized": "FilePath-\u003eFileSystem-\u003eIO()",
@@ -708,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ereleaseEnd fp c fs\u003c/code\u003e write in \u003ccode\u003efp\u003c/code\u003e the \u003ccode\u003e\u003ca\u003eFileSystem\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efs\u003c/code\u003e, and execute \u003ccode\u003ec\u003c/code\u003e at the end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.IO",
           "name": "releaseEnd",
           "package": "FileSystem",
@@ -718,6 +771,7 @@
         "index": {
           "description": "releaseEnd fp fs write in fp the FileSystem fs and execute at the end",
           "hierarchy": "System FileSystem IO",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.IO",
           "name": "releaseEnd",
           "normalized": "FilePath-\u003eIO a-\u003eFileSystem-\u003eIO a",
@@ -734,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ereleaseHere fs\u003c/code\u003e write in the current working directory the \u003ccode\u003e\u003ca\u003eFileSystem\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.IO",
           "name": "releaseHere",
           "package": "FileSystem",
@@ -744,6 +799,7 @@
         "index": {
           "description": "releaseHere fs write in the current working directory the FileSystem fs",
           "hierarchy": "System FileSystem IO",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.IO",
           "name": "releaseHere",
           "normalized": "FileSystem-\u003eIO()",
@@ -760,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eFile\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e to a \"real world\" file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.IO",
           "name": "takeFile",
           "package": "FileSystem",
@@ -770,6 +827,7 @@
         "index": {
           "description": "Create File from FilePath to real world file",
           "hierarchy": "System FileSystem IO",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.IO",
           "name": "takeFile",
           "normalized": "FilePath-\u003eIO File",
@@ -786,6 +844,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClass instances for several types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Instances",
           "name": "Instances",
           "package": "FileSystem",
@@ -795,6 +854,7 @@
         "index": {
           "description": "Class instances for several types",
           "hierarchy": "System FileSystem Instances",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Instances",
           "name": "Instances",
           "package": "FileSystem",
@@ -809,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow-level operators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Operators",
           "name": "Operators",
           "package": "FileSystem",
@@ -818,6 +879,7 @@
         "index": {
           "description": "Low-level operators",
           "hierarchy": "System FileSystem Operators",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Operators",
           "name": "Operators",
           "package": "FileSystem",
@@ -832,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstraction operator. Search and remove a file/directory from a file system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Operators",
           "name": "(-:)",
           "package": "FileSystem",
@@ -842,6 +905,7 @@
         "index": {
           "description": "Substraction operator Search and remove file directory from file system",
           "hierarchy": "System FileSystem Operators",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Operators",
           "name": "(-:) -:",
           "normalized": "Path-\u003eFileSystem-\u003eFileSystem",
@@ -857,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitution operator. \u003cem\u003eProvisional implementation\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Operators",
           "name": "(\u003c-:)",
           "package": "FileSystem",
@@ -867,6 +932,7 @@
         "index": {
           "description": "Substitution operator Provisional implementation",
           "hierarchy": "System FileSystem Operators",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Operators",
           "name": "(\u003c-:) \u003c-:",
           "normalized": "([String],[String],Bool)-\u003eFileSystem-\u003e(FileSystem,Bool)",
@@ -882,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator for addition of new file system elements (\u003ccode\u003e\u003ca\u003eFSE\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Operators",
           "name": "(\u003c\u003c:)",
           "package": "FileSystem",
@@ -892,6 +959,7 @@
         "index": {
           "description": "Operator for addition of new file system elements FSE",
           "hierarchy": "System FileSystem Operators",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Operators",
           "name": "(\u003c\u003c:) \u003c\u003c:",
           "normalized": "FSE-\u003eFileSystem-\u003eFileSystem",
@@ -907,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator for addition of new files/directories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Operators",
           "name": "(\u003c:)",
           "package": "FileSystem",
@@ -917,6 +986,7 @@
         "index": {
           "description": "Operator for addition of new files directories",
           "hierarchy": "System FileSystem Operators",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Operators",
           "name": "(\u003c:) \u003c:",
           "normalized": "Path-\u003eFileSystem-\u003eFileSystem",
@@ -932,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescension operator. Extract the file system of an immediate subdirectory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Operators",
           "name": "(=:)",
           "package": "FileSystem",
@@ -942,6 +1013,7 @@
         "index": {
           "description": "Descension operator Extract the file system of an immediate subdirectory",
           "hierarchy": "System FileSystem Operators",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Operators",
           "name": "(=:) =:",
           "normalized": "DirName-\u003eFileSystem-\u003eMaybe FileSystem",
@@ -957,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator for search a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Operators",
           "name": "(?:)",
           "package": "FileSystem",
@@ -967,6 +1040,7 @@
         "index": {
           "description": "Operator for search file",
           "hierarchy": "System FileSystem Operators",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Operators",
           "name": "(?:) ?:",
           "normalized": "FPath-\u003eFileSystem-\u003eMaybe File",
@@ -981,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "Types",
           "package": "FileSystem",
@@ -989,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "Types",
           "package": "FileSystem",
@@ -1003,6 +1079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name for a directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "DirName",
           "package": "FileSystem",
@@ -1012,6 +1089,7 @@
         "index": {
           "description": "name for directory",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "DirName",
           "package": "FileSystem",
@@ -1026,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list-based directory path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "DirPath",
           "package": "FileSystem",
@@ -1035,6 +1114,7 @@
         "index": {
           "description": "list-based directory path",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "DirPath",
           "package": "FileSystem",
@@ -1049,6 +1129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file path, composed by the path of the directory which contains it,\n and its file name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "FPath",
           "package": "FileSystem",
@@ -1058,6 +1139,7 @@
         "index": {
           "description": "file path composed by the path of the directory which contains it and its file name",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "FPath",
           "package": "FileSystem",
@@ -1072,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of the \u003ccode\u003e\u003ca\u003eFST\u003c/a\u003e\u003c/code\u003e monad transformer to the \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "FS",
           "package": "FileSystem",
@@ -1081,6 +1164,7 @@
         "index": {
           "description": "Application of the FST monad transformer to the Identity monad",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "FS",
           "package": "FileSystem",
@@ -1095,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile System Element: Each one of the elements in a \u003ccode\u003e\u003ca\u003eFileSystem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "FSE",
           "package": "FileSystem",
@@ -1104,6 +1189,7 @@
         "index": {
           "description": "File System Element Each one of the elements in FileSystem",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "FSE",
           "package": "FileSystem",
@@ -1118,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state of file system computations.\n\u003c/p\u003e\u003cp\u003eCurrently, a \u003ccode\u003e\u003ca\u003eFileSystem\u003c/a\u003e\u003c/code\u003e structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "FSState",
           "package": "FileSystem",
@@ -1127,6 +1214,7 @@
         "index": {
           "description": "The state of file system computations Currently FileSystem structure",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "FSState",
           "package": "FileSystem",
@@ -1141,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic transformer which adds a \u003ccode\u003e\u003ca\u003eFSState\u003c/a\u003e\u003c/code\u003e environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "FST",
           "package": "FileSystem",
@@ -1150,6 +1239,7 @@
         "index": {
           "description": "Monadic transformer which adds FSState environment",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "FST",
           "package": "FileSystem",
@@ -1164,6 +1254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA complete file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "File",
           "package": "FileSystem",
@@ -1173,6 +1264,7 @@
         "index": {
           "description": "complete file",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "File",
           "package": "FileSystem",
@@ -1187,6 +1279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe content of a file. Stored in a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "FileCnt",
           "package": "FileSystem",
@@ -1196,6 +1289,7 @@
         "index": {
           "description": "The content of file Stored in ByteString",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "FileCnt",
           "package": "FileSystem",
@@ -1210,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about the content of a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "FileData",
           "package": "FileSystem",
@@ -1219,6 +1314,7 @@
         "index": {
           "description": "Information about the content of file",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "FileData",
           "package": "FileSystem",
@@ -1233,6 +1329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name for a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "FileName",
           "package": "FileSystem",
@@ -1242,6 +1339,7 @@
         "index": {
           "description": "name for file",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "FileName",
           "package": "FileSystem",
@@ -1256,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file system structure. It stores a directory with files and subdirectories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "FileSystem",
           "package": "FileSystem",
@@ -1265,6 +1364,7 @@
         "index": {
           "description": "The file system structure It stores directory with files and subdirectories",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "FileSystem",
           "package": "FileSystem",
@@ -1279,6 +1379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal Application: An application from somewhere over itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "InApp",
           "package": "FileSystem",
@@ -1288,6 +1389,7 @@
         "index": {
           "description": "Internal Application An application from somewhere over itself",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "InApp",
           "package": "FileSystem",
@@ -1302,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA path to a possible \u003ccode\u003e\u003ca\u003eFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "Path",
           "package": "FileSystem",
@@ -1311,6 +1414,7 @@
         "index": {
           "description": "path to possible File",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "Path",
           "package": "FileSystem",
@@ -1324,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "Directory",
           "package": "FileSystem",
@@ -1333,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "Directory",
           "package": "FileSystem",
@@ -1346,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "FD",
           "package": "FileSystem",
@@ -1355,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "FD",
           "package": "FileSystem",
@@ -1368,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "File",
           "package": "FileSystem",
@@ -1377,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "File",
           "package": "FileSystem",
@@ -1390,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "Path",
           "package": "FileSystem",
@@ -1399,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "Path",
           "package": "FileSystem",
@@ -1412,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "WrapFST",
           "package": "FileSystem",
@@ -1421,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "WrapFST",
           "package": "FileSystem",
@@ -1434,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "dirCnt",
           "package": "FileSystem",
@@ -1443,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "dirCnt",
           "normalized": "[FSE]",
@@ -1459,6 +1575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty file data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "emptyFD",
           "package": "FileSystem",
@@ -1469,6 +1586,7 @@
         "index": {
           "description": "An empty file data",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "emptyFD",
           "package": "FileSystem",
@@ -1561,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "getCnt",
           "package": "FileSystem",
@@ -1570,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "getCnt",
           "package": "FileSystem",
@@ -1583,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "getFD",
           "package": "FileSystem",
@@ -1592,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "getFD",
           "package": "FileSystem",
@@ -1605,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "getFN",
           "package": "FileSystem",
@@ -1614,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "getFN",
           "package": "FileSystem",
@@ -1627,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "getLmt",
           "package": "FileSystem",
@@ -1636,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "getLmt",
           "package": "FileSystem",
@@ -1650,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e contents a \u003ccode\u003e\u003ca\u003eFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "isFilePath",
           "package": "FileSystem",
@@ -1660,6 +1787,7 @@
         "index": {
           "description": "Check if Path contents File",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "isFilePath",
           "normalized": "Path-\u003eBool",
@@ -1676,6 +1804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a function over a list of \u003ccode\u003e\u003ca\u003eFSE\u003c/a\u003e\u003c/code\u003e (File System Elements)\n to a function over \u003ccode\u003e\u003ca\u003eFileSystem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "modDirCnt",
           "package": "FileSystem",
@@ -1686,6 +1815,7 @@
         "index": {
           "description": "Lift function over list of FSE File System Elements to function over FileSystem",
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "modDirCnt",
           "normalized": "InApp[FSE]-\u003eInApp FileSystem",
@@ -1701,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "pathFile",
           "package": "FileSystem",
@@ -1710,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "pathFile",
           "package": "FileSystem",
@@ -1723,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "pathList",
           "package": "FileSystem",
@@ -1732,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "pathList",
           "package": "FileSystem",
@@ -1853,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Types",
           "name": "unwrapFST",
           "package": "FileSystem",
@@ -1862,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Types",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Types",
           "name": "unwrapFST",
           "package": "FileSystem",
@@ -1875,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Utils",
           "name": "Utils",
           "package": "FileSystem",
@@ -1883,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem Utils",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Utils",
           "name": "Utils",
           "package": "FileSystem",
@@ -1897,6 +2035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis operator is similar to \u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e, but the argument is used twice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Utils",
           "name": "($$)",
           "package": "FileSystem",
@@ -1907,6 +2046,7 @@
         "index": {
           "description": "This operator is similar to but the argument is used twice",
           "hierarchy": "System FileSystem Utils",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Utils",
           "name": "($$) $$",
           "normalized": "(a-\u003ea-\u003eb)-\u003ea-\u003eb",
@@ -1922,6 +2062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eArrowChoice\u003c/a\u003e\u003c/code\u003e operator.\n Given an arrow \u003ccode\u003ea ~\u003e b\u003c/code\u003e and an arrow \u003ccode\u003ec ~\u003e d\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e a ~\u003e b \u003c|\u003e c ~\u003e d\n  = Either a c ~\u003e Either b d    { (a ~\u003e b) lifted with Left for Left values.\n                          with -{          \n                                { (c ~\u003e d) lifted with Right for Right values.\n\u003c/pre\u003e\u003cp\u003e\u003cem\u003eIts name comes from the union of\u003c/em\u003e \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e \u003cem\u003eand\u003c/em\u003e \u003ccode\u003e\u003ca\u003e|||\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Utils",
           "name": "(\u003c|\u003e)",
           "package": "FileSystem",
@@ -1932,6 +2073,7 @@
         "index": {
           "description": "An ArrowChoice operator Given an arrow and an arrow Either Either lifted with Left for Left values with lifted with Right for Right values Its name comes from the union of and",
           "hierarchy": "System FileSystem Utils",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Utils",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "a b c-\u003ea d e-\u003ea(Either b d)(Either c e)",
@@ -1947,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function over the state, and return its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Utils",
           "name": "apget",
           "package": "FileSystem",
@@ -1957,6 +2100,7 @@
         "index": {
           "description": "Apply function over the state and return its result",
           "hierarchy": "System FileSystem Utils",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Utils",
           "name": "apget",
           "normalized": "(a-\u003eb)-\u003ec b",
@@ -1972,6 +2116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003e=\u003c\u003c\u003c/a\u003e\u003c/code\u003e operator as a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Utils",
           "name": "bind",
           "package": "FileSystem",
@@ -1982,6 +2127,7 @@
         "index": {
           "description": "The operator as function",
           "hierarchy": "System FileSystem Utils",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Utils",
           "name": "bind",
           "normalized": "(a-\u003eb c)-\u003eb a-\u003eb c",
@@ -1997,6 +2143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe resulting function of \u003ccode\u003e\u003ca\u003ecomb\u003c/a\u003e\u003c/code\u003e is such that it applies two (possible) different functions\n to a single element, and combine both results with the given operator, inside of an \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e container.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Utils",
           "name": "comb",
           "package": "FileSystem",
@@ -2006,6 +2153,7 @@
         "index": {
           "description": "The resulting function of comb is such that it applies two possible different functions to single element and combine both results with the given operator inside of an Applicative container",
           "hierarchy": "System FileSystem Utils",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Utils",
           "name": "comb",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(d-\u003ee a)-\u003e(d-\u003ee b)-\u003ed-\u003ee c",
@@ -2021,6 +2169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list \u003ccode\u003exs\u003c/code\u003e of pairs (monadic condition, monadic function),\n \u003ccode\u003e\u003ca\u003eoptions\u003c/a\u003e\u003c/code\u003e \u003ccode\u003exs\u003c/code\u003e applies to its argument the first function that\n satisfy the condition, and returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no condition was satisfied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Utils",
           "name": "options",
           "package": "FileSystem",
@@ -2031,6 +2180,7 @@
         "index": {
           "description": "Given list xs of pairs monadic condition monadic function options xs applies to its argument the first function that satisfy the condition and returns Nothing if no condition was satisfied",
           "hierarchy": "System FileSystem Utils",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Utils",
           "name": "options",
           "normalized": "[(a-\u003eb Bool,a-\u003eb c)]-\u003ea-\u003eb(Maybe c)",
@@ -2046,6 +2196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a simple arrow to the same arrow applied to the two components of a pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Utils",
           "name": "pairMap",
           "package": "FileSystem",
@@ -2056,6 +2207,7 @@
         "index": {
           "description": "Transforms simple arrow to the same arrow applied to the two components of pair",
           "hierarchy": "System FileSystem Utils",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Utils",
           "name": "pairMap",
           "normalized": "a b c-\u003ea(b,b)(c,c)",
@@ -2072,6 +2224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function just adds a third component to a two-components tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem.Utils",
           "name": "tup3",
           "package": "FileSystem",
@@ -2082,6 +2235,7 @@
         "index": {
           "description": "This function just adds third component to two-components tuple",
           "hierarchy": "System FileSystem Utils",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem.Utils",
           "name": "tup3",
           "normalized": "a-\u003e(b,c)-\u003e(b,c,a)",
@@ -2096,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "FileSystem",
           "package": "FileSystem",
@@ -2104,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "FileSystem",
           "package": "FileSystem",
@@ -2118,6 +2274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space-efficient representation of a Word8 vector, supporting many\n efficient operations.  A \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e contains 8-bit characters only.\n\u003c/p\u003e\u003cp\u003eInstances of Eq, Ord, Read, Show, Data, Typeable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "ByteString",
           "package": "FileSystem",
@@ -2126,6 +2283,7 @@
         "index": {
           "description": "space-efficient representation of Word8 vector supporting many efficient operations ByteString contains bit characters only Instances of Eq Ord Read Show Data Typeable",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "ByteString",
           "package": "FileSystem",
@@ -2140,6 +2298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation of the internal clock time.\n Clock times may be compared, converted to strings, or converted to an\n external calendar time \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e for I/O or other manipulations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "ClockTime",
           "package": "FileSystem",
@@ -2148,6 +2307,7 @@
         "index": {
           "description": "representation of the internal clock time Clock times may be compared converted to strings or converted to an external calendar time CalendarTime for or other manipulations",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "ClockTime",
           "package": "FileSystem",
@@ -2162,6 +2322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name for a directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "DirName",
           "package": "FileSystem",
@@ -2171,6 +2332,7 @@
         "index": {
           "description": "name for directory",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "DirName",
           "package": "FileSystem",
@@ -2185,6 +2347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list-based directory path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "DirPath",
           "package": "FileSystem",
@@ -2194,6 +2357,7 @@
         "index": {
           "description": "list-based directory path",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "DirPath",
           "package": "FileSystem",
@@ -2208,6 +2372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file path, composed by the path of the directory which contains it,\n and its file name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "FPath",
           "package": "FileSystem",
@@ -2217,6 +2382,7 @@
         "index": {
           "description": "file path composed by the path of the directory which contains it and its file name",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "FPath",
           "package": "FileSystem",
@@ -2231,6 +2397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of the \u003ccode\u003e\u003ca\u003eFST\u003c/a\u003e\u003c/code\u003e monad transformer to the \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "FS",
           "package": "FileSystem",
@@ -2240,6 +2407,7 @@
         "index": {
           "description": "Application of the FST monad transformer to the Identity monad",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "FS",
           "package": "FileSystem",
@@ -2254,6 +2422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state of file system computations.\n\u003c/p\u003e\u003cp\u003eCurrently, a \u003ccode\u003e\u003ca\u003eFileSystem\u003c/a\u003e\u003c/code\u003e structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "FSState",
           "package": "FileSystem",
@@ -2263,6 +2432,7 @@
         "index": {
           "description": "The state of file system computations Currently FileSystem structure",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "FSState",
           "package": "FileSystem",
@@ -2277,6 +2447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic transformer which adds a \u003ccode\u003e\u003ca\u003eFSState\u003c/a\u003e\u003c/code\u003e environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "FST",
           "package": "FileSystem",
@@ -2286,6 +2457,7 @@
         "index": {
           "description": "Monadic transformer which adds FSState environment",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "FST",
           "package": "FileSystem",
@@ -2300,6 +2472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA complete file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "File",
           "package": "FileSystem",
@@ -2309,6 +2482,7 @@
         "index": {
           "description": "complete file",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "File",
           "package": "FileSystem",
@@ -2323,6 +2497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name for a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "FileName",
           "package": "FileSystem",
@@ -2332,6 +2507,7 @@
         "index": {
           "description": "name for file",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "FileName",
           "package": "FileSystem",
@@ -2346,6 +2522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file system structure. It stores a directory with files and subdirectories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "FileSystem",
           "package": "FileSystem",
@@ -2355,6 +2532,7 @@
         "index": {
           "description": "The file system structure It stores directory with files and subdirectories",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "FileSystem",
           "package": "FileSystem",
@@ -2369,6 +2547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal Application: An application from somewhere over itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "InApp",
           "package": "FileSystem",
@@ -2378,6 +2557,7 @@
         "index": {
           "description": "Internal Application An application from somewhere over itself",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "InApp",
           "package": "FileSystem",
@@ -2392,6 +2572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty file with the given \u003ccode\u003e\u003ca\u003eFileName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "emptyFile",
           "package": "FileSystem",
@@ -2402,6 +2583,7 @@
         "index": {
           "description": "Create an empty file with the given FileName",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "emptyFile",
           "normalized": "FileName-\u003eFile",
@@ -2418,6 +2600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the size of a \u003ccode\u003e\u003ca\u003eFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fileSize",
           "package": "FileSystem",
@@ -2428,6 +2611,7 @@
         "index": {
           "description": "Calculate the size of File",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fileSize",
           "normalized": "File-\u003eInt",
@@ -2443,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_copyFile",
           "package": "FileSystem",
@@ -2452,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_copyFile",
           "normalized": "FilePath-\u003eFilePath-\u003ea Bool",
@@ -2468,6 +2654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopies a file from a location to another.\n Returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the file was found and copied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_copyFileL",
           "package": "FileSystem",
@@ -2478,6 +2665,7 @@
         "index": {
           "description": "Copies file from location to another Returns True if the file was found and copied",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_copyFileL",
           "normalized": "FPath-\u003eFPath-\u003ea Bool",
@@ -2493,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_createDirectory",
           "package": "FileSystem",
@@ -2502,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_createDirectory",
           "normalized": "FilePath-\u003ea()",
@@ -2518,6 +2708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new directory. If the directory already exists, it does nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_createDirectoryL",
           "package": "FileSystem",
@@ -2528,6 +2719,7 @@
         "index": {
           "description": "Creates new directory If the directory already exists it does nothing",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_createDirectoryL",
           "normalized": "DirPath-\u003ea()",
@@ -2543,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_doesDirectoryExist",
           "package": "FileSystem",
@@ -2552,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_doesDirectoryExist",
           "normalized": "FilePath-\u003ea Bool",
@@ -2568,6 +2762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if a directory exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_doesDirectoryExistL",
           "package": "FileSystem",
@@ -2578,6 +2773,7 @@
         "index": {
           "description": "Checks if directory exists",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_doesDirectoryExistL",
           "normalized": "DirPath-\u003ea Bool",
@@ -2593,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_doesFileExist",
           "package": "FileSystem",
@@ -2602,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_doesFileExist",
           "normalized": "FilePath-\u003ea Bool",
@@ -2618,6 +2816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if a file exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_doesFileExistL",
           "package": "FileSystem",
@@ -2628,6 +2827,7 @@
         "index": {
           "description": "Checks if file exists",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_doesFileExistL",
           "normalized": "FPath-\u003ea Bool",
@@ -2643,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_getDirectoryContents",
           "package": "FileSystem",
@@ -2652,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_getDirectoryContents",
           "normalized": "FilePath-\u003ea(Maybe([DirName],[FileName]))",
@@ -2668,6 +2870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all directory names and file names located in the given directory.\n It returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the directory does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_getDirectoryContentsL",
           "package": "FileSystem",
@@ -2678,6 +2881,7 @@
         "index": {
           "description": "Returns all directory names and file names located in the given directory It returns Nothing if the directory does not exist",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_getDirectoryContentsL",
           "normalized": "DirPath-\u003ea(Maybe([DirName],[FileName]))",
@@ -2693,6 +2897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_getModificationTime",
           "package": "FileSystem",
@@ -2702,6 +2907,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_getModificationTime",
           "normalized": "FilePath-\u003ea(Maybe ClockTime)",
@@ -2718,6 +2924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the last modification time of a file. It returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the file doesn't exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_getModificationTimeL",
           "package": "FileSystem",
@@ -2728,6 +2935,7 @@
         "index": {
           "description": "Gets the last modification time of file It returns Nothing if the file doesn exist",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_getModificationTimeL",
           "normalized": "FPath-\u003ea(Maybe ClockTime)",
@@ -2743,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_readFile",
           "package": "FileSystem",
@@ -2752,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_readFile",
           "normalized": "FilePath-\u003ea(Maybe ByteString)",
@@ -2768,6 +2978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a file. It returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the file can't be found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_readFileL",
           "package": "FileSystem",
@@ -2778,6 +2989,7 @@
         "index": {
           "description": "Reads file It returns Nothing if the file can be found",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_readFileL",
           "normalized": "FPath-\u003ea(Maybe ByteString)",
@@ -2793,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_removeDirectory",
           "package": "FileSystem",
@@ -2802,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_removeDirectory",
           "normalized": "FilePath-\u003ea()",
@@ -2818,6 +3032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves a directory, with all its content.\n If the directory does not exist, it does nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_removeDirectoryL",
           "package": "FileSystem",
@@ -2828,6 +3043,7 @@
         "index": {
           "description": "Removes directory with all its content If the directory does not exist it does nothing",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_removeDirectoryL",
           "normalized": "DirPath-\u003ea()",
@@ -2843,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_removeFile",
           "package": "FileSystem",
@@ -2852,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_removeFile",
           "normalized": "FilePath-\u003ea()",
@@ -2868,6 +3086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves a file. If the file does not exist, it does nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_removeFileL",
           "package": "FileSystem",
@@ -2878,6 +3097,7 @@
         "index": {
           "description": "Removes file If the file does not exist it does nothing",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_removeFileL",
           "normalized": "FPath-\u003ea()",
@@ -2893,6 +3113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_renameDirectory",
           "package": "FileSystem",
@@ -2902,6 +3123,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_renameDirectory",
           "normalized": "FilePath-\u003eFilePath-\u003ea Bool",
@@ -2918,6 +3140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenames a directory.\n If the directory can't be found, it returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_renameDirectoryL",
           "package": "FileSystem",
@@ -2928,6 +3151,7 @@
         "index": {
           "description": "Renames directory If the directory can be found it returns False",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_renameDirectoryL",
           "normalized": "DirPath-\u003eDirPath-\u003ea Bool",
@@ -2943,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_renameFile",
           "package": "FileSystem",
@@ -2952,6 +3177,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_renameFile",
           "normalized": "FilePath-\u003eFileName-\u003eFileName-\u003ea Bool",
@@ -2968,6 +3194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenames a file. First, you must specify the directory where the file is.\n If the file can't be found, it returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_renameFileL",
           "package": "FileSystem",
@@ -2977,6 +3204,7 @@
         "index": {
           "description": "Renames file First you must specify the directory where the file is If the file can be found it returns False",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_renameFileL",
           "normalized": "DirPath-\u003eFileName-\u003eFileName-\u003ea Bool",
@@ -2992,6 +3220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_writeFile",
           "package": "FileSystem",
@@ -3001,6 +3230,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_writeFile",
           "normalized": "FilePath-\u003eByteString-\u003ea()",
@@ -3017,6 +3247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites a file. If the files already exists, it is overwritten.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "fs_writeFileL",
           "package": "FileSystem",
@@ -3027,6 +3258,7 @@
         "index": {
           "description": "Writes file If the files already exists it is overwritten",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "fs_writeFileL",
           "normalized": "FPath-\u003eByteString-\u003ea()",
@@ -3042,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "getFile",
           "package": "FileSystem",
@@ -3051,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "getFile",
           "normalized": "FilePath-\u003ea(Maybe File)",
@@ -3067,6 +3301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the content of a \u003ccode\u003e\u003ca\u003eFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "getFileContent",
           "package": "FileSystem",
@@ -3077,6 +3312,7 @@
         "index": {
           "description": "Extract the content of File",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "getFileContent",
           "normalized": "File-\u003eByteString",
@@ -3093,6 +3329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a file from the file system.\n It returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the \u003ccode\u003e\u003ca\u003eFile\u003c/a\u003e\u003c/code\u003e is not found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "getFileL",
           "package": "FileSystem",
@@ -3102,6 +3339,7 @@
         "index": {
           "description": "Gets file from the file system It returns Nothing if the File is not found",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "getFileL",
           "normalized": "FPath-\u003ea(Maybe File)",
@@ -3118,6 +3356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the name of a \u003ccode\u003e\u003ca\u003eFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "getFileName",
           "package": "FileSystem",
@@ -3128,6 +3367,7 @@
         "index": {
           "description": "Get the name of File",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "getFileName",
           "normalized": "File-\u003eFileName",
@@ -3144,6 +3384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the last modification time of a \u003ccode\u003e\u003ca\u003eFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "getModifTime",
           "package": "FileSystem",
@@ -3154,6 +3395,7 @@
         "index": {
           "description": "Get the last modification time of File",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "getModifTime",
           "normalized": "File-\u003eClockTime",
@@ -3170,6 +3412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over all the \u003ccode\u003e\u003ca\u003eFile\u003c/a\u003e\u003c/code\u003es of a \u003ccode\u003e\u003ca\u003eFileSystem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "mapFiles",
           "package": "FileSystem",
@@ -3180,6 +3423,7 @@
         "index": {
           "description": "Map function over all the File of FileSystem",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "mapFiles",
           "normalized": "InApp File-\u003eInApp FileSystem",
@@ -3195,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "modFile",
           "package": "FileSystem",
@@ -3204,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "modFile",
           "normalized": "FilePath-\u003eInApp File-\u003ea Bool",
@@ -3220,6 +3466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies a file with the given application. It returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the file was found and modified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "modFileL",
           "package": "FileSystem",
@@ -3230,6 +3477,7 @@
         "index": {
           "description": "Modifies file with the given application It returns True if the file was found and modified",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "modFileL",
           "normalized": "FPath-\u003eInApp File-\u003ea Bool",
@@ -3245,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "moveFile",
           "package": "FileSystem",
@@ -3254,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "moveFile",
           "normalized": "FilePath-\u003eFilePath-\u003ea Bool",
@@ -3270,6 +3520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMoves a file.\n It returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the file exists and has been moved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "moveFileL",
           "package": "FileSystem",
@@ -3279,6 +3530,7 @@
         "index": {
           "description": "Moves file It returns True if the file exists and has been moved",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "moveFileL",
           "normalized": "FPath-\u003eFPath-\u003ea Bool",
@@ -3295,6 +3547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a new file with an initial \u003ccode\u003e\u003ca\u003eFileName\u003c/a\u003e\u003c/code\u003e and content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "newFile",
           "package": "FileSystem",
@@ -3305,6 +3558,7 @@
         "index": {
           "description": "Build new file with an initial FileName and content",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "newFile",
           "normalized": "FileName-\u003eByteString-\u003eFile",
@@ -3320,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "putFile",
           "package": "FileSystem",
@@ -3329,6 +3584,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "putFile",
           "normalized": "FilePath-\u003eFile-\u003ea()",
@@ -3345,6 +3601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts a file in the given directory. It creates the parent directory if missing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "putFileL",
           "package": "FileSystem",
@@ -3354,6 +3611,7 @@
         "index": {
           "description": "Puts file in the given directory It creates the parent directory if missing",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "putFileL",
           "normalized": "DirPath-\u003eFile-\u003ea()",
@@ -3370,6 +3628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the content of a \u003ccode\u003e\u003ca\u003eFile\u003c/a\u003e\u003c/code\u003e to the given \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "setFileContent",
           "package": "FileSystem",
@@ -3380,6 +3639,7 @@
         "index": {
           "description": "Set the content of File to the given ByteString",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "setFileContent",
           "normalized": "ByteString-\u003eFile-\u003eFile",
@@ -3396,6 +3656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename a \u003ccode\u003e\u003ca\u003eFile\u003c/a\u003e\u003c/code\u003e with the given \u003ccode\u003e\u003ca\u003eFileName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "setFileName",
           "package": "FileSystem",
@@ -3406,6 +3667,7 @@
         "index": {
           "description": "Rename File with the given FileName",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "setFileName",
           "normalized": "FileName-\u003eFile-\u003eFile",
@@ -3422,6 +3684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the last modification time of a \u003ccode\u003e\u003ca\u003eFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "setModifTime",
           "package": "FileSystem",
@@ -3432,6 +3695,7 @@
         "index": {
           "description": "Set the last modification time of File",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "setModifTime",
           "normalized": "ClockTime-\u003eFile-\u003eFile",
@@ -3447,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "writeFileTime",
           "package": "FileSystem",
@@ -3456,6 +3721,7 @@
         },
         "index": {
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "writeFileTime",
           "normalized": "FilePath-\u003eByteString-\u003ea()",
@@ -3472,6 +3738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites a file, changing its last modification time to the current time.\n If the file already exists, it is overwritten.\n \u003cem\u003eNote that MonadIO instance is needed\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:11 UTC 2014",
           "module": "System.FileSystem",
           "name": "writeFileTimeL",
           "package": "FileSystem",
@@ -3482,6 +3749,7 @@
         "index": {
           "description": "Writes file changing its last modification time to the current time If the file already exists it is overwritten Note that MonadIO instance is needed",
           "hierarchy": "System FileSystem",
+          "indexed": "2014-03-11T16:41:11",
           "module": "System.FileSystem",
           "name": "writeFileTimeL",
           "normalized": "FPath-\u003eByteString-\u003ea()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tuple-th"
+        "phrase": "tuple-th",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNote: One-tuples are currently understood as just the original type by Template Haskell \n (though this could be an undefined case which is not guaranteed to work this way?), so for example, we get\n\u003c/p\u003e\u003cpre\u003e $(\u003ccode\u003e\u003ca\u003ecatTuples\u003c/a\u003e\u003c/code\u003e 1 2) = \\x (y,z) -\u003e (x,y,z)\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "TupleTH",
           "package": "tuple-th",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Note One-tuples are currently understood as just the original type by Template Haskell though this could be an undefined case which is not guaranteed to work this way so for example we get catTuples",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "TupleTH",
           "package": "tuple-th",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eall\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "allTuple",
           "package": "tuple-th",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Like all",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "allTuple",
           "normalized": "Int-\u003eQ Exp",
@@ -67,6 +71,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "allTuple'",
           "package": "tuple-th",
@@ -76,6 +81,7 @@
         },
         "index": {
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "allTuple'",
           "normalized": "Int-\u003eQ Exp-\u003eQ Exp",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eand\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "andTuple",
           "package": "tuple-th",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Like and",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "andTuple",
           "normalized": "Int-\u003eQ Exp",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eany\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "anyTuple",
           "package": "tuple-th",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Like any",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "anyTuple",
           "normalized": "Int-\u003eQ Exp",
@@ -143,6 +153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "anyTuple'",
           "package": "tuple-th",
@@ -152,6 +163,7 @@
         },
         "index": {
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "anyTuple'",
           "normalized": "Int-\u003eQ Exp-\u003eQ Exp",
@@ -168,6 +180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the generated expression: \n\u003c/p\u003e\u003cpre\u003e (a1, ..) -\u003e (b1, ..) -\u003e (a1, .., b1, ..)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "catTuples",
           "package": "tuple-th",
@@ -178,6 +191,7 @@
         "index": {
           "description": "Type of the generated expression a1 b1 a1 b1",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "catTuples",
           "normalized": "Int-\u003eInt-\u003eQ Exp",
@@ -193,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "constTuple",
           "package": "tuple-th",
@@ -202,6 +217,7 @@
         },
         "index": {
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "constTuple",
           "normalized": "Int-\u003eQ Exp",
@@ -218,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a function which takes a \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ei\u003c/code\u003e and a homogenous tuple of size \u003ccode\u003en\u003c/code\u003e and deletes the \u003ccode\u003ei\u003c/code\u003e-th (0-based) element of the tuple. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "deleteAtTuple",
           "package": "tuple-th",
@@ -228,6 +245,7 @@
         "index": {
           "description": "Generates function which takes Num and homogenous tuple of size and deletes the th based element of the tuple",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "deleteAtTuple",
           "normalized": "Int-\u003eQ Exp",
@@ -244,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003edropTuple n i = (x_0, ..., x_{n-1}) -\u003e (x_i, ..., x_{n-1})\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "dropTuple",
           "package": "tuple-th",
@@ -254,6 +273,7 @@
         "index": {
           "description": "dropTuple n-1 n-1",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "dropTuple",
           "normalized": "Int-\u003eInt-\u003eQ Exp",
@@ -270,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eelem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eType of generated expression:\n\u003c/p\u003e\u003cpre\u003e Eq a =\u003e a -\u003e (a, ..) -\u003e Bool\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "elemTuple",
           "package": "tuple-th",
@@ -280,6 +301,7 @@
         "index": {
           "description": "Like elem Type of generated expression Eq Bool",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "elemTuple",
           "normalized": "Int-\u003eQ Exp",
@@ -296,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the generated expression: \n\u003c/p\u003e\u003cpre\u003e (a -\u003e Bool) -\u003e (a, ..) -\u003e [a]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "filterTuple",
           "package": "tuple-th",
@@ -306,6 +329,7 @@
         "index": {
           "description": "Type of the generated expression Bool",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "filterTuple",
           "normalized": "Int-\u003eExpQ",
@@ -322,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the predicate as a quoted expression. See \u003ccode\u003e\u003ca\u003emapTuple'\u003c/a\u003e\u003c/code\u003e for how this can be useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "filterTuple'",
           "package": "tuple-th",
@@ -332,6 +357,7 @@
         "index": {
           "description": "Takes the predicate as quoted expression See mapTuple for how this can be useful",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "filterTuple'",
           "normalized": "Int-\u003eExpQ-\u003eExpQ",
@@ -348,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a function that takes a binary relation and a tuple \u003ccode\u003exs\u003c/code\u003e, and returns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e the first index \u003ccode\u003ei\u003c/code\u003e such that the relation holds for \u003ccode\u003ex_i\u003c/code\u003e, \u003ccode\u003ex_{i+1}\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:t $(findSuccessiveElementsSatisfying 4)\n\u003c/code\u003e\u003c/strong\u003e$(findSuccessiveElementsSatisfying 4)\n  :: (t -\u003e t -\u003e Bool) -\u003e (t, t, t, t) -\u003e Maybe Int\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "findSuccessiveElementsSatisfying",
           "package": "tuple-th",
@@ -358,6 +385,7 @@
         "index": {
           "description": "Generates function that takes binary relation and tuple xs and returns Just the first index such that the relation holds for or Nothing findSuccessiveElementsSatisfying findSuccessiveElementsSatisfying Bool Maybe Int",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "findSuccessiveElementsSatisfying",
           "normalized": "Int-\u003eQ Exp",
@@ -374,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the generated expression: \n\u003c/p\u003e\u003cpre\u003e (a -\u003e a -\u003e a) -\u003e (a, ..) -\u003e a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "foldl1Tuple",
           "package": "tuple-th",
@@ -384,6 +413,7 @@
         "index": {
           "description": "Type of the generated expression",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "foldl1Tuple",
           "normalized": "Int-\u003eExpQ",
@@ -400,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the folding function as a quoted expression. See \u003ccode\u003e\u003ca\u003emapTuple'\u003c/a\u003e\u003c/code\u003e for how this can be useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "foldl1Tuple'",
           "package": "tuple-th",
@@ -410,6 +441,7 @@
         "index": {
           "description": "Takes the folding function as quoted expression See mapTuple for how this can be useful",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "foldl1Tuple'",
           "normalized": "Int-\u003eExpQ-\u003eQ Exp",
@@ -426,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the generated expression: \n\u003c/p\u003e\u003cpre\u003e (r -\u003e a -\u003e r) -\u003e r -\u003e (a, ..) -\u003e r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "foldlTuple",
           "package": "tuple-th",
@@ -436,6 +469,7 @@
         "index": {
           "description": "Type of the generated expression",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "foldlTuple",
           "normalized": "Int-\u003eExpQ",
@@ -452,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the folding function (but not the seed element) as a quoted expression. See \u003ccode\u003e\u003ca\u003emapTuple'\u003c/a\u003e\u003c/code\u003e for how this can be useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "foldlTuple'",
           "package": "tuple-th",
@@ -462,6 +497,7 @@
         "index": {
           "description": "Takes the folding function but not the seed element as quoted expression See mapTuple for how this can be useful",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "foldlTuple'",
           "normalized": "Int-\u003eExpQ-\u003eExpQ",
@@ -478,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the generated expression: \n\u003c/p\u003e\u003cpre\u003e (a -\u003e a -\u003e a) -\u003e (a, ..) -\u003e a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "foldr1Tuple",
           "package": "tuple-th",
@@ -488,6 +525,7 @@
         "index": {
           "description": "Type of the generated expression",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "foldr1Tuple",
           "normalized": "Int-\u003eExpQ",
@@ -504,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the folding function as a quoted expression. See \u003ccode\u003e\u003ca\u003emapTuple'\u003c/a\u003e\u003c/code\u003e for how this can be useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "foldr1Tuple'",
           "package": "tuple-th",
@@ -514,6 +553,7 @@
         "index": {
           "description": "Takes the folding function as quoted expression See mapTuple for how this can be useful",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "foldr1Tuple'",
           "normalized": "Int-\u003eExpQ-\u003eQ Exp",
@@ -530,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the generated expression: \n\u003c/p\u003e\u003cpre\u003e (a -\u003e r -\u003e r) -\u003e r -\u003e (a, ..) -\u003e r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "foldrTuple",
           "package": "tuple-th",
@@ -540,6 +581,7 @@
         "index": {
           "description": "Type of the generated expression",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "foldrTuple",
           "normalized": "Int-\u003eExpQ",
@@ -556,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the folding function (but not the seed element) as a quoted expression. See \u003ccode\u003e\u003ca\u003emapTuple'\u003c/a\u003e\u003c/code\u003e for how this can be useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "foldrTuple'",
           "package": "tuple-th",
@@ -566,6 +609,7 @@
         "index": {
           "description": "Takes the folding function but not the seed element as quoted expression See mapTuple for how this can be useful",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "foldrTuple'",
           "normalized": "Int-\u003eExpQ-\u003eExpQ",
@@ -582,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a homogenous tuple type of the given size and element type \n\u003c/p\u003e\u003cpre\u003e $(htuple 2) [t| Char |] = (Char,Char)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "htuple",
           "package": "tuple-th",
@@ -592,6 +637,7 @@
         "index": {
           "description": "Makes homogenous tuple type of the given size and element type htuple Char Char Char",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "htuple",
           "normalized": "Int-\u003eTypeQ-\u003eTypeQ",
@@ -607,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the generated expression: \n\u003c/p\u003e\u003cpre\u003e (a -\u003e b) -\u003e (a, ..) -\u003e (b, ..)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "mapTuple",
           "package": "tuple-th",
@@ -617,6 +664,7 @@
         "index": {
           "description": "Type of the generated expression",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "mapTuple",
           "normalized": "Int-\u003eExpQ",
@@ -633,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the mapping as a quoted expression. This can sometimes produce an expression that typechecks when the analogous expression using \u003ccode\u003e\u003ca\u003efilterTuple\u003c/a\u003e\u003c/code\u003e does not, e.g.: \n\u003c/p\u003e\u003cpre\u003e $(mapTuple 2) Just        ((),\"foo\") -- Type error \n $(mapTuple' 2 [| Just |]) ((),\"foo\") -- OK\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "mapTuple'",
           "package": "tuple-th",
@@ -643,6 +692,7 @@
         "index": {
           "description": "Takes the mapping as quoted expression This can sometimes produce an expression that typechecks when the analogous expression using filterTuple does not e.g mapTuple Just foo Type error mapTuple Just foo OK",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "mapTuple'",
           "normalized": "Int-\u003eExpQ-\u003eQ Exp",
@@ -659,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "orTuple",
           "package": "tuple-th",
@@ -669,6 +720,7 @@
         "index": {
           "description": "Like or",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "orTuple",
           "normalized": "Int-\u003eQ Exp",
@@ -685,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e Generate a projection (like 'fst' and 'snd').\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "proj",
           "package": "tuple-th",
@@ -694,6 +747,7 @@
         "index": {
           "description": "Generate projection like fst and snd",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "proj",
           "normalized": "Int-\u003eInt-\u003eExpQ",
@@ -709,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eproj\u003c/a\u003e\u003c/code\u003e, but takes the index argument as the first argument at runtime and returns a \u003ccode\u003eMaybe\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:t $(proj' 3)\n\u003c/code\u003e\u003c/strong\u003e$(proj' 3) :: Num a =\u003e (a1, a1, a1) -\u003e a -\u003e Maybe a1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "proj'",
           "package": "tuple-th",
@@ -719,6 +774,7 @@
         "index": {
           "description": "Like proj but takes the index argument as the first argument at runtime and returns Maybe proj proj Num a1 a1 a1 Maybe a1",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "proj'",
           "normalized": "Int-\u003eQ Exp",
@@ -734,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ereindexTuple n js\u003c/code\u003e =\u003e\n\u003c/p\u003e\u003cpre\u003e \\(x_0, ..., x_{n-1}) -\u003e (x_{js !! 0}, x_{js !! 1}, ... x_{last js})\n\u003c/pre\u003e\u003cp\u003eFor example,\n\u003c/p\u003e\u003cpre\u003e $(reindexTuple 3 [1,1,0,0]) ('a','b','c') == ('b','b','a','a')\n\u003c/pre\u003e\u003cp\u003eEach element of \u003ccode\u003ejs\u003c/code\u003e must be nonnegative and less than \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "reindexTuple",
           "package": "tuple-th",
@@ -744,6 +801,7 @@
         "index": {
           "description": "reindexTuple js n-1 js js last js For example reindexTuple Each element of js must be nonnegative and less than",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "reindexTuple",
           "normalized": "Int-\u003e[Int]-\u003eQ Exp",
@@ -760,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ereverse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "reverseTuple",
           "package": "tuple-th",
@@ -770,6 +829,7 @@
         "index": {
           "description": "Like reverse",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "reverseTuple",
           "normalized": "Int-\u003eQ Exp",
@@ -786,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erotateTuple n k\u003c/code\u003e creates a function which rotates an \u003ccode\u003en\u003c/code\u003e-tuple rightwards by \u003ccode\u003ek\u003c/code\u003e positions (\u003ccode\u003ek\u003c/code\u003e may be negative or greater than \u003ccode\u003en-1\u003c/code\u003e). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "rotateTuple",
           "package": "tuple-th",
@@ -796,6 +857,7 @@
         "index": {
           "description": "rotateTuple creates function which rotates an tuple rightwards by positions may be negative or greater than n-1",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "rotateTuple",
           "normalized": "Int-\u003eInt-\u003eQ Exp",
@@ -812,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esafeDeleteTuple n\u003c/code\u003e generates a function analogous to \u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e that takes an element and an \u003ccode\u003en\u003c/code\u003e-tuple and maybe returns an \u003ccode\u003en-1\u003c/code\u003e-tuple (if and only if the element was found).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "safeDeleteTuple",
           "package": "tuple-th",
@@ -822,6 +885,7 @@
         "index": {
           "description": "safeDeleteTuple generates function analogous to delete that takes an element and an tuple and maybe returns an n-1 tuple if and only if the element was found",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "safeDeleteTuple",
           "normalized": "Int-\u003eQ Exp",
@@ -838,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the generated expression: \n\u003c/p\u003e\u003cpre\u003e [a] -\u003e Maybe (a, ..)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "safeTupleFromList",
           "package": "tuple-th",
@@ -848,6 +913,7 @@
         "index": {
           "description": "Type of the generated expression Maybe",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "safeTupleFromList",
           "normalized": "Int-\u003eQ Exp",
@@ -864,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003esequenceA\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "sequenceATuple",
           "package": "tuple-th",
@@ -874,6 +941,7 @@
         "index": {
           "description": "Like sequenceA",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "sequenceATuple",
           "normalized": "Int-\u003eQ Exp",
@@ -890,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esequence\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "sequenceTuple",
           "package": "tuple-th",
@@ -900,6 +969,7 @@
         "index": {
           "description": "Like sequence",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "sequenceTuple",
           "normalized": "Int-\u003eQ Exp",
@@ -916,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esplitTupleAt n i\u003c/code\u003e =\u003e \u003ccode\u003e(x_0, ..., x_{n-1}) -\u003e ((x_0, ..., x_{i-1}),(x_i, ..., x_{n-1})\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "splitTupleAt",
           "package": "tuple-th",
@@ -926,6 +997,7 @@
         "index": {
           "description": "splitTupleAt n-1 i-1 n-1",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "splitTupleAt",
           "normalized": "Int-\u003eInt-\u003eQ Exp",
@@ -942,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates the function which maps a tuple \u003ccode\u003e(x_1, ..., x_n)\u003c/code\u003e to the tuple of all its subtuples of the form \u003ccode\u003e(x_{i_1}, ..., x_{i_k})\u003c/code\u003e, where \u003ccode\u003ei_1 \u003c i_2 \u003c ... \u003c i_k\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "subtuples",
           "package": "tuple-th",
@@ -952,6 +1025,7 @@
         "index": {
           "description": "Generates the function which maps tuple to the tuple of all its subtuples of the form where",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "subtuples",
           "normalized": "Int-\u003eInt-\u003eQ Exp",
@@ -966,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "sumTuple",
           "package": "tuple-th",
@@ -975,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "sumTuple",
           "normalized": "Int-\u003eQ Exp",
@@ -991,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003etakeTuple n i = (x_0, ..., x_{n-1}) -\u003e (x_0, ..., x_{m-1})\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "takeTuple",
           "package": "tuple-th",
@@ -1001,6 +1078,7 @@
         "index": {
           "description": "takeTuple n-1 m-1",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "takeTuple",
           "normalized": "Int-\u003eInt-\u003eQ Exp",
@@ -1017,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the generated expression: \n\u003c/p\u003e\u003cpre\u003e [a] -\u003e (a, ..)\n\u003c/pre\u003e\u003cp\u003eThe generated function is partial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "tupleFromList",
           "package": "tuple-th",
@@ -1027,6 +1106,7 @@
         "index": {
           "description": "Type of the generated expression The generated function is partial",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "tupleFromList",
           "normalized": "Int-\u003eQ Exp",
@@ -1042,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "tupleToList",
           "package": "tuple-th",
@@ -1051,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "tupleToList",
           "normalized": "Int-\u003eQ Exp",
@@ -1066,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "uncatTuple",
           "package": "tuple-th",
@@ -1075,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "uncatTuple",
           "normalized": "Int-\u003eInt-\u003eQ Exp",
@@ -1091,6 +1175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eType of the generated expression: \n\u003c/p\u003e\u003cpre\u003e (a1, a2, ..) -\u003e (b1, b2, ..) -\u003e ((a1,b1), (a2,b2), ..)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "zipTuple",
           "package": "tuple-th",
@@ -1101,6 +1186,7 @@
         "index": {
           "description": "Like zip Type of the generated expression a1 a2 b1 b2 a1 b1 a2 b2",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "zipTuple",
           "normalized": "Int-\u003eQ Exp",
@@ -1117,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eType of the generated expression:  \n\u003c/p\u003e\u003cpre\u003e (a -\u003e b -\u003e c) -\u003e (a, ..) -\u003e (b, ..) -\u003e (c, ..)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "zipTupleWith",
           "package": "tuple-th",
@@ -1127,6 +1214,7 @@
         "index": {
           "description": "Like zipWith Type of the generated expression",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "zipTupleWith",
           "normalized": "Int-\u003eExpQ",
@@ -1143,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the zipping function as a quoted expression. See \u003ccode\u003e\u003ca\u003emapTuple'\u003c/a\u003e\u003c/code\u003e for how this can be useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:09 UTC 2014",
           "module": "TupleTH",
           "name": "zipTupleWith'",
           "package": "tuple-th",
@@ -1153,6 +1242,7 @@
         "index": {
           "description": "Takes the zipping function as quoted expression See mapTuple for how this can be useful",
           "hierarchy": "TupleTH",
+          "indexed": "2014-03-11T20:26:09",
           "module": "TupleTH",
           "name": "zipTupleWith'",
           "normalized": "Int-\u003eExpQ-\u003eExpQ",

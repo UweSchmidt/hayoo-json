@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "socks"
+        "phrase": "socks",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "Lowlevel",
           "package": "socks",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "Lowlevel",
           "package": "socks",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "Command",
           "package": "socks",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "Command",
           "package": "socks",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "Connect",
           "package": "socks",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "Connect",
           "package": "socks",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial message sent by client with the list of authentification methods supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksHello",
           "package": "socks",
@@ -91,6 +98,7 @@
         "index": {
           "description": "Initial message sent by client with the list of authentification methods supported",
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksHello",
           "package": "socks",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial message send by server in return from Hello, with the\n server chosen method of authentication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksHelloResponse",
           "package": "socks",
@@ -114,6 +123,7 @@
         "index": {
           "description": "Initial message send by server in return from Hello with the server chosen method of authentication",
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksHelloResponse",
           "package": "socks",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a SOCKS requests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksRequest",
           "package": "socks",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Define SOCKS requests",
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksRequest",
           "package": "socks",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a SOCKS response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksResponse",
           "package": "socks",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Define SOCKS response",
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksResponse",
           "package": "socks",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "Connect",
           "package": "socks",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "Connect",
           "package": "socks",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksHello",
           "package": "socks",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksHello",
           "package": "socks",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksHelloResponse",
           "package": "socks",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksHelloResponse",
           "package": "socks",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksRequest",
           "package": "socks",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksRequest",
           "package": "socks",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksResponse",
           "package": "socks",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "SocksResponse",
           "package": "socks",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "connectDomainName",
           "package": "socks",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "connectDomainName",
           "normalized": "Socket-\u003eString-\u003ePortNumber-\u003eIO(SocksHostAddress,PortNumber)",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "connectIPV4",
           "package": "socks",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "connectIPV4",
           "normalized": "Socket-\u003eHostAddress-\u003ePortNumber-\u003eIO(HostAddress,PortNumber)",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "connectIPV6",
           "package": "socks",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "connectIPV6",
           "normalized": "Socket-\u003eHostAddress-\u003ePortNumber-\u003eIO(HostAddress,PortNumber)",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "establish",
           "package": "socks",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "establish",
           "normalized": "Socket-\u003e[SocksMethod]-\u003eIO SocksMethod",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "fromRequest",
           "package": "socks",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "fromRequest",
           "normalized": "SocksRequest-\u003eMaybe a",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "getSocksHelloMethods",
           "package": "socks",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "getSocksHelloMethods",
           "normalized": "[SocksMethod]",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "getSocksHelloResponseMethod",
           "package": "socks",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "getSocksHelloResponseMethod",
           "package": "socks",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "requestCommand",
           "package": "socks",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "requestCommand",
           "package": "socks",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "requestDstAddr",
           "package": "socks",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "requestDstAddr",
           "package": "socks",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "requestDstPort",
           "package": "socks",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "requestDstPort",
           "package": "socks",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "resolveToSockAddr",
           "package": "socks",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "resolveToSockAddr",
           "normalized": "SocksAddress-\u003eIO SockAddr",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "responseBindAddr",
           "package": "socks",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "responseBindAddr",
           "package": "socks",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "responseBindPort",
           "package": "socks",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "responseBindPort",
           "package": "socks",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "responseReply",
           "package": "socks",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "responseReply",
           "package": "socks",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "rpc",
           "package": "socks",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "rpc",
           "normalized": "Socket-\u003ea-\u003eIO(Either SocksError(SocksHostAddress,PortNumber))",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "rpc_",
           "package": "socks",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "rpc_",
           "normalized": "Socket-\u003ea-\u003eIO(SocksHostAddress,PortNumber)",
@@ -650,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "sendSerialized",
           "package": "socks",
@@ -659,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "sendSerialized",
           "normalized": "Socket-\u003ea-\u003eIO()",
@@ -674,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "socksListen",
           "package": "socks",
@@ -683,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "socksListen",
           "normalized": "Socket-\u003eIO SocksRequest",
@@ -698,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "toRequest",
           "package": "socks",
@@ -707,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "toRequest",
           "normalized": "a-\u003eSocksRequest",
@@ -722,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Lowlevel",
           "name": "waitSerialized",
           "package": "socks",
@@ -731,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Lowlevel",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Lowlevel",
           "name": "waitSerialized",
           "normalized": "Socket-\u003eIO a",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "Types",
           "package": "socks",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "Types",
           "package": "socks",
@@ -768,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe a Socket address on the SOCKS protocol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksAddress",
           "package": "socks",
@@ -777,6 +844,7 @@
         "index": {
           "description": "Describe Socket address on the SOCKS protocol",
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksAddress",
           "package": "socks",
@@ -791,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand that can be send and receive on the SOCKS protocol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksCommand",
           "package": "socks",
@@ -800,6 +869,7 @@
         "index": {
           "description": "Command that can be send and receive on the SOCKS protocol",
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksCommand",
           "package": "socks",
@@ -814,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSOCKS error that can be received or sent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksError",
           "package": "socks",
@@ -823,6 +894,7 @@
         "index": {
           "description": "SOCKS error that can be received or sent",
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksError",
           "package": "socks",
@@ -837,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Host address on the SOCKS protocol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksHostAddress",
           "package": "socks",
@@ -846,6 +919,7 @@
         "index": {
           "description": "Host address on the SOCKS protocol",
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksHostAddress",
           "package": "socks",
@@ -860,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthentication methods available on the SOCKS protocol.\n\u003c/p\u003e\u003cp\u003eOnly SocksMethodNone is effectively implemented, but\n other value are enumerated for completeness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksMethod",
           "package": "socks",
@@ -869,6 +944,7 @@
         "index": {
           "description": "Authentication methods available on the SOCKS protocol Only SocksMethodNone is effectively implemented but other value are enumerated for completeness",
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksMethod",
           "package": "socks",
@@ -883,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of reply on the SOCKS protocol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksReply",
           "package": "socks",
@@ -892,6 +969,7 @@
         "index": {
           "description": "Type of reply on the SOCKS protocol",
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksReply",
           "package": "socks",
@@ -906,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSocks Version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksVersion",
           "package": "socks",
@@ -915,6 +994,7 @@
         "index": {
           "description": "Socks Version",
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksVersion",
           "package": "socks",
@@ -929,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException returned when using a SOCKS version that is not supported.\n\u003c/p\u003e\u003cp\u003eThis package only implement version 5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksVersionNotSupported",
           "package": "socks",
@@ -938,6 +1019,7 @@
         "index": {
           "description": "Exception returned when using SOCKS version that is not supported This package only implement version",
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksVersionNotSupported",
           "package": "socks",
@@ -1043,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksCommandBind",
           "package": "socks",
@@ -1052,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksCommandBind",
           "package": "socks",
@@ -1065,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksCommandConnect",
           "package": "socks",
@@ -1074,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksCommandConnect",
           "package": "socks",
@@ -1087,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksCommandOther",
           "package": "socks",
@@ -1096,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksCommandOther",
           "package": "socks",
@@ -1109,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksCommandUdpAssociate",
           "package": "socks",
@@ -1118,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksCommandUdpAssociate",
           "package": "socks",
@@ -1338,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksMethodGSSAPI",
           "package": "socks",
@@ -1347,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksMethodGSSAPI",
           "package": "socks",
@@ -1360,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksMethodNone",
           "package": "socks",
@@ -1369,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksMethodNone",
           "package": "socks",
@@ -1382,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksMethodNotAcceptable",
           "package": "socks",
@@ -1391,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksMethodNotAcceptable",
           "package": "socks",
@@ -1404,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksMethodOther",
           "package": "socks",
@@ -1413,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksMethodOther",
           "package": "socks",
@@ -1426,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksMethodUsernamePassword",
           "package": "socks",
@@ -1435,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksMethodUsernamePassword",
           "package": "socks",
@@ -1494,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksVer5",
           "package": "socks",
@@ -1503,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksVer5",
           "package": "socks",
@@ -1516,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5.Types",
           "name": "SocksVersionNotSupported",
           "package": "socks",
@@ -1525,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5 Types",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5.Types",
           "name": "SocksVersionNotSupported",
           "package": "socks",
@@ -1539,6 +1643,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is an implementation of SOCKS5 as defined in RFC 1928\n\u003c/p\u003e\u003cp\u003eIn Wikipedia's words:\n\u003c/p\u003e\u003cp\u003eSOCKet Secure (SOCKS) is an Internet protocol that routes network packets\n   between a client and server through a proxy server. SOCKS5 additionally\n   provides authentication so only authorized users may access a server.\n   Practically, a SOCKS server will proxy TCP connections to an arbitrary IP\n   address as well as providing a means for UDP packets to be forwarded.\n\u003c/p\u003e\u003cp\u003eBIND and UDP ASSOCIATE messages are not implemented.\n However main usage of SOCKS is covered in this implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "Socks5",
           "package": "socks",
@@ -1548,6 +1653,7 @@
         "index": {
           "description": "This is an implementation of SOCKS5 as defined in RFC In Wikipedia words SOCKet Secure SOCKS is an Internet protocol that routes network packets between client and server through proxy server SOCKS5 additionally provides authentication so only authorized users may access server Practically SOCKS server will proxy TCP connections to an arbitrary IP address as well as providing means for UDP packets to be forwarded BIND and UDP ASSOCIATE messages are not implemented However main usage of SOCKS is covered in this implementation",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "Socks5",
           "package": "socks",
@@ -1562,6 +1668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe a Socket address on the SOCKS protocol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "SocksAddress",
           "package": "socks",
@@ -1571,6 +1678,7 @@
         "index": {
           "description": "Describe Socket address on the SOCKS protocol",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "SocksAddress",
           "package": "socks",
@@ -1585,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSOCKS configuration structure.\n this structure will be extended in future to support authentification.\n use defaultSocksConf to create new record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "SocksConf",
           "package": "socks",
@@ -1594,6 +1703,7 @@
         "index": {
           "description": "SOCKS configuration structure this structure will be extended in future to support authentification use defaultSocksConf to create new record",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "SocksConf",
           "package": "socks",
@@ -1608,6 +1718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSOCKS error that can be received or sent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "SocksError",
           "package": "socks",
@@ -1617,6 +1728,7 @@
         "index": {
           "description": "SOCKS error that can be received or sent",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "SocksError",
           "package": "socks",
@@ -1631,6 +1743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Host address on the SOCKS protocol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "SocksHostAddress",
           "package": "socks",
@@ -1640,6 +1753,7 @@
         "index": {
           "description": "Host address on the SOCKS protocol",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "SocksHostAddress",
           "package": "socks",
@@ -1654,6 +1768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of reply on the SOCKS protocol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "SocksReply",
           "package": "socks",
@@ -1663,6 +1778,7 @@
         "index": {
           "description": "Type of reply on the SOCKS protocol",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "SocksReply",
           "package": "socks",
@@ -1676,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "SocksConf",
           "package": "socks",
@@ -1685,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "SocksConf",
           "package": "socks",
@@ -1699,6 +1817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefaultSocksConf create a new record, making sure\n API remains compatible when the record is extended.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "defaultSocksConf",
           "package": "socks",
@@ -1709,6 +1828,7 @@
         "index": {
           "description": "defaultSocksConf create new record making sure API remains compatible when the record is extended",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "defaultSocksConf",
           "normalized": "[Char]-\u003ePortNumber-\u003eSocksConf",
@@ -1725,6 +1845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esame as defaultSocksConf except the server address is determined from a \u003ccode\u003eSockAddr\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eA unix SockAddr will raises an error. Only Inet and Inet6 types supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "defaultSocksConfFromSockAddr",
           "package": "socks",
@@ -1735,6 +1856,7 @@
         "index": {
           "description": "same as defaultSocksConf except the server address is determined from SockAddr unix SockAddr will raises an error Only Inet and Inet6 types supported",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "defaultSocksConfFromSockAddr",
           "normalized": "SockAddr-\u003eSocksConf",
@@ -1751,6 +1873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnect a new socket to a socks server and connect the stream on the\n server side to the \u003ccode\u003e\u003ca\u003eSocksAddress\u003c/a\u003e\u003c/code\u003e specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "socksConnect",
           "package": "socks",
@@ -1760,6 +1883,7 @@
         "index": {
           "description": "connect new socket to socks server and connect the stream on the server side to the SocksAddress specified",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "socksConnect",
           "normalized": "SocksConf-\u003eSocksAddress-\u003eIO(Socket,(SocksHostAddress,PortNumber))",
@@ -1776,6 +1900,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use socksConnectWithSocket\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003econnect a new socket to the socks server, and connect the stream on the server side\n to the sockaddr specified. the sockaddr need to be SockAddrInet or SockAddrInet6.\n\u003c/p\u003e\u003cp\u003ea unix sockaddr will raises an exception.\n\u003c/p\u003e\u003cp\u003e|socket|-----sockServer-----\u003e|server|----destAddr-----\u003e|destination|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "socksConnectAddr",
           "package": "socks",
@@ -1786,6 +1911,7 @@
         "index": {
           "description": "Deprecated use socksConnectWithSocket connect new socket to the socks server and connect the stream on the server side to the sockaddr specified the sockaddr need to be SockAddrInet or SockAddrInet6 unix sockaddr will raises an exception socket sockServer server destAddr destination",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "socksConnectAddr",
           "normalized": "Socket-\u003eSockAddr-\u003eSockAddr-\u003eIO()",
@@ -1802,6 +1928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnect a new socket to the socks server, and connect the stream to a FQDN\n resolved on the server side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "socksConnectName",
           "package": "socks",
@@ -1812,6 +1939,7 @@
         "index": {
           "description": "connect new socket to the socks server and connect the stream to FQDN resolved on the server side",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "socksConnectName",
           "normalized": "Socket-\u003eSockAddr-\u003eString-\u003ePortNumber-\u003eIO()",
@@ -1828,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimilar to Network connectTo but use a socks proxy with default socks configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "socksConnectTo",
           "package": "socks",
@@ -1838,6 +1967,7 @@
         "index": {
           "description": "similar to Network connectTo but use socks proxy with default socks configuration",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "socksConnectTo",
           "normalized": "String-\u003ePortID-\u003eString-\u003ePortID-\u003eIO Handle",
@@ -1854,6 +1984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a new socket and connect in to a destination through the specified\n SOCKS configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "socksConnectWith",
           "package": "socks",
@@ -1863,6 +1994,7 @@
         "index": {
           "description": "create new socket and connect in to destination through the specified SOCKS configuration",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "socksConnectWith",
           "normalized": "SocksConf-\u003eString-\u003ePortID-\u003eIO Socket",
@@ -1879,6 +2011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnect a user specified new socket to the socks server,\n and connect the stream on the server side to the \u003ccode\u003eSockAddress\u003c/code\u003e specified.\n\u003c/p\u003e\u003cp\u003e|socket|-----sockServer-----\u003e|server|----destAddr-----\u003e|destination|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "socksConnectWithSocket",
           "package": "socks",
@@ -1888,6 +2021,7 @@
         "index": {
           "description": "connect user specified new socket to the socks server and connect the stream on the server side to the SockAddress specified socket sockServer server destAddr destination",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "socksConnectWithSocket",
           "normalized": "Socket-\u003eSocksConf-\u003eSocksAddress-\u003eIO(SocksHostAddress,PortNumber)",
@@ -1904,6 +2038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSOCKS Host\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "socksHost",
           "package": "socks",
@@ -1914,6 +2049,7 @@
         "index": {
           "description": "SOCKS Host",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "socksHost",
           "normalized": "SocksConf-\u003eSocksHostAddress",
@@ -1930,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSOCKS Port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "socksPort",
           "package": "socks",
@@ -1940,6 +2077,7 @@
         "index": {
           "description": "SOCKS Port",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "socksPort",
           "normalized": "SocksConf-\u003ePortNumber",
@@ -1956,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSOCKS Address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "socksServer",
           "package": "socks",
@@ -1966,6 +2105,7 @@
         "index": {
           "description": "SOCKS Address",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "socksServer",
           "package": "socks",
@@ -1980,6 +2120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSOCKS version to use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:02 UTC 2014",
           "module": "Network.Socks5",
           "name": "socksVersion",
           "package": "socks",
@@ -1990,6 +2131,7 @@
         "index": {
           "description": "SOCKS version to use",
           "hierarchy": "Network Socks5",
+          "indexed": "2014-03-11T20:07:02",
           "module": "Network.Socks5",
           "name": "socksVersion",
           "package": "socks",

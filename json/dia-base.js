@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dia-base"
+        "phrase": "dia-base",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDiagrams data types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Types",
           "package": "dia-base",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Diagrams data types",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Types",
           "package": "dia-base",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Color",
           "package": "dia-base",
@@ -51,6 +54,7 @@
         "index": {
           "description": "colors",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Color",
           "package": "dia-base",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiagram data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Diagram",
           "package": "dia-base",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Diagram data type",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Diagram",
           "package": "dia-base",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint type as defined in the diagrams package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Point",
           "package": "dia-base",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Point type as defined in the diagrams package",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Point",
           "package": "dia-base",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText positions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Position",
           "package": "dia-base",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Text positions",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Position",
           "package": "dia-base",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecircle with radius\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Circle",
           "package": "dia-base",
@@ -144,6 +155,7 @@
         "index": {
           "description": "circle with radius",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Circle",
           "package": "dia-base",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclip a rectangle region (lower-left and upper-right corners)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Clip",
           "package": "dia-base",
@@ -168,6 +181,7 @@
         "index": {
           "description": "clip rectangle region lower-left and upper-right corners",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Clip",
           "package": "dia-base",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enamed color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Color",
           "package": "dia-base",
@@ -192,6 +207,7 @@
         "index": {
           "description": "named color",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Color",
           "package": "dia-base",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eempty diagram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "EmptyDiagram",
           "package": "dia-base",
@@ -216,6 +233,7 @@
         "index": {
           "description": "empty diagram",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "EmptyDiagram",
           "package": "dia-base",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eend of text is fixed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "End",
           "package": "dia-base",
@@ -240,6 +259,7 @@
         "index": {
           "description": "end of text is fixed",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "End",
           "package": "dia-base",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused internally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Error",
           "package": "dia-base",
@@ -264,6 +285,7 @@
         "index": {
           "description": "used internally",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Error",
           "package": "dia-base",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efill with color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Fill",
           "package": "dia-base",
@@ -288,6 +311,7 @@
         "index": {
           "description": "fill with color",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Fill",
           "package": "dia-base",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset font family\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "FontFamily",
           "package": "dia-base",
@@ -312,6 +337,7 @@
         "index": {
           "description": "set font family",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "FontFamily",
           "package": "dia-base",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused internally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Group",
           "package": "dia-base",
@@ -336,6 +363,7 @@
         "index": {
           "description": "used internally",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Group",
           "package": "dia-base",
@@ -350,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd an html link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Link",
           "package": "dia-base",
@@ -360,6 +389,7 @@
         "index": {
           "description": "add an html link",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Link",
           "package": "dia-base",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emiddle of text is fixed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Middle",
           "package": "dia-base",
@@ -384,6 +415,7 @@
         "index": {
           "description": "middle of text is fixed",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Middle",
           "package": "dia-base",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emove\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Move",
           "package": "dia-base",
@@ -408,6 +441,7 @@
         "index": {
           "description": "move",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Move",
           "package": "dia-base",
@@ -422,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoverlay (the second diagram is over the first one)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Overlay",
           "package": "dia-base",
@@ -432,6 +467,7 @@
         "index": {
           "description": "overlay the second diagram is over the first one",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Overlay",
           "package": "dia-base",
@@ -446,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epack a diagram (kind of let-construct to save resources)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Pack",
           "package": "dia-base",
@@ -456,6 +493,7 @@
         "index": {
           "description": "pack diagram kind of let-construct to save resources",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Pack",
           "normalized": "Pack Diagram(Diagram-\u003eDiagram)",
@@ -472,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue: polygon; False: polyline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Polyline",
           "package": "dia-base",
@@ -482,6 +521,7 @@
         "index": {
           "description": "True polygon False polyline",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Polyline",
           "normalized": "Polyline Bool[Point]",
@@ -498,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRGB color (components are between 0 and 1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "RGB",
           "package": "dia-base",
@@ -508,6 +549,7 @@
         "index": {
           "description": "RGB color components are between and",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "RGB",
           "package": "dia-base",
@@ -522,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erectangle; width and height\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Rect",
           "package": "dia-base",
@@ -532,6 +575,7 @@
         "index": {
           "description": "rectangle width and height",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Rect",
           "package": "dia-base",
@@ -546,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused internally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Ref",
           "package": "dia-base",
@@ -556,6 +601,7 @@
         "index": {
           "description": "used internally",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Ref",
           "package": "dia-base",
@@ -570,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erotate (degree)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Rotate",
           "package": "dia-base",
@@ -580,6 +627,7 @@
         "index": {
           "description": "rotate degree",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Rotate",
           "package": "dia-base",
@@ -594,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003escale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Scale",
           "package": "dia-base",
@@ -604,6 +653,7 @@
         "index": {
           "description": "scale",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Scale",
           "package": "dia-base",
@@ -618,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003escale differently at x and y axes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "ScaleXY",
           "package": "dia-base",
@@ -628,6 +679,7 @@
         "index": {
           "description": "scale differently at and axes",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "ScaleXY",
           "package": "dia-base",
@@ -642,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebeginning of text is fixed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Start",
           "package": "dia-base",
@@ -652,6 +705,7 @@
         "index": {
           "description": "beginning of text is fixed",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Start",
           "package": "dia-base",
@@ -666,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset stroke color\n    | FillOpacity Double Diagram    -- ^ set fill opacity\n    | StrokeOpacity Double Diagram  -- ^ set stroke opacity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Stroke",
           "package": "dia-base",
@@ -676,6 +731,7 @@
         "index": {
           "description": "set stroke color FillOpacity Double Diagram set fill opacity StrokeOpacity Double Diagram set stroke opacity",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Stroke",
           "package": "dia-base",
@@ -690,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset stroke width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "StrokeWidth",
           "package": "dia-base",
@@ -700,6 +757,7 @@
         "index": {
           "description": "set stroke width",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "StrokeWidth",
           "package": "dia-base",
@@ -714,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etext at a given position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "Text",
           "package": "dia-base",
@@ -724,6 +783,7 @@
         "index": {
           "description": "text at given position",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "Text",
           "package": "dia-base",
@@ -738,6 +798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused internally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams.Types",
           "name": "TransformMatrix",
           "package": "dia-base",
@@ -748,6 +809,7 @@
         "index": {
           "description": "used internally",
           "hierarchy": "Graphics Diagrams Types",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams.Types",
           "name": "TransformMatrix",
           "package": "dia-base",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDiagrams user API\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "Diagrams",
           "package": "dia-base",
@@ -771,6 +834,7 @@
         "index": {
           "description": "Diagrams user API",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "Diagrams",
           "package": "dia-base",
@@ -785,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "Color",
           "package": "dia-base",
@@ -794,6 +859,7 @@
         "index": {
           "description": "colors",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "Color",
           "package": "dia-base",
@@ -808,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiagram data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "Diagram",
           "package": "dia-base",
@@ -817,6 +884,7 @@
         "index": {
           "description": "Diagram data type",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "Diagram",
           "package": "dia-base",
@@ -831,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint type as defined in the diagrams package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "Point",
           "package": "dia-base",
@@ -840,6 +909,7 @@
         "index": {
           "description": "Point type as defined in the diagrams package",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "Point",
           "package": "dia-base",
@@ -854,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eline segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "(~~)",
           "package": "dia-base",
@@ -864,6 +935,7 @@
         "index": {
           "description": "line segment",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "(~~) ~~",
           "normalized": "Point-\u003ePoint-\u003eDiagram",
@@ -879,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar multiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "(*.)",
           "package": "dia-base",
@@ -889,6 +962,7 @@
         "index": {
           "description": "Scalar multiplication",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "(*.) *.",
           "normalized": "Double-\u003ePoint-\u003ePoint",
@@ -904,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoverlay; the second diagram is over the first one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "(\u003c|\u003e)",
           "package": "dia-base",
@@ -914,6 +989,7 @@
         "index": {
           "description": "overlay the second diagram is over the first one",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "Diagram-\u003eDiagram-\u003eDiagram",
@@ -929,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eline segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "(\u003e-\u003c)",
           "package": "dia-base",
@@ -939,6 +1016,7 @@
         "index": {
           "description": "line segment",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "(\u003e-\u003c) \u003e-\u003c",
           "normalized": "Point-\u003ePoint-\u003eDiagram",
@@ -954,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElementwise addition, subtraction and multiplication for \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "(.*.)",
           "package": "dia-base",
@@ -964,6 +1043,7 @@
         "index": {
           "description": "Elementwise addition subtraction and multiplication for Point",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "(.*.) .*.",
           "normalized": "Point-\u003ePoint-\u003ePoint",
@@ -979,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElementwise addition, subtraction and multiplication for \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "(.+.)",
           "package": "dia-base",
@@ -989,6 +1070,7 @@
         "index": {
           "description": "Elementwise addition subtraction and multiplication for Point",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "(.+.) .+.",
           "normalized": "Point-\u003ePoint-\u003ePoint",
@@ -1004,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElementwise addition, subtraction and multiplication for \u003ccode\u003e\u003ca\u003ePoint\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "(.-.)",
           "package": "dia-base",
@@ -1014,6 +1097,7 @@
         "index": {
           "description": "Elementwise addition subtraction and multiplication for Point",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "(.-.) .-.",
           "normalized": "Point-\u003ePoint-\u003ePoint",
@@ -1028,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "black",
           "package": "dia-base",
@@ -1037,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "black",
           "package": "dia-base",
@@ -1049,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "blue",
           "package": "dia-base",
@@ -1058,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "blue",
           "package": "dia-base",
@@ -1071,6 +1159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecircle with radius\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "circle",
           "package": "dia-base",
@@ -1081,6 +1170,7 @@
         "index": {
           "description": "circle with radius",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "circle",
           "normalized": "Double-\u003eDiagram",
@@ -1096,6 +1186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclip a rectangle region (give lower-left and upper-right corners)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "clip",
           "package": "dia-base",
@@ -1106,6 +1197,7 @@
         "index": {
           "description": "clip rectangle region give lower-left and upper-right corners",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "clip",
           "normalized": "Point-\u003ePoint-\u003eDiagram-\u003eDiagram",
@@ -1121,6 +1213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enamed color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "color",
           "package": "dia-base",
@@ -1131,6 +1224,7 @@
         "index": {
           "description": "named color",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "color",
           "normalized": "String-\u003eColor",
@@ -1146,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eempty diagram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "empty",
           "package": "dia-base",
@@ -1156,6 +1251,7 @@
         "index": {
           "description": "empty diagram",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "empty",
           "package": "dia-base",
@@ -1169,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efill with color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "fill",
           "package": "dia-base",
@@ -1179,6 +1276,7 @@
         "index": {
           "description": "fill with color",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "fill",
           "normalized": "Diagram-\u003eColor-\u003eDiagram",
@@ -1194,6 +1292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset font family\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "fontFamily",
           "package": "dia-base",
@@ -1204,6 +1303,7 @@
         "index": {
           "description": "set font family",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "fontFamily",
           "normalized": "Diagram-\u003eString-\u003eDiagram",
@@ -1219,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "gray",
           "package": "dia-base",
@@ -1228,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "gray",
           "package": "dia-base",
@@ -1240,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "green",
           "package": "dia-base",
@@ -1249,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "green",
           "package": "dia-base",
@@ -1262,6 +1366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd an html link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "link",
           "package": "dia-base",
@@ -1272,6 +1377,7 @@
         "index": {
           "description": "add an html link",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "link",
           "normalized": "Diagram-\u003eString-\u003eDiagram",
@@ -1286,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "move",
           "package": "dia-base",
@@ -1295,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "move",
           "normalized": "Diagram-\u003ePoint-\u003eDiagram",
@@ -1310,6 +1418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epack a diagram; (\u003ccode\u003epack d f\u003c/code\u003e) is the more efficient version of (\u003ccode\u003elet v=d in f v\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "pack",
           "package": "dia-base",
@@ -1320,6 +1429,7 @@
         "index": {
           "description": "pack diagram pack is the more efficient version of let in",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "pack",
           "normalized": "Diagram-\u003e(Diagram-\u003eDiagram)-\u003eDiagram",
@@ -1334,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "polygon",
           "package": "dia-base",
@@ -1343,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "polygon",
           "normalized": "[Point]-\u003eDiagram",
@@ -1357,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "polyline",
           "package": "dia-base",
@@ -1366,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "polyline",
           "normalized": "[Point]-\u003eDiagram",
@@ -1381,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erectangle given with width and height\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "rect",
           "package": "dia-base",
@@ -1391,6 +1506,7 @@
         "index": {
           "description": "rectangle given with width and height",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "rect",
           "normalized": "Double-\u003eDouble-\u003eDiagram",
@@ -1406,6 +1522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erectangle given with two opposite corners\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "rectangle",
           "package": "dia-base",
@@ -1416,6 +1533,7 @@
         "index": {
           "description": "rectangle given with two opposite corners",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "rectangle",
           "normalized": "Point-\u003ePoint-\u003eDiagram",
@@ -1430,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "red",
           "package": "dia-base",
@@ -1439,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "red",
           "package": "dia-base",
@@ -1452,6 +1572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRGB color (components are between 0 and 1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "rgb",
           "package": "dia-base",
@@ -1462,6 +1583,7 @@
         "index": {
           "description": "RGB color components are between and",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "rgb",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eColor",
@@ -1477,6 +1599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erotate (degree)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "rotate",
           "package": "dia-base",
@@ -1487,6 +1610,7 @@
         "index": {
           "description": "rotate degree",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "rotate",
           "normalized": "Diagram-\u003eDouble-\u003eDiagram",
@@ -1502,6 +1626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003escale differently at x and y axes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "scale",
           "package": "dia-base",
@@ -1512,6 +1637,7 @@
         "index": {
           "description": "scale differently at and axes",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "scale",
           "normalized": "Diagram-\u003eDouble-\u003eDiagram",
@@ -1526,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "scaleXY",
           "package": "dia-base",
@@ -1535,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "scaleXY",
           "normalized": "Diagram-\u003e(Double,Double)-\u003eDiagram",
@@ -1551,6 +1679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset stroke color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "stroke",
           "package": "dia-base",
@@ -1561,6 +1690,7 @@
         "index": {
           "description": "set stroke color",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "stroke",
           "normalized": "Diagram-\u003eColor-\u003eDiagram",
@@ -1576,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset stroke width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "strokeWidth",
           "package": "dia-base",
@@ -1586,6 +1717,7 @@
         "index": {
           "description": "set stroke width",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "strokeWidth",
           "normalized": "Diagram-\u003eDouble-\u003eDiagram",
@@ -1602,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etext; middle of text is fixed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "textAt",
           "package": "dia-base",
@@ -1612,6 +1745,7 @@
         "index": {
           "description": "text middle of text is fixed",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "textAt",
           "normalized": "String-\u003ePoint-\u003eDiagram",
@@ -1628,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etext; beginning of text is fixed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "textFrom",
           "package": "dia-base",
@@ -1638,6 +1773,7 @@
         "index": {
           "description": "text beginning of text is fixed",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "textFrom",
           "normalized": "String-\u003ePoint-\u003eDiagram",
@@ -1654,6 +1790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etext; end of text is fixed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "textTo",
           "package": "dia-base",
@@ -1664,6 +1801,7 @@
         "index": {
           "description": "text end of text is fixed",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "textTo",
           "normalized": "String-\u003ePoint-\u003eDiagram",
@@ -1680,6 +1818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoverlay generalized to several diagrams\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "union",
           "package": "dia-base",
@@ -1690,6 +1829,7 @@
         "index": {
           "description": "overlay generalized to several diagrams",
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "union",
           "normalized": "[Diagram]-\u003eDiagram",
@@ -1704,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "white",
           "package": "dia-base",
@@ -1713,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "white",
           "package": "dia-base",
@@ -1725,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:53 UTC 2014",
           "module": "Graphics.Diagrams",
           "name": "yellow",
           "package": "dia-base",
@@ -1734,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Graphics Diagrams",
+          "indexed": "2014-03-11T17:53:53",
           "module": "Graphics.Diagrams",
           "name": "yellow",
           "package": "dia-base",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unix-io-extra"
+        "phrase": "unix-io-extra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:42 UTC 2014",
           "module": "System.Posix.IO.Extra",
           "name": "Extra",
           "package": "unix-io-extra",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Posix IO Extra",
+          "indexed": "2014-03-11T20:30:42",
           "module": "System.Posix.IO.Extra",
           "name": "Extra",
           "package": "unix-io-extra",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:42 UTC 2014",
           "module": "System.Posix.IO.Extra",
           "name": "pread",
           "package": "unix-io-extra",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System Posix IO Extra",
+          "indexed": "2014-03-11T20:30:42",
           "module": "System.Posix.IO.Extra",
           "name": "pread",
           "normalized": "Fd-\u003ePtr a-\u003eInt-\u003eCOff-\u003eIO ByteCount",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:42 UTC 2014",
           "module": "System.Posix.IO.Extra",
           "name": "pwrite",
           "package": "unix-io-extra",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System Posix IO Extra",
+          "indexed": "2014-03-11T20:30:42",
           "module": "System.Posix.IO.Extra",
           "name": "pwrite",
           "normalized": "Fd-\u003ePtr a-\u003eInt-\u003eCOff-\u003eIO ByteCount",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:42 UTC 2014",
           "module": "System.Posix.IO.Extra",
           "name": "writev",
           "package": "unix-io-extra",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "System Posix IO Extra",
+          "indexed": "2014-03-11T20:30:42",
           "module": "System.Posix.IO.Extra",
           "name": "writev",
           "normalized": "Fd-\u003e[(Ptr a,Int)]-\u003eIO ByteCount",

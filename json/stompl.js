@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stompl"
+        "phrase": "stompl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStomp Frames and some useful operations on them\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Frame",
           "package": "stompl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Stomp Frames and some useful operations on them",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Frame",
           "package": "stompl",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "AckMode",
           "package": "stompl",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "AckMode",
           "package": "stompl",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Frame body is represented as \u003cem\u003estrict\u003c/em\u003e \u003ccode\u003eByteString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Body",
           "package": "stompl",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The Frame body is represented as strict ByteString",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Body",
           "package": "stompl",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Frame",
           "package": "stompl",
@@ -95,6 +102,7 @@
         "index": {
           "description": "This is frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Frame",
           "package": "stompl",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe frame type identifies, what the Stomp protocol calls \u003cem\u003ecommand\u003c/em\u003e;\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e commands sent from application to broker are:\n     Connect, Disconnect, Subscribe, Unsubscribe, Send, \n     Begin, Commit, Abort, Ack, Nack, HeartBeat\n\u003c/li\u003e\u003cli\u003e commands sent from broker to application are:\n     Connected, Message, Error, HeartBeat\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "FrameType",
           "package": "stompl",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The frame type identifies what the Stomp protocol calls command commands sent from application to broker are Connect Disconnect Subscribe Unsubscribe Send Begin Commit Abort Ack Nack HeartBeat commands sent from broker to application are Connected Message Error HeartBeat",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "FrameType",
           "package": "stompl",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple of (key, value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Header",
           "package": "stompl",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Tuple of key value",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Header",
           "package": "stompl",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeart-beat configuration;\n   the first \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e of the pair represents the frequency \n   in which the sender wants to send heart-beats; \n   the second represents the highest frequency\n   in which the sender can accept heart-beats.\n   The frequency is expressed as \n   the period in milliseconds between two heart-beats.\n   For details on negotiating heart-beats, \n   please refer to the Stomp specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Heart",
           "package": "stompl",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Heart-beat configuration the first Int of the pair represents the frequency in which the sender wants to send heart-beats the second represents the highest frequency in which the sender can accept heart-beats The frequency is expressed as the period in milliseconds between two heart-beats For details on negotiating heart-beats please refer to the Stomp specification",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Heart",
           "package": "stompl",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of a server consisting of\n   name, version and comments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "SrvDesc",
           "package": "stompl",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Description of server consisting of name version and comments",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "SrvDesc",
           "package": "stompl",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Stomp version used or accepted by the sender;\n   the first \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e is the major version number,\n   the second is the minor.\n   For details on version negotiation, please refer to \n   the Stomp specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Version",
           "package": "stompl",
@@ -210,6 +227,7 @@
         "index": {
           "description": "The Stomp version used or accepted by the sender the first Int is the major version number the second is the minor For details on version negotiation please refer to the Stomp specification",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Version",
           "package": "stompl",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esnoc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "(|\u003e)",
           "package": "stompl",
@@ -234,6 +253,7 @@
         "index": {
           "description": "snoc",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "(|\u003e) |\u003e",
           "normalized": "ByteString-\u003eChar-\u003eByteString",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "(\u003c|)",
           "package": "stompl",
@@ -259,6 +280,7 @@
         "index": {
           "description": "cons",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "(\u003c|) \u003c|",
           "normalized": "Char-\u003eByteString-\u003eByteString",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eappend\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "(\u003e|\u003c)",
           "package": "stompl",
@@ -284,6 +307,7 @@
         "index": {
           "description": "append",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "(\u003e|\u003c) \u003e|\u003c",
           "normalized": "ByteString-\u003eByteString-\u003eByteString",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the application to abort a transaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Abort",
           "package": "stompl",
@@ -309,6 +334,7 @@
         "index": {
           "description": "Sent by the application to abort transaction",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Abort",
           "package": "stompl",
@@ -323,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the application to acknowledge a message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Ack",
           "package": "stompl",
@@ -333,6 +360,7 @@
         "index": {
           "description": "Sent by the application to acknowledge message",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Ack",
           "package": "stompl",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA successfully sent message is automatically considered ack'd\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Auto",
           "package": "stompl",
@@ -357,6 +386,7 @@
         "index": {
           "description": "successfully sent message is automatically considered ack",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Auto",
           "package": "stompl",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the application to start a transaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Begin",
           "package": "stompl",
@@ -381,6 +412,7 @@
         "index": {
           "description": "Sent by the application to start transaction",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Begin",
           "package": "stompl",
@@ -395,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe client is expected to explicitly confirm the receipt\n   of a message by sending an \u003ccode\u003e\u003ca\u003eAck\u003c/a\u003e\u003c/code\u003e frame;\n   all message older than the ack'd message\n   since the last \u003ccode\u003e\u003ca\u003eAck\u003c/a\u003e\u003c/code\u003e (or the beginning of the session)\n   are implicitly ack'd as well.\n   This is called \u003cem\u003ecumulative\u003c/em\u003e ack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Client",
           "package": "stompl",
@@ -405,6 +438,7 @@
         "index": {
           "description": "The client is expected to explicitly confirm the receipt of message by sending an Ack frame all message older than the ack message since the last Ack or the beginning of the session are implicitly ack as well This is called cumulative ack",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Client",
           "package": "stompl",
@@ -419,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-cumulative ack:\n   The client is expected to explicitly confirm the receipt\n   of a message by sending an \u003ccode\u003e\u003ca\u003eAck\u003c/a\u003e\u003c/code\u003e frame;\n   only the message with the msg-id in the \u003ccode\u003e\u003ca\u003eAck\u003c/a\u003e\u003c/code\u003e frame\n   is actually ack'd\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "ClientIndi",
           "package": "stompl",
@@ -429,6 +464,7 @@
         "index": {
           "description": "Non-cumulative ack The client is expected to explicitly confirm the receipt of message by sending an Ack frame only the message with the msg-id in the Ack frame is actually ack",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "ClientIndi",
           "package": "stompl",
@@ -443,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the application to commit a transaction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Commit",
           "package": "stompl",
@@ -453,6 +490,7 @@
         "index": {
           "description": "Sent by the application to commit transaction",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Commit",
           "package": "stompl",
@@ -467,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the application to initiate a connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Connect",
           "package": "stompl",
@@ -477,6 +516,7 @@
         "index": {
           "description": "Sent by the application to initiate connection",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Connect",
           "package": "stompl",
@@ -491,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the broker to confirm the connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Connected",
           "package": "stompl",
@@ -501,6 +542,7 @@
         "index": {
           "description": "Sent by the broker to confirm the connection",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Connected",
           "package": "stompl",
@@ -515,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the application to end the connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Disconnect",
           "package": "stompl",
@@ -525,6 +568,7 @@
         "index": {
           "description": "Sent by the application to end the connection",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Disconnect",
           "package": "stompl",
@@ -539,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the broker to report an error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Error",
           "package": "stompl",
@@ -549,6 +594,7 @@
         "index": {
           "description": "Sent by the broker to report an error",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Error",
           "package": "stompl",
@@ -563,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep-alive message sent by both, application and broker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "HeartBeat",
           "package": "stompl",
@@ -573,6 +620,7 @@
         "index": {
           "description": "Keep-alive message sent by both application and broker",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "HeartBeat",
           "package": "stompl",
@@ -587,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the broker to forward a message\n   published in a queue to which\n   the application has subscribed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Message",
           "package": "stompl",
@@ -597,6 +646,7 @@
         "index": {
           "description": "Sent by the broker to forward message published in queue to which the application has subscribed",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Message",
           "package": "stompl",
@@ -611,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the application to negatively acknowledge a message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Nack",
           "package": "stompl",
@@ -621,6 +672,7 @@
         "index": {
           "description": "Sent by the application to negatively acknowledge message",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Nack",
           "package": "stompl",
@@ -635,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the broker to confirm the receipt of a frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Receipt",
           "package": "stompl",
@@ -645,6 +698,7 @@
         "index": {
           "description": "Sent by the broker to confirm the receipt of frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Receipt",
           "package": "stompl",
@@ -659,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the application to publish a message in a queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Send",
           "package": "stompl",
@@ -669,6 +724,7 @@
         "index": {
           "description": "Sent by the application to publish message in queue",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Send",
           "package": "stompl",
@@ -683,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as Connect, but with \u003ca\u003eSTOMP\u003c/a\u003e instead of \u003ca\u003eCONNECT\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Stomp",
           "package": "stompl",
@@ -693,6 +750,7 @@
         "index": {
           "description": "Same as Connect but with STOMP instead of CONNECT",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Stomp",
           "package": "stompl",
@@ -707,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the application to subscribe to a queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Subscribe",
           "package": "stompl",
@@ -717,6 +776,7 @@
         "index": {
           "description": "Sent by the application to subscribe to queue",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Subscribe",
           "package": "stompl",
@@ -731,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent by the application to unsubscribe from a queue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Unsubscribe",
           "package": "stompl",
@@ -741,6 +802,7 @@
         "index": {
           "description": "Sent by the application to unsubscribe from queue",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "Unsubscribe",
           "package": "stompl",
@@ -755,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert \u003ccode\u003e\u003ca\u003eAckMode\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "ackToVal",
           "package": "stompl",
@@ -765,6 +828,7 @@
         "index": {
           "description": "convert AckMode to String",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "ackToVal",
           "normalized": "AckMode-\u003eString",
@@ -781,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert \u003ccode\u003e\u003ca\u003eHeartBeat\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "beatToVal",
           "package": "stompl",
@@ -791,6 +856,7 @@
         "index": {
           "description": "convert HeartBeat to String",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "beatToVal",
           "normalized": "Heart-\u003eString",
@@ -807,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompliance with protocol version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "complies",
           "package": "stompl",
@@ -817,6 +884,7 @@
         "index": {
           "description": "Compliance with protocol version",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "complies",
           "normalized": "Version-\u003eFrame-\u003eBool",
@@ -832,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts a \u003ccode\u003e\u003ca\u003eConnect\u003c/a\u003e\u003c/code\u003e frame into a \u003ccode\u003e\u003ca\u003eConnected\u003c/a\u003e\u003c/code\u003e frame,\n   negotiating heart-beats and version;\n   parameters:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e server desc\n\u003c/li\u003e\u003cli\u003e session id\n\u003c/li\u003e\u003cli\u003e caller's bid for heart-beat \n\u003c/li\u003e\u003cli\u003e caller's supported versions\n\u003c/li\u003e\u003cli\u003e the original \u003ccode\u003e\u003ca\u003eConnect\u003c/a\u003e\u003c/code\u003e frame\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "conToCond",
           "package": "stompl",
@@ -842,6 +911,7 @@
         "index": {
           "description": "converts Connect frame into Connected frame negotiating heart-beats and version parameters server desc session id caller bid for heart-beat caller supported versions the original Connect frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "conToCond",
           "normalized": "String-\u003eString-\u003eHeart-\u003e[Version]-\u003eFrame-\u003eMaybe Frame",
@@ -857,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getAck",
           "package": "stompl",
@@ -866,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getAck",
           "normalized": "[Header]-\u003eEither String AckMode",
@@ -882,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003eack\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eSubscribe\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getAcknow",
           "package": "stompl",
@@ -892,6 +965,7 @@
         "index": {
           "description": "get ack from Subscribe",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getAcknow",
           "normalized": "Frame-\u003eAckMode",
@@ -908,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003eheart-beat\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eConnect\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eConnected\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getBeat",
           "package": "stompl",
@@ -918,6 +993,7 @@
         "index": {
           "description": "get heart-beat from Connect or Connected",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getBeat",
           "normalized": "Frame-\u003eHeart",
@@ -934,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003ebody\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getBody",
           "package": "stompl",
@@ -944,6 +1021,7 @@
         "index": {
           "description": "get body from Send Message Error",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getBody",
           "normalized": "Frame-\u003eByteString",
@@ -960,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003eclient-id\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eConnect\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getCliId",
           "package": "stompl",
@@ -970,6 +1049,7 @@
         "index": {
           "description": "get client-id from Connect",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getCliId",
           "normalized": "Frame-\u003eString",
@@ -986,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003edestination\u003c/em\u003e \n   from \u003ccode\u003e\u003ca\u003eSubscribe\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eUnsubscribe\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getDest",
           "package": "stompl",
@@ -996,6 +1077,7 @@
         "index": {
           "description": "get destination from Subscribe Unsubscribe Send or Message",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getDest",
           "normalized": "Frame-\u003eString",
@@ -1012,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all additional headers from \u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getHeaders",
           "package": "stompl",
@@ -1022,6 +1105,7 @@
         "index": {
           "description": "get all additional headers from Send or Message",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getHeaders",
           "normalized": "Frame-\u003e[Header]",
@@ -1038,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003ehost\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eConnect\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getHost",
           "package": "stompl",
@@ -1048,6 +1133,7 @@
         "index": {
           "description": "get host from Connect",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getHost",
           "normalized": "Frame-\u003eString",
@@ -1064,6 +1150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003eid\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eSubscribe\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eUnsubscribe\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getId",
           "package": "stompl",
@@ -1074,6 +1161,7 @@
         "index": {
           "description": "get id from Subscribe or Unsubscribe",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getId",
           "normalized": "Frame-\u003eString",
@@ -1089,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getLen",
           "package": "stompl",
@@ -1098,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getLen",
           "normalized": "[Header]-\u003eEither String Int",
@@ -1114,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003econtent-length\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getLength",
           "package": "stompl",
@@ -1124,6 +1215,7 @@
         "index": {
           "description": "get content-length from Send Message Error",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getLength",
           "normalized": "Frame-\u003eInt",
@@ -1140,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003elogin\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eConnect\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getLogin",
           "package": "stompl",
@@ -1150,6 +1243,7 @@
         "index": {
           "description": "get login from Connect",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getLogin",
           "normalized": "Frame-\u003eString",
@@ -1166,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003econtent-type\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getMime",
           "package": "stompl",
@@ -1176,6 +1271,7 @@
         "index": {
           "description": "get content-type from Send Message Error",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getMime",
           "normalized": "Frame-\u003eType",
@@ -1192,6 +1288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003emessage\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getMsg",
           "package": "stompl",
@@ -1202,6 +1299,7 @@
         "index": {
           "description": "get message from Error",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getMsg",
           "normalized": "Frame-\u003eString",
@@ -1218,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003eack\u003c/em\u003e or \u003cem\u003emessage-id\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getMsgAck",
           "package": "stompl",
@@ -1228,6 +1327,7 @@
         "index": {
           "description": "get ack or message-id from Message",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getMsgAck",
           "normalized": "Frame-\u003eString",
@@ -1244,6 +1344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003epasscode\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eConnect\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getPasscode",
           "package": "stompl",
@@ -1254,6 +1355,7 @@
         "index": {
           "description": "get passcode from Connect",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getPasscode",
           "normalized": "Frame-\u003eString",
@@ -1270,6 +1372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003ereceipt\u003c/em\u003e or \u003cem\u003ereceipt-id\u003c/em\u003e from any frame, but\n   \u003ccode\u003e\u003ca\u003eConnect\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eConnected\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getReceipt",
           "package": "stompl",
@@ -1280,6 +1383,7 @@
         "index": {
           "description": "get receipt or receipt-id from any frame but Connect Connected Message Error",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getReceipt",
           "normalized": "Frame-\u003eString",
@@ -1296,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003eselector\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eSubscribe\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getSelector",
           "package": "stompl",
@@ -1306,6 +1411,7 @@
         "index": {
           "description": "get selector from Subscribe",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getSelector",
           "normalized": "Frame-\u003eString",
@@ -1322,6 +1428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003eserver\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eConnected\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getServer",
           "package": "stompl",
@@ -1332,6 +1439,7 @@
         "index": {
           "description": "get server from Connected",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getServer",
           "normalized": "Frame-\u003eSrvDesc",
@@ -1348,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003esession\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eConnected\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getSession",
           "package": "stompl",
@@ -1358,6 +1467,7 @@
         "index": {
           "description": "get session from Connected",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getSession",
           "normalized": "Frame-\u003eString",
@@ -1374,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget comments from \u003ccode\u003e\u003ca\u003eSrvDesc\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getSrvCmts",
           "package": "stompl",
@@ -1384,6 +1495,7 @@
         "index": {
           "description": "get comments from SrvDesc",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getSrvCmts",
           "normalized": "SrvDesc-\u003eString",
@@ -1400,6 +1512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget name from \u003ccode\u003e\u003ca\u003eSrvDesc\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getSrvName",
           "package": "stompl",
@@ -1410,6 +1523,7 @@
         "index": {
           "description": "get name from SrvDesc",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getSrvName",
           "normalized": "SrvDesc-\u003eString",
@@ -1426,6 +1540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget version from \u003ccode\u003e\u003ca\u003eSrvDesc\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getSrvVer",
           "package": "stompl",
@@ -1436,6 +1551,7 @@
         "index": {
           "description": "get version from SrvDesc",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getSrvVer",
           "normalized": "SrvDesc-\u003eString",
@@ -1452,6 +1568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003esubscription\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eAck\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eNack\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getSub",
           "package": "stompl",
@@ -1462,6 +1579,7 @@
         "index": {
           "description": "get subscription from Ack Nack or Message",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getSub",
           "normalized": "Frame-\u003eString",
@@ -1478,6 +1596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003etransaction\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eAck\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eNack\u003c/a\u003e\u003c/code\u003e, \n                          \u003ccode\u003e\u003ca\u003eBegin\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCommit\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eAbort\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getTrans",
           "package": "stompl",
@@ -1488,6 +1607,7 @@
         "index": {
           "description": "get transaction from Send Ack Nack Begin Commit or Abort",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getTrans",
           "normalized": "Frame-\u003eString",
@@ -1504,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003eversion\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eConnected\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getVersion",
           "package": "stompl",
@@ -1514,6 +1635,7 @@
         "index": {
           "description": "get version from Connected",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getVersion",
           "normalized": "Frame-\u003eVersion",
@@ -1530,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003cem\u003eaccept-version\u003c/em\u003e from \u003ccode\u003e\u003ca\u003eConnect\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getVersions",
           "package": "stompl",
@@ -1540,6 +1663,7 @@
         "index": {
           "description": "get accept-version from Connect",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "getVersions",
           "normalized": "Frame-\u003e[Version]",
@@ -1556,6 +1680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck if \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e represents a valid \u003ccode\u003e\u003ca\u003eAckMode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "isValidAck",
           "package": "stompl",
@@ -1566,6 +1691,7 @@
         "index": {
           "description": "check if String represents valid AckMode",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "isValidAck",
           "normalized": "String-\u003eBool",
@@ -1582,6 +1708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake an \u003ccode\u003e\u003ca\u003eAbort\u003c/a\u003e\u003c/code\u003e frame (Application -\u003e Broker).\n   The parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Transaction: A unique transaction identifier\n                  defined by the application. \n\u003c/li\u003e\u003cli\u003e Receipt: A receipt (see \u003ccode\u003e\u003ca\u003emkSubscribe\u003c/a\u003e\u003c/code\u003e for details)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e: Additional, broker-specific headers\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkAbort",
           "package": "stompl",
@@ -1592,6 +1719,7 @@
         "index": {
           "description": "make an Abort frame Application Broker The parameters are Transaction unique transaction identifier defined by the application Receipt receipt see mkSubscribe for details Header Additional broker-specific headers",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkAbort",
           "normalized": "String-\u003eString-\u003e[Header]-\u003eFrame",
@@ -1608,6 +1736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eAbort\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkAbrtFrame",
           "package": "stompl",
@@ -1618,6 +1747,7 @@
         "index": {
           "description": "make Abort frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkAbrtFrame",
           "normalized": "[Header]-\u003eEither String Frame",
@@ -1634,6 +1764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003eaccept-version\u003c/em\u003e header (connect frame)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkAcVerHdr",
           "package": "stompl",
@@ -1644,6 +1775,7 @@
         "index": {
           "description": "make accept-version header connect frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkAcVerHdr",
           "normalized": "String-\u003eHeader",
@@ -1660,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake an \u003ccode\u003e\u003ca\u003eAck\u003c/a\u003e\u003c/code\u003e frame (Application -\u003e Broker).\n   The parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Message Id: The identifier of the message to be ack'd\n\u003c/li\u003e\u003cli\u003e Subscription Id: The subscription, through which\n                      the message was received\n\u003c/li\u003e\u003cli\u003e Transaction: Acks may be part of a transaction\n                  (see \u003ccode\u003e\u003ca\u003emkSend\u003c/a\u003e\u003c/code\u003e for details).\n\u003c/li\u003e\u003cli\u003e Receipt: see \u003ccode\u003e\u003ca\u003emkSubscribe\u003c/a\u003e\u003c/code\u003e for details\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkAck",
           "package": "stompl",
@@ -1670,6 +1803,7 @@
         "index": {
           "description": "make an Ack frame Application Broker The parameters are Message Id The identifier of the message to be ack Subscription Id The subscription through which the message was received Transaction Acks may be part of transaction see mkSend for details Receipt see mkSubscribe for details",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkAck",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003e[Header]-\u003eFrame",
@@ -1686,6 +1820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eAck\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkAckFrame",
           "package": "stompl",
@@ -1696,6 +1831,7 @@
         "index": {
           "description": "make Ack frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkAckFrame",
           "normalized": "[Header]-\u003eEither String Frame",
@@ -1712,6 +1848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003eack\u003c/em\u003e header (subscribe frame)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkAckHdr",
           "package": "stompl",
@@ -1722,6 +1859,7 @@
         "index": {
           "description": "make ack header subscribe frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkAckHdr",
           "normalized": "String-\u003eHeader",
@@ -1738,6 +1876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a \u003ccode\u003eHeatBeat\u003c/code\u003e frame (Application -\u003e Broker and\n                            Broker      -\u003e Application)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkBeat",
           "package": "stompl",
@@ -1748,6 +1887,7 @@
         "index": {
           "description": "make HeatBeat frame Application Broker and Broker Application",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkBeat",
           "package": "stompl",
@@ -1762,6 +1902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003eheart-beat\u003c/em\u003e header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkBeatHdr",
           "package": "stompl",
@@ -1772,6 +1913,7 @@
         "index": {
           "description": "make heart-beat header",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkBeatHdr",
           "normalized": "String-\u003eHeader",
@@ -1788,6 +1930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a \u003ccode\u003e\u003ca\u003eBegin\u003c/a\u003e\u003c/code\u003e frame (Application -\u003e Broker).\n   The parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Transaction: A unique transaction identifier\n                  defined by the application. \n\u003c/li\u003e\u003cli\u003e Receipt: A receipt (see \u003ccode\u003e\u003ca\u003emkSubscribe\u003c/a\u003e\u003c/code\u003e for details)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e: Additional, broker-specific headers\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkBegin",
           "package": "stompl",
@@ -1798,6 +1941,7 @@
         "index": {
           "description": "make Begin frame Application Broker The parameters are Transaction unique transaction identifier defined by the application Receipt receipt see mkSubscribe for details Header Additional broker-specific headers",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkBegin",
           "normalized": "String-\u003eString-\u003e[Header]-\u003eFrame",
@@ -1814,6 +1958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eBegin\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkBgnFrame",
           "package": "stompl",
@@ -1824,6 +1969,7 @@
         "index": {
           "description": "make Begin frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkBgnFrame",
           "normalized": "[Header]-\u003eEither String Frame",
@@ -1840,6 +1986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003eclient-id\u003c/em\u003e header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkCliIdHdr",
           "package": "stompl",
@@ -1850,6 +1997,7 @@
         "index": {
           "description": "make client-id header",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkCliIdHdr",
           "normalized": "String-\u003eHeader",
@@ -1866,6 +2014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eCommit\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkCmtFrame",
           "package": "stompl",
@@ -1876,6 +2025,7 @@
         "index": {
           "description": "make Commit frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkCmtFrame",
           "normalized": "[Header]-\u003eEither String Frame",
@@ -1892,6 +2042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a \u003ccode\u003e\u003ca\u003eCommit\u003c/a\u003e\u003c/code\u003e frame (Application -\u003e Broker).\n   The parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eTransaction\u003c/code\u003e: A unique transaction identifier\n                  defined by the application. \n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eReceipt\u003c/a\u003e\u003c/code\u003e: A receipt (see \u003ccode\u003e\u003ca\u003emkSubscribe\u003c/a\u003e\u003c/code\u003e for details)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e: Additional, broker-specific headers\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkCommit",
           "package": "stompl",
@@ -1902,6 +2053,7 @@
         "index": {
           "description": "make Commit frame Application Broker The parameters are Transaction unique transaction identifier defined by the application Receipt receipt see mkSubscribe for details Header Additional broker-specific headers",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkCommit",
           "normalized": "String-\u003eString-\u003e[Header]-\u003eFrame",
@@ -1918,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eConnect\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkConFrame",
           "package": "stompl",
@@ -1928,6 +2081,7 @@
         "index": {
           "description": "make Connect frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkConFrame",
           "normalized": "[Header]-\u003eEither String Frame",
@@ -1944,6 +2098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eConnected\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkCondFrame",
           "package": "stompl",
@@ -1954,6 +2109,7 @@
         "index": {
           "description": "make Connected frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkCondFrame",
           "normalized": "[Header]-\u003eEither String Frame",
@@ -1970,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a \u003ccode\u003e\u003ca\u003eConnect\u003c/a\u003e\u003c/code\u003e frame (Application -\u003e Broker).\n   The parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e User: user to authenticate at the broker.\n\u003c/li\u003e\u003cli\u003e Passcode: password to authenticate at the broker.\n\u003c/li\u003e\u003cli\u003e Host: broker's virtual hoast (\u003cem\u003ee.g.\u003c/em\u003e \n           stomp.broker.github.org).\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHeartBeat\u003c/a\u003e\u003c/code\u003e: the clients bid in negotiating\n                  the heart-beat.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eVersion\u003c/a\u003e\u003c/code\u003e: the versions supported by the client.\n\u003c/li\u003e\u003cli\u003e ClientId: Client identification for persistent connections.\n                 Note that the client id is not a standard Stomp feature,\n                 but specific to ActiveMQ and other brokers.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e: List of additional, broker-specific headers\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkConnect",
           "package": "stompl",
@@ -1980,6 +2137,7 @@
         "index": {
           "description": "make Connect frame Application Broker The parameters are User user to authenticate at the broker Passcode password to authenticate at the broker Host broker virtual hoast e.g stomp.broker.github.org HeartBeat the clients bid in negotiating the heart-beat Version the versions supported by the client ClientId Client identification for persistent connections Note that the client id is not standard Stomp feature but specific to ActiveMQ and other brokers Header List of additional broker-specific headers",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkConnect",
           "normalized": "String-\u003eString-\u003eString-\u003eHeart-\u003e[Version]-\u003eString-\u003e[Header]-\u003eFrame",
@@ -1996,6 +2154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a \u003ccode\u003e\u003ca\u003eConnect\u003c/a\u003e\u003c/code\u003e frame (Broker -\u003e Application).\n   The parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Session: A unique identifier created by the broker\n              and identifying the session\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHeartBeat\u003c/a\u003e\u003c/code\u003e: The heart-beat agreed by the broker\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eVersion\u003c/a\u003e\u003c/code\u003e: The version accepted by the broker\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eSrvDesc\u003c/a\u003e\u003c/code\u003e: The server description\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e: List of additional, broker-specific headers.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkConnected",
           "package": "stompl",
@@ -2006,6 +2165,7 @@
         "index": {
           "description": "make Connect frame Broker Application The parameters are Session unique identifier created by the broker and identifying the session HeartBeat The heart-beat agreed by the broker Version The version accepted by the broker SrvDesc The server description Header List of additional broker-specific headers",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkConnected",
           "normalized": "String-\u003eHeart-\u003eVersion-\u003eSrvDesc-\u003e[Header]-\u003eFrame",
@@ -2022,6 +2182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003edestination\u003c/em\u003e header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkDestHdr",
           "package": "stompl",
@@ -2032,6 +2193,7 @@
         "index": {
           "description": "make destination header",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkDestHdr",
           "normalized": "String-\u003eHeader",
@@ -2048,6 +2210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eDisconnect\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkDisFrame",
           "package": "stompl",
@@ -2058,6 +2221,7 @@
         "index": {
           "description": "make Disconnect frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkDisFrame",
           "normalized": "[Header]-\u003eEither String Frame",
@@ -2074,6 +2238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a \u003ccode\u003e\u003ca\u003eDisconnect\u003c/a\u003e\u003c/code\u003e frame (Application -\u003e Broker).\n   The parameter is:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Receipt: see \u003ccode\u003e\u003ca\u003emkSubscribe\u003c/a\u003e\u003c/code\u003e for details\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkDisconnect",
           "package": "stompl",
@@ -2084,6 +2249,7 @@
         "index": {
           "description": "make Disconnect frame Application Broker The parameter is Receipt see mkSubscribe for details",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkDisconnect",
           "normalized": "String-\u003e[Header]-\u003eFrame",
@@ -2100,6 +2266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a \u003ccode\u003e\u003ca\u003eReceipt\u003c/a\u003e\u003c/code\u003e frame (Broker -\u003e Application).\n   The parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Error Message Id: A short error description\n\u003c/li\u003e\u003cli\u003e Receipt Id: The receipt of frame sent by the application\n                 to which this error relates\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e: The format of the error message as MIME Type\n\u003c/li\u003e\u003cli\u003e Length: The length of the error message\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e: List of additional, broker-specific headers\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eBody\u003c/a\u003e\u003c/code\u003e: The error message\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkErr",
           "package": "stompl",
@@ -2110,6 +2277,7 @@
         "index": {
           "description": "make Receipt frame Broker Application The parameters are Error Message Id short error description Receipt Id The receipt of frame sent by the application to which this error relates Type The format of the error message as MIME Type Length The length of the error message Header List of additional broker-specific headers Body The error message",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkErr",
           "normalized": "String-\u003eString-\u003eType-\u003eInt-\u003e[Header]-\u003eBody-\u003eFrame",
@@ -2126,6 +2294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkErrFrame",
           "package": "stompl",
@@ -2136,6 +2305,7 @@
         "index": {
           "description": "make Error frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkErrFrame",
           "normalized": "[Header]-\u003eInt-\u003eBody-\u003eEither String Frame",
@@ -2152,6 +2322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003ehost\u003c/em\u003e header (connect frame)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkHostHdr",
           "package": "stompl",
@@ -2162,6 +2333,7 @@
         "index": {
           "description": "make host header connect frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkHostHdr",
           "normalized": "String-\u003eHeader",
@@ -2178,6 +2350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003eid\u003c/em\u003e header (subscribe frame)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkIdHdr",
           "package": "stompl",
@@ -2188,6 +2361,7 @@
         "index": {
           "description": "make id header subscribe frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkIdHdr",
           "normalized": "String-\u003eHeader",
@@ -2204,6 +2378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003econtent-length\u003c/em\u003e header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkLenHdr",
           "package": "stompl",
@@ -2214,6 +2389,7 @@
         "index": {
           "description": "make content-length header",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkLenHdr",
           "normalized": "String-\u003eHeader",
@@ -2230,6 +2406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003elogin\u003c/em\u003e header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkLogHdr",
           "package": "stompl",
@@ -2240,6 +2417,7 @@
         "index": {
           "description": "make login header",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkLogHdr",
           "normalized": "String-\u003eHeader",
@@ -2256,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003emessage-id\u003c/em\u003e header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkMIdHdr",
           "package": "stompl",
@@ -2266,6 +2445,7 @@
         "index": {
           "description": "make message-id header",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkMIdHdr",
           "normalized": "String-\u003eHeader",
@@ -2282,6 +2462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e frame (Broker -\u003e Application).\n   The parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Subscription Id: The message was sent\n                      because the application subscribed to the queue\n                      with this subscription id (see \u003ccode\u003e\u003ca\u003emkSubscribe\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003cli\u003e Destination: The name of the queue, in wich the message was published.\n\u003c/li\u003e\u003cli\u003e Message Id: A unique message identifier, defined by the broker\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e: The type of the playload as MIME Type\n\u003c/li\u003e\u003cli\u003e Length: The length of the payload in bytes\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e: A list of user-defined headers (see \u003ccode\u003e\u003ca\u003emkSend\u003c/a\u003e\u003c/code\u003e for details)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eBody\u003c/a\u003e\u003c/code\u003e: The payload\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkMessage",
           "package": "stompl",
@@ -2292,6 +2473,7 @@
         "index": {
           "description": "make Message frame Broker Application The parameters are Subscription Id The message was sent because the application subscribed to the queue with this subscription id see mkSubscribe Destination The name of the queue in wich the message was published Message Id unique message identifier defined by the broker Type The type of the playload as MIME Type Length The length of the payload in bytes Header list of user-defined headers see mkSend for details Body The payload",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkMessage",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eType-\u003eInt-\u003e[Header]-\u003eBody-\u003eFrame",
@@ -2308,6 +2490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003econtent-type\u003c/em\u003e header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkMimeHdr",
           "package": "stompl",
@@ -2318,6 +2501,7 @@
         "index": {
           "description": "make content-type header",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkMimeHdr",
           "normalized": "String-\u003eHeader",
@@ -2334,6 +2518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkMsgFrame",
           "package": "stompl",
@@ -2344,6 +2529,7 @@
         "index": {
           "description": "make Message frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkMsgFrame",
           "normalized": "[Header]-\u003eInt-\u003eBody-\u003eEither String Frame",
@@ -2360,6 +2546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003emessage\u003c/em\u003e header (error frame)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkMsgHdr",
           "package": "stompl",
@@ -2370,6 +2557,7 @@
         "index": {
           "description": "make message header error frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkMsgHdr",
           "normalized": "String-\u003eHeader",
@@ -2386,6 +2574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a \u003ccode\u003e\u003ca\u003eNack\u003c/a\u003e\u003c/code\u003e frame (Application -\u003e Broker).\n   The parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Message Id: The identifier of the message to be nack'd\n\u003c/li\u003e\u003cli\u003e Subscription Id: The subscription, through which\n                      the message was received\n\u003c/li\u003e\u003cli\u003e Transaction: Nacks may be part of a transaction\n                  (see \u003ccode\u003e\u003ca\u003emkSend\u003c/a\u003e\u003c/code\u003e for details).\n\u003c/li\u003e\u003cli\u003e Receipt: see \u003ccode\u003e\u003ca\u003emkSubscribe\u003c/a\u003e\u003c/code\u003e for details\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkNack",
           "package": "stompl",
@@ -2396,6 +2585,7 @@
         "index": {
           "description": "make Nack frame Application Broker The parameters are Message Id The identifier of the message to be nack Subscription Id The subscription through which the message was received Transaction Nacks may be part of transaction see mkSend for details Receipt see mkSubscribe for details",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkNack",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003e[Header]-\u003eFrame",
@@ -2412,6 +2602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eNack\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkNackFrame",
           "package": "stompl",
@@ -2422,6 +2613,7 @@
         "index": {
           "description": "make Nack frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkNackFrame",
           "normalized": "[Header]-\u003eEither String Frame",
@@ -2438,6 +2630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003epasscode\u003c/em\u003e header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkPassHdr",
           "package": "stompl",
@@ -2448,6 +2641,7 @@
         "index": {
           "description": "make passcode header",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkPassHdr",
           "normalized": "String-\u003eHeader",
@@ -2464,6 +2658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eReceipt\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkRecFrame",
           "package": "stompl",
@@ -2474,6 +2669,7 @@
         "index": {
           "description": "make Receipt frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkRecFrame",
           "normalized": "[Header]-\u003eEither String Frame",
@@ -2490,6 +2686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003ereceipt\u003c/em\u003e header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkRecHdr",
           "package": "stompl",
@@ -2500,6 +2697,7 @@
         "index": {
           "description": "make receipt header",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkRecHdr",
           "normalized": "String-\u003eHeader",
@@ -2516,6 +2714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a \u003ccode\u003e\u003ca\u003eReceipt\u003c/a\u003e\u003c/code\u003e frame (Broker -\u003e Application).\n   The parameter is:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Receipt: The receipt identifier received from the application\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e: List of additional, broker-specific headers\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkReceipt",
           "package": "stompl",
@@ -2526,6 +2725,7 @@
         "index": {
           "description": "make Receipt frame Broker Application The parameter is Receipt The receipt identifier received from the application Header List of additional broker-specific headers",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkReceipt",
           "normalized": "String-\u003e[Header]-\u003eFrame",
@@ -2542,6 +2742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003eselector\u003c/em\u003e header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSelHdr",
           "package": "stompl",
@@ -2552,6 +2753,7 @@
         "index": {
           "description": "make selector header",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSelHdr",
           "normalized": "String-\u003eHeader",
@@ -2568,6 +2770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a \u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e frame (Application -\u003e Broker).\n   The parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Destination: The name of the queue \n                  where the message should be published\n\u003c/li\u003e\u003cli\u003e Transaction: A unique identifier indicating\n                  a running transaction;\n                  if sent with a transaction,\n                  the message will not be delivered\n                  to subscribing applications,\n                  before the transaction is committed.\n                  If the \u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e is not part of a transaction,\n                  the string shall be empty.\n\u003c/li\u003e\u003cli\u003e Receipt: A receipt (see \u003ccode\u003e\u003ca\u003emkSubscribe\u003c/a\u003e\u003c/code\u003e for details)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e: The content type of the payload message\n                  as MIME Type\n\u003c/li\u003e\u003cli\u003e Length: The length of the type in bytes\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e: List of additional headers;\n               Stomp protocol requires that user-specified\n               headers are passed through to subscribing applications.\n               These headers may, for instance, be use\n               by selectors to select messages. \n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eBody\u003c/a\u003e\u003c/code\u003e: The payload message\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSend",
           "package": "stompl",
@@ -2578,6 +2781,7 @@
         "index": {
           "description": "make Send frame Application Broker The parameters are Destination The name of the queue where the message should be published Transaction unique identifier indicating running transaction if sent with transaction the message will not be delivered to subscribing applications before the transaction is committed If the Send is not part of transaction the string shall be empty Receipt receipt see mkSubscribe for details Type The content type of the payload message as MIME Type Length The length of the type in bytes Header List of additional headers Stomp protocol requires that user-specified headers are passed through to subscribing applications These headers may for instance be use by selectors to select messages Body The payload message",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSend",
           "normalized": "String-\u003eString-\u003eString-\u003eType-\u003eInt-\u003e[Header]-\u003eBody-\u003eFrame",
@@ -2594,6 +2798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003esession\u003c/em\u003e header (connected frame)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSesHdr",
           "package": "stompl",
@@ -2604,6 +2809,7 @@
         "index": {
           "description": "make session header connected frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSesHdr",
           "normalized": "String-\u003eHeader",
@@ -2620,6 +2826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSndFrame",
           "package": "stompl",
@@ -2630,6 +2837,7 @@
         "index": {
           "description": "make Send frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSndFrame",
           "normalized": "[Header]-\u003eInt-\u003eBody-\u003eEither String Frame",
@@ -2646,6 +2854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003eserver\u003c/em\u003e header (connected frame)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSrvHdr",
           "package": "stompl",
@@ -2656,6 +2865,7 @@
         "index": {
           "description": "make server header connected frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSrvHdr",
           "normalized": "String-\u003eHeader",
@@ -2672,6 +2882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eStomp\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkStmpFrame",
           "package": "stompl",
@@ -2682,6 +2893,7 @@
         "index": {
           "description": "make Stomp frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkStmpFrame",
           "normalized": "[Header]-\u003eEither String Frame",
@@ -2698,6 +2910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003emkConnect\u003c/a\u003e\u003c/code\u003e, but the result is a \"STOMP\" frame\n   rather than a \"CONNECT\" frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkStomp",
           "package": "stompl",
@@ -2708,6 +2921,7 @@
         "index": {
           "description": "Same as mkConnect but the result is STOMP frame rather than CONNECT frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkStomp",
           "normalized": "String-\u003eString-\u003eString-\u003eHeart-\u003e[Version]-\u003eString-\u003e[Header]-\u003eFrame",
@@ -2724,6 +2938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eSubscribe\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSubFrame",
           "package": "stompl",
@@ -2734,6 +2949,7 @@
         "index": {
           "description": "make Subscribe frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSubFrame",
           "normalized": "[Header]-\u003eEither String Frame",
@@ -2750,6 +2966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003esubscription\u003c/em\u003e header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSubHdr",
           "package": "stompl",
@@ -2760,6 +2977,7 @@
         "index": {
           "description": "make subscription header",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSubHdr",
           "normalized": "String-\u003eHeader",
@@ -2776,6 +2994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a \u003ccode\u003e\u003ca\u003eSubscribe\u003c/a\u003e\u003c/code\u003e frame (Application -\u003e Broker).\n   The parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Destination: The name of the queue as it is known by the broker\n                  and other applications using the queue\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eAckMode\u003c/a\u003e\u003c/code\u003e: The Acknowledge Mode for this subscription\n\u003c/li\u003e\u003cli\u003e Selector: An expression defining those messages\n               that are of actual for client.\n               The Stomp protocol does not define\n               a language for selectors;\n               it is even not entirely clear,\n               where messages are selected:\n               already at the broker, or only by the client.\n               Some brokers provide pre-selection of messages, \n               others do not.  \n\u003c/li\u003e\u003cli\u003e Subscription Id: A unique identifier distinguishing this \n                      subscription from others to the same queue.\n                      The identifier is defined by the application.\n\u003c/li\u003e\u003cli\u003e Receipt: A unique identifier defined by the application\n              to request confirmation of receipt of this frame.\n              If no receipt is wanted, the string shall be empty.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e: List of additional, broker-specific headers.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSubscribe",
           "package": "stompl",
@@ -2786,6 +3005,7 @@
         "index": {
           "description": "make Subscribe frame Application Broker The parameters are Destination The name of the queue as it is known by the broker and other applications using the queue AckMode The Acknowledge Mode for this subscription Selector An expression defining those messages that are of actual for client The Stomp protocol does not define language for selectors it is even not entirely clear where messages are selected already at the broker or only by the client Some brokers provide pre-selection of messages others do not Subscription Id unique identifier distinguishing this subscription from others to the same queue The identifier is defined by the application Receipt unique identifier defined by the application to request confirmation of receipt of this frame If no receipt is wanted the string shall be empty Header List of additional broker-specific headers",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkSubscribe",
           "normalized": "String-\u003eAckMode-\u003eString-\u003eString-\u003eString-\u003e[Header]-\u003eFrame",
@@ -2802,6 +3022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003etransaction\u003c/em\u003e header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkTrnHdr",
           "package": "stompl",
@@ -2812,6 +3033,7 @@
         "index": {
           "description": "make transaction header",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkTrnHdr",
           "normalized": "String-\u003eHeader",
@@ -2828,6 +3050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003ccode\u003e\u003ca\u003eUnsubscribe\u003c/a\u003e\u003c/code\u003e frame\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkUSubFrame",
           "package": "stompl",
@@ -2838,6 +3061,7 @@
         "index": {
           "description": "make Unsubscribe frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkUSubFrame",
           "normalized": "[Header]-\u003eEither String Frame",
@@ -2854,6 +3078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake an \u003ccode\u003e\u003ca\u003eUnsubscribe\u003c/a\u003e\u003c/code\u003e frame (Application -\u003e Broker).\n   The parameters are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Destination: The queue name; either a destination or a \n                  subscription id must be given. \n                  (According to protocol version 1.1,\n                   the subscription id is mandatory on\n                   both, \u003ccode\u003e\u003ca\u003eSubscribe\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eUnsubscribe\u003c/a\u003e\u003c/code\u003e.)\n\u003c/li\u003e\u003cli\u003e Subscription Id: The subscription identifier (see \u003ccode\u003e\u003ca\u003emkSubscribe\u003c/a\u003e\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e Receipt: The receipt (see \u003ccode\u003e\u003ca\u003emkSubscribe\u003c/a\u003e\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e: Additional, broker-specific headers\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkUnsubscribe",
           "package": "stompl",
@@ -2864,6 +3089,7 @@
         "index": {
           "description": "make an Unsubscribe frame Application Broker The parameters are Destination The queue name either destination or subscription id must be given According to protocol version the subscription id is mandatory on both Subscribe and Unsubscribe Subscription Id The subscription identifier see mkSubscribe Receipt The receipt see mkSubscribe Header Additional broker-specific headers",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkUnsubscribe",
           "normalized": "String-\u003eString-\u003eString-\u003e[Header]-\u003eFrame",
@@ -2880,6 +3106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake \u003cem\u003eversion\u003c/em\u003e header (connected frame)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkVerHdr",
           "package": "stompl",
@@ -2890,6 +3117,7 @@
         "index": {
           "description": "make version header connected frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "mkVerHdr",
           "normalized": "String-\u003eHeader",
@@ -2906,6 +3134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enegotiates heart-beat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "negoBeat",
           "package": "stompl",
@@ -2916,6 +3145,7 @@
         "index": {
           "description": "negotiates heart-beat",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "negoBeat",
           "normalized": "Heart-\u003eHeart-\u003eHeart",
@@ -2932,6 +3162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enegotiates version - \n   if no common version is found,\n   the function results in version 1.0!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "negoVersion",
           "package": "stompl",
@@ -2942,6 +3173,7 @@
         "index": {
           "description": "negotiates version if no common version is found the function results in version",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "negoVersion",
           "normalized": "[Version]-\u003e[Version]-\u003eVersion",
@@ -2957,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "numeric",
           "package": "stompl",
@@ -2966,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "numeric",
           "normalized": "String-\u003eBool",
@@ -2981,6 +3215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts the \u003ccode\u003e\u003ca\u003eFrameType\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "putCommand",
           "package": "stompl",
@@ -2991,6 +3226,7 @@
         "index": {
           "description": "converts the FrameType into ByteString",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "putCommand",
           "normalized": "Frame-\u003eByteString",
@@ -3007,6 +3243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts a \u003ccode\u003e\u003ca\u003eFrame\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "putFrame",
           "package": "stompl",
@@ -3017,6 +3254,7 @@
         "index": {
           "description": "converts Frame into ByteString",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "putFrame",
           "normalized": "Frame-\u003eByteString",
@@ -3033,6 +3271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets the transaction header to an empty string;\n   this is a useful function for brokers:\n   when a transaction has been committed,\n   the \u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e messages can be handled by the same function\n   without, accidentally, iterating into a new transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "resetTrans",
           "package": "stompl",
@@ -3043,6 +3282,7 @@
         "index": {
           "description": "sets the transaction header to an empty string this is useful function for brokers when transaction has been committed the Send messages can be handled by the same function without accidentally iterating into new transaction",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "resetTrans",
           "normalized": "Frame-\u003eFrame",
@@ -3059,6 +3299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove header (\u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e) from list of \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "rmHdr",
           "package": "stompl",
@@ -3069,6 +3310,7 @@
         "index": {
           "description": "remove header String from list of Header",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "rmHdr",
           "normalized": "[Header]-\u003eString-\u003e[Header]",
@@ -3085,6 +3327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove headers (list of \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e) from list of \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "rmHdrs",
           "package": "stompl",
@@ -3095,6 +3338,7 @@
         "index": {
           "description": "remove headers list of String from list of Header",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "rmHdrs",
           "normalized": "[Header]-\u003e[String]-\u003e[Header]",
@@ -3111,6 +3355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts a \u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e frame into a \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e frame;\n   parameters:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e message id\n\u003c/li\u003e\u003cli\u003e subscription id\n\u003c/li\u003e\u003cli\u003e The original \u003ccode\u003e\u003ca\u003eSend\u003c/a\u003e\u003c/code\u003e frame\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "sndToMsg",
           "package": "stompl",
@@ -3121,6 +3366,7 @@
         "index": {
           "description": "converts Send frame into Message frame parameters message id subscription id The original Send frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "sndToMsg",
           "normalized": "String-\u003eString-\u003eString-\u003eFrame-\u003eMaybe Frame",
@@ -3137,6 +3383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert \u003ccode\u003e\u003ca\u003eSrvDesc\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "srvToStr",
           "package": "stompl",
@@ -3147,6 +3394,7 @@
         "index": {
           "description": "convert SrvDesc to String",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "srvToStr",
           "normalized": "SrvDesc-\u003eString",
@@ -3163,6 +3411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eSrvDesc\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "strToSrv",
           "package": "stompl",
@@ -3173,6 +3422,7 @@
         "index": {
           "description": "convert String to SrvDesc",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "strToSrv",
           "normalized": "String-\u003eSrvDesc",
@@ -3189,6 +3439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts a \u003ccode\u003e\u003ca\u003eFrame\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "toString",
           "package": "stompl",
@@ -3199,6 +3450,7 @@
         "index": {
           "description": "converts Frame into String",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "toString",
           "normalized": "Frame-\u003eString",
@@ -3215,6 +3467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egets the \u003ccode\u003e\u003ca\u003eFrameType\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eFrame\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "typeOf",
           "package": "stompl",
@@ -3225,6 +3478,7 @@
         "index": {
           "description": "gets the FrameType of Frame",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "typeOf",
           "normalized": "Frame-\u003eFrameType",
@@ -3240,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "upString",
           "package": "stompl",
@@ -3249,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "upString",
           "normalized": "String-\u003eString",
@@ -3265,6 +3521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eAckMode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "valToAck",
           "package": "stompl",
@@ -3275,6 +3532,7 @@
         "index": {
           "description": "convert String to AckMode",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "valToAck",
           "normalized": "String-\u003eMaybe AckMode",
@@ -3291,6 +3549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eHeartBeat\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "valToBeat",
           "package": "stompl",
@@ -3301,6 +3560,7 @@
         "index": {
           "description": "convert String to HeartBeat",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "valToBeat",
           "normalized": "String-\u003eMaybe Heart",
@@ -3317,6 +3577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eVersion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "valToVer",
           "package": "stompl",
@@ -3327,6 +3588,7 @@
         "index": {
           "description": "convert String to Version",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "valToVer",
           "normalized": "String-\u003eMaybe Version",
@@ -3343,6 +3605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to list of \u003ccode\u003e\u003ca\u003eVersion\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "valToVers",
           "package": "stompl",
@@ -3353,6 +3616,7 @@
         "index": {
           "description": "convert String to list of Version",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "valToVers",
           "normalized": "String-\u003eMaybe[Version]",
@@ -3369,6 +3633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert \u003ccode\u003e\u003ca\u003eVersion\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "verToVal",
           "package": "stompl",
@@ -3379,6 +3644,7 @@
         "index": {
           "description": "convert Version to String",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "verToVal",
           "normalized": "Version-\u003eString",
@@ -3395,6 +3661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert list of \u003ccode\u003e\u003ca\u003eVersion\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Frame",
           "name": "versToVal",
           "package": "stompl",
@@ -3405,6 +3672,7 @@
         "index": {
           "description": "convert list of Version to String",
           "hierarchy": "Network Mom Stompl Frame",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Frame",
           "name": "versToVal",
           "normalized": "[Version]-\u003eString",
@@ -3421,6 +3689,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStomp Parser based on Attoparsec\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Parser",
           "name": "Parser",
           "package": "stompl",
@@ -3430,6 +3699,7 @@
         "index": {
           "description": "Stomp Parser based on Attoparsec",
           "hierarchy": "Network Mom Stompl Parser",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Parser",
           "name": "Parser",
           "package": "stompl",
@@ -3444,6 +3714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a ByteString at once with Attoparsec \u003ccode\u003e\u003ca\u003eparseOnly\u003c/a\u003e\u003c/code\u003e.\n   May fail or conclude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Parser",
           "name": "stompAtOnce",
           "package": "stompl",
@@ -3454,6 +3725,7 @@
         "index": {
           "description": "Parses ByteString at once with Attoparsec parseOnly May fail or conclude",
           "hierarchy": "Network Mom Stompl Parser",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Parser",
           "name": "stompAtOnce",
           "normalized": "ByteString-\u003eEither String Frame",
@@ -3470,6 +3742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Stomp Parser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:11:32 UTC 2014",
           "module": "Network.Mom.Stompl.Parser",
           "name": "stompParser",
           "package": "stompl",
@@ -3480,6 +3753,7 @@
         "index": {
           "description": "The Stomp Parser",
           "hierarchy": "Network Mom Stompl Parser",
+          "indexed": "2014-03-11T20:11:32",
           "module": "Network.Mom.Stompl.Parser",
           "name": "stompParser",
           "package": "stompl",

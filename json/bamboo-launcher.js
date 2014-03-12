@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bamboo-launcher"
+        "phrase": "bamboo-launcher",
+        "type": "phrase"
       },
       "type": "context"
     }

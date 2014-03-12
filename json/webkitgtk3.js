@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "webkitgtk3"
+        "phrase": "webkitgtk3",
+        "type": "phrase"
       },
       "type": "context"
     }

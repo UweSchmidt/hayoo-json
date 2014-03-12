@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ZMachine"
+        "phrase": "ZMachine",
+        "type": "phrase"
       },
       "type": "context"
     }

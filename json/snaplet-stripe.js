@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-stripe"
+        "phrase": "snaplet-stripe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "Stripe",
           "package": "snaplet-stripe",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "Stripe",
           "package": "snaplet-stripe",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "HasStripe",
           "package": "snaplet-stripe",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "HasStripe",
           "package": "snaplet-stripe",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "StripeState",
           "package": "snaplet-stripe",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "StripeState",
           "package": "snaplet-stripe",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "StripeState",
           "package": "snaplet-stripe",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "StripeState",
           "package": "snaplet-stripe",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "addCardByCustId",
           "package": "snaplet-stripe",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "addCardByCustId",
           "normalized": "CustomerId-\u003eTokenId-\u003ea(Either StripeFailure Customer)",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "addCustomer",
           "package": "snaplet-stripe",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "addCustomer",
           "normalized": "Email-\u003ea(Either StripeFailure Customer)",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "addCustomerWithCard",
           "package": "snaplet-stripe",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "addCustomerWithCard",
           "normalized": "Email-\u003eTokenId-\u003ea(Either StripeFailure Customer)",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "addStripeSplices",
           "package": "snaplet-stripe",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "addStripeSplices",
           "normalized": "Snaplet(Heist a)-\u003eSnapletLens a StripeState-\u003eInitializer a b()",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "charge",
           "package": "snaplet-stripe",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "charge",
           "normalized": "ChargeId-\u003ea(Either StripeFailure Charge)",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "chargeConnectCustomer",
           "package": "snaplet-stripe",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "chargeConnectCustomer",
           "normalized": "CustomerId-\u003eAmount-\u003eCurrency-\u003eMaybe Description-\u003eAccessToken-\u003eMaybe Amount-\u003ea(Either StripeFailure Charge)",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "chargeCustomer",
           "package": "snaplet-stripe",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "chargeCustomer",
           "normalized": "CustomerId-\u003eAmount-\u003eCurrency-\u003eMaybe Description-\u003ea(Either StripeFailure Charge)",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "connectCharge",
           "package": "snaplet-stripe",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "connectCharge",
           "normalized": "AccessToken-\u003eChargeId-\u003ea(Either StripeFailure Charge)",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "customer",
           "package": "snaplet-stripe",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "customer",
           "normalized": "CustomerId-\u003ea(Either StripeFailure Customer)",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "fromAmount",
           "package": "snaplet-stripe",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "fromAmount",
           "normalized": "Amount-\u003eFloat",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "getAuthURL",
           "package": "snaplet-stripe",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "getAuthURL",
           "normalized": "Maybe Scope-\u003eMaybe Text-\u003eMaybe Landing-\u003ea URL",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "getStripeState",
           "package": "snaplet-stripe",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "getStripeState",
           "package": "snaplet-stripe",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "initStripe",
           "package": "snaplet-stripe",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "initStripe",
           "package": "snaplet-stripe",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "stripeConfig",
           "package": "snaplet-stripe",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "stripeConfig",
           "package": "snaplet-stripe",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "stripeConnectClientId",
           "package": "snaplet-stripe",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "stripeConnectClientId",
           "package": "snaplet-stripe",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "stripePublicKey",
           "package": "snaplet-stripe",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "stripePublicKey",
           "package": "snaplet-stripe",
@@ -475,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:22 UTC 2014",
           "module": "Snap.Snaplet.Stripe",
           "name": "toAmount",
           "package": "snaplet-stripe",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Stripe",
+          "indexed": "2014-03-11T20:06:22",
           "module": "Snap.Snaplet.Stripe",
           "name": "toAmount",
           "normalized": "Float-\u003eAmount",

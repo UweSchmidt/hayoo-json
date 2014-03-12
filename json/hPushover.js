@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hPushover"
+        "phrase": "hPushover",
+        "type": "phrase"
       },
       "type": "context"
     }

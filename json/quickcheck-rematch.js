@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "quickcheck-rematch"
+        "phrase": "quickcheck-rematch",
+        "type": "phrase"
       },
       "type": "context"
     }

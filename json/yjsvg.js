@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yjsvg"
+        "phrase": "yjsvg",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "YJSVG",
           "package": "yjsvg",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "YJSVG",
           "package": "yjsvg",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Color",
           "package": "yjsvg",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Color",
           "package": "yjsvg",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Font",
           "package": "yjsvg",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Font",
           "package": "yjsvg",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "FontWeight",
           "package": "yjsvg",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "FontWeight",
           "package": "yjsvg",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Position",
           "package": "yjsvg",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Position",
           "package": "yjsvg",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "SVG",
           "package": "yjsvg",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "SVG",
           "package": "yjsvg",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Transform",
           "package": "yjsvg",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Transform",
           "package": "yjsvg",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Bold",
           "package": "yjsvg",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Bold",
           "package": "yjsvg",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Center",
           "package": "yjsvg",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Center",
           "package": "yjsvg",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Circle",
           "package": "yjsvg",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Circle",
           "package": "yjsvg",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "ColorName",
           "package": "yjsvg",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "ColorName",
           "package": "yjsvg",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Fill",
           "package": "yjsvg",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Fill",
           "package": "yjsvg",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Font",
           "package": "yjsvg",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Font",
           "package": "yjsvg",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Group",
           "package": "yjsvg",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Group",
           "normalized": "Group[Transform][SVG]",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Image",
           "package": "yjsvg",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Image",
           "package": "yjsvg",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Line",
           "package": "yjsvg",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Line",
           "package": "yjsvg",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Matrix",
           "package": "yjsvg",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Matrix",
           "package": "yjsvg",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Normal",
           "package": "yjsvg",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Normal",
           "package": "yjsvg",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Polyline",
           "package": "yjsvg",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Polyline",
           "normalized": "Polyline[Position]Color Color Double",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "RGB",
           "package": "yjsvg",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "RGB",
           "package": "yjsvg",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Rect",
           "package": "yjsvg",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Rect",
           "package": "yjsvg",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Rotate",
           "package": "yjsvg",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Rotate",
           "normalized": "Rotate Double(Maybe(Double,Double))",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Scale",
           "package": "yjsvg",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Scale",
           "package": "yjsvg",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "SkewX",
           "package": "yjsvg",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "SkewX",
           "package": "yjsvg",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "SkewY",
           "package": "yjsvg",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "SkewY",
           "package": "yjsvg",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Text",
           "package": "yjsvg",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Text",
           "package": "yjsvg",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "TopLeft",
           "package": "yjsvg",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "TopLeft",
           "package": "yjsvg",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "Translate",
           "package": "yjsvg",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "Translate",
           "package": "yjsvg",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "center",
           "package": "yjsvg",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "center",
           "normalized": "Double-\u003eDouble-\u003ePosition-\u003ePosition",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "colorBlue",
           "package": "yjsvg",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "colorBlue",
           "package": "yjsvg",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "colorGreen",
           "package": "yjsvg",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "colorGreen",
           "package": "yjsvg",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "colorName",
           "package": "yjsvg",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "colorName",
           "package": "yjsvg",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "colorRed",
           "package": "yjsvg",
@@ -731,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "colorRed",
           "package": "yjsvg",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "fontName",
           "package": "yjsvg",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "fontName",
           "package": "yjsvg",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "fontWeight",
           "package": "yjsvg",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "fontWeight",
           "package": "yjsvg",
@@ -788,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "posX",
           "package": "yjsvg",
@@ -797,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "posX",
           "package": "yjsvg",
@@ -809,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "posY",
           "package": "yjsvg",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "posY",
           "package": "yjsvg",
@@ -830,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "showSVG",
           "package": "yjsvg",
@@ -839,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "showSVG",
           "normalized": "Double-\u003eDouble-\u003e[SVG]-\u003eString",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "topleft",
           "package": "yjsvg",
@@ -863,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "topleft",
           "normalized": "Double-\u003eDouble-\u003ePosition-\u003ePosition",
@@ -877,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:22 UTC 2014",
           "module": "Text.XML.YJSVG",
           "name": "yjsvgVersion",
           "package": "yjsvg",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Text XML YJSVG",
+          "indexed": "2014-03-11T20:47:22",
           "module": "Text.XML.YJSVG",
           "name": "yjsvgVersion",
           "normalized": "(Int,String)",

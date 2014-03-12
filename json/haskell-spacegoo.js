@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-spacegoo"
+        "phrase": "haskell-spacegoo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides you with everything to quicky write clients for the\n GPN13 Spacegoo programming contest. Essentially you write a function of type\n \u003ccode\u003e\u003ca\u003eStrategy\u003c/a\u003e\u003c/code\u003e that takes the \u003ccode\u003e\u003ca\u003eState\u003c/a\u003e\u003c/code\u003e and may return a \u003ccode\u003e\u003ca\u003eMove\u003c/a\u003e\u003c/code\u003e. If you pass such\n a function to \u003ccode\u003eclients\u003c/code\u003e, you are good to go. See the examples section for\n some examples.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "Spacegoo",
           "package": "haskell-spacegoo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides you with everything to quicky write clients for the GPN13 Spacegoo programming contest Essentially you write function of type Strategy that takes the State and may return Move If you pass such function to clients you are good to go See the examples section for some examples",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "Spacegoo",
           "package": "haskell-spacegoo",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA position on the map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "Coord",
           "package": "haskell-spacegoo",
@@ -51,6 +54,7 @@
         "index": {
           "description": "position on the map",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "Coord",
           "package": "haskell-spacegoo",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "Fleet",
           "package": "haskell-spacegoo",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "Fleet",
           "package": "haskell-spacegoo",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Move contains the id of a source planet, the id or a target planet, and\n the number of ships to send\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "Move",
           "package": "haskell-spacegoo",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Move contains the id of source planet the id or target planet and the number of ships to send",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "Move",
           "package": "haskell-spacegoo",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "Planet",
           "package": "haskell-spacegoo",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "Planet",
           "package": "haskell-spacegoo",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "Player",
           "package": "haskell-spacegoo",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "Player",
           "package": "haskell-spacegoo",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe player (0,1 or 2)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "PlayerId",
           "package": "haskell-spacegoo",
@@ -160,6 +173,7 @@
         "index": {
           "description": "The player or",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "PlayerId",
           "package": "haskell-spacegoo",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Round count\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "Round",
           "package": "haskell-spacegoo",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Round count",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "Round",
           "package": "haskell-spacegoo",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "State",
           "package": "haskell-spacegoo",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "State",
           "package": "haskell-spacegoo",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "Strategy",
           "package": "haskell-spacegoo",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "Strategy",
           "package": "haskell-spacegoo",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnits, either on a planet, on a fleet, or as a production indication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "Units",
           "package": "haskell-spacegoo",
@@ -248,6 +269,7 @@
         "index": {
           "description": "Units either on planet on fleet or as production indication",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "Units",
           "package": "haskell-spacegoo",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "Fleet",
           "package": "haskell-spacegoo",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "Fleet",
           "package": "haskell-spacegoo",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "Planet",
           "package": "haskell-spacegoo",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "Planet",
           "package": "haskell-spacegoo",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "Player",
           "package": "haskell-spacegoo",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "Player",
           "package": "haskell-spacegoo",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "State",
           "package": "haskell-spacegoo",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "State",
           "package": "haskell-spacegoo",
@@ -350,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePicks an own planet with a reasonable number of ships and sends it to some\n neutral planet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "attackNeutral",
           "package": "haskell-spacegoo",
@@ -360,6 +391,7 @@
         "index": {
           "description": "Picks an own planet with reasonable number of ships and sends it to some neutral planet",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "attackNeutral",
           "package": "haskell-spacegoo",
@@ -374,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the first argument wins against the second, and how many ships are\n left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "battle",
           "package": "haskell-spacegoo",
@@ -384,6 +417,7 @@
         "index": {
           "description": "Whether the first argument wins against the second and how many ships are left",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "battle",
           "normalized": "Units-\u003eUnits-\u003e(Bool,Units)",
@@ -399,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is your main entry point to play one round of the game.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "client",
           "package": "haskell-spacegoo",
@@ -408,6 +443,7 @@
         "index": {
           "description": "This is your main entry point to play one round of the game",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "client",
           "normalized": "Int-\u003eString-\u003eString-\u003eString-\u003eStrategy-\u003eIO()",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "currentRound",
           "package": "haskell-spacegoo",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "currentRound",
           "package": "haskell-spacegoo",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "distance",
           "package": "haskell-spacegoo",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "distance",
           "normalized": "Planet-\u003ePlanet-\u003eInt",
@@ -467,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "eta",
           "package": "haskell-spacegoo",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "eta",
           "package": "haskell-spacegoo",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "fleetId",
           "package": "haskell-spacegoo",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "fleetId",
           "package": "haskell-spacegoo",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "fleetOwner",
           "package": "haskell-spacegoo",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "fleetOwner",
           "package": "haskell-spacegoo",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "fleetShips",
           "package": "haskell-spacegoo",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "fleetShips",
           "package": "haskell-spacegoo",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "fleets",
           "package": "haskell-spacegoo",
@@ -563,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "fleets",
           "normalized": "[Fleet]",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "gameOver",
           "package": "haskell-spacegoo",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "gameOver",
           "package": "haskell-spacegoo",
@@ -600,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the first player has at least as many ships as the other\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "hasMore",
           "package": "haskell-spacegoo",
@@ -610,6 +663,7 @@
         "index": {
           "description": "Whether the first player has at least as many ships as the other",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "hasMore",
           "normalized": "Units-\u003eUnits-\u003eBool",
@@ -626,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe other players id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "he",
           "package": "haskell-spacegoo",
@@ -636,6 +691,7 @@
         "index": {
           "description": "The other players id",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "he",
           "normalized": "State-\u003eInt",
@@ -651,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook for an opposing fleet. If we have a planet with more ships than the\n opposing fleet that would arrive shortly after that, send a fleet the same size\n as the opposing fleet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "intercept",
           "package": "haskell-spacegoo",
@@ -661,6 +718,7 @@
         "index": {
           "description": "Look for an opposing fleet If we have planet with more ships than the opposing fleet that would arrive shortly after that send fleet the same size as the opposing fleet",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "intercept",
           "package": "haskell-spacegoo",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "itsme",
           "package": "haskell-spacegoo",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "itsme",
           "package": "haskell-spacegoo",
@@ -694,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "linInt",
           "package": "haskell-spacegoo",
@@ -703,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "linInt",
           "normalized": "Double-\u003eUnits-\u003eUnits-\u003eUnits",
@@ -718,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "maxRounds",
           "package": "haskell-spacegoo",
@@ -727,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "maxRounds",
           "package": "haskell-spacegoo",
@@ -741,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMy id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "me",
           "package": "haskell-spacegoo",
@@ -751,6 +816,7 @@
         "index": {
           "description": "My id",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "me",
           "normalized": "State-\u003eInt",
@@ -765,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "minimizeUnits",
           "package": "haskell-spacegoo",
@@ -774,6 +841,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "minimizeUnits",
           "normalized": "Units-\u003eUnits-\u003eUnits",
@@ -789,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "name",
           "package": "haskell-spacegoo",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "name",
           "package": "haskell-spacegoo",
@@ -810,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "nemesisOf",
           "package": "haskell-spacegoo",
@@ -819,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "nemesisOf",
           "normalized": "Units-\u003eUnits",
@@ -835,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dead man strategy. Usually not very effective.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "nop",
           "package": "haskell-spacegoo",
@@ -845,6 +918,7 @@
         "index": {
           "description": "The dead man strategy Usually not very effective",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "nop",
           "package": "haskell-spacegoo",
@@ -858,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opponent's name; to filter out known bad opponents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "opponentName",
           "package": "haskell-spacegoo",
@@ -868,6 +943,7 @@
         "index": {
           "description": "The opponent name to filter out known bad opponents",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "opponentName",
           "normalized": "State-\u003eText",
@@ -883,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "origin",
           "package": "haskell-spacegoo",
@@ -892,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "origin",
           "package": "haskell-spacegoo",
@@ -905,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredict the owner and strength of the planet at the given round\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "ownerAt",
           "package": "haskell-spacegoo",
@@ -915,6 +994,7 @@
         "index": {
           "description": "Predict the owner and strength of the planet at the given round",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "ownerAt",
           "normalized": "State-\u003eInt-\u003eRound-\u003e(PlayerId,Units)",
@@ -930,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "planetId",
           "package": "haskell-spacegoo",
@@ -939,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "planetId",
           "package": "haskell-spacegoo",
@@ -952,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "planetOwner",
           "package": "haskell-spacegoo",
@@ -961,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "planetOwner",
           "package": "haskell-spacegoo",
@@ -974,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "planetShips",
           "package": "haskell-spacegoo",
@@ -983,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "planetShips",
           "package": "haskell-spacegoo",
@@ -996,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "planets",
           "package": "haskell-spacegoo",
@@ -1005,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "planets",
           "normalized": "[Planet]",
@@ -1019,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "playerId",
           "package": "haskell-spacegoo",
@@ -1028,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "playerId",
           "package": "haskell-spacegoo",
@@ -1041,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "players",
           "package": "haskell-spacegoo",
@@ -1050,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "players",
           "normalized": "[Player]",
@@ -1064,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "position",
           "package": "haskell-spacegoo",
@@ -1073,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "position",
           "package": "haskell-spacegoo",
@@ -1085,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "production",
           "package": "haskell-spacegoo",
@@ -1094,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "production",
           "package": "haskell-spacegoo",
@@ -1107,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom any own planet, send all ships to any opposing planet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "sendSomewhere",
           "package": "haskell-spacegoo",
@@ -1117,6 +1214,7 @@
         "index": {
           "description": "From any own planet send all ships to any opposing planet",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "sendSomewhere",
           "package": "haskell-spacegoo",
@@ -1130,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "target",
           "package": "haskell-spacegoo",
@@ -1139,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "target",
           "package": "haskell-spacegoo",
@@ -1152,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the first fleet wins against the second (defaulting to the second)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:21 UTC 2014",
           "module": "Game.Spacegoo",
           "name": "winsAgainst",
           "package": "haskell-spacegoo",
@@ -1162,6 +1263,7 @@
         "index": {
           "description": "Whether the first fleet wins against the second defaulting to the second",
           "hierarchy": "Game Spacegoo",
+          "indexed": "2014-03-11T18:31:21",
           "module": "Game.Spacegoo",
           "name": "winsAgainst",
           "normalized": "Units-\u003eUnits-\u003eBool",

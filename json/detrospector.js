@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "detrospector"
+        "phrase": "detrospector",
+        "type": "phrase"
       },
       "type": "context"
     }

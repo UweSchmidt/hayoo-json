@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "csp"
+        "phrase": "csp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "CSP",
           "package": "csp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "CSP",
           "package": "csp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "CSP",
           "package": "csp",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "CSP",
           "package": "csp",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis extracts results from a CSP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "CSPResult",
           "package": "csp",
@@ -70,6 +75,7 @@
         "index": {
           "description": "This extracts results from CSP",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "CSPResult",
           "package": "csp",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "Constraint",
           "package": "csp",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "Constraint",
           "package": "csp",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "DV",
           "package": "csp",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "DV",
           "package": "csp",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "DVContainer",
           "package": "csp",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "DVContainer",
           "package": "csp",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "CSP",
           "package": "csp",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "CSP",
           "package": "csp",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "DV",
           "package": "csp",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "DV",
           "package": "csp",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "DVContainer",
           "package": "csp",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "DVContainer",
           "package": "csp",
@@ -213,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a constraint to the given variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "addConstraint",
           "package": "csp",
@@ -223,6 +242,7 @@
         "index": {
           "description": "Add constraint to the given variable",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "addConstraint",
           "normalized": "DV a b-\u003eConstraint a-\u003eCSP a()",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all solutions to the CSP. \u003ccode\u003e\u003ca\u003esolveCSP\u003c/a\u003e\u003c/code\u003e running with\n \u003ccode\u003e\u003ca\u003eallValuesT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "allCSPSolutions",
           "package": "csp",
@@ -249,6 +270,7 @@
         "index": {
           "description": "Return all solutions to the CSP solveCSP running with allValuesT",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "allCSPSolutions",
           "normalized": "CSP(Result a)a-\u003e[Result a]",
@@ -265,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the current binding of a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "binding",
           "package": "csp",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Retrieve the current binding of variable",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "binding",
           "normalized": "DV a b-\u003eIO b",
@@ -290,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert an n-ary constraint with arc consistency. One day this\n will allow for a heterogeneous list of variables, but at the moment\n they must all be of the same type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "constraint",
           "package": "csp",
@@ -300,6 +325,7 @@
         "index": {
           "description": "Assert an n-ary constraint with arc consistency One day this will allow for heterogeneous list of variables but at the moment they must all be of the same type",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "constraint",
           "normalized": "([a]-\u003eBool)-\u003e[DV b a]-\u003eCSP b()",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert a unary constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "constraint1",
           "package": "csp",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Assert unary constraint",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "constraint1",
           "normalized": "(a-\u003eBool)-\u003eDV b a-\u003eCSP b()",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert a binary constraint with arc consistency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "constraint2",
           "package": "csp",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Assert binary constraint with arc consistency",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "constraint2",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eDV b a-\u003eDV b b-\u003eCSP c()",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an IO computation into the CSP monad. CSPs are only in IO\n temporarily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "csp",
           "package": "csp",
@@ -375,6 +406,7 @@
         "index": {
           "description": "Lift an IO computation into the CSP monad CSPs are only in IO temporarily",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "csp",
           "normalized": "IO a-\u003eCSP b a",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the current constraints of a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "demons",
           "package": "csp",
@@ -400,6 +433,7 @@
         "index": {
           "description": "Extract the current constraints of variable",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "demons",
           "normalized": "DV a b-\u003eIO[Constraint a]",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the current domain of a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "domain",
           "package": "csp",
@@ -425,6 +460,7 @@
         "index": {
           "description": "Extract the current domain of variable",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "domain",
           "normalized": "DV a a-\u003eIO[a]",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the size of the current domain of variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "domainSize",
           "package": "csp",
@@ -450,6 +487,7 @@
         "index": {
           "description": "Compute the size of the current domain of variable",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "domainSize",
           "normalized": "DV a a-\u003eIO Int",
@@ -465,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "dvConstraints",
           "package": "csp",
@@ -474,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "dvConstraints",
           "normalized": "IORef[Constraint a]",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "dvDomain",
           "package": "csp",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "dvDomain",
           "normalized": "IORef[a]",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "dvcABinding",
           "package": "csp",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "dvcABinding",
           "normalized": "AmbT a IO()",
@@ -537,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "dvcConstraints",
           "package": "csp",
@@ -546,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "dvcConstraints",
           "normalized": "AmbT a IO()",
@@ -561,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "dvcIsBound",
           "package": "csp",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "dvcIsBound",
           "package": "csp",
@@ -584,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the variable currently bound?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "isBound",
           "package": "csp",
@@ -594,6 +643,7 @@
         "index": {
           "description": "Is the variable currently bound",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "isBound",
           "normalized": "DV a a-\u003eIO Bool",
@@ -610,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis performs a side-effect, writing to the given IORef but\n records this in the nondeterministic computation so that it can be\n undone when backtracking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "localWriteIORef",
           "package": "csp",
@@ -620,6 +671,7 @@
         "index": {
           "description": "This performs side-effect writing to the given IORef but records this in the nondeterministic computation so that it can be undone when backtracking",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "localWriteIORef",
           "normalized": "IORef a-\u003ea-\u003eAmbT b IO()",
@@ -636,6 +688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a variable with the given domain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "mkDV",
           "package": "csp",
@@ -646,6 +699,7 @@
         "index": {
           "description": "Create variable with the given domain",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "mkDV",
           "normalized": "[a]-\u003eCSP b(DV b a)",
@@ -662,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a single solution to the CSP. \u003ccode\u003e\u003ca\u003esolveCSP\u003c/a\u003e\u003c/code\u003e running with \u003ccode\u003e\u003ca\u003eoneValueT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "oneCSPSolution",
           "package": "csp",
@@ -672,6 +727,7 @@
         "index": {
           "description": "Return single solution to the CSP solveCSP running with oneValueT",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "oneCSPSolution",
           "normalized": "CSP(Result a)a-\u003eResult a",
@@ -688,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe low-level function out of which constraints are\n constructed. It modifies the domain of a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "restrictDomain",
           "package": "csp",
@@ -698,6 +755,7 @@
         "index": {
           "description": "The low-level function out of which constraints are constructed It modifies the domain of variable",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "restrictDomain",
           "normalized": "DV a b-\u003e([b]-\u003eIO[b])-\u003eAmbT a IO()",
@@ -713,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "result",
           "package": "csp",
@@ -722,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "result",
           "normalized": "a-\u003eIO(Result a)",
@@ -737,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolve the given CSP. The CSP solver is a nondeterministic\n function in IO and this is the generic interface which specifies\n how the nondeterministic computation should be carried out.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "solveCSP",
           "package": "csp",
@@ -747,6 +808,7 @@
         "index": {
           "description": "Solve the given CSP The CSP solver is nondeterministic function in IO and this is the generic interface which specifies how the nondeterministic computation should be carried out",
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "solveCSP",
           "normalized": "(AmbT a IO(Result b)-\u003eIO b)-\u003eCSP a b-\u003eb",
@@ -762,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:44 UTC 2014",
           "module": "Control.Monad.CSP",
           "name": "unCSP",
           "package": "csp",
@@ -771,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CSP",
+          "indexed": "2014-03-11T17:44:44",
           "module": "Control.Monad.CSP",
           "name": "unCSP",
           "normalized": "IORef[DVContainer a]-\u003eIO b",

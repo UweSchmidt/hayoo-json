@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mtgoxapi"
+        "phrase": "mtgoxapi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "Credentials",
           "package": "mtgoxapi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Credentials",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "Credentials",
           "package": "mtgoxapi",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "MtGoxCredentials",
           "package": "mtgoxapi",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Credentials",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "MtGoxCredentials",
           "package": "mtgoxapi",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "MtGoxCredentials",
           "package": "mtgoxapi",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Credentials",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "MtGoxCredentials",
           "package": "mtgoxapi",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "initMtGoxCredentials",
           "package": "mtgoxapi",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Credentials",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "initMtGoxCredentials",
           "normalized": "ByteString-\u003eByteString-\u003eMtGoxCredentials",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "mgcAuthKey",
           "package": "mtgoxapi",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Credentials",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "mgcAuthKey",
           "package": "mtgoxapi",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "mgcAuthKeyDecoded",
           "package": "mtgoxapi",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Credentials",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "mgcAuthKeyDecoded",
           "package": "mtgoxapi",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "mgcAuthSecret",
           "package": "mtgoxapi",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Credentials",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "mgcAuthSecret",
           "package": "mtgoxapi",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "mgcAuthSecretDecoded",
           "package": "mtgoxapi",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Credentials",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Credentials",
           "name": "mgcAuthSecretDecoded",
           "package": "mtgoxapi",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.CurlWrapper",
           "name": "CurlWrapper",
           "package": "mtgoxapi",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI CurlWrapper",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.CurlWrapper",
           "name": "CurlWrapper",
           "package": "mtgoxapi",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.CurlWrapper",
           "name": "CurlHandle",
           "package": "mtgoxapi",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI CurlWrapper",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.CurlWrapper",
           "name": "CurlHandle",
           "package": "mtgoxapi",
@@ -237,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWill start a thread which will execute cURL requests that are passed to it\n using \u003ccode\u003e\u003ca\u003eperformCurlRequest\u003c/a\u003e\u003c/code\u003e. Internally only a single cURL handle is opened,\n which means that keep-alive connections are automatically reused.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.CurlWrapper",
           "name": "initCurlWrapper",
           "package": "mtgoxapi",
@@ -247,6 +268,7 @@
         "index": {
           "description": "Will start thread which will execute cURL requests that are passed to it using performCurlRequest Internally only single cURL handle is opened which means that keep-alive connections are automatically reused",
           "hierarchy": "Network MtGoxAPI CurlWrapper",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.CurlWrapper",
           "name": "initCurlWrapper",
           "package": "mtgoxapi",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.CurlWrapper",
           "name": "performCurlRequest",
           "package": "mtgoxapi",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI CurlWrapper",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.CurlWrapper",
           "name": "performCurlRequest",
           "normalized": "CurlHandle-\u003eURLString-\u003e[CurlOption]-\u003eIO(CurlCode,String)",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore.Adapter",
           "name": "Adapter",
           "package": "mtgoxapi",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore Adapter",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore.Adapter",
           "name": "Adapter",
           "package": "mtgoxapi",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore.Adapter",
           "name": "skipFullDepthRequest",
           "package": "mtgoxapi",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore Adapter",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore.Adapter",
           "name": "skipFullDepthRequest",
           "normalized": "DepthStoreHandle-\u003eIO()",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore.Adapter",
           "name": "updateDepthStoreFromFullDepth",
           "package": "mtgoxapi",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore Adapter",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore.Adapter",
           "name": "updateDepthStoreFromFullDepth",
           "normalized": "DepthStoreHandle-\u003eFullDepth-\u003eIO()",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore.Adapter",
           "name": "updateDepthStoreFromMessage",
           "package": "mtgoxapi",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore Adapter",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore.Adapter",
           "name": "updateDepthStoreFromMessage",
           "normalized": "DepthStoreHandle-\u003eStreamMessage-\u003eIO()",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStore",
           "package": "mtgoxapi",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStore",
           "package": "mtgoxapi",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStoreAnswer",
           "package": "mtgoxapi",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStoreAnswer",
           "package": "mtgoxapi",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStoreEntry",
           "package": "mtgoxapi",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStoreEntry",
           "package": "mtgoxapi",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStoreHandle",
           "package": "mtgoxapi",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStoreHandle",
           "package": "mtgoxapi",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStoreType",
           "package": "mtgoxapi",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStoreType",
           "package": "mtgoxapi",
@@ -505,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStoreAsk",
           "package": "mtgoxapi",
@@ -514,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStoreAsk",
           "package": "mtgoxapi",
@@ -527,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStoreBid",
           "package": "mtgoxapi",
@@ -536,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStoreBid",
           "package": "mtgoxapi",
@@ -549,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStoreEntry",
           "package": "mtgoxapi",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "DepthStoreEntry",
           "package": "mtgoxapi",
@@ -617,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "dseAmount",
           "package": "mtgoxapi",
@@ -626,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "dseAmount",
           "package": "mtgoxapi",
@@ -639,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "dsePrice",
           "package": "mtgoxapi",
@@ -648,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "dsePrice",
           "package": "mtgoxapi",
@@ -661,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "dseTimestamp",
           "package": "mtgoxapi",
@@ -670,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "dseTimestamp",
           "package": "mtgoxapi",
@@ -683,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "initDepthStore",
           "package": "mtgoxapi",
@@ -692,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "initDepthStore",
           "package": "mtgoxapi",
@@ -705,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "setHasFullDepth",
           "package": "mtgoxapi",
@@ -714,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "setHasFullDepth",
           "normalized": "DepthStoreHandle-\u003eIO()",
@@ -729,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "simulateBTC",
           "package": "mtgoxapi",
@@ -738,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "simulateBTC",
           "normalized": "Integer-\u003e[DepthStoreEntry]-\u003eMaybe Integer",
@@ -807,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "simulateUSD",
           "package": "mtgoxapi",
@@ -816,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "simulateUSD",
           "normalized": "Integer-\u003e[DepthStoreEntry]-\u003eMaybe Integer",
@@ -885,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "updateDepthStore",
           "package": "mtgoxapi",
@@ -894,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI DepthStore",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.DepthStore",
           "name": "updateDepthStore",
           "normalized": "DepthStoreHandle-\u003eDepthStoreType-\u003eInteger-\u003eInteger-\u003eIO()",
@@ -909,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Handles",
           "name": "Handles",
           "package": "mtgoxapi",
@@ -917,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Handles",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Handles",
           "name": "Handles",
           "package": "mtgoxapi",
@@ -930,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Handles",
           "name": "MtGoxAPIHandles",
           "package": "mtgoxapi",
@@ -938,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Handles",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Handles",
           "name": "MtGoxAPIHandles",
           "package": "mtgoxapi",
@@ -951,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Handles",
           "name": "MtGoxAPIHandles",
           "package": "mtgoxapi",
@@ -960,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Handles",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Handles",
           "name": "MtGoxAPIHandles",
           "package": "mtgoxapi",
@@ -973,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Handles",
           "name": "mtgoxCredentials",
           "package": "mtgoxapi",
@@ -982,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Handles",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Handles",
           "name": "mtgoxCredentials",
           "package": "mtgoxapi",
@@ -995,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Handles",
           "name": "mtgoxCurlHandle",
           "package": "mtgoxapi",
@@ -1004,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Handles",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Handles",
           "name": "mtgoxCurlHandle",
           "package": "mtgoxapi",
@@ -1017,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Handles",
           "name": "mtgoxDepthStoreHandle",
           "package": "mtgoxapi",
@@ -1026,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Handles",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Handles",
           "name": "mtgoxDepthStoreHandle",
           "package": "mtgoxapi",
@@ -1039,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Handles",
           "name": "mtgoxLogger",
           "package": "mtgoxapi",
@@ -1048,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Handles",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Handles",
           "name": "mtgoxLogger",
           "package": "mtgoxapi",
@@ -1061,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Handles",
           "name": "mtgoxTickerMonitorHandle",
           "package": "mtgoxapi",
@@ -1070,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Handles",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Handles",
           "name": "mtgoxTickerMonitorHandle",
           "package": "mtgoxapi",
@@ -1083,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Handles",
           "name": "mtgoxWalletNotifierHandle",
           "package": "mtgoxapi",
@@ -1092,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Handles",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Handles",
           "name": "mtgoxWalletNotifierHandle",
           "package": "mtgoxapi",
@@ -1106,6 +1188,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions that are marked with the suffix \u003ccode\u003eR\u003c/code\u003e retry automatically in case of\n failure up to a certain number of times. However, they will return after\n about 20 seconds in the worst case. Exceptions: \u003ccode\u003e\u003ca\u003eletOrdersExecuteR\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003esubmitOrder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "HttpAPI",
           "package": "mtgoxapi",
@@ -1115,6 +1198,7 @@
         "index": {
           "description": "Functions that are marked with the suffix retry automatically in case of failure up to certain number of times However they will return after about seconds in the worst case Exceptions letOrdersExecuteR and submitOrder",
           "hierarchy": "Network MtGoxAPI HttpAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "HttpAPI",
           "package": "mtgoxapi",
@@ -1128,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "OrderStats",
           "package": "mtgoxapi",
@@ -1136,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI HttpAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "OrderStats",
           "package": "mtgoxapi",
@@ -1172,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "getBitcoinDepositAddressR",
           "package": "mtgoxapi",
@@ -1181,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI HttpAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "getBitcoinDepositAddressR",
           "normalized": "Maybe WatchdogLogger-\u003eCurlHandle-\u003eMtGoxCredentials-\u003eIO(Either String BitcoinDepositAddress)",
@@ -1196,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "getOrderCountR",
           "package": "mtgoxapi",
@@ -1205,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI HttpAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "getOrderCountR",
           "normalized": "Maybe WatchdogLogger-\u003eCurlHandle-\u003eMtGoxCredentials-\u003eIO(Either String OpenOrderCount)",
@@ -1220,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "getOrderResultR",
           "package": "mtgoxapi",
@@ -1229,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI HttpAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "getOrderResultR",
           "normalized": "Maybe WatchdogLogger-\u003eCurlHandle-\u003eMtGoxCredentials-\u003eOrderType-\u003eOrderID-\u003eIO(Either String OrderResult)",
@@ -1244,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "getPrivateInfoR",
           "package": "mtgoxapi",
@@ -1253,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI HttpAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "getPrivateInfoR",
           "normalized": "Maybe WatchdogLogger-\u003eCurlHandle-\u003eMtGoxCredentials-\u003eIO(Either String PrivateInfo)",
@@ -1268,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "getWalletHistoryR",
           "package": "mtgoxapi",
@@ -1277,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI HttpAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "getWalletHistoryR",
           "normalized": "Maybe WatchdogLogger-\u003eCurlHandle-\u003eMtGoxCredentials-\u003eTradeID-\u003eIO(Either String WalletHistory)",
@@ -1293,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWill not return until all orders have been executed. It will give up after\n about 3 minutes, if there are persistent errors or still open orders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "letOrdersExecuteR",
           "package": "mtgoxapi",
@@ -1303,6 +1400,7 @@
         "index": {
           "description": "Will not return until all orders have been executed It will give up after about minutes if there are persistent errors or still open orders",
           "hierarchy": "Network MtGoxAPI HttpAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "letOrdersExecuteR",
           "normalized": "Maybe WatchdogLogger-\u003eCurlHandle-\u003eMtGoxCredentials-\u003eIO(Either String())",
@@ -1318,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "submitBtcBuyOrder",
           "package": "mtgoxapi",
@@ -1327,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI HttpAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "submitBtcBuyOrder",
           "normalized": "CurlHandle-\u003eMtGoxCredentials-\u003eInteger-\u003eIO(Either String Order)",
@@ -1342,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "submitBtcSellOrder",
           "package": "mtgoxapi",
@@ -1351,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI HttpAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "submitBtcSellOrder",
           "normalized": "CurlHandle-\u003eMtGoxCredentials-\u003eInteger-\u003eIO(Either String Order)",
@@ -1367,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubmit an order and return \u003ccode\u003e\u003ca\u003eOrderStats\u003c/a\u003e\u003c/code\u003e. In case of some non-critical\n errors things are re-tried automatically, but if API errors happen or network\n errors occur during critical phases (like placing the order) a \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e with\n the error is returned. Should not block longer than about 3 minutes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "submitOrder",
           "package": "mtgoxapi",
@@ -1377,6 +1480,7 @@
         "index": {
           "description": "Submit an order and return OrderStats In case of some non-critical errors things are re-tried automatically but if API errors happen or network errors occur during critical phases like placing the order Left with the error is returned Should not block longer than about minutes",
           "hierarchy": "Network MtGoxAPI HttpAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "submitOrder",
           "normalized": "Maybe WatchdogLogger-\u003eCurlHandle-\u003eMtGoxCredentials-\u003eOrderType-\u003eInteger-\u003eIO(Either String OrderStats)",
@@ -1461,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "withdrawBitcoins",
           "package": "mtgoxapi",
@@ -1470,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI HttpAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.HttpAPI",
           "name": "withdrawBitcoins",
           "normalized": "CurlHandle-\u003eMtGoxCredentials-\u003eBitcoinAddress-\u003eInteger-\u003eIO(Either String WithdrawResult)",
@@ -1485,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "StreamAuthCommands",
           "package": "mtgoxapi",
@@ -1493,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamAuthCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "StreamAuthCommands",
           "package": "mtgoxapi",
@@ -1506,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "StreamAuthCommandData",
           "package": "mtgoxapi",
@@ -1514,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamAuthCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "StreamAuthCommandData",
           "package": "mtgoxapi",
@@ -1527,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "StreamAuthCommandData",
           "package": "mtgoxapi",
@@ -1536,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamAuthCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "StreamAuthCommandData",
           "package": "mtgoxapi",
@@ -1549,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "getNonce",
           "package": "mtgoxapi",
@@ -1558,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamAuthCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "getNonce",
           "package": "mtgoxapi",
@@ -1571,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "parseFullDepthCallResult",
           "package": "mtgoxapi",
@@ -1580,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamAuthCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "parseFullDepthCallResult",
           "normalized": "StreamMessage-\u003eMaybe FullDepth",
@@ -1595,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "parseIDKeyCallResult",
           "package": "mtgoxapi",
@@ -1604,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamAuthCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "parseIDKeyCallResult",
           "normalized": "StreamMessage-\u003eMaybe IDKey",
@@ -1619,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "prepareAuthCommand",
           "package": "mtgoxapi",
@@ -1628,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamAuthCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "prepareAuthCommand",
           "normalized": "MtGoxCredentials-\u003eStreamAuthCommandData-\u003eValue",
@@ -1643,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "sacdCall",
           "package": "mtgoxapi",
@@ -1652,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamAuthCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "sacdCall",
           "package": "mtgoxapi",
@@ -1665,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "sacdNonce",
           "package": "mtgoxapi",
@@ -1674,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamAuthCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "sacdNonce",
           "package": "mtgoxapi",
@@ -1687,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "sacdParameters",
           "package": "mtgoxapi",
@@ -1696,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamAuthCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "sacdParameters",
           "normalized": "[(Text,Text)]",
@@ -1711,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "sacdSetBTCUSD",
           "package": "mtgoxapi",
@@ -1720,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamAuthCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamAuthCommands",
           "name": "sacdSetBTCUSD",
           "package": "mtgoxapi",
@@ -1733,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "StreamCommands",
           "package": "mtgoxapi",
@@ -1741,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "StreamCommands",
           "package": "mtgoxapi",
@@ -1754,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "StreamCommand",
           "package": "mtgoxapi",
@@ -1762,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "StreamCommand",
           "package": "mtgoxapi",
@@ -1775,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "FullDepthCmd",
           "package": "mtgoxapi",
@@ -1784,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "FullDepthCmd",
           "package": "mtgoxapi",
@@ -1797,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "IDKeyCmd",
           "package": "mtgoxapi",
@@ -1806,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "IDKeyCmd",
           "package": "mtgoxapi",
@@ -1819,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "PrivateSubscribeCmd",
           "package": "mtgoxapi",
@@ -1828,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "PrivateSubscribeCmd",
           "package": "mtgoxapi",
@@ -1841,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "SubscribeCmd",
           "package": "mtgoxapi",
@@ -1850,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "SubscribeCmd",
           "package": "mtgoxapi",
@@ -1863,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "UnsubscribeCmd",
           "package": "mtgoxapi",
@@ -1872,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "UnsubscribeCmd",
           "package": "mtgoxapi",
@@ -1885,6 +2027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "encodeStreamCommand",
           "package": "mtgoxapi",
@@ -1894,6 +2037,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "encodeStreamCommand",
           "normalized": "StreamCommand-\u003eMtGoxCredentials-\u003eIO ByteString",
@@ -1909,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "scChannel",
           "package": "mtgoxapi",
@@ -1918,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "scChannel",
           "package": "mtgoxapi",
@@ -1931,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "scKey",
           "package": "mtgoxapi",
@@ -1940,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamCommands",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamCommands",
           "name": "scKey",
           "package": "mtgoxapi",
@@ -1953,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "StreamConnection",
           "package": "mtgoxapi",
@@ -1961,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamConnection",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "StreamConnection",
           "package": "mtgoxapi",
@@ -1974,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "FullDepthSetting",
           "package": "mtgoxapi",
@@ -1982,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamConnection",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "FullDepthSetting",
           "package": "mtgoxapi",
@@ -1995,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "MtGoxStreamSettings",
           "package": "mtgoxapi",
@@ -2003,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamConnection",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "MtGoxStreamSettings",
           "package": "mtgoxapi",
@@ -2016,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "WalletNotifierSetting",
           "package": "mtgoxapi",
@@ -2024,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamConnection",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "WalletNotifierSetting",
           "package": "mtgoxapi",
@@ -2153,6 +2309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts a thread that will connect to the data stream\n from Mt. Gox and supply the received data to the handles that are\n are passed in. A watchdog maintains the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "initMtGoxStream",
           "package": "mtgoxapi",
@@ -2163,6 +2320,7 @@
         "index": {
           "description": "Starts thread that will connect to the data stream from Mt Gox and supply the received data to the handles that are are passed in watchdog maintains the connection",
           "hierarchy": "Network MtGoxAPI StreamConnection",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "initMtGoxStream",
           "normalized": "MtGoxCredentials-\u003eMtGoxStreamSettings-\u003eMtGoxAPIHandles-\u003eIO ThreadId",
@@ -2178,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "mtGoxDepthChannelNameEUR",
           "package": "mtgoxapi",
@@ -2187,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamConnection",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "mtGoxDepthChannelNameEUR",
           "package": "mtgoxapi",
@@ -2200,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "mtGoxDepthChannelUSD",
           "package": "mtgoxapi",
@@ -2209,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamConnection",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "mtGoxDepthChannelUSD",
           "package": "mtgoxapi",
@@ -2222,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "mtGoxTickerChannelNameEUR",
           "package": "mtgoxapi",
@@ -2231,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamConnection",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "mtGoxTickerChannelNameEUR",
           "package": "mtgoxapi",
@@ -2244,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "mtGoxTickerChannelUSD",
           "package": "mtgoxapi",
@@ -2253,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamConnection",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "mtGoxTickerChannelUSD",
           "package": "mtgoxapi",
@@ -2266,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "mtGoxTradeChannel",
           "package": "mtgoxapi",
@@ -2275,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI StreamConnection",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.StreamConnection",
           "name": "mtGoxTradeChannel",
           "package": "mtgoxapi",
@@ -2288,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.TickerMonitor",
           "name": "TickerMonitor",
           "package": "mtgoxapi",
@@ -2296,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI TickerMonitor",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.TickerMonitor",
           "name": "TickerMonitor",
           "package": "mtgoxapi",
@@ -2309,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.TickerMonitor",
           "name": "TickerMonitorHandle",
           "package": "mtgoxapi",
@@ -2317,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI TickerMonitor",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.TickerMonitor",
           "name": "TickerMonitorHandle",
           "package": "mtgoxapi",
@@ -2330,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.TickerMonitor",
           "name": "TickerStatus",
           "package": "mtgoxapi",
@@ -2338,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI TickerMonitor",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.TickerMonitor",
           "name": "TickerStatus",
           "package": "mtgoxapi",
@@ -2425,6 +2599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializes ticker monitor and returns a handle for it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.TickerMonitor",
           "name": "initTickerMonitor",
           "package": "mtgoxapi",
@@ -2435,6 +2610,7 @@
         "index": {
           "description": "Initializes ticker monitor and returns handle for it",
           "hierarchy": "Network MtGoxAPI TickerMonitor",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.TickerMonitor",
           "name": "initTickerMonitor",
           "package": "mtgoxapi",
@@ -2564,6 +2740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate ticker with new data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.TickerMonitor",
           "name": "updateTickerStatus",
           "package": "mtgoxapi",
@@ -2574,6 +2751,7 @@
         "index": {
           "description": "Update ticker with new data",
           "hierarchy": "Network MtGoxAPI TickerMonitor",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.TickerMonitor",
           "name": "updateTickerStatus",
           "normalized": "TickerMonitorHandle-\u003eStreamMessage-\u003eIO()",
@@ -2589,6 +2767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "Types",
           "package": "mtgoxapi",
@@ -2597,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "Types",
           "package": "mtgoxapi",
@@ -2610,6 +2790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "BitcoinAddress",
           "package": "mtgoxapi",
@@ -2618,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "BitcoinAddress",
           "package": "mtgoxapi",
@@ -2631,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "BitcoinDepositAddress",
           "package": "mtgoxapi",
@@ -2639,6 +2822,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "BitcoinDepositAddress",
           "package": "mtgoxapi",
@@ -2652,6 +2836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "DepthEntry",
           "package": "mtgoxapi",
@@ -2660,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "DepthEntry",
           "package": "mtgoxapi",
@@ -2673,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "DepthType",
           "package": "mtgoxapi",
@@ -2681,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "DepthType",
           "package": "mtgoxapi",
@@ -2694,6 +2882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "FullDepth",
           "package": "mtgoxapi",
@@ -2702,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "FullDepth",
           "package": "mtgoxapi",
@@ -2715,6 +2905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "FullDepthSetting",
           "package": "mtgoxapi",
@@ -2723,6 +2914,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "FullDepthSetting",
           "package": "mtgoxapi",
@@ -2736,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "IDKey",
           "package": "mtgoxapi",
@@ -2744,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "IDKey",
           "package": "mtgoxapi",
@@ -2757,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "MtGoxStreamSettings",
           "package": "mtgoxapi",
@@ -2765,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "MtGoxStreamSettings",
           "package": "mtgoxapi",
@@ -2778,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "OpenOrderCount",
           "package": "mtgoxapi",
@@ -2786,6 +2983,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "OpenOrderCount",
           "package": "mtgoxapi",
@@ -2799,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "Order",
           "package": "mtgoxapi",
@@ -2807,6 +3006,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "Order",
           "package": "mtgoxapi",
@@ -2820,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "OrderID",
           "package": "mtgoxapi",
@@ -2828,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "OrderID",
           "package": "mtgoxapi",
@@ -2841,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "OrderResult",
           "package": "mtgoxapi",
@@ -2849,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "OrderResult",
           "package": "mtgoxapi",
@@ -2862,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "OrderType",
           "package": "mtgoxapi",
@@ -2870,6 +3075,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "OrderType",
           "package": "mtgoxapi",
@@ -2883,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "PrivateInfo",
           "package": "mtgoxapi",
@@ -2891,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "PrivateInfo",
           "package": "mtgoxapi",
@@ -2904,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "StreamMessage",
           "package": "mtgoxapi",
@@ -2912,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "StreamMessage",
           "package": "mtgoxapi",
@@ -2925,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "TradeID",
           "package": "mtgoxapi",
@@ -2933,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "TradeID",
           "package": "mtgoxapi",
@@ -2946,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "WalletEntry",
           "package": "mtgoxapi",
@@ -2954,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "WalletEntry",
           "package": "mtgoxapi",
@@ -2967,6 +3181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "WalletHistory",
           "package": "mtgoxapi",
@@ -2975,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "WalletHistory",
           "package": "mtgoxapi",
@@ -2988,6 +3204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "WalletNotifierSetting",
           "package": "mtgoxapi",
@@ -2996,6 +3213,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "WalletNotifierSetting",
           "package": "mtgoxapi",
@@ -3009,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "WalletOperationType",
           "package": "mtgoxapi",
@@ -3017,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "WalletOperationType",
           "package": "mtgoxapi",
@@ -3030,6 +3250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "WithdrawResult",
           "package": "mtgoxapi",
@@ -3038,6 +3259,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "WithdrawResult",
           "package": "mtgoxapi",
@@ -3051,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "Ask",
           "package": "mtgoxapi",
@@ -3060,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "Ask",
           "package": "mtgoxapi",
@@ -3073,6 +3297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "BTCDeposit",
           "package": "mtgoxapi",
@@ -3082,6 +3307,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "BTCDeposit",
           "package": "mtgoxapi",
@@ -3095,6 +3321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "BTCIn",
           "package": "mtgoxapi",
@@ -3104,6 +3331,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "BTCIn",
           "package": "mtgoxapi",
@@ -3117,6 +3345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "BTCOut",
           "package": "mtgoxapi",
@@ -3126,6 +3355,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "BTCOut",
           "package": "mtgoxapi",
@@ -3139,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "BTCWithdraw",
           "package": "mtgoxapi",
@@ -3148,6 +3379,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "BTCWithdraw",
           "package": "mtgoxapi",
@@ -3161,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "Bid",
           "package": "mtgoxapi",
@@ -3170,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "Bid",
           "package": "mtgoxapi",
@@ -3183,6 +3417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "BitcoinAddress",
           "package": "mtgoxapi",
@@ -3192,6 +3427,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "BitcoinAddress",
           "package": "mtgoxapi",
@@ -3205,6 +3441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "BitcoinDepositAddress",
           "package": "mtgoxapi",
@@ -3214,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "BitcoinDepositAddress",
           "package": "mtgoxapi",
@@ -3227,6 +3465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "CallResult",
           "package": "mtgoxapi",
@@ -3236,6 +3475,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "CallResult",
           "package": "mtgoxapi",
@@ -3249,6 +3489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "DepthEntry",
           "package": "mtgoxapi",
@@ -3258,6 +3499,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "DepthEntry",
           "package": "mtgoxapi",
@@ -3271,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "DepthUpdateUSD",
           "package": "mtgoxapi",
@@ -3280,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "DepthUpdateUSD",
           "package": "mtgoxapi",
@@ -3293,6 +3537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "FullDepth",
           "package": "mtgoxapi",
@@ -3302,6 +3547,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "FullDepth",
           "package": "mtgoxapi",
@@ -3315,6 +3561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "IDKey",
           "package": "mtgoxapi",
@@ -3324,6 +3571,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "IDKey",
           "package": "mtgoxapi",
@@ -3337,6 +3585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "OpenOrderCount",
           "package": "mtgoxapi",
@@ -3346,6 +3595,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "OpenOrderCount",
           "package": "mtgoxapi",
@@ -3359,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "Order",
           "package": "mtgoxapi",
@@ -3368,6 +3619,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "Order",
           "package": "mtgoxapi",
@@ -3381,6 +3633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "OrderID",
           "package": "mtgoxapi",
@@ -3390,6 +3643,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "OrderID",
           "package": "mtgoxapi",
@@ -3403,6 +3657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "OrderResult",
           "package": "mtgoxapi",
@@ -3412,6 +3667,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "OrderResult",
           "package": "mtgoxapi",
@@ -3425,6 +3681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "OrderTypeBuyBTC",
           "package": "mtgoxapi",
@@ -3434,6 +3691,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "OrderTypeBuyBTC",
           "package": "mtgoxapi",
@@ -3447,6 +3705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "OrderTypeSellBTC",
           "package": "mtgoxapi",
@@ -3456,6 +3715,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "OrderTypeSellBTC",
           "package": "mtgoxapi",
@@ -3469,6 +3729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "OtherMessage",
           "package": "mtgoxapi",
@@ -3478,6 +3739,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "OtherMessage",
           "package": "mtgoxapi",
@@ -3491,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "PrivateInfo",
           "package": "mtgoxapi",
@@ -3500,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "PrivateInfo",
           "package": "mtgoxapi",
@@ -3513,6 +3777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "Subscribed",
           "package": "mtgoxapi",
@@ -3522,6 +3787,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "Subscribed",
           "package": "mtgoxapi",
@@ -3535,6 +3801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "TickerUpdateUSD",
           "package": "mtgoxapi",
@@ -3544,6 +3811,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "TickerUpdateUSD",
           "package": "mtgoxapi",
@@ -3557,6 +3825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "TradeID",
           "package": "mtgoxapi",
@@ -3566,6 +3835,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "TradeID",
           "package": "mtgoxapi",
@@ -3579,6 +3849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "USDEarned",
           "package": "mtgoxapi",
@@ -3588,6 +3859,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "USDEarned",
           "package": "mtgoxapi",
@@ -3601,6 +3873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "USDFee",
           "package": "mtgoxapi",
@@ -3610,6 +3883,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "USDFee",
           "package": "mtgoxapi",
@@ -3623,6 +3897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "USDSpent",
           "package": "mtgoxapi",
@@ -3632,6 +3907,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "USDSpent",
           "package": "mtgoxapi",
@@ -3645,6 +3921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "Unsubscribed",
           "package": "mtgoxapi",
@@ -3654,6 +3931,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "Unsubscribed",
           "package": "mtgoxapi",
@@ -3667,6 +3945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "WalletEntry",
           "package": "mtgoxapi",
@@ -3676,6 +3955,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "WalletEntry",
           "package": "mtgoxapi",
@@ -3689,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "WalletHistory",
           "package": "mtgoxapi",
@@ -3698,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "WalletHistory",
           "package": "mtgoxapi",
@@ -3711,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "WalletOperation",
           "package": "mtgoxapi",
@@ -3720,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "WalletOperation",
           "package": "mtgoxapi",
@@ -3733,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "WithdrawResult",
           "package": "mtgoxapi",
@@ -3742,6 +4027,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "WithdrawResult",
           "package": "mtgoxapi",
@@ -3755,6 +4041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "baAddress",
           "package": "mtgoxapi",
@@ -3764,6 +4051,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "baAddress",
           "package": "mtgoxapi",
@@ -3777,6 +4065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "bdaAddr",
           "package": "mtgoxapi",
@@ -3786,6 +4075,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "bdaAddr",
           "package": "mtgoxapi",
@@ -3799,6 +4089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "crID",
           "package": "mtgoxapi",
@@ -3808,6 +4099,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "crID",
           "package": "mtgoxapi",
@@ -3821,6 +4113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "crResult",
           "package": "mtgoxapi",
@@ -3830,6 +4123,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "crResult",
           "package": "mtgoxapi",
@@ -3843,6 +4137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "deAmount",
           "package": "mtgoxapi",
@@ -3852,6 +4147,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "deAmount",
           "package": "mtgoxapi",
@@ -3865,6 +4161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "dePrice",
           "package": "mtgoxapi",
@@ -3874,6 +4171,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "dePrice",
           "package": "mtgoxapi",
@@ -3887,6 +4185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "deStamp",
           "package": "mtgoxapi",
@@ -3896,6 +4195,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "deStamp",
           "package": "mtgoxapi",
@@ -3909,6 +4209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "duPrice",
           "package": "mtgoxapi",
@@ -3918,6 +4219,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "duPrice",
           "package": "mtgoxapi",
@@ -3931,6 +4233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "duType",
           "package": "mtgoxapi",
@@ -3940,6 +4243,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "duType",
           "package": "mtgoxapi",
@@ -3953,6 +4257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "duVolume",
           "package": "mtgoxapi",
@@ -3962,6 +4267,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "duVolume",
           "package": "mtgoxapi",
@@ -3975,6 +4281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "fdAsks",
           "package": "mtgoxapi",
@@ -3984,6 +4291,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "fdAsks",
           "normalized": "[DepthEntry]",
@@ -3999,6 +4307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "fdBids",
           "package": "mtgoxapi",
@@ -4008,6 +4317,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "fdBids",
           "normalized": "[DepthEntry]",
@@ -4023,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "idkKey",
           "package": "mtgoxapi",
@@ -4032,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "idkKey",
           "package": "mtgoxapi",
@@ -4045,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "oOrderID",
           "package": "mtgoxapi",
@@ -4054,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "oOrderID",
           "package": "mtgoxapi",
@@ -4067,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "oid",
           "package": "mtgoxapi",
@@ -4076,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "oid",
           "package": "mtgoxapi",
@@ -4088,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "oocCount",
           "package": "mtgoxapi",
@@ -4097,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "oocCount",
           "package": "mtgoxapi",
@@ -4110,6 +4428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "orTradeIDs",
           "package": "mtgoxapi",
@@ -4119,6 +4438,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "orTradeIDs",
           "normalized": "[TradeID]",
@@ -4134,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "parseStreamLine",
           "package": "mtgoxapi",
@@ -4143,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "parseStreamLine",
           "normalized": "ByteString-\u003eStreamMessage",
@@ -4158,6 +4480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "piBtcBalance",
           "package": "mtgoxapi",
@@ -4167,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "piBtcBalance",
           "package": "mtgoxapi",
@@ -4180,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "piBtcOperations",
           "package": "mtgoxapi",
@@ -4189,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "piBtcOperations",
           "package": "mtgoxapi",
@@ -4202,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "piFee",
           "package": "mtgoxapi",
@@ -4211,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "piFee",
           "package": "mtgoxapi",
@@ -4224,6 +4552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "piUsdBalance",
           "package": "mtgoxapi",
@@ -4233,6 +4562,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "piUsdBalance",
           "package": "mtgoxapi",
@@ -4246,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "piUsdOperations",
           "package": "mtgoxapi",
@@ -4255,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "piUsdOperations",
           "package": "mtgoxapi",
@@ -4268,6 +4600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "sChannel",
           "package": "mtgoxapi",
@@ -4277,6 +4610,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "sChannel",
           "package": "mtgoxapi",
@@ -4290,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "tid",
           "package": "mtgoxapi",
@@ -4299,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "tid",
           "package": "mtgoxapi",
@@ -4311,6 +4647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "tuAsk",
           "package": "mtgoxapi",
@@ -4320,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "tuAsk",
           "package": "mtgoxapi",
@@ -4333,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "tuBid",
           "package": "mtgoxapi",
@@ -4342,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "tuBid",
           "package": "mtgoxapi",
@@ -4355,6 +4695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "tuLast",
           "package": "mtgoxapi",
@@ -4364,6 +4705,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "tuLast",
           "package": "mtgoxapi",
@@ -4377,6 +4719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "usChannel",
           "package": "mtgoxapi",
@@ -4386,6 +4729,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "usChannel",
           "package": "mtgoxapi",
@@ -4399,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "weAmount",
           "package": "mtgoxapi",
@@ -4408,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "weAmount",
           "package": "mtgoxapi",
@@ -4421,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "weBalance",
           "package": "mtgoxapi",
@@ -4430,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "weBalance",
           "package": "mtgoxapi",
@@ -4443,6 +4791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "weDate",
           "package": "mtgoxapi",
@@ -4452,6 +4801,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "weDate",
           "package": "mtgoxapi",
@@ -4465,6 +4815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "weInfo",
           "package": "mtgoxapi",
@@ -4474,6 +4825,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "weInfo",
           "package": "mtgoxapi",
@@ -4487,6 +4839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "weType",
           "package": "mtgoxapi",
@@ -4496,6 +4849,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "weType",
           "package": "mtgoxapi",
@@ -4509,6 +4863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "whEntries",
           "package": "mtgoxapi",
@@ -4518,6 +4873,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "whEntries",
           "normalized": "[WalletEntry]",
@@ -4533,6 +4889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "woAmount",
           "package": "mtgoxapi",
@@ -4542,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "woAmount",
           "package": "mtgoxapi",
@@ -4555,6 +4913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "woType",
           "package": "mtgoxapi",
@@ -4564,6 +4923,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "woType",
           "package": "mtgoxapi",
@@ -4577,6 +4937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.Types",
           "name": "wsTxID",
           "package": "mtgoxapi",
@@ -4586,6 +4947,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI Types",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.Types",
           "name": "wsTxID",
           "package": "mtgoxapi",
@@ -4599,6 +4961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.WalletNotifier",
           "name": "WalletNotifier",
           "package": "mtgoxapi",
@@ -4607,6 +4970,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI WalletNotifier",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.WalletNotifier",
           "name": "WalletNotifier",
           "package": "mtgoxapi",
@@ -4620,6 +4984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.WalletNotifier",
           "name": "WalletNotifierHandle",
           "package": "mtgoxapi",
@@ -4628,6 +4993,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI WalletNotifier",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.WalletNotifier",
           "name": "WalletNotifierHandle",
           "package": "mtgoxapi",
@@ -4641,6 +5007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.WalletNotifier",
           "name": "initWalletNotifier",
           "package": "mtgoxapi",
@@ -4650,6 +5017,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI WalletNotifier",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.WalletNotifier",
           "name": "initWalletNotifier",
           "package": "mtgoxapi",
@@ -4663,6 +5031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI.WalletNotifier",
           "name": "updateWalletNotifier",
           "package": "mtgoxapi",
@@ -4672,6 +5041,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI WalletNotifier",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI.WalletNotifier",
           "name": "updateWalletNotifier",
           "normalized": "WalletNotifierHandle-\u003eStreamMessage-\u003eIO()",
@@ -4715,6 +5085,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library offers a wrapper around the Mt.Gox API. It focuses, above all,\n on reliability, in that many actions - if they are idempotent - are\n automatically retried for some time in case of errors (using\n \u003ca\u003eControl.Watchdog\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eThe library is able to maintain a copy of the current Mt.Gox order book by\n subscribing to real-time updates via the Mt.Gox websocket API. Based on this\n data the cost of hypothetical orders can then be calculated (e.g.\n \u003ccode\u003e\u003ca\u003esimulateBTCBuy\u003c/a\u003e\u003c/code\u003e). For this feature to work, it is necessary to run an\n instance of the MtGoxCachingProxy (\n \u003ca\u003ehttps://github.com/javgh/MtGoxCachingProxy\u003c/a\u003e ) to which the library will\n connect (using port 10508 on localhost).\n\u003c/p\u003e\u003cp\u003eNOTE: The library is currently hardcoded to work on the BTC/EUR pair for\n Mt.Gox only. This was done in a very hackish way, which is why many of the\n function names still contain \u003ccode\u003eUSD\u003c/code\u003e, because BTC/USD was the previously used\n pair. I apologize for this terrible source of confusion. I had planned to\n clean this up, but you know how priorities change around sometimes. Patches\n to fix this properly, at the cost of breaking changes, and to ideally make the\n currency pair configurable are welcome.\n\u003c/p\u003e\u003cp\u003eExample usage:\n\u003c/p\u003e\u003cpre\u003e import Network.MtGoxAPI\n\n import qualified Data.ByteString.Char8 as B8\n\n main :: IO ()\n main = do\n     putStrLn \"Please provide your API key: \"\n     authKey \u003c- getLine\n     putStrLn \"Please provide your API secret: \"\n     authSecret \u003c- getLine\n     let credentials = initMtGoxCredentials (B8.pack authKey)\n                                            (B8.pack authSecret)\n         streamSettings = MtGoxStreamSettings DisableWalletNotifications\n                                              SkipFullDepth\n     apiHandles \u003c- initMtGoxAPI Nothing credentials streamSettings\n     getPrivateInfoR apiHandles \u003e\u003e= print\n\u003c/pre\u003e\u003cp\u003eExample output:\n\u003c/p\u003e\u003cpre\u003e\n Please provide your API key:\n ...\n Please provide your API secret:\n ...\n Right (PrivateInfo {piBtcBalance = 1000000, piUsdBalance = 846450,\n piBtcOperations = 441, piUsdOperations = 6, piFee = 0.45})\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI",
           "name": "MtGoxAPI",
           "package": "mtgoxapi",
@@ -4724,6 +5095,7 @@
         "index": {
           "description": "This library offers wrapper around the Mt.Gox API It focuses above all on reliability in that many actions if they are idempotent are automatically retried for some time in case of errors using Control.Watchdog The library is able to maintain copy of the current Mt.Gox order book by subscribing to real-time updates via the Mt.Gox websocket API Based on this data the cost of hypothetical orders can then be calculated e.g simulateBTCBuy For this feature to work it is necessary to run an instance of the MtGoxCachingProxy https github.com javgh MtGoxCachingProxy to which the library will connect using port on localhost NOTE The library is currently hardcoded to work on the BTC EUR pair for Mt.Gox only This was done in very hackish way which is why many of the function names still contain USD because BTC USD was the previously used pair apologize for this terrible source of confusion had planned to clean this up but you know how priorities change around sometimes Patches to fix this properly at the cost of breaking changes and to ideally make the currency pair configurable are welcome Example usage import Network.MtGoxAPI import qualified Data.ByteString.Char8 as B8 main IO main do putStrLn Please provide your API key authKey getLine putStrLn Please provide your API secret authSecret getLine let credentials initMtGoxCredentials B8.pack authKey B8.pack authSecret streamSettings MtGoxStreamSettings DisableWalletNotifications SkipFullDepth apiHandles initMtGoxAPI Nothing credentials streamSettings getPrivateInfoR apiHandles print Example output Please provide your API key Please provide your API secret Right PrivateInfo piBtcBalance piUsdBalance piBtcOperations piUsdOperations piFee",
           "hierarchy": "Network MtGoxAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI",
           "name": "MtGoxAPI",
           "package": "mtgoxapi",
@@ -4737,6 +5109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI",
           "name": "DepthStoreAnswer",
           "package": "mtgoxapi",
@@ -4745,6 +5118,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI",
           "name": "DepthStoreAnswer",
           "package": "mtgoxapi",
@@ -4758,6 +5132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI",
           "name": "OrderStats",
           "package": "mtgoxapi",
@@ -4766,6 +5141,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI",
           "name": "OrderStats",
           "package": "mtgoxapi",
@@ -4779,6 +5155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI",
           "name": "TickerStatus",
           "package": "mtgoxapi",
@@ -4787,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Network MtGoxAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI",
           "name": "TickerStatus",
           "package": "mtgoxapi",
@@ -4801,6 +5179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ca\u003egetBitcoinDepositAddressR\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI",
           "name": "getBitcoinDepositAddressR",
           "package": "mtgoxapi",
@@ -4811,6 +5190,7 @@
         "index": {
           "description": "Wrapper around getBitcoinDepositAddressR",
           "hierarchy": "Network MtGoxAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI",
           "name": "getBitcoinDepositAddressR",
           "normalized": "MtGoxAPIHandles-\u003eIO(Either String BitcoinDepositAddress)",
@@ -4827,6 +5207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ca\u003egetOrderCountR\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI",
           "name": "getOrderCountR",
           "package": "mtgoxapi",
@@ -4837,6 +5218,7 @@
         "index": {
           "description": "Wrapper around getOrderCountR",
           "hierarchy": "Network MtGoxAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI",
           "name": "getOrderCountR",
           "normalized": "MtGoxAPIHandles-\u003eIO(Either String OpenOrderCount)",
@@ -4853,6 +5235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ca\u003egetPrivateInfoR\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI",
           "name": "getPrivateInfoR",
           "package": "mtgoxapi",
@@ -4863,6 +5246,7 @@
         "index": {
           "description": "Wrapper around getPrivateInfoR",
           "hierarchy": "Network MtGoxAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI",
           "name": "getPrivateInfoR",
           "normalized": "MtGoxAPIHandles-\u003eIO(Either String PrivateInfo)",
@@ -4879,6 +5263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRolls all the individual init functions into one. Namely\n \u003ccode\u003e\u003ca\u003einitTickerMonitor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003einitDepthStore\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003einitCurlWrapper\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003einitWalletNotifier\u003c/a\u003e\u003c/code\u003e and finally \u003ccode\u003e\u003ca\u003einitMtGoxStream\u003c/a\u003e\u003c/code\u003e. All handles are returned\n in one package and can then be used in combination with the various functions\n from the submodules which are re-exported here for convenience.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI",
           "name": "initMtGoxAPI",
           "package": "mtgoxapi",
@@ -4889,6 +5274,7 @@
         "index": {
           "description": "Rolls all the individual init functions into one Namely initTickerMonitor initDepthStore initCurlWrapper initWalletNotifier and finally initMtGoxStream All handles are returned in one package and can then be used in combination with the various functions from the submodules which are re-exported here for convenience",
           "hierarchy": "Network MtGoxAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI",
           "name": "initMtGoxAPI",
           "normalized": "Maybe WatchdogLogger-\u003eMtGoxCredentials-\u003eMtGoxStreamSettings-\u003eIO MtGoxAPIHandles",
@@ -4905,6 +5291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ca\u003esubmitBtcBuyOrder\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI",
           "name": "submitBtcBuyOrder",
           "package": "mtgoxapi",
@@ -4915,6 +5302,7 @@
         "index": {
           "description": "Wrapper around submitBtcBuyOrder",
           "hierarchy": "Network MtGoxAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI",
           "name": "submitBtcBuyOrder",
           "normalized": "MtGoxAPIHandles-\u003eInteger-\u003eIO(Either String Order)",
@@ -4931,6 +5319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ca\u003esubmitBtcSellOrder\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI",
           "name": "submitBtcSellOrder",
           "package": "mtgoxapi",
@@ -4941,6 +5330,7 @@
         "index": {
           "description": "Wrapper around submitBtcSellOrder",
           "hierarchy": "Network MtGoxAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI",
           "name": "submitBtcSellOrder",
           "normalized": "MtGoxAPIHandles-\u003eInteger-\u003eIO(Either String Order)",
@@ -4957,6 +5347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ca\u003esubmitOrder\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI",
           "name": "submitOrder",
           "package": "mtgoxapi",
@@ -4967,6 +5358,7 @@
         "index": {
           "description": "Wrapper around submitOrder",
           "hierarchy": "Network MtGoxAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI",
           "name": "submitOrder",
           "normalized": "MtGoxAPIHandles-\u003eOrderType-\u003eInteger-\u003eIO(Either String OrderStats)",
@@ -4983,6 +5375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ca\u003ewithdrawBitcoins\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:15 UTC 2014",
           "module": "Network.MtGoxAPI",
           "name": "withdrawBitcoins",
           "package": "mtgoxapi",
@@ -4993,6 +5386,7 @@
         "index": {
           "description": "Wrapper around withdrawBitcoins",
           "hierarchy": "Network MtGoxAPI",
+          "indexed": "2014-03-11T19:23:15",
           "module": "Network.MtGoxAPI",
           "name": "withdrawBitcoins",
           "normalized": "MtGoxAPIHandles-\u003eBitcoinAddress-\u003eInteger-\u003eIO(Either String WithdrawResult)",

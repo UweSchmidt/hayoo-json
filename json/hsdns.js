@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsdns"
+        "phrase": "hsdns",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides bindings to GNU ADNS, a domain name\n   resolver library written in C. ADNS is available from\n   \u003ca\u003ehttp://www.gnu.org/software/adns/\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eYou will most likely not need this module directly: \u003ca\u003eADNS\u003c/a\u003e\n   provides a simpler API for the Haskell world; this module\n   contains mostly marshaling code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "Base",
           "package": "hsdns",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides bindings to GNU ADNS domain name resolver library written in ADNS is available from http www.gnu.org software adns You will most likely not need this module directly ADNS provides simpler API for the Haskell world this module contains mostly marshaling code",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "Base",
           "package": "hsdns",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "AdnsState",
           "package": "hsdns",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "AdnsState",
           "package": "hsdns",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "Answer",
           "package": "hsdns",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "Answer",
           "package": "hsdns",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "InitFlag",
           "package": "hsdns",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "InitFlag",
           "package": "hsdns",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "OpaqueQuery",
           "package": "hsdns",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "OpaqueQuery",
           "package": "hsdns",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "OpaqueState",
           "package": "hsdns",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "OpaqueState",
           "package": "hsdns",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "Query",
           "package": "hsdns",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "Query",
           "package": "hsdns",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "QueryFlag",
           "package": "hsdns",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "QueryFlag",
           "package": "hsdns",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRAddr",
           "package": "hsdns",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRAddr",
           "package": "hsdns",
@@ -210,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriginal definition:\n\u003c/p\u003e\u003cpre\u003e    typedef struct {\n      int len;\n      unsigned char *data;\n    } adns_rr_byteblock;\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRByteblock",
           "package": "hsdns",
@@ -219,6 +238,7 @@
         "index": {
           "description": "Original definition typedef struct int len unsigned char data adns rr byteblock",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRByteblock",
           "package": "hsdns",
@@ -233,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriginal definition:\n\u003c/p\u003e\u003cpre\u003e    typedef struct {\n      char *host;\n      adns_status astatus;\n      int naddrs; /* temp fail =\u003e -1, perm fail =\u003e 0, s_ok =\u003e \u003e0\n      adns_rr_addr *addrs;\n    } adns_rr_hostaddr;\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003enaddrs\u003c/code\u003e field is not available in \u003ccode\u003eRRHostAddr\u003c/code\u003e\n because I couldn't see how that information wouldn't be\n available in the \u003ccode\u003eastatus\u003c/code\u003e field too. If I missed\n anything, please let me know.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: The data type should probably contain\n \u003ccode\u003e\u003ca\u003eHostAddress\u003c/a\u003e\u003c/code\u003e rather than \u003ccode\u003e\u003ca\u003eRRAddr\u003c/a\u003e\u003c/code\u003e. I'm using the former\n only because it has nicer output with \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003epoke\u003c/a\u003e\u003c/code\u003e is\n not defined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRHostAddr",
           "package": "hsdns",
@@ -242,6 +263,7 @@
         "index": {
           "description": "Original definition typedef struct char host adns status astatus int naddrs temp fail perm fail ok adns rr addr addrs adns rr hostaddr The naddrs field is not available in RRHostAddr because couldn see how that information wouldn be available in the astatus field too If missed anything please let me know Note The data type should probably contain HostAddress rather than RRAddr using the former only because it has nicer output with show poke is not defined",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRHostAddr",
           "package": "hsdns",
@@ -256,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriginal definition:\n\u003c/p\u003e\u003cpre\u003e    typedef struct {\n      int i;\n      adns_rr_hostaddr ha;\n    } adns_rr_inthostaddr;\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRIntHostAddr",
           "package": "hsdns",
@@ -265,6 +288,7 @@
         "index": {
           "description": "Original definition typedef struct int adns rr hostaddr ha adns rr inthostaddr",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRIntHostAddr",
           "package": "hsdns",
@@ -279,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriginal definition:\n\u003c/p\u003e\u003cpre\u003e    typedef struct {\n      int priority, weight, port;\n      char *host;\n    } adns_rr_srvraw;\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRSrvRaw",
           "package": "hsdns",
@@ -288,6 +313,7 @@
         "index": {
           "description": "Original definition typedef struct int priority weight port char host adns rr srvraw",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRSrvRaw",
           "package": "hsdns",
@@ -302,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe record types we support.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRType",
           "package": "hsdns",
@@ -311,6 +338,7 @@
         "index": {
           "description": "The record types we support",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRType",
           "package": "hsdns",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "Response",
           "package": "hsdns",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "Response",
           "package": "hsdns",
@@ -346,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe status codes recognized by ADNS vary in different\n versions of the library. So instead of providing an\n \u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e, the \u003ccode\u003e\u003ca\u003eStatus\u003c/a\u003e\u003c/code\u003e type contains the numeric value as\n returned by ADNS itself. For common status codes, helper\n functions like \u003ccode\u003e\u003ca\u003esOK\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003esNXDOMAIN\u003c/a\u003e\u003c/code\u003e are provided. The\n functions \u003ccode\u003e\u003ca\u003eadnsErrTypeAbbrev\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eadnsErrAbbrev\u003c/a\u003e\u003c/code\u003e, and\n \u003ccode\u003e\u003ca\u003eadnsStrerror\u003c/a\u003e\u003c/code\u003e can also be used to map these codes into\n human readable strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "Status",
           "package": "hsdns",
@@ -355,6 +386,7 @@
         "index": {
           "description": "The status codes recognized by ADNS vary in different versions of the library So instead of providing an Enum the Status type contains the numeric value as returned by ADNS itself For common status codes helper functions like sOK or sNXDOMAIN are provided The functions adnsErrTypeAbbrev adnsErrAbbrev and adnsStrerror can also be used to map these codes into human readable strings",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "Status",
           "package": "hsdns",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "A",
           "package": "hsdns",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "A",
           "package": "hsdns",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "Answer",
           "package": "hsdns",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "Answer",
           "package": "hsdns",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "CNAME",
           "package": "hsdns",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "CNAME",
           "package": "hsdns",
@@ -434,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edon't follow CNAMEs, instead give _s_cname\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "CName_Forbid",
           "package": "hsdns",
@@ -444,6 +483,7 @@
         "index": {
           "description": "don follow CNAMEs instead give cname",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "CName_Forbid",
           "package": "hsdns",
@@ -458,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eallow refs to CNAMEs - without, get _s_cname\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "CName_Loose",
           "package": "hsdns",
@@ -468,6 +509,7 @@
         "index": {
           "description": "allow refs to CNAMEs without get cname",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "CName_Loose",
           "package": "hsdns",
@@ -606,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "MX",
           "package": "hsdns",
@@ -615,6 +658,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "MX",
           "package": "hsdns",
@@ -628,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "NS",
           "package": "hsdns",
@@ -637,6 +682,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "NS",
           "package": "hsdns",
@@ -650,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "NSEC",
           "package": "hsdns",
@@ -659,6 +706,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "NSEC",
           "package": "hsdns",
@@ -798,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efill in the owner field in the answer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "Owner",
           "package": "hsdns",
@@ -808,6 +857,7 @@
         "index": {
           "description": "fill in the owner field in the answer",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "Owner",
           "package": "hsdns",
@@ -821,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "PTR",
           "package": "hsdns",
@@ -830,6 +881,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "PTR",
           "package": "hsdns",
@@ -844,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erefuse if quote-req chars in CNAME we go via\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "QuoteFail_CName",
           "package": "hsdns",
@@ -854,6 +907,7 @@
         "index": {
           "description": "refuse if quote-req chars in CNAME we go via",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "QuoteFail_CName",
           "package": "hsdns",
@@ -868,6 +922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eallow special chars in things supposed to be hostnames\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "QuoteOk_AnsHost",
           "package": "hsdns",
@@ -878,6 +933,7 @@
         "index": {
           "description": "allow special chars in things supposed to be hostnames",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "QuoteOk_AnsHost",
           "package": "hsdns",
@@ -892,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eallow special chars in CNAME we go via (default)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "QuoteOk_CName",
           "package": "hsdns",
@@ -902,6 +959,7 @@
         "index": {
           "description": "allow special chars in CNAME we go via default",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "QuoteOk_CName",
           "package": "hsdns",
@@ -916,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eallow special chars in query domain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "QuoteOk_Query",
           "package": "hsdns",
@@ -926,6 +985,7 @@
         "index": {
           "description": "allow special chars in query domain",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "QuoteOk_Query",
           "package": "hsdns",
@@ -939,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRA",
           "package": "hsdns",
@@ -948,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRA",
           "package": "hsdns",
@@ -961,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRAddr",
           "package": "hsdns",
@@ -970,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRAddr",
           "package": "hsdns",
@@ -983,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRByteblock",
           "package": "hsdns",
@@ -992,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRByteblock",
           "package": "hsdns",
@@ -1005,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRCNAME",
           "package": "hsdns",
@@ -1014,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRCNAME",
           "package": "hsdns",
@@ -1027,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRHostAddr",
           "package": "hsdns",
@@ -1036,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRHostAddr",
           "normalized": "RRHostAddr HostName Status[RRAddr]",
@@ -1051,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRIntHostAddr",
           "package": "hsdns",
@@ -1060,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRIntHostAddr",
           "package": "hsdns",
@@ -1073,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRMX",
           "package": "hsdns",
@@ -1082,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRMX",
           "package": "hsdns",
@@ -1095,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRNS",
           "package": "hsdns",
@@ -1104,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRNS",
           "package": "hsdns",
@@ -1117,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRNSEC",
           "package": "hsdns",
@@ -1126,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRNSEC",
           "package": "hsdns",
@@ -1139,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRPTR",
           "package": "hsdns",
@@ -1148,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRPTR",
           "package": "hsdns",
@@ -1161,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRSRV",
           "package": "hsdns",
@@ -1170,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRSRV",
           "package": "hsdns",
@@ -1183,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRSrvRaw",
           "package": "hsdns",
@@ -1192,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRSrvRaw",
           "package": "hsdns",
@@ -1205,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRType",
           "package": "hsdns",
@@ -1214,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRType",
           "package": "hsdns",
@@ -1227,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "RRUNKNOWN",
           "package": "hsdns",
@@ -1236,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "RRUNKNOWN",
           "package": "hsdns",
@@ -1249,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "SRV",
           "package": "hsdns",
@@ -1258,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "SRV",
           "package": "hsdns",
@@ -1272,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse the searchlist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "Search",
           "package": "hsdns",
@@ -1282,6 +1373,7 @@
         "index": {
           "description": "use the searchlist",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "Search",
           "package": "hsdns",
@@ -1295,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "StatusCode",
           "package": "hsdns",
@@ -1304,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "StatusCode",
           "package": "hsdns",
@@ -1318,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse a virtual circuit (TCP connection)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "UseVC",
           "package": "hsdns",
@@ -1328,6 +1423,7 @@
         "index": {
           "description": "use virtual circuit TCP connection",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "UseVC",
           "package": "hsdns",
@@ -1342,6 +1438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCancel an open \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adnsCancel",
           "package": "hsdns",
@@ -1352,6 +1449,7 @@
         "index": {
           "description": "Cancel an open Query",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adnsCancel",
           "normalized": "Query-\u003eIO()",
@@ -1368,6 +1466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck the status of an asynchronous query. If the query\n is complete, the \u003ccode\u003e\u003ca\u003eAnswer\u003c/a\u003e\u003c/code\u003e will be returned. The \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e\n becomes invalid after that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adnsCheck",
           "package": "hsdns",
@@ -1378,6 +1477,7 @@
         "index": {
           "description": "Check the status of an asynchronous query If the query is complete the Answer will be returned The Query becomes invalid after that",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adnsCheck",
           "normalized": "AdnsState-\u003eQuery-\u003eIO(Maybe Answer)",
@@ -1394,6 +1494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a \u003ccode\u003e\u003ca\u003eStatus\u003c/a\u003e\u003c/code\u003e code to a short error name. Don't use\n this function to print a status code unless you've\n obtained it from the resolver!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adnsErrAbbrev",
           "package": "hsdns",
@@ -1404,6 +1505,7 @@
         "index": {
           "description": "Map Status code to short error name Don use this function to print status code unless you ve obtained it from the resolver",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adnsErrAbbrev",
           "normalized": "Status-\u003eIO String",
@@ -1420,6 +1522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a \u003ccode\u003e\u003ca\u003eStatus\u003c/a\u003e\u003c/code\u003e code to a short description of the type\n of error. Don't use this function to print a status code\n unless you've obtained it from the resolver!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adnsErrTypeAbbrev",
           "package": "hsdns",
@@ -1430,6 +1533,7 @@
         "index": {
           "description": "Map Status code to short description of the type of error Don use this function to print status code unless you ve obtained it from the resolver",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adnsErrTypeAbbrev",
           "normalized": "Status-\u003eIO String",
@@ -1446,6 +1550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the given \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation with an initialized\n resolver. As of now, the diagnose stream is always set to\n \u003ccode\u003e\u003ca\u003estderr\u003c/a\u003e\u003c/code\u003e. Initialize the library with \u003ccode\u003e\u003ca\u003eNoErrPrint\u003c/a\u003e\u003c/code\u003e if you\n don't wont to see any error output. All resources are\n freed when \u003ccode\u003eadnsInit\u003c/code\u003e returns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adnsInit",
           "package": "hsdns",
@@ -1456,6 +1561,7 @@
         "index": {
           "description": "Run the given IO computation with an initialized resolver As of now the diagnose stream is always set to stderr Initialize the library with NoErrPrint if you don wont to see any error output All resources are freed when adnsInit returns",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adnsInit",
           "normalized": "[InitFlag]-\u003e(AdnsState-\u003eIO a)-\u003eIO a",
@@ -1472,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eadnsInit\u003c/a\u003e\u003c/code\u003e, but reads the resolver\n configuration from a string rather than from\n \u003ccode\u003e/etc/resolv.conf\u003c/code\u003e. Supported are the usual commands:\n \u003ccode\u003enameserver\u003c/code\u003e, \u003ccode\u003esearch\u003c/code\u003e, \u003ccode\u003edomain\u003c/code\u003e, \u003ccode\u003esortlist\u003c/code\u003e, and\n \u003ccode\u003eoptions\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAdditionally, these non-standard commands may be used:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eclearnameservers\u003c/code\u003e: Clears the list of nameservers.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003einclude filename\u003c/code\u003e: The specified file will be read.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adnsInitCfg",
           "package": "hsdns",
@@ -1482,6 +1589,7 @@
         "index": {
           "description": "Similar to adnsInit but reads the resolver configuration from string rather than from etc resolv.conf Supported are the usual commands nameserver search domain sortlist and options Additionally these non-standard commands may be used clearnameservers Clears the list of nameservers include filename The specified file will be read",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adnsInitCfg",
           "normalized": "[InitFlag]-\u003eString-\u003e(AdnsState-\u003eIO a)-\u003eIO a",
@@ -1498,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the list of all currently open queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adnsQueries",
           "package": "hsdns",
@@ -1508,6 +1617,7 @@
         "index": {
           "description": "Return the list of all currently open queries",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adnsQueries",
           "normalized": "AdnsState-\u003eIO[Query]",
@@ -1524,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a \u003ccode\u003e\u003ca\u003eStatus\u003c/a\u003e\u003c/code\u003e code to a human-readable error\n description. For example:\n\u003c/p\u003e\u003cpre\u003e    *ADNS\u003e adnsStrerror sNXDOMAIN \u003e\u003e= print\n    \"No such domain\"\n\u003c/pre\u003e\u003cp\u003eUse this function with great care: It will crash the\n process when called with a status code that ADNS doesn't\n know about. So use it only to print values you got from\n the resolver!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adnsStrerror",
           "package": "hsdns",
@@ -1534,6 +1645,7 @@
         "index": {
           "description": "Map Status code to human-readable error description For example ADNS adnsStrerror sNXDOMAIN print No such domain Use this function with great care It will crash the process when called with status code that ADNS doesn know about So use it only to print values you got from the resolver",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adnsStrerror",
           "normalized": "Status-\u003eIO String",
@@ -1550,6 +1662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubmit an asynchronous query. The returned \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e can\n be tested for completion with \u003ccode\u003e\u003ca\u003eadnsCheck\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adnsSubmit",
           "package": "hsdns",
@@ -1560,6 +1673,7 @@
         "index": {
           "description": "Submit an asynchronous query The returned Query can be tested for completion with adnsCheck",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adnsSubmit",
           "normalized": "AdnsState-\u003eString-\u003eRRType-\u003e[QueryFlag]-\u003eIO Query",
@@ -1576,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a synchronous query for a record. In case of an\n I/O error, an \u003ccode\u003e\u003ca\u003eIOException\u003c/a\u003e\u003c/code\u003e is thrown.\n If the query fails for other reasons, the \u003ccode\u003e\u003ca\u003eStatus\u003c/a\u003e\u003c/code\u003e code\n in the \u003ccode\u003e\u003ca\u003eAnswer\u003c/a\u003e\u003c/code\u003e will signify that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adnsSynch",
           "package": "hsdns",
@@ -1586,6 +1701,7 @@
         "index": {
           "description": "Perform synchronous query for record In case of an error an IOException is thrown If the query fails for other reasons the Status code in the Answer will signify that",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adnsSynch",
           "normalized": "AdnsState-\u003eString-\u003eRRType-\u003e[QueryFlag]-\u003eIO Answer",
@@ -1602,6 +1718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for a response to arrive. The returned \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e is\n invalid and must not be passed to ADNS again. If \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is\n returned, the resolver is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adnsWait",
           "package": "hsdns",
@@ -1612,6 +1729,7 @@
         "index": {
           "description": "Wait for response to arrive The returned Query is invalid and must not be passed to ADNS again If Nothing is returned the resolver is empty",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adnsWait",
           "normalized": "AdnsState-\u003eIO(Maybe(Query,Answer))",
@@ -1627,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adns_check",
           "package": "hsdns",
@@ -1636,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adns_check",
           "normalized": "AdnsState-\u003ePtr Query-\u003ePtr(Ptr Answer)-\u003ePtr(Ptr a)-\u003eIO CInt",
@@ -1650,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adns_errabbrev",
           "package": "hsdns",
@@ -1659,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adns_errabbrev",
           "normalized": "CInt-\u003eIO CString",
@@ -1673,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adns_errtypeabbrev",
           "package": "hsdns",
@@ -1682,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adns_errtypeabbrev",
           "normalized": "CInt-\u003eIO CString",
@@ -1696,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adns_finish",
           "package": "hsdns",
@@ -1705,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adns_finish",
           "normalized": "AdnsState-\u003eIO()",
@@ -1719,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adns_forallqueries_begin",
           "package": "hsdns",
@@ -1728,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adns_forallqueries_begin",
           "normalized": "AdnsState-\u003eIO()",
@@ -1742,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adns_forallqueries_next",
           "package": "hsdns",
@@ -1751,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adns_forallqueries_next",
           "normalized": "AdnsState-\u003ePtr(Ptr a)-\u003eIO Query",
@@ -1765,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adns_init",
           "package": "hsdns",
@@ -1774,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adns_init",
           "normalized": "Ptr AdnsState-\u003eCInt-\u003ePtr CFile-\u003eIO CInt",
@@ -1788,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adns_init_strcfg",
           "package": "hsdns",
@@ -1797,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adns_init_strcfg",
           "normalized": "Ptr AdnsState-\u003eCInt-\u003ePtr CFile-\u003eCString-\u003eIO CInt",
@@ -1811,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adns_strerror",
           "package": "hsdns",
@@ -1820,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adns_strerror",
           "normalized": "CInt-\u003eIO CString",
@@ -1834,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adns_submit",
           "package": "hsdns",
@@ -1843,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adns_submit",
           "normalized": "AdnsState-\u003eCString-\u003eCInt-\u003eCInt-\u003ePtr a-\u003ePtr Query-\u003eIO CInt",
@@ -1857,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adns_synchronous",
           "package": "hsdns",
@@ -1866,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adns_synchronous",
           "normalized": "AdnsState-\u003eCString-\u003eCInt-\u003eCInt-\u003ePtr(Ptr Answer)-\u003eIO CInt",
@@ -1881,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for the next \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e to become available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "adns_wait",
           "package": "hsdns",
@@ -1891,6 +2032,7 @@
         "index": {
           "description": "Wait for the next Query to become available",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "adns_wait",
           "normalized": "AdnsState-\u003ePtr Query-\u003ePtr(Ptr Answer)-\u003ePtr(Ptr a)-\u003eIO CInt",
@@ -1906,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003eCNAME\u003c/code\u003e queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "cname",
           "package": "hsdns",
@@ -1916,6 +2059,7 @@
         "index": {
           "description": "Always Nothing for CNAME queries",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "cname",
           "package": "hsdns",
@@ -1929,6 +2073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly defined if status is \u003ccode\u003e\u003ca\u003esOK\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esNXDOMAIN\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003esNODATA\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "expires",
           "package": "hsdns",
@@ -1939,6 +2084,7 @@
         "index": {
           "description": "Only defined if status is sOK sNXDOMAIN or sNODATA",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "expires",
           "package": "hsdns",
@@ -1952,6 +2098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a list of flags (\u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e types) into a \u003ccode\u003e\u003ca\u003eCInt\u003c/a\u003e\u003c/code\u003e\n suitable for adns calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "mkFlags",
           "package": "hsdns",
@@ -1962,6 +2109,7 @@
         "index": {
           "description": "Map list of flags Enum types into CInt suitable for adns calls",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "mkFlags",
           "normalized": "[a]-\u003eCInt",
@@ -1978,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly set if \u003ccode\u003e\u003ca\u003eOwner\u003c/a\u003e\u003c/code\u003e was requested for query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "owner",
           "package": "hsdns",
@@ -1988,6 +2137,7 @@
         "index": {
           "description": "Only set if Owner was requested for query",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "owner",
           "package": "hsdns",
@@ -2001,6 +2151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function parses a FQDN in uncompressed wire format and advances\n the pointer to the next byte after the parsed name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "peekFQDNAndAdvance",
           "package": "hsdns",
@@ -2011,6 +2162,7 @@
         "index": {
           "description": "This function parses FQDN in uncompressed wire format and advances the pointer to the next byte after the parsed name",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "peekFQDNAndAdvance",
           "normalized": "Ptr a-\u003eInt-\u003eIO(String,Ptr a)",
@@ -2027,6 +2179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function parses the \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e union found in\n \u003ccode\u003e\u003ca\u003eAnswer\u003c/a\u003e\u003c/code\u003e. It cannot be defined via \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e because it\n needs to know the type of the record to expect. This is,\n by the way, the function to look at, if you want to add\n support for additional \u003ccode\u003e\u003ca\u003eRRType\u003c/a\u003e\u003c/code\u003e records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "peekResp",
           "package": "hsdns",
@@ -2037,6 +2190,7 @@
         "index": {
           "description": "This function parses the Response union found in Answer It cannot be defined via Storable because it needs to know the type of the record to expect This is by the way the function to look at if you want to add support for additional RRType records",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "peekResp",
           "normalized": "RRType-\u003ePtr a-\u003eInt-\u003eInt-\u003eIO[Response]",
@@ -2053,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list will be empty if an error occured.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "rrs",
           "package": "hsdns",
@@ -2063,6 +2218,7 @@
         "index": {
           "description": "The list will be empty if an error occured",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "rrs",
           "normalized": "[Response]",
@@ -2077,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sALLSERVFAIL",
           "package": "hsdns",
@@ -2086,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sALLSERVFAIL",
           "package": "hsdns",
@@ -2099,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sANSWERDOMAININVALID",
           "package": "hsdns",
@@ -2108,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sANSWERDOMAININVALID",
           "package": "hsdns",
@@ -2121,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sANSWERDOMAINTOOLONG",
           "package": "hsdns",
@@ -2130,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sANSWERDOMAINTOOLONG",
           "package": "hsdns",
@@ -2143,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sINCONSISTENT",
           "package": "hsdns",
@@ -2152,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sINCONSISTENT",
           "package": "hsdns",
@@ -2165,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sINVALIDDATA",
           "package": "hsdns",
@@ -2174,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sINVALIDDATA",
           "package": "hsdns",
@@ -2187,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sINVALIDRESPONSE",
           "package": "hsdns",
@@ -2196,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sINVALIDRESPONSE",
           "package": "hsdns",
@@ -2209,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sMAX_LOCALFAIL",
           "package": "hsdns",
@@ -2218,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sMAX_LOCALFAIL",
           "package": "hsdns",
@@ -2231,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sMAX_MISCONFIG",
           "package": "hsdns",
@@ -2240,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sMAX_MISCONFIG",
           "package": "hsdns",
@@ -2253,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sMAX_MISQUERY",
           "package": "hsdns",
@@ -2262,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sMAX_MISQUERY",
           "package": "hsdns",
@@ -2275,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sMAX_PERMFAIL",
           "package": "hsdns",
@@ -2284,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sMAX_PERMFAIL",
           "package": "hsdns",
@@ -2297,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sMAX_REMOTEFAIL",
           "package": "hsdns",
@@ -2306,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sMAX_REMOTEFAIL",
           "package": "hsdns",
@@ -2320,6 +2498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriginal definition:\n\u003c/p\u003e\u003cpre\u003e    typedef struct {\n      int len;\n      union {\n        struct sockaddr sa;\n        struct sockaddr_in inet;\n      } addr;\n    } adns_rr_addr;\n\u003c/pre\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: Anything but \u003ccode\u003esockaddr_in\u003c/code\u003e will cause \u003ccode\u003e\u003ca\u003epeek\u003c/a\u003e\u003c/code\u003e to call \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e,\n when marshaling this structure. \u003ccode\u003e\u003ca\u003epoke\u003c/a\u003e\u003c/code\u003e is not defined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sMAX_TEMPFAIL",
           "package": "hsdns",
@@ -2330,6 +2509,7 @@
         "index": {
           "description": "Original definition typedef struct int len union struct sockaddr sa struct sockaddr in inet addr adns rr addr Note Anything but sockaddr in will cause peek to call fail when marshaling this structure poke is not defined",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sMAX_TEMPFAIL",
           "package": "hsdns",
@@ -2343,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sNODATA",
           "package": "hsdns",
@@ -2352,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sNODATA",
           "package": "hsdns",
@@ -2365,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sNOMEMORY",
           "package": "hsdns",
@@ -2374,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sNOMEMORY",
           "package": "hsdns",
@@ -2387,6 +2571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sNORECURSE",
           "package": "hsdns",
@@ -2396,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sNORECURSE",
           "package": "hsdns",
@@ -2409,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sNXDOMAIN",
           "package": "hsdns",
@@ -2418,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sNXDOMAIN",
           "package": "hsdns",
@@ -2431,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sOK",
           "package": "hsdns",
@@ -2440,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sOK",
           "package": "hsdns",
@@ -2453,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sPROHIBITEDCNAME",
           "package": "hsdns",
@@ -2462,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sPROHIBITEDCNAME",
           "package": "hsdns",
@@ -2475,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sQUERYDOMAININVALID",
           "package": "hsdns",
@@ -2484,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sQUERYDOMAININVALID",
           "package": "hsdns",
@@ -2497,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sQUERYDOMAINTOOLONG",
           "package": "hsdns",
@@ -2506,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sQUERYDOMAINTOOLONG",
           "package": "hsdns",
@@ -2519,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sQUERYDOMAINWRONG",
           "package": "hsdns",
@@ -2528,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sQUERYDOMAINWRONG",
           "package": "hsdns",
@@ -2541,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sRCODEFORMATERROR",
           "package": "hsdns",
@@ -2550,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sRCODEFORMATERROR",
           "package": "hsdns",
@@ -2563,6 +2763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sRCODENOTIMPLEMENTED",
           "package": "hsdns",
@@ -2572,6 +2773,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sRCODENOTIMPLEMENTED",
           "package": "hsdns",
@@ -2585,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sRCODEREFUSED",
           "package": "hsdns",
@@ -2594,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sRCODEREFUSED",
           "package": "hsdns",
@@ -2607,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sRCODESERVFAIL",
           "package": "hsdns",
@@ -2616,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sRCODESERVFAIL",
           "package": "hsdns",
@@ -2629,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sRCODEUNKNOWN",
           "package": "hsdns",
@@ -2638,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sRCODEUNKNOWN",
           "package": "hsdns",
@@ -2651,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sSYSTEMFAIL",
           "package": "hsdns",
@@ -2660,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sSYSTEMFAIL",
           "package": "hsdns",
@@ -2673,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sTIMEOUT",
           "package": "hsdns",
@@ -2682,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sTIMEOUT",
           "package": "hsdns",
@@ -2695,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sUNKNOWNFORMAT",
           "package": "hsdns",
@@ -2704,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sUNKNOWNFORMAT",
           "package": "hsdns",
@@ -2717,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "sUNKNOWNRRTYPE",
           "package": "hsdns",
@@ -2726,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "sUNKNOWNRRTYPE",
           "package": "hsdns",
@@ -2740,6 +2956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus code for this query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "status",
           "package": "hsdns",
@@ -2750,6 +2967,7 @@
         "index": {
           "description": "Status code for this query",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "status",
           "package": "hsdns",
@@ -2763,6 +2981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternel helper function to handle result passing from\n ADNS via \u003ccode\u003ePtr (Ptr a)\u003c/code\u003e, and to generate human-readable IO\n exceptions in case of an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Base",
           "name": "wrapAdns",
           "package": "hsdns",
@@ -2773,6 +2992,7 @@
         "index": {
           "description": "Internel helper function to handle result passing from ADNS via Ptr Ptr and to generate human-readable IO exceptions in case of an error",
           "hierarchy": "ADNS Base",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Base",
           "name": "wrapAdns",
           "normalized": "(Ptr(Ptr a)-\u003eIO CInt)-\u003e(Ptr(Ptr a)-\u003eIO b)-\u003eIO b",
@@ -2789,6 +3009,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDetermine the machine's endian.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Endian",
           "name": "Endian",
           "package": "hsdns",
@@ -2798,6 +3019,7 @@
         "index": {
           "description": "Determine the machine endian",
           "hierarchy": "ADNS Endian",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Endian",
           "name": "Endian",
           "package": "hsdns",
@@ -2812,6 +3034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignify the system's native byte order according to\n significance of bytes from low addresses to high addresses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Endian",
           "name": "Endian",
           "package": "hsdns",
@@ -2821,6 +3044,7 @@
         "index": {
           "description": "Signify the system native byte order according to significance of bytes from low addresses to high addresses",
           "hierarchy": "ADNS Endian",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Endian",
           "name": "Endian",
           "package": "hsdns",
@@ -2835,6 +3059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebyte order: \u003ccode\u003e4321\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Endian",
           "name": "BigEndian",
           "package": "hsdns",
@@ -2845,6 +3070,7 @@
         "index": {
           "description": "byte order",
           "hierarchy": "ADNS Endian",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Endian",
           "name": "BigEndian",
           "package": "hsdns",
@@ -2859,6 +3085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebyte order: \u003ccode\u003e1234\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Endian",
           "name": "LittleEndian",
           "package": "hsdns",
@@ -2869,6 +3096,7 @@
         "index": {
           "description": "byte order",
           "hierarchy": "ADNS Endian",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Endian",
           "name": "LittleEndian",
           "package": "hsdns",
@@ -2883,6 +3111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebyte order: \u003ccode\u003e3412\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Endian",
           "name": "PDPEndian",
           "package": "hsdns",
@@ -2893,6 +3122,7 @@
         "index": {
           "description": "byte order",
           "hierarchy": "ADNS Endian",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Endian",
           "name": "PDPEndian",
           "package": "hsdns",
@@ -2907,6 +3137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe endian of this machine, determined at run-time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Endian",
           "name": "endian",
           "package": "hsdns",
@@ -2917,6 +3148,7 @@
         "index": {
           "description": "The endian of this machine determined at run-time",
           "hierarchy": "ADNS Endian",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Endian",
           "name": "endian",
           "package": "hsdns",
@@ -2930,6 +3162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a host-ordered 16-bit word into a network-ordered tuple of\n 8-bit words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Endian",
           "name": "readWord16",
           "package": "hsdns",
@@ -2940,6 +3173,7 @@
         "index": {
           "description": "Parse host-ordered bit word into network-ordered tuple of bit words",
           "hierarchy": "ADNS Endian",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Endian",
           "name": "readWord16",
           "normalized": "Word-\u003e(Word,Word)",
@@ -2956,6 +3190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a host-ordered 32-bit word into a network-ordered tuple\n of 8-bit words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Endian",
           "name": "readWord32",
           "package": "hsdns",
@@ -2966,6 +3201,7 @@
         "index": {
           "description": "Parse host-ordered bit word into network-ordered tuple of bit words",
           "hierarchy": "ADNS Endian",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Endian",
           "name": "readWord32",
           "normalized": "Word-\u003e(Word,Word,Word,Word)",
@@ -2982,6 +3218,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a Haskell DNS Resolver on top of the\n   ADNS library. GHC users should compile their code using the\n   \u003ccode\u003e-threaded\u003c/code\u003e runtime system.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Resolver",
           "name": "Resolver",
           "package": "hsdns",
@@ -2991,6 +3228,7 @@
         "index": {
           "description": "This module implements Haskell DNS Resolver on top of the ADNS library GHC users should compile their code using the threaded runtime system",
           "hierarchy": "ADNS Resolver",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Resolver",
           "name": "Resolver",
           "package": "hsdns",
@@ -3005,6 +3243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eResolver\u003c/a\u003e\u003c/code\u003e is an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation which -- given the name\n and type of the record to query -- returns an \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e that will\n eventually contain the \u003ccode\u003e\u003ca\u003eAnswer\u003c/a\u003e\u003c/code\u003e from the Domain Name System.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Resolver",
           "name": "Resolver",
           "package": "hsdns",
@@ -3014,6 +3253,7 @@
         "index": {
           "description": "Resolver is an IO computation which given the name and type of the record to query returns an MVar that will eventually contain the Answer from the Domain Name System",
           "hierarchy": "ADNS Resolver",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Resolver",
           "name": "Resolver",
           "package": "hsdns",
@@ -3080,6 +3320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience wrapper that will modify any of the\n \u003ccode\u003erevolveXXX\u003c/code\u003e functions above to return \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e rather\n than \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e. The idea is that \u003ccode\u003eNothing\u003c/code\u003e signifies any\n sort of failure: \u003ccode\u003eJust []\u003c/code\u003e signifies \u003ccode\u003e\u003ca\u003esNXDOMAIN\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003esNODATA\u003c/a\u003e\u003c/code\u003e, and everything else signifies \u003ccode\u003e\u003ca\u003esOK\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSo if you aren't interested in getting accurate \u003ccode\u003e\u003ca\u003eStatus\u003c/a\u003e\u003c/code\u003e\n codes in case of failures. Wrap your DNS queries as\n follows:\n\u003c/p\u003e\u003cpre\u003e queryA :: Resolver -\u003e HostName -\u003e IO (Maybe [HostAddress])\n queryA = query resolveA\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Resolver",
           "name": "query",
           "package": "hsdns",
@@ -3090,6 +3331,7 @@
         "index": {
           "description": "Convenience wrapper that will modify any of the revolveXXX functions above to return Maybe rather than Either The idea is that Nothing signifies any sort of failure Just signifies sNXDOMAIN or sNODATA and everything else signifies sOK So if you aren interested in getting accurate Status codes in case of failures Wrap your DNS queries as follows queryA Resolver HostName IO Maybe HostAddress queryA query resolveA",
           "hierarchy": "ADNS Resolver",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Resolver",
           "name": "query",
           "normalized": "(Resolver-\u003ea-\u003eIO(Either Status[b]))-\u003eResolver-\u003ea-\u003eIO(Maybe[b])",
@@ -3105,6 +3347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve a hostname's \u003ccode\u003e\u003ca\u003eA\u003c/a\u003e\u003c/code\u003e records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Resolver",
           "name": "resolveA",
           "package": "hsdns",
@@ -3115,6 +3358,7 @@
         "index": {
           "description": "Resolve hostname records",
           "hierarchy": "ADNS Resolver",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Resolver",
           "name": "resolveA",
           "normalized": "Resolver-\u003eHostName-\u003eIO(Either Status[HostAddress])",
@@ -3130,6 +3374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve the mail exchangers for a hostname. The returned\n list may contain more than one entry per hostname, in\n case the host has several \u003ccode\u003e\u003ca\u003eA\u003c/a\u003e\u003c/code\u003e records. The records are\n returned in the order you should try to contact them as\n determined by the priority in the \u003ccode\u003e\u003ca\u003eRRMX\u003c/a\u003e\u003c/code\u003e response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Resolver",
           "name": "resolveMX",
           "package": "hsdns",
@@ -3140,6 +3385,7 @@
         "index": {
           "description": "Resolve the mail exchangers for hostname The returned list may contain more than one entry per hostname in case the host has several records The records are returned in the order you should try to contact them as determined by the priority in the RRMX response",
           "hierarchy": "ADNS Resolver",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Resolver",
           "name": "resolveMX",
           "normalized": "Resolver-\u003eHostName-\u003eIO(Either Status[(HostName,HostAddress)])",
@@ -3156,6 +3402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003ePTR\u003c/a\u003e\u003c/code\u003e records assigned to a host address. Note\n that although the API allows for a record to have more\n than one \u003ccode\u003e\u003ca\u003ePTR\u003c/a\u003e\u003c/code\u003e entry, this will actually not happen\n because the GNU adns library can't handle this case and\n will return \u003ccode\u003e\u003ca\u003esINCONSISTENT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Resolver",
           "name": "resolvePTR",
           "package": "hsdns",
@@ -3166,6 +3413,7 @@
         "index": {
           "description": "Get the PTR records assigned to host address Note that although the API allows for record to have more than one PTR entry this will actually not happen because the GNU adns library can handle this case and will return sINCONSISTENT",
           "hierarchy": "ADNS Resolver",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Resolver",
           "name": "resolvePTR",
           "normalized": "Resolver-\u003eHostAddress-\u003eIO(Either Status[HostName])",
@@ -3182,6 +3430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve a hostname's \u003ccode\u003e\u003ca\u003eSRV\u003c/a\u003e\u003c/code\u003e records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Resolver",
           "name": "resolveSRV",
           "package": "hsdns",
@@ -3192,6 +3441,7 @@
         "index": {
           "description": "Resolve hostname SRV records",
           "hierarchy": "ADNS Resolver",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Resolver",
           "name": "resolveSRV",
           "normalized": "Resolver-\u003eHostName-\u003eIO(Either Status[(HostName,PortID)])",
@@ -3208,6 +3458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint an IP host address as a string suitable for \u003ccode\u003e\u003ca\u003ePTR\u003c/a\u003e\u003c/code\u003e lookups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS.Resolver",
           "name": "toPTR",
           "package": "hsdns",
@@ -3218,6 +3469,7 @@
         "index": {
           "description": "Print an IP host address as string suitable for PTR lookups",
           "hierarchy": "ADNS Resolver",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS.Resolver",
           "name": "toPTR",
           "normalized": "HostAddress-\u003eString",
@@ -3234,6 +3486,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn asynchronous DNS resolver based on GNU ADNS\n   \u003ca\u003ehttp://www.gnu.org/software/adns/\u003c/a\u003e. You should link your\n   program with the \u003cem\u003ethreaded\u003c/em\u003e runtime-system when using this\n   module. In GHC, this is accomplished by specifying \u003ccode\u003e-threaded\u003c/code\u003e\n   on the command-line.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS",
           "name": "ADNS",
           "package": "hsdns",
@@ -3243,6 +3496,7 @@
         "index": {
           "description": "An asynchronous DNS resolver based on GNU ADNS http www.gnu.org software adns You should link your program with the threaded runtime-system when using this module In GHC this is accomplished by specifying threaded on the command-line",
           "hierarchy": "ADNS",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS",
           "name": "ADNS",
           "package": "hsdns",
@@ -3257,6 +3511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNetwork byte order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS",
           "name": "HostAddress",
           "package": "hsdns",
@@ -3265,6 +3520,7 @@
         "index": {
           "description": "Network byte order",
           "hierarchy": "ADNS",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS",
           "name": "HostAddress",
           "package": "hsdns",
@@ -3279,6 +3535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither a host name e.g., \u003ccode\u003e\"haskell.org\"\u003c/code\u003e or a numeric host\n address string consisting of a dotted decimal IPv4 address or an\n IPv6 address e.g., \u003ccode\u003e\"192.168.0.1\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS",
           "name": "HostName",
           "package": "hsdns",
@@ -3287,6 +3544,7 @@
         "index": {
           "description": "Either host name e.g haskell.org or numeric host address string consisting of dotted decimal IPv4 address or an IPv6 address e.g",
           "hierarchy": "ADNS",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS",
           "name": "HostName",
           "package": "hsdns",
@@ -3300,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS",
           "name": "InitFlag",
           "package": "hsdns",
@@ -3308,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "ADNS",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS",
           "name": "InitFlag",
           "package": "hsdns",
@@ -3322,6 +3582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eResolver\u003c/a\u003e\u003c/code\u003e is an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation which -- given the name\n and type of the record to query -- returns an \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e that will\n eventually contain the \u003ccode\u003e\u003ca\u003eAnswer\u003c/a\u003e\u003c/code\u003e from the Domain Name System.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS",
           "name": "Resolver",
           "package": "hsdns",
@@ -3331,6 +3592,7 @@
         "index": {
           "description": "Resolver is an IO computation which given the name and type of the record to query returns an MVar that will eventually contain the Answer from the Domain Name System",
           "hierarchy": "ADNS",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS",
           "name": "Resolver",
           "package": "hsdns",
@@ -3344,6 +3606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS",
           "name": "queryA",
           "package": "hsdns",
@@ -3353,6 +3616,7 @@
         },
         "index": {
           "hierarchy": "ADNS",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS",
           "name": "queryA",
           "normalized": "Resolver-\u003eHostName-\u003eIO(Maybe[HostAddress])",
@@ -3367,6 +3631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS",
           "name": "queryMX",
           "package": "hsdns",
@@ -3376,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "ADNS",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS",
           "name": "queryMX",
           "normalized": "Resolver-\u003eHostName-\u003eIO(Maybe[(HostName,HostAddress)])",
@@ -3391,6 +3657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS",
           "name": "queryPTR",
           "package": "hsdns",
@@ -3400,6 +3667,7 @@
         },
         "index": {
           "hierarchy": "ADNS",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS",
           "name": "queryPTR",
           "normalized": "Resolver-\u003eHostAddress-\u003eIO(Maybe[HostName])",
@@ -3416,6 +3684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor quering SRV records. Result is the list of tuples (host, port).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:11 UTC 2014",
           "module": "ADNS",
           "name": "querySRV",
           "package": "hsdns",
@@ -3426,6 +3695,7 @@
         "index": {
           "description": "For quering SRV records Result is the list of tuples host port",
           "hierarchy": "ADNS",
+          "indexed": "2014-03-11T18:48:11",
           "module": "ADNS",
           "name": "querySRV",
           "normalized": "Resolver-\u003eHostName-\u003eIO(Maybe[(HostName,PortID)])",

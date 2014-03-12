@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "modular-prelude"
+        "phrase": "modular-prelude",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHere you will find the polymorphic values\n which represent all of the interfaces\n that a given module can fulfill.\n You can tell which module a given polymorphic value represents\n by removing the first and last underscores,\n and replacing all other underscores with dots.\n For example, \u003ccode\u003e_Data_ByteString_\u003c/code\u003e represents the \u003ccode\u003eData.ByteString\u003c/code\u003e module.\n\u003c/p\u003e\u003cp\u003eIf you'd like to add a new instance for a given interface,\n then you must import that module's corresponding typeclass\n (those are not exported here).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.From",
           "name": "From",
           "package": "modular-prelude",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Here you will find the polymorphic values which represent all of the interfaces that given module can fulfill You can tell which module given polymorphic value represents by removing the first and last underscores and replacing all other underscores with dots For example Data ByteString represents the Data.ByteString module If you like to add new instance for given interface then you must import that module corresponding typeclass those are not exported here",
           "hierarchy": "ModularPrelude From",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.From",
           "name": "From",
           "package": "modular-prelude",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.From",
           "name": "_Data_ByteString_",
           "package": "modular-prelude",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude From",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.From",
           "name": "_Data_ByteString_",
           "package": "modular-prelude",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.From",
           "name": "_Data_ByteString_Lazy_",
           "package": "modular-prelude",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude From",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.From",
           "name": "_Data_ByteString_Lazy_",
           "package": "modular-prelude",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.From",
           "name": "_Data_HashMap_Lazy_",
           "package": "modular-prelude",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude From",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.From",
           "name": "_Data_HashMap_Lazy_",
           "package": "modular-prelude",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.From",
           "name": "_Data_HashMap_Strict_",
           "package": "modular-prelude",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude From",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.From",
           "name": "_Data_HashMap_Strict_",
           "package": "modular-prelude",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.From",
           "name": "_Data_HashSet_",
           "package": "modular-prelude",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude From",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.From",
           "name": "_Data_HashSet_",
           "package": "modular-prelude",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.From",
           "name": "_Data_List_",
           "package": "modular-prelude",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude From",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.From",
           "name": "_Data_List_",
           "package": "modular-prelude",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.From",
           "name": "_Data_Map_",
           "package": "modular-prelude",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude From",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.From",
           "name": "_Data_Map_",
           "package": "modular-prelude",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.From",
           "name": "_Data_Set_",
           "package": "modular-prelude",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude From",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.From",
           "name": "_Data_Set_",
           "package": "modular-prelude",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.From",
           "name": "_Data_Text_",
           "package": "modular-prelude",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude From",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.From",
           "name": "_Data_Text_",
           "package": "modular-prelude",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.From",
           "name": "_Data_Text_Lazy_",
           "package": "modular-prelude",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude From",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.From",
           "name": "_Data_Text_Lazy_",
           "package": "modular-prelude",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.From",
           "name": "_Data_Vector_",
           "package": "modular-prelude",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude From",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.From",
           "name": "_Data_Vector_",
           "package": "modular-prelude",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.From",
           "name": "_Data_Vector_Unboxed_",
           "package": "modular-prelude",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude From",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.From",
           "name": "_Data_Vector_Unboxed_",
           "package": "modular-prelude",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.From",
           "name": "_Filesystem_Path_CurrentOS_",
           "package": "modular-prelude",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude From",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.From",
           "name": "_Filesystem_Path_CurrentOS_",
           "package": "modular-prelude",
@@ -328,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a first-class version\n of the \u003ca\u003eData.ByteString\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "ByteString",
           "package": "modular-prelude",
@@ -337,6 +366,7 @@
         "index": {
           "description": "This module provides first-class version of the Data.ByteString module",
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "ByteString",
           "package": "modular-prelude",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "ByteStringImplements",
           "package": "modular-prelude",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "ByteStringImplements",
           "package": "modular-prelude",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "ByteStringModule",
           "package": "modular-prelude",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "ByteStringModule",
           "package": "modular-prelude",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "ByteString",
           "package": "modular-prelude",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "ByteString",
           "package": "modular-prelude",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "_Data_ByteString_",
           "package": "modular-prelude",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "_Data_ByteString_",
           "package": "modular-prelude",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "all",
           "package": "modular-prelude",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "all",
           "normalized": "(Word-\u003eBool)-\u003eByteString-\u003eBool",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "any",
           "package": "modular-prelude",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "any",
           "normalized": "(Word-\u003eBool)-\u003eByteString-\u003eBool",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "break",
           "package": "modular-prelude",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "break",
           "normalized": "(Word-\u003eBool)-\u003eByteString-\u003e(ByteString,ByteString)",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "concatMap",
           "package": "modular-prelude",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "concatMap",
           "normalized": "(Word-\u003eByteString)-\u003eByteString-\u003eByteString",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "dropWhile",
           "package": "modular-prelude",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "dropWhile",
           "normalized": "(Word-\u003eBool)-\u003eByteString-\u003eByteString",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "empty",
           "package": "modular-prelude",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "empty",
           "package": "modular-prelude",
@@ -574,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "filter",
           "package": "modular-prelude",
@@ -583,6 +634,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "filter",
           "normalized": "(Word-\u003eBool)-\u003eByteString-\u003eByteString",
@@ -597,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "length",
           "package": "modular-prelude",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "length",
           "normalized": "ByteString-\u003eInt",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "map",
           "package": "modular-prelude",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "map",
           "normalized": "(Word-\u003eWord)-\u003eByteString-\u003eByteString",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "null",
           "package": "modular-prelude",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "null",
           "normalized": "ByteString-\u003eBool",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "pack",
           "package": "modular-prelude",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "pack",
           "normalized": "[Word]-\u003eByteString",
@@ -689,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "readFile",
           "package": "modular-prelude",
@@ -698,6 +759,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO ByteString",
@@ -713,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "singleton",
           "package": "modular-prelude",
@@ -722,6 +785,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "singleton",
           "normalized": "Word-\u003eByteString",
@@ -736,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "span",
           "package": "modular-prelude",
@@ -745,6 +810,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "span",
           "normalized": "(Word-\u003eBool)-\u003eByteString-\u003e(ByteString,ByteString)",
@@ -759,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "splitAt",
           "package": "modular-prelude",
@@ -768,6 +835,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "splitAt",
           "normalized": "Int-\u003eByteString-\u003e(ByteString,ByteString)",
@@ -783,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "takeWhile",
           "package": "modular-prelude",
@@ -792,6 +861,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "takeWhile",
           "normalized": "(Word-\u003eBool)-\u003eByteString-\u003eByteString",
@@ -807,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "unpack",
           "package": "modular-prelude",
@@ -816,6 +887,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "unpack",
           "normalized": "ByteString-\u003e[Word]",
@@ -830,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.ByteString",
           "name": "writeFile",
           "package": "modular-prelude",
@@ -839,6 +912,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module ByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.ByteString",
           "name": "writeFile",
           "normalized": "FilePath-\u003eByteString-\u003eIO()",
@@ -855,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a first-class version\n of the \u003ca\u003eFilesystem.Path.CurrentOS\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.FilePath",
           "name": "FilePath",
           "package": "modular-prelude",
@@ -864,6 +939,7 @@
         "index": {
           "description": "This module provides first-class version of the Filesystem.Path.CurrentOS module",
           "hierarchy": "ModularPrelude Module FilePath",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.FilePath",
           "name": "FilePath",
           "package": "modular-prelude",
@@ -877,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.FilePath",
           "name": "FilePathImplements",
           "package": "modular-prelude",
@@ -885,6 +962,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module FilePath",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.FilePath",
           "name": "FilePathImplements",
           "package": "modular-prelude",
@@ -898,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.FilePath",
           "name": "FilePathModule",
           "package": "modular-prelude",
@@ -906,6 +985,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module FilePath",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.FilePath",
           "name": "FilePathModule",
           "package": "modular-prelude",
@@ -919,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.FilePath",
           "name": "FilePath",
           "package": "modular-prelude",
@@ -928,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module FilePath",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.FilePath",
           "name": "FilePath",
           "package": "modular-prelude",
@@ -941,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.FilePath",
           "name": "_Filesystem_Path_CurrentOS_",
           "package": "modular-prelude",
@@ -950,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module FilePath",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.FilePath",
           "name": "_Filesystem_Path_CurrentOS_",
           "package": "modular-prelude",
@@ -963,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.FilePath",
           "name": "pack",
           "package": "modular-prelude",
@@ -972,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module FilePath",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.FilePath",
           "name": "pack",
           "normalized": "String-\u003eFilePath",
@@ -986,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.FilePath",
           "name": "stripPrefix",
           "package": "modular-prelude",
@@ -995,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module FilePath",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.FilePath",
           "name": "stripPrefix",
           "normalized": "FilePath-\u003eFilePath-\u003eMaybe FilePath",
@@ -1010,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.FilePath",
           "name": "unpack",
           "package": "modular-prelude",
@@ -1019,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module FilePath",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.FilePath",
           "name": "unpack",
           "normalized": "FilePath-\u003eString",
@@ -1034,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a first-class version\n of the \u003ca\u003eData.HashMap.Strict\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "HashMap",
           "package": "modular-prelude",
@@ -1043,6 +1134,7 @@
         "index": {
           "description": "This module provides first-class version of the Data.HashMap.Strict module",
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "HashMap",
           "package": "modular-prelude",
@@ -1056,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "HashMapImplements",
           "package": "modular-prelude",
@@ -1064,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "HashMapImplements",
           "package": "modular-prelude",
@@ -1077,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "HashMapModule",
           "package": "modular-prelude",
@@ -1085,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "HashMapModule",
           "package": "modular-prelude",
@@ -1098,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "HashMap",
           "package": "modular-prelude",
@@ -1107,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "HashMap",
           "package": "modular-prelude",
@@ -1120,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "_Data_HashMap_Strict_",
           "package": "modular-prelude",
@@ -1129,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "_Data_HashMap_Strict_",
           "package": "modular-prelude",
@@ -1142,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "delete",
           "package": "modular-prelude",
@@ -1151,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "delete",
           "normalized": "a-\u003eHashMap a b-\u003eHashMap a b",
@@ -1165,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "empty",
           "package": "modular-prelude",
@@ -1174,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "empty",
           "package": "modular-prelude",
@@ -1186,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "filter",
           "package": "modular-prelude",
@@ -1195,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "filter",
           "normalized": "a b c(b-\u003ed-\u003eBool)-\u003eHashMap b d-\u003eHashMap b d",
@@ -1209,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "fromList",
           "package": "modular-prelude",
@@ -1218,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eHashMap a b",
@@ -1233,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "insert",
           "package": "modular-prelude",
@@ -1242,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eHashMap a b-\u003eHashMap a b",
@@ -1256,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "length",
           "package": "modular-prelude",
@@ -1265,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "length",
           "normalized": "a b c HashMap b d-\u003eInt",
@@ -1279,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "lookup",
           "package": "modular-prelude",
@@ -1288,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "lookup",
           "normalized": "a-\u003eHashMap a b-\u003eMaybe b",
@@ -1302,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "map",
           "package": "modular-prelude",
@@ -1311,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "map",
           "normalized": "a b c d(c-\u003ee)-\u003eHashMap b c-\u003eHashMap b e",
@@ -1325,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "member",
           "package": "modular-prelude",
@@ -1334,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "member",
           "normalized": "a-\u003eHashMap a b-\u003eBool",
@@ -1348,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "null",
           "package": "modular-prelude",
@@ -1357,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "null",
           "normalized": "a b c HashMap b d-\u003eBool",
@@ -1371,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "pack",
           "package": "modular-prelude",
@@ -1380,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "pack",
           "normalized": "[(a,b)]-\u003eHashMap a b",
@@ -1394,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "singleton",
           "package": "modular-prelude",
@@ -1403,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eHashMap a b",
@@ -1417,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "toList",
           "package": "modular-prelude",
@@ -1426,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "toList",
           "normalized": "a b c HashMap b d-\u003e[(b,d)]",
@@ -1441,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashMap",
           "name": "unpack",
           "package": "modular-prelude",
@@ -1450,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashMap",
           "name": "unpack",
           "normalized": "a b c HashMap b d-\u003e[(b,d)]",
@@ -1465,6 +1593,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a first-class version\n of the \u003ca\u003eData.HashSet\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "HashSet",
           "package": "modular-prelude",
@@ -1474,6 +1603,7 @@
         "index": {
           "description": "This module provides first-class version of the Data.HashSet module",
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "HashSet",
           "package": "modular-prelude",
@@ -1487,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "HashSetImplements",
           "package": "modular-prelude",
@@ -1495,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "HashSetImplements",
           "package": "modular-prelude",
@@ -1508,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "HashSetModule",
           "package": "modular-prelude",
@@ -1516,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "HashSetModule",
           "package": "modular-prelude",
@@ -1529,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "HashSet",
           "package": "modular-prelude",
@@ -1538,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "HashSet",
           "package": "modular-prelude",
@@ -1551,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "_Data_HashSet_",
           "package": "modular-prelude",
@@ -1560,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "_Data_HashSet_",
           "package": "modular-prelude",
@@ -1573,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "delete",
           "package": "modular-prelude",
@@ -1582,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "delete",
           "normalized": "a-\u003eHashSet a-\u003eHashSet a",
@@ -1596,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "empty",
           "package": "modular-prelude",
@@ -1605,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "empty",
           "package": "modular-prelude",
@@ -1617,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "filter",
           "package": "modular-prelude",
@@ -1626,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "filter",
           "normalized": "a b(c-\u003eBool)-\u003eHashSet c-\u003eHashSet c",
@@ -1640,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "fromList",
           "package": "modular-prelude",
@@ -1649,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "fromList",
           "normalized": "[a]-\u003eHashSet a",
@@ -1664,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "insert",
           "package": "modular-prelude",
@@ -1673,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "insert",
           "normalized": "a-\u003eHashSet a-\u003eHashSet a",
@@ -1687,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "length",
           "package": "modular-prelude",
@@ -1696,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "length",
           "normalized": "a b HashSet c-\u003eInt",
@@ -1710,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "map",
           "package": "modular-prelude",
@@ -1719,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eHashSet a-\u003eHashSet b",
@@ -1733,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "member",
           "package": "modular-prelude",
@@ -1742,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "member",
           "normalized": "a-\u003eHashSet a-\u003eBool",
@@ -1756,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "null",
           "package": "modular-prelude",
@@ -1765,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "null",
           "normalized": "a b HashSet c-\u003eBool",
@@ -1779,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "pack",
           "package": "modular-prelude",
@@ -1788,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "pack",
           "normalized": "[a]-\u003eHashSet a",
@@ -1802,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "singleton",
           "package": "modular-prelude",
@@ -1811,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "singleton",
           "normalized": "a-\u003eHashSet a",
@@ -1825,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "toList",
           "package": "modular-prelude",
@@ -1834,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "toList",
           "normalized": "a b HashSet c-\u003e[c]",
@@ -1849,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.HashSet",
           "name": "unpack",
           "package": "modular-prelude",
@@ -1858,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module HashSet",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.HashSet",
           "name": "unpack",
           "normalized": "a b HashSet c-\u003e[c]",
@@ -1873,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a first-class version\n of the \u003ca\u003eData.ByteString.Lazy\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "LByteString",
           "package": "modular-prelude",
@@ -1882,6 +2047,7 @@
         "index": {
           "description": "This module provides first-class version of the Data.ByteString.Lazy module",
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "LByteString",
           "package": "modular-prelude",
@@ -1895,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "LByteStringImplements",
           "package": "modular-prelude",
@@ -1903,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "LByteStringImplements",
           "package": "modular-prelude",
@@ -1916,6 +2084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "LByteStringModule",
           "package": "modular-prelude",
@@ -1924,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "LByteStringModule",
           "package": "modular-prelude",
@@ -1937,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "LByteString",
           "package": "modular-prelude",
@@ -1946,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "LByteString",
           "package": "modular-prelude",
@@ -1959,6 +2131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "_Data_ByteString_Lazy_",
           "package": "modular-prelude",
@@ -1968,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "_Data_ByteString_Lazy_",
           "package": "modular-prelude",
@@ -1981,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "all",
           "package": "modular-prelude",
@@ -1990,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "all",
           "normalized": "(Word-\u003eBool)-\u003eLByteString-\u003eBool",
@@ -2004,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "any",
           "package": "modular-prelude",
@@ -2013,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "any",
           "normalized": "(Word-\u003eBool)-\u003eLByteString-\u003eBool",
@@ -2027,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "break",
           "package": "modular-prelude",
@@ -2036,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "break",
           "normalized": "(Word-\u003eBool)-\u003eLByteString-\u003e(LByteString,LByteString)",
@@ -2050,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "concatMap",
           "package": "modular-prelude",
@@ -2059,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "concatMap",
           "normalized": "(Word-\u003eLByteString)-\u003eLByteString-\u003eLByteString",
@@ -2074,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "dropWhile",
           "package": "modular-prelude",
@@ -2083,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "dropWhile",
           "normalized": "(Word-\u003eBool)-\u003eLByteString-\u003eLByteString",
@@ -2098,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "empty",
           "package": "modular-prelude",
@@ -2107,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "empty",
           "package": "modular-prelude",
@@ -2119,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "filter",
           "package": "modular-prelude",
@@ -2128,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "filter",
           "normalized": "(Word-\u003eBool)-\u003eLByteString-\u003eLByteString",
@@ -2142,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "length",
           "package": "modular-prelude",
@@ -2151,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "length",
           "normalized": "LByteString-\u003eInt",
@@ -2165,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "map",
           "package": "modular-prelude",
@@ -2174,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "map",
           "normalized": "(Word-\u003eWord)-\u003eLByteString-\u003eLByteString",
@@ -2188,6 +2380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "null",
           "package": "modular-prelude",
@@ -2197,6 +2390,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "null",
           "normalized": "LByteString-\u003eBool",
@@ -2211,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "pack",
           "package": "modular-prelude",
@@ -2220,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "pack",
           "normalized": "[Word]-\u003eLByteString",
@@ -2234,6 +2430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "readFile",
           "package": "modular-prelude",
@@ -2243,6 +2440,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO LByteString",
@@ -2258,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "singleton",
           "package": "modular-prelude",
@@ -2267,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "singleton",
           "normalized": "Word-\u003eLByteString",
@@ -2281,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "span",
           "package": "modular-prelude",
@@ -2290,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "span",
           "normalized": "(Word-\u003eBool)-\u003eLByteString-\u003e(LByteString,LByteString)",
@@ -2304,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "splitAt",
           "package": "modular-prelude",
@@ -2313,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "splitAt",
           "normalized": "Int-\u003eLByteString-\u003e(LByteString,LByteString)",
@@ -2328,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "takeWhile",
           "package": "modular-prelude",
@@ -2337,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "takeWhile",
           "normalized": "(Word-\u003eBool)-\u003eLByteString-\u003eLByteString",
@@ -2352,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "unpack",
           "package": "modular-prelude",
@@ -2361,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "unpack",
           "normalized": "LByteString-\u003e[Word]",
@@ -2375,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LByteString",
           "name": "writeFile",
           "package": "modular-prelude",
@@ -2384,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LByteString",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LByteString",
           "name": "writeFile",
           "normalized": "FilePath-\u003eLByteString-\u003eIO()",
@@ -2400,6 +2610,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a first-class version\n of the \u003ca\u003eData.HashMap.Lazy\u003c/a\u003e module.\n\u003c/p\u003e\u003cp\u003eNote that the data type for this module is still HashMap,\n and not LHashMap.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "LHashMap",
           "package": "modular-prelude",
@@ -2409,6 +2620,7 @@
         "index": {
           "description": "This module provides first-class version of the Data.HashMap.Lazy module Note that the data type for this module is still HashMap and not LHashMap",
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "LHashMap",
           "package": "modular-prelude",
@@ -2422,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "LHashMapImplements",
           "package": "modular-prelude",
@@ -2430,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "LHashMapImplements",
           "package": "modular-prelude",
@@ -2443,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "LHashMapModule",
           "package": "modular-prelude",
@@ -2451,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "LHashMapModule",
           "package": "modular-prelude",
@@ -2464,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "LHashMap",
           "package": "modular-prelude",
@@ -2473,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "LHashMap",
           "package": "modular-prelude",
@@ -2486,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "_Data_HashMap_Lazy_",
           "package": "modular-prelude",
@@ -2495,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "_Data_HashMap_Lazy_",
           "package": "modular-prelude",
@@ -2508,6 +2728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "delete",
           "package": "modular-prelude",
@@ -2517,6 +2738,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "delete",
           "normalized": "a-\u003eHashMap a b-\u003eHashMap a b",
@@ -2531,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "empty",
           "package": "modular-prelude",
@@ -2540,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "empty",
           "package": "modular-prelude",
@@ -2552,6 +2776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "filter",
           "package": "modular-prelude",
@@ -2561,6 +2786,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "filter",
           "normalized": "a b c(b-\u003ed-\u003eBool)-\u003eHashMap b d-\u003eHashMap b d",
@@ -2575,6 +2801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "fromList",
           "package": "modular-prelude",
@@ -2584,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eHashMap a b",
@@ -2599,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "insert",
           "package": "modular-prelude",
@@ -2608,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eHashMap a b-\u003eHashMap a b",
@@ -2622,6 +2852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "length",
           "package": "modular-prelude",
@@ -2631,6 +2862,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "length",
           "normalized": "a b c HashMap b d-\u003eInt",
@@ -2645,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "lookup",
           "package": "modular-prelude",
@@ -2654,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "lookup",
           "normalized": "a-\u003eHashMap a b-\u003eMaybe b",
@@ -2668,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "map",
           "package": "modular-prelude",
@@ -2677,6 +2912,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "map",
           "normalized": "a b c d(c-\u003ee)-\u003eHashMap b c-\u003eHashMap b e",
@@ -2691,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "member",
           "package": "modular-prelude",
@@ -2700,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "member",
           "normalized": "a-\u003eHashMap a b-\u003eBool",
@@ -2714,6 +2952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "null",
           "package": "modular-prelude",
@@ -2723,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "null",
           "normalized": "a b c HashMap b d-\u003eBool",
@@ -2737,6 +2977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "pack",
           "package": "modular-prelude",
@@ -2746,6 +2987,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "pack",
           "normalized": "[(a,b)]-\u003eHashMap a b",
@@ -2760,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "singleton",
           "package": "modular-prelude",
@@ -2769,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eHashMap a b",
@@ -2783,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "toList",
           "package": "modular-prelude",
@@ -2792,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "toList",
           "normalized": "a b c HashMap b d-\u003e[(b,d)]",
@@ -2807,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "unpack",
           "package": "modular-prelude",
@@ -2816,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LHashMap",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LHashMap",
           "name": "unpack",
           "normalized": "a b c HashMap b d-\u003e[(b,d)]",
@@ -2831,6 +3079,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a first-class version\n of the \u003ca\u003eData.Text.Lazy\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "LText",
           "package": "modular-prelude",
@@ -2840,6 +3089,7 @@
         "index": {
           "description": "This module provides first-class version of the Data.Text.Lazy module",
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "LText",
           "package": "modular-prelude",
@@ -2853,6 +3103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "LTextImplements",
           "package": "modular-prelude",
@@ -2861,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "LTextImplements",
           "package": "modular-prelude",
@@ -2874,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "LTextModule",
           "package": "modular-prelude",
@@ -2882,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "LTextModule",
           "package": "modular-prelude",
@@ -2895,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "LText",
           "package": "modular-prelude",
@@ -2904,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "LText",
           "package": "modular-prelude",
@@ -2917,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "_Data_Text_Lazy_",
           "package": "modular-prelude",
@@ -2926,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "_Data_Text_Lazy_",
           "package": "modular-prelude",
@@ -2939,6 +3197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "all",
           "package": "modular-prelude",
@@ -2948,6 +3207,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "all",
           "normalized": "(Char-\u003eBool)-\u003eLText-\u003eBool",
@@ -2962,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "any",
           "package": "modular-prelude",
@@ -2971,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "any",
           "normalized": "(Char-\u003eBool)-\u003eLText-\u003eBool",
@@ -2985,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "break",
           "package": "modular-prelude",
@@ -2994,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "break",
           "normalized": "(Char-\u003eBool)-\u003eLText-\u003e(LText,LText)",
@@ -3008,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "concatMap",
           "package": "modular-prelude",
@@ -3017,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "concatMap",
           "normalized": "(Char-\u003eLText)-\u003eLText-\u003eLText",
@@ -3032,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "dropWhile",
           "package": "modular-prelude",
@@ -3041,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "dropWhile",
           "normalized": "(Char-\u003eBool)-\u003eLText-\u003eLText",
@@ -3056,6 +3324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "empty",
           "package": "modular-prelude",
@@ -3065,6 +3334,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "empty",
           "package": "modular-prelude",
@@ -3077,6 +3347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "filter",
           "package": "modular-prelude",
@@ -3086,6 +3357,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "filter",
           "normalized": "(Char-\u003eBool)-\u003eLText-\u003eLText",
@@ -3100,6 +3372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "length",
           "package": "modular-prelude",
@@ -3109,6 +3382,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "length",
           "normalized": "LText-\u003eInt",
@@ -3123,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "map",
           "package": "modular-prelude",
@@ -3132,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "map",
           "normalized": "(Char-\u003eChar)-\u003eLText-\u003eLText",
@@ -3146,6 +3422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "null",
           "package": "modular-prelude",
@@ -3155,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "null",
           "normalized": "LText-\u003eBool",
@@ -3169,6 +3447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "pack",
           "package": "modular-prelude",
@@ -3178,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "pack",
           "normalized": "[Char]-\u003eLText",
@@ -3192,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "readFile",
           "package": "modular-prelude",
@@ -3201,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO LText",
@@ -3216,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "singleton",
           "package": "modular-prelude",
@@ -3225,6 +3508,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "singleton",
           "normalized": "Char-\u003eLText",
@@ -3239,6 +3523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "span",
           "package": "modular-prelude",
@@ -3248,6 +3533,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "span",
           "normalized": "(Char-\u003eBool)-\u003eLText-\u003e(LText,LText)",
@@ -3262,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "splitAt",
           "package": "modular-prelude",
@@ -3271,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "splitAt",
           "normalized": "Int-\u003eLText-\u003e(LText,LText)",
@@ -3286,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "takeWhile",
           "package": "modular-prelude",
@@ -3295,6 +3584,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "takeWhile",
           "normalized": "(Char-\u003eBool)-\u003eLText-\u003eLText",
@@ -3310,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "unpack",
           "package": "modular-prelude",
@@ -3319,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "unpack",
           "normalized": "LText-\u003e[Char]",
@@ -3333,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.LText",
           "name": "writeFile",
           "package": "modular-prelude",
@@ -3342,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module LText",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.LText",
           "name": "writeFile",
           "normalized": "FilePath-\u003eLText-\u003eIO()",
@@ -3358,6 +3652,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a first-class version\n of the \u003ca\u003eData.List\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "List",
           "package": "modular-prelude",
@@ -3367,6 +3662,7 @@
         "index": {
           "description": "This module provides first-class version of the Data.List module",
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "List",
           "package": "modular-prelude",
@@ -3380,6 +3676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "ListImplements",
           "package": "modular-prelude",
@@ -3388,6 +3685,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "ListImplements",
           "package": "modular-prelude",
@@ -3401,6 +3699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "ListModule",
           "package": "modular-prelude",
@@ -3409,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "ListModule",
           "package": "modular-prelude",
@@ -3422,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "List",
           "package": "modular-prelude",
@@ -3431,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "List",
           "package": "modular-prelude",
@@ -3444,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "_Data_List_",
           "package": "modular-prelude",
@@ -3453,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "_Data_List_",
           "package": "modular-prelude",
@@ -3466,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "all",
           "package": "modular-prelude",
@@ -3475,6 +3780,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "all",
           "normalized": "a b(c-\u003eBool)-\u003e[c]-\u003eBool",
@@ -3489,6 +3795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "any",
           "package": "modular-prelude",
@@ -3498,6 +3805,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "any",
           "normalized": "a b(c-\u003eBool)-\u003e[c]-\u003eBool",
@@ -3512,6 +3820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "break",
           "package": "modular-prelude",
@@ -3521,6 +3830,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "break",
           "normalized": "a b(c-\u003eBool)-\u003e[c]-\u003e([c],[c])",
@@ -3535,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "concatMap",
           "package": "modular-prelude",
@@ -3544,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "concatMap",
           "normalized": "a b c(b-\u003e[d])-\u003e[b]-\u003e[d]",
@@ -3559,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "delete",
           "package": "modular-prelude",
@@ -3568,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "delete",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -3582,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "dropWhile",
           "package": "modular-prelude",
@@ -3591,6 +3906,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "dropWhile",
           "normalized": "a b(c-\u003eBool)-\u003e[c]-\u003e[c]",
@@ -3606,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "empty",
           "package": "modular-prelude",
@@ -3615,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "empty",
           "normalized": "a b[c]",
@@ -3629,6 +3947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "filter",
           "package": "modular-prelude",
@@ -3638,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "filter",
           "normalized": "a b(c-\u003eBool)-\u003e[c]-\u003e[c]",
@@ -3652,6 +3972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "fold",
           "package": "modular-prelude",
@@ -3661,6 +3982,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "fold",
           "normalized": "a b c(b-\u003ed-\u003eb)-\u003eb-\u003e[d]-\u003eb",
@@ -3675,6 +3997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "fromList",
           "package": "modular-prelude",
@@ -3684,6 +4007,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "fromList",
           "normalized": "a b[c]-\u003e[c]",
@@ -3699,6 +4023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "insert",
           "package": "modular-prelude",
@@ -3708,6 +4033,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "insert",
           "normalized": "a b c-\u003e[c]-\u003e[c]",
@@ -3722,6 +4048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "length",
           "package": "modular-prelude",
@@ -3731,6 +4058,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "length",
           "normalized": "a b[c]-\u003eInt",
@@ -3745,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "lookup",
           "package": "modular-prelude",
@@ -3754,6 +4083,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "lookup",
           "normalized": "a-\u003e[(a,b)]-\u003eMaybe b",
@@ -3768,6 +4098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "map",
           "package": "modular-prelude",
@@ -3777,6 +4108,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "map",
           "normalized": "a b c(b-\u003ed)-\u003e[b]-\u003e[d]",
@@ -3791,6 +4123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "member",
           "package": "modular-prelude",
@@ -3800,6 +4133,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "member",
           "normalized": "a-\u003e[a]-\u003eBool",
@@ -3814,6 +4148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "null",
           "package": "modular-prelude",
@@ -3823,6 +4158,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "null",
           "normalized": "a b[c]-\u003eBool",
@@ -3837,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "pack",
           "package": "modular-prelude",
@@ -3846,6 +4183,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "pack",
           "normalized": "a b[c]-\u003e[c]",
@@ -3860,6 +4198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "singleton",
           "package": "modular-prelude",
@@ -3869,6 +4208,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "singleton",
           "normalized": "a b c-\u003e[c]",
@@ -3883,6 +4223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "span",
           "package": "modular-prelude",
@@ -3892,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "span",
           "normalized": "a b(c-\u003eBool)-\u003e[c]-\u003e([c],[c])",
@@ -3906,6 +4248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "splitAt",
           "package": "modular-prelude",
@@ -3915,6 +4258,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "splitAt",
           "normalized": "a b Int-\u003e[c]-\u003e([c],[c])",
@@ -3930,6 +4274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "stripPrefix",
           "package": "modular-prelude",
@@ -3939,6 +4284,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "stripPrefix",
           "normalized": "[a]-\u003e[a]-\u003eMaybe[a]",
@@ -3954,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "takeWhile",
           "package": "modular-prelude",
@@ -3963,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "takeWhile",
           "normalized": "a b(c-\u003eBool)-\u003e[c]-\u003e[c]",
@@ -3978,6 +4326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "toList",
           "package": "modular-prelude",
@@ -3987,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "toList",
           "normalized": "a b[c]-\u003e[c]",
@@ -4002,6 +4352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.List",
           "name": "unpack",
           "package": "modular-prelude",
@@ -4011,6 +4362,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module List",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.List",
           "name": "unpack",
           "normalized": "a b[c]-\u003e[c]",
@@ -4026,6 +4378,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a first-class version\n of the \u003ca\u003eData.Map\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "Map",
           "package": "modular-prelude",
@@ -4035,6 +4388,7 @@
         "index": {
           "description": "This module provides first-class version of the Data.Map module",
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "Map",
           "package": "modular-prelude",
@@ -4048,6 +4402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "MapImplements",
           "package": "modular-prelude",
@@ -4056,6 +4411,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "MapImplements",
           "package": "modular-prelude",
@@ -4069,6 +4425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "MapModule",
           "package": "modular-prelude",
@@ -4077,6 +4434,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "MapModule",
           "package": "modular-prelude",
@@ -4090,6 +4448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "Map",
           "package": "modular-prelude",
@@ -4099,6 +4458,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "Map",
           "package": "modular-prelude",
@@ -4112,6 +4472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "_Data_Map_",
           "package": "modular-prelude",
@@ -4121,6 +4482,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "_Data_Map_",
           "package": "modular-prelude",
@@ -4134,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "delete",
           "package": "modular-prelude",
@@ -4143,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "delete",
           "normalized": "a-\u003eMap a b-\u003eMap a b",
@@ -4157,6 +4521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "empty",
           "package": "modular-prelude",
@@ -4166,6 +4531,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "empty",
           "package": "modular-prelude",
@@ -4178,6 +4544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "filter",
           "package": "modular-prelude",
@@ -4187,6 +4554,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "filter",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eMap a b-\u003eMap a b",
@@ -4201,6 +4569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "fromList",
           "package": "modular-prelude",
@@ -4210,6 +4579,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eMap a b",
@@ -4225,6 +4595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "insert",
           "package": "modular-prelude",
@@ -4234,6 +4605,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eMap a b-\u003eMap a b",
@@ -4248,6 +4620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "length",
           "package": "modular-prelude",
@@ -4257,6 +4630,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "length",
           "normalized": "a b c Map b d-\u003eInt",
@@ -4271,6 +4645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "lookup",
           "package": "modular-prelude",
@@ -4280,6 +4655,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "lookup",
           "normalized": "a-\u003eMap a b-\u003eMaybe b",
@@ -4294,6 +4670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "map",
           "package": "modular-prelude",
@@ -4303,6 +4680,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "map",
           "normalized": "a b c d(c-\u003ee)-\u003eMap b c-\u003eMap b e",
@@ -4317,6 +4695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "member",
           "package": "modular-prelude",
@@ -4326,6 +4705,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "member",
           "normalized": "a-\u003eMap a b-\u003eBool",
@@ -4340,6 +4720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "null",
           "package": "modular-prelude",
@@ -4349,6 +4730,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "null",
           "normalized": "a b c Map b d-\u003eBool",
@@ -4363,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "pack",
           "package": "modular-prelude",
@@ -4372,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "pack",
           "normalized": "[(a,b)]-\u003eMap a b",
@@ -4386,6 +4770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "singleton",
           "package": "modular-prelude",
@@ -4395,6 +4780,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "singleton",
           "normalized": "a b c b-\u003ed-\u003eMap b d",
@@ -4409,6 +4795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "toList",
           "package": "modular-prelude",
@@ -4418,6 +4805,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "toList",
           "normalized": "a b c Map b d-\u003e[(b,d)]",
@@ -4433,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Map",
           "name": "unpack",
           "package": "modular-prelude",
@@ -4442,6 +4831,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Map",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Map",
           "name": "unpack",
           "normalized": "a b c Map b d-\u003e[(b,d)]",
@@ -4457,6 +4847,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a first-class version\n of the \u003ca\u003eData.Set\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "Set",
           "package": "modular-prelude",
@@ -4466,6 +4857,7 @@
         "index": {
           "description": "This module provides first-class version of the Data.Set module",
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "Set",
           "package": "modular-prelude",
@@ -4479,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "SetImplements",
           "package": "modular-prelude",
@@ -4487,6 +4880,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "SetImplements",
           "package": "modular-prelude",
@@ -4500,6 +4894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "SetModule",
           "package": "modular-prelude",
@@ -4508,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "SetModule",
           "package": "modular-prelude",
@@ -4521,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "Set",
           "package": "modular-prelude",
@@ -4530,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "Set",
           "package": "modular-prelude",
@@ -4543,6 +4941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "_Data_Set_",
           "package": "modular-prelude",
@@ -4552,6 +4951,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "_Data_Set_",
           "package": "modular-prelude",
@@ -4565,6 +4965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "delete",
           "package": "modular-prelude",
@@ -4574,6 +4975,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "delete",
           "normalized": "a-\u003eSet a-\u003eSet a",
@@ -4588,6 +4990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "empty",
           "package": "modular-prelude",
@@ -4597,6 +5000,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "empty",
           "package": "modular-prelude",
@@ -4609,6 +5013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "filter",
           "package": "modular-prelude",
@@ -4618,6 +5023,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "filter",
           "normalized": "a b(c-\u003eBool)-\u003eSet c-\u003eSet c",
@@ -4632,6 +5038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "fromList",
           "package": "modular-prelude",
@@ -4641,6 +5048,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "fromList",
           "normalized": "[a]-\u003eSet a",
@@ -4656,6 +5064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "insert",
           "package": "modular-prelude",
@@ -4665,6 +5074,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "insert",
           "normalized": "a-\u003eSet a-\u003eSet a",
@@ -4679,6 +5089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "length",
           "package": "modular-prelude",
@@ -4688,6 +5099,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "length",
           "normalized": "a b Set c-\u003eInt",
@@ -4702,6 +5114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "map",
           "package": "modular-prelude",
@@ -4711,6 +5124,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eSet a-\u003eSet b",
@@ -4725,6 +5139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "member",
           "package": "modular-prelude",
@@ -4734,6 +5149,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "member",
           "normalized": "a-\u003eSet a-\u003eBool",
@@ -4748,6 +5164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "null",
           "package": "modular-prelude",
@@ -4757,6 +5174,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "null",
           "normalized": "a b Set c-\u003eBool",
@@ -4771,6 +5189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "pack",
           "package": "modular-prelude",
@@ -4780,6 +5199,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "pack",
           "normalized": "[a]-\u003eSet a",
@@ -4794,6 +5214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "singleton",
           "package": "modular-prelude",
@@ -4803,6 +5224,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "singleton",
           "normalized": "a b c-\u003eSet c",
@@ -4817,6 +5239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "toList",
           "package": "modular-prelude",
@@ -4826,6 +5249,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "toList",
           "normalized": "a b Set c-\u003e[c]",
@@ -4841,6 +5265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Set",
           "name": "unpack",
           "package": "modular-prelude",
@@ -4850,6 +5275,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Set",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Set",
           "name": "unpack",
           "normalized": "a b Set c-\u003e[c]",
@@ -4865,6 +5291,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a first-class version\n of the \u003ca\u003eData.Text\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "Text",
           "package": "modular-prelude",
@@ -4874,6 +5301,7 @@
         "index": {
           "description": "This module provides first-class version of the Data.Text module",
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "Text",
           "package": "modular-prelude",
@@ -4887,6 +5315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "TextImplements",
           "package": "modular-prelude",
@@ -4895,6 +5324,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "TextImplements",
           "package": "modular-prelude",
@@ -4908,6 +5338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "TextModule",
           "package": "modular-prelude",
@@ -4916,6 +5347,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "TextModule",
           "package": "modular-prelude",
@@ -4929,6 +5361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "Text",
           "package": "modular-prelude",
@@ -4938,6 +5371,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "Text",
           "package": "modular-prelude",
@@ -4951,6 +5385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "_Data_Text_",
           "package": "modular-prelude",
@@ -4960,6 +5395,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "_Data_Text_",
           "package": "modular-prelude",
@@ -4973,6 +5409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "all",
           "package": "modular-prelude",
@@ -4982,6 +5419,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "all",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eBool",
@@ -4996,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "any",
           "package": "modular-prelude",
@@ -5005,6 +5444,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "any",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eBool",
@@ -5019,6 +5459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "break",
           "package": "modular-prelude",
@@ -5028,6 +5469,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "break",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003e(Text,Text)",
@@ -5042,6 +5484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "concatMap",
           "package": "modular-prelude",
@@ -5051,6 +5494,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "concatMap",
           "normalized": "(Char-\u003eText)-\u003eText-\u003eText",
@@ -5066,6 +5510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "dropWhile",
           "package": "modular-prelude",
@@ -5075,6 +5520,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "dropWhile",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eText",
@@ -5090,6 +5536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "empty",
           "package": "modular-prelude",
@@ -5099,6 +5546,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "empty",
           "package": "modular-prelude",
@@ -5111,6 +5559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "filter",
           "package": "modular-prelude",
@@ -5120,6 +5569,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "filter",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eText",
@@ -5134,6 +5584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "length",
           "package": "modular-prelude",
@@ -5143,6 +5594,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "length",
           "normalized": "Text-\u003eInt",
@@ -5157,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "map",
           "package": "modular-prelude",
@@ -5166,6 +5619,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "map",
           "normalized": "(Char-\u003eChar)-\u003eText-\u003eText",
@@ -5180,6 +5634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "null",
           "package": "modular-prelude",
@@ -5189,6 +5644,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "null",
           "normalized": "Text-\u003eBool",
@@ -5203,6 +5659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "pack",
           "package": "modular-prelude",
@@ -5212,6 +5669,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "pack",
           "normalized": "[Char]-\u003eText",
@@ -5226,6 +5684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "readFile",
           "package": "modular-prelude",
@@ -5235,6 +5694,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO Text",
@@ -5250,6 +5710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "singleton",
           "package": "modular-prelude",
@@ -5259,6 +5720,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "singleton",
           "normalized": "Char-\u003eText",
@@ -5273,6 +5735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "span",
           "package": "modular-prelude",
@@ -5282,6 +5745,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "span",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003e(Text,Text)",
@@ -5296,6 +5760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "splitAt",
           "package": "modular-prelude",
@@ -5305,6 +5770,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "splitAt",
           "normalized": "Int-\u003eText-\u003e(Text,Text)",
@@ -5320,6 +5786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "takeWhile",
           "package": "modular-prelude",
@@ -5329,6 +5796,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "takeWhile",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eText",
@@ -5344,6 +5812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "unpack",
           "package": "modular-prelude",
@@ -5353,6 +5822,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "unpack",
           "normalized": "Text-\u003e[Char]",
@@ -5367,6 +5837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Text",
           "name": "writeFile",
           "package": "modular-prelude",
@@ -5376,6 +5847,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Text",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Text",
           "name": "writeFile",
           "normalized": "FilePath-\u003eText-\u003eIO()",
@@ -5392,6 +5864,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a first-class version\n of the \u003ca\u003eData.Vector.Unboxed\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "UVector",
           "package": "modular-prelude",
@@ -5401,6 +5874,7 @@
         "index": {
           "description": "This module provides first-class version of the Data.Vector.Unboxed module",
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "UVector",
           "package": "modular-prelude",
@@ -5414,6 +5888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "UVectorImplements",
           "package": "modular-prelude",
@@ -5422,6 +5897,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "UVectorImplements",
           "package": "modular-prelude",
@@ -5435,6 +5911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "UVectorModule",
           "package": "modular-prelude",
@@ -5443,6 +5920,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "UVectorModule",
           "package": "modular-prelude",
@@ -5456,6 +5934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "UVector",
           "package": "modular-prelude",
@@ -5465,6 +5944,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "UVector",
           "package": "modular-prelude",
@@ -5478,6 +5958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "_Data_Vector_Unboxed_",
           "package": "modular-prelude",
@@ -5487,6 +5968,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "_Data_Vector_Unboxed_",
           "package": "modular-prelude",
@@ -5500,6 +5982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "all",
           "package": "modular-prelude",
@@ -5509,6 +5992,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eUVector a-\u003eBool",
@@ -5523,6 +6007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "any",
           "package": "modular-prelude",
@@ -5532,6 +6017,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003eUVector a-\u003eBool",
@@ -5546,6 +6032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "break",
           "package": "modular-prelude",
@@ -5555,6 +6042,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "break",
           "normalized": "(a-\u003eBool)-\u003eUVector a-\u003e(UVector a,UVector a)",
@@ -5569,6 +6057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "concatMap",
           "package": "modular-prelude",
@@ -5578,6 +6067,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "concatMap",
           "normalized": "(a-\u003eUVector b)-\u003eUVector a-\u003eUVector b",
@@ -5593,6 +6083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "dropWhile",
           "package": "modular-prelude",
@@ -5602,6 +6093,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003eUVector a-\u003eUVector a",
@@ -5617,6 +6109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "empty",
           "package": "modular-prelude",
@@ -5626,6 +6119,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "empty",
           "package": "modular-prelude",
@@ -5638,6 +6132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "filter",
           "package": "modular-prelude",
@@ -5647,6 +6142,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eUVector a-\u003eUVector a",
@@ -5661,6 +6157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "fold",
           "package": "modular-prelude",
@@ -5670,6 +6167,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "fold",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eUVector b-\u003ea",
@@ -5684,6 +6182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "fromList",
           "package": "modular-prelude",
@@ -5693,6 +6192,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "fromList",
           "normalized": "[a]-\u003eUVector a",
@@ -5708,6 +6208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "length",
           "package": "modular-prelude",
@@ -5717,6 +6218,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "length",
           "normalized": "UVector a-\u003eInt",
@@ -5731,6 +6233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "map",
           "package": "modular-prelude",
@@ -5740,6 +6243,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eUVector a-\u003eUVector b",
@@ -5754,6 +6258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "mapM",
           "package": "modular-prelude",
@@ -5763,6 +6268,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "mapM",
           "normalized": "(a-\u003eb c)-\u003eUVector a-\u003eb(UVector c)",
@@ -5777,6 +6283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "mapM_",
           "package": "modular-prelude",
@@ -5786,6 +6293,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "mapM_",
           "normalized": "(a-\u003eb c)-\u003eUVector a-\u003eb()",
@@ -5800,6 +6308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "member",
           "package": "modular-prelude",
@@ -5809,6 +6318,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "member",
           "normalized": "a-\u003eUVector a-\u003eBool",
@@ -5823,6 +6333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "null",
           "package": "modular-prelude",
@@ -5832,6 +6343,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "null",
           "normalized": "UVector a-\u003eBool",
@@ -5846,6 +6358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "pack",
           "package": "modular-prelude",
@@ -5855,6 +6368,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "pack",
           "normalized": "[a]-\u003eUVector a",
@@ -5869,6 +6383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "singleton",
           "package": "modular-prelude",
@@ -5878,6 +6393,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "singleton",
           "normalized": "a-\u003eUVector a",
@@ -5892,6 +6408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "span",
           "package": "modular-prelude",
@@ -5901,6 +6418,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "span",
           "normalized": "(a-\u003eBool)-\u003eUVector a-\u003e(UVector a,UVector a)",
@@ -5915,6 +6433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "splitAt",
           "package": "modular-prelude",
@@ -5924,6 +6443,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "splitAt",
           "normalized": "Int-\u003eUVector a-\u003e(UVector a,UVector a)",
@@ -5939,6 +6459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "takeWhile",
           "package": "modular-prelude",
@@ -5948,6 +6469,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "takeWhile",
           "normalized": "(a-\u003eBool)-\u003eUVector a-\u003eUVector a",
@@ -5963,6 +6485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "toList",
           "package": "modular-prelude",
@@ -5972,6 +6495,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "toList",
           "normalized": "UVector a-\u003e[a]",
@@ -5987,6 +6511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.UVector",
           "name": "unpack",
           "package": "modular-prelude",
@@ -5996,6 +6521,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module UVector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.UVector",
           "name": "unpack",
           "normalized": "UVector a-\u003e[a]",
@@ -6011,6 +6537,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a first-class version\n of the \u003ca\u003eData.Vector\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "Vector",
           "package": "modular-prelude",
@@ -6020,6 +6547,7 @@
         "index": {
           "description": "This module provides first-class version of the Data.Vector module",
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "Vector",
           "package": "modular-prelude",
@@ -6033,6 +6561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "VectorImplements",
           "package": "modular-prelude",
@@ -6041,6 +6570,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "VectorImplements",
           "package": "modular-prelude",
@@ -6054,6 +6584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "VectorModule",
           "package": "modular-prelude",
@@ -6062,6 +6593,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "VectorModule",
           "package": "modular-prelude",
@@ -6075,6 +6607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "Vector",
           "package": "modular-prelude",
@@ -6084,6 +6617,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "Vector",
           "package": "modular-prelude",
@@ -6097,6 +6631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "_Data_Vector_",
           "package": "modular-prelude",
@@ -6106,6 +6641,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "_Data_Vector_",
           "package": "modular-prelude",
@@ -6119,6 +6655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "all",
           "package": "modular-prelude",
@@ -6128,6 +6665,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "all",
           "normalized": "a b(c-\u003eBool)-\u003eVector c-\u003eBool",
@@ -6142,6 +6680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "any",
           "package": "modular-prelude",
@@ -6151,6 +6690,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "any",
           "normalized": "a b(c-\u003eBool)-\u003eVector c-\u003eBool",
@@ -6165,6 +6705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "break",
           "package": "modular-prelude",
@@ -6174,6 +6715,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "break",
           "normalized": "a b(c-\u003eBool)-\u003eVector c-\u003e(Vector c,Vector c)",
@@ -6188,6 +6730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "concatMap",
           "package": "modular-prelude",
@@ -6197,6 +6740,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "concatMap",
           "normalized": "a b c(b-\u003eVector d)-\u003eVector b-\u003eVector d",
@@ -6212,6 +6756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "dropWhile",
           "package": "modular-prelude",
@@ -6221,6 +6766,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "dropWhile",
           "normalized": "a b(c-\u003eBool)-\u003eVector c-\u003eVector c",
@@ -6236,6 +6782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "empty",
           "package": "modular-prelude",
@@ -6245,6 +6792,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "empty",
           "package": "modular-prelude",
@@ -6257,6 +6805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "filter",
           "package": "modular-prelude",
@@ -6266,6 +6815,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "filter",
           "normalized": "a b(c-\u003eBool)-\u003eVector c-\u003eVector c",
@@ -6280,6 +6830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "fold",
           "package": "modular-prelude",
@@ -6289,6 +6840,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "fold",
           "normalized": "a b c(b-\u003ed-\u003eb)-\u003eb-\u003eVector d-\u003eb",
@@ -6303,6 +6855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "fromList",
           "package": "modular-prelude",
@@ -6312,6 +6865,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "fromList",
           "normalized": "a b[c]-\u003eVector c",
@@ -6327,6 +6881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "length",
           "package": "modular-prelude",
@@ -6336,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "length",
           "normalized": "a b Vector c-\u003eInt",
@@ -6350,6 +6906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "map",
           "package": "modular-prelude",
@@ -6359,6 +6916,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "map",
           "normalized": "a b c(b-\u003ed)-\u003eVector b-\u003eVector d",
@@ -6373,6 +6931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "mapM",
           "package": "modular-prelude",
@@ -6382,6 +6941,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "mapM",
           "normalized": "(a-\u003eb c)-\u003eVector a-\u003eb(Vector c)",
@@ -6396,6 +6956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "mapM_",
           "package": "modular-prelude",
@@ -6405,6 +6966,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "mapM_",
           "normalized": "(a-\u003eb c)-\u003eVector a-\u003eb()",
@@ -6419,6 +6981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "member",
           "package": "modular-prelude",
@@ -6428,6 +6991,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "member",
           "normalized": "a-\u003eVector a-\u003eBool",
@@ -6442,6 +7006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "null",
           "package": "modular-prelude",
@@ -6451,6 +7016,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "null",
           "normalized": "a b Vector c-\u003eBool",
@@ -6465,6 +7031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "pack",
           "package": "modular-prelude",
@@ -6474,6 +7041,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "pack",
           "normalized": "a b[c]-\u003eVector c",
@@ -6488,6 +7056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "singleton",
           "package": "modular-prelude",
@@ -6497,6 +7066,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "singleton",
           "normalized": "a b c-\u003eVector c",
@@ -6511,6 +7081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "span",
           "package": "modular-prelude",
@@ -6520,6 +7091,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "span",
           "normalized": "a b(c-\u003eBool)-\u003eVector c-\u003e(Vector c,Vector c)",
@@ -6534,6 +7106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "splitAt",
           "package": "modular-prelude",
@@ -6543,6 +7116,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "splitAt",
           "normalized": "a b Int-\u003eVector c-\u003e(Vector c,Vector c)",
@@ -6558,6 +7132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "takeWhile",
           "package": "modular-prelude",
@@ -6567,6 +7142,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "takeWhile",
           "normalized": "a b(c-\u003eBool)-\u003eVector c-\u003eVector c",
@@ -6582,6 +7158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "toList",
           "package": "modular-prelude",
@@ -6591,6 +7168,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "toList",
           "normalized": "a b Vector c-\u003e[c]",
@@ -6606,6 +7184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude.Module.Vector",
           "name": "unpack",
           "package": "modular-prelude",
@@ -6615,6 +7194,7 @@
         },
         "index": {
           "hierarchy": "ModularPrelude Module Vector",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude.Module.Vector",
           "name": "unpack",
           "normalized": "a b Vector c-\u003e[c]",
@@ -6630,6 +7210,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the core functions\n and type declarations necessary to conveniently interact\n with the standard modules provided with modular-prelude.\n\u003c/p\u003e\u003cp\u003eIt is recommended that you always import this module\n when using other modules from modular-prelude.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude",
           "name": "ModularPrelude",
           "package": "modular-prelude",
@@ -6639,6 +7220,7 @@
         "index": {
           "description": "This module provides the core functions and type declarations necessary to conveniently interact with the standard modules provided with modular-prelude It is recommended that you always import this module when using other modules from modular-prelude",
           "hierarchy": "ModularPrelude",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude",
           "name": "ModularPrelude",
           "package": "modular-prelude",
@@ -6653,6 +7235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing of \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es, producing values.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003ereadsPrec\u003c/a\u003e\u003c/code\u003e (or, for GHC only, \u003ccode\u003e\u003ca\u003ereadPrec\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eDerived instances of \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e make the following assumptions, which\n derived instances of \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e obey:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If the constructor is defined to be an infix operator, then the\n   derived \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e instance will parse only infix applications of\n   the constructor (not the prefix form).\n\u003c/li\u003e\u003cli\u003e Associativity is not used to reduce the occurrence of parentheses,\n   although precedence may be.\n\u003c/li\u003e\u003cli\u003e If the constructor is defined using record syntax, the derived \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e\n   will parse only the record-syntax form, and furthermore, the fields\n   must be given in the same order as the original declaration.\n\u003c/li\u003e\u003cli\u003e The derived \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e instance allows arbitrary Haskell whitespace\n   between tokens of the input string.  Extra parentheses are also\n   allowed.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor example, given the declarations\n\u003c/p\u003e\u003cpre\u003e infixr 5 :^:\n data Tree a =  Leaf a  |  Tree a :^: Tree a\n\u003c/pre\u003e\u003cp\u003ethe derived instance of \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e in Haskell 98 is equivalent to\n\u003c/p\u003e\u003cpre\u003e instance (Read a) =\u003e Read (Tree a) where\n\n         readsPrec d r =  readParen (d \u003e app_prec)\n                          (\\r -\u003e [(Leaf m,t) |\n                                  (\"Leaf\",s) \u003c- lex r,\n                                  (m,t) \u003c- readsPrec (app_prec+1) s]) r\n\n                       ++ readParen (d \u003e up_prec)\n                          (\\r -\u003e [(u:^:v,w) |\n                                  (u,s) \u003c- readsPrec (up_prec+1) r,\n                                  (\":^:\",t) \u003c- lex s,\n                                  (v,w) \u003c- readsPrec (up_prec+1) t]) r\n\n           where app_prec = 10\n                 up_prec = 5\n\u003c/pre\u003e\u003cp\u003eNote that right-associativity of \u003ccode\u003e:^:\u003c/code\u003e is unused.\n\u003c/p\u003e\u003cp\u003eThe derived instance in GHC is equivalent to\n\u003c/p\u003e\u003cpre\u003e instance (Read a) =\u003e Read (Tree a) where\n\n         readPrec = parens $ (prec app_prec $ do\n                                  Ident \"Leaf\" \u003c- lexP\n                                  m \u003c- step readPrec\n                                  return (Leaf m))\n\n                      +++ (prec up_prec $ do\n                                  u \u003c- step readPrec\n                                  Symbol \":^:\" \u003c- lexP\n                                  v \u003c- step readPrec\n                                  return (u :^: v))\n\n           where app_prec = 10\n                 up_prec = 5\n\n         readListPrec = readListPrecDefault\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:19:10 UTC 2014",
           "module": "ModularPrelude",
           "name": "Read",
           "package": "modular-prelude",
@@ -6661,6 +7244,7 @@
         "index": {
           "description": "Parsing of String producing values Minimal complete definition readsPrec or for GHC only readPrec Derived instances of Read make the following assumptions which derived instances of Show obey If the constructor is defined to be an infix operator then the derived Read instance will parse only infix applications of the constructor not the prefix form Associativity is not used to reduce the occurrence of parentheses although precedence may be If the constructor is defined using record syntax the derived Read will parse only the record-syntax form and furthermore the fields must be given in the same order as the original declaration The derived Read instance allows arbitrary Haskell whitespace between tokens of the input string Extra parentheses are also allowed For example given the declarations infixr data Tree Leaf Tree Tree the derived instance of Read in Haskell is equivalent to instance Read Read Tree where readsPrec readParen app prec Leaf Leaf lex readsPrec app prec readParen up prec readsPrec up prec lex readsPrec up prec where app prec up prec Note that right-associativity of is unused The derived instance in GHC is equivalent to instance Read Read Tree where readPrec parens prec app prec do Ident Leaf lexP step readPrec return Leaf prec up prec do step readPrec Symbol lexP step readPrec return where app prec up prec readListPrec readListPrecDefault",
           "hierarchy": "ModularPrelude",
+          "indexed": "2014-03-11T19:19:10",
           "module": "ModularPrelude",
           "name": "Read",
           "package": "modular-prelude",

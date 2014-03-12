@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ascii"
+        "phrase": "ascii",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "Ascii",
           "package": "ascii",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "Ascii",
           "package": "ascii",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "Ascii",
           "package": "ascii",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "Ascii",
           "package": "ascii",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "AsciiBuilder",
           "package": "ascii",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "AsciiBuilder",
           "package": "ascii",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "CIAscii",
           "package": "ascii",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "CIAscii",
           "package": "ascii",
@@ -103,6 +111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe version of \u003ccode\u003e\u003ca\u003efromChar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "ascii",
           "package": "ascii",
@@ -113,6 +122,7 @@
         "index": {
           "description": "Unsafe version of fromChar",
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "ascii",
           "normalized": "Char-\u003eWord",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "ciToByteString",
           "package": "ascii",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "ciToByteString",
           "normalized": "CIAscii-\u003eByteString",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "fromAsciiBuilder",
           "package": "ascii",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "fromAsciiBuilder",
           "normalized": "AsciiBuilder-\u003eAscii",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "fromByteString",
           "package": "ascii",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "fromByteString",
           "normalized": "ByteString-\u003eMaybe Ascii",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "fromCIAscii",
           "package": "ascii",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "fromCIAscii",
           "normalized": "CIAscii-\u003eAscii",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "fromChar",
           "package": "ascii",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "fromChar",
           "normalized": "Char-\u003eMaybe Word",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenamed to avoid clash with \u003ccode\u003e\u003ca\u003efromString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "fromChars",
           "package": "ascii",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Renamed to avoid clash with fromString",
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "fromChars",
           "normalized": "String-\u003eMaybe Ascii",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "fromDigit",
           "package": "ascii",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "fromDigit",
           "normalized": "Word-\u003eMaybe a",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "fromHexDigit",
           "package": "ascii",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "fromHexDigit",
           "normalized": "Word-\u003eMaybe a",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "fromLowHexDigit",
           "package": "ascii",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "fromLowHexDigit",
           "normalized": "Word-\u003eMaybe a",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "fromOctDigit",
           "package": "ascii",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "fromOctDigit",
           "normalized": "Word-\u003eMaybe a",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "fromText",
           "package": "ascii",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "fromText",
           "normalized": "Text-\u003eMaybe Ascii",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "fromUpHexDigit",
           "package": "ascii",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "fromUpHexDigit",
           "normalized": "Word-\u003eMaybe a",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "isAlpha",
           "package": "ascii",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "isAlpha",
           "normalized": "Word-\u003eBool",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "isAlphaNum",
           "package": "ascii",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "isAlphaNum",
           "normalized": "Word-\u003eBool",
@@ -465,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "isAscii",
           "package": "ascii",
@@ -474,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "isAscii",
           "normalized": "Word-\u003eBool",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "isControl",
           "package": "ascii",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "isControl",
           "normalized": "Word-\u003eBool",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "isDigit",
           "package": "ascii",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "isDigit",
           "normalized": "Word-\u003eBool",
@@ -537,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "isHexDigit",
           "package": "ascii",
@@ -546,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "isHexDigit",
           "normalized": "Word-\u003eBool",
@@ -561,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "isLowHexDigit",
           "package": "ascii",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "isLowHexDigit",
           "normalized": "Word-\u003eBool",
@@ -585,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "isLower",
           "package": "ascii",
@@ -594,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "isLower",
           "normalized": "Word-\u003eBool",
@@ -609,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "isPrintable",
           "package": "ascii",
@@ -618,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "isPrintable",
           "normalized": "Word-\u003eBool",
@@ -633,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "isSpaceOrTab",
           "package": "ascii",
@@ -642,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "isSpaceOrTab",
           "normalized": "Word-\u003eBool",
@@ -657,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "isUpHexDigit",
           "package": "ascii",
@@ -666,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "isUpHexDigit",
           "normalized": "Word-\u003eBool",
@@ -681,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "isUpper",
           "package": "ascii",
@@ -690,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "isUpper",
           "normalized": "Word-\u003eBool",
@@ -705,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "isWhiteSpace",
           "package": "ascii",
@@ -714,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "isWhiteSpace",
           "normalized": "Word-\u003eBool",
@@ -729,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "toAsciiBuilder",
           "package": "ascii",
@@ -738,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "toAsciiBuilder",
           "normalized": "Ascii-\u003eAsciiBuilder",
@@ -753,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "toBuilder",
           "package": "ascii",
@@ -762,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "toBuilder",
           "normalized": "AsciiBuilder-\u003eBuilder",
@@ -777,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "toByteString",
           "package": "ascii",
@@ -786,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "toByteString",
           "normalized": "Ascii-\u003eByteString",
@@ -801,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "toCIAscii",
           "package": "ascii",
@@ -810,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "toCIAscii",
           "normalized": "Ascii-\u003eCIAscii",
@@ -825,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "toChar",
           "package": "ascii",
@@ -834,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "toChar",
           "normalized": "Word-\u003eChar",
@@ -849,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "toLower",
           "package": "ascii",
@@ -858,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "toLower",
           "normalized": "Word-\u003eWord",
@@ -873,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "toString",
           "package": "ascii",
@@ -882,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "toString",
           "normalized": "Ascii-\u003eString",
@@ -897,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "toText",
           "package": "ascii",
@@ -906,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "toText",
           "normalized": "Ascii-\u003eText",
@@ -921,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "toUpper",
           "package": "ascii",
@@ -930,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "toUpper",
           "normalized": "Word-\u003eWord",
@@ -945,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "unsafeFromBuilder",
           "package": "ascii",
@@ -954,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "unsafeFromBuilder",
           "normalized": "Builder-\u003eAsciiBuilder",
@@ -969,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "unsafeFromByteString",
           "package": "ascii",
@@ -978,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "unsafeFromByteString",
           "normalized": "ByteString-\u003eAscii",
@@ -993,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "unsafeFromDigit",
           "package": "ascii",
@@ -1002,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "unsafeFromDigit",
           "normalized": "Word-\u003ea",
@@ -1017,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "unsafeFromHexDigit",
           "package": "ascii",
@@ -1026,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "unsafeFromHexDigit",
           "normalized": "Word-\u003ea",
@@ -1041,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "unsafeFromLowHexDigit",
           "package": "ascii",
@@ -1050,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "unsafeFromLowHexDigit",
           "normalized": "Word-\u003ea",
@@ -1065,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "unsafeFromOctDigit",
           "package": "ascii",
@@ -1074,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "unsafeFromOctDigit",
           "normalized": "Word-\u003ea",
@@ -1089,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "unsafeFromString",
           "package": "ascii",
@@ -1098,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "unsafeFromString",
           "normalized": "String-\u003eAscii",
@@ -1113,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "unsafeFromText",
           "package": "ascii",
@@ -1122,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "unsafeFromText",
           "normalized": "Text-\u003eAscii",
@@ -1137,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:03 UTC 2014",
           "module": "Data.Ascii",
           "name": "unsafeFromUpHexDigit",
           "package": "ascii",
@@ -1146,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Data Ascii",
+          "indexed": "2014-03-11T17:13:03",
           "module": "Data.Ascii",
           "name": "unsafeFromUpHexDigit",
           "normalized": "Word-\u003ea",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-awk"
+        "phrase": "haskell-awk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUsed by Hawk's runtime to write to stdout.\n   The API may change at any time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.IO",
           "name": "IO",
           "package": "haskell-awk",
@@ -27,6 +28,7 @@
         "index": {
           "description": "Used by Hawk runtime to write to stdout The API may change at any time",
           "hierarchy": "System Console Hawk IO",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.IO",
           "name": "IO",
           "package": "haskell-awk",
@@ -40,6 +42,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.IO",
           "name": "getInput",
           "package": "haskell-awk",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk IO",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.IO",
           "name": "getInput",
           "normalized": "Maybe FilePath-\u003eIO ByteString",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.IO",
           "name": "printOutput",
           "package": "haskell-awk",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk IO",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.IO",
           "name": "printOutput",
           "normalized": "ByteString-\u003eIO()",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUsed by Hawk's runtime to format the output of a Hawk expression.\n    You can use this from your user prelude if you want Hawk to print\n    your custom datatypes in a console-friendly format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Representable",
           "name": "Representable",
           "package": "haskell-awk",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Used by Hawk runtime to format the output of Hawk expression You can use this from your user prelude if you want Hawk to print your custom datatypes in console-friendly format",
           "hierarchy": "System Console Hawk Representable",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Representable",
           "name": "Representable",
           "package": "haskell-awk",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that instantiate ListAsRow is a type that has a representation\n when is embedded inside a list\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emapM_ Data.ByteString.Lazy.Char8.putStrLn $ repr Data.ByteString.Lazy.Char8.empty \"test\"\n\u003c/code\u003e\u003c/strong\u003etest\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Representable",
           "name": "ListAsRow",
           "package": "haskell-awk",
@@ -117,6 +126,7 @@
         "index": {
           "description": "type that instantiate ListAsRow is type that has representation when is embedded inside list For example mapM Data.ByteString.Lazy.Char8.putStrLn repr Data.ByteString.Lazy.Char8.empty test test",
           "hierarchy": "System Console Hawk Representable",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Representable",
           "name": "ListAsRow",
           "package": "haskell-awk",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that instantiate ListAsRows is a type that has a representation\n when is embedded inside a list\n\u003c/p\u003e\u003cp\u003eNote: we use this class for representing a list of chars as String\n instead of the standard list representation. Without this repr \u003ca\u003etest\u003c/a\u003e would\n yield [\u003ccode\u003et\u003c/code\u003e,\u003ccode\u003ee\u003c/code\u003e,\u003ccode\u003es\u003c/code\u003e,\u003ccode\u003er\u003c/code\u003e] instead of \u003ca\u003etest\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emapM_ Data.ByteString.Lazy.Char8.putStrLn $ repr Data.ByteString.Lazy.Char8.empty \"test\"\n\u003c/code\u003e\u003c/strong\u003etest\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Representable",
           "name": "ListAsRows",
           "package": "haskell-awk",
@@ -139,6 +150,7 @@
         "index": {
           "description": "type that instantiate ListAsRows is type that has representation when is embedded inside list Note we use this class for representing list of chars as String instead of the standard list representation Without this repr test would yield instead of test For example mapM Data.ByteString.Lazy.Char8.putStrLn repr Data.ByteString.Lazy.Char8.empty test test",
           "hierarchy": "System Console Hawk Representable",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Representable",
           "name": "ListAsRows",
           "package": "haskell-awk",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Row is something that can be expressed as a line. \n The output of repr' should be formatted such that\n it can be read and processed from the command line.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eIO.putStrLn $ show [1,2,3,4]\n\u003c/code\u003e\u003c/strong\u003e[1,2,3,4]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eData.ByteString.Lazy.Char8.putStrLn $ repr' (Data.ByteString.Lazy.Char8.pack \" \") [1,2,3,4]\n\u003c/code\u003e\u003c/strong\u003e1 2 3 4\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Representable",
           "name": "Row",
           "package": "haskell-awk",
@@ -161,6 +174,7 @@
         "index": {
           "description": "Row is something that can be expressed as line The output of repr should be formatted such that it can be read and processed from the command line For example IO.putStrLn show Data.ByteString.Lazy.Char8.putStrLn repr Data.ByteString.Lazy.Char8.pack",
           "hierarchy": "System Console Hawk Representable",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Representable",
           "name": "Row",
           "package": "haskell-awk",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that instantiate Rows is a type that can be represented as\n a list of rows, where typically a row is a line.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emapM_ Data.ByteString.Lazy.Char8.putStrLn $ repr (Data.ByteString.Lazy.Char8.singleton '\\n') [1,2,3,4]\n\u003c/code\u003e\u003c/strong\u003e1\n2\n3\n4\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Representable",
           "name": "Rows",
           "package": "haskell-awk",
@@ -183,6 +198,7 @@
         "index": {
           "description": "type that instantiate Rows is type that can be represented as list of rows where typically row is line For example mapM Data.ByteString.Lazy.Char8.putStrLn repr Data.ByteString.Lazy.Char8.singleton",
           "hierarchy": "System Console Hawk Representable",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Representable",
           "name": "Rows",
           "package": "haskell-awk",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Representable",
           "name": "listRepr",
           "package": "haskell-awk",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk Representable",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Representable",
           "name": "listRepr",
           "package": "haskell-awk",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Representable",
           "name": "listRepr'",
           "package": "haskell-awk",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk Representable",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Representable",
           "name": "listRepr'",
           "normalized": "ByteString-\u003e[a]-\u003eByteString",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a representation of the given value as list of strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Representable",
           "name": "repr",
           "package": "haskell-awk",
@@ -250,6 +271,7 @@
         "index": {
           "description": "Return representation of the given value as list of strings",
           "hierarchy": "System Console Hawk Representable",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Representable",
           "name": "repr",
           "package": "haskell-awk",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Representable",
           "name": "repr'",
           "package": "haskell-awk",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk Representable",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Representable",
           "name": "repr'",
           "package": "haskell-awk",
@@ -283,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is Hawk's runtime, it needs to be installed in order to evaluate Hawk\n   expressions. The API may change at any time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Runtime",
           "name": "Runtime",
           "package": "haskell-awk",
@@ -291,6 +316,7 @@
         "index": {
           "description": "This is Hawk runtime it needs to be installed in order to evaluate Hawk expressions The API may change at any time",
           "hierarchy": "System Console Hawk Runtime",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Runtime",
           "name": "Runtime",
           "package": "haskell-awk",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Runtime",
           "name": "c8pack",
           "package": "haskell-awk",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk Runtime",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Runtime",
           "name": "c8pack",
           "normalized": "String-\u003eByteString",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Runtime",
           "name": "listMap",
           "package": "haskell-awk",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk Runtime",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Runtime",
           "name": "listMap",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Runtime",
           "name": "listMapWords",
           "package": "haskell-awk",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk Runtime",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Runtime",
           "name": "listMapWords",
           "normalized": "([a]-\u003eb)-\u003e[[a]]-\u003e[b]",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Runtime",
           "name": "parseRows",
           "package": "haskell-awk",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk Runtime",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Runtime",
           "name": "parseRows",
           "normalized": "ByteString-\u003eByteString-\u003e[ByteString]",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Runtime",
           "name": "parseWords",
           "package": "haskell-awk",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk Runtime",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Runtime",
           "name": "parseWords",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003e[[ByteString]]",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Runtime",
           "name": "printRow",
           "package": "haskell-awk",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk Runtime",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Runtime",
           "name": "printRow",
           "normalized": "Bool-\u003eByteString-\u003ea-\u003eIO()",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Runtime",
           "name": "printRows",
           "package": "haskell-awk",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk Runtime",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Runtime",
           "name": "printRows",
           "normalized": "Bool-\u003eByteString-\u003eByteString-\u003ea-\u003eIO()",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Runtime",
           "name": "runExpr",
           "package": "haskell-awk",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk Runtime",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Runtime",
           "name": "runExpr",
           "normalized": "Maybe FilePath-\u003e(Maybe FilePath-\u003eIO ByteString)-\u003e(ByteString-\u003eByteString)-\u003e(ByteString-\u003eIO())-\u003eIO()",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Runtime",
           "name": "sc8pack",
           "package": "haskell-awk",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk Runtime",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Runtime",
           "name": "sc8pack",
           "normalized": "String-\u003eByteString",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:30:34 UTC 2014",
           "module": "System.Console.Hawk.Runtime",
           "name": "showRows",
           "package": "haskell-awk",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "System Console Hawk Runtime",
+          "indexed": "2014-03-11T18:30:34",
           "module": "System.Console.Hawk.Runtime",
           "name": "showRows",
           "normalized": "ByteString-\u003eByteString-\u003ea-\u003eByteString",

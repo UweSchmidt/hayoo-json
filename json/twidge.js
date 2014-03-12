@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "twidge"
+        "phrase": "twidge",
+        "type": "phrase"
       },
       "type": "context"
     }

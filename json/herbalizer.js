@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "herbalizer"
+        "phrase": "herbalizer",
+        "type": "phrase"
       },
       "type": "context"
     }

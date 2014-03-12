@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "LambdaPrettyQuote"
+        "phrase": "LambdaPrettyQuote",
+        "type": "phrase"
       },
       "type": "context"
     }

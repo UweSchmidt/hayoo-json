@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "strict-io"
+        "phrase": "strict-io",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMutable references of strict values in the \u003ccode\u003e\u003ca\u003eSIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003cp\u003eThe type of references remains the same as in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad\n and is just re-exported here.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "Data.IORef.Strict",
           "name": "Strict",
           "package": "strict-io",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Mutable references of strict values in the SIO monad The type of references remains the same as in the IO monad and is just re-exported here",
           "hierarchy": "Data IORef Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "Data.IORef.Strict",
           "name": "Strict",
           "package": "strict-io",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable variable in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "Data.IORef.Strict",
           "name": "IORef",
           "package": "strict-io",
@@ -50,6 +53,7 @@
         "index": {
           "description": "mutable variable in the IO monad",
           "hierarchy": "Data IORef Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "Data.IORef.Strict",
           "name": "IORef",
           "package": "strict-io",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomically modifies the contents of an \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function is useful for using \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e in a safe way in a multithreaded program.\n If you only have one \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e, then using \u003ccode\u003e\u003ca\u003eatomicModifyIORef\u003c/a\u003e\u003c/code\u003e to access and modify\n it will prevent race conditions.\n\u003c/p\u003e\u003cp\u003eExtending the atomicity to multiple \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003es is problematic, so it is recommended that\n if you need to do anything more complicated then using \u003ca\u003eControl.Concurrent.MVar.MVar\u003c/a\u003e\n instead is a good idea.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "Data.IORef.Strict",
           "name": "atomicModifyIORef",
           "package": "strict-io",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Atomically modifies the contents of an IORef This function is useful for using IORef in safe way in multithreaded program If you only have one IORef then using atomicModifyIORef to access and modify it will prevent race conditions Extending the atomicity to multiple IORef is problematic so it is recommended that if you need to do anything more complicated then using Control.Concurrent.MVar.MVar instead is good idea",
           "hierarchy": "Data IORef Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "Data.IORef.Strict",
           "name": "atomicModifyIORef",
           "normalized": "IORef a-\u003e(a-\u003e(a,b))-\u003eSIO b",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003eWeak\u003c/a\u003e\u003c/code\u003e pointer to an \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "Data.IORef.Strict",
           "name": "mkWeakIORef",
           "package": "strict-io",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Make Weak pointer to an IORef",
           "hierarchy": "Data IORef Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "Data.IORef.Strict",
           "name": "mkWeakIORef",
           "normalized": "IORef a-\u003eSIO()-\u003eSIO(Weak(IORef a))",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutate the contents of an \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "Data.IORef.Strict",
           "name": "modifyIORef",
           "package": "strict-io",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Mutate the contents of an IORef",
           "hierarchy": "Data IORef Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "Data.IORef.Strict",
           "name": "modifyIORef",
           "normalized": "IORef a-\u003e(a-\u003ea)-\u003eSIO()",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a new \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e, but force the value before storing it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "Data.IORef.Strict",
           "name": "newIORef",
           "package": "strict-io",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Build new IORef but force the value before storing it",
           "hierarchy": "Data IORef Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "Data.IORef.Strict",
           "name": "newIORef",
           "normalized": "a-\u003eSIO(IORef a)",
@@ -168,6 +180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the value of an \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "Data.IORef.Strict",
           "name": "readIORef",
           "package": "strict-io",
@@ -178,6 +191,7 @@
         "index": {
           "description": "Read the value of an IORef",
           "hierarchy": "Data IORef Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "Data.IORef.Strict",
           "name": "readIORef",
           "normalized": "IORef a-\u003eSIO a",
@@ -194,6 +208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeeply force a value and write it into an \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "Data.IORef.Strict",
           "name": "writeIORef",
           "package": "strict-io",
@@ -204,6 +219,7 @@
         "index": {
           "description": "Deeply force value and write it into an IORef",
           "hierarchy": "Data IORef Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "Data.IORef.Strict",
           "name": "writeIORef",
           "normalized": "IORef a-\u003ea-\u003eSIO()",
@@ -220,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports the internals of \u003ca\u003eSystem.IO.Strict\u003c/a\u003e so that other packages can extend the\n \u003ccode\u003e\u003ca\u003eSIO\u003c/a\u003e\u003c/code\u003e monad. This module has to be used with great care: by lifting a lazy\n function or a function that let leaks its lazy arguments, one breaks the only purpose\n of the \u003ca\u003eSystem.IO.Strict\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict.Internals",
           "name": "Internals",
           "package": "strict-io",
@@ -229,6 +246,7 @@
         "index": {
           "description": "This module exports the internals of System.IO.Strict so that other packages can extend the SIO monad This module has to be used with great care by lifting lazy function or function that let leaks its lazy arguments one breaks the only purpose of the System.IO.Strict module",
           "hierarchy": "System IO Strict Internals",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict.Internals",
           "name": "Internals",
           "package": "strict-io",
@@ -242,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict.Internals",
           "name": "SIO",
           "package": "strict-io",
@@ -250,6 +269,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict Internals",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict.Internals",
           "name": "SIO",
           "package": "strict-io",
@@ -263,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict.Internals",
           "name": "SIO",
           "package": "strict-io",
@@ -272,6 +293,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict Internals",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict.Internals",
           "name": "SIO",
           "package": "strict-io",
@@ -285,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict.Internals",
           "name": "rawRun",
           "package": "strict-io",
@@ -294,6 +317,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict Internals",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict.Internals",
           "name": "rawRun",
           "package": "strict-io",
@@ -360,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a strict \u003cem\u003eIO\u003c/em\u003e computation without arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict.Internals",
           "name": "wrap0",
           "package": "strict-io",
@@ -370,6 +395,7 @@
         "index": {
           "description": "Wraps strict IO computation without arguments",
           "hierarchy": "System IO Strict Internals",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict.Internals",
           "name": "wrap0",
           "normalized": "IO a-\u003eSIO a",
@@ -385,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a lazy \u003cem\u003eIO\u003c/em\u003e computation without arguments and forces its contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict.Internals",
           "name": "wrap0'",
           "package": "strict-io",
@@ -395,6 +422,7 @@
         "index": {
           "description": "Wraps lazy IO computation without arguments and forces its contents",
           "hierarchy": "System IO Strict Internals",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict.Internals",
           "name": "wrap0'",
           "normalized": "IO a-\u003eSIO a",
@@ -410,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a strict \u003cem\u003eIO\u003c/em\u003e computation with a single argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict.Internals",
           "name": "wrap1",
           "package": "strict-io",
@@ -420,6 +449,7 @@
         "index": {
           "description": "Wraps strict IO computation with single argument",
           "hierarchy": "System IO Strict Internals",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict.Internals",
           "name": "wrap1",
           "normalized": "(a-\u003eIO b)-\u003ea-\u003eSIO b",
@@ -435,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a lazy \u003cem\u003eIO\u003c/em\u003e computation with a single argument and forces its contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict.Internals",
           "name": "wrap1'",
           "package": "strict-io",
@@ -445,6 +476,7 @@
         "index": {
           "description": "Wraps lazy IO computation with single argument and forces its contents",
           "hierarchy": "System IO Strict Internals",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict.Internals",
           "name": "wrap1'",
           "normalized": "(a-\u003eIO b)-\u003ea-\u003eSIO b",
@@ -460,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a strict \u003cem\u003eIO\u003c/em\u003e computation with two arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict.Internals",
           "name": "wrap2",
           "package": "strict-io",
@@ -470,6 +503,7 @@
         "index": {
           "description": "Wraps strict IO computation with two arguments",
           "hierarchy": "System IO Strict Internals",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict.Internals",
           "name": "wrap2",
           "normalized": "(a-\u003eb-\u003eIO c)-\u003ea-\u003eb-\u003eSIO c",
@@ -485,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a strict \u003cem\u003eIO\u003c/em\u003e computation with two arguments and forces its contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict.Internals",
           "name": "wrap2'",
           "package": "strict-io",
@@ -495,6 +530,7 @@
         "index": {
           "description": "Wraps strict IO computation with two arguments and forces its contents",
           "hierarchy": "System IO Strict Internals",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict.Internals",
           "name": "wrap2'",
           "normalized": "(a-\u003eb-\u003eIO c)-\u003ea-\u003eb-\u003eSIO c",
@@ -510,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a strict \u003cem\u003eIO\u003c/em\u003e computation with two arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict.Internals",
           "name": "wrap3",
           "package": "strict-io",
@@ -520,6 +557,7 @@
         "index": {
           "description": "Wraps strict IO computation with two arguments",
           "hierarchy": "System IO Strict Internals",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict.Internals",
           "name": "wrap3",
           "normalized": "(a-\u003eb-\u003ec-\u003eIO d)-\u003ea-\u003eb-\u003ec-\u003eSIO d",
@@ -535,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a strict \u003cem\u003eIO\u003c/em\u003e computation with two arguments and forces its contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict.Internals",
           "name": "wrap3'",
           "package": "strict-io",
@@ -545,6 +584,7 @@
         "index": {
           "description": "Wraps strict IO computation with two arguments and forces its contents",
           "hierarchy": "System IO Strict Internals",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict.Internals",
           "name": "wrap3'",
           "normalized": "(a-\u003eb-\u003ec-\u003eIO d)-\u003ea-\u003eb-\u003ec-\u003eSIO d",
@@ -560,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module wraps the functions of the \u003ca\u003eSystem.IO\u003c/a\u003e module at a different type namely \u003ccode\u003e\u003ca\u003eSIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe purpose of this module is to export only strict \u003cem\u003eIO\u003c/em\u003e functions, by strict\n we mean strict in the result. The arguments of these functions may only by partially forced,\n but when the function returns, the arguments can no longer be forced by the function.\n When the type of the value to be forced is polymorphic, a \u003ccode\u003e\u003ca\u003eNFData\u003c/a\u003e\u003c/code\u003e constraint is added\n since we (internally) use \u003ccode\u003e\u003ca\u003ernf\u003c/a\u003e\u003c/code\u003e to force the value. Then we rely on the behavior\n of \u003ccode\u003e\u003ca\u003eNFData\u003c/a\u003e\u003c/code\u003e instances to provide the fact that any lazy argument passed to a \u003ccode\u003e\u003ca\u003eSIO\u003c/a\u003e\u003c/code\u003e function\n will not leak-out after the call.\n\u003c/p\u003e\u003cp\u003eThese functions do not necessarily use their arguments completely but they do not hold\n or return any value that could depend on these arguments. If the original functions \n from \u003ca\u003eSystem.IO\u003c/a\u003e module were already strict, then this module just provides them\n at another type.\n Some functions from the original module are famously lazy like the \u003ccode\u003e\u003ca\u003egetContents\u003c/a\u003e\u003c/code\u003e like\n functions: in this module their results are deeply forced.\n\u003c/p\u003e\u003cp\u003eIn Haskell, monad operations (\u003ccode\u003ereturn\u003c/code\u003e and \u003ccode\u003e\u003e\u003e=\u003c/code\u003e) have to be lazy. Therefore the \u003ccode\u003e\u003ca\u003eSIO\u003c/a\u003e\u003c/code\u003e\n monad is not completely strict (i.e. pure values can still be lazy). So in this module we\n expose the \u003ccode\u003e\u003ca\u003ereturn'\u003c/a\u003e\u003c/code\u003e function that forces the given value before putting it into the monad.\n\u003c/p\u003e\u003cp\u003eSince this module uses the same names as \u003ca\u003eSystem.IO\u003c/a\u003e, it is designed to be imported \u003cem\u003equalified\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e\n    import System.IO.Strict (SIO)\n    import qualified System.IO.Strict as SIO\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "Strict",
           "package": "strict-io",
@@ -569,6 +610,7 @@
         "index": {
           "description": "This module wraps the functions of the System.IO module at different type namely SIO The purpose of this module is to export only strict IO functions by strict we mean strict in the result The arguments of these functions may only by partially forced but when the function returns the arguments can no longer be forced by the function When the type of the value to be forced is polymorphic NFData constraint is added since we internally use rnf to force the value Then we rely on the behavior of NFData instances to provide the fact that any lazy argument passed to SIO function will not leak-out after the call These functions do not necessarily use their arguments completely but they do not hold or return any value that could depend on these arguments If the original functions from System.IO module were already strict then this module just provides them at another type Some functions from the original module are famously lazy like the getContents like functions in this module their results are deeply forced In Haskell monad operations return and have to be lazy Therefore the SIO monad is not completely strict i.e pure values can still be lazy So in this module we expose the return function that forces the given value before putting it into the monad Since this module uses the same names as System.IO it is designed to be imported qualified import System.IO.Strict SIO import qualified System.IO.Strict as SIO",
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "Strict",
           "package": "strict-io",
@@ -582,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "SIO",
           "package": "strict-io",
@@ -590,6 +633,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "SIO",
           "package": "strict-io",
@@ -603,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "appendFile",
           "package": "strict-io",
@@ -612,6 +657,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "appendFile",
           "normalized": "FilePath-\u003eString-\u003eSIO()",
@@ -628,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003efix\u003c/a\u003e\u003c/code\u003e is stricter than its counterpart in \u003ca\u003eSystem.IO\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "fix",
           "package": "strict-io",
@@ -638,6 +685,7 @@
         "index": {
           "description": "Note that fix is stricter than its counterpart in System.IO",
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "fix",
           "normalized": "(a-\u003eSIO a)-\u003eSIO a",
@@ -652,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "getChar",
           "package": "strict-io",
@@ -661,6 +710,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "getChar",
           "package": "strict-io",
@@ -675,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003egetContents\u003c/a\u003e\u003c/code\u003e is stricter than its counterpart in \u003ca\u003eSystem.IO\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "getContents",
           "package": "strict-io",
@@ -685,6 +736,7 @@
         "index": {
           "description": "Note that getContents is stricter than its counterpart in System.IO",
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "getContents",
           "package": "strict-io",
@@ -698,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "getLine",
           "package": "strict-io",
@@ -707,6 +760,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "getLine",
           "package": "strict-io",
@@ -720,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hClose",
           "package": "strict-io",
@@ -729,6 +784,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hClose",
           "normalized": "Handle-\u003eSIO()",
@@ -744,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hFileSize",
           "package": "strict-io",
@@ -753,6 +810,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hFileSize",
           "normalized": "Handle-\u003eSIO Integer",
@@ -768,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hFlush",
           "package": "strict-io",
@@ -777,6 +836,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hFlush",
           "normalized": "Handle-\u003eSIO()",
@@ -792,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hGetBuf",
           "package": "strict-io",
@@ -801,6 +862,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hGetBuf",
           "normalized": "Handle-\u003ePtr a-\u003eInt-\u003eSIO Int",
@@ -816,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hGetBufNonBlocking",
           "package": "strict-io",
@@ -825,6 +888,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hGetBufNonBlocking",
           "normalized": "Handle-\u003ePtr a-\u003eInt-\u003eSIO Int",
@@ -840,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hGetBuffering",
           "package": "strict-io",
@@ -849,6 +914,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hGetBuffering",
           "normalized": "Handle-\u003eSIO BufferMode",
@@ -864,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hGetChar",
           "package": "strict-io",
@@ -873,6 +940,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hGetChar",
           "normalized": "Handle-\u003eSIO Char",
@@ -889,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e is stricter than its counterpart in \u003ca\u003eSystem.IO\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hGetContents",
           "package": "strict-io",
@@ -899,6 +968,7 @@
         "index": {
           "description": "Note that hGetContents is stricter than its counterpart in System.IO",
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hGetContents",
           "normalized": "Handle-\u003eSIO String",
@@ -914,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hGetEcho",
           "package": "strict-io",
@@ -923,6 +994,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hGetEcho",
           "normalized": "Handle-\u003eSIO Bool",
@@ -938,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hGetLine",
           "package": "strict-io",
@@ -947,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hGetLine",
           "normalized": "Handle-\u003eSIO String",
@@ -962,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hGetPosn",
           "package": "strict-io",
@@ -971,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hGetPosn",
           "normalized": "Handle-\u003eSIO HandlePosn",
@@ -986,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hIsClosed",
           "package": "strict-io",
@@ -995,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hIsClosed",
           "normalized": "Handle-\u003eSIO Bool",
@@ -1010,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hIsEOF",
           "package": "strict-io",
@@ -1019,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hIsEOF",
           "normalized": "Handle-\u003eSIO Bool",
@@ -1034,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hIsOpen",
           "package": "strict-io",
@@ -1043,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hIsOpen",
           "normalized": "Handle-\u003eSIO Bool",
@@ -1058,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hIsReadable",
           "package": "strict-io",
@@ -1067,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hIsReadable",
           "normalized": "Handle-\u003eSIO Bool",
@@ -1082,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hIsSeekable",
           "package": "strict-io",
@@ -1091,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hIsSeekable",
           "normalized": "Handle-\u003eSIO Bool",
@@ -1106,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hIsTerminalDevice",
           "package": "strict-io",
@@ -1115,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hIsTerminalDevice",
           "normalized": "Handle-\u003eSIO Bool",
@@ -1130,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hIsWritable",
           "package": "strict-io",
@@ -1139,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hIsWritable",
           "normalized": "Handle-\u003eSIO Bool",
@@ -1154,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hLookAhead",
           "package": "strict-io",
@@ -1163,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hLookAhead",
           "normalized": "Handle-\u003eSIO Char",
@@ -1178,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hPrint",
           "package": "strict-io",
@@ -1187,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hPrint",
           "normalized": "Handle-\u003ea-\u003eSIO()",
@@ -1202,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hPutBuf",
           "package": "strict-io",
@@ -1211,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hPutBuf",
           "normalized": "Handle-\u003ePtr a-\u003eInt-\u003eSIO()",
@@ -1226,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hPutBufNonBlocking",
           "package": "strict-io",
@@ -1235,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hPutBufNonBlocking",
           "normalized": "Handle-\u003ePtr a-\u003eInt-\u003eSIO Int",
@@ -1250,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hPutChar",
           "package": "strict-io",
@@ -1259,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hPutChar",
           "normalized": "Handle-\u003eChar-\u003eSIO()",
@@ -1274,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hPutStr",
           "package": "strict-io",
@@ -1283,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hPutStr",
           "normalized": "Handle-\u003eString-\u003eSIO()",
@@ -1298,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hPutStrLn",
           "package": "strict-io",
@@ -1307,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hPutStrLn",
           "normalized": "Handle-\u003eString-\u003eSIO()",
@@ -1322,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hReady",
           "package": "strict-io",
@@ -1331,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hReady",
           "normalized": "Handle-\u003eSIO Bool",
@@ -1346,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hSeek",
           "package": "strict-io",
@@ -1355,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hSeek",
           "normalized": "Handle-\u003eSeekMode-\u003eInteger-\u003eSIO()",
@@ -1370,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hSetBinaryMode",
           "package": "strict-io",
@@ -1379,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hSetBinaryMode",
           "normalized": "Handle-\u003eBool-\u003eSIO()",
@@ -1394,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hSetBuffering",
           "package": "strict-io",
@@ -1403,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hSetBuffering",
           "normalized": "Handle-\u003eBufferMode-\u003eSIO()",
@@ -1418,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hSetEcho",
           "package": "strict-io",
@@ -1427,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hSetEcho",
           "normalized": "Handle-\u003eBool-\u003eSIO()",
@@ -1442,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hSetFileSize",
           "package": "strict-io",
@@ -1451,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hSetFileSize",
           "normalized": "Handle-\u003eInteger-\u003eSIO()",
@@ -1466,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hSetPosn",
           "package": "strict-io",
@@ -1475,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hSetPosn",
           "normalized": "HandlePosn-\u003eSIO()",
@@ -1490,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hShow",
           "package": "strict-io",
@@ -1499,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hShow",
           "normalized": "Handle-\u003eSIO String",
@@ -1514,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hTell",
           "package": "strict-io",
@@ -1523,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hTell",
           "normalized": "Handle-\u003eSIO Integer",
@@ -1538,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "hWaitForInput",
           "package": "strict-io",
@@ -1547,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "hWaitForInput",
           "normalized": "Handle-\u003eInt-\u003eSIO Bool",
@@ -1562,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "interact",
           "package": "strict-io",
@@ -1571,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "interact",
           "normalized": "(String-\u003eString)-\u003eSIO()",
@@ -1585,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "isEOF",
           "package": "strict-io",
@@ -1594,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "isEOF",
           "package": "strict-io",
@@ -1607,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "openBinaryFile",
           "package": "strict-io",
@@ -1616,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "openBinaryFile",
           "normalized": "FilePath-\u003eIOMode-\u003eSIO Handle",
@@ -1631,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "openBinaryTempFile",
           "package": "strict-io",
@@ -1640,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "openBinaryTempFile",
           "normalized": "FilePath-\u003eString-\u003eSIO(FilePath,Handle)",
@@ -1655,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "openFile",
           "package": "strict-io",
@@ -1664,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "openFile",
           "normalized": "FilePath-\u003eIOMode-\u003eSIO Handle",
@@ -1679,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "openTempFile",
           "package": "strict-io",
@@ -1688,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "openTempFile",
           "normalized": "FilePath-\u003eString-\u003eSIO(FilePath,Handle)",
@@ -1703,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "print",
           "package": "strict-io",
@@ -1712,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "print",
           "normalized": "a-\u003eSIO()",
@@ -1726,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "putChar",
           "package": "strict-io",
@@ -1735,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "putChar",
           "normalized": "Char-\u003eSIO()",
@@ -1750,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "putStr",
           "package": "strict-io",
@@ -1759,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "putStr",
           "normalized": "String-\u003eSIO()",
@@ -1774,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "putStrLn",
           "package": "strict-io",
@@ -1783,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "putStrLn",
           "normalized": "String-\u003eSIO()",
@@ -1799,6 +1943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e is stricter than its counterpart in \u003ca\u003eSystem.IO\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "read",
           "package": "strict-io",
@@ -1809,6 +1954,7 @@
         "index": {
           "description": "Note that read is stricter than its counterpart in System.IO",
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "read",
           "normalized": "String-\u003eSIO a",
@@ -1824,6 +1970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e is stricter than its counterpart in \u003ca\u003eSystem.IO\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "readFile",
           "package": "strict-io",
@@ -1834,6 +1981,7 @@
         "index": {
           "description": "Note that readFile is stricter than its counterpart in System.IO",
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "readFile",
           "normalized": "FilePath-\u003eSIO String",
@@ -1850,6 +1998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003ereadLn\u003c/a\u003e\u003c/code\u003e is stricter than its counterpart in \u003ca\u003eSystem.IO\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "readLn",
           "package": "strict-io",
@@ -1860,6 +2009,7 @@
         "index": {
           "description": "Note that readLn is stricter than its counterpart in System.IO",
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "readLn",
           "package": "strict-io",
@@ -1873,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "stderr",
           "package": "strict-io",
@@ -1882,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "stderr",
           "package": "strict-io",
@@ -1894,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "stdin",
           "package": "strict-io",
@@ -1903,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "stdin",
           "package": "strict-io",
@@ -1915,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "stdout",
           "package": "strict-io",
@@ -1924,6 +2079,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "stdout",
           "package": "strict-io",
@@ -1937,6 +2093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003ewithBinaryFile\u003c/a\u003e\u003c/code\u003e is stricter than its counterpart in \u003ca\u003eSystem.IO\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "withBinaryFile",
           "package": "strict-io",
@@ -1947,6 +2104,7 @@
         "index": {
           "description": "Note that withBinaryFile is stricter than its counterpart in System.IO",
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "withBinaryFile",
           "normalized": "FilePath-\u003eIOMode-\u003e(Handle-\u003eSIO a)-\u003eSIO a",
@@ -1963,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003ewithFile\u003c/a\u003e\u003c/code\u003e is stricter than its counterpart in \u003ca\u003eSystem.IO\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "withFile",
           "package": "strict-io",
@@ -1973,6 +2132,7 @@
         "index": {
           "description": "Note that withFile is stricter than its counterpart in System.IO",
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "withFile",
           "normalized": "FilePath-\u003eIOMode-\u003e(Handle-\u003eSIO a)-\u003eSIO a",
@@ -1988,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:24 UTC 2014",
           "module": "System.IO.Strict",
           "name": "writeFile",
           "package": "strict-io",
@@ -1997,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "System IO Strict",
+          "indexed": "2014-03-11T20:12:24",
           "module": "System.IO.Strict",
           "name": "writeFile",
           "normalized": "FilePath-\u003eString-\u003eSIO()",

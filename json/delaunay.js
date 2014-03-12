@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "delaunay"
+        "phrase": "delaunay",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:39 UTC 2014",
           "module": "Graphics.Triangulation.Delaunay",
           "name": "Delaunay",
           "package": "delaunay",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Triangulation Delaunay",
+          "indexed": "2014-03-11T17:52:39",
           "module": "Graphics.Triangulation.Delaunay",
           "name": "Delaunay",
           "package": "delaunay",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the Delaunay triangulation of a set of points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:39 UTC 2014",
           "module": "Graphics.Triangulation.Delaunay",
           "name": "triangulate",
           "package": "delaunay",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Generate the Delaunay triangulation of set of points",
           "hierarchy": "Graphics Triangulation Delaunay",
+          "indexed": "2014-03-11T17:52:39",
           "module": "Graphics.Triangulation.Delaunay",
           "name": "triangulate",
           "normalized": "[Vector]-\u003e[(Vector,Vector,Vector)]",

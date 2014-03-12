@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wordcloud"
+        "phrase": "wordcloud",
+        "type": "phrase"
       },
       "type": "context"
     }

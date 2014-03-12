@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "repa-examples"
+        "phrase": "repa-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AC-BuildPlatform"
+        "phrase": "AC-BuildPlatform",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuery basic properties of the current platform.\n\u003c/p\u003e\u003cp\u003eAll of these values are compile-time constants. If the special\n  magic in the package configure step was unable to determine the\n  correct value for something, it comes back as \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:31:37 UTC 2014",
           "module": "System.Platform",
           "name": "Platform",
           "package": "AC-BuildPlatform",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Query basic properties of the current platform All of these values are compile-time constants If the special magic in the package configure step was unable to determine the correct value for something it comes back as Nothing",
           "hierarchy": "System Platform",
+          "indexed": "2014-03-11T16:31:37",
           "module": "System.Platform",
           "name": "Platform",
           "package": "AC-BuildPlatform",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of all possible operating system types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:37 UTC 2014",
           "module": "System.Platform",
           "name": "OS_Type",
           "package": "AC-BuildPlatform",
@@ -51,6 +54,7 @@
         "index": {
           "description": "list of all possible operating system types",
           "hierarchy": "System Platform",
+          "indexed": "2014-03-11T16:31:37",
           "module": "System.Platform",
           "name": "OS_Type",
           "package": "AC-BuildPlatform",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome version of Microsoft Windows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:37 UTC 2014",
           "module": "System.Platform",
           "name": "MS_Windows",
           "package": "AC-BuildPlatform",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Some version of Microsoft Windows",
           "hierarchy": "System Platform",
+          "indexed": "2014-03-11T16:31:37",
           "module": "System.Platform",
           "name": "MS_Windows",
           "package": "AC-BuildPlatform",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny sufficiently \"Unix-like\" system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:37 UTC 2014",
           "module": "System.Platform",
           "name": "Unix",
           "package": "AC-BuildPlatform",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Any sufficiently Unix-like system",
           "hierarchy": "System Platform",
+          "indexed": "2014-03-11T16:31:37",
           "module": "System.Platform",
           "name": "Unix",
           "package": "AC-BuildPlatform",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the compiler (e.g., \u003ccode\u003e\"GHC\"\u003c/code\u003e), or \"Unknown\" if\n  this could not be detected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:37 UTC 2014",
           "module": "System.Platform",
           "name": "compiler_name",
           "package": "AC-BuildPlatform",
@@ -123,6 +132,7 @@
         "index": {
           "description": "The name of the compiler e.g GHC or Unknown if this could not be detected",
           "hierarchy": "System Platform",
+          "indexed": "2014-03-11T16:31:37",
           "module": "System.Platform",
           "name": "compiler_name",
           "package": "AC-BuildPlatform",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe numerical version string for the compiler\n  (e.g., \u003ccode\u003e\"6.10.2\"\u003c/code\u003e), or \"\" if this could not be detected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:37 UTC 2014",
           "module": "System.Platform",
           "name": "compiler_version",
           "package": "AC-BuildPlatform",
@@ -146,6 +157,7 @@
         "index": {
           "description": "The numerical version string for the compiler e.g or if this could not be detected",
           "hierarchy": "System Platform",
+          "indexed": "2014-03-11T16:31:37",
           "module": "System.Platform",
           "name": "compiler_version",
           "package": "AC-BuildPlatform",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of operating system under which we are running.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:37 UTC 2014",
           "module": "System.Platform",
           "name": "os_type",
           "package": "AC-BuildPlatform",
@@ -169,6 +182,7 @@
         "index": {
           "description": "The type of operating system under which we are running",
           "hierarchy": "System Platform",
+          "indexed": "2014-03-11T16:31:37",
           "module": "System.Platform",
           "name": "os_type",
           "package": "AC-BuildPlatform",

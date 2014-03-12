@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "enumerator"
+        "phrase": "enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eByte-oriented alternatives to \u003ca\u003eData.Enumerator.List\u003c/a\u003e. Note that the\n enumeratees in this module must unpack their inputs to work properly. If\n you do not need to handle leftover input on a byte-by-byte basis, the\n chunk-oriented versions will be much faster.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported qualified:\n\u003c/p\u003e\u003cpre\u003e\n import qualified Data.Enumerator.Binary as EB\n\u003c/pre\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "Binary",
           "package": "enumerator",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Byte-oriented alternatives to Data.Enumerator.List Note that the enumeratees in this module must unpack their inputs to work properly If you do not need to handle leftover input on byte-by-byte basis the chunk-oriented versions will be much faster This module is intended to be imported qualified import qualified Data.Enumerator.Binary as EB Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "Binary",
           "package": "enumerator",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003econcatMap\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input byte\n and feeds the resulting outputs to the inner iteratee.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "concatMap",
           "package": "enumerator",
@@ -52,6 +55,7 @@
         "index": {
           "description": "concatMap applies to each input byte and feeds the resulting outputs to the inner iteratee Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "concatMap",
           "normalized": "(Word-\u003eByteString)-\u003eEnumeratee ByteString ByteString a b",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003econcatMap\u003c/a\u003e\u003c/code\u003e, but with a stateful step\n function.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.11\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "concatMapAccum",
           "package": "enumerator",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Similar to concatMap but with stateful step function Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "concatMapAccum",
           "normalized": "(a-\u003eWord-\u003e(a,ByteString))-\u003ea-\u003eEnumeratee ByteString ByteString b c",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003econcatMapM\u003c/a\u003e\u003c/code\u003e, but with a stateful step function.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.11\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "concatMapAccumM",
           "package": "enumerator",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Similar to concatMapM but with stateful step function Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "concatMapAccumM",
           "normalized": "(a-\u003eWord-\u003eb(a,ByteString))-\u003ea-\u003eEnumeratee ByteString ByteString b c",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003econcatMapM\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input byte and feeds the\n resulting outputs to the inner iteratee.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "concatMapM",
           "package": "enumerator",
@@ -130,6 +139,7 @@
         "index": {
           "description": "concatMapM applies to each input byte and feeds the resulting outputs to the inner iteratee Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "concatMapM",
           "normalized": "(Word-\u003ea ByteString)-\u003eEnumeratee ByteString ByteString a b",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003econsume\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e (const True)\u003c/pre\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "consume",
           "package": "enumerator",
@@ -156,6 +167,7 @@
         "index": {
           "description": "consume takeWhile const True Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "consume",
           "package": "enumerator",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e ignores \u003cem\u003en\u003c/em\u003e bytes of input from the stream.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "drop",
           "package": "enumerator",
@@ -179,6 +192,7 @@
         "index": {
           "description": "drop ignores bytes of input from the stream Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "drop",
           "normalized": "Integer-\u003eIteratee ByteString a()",
@@ -194,6 +208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edropWhile\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e ignores input from the stream\n until the first byte which does not match the predicate.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "dropWhile",
           "package": "enumerator",
@@ -204,6 +219,7 @@
         "index": {
           "description": "dropWhile ignores input from the stream until the first byte which does not match the predicate Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "dropWhile",
           "normalized": "(Word-\u003eBool)-\u003eIteratee ByteString a()",
@@ -220,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a file path in binary mode, and passes the handle to\n \u003ccode\u003e\u003ca\u003eenumHandle\u003c/a\u003e\u003c/code\u003e. The file will be closed when enumeration finishes.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "enumFile",
           "package": "enumerator",
@@ -230,6 +247,7 @@
         "index": {
           "description": "Opens file path in binary mode and passes the handle to enumHandle The file will be closed when enumeration finishes Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "enumFile",
           "normalized": "FilePath-\u003eEnumerator ByteString IO a",
@@ -246,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a file path in binary mode, and passes the handle to\n \u003ccode\u003e\u003ca\u003eenumHandleRange\u003c/a\u003e\u003c/code\u003e. The file will be closed when enumeration finishes.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "enumFileRange",
           "package": "enumerator",
@@ -255,6 +274,7 @@
         "index": {
           "description": "Opens file path in binary mode and passes the handle to enumHandleRange The file will be closed when enumeration finishes Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "enumFileRange",
           "normalized": "FilePath-\u003eMaybe Integer-\u003eMaybe Integer-\u003eEnumerator ByteString IO a",
@@ -271,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead bytes (in chunks of the given buffer size) from the handle, and\n stream them to an \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e. If an exception occurs during file IO,\n enumeration will stop and \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e will be returned. Exceptions from the\n iteratee are not caught.\n\u003c/p\u003e\u003cp\u003eThis enumerator blocks until at least one byte is available from the\n handle, and might read less than the maximum buffer size in some\n cases.\n\u003c/p\u003e\u003cp\u003eThe handle should be opened with no encoding, and in \u003ccode\u003e\u003ca\u003eReadMode\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eReadWriteMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "enumHandle",
           "package": "enumerator",
@@ -280,6 +301,7 @@
         "index": {
           "description": "Read bytes in chunks of the given buffer size from the handle and stream them to an Iteratee If an exception occurs during file IO enumeration will stop and Error will be returned Exceptions from the iteratee are not caught This enumerator blocks until at least one byte is available from the handle and might read less than the maximum buffer size in some cases The handle should be opened with no encoding and in ReadMode or ReadWriteMode Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "enumHandle",
           "normalized": "Integer-\u003eHandle-\u003eEnumerator ByteString a b",
@@ -296,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead bytes (in chunks of the given buffer size) from the handle, and\n stream them to an \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e. If an exception occurs during file IO,\n enumeration will stop and \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e will be returned. Exceptions from the\n iteratee are not caught.\n\u003c/p\u003e\u003cp\u003eThis enumerator blocks until at least one byte is available from the\n handle, and might read less than the maximum buffer size in some\n cases.\n\u003c/p\u003e\u003cp\u003eThe handle should be opened with no encoding, and in \u003ccode\u003e\u003ca\u003eReadMode\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eReadWriteMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf an offset is specified, the handle will be seeked to that offset\n before reading. If the handle cannot be seeked, an error will be\n thrown.\n\u003c/p\u003e\u003cp\u003eIf a maximum count is specified, the number of bytes read will not\n exceed that count.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "enumHandleRange",
           "package": "enumerator",
@@ -305,6 +328,7 @@
         "index": {
           "description": "Read bytes in chunks of the given buffer size from the handle and stream them to an Iteratee If an exception occurs during file IO enumeration will stop and Error will be returned Exceptions from the iteratee are not caught This enumerator blocks until at least one byte is available from the handle and might read less than the maximum buffer size in some cases The handle should be opened with no encoding and in ReadMode or ReadWriteMode If an offset is specified the handle will be seeked to that offset before reading If the handle cannot be seeked an error will be thrown If maximum count is specified the number of bytes read will not exceed that count Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "enumHandleRange",
           "normalized": "Integer-\u003eMaybe Integer-\u003eMaybe Integer-\u003eHandle-\u003eEnumerator ByteString a b",
@@ -321,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a predicate to the stream. The inner iteratee only receives\n characters for which the predicate is \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "filter",
           "package": "enumerator",
@@ -331,6 +356,7 @@
         "index": {
           "description": "Applies predicate to the stream The inner iteratee only receives characters for which the predicate is True Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "filter",
           "normalized": "(Word-\u003eBool)-\u003eEnumeratee ByteString ByteString a b",
@@ -346,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a monadic predicate to the stream. The inner iteratee only\n receives bytes for which the predicate returns \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "filterM",
           "package": "enumerator",
@@ -356,6 +383,7 @@
         "index": {
           "description": "Applies monadic predicate to the stream The inner iteratee only receives bytes for which the predicate returns True Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "filterM",
           "normalized": "(Word-\u003ea Bool)-\u003eEnumeratee ByteString ByteString a b",
@@ -371,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume the entire input stream with a strict left fold, one byte\n at a time.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "fold",
           "package": "enumerator",
@@ -381,6 +410,7 @@
         "index": {
           "description": "Consume the entire input stream with strict left fold one byte at time Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "fold",
           "normalized": "(a-\u003eWord-\u003ea)-\u003ea-\u003eIteratee ByteString b a",
@@ -396,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume the entire input stream with a strict monadic left fold, one\n byte at a time.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "foldM",
           "package": "enumerator",
@@ -406,6 +437,7 @@
         "index": {
           "description": "Consume the entire input stream with strict monadic left fold one byte at time Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "foldM",
           "normalized": "(a-\u003eWord-\u003eb a)-\u003ea-\u003eIteratee ByteString b a",
@@ -421,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erepeatM\u003c/a\u003e\u003c/code\u003e, except the computation may terminate the stream by\n returning \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "generateM",
           "package": "enumerator",
@@ -431,6 +464,7 @@
         "index": {
           "description": "Like repeatM except the computation may terminate the stream by returning Nothing Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "generateM",
           "normalized": "a(Maybe Word)-\u003eEnumerator ByteString a b",
@@ -446,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next byte from the stream, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the stream has\n ended.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "head",
           "package": "enumerator",
@@ -456,6 +491,7 @@
         "index": {
           "description": "Get the next byte from the stream or Nothing if the stream has ended Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "head",
           "package": "enumerator",
@@ -469,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next element from the stream, or raise an error if the stream\n has ended.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "head_",
           "package": "enumerator",
@@ -479,6 +516,7 @@
         "index": {
           "description": "Get the next element from the stream or raise an error if the stream has ended Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "head_",
           "package": "enumerator",
@@ -492,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eisolate\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e reads at most \u003cem\u003en\u003c/em\u003e bytes from the stream, and passes them\n to its iteratee. If the iteratee finishes early, bytes continue to be\n consumed from the outer stream until \u003cem\u003en\u003c/em\u003e have been consumed.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "isolate",
           "package": "enumerator",
@@ -502,6 +541,7 @@
         "index": {
           "description": "isolate reads at most bytes from the stream and passes them to its iteratee If the iteratee finishes early bytes continue to be consumed from the outer stream until have been consumed Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "isolate",
           "normalized": "Integer-\u003eEnumeratee ByteString ByteString a b",
@@ -517,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eisolateWhile\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e reads bytes from the stream until \u003cem\u003ep\u003c/em\u003e is false, and\n passes them to its iteratee. If the iteratee finishes early, bytes\n continue to be consumed from the outer stream until \u003cem\u003ep\u003c/em\u003e is false.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "isolateWhile",
           "package": "enumerator",
@@ -527,6 +568,7 @@
         "index": {
           "description": "isolateWhile reads bytes from the stream until is false and passes them to its iteratee If the iteratee finishes early bytes continue to be consumed from the outer stream until is false Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "isolateWhile",
           "normalized": "(Word-\u003eBool)-\u003eEnumeratee ByteString ByteString a b",
@@ -543,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead bytes from a stream and write them to a handle. If an exception\n occurs during file IO, enumeration will stop and \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e will be\n returned.\n\u003c/p\u003e\u003cp\u003eThe handle should be opened with no encoding, and in \u003ccode\u003e\u003ca\u003eWriteMode\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eReadWriteMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "iterHandle",
           "package": "enumerator",
@@ -553,6 +596,7 @@
         "index": {
           "description": "Read bytes from stream and write them to handle If an exception occurs during file IO enumeration will stop and Error will be returned The handle should be opened with no encoding and in WriteMode or ReadWriteMode Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "iterHandle",
           "normalized": "Handle-\u003eIteratee ByteString a()",
@@ -569,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e f x\u003c/code\u003e enumerates an infinite stream of\n repeated applications of \u003cem\u003ef\u003c/em\u003e to \u003cem\u003ex\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "iterate",
           "package": "enumerator",
@@ -579,6 +624,7 @@
         "index": {
           "description": "iterate enumerates an infinite stream of repeated applications of to Analogous to iterate Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "iterate",
           "normalized": "(Word-\u003eWord)-\u003eWord-\u003eEnumerator ByteString a b",
@@ -594,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e, except the iteration\n function is monadic.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "iterateM",
           "package": "enumerator",
@@ -604,6 +651,7 @@
         "index": {
           "description": "Similar to iterate except the iteration function is monadic Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "iterateM",
           "normalized": "(Word-\u003ea Word)-\u003eWord-\u003eEnumerator ByteString a b",
@@ -619,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input byte and\n feeds the resulting outputs to the inner iteratee.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "map",
           "package": "enumerator",
@@ -629,6 +678,7 @@
         "index": {
           "description": "map applies to each input byte and feeds the resulting outputs to the inner iteratee Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "map",
           "normalized": "(Word-\u003eWord)-\u003eEnumeratee ByteString ByteString a b",
@@ -644,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e, but with a stateful step\n function.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "mapAccum",
           "package": "enumerator",
@@ -654,6 +705,7 @@
         "index": {
           "description": "Similar to map but with stateful step function Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "mapAccum",
           "normalized": "(a-\u003eWord-\u003e(a,Word))-\u003ea-\u003eEnumeratee ByteString ByteString b c",
@@ -670,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e, but with a stateful step\n function.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "mapAccumM",
           "package": "enumerator",
@@ -680,6 +733,7 @@
         "index": {
           "description": "Similar to mapM but with stateful step function Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "mapAccumM",
           "normalized": "(a-\u003eWord-\u003eb(a,Word))-\u003ea-\u003eEnumeratee ByteString ByteString b c",
@@ -696,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input byte and\n feeds the resulting outputs to the inner iteratee.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "mapM",
           "package": "enumerator",
@@ -706,6 +761,7 @@
         "index": {
           "description": "mapM applies to each input byte and feeds the resulting outputs to the inner iteratee Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "mapM",
           "normalized": "(Word-\u003ea Word)-\u003eEnumeratee ByteString ByteString a b",
@@ -721,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emapM_\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input byte, and\n discards the results.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.11\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "mapM_",
           "package": "enumerator",
@@ -731,6 +788,7 @@
         "index": {
           "description": "mapM applies to each input byte and discards the results Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "mapM_",
           "normalized": "(Word-\u003ea())-\u003eIteratee ByteString a()",
@@ -746,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates an infinite stream of a single byte.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003erepeat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "repeat",
           "package": "enumerator",
@@ -756,6 +815,7 @@
         "index": {
           "description": "Enumerates an infinite stream of single byte Analogous to repeat Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "repeat",
           "normalized": "Word-\u003eEnumerator ByteString a b",
@@ -771,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates an infinite stream of byte. Each byte is computed by the\n underlying monad.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "repeatM",
           "package": "enumerator",
@@ -781,6 +842,7 @@
         "index": {
           "description": "Enumerates an infinite stream of byte Each byte is computed by the underlying monad Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "repeatM",
           "normalized": "a Word-\u003eEnumerator ByteString a b",
@@ -796,6 +858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e n x\u003c/code\u003e enumerates a stream containing\n \u003cem\u003en\u003c/em\u003e copies of \u003cem\u003ex\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "replicate",
           "package": "enumerator",
@@ -806,6 +869,7 @@
         "index": {
           "description": "replicate enumerates stream containing copies of Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "replicate",
           "normalized": "Integer-\u003eWord-\u003eEnumerator ByteString a b",
@@ -821,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ereplicateM\u003c/a\u003e\u003c/code\u003e n m_x\u003c/code\u003e enumerates a stream of \u003cem\u003en\u003c/em\u003e bytes, with each byte\n computed by \u003cem\u003em_x\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "replicateM",
           "package": "enumerator",
@@ -831,6 +896,7 @@
         "index": {
           "description": "replicateM enumerates stream of bytes with each byte computed by Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "replicateM",
           "normalized": "Integer-\u003ea Word-\u003eEnumerator ByteString a b",
@@ -846,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003erequire\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e buffers input until at least \u003cem\u003en\u003c/em\u003e bytes are available, or\n throws an error if the stream ends early.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "require",
           "package": "enumerator",
@@ -856,6 +923,7 @@
         "index": {
           "description": "require buffers input until at least bytes are available or throws an error if the stream ends early Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "require",
           "normalized": "Integer-\u003eIteratee ByteString a()",
@@ -871,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit on bytes satisfying a given predicate.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "splitWhen",
           "package": "enumerator",
@@ -881,6 +950,7 @@
         "index": {
           "description": "Split on bytes satisfying given predicate Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "splitWhen",
           "normalized": "(Word-\u003eBool)-\u003eEnumeratee ByteString ByteString a b",
@@ -897,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003etake\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e extracts the next \u003cem\u003en\u003c/em\u003e bytes from the\n stream, as a lazy\n ByteString.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "take",
           "package": "enumerator",
@@ -907,6 +978,7 @@
         "index": {
           "description": "take extracts the next bytes from the stream as lazy ByteString Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "take",
           "normalized": "Integer-\u003eIteratee ByteString a ByteString",
@@ -922,6 +994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e extracts input from the stream until the first byte which\n does not match the predicate.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "takeWhile",
           "package": "enumerator",
@@ -932,6 +1005,7 @@
         "index": {
           "description": "takeWhile extracts input from the stream until the first byte which does not match the predicate Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "takeWhile",
           "normalized": "(Word-\u003eBool)-\u003eIteratee ByteString a ByteString",
@@ -948,6 +1022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates a stream of bytes by repeatedly applying a function to\n some state.\n\u003c/p\u003e\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "unfold",
           "package": "enumerator",
@@ -958,6 +1033,7 @@
         "index": {
           "description": "Enumerates stream of bytes by repeatedly applying function to some state Similar to iterate Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "unfold",
           "normalized": "(a-\u003eMaybe(Word,a))-\u003ea-\u003eEnumerator ByteString b c",
@@ -973,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates a stream of bytes by repeatedly applying a computation to\n some state.\n\u003c/p\u003e\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eiterateM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "unfoldM",
           "package": "enumerator",
@@ -983,6 +1060,7 @@
         "index": {
           "description": "Enumerates stream of bytes by repeatedly applying computation to some state Similar to iterateM Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "unfoldM",
           "normalized": "(a-\u003eb(Maybe(Word,a)))-\u003ea-\u003eEnumerator ByteString b c",
@@ -998,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "zip",
           "package": "enumerator",
@@ -1008,6 +1087,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Analogous to zip Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "zip",
           "normalized": "Iteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a(b,b)",
@@ -1023,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through three iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "zip3",
           "package": "enumerator",
@@ -1033,6 +1114,7 @@
         "index": {
           "description": "Pass input from stream through three iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip3 Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "zip3",
           "normalized": "Iteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a(b,b,b)",
@@ -1048,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through four iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip4\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "zip4",
           "package": "enumerator",
@@ -1058,6 +1141,7 @@
         "index": {
           "description": "Pass input from stream through four iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip4 Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "zip4",
           "normalized": "Iteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a(b,b,b,b)",
@@ -1073,6 +1157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through five iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip5\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "zip5",
           "package": "enumerator",
@@ -1083,6 +1168,7 @@
         "index": {
           "description": "Pass input from stream through five iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip5 Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "zip5",
           "normalized": "Iteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a(b,b,b,b,b)",
@@ -1098,6 +1184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through six iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip6\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "zip6",
           "package": "enumerator",
@@ -1108,6 +1195,7 @@
         "index": {
           "description": "Pass input from stream through six iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip6 Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "zip6",
           "normalized": "Iteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a(b,b,b,b,b,b)",
@@ -1123,6 +1211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through seven iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip7\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "zip7",
           "package": "enumerator",
@@ -1133,6 +1222,7 @@
         "index": {
           "description": "Pass input from stream through seven iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip7 Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "zip7",
           "normalized": "Iteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a b-\u003eIteratee ByteString a(b,b,b,b,b,b,b)",
@@ -1148,6 +1238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "zipWith",
           "package": "enumerator",
@@ -1158,6 +1249,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "zipWith",
           "normalized": "(a-\u003ea-\u003eb)-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c b",
@@ -1174,6 +1266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "zipWith3",
           "package": "enumerator",
@@ -1184,6 +1277,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith3 Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "zipWith3",
           "normalized": "(a-\u003ea-\u003ea-\u003eb)-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c b",
@@ -1200,6 +1294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith4\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "zipWith4",
           "package": "enumerator",
@@ -1210,6 +1305,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith4 Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "zipWith4",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c b",
@@ -1226,6 +1322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith5\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "zipWith5",
           "package": "enumerator",
@@ -1236,6 +1333,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith5 Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "zipWith5",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c b",
@@ -1252,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith6\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "zipWith6",
           "package": "enumerator",
@@ -1262,6 +1361,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith6 Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "zipWith6",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c b",
@@ -1278,6 +1378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith7\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Binary",
           "name": "zipWith7",
           "package": "enumerator",
@@ -1288,6 +1389,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith7 Since",
           "hierarchy": "Data Enumerator Binary",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Binary",
           "name": "zipWith7",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c a-\u003eIteratee ByteString c b",
@@ -1304,6 +1406,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCore enumerator types, and some useful primitives.\n\u003c/p\u003e\u003cp\u003eBe careful when using the functions defined in this module, as they will\n allow you to create iteratees which violate the monad laws.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "Internal",
           "package": "enumerator",
@@ -1313,6 +1416,7 @@
         "index": {
           "description": "Core enumerator types and some useful primitives Be careful when using the functions defined in this module as they will allow you to create iteratees which violate the monad laws",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "Internal",
           "package": "enumerator",
@@ -1327,6 +1431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumeratee acts as a stream adapter; place one between an enumerator\n and an iteratee, and it changes the type or contents of the input stream.\n\u003c/p\u003e\u003cp\u003eMost users will want to combine enumerators, enumeratees, and iteratees\n using the stream combinators \u003ccode\u003ejoinI\u003c/code\u003e and \u003ccode\u003ejoinE\u003c/code\u003e, or their operator aliases\n \u003ccode\u003e(=$)\u003c/code\u003e and \u003ccode\u003e($=)\u003c/code\u003e. These combinators are used to manage how left-over input\n is passed between elements of the data processing pipeline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "Enumeratee",
           "package": "enumerator",
@@ -1336,6 +1441,7 @@
         "index": {
           "description": "An enumeratee acts as stream adapter place one between an enumerator and an iteratee and it changes the type or contents of the input stream Most users will want to combine enumerators enumeratees and iteratees using the stream combinators joinI and joinE or their operator aliases and These combinators are used to manage how left-over input is passed between elements of the data processing pipeline",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "Enumeratee",
           "package": "enumerator",
@@ -1350,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerators are sources of data, to be consumed by iteratees.\n Enumerators typically read from an external source (parser, handle,\n random generator, etc), then feed chunks into an tteratee until:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The input source runs out of data.\n\u003c/li\u003e\u003cli\u003e The iteratee yields a result value.\n\u003c/li\u003e\u003cli\u003e The iteratee throws an exception.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "Enumerator",
           "package": "enumerator",
@@ -1359,6 +1466,7 @@
         "index": {
           "description": "Enumerators are sources of data to be consumed by iteratees Enumerators typically read from an external source parser handle random generator etc then feed chunks into an tteratee until The input source runs out of data The iteratee yields result value The iteratee throws an exception",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "Enumerator",
           "package": "enumerator",
@@ -1373,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe primary data type for this library; an iteratee consumes\n chunks of input from a stream until it either yields a value or\n encounters an error.\n\u003c/p\u003e\u003cp\u003eCompatibility note: \u003ccode\u003eIteratee\u003c/code\u003e will become abstract in \u003ccode\u003eenumerator_0.5\u003c/code\u003e. If\n you depend on internal implementation details, please import\n \u003ccode\u003e\u003ca\u003eData.Enumerator.Internal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "Iteratee",
           "package": "enumerator",
@@ -1382,6 +1491,7 @@
         "index": {
           "description": "The primary data type for this library an iteratee consumes chunks of input from stream until it either yields value or encounters an error Compatibility note Iteratee will become abstract in enumerator If you depend on internal implementation details please import Data.Enumerator.Internal",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "Iteratee",
           "package": "enumerator",
@@ -1395,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "Step",
           "package": "enumerator",
@@ -1403,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "Step",
           "package": "enumerator",
@@ -1417,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e is a sequence of chunks generated by an \u003ccode\u003e\u003ca\u003eEnumerator\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e(\u003ccode\u003e\u003ca\u003eChunks\u003c/a\u003e\u003c/code\u003e [])\u003c/code\u003e is used to indicate that a stream is still active, but\n currently has no available data. Iteratees should ignore empty chunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "Stream",
           "package": "enumerator",
@@ -1426,6 +1539,7 @@
         "index": {
           "description": "Stream is sequence of chunks generated by an Enumerator Chunks is used to indicate that stream is still active but currently has no available data Iteratees should ignore empty chunks",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "Stream",
           "package": "enumerator",
@@ -1569,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "Chunks",
           "package": "enumerator",
@@ -1578,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "Chunks",
           "normalized": "Chunks[a]",
@@ -1594,6 +1710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e is capable of accepting more input. Note that more input\n is not necessarily required; the \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e might be able to generate a\n value immediately if it receives \u003ccode\u003e\u003ca\u003eEOF\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "Continue",
           "package": "enumerator",
@@ -1604,6 +1721,7 @@
         "index": {
           "description": "The Iteratee is capable of accepting more input Note that more input is not necessarily required the Iteratee might be able to generate value immediately if it receives EOF",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "Continue",
           "normalized": "Continue(Stream a-\u003eIteratee a b c)",
@@ -1619,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "EOF",
           "package": "enumerator",
@@ -1628,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "EOF",
           "package": "enumerator",
@@ -1642,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e encountered an error which prevents it from proceeding\n further.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "Error",
           "package": "enumerator",
@@ -1652,6 +1773,7 @@
         "index": {
           "description": "The Iteratee encountered an error which prevents it from proceeding further",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "Error",
           "package": "enumerator",
@@ -1689,6 +1811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e cannot receive any more input, and has generated a\n result. Included in this value is left-over input, which can be passed to\n composed \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "Yield",
           "package": "enumerator",
@@ -1699,6 +1822,7 @@
         "index": {
           "description": "The Iteratee cannot receive any more input and has generated result Included in this value is left-over input which can be passed to composed Iteratee",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "Yield",
           "package": "enumerator",
@@ -1713,6 +1837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA common pattern in \u003ccode\u003e\u003ca\u003eEnumerator\u003c/a\u003e\u003c/code\u003e implementations is to check whether\n the inner \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e has finished, and if so, to return its output.\n \u003ccode\u003e\u003ca\u003echeckContinue0\u003c/a\u003e\u003c/code\u003e passes its parameter a continuation if the \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e\n can still consume input; if not, it returns the iteratee's step.\n\u003c/p\u003e\u003cp\u003eThe type signature here is a bit crazy, but it's actually very easy to\n use. Take this code:\n\u003c/p\u003e\u003cpre\u003e repeat :: Monad m =\u003e a -\u003e Enumerator a m b\n repeat x = loop where\n \tloop (Continue k) = k (Chunks [x]) \u003e\u003e== loop\n \tloop step = returnI step\n\u003c/pre\u003e\u003cp\u003eAnd rewrite it without the boilerplate:\n\u003c/p\u003e\u003cpre\u003e repeat :: Monad m =\u003e a -\u003e Enumerator a m b\n repeat x = checkContinue0 $ \\loop k -\u003e k (Chunks [x] \u003e\u003e== loop\n\u003c/pre\u003e\u003cp\u003eSince: 0.4.9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "checkContinue0",
           "package": "enumerator",
@@ -1723,6 +1848,7 @@
         "index": {
           "description": "common pattern in Enumerator implementations is to check whether the inner Iteratee has finished and if so to return its output checkContinue0 passes its parameter continuation if the Iteratee can still consume input if not it returns the iteratee step The type signature here is bit crazy but it actually very easy to use Take this code repeat Monad Enumerator repeat loop where loop Continue Chunks loop loop step returnI step And rewrite it without the boilerplate repeat Monad Enumerator repeat checkContinue0 loop Chunks loop Since",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "checkContinue0",
           "normalized": "(Enumerator a b c-\u003e(Stream a-\u003eIteratee a b c)-\u003eIteratee a b c)-\u003eEnumerator a b c",
@@ -1739,6 +1865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003echeckContinue0\u003c/a\u003e\u003c/code\u003e, but allows each loop step to use a state value:\n\u003c/p\u003e\u003cpre\u003e iterate :: Monad m =\u003e (a -\u003e a) -\u003e a -\u003e Enumerator a m b\n iterate f = checkContinue1 $ \\loop a k -\u003e k (Chunks [a]) \u003e\u003e== loop (f a)\n\u003c/pre\u003e\u003cp\u003eSince: 0.4.9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "checkContinue1",
           "package": "enumerator",
@@ -1749,6 +1876,7 @@
         "index": {
           "description": "Like checkContinue0 but allows each loop step to use state value iterate Monad Enumerator iterate checkContinue1 loop Chunks loop Since",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "checkContinue1",
           "normalized": "((a-\u003eEnumerator b c d)-\u003ea-\u003e(Stream b-\u003eIteratee b c d)-\u003eIteratee b c d)-\u003ea-\u003eEnumerator b c d",
@@ -1765,6 +1893,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003echeckDone\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003echeckDoneEx\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eChunks\u003c/a\u003e\u003c/code\u003e [])\u003c/pre\u003e\u003cp\u003eUse this for enumeratees which do not have an input buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "checkDone",
           "package": "enumerator",
@@ -1775,6 +1904,7 @@
         "index": {
           "description": "checkDone checkDoneEx Chunks Use this for enumeratees which do not have an input buffer",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "checkDone",
           "normalized": "((Stream a-\u003eIteratee a b c)-\u003eIteratee d b(Step a b c))-\u003eEnumeratee d a b c",
@@ -1791,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA common pattern in \u003ccode\u003e\u003ca\u003eEnumeratee\u003c/a\u003e\u003c/code\u003e implementations is to check whether\n the inner \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e has finished, and if so, to return its output.\n \u003ccode\u003e\u003ca\u003echeckDone\u003c/a\u003e\u003c/code\u003e passes its parameter a continuation if the \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e\n can still consume input, or yields otherwise.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "checkDoneEx",
           "package": "enumerator",
@@ -1801,6 +1932,7 @@
         "index": {
           "description": "common pattern in Enumeratee implementations is to check whether the inner Iteratee has finished and if so to return its output checkDone passes its parameter continuation if the Iteratee can still consume input or yields otherwise Since",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "checkDoneEx",
           "normalized": "Stream a-\u003e((Stream b-\u003eIteratee b c d)-\u003eIteratee a c(Step b c d))-\u003eEnumeratee a b c d",
@@ -1817,6 +1949,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003econtinue\u003c/a\u003e\u003c/code\u003e k = \u003ccode\u003e\u003ca\u003ereturnI\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eContinue\u003c/a\u003e\u003c/code\u003e k)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "continue",
           "package": "enumerator",
@@ -1827,6 +1960,7 @@
         "index": {
           "description": "continue returnI Continue",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "continue",
           "normalized": "(Stream a-\u003eIteratee a b c)-\u003eIteratee a b c",
@@ -1842,6 +1976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends \u003ccode\u003e\u003ca\u003eEOF\u003c/a\u003e\u003c/code\u003e to its iteratee. Most clients should use \u003ccode\u003erun\u003c/code\u003e or \u003ccode\u003erun_\u003c/code\u003e\n instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "enumEOF",
           "package": "enumerator",
@@ -1852,6 +1987,7 @@
         "index": {
           "description": "Sends EOF to its iteratee Most clients should use run or run instead",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "enumEOF",
           "package": "enumerator",
@@ -1866,6 +2002,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003ereturnI\u003c/a\u003e\u003c/code\u003e step = \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e (return step)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "returnI",
           "package": "enumerator",
@@ -1876,6 +2013,7 @@
         "index": {
           "description": "returnI step Iteratee return step",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "returnI",
           "normalized": "Step a b c-\u003eIteratee a b c",
@@ -1914,6 +2052,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003eyield\u003c/a\u003e\u003c/code\u003e x extra = \u003ccode\u003e\u003ca\u003ereturnI\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eYield\u003c/a\u003e\u003c/code\u003e x extra)\u003c/pre\u003e\u003cp\u003eWARNING: due to the current encoding of iteratees in this library,\n careless use of the \u003ccode\u003e\u003ca\u003eyield\u003c/a\u003e\u003c/code\u003e primitive may violate the monad laws.\n To prevent this, always make sure that an iteratee never yields\n extra data unless it has received at least one input element.\n\u003c/p\u003e\u003cp\u003eMore strictly, iteratees may not yield data that they did not\n receive as input. Don't use \u003ccode\u003e\u003ca\u003eyield\u003c/a\u003e\u003c/code\u003e to &#8220;inject&#8221; elements\n into the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Internal",
           "name": "yield",
           "package": "enumerator",
@@ -1924,6 +2063,7 @@
         "index": {
           "description": "yield extra returnI Yield extra WARNING due to the current encoding of iteratees in this library careless use of the yield primitive may violate the monad laws To prevent this always make sure that an iteratee never yields extra data unless it has received at least one input element More strictly iteratees may not yield data that they did not receive as input Don use yield to inject elements into the stream",
           "hierarchy": "Data Enumerator Internal",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Internal",
           "name": "yield",
           "normalized": "a-\u003eStream b-\u003eIteratee b c a",
@@ -1939,6 +2079,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is intended to be imported qualified:\n\u003c/p\u003e\u003cpre\u003e\n import qualified Data.Enumerator.List as EL\n\u003c/pre\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "List",
           "package": "enumerator",
@@ -1948,6 +2089,7 @@
         "index": {
           "description": "This module is intended to be imported qualified import qualified Data.Enumerator.List as EL Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "List",
           "package": "enumerator",
@@ -1962,6 +2104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003econcatMap\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input element\n and feeds the resulting outputs to the inner iteratee.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "concatMap",
           "package": "enumerator",
@@ -1972,6 +2115,7 @@
         "index": {
           "description": "concatMap applies to each input element and feeds the resulting outputs to the inner iteratee Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "concatMap",
           "normalized": "(a-\u003e[b])-\u003eEnumeratee a b c d",
@@ -1988,6 +2132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003econcatMap\u003c/a\u003e\u003c/code\u003e, but with a stateful step\n function.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.11\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "concatMapAccum",
           "package": "enumerator",
@@ -1998,6 +2143,7 @@
         "index": {
           "description": "Similar to concatMap but with stateful step function Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "concatMapAccum",
           "normalized": "(a-\u003eb-\u003e(a,[c]))-\u003ea-\u003eEnumeratee b c d e",
@@ -2014,6 +2160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003econcatMapM\u003c/a\u003e\u003c/code\u003e, but with a stateful step function.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.11\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "concatMapAccumM",
           "package": "enumerator",
@@ -2024,6 +2171,7 @@
         "index": {
           "description": "Similar to concatMapM but with stateful step function Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "concatMapAccumM",
           "normalized": "(a-\u003eb-\u003ec(a,[d]))-\u003ea-\u003eEnumeratee b d c e",
@@ -2040,6 +2188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003econcatMapM\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input element and feeds the\n resulting outputs to the inner iteratee.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "concatMapM",
           "package": "enumerator",
@@ -2050,6 +2199,7 @@
         "index": {
           "description": "concatMapM applies to each input element and feeds the resulting outputs to the inner iteratee Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "concatMapM",
           "normalized": "(a-\u003eb[c])-\u003eEnumeratee a c b d",
@@ -2066,6 +2216,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003econsume\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e (const True)\u003c/pre\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "consume",
           "package": "enumerator",
@@ -2076,6 +2227,7 @@
         "index": {
           "description": "consume takeWhile const True Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "consume",
           "normalized": "Iteratee a b[a]",
@@ -2091,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e ignores \u003cem\u003en\u003c/em\u003e input elements from the stream.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "drop",
           "package": "enumerator",
@@ -2101,6 +2254,7 @@
         "index": {
           "description": "drop ignores input elements from the stream Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "drop",
           "normalized": "Integer-\u003eIteratee a b()",
@@ -2116,6 +2270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edropWhile\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e ignores input from the stream\n until the first element which does not match the predicate.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "dropWhile",
           "package": "enumerator",
@@ -2126,6 +2281,7 @@
         "index": {
           "description": "dropWhile ignores input from the stream until the first element which does not match the predicate Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003eIteratee a b()",
@@ -2142,6 +2298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a predicate to the stream. The inner iteratee only receives\n elements for which the predicate is \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "filter",
           "package": "enumerator",
@@ -2152,6 +2309,7 @@
         "index": {
           "description": "Applies predicate to the stream The inner iteratee only receives elements for which the predicate is True Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eEnumeratee a a b c",
@@ -2167,6 +2325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a monadic predicate to the stream. The inner iteratee only\n receives elements for which the predicate returns \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "filterM",
           "package": "enumerator",
@@ -2177,6 +2336,7 @@
         "index": {
           "description": "Applies monadic predicate to the stream The inner iteratee only receives elements for which the predicate returns True Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "filterM",
           "normalized": "(a-\u003eb Bool)-\u003eEnumeratee a a b c",
@@ -2192,6 +2352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume the entire input stream with a strict left fold, one element\n at a time.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "fold",
           "package": "enumerator",
@@ -2202,6 +2363,7 @@
         "index": {
           "description": "Consume the entire input stream with strict left fold one element at time Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "fold",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eIteratee b c a",
@@ -2217,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume the entire input stream with a strict monadic left fold, one\n element at a time.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "foldM",
           "package": "enumerator",
@@ -2227,6 +2390,7 @@
         "index": {
           "description": "Consume the entire input stream with strict monadic left fold one element at time Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "foldM",
           "normalized": "(a-\u003eb-\u003ec a)-\u003ea-\u003eIteratee b c a",
@@ -2242,6 +2406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erepeatM\u003c/a\u003e\u003c/code\u003e, except the computation may terminate the stream by\n returning \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "generateM",
           "package": "enumerator",
@@ -2252,6 +2417,7 @@
         "index": {
           "description": "Like repeatM except the computation may terminate the stream by returning Nothing Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "generateM",
           "normalized": "a(Maybe b)-\u003eEnumerator b a c",
@@ -2267,6 +2433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next element from the stream, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the stream has\n ended.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "head",
           "package": "enumerator",
@@ -2277,6 +2444,7 @@
         "index": {
           "description": "Get the next element from the stream or Nothing if the stream has ended Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "head",
           "package": "enumerator",
@@ -2290,6 +2458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next element from the stream, or raise an error if the stream\n has ended.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "head_",
           "package": "enumerator",
@@ -2300,6 +2469,7 @@
         "index": {
           "description": "Get the next element from the stream or raise an error if the stream has ended Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "head_",
           "package": "enumerator",
@@ -2313,6 +2483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eisolate\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e reads at most \u003cem\u003en\u003c/em\u003e elements from the stream, and passes them\n to its iteratee. If the iteratee finishes early, elements continue to be\n consumed from the outer stream until \u003cem\u003en\u003c/em\u003e have been consumed.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "isolate",
           "package": "enumerator",
@@ -2323,6 +2494,7 @@
         "index": {
           "description": "isolate reads at most elements from the stream and passes them to its iteratee If the iteratee finishes early elements continue to be consumed from the outer stream until have been consumed Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "isolate",
           "normalized": "Integer-\u003eEnumeratee a a b c",
@@ -2338,6 +2510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eisolateWhile\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e reads elements from the stream until \u003cem\u003ep\u003c/em\u003e is false, and\n passes them to its iteratee. If the iteratee finishes early, elements\n continue to be consumed from the outer stream until \u003cem\u003ep\u003c/em\u003e is false.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "isolateWhile",
           "package": "enumerator",
@@ -2348,6 +2521,7 @@
         "index": {
           "description": "isolateWhile reads elements from the stream until is false and passes them to its iteratee If the iteratee finishes early elements continue to be consumed from the outer stream until is false Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "isolateWhile",
           "normalized": "(a-\u003eBool)-\u003eEnumeratee a a b c",
@@ -2364,6 +2538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e f x\u003c/code\u003e enumerates an infinite stream of\n repeated applications of \u003cem\u003ef\u003c/em\u003e to \u003cem\u003ex\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "iterate",
           "package": "enumerator",
@@ -2374,6 +2549,7 @@
         "index": {
           "description": "iterate enumerates an infinite stream of repeated applications of to Analogous to iterate Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "iterate",
           "normalized": "(a-\u003ea)-\u003ea-\u003eEnumerator a b c",
@@ -2389,6 +2565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e, except the iteration\n function is monadic.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "iterateM",
           "package": "enumerator",
@@ -2399,6 +2576,7 @@
         "index": {
           "description": "Similar to iterate except the iteration function is monadic Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "iterateM",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eEnumerator a b c",
@@ -2414,6 +2592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input element and\n feeds the resulting outputs to the inner iteratee.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "map",
           "package": "enumerator",
@@ -2424,6 +2603,7 @@
         "index": {
           "description": "map applies to each input element and feeds the resulting outputs to the inner iteratee Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eEnumeratee a b c d",
@@ -2439,6 +2619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e, but with a stateful step function.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "mapAccum",
           "package": "enumerator",
@@ -2449,6 +2630,7 @@
         "index": {
           "description": "Similar to map but with stateful step function Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "mapAccum",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003ea-\u003eEnumeratee b c d e",
@@ -2465,6 +2647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e, but with a stateful step function.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "mapAccumM",
           "package": "enumerator",
@@ -2475,6 +2658,7 @@
         "index": {
           "description": "Similar to mapM but with stateful step function Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "mapAccumM",
           "normalized": "(a-\u003eb-\u003ec(a,d))-\u003ea-\u003eEnumeratee b d c e",
@@ -2491,6 +2675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input element and\n feeds the resulting outputs to the inner iteratee.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "mapM",
           "package": "enumerator",
@@ -2501,6 +2686,7 @@
         "index": {
           "description": "mapM applies to each input element and feeds the resulting outputs to the inner iteratee Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "mapM",
           "normalized": "(a-\u003eb c)-\u003eEnumeratee a c b d",
@@ -2516,6 +2702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emapM_\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input element, and\n discards the results.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.11\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "mapM_",
           "package": "enumerator",
@@ -2526,6 +2713,7 @@
         "index": {
           "description": "mapM applies to each input element and discards the results Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "mapM_",
           "normalized": "(a-\u003eb c)-\u003eIteratee a b()",
@@ -2541,6 +2729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates an infinite stream of a single element.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003erepeat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "repeat",
           "package": "enumerator",
@@ -2551,6 +2740,7 @@
         "index": {
           "description": "Enumerates an infinite stream of single element Analogous to repeat Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "repeat",
           "normalized": "a-\u003eEnumerator a b c",
@@ -2566,6 +2756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates an infinite stream of element. Each element is computed by\n the underlying monad.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "repeatM",
           "package": "enumerator",
@@ -2576,6 +2767,7 @@
         "index": {
           "description": "Enumerates an infinite stream of element Each element is computed by the underlying monad Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "repeatM",
           "normalized": "a b-\u003eEnumerator b a c",
@@ -2591,6 +2783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e n x\u003c/code\u003e enumerates a stream containing\n \u003cem\u003en\u003c/em\u003e copies of \u003cem\u003ex\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "replicate",
           "package": "enumerator",
@@ -2601,6 +2794,7 @@
         "index": {
           "description": "replicate enumerates stream containing copies of Analogous to replicate Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "replicate",
           "normalized": "Integer-\u003ea-\u003eEnumerator a b c",
@@ -2616,6 +2810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ereplicateM\u003c/a\u003e\u003c/code\u003e n m_x\u003c/code\u003e enumerates a stream of \u003cem\u003en\u003c/em\u003e elements, with each\n element computed by \u003cem\u003em_x\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "replicateM",
           "package": "enumerator",
@@ -2626,6 +2821,7 @@
         "index": {
           "description": "replicateM enumerates stream of elements with each element computed by Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "replicateM",
           "normalized": "Integer-\u003ea b-\u003eEnumerator b a c",
@@ -2641,6 +2837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003erequire\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e buffers input until at least \u003cem\u003en\u003c/em\u003e elements are available, or\n throws an error if the stream ends early.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "require",
           "package": "enumerator",
@@ -2651,6 +2848,7 @@
         "index": {
           "description": "require buffers input until at least elements are available or throws an error if the stream ends early Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "require",
           "normalized": "Integer-\u003eIteratee a b()",
@@ -2666,6 +2864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit on elements satisfying a given predicate.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "splitWhen",
           "package": "enumerator",
@@ -2676,6 +2875,7 @@
         "index": {
           "description": "Split on elements satisfying given predicate Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "splitWhen",
           "normalized": "(a-\u003eBool)-\u003eEnumeratee a[a]b c",
@@ -2692,6 +2892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003etake\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e extracts the next \u003cem\u003en\u003c/em\u003e elements from the\n stream, as a list.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "take",
           "package": "enumerator",
@@ -2702,6 +2903,7 @@
         "index": {
           "description": "take extracts the next elements from the stream as list Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "take",
           "normalized": "Integer-\u003eIteratee a b[a]",
@@ -2717,6 +2919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e extracts input from the stream until the first element\n which does not match the predicate.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "takeWhile",
           "package": "enumerator",
@@ -2727,6 +2930,7 @@
         "index": {
           "description": "takeWhile extracts input from the stream until the first element which does not match the predicate Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "takeWhile",
           "normalized": "(a-\u003eBool)-\u003eIteratee a b[a]",
@@ -2743,6 +2947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates a stream of elements by repeatedly applying a function to\n some state.\n\u003c/p\u003e\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "unfold",
           "package": "enumerator",
@@ -2753,6 +2958,7 @@
         "index": {
           "description": "Enumerates stream of elements by repeatedly applying function to some state Similar to iterate Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "unfold",
           "normalized": "(a-\u003eMaybe(b,a))-\u003ea-\u003eEnumerator b c d",
@@ -2768,6 +2974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates a stream of elements by repeatedly applying a computation to\n some state.\n\u003c/p\u003e\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eiterateM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "unfoldM",
           "package": "enumerator",
@@ -2778,6 +2985,7 @@
         "index": {
           "description": "Enumerates stream of elements by repeatedly applying computation to some state Similar to iterateM Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "unfoldM",
           "normalized": "(a-\u003eb(Maybe(c,a)))-\u003ea-\u003eEnumerator c b d",
@@ -2793,6 +3001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove duplicate elements from a stream, passing through the first\n instance of each value.\n\u003c/p\u003e\u003cp\u003eSimilar to \u003ccode\u003enub\u003c/code\u003e, but more efficient because it uses a \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e\n internally.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.11\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "unique",
           "package": "enumerator",
@@ -2803,6 +3012,7 @@
         "index": {
           "description": "Remove duplicate elements from stream passing through the first instance of each value Similar to nub but more efficient because it uses Set internally Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "unique",
           "package": "enumerator",
@@ -2816,6 +3026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "zip",
           "package": "enumerator",
@@ -2826,6 +3037,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Analogous to zip Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "zip",
           "normalized": "Iteratee a b c-\u003eIteratee a b c-\u003eIteratee a b(c,c)",
@@ -2841,6 +3053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through three iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "zip3",
           "package": "enumerator",
@@ -2851,6 +3064,7 @@
         "index": {
           "description": "Pass input from stream through three iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip3 Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "zip3",
           "normalized": "Iteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b(c,c,c)",
@@ -2866,6 +3080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through four iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip4\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "zip4",
           "package": "enumerator",
@@ -2876,6 +3091,7 @@
         "index": {
           "description": "Pass input from stream through four iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip4 Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "zip4",
           "normalized": "Iteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b(c,c,c,c)",
@@ -2891,6 +3107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through five iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip5\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "zip5",
           "package": "enumerator",
@@ -2901,6 +3118,7 @@
         "index": {
           "description": "Pass input from stream through five iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip5 Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "zip5",
           "normalized": "Iteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b(c,c,c,c,c)",
@@ -2916,6 +3134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through six iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip6\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "zip6",
           "package": "enumerator",
@@ -2926,6 +3145,7 @@
         "index": {
           "description": "Pass input from stream through six iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip6 Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "zip6",
           "normalized": "Iteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b(c,c,c,c,c,c)",
@@ -2941,6 +3161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through seven iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip7\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "zip7",
           "package": "enumerator",
@@ -2951,6 +3172,7 @@
         "index": {
           "description": "Pass input from stream through seven iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip7 Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "zip7",
           "normalized": "Iteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b c-\u003eIteratee a b(c,c,c,c,c,c,c)",
@@ -2966,6 +3188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "zipWith",
           "package": "enumerator",
@@ -2976,6 +3199,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "zipWith",
           "normalized": "(a-\u003ea-\u003eb)-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d b",
@@ -2992,6 +3216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "zipWith3",
           "package": "enumerator",
@@ -3002,6 +3227,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith3 Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "zipWith3",
           "normalized": "(a-\u003ea-\u003ea-\u003eb)-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d b",
@@ -3018,6 +3244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith4\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "zipWith4",
           "package": "enumerator",
@@ -3028,6 +3255,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith4 Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "zipWith4",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d b",
@@ -3044,6 +3272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith5\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "zipWith5",
           "package": "enumerator",
@@ -3054,6 +3283,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith5 Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "zipWith5",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d b",
@@ -3070,6 +3300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith6\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "zipWith6",
           "package": "enumerator",
@@ -3080,6 +3311,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith6 Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "zipWith6",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d b",
@@ -3096,6 +3328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith7\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.List",
           "name": "zipWith7",
           "package": "enumerator",
@@ -3106,6 +3339,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith7 Since",
           "hierarchy": "Data Enumerator List",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.List",
           "name": "zipWith7",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d a-\u003eIteratee c d b",
@@ -3122,6 +3356,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCharacter-oriented alternatives to \u003ca\u003eData.Enumerator.List\u003c/a\u003e. Note that the\n enumeratees in this module must unpack their inputs to work properly. If\n you do not need to handle leftover input on a char-by-char basis, the\n chunk-oriented versions will be much faster.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported qualified:\n\u003c/p\u003e\u003cpre\u003e\n import qualified Data.Enumerator.Text as ET\n\u003c/pre\u003e\u003cp\u003eSince: 0.2\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "Text",
           "package": "enumerator",
@@ -3131,6 +3366,7 @@
         "index": {
           "description": "Character-oriented alternatives to Data.Enumerator.List Note that the enumeratees in this module must unpack their inputs to work properly If you do not need to handle leftover input on char-by-char basis the chunk-oriented versions will be much faster This module is intended to be imported qualified import qualified Data.Enumerator.Text as ET Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "Text",
           "package": "enumerator",
@@ -3144,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "Codec",
           "package": "enumerator",
@@ -3152,6 +3389,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "Codec",
           "package": "enumerator",
@@ -3165,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "ascii",
           "package": "enumerator",
@@ -3174,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "ascii",
           "package": "enumerator",
@@ -3187,6 +3427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003econcatMap\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input\n character and feeds the resulting outputs to the inner iteratee.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "concatMap",
           "package": "enumerator",
@@ -3197,6 +3438,7 @@
         "index": {
           "description": "concatMap applies to each input character and feeds the resulting outputs to the inner iteratee Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "concatMap",
           "normalized": "(Char-\u003eText)-\u003eEnumeratee Text Text a b",
@@ -3213,6 +3455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003econcatMap\u003c/a\u003e\u003c/code\u003e, but with a stateful step\n function.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.11\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "concatMapAccum",
           "package": "enumerator",
@@ -3223,6 +3466,7 @@
         "index": {
           "description": "Similar to concatMap but with stateful step function Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "concatMapAccum",
           "normalized": "(a-\u003eChar-\u003e(a,Text))-\u003ea-\u003eEnumeratee Text Text b c",
@@ -3239,6 +3483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003econcatMapM\u003c/a\u003e\u003c/code\u003e, but with a stateful step function.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.11\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "concatMapAccumM",
           "package": "enumerator",
@@ -3249,6 +3494,7 @@
         "index": {
           "description": "Similar to concatMapM but with stateful step function Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "concatMapAccumM",
           "normalized": "(a-\u003eChar-\u003eb(a,Text))-\u003ea-\u003eEnumeratee Text Text b c",
@@ -3265,6 +3511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003econcatMapM\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input character and feeds the\n resulting outputs to the inner iteratee.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "concatMapM",
           "package": "enumerator",
@@ -3275,6 +3522,7 @@
         "index": {
           "description": "concatMapM applies to each input character and feeds the resulting outputs to the inner iteratee Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "concatMapM",
           "normalized": "(Char-\u003ea Text)-\u003eEnumeratee Text Text a b",
@@ -3291,6 +3539,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003econsume\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e (const True)\u003c/pre\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "consume",
           "package": "enumerator",
@@ -3301,6 +3550,7 @@
         "index": {
           "description": "consume takeWhile const True Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "consume",
           "package": "enumerator",
@@ -3314,6 +3564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert bytes into text, using the provided codec. If the codec is\n not capable of decoding an input byte sequence, an error will be thrown.\n\u003c/p\u003e\u003cp\u003eSince: 0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "decode",
           "package": "enumerator",
@@ -3324,6 +3575,7 @@
         "index": {
           "description": "Convert bytes into text using the provided codec If the codec is not capable of decoding an input byte sequence an error will be thrown Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "decode",
           "normalized": "Codec-\u003eEnumeratee ByteString Text a b",
@@ -3339,6 +3591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e ignores \u003cem\u003en\u003c/em\u003e characters of input from the stream.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "drop",
           "package": "enumerator",
@@ -3349,6 +3602,7 @@
         "index": {
           "description": "drop ignores characters of input from the stream Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "drop",
           "normalized": "Integer-\u003eIteratee Text a()",
@@ -3364,6 +3618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edropWhile\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e ignores input from the stream\n until the first character which does not match the predicate.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "dropWhile",
           "package": "enumerator",
@@ -3374,6 +3629,7 @@
         "index": {
           "description": "dropWhile ignores input from the stream until the first character which does not match the predicate Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "dropWhile",
           "normalized": "(Char-\u003eBool)-\u003eIteratee Text a()",
@@ -3390,6 +3646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert text into bytes, using the provided codec. If the codec is\n not capable of representing an input character, an error will be thrown.\n\u003c/p\u003e\u003cp\u003eSince: 0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "encode",
           "package": "enumerator",
@@ -3400,6 +3657,7 @@
         "index": {
           "description": "Convert text into bytes using the provided codec If the codec is not capable of representing an input character an error will be thrown Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "encode",
           "normalized": "Codec-\u003eEnumeratee Text ByteString a b",
@@ -3415,6 +3673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead lines of text from a file, and stream them to an \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e.\n If an exception occurs during file IO, enumeration will stop and \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e\n will be returned. Exceptions from the iteratee are not caught.\n\u003c/p\u003e\u003cp\u003eThe file will be opened in text mode, and will be closed when the\n \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e finishes.\n\u003c/p\u003e\u003cp\u003eThis function may be significantly slower than using\n \u003ccode\u003eData.Enumerator.Binary.enumFile\u003c/code\u003e, due to the additional overhead of\n decoding input data to Unicode. Users who can depend on their input files\n being in a certain encoding (such as UTF8) are encouraged to use binary\n input and \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eChanged in 0.4.18: Lines streamed from \u003ccode\u003e\u003ca\u003eenumHandle\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eenumFile\u003c/a\u003e\u003c/code\u003e now\n include their trailing newline.\n\u003c/p\u003e\u003cp\u003eSince: 0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "enumFile",
           "package": "enumerator",
@@ -3425,6 +3684,7 @@
         "index": {
           "description": "Read lines of text from file and stream them to an Iteratee If an exception occurs during file IO enumeration will stop and Error will be returned Exceptions from the iteratee are not caught The file will be opened in text mode and will be closed when the Iteratee finishes This function may be significantly slower than using Data.Enumerator.Binary.enumFile due to the additional overhead of decoding input data to Unicode Users who can depend on their input files being in certain encoding such as UTF8 are encouraged to use binary input and decode Changed in Lines streamed from enumHandle and enumFile now include their trailing newline Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "enumFile",
           "normalized": "FilePath-\u003eEnumerator Text IO a",
@@ -3441,6 +3701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead lines of text from a handle, and stream them to an \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e.\n If an exception occurs during file IO, enumeration will stop and \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e\n will be returned. Exceptions from the iteratee are not caught.\n\u003c/p\u003e\u003cp\u003eThe handle should be opened with an appropriate text encoding, and\n in \u003ccode\u003e\u003ca\u003eReadMode\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eReadWriteMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function may be significantly slower than using\n \u003ccode\u003eData.Enumerator.Binary.enumHandle\u003c/code\u003e, due to the additional overhead of\n decoding input data to Unicode. Users who can depend on their input files\n being in a certain encoding (such as UTF8) are encouraged to use binary\n input and \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eChanged in 0.4.18: Lines streamed from \u003ccode\u003e\u003ca\u003eenumHandle\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eenumFile\u003c/a\u003e\u003c/code\u003e now\n include their trailing newline.\n\u003c/p\u003e\u003cp\u003eSince: 0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "enumHandle",
           "package": "enumerator",
@@ -3451,6 +3712,7 @@
         "index": {
           "description": "Read lines of text from handle and stream them to an Iteratee If an exception occurs during file IO enumeration will stop and Error will be returned Exceptions from the iteratee are not caught The handle should be opened with an appropriate text encoding and in ReadMode or ReadWriteMode This function may be significantly slower than using Data.Enumerator.Binary.enumHandle due to the additional overhead of decoding input data to Unicode Users who can depend on their input files being in certain encoding such as UTF8 are encouraged to use binary input and decode Changed in Lines streamed from enumHandle and enumFile now include their trailing newline Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "enumHandle",
           "normalized": "Handle-\u003eEnumerator Text a b",
@@ -3467,6 +3729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a predicate to the stream. The inner iteratee only receives\n characters for which the predicate is \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "filter",
           "package": "enumerator",
@@ -3477,6 +3740,7 @@
         "index": {
           "description": "Applies predicate to the stream The inner iteratee only receives characters for which the predicate is True Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "filter",
           "normalized": "(Char-\u003eBool)-\u003eEnumeratee Text Text a b",
@@ -3492,6 +3756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a monadic predicate to the stream. The inner iteratee only\n receives characters for which the predicate returns \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "filterM",
           "package": "enumerator",
@@ -3502,6 +3767,7 @@
         "index": {
           "description": "Applies monadic predicate to the stream The inner iteratee only receives characters for which the predicate returns True Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "filterM",
           "normalized": "(Char-\u003ea Bool)-\u003eEnumeratee Text Text a b",
@@ -3517,6 +3783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume the entire input stream with a strict left fold, one character\n at a time.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "fold",
           "package": "enumerator",
@@ -3527,6 +3794,7 @@
         "index": {
           "description": "Consume the entire input stream with strict left fold one character at time Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "fold",
           "normalized": "(a-\u003eChar-\u003ea)-\u003ea-\u003eIteratee Text b a",
@@ -3542,6 +3810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume the entire input stream with a strict monadic left fold, one\n character at a time.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "foldM",
           "package": "enumerator",
@@ -3552,6 +3821,7 @@
         "index": {
           "description": "Consume the entire input stream with strict monadic left fold one character at time Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "foldM",
           "normalized": "(a-\u003eChar-\u003eb a)-\u003ea-\u003eIteratee Text b a",
@@ -3567,6 +3837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erepeatM\u003c/a\u003e\u003c/code\u003e, except the computation may terminate the stream by\n returning \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "generateM",
           "package": "enumerator",
@@ -3577,6 +3848,7 @@
         "index": {
           "description": "Like repeatM except the computation may terminate the stream by returning Nothing Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "generateM",
           "normalized": "a(Maybe Char)-\u003eEnumerator Text a b",
@@ -3592,6 +3864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next character from the stream, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the stream has\n ended.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "head",
           "package": "enumerator",
@@ -3602,6 +3875,7 @@
         "index": {
           "description": "Get the next character from the stream or Nothing if the stream has ended Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "head",
           "package": "enumerator",
@@ -3615,6 +3889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next element from the stream, or raise an error if the stream\n has ended.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "head_",
           "package": "enumerator",
@@ -3625,6 +3900,7 @@
         "index": {
           "description": "Get the next element from the stream or raise an error if the stream has ended Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "head_",
           "package": "enumerator",
@@ -3637,6 +3913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "iso8859_1",
           "package": "enumerator",
@@ -3646,6 +3923,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "iso8859_1",
           "package": "enumerator",
@@ -3659,6 +3937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eisolate\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e reads at most \u003cem\u003en\u003c/em\u003e characters from the stream, and passes\n them to its iteratee. If the iteratee finishes early, characters continue\n to be consumed from the outer stream until \u003cem\u003en\u003c/em\u003e have been consumed.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "isolate",
           "package": "enumerator",
@@ -3669,6 +3948,7 @@
         "index": {
           "description": "isolate reads at most characters from the stream and passes them to its iteratee If the iteratee finishes early characters continue to be consumed from the outer stream until have been consumed Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "isolate",
           "normalized": "Integer-\u003eEnumeratee Text Text a b",
@@ -3684,6 +3964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eisolateWhile\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e reads characters from the stream until \u003cem\u003ep\u003c/em\u003e is false, and\n passes them to its iteratee. If the iteratee finishes early, characters\n continue to be consumed from the outer stream until \u003cem\u003ep\u003c/em\u003e is false.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "isolateWhile",
           "package": "enumerator",
@@ -3694,6 +3975,7 @@
         "index": {
           "description": "isolateWhile reads characters from the stream until is false and passes them to its iteratee If the iteratee finishes early characters continue to be consumed from the outer stream until is false Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "isolateWhile",
           "normalized": "(Char-\u003eBool)-\u003eEnumeratee Text Text a b",
@@ -3710,6 +3992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead text from a stream and write it to a handle. If an exception\n occurs during file IO, enumeration will stop and \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e will be\n returned.\n\u003c/p\u003e\u003cp\u003eThe handle should be opened with an appropriate text encoding, and\n in \u003ccode\u003e\u003ca\u003eWriteMode\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eReadWriteMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "iterHandle",
           "package": "enumerator",
@@ -3720,6 +4003,7 @@
         "index": {
           "description": "Read text from stream and write it to handle If an exception occurs during file IO enumeration will stop and Error will be returned The handle should be opened with an appropriate text encoding and in WriteMode or ReadWriteMode Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "iterHandle",
           "normalized": "Handle-\u003eIteratee Text a()",
@@ -3736,6 +4020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e f x\u003c/code\u003e enumerates an infinite stream of\n repeated applications of \u003cem\u003ef\u003c/em\u003e to \u003cem\u003ex\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "iterate",
           "package": "enumerator",
@@ -3746,6 +4031,7 @@
         "index": {
           "description": "iterate enumerates an infinite stream of repeated applications of to Analogous to iterate Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "iterate",
           "normalized": "(Char-\u003eChar)-\u003eChar-\u003eEnumerator Text a b",
@@ -3761,6 +4047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e, except the iteration\n function is monadic.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "iterateM",
           "package": "enumerator",
@@ -3771,6 +4058,7 @@
         "index": {
           "description": "Similar to iterate except the iteration function is monadic Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "iterateM",
           "normalized": "(Char-\u003ea Char)-\u003eChar-\u003eEnumerator Text a b",
@@ -3786,6 +4074,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003elines\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003esplitWhen\u003c/a\u003e\u003c/code\u003e (== '\\n')\u003c/pre\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "lines",
           "package": "enumerator",
@@ -3796,6 +4085,7 @@
         "index": {
           "description": "lines splitWhen Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "lines",
           "package": "enumerator",
@@ -3809,6 +4099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input character and\n feeds the resulting outputs to the inner iteratee.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "map",
           "package": "enumerator",
@@ -3819,6 +4110,7 @@
         "index": {
           "description": "map applies to each input character and feeds the resulting outputs to the inner iteratee Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "map",
           "normalized": "(Char-\u003eChar)-\u003eEnumeratee Text Text a b",
@@ -3834,6 +4126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e, but with a stateful step\n function.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "mapAccum",
           "package": "enumerator",
@@ -3844,6 +4137,7 @@
         "index": {
           "description": "Similar to map but with stateful step function Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "mapAccum",
           "normalized": "(a-\u003eChar-\u003e(a,Char))-\u003ea-\u003eEnumeratee Text Text b c",
@@ -3860,6 +4154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e, but with a stateful step\n function.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "mapAccumM",
           "package": "enumerator",
@@ -3870,6 +4165,7 @@
         "index": {
           "description": "Similar to mapM but with stateful step function Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "mapAccumM",
           "normalized": "(a-\u003eChar-\u003eb(a,Char))-\u003ea-\u003eEnumeratee Text Text b c",
@@ -3886,6 +4182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input character\n and feeds the resulting outputs to the inner iteratee.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "mapM",
           "package": "enumerator",
@@ -3896,6 +4193,7 @@
         "index": {
           "description": "mapM applies to each input character and feeds the resulting outputs to the inner iteratee Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "mapM",
           "normalized": "(Char-\u003ea Char)-\u003eEnumeratee Text Text a b",
@@ -3911,6 +4209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003emapM_\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e applies \u003cem\u003ef\u003c/em\u003e to each input character,\n and discards the results.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.11\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "mapM_",
           "package": "enumerator",
@@ -3921,6 +4220,7 @@
         "index": {
           "description": "mapM applies to each input character and discards the results Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "mapM_",
           "normalized": "(Char-\u003ea())-\u003eIteratee Text a()",
@@ -3936,6 +4236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates an infinite stream of a single character.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003erepeat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "repeat",
           "package": "enumerator",
@@ -3946,6 +4247,7 @@
         "index": {
           "description": "Enumerates an infinite stream of single character Analogous to repeat Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "repeat",
           "normalized": "Char-\u003eEnumerator Text a b",
@@ -3961,6 +4263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates an infinite stream of characters. Each character is computed\n by the underlying monad.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "repeatM",
           "package": "enumerator",
@@ -3971,6 +4274,7 @@
         "index": {
           "description": "Enumerates an infinite stream of characters Each character is computed by the underlying monad Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "repeatM",
           "normalized": "a Char-\u003eEnumerator Text a b",
@@ -3986,6 +4290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e n x\u003c/code\u003e enumerates a stream containing\n \u003cem\u003en\u003c/em\u003e copies of \u003cem\u003ex\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "replicate",
           "package": "enumerator",
@@ -3996,6 +4301,7 @@
         "index": {
           "description": "replicate enumerates stream containing copies of Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "replicate",
           "normalized": "Integer-\u003eChar-\u003eEnumerator Text a b",
@@ -4011,6 +4317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ereplicateM\u003c/a\u003e\u003c/code\u003e n m_x\u003c/code\u003e enumerates a stream of \u003cem\u003en\u003c/em\u003e characters, with each\n character computed by \u003cem\u003em_x\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "replicateM",
           "package": "enumerator",
@@ -4021,6 +4328,7 @@
         "index": {
           "description": "replicateM enumerates stream of characters with each character computed by Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "replicateM",
           "normalized": "Integer-\u003ea Char-\u003eEnumerator Text a b",
@@ -4036,6 +4344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003erequire\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e buffers input until at least \u003cem\u003en\u003c/em\u003e characters are available,\n or throws an error if the stream ends early.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "require",
           "package": "enumerator",
@@ -4046,6 +4355,7 @@
         "index": {
           "description": "require buffers input until at least characters are available or throws an error if the stream ends early Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "require",
           "normalized": "Integer-\u003eIteratee Text a()",
@@ -4061,6 +4371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit on characters satisfying a given predicate.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "splitWhen",
           "package": "enumerator",
@@ -4071,6 +4382,7 @@
         "index": {
           "description": "Split on characters satisfying given predicate Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "splitWhen",
           "normalized": "(Char-\u003eBool)-\u003eEnumeratee Text Text a b",
@@ -4087,6 +4399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003etake\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e extracts the next \u003cem\u003en\u003c/em\u003e characters from\n the stream, as a lazy Text.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "take",
           "package": "enumerator",
@@ -4097,6 +4410,7 @@
         "index": {
           "description": "take extracts the next characters from the stream as lazy Text Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "take",
           "normalized": "Integer-\u003eIteratee Text a Text",
@@ -4112,6 +4426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e extracts input from the stream until the first character\n which does not match the predicate.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "takeWhile",
           "package": "enumerator",
@@ -4122,6 +4437,7 @@
         "index": {
           "description": "takeWhile extracts input from the stream until the first character which does not match the predicate Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "takeWhile",
           "normalized": "(Char-\u003eBool)-\u003eIteratee Text a Text",
@@ -4138,6 +4454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates a stream of characters by repeatedly applying a function to\n some state.\n\u003c/p\u003e\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "unfold",
           "package": "enumerator",
@@ -4148,6 +4465,7 @@
         "index": {
           "description": "Enumerates stream of characters by repeatedly applying function to some state Similar to iterate Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "unfold",
           "normalized": "(a-\u003eMaybe(Char,a))-\u003ea-\u003eEnumerator Text b c",
@@ -4163,6 +4481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates a stream of characters by repeatedly applying a computation\n to some state.\n\u003c/p\u003e\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eiterateM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "unfoldM",
           "package": "enumerator",
@@ -4173,6 +4492,7 @@
         "index": {
           "description": "Enumerates stream of characters by repeatedly applying computation to some state Similar to iterateM Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "unfoldM",
           "normalized": "(a-\u003eb(Maybe(Char,a)))-\u003ea-\u003eEnumerator Text b c",
@@ -4187,6 +4507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "utf16_be",
           "package": "enumerator",
@@ -4196,6 +4517,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "utf16_be",
           "package": "enumerator",
@@ -4208,6 +4530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "utf16_le",
           "package": "enumerator",
@@ -4217,6 +4540,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "utf16_le",
           "package": "enumerator",
@@ -4229,6 +4553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "utf32_be",
           "package": "enumerator",
@@ -4238,6 +4563,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "utf32_be",
           "package": "enumerator",
@@ -4250,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "utf32_le",
           "package": "enumerator",
@@ -4259,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "utf32_le",
           "package": "enumerator",
@@ -4271,6 +4599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "utf8",
           "package": "enumerator",
@@ -4280,6 +4609,7 @@
         },
         "index": {
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "utf8",
           "package": "enumerator",
@@ -4293,6 +4623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "zip",
           "package": "enumerator",
@@ -4303,6 +4634,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Analogous to zip Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "zip",
           "normalized": "Iteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a(b,b)",
@@ -4318,6 +4650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through three iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "zip3",
           "package": "enumerator",
@@ -4328,6 +4661,7 @@
         "index": {
           "description": "Pass input from stream through three iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip3 Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "zip3",
           "normalized": "Iteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a(b,b,b)",
@@ -4343,6 +4677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through four iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip4\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "zip4",
           "package": "enumerator",
@@ -4353,6 +4688,7 @@
         "index": {
           "description": "Pass input from stream through four iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip4 Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "zip4",
           "normalized": "Iteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a(b,b,b,b)",
@@ -4368,6 +4704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through five iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip5\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "zip5",
           "package": "enumerator",
@@ -4378,6 +4715,7 @@
         "index": {
           "description": "Pass input from stream through five iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip5 Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "zip5",
           "normalized": "Iteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a(b,b,b,b,b)",
@@ -4393,6 +4731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through six iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip6\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "zip6",
           "package": "enumerator",
@@ -4403,6 +4742,7 @@
         "index": {
           "description": "Pass input from stream through six iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip6 Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "zip6",
           "normalized": "Iteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a(b,b,b,b,b,b)",
@@ -4418,6 +4758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through seven iteratees at once. Excess input is\n yielded if it was not consumed by any iteratee.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezip7\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "zip7",
           "package": "enumerator",
@@ -4428,6 +4769,7 @@
         "index": {
           "description": "Pass input from stream through seven iteratees at once Excess input is yielded if it was not consumed by any iteratee Analogous to zip7 Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "zip7",
           "normalized": "Iteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a b-\u003eIteratee Text a(b,b,b,b,b,b,b)",
@@ -4443,6 +4785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "zipWith",
           "package": "enumerator",
@@ -4453,6 +4796,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "zipWith",
           "normalized": "(a-\u003ea-\u003eb)-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c b",
@@ -4469,6 +4813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "zipWith3",
           "package": "enumerator",
@@ -4479,6 +4824,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith3 Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "zipWith3",
           "normalized": "(a-\u003ea-\u003ea-\u003eb)-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c b",
@@ -4495,6 +4841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith4\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "zipWith4",
           "package": "enumerator",
@@ -4505,6 +4852,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith4 Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "zipWith4",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c b",
@@ -4521,6 +4869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith5\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "zipWith5",
           "package": "enumerator",
@@ -4531,6 +4880,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith5 Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "zipWith5",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c b",
@@ -4547,6 +4897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith6\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "zipWith6",
           "package": "enumerator",
@@ -4557,6 +4908,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith6 Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "zipWith6",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c b",
@@ -4573,6 +4925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass input from a stream through two iteratees at once. Excess input is\n yielded if it was not consumed by either iteratee. Output from the\n iteratees is combined with a user-provided function.\n\u003c/p\u003e\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003ezipWith7\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Text",
           "name": "zipWith7",
           "package": "enumerator",
@@ -4583,6 +4936,7 @@
         "index": {
           "description": "Pass input from stream through two iteratees at once Excess input is yielded if it was not consumed by either iteratee Output from the iteratees is combined with user-provided function Analogous to zipWith7 Since",
           "hierarchy": "Data Enumerator Text",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Text",
           "name": "zipWith7",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c a-\u003eIteratee Text c b",
@@ -4599,6 +4953,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions for running monad transformers within\n iteratees. Most types defined in the \"transformers\" library are\n supported.\n\u003c/p\u003e\u003cp\u003eFunctions suffixed with an apostrophe (\u003ccode\u003e'\u003c/code\u003e) apply to the strict variant\n of their transformer type.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "Trans",
           "package": "enumerator",
@@ -4608,6 +4963,7 @@
         "index": {
           "description": "This module provides functions for running monad transformers within iteratees Most types defined in the transformers library are supported Functions suffixed with an apostrophe apply to the strict variant of their transformer type Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "Trans",
           "package": "enumerator",
@@ -4622,6 +4978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of (lazy) \u003ccode\u003eevalRWST\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "evalRWSI",
           "package": "enumerator",
@@ -4632,6 +4989,7 @@
         "index": {
           "description": "Lifted version of lazy evalRWST Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "evalRWSI",
           "normalized": "a-\u003eb-\u003eIteratee c(RWST a d b e)f-\u003eIteratee c e(f,d)",
@@ -4648,6 +5006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of (strict) \u003ccode\u003eevalRWST\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "evalRWSI'",
           "package": "enumerator",
@@ -4658,6 +5017,7 @@
         "index": {
           "description": "Lifted version of strict evalRWST Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "evalRWSI'",
           "normalized": "a-\u003eb-\u003eIteratee c(RWST a d b e)f-\u003eIteratee c e(f,d)",
@@ -4674,6 +5034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of (lazy) \u003ccode\u003eevalStateT\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "evalStateI",
           "package": "enumerator",
@@ -4684,6 +5045,7 @@
         "index": {
           "description": "Lifted version of lazy evalStateT Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "evalStateI",
           "normalized": "a-\u003eIteratee b(StateT a c)d-\u003eIteratee b c d",
@@ -4700,6 +5062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of (strict) \u003ccode\u003eevalStateT\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "evalStateI'",
           "package": "enumerator",
@@ -4710,6 +5073,7 @@
         "index": {
           "description": "Lifted version of strict evalStateT Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "evalStateI'",
           "normalized": "a-\u003eIteratee b(StateT a c)d-\u003eIteratee b c d",
@@ -4726,6 +5090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of (lazy) \u003ccode\u003eexecRWST\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "execRWSI",
           "package": "enumerator",
@@ -4736,6 +5101,7 @@
         "index": {
           "description": "Lifted version of lazy execRWST Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "execRWSI",
           "normalized": "a-\u003eb-\u003eIteratee c(RWST a d b e)f-\u003eIteratee c e(b,d)",
@@ -4752,6 +5118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of (strict) \u003ccode\u003eexecRWST\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "execRWSI'",
           "package": "enumerator",
@@ -4762,6 +5129,7 @@
         "index": {
           "description": "Lifted version of strict execRWST Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "execRWSI'",
           "normalized": "a-\u003eb-\u003eIteratee c(RWST a d b e)f-\u003eIteratee c e(b,d)",
@@ -4778,6 +5146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of (lazy) \u003ccode\u003eexecWriterT\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "execWriterI",
           "package": "enumerator",
@@ -4788,6 +5157,7 @@
         "index": {
           "description": "Lifted version of lazy execWriterT Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "execWriterI",
           "normalized": "Iteratee a(WriterT b c)d-\u003eIteratee a c b",
@@ -4804,6 +5174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of (strict) \u003ccode\u003eexecWriterT\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "execWriterI'",
           "package": "enumerator",
@@ -4814,6 +5185,7 @@
         "index": {
           "description": "Lifted version of strict execWriterT Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "execWriterI'",
           "normalized": "Iteratee a(WriterT b c)d-\u003eIteratee a c b",
@@ -4830,6 +5202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of \u003ccode\u003erunErrorT\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "runErrorI",
           "package": "enumerator",
@@ -4840,6 +5213,7 @@
         "index": {
           "description": "Lifted version of runErrorT Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "runErrorI",
           "normalized": "Iteratee a(ErrorT b c)d-\u003eIteratee a c(Either b d)",
@@ -4856,6 +5230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of \u003ccode\u003erunIdentityT\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "runIdentityI",
           "package": "enumerator",
@@ -4866,6 +5241,7 @@
         "index": {
           "description": "Lifted version of runIdentityT Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "runIdentityI",
           "normalized": "Iteratee a(IdentityT b)c-\u003eIteratee a b c",
@@ -4882,6 +5258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of \u003ccode\u003erunMaybeT\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "runMaybeI",
           "package": "enumerator",
@@ -4892,6 +5269,7 @@
         "index": {
           "description": "Lifted version of runMaybeT Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "runMaybeI",
           "normalized": "Iteratee a(MaybeT b)c-\u003eIteratee a b(Maybe c)",
@@ -4908,6 +5286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of (lazy) \u003ccode\u003erunRWST\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "runRWSI",
           "package": "enumerator",
@@ -4918,6 +5297,7 @@
         "index": {
           "description": "Lifted version of lazy runRWST Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "runRWSI",
           "normalized": "a-\u003eb-\u003eIteratee c(RWST a d b e)f-\u003eIteratee c e(f,b,d)",
@@ -4934,6 +5314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of (strict) \u003ccode\u003erunRWST\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "runRWSI'",
           "package": "enumerator",
@@ -4944,6 +5325,7 @@
         "index": {
           "description": "Lifted version of strict runRWST Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "runRWSI'",
           "normalized": "a-\u003eb-\u003eIteratee c(RWST a d b e)f-\u003eIteratee c e(f,b,d)",
@@ -4960,6 +5342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of \u003ccode\u003erunReaderT\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "runReaderI",
           "package": "enumerator",
@@ -4970,6 +5353,7 @@
         "index": {
           "description": "Lifted version of runReaderT Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "runReaderI",
           "normalized": "a-\u003eIteratee b(ReaderT a c)d-\u003eIteratee b c d",
@@ -4986,6 +5370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of (lazy) \u003ccode\u003erunStateT\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "runStateI",
           "package": "enumerator",
@@ -4996,6 +5381,7 @@
         "index": {
           "description": "Lifted version of lazy runStateT Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "runStateI",
           "normalized": "a-\u003eIteratee b(StateT a c)d-\u003eIteratee b c(d,a)",
@@ -5012,6 +5398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of (strict) \u003ccode\u003erunStateT\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "runStateI'",
           "package": "enumerator",
@@ -5022,6 +5409,7 @@
         "index": {
           "description": "Lifted version of strict runStateT Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "runStateI'",
           "normalized": "a-\u003eIteratee b(StateT a c)d-\u003eIteratee b c(d,a)",
@@ -5038,6 +5426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of (lazy) \u003ccode\u003erunWriterT\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "runWriterI",
           "package": "enumerator",
@@ -5048,6 +5437,7 @@
         "index": {
           "description": "Lifted version of lazy runWriterT Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "runWriterI",
           "normalized": "Iteratee a(WriterT b c)d-\u003eIteratee a c(d,b)",
@@ -5064,6 +5454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifted version of (strict) \u003ccode\u003erunWriterT\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSince: 0.4.16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator.Trans",
           "name": "runWriterI'",
           "package": "enumerator",
@@ -5074,6 +5465,7 @@
         "index": {
           "description": "Lifted version of strict runWriterT Since",
           "hierarchy": "Data Enumerator Trans",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator.Trans",
           "name": "runWriterI'",
           "normalized": "Iteratee a(WriterT b c)d-\u003eIteratee a c(d,b)",
@@ -5090,6 +5482,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFor compatibility reasons, this module should imported qualified:\n\u003c/p\u003e\u003cpre\u003e\n import qualified Data.Enumerator as E\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "Enumerator",
           "package": "enumerator",
@@ -5099,6 +5492,7 @@
         "index": {
           "description": "For compatibility reasons this module should imported qualified import qualified Data.Enumerator as",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "Enumerator",
           "package": "enumerator",
@@ -5113,6 +5507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumeratee acts as a stream adapter; place one between an enumerator\n and an iteratee, and it changes the type or contents of the input stream.\n\u003c/p\u003e\u003cp\u003eMost users will want to combine enumerators, enumeratees, and iteratees\n using the stream combinators \u003ccode\u003ejoinI\u003c/code\u003e and \u003ccode\u003ejoinE\u003c/code\u003e, or their operator aliases\n \u003ccode\u003e(=$)\u003c/code\u003e and \u003ccode\u003e($=)\u003c/code\u003e. These combinators are used to manage how left-over input\n is passed between elements of the data processing pipeline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "Enumeratee",
           "package": "enumerator",
@@ -5122,6 +5517,7 @@
         "index": {
           "description": "An enumeratee acts as stream adapter place one between an enumerator and an iteratee and it changes the type or contents of the input stream Most users will want to combine enumerators enumeratees and iteratees using the stream combinators joinI and joinE or their operator aliases and These combinators are used to manage how left-over input is passed between elements of the data processing pipeline",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "Enumeratee",
           "package": "enumerator",
@@ -5136,6 +5532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerators are sources of data, to be consumed by iteratees.\n Enumerators typically read from an external source (parser, handle,\n random generator, etc), then feed chunks into an tteratee until:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The input source runs out of data.\n\u003c/li\u003e\u003cli\u003e The iteratee yields a result value.\n\u003c/li\u003e\u003cli\u003e The iteratee throws an exception.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "Enumerator",
           "package": "enumerator",
@@ -5145,6 +5542,7 @@
         "index": {
           "description": "Enumerators are sources of data to be consumed by iteratees Enumerators typically read from an external source parser handle random generator etc then feed chunks into an tteratee until The input source runs out of data The iteratee yields result value The iteratee throws an exception",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "Enumerator",
           "package": "enumerator",
@@ -5159,6 +5557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe primary data type for this library; an iteratee consumes\n chunks of input from a stream until it either yields a value or\n encounters an error.\n\u003c/p\u003e\u003cp\u003eCompatibility note: \u003ccode\u003eIteratee\u003c/code\u003e will become abstract in \u003ccode\u003eenumerator_0.5\u003c/code\u003e. If\n you depend on internal implementation details, please import\n \u003ccode\u003e\u003ca\u003eData.Enumerator.Internal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "Iteratee",
           "package": "enumerator",
@@ -5168,6 +5567,7 @@
         "index": {
           "description": "The primary data type for this library an iteratee consumes chunks of input from stream until it either yields value or encounters an error Compatibility note Iteratee will become abstract in enumerator If you depend on internal implementation details please import Data.Enumerator.Internal",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "Iteratee",
           "package": "enumerator",
@@ -5182,6 +5582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#8220;Wraps&#8221; an enumerator \u003cem\u003einner\u003c/em\u003e in an enumeratee \u003cem\u003ewrapper\u003c/em\u003e.\n The resulting enumerator will generate \u003cem\u003ewrapper\u003c/em\u003e&#8217;s output type.\n\u003c/p\u003e\u003cp\u003eAs an example, consider an enumerator that yields line character counts\n for a text file (e.g. for source code readability checking):\n\u003c/p\u003e\u003cpre\u003e enumFileCounts :: FilePath -\u003e Enumerator Int IO b\n\u003c/pre\u003e\u003cp\u003eIt could be written with either \u003ccode\u003e\u003ca\u003ejoinE\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e($=)\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e import Data.Text as T\n import Data.Enumerator.List as EL\n import Data.Enumerator.Text as ET\n\n enumFileCounts path = joinE (enumFile path) (EL.map T.length)\n enumFileCounts path = enumFile path $= EL.map T.length\n\u003c/pre\u003e\u003cp\u003eCompatibility note: in version 0.4.15, the associativity of \u003ccode\u003e($=)\u003c/code\u003e was\n changed from \u003ccode\u003einfixr 0\u003c/code\u003e to \u003ccode\u003einfixl 1\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "($=)",
           "package": "enumerator",
@@ -5192,6 +5593,7 @@
         "index": {
           "description": "Wraps an enumerator inner in an enumeratee wrapper The resulting enumerator will generate wrapper output type As an example consider an enumerator that yields line character counts for text file e.g for source code readability checking enumFileCounts FilePath Enumerator Int IO It could be written with either joinE or import Data.Text as import Data.Enumerator.List as EL import Data.Enumerator.Text as ET enumFileCounts path joinE enumFile path EL.map T.length enumFileCounts path enumFile path EL.map T.length Compatibility note in version the associativity of was changed from infixr to infixl Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "($=) $=",
           "normalized": "Enumerator a b(Step c b d)-\u003eEnumeratee a c b d-\u003eEnumerator c b d",
@@ -5207,6 +5609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#8220;Wraps&#8221; an iteratee \u003cem\u003einner\u003c/em\u003e in an enumeratee \u003cem\u003ewrapper\u003c/em\u003e.\n The resulting iteratee will consume \u003cem\u003ewrapper\u003c/em\u003e&#8217;s input type and\n yield \u003cem\u003einner\u003c/em\u003e&#8217;s output type.\n\u003c/p\u003e\u003cp\u003eNote: if the inner iteratee yields leftover input when it finishes,\n that extra will be discarded.\n\u003c/p\u003e\u003cp\u003eAs an example, consider an iteratee that converts a stream of UTF8-encoded\n bytes into a single \u003ccode\u003eText\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e consumeUTF8 :: Monad m =\u003e Iteratee ByteString m Text\n\u003c/pre\u003e\u003cp\u003eIt could be written with either \u003ccode\u003e\u003ca\u003ejoinI\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e(=$)\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e import Data.Enumerator.Text as ET\n\n consumeUTF8 = joinI (decode utf8 $$ ET.consume)\n consumeUTF8 = decode utf8 =$ ET.consume\n\u003c/pre\u003e\u003cp\u003eSince: 0.4.9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "(=$)",
           "package": "enumerator",
@@ -5217,6 +5620,7 @@
         "index": {
           "description": "Wraps an iteratee inner in an enumeratee wrapper The resulting iteratee will consume wrapper input type and yield inner output type Note if the inner iteratee yields leftover input when it finishes that extra will be discarded As an example consider an iteratee that converts stream of UTF8-encoded bytes into single Text consumeUTF8 Monad Iteratee ByteString Text It could be written with either joinI or import Data.Enumerator.Text as ET consumeUTF8 joinI decode utf8 ET.consume consumeUTF8 decode utf8 ET.consume Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "(=$) =$",
           "normalized": "Enumeratee a b c d-\u003eIteratee b c d-\u003eIteratee a c d",
@@ -5232,6 +5636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposes two enumeratees.\n\u003c/p\u003e\u003cp\u003eNote that if the inner enumeratee yields left-over input, this will be\n discarded.\n\u003c/p\u003e\u003cp\u003eExample: converting bytes into lower-case text:\n\u003c/p\u003e\u003cpre\u003e import Data.ByteString\n import Data.Text\n import Data.Enumerator.List as EnumList\n import Data.Enumerator.Text\n\n decodeAndLower :: Monad m =\u003e Enumeratee ByteString Text m b\n decodeAndLower = decode utf8 =$= EnumList.map toLower\n\u003c/pre\u003e\u003cp\u003eSince: 0.4.17\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "(=$=)",
           "package": "enumerator",
@@ -5242,6 +5647,7 @@
         "index": {
           "description": "Composes two enumeratees Note that if the inner enumeratee yields left-over input this will be discarded Example converting bytes into lower-case text import Data.ByteString import Data.Text import Data.Enumerator.List as EnumList import Data.Enumerator.Text decodeAndLower Monad Enumeratee ByteString Text decodeAndLower decode utf8 EnumList.map toLower Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "(=$=) =$=",
           "normalized": "Enumeratee a a b(Step a b c)-\u003eEnumeratee a a b c-\u003eEnumeratee a a b c",
@@ -5257,6 +5663,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.5: use \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "break",
           "package": "enumerator",
@@ -5267,6 +5674,7 @@
         "index": {
           "description": "Deprecated Use takeWhile instead Deprecated in use takeWhile instead",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "break",
           "normalized": "(a-\u003eBool)-\u003eIteratee a b[a]",
@@ -5282,6 +5690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the iteratee, and calls an exception handler if an \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e is\n returned. By handling errors within the enumerator library, and requiring\n all errors to be represented by \u003ccode\u003e\u003ca\u003eSomeException\u003c/a\u003e\u003c/code\u003e, libraries with\n varying error types can be easily composed.\n\u003c/p\u003e\u003cp\u003eWARNING: Within the error handler, it is difficult or impossible to know\n how much input the original iteratee has consumed. Users are strongly\n advised to wrap all uses of \u003ccode\u003ecatchError\u003c/code\u003e with an appropriate isolation\n enumeratee, such as \u003ccode\u003eData.Enumerator.List.isolate\u003c/code\u003e or\n \u003ccode\u003eData.Enumerator.Binary.isolate\u003c/code\u003e, which will handle input framing even\n in the face of unexpected errors.\n\u003c/p\u003e\u003cp\u003eSince: 0.1.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "catchError",
           "package": "enumerator",
@@ -5292,6 +5701,7 @@
         "index": {
           "description": "Runs the iteratee and calls an exception handler if an Error is returned By handling errors within the enumerator library and requiring all errors to be represented by SomeException libraries with varying error types can be easily composed WARNING Within the error handler it is difficult or impossible to know how much input the original iteratee has consumed Users are strongly advised to wrap all uses of catchError with an appropriate isolation enumeratee such as Data.Enumerator.List.isolate or Data.Enumerator.Binary.isolate which will handle input framing even in the face of unexpected errors Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "catchError",
           "normalized": "Iteratee a b c-\u003e(SomeException-\u003eIteratee a b c)-\u003eIteratee a b c",
@@ -5308,6 +5718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a list of \u003ccode\u003e\u003ca\u003eEnumerator\u003c/a\u003e\u003c/code\u003es using \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e\u003e==\u003e\u003c/a\u003e\u003c/code\u003e).\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "concatEnums",
           "package": "enumerator",
@@ -5318,6 +5729,7 @@
         "index": {
           "description": "Compose list of Enumerator using",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "concatEnums",
           "normalized": "[Enumerator a b c]-\u003eEnumerator a b c",
@@ -5334,6 +5746,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.concatMap instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003econcatMap\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "concatMap",
           "package": "enumerator",
@@ -5344,6 +5757,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.concatMap instead Deprecated in use concatMap instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "concatMap",
           "normalized": "(a-\u003e[b])-\u003eEnumeratee a b c d",
@@ -5360,6 +5774,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.concatMapM instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003econcatMapM\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "concatMapM",
           "package": "enumerator",
@@ -5370,6 +5785,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.concatMapM instead Deprecated in use concatMapM instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "concatMapM",
           "normalized": "(a-\u003eb[c])-\u003eEnumeratee a c b d",
@@ -5386,6 +5802,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use \u003ccode\u003e\u003ca\u003econsume\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.5: use \u003ccode\u003e\u003ca\u003econsume\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "consume",
           "package": "enumerator",
@@ -5396,6 +5813,7 @@
         "index": {
           "description": "Deprecated Use consume instead Deprecated in use consume instead",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "consume",
           "normalized": "Iteratee a b[a]",
@@ -5411,6 +5829,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.5: use \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "drop",
           "package": "enumerator",
@@ -5421,6 +5840,7 @@
         "index": {
           "description": "Deprecated Use drop instead Deprecated in use drop instead",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "drop",
           "normalized": "Integer-\u003eIteratee a b()",
@@ -5436,6 +5856,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use \u003ccode\u003e\u003ca\u003edropWhile\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.5: use \u003ccode\u003e\u003ca\u003edropWhile\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "dropWhile",
           "package": "enumerator",
@@ -5446,6 +5867,7 @@
         "index": {
           "description": "Deprecated Use dropWhile instead Deprecated in use dropWhile instead",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003eIteratee a b()",
@@ -5462,6 +5884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eenumList\u003c/a\u003e\u003c/code\u003e n xs\u003c/code\u003e enumerates \u003cem\u003exs\u003c/em\u003e as a stream, passing \u003cem\u003en\u003c/em\u003e inputs per\n chunk. This is primarily useful for testing, debugging, and REPL\n exploration.\n\u003c/p\u003e\u003cp\u003eCompatibility note: In version 0.5, \u003ccode\u003e\u003ca\u003eenumList\u003c/a\u003e\u003c/code\u003e will be changed to the\n type:\n\u003c/p\u003e\u003cpre\u003e enumList :: Monad m =\u003e [a] -\u003e Enumerator a m b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "enumList",
           "package": "enumerator",
@@ -5472,6 +5895,7 @@
         "index": {
           "description": "enumList xs enumerates xs as stream passing inputs per chunk This is primarily useful for testing debugging and REPL exploration Compatibility note In version enumList will be changed to the type enumList Monad Enumerator",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "enumList",
           "normalized": "Integer-\u003e[a]-\u003eEnumerator a b c",
@@ -5488,6 +5912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eenumLists\u003c/a\u003e\u003c/code\u003e xs\u003c/code\u003e enumerates \u003cem\u003exs\u003c/em\u003e as a stream, where each element is a\n separate chunk. This is primarily useful for testing and debugging.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.15\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "enumLists",
           "package": "enumerator",
@@ -5498,6 +5923,7 @@
         "index": {
           "description": "enumLists xs enumerates xs as stream where each element is separate chunk This is primarily useful for testing and debugging Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "enumLists",
           "normalized": "[[a]]-\u003eEnumerator a b c",
@@ -5514,6 +5940,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.filter instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003efilter\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "filter",
           "package": "enumerator",
@@ -5524,6 +5951,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.filter instead Deprecated in use filter instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eEnumeratee a a b c",
@@ -5539,6 +5967,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.filterM instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003efilterM\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "filterM",
           "package": "enumerator",
@@ -5549,6 +5978,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.filterM instead Deprecated in use filterM instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "filterM",
           "normalized": "(a-\u003eb Bool)-\u003eEnumeratee a a b c",
@@ -5564,6 +5994,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.foldM instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003efoldM\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "foldM",
           "package": "enumerator",
@@ -5574,6 +6005,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.foldM instead Deprecated in use foldM instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "foldM",
           "normalized": "(a-\u003eb-\u003ec a)-\u003ea-\u003eIteratee b c a",
@@ -5589,6 +6021,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.fold instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "foldl",
           "package": "enumerator",
@@ -5599,6 +6032,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.fold instead Deprecated in use fold instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eIteratee b c a",
@@ -5614,6 +6048,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.fold instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "foldl'",
           "package": "enumerator",
@@ -5624,6 +6059,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.fold instead Deprecated in use fold instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eIteratee b c a",
@@ -5639,6 +6075,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.generateM instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003egenerateM\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "generateM",
           "package": "enumerator",
@@ -5649,6 +6086,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.generateM instead Deprecated in use generateM instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "generateM",
           "normalized": "a(Maybe b)-\u003eEnumerator b a c",
@@ -5664,6 +6102,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use \u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.5: use \u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "head",
           "package": "enumerator",
@@ -5674,6 +6113,7 @@
         "index": {
           "description": "Deprecated Use head instead Deprecated in use head instead",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "head",
           "package": "enumerator",
@@ -5687,6 +6127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a stream has reached EOF. Note that if the stream is not\n at EOF, \u003ccode\u003eisEOF\u003c/code\u003e may cause data to be read from the enumerator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "isEOF",
           "package": "enumerator",
@@ -5697,6 +6138,7 @@
         "index": {
           "description": "Check whether stream has reached EOF Note that if the stream is not at EOF isEOF may cause data to be read from the enumerator",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "isEOF",
           "package": "enumerator",
@@ -5711,6 +6153,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.iterate instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "iterate",
           "package": "enumerator",
@@ -5721,6 +6164,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.iterate instead Deprecated in use iterate instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "iterate",
           "normalized": "(a-\u003ea)-\u003ea-\u003eEnumerator a b c",
@@ -5736,6 +6180,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.iterateM instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003eiterateM\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "iterateM",
           "package": "enumerator",
@@ -5746,6 +6191,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.iterateM instead Deprecated in use iterateM instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "iterateM",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eEnumerator a b c",
@@ -5761,6 +6207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#8220;Wraps&#8221; an enumerator \u003cem\u003einner\u003c/em\u003e in an enumeratee \u003cem\u003ewrapper\u003c/em\u003e.\n The resulting enumerator will generate \u003cem\u003ewrapper\u003c/em\u003e&#8217;s output type.\n\u003c/p\u003e\u003cp\u003eSee the documentation for (\u003ccode\u003e\u003ca\u003e$=\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cpre\u003ejoinE enum enee = enum $= enee\u003c/pre\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "joinE",
           "package": "enumerator",
@@ -5771,6 +6218,7 @@
         "index": {
           "description": "Wraps an enumerator inner in an enumeratee wrapper The resulting enumerator will generate wrapper output type See the documentation for joinE enum enee enum enee Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "joinE",
           "normalized": "Enumerator a b(Step c b d)-\u003eEnumeratee a c b d-\u003eEnumerator c b d",
@@ -5786,6 +6234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#8220;Wraps&#8221; an iteratee \u003cem\u003einner\u003c/em\u003e in an enumeratee \u003cem\u003ewrapper\u003c/em\u003e.\n The resulting iteratee will consume \u003cem\u003ewrapper\u003c/em\u003e&#8217;s input type and\n yield \u003cem\u003einner\u003c/em\u003e&#8217;s output type.\n\u003c/p\u003e\u003cp\u003eSee the documentation for (\u003ccode\u003e\u003ca\u003e=$\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cpre\u003ejoinI (enum $$ iter) = enum =$ iter\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "joinI",
           "package": "enumerator",
@@ -5796,6 +6245,7 @@
         "index": {
           "description": "Wraps an iteratee inner in an enumeratee wrapper The resulting iteratee will consume wrapper input type and yield inner output type See the documentation for joinI enum iter enum iter",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "joinI",
           "normalized": "Iteratee a b(Step c b d)-\u003eIteratee a b d",
@@ -5811,6 +6261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the last element in the stream, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the stream\n has ended.\n\u003c/p\u003e\u003cp\u003eConsumes the entire stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "last",
           "package": "enumerator",
@@ -5821,6 +6272,7 @@
         "index": {
           "description": "Get the last element in the stream or Nothing if the stream has ended Consumes the entire stream",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "last",
           "package": "enumerator",
@@ -5834,6 +6286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet how many elements remained in the stream.\n\u003c/p\u003e\u003cp\u003eConsumes the entire stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "length",
           "package": "enumerator",
@@ -5844,6 +6297,7 @@
         "index": {
           "description": "Get how many elements remained in the stream Consumes the entire stream",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "length",
           "package": "enumerator",
@@ -5857,6 +6311,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.fold instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.5: use \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.1.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "liftFoldL",
           "package": "enumerator",
@@ -5867,6 +6322,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.fold instead Deprecated in use fold instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "liftFoldL",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eIteratee b c a",
@@ -5883,6 +6339,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.fold instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.5: use \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.1.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "liftFoldL'",
           "package": "enumerator",
@@ -5893,6 +6350,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.fold instead Deprecated in use fold instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "liftFoldL'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eIteratee b c a",
@@ -5909,6 +6367,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.foldM instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.5: use \u003ccode\u003e\u003ca\u003efoldM\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.1.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "liftFoldM",
           "package": "enumerator",
@@ -5919,6 +6378,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.foldM instead Deprecated in use foldM instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "liftFoldM",
           "normalized": "(a-\u003eb-\u003ec a)-\u003ea-\u003eIteratee b c a",
@@ -5935,6 +6395,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use \u003ccode\u003e\u003ca\u003econtinue\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.5: use \u003ccode\u003e\u003ca\u003econtinue\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "liftI",
           "package": "enumerator",
@@ -5945,6 +6406,7 @@
         "index": {
           "description": "Deprecated Use continue instead Deprecated in use continue instead",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "liftI",
           "normalized": "(Stream a-\u003eStep a b c)-\u003eIteratee a b c",
@@ -5960,6 +6422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e onto a monad transformer, re-wrapping its\n inner monadic values.\n\u003c/p\u003e\u003cp\u003eSince: 0.1.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "liftTrans",
           "package": "enumerator",
@@ -5970,6 +6433,7 @@
         "index": {
           "description": "Lift an Iteratee onto monad transformer re-wrapping its inner monadic values Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "liftTrans",
           "normalized": "Iteratee a b c-\u003eIteratee a(d b)c",
@@ -5986,6 +6450,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.map instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "map",
           "package": "enumerator",
@@ -5996,6 +6461,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.map instead Deprecated in use map instead",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eEnumeratee a b c d",
@@ -6011,6 +6477,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.mapM instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "mapM",
           "package": "enumerator",
@@ -6021,6 +6488,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.mapM instead Deprecated in use mapM instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "mapM",
           "normalized": "(a-\u003eb c)-\u003eEnumeratee a c b d",
@@ -6036,6 +6504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeek at the next element in the stream, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the stream\n has ended.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "peek",
           "package": "enumerator",
@@ -6046,6 +6515,7 @@
         "index": {
           "description": "Peek at the next element in the stream or Nothing if the stream has ended",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "peek",
           "package": "enumerator",
@@ -6059,6 +6529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint chunks as they're received from the enumerator, optionally\n printing empty chunks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "printChunks",
           "package": "enumerator",
@@ -6068,6 +6539,7 @@
         "index": {
           "description": "Print chunks as they re received from the enumerator optionally printing empty chunks",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "printChunks",
           "normalized": "Bool-\u003eIteratee a b()",
@@ -6084,6 +6556,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.repeat instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003erepeat\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "repeat",
           "package": "enumerator",
@@ -6094,6 +6567,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.repeat instead Deprecated in use repeat instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "repeat",
           "normalized": "a-\u003eEnumerator a b c",
@@ -6109,6 +6583,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.repeatM instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003erepeatM\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "repeatM",
           "package": "enumerator",
@@ -6119,6 +6594,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.repeatM instead Deprecated in use repeatM instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "repeatM",
           "normalized": "a b-\u003eEnumerator b a c",
@@ -6134,6 +6610,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.replicate instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "replicate",
           "package": "enumerator",
@@ -6144,6 +6621,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.replicate instead Deprecated in use replicate instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "replicate",
           "normalized": "Integer-\u003ea-\u003eEnumerator a b c",
@@ -6159,6 +6637,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Enumerator.List.replicateM instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.8: use \u003ccode\u003e\u003ca\u003ereplicateM\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eSince: 0.4.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "replicateM",
           "package": "enumerator",
@@ -6169,6 +6648,7 @@
         "index": {
           "description": "Deprecated Use Data.Enumerator.List.replicateM instead Deprecated in use replicateM instead Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "replicateM",
           "normalized": "Integer-\u003ea b-\u003eEnumerator b a c",
@@ -6184,6 +6664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an iteratee until it finishes, and return either the final value\n (if it succeeded) or the error (if it failed).\n\u003c/p\u003e\u003cpre\u003e import Data.Enumerator\n import Data.Enumerator.List as EL\n\n main = do\n     result \u003c- run (EL.iterate succ 'A' $$ EL.take 5)\n     case result of\n         Left exc -\u003e putStrLn (\"Got an exception: \" ++ show exc)\n         Right chars -\u003e putStrLn (\"Got characters: \" ++ show chars)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "run",
           "package": "enumerator",
@@ -6194,6 +6675,7 @@
         "index": {
           "description": "Run an iteratee until it finishes and return either the final value if it succeeded or the error if it failed import Data.Enumerator import Data.Enumerator.List as EL main do result run EL.iterate succ EL.take case result of Left exc putStrLn Got an exception show exc Right chars putStrLn Got characters show chars",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "run",
           "normalized": "Iteratee a b c-\u003eb(Either SomeException c)",
@@ -6209,6 +6691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an iteratee with the given input, and return either the final value\n (if it succeeded) or the error (if it failed).\n\u003c/p\u003e\u003cp\u003eSince: 0.4.15\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "runLists",
           "package": "enumerator",
@@ -6219,6 +6702,7 @@
         "index": {
           "description": "Run an iteratee with the given input and return either the final value if it succeeded or the error if it failed Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "runLists",
           "normalized": "[[a]]-\u003eIteratee a Identity b-\u003eEither SomeException b",
@@ -6235,6 +6719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erunLists\u003c/a\u003e\u003c/code\u003e, except errors are converted to exceptions and thrown.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.15\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "runLists_",
           "package": "enumerator",
@@ -6245,6 +6730,7 @@
         "index": {
           "description": "Like runLists except errors are converted to exceptions and thrown Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "runLists_",
           "normalized": "[[a]]-\u003eIteratee a Identity b-\u003eb",
@@ -6261,6 +6747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e, except errors are converted to exceptions and thrown.\n Primarily useful for small scripts or other simple cases.\n\u003c/p\u003e\u003cpre\u003e import Data.Enumerator\n import Data.Enumerator.List as EL\n\n main = do\n     chars \u003c- run_ (EL.iterate succ 'A' $$ EL.take 5)\n     putStrLn (\"Got characters: \" ++ show chars)\n\u003c/pre\u003e\u003cp\u003eSince: 0.4.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "run_",
           "package": "enumerator",
@@ -6271,6 +6758,7 @@
         "index": {
           "description": "Like run except errors are converted to exceptions and thrown Primarily useful for small scripts or other simple cases import Data.Enumerator import Data.Enumerator.List as EL main do chars run EL.iterate succ EL.take putStrLn Got characters show chars Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "run_",
           "normalized": "Iteratee a b c-\u003eb c",
@@ -6286,6 +6774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeeds outer input elements into the provided iteratee until it yields\n an inner input, passes that to the inner iteratee, and then loops.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "sequence",
           "package": "enumerator",
@@ -6296,6 +6785,7 @@
         "index": {
           "description": "Feeds outer input elements into the provided iteratee until it yields an inner input passes that to the inner iteratee and then loops",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "sequence",
           "normalized": "Iteratee a b c-\u003eEnumeratee a c b d",
@@ -6311,6 +6801,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated in 0.4.5: use \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e instead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "span",
           "package": "enumerator",
@@ -6321,6 +6812,7 @@
         "index": {
           "description": "Deprecated Use takeWhile instead Deprecated in use takeWhile instead",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "span",
           "normalized": "(a-\u003eBool)-\u003eIteratee a b[a]",
@@ -6336,6 +6828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe moral equivalent of \u003ccode\u003e\u003ca\u003ethrowIO\u003c/a\u003e\u003c/code\u003e for iteratees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "throwError",
           "package": "enumerator",
@@ -6346,6 +6839,7 @@
         "index": {
           "description": "The moral equivalent of throwIO for iteratees",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "throwError",
           "normalized": "a-\u003eIteratee b c d",
@@ -6362,6 +6856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to run an IO computation. If it throws an exception, the exception\n is caught and passed to \u003ccode\u003e\u003ca\u003ethrowError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.4.9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:02:42 UTC 2014",
           "module": "Data.Enumerator",
           "name": "tryIO",
           "package": "enumerator",
@@ -6372,6 +6867,7 @@
         "index": {
           "description": "Try to run an IO computation If it throws an exception the exception is caught and passed to throwError Since",
           "hierarchy": "Data Enumerator",
+          "indexed": "2014-03-11T18:02:42",
           "module": "Data.Enumerator",
           "name": "tryIO",
           "normalized": "IO a-\u003eIteratee b c a",

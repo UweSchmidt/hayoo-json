@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "punycode"
+        "phrase": "punycode",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:05 UTC 2014",
           "module": "Data.Text.Punycode",
           "name": "Punycode",
           "package": "punycode",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Text Punycode",
+          "indexed": "2014-03-11T19:46:05",
           "module": "Data.Text.Punycode",
           "name": "Punycode",
           "package": "punycode",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:05 UTC 2014",
           "module": "Data.Text.Punycode",
           "name": "PunycodeDecodeException",
           "package": "punycode",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Text Punycode",
+          "indexed": "2014-03-11T19:46:05",
           "module": "Data.Text.Punycode",
           "name": "PunycodeDecodeException",
           "package": "punycode",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:05 UTC 2014",
           "module": "Data.Text.Punycode",
           "name": "CantStartWithDash",
           "package": "punycode",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Text Punycode",
+          "indexed": "2014-03-11T19:46:05",
           "module": "Data.Text.Punycode",
           "name": "CantStartWithDash",
           "package": "punycode",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:05 UTC 2014",
           "module": "Data.Text.Punycode",
           "name": "GenericDecodeException",
           "package": "punycode",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Text Punycode",
+          "indexed": "2014-03-11T19:46:05",
           "module": "Data.Text.Punycode",
           "name": "GenericDecodeException",
           "package": "punycode",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:05 UTC 2014",
           "module": "Data.Text.Punycode",
           "name": "InputTooShort",
           "package": "punycode",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Text Punycode",
+          "indexed": "2014-03-11T19:46:05",
           "module": "Data.Text.Punycode",
           "name": "InputTooShort",
           "package": "punycode",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:05 UTC 2014",
           "module": "Data.Text.Punycode",
           "name": "InternalStringTooShort",
           "package": "punycode",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Text Punycode",
+          "indexed": "2014-03-11T19:46:05",
           "module": "Data.Text.Punycode",
           "name": "InternalStringTooShort",
           "package": "punycode",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:05 UTC 2014",
           "module": "Data.Text.Punycode",
           "name": "InvalidCodePoint",
           "package": "punycode",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Text Punycode",
+          "indexed": "2014-03-11T19:46:05",
           "module": "Data.Text.Punycode",
           "name": "InvalidCodePoint",
           "package": "punycode",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:05 UTC 2014",
           "module": "Data.Text.Punycode",
           "name": "LeftOfHyphenShouldBeBasic",
           "package": "punycode",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Text Punycode",
+          "indexed": "2014-03-11T19:46:05",
           "module": "Data.Text.Punycode",
           "name": "LeftOfHyphenShouldBeBasic",
           "package": "punycode",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:05 UTC 2014",
           "module": "Data.Text.Punycode",
           "name": "RightOfHyphenShouldBeAlphanumeric",
           "package": "punycode",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Text Punycode",
+          "indexed": "2014-03-11T19:46:05",
           "module": "Data.Text.Punycode",
           "name": "RightOfHyphenShouldBeAlphanumeric",
           "package": "punycode",
@@ -215,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a string into its unicode form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:05 UTC 2014",
           "module": "Data.Text.Punycode",
           "name": "decode",
           "package": "punycode",
@@ -225,6 +244,7 @@
         "index": {
           "description": "Decode string into its unicode form",
           "hierarchy": "Data Text Punycode",
+          "indexed": "2014-03-11T19:46:05",
           "module": "Data.Text.Punycode",
           "name": "decode",
           "normalized": "ByteString-\u003eEither PunycodeDecodeException Text",
@@ -240,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a string into its ascii form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:05 UTC 2014",
           "module": "Data.Text.Punycode",
           "name": "encode",
           "package": "punycode",
@@ -250,6 +271,7 @@
         "index": {
           "description": "Encode string into its ascii form",
           "hierarchy": "Data Text Punycode",
+          "indexed": "2014-03-11T19:46:05",
           "module": "Data.Text.Punycode",
           "name": "encode",
           "normalized": "Text-\u003eByteString",

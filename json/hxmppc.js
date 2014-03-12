@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hxmppc"
+        "phrase": "hxmppc",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ta"
+        "phrase": "ta",
+        "type": "phrase"
       },
       "type": "context"
     }

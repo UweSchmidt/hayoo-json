@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sloane"
+        "phrase": "sloane",
+        "type": "phrase"
       },
       "type": "context"
     }

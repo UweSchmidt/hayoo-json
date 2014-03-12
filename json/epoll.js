@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "epoll"
+        "phrase": "epoll",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow level interface to Linux' epoll, a high performance polling mechanism\n which handles high numbers of file descriptors efficiently. See man epoll(7)\n for details.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "Base",
           "package": "epoll",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Low level interface to Linux epoll high performance polling mechanism which handles high numbers of file descriptors efficiently See man epoll for details",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "Base",
           "package": "epoll",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent descriptor. Will be returned from \u003ccode\u003e\u003ca\u003eadd\u003c/a\u003e\u003c/code\u003e and must be passed to\n \u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e exactly once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "Descriptor",
           "package": "epoll",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Event descriptor Will be returned from add and must be passed to delete exactly once",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "Descriptor",
           "package": "epoll",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract epoll device. Holds internal data. Returned from \u003ccode\u003e\u003ca\u003ecreate\u003c/a\u003e\u003c/code\u003e and used\n in almost every other API function. Must be closed explicitely with \u003ccode\u003e\u003ca\u003eclose\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "Device",
           "package": "epoll",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Abstract epoll device Holds internal data Returned from create and used in almost every other API function Must be closed explicitely with close",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "Device",
           "package": "epoll",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned type used for timeout specifications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "Duration",
           "package": "epoll",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Unsigned type used for timeout specifications",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "Duration",
           "package": "epoll",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single event ocurrence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "Event",
           "package": "epoll",
@@ -120,6 +129,7 @@
         "index": {
           "description": "single event ocurrence",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "Event",
           "package": "epoll",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEventType corresponds to epoll's event type defines, e.g. EPOLLIN,\n EPOLLOUT, EPOLLET, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "EventType",
           "package": "epoll",
@@ -143,6 +154,7 @@
         "index": {
           "description": "EventType corresponds to epoll event type defines e.g EPOLLIN EPOLLOUT EPOLLET etc",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "EventType",
           "package": "epoll",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned type used for length specifications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "Size",
           "package": "epoll",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Unsigned type used for length specifications",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "Size",
           "package": "epoll",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch operator. Useful to test whether an \u003ccode\u003e\u003ca\u003eEventType\u003c/a\u003e\u003c/code\u003e returned from\n \u003ccode\u003e\u003ca\u003ewait\u003c/a\u003e\u003c/code\u003e contains one of the defined event types because EventTypes returned by\n wait might be the bitwise OR of several EventTypes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "(=~)",
           "package": "epoll",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Match operator Useful to test whether an EventType returned from wait contains one of the defined event types because EventTypes returned by wait might be the bitwise OR of several EventTypes",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "(=~) =~",
           "normalized": "EventType-\u003eEventType-\u003eBool",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a filedescriptor to the epoll watch set using the specified\n EventTypes. User data might be passed in as well which will be returned on\n event occurence as part of the \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e type. Returns an event descriptor\n which must be deleted from the watch set with \u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e and passed to\n \u003ccode\u003e\u003ca\u003efreeDesc\u003c/a\u003e\u003c/code\u003e exactly once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "add",
           "package": "epoll",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Adds filedescriptor to the epoll watch set using the specified EventTypes User data might be passed in as well which will be returned on event occurence as part of the Event type Returns an event descriptor which must be deleted from the watch set with delete and passed to freeDesc exactly once",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "add",
           "normalized": "Device-\u003ea-\u003e[EventType]-\u003eFd-\u003eIO(Descriptor a)",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses epoll device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "close",
           "package": "epoll",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Closes epoll device",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "close",
           "normalized": "Device-\u003eIO()",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitwise OR of the list of \u003ccode\u003e\u003ca\u003eEventType\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "combineEvents",
           "package": "epoll",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Bitwise OR of the list of EventType",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "combineEvents",
           "normalized": "[EventType]-\u003eEventType",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an epoll device. Must be closed with \u003ccode\u003e\u003ca\u003eclose\u003c/a\u003e\u003c/code\u003e.\n The parameter \u003ccode\u003e\u003ca\u003eSize\u003c/a\u003e\u003c/code\u003e specifies the number of events that can be reported by a\n single call to \u003ccode\u003e\u003ca\u003ewait\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "create",
           "package": "epoll",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Creates an epoll device Must be closed with close The parameter Size specifies the number of events that can be reported by single call to wait",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "create",
           "normalized": "Size-\u003eIO Device",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the event descriptor from the epoll watch set.\n and frees descriptor which must not be used afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "delete",
           "package": "epoll",
@@ -316,6 +341,7 @@
         "index": {
           "description": "Removes the event descriptor from the epoll watch set and frees descriptor which must not be used afterwards",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "delete",
           "normalized": "Device-\u003eDescriptor a-\u003eIO()",
@@ -330,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "edgeTriggeredEvent",
           "package": "epoll",
@@ -339,6 +366,7 @@
         },
         "index": {
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "edgeTriggeredEvent",
           "package": "epoll",
@@ -352,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "errorEvent",
           "package": "epoll",
@@ -361,6 +390,7 @@
         },
         "index": {
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "errorEvent",
           "package": "epoll",
@@ -375,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrees the resources associated with this descriptor.\n Must be called exactly once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "freeDesc",
           "package": "epoll",
@@ -385,6 +416,7 @@
         "index": {
           "description": "Frees the resources associated with this descriptor Must be called exactly once",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "freeDesc",
           "normalized": "Descriptor a-\u003eIO()",
@@ -400,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "hangupEvent",
           "package": "epoll",
@@ -409,6 +442,7 @@
         },
         "index": {
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "hangupEvent",
           "package": "epoll",
@@ -422,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "inEvent",
           "package": "epoll",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "inEvent",
           "package": "epoll",
@@ -445,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModified the event types of the event descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "modify",
           "package": "epoll",
@@ -455,6 +492,7 @@
         "index": {
           "description": "Modified the event types of the event descriptor",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "modify",
           "normalized": "Device-\u003e[EventType]-\u003eDescriptor a-\u003eIO()",
@@ -469,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "oneShotEvent",
           "package": "epoll",
@@ -478,6 +517,7 @@
         },
         "index": {
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "oneShotEvent",
           "package": "epoll",
@@ -491,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "outEvent",
           "package": "epoll",
@@ -500,6 +541,7 @@
         },
         "index": {
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "outEvent",
           "package": "epoll",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "peerCloseEvent",
           "package": "epoll",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "peerCloseEvent",
           "package": "epoll",
@@ -535,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "toDuration",
           "package": "epoll",
@@ -544,6 +589,7 @@
         },
         "index": {
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "toDuration",
           "normalized": "Int-\u003eMaybe Duration",
@@ -559,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "toSize",
           "package": "epoll",
@@ -568,6 +615,7 @@
         },
         "index": {
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "toSize",
           "normalized": "Int-\u003eMaybe Size",
@@ -583,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "urgentEvent",
           "package": "epoll",
@@ -592,6 +641,7 @@
         },
         "index": {
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "urgentEvent",
           "package": "epoll",
@@ -606,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWaits for the specified duration on all event descriptors. Returns the\n list of events that occured.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Base",
           "name": "wait",
           "package": "epoll",
@@ -616,6 +667,7 @@
         "index": {
           "description": "Waits for the specified duration on all event descriptors Returns the list of events that occured",
           "hierarchy": "System Linux Epoll Base",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Base",
           "name": "wait",
           "normalized": "Duration-\u003eDevice-\u003eIO[Event a]",
@@ -631,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBuffer layer above epoll. Implemented using \u003ccode\u003e\u003ca\u003eEventLoop\u003c/a\u003e\u003c/code\u003es.\n The general usage is that first an instance of \u003ccode\u003e\u003ca\u003eRuntime\u003c/a\u003e\u003c/code\u003e is obtained, then\n one creates as many buffers as needed. Once done with a buffer, it has \n to be closed and finally the runtime should be shutdown, which kills \n the event loop, e.g.\n\u003c/p\u003e\u003cpre\u003e\n do r \u003c- createRuntime (fromJust . toSize $ 4096)\n    withIBuffer r stdInput $ \\b -\u003e\n        readBuffer b \u003e\u003e= mapM_ print . take 10 . lines\n    shutdownRuntime r\n\u003c/pre\u003e\u003cp\u003ePlease note that one has to close all buffers before calling shutdown on\n the runtime.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "Buffer",
           "package": "epoll",
@@ -640,6 +693,7 @@
         "index": {
           "description": "Buffer layer above epoll Implemented using EventLoop The general usage is that first an instance of Runtime is obtained then one creates as many buffers as needed Once done with buffer it has to be closed and finally the runtime should be shutdown which kills the event loop e.g do createRuntime fromJust toSize withIBuffer stdInput readBuffer mapM print take lines shutdownRuntime Please note that one has to close all buffers before calling shutdown on the runtime",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "Buffer",
           "package": "epoll",
@@ -654,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer Element type class.\n Any instance of this class can be used as a buffer element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "BufElem",
           "package": "epoll",
@@ -663,6 +718,7 @@
         "index": {
           "description": "Buffer Element type class Any instance of this class can be used as buffer element",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "BufElem",
           "package": "epoll",
@@ -677,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer for reading after \u003ccode\u003e\u003ca\u003einEvent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "IBuffer",
           "package": "epoll",
@@ -686,6 +743,7 @@
         "index": {
           "description": "Buffer for reading after inEvent",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "IBuffer",
           "package": "epoll",
@@ -700,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer for writing after \u003ccode\u003e\u003ca\u003eoutEvent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "OBuffer",
           "package": "epoll",
@@ -709,6 +768,7 @@
         "index": {
           "description": "Buffer for writing after outEvent",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "OBuffer",
           "package": "epoll",
@@ -723,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type for buffer runtime support.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "Runtime",
           "package": "epoll",
@@ -732,6 +793,7 @@
         "index": {
           "description": "Abstract data type for buffer runtime support",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "Runtime",
           "package": "epoll",
@@ -746,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenates multiple elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "beConcat",
           "package": "epoll",
@@ -756,6 +819,7 @@
         "index": {
           "description": "Concatenates multiple elements",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "beConcat",
           "normalized": "[a]-\u003ea",
@@ -772,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns element minus integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "beDrop",
           "package": "epoll",
@@ -782,6 +847,7 @@
         "index": {
           "description": "Returns element minus integer",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "beDrop",
           "normalized": "Int-\u003ea-\u003ea",
@@ -798,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe length of one element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "beLength",
           "package": "epoll",
@@ -808,6 +875,7 @@
         "index": {
           "description": "The length of one element",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "beLength",
           "normalized": "a-\u003eInt",
@@ -824,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads element of given length, returns element and actual length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "beRead",
           "package": "epoll",
@@ -834,6 +903,7 @@
         "index": {
           "description": "Reads element of given length returns element and actual length",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "beRead",
           "normalized": "Fd-\u003eInt-\u003eIO(a,Int)",
@@ -850,6 +920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites element to \u003ccode\u003e\u003ca\u003eFd\u003c/a\u003e\u003c/code\u003e, returns written length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "beWrite",
           "package": "epoll",
@@ -860,6 +931,7 @@
         "index": {
           "description": "Writes element to Fd returns written length",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "beWrite",
           "normalized": "Fd-\u003ea-\u003eIO Int",
@@ -876,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero element, e.g. empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "beZero",
           "package": "epoll",
@@ -886,6 +959,7 @@
         "index": {
           "description": "Zero element e.g empty string",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "beZero",
           "package": "epoll",
@@ -900,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose an IBuffer. Must not be called after \u003ccode\u003e\u003ca\u003eshutdownRuntime\u003c/a\u003e\u003c/code\u003e has been\n invoked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "closeIBuffer",
           "package": "epoll",
@@ -910,6 +985,7 @@
         "index": {
           "description": "Close an IBuffer Must not be called after shutdownRuntime has been invoked",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "closeIBuffer",
           "normalized": "Runtime-\u003eIBuffer a-\u003eIO()",
@@ -926,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose an OBuffer. Must not be called after \u003ccode\u003e\u003ca\u003eshutdownRuntime\u003c/a\u003e\u003c/code\u003e has been\n invoked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "closeOBuffer",
           "package": "epoll",
@@ -936,6 +1013,7 @@
         "index": {
           "description": "Close an OBuffer Must not be called after shutdownRuntime has been invoked",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "closeOBuffer",
           "normalized": "Runtime-\u003eOBuffer a-\u003eIO()",
@@ -952,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate buffer for \u003ccode\u003e\u003ca\u003einEvent\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "createIBuffer",
           "package": "epoll",
@@ -962,6 +1041,7 @@
         "index": {
           "description": "Create buffer for inEvent",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "createIBuffer",
           "normalized": "Runtime-\u003eFd-\u003eIO(IBuffer a)",
@@ -978,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate Buffer for \u003ccode\u003e\u003ca\u003eoutEvent\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "createOBuffer",
           "package": "epoll",
@@ -988,6 +1069,7 @@
         "index": {
           "description": "Create Buffer for outEvent",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "createOBuffer",
           "normalized": "Runtime-\u003eFd-\u003eIO(OBuffer a)",
@@ -1004,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a runtime instance where size denotes the epoll\n device size (cf. \u003ccode\u003e\u003ca\u003ecreate\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "createRuntime",
           "package": "epoll",
@@ -1014,6 +1097,7 @@
         "index": {
           "description": "Creates runtime instance where size denotes the epoll device size cf create",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "createRuntime",
           "normalized": "Size-\u003eIO Runtime",
@@ -1030,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlocks until buffer is emptied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "flushBuffer",
           "package": "epoll",
@@ -1040,6 +1125,7 @@
         "index": {
           "description": "Blocks until buffer is emptied",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "flushBuffer",
           "normalized": "OBuffer a-\u003eIO()",
@@ -1056,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-Blocking read. Returns one chunk if available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "readAvail",
           "package": "epoll",
@@ -1066,6 +1153,7 @@
         "index": {
           "description": "Non-Blocking read Returns one chunk if available",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "readAvail",
           "normalized": "IBuffer a-\u003eIO(Maybe a)",
@@ -1082,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlocking read. Lazily returns all available contents from \u003ccode\u003e\u003ca\u003eIBuffer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "readBuffer",
           "package": "epoll",
@@ -1092,6 +1181,7 @@
         "index": {
           "description": "Blocking read Lazily returns all available contents from IBuffer",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "readBuffer",
           "normalized": "IBuffer a-\u003eIO a",
@@ -1108,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlocking read. Returns one chunk from \u003ccode\u003e\u003ca\u003eIBuffer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "readChunk",
           "package": "epoll",
@@ -1118,6 +1209,7 @@
         "index": {
           "description": "Blocking read Returns one chunk from IBuffer",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "readChunk",
           "normalized": "IBuffer a-\u003eIO a",
@@ -1134,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStops event processing and closes this runtime (and the \n underlying epoll device).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "shutdownRuntime",
           "package": "epoll",
@@ -1144,6 +1237,7 @@
         "index": {
           "description": "Stops event processing and closes this runtime and the underlying epoll device",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "shutdownRuntime",
           "normalized": "Runtime-\u003eIO()",
@@ -1160,6 +1254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException safe wrapper which creates an IBuffer, passes it to the provided\n function and closes it afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "withIBuffer",
           "package": "epoll",
@@ -1170,6 +1265,7 @@
         "index": {
           "description": "Exception safe wrapper which creates an IBuffer passes it to the provided function and closes it afterwards",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "withIBuffer",
           "normalized": "Runtime-\u003eFd-\u003e(IBuffer a-\u003eIO b)-\u003eIO b",
@@ -1186,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException safe wrapper which creates an OBuffer, passes it to the provided\n function and flushes and closes it afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "withOBuffer",
           "package": "epoll",
@@ -1196,6 +1293,7 @@
         "index": {
           "description": "Exception safe wrapper which creates an OBuffer passes it to the provided function and flushes and closes it afterwards",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "withOBuffer",
           "normalized": "Runtime-\u003eFd-\u003e(OBuffer a-\u003eIO b)-\u003eIO b",
@@ -1212,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-Blocking write. Writes value to buffer which will asynchronously be\n written to file descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.Buffer",
           "name": "writeBuffer",
           "package": "epoll",
@@ -1222,6 +1321,7 @@
         "index": {
           "description": "Non-Blocking write Writes value to buffer which will asynchronously be written to file descriptor",
           "hierarchy": "System Linux Epoll Buffer",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.Buffer",
           "name": "writeBuffer",
           "normalized": "OBuffer a-\u003ea-\u003eIO()",
@@ -1238,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEventLoop's can be used to get notified when certain events occur on a file\n descriptor. One can add callback functions for any \u003ccode\u003e\u003ca\u003eEventType\u003c/a\u003e\u003c/code\u003e combination.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "EventLoop",
           "package": "epoll",
@@ -1247,6 +1348,7 @@
         "index": {
           "description": "EventLoop can be used to get notified when certain events occur on file descriptor One can add callback functions for any EventType combination",
           "hierarchy": "System Linux Epoll EventLoop",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "EventLoop",
           "package": "epoll",
@@ -1261,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type holding bookeeping info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "Callback",
           "package": "epoll",
@@ -1270,6 +1373,7 @@
         "index": {
           "description": "Abstract data type holding bookeeping info",
           "hierarchy": "System Linux Epoll EventLoop",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "Callback",
           "package": "epoll",
@@ -1284,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCallback function type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "CallbackFn",
           "package": "epoll",
@@ -1293,6 +1398,7 @@
         "index": {
           "description": "Callback function type",
           "hierarchy": "System Linux Epoll EventLoop",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "CallbackFn",
           "package": "epoll",
@@ -1306,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "Data",
           "package": "epoll",
@@ -1314,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "System Linux Epoll EventLoop",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "Data",
           "package": "epoll",
@@ -1328,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "EventLoop",
           "package": "epoll",
@@ -1337,6 +1446,7 @@
         "index": {
           "description": "Abstract data type",
           "hierarchy": "System Linux Epoll EventLoop",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "EventLoop",
           "package": "epoll",
@@ -1350,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "EventMap",
           "package": "epoll",
@@ -1358,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "System Linux Epoll EventLoop",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "EventMap",
           "package": "epoll",
@@ -1372,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a callback for the given file descriptor to this event loop. The event\n map specifies for each event type which function to call. event types might\n be combined using \u003ccode\u003e\u003ca\u003ecombineEvents\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "addCallback",
           "package": "epoll",
@@ -1382,6 +1495,7 @@
         "index": {
           "description": "Adds callback for the given file descriptor to this event loop The event map specifies for each event type which function to call event types might be combined using combineEvents",
           "hierarchy": "System Linux Epoll EventLoop",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "addCallback",
           "normalized": "EventLoop-\u003eFd-\u003eEventMap-\u003eIO Callback",
@@ -1398,6 +1512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA combination of \u003ccode\u003e\u003ca\u003epeerCloseEvent\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eerrorEvent\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ehangupEvent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "closeEvents",
           "package": "epoll",
@@ -1408,6 +1523,7 @@
         "index": {
           "description": "combination of peerCloseEvent errorEvent hangupEvent",
           "hierarchy": "System Linux Epoll EventLoop",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "closeEvents",
           "package": "epoll",
@@ -1422,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate one event loop which handles up to \u003ccode\u003e\u003ca\u003eSize\u003c/a\u003e\u003c/code\u003e events per call to epoll's\n \u003ccode\u003e\u003ca\u003ewait\u003c/a\u003e\u003c/code\u003e. An event loop runs until \u003ccode\u003e\u003ca\u003estopEventLoop\u003c/a\u003e\u003c/code\u003e is invoked, calling \u003ccode\u003e\u003ca\u003ewait\u003c/a\u003e\u003c/code\u003e\n with a max timeout of 500ms before it waits again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "createEventLoop",
           "package": "epoll",
@@ -1432,6 +1549,7 @@
         "index": {
           "description": "Create one event loop which handles up to Size events per call to epoll wait An event loop runs until stopEventLoop is invoked calling wait with max timeout of ms before it waits again",
           "hierarchy": "System Linux Epoll EventLoop",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "createEventLoop",
           "normalized": "Size-\u003eIO EventLoop",
@@ -1448,6 +1566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn case you use \u003ccode\u003e\u003ca\u003eoneShotEvent\u003c/a\u003e\u003c/code\u003e you can re-enable a callback after the event\n occured. Otherwise no further events will be reported. Cf. epoll(7) for\n details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "reEnableCallback",
           "package": "epoll",
@@ -1458,6 +1577,7 @@
         "index": {
           "description": "In case you use oneShotEvent you can re-enable callback after the event occured Otherwise no further events will be reported Cf epoll for details",
           "hierarchy": "System Linux Epoll EventLoop",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "reEnableCallback",
           "normalized": "Device-\u003eData-\u003eDescriptor Data-\u003eIO()",
@@ -1474,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the callback obtained from \u003ccode\u003e\u003ca\u003eaddCallback\u003c/a\u003e\u003c/code\u003e from this event loop. Note\n that you must not call \u003ccode\u003e\u003ca\u003estopEventLoop\u003c/a\u003e\u003c/code\u003e before invoking this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "removeCallback",
           "package": "epoll",
@@ -1484,6 +1605,7 @@
         "index": {
           "description": "Removes the callback obtained from addCallback from this event loop Note that you must not call stopEventLoop before invoking this function",
           "hierarchy": "System Linux Epoll EventLoop",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "removeCallback",
           "normalized": "EventLoop-\u003eCallback-\u003eIO()",
@@ -1500,6 +1622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerminates the event loop and cleans resources. Note that one can only\n remove callbacks from an eventloop while it is running, so make sure you call\n this function after all \u003ccode\u003e\u003ca\u003eremoveCallback\u003c/a\u003e\u003c/code\u003e calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "stopEventLoop",
           "package": "epoll",
@@ -1510,6 +1633,7 @@
         "index": {
           "description": "Terminates the event loop and cleans resources Note that one can only remove callbacks from an eventloop while it is running so make sure you call this function after all removeCallback calls",
           "hierarchy": "System Linux Epoll EventLoop",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll.EventLoop",
           "name": "stopEventLoop",
           "normalized": "EventLoop-\u003eIO()",
@@ -1526,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRe-exports all the public interfaces of \u003ccode\u003eBase\u003c/code\u003e,\n \u003ccode\u003eBuffer\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eEventLoop\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:16 UTC 2014",
           "module": "System.Linux.Epoll",
           "name": "Epoll",
           "package": "epoll",
@@ -1535,6 +1660,7 @@
         "index": {
           "description": "Re-exports all the public interfaces of Base Buffer and EventLoop",
           "hierarchy": "System Linux Epoll",
+          "indexed": "2014-03-11T18:03:16",
           "module": "System.Linux.Epoll",
           "name": "Epoll",
           "package": "epoll",

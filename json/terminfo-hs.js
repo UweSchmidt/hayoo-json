@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "terminfo-hs"
+        "phrase": "terminfo-hs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThere is an egregious number of capabilities. They are sequestered in\n this module to preserve namespace sanity.\n\u003c/p\u003e\u003cp\u003eFor descriptions of these, consult terminfo(5).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Caps",
           "package": "terminfo-hs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "There is an egregious number of capabilities They are sequestered in this module to preserve namespace sanity For descriptions of these consult terminfo",
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Caps",
           "package": "terminfo-hs",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "BoolTermCap",
           "package": "terminfo-hs",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "BoolTermCap",
           "package": "terminfo-hs",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "NumTermCap",
           "package": "terminfo-hs",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "NumTermCap",
           "package": "terminfo-hs",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "StrTermCap",
           "package": "terminfo-hs",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "StrTermCap",
           "package": "terminfo-hs",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AcsBtee",
           "package": "terminfo-hs",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AcsBtee",
           "package": "terminfo-hs",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AcsChars",
           "package": "terminfo-hs",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AcsChars",
           "package": "terminfo-hs",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AcsHline",
           "package": "terminfo-hs",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AcsHline",
           "package": "terminfo-hs",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AcsLlcorner",
           "package": "terminfo-hs",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AcsLlcorner",
           "package": "terminfo-hs",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AcsLrcorner",
           "package": "terminfo-hs",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AcsLrcorner",
           "package": "terminfo-hs",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AcsLtee",
           "package": "terminfo-hs",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AcsLtee",
           "package": "terminfo-hs",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AcsPlus",
           "package": "terminfo-hs",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AcsPlus",
           "package": "terminfo-hs",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AcsRtee",
           "package": "terminfo-hs",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AcsRtee",
           "package": "terminfo-hs",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AcsTtee",
           "package": "terminfo-hs",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AcsTtee",
           "package": "terminfo-hs",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AcsUlcorner",
           "package": "terminfo-hs",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AcsUlcorner",
           "package": "terminfo-hs",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AcsUrcorner",
           "package": "terminfo-hs",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AcsUrcorner",
           "package": "terminfo-hs",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AcsVline",
           "package": "terminfo-hs",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AcsVline",
           "package": "terminfo-hs",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AltScancodeEsc",
           "package": "terminfo-hs",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AltScancodeEsc",
           "package": "terminfo-hs",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ArrowKeyMap",
           "package": "terminfo-hs",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ArrowKeyMap",
           "package": "terminfo-hs",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AutoLeftMargin",
           "package": "terminfo-hs",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AutoLeftMargin",
           "package": "terminfo-hs",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "AutoRightMargin",
           "package": "terminfo-hs",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "AutoRightMargin",
           "package": "terminfo-hs",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "BackColorErase",
           "package": "terminfo-hs",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "BackColorErase",
           "package": "terminfo-hs",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "BackTab",
           "package": "terminfo-hs",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "BackTab",
           "package": "terminfo-hs",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "BackspaceDelay",
           "package": "terminfo-hs",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "BackspaceDelay",
           "package": "terminfo-hs",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "BackspaceIfNotBs",
           "package": "terminfo-hs",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "BackspaceIfNotBs",
           "package": "terminfo-hs",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "BackspacesWithBs",
           "package": "terminfo-hs",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "BackspacesWithBs",
           "package": "terminfo-hs",
@@ -566,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Bell",
           "package": "terminfo-hs",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Bell",
           "package": "terminfo-hs",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "BitImageCarriageReturn",
           "package": "terminfo-hs",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "BitImageCarriageReturn",
           "package": "terminfo-hs",
@@ -610,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "BitImageEntwining",
           "package": "terminfo-hs",
@@ -619,6 +674,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "BitImageEntwining",
           "package": "terminfo-hs",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "BitImageNewline",
           "package": "terminfo-hs",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "BitImageNewline",
           "package": "terminfo-hs",
@@ -654,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "BitImageRepeat",
           "package": "terminfo-hs",
@@ -663,6 +722,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "BitImageRepeat",
           "package": "terminfo-hs",
@@ -676,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "BitImageType",
           "package": "terminfo-hs",
@@ -685,6 +746,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "BitImageType",
           "package": "terminfo-hs",
@@ -698,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "BoxChars1",
           "package": "terminfo-hs",
@@ -707,6 +770,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "BoxChars1",
           "package": "terminfo-hs",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "BufferCapacity",
           "package": "terminfo-hs",
@@ -729,6 +794,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "BufferCapacity",
           "package": "terminfo-hs",
@@ -742,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Buttons",
           "package": "terminfo-hs",
@@ -751,6 +818,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Buttons",
           "package": "terminfo-hs",
@@ -764,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CanChange",
           "package": "terminfo-hs",
@@ -773,6 +842,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CanChange",
           "package": "terminfo-hs",
@@ -786,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CarriageReturn",
           "package": "terminfo-hs",
@@ -795,6 +866,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CarriageReturn",
           "package": "terminfo-hs",
@@ -808,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CarriageReturnDelay",
           "package": "terminfo-hs",
@@ -817,6 +890,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CarriageReturnDelay",
           "package": "terminfo-hs",
@@ -830,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CeolStandoutGlitch",
           "package": "terminfo-hs",
@@ -839,6 +914,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CeolStandoutGlitch",
           "package": "terminfo-hs",
@@ -852,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ChangeCharPitch",
           "package": "terminfo-hs",
@@ -861,6 +938,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ChangeCharPitch",
           "package": "terminfo-hs",
@@ -874,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ChangeLinePitch",
           "package": "terminfo-hs",
@@ -883,6 +962,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ChangeLinePitch",
           "package": "terminfo-hs",
@@ -896,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ChangeResHorz",
           "package": "terminfo-hs",
@@ -905,6 +986,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ChangeResHorz",
           "package": "terminfo-hs",
@@ -918,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ChangeResVert",
           "package": "terminfo-hs",
@@ -927,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ChangeResVert",
           "package": "terminfo-hs",
@@ -940,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ChangeScrollRegion",
           "package": "terminfo-hs",
@@ -949,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ChangeScrollRegion",
           "package": "terminfo-hs",
@@ -962,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CharPadding",
           "package": "terminfo-hs",
@@ -971,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CharPadding",
           "package": "terminfo-hs",
@@ -984,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CharSetNames",
           "package": "terminfo-hs",
@@ -993,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CharSetNames",
           "package": "terminfo-hs",
@@ -1006,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ClearAllTabs",
           "package": "terminfo-hs",
@@ -1015,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ClearAllTabs",
           "package": "terminfo-hs",
@@ -1028,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ClearMargins",
           "package": "terminfo-hs",
@@ -1037,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ClearMargins",
           "package": "terminfo-hs",
@@ -1050,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ClearScreen",
           "package": "terminfo-hs",
@@ -1059,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ClearScreen",
           "package": "terminfo-hs",
@@ -1072,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ClrBol",
           "package": "terminfo-hs",
@@ -1081,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ClrBol",
           "package": "terminfo-hs",
@@ -1094,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ClrEol",
           "package": "terminfo-hs",
@@ -1103,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ClrEol",
           "package": "terminfo-hs",
@@ -1116,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ClrEos",
           "package": "terminfo-hs",
@@ -1125,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ClrEos",
           "package": "terminfo-hs",
@@ -1138,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CodeSetInit",
           "package": "terminfo-hs",
@@ -1147,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CodeSetInit",
           "package": "terminfo-hs",
@@ -1160,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ColAddrGlitch",
           "package": "terminfo-hs",
@@ -1169,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ColAddrGlitch",
           "package": "terminfo-hs",
@@ -1182,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ColorNames",
           "package": "terminfo-hs",
@@ -1191,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ColorNames",
           "package": "terminfo-hs",
@@ -1204,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ColumnAddress",
           "package": "terminfo-hs",
@@ -1213,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ColumnAddress",
           "package": "terminfo-hs",
@@ -1226,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Columns",
           "package": "terminfo-hs",
@@ -1235,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Columns",
           "package": "terminfo-hs",
@@ -1248,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CommandCharacter",
           "package": "terminfo-hs",
@@ -1257,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CommandCharacter",
           "package": "terminfo-hs",
@@ -1270,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CpiChangesRes",
           "package": "terminfo-hs",
@@ -1279,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CpiChangesRes",
           "package": "terminfo-hs",
@@ -1292,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CrCancelsMicroMode",
           "package": "terminfo-hs",
@@ -1301,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CrCancelsMicroMode",
           "package": "terminfo-hs",
@@ -1314,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CreateWindow",
           "package": "terminfo-hs",
@@ -1323,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CreateWindow",
           "package": "terminfo-hs",
@@ -1336,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CrtNoScrolling",
           "package": "terminfo-hs",
@@ -1345,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CrtNoScrolling",
           "package": "terminfo-hs",
@@ -1358,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CursorAddress",
           "package": "terminfo-hs",
@@ -1367,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CursorAddress",
           "package": "terminfo-hs",
@@ -1380,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CursorDown",
           "package": "terminfo-hs",
@@ -1389,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CursorDown",
           "package": "terminfo-hs",
@@ -1402,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CursorHome",
           "package": "terminfo-hs",
@@ -1411,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CursorHome",
           "package": "terminfo-hs",
@@ -1424,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CursorInvisible",
           "package": "terminfo-hs",
@@ -1433,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CursorInvisible",
           "package": "terminfo-hs",
@@ -1446,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CursorLeft",
           "package": "terminfo-hs",
@@ -1455,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CursorLeft",
           "package": "terminfo-hs",
@@ -1468,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CursorMemAddress",
           "package": "terminfo-hs",
@@ -1477,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CursorMemAddress",
           "package": "terminfo-hs",
@@ -1490,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CursorNormal",
           "package": "terminfo-hs",
@@ -1499,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CursorNormal",
           "package": "terminfo-hs",
@@ -1512,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CursorRight",
           "package": "terminfo-hs",
@@ -1521,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CursorRight",
           "package": "terminfo-hs",
@@ -1534,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CursorToLl",
           "package": "terminfo-hs",
@@ -1543,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CursorToLl",
           "package": "terminfo-hs",
@@ -1556,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CursorUp",
           "package": "terminfo-hs",
@@ -1565,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CursorUp",
           "package": "terminfo-hs",
@@ -1578,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "CursorVisible",
           "package": "terminfo-hs",
@@ -1587,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "CursorVisible",
           "package": "terminfo-hs",
@@ -1600,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "DefineBitImageRegion",
           "package": "terminfo-hs",
@@ -1609,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "DefineBitImageRegion",
           "package": "terminfo-hs",
@@ -1622,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "DefineChar",
           "package": "terminfo-hs",
@@ -1631,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "DefineChar",
           "package": "terminfo-hs",
@@ -1644,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "DeleteCharacter",
           "package": "terminfo-hs",
@@ -1653,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "DeleteCharacter",
           "package": "terminfo-hs",
@@ -1666,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "DeleteLine",
           "package": "terminfo-hs",
@@ -1675,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "DeleteLine",
           "package": "terminfo-hs",
@@ -1688,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "DestTabsMagicSmso",
           "package": "terminfo-hs",
@@ -1697,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "DestTabsMagicSmso",
           "package": "terminfo-hs",
@@ -1710,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "DeviceType",
           "package": "terminfo-hs",
@@ -1719,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "DeviceType",
           "package": "terminfo-hs",
@@ -1732,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "DialPhone",
           "package": "terminfo-hs",
@@ -1741,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "DialPhone",
           "package": "terminfo-hs",
@@ -1754,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "DisStatusLine",
           "package": "terminfo-hs",
@@ -1763,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "DisStatusLine",
           "package": "terminfo-hs",
@@ -1776,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "DisplayClock",
           "package": "terminfo-hs",
@@ -1785,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "DisplayClock",
           "package": "terminfo-hs",
@@ -1798,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "DisplayPcChar",
           "package": "terminfo-hs",
@@ -1807,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "DisplayPcChar",
           "package": "terminfo-hs",
@@ -1820,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "DotHorzSpacing",
           "package": "terminfo-hs",
@@ -1829,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "DotHorzSpacing",
           "package": "terminfo-hs",
@@ -1842,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "DotVertSpacing",
           "package": "terminfo-hs",
@@ -1851,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "DotVertSpacing",
           "package": "terminfo-hs",
@@ -1864,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "DownHalfLine",
           "package": "terminfo-hs",
@@ -1873,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "DownHalfLine",
           "package": "terminfo-hs",
@@ -1886,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EatNewlineGlitch",
           "package": "terminfo-hs",
@@ -1895,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EatNewlineGlitch",
           "package": "terminfo-hs",
@@ -1908,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnaAcs",
           "package": "terminfo-hs",
@@ -1917,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnaAcs",
           "package": "terminfo-hs",
@@ -1930,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EndBitImageRegion",
           "package": "terminfo-hs",
@@ -1939,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EndBitImageRegion",
           "package": "terminfo-hs",
@@ -1952,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterAltCharsetMode",
           "package": "terminfo-hs",
@@ -1961,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterAltCharsetMode",
           "package": "terminfo-hs",
@@ -1974,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterAmMode",
           "package": "terminfo-hs",
@@ -1983,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterAmMode",
           "package": "terminfo-hs",
@@ -1996,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterBlinkMode",
           "package": "terminfo-hs",
@@ -2005,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterBlinkMode",
           "package": "terminfo-hs",
@@ -2018,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterBoldMode",
           "package": "terminfo-hs",
@@ -2027,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterBoldMode",
           "package": "terminfo-hs",
@@ -2040,6 +2224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterCaMode",
           "package": "terminfo-hs",
@@ -2049,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterCaMode",
           "package": "terminfo-hs",
@@ -2062,6 +2248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterDeleteMode",
           "package": "terminfo-hs",
@@ -2071,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterDeleteMode",
           "package": "terminfo-hs",
@@ -2084,6 +2272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterDimMode",
           "package": "terminfo-hs",
@@ -2093,6 +2282,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterDimMode",
           "package": "terminfo-hs",
@@ -2106,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterDoublewideMode",
           "package": "terminfo-hs",
@@ -2115,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterDoublewideMode",
           "package": "terminfo-hs",
@@ -2128,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterDraftQuality",
           "package": "terminfo-hs",
@@ -2137,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterDraftQuality",
           "package": "terminfo-hs",
@@ -2150,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterHorizontalHlMode",
           "package": "terminfo-hs",
@@ -2159,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterHorizontalHlMode",
           "package": "terminfo-hs",
@@ -2172,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterInsertMode",
           "package": "terminfo-hs",
@@ -2181,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterInsertMode",
           "package": "terminfo-hs",
@@ -2194,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterItalicsMode",
           "package": "terminfo-hs",
@@ -2203,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterItalicsMode",
           "package": "terminfo-hs",
@@ -2216,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterLeftHlMode",
           "package": "terminfo-hs",
@@ -2225,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterLeftHlMode",
           "package": "terminfo-hs",
@@ -2238,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterLeftwardMode",
           "package": "terminfo-hs",
@@ -2247,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterLeftwardMode",
           "package": "terminfo-hs",
@@ -2260,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterLowHlMode",
           "package": "terminfo-hs",
@@ -2269,6 +2474,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterLowHlMode",
           "package": "terminfo-hs",
@@ -2282,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterMicroMode",
           "package": "terminfo-hs",
@@ -2291,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterMicroMode",
           "package": "terminfo-hs",
@@ -2304,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterNearLetterQuality",
           "package": "terminfo-hs",
@@ -2313,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterNearLetterQuality",
           "package": "terminfo-hs",
@@ -2326,6 +2536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterNormalQuality",
           "package": "terminfo-hs",
@@ -2335,6 +2546,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterNormalQuality",
           "package": "terminfo-hs",
@@ -2348,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterPcCharsetMode",
           "package": "terminfo-hs",
@@ -2357,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterPcCharsetMode",
           "package": "terminfo-hs",
@@ -2370,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterProtectedMode",
           "package": "terminfo-hs",
@@ -2379,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterProtectedMode",
           "package": "terminfo-hs",
@@ -2392,6 +2608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterReverseMode",
           "package": "terminfo-hs",
@@ -2401,6 +2618,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterReverseMode",
           "package": "terminfo-hs",
@@ -2414,6 +2632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterRightHlMode",
           "package": "terminfo-hs",
@@ -2423,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterRightHlMode",
           "package": "terminfo-hs",
@@ -2436,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterScancodeMode",
           "package": "terminfo-hs",
@@ -2445,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterScancodeMode",
           "package": "terminfo-hs",
@@ -2458,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterSecureMode",
           "package": "terminfo-hs",
@@ -2467,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterSecureMode",
           "package": "terminfo-hs",
@@ -2480,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterShadowMode",
           "package": "terminfo-hs",
@@ -2489,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterShadowMode",
           "package": "terminfo-hs",
@@ -2502,6 +2728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterStandoutMode",
           "package": "terminfo-hs",
@@ -2511,6 +2738,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterStandoutMode",
           "package": "terminfo-hs",
@@ -2524,6 +2752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterSubscriptMode",
           "package": "terminfo-hs",
@@ -2533,6 +2762,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterSubscriptMode",
           "package": "terminfo-hs",
@@ -2546,6 +2776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterSuperscriptMode",
           "package": "terminfo-hs",
@@ -2555,6 +2786,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterSuperscriptMode",
           "package": "terminfo-hs",
@@ -2568,6 +2800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterTopHlMode",
           "package": "terminfo-hs",
@@ -2577,6 +2810,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterTopHlMode",
           "package": "terminfo-hs",
@@ -2590,6 +2824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterUnderlineMode",
           "package": "terminfo-hs",
@@ -2599,6 +2834,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterUnderlineMode",
           "package": "terminfo-hs",
@@ -2612,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterUpwardMode",
           "package": "terminfo-hs",
@@ -2621,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterUpwardMode",
           "package": "terminfo-hs",
@@ -2634,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterVerticalHlMode",
           "package": "terminfo-hs",
@@ -2643,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterVerticalHlMode",
           "package": "terminfo-hs",
@@ -2656,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EnterXonMode",
           "package": "terminfo-hs",
@@ -2665,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EnterXonMode",
           "package": "terminfo-hs",
@@ -2678,6 +2920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EraseChars",
           "package": "terminfo-hs",
@@ -2687,6 +2930,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EraseChars",
           "package": "terminfo-hs",
@@ -2700,6 +2944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "EraseOverstrike",
           "package": "terminfo-hs",
@@ -2709,6 +2954,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "EraseOverstrike",
           "package": "terminfo-hs",
@@ -2722,6 +2968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitAltCharsetMode",
           "package": "terminfo-hs",
@@ -2731,6 +2978,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitAltCharsetMode",
           "package": "terminfo-hs",
@@ -2744,6 +2992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitAmMode",
           "package": "terminfo-hs",
@@ -2753,6 +3002,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitAmMode",
           "package": "terminfo-hs",
@@ -2766,6 +3016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitAttributeMode",
           "package": "terminfo-hs",
@@ -2775,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitAttributeMode",
           "package": "terminfo-hs",
@@ -2788,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitCaMode",
           "package": "terminfo-hs",
@@ -2797,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitCaMode",
           "package": "terminfo-hs",
@@ -2810,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitDeleteMode",
           "package": "terminfo-hs",
@@ -2819,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitDeleteMode",
           "package": "terminfo-hs",
@@ -2832,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitDoublewideMode",
           "package": "terminfo-hs",
@@ -2841,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitDoublewideMode",
           "package": "terminfo-hs",
@@ -2854,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitInsertMode",
           "package": "terminfo-hs",
@@ -2863,6 +3122,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitInsertMode",
           "package": "terminfo-hs",
@@ -2876,6 +3136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitItalicsMode",
           "package": "terminfo-hs",
@@ -2885,6 +3146,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitItalicsMode",
           "package": "terminfo-hs",
@@ -2898,6 +3160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitLeftwardMode",
           "package": "terminfo-hs",
@@ -2907,6 +3170,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitLeftwardMode",
           "package": "terminfo-hs",
@@ -2920,6 +3184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitMicroMode",
           "package": "terminfo-hs",
@@ -2929,6 +3194,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitMicroMode",
           "package": "terminfo-hs",
@@ -2942,6 +3208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitPcCharsetMode",
           "package": "terminfo-hs",
@@ -2951,6 +3218,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitPcCharsetMode",
           "package": "terminfo-hs",
@@ -2964,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitScancodeMode",
           "package": "terminfo-hs",
@@ -2973,6 +3242,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitScancodeMode",
           "package": "terminfo-hs",
@@ -2986,6 +3256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitShadowMode",
           "package": "terminfo-hs",
@@ -2995,6 +3266,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitShadowMode",
           "package": "terminfo-hs",
@@ -3008,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitStandoutMode",
           "package": "terminfo-hs",
@@ -3017,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitStandoutMode",
           "package": "terminfo-hs",
@@ -3030,6 +3304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitSubscriptMode",
           "package": "terminfo-hs",
@@ -3039,6 +3314,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitSubscriptMode",
           "package": "terminfo-hs",
@@ -3052,6 +3328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitSuperscriptMode",
           "package": "terminfo-hs",
@@ -3061,6 +3338,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitSuperscriptMode",
           "package": "terminfo-hs",
@@ -3074,6 +3352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitUnderlineMode",
           "package": "terminfo-hs",
@@ -3083,6 +3362,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitUnderlineMode",
           "package": "terminfo-hs",
@@ -3096,6 +3376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitUpwardMode",
           "package": "terminfo-hs",
@@ -3105,6 +3386,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitUpwardMode",
           "package": "terminfo-hs",
@@ -3118,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ExitXonMode",
           "package": "terminfo-hs",
@@ -3127,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ExitXonMode",
           "package": "terminfo-hs",
@@ -3140,6 +3424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "FixedPause",
           "package": "terminfo-hs",
@@ -3149,6 +3434,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "FixedPause",
           "package": "terminfo-hs",
@@ -3162,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "FlashHook",
           "package": "terminfo-hs",
@@ -3171,6 +3458,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "FlashHook",
           "package": "terminfo-hs",
@@ -3184,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "FlashScreen",
           "package": "terminfo-hs",
@@ -3193,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "FlashScreen",
           "package": "terminfo-hs",
@@ -3206,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "FormFeed",
           "package": "terminfo-hs",
@@ -3215,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "FormFeed",
           "package": "terminfo-hs",
@@ -3228,6 +3520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "FromStatusLine",
           "package": "terminfo-hs",
@@ -3237,6 +3530,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "FromStatusLine",
           "package": "terminfo-hs",
@@ -3250,6 +3544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "GenericType",
           "package": "terminfo-hs",
@@ -3259,6 +3554,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "GenericType",
           "package": "terminfo-hs",
@@ -3272,6 +3568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "GetMouse",
           "package": "terminfo-hs",
@@ -3281,6 +3578,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "GetMouse",
           "package": "terminfo-hs",
@@ -3294,6 +3592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "GnuHasMetaKey",
           "package": "terminfo-hs",
@@ -3303,6 +3602,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "GnuHasMetaKey",
           "package": "terminfo-hs",
@@ -3316,6 +3616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "GotoWindow",
           "package": "terminfo-hs",
@@ -3325,6 +3626,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "GotoWindow",
           "package": "terminfo-hs",
@@ -3338,6 +3640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Hangup",
           "package": "terminfo-hs",
@@ -3347,6 +3650,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Hangup",
           "package": "terminfo-hs",
@@ -3360,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "HardCopy",
           "package": "terminfo-hs",
@@ -3369,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "HardCopy",
           "package": "terminfo-hs",
@@ -3382,6 +3688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "HardCursor",
           "package": "terminfo-hs",
@@ -3391,6 +3698,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "HardCursor",
           "package": "terminfo-hs",
@@ -3404,6 +3712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "HasHardwareTabs",
           "package": "terminfo-hs",
@@ -3413,6 +3722,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "HasHardwareTabs",
           "package": "terminfo-hs",
@@ -3426,6 +3736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "HasMetaKey",
           "package": "terminfo-hs",
@@ -3435,6 +3746,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "HasMetaKey",
           "package": "terminfo-hs",
@@ -3448,6 +3760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "HasPrintWheel",
           "package": "terminfo-hs",
@@ -3457,6 +3770,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "HasPrintWheel",
           "package": "terminfo-hs",
@@ -3470,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "HasStatusLine",
           "package": "terminfo-hs",
@@ -3479,6 +3794,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "HasStatusLine",
           "package": "terminfo-hs",
@@ -3492,6 +3808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "HorizontalTabDelay",
           "package": "terminfo-hs",
@@ -3501,6 +3818,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "HorizontalTabDelay",
           "package": "terminfo-hs",
@@ -3514,6 +3832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "HueLightnessSaturation",
           "package": "terminfo-hs",
@@ -3523,6 +3842,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "HueLightnessSaturation",
           "package": "terminfo-hs",
@@ -3536,6 +3856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Init1string",
           "package": "terminfo-hs",
@@ -3545,6 +3866,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Init1string",
           "package": "terminfo-hs",
@@ -3558,6 +3880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Init2string",
           "package": "terminfo-hs",
@@ -3567,6 +3890,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Init2string",
           "package": "terminfo-hs",
@@ -3580,6 +3904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Init3string",
           "package": "terminfo-hs",
@@ -3589,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Init3string",
           "package": "terminfo-hs",
@@ -3602,6 +3928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "InitFile",
           "package": "terminfo-hs",
@@ -3611,6 +3938,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "InitFile",
           "package": "terminfo-hs",
@@ -3624,6 +3952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "InitProg",
           "package": "terminfo-hs",
@@ -3633,6 +3962,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "InitProg",
           "package": "terminfo-hs",
@@ -3646,6 +3976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "InitTabs",
           "package": "terminfo-hs",
@@ -3655,6 +3986,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "InitTabs",
           "package": "terminfo-hs",
@@ -3668,6 +4000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "InitializeColor",
           "package": "terminfo-hs",
@@ -3677,6 +4010,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "InitializeColor",
           "package": "terminfo-hs",
@@ -3690,6 +4024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "InitializePair",
           "package": "terminfo-hs",
@@ -3699,6 +4034,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "InitializePair",
           "package": "terminfo-hs",
@@ -3712,6 +4048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "InsertCharacter",
           "package": "terminfo-hs",
@@ -3721,6 +4058,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "InsertCharacter",
           "package": "terminfo-hs",
@@ -3734,6 +4072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "InsertLine",
           "package": "terminfo-hs",
@@ -3743,6 +4082,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "InsertLine",
           "package": "terminfo-hs",
@@ -3756,6 +4096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "InsertNullGlitch",
           "package": "terminfo-hs",
@@ -3765,6 +4106,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "InsertNullGlitch",
           "package": "terminfo-hs",
@@ -3778,6 +4120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "InsertPadding",
           "package": "terminfo-hs",
@@ -3787,6 +4130,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "InsertPadding",
           "package": "terminfo-hs",
@@ -3800,6 +4144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyA1",
           "package": "terminfo-hs",
@@ -3809,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyA1",
           "package": "terminfo-hs",
@@ -3822,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyA3",
           "package": "terminfo-hs",
@@ -3831,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyA3",
           "package": "terminfo-hs",
@@ -3844,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyB2",
           "package": "terminfo-hs",
@@ -3853,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyB2",
           "package": "terminfo-hs",
@@ -3866,6 +4216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyBackspace",
           "package": "terminfo-hs",
@@ -3875,6 +4226,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyBackspace",
           "package": "terminfo-hs",
@@ -3888,6 +4240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyBeg",
           "package": "terminfo-hs",
@@ -3897,6 +4250,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyBeg",
           "package": "terminfo-hs",
@@ -3910,6 +4264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyBtab",
           "package": "terminfo-hs",
@@ -3919,6 +4274,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyBtab",
           "package": "terminfo-hs",
@@ -3932,6 +4288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyC1",
           "package": "terminfo-hs",
@@ -3941,6 +4298,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyC1",
           "package": "terminfo-hs",
@@ -3954,6 +4312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyC3",
           "package": "terminfo-hs",
@@ -3963,6 +4322,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyC3",
           "package": "terminfo-hs",
@@ -3976,6 +4336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyCancel",
           "package": "terminfo-hs",
@@ -3985,6 +4346,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyCancel",
           "package": "terminfo-hs",
@@ -3998,6 +4360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyCatab",
           "package": "terminfo-hs",
@@ -4007,6 +4370,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyCatab",
           "package": "terminfo-hs",
@@ -4020,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyClear",
           "package": "terminfo-hs",
@@ -4029,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyClear",
           "package": "terminfo-hs",
@@ -4042,6 +4408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyClose",
           "package": "terminfo-hs",
@@ -4051,6 +4418,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyClose",
           "package": "terminfo-hs",
@@ -4064,6 +4432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyCommand",
           "package": "terminfo-hs",
@@ -4073,6 +4442,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyCommand",
           "package": "terminfo-hs",
@@ -4086,6 +4456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyCopy",
           "package": "terminfo-hs",
@@ -4095,6 +4466,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyCopy",
           "package": "terminfo-hs",
@@ -4108,6 +4480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyCreate",
           "package": "terminfo-hs",
@@ -4117,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyCreate",
           "package": "terminfo-hs",
@@ -4130,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyCtab",
           "package": "terminfo-hs",
@@ -4139,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyCtab",
           "package": "terminfo-hs",
@@ -4152,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyDc",
           "package": "terminfo-hs",
@@ -4161,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyDc",
           "package": "terminfo-hs",
@@ -4174,6 +4552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyDl",
           "package": "terminfo-hs",
@@ -4183,6 +4562,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyDl",
           "package": "terminfo-hs",
@@ -4196,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyDown",
           "package": "terminfo-hs",
@@ -4205,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyDown",
           "package": "terminfo-hs",
@@ -4218,6 +4600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyEic",
           "package": "terminfo-hs",
@@ -4227,6 +4610,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyEic",
           "package": "terminfo-hs",
@@ -4240,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyEnd",
           "package": "terminfo-hs",
@@ -4249,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyEnd",
           "package": "terminfo-hs",
@@ -4262,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyEnter",
           "package": "terminfo-hs",
@@ -4271,6 +4658,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyEnter",
           "package": "terminfo-hs",
@@ -4284,6 +4672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyEol",
           "package": "terminfo-hs",
@@ -4293,6 +4682,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyEol",
           "package": "terminfo-hs",
@@ -4306,6 +4696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyEos",
           "package": "terminfo-hs",
@@ -4315,6 +4706,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyEos",
           "package": "terminfo-hs",
@@ -4328,6 +4720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyExit",
           "package": "terminfo-hs",
@@ -4337,6 +4730,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyExit",
           "package": "terminfo-hs",
@@ -4350,6 +4744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF0",
           "package": "terminfo-hs",
@@ -4359,6 +4754,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF0",
           "package": "terminfo-hs",
@@ -4372,6 +4768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF1",
           "package": "terminfo-hs",
@@ -4381,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF1",
           "package": "terminfo-hs",
@@ -4394,6 +4792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF10",
           "package": "terminfo-hs",
@@ -4403,6 +4802,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF10",
           "package": "terminfo-hs",
@@ -4416,6 +4816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF11",
           "package": "terminfo-hs",
@@ -4425,6 +4826,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF11",
           "package": "terminfo-hs",
@@ -4438,6 +4840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF12",
           "package": "terminfo-hs",
@@ -4447,6 +4850,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF12",
           "package": "terminfo-hs",
@@ -4460,6 +4864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF13",
           "package": "terminfo-hs",
@@ -4469,6 +4874,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF13",
           "package": "terminfo-hs",
@@ -4482,6 +4888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF14",
           "package": "terminfo-hs",
@@ -4491,6 +4898,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF14",
           "package": "terminfo-hs",
@@ -4504,6 +4912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF15",
           "package": "terminfo-hs",
@@ -4513,6 +4922,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF15",
           "package": "terminfo-hs",
@@ -4526,6 +4936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF16",
           "package": "terminfo-hs",
@@ -4535,6 +4946,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF16",
           "package": "terminfo-hs",
@@ -4548,6 +4960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF17",
           "package": "terminfo-hs",
@@ -4557,6 +4970,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF17",
           "package": "terminfo-hs",
@@ -4570,6 +4984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF18",
           "package": "terminfo-hs",
@@ -4579,6 +4994,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF18",
           "package": "terminfo-hs",
@@ -4592,6 +5008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF19",
           "package": "terminfo-hs",
@@ -4601,6 +5018,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF19",
           "package": "terminfo-hs",
@@ -4614,6 +5032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF2",
           "package": "terminfo-hs",
@@ -4623,6 +5042,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF2",
           "package": "terminfo-hs",
@@ -4636,6 +5056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF20",
           "package": "terminfo-hs",
@@ -4645,6 +5066,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF20",
           "package": "terminfo-hs",
@@ -4658,6 +5080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF21",
           "package": "terminfo-hs",
@@ -4667,6 +5090,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF21",
           "package": "terminfo-hs",
@@ -4680,6 +5104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF22",
           "package": "terminfo-hs",
@@ -4689,6 +5114,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF22",
           "package": "terminfo-hs",
@@ -4702,6 +5128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF23",
           "package": "terminfo-hs",
@@ -4711,6 +5138,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF23",
           "package": "terminfo-hs",
@@ -4724,6 +5152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF24",
           "package": "terminfo-hs",
@@ -4733,6 +5162,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF24",
           "package": "terminfo-hs",
@@ -4746,6 +5176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF25",
           "package": "terminfo-hs",
@@ -4755,6 +5186,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF25",
           "package": "terminfo-hs",
@@ -4768,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF26",
           "package": "terminfo-hs",
@@ -4777,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF26",
           "package": "terminfo-hs",
@@ -4790,6 +5224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF27",
           "package": "terminfo-hs",
@@ -4799,6 +5234,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF27",
           "package": "terminfo-hs",
@@ -4812,6 +5248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF28",
           "package": "terminfo-hs",
@@ -4821,6 +5258,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF28",
           "package": "terminfo-hs",
@@ -4834,6 +5272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF29",
           "package": "terminfo-hs",
@@ -4843,6 +5282,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF29",
           "package": "terminfo-hs",
@@ -4856,6 +5296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF3",
           "package": "terminfo-hs",
@@ -4865,6 +5306,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF3",
           "package": "terminfo-hs",
@@ -4878,6 +5320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF30",
           "package": "terminfo-hs",
@@ -4887,6 +5330,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF30",
           "package": "terminfo-hs",
@@ -4900,6 +5344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF31",
           "package": "terminfo-hs",
@@ -4909,6 +5354,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF31",
           "package": "terminfo-hs",
@@ -4922,6 +5368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF32",
           "package": "terminfo-hs",
@@ -4931,6 +5378,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF32",
           "package": "terminfo-hs",
@@ -4944,6 +5392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF33",
           "package": "terminfo-hs",
@@ -4953,6 +5402,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF33",
           "package": "terminfo-hs",
@@ -4966,6 +5416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF34",
           "package": "terminfo-hs",
@@ -4975,6 +5426,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF34",
           "package": "terminfo-hs",
@@ -4988,6 +5440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF35",
           "package": "terminfo-hs",
@@ -4997,6 +5450,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF35",
           "package": "terminfo-hs",
@@ -5010,6 +5464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF36",
           "package": "terminfo-hs",
@@ -5019,6 +5474,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF36",
           "package": "terminfo-hs",
@@ -5032,6 +5488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF37",
           "package": "terminfo-hs",
@@ -5041,6 +5498,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF37",
           "package": "terminfo-hs",
@@ -5054,6 +5512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF38",
           "package": "terminfo-hs",
@@ -5063,6 +5522,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF38",
           "package": "terminfo-hs",
@@ -5076,6 +5536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF39",
           "package": "terminfo-hs",
@@ -5085,6 +5546,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF39",
           "package": "terminfo-hs",
@@ -5098,6 +5560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF4",
           "package": "terminfo-hs",
@@ -5107,6 +5570,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF4",
           "package": "terminfo-hs",
@@ -5120,6 +5584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF40",
           "package": "terminfo-hs",
@@ -5129,6 +5594,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF40",
           "package": "terminfo-hs",
@@ -5142,6 +5608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF41",
           "package": "terminfo-hs",
@@ -5151,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF41",
           "package": "terminfo-hs",
@@ -5164,6 +5632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF42",
           "package": "terminfo-hs",
@@ -5173,6 +5642,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF42",
           "package": "terminfo-hs",
@@ -5186,6 +5656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF43",
           "package": "terminfo-hs",
@@ -5195,6 +5666,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF43",
           "package": "terminfo-hs",
@@ -5208,6 +5680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF44",
           "package": "terminfo-hs",
@@ -5217,6 +5690,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF44",
           "package": "terminfo-hs",
@@ -5230,6 +5704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF45",
           "package": "terminfo-hs",
@@ -5239,6 +5714,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF45",
           "package": "terminfo-hs",
@@ -5252,6 +5728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF46",
           "package": "terminfo-hs",
@@ -5261,6 +5738,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF46",
           "package": "terminfo-hs",
@@ -5274,6 +5752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF47",
           "package": "terminfo-hs",
@@ -5283,6 +5762,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF47",
           "package": "terminfo-hs",
@@ -5296,6 +5776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF48",
           "package": "terminfo-hs",
@@ -5305,6 +5786,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF48",
           "package": "terminfo-hs",
@@ -5318,6 +5800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF49",
           "package": "terminfo-hs",
@@ -5327,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF49",
           "package": "terminfo-hs",
@@ -5340,6 +5824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF5",
           "package": "terminfo-hs",
@@ -5349,6 +5834,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF5",
           "package": "terminfo-hs",
@@ -5362,6 +5848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF50",
           "package": "terminfo-hs",
@@ -5371,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF50",
           "package": "terminfo-hs",
@@ -5384,6 +5872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF51",
           "package": "terminfo-hs",
@@ -5393,6 +5882,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF51",
           "package": "terminfo-hs",
@@ -5406,6 +5896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF52",
           "package": "terminfo-hs",
@@ -5415,6 +5906,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF52",
           "package": "terminfo-hs",
@@ -5428,6 +5920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF53",
           "package": "terminfo-hs",
@@ -5437,6 +5930,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF53",
           "package": "terminfo-hs",
@@ -5450,6 +5944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF54",
           "package": "terminfo-hs",
@@ -5459,6 +5954,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF54",
           "package": "terminfo-hs",
@@ -5472,6 +5968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF55",
           "package": "terminfo-hs",
@@ -5481,6 +5978,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF55",
           "package": "terminfo-hs",
@@ -5494,6 +5992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF56",
           "package": "terminfo-hs",
@@ -5503,6 +6002,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF56",
           "package": "terminfo-hs",
@@ -5516,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF57",
           "package": "terminfo-hs",
@@ -5525,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF57",
           "package": "terminfo-hs",
@@ -5538,6 +6040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF58",
           "package": "terminfo-hs",
@@ -5547,6 +6050,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF58",
           "package": "terminfo-hs",
@@ -5560,6 +6064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF59",
           "package": "terminfo-hs",
@@ -5569,6 +6074,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF59",
           "package": "terminfo-hs",
@@ -5582,6 +6088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF6",
           "package": "terminfo-hs",
@@ -5591,6 +6098,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF6",
           "package": "terminfo-hs",
@@ -5604,6 +6112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF60",
           "package": "terminfo-hs",
@@ -5613,6 +6122,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF60",
           "package": "terminfo-hs",
@@ -5626,6 +6136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF61",
           "package": "terminfo-hs",
@@ -5635,6 +6146,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF61",
           "package": "terminfo-hs",
@@ -5648,6 +6160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF62",
           "package": "terminfo-hs",
@@ -5657,6 +6170,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF62",
           "package": "terminfo-hs",
@@ -5670,6 +6184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF63",
           "package": "terminfo-hs",
@@ -5679,6 +6194,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF63",
           "package": "terminfo-hs",
@@ -5692,6 +6208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF7",
           "package": "terminfo-hs",
@@ -5701,6 +6218,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF7",
           "package": "terminfo-hs",
@@ -5714,6 +6232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF8",
           "package": "terminfo-hs",
@@ -5723,6 +6242,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF8",
           "package": "terminfo-hs",
@@ -5736,6 +6256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyF9",
           "package": "terminfo-hs",
@@ -5745,6 +6266,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyF9",
           "package": "terminfo-hs",
@@ -5758,6 +6280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyFind",
           "package": "terminfo-hs",
@@ -5767,6 +6290,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyFind",
           "package": "terminfo-hs",
@@ -5780,6 +6304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyHelp",
           "package": "terminfo-hs",
@@ -5789,6 +6314,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyHelp",
           "package": "terminfo-hs",
@@ -5802,6 +6328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyHome",
           "package": "terminfo-hs",
@@ -5811,6 +6338,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyHome",
           "package": "terminfo-hs",
@@ -5824,6 +6352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyIc",
           "package": "terminfo-hs",
@@ -5833,6 +6362,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyIc",
           "package": "terminfo-hs",
@@ -5846,6 +6376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyIl",
           "package": "terminfo-hs",
@@ -5855,6 +6386,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyIl",
           "package": "terminfo-hs",
@@ -5868,6 +6400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyLeft",
           "package": "terminfo-hs",
@@ -5877,6 +6410,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyLeft",
           "package": "terminfo-hs",
@@ -5890,6 +6424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyLl",
           "package": "terminfo-hs",
@@ -5899,6 +6434,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyLl",
           "package": "terminfo-hs",
@@ -5912,6 +6448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyMark",
           "package": "terminfo-hs",
@@ -5921,6 +6458,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyMark",
           "package": "terminfo-hs",
@@ -5934,6 +6472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyMessage",
           "package": "terminfo-hs",
@@ -5943,6 +6482,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyMessage",
           "package": "terminfo-hs",
@@ -5956,6 +6496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyMouse",
           "package": "terminfo-hs",
@@ -5965,6 +6506,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyMouse",
           "package": "terminfo-hs",
@@ -5978,6 +6520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyMove",
           "package": "terminfo-hs",
@@ -5987,6 +6530,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyMove",
           "package": "terminfo-hs",
@@ -6000,6 +6544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyNext",
           "package": "terminfo-hs",
@@ -6009,6 +6554,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyNext",
           "package": "terminfo-hs",
@@ -6022,6 +6568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyNpage",
           "package": "terminfo-hs",
@@ -6031,6 +6578,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyNpage",
           "package": "terminfo-hs",
@@ -6044,6 +6592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyOpen",
           "package": "terminfo-hs",
@@ -6053,6 +6602,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyOpen",
           "package": "terminfo-hs",
@@ -6066,6 +6616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyOptions",
           "package": "terminfo-hs",
@@ -6075,6 +6626,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyOptions",
           "package": "terminfo-hs",
@@ -6088,6 +6640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyPpage",
           "package": "terminfo-hs",
@@ -6097,6 +6650,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyPpage",
           "package": "terminfo-hs",
@@ -6110,6 +6664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyPrevious",
           "package": "terminfo-hs",
@@ -6119,6 +6674,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyPrevious",
           "package": "terminfo-hs",
@@ -6132,6 +6688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyPrint",
           "package": "terminfo-hs",
@@ -6141,6 +6698,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyPrint",
           "package": "terminfo-hs",
@@ -6154,6 +6712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyRedo",
           "package": "terminfo-hs",
@@ -6163,6 +6722,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyRedo",
           "package": "terminfo-hs",
@@ -6176,6 +6736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyReference",
           "package": "terminfo-hs",
@@ -6185,6 +6746,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyReference",
           "package": "terminfo-hs",
@@ -6198,6 +6760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyRefresh",
           "package": "terminfo-hs",
@@ -6207,6 +6770,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyRefresh",
           "package": "terminfo-hs",
@@ -6220,6 +6784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyReplace",
           "package": "terminfo-hs",
@@ -6229,6 +6794,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyReplace",
           "package": "terminfo-hs",
@@ -6242,6 +6808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyRestart",
           "package": "terminfo-hs",
@@ -6251,6 +6818,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyRestart",
           "package": "terminfo-hs",
@@ -6264,6 +6832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyResume",
           "package": "terminfo-hs",
@@ -6273,6 +6842,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyResume",
           "package": "terminfo-hs",
@@ -6286,6 +6856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyRight",
           "package": "terminfo-hs",
@@ -6295,6 +6866,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyRight",
           "package": "terminfo-hs",
@@ -6308,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySave",
           "package": "terminfo-hs",
@@ -6317,6 +6890,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySave",
           "package": "terminfo-hs",
@@ -6330,6 +6904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySbeg",
           "package": "terminfo-hs",
@@ -6339,6 +6914,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySbeg",
           "package": "terminfo-hs",
@@ -6352,6 +6928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyScancel",
           "package": "terminfo-hs",
@@ -6361,6 +6938,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyScancel",
           "package": "terminfo-hs",
@@ -6374,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyScommand",
           "package": "terminfo-hs",
@@ -6383,6 +6962,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyScommand",
           "package": "terminfo-hs",
@@ -6396,6 +6976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyScopy",
           "package": "terminfo-hs",
@@ -6405,6 +6986,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyScopy",
           "package": "terminfo-hs",
@@ -6418,6 +7000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyScreate",
           "package": "terminfo-hs",
@@ -6427,6 +7010,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyScreate",
           "package": "terminfo-hs",
@@ -6440,6 +7024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySdc",
           "package": "terminfo-hs",
@@ -6449,6 +7034,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySdc",
           "package": "terminfo-hs",
@@ -6462,6 +7048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySdl",
           "package": "terminfo-hs",
@@ -6471,6 +7058,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySdl",
           "package": "terminfo-hs",
@@ -6484,6 +7072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySelect",
           "package": "terminfo-hs",
@@ -6493,6 +7082,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySelect",
           "package": "terminfo-hs",
@@ -6506,6 +7096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySend",
           "package": "terminfo-hs",
@@ -6515,6 +7106,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySend",
           "package": "terminfo-hs",
@@ -6528,6 +7120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySeol",
           "package": "terminfo-hs",
@@ -6537,6 +7130,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySeol",
           "package": "terminfo-hs",
@@ -6550,6 +7144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySexit",
           "package": "terminfo-hs",
@@ -6559,6 +7154,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySexit",
           "package": "terminfo-hs",
@@ -6572,6 +7168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySf",
           "package": "terminfo-hs",
@@ -6581,6 +7178,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySf",
           "package": "terminfo-hs",
@@ -6594,6 +7192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySfind",
           "package": "terminfo-hs",
@@ -6603,6 +7202,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySfind",
           "package": "terminfo-hs",
@@ -6616,6 +7216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyShelp",
           "package": "terminfo-hs",
@@ -6625,6 +7226,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyShelp",
           "package": "terminfo-hs",
@@ -6638,6 +7240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyShome",
           "package": "terminfo-hs",
@@ -6647,6 +7250,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyShome",
           "package": "terminfo-hs",
@@ -6660,6 +7264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySic",
           "package": "terminfo-hs",
@@ -6669,6 +7274,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySic",
           "package": "terminfo-hs",
@@ -6682,6 +7288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySleft",
           "package": "terminfo-hs",
@@ -6691,6 +7298,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySleft",
           "package": "terminfo-hs",
@@ -6704,6 +7312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySmessage",
           "package": "terminfo-hs",
@@ -6713,6 +7322,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySmessage",
           "package": "terminfo-hs",
@@ -6726,6 +7336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySmove",
           "package": "terminfo-hs",
@@ -6735,6 +7346,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySmove",
           "package": "terminfo-hs",
@@ -6748,6 +7360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySnext",
           "package": "terminfo-hs",
@@ -6757,6 +7370,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySnext",
           "package": "terminfo-hs",
@@ -6770,6 +7384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySoptions",
           "package": "terminfo-hs",
@@ -6779,6 +7394,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySoptions",
           "package": "terminfo-hs",
@@ -6792,6 +7408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySprevious",
           "package": "terminfo-hs",
@@ -6801,6 +7418,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySprevious",
           "package": "terminfo-hs",
@@ -6814,6 +7432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySprint",
           "package": "terminfo-hs",
@@ -6823,6 +7442,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySprint",
           "package": "terminfo-hs",
@@ -6836,6 +7456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySr",
           "package": "terminfo-hs",
@@ -6845,6 +7466,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySr",
           "package": "terminfo-hs",
@@ -6858,6 +7480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySredo",
           "package": "terminfo-hs",
@@ -6867,6 +7490,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySredo",
           "package": "terminfo-hs",
@@ -6880,6 +7504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySreplace",
           "package": "terminfo-hs",
@@ -6889,6 +7514,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySreplace",
           "package": "terminfo-hs",
@@ -6902,6 +7528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySright",
           "package": "terminfo-hs",
@@ -6911,6 +7538,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySright",
           "package": "terminfo-hs",
@@ -6924,6 +7552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySrsume",
           "package": "terminfo-hs",
@@ -6933,6 +7562,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySrsume",
           "package": "terminfo-hs",
@@ -6946,6 +7576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySsave",
           "package": "terminfo-hs",
@@ -6955,6 +7586,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySsave",
           "package": "terminfo-hs",
@@ -6968,6 +7600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySsuspend",
           "package": "terminfo-hs",
@@ -6977,6 +7610,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySsuspend",
           "package": "terminfo-hs",
@@ -6990,6 +7624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyStab",
           "package": "terminfo-hs",
@@ -6999,6 +7634,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyStab",
           "package": "terminfo-hs",
@@ -7012,6 +7648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySundo",
           "package": "terminfo-hs",
@@ -7021,6 +7658,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySundo",
           "package": "terminfo-hs",
@@ -7034,6 +7672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeySuspend",
           "package": "terminfo-hs",
@@ -7043,6 +7682,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeySuspend",
           "package": "terminfo-hs",
@@ -7056,6 +7696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyUndo",
           "package": "terminfo-hs",
@@ -7065,6 +7706,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyUndo",
           "package": "terminfo-hs",
@@ -7078,6 +7720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeyUp",
           "package": "terminfo-hs",
@@ -7087,6 +7730,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeyUp",
           "package": "terminfo-hs",
@@ -7100,6 +7744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeypadLocal",
           "package": "terminfo-hs",
@@ -7109,6 +7754,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeypadLocal",
           "package": "terminfo-hs",
@@ -7122,6 +7768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "KeypadXmit",
           "package": "terminfo-hs",
@@ -7131,6 +7778,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "KeypadXmit",
           "package": "terminfo-hs",
@@ -7144,6 +7792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabF0",
           "package": "terminfo-hs",
@@ -7153,6 +7802,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabF0",
           "package": "terminfo-hs",
@@ -7166,6 +7816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabF1",
           "package": "terminfo-hs",
@@ -7175,6 +7826,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabF1",
           "package": "terminfo-hs",
@@ -7188,6 +7840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabF10",
           "package": "terminfo-hs",
@@ -7197,6 +7850,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabF10",
           "package": "terminfo-hs",
@@ -7210,6 +7864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabF2",
           "package": "terminfo-hs",
@@ -7219,6 +7874,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabF2",
           "package": "terminfo-hs",
@@ -7232,6 +7888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabF3",
           "package": "terminfo-hs",
@@ -7241,6 +7898,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabF3",
           "package": "terminfo-hs",
@@ -7254,6 +7912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabF4",
           "package": "terminfo-hs",
@@ -7263,6 +7922,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabF4",
           "package": "terminfo-hs",
@@ -7276,6 +7936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabF5",
           "package": "terminfo-hs",
@@ -7285,6 +7946,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabF5",
           "package": "terminfo-hs",
@@ -7298,6 +7960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabF6",
           "package": "terminfo-hs",
@@ -7307,6 +7970,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabF6",
           "package": "terminfo-hs",
@@ -7320,6 +7984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabF7",
           "package": "terminfo-hs",
@@ -7329,6 +7994,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabF7",
           "package": "terminfo-hs",
@@ -7342,6 +8008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabF8",
           "package": "terminfo-hs",
@@ -7351,6 +8018,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabF8",
           "package": "terminfo-hs",
@@ -7364,6 +8032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabF9",
           "package": "terminfo-hs",
@@ -7373,6 +8042,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabF9",
           "package": "terminfo-hs",
@@ -7386,6 +8056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabelFormat",
           "package": "terminfo-hs",
@@ -7395,6 +8066,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabelFormat",
           "package": "terminfo-hs",
@@ -7408,6 +8080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabelHeight",
           "package": "terminfo-hs",
@@ -7417,6 +8090,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabelHeight",
           "package": "terminfo-hs",
@@ -7430,6 +8104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabelOff",
           "package": "terminfo-hs",
@@ -7439,6 +8114,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabelOff",
           "package": "terminfo-hs",
@@ -7452,6 +8128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabelOn",
           "package": "terminfo-hs",
@@ -7461,6 +8138,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabelOn",
           "package": "terminfo-hs",
@@ -7474,6 +8152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LabelWidth",
           "package": "terminfo-hs",
@@ -7483,6 +8162,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LabelWidth",
           "package": "terminfo-hs",
@@ -7496,6 +8176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LinefeedIfNotLf",
           "package": "terminfo-hs",
@@ -7505,6 +8186,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LinefeedIfNotLf",
           "package": "terminfo-hs",
@@ -7518,6 +8200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LinefeedIsNewline",
           "package": "terminfo-hs",
@@ -7527,6 +8210,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LinefeedIsNewline",
           "package": "terminfo-hs",
@@ -7540,6 +8224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Lines",
           "package": "terminfo-hs",
@@ -7549,6 +8234,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Lines",
           "package": "terminfo-hs",
@@ -7562,6 +8248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LinesOfMemory",
           "package": "terminfo-hs",
@@ -7571,6 +8258,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LinesOfMemory",
           "package": "terminfo-hs",
@@ -7584,6 +8272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "LpiChangesRes",
           "package": "terminfo-hs",
@@ -7593,6 +8282,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "LpiChangesRes",
           "package": "terminfo-hs",
@@ -7606,6 +8296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MagicCookieGlitch",
           "package": "terminfo-hs",
@@ -7615,6 +8306,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MagicCookieGlitch",
           "package": "terminfo-hs",
@@ -7628,6 +8320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MagicCookieGlitchUl",
           "package": "terminfo-hs",
@@ -7637,6 +8330,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MagicCookieGlitchUl",
           "package": "terminfo-hs",
@@ -7650,6 +8344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MaxAttributes",
           "package": "terminfo-hs",
@@ -7659,6 +8354,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MaxAttributes",
           "package": "terminfo-hs",
@@ -7672,6 +8368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MaxColors",
           "package": "terminfo-hs",
@@ -7681,6 +8378,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MaxColors",
           "package": "terminfo-hs",
@@ -7694,6 +8392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MaxMicroAddress",
           "package": "terminfo-hs",
@@ -7703,6 +8402,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MaxMicroAddress",
           "package": "terminfo-hs",
@@ -7716,6 +8416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MaxMicroJump",
           "package": "terminfo-hs",
@@ -7725,6 +8426,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MaxMicroJump",
           "package": "terminfo-hs",
@@ -7738,6 +8440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MaxPairs",
           "package": "terminfo-hs",
@@ -7747,6 +8450,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MaxPairs",
           "package": "terminfo-hs",
@@ -7760,6 +8464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MaximumWindows",
           "package": "terminfo-hs",
@@ -7769,6 +8474,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MaximumWindows",
           "package": "terminfo-hs",
@@ -7782,6 +8488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MemoryAbove",
           "package": "terminfo-hs",
@@ -7791,6 +8498,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MemoryAbove",
           "package": "terminfo-hs",
@@ -7804,6 +8512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MemoryBelow",
           "package": "terminfo-hs",
@@ -7813,6 +8522,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MemoryBelow",
           "package": "terminfo-hs",
@@ -7826,6 +8536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MemoryLock",
           "package": "terminfo-hs",
@@ -7835,6 +8546,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MemoryLock",
           "package": "terminfo-hs",
@@ -7848,6 +8560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MemoryUnlock",
           "package": "terminfo-hs",
@@ -7857,6 +8570,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MemoryUnlock",
           "package": "terminfo-hs",
@@ -7870,6 +8584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MetaOff",
           "package": "terminfo-hs",
@@ -7879,6 +8594,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MetaOff",
           "package": "terminfo-hs",
@@ -7892,6 +8608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MetaOn",
           "package": "terminfo-hs",
@@ -7901,6 +8618,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MetaOn",
           "package": "terminfo-hs",
@@ -7914,6 +8632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MicroColSize",
           "package": "terminfo-hs",
@@ -7923,6 +8642,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MicroColSize",
           "package": "terminfo-hs",
@@ -7936,6 +8656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MicroColumnAddress",
           "package": "terminfo-hs",
@@ -7945,6 +8666,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MicroColumnAddress",
           "package": "terminfo-hs",
@@ -7958,6 +8680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MicroDown",
           "package": "terminfo-hs",
@@ -7967,6 +8690,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MicroDown",
           "package": "terminfo-hs",
@@ -7980,6 +8704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MicroLeft",
           "package": "terminfo-hs",
@@ -7989,6 +8714,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MicroLeft",
           "package": "terminfo-hs",
@@ -8002,6 +8728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MicroLineSize",
           "package": "terminfo-hs",
@@ -8011,6 +8738,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MicroLineSize",
           "package": "terminfo-hs",
@@ -8024,6 +8752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MicroRight",
           "package": "terminfo-hs",
@@ -8033,6 +8762,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MicroRight",
           "package": "terminfo-hs",
@@ -8046,6 +8776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MicroRowAddress",
           "package": "terminfo-hs",
@@ -8055,6 +8786,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MicroRowAddress",
           "package": "terminfo-hs",
@@ -8068,6 +8800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MicroUp",
           "package": "terminfo-hs",
@@ -8077,6 +8810,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MicroUp",
           "package": "terminfo-hs",
@@ -8090,6 +8824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MouseInfo",
           "package": "terminfo-hs",
@@ -8099,6 +8834,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MouseInfo",
           "package": "terminfo-hs",
@@ -8112,6 +8848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MoveInsertMode",
           "package": "terminfo-hs",
@@ -8121,6 +8858,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MoveInsertMode",
           "package": "terminfo-hs",
@@ -8134,6 +8872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "MoveStandoutMode",
           "package": "terminfo-hs",
@@ -8143,6 +8882,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "MoveStandoutMode",
           "package": "terminfo-hs",
@@ -8156,6 +8896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "NeedsXonXoff",
           "package": "terminfo-hs",
@@ -8165,6 +8906,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "NeedsXonXoff",
           "package": "terminfo-hs",
@@ -8178,6 +8920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "NewLineDelay",
           "package": "terminfo-hs",
@@ -8187,6 +8930,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "NewLineDelay",
           "package": "terminfo-hs",
@@ -8200,6 +8944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Newline",
           "package": "terminfo-hs",
@@ -8209,6 +8954,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Newline",
           "package": "terminfo-hs",
@@ -8222,6 +8968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "NoColorVideo",
           "package": "terminfo-hs",
@@ -8231,6 +8978,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "NoColorVideo",
           "package": "terminfo-hs",
@@ -8244,6 +8992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "NoCorrectlyWorkingCr",
           "package": "terminfo-hs",
@@ -8253,6 +9002,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "NoCorrectlyWorkingCr",
           "package": "terminfo-hs",
@@ -8266,6 +9016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "NoEscCtlc",
           "package": "terminfo-hs",
@@ -8275,6 +9026,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "NoEscCtlc",
           "package": "terminfo-hs",
@@ -8288,6 +9040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "NoPadChar",
           "package": "terminfo-hs",
@@ -8297,6 +9050,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "NoPadChar",
           "package": "terminfo-hs",
@@ -8310,6 +9064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "NonDestScrollRegion",
           "package": "terminfo-hs",
@@ -8319,6 +9074,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "NonDestScrollRegion",
           "package": "terminfo-hs",
@@ -8332,6 +9088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "NonRevRmcup",
           "package": "terminfo-hs",
@@ -8341,6 +9098,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "NonRevRmcup",
           "package": "terminfo-hs",
@@ -8354,6 +9112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "NumLabels",
           "package": "terminfo-hs",
@@ -8363,6 +9122,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "NumLabels",
           "package": "terminfo-hs",
@@ -8376,6 +9136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "NumberOfFunctionKeys",
           "package": "terminfo-hs",
@@ -8385,6 +9146,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "NumberOfFunctionKeys",
           "package": "terminfo-hs",
@@ -8398,6 +9160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "NumberOfPins",
           "package": "terminfo-hs",
@@ -8407,6 +9170,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "NumberOfPins",
           "package": "terminfo-hs",
@@ -8420,6 +9184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "OrderOfPins",
           "package": "terminfo-hs",
@@ -8429,6 +9194,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "OrderOfPins",
           "package": "terminfo-hs",
@@ -8442,6 +9208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "OrigColors",
           "package": "terminfo-hs",
@@ -8451,6 +9218,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "OrigColors",
           "package": "terminfo-hs",
@@ -8464,6 +9232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "OrigPair",
           "package": "terminfo-hs",
@@ -8473,6 +9242,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "OrigPair",
           "package": "terminfo-hs",
@@ -8486,6 +9256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "OtherNonFunctionKeys",
           "package": "terminfo-hs",
@@ -8495,6 +9266,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "OtherNonFunctionKeys",
           "package": "terminfo-hs",
@@ -8508,6 +9280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "OutputResChar",
           "package": "terminfo-hs",
@@ -8517,6 +9290,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "OutputResChar",
           "package": "terminfo-hs",
@@ -8530,6 +9304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "OutputResHorzInch",
           "package": "terminfo-hs",
@@ -8539,6 +9314,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "OutputResHorzInch",
           "package": "terminfo-hs",
@@ -8552,6 +9328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "OutputResLine",
           "package": "terminfo-hs",
@@ -8561,6 +9338,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "OutputResLine",
           "package": "terminfo-hs",
@@ -8574,6 +9352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "OutputResVertInch",
           "package": "terminfo-hs",
@@ -8583,6 +9362,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "OutputResVertInch",
           "package": "terminfo-hs",
@@ -8596,6 +9376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "OverStrike",
           "package": "terminfo-hs",
@@ -8605,6 +9386,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "OverStrike",
           "package": "terminfo-hs",
@@ -8618,6 +9400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "PadChar",
           "package": "terminfo-hs",
@@ -8627,6 +9410,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "PadChar",
           "package": "terminfo-hs",
@@ -8640,6 +9424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "PaddingBaudRate",
           "package": "terminfo-hs",
@@ -8649,6 +9434,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "PaddingBaudRate",
           "package": "terminfo-hs",
@@ -8662,6 +9448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ParmDch",
           "package": "terminfo-hs",
@@ -8671,6 +9458,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ParmDch",
           "package": "terminfo-hs",
@@ -8684,6 +9472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ParmDeleteLine",
           "package": "terminfo-hs",
@@ -8693,6 +9482,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ParmDeleteLine",
           "package": "terminfo-hs",
@@ -8706,6 +9496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ParmDownCursor",
           "package": "terminfo-hs",
@@ -8715,6 +9506,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ParmDownCursor",
           "package": "terminfo-hs",
@@ -8728,6 +9520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ParmDownMicro",
           "package": "terminfo-hs",
@@ -8737,6 +9530,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ParmDownMicro",
           "package": "terminfo-hs",
@@ -8750,6 +9544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ParmIch",
           "package": "terminfo-hs",
@@ -8759,6 +9554,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ParmIch",
           "package": "terminfo-hs",
@@ -8772,6 +9568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ParmIndex",
           "package": "terminfo-hs",
@@ -8781,6 +9578,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ParmIndex",
           "package": "terminfo-hs",
@@ -8794,6 +9592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ParmInsertLine",
           "package": "terminfo-hs",
@@ -8803,6 +9602,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ParmInsertLine",
           "package": "terminfo-hs",
@@ -8816,6 +9616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ParmLeftCursor",
           "package": "terminfo-hs",
@@ -8825,6 +9626,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ParmLeftCursor",
           "package": "terminfo-hs",
@@ -8838,6 +9640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ParmLeftMicro",
           "package": "terminfo-hs",
@@ -8847,6 +9650,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ParmLeftMicro",
           "package": "terminfo-hs",
@@ -8860,6 +9664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ParmRightCursor",
           "package": "terminfo-hs",
@@ -8869,6 +9674,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ParmRightCursor",
           "package": "terminfo-hs",
@@ -8882,6 +9688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ParmRightMicro",
           "package": "terminfo-hs",
@@ -8891,6 +9698,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ParmRightMicro",
           "package": "terminfo-hs",
@@ -8904,6 +9712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ParmRindex",
           "package": "terminfo-hs",
@@ -8913,6 +9722,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ParmRindex",
           "package": "terminfo-hs",
@@ -8926,6 +9736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ParmUpCursor",
           "package": "terminfo-hs",
@@ -8935,6 +9746,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ParmUpCursor",
           "package": "terminfo-hs",
@@ -8948,6 +9760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ParmUpMicro",
           "package": "terminfo-hs",
@@ -8957,6 +9770,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ParmUpMicro",
           "package": "terminfo-hs",
@@ -8970,6 +9784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "PcTermOptions",
           "package": "terminfo-hs",
@@ -8979,6 +9794,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "PcTermOptions",
           "package": "terminfo-hs",
@@ -8992,6 +9808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "PkeyKey",
           "package": "terminfo-hs",
@@ -9001,6 +9818,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "PkeyKey",
           "package": "terminfo-hs",
@@ -9014,6 +9832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "PkeyLocal",
           "package": "terminfo-hs",
@@ -9023,6 +9842,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "PkeyLocal",
           "package": "terminfo-hs",
@@ -9036,6 +9856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "PkeyPlab",
           "package": "terminfo-hs",
@@ -9045,6 +9866,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "PkeyPlab",
           "package": "terminfo-hs",
@@ -9058,6 +9880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "PkeyXmit",
           "package": "terminfo-hs",
@@ -9067,6 +9890,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "PkeyXmit",
           "package": "terminfo-hs",
@@ -9080,6 +9904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "PlabNorm",
           "package": "terminfo-hs",
@@ -9089,6 +9914,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "PlabNorm",
           "package": "terminfo-hs",
@@ -9102,6 +9928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "PrintRate",
           "package": "terminfo-hs",
@@ -9111,6 +9938,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "PrintRate",
           "package": "terminfo-hs",
@@ -9124,6 +9952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "PrintScreen",
           "package": "terminfo-hs",
@@ -9133,6 +9962,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "PrintScreen",
           "package": "terminfo-hs",
@@ -9146,6 +9976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "PrtrNon",
           "package": "terminfo-hs",
@@ -9155,6 +9986,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "PrtrNon",
           "package": "terminfo-hs",
@@ -9168,6 +10000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "PrtrOff",
           "package": "terminfo-hs",
@@ -9177,6 +10010,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "PrtrOff",
           "package": "terminfo-hs",
@@ -9190,6 +10024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "PrtrOn",
           "package": "terminfo-hs",
@@ -9199,6 +10034,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "PrtrOn",
           "package": "terminfo-hs",
@@ -9212,6 +10048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "PrtrSilent",
           "package": "terminfo-hs",
@@ -9221,6 +10058,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "PrtrSilent",
           "package": "terminfo-hs",
@@ -9234,6 +10072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Pulse",
           "package": "terminfo-hs",
@@ -9243,6 +10082,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Pulse",
           "package": "terminfo-hs",
@@ -9256,6 +10096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "QuickDial",
           "package": "terminfo-hs",
@@ -9265,6 +10106,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "QuickDial",
           "package": "terminfo-hs",
@@ -9278,6 +10120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "RemoveClock",
           "package": "terminfo-hs",
@@ -9287,6 +10130,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "RemoveClock",
           "package": "terminfo-hs",
@@ -9300,6 +10144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "RepeatChar",
           "package": "terminfo-hs",
@@ -9309,6 +10154,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "RepeatChar",
           "package": "terminfo-hs",
@@ -9322,6 +10168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ReqForInput",
           "package": "terminfo-hs",
@@ -9331,6 +10178,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ReqForInput",
           "package": "terminfo-hs",
@@ -9344,6 +10192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ReqMousePos",
           "package": "terminfo-hs",
@@ -9353,6 +10202,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ReqMousePos",
           "package": "terminfo-hs",
@@ -9366,6 +10216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Reset1string",
           "package": "terminfo-hs",
@@ -9375,6 +10226,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Reset1string",
           "package": "terminfo-hs",
@@ -9388,6 +10240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Reset2string",
           "package": "terminfo-hs",
@@ -9397,6 +10250,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Reset2string",
           "package": "terminfo-hs",
@@ -9410,6 +10264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Reset3string",
           "package": "terminfo-hs",
@@ -9419,6 +10274,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Reset3string",
           "package": "terminfo-hs",
@@ -9432,6 +10288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ResetFile",
           "package": "terminfo-hs",
@@ -9441,6 +10298,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ResetFile",
           "package": "terminfo-hs",
@@ -9454,6 +10312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "RestoreCursor",
           "package": "terminfo-hs",
@@ -9463,6 +10322,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "RestoreCursor",
           "package": "terminfo-hs",
@@ -9476,6 +10336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ReturnDoesClrEol",
           "package": "terminfo-hs",
@@ -9485,6 +10346,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ReturnDoesClrEol",
           "package": "terminfo-hs",
@@ -9498,6 +10360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "RowAddrGlitch",
           "package": "terminfo-hs",
@@ -9507,6 +10370,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "RowAddrGlitch",
           "package": "terminfo-hs",
@@ -9520,6 +10384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "RowAddress",
           "package": "terminfo-hs",
@@ -9529,6 +10394,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "RowAddress",
           "package": "terminfo-hs",
@@ -9542,6 +10408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SaveCursor",
           "package": "terminfo-hs",
@@ -9551,6 +10418,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SaveCursor",
           "package": "terminfo-hs",
@@ -9564,6 +10432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ScancodeEscape",
           "package": "terminfo-hs",
@@ -9573,6 +10442,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ScancodeEscape",
           "package": "terminfo-hs",
@@ -9586,6 +10456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ScrollForward",
           "package": "terminfo-hs",
@@ -9595,6 +10466,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ScrollForward",
           "package": "terminfo-hs",
@@ -9608,6 +10480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ScrollReverse",
           "package": "terminfo-hs",
@@ -9617,6 +10490,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ScrollReverse",
           "package": "terminfo-hs",
@@ -9630,6 +10504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SelectCharSet",
           "package": "terminfo-hs",
@@ -9639,6 +10514,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SelectCharSet",
           "package": "terminfo-hs",
@@ -9652,6 +10528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SemiAutoRightMargin",
           "package": "terminfo-hs",
@@ -9661,6 +10538,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SemiAutoRightMargin",
           "package": "terminfo-hs",
@@ -9674,6 +10552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Set0DesSeq",
           "package": "terminfo-hs",
@@ -9683,6 +10562,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Set0DesSeq",
           "package": "terminfo-hs",
@@ -9696,6 +10576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Set1DesSeq",
           "package": "terminfo-hs",
@@ -9705,6 +10586,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Set1DesSeq",
           "package": "terminfo-hs",
@@ -9718,6 +10600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Set2DesSeq",
           "package": "terminfo-hs",
@@ -9727,6 +10610,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Set2DesSeq",
           "package": "terminfo-hs",
@@ -9740,6 +10624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Set3DesSeq",
           "package": "terminfo-hs",
@@ -9749,6 +10634,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Set3DesSeq",
           "package": "terminfo-hs",
@@ -9762,6 +10648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetAAttributes",
           "package": "terminfo-hs",
@@ -9771,6 +10658,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetAAttributes",
           "package": "terminfo-hs",
@@ -9784,6 +10672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetABackground",
           "package": "terminfo-hs",
@@ -9793,6 +10682,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetABackground",
           "package": "terminfo-hs",
@@ -9806,6 +10696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetAForeground",
           "package": "terminfo-hs",
@@ -9815,6 +10706,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetAForeground",
           "package": "terminfo-hs",
@@ -9828,6 +10720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetAttributes",
           "package": "terminfo-hs",
@@ -9837,6 +10730,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetAttributes",
           "package": "terminfo-hs",
@@ -9850,6 +10744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetBackground",
           "package": "terminfo-hs",
@@ -9859,6 +10754,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetBackground",
           "package": "terminfo-hs",
@@ -9872,6 +10768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetBottomMargin",
           "package": "terminfo-hs",
@@ -9881,6 +10778,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetBottomMargin",
           "package": "terminfo-hs",
@@ -9894,6 +10792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetBottomMarginParm",
           "package": "terminfo-hs",
@@ -9903,6 +10802,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetBottomMarginParm",
           "package": "terminfo-hs",
@@ -9916,6 +10816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetClock",
           "package": "terminfo-hs",
@@ -9925,6 +10826,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetClock",
           "package": "terminfo-hs",
@@ -9938,6 +10840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetColorBand",
           "package": "terminfo-hs",
@@ -9947,6 +10850,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetColorBand",
           "package": "terminfo-hs",
@@ -9960,6 +10864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetColorPair",
           "package": "terminfo-hs",
@@ -9969,6 +10874,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetColorPair",
           "package": "terminfo-hs",
@@ -9982,6 +10888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetForeground",
           "package": "terminfo-hs",
@@ -9991,6 +10898,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetForeground",
           "package": "terminfo-hs",
@@ -10004,6 +10912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetLeftMargin",
           "package": "terminfo-hs",
@@ -10013,6 +10922,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetLeftMargin",
           "package": "terminfo-hs",
@@ -10026,6 +10936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetLeftMarginParm",
           "package": "terminfo-hs",
@@ -10035,6 +10946,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetLeftMarginParm",
           "package": "terminfo-hs",
@@ -10048,6 +10960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetLrMargin",
           "package": "terminfo-hs",
@@ -10057,6 +10970,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetLrMargin",
           "package": "terminfo-hs",
@@ -10070,6 +10984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetPageLength",
           "package": "terminfo-hs",
@@ -10079,6 +10994,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetPageLength",
           "package": "terminfo-hs",
@@ -10092,6 +11008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetPglenInch",
           "package": "terminfo-hs",
@@ -10101,6 +11018,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetPglenInch",
           "package": "terminfo-hs",
@@ -10114,6 +11032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetRightMargin",
           "package": "terminfo-hs",
@@ -10123,6 +11042,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetRightMargin",
           "package": "terminfo-hs",
@@ -10136,6 +11056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetRightMarginParm",
           "package": "terminfo-hs",
@@ -10145,6 +11066,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetRightMarginParm",
           "package": "terminfo-hs",
@@ -10158,6 +11080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetTab",
           "package": "terminfo-hs",
@@ -10167,6 +11090,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetTab",
           "package": "terminfo-hs",
@@ -10180,6 +11104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetTbMargin",
           "package": "terminfo-hs",
@@ -10189,6 +11114,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetTbMargin",
           "package": "terminfo-hs",
@@ -10202,6 +11128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetTopMargin",
           "package": "terminfo-hs",
@@ -10211,6 +11138,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetTopMargin",
           "package": "terminfo-hs",
@@ -10224,6 +11152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetTopMarginParm",
           "package": "terminfo-hs",
@@ -10233,6 +11162,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetTopMarginParm",
           "package": "terminfo-hs",
@@ -10246,6 +11176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SetWindow",
           "package": "terminfo-hs",
@@ -10255,6 +11186,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SetWindow",
           "package": "terminfo-hs",
@@ -10268,6 +11200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "StartBitImage",
           "package": "terminfo-hs",
@@ -10277,6 +11210,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "StartBitImage",
           "package": "terminfo-hs",
@@ -10290,6 +11224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "StartCharSetDef",
           "package": "terminfo-hs",
@@ -10299,6 +11234,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "StartCharSetDef",
           "package": "terminfo-hs",
@@ -10312,6 +11248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "StatusLineEscOk",
           "package": "terminfo-hs",
@@ -10321,6 +11258,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "StatusLineEscOk",
           "package": "terminfo-hs",
@@ -10334,6 +11272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "StopBitImage",
           "package": "terminfo-hs",
@@ -10343,6 +11282,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "StopBitImage",
           "package": "terminfo-hs",
@@ -10356,6 +11296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "StopCharSetDef",
           "package": "terminfo-hs",
@@ -10365,6 +11306,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "StopCharSetDef",
           "package": "terminfo-hs",
@@ -10378,6 +11320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SubscriptCharacters",
           "package": "terminfo-hs",
@@ -10387,6 +11330,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SubscriptCharacters",
           "package": "terminfo-hs",
@@ -10400,6 +11344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "SuperscriptCharacters",
           "package": "terminfo-hs",
@@ -10409,6 +11354,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "SuperscriptCharacters",
           "package": "terminfo-hs",
@@ -10422,6 +11368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Tab",
           "package": "terminfo-hs",
@@ -10431,6 +11378,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Tab",
           "package": "terminfo-hs",
@@ -10444,6 +11392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "TermcapInit2",
           "package": "terminfo-hs",
@@ -10453,6 +11402,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "TermcapInit2",
           "package": "terminfo-hs",
@@ -10466,6 +11416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "TermcapReset",
           "package": "terminfo-hs",
@@ -10475,6 +11426,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "TermcapReset",
           "package": "terminfo-hs",
@@ -10488,6 +11440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "TheseCauseCr",
           "package": "terminfo-hs",
@@ -10497,6 +11450,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "TheseCauseCr",
           "package": "terminfo-hs",
@@ -10510,6 +11464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "TildeGlitch",
           "package": "terminfo-hs",
@@ -10519,6 +11474,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "TildeGlitch",
           "package": "terminfo-hs",
@@ -10532,6 +11488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ToStatusLine",
           "package": "terminfo-hs",
@@ -10541,6 +11498,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ToStatusLine",
           "package": "terminfo-hs",
@@ -10554,6 +11512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "Tone",
           "package": "terminfo-hs",
@@ -10563,6 +11522,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "Tone",
           "package": "terminfo-hs",
@@ -10576,6 +11536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "TransparentUnderline",
           "package": "terminfo-hs",
@@ -10585,6 +11546,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "TransparentUnderline",
           "package": "terminfo-hs",
@@ -10598,6 +11560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "UnderlineChar",
           "package": "terminfo-hs",
@@ -10607,6 +11570,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "UnderlineChar",
           "package": "terminfo-hs",
@@ -10620,6 +11584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "UpHalfLine",
           "package": "terminfo-hs",
@@ -10629,6 +11594,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "UpHalfLine",
           "package": "terminfo-hs",
@@ -10642,6 +11608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "User0",
           "package": "terminfo-hs",
@@ -10651,6 +11618,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "User0",
           "package": "terminfo-hs",
@@ -10664,6 +11632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "User1",
           "package": "terminfo-hs",
@@ -10673,6 +11642,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "User1",
           "package": "terminfo-hs",
@@ -10686,6 +11656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "User2",
           "package": "terminfo-hs",
@@ -10695,6 +11666,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "User2",
           "package": "terminfo-hs",
@@ -10708,6 +11680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "User3",
           "package": "terminfo-hs",
@@ -10717,6 +11690,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "User3",
           "package": "terminfo-hs",
@@ -10730,6 +11704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "User4",
           "package": "terminfo-hs",
@@ -10739,6 +11714,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "User4",
           "package": "terminfo-hs",
@@ -10752,6 +11728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "User5",
           "package": "terminfo-hs",
@@ -10761,6 +11738,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "User5",
           "package": "terminfo-hs",
@@ -10774,6 +11752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "User6",
           "package": "terminfo-hs",
@@ -10783,6 +11762,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "User6",
           "package": "terminfo-hs",
@@ -10796,6 +11776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "User7",
           "package": "terminfo-hs",
@@ -10805,6 +11786,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "User7",
           "package": "terminfo-hs",
@@ -10818,6 +11800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "User8",
           "package": "terminfo-hs",
@@ -10827,6 +11810,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "User8",
           "package": "terminfo-hs",
@@ -10840,6 +11824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "User9",
           "package": "terminfo-hs",
@@ -10849,6 +11834,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "User9",
           "package": "terminfo-hs",
@@ -10862,6 +11848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "VirtualTerminal",
           "package": "terminfo-hs",
@@ -10871,6 +11858,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "VirtualTerminal",
           "package": "terminfo-hs",
@@ -10884,6 +11872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "WaitTone",
           "package": "terminfo-hs",
@@ -10893,6 +11882,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "WaitTone",
           "package": "terminfo-hs",
@@ -10906,6 +11896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "WideCharSize",
           "package": "terminfo-hs",
@@ -10915,6 +11906,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "WideCharSize",
           "package": "terminfo-hs",
@@ -10928,6 +11920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "WidthStatusLine",
           "package": "terminfo-hs",
@@ -10937,6 +11930,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "WidthStatusLine",
           "package": "terminfo-hs",
@@ -10950,6 +11944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "XoffCharacter",
           "package": "terminfo-hs",
@@ -10959,6 +11954,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "XoffCharacter",
           "package": "terminfo-hs",
@@ -10972,6 +11968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "XonCharacter",
           "package": "terminfo-hs",
@@ -10981,6 +11978,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "XonCharacter",
           "package": "terminfo-hs",
@@ -10994,6 +11992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "XonXoff",
           "package": "terminfo-hs",
@@ -11003,6 +12002,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "XonXoff",
           "package": "terminfo-hs",
@@ -11016,6 +12016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo.Caps",
           "name": "ZeroMotion",
           "package": "terminfo-hs",
@@ -11025,6 +12026,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo Caps",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo.Caps",
           "name": "ZeroMotion",
           "package": "terminfo-hs",
@@ -11039,6 +12041,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a pure-Haskell (no FFI) module for accessing terminfo databases,\n which contain characteristics, or capabilities, for the various\n terminals such as screen, vt100, or xterm. Among other things, the\n capabilities include the idiosyncratic character sequences needed to\n send commands to the terminal. These commands include things like cursor\n movement.\n\u003c/p\u003e\u003cp\u003eFor a deeper understanding of terminfo, consult the man pages for\n term(5) and terminfo(5).\n\u003c/p\u003e\u003cp\u003eThere are three parts to this module: acquiring a terminfo database,\n querying the database, and defining the capabilities.\n\u003c/p\u003e\u003cp\u003eThis module is dead simple, so a single example will hopefully suffice\n to demonstrate its usage.\n\u003c/p\u003e\u003cpre\u003e\n import System.Terminfo\n import System.Terminfo.Caps as C\n uglyExample :: IO (Maybe Int)\n uglyExample = do\n     term \u003c- fromJust \u003c$\u003e lookupEnv \"TERM\"\n     db \u003c- \u003ccode\u003e\u003ca\u003eacquireDatabase\u003c/a\u003e\u003c/code\u003e term\n     let maxColors (Right d) = \u003ccode\u003e\u003ca\u003equeryNumTermCap\u003c/a\u003e\u003c/code\u003e d C.\u003ccode\u003e\u003ca\u003eMaxColors\u003c/a\u003e\u003c/code\u003e\n     return $ maxColors db\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003euglyExample\n\u003c/code\u003e\u003c/strong\u003eJust 256\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo",
           "name": "Terminfo",
           "package": "terminfo-hs",
@@ -11048,6 +12051,7 @@
         "index": {
           "description": "This is pure-Haskell no FFI module for accessing terminfo databases which contain characteristics or capabilities for the various terminals such as screen vt100 or xterm Among other things the capabilities include the idiosyncratic character sequences needed to send commands to the terminal These commands include things like cursor movement For deeper understanding of terminfo consult the man pages for term and terminfo There are three parts to this module acquiring terminfo database querying the database and defining the capabilities This module is dead simple so single example will hopefully suffice to demonstrate its usage import System.Terminfo import System.Terminfo.Caps as uglyExample IO Maybe Int uglyExample do term fromJust lookupEnv TERM db acquireDatabase term let maxColors Right queryNumTermCap MaxColors return maxColors db uglyExample Just",
           "hierarchy": "System Terminfo",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo",
           "name": "Terminfo",
           "package": "terminfo-hs",
@@ -11061,6 +12065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo",
           "name": "TIDatabase",
           "package": "terminfo-hs",
@@ -11069,6 +12074,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo",
           "name": "TIDatabase",
           "package": "terminfo-hs",
@@ -11082,6 +12088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo",
           "name": "acquireDatabase",
           "package": "terminfo-hs",
@@ -11090,6 +12097,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo",
           "name": "acquireDatabase",
           "normalized": "String-\u003eIO(Either String TIDatabase)",
@@ -11105,6 +12113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo",
           "name": "queryBoolTermCap",
           "package": "terminfo-hs",
@@ -11114,6 +12123,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo",
           "name": "queryBoolTermCap",
           "normalized": "TIDatabase-\u003eBoolTermCap-\u003eBool",
@@ -11129,6 +12139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo",
           "name": "queryNumTermCap",
           "package": "terminfo-hs",
@@ -11138,6 +12149,7 @@
         },
         "index": {
           "hierarchy": "System Terminfo",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo",
           "name": "queryNumTermCap",
           "normalized": "TIDatabase-\u003eNumTermCap-\u003eMaybe Int",
@@ -11154,6 +12166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs this is a dead simple module, no 'smart' handling of the\n returned string is implemented. In particular, placeholders for\n buffer characters and command arguments are left as-is. This will be\n rectified eventually, probably in a separate module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:58 UTC 2014",
           "module": "System.Terminfo",
           "name": "queryStrTermCap",
           "package": "terminfo-hs",
@@ -11164,6 +12177,7 @@
         "index": {
           "description": "As this is dead simple module no smart handling of the returned string is implemented In particular placeholders for buffer characters and command arguments are left as-is This will be rectified eventually probably in separate module",
           "hierarchy": "System Terminfo",
+          "indexed": "2014-03-11T20:18:58",
           "module": "System.Terminfo",
           "name": "queryStrTermCap",
           "normalized": "TIDatabase-\u003eStrTermCap-\u003eMaybe String",

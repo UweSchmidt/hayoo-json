@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cndict"
+        "phrase": "cndict",
+        "type": "phrase"
       },
       "type": "context"
     }

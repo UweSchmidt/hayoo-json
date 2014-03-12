@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-transport"
+        "phrase": "network-transport",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Internal",
           "name": "Internal",
           "package": "network-transport",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Internal functions",
           "hierarchy": "Network Transport Internal",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Internal",
           "name": "Internal",
           "package": "network-transport",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003easyncWhenCancelled g f\u003c/code\u003e runs f in a separate thread and waits for it\n to complete. If f throws an exception we catch it and rethrow it in the \n current thread. If the current thread is interrupted before f completes,\n we run the specified clean up handler (if f throws an exception we assume\n that no cleanup is necessary).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Internal",
           "name": "asyncWhenCancelled",
           "package": "network-transport",
@@ -52,6 +55,7 @@
         "index": {
           "description": "asyncWhenCancelled runs in separate thread and waits for it to complete If throws an exception we catch it and rethrow it in the current thread If the current thread is interrupted before completes we run the specified clean up handler if throws an exception we assume that no cleanup is necessary",
           "hierarchy": "Network Transport Internal",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Internal",
           "name": "asyncWhenCancelled",
           "normalized": "a b(c-\u003eIO())-\u003eIO c-\u003eIO c",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize 16-bit from network byte order \n Throws an IO exception if this is not a valid integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Internal",
           "name": "decodeInt16",
           "package": "network-transport",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Deserialize bit from network byte order Throws an IO exception if this is not valid integer",
           "hierarchy": "Network Transport Internal",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Internal",
           "name": "decodeInt16",
           "normalized": "ByteString-\u003ea",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize 32-bit from network byte order \n Throws an IO exception if this is not a valid integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Internal",
           "name": "decodeInt32",
           "package": "network-transport",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Deserialize bit from network byte order Throws an IO exception if this is not valid integer",
           "hierarchy": "Network Transport Internal",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Internal",
           "name": "decodeInt32",
           "normalized": "ByteString-\u003ea",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize 16-bit to network byte order \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Internal",
           "name": "encodeInt16",
           "package": "network-transport",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Serialize bit to network byte order",
           "hierarchy": "Network Transport Internal",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Internal",
           "name": "encodeInt16",
           "normalized": "a-\u003eByteString",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize 32-bit to network byte order \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Internal",
           "name": "encodeInt32",
           "package": "network-transport",
@@ -156,6 +167,7 @@
         "index": {
           "description": "Serialize bit to network byte order",
           "hierarchy": "Network Transport Internal",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Internal",
           "name": "encodeInt32",
           "normalized": "a-\u003eByteString",
@@ -172,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis was introduced in \u003ca\u003ebase\u003c/a\u003e some time after 7.0.4\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Internal",
           "name": "forkIOWithUnmask",
           "package": "network-transport",
@@ -182,6 +195,7 @@
         "index": {
           "description": "This was introduced in base some time after",
           "hierarchy": "Network Transport Internal",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Internal",
           "name": "forkIOWithUnmask",
           "normalized": "((a b IO c-\u003eIO c)-\u003eIO())-\u003eIO ThreadId",
@@ -198,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate exceptions that arise in IO computations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Internal",
           "name": "mapIOException",
           "package": "network-transport",
@@ -208,6 +223,7 @@
         "index": {
           "description": "Translate exceptions that arise in IO computations",
           "hierarchy": "Network Transport Internal",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Internal",
           "name": "mapIOException",
           "normalized": "(IOException-\u003ea)-\u003eIO b-\u003eIO b",
@@ -224,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepend a list of bytestrings with their total length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Internal",
           "name": "prependLength",
           "package": "network-transport",
@@ -234,6 +251,7 @@
         "index": {
           "description": "Prepend list of bytestrings with their total length",
           "hierarchy": "Network Transport Internal",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Internal",
           "name": "prependLength",
           "normalized": "[ByteString]-\u003e[ByteString]",
@@ -250,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the timeout value is not Nothing, wrap the given computation with a\n timeout and it if times out throw the specified exception. Identity\n otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Internal",
           "name": "timeoutMaybe",
           "package": "network-transport",
@@ -260,6 +279,7 @@
         "index": {
           "description": "If the timeout value is not Nothing wrap the given computation with timeout and it if times out throw the specified exception Identity otherwise",
           "hierarchy": "Network Transport Internal",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Internal",
           "name": "timeoutMaybe",
           "normalized": "Maybe Int-\u003ea-\u003eIO b-\u003eIO b",
@@ -276,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogging (for debugging)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Internal",
           "name": "tlog",
           "package": "network-transport",
@@ -286,6 +307,7 @@
         "index": {
           "description": "Logging for debugging",
           "hierarchy": "Network Transport Internal",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Internal",
           "name": "tlog",
           "normalized": "String-\u003ea()",
@@ -301,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etry\u003c/a\u003e\u003c/code\u003e, but lifted and specialized to IOExceptions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Internal",
           "name": "tryIO",
           "package": "network-transport",
@@ -311,6 +334,7 @@
         "index": {
           "description": "Like try but lifted and specialized to IOExceptions",
           "hierarchy": "Network Transport Internal",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Internal",
           "name": "tryIO",
           "normalized": "IO a-\u003eb(Either IOException a)",
@@ -327,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafe version of \u003ccode\u003e\u003ca\u003etoEnum\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Internal",
           "name": "tryToEnum",
           "package": "network-transport",
@@ -337,6 +362,7 @@
         "index": {
           "description": "Safe version of toEnum",
           "hierarchy": "Network Transport Internal",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Internal",
           "name": "tryToEnum",
           "normalized": "Int-\u003eMaybe a",
@@ -353,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot all versions of \u003ca\u003ebase\u003c/a\u003e export \u003ccode\u003e\u003ca\u003evoid\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Internal",
           "name": "void",
           "package": "network-transport",
@@ -363,6 +390,7 @@
         "index": {
           "description": "Not all versions of base export void",
           "hierarchy": "Network Transport Internal",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Internal",
           "name": "void",
           "normalized": "a b-\u003ea()",
@@ -378,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions \n\u003c/p\u003e\u003cp\u003eNote: this module is bound to change even more than the rest of the API :)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Util",
           "name": "Util",
           "package": "network-transport",
@@ -387,6 +416,7 @@
         "index": {
           "description": "Utility functions Note this module is bound to change even more than the rest of the API",
           "hierarchy": "Network Transport Util",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Util",
           "name": "Util",
           "package": "network-transport",
@@ -401,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork a new thread, create a new end point on that thread, and run the specified IO operation on that thread.\n\u003c/p\u003e\u003cp\u003eReturns the address of the new end point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport.Util",
           "name": "spawn",
           "package": "network-transport",
@@ -411,6 +442,7 @@
         "index": {
           "description": "Fork new thread create new end point on that thread and run the specified IO operation on that thread Returns the address of the new end point",
           "hierarchy": "Network Transport Util",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport.Util",
           "name": "spawn",
           "normalized": "Transport-\u003e(EndPoint-\u003eIO())-\u003eIO EndPointAddress",
@@ -426,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNetwork Transport \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "Transport",
           "package": "network-transport",
@@ -435,6 +468,7 @@
         "index": {
           "description": "Network Transport",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "Transport",
           "package": "network-transport",
@@ -449,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection failure \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ConnectErrorCode",
           "package": "network-transport",
@@ -458,6 +493,7 @@
         "index": {
           "description": "Connection failure",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ConnectErrorCode",
           "package": "network-transport",
@@ -472,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHints used by \u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ConnectHints",
           "package": "network-transport",
@@ -481,6 +518,7 @@
         "index": {
           "description": "Hints used by connect",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ConnectHints",
           "package": "network-transport",
@@ -495,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLightweight connection to an endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "Connection",
           "package": "network-transport",
@@ -504,6 +543,7 @@
         "index": {
           "description": "Lightweight connection to an endpoint",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "Connection",
           "package": "network-transport",
@@ -518,6 +558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection data ConnectHintsIDs enable receivers to distinguish one connection from another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ConnectionId",
           "package": "network-transport",
@@ -527,6 +568,7 @@
         "index": {
           "description": "Connection data ConnectHintsIDs enable receivers to distinguish one connection from another",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ConnectionId",
           "package": "network-transport",
@@ -541,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNetwork endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "EndPoint",
           "package": "network-transport",
@@ -550,6 +593,7 @@
         "index": {
           "description": "Network endpoint",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "EndPoint",
           "package": "network-transport",
@@ -564,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEndPointAddress of an endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "EndPointAddress",
           "package": "network-transport",
@@ -573,6 +618,7 @@
         "index": {
           "description": "EndPointAddress of an endpoint",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "EndPointAddress",
           "package": "network-transport",
@@ -587,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent on an endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "Event",
           "package": "network-transport",
@@ -596,6 +643,7 @@
         "index": {
           "description": "Event on an endpoint",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "Event",
           "package": "network-transport",
@@ -610,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError codes used when reporting errors to endpoints (through receive)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "EventErrorCode",
           "package": "network-transport",
@@ -619,6 +668,7 @@
         "index": {
           "description": "Error codes used when reporting errors to endpoints through receive",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "EventErrorCode",
           "package": "network-transport",
@@ -633,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEndPointAddress of a multicast group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "MulticastAddress",
           "package": "network-transport",
@@ -642,6 +693,7 @@
         "index": {
           "description": "EndPointAddress of multicast group",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "MulticastAddress",
           "package": "network-transport",
@@ -656,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMulticast group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "MulticastGroup",
           "package": "network-transport",
@@ -665,6 +718,7 @@
         "index": {
           "description": "Multicast group",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "MulticastGroup",
           "package": "network-transport",
@@ -679,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors during the creation of an endpoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "NewEndPointErrorCode",
           "package": "network-transport",
@@ -688,6 +743,7 @@
         "index": {
           "description": "Errors during the creation of an endpoint",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "NewEndPointErrorCode",
           "package": "network-transport",
@@ -702,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailure during the creation of a new multicast group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "NewMulticastGroupErrorCode",
           "package": "network-transport",
@@ -711,6 +768,7 @@
         "index": {
           "description": "Failure during the creation of new multicast group",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "NewMulticastGroupErrorCode",
           "package": "network-transport",
@@ -725,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReliability guarantees of a connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "Reliability",
           "package": "network-transport",
@@ -734,6 +793,7 @@
         "index": {
           "description": "Reliability guarantees of connection",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "Reliability",
           "package": "network-transport",
@@ -748,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailure during the resolution of a multicast group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ResolveMulticastGroupErrorCode",
           "package": "network-transport",
@@ -757,6 +818,7 @@
         "index": {
           "description": "Failure during the resolution of multicast group",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ResolveMulticastGroupErrorCode",
           "package": "network-transport",
@@ -771,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailure during sending a message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "SendErrorCode",
           "package": "network-transport",
@@ -780,6 +843,7 @@
         "index": {
           "description": "Failure during sending message",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "SendErrorCode",
           "package": "network-transport",
@@ -794,6 +858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo create a network abstraction layer, use one of the\n \u003ccode\u003eNetwork.Transport.*\u003c/code\u003e packages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "Transport",
           "package": "network-transport",
@@ -803,6 +868,7 @@
         "index": {
           "description": "To create network abstraction layer use one of the Network.Transport packages",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "Transport",
           "package": "network-transport",
@@ -817,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors returned by Network.Transport API functions consist of an error\n code and a human readable description of the problem \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "TransportError",
           "package": "network-transport",
@@ -826,6 +893,7 @@
         "index": {
           "description": "Errors returned by Network.Transport API functions consist of an error code and human readable description of the problem",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "TransportError",
           "package": "network-transport",
@@ -840,6 +908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailed for other reasons (including syntax error)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ConnectFailed",
           "package": "network-transport",
@@ -850,6 +919,7 @@
         "index": {
           "description": "Failed for other reasons including syntax error",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ConnectFailed",
           "package": "network-transport",
@@ -863,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ConnectHints",
           "package": "network-transport",
@@ -872,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ConnectHints",
           "package": "network-transport",
@@ -886,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsufficient resources (for instance, no more sockets available)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ConnectInsufficientResources",
           "package": "network-transport",
@@ -896,6 +969,7 @@
         "index": {
           "description": "Insufficient resources for instance no more sockets available",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ConnectInsufficientResources",
           "package": "network-transport",
@@ -910,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCould not resolve the address \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ConnectNotFound",
           "package": "network-transport",
@@ -920,6 +995,7 @@
         "index": {
           "description": "Could not resolve the address",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ConnectNotFound",
           "package": "network-transport",
@@ -934,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimeout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ConnectTimeout",
           "package": "network-transport",
@@ -944,6 +1021,7 @@
         "index": {
           "description": "Timeout",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ConnectTimeout",
           "package": "network-transport",
@@ -957,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "Connection",
           "package": "network-transport",
@@ -966,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "Connection",
           "package": "network-transport",
@@ -980,6 +1060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection closed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ConnectionClosed",
           "package": "network-transport",
@@ -990,6 +1071,7 @@
         "index": {
           "description": "Connection closed",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ConnectionClosed",
           "package": "network-transport",
@@ -1004,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection opened\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eConnectionId\u003c/a\u003e\u003c/code\u003es need not be allocated contiguously.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ConnectionOpened",
           "package": "network-transport",
@@ -1014,6 +1097,7 @@
         "index": {
           "description": "Connection opened ConnectionId need not be allocated contiguously",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ConnectionOpened",
           "package": "network-transport",
@@ -1027,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "EndPoint",
           "package": "network-transport",
@@ -1036,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "EndPoint",
           "package": "network-transport",
@@ -1049,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "EndPointAddress",
           "package": "network-transport",
@@ -1058,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "EndPointAddress",
           "package": "network-transport",
@@ -1072,6 +1160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe endpoint got closed (manually, by a call to closeEndPoint or closeTransport)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "EndPointClosed",
           "package": "network-transport",
@@ -1082,6 +1171,7 @@
         "index": {
           "description": "The endpoint got closed manually by call to closeEndPoint or closeTransport",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "EndPointClosed",
           "package": "network-transport",
@@ -1096,6 +1186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error occurred \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ErrorEvent",
           "package": "network-transport",
@@ -1106,6 +1197,7 @@
         "index": {
           "description": "An error occurred",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ErrorEvent",
           "package": "network-transport",
@@ -1120,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe lost connection to another endpoint\n\u003c/p\u003e\u003cp\u003eAlthough \u003ca\u003eNetwork.Transport\u003c/a\u003e provides multiple independent lightweight\n connections between endpoints, those connections cannot \u003cem\u003efail\u003c/em\u003e\n independently: once one connection has failed, \u003cem\u003eall\u003c/em\u003e connections, in\n both directions, must now be considered to have failed; they fail as a\n \u003ca\u003ebundle\u003c/a\u003e of connections, with only a single \u003ca\u003ebundle\u003c/a\u003e of connections per\n endpoint at any point in time.\n\u003c/p\u003e\u003cp\u003eThat is, suppose there are multiple connections in either direction\n between endpoints A and B, and A receives a notification that it has\n lost contact with B. Then A must not be able to send any further\n messages to B on existing connections. \n\u003c/p\u003e\u003cp\u003eAlthough B may not realize \u003cem\u003eimmediately\u003c/em\u003e that its connection to A has\n been broken, messages sent by B on existing connections should not be\n delivered, and B must eventually get an EventConnectionLost message,\n too. \n\u003c/p\u003e\u003cp\u003eMoreover, this event must be posted before A has successfully\n reconnected (in other words, if B notices a reconnection attempt from A,\n it must post the EventConnectionLost before acknowledging the connection\n from A) so that B will not receive events about new connections or\n incoming messages from A without realizing that it got disconnected. \n\u003c/p\u003e\u003cp\u003eIf B attempts to establish another connection to A before it realized\n that it got disconnected from A then it's okay for this connection\n attempt to fail, and the EventConnectionLost to be posted at that point,\n or for the EventConnectionLost to be posted and for the new connection\n to be considered the first connection of the \u003ca\u003enew bundle\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "EventConnectionLost",
           "package": "network-transport",
@@ -1130,6 +1223,7 @@
         "index": {
           "description": "We lost connection to another endpoint Although Network.Transport provides multiple independent lightweight connections between endpoints those connections cannot fail independently once one connection has failed all connections in both directions must now be considered to have failed they fail as bundle of connections with only single bundle of connections per endpoint at any point in time That is suppose there are multiple connections in either direction between endpoints and and receives notification that it has lost contact with Then must not be able to send any further messages to on existing connections Although may not realize immediately that its connection to has been broken messages sent by on existing connections should not be delivered and must eventually get an EventConnectionLost message too Moreover this event must be posted before has successfully reconnected in other words if notices reconnection attempt from it must post the EventConnectionLost before acknowledging the connection from so that will not receive events about new connections or incoming messages from without realizing that it got disconnected If attempts to establish another connection to before it realized that it got disconnected from then it okay for this connection attempt to fail and the EventConnectionLost to be posted at that point or for the EventConnectionLost to be posted and for the new connection to be considered the first connection of the new bundle",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "EventConnectionLost",
           "package": "network-transport",
@@ -1144,6 +1238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailure of the entire endpoint \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "EventEndPointFailed",
           "package": "network-transport",
@@ -1154,6 +1249,7 @@
         "index": {
           "description": "Failure of the entire endpoint",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "EventEndPointFailed",
           "package": "network-transport",
@@ -1168,6 +1264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransport-wide fatal error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "EventTransportFailed",
           "package": "network-transport",
@@ -1178,6 +1275,7 @@
         "index": {
           "description": "Transport-wide fatal error",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "EventTransportFailed",
           "package": "network-transport",
@@ -1191,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "MulticastAddress",
           "package": "network-transport",
@@ -1200,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "MulticastAddress",
           "package": "network-transport",
@@ -1213,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "MulticastGroup",
           "package": "network-transport",
@@ -1222,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "MulticastGroup",
           "package": "network-transport",
@@ -1236,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailed for some other reason\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "NewEndPointFailed",
           "package": "network-transport",
@@ -1246,6 +1349,7 @@
         "index": {
           "description": "Failed for some other reason",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "NewEndPointFailed",
           "package": "network-transport",
@@ -1260,6 +1364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot enough resources\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "NewEndPointInsufficientResources",
           "package": "network-transport",
@@ -1270,6 +1375,7 @@
         "index": {
           "description": "Not enough resources",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "NewEndPointInsufficientResources",
           "package": "network-transport",
@@ -1284,6 +1390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailed for some other reason\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "NewMulticastGroupFailed",
           "package": "network-transport",
@@ -1294,6 +1401,7 @@
         "index": {
           "description": "Failed for some other reason",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "NewMulticastGroupFailed",
           "package": "network-transport",
@@ -1308,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsufficient resources\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "NewMulticastGroupInsufficientResources",
           "package": "network-transport",
@@ -1318,6 +1427,7 @@
         "index": {
           "description": "Insufficient resources",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "NewMulticastGroupInsufficientResources",
           "package": "network-transport",
@@ -1332,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot all transport implementations support multicast\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "NewMulticastGroupUnsupported",
           "package": "network-transport",
@@ -1342,6 +1453,7 @@
         "index": {
           "description": "Not all transport implementations support multicast",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "NewMulticastGroupUnsupported",
           "package": "network-transport",
@@ -1356,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceived a message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "Received",
           "package": "network-transport",
@@ -1366,6 +1479,7 @@
         "index": {
           "description": "Received message",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "Received",
           "normalized": "Received ConnectionId[ByteString]",
@@ -1382,6 +1496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceived multicast\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ReceivedMulticast",
           "package": "network-transport",
@@ -1392,6 +1507,7 @@
         "index": {
           "description": "Received multicast",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ReceivedMulticast",
           "normalized": "ReceivedMulticast MulticastAddress[ByteString]",
@@ -1407,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ReliableOrdered",
           "package": "network-transport",
@@ -1416,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ReliableOrdered",
           "package": "network-transport",
@@ -1429,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ReliableUnordered",
           "package": "network-transport",
@@ -1438,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ReliableUnordered",
           "package": "network-transport",
@@ -1452,6 +1572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailed for some other reason (including syntax error)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ResolveMulticastGroupFailed",
           "package": "network-transport",
@@ -1462,6 +1583,7 @@
         "index": {
           "description": "Failed for some other reason including syntax error",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ResolveMulticastGroupFailed",
           "package": "network-transport",
@@ -1476,6 +1598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMulticast group not found\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ResolveMulticastGroupNotFound",
           "package": "network-transport",
@@ -1486,6 +1609,7 @@
         "index": {
           "description": "Multicast group not found",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ResolveMulticastGroupNotFound",
           "package": "network-transport",
@@ -1500,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot all transport implementations support multicast \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "ResolveMulticastGroupUnsupported",
           "package": "network-transport",
@@ -1510,6 +1635,7 @@
         "index": {
           "description": "Not all transport implementations support multicast",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "ResolveMulticastGroupUnsupported",
           "package": "network-transport",
@@ -1524,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection was closed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "SendClosed",
           "package": "network-transport",
@@ -1534,6 +1661,7 @@
         "index": {
           "description": "Connection was closed",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "SendClosed",
           "package": "network-transport",
@@ -1548,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend failed for some other reason\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "SendFailed",
           "package": "network-transport",
@@ -1558,6 +1687,7 @@
         "index": {
           "description": "Send failed for some other reason",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "SendFailed",
           "package": "network-transport",
@@ -1571,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "Transport",
           "package": "network-transport",
@@ -1580,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "Transport",
           "package": "network-transport",
@@ -1593,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "TransportError",
           "package": "network-transport",
@@ -1602,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "TransportError",
           "package": "network-transport",
@@ -1615,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "Unreliable",
           "package": "network-transport",
@@ -1624,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "Unreliable",
           "package": "network-transport",
@@ -1638,6 +1774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEndPointAddress of the endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "address",
           "package": "network-transport",
@@ -1648,6 +1785,7 @@
         "index": {
           "description": "EndPointAddress of the endpoint",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "address",
           "package": "network-transport",
@@ -1661,6 +1799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "close",
           "package": "network-transport",
@@ -1671,6 +1810,7 @@
         "index": {
           "description": "Close the connection",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "close",
           "normalized": "IO()",
@@ -1686,6 +1826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the endpoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "closeEndPoint",
           "package": "network-transport",
@@ -1696,6 +1837,7 @@
         "index": {
           "description": "Close the endpoint",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "closeEndPoint",
           "normalized": "IO()",
@@ -1712,6 +1854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShutdown the transport completely \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "closeTransport",
           "package": "network-transport",
@@ -1722,6 +1865,7 @@
         "index": {
           "description": "Shutdown the transport completely",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "closeTransport",
           "normalized": "IO()",
@@ -1738,6 +1882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new lightweight connection. \n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e should be as asynchronous as possible; for instance, in\n Transport implementations based on some heavy-weight underlying network\n protocol (TCP, ssh), a call to \u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e should be asynchronous when a\n heavyweight connection has already been established.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "connect",
           "package": "network-transport",
@@ -1748,6 +1893,7 @@
         "index": {
           "description": "Create new lightweight connection connect should be as asynchronous as possible for instance in Transport implementations based on some heavy-weight underlying network protocol TCP ssh call to connect should be asynchronous when heavyweight connection has already been established",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "connect",
           "normalized": "EndPointAddress-\u003eReliability-\u003eConnectHints-\u003eIO(Either(TransportError ConnectErrorCode)Connection)",
@@ -1762,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "connectTimeout",
           "package": "network-transport",
@@ -1771,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "connectTimeout",
           "package": "network-transport",
@@ -1785,6 +1933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault hints for connecting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "defaultConnectHints",
           "package": "network-transport",
@@ -1795,6 +1944,7 @@
         "index": {
           "description": "Default hints for connecting",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "defaultConnectHints",
           "package": "network-transport",
@@ -1809,6 +1959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the multicast group completely.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "deleteMulticastGroup",
           "package": "network-transport",
@@ -1819,6 +1970,7 @@
         "index": {
           "description": "Delete the multicast group completely",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "deleteMulticastGroup",
           "normalized": "IO()",
@@ -1834,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "endPointAddressToByteString",
           "package": "network-transport",
@@ -1843,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "endPointAddressToByteString",
           "package": "network-transport",
@@ -1857,6 +2011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum message size that we can send to this group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "maxMsgSize",
           "package": "network-transport",
@@ -1867,6 +2022,7 @@
         "index": {
           "description": "Maximum message size that we can send to this group",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "maxMsgSize",
           "package": "network-transport",
@@ -1881,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEndPointAddress of the multicast group. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "multicastAddress",
           "package": "network-transport",
@@ -1891,6 +2048,7 @@
         "index": {
           "description": "EndPointAddress of the multicast group",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "multicastAddress",
           "package": "network-transport",
@@ -1904,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "multicastAddressToByteString",
           "package": "network-transport",
@@ -1913,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "multicastAddressToByteString",
           "package": "network-transport",
@@ -1927,6 +2087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the group (that is, indicate you no longer wish to send to the group).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "multicastClose",
           "package": "network-transport",
@@ -1937,6 +2098,7 @@
         "index": {
           "description": "Close the group that is indicate you no longer wish to send to the group",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "multicastClose",
           "normalized": "IO()",
@@ -1953,6 +2115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a message to the group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "multicastSend",
           "package": "network-transport",
@@ -1963,6 +2126,7 @@
         "index": {
           "description": "Send message to the group",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "multicastSend",
           "normalized": "[ByteString]-\u003eIO()",
@@ -1979,6 +2143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubscribe to the given multicast group (to start receiving messages from the group).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "multicastSubscribe",
           "package": "network-transport",
@@ -1989,6 +2154,7 @@
         "index": {
           "description": "Subscribe to the given multicast group to start receiving messages from the group",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "multicastSubscribe",
           "normalized": "IO()",
@@ -2005,6 +2171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsubscribe from the given multicast group (to stop receiving messages from the group).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "multicastUnsubscribe",
           "package": "network-transport",
@@ -2015,6 +2182,7 @@
         "index": {
           "description": "Unsubscribe from the given multicast group to stop receiving messages from the group",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "multicastUnsubscribe",
           "normalized": "IO()",
@@ -2031,6 +2199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new end point (heavyweight operation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "newEndPoint",
           "package": "network-transport",
@@ -2041,6 +2210,7 @@
         "index": {
           "description": "Create new end point heavyweight operation",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "newEndPoint",
           "package": "network-transport",
@@ -2055,6 +2225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new multicast group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "newMulticastGroup",
           "package": "network-transport",
@@ -2065,6 +2236,7 @@
         "index": {
           "description": "Create new multicast group",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "newMulticastGroup",
           "package": "network-transport",
@@ -2079,6 +2251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEndpoints have a single shared receive queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "receive",
           "package": "network-transport",
@@ -2089,6 +2262,7 @@
         "index": {
           "description": "Endpoints have single shared receive queue",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "receive",
           "package": "network-transport",
@@ -2102,6 +2276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve an address to a multicast group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "resolveMulticastGroup",
           "package": "network-transport",
@@ -2112,6 +2287,7 @@
         "index": {
           "description": "Resolve an address to multicast group",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "resolveMulticastGroup",
           "normalized": "MulticastAddress-\u003eIO(Either(TransportError ResolveMulticastGroupErrorCode)MulticastGroup)",
@@ -2128,6 +2304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a message on this connection.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003esend\u003c/a\u003e\u003c/code\u003e provides vectored I/O, and allows multiple data segments to be\n sent using a single call (cf. \u003ccode\u003e\u003ca\u003esendMany\u003c/a\u003e\u003c/code\u003e).\n Note that this segment structure is entirely unrelated to the segment\n structure \u003cem\u003ereturned\u003c/em\u003e by a \u003ccode\u003e\u003ca\u003eReceived\u003c/a\u003e\u003c/code\u003e event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:39 UTC 2014",
           "module": "Network.Transport",
           "name": "send",
           "package": "network-transport",
@@ -2138,6 +2315,7 @@
         "index": {
           "description": "Send message on this connection send provides vectored and allows multiple data segments to be sent using single call cf sendMany Note that this segment structure is entirely unrelated to the segment structure returned by Received event",
           "hierarchy": "Network Transport",
+          "indexed": "2014-03-11T19:28:39",
           "module": "Network.Transport",
           "name": "send",
           "normalized": "[ByteString]-\u003eIO(Either(TransportError SendErrorCode)())",

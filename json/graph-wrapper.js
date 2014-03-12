@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "graph-wrapper"
+        "phrase": "graph-wrapper",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExposes things that are considered to be too unstable for inclusion in the exports of \u003ca\u003eData.Graph.Wrapper\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eUse of this module should be avoided as it will change frequently and changes to this module alone will not necessarily\n follow the Package Versioning Policy.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "Internal",
           "package": "graph-wrapper",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Exposes things that are considered to be too unstable for inclusion in the exports of Data.Graph.Wrapper Use of this module should be avoided as it will change frequently and changes to this module alone will not necessarily follow the Package Versioning Policy",
           "hierarchy": "Data Graph Wrapper Internal",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "Internal",
           "package": "graph-wrapper",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn edge from the first vertex to the second\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "Edge",
           "package": "graph-wrapper",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An edge from the first vertex to the second",
           "hierarchy": "Data Graph Wrapper Internal",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "Edge",
           "package": "graph-wrapper",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA directed graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "Graph",
           "package": "graph-wrapper",
@@ -74,6 +79,7 @@
         "index": {
           "description": "directed graph",
           "hierarchy": "Data Graph Wrapper Internal",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "Graph",
           "package": "graph-wrapper",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "G",
           "package": "graph-wrapper",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Wrapper Internal",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "G",
           "package": "graph-wrapper",
@@ -134,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "gVertexIndex",
           "package": "graph-wrapper",
@@ -143,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Wrapper Internal",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "gVertexIndex",
           "normalized": "Graph a b-\u003eVertex-\u003ea",
@@ -158,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "gVertexVertex",
           "package": "graph-wrapper",
@@ -167,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Wrapper Internal",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "gVertexVertex",
           "normalized": "Graph a b-\u003eVertex-\u003eb",
@@ -182,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "gVertexVertexArray",
           "package": "graph-wrapper",
@@ -191,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Wrapper Internal",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "gVertexVertexArray",
           "package": "graph-wrapper",
@@ -204,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "graph",
           "package": "graph-wrapper",
@@ -213,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Wrapper Internal",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "graph",
           "package": "graph-wrapper",
@@ -225,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "indexGVertex",
           "package": "graph-wrapper",
@@ -234,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Wrapper Internal",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "indexGVertex",
           "normalized": "Graph a b-\u003ea-\u003eVertex",
@@ -249,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "indexGVertex'",
           "package": "graph-wrapper",
@@ -258,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Wrapper Internal",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "indexGVertex'",
           "normalized": "Array Vertex a-\u003ea-\u003eVertex",
@@ -273,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "indexGVertex'_maybe",
           "package": "graph-wrapper",
@@ -282,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Wrapper Internal",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "indexGVertex'_maybe",
           "normalized": "Array Vertex a-\u003ea-\u003eMaybe Vertex",
@@ -297,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "indexGVertexArray",
           "package": "graph-wrapper",
@@ -306,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Wrapper Internal",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper.Internal",
           "name": "indexGVertexArray",
           "package": "graph-wrapper",
@@ -397,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA wrapper around the types and functions from \u003ca\u003eData.Graph\u003c/a\u003e to make programming with them less painful. Also\n implements some extra useful goodies such as \u003ccode\u003e\u003ca\u003esuccessors\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esccGraph\u003c/a\u003e\u003c/code\u003e, and improves the documentation of\n the behaviour of some functions.\n\u003c/p\u003e\u003cp\u003eAs it wraps \u003ca\u003eData.Graph\u003c/a\u003e, this module only supports directed graphs with unlabelled edges.\n\u003c/p\u003e\u003cp\u003eIncorporates code from the \u003ccode\u003econtainers\u003c/code\u003e package which is (c) The University of Glasgow 2002 and based\n on code described in:\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eLazy Depth-First Search and Linear Graph Algorithms in Haskell\u003c/em\u003e,\n   by David King and John Launchbury\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "Wrapper",
           "package": "graph-wrapper",
@@ -406,6 +431,7 @@
         "index": {
           "description": "wrapper around the types and functions from Data.Graph to make programming with them less painful Also implements some extra useful goodies such as successors and sccGraph and improves the documentation of the behaviour of some functions As it wraps Data.Graph this module only supports directed graphs with unlabelled edges Incorporates code from the containers package which is The University of Glasgow and based on code described in Lazy Depth-First Search and Linear Graph Algorithms in Haskell by David King and John Launchbury",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "Wrapper",
           "package": "graph-wrapper",
@@ -420,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn edge from the first vertex to the second\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "Edge",
           "package": "graph-wrapper",
@@ -429,6 +456,7 @@
         "index": {
           "description": "An edge from the first vertex to the second",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "Edge",
           "package": "graph-wrapper",
@@ -443,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA directed graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "Graph",
           "package": "graph-wrapper",
@@ -452,6 +481,7 @@
         "index": {
           "description": "directed graph",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "Graph",
           "package": "graph-wrapper",
@@ -465,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "SCC",
           "package": "graph-wrapper",
@@ -473,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "SCC",
           "package": "graph-wrapper",
@@ -486,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "AcyclicSCC",
           "package": "graph-wrapper",
@@ -495,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "AcyclicSCC",
           "package": "graph-wrapper",
@@ -508,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "CyclicSCC",
           "package": "graph-wrapper",
@@ -517,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "CyclicSCC",
           "normalized": "CyclicSCC[a]",
@@ -533,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber the vertices in the graph by how far away they are from the given roots. The roots themselves have depth 0,\n and every subsequent link we traverse adds 1 to the depth. If a vertex is not reachable it will have a depth of \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "depthNumbering",
           "package": "graph-wrapper",
@@ -543,6 +580,7 @@
         "index": {
           "description": "Number the vertices in the graph by how far away they are from the given roots The roots themselves have depth and every subsequent link we traverse adds to the depth If vertex is not reachable it will have depth of Nothing",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "depthNumbering",
           "normalized": "Graph a b-\u003e[a]-\u003eGraph a(b,Maybe Int)",
@@ -559,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e that contains the given vertex data, linked up according to the supplied index and edge list.\n\u003c/p\u003e\u003cp\u003eUnlike \u003ccode\u003e\u003ca\u003egraphFromEdges\u003c/a\u003e\u003c/code\u003e, indexes in the edge list that do not correspond to the index of some item in the\n input list are reported as an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "fromList",
           "package": "graph-wrapper",
@@ -569,6 +608,7 @@
         "index": {
           "description": "Construct Graph that contains the given vertex data linked up according to the supplied index and edge list Unlike graphFromEdges indexes in the edge list that do not correspond to the index of some item in the input list are reported as an error",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "fromList",
           "normalized": "[(a,b,[a])]-\u003eGraph a b",
@@ -585,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e that contains the given vertex data, linked up according to the supplied key extraction\n function and edge list.\n\u003c/p\u003e\u003cp\u003eUnlike \u003ccode\u003e\u003ca\u003egraphFromEdges\u003c/a\u003e\u003c/code\u003e, indexes in the edge list that do not correspond to the index of some item in the\n input list are reported as an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "fromListBy",
           "package": "graph-wrapper",
@@ -595,6 +636,7 @@
         "index": {
           "description": "Construct Graph that contains the given vertex data linked up according to the supplied key extraction function and edge list Unlike graphFromEdges indexes in the edge list that do not correspond to the index of some item in the input list are reported as an error",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "fromListBy",
           "normalized": "(a-\u003eb)-\u003e[(a,[b])]-\u003eGraph b a",
@@ -611,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e that contains the given vertex data, linked up according to the supplied index and edge list.\n\u003c/p\u003e\u003cp\u003eLike \u003ccode\u003e\u003ca\u003egraphFromEdges\u003c/a\u003e\u003c/code\u003e, indexes in the edge list that do not correspond to the index of some item in the\n input list are silently ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "fromListLenient",
           "package": "graph-wrapper",
@@ -621,6 +664,7 @@
         "index": {
           "description": "Construct Graph that contains the given vertex data linked up according to the supplied index and edge list Like graphFromEdges indexes in the edge list that do not correspond to the index of some item in the input list are silently ignored",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "fromListLenient",
           "normalized": "[(a,b,[a])]-\u003eGraph a b",
@@ -637,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e where the vertex data double up as the indices.\n\u003c/p\u003e\u003cp\u003eUnlike \u003ccode\u003e\u003ca\u003egraphFromEdges\u003c/a\u003e\u003c/code\u003e, vertex data that is listed as edges that are not actually themselves\n present in the input list are reported as an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "fromListSimple",
           "package": "graph-wrapper",
@@ -647,6 +692,7 @@
         "index": {
           "description": "Construct Graph where the vertex data double up as the indices Unlike graphFromEdges vertex data that is listed as edges that are not actually themselves present in the input list are reported as an error",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "fromListSimple",
           "normalized": "[(a,[a])]-\u003eGraph a a",
@@ -663,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e directly from a list of vertices (and vertex data).\n\u003c/p\u003e\u003cp\u003eIf either end of an \u003ccode\u003e\u003ca\u003eEdge\u003c/a\u003e\u003c/code\u003e does not correspond to a supplied vertex, an error will be raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "fromVerticesEdges",
           "package": "graph-wrapper",
@@ -673,6 +720,7 @@
         "index": {
           "description": "Construct Graph directly from list of vertices and vertex data If either end of an Edge does not correspond to supplied vertex an error will be raised",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "fromVerticesEdges",
           "normalized": "[(a,b)]-\u003e[Edge a]-\u003eGraph a b",
@@ -689,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the second vertex reachable by following edges from the first vertex?\n\u003c/p\u003e\u003cp\u003eIt is worth sharing a partial application of \u003ccode\u003e\u003ca\u003ehasPath\u003c/a\u003e\u003c/code\u003e to the first vertex if you are testing for several\n vertices being reachable from it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "hasPath",
           "package": "graph-wrapper",
@@ -699,6 +748,7 @@
         "index": {
           "description": "Is the second vertex reachable by following edges from the first vertex It is worth sharing partial application of hasPath to the first vertex if you are testing for several vertices being reachable from it",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "hasPath",
           "normalized": "Graph a b-\u003ea-\u003ea-\u003eBool",
@@ -715,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of edges going in to the vertex.\n\u003c/p\u003e\u003cp\u003eIt is worth sharing a partial application of \u003ccode\u003e\u003ca\u003eindegree\u003c/a\u003e\u003c/code\u003e to the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e argument if you intend to query\n for the indegrees of a number of vertices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "indegree",
           "package": "graph-wrapper",
@@ -725,6 +776,7 @@
         "index": {
           "description": "Number of edges going in to the vertex It is worth sharing partial application of indegree to the Graph argument if you intend to query for the indegrees of number of vertices",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "indegree",
           "normalized": "Graph a b-\u003ea-\u003eInt",
@@ -740,6 +792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of edges going out of the vertex.\n\u003c/p\u003e\u003cp\u003eIt is worth sharing a partial application of \u003ccode\u003e\u003ca\u003eoutdegree\u003c/a\u003e\u003c/code\u003e to the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e argument if you intend to query\n for the outdegrees of a number of vertices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "outdegree",
           "package": "graph-wrapper",
@@ -750,6 +803,7 @@
         "index": {
           "description": "Number of edges going out of the vertex It is worth sharing partial application of outdegree to the Graph argument if you intend to query for the outdegrees of number of vertices",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "outdegree",
           "normalized": "Graph a b-\u003ea-\u003eInt",
@@ -765,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all of the vertices reachable from the given starting point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "reachableVertices",
           "package": "graph-wrapper",
@@ -775,6 +830,7 @@
         "index": {
           "description": "List all of the vertices reachable from the given starting point",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "reachableVertices",
           "normalized": "Graph a b-\u003ea-\u003e[a]",
@@ -791,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe graph formed by the strongly connected components of the input graph. Each node in the resulting\n graph is indexed by the set of vertex indices from the input graph that it contains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "sccGraph",
           "package": "graph-wrapper",
@@ -801,6 +858,7 @@
         "index": {
           "description": "The graph formed by the strongly connected components of the input graph Each node in the resulting graph is indexed by the set of vertex indices from the input graph that it contains",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "sccGraph",
           "normalized": "Graph a b-\u003eGraph(Set a)(Map a b)",
@@ -817,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrongly connected components (\u003ca\u003ehttp://en.wikipedia.org/wiki/Strongly_connected_component\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eThe SCCs are listed in a *reverse topological order*. That is to say, any edges *to* a node in the SCC\n originate either *from*:\n\u003c/p\u003e\u003cp\u003e1) Within the SCC itself (in the case of a \u003ccode\u003e\u003ca\u003eCyclicSCC\u003c/a\u003e\u003c/code\u003e only)\n   2) Or from a node in a SCC later on in the list\n\u003c/p\u003e\u003cp\u003eVertex \u003cem\u003ei\u003c/em\u003e strictly precedes \u003cem\u003ej\u003c/em\u003e in the output whenever \u003cem\u003ei\u003c/em\u003e is reachable from \u003cem\u003ej\u003c/em\u003e but not vice versa.\n Vertex \u003cem\u003ei\u003c/em\u003e occurs in the same SCC as \u003cem\u003ej\u003c/em\u003e whenever both \u003cem\u003ei\u003c/em\u003e is reachable from \u003cem\u003ej\u003c/em\u003e and \u003cem\u003ej\u003c/em\u003e is reachable from \u003cem\u003ei\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "stronglyConnectedComponents",
           "package": "graph-wrapper",
@@ -827,6 +886,7 @@
         "index": {
           "description": "Strongly connected components http en.wikipedia.org wiki Strongly connected component The SCCs are listed in reverse topological order That is to say any edges to node in the SCC originate either from Within the SCC itself in the case of CyclicSCC only Or from node in SCC later on in the list Vertex strictly precedes in the output whenever is reachable from but not vice versa Vertex occurs in the same SCC as whenever both is reachable from and is reachable from",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "stronglyConnectedComponents",
           "normalized": "Graph a b-\u003e[SCC a]",
@@ -843,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the vertices we can reach from a vertex with the given indentity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "successors",
           "package": "graph-wrapper",
@@ -853,6 +914,7 @@
         "index": {
           "description": "Find the vertices we can reach from vertex with the given indentity",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "successors",
           "normalized": "Graph a b-\u003ea-\u003e[a]",
@@ -868,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMorally, the inverse of \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e. The order of the elements in the output list is unspecified, as is the order of the edges\n in each node's adjacency list. For this reason, \u003ccode\u003etoList . fromList\u003c/code\u003e is not necessarily the identity function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "toList",
           "package": "graph-wrapper",
@@ -878,6 +941,7 @@
         "index": {
           "description": "Morally the inverse of fromList The order of the elements in the output list is unspecified as is the order of the edges in each node adjacency list For this reason toList fromList is not necessarily the identity function",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "toList",
           "normalized": "Graph a b-\u003e[(a,b,[a])]",
@@ -894,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTopological sort of of the graph (\u003ca\u003ehttp://en.wikipedia.org/wiki/Topological_sort\u003c/a\u003e). If the graph is acyclic,\n vertices will only appear in the list once all of those vertices with arrows to them have already appeared.\n\u003c/p\u003e\u003cp\u003eVertex \u003cem\u003ei\u003c/em\u003e precedes \u003cem\u003ej\u003c/em\u003e in the output whenever \u003cem\u003ej\u003c/em\u003e is reachable from \u003cem\u003ei\u003c/em\u003e but not vice versa.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "topologicalSort",
           "package": "graph-wrapper",
@@ -904,6 +969,7 @@
         "index": {
           "description": "Topological sort of of the graph http en.wikipedia.org wiki Topological sort If the graph is acyclic vertices will only appear in the list once all of those vertices with arrows to them have already appeared Vertex precedes in the output whenever is reachable from but not vice versa",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "topologicalSort",
           "normalized": "Graph a b-\u003e[a]",
@@ -920,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe graph formed by flipping all the edges, so edges from i to j now go from j to i\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:33 UTC 2014",
           "module": "Data.Graph.Wrapper",
           "name": "transpose",
           "package": "graph-wrapper",
@@ -930,6 +997,7 @@
         "index": {
           "description": "The graph formed by flipping all the edges so edges from to now go from to",
           "hierarchy": "Data Graph Wrapper",
+          "indexed": "2014-03-11T18:20:33",
           "module": "Data.Graph.Wrapper",
           "name": "transpose",
           "normalized": "Graph a b-\u003eGraph a b",

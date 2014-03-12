@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "YamlReference"
+        "phrase": "YamlReference",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of the YAML syntax as defined in \u003ca\u003ehttp://www.yaml.org\u003c/a\u003e.\n Actually this file contains the parsing framework and includes (using CPP)\n the actual productions from \u003ccode\u003eReference.bnf\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe parsing framework is fully streaming (generates output tokens\n \"immediately\").\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Reference",
           "package": "YamlReference",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implementation of the YAML syntax as defined in http www.yaml.org Actually this file contains the parsing framework and includes using CPP the actual productions from Reference.bnf The parsing framework is fully streaming generates output tokens immediately",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Reference",
           "package": "YamlReference",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChomp method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Chomp",
           "package": "YamlReference",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Chomp method",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Chomp",
           "package": "YamlReference",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003e codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Code",
           "package": "YamlReference",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Token codes",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Code",
           "package": "YamlReference",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduction context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Context",
           "package": "YamlReference",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Production context",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Context",
           "package": "YamlReference",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsed token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Token",
           "package": "YamlReference",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Parsed token",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Token",
           "package": "YamlReference",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTokenizer\u003c/a\u003e\u003c/code\u003e converts a (named) input text into a list of \u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003e. Errors\n are reported as tokens with the \u003ccode\u003eError\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCode\u003c/a\u003e\u003c/code\u003e, and the unparsed text\n following an error may be attached as a final token (if the \u003ccode\u003eBool\u003c/code\u003e is\n \u003ccode\u003eTrue\u003c/code\u003e). Note that tokens are available \"immediately\", allowing for\n streaming of large YAML files with memory requirements depending only on the\n YAML nesting level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Tokenizer",
           "package": "YamlReference",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Tokenizer converts named input text into list of Token Errors are reported as tokens with the Error Code and the unparsed text following an error may be attached as final token if the Bool is True Note that tokens are available immediately allowing for streaming of large YAML files with memory requirements depending only on the YAML nesting level",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Tokenizer",
           "package": "YamlReference",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins alias.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginAlias",
           "package": "YamlReference",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Begins alias",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginAlias",
           "package": "YamlReference",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins anchor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginAnchor",
           "package": "YamlReference",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Begins anchor",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginAnchor",
           "package": "YamlReference",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins comment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginComment",
           "package": "YamlReference",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Begins comment",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginComment",
           "package": "YamlReference",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins directive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginDirective",
           "package": "YamlReference",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Begins directive",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginDirective",
           "package": "YamlReference",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginDocument",
           "package": "YamlReference",
@@ -263,6 +284,7 @@
         "index": {
           "description": "Begins document",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginDocument",
           "package": "YamlReference",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins escape sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginEscape",
           "package": "YamlReference",
@@ -287,6 +310,7 @@
         "index": {
           "description": "Begins escape sequence",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginEscape",
           "package": "YamlReference",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins tag handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginHandle",
           "package": "YamlReference",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Begins tag handle",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginHandle",
           "package": "YamlReference",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins mapping content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginMapping",
           "package": "YamlReference",
@@ -335,6 +362,7 @@
         "index": {
           "description": "Begins mapping content",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginMapping",
           "package": "YamlReference",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins complete node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginNode",
           "package": "YamlReference",
@@ -359,6 +388,7 @@
         "index": {
           "description": "Begins complete node",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginNode",
           "package": "YamlReference",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins mapping key:value pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginPair",
           "package": "YamlReference",
@@ -383,6 +414,7 @@
         "index": {
           "description": "Begins mapping key value pair",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginPair",
           "package": "YamlReference",
@@ -397,6 +429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins node properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginProperties",
           "package": "YamlReference",
@@ -407,6 +440,7 @@
         "index": {
           "description": "Begins node properties",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginProperties",
           "package": "YamlReference",
@@ -421,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins scalar content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginScalar",
           "package": "YamlReference",
@@ -431,6 +466,7 @@
         "index": {
           "description": "Begins scalar content",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginScalar",
           "package": "YamlReference",
@@ -445,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins sequence content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginSequence",
           "package": "YamlReference",
@@ -455,6 +492,7 @@
         "index": {
           "description": "Begins sequence content",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginSequence",
           "package": "YamlReference",
@@ -469,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins YAML stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginStream",
           "package": "YamlReference",
@@ -479,6 +518,7 @@
         "index": {
           "description": "Begins YAML stream",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginStream",
           "package": "YamlReference",
@@ -493,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegins tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "BeginTag",
           "package": "YamlReference",
@@ -503,6 +544,7 @@
         "index": {
           "description": "Begins tag",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "BeginTag",
           "package": "YamlReference",
@@ -517,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBOM, contains \"\u003ccode\u003eTF8\u003c/code\u003e\", \"\u003ccode\u003eTF16LE\u003c/code\u003e\", \"\u003ccode\u003eTF32BE\u003c/code\u003e\", etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Bom",
           "package": "YamlReference",
@@ -527,6 +570,7 @@
         "index": {
           "description": "BOM contains TF8 TF16LE TF32BE etc",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Bom",
           "package": "YamlReference",
@@ -541,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparation line break.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Break",
           "package": "YamlReference",
@@ -551,6 +596,7 @@
         "index": {
           "description": "Separation line break",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Break",
           "package": "YamlReference",
@@ -565,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetected parameter (for testing).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Detected",
           "package": "YamlReference",
@@ -575,6 +622,7 @@
         "index": {
           "description": "Detected parameter for testing",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Detected",
           "package": "YamlReference",
@@ -589,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument start marker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "DirectivesEnd",
           "package": "YamlReference",
@@ -599,6 +648,7 @@
         "index": {
           "description": "Document start marker",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "DirectivesEnd",
           "package": "YamlReference",
@@ -613,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument end marker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "DocumentEnd",
           "package": "YamlReference",
@@ -623,6 +674,7 @@
         "index": {
           "description": "Document end marker",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "DocumentEnd",
           "package": "YamlReference",
@@ -637,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds alias.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndAlias",
           "package": "YamlReference",
@@ -647,6 +700,7 @@
         "index": {
           "description": "Ends alias",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndAlias",
           "package": "YamlReference",
@@ -661,6 +715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds anchor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndAnchor",
           "package": "YamlReference",
@@ -671,6 +726,7 @@
         "index": {
           "description": "Ends anchor",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndAnchor",
           "package": "YamlReference",
@@ -685,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds comment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndComment",
           "package": "YamlReference",
@@ -695,6 +752,7 @@
         "index": {
           "description": "Ends comment",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndComment",
           "package": "YamlReference",
@@ -709,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds directive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndDirective",
           "package": "YamlReference",
@@ -719,6 +778,7 @@
         "index": {
           "description": "Ends directive",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndDirective",
           "package": "YamlReference",
@@ -733,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndDocument",
           "package": "YamlReference",
@@ -743,6 +804,7 @@
         "index": {
           "description": "Ends document",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndDocument",
           "package": "YamlReference",
@@ -757,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds escape sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndEscape",
           "package": "YamlReference",
@@ -767,6 +830,7 @@
         "index": {
           "description": "Ends escape sequence",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndEscape",
           "package": "YamlReference",
@@ -781,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds tag handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndHandle",
           "package": "YamlReference",
@@ -791,6 +856,7 @@
         "index": {
           "description": "Ends tag handle",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndHandle",
           "package": "YamlReference",
@@ -805,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds mapping content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndMapping",
           "package": "YamlReference",
@@ -815,6 +882,7 @@
         "index": {
           "description": "Ends mapping content",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndMapping",
           "package": "YamlReference",
@@ -829,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds complete node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndNode",
           "package": "YamlReference",
@@ -839,6 +908,7 @@
         "index": {
           "description": "Ends complete node",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndNode",
           "package": "YamlReference",
@@ -853,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds mapping key:value pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndPair",
           "package": "YamlReference",
@@ -863,6 +934,7 @@
         "index": {
           "description": "Ends mapping key value pair",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndPair",
           "package": "YamlReference",
@@ -877,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds node properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndProperties",
           "package": "YamlReference",
@@ -887,6 +960,7 @@
         "index": {
           "description": "Ends node properties",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndProperties",
           "package": "YamlReference",
@@ -901,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds scalar content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndScalar",
           "package": "YamlReference",
@@ -911,6 +986,7 @@
         "index": {
           "description": "Ends scalar content",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndScalar",
           "package": "YamlReference",
@@ -925,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds sequence content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndSequence",
           "package": "YamlReference",
@@ -935,6 +1012,7 @@
         "index": {
           "description": "Ends sequence content",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndSequence",
           "package": "YamlReference",
@@ -949,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds YAML stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndStream",
           "package": "YamlReference",
@@ -959,6 +1038,7 @@
         "index": {
           "description": "Ends YAML stream",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndStream",
           "package": "YamlReference",
@@ -973,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnds tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "EndTag",
           "package": "YamlReference",
@@ -983,6 +1064,7 @@
         "index": {
           "description": "Ends tag",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "EndTag",
           "package": "YamlReference",
@@ -997,6 +1079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing error at this point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Error",
           "package": "YamlReference",
@@ -1007,6 +1090,7 @@
         "index": {
           "description": "Parsing error at this point",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Error",
           "package": "YamlReference",
@@ -1021,6 +1105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndentation spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Indent",
           "package": "YamlReference",
@@ -1031,6 +1116,7 @@
         "index": {
           "description": "Indentation spaces",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Indent",
           "package": "YamlReference",
@@ -1045,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter indicating structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Indicator",
           "package": "YamlReference",
@@ -1055,6 +1142,7 @@
         "index": {
           "description": "Character indicating structure",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Indicator",
           "package": "YamlReference",
@@ -1069,6 +1157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine break normalized to content line feed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "LineFeed",
           "package": "YamlReference",
@@ -1079,6 +1168,7 @@
         "index": {
           "description": "Line break normalized to content line feed",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "LineFeed",
           "package": "YamlReference",
@@ -1093,6 +1183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine break folded to content space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "LineFold",
           "package": "YamlReference",
@@ -1103,6 +1194,7 @@
         "index": {
           "description": "Line break folded to content space",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "LineFold",
           "package": "YamlReference",
@@ -1117,6 +1209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-content (meta) text characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Meta",
           "package": "YamlReference",
@@ -1127,6 +1220,7 @@
         "index": {
           "description": "Non-content meta text characters",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Meta",
           "package": "YamlReference",
@@ -1141,6 +1235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContent text characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Text",
           "package": "YamlReference",
@@ -1151,6 +1246,7 @@
         "index": {
           "description": "Content text characters",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Text",
           "package": "YamlReference",
@@ -1165,6 +1261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnparsed due to errors (or at end of test).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "Unparsed",
           "package": "YamlReference",
@@ -1175,6 +1272,7 @@
         "index": {
           "description": "Unparsed due to errors or at end of test",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "Unparsed",
           "package": "YamlReference",
@@ -1189,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparation white space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "White",
           "package": "YamlReference",
@@ -1199,6 +1298,7 @@
         "index": {
           "description": "Separation white space",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "White",
           "package": "YamlReference",
@@ -1213,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eshowTokens tokens\u003c/code\u003e converts a list of \u003cem\u003etokens\u003c/em\u003e to a multi-line YEAST\n text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "showTokens",
           "package": "YamlReference",
@@ -1223,6 +1324,7 @@
         "index": {
           "description": "showTokens tokens converts list of tokens to multi-line YEAST text",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "showTokens",
           "normalized": "[Token]-\u003eString",
@@ -1239,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etokenizer name\u003c/code\u003e converts the production with the specified \u003cem\u003ename\u003c/em\u003e to a\n simple \u003ccode\u003e\u003ca\u003eTokenizer\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003eNothing\u003c/code\u003e if it isn't known.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "tokenizer",
           "package": "YamlReference",
@@ -1249,6 +1352,7 @@
         "index": {
           "description": "tokenizer name converts the production with the specified name to simple Tokenizer or Nothing if it isn known",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "tokenizer",
           "normalized": "String-\u003eMaybe Tokenizer",
@@ -1264,6 +1368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etokenizerNames\u003c/code\u003e returns the list of all productions (tokenizers).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "tokenizerNames",
           "package": "YamlReference",
@@ -1274,6 +1379,7 @@
         "index": {
           "description": "tokenizerNames returns the list of all productions tokenizers",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "tokenizerNames",
           "normalized": "[String]",
@@ -1290,6 +1396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etokenizerWithC name c\u003c/code\u003e converts the production (that requires a \u003cem\u003ec\u003c/em\u003e\n argument) with the specified \u003cem\u003ename\u003c/em\u003e to a simple \u003ccode\u003e\u003ca\u003eTokenizer\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003eNothing\u003c/code\u003e if\n it isn't known.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "tokenizerWithC",
           "package": "YamlReference",
@@ -1300,6 +1407,7 @@
         "index": {
           "description": "tokenizerWithC name converts the production that requires argument with the specified name to simple Tokenizer or Nothing if it isn known",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "tokenizerWithC",
           "normalized": "String-\u003eContext-\u003eMaybe Tokenizer",
@@ -1316,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etokenizerWithN name n\u003c/code\u003e converts the production (that requires an \u003cem\u003en\u003c/em\u003e\n argument) with the specified \u003cem\u003ename\u003c/em\u003e to a simple \u003ccode\u003e\u003ca\u003eTokenizer\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003eNothing\u003c/code\u003e if\n it isn't known.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "tokenizerWithN",
           "package": "YamlReference",
@@ -1326,6 +1435,7 @@
         "index": {
           "description": "tokenizerWithN name converts the production that requires an argument with the specified name to simple Tokenizer or Nothing if it isn known",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "tokenizerWithN",
           "normalized": "String-\u003eInt-\u003eMaybe Tokenizer",
@@ -1342,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etokenizerWithNC name n c\u003c/code\u003e converts the production (that requires \u003cem\u003en\u003c/em\u003e and\n \u003cem\u003ec\u003c/em\u003e arguments) with the specified \u003cem\u003ename\u003c/em\u003e to a simple \u003ccode\u003e\u003ca\u003eTokenizer\u003c/a\u003e\u003c/code\u003e, or\n \u003ccode\u003eNothing\u003c/code\u003e if it isn't known.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "tokenizerWithNC",
           "package": "YamlReference",
@@ -1352,6 +1463,7 @@
         "index": {
           "description": "tokenizerWithNC name converts the production that requires and arguments with the specified name to simple Tokenizer or Nothing if it isn known",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "tokenizerWithNC",
           "normalized": "String-\u003eInt-\u003eContext-\u003eMaybe Tokenizer",
@@ -1368,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etokenizerWithNT name n t\u003c/code\u003e converts the production (that requires \u003cem\u003en\u003c/em\u003e and\n \u003cem\u003et\u003c/em\u003e arguments) with the specified \u003cem\u003ename\u003c/em\u003e to a simple \u003ccode\u003e\u003ca\u003eTokenizer\u003c/a\u003e\u003c/code\u003e, or\n \u003ccode\u003eNothing\u003c/code\u003e if it isn't known.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "tokenizerWithNT",
           "package": "YamlReference",
@@ -1378,6 +1491,7 @@
         "index": {
           "description": "tokenizerWithNT name converts the production that requires and arguments with the specified name to simple Tokenizer or Nothing if it isn known",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "tokenizerWithNT",
           "normalized": "String-\u003eInt-\u003eChomp-\u003eMaybe Tokenizer",
@@ -1394,6 +1508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etokenizerWithT name t\u003c/code\u003e converts the production (that requires an \u003cem\u003et\u003c/em\u003e\n argument) with the specified \u003cem\u003ename\u003c/em\u003e to a simple \u003ccode\u003e\u003ca\u003eTokenizer\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003eNothing\u003c/code\u003e if\n it isn't known.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "tokenizerWithT",
           "package": "YamlReference",
@@ -1404,6 +1519,7 @@
         "index": {
           "description": "tokenizerWithT name converts the production that requires an argument with the specified name to simple Tokenizer or Nothing if it isn known",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "tokenizerWithT",
           "normalized": "String-\u003eChomp-\u003eMaybe Tokenizer",
@@ -1420,6 +1536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eyaml name input\u003c/code\u003e converts the Unicode \u003cem\u003einput\u003c/em\u003e (called \u003cem\u003ename\u003c/em\u003e in error\n messages) to a list of \u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003e according to the YAML spec. This is it!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:52 UTC 2014",
           "module": "Text.Yaml.Reference",
           "name": "yaml",
           "package": "YamlReference",
@@ -1430,6 +1547,7 @@
         "index": {
           "description": "yaml name input converts the Unicode input called name in error messages to list of Token according to the YAML spec This is it",
           "hierarchy": "Text Yaml Reference",
+          "indexed": "2014-03-11T17:05:52",
           "module": "Text.Yaml.Reference",
           "name": "yaml",
           "package": "YamlReference",
